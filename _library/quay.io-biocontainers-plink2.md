@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/plink2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plink2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plink2/container.yaml"
-updated_at: "2023-10-16 03:00:55.621186"
-latest: "2.00a3.7--h4ac6f70_4"
+updated_at: "2023-10-17 03:01:40.464467"
+latest: "2.00a5--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/plink2"
 aliases:
  - "plink2"
@@ -13,8 +13,9 @@ versions:
  - "2.00a3.3--hb2a7ceb_0"
  - "2.00a3.7--h9f5acd7_2"
  - "2.00a3.7--h4ac6f70_4"
+ - "2.00a5--h4ac6f70_0"
 description: "shpc-registry automated BioContainers addition for plink2"
-config: {"url": "https://biocontainers.pro/tools/plink2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plink2", "latest": {"2.00a3.7--h4ac6f70_4": "sha256:ad1ddb113bc0b13ae6ac9853a0100d61f7e8264591053abbcb386e2668e7c76d"}, "tags": {"2.00a3.3--hb2a7ceb_0": "sha256:dfa04a7b5b5ec23ca8e2e3af6aebd322428ca7c6898546b6e10b9ad841413dd5", "2.00a3.7--h9f5acd7_2": "sha256:2944b344c7086659f455bc129eafadf33488e6d9ec1b3ec4e1b58e62ce6f34ee", "2.00a3.7--h4ac6f70_4": "sha256:ad1ddb113bc0b13ae6ac9853a0100d61f7e8264591053abbcb386e2668e7c76d"}, "docker": "quay.io/biocontainers/plink2", "aliases": {"plink2": "/usr/local/bin/plink2"}}
+config: {"url": "https://biocontainers.pro/tools/plink2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plink2", "latest": {"2.00a5--h4ac6f70_0": "sha256:ca289a4c97a153ae60c6702f1a0583f6351d94bb2b60548412ed7043d16d8bb9"}, "tags": {"2.00a3.3--hb2a7ceb_0": "sha256:dfa04a7b5b5ec23ca8e2e3af6aebd322428ca7c6898546b6e10b9ad841413dd5", "2.00a3.7--h9f5acd7_2": "sha256:2944b344c7086659f455bc129eafadf33488e6d9ec1b3ec4e1b58e62ce6f34ee", "2.00a3.7--h4ac6f70_4": "sha256:ad1ddb113bc0b13ae6ac9853a0100d61f7e8264591053abbcb386e2668e7c76d", "2.00a5--h4ac6f70_0": "sha256:ca289a4c97a153ae60c6702f1a0583f6351d94bb2b60548412ed7043d16d8bb9"}, "docker": "quay.io/biocontainers/plink2", "aliases": {"plink2": "/usr/local/bin/plink2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plink2.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/plink2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plink2:2.00a3.7--h4ac6f70_4
+$ shpc install quay.io/biocontainers/plink2:2.00a5--h4ac6f70_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plink2/2.00a3.7--h4ac6f70_4
-$ module help quay.io/biocontainers/plink2/2.00a3.7--h4ac6f70_4
+$ module load quay.io/biocontainers/plink2/2.00a5--h4ac6f70_0
+$ module help quay.io/biocontainers/plink2/2.00a5--h4ac6f70_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/peglit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peglit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peglit/container.yaml"
-updated_at: "2023-10-16 02:26:47.236490"
-latest: "1.0.2--pyh7cba7a3_0"
+updated_at: "2023-10-17 02:25:37.235727"
+latest: "1.1.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/peglit"
 aliases:
  - "RNAmultifold"
@@ -40,8 +40,9 @@ aliases:
  - "RNAforester"
 versions:
  - "1.0.2--pyh7cba7a3_0"
+ - "1.1.0--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for peglit"
-config: {"url": "https://biocontainers.pro/tools/peglit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peglit", "latest": {"1.0.2--pyh7cba7a3_0": "sha256:b6aa924c325390ebc962fc877216dda61706359f47651460833ba8ab306098bf"}, "tags": {"1.0.2--pyh7cba7a3_0": "sha256:b6aa924c325390ebc962fc877216dda61706359f47651460833ba8ab306098bf"}, "docker": "quay.io/biocontainers/peglit", "aliases": {"RNAmultifold": "/usr/local/bin/RNAmultifold", "peglit": "/usr/local/bin/peglit", "peglit.inspect": "/usr/local/bin/peglit.inspect", "peglit.score": "/usr/local/bin/peglit.score", "tjbench": "/usr/local/bin/tjbench", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex", "RNAsnoop": "/usr/local/bin/RNAsnoop", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval", "RNAforester": "/usr/local/bin/RNAforester"}}
+config: {"url": "https://biocontainers.pro/tools/peglit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peglit", "latest": {"1.1.0--pyh7cba7a3_0": "sha256:e1adcbce6b769874c68dacbbda139ffaff93823a9c6b2e61155e3ac53f6a021e"}, "tags": {"1.0.2--pyh7cba7a3_0": "sha256:b6aa924c325390ebc962fc877216dda61706359f47651460833ba8ab306098bf", "1.1.0--pyh7cba7a3_0": "sha256:e1adcbce6b769874c68dacbbda139ffaff93823a9c6b2e61155e3ac53f6a021e"}, "docker": "quay.io/biocontainers/peglit", "aliases": {"RNAmultifold": "/usr/local/bin/RNAmultifold", "peglit": "/usr/local/bin/peglit", "peglit.inspect": "/usr/local/bin/peglit.inspect", "peglit.score": "/usr/local/bin/peglit.score", "tjbench": "/usr/local/bin/tjbench", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex", "RNAsnoop": "/usr/local/bin/RNAsnoop", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval", "RNAforester": "/usr/local/bin/RNAforester"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peglit.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/peglit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/peglit:1.0.2--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/peglit:1.1.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/peglit/1.0.2--pyh7cba7a3_0
-$ module help quay.io/biocontainers/peglit/1.0.2--pyh7cba7a3_0
+$ module load quay.io/biocontainers/peglit/1.1.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/peglit/1.1.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crisprbact"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crisprbact/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crisprbact/container.yaml"
-updated_at: "2023-10-16 03:19:29.734858"
+updated_at: "2023-10-17 03:21:16.136098"
 latest: "0.3.11--py_0"
 container_url: "https://biocontainers.pro/tools/crisprbact"
 aliases:

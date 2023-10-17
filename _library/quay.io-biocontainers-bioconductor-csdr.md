@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-csdr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-csdr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-csdr/container.yaml"
-updated_at: "2023-10-16 02:53:38.631305"
-latest: "1.4.0--r42hf17093f_1"
+updated_at: "2023-10-17 02:54:05.568610"
+latest: "1.6.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-csdr"
 
 versions:
  - "1.0.0--r41hc247a5b_2"
  - "1.4.0--r42hc247a5b_0"
  - "1.4.0--r42hf17093f_1"
+ - "1.6.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-csdr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-csdr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-csdr", "latest": {"1.4.0--r42hf17093f_1": "sha256:026cab2337579a78a7f43bee06282bff2842863bea65034a5ba6eddb97a61ce1"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:4d600ac2a62cdf7f4cd5c9e195c2a91fd3628931ad015d9ace071335239e6806", "1.4.0--r42hc247a5b_0": "sha256:542ff548228da23851e632a5757609018786606ecee84b8a3f5acd9254346b69", "1.4.0--r42hf17093f_1": "sha256:026cab2337579a78a7f43bee06282bff2842863bea65034a5ba6eddb97a61ce1"}, "docker": "quay.io/biocontainers/bioconductor-csdr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-csdr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-csdr", "latest": {"1.6.0--r43hf17093f_0": "sha256:8285787abc9ce35413f053178738a237d5af0d925f362508fe3ed58bf534f593"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:4d600ac2a62cdf7f4cd5c9e195c2a91fd3628931ad015d9ace071335239e6806", "1.4.0--r42hc247a5b_0": "sha256:542ff548228da23851e632a5757609018786606ecee84b8a3f5acd9254346b69", "1.4.0--r42hf17093f_1": "sha256:026cab2337579a78a7f43bee06282bff2842863bea65034a5ba6eddb97a61ce1", "1.6.0--r43hf17093f_0": "sha256:8285787abc9ce35413f053178738a237d5af0d925f362508fe3ed58bf534f593"}, "docker": "quay.io/biocontainers/bioconductor-csdr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-csdr.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-csdr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-csdr:1.4.0--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-csdr:1.6.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-csdr/1.4.0--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-csdr/1.4.0--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-csdr/1.6.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-csdr/1.6.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

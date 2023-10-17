@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gars"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gars/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gars/container.yaml"
-updated_at: "2023-10-16 02:50:42.810113"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-10-17 02:51:01.148180"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gars"
 aliases:
  - "extcheck"
@@ -24,8 +24,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gars"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gars", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gars", "latest": {"1.18.0--r42hdfd78af_0": "sha256:2133bfe6674c9c2b763ae2ce91e1c136d59ef23e7ff64bd7bf6de9e4ea88c922"}, "tags": {"1.6.0--r36_0": "sha256:d3867b11f0e794642dce17d3d0ef7a417e3e2811e9bdc7dfedcf2f9328d4b4ff", "1.18.0--r42hdfd78af_0": "sha256:2133bfe6674c9c2b763ae2ce91e1c136d59ef23e7ff64bd7bf6de9e4ea88c922", "1.14.0--r41hdfd78af_0": "sha256:90a53dbfa7ee256725f59f0b66c8d9fc422af544306f6772c2a1efec55020527", "1.12.0--r41hdfd78af_0": "sha256:1be95d90d26ac8f8a0da2c03948affc0f45414e6c1c074de35329cc57a781793", "1.10.0--r40hdfd78af_1": "sha256:fb98a9952790d24bc860409ebd8b6aa2e8d408fcd0606f3a62fa17ea3fa54af0"}, "docker": "quay.io/biocontainers/bioconductor-gars", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gars", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gars", "latest": {"1.20.0--r43hdfd78af_0": "sha256:c036eff180e2205d96cc42dbe28821843ae06461ba8bbe9cc62bb39fe6c41cff"}, "tags": {"1.6.0--r36_0": "sha256:d3867b11f0e794642dce17d3d0ef7a417e3e2811e9bdc7dfedcf2f9328d4b4ff", "1.18.0--r42hdfd78af_0": "sha256:2133bfe6674c9c2b763ae2ce91e1c136d59ef23e7ff64bd7bf6de9e4ea88c922", "1.14.0--r41hdfd78af_0": "sha256:90a53dbfa7ee256725f59f0b66c8d9fc422af544306f6772c2a1efec55020527", "1.12.0--r41hdfd78af_0": "sha256:1be95d90d26ac8f8a0da2c03948affc0f45414e6c1c074de35329cc57a781793", "1.10.0--r40hdfd78af_1": "sha256:fb98a9952790d24bc860409ebd8b6aa2e8d408fcd0606f3a62fa17ea3fa54af0", "1.20.0--r43hdfd78af_0": "sha256:c036eff180e2205d96cc42dbe28821843ae06461ba8bbe9cc62bb39fe6c41cff"}, "docker": "quay.io/biocontainers/bioconductor-gars", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gars.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gars
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gars:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gars:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gars/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gars/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gars/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gars/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xbioc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xbioc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xbioc/container.yaml"
-updated_at: "2023-10-16 02:28:36.614626"
+updated_at: "2023-10-17 02:27:34.045667"
 latest: "0.1.19--r43hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/xbioc"
 

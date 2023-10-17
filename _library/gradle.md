@@ -4,8 +4,8 @@ name:  "gradle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/gradle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/gradle/container.yaml"
-updated_at: "2023-10-16 03:19:49.770817"
-latest: "8-jdk19"
+updated_at: "2023-10-17 03:21:36.445288"
+latest: "8-jdk21"
 container_url: "https://hub.docker.com/_/gradle"
 aliases:
  - "gradle"
@@ -32,8 +32,10 @@ versions:
  - "8-jdk17"
  - "8-jdk11"
  - "8-jdk8"
+ - "8-jdk21"
+ - "8-jdk20"
 description: "Gradle is a build tool with a focus on build automation and support for multi-language development."
-config: {"docker": "gradle", "url": "https://hub.docker.com/_/gradle", "maintainer": "@vsoch", "description": "Gradle is a build tool with a focus on build automation and support for multi-language development.", "latest": {"8-jdk19": "sha256:c241e5fb467405a0388618854931d392af82cc22869e658f20a65e062a660550"}, "tags": {"7.0.0-hotspot": "sha256:cef49a7bdb0c53dc0d64ed24f375fb0fdd6e3489d0b4fcd393f0c8c09be11320", "7.0.1-hotspot": "sha256:f3207f774a8ceb3286e0b65ca1864cfab639797a307c3d505bc6775adfb28d66", "7.0.2-hotspot": "sha256:b36aabaa3f4b333aae071be8658ad2fa558bcaea9e31b3e8dc42f6e7846cbd01", "7.1.0-hotspot": "sha256:92c0f3381fd8db612dac10b5b584d68376c192bae6b1a11b2190780a60411fe4", "7.1.1-hotspot": "sha256:19d9bdf24a291e5d7ac758c8d0c7d8f2f5d641b130d17b556dbab2c49701bf3e", "7.2.0": "sha256:67de4380b26d2b5406077cf5439b3488d139f7fedd9bdb8ddfadbe277750ede8", "7.3.0": "sha256:1f65f4991aa496cf835cbce10290bdc71c1cb526b4df807d97c4f51b863f2399", "7.3.3": "sha256:8d037a3bd86fc48b591ad778d6eb6130e641bad1be546923e6d097a7ad7708eb", "7.4.0": "sha256:5248d0e8f7f6ad2095c3a053d5461daa17b02097410f0e9f6397f8f4dedc34bf", "latest": "sha256:630b7e09fe789f3a282e67c5899350c3bd163a3fbc16e759a0c54ee2954de0d8", "7": "sha256:f176306e51a397ee66d28d0055e72d689ac926c9fd7a6ba9f5b0283ba19f6e1c", "7-jdk17": "sha256:f176306e51a397ee66d28d0055e72d689ac926c9fd7a6ba9f5b0283ba19f6e1c", "7-jdk16": "sha256:f174c0dcf9a84b4035f1fcb62f0340ddc69c0b93320e0d35f097d20ce2ca89d5", "7-jdk11": "sha256:73e242c0f915b472bb625d0e954c35b6828f6b6deb40a353f131fb5f5512eb0d", "7-jdk-openj9": "sha256:acd908af42e1bee2f841eeac031d41317ab3fddcc3ec9d0d4e1cb4b28be24f5f", "7-jdk18": "sha256:f3c6308a57fa86af3c05ed1746cd041035074ed932cb9fecc0a0efedad35955e", "7-jdk19": "sha256:71af39c788a072e2ac641a4f87fa9d2a71fc46c017a5041c7aab3ff4fd36c666", "8": "sha256:630b7e09fe789f3a282e67c5899350c3bd163a3fbc16e759a0c54ee2954de0d8", "8-jdk19": "sha256:c241e5fb467405a0388618854931d392af82cc22869e658f20a65e062a660550", "8-jdk17": "sha256:630b7e09fe789f3a282e67c5899350c3bd163a3fbc16e759a0c54ee2954de0d8", "8-jdk11": "sha256:2debffc0c93d77bbc59d02dc08a3017bb589741d717d581bdbd4fe32ca7ebedc", "8-jdk8": "sha256:147a5b2eae36eb81588aa69313f1137a94efbf8082f19017cf249203e9d344c7"}, "aliases": {"gradle": "/usr/bin/gradle"}}
+config: {"docker": "gradle", "url": "https://hub.docker.com/_/gradle", "maintainer": "@vsoch", "description": "Gradle is a build tool with a focus on build automation and support for multi-language development.", "latest": {"8-jdk21": "sha256:d579ca8b5a0d80a6d8c5e87688d9b81481b92e468eb81525670f58980f4e23ac"}, "tags": {"7.0.0-hotspot": "sha256:cef49a7bdb0c53dc0d64ed24f375fb0fdd6e3489d0b4fcd393f0c8c09be11320", "7.0.1-hotspot": "sha256:f3207f774a8ceb3286e0b65ca1864cfab639797a307c3d505bc6775adfb28d66", "7.0.2-hotspot": "sha256:b36aabaa3f4b333aae071be8658ad2fa558bcaea9e31b3e8dc42f6e7846cbd01", "7.1.0-hotspot": "sha256:92c0f3381fd8db612dac10b5b584d68376c192bae6b1a11b2190780a60411fe4", "7.1.1-hotspot": "sha256:19d9bdf24a291e5d7ac758c8d0c7d8f2f5d641b130d17b556dbab2c49701bf3e", "7.2.0": "sha256:67de4380b26d2b5406077cf5439b3488d139f7fedd9bdb8ddfadbe277750ede8", "7.3.0": "sha256:1f65f4991aa496cf835cbce10290bdc71c1cb526b4df807d97c4f51b863f2399", "7.3.3": "sha256:8d037a3bd86fc48b591ad778d6eb6130e641bad1be546923e6d097a7ad7708eb", "7.4.0": "sha256:5248d0e8f7f6ad2095c3a053d5461daa17b02097410f0e9f6397f8f4dedc34bf", "latest": "sha256:9fde0212a97ab5c96e17797bba1f4f63c223a5ca04131d8dbafce038c53c4eb3", "7": "sha256:83c56ac6fad923a6d81bf0d871b823d9ce2e1edb7d7f38c56579b6477f292bc8", "7-jdk17": "sha256:83c56ac6fad923a6d81bf0d871b823d9ce2e1edb7d7f38c56579b6477f292bc8", "7-jdk16": "sha256:f174c0dcf9a84b4035f1fcb62f0340ddc69c0b93320e0d35f097d20ce2ca89d5", "7-jdk11": "sha256:6671034d57cdc4c9c62ede4e115a9ab61d6f14ca999fbbbfba5fddb668faea75", "7-jdk-openj9": "sha256:acd908af42e1bee2f841eeac031d41317ab3fddcc3ec9d0d4e1cb4b28be24f5f", "7-jdk18": "sha256:f3c6308a57fa86af3c05ed1746cd041035074ed932cb9fecc0a0efedad35955e", "7-jdk19": "sha256:71af39c788a072e2ac641a4f87fa9d2a71fc46c017a5041c7aab3ff4fd36c666", "8": "sha256:9fde0212a97ab5c96e17797bba1f4f63c223a5ca04131d8dbafce038c53c4eb3", "8-jdk19": "sha256:c241e5fb467405a0388618854931d392af82cc22869e658f20a65e062a660550", "8-jdk17": "sha256:9fde0212a97ab5c96e17797bba1f4f63c223a5ca04131d8dbafce038c53c4eb3", "8-jdk11": "sha256:13a09bd2f05f7ad894e21f64b24a0e2aa6b000b45e7f889aab3b7f0b2abf4cf8", "8-jdk8": "sha256:fb833a6ad14efed232d480444753c9555176b96ad7ffa3f85d26e40c31cd69d3", "8-jdk21": "sha256:d579ca8b5a0d80a6d8c5e87688d9b81481b92e468eb81525670f58980f4e23ac", "8-jdk20": "sha256:c4aec619101a1b52872ef6e9687797e8e36c0b44649046e95001a797bd4697c8"}, "aliases": {"gradle": "/usr/bin/gradle"}}
 ---
 
 This module is a singularity container wrapper for gradle.
@@ -48,7 +50,7 @@ $ shpc install gradle
 Or a specific version:
 
 ```bash
-$ shpc install gradle:8-jdk19
+$ shpc install gradle:8-jdk21
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load gradle/8-jdk19
-$ module help gradle/8-jdk19
+$ module load gradle/8-jdk21
+$ module help gradle/8-jdk21
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellhts2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellhts2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellhts2/container.yaml"
-updated_at: "2023-10-16 03:00:29.641620"
+updated_at: "2023-10-17 03:01:13.534662"
 latest: "2.64.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellhts2"
 aliases:

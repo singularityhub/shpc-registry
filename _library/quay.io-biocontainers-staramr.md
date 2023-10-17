@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/staramr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staramr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/staramr/container.yaml"
-updated_at: "2023-10-16 03:01:17.643914"
-latest: "0.9.1--pyhdfd78af_0"
+updated_at: "2023-10-17 03:02:03.644117"
+latest: "0.10.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/staramr"
 aliases:
  - "file"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "0.8.0--pyhdfd78af_1"
  - "0.9.1--pyhdfd78af_0"
+ - "0.10.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for staramr"
-config: {"url": "https://biocontainers.pro/tools/staramr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for staramr", "latest": {"0.9.1--pyhdfd78af_0": "sha256:2f9854fe427789f22d2f7bf72a708d6158f422458c5805ecdf979e7f39b5d612"}, "tags": {"0.8.0--pyhdfd78af_1": "sha256:845264047df122c41e62d6236a2ddb0698f54ed893edbd56380544eb83ca5849", "0.9.1--pyhdfd78af_0": "sha256:2f9854fe427789f22d2f7bf72a708d6158f422458c5805ecdf979e7f39b5d612"}, "docker": "quay.io/biocontainers/staramr", "aliases": {"file": "/usr/local/bin/file", "green": "/usr/local/bin/green", "green3": "/usr/local/bin/green3", "green3.10": "/usr/local/bin/green3.10", "mlst": "/usr/local/bin/mlst", "staramr": "/usr/local/bin/staramr", "unidecode": "/usr/local/bin/unidecode", "coverage": "/usr/local/bin/coverage", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl"}}
+config: {"url": "https://biocontainers.pro/tools/staramr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for staramr", "latest": {"0.10.0--pyhdfd78af_0": "sha256:b7556aab41eddc4bf2e3f4101fae7af0d0e9ddd8ba3cbcec7be9a5c5fbe5946e"}, "tags": {"0.8.0--pyhdfd78af_1": "sha256:845264047df122c41e62d6236a2ddb0698f54ed893edbd56380544eb83ca5849", "0.9.1--pyhdfd78af_0": "sha256:2f9854fe427789f22d2f7bf72a708d6158f422458c5805ecdf979e7f39b5d612", "0.10.0--pyhdfd78af_0": "sha256:b7556aab41eddc4bf2e3f4101fae7af0d0e9ddd8ba3cbcec7be9a5c5fbe5946e"}, "docker": "quay.io/biocontainers/staramr", "aliases": {"file": "/usr/local/bin/file", "green": "/usr/local/bin/green", "green3": "/usr/local/bin/green3", "green3.10": "/usr/local/bin/green3.10", "mlst": "/usr/local/bin/mlst", "staramr": "/usr/local/bin/staramr", "unidecode": "/usr/local/bin/unidecode", "coverage": "/usr/local/bin/coverage", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/staramr.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/staramr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/staramr:0.9.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/staramr:0.10.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/staramr/0.9.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/staramr/0.9.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/staramr/0.10.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/staramr/0.10.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

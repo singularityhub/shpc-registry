@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-desingle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-desingle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-desingle/container.yaml"
-updated_at: "2023-10-16 02:28:04.818091"
-latest: "1.18.0--r42hdfd78af_0"
+updated_at: "2023-10-17 02:26:59.510420"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-desingle"
 aliases:
  - "2to3-3.8"
@@ -22,8 +22,9 @@ versions:
  - "1.14.0--r41hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-desingle"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-desingle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-desingle", "latest": {"1.18.0--r42hdfd78af_0": "sha256:332dcee3670cb02bd585636000d654db45a71228b0d3e6635a267c5e969e78d3"}, "tags": {"1.8.0--r40_0": "sha256:c6763767cb564291b5a254bafed09281260bc03c8af78c17a321ea5663a6220f", "1.18.0--r42hdfd78af_0": "sha256:332dcee3670cb02bd585636000d654db45a71228b0d3e6635a267c5e969e78d3", "1.14.0--r41hdfd78af_0": "sha256:a1e534f86960c06c7985823a8e5c51de035d4059cefd7d08b9cb83d1ce37726c", "1.12.0--r41hdfd78af_0": "sha256:61f3095751c7744dcb5fcd61d34ec03ee92156f7f7e2e92e9e35e1d728914c92", "1.10.0--r40hdfd78af_1": "sha256:9c3f555b4d719381354c4c45c5238b43d35730fa699a745278bc9aac1eace3a4"}, "docker": "quay.io/biocontainers/bioconductor-desingle", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-desingle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-desingle", "latest": {"1.20.0--r43hdfd78af_0": "sha256:725703860ff12a7d728cb4c5b09d66f2ee8f479bd0fb0f0b3106edd339b527ae"}, "tags": {"1.8.0--r40_0": "sha256:c6763767cb564291b5a254bafed09281260bc03c8af78c17a321ea5663a6220f", "1.18.0--r42hdfd78af_0": "sha256:332dcee3670cb02bd585636000d654db45a71228b0d3e6635a267c5e969e78d3", "1.14.0--r41hdfd78af_0": "sha256:a1e534f86960c06c7985823a8e5c51de035d4059cefd7d08b9cb83d1ce37726c", "1.12.0--r41hdfd78af_0": "sha256:61f3095751c7744dcb5fcd61d34ec03ee92156f7f7e2e92e9e35e1d728914c92", "1.10.0--r40hdfd78af_1": "sha256:9c3f555b4d719381354c4c45c5238b43d35730fa699a745278bc9aac1eace3a4", "1.20.0--r43hdfd78af_0": "sha256:725703860ff12a7d728cb4c5b09d66f2ee8f479bd0fb0f0b3106edd339b527ae"}, "docker": "quay.io/biocontainers/bioconductor-desingle", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-desingle.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-desingle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-desingle:1.18.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-desingle:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-desingle/1.18.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-desingle/1.18.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-desingle/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-desingle/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

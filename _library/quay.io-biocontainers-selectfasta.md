@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/selectfasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/selectfasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/selectfasta/container.yaml"
-updated_at: "2023-10-16 03:04:40.469020"
-latest: "2.0--hdbdd923_2"
+updated_at: "2023-10-17 03:05:37.849967"
+latest: "3.1--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/selectfasta"
 aliases:
  - "selectFasta"
@@ -13,8 +13,9 @@ versions:
  - "1.0--h87f3376_2"
  - "2.0--h87f3376_0"
  - "2.0--hdbdd923_2"
+ - "3.1--hdbdd923_0"
 description: "shpc-registry automated BioContainers addition for selectfasta"
-config: {"url": "https://biocontainers.pro/tools/selectfasta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for selectfasta", "latest": {"2.0--hdbdd923_2": "sha256:81cc6c14a49e76e9edc3b8567454fc7cdeaa0a33c5c3a1c584b3852d94088fcb"}, "tags": {"1.0--h87f3376_2": "sha256:0ab0962da29d3fa98022c74ef21fc5df2dedefd209e836a96102d20891e7ab7e", "2.0--h87f3376_0": "sha256:c369e5483e8b17ecfc6df02595548d1f8e0b5faed2ad412da805e0fa43992893", "2.0--hdbdd923_2": "sha256:81cc6c14a49e76e9edc3b8567454fc7cdeaa0a33c5c3a1c584b3852d94088fcb"}, "docker": "quay.io/biocontainers/selectfasta", "aliases": {"selectFasta": "/usr/local/bin/selectFasta"}}
+config: {"url": "https://biocontainers.pro/tools/selectfasta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for selectfasta", "latest": {"3.1--hdbdd923_0": "sha256:b142cb8a657b064966be6c904f082ddf439a95848bdfcdb3d570a225fe451d37"}, "tags": {"1.0--h87f3376_2": "sha256:0ab0962da29d3fa98022c74ef21fc5df2dedefd209e836a96102d20891e7ab7e", "2.0--h87f3376_0": "sha256:c369e5483e8b17ecfc6df02595548d1f8e0b5faed2ad412da805e0fa43992893", "2.0--hdbdd923_2": "sha256:81cc6c14a49e76e9edc3b8567454fc7cdeaa0a33c5c3a1c584b3852d94088fcb", "3.1--hdbdd923_0": "sha256:b142cb8a657b064966be6c904f082ddf439a95848bdfcdb3d570a225fe451d37"}, "docker": "quay.io/biocontainers/selectfasta", "aliases": {"selectFasta": "/usr/local/bin/selectFasta"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/selectfasta.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/selectfasta
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/selectfasta:2.0--hdbdd923_2
+$ shpc install quay.io/biocontainers/selectfasta:3.1--hdbdd923_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/selectfasta/2.0--hdbdd923_2
-$ module help quay.io/biocontainers/selectfasta/2.0--hdbdd923_2
+$ module load quay.io/biocontainers/selectfasta/3.1--hdbdd923_0
+$ module help quay.io/biocontainers/selectfasta/3.1--hdbdd923_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

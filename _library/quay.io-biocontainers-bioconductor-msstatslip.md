@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-msstatslip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msstatslip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msstatslip/container.yaml"
-updated_at: "2023-10-16 02:39:57.311076"
-latest: "1.3.1--r42hf17093f_1"
+updated_at: "2023-10-17 02:39:38.035567"
+latest: "1.6.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msstatslip"
 aliases:
  - "pandoc-server"
@@ -21,8 +21,9 @@ versions:
  - "1.0.0--r41hc247a5b_2"
  - "1.3.1--r42hc247a5b_0"
  - "1.3.1--r42hf17093f_1"
+ - "1.6.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msstatslip"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msstatslip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msstatslip", "latest": {"1.3.1--r42hf17093f_1": "sha256:6af83afe33ec6cf2abdc62acdb7cd7fcaf29757ada2587a1fb295ee7a9a99d17"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:bde8d6e764215212fac7e40948a345d5ba26aa58b379f6eb144f0bf771c50e41", "1.3.1--r42hc247a5b_0": "sha256:8c129c99e5af6e6fb917307d3030f2ee47f3173d9de0f313131736efe6c3c82e", "1.3.1--r42hf17093f_1": "sha256:6af83afe33ec6cf2abdc62acdb7cd7fcaf29757ada2587a1fb295ee7a9a99d17"}, "docker": "quay.io/biocontainers/bioconductor-msstatslip", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msstatslip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msstatslip", "latest": {"1.6.0--r43hf17093f_0": "sha256:91e9043de59805be6edd1e93644473f62f6adc34e842b55dd14ecc46d8e698fb"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:bde8d6e764215212fac7e40948a345d5ba26aa58b379f6eb144f0bf771c50e41", "1.3.1--r42hc247a5b_0": "sha256:8c129c99e5af6e6fb917307d3030f2ee47f3173d9de0f313131736efe6c3c82e", "1.3.1--r42hf17093f_1": "sha256:6af83afe33ec6cf2abdc62acdb7cd7fcaf29757ada2587a1fb295ee7a9a99d17", "1.6.0--r43hf17093f_0": "sha256:91e9043de59805be6edd1e93644473f62f6adc34e842b55dd14ecc46d8e698fb"}, "docker": "quay.io/biocontainers/bioconductor-msstatslip", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msstatslip.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msstatslip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msstatslip:1.3.1--r42hf17093f_1
+$ shpc install quay.io/biocontainers/bioconductor-msstatslip:1.6.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msstatslip/1.3.1--r42hf17093f_1
-$ module help quay.io/biocontainers/bioconductor-msstatslip/1.3.1--r42hf17093f_1
+$ module load quay.io/biocontainers/bioconductor-msstatslip/1.6.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-msstatslip/1.6.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

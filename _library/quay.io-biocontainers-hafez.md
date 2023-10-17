@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hafez"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hafez/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hafez/container.yaml"
-updated_at: "2023-10-16 02:42:12.764535"
-latest: "1.0.3--pyh7cba7a3_0"
+updated_at: "2023-10-17 02:41:59.331562"
+latest: "1.0.4--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/hafez"
 aliases:
  - "a3m_database_extract"
@@ -53,8 +53,9 @@ aliases:
 versions:
  - "1.0.2--pyh5e36f6f_0"
  - "1.0.3--pyh7cba7a3_0"
+ - "1.0.4--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for hafez"
-config: {"url": "https://biocontainers.pro/tools/hafez", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hafez", "latest": {"1.0.3--pyh7cba7a3_0": "sha256:85da51b188fd186e2addd5111d94bdc63ecdd62cd2705ceda70a9c7617c926c1"}, "tags": {"1.0.2--pyh5e36f6f_0": "sha256:e8cd8b4c86e8c1df6d72ba0c3d6394587d5ec87b97b6b1cf3723153333f81049", "1.0.3--pyh7cba7a3_0": "sha256:85da51b188fd186e2addd5111d94bdc63ecdd62cd2705ceda70a9c7617c926c1"}, "docker": "quay.io/biocontainers/hafez", "aliases": {"a3m_database_extract": "/usr/local/bin/a3m_database_extract", "a3m_database_filter": "/usr/local/bin/a3m_database_filter", "a3m_database_reduce": "/usr/local/bin/a3m_database_reduce", "a3m_extract": "/usr/local/bin/a3m_extract", "a3m_reduce": "/usr/local/bin/a3m_reduce", "cstranslate": "/usr/local/bin/cstranslate", "ffindex_apply": "/usr/local/bin/ffindex_apply", "ffindex_build": "/usr/local/bin/ffindex_build", "ffindex_from_fasta": "/usr/local/bin/ffindex_from_fasta", "ffindex_from_fasta_with_split": "/usr/local/bin/ffindex_from_fasta_with_split", "ffindex_get": "/usr/local/bin/ffindex_get", "ffindex_modify": "/usr/local/bin/ffindex_modify", "ffindex_order": "/usr/local/bin/ffindex_order", "ffindex_reduce": "/usr/local/bin/ffindex_reduce", "ffindex_unpack": "/usr/local/bin/ffindex_unpack", "hafeZ.py": "/usr/local/bin/hafeZ.py", "hhalign": "/usr/local/bin/hhalign", "hhalign_omp": "/usr/local/bin/hhalign_omp", "hhblits": "/usr/local/bin/hhblits", "hhblits_ca3m": "/usr/local/bin/hhblits_ca3m", "hhblits_omp": "/usr/local/bin/hhblits_omp", "hhconsensus": "/usr/local/bin/hhconsensus", "hhfilter": "/usr/local/bin/hhfilter", "hhmake": "/usr/local/bin/hhmake", "hhsearch": "/usr/local/bin/hhsearch", "hhsearch_omp": "/usr/local/bin/hhsearch_omp", "ldc-build-runtime": "/usr/local/bin/ldc-build-runtime", "ldc-profdata": "/usr/local/bin/ldc-profdata", "ldc-prune-cache": "/usr/local/bin/ldc-prune-cache", "ldc2": "/usr/local/bin/ldc2", "ldmd2": "/usr/local/bin/ldmd2", "mosdepth": "/usr/local/bin/mosdepth", "sambamba": "/usr/local/bin/sambamba", "filter-table": "/usr/local/bin/filter-table", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "spdi2prod": "/usr/local/bin/spdi2prod", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh"}}
+config: {"url": "https://biocontainers.pro/tools/hafez", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hafez", "latest": {"1.0.4--pyh7cba7a3_0": "sha256:dd481c1e6304855a45e7eb314f8fc678e868dd9978c4c5132f32060a45efe6f4"}, "tags": {"1.0.2--pyh5e36f6f_0": "sha256:e8cd8b4c86e8c1df6d72ba0c3d6394587d5ec87b97b6b1cf3723153333f81049", "1.0.3--pyh7cba7a3_0": "sha256:85da51b188fd186e2addd5111d94bdc63ecdd62cd2705ceda70a9c7617c926c1", "1.0.4--pyh7cba7a3_0": "sha256:dd481c1e6304855a45e7eb314f8fc678e868dd9978c4c5132f32060a45efe6f4"}, "docker": "quay.io/biocontainers/hafez", "aliases": {"a3m_database_extract": "/usr/local/bin/a3m_database_extract", "a3m_database_filter": "/usr/local/bin/a3m_database_filter", "a3m_database_reduce": "/usr/local/bin/a3m_database_reduce", "a3m_extract": "/usr/local/bin/a3m_extract", "a3m_reduce": "/usr/local/bin/a3m_reduce", "cstranslate": "/usr/local/bin/cstranslate", "ffindex_apply": "/usr/local/bin/ffindex_apply", "ffindex_build": "/usr/local/bin/ffindex_build", "ffindex_from_fasta": "/usr/local/bin/ffindex_from_fasta", "ffindex_from_fasta_with_split": "/usr/local/bin/ffindex_from_fasta_with_split", "ffindex_get": "/usr/local/bin/ffindex_get", "ffindex_modify": "/usr/local/bin/ffindex_modify", "ffindex_order": "/usr/local/bin/ffindex_order", "ffindex_reduce": "/usr/local/bin/ffindex_reduce", "ffindex_unpack": "/usr/local/bin/ffindex_unpack", "hafeZ.py": "/usr/local/bin/hafeZ.py", "hhalign": "/usr/local/bin/hhalign", "hhalign_omp": "/usr/local/bin/hhalign_omp", "hhblits": "/usr/local/bin/hhblits", "hhblits_ca3m": "/usr/local/bin/hhblits_ca3m", "hhblits_omp": "/usr/local/bin/hhblits_omp", "hhconsensus": "/usr/local/bin/hhconsensus", "hhfilter": "/usr/local/bin/hhfilter", "hhmake": "/usr/local/bin/hhmake", "hhsearch": "/usr/local/bin/hhsearch", "hhsearch_omp": "/usr/local/bin/hhsearch_omp", "ldc-build-runtime": "/usr/local/bin/ldc-build-runtime", "ldc-profdata": "/usr/local/bin/ldc-profdata", "ldc-prune-cache": "/usr/local/bin/ldc-prune-cache", "ldc2": "/usr/local/bin/ldc2", "ldmd2": "/usr/local/bin/ldmd2", "mosdepth": "/usr/local/bin/mosdepth", "sambamba": "/usr/local/bin/sambamba", "filter-table": "/usr/local/bin/filter-table", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "spdi2prod": "/usr/local/bin/spdi2prod", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hafez.
@@ -69,7 +70,7 @@ $ shpc install quay.io/biocontainers/hafez
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hafez:1.0.3--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/hafez:1.0.4--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -81,8 +82,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hafez/1.0.3--pyh7cba7a3_0
-$ module help quay.io/biocontainers/hafez/1.0.3--pyh7cba7a3_0
+$ module load quay.io/biocontainers/hafez/1.0.4--pyh7cba7a3_0
+$ module help quay.io/biocontainers/hafez/1.0.4--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

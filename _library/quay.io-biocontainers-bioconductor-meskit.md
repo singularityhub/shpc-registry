@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-meskit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-meskit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-meskit/container.yaml"
-updated_at: "2023-10-16 02:57:48.701784"
-latest: "1.8.0--r42hdfd78af_0"
+updated_at: "2023-10-17 02:58:26.259387"
+latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-meskit"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
+ - "1.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-meskit"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-meskit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-meskit", "latest": {"1.8.0--r42hdfd78af_0": "sha256:fd25fa0b7e2a13814bdceb5720a75c5d53e6d13a7e5ef3d57ab16c7b146a4953"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:dc1b7396bf3730192371553791887734eeec0124109df034fe77c5556c6eea67", "1.8.0--r42hdfd78af_0": "sha256:fd25fa0b7e2a13814bdceb5720a75c5d53e6d13a7e5ef3d57ab16c7b146a4953"}, "docker": "quay.io/biocontainers/bioconductor-meskit"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-meskit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-meskit", "latest": {"1.10.0--r43hdfd78af_0": "sha256:cc208b945fd2fb0051ef289d38bf76a09e4ed2db86f6d46e5fe614ead0c196b9"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:dc1b7396bf3730192371553791887734eeec0124109df034fe77c5556c6eea67", "1.8.0--r42hdfd78af_0": "sha256:fd25fa0b7e2a13814bdceb5720a75c5d53e6d13a7e5ef3d57ab16c7b146a4953", "1.10.0--r43hdfd78af_0": "sha256:cc208b945fd2fb0051ef289d38bf76a09e4ed2db86f6d46e5fe614ead0c196b9"}, "docker": "quay.io/biocontainers/bioconductor-meskit"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-meskit.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-meskit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-meskit:1.8.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-meskit:1.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-meskit/1.8.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-meskit/1.8.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-meskit/1.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-meskit/1.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

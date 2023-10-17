@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-http-date"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-http-date/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-http-date/container.yaml"
-updated_at: "2023-10-16 02:34:33.966009"
-latest: "6.05--pl5321hdfd78af_0"
+updated_at: "2023-10-17 02:33:54.540848"
+latest: "6.06--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-http-date"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "6.05--pl5321hdfd78af_0"
+ - "6.06--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-http-date"
-config: {"url": "https://biocontainers.pro/tools/perl-http-date", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-http-date", "latest": {"6.05--pl5321hdfd78af_0": "sha256:5f7c05328a9cad499547d2e3d1540ab4249a0d2a2541085fc21dcf7443646ff6"}, "tags": {"6.05--pl5321hdfd78af_0": "sha256:5f7c05328a9cad499547d2e3d1540ab4249a0d2a2541085fc21dcf7443646ff6"}, "docker": "quay.io/biocontainers/perl-http-date", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-http-date", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-http-date", "latest": {"6.06--pl5321hdfd78af_0": "sha256:66f2a9329b56a621055d6654b5f72c886e22877dc17d1a3e5cf6bf41b4336510"}, "tags": {"6.05--pl5321hdfd78af_0": "sha256:5f7c05328a9cad499547d2e3d1540ab4249a0d2a2541085fc21dcf7443646ff6", "6.06--pl5321hdfd78af_0": "sha256:66f2a9329b56a621055d6654b5f72c886e22877dc17d1a3e5cf6bf41b4336510"}, "docker": "quay.io/biocontainers/perl-http-date", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-http-date.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-http-date
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-http-date:6.05--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-http-date:6.06--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-http-date/6.05--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-http-date/6.05--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-http-date/6.06--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-http-date/6.06--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

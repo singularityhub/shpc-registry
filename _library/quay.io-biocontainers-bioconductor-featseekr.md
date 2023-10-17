@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-featseekr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-featseekr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-featseekr/container.yaml"
-updated_at: "2023-10-16 02:58:32.283577"
+updated_at: "2023-10-17 02:59:11.536480"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-featseekr"
 aliases:

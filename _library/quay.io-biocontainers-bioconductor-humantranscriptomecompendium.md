@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-humantranscriptomecompendium"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-humantranscriptomecompendium/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-humantranscriptomecompendium/container.yaml"
-updated_at: "2023-10-16 02:58:14.515311"
-latest: "1.14.0--r42hdfd78af_0"
+updated_at: "2023-10-17 02:58:52.965307"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-humantranscriptomecompendium"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.14.0--r42hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-humantranscriptomecompendium"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-humantranscriptomecompendium", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-humantranscriptomecompendium", "latest": {"1.14.0--r42hdfd78af_0": "sha256:a41e421b191454a930527a9ac86b972f24027ed49b77f3df029cf36fe648a345"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:a910dfb4b51ae42c2dd932cffae1edf08fcba38964b96d5e58ace19d6351c8d6", "1.14.0--r42hdfd78af_0": "sha256:a41e421b191454a930527a9ac86b972f24027ed49b77f3df029cf36fe648a345", "1.10.0--r41hdfd78af_0": "sha256:af5c68984f5ad6310c73cb7ff60e47906f047431acb94cc0b0eee09ff659f77e"}, "docker": "quay.io/biocontainers/bioconductor-humantranscriptomecompendium", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-humantranscriptomecompendium", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-humantranscriptomecompendium", "latest": {"1.16.0--r43hdfd78af_0": "sha256:8f3eba0b497c4d1ed0699614d3b2033e0ac4fd8f64c47826d4ab9e3499c10edf"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:a910dfb4b51ae42c2dd932cffae1edf08fcba38964b96d5e58ace19d6351c8d6", "1.14.0--r42hdfd78af_0": "sha256:a41e421b191454a930527a9ac86b972f24027ed49b77f3df029cf36fe648a345", "1.10.0--r41hdfd78af_0": "sha256:af5c68984f5ad6310c73cb7ff60e47906f047431acb94cc0b0eee09ff659f77e", "1.16.0--r43hdfd78af_0": "sha256:8f3eba0b497c4d1ed0699614d3b2033e0ac4fd8f64c47826d4ab9e3499c10edf"}, "docker": "quay.io/biocontainers/bioconductor-humantranscriptomecompendium", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-humantranscriptomecompendium.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-humantranscriptomecompendium
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-humantranscriptomecompendium:1.14.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-humantranscriptomecompendium:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-humantranscriptomecompendium/1.14.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-humantranscriptomecompendium/1.14.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-humantranscriptomecompendium/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-humantranscriptomecompendium/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rbioformats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbioformats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbioformats/container.yaml"
-updated_at: "2023-10-16 02:35:12.438444"
+updated_at: "2023-10-17 02:34:35.629878"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbioformats"
 aliases:

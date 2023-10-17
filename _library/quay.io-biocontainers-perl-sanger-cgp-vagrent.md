@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sanger-cgp-vagrent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sanger-cgp-vagrent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sanger-cgp-vagrent/container.yaml"
-updated_at: "2023-10-16 03:16:44.749618"
+updated_at: "2023-10-17 03:18:25.906757"
 latest: "3.7.0--pl5321h031d066_2"
 container_url: "https://biocontainers.pro/tools/perl-sanger-cgp-vagrent"
 aliases:

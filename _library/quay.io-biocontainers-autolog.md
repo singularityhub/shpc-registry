@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/autolog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autolog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autolog/container.yaml"
-updated_at: "2023-10-16 03:19:08.362299"
+updated_at: "2023-10-17 03:20:54.442529"
 latest: "0.2--py_0"
 container_url: "https://biocontainers.pro/tools/autolog"
 aliases:
