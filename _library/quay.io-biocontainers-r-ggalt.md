@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggalt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggalt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggalt/container.yaml"
-updated_at: "2023-10-17 03:13:34.189730"
+updated_at: "2023-10-18 03:10:56.781064"
 latest: "0.4.0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-ggalt"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-cpan-meta-requirements"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-cpan-meta-requirements/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-cpan-meta-requirements/container.yaml"
-updated_at: "2023-10-17 02:44:36.840686"
+updated_at: "2023-10-18 02:43:15.630387"
 latest: "2.143--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-cpan-meta-requirements"
 aliases:

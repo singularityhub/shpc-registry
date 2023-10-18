@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-bcbiornaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bcbiornaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bcbiornaseq/container.yaml"
-updated_at: "2023-10-17 02:43:02.104066"
-latest: "0.5.5--r43hdfd78af_0"
+updated_at: "2023-10-18 02:41:46.507740"
+latest: "0.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-bcbiornaseq"
 aliases:
  - "pandoc"
@@ -17,8 +17,9 @@ versions:
  - "0.5.4--r42hdfd78af_1"
  - "0.5.4--r43hdfd78af_2"
  - "0.5.5--r43hdfd78af_0"
+ - "0.6.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-bcbiornaseq"
-config: {"url": "https://biocontainers.pro/tools/r-bcbiornaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bcbiornaseq", "latest": {"0.5.5--r43hdfd78af_0": "sha256:55b8c85ed11880a8126a7588c0ec96815ead18e7acfb7750838aadb18a187dd6"}, "tags": {"0.4.0--r41hdfd78af_0": "sha256:95701957bc505b497ebdb56c6dbce92df8fae3b63de60ff776a00c4d246f2433", "0.5.1--r42hdfd78af_1": "sha256:f6a19ecd3caf672f7471dab63a33cfb847a4dd5e5423eb4fdeb89e4630f646d2", "0.5.3--r42hdfd78af_0": "sha256:e3181030eb8b0e5d6734df6ac3cda940cfb54630576c61fd837b503621e9bf96", "0.5.3--r42hdfd78af_1": "sha256:0fef783db654bab5d07e2474f021fc43b6b32f02355b8c44aac9a31731a09627", "0.5.4--r42hdfd78af_1": "sha256:6bce6a64e296d65b4950c47429f2c863ca38b2b352c73589cdcace93e3c54624", "0.5.4--r43hdfd78af_2": "sha256:7ad0ef1eb5526ba92cff1ee47aca0e949190058cfb2420acc7cf24e6731938cd", "0.5.5--r43hdfd78af_0": "sha256:55b8c85ed11880a8126a7588c0ec96815ead18e7acfb7750838aadb18a187dd6"}, "docker": "quay.io/biocontainers/r-bcbiornaseq", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-bcbiornaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bcbiornaseq", "latest": {"0.6.0--r43hdfd78af_0": "sha256:70ad59c328f7b3a594eaacfe75942ff0d431aba8d84c223721caa737c958cc45"}, "tags": {"0.4.0--r41hdfd78af_0": "sha256:95701957bc505b497ebdb56c6dbce92df8fae3b63de60ff776a00c4d246f2433", "0.5.1--r42hdfd78af_1": "sha256:f6a19ecd3caf672f7471dab63a33cfb847a4dd5e5423eb4fdeb89e4630f646d2", "0.5.3--r42hdfd78af_0": "sha256:e3181030eb8b0e5d6734df6ac3cda940cfb54630576c61fd837b503621e9bf96", "0.5.3--r42hdfd78af_1": "sha256:0fef783db654bab5d07e2474f021fc43b6b32f02355b8c44aac9a31731a09627", "0.5.4--r42hdfd78af_1": "sha256:6bce6a64e296d65b4950c47429f2c863ca38b2b352c73589cdcace93e3c54624", "0.5.4--r43hdfd78af_2": "sha256:7ad0ef1eb5526ba92cff1ee47aca0e949190058cfb2420acc7cf24e6731938cd", "0.5.5--r43hdfd78af_0": "sha256:55b8c85ed11880a8126a7588c0ec96815ead18e7acfb7750838aadb18a187dd6", "0.6.0--r43hdfd78af_0": "sha256:70ad59c328f7b3a594eaacfe75942ff0d431aba8d84c223721caa737c958cc45"}, "docker": "quay.io/biocontainers/r-bcbiornaseq", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bcbiornaseq.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/r-bcbiornaseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-bcbiornaseq:0.5.5--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/r-bcbiornaseq:0.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-bcbiornaseq/0.5.5--r43hdfd78af_0
-$ module help quay.io/biocontainers/r-bcbiornaseq/0.5.5--r43hdfd78af_0
+$ module load quay.io/biocontainers/r-bcbiornaseq/0.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/r-bcbiornaseq/0.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

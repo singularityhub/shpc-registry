@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hits/container.yaml"
-updated_at: "2023-10-17 02:35:21.100598"
+updated_at: "2023-10-18 02:34:26.527328"
 latest: "0.4.0--py38he5da3d1_1"
 container_url: "https://biocontainers.pro/tools/hits"
 aliases:

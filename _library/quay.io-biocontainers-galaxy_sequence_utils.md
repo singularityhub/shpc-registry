@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galaxy_sequence_utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy_sequence_utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy_sequence_utils/container.yaml"
-updated_at: "2023-10-17 02:25:49.831555"
+updated_at: "2023-10-18 02:25:28.499514"
 latest: "1.1.5--py_0"
 container_url: "https://biocontainers.pro/tools/galaxy_sequence_utils"
 aliases:

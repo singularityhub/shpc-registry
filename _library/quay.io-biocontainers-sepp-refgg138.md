@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sepp-refgg138"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sepp-refgg138/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sepp-refgg138/container.yaml"
-updated_at: "2023-10-17 03:12:19.583484"
+updated_at: "2023-10-18 03:09:44.943522"
 latest: "4.5.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sepp-refgg138"
 

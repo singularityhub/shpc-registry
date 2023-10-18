@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylovega"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylovega/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylovega/container.yaml"
-updated_at: "2023-10-17 02:23:34.748830"
+updated_at: "2023-10-18 02:23:21.494336"
 latest: "0.3--py_0"
 container_url: "https://biocontainers.pro/tools/phylovega"
 aliases:
