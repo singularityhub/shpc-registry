@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ga4ghmongo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ga4ghmongo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ga4ghmongo/container.yaml"
-updated_at: "2023-10-18 02:56:25.975006"
+updated_at: "2023-10-19 02:36:15.063662"
 latest: "0.0.1.2--pyh864c0ab_2"
 container_url: "https://biocontainers.pro/tools/ga4ghmongo"
 aliases:

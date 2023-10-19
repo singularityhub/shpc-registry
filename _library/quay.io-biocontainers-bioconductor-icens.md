@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-icens"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-icens/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-icens/container.yaml"
-updated_at: "2023-10-18 02:35:07.357126"
+updated_at: "2023-10-19 03:31:30.248322"
 latest: "1.72.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-icens"
 

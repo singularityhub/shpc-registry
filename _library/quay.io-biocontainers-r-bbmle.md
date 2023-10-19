@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bbmle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bbmle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bbmle/container.yaml"
-updated_at: "2023-10-18 03:04:27.517088"
+updated_at: "2023-10-19 02:36:45.735249"
 latest: "1.0.18--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-bbmle"
 aliases:

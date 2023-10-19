@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hesslab-gambit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hesslab-gambit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hesslab-gambit/container.yaml"
-updated_at: "2023-10-18 03:17:50.399976"
+updated_at: "2023-10-19 02:51:28.771320"
 latest: "0.5.1--py39hbf8eff0_0"
 container_url: "https://biocontainers.pro/tools/hesslab-gambit"
 aliases:

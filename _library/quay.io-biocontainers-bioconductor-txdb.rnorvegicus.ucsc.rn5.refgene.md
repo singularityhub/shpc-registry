@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene/container.yaml"
-updated_at: "2023-10-18 03:15:11.432227"
+updated_at: "2023-10-19 02:57:50.473046"
 latest: "3.12.0--r42hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene"
 aliases:

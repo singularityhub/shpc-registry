@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyopt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyopt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyopt/container.yaml"
-updated_at: "2023-10-18 02:43:36.645210"
+updated_at: "2023-10-19 03:26:02.131997"
 latest: "1.2.0--py27_1"
 container_url: "https://biocontainers.pro/tools/pyopt"
 aliases:

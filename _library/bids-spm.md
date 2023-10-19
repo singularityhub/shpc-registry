@@ -4,7 +4,7 @@ name:  "bids/spm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/spm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/spm/container.yaml"
-updated_at: "2023-10-18 03:18:50.469856"
+updated_at: "2023-10-19 02:24:16.613583"
 latest: "chrisfilo-patch-1"
 container_url: "https://hub.docker.com/r/bids/spm"
 aliases:

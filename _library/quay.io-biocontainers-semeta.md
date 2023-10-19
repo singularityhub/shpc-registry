@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/semeta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/semeta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/semeta/container.yaml"
-updated_at: "2023-10-18 02:26:43.321207"
+updated_at: "2023-10-19 03:10:04.180390"
 latest: "1.0--0"
 container_url: "https://biocontainers.pro/tools/semeta"
 aliases:

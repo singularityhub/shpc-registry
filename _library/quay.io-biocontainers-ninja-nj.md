@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ninja-nj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ninja-nj/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ninja-nj/container.yaml"
-updated_at: "2023-10-18 02:41:11.777655"
-latest: "0.98--h4ac6f70_2"
+updated_at: "2023-10-19 02:33:41.457516"
+latest: "0.98--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/ninja-nj"
 aliases:
  - "Ninja"
@@ -13,8 +13,9 @@ versions:
  - "0.97--h9f5acd7_0"
  - "0.98--h9f5acd7_0"
  - "0.98--h4ac6f70_2"
+ - "0.98--h4ac6f70_3"
 description: "singularity registry hpc automated addition for ninja-nj"
-config: {"url": "https://biocontainers.pro/tools/ninja-nj", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ninja-nj", "latest": {"0.98--h4ac6f70_2": "sha256:b2c905e233e13827974544424b7ca760c2ded941eb99b67b530188174efc5b97"}, "tags": {"0.97--h9f5acd7_0": "sha256:216fc2e2ba8905fc249e6dbd42c55dae95c05f2af38575d6de2090984196ee58", "0.98--h9f5acd7_0": "sha256:cb14554ac2dbed7c3db8f9962b921858fa6c0b4c9d433a6404c13d63d82d9cb6", "0.98--h4ac6f70_2": "sha256:b2c905e233e13827974544424b7ca760c2ded941eb99b67b530188174efc5b97"}, "docker": "quay.io/biocontainers/ninja-nj", "aliases": {"Ninja": "/usr/local/bin/Ninja"}}
+config: {"url": "https://biocontainers.pro/tools/ninja-nj", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ninja-nj", "latest": {"0.98--h4ac6f70_3": "sha256:6665b55a190cd722177d68aa5067b49d8fe544295f01133a7781ee64dac438a5"}, "tags": {"0.97--h9f5acd7_0": "sha256:216fc2e2ba8905fc249e6dbd42c55dae95c05f2af38575d6de2090984196ee58", "0.98--h9f5acd7_0": "sha256:cb14554ac2dbed7c3db8f9962b921858fa6c0b4c9d433a6404c13d63d82d9cb6", "0.98--h4ac6f70_2": "sha256:b2c905e233e13827974544424b7ca760c2ded941eb99b67b530188174efc5b97", "0.98--h4ac6f70_3": "sha256:6665b55a190cd722177d68aa5067b49d8fe544295f01133a7781ee64dac438a5"}, "docker": "quay.io/biocontainers/ninja-nj", "aliases": {"Ninja": "/usr/local/bin/Ninja"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ninja-nj.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/ninja-nj
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ninja-nj:0.98--h4ac6f70_2
+$ shpc install quay.io/biocontainers/ninja-nj:0.98--h4ac6f70_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ninja-nj/0.98--h4ac6f70_2
-$ module help quay.io/biocontainers/ninja-nj/0.98--h4ac6f70_2
+$ module load quay.io/biocontainers/ninja-nj/0.98--h4ac6f70_3
+$ module help quay.io/biocontainers/ninja-nj/0.98--h4ac6f70_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

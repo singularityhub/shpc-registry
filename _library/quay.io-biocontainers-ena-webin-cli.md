@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ena-webin-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ena-webin-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ena-webin-cli/container.yaml"
-updated_at: "2023-10-18 02:28:17.954418"
+updated_at: "2023-10-19 02:49:15.585057"
 latest: "6.5.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ena-webin-cli"
 aliases:
