@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msaconverter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msaconverter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msaconverter/container.yaml"
-updated_at: "2023-10-19 03:31:04.972753"
+updated_at: "2023-10-20 03:31:53.445659"
 latest: "0.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msaconverter"
 aliases:

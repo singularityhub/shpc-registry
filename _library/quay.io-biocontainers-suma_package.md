@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/suma_package"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/suma_package/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/suma_package/container.yaml"
-updated_at: "2023-10-19 02:45:42.642857"
+updated_at: "2023-10-20 02:46:01.971942"
 latest: "1.0.00--he4a0461_7"
 container_url: "https://biocontainers.pro/tools/suma_package"
 aliases:

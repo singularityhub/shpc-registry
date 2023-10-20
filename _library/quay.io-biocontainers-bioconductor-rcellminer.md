@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rcellminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcellminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcellminer/container.yaml"
-updated_at: "2023-10-19 03:03:20.564313"
+updated_at: "2023-10-20 03:03:54.952523"
 latest: "2.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcellminer"
 aliases:

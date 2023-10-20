@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pepgenome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pepgenome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pepgenome/container.yaml"
-updated_at: "2023-10-19 03:06:41.304190"
+updated_at: "2023-10-20 03:07:11.680474"
 latest: "1.1.beta--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pepgenome"
 aliases:

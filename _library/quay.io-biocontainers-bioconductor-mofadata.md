@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mofadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mofadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mofadata/container.yaml"
-updated_at: "2023-10-19 02:49:33.644977"
+updated_at: "2023-10-20 02:49:55.096614"
 latest: "1.16.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mofadata"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metagem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metagem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metagem/container.yaml"
-updated_at: "2023-10-19 02:40:28.181527"
+updated_at: "2023-10-20 02:40:41.301149"
 latest: "1.0.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metagem"
 aliases:

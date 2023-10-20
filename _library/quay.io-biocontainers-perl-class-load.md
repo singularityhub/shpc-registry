@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-class-load"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-load/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-load/container.yaml"
-updated_at: "2023-10-19 02:25:31.672363"
+updated_at: "2023-10-20 02:25:30.376090"
 latest: "0.25--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-class-load"
 

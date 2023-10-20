@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sqlitebrowser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sqlitebrowser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sqlitebrowser/container.yaml"
-updated_at: "2023-10-19 02:26:03.429998"
+updated_at: "2023-10-20 02:26:02.220355"
 latest: "3.8.0--0"
 container_url: "https://biocontainers.pro/tools/sqlitebrowser"
 aliases:

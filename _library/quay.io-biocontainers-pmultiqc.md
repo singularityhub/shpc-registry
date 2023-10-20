@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pmultiqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pmultiqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pmultiqc/container.yaml"
-updated_at: "2023-10-19 03:30:14.366836"
-latest: "0.0.20--pyhdfd78af_0"
+updated_at: "2023-10-20 03:31:03.307252"
+latest: "0.0.22--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pmultiqc"
 aliases:
  - "parse_sdrf"
@@ -24,8 +24,9 @@ versions:
  - "0.0.17--pyhdfd78af_0"
  - "0.0.19--pyhdfd78af_0"
  - "0.0.20--pyhdfd78af_0"
+ - "0.0.22--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pmultiqc"
-config: {"url": "https://biocontainers.pro/tools/pmultiqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pmultiqc", "latest": {"0.0.20--pyhdfd78af_0": "sha256:5f64b69f92f826e225a2327b5ef57b0cf1e1f011190f7090ff93bf1b0eb12037"}, "tags": {"0.0.9--pyhdfd78af_0": "sha256:5a090cd18ad36694211f29ff1102d887b5404596ae3009e39a8b8cec8b4bde4a", "0.0.17--pyhdfd78af_0": "sha256:fa8f0d1dc290460d83e503ff1a5d18041f8ec3be7ef47ad7aacf25e71af12c1d", "0.0.19--pyhdfd78af_0": "sha256:ae406918645de12c0b7958c92114d350e23907e7b64d2b06c8743e2a173ce848", "0.0.20--pyhdfd78af_0": "sha256:5f64b69f92f826e225a2327b5ef57b0cf1e1f011190f7090ff93bf1b0eb12037"}, "docker": "quay.io/biocontainers/pmultiqc", "aliases": {"parse_sdrf": "/usr/local/bin/parse_sdrf", "multiqc": "/usr/local/bin/multiqc", "cmark": "/usr/local/bin/cmark", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "markdown_py": "/usr/local/bin/markdown_py", "pygmentize": "/usr/local/bin/pygmentize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge"}}
+config: {"url": "https://biocontainers.pro/tools/pmultiqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pmultiqc", "latest": {"0.0.22--pyhdfd78af_0": "sha256:c4db0310a85d9e93cefc2aea1b6e2d515689d043f60765fd38ffa88ca04ec22d"}, "tags": {"0.0.9--pyhdfd78af_0": "sha256:5a090cd18ad36694211f29ff1102d887b5404596ae3009e39a8b8cec8b4bde4a", "0.0.17--pyhdfd78af_0": "sha256:fa8f0d1dc290460d83e503ff1a5d18041f8ec3be7ef47ad7aacf25e71af12c1d", "0.0.19--pyhdfd78af_0": "sha256:ae406918645de12c0b7958c92114d350e23907e7b64d2b06c8743e2a173ce848", "0.0.20--pyhdfd78af_0": "sha256:5f64b69f92f826e225a2327b5ef57b0cf1e1f011190f7090ff93bf1b0eb12037", "0.0.22--pyhdfd78af_0": "sha256:c4db0310a85d9e93cefc2aea1b6e2d515689d043f60765fd38ffa88ca04ec22d"}, "docker": "quay.io/biocontainers/pmultiqc", "aliases": {"parse_sdrf": "/usr/local/bin/parse_sdrf", "multiqc": "/usr/local/bin/multiqc", "cmark": "/usr/local/bin/cmark", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "markdown_py": "/usr/local/bin/markdown_py", "pygmentize": "/usr/local/bin/pygmentize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pmultiqc.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/pmultiqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pmultiqc:0.0.20--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pmultiqc:0.0.22--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pmultiqc/0.0.20--pyhdfd78af_0
-$ module help quay.io/biocontainers/pmultiqc/0.0.20--pyhdfd78af_0
+$ module load quay.io/biocontainers/pmultiqc/0.0.22--pyhdfd78af_0
+$ module help quay.io/biocontainers/pmultiqc/0.0.22--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
