@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/python-hivclustering
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for python-hivclustering
 latest:
-  1.6.7--pyhdfd78af_0: sha256:afb5c0fc23e8330afe6398042c46ef9576e6ca2fab4f8d49fc24e0f9d18c81ec
+  1.6.8--pyhdfd78af_0: sha256:1b7394513b6aaf6880abb8b8cff05fbc8b6167f120e7b313525d925dc2592e6a
 tags:
   1.5.6--py_0: sha256:fedc821998c05509aa791feb61bb7b213811eea027b9f34cf4475a4e48ad19cf
   1.6.5--pyhdfd78af_0: sha256:50fea2e62f2d42dd74b9e16f03f0c21036d63f24db22e642a10e3339bca54990
   1.6.7--pyhdfd78af_0: sha256:afb5c0fc23e8330afe6398042c46ef9576e6ca2fab4f8d49fc24e0f9d18c81ec
+  1.6.8--pyhdfd78af_0: sha256:1b7394513b6aaf6880abb8b8cff05fbc8b6167f120e7b313525d925dc2592e6a
 docker: quay.io/biocontainers/python-hivclustering
 aliases:
   TNS: /usr/local/bin/TNS
