@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/raptor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for raptor
 latest:
-  3.0.0--h6dccd9a_1: sha256:493705141705795dd4d104f9809dd92b5156034a61690036ff90aa991a555e8d
+  3.0.1--h6dccd9a_0: sha256:51617c16f91b9716f00ea13d22dd35b4a75640dd0d3c02105f833ef561544100
 tags:
   2.0.0--h19e8d03_1: sha256:86149b282f2927d0ab258d8b5e4cf82113ed965ec05bb3c5c0af7053dc20cf3b
   2.0.0--h6dccd9a_3: sha256:dcac76e9ec14c71e01114703a02862ba2d961f12cc9c34627b467d5ba6971497
   3.0.0--h6dccd9a_1: sha256:493705141705795dd4d104f9809dd92b5156034a61690036ff90aa991a555e8d
+  3.0.1--h6dccd9a_0: sha256:51617c16f91b9716f00ea13d22dd35b4a75640dd0d3c02105f833ef561544100
 docker: quay.io/biocontainers/raptor
 aliases:
   raptor: /usr/local/bin/raptor

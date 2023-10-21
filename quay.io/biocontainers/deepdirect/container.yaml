@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/deepdirect
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for deepdirect
 latest:
-  0.2.4--pyh7cba7a3_0: sha256:76440a9cc6c48737859e7fa23fa2202b13a9c7ae4e65dc3690631eff489b6536
+  0.2.5--pyhdfd78af_0: sha256:a2bc04f6cf3465fdad5585acdf412162a228b3ff23aaaf5d98c1bd900b87af99
 tags:
   0.2.4--pyh7cba7a3_0: sha256:76440a9cc6c48737859e7fa23fa2202b13a9c7ae4e65dc3690631eff489b6536
+  0.2.5--pyhdfd78af_0: sha256:a2bc04f6cf3465fdad5585acdf412162a228b3ff23aaaf5d98c1bd900b87af99
 docker: quay.io/biocontainers/deepdirect
 aliases:
   deepdirect: /usr/local/bin/deepdirect

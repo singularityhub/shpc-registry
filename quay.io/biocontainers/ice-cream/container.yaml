@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ice-cream
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ice-cream
 latest:
-  1.10--hdfd78af_0: sha256:88074ba949163f7cb21ff9a51df4ec6257083c96f80cfedd02d4d63ecd246c09
+  1.10--hdfd78af_1: sha256:877571755bf20e957a9cd08ef65204db783782cac91a7c1126f0d2f298a4342d
 tags:
   1.10--hdfd78af_0: sha256:88074ba949163f7cb21ff9a51df4ec6257083c96f80cfedd02d4d63ecd246c09
+  1.10--hdfd78af_1: sha256:877571755bf20e957a9cd08ef65204db783782cac91a7c1126f0d2f298a4342d
 docker: quay.io/biocontainers/ice-cream
 aliases:
   ICEcream.sh: /usr/local/bin/ICEcream.sh
