@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cstag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cstag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cstag/container.yaml"
-updated_at: "2023-10-20 02:51:05.727480"
+updated_at: "2023-10-21 02:43:52.333308"
 latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cstag"
 aliases:

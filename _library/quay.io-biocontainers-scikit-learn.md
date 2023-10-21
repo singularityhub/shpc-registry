@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scikit-learn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scikit-learn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scikit-learn/container.yaml"
-updated_at: "2023-10-20 03:20:48.498074"
+updated_at: "2023-10-21 03:09:11.208240"
 latest: "0.20.2"
 container_url: "https://biocontainers.pro/tools/scikit-learn"
 aliases:

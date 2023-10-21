@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/srst2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/srst2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/srst2/container.yaml"
-updated_at: "2023-10-20 03:01:50.047598"
+updated_at: "2023-10-21 02:53:02.014754"
 latest: "0.2.0--py_4"
 container_url: "https://biocontainers.pro/tools/srst2"
 aliases:

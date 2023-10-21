@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biopet-seattleseqkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopet-seattleseqkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biopet-seattleseqkit/container.yaml"
-updated_at: "2023-10-20 02:59:01.592757"
+updated_at: "2023-10-21 02:50:37.989356"
 latest: "0.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/biopet-seattleseqkit"
 aliases:

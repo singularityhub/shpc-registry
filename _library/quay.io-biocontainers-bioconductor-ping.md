@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ping/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ping/container.yaml"
-updated_at: "2023-10-20 02:54:56.317300"
+updated_at: "2023-10-21 02:47:09.421944"
 latest: "2.44.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ping"
 

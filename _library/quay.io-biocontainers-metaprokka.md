@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metaprokka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaprokka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaprokka/container.yaml"
-updated_at: "2023-10-20 02:43:57.516661"
-latest: "1.14.6_1--pl5321hdfd78af_2"
+updated_at: "2023-10-21 02:37:47.051706"
+latest: "1.15.0--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metaprokka"
 aliases:
  - "metaprokka"
@@ -22,8 +22,10 @@ aliases:
  - "prokka-genbank_to_fasta_db"
 versions:
  - "1.14.6_1--pl5321hdfd78af_2"
+ - "1.15.0--pl5321hdfd78af_0"
+ - "1.14.6_1--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for metaprokka"
-config: {"url": "https://biocontainers.pro/tools/metaprokka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaprokka", "latest": {"1.14.6_1--pl5321hdfd78af_2": "sha256:27ae7fd133dbeb44836f1452e328a6a7b108f0e2b97851fa055c72c9068c550e"}, "tags": {"1.14.6_1--pl5321hdfd78af_2": "sha256:27ae7fd133dbeb44836f1452e328a6a7b108f0e2b97851fa055c72c9068c550e"}, "docker": "quay.io/biocontainers/metaprokka", "aliases": {"metaprokka": "/usr/local/bin/metaprokka", "tbl2asn-test": "/usr/local/bin/tbl2asn-test", "fix-sqn-date": "/usr/local/bin/fix-sqn-date", "faketime": "/usr/local/bin/faketime", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "prokka-abricate_to_fasta_db": "/usr/local/bin/prokka-abricate_to_fasta_db", "prokka": "/usr/local/bin/prokka", "prokka-biocyc_to_fasta_db": "/usr/local/bin/prokka-biocyc_to_fasta_db", "prokka-build_kingdom_dbs": "/usr/local/bin/prokka-build_kingdom_dbs", "prokka-cdd_to_hmm": "/usr/local/bin/prokka-cdd_to_hmm", "prokka-clusters_to_hmm": "/usr/local/bin/prokka-clusters_to_hmm", "prokka-genbank_to_fasta_db": "/usr/local/bin/prokka-genbank_to_fasta_db"}}
+config: {"url": "https://biocontainers.pro/tools/metaprokka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaprokka", "latest": {"1.15.0--pl5321hdfd78af_0": "sha256:1a900076d10232daee13c215a31b4a5a15e705e573df5ee66126e4aed1f314c6"}, "tags": {"1.14.6_1--pl5321hdfd78af_2": "sha256:27ae7fd133dbeb44836f1452e328a6a7b108f0e2b97851fa055c72c9068c550e", "1.15.0--pl5321hdfd78af_0": "sha256:1a900076d10232daee13c215a31b4a5a15e705e573df5ee66126e4aed1f314c6", "1.14.6_1--pl5321hdfd78af_3": "sha256:e70b9cb26d25edea065fa5ce828fb6a4f0ec4890c8bd34102dcccf08c07b9933"}, "docker": "quay.io/biocontainers/metaprokka", "aliases": {"metaprokka": "/usr/local/bin/metaprokka", "tbl2asn-test": "/usr/local/bin/tbl2asn-test", "fix-sqn-date": "/usr/local/bin/fix-sqn-date", "faketime": "/usr/local/bin/faketime", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "prokka-abricate_to_fasta_db": "/usr/local/bin/prokka-abricate_to_fasta_db", "prokka": "/usr/local/bin/prokka", "prokka-biocyc_to_fasta_db": "/usr/local/bin/prokka-biocyc_to_fasta_db", "prokka-build_kingdom_dbs": "/usr/local/bin/prokka-build_kingdom_dbs", "prokka-cdd_to_hmm": "/usr/local/bin/prokka-cdd_to_hmm", "prokka-clusters_to_hmm": "/usr/local/bin/prokka-clusters_to_hmm", "prokka-genbank_to_fasta_db": "/usr/local/bin/prokka-genbank_to_fasta_db"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metaprokka.
@@ -38,7 +40,7 @@ $ shpc install quay.io/biocontainers/metaprokka
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metaprokka:1.14.6_1--pl5321hdfd78af_2
+$ shpc install quay.io/biocontainers/metaprokka:1.15.0--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metaprokka/1.14.6_1--pl5321hdfd78af_2
-$ module help quay.io/biocontainers/metaprokka/1.14.6_1--pl5321hdfd78af_2
+$ module load quay.io/biocontainers/metaprokka/1.15.0--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/metaprokka/1.15.0--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dastk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dastk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dastk/container.yaml"
-updated_at: "2023-10-20 03:12:54.729147"
+updated_at: "2023-10-21 03:02:29.026416"
 latest: "1.0.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/dastk"
 aliases:

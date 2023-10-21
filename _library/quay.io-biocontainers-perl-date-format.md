@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-date-format"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-date-format/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-date-format/container.yaml"
-updated_at: "2023-10-20 03:32:04.498953"
+updated_at: "2023-10-21 03:18:49.017294"
 latest: "2.30--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-date-format"
 aliases:

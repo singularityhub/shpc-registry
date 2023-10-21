@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spatyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spatyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spatyper/container.yaml"
-updated_at: "2023-10-20 02:54:36.682389"
+updated_at: "2023-10-21 02:46:52.505977"
 latest: "0.3.3--pyhdfd78af_3"
 container_url: "https://biocontainers.pro/tools/spatyper"
 aliases:

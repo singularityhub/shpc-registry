@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rilseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rilseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rilseq/container.yaml"
-updated_at: "2023-10-20 02:51:35.284482"
+updated_at: "2023-10-21 02:44:17.790646"
 latest: "0.82--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rilseq"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genepop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genepop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genepop/container.yaml"
-updated_at: "2023-10-20 02:25:13.863851"
+updated_at: "2023-10-21 02:21:54.911144"
 latest: "4.6--0"
 container_url: "https://biocontainers.pro/tools/genepop"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rtu34.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtu34.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtu34.db/container.yaml"
-updated_at: "2023-10-20 02:43:16.298762"
+updated_at: "2023-10-21 02:37:12.885665"
 latest: "3.13.0--r43hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtu34.db"
 aliases:
