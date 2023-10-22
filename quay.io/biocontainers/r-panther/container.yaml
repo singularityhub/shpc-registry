@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-panther
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-panther
 latest:
-  0.4.0--r43hdfd78af_0: sha256:0950db50cd5d7dfadf0467afdd81e6edd7525b4ae65161befffbf413371e670c
+  0.5.0--r43hdfd78af_0: sha256:05dcfa156841acde922105924a5b3771f1b6e6b19075060b3de4e1ee2f303184
 tags:
   0.4.0--r43hdfd78af_0: sha256:0950db50cd5d7dfadf0467afdd81e6edd7525b4ae65161befffbf413371e670c
+  0.5.0--r43hdfd78af_0: sha256:05dcfa156841acde922105924a5b3771f1b6e6b19075060b3de4e1ee2f303184
 docker: quay.io/biocontainers/r-panther
 aliases:
   hb-info: /usr/local/bin/hb-info

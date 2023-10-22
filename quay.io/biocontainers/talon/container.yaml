@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/talon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for talon
 latest:
-  v5.0--py_1: sha256:0b4e548c453c4300f7be4b85db2c508ccee0d1b5f4f2b946005f16e2986da03a
+  6.0.1--pyhdfd78af_0: sha256:789e65a7506e8dac4059e479d7790f909f85279c288dac558b1272c6311cdbb2
 tags:
   v5.0--py_1: sha256:0b4e548c453c4300f7be4b85db2c508ccee0d1b5f4f2b946005f16e2986da03a
+  6.0.1--pyhdfd78af_0: sha256:789e65a7506e8dac4059e479d7790f909f85279c288dac558b1272c6311cdbb2
 docker: quay.io/biocontainers/talon
 aliases:
   talon: /usr/local/bin/talon
