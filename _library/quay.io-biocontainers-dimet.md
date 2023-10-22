@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dimet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dimet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dimet/container.yaml"
-updated_at: "2023-10-21 03:15:23.117785"
-latest: "0.1.3--pyhdfd78af_0"
+updated_at: "2023-10-22 03:18:39.263709"
+latest: "0.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dimet"
 aliases:
  - "dotenv"
@@ -35,8 +35,9 @@ aliases:
 versions:
  - "0.1.0--pyhdfd78af_0"
  - "0.1.3--pyhdfd78af_0"
+ - "0.1.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for dimet"
-config: {"url": "https://biocontainers.pro/tools/dimet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dimet", "latest": {"0.1.3--pyhdfd78af_0": "sha256:aab2c0304cb9c65d7ff83dd730c3840befe3b4fa151c8c557ff7fe7065b90abc"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:a993b30cda1a57e963612a68fd991e958fa2baeacba9227e848b37cfa6f2185b", "0.1.3--pyhdfd78af_0": "sha256:aab2c0304cb9c65d7ff83dd730c3840befe3b4fa151c8c557ff7fe7065b90abc"}, "docker": "quay.io/biocontainers/dimet", "aliases": {"dotenv": "/usr/local/bin/dotenv", "pygrun": "/usr/local/bin/pygrun", "coverage": "/usr/local/bin/coverage", "f2py3.11": "/usr/local/bin/f2py3.11", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/dimet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dimet", "latest": {"0.1.4--pyhdfd78af_0": "sha256:74c7f55596b52f566e1b86ec64fa8bd93bfae7d42c4e7a2ed3ef61b658dde67c"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:a993b30cda1a57e963612a68fd991e958fa2baeacba9227e848b37cfa6f2185b", "0.1.3--pyhdfd78af_0": "sha256:aab2c0304cb9c65d7ff83dd730c3840befe3b4fa151c8c557ff7fe7065b90abc", "0.1.4--pyhdfd78af_0": "sha256:74c7f55596b52f566e1b86ec64fa8bd93bfae7d42c4e7a2ed3ef61b658dde67c"}, "docker": "quay.io/biocontainers/dimet", "aliases": {"dotenv": "/usr/local/bin/dotenv", "pygrun": "/usr/local/bin/pygrun", "coverage": "/usr/local/bin/coverage", "f2py3.11": "/usr/local/bin/f2py3.11", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dimet.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/dimet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dimet:0.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/dimet:0.1.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dimet/0.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/dimet/0.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/dimet/0.1.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/dimet/0.1.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

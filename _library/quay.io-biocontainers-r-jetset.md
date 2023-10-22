@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-jetset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-jetset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-jetset/container.yaml"
-updated_at: "2023-10-21 03:10:45.844016"
+updated_at: "2023-10-22 03:14:11.868546"
 latest: "3.4.0--r43h3121a25_2"
 container_url: "https://biocontainers.pro/tools/r-jetset"
 aliases:

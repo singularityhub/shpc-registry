@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/savage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/savage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/savage/container.yaml"
-updated_at: "2023-10-21 02:43:16.028329"
+updated_at: "2023-10-22 02:47:46.495954"
 latest: "0.4.2--py27h16ec135_2"
 container_url: "https://biocontainers.pro/tools/savage"
 aliases:

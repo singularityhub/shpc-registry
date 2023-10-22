@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rjson"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rjson/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rjson/container.yaml"
-updated_at: "2023-10-21 03:18:09.974636"
+updated_at: "2023-10-22 03:21:19.738033"
 latest: "0.2.15--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-rjson"
 aliases:

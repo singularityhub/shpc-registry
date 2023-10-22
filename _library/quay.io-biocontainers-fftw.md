@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fftw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fftw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fftw/container.yaml"
-updated_at: "2023-10-21 03:05:02.229000"
+updated_at: "2023-10-22 03:08:41.841461"
 latest: "3.3.4--0"
 container_url: "https://biocontainers.pro/tools/fftw"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/probamconvert"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/probamconvert/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/probamconvert/container.yaml"
-updated_at: "2023-10-21 02:34:05.960779"
+updated_at: "2023-10-22 02:38:50.148514"
 latest: "1.0.2--2"
 container_url: "https://biocontainers.pro/tools/probamconvert"
 aliases:

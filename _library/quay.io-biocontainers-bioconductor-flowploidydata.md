@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowploidydata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowploidydata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowploidydata/container.yaml"
-updated_at: "2023-10-21 02:34:30.713617"
+updated_at: "2023-10-22 02:39:13.798080"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowploidydata"
 aliases:

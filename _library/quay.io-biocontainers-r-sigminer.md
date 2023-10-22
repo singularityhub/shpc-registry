@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sigminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sigminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sigminer/container.yaml"
-updated_at: "2023-10-21 02:36:08.816281"
+updated_at: "2023-10-22 02:40:49.049133"
 latest: "2.2.2--r43h21a89ab_0"
 container_url: "https://biocontainers.pro/tools/r-sigminer"
 aliases:

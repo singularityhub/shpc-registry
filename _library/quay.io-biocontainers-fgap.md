@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fgap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fgap/container.yaml"
-updated_at: "2023-10-21 02:55:53.143930"
+updated_at: "2023-10-22 02:59:56.488976"
 latest: "1.8.1--0"
 container_url: "https://biocontainers.pro/tools/fgap"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-module-load-conditional"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-module-load-conditional/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-module-load-conditional/container.yaml"
-updated_at: "2023-10-21 02:31:03.859441"
+updated_at: "2023-10-22 02:35:55.399591"
 latest: "0.68--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-module-load-conditional"
 aliases:

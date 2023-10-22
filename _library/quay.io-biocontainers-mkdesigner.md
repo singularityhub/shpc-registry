@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mkdesigner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mkdesigner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mkdesigner/container.yaml"
-updated_at: "2023-10-21 02:31:38.190450"
-latest: "0.2.1--pyh7cba7a3_0"
+updated_at: "2023-10-22 02:36:28.559432"
+latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mkdesigner"
 aliases:
  - "blastn_vdb"
@@ -41,8 +41,9 @@ aliases:
 versions:
  - "0.1.1--pyh7cba7a3_0"
  - "0.2.1--pyh7cba7a3_0"
+ - "0.3.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mkdesigner"
-config: {"url": "https://biocontainers.pro/tools/mkdesigner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mkdesigner", "latest": {"0.2.1--pyh7cba7a3_0": "sha256:d026804e37c1bf3e8e440e0a3d5fdf84e30343a79f57e4fe93c0a8e4f40f4ddc"}, "tags": {"0.1.1--pyh7cba7a3_0": "sha256:69f19bbff348f9312d60de1b483a99ec8ed52dc7d0274e33f1d437a6d699e677", "0.2.1--pyh7cba7a3_0": "sha256:d026804e37c1bf3e8e440e0a3d5fdf84e30343a79f57e4fe93c0a8e4f40f4ddc"}, "docker": "quay.io/biocontainers/mkdesigner", "aliases": {"blastn_vdb": "/usr/local/bin/blastn_vdb", "mkprimer": "/usr/local/bin/mkprimer", "mkselect": "/usr/local/bin/mkselect", "mkvcf": "/usr/local/bin/mkvcf", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "gatk": "/usr/local/bin/gatk", "picard": "/usr/local/bin/picard", "test_pcre": "/usr/local/bin/test_pcre", "gff2gff.py": "/usr/local/bin/gff2gff.py", "jpackage": "/usr/local/bin/jpackage", "hb-info": "/usr/local/bin/hb-info", "f2py3.11": "/usr/local/bin/f2py3.11", "tjbench": "/usr/local/bin/tjbench", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml"}}
+config: {"url": "https://biocontainers.pro/tools/mkdesigner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mkdesigner", "latest": {"0.3.1--pyhdfd78af_0": "sha256:e003a60a1e84724c3d9c6db59a75f0fdad46c013f13f02edd8ad3efaa00b5b31"}, "tags": {"0.1.1--pyh7cba7a3_0": "sha256:69f19bbff348f9312d60de1b483a99ec8ed52dc7d0274e33f1d437a6d699e677", "0.2.1--pyh7cba7a3_0": "sha256:d026804e37c1bf3e8e440e0a3d5fdf84e30343a79f57e4fe93c0a8e4f40f4ddc", "0.3.1--pyhdfd78af_0": "sha256:e003a60a1e84724c3d9c6db59a75f0fdad46c013f13f02edd8ad3efaa00b5b31"}, "docker": "quay.io/biocontainers/mkdesigner", "aliases": {"blastn_vdb": "/usr/local/bin/blastn_vdb", "mkprimer": "/usr/local/bin/mkprimer", "mkselect": "/usr/local/bin/mkselect", "mkvcf": "/usr/local/bin/mkvcf", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "gatk": "/usr/local/bin/gatk", "picard": "/usr/local/bin/picard", "test_pcre": "/usr/local/bin/test_pcre", "gff2gff.py": "/usr/local/bin/gff2gff.py", "jpackage": "/usr/local/bin/jpackage", "hb-info": "/usr/local/bin/hb-info", "f2py3.11": "/usr/local/bin/f2py3.11", "tjbench": "/usr/local/bin/tjbench", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mkdesigner.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/mkdesigner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mkdesigner:0.2.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/mkdesigner:0.3.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mkdesigner/0.2.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/mkdesigner/0.2.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/mkdesigner/0.3.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/mkdesigner/0.3.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

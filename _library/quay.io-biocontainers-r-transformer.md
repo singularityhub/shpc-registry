@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-transformer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-transformer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-transformer/container.yaml"
-updated_at: "2023-10-21 02:41:27.399490"
+updated_at: "2023-10-22 02:45:59.674951"
 latest: "0.2.12--r36_0"
 container_url: "https://biocontainers.pro/tools/r-transformer"
 aliases:

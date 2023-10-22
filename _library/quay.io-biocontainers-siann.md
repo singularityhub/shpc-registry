@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/siann"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/siann/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/siann/container.yaml"
-updated_at: "2023-10-21 02:54:37.900377"
+updated_at: "2023-10-22 02:58:45.501485"
 latest: "1.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/siann"
 aliases:

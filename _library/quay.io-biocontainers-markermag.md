@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/markermag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/markermag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/markermag/container.yaml"
-updated_at: "2023-10-21 02:23:26.546183"
+updated_at: "2023-10-22 02:28:35.493737"
 latest: "1.1.28--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/markermag"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/probabilistic2020"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/probabilistic2020/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/probabilistic2020/container.yaml"
-updated_at: "2023-10-21 02:23:49.662605"
+updated_at: "2023-10-22 02:28:57.577013"
 latest: "1.2.3--py27h20e14e4_5"
 container_url: "https://biocontainers.pro/tools/probabilistic2020"
 aliases:
