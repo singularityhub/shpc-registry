@@ -1,0 +1,80 @@
+url: https://biocontainers.pro/tools/redundans
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for redundans
+latest:
+  2.01--py310pl5321h43eeafb_0: sha256:fb28570ed2848a25712159e771b6b98a5e569ea133e024656ced2f44072e5a1d
+tags:
+  2.01--py310pl5321h43eeafb_0: sha256:fb28570ed2848a25712159e771b6b98a5e569ea133e024656ced2f44072e5a1d
+docker: quay.io/biocontainers/redundans
+aliases:
+  FastaIndex.py: /usr/local/bin/FastaIndex.py
+  GapCloser: /usr/local/bin/GapCloser
+  denovo.py: /usr/local/bin/denovo.py
+  fasta-nr: /usr/local/bin/fasta-nr
+  fasta2homozygous.py: /usr/local/bin/fasta2homozygous.py
+  fasta2qc.py: /usr/local/bin/fasta2qc.py
+  fasta2scaffold.py: /usr/local/bin/fasta2scaffold.py
+  fasta2split.py: /usr/local/bin/fasta2split.py
+  fasta_stats.py: /usr/local/bin/fasta_stats.py
+  fastq-interleave: /usr/local/bin/fastq-interleave
+  fastq2fasta.py: /usr/local/bin/fastq2fasta.py
+  fastq2insert_size.py: /usr/local/bin/fastq2insert_size.py
+  fastq2mates.py: /usr/local/bin/fastq2mates.py
+  fastq2shuffled.py: /usr/local/bin/fastq2shuffled.py
+  fastq2sspace.py: /usr/local/bin/fastq2sspace.py
+  filterReads.py: /usr/local/bin/filterReads.py
+  gfastats: /usr/local/bin/gfastats
+  k8-Linux: /usr/local/bin/k8-Linux
+  last-dotplot: /usr/local/bin/last-dotplot
+  last-map-probs: /usr/local/bin/last-map-probs
+  last-pair-probs: /usr/local/bin/last-pair-probs
+  last-postmask: /usr/local/bin/last-postmask
+  last-split: /usr/local/bin/last-split
+  last-split2symmetric.py: /usr/local/bin/last-split2symmetric.py
+  last-split5: /usr/local/bin/last-split5
+  last-train: /usr/local/bin/last-train
+  lastal: /usr/local/bin/lastal
+  lastal5: /usr/local/bin/lastal5
+  lastdb: /usr/local/bin/lastdb
+  lastdb5: /usr/local/bin/lastdb5
+  maf-convert: /usr/local/bin/maf-convert
+  maf-cut: /usr/local/bin/maf-cut
+  maf-join: /usr/local/bin/maf-join
+  maf-sort: /usr/local/bin/maf-sort
+  maf-swap: /usr/local/bin/maf-swap
+  meryl-analyze: /usr/local/bin/meryl-analyze
+  meryl-import: /usr/local/bin/meryl-import
+  meryl-lookup: /usr/local/bin/meryl-lookup
+  meryl-simple: /usr/local/bin/meryl-simple
+  merylqury2analysis.py: /usr/local/bin/merylqury2analysis.py
+  parallel-fasta: /usr/local/bin/parallel-fasta
+  parallel-fastq: /usr/local/bin/parallel-fastq
+  platanus: /usr/local/bin/platanus
+  redundans.py: /usr/local/bin/redundans.py
+  skip_selfmatches.py: /usr/local/bin/skip_selfmatches.py
+  snap-aligner: /usr/local/bin/snap-aligner
+  last-merge-batches: /usr/local/bin/last-merge-batches
+  miniasm: /usr/local/bin/miniasm
+  minidot: /usr/local/bin/minidot
+  meryl: /usr/local/bin/meryl
+  hb-info: /usr/local/bin/hb-info
+  sdust: /usr/local/bin/sdust
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  k8: /usr/local/bin/k8
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  bwa: /usr/local/bin/bwa
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10

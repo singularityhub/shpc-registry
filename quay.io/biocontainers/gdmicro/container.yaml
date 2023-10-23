@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/gdmicro
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gdmicro
+latest:
+  1.0.6--pyhdfd78af_1: sha256:00fbeef2794c211220eb4eea34859b7037665946b117857f8b7c97b8a10d4f5a
+tags:
+  1.0.6--pyhdfd78af_1: sha256:00fbeef2794c211220eb4eea34859b7037665946b117857f8b7c97b8a10d4f5a
+docker: quay.io/biocontainers/gdmicro
+aliases:
+  gdmicro: /usr/local/bin/gdmicro
+  matplotlib: /usr/local/bin/matplotlib
+  torchrun: /usr/local/bin/torchrun
+  ninja: /usr/local/bin/ninja
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  iptest3: /usr/local/bin/iptest3
+  iptest: /usr/local/bin/iptest
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  protoc: /usr/local/bin/protoc
+  pygmentize: /usr/local/bin/pygmentize
+  f2py3.7: /usr/local/bin/f2py3.7
+  pandoc: /usr/local/bin/pandoc
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  2to3-3.7: /usr/local/bin/2to3-3.7
+  idle3.7: /usr/local/bin/idle3.7
+  pydoc3.7: /usr/local/bin/pydoc3.7
+  python3.7-config: /usr/local/bin/python3.7-config
+  python3.7m: /usr/local/bin/python3.7m
+  python3.7m-config: /usr/local/bin/python3.7m-config
+  pyvenv-3.7: /usr/local/bin/pyvenv-3.7
+  python3.7: /usr/local/bin/python3.7

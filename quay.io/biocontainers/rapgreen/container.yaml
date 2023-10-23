@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/rapgreen
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rapgreen
+latest:
+  1.0--hdfd78af_0: sha256:878d334b0475ae0e9f3ac215573d648588d91251df9bafa11f4b11c27fd07a1d
+tags:
+  1.0--hdfd78af_0: sha256:878d334b0475ae0e9f3ac215573d648588d91251df9bafa11f4b11c27fd07a1d
+docker: quay.io/biocontainers/rapgreen
+aliases:
+  jwebserver: /usr/local/bin/jwebserver
+  rapgreen: /usr/local/bin/rapgreen
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  jpackage: /usr/local/bin/jpackage
+  hb-info: /usr/local/bin/hb-info
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  tjbench: /usr/local/bin/tjbench
+  jfr: /usr/local/bin/jfr
+  aserver: /usr/local/bin/aserver
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc

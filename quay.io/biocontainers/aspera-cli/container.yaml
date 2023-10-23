@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/aspera-cli
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for aspera-cli
+latest:
+  4.14.0--he0b3917_0: sha256:b30f7b8cddd7ea9da30f24fb508304aa44020b2f29a93512258b6b6eeafddf81
+tags:
+  4.14.0--he0b3917_0: sha256:b30f7b8cddd7ea9da30f24fb508304aa44020b2f29a93512258b6b6eeafddf81
+docker: quay.io/biocontainers/aspera-cli
+aliases:
+  ascli: /usr/local/bin/ascli
+  ascp: /usr/local/bin/ascp
+  asession: /usr/local/bin/asession
+  aspera-license: /usr/local/bin/aspera-license
+  rbs: /usr/local/bin/rbs
+  rdbg: /usr/local/bin/rdbg
+  typeprof: /usr/local/bin/typeprof
+  racc: /usr/local/bin/racc
+  bundle: /usr/local/bin/bundle
+  bundler: /usr/local/bin/bundler
+  gdbm_dump: /usr/local/bin/gdbm_dump
+  gdbm_load: /usr/local/bin/gdbm_load
+  gdbmtool: /usr/local/bin/gdbmtool
+  erb: /usr/local/bin/erb
+  gem: /usr/local/bin/gem
+  irb: /usr/local/bin/irb
+  rake: /usr/local/bin/rake
+  rdoc: /usr/local/bin/rdoc
+  ri: /usr/local/bin/ri
+  ruby: /usr/local/bin/ruby

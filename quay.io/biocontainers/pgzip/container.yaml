@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/pgzip
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pgzip
+latest:
+  0.3.5: sha256:fc2ff0057184df038f8235373dfc29e3d03e67354b8aa760db39e7399aafe6db
+tags:
+  0.3.5: sha256:fc2ff0057184df038f8235373dfc29e3d03e67354b8aa760db39e7399aafe6db
+docker: quay.io/biocontainers/pgzip
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  python3.1: /usr/local/bin/python3.1
