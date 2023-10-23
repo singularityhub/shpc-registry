@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/riboseed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riboseed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riboseed/container.yaml"
-updated_at: "2023-10-23 03:10:24.450120"
+updated_at: "2023-10-23 03:22:24.646266"
 latest: "0.4.90--py_0"
 container_url: "https://biocontainers.pro/tools/riboseed"
 aliases:

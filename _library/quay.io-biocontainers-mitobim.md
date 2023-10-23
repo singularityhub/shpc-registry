@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mitobim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mitobim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mitobim/container.yaml"
-updated_at: "2023-10-23 02:49:53.229950"
+updated_at: "2023-10-23 03:01:03.225872"
 latest: "1.9.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mitobim"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-html-formatter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-formatter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-formatter/container.yaml"
-updated_at: "2023-10-23 03:19:25.747796"
+updated_at: "2023-10-23 03:31:46.191799"
 latest: "2.16--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-html-formatter"
 aliases:
