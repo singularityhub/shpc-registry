@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-panther"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-panther/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-panther/container.yaml"
-updated_at: "2023-10-22 03:01:41.212346"
-latest: "0.4.0--r43hdfd78af_0"
+updated_at: "2023-10-23 02:59:49.758653"
+latest: "0.5.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-panther"
 aliases:
  - "hb-info"
@@ -28,8 +28,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.4.0--r43hdfd78af_0"
+ - "0.5.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for r-panther"
-config: {"url": "https://biocontainers.pro/tools/r-panther", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-panther", "latest": {"0.4.0--r43hdfd78af_0": "sha256:0950db50cd5d7dfadf0467afdd81e6edd7525b4ae65161befffbf413371e670c"}, "tags": {"0.4.0--r43hdfd78af_0": "sha256:0950db50cd5d7dfadf0467afdd81e6edd7525b4ae65161befffbf413371e670c"}, "docker": "quay.io/biocontainers/r-panther", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-panther", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-panther", "latest": {"0.5.0--r43hdfd78af_0": "sha256:05dcfa156841acde922105924a5b3771f1b6e6b19075060b3de4e1ee2f303184"}, "tags": {"0.4.0--r43hdfd78af_0": "sha256:0950db50cd5d7dfadf0467afdd81e6edd7525b4ae65161befffbf413371e670c", "0.5.0--r43hdfd78af_0": "sha256:05dcfa156841acde922105924a5b3771f1b6e6b19075060b3de4e1ee2f303184"}, "docker": "quay.io/biocontainers/r-panther", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-panther.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/r-panther
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-panther:0.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/r-panther:0.5.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-panther/0.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/r-panther/0.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/r-panther/0.5.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/r-panther/0.5.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

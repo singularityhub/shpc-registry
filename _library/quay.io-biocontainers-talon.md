@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/talon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/talon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/talon/container.yaml"
-updated_at: "2023-10-22 02:33:00.638894"
-latest: "v5.0--py_1"
+updated_at: "2023-10-23 02:31:27.445114"
+latest: "6.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/talon"
 aliases:
  - "talon"
@@ -31,8 +31,9 @@ aliases:
  - "f2py3.6"
 versions:
  - "v5.0--py_1"
+ - "6.0.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for talon"
-config: {"url": "https://biocontainers.pro/tools/talon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for talon", "latest": {"v5.0--py_1": "sha256:0b4e548c453c4300f7be4b85db2c508ccee0d1b5f4f2b946005f16e2986da03a"}, "tags": {"v5.0--py_1": "sha256:0b4e548c453c4300f7be4b85db2c508ccee0d1b5f4f2b946005f16e2986da03a"}, "docker": "quay.io/biocontainers/talon", "aliases": {"talon": "/usr/local/bin/talon", "talon_abundance": "/usr/local/bin/talon_abundance", "talon_create_GTF": "/usr/local/bin/talon_create_GTF", "talon_fetch_reads": "/usr/local/bin/talon_fetch_reads", "talon_filter_transcripts": "/usr/local/bin/talon_filter_transcripts", "talon_generate_report": "/usr/local/bin/talon_generate_report", "talon_get_sjs": "/usr/local/bin/talon_get_sjs", "talon_initialize_database": "/usr/local/bin/talon_initialize_database", "talon_label_reads": "/usr/local/bin/talon_label_reads", "talon_reformat_gtf": "/usr/local/bin/talon_reformat_gtf", "talon_summarize": "/usr/local/bin/talon_summarize", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py", "faidx": "/usr/local/bin/faidx", "f2py3.6": "/usr/local/bin/f2py3.6"}}
+config: {"url": "https://biocontainers.pro/tools/talon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for talon", "latest": {"6.0.1--pyhdfd78af_0": "sha256:789e65a7506e8dac4059e479d7790f909f85279c288dac558b1272c6311cdbb2"}, "tags": {"v5.0--py_1": "sha256:0b4e548c453c4300f7be4b85db2c508ccee0d1b5f4f2b946005f16e2986da03a", "6.0.1--pyhdfd78af_0": "sha256:789e65a7506e8dac4059e479d7790f909f85279c288dac558b1272c6311cdbb2"}, "docker": "quay.io/biocontainers/talon", "aliases": {"talon": "/usr/local/bin/talon", "talon_abundance": "/usr/local/bin/talon_abundance", "talon_create_GTF": "/usr/local/bin/talon_create_GTF", "talon_fetch_reads": "/usr/local/bin/talon_fetch_reads", "talon_filter_transcripts": "/usr/local/bin/talon_filter_transcripts", "talon_generate_report": "/usr/local/bin/talon_generate_report", "talon_get_sjs": "/usr/local/bin/talon_get_sjs", "talon_initialize_database": "/usr/local/bin/talon_initialize_database", "talon_label_reads": "/usr/local/bin/talon_label_reads", "talon_reformat_gtf": "/usr/local/bin/talon_reformat_gtf", "talon_summarize": "/usr/local/bin/talon_summarize", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py", "faidx": "/usr/local/bin/faidx", "f2py3.6": "/usr/local/bin/f2py3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/talon.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/talon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/talon:v5.0--py_1
+$ shpc install quay.io/biocontainers/talon:6.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/talon/v5.0--py_1
-$ module help quay.io/biocontainers/talon/v5.0--py_1
+$ module load quay.io/biocontainers/talon/6.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/talon/6.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

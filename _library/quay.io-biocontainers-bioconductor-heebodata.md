@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-heebodata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-heebodata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-heebodata/container.yaml"
-updated_at: "2023-10-22 02:43:18.647704"
+updated_at: "2023-10-23 02:41:40.592066"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-heebodata"
 

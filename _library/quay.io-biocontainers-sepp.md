@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/sepp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sepp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sepp/container.yaml"
-updated_at: "2023-10-22 02:28:28.120384"
-latest: "4.5.1--py37h9ee0642_2"
+updated_at: "2023-10-23 02:26:52.193751"
+latest: "4.5.1--py37h9ee0642_3"
 container_url: "https://biocontainers.pro/tools/sepp"
 
 versions:
  - "v4.5.0--py37_0"
  - "4.5.1--py37he4bd417_1"
  - "4.5.1--py37h9ee0642_2"
+ - "4.5.1--py37h9ee0642_3"
 description: "shpc-registry automated BioContainers addition for sepp"
-config: {"url": "https://biocontainers.pro/tools/sepp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sepp", "latest": {"4.5.1--py37h9ee0642_2": "sha256:2a3b3440beb035b3306958a47b7d4f7b8315725f18698e86f40cc0d70de8574b"}, "tags": {"v4.5.0--py37_0": "sha256:eb84a051d18e3ce745f75022ae81cb5c81b078e6064254879b76ab268870e707", "4.5.1--py37he4bd417_1": "sha256:4c8d644c35724da9b40c63cf5b23a0a01290a0b05460c7d4c01d3b7cef83e055", "4.5.1--py37h9ee0642_2": "sha256:2a3b3440beb035b3306958a47b7d4f7b8315725f18698e86f40cc0d70de8574b"}, "docker": "quay.io/biocontainers/sepp"}
+config: {"url": "https://biocontainers.pro/tools/sepp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sepp", "latest": {"4.5.1--py37h9ee0642_3": "sha256:45d72609b92a6d458b1d398b148f9e295f11ff65430bd19372d0f6527d6ded09"}, "tags": {"v4.5.0--py37_0": "sha256:eb84a051d18e3ce745f75022ae81cb5c81b078e6064254879b76ab268870e707", "4.5.1--py37he4bd417_1": "sha256:4c8d644c35724da9b40c63cf5b23a0a01290a0b05460c7d4c01d3b7cef83e055", "4.5.1--py37h9ee0642_2": "sha256:2a3b3440beb035b3306958a47b7d4f7b8315725f18698e86f40cc0d70de8574b", "4.5.1--py37h9ee0642_3": "sha256:45d72609b92a6d458b1d398b148f9e295f11ff65430bd19372d0f6527d6ded09"}, "docker": "quay.io/biocontainers/sepp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sepp.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/sepp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sepp:4.5.1--py37h9ee0642_2
+$ shpc install quay.io/biocontainers/sepp:4.5.1--py37h9ee0642_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sepp/4.5.1--py37h9ee0642_2
-$ module help quay.io/biocontainers/sepp/4.5.1--py37h9ee0642_2
+$ module load quay.io/biocontainers/sepp/4.5.1--py37h9ee0642_3
+$ module help quay.io/biocontainers/sepp/4.5.1--py37h9ee0642_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

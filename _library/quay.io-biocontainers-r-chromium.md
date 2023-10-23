@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-chromium"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-chromium/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-chromium/container.yaml"
-updated_at: "2023-10-22 02:42:00.937650"
-latest: "0.2.1--r43hdfd78af_1"
+updated_at: "2023-10-23 02:40:23.882111"
+latest: "0.3.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-chromium"
 aliases:
  - "2to3-3.11"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "0.2.1--r42hdfd78af_0"
  - "0.2.1--r43hdfd78af_1"
+ - "0.3.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for r-chromium"
-config: {"url": "https://biocontainers.pro/tools/r-chromium", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-chromium", "latest": {"0.2.1--r43hdfd78af_1": "sha256:ab300e20ff6b18588d65e727a65e7be6786a10ddae5121bbd5f26928e030b9de"}, "tags": {"0.2.1--r42hdfd78af_0": "sha256:6a87cf6af0ce888b33645d0b21bdafaa224132230026d06a347773982364c77c", "0.2.1--r43hdfd78af_1": "sha256:ab300e20ff6b18588d65e727a65e7be6786a10ddae5121bbd5f26928e030b9de"}, "docker": "quay.io/biocontainers/r-chromium", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-chromium", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-chromium", "latest": {"0.3.0--r43hdfd78af_0": "sha256:c684a039782faeb52b610230c99f4e8762470d6fe841a3ca4a0d2ef26ab22e3c"}, "tags": {"0.2.1--r42hdfd78af_0": "sha256:6a87cf6af0ce888b33645d0b21bdafaa224132230026d06a347773982364c77c", "0.2.1--r43hdfd78af_1": "sha256:ab300e20ff6b18588d65e727a65e7be6786a10ddae5121bbd5f26928e030b9de", "0.3.0--r43hdfd78af_0": "sha256:c684a039782faeb52b610230c99f4e8762470d6fe841a3ca4a0d2ef26ab22e3c"}, "docker": "quay.io/biocontainers/r-chromium", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-chromium.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/r-chromium
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-chromium:0.2.1--r43hdfd78af_1
+$ shpc install quay.io/biocontainers/r-chromium:0.3.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-chromium/0.2.1--r43hdfd78af_1
-$ module help quay.io/biocontainers/r-chromium/0.2.1--r43hdfd78af_1
+$ module load quay.io/biocontainers/r-chromium/0.3.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/r-chromium/0.3.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
