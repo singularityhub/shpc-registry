@@ -1,0 +1,64 @@
+url: https://biocontainers.pro/tools/scrnasim-toolz
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scrnasim-toolz
+latest:
+  0.1.1--pyhdfd78af_0: sha256:31d44f8da6632c3c243fd7c97dd90f03c7e99084aa9478752733386d41f452cc
+tags:
+  0.1.1--pyhdfd78af_0: sha256:31d44f8da6632c3c243fd7c97dd90f03c7e99084aa9478752733386d41f452cc
+docker: quay.io/biocontainers/scrnasim-toolz
+aliases:
+  cdna-generator: /usr/local/bin/cdna-generator
+  cmtime: /usr/local/bin/cmtime
+  fragment-selector: /usr/local/bin/fragment-selector
+  ib_acme: /usr/local/bin/ib_acme
+  ibv_asyncwatch: /usr/local/bin/ibv_asyncwatch
+  ibv_devices: /usr/local/bin/ibv_devices
+  ibv_devinfo: /usr/local/bin/ibv_devinfo
+  ibv_rc_pingpong: /usr/local/bin/ibv_rc_pingpong
+  ibv_srq_pingpong: /usr/local/bin/ibv_srq_pingpong
+  ibv_uc_pingpong: /usr/local/bin/ibv_uc_pingpong
+  ibv_ud_pingpong: /usr/local/bin/ibv_ud_pingpong
+  ibv_xsrq_pingpong: /usr/local/bin/ibv_xsrq_pingpong
+  mckey: /usr/local/bin/mckey
+  priming-site-predictor: /usr/local/bin/priming-site-predictor
+  protoc-24.3.0: /usr/local/bin/protoc-24.3.0
+  rcopy: /usr/local/bin/rcopy
+  rdma_client: /usr/local/bin/rdma_client
+  rdma_server: /usr/local/bin/rdma_server
+  rdma_xclient: /usr/local/bin/rdma_xclient
+  rdma_xserver: /usr/local/bin/rdma_xserver
+  read-sequencer: /usr/local/bin/read-sequencer
+  riostream: /usr/local/bin/riostream
+  rping: /usr/local/bin/rping
+  rstream: /usr/local/bin/rstream
+  sequence-extractor: /usr/local/bin/sequence-extractor
+  structure-generator: /usr/local/bin/structure-generator
+  transcript-sampler: /usr/local/bin/transcript-sampler
+  ucmatose: /usr/local/bin/ucmatose
+  udaddy: /usr/local/bin/udaddy
+  udpong: /usr/local/bin/udpong
+  io_demo: /usr/local/bin/io_demo
+  ucx_info: /usr/local/bin/ucx_info
+  ucx_perftest: /usr/local/bin/ucx_perftest
+  ucx_read_profile: /usr/local/bin/ucx_read_profile
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  produce_x_platform_fuzz_corpus: /usr/local/bin/produce_x_platform_fuzz_corpus
+  run_x_platform_fuzz_corpus: /usr/local/bin/run_x_platform_fuzz_corpus
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  csv-import: /usr/local/bin/csv-import
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  sha256_profile: /usr/local/bin/sha256_profile
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin

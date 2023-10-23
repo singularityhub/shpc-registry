@@ -1,0 +1,63 @@
+url: https://biocontainers.pro/tools/ms2rescore
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ms2rescore
+latest:
+  3.0.0b1--pyhdfd78af_0: sha256:1a6a20f6bd9b922b38a8a7e9d6fc4614d0533a94236c98a8142b4e4e34adfae8
+tags:
+  3.0.0b1--pyhdfd78af_0: sha256:1a6a20f6bd9b922b38a8a7e9d6fc4614d0533a94236c98a8142b4e4e34adfae8
+docker: quay.io/biocontainers/ms2rescore
+aliases:
+  cpuinfo: /usr/local/bin/cpuinfo
+  deeplc: /usr/local/bin/deeplc
+  deeplc-gui: /usr/local/bin/deeplc-gui
+  fasta2speclib: /usr/local/bin/fasta2speclib
+  flatc: /usr/local/bin/flatc
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  helpviewer: /usr/local/bin/helpviewer
+  img2png: /usr/local/bin/img2png
+  img2py: /usr/local/bin/img2py
+  img2xpm: /usr/local/bin/img2xpm
+  mokapot: /usr/local/bin/mokapot
+  ms2pip: /usr/local/bin/ms2pip
+  ms2rescore: /usr/local/bin/ms2rescore
+  ms2rescore-gui: /usr/local/bin/ms2rescore-gui
+  ms2rescore-report: /usr/local/bin/ms2rescore-report
+  psm-utils: /usr/local/bin/psm-utils
+  psm_utils: /usr/local/bin/psm_utils
+  pycrust: /usr/local/bin/pycrust
+  pyshell: /usr/local/bin/pyshell
+  pyslices: /usr/local/bin/pyslices
+  pyslicesshell: /usr/local/bin/pyslicesshell
+  pywxrc: /usr/local/bin/pywxrc
+  triqler: /usr/local/bin/triqler
+  wx-config: /usr/local/bin/wx-config
+  wxdemo: /usr/local/bin/wxdemo
+  wxdocs: /usr/local/bin/wxdocs
+  wxget: /usr/local/bin/wxget
+  wxrc: /usr/local/bin/wxrc
+  wxrc-3.1: /usr/local/bin/wxrc-3.1
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  produce_x_platform_fuzz_corpus: /usr/local/bin/produce_x_platform_fuzz_corpus
+  run_x_platform_fuzz_corpus: /usr/local/bin/run_x_platform_fuzz_corpus
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  xgboost: /usr/local/bin/xgboost
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
+  plasma-store-server: /usr/local/bin/plasma-store-server
+  plasma_store: /usr/local/bin/plasma_store
+  csv-import: /usr/local/bin/csv-import
+  markdown-it: /usr/local/bin/markdown-it
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  sha256_profile: /usr/local/bin/sha256_profile
+  h5delete: /usr/local/bin/h5delete
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter

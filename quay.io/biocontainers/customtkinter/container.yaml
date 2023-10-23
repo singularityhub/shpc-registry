@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/customtkinter
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for customtkinter
+latest:
+  5.2.1--pyh7cba7a3_0: sha256:631742761a744d16d32012797acbb6cad2557882a7f685b50501da2c9e8fb5f0
+tags:
+  5.2.1--pyh7cba7a3_0: sha256:631742761a744d16d32012797acbb6cad2557882a7f685b50501da2c9e8fb5f0
+docker: quay.io/biocontainers/customtkinter
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  python3.1: /usr/local/bin/python3.1
