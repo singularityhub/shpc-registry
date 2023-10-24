@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/ont-modkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ont-modkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ont-modkit/container.yaml"
-updated_at: "2023-10-23 02:52:02.055315"
-latest: "0.2.0--hdcf5f25_0"
+updated_at: "2023-10-24 02:41:01.994389"
+latest: "0.2.1--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/ont-modkit"
 aliases:
  - "modkit"
 versions:
  - "0.2.0--hdcf5f25_0"
+ - "0.2.1--hdcf5f25_0"
 description: "singularity registry hpc automated addition for ont-modkit"
-config: {"url": "https://biocontainers.pro/tools/ont-modkit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ont-modkit", "latest": {"0.2.0--hdcf5f25_0": "sha256:07de6449e8476fb37b1ff4ba431386fe33313c54a88d8840402c87887affd90e"}, "tags": {"0.2.0--hdcf5f25_0": "sha256:07de6449e8476fb37b1ff4ba431386fe33313c54a88d8840402c87887affd90e"}, "docker": "quay.io/biocontainers/ont-modkit", "aliases": {"modkit": "/usr/local/bin/modkit"}}
+config: {"url": "https://biocontainers.pro/tools/ont-modkit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ont-modkit", "latest": {"0.2.1--hdcf5f25_0": "sha256:9652585587fd7d2d32bd6aa36b9e656adc43c8460405ec4d1cf2d63d43b25dc5"}, "tags": {"0.2.0--hdcf5f25_0": "sha256:07de6449e8476fb37b1ff4ba431386fe33313c54a88d8840402c87887affd90e", "0.2.1--hdcf5f25_0": "sha256:9652585587fd7d2d32bd6aa36b9e656adc43c8460405ec4d1cf2d63d43b25dc5"}, "docker": "quay.io/biocontainers/ont-modkit", "aliases": {"modkit": "/usr/local/bin/modkit"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ont-modkit.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/ont-modkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ont-modkit:0.2.0--hdcf5f25_0
+$ shpc install quay.io/biocontainers/ont-modkit:0.2.1--hdcf5f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ont-modkit/0.2.0--hdcf5f25_0
-$ module help quay.io/biocontainers/ont-modkit/0.2.0--hdcf5f25_0
+$ module load quay.io/biocontainers/ont-modkit/0.2.1--hdcf5f25_0
+$ module help quay.io/biocontainers/ont-modkit/0.2.1--hdcf5f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/condiga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/condiga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/condiga/container.yaml"
-updated_at: "2023-10-23 03:07:56.556948"
+updated_at: "2023-10-24 02:57:06.692714"
 latest: "0.2.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/condiga"
 aliases:

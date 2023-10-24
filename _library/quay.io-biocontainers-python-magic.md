@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-magic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-magic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-magic/container.yaml"
-updated_at: "2023-10-23 03:01:01.793617"
+updated_at: "2023-10-24 02:50:10.145839"
 latest: "0.4.10--py35_1"
 container_url: "https://biocontainers.pro/tools/python-magic"
 aliases:

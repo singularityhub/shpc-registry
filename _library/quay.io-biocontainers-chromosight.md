@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chromosight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromosight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromosight/container.yaml"
-updated_at: "2023-10-23 02:58:17.748432"
+updated_at: "2023-10-24 02:47:23.897805"
 latest: "1.6.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chromosight"
 aliases:

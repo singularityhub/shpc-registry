@@ -4,7 +4,7 @@ name:  "bids/brainiak-srm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/brainiak-srm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/brainiak-srm/container.yaml"
-updated_at: "2023-10-23 02:35:08.032472"
+updated_at: "2023-10-24 02:24:03.912860"
 latest: "unstable"
 container_url: "https://hub.docker.com/r/bids/brainiak-srm"
 
@@ -12,7 +12,7 @@ versions:
  - "latest"
  - "unstable"
 description: "Shared Response Model (SRM) from the Brain Imaging Analysis Kit (BrainIAK) (https://github.com/BIDS-Apps/brainiak-srm)"
-config: {"docker": "bids/brainiak-srm", "latest": {"unstable": "sha256:2d892108534be2a3e854c14336302ea998832fdea5bc2cea3a3c8c90d637d868"}, "tags": {"latest": "sha256:5ff856420a178be4e8150e574251a44885451050e9803515269e5ff15cd67430", "unstable": "sha256:2d892108534be2a3e854c14336302ea998832fdea5bc2cea3a3c8c90d637d868"}, "filter": ["v*"], "maintainer": "@vsoch", "description": "Shared Response Model (SRM) from the Brain Imaging Analysis Kit (BrainIAK) (https://github.com/BIDS-Apps/brainiak-srm)", "url": "https://hub.docker.com/r/bids/brainiak-srm"}
+config: {"docker": "bids/brainiak-srm", "latest": {"unstable": "sha256:d646b5f6e249c26fbbbbf1ac88290f0736e34fa4312294183a2590d7afe894a7"}, "tags": {"latest": "sha256:5ff856420a178be4e8150e574251a44885451050e9803515269e5ff15cd67430", "unstable": "sha256:d646b5f6e249c26fbbbbf1ac88290f0736e34fa4312294183a2590d7afe894a7"}, "filter": ["v*"], "maintainer": "@vsoch", "description": "Shared Response Model (SRM) from the Brain Imaging Analysis Kit (BrainIAK) (https://github.com/BIDS-Apps/brainiak-srm)", "url": "https://hub.docker.com/r/bids/brainiak-srm"}
 ---
 
 This module is a singularity container wrapper for bids/brainiak-srm.

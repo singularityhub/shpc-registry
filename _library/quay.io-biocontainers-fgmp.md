@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fgmp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgmp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fgmp/container.yaml"
-updated_at: "2023-10-23 02:41:17.515717"
+updated_at: "2023-10-24 02:30:15.657480"
 latest: "1.0.3--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/fgmp"
 aliases:

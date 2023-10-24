@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/delegation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/delegation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/delegation/container.yaml"
-updated_at: "2023-10-23 02:45:01.640439"
+updated_at: "2023-10-24 02:34:00.641138"
 latest: "1.1--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/delegation"
 aliases:

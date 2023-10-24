@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graphclust-wrappers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphclust-wrappers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphclust-wrappers/container.yaml"
-updated_at: "2023-10-23 02:57:00.153238"
+updated_at: "2023-10-24 02:46:05.006709"
 latest: "0.6.0--2"
 container_url: "https://biocontainers.pro/tools/graphclust-wrappers"
 aliases:

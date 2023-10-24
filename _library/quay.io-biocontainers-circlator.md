@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/circlator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circlator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circlator/container.yaml"
-updated_at: "2023-10-23 02:49:59.767729"
+updated_at: "2023-10-24 02:38:58.190837"
 latest: "1.5.5--py_3"
 container_url: "https://biocontainers.pro/tools/circlator"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-panther"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-panther/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-panther/container.yaml"
-updated_at: "2023-10-23 03:11:22.026717"
+updated_at: "2023-10-24 03:00:32.055360"
 latest: "0.5.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-panther"
 aliases:

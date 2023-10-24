@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/naibr-plus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/naibr-plus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/naibr-plus/container.yaml"
-updated_at: "2023-10-23 02:52:33.252825"
-latest: "0.5--pyhdfd78af_0"
+updated_at: "2023-10-24 02:41:33.484784"
+latest: "0.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/naibr-plus"
 aliases:
  - "naibr"
@@ -33,8 +33,9 @@ aliases:
  - "transicc"
 versions:
  - "0.5--pyhdfd78af_0"
+ - "0.5.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for naibr-plus"
-config: {"url": "https://biocontainers.pro/tools/naibr-plus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for naibr-plus", "latest": {"0.5--pyhdfd78af_0": "sha256:e77ae9067adc075be566b5e46d2ddaa66d760e11a08ab0e983433dad7e54c060"}, "tags": {"0.5--pyhdfd78af_0": "sha256:e77ae9067adc075be566b5e46d2ddaa66d760e11a08ab0e983433dad7e54c060"}, "docker": "quay.io/biocontainers/naibr-plus", "aliases": {"naibr": "/usr/local/bin/naibr", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/naibr-plus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for naibr-plus", "latest": {"0.5.1--pyhdfd78af_0": "sha256:1075c6e6a4cb4ceef9024af57efb424f0c7f230d188e2a2d4dfde42509ef1b9c"}, "tags": {"0.5--pyhdfd78af_0": "sha256:e77ae9067adc075be566b5e46d2ddaa66d760e11a08ab0e983433dad7e54c060", "0.5.1--pyhdfd78af_0": "sha256:1075c6e6a4cb4ceef9024af57efb424f0c7f230d188e2a2d4dfde42509ef1b9c"}, "docker": "quay.io/biocontainers/naibr-plus", "aliases": {"naibr": "/usr/local/bin/naibr", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/naibr-plus.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/naibr-plus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/naibr-plus:0.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/naibr-plus:0.5.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/naibr-plus/0.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/naibr-plus/0.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/naibr-plus/0.5.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/naibr-plus/0.5.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
