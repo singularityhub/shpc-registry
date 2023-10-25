@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/je-suite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/je-suite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/je-suite/container.yaml"
-updated_at: "2023-10-24 02:33:29.714858"
+updated_at: "2023-10-25 02:36:25.137145"
 latest: "2.0.RC--0"
 container_url: "https://biocontainers.pro/tools/je-suite"
 aliases:

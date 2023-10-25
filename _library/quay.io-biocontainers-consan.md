@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/consan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/consan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/consan/container.yaml"
-updated_at: "2023-10-24 03:20:11.041857"
+updated_at: "2023-10-25 03:33:52.329017"
 latest: "1.2--h031d066_5"
 container_url: "https://biocontainers.pro/tools/consan"
 aliases:

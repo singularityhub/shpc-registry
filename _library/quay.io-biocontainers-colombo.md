@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/colombo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/colombo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/colombo/container.yaml"
-updated_at: "2023-10-24 02:33:03.002461"
+updated_at: "2023-10-25 02:35:50.733570"
 latest: "v4.0--1"
 container_url: "https://biocontainers.pro/tools/colombo"
 aliases:

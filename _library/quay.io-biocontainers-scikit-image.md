@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scikit-image"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scikit-image/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scikit-image/container.yaml"
-updated_at: "2023-10-24 02:34:03.909585"
+updated_at: "2023-10-25 02:37:09.716482"
 latest: "0.14.0--py36hfc679d8_1"
 container_url: "https://biocontainers.pro/tools/scikit-image"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dedup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dedup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dedup/container.yaml"
-updated_at: "2023-10-24 02:36:07.173119"
+updated_at: "2023-10-25 02:39:49.249344"
 latest: "0.12.8--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/dedup"
 aliases:

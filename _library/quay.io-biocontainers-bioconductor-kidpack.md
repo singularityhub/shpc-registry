@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-kidpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kidpack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kidpack/container.yaml"
-updated_at: "2023-10-24 02:40:03.662355"
+updated_at: "2023-10-25 02:44:53.006015"
 latest: "1.42.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kidpack"
 

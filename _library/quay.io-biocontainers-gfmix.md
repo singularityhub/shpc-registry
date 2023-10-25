@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gfmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfmix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfmix/container.yaml"
-updated_at: "2023-10-24 02:44:54.250871"
+updated_at: "2023-10-25 02:51:06.452827"
 latest: "1.0.2--hdbdd923_2"
 container_url: "https://biocontainers.pro/tools/gfmix"
 aliases:

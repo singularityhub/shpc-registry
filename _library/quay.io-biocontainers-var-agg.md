@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/var-agg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/var-agg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/var-agg/container.yaml"
-updated_at: "2023-10-24 03:20:13.548435"
+updated_at: "2023-10-25 03:33:55.342177"
 latest: "0.1.1--hbcae180_1"
 container_url: "https://biocontainers.pro/tools/var-agg"
 aliases:

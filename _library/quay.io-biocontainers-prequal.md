@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prequal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prequal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prequal/container.yaml"
-updated_at: "2023-10-24 02:41:00.886230"
+updated_at: "2023-10-25 02:46:06.487351"
 latest: "1.02--h2202e69_5"
 container_url: "https://biocontainers.pro/tools/prequal"
 aliases:

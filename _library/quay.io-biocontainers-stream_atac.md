@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stream_atac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stream_atac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stream_atac/container.yaml"
-updated_at: "2023-10-24 02:48:47.430465"
+updated_at: "2023-10-25 02:56:02.071260"
 latest: "0.3.5--py_5"
 container_url: "https://biocontainers.pro/tools/stream_atac"
 aliases:

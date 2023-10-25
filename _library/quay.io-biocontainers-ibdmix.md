@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ibdmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ibdmix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ibdmix/container.yaml"
-updated_at: "2023-10-24 02:52:57.923170"
+updated_at: "2023-10-25 03:01:03.990500"
 latest: "1.0.1--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/ibdmix"
 aliases:

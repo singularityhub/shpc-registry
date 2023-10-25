@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/starseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/starseqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/starseqr/container.yaml"
-updated_at: "2023-10-24 02:59:44.410008"
+updated_at: "2023-10-25 03:09:08.867443"
 latest: "0.6.7--py310hd6be1da_5"
 container_url: "https://biocontainers.pro/tools/starseqr"
 aliases:

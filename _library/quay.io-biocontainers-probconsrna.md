@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/probconsrna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/probconsrna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/probconsrna/container.yaml"
-updated_at: "2023-10-24 02:53:08.610182"
+updated_at: "2023-10-25 03:01:16.829458"
 latest: "1.10--h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/probconsrna"
 aliases:

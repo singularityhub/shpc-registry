@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zarp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zarp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zarp/container.yaml"
-updated_at: "2023-10-24 02:56:20.470099"
+updated_at: "2023-10-25 03:05:02.916029"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/zarp"
 aliases:
