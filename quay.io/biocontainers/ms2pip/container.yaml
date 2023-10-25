@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/ms2pip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ms2pip
 latest:
-  3.11.0--py310hd6be1da_2: sha256:b854effe87e949cd9f9185b9b1fa9558f2612c8b80cd39f8638b5c545a519568
+  4.0.0.dev4--py310h7147d47_0: sha256:c3e98fd2b9f41e1715498d25d60806f252713aff055a6df5f68543ce6eb62e35
 tags:
   3.9.0--py39h5371cbf_0: sha256:fedf933dddebdc976c2e1dfc8d629788992e73ce8be20d9e44ffa99184ec559f
   3.10.0--py39h5371cbf_0: sha256:ac051375ca0e7793f5b39aa0ba909685c2b4dca66e2cf73262fc91da2bec15a7
   3.11.0--py39h5371cbf_0: sha256:88e78f7813fe4a77779f8e8c33e9688f0d655674d7a034df5d9ecf3ab2646a13
   3.11.0--py310hd6be1da_2: sha256:b854effe87e949cd9f9185b9b1fa9558f2612c8b80cd39f8638b5c545a519568
+  4.0.0.dev4--py310h7147d47_0: sha256:c3e98fd2b9f41e1715498d25d60806f252713aff055a6df5f68543ce6eb62e35
 docker: quay.io/biocontainers/ms2pip
 aliases:
   fasta2speclib: /usr/local/bin/fasta2speclib

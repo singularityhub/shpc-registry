@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-bcbiosinglecell
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-bcbiosinglecell
 latest:
-  0.6.4--r43hdfd78af_0: sha256:d5a7b81d6560448a23450fcaf5f20d14953a2e52e248cc15dd2f7a504875811a
+  0.7.0--r43hdfd78af_0: sha256:b77fd553c95eb302c50527339a0043a15cd7a05b06038974e1cbf079a7051d61
 tags:
   0.5.0--r41hdfd78af_0: sha256:4c2a569223ad69aded39d480542e20da64feb1e9d5da7fa5b85b069f624633fe
   0.6.2--r42hdfd78af_1: sha256:c3bf8be79eaebdd37624d10659a6405b30cd69785507985b5754c83c58bce459
@@ -10,6 +10,7 @@ tags:
   0.6.3--r42hdfd78af_1: sha256:5456f6b700d6cff8b7d0592ebf12683626cbea1ac0b638e8e0cf8baf77c7d195
   0.6.3--r43hdfd78af_2: sha256:b9f609b5daf02a648a65eed37159f1a3f921c17245e44edae5bce2a39dc98fa1
   0.6.4--r43hdfd78af_0: sha256:d5a7b81d6560448a23450fcaf5f20d14953a2e52e248cc15dd2f7a504875811a
+  0.7.0--r43hdfd78af_0: sha256:b77fd553c95eb302c50527339a0043a15cd7a05b06038974e1cbf079a7051d61
 docker: quay.io/biocontainers/r-bcbiosinglecell
 aliases:
   pandoc: /usr/local/bin/pandoc

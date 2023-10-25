@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/galaxyxml
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for galaxyxml
 latest:
-  0.4.14--pyh5e36f6f_0: sha256:ba6924ce90aaddf0ea8405f6a92fc8a25150ccc3f4a1ea694e6c39f5f95f2ab4
+  0.5.3--pyh7cba7a3_0: sha256:9c0930a4c51d040372d3f722c77bef0b300281608988a337f9a9e78e1d8bc11e
 tags:
   0.4.9--pyh864c0ab_1: sha256:1fed5e040b66851135ad37b47e1c6dec0d88dea668e00c3499b27eb148b39452
   0.4.14--pyh5e36f6f_0: sha256:ba6924ce90aaddf0ea8405f6a92fc8a25150ccc3f4a1ea694e6c39f5f95f2ab4
+  0.5.3--pyh7cba7a3_0: sha256:9c0930a4c51d040372d3f722c77bef0b300281608988a337f9a9e78e1d8bc11e
 docker: quay.io/biocontainers/galaxyxml
 aliases:
   futurize: /usr/local/bin/futurize
