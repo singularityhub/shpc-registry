@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/flashlfq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flashlfq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flashlfq/container.yaml"
-updated_at: "2023-10-25 03:09:51.017308"
-latest: "1.2.4--hdfd78af_0"
+updated_at: "2023-10-26 03:08:49.073494"
+latest: "1.2.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flashlfq"
 aliases:
  - "FlashLFQ"
  - "lttng-gen-tp"
 versions:
  - "1.2.4--hdfd78af_0"
+ - "1.2.5--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for flashlfq"
-config: {"url": "https://biocontainers.pro/tools/flashlfq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flashlfq", "latest": {"1.2.4--hdfd78af_0": "sha256:d1654b13f30566096da690a28eae8e8e4f36394bb4b3cca4578c49adc4bad714"}, "tags": {"1.2.4--hdfd78af_0": "sha256:d1654b13f30566096da690a28eae8e8e4f36394bb4b3cca4578c49adc4bad714"}, "docker": "quay.io/biocontainers/flashlfq", "aliases": {"FlashLFQ": "/usr/local/bin/FlashLFQ", "lttng-gen-tp": "/usr/local/bin/lttng-gen-tp"}}
+config: {"url": "https://biocontainers.pro/tools/flashlfq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flashlfq", "latest": {"1.2.5--hdfd78af_0": "sha256:2511d8ad0dba72705fec1d0256fa5f5bcc638ff397474d6a1349a9ddf5ae5d2f"}, "tags": {"1.2.4--hdfd78af_0": "sha256:d1654b13f30566096da690a28eae8e8e4f36394bb4b3cca4578c49adc4bad714", "1.2.5--hdfd78af_0": "sha256:2511d8ad0dba72705fec1d0256fa5f5bcc638ff397474d6a1349a9ddf5ae5d2f"}, "docker": "quay.io/biocontainers/flashlfq", "aliases": {"FlashLFQ": "/usr/local/bin/FlashLFQ", "lttng-gen-tp": "/usr/local/bin/lttng-gen-tp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flashlfq.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/flashlfq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flashlfq:1.2.4--hdfd78af_0
+$ shpc install quay.io/biocontainers/flashlfq:1.2.5--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flashlfq/1.2.4--hdfd78af_0
-$ module help quay.io/biocontainers/flashlfq/1.2.4--hdfd78af_0
+$ module load quay.io/biocontainers/flashlfq/1.2.5--hdfd78af_0
+$ module help quay.io/biocontainers/flashlfq/1.2.5--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

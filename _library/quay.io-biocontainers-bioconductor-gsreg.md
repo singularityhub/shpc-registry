@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gsreg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsreg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsreg/container.yaml"
-updated_at: "2023-10-25 02:37:45.225401"
+updated_at: "2023-10-26 02:35:48.350613"
 latest: "1.34.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsreg"
 

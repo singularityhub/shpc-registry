@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyjaspar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyjaspar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyjaspar/container.yaml"
-updated_at: "2023-10-25 02:38:57.722576"
-latest: "2.1.1--pyhdfd78af_0"
+updated_at: "2023-10-26 02:36:58.339282"
+latest: "3.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyjaspar"
 aliases:
  - "f2py3.9"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "2.1.0--pyhdfd78af_0"
  - "2.1.1--pyhdfd78af_0"
+ - "3.0.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pyjaspar"
-config: {"url": "https://biocontainers.pro/tools/pyjaspar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyjaspar", "latest": {"2.1.1--pyhdfd78af_0": "sha256:cc2a29c30b49873ba7b19590cfcdb4062b65f106369f79feba1b17bd16faf242"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:b32a0ca32f5684ec86de127a77692570702329dece15de599c6cdb76eaf8ebe3", "2.1.1--pyhdfd78af_0": "sha256:cc2a29c30b49873ba7b19590cfcdb4062b65f106369f79feba1b17bd16faf242"}, "docker": "quay.io/biocontainers/pyjaspar", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyjaspar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyjaspar", "latest": {"3.0.0--pyhdfd78af_0": "sha256:80797b1fdc0c9ce734ff73e1e09806c96262becc6599fff2e65859289557a159"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:b32a0ca32f5684ec86de127a77692570702329dece15de599c6cdb76eaf8ebe3", "2.1.1--pyhdfd78af_0": "sha256:cc2a29c30b49873ba7b19590cfcdb4062b65f106369f79feba1b17bd16faf242", "3.0.0--pyhdfd78af_0": "sha256:80797b1fdc0c9ce734ff73e1e09806c96262becc6599fff2e65859289557a159"}, "docker": "quay.io/biocontainers/pyjaspar", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyjaspar.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/pyjaspar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyjaspar:2.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pyjaspar:3.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyjaspar/2.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/pyjaspar/2.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/pyjaspar/3.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/pyjaspar/3.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

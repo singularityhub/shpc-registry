@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcf2genome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf2genome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf2genome/container.yaml"
-updated_at: "2023-10-25 02:30:26.411353"
+updated_at: "2023-10-26 02:28:43.900262"
 latest: "0.91--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/vcf2genome"
 aliases:

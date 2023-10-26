@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ipo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ipo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ipo/container.yaml"
-updated_at: "2023-10-25 02:24:55.229899"
+updated_at: "2023-10-26 02:23:27.618284"
 latest: "1.7.5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ipo"
 

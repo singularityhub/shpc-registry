@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ms2pip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ms2pip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ms2pip/container.yaml"
-updated_at: "2023-10-25 02:28:40.662361"
-latest: "3.11.0--py310hd6be1da_2"
+updated_at: "2023-10-26 02:27:01.371042"
+latest: "4.0.0.dev4--py310h7147d47_0"
 container_url: "https://biocontainers.pro/tools/ms2pip"
 aliases:
  - "fasta2speclib"
@@ -26,8 +26,9 @@ versions:
  - "3.10.0--py39h5371cbf_0"
  - "3.11.0--py39h5371cbf_0"
  - "3.11.0--py310hd6be1da_2"
+ - "4.0.0.dev4--py310h7147d47_0"
 description: "shpc-registry automated BioContainers addition for ms2pip"
-config: {"url": "https://biocontainers.pro/tools/ms2pip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ms2pip", "latest": {"3.11.0--py310hd6be1da_2": "sha256:b854effe87e949cd9f9185b9b1fa9558f2612c8b80cd39f8638b5c545a519568"}, "tags": {"3.9.0--py39h5371cbf_0": "sha256:fedf933dddebdc976c2e1dfc8d629788992e73ce8be20d9e44ffa99184ec559f", "3.10.0--py39h5371cbf_0": "sha256:ac051375ca0e7793f5b39aa0ba909685c2b4dca66e2cf73262fc91da2bec15a7", "3.11.0--py39h5371cbf_0": "sha256:88e78f7813fe4a77779f8e8c33e9688f0d655674d7a034df5d9ecf3ab2646a13", "3.11.0--py310hd6be1da_2": "sha256:b854effe87e949cd9f9185b9b1fa9558f2612c8b80cd39f8638b5c545a519568"}, "docker": "quay.io/biocontainers/ms2pip", "aliases": {"fasta2speclib": "/usr/local/bin/fasta2speclib", "ms2pip": "/usr/local/bin/ms2pip", "ms2pip-single-prediction": "/usr/local/bin/ms2pip-single-prediction", "xgboost": "/usr/local/bin/xgboost", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "jsonschema": "/usr/local/bin/jsonschema"}}
+config: {"url": "https://biocontainers.pro/tools/ms2pip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ms2pip", "latest": {"4.0.0.dev4--py310h7147d47_0": "sha256:c3e98fd2b9f41e1715498d25d60806f252713aff055a6df5f68543ce6eb62e35"}, "tags": {"3.9.0--py39h5371cbf_0": "sha256:fedf933dddebdc976c2e1dfc8d629788992e73ce8be20d9e44ffa99184ec559f", "3.10.0--py39h5371cbf_0": "sha256:ac051375ca0e7793f5b39aa0ba909685c2b4dca66e2cf73262fc91da2bec15a7", "3.11.0--py39h5371cbf_0": "sha256:88e78f7813fe4a77779f8e8c33e9688f0d655674d7a034df5d9ecf3ab2646a13", "3.11.0--py310hd6be1da_2": "sha256:b854effe87e949cd9f9185b9b1fa9558f2612c8b80cd39f8638b5c545a519568", "4.0.0.dev4--py310h7147d47_0": "sha256:c3e98fd2b9f41e1715498d25d60806f252713aff055a6df5f68543ce6eb62e35"}, "docker": "quay.io/biocontainers/ms2pip", "aliases": {"fasta2speclib": "/usr/local/bin/fasta2speclib", "ms2pip": "/usr/local/bin/ms2pip", "ms2pip-single-prediction": "/usr/local/bin/ms2pip-single-prediction", "xgboost": "/usr/local/bin/xgboost", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "jsonschema": "/usr/local/bin/jsonschema"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ms2pip.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/ms2pip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ms2pip:3.11.0--py310hd6be1da_2
+$ shpc install quay.io/biocontainers/ms2pip:4.0.0.dev4--py310h7147d47_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ms2pip/3.11.0--py310hd6be1da_2
-$ module help quay.io/biocontainers/ms2pip/3.11.0--py310hd6be1da_2
+$ module load quay.io/biocontainers/ms2pip/4.0.0.dev4--py310h7147d47_0
+$ module help quay.io/biocontainers/ms2pip/4.0.0.dev4--py310h7147d47_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

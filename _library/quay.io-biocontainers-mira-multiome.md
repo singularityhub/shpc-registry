@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mira-multiome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mira-multiome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mira-multiome/container.yaml"
-updated_at: "2023-10-25 03:05:28.618814"
+updated_at: "2023-10-26 03:04:10.145364"
 latest: "2.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mira-multiome"
 aliases:

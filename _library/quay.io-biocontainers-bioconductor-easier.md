@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-easier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-easier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-easier/container.yaml"
-updated_at: "2023-10-25 03:08:54.594487"
+updated_at: "2023-10-26 03:07:49.331678"
 latest: "1.6.3--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-easier"
 

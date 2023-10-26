@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-time-local"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-time-local/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-time-local/container.yaml"
-updated_at: "2023-10-25 02:52:23.100402"
+updated_at: "2023-10-26 02:50:24.924568"
 latest: "1.2300--pl5.22.0_0"
 container_url: "https://biocontainers.pro/tools/perl-time-local"
 aliases:
