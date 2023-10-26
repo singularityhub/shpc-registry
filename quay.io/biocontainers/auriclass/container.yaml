@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/auriclass
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for auriclass
+latest:
+  0.5.3--pyhdfd78af_0: sha256:0450b5afe023c0b44291681e3de4a05ebf796d64698a915de65c0c8a05fcba0e
+tags:
+  0.5.3--pyhdfd78af_0: sha256:0450b5afe023c0b44291681e3de4a05ebf796d64698a915de65c0c8a05fcba0e
+docker: quay.io/biocontainers/auriclass
+aliases:
+  auriclass: /usr/local/bin/auriclass
+  dmypy: /usr/local/bin/dmypy
+  mypy: /usr/local/bin/mypy
+  mypyc: /usr/local/bin/mypyc
+  stubgen: /usr/local/bin/stubgen
+  stubtest: /usr/local/bin/stubtest
+  pyfastx: /usr/local/bin/pyfastx
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  mash: /usr/local/bin/mash
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/virheat
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for virheat
+latest:
+  0.5.3--pyhdfd78af_0: sha256:ebe9c7b49e69cf69453ba8b49e7514d7d7b8183c30ae66d2e7a302ac5389e178
+tags:
+  0.5.3--pyhdfd78af_0: sha256:ebe9c7b49e69cf69453ba8b49e7514d7d7b8183c30ae66d2e7a302ac5389e178
+docker: quay.io/biocontainers/virheat
+aliases:
+  virheat: /usr/local/bin/virheat
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc
