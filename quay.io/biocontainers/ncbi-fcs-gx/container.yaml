@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/ncbi-fcs-gx
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ncbi-fcs-gx
 latest:
-  0.4.0--h4ac6f70_2: sha256:2045eea3ce531e61629d83cadf019bc7bd1ef6f7952a83854a8780cd5e4b4f02
+  0.4.1--h4ac6f70_0: sha256:0bebb6346c31025341e6a8a6be50a1cbeb2c97c49dd348c037246c2a3fad74c1
 tags:
   0.4.0--h9f5acd7_1: sha256:deb8910250c74e3d808a4515fc971be8c41f43e526ae6951963ad46f14a8ae06
   0.4.0--h4ac6f70_2: sha256:2045eea3ce531e61629d83cadf019bc7bd1ef6f7952a83854a8780cd5e4b4f02
+  0.4.1--h4ac6f70_0: sha256:0bebb6346c31025341e6a8a6be50a1cbeb2c97c49dd348c037246c2a3fad74c1
 docker: quay.io/biocontainers/ncbi-fcs-gx
 aliases:
   action_report.py: /usr/local/bin/action_report.py

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pneumo-typer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pneumo-typer
 latest:
-  1.0.1--hdfd78af_0: sha256:f8247e39ae40c12c44552a3a5590d6143fc47a1c2b52ec1cad58f7ae0c646fc8
+  1.0.1--hdfd78af_3: sha256:fa2c1338648d49fe2102686d02fc9e0eaf9ec7566e6b7e0f0ad9e2f5a6ca9ca3
 tags:
   1.0.1--hdfd78af_0: sha256:f8247e39ae40c12c44552a3a5590d6143fc47a1c2b52ec1cad58f7ae0c646fc8
+  1.0.1--hdfd78af_3: sha256:fa2c1338648d49fe2102686d02fc9e0eaf9ec7566e6b7e0f0ad9e2f5a6ca9ca3
 docker: quay.io/biocontainers/pneumo-typer
 aliases:
   blastn_vdb: /usr/local/bin/blastn_vdb
