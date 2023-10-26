@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/pyrodigal-gv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pyrodigal-gv
+latest:
+  0.2.0--pyh7cba7a3_0: sha256:a4f0e1453bc293ecd8c89c092f51e5ec540ee89fafd44148b2c358edaf615a0b
+tags:
+  0.2.0--pyh7cba7a3_0: sha256:a4f0e1453bc293ecd8c89c092f51e5ec540ee89fafd44148b2c358edaf615a0b
+docker: quay.io/biocontainers/pyrodigal-gv
+aliases:
+  archspec: /usr/local/bin/archspec
+  pyrodigal: /usr/local/bin/pyrodigal
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
