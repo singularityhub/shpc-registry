@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gdmicro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gdmicro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gdmicro/container.yaml"
-updated_at: "2023-10-26 03:20:28.268582"
+updated_at: "2023-10-26 04:02:19.769907"
 latest: "1.0.6--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/gdmicro"
 aliases:
