@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/refgenconf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/refgenconf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/refgenconf/container.yaml"
-updated_at: "2023-10-26 03:55:47.061892"
+updated_at: "2023-10-27 03:18:11.825907"
 latest: "0.12.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/refgenconf"
 aliases:

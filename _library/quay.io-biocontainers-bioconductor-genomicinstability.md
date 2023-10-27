@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomicinstability"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicinstability/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicinstability/container.yaml"
-updated_at: "2023-10-26 03:19:05.235227"
+updated_at: "2023-10-27 03:16:08.104631"
 latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicinstability"
 

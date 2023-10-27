@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tcdemux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tcdemux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tcdemux/container.yaml"
-updated_at: "2023-10-26 03:14:36.478877"
-latest: "0.0.15--pyhdfd78af_0"
+updated_at: "2023-10-27 03:14:28.316563"
+latest: "0.0.24--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tcdemux"
 aliases:
  - "Xcalcmem.sh"
@@ -43,8 +43,9 @@ aliases:
 versions:
  - "0.0.13--pyhdfd78af_0"
  - "0.0.15--pyhdfd78af_0"
+ - "0.0.24--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for tcdemux"
-config: {"url": "https://biocontainers.pro/tools/tcdemux", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tcdemux", "latest": {"0.0.15--pyhdfd78af_0": "sha256:f0f53825c0c65e8962f1f312a9b9da601c07cbd87058fb6a706f4deaa122f5c9"}, "tags": {"0.0.13--pyhdfd78af_0": "sha256:db69d9ff5ba15ddbec417470264584bd07de2a31dceced2bf1e337055823f942", "0.0.15--pyhdfd78af_0": "sha256:f0f53825c0c65e8962f1f312a9b9da601c07cbd87058fb6a706f4deaa122f5c9"}, "docker": "quay.io/biocontainers/tcdemux", "aliases": {"Xcalcmem.sh": "/usr/local/bin/Xcalcmem.sh", "bloomfilterparser.sh": "/usr/local/bin/bloomfilterparser.sh", "eido": "/usr/local/bin/eido", "jwebserver": "/usr/local/bin/jwebserver", "protoc-23.4.0": "/usr/local/bin/protoc-23.4.0", "tcdemux": "/usr/local/bin/tcdemux", "write_barcode_file.py": "/usr/local/bin/write_barcode_file.py", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "markdown-it": "/usr/local/bin/markdown-it", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh", "bbcms.sh": "/usr/local/bin/bbcms.sh", "bloomfilter.sh": "/usr/local/bin/bloomfilter.sh", "callgenes.sh": "/usr/local/bin/callgenes.sh", "comparegff.sh": "/usr/local/bin/comparegff.sh", "consensus.sh": "/usr/local/bin/consensus.sh", "cutgff.sh": "/usr/local/bin/cutgff.sh", "fetchproks.sh": "/usr/local/bin/fetchproks.sh", "filterqc.sh": "/usr/local/bin/filterqc.sh"}}
+config: {"url": "https://biocontainers.pro/tools/tcdemux", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tcdemux", "latest": {"0.0.24--pyhdfd78af_0": "sha256:b3417fb12860e8da32dc3b6158f35c2c3e0a57651435781efeb8693cf05b6648"}, "tags": {"0.0.13--pyhdfd78af_0": "sha256:db69d9ff5ba15ddbec417470264584bd07de2a31dceced2bf1e337055823f942", "0.0.15--pyhdfd78af_0": "sha256:f0f53825c0c65e8962f1f312a9b9da601c07cbd87058fb6a706f4deaa122f5c9", "0.0.24--pyhdfd78af_0": "sha256:b3417fb12860e8da32dc3b6158f35c2c3e0a57651435781efeb8693cf05b6648"}, "docker": "quay.io/biocontainers/tcdemux", "aliases": {"Xcalcmem.sh": "/usr/local/bin/Xcalcmem.sh", "bloomfilterparser.sh": "/usr/local/bin/bloomfilterparser.sh", "eido": "/usr/local/bin/eido", "jwebserver": "/usr/local/bin/jwebserver", "protoc-23.4.0": "/usr/local/bin/protoc-23.4.0", "tcdemux": "/usr/local/bin/tcdemux", "write_barcode_file.py": "/usr/local/bin/write_barcode_file.py", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "markdown-it": "/usr/local/bin/markdown-it", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh", "bbcms.sh": "/usr/local/bin/bbcms.sh", "bloomfilter.sh": "/usr/local/bin/bloomfilter.sh", "callgenes.sh": "/usr/local/bin/callgenes.sh", "comparegff.sh": "/usr/local/bin/comparegff.sh", "consensus.sh": "/usr/local/bin/consensus.sh", "cutgff.sh": "/usr/local/bin/cutgff.sh", "fetchproks.sh": "/usr/local/bin/fetchproks.sh", "filterqc.sh": "/usr/local/bin/filterqc.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tcdemux.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/tcdemux
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tcdemux:0.0.15--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/tcdemux:0.0.24--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tcdemux/0.0.15--pyhdfd78af_0
-$ module help quay.io/biocontainers/tcdemux/0.0.15--pyhdfd78af_0
+$ module load quay.io/biocontainers/tcdemux/0.0.24--pyhdfd78af_0
+$ module help quay.io/biocontainers/tcdemux/0.0.24--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

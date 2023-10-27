@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fgnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fgnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fgnet/container.yaml"
-updated_at: "2023-10-26 03:20:17.094390"
+updated_at: "2023-10-27 02:44:30.013825"
 latest: "3.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fgnet"
 
