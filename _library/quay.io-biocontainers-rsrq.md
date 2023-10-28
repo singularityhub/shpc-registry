@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rsrq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rsrq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rsrq/container.yaml"
-updated_at: "2023-10-27 02:56:12.067471"
+updated_at: "2023-10-28 03:00:24.306177"
 latest: "1.1.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/rsrq"
 aliases:
