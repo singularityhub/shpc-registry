@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fiji-morpholibj
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fiji-morpholibj
 latest:
-  1.5.1--hdfd78af_0: sha256:0f9290c31e106fd26ece94f1d0279ed543760ebbd46c1a830c1dbda425bddcdb
+  1.6.1--hdfd78af_0: sha256:211961db4b243868ef068c106751a6a2c1bdf63bdc94c7e9c883edab11d247d3
 tags:
   1.5.1--hdfd78af_0: sha256:0f9290c31e106fd26ece94f1d0279ed543760ebbd46c1a830c1dbda425bddcdb
+  1.6.1--hdfd78af_0: sha256:211961db4b243868ef068c106751a6a2c1bdf63bdc94c7e9c883edab11d247d3
 docker: quay.io/biocontainers/fiji-morpholibj
 aliases:
   ImageJ: /usr/local/bin/ImageJ

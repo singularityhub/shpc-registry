@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/pymsaviz
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pymsaviz
 latest:
-  0.4.1--pyhdfd78af_0: sha256:3bf6f0b0479065e94d7c5024017ff0fab15c742c76ae919cb0f6408901f3eef6
+  0.4.2--pyhdfd78af_0: sha256:9a8b26981a66d84db33318f43d4ed3179f6c0220d82f71a4414aef73456b48ac
 tags:
   0.2.2--pyhdfd78af_0: sha256:6063eca7067725c31f5523a07212a22dd3d9d4f0aa8a389e829f4b85e5331a1e
   0.4.0--pyhdfd78af_0: sha256:8468a4dc455e66770416130473c945a7db9735e90e05db3e94f1cd56ac4617b5
   0.3.0--pyhdfd78af_0: sha256:2605b36e81775711fee6e72bbc3ae875c2dba2661cae51aa575aff59bb7199dc
   0.4.1--pyhdfd78af_0: sha256:3bf6f0b0479065e94d7c5024017ff0fab15c742c76ae919cb0f6408901f3eef6
+  0.4.2--pyhdfd78af_0: sha256:9a8b26981a66d84db33318f43d4ed3179f6c0220d82f71a4414aef73456b48ac
 docker: quay.io/biocontainers/pymsaviz
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11

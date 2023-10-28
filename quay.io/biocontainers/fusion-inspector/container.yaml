@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fusion-inspector
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fusion-inspector
 latest:
-  2.2.1--py37pl526hdbffeaa_0: sha256:7a4f52bbad27f0504680bb82ae74081e97a404f6e0b8a6a1b900ebdbbdb3b350
+  2.8.0--py310pl5321hdfd78af_0: sha256:f39e655ee8e4f2875e70c86a65a1d392193d6bf60ddb08195e07861bef5a9338
 tags:
   2.2.1--py37pl526hdbffeaa_0: sha256:7a4f52bbad27f0504680bb82ae74081e97a404f6e0b8a6a1b900ebdbbdb3b350
+  2.8.0--py310pl5321hdfd78af_0: sha256:f39e655ee8e4f2875e70c86a65a1d392193d6bf60ddb08195e07861bef5a9338
 docker: quay.io/biocontainers/fusion-inspector
 aliases:
   FusionInspector: /usr/local/bin/FusionInspector

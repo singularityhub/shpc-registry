@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/t1dgrs2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for t1dgrs2
 latest:
-  0.1.1--pyhdfd78af_0: sha256:b698bfb883dc482b1385b388d42ca0dcb141de2d4f6a63efcb3c2ae7287bb2c5
+  0.1.2--pyhdfd78af_0: sha256:ee23bb2e522c121366f54aec71db72804b9ee889f59f20056835277be5615902
 tags:
   0.1.0--pyhdfd78af_0: sha256:45b18ea2b1920bc84d764312c9db186a771e2d3f7da42ef137568499f5a46b92
   0.1.1--pyhdfd78af_0: sha256:b698bfb883dc482b1385b388d42ca0dcb141de2d4f6a63efcb3c2ae7287bb2c5
+  0.1.2--pyhdfd78af_0: sha256:ee23bb2e522c121366f54aec71db72804b9ee889f59f20056835277be5615902
 docker: quay.io/biocontainers/t1dgrs2
 aliases:
   plink: /usr/local/bin/plink
