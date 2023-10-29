@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/skesa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skesa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skesa/container.yaml"
-updated_at: "2023-10-28 02:55:16.225978"
-latest: "2.4.0--he1c1bb9_0"
+updated_at: "2023-10-29 02:51:34.819152"
+latest: "2.5.1--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/skesa"
 aliases:
  - "skesa"
@@ -17,8 +17,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "2.4.0--he1c1bb9_0"
+ - "2.5.1--hdcf5f25_0"
 description: "shpc-registry automated BioContainers addition for skesa"
-config: {"url": "https://biocontainers.pro/tools/skesa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for skesa", "latest": {"2.4.0--he1c1bb9_0": "sha256:f52ffc73ff62fdbf0ee176d020117cc6d077aaf7efc38dd1c3fc66bffc01773c"}, "tags": {"2.4.0--he1c1bb9_0": "sha256:f52ffc73ff62fdbf0ee176d020117cc6d077aaf7efc38dd1c3fc66bffc01773c"}, "docker": "quay.io/biocontainers/skesa", "aliases": {"skesa": "/usr/local/bin/skesa", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/skesa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for skesa", "latest": {"2.5.1--hdcf5f25_0": "sha256:9af5d78d5eee2beb65c5270524861997e36de933a74db3ebcc3565cade190510"}, "tags": {"2.4.0--he1c1bb9_0": "sha256:f52ffc73ff62fdbf0ee176d020117cc6d077aaf7efc38dd1c3fc66bffc01773c", "2.5.1--hdcf5f25_0": "sha256:9af5d78d5eee2beb65c5270524861997e36de933a74db3ebcc3565cade190510"}, "docker": "quay.io/biocontainers/skesa", "aliases": {"skesa": "/usr/local/bin/skesa", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/skesa.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/skesa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/skesa:2.4.0--he1c1bb9_0
+$ shpc install quay.io/biocontainers/skesa:2.5.1--hdcf5f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/skesa/2.4.0--he1c1bb9_0
-$ module help quay.io/biocontainers/skesa/2.4.0--he1c1bb9_0
+$ module load quay.io/biocontainers/skesa/2.5.1--hdcf5f25_0
+$ module help quay.io/biocontainers/skesa/2.5.1--hdcf5f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

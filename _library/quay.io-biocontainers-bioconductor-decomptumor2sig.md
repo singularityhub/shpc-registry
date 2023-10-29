@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-decomptumor2sig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-decomptumor2sig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-decomptumor2sig/container.yaml"
-updated_at: "2023-10-28 02:48:53.550326"
+updated_at: "2023-10-29 02:46:34.334123"
 latest: "2.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-decomptumor2sig"
 aliases:

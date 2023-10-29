@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/t1dgrs2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/t1dgrs2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/t1dgrs2/container.yaml"
-updated_at: "2023-10-28 03:01:54.278816"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2023-10-29 02:56:46.811272"
+latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/t1dgrs2"
 aliases:
  - "plink"
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "0.1.0--pyhdfd78af_0"
  - "0.1.1--pyhdfd78af_0"
+ - "0.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for t1dgrs2"
-config: {"url": "https://biocontainers.pro/tools/t1dgrs2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for t1dgrs2", "latest": {"0.1.1--pyhdfd78af_0": "sha256:b698bfb883dc482b1385b388d42ca0dcb141de2d4f6a63efcb3c2ae7287bb2c5"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:45b18ea2b1920bc84d764312c9db186a771e2d3f7da42ef137568499f5a46b92", "0.1.1--pyhdfd78af_0": "sha256:b698bfb883dc482b1385b388d42ca0dcb141de2d4f6a63efcb3c2ae7287bb2c5"}, "docker": "quay.io/biocontainers/t1dgrs2", "aliases": {"plink": "/usr/local/bin/plink", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/t1dgrs2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for t1dgrs2", "latest": {"0.1.2--pyhdfd78af_0": "sha256:ee23bb2e522c121366f54aec71db72804b9ee889f59f20056835277be5615902"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:45b18ea2b1920bc84d764312c9db186a771e2d3f7da42ef137568499f5a46b92", "0.1.1--pyhdfd78af_0": "sha256:b698bfb883dc482b1385b388d42ca0dcb141de2d4f6a63efcb3c2ae7287bb2c5", "0.1.2--pyhdfd78af_0": "sha256:ee23bb2e522c121366f54aec71db72804b9ee889f59f20056835277be5615902"}, "docker": "quay.io/biocontainers/t1dgrs2", "aliases": {"plink": "/usr/local/bin/plink", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/t1dgrs2.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/t1dgrs2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/t1dgrs2:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/t1dgrs2:0.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/t1dgrs2/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/t1dgrs2/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/t1dgrs2/0.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/t1dgrs2/0.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

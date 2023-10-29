@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/seqan3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqan3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqan3/container.yaml"
-updated_at: "2023-10-28 02:39:47.333351"
-latest: "3.2.0--hdfd78af_0"
+updated_at: "2023-10-29 02:39:21.390402"
+latest: "3.3.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqan3"
 
 versions:
  - "3.2.0--hdfd78af_0"
+ - "3.3.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for seqan3"
-config: {"url": "https://biocontainers.pro/tools/seqan3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqan3", "latest": {"3.2.0--hdfd78af_0": "sha256:8ff1046707a4f70ac1ba002e997cbac80056af4e8bdaa9f857e202ee79264483"}, "tags": {"3.2.0--hdfd78af_0": "sha256:8ff1046707a4f70ac1ba002e997cbac80056af4e8bdaa9f857e202ee79264483"}, "docker": "quay.io/biocontainers/seqan3"}
+config: {"url": "https://biocontainers.pro/tools/seqan3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqan3", "latest": {"3.3.0--hdfd78af_0": "sha256:fef0d968f4e76ecfefe94e7c43bb53b38e32e999b2eff7d410a2aa0f1978a9ec"}, "tags": {"3.2.0--hdfd78af_0": "sha256:8ff1046707a4f70ac1ba002e997cbac80056af4e8bdaa9f857e202ee79264483", "3.3.0--hdfd78af_0": "sha256:fef0d968f4e76ecfefe94e7c43bb53b38e32e999b2eff7d410a2aa0f1978a9ec"}, "docker": "quay.io/biocontainers/seqan3"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqan3.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/seqan3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqan3:3.2.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/seqan3:3.3.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqan3/3.2.0--hdfd78af_0
-$ module help quay.io/biocontainers/seqan3/3.2.0--hdfd78af_0
+$ module load quay.io/biocontainers/seqan3/3.3.0--hdfd78af_0
+$ module help quay.io/biocontainers/seqan3/3.3.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

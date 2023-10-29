@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ff/container.yaml"
-updated_at: "2023-10-28 02:24:08.119686"
+updated_at: "2023-10-29 02:27:02.291003"
 latest: "2.2_13--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ff"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/microhapulator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/microhapulator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/microhapulator/container.yaml"
-updated_at: "2023-10-28 02:41:08.815728"
+updated_at: "2023-10-29 02:40:26.485833"
 latest: "0.7.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/microhapulator"
 aliases:

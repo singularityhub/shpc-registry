@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fiji-morpholibj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fiji-morpholibj/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fiji-morpholibj/container.yaml"
-updated_at: "2023-10-28 02:28:47.030137"
-latest: "1.5.1--hdfd78af_0"
+updated_at: "2023-10-29 02:30:42.494868"
+latest: "1.6.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fiji-morpholibj"
 aliases:
  - "ImageJ"
@@ -37,8 +37,9 @@ aliases:
  - "jinfo"
 versions:
  - "1.5.1--hdfd78af_0"
+ - "1.6.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for fiji-morpholibj"
-config: {"url": "https://biocontainers.pro/tools/fiji-morpholibj", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fiji-morpholibj", "latest": {"1.5.1--hdfd78af_0": "sha256:0f9290c31e106fd26ece94f1d0279ed543760ebbd46c1a830c1dbda425bddcdb"}, "tags": {"1.5.1--hdfd78af_0": "sha256:0f9290c31e106fd26ece94f1d0279ed543760ebbd46c1a830c1dbda425bddcdb"}, "docker": "quay.io/biocontainers/fiji-morpholibj", "aliases": {"ImageJ": "/usr/local/bin/ImageJ", "bunwarpj": "/usr/local/bin/bunwarpj", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic", "rmid": "/usr/local/bin/rmid", "unpack200": "/usr/local/bin/unpack200", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
+config: {"url": "https://biocontainers.pro/tools/fiji-morpholibj", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fiji-morpholibj", "latest": {"1.6.1--hdfd78af_0": "sha256:211961db4b243868ef068c106751a6a2c1bdf63bdc94c7e9c883edab11d247d3"}, "tags": {"1.5.1--hdfd78af_0": "sha256:0f9290c31e106fd26ece94f1d0279ed543760ebbd46c1a830c1dbda425bddcdb", "1.6.1--hdfd78af_0": "sha256:211961db4b243868ef068c106751a6a2c1bdf63bdc94c7e9c883edab11d247d3"}, "docker": "quay.io/biocontainers/fiji-morpholibj", "aliases": {"ImageJ": "/usr/local/bin/ImageJ", "bunwarpj": "/usr/local/bin/bunwarpj", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic", "rmid": "/usr/local/bin/rmid", "unpack200": "/usr/local/bin/unpack200", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fiji-morpholibj.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/fiji-morpholibj
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fiji-morpholibj:1.5.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/fiji-morpholibj:1.6.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fiji-morpholibj/1.5.1--hdfd78af_0
-$ module help quay.io/biocontainers/fiji-morpholibj/1.5.1--hdfd78af_0
+$ module load quay.io/biocontainers/fiji-morpholibj/1.6.1--hdfd78af_0
+$ module help quay.io/biocontainers/fiji-morpholibj/1.6.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

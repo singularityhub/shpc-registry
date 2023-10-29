@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepaclive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepaclive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepaclive/container.yaml"
-updated_at: "2023-10-28 02:35:02.123841"
+updated_at: "2023-10-29 02:35:36.628489"
 latest: "0.3.2--py_0"
 container_url: "https://biocontainers.pro/tools/deepaclive"
 aliases:
