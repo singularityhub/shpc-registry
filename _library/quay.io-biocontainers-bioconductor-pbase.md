@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pbase/container.yaml"
-updated_at: "2023-10-30 03:00:59.512048"
+updated_at: "2023-10-30 04:15:57.586841"
 latest: "0.26.0--r36he1b5a44_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pbase"
 aliases:

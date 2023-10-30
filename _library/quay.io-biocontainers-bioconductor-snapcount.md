@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-snapcount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snapcount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snapcount/container.yaml"
-updated_at: "2023-10-30 03:05:30.158081"
+updated_at: "2023-10-30 04:22:11.183097"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-snapcount"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-changepoint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-changepoint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-changepoint/container.yaml"
-updated_at: "2023-10-30 02:58:00.469335"
+updated_at: "2023-10-30 04:11:48.047781"
 latest: "2.2.2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-changepoint"
 aliases:
