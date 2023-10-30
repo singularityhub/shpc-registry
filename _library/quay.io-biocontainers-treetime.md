@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/treetime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treetime/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treetime/container.yaml"
-updated_at: "2023-10-29 02:55:29.631577"
+updated_at: "2023-10-30 02:56:12.446982"
 latest: "0.11.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/treetime"
 aliases:

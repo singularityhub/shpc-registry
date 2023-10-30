@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dudes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dudes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dudes/container.yaml"
-updated_at: "2023-10-29 02:38:42.989161"
+updated_at: "2023-10-30 02:39:08.656141"
 latest: "0.08--py_2"
 container_url: "https://biocontainers.pro/tools/dudes"
 aliases:

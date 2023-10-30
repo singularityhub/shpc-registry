@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pango-designation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pango-designation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pango-designation/container.yaml"
-updated_at: "2023-10-29 02:31:02.357174"
+updated_at: "2023-10-30 02:31:17.734849"
 latest: "1.2.84--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pango-designation"
 aliases:

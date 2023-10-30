@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/optitype"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/optitype/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/optitype/container.yaml"
-updated_at: "2023-10-29 03:03:06.527069"
+updated_at: "2023-10-30 03:03:59.213948"
 latest: "1.3.5--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/optitype"
 aliases:

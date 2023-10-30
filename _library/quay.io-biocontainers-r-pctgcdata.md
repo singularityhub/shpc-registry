@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pctgcdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pctgcdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pctgcdata/container.yaml"
-updated_at: "2023-10-29 02:58:57.271989"
+updated_at: "2023-10-30 02:59:44.456368"
 latest: "0.3.0--r43h9ee0642_4"
 container_url: "https://biocontainers.pro/tools/r-pctgcdata"
 aliases:

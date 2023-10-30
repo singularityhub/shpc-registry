@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-feast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-feast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-feast/container.yaml"
-updated_at: "2023-10-29 02:25:44.157389"
+updated_at: "2023-10-30 02:25:55.778654"
 latest: "1.8.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-feast"
 aliases:

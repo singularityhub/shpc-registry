@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/upimapi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/upimapi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/upimapi/container.yaml"
-updated_at: "2023-10-29 02:39:29.061121"
+updated_at: "2023-10-30 02:39:54.864407"
 latest: "1.12.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/upimapi"
 aliases:
