@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/comebin
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for comebin
+latest:
+  1.0.3--hdfd78af_0: sha256:7b9dcbb50c9c5f6f0889a1a2668b1e56233f3d5af35b6fee532603773c378771
+tags:
+  1.0.3--hdfd78af_0: sha256:7b9dcbb50c9c5f6f0889a1a2668b1e56233f3d5af35b6fee532603773c378771
+docker: quay.io/biocontainers/comebin
+aliases:
+  run_comebin.sh: /usr/local/bin/run_comebin.sh
+  checkm: /usr/local/bin/checkm
+  FragGeneScan: /usr/local/bin/FragGeneScan
+  hmmc2: /usr/local/bin/hmmc2
+  hmmerfm-exactmatch: /usr/local/bin/hmmerfm-exactmatch
+  run_FragGeneScan.pl: /usr/local/bin/run_FragGeneScan.pl
+  rppr: /usr/local/bin/rppr
+  guppy: /usr/local/bin/guppy
+  pplacer: /usr/local/bin/pplacer
+  torchrun: /usr/local/bin/torchrun
+  ninja: /usr/local/bin/ninja
+  igraph: /usr/local/bin/igraph
+  scanpy: /usr/local/bin/scanpy
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
