@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/emboss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emboss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emboss/container.yaml"
-updated_at: "2023-10-30 04:05:36.386343"
+updated_at: "2023-10-31 02:51:14.351071"
 latest: "6.6.0--hdde3b0b_7"
 container_url: "https://biocontainers.pro/tools/emboss"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxtastic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxtastic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxtastic/container.yaml"
-updated_at: "2023-10-30 04:32:09.630774"
+updated_at: "2023-10-31 03:09:28.015745"
 latest: "0.10.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/taxtastic"
 aliases:

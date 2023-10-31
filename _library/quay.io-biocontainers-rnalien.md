@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnalien"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnalien/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnalien/container.yaml"
-updated_at: "2023-10-30 04:21:09.210634"
+updated_at: "2023-10-31 03:01:52.661968"
 latest: "1.8.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/rnalien"
 aliases:

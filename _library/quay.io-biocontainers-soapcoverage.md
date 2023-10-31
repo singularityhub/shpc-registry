@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/soapcoverage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soapcoverage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soapcoverage/container.yaml"
-updated_at: "2023-10-30 03:44:01.904612"
+updated_at: "2023-10-31 02:36:20.272827"
 latest: "2.7.7--0"
 container_url: "https://biocontainers.pro/tools/soapcoverage"
 aliases:

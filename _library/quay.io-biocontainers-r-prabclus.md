@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-prabclus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-prabclus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-prabclus/container.yaml"
-updated_at: "2023-10-30 03:57:41.704548"
+updated_at: "2023-10-31 02:45:46.658094"
 latest: "2.2_6--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-prabclus"
 aliases:

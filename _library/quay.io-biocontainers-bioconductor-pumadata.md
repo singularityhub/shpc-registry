@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pumadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pumadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pumadata/container.yaml"
-updated_at: "2023-10-30 04:36:43.209472"
+updated_at: "2023-10-31 03:12:34.847192"
 latest: "2.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pumadata"
 

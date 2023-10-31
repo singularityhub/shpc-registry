@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spliced_bam2gff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spliced_bam2gff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spliced_bam2gff/container.yaml"
-updated_at: "2023-10-30 03:59:26.931460"
+updated_at: "2023-10-31 02:46:59.820738"
 latest: "1.3--he881be0_1"
 container_url: "https://biocontainers.pro/tools/spliced_bam2gff"
 aliases:

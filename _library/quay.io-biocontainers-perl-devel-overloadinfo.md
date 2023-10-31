@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-devel-overloadinfo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-devel-overloadinfo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-devel-overloadinfo/container.yaml"
-updated_at: "2023-10-30 04:03:27.699138"
+updated_at: "2023-10-31 02:49:45.369964"
 latest: "0.007--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-devel-overloadinfo"
 aliases:

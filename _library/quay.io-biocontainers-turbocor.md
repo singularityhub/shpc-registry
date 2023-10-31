@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/turbocor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/turbocor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/turbocor/container.yaml"
-updated_at: "2023-10-30 04:38:17.063404"
+updated_at: "2023-10-31 03:13:39.643227"
 latest: "0.1.1--h5177ac6_0"
 container_url: "https://biocontainers.pro/tools/turbocor"
 aliases:

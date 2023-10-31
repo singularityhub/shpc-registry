@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/autodock-vina"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autodock-vina/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autodock-vina/container.yaml"
-updated_at: "2023-10-30 03:33:45.163220"
+updated_at: "2023-10-31 02:29:14.243697"
 latest: "1.1.2--h9ee0642_3"
 container_url: "https://biocontainers.pro/tools/autodock-vina"
 aliases:

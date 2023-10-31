@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tn93"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tn93/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tn93/container.yaml"
-updated_at: "2023-10-30 03:47:28.762936"
+updated_at: "2023-10-31 02:38:42.951922"
 latest: "1.0.9--hdbdd923_2"
 container_url: "https://biocontainers.pro/tools/tn93"
 aliases:
