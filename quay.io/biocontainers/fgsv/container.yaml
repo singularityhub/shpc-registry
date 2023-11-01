@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/fgsv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fgsv
 latest:
-  0.0.2--hdfd78af_0: sha256:8c909b2c768ae38e2208108c61aebdd047d5fb54e24d6c199d5442e4dbb48468
+  0.1.1--hdfd78af_0: sha256:16e77d00558bbd86f9ef6337f715866b7d1a327375fc1ffda9a9ee34bba46808
 tags:
   0.0.1--hdfd78af_0: sha256:efd75f9d53cf443072f04ac27d502746e139c2b12a77cca728ba65c83995a7d8
   0.0.2--hdfd78af_0: sha256:8c909b2c768ae38e2208108c61aebdd047d5fb54e24d6c199d5442e4dbb48468
+  0.1.1--hdfd78af_0: sha256:16e77d00558bbd86f9ef6337f715866b7d1a327375fc1ffda9a9ee34bba46808
 docker: quay.io/biocontainers/fgsv
 aliases:
   fgsv: /usr/local/bin/fgsv
