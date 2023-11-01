@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/raven-assembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raven-assembler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/raven-assembler/container.yaml"
-updated_at: "2023-10-31 03:14:23.190658"
+updated_at: "2023-11-01 03:32:01.675251"
 latest: "1.8.3--h43eeafb_0"
 container_url: "https://biocontainers.pro/tools/raven-assembler"
 aliases:

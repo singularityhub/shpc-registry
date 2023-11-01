@@ -4,7 +4,7 @@ name:  "nvcr.io/nvidia/rapidsai/rapidsai"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia/rapidsai/rapidsai/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/nvidia/rapidsai/rapidsai/container.yaml"
-updated_at: "2023-10-31 02:24:25.950179"
+updated_at: "2023-11-01 02:28:17.594857"
 latest: "23.04-cuda11.8-runtime-ubuntu22.04-py3.10"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia:rapidsai:rapidsai/tags"
 aliases:

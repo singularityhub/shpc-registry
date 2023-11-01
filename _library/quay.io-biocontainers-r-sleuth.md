@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sleuth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sleuth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sleuth/container.yaml"
-updated_at: "2023-10-31 02:49:33.129067"
+updated_at: "2023-11-01 03:00:21.504047"
 latest: "0.30.1--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-sleuth"
 aliases:

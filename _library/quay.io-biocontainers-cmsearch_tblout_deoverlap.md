@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cmsearch_tblout_deoverlap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cmsearch_tblout_deoverlap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cmsearch_tblout_deoverlap/container.yaml"
-updated_at: "2023-10-31 03:15:22.644542"
+updated_at: "2023-11-01 03:33:15.160244"
 latest: "0.09--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cmsearch_tblout_deoverlap"
 aliases:
