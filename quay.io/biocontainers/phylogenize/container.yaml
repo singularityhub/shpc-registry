@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/phylogenize
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phylogenize
+latest:
+  0.91--pl5321r43hdfd78af_0: sha256:e8703c38b83e3553f29a57192b6944e628b05bc7439dd33fab3554ff087cbfcf
+tags:
+  0.91--pl5321r43hdfd78af_0: sha256:e8703c38b83e3553f29a57192b6944e628b05bc7439dd33fab3554ff087cbfcf
+docker: quay.io/biocontainers/phylogenize
+aliases:
+  git2: /usr/local/bin/git2
+  vsearch: /usr/local/bin/vsearch
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
+  glpsol: /usr/local/bin/glpsol
+  pandoc: /usr/local/bin/pandoc
