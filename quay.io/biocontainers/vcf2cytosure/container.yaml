@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/vcf2cytosure
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vcf2cytosure
+latest:
+  0.9.1--pyh7cba7a3_1: sha256:3058adaf2ef1e65082d536a25de6b232500b798f824ebd0b09ece316f55caaf0
+tags:
+  0.9.1--pyh7cba7a3_1: sha256:3058adaf2ef1e65082d536a25de6b232500b798f824ebd0b09ece316f55caaf0
+docker: quay.io/biocontainers/vcf2cytosure
+aliases:
+  vcf2cytosure: /usr/local/bin/vcf2cytosure
+  cyvcf2: /usr/local/bin/cyvcf2
+  coloredlogs: /usr/local/bin/coloredlogs
+  humanfriendly: /usr/local/bin/humanfriendly
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

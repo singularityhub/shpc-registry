@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/severus
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for severus
+latest:
+  0.1.1--pyhdfd78af_0: sha256:1f7eb598ed310b7d676d9107f1cecdce918acd469c563d4cb47b8ac81cd86048
+tags:
+  0.1.1--pyhdfd78af_0: sha256:1f7eb598ed310b7d676d9107f1cecdce918acd469c563d4cb47b8ac81cd86048
+docker: quay.io/biocontainers/severus
+aliases:
+  severus: /usr/local/bin/severus
+  hb-info: /usr/local/bin/hb-info
+  diffimg: /usr/local/bin/diffimg
+  delaunay: /usr/local/bin/delaunay
+  gts-config: /usr/local/bin/gts-config
+  gts2dxf: /usr/local/bin/gts2dxf
+  gts2oogl: /usr/local/bin/gts2oogl
+  gts2stl: /usr/local/bin/gts2stl
+  gtscheck: /usr/local/bin/gtscheck
+  gtscompare: /usr/local/bin/gtscompare
+  gtstemplate: /usr/local/bin/gtstemplate
+  stl2gts: /usr/local/bin/stl2gts
+  transform: /usr/local/bin/transform
+  rsvg-convert: /usr/local/bin/rsvg-convert
+  gtk-builder-convert: /usr/local/bin/gtk-builder-convert
+  gtk-demo: /usr/local/bin/gtk-demo
+  gtk-query-immodules-2.0: /usr/local/bin/gtk-query-immodules-2.0
+  gtk-update-icon-cache: /usr/local/bin/gtk-update-icon-cache
+  acyclic: /usr/local/bin/acyclic
+  bcomps: /usr/local/bin/bcomps
+  ccomps: /usr/local/bin/ccomps
+  circo: /usr/local/bin/circo
+  dijkstra: /usr/local/bin/dijkstra
+  dot: /usr/local/bin/dot
+  dot2gxl: /usr/local/bin/dot2gxl
+  dot_builtins: /usr/local/bin/dot_builtins
