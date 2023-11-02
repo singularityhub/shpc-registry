@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rgoslin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgoslin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgoslin/container.yaml"
-updated_at: "2023-11-01 03:19:31.258857"
+updated_at: "2023-11-02 03:04:37.740224"
 latest: "1.4.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgoslin"
 

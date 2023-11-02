@@ -4,8 +4,8 @@ name:  "rocker/shiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/shiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/shiny/container.yaml"
-updated_at: "2023-11-01 02:28:22.862378"
-latest: "4.3.1"
+updated_at: "2023-11-02 02:24:01.879220"
+latest: "4.3.2"
 container_url: "https://hub.docker.com/r/rocker/shiny"
 aliases:
  - "rocker-shiny-run"
@@ -18,8 +18,9 @@ versions:
  - "4.2.3"
  - "4.3.0"
  - "4.3.1"
+ - "4.3.2"
 description: "Docker image with R + Shiny."
-config: {"docker": "rocker/shiny", "url": "https://hub.docker.com/r/rocker/shiny", "maintainer": "@vsoch", "description": "Docker image with R + Shiny.", "latest": {"4.3.1": "sha256:2b099eec8f0fa6bddf8c4414637174f63ab2294012bdffd737ad50dacdd8a7be"}, "tags": {"4.2.2": "sha256:748f2bcbf7d6168f35c43b8d786360a23452f832b3e8d98936593cf374a9afea", "3.6.3": "sha256:212182dd244edd0380f2f76521f2c10405504b632696852d776402585eb68625", "4.1.3": "sha256:4e19c91e78a9a8697caea84094c6de6aceb9b92c3f26ce3ba7aa90c3bd7d1c98", "4.0.5": "sha256:36bd6cf0e52b8153d855a99c9c1614d84be16f73de1ff0d4e768aa420bc10e35", "4.2.3": "sha256:e4fc492caf32651da3543e188d38831862ab8e295fb85640ffb200122ea3ae61", "4.3.0": "sha256:fcc3372776e4c29324a56571b92706dbb5248868e082b1375f790421f3860e9e", "4.3.1": "sha256:2b099eec8f0fa6bddf8c4414637174f63ab2294012bdffd737ad50dacdd8a7be"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"rocker-shiny-run": "/bin/bash", "shiny-server": "/opt/shiny-server"}}
+config: {"docker": "rocker/shiny", "url": "https://hub.docker.com/r/rocker/shiny", "maintainer": "@vsoch", "description": "Docker image with R + Shiny.", "latest": {"4.3.2": "sha256:69f2f987ffd843c8ef6cb7c0bd8b60f0de529f8be441079818849609ccbaf87b"}, "tags": {"4.2.2": "sha256:fa01c1b377754f249e589bb7b7b45d0431f872df65b06d2ec7271f18531910e0", "3.6.3": "sha256:212182dd244edd0380f2f76521f2c10405504b632696852d776402585eb68625", "4.1.3": "sha256:2e13901182cd775624431cfb906c3b0c90eee1b824a102a213cc3f136dcbb9fa", "4.0.5": "sha256:4e68438dc5a553b440e148ba04832007a6949361c4c9796c042599a7b2444285", "4.2.3": "sha256:25e2e5dd9c37554137e38279f07e9c8139c6d7c5fd3c03f3320d892740fc73ab", "4.3.0": "sha256:fc9c3031d900444d976c114f82b930e597126a9896b890410d47828536001faa", "4.3.1": "sha256:4addd3b3e4d329b59b324762431e56b6f08cdc4b7c6ec759123b76ed152384d1", "4.3.2": "sha256:69f2f987ffd843c8ef6cb7c0bd8b60f0de529f8be441079818849609ccbaf87b"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"rocker-shiny-run": "/bin/bash", "shiny-server": "/opt/shiny-server"}}
 ---
 
 This module is a singularity container wrapper for rocker/shiny.
@@ -34,7 +35,7 @@ $ shpc install rocker/shiny
 Or a specific version:
 
 ```bash
-$ shpc install rocker/shiny:4.3.1
+$ shpc install rocker/shiny:4.3.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load rocker/shiny/4.3.1
-$ module help rocker/shiny/4.3.1
+$ module load rocker/shiny/4.3.2
+$ module help rocker/shiny/4.3.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

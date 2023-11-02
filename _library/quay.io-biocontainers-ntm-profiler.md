@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ntm-profiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntm-profiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntm-profiler/container.yaml"
-updated_at: "2023-11-01 03:04:20.352120"
-latest: "0.2.2--pyhdfd78af_0"
+updated_at: "2023-11-02 02:52:34.877925"
+latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ntm-profiler"
 aliases:
  - "add_dummy_AD.py"
@@ -33,8 +33,9 @@ aliases:
 versions:
  - "0.2.1--pyhdfd78af_0"
  - "0.2.2--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ntm-profiler"
-config: {"url": "https://biocontainers.pro/tools/ntm-profiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ntm-profiler", "latest": {"0.2.2--pyhdfd78af_0": "sha256:27812f3896a75b98e2faff8d2d2823eb020f6589229adb4792d00ede1f3476bb"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:47c9986c4aab4708c3d460fb3d9b7905781be6d3e0b72771841a365de0c68788", "0.2.2--pyhdfd78af_0": "sha256:27812f3896a75b98e2faff8d2d2823eb020f6589229adb4792d00ede1f3476bb"}, "docker": "quay.io/biocontainers/ntm-profiler", "aliases": {"add_dummy_AD.py": "/usr/local/bin/add_dummy_AD.py", "combine_vcf_variants.py": "/usr/local/bin/combine_vcf_variants.py", "delly": "/usr/local/bin/delly", "lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "ntm-profiler": "/usr/local/bin/ntm-profiler", "rename_vcf_chrom.py": "/usr/local/bin/rename_vcf_chrom.py", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "update_version.sh": "/usr/local/bin/update_version.sh", "gatk": "/usr/local/bin/gatk", "pilon": "/usr/local/bin/pilon", "tabix++": "/usr/local/bin/tabix++", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk"}}
+config: {"url": "https://biocontainers.pro/tools/ntm-profiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ntm-profiler", "latest": {"0.3.0--pyhdfd78af_0": "sha256:3beb6815ea8961ce2b6f7ab843f66b46bdd578de8d81a6205a4b671910fac075"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:47c9986c4aab4708c3d460fb3d9b7905781be6d3e0b72771841a365de0c68788", "0.2.2--pyhdfd78af_0": "sha256:27812f3896a75b98e2faff8d2d2823eb020f6589229adb4792d00ede1f3476bb", "0.3.0--pyhdfd78af_0": "sha256:3beb6815ea8961ce2b6f7ab843f66b46bdd578de8d81a6205a4b671910fac075"}, "docker": "quay.io/biocontainers/ntm-profiler", "aliases": {"add_dummy_AD.py": "/usr/local/bin/add_dummy_AD.py", "combine_vcf_variants.py": "/usr/local/bin/combine_vcf_variants.py", "delly": "/usr/local/bin/delly", "lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "ntm-profiler": "/usr/local/bin/ntm-profiler", "rename_vcf_chrom.py": "/usr/local/bin/rename_vcf_chrom.py", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "update_version.sh": "/usr/local/bin/update_version.sh", "gatk": "/usr/local/bin/gatk", "pilon": "/usr/local/bin/pilon", "tabix++": "/usr/local/bin/tabix++", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ntm-profiler.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/ntm-profiler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ntm-profiler:0.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ntm-profiler:0.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ntm-profiler/0.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/ntm-profiler/0.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/ntm-profiler/0.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/ntm-profiler/0.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

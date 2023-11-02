@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/squigulator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/squigulator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/squigulator/container.yaml"
-updated_at: "2023-11-01 03:19:10.282116"
-latest: "0.2.0--h43eeafb_2"
+updated_at: "2023-11-02 03:04:21.512333"
+latest: "0.2.1--h43eeafb_0"
 container_url: "https://biocontainers.pro/tools/squigulator"
 aliases:
  - "squigulator"
 versions:
  - "0.2.0--h5b5514e_0"
  - "0.2.0--h43eeafb_2"
+ - "0.2.1--h43eeafb_0"
 description: "singularity registry hpc automated addition for squigulator"
-config: {"url": "https://biocontainers.pro/tools/squigulator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for squigulator", "latest": {"0.2.0--h43eeafb_2": "sha256:1579d3e0ba087c901c21e06e6257d340fc6e01013bfcee3802680223321bbe98"}, "tags": {"0.2.0--h5b5514e_0": "sha256:8b5af8cb0b36a2afb2c9c7d44e3cbdff7415a5dc9b90e353d899b9cfa34b3644", "0.2.0--h43eeafb_2": "sha256:1579d3e0ba087c901c21e06e6257d340fc6e01013bfcee3802680223321bbe98"}, "docker": "quay.io/biocontainers/squigulator", "aliases": {"squigulator": "/usr/local/bin/squigulator"}}
+config: {"url": "https://biocontainers.pro/tools/squigulator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for squigulator", "latest": {"0.2.1--h43eeafb_0": "sha256:90c6a3211bd3bfc3ae8c5d7bfa19e5d83f6b79811fafb9d247ed34b2059fe4bb"}, "tags": {"0.2.0--h5b5514e_0": "sha256:8b5af8cb0b36a2afb2c9c7d44e3cbdff7415a5dc9b90e353d899b9cfa34b3644", "0.2.0--h43eeafb_2": "sha256:1579d3e0ba087c901c21e06e6257d340fc6e01013bfcee3802680223321bbe98", "0.2.1--h43eeafb_0": "sha256:90c6a3211bd3bfc3ae8c5d7bfa19e5d83f6b79811fafb9d247ed34b2059fe4bb"}, "docker": "quay.io/biocontainers/squigulator", "aliases": {"squigulator": "/usr/local/bin/squigulator"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/squigulator.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/squigulator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/squigulator:0.2.0--h43eeafb_2
+$ shpc install quay.io/biocontainers/squigulator:0.2.1--h43eeafb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/squigulator/0.2.0--h43eeafb_2
-$ module help quay.io/biocontainers/squigulator/0.2.0--h43eeafb_2
+$ module load quay.io/biocontainers/squigulator/0.2.1--h43eeafb_0
+$ module help quay.io/biocontainers/squigulator/0.2.1--h43eeafb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

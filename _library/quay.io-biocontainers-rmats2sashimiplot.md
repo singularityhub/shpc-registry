@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rmats2sashimiplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rmats2sashimiplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rmats2sashimiplot/container.yaml"
-updated_at: "2023-11-01 03:36:43.953292"
-latest: "2.0.4--py27h21c881e_2"
+updated_at: "2023-11-02 03:18:23.022033"
+latest: "3.0.0--py38ha5a061d_0"
 container_url: "https://biocontainers.pro/tools/rmats2sashimiplot"
 aliases:
  - "index_gff"
@@ -23,8 +23,9 @@ aliases:
  - "bedToBam"
 versions:
  - "2.0.4--py27h21c881e_2"
+ - "3.0.0--py38ha5a061d_0"
 description: "shpc-registry automated BioContainers addition for rmats2sashimiplot"
-config: {"url": "https://biocontainers.pro/tools/rmats2sashimiplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rmats2sashimiplot", "latest": {"2.0.4--py27h21c881e_2": "sha256:f9847503f54c249ec84ff20cd23184f93da09be654c6745d951860b3485b31c5"}, "tags": {"2.0.4--py27h21c881e_2": "sha256:f9847503f54c249ec84ff20cd23184f93da09be654c6745d951860b3485b31c5"}, "docker": "quay.io/biocontainers/rmats2sashimiplot", "aliases": {"index_gff": "/usr/local/bin/index_gff", "rmats2sashimiplot": "/usr/local/bin/rmats2sashimiplot", "sashimi_plot": "/usr/local/bin/sashimi_plot", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam"}}
+config: {"url": "https://biocontainers.pro/tools/rmats2sashimiplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rmats2sashimiplot", "latest": {"3.0.0--py38ha5a061d_0": "sha256:116f7f4a3b581505b634b3057c12617df506121be418f921e1623a4cc01e13d4"}, "tags": {"2.0.4--py27h21c881e_2": "sha256:f9847503f54c249ec84ff20cd23184f93da09be654c6745d951860b3485b31c5", "3.0.0--py38ha5a061d_0": "sha256:116f7f4a3b581505b634b3057c12617df506121be418f921e1623a4cc01e13d4"}, "docker": "quay.io/biocontainers/rmats2sashimiplot", "aliases": {"index_gff": "/usr/local/bin/index_gff", "rmats2sashimiplot": "/usr/local/bin/rmats2sashimiplot", "sashimi_plot": "/usr/local/bin/sashimi_plot", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rmats2sashimiplot.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/rmats2sashimiplot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rmats2sashimiplot:2.0.4--py27h21c881e_2
+$ shpc install quay.io/biocontainers/rmats2sashimiplot:3.0.0--py38ha5a061d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rmats2sashimiplot/2.0.4--py27h21c881e_2
-$ module help quay.io/biocontainers/rmats2sashimiplot/2.0.4--py27h21c881e_2
+$ module load quay.io/biocontainers/rmats2sashimiplot/3.0.0--py38ha5a061d_0
+$ module help quay.io/biocontainers/rmats2sashimiplot/3.0.0--py38ha5a061d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
