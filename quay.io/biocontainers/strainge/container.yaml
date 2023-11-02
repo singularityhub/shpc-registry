@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/strainge
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for strainge
 latest:
-  1.3.7--py39h31164c1_1: sha256:70e975ba2f8526d95bc907b8433731bd3fdac8e7430f6fbcf5cb4a8ea83ebc77
+  1.3.8--py39h31164c1_0: sha256:6d7558393bff2da73ee86eae08c68cc968caf197dc78d1e458ba2456f022c3f3
 tags:
   1.3.3--py39hcaef8bb_0: sha256:5c01b0f52ad77ae4121ce991c07a5fe2c1119addba67fa23f9afb714ce5c3b1d
   1.3.7--py39h6359176_0: sha256:a391c7e561166b9c0099fbd5ca7df8ce8529f6b83382e8a5edf04609ef685892
   1.3.7--py39h31164c1_1: sha256:70e975ba2f8526d95bc907b8433731bd3fdac8e7430f6fbcf5cb4a8ea83ebc77
+  1.3.8--py39h31164c1_0: sha256:6d7558393bff2da73ee86eae08c68cc968caf197dc78d1e458ba2456f022c3f3
 docker: quay.io/biocontainers/strainge
 aliases:
   kmercoverage: /usr/local/bin/kmercoverage

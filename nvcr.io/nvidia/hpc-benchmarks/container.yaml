@@ -1,14 +1,9 @@
 docker: nvcr.io/nvidia/hpc-benchmarks
 latest:
-  20.10-hpl: "crane digest nvcr.io/nvidia/hpc-benchmarks:20.10-hpl: unsupported status\
-    \ code 401; body: <html>\r\n<head><title>401 Authorization Required</title></head>\r\
-    \n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>nginx/1.22.1</center>\r\
-    \n</body>\r\n</html>\r\n"
+  20.10-hpl: sha256:b8df1e330b9e0dbcda2108c88a5350795293b1f1cd231c40a763bceaf94eda98
 tags:
-  20.10-hpl: "crane digest nvcr.io/nvidia/hpc-benchmarks:20.10-hpl: unsupported status\
-    \ code 401; body: <html>\r\n<head><title>401 Authorization Required</title></head>\r\
-    \n<body>\r\n<center><h1>401 Authorization Required</h1></center>\r\n<hr><center>nginx/1.22.1</center>\r\
-    \n</body>\r\n</html>\r\n"
+  20.10-hpl: sha256:b8df1e330b9e0dbcda2108c88a5350795293b1f1cd231c40a763bceaf94eda98
+  20.10-hpcg: sha256:c52ce8822537f8b520aed30dab26cc811f7be934dcf3f80e804f81cf0e129e19
 filter:
 - 20.10*
 maintainer: '@vsoch'
