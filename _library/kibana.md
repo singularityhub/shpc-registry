@@ -4,7 +4,7 @@ name:  "kibana"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/kibana/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/kibana/container.yaml"
-updated_at: "2023-11-02 02:23:45.972936"
+updated_at: "2023-11-02 03:45:06.319655"
 latest: "8.10.2"
 container_url: "https://hub.docker.com/_/kibana"
 aliases:

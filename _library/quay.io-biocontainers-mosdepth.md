@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mosdepth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mosdepth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mosdepth/container.yaml"
-updated_at: "2023-11-02 02:35:20.218067"
+updated_at: "2023-11-02 03:20:21.049955"
 latest: "0.3.4--hd299d5a_0"
 container_url: "https://biocontainers.pro/tools/mosdepth"
 aliases:
