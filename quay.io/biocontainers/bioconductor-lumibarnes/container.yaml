@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-lumibarnes
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lumibarnes
 latest:
-  1.38.0--r42hdfd78af_0: sha256:27f4a5bbbeda75ae05c2bcb5178e7a14fec03e29c4c5d9dfc8754a606706b542
+  1.40.0--r43hdfd78af_0: sha256:56477c6f15fb2d199124381a2526e309f6f4a7ce29f8c54a06bf4a1fd6c85809
 tags:
   1.34.0--r41hdfd78af_1: sha256:6ffd789b5952c7d69b96c76826dc07b050bbf695161d42da176e08a6efc89dd4
   1.38.0--r42hdfd78af_0: sha256:27f4a5bbbeda75ae05c2bcb5178e7a14fec03e29c4c5d9dfc8754a606706b542
+  1.40.0--r43hdfd78af_0: sha256:56477c6f15fb2d199124381a2526e309f6f4a7ce29f8c54a06bf4a1fd6c85809
 docker: quay.io/biocontainers/bioconductor-lumibarnes

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mimosa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mimosa
 latest:
-  1.36.0--r42hf17093f_1: sha256:91655672df86d932188e826f03550e373c95be423170e19a5a7cc56ffcfd6708
+  1.37.0--r43hf17093f_0: sha256:ba215bca2d589d6dcbb76177a142916b8548f2301fffced40a56959a98f2c3cc
 tags:
   1.32.0--r41hc247a5b_2: sha256:0e2ad68c2223c504159a7f9104a75be736e64960671c5492d5d6ae8f30b1a28e
   1.36.0--r42hc247a5b_0: sha256:cc4545f4844c26e0b51dbad4292d2d7a7233ba95890564f9e9b509f87ecbce6c
   1.36.0--r42hf17093f_1: sha256:91655672df86d932188e826f03550e373c95be423170e19a5a7cc56ffcfd6708
+  1.37.0--r43hf17093f_0: sha256:ba215bca2d589d6dcbb76177a142916b8548f2301fffced40a56959a98f2c3cc
 docker: quay.io/biocontainers/bioconductor-mimosa

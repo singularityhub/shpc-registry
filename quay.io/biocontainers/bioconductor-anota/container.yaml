@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-anota
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-anota
 latest:
-  1.46.0--r42hdfd78af_0: sha256:7a91ba920d69dc821e500d719a1460cd30d81b74f0642ed5dd31e436cb9093cf
+  1.48.0--r43hdfd78af_0: sha256:72df0109cc4f50e267a50edc82a5a5de6e3f1b59566d7732f5f62598f7e4ce4f
 tags:
   1.42.0--r41hdfd78af_0: sha256:ea61ea6f8a23660e256118e9302185ae63f7f517232e2e9a4815802395cff345
   1.46.0--r42hdfd78af_0: sha256:7a91ba920d69dc821e500d719a1460cd30d81b74f0642ed5dd31e436cb9093cf
+  1.48.0--r43hdfd78af_0: sha256:72df0109cc4f50e267a50edc82a5a5de6e3f1b59566d7732f5f62598f7e4ce4f
 docker: quay.io/biocontainers/bioconductor-anota

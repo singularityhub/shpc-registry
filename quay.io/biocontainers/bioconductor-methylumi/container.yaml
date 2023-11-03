@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-methylumi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-methylumi
 latest:
-  2.44.0--r42hdfd78af_0: sha256:02cd494f3526ffaf585125ba683a00988c985b2dfbb0c0eb35f18efc7b55f322
+  2.46.0--r43hdfd78af_0: sha256:32d7e914d80d855024f1f1f2285f56cccc671e93361924897b65c1dc1ff36a50
 tags:
   2.40.1--r41hdfd78af_0: sha256:b2e5d861a8ee691689aed8cd5f4f67cea90b3224a34c123aabd257081e780215
   2.44.0--r42hdfd78af_0: sha256:02cd494f3526ffaf585125ba683a00988c985b2dfbb0c0eb35f18efc7b55f322
+  2.46.0--r43hdfd78af_0: sha256:32d7e914d80d855024f1f1f2285f56cccc671e93361924897b65c1dc1ff36a50
 docker: quay.io/biocontainers/bioconductor-methylumi

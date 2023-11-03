@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-rbcbook1
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rbcbook1
 latest:
-  1.66.0--r42hdfd78af_0: sha256:35b6b92de45464b04c2c9f69720c8ce5eeb24413aa93173813b997b7c1ab95fc
+  1.68.0--r43hdfd78af_0: sha256:3637f038d263413621288a1424f8152845d01cb808074647abd77343f00116d0
 tags:
   1.62.0--r41hdfd78af_0: sha256:15a0d576d12ca6664a4985f67eb9c93829a7c06d2054368498b40a4365f928eb
   1.66.0--r42hdfd78af_0: sha256:35b6b92de45464b04c2c9f69720c8ce5eeb24413aa93173813b997b7c1ab95fc
+  1.68.0--r43hdfd78af_0: sha256:3637f038d263413621288a1424f8152845d01cb808074647abd77343f00116d0
 docker: quay.io/biocontainers/bioconductor-rbcbook1

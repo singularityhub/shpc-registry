@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/btllib
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for btllib
 latest:
-  1.6.0--py38h4a32c8e_0: sha256:4a875bc16b6e4e2903a68c7854a3bc097965093c8141d78900958e0e9c29b12a
+  1.6.2--py38h2494328_0: sha256:cff09a674aca42c471a2fbc3549d759941a93a5ce307ca267b3c138fff4e9d2a
 tags:
   1.4.8--py39hc16433a_0: sha256:4d03cfdc291711db69669ef38cf5df43e4a4350831275f732f1b931a07025bd1
   1.4.10--py39hc16433a_0: sha256:b191ac0d7bb86c654f4c14d602a12e994c5cba2839e74a092f7b5719aed8142b
   1.5.1--py39hc16433a_0: sha256:1e525034a19024836149393c90c307506e3700845279eaabb0a2af8dd0dcedbd
   1.6.0--py38h4a32c8e_0: sha256:4a875bc16b6e4e2903a68c7854a3bc097965093c8141d78900958e0e9c29b12a
   1.5.1--py38h2494328_1: sha256:957a19adf91d64e57faea5354a586c0321407cda57a31e2495aa6640c79ccae5
+  1.6.2--py38h2494328_0: sha256:cff09a674aca42c471a2fbc3549d759941a93a5ce307ca267b3c138fff4e9d2a
 docker: quay.io/biocontainers/btllib
 aliases:
   gunzip: /usr/local/bin/gunzip

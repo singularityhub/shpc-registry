@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-mixomics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mixomics
 latest:
-  6.22.0--r42hdfd78af_0: sha256:6a71f758af76074f3ea0d4e8c54ca063a07deb1782c53b561fd125d88226b03a
+  6.24.0--r43hdfd78af_0: sha256:f78839e8e594fb19b24dc4a326915d4e83511b857f4376033f9881d0120d20cb
 tags:
   6.8.0--r36_1: sha256:308d3d4bd8c4f2b1469b6399db0c59beb4f997c94b5323c7058a2fb503cd8b25
   6.22.0--r42hdfd78af_0: sha256:6a71f758af76074f3ea0d4e8c54ca063a07deb1782c53b561fd125d88226b03a
@@ -10,6 +10,7 @@ tags:
   6.16.0--r41hdfd78af_0: sha256:fdcdb1400ee010c86593a5597f8cef21fbedc78ac6a3d6020f7b89b594cda390
   6.14.0--r40hdfd78af_1: sha256:4fe58e26201550ee5c73bfff0a9357b1d644fc549306fd283b657ac6b07ae186
   6.12.0--r40_0: sha256:ab776a05eb68fff877f258f485461e59010aeef69d04499785baa64c8359ad76
+  6.24.0--r43hdfd78af_0: sha256:f78839e8e594fb19b24dc4a326915d4e83511b857f4376033f9881d0120d20cb
 docker: quay.io/biocontainers/bioconductor-mixomics
 aliases:
   f2py3.7: /usr/local/bin/f2py3.7

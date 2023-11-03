@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-file-listing
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-file-listing
 latest:
-  6.15--pl5321hdfd78af_0: sha256:989855fec8ba0ede7f1f4bf61e9c6babdf155853a0ba3c275c0651b7d3227970
+  6.16--pl5321hdfd78af_0: sha256:ba0592e31fa1bf4c5c2a76b770dc922e65cfd0bea539cf07c97a15d72299cd38
 tags:
   6.15--pl5321hdfd78af_0: sha256:989855fec8ba0ede7f1f4bf61e9c6babdf155853a0ba3c275c0651b7d3227970
+  6.16--pl5321hdfd78af_0: sha256:ba0592e31fa1bf4c5c2a76b770dc922e65cfd0bea539cf07c97a15d72299cd38
 docker: quay.io/biocontainers/perl-file-listing
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

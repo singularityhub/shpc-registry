@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-illuminamousev1.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-illuminamousev1.db
 latest:
-  1.26.0--r42hdfd78af_10: sha256:3e165ee08ea602eb69fa48de41a806af1a47b23fb2341b7869afa9871706d1b2
+  1.26.0--r43hdfd78af_11: sha256:847bade0b59192f1b380635ca668f8253349ebda0983a196588f39dfac578b9c
 tags:
   1.26.0--r41hdfd78af_9: sha256:5cedf7992a12bacdc76915d5743ff0634e448cfe2b1a695aca733f79a9167303
   1.26.0--r42hdfd78af_10: sha256:3e165ee08ea602eb69fa48de41a806af1a47b23fb2341b7869afa9871706d1b2
+  1.26.0--r43hdfd78af_11: sha256:847bade0b59192f1b380635ca668f8253349ebda0983a196588f39dfac578b9c
 docker: quay.io/biocontainers/bioconductor-illuminamousev1.db

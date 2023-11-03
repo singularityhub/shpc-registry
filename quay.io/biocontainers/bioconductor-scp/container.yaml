@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-scp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scp
 latest:
-  1.8.0--r42hdfd78af_0: sha256:031a6dc97c5fd60bac295d97e4ed909c31324b8d45dbed1dda1af4c7579801aa
+  1.10.1--r43hdfd78af_0: sha256:d918ae26181bcaa1195f23c2833086e1e752469415e5c7464bbfa37896df6015
 tags:
   1.4.0--r41hdfd78af_0: sha256:08fc876994acb41e2b9ba675dfb6f56f1ae2abf010e0dd495b58b692762f0e4a
   1.8.0--r42hdfd78af_0: sha256:031a6dc97c5fd60bac295d97e4ed909c31324b8d45dbed1dda1af4c7579801aa
+  1.10.1--r43hdfd78af_0: sha256:d918ae26181bcaa1195f23c2833086e1e752469415e5c7464bbfa37896df6015
 docker: quay.io/biocontainers/bioconductor-scp

@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/seqchromloader
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for seqchromloader
 latest:
-  0.4.0--pyhdfd78af_0: sha256:47bfe632d342ea57a004dce1bb1a5059f3763537be2e095343108362e5cdb033
+  0.7.3--pyhdfd78af_0: sha256:7b88d5ac759751e9c758572245adeb27f4947777efd47882bf56128196d44675
 tags:
   0.2.4--pyhdfd78af_0: sha256:19ac50bd67878369e72a6aa7813d68a689de2510b83a82e7f2d6c62e7c4ccef6
   0.4.0--pyhdfd78af_0: sha256:47bfe632d342ea57a004dce1bb1a5059f3763537be2e095343108362e5cdb033
+  0.7.3--pyhdfd78af_0: sha256:7b88d5ac759751e9c758572245adeb27f4947777efd47882bf56128196d44675
+  0.6.8--pyhdfd78af_0: sha256:5077bd351b1595aa7951bac9f8dc89b11157e0760d970268896e5c53d34f498b
+  0.5.3--pyhdfd78af_0: sha256:416f46dc1765990ac55d2c9fa4597adbe84005bd04c0fd0cbb1524314dca27a8
 docker: quay.io/biocontainers/seqchromloader
 aliases:
   pyfasta: /usr/local/bin/pyfasta

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-nethet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-nethet
 latest:
-  1.30.0--r42ha9d7317_1: sha256:ca0bf5fd29967612e51e92e768da4829f3036f36fd07e5e17e9e09c16715c26a
+  1.32.0--r43ha9d7317_0: sha256:dfa08070b315854efe9fe70050ef6234c094e15164729d8d3c9e3cb4d2606680
 tags:
   1.26.0--r41hc0cfd56_2: sha256:606ab5d73d12de16cadba639f8a1031503f858d5e807bb87b6141b938132204c
   1.30.0--r42hc0cfd56_0: sha256:5eb539835fa488c7b2a9cbca52b28a64e0e2578d47b096d4e30cce5a3ea3ca37
   1.30.0--r42ha9d7317_1: sha256:ca0bf5fd29967612e51e92e768da4829f3036f36fd07e5e17e9e09c16715c26a
+  1.32.0--r43ha9d7317_0: sha256:dfa08070b315854efe9fe70050ef6234c094e15164729d8d3c9e3cb4d2606680
 docker: quay.io/biocontainers/bioconductor-nethet
 aliases:
   glpsol: /usr/local/bin/glpsol

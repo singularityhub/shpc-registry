@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/prokka
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for prokka
 latest:
-  1.14.6--pl5321hdfd78af_4: sha256:d68768c8a51763cb6de66a96e34107874556cee935a70e21c3369680e07b9e14
+  1.14.6--pl5321hdfd78af_5: sha256:207b52fbb5580394fbcc1fe58af62bb2fac80ae980d1173384bb2c4feab4bf18
 tags:
   1.14.6--pl5321hdfd78af_4: sha256:d68768c8a51763cb6de66a96e34107874556cee935a70e21c3369680e07b9e14
+  1.14.6--pl5321hdfd78af_5: sha256:207b52fbb5580394fbcc1fe58af62bb2fac80ae980d1173384bb2c4feab4bf18
 docker: quay.io/biocontainers/prokka
 aliases:
   prokka: /usr/local/bin/prokka

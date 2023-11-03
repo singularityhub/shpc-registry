@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/biom-format
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biom-format
 latest:
-  2.1.14: sha256:49a81ddb5aedb5be7cb77509ec360075c4c2371e768a53cf52fbf8f7f0e41452
+  2.1.15: sha256:b3a41646d08289bbde1d39fa65ace2d445d8bc6cda962fb7d278e8af69c6e956
 tags:
   2.1.7--py27_0: sha256:26f1d5f7fdbe14881c73b0c8530e772e616c7684a4d8b7d1031860646286551c
   2.1.12: sha256:b958db2587da58dd22a2e08e09c0207b3625091ca5555a855e77ee18b915c5c2
   2.1.14: sha256:49a81ddb5aedb5be7cb77509ec360075c4c2371e768a53cf52fbf8f7f0e41452
+  2.1.15: sha256:b3a41646d08289bbde1d39fa65ace2d445d8bc6cda962fb7d278e8af69c6e956
 docker: quay.io/biocontainers/biom-format
 aliases:
   pyqi: /usr/local/bin/pyqi

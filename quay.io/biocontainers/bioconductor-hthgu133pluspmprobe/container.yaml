@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-hthgu133pluspmprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hthgu133pluspmprobe
 latest:
-  2.18.0--r42hdfd78af_10: sha256:ea0d5fac635d580d63bcd97d8c56b06f72ec7ce9ff364ff5cc4d5fdfbc9c60dc
+  2.18.0--r43hdfd78af_11: sha256:796a1648fae865342928bd7808b85fc076ca8c9f809c4382ea2a4592cb0e7c5c
 tags:
   2.18.0--r41hdfd78af_9: sha256:c469892e338e43ab7e634c194650a0347b49c9cffc560a1f50e1a7d9e8b87de2
   2.18.0--r42hdfd78af_10: sha256:ea0d5fac635d580d63bcd97d8c56b06f72ec7ce9ff364ff5cc4d5fdfbc9c60dc
+  2.18.0--r43hdfd78af_11: sha256:796a1648fae865342928bd7808b85fc076ca8c9f809c4382ea2a4592cb0e7c5c
 docker: quay.io/biocontainers/bioconductor-hthgu133pluspmprobe

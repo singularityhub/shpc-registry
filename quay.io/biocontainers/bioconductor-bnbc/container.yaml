@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-bnbc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bnbc
 latest:
-  1.20.0--r42hf17093f_1: sha256:95147d3a6c281c1ef15eaa46974793b3f9aae5db6157f5f6cf1979196d789b23
+  1.22.0--r43hf17093f_0: sha256:fc4952e63c120a1948d26710e7ee6e186d75a1b4afef1a30ec409da75f0f651c
 tags:
   1.8.0--r36he1b5a44_0: sha256:114a99caacce74252d1bbe103d2b0123058af05be6d58b7c03bb3d4992eafe7f
   1.16.0--r41hc247a5b_2: sha256:f3c38e13c960ec0205f755b36cf2818f1b2027b4e6f1c0681082f9a627106052
@@ -11,6 +11,7 @@ tags:
   1.10.0--r40h5f743cb_0: sha256:8a3be8da821051f97627c0cad0af4bfc6957ecf2c5e2f4545390a0d0e9c15dff
   1.20.0--r42hc247a5b_0: sha256:ef950e1598a42aff2f954dc3851887faff02c57ed175a11ff652dc2be461fc32
   1.20.0--r42hf17093f_1: sha256:95147d3a6c281c1ef15eaa46974793b3f9aae5db6157f5f6cf1979196d789b23
+  1.22.0--r43hf17093f_0: sha256:fc4952e63c120a1948d26710e7ee6e186d75a1b4afef1a30ec409da75f0f651c
 docker: quay.io/biocontainers/bioconductor-bnbc
 aliases:
   mpichversion: /usr/local/bin/mpichversion

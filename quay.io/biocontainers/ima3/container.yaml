@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/ima3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ima3
 latest:
-  1.13--h87f3376_0: sha256:3c5259bcc09c27c3cb271685944bf46e2b21d755d38f89b0df8487e25e1a7c38
+  1.13--hdbdd923_1: sha256:3d9066c5f687087b10a2fd26c97d4281d48d75127d8be12af040cf0dedba5fc8
 tags:
   1.12--h87f3376_1: sha256:8907ffae4a6d529cfda3b6fc186425a8d71a739411cab3656f39f68c0669faa8
   1.13--h87f3376_0: sha256:3c5259bcc09c27c3cb271685944bf46e2b21d755d38f89b0df8487e25e1a7c38
   1.12--hdbdd923_3: sha256:906f220403b68e03107b5c1033f47703b90b46e4783982ee7197dd996a4a6839
+  1.13--hdbdd923_1: sha256:3d9066c5f687087b10a2fd26c97d4281d48d75127d8be12af040cf0dedba5fc8
 docker: quay.io/biocontainers/ima3
 aliases:
   IMa3: /usr/local/bin/IMa3
