@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/callingcardstools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/callingcardstools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/callingcardstools/container.yaml"
-updated_at: "2023-11-02 03:26:33.320888"
-latest: "1.0.0--pyhca03a8a_1"
+updated_at: "2023-11-03 02:58:32.506736"
+latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/callingcardstools"
 aliases:
  - "callingcardstools"
@@ -40,8 +40,10 @@ aliases:
 versions:
  - "1.0.0--pyhca03a8a_0"
  - "1.0.0--pyhca03a8a_1"
+ - "1.2.0--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for callingcardstools"
-config: {"url": "https://biocontainers.pro/tools/callingcardstools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for callingcardstools", "latest": {"1.0.0--pyhca03a8a_1": "sha256:abc405cb339ca12a007eeb100e2db99411a7fca3d59fef2e92334c9fc55e4163"}, "tags": {"1.0.0--pyhca03a8a_0": "sha256:b38c184d2a48b1f29947c07f9bc1ca03510f2d8e1cab7b076eb0e5ad8b7b4813", "1.0.0--pyhca03a8a_1": "sha256:abc405cb339ca12a007eeb100e2db99411a7fca3d59fef2e92334c9fc55e4163"}, "docker": "quay.io/biocontainers/callingcardstools", "aliases": {"callingcardstools": "/usr/local/bin/callingcardstools", "dul-receive-pack": "/usr/local/bin/dul-receive-pack", "dul-upload-pack": "/usr/local/bin/dul-upload-pack", "dulwich": "/usr/local/bin/dulwich", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry", "pyproject-build": "/usr/local/bin/pyproject-build", "python-build": "/usr/local/bin/python-build", "virtualenv": "/usr/local/bin/virtualenv", "doesitcache": "/usr/local/bin/doesitcache", "jsonschema": "/usr/local/bin/jsonschema", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool", "dbus-update-activation-environment": "/usr/local/bin/dbus-update-activation-environment", "dbus-uuidgen": "/usr/local/bin/dbus-uuidgen", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/callingcardstools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for callingcardstools", "latest": {"1.2.0--pyhdfd78af_0": "sha256:631093c5b77041a5ec4890319d47205f8df2ed353742d653463c095ba48f11b7"}, "tags": {"1.0.0--pyhca03a8a_0": "sha256:b38c184d2a48b1f29947c07f9bc1ca03510f2d8e1cab7b076eb0e5ad8b7b4813", "1.0.0--pyhca03a8a_1": "sha256:abc405cb339ca12a007eeb100e2db99411a7fca3d59fef2e92334c9fc55e4163", "1.2.0--pyhdfd78af_0": "sha256:631093c5b77041a5ec4890319d47205f8df2ed353742d653463c095ba48f11b7", "1.1.0--pyhdfd78af_0": "sha256:7d1732e9c9590ff91ae344b0f1069daf752ba5dc4c07894cf1e4a99de566730f"}, "docker": "quay.io/biocontainers/callingcardstools", "aliases": {"callingcardstools": "/usr/local/bin/callingcardstools", "dul-receive-pack": "/usr/local/bin/dul-receive-pack", "dul-upload-pack": "/usr/local/bin/dul-upload-pack", "dulwich": "/usr/local/bin/dulwich", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry", "pyproject-build": "/usr/local/bin/pyproject-build", "python-build": "/usr/local/bin/python-build", "virtualenv": "/usr/local/bin/virtualenv", "doesitcache": "/usr/local/bin/doesitcache", "jsonschema": "/usr/local/bin/jsonschema", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool", "dbus-update-activation-environment": "/usr/local/bin/dbus-update-activation-environment", "dbus-uuidgen": "/usr/local/bin/dbus-uuidgen", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/callingcardstools.
@@ -56,7 +58,7 @@ $ shpc install quay.io/biocontainers/callingcardstools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/callingcardstools:1.0.0--pyhca03a8a_1
+$ shpc install quay.io/biocontainers/callingcardstools:1.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/callingcardstools/1.0.0--pyhca03a8a_1
-$ module help quay.io/biocontainers/callingcardstools/1.0.0--pyhca03a8a_1
+$ module load quay.io/biocontainers/callingcardstools/1.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/callingcardstools/1.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

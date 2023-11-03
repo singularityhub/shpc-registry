@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-cellosaurus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cellosaurus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cellosaurus/container.yaml"
-updated_at: "2023-11-02 03:07:03.176410"
-latest: "0.7.2--r43hdfd78af_0"
+updated_at: "2023-11-03 02:33:23.292024"
+latest: "0.8.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-cellosaurus"
 aliases:
  - "2to3-3.11"
@@ -30,8 +30,9 @@ versions:
  - "0.5.4--r43hdfd78af_1"
  - "0.6.0--r43hdfd78af_0"
  - "0.7.2--r43hdfd78af_0"
+ - "0.8.1--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for r-cellosaurus"
-config: {"url": "https://biocontainers.pro/tools/r-cellosaurus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-cellosaurus", "latest": {"0.7.2--r43hdfd78af_0": "sha256:e0067d4222bf840681bc7924cf890bcac9f7628f43c1f7cc3ff7d6bebf9f775c"}, "tags": {"0.5.2--r42hdfd78af_0": "sha256:21e7528a3078b17aae69fdfbf9a5da011b057e13f70c22b3c5ece8fec09c2241", "0.5.3--r42hdfd78af_0": "sha256:182560b693e8592a79ab38020df75361617be98cac827885af09921619ecc361", "0.5.4--r43hdfd78af_1": "sha256:89018efd75dc16860368ba9bbbc3b5e57f0dd791fb587a0e644a10383e1f4708", "0.6.0--r43hdfd78af_0": "sha256:54320d2136758e820259b6934c89aca1aad1a39ce7771ca407a4a35ae685510e", "0.7.2--r43hdfd78af_0": "sha256:e0067d4222bf840681bc7924cf890bcac9f7628f43c1f7cc3ff7d6bebf9f775c"}, "docker": "quay.io/biocontainers/r-cellosaurus", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-cellosaurus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-cellosaurus", "latest": {"0.8.1--r43hdfd78af_0": "sha256:fa5b06b9658212297e05c9f840e39f2b10ec83d960c3e2bfe24308dcf06c9887"}, "tags": {"0.5.2--r42hdfd78af_0": "sha256:21e7528a3078b17aae69fdfbf9a5da011b057e13f70c22b3c5ece8fec09c2241", "0.5.3--r42hdfd78af_0": "sha256:182560b693e8592a79ab38020df75361617be98cac827885af09921619ecc361", "0.5.4--r43hdfd78af_1": "sha256:89018efd75dc16860368ba9bbbc3b5e57f0dd791fb587a0e644a10383e1f4708", "0.6.0--r43hdfd78af_0": "sha256:54320d2136758e820259b6934c89aca1aad1a39ce7771ca407a4a35ae685510e", "0.7.2--r43hdfd78af_0": "sha256:e0067d4222bf840681bc7924cf890bcac9f7628f43c1f7cc3ff7d6bebf9f775c", "0.8.1--r43hdfd78af_0": "sha256:fa5b06b9658212297e05c9f840e39f2b10ec83d960c3e2bfe24308dcf06c9887"}, "docker": "quay.io/biocontainers/r-cellosaurus", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-cellosaurus.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/r-cellosaurus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-cellosaurus:0.7.2--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/r-cellosaurus:0.8.1--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-cellosaurus/0.7.2--r43hdfd78af_0
-$ module help quay.io/biocontainers/r-cellosaurus/0.7.2--r43hdfd78af_0
+$ module load quay.io/biocontainers/r-cellosaurus/0.8.1--r43hdfd78af_0
+$ module help quay.io/biocontainers/r-cellosaurus/0.8.1--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/graftm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graftm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graftm/container.yaml"
-updated_at: "2023-11-02 03:04:44.421939"
-latest: "0.14.0--pypyhdfd78af_1"
+updated_at: "2023-11-03 02:30:29.818244"
+latest: "0.15.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/graftm"
 aliases:
  - "graftM"
@@ -26,8 +26,9 @@ aliases:
  - "ktImportFCP"
 versions:
  - "0.14.0--pypyhdfd78af_1"
+ - "0.15.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for graftm"
-config: {"url": "https://biocontainers.pro/tools/graftm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graftm", "latest": {"0.14.0--pypyhdfd78af_1": "sha256:a88e377bbd6dfb1a3264318d0bbacf020e6f2a7a15ca26f78991772cbb6c954c"}, "tags": {"0.14.0--pypyhdfd78af_1": "sha256:a88e377bbd6dfb1a3264318d0bbacf020e6f2a7a15ca26f78991772cbb6c954c"}, "docker": "quay.io/biocontainers/graftm", "aliases": {"graftM": "/usr/local/bin/graftM", "ktClassifyHits": "/usr/local/bin/ktClassifyHits", "ktImportHits": "/usr/local/bin/ktImportHits", "mfqe": "/usr/local/bin/mfqe", "orfm": "/usr/local/bin/orfm", "taxit": "/usr/local/bin/taxit", "ktClassifyBLAST": "/usr/local/bin/ktClassifyBLAST", "ktGetContigMagnitudes": "/usr/local/bin/ktGetContigMagnitudes", "ktGetLCA": "/usr/local/bin/ktGetLCA", "ktGetLibPath": "/usr/local/bin/ktGetLibPath", "ktGetTaxIDFromAcc": "/usr/local/bin/ktGetTaxIDFromAcc", "ktGetTaxInfo": "/usr/local/bin/ktGetTaxInfo", "ktImportBLAST": "/usr/local/bin/ktImportBLAST", "ktImportDiskUsage": "/usr/local/bin/ktImportDiskUsage", "ktImportEC": "/usr/local/bin/ktImportEC", "ktImportFCP": "/usr/local/bin/ktImportFCP"}}
+config: {"url": "https://biocontainers.pro/tools/graftm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graftm", "latest": {"0.15.0--pyhdfd78af_0": "sha256:89e8a3f7750b93f095118297092f0af613d16ab971079b204147b0a335c50b5e"}, "tags": {"0.14.0--pypyhdfd78af_1": "sha256:a88e377bbd6dfb1a3264318d0bbacf020e6f2a7a15ca26f78991772cbb6c954c", "0.15.0--pyhdfd78af_0": "sha256:89e8a3f7750b93f095118297092f0af613d16ab971079b204147b0a335c50b5e"}, "docker": "quay.io/biocontainers/graftm", "aliases": {"graftM": "/usr/local/bin/graftM", "ktClassifyHits": "/usr/local/bin/ktClassifyHits", "ktImportHits": "/usr/local/bin/ktImportHits", "mfqe": "/usr/local/bin/mfqe", "orfm": "/usr/local/bin/orfm", "taxit": "/usr/local/bin/taxit", "ktClassifyBLAST": "/usr/local/bin/ktClassifyBLAST", "ktGetContigMagnitudes": "/usr/local/bin/ktGetContigMagnitudes", "ktGetLCA": "/usr/local/bin/ktGetLCA", "ktGetLibPath": "/usr/local/bin/ktGetLibPath", "ktGetTaxIDFromAcc": "/usr/local/bin/ktGetTaxIDFromAcc", "ktGetTaxInfo": "/usr/local/bin/ktGetTaxInfo", "ktImportBLAST": "/usr/local/bin/ktImportBLAST", "ktImportDiskUsage": "/usr/local/bin/ktImportDiskUsage", "ktImportEC": "/usr/local/bin/ktImportEC", "ktImportFCP": "/usr/local/bin/ktImportFCP"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/graftm.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/graftm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/graftm:0.14.0--pypyhdfd78af_1
+$ shpc install quay.io/biocontainers/graftm:0.15.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/graftm/0.14.0--pypyhdfd78af_1
-$ module help quay.io/biocontainers/graftm/0.14.0--pypyhdfd78af_1
+$ module load quay.io/biocontainers/graftm/0.15.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/graftm/0.15.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
