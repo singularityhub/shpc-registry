@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-pathfindr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-pathfindr
 latest:
-  2.2.0--r43h3342da4_0: sha256:d24913c266ae97ad615faa9a50e6eec6453bfe7c289b8c1daf0e6157e1dac406
+  2.3.0--r43h3342da4_0: sha256:1b37082bc8f766d0ab6b8d1b792430e26b573c15633fa3db1d07c0a861aa35df
 tags:
   2.1.0--r43h3342da4_0: sha256:ba5454b65a7ae9e08c5e622c56b3cce7173580a2c293606771a74f6dc2088c39
   2.2.0--r43h3342da4_0: sha256:d24913c266ae97ad615faa9a50e6eec6453bfe7c289b8c1daf0e6157e1dac406
+  2.3.0--r43h3342da4_0: sha256:1b37082bc8f766d0ab6b8d1b792430e26b573c15633fa3db1d07c0a861aa35df
 docker: quay.io/biocontainers/r-pathfindr
 aliases:
   clhsdb: /usr/local/bin/clhsdb

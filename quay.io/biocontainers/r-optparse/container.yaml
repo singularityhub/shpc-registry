@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-optparse
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-optparse
 latest:
-  1.6.0: sha256:8611f18446d462dd0ff557857322ab56fd3fff2004160ef73c737e3cf5b11886
+  1.7.3: sha256:80b429fc845e48e75efa2f222fe6e9839b27196caddc4343c5b739ec6b30821e
 tags:
   1.6.0: sha256:8611f18446d462dd0ff557857322ab56fd3fff2004160ef73c737e3cf5b11886
+  1.7.3: sha256:80b429fc845e48e75efa2f222fe6e9839b27196caddc4343c5b739ec6b30821e
 docker: quay.io/biocontainers/r-optparse
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9
