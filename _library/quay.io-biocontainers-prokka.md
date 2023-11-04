@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/prokka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prokka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prokka/container.yaml"
-updated_at: "2023-11-03 02:59:54.289058"
-latest: "1.14.6--pl5321hdfd78af_4"
+updated_at: "2023-11-04 02:49:39.746541"
+latest: "1.14.6--pl5321hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/prokka"
 aliases:
  - "prokka"
@@ -32,8 +32,9 @@ aliases:
  - "bp_bioflat_index"
 versions:
  - "1.14.6--pl5321hdfd78af_4"
+ - "1.14.6--pl5321hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for prokka"
-config: {"url": "https://biocontainers.pro/tools/prokka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prokka", "latest": {"1.14.6--pl5321hdfd78af_4": "sha256:d68768c8a51763cb6de66a96e34107874556cee935a70e21c3369680e07b9e14"}, "tags": {"1.14.6--pl5321hdfd78af_4": "sha256:d68768c8a51763cb6de66a96e34107874556cee935a70e21c3369680e07b9e14"}, "docker": "quay.io/biocontainers/prokka", "aliases": {"prokka": "/usr/local/bin/prokka", "prokka-abricate_to_fasta_db": "/usr/local/bin/prokka-abricate_to_fasta_db", "prokka-biocyc_to_fasta_db": "/usr/local/bin/prokka-biocyc_to_fasta_db", "prokka-build_kingdom_dbs": "/usr/local/bin/prokka-build_kingdom_dbs", "prokka-cdd_to_hmm": "/usr/local/bin/prokka-cdd_to_hmm", "prokka-clusters_to_hmm": "/usr/local/bin/prokka-clusters_to_hmm", "prokka-genbank_to_fasta_db": "/usr/local/bin/prokka-genbank_to_fasta_db", "prokka-genpept_to_fasta_db": "/usr/local/bin/prokka-genpept_to_fasta_db", "prokka-hamap_to_hmm": "/usr/local/bin/prokka-hamap_to_hmm", "prokka-tigrfams_to_hmm": "/usr/local/bin/prokka-tigrfams_to_hmm", "prokka-uniprot_to_fasta_db": "/usr/local/bin/prokka-uniprot_to_fasta_db", "tbl2asn-test": "/usr/local/bin/tbl2asn-test", "fix-sqn-date": "/usr/local/bin/fix-sqn-date", "faketime": "/usr/local/bin/faketime", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "minced": "/usr/local/bin/minced", "tbl2asn": "/usr/local/bin/tbl2asn", "idn": "/usr/local/bin/idn", "aragorn": "/usr/local/bin/aragorn", "barrnap": "/usr/local/bin/barrnap", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index"}}
+config: {"url": "https://biocontainers.pro/tools/prokka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prokka", "latest": {"1.14.6--pl5321hdfd78af_5": "sha256:207b52fbb5580394fbcc1fe58af62bb2fac80ae980d1173384bb2c4feab4bf18"}, "tags": {"1.14.6--pl5321hdfd78af_4": "sha256:d68768c8a51763cb6de66a96e34107874556cee935a70e21c3369680e07b9e14", "1.14.6--pl5321hdfd78af_5": "sha256:207b52fbb5580394fbcc1fe58af62bb2fac80ae980d1173384bb2c4feab4bf18"}, "docker": "quay.io/biocontainers/prokka", "aliases": {"prokka": "/usr/local/bin/prokka", "prokka-abricate_to_fasta_db": "/usr/local/bin/prokka-abricate_to_fasta_db", "prokka-biocyc_to_fasta_db": "/usr/local/bin/prokka-biocyc_to_fasta_db", "prokka-build_kingdom_dbs": "/usr/local/bin/prokka-build_kingdom_dbs", "prokka-cdd_to_hmm": "/usr/local/bin/prokka-cdd_to_hmm", "prokka-clusters_to_hmm": "/usr/local/bin/prokka-clusters_to_hmm", "prokka-genbank_to_fasta_db": "/usr/local/bin/prokka-genbank_to_fasta_db", "prokka-genpept_to_fasta_db": "/usr/local/bin/prokka-genpept_to_fasta_db", "prokka-hamap_to_hmm": "/usr/local/bin/prokka-hamap_to_hmm", "prokka-tigrfams_to_hmm": "/usr/local/bin/prokka-tigrfams_to_hmm", "prokka-uniprot_to_fasta_db": "/usr/local/bin/prokka-uniprot_to_fasta_db", "tbl2asn-test": "/usr/local/bin/tbl2asn-test", "fix-sqn-date": "/usr/local/bin/fix-sqn-date", "faketime": "/usr/local/bin/faketime", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "minced": "/usr/local/bin/minced", "tbl2asn": "/usr/local/bin/tbl2asn", "idn": "/usr/local/bin/idn", "aragorn": "/usr/local/bin/aragorn", "barrnap": "/usr/local/bin/barrnap", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prokka.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/prokka
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/prokka:1.14.6--pl5321hdfd78af_4
+$ shpc install quay.io/biocontainers/prokka:1.14.6--pl5321hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/prokka/1.14.6--pl5321hdfd78af_4
-$ module help quay.io/biocontainers/prokka/1.14.6--pl5321hdfd78af_4
+$ module load quay.io/biocontainers/prokka/1.14.6--pl5321hdfd78af_5
+$ module help quay.io/biocontainers/prokka/1.14.6--pl5321hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

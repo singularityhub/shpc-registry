@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cromshell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cromshell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cromshell/container.yaml"
-updated_at: "2023-11-03 02:24:30.317523"
-latest: "2.0.0--pyhdfd78af_0"
+updated_at: "2023-11-04 02:22:03.326479"
+latest: "2.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cromshell"
 aliases:
  - "cromshell"
@@ -26,8 +26,9 @@ versions:
  - "0.5.2--hdfd78af_0"
  - "0.5.3--hdfd78af_0"
  - "2.0.0--pyhdfd78af_0"
+ - "2.1.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cromshell"
-config: {"url": "https://biocontainers.pro/tools/cromshell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cromshell", "latest": {"2.0.0--pyhdfd78af_0": "sha256:77686e58f4c2ccd02e44297c6ed3594e787185305d6158a5caa81669952243cf"}, "tags": {"0.5.2--hdfd78af_0": "sha256:c399ad57321b0564b48fb06beed6e2dc7736032d50d623baefe1e83f8ee14300", "0.5.3--hdfd78af_0": "sha256:f1768bd681155e43897f9e3a424acc4fcb84d83f25e6fc5d5a5ba659736dda47", "2.0.0--pyhdfd78af_0": "sha256:77686e58f4c2ccd02e44297c6ed3594e787185305d6158a5caa81669952243cf"}, "docker": "quay.io/biocontainers/cromshell", "aliases": {"cromshell": "/usr/local/bin/cromshell", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "womtool": "/usr/local/bin/womtool", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer"}}
+config: {"url": "https://biocontainers.pro/tools/cromshell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cromshell", "latest": {"2.1.1--pyhdfd78af_0": "sha256:63c3ae9cb79131625c0bbc583a09462c77f2aea55fa06e3ddbb93c3601b0f182"}, "tags": {"0.5.2--hdfd78af_0": "sha256:c399ad57321b0564b48fb06beed6e2dc7736032d50d623baefe1e83f8ee14300", "0.5.3--hdfd78af_0": "sha256:f1768bd681155e43897f9e3a424acc4fcb84d83f25e6fc5d5a5ba659736dda47", "2.0.0--pyhdfd78af_0": "sha256:77686e58f4c2ccd02e44297c6ed3594e787185305d6158a5caa81669952243cf", "2.1.1--pyhdfd78af_0": "sha256:63c3ae9cb79131625c0bbc583a09462c77f2aea55fa06e3ddbb93c3601b0f182"}, "docker": "quay.io/biocontainers/cromshell", "aliases": {"cromshell": "/usr/local/bin/cromshell", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "womtool": "/usr/local/bin/womtool", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cromshell.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/cromshell
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cromshell:2.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cromshell:2.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cromshell/2.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/cromshell/2.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/cromshell/2.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/cromshell/2.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

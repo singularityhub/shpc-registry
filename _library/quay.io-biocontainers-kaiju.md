@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kaiju"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kaiju/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kaiju/container.yaml"
-updated_at: "2023-11-03 02:26:38.758559"
-latest: "1.9.2--h43eeafb_2"
+updated_at: "2023-11-04 02:23:42.367378"
+latest: "1.9.2--h43eeafb_3"
 container_url: "https://biocontainers.pro/tools/kaiju"
 aliases:
  - "kaiju"
@@ -38,8 +38,9 @@ versions:
  - "1.9.0--h5b5514e_1"
  - "1.9.2--h5b5514e_0"
  - "1.9.2--h43eeafb_2"
+ - "1.9.2--h43eeafb_3"
 description: "shpc-registry automated BioContainers addition for kaiju"
-config: {"url": "https://biocontainers.pro/tools/kaiju", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kaiju", "latest": {"1.9.2--h43eeafb_2": "sha256:35cd0f5755916855575235644a9fd293adddcb9432993dbce114b6895dad974e"}, "tags": {"1.9.0--h5b5514e_1": "sha256:4131bb30e4ee9edcec5abfb9d90ad5f09b6acf6c7361bc10cac781805a474c27", "1.9.2--h5b5514e_0": "sha256:6ec9778b106ff52005c83e1876c3227c3fd8be8c39131413b43a735ffed3055a", "1.9.2--h43eeafb_2": "sha256:35cd0f5755916855575235644a9fd293adddcb9432993dbce114b6895dad974e"}, "docker": "quay.io/biocontainers/kaiju", "aliases": {"kaiju": "/usr/local/bin/kaiju", "kaiju-addTaxonNames": "/usr/local/bin/kaiju-addTaxonNames", "kaiju-convertMAR.py": "/usr/local/bin/kaiju-convertMAR.py", "kaiju-convertNR": "/usr/local/bin/kaiju-convertNR", "kaiju-excluded-accessions.txt": "/usr/local/bin/kaiju-excluded-accessions.txt", "kaiju-gbk2faa.pl": "/usr/local/bin/kaiju-gbk2faa.pl", "kaiju-makedb": "/usr/local/bin/kaiju-makedb", "kaiju-mergeOutputs": "/usr/local/bin/kaiju-mergeOutputs", "kaiju-mkbwt": "/usr/local/bin/kaiju-mkbwt", "kaiju-mkfmi": "/usr/local/bin/kaiju-mkfmi", "kaiju-multi": "/usr/local/bin/kaiju-multi", "kaiju-taxonlistEuk.tsv": "/usr/local/bin/kaiju-taxonlistEuk.tsv", "kaiju2krona": "/usr/local/bin/kaiju2krona", "kaiju2table": "/usr/local/bin/kaiju2table", "kaijup": "/usr/local/bin/kaijup", "kaijux": "/usr/local/bin/kaijux", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/kaiju", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kaiju", "latest": {"1.9.2--h43eeafb_3": "sha256:ac63491b7a20e60658bf8247e53e107cecae1cddc40769d2b0c9f9317da63c27"}, "tags": {"1.9.0--h5b5514e_1": "sha256:4131bb30e4ee9edcec5abfb9d90ad5f09b6acf6c7361bc10cac781805a474c27", "1.9.2--h5b5514e_0": "sha256:6ec9778b106ff52005c83e1876c3227c3fd8be8c39131413b43a735ffed3055a", "1.9.2--h43eeafb_2": "sha256:35cd0f5755916855575235644a9fd293adddcb9432993dbce114b6895dad974e", "1.9.2--h43eeafb_3": "sha256:ac63491b7a20e60658bf8247e53e107cecae1cddc40769d2b0c9f9317da63c27"}, "docker": "quay.io/biocontainers/kaiju", "aliases": {"kaiju": "/usr/local/bin/kaiju", "kaiju-addTaxonNames": "/usr/local/bin/kaiju-addTaxonNames", "kaiju-convertMAR.py": "/usr/local/bin/kaiju-convertMAR.py", "kaiju-convertNR": "/usr/local/bin/kaiju-convertNR", "kaiju-excluded-accessions.txt": "/usr/local/bin/kaiju-excluded-accessions.txt", "kaiju-gbk2faa.pl": "/usr/local/bin/kaiju-gbk2faa.pl", "kaiju-makedb": "/usr/local/bin/kaiju-makedb", "kaiju-mergeOutputs": "/usr/local/bin/kaiju-mergeOutputs", "kaiju-mkbwt": "/usr/local/bin/kaiju-mkbwt", "kaiju-mkfmi": "/usr/local/bin/kaiju-mkfmi", "kaiju-multi": "/usr/local/bin/kaiju-multi", "kaiju-taxonlistEuk.tsv": "/usr/local/bin/kaiju-taxonlistEuk.tsv", "kaiju2krona": "/usr/local/bin/kaiju2krona", "kaiju2table": "/usr/local/bin/kaiju2table", "kaijup": "/usr/local/bin/kaijup", "kaijux": "/usr/local/bin/kaijux", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kaiju.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/kaiju
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kaiju:1.9.2--h43eeafb_2
+$ shpc install quay.io/biocontainers/kaiju:1.9.2--h43eeafb_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kaiju/1.9.2--h43eeafb_2
-$ module help quay.io/biocontainers/kaiju/1.9.2--h43eeafb_2
+$ module load quay.io/biocontainers/kaiju/1.9.2--h43eeafb_3
+$ module help quay.io/biocontainers/kaiju/1.9.2--h43eeafb_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

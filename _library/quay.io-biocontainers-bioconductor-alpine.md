@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-alpine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alpine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alpine/container.yaml"
-updated_at: "2023-11-03 02:41:44.443444"
-latest: "1.24.0--r42hdfd78af_0"
+updated_at: "2023-11-04 02:35:28.906321"
+latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alpine"
 aliases:
  - "wget"
@@ -19,8 +19,9 @@ versions:
  - "1.14.0--r40_0"
  - "1.12.0--r36_0"
  - "1.24.0--r42hdfd78af_0"
+ - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-alpine"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-alpine", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-alpine", "latest": {"1.24.0--r42hdfd78af_0": "sha256:545798eaf816365e9bc4d5890ff98d9e566721a8d8049441de39c53ba08466ea"}, "tags": {"1.8.0--r351_0": "sha256:9212aa3f4ae2bd4d0fed165be35f8f6b0e34342e292be37fac83ae3973754986", "1.20.0--r41hdfd78af_0": "sha256:cb95249b77099507bad72c451f1dccb2e3e8b482a8b5463fa6c9b286a58b2ec1", "1.18.0--r41hdfd78af_0": "sha256:8162f4ff472c5d8a6f8b11bf4b9e04fc82e358b5a1efba6db12230451880a03e", "1.16.0--r40hdfd78af_1": "sha256:b388fdea35b569ffd630e759689a73aa9f03c664da50396bfcf0d5936c397aa5", "1.14.0--r40_0": "sha256:6f15dace71200e034d0f8377a14946f727fbe149059a6d34d78f91588eab596f", "1.12.0--r36_0": "sha256:5d2fd30c2fa6d5b9a281774ce96474eab83a6173c70ee64e3e12c8d19fb9154e", "1.24.0--r42hdfd78af_0": "sha256:545798eaf816365e9bc4d5890ff98d9e566721a8d8049441de39c53ba08466ea"}, "docker": "quay.io/biocontainers/bioconductor-alpine", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-alpine", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-alpine", "latest": {"1.26.0--r43hdfd78af_0": "sha256:6cb365c9ec5b4e2dd8005a8b7e48aafab46ec21985d7b9a4b51082cf9053d427"}, "tags": {"1.8.0--r351_0": "sha256:9212aa3f4ae2bd4d0fed165be35f8f6b0e34342e292be37fac83ae3973754986", "1.20.0--r41hdfd78af_0": "sha256:cb95249b77099507bad72c451f1dccb2e3e8b482a8b5463fa6c9b286a58b2ec1", "1.18.0--r41hdfd78af_0": "sha256:8162f4ff472c5d8a6f8b11bf4b9e04fc82e358b5a1efba6db12230451880a03e", "1.16.0--r40hdfd78af_1": "sha256:b388fdea35b569ffd630e759689a73aa9f03c664da50396bfcf0d5936c397aa5", "1.14.0--r40_0": "sha256:6f15dace71200e034d0f8377a14946f727fbe149059a6d34d78f91588eab596f", "1.12.0--r36_0": "sha256:5d2fd30c2fa6d5b9a281774ce96474eab83a6173c70ee64e3e12c8d19fb9154e", "1.24.0--r42hdfd78af_0": "sha256:545798eaf816365e9bc4d5890ff98d9e566721a8d8049441de39c53ba08466ea", "1.26.0--r43hdfd78af_0": "sha256:6cb365c9ec5b4e2dd8005a8b7e48aafab46ec21985d7b9a4b51082cf9053d427"}, "docker": "quay.io/biocontainers/bioconductor-alpine", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-alpine.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-alpine
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-alpine:1.24.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-alpine:1.26.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-alpine/1.24.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-alpine/1.24.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-alpine/1.26.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-alpine/1.26.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

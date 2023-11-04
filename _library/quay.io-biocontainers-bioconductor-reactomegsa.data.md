@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-reactomegsa.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reactomegsa.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reactomegsa.data/container.yaml"
-updated_at: "2023-11-03 02:32:29.391821"
-latest: "1.11.0--r42hdfd78af_0"
+updated_at: "2023-11-04 02:28:13.063393"
+latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-reactomegsa.data"
 aliases:
  - "geosop"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "1.8.0--r41hdfd78af_1"
  - "1.11.0--r42hdfd78af_0"
+ - "1.14.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-reactomegsa.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-reactomegsa.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reactomegsa.data", "latest": {"1.11.0--r42hdfd78af_0": "sha256:dd9543bb1a2844c8c1793cb5bc5f0f6ac26a219f124749efced4a350a8d32e07"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:3d47ef470ff9d95f59bcf03dfcb18b05dbd14b8909dbc61cb2036ff30a1dc28d", "1.11.0--r42hdfd78af_0": "sha256:dd9543bb1a2844c8c1793cb5bc5f0f6ac26a219f124749efced4a350a8d32e07"}, "docker": "quay.io/biocontainers/bioconductor-reactomegsa.data", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-reactomegsa.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reactomegsa.data", "latest": {"1.14.0--r43hdfd78af_0": "sha256:d50a1d96656f8edf62734cb1f454c8881da9d746cb9a3cf1de09033ae3d2a6e8"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:3d47ef470ff9d95f59bcf03dfcb18b05dbd14b8909dbc61cb2036ff30a1dc28d", "1.11.0--r42hdfd78af_0": "sha256:dd9543bb1a2844c8c1793cb5bc5f0f6ac26a219f124749efced4a350a8d32e07", "1.14.0--r43hdfd78af_0": "sha256:d50a1d96656f8edf62734cb1f454c8881da9d746cb9a3cf1de09033ae3d2a6e8"}, "docker": "quay.io/biocontainers/bioconductor-reactomegsa.data", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-reactomegsa.data.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-reactomegsa.data
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-reactomegsa.data:1.11.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-reactomegsa.data:1.14.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-reactomegsa.data/1.11.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-reactomegsa.data/1.11.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-reactomegsa.data/1.14.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-reactomegsa.data/1.14.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-rbcbook1"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbcbook1/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbcbook1/container.yaml"
-updated_at: "2023-11-03 02:51:16.335468"
-latest: "1.66.0--r42hdfd78af_0"
+updated_at: "2023-11-04 02:42:53.344705"
+latest: "1.68.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbcbook1"
 
 versions:
  - "1.62.0--r41hdfd78af_0"
  - "1.66.0--r42hdfd78af_0"
+ - "1.68.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rbcbook1"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rbcbook1", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rbcbook1", "latest": {"1.66.0--r42hdfd78af_0": "sha256:35b6b92de45464b04c2c9f69720c8ce5eeb24413aa93173813b997b7c1ab95fc"}, "tags": {"1.62.0--r41hdfd78af_0": "sha256:15a0d576d12ca6664a4985f67eb9c93829a7c06d2054368498b40a4365f928eb", "1.66.0--r42hdfd78af_0": "sha256:35b6b92de45464b04c2c9f69720c8ce5eeb24413aa93173813b997b7c1ab95fc"}, "docker": "quay.io/biocontainers/bioconductor-rbcbook1"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rbcbook1", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rbcbook1", "latest": {"1.68.0--r43hdfd78af_0": "sha256:3637f038d263413621288a1424f8152845d01cb808074647abd77343f00116d0"}, "tags": {"1.62.0--r41hdfd78af_0": "sha256:15a0d576d12ca6664a4985f67eb9c93829a7c06d2054368498b40a4365f928eb", "1.66.0--r42hdfd78af_0": "sha256:35b6b92de45464b04c2c9f69720c8ce5eeb24413aa93173813b997b7c1ab95fc", "1.68.0--r43hdfd78af_0": "sha256:3637f038d263413621288a1424f8152845d01cb808074647abd77343f00116d0"}, "docker": "quay.io/biocontainers/bioconductor-rbcbook1"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rbcbook1.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rbcbook1
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rbcbook1:1.66.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rbcbook1:1.68.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rbcbook1/1.66.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rbcbook1/1.66.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rbcbook1/1.68.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rbcbook1/1.68.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

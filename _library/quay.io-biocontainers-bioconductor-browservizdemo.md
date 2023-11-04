@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-browservizdemo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-browservizdemo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-browservizdemo/container.yaml"
-updated_at: "2023-11-03 02:31:02.217612"
+updated_at: "2023-11-04 02:27:05.773143"
 latest: "1.11.0--r351hfc679d8_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-browservizdemo"
 

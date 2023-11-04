@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-nanotube"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nanotube/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nanotube/container.yaml"
-updated_at: "2023-11-03 03:12:19.890946"
-latest: "1.4.0--r42hdfd78af_0"
+updated_at: "2023-11-04 02:59:11.169543"
+latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nanotube"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
+ - "1.6.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nanotube"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nanotube", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nanotube", "latest": {"1.4.0--r42hdfd78af_0": "sha256:919b16118be719fcc6206969c0b4ee964de07bc548ba4153b509eea6c52fe105"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:dac27446fdf8043a459d0189c5fca7678d3f495c118c449814c228640faf5ae2", "1.4.0--r42hdfd78af_0": "sha256:919b16118be719fcc6206969c0b4ee964de07bc548ba4153b509eea6c52fe105"}, "docker": "quay.io/biocontainers/bioconductor-nanotube"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nanotube", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nanotube", "latest": {"1.6.0--r43hdfd78af_0": "sha256:c5fd3e657203f584a0b68787a54b085207c79201764a301f3f3520aaa594906c"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:dac27446fdf8043a459d0189c5fca7678d3f495c118c449814c228640faf5ae2", "1.4.0--r42hdfd78af_0": "sha256:919b16118be719fcc6206969c0b4ee964de07bc548ba4153b509eea6c52fe105", "1.6.0--r43hdfd78af_0": "sha256:c5fd3e657203f584a0b68787a54b085207c79201764a301f3f3520aaa594906c"}, "docker": "quay.io/biocontainers/bioconductor-nanotube"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nanotube.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nanotube
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nanotube:1.4.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-nanotube:1.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nanotube/1.4.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-nanotube/1.4.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-nanotube/1.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-nanotube/1.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

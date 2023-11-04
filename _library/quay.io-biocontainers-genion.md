@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genion/container.yaml"
-updated_at: "2023-11-03 02:46:30.944351"
-latest: "1.2.1--hd03093a_0"
+updated_at: "2023-11-04 02:39:13.187761"
+latest: "1.2.3--hdcf5f25_1"
 container_url: "https://biocontainers.pro/tools/genion"
 aliases:
  - "genion"
@@ -13,8 +13,9 @@ versions:
  - "1.1.1--hd03093a_1"
  - "1.2.1--hd03093a_0"
  - "1.1.1--hdcf5f25_3"
+ - "1.2.3--hdcf5f25_1"
 description: "singularity registry hpc automated addition for genion"
-config: {"url": "https://biocontainers.pro/tools/genion", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genion", "latest": {"1.2.1--hd03093a_0": "sha256:9f5c6a6f7c338dea3df2d065a9eae4356c8e5e3c75b02f35ecc9e544c7fc5e33"}, "tags": {"1.1.1--hd03093a_1": "sha256:1989da37f4a02cacc6f0484e36e3a155dc70dc74d37ad9b4d930a6df767fe1ab", "1.2.1--hd03093a_0": "sha256:9f5c6a6f7c338dea3df2d065a9eae4356c8e5e3c75b02f35ecc9e544c7fc5e33", "1.1.1--hdcf5f25_3": "sha256:9ff38a22e5ca26e9a86c85ac4e6f23e26f1ce3c922b3ab48be2f091908654cac"}, "docker": "quay.io/biocontainers/genion", "aliases": {"genion": "/usr/local/bin/genion"}}
+config: {"url": "https://biocontainers.pro/tools/genion", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genion", "latest": {"1.2.3--hdcf5f25_1": "sha256:c8ea3d4c9894b0459e2e0704fd3f7b1d43f2f42bb023c39a03608b4589f009f7"}, "tags": {"1.1.1--hd03093a_1": "sha256:1989da37f4a02cacc6f0484e36e3a155dc70dc74d37ad9b4d930a6df767fe1ab", "1.2.1--hd03093a_0": "sha256:9f5c6a6f7c338dea3df2d065a9eae4356c8e5e3c75b02f35ecc9e544c7fc5e33", "1.1.1--hdcf5f25_3": "sha256:9ff38a22e5ca26e9a86c85ac4e6f23e26f1ce3c922b3ab48be2f091908654cac", "1.2.3--hdcf5f25_1": "sha256:c8ea3d4c9894b0459e2e0704fd3f7b1d43f2f42bb023c39a03608b4589f009f7"}, "docker": "quay.io/biocontainers/genion", "aliases": {"genion": "/usr/local/bin/genion"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genion.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/genion
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genion:1.2.1--hd03093a_0
+$ shpc install quay.io/biocontainers/genion:1.2.3--hdcf5f25_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genion/1.2.1--hd03093a_0
-$ module help quay.io/biocontainers/genion/1.2.1--hd03093a_0
+$ module load quay.io/biocontainers/genion/1.2.3--hdcf5f25_1
+$ module help quay.io/biocontainers/genion/1.2.3--hdcf5f25_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

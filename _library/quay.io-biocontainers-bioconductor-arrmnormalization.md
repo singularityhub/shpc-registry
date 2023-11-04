@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-arrmnormalization"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-arrmnormalization/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-arrmnormalization/container.yaml"
-updated_at: "2023-11-03 02:53:43.620163"
+updated_at: "2023-11-04 02:44:47.501626"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-arrmnormalization"
 

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-hta20transcriptcluster.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hta20transcriptcluster.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hta20transcriptcluster.db/container.yaml"
-updated_at: "2023-11-03 02:47:37.008345"
-latest: "8.8.0--r42hdfd78af_2"
+updated_at: "2023-11-04 02:40:04.432836"
+latest: "8.8.0--r43hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-hta20transcriptcluster.db"
 
 versions:
  - "8.8.0--r41hdfd78af_1"
  - "8.8.0--r42hdfd78af_2"
+ - "8.8.0--r43hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for bioconductor-hta20transcriptcluster.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hta20transcriptcluster.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hta20transcriptcluster.db", "latest": {"8.8.0--r42hdfd78af_2": "sha256:5385d5d9f5d5843f5ec93f8caec9b2846af3fb69545092601939111712e132e6"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:e037d6bba6e2b851f2cd38bf2150c6e892f6df5083211a9c2f58e404dfc11ce2", "8.8.0--r42hdfd78af_2": "sha256:5385d5d9f5d5843f5ec93f8caec9b2846af3fb69545092601939111712e132e6"}, "docker": "quay.io/biocontainers/bioconductor-hta20transcriptcluster.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hta20transcriptcluster.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hta20transcriptcluster.db", "latest": {"8.8.0--r43hdfd78af_3": "sha256:05ad0ba3e6cf36239b84d8952c7dc14ed186c74e6f16c968763cb9eb0ba08d00"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:e037d6bba6e2b851f2cd38bf2150c6e892f6df5083211a9c2f58e404dfc11ce2", "8.8.0--r42hdfd78af_2": "sha256:5385d5d9f5d5843f5ec93f8caec9b2846af3fb69545092601939111712e132e6", "8.8.0--r43hdfd78af_3": "sha256:05ad0ba3e6cf36239b84d8952c7dc14ed186c74e6f16c968763cb9eb0ba08d00"}, "docker": "quay.io/biocontainers/bioconductor-hta20transcriptcluster.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hta20transcriptcluster.db.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hta20transcriptcluster.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hta20transcriptcluster.db:8.8.0--r42hdfd78af_2
+$ shpc install quay.io/biocontainers/bioconductor-hta20transcriptcluster.db:8.8.0--r43hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hta20transcriptcluster.db/8.8.0--r42hdfd78af_2
-$ module help quay.io/biocontainers/bioconductor-hta20transcriptcluster.db/8.8.0--r42hdfd78af_2
+$ module load quay.io/biocontainers/bioconductor-hta20transcriptcluster.db/8.8.0--r43hdfd78af_3
+$ module help quay.io/biocontainers/bioconductor-hta20transcriptcluster.db/8.8.0--r43hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

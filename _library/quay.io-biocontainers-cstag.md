@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cstag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cstag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cstag/container.yaml"
-updated_at: "2023-11-03 03:05:36.987864"
-latest: "0.3.1--pyhdfd78af_0"
+updated_at: "2023-11-04 02:54:03.521952"
+latest: "1.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cstag"
 aliases:
  - "2to3-3.10"
@@ -16,8 +16,12 @@ aliases:
  - "python3.1"
 versions:
  - "0.3.1--pyhdfd78af_0"
+ - "1.0.5--pyhdfd78af_0"
+ - "0.6.2--pyhdfd78af_0"
+ - "0.5.1--pyhdfd78af_0"
+ - "0.4.3--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for cstag"
-config: {"url": "https://biocontainers.pro/tools/cstag", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cstag", "latest": {"0.3.1--pyhdfd78af_0": "sha256:0abb07b2d5031df525423a1f41e4154bbdd254773ab8cdfc2a810fd6b422672f"}, "tags": {"0.3.1--pyhdfd78af_0": "sha256:0abb07b2d5031df525423a1f41e4154bbdd254773ab8cdfc2a810fd6b422672f"}, "docker": "quay.io/biocontainers/cstag", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/cstag", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cstag", "latest": {"1.0.5--pyhdfd78af_0": "sha256:3c0dce1d395cc740c6412f2ddf44a8214b6710c2f0240036b8a119f5cc04aa1c"}, "tags": {"0.3.1--pyhdfd78af_0": "sha256:0abb07b2d5031df525423a1f41e4154bbdd254773ab8cdfc2a810fd6b422672f", "1.0.5--pyhdfd78af_0": "sha256:3c0dce1d395cc740c6412f2ddf44a8214b6710c2f0240036b8a119f5cc04aa1c", "0.6.2--pyhdfd78af_0": "sha256:0bbc6b804e63d7e653df692bfec7417ca97f14eedae81cf2efab89d8fab61bea", "0.5.1--pyhdfd78af_0": "sha256:6b7f8cf85b00e236e99309c57fa084e26353b4937b2be0ca2865c4ad889a5625", "0.4.3--pyh7cba7a3_0": "sha256:9b2f907357d33d8348cb97557dec3b0c39ffee7d7a416a0bc59e5ad062aa134d"}, "docker": "quay.io/biocontainers/cstag", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cstag.
@@ -32,7 +36,7 @@ $ shpc install quay.io/biocontainers/cstag
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cstag:0.3.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cstag:1.0.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cstag/0.3.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/cstag/0.3.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/cstag/1.0.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/cstag/1.0.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

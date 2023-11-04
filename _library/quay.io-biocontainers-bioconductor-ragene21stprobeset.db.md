@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-ragene21stprobeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ragene21stprobeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ragene21stprobeset.db/container.yaml"
-updated_at: "2023-11-03 02:58:54.090051"
-latest: "8.8.0--r42hdfd78af_2"
+updated_at: "2023-11-04 02:48:50.442106"
+latest: "8.8.0--r43hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-ragene21stprobeset.db"
 
 versions:
  - "8.8.0--r41hdfd78af_1"
  - "8.8.0--r42hdfd78af_2"
+ - "8.8.0--r43hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for bioconductor-ragene21stprobeset.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ragene21stprobeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ragene21stprobeset.db", "latest": {"8.8.0--r42hdfd78af_2": "sha256:c6c69b28344d777920d04300e88c347f093727357f60d29866f70973239ab004"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:d6dae6dfc06a533f52acc099eb4d4bca4297ecaa9b6234e47fe0db4fcc2fd235", "8.8.0--r42hdfd78af_2": "sha256:c6c69b28344d777920d04300e88c347f093727357f60d29866f70973239ab004"}, "docker": "quay.io/biocontainers/bioconductor-ragene21stprobeset.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ragene21stprobeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ragene21stprobeset.db", "latest": {"8.8.0--r43hdfd78af_3": "sha256:1b05967e7497bf46c7a1686203ee8dabe0dede02391ab8a0954e9a4e526e987a"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:d6dae6dfc06a533f52acc099eb4d4bca4297ecaa9b6234e47fe0db4fcc2fd235", "8.8.0--r42hdfd78af_2": "sha256:c6c69b28344d777920d04300e88c347f093727357f60d29866f70973239ab004", "8.8.0--r43hdfd78af_3": "sha256:1b05967e7497bf46c7a1686203ee8dabe0dede02391ab8a0954e9a4e526e987a"}, "docker": "quay.io/biocontainers/bioconductor-ragene21stprobeset.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ragene21stprobeset.db.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ragene21stprobeset.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ragene21stprobeset.db:8.8.0--r42hdfd78af_2
+$ shpc install quay.io/biocontainers/bioconductor-ragene21stprobeset.db:8.8.0--r43hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ragene21stprobeset.db/8.8.0--r42hdfd78af_2
-$ module help quay.io/biocontainers/bioconductor-ragene21stprobeset.db/8.8.0--r42hdfd78af_2
+$ module load quay.io/biocontainers/bioconductor-ragene21stprobeset.db/8.8.0--r43hdfd78af_3
+$ module help quay.io/biocontainers/bioconductor-ragene21stprobeset.db/8.8.0--r43hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

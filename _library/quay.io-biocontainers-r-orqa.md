@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-orqa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-orqa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-orqa/container.yaml"
-updated_at: "2023-11-03 02:53:47.572318"
-latest: "0.2.1--r42h21a89ab_9"
+updated_at: "2023-11-04 02:44:50.544125"
+latest: "0.2.1--r43h21a89ab_10"
 container_url: "https://biocontainers.pro/tools/r-orqa"
 
 versions:
  - "0.2.1--r41hecf12ef_7"
  - "0.2.1--r42hecf12ef_8"
  - "0.2.1--r42h21a89ab_9"
+ - "0.2.1--r43h21a89ab_10"
 description: "shpc-registry automated BioContainers addition for r-orqa"
-config: {"url": "https://biocontainers.pro/tools/r-orqa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-orqa", "latest": {"0.2.1--r42h21a89ab_9": "sha256:1130bc6c0649d6b8ab560d6291607acf332f87775e5d29bf8ab16414cc1df2ae"}, "tags": {"0.2.1--r41hecf12ef_7": "sha256:7a5479ea1c982cdbe57c58dab2235bfa7aa038f32e08a6ff1621aacfc0e57fbc", "0.2.1--r42hecf12ef_8": "sha256:6694ffb52109816c4f604690d8fcbb71163d49dbc7bd619bc9f090d7f2b879dd", "0.2.1--r42h21a89ab_9": "sha256:1130bc6c0649d6b8ab560d6291607acf332f87775e5d29bf8ab16414cc1df2ae"}, "docker": "quay.io/biocontainers/r-orqa"}
+config: {"url": "https://biocontainers.pro/tools/r-orqa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-orqa", "latest": {"0.2.1--r43h21a89ab_10": "sha256:c8f90f3cd00f68cc1220c2325029284c4478386bee081e6e4e0c591596ddb12a"}, "tags": {"0.2.1--r41hecf12ef_7": "sha256:7a5479ea1c982cdbe57c58dab2235bfa7aa038f32e08a6ff1621aacfc0e57fbc", "0.2.1--r42hecf12ef_8": "sha256:6694ffb52109816c4f604690d8fcbb71163d49dbc7bd619bc9f090d7f2b879dd", "0.2.1--r42h21a89ab_9": "sha256:1130bc6c0649d6b8ab560d6291607acf332f87775e5d29bf8ab16414cc1df2ae", "0.2.1--r43h21a89ab_10": "sha256:c8f90f3cd00f68cc1220c2325029284c4478386bee081e6e4e0c591596ddb12a"}, "docker": "quay.io/biocontainers/r-orqa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-orqa.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-orqa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-orqa:0.2.1--r42h21a89ab_9
+$ shpc install quay.io/biocontainers/r-orqa:0.2.1--r43h21a89ab_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-orqa/0.2.1--r42h21a89ab_9
-$ module help quay.io/biocontainers/r-orqa/0.2.1--r42h21a89ab_9
+$ module load quay.io/biocontainers/r-orqa/0.2.1--r43h21a89ab_10
+$ module help quay.io/biocontainers/r-orqa/0.2.1--r43h21a89ab_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-sitadela"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sitadela/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sitadela/container.yaml"
-updated_at: "2023-11-03 02:29:53.014057"
-latest: "1.6.0--r42hdfd78af_0"
+updated_at: "2023-11-04 02:26:12.239966"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sitadela"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sitadela"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sitadela", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sitadela", "latest": {"1.6.0--r42hdfd78af_0": "sha256:3cfdcb4028db4e8d4cc607e738a2f777edec9fd39f1f21ff499dabe511bf7a1f"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:bed7b011d5ae9013114bb5b06d03fc3705f1bec61e71df957b5716c85a4f98af", "1.6.0--r42hdfd78af_0": "sha256:3cfdcb4028db4e8d4cc607e738a2f777edec9fd39f1f21ff499dabe511bf7a1f"}, "docker": "quay.io/biocontainers/bioconductor-sitadela"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sitadela", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sitadela", "latest": {"1.8.0--r43hdfd78af_0": "sha256:ab8385cb8ae6df33723e89129a0cbdc96f4333e7c9fdbb39e273ded62cf3be6f"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:bed7b011d5ae9013114bb5b06d03fc3705f1bec61e71df957b5716c85a4f98af", "1.6.0--r42hdfd78af_0": "sha256:3cfdcb4028db4e8d4cc607e738a2f777edec9fd39f1f21ff499dabe511bf7a1f", "1.8.0--r43hdfd78af_0": "sha256:ab8385cb8ae6df33723e89129a0cbdc96f4333e7c9fdbb39e273ded62cf3be6f"}, "docker": "quay.io/biocontainers/bioconductor-sitadela"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sitadela.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sitadela
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sitadela:1.6.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sitadela:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sitadela/1.6.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sitadela/1.6.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sitadela/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sitadela/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/arcas-hla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arcas-hla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arcas-hla/container.yaml"
-updated_at: "2023-11-03 02:25:56.029400"
-latest: "0.5.0--hdfd78af_1"
+updated_at: "2023-11-04 02:23:09.586603"
+latest: "0.5.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/arcas-hla"
 aliases:
  - "arcasHLA"
@@ -24,8 +24,9 @@ aliases:
 versions:
  - "0.5.0--hdfd78af_0"
  - "0.5.0--hdfd78af_1"
+ - "0.5.0--hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for arcas-hla"
-config: {"url": "https://biocontainers.pro/tools/arcas-hla", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arcas-hla", "latest": {"0.5.0--hdfd78af_1": "sha256:86a9c3acb45a03533678049cc2054cd2a57d445dad190a09859d7c30ba46dc27"}, "tags": {"0.5.0--hdfd78af_0": "sha256:85af348c01828a4f10da7f658b999e442413650c4fc3df5c07bb714c8d22868c", "0.5.0--hdfd78af_1": "sha256:86a9c3acb45a03533678049cc2054cd2a57d445dad190a09859d7c30ba46dc27"}, "docker": "quay.io/biocontainers/arcas-hla", "aliases": {"arcasHLA": "/usr/local/bin/arcasHLA", "git-lfs": "/usr/local/bin/git-lfs", "kallisto": "/usr/local/bin/kallisto", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
+config: {"url": "https://biocontainers.pro/tools/arcas-hla", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arcas-hla", "latest": {"0.5.0--hdfd78af_3": "sha256:646b240269d8f6928c8b0acbd2a9abcc455eafd62b5d67eea20b7e1a76b6188e"}, "tags": {"0.5.0--hdfd78af_0": "sha256:85af348c01828a4f10da7f658b999e442413650c4fc3df5c07bb714c8d22868c", "0.5.0--hdfd78af_1": "sha256:86a9c3acb45a03533678049cc2054cd2a57d445dad190a09859d7c30ba46dc27", "0.5.0--hdfd78af_3": "sha256:646b240269d8f6928c8b0acbd2a9abcc455eafd62b5d67eea20b7e1a76b6188e"}, "docker": "quay.io/biocontainers/arcas-hla", "aliases": {"arcasHLA": "/usr/local/bin/arcasHLA", "git-lfs": "/usr/local/bin/git-lfs", "kallisto": "/usr/local/bin/kallisto", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/arcas-hla.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/arcas-hla
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/arcas-hla:0.5.0--hdfd78af_1
+$ shpc install quay.io/biocontainers/arcas-hla:0.5.0--hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/arcas-hla/0.5.0--hdfd78af_1
-$ module help quay.io/biocontainers/arcas-hla/0.5.0--hdfd78af_1
+$ module load quay.io/biocontainers/arcas-hla/0.5.0--hdfd78af_3
+$ module help quay.io/biocontainers/arcas-hla/0.5.0--hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gmwi2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gmwi2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gmwi2/container.yaml"
-updated_at: "2023-11-03 02:40:50.881503"
-latest: "1.4--pyhdfd78af_0"
+updated_at: "2023-11-04 02:34:46.103946"
+latest: "1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gmwi2"
 aliases:
  - "add_metadata_tree.py"
@@ -60,8 +60,9 @@ aliases:
  - "hwloc-ps"
 versions:
  - "1.4--pyhdfd78af_0"
+ - "1.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for gmwi2"
-config: {"url": "https://biocontainers.pro/tools/gmwi2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gmwi2", "latest": {"1.4--pyhdfd78af_0": "sha256:e6a5e094cd33856dd5af6f7b2328abf7571df5b54eed80b77b5ec294af2d9dd5"}, "tags": {"1.4--pyhdfd78af_0": "sha256:e6a5e094cd33856dd5af6f7b2328abf7571df5b54eed80b77b5ec294af2d9dd5"}, "docker": "quay.io/biocontainers/gmwi2", "aliases": {"add_metadata_tree.py": "/usr/local/bin/add_metadata_tree.py", "blastn_vdb": "/usr/local/bin/blastn_vdb", "breadth_depth.py": "/usr/local/bin/breadth_depth.py", "consensus.py": "/usr/local/bin/consensus.py", "consensus_aDNA.py": "/usr/local/bin/consensus_aDNA.py", "extract_markers.py": "/usr/local/bin/extract_markers.py", "gmwi2": "/usr/local/bin/gmwi2", "merge_metaphlan_tables.py": "/usr/local/bin/merge_metaphlan_tables.py", "metaphlan": "/usr/local/bin/metaphlan", "phylophlan": "/usr/local/bin/phylophlan", "phylophlan_draw_metagenomic": "/usr/local/bin/phylophlan_draw_metagenomic", "phylophlan_get_reference": "/usr/local/bin/phylophlan_get_reference", "phylophlan_metagenomic": "/usr/local/bin/phylophlan_metagenomic", "phylophlan_setup_database": "/usr/local/bin/phylophlan_setup_database", "phylophlan_strain_finder": "/usr/local/bin/phylophlan_strain_finder", "phylophlan_write_config_file": "/usr/local/bin/phylophlan_write_config_file", "phylophlan_write_default_configs.sh": "/usr/local/bin/phylophlan_write_default_configs.sh", "plot_tree_graphlan.py": "/usr/local/bin/plot_tree_graphlan.py", "poly.py": "/usr/local/bin/poly.py", "polymut.py": "/usr/local/bin/polymut.py", "read_fastx.py": "/usr/local/bin/read_fastx.py", "sample2markers.py": "/usr/local/bin/sample2markers.py", "strain_transmission.py": "/usr/local/bin/strain_transmission.py", "strainphlan": "/usr/local/bin/strainphlan", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "iqtree2": "/usr/local/bin/iqtree2", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "h5delete": "/usr/local/bin/h5delete", "iqtree": "/usr/local/bin/iqtree", "biom": "/usr/local/bin/biom", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps"}}
+config: {"url": "https://biocontainers.pro/tools/gmwi2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gmwi2", "latest": {"1.5--pyhdfd78af_0": "sha256:e9e7dc48cab545f92e94daae72816d657924e3968380b8d5c1e614c1ccf2f4b5"}, "tags": {"1.4--pyhdfd78af_0": "sha256:e6a5e094cd33856dd5af6f7b2328abf7571df5b54eed80b77b5ec294af2d9dd5", "1.5--pyhdfd78af_0": "sha256:e9e7dc48cab545f92e94daae72816d657924e3968380b8d5c1e614c1ccf2f4b5"}, "docker": "quay.io/biocontainers/gmwi2", "aliases": {"add_metadata_tree.py": "/usr/local/bin/add_metadata_tree.py", "blastn_vdb": "/usr/local/bin/blastn_vdb", "breadth_depth.py": "/usr/local/bin/breadth_depth.py", "consensus.py": "/usr/local/bin/consensus.py", "consensus_aDNA.py": "/usr/local/bin/consensus_aDNA.py", "extract_markers.py": "/usr/local/bin/extract_markers.py", "gmwi2": "/usr/local/bin/gmwi2", "merge_metaphlan_tables.py": "/usr/local/bin/merge_metaphlan_tables.py", "metaphlan": "/usr/local/bin/metaphlan", "phylophlan": "/usr/local/bin/phylophlan", "phylophlan_draw_metagenomic": "/usr/local/bin/phylophlan_draw_metagenomic", "phylophlan_get_reference": "/usr/local/bin/phylophlan_get_reference", "phylophlan_metagenomic": "/usr/local/bin/phylophlan_metagenomic", "phylophlan_setup_database": "/usr/local/bin/phylophlan_setup_database", "phylophlan_strain_finder": "/usr/local/bin/phylophlan_strain_finder", "phylophlan_write_config_file": "/usr/local/bin/phylophlan_write_config_file", "phylophlan_write_default_configs.sh": "/usr/local/bin/phylophlan_write_default_configs.sh", "plot_tree_graphlan.py": "/usr/local/bin/plot_tree_graphlan.py", "poly.py": "/usr/local/bin/poly.py", "polymut.py": "/usr/local/bin/polymut.py", "read_fastx.py": "/usr/local/bin/read_fastx.py", "sample2markers.py": "/usr/local/bin/sample2markers.py", "strain_transmission.py": "/usr/local/bin/strain_transmission.py", "strainphlan": "/usr/local/bin/strainphlan", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "iqtree2": "/usr/local/bin/iqtree2", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "h5delete": "/usr/local/bin/h5delete", "iqtree": "/usr/local/bin/iqtree", "biom": "/usr/local/bin/biom", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gmwi2.
@@ -76,7 +77,7 @@ $ shpc install quay.io/biocontainers/gmwi2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gmwi2:1.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gmwi2:1.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -88,8 +89,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gmwi2/1.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/gmwi2/1.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/gmwi2/1.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/gmwi2/1.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

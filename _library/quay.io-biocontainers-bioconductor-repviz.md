@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-repviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-repviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-repviz/container.yaml"
-updated_at: "2023-11-03 02:30:39.920747"
-latest: "1.14.0--r42hdfd78af_0"
+updated_at: "2023-11-04 02:26:48.329864"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-repviz"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
  - "1.14.0--r42hdfd78af_0"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-repviz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-repviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-repviz", "latest": {"1.14.0--r42hdfd78af_0": "sha256:6836797459f627ae98edece49b1890cb185a0f8e1d0dbe2272ee49983ceb72b1"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:efa1d56959e527df15354f9eac7f58588cd87b751ae88527eaafbe0f2b6d45cc", "1.10.0--r41hdfd78af_0": "sha256:9b33cc8f50d5d0e6847ee0f05f96e20f7b323996e5f75e726a006f1e71dc8fc2", "1.14.0--r42hdfd78af_0": "sha256:6836797459f627ae98edece49b1890cb185a0f8e1d0dbe2272ee49983ceb72b1"}, "docker": "quay.io/biocontainers/bioconductor-repviz", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-repviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-repviz", "latest": {"1.16.0--r43hdfd78af_0": "sha256:988d076e8ce25a6409d1df2d5dae1c1086fc15bfc76dfc00bce6acef96092b4e"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:efa1d56959e527df15354f9eac7f58588cd87b751ae88527eaafbe0f2b6d45cc", "1.10.0--r41hdfd78af_0": "sha256:9b33cc8f50d5d0e6847ee0f05f96e20f7b323996e5f75e726a006f1e71dc8fc2", "1.14.0--r42hdfd78af_0": "sha256:6836797459f627ae98edece49b1890cb185a0f8e1d0dbe2272ee49983ceb72b1", "1.16.0--r43hdfd78af_0": "sha256:988d076e8ce25a6409d1df2d5dae1c1086fc15bfc76dfc00bce6acef96092b4e"}, "docker": "quay.io/biocontainers/bioconductor-repviz", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-repviz.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-repviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-repviz:1.14.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-repviz:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-repviz/1.14.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-repviz/1.14.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-repviz/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-repviz/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gum/container.yaml"
-updated_at: "2023-11-03 03:10:46.934471"
-latest: "1.1.1--hdcf5f25_2"
+updated_at: "2023-11-04 02:58:00.363821"
+latest: "2.0.1--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/gum"
 
 versions:
  - "1.1.1--hd03093a_0"
  - "1.1.1--hdcf5f25_2"
+ - "2.0.1--hdcf5f25_0"
 description: "singularity registry hpc automated addition for gum"
-config: {"url": "https://biocontainers.pro/tools/gum", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gum", "latest": {"1.1.1--hdcf5f25_2": "sha256:8c24cec3d187e36ce655cd52fd4bf10eb7a71614d87a0ae054537693ded0c9db"}, "tags": {"1.1.1--hd03093a_0": "sha256:9273fc07278541221b5317a469bab11d54e0887c5f9506f0ba635adab2ff0e4b", "1.1.1--hdcf5f25_2": "sha256:8c24cec3d187e36ce655cd52fd4bf10eb7a71614d87a0ae054537693ded0c9db"}, "docker": "quay.io/biocontainers/gum"}
+config: {"url": "https://biocontainers.pro/tools/gum", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gum", "latest": {"2.0.1--hdcf5f25_0": "sha256:6f049a81b7eab90b4a3a7a93cc6582158c0923123383a36aef239f0d3565b3d4"}, "tags": {"1.1.1--hd03093a_0": "sha256:9273fc07278541221b5317a469bab11d54e0887c5f9506f0ba635adab2ff0e4b", "1.1.1--hdcf5f25_2": "sha256:8c24cec3d187e36ce655cd52fd4bf10eb7a71614d87a0ae054537693ded0c9db", "2.0.1--hdcf5f25_0": "sha256:6f049a81b7eab90b4a3a7a93cc6582158c0923123383a36aef239f0d3565b3d4"}, "docker": "quay.io/biocontainers/gum"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gum.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gum
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gum:1.1.1--hdcf5f25_2
+$ shpc install quay.io/biocontainers/gum:2.0.1--hdcf5f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gum/1.1.1--hdcf5f25_2
-$ module help quay.io/biocontainers/gum/1.1.1--hdcf5f25_2
+$ module load quay.io/biocontainers/gum/2.0.1--hdcf5f25_0
+$ module help quay.io/biocontainers/gum/2.0.1--hdcf5f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

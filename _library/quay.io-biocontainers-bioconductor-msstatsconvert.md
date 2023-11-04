@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-msstatsconvert"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msstatsconvert/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msstatsconvert/container.yaml"
-updated_at: "2023-11-03 02:32:41.728100"
-latest: "1.8.0--r42hdfd78af_0"
+updated_at: "2023-11-04 02:28:22.654193"
+latest: "1.10.3--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msstatsconvert"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
+ - "1.10.3--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msstatsconvert"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msstatsconvert", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msstatsconvert", "latest": {"1.8.0--r42hdfd78af_0": "sha256:f70c455a0aab7282df5f2b49596d51c074e6ea5b91c2d4f59540ee33d46a67ae"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:2b8bbaee3b068a22207fdd5b6438610f51f63107425a4e5bbb93692ee50a04b2", "1.8.0--r42hdfd78af_0": "sha256:f70c455a0aab7282df5f2b49596d51c074e6ea5b91c2d4f59540ee33d46a67ae"}, "docker": "quay.io/biocontainers/bioconductor-msstatsconvert"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msstatsconvert", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msstatsconvert", "latest": {"1.10.3--r43hdfd78af_0": "sha256:3080159b39046bd2a16ccfec1da3248faf0865a59b90bba43b4d0fb48b45de74"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:2b8bbaee3b068a22207fdd5b6438610f51f63107425a4e5bbb93692ee50a04b2", "1.8.0--r42hdfd78af_0": "sha256:f70c455a0aab7282df5f2b49596d51c074e6ea5b91c2d4f59540ee33d46a67ae", "1.10.3--r43hdfd78af_0": "sha256:3080159b39046bd2a16ccfec1da3248faf0865a59b90bba43b4d0fb48b45de74"}, "docker": "quay.io/biocontainers/bioconductor-msstatsconvert"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msstatsconvert.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msstatsconvert
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msstatsconvert:1.8.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-msstatsconvert:1.10.3--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msstatsconvert/1.8.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-msstatsconvert/1.8.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-msstatsconvert/1.10.3--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msstatsconvert/1.10.3--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
