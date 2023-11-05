@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flight-genome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flight-genome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flight-genome/container.yaml"
-updated_at: "2023-11-04 02:35:38.871211"
-latest: "1.5.0--pypyh5e36f6f_0"
+updated_at: "2023-11-05 02:39:27.908999"
+latest: "1.6.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/flight-genome"
 aliases:
  - "flight"
@@ -18,8 +18,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.5.0--pypyh5e36f6f_0"
+ - "1.6.0--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for flight-genome"
-config: {"url": "https://biocontainers.pro/tools/flight-genome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flight-genome", "latest": {"1.5.0--pypyh5e36f6f_0": "sha256:372c34305aa54c5d7370552544d0fb743ec9b00982c7e537e1394c88c54e99a4"}, "tags": {"1.5.0--pypyh5e36f6f_0": "sha256:372c34305aa54c5d7370552544d0fb743ec9b00982c7e537e1394c88c54e99a4"}, "docker": "quay.io/biocontainers/flight-genome", "aliases": {"flight": "/usr/local/bin/flight", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/flight-genome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flight-genome", "latest": {"1.6.0--pyh7cba7a3_0": "sha256:35e5153c6b25514f65b80f34aa4e5917bbfa8ff8addcb9ade3bf7131ca9789d6"}, "tags": {"1.5.0--pypyh5e36f6f_0": "sha256:372c34305aa54c5d7370552544d0fb743ec9b00982c7e537e1394c88c54e99a4", "1.6.0--pyh7cba7a3_0": "sha256:35e5153c6b25514f65b80f34aa4e5917bbfa8ff8addcb9ade3bf7131ca9789d6"}, "docker": "quay.io/biocontainers/flight-genome", "aliases": {"flight": "/usr/local/bin/flight", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flight-genome.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/flight-genome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flight-genome:1.5.0--pypyh5e36f6f_0
+$ shpc install quay.io/biocontainers/flight-genome:1.6.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flight-genome/1.5.0--pypyh5e36f6f_0
-$ module help quay.io/biocontainers/flight-genome/1.5.0--pypyh5e36f6f_0
+$ module load quay.io/biocontainers/flight-genome/1.6.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/flight-genome/1.6.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

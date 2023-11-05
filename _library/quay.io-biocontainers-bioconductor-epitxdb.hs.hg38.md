@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epitxdb.hs.hg38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epitxdb.hs.hg38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epitxdb.hs.hg38/container.yaml"
-updated_at: "2023-11-04 02:26:31.644719"
+updated_at: "2023-11-05 02:30:36.758848"
 latest: "0.99.7--r43hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-epitxdb.hs.hg38"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-optparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-optparse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-optparse/container.yaml"
-updated_at: "2023-11-04 02:46:20.668641"
-latest: "1.6.0"
+updated_at: "2023-11-05 02:49:57.222668"
+latest: "1.7.3"
 container_url: "https://biocontainers.pro/tools/r-optparse"
 aliases:
  - "2to3-3.9"
@@ -18,8 +18,9 @@ aliases:
  - "c99"
 versions:
  - "1.6.0"
+ - "1.7.3"
 description: "shpc-registry automated BioContainers addition for r-optparse"
-config: {"url": "https://biocontainers.pro/tools/r-optparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-optparse", "latest": {"1.6.0": "sha256:8611f18446d462dd0ff557857322ab56fd3fff2004160ef73c737e3cf5b11886"}, "tags": {"1.6.0": "sha256:8611f18446d462dd0ff557857322ab56fd3fff2004160ef73c737e3cf5b11886"}, "docker": "quay.io/biocontainers/r-optparse", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-optparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-optparse", "latest": {"1.7.3": "sha256:80b429fc845e48e75efa2f222fe6e9839b27196caddc4343c5b739ec6b30821e"}, "tags": {"1.6.0": "sha256:8611f18446d462dd0ff557857322ab56fd3fff2004160ef73c737e3cf5b11886", "1.7.3": "sha256:80b429fc845e48e75efa2f222fe6e9839b27196caddc4343c5b739ec6b30821e"}, "docker": "quay.io/biocontainers/r-optparse", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-optparse.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/r-optparse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-optparse:1.6.0
+$ shpc install quay.io/biocontainers/r-optparse:1.7.3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-optparse/1.6.0
-$ module help quay.io/biocontainers/r-optparse/1.6.0
+$ module load quay.io/biocontainers/r-optparse/1.7.3
+$ module help quay.io/biocontainers/r-optparse/1.7.3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
