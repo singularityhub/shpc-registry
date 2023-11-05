@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/pharokka
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pharokka
 latest:
-  1.4.1--pyh7cba7a3_0: sha256:e1ee2d77096d20f40531e8405c1395281e709f8cd25bb52e4d5c9cf66de857a2
+  1.5.1--pyhdfd78af_0: sha256:70312c36da7ebefc7b162c3d9973b5d6494dc2a1474686b135d013250beeebc4
 tags:
   1.2.0--hdfd78af_0: sha256:6c2857b8b73bdcfb7e64de2e42c6f5f98c961d58a3694419df95a88a9ec0f4d2
   1.2.1--hdfd78af_0: sha256:c57d282748785035ba079c56d806c2d385331e59b41a6ecb22f75cfd73f22463
   1.3.2--hdfd78af_0: sha256:2daafb9f074f9c93e0cb6253f994f5d3bf2c7b71bd7f9c1651388c1089aee018
   1.4.1--pyh7cba7a3_0: sha256:e1ee2d77096d20f40531e8405c1395281e709f8cd25bb52e4d5c9cf66de857a2
+  1.5.1--pyhdfd78af_0: sha256:70312c36da7ebefc7b162c3d9973b5d6494dc2a1474686b135d013250beeebc4
 docker: quay.io/biocontainers/pharokka
 aliases:
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter

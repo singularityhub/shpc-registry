@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/atlas-fastq-provider
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for atlas-fastq-provider
 latest:
-  0.4.6--hdfd78af_0: sha256:89a17dca4d0351c3ff2fa6a7e8d0345ff7ce2eef3666b120bb3bdc6986a124da
+  0.4.7--hdfd78af_0: sha256:452971d6b121c55e914a1a9c95a18d31cb337e034abfc734747b5404728cb4b3
 tags:
   0.4.4--hdfd78af_0: sha256:f437adaf55df6b4d139c059ff96560d24434bd16e1c5962b9edcdcd13765ec80
   0.4.6--hdfd78af_0: sha256:89a17dca4d0351c3ff2fa6a7e8d0345ff7ce2eef3666b120bb3bdc6986a124da
+  0.4.7--hdfd78af_0: sha256:452971d6b121c55e914a1a9c95a18d31cb337e034abfc734747b5404728cb4b3
 docker: quay.io/biocontainers/atlas-fastq-provider
 aliases:
   abi-dump.2.11.0: /usr/local/bin/abi-dump.2.11.0

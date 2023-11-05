@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rrmscorer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rrmscorer
 latest:
-  1.0.8--pyhdfd78af_0: sha256:90884759090940354800d74879cc65a17ccaf7bd1a4c0573f7b5e92b6956087b
+  1.0.9--pyhdfd78af_0: sha256:367174497fd5dd9db8e4dca99725096831430eb925656c52b5c30e2ff15cf63e
 tags:
   1.0.8--pyhdfd78af_0: sha256:90884759090940354800d74879cc65a17ccaf7bd1a4c0573f7b5e92b6956087b
+  1.0.9--pyhdfd78af_0: sha256:367174497fd5dd9db8e4dca99725096831430eb925656c52b5c30e2ff15cf63e
 docker: quay.io/biocontainers/rrmscorer
 aliases:
   rrmscorer: /usr/local/bin/rrmscorer

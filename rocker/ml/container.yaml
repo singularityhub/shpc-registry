@@ -3,12 +3,13 @@ url: https://hub.docker.com/r/rocker/ml
 maintainer: '@vsoch'
 description: Docker images with R + machine learning libraries (CPU versions).
 latest:
-  4.3.1: sha256:a556766f976c3e3e456202e4b1d461a1174de1fa5e6c9f0a61c0250a6c92cbfb
+  4.3.2: sha256:63d676bce91fce67e2a4ca8acea4d0293e297a056b06f1243385ff0e6eb06313
 tags:
-  4.2.2: sha256:dcf98bbc39e100ccd17ed05cb7c23a4a5baa3a8fa6688d7618cc8cc62c6989b8
-  4.2.3: sha256:5b883d6446e7fc7ce8dce11854ee6d55de561a1351a51c49b0fb1307a31a9efe
-  4.3.0: sha256:24990c19c1bb3ff11256838f3e9ae507bde6855eb0ecc196206f06253538ed79
-  4.3.1: sha256:a556766f976c3e3e456202e4b1d461a1174de1fa5e6c9f0a61c0250a6c92cbfb
+  4.2.2: sha256:ab1f59bd84b15b47cc6794d9d455b4248551b65b7e9ae5accec0ae7d3eba87d4
+  4.2.3: sha256:6dadf7932cfdebd3c0506ca982c845c147608c335941ac0e244d25c67531c903
+  4.3.0: sha256:d679ccd605328f5d714a332b7b06bef147869f26f2c58cbbc58fa6851070b35e
+  4.3.1: sha256:931ff49b8aba52ebfca958337eee1f692dc6c8a8649dc68fb1c50b87510561f1
+  4.3.2: sha256:63d676bce91fce67e2a4ca8acea4d0293e297a056b06f1243385ff0e6eb06313
 filter:
 - ^[0-9]+[.][0-9]+[.][0-9]+$
 aliases:
