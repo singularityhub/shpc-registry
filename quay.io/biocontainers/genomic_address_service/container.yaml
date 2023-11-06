@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/genomic_address_service
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for genomic_address_service
 latest:
-  0.1.1--pyh7cba7a3_0: sha256:ebd3b56a69775a8e5ca524c06a39a7466cdcfcc8bc8a6e397cb221b61ac070b4
+  0.1.1--pyh7cba7a3_1: sha256:2dc3309121333f17048a3988a3679bea22adc9634b4d67216b7711545c2c3944
 tags:
   0.1.1--pyh7cba7a3_0: sha256:ebd3b56a69775a8e5ca524c06a39a7466cdcfcc8bc8a6e397cb221b61ac070b4
+  0.1.1--pyh7cba7a3_1: sha256:2dc3309121333f17048a3988a3679bea22adc9634b4d67216b7711545c2c3944
 docker: quay.io/biocontainers/genomic_address_service
 aliases:
   cmtime: /usr/local/bin/cmtime

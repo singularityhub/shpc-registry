@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/auriclass
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for auriclass
 latest:
-  0.5.3--pyhdfd78af_0: sha256:0450b5afe023c0b44291681e3de4a05ebf796d64698a915de65c0c8a05fcba0e
+  0.5.4--pyhdfd78af_0: sha256:2aa64742c388368a4b11ce25c8f7cf247114c0821e1afb533051e7c9c3645a72
 tags:
   0.5.3--pyhdfd78af_0: sha256:0450b5afe023c0b44291681e3de4a05ebf796d64698a915de65c0c8a05fcba0e
+  0.5.4--pyhdfd78af_0: sha256:2aa64742c388368a4b11ce25c8f7cf247114c0821e1afb533051e7c9c3645a72
 docker: quay.io/biocontainers/auriclass
 aliases:
   auriclass: /usr/local/bin/auriclass

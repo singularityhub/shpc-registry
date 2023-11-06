@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/cellsnake
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cellsnake
 latest:
-  0.2.0.11--pyh7cba7a3_0: sha256:4c13d2ec892c6778c4e26a6b1c9affe13471bcc567216a6565a2ee24e873c67b
+  0.2.0.11--pyh7cba7a3_1: sha256:a05327c7119205069b440cd817c85c5c7d1fe598d74db8028316397023d6bcc9
 tags:
   0.2.0.dev9--pyh7cba7a3_0: sha256:03b0a1c071819ad7fff73033ba167fda8264e2f1231f7ff6c0f213be63881a9f
   0.2.0.11--pyh7cba7a3_0: sha256:4c13d2ec892c6778c4e26a6b1c9affe13471bcc567216a6565a2ee24e873c67b
+  0.2.0.11--pyh7cba7a3_1: sha256:a05327c7119205069b440cd817c85c5c7d1fe598d74db8028316397023d6bcc9
 docker: quay.io/biocontainers/cellsnake
 aliases:
   ccmake: /usr/local/bin/ccmake
