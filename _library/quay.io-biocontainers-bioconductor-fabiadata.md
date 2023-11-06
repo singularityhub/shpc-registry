@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fabiadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fabiadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fabiadata/container.yaml"
-updated_at: "2023-11-05 02:37:18.046103"
+updated_at: "2023-11-06 02:46:00.178623"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fabiadata"
 

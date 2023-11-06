@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hamronization"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hamronization/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hamronization/container.yaml"
-updated_at: "2023-11-05 02:34:58.893865"
-latest: "1.1.1--pyhdfd78af_0"
+updated_at: "2023-11-06 02:42:13.697250"
+latest: "1.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hamronization"
 aliases:
  - "hamronize"
@@ -18,8 +18,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.1.1--pyhdfd78af_0"
+ - "1.1.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hamronization"
-config: {"url": "https://biocontainers.pro/tools/hamronization", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hamronization", "latest": {"1.1.1--pyhdfd78af_0": "sha256:898958d555fa4b032d7a276b96ee051554fec8a65d1a6b0428cbbce61bf093a8"}, "tags": {"1.1.1--pyhdfd78af_0": "sha256:898958d555fa4b032d7a276b96ee051554fec8a65d1a6b0428cbbce61bf093a8"}, "docker": "quay.io/biocontainers/hamronization", "aliases": {"hamronize": "/usr/local/bin/hamronize", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/hamronization", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hamronization", "latest": {"1.1.4--pyhdfd78af_0": "sha256:c65ef22a95c20bc1e6c9a94f8b51adf0218104eb92b0a2a05a3edf515bb0f55b"}, "tags": {"1.1.1--pyhdfd78af_0": "sha256:898958d555fa4b032d7a276b96ee051554fec8a65d1a6b0428cbbce61bf093a8", "1.1.4--pyhdfd78af_0": "sha256:c65ef22a95c20bc1e6c9a94f8b51adf0218104eb92b0a2a05a3edf515bb0f55b"}, "docker": "quay.io/biocontainers/hamronization", "aliases": {"hamronize": "/usr/local/bin/hamronize", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hamronization.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/hamronization
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hamronization:1.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/hamronization:1.1.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hamronization/1.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/hamronization/1.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/hamronization/1.1.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/hamronization/1.1.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
