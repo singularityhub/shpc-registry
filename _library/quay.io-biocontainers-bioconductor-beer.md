@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-beer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-beer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-beer/container.yaml"
-updated_at: "2023-11-06 02:55:56.032648"
+updated_at: "2023-11-06 03:08:16.179666"
 latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-beer"
 aliases:
