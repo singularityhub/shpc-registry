@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/bamdash
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bamdash
+latest:
+  0.2.1--pyhdfd78af_0: sha256:80f8539104b23829726bd2d12b12bece869a619153fd30028d0a7564e34c3e89
+tags:
+  0.2.1--pyhdfd78af_0: sha256:80f8539104b23829726bd2d12b12bece869a619153fd30028d0a7564e34c3e89
+docker: quay.io/biocontainers/bamdash
+aliases:
+  bamdash: /usr/local/bin/bamdash
+  kaleido: /usr/local/bin/kaleido
+  mathjax-path: /usr/local/bin/mathjax-path
+  certutil: /usr/local/bin/certutil
+  nspr-config: /usr/local/bin/nspr-config
+  nss-config: /usr/local/bin/nss-config
+  pk12util: /usr/local/bin/pk12util
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
