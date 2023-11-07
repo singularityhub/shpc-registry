@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/eigensoft
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for eigensoft
 latest:
-  8.0.0--h6a739c9_3: sha256:cf1b307bb5395b1f39317f3c8c177f96f6adbb38b6237de7acad090e7a3bc6ba
+  8.0.0--h6a739c9_4: sha256:ee41b744392c271567f8fc308881ecd346d7efa1206d80624696973886fd543e
 tags:
   7.2.1--h2469040_5: sha256:9456610b45716dfa6c5dfad81b4ae981dd0662bf7ae4c2b5317d42a28db4946e
   8.0.0--h2469040_1: sha256:3b9a72b2081b685fbb21802396c9a08436b5c333c87b1010899828cb4c81d02a
   8.0.0--h6a739c9_3: sha256:cf1b307bb5395b1f39317f3c8c177f96f6adbb38b6237de7acad090e7a3bc6ba
+  8.0.0--h6a739c9_4: sha256:ee41b744392c271567f8fc308881ecd346d7efa1206d80624696973886fd543e
 docker: quay.io/biocontainers/eigensoft
 aliases:
   baseprog: /usr/local/bin/baseprog
