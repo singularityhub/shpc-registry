@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-measurementerror.cor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-measurementerror.cor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-measurementerror.cor/container.yaml"
-updated_at: "2023-11-06 03:03:15.277892"
+updated_at: "2023-11-07 02:43:30.473300"
 latest: "1.72.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-measurementerror.cor"
 

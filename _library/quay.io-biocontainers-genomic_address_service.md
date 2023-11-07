@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genomic_address_service"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomic_address_service/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomic_address_service/container.yaml"
-updated_at: "2023-11-06 03:04:07.623251"
-latest: "0.1.1--pyh7cba7a3_0"
+updated_at: "2023-11-07 02:44:24.308484"
+latest: "0.1.1--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/genomic_address_service"
 aliases:
  - "cmtime"
@@ -60,8 +60,9 @@ aliases:
  - "pt2to3"
 versions:
  - "0.1.1--pyh7cba7a3_0"
+ - "0.1.1--pyh7cba7a3_1"
 description: "singularity registry hpc automated addition for genomic_address_service"
-config: {"url": "https://biocontainers.pro/tools/genomic_address_service", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genomic_address_service", "latest": {"0.1.1--pyh7cba7a3_0": "sha256:ebd3b56a69775a8e5ca524c06a39a7466cdcfcc8bc8a6e397cb221b61ac070b4"}, "tags": {"0.1.1--pyh7cba7a3_0": "sha256:ebd3b56a69775a8e5ca524c06a39a7466cdcfcc8bc8a6e397cb221b61ac070b4"}, "docker": "quay.io/biocontainers/genomic_address_service", "aliases": {"cmtime": "/usr/local/bin/cmtime", "cpuinfo": "/usr/local/bin/cpuinfo", "gas": "/usr/local/bin/gas", "ib_acme": "/usr/local/bin/ib_acme", "ibv_asyncwatch": "/usr/local/bin/ibv_asyncwatch", "ibv_devices": "/usr/local/bin/ibv_devices", "ibv_devinfo": "/usr/local/bin/ibv_devinfo", "ibv_rc_pingpong": "/usr/local/bin/ibv_rc_pingpong", "ibv_srq_pingpong": "/usr/local/bin/ibv_srq_pingpong", "ibv_uc_pingpong": "/usr/local/bin/ibv_uc_pingpong", "ibv_ud_pingpong": "/usr/local/bin/ibv_ud_pingpong", "ibv_xsrq_pingpong": "/usr/local/bin/ibv_xsrq_pingpong", "mckey": "/usr/local/bin/mckey", "protoc-24.3.0": "/usr/local/bin/protoc-24.3.0", "rcopy": "/usr/local/bin/rcopy", "rdma_client": "/usr/local/bin/rdma_client", "rdma_server": "/usr/local/bin/rdma_server", "rdma_xclient": "/usr/local/bin/rdma_xclient", "rdma_xserver": "/usr/local/bin/rdma_xserver", "riostream": "/usr/local/bin/riostream", "rping": "/usr/local/bin/rping", "rstream": "/usr/local/bin/rstream", "ucmatose": "/usr/local/bin/ucmatose", "udaddy": "/usr/local/bin/udaddy", "udpong": "/usr/local/bin/udpong", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "io_demo": "/usr/local/bin/io_demo", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "sha256_profile": "/usr/local/bin/sha256_profile", "h5delete": "/usr/local/bin/h5delete", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "pt2to3": "/usr/local/bin/pt2to3"}}
+config: {"url": "https://biocontainers.pro/tools/genomic_address_service", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genomic_address_service", "latest": {"0.1.1--pyh7cba7a3_1": "sha256:2dc3309121333f17048a3988a3679bea22adc9634b4d67216b7711545c2c3944"}, "tags": {"0.1.1--pyh7cba7a3_0": "sha256:ebd3b56a69775a8e5ca524c06a39a7466cdcfcc8bc8a6e397cb221b61ac070b4", "0.1.1--pyh7cba7a3_1": "sha256:2dc3309121333f17048a3988a3679bea22adc9634b4d67216b7711545c2c3944"}, "docker": "quay.io/biocontainers/genomic_address_service", "aliases": {"cmtime": "/usr/local/bin/cmtime", "cpuinfo": "/usr/local/bin/cpuinfo", "gas": "/usr/local/bin/gas", "ib_acme": "/usr/local/bin/ib_acme", "ibv_asyncwatch": "/usr/local/bin/ibv_asyncwatch", "ibv_devices": "/usr/local/bin/ibv_devices", "ibv_devinfo": "/usr/local/bin/ibv_devinfo", "ibv_rc_pingpong": "/usr/local/bin/ibv_rc_pingpong", "ibv_srq_pingpong": "/usr/local/bin/ibv_srq_pingpong", "ibv_uc_pingpong": "/usr/local/bin/ibv_uc_pingpong", "ibv_ud_pingpong": "/usr/local/bin/ibv_ud_pingpong", "ibv_xsrq_pingpong": "/usr/local/bin/ibv_xsrq_pingpong", "mckey": "/usr/local/bin/mckey", "protoc-24.3.0": "/usr/local/bin/protoc-24.3.0", "rcopy": "/usr/local/bin/rcopy", "rdma_client": "/usr/local/bin/rdma_client", "rdma_server": "/usr/local/bin/rdma_server", "rdma_xclient": "/usr/local/bin/rdma_xclient", "rdma_xserver": "/usr/local/bin/rdma_xserver", "riostream": "/usr/local/bin/riostream", "rping": "/usr/local/bin/rping", "rstream": "/usr/local/bin/rstream", "ucmatose": "/usr/local/bin/ucmatose", "udaddy": "/usr/local/bin/udaddy", "udpong": "/usr/local/bin/udpong", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "io_demo": "/usr/local/bin/io_demo", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "sha256_profile": "/usr/local/bin/sha256_profile", "h5delete": "/usr/local/bin/h5delete", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "pt2to3": "/usr/local/bin/pt2to3"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genomic_address_service.
@@ -76,7 +77,7 @@ $ shpc install quay.io/biocontainers/genomic_address_service
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genomic_address_service:0.1.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/genomic_address_service:0.1.1--pyh7cba7a3_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -88,8 +89,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genomic_address_service/0.1.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/genomic_address_service/0.1.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/genomic_address_service/0.1.1--pyh7cba7a3_1
+$ module help quay.io/biocontainers/genomic_address_service/0.1.1--pyh7cba7a3_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

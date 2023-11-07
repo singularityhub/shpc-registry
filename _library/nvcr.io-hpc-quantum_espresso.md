@@ -4,7 +4,7 @@ name:  "nvcr.io/hpc/quantum_espresso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/quantum_espresso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/hpc/quantum_espresso/container.yaml"
-updated_at: "2023-11-06 03:42:54.556581"
+updated_at: "2023-11-07 03:24:13.845645"
 latest: "sha256-7792684f22eb7ebc718fa427e2f617d6a107787e4bff493b8a17de6c1381403c.sbom"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:quantum_espresso/tags"
 

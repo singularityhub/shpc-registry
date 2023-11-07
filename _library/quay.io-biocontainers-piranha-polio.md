@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/piranha-polio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piranha-polio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piranha-polio/container.yaml"
-updated_at: "2023-11-06 03:11:32.832353"
+updated_at: "2023-11-07 02:52:00.090062"
 latest: "1.0.13--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/piranha-polio"
 aliases:

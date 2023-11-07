@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cafe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cafe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cafe/container.yaml"
-updated_at: "2023-11-06 03:10:52.892889"
+updated_at: "2023-11-07 02:51:19.441121"
 latest: "5.0.0--h43eeafb_3"
 container_url: "https://biocontainers.pro/tools/cafe"
 aliases:

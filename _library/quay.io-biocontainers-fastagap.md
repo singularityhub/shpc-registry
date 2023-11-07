@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fastagap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastagap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastagap/container.yaml"
-updated_at: "2023-11-06 02:49:22.981488"
-latest: "1.0--hdfd78af_0"
+updated_at: "2023-11-07 02:29:13.693613"
+latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fastagap"
 aliases:
  - "fastagap"
 versions:
  - "1.0--hdfd78af_0"
+ - "1.0.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for fastagap"
-config: {"url": "https://biocontainers.pro/tools/fastagap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastagap", "latest": {"1.0--hdfd78af_0": "sha256:1d57fa6a763b9aac38d14d54c26fa7e7bc6dfd862829b60ea50b25bf2427d900"}, "tags": {"1.0--hdfd78af_0": "sha256:1d57fa6a763b9aac38d14d54c26fa7e7bc6dfd862829b60ea50b25bf2427d900"}, "docker": "quay.io/biocontainers/fastagap", "aliases": {"fastagap": "/usr/local/bin/fastagap"}}
+config: {"url": "https://biocontainers.pro/tools/fastagap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastagap", "latest": {"1.0.1--hdfd78af_0": "sha256:9dc2b7e7019f682fbcff410eca22a0177beeddd3623597b535eb165bc87aab43"}, "tags": {"1.0--hdfd78af_0": "sha256:1d57fa6a763b9aac38d14d54c26fa7e7bc6dfd862829b60ea50b25bf2427d900", "1.0.1--hdfd78af_0": "sha256:9dc2b7e7019f682fbcff410eca22a0177beeddd3623597b535eb165bc87aab43"}, "docker": "quay.io/biocontainers/fastagap", "aliases": {"fastagap": "/usr/local/bin/fastagap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastagap.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fastagap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastagap:1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/fastagap:1.0.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastagap/1.0--hdfd78af_0
-$ module help quay.io/biocontainers/fastagap/1.0--hdfd78af_0
+$ module load quay.io/biocontainers/fastagap/1.0.1--hdfd78af_0
+$ module help quay.io/biocontainers/fastagap/1.0.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genproseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genproseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genproseq/container.yaml"
-updated_at: "2023-11-06 03:12:03.485398"
+updated_at: "2023-11-07 02:52:31.441971"
 latest: "1.4.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genproseq"
 aliases:

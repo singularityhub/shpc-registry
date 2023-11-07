@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mira-moods"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mira-moods/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mira-moods/container.yaml"
-updated_at: "2023-11-06 02:45:45.452139"
+updated_at: "2023-11-07 02:25:30.225648"
 latest: "1.9.4.2--py311hcbe9525_0"
 container_url: "https://biocontainers.pro/tools/mira-moods"
 aliases:

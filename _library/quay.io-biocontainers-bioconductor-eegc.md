@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-eegc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eegc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eegc/container.yaml"
-updated_at: "2023-11-06 03:33:46.184238"
+updated_at: "2023-11-07 03:14:50.250513"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-eegc"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnaapler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnaapler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnaapler/container.yaml"
-updated_at: "2023-11-06 03:28:40.362673"
+updated_at: "2023-11-07 03:09:35.956152"
 latest: "0.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dnaapler"
 aliases:

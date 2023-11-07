@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/buscolite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/buscolite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/buscolite/container.yaml"
-updated_at: "2023-11-06 02:45:45.097985"
+updated_at: "2023-11-07 02:25:29.865697"
 latest: "23.10.26--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/buscolite"
 aliases:
