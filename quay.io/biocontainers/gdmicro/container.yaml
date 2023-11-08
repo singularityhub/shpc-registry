@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gdmicro
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gdmicro
 latest:
-  1.0.6--pyhdfd78af_1: sha256:00fbeef2794c211220eb4eea34859b7037665946b117857f8b7c97b8a10d4f5a
+  1.0.10--pyhdfd78af_0: sha256:728760101c175a401d0cc907d7a1a67f9405c50e189808e8471c3b72ffc30258
 tags:
   1.0.6--pyhdfd78af_1: sha256:00fbeef2794c211220eb4eea34859b7037665946b117857f8b7c97b8a10d4f5a
+  1.0.10--pyhdfd78af_0: sha256:728760101c175a401d0cc907d7a1a67f9405c50e189808e8471c3b72ffc30258
 docker: quay.io/biocontainers/gdmicro
 aliases:
   gdmicro: /usr/local/bin/gdmicro
