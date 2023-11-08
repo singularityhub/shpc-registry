@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trimnami"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trimnami/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trimnami/container.yaml"
-updated_at: "2023-11-07 02:43:52.537214"
+updated_at: "2023-11-08 02:43:08.977628"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/trimnami"
 aliases:

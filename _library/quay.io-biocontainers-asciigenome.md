@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/asciigenome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/asciigenome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/asciigenome/container.yaml"
-updated_at: "2023-11-07 03:03:51.541005"
-latest: "1.17.0--hdfd78af_0"
+updated_at: "2023-11-08 03:03:25.909392"
+latest: "1.18.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/asciigenome"
 aliases:
  - "ASCIIGenome"
@@ -27,8 +27,9 @@ versions:
  - "1.13.0--0"
  - "1.12.0--0"
  - "1.17.0--hdfd78af_0"
+ - "1.18.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for asciigenome"
-config: {"url": "https://biocontainers.pro/tools/asciigenome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for asciigenome", "latest": {"1.17.0--hdfd78af_0": "sha256:706d3699b8fe53ef2a69df01c5b9520fbd5d57cd48d5feb1facdc187f373c9e5"}, "tags": {"1.8.0--0": "sha256:0ad0505b4c6ff89bf69a28ff1d937a71afe19c1e8caa73e35553f11757f2f89c", "1.16.0--hdfd78af_1": "sha256:273eafe31a540f924b8e1a344f5366277d4b524245296a540609b48fb90b5fd0", "1.15.0--0": "sha256:6c2608b65aa6ba0978a2a46c06bcd0647e8ba9937621310f000f234cb74c9e2e", "1.14.0--2": "sha256:50b6d399ad53012a549aebe13e8830f748ba37806ed27ade651a6b8112582b7d", "1.13.0--0": "sha256:8fd1276d95e04c0a39991e128ae7793a8b3f9a5942288bd3c58b9d2691ae638c", "1.12.0--0": "sha256:632d6735989c8bc67306c61dcb5dae469faf304f0b2650a5c76a0ecfb9eb34c7", "1.17.0--hdfd78af_0": "sha256:706d3699b8fe53ef2a69df01c5b9520fbd5d57cd48d5feb1facdc187f373c9e5"}, "docker": "quay.io/biocontainers/asciigenome", "aliases": {"ASCIIGenome": "/usr/local/bin/ASCIIGenome", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/asciigenome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for asciigenome", "latest": {"1.18.0--hdfd78af_0": "sha256:cba796df9863747c7fe394a203de69411af65fa156fc55af7f6b00822755621b"}, "tags": {"1.8.0--0": "sha256:0ad0505b4c6ff89bf69a28ff1d937a71afe19c1e8caa73e35553f11757f2f89c", "1.16.0--hdfd78af_1": "sha256:273eafe31a540f924b8e1a344f5366277d4b524245296a540609b48fb90b5fd0", "1.15.0--0": "sha256:6c2608b65aa6ba0978a2a46c06bcd0647e8ba9937621310f000f234cb74c9e2e", "1.14.0--2": "sha256:50b6d399ad53012a549aebe13e8830f748ba37806ed27ade651a6b8112582b7d", "1.13.0--0": "sha256:8fd1276d95e04c0a39991e128ae7793a8b3f9a5942288bd3c58b9d2691ae638c", "1.12.0--0": "sha256:632d6735989c8bc67306c61dcb5dae469faf304f0b2650a5c76a0ecfb9eb34c7", "1.17.0--hdfd78af_0": "sha256:706d3699b8fe53ef2a69df01c5b9520fbd5d57cd48d5feb1facdc187f373c9e5", "1.18.0--hdfd78af_0": "sha256:cba796df9863747c7fe394a203de69411af65fa156fc55af7f6b00822755621b"}, "docker": "quay.io/biocontainers/asciigenome", "aliases": {"ASCIIGenome": "/usr/local/bin/ASCIIGenome", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/asciigenome.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/asciigenome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/asciigenome:1.17.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/asciigenome:1.18.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/asciigenome/1.17.0--hdfd78af_0
-$ module help quay.io/biocontainers/asciigenome/1.17.0--hdfd78af_0
+$ module load quay.io/biocontainers/asciigenome/1.18.0--hdfd78af_0
+$ module help quay.io/biocontainers/asciigenome/1.18.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-diffcoexp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diffcoexp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diffcoexp/container.yaml"
-updated_at: "2023-11-07 02:44:21.411870"
+updated_at: "2023-11-08 02:43:38.044787"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-diffcoexp"
 aliases:
