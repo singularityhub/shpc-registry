@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/graphanalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphanalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphanalyzer/container.yaml"
-updated_at: "2023-11-08 02:49:21.458575"
-latest: "1.5.1--hdfd78af_1"
+updated_at: "2023-11-09 02:43:07.704674"
+latest: "1.6.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/graphanalyzer"
 aliases:
  - "colorcet"
@@ -25,8 +25,9 @@ aliases:
 versions:
  - "1.5.1--hdfd78af_0"
  - "1.5.1--hdfd78af_1"
+ - "1.6.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for graphanalyzer"
-config: {"url": "https://biocontainers.pro/tools/graphanalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphanalyzer", "latest": {"1.5.1--hdfd78af_1": "sha256:fd05965bf29a72b173d2178f47bc4c24aff75bedf74035632e89742ff3851f79"}, "tags": {"1.5.1--hdfd78af_0": "sha256:afc55571e6efb598671119a911fd45459b9def0af688c5e1b045464e2a8c2e4b", "1.5.1--hdfd78af_1": "sha256:fd05965bf29a72b173d2178f47bc4c24aff75bedf74035632e89742ff3851f79"}, "docker": "quay.io/biocontainers/graphanalyzer", "aliases": {"colorcet": "/usr/local/bin/colorcet", "graphanalyzer.py": "/usr/local/bin/graphanalyzer.py", "holoviews": "/usr/local/bin/holoviews", "panel": "/usr/local/bin/panel", "bokeh": "/usr/local/bin/bokeh", "markdown_py": "/usr/local/bin/markdown_py", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare"}}
+config: {"url": "https://biocontainers.pro/tools/graphanalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphanalyzer", "latest": {"1.6.0--hdfd78af_0": "sha256:cd1652c55d696e3ba6bee4307204a1c8750ae019b595f62f55cc0b5e6addd28d"}, "tags": {"1.5.1--hdfd78af_0": "sha256:afc55571e6efb598671119a911fd45459b9def0af688c5e1b045464e2a8c2e4b", "1.5.1--hdfd78af_1": "sha256:fd05965bf29a72b173d2178f47bc4c24aff75bedf74035632e89742ff3851f79", "1.6.0--hdfd78af_0": "sha256:cd1652c55d696e3ba6bee4307204a1c8750ae019b595f62f55cc0b5e6addd28d"}, "docker": "quay.io/biocontainers/graphanalyzer", "aliases": {"colorcet": "/usr/local/bin/colorcet", "graphanalyzer.py": "/usr/local/bin/graphanalyzer.py", "holoviews": "/usr/local/bin/holoviews", "panel": "/usr/local/bin/panel", "bokeh": "/usr/local/bin/bokeh", "markdown_py": "/usr/local/bin/markdown_py", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/graphanalyzer.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/graphanalyzer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/graphanalyzer:1.5.1--hdfd78af_1
+$ shpc install quay.io/biocontainers/graphanalyzer:1.6.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/graphanalyzer/1.5.1--hdfd78af_1
-$ module help quay.io/biocontainers/graphanalyzer/1.5.1--hdfd78af_1
+$ module load quay.io/biocontainers/graphanalyzer/1.6.0--hdfd78af_0
+$ module help quay.io/biocontainers/graphanalyzer/1.6.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

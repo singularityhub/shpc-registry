@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gdmicro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gdmicro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gdmicro/container.yaml"
-updated_at: "2023-11-08 03:08:47.701684"
-latest: "1.0.6--pyhdfd78af_1"
+updated_at: "2023-11-09 02:57:57.872420"
+latest: "1.0.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gdmicro"
 aliases:
  - "gdmicro"
@@ -37,8 +37,9 @@ aliases:
  - "python3.7"
 versions:
  - "1.0.6--pyhdfd78af_1"
+ - "1.0.10--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for gdmicro"
-config: {"url": "https://biocontainers.pro/tools/gdmicro", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gdmicro", "latest": {"1.0.6--pyhdfd78af_1": "sha256:00fbeef2794c211220eb4eea34859b7037665946b117857f8b7c97b8a10d4f5a"}, "tags": {"1.0.6--pyhdfd78af_1": "sha256:00fbeef2794c211220eb4eea34859b7037665946b117857f8b7c97b8a10d4f5a"}, "docker": "quay.io/biocontainers/gdmicro", "aliases": {"gdmicro": "/usr/local/bin/gdmicro", "matplotlib": "/usr/local/bin/matplotlib", "torchrun": "/usr/local/bin/torchrun", "ninja": "/usr/local/bin/ninja", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "iptest3": "/usr/local/bin/iptest3", "iptest": "/usr/local/bin/iptest", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "protoc": "/usr/local/bin/protoc", "pygmentize": "/usr/local/bin/pygmentize", "f2py3.7": "/usr/local/bin/f2py3.7", "pandoc": "/usr/local/bin/pandoc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "python3.7": "/usr/local/bin/python3.7"}}
+config: {"url": "https://biocontainers.pro/tools/gdmicro", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gdmicro", "latest": {"1.0.10--pyhdfd78af_0": "sha256:728760101c175a401d0cc907d7a1a67f9405c50e189808e8471c3b72ffc30258"}, "tags": {"1.0.6--pyhdfd78af_1": "sha256:00fbeef2794c211220eb4eea34859b7037665946b117857f8b7c97b8a10d4f5a", "1.0.10--pyhdfd78af_0": "sha256:728760101c175a401d0cc907d7a1a67f9405c50e189808e8471c3b72ffc30258"}, "docker": "quay.io/biocontainers/gdmicro", "aliases": {"gdmicro": "/usr/local/bin/gdmicro", "matplotlib": "/usr/local/bin/matplotlib", "torchrun": "/usr/local/bin/torchrun", "ninja": "/usr/local/bin/ninja", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "iptest3": "/usr/local/bin/iptest3", "iptest": "/usr/local/bin/iptest", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "protoc": "/usr/local/bin/protoc", "pygmentize": "/usr/local/bin/pygmentize", "f2py3.7": "/usr/local/bin/f2py3.7", "pandoc": "/usr/local/bin/pandoc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "python3.7": "/usr/local/bin/python3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gdmicro.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/gdmicro
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gdmicro:1.0.6--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/gdmicro:1.0.10--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gdmicro/1.0.6--pyhdfd78af_1
-$ module help quay.io/biocontainers/gdmicro/1.0.6--pyhdfd78af_1
+$ module load quay.io/biocontainers/gdmicro/1.0.10--pyhdfd78af_0
+$ module help quay.io/biocontainers/gdmicro/1.0.10--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

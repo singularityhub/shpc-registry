@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/celltypist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/celltypist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/celltypist/container.yaml"
-updated_at: "2023-11-08 02:37:09.897735"
-latest: "1.6.1--pyhdfd78af_0"
+updated_at: "2023-11-09 02:33:46.285827"
+latest: "1.6.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/celltypist"
 aliases:
  - "celltypist"
@@ -27,8 +27,9 @@ versions:
  - "1.6.0--pyhdfd78af_0"
  - "1.5.3--pyhdfd78af_1"
  - "1.6.1--pyhdfd78af_0"
+ - "1.6.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for celltypist"
-config: {"url": "https://biocontainers.pro/tools/celltypist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for celltypist", "latest": {"1.6.1--pyhdfd78af_0": "sha256:b657426499d1f1dca3d8516181621ec671f145460725cb518418ed457b1daaf8"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:0ff91df0cb1b0635c7a1969f4ac54943329c4252cd73bb79fbfefef4207c37f6", "1.3.0--pyhdfd78af_0": "sha256:e5e359cf8ce142ac0f8d020a56cca75ad2f5342a5758f4ff0dcbdaed976cf24d", "1.5.0--pyhdfd78af_0": "sha256:667052924ab7865b32aaa8d6a7342c01a30207c9cb6611580873abe8860d40b3", "1.5.2--pyhdfd78af_0": "sha256:dffabc16e9c64f9150ba98d6c913f6f7a27a188b61fffaa79c20678e6b4ec509", "1.6.0--pyhdfd78af_0": "sha256:c376f6305fe8ea34cbc404e1b287b95e8692323cca6c28706cfbe8afea585e27", "1.5.3--pyhdfd78af_1": "sha256:38b1b851a805df6e8c9ca31347cc2a320eabd393237ba48efcde2a649ed58415", "1.6.1--pyhdfd78af_0": "sha256:b657426499d1f1dca3d8516181621ec671f145460725cb518418ed457b1daaf8"}, "docker": "quay.io/biocontainers/celltypist", "aliases": {"celltypist": "/usr/local/bin/celltypist", "scanpy": "/usr/local/bin/scanpy", "docutils": "/usr/local/bin/docutils", "igraph": "/usr/local/bin/igraph", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis"}}
+config: {"url": "https://biocontainers.pro/tools/celltypist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for celltypist", "latest": {"1.6.2--pyhdfd78af_0": "sha256:acc300410b66531ca9f460e526c179bba7df4bf911b721fbaca3298f75b4c531"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:0ff91df0cb1b0635c7a1969f4ac54943329c4252cd73bb79fbfefef4207c37f6", "1.3.0--pyhdfd78af_0": "sha256:e5e359cf8ce142ac0f8d020a56cca75ad2f5342a5758f4ff0dcbdaed976cf24d", "1.5.0--pyhdfd78af_0": "sha256:667052924ab7865b32aaa8d6a7342c01a30207c9cb6611580873abe8860d40b3", "1.5.2--pyhdfd78af_0": "sha256:dffabc16e9c64f9150ba98d6c913f6f7a27a188b61fffaa79c20678e6b4ec509", "1.6.0--pyhdfd78af_0": "sha256:c376f6305fe8ea34cbc404e1b287b95e8692323cca6c28706cfbe8afea585e27", "1.5.3--pyhdfd78af_1": "sha256:38b1b851a805df6e8c9ca31347cc2a320eabd393237ba48efcde2a649ed58415", "1.6.1--pyhdfd78af_0": "sha256:b657426499d1f1dca3d8516181621ec671f145460725cb518418ed457b1daaf8", "1.6.2--pyhdfd78af_0": "sha256:acc300410b66531ca9f460e526c179bba7df4bf911b721fbaca3298f75b4c531"}, "docker": "quay.io/biocontainers/celltypist", "aliases": {"celltypist": "/usr/local/bin/celltypist", "scanpy": "/usr/local/bin/scanpy", "docutils": "/usr/local/bin/docutils", "igraph": "/usr/local/bin/igraph", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/celltypist.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/celltypist
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/celltypist:1.6.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/celltypist:1.6.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/celltypist/1.6.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/celltypist/1.6.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/celltypist/1.6.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/celltypist/1.6.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
