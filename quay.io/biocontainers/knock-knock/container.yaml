@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/knock-knock
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for knock-knock
 latest:
-  0.2.1--py_0: sha256:dcd4f8943ea3ac46ef466982acf012f25cf2e8ba8664b37876abda8f756bf40a
+  0.4.2--pyhdfd78af_0: sha256:39afd9e1dca43c42d0b4bc0e32ed463f057a4d9ce103fdcdd451342394adcdb9
 tags:
   0.2.1--py_0: sha256:dcd4f8943ea3ac46ef466982acf012f25cf2e8ba8664b37876abda8f756bf40a
+  0.4.2--pyhdfd78af_0: sha256:39afd9e1dca43c42d0b4bc0e32ed463f057a4d9ce103fdcdd451342394adcdb9
 docker: quay.io/biocontainers/knock-knock
 aliases:
   knock-knock: /usr/local/bin/knock-knock
