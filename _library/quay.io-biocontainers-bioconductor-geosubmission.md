@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geosubmission"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geosubmission/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geosubmission/container.yaml"
-updated_at: "2023-11-09 02:38:46.074878"
+updated_at: "2023-11-10 02:43:42.864547"
 latest: "1.52.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geosubmission"
 

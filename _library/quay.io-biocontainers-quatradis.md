@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/quatradis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quatradis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quatradis/container.yaml"
-updated_at: "2023-11-09 02:56:03.553864"
-latest: "1.0.2--py310h031d066_0"
+updated_at: "2023-11-10 03:06:02.565190"
+latest: "1.1.0--py310h031d066_0"
 container_url: "https://biocontainers.pro/tools/quatradis"
 aliases:
  - "basqcol"
@@ -53,8 +53,9 @@ versions:
  - "1.0.1--py310hec16e2b_0"
  - "1.0.1--py310h031d066_1"
  - "1.0.2--py310h031d066_0"
+ - "1.1.0--py310h031d066_0"
 description: "singularity registry hpc automated addition for quatradis"
-config: {"url": "https://biocontainers.pro/tools/quatradis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for quatradis", "latest": {"1.0.2--py310h031d066_0": "sha256:a555d1e47cf5444fc32a064eebb3d496517b281b4523892ce2669ccc693b063c"}, "tags": {"0.8.3--pyhdfd78af_0": "sha256:c1fceccc024b64783e6c5aa38e2cb78f09ae21c96a9049d6c30308d15c88101c", "1.0.1--py310hec16e2b_0": "sha256:75fdd8ef18b003465a7ced4769c38e7333d597cab5dc75c32a010b5bd07178d9", "1.0.1--py310h031d066_1": "sha256:2f72a00607f9d6f661ce6100512e50659615f4b63108ca940f3486dc8ad0d1f5", "1.0.2--py310h031d066_0": "sha256:a555d1e47cf5444fc32a064eebb3d496517b281b4523892ce2669ccc693b063c"}, "docker": "quay.io/biocontainers/quatradis", "aliases": {"basqcol": "/usr/local/bin/basqcol", "fetchseq": "/usr/local/bin/fetchseq", "mixreads": "/usr/local/bin/mixreads", "quatradis.smk": "/usr/local/bin/quatradis.smk", "readstats": "/usr/local/bin/readstats", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "snakeviz": "/usr/local/bin/snakeviz", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "tradis": "/usr/local/bin/tradis", "tradis_comparison.R": "/usr/local/bin/tradis_comparison.R", "tradis_essentiality.R": "/usr/local/bin/tradis_essentiality.R", "trunkreads": "/usr/local/bin/trunkreads", "stone": "/usr/local/bin/stone", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "tabulate": "/usr/local/bin/tabulate", "py.test": "/usr/local/bin/py.test", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "pytest": "/usr/local/bin/pytest"}}
+config: {"url": "https://biocontainers.pro/tools/quatradis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for quatradis", "latest": {"1.1.0--py310h031d066_0": "sha256:d08eed20eeb8ca8e794f7715e9217ec73194c961c888797f1bca7b23dffba229"}, "tags": {"0.8.3--pyhdfd78af_0": "sha256:c1fceccc024b64783e6c5aa38e2cb78f09ae21c96a9049d6c30308d15c88101c", "1.0.1--py310hec16e2b_0": "sha256:75fdd8ef18b003465a7ced4769c38e7333d597cab5dc75c32a010b5bd07178d9", "1.0.1--py310h031d066_1": "sha256:2f72a00607f9d6f661ce6100512e50659615f4b63108ca940f3486dc8ad0d1f5", "1.0.2--py310h031d066_0": "sha256:a555d1e47cf5444fc32a064eebb3d496517b281b4523892ce2669ccc693b063c", "1.1.0--py310h031d066_0": "sha256:d08eed20eeb8ca8e794f7715e9217ec73194c961c888797f1bca7b23dffba229"}, "docker": "quay.io/biocontainers/quatradis", "aliases": {"basqcol": "/usr/local/bin/basqcol", "fetchseq": "/usr/local/bin/fetchseq", "mixreads": "/usr/local/bin/mixreads", "quatradis.smk": "/usr/local/bin/quatradis.smk", "readstats": "/usr/local/bin/readstats", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "snakeviz": "/usr/local/bin/snakeviz", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "tradis": "/usr/local/bin/tradis", "tradis_comparison.R": "/usr/local/bin/tradis_comparison.R", "tradis_essentiality.R": "/usr/local/bin/tradis_essentiality.R", "trunkreads": "/usr/local/bin/trunkreads", "stone": "/usr/local/bin/stone", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "tabulate": "/usr/local/bin/tabulate", "py.test": "/usr/local/bin/py.test", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "pytest": "/usr/local/bin/pytest"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/quatradis.
@@ -69,7 +70,7 @@ $ shpc install quay.io/biocontainers/quatradis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/quatradis:1.0.2--py310h031d066_0
+$ shpc install quay.io/biocontainers/quatradis:1.1.0--py310h031d066_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -81,8 +82,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/quatradis/1.0.2--py310h031d066_0
-$ module help quay.io/biocontainers/quatradis/1.0.2--py310h031d066_0
+$ module load quay.io/biocontainers/quatradis/1.1.0--py310h031d066_0
+$ module help quay.io/biocontainers/quatradis/1.1.0--py310h031d066_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-interactionset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-interactionset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-interactionset/container.yaml"
-updated_at: "2023-11-09 02:35:30.473573"
+updated_at: "2023-11-10 02:39:30.277848"
 latest: "1.28.1--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-interactionset"
 aliases:

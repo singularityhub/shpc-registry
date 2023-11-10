@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bismark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bismark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bismark/container.yaml"
-updated_at: "2023-11-09 02:27:49.900350"
-latest: "0.24.1--hdfd78af_0"
+updated_at: "2023-11-10 02:29:31.454926"
+latest: "0.24.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bismark"
 aliases:
  - "Bismark_alignment_modes.pdf"
@@ -56,8 +56,9 @@ versions:
  - "0.23.1--hdfd78af_0"
  - "0.24.0--hdfd78af_0"
  - "0.24.1--hdfd78af_0"
+ - "0.24.2--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bismark"
-config: {"url": "https://biocontainers.pro/tools/bismark", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bismark", "latest": {"0.24.1--hdfd78af_0": "sha256:7c867728ae8d15441caa8c8358460219130169dc5d4518c3b75b425c0f68426d"}, "tags": {"0.23.1--hdfd78af_0": "sha256:b8decd607c6fab8856545bbffbd19e8f2483a3962c829b213c52d16a738a3d59", "0.24.0--hdfd78af_0": "sha256:baac18ca952bbda7d3bcf72ac4d440542f833a902e017905476810cc7a4c8719", "0.24.1--hdfd78af_0": "sha256:7c867728ae8d15441caa8c8358460219130169dc5d4518c3b75b425c0f68426d"}, "docker": "quay.io/biocontainers/bismark", "aliases": {"Bismark_alignment_modes.pdf": "/usr/local/bin/Bismark_alignment_modes.pdf", "NOMe_filtering": "/usr/local/bin/NOMe_filtering", "_config.yml": "/usr/local/bin/_config.yml", "bam2nuc": "/usr/local/bin/bam2nuc", "bismark": "/usr/local/bin/bismark", "bismark2bedGraph": "/usr/local/bin/bismark2bedGraph", "bismark2report": "/usr/local/bin/bismark2report", "bismark2summary": "/usr/local/bin/bismark2summary", "bismark_genome_preparation": "/usr/local/bin/bismark_genome_preparation", "bismark_methylation_extractor": "/usr/local/bin/bismark_methylation_extractor", "copy_bismark_files_for_release.pl": "/usr/local/bin/copy_bismark_files_for_release.pl", "coverage2cytosine": "/usr/local/bin/coverage2cytosine", "deduplicate_bismark": "/usr/local/bin/deduplicate_bismark", "extract_exons.py": "/usr/local/bin/extract_exons.py", "extract_splice_sites.py": "/usr/local/bin/extract_splice_sites.py", "filter_non_conversion": "/usr/local/bin/filter_non_conversion", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s", "hisat2_extract_exons.py": "/usr/local/bin/hisat2_extract_exons.py", "hisat2_extract_snps_haplotypes_UCSC.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py", "hisat2_extract_snps_haplotypes_VCF.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py", "hisat2_extract_splice_sites.py": "/usr/local/bin/hisat2_extract_splice_sites.py", "hisat2_read_statistics.py": "/usr/local/bin/hisat2_read_statistics.py", "hisat2_simulate_reads.py": "/usr/local/bin/hisat2_simulate_reads.py", "license.txt": "/usr/local/bin/license.txt", "methylation_consistency": "/usr/local/bin/methylation_consistency", "test_data.fastq": "/usr/local/bin/test_data.fastq", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s"}}
+config: {"url": "https://biocontainers.pro/tools/bismark", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bismark", "latest": {"0.24.2--hdfd78af_0": "sha256:b06de320ad1ac9057e404105eac58587e2d5f076b62f146c11259dadfe07e20f"}, "tags": {"0.23.1--hdfd78af_0": "sha256:b8decd607c6fab8856545bbffbd19e8f2483a3962c829b213c52d16a738a3d59", "0.24.0--hdfd78af_0": "sha256:baac18ca952bbda7d3bcf72ac4d440542f833a902e017905476810cc7a4c8719", "0.24.1--hdfd78af_0": "sha256:7c867728ae8d15441caa8c8358460219130169dc5d4518c3b75b425c0f68426d", "0.24.2--hdfd78af_0": "sha256:b06de320ad1ac9057e404105eac58587e2d5f076b62f146c11259dadfe07e20f"}, "docker": "quay.io/biocontainers/bismark", "aliases": {"Bismark_alignment_modes.pdf": "/usr/local/bin/Bismark_alignment_modes.pdf", "NOMe_filtering": "/usr/local/bin/NOMe_filtering", "_config.yml": "/usr/local/bin/_config.yml", "bam2nuc": "/usr/local/bin/bam2nuc", "bismark": "/usr/local/bin/bismark", "bismark2bedGraph": "/usr/local/bin/bismark2bedGraph", "bismark2report": "/usr/local/bin/bismark2report", "bismark2summary": "/usr/local/bin/bismark2summary", "bismark_genome_preparation": "/usr/local/bin/bismark_genome_preparation", "bismark_methylation_extractor": "/usr/local/bin/bismark_methylation_extractor", "copy_bismark_files_for_release.pl": "/usr/local/bin/copy_bismark_files_for_release.pl", "coverage2cytosine": "/usr/local/bin/coverage2cytosine", "deduplicate_bismark": "/usr/local/bin/deduplicate_bismark", "extract_exons.py": "/usr/local/bin/extract_exons.py", "extract_splice_sites.py": "/usr/local/bin/extract_splice_sites.py", "filter_non_conversion": "/usr/local/bin/filter_non_conversion", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s", "hisat2_extract_exons.py": "/usr/local/bin/hisat2_extract_exons.py", "hisat2_extract_snps_haplotypes_UCSC.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py", "hisat2_extract_snps_haplotypes_VCF.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py", "hisat2_extract_splice_sites.py": "/usr/local/bin/hisat2_extract_splice_sites.py", "hisat2_read_statistics.py": "/usr/local/bin/hisat2_read_statistics.py", "hisat2_simulate_reads.py": "/usr/local/bin/hisat2_simulate_reads.py", "license.txt": "/usr/local/bin/license.txt", "methylation_consistency": "/usr/local/bin/methylation_consistency", "test_data.fastq": "/usr/local/bin/test_data.fastq", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bismark.
@@ -72,7 +73,7 @@ $ shpc install quay.io/biocontainers/bismark
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bismark:0.24.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/bismark:0.24.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -84,8 +85,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bismark/0.24.1--hdfd78af_0
-$ module help quay.io/biocontainers/bismark/0.24.1--hdfd78af_0
+$ module load quay.io/biocontainers/bismark/0.24.2--hdfd78af_0
+$ module help quay.io/biocontainers/bismark/0.24.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

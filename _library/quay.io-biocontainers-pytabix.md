@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytabix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytabix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytabix/container.yaml"
-updated_at: "2023-11-09 02:43:51.372047"
+updated_at: "2023-11-10 02:50:17.662371"
 latest: "0.1--py39h4e691d4_4"
 container_url: "https://biocontainers.pro/tools/pytabix"
 aliases:

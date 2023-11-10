@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/virema"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virema/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virema/container.yaml"
-updated_at: "2023-11-09 02:55:19.911610"
+updated_at: "2023-11-10 03:05:06.485608"
 latest: "0.6--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/virema"
 aliases:
