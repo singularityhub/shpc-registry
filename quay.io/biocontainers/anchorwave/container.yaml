@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/anchorwave
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for anchorwave
 latest:
-  1.2.1--hdcf5f25_2: sha256:506ca2ad541f7e9f29941bf24471e3d95664611f268a6f0ceda5c616c78b9cb6
+  1.2.2--hdcf5f25_0: sha256:2f49be860db342750058ff0c877753634518180558efd8ef930741095082f6a3
 tags:
   1.0.1--hd03093a_1: sha256:e3dadaa9e1be9595a12bca26ec63781261af6f2cb17b3658c55694d392308a1c
   1.1.1--hd03093a_0: sha256:cf7893ba0455bcb91b4e34bacf282cd835507a4f015b1fa67d0a2e991d27e3e5
@@ -10,6 +10,7 @@ tags:
   1.2.1--hd03093a_0: sha256:a63bc34ea073bfacba79cd8cfc358c3492547c308913dba1cc5a21bac7aeb39f
   1.2.1--hdcf5f25_1: sha256:00886e18f1e6a95f63caab602ff1208cbdf21ea0593a5cbc1cbeee8fc0f66e35
   1.2.1--hdcf5f25_2: sha256:506ca2ad541f7e9f29941bf24471e3d95664611f268a6f0ceda5c616c78b9cb6
+  1.2.2--hdcf5f25_0: sha256:2f49be860db342750058ff0c877753634518180558efd8ef930741095082f6a3
 docker: quay.io/biocontainers/anchorwave
 aliases:
   anchorwave: /usr/local/bin/anchorwave

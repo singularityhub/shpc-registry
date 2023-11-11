@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/ontime
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ontime
 latest:
-  0.1.3--h031d066_2: sha256:cb9d2cdeb2b39ed5870ef511fc68d4c526753aaa5a46da9799ac2dcc6dc45d81
+  0.2.3--h031d066_0: sha256:7b53043a8251dff485e576d6fbd8718769c79225c6b5960f8cac7e59350543a2
 tags:
   0.1.3--hec16e2b_0: sha256:7b24635eae78943080e36ac55dd3966b72cb8ba4f3183be7139def4e5119ca69
   0.1.3--h031d066_2: sha256:cb9d2cdeb2b39ed5870ef511fc68d4c526753aaa5a46da9799ac2dcc6dc45d81
+  0.2.3--h031d066_0: sha256:7b53043a8251dff485e576d6fbd8718769c79225c6b5960f8cac7e59350543a2
 docker: quay.io/biocontainers/ontime
 aliases:
   ontime: /usr/local/bin/ontime
