@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/truvari"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/truvari/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/truvari/container.yaml"
-updated_at: "2023-11-10 03:04:02.532509"
-latest: "4.1.0--pyhdfd78af_0"
+updated_at: "2023-11-11 03:31:33.538519"
+latest: "4.1.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/truvari"
 aliases:
  - "bwamempy"
@@ -24,8 +24,9 @@ versions:
  - "3.5.0--pyhdfd78af_0"
  - "4.0.0--pyhdfd78af_0"
  - "4.1.0--pyhdfd78af_0"
+ - "4.1.0--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for truvari"
-config: {"url": "https://biocontainers.pro/tools/truvari", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for truvari", "latest": {"4.1.0--pyhdfd78af_0": "sha256:f60bd45e790c3b7feb6c343c60d4ac16a97f3185548fb0bd2b8a64a86907793e"}, "tags": {"3.5.0--pyhdfd78af_0": "sha256:53513ea33dfdd6f7c0c37cfcc0af804202cdf6ec7a17a318b19d1014df761bd3", "4.0.0--pyhdfd78af_0": "sha256:ae370f515fe240679b2bc151f7e2c2db5a9e704ee811acd85a1c882f2170b808", "4.1.0--pyhdfd78af_0": "sha256:f60bd45e790c3b7feb6c343c60d4ac16a97f3185548fb0bd2b8a64a86907793e"}, "docker": "quay.io/biocontainers/truvari", "aliases": {"bwamempy": "/usr/local/bin/bwamempy", "truvari": "/usr/local/bin/truvari", "cmark": "/usr/local/bin/cmark", "pygmentize": "/usr/local/bin/pygmentize", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10"}}
+config: {"url": "https://biocontainers.pro/tools/truvari", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for truvari", "latest": {"4.1.0--pyhdfd78af_1": "sha256:db78b97fd5a1221aedeb4530f24c1a2d15ce65fffaa4ee973e7a2e9e6d7a0299"}, "tags": {"3.5.0--pyhdfd78af_0": "sha256:53513ea33dfdd6f7c0c37cfcc0af804202cdf6ec7a17a318b19d1014df761bd3", "4.0.0--pyhdfd78af_0": "sha256:ae370f515fe240679b2bc151f7e2c2db5a9e704ee811acd85a1c882f2170b808", "4.1.0--pyhdfd78af_0": "sha256:f60bd45e790c3b7feb6c343c60d4ac16a97f3185548fb0bd2b8a64a86907793e", "4.1.0--pyhdfd78af_1": "sha256:db78b97fd5a1221aedeb4530f24c1a2d15ce65fffaa4ee973e7a2e9e6d7a0299"}, "docker": "quay.io/biocontainers/truvari", "aliases": {"bwamempy": "/usr/local/bin/bwamempy", "truvari": "/usr/local/bin/truvari", "cmark": "/usr/local/bin/cmark", "pygmentize": "/usr/local/bin/pygmentize", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/truvari.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/truvari
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/truvari:4.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/truvari:4.1.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/truvari/4.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/truvari/4.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/truvari/4.1.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/truvari/4.1.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

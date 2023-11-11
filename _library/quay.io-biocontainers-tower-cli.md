@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/tower-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tower-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tower-cli/container.yaml"
-updated_at: "2023-11-10 03:06:50.754138"
-latest: "0.8.0--h9ee0642_0"
+updated_at: "2023-11-11 03:34:18.044642"
+latest: "0.9.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/tower-cli"
 aliases:
  - "tw"
 versions:
  - "0.8.0--h9ee0642_0"
+ - "0.9.0--h9ee0642_0"
 description: "singularity registry hpc automated addition for tower-cli"
-config: {"url": "https://biocontainers.pro/tools/tower-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tower-cli", "latest": {"0.8.0--h9ee0642_0": "sha256:98825f778dd02b2803950474dbe80ffb3d0da267d98f65153ff2c2019c995eec"}, "tags": {"0.8.0--h9ee0642_0": "sha256:98825f778dd02b2803950474dbe80ffb3d0da267d98f65153ff2c2019c995eec"}, "docker": "quay.io/biocontainers/tower-cli", "aliases": {"tw": "/usr/local/bin/tw"}}
+config: {"url": "https://biocontainers.pro/tools/tower-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tower-cli", "latest": {"0.9.0--h9ee0642_0": "sha256:f1933881b602f88c6a9960f5144afeb1413f41bc165a2ccf8e6bda913d11b7e2"}, "tags": {"0.8.0--h9ee0642_0": "sha256:98825f778dd02b2803950474dbe80ffb3d0da267d98f65153ff2c2019c995eec", "0.9.0--h9ee0642_0": "sha256:f1933881b602f88c6a9960f5144afeb1413f41bc165a2ccf8e6bda913d11b7e2"}, "docker": "quay.io/biocontainers/tower-cli", "aliases": {"tw": "/usr/local/bin/tw"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tower-cli.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/tower-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tower-cli:0.8.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/tower-cli:0.9.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tower-cli/0.8.0--h9ee0642_0
-$ module help quay.io/biocontainers/tower-cli/0.8.0--h9ee0642_0
+$ module load quay.io/biocontainers/tower-cli/0.9.0--h9ee0642_0
+$ module help quay.io/biocontainers/tower-cli/0.9.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

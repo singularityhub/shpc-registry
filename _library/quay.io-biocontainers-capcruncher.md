@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/capcruncher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/capcruncher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/capcruncher/container.yaml"
-updated_at: "2023-11-10 02:30:44.050397"
-latest: "0.3.5--pyhdfd78af_0"
+updated_at: "2023-11-11 02:59:10.863548"
+latest: "0.3.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/capcruncher"
 aliases:
  - "bq"
@@ -34,8 +34,9 @@ aliases:
 versions:
  - "0.2.3--pyhdfd78af_0"
  - "0.3.5--pyhdfd78af_0"
+ - "0.3.7--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for capcruncher"
-config: {"url": "https://biocontainers.pro/tools/capcruncher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for capcruncher", "latest": {"0.3.5--pyhdfd78af_0": "sha256:06fa01ad142cbf7db91b95c19494b85cdcf29f13dc184dacc3c66cecaaded9e5"}, "tags": {"0.2.3--pyhdfd78af_0": "sha256:8957ca955243f15d7c5dfb43be21b3ae4170b5f41c309f730b64adf9b6090da0", "0.3.5--pyhdfd78af_0": "sha256:06fa01ad142cbf7db91b95c19494b85cdcf29f13dc184dacc3c66cecaaded9e5"}, "docker": "quay.io/biocontainers/capcruncher", "aliases": {"bq": "/usr/local/bin/bq", "capcruncher": "/usr/local/bin/capcruncher", "csv-import": "/usr/local/bin/csv-import", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "fetchChromSizes": "/usr/local/bin/fetchChromSizes", "gcloud": "/usr/local/bin/gcloud", "ice": "/usr/local/bin/ice", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "rich-click": "/usr/local/bin/rich-click", "time": "/usr/local/bin/time", "timezone-dump": "/usr/local/bin/timezone-dump", "trim_galore": "/usr/local/bin/trim_galore", "gsutil": "/usr/local/bin/gsutil", "multiqc": "/usr/local/bin/multiqc", "flash": "/usr/local/bin/flash", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "cooler": "/usr/local/bin/cooler"}}
+config: {"url": "https://biocontainers.pro/tools/capcruncher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for capcruncher", "latest": {"0.3.7--pyhdfd78af_0": "sha256:3d5b2bbdbfea7dd5b066ba921957eec16b441d615689ea4ac6683aeb13075892"}, "tags": {"0.2.3--pyhdfd78af_0": "sha256:8957ca955243f15d7c5dfb43be21b3ae4170b5f41c309f730b64adf9b6090da0", "0.3.5--pyhdfd78af_0": "sha256:06fa01ad142cbf7db91b95c19494b85cdcf29f13dc184dacc3c66cecaaded9e5", "0.3.7--pyhdfd78af_0": "sha256:3d5b2bbdbfea7dd5b066ba921957eec16b441d615689ea4ac6683aeb13075892"}, "docker": "quay.io/biocontainers/capcruncher", "aliases": {"bq": "/usr/local/bin/bq", "capcruncher": "/usr/local/bin/capcruncher", "csv-import": "/usr/local/bin/csv-import", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "fetchChromSizes": "/usr/local/bin/fetchChromSizes", "gcloud": "/usr/local/bin/gcloud", "ice": "/usr/local/bin/ice", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "rich-click": "/usr/local/bin/rich-click", "time": "/usr/local/bin/time", "timezone-dump": "/usr/local/bin/timezone-dump", "trim_galore": "/usr/local/bin/trim_galore", "gsutil": "/usr/local/bin/gsutil", "multiqc": "/usr/local/bin/multiqc", "flash": "/usr/local/bin/flash", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "cooler": "/usr/local/bin/cooler"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/capcruncher.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/capcruncher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/capcruncher:0.3.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/capcruncher:0.3.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/capcruncher/0.3.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/capcruncher/0.3.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/capcruncher/0.3.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/capcruncher/0.3.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

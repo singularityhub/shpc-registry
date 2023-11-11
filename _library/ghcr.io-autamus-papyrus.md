@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/papyrus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/papyrus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/papyrus/container.yaml"
-updated_at: "2023-11-10 03:22:52.907083"
+updated_at: "2023-11-11 03:50:01.327090"
 latest: "1.0.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/papyrus"
 

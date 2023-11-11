@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/knock-knock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/knock-knock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/knock-knock/container.yaml"
-updated_at: "2023-11-10 03:00:46.200706"
-latest: "0.2.1--py_0"
+updated_at: "2023-11-11 03:28:21.464484"
+latest: "0.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/knock-knock"
 aliases:
  - "knock-knock"
@@ -21,8 +21,9 @@ aliases:
  - "ocsptool"
 versions:
  - "0.2.1--py_0"
+ - "0.4.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for knock-knock"
-config: {"url": "https://biocontainers.pro/tools/knock-knock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for knock-knock", "latest": {"0.2.1--py_0": "sha256:dcd4f8943ea3ac46ef466982acf012f25cf2e8ba8664b37876abda8f756bf40a"}, "tags": {"0.2.1--py_0": "sha256:dcd4f8943ea3ac46ef466982acf012f25cf2e8ba8664b37876abda8f756bf40a"}, "docker": "quay.io/biocontainers/knock-knock", "aliases": {"knock-knock": "/usr/local/bin/knock-knock", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool"}}
+config: {"url": "https://biocontainers.pro/tools/knock-knock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for knock-knock", "latest": {"0.4.2--pyhdfd78af_0": "sha256:39afd9e1dca43c42d0b4bc0e32ed463f057a4d9ce103fdcdd451342394adcdb9"}, "tags": {"0.2.1--py_0": "sha256:dcd4f8943ea3ac46ef466982acf012f25cf2e8ba8664b37876abda8f756bf40a", "0.4.2--pyhdfd78af_0": "sha256:39afd9e1dca43c42d0b4bc0e32ed463f057a4d9ce103fdcdd451342394adcdb9"}, "docker": "quay.io/biocontainers/knock-knock", "aliases": {"knock-knock": "/usr/local/bin/knock-knock", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/knock-knock.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/knock-knock
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/knock-knock:0.2.1--py_0
+$ shpc install quay.io/biocontainers/knock-knock:0.4.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/knock-knock/0.2.1--py_0
-$ module help quay.io/biocontainers/knock-knock/0.2.1--py_0
+$ module load quay.io/biocontainers/knock-knock/0.4.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/knock-knock/0.4.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

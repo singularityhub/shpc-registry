@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fit_nbinom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fit_nbinom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fit_nbinom/container.yaml"
-updated_at: "2023-11-10 02:50:04.504099"
+updated_at: "2023-11-11 03:17:55.718863"
 latest: "1.1--pyh864c0ab_2"
 container_url: "https://biocontainers.pro/tools/fit_nbinom"
 aliases:

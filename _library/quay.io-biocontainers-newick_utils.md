@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/newick_utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/newick_utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/newick_utils/container.yaml"
-updated_at: "2023-11-10 02:59:19.112511"
+updated_at: "2023-11-11 03:26:56.897648"
 latest: "1.6--h031d066_7"
 container_url: "https://biocontainers.pro/tools/newick_utils"
 aliases:

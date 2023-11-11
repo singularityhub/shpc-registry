@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/libnrm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/libnrm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/libnrm/container.yaml"
-updated_at: "2023-11-10 03:22:32.573691"
+updated_at: "2023-11-11 03:49:41.318773"
 latest: "0.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/libnrm"
 

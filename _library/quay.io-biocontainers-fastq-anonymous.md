@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastq-anonymous"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-anonymous/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-anonymous/container.yaml"
-updated_at: "2023-11-10 03:13:17.007713"
+updated_at: "2023-11-11 03:40:35.955009"
 latest: "1.0.1--py_2"
 container_url: "https://biocontainers.pro/tools/fastq-anonymous"
 aliases:

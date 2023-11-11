@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mwga-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mwga-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mwga-utils/container.yaml"
-updated_at: "2023-11-10 03:15:33.462360"
+updated_at: "2023-11-11 03:42:49.809441"
 latest: "0.1.6--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/mwga-utils"
 aliases:
