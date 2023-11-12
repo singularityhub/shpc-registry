@@ -1,8 +1,9 @@
 docker: nvcr.io/hpc/preflightcheck
 latest:
-  '20.11': sha256:8aba0b9dd1c724cd2973ff288cf056f0aae84c3c3ef9dbccddaf4771356cc93e
+  sha256-8aba0b9dd1c724cd2973ff288cf056f0aae84c3c3ef9dbccddaf4771356cc93e.sbom: sha256:da176d76abad39b2b7db807ec3971bf11f53b6d3404eddb975162ddf21ab4ebf
 tags:
   '20.11': sha256:8aba0b9dd1c724cd2973ff288cf056f0aae84c3c3ef9dbccddaf4771356cc93e
+  sha256-8aba0b9dd1c724cd2973ff288cf056f0aae84c3c3ef9dbccddaf4771356cc93e.sbom: sha256:da176d76abad39b2b7db807ec3971bf11f53b6d3404eddb975162ddf21ab4ebf
 filter:
 - 21*
 maintainer: '@vsoch'

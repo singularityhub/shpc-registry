@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-acidsinglecell
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-acidsinglecell
 latest:
-  0.4.0--r43hdfd78af_0: sha256:ce00932d284e066719a89279db12324c08d91bd5fd3134c4b769d629ee35bb55
+  0.4.1--r43hdfd78af_0: sha256:35a8550268bb2cae4d0794a3102e2cf42c64edbc25b66c033bef5c8f2714ce10
 tags:
   0.2.0--r41hdfd78af_0: sha256:28547717f9ab2bbce71036b8347db6a2b766d568fd75f4cc4b865cdfa5f3b1f9
   0.3.3--r42hdfd78af_1: sha256:2b15a88cf883b0e6df6f347feaf770c7ccab55af410e3d0144dbbd7d53c297ac
@@ -12,4 +12,5 @@ tags:
   0.3.5--r43hdfd78af_2: sha256:ba14d7c32aa1307ef3407651e7b926315976dfe68747909069212adcc3fdfeef
   0.3.6--r43hdfd78af_0: sha256:4e334cdb02b1b0e8fac749d23f56e8995488bdab51ad35add91b7d6a16dfc2f7
   0.4.0--r43hdfd78af_0: sha256:ce00932d284e066719a89279db12324c08d91bd5fd3134c4b769d629ee35bb55
+  0.4.1--r43hdfd78af_0: sha256:35a8550268bb2cae4d0794a3102e2cf42c64edbc25b66c033bef5c8f2714ce10
 docker: quay.io/biocontainers/r-acidsinglecell

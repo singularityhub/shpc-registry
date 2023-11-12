@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/assemblycomparator2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for assemblycomparator2
 latest:
-  2.5.8--h9ee0642_0: sha256:93b6a85e70e3d7cae44773eadae0304b1bc76b91c8450a7528695280fa32dd45
+  2.5.12--h9ee0642_0: sha256:b270fb921f40e95f197b8e3c22e4849b74f559371b79d9de3d94348cbc6f265b
 tags:
   2.5.8--h9ee0642_0: sha256:93b6a85e70e3d7cae44773eadae0304b1bc76b91c8450a7528695280fa32dd45
+  2.5.12--h9ee0642_0: sha256:b270fb921f40e95f197b8e3c22e4849b74f559371b79d9de3d94348cbc6f265b
 docker: quay.io/biocontainers/assemblycomparator2
 aliases:
   asscom2: /usr/local/bin/asscom2
