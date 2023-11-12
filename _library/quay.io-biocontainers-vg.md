@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vg/container.yaml"
-updated_at: "2023-11-11 03:46:45.765570"
-latest: "1.51.0--h9ee0642_0"
+updated_at: "2023-11-12 03:09:42.734266"
+latest: "1.52.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/vg"
 aliases:
  - "vg"
@@ -19,8 +19,9 @@ versions:
  - "1.49.0--h9ee0642_0"
  - "1.50.1--h9ee0642_0"
  - "1.51.0--h9ee0642_0"
+ - "1.52.0--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for vg"
-config: {"url": "https://biocontainers.pro/tools/vg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vg", "latest": {"1.51.0--h9ee0642_0": "sha256:9ecd42707d3637ab213e9467e39e446b10234607953e6e581c8eb5865245dd96"}, "tags": {"1.43.0--h9ee0642_0": "sha256:767ff7be84ce574899ca0ce2fd8a7305835dba741aeb9bd45974b56c7095b8f2", "1.44.0--h9ee0642_0": "sha256:3a91a6f0e09b3e4a555fccd56e35fa6ff941050b2530b328ac38c70a7d1a1679", "1.45.0--h9ee0642_0": "sha256:753390f9fc26ce541bb3e6949beeeecaae0e4290121229cbd5315f08692df8a8", "1.46.0--h9ee0642_0": "sha256:5eddfb5b0db1828e4ab9eebba3b8f5305867f16d582c971d6da638d1b172699b", "1.47.0--h9ee0642_0": "sha256:d4d51e56250b777c6a2248b658ef285cd685febf80e069b85b1c628b182e0c35", "1.48.0--h9ee0642_0": "sha256:0220f8f2ad88f9aaf2f97ef4b9d1b37de55fe280e3998e15a769ee587d6625ba", "1.49.0--h9ee0642_0": "sha256:86dcd55ecee78836356ca1d7096b27c8821e9d502a80228c50e2c930f6fe120e", "1.50.1--h9ee0642_0": "sha256:c3b63f3f7a526f703576afeffd3a061011446fa15a73689e09baa0b418723910", "1.51.0--h9ee0642_0": "sha256:9ecd42707d3637ab213e9467e39e446b10234607953e6e581c8eb5865245dd96"}, "docker": "quay.io/biocontainers/vg", "aliases": {"vg": "/usr/local/bin/vg"}}
+config: {"url": "https://biocontainers.pro/tools/vg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vg", "latest": {"1.52.0--h9ee0642_0": "sha256:fd605c71e6fa2718f14e3dcddd597a8dd4b34616f99cb8ebac5c24aa34bbafdd"}, "tags": {"1.43.0--h9ee0642_0": "sha256:767ff7be84ce574899ca0ce2fd8a7305835dba741aeb9bd45974b56c7095b8f2", "1.44.0--h9ee0642_0": "sha256:3a91a6f0e09b3e4a555fccd56e35fa6ff941050b2530b328ac38c70a7d1a1679", "1.45.0--h9ee0642_0": "sha256:753390f9fc26ce541bb3e6949beeeecaae0e4290121229cbd5315f08692df8a8", "1.46.0--h9ee0642_0": "sha256:5eddfb5b0db1828e4ab9eebba3b8f5305867f16d582c971d6da638d1b172699b", "1.47.0--h9ee0642_0": "sha256:d4d51e56250b777c6a2248b658ef285cd685febf80e069b85b1c628b182e0c35", "1.48.0--h9ee0642_0": "sha256:0220f8f2ad88f9aaf2f97ef4b9d1b37de55fe280e3998e15a769ee587d6625ba", "1.49.0--h9ee0642_0": "sha256:86dcd55ecee78836356ca1d7096b27c8821e9d502a80228c50e2c930f6fe120e", "1.50.1--h9ee0642_0": "sha256:c3b63f3f7a526f703576afeffd3a061011446fa15a73689e09baa0b418723910", "1.51.0--h9ee0642_0": "sha256:9ecd42707d3637ab213e9467e39e446b10234607953e6e581c8eb5865245dd96", "1.52.0--h9ee0642_0": "sha256:fd605c71e6fa2718f14e3dcddd597a8dd4b34616f99cb8ebac5c24aa34bbafdd"}, "docker": "quay.io/biocontainers/vg", "aliases": {"vg": "/usr/local/bin/vg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vg.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/vg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vg:1.51.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/vg:1.52.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vg/1.51.0--h9ee0642_0
-$ module help quay.io/biocontainers/vg/1.51.0--h9ee0642_0
+$ module load quay.io/biocontainers/vg/1.52.0--h9ee0642_0
+$ module help quay.io/biocontainers/vg/1.52.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

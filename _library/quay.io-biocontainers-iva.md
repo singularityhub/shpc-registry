@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iva"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iva/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iva/container.yaml"
-updated_at: "2023-11-11 03:12:36.137332"
+updated_at: "2023-11-12 02:42:19.010879"
 latest: "1.0.11--py_0"
 container_url: "https://biocontainers.pro/tools/iva"
 aliases:

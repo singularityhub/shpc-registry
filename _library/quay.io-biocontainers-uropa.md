@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/uropa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uropa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uropa/container.yaml"
-updated_at: "2023-11-11 03:05:33.624930"
-latest: "4.0.2--pyhdfd78af_0"
+updated_at: "2023-11-12 02:36:39.206774"
+latest: "4.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/uropa"
 aliases:
  - "uropa"
@@ -20,8 +20,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "4.0.2--pyhdfd78af_0"
+ - "4.0.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for uropa"
-config: {"url": "https://biocontainers.pro/tools/uropa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for uropa", "latest": {"4.0.2--pyhdfd78af_0": "sha256:95796bc762c84a526af71150dca774148871ba7b2cba7dcff8a5c5cd26ecdb83"}, "tags": {"4.0.2--pyhdfd78af_0": "sha256:95796bc762c84a526af71150dca774148871ba7b2cba7dcff8a5c5cd26ecdb83"}, "docker": "quay.io/biocontainers/uropa", "aliases": {"uropa": "/usr/local/bin/uropa", "uropa2gtf.R": "/usr/local/bin/uropa2gtf.R", "uropa_summary.R": "/usr/local/bin/uropa_summary.R", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/uropa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for uropa", "latest": {"4.0.3--pyhdfd78af_0": "sha256:18bbe5a029916022702f1ed4f63f023ed2116258443ed790b1741cdb0bb25411"}, "tags": {"4.0.2--pyhdfd78af_0": "sha256:95796bc762c84a526af71150dca774148871ba7b2cba7dcff8a5c5cd26ecdb83", "4.0.3--pyhdfd78af_0": "sha256:18bbe5a029916022702f1ed4f63f023ed2116258443ed790b1741cdb0bb25411"}, "docker": "quay.io/biocontainers/uropa", "aliases": {"uropa": "/usr/local/bin/uropa", "uropa2gtf.R": "/usr/local/bin/uropa2gtf.R", "uropa_summary.R": "/usr/local/bin/uropa_summary.R", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/uropa.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/uropa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/uropa:4.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/uropa:4.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/uropa/4.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/uropa/4.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/uropa/4.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/uropa/4.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

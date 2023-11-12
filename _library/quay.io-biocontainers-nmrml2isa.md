@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nmrml2isa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nmrml2isa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nmrml2isa/container.yaml"
-updated_at: "2023-11-11 03:17:35.957459"
-latest: "0.3.1--py_0"
+updated_at: "2023-11-12 02:46:20.425118"
+latest: "0.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nmrml2isa"
 aliases:
  - "nmrml2isa"
@@ -22,8 +22,9 @@ aliases:
  - "pyvenv-3.7"
 versions:
  - "0.3.1--py_0"
+ - "0.3.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for nmrml2isa"
-config: {"url": "https://biocontainers.pro/tools/nmrml2isa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nmrml2isa", "latest": {"0.3.1--py_0": "sha256:8c4413cbb08e8517524bfa2737782701f80e903d7d22331d915075efcacccd04"}, "tags": {"0.3.1--py_0": "sha256:8c4413cbb08e8517524bfa2737782701f80e903d7d22331d915075efcacccd04"}, "docker": "quay.io/biocontainers/nmrml2isa", "aliases": {"nmrml2isa": "/usr/local/bin/nmrml2isa", "pronto": "/usr/local/bin/pronto", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/nmrml2isa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nmrml2isa", "latest": {"0.3.3--pyhdfd78af_0": "sha256:dc2ad9da4335889f879b02dee97e14f75e821d7e4cfb6505ea525f753d81d3d6"}, "tags": {"0.3.1--py_0": "sha256:8c4413cbb08e8517524bfa2737782701f80e903d7d22331d915075efcacccd04", "0.3.3--pyhdfd78af_0": "sha256:dc2ad9da4335889f879b02dee97e14f75e821d7e4cfb6505ea525f753d81d3d6"}, "docker": "quay.io/biocontainers/nmrml2isa", "aliases": {"nmrml2isa": "/usr/local/bin/nmrml2isa", "pronto": "/usr/local/bin/pronto", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nmrml2isa.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/nmrml2isa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nmrml2isa:0.3.1--py_0
+$ shpc install quay.io/biocontainers/nmrml2isa:0.3.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nmrml2isa/0.3.1--py_0
-$ module help quay.io/biocontainers/nmrml2isa/0.3.1--py_0
+$ module load quay.io/biocontainers/nmrml2isa/0.3.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/nmrml2isa/0.3.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

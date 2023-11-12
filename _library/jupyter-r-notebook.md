@@ -4,7 +4,7 @@ name:  "jupyter/r-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/jupyter/r-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/jupyter/r-notebook/container.yaml"
-updated_at: "2023-11-11 03:49:21.311516"
+updated_at: "2023-11-12 03:11:47.388790"
 latest: "2023-10-10"
 container_url: "https://hub.docker.com/r/jupyter/r-notebook"
 aliases:

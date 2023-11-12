@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hiphase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hiphase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hiphase/container.yaml"
-updated_at: "2023-11-11 02:53:18.185870"
+updated_at: "2023-11-12 02:26:44.070921"
 latest: "0.10.2--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/hiphase"
 aliases:

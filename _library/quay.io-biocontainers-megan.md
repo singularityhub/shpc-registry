@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/megan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/megan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/megan/container.yaml"
-updated_at: "2023-11-11 03:03:57.461239"
+updated_at: "2023-11-12 02:35:21.983685"
 latest: "6.24.20--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/megan"
 aliases:

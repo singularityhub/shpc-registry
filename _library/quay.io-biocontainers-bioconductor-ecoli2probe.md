@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ecoli2probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecoli2probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecoli2probe/container.yaml"
-updated_at: "2023-11-11 02:54:35.482069"
+updated_at: "2023-11-12 02:27:46.500309"
 latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecoli2probe"
 
