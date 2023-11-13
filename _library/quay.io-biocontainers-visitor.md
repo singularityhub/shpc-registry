@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/visitor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/visitor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/visitor/container.yaml"
-updated_at: "2023-11-12 03:06:10.700587"
+updated_at: "2023-11-13 03:05:28.242551"
 latest: "0.1.2--py36_0"
 container_url: "https://biocontainers.pro/tools/visitor"
 aliases:

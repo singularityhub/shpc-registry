@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metaboannotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metaboannotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metaboannotation/container.yaml"
-updated_at: "2023-11-12 02:45:37.457657"
+updated_at: "2023-11-13 02:45:13.883486"
 latest: "1.4.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metaboannotation"
 aliases:

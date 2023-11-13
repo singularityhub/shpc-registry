@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/melon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/melon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/melon/container.yaml"
-updated_at: "2023-11-12 02:57:58.353136"
-latest: "0.0.1--pyhdfd78af_0"
+updated_at: "2023-11-13 02:57:22.798437"
+latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/melon"
 aliases:
  - "blastn_vdb"
@@ -38,8 +38,9 @@ aliases:
  - "find-in-gene"
 versions:
  - "0.0.1--pyhdfd78af_0"
+ - "0.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for melon"
-config: {"url": "https://biocontainers.pro/tools/melon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for melon", "latest": {"0.0.1--pyhdfd78af_0": "sha256:e78f4a3115c42e2b5c529849214956cc9891ea86aac81cf6af4afc5995ae66f4"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:e78f4a3115c42e2b5c529849214956cc9891ea86aac81cf6af4afc5995ae66f4"}, "docker": "quay.io/biocontainers/melon", "aliases": {"blastn_vdb": "/usr/local/bin/blastn_vdb", "melon": "/usr/local/bin/melon", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "seqkit": "/usr/local/bin/seqkit", "test_pcre": "/usr/local/bin/test_pcre", "diamond": "/usr/local/bin/diamond", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene"}}
+config: {"url": "https://biocontainers.pro/tools/melon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for melon", "latest": {"0.1.0--pyhdfd78af_0": "sha256:44f7c3a40269c10a1fee9aff6acf174104c5174ca3ad701fee6bf85810146a96"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:e78f4a3115c42e2b5c529849214956cc9891ea86aac81cf6af4afc5995ae66f4", "0.1.0--pyhdfd78af_0": "sha256:44f7c3a40269c10a1fee9aff6acf174104c5174ca3ad701fee6bf85810146a96"}, "docker": "quay.io/biocontainers/melon", "aliases": {"blastn_vdb": "/usr/local/bin/blastn_vdb", "melon": "/usr/local/bin/melon", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "seqkit": "/usr/local/bin/seqkit", "test_pcre": "/usr/local/bin/test_pcre", "diamond": "/usr/local/bin/diamond", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/melon.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/melon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/melon:0.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/melon:0.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/melon/0.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/melon/0.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/melon/0.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/melon/0.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

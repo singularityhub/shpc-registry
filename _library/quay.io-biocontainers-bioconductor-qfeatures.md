@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-qfeatures"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qfeatures/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qfeatures/container.yaml"
-updated_at: "2023-11-12 02:34:04.230844"
+updated_at: "2023-11-13 02:33:51.414231"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qfeatures"
 

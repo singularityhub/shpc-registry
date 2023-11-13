@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trinotate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trinotate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trinotate/container.yaml"
-updated_at: "2023-11-12 02:30:01.319827"
+updated_at: "2023-11-13 02:29:55.134509"
 latest: "4.0.2--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/trinotate"
 aliases:

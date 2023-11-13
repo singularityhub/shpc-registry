@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/semibin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/semibin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/semibin/container.yaml"
-updated_at: "2023-11-12 02:59:21.350173"
-latest: "1.5.1--pyhdfd78af_0"
+updated_at: "2023-11-13 02:58:44.809422"
+latest: "2.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/semibin"
 aliases:
  - "FragGeneScan"
@@ -30,8 +30,9 @@ versions:
  - "1.4.0--pyh7cba7a3_0"
  - "1.5.0--pyhdfd78af_1"
  - "1.5.1--pyhdfd78af_0"
+ - "2.0.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for semibin"
-config: {"url": "https://biocontainers.pro/tools/semibin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for semibin", "latest": {"1.5.1--pyhdfd78af_0": "sha256:e559681ea22a462351464089b5fd75cbbf56a7f676c9f590d7e03f2d7f529947"}, "tags": {"1.1.1--pyh7cba7a3_1": "sha256:36b5deb5c51f3c38f8e0a235675d80ab4bbe1611914f6a24e8e2cf80a4c6d7ad", "1.3.0--pyh7cba7a3_0": "sha256:2376522f43c575294daff8da8b1b6e8afee943d10d49e35ea339ecde049c5886", "1.2.0--pyh7cba7a3_0": "sha256:b4035666471d6c62a482cc0354cd7087059f6218e139ece95f2328b90d24f1bf", "1.3.1--pyh7cba7a3_0": "sha256:94a60b47e74bb3b68364c14c2d8bddb6d3000b590577f5a3c53e0a2f44364287", "1.4.0--pyh7cba7a3_0": "sha256:abc8ceff279366c7d0ebf10a59f9bbd25a84ebb80508e0babe5d218411919223", "1.5.0--pyhdfd78af_1": "sha256:912b7678127be06566c75130b6cda359d6b57cd5a477f452f45072d9815745a5", "1.5.1--pyhdfd78af_0": "sha256:e559681ea22a462351464089b5fd75cbbf56a7f676c9f590d7e03f2d7f529947"}, "docker": "quay.io/biocontainers/semibin", "aliases": {"FragGeneScan": "/usr/local/bin/FragGeneScan", "SemiBin": "/usr/local/bin/SemiBin", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "mmseqs": "/usr/local/bin/mmseqs", "ninja": "/usr/local/bin/ninja", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis"}}
+config: {"url": "https://biocontainers.pro/tools/semibin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for semibin", "latest": {"2.0.2--pyhdfd78af_0": "sha256:0dc3595bd786daab76c7977e0335a07ec89f430f33372b6110228f6f3771febc"}, "tags": {"1.1.1--pyh7cba7a3_1": "sha256:36b5deb5c51f3c38f8e0a235675d80ab4bbe1611914f6a24e8e2cf80a4c6d7ad", "1.3.0--pyh7cba7a3_0": "sha256:2376522f43c575294daff8da8b1b6e8afee943d10d49e35ea339ecde049c5886", "1.2.0--pyh7cba7a3_0": "sha256:b4035666471d6c62a482cc0354cd7087059f6218e139ece95f2328b90d24f1bf", "1.3.1--pyh7cba7a3_0": "sha256:94a60b47e74bb3b68364c14c2d8bddb6d3000b590577f5a3c53e0a2f44364287", "1.4.0--pyh7cba7a3_0": "sha256:abc8ceff279366c7d0ebf10a59f9bbd25a84ebb80508e0babe5d218411919223", "1.5.0--pyhdfd78af_1": "sha256:912b7678127be06566c75130b6cda359d6b57cd5a477f452f45072d9815745a5", "1.5.1--pyhdfd78af_0": "sha256:e559681ea22a462351464089b5fd75cbbf56a7f676c9f590d7e03f2d7f529947", "2.0.2--pyhdfd78af_0": "sha256:0dc3595bd786daab76c7977e0335a07ec89f430f33372b6110228f6f3771febc"}, "docker": "quay.io/biocontainers/semibin", "aliases": {"FragGeneScan": "/usr/local/bin/FragGeneScan", "SemiBin": "/usr/local/bin/SemiBin", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "mmseqs": "/usr/local/bin/mmseqs", "ninja": "/usr/local/bin/ninja", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/semibin.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/semibin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/semibin:1.5.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/semibin:2.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/semibin/1.5.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/semibin/1.5.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/semibin/2.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/semibin/2.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

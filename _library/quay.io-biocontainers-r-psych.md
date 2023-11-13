@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-psych"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-psych/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-psych/container.yaml"
-updated_at: "2023-11-12 02:35:51.706667"
+updated_at: "2023-11-13 02:35:37.022219"
 latest: "1.7.8--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-psych"
 aliases:

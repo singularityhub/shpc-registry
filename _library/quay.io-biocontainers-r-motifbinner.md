@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-motifbinner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-motifbinner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-motifbinner/container.yaml"
-updated_at: "2023-11-12 02:53:09.104635"
+updated_at: "2023-11-13 02:52:36.509727"
 latest: "2.0.0--r43hdbdd923_7"
 container_url: "https://biocontainers.pro/tools/r-motifbinner"
 aliases:

@@ -4,14 +4,15 @@ name:  "nvcr.io/hpc/preflightcheck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/preflightcheck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/hpc/preflightcheck/container.yaml"
-updated_at: "2023-11-12 03:12:51.445980"
-latest: "20.11"
+updated_at: "2023-11-13 03:12:03.374673"
+latest: "sha256-8aba0b9dd1c724cd2973ff288cf056f0aae84c3c3ef9dbccddaf4771356cc93e.sbom"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:preflightcheck"
 
 versions:
  - "20.11"
+ - "sha256-8aba0b9dd1c724cd2973ff288cf056f0aae84c3c3ef9dbccddaf4771356cc93e.sbom"
 description: "The Pre-Flight Check container verifies that the container runtime is setup correctly for GPUs and InfiniBand."
-config: {"docker": "nvcr.io/hpc/preflightcheck", "latest": {"20.11": "sha256:8aba0b9dd1c724cd2973ff288cf056f0aae84c3c3ef9dbccddaf4771356cc93e"}, "tags": {"20.11": "sha256:8aba0b9dd1c724cd2973ff288cf056f0aae84c3c3ef9dbccddaf4771356cc93e"}, "filter": ["21*"], "maintainer": "@vsoch", "url": "https://ngc.nvidia.com/catalog/containers/hpc:preflightcheck", "description": "The Pre-Flight Check container verifies that the container runtime is setup correctly for GPUs and InfiniBand.", "features": {"gpu": true}}
+config: {"docker": "nvcr.io/hpc/preflightcheck", "latest": {"sha256-8aba0b9dd1c724cd2973ff288cf056f0aae84c3c3ef9dbccddaf4771356cc93e.sbom": "sha256:da176d76abad39b2b7db807ec3971bf11f53b6d3404eddb975162ddf21ab4ebf"}, "tags": {"20.11": "sha256:8aba0b9dd1c724cd2973ff288cf056f0aae84c3c3ef9dbccddaf4771356cc93e", "sha256-8aba0b9dd1c724cd2973ff288cf056f0aae84c3c3ef9dbccddaf4771356cc93e.sbom": "sha256:da176d76abad39b2b7db807ec3971bf11f53b6d3404eddb975162ddf21ab4ebf"}, "filter": ["21*"], "maintainer": "@vsoch", "url": "https://ngc.nvidia.com/catalog/containers/hpc:preflightcheck", "description": "The Pre-Flight Check container verifies that the container runtime is setup correctly for GPUs and InfiniBand.", "features": {"gpu": true}}
 ---
 
 This module is a singularity container wrapper for nvcr.io/hpc/preflightcheck.
@@ -26,7 +27,7 @@ $ shpc install nvcr.io/hpc/preflightcheck
 Or a specific version:
 
 ```bash
-$ shpc install nvcr.io/hpc/preflightcheck:20.11
+$ shpc install nvcr.io/hpc/preflightcheck:sha256-8aba0b9dd1c724cd2973ff288cf056f0aae84c3c3ef9dbccddaf4771356cc93e.sbom
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load nvcr.io/hpc/preflightcheck/20.11
-$ module help nvcr.io/hpc/preflightcheck/20.11
+$ module load nvcr.io/hpc/preflightcheck/sha256-8aba0b9dd1c724cd2973ff288cf056f0aae84c3c3ef9dbccddaf4771356cc93e.sbom
+$ module help nvcr.io/hpc/preflightcheck/sha256-8aba0b9dd1c724cd2973ff288cf056f0aae84c3c3ef9dbccddaf4771356cc93e.sbom
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
