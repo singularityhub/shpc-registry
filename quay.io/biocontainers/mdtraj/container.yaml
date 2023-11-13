@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mdtraj
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mdtraj
 latest:
-  1.9.7: sha256:ef08949541d4cdc281f74af10852cbf5b597bacb95306fd9bcd553ad5d5a7a4f
+  1.9.9: sha256:8e75fdfbce6667990bca91788ff86b6055f807328517a6de6c5ee45aa30d0a9b
 tags:
   1.9.7: sha256:ef08949541d4cdc281f74af10852cbf5b597bacb95306fd9bcd553ad5d5a7a4f
+  1.9.9: sha256:8e75fdfbce6667990bca91788ff86b6055f807328517a6de6c5ee45aa30d0a9b
 docker: quay.io/biocontainers/mdtraj
 aliases:
   mdconvert: /usr/local/bin/mdconvert

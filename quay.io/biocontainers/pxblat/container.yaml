@@ -2,13 +2,16 @@ url: https://biocontainers.pro/tools/pxblat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pxblat
 latest:
-  0.3.4--py39h80cd5a4_0: sha256:f47dd29a0232905221b96a32c30ebaafbdd8505784b9566f2bf7aedb1f098bd2
+  1.1.10--py310h0dbaff4_0: sha256:857ce52fd0cd586b8459c608f49a046ad93e43ca7e6c6fa8d140884d7461d17f
 tags:
   0.2.0--py310hfb835a5_0: sha256:b8c5e94848b1931754d6a32e21ff6b7d1b5ac7aa9ef18a31828bc0f492c886e4
   0.2.0--py39h1fb70d6_0: sha256:9ad2e81e69c64c9f19d6d631e0be62aacecf0aef774fbd570e25e2d185808100
   0.3.0--py311ha8d5032_0: sha256:65d926fc50f05a3944c24e9dc5d9ecfe7b1573446dc7329e3c5f8c35ee60c8eb
   0.3.2--py39h1fb70d6_0: sha256:0a7b6f76112eafec5e740af221284715a24d5c6fdb38e2ddee7d7e5732ef1e96
   0.3.4--py39h80cd5a4_0: sha256:f47dd29a0232905221b96a32c30ebaafbdd8505784b9566f2bf7aedb1f098bd2
+  1.1.10--py310h0dbaff4_0: sha256:857ce52fd0cd586b8459c608f49a046ad93e43ca7e6c6fa8d140884d7461d17f
+  1.0.0--py39h80cd5a4_0: sha256:4f0c5831ace810814d96419b6fcffe0b3e3a36ceecbb4e45a081b4db883cdc1b
+  0.3.10--py39h80cd5a4_1: sha256:2a9b0f62c1be86e77c4f69758c47f085af664935bbe5cb8f741417d989d2dabe
 docker: quay.io/biocontainers/pxblat
 aliases:
   pxblat: /usr/local/bin/pxblat

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/args_oap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for args_oap
 latest:
-  3.2.3--pyhdfd78af_0: sha256:66b7b8a203840da12ce70265a7989fdfd2ba4e14b793f2c4692751e24083761c
+  3.2.4--pyhdfd78af_0: sha256:aba2ea84efee111396da0c35ab96893b02c22c2ad57b50175a98de94356322e8
 tags:
   3.2.2--pyhdfd78af_0: sha256:035c6573848666c012677d1106e3fe929d4c27b5d031e6f653701a1d275546dd
   3.2.3--pyhdfd78af_0: sha256:66b7b8a203840da12ce70265a7989fdfd2ba4e14b793f2c4692751e24083761c
+  3.2.4--pyhdfd78af_0: sha256:aba2ea84efee111396da0c35ab96893b02c22c2ad57b50175a98de94356322e8
 docker: quay.io/biocontainers/args_oap
 aliases:
   args_oap: /usr/local/bin/args_oap

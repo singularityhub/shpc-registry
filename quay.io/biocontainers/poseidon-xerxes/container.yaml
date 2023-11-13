@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/poseidon-xerxes
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for poseidon-xerxes
 latest:
-  0.3.4.0--hf48d1a7_0: sha256:7311447a56c504dcf6198b6f51442da54e9ea97131c08d8c26382aa79215433a
+  1.0.0.2--hf48d1a7_0: sha256:144ee3c892aadc1024b1597e9a124f64c18e46bdb785f6ae80751642c933ae9a
 tags:
   0.1.2.2--h9325052_0: sha256:3e0ddc78b256db1fa2986c4dfc5b9357a8b15a36178b9acd0542b1466877733b
   0.1.2.2--h9325052_1: sha256:7e4198cea7e12f6af8bd19217ac340be177de18d3a48c269ede16a49a756dbba
   0.1.2.2--hf48d1a7_2: sha256:d51b114599b4969c6e3c1dd7cc010b60eb61fa95c4e6bdc4075c6070653a8257
   0.3.4.0--hf48d1a7_0: sha256:7311447a56c504dcf6198b6f51442da54e9ea97131c08d8c26382aa79215433a
+  1.0.0.2--hf48d1a7_0: sha256:144ee3c892aadc1024b1597e9a124f64c18e46bdb785f6ae80751642c933ae9a
 docker: quay.io/biocontainers/poseidon-xerxes
 aliases:
   xerxes: /usr/local/bin/xerxes

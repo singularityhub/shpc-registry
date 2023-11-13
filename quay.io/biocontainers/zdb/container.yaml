@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/zdb
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for zdb
 latest:
-  1.1.1--hdfd78af_0: sha256:414a41c144d1799345d4c61ee90c3d2edf7451353b3b4605348926785de05fe2
+  1.2.1--hdfd78af_1: sha256:17e66fdae6018154ae029e4728c521f2caec24703300254e93abfb3bc69afe00
 tags:
   1.0.4--hdfd78af_0: sha256:b0f9300d76d7e8a03792a45c47d254e6536928ffcddef5d52a06c36b4cd7e1f4
   1.0.7--hdfd78af_0: sha256:1ca4a88ba16997a9439432058b27d851d0f3f43ef6c4ebd792a94a88474caaa1
   1.1.0--hdfd78af_0: sha256:918db48eacfad4941083ab99baddbfe363da6e6727faa97faa4aae8aebd0c92f
   1.1.1--hdfd78af_0: sha256:414a41c144d1799345d4c61ee90c3d2edf7451353b3b4605348926785de05fe2
+  1.2.1--hdfd78af_1: sha256:17e66fdae6018154ae029e4728c521f2caec24703300254e93abfb3bc69afe00
 docker: quay.io/biocontainers/zdb
 aliases:
   nextflow: /usr/local/bin/nextflow
