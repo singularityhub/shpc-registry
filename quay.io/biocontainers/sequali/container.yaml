@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/sequali
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sequali
+latest:
+  0.1.0--py310h4b81fae_0: sha256:c8dc189b2acd08be95ed7abc240d2797730cb6d1fb4e54b4d215f67b6443acdf
+tags:
+  0.1.0--py310h4b81fae_0: sha256:c8dc189b2acd08be95ed7abc240d2797730cb6d1fb4e54b4d215f67b6443acdf
+docker: quay.io/biocontainers/sequali
+aliases:
+  pygal_gen.py: /usr/local/bin/pygal_gen.py
+  sequali: /usr/local/bin/sequali
+  sequali-report: /usr/local/bin/sequali-report
+  igzip: /usr/local/bin/igzip
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  tqdm: /usr/local/bin/tqdm
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
