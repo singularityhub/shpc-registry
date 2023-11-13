@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wfa2-lib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wfa2-lib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wfa2-lib/container.yaml"
-updated_at: "2023-11-13 03:09:29.288173"
+updated_at: "2023-11-13 03:31:03.489556"
 latest: "2.3.4--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/wfa2-lib"
 
