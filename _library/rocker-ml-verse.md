@@ -4,8 +4,8 @@ name:  "rocker/ml-verse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/ml-verse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/ml-verse/container.yaml"
-updated_at: "2023-11-13 03:34:12.093298"
-latest: "4.3.1"
+updated_at: "2023-11-14 03:10:06.540031"
+latest: "4.3.2"
 container_url: "https://hub.docker.com/r/rocker/ml-verse"
 aliases:
  - "R"
@@ -21,8 +21,9 @@ versions:
  - "4.2.3"
  - "4.3.0"
  - "4.3.1"
+ - "4.3.2"
 description: "Machine learning in R."
-config: {"docker": "rocker/ml-verse", "url": "https://hub.docker.com/r/rocker/ml-verse", "maintainer": "@vsoch", "description": "Machine learning in R.", "latest": {"4.3.1": "sha256:f5061320f2f4e0f49fc88ed557af71fcd74b1367a9905be938a7b4da9f2c8817"}, "tags": {"4.2.2": "sha256:8a941d8ddd47842481cc99c56d36db675773c2569d50d6fa2dfd3f2a89c23af4", "4.2.3": "sha256:231113e2337825f3347b7fe9a8cc8159340dcde9a78bac77a2257ea319a0915e", "4.3.0": "sha256:285ad4c001ae577fd1637bacbbc6d036455205f59f6a547d11b8433d3aef7fb7", "4.3.1": "sha256:f5061320f2f4e0f49fc88ed557af71fcd74b1367a9905be938a7b4da9f2c8817"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-ml-run": "/bin/bash", "rocker-ml-verse-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
+config: {"docker": "rocker/ml-verse", "url": "https://hub.docker.com/r/rocker/ml-verse", "maintainer": "@vsoch", "description": "Machine learning in R.", "latest": {"4.3.2": "sha256:b64d06840481d6991a03a33bc64f56d4a57cb117e9f276756a5b76b52e4cf009"}, "tags": {"4.2.2": "sha256:444acfc6096088d0d2bafcadabb923b580d2a2a62fcf822f316978523b5c0690", "4.2.3": "sha256:88f382225113d27131e7e498000070f7f94d7d23e12f396a7ba77bcb7c4e7979", "4.3.0": "sha256:dc71442bc8e9a55bd637a0370f6e268a5fee749c2b12329ba4b3c089e2c08b93", "4.3.1": "sha256:adeb0f8d886c123c4b8d12e9abc0590875355a235af6ea3000a777828347d4e3", "4.3.2": "sha256:b64d06840481d6991a03a33bc64f56d4a57cb117e9f276756a5b76b52e4cf009"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-ml-run": "/bin/bash", "rocker-ml-verse-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
 ---
 
 This module is a singularity container wrapper for rocker/ml-verse.
@@ -37,7 +38,7 @@ $ shpc install rocker/ml-verse
 Or a specific version:
 
 ```bash
-$ shpc install rocker/ml-verse:4.3.1
+$ shpc install rocker/ml-verse:4.3.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load rocker/ml-verse/4.3.1
-$ module help rocker/ml-verse/4.3.1
+$ module load rocker/ml-verse/4.3.2
+$ module help rocker/ml-verse/4.3.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

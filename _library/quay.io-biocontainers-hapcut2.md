@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hapcut2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hapcut2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hapcut2/container.yaml"
-updated_at: "2023-11-13 02:47:28.485047"
+updated_at: "2023-11-14 02:34:02.722478"
 latest: "1.3.3--h6141fd1_5"
 container_url: "https://biocontainers.pro/tools/hapcut2"
 aliases:

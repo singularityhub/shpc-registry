@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mimeo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mimeo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mimeo/container.yaml"
-updated_at: "2023-11-13 02:50:08.755714"
+updated_at: "2023-11-14 02:36:06.748180"
 latest: "1.1.1--py_2"
 container_url: "https://biocontainers.pro/tools/mimeo"
 aliases:

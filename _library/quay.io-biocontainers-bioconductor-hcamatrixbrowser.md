@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hcamatrixbrowser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hcamatrixbrowser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hcamatrixbrowser/container.yaml"
-updated_at: "2023-11-13 02:52:23.989623"
+updated_at: "2023-11-14 02:37:51.773578"
 latest: "1.0.1--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-hcamatrixbrowser"
 aliases:

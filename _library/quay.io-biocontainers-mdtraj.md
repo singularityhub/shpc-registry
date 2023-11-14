@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mdtraj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mdtraj/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mdtraj/container.yaml"
-updated_at: "2023-11-13 02:58:04.358476"
-latest: "1.9.7"
+updated_at: "2023-11-14 02:42:16.059476"
+latest: "1.9.9"
 container_url: "https://biocontainers.pro/tools/mdtraj"
 aliases:
  - "mdconvert"
@@ -22,8 +22,9 @@ aliases:
  - "h5watch"
 versions:
  - "1.9.7"
+ - "1.9.9"
 description: "shpc-registry automated BioContainers addition for mdtraj"
-config: {"url": "https://biocontainers.pro/tools/mdtraj", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mdtraj", "latest": {"1.9.7": "sha256:ef08949541d4cdc281f74af10852cbf5b597bacb95306fd9bcd553ad5d5a7a4f"}, "tags": {"1.9.7": "sha256:ef08949541d4cdc281f74af10852cbf5b597bacb95306fd9bcd553ad5d5a7a4f"}, "docker": "quay.io/biocontainers/mdtraj", "aliases": {"mdconvert": "/usr/local/bin/mdconvert", "mdinspect": "/usr/local/bin/mdinspect", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "f2py3.10": "/usr/local/bin/f2py3.10", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch"}}
+config: {"url": "https://biocontainers.pro/tools/mdtraj", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mdtraj", "latest": {"1.9.9": "sha256:8e75fdfbce6667990bca91788ff86b6055f807328517a6de6c5ee45aa30d0a9b"}, "tags": {"1.9.7": "sha256:ef08949541d4cdc281f74af10852cbf5b597bacb95306fd9bcd553ad5d5a7a4f", "1.9.9": "sha256:8e75fdfbce6667990bca91788ff86b6055f807328517a6de6c5ee45aa30d0a9b"}, "docker": "quay.io/biocontainers/mdtraj", "aliases": {"mdconvert": "/usr/local/bin/mdconvert", "mdinspect": "/usr/local/bin/mdinspect", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "f2py3.10": "/usr/local/bin/f2py3.10", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mdtraj.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/mdtraj
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mdtraj:1.9.7
+$ shpc install quay.io/biocontainers/mdtraj:1.9.9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mdtraj/1.9.7
-$ module help quay.io/biocontainers/mdtraj/1.9.7
+$ module load quay.io/biocontainers/mdtraj/1.9.9
+$ module help quay.io/biocontainers/mdtraj/1.9.9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

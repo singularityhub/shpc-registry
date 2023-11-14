@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flowcraft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flowcraft/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flowcraft/container.yaml"
-updated_at: "2023-11-13 03:21:07.756221"
+updated_at: "2023-11-14 02:59:58.235032"
 latest: "1.4.1--py_2"
 container_url: "https://biocontainers.pro/tools/flowcraft"
 aliases:

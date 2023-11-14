@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/provean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/provean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/provean/container.yaml"
-updated_at: "2023-11-13 02:47:09.135535"
+updated_at: "2023-11-14 02:33:47.759516"
 latest: "1.1.5--hdbdd923_2"
 container_url: "https://biocontainers.pro/tools/provean"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pauda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pauda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pauda/container.yaml"
-updated_at: "2023-11-13 03:23:37.358323"
+updated_at: "2023-11-14 03:01:55.060644"
 latest: "1.0.1--1"
 container_url: "https://biocontainers.pro/tools/pauda"
 aliases:

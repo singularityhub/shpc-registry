@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lpnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lpnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lpnet/container.yaml"
-updated_at: "2023-11-13 03:16:32.800154"
+updated_at: "2023-11-14 02:56:27.183792"
 latest: "2.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lpnet"
 
