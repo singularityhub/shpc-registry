@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pigz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pigz
 latest:
-  2.3.4: sha256:6309e2ad5f921ec09eab7166b68b1ea0fcb8702bee34aa499f0dca9065584c36
+  '2.8': sha256:4c256586c0deb165a4675aba8cd6bbbec9b45fced5c5806af5b60b6be7303542
 tags:
   2.3.4: sha256:6309e2ad5f921ec09eab7166b68b1ea0fcb8702bee34aa499f0dca9065584c36
+  '2.8': sha256:4c256586c0deb165a4675aba8cd6bbbec9b45fced5c5806af5b60b6be7303542
 docker: quay.io/biocontainers/pigz
 aliases:
   pigz: /usr/local/bin/pigz

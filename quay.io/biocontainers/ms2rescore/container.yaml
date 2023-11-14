@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ms2rescore
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ms2rescore
 latest:
-  3.0.0b1--pyhdfd78af_0: sha256:1a6a20f6bd9b922b38a8a7e9d6fc4614d0533a94236c98a8142b4e4e34adfae8
+  3.0.0b1--pyhdfd78af_1: sha256:8df1901c0c7dda3ad49afe365da7d764bcccf69768fee7a113a5e6eed6696838
 tags:
   3.0.0b1--pyhdfd78af_0: sha256:1a6a20f6bd9b922b38a8a7e9d6fc4614d0533a94236c98a8142b4e4e34adfae8
+  3.0.0b1--pyhdfd78af_1: sha256:8df1901c0c7dda3ad49afe365da7d764bcccf69768fee7a113a5e6eed6696838
 docker: quay.io/biocontainers/ms2rescore
 aliases:
   cpuinfo: /usr/local/bin/cpuinfo
