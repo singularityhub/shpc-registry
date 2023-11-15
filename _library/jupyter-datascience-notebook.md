@@ -4,7 +4,7 @@ name:  "jupyter/datascience-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/jupyter/datascience-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/jupyter/datascience-notebook/container.yaml"
-updated_at: "2023-11-14 03:09:11.335042"
+updated_at: "2023-11-15 03:12:01.818792"
 latest: "2023-10-10"
 container_url: "https://hub.docker.com/r/jupyter/datascience-notebook"
 aliases:

@@ -4,8 +4,8 @@ name:  "python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/python/container.yaml"
-updated_at: "2023-11-14 03:09:06.304734"
-latest: "3.12-rc"
+updated_at: "2023-11-15 03:11:56.795381"
+latest: "3.13-rc"
 container_url: "https://hub.docker.com/_/python"
 aliases:
  - "python"
@@ -26,8 +26,9 @@ versions:
  - "3.12-rc"
  - "3.11"
  - "3.12"
+ - "3.13-rc"
 description: "An interpreted, high-level and general-purpose programming language."
-config: {"docker": "python", "url": "https://hub.docker.com/_/python", "maintainer": "@vsoch", "description": "An interpreted, high-level and general-purpose programming language.", "latest": {"3.12-rc": "sha256:5cd18b1cf43ccc797ec20fadc9f9307bc709b7edca41675ff0c6eafd94479d9d"}, "tags": {"3.9.2-alpine": "sha256:f046c06388c0721961fe5c9b6184d2f8aeb7eb01b39601babab06cfd975dae01", "3.9.2-slim": "sha256:ce367bb30b8928efb632c369e3bd4a8dbd7905417bd0a245087a82c250e54a24", "3.9.4-alpine": "sha256:419a7502c95b49946fbdd8228b32243597d9e9f191ddfe5468a3b9b3fe64051d", "3.9.5-alpine": "sha256:7dd8962ad2a63403428d652a64d814a5002f1386379355edf5970e40557fe4e6", "3.9.6-alpine": "sha256:954ea8d05e9041d1dd17b69eb13708a60ef8b8bcc76d928beb4d137e2a9ceb30", "3.9.7": "sha256:8771691756bbf5beff80d64fca8f5b12e018352ddd9e30d8cdfef8cc3717b0e6", "3.9.9": "sha256:dd8335df6162579adadd56ff2b9fbd61199da5405c8856c6e34356c13b48cce4", "3.9.10": "sha256:3aae21920963df3205fba69826cc07fcf2fad91f9e062add921766b36e89e6e8", "3.10.0a7-alpine": "sha256:9b7958e47cd5bd4d092c3b28802493ad1870bce988b2f6ff97f6c81d96fcda80", "3.9": "sha256:597c368d03cc6eedbdcd2c02ce25df70ec5a005786bf8a068f8614aafb64382c", "3": "sha256:1615c71b5f3d48844b8d20cac4838f34267d96c3b061dcb6e4fda61a71599a9d", "3.11-rc": "sha256:871f5e5c05f66bfa5b22f506a60774dbd45fc65fd309d23e856ab124a7cbb17b", "3.10": "sha256:a20ae344b668753817b8bffb8628e068278d8ddbde1657f7b836fd74559beacd", "3.12-rc": "sha256:5cd18b1cf43ccc797ec20fadc9f9307bc709b7edca41675ff0c6eafd94479d9d", "3.11": "sha256:652c9f890a7f38bab4d67ee95c54d72955792623122cfea0a87aa74d927e41ae", "3.12": "sha256:1615c71b5f3d48844b8d20cac4838f34267d96c3b061dcb6e4fda61a71599a9d"}, "filter": ["3[.]*", "^(?!.*alpine).*$", "^(?!.*windows).*$"], "aliases": {"python": "/usr/local/bin/python"}}
+config: {"docker": "python", "url": "https://hub.docker.com/_/python", "maintainer": "@vsoch", "description": "An interpreted, high-level and general-purpose programming language.", "latest": {"3.13-rc": "sha256:06ab0ce92302d6ab138609e4427f283d8e247cd4e2649f72485575273394b647"}, "tags": {"3.9.2-alpine": "sha256:f046c06388c0721961fe5c9b6184d2f8aeb7eb01b39601babab06cfd975dae01", "3.9.2-slim": "sha256:ce367bb30b8928efb632c369e3bd4a8dbd7905417bd0a245087a82c250e54a24", "3.9.4-alpine": "sha256:419a7502c95b49946fbdd8228b32243597d9e9f191ddfe5468a3b9b3fe64051d", "3.9.5-alpine": "sha256:7dd8962ad2a63403428d652a64d814a5002f1386379355edf5970e40557fe4e6", "3.9.6-alpine": "sha256:954ea8d05e9041d1dd17b69eb13708a60ef8b8bcc76d928beb4d137e2a9ceb30", "3.9.7": "sha256:8771691756bbf5beff80d64fca8f5b12e018352ddd9e30d8cdfef8cc3717b0e6", "3.9.9": "sha256:dd8335df6162579adadd56ff2b9fbd61199da5405c8856c6e34356c13b48cce4", "3.9.10": "sha256:3aae21920963df3205fba69826cc07fcf2fad91f9e062add921766b36e89e6e8", "3.10.0a7-alpine": "sha256:9b7958e47cd5bd4d092c3b28802493ad1870bce988b2f6ff97f6c81d96fcda80", "3.9": "sha256:b6cc878074fdc6aff44867f42bf4cc6d18f4e71ed44027649856355b8e23dbe4", "3": "sha256:7b8d65a924f596eb65306214f559253c468336bcae09fd575429774563460caf", "3.11-rc": "sha256:871f5e5c05f66bfa5b22f506a60774dbd45fc65fd309d23e856ab124a7cbb17b", "3.10": "sha256:eac7369136625549bc3f7461fe072b1030f538ea20d6291e9b56896d6a40559c", "3.12-rc": "sha256:5cd18b1cf43ccc797ec20fadc9f9307bc709b7edca41675ff0c6eafd94479d9d", "3.11": "sha256:9e00960bde4d9aafdcbf2f0fc5b31b15e1824fc795fd9b472717d085b59cf07b", "3.12": "sha256:7b8d65a924f596eb65306214f559253c468336bcae09fd575429774563460caf", "3.13-rc": "sha256:06ab0ce92302d6ab138609e4427f283d8e247cd4e2649f72485575273394b647"}, "filter": ["3[.]*", "^(?!.*alpine).*$", "^(?!.*windows).*$"], "aliases": {"python": "/usr/local/bin/python"}}
 ---
 
 This module is a singularity container wrapper for python.
@@ -42,7 +43,7 @@ $ shpc install python
 Or a specific version:
 
 ```bash
-$ shpc install python:3.12-rc
+$ shpc install python:3.13-rc
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load python/3.12-rc
-$ module help python/3.12-rc
+$ module load python/3.13-rc
+$ module help python/3.13-rc
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

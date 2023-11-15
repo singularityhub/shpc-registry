@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/pigz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pigz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pigz/container.yaml"
-updated_at: "2023-11-14 03:05:44.508231"
-latest: "2.3.4"
+updated_at: "2023-11-15 03:08:34.382384"
+latest: "2.8"
 container_url: "https://biocontainers.pro/tools/pigz"
 aliases:
  - "pigz"
  - "unpigz"
 versions:
  - "2.3.4"
+ - "2.8"
 description: "shpc-registry automated BioContainers addition for pigz"
-config: {"url": "https://biocontainers.pro/tools/pigz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pigz", "latest": {"2.3.4": "sha256:6309e2ad5f921ec09eab7166b68b1ea0fcb8702bee34aa499f0dca9065584c36"}, "tags": {"2.3.4": "sha256:6309e2ad5f921ec09eab7166b68b1ea0fcb8702bee34aa499f0dca9065584c36"}, "docker": "quay.io/biocontainers/pigz", "aliases": {"pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz"}}
+config: {"url": "https://biocontainers.pro/tools/pigz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pigz", "latest": {"2.8": "sha256:4c256586c0deb165a4675aba8cd6bbbec9b45fced5c5806af5b60b6be7303542"}, "tags": {"2.3.4": "sha256:6309e2ad5f921ec09eab7166b68b1ea0fcb8702bee34aa499f0dca9065584c36", "2.8": "sha256:4c256586c0deb165a4675aba8cd6bbbec9b45fced5c5806af5b60b6be7303542"}, "docker": "quay.io/biocontainers/pigz", "aliases": {"pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pigz.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/pigz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pigz:2.3.4
+$ shpc install quay.io/biocontainers/pigz:2.8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pigz/2.3.4
-$ module help quay.io/biocontainers/pigz/2.3.4
+$ module load quay.io/biocontainers/pigz/2.8
+$ module help quay.io/biocontainers/pigz/2.8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

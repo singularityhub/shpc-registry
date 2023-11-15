@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-file-contents"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-file-contents/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-file-contents/container.yaml"
-updated_at: "2023-11-14 03:02:54.368622"
+updated_at: "2023-11-15 03:05:43.797203"
 latest: "0.23--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-test-file-contents"
 aliases:

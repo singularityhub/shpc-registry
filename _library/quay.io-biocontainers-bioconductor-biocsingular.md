@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biocsingular"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocsingular/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocsingular/container.yaml"
-updated_at: "2023-11-14 03:08:28.033441"
+updated_at: "2023-11-15 03:11:18.441330"
 latest: "1.16.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocsingular"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.14.0--r42hf17093f_1"
  - "1.16.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-biocsingular"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biocsingular", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocsingular", "latest": {"1.16.0--r43hf17093f_0": "sha256:8b5f054675cc838b5547efe4cbf1a8997e64c32e83c6010613ae208b7f53067c"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:fd3b32f137b53bc0b80de3e228eb3b0ada7ed3b44874d2a758ea25c260400ce0", "1.14.0--r42hc247a5b_0": "sha256:7dc3c235d53c2d055e5e07b10dc34623ce34a9ee827d2c3eee76cc11761ea9ec", "1.10.0--r41hc247a5b_2": "sha256:3d886422d26b941dc8dd8a2294b82625400d32f54eeb09d65ce8a56ca2aadcbf", "1.14.0--r42hf17093f_1": "sha256:2a4e4d0870a1db91d93b9a4b628c075bb90893c952975496c4d86129bccc7c32", "1.16.0--r43hf17093f_0": "sha256:8b5f054675cc838b5547efe4cbf1a8997e64c32e83c6010613ae208b7f53067c"}, "docker": "quay.io/biocontainers/bioconductor-biocsingular", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biocsingular", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocsingular", "latest": {"1.16.0--r43hf17093f_0": "crane digest quay.io/biocontainers/bioconductor-biocsingular:1.16.0--r43hf17093f_0: unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>. If not, click the link.\n"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:fd3b32f137b53bc0b80de3e228eb3b0ada7ed3b44874d2a758ea25c260400ce0", "1.14.0--r42hc247a5b_0": "crane digest quay.io/biocontainers/bioconductor-biocsingular:1.14.0--r42hc247a5b_0: unrecognized HTTP status: 502 Bad Gateway", "1.10.0--r41hc247a5b_2": "sha256:3d886422d26b941dc8dd8a2294b82625400d32f54eeb09d65ce8a56ca2aadcbf", "1.14.0--r42hf17093f_1": "sha256:2a4e4d0870a1db91d93b9a4b628c075bb90893c952975496c4d86129bccc7c32", "1.16.0--r43hf17093f_0": "crane digest quay.io/biocontainers/bioconductor-biocsingular:1.16.0--r43hf17093f_0: unsupported status code 502; body: <!doctype html>\n<html lang=en>\n<title>Redirecting...</title>\n <h1>Redirecting...</h1>\n<p>You should be redirected automatically to the target URL: <a href=\"https://quay.io/quay-registry/static/502.html/\">https://quay.io/quay-registry/static/502.html/</a>. If not, click the link.\n"}, "docker": "quay.io/biocontainers/bioconductor-biocsingular", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biocsingular.

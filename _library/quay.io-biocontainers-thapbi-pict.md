@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/thapbi-pict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/thapbi-pict/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/thapbi-pict/container.yaml"
-updated_at: "2023-11-14 02:28:30.152291"
+updated_at: "2023-11-15 02:31:12.659248"
 latest: "0.6.14--py_0"
 container_url: "https://biocontainers.pro/tools/thapbi-pict"
 aliases:
