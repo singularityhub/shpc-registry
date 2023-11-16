@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-slgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-slgi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-slgi/container.yaml"
-updated_at: "2023-11-16 02:56:23.300674"
+updated_at: "2023-11-16 03:16:35.590229"
 latest: "1.54.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-slgi"
 
