@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gtfparse
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gtfparse
 latest:
-  2.0.1--pyh7cba7a3_0: sha256:24b789270e606439b1b1e785904caa89216d639ff36c440edbaefcf20994afaa
+  2.0.1--pyh7cba7a3_1: sha256:faf8aecbcd8383e235f0287975c4addb91acafde9dffe1305e19b8fe034818ef
 tags:
   1.2.1--pyh864c0ab_0: sha256:1a7bf400b3710a919b5ff4d188fc72bb9627430a1f83c719401fc4eac451e2f6
   2.0.1--pyh7cba7a3_0: sha256:24b789270e606439b1b1e785904caa89216d639ff36c440edbaefcf20994afaa
+  2.0.1--pyh7cba7a3_1: sha256:faf8aecbcd8383e235f0287975c4addb91acafde9dffe1305e19b8fe034818ef
 docker: quay.io/biocontainers/gtfparse
 aliases:
   f2py3.8: /usr/local/bin/f2py3.8
