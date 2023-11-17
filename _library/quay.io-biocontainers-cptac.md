@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cptac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cptac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cptac/container.yaml"
-updated_at: "2023-11-16 02:55:20.723784"
-latest: "1.5.4--pyhdfd78af_0"
+updated_at: "2023-11-17 02:34:03.387480"
+latest: "1.5.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cptac"
 aliases:
  - "runxlrd.py"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.1.2--pyhdfd78af_0"
  - "1.5.4--pyhdfd78af_0"
+ - "1.5.7--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cptac"
-config: {"url": "https://biocontainers.pro/tools/cptac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cptac", "latest": {"1.5.4--pyhdfd78af_0": "sha256:11ce844a6b5897213b26748773b95a6606c91ad6d5286febf9056b3d571310c0"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:950b99e315ac77d15f6fc964932db5b270b686202126c9c85a4fded125697e59", "1.5.4--pyhdfd78af_0": "sha256:11ce844a6b5897213b26748773b95a6606c91ad6d5286febf9056b3d571310c0"}, "docker": "quay.io/biocontainers/cptac", "aliases": {"runxlrd.py": "/usr/local/bin/runxlrd.py", "flask": "/usr/local/bin/flask", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/cptac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cptac", "latest": {"1.5.7--pyhdfd78af_0": "sha256:dea3fa5854e2dbaa858fad53e474151c8ce0801f5d3b7155faf15d8a0e0354d5"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:950b99e315ac77d15f6fc964932db5b270b686202126c9c85a4fded125697e59", "1.5.4--pyhdfd78af_0": "sha256:11ce844a6b5897213b26748773b95a6606c91ad6d5286febf9056b3d571310c0", "1.5.7--pyhdfd78af_0": "sha256:dea3fa5854e2dbaa858fad53e474151c8ce0801f5d3b7155faf15d8a0e0354d5"}, "docker": "quay.io/biocontainers/cptac", "aliases": {"runxlrd.py": "/usr/local/bin/runxlrd.py", "flask": "/usr/local/bin/flask", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cptac.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/cptac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cptac:1.5.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cptac:1.5.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cptac/1.5.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/cptac/1.5.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/cptac/1.5.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/cptac/1.5.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

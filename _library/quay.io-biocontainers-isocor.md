@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/isocor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isocor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isocor/container.yaml"
-updated_at: "2023-11-16 03:26:25.451488"
-latest: "2.2.1--pyhdfd78af_0"
+updated_at: "2023-11-17 03:04:43.081627"
+latest: "2.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/isocor"
 aliases:
  - "isocor"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "2.2.0--py_0"
  - "2.2.1--pyhdfd78af_0"
+ - "2.2.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for isocor"
-config: {"url": "https://biocontainers.pro/tools/isocor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isocor", "latest": {"2.2.1--pyhdfd78af_0": "sha256:d7401c5651820c241c0ceeaffa1f7bded03b59b9180fdbb7e8773616d18cf00f"}, "tags": {"2.2.0--py_0": "sha256:f8aa7f264418d3a5a1eb10bf6ddfa23e70b17f0236e070df28f72313278b519e", "2.2.1--pyhdfd78af_0": "sha256:d7401c5651820c241c0ceeaffa1f7bded03b59b9180fdbb7e8773616d18cf00f"}, "docker": "quay.io/biocontainers/isocor", "aliases": {"isocor": "/usr/local/bin/isocor", "isocorcli": "/usr/local/bin/isocorcli", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/isocor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isocor", "latest": {"2.2.2--pyhdfd78af_0": "sha256:3e6b60beba57248ac969fd99d446700c8c3ba1c86bd138f45cff614a3c2c0e75"}, "tags": {"2.2.0--py_0": "sha256:f8aa7f264418d3a5a1eb10bf6ddfa23e70b17f0236e070df28f72313278b519e", "2.2.1--pyhdfd78af_0": "sha256:d7401c5651820c241c0ceeaffa1f7bded03b59b9180fdbb7e8773616d18cf00f", "2.2.2--pyhdfd78af_0": "sha256:3e6b60beba57248ac969fd99d446700c8c3ba1c86bd138f45cff614a3c2c0e75"}, "docker": "quay.io/biocontainers/isocor", "aliases": {"isocor": "/usr/local/bin/isocor", "isocorcli": "/usr/local/bin/isocorcli", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/isocor.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/isocor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/isocor:2.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/isocor:2.2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/isocor/2.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/isocor/2.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/isocor/2.2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/isocor/2.2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-coexnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-coexnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-coexnet/container.yaml"
-updated_at: "2023-11-16 02:55:42.718253"
+updated_at: "2023-11-17 02:34:25.177411"
 latest: "1.19.1--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-coexnet"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multisub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multisub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multisub/container.yaml"
-updated_at: "2023-11-16 03:15:44.830482"
+updated_at: "2023-11-17 02:54:10.942189"
 latest: "1.0.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/multisub"
 aliases:
