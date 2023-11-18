@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-momr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-momr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-momr/container.yaml"
-updated_at: "2023-11-17 02:35:10.028136"
+updated_at: "2023-11-18 02:33:13.667018"
 latest: "1.1--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-momr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-retrofit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-retrofit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-retrofit/container.yaml"
-updated_at: "2023-11-17 02:29:13.324886"
+updated_at: "2023-11-18 02:47:27.747617"
 latest: "1.0.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-retrofit"
 aliases:

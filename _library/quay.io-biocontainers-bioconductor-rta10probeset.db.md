@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rta10probeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rta10probeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rta10probeset.db/container.yaml"
-updated_at: "2023-11-17 03:00:46.608779"
+updated_at: "2023-11-18 02:49:11.536147"
 latest: "8.8.0--r43hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-rta10probeset.db"
 

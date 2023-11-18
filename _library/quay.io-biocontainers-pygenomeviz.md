@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pygenomeviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygenomeviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygenomeviz/container.yaml"
-updated_at: "2023-11-17 02:44:21.683348"
-latest: "0.4.3--pyhdfd78af_0"
+updated_at: "2023-11-18 02:34:16.240888"
+latest: "0.4.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pygenomeviz"
 aliases:
  - "f2py3.11"
@@ -39,8 +39,9 @@ versions:
  - "0.4.1--pyhdfd78af_0"
  - "0.4.2--pyhdfd78af_0"
  - "0.4.3--pyhdfd78af_0"
+ - "0.4.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pygenomeviz"
-config: {"url": "https://biocontainers.pro/tools/pygenomeviz", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pygenomeviz", "latest": {"0.4.3--pyhdfd78af_0": "sha256:a6d3289fdb55618813c126a3f0d499681c43a53675ad8c1dc791ef3b4f13a5dd"}, "tags": {"0.3.2--pyhdfd78af_0": "sha256:358782e8f632f3589612464a3118999db82b9d728dd3983da9cd84e6bda3d278", "0.4.1--pyhdfd78af_0": "sha256:f0f43b30e2b641746d0c0a36d2129c98d984684765223901cdcc7af9c228585f", "0.4.2--pyhdfd78af_0": "sha256:d625ae1776a93db2303491e776beb7c989edcbed71071542b3b7f90855a2cbab", "0.4.3--pyhdfd78af_0": "sha256:a6d3289fdb55618813c126a3f0d499681c43a53675ad8c1dc791ef3b4f13a5dd"}, "docker": "quay.io/biocontainers/pygenomeviz", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "pgv-download-dataset": "/usr/local/bin/pgv-download-dataset", "pgv-mmseqs": "/usr/local/bin/pgv-mmseqs", "pgv-mummer": "/usr/local/bin/pgv-mummer", "pgv-pmauve": "/usr/local/bin/pgv-pmauve", "pgv-simpleplot": "/usr/local/bin/pgv-simpleplot", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/pygenomeviz", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pygenomeviz", "latest": {"0.4.4--pyhdfd78af_0": "sha256:69f5b204be98692bbef899171b6e4a376d7df63a6489e6e20480911fbd23b01e"}, "tags": {"0.3.2--pyhdfd78af_0": "sha256:358782e8f632f3589612464a3118999db82b9d728dd3983da9cd84e6bda3d278", "0.4.1--pyhdfd78af_0": "sha256:f0f43b30e2b641746d0c0a36d2129c98d984684765223901cdcc7af9c228585f", "0.4.2--pyhdfd78af_0": "sha256:d625ae1776a93db2303491e776beb7c989edcbed71071542b3b7f90855a2cbab", "0.4.3--pyhdfd78af_0": "sha256:a6d3289fdb55618813c126a3f0d499681c43a53675ad8c1dc791ef3b4f13a5dd", "0.4.4--pyhdfd78af_0": "sha256:69f5b204be98692bbef899171b6e4a376d7df63a6489e6e20480911fbd23b01e"}, "docker": "quay.io/biocontainers/pygenomeviz", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "pgv-download-dataset": "/usr/local/bin/pgv-download-dataset", "pgv-mmseqs": "/usr/local/bin/pgv-mmseqs", "pgv-mummer": "/usr/local/bin/pgv-mummer", "pgv-pmauve": "/usr/local/bin/pgv-pmauve", "pgv-simpleplot": "/usr/local/bin/pgv-simpleplot", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pygenomeviz.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/pygenomeviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pygenomeviz:0.4.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pygenomeviz:0.4.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pygenomeviz/0.4.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/pygenomeviz/0.4.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/pygenomeviz/0.4.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/pygenomeviz/0.4.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

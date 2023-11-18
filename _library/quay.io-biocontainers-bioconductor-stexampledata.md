@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-stexampledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stexampledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stexampledata/container.yaml"
-updated_at: "2023-11-17 02:45:15.953644"
+updated_at: "2023-11-18 02:59:11.271974"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stexampledata"
 aliases:
