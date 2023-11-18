@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/perl-math-bigint
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-math-bigint
 latest:
-  1.999842--pl5321hdfd78af_0: sha256:64bf7116679d8d98ae20fe8b66f060060aeae3882b1534ab03d58738d299d990
+  2.001000--pl5321hdfd78af_0: sha256:cfd90ab60c56156519f284e7dda116e67db19dd5b74b57f240cfd796858077b9
 tags:
   1.999837--pl5321hdfd78af_0: sha256:4868e5e1464818f7756a27ef93e27f84af8855e53e2a604beec4e35d8d4e5973
   1.999838--pl5321hdfd78af_0: sha256:ad1b96d33f540f00081f7e520f7d3bc1382f9fcfef705697c1b0ff7668b67767
   1.999839--pl5321hdfd78af_0: sha256:db31cc4dad65b78fdc2fab945750e298ea9528ff28bfd4d38aa6a29d8b3d4c42
   1.999842--pl5321hdfd78af_0: sha256:64bf7116679d8d98ae20fe8b66f060060aeae3882b1534ab03d58738d299d990
   1.999841--pl5321hdfd78af_0: sha256:00df165258ef204bec7c54dd53ae0147eb6028196cc078f71dc3ef13d9c3f326
+  2.001000--pl5321hdfd78af_0: sha256:cfd90ab60c56156519f284e7dda116e67db19dd5b74b57f240cfd796858077b9
+  2.000000--pl5321hdfd78af_0: sha256:ea96c8a5efb2bbacbd1133dce81b5f5cb40d272cdfcb5b214f5b291b7b7cf18d
 docker: quay.io/biocontainers/perl-math-bigint
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/snakesv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for snakesv
 latest:
-  0.6--hdfd78af_0: sha256:01604843db5dca72052dd24cafae0dd33f5c7b9099ee8f3557a324079812aa42
+  0.8--py311hdfd78af_1: sha256:52a16654d705dd9fd4acf307331153cf4607fcff284d7c319bd82d1eb2c57015
 tags:
   0.6--hdfd78af_0: sha256:01604843db5dca72052dd24cafae0dd33f5c7b9099ee8f3557a324079812aa42
+  0.8--py311hdfd78af_1: sha256:52a16654d705dd9fd4acf307331153cf4607fcff284d7c319bd82d1eb2c57015
+  0.7--hdfd78af_3: sha256:e459dcd279abba7aea8b2ef57a522ca6ebec2a2768e4734f289db1a0b6c8c849
 docker: quay.io/biocontainers/snakesv
 aliases:
   01_prepare_short_read.sh: /usr/local/bin/01_prepare_short_read.sh

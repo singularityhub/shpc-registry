@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/curare
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for curare
 latest:
-  0.4.5--pypyhdfd78af_0: sha256:94d4f2afc27bff1d3c7c0a3312195734cd8c82e71c348f08dcd40bf12ba54b83
+  0.5.1--pyhdfd78af_0: sha256:68bd35171cfe3c9775bd94999fcbf9987f4bf23d89a89f5741254302a36509e6
 tags:
   0.4.5--pypyhdfd78af_0: sha256:94d4f2afc27bff1d3c7c0a3312195734cd8c82e71c348f08dcd40bf12ba54b83
+  0.5.1--pyhdfd78af_0: sha256:68bd35171cfe3c9775bd94999fcbf9987f4bf23d89a89f5741254302a36509e6
 docker: quay.io/biocontainers/curare
 aliases:
   bsdcat: /usr/local/bin/bsdcat
