@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bacphlip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bacphlip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bacphlip/container.yaml"
-updated_at: "2023-11-18 02:42:26.051938"
+updated_at: "2023-11-19 03:00:47.391717"
 latest: "0.9.6--py_0"
 container_url: "https://biocontainers.pro/tools/bacphlip"
 aliases:

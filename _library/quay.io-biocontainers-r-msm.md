@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-msm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-msm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-msm/container.yaml"
-updated_at: "2023-11-18 02:57:51.509959"
+updated_at: "2023-11-19 02:53:03.239731"
 latest: "1.6.7--r351h96ca727_0"
 container_url: "https://biocontainers.pro/tools/r-msm"
 aliases:

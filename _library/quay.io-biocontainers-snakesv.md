@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakesv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakesv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakesv/container.yaml"
-updated_at: "2023-11-18 03:00:19.280322"
-latest: "0.6--hdfd78af_0"
+updated_at: "2023-11-19 02:39:11.277439"
+latest: "0.8--py311hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/snakesv"
 aliases:
  - "01_prepare_short_read.sh"
@@ -36,8 +36,10 @@ aliases:
  - "snakemake"
 versions:
  - "0.6--hdfd78af_0"
+ - "0.8--py311hdfd78af_1"
+ - "0.7--hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for snakesv"
-config: {"url": "https://biocontainers.pro/tools/snakesv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakesv", "latest": {"0.6--hdfd78af_0": "sha256:01604843db5dca72052dd24cafae0dd33f5c7b9099ee8f3557a324079812aa42"}, "tags": {"0.6--hdfd78af_0": "sha256:01604843db5dca72052dd24cafae0dd33f5c7b9099ee8f3557a324079812aa42"}, "docker": "quay.io/biocontainers/snakesv", "aliases": {"01_prepare_short_read.sh": "/usr/local/bin/01_prepare_short_read.sh", "02_download_gtf_annotation.sh": "/usr/local/bin/02_download_gtf_annotation.sh", "03_prepare_long_read.sh": "/usr/local/bin/03_prepare_long_read.sh", "04_download_custom_annotation.sh": "/usr/local/bin/04_download_custom_annotation.sh", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "snakeSV": "/usr/local/bin/snakeSV", "testsolv": "/usr/local/bin/testsolv", "stone": "/usr/local/bin/stone", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "pulptest": "/usr/local/bin/pulptest", "gff2gff.py": "/usr/local/bin/gff2gff.py", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake"}}
+config: {"url": "https://biocontainers.pro/tools/snakesv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakesv", "latest": {"0.8--py311hdfd78af_1": "sha256:52a16654d705dd9fd4acf307331153cf4607fcff284d7c319bd82d1eb2c57015"}, "tags": {"0.6--hdfd78af_0": "sha256:01604843db5dca72052dd24cafae0dd33f5c7b9099ee8f3557a324079812aa42", "0.8--py311hdfd78af_1": "sha256:52a16654d705dd9fd4acf307331153cf4607fcff284d7c319bd82d1eb2c57015", "0.7--hdfd78af_3": "sha256:e459dcd279abba7aea8b2ef57a522ca6ebec2a2768e4734f289db1a0b6c8c849"}, "docker": "quay.io/biocontainers/snakesv", "aliases": {"01_prepare_short_read.sh": "/usr/local/bin/01_prepare_short_read.sh", "02_download_gtf_annotation.sh": "/usr/local/bin/02_download_gtf_annotation.sh", "03_prepare_long_read.sh": "/usr/local/bin/03_prepare_long_read.sh", "04_download_custom_annotation.sh": "/usr/local/bin/04_download_custom_annotation.sh", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "snakeSV": "/usr/local/bin/snakeSV", "testsolv": "/usr/local/bin/testsolv", "stone": "/usr/local/bin/stone", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "pulptest": "/usr/local/bin/pulptest", "gff2gff.py": "/usr/local/bin/gff2gff.py", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakesv.
@@ -52,7 +54,7 @@ $ shpc install quay.io/biocontainers/snakesv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakesv:0.6--hdfd78af_0
+$ shpc install quay.io/biocontainers/snakesv:0.8--py311hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakesv/0.6--hdfd78af_0
-$ module help quay.io/biocontainers/snakesv/0.6--hdfd78af_0
+$ module load quay.io/biocontainers/snakesv/0.8--py311hdfd78af_1
+$ module help quay.io/biocontainers/snakesv/0.8--py311hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

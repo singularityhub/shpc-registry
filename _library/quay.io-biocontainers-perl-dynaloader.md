@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-dynaloader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-dynaloader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-dynaloader/container.yaml"
-updated_at: "2023-11-18 02:35:11.610732"
+updated_at: "2023-11-19 03:11:15.361127"
 latest: "1.25--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-dynaloader"
 aliases:

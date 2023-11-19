@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ahocorasicktrie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ahocorasicktrie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ahocorasicktrie/container.yaml"
-updated_at: "2023-11-18 02:54:50.596304"
+updated_at: "2023-11-19 03:11:34.011025"
 latest: "0.1.0--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-ahocorasicktrie"
 aliases:

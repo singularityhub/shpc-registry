@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/popgen-entropy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/popgen-entropy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/popgen-entropy/container.yaml"
-updated_at: "2023-11-18 02:59:07.681966"
+updated_at: "2023-11-19 02:40:50.123905"
 latest: "2.0--h0469059_8"
 container_url: "https://biocontainers.pro/tools/popgen-entropy"
 aliases:

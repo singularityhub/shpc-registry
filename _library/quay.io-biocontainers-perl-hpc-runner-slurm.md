@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-hpc-runner-slurm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hpc-runner-slurm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hpc-runner-slurm/container.yaml"
-updated_at: "2023-11-18 03:07:21.741546"
+updated_at: "2023-11-19 02:32:55.398202"
 latest: "2.58--2"
 container_url: "https://biocontainers.pro/tools/perl-hpc-runner-slurm"
 aliases:

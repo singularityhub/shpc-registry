@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-orange"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-orange/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-orange/container.yaml"
-updated_at: "2023-11-18 02:34:14.278575"
+updated_at: "2023-11-19 02:57:56.985946"
 latest: "3.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-orange"
 aliases:

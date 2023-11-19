@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgat-daisy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgat-daisy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-daisy/container.yaml"
-updated_at: "2023-11-18 02:54:56.384159"
+updated_at: "2023-11-19 03:13:19.675810"
 latest: "0.1.12--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/cgat-daisy"
 aliases:

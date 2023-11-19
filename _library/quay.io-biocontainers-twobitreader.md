@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/twobitreader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/twobitreader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/twobitreader/container.yaml"
-updated_at: "2023-11-18 02:56:54.664434"
+updated_at: "2023-11-19 03:11:22.526674"
 latest: "3.1.7--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/twobitreader"
 aliases:

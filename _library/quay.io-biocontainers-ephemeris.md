@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ephemeris"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ephemeris/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ephemeris/container.yaml"
-updated_at: "2023-11-18 02:29:51.670554"
+updated_at: "2023-11-19 02:41:12.390723"
 latest: "0.10.8--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/ephemeris"
 aliases:

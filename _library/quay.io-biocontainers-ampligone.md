@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ampligone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ampligone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ampligone/container.yaml"
-updated_at: "2023-11-18 02:35:25.516371"
+updated_at: "2023-11-19 03:02:48.208907"
 latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ampligone"
 aliases:

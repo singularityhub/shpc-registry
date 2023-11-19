@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/paraview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/paraview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/paraview/container.yaml"
-updated_at: "2023-11-18 02:55:30.990725"
+updated_at: "2023-11-19 02:48:00.935113"
 latest: "5.2.0--py27_2"
 container_url: "https://biocontainers.pro/tools/paraview"
 aliases:

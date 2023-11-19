@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cansnper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cansnper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cansnper/container.yaml"
-updated_at: "2023-11-18 03:06:45.812558"
+updated_at: "2023-11-19 02:39:56.295298"
 latest: "1.0.10--py_1"
 container_url: "https://biocontainers.pro/tools/cansnper"
 

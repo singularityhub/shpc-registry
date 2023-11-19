@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/leviathan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/leviathan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/leviathan/container.yaml"
-updated_at: "2023-11-18 02:40:31.392786"
+updated_at: "2023-11-19 03:07:30.693830"
 latest: "1.0.2--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/leviathan"
 aliases:
