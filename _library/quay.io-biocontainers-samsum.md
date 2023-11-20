@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samsum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samsum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samsum/container.yaml"
-updated_at: "2023-11-19 03:09:49.089538"
+updated_at: "2023-11-20 03:08:51.966147"
 latest: "0.1.4--py39hf662ef1_3"
 container_url: "https://biocontainers.pro/tools/samsum"
 aliases:

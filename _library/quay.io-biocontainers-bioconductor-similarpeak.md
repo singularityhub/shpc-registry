@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-similarpeak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-similarpeak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-similarpeak/container.yaml"
-updated_at: "2023-11-19 02:39:42.244598"
+updated_at: "2023-11-20 02:38:55.747829"
 latest: "1.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-similarpeak"
 aliases:
