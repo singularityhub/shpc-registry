@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ga4ghshiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ga4ghshiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ga4ghshiny/container.yaml"
-updated_at: "2023-11-20 02:54:44.268666"
+updated_at: "2023-11-20 03:00:40.022438"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ga4ghshiny"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mikado"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mikado/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mikado/container.yaml"
-updated_at: "2023-11-20 03:10:18.760801"
+updated_at: "2023-11-20 03:15:58.684119"
 latest: "2.2.4--py39h70b41aa_0"
 container_url: "https://biocontainers.pro/tools/mikado"
 aliases:
