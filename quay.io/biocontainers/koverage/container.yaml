@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/koverage
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for koverage
 latest:
-  0.1.6--pyhdfd78af_0: sha256:cd976f6064292a58632853097af1f8b06e522ba3f3ade133bafd655694c28b2f
+  0.1.7--pyhdfd78af_0: sha256:f1a4f43e7ba10f174ff8f2777004210a50fa2c6f8124c88f0125d0095a1d6c29
 tags:
   0.1.6--pyhdfd78af_0: sha256:cd976f6064292a58632853097af1f8b06e522ba3f3ade133bafd655694c28b2f
+  0.1.7--pyhdfd78af_0: sha256:f1a4f43e7ba10f174ff8f2777004210a50fa2c6f8124c88f0125d0095a1d6c29
 docker: quay.io/biocontainers/koverage
 aliases:
   cmtime: /usr/local/bin/cmtime
