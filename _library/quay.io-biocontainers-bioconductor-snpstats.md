@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-snpstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snpstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snpstats/container.yaml"
-updated_at: "2023-11-20 03:10:34.438321"
+updated_at: "2023-11-21 02:44:49.413789"
 latest: "1.50.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-snpstats"
 

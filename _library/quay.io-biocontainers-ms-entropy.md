@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ms-entropy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ms-entropy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ms-entropy/container.yaml"
-updated_at: "2023-11-20 02:37:04.605082"
-latest: "1.0.2--py38he5da3d1_0"
+updated_at: "2023-11-21 02:58:50.760373"
+latest: "1.1.1--py39hf95cd2a_0"
 container_url: "https://biocontainers.pro/tools/ms-entropy"
 aliases:
  - "f2py3.9"
@@ -18,8 +18,10 @@ versions:
  - "0.9.11--py39hf95cd2a_0"
  - "0.9.12--py39hf95cd2a_0"
  - "1.0.2--py38he5da3d1_0"
+ - "1.1.1--py39hf95cd2a_0"
+ - "1.0.4--py39hf95cd2a_0"
 description: "singularity registry hpc automated addition for ms-entropy"
-config: {"url": "https://biocontainers.pro/tools/ms-entropy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ms-entropy", "latest": {"1.0.2--py38he5da3d1_0": "sha256:137e0aa1e63664ce757b015c3614d2010ef8f376414f73917ac63f9ae9ba25b8"}, "tags": {"0.9.11--py39hf95cd2a_0": "sha256:9a214f867f7e25607222706c91c9e85003bdffabd968d1a66dd033b24026fc3a", "0.9.12--py39hf95cd2a_0": "sha256:7e003f0fbcac40d0083c5dd52d9e480eef120f804b8a0bb70862ac98c4bc8222", "1.0.2--py38he5da3d1_0": "sha256:137e0aa1e63664ce757b015c3614d2010ef8f376414f73917ac63f9ae9ba25b8"}, "docker": "quay.io/biocontainers/ms-entropy", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/ms-entropy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ms-entropy", "latest": {"1.1.1--py39hf95cd2a_0": "sha256:884532bba6b8755a13fb3935c0d6a7102ce281e3adc5e25a247d121adc1cefa6"}, "tags": {"0.9.11--py39hf95cd2a_0": "sha256:9a214f867f7e25607222706c91c9e85003bdffabd968d1a66dd033b24026fc3a", "0.9.12--py39hf95cd2a_0": "sha256:7e003f0fbcac40d0083c5dd52d9e480eef120f804b8a0bb70862ac98c4bc8222", "1.0.2--py38he5da3d1_0": "sha256:137e0aa1e63664ce757b015c3614d2010ef8f376414f73917ac63f9ae9ba25b8", "1.1.1--py39hf95cd2a_0": "sha256:884532bba6b8755a13fb3935c0d6a7102ce281e3adc5e25a247d121adc1cefa6", "1.0.4--py39hf95cd2a_0": "sha256:7ab28059fd65e8bc3204a088eb1fdf01c2628dcf8361879efca07206dcddf0f6"}, "docker": "quay.io/biocontainers/ms-entropy", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ms-entropy.
@@ -34,7 +36,7 @@ $ shpc install quay.io/biocontainers/ms-entropy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ms-entropy:1.0.2--py38he5da3d1_0
+$ shpc install quay.io/biocontainers/ms-entropy:1.1.1--py39hf95cd2a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ms-entropy/1.0.2--py38he5da3d1_0
-$ module help quay.io/biocontainers/ms-entropy/1.0.2--py38he5da3d1_0
+$ module load quay.io/biocontainers/ms-entropy/1.1.1--py39hf95cd2a_0
+$ module help quay.io/biocontainers/ms-entropy/1.1.1--py39hf95cd2a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

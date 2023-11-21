@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quickmerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quickmerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quickmerge/container.yaml"
-updated_at: "2023-11-20 02:55:43.815767"
+updated_at: "2023-11-21 03:00:36.082845"
 latest: "0.3--pl5321hdbdd923_5"
 container_url: "https://biocontainers.pro/tools/quickmerge"
 aliases:

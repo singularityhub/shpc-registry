@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/extracthifi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extracthifi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/extracthifi/container.yaml"
-updated_at: "2023-11-20 02:45:26.746726"
+updated_at: "2023-11-21 02:52:14.759516"
 latest: "1.0.0--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/extracthifi"
 aliases:

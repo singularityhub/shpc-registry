@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gmap/container.yaml"
-updated_at: "2023-11-20 02:52:26.249223"
+updated_at: "2023-11-21 03:08:02.419540"
 latest: "2020.06.01--pl526h2f06484_1"
 container_url: "https://biocontainers.pro/tools/gmap"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-occugene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-occugene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-occugene/container.yaml"
-updated_at: "2023-11-20 02:52:24.892977"
+updated_at: "2023-11-21 02:54:48.280249"
 latest: "1.60.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-occugene"
 
