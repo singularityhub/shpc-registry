@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/goalign
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for goalign
 latest:
-  0.3.6--h9ee0642_0: sha256:2279c6da8d61d3e2c55fda80ecc6aeb595ebd525867b787800d40d032db42012
+  0.3.7--h9ee0642_0: sha256:fabebc9f56a370b4577ff163fd213646f53e6f43ffa64745cf8ed13b7b7208e4
 tags:
   0.3.5--h4b4d50d_1: sha256:6e4e94a717a283c00bcedb937a6d4a38939253f0124e52225a29b341b0cde1dd
   0.3.6--h9ee0642_0: sha256:2279c6da8d61d3e2c55fda80ecc6aeb595ebd525867b787800d40d032db42012
+  0.3.7--h9ee0642_0: sha256:fabebc9f56a370b4577ff163fd213646f53e6f43ffa64745cf8ed13b7b7208e4
 docker: quay.io/biocontainers/goalign
 aliases:
   goalign: /usr/local/bin/goalign

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/chronumental
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for chronumental
 latest:
-  0.0.61--pyhdfd78af_0: sha256:dd50e65fc039f202eb445f9c6e90b5e763cd14c407d6e1a5c5d663cb00a808c5
+  0.0.63--pyhdfd78af_0: sha256:d9948b1e2e0d630522a4d63d1bbbebae430f018e7d1232185c26094d422161fb
 tags:
   0.0.50--pyhdfd78af_0: sha256:16d037a4f72507b6d9b18d60bc60fe0304bb9998e77bbda766ae14b04105efef
   0.0.61--pyhdfd78af_0: sha256:dd50e65fc039f202eb445f9c6e90b5e763cd14c407d6e1a5c5d663cb00a808c5
+  0.0.63--pyhdfd78af_0: sha256:d9948b1e2e0d630522a4d63d1bbbebae430f018e7d1232185c26094d422161fb
 docker: quay.io/biocontainers/chronumental
 aliases:
   chronumental: /usr/local/bin/chronumental

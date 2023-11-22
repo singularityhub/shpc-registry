@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fit_nbinom
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fit_nbinom
 latest:
-  1.1--pyh864c0ab_2: sha256:47379db7e4ecbee835a970186b2a5e42f8d4398622e2bae1a08534f5c06a1976
+  1.2--pyh7cba7a3_0: sha256:cb5ae23bd4f4ae02810a605417ae94e6dd799c081da88b4654ae93b99fba0835
 tags:
   1.1--pyh864c0ab_2: sha256:47379db7e4ecbee835a970186b2a5e42f8d4398622e2bae1a08534f5c06a1976
+  1.2--pyh7cba7a3_0: sha256:cb5ae23bd4f4ae02810a605417ae94e6dd799c081da88b4654ae93b99fba0835
 docker: quay.io/biocontainers/fit_nbinom
 aliases:
   f2py3.8: /usr/local/bin/f2py3.8
