@@ -4,7 +4,7 @@ name:  "nvcr.io/nvidia/pytorch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia/pytorch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/nvidia/pytorch/container.yaml"
-updated_at: "2023-11-21 02:32:02.490463"
+updated_at: "2023-11-22 02:31:15.595825"
 latest: "sha256-ab303284646e417327ae1589b3768e04211669438110efec6c7fccad476b4b18.vex"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia:pytorch/tags"
 

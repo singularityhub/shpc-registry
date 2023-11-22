@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bifrost"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bifrost/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bifrost/container.yaml"
-updated_at: "2023-11-21 03:08:33.364936"
-latest: "1.2.1--h43eeafb_0"
+updated_at: "2023-11-22 03:07:58.542070"
+latest: "1.3.1--h43eeafb_0"
 container_url: "https://biocontainers.pro/tools/bifrost"
 aliases:
  - "Bifrost"
@@ -14,8 +14,9 @@ versions:
  - "1.2.0--h5b5514e_0"
  - "1.2.0--h43eeafb_2"
  - "1.2.1--h43eeafb_0"
+ - "1.3.1--h43eeafb_0"
 description: "shpc-registry automated BioContainers addition for bifrost"
-config: {"url": "https://biocontainers.pro/tools/bifrost", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bifrost", "latest": {"1.2.1--h43eeafb_0": "sha256:6fe5c765eb938512b5b0796bdcd34184ce7a3ea25b0f43eaaff49e517e34133f"}, "tags": {"1.0.6.5--h5b5514e_1": "sha256:933b5a1374ae058685ce41ba2e0f1e5b8d25078a0acceb6064758af2d7272dfe", "1.2.0--h5b5514e_0": "sha256:506e372ae617f1cb6b05ae9a19562cf4b06ce0f41931caee777c1101cc37576d", "1.2.0--h43eeafb_2": "sha256:a003f4b3ee571fa7119ec58e626f5f712972bd53fbcc1b79c02041fd0c685f1b", "1.2.1--h43eeafb_0": "sha256:6fe5c765eb938512b5b0796bdcd34184ce7a3ea25b0f43eaaff49e517e34133f"}, "docker": "quay.io/biocontainers/bifrost", "aliases": {"Bifrost": "/usr/local/bin/Bifrost"}}
+config: {"url": "https://biocontainers.pro/tools/bifrost", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bifrost", "latest": {"1.3.1--h43eeafb_0": "sha256:930a4e4d5709d78168a333e3058ba7274e337deeaa7b97a2a80245b09f68426b"}, "tags": {"1.0.6.5--h5b5514e_1": "sha256:933b5a1374ae058685ce41ba2e0f1e5b8d25078a0acceb6064758af2d7272dfe", "1.2.0--h5b5514e_0": "sha256:506e372ae617f1cb6b05ae9a19562cf4b06ce0f41931caee777c1101cc37576d", "1.2.0--h43eeafb_2": "sha256:a003f4b3ee571fa7119ec58e626f5f712972bd53fbcc1b79c02041fd0c685f1b", "1.2.1--h43eeafb_0": "sha256:6fe5c765eb938512b5b0796bdcd34184ce7a3ea25b0f43eaaff49e517e34133f", "1.3.1--h43eeafb_0": "sha256:930a4e4d5709d78168a333e3058ba7274e337deeaa7b97a2a80245b09f68426b"}, "docker": "quay.io/biocontainers/bifrost", "aliases": {"Bifrost": "/usr/local/bin/Bifrost"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bifrost.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bifrost
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bifrost:1.2.1--h43eeafb_0
+$ shpc install quay.io/biocontainers/bifrost:1.3.1--h43eeafb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bifrost/1.2.1--h43eeafb_0
-$ module help quay.io/biocontainers/bifrost/1.2.1--h43eeafb_0
+$ module load quay.io/biocontainers/bifrost/1.3.1--h43eeafb_0
+$ module help quay.io/biocontainers/bifrost/1.3.1--h43eeafb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

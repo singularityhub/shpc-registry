@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-meal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-meal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-meal/container.yaml"
-updated_at: "2023-11-21 02:43:06.581553"
+updated_at: "2023-11-22 02:42:14.820010"
 latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-meal"
 aliases:

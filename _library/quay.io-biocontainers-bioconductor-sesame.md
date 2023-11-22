@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sesame"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sesame/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sesame/container.yaml"
-updated_at: "2023-11-21 03:12:17.193030"
+updated_at: "2023-11-22 03:11:43.880534"
 latest: "1.18.4--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sesame"
 aliases:

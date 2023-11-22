@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-phosphonormalizer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phosphonormalizer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phosphonormalizer/container.yaml"
-updated_at: "2023-11-21 02:41:46.600363"
+updated_at: "2023-11-22 02:40:55.727863"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phosphonormalizer"
 aliases:

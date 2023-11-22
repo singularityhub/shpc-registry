@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/koverage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/koverage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/koverage/container.yaml"
-updated_at: "2023-11-21 02:41:12.264792"
-latest: "0.1.6--pyhdfd78af_0"
+updated_at: "2023-11-22 02:40:22.365560"
+latest: "0.1.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/koverage"
 aliases:
  - "cmtime"
@@ -69,8 +69,9 @@ aliases:
  - "ipython3"
 versions:
  - "0.1.6--pyhdfd78af_0"
+ - "0.1.7--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for koverage"
-config: {"url": "https://biocontainers.pro/tools/koverage", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for koverage", "latest": {"0.1.6--pyhdfd78af_0": "sha256:cd976f6064292a58632853097af1f8b06e522ba3f3ade133bafd655694c28b2f"}, "tags": {"0.1.6--pyhdfd78af_0": "sha256:cd976f6064292a58632853097af1f8b06e522ba3f3ade133bafd655694c28b2f"}, "docker": "quay.io/biocontainers/koverage", "aliases": {"cmtime": "/usr/local/bin/cmtime", "eido": "/usr/local/bin/eido", "elastipubsub5": "/usr/local/bin/elastipubsub5", "ib_acme": "/usr/local/bin/ib_acme", "ibv_asyncwatch": "/usr/local/bin/ibv_asyncwatch", "ibv_devices": "/usr/local/bin/ibv_devices", "ibv_devinfo": "/usr/local/bin/ibv_devinfo", "ibv_rc_pingpong": "/usr/local/bin/ibv_rc_pingpong", "ibv_srq_pingpong": "/usr/local/bin/ibv_srq_pingpong", "ibv_uc_pingpong": "/usr/local/bin/ibv_uc_pingpong", "ibv_ud_pingpong": "/usr/local/bin/ibv_ud_pingpong", "ibv_xsrq_pingpong": "/usr/local/bin/ibv_xsrq_pingpong", "io_demo": "/usr/local/bin/io_demo", "koverage": "/usr/local/bin/koverage", "mckey": "/usr/local/bin/mckey", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "protoc-23.4.0": "/usr/local/bin/protoc-23.4.0", "py-spy": "/usr/local/bin/py-spy", "rcopy": "/usr/local/bin/rcopy", "rdma_client": "/usr/local/bin/rdma_client", "rdma_server": "/usr/local/bin/rdma_server", "rdma_xclient": "/usr/local/bin/rdma_xclient", "rdma_xserver": "/usr/local/bin/rdma_xserver", "riostream": "/usr/local/bin/riostream", "rping": "/usr/local/bin/rping", "rstream": "/usr/local/bin/rstream", "ucmatose": "/usr/local/bin/ucmatose", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "udaddy": "/usr/local/bin/udaddy", "udpong": "/usr/local/bin/udpong", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "markdown-it": "/usr/local/bin/markdown-it", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "stone": "/usr/local/bin/stone", "yte": "/usr/local/bin/yte", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "curve_keygen": "/usr/local/bin/curve_keygen", "pulptest": "/usr/local/bin/pulptest", "ipython3": "/usr/local/bin/ipython3"}}
+config: {"url": "https://biocontainers.pro/tools/koverage", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for koverage", "latest": {"0.1.7--pyhdfd78af_0": "sha256:f1a4f43e7ba10f174ff8f2777004210a50fa2c6f8124c88f0125d0095a1d6c29"}, "tags": {"0.1.6--pyhdfd78af_0": "sha256:cd976f6064292a58632853097af1f8b06e522ba3f3ade133bafd655694c28b2f", "0.1.7--pyhdfd78af_0": "sha256:f1a4f43e7ba10f174ff8f2777004210a50fa2c6f8124c88f0125d0095a1d6c29"}, "docker": "quay.io/biocontainers/koverage", "aliases": {"cmtime": "/usr/local/bin/cmtime", "eido": "/usr/local/bin/eido", "elastipubsub5": "/usr/local/bin/elastipubsub5", "ib_acme": "/usr/local/bin/ib_acme", "ibv_asyncwatch": "/usr/local/bin/ibv_asyncwatch", "ibv_devices": "/usr/local/bin/ibv_devices", "ibv_devinfo": "/usr/local/bin/ibv_devinfo", "ibv_rc_pingpong": "/usr/local/bin/ibv_rc_pingpong", "ibv_srq_pingpong": "/usr/local/bin/ibv_srq_pingpong", "ibv_uc_pingpong": "/usr/local/bin/ibv_uc_pingpong", "ibv_ud_pingpong": "/usr/local/bin/ibv_ud_pingpong", "ibv_xsrq_pingpong": "/usr/local/bin/ibv_xsrq_pingpong", "io_demo": "/usr/local/bin/io_demo", "koverage": "/usr/local/bin/koverage", "mckey": "/usr/local/bin/mckey", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "protoc-23.4.0": "/usr/local/bin/protoc-23.4.0", "py-spy": "/usr/local/bin/py-spy", "rcopy": "/usr/local/bin/rcopy", "rdma_client": "/usr/local/bin/rdma_client", "rdma_server": "/usr/local/bin/rdma_server", "rdma_xclient": "/usr/local/bin/rdma_xclient", "rdma_xserver": "/usr/local/bin/rdma_xserver", "riostream": "/usr/local/bin/riostream", "rping": "/usr/local/bin/rping", "rstream": "/usr/local/bin/rstream", "ucmatose": "/usr/local/bin/ucmatose", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "udaddy": "/usr/local/bin/udaddy", "udpong": "/usr/local/bin/udpong", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "markdown-it": "/usr/local/bin/markdown-it", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "stone": "/usr/local/bin/stone", "yte": "/usr/local/bin/yte", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "curve_keygen": "/usr/local/bin/curve_keygen", "pulptest": "/usr/local/bin/pulptest", "ipython3": "/usr/local/bin/ipython3"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/koverage.
@@ -85,7 +86,7 @@ $ shpc install quay.io/biocontainers/koverage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/koverage:0.1.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/koverage:0.1.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -97,8 +98,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/koverage/0.1.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/koverage/0.1.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/koverage/0.1.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/koverage/0.1.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
