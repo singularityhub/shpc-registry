@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxmyphage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxmyphage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxmyphage/container.yaml"
-updated_at: "2023-11-23 02:56:37.916560"
+updated_at: "2023-11-23 03:57:14.923194"
 latest: "0.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/taxmyphage"
 aliases:

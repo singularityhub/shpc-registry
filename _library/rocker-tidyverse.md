@@ -4,7 +4,7 @@ name:  "rocker/tidyverse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/tidyverse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/tidyverse/container.yaml"
-updated_at: "2023-11-23 02:27:51.342657"
+updated_at: "2023-11-23 03:27:56.412961"
 latest: "4.3.2"
 container_url: "https://hub.docker.com/r/rocker/tidyverse"
 aliases:

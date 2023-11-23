@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmerfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmerfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmerfinder/container.yaml"
-updated_at: "2023-11-23 03:13:16.480645"
+updated_at: "2023-11-23 04:14:48.259245"
 latest: "3.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kmerfinder"
 aliases:

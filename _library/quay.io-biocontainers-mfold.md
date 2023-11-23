@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mfold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mfold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mfold/container.yaml"
-updated_at: "2023-11-23 02:36:14.841926"
+updated_at: "2023-11-23 03:36:25.018863"
 latest: "3.6--h8537716_3"
 container_url: "https://biocontainers.pro/tools/mfold"
 aliases:
