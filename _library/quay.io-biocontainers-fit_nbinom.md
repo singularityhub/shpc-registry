@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fit_nbinom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fit_nbinom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fit_nbinom/container.yaml"
-updated_at: "2023-11-22 03:03:34.767553"
-latest: "1.1--pyh864c0ab_2"
+updated_at: "2023-11-23 03:00:11.746946"
+latest: "1.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/fit_nbinom"
 aliases:
  - "f2py3.8"
@@ -16,8 +16,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "1.1--pyh864c0ab_2"
+ - "1.2--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for fit_nbinom"
-config: {"url": "https://biocontainers.pro/tools/fit_nbinom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fit_nbinom", "latest": {"1.1--pyh864c0ab_2": "sha256:47379db7e4ecbee835a970186b2a5e42f8d4398622e2bae1a08534f5c06a1976"}, "tags": {"1.1--pyh864c0ab_2": "sha256:47379db7e4ecbee835a970186b2a5e42f8d4398622e2bae1a08534f5c06a1976"}, "docker": "quay.io/biocontainers/fit_nbinom", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/fit_nbinom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fit_nbinom", "latest": {"1.2--pyh7cba7a3_0": "sha256:cb5ae23bd4f4ae02810a605417ae94e6dd799c081da88b4654ae93b99fba0835"}, "tags": {"1.1--pyh864c0ab_2": "sha256:47379db7e4ecbee835a970186b2a5e42f8d4398622e2bae1a08534f5c06a1976", "1.2--pyh7cba7a3_0": "sha256:cb5ae23bd4f4ae02810a605417ae94e6dd799c081da88b4654ae93b99fba0835"}, "docker": "quay.io/biocontainers/fit_nbinom", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fit_nbinom.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/fit_nbinom
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fit_nbinom:1.1--pyh864c0ab_2
+$ shpc install quay.io/biocontainers/fit_nbinom:1.2--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fit_nbinom/1.1--pyh864c0ab_2
-$ module help quay.io/biocontainers/fit_nbinom/1.1--pyh864c0ab_2
+$ module load quay.io/biocontainers/fit_nbinom/1.2--pyh7cba7a3_0
+$ module help quay.io/biocontainers/fit_nbinom/1.2--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

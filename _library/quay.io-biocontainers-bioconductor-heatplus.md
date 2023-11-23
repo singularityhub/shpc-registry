@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-heatplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-heatplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-heatplus/container.yaml"
-updated_at: "2023-11-22 03:07:09.944170"
+updated_at: "2023-11-23 03:03:48.679252"
 latest: "3.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-heatplus"
 
