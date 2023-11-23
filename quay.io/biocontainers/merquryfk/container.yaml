@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/merquryfk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for merquryfk
+latest:
+  1.0.0--h4ef89c6_1: sha256:9c3fa6a6f3755992f93fc303cf4233bce1aef75ecb5e10be7c6dca50d136905d
+tags:
+  1.0.0--h4ef89c6_1: sha256:9c3fa6a6f3755992f93fc303cf4233bce1aef75ecb5e10be7c6dca50d136905d
+docker: quay.io/biocontainers/merquryfk
+aliases:
+  ASMplot: /usr/local/bin/ASMplot
+  CNplot: /usr/local/bin/CNplot
+  FastK: /usr/local/bin/FastK
+  Fastcp: /usr/local/bin/Fastcp
+  Fastmerge: /usr/local/bin/Fastmerge
+  Fastmv: /usr/local/bin/Fastmv
+  Fastrm: /usr/local/bin/Fastrm
+  HAPmaker: /usr/local/bin/HAPmaker
+  HAPplot: /usr/local/bin/HAPplot
+  Haplex: /usr/local/bin/Haplex
+  Histex: /usr/local/bin/Histex
+  Homex: /usr/local/bin/Homex
+  KatComp: /usr/local/bin/KatComp
+  KatGC: /usr/local/bin/KatGC
+  Logex: /usr/local/bin/Logex
+  MerquryFK: /usr/local/bin/MerquryFK
+  PloidyPlot: /usr/local/bin/PloidyPlot
+  Profex: /usr/local/bin/Profex
+  Symmex: /usr/local/bin/Symmex
+  Tabex: /usr/local/bin/Tabex
+  Vennex: /usr/local/bin/Vennex
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
