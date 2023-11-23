@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/hpcblast
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hpcblast
+latest:
+  1.0.2--pyhdfd78af_0: sha256:3f1723c9a98ffe0b97f74e91afb76a016ca871c3df9f7886076698e702426552
+tags:
+  1.0.2--pyhdfd78af_0: sha256:3f1723c9a98ffe0b97f74e91afb76a016ca871c3df9f7886076698e702426552
+docker: quay.io/biocontainers/hpcblast
+aliases:
+  hpc-blast: /usr/local/bin/hpc-blast
+  qcs: /usr/local/bin/qcs
+  qs: /usr/local/bin/qs
+  runbatch: /usr/local/bin/runbatch
+  runjob: /usr/local/bin/runjob
+  runsge: /usr/local/bin/runsge
+  runshell: /usr/local/bin/runshell
+  blastn_vdb: /usr/local/bin/blastn_vdb
+  tblastn_vdb: /usr/local/bin/tblastn_vdb
+  uuid: /usr/local/bin/uuid
+  uuid-config: /usr/local/bin/uuid-config
+  test_pcre: /usr/local/bin/test_pcre
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range
+  tbl2prod: /usr/local/bin/tbl2prod
+  uniq-table: /usr/local/bin/uniq-table
+  align-columns: /usr/local/bin/align-columns
+  blst2tkns: /usr/local/bin/blst2tkns
+  csv2xml: /usr/local/bin/csv2xml
+  disambiguate-nucleotides: /usr/local/bin/disambiguate-nucleotides
+  download-ncbi-software: /usr/local/bin/download-ncbi-software
+  ecommon.sh: /usr/local/bin/ecommon.sh
+  find-in-gene: /usr/local/bin/find-in-gene
+  fuse-ranges: /usr/local/bin/fuse-ranges
+  hgvs2spdi: /usr/local/bin/hgvs2spdi
+  json2xml: /usr/local/bin/json2xml
+  print-columns: /usr/local/bin/print-columns
+  snp2hgvs: /usr/local/bin/snp2hgvs
+  snp2tbl: /usr/local/bin/snp2tbl
+  sort-table: /usr/local/bin/sort-table

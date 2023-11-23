@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/centrifuger
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for centrifuger
+latest:
+  1.0.0--hdcf5f25_0: sha256:127aff480ab97feb9b884907e158a8ebe6bb720e56aa1964ff45d4024166aeaf
+tags:
+  1.0.0--hdcf5f25_0: sha256:127aff480ab97feb9b884907e158a8ebe6bb720e56aa1964ff45d4024166aeaf
+docker: quay.io/biocontainers/centrifuger
+aliases:
+  centrifuger: /usr/local/bin/centrifuger
+  centrifuger-build: /usr/local/bin/centrifuger-build
+  centrifuger-download: /usr/local/bin/centrifuger-download
+  centrifuger-inspect: /usr/local/bin/centrifuger-inspect
+  centrifuger-kreport: /usr/local/bin/centrifuger-kreport
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tar: /usr/local/bin/tar
+  idn2: /usr/local/bin/idn2
+  wget: /usr/local/bin/wget
