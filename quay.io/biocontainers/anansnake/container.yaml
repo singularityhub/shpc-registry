@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/anansnake
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for anansnake
 latest:
-  0.0.1--pyhdfd78af_0: sha256:25ba907a0f5696774c2cb50402d533596af215c02c9aaa65c64b0c19321a5e96
+  0.1.0--pyh7cba7a3_0: sha256:52d2d433914b95ca54829d55e118c59225cc41e1b4eafdc1017db16e8aac86a1
 tags:
   0.0.1--pyhdfd78af_0: sha256:25ba907a0f5696774c2cb50402d533596af215c02c9aaa65c64b0c19321a5e96
+  0.1.0--pyh7cba7a3_0: sha256:52d2d433914b95ca54829d55e118c59225cc41e1b4eafdc1017db16e8aac86a1
 docker: quay.io/biocontainers/anansnake
 aliases:
   anansnake: /usr/local/bin/anansnake
