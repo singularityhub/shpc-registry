@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bicseq2-norm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bicseq2-norm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bicseq2-norm/container.yaml"
-updated_at: "2023-11-23 04:08:22.906107"
+updated_at: "2023-11-24 03:10:38.619016"
 latest: "0.2.4--h031d066_5"
 container_url: "https://biocontainers.pro/tools/bicseq2-norm"
 aliases:

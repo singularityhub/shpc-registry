@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mqtl.nmr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mqtl.nmr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mqtl.nmr/container.yaml"
-updated_at: "2023-11-23 03:29:06.156790"
+updated_at: "2023-11-24 02:27:32.094350"
 latest: "1.14.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mqtl.nmr"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/anansnake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anansnake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anansnake/container.yaml"
-updated_at: "2023-11-23 03:43:33.762794"
-latest: "0.0.1--pyhdfd78af_0"
+updated_at: "2023-11-24 02:44:10.495716"
+latest: "0.1.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/anansnake"
 aliases:
  - "anansnake"
@@ -57,8 +57,9 @@ aliases:
  - "rst2html4.py"
 versions:
  - "0.0.1--pyhdfd78af_0"
+ - "0.1.0--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for anansnake"
-config: {"url": "https://biocontainers.pro/tools/anansnake", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for anansnake", "latest": {"0.0.1--pyhdfd78af_0": "sha256:25ba907a0f5696774c2cb50402d533596af215c02c9aaa65c64b0c19321a5e96"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:25ba907a0f5696774c2cb50402d533596af215c02c9aaa65c64b0c19321a5e96"}, "docker": "quay.io/biocontainers/anansnake", "aliases": {"anansnake": "/usr/local/bin/anansnake", "bedToGenePred": "/usr/local/bin/bedToGenePred", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "deseq2science": "/usr/local/bin/deseq2science", "dumpsolv": "/usr/local/bin/dumpsolv", "genePredToBed": "/usr/local/bin/genePredToBed", "genePredToGtf": "/usr/local/bin/genePredToGtf", "genomepy": "/usr/local/bin/genomepy", "gff3ToGenePred": "/usr/local/bin/gff3ToGenePred", "gtfToGenePred": "/usr/local/bin/gtfToGenePred", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "matplotlib": "/usr/local/bin/matplotlib", "mergesolv": "/usr/local/bin/mergesolv", "pysradb": "/usr/local/bin/pysradb", "repo2solv": "/usr/local/bin/repo2solv", "seq2science": "/usr/local/bin/seq2science", "testsolv": "/usr/local/bin/testsolv", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "nosetests": "/usr/local/bin/nosetests", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "faidx": "/usr/local/bin/faidx", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "rst2html4.py": "/usr/local/bin/rst2html4.py"}}
+config: {"url": "https://biocontainers.pro/tools/anansnake", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for anansnake", "latest": {"0.1.0--pyh7cba7a3_0": "sha256:52d2d433914b95ca54829d55e118c59225cc41e1b4eafdc1017db16e8aac86a1"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:25ba907a0f5696774c2cb50402d533596af215c02c9aaa65c64b0c19321a5e96", "0.1.0--pyh7cba7a3_0": "sha256:52d2d433914b95ca54829d55e118c59225cc41e1b4eafdc1017db16e8aac86a1"}, "docker": "quay.io/biocontainers/anansnake", "aliases": {"anansnake": "/usr/local/bin/anansnake", "bedToGenePred": "/usr/local/bin/bedToGenePred", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "deseq2science": "/usr/local/bin/deseq2science", "dumpsolv": "/usr/local/bin/dumpsolv", "genePredToBed": "/usr/local/bin/genePredToBed", "genePredToGtf": "/usr/local/bin/genePredToGtf", "genomepy": "/usr/local/bin/genomepy", "gff3ToGenePred": "/usr/local/bin/gff3ToGenePred", "gtfToGenePred": "/usr/local/bin/gtfToGenePred", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "matplotlib": "/usr/local/bin/matplotlib", "mergesolv": "/usr/local/bin/mergesolv", "pysradb": "/usr/local/bin/pysradb", "repo2solv": "/usr/local/bin/repo2solv", "seq2science": "/usr/local/bin/seq2science", "testsolv": "/usr/local/bin/testsolv", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "nosetests": "/usr/local/bin/nosetests", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "faidx": "/usr/local/bin/faidx", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "rst2html4.py": "/usr/local/bin/rst2html4.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/anansnake.
@@ -73,7 +74,7 @@ $ shpc install quay.io/biocontainers/anansnake
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/anansnake:0.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/anansnake:0.1.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -85,8 +86,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/anansnake/0.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/anansnake/0.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/anansnake/0.1.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/anansnake/0.1.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

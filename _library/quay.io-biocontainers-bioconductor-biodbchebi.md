@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biodbchebi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biodbchebi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biodbchebi/container.yaml"
-updated_at: "2023-11-23 03:43:38.194710"
+updated_at: "2023-11-24 02:44:15.474188"
 latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biodbchebi"
 

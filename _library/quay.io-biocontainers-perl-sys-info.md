@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sys-info"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sys-info/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sys-info/container.yaml"
-updated_at: "2023-11-23 03:51:33.639479"
+updated_at: "2023-11-24 02:52:57.416286"
 latest: "0.7811--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-sys-info"
 
