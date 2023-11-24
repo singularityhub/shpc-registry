@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/syngap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for syngap
 latest:
-  1.0.1--h086e186_0: sha256:1d08f9522945947665273d1c2ca0e6c784477e52e1f412006edee50103a67a77
+  1.1.0--h086e186_0: sha256:dcb95a324e00ba4dcb90f09a16f19b32c0b68a6820f3f7acba9ba4cc608c06aa
 tags:
   1.0.1--h086e186_0: sha256:1d08f9522945947665273d1c2ca0e6c784477e52e1f412006edee50103a67a77
+  1.1.0--h086e186_0: sha256:dcb95a324e00ba4dcb90f09a16f19b32c0b68a6820f3f7acba9ba4cc608c06aa
 docker: quay.io/biocontainers/syngap
 aliases:
   CrossMap.py: /usr/local/bin/CrossMap.py
