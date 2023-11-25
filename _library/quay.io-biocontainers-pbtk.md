@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbtk/container.yaml"
-updated_at: "2023-11-24 02:51:25.509838"
+updated_at: "2023-11-25 02:45:39.964141"
 latest: "3.1.1--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/pbtk"
 aliases:

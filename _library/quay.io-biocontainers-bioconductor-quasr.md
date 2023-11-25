@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-quasr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-quasr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-quasr/container.yaml"
-updated_at: "2023-11-24 02:28:17.427955"
+updated_at: "2023-11-25 02:25:26.376404"
 latest: "1.40.1--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-quasr"
 

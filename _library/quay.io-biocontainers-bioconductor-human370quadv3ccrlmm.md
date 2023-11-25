@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-human370quadv3ccrlmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-human370quadv3ccrlmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-human370quadv3ccrlmm/container.yaml"
-updated_at: "2023-11-24 02:47:53.424373"
+updated_at: "2023-11-25 02:42:35.772043"
 latest: "1.0.3--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-human370quadv3ccrlmm"
 
