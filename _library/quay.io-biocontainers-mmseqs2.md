@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mmseqs2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmseqs2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmseqs2/container.yaml"
-updated_at: "2023-11-25 02:41:23.029259"
-latest: "14.7e284--pl5321h6a68c12_2"
+updated_at: "2023-11-26 02:46:51.865877"
+latest: "15.6f452--pl5321h6a68c12_0"
 container_url: "https://biocontainers.pro/tools/mmseqs2"
 aliases:
  - "gawk-5.0.0"
@@ -20,8 +20,9 @@ versions:
  - "11.e1a1c--h2d02072_0"
  - "10.6d92c--h2d02072_0"
  - "14.7e284--pl5321h6a68c12_2"
+ - "15.6f452--pl5321h6a68c12_0"
 description: "shpc-registry automated BioContainers addition for mmseqs2"
-config: {"url": "https://biocontainers.pro/tools/mmseqs2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mmseqs2", "latest": {"14.7e284--pl5321h6a68c12_2": "sha256:39fdd64b142a968dadfc9235fa43ea42fed83a88c50236c5b2103048b18dd19d"}, "tags": {"9.d36de--h76f5088_0": "sha256:be4e2ed37332d1f7ed7290cedd7b90d6ef1dd01bdb5d3fa5a88d6078fb312f9b", "14.7e284--pl5321hf1761c0_0": "sha256:113d8ea13a66348f7be35045b0a94633a9fe0e2325116c08b8f441888ccc2320", "13.45111--pl5321hf1761c0_2": "sha256:72c1e3c7d017f5ce6131ee254f507d4d08c9836d10a5d91f0946696bdfa00fe3", "12.113e3--h2d02072_2": "sha256:b83cad00191547e71d736313a10003a8dcea362e8e019bada34bb12b93b82c26", "11.e1a1c--h2d02072_0": "sha256:822a6538814a5f2e19aeea8279e2bb0ad97fe0f2bf704a4761bf1ee96549122b", "10.6d92c--h2d02072_0": "sha256:d6ff6adc468dacaba19a7090bc95a9b1e5316f04811a1f2f7863c35da6cece9f", "14.7e284--pl5321h6a68c12_2": "sha256:39fdd64b142a968dadfc9235fa43ea42fed83a88c50236c5b2103048b18dd19d"}, "docker": "quay.io/biocontainers/mmseqs2", "aliases": {"gawk-5.0.0": "/usr/local/bin/gawk-5.0.0", "mmseqs": "/usr/local/bin/mmseqs", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk"}}
+config: {"url": "https://biocontainers.pro/tools/mmseqs2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mmseqs2", "latest": {"15.6f452--pl5321h6a68c12_0": "sha256:c86b0c47611fc86e9e808537304ac978e05017a7596db767c765cb698489b425"}, "tags": {"9.d36de--h76f5088_0": "sha256:be4e2ed37332d1f7ed7290cedd7b90d6ef1dd01bdb5d3fa5a88d6078fb312f9b", "14.7e284--pl5321hf1761c0_0": "sha256:113d8ea13a66348f7be35045b0a94633a9fe0e2325116c08b8f441888ccc2320", "13.45111--pl5321hf1761c0_2": "sha256:72c1e3c7d017f5ce6131ee254f507d4d08c9836d10a5d91f0946696bdfa00fe3", "12.113e3--h2d02072_2": "sha256:b83cad00191547e71d736313a10003a8dcea362e8e019bada34bb12b93b82c26", "11.e1a1c--h2d02072_0": "sha256:822a6538814a5f2e19aeea8279e2bb0ad97fe0f2bf704a4761bf1ee96549122b", "10.6d92c--h2d02072_0": "sha256:d6ff6adc468dacaba19a7090bc95a9b1e5316f04811a1f2f7863c35da6cece9f", "14.7e284--pl5321h6a68c12_2": "sha256:39fdd64b142a968dadfc9235fa43ea42fed83a88c50236c5b2103048b18dd19d", "15.6f452--pl5321h6a68c12_0": "sha256:c86b0c47611fc86e9e808537304ac978e05017a7596db767c765cb698489b425"}, "docker": "quay.io/biocontainers/mmseqs2", "aliases": {"gawk-5.0.0": "/usr/local/bin/gawk-5.0.0", "mmseqs": "/usr/local/bin/mmseqs", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mmseqs2.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/mmseqs2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mmseqs2:14.7e284--pl5321h6a68c12_2
+$ shpc install quay.io/biocontainers/mmseqs2:15.6f452--pl5321h6a68c12_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mmseqs2/14.7e284--pl5321h6a68c12_2
-$ module help quay.io/biocontainers/mmseqs2/14.7e284--pl5321h6a68c12_2
+$ module load quay.io/biocontainers/mmseqs2/15.6f452--pl5321h6a68c12_0
+$ module help quay.io/biocontainers/mmseqs2/15.6f452--pl5321h6a68c12_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

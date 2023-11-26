@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/batch_brb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/batch_brb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/batch_brb/container.yaml"
-updated_at: "2023-11-25 02:54:24.318657"
+updated_at: "2023-11-26 03:00:01.172441"
 latest: "1.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/batch_brb"
 aliases:

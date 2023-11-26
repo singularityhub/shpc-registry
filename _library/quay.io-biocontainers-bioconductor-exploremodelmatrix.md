@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-exploremodelmatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-exploremodelmatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-exploremodelmatrix/container.yaml"
-updated_at: "2023-11-25 02:28:32.906450"
+updated_at: "2023-11-26 02:33:46.984231"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-exploremodelmatrix"
 

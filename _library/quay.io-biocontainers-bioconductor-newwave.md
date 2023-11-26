@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-newwave"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-newwave/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-newwave/container.yaml"
-updated_at: "2023-11-25 02:54:19.570665"
+updated_at: "2023-11-26 02:59:56.368080"
 latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-newwave"
 
