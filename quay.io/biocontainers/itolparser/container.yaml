@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/itolparser
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for itolparser
 latest:
-  0.1.6--pyh3252c3a_0: sha256:7284946fb6aa5f7fe4dedbc3794bd9ee493b6474a31e4d45985cb0d51b5a03d0
+  0.2.1--pyh7cba7a3_0: sha256:3d0a1eb5f0b37075cafc1152bb28d91bf0937ab6ae752ca11a210707ffa602fb
 tags:
   0.1.6--pyh3252c3a_0: sha256:7284946fb6aa5f7fe4dedbc3794bd9ee493b6474a31e4d45985cb0d51b5a03d0
+  0.2.1--pyh7cba7a3_0: sha256:3d0a1eb5f0b37075cafc1152bb28d91bf0937ab6ae752ca11a210707ffa602fb
 docker: quay.io/biocontainers/itolparser
 aliases:
   itolparser: /usr/local/bin/itolparser

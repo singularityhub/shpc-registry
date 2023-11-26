@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-metabolomics-fragment-annotation
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-metabolomics-fragment-annotation
 latest:
-  0.6.3--pl5321hdfd78af_2: sha256:0c1524638e6ba92ef2160098e868a43abaca29c72696e03a0fec4446322d55a3
+  0.6.9--pl5321hdfd78af_0: sha256:af06699f4df8732a235a4335ed937f8c2112980c57a5db0d87dcf810894a00dd
 tags:
   0.6.3--pl5321hdfd78af_2: sha256:0c1524638e6ba92ef2160098e868a43abaca29c72696e03a0fec4446322d55a3
+  0.6.9--pl5321hdfd78af_0: sha256:af06699f4df8732a235a4335ed937f8c2112980c57a5db0d87dcf810894a00dd
 docker: quay.io/biocontainers/perl-metabolomics-fragment-annotation
 aliases:
   xml_grep: /usr/local/bin/xml_grep
