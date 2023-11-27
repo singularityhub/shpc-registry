@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepacstrain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepacstrain/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepacstrain/container.yaml"
-updated_at: "2023-11-27 02:31:31.014850"
+updated_at: "2023-11-27 02:59:05.626107"
 latest: "0.2.1--py_0"
 container_url: "https://biocontainers.pro/tools/deepacstrain"
 aliases:
