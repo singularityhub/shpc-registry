@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/liftover"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/liftover/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/liftover/container.yaml"
-updated_at: "2023-11-26 02:46:22.846527"
-latest: "1.1.16--py39hd65a603_0"
+updated_at: "2023-11-27 02:46:27.408954"
+latest: "1.1.17--py39hd65a603_0"
 container_url: "https://biocontainers.pro/tools/liftover"
 aliases:
  - "2to3-3.9"
@@ -15,8 +15,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "1.1.16--py39hd65a603_0"
+ - "1.1.17--py39hd65a603_0"
 description: "singularity registry hpc automated addition for liftover"
-config: {"url": "https://biocontainers.pro/tools/liftover", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for liftover", "latest": {"1.1.16--py39hd65a603_0": "sha256:2b07045d4bc41661ab7aab7eb1aae0c004d35f73a273b76e5c8259e36ab34122"}, "tags": {"1.1.16--py39hd65a603_0": "sha256:2b07045d4bc41661ab7aab7eb1aae0c004d35f73a273b76e5c8259e36ab34122"}, "docker": "quay.io/biocontainers/liftover", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/liftover", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for liftover", "latest": {"1.1.17--py39hd65a603_0": "sha256:2c26eef3ca692c22a9a92d432305aafb9d149573b231a25e8dba302755debea8"}, "tags": {"1.1.16--py39hd65a603_0": "sha256:2b07045d4bc41661ab7aab7eb1aae0c004d35f73a273b76e5c8259e36ab34122", "1.1.17--py39hd65a603_0": "sha256:2c26eef3ca692c22a9a92d432305aafb9d149573b231a25e8dba302755debea8"}, "docker": "quay.io/biocontainers/liftover", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/liftover.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/liftover
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/liftover:1.1.16--py39hd65a603_0
+$ shpc install quay.io/biocontainers/liftover:1.1.17--py39hd65a603_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/liftover/1.1.16--py39hd65a603_0
-$ module help quay.io/biocontainers/liftover/1.1.16--py39hd65a603_0
+$ module load quay.io/biocontainers/liftover/1.1.17--py39hd65a603_0
+$ module help quay.io/biocontainers/liftover/1.1.17--py39hd65a603_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-ldweaver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ldweaver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ldweaver/container.yaml"
-updated_at: "2023-11-26 03:03:31.122872"
-latest: "1.2--r43hdbdd923_0"
+updated_at: "2023-11-27 03:04:11.819354"
+latest: "1.3.1--r43hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/r-ldweaver"
 aliases:
  - "2to3-3.12"
@@ -29,8 +29,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.2--r43hdbdd923_0"
+ - "1.3.1--r43hdbdd923_0"
 description: "singularity registry hpc automated addition for r-ldweaver"
-config: {"url": "https://biocontainers.pro/tools/r-ldweaver", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-ldweaver", "latest": {"1.2--r43hdbdd923_0": "sha256:5363347cda7e1f29c71bdaf108b9c322d6e45501aa310a802f58c30f9a9a2418"}, "tags": {"1.2--r43hdbdd923_0": "sha256:5363347cda7e1f29c71bdaf108b9c322d6e45501aa310a802f58c30f9a9a2418"}, "docker": "quay.io/biocontainers/r-ldweaver", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-ldweaver", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-ldweaver", "latest": {"1.3.1--r43hdbdd923_0": "sha256:ea683acb70033d4e3dfcd8503b777e461f6bf08b006a1c4a6d7804c54d18b98c"}, "tags": {"1.2--r43hdbdd923_0": "sha256:5363347cda7e1f29c71bdaf108b9c322d6e45501aa310a802f58c30f9a9a2418", "1.3.1--r43hdbdd923_0": "sha256:ea683acb70033d4e3dfcd8503b777e461f6bf08b006a1c4a6d7804c54d18b98c"}, "docker": "quay.io/biocontainers/r-ldweaver", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ldweaver.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/r-ldweaver
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-ldweaver:1.2--r43hdbdd923_0
+$ shpc install quay.io/biocontainers/r-ldweaver:1.3.1--r43hdbdd923_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-ldweaver/1.2--r43hdbdd923_0
-$ module help quay.io/biocontainers/r-ldweaver/1.2--r43hdbdd923_0
+$ module load quay.io/biocontainers/r-ldweaver/1.3.1--r43hdbdd923_0
+$ module help quay.io/biocontainers/r-ldweaver/1.3.1--r43hdbdd923_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

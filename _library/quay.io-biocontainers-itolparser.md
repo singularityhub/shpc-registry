@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/itolparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itolparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itolparser/container.yaml"
-updated_at: "2023-11-26 02:42:48.852112"
-latest: "0.1.6--pyh3252c3a_0"
+updated_at: "2023-11-27 02:42:46.478748"
+latest: "0.2.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/itolparser"
 aliases:
  - "itolparser"
@@ -17,8 +17,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.1.6--pyh3252c3a_0"
+ - "0.2.1--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for itolparser"
-config: {"url": "https://biocontainers.pro/tools/itolparser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for itolparser", "latest": {"0.1.6--pyh3252c3a_0": "sha256:7284946fb6aa5f7fe4dedbc3794bd9ee493b6474a31e4d45985cb0d51b5a03d0"}, "tags": {"0.1.6--pyh3252c3a_0": "sha256:7284946fb6aa5f7fe4dedbc3794bd9ee493b6474a31e4d45985cb0d51b5a03d0"}, "docker": "quay.io/biocontainers/itolparser", "aliases": {"itolparser": "/usr/local/bin/itolparser", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/itolparser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for itolparser", "latest": {"0.2.1--pyh7cba7a3_0": "sha256:3d0a1eb5f0b37075cafc1152bb28d91bf0937ab6ae752ca11a210707ffa602fb"}, "tags": {"0.1.6--pyh3252c3a_0": "sha256:7284946fb6aa5f7fe4dedbc3794bd9ee493b6474a31e4d45985cb0d51b5a03d0", "0.2.1--pyh7cba7a3_0": "sha256:3d0a1eb5f0b37075cafc1152bb28d91bf0937ab6ae752ca11a210707ffa602fb"}, "docker": "quay.io/biocontainers/itolparser", "aliases": {"itolparser": "/usr/local/bin/itolparser", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/itolparser.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/itolparser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/itolparser:0.1.6--pyh3252c3a_0
+$ shpc install quay.io/biocontainers/itolparser:0.2.1--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/itolparser/0.1.6--pyh3252c3a_0
-$ module help quay.io/biocontainers/itolparser/0.1.6--pyh3252c3a_0
+$ module load quay.io/biocontainers/itolparser/0.2.1--pyh7cba7a3_0
+$ module help quay.io/biocontainers/itolparser/0.2.1--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

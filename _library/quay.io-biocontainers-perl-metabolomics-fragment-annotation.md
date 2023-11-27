@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-metabolomics-fragment-annotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-metabolomics-fragment-annotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-metabolomics-fragment-annotation/container.yaml"
-updated_at: "2023-11-26 03:01:54.135332"
-latest: "0.6.3--pl5321hdfd78af_2"
+updated_at: "2023-11-27 03:02:31.636419"
+latest: "0.6.9--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-metabolomics-fragment-annotation"
 aliases:
  - "xml_grep"
@@ -20,8 +20,9 @@ aliases:
  - "streamzip"
 versions:
  - "0.6.3--pl5321hdfd78af_2"
+ - "0.6.9--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-metabolomics-fragment-annotation"
-config: {"url": "https://biocontainers.pro/tools/perl-metabolomics-fragment-annotation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-metabolomics-fragment-annotation", "latest": {"0.6.3--pl5321hdfd78af_2": "sha256:0c1524638e6ba92ef2160098e868a43abaca29c72696e03a0fec4446322d55a3"}, "tags": {"0.6.3--pl5321hdfd78af_2": "sha256:0c1524638e6ba92ef2160098e868a43abaca29c72696e03a0fec4446322d55a3"}, "docker": "quay.io/biocontainers/perl-metabolomics-fragment-annotation", "aliases": {"xml_grep": "/usr/local/bin/xml_grep", "xml_merge": "/usr/local/bin/xml_merge", "xml_pp": "/usr/local/bin/xml_pp", "xml_spellcheck": "/usr/local/bin/xml_spellcheck", "xml_split": "/usr/local/bin/xml_split", "webtidy": "/usr/local/bin/webtidy", "tidyp": "/usr/local/bin/tidyp", "htmltree": "/usr/local/bin/htmltree", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-metabolomics-fragment-annotation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-metabolomics-fragment-annotation", "latest": {"0.6.9--pl5321hdfd78af_0": "sha256:af06699f4df8732a235a4335ed937f8c2112980c57a5db0d87dcf810894a00dd"}, "tags": {"0.6.3--pl5321hdfd78af_2": "sha256:0c1524638e6ba92ef2160098e868a43abaca29c72696e03a0fec4446322d55a3", "0.6.9--pl5321hdfd78af_0": "sha256:af06699f4df8732a235a4335ed937f8c2112980c57a5db0d87dcf810894a00dd"}, "docker": "quay.io/biocontainers/perl-metabolomics-fragment-annotation", "aliases": {"xml_grep": "/usr/local/bin/xml_grep", "xml_merge": "/usr/local/bin/xml_merge", "xml_pp": "/usr/local/bin/xml_pp", "xml_spellcheck": "/usr/local/bin/xml_spellcheck", "xml_split": "/usr/local/bin/xml_split", "webtidy": "/usr/local/bin/webtidy", "tidyp": "/usr/local/bin/tidyp", "htmltree": "/usr/local/bin/htmltree", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-metabolomics-fragment-annotation.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/perl-metabolomics-fragment-annotation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-metabolomics-fragment-annotation:0.6.3--pl5321hdfd78af_2
+$ shpc install quay.io/biocontainers/perl-metabolomics-fragment-annotation:0.6.9--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-metabolomics-fragment-annotation/0.6.3--pl5321hdfd78af_2
-$ module help quay.io/biocontainers/perl-metabolomics-fragment-annotation/0.6.3--pl5321hdfd78af_2
+$ module load quay.io/biocontainers/perl-metabolomics-fragment-annotation/0.6.9--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-metabolomics-fragment-annotation/0.6.9--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
