@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rbpbench"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rbpbench/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rbpbench/container.yaml"
-updated_at: "2023-11-27 03:17:41.633164"
-latest: "0.1--pyh7cba7a3_0"
+updated_at: "2023-11-28 02:50:54.144573"
+latest: "0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rbpbench"
 aliases:
  - "bed2fasta"
@@ -54,8 +54,11 @@ aliases:
  - "fasta-make-index"
 versions:
  - "0.1--pyh7cba7a3_0"
+ - "0.4--pyhdfd78af_0"
+ - "0.3--pyh7cba7a3_0"
+ - "0.2--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for rbpbench"
-config: {"url": "https://biocontainers.pro/tools/rbpbench", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rbpbench", "latest": {"0.1--pyh7cba7a3_0": "sha256:750b3d7b57571a541f15140486947118245b189d54ec0de4bbd5319f3736c91f"}, "tags": {"0.1--pyh7cba7a3_0": "sha256:750b3d7b57571a541f15140486947118245b189d54ec0de4bbd5319f3736c91f"}, "docker": "quay.io/biocontainers/rbpbench", "aliases": {"bed2fasta": "/usr/local/bin/bed2fasta", "centrimo-plots": "/usr/local/bin/centrimo-plots", "corepack": "/usr/local/bin/corepack", "dtc": "/usr/local/bin/dtc", "fasta-holdout-set": "/usr/local/bin/fasta-holdout-set", "fasta-re-match": "/usr/local/bin/fasta-re-match", "index-fasta-file": "/usr/local/bin/index-fasta-file", "meme-chip_html_to_tsv": "/usr/local/bin/meme-chip_html_to_tsv", "momo": "/usr/local/bin/momo", "prosite2meme": "/usr/local/bin/prosite2meme", "rbpbench": "/usr/local/bin/rbpbench", "sea": "/usr/local/bin/sea", "simplepp": "/usr/local/bin/simplepp", "streme": "/usr/local/bin/streme", "streme_xml_to_html": "/usr/local/bin/streme_xml_to_html", "tgene": "/usr/local/bin/tgene", "tts": "/usr/local/bin/tts", "xstreme": "/usr/local/bin/xstreme", "xstreme_html_to_tsv": "/usr/local/bin/xstreme_html_to_tsv", "alphtype": "/usr/local/bin/alphtype", "ama": "/usr/local/bin/ama", "ama-qvalues": "/usr/local/bin/ama-qvalues", "ame": "/usr/local/bin/ame", "beeml2meme": "/usr/local/bin/beeml2meme", "centrimo": "/usr/local/bin/centrimo", "ceqlogo": "/usr/local/bin/ceqlogo", "chen2meme": "/usr/local/bin/chen2meme", "clustalw2fasta": "/usr/local/bin/clustalw2fasta", "clustalw2phylip": "/usr/local/bin/clustalw2phylip", "compute-prior-dist": "/usr/local/bin/compute-prior-dist", "compute-uniform-priors": "/usr/local/bin/compute-uniform-priors", "create-priors": "/usr/local/bin/create-priors", "dreme": "/usr/local/bin/dreme", "dreme_xml_to_html": "/usr/local/bin/dreme_xml_to_html", "dreme_xml_to_txt": "/usr/local/bin/dreme_xml_to_txt", "dust": "/usr/local/bin/dust", "elm2meme": "/usr/local/bin/elm2meme", "fasta-center": "/usr/local/bin/fasta-center", "fasta-dinucleotide-shuffle": "/usr/local/bin/fasta-dinucleotide-shuffle", "fasta-fetch": "/usr/local/bin/fasta-fetch", "fasta-get-markov": "/usr/local/bin/fasta-get-markov", "fasta-grep": "/usr/local/bin/fasta-grep", "fasta-hamming-enrich": "/usr/local/bin/fasta-hamming-enrich", "fasta-make-index": "/usr/local/bin/fasta-make-index"}}
+config: {"url": "https://biocontainers.pro/tools/rbpbench", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rbpbench", "latest": {"0.4--pyhdfd78af_0": "sha256:1cb706847518e12962b078a01e9db257324bda76ffedeb3d1632e185ddf7dcc4"}, "tags": {"0.1--pyh7cba7a3_0": "sha256:750b3d7b57571a541f15140486947118245b189d54ec0de4bbd5319f3736c91f", "0.4--pyhdfd78af_0": "sha256:1cb706847518e12962b078a01e9db257324bda76ffedeb3d1632e185ddf7dcc4", "0.3--pyh7cba7a3_0": "sha256:2fac3ba35a4983f3910652eb2c7dcf6e0635b7a7ecdbccb2ae4f41f76c2d1917", "0.2--pyh7cba7a3_0": "sha256:11a07a5184a0b60b0c6edf50473a1aaf3bd21144b8dd9bbfaee0b29c2f23e2a6"}, "docker": "quay.io/biocontainers/rbpbench", "aliases": {"bed2fasta": "/usr/local/bin/bed2fasta", "centrimo-plots": "/usr/local/bin/centrimo-plots", "corepack": "/usr/local/bin/corepack", "dtc": "/usr/local/bin/dtc", "fasta-holdout-set": "/usr/local/bin/fasta-holdout-set", "fasta-re-match": "/usr/local/bin/fasta-re-match", "index-fasta-file": "/usr/local/bin/index-fasta-file", "meme-chip_html_to_tsv": "/usr/local/bin/meme-chip_html_to_tsv", "momo": "/usr/local/bin/momo", "prosite2meme": "/usr/local/bin/prosite2meme", "rbpbench": "/usr/local/bin/rbpbench", "sea": "/usr/local/bin/sea", "simplepp": "/usr/local/bin/simplepp", "streme": "/usr/local/bin/streme", "streme_xml_to_html": "/usr/local/bin/streme_xml_to_html", "tgene": "/usr/local/bin/tgene", "tts": "/usr/local/bin/tts", "xstreme": "/usr/local/bin/xstreme", "xstreme_html_to_tsv": "/usr/local/bin/xstreme_html_to_tsv", "alphtype": "/usr/local/bin/alphtype", "ama": "/usr/local/bin/ama", "ama-qvalues": "/usr/local/bin/ama-qvalues", "ame": "/usr/local/bin/ame", "beeml2meme": "/usr/local/bin/beeml2meme", "centrimo": "/usr/local/bin/centrimo", "ceqlogo": "/usr/local/bin/ceqlogo", "chen2meme": "/usr/local/bin/chen2meme", "clustalw2fasta": "/usr/local/bin/clustalw2fasta", "clustalw2phylip": "/usr/local/bin/clustalw2phylip", "compute-prior-dist": "/usr/local/bin/compute-prior-dist", "compute-uniform-priors": "/usr/local/bin/compute-uniform-priors", "create-priors": "/usr/local/bin/create-priors", "dreme": "/usr/local/bin/dreme", "dreme_xml_to_html": "/usr/local/bin/dreme_xml_to_html", "dreme_xml_to_txt": "/usr/local/bin/dreme_xml_to_txt", "dust": "/usr/local/bin/dust", "elm2meme": "/usr/local/bin/elm2meme", "fasta-center": "/usr/local/bin/fasta-center", "fasta-dinucleotide-shuffle": "/usr/local/bin/fasta-dinucleotide-shuffle", "fasta-fetch": "/usr/local/bin/fasta-fetch", "fasta-get-markov": "/usr/local/bin/fasta-get-markov", "fasta-grep": "/usr/local/bin/fasta-grep", "fasta-hamming-enrich": "/usr/local/bin/fasta-hamming-enrich", "fasta-make-index": "/usr/local/bin/fasta-make-index"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rbpbench.
@@ -70,7 +73,7 @@ $ shpc install quay.io/biocontainers/rbpbench
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rbpbench:0.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/rbpbench:0.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +85,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rbpbench/0.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/rbpbench/0.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/rbpbench/0.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/rbpbench/0.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-baalchip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-baalchip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-baalchip/container.yaml"
-updated_at: "2023-11-27 03:27:55.042625"
+updated_at: "2023-11-28 03:01:13.100295"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-baalchip"
 aliases:
