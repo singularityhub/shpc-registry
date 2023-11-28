@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/brooklyn_plot
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for brooklyn_plot
 latest:
-  0.0.3--pyhdfd78af_0: sha256:10b005bbb8a82de682541dd49bea62c4166f9d5e2840b68da95e87237c82bd68
+  0.0.4--pyhdfd78af_0: sha256:8b4dd74b3e39569fee5161d58fd390e05c3d909adb36a88e15eb936a0f006453
 tags:
   0.0.3--pyhdfd78af_0: sha256:10b005bbb8a82de682541dd49bea62c4166f9d5e2840b68da95e87237c82bd68
+  0.0.4--pyhdfd78af_0: sha256:8b4dd74b3e39569fee5161d58fd390e05c3d909adb36a88e15eb936a0f006453
 docker: quay.io/biocontainers/brooklyn_plot
 aliases:
   brooklyn_plot: /usr/local/bin/brooklyn_plot
