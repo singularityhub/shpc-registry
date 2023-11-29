@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/brooklyn_plot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/brooklyn_plot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/brooklyn_plot/container.yaml"
-updated_at: "2023-11-28 03:06:40.592685"
-latest: "0.0.3--pyhdfd78af_0"
+updated_at: "2023-11-29 03:04:42.414312"
+latest: "0.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/brooklyn_plot"
 aliases:
  - "brooklyn_plot"
@@ -37,8 +37,9 @@ aliases:
  - "ttx"
 versions:
  - "0.0.3--pyhdfd78af_0"
+ - "0.0.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for brooklyn_plot"
-config: {"url": "https://biocontainers.pro/tools/brooklyn_plot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for brooklyn_plot", "latest": {"0.0.3--pyhdfd78af_0": "sha256:10b005bbb8a82de682541dd49bea62c4166f9d5e2840b68da95e87237c82bd68"}, "tags": {"0.0.3--pyhdfd78af_0": "sha256:10b005bbb8a82de682541dd49bea62c4166f9d5e2840b68da95e87237c82bd68"}, "docker": "quay.io/biocontainers/brooklyn_plot", "aliases": {"brooklyn_plot": "/usr/local/bin/brooklyn_plot", "h5delete": "/usr/local/bin/h5delete", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "tjbench": "/usr/local/bin/tjbench", "scanpy": "/usr/local/bin/scanpy", "aec": "/usr/local/bin/aec", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx"}}
+config: {"url": "https://biocontainers.pro/tools/brooklyn_plot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for brooklyn_plot", "latest": {"0.0.4--pyhdfd78af_0": "sha256:8b4dd74b3e39569fee5161d58fd390e05c3d909adb36a88e15eb936a0f006453"}, "tags": {"0.0.3--pyhdfd78af_0": "sha256:10b005bbb8a82de682541dd49bea62c4166f9d5e2840b68da95e87237c82bd68", "0.0.4--pyhdfd78af_0": "sha256:8b4dd74b3e39569fee5161d58fd390e05c3d909adb36a88e15eb936a0f006453"}, "docker": "quay.io/biocontainers/brooklyn_plot", "aliases": {"brooklyn_plot": "/usr/local/bin/brooklyn_plot", "h5delete": "/usr/local/bin/h5delete", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "tjbench": "/usr/local/bin/tjbench", "scanpy": "/usr/local/bin/scanpy", "aec": "/usr/local/bin/aec", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/brooklyn_plot.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/brooklyn_plot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/brooklyn_plot:0.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/brooklyn_plot:0.0.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/brooklyn_plot/0.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/brooklyn_plot/0.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/brooklyn_plot/0.0.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/brooklyn_plot/0.0.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ngs-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngs-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngs-tools/container.yaml"
-updated_at: "2023-11-28 02:58:45.600772"
-latest: "1.8.4--pyhdfd78af_0"
+updated_at: "2023-11-29 02:57:01.503636"
+latest: "1.8.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ngs-tools"
 aliases:
  - "shortuuid"
@@ -23,8 +23,9 @@ versions:
  - "1.8.1--pyhdfd78af_0"
  - "1.8.3--pyhdfd78af_0"
  - "1.8.4--pyhdfd78af_0"
+ - "1.8.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ngs-tools"
-config: {"url": "https://biocontainers.pro/tools/ngs-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngs-tools", "latest": {"1.8.4--pyhdfd78af_0": "sha256:963b3ecb038078244216a7490c73d59099e59a995e9f5e9df2602ae198601f7b"}, "tags": {"1.8.1--pyhdfd78af_0": "sha256:8b2ec1c38f3a01a4792702492ea405b4c85310a4b146ee4fb1bae2eabbdfd750", "1.8.3--pyhdfd78af_0": "sha256:f343d1dc73b5021a57bacec86ed7cb47fabcd23e3e78db72fe467f6bab2f9a98", "1.8.4--pyhdfd78af_0": "sha256:963b3ecb038078244216a7490c73d59099e59a995e9f5e9df2602ae198601f7b"}, "docker": "quay.io/biocontainers/ngs-tools", "aliases": {"shortuuid": "/usr/local/bin/shortuuid", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "tqdm": "/usr/local/bin/tqdm", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10"}}
+config: {"url": "https://biocontainers.pro/tools/ngs-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngs-tools", "latest": {"1.8.5--pyhdfd78af_0": "sha256:acf17b06318942bbf8270b7354f612f945be67aa23c1753e1dd4a8c219d65da6"}, "tags": {"1.8.1--pyhdfd78af_0": "sha256:8b2ec1c38f3a01a4792702492ea405b4c85310a4b146ee4fb1bae2eabbdfd750", "1.8.3--pyhdfd78af_0": "sha256:f343d1dc73b5021a57bacec86ed7cb47fabcd23e3e78db72fe467f6bab2f9a98", "1.8.4--pyhdfd78af_0": "sha256:963b3ecb038078244216a7490c73d59099e59a995e9f5e9df2602ae198601f7b", "1.8.5--pyhdfd78af_0": "sha256:acf17b06318942bbf8270b7354f612f945be67aa23c1753e1dd4a8c219d65da6"}, "docker": "quay.io/biocontainers/ngs-tools", "aliases": {"shortuuid": "/usr/local/bin/shortuuid", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "tqdm": "/usr/local/bin/tqdm", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngs-tools.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/ngs-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ngs-tools:1.8.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ngs-tools:1.8.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ngs-tools/1.8.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/ngs-tools/1.8.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/ngs-tools/1.8.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/ngs-tools/1.8.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

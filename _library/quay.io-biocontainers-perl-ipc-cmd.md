@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-ipc-cmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-ipc-cmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-ipc-cmd/container.yaml"
-updated_at: "2023-11-28 02:35:38.607794"
+updated_at: "2023-11-29 02:34:21.323609"
 latest: "1.04--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-ipc-cmd"
 aliases:

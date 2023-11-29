@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dajin2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dajin2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dajin2/container.yaml"
-updated_at: "2023-11-28 03:01:34.705958"
-latest: "0.3.2--pyh7cba7a3_0"
+updated_at: "2023-11-29 02:59:45.834591"
+latest: "0.3.3--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/dajin2"
 aliases:
  - "DAJIN2"
@@ -29,8 +29,9 @@ aliases:
 versions:
  - "0.3.1--pyh7cba7a3_0"
  - "0.3.2--pyh7cba7a3_0"
+ - "0.3.3--pyh7cba7a3_1"
 description: "singularity registry hpc automated addition for dajin2"
-config: {"url": "https://biocontainers.pro/tools/dajin2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dajin2", "latest": {"0.3.2--pyh7cba7a3_0": "sha256:db854186c34a7297c43adfa23f8844dbb7e76173b657e5c87b2e08cc417505b7"}, "tags": {"0.3.1--pyh7cba7a3_0": "sha256:7fad451d45ba307d325fe1c43b996cfdc5f3c36b8d8736e03ccb31c5c5659d5b", "0.3.2--pyh7cba7a3_0": "sha256:db854186c34a7297c43adfa23f8844dbb7e76173b657e5c87b2e08cc417505b7"}, "docker": "quay.io/biocontainers/dajin2", "aliases": {"DAJIN2": "/usr/local/bin/DAJIN2", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "waitress-serve": "/usr/local/bin/waitress-serve", "minimap2.py": "/usr/local/bin/minimap2.py", "flask": "/usr/local/bin/flask", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/dajin2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dajin2", "latest": {"0.3.3--pyh7cba7a3_1": "sha256:d17c19278351ce03603bed1ce0e14a38b36a807a87c329fa7ad7b031aace1cea"}, "tags": {"0.3.1--pyh7cba7a3_0": "sha256:7fad451d45ba307d325fe1c43b996cfdc5f3c36b8d8736e03ccb31c5c5659d5b", "0.3.2--pyh7cba7a3_0": "sha256:db854186c34a7297c43adfa23f8844dbb7e76173b657e5c87b2e08cc417505b7", "0.3.3--pyh7cba7a3_1": "sha256:d17c19278351ce03603bed1ce0e14a38b36a807a87c329fa7ad7b031aace1cea"}, "docker": "quay.io/biocontainers/dajin2", "aliases": {"DAJIN2": "/usr/local/bin/DAJIN2", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "waitress-serve": "/usr/local/bin/waitress-serve", "minimap2.py": "/usr/local/bin/minimap2.py", "flask": "/usr/local/bin/flask", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dajin2.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/dajin2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dajin2:0.3.2--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/dajin2:0.3.3--pyh7cba7a3_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dajin2/0.3.2--pyh7cba7a3_0
-$ module help quay.io/biocontainers/dajin2/0.3.2--pyh7cba7a3_0
+$ module load quay.io/biocontainers/dajin2/0.3.3--pyh7cba7a3_1
+$ module help quay.io/biocontainers/dajin2/0.3.3--pyh7cba7a3_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

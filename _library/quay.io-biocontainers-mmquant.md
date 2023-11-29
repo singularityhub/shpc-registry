@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mmquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmquant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmquant/container.yaml"
-updated_at: "2023-11-28 02:41:02.692330"
-latest: "1.0.7--hdcf5f25_0"
+updated_at: "2023-11-29 02:39:37.232699"
+latest: "1.0.9--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/mmquant"
 aliases:
  - "mmquant"
@@ -14,8 +14,9 @@ versions:
  - "1.0.5--hd03093a_0"
  - "1.0.5--hdcf5f25_2"
  - "1.0.7--hdcf5f25_0"
+ - "1.0.9--hdcf5f25_0"
 description: "shpc-registry automated BioContainers addition for mmquant"
-config: {"url": "https://biocontainers.pro/tools/mmquant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mmquant", "latest": {"1.0.7--hdcf5f25_0": "sha256:f49b1a0dc372be461e1aff9598b598e5b61a6dc271682ef39c9dd5e2e603ed5c"}, "tags": {"1.0.4--hd03093a_1": "sha256:cc14611f926d053a17e8972998398bc3ed6a7db754dc40f3a7cc61e39db178e9", "1.0.5--hd03093a_0": "sha256:7f919367b43e508f76d787d53b9293c952fa4da516abde062e574d3b7feb1bfc", "1.0.5--hdcf5f25_2": "sha256:c9ed826c9aba11e00981cba166a7fafbe75ab136b2b3d0d09a715946dea125e4", "1.0.7--hdcf5f25_0": "sha256:f49b1a0dc372be461e1aff9598b598e5b61a6dc271682ef39c9dd5e2e603ed5c"}, "docker": "quay.io/biocontainers/mmquant", "aliases": {"mmquant": "/usr/local/bin/mmquant"}}
+config: {"url": "https://biocontainers.pro/tools/mmquant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mmquant", "latest": {"1.0.9--hdcf5f25_0": "sha256:27d79e260714791678f745a9445263bd38f02ab8f7f3b9b67d4627e8166e9f63"}, "tags": {"1.0.4--hd03093a_1": "sha256:cc14611f926d053a17e8972998398bc3ed6a7db754dc40f3a7cc61e39db178e9", "1.0.5--hd03093a_0": "sha256:7f919367b43e508f76d787d53b9293c952fa4da516abde062e574d3b7feb1bfc", "1.0.5--hdcf5f25_2": "sha256:c9ed826c9aba11e00981cba166a7fafbe75ab136b2b3d0d09a715946dea125e4", "1.0.7--hdcf5f25_0": "sha256:f49b1a0dc372be461e1aff9598b598e5b61a6dc271682ef39c9dd5e2e603ed5c", "1.0.9--hdcf5f25_0": "sha256:27d79e260714791678f745a9445263bd38f02ab8f7f3b9b67d4627e8166e9f63"}, "docker": "quay.io/biocontainers/mmquant", "aliases": {"mmquant": "/usr/local/bin/mmquant"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mmquant.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/mmquant
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mmquant:1.0.7--hdcf5f25_0
+$ shpc install quay.io/biocontainers/mmquant:1.0.9--hdcf5f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mmquant/1.0.7--hdcf5f25_0
-$ module help quay.io/biocontainers/mmquant/1.0.7--hdcf5f25_0
+$ module load quay.io/biocontainers/mmquant/1.0.9--hdcf5f25_0
+$ module help quay.io/biocontainers/mmquant/1.0.9--hdcf5f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
