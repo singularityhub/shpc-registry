@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ipddb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ipddb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ipddb/container.yaml"
-updated_at: "2023-11-29 02:37:12.024398"
+updated_at: "2023-11-30 02:37:32.483620"
 latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ipddb"
 aliases:
