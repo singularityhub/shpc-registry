@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/snakemake-interface-executor-plugins
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snakemake-interface-executor-plugins
 latest:
-  7.0.3--pyhdfd78af_0: sha256:837cabc913cce79e6b50c7222e8320996cc8429bf4ffa9ab495c1343629056e5
+  8.1.0--pyhdfd78af_0: sha256:15dcb8b3bb2b43810e124cb82e7058b6842905033d40aae636ec208980f57afd
 tags:
   1.0.1--pyhdfd78af_0: sha256:8b8ed1c92656a706fc8386caea18f534de39fa8bb504e785ecfe97971cace5c3
   5.0.2--pyhdfd78af_0: sha256:1ad0280b34f79c258d0868dd38f2675eb76972a86e57949c69c56e168f9ab8d7
@@ -12,6 +12,8 @@ tags:
   1.2.0--pyhdfd78af_0: sha256:9ba9b877056afc069bd8f48a9a40ecfc318b9106fbb2a8d5f3e76d392504d1f7
   7.0.3--pyhdfd78af_0: sha256:837cabc913cce79e6b50c7222e8320996cc8429bf4ffa9ab495c1343629056e5
   6.0.0--pyhdfd78af_0: sha256:e606119c453da262571bfbc8708acc3773a1fd0d713efd0dc98e1a3ec172a017
+  8.1.0--pyhdfd78af_0: sha256:15dcb8b3bb2b43810e124cb82e7058b6842905033d40aae636ec208980f57afd
+  8.0.2--pyhdfd78af_0: sha256:f236d48e338860539ca5d99f713ea06e5749d5406faceabeed7a82b71b3b9140
 docker: quay.io/biocontainers/snakemake-interface-executor-plugins
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11
