@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ic10trainingdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ic10trainingdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ic10trainingdata/container.yaml"
-updated_at: "2023-11-30 02:59:48.167565"
+updated_at: "2023-12-01 03:06:21.942661"
 latest: "1.0.1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-ic10trainingdata"
 aliases:
