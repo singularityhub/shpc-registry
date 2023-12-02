@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biopet-vcfstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopet-vcfstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biopet-vcfstats/container.yaml"
-updated_at: "2023-12-01 02:44:30.982253"
+updated_at: "2023-12-02 02:34:48.913922"
 latest: "1.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/biopet-vcfstats"
 aliases:

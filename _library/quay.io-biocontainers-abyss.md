@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abyss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abyss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abyss/container.yaml"
-updated_at: "2023-12-01 02:40:20.752097"
+updated_at: "2023-12-02 02:30:43.501298"
 latest: "2.3.7--hec08913_1"
 container_url: "https://biocontainers.pro/tools/abyss"
 aliases:

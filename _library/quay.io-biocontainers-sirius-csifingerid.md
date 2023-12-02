@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sirius-csifingerid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sirius-csifingerid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sirius-csifingerid/container.yaml"
-updated_at: "2023-12-01 02:59:57.003718"
-latest: "5.8.3--h3bb291f_0"
+updated_at: "2023-12-02 02:49:57.176824"
+latest: "5.8.5--h3bb291f_0"
 container_url: "https://biocontainers.pro/tools/sirius-csifingerid"
 aliases:
  - "sirius"
@@ -15,8 +15,9 @@ versions:
  - "4.9.15--hec16e2b_1"
  - "4.9.15--h031d066_3"
  - "5.8.3--h3bb291f_0"
+ - "5.8.5--h3bb291f_0"
 description: "shpc-registry automated BioContainers addition for sirius-csifingerid"
-config: {"url": "https://biocontainers.pro/tools/sirius-csifingerid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sirius-csifingerid", "latest": {"5.8.3--h3bb291f_0": "sha256:b4439de18878f43d4372864aa9acbfd64d6a52cce5fcb5d33837e073661199f9"}, "tags": {"4.9.8--hec16e2b_2": "sha256:745743cc397513f88f5bb20ac0b5e48f9955deedfc071ee3104145146eb141d3", "4.9.15--hec16e2b_1": "sha256:6a8895779bba32e140f5aeda269947a291c4ef52fc5494bce537637925197804", "4.9.15--h031d066_3": "sha256:6515a407e6c8a85e666aae0aa78d2c5060c48dc046c1f3cb6ee2204e6ac76497", "5.8.3--h3bb291f_0": "sha256:b4439de18878f43d4372864aa9acbfd64d6a52cce5fcb5d33837e073661199f9"}, "docker": "quay.io/biocontainers/sirius-csifingerid", "aliases": {"sirius": "/usr/local/bin/sirius", "sirius-gui": "/usr/local/bin/sirius-gui"}}
+config: {"url": "https://biocontainers.pro/tools/sirius-csifingerid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sirius-csifingerid", "latest": {"5.8.5--h3bb291f_0": "sha256:691dea651d1102809adb0806edd1dfcb2095b72289f5824cefaa7c081a3b6025"}, "tags": {"4.9.8--hec16e2b_2": "sha256:745743cc397513f88f5bb20ac0b5e48f9955deedfc071ee3104145146eb141d3", "4.9.15--hec16e2b_1": "sha256:6a8895779bba32e140f5aeda269947a291c4ef52fc5494bce537637925197804", "4.9.15--h031d066_3": "sha256:6515a407e6c8a85e666aae0aa78d2c5060c48dc046c1f3cb6ee2204e6ac76497", "5.8.3--h3bb291f_0": "sha256:b4439de18878f43d4372864aa9acbfd64d6a52cce5fcb5d33837e073661199f9", "5.8.5--h3bb291f_0": "sha256:691dea651d1102809adb0806edd1dfcb2095b72289f5824cefaa7c081a3b6025"}, "docker": "quay.io/biocontainers/sirius-csifingerid", "aliases": {"sirius": "/usr/local/bin/sirius", "sirius-gui": "/usr/local/bin/sirius-gui"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sirius-csifingerid.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/sirius-csifingerid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sirius-csifingerid:5.8.3--h3bb291f_0
+$ shpc install quay.io/biocontainers/sirius-csifingerid:5.8.5--h3bb291f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sirius-csifingerid/5.8.3--h3bb291f_0
-$ module help quay.io/biocontainers/sirius-csifingerid/5.8.3--h3bb291f_0
+$ module load quay.io/biocontainers/sirius-csifingerid/5.8.5--h3bb291f_0
+$ module help quay.io/biocontainers/sirius-csifingerid/5.8.5--h3bb291f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

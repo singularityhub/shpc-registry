@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-minfidata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-minfidata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-minfidata/container.yaml"
-updated_at: "2023-12-01 02:45:45.894586"
+updated_at: "2023-12-02 02:36:02.599476"
 latest: "0.46.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-minfidata"
 

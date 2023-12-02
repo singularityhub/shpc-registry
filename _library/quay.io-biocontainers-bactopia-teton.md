@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bactopia-teton"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bactopia-teton/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bactopia-teton/container.yaml"
-updated_at: "2023-12-01 02:36:36.914621"
-latest: "1.0.1--hdfd78af_0"
+updated_at: "2023-12-02 02:27:03.116594"
+latest: "1.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bactopia-teton"
 aliases:
  - "alpha_diversity.py"
@@ -61,8 +61,9 @@ aliases:
 versions:
  - "1.0.0--hdfd78af_0"
  - "1.0.1--hdfd78af_0"
+ - "1.0.2--hdfd78af_0"
 description: "singularity registry hpc automated addition for bactopia-teton"
-config: {"url": "https://biocontainers.pro/tools/bactopia-teton", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bactopia-teton", "latest": {"1.0.1--hdfd78af_0": "sha256:c49b1ad5dfe6dd195a6400b53c7cbf1f3d8eaa4b3a3bbc9ba5d2e034eb8a9a75"}, "tags": {"1.0.0--hdfd78af_0": "sha256:0a05cf3119ab1814fd5b2d044958a053f13fff7645c74816a85e44d9c844f8f0", "1.0.1--hdfd78af_0": "sha256:c49b1ad5dfe6dd195a6400b53c7cbf1f3d8eaa4b3a3bbc9ba5d2e034eb8a9a75"}, "docker": "quay.io/biocontainers/bactopia-teton", "aliases": {"alpha_diversity.py": "/usr/local/bin/alpha_diversity.py", "bactopia-teton": "/usr/local/bin/bactopia-teton", "beta_diversity.py": "/usr/local/bin/beta_diversity.py", "bracken": "/usr/local/bin/bracken", "bracken-build": "/usr/local/bin/bracken-build", "combine_bracken_outputs.py": "/usr/local/bin/combine_bracken_outputs.py", "combine_kreports.py": "/usr/local/bin/combine_kreports.py", "combine_mpa.py": "/usr/local/bin/combine_mpa.py", "est_abundance.py": "/usr/local/bin/est_abundance.py", "extract_kraken_reads.py": "/usr/local/bin/extract_kraken_reads.py", "fastq-scan": "/usr/local/bin/fastq-scan", "filter_bracken.out.py": "/usr/local/bin/filter_bracken.out.py", "fix_unmapped.py": "/usr/local/bin/fix_unmapped.py", "generate_kmer_distribution.py": "/usr/local/bin/generate_kmer_distribution.py", "kmer2read_distr": "/usr/local/bin/kmer2read_distr", "kraken-bracken-summary.py": "/usr/local/bin/kraken-bracken-summary.py", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "kreport2krona.py": "/usr/local/bin/kreport2krona.py", "kreport2mpa.py": "/usr/local/bin/kreport2mpa.py", "ktClassifyHits": "/usr/local/bin/ktClassifyHits", "ktImportHits": "/usr/local/bin/ktImportHits", "make_kreport.py": "/usr/local/bin/make_kreport.py", "make_ktaxonomy.py": "/usr/local/bin/make_ktaxonomy.py", "rsync-ssl": "/usr/local/bin/rsync-ssl", "ktClassifyBLAST": "/usr/local/bin/ktClassifyBLAST", "ktGetContigMagnitudes": "/usr/local/bin/ktGetContigMagnitudes", "ktGetLCA": "/usr/local/bin/ktGetLCA", "ktGetLibPath": "/usr/local/bin/ktGetLibPath", "ktGetTaxIDFromAcc": "/usr/local/bin/ktGetTaxIDFromAcc", "ktGetTaxInfo": "/usr/local/bin/ktGetTaxInfo", "ktImportBLAST": "/usr/local/bin/ktImportBLAST", "ktImportDiskUsage": "/usr/local/bin/ktImportDiskUsage", "ktImportEC": "/usr/local/bin/ktImportEC", "ktImportFCP": "/usr/local/bin/ktImportFCP", "ktImportGalaxy": "/usr/local/bin/ktImportGalaxy", "ktImportKrona": "/usr/local/bin/ktImportKrona", "ktImportMETAREP-BLAST": "/usr/local/bin/ktImportMETAREP-BLAST", "ktImportMETAREP-EC": "/usr/local/bin/ktImportMETAREP-EC", "ktImportMGRAST": "/usr/local/bin/ktImportMGRAST", "ktImportPhymmBL": "/usr/local/bin/ktImportPhymmBL", "ktImportRDP": "/usr/local/bin/ktImportRDP", "ktImportRDPComparison": "/usr/local/bin/ktImportRDPComparison", "ktImportTaxonomy": "/usr/local/bin/ktImportTaxonomy", "ktImportText": "/usr/local/bin/ktImportText", "ktImportXML": "/usr/local/bin/ktImportXML", "ktUpdateTaxonomy.sh": "/usr/local/bin/ktUpdateTaxonomy.sh", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum"}}
+config: {"url": "https://biocontainers.pro/tools/bactopia-teton", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bactopia-teton", "latest": {"1.0.2--hdfd78af_0": "sha256:3028f3ea7362bdf41dbeb8842640eea36216db7f3b263511a92761cae2fccdbc"}, "tags": {"1.0.0--hdfd78af_0": "sha256:0a05cf3119ab1814fd5b2d044958a053f13fff7645c74816a85e44d9c844f8f0", "1.0.1--hdfd78af_0": "sha256:c49b1ad5dfe6dd195a6400b53c7cbf1f3d8eaa4b3a3bbc9ba5d2e034eb8a9a75", "1.0.2--hdfd78af_0": "sha256:3028f3ea7362bdf41dbeb8842640eea36216db7f3b263511a92761cae2fccdbc"}, "docker": "quay.io/biocontainers/bactopia-teton", "aliases": {"alpha_diversity.py": "/usr/local/bin/alpha_diversity.py", "bactopia-teton": "/usr/local/bin/bactopia-teton", "beta_diversity.py": "/usr/local/bin/beta_diversity.py", "bracken": "/usr/local/bin/bracken", "bracken-build": "/usr/local/bin/bracken-build", "combine_bracken_outputs.py": "/usr/local/bin/combine_bracken_outputs.py", "combine_kreports.py": "/usr/local/bin/combine_kreports.py", "combine_mpa.py": "/usr/local/bin/combine_mpa.py", "est_abundance.py": "/usr/local/bin/est_abundance.py", "extract_kraken_reads.py": "/usr/local/bin/extract_kraken_reads.py", "fastq-scan": "/usr/local/bin/fastq-scan", "filter_bracken.out.py": "/usr/local/bin/filter_bracken.out.py", "fix_unmapped.py": "/usr/local/bin/fix_unmapped.py", "generate_kmer_distribution.py": "/usr/local/bin/generate_kmer_distribution.py", "kmer2read_distr": "/usr/local/bin/kmer2read_distr", "kraken-bracken-summary.py": "/usr/local/bin/kraken-bracken-summary.py", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "kreport2krona.py": "/usr/local/bin/kreport2krona.py", "kreport2mpa.py": "/usr/local/bin/kreport2mpa.py", "ktClassifyHits": "/usr/local/bin/ktClassifyHits", "ktImportHits": "/usr/local/bin/ktImportHits", "make_kreport.py": "/usr/local/bin/make_kreport.py", "make_ktaxonomy.py": "/usr/local/bin/make_ktaxonomy.py", "rsync-ssl": "/usr/local/bin/rsync-ssl", "ktClassifyBLAST": "/usr/local/bin/ktClassifyBLAST", "ktGetContigMagnitudes": "/usr/local/bin/ktGetContigMagnitudes", "ktGetLCA": "/usr/local/bin/ktGetLCA", "ktGetLibPath": "/usr/local/bin/ktGetLibPath", "ktGetTaxIDFromAcc": "/usr/local/bin/ktGetTaxIDFromAcc", "ktGetTaxInfo": "/usr/local/bin/ktGetTaxInfo", "ktImportBLAST": "/usr/local/bin/ktImportBLAST", "ktImportDiskUsage": "/usr/local/bin/ktImportDiskUsage", "ktImportEC": "/usr/local/bin/ktImportEC", "ktImportFCP": "/usr/local/bin/ktImportFCP", "ktImportGalaxy": "/usr/local/bin/ktImportGalaxy", "ktImportKrona": "/usr/local/bin/ktImportKrona", "ktImportMETAREP-BLAST": "/usr/local/bin/ktImportMETAREP-BLAST", "ktImportMETAREP-EC": "/usr/local/bin/ktImportMETAREP-EC", "ktImportMGRAST": "/usr/local/bin/ktImportMGRAST", "ktImportPhymmBL": "/usr/local/bin/ktImportPhymmBL", "ktImportRDP": "/usr/local/bin/ktImportRDP", "ktImportRDPComparison": "/usr/local/bin/ktImportRDPComparison", "ktImportTaxonomy": "/usr/local/bin/ktImportTaxonomy", "ktImportText": "/usr/local/bin/ktImportText", "ktImportXML": "/usr/local/bin/ktImportXML", "ktUpdateTaxonomy.sh": "/usr/local/bin/ktUpdateTaxonomy.sh", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bactopia-teton.
@@ -77,7 +78,7 @@ $ shpc install quay.io/biocontainers/bactopia-teton
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bactopia-teton:1.0.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/bactopia-teton:1.0.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -89,8 +90,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bactopia-teton/1.0.1--hdfd78af_0
-$ module help quay.io/biocontainers/bactopia-teton/1.0.1--hdfd78af_0
+$ module load quay.io/biocontainers/bactopia-teton/1.0.2--hdfd78af_0
+$ module help quay.io/biocontainers/bactopia-teton/1.0.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

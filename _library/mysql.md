@@ -4,7 +4,7 @@ name:  "mysql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/mysql/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/mysql/container.yaml"
-updated_at: "2023-12-01 02:34:14.701744"
+updated_at: "2023-12-02 02:24:43.575536"
 latest: "8.2"
 container_url: "https://hub.docker.com/r/_/mysql"
 aliases:

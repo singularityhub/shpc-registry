@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/redundans"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/redundans/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/redundans/container.yaml"
-updated_at: "2023-12-01 03:09:21.518158"
+updated_at: "2023-12-02 02:59:09.400617"
 latest: "2.01--py310pl5321h43eeafb_0"
 container_url: "https://biocontainers.pro/tools/redundans"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trand"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trand/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trand/container.yaml"
-updated_at: "2023-12-01 03:17:16.895701"
+updated_at: "2023-12-02 03:06:56.469612"
 latest: "22.10.13--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/trand"
 aliases:

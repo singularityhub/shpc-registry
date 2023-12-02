@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hybracter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hybracter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hybracter/container.yaml"
-updated_at: "2023-12-01 02:53:09.671283"
-latest: "0.2.1--pyhdfd78af_0"
+updated_at: "2023-12-02 02:43:18.985114"
+latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hybracter"
 aliases:
  - "hybracter"
@@ -37,8 +37,10 @@ aliases:
 versions:
  - "0.1.2--pyhdfd78af_0"
  - "0.2.1--pyhdfd78af_0"
+ - "0.4.1--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for hybracter"
-config: {"url": "https://biocontainers.pro/tools/hybracter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hybracter", "latest": {"0.2.1--pyhdfd78af_0": "sha256:b76818af984f2d2c1795b9a6e62ff32a02eb88dbbd345f2e191f56e3b463f8ea"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:980cfcbbad71ce1742a56685146167b3b32b3df12e14d8a05d5346eb0a5a2c12", "0.2.1--pyhdfd78af_0": "sha256:b76818af984f2d2c1795b9a6e62ff32a02eb88dbbd345f2e191f56e3b463f8ea"}, "docker": "quay.io/biocontainers/hybracter", "aliases": {"hybracter": "/usr/local/bin/hybracter", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py", "rst2xml.py": "/usr/local/bin/rst2xml.py"}}
+config: {"url": "https://biocontainers.pro/tools/hybracter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hybracter", "latest": {"0.4.1--pyhdfd78af_0": "sha256:e371b3f129787112c977778881547bf2bd7a2bc1c851347d31e0cbbeba7d42ac"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:980cfcbbad71ce1742a56685146167b3b32b3df12e14d8a05d5346eb0a5a2c12", "0.2.1--pyhdfd78af_0": "sha256:b76818af984f2d2c1795b9a6e62ff32a02eb88dbbd345f2e191f56e3b463f8ea", "0.4.1--pyhdfd78af_0": "sha256:e371b3f129787112c977778881547bf2bd7a2bc1c851347d31e0cbbeba7d42ac", "0.3.0--pyhdfd78af_0": "sha256:92539d153f0e338b918d4e65d155b75e3c49c74fc7b792a6eb4c30826fb070d0"}, "docker": "quay.io/biocontainers/hybracter", "aliases": {"hybracter": "/usr/local/bin/hybracter", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py", "rst2xml.py": "/usr/local/bin/rst2xml.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hybracter.
@@ -53,7 +55,7 @@ $ shpc install quay.io/biocontainers/hybracter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hybracter:0.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/hybracter:0.4.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hybracter/0.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/hybracter/0.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/hybracter/0.4.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/hybracter/0.4.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

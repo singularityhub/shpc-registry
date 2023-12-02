@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/abricate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abricate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abricate/container.yaml"
-updated_at: "2023-12-01 02:50:58.307656"
-latest: "1.0.1--ha8f3691_1"
+updated_at: "2023-12-02 02:41:11.732021"
+latest: "1.0.1--ha8f3691_2"
 container_url: "https://biocontainers.pro/tools/abricate"
 aliases:
  - "abricate"
@@ -22,8 +22,9 @@ aliases:
  - "t_coffee"
 versions:
  - "1.0.1--ha8f3691_1"
+ - "1.0.1--ha8f3691_2"
 description: "shpc-registry automated BioContainers addition for abricate"
-config: {"url": "https://biocontainers.pro/tools/abricate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abricate", "latest": {"1.0.1--ha8f3691_1": "sha256:9de8b0d3edb97f9946ac8d57e2a1207d48801ae7a3b1f263f0a0e5773904451e"}, "tags": {"1.0.1--ha8f3691_1": "sha256:9de8b0d3edb97f9946ac8d57e2a1207d48801ae7a3b1f263f0a0e5773904451e"}, "docker": "quay.io/biocontainers/abricate", "aliases": {"abricate": "/usr/local/bin/abricate", "abricate-get_db": "/usr/local/bin/abricate-get_db", "any2fasta": "/usr/local/bin/any2fasta", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee"}}
+config: {"url": "https://biocontainers.pro/tools/abricate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abricate", "latest": {"1.0.1--ha8f3691_2": "sha256:3e40ec72d3fcb4352cda27fb71adbe73f0e6cb215cb337dc3ba44c809754ec93"}, "tags": {"1.0.1--ha8f3691_1": "sha256:9de8b0d3edb97f9946ac8d57e2a1207d48801ae7a3b1f263f0a0e5773904451e", "1.0.1--ha8f3691_2": "sha256:3e40ec72d3fcb4352cda27fb71adbe73f0e6cb215cb337dc3ba44c809754ec93"}, "docker": "quay.io/biocontainers/abricate", "aliases": {"abricate": "/usr/local/bin/abricate", "abricate-get_db": "/usr/local/bin/abricate-get_db", "any2fasta": "/usr/local/bin/any2fasta", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abricate.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/abricate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/abricate:1.0.1--ha8f3691_1
+$ shpc install quay.io/biocontainers/abricate:1.0.1--ha8f3691_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/abricate/1.0.1--ha8f3691_1
-$ module help quay.io/biocontainers/abricate/1.0.1--ha8f3691_1
+$ module load quay.io/biocontainers/abricate/1.0.1--ha8f3691_2
+$ module help quay.io/biocontainers/abricate/1.0.1--ha8f3691_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
