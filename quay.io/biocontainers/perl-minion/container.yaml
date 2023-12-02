@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/perl-minion
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for perl-minion
 latest:
-  10.25--pl5321hdfd78af_0: sha256:02209cef337b913ad90efbbced8bc9521b1e4e9601fbdaed48ab86ef78a913e2
+  10.27--pl5321hdfd78af_0: sha256:1f0a6e42472c20b0eefd114c6c118b3b18c3a9bd80cd800e71c6593a796ae5b3
 tags:
   10.25--pl5321hdfd78af_0: sha256:02209cef337b913ad90efbbced8bc9521b1e4e9601fbdaed48ab86ef78a913e2
+  10.27--pl5321hdfd78af_0: sha256:1f0a6e42472c20b0eefd114c6c118b3b18c3a9bd80cd800e71c6593a796ae5b3
+  10.26--pl5321hdfd78af_0: sha256:43035972fbd10c4ebf1c6eb8cf7ecdaf482f1fa5987c71dcc735b9ad82580170
 docker: quay.io/biocontainers/perl-minion
 aliases:
   hypnotoad: /usr/local/bin/hypnotoad
