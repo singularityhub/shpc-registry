@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bamdash
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bamdash
 latest:
-  0.2.1--pyhdfd78af_0: sha256:80f8539104b23829726bd2d12b12bece869a619153fd30028d0a7564e34c3e89
+  0.2.2--pyhdfd78af_0: sha256:19a0d354a4f8af8198cc77976f545fdf2ab288913f36a1931e26bfb9f46dbe62
 tags:
   0.2.1--pyhdfd78af_0: sha256:80f8539104b23829726bd2d12b12bece869a619153fd30028d0a7564e34c3e89
+  0.2.2--pyhdfd78af_0: sha256:19a0d354a4f8af8198cc77976f545fdf2ab288913f36a1931e26bfb9f46dbe62
 docker: quay.io/biocontainers/bamdash
 aliases:
   bamdash: /usr/local/bin/bamdash
