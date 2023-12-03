@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gembs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gembs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gembs/container.yaml"
-updated_at: "2023-12-02 02:45:33.340902"
+updated_at: "2023-12-03 02:50:20.628740"
 latest: "3.5.5_IHEC--py38h9338591_6"
 container_url: "https://biocontainers.pro/tools/gembs"
 aliases:

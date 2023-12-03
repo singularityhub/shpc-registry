@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-markdown"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-markdown/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-markdown/container.yaml"
-updated_at: "2023-12-02 02:29:23.442228"
+updated_at: "2023-12-03 02:33:51.015554"
 latest: "0.8--r3.4.1_1"
 container_url: "https://biocontainers.pro/tools/r-markdown"
 aliases:

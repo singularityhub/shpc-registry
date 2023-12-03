@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trackplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trackplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trackplot/container.yaml"
-updated_at: "2023-12-02 03:07:11.615351"
+updated_at: "2023-12-03 03:12:36.364466"
 latest: "0.3.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/trackplot"
 aliases:

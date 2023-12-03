@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chunked-scatter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chunked-scatter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chunked-scatter/container.yaml"
-updated_at: "2023-12-02 02:33:18.766240"
+updated_at: "2023-12-03 02:37:50.942938"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/chunked-scatter"
 aliases:

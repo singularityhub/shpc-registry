@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/mercury"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/mercury/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/mercury/container.yaml"
-updated_at: "2023-12-02 02:25:26.253991"
+updated_at: "2023-12-03 02:29:49.374947"
 latest: "2.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/mercury"
 

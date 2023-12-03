@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-json-maybexs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-json-maybexs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-json-maybexs/container.yaml"
-updated_at: "2023-12-02 02:56:48.973729"
+updated_at: "2023-12-03 03:01:51.080746"
 latest: "1.004003--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-json-maybexs"
 aliases:

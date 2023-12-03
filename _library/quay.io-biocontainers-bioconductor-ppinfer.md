@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ppinfer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ppinfer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ppinfer/container.yaml"
-updated_at: "2023-12-02 03:05:30.374482"
+updated_at: "2023-12-03 03:10:51.907934"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ppinfer"
 aliases:
