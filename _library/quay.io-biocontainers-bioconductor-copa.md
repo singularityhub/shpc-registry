@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-copa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-copa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-copa/container.yaml"
-updated_at: "2023-12-04 03:08:13.564328"
+updated_at: "2023-12-04 03:54:20.001174"
 latest: "1.68.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-copa"
 
