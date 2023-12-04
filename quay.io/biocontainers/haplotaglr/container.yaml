@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/haplotaglr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for haplotaglr
+latest:
+  1.1.4--pyhdfd78af_0: sha256:46677901cc9c64e1883bb181f8c0b475e243efcd95ab4548d727dd96e9ea684d
+tags:
+  1.1.4--pyhdfd78af_0: sha256:46677901cc9c64e1883bb181f8c0b475e243efcd95ab4548d727dd96e9ea684d
+docker: quay.io/biocontainers/haplotaglr
+aliases:
+  HaplotagLR: /usr/local/bin/HaplotagLR
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

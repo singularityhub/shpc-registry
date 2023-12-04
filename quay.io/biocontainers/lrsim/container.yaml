@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/lrsim
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for lrsim
+latest:
+  1.0--pl5321hbcd995c_0: sha256:c2552d2c9faec07545dfae5e9c7b340d21580250e88119b393e58c261e76ab31
+tags:
+  1.0--pl5321hbcd995c_0: sha256:c2552d2c9faec07545dfae5e9c7b340d21580250e88119b393e58c261e76ab31
+docker: quay.io/biocontainers/lrsim
+aliases:
+  lrsim: /usr/local/bin/lrsim
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
