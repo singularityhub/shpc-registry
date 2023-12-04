@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/jalview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jalview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jalview/container.yaml"
-updated_at: "2023-12-03 02:50:03.529549"
-latest: "2.11.2.7--hdfd78af_0"
+updated_at: "2023-12-04 02:50:45.964946"
+latest: "2.11.3.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jalview"
 aliases:
  - "jalview"
@@ -23,8 +23,9 @@ versions:
  - "2.11.2.4--hdfd78af_0"
  - "2.11.2.6--hdfd78af_0"
  - "2.11.2.7--hdfd78af_0"
+ - "2.11.3.2--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for jalview"
-config: {"url": "https://biocontainers.pro/tools/jalview", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jalview", "latest": {"2.11.2.7--hdfd78af_0": "sha256:0edc4fdb4c28b1179e635f370376d865ea70f8a3146fc217d51d4ca09b95ae37"}, "tags": {"2.11.2.4--hdfd78af_0": "sha256:d2ee7d5c9d85a0c676de8e2f87a8dd627d5a63773b6e8b57b695c38a5ae4377b", "2.11.2.6--hdfd78af_0": "sha256:f69c1d3d8a0b91053d17eca2b4f73c4f3cd9fe7549bc95c99fbe2b8042110add", "2.11.2.7--hdfd78af_0": "sha256:0edc4fdb4c28b1179e635f370376d865ea70f8a3146fc217d51d4ca09b95ae37"}, "docker": "quay.io/biocontainers/jalview", "aliases": {"jalview": "/usr/local/bin/jalview", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/jalview", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jalview", "latest": {"2.11.3.2--hdfd78af_0": "sha256:a44c3f4b8d2bc14dadc58452af1ee0126b3ae43a1de18d9e2f5869243d0e7553"}, "tags": {"2.11.2.4--hdfd78af_0": "sha256:d2ee7d5c9d85a0c676de8e2f87a8dd627d5a63773b6e8b57b695c38a5ae4377b", "2.11.2.6--hdfd78af_0": "sha256:f69c1d3d8a0b91053d17eca2b4f73c4f3cd9fe7549bc95c99fbe2b8042110add", "2.11.2.7--hdfd78af_0": "sha256:0edc4fdb4c28b1179e635f370376d865ea70f8a3146fc217d51d4ca09b95ae37", "2.11.3.2--hdfd78af_0": "sha256:a44c3f4b8d2bc14dadc58452af1ee0126b3ae43a1de18d9e2f5869243d0e7553"}, "docker": "quay.io/biocontainers/jalview", "aliases": {"jalview": "/usr/local/bin/jalview", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jalview.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/jalview
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/jalview:2.11.2.7--hdfd78af_0
+$ shpc install quay.io/biocontainers/jalview:2.11.3.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/jalview/2.11.2.7--hdfd78af_0
-$ module help quay.io/biocontainers/jalview/2.11.2.7--hdfd78af_0
+$ module load quay.io/biocontainers/jalview/2.11.3.2--hdfd78af_0
+$ module help quay.io/biocontainers/jalview/2.11.3.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

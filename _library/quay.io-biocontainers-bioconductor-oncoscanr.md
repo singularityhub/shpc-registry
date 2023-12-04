@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-oncoscanr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oncoscanr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oncoscanr/container.yaml"
-updated_at: "2023-12-03 03:00:39.610804"
+updated_at: "2023-12-04 03:01:17.183925"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-oncoscanr"
 aliases:

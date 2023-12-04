@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/concoord"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/concoord/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/concoord/container.yaml"
-updated_at: "2023-12-03 02:36:04.003759"
+updated_at: "2023-12-04 02:36:51.730251"
 latest: "2.1.2--h9ee0642_4"
 container_url: "https://biocontainers.pro/tools/concoord"
 aliases:
