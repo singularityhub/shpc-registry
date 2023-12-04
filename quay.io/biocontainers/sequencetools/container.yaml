@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/sequencetools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sequencetools
 latest:
-  1.5.3--h031d066_1: sha256:956f4eb484c6e93b6f26fd511141a59491b97a1f7d20600aece911d5a46e780a
+  1.5.3.2--h031d066_0: sha256:c402b9bd26032b8d881c7912395ba3416e4c578cbcde40d891bbd2ad0dfe6aea
 tags:
   1.5.2--hec16e2b_1: sha256:17b07c43c07dff2c4f5b7d67d727ecb9f11174ffd33884c357107808f480e79f
   1.5.3--hec16e2b_0: sha256:38d1d0e42b489a1ce256e43e1313710f308a61a2ceb70709ee01522ff7fdfefc
   1.5.3--h031d066_1: sha256:956f4eb484c6e93b6f26fd511141a59491b97a1f7d20600aece911d5a46e780a
+  1.5.3.2--h031d066_0: sha256:c402b9bd26032b8d881c7912395ba3416e4c578cbcde40d891bbd2ad0dfe6aea
 docker: quay.io/biocontainers/sequencetools
 aliases:
   genoStats: /usr/local/bin/genoStats
