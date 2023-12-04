@@ -1,0 +1,81 @@
+url: https://biocontainers.pro/tools/paragone
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for paragone
+latest:
+  1.0.0--pl5321h031d066_0: sha256:57658404b73f1373b6bf540a066699b4a06483da8f01f3f3e155b8b477bc931a
+tags:
+  1.0.0--pl5321h031d066_0: sha256:57658404b73f1373b6bf540a066699b4a06483da8f01f3f3e155b8b477bc931a
+docker: quay.io/biocontainers/paragone
+aliases:
+  HmmCleaner.pl: /usr/local/bin/HmmCleaner.pl
+  ali2fasta.pl: /usr/local/bin/ali2fasta.pl
+  ali2phylip.pl: /usr/local/bin/ali2phylip.pl
+  app-len-ids-ali.pl: /usr/local/bin/app-len-ids-ali.pl
+  change-ids-ali.pl: /usr/local/bin/change-ids-ali.pl
+  classify-ali.pl: /usr/local/bin/classify-ali.pl
+  crc32: /usr/local/bin/crc32
+  decompose.py: /usr/local/bin/decompose.py
+  export-itol.pl: /usr/local/bin/export-itol.pl
+  extract-ali.pl: /usr/local/bin/extract-ali.pl
+  fasta2ali.pl: /usr/local/bin/fasta2ali.pl
+  fetch-tax.pl: /usr/local/bin/fetch-tax.pl
+  format-tree.pl: /usr/local/bin/format-tree.pl
+  frameshiftSimul_final.pl: /usr/local/bin/frameshiftSimul_final.pl
+  gawk-5.3.0: /usr/local/bin/gawk-5.3.0
+  gawkbug: /usr/local/bin/gawkbug
+  idealize-ali.pl: /usr/local/bin/idealize-ali.pl
+  import-itol.pl: /usr/local/bin/import-itol.pl
+  inst-abbr-ids.pl: /usr/local/bin/inst-abbr-ids.pl
+  inst-qual-filter.pl: /usr/local/bin/inst-qual-filter.pl
+  inst-split-seqs.pl: /usr/local/bin/inst-split-seqs.pl
+  inst-tax-filter.pl: /usr/local/bin/inst-tax-filter.pl
+  jack-ali-dir.pl: /usr/local/bin/jack-ali-dir.pl
+  list2mapper.pl: /usr/local/bin/list2mapper.pl
+  make_gene_folder.py: /usr/local/bin/make_gene_folder.py
+  mask-ali.pl: /usr/local/bin/mask-ali.pl
+  paragone: /usr/local/bin/paragone
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  phylip2ali.pl: /usr/local/bin/phylip2ali.pl
+  provis: /usr/local/bin/provis
+  prune-ali.pl: /usr/local/bin/prune-ali.pl
+  prune-tree.pl: /usr/local/bin/prune-tree.pl
+  rest-ids-ali.pl: /usr/local/bin/rest-ids-ali.pl
+  run_treeshrink: /usr/local/bin/run_treeshrink
+  run_treeshrink.py: /usr/local/bin/run_treeshrink.py
+  setup-taxdir.pl: /usr/local/bin/setup-taxdir.pl
+  split-matrix.pl: /usr/local/bin/split-matrix.pl
+  split-rates-ali.pl: /usr/local/bin/split-rates-ali.pl
+  stock2ali.pl: /usr/local/bin/stock2ali.pl
+  subs-forest.pl: /usr/local/bin/subs-forest.pl
+  tab2mapper.pl: /usr/local/bin/tab2mapper.pl
+  tax-filter-ali.pl: /usr/local/bin/tax-filter-ali.pl
+  tax-mask-ali.pl: /usr/local/bin/tax-mask-ali.pl
+  tp: /usr/local/bin/tp
+  transferCleaner.pl: /usr/local/bin/transferCleaner.pl
+  tree2list.pl: /usr/local/bin/tree2list.pl
+  tree2tpl.pl: /usr/local/bin/tree2tpl.pl
+  iqtree2: /usr/local/bin/iqtree2
+  readal: /usr/local/bin/readal
+  statal: /usr/local/bin/statal
+  trimal: /usr/local/bin/trimal
+  mpg123: /usr/local/bin/mpg123
+  mpg123-id3dump: /usr/local/bin/mpg123-id3dump
+  mpg123-strip: /usr/local/bin/mpg123-strip
+  out123: /usr/local/bin/out123
+  clustalo: /usr/local/bin/clustalo
+  dumpsexp: /usr/local/bin/dumpsexp
+  findrule: /usr/local/bin/findrule
+  gpg-error: /usr/local/bin/gpg-error
+  gpgrt-config: /usr/local/bin/gpgrt-config
+  hmac256: /usr/local/bin/hmac256
+  iqtree: /usr/local/bin/iqtree
+  libgcrypt-config: /usr/local/bin/libgcrypt-config
+  mpicalc: /usr/local/bin/mpicalc
+  yat2m: /usr/local/bin/yat2m
+  lame: /usr/local/bin/lame
+  sip-build: /usr/local/bin/sip-build
+  sip-distinfo: /usr/local/bin/sip-distinfo
+  sip-install: /usr/local/bin/sip-install
+  sip-module: /usr/local/bin/sip-module
+  sip-sdist: /usr/local/bin/sip-sdist
+  sip-wheel: /usr/local/bin/sip-wheel

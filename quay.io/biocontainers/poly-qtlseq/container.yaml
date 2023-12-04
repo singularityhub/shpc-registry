@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/poly-qtlseq
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for poly-qtlseq
+latest:
+  1.0.0--hdfd78af_0: sha256:3578f9f1a064e754e143dd5dddd72aabe472333292801badf5e1607d4fddb7ec
+tags:
+  1.0.0--hdfd78af_0: sha256:3578f9f1a064e754e143dd5dddd72aabe472333292801badf5e1607d4fddb7ec
+docker: quay.io/biocontainers/poly-qtlseq
+aliases:
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  polyQtlseq: /usr/local/bin/polyQtlseq
+  jwebserver: /usr/local/bin/jwebserver
+  lttng-gen-tp: /usr/local/bin/lttng-gen-tp
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  snpEff: /usr/local/bin/snpEff
+  fastp: /usr/local/bin/fastp
+  gff2gff.py: /usr/local/bin/gff2gff.py
+  igzip: /usr/local/bin/igzip
+  jpackage: /usr/local/bin/jpackage
+  hb-info: /usr/local/bin/hb-info
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  guess-ploidy.py: /usr/local/bin/guess-ploidy.py
+  plot-roh.py: /usr/local/bin/plot-roh.py
+  run-roh.pl: /usr/local/bin/run-roh.pl
+  bwa: /usr/local/bin/bwa
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  color-chrs.pl: /usr/local/bin/color-chrs.pl
+  plot-vcfstats: /usr/local/bin/plot-vcfstats
+  bcftools: /usr/local/bin/bcftools
