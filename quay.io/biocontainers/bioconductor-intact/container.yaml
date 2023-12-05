@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-intact
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-intact
 latest:
-  1.0.1--r43hdfd78af_0: sha256:bb6ff4b3198c3f05cb1b447bc38ec402ad8eec7475df73cb369896c09c048def
+  1.2.0--r43hdfd78af_0: sha256:ba26e677bb3b5e561d99803177d1dae6078d5e1f84d5c75a2a35d93d6dbc1537
 tags:
   1.0.1--r43hdfd78af_0: sha256:bb6ff4b3198c3f05cb1b447bc38ec402ad8eec7475df73cb369896c09c048def
+  1.2.0--r43hdfd78af_0: sha256:ba26e677bb3b5e561d99803177d1dae6078d5e1f84d5c75a2a35d93d6dbc1537
 docker: quay.io/biocontainers/bioconductor-intact
 aliases:
   hb-info: /usr/local/bin/hb-info

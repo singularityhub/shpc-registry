@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-river
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-river
 latest:
-  1.24.0--r43hdfd78af_0: sha256:f5f392214d3748eef432acd0edc4b8dfbd4a106aa7633977b2df3e0e1e38a8c7
+  1.26.0--r43hdfd78af_0: sha256:660566700292b5fbbc9e7c660eece5e2b971d20bade65c86b234e27db99ae217
 tags:
   1.8.0--r36_1: sha256:dade0a0f7044427c04d81b8f9ccd8536627fcb470a3ba10878687307e053419e
   1.22.0--r42hdfd78af_0: sha256:29a4c326c4d7bc5051209735c1e569c0eac225697ecb4fdb9bda83729e11ac04
@@ -11,6 +11,7 @@ tags:
   1.14.0--r40hdfd78af_1: sha256:2e9fa73e5a616d78e7c9537a1f49969676d143a66414b85f2c29b058444b750f
   1.12.0--r40_0: sha256:032a2628307fc79a2154e0df41750042d8fccbf45b081347597d4f4b26915e3b
   1.24.0--r43hdfd78af_0: sha256:f5f392214d3748eef432acd0edc4b8dfbd4a106aa7633977b2df3e0e1e38a8c7
+  1.26.0--r43hdfd78af_0: sha256:660566700292b5fbbc9e7c660eece5e2b971d20bade65c86b234e27db99ae217
 docker: quay.io/biocontainers/bioconductor-river
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

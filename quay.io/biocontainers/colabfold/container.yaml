@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/colabfold
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for colabfold
 latest:
-  1.5.3--pyh7cba7a3_0: sha256:7cc6aa9d30c8d4a439adf01209334f1a4002d9c163f16bb75709a5c3eae5e223
+  1.5.3--pyh7cba7a3_1: sha256:3495f4927b6aadf028a24ceeea86d77949aba3c056d837a2a605607e2034d3b2
 tags:
   1.5.3--pyh7cba7a3_0: sha256:7cc6aa9d30c8d4a439adf01209334f1a4002d9c163f16bb75709a5c3eae5e223
+  1.5.3--pyh7cba7a3_1: sha256:3495f4927b6aadf028a24ceeea86d77949aba3c056d837a2a605607e2034d3b2
 docker: quay.io/biocontainers/colabfold
 aliases:
   a3m_database_extract: /usr/local/bin/a3m_database_extract

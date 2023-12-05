@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-qusage
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-qusage
 latest:
-  2.34.0--r43hdfd78af_0: sha256:58d2290cac8569eb421517c9bfb3626d69e72ec82a16439fbead9aea4b3f4849
+  2.36.0--r43hdfd78af_0: sha256:b5757e50e145235b3b5df14c9ca5bc42bb9e4bf88dc1f93114cc80c3c4051ebd
 tags:
   2.28.0--r41hdfd78af_0: sha256:be1baa4906302e44939e34f5b3b8f4efe6dad66547306269322f1eb4d09e42c3
   2.32.0--r42hdfd78af_0: sha256:014aa3b4681b392c22b4fd963590206d2fc009dd7fde2d367df0f9ed8d39f617
   2.34.0--r43hdfd78af_0: sha256:58d2290cac8569eb421517c9bfb3626d69e72ec82a16439fbead9aea4b3f4849
+  2.36.0--r43hdfd78af_0: sha256:b5757e50e145235b3b5df14c9ca5bc42bb9e4bf88dc1f93114cc80c3c4051ebd
 docker: quay.io/biocontainers/bioconductor-qusage
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gimbleprep
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gimbleprep
 latest:
-  0.0.2b4--pyhdfd78af_0: sha256:b3c8cf5a3068110b30a067bf719a0f291a83040e16486b7fd5455f869272db86
+  0.0.2b5--pyhdfd78af_0: sha256:83886d68c572b73a2b0e682eec20f804267206f030ef9cc9f2ecd00d3780b9f3
 tags:
   0.0.2b3--pyhdfd78af_0: sha256:87c695292ff937130094a5f31ed9db8fe498793f35204d9184bcab6d45dc319e
   0.0.2b4--pyhdfd78af_0: sha256:b3c8cf5a3068110b30a067bf719a0f291a83040e16486b7fd5455f869272db86
+  0.0.2b5--pyhdfd78af_0: sha256:83886d68c572b73a2b0e682eec20f804267206f030ef9cc9f2ecd00d3780b9f3
 docker: quay.io/biocontainers/gimbleprep
 aliases:
   gimbleprep: /usr/local/bin/gimbleprep

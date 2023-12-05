@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pytrf
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pytrf
 latest:
-  1.2.1--py311h031d066_0: sha256:f456cb9560503e9078253b4ab1ede244736c96b7e57f4091fa65fe08116ec5a3
+  1.2.1--py38he5da3d1_1: sha256:a8965ef1f3031be7626e26448e8c5c178a280fa8a24429f14f0bc201f65f461d
 tags:
   1.2.1--py311h031d066_0: sha256:f456cb9560503e9078253b4ab1ede244736c96b7e57f4091fa65fe08116ec5a3
+  1.2.1--py38he5da3d1_1: sha256:a8965ef1f3031be7626e26448e8c5c178a280fa8a24429f14f0bc201f65f461d
 docker: quay.io/biocontainers/pytrf
 aliases:
   pytrf: /usr/local/bin/pytrf
