@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vdjdive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vdjdive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vdjdive/container.yaml"
-updated_at: "2023-12-04 03:39:54.542586"
+updated_at: "2023-12-05 02:53:54.448551"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vdjdive"
 aliases:

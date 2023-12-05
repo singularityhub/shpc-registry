@@ -4,7 +4,7 @@ name:  "amazon/aws-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/amazon/aws-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/amazon/aws-cli/container.yaml"
-updated_at: "2023-12-04 03:16:10.006433"
+updated_at: "2023-12-05 02:29:53.456483"
 latest: "amd64"
 container_url: "https://hub.docker.com/r/amazon/aws-cli"
 aliases:
@@ -17,8 +17,10 @@ versions:
  - "2.13.15"
  - "2.13.24"
  - "2.13.32"
+ - "2.14.5"
+ - "2.13.39"
 description: "The AWS Command Line Interface (AWS CLI) is a unified tool to manage your AWS services."
-config: {"docker": "amazon/aws-cli", "url": "https://hub.docker.com/r/amazon/aws-cli", "maintainer": "@sarahbeecroft", "description": "The AWS Command Line Interface (AWS CLI) is a unified tool to manage your AWS services.", "latest": {"amd64": "sha256:da96ff855f2ec28b6317203f02088f2f6975b894da92fd3694f399ae956ad0e2"}, "tags": {"2.13.0": "sha256:7590866b360c488028f018e120da4394c799de08a8d8c1b09570cf720867bed5", "2.12.7": "sha256:93c39fb5fcf7b8269a7f1e3ee342f446f4c463abdbe924c79f4de2f959a03b3b", "amd64": "sha256:da96ff855f2ec28b6317203f02088f2f6975b894da92fd3694f399ae956ad0e2", "2.13.15": "sha256:ac2c7d3827a8fef1024357ada9c6ccd8d0ce098a85cffd6803a52bb8cb4842ed", "2.13.24": "sha256:e6ea5be1036e5f490fd4cd49cf0f7081eaf401a8dd978c524c28666b60a8c1b2", "2.13.32": "sha256:c59ac67975129e96448601b92d5a890cdfdaff0f175a3e4eb9cfa32b3995dca6"}, "aliases": {"aws": "/usr/local/aws-cli/v2/current/bin/aws", "aws_completer": "/usr/local/aws-cli/v2/current/bin/aws_completer"}, "features": {"home": true}}
+config: {"docker": "amazon/aws-cli", "url": "https://hub.docker.com/r/amazon/aws-cli", "maintainer": "@sarahbeecroft", "description": "The AWS Command Line Interface (AWS CLI) is a unified tool to manage your AWS services.", "latest": {"amd64": "sha256:6284c46b883c819477718de34719534f82195115730936ca7c571a8c56f39fbb"}, "tags": {"2.13.0": "sha256:7590866b360c488028f018e120da4394c799de08a8d8c1b09570cf720867bed5", "2.12.7": "sha256:93c39fb5fcf7b8269a7f1e3ee342f446f4c463abdbe924c79f4de2f959a03b3b", "amd64": "sha256:6284c46b883c819477718de34719534f82195115730936ca7c571a8c56f39fbb", "2.13.15": "sha256:ac2c7d3827a8fef1024357ada9c6ccd8d0ce098a85cffd6803a52bb8cb4842ed", "2.13.24": "sha256:e6ea5be1036e5f490fd4cd49cf0f7081eaf401a8dd978c524c28666b60a8c1b2", "2.13.32": "sha256:c59ac67975129e96448601b92d5a890cdfdaff0f175a3e4eb9cfa32b3995dca6", "2.14.5": "sha256:8da8ae14cd7b6ea8a90d352736bb5dbde1be4bb408b67877f8f4f0e02c3e13e3", "2.13.39": "sha256:4fe0a87257ba17fc214ed9b3f3456ecf5cb6b040d8873944908f9b020ca2e58c"}, "aliases": {"aws": "/usr/local/aws-cli/v2/current/bin/aws", "aws_completer": "/usr/local/aws-cli/v2/current/bin/aws_completer"}, "features": {"home": true}}
 ---
 
 This module is a singularity container wrapper for amazon/aws-cli.

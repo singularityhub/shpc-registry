@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wgs2ncbi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wgs2ncbi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wgs2ncbi/container.yaml"
-updated_at: "2023-12-04 03:34:55.673810"
+updated_at: "2023-12-05 02:48:52.890089"
 latest: "1.1.2--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/wgs2ncbi"
 aliases:

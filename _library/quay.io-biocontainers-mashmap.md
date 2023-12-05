@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mashmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mashmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mashmap/container.yaml"
-updated_at: "2023-12-04 03:37:27.900788"
-latest: "3.1.1--h7093193_0"
+updated_at: "2023-12-05 02:51:25.977153"
+latest: "3.1.2--h07ea13f_0"
 container_url: "https://biocontainers.pro/tools/mashmap"
 aliases:
  - "mashmap"
@@ -17,8 +17,9 @@ versions:
  - "3.0.4--h97b747e_0"
  - "3.0.6--h07ea13f_0"
  - "3.1.1--h7093193_0"
+ - "3.1.2--h07ea13f_0"
 description: "shpc-registry automated BioContainers addition for mashmap"
-config: {"url": "https://biocontainers.pro/tools/mashmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mashmap", "latest": {"3.1.1--h7093193_0": "sha256:84ff1a86ff663aa614dc8f994610efd55cd019a31b11fffea0f18c8f0ec17039"}, "tags": {"2.0--pl5321h8e5b204_8": "sha256:6b6c744b535f172a9f5f0b6ce936cb8a125c2c81eadfe306e499a5e16cc96122", "3.0.1--h97b747e_1": "sha256:7c73ae6da33523ccf8945c9544a57717496b7fffe284c1d81a36ca785357d811", "3.0.4--h97b747e_0": "sha256:c19f20459f605d302be35213ffca02dc21b16f6469698bcb7e87af995d089a79", "3.0.6--h07ea13f_0": "sha256:f159f3c225feaece5159b1b8171e7f08a1cba4303340057f792bc17008332d28", "3.1.1--h7093193_0": "sha256:84ff1a86ff663aa614dc8f994610efd55cd019a31b11fffea0f18c8f0ec17039"}, "docker": "quay.io/biocontainers/mashmap", "aliases": {"mashmap": "/usr/local/bin/mashmap", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/mashmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mashmap", "latest": {"3.1.2--h07ea13f_0": "sha256:accb5a39b48c774c17afd565416c9aee3ce184790fac88c587df49fe430ab137"}, "tags": {"2.0--pl5321h8e5b204_8": "sha256:6b6c744b535f172a9f5f0b6ce936cb8a125c2c81eadfe306e499a5e16cc96122", "3.0.1--h97b747e_1": "sha256:7c73ae6da33523ccf8945c9544a57717496b7fffe284c1d81a36ca785357d811", "3.0.4--h97b747e_0": "sha256:c19f20459f605d302be35213ffca02dc21b16f6469698bcb7e87af995d089a79", "3.0.6--h07ea13f_0": "sha256:f159f3c225feaece5159b1b8171e7f08a1cba4303340057f792bc17008332d28", "3.1.1--h7093193_0": "sha256:84ff1a86ff663aa614dc8f994610efd55cd019a31b11fffea0f18c8f0ec17039", "3.1.2--h07ea13f_0": "sha256:accb5a39b48c774c17afd565416c9aee3ce184790fac88c587df49fe430ab137"}, "docker": "quay.io/biocontainers/mashmap", "aliases": {"mashmap": "/usr/local/bin/mashmap", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mashmap.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/mashmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mashmap:3.1.1--h7093193_0
+$ shpc install quay.io/biocontainers/mashmap:3.1.2--h07ea13f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mashmap/3.1.1--h7093193_0
-$ module help quay.io/biocontainers/mashmap/3.1.1--h7093193_0
+$ module load quay.io/biocontainers/mashmap/3.1.2--h07ea13f_0
+$ module help quay.io/biocontainers/mashmap/3.1.2--h07ea13f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

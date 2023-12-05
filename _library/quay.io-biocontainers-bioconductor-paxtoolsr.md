@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-paxtoolsr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-paxtoolsr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-paxtoolsr/container.yaml"
-updated_at: "2023-12-04 03:22:48.390807"
-latest: "1.34.0--r43hdfd78af_0"
+updated_at: "2023-12-05 02:36:37.072578"
+latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-paxtoolsr"
 aliases:
  - "jfr"
@@ -22,8 +22,9 @@ versions:
  - "1.28.0--r41hdfd78af_0"
  - "1.32.0--r42hdfd78af_0"
  - "1.34.0--r43hdfd78af_0"
+ - "1.36.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-paxtoolsr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-paxtoolsr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-paxtoolsr", "latest": {"1.34.0--r43hdfd78af_0": "sha256:66a271be294f88e7bf049feacf04e846c8ab137b41bdc479f1d285f3b72f1fd5"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:7ea7ccf6cb10bc55356f01271fe6c3e08428ef3bc91fc51c22943d8609816ea2", "1.32.0--r42hdfd78af_0": "sha256:0d9d9c06edf0507a039f23daddb68937d907114ec409f9f4a579aae58ea49f7f", "1.34.0--r43hdfd78af_0": "sha256:66a271be294f88e7bf049feacf04e846c8ab137b41bdc479f1d285f3b72f1fd5"}, "docker": "quay.io/biocontainers/bioconductor-paxtoolsr", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-paxtoolsr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-paxtoolsr", "latest": {"1.36.0--r43hdfd78af_0": "sha256:26eda40f7a873d21998633dd0721babf4ec3b918ef67ec1eac1db1d3d26747be"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:7ea7ccf6cb10bc55356f01271fe6c3e08428ef3bc91fc51c22943d8609816ea2", "1.32.0--r42hdfd78af_0": "sha256:0d9d9c06edf0507a039f23daddb68937d907114ec409f9f4a579aae58ea49f7f", "1.34.0--r43hdfd78af_0": "sha256:66a271be294f88e7bf049feacf04e846c8ab137b41bdc479f1d285f3b72f1fd5", "1.36.0--r43hdfd78af_0": "sha256:26eda40f7a873d21998633dd0721babf4ec3b918ef67ec1eac1db1d3d26747be"}, "docker": "quay.io/biocontainers/bioconductor-paxtoolsr", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-paxtoolsr.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-paxtoolsr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-paxtoolsr:1.34.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-paxtoolsr:1.36.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-paxtoolsr/1.34.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-paxtoolsr/1.34.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-paxtoolsr/1.36.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-paxtoolsr/1.36.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

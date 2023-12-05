@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-iterativebmasurv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iterativebmasurv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iterativebmasurv/container.yaml"
-updated_at: "2023-12-04 03:32:30.819784"
-latest: "1.58.0--r43hdfd78af_0"
+updated_at: "2023-12-05 02:46:27.497213"
+latest: "1.60.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-iterativebmasurv"
 
 versions:
  - "1.52.0--r41hdfd78af_0"
  - "1.56.0--r42hdfd78af_0"
  - "1.58.0--r43hdfd78af_0"
+ - "1.60.0--r43hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-iterativebmasurv"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-iterativebmasurv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-iterativebmasurv", "latest": {"1.58.0--r43hdfd78af_0": "sha256:cef0425b508d9b6631a445ccf3f2441ef9fae91a5e84c25e5dff42ea030e7131"}, "tags": {"1.52.0--r41hdfd78af_0": "sha256:581d3b06b722f2c7f2d2e626d056cce3b675ac6dbda3e7390ce7a1104f7e4138", "1.56.0--r42hdfd78af_0": "sha256:d48284301cc9ecbbc32e8a248f027ba486cad4b1e8ca9ffb4630fba0c558f6e8", "1.58.0--r43hdfd78af_0": "sha256:cef0425b508d9b6631a445ccf3f2441ef9fae91a5e84c25e5dff42ea030e7131"}, "docker": "quay.io/biocontainers/bioconductor-iterativebmasurv"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-iterativebmasurv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-iterativebmasurv", "latest": {"1.60.0--r43hdfd78af_1": "sha256:a72e315806840eb7b6f27d0efa45c980e64a2bdc07d606cee4bdb99d80258db3"}, "tags": {"1.52.0--r41hdfd78af_0": "sha256:581d3b06b722f2c7f2d2e626d056cce3b675ac6dbda3e7390ce7a1104f7e4138", "1.56.0--r42hdfd78af_0": "sha256:d48284301cc9ecbbc32e8a248f027ba486cad4b1e8ca9ffb4630fba0c558f6e8", "1.58.0--r43hdfd78af_0": "sha256:cef0425b508d9b6631a445ccf3f2441ef9fae91a5e84c25e5dff42ea030e7131", "1.60.0--r43hdfd78af_1": "sha256:a72e315806840eb7b6f27d0efa45c980e64a2bdc07d606cee4bdb99d80258db3"}, "docker": "quay.io/biocontainers/bioconductor-iterativebmasurv"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-iterativebmasurv.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-iterativebmasurv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-iterativebmasurv:1.58.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-iterativebmasurv:1.60.0--r43hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-iterativebmasurv/1.58.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-iterativebmasurv/1.58.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-iterativebmasurv/1.60.0--r43hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-iterativebmasurv/1.60.0--r43hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
