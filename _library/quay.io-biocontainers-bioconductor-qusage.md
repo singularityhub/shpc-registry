@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-qusage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qusage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qusage/container.yaml"
-updated_at: "2023-12-05 02:47:07.426001"
-latest: "2.34.0--r43hdfd78af_0"
+updated_at: "2023-12-06 02:46:28.513045"
+latest: "2.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qusage"
 aliases:
  - "fftw-wisdom"
@@ -16,8 +16,9 @@ versions:
  - "2.28.0--r41hdfd78af_0"
  - "2.32.0--r42hdfd78af_0"
  - "2.34.0--r43hdfd78af_0"
+ - "2.36.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-qusage"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-qusage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-qusage", "latest": {"2.34.0--r43hdfd78af_0": "sha256:58d2290cac8569eb421517c9bfb3626d69e72ec82a16439fbead9aea4b3f4849"}, "tags": {"2.28.0--r41hdfd78af_0": "sha256:be1baa4906302e44939e34f5b3b8f4efe6dad66547306269322f1eb4d09e42c3", "2.32.0--r42hdfd78af_0": "sha256:014aa3b4681b392c22b4fd963590206d2fc009dd7fde2d367df0f9ed8d39f617", "2.34.0--r43hdfd78af_0": "sha256:58d2290cac8569eb421517c9bfb3626d69e72ec82a16439fbead9aea4b3f4849"}, "docker": "quay.io/biocontainers/bioconductor-qusage", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-qusage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-qusage", "latest": {"2.36.0--r43hdfd78af_0": "sha256:b5757e50e145235b3b5df14c9ca5bc42bb9e4bf88dc1f93114cc80c3c4051ebd"}, "tags": {"2.28.0--r41hdfd78af_0": "sha256:be1baa4906302e44939e34f5b3b8f4efe6dad66547306269322f1eb4d09e42c3", "2.32.0--r42hdfd78af_0": "sha256:014aa3b4681b392c22b4fd963590206d2fc009dd7fde2d367df0f9ed8d39f617", "2.34.0--r43hdfd78af_0": "sha256:58d2290cac8569eb421517c9bfb3626d69e72ec82a16439fbead9aea4b3f4849", "2.36.0--r43hdfd78af_0": "sha256:b5757e50e145235b3b5df14c9ca5bc42bb9e4bf88dc1f93114cc80c3c4051ebd"}, "docker": "quay.io/biocontainers/bioconductor-qusage", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-qusage.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-qusage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-qusage:2.34.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-qusage:2.36.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-qusage/2.34.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-qusage/2.34.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-qusage/2.36.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-qusage/2.36.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

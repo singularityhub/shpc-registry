@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-xcore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xcore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xcore/container.yaml"
-updated_at: "2023-12-05 02:39:31.177155"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2023-12-06 02:38:43.219634"
+latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xcore"
 aliases:
  - "installBiocDataPackage.sh"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.6.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-xcore"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-xcore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-xcore", "latest": {"1.4.0--r43hdfd78af_0": "sha256:775c04e06718eb8fcbc39ebf11550168ff616741b5d2687b48cff0d09b2b78da"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:3baed33e175303fa1fd18c1463b0fbdb62b4cc4efc3808fa373259c273f83b0a", "1.4.0--r43hdfd78af_0": "sha256:775c04e06718eb8fcbc39ebf11550168ff616741b5d2687b48cff0d09b2b78da"}, "docker": "quay.io/biocontainers/bioconductor-xcore", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-xcore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-xcore", "latest": {"1.6.0--r43hdfd78af_0": "sha256:ed1cec0c2114697ca183fbd21dd92c2ed62bc94ecd9ac464eee22882233e2f32"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:3baed33e175303fa1fd18c1463b0fbdb62b4cc4efc3808fa373259c273f83b0a", "1.4.0--r43hdfd78af_0": "sha256:775c04e06718eb8fcbc39ebf11550168ff616741b5d2687b48cff0d09b2b78da", "1.6.0--r43hdfd78af_0": "sha256:ed1cec0c2114697ca183fbd21dd92c2ed62bc94ecd9ac464eee22882233e2f32"}, "docker": "quay.io/biocontainers/bioconductor-xcore", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-xcore.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-xcore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-xcore:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-xcore:1.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-xcore/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-xcore/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-xcore/1.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-xcore/1.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

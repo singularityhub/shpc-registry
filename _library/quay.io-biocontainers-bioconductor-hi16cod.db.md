@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hi16cod.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hi16cod.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hi16cod.db/container.yaml"
-updated_at: "2023-12-05 03:14:53.866116"
+updated_at: "2023-12-06 03:14:50.072143"
 latest: "3.4.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-hi16cod.db"
 

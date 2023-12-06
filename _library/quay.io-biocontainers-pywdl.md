@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pywdl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pywdl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pywdl/container.yaml"
-updated_at: "2023-12-05 03:13:39.798904"
+updated_at: "2023-12-06 03:13:35.456110"
 latest: "1.0.22--pyh864c0ab_3"
 container_url: "https://biocontainers.pro/tools/pywdl"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-intact"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-intact/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-intact/container.yaml"
-updated_at: "2023-12-05 03:12:05.691496"
-latest: "1.0.1--r43hdfd78af_0"
+updated_at: "2023-12-06 03:12:00.399853"
+latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-intact"
 aliases:
  - "hb-info"
  - "tjbench"
 versions:
  - "1.0.1--r43hdfd78af_0"
+ - "1.2.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-intact"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-intact", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-intact", "latest": {"1.0.1--r43hdfd78af_0": "sha256:bb6ff4b3198c3f05cb1b447bc38ec402ad8eec7475df73cb369896c09c048def"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:bb6ff4b3198c3f05cb1b447bc38ec402ad8eec7475df73cb369896c09c048def"}, "docker": "quay.io/biocontainers/bioconductor-intact", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-intact", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-intact", "latest": {"1.2.0--r43hdfd78af_0": "sha256:ba26e677bb3b5e561d99803177d1dae6078d5e1f84d5c75a2a35d93d6dbc1537"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:bb6ff4b3198c3f05cb1b447bc38ec402ad8eec7475df73cb369896c09c048def", "1.2.0--r43hdfd78af_0": "sha256:ba26e677bb3b5e561d99803177d1dae6078d5e1f84d5c75a2a35d93d6dbc1537"}, "docker": "quay.io/biocontainers/bioconductor-intact", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-intact.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-intact
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-intact:1.0.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-intact:1.2.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-intact/1.0.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-intact/1.0.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-intact/1.2.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-intact/1.2.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

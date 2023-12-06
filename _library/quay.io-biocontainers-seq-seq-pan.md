@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seq-seq-pan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seq-seq-pan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seq-seq-pan/container.yaml"
-updated_at: "2023-12-05 02:45:24.091864"
+updated_at: "2023-12-06 02:44:44.276050"
 latest: "1.1.0--py_1"
 container_url: "https://biocontainers.pro/tools/seq-seq-pan"
 aliases:

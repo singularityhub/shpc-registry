@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rforproteomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rforproteomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rforproteomics/container.yaml"
-updated_at: "2023-12-05 03:04:21.373836"
+updated_at: "2023-12-06 03:04:07.870390"
 latest: "1.38.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rforproteomics"
 aliases:

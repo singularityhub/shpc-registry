@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/picard-slim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/picard-slim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/picard-slim/container.yaml"
-updated_at: "2023-12-05 02:51:21.511371"
+updated_at: "2023-12-06 02:50:44.098453"
 latest: "2.26.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/picard-slim"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-viseago"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-viseago/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-viseago/container.yaml"
-updated_at: "2023-12-05 02:34:09.297563"
+updated_at: "2023-12-06 02:33:17.749286"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-viseago"
 

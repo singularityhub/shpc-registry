@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/raiss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raiss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/raiss/container.yaml"
-updated_at: "2023-12-05 02:37:36.346055"
-latest: "3.1--pyhdfd78af_0"
+updated_at: "2023-12-06 02:36:47.610306"
+latest: "4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/raiss"
 aliases:
  - "raiss"
@@ -17,8 +17,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "3.1--pyhdfd78af_0"
+ - "4.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for raiss"
-config: {"url": "https://biocontainers.pro/tools/raiss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for raiss", "latest": {"3.1--pyhdfd78af_0": "sha256:6e7e7a148d3a6ef925059fa26f00a70bb65c104e31523b07e5b70a0f453b2f3a"}, "tags": {"3.1--pyhdfd78af_0": "sha256:6e7e7a148d3a6ef925059fa26f00a70bb65c104e31523b07e5b70a0f453b2f3a"}, "docker": "quay.io/biocontainers/raiss", "aliases": {"raiss": "/usr/local/bin/raiss", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/raiss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for raiss", "latest": {"4.0--pyhdfd78af_0": "sha256:cb571ff93ace4ddbe91a827e643a923db6993f3ad6c9adb8a4a7f7eb71c6044f"}, "tags": {"3.1--pyhdfd78af_0": "sha256:6e7e7a148d3a6ef925059fa26f00a70bb65c104e31523b07e5b70a0f453b2f3a", "4.0--pyhdfd78af_0": "sha256:cb571ff93ace4ddbe91a827e643a923db6993f3ad6c9adb8a4a7f7eb71c6044f"}, "docker": "quay.io/biocontainers/raiss", "aliases": {"raiss": "/usr/local/bin/raiss", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/raiss.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/raiss
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/raiss:3.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/raiss:4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/raiss/3.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/raiss/3.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/raiss/4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/raiss/4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
