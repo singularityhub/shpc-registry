@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-rsubread
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rsubread
 latest:
-  2.14.2--r43ha9d7317_0: sha256:29c9ca926c86658800a4da8ad3413c218ea43dc75193c2e76cc5e61cd60e580a
+  2.16.0--r43ha9d7317_0: sha256:39f4d78a0e2abc33b468c3ec4bb08e07c13e8a71e2120aa3b4d1aa3ecb6ca2b5
 tags:
   2.8.2--r41hc0cfd56_0: sha256:a95e788d3ec62d2450e50584d5bc785edfd3593d116ef70bd2996e04195de6a2
   2.12.0--r42hc0cfd56_0: sha256:fe2aa17bb1b8fe926ff6019bd7df3274ae5e1db73e21f5cd3150eb71e1c6073b
   2.12.0--r42ha9d7317_1: sha256:9bb3342815d2d9220169c47a35fd77cd919a33dbddcc472c8833d235c348ec56
   2.14.2--r43ha9d7317_0: sha256:29c9ca926c86658800a4da8ad3413c218ea43dc75193c2e76cc5e61cd60e580a
+  2.16.0--r43ha9d7317_0: sha256:39f4d78a0e2abc33b468c3ec4bb08e07c13e8a71e2120aa3b4d1aa3ecb6ca2b5
 docker: quay.io/biocontainers/bioconductor-rsubread

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-rcx
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-rcx
 latest:
-  1.4.0--r43hdfd78af_0: sha256:794b43d90d6e584b3bf3fff3716f6d0b996e9713fafae23d94599f4c65b3b672
+  1.6.0--r43hdfd78af_0: sha256:01b61cf46cde1bd4ce723e57d15b9c88480c955b2fffc2549c405ace311ae792
 tags:
   1.2.0--r42hdfd78af_0: sha256:f0d94cc6dd8e908af738645cfa9a4e8593e673fd32685ed756f445484b644882
   1.4.0--r43hdfd78af_0: sha256:794b43d90d6e584b3bf3fff3716f6d0b996e9713fafae23d94599f4c65b3b672
+  1.6.0--r43hdfd78af_0: sha256:01b61cf46cde1bd4ce723e57d15b9c88480c955b2fffc2549c405ace311ae792
 docker: quay.io/biocontainers/bioconductor-rcx
 aliases:
   glpsol: /usr/local/bin/glpsol

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-dnabarcodes
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dnabarcodes
 latest:
-  1.30.0--r43hf17093f_0: sha256:a275d9d354fded870c0ab877be966c311e8feeaa985ca60c83d285463aa0e1ce
+  1.32.0--r43hf17093f_1: sha256:d6d0ee90d59205021c0a83bc7711a3ef1540669fe8571de08905c545ddc57a89
 tags:
   1.8.0--r3.4.1_0: sha256:7676bc361d846ccfdd8f8aaec5da009c468a6f1409b6be6bb0b78f1c5861213d
   1.28.0--r42hc247a5b_0: sha256:68df6cdc7524578bc292aded12a4f29ca01316b8d348315f04e91339b2a35bcc
@@ -12,6 +12,7 @@ tags:
   1.18.0--r40h5f743cb_0: sha256:ee1b4b75ef9bc1490b0ff4ae3ec7c27706020af146f4f99e47c2f1fc41d24242
   1.28.0--r42hf17093f_2: sha256:c89cf770e6fef010ee9b0135cd88e7bc52da105f0bda5f8acb2acfe3efbd3b32
   1.30.0--r43hf17093f_0: sha256:a275d9d354fded870c0ab877be966c311e8feeaa985ca60c83d285463aa0e1ce
+  1.32.0--r43hf17093f_1: sha256:d6d0ee90d59205021c0a83bc7711a3ef1540669fe8571de08905c545ddc57a89
 docker: quay.io/biocontainers/bioconductor-dnabarcodes
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

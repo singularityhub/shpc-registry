@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bigscape
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bigscape
 latest:
-  1.1.5--pyhdfd78af_0: sha256:6ba1e973ce2640f664d05e56b8513de72c0fbeaaeb5ef2625b5571836bd5db72
+  1.1.6--pyhdfd78af_0: sha256:a91ce287638c741b67217f2365e8fd3fb0f169e465d016583560c123358150f0
 tags:
   1.1.5--pyhdfd78af_0: sha256:6ba1e973ce2640f664d05e56b8513de72c0fbeaaeb5ef2625b5571836bd5db72
+  1.1.6--pyhdfd78af_0: sha256:a91ce287638c741b67217f2365e8fd3fb0f169e465d016583560c123358150f0
 docker: quay.io/biocontainers/bigscape
 aliases:
   bigscape.py: /usr/local/bin/bigscape.py

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-lmdme
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lmdme
 latest:
-  1.42.0--r43hdfd78af_0: sha256:0e71e1c31e30014db93e305dbe9ea89b52fec91437244f743aac12ef5fbddb45
+  1.44.0--r43hdfd78af_0: sha256:1def1e11c8a91d9485dce88ec5258f8db60520ce31d1c0248dd424e1fde17a9a
 tags:
   1.36.0--r41hdfd78af_0: sha256:2afb0a43e3df24fc288a48c24ba49a212c04b043c221990a789777b89a65fc00
   1.40.0--r42hdfd78af_0: sha256:5c13c489998666e12095a70c18b4654e6527add72d3d0e9b992fcaf617924a6a
   1.42.0--r43hdfd78af_0: sha256:0e71e1c31e30014db93e305dbe9ea89b52fec91437244f743aac12ef5fbddb45
+  1.44.0--r43hdfd78af_0: sha256:1def1e11c8a91d9485dce88ec5258f8db60520ce31d1c0248dd424e1fde17a9a
 docker: quay.io/biocontainers/bioconductor-lmdme

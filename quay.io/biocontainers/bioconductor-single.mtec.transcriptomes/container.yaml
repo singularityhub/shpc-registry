@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-single.mtec.transcriptomes
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-single.mtec.transcriptomes
 latest:
-  1.28.0--r43hdfd78af_0: sha256:7f076bc61cd31f4dff8bdb6aef49c35dea9fa46c5df1c4fe2faf6345a352a3c6
+  1.30.0--r43hdfd78af_0: sha256:9e45246309f6630fbc51adc56d9e42328aa104305ddd86dd49bde8e982aa14bf
 tags:
   1.22.0--r41hdfd78af_1: sha256:3e6434da485c916e13763844b68a36d4025305673d6ed0e6a8bd69d0cb754379
   1.25.0--r42hdfd78af_0: sha256:65e590ecd03e53b8858001317cb975c13f0effb7086ea230fb5a256a2a12f178
   1.28.0--r43hdfd78af_0: sha256:7f076bc61cd31f4dff8bdb6aef49c35dea9fa46c5df1c4fe2faf6345a352a3c6
+  1.30.0--r43hdfd78af_0: sha256:9e45246309f6630fbc51adc56d9e42328aa104305ddd86dd49bde8e982aa14bf
 docker: quay.io/biocontainers/bioconductor-single.mtec.transcriptomes

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-liebermanaidenhic2009
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-liebermanaidenhic2009
 latest:
-  0.38.0--r43hdfd78af_0: sha256:35a6d5a33d167c0cd62ce9aa4fdf8a13d97616152a2369d7cefd558b4ebc97de
+  0.40.0--r43hdfd78af_0: sha256:fa570b341c69ba4f389ae78e20621566f6c1c6d0718a2469d07c907fcd952c9e
 tags:
   0.32.0--r41hdfd78af_1: sha256:4bafc704e45886e93f85f80f9f16fc3f7b338e9b6d1fe0dd75dd28a4e7dbdf6f
   0.35.0--r42hdfd78af_0: sha256:e69af972e48da416a08cae1dae2b8ec575043e1883c81b2f3eba514300a19fa4
   0.38.0--r43hdfd78af_0: sha256:35a6d5a33d167c0cd62ce9aa4fdf8a13d97616152a2369d7cefd558b4ebc97de
+  0.40.0--r43hdfd78af_0: sha256:fa570b341c69ba4f389ae78e20621566f6c1c6d0718a2469d07c907fcd952c9e
 docker: quay.io/biocontainers/bioconductor-liebermanaidenhic2009

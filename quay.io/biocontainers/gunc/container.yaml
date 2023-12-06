@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gunc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gunc
 latest:
-  1.0.5--pyhdfd78af_0: sha256:56513dcac5ef2d1c955a2cd3049f15e5540f18efc309741cdc552988187772e5
+  1.0.6--pyhdfd78af_0: sha256:34f95515a0f982c1d3d079cd4f0332b5ba633c1036dcf01183c9d447a50f49c7
 tags:
   1.0.5--pyhdfd78af_0: sha256:56513dcac5ef2d1c955a2cd3049f15e5540f18efc309741cdc552988187772e5
+  1.0.6--pyhdfd78af_0: sha256:34f95515a0f982c1d3d079cd4f0332b5ba633c1036dcf01183c9d447a50f49c7
 docker: quay.io/biocontainers/gunc
 aliases:
   gunc: /usr/local/bin/gunc

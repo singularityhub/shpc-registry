@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-hpip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hpip
 latest:
-  1.6.0--r43hdfd78af_0: sha256:ad01e4a7d60600ed11f2b84adf21846a8639e587501ffa3161a17876d20b0488
+  1.8.0--r43hdfd78af_1: sha256:f9cdc8eb808c3dd93043cb0237c375cfe1e68787deea3d8dfbe6764fe1f296fc
 tags:
   1.0.0--r41hdfd78af_0: sha256:87fb2ee592f4529e845ed87f875796adccba43e759ed026eb92f175355c098d8
   1.4.0--r42hdfd78af_0: sha256:e2662573bd49e0962493c12c8ed04061f1508eb8ef4d1474653d805c1686748c
   1.6.0--r43hdfd78af_0: sha256:ad01e4a7d60600ed11f2b84adf21846a8639e587501ffa3161a17876d20b0488
+  1.8.0--r43hdfd78af_1: sha256:f9cdc8eb808c3dd93043cb0237c375cfe1e68787deea3d8dfbe6764fe1f296fc
 docker: quay.io/biocontainers/bioconductor-hpip

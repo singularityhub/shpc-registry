@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-biodbncbi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-biodbncbi
 latest:
-  1.4.0--r43hdfd78af_0: sha256:e7af0953bea7aaac2a7265fe9fbbad4ddccfa58eba3ff043918cae13190cc7f0
+  1.6.0--r43hdfd78af_0: sha256:de48abadc6a694694766376aa43b946a37c04aff8a987404253c667da1d54825
 tags:
   1.2.0--r42hdfd78af_0: sha256:16e708bb1e2220c6c4ec0ce2ff6d65d610493f1d6735a4658307f2c62581326d
   1.4.0--r43hdfd78af_0: sha256:e7af0953bea7aaac2a7265fe9fbbad4ddccfa58eba3ff043918cae13190cc7f0
+  1.6.0--r43hdfd78af_0: sha256:de48abadc6a694694766376aa43b946a37c04aff8a987404253c667da1d54825
 docker: quay.io/biocontainers/bioconductor-biodbncbi

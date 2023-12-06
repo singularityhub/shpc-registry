@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-scbubbletree
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-scbubbletree
 latest:
-  1.2.0--r43hdfd78af_0: sha256:f5d2b50f087b7c841bb050e1ade9f9711d44d7c97bd7c94ae90cb90c10905bcd
+  1.4.0--r43hdfd78af_0: sha256:6fc425b88067a20d8fe22acd2a417c96f2abe15550c4f0a05143002e78b6638d
 tags:
   1.0.0--r42hdfd78af_0: sha256:e838cb0a8c5ce2f339285f965ffa711d42b72e231d43afd425d6f7610e18816f
   1.2.0--r43hdfd78af_0: sha256:f5d2b50f087b7c841bb050e1ade9f9711d44d7c97bd7c94ae90cb90c10905bcd
+  1.4.0--r43hdfd78af_0: sha256:6fc425b88067a20d8fe22acd2a417c96f2abe15550c4f0a05143002e78b6638d
 docker: quay.io/biocontainers/bioconductor-scbubbletree
 aliases:
   geosop: /usr/local/bin/geosop

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rcaspar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rcaspar
 latest:
-  1.46.0--r43hdfd78af_0: sha256:ccad3ae3864456709fd8baaca9e02183e39708ee3dd11aed18ed9c4d57d70d43
+  1.48.0--r43hdfd78af_0: sha256:eaa6acb67c54321bffe07946ff7f14f28b902628c0b31d528a2ea06d410d3f67
 tags:
   1.40.0--r41hdfd78af_0: sha256:62e7ef8f59289c9e4da8ab185b14f28ddb71e08d3277f96d243e32f3cd9f0d39
   1.44.0--r42hdfd78af_0: sha256:f9cf72f2c15e7e69ed2355e87314a8300b6ec1488362becdeea16aec055f97a5
   1.46.0--r43hdfd78af_0: sha256:ccad3ae3864456709fd8baaca9e02183e39708ee3dd11aed18ed9c4d57d70d43
+  1.48.0--r43hdfd78af_0: sha256:eaa6acb67c54321bffe07946ff7f14f28b902628c0b31d528a2ea06d410d3f67
 docker: quay.io/biocontainers/bioconductor-rcaspar
