@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-alternativesplicingevents.hg19
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-alternativesplicingevents.hg19
 latest:
-  1.1.0--r43hdfd78af_3: sha256:a23b5b25ffefcddfd7e9887254ee9251ca408a60d776700bebe538bb068326d7
+  1.1.0--r43hdfd78af_4: sha256:3aa83ab1ded6ea2924f5ea05d01f8cb449fe24a27ff950d77643bfae68ea6de1
 tags:
   1.1.0--r41hdfd78af_1: sha256:a431839c8ab42a0d0bd88bc98e2ff24c9af552d31def27a65c35bf65fda417cb
   1.1.0--r42hdfd78af_2: sha256:347de6efb6f98568e66b59adc98d301089195d612bb42bc9752dcc02c1da7687
   1.1.0--r43hdfd78af_3: sha256:a23b5b25ffefcddfd7e9887254ee9251ca408a60d776700bebe538bb068326d7
+  1.1.0--r43hdfd78af_4: sha256:3aa83ab1ded6ea2924f5ea05d01f8cb449fe24a27ff950d77643bfae68ea6de1
 docker: quay.io/biocontainers/bioconductor-alternativesplicingevents.hg19

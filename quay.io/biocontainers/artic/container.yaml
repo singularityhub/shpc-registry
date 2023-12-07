@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/artic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for artic
 latest:
-  1.2.3--pyhdfd78af_0: sha256:0576634dcbb7ae60090cd17f036002f8d825ff8185e5cbe6e2a9e6501e1f2a03
+  1.2.4--pyh7cba7a3_0: sha256:2b0638f19ed87c83a79ddd56d773e2957be48b8aafe9f939f583a8bff66812b4
 tags:
   1.2.3--pyhdfd78af_0: sha256:0576634dcbb7ae60090cd17f036002f8d825ff8185e5cbe6e2a9e6501e1f2a03
+  1.2.4--pyh7cba7a3_0: sha256:2b0638f19ed87c83a79ddd56d773e2957be48b8aafe9f939f583a8bff66812b4
 docker: quay.io/biocontainers/artic
 aliases:
   align_trim: /usr/local/bin/align_trim

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cogena
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cogena
 latest:
-  1.34.0--r43hdfd78af_0: sha256:8fb6917d622d0dc22849b3925155329dbc0805fe49ecf037188c432107c1dcb0
+  1.36.0--r43hdfd78af_0: sha256:f5a3f37afa300f0041ac6582ff353b438c6243f2eb600f218bdda9a0de79a0ce
 tags:
   1.28.0--r41hdfd78af_0: sha256:63da5554e96b3c7c27c5eb8dfb7292721822e2c10102587d7edaf6631fb21e28
   1.32.0--r42hdfd78af_0: sha256:c1a45d4bcc6d4f985b719520f7618ba9fe7656ba447a26604c4b7c8b8f401cd1
   1.34.0--r43hdfd78af_0: sha256:8fb6917d622d0dc22849b3925155329dbc0805fe49ecf037188c432107c1dcb0
+  1.36.0--r43hdfd78af_0: sha256:f5a3f37afa300f0041ac6582ff353b438c6243f2eb600f218bdda9a0de79a0ce
 docker: quay.io/biocontainers/bioconductor-cogena
