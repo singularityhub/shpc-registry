@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fcoex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fcoex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fcoex/container.yaml"
-updated_at: "2023-12-06 02:55:24.357996"
+updated_at: "2023-12-07 02:55:10.601812"
 latest: "1.13.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fcoex"
 aliases:

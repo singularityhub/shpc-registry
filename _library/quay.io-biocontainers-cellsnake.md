@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cellsnake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cellsnake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cellsnake/container.yaml"
-updated_at: "2023-12-06 02:45:32.109121"
-latest: "0.2.0.11--pyh7cba7a3_1"
+updated_at: "2023-12-07 02:45:21.839864"
+latest: "0.2.0.11--pyh7cba7a3_2"
 container_url: "https://biocontainers.pro/tools/cellsnake"
 aliases:
  - "ccmake"
@@ -63,8 +63,9 @@ versions:
  - "0.2.0.dev9--pyh7cba7a3_0"
  - "0.2.0.11--pyh7cba7a3_0"
  - "0.2.0.11--pyh7cba7a3_1"
+ - "0.2.0.11--pyh7cba7a3_2"
 description: "singularity registry hpc automated addition for cellsnake"
-config: {"url": "https://biocontainers.pro/tools/cellsnake", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cellsnake", "latest": {"0.2.0.11--pyh7cba7a3_1": "sha256:a05327c7119205069b440cd817c85c5c7d1fe598d74db8028316397023d6bcc9"}, "tags": {"0.2.0.dev9--pyh7cba7a3_0": "sha256:03b0a1c071819ad7fff73033ba167fda8264e2f1231f7ff6c0f213be63881a9f", "0.2.0.11--pyh7cba7a3_0": "sha256:4c13d2ec892c6778c4e26a6b1c9affe13471bcc567216a6565a2ee24e873c67b", "0.2.0.11--pyh7cba7a3_1": "sha256:a05327c7119205069b440cd817c85c5c7d1fe598d74db8028316397023d6bcc9"}, "docker": "quay.io/biocontainers/cellsnake", "aliases": {"ccmake": "/usr/local/bin/ccmake", "cellsnake": "/usr/local/bin/cellsnake", "celltypist": "/usr/local/bin/celltypist", "cmake": "/usr/local/bin/cmake", "cpack": "/usr/local/bin/cpack", "ctest": "/usr/local/bin/ctest", "ed2k-link": "/usr/local/bin/ed2k-link", "edonr256-hash": "/usr/local/bin/edonr256-hash", "edonr512-hash": "/usr/local/bin/edonr512-hash", "gost12-256-hash": "/usr/local/bin/gost12-256-hash", "gost12-512-hash": "/usr/local/bin/gost12-512-hash", "has160-hash": "/usr/local/bin/has160-hash", "kaleido": "/usr/local/bin/kaleido", "magnet-link": "/usr/local/bin/magnet-link", "mathjax-path": "/usr/local/bin/mathjax-path", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "rhash": "/usr/local/bin/rhash", "sfv-hash": "/usr/local/bin/sfv-hash", "tiger-hash": "/usr/local/bin/tiger-hash", "tth-hash": "/usr/local/bin/tth-hash", "whirlpool-hash": "/usr/local/bin/whirlpool-hash", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "markdown-it": "/usr/local/bin/markdown-it", "pg_amcheck": "/usr/local/bin/pg_amcheck", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "pdfsig": "/usr/local/bin/pdfsig", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "gdal_create": "/usr/local/bin/gdal_create", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo"}}
+config: {"url": "https://biocontainers.pro/tools/cellsnake", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cellsnake", "latest": {"0.2.0.11--pyh7cba7a3_2": "sha256:05303ba7347e8b40e8ed109eacb97d840823d91eaf7752e0aa72241fa8530c05"}, "tags": {"0.2.0.dev9--pyh7cba7a3_0": "sha256:03b0a1c071819ad7fff73033ba167fda8264e2f1231f7ff6c0f213be63881a9f", "0.2.0.11--pyh7cba7a3_0": "sha256:4c13d2ec892c6778c4e26a6b1c9affe13471bcc567216a6565a2ee24e873c67b", "0.2.0.11--pyh7cba7a3_1": "sha256:a05327c7119205069b440cd817c85c5c7d1fe598d74db8028316397023d6bcc9", "0.2.0.11--pyh7cba7a3_2": "sha256:05303ba7347e8b40e8ed109eacb97d840823d91eaf7752e0aa72241fa8530c05"}, "docker": "quay.io/biocontainers/cellsnake", "aliases": {"ccmake": "/usr/local/bin/ccmake", "cellsnake": "/usr/local/bin/cellsnake", "celltypist": "/usr/local/bin/celltypist", "cmake": "/usr/local/bin/cmake", "cpack": "/usr/local/bin/cpack", "ctest": "/usr/local/bin/ctest", "ed2k-link": "/usr/local/bin/ed2k-link", "edonr256-hash": "/usr/local/bin/edonr256-hash", "edonr512-hash": "/usr/local/bin/edonr512-hash", "gost12-256-hash": "/usr/local/bin/gost12-256-hash", "gost12-512-hash": "/usr/local/bin/gost12-512-hash", "has160-hash": "/usr/local/bin/has160-hash", "kaleido": "/usr/local/bin/kaleido", "magnet-link": "/usr/local/bin/magnet-link", "mathjax-path": "/usr/local/bin/mathjax-path", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "rhash": "/usr/local/bin/rhash", "sfv-hash": "/usr/local/bin/sfv-hash", "tiger-hash": "/usr/local/bin/tiger-hash", "tth-hash": "/usr/local/bin/tth-hash", "whirlpool-hash": "/usr/local/bin/whirlpool-hash", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "markdown-it": "/usr/local/bin/markdown-it", "pg_amcheck": "/usr/local/bin/pg_amcheck", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "pdfsig": "/usr/local/bin/pdfsig", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "gdal_create": "/usr/local/bin/gdal_create", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cellsnake.
@@ -79,7 +80,7 @@ $ shpc install quay.io/biocontainers/cellsnake
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cellsnake:0.2.0.11--pyh7cba7a3_1
+$ shpc install quay.io/biocontainers/cellsnake:0.2.0.11--pyh7cba7a3_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -91,8 +92,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cellsnake/0.2.0.11--pyh7cba7a3_1
-$ module help quay.io/biocontainers/cellsnake/0.2.0.11--pyh7cba7a3_1
+$ module load quay.io/biocontainers/cellsnake/0.2.0.11--pyh7cba7a3_2
+$ module help quay.io/biocontainers/cellsnake/0.2.0.11--pyh7cba7a3_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

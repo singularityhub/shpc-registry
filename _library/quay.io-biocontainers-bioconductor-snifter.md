@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-snifter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snifter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snifter/container.yaml"
-updated_at: "2023-12-06 02:32:57.841707"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2023-12-07 02:32:59.571535"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-snifter"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-snifter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-snifter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snifter", "latest": {"1.10.0--r43hdfd78af_0": "sha256:9d1112793957a58bf30325238dbfc172c7e9c4accf25d6b9eae0c214001c3408"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:4caf94880f22e81b46a99d7db22a3473bdd778568ddc0b38fb64029dce1689e8", "1.8.0--r42hdfd78af_0": "sha256:35e77a6631b77a53d68f967b944d4d4e685407effac583a248c0a35d26b20609", "1.10.0--r43hdfd78af_0": "sha256:9d1112793957a58bf30325238dbfc172c7e9c4accf25d6b9eae0c214001c3408"}, "docker": "quay.io/biocontainers/bioconductor-snifter"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-snifter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snifter", "latest": {"1.12.0--r43hdfd78af_0": "sha256:8f50ae895b76072a1a00579d5a5dadb538d6f3f29c27d3d8cf004393fa80e261"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:4caf94880f22e81b46a99d7db22a3473bdd778568ddc0b38fb64029dce1689e8", "1.8.0--r42hdfd78af_0": "sha256:35e77a6631b77a53d68f967b944d4d4e685407effac583a248c0a35d26b20609", "1.10.0--r43hdfd78af_0": "sha256:9d1112793957a58bf30325238dbfc172c7e9c4accf25d6b9eae0c214001c3408", "1.12.0--r43hdfd78af_0": "sha256:8f50ae895b76072a1a00579d5a5dadb538d6f3f29c27d3d8cf004393fa80e261"}, "docker": "quay.io/biocontainers/bioconductor-snifter"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-snifter.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-snifter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-snifter:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-snifter:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-snifter/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-snifter/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-snifter/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-snifter/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

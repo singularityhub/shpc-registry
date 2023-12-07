@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/happy-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/happy-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/happy-python/container.yaml"
-updated_at: "2023-12-06 03:11:12.431179"
+updated_at: "2023-12-07 03:10:30.295954"
 latest: "0.2.1rc0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/happy-python"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-copa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-copa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-copa/container.yaml"
-updated_at: "2023-12-06 03:08:21.840193"
-latest: "1.68.0--r43ha9d7317_0"
+updated_at: "2023-12-07 03:07:41.616518"
+latest: "1.70.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-copa"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.66.0--r42hc0cfd56_0"
  - "1.66.0--r42ha9d7317_1"
  - "1.68.0--r43ha9d7317_0"
+ - "1.70.0--r43ha9d7317_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-copa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-copa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-copa", "latest": {"1.68.0--r43ha9d7317_0": "sha256:bd6529244a0edbb7776530921954cb95ab6e505c9dabada446eb6566ffeb15b5"}, "tags": {"1.62.0--r41hc0cfd56_2": "sha256:962fbbcbcf0dfd15fec6a7e7cc7698cb6244e950af65f2d81696e8485bbc0456", "1.66.0--r42hc0cfd56_0": "sha256:ae707f2e0edbedd35e2aa9e4c6a2f64e24554cc43d02fd1d674bada619186175", "1.66.0--r42ha9d7317_1": "sha256:98cc724625719a0fca86900531fa65d1cbf0d609f24e3afe4ec1b7588335692f", "1.68.0--r43ha9d7317_0": "sha256:bd6529244a0edbb7776530921954cb95ab6e505c9dabada446eb6566ffeb15b5"}, "docker": "quay.io/biocontainers/bioconductor-copa"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-copa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-copa", "latest": {"1.70.0--r43ha9d7317_0": "sha256:1716cc79968c612c68b79fdb3f5ce0e3f9d42810c399309b90f49a77d6ef75cf"}, "tags": {"1.62.0--r41hc0cfd56_2": "sha256:962fbbcbcf0dfd15fec6a7e7cc7698cb6244e950af65f2d81696e8485bbc0456", "1.66.0--r42hc0cfd56_0": "sha256:ae707f2e0edbedd35e2aa9e4c6a2f64e24554cc43d02fd1d674bada619186175", "1.66.0--r42ha9d7317_1": "sha256:98cc724625719a0fca86900531fa65d1cbf0d609f24e3afe4ec1b7588335692f", "1.68.0--r43ha9d7317_0": "sha256:bd6529244a0edbb7776530921954cb95ab6e505c9dabada446eb6566ffeb15b5", "1.70.0--r43ha9d7317_0": "sha256:1716cc79968c612c68b79fdb3f5ce0e3f9d42810c399309b90f49a77d6ef75cf"}, "docker": "quay.io/biocontainers/bioconductor-copa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-copa.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-copa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-copa:1.68.0--r43ha9d7317_0
+$ shpc install quay.io/biocontainers/bioconductor-copa:1.70.0--r43ha9d7317_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-copa/1.68.0--r43ha9d7317_0
-$ module help quay.io/biocontainers/bioconductor-copa/1.68.0--r43ha9d7317_0
+$ module load quay.io/biocontainers/bioconductor-copa/1.70.0--r43ha9d7317_0
+$ module help quay.io/biocontainers/bioconductor-copa/1.70.0--r43ha9d7317_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gunc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gunc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gunc/container.yaml"
-updated_at: "2023-12-06 02:37:56.573852"
-latest: "1.0.5--pyhdfd78af_0"
+updated_at: "2023-12-07 02:37:54.963885"
+latest: "1.0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gunc"
 aliases:
  - "gunc"
@@ -20,8 +20,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "1.0.5--pyhdfd78af_0"
+ - "1.0.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gunc"
-config: {"url": "https://biocontainers.pro/tools/gunc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gunc", "latest": {"1.0.5--pyhdfd78af_0": "sha256:56513dcac5ef2d1c955a2cd3049f15e5540f18efc309741cdc552988187772e5"}, "tags": {"1.0.5--pyhdfd78af_0": "sha256:56513dcac5ef2d1c955a2cd3049f15e5540f18efc309741cdc552988187772e5"}, "docker": "quay.io/biocontainers/gunc", "aliases": {"gunc": "/usr/local/bin/gunc", "diamond": "/usr/local/bin/diamond", "prodigal": "/usr/local/bin/prodigal", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/gunc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gunc", "latest": {"1.0.6--pyhdfd78af_0": "sha256:34f95515a0f982c1d3d079cd4f0332b5ba633c1036dcf01183c9d447a50f49c7"}, "tags": {"1.0.5--pyhdfd78af_0": "sha256:56513dcac5ef2d1c955a2cd3049f15e5540f18efc309741cdc552988187772e5", "1.0.6--pyhdfd78af_0": "sha256:34f95515a0f982c1d3d079cd4f0332b5ba633c1036dcf01183c9d447a50f49c7"}, "docker": "quay.io/biocontainers/gunc", "aliases": {"gunc": "/usr/local/bin/gunc", "diamond": "/usr/local/bin/diamond", "prodigal": "/usr/local/bin/prodigal", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gunc.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/gunc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gunc:1.0.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gunc:1.0.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gunc/1.0.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/gunc/1.0.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/gunc/1.0.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/gunc/1.0.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

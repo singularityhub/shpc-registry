@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bakta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bakta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bakta/container.yaml"
-updated_at: "2023-12-06 03:09:20.554837"
+updated_at: "2023-12-07 03:08:39.814855"
 latest: "1.8.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bakta"
 aliases:

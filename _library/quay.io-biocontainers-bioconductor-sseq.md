@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-sseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sseq/container.yaml"
-updated_at: "2023-12-06 03:11:10.148603"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2023-12-07 03:10:28.057600"
+latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sseq"
 
 versions:
  - "1.32.0--r41hdfd78af_0"
  - "1.36.0--r42hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.40.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sseq", "latest": {"1.38.0--r43hdfd78af_0": "sha256:2569c3939a3c2f5948482de448369d5d47e23669585cd7bdb1a69069e879348a"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:e21c88b6c442fb2b13928341ab80c105aa481809de69b69382783d5ce9396c69", "1.36.0--r42hdfd78af_0": "sha256:86ec576fbdff1ec003ef4f23bfb86af33a397d2ce924cf26bff4cbe0c3239005", "1.38.0--r43hdfd78af_0": "sha256:2569c3939a3c2f5948482de448369d5d47e23669585cd7bdb1a69069e879348a"}, "docker": "quay.io/biocontainers/bioconductor-sseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sseq", "latest": {"1.40.0--r43hdfd78af_0": "sha256:775e231608725d2bcdd02be9da8f198502c10215b716bdaa07709a9f3c5d55ac"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:e21c88b6c442fb2b13928341ab80c105aa481809de69b69382783d5ce9396c69", "1.36.0--r42hdfd78af_0": "sha256:86ec576fbdff1ec003ef4f23bfb86af33a397d2ce924cf26bff4cbe0c3239005", "1.38.0--r43hdfd78af_0": "sha256:2569c3939a3c2f5948482de448369d5d47e23669585cd7bdb1a69069e879348a", "1.40.0--r43hdfd78af_0": "sha256:775e231608725d2bcdd02be9da8f198502c10215b716bdaa07709a9f3c5d55ac"}, "docker": "quay.io/biocontainers/bioconductor-sseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sseq.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sseq:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sseq:1.40.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sseq/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sseq/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sseq/1.40.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sseq/1.40.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bigscape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bigscape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bigscape/container.yaml"
-updated_at: "2023-12-06 02:46:54.872381"
-latest: "1.1.5--pyhdfd78af_0"
+updated_at: "2023-12-07 02:46:44.339076"
+latest: "1.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bigscape"
 aliases:
  - "bigscape.py"
@@ -37,8 +37,9 @@ aliases:
  - "esl-translate"
 versions:
  - "1.1.5--pyhdfd78af_0"
+ - "1.1.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for bigscape"
-config: {"url": "https://biocontainers.pro/tools/bigscape", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bigscape", "latest": {"1.1.5--pyhdfd78af_0": "sha256:6ba1e973ce2640f664d05e56b8513de72c0fbeaaeb5ef2625b5571836bd5db72"}, "tags": {"1.1.5--pyhdfd78af_0": "sha256:6ba1e973ce2640f664d05e56b8513de72c0fbeaaeb5ef2625b5571836bd5db72"}, "docker": "quay.io/biocontainers/bigscape", "aliases": {"bigscape.py": "/usr/local/bin/bigscape.py", "matplotlib": "/usr/local/bin/matplotlib", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat", "esl-sfetch": "/usr/local/bin/esl-sfetch", "esl-shuffle": "/usr/local/bin/esl-shuffle", "esl-ssdraw": "/usr/local/bin/esl-ssdraw", "esl-translate": "/usr/local/bin/esl-translate"}}
+config: {"url": "https://biocontainers.pro/tools/bigscape", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bigscape", "latest": {"1.1.6--pyhdfd78af_0": "sha256:a91ce287638c741b67217f2365e8fd3fb0f169e465d016583560c123358150f0"}, "tags": {"1.1.5--pyhdfd78af_0": "sha256:6ba1e973ce2640f664d05e56b8513de72c0fbeaaeb5ef2625b5571836bd5db72", "1.1.6--pyhdfd78af_0": "sha256:a91ce287638c741b67217f2365e8fd3fb0f169e465d016583560c123358150f0"}, "docker": "quay.io/biocontainers/bigscape", "aliases": {"bigscape.py": "/usr/local/bin/bigscape.py", "matplotlib": "/usr/local/bin/matplotlib", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat", "esl-sfetch": "/usr/local/bin/esl-sfetch", "esl-shuffle": "/usr/local/bin/esl-shuffle", "esl-ssdraw": "/usr/local/bin/esl-ssdraw", "esl-translate": "/usr/local/bin/esl-translate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bigscape.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/bigscape
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bigscape:1.1.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bigscape:1.1.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bigscape/1.1.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/bigscape/1.1.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/bigscape/1.1.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/bigscape/1.1.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ena-webin-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ena-webin-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ena-webin-cli/container.yaml"
-updated_at: "2023-12-06 02:37:51.256288"
-latest: "6.7.1--hdfd78af_0"
+updated_at: "2023-12-07 02:37:49.662830"
+latest: "6.7.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ena-webin-cli"
 aliases:
  - "ena-webin-cli"
@@ -24,8 +24,9 @@ versions:
  - "6.5.1--hdfd78af_0"
  - "6.7.1--hdfd78af_0"
  - "6.6.0--hdfd78af_0"
+ - "6.7.2--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ena-webin-cli"
-config: {"url": "https://biocontainers.pro/tools/ena-webin-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ena-webin-cli", "latest": {"6.7.1--hdfd78af_0": "sha256:c430af9b6784e43fb1a1ec5e907c4753f1c02498539eba35f31c08c63a7aa631"}, "tags": {"5.0.0--hdfd78af_0": "sha256:ad7da743b67738b93d0d87d11c2edd9c8183d31687057bfb10a6d33fae9eff96", "6.5.1--hdfd78af_0": "sha256:7cc84dd62b5ba940c388dce000cb24bc87b9de88db51035275dab7091248cb36", "6.7.1--hdfd78af_0": "sha256:c430af9b6784e43fb1a1ec5e907c4753f1c02498539eba35f31c08c63a7aa631", "6.6.0--hdfd78af_0": "sha256:e932b5ad82b35521f0ed7dad80561801965585e428aed4dbd3b9caa4b2f65c9d"}, "docker": "quay.io/biocontainers/ena-webin-cli", "aliases": {"ena-webin-cli": "/usr/local/bin/ena-webin-cli", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer"}}
+config: {"url": "https://biocontainers.pro/tools/ena-webin-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ena-webin-cli", "latest": {"6.7.2--hdfd78af_0": "sha256:61bcffcc6df9797bfb17dcbd760563096a7d766019a34e919ddf07bba794b445"}, "tags": {"5.0.0--hdfd78af_0": "sha256:ad7da743b67738b93d0d87d11c2edd9c8183d31687057bfb10a6d33fae9eff96", "6.5.1--hdfd78af_0": "sha256:7cc84dd62b5ba940c388dce000cb24bc87b9de88db51035275dab7091248cb36", "6.7.1--hdfd78af_0": "sha256:c430af9b6784e43fb1a1ec5e907c4753f1c02498539eba35f31c08c63a7aa631", "6.6.0--hdfd78af_0": "sha256:e932b5ad82b35521f0ed7dad80561801965585e428aed4dbd3b9caa4b2f65c9d", "6.7.2--hdfd78af_0": "sha256:61bcffcc6df9797bfb17dcbd760563096a7d766019a34e919ddf07bba794b445"}, "docker": "quay.io/biocontainers/ena-webin-cli", "aliases": {"ena-webin-cli": "/usr/local/bin/ena-webin-cli", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ena-webin-cli.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/ena-webin-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ena-webin-cli:6.7.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/ena-webin-cli:6.7.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ena-webin-cli/6.7.1--hdfd78af_0
-$ module help quay.io/biocontainers/ena-webin-cli/6.7.1--hdfd78af_0
+$ module load quay.io/biocontainers/ena-webin-cli/6.7.2--hdfd78af_0
+$ module help quay.io/biocontainers/ena-webin-cli/6.7.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

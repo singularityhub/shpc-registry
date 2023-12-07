@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-twilight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-twilight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-twilight/container.yaml"
-updated_at: "2023-12-06 02:52:36.978238"
+updated_at: "2023-12-07 02:52:24.225859"
 latest: "1.76.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-twilight"
 
