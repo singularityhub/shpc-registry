@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/carnac-lr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/carnac-lr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/carnac-lr/container.yaml"
-updated_at: "2023-12-07 02:31:52.295239"
+updated_at: "2023-12-08 02:32:17.910051"
 latest: "1.0.0--hdbdd923_4"
 container_url: "https://biocontainers.pro/tools/carnac-lr"
 aliases:

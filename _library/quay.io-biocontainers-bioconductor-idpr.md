@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-idpr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-idpr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-idpr/container.yaml"
-updated_at: "2023-12-07 02:36:23.181825"
+updated_at: "2023-12-08 02:36:49.643674"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-idpr"
 

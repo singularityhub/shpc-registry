@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rprimer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rprimer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rprimer/container.yaml"
-updated_at: "2023-12-07 02:42:38.528401"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2023-12-08 02:43:06.584997"
+latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rprimer"
 aliases:
  - "installBiocDataPackage.sh"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.6.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-rprimer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rprimer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rprimer", "latest": {"1.4.0--r43hdfd78af_0": "sha256:ba0e25a774418a9596a6cc42eedd301d74ef5ab5104ccdbc5f81a1a9826ceb41"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:3de95488278621c6d805015ebc9769675a8b0dd846a05ec04cdb92f278a73a85", "1.4.0--r43hdfd78af_0": "sha256:ba0e25a774418a9596a6cc42eedd301d74ef5ab5104ccdbc5f81a1a9826ceb41"}, "docker": "quay.io/biocontainers/bioconductor-rprimer", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rprimer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rprimer", "latest": {"1.6.0--r43hdfd78af_0": "sha256:ee3c264a52e9fe9a42d00f9c8814f0269399b0eac88804a3fcd07685adc4420d"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:3de95488278621c6d805015ebc9769675a8b0dd846a05ec04cdb92f278a73a85", "1.4.0--r43hdfd78af_0": "sha256:ba0e25a774418a9596a6cc42eedd301d74ef5ab5104ccdbc5f81a1a9826ceb41", "1.6.0--r43hdfd78af_0": "sha256:ee3c264a52e9fe9a42d00f9c8814f0269399b0eac88804a3fcd07685adc4420d"}, "docker": "quay.io/biocontainers/bioconductor-rprimer", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rprimer.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rprimer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rprimer:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rprimer:1.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rprimer/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rprimer/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rprimer/1.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rprimer/1.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

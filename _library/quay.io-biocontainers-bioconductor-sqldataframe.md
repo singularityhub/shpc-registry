@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-sqldataframe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sqldataframe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sqldataframe/container.yaml"
-updated_at: "2023-12-07 02:54:04.968512"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2023-12-08 02:54:36.922598"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sqldataframe"
 
 versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.12.0--r42hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sqldataframe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sqldataframe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sqldataframe", "latest": {"1.14.0--r43hdfd78af_0": "sha256:84df052a74e8d60a436ffa82e03a72715180970ad18c903607b56ed698e670ca"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:9f8b0a2de15fc3ca513fe9f8afd6ccf8d2b2bf55062c88253b1966b25675aece", "1.12.0--r42hdfd78af_0": "sha256:5cb8595c9237b0676bce2e1356579517c4362d7c0665ef26abd602392428dade", "1.14.0--r43hdfd78af_0": "sha256:84df052a74e8d60a436ffa82e03a72715180970ad18c903607b56ed698e670ca"}, "docker": "quay.io/biocontainers/bioconductor-sqldataframe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sqldataframe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sqldataframe", "latest": {"1.16.0--r43hdfd78af_0": "sha256:2ff8ca4f8d535ec09def785ef8f416eedcec61f8d54da782dd43baff1419c217"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:9f8b0a2de15fc3ca513fe9f8afd6ccf8d2b2bf55062c88253b1966b25675aece", "1.12.0--r42hdfd78af_0": "sha256:5cb8595c9237b0676bce2e1356579517c4362d7c0665ef26abd602392428dade", "1.14.0--r43hdfd78af_0": "sha256:84df052a74e8d60a436ffa82e03a72715180970ad18c903607b56ed698e670ca", "1.16.0--r43hdfd78af_0": "sha256:2ff8ca4f8d535ec09def785ef8f416eedcec61f8d54da782dd43baff1419c217"}, "docker": "quay.io/biocontainers/bioconductor-sqldataframe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sqldataframe.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sqldataframe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sqldataframe:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sqldataframe:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sqldataframe/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sqldataframe/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sqldataframe/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sqldataframe/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

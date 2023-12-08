@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ncrnatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ncrnatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ncrnatools/container.yaml"
-updated_at: "2023-12-07 02:34:31.211420"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2023-12-08 02:34:57.345046"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ncrnatools"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ncrnatools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ncrnatools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ncrnatools", "latest": {"1.10.0--r43hdfd78af_0": "sha256:c7f35d07d59983bacfd7f6c8a7ddc3284728ef588b90996934adf67473c236f3"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:7ebca866d58807246bb91dde424819bcdbb3acf85fa0b115d2689e824a7925a9", "1.8.0--r42hdfd78af_0": "sha256:1556b48bf1096f14a6a779b91cefc9c322a78c7f5e9fa33e79262740add64141", "1.10.0--r43hdfd78af_0": "sha256:c7f35d07d59983bacfd7f6c8a7ddc3284728ef588b90996934adf67473c236f3"}, "docker": "quay.io/biocontainers/bioconductor-ncrnatools"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ncrnatools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ncrnatools", "latest": {"1.12.0--r43hdfd78af_0": "sha256:7de334239ebf4a61e1b6e564b5789aa2fb42b94efea0041641af6eb3bac22f7e"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:7ebca866d58807246bb91dde424819bcdbb3acf85fa0b115d2689e824a7925a9", "1.8.0--r42hdfd78af_0": "sha256:1556b48bf1096f14a6a779b91cefc9c322a78c7f5e9fa33e79262740add64141", "1.10.0--r43hdfd78af_0": "sha256:c7f35d07d59983bacfd7f6c8a7ddc3284728ef588b90996934adf67473c236f3", "1.12.0--r43hdfd78af_0": "sha256:7de334239ebf4a61e1b6e564b5789aa2fb42b94efea0041641af6eb3bac22f7e"}, "docker": "quay.io/biocontainers/bioconductor-ncrnatools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ncrnatools.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ncrnatools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ncrnatools:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ncrnatools:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ncrnatools/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ncrnatools/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ncrnatools/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ncrnatools/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
