@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-isobar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-isobar
 latest:
-  1.46.0--r43hdfd78af_0: sha256:8ecbdbfa01862434c3d0f6e9f9f44a156985133bc4ea2b13770686cbda4a4ab8
+  1.48.0--r43hdfd78af_0: sha256:734fe8674f141175c67d79c8b429aebfacbc00dd328b7b7d631c873f9f65d39d
 tags:
   1.40.0--r41hdfd78af_0: sha256:06bc967f38b82014860c949c32b88ec60f749ec98d5d80b8477517a04eb25a39
   1.44.0--r42hdfd78af_0: sha256:fd06ea4eb320f9a45540cf0c62035175cfd93dde2f4762176935144cfd0c9b5d
   1.46.0--r43hdfd78af_0: sha256:8ecbdbfa01862434c3d0f6e9f9f44a156985133bc4ea2b13770686cbda4a4ab8
+  1.48.0--r43hdfd78af_0: sha256:734fe8674f141175c67d79c8b429aebfacbc00dd328b7b7d631c873f9f65d39d
 docker: quay.io/biocontainers/bioconductor-isobar

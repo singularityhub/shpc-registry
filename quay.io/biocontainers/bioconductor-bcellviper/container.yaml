@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-bcellviper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bcellviper
 latest:
-  1.36.0--r43hdfd78af_0: sha256:897bc962e303e02599d05bf64e08523ddac89f34a006a8262207ab6c567bb0c7
+  1.38.0--r43hdfd78af_0: sha256:b60132123436c62e3840f79d577be7ded51b0c283f62603e0f062b053b365b21
 tags:
   1.30.0--r41hdfd78af_1: sha256:a8a979f5220e7eb2ef61d0d4cd6ebf98858ceefdc664194f671a86b366e88356
   1.34.0--r42hdfd78af_0: sha256:52390641f5268fa4545b1843a965893c2b121f0d661ec92e54cb10c4f55cc28c
   1.36.0--r43hdfd78af_0: sha256:897bc962e303e02599d05bf64e08523ddac89f34a006a8262207ab6c567bb0c7
+  1.38.0--r43hdfd78af_0: sha256:b60132123436c62e3840f79d577be7ded51b0c283f62603e0f062b053b365b21
 docker: quay.io/biocontainers/bioconductor-bcellviper

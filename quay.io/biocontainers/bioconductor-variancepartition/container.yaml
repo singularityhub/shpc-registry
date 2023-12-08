@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-variancepartition
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-variancepartition
 latest:
-  1.30.2--r43hdfd78af_0: sha256:a9a8a7be36161b07920326c3769889c627a13f6df50ea61ba36025a3fc88a08f
+  1.32.2--r43hdfd78af_0: sha256:95c5c2f1d6229be81dd30fcb6a4fe745872fbe2d0494e2e294dc85054a77a9d5
 tags:
   1.8.1--r3.4.1_0: sha256:21a528b07a13d6e0a9f59f967bac45eac9adfcdbfa55c63723f091b0fedd0ef4
   1.28.0--r42hdfd78af_0: sha256:ba9f64ba8fb73c88c433672c6b0a8cb76a54f4411c18841dcdf87b1453f40829
@@ -11,6 +11,7 @@ tags:
   1.20.0--r40hdfd78af_1: sha256:02df9ecda0a2282d38877a12381bd9e96e2870cd04a090c3f0e1e1b3bd2dddaa
   1.18.0--r40_0: sha256:a93409035516a2d785174dc194060b08d3c148b2ef20fcdce56e4d24f7f806d1
   1.30.2--r43hdfd78af_0: sha256:a9a8a7be36161b07920326c3769889c627a13f6df50ea61ba36025a3fc88a08f
+  1.32.2--r43hdfd78af_0: sha256:95c5c2f1d6229be81dd30fcb6a4fe745872fbe2d0494e2e294dc85054a77a9d5
 docker: quay.io/biocontainers/bioconductor-variancepartition
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

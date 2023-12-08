@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/braker3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for braker3
 latest:
-  3.0.3--hdfd78af_0: sha256:6fa0c95a47fd078799d389410769a09f9a62eb041a29c2bf486a0b8372fea3b1
+  3.0.6--hdfd78af_0: sha256:ed3aa8302511c2f4a2cde807f3b7875df499ff578bddefc8b5109623f2e2c648
 tags:
   3.0.3--hdfd78af_0: sha256:6fa0c95a47fd078799d389410769a09f9a62eb041a29c2bf486a0b8372fea3b1
+  3.0.6--hdfd78af_0: sha256:ed3aa8302511c2f4a2cde807f3b7875df499ff578bddefc8b5109623f2e2c648
 docker: quay.io/biocontainers/braker3
 aliases:
   LICENSE.txt: /usr/local/bin/LICENSE.txt

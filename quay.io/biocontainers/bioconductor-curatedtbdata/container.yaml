@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-curatedtbdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-curatedtbdata
 latest:
-  1.6.0--r43hdfd78af_0: sha256:d80ae2c4c04963c49a4578018e35e15051988025e70e626ffa8a6947abfd631a
+  1.8.0--r43hdfd78af_0: sha256:c1787c98347b19b5423dd272c1b59a6dcbe569a146b5603ebc9d248e93b89e18
 tags:
   1.0.0--r41hdfd78af_1: sha256:95afeb6766915b3ed62b07dda01619ff03efa833454b96e19ef7f9a96156fca1
   1.4.0--r42hdfd78af_0: sha256:87f7c7132f8a8c66d760d2647180a4e8faf4b6d56c527a41a4e522dadc9a69cd
   1.6.0--r43hdfd78af_0: sha256:d80ae2c4c04963c49a4578018e35e15051988025e70e626ffa8a6947abfd631a
+  1.8.0--r43hdfd78af_0: sha256:c1787c98347b19b5423dd272c1b59a6dcbe569a146b5603ebc9d248e93b89e18
 docker: quay.io/biocontainers/bioconductor-curatedtbdata
