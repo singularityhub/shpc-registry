@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-dcats
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-dcats
+latest:
+  1.0.0--r43hdfd78af_0: sha256:23f0d0da54f79fbce042887d3f53b0d697da145492f13423c2022cf1940b990c
+tags:
+  1.0.0--r43hdfd78af_0: sha256:23f0d0da54f79fbce042887d3f53b0d697da145492f13423c2022cf1940b990c
+docker: quay.io/biocontainers/bioconductor-dcats
+aliases:
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

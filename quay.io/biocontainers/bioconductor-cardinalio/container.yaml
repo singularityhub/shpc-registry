@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-cardinalio
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-cardinalio
+latest:
+  1.0.0--r43hf17093f_0: sha256:fa9946e98a19269e62a9605231608f5ec9cca0eba41e83b62d1a244c11ca72f9
+tags:
+  1.0.0--r43hf17093f_0: sha256:fa9946e98a19269e62a9605231608f5ec9cca0eba41e83b62d1a244c11ca72f9
+docker: quay.io/biocontainers/bioconductor-cardinalio
+aliases:
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

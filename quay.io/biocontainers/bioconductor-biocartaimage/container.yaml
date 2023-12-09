@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/bioconductor-biocartaimage
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-biocartaimage
+latest:
+  1.0.0--r43hdfd78af_0: sha256:ea85b280ac09928f745e71bb45488887215a5011266dc659b77972b5d57aad62
+tags:
+  1.0.0--r43hdfd78af_0: sha256:ea85b280ac09928f745e71bb45488887215a5011266dc659b77972b5d57aad62
+docker: quay.io/biocontainers/bioconductor-biocartaimage
+aliases:
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  animate: /usr/local/bin/animate
+  composite: /usr/local/bin/composite
+  conjure: /usr/local/bin/conjure
+  display: /usr/local/bin/display
+  identify: /usr/local/bin/identify
+  import: /usr/local/bin/import
+  magick: /usr/local/bin/magick
+  magick-script: /usr/local/bin/magick-script
+  mogrify: /usr/local/bin/mogrify
+  montage: /usr/local/bin/montage
+  convert: /usr/local/bin/convert
+  pkg-config: /usr/local/bin/pkg-config
+  pkg-config.bin: /usr/local/bin/pkg-config.bin
+  stream: /usr/local/bin/stream
+  compare: /usr/local/bin/compare
+  dvipdf: /usr/local/bin/dvipdf
+  eps2eps: /usr/local/bin/eps2eps
+  gs: /usr/local/bin/gs
+  gsbj: /usr/local/bin/gsbj
+  gsdj: /usr/local/bin/gsdj

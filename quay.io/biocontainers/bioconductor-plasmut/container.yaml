@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-plasmut
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-plasmut
+latest:
+  1.0.0--r43hdfd78af_0: sha256:1a000063d9756ba905de351a3825e4fcffcd3fb809ed022518481ae1e281f254
+tags:
+  1.0.0--r43hdfd78af_0: sha256:1a000063d9756ba905de351a3825e4fcffcd3fb809ed022518481ae1e281f254
+docker: quay.io/biocontainers/bioconductor-plasmut
+aliases:
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
