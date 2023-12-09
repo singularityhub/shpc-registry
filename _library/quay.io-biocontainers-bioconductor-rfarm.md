@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rfarm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rfarm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rfarm/container.yaml"
-updated_at: "2023-12-08 02:43:05.739388"
-latest: "1.11.2--r43hdfd78af_0"
+updated_at: "2023-12-09 03:02:32.471839"
+latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rfarm"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -22,8 +22,9 @@ versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
  - "1.11.2--r43hdfd78af_0"
+ - "1.14.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rfarm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rfarm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rfarm", "latest": {"1.11.2--r43hdfd78af_0": "sha256:18afc7a8caf405ec51e04f54cea799cab4249c279dcdbc25e92e50d5c1556db1"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:1e829fff8580c39c228a0fb8fada8f02b5adedf2405fc2c9b9aa823da1d2d50b", "1.10.0--r42hdfd78af_0": "sha256:636128c1415b7549f94f5bf71d9cd532d75d3739d2aafdcd79ae0607fcba4c1f", "1.11.2--r43hdfd78af_0": "sha256:18afc7a8caf405ec51e04f54cea799cab4249c279dcdbc25e92e50d5c1556db1"}, "docker": "quay.io/biocontainers/bioconductor-rfarm", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rfarm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rfarm", "latest": {"1.14.0--r43hdfd78af_0": "sha256:708932e7abfa1412f02522ba63c60dd2535a9f90e64e8bd03cdc2647dc06cb3a"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:1e829fff8580c39c228a0fb8fada8f02b5adedf2405fc2c9b9aa823da1d2d50b", "1.10.0--r42hdfd78af_0": "sha256:636128c1415b7549f94f5bf71d9cd532d75d3739d2aafdcd79ae0607fcba4c1f", "1.11.2--r43hdfd78af_0": "sha256:18afc7a8caf405ec51e04f54cea799cab4249c279dcdbc25e92e50d5c1556db1", "1.14.0--r43hdfd78af_0": "sha256:708932e7abfa1412f02522ba63c60dd2535a9f90e64e8bd03cdc2647dc06cb3a"}, "docker": "quay.io/biocontainers/bioconductor-rfarm", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rfarm.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rfarm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rfarm:1.11.2--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rfarm:1.14.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rfarm/1.11.2--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rfarm/1.11.2--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rfarm/1.14.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rfarm/1.14.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

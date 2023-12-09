@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-s4arrays"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-s4arrays/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-s4arrays/container.yaml"
-updated_at: "2023-12-08 03:05:05.822800"
-latest: "1.0.4--r43ha9d7317_0"
+updated_at: "2023-12-09 02:54:08.724166"
+latest: "1.2.0--r43ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-s4arrays"
 aliases:
  - "hb-info"
  - "tjbench"
 versions:
  - "1.0.4--r43ha9d7317_0"
+ - "1.2.0--r43ha9d7317_1"
 description: "singularity registry hpc automated addition for bioconductor-s4arrays"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-s4arrays", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-s4arrays", "latest": {"1.0.4--r43ha9d7317_0": "sha256:8096e69c943cbc155a07a81147c594ead505e519acfe178913f35b0ba82a03ac"}, "tags": {"1.0.4--r43ha9d7317_0": "sha256:8096e69c943cbc155a07a81147c594ead505e519acfe178913f35b0ba82a03ac"}, "docker": "quay.io/biocontainers/bioconductor-s4arrays", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-s4arrays", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-s4arrays", "latest": {"1.2.0--r43ha9d7317_1": "sha256:387959d5c22569054022cb7366871f59624d23c42c0f11e80d4eb6b14b9a587d"}, "tags": {"1.0.4--r43ha9d7317_0": "sha256:8096e69c943cbc155a07a81147c594ead505e519acfe178913f35b0ba82a03ac", "1.2.0--r43ha9d7317_1": "sha256:387959d5c22569054022cb7366871f59624d23c42c0f11e80d4eb6b14b9a587d"}, "docker": "quay.io/biocontainers/bioconductor-s4arrays", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-s4arrays.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-s4arrays
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-s4arrays:1.0.4--r43ha9d7317_0
+$ shpc install quay.io/biocontainers/bioconductor-s4arrays:1.2.0--r43ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-s4arrays/1.0.4--r43ha9d7317_0
-$ module help quay.io/biocontainers/bioconductor-s4arrays/1.0.4--r43ha9d7317_0
+$ module load quay.io/biocontainers/bioconductor-s4arrays/1.2.0--r43ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-s4arrays/1.2.0--r43ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

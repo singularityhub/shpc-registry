@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sigtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sigtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sigtree/container.yaml"
-updated_at: "2023-12-08 02:35:26.153542"
+updated_at: "2023-12-09 02:33:16.312315"
 latest: "1.10.6--r43h56115f1_12"
 container_url: "https://biocontainers.pro/tools/r-sigtree"
 

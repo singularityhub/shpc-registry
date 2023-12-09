@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ndex2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ndex2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ndex2/container.yaml"
-updated_at: "2023-12-08 02:35:38.181154"
-latest: "3.5.1--pyh7cba7a3_0"
+updated_at: "2023-12-09 02:58:04.591571"
+latest: "3.6.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/ndex2"
 aliases:
  - "f2py3.11"
@@ -18,8 +18,9 @@ aliases:
  - "python3.1"
 versions:
  - "3.5.1--pyh7cba7a3_0"
+ - "3.6.0--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for ndex2"
-config: {"url": "https://biocontainers.pro/tools/ndex2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ndex2", "latest": {"3.5.1--pyh7cba7a3_0": "sha256:4f32a6fc99d70e78560e2bf17c500819c174797f1bdf583164b1638043b1c0cf"}, "tags": {"3.5.1--pyh7cba7a3_0": "sha256:4f32a6fc99d70e78560e2bf17c500819c174797f1bdf583164b1638043b1c0cf"}, "docker": "quay.io/biocontainers/ndex2", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/ndex2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ndex2", "latest": {"3.6.0--pyh7cba7a3_0": "sha256:11040cd1aa0137143ae5d7facec404682b2caed46a94f9f9f04731a5f71bc365"}, "tags": {"3.5.1--pyh7cba7a3_0": "sha256:4f32a6fc99d70e78560e2bf17c500819c174797f1bdf583164b1638043b1c0cf", "3.6.0--pyh7cba7a3_0": "sha256:11040cd1aa0137143ae5d7facec404682b2caed46a94f9f9f04731a5f71bc365"}, "docker": "quay.io/biocontainers/ndex2", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ndex2.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/ndex2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ndex2:3.5.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/ndex2:3.6.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ndex2/3.5.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/ndex2/3.5.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/ndex2/3.6.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/ndex2/3.6.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

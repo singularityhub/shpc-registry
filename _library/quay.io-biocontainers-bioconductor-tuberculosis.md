@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-tuberculosis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tuberculosis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tuberculosis/container.yaml"
-updated_at: "2023-12-08 02:45:09.832959"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2023-12-09 02:47:47.935686"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tuberculosis"
 
 versions:
  - "1.0.0--r41hdfd78af_1"
  - "1.4.0--r42hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tuberculosis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tuberculosis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tuberculosis", "latest": {"1.6.0--r43hdfd78af_0": "sha256:cabf4223623a0248bc8dab76315993e06c0db13cbdc28ac9abe97e1cbc8ca278"}, "tags": {"1.0.0--r41hdfd78af_1": "sha256:c9685b78ece366d205a1ad6122ecf4f1343b9b53cae07ea1240dae5db7727a4a", "1.4.0--r42hdfd78af_0": "sha256:18d74e37fae6288b98be907769121bb031e1c914e7404e720c7dff83344f318f", "1.6.0--r43hdfd78af_0": "sha256:cabf4223623a0248bc8dab76315993e06c0db13cbdc28ac9abe97e1cbc8ca278"}, "docker": "quay.io/biocontainers/bioconductor-tuberculosis"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tuberculosis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tuberculosis", "latest": {"1.8.0--r43hdfd78af_0": "sha256:c7aed8a0d98ade3250c04e5f88e56e1c813e8f3e8bf3af69cc5425beb4df7185"}, "tags": {"1.0.0--r41hdfd78af_1": "sha256:c9685b78ece366d205a1ad6122ecf4f1343b9b53cae07ea1240dae5db7727a4a", "1.4.0--r42hdfd78af_0": "sha256:18d74e37fae6288b98be907769121bb031e1c914e7404e720c7dff83344f318f", "1.6.0--r43hdfd78af_0": "sha256:cabf4223623a0248bc8dab76315993e06c0db13cbdc28ac9abe97e1cbc8ca278", "1.8.0--r43hdfd78af_0": "sha256:c7aed8a0d98ade3250c04e5f88e56e1c813e8f3e8bf3af69cc5425beb4df7185"}, "docker": "quay.io/biocontainers/bioconductor-tuberculosis"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tuberculosis.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tuberculosis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tuberculosis:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tuberculosis:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tuberculosis/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tuberculosis/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tuberculosis/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tuberculosis/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

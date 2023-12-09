@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/medusa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/medusa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/medusa/container.yaml"
-updated_at: "2023-12-08 03:05:22.747174"
+updated_at: "2023-12-09 02:28:21.047042"
 latest: "1.6--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/medusa"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rphylip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rphylip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rphylip/container.yaml"
-updated_at: "2023-12-08 03:10:12.732475"
+updated_at: "2023-12-09 02:46:14.909920"
 latest: "0.1_23--r3.4.1_1"
 container_url: "https://biocontainers.pro/tools/r-rphylip"
 aliases:

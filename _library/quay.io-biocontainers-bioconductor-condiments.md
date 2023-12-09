@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-condiments"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-condiments/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-condiments/container.yaml"
-updated_at: "2023-12-08 02:35:38.741844"
+updated_at: "2023-12-09 03:05:59.765957"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-condiments"
 

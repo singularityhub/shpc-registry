@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-perlio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-perlio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-perlio/container.yaml"
-updated_at: "2023-12-08 02:39:16.007171"
+updated_at: "2023-12-09 02:32:54.774495"
 latest: "1.09--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-perlio"
 

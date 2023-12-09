@@ -4,7 +4,7 @@ name:  "ncbi/blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ncbi/blast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ncbi/blast/container.yaml"
-updated_at: "2023-12-08 02:29:41.462648"
+updated_at: "2023-12-09 02:25:49.766618"
 latest: "2.15.0"
 container_url: "https://hub.docker.com/r/ncbi/blast"
 
@@ -17,7 +17,7 @@ versions:
  - "2.14.1"
  - "2.15.0"
 description: "The Basic Local Alignment Search Tool (BLAST) finds regions of local similarity between sequences."
-config: {"docker": "ncbi/blast", "url": "https://hub.docker.com/r/ncbi/blast", "maintainer": "@vsoch", "description": "The Basic Local Alignment Search Tool (BLAST) finds regions of local similarity between sequences.", "latest": {"2.15.0": "sha256:6ae1cb85f07a6e6ddc52098c12aac089114172a570cac1c1abfbcfd5bc85f345"}, "tags": {"2.11.0": "sha256:6591661d046e5d5d4c5c45baf8bcfcc8b9188590f87b25dc1f625cb29383b922", "2.12.0": "sha256:367f06bf5d5fc9f6ea2dd24bee7571e3b5be589175a902c257261f3f41784517", "latest": "sha256:6ae1cb85f07a6e6ddc52098c12aac089114172a570cac1c1abfbcfd5bc85f345", "2.13.0": "sha256:ae7aaf7dbb861d8c2e4c59738101d98548ea5578cd412bffa0b24a6aca8ceced", "2.14.0": "sha256:b12ea8a499936a67c0597d6481466bc75378c7c462d7f161724f0154e12634da", "2.14.1": "sha256:c8fb0be17b1b682521b10374f20b94429b1e7a6212b66a85446c2362a5755f82", "2.15.0": "sha256:6ae1cb85f07a6e6ddc52098c12aac089114172a570cac1c1abfbcfd5bc85f345"}}
+config: {"docker": "ncbi/blast", "url": "https://hub.docker.com/r/ncbi/blast", "maintainer": "@vsoch", "description": "The Basic Local Alignment Search Tool (BLAST) finds regions of local similarity between sequences.", "latest": {"2.15.0": "sha256:77a24a340683c2f4883e2d5295bf63277743579239ada939370c19ca5622ef5f"}, "tags": {"2.11.0": "sha256:6591661d046e5d5d4c5c45baf8bcfcc8b9188590f87b25dc1f625cb29383b922", "2.12.0": "sha256:367f06bf5d5fc9f6ea2dd24bee7571e3b5be589175a902c257261f3f41784517", "latest": "sha256:77a24a340683c2f4883e2d5295bf63277743579239ada939370c19ca5622ef5f", "2.13.0": "sha256:ae7aaf7dbb861d8c2e4c59738101d98548ea5578cd412bffa0b24a6aca8ceced", "2.14.0": "sha256:b12ea8a499936a67c0597d6481466bc75378c7c462d7f161724f0154e12634da", "2.14.1": "sha256:c8fb0be17b1b682521b10374f20b94429b1e7a6212b66a85446c2362a5755f82", "2.15.0": "sha256:77a24a340683c2f4883e2d5295bf63277743579239ada939370c19ca5622ef5f"}}
 ---
 
 This module is a singularity container wrapper for ncbi/blast.

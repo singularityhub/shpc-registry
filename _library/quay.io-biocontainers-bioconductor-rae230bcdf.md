@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rae230bcdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rae230bcdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rae230bcdf/container.yaml"
-updated_at: "2023-12-08 02:31:54.371041"
+updated_at: "2023-12-09 02:54:51.038541"
 latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-rae230bcdf"
 

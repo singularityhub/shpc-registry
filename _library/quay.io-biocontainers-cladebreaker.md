@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cladebreaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cladebreaker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cladebreaker/container.yaml"
-updated_at: "2023-12-08 02:56:55.965146"
+updated_at: "2023-12-09 02:58:44.226259"
 latest: "0.2.3--py39hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cladebreaker"
 aliases:

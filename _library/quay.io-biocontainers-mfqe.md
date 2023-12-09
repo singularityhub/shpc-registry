@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mfqe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mfqe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mfqe/container.yaml"
-updated_at: "2023-12-08 03:10:27.330750"
+updated_at: "2023-12-09 02:34:59.178818"
 latest: "0.5.0--h031d066_4"
 container_url: "https://biocontainers.pro/tools/mfqe"
 aliases:
