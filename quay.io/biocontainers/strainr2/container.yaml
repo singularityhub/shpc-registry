@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/strainr2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for strainr2
+latest:
+  1.0.0--py312r43h031d066_0: sha256:874eb1c063b537f4dfdf963bdd8316aa8905605e691f6dcd05039d8b8e6b8420
+tags:
+  1.0.0--py312r43h031d066_0: sha256:874eb1c063b537f4dfdf963bdd8316aa8905605e691f6dcd05039d8b8e6b8420
+docker: quay.io/biocontainers/strainr2
+aliases:
+  Plot.R: /usr/local/bin/Plot.R
+  PreProcessR: /usr/local/bin/PreProcessR
+  StrainR: /usr/local/bin/StrainR
+  bloomfilterparser.sh: /usr/local/bin/bloomfilterparser.sh
+  hashcounter.py: /usr/local/bin/hashcounter.py
+  sourmash: /usr/local/bin/sourmash
+  subcontig: /usr/local/bin/subcontig
+  Xcalcmem.sh: /usr/local/bin/Xcalcmem.sh
+  jwebserver: /usr/local/bin/jwebserver
+  screed: /usr/local/bin/screed
+  kmutate.sh: /usr/local/bin/kmutate.sh
+  runhmm.sh: /usr/local/bin/runhmm.sh
+  kmerposition.sh: /usr/local/bin/kmerposition.sh
+  reformatpb.sh: /usr/local/bin/reformatpb.sh
+  summarizecoverage.sh: /usr/local/bin/summarizecoverage.sh
+  alltoall.sh: /usr/local/bin/alltoall.sh
+  analyzesketchresults.sh: /usr/local/bin/analyzesketchresults.sh
+  comparessu.sh: /usr/local/bin/comparessu.sh
+  filtersilva.sh: /usr/local/bin/filtersilva.sh
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  sketchblacklist2.sh: /usr/local/bin/sketchblacklist2.sh
+  splitribo.sh: /usr/local/bin/splitribo.sh
+  addssu.sh: /usr/local/bin/addssu.sh
+  adjusthomopolymers.sh: /usr/local/bin/adjusthomopolymers.sh
+  analyzeaccession.sh: /usr/local/bin/analyzeaccession.sh
+  analyzegenes.sh: /usr/local/bin/analyzegenes.sh
+  applyvariants.sh: /usr/local/bin/applyvariants.sh
+  bbcms.sh: /usr/local/bin/bbcms.sh
+  bloomfilter.sh: /usr/local/bin/bloomfilter.sh
+  callgenes.sh: /usr/local/bin/callgenes.sh
+  comparegff.sh: /usr/local/bin/comparegff.sh
+  consensus.sh: /usr/local/bin/consensus.sh

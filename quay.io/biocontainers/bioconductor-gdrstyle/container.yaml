@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bioconductor-gdrstyle
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-gdrstyle
+latest:
+  1.0.0--r43hdfd78af_0: sha256:80935e21c9e208433af135e8cfa805a4cc13ba920b1706d88f7f7e7798a493df
+tags:
+  1.0.0--r43hdfd78af_0: sha256:80935e21c9e208433af135e8cfa805a4cc13ba920b1706d88f7f7e7798a493df
+docker: quay.io/biocontainers/bioconductor-gdrstyle
+aliases:
+  git2: /usr/local/bin/git2
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

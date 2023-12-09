@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/phantasm
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phantasm
+latest:
+  1.1.3--pyhdfd78af_0: sha256:4a6c27cfc6cd74d275c582f1e7460f3d2f24529dc30d981fa3b62ad56f9007e7
+tags:
+  1.1.3--pyhdfd78af_0: sha256:4a6c27cfc6cd74d275c582f1e7460f3d2f24529dc30d981fa3b62ad56f9007e7
+docker: quay.io/biocontainers/phantasm
+aliases:
+  average_nucleotide_identity.py: /usr/local/bin/average_nucleotide_identity.py
+  delta_filter_wrapper.py: /usr/local/bin/delta_filter_wrapper.py
+  genbank_get_genomes_by_taxon.py: /usr/local/bin/genbank_get_genomes_by_taxon.py
+  generax: /usr/local/bin/generax
+  phantasm: /usr/local/bin/phantasm
+  pysemver: /usr/local/bin/pysemver
+  xenoGI: /usr/local/bin/xenoGI
+  iqtree2: /usr/local/bin/iqtree2
+  blastn_vdb: /usr/local/bin/blastn_vdb
+  tblastn_vdb: /usr/local/bin/tblastn_vdb
+  iqtree: /usr/local/bin/iqtree
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  bl2seq: /usr/local/bin/bl2seq
+  blastall: /usr/local/bin/blastall
+  blastclust: /usr/local/bin/blastclust
+  blastpgp: /usr/local/bin/blastpgp
+  copymat: /usr/local/bin/copymat
+  fastacmd: /usr/local/bin/fastacmd
+  formatdb: /usr/local/bin/formatdb
+  formatrpsdb: /usr/local/bin/formatrpsdb
+  impala: /usr/local/bin/impala
+  makemat: /usr/local/bin/makemat
+  megablast: /usr/local/bin/megablast
+  uuid: /usr/local/bin/uuid
+  uuid-config: /usr/local/bin/uuid-config
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcxx: /usr/local/bin/oshcxx
+  shmemCC: /usr/local/bin/shmemCC
+  shmemc++: /usr/local/bin/shmemc++
+  shmemcxx: /usr/local/bin/shmemcxx
+  oshcc: /usr/local/bin/oshcc

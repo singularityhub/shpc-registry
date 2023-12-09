@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/insilicosv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for insilicosv
+latest:
+  0.0.5--pyhdfd78af_0: sha256:aa0e08298dee74105c51bed73fe0c5b3ef8c222cee2be3ca21ffed479b93c188
+tags:
+  0.0.5--pyhdfd78af_0: sha256:aa0e08298dee74105c51bed73fe0c5b3ef8c222cee2be3ca21ffed479b93c188
+docker: quay.io/biocontainers/insilicosv
+aliases:
+  insilicosv: /usr/local/bin/insilicosv
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc
