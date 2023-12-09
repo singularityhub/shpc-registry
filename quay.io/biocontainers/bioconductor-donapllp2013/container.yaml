@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-donapllp2013
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-donapllp2013
 latest:
-  1.38.0--r43hdfd78af_0: sha256:fb4a7822cab7681239e1c98692be3aeafad0f4c1f4200dafa2ef1ef3440a6315
+  1.40.0--r43hdfd78af_0: sha256:40bf1afe92a42662a82dc33df9c5f68e3ca1999f38fd7f4b7a58a50fd59d5581
 tags:
   1.32.0--r41hdfd78af_1: sha256:93dc265b2b3f58e4c0ebcd3df6a56942adb85f5d4a698f09506fbff93b2f265c
   1.35.0--r42hdfd78af_0: sha256:ea960684f90c270430840a661bb5d26e78387ac9402d3e302f3012181ca70df3
   1.38.0--r43hdfd78af_0: sha256:fb4a7822cab7681239e1c98692be3aeafad0f4c1f4200dafa2ef1ef3440a6315
+  1.40.0--r43hdfd78af_0: sha256:40bf1afe92a42662a82dc33df9c5f68e3ca1999f38fd7f4b7a58a50fd59d5581
 docker: quay.io/biocontainers/bioconductor-donapllp2013
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom

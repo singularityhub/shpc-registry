@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-pwmenrich.mmusculus.background
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pwmenrich.mmusculus.background
 latest:
-  4.34.0--r43hdfd78af_0: sha256:bd212b9874f833eccee01dc000e02d14e67d0cbab6531d22b175f900ae8e3888
+  4.36.0--r43hdfd78af_0: sha256:9ffbb7a764a8d85ace4a22d6c5cd67a1bc75ebae1ba9ef2b9dc259717b7f13f6
 tags:
   4.28.0--r41hdfd78af_1: sha256:6e1c1d74f9cb2b4daedcdf66529325069306b60080e350683d84a55a758aab57
   4.32.0--r42hdfd78af_0: sha256:b774c181620c2009fe37a04884a3b4b4d7ecabad7f122094b1207a8df1e3820f
   4.34.0--r43hdfd78af_0: sha256:bd212b9874f833eccee01dc000e02d14e67d0cbab6531d22b175f900ae8e3888
+  4.36.0--r43hdfd78af_0: sha256:9ffbb7a764a8d85ace4a22d6c5cd67a1bc75ebae1ba9ef2b9dc259717b7f13f6
 docker: quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background

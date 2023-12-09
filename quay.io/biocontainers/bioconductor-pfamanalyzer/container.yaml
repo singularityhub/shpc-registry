@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-pfamanalyzer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-pfamanalyzer
 latest:
-  1.0.1--r43hdfd78af_0: sha256:a5d9602cd862a92b1bd3344fd318af4c2c454b6bb4232f8eb05cf5dbb7037875
+  1.2.0--r43hdfd78af_0: sha256:2f361afcde45953acd61ef8419e1641193fa183001a66447e10ae019197f8229
 tags:
   1.0.1--r43hdfd78af_0: sha256:a5d9602cd862a92b1bd3344fd318af4c2c454b6bb4232f8eb05cf5dbb7037875
+  1.2.0--r43hdfd78af_0: sha256:2f361afcde45953acd61ef8419e1641193fa183001a66447e10ae019197f8229
 docker: quay.io/biocontainers/bioconductor-pfamanalyzer
 aliases:
   hb-info: /usr/local/bin/hb-info

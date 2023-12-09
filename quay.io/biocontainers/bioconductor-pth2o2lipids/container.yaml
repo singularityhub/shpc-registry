@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-pth2o2lipids
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pth2o2lipids
 latest:
-  1.26.0--r43hdfd78af_0: sha256:9c11ca652a4a0b27b507ba7ea020ec51b24288fd5b14df41051d3299df8a6fcd
+  1.28.0--r43hdfd78af_0: sha256:b4a145d809a6f9694d83ce2615dd36059618123587ba1b4e6cedf9d2ed033383
 tags:
   1.8.0--r351_0: sha256:17ae112b6e99c3d686a1e12495545fbf300b1e88f2f2fd5c42f04796d8a0a679
   1.24.0--r42hdfd78af_0: sha256:f3ecf0474ab5d4b93f11615f443e89ef65f7889c7efdc0ac5a873fef2eec3c70
@@ -11,6 +11,7 @@ tags:
   1.16.0--r40hdfd78af_1: sha256:62dc311ff017e7a6cc2bb4b287344ab352dee1bd05abc7aa12e15e4ea9a376a2
   1.14.0--r40_0: sha256:d67dd39fa895ac12dbaa20dbc3adf91072ddb2c318ddf881e6db59aeb2e94256
   1.26.0--r43hdfd78af_0: sha256:9c11ca652a4a0b27b507ba7ea020ec51b24288fd5b14df41051d3299df8a6fcd
+  1.28.0--r43hdfd78af_0: sha256:b4a145d809a6f9694d83ce2615dd36059618123587ba1b4e6cedf9d2ed033383
 docker: quay.io/biocontainers/bioconductor-pth2o2lipids
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf

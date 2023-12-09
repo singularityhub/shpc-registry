@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/qualimap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for qualimap
 latest:
-  2.2.2d--hdfd78af_2: sha256:cbc038154e4177120eb2865324948838ec13d957f871168ceb83a16615be699d
+  2.3--hdfd78af_0: sha256:49d81e27bf995d0ef72ae46c79c22c8c779e21573cd76f7b60cf3f73af61b087
 tags:
   2.2.2d--hdfd78af_2: sha256:cbc038154e4177120eb2865324948838ec13d957f871168ceb83a16615be699d
   2.2.2a--2: sha256:e7df2242c3a0cd7940174e9b9c7a373346c3a3a54c25719f2aeeb2ea4f3153e9
+  2.3--hdfd78af_0: sha256:49d81e27bf995d0ef72ae46c79c22c8c779e21573cd76f7b60cf3f73af61b087
 docker: quay.io/biocontainers/qualimap
 aliases:
   qualimap: /usr/local/bin/qualimap

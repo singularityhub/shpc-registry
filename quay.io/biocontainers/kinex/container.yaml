@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/kinex
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kinex
 latest:
-  1.0.1--pyhdfd78af_0: sha256:6838b4acb50265e31c5ebe6d1122313eb538af8d59703135d616f75e895135cd
+  1.0.2--pyhdfd78af_0: sha256:57c54dce8183a8cc72656c43218f45ad9a4164e36ce55f3e18b7b5fcf0442f0a
 tags:
   1.0.1--pyhdfd78af_0: sha256:6838b4acb50265e31c5ebe6d1122313eb538af8d59703135d616f75e895135cd
+  1.0.2--pyhdfd78af_0: sha256:57c54dce8183a8cc72656c43218f45ad9a4164e36ce55f3e18b7b5fcf0442f0a
 docker: quay.io/biocontainers/kinex
 aliases:
   hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
