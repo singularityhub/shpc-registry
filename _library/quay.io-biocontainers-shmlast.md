@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shmlast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shmlast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shmlast/container.yaml"
-updated_at: "2023-12-09 02:47:43.455404"
+updated_at: "2023-12-09 03:14:04.288776"
 latest: "1.6--py_0"
 container_url: "https://biocontainers.pro/tools/shmlast"
 aliases:

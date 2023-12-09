@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-b-hooks-endofscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-b-hooks-endofscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-b-hooks-endofscope/container.yaml"
-updated_at: "2023-12-09 03:10:17.638906"
+updated_at: "2023-12-09 03:36:19.928671"
 latest: "0.26--pl5321h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/perl-b-hooks-endofscope"
 aliases:
