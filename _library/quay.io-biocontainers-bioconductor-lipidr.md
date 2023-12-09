@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lipidr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lipidr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lipidr/container.yaml"
-updated_at: "2023-12-09 02:42:11.742334"
+updated_at: "2023-12-09 02:48:04.005190"
 latest: "2.14.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lipidr"
 
