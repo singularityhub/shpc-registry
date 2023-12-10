@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-biodbmirbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biodbmirbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biodbmirbase/container.yaml"
-updated_at: "2023-12-09 03:38:19.933400"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2023-12-10 03:10:48.072854"
+latest: "1.5.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biodbmirbase"
 
 versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.5.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-biodbmirbase"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biodbmirbase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-biodbmirbase", "latest": {"1.4.0--r43hdfd78af_0": "sha256:8110749069f2f82f5e146f28ddf81e1254825fd65c0b367ff2b9e4fdc02e69fe"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:20c41cabec89d218bdde6c100f6621a7b8482e6f25c49b874a8e7b74983a7121", "1.4.0--r43hdfd78af_0": "sha256:8110749069f2f82f5e146f28ddf81e1254825fd65c0b367ff2b9e4fdc02e69fe"}, "docker": "quay.io/biocontainers/bioconductor-biodbmirbase"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biodbmirbase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-biodbmirbase", "latest": {"1.5.0--r43hdfd78af_0": "sha256:6e0913af0d61c0d0a851bc5b1a68b2f37306be889e798692171f65b0972a954c"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:20c41cabec89d218bdde6c100f6621a7b8482e6f25c49b874a8e7b74983a7121", "1.4.0--r43hdfd78af_0": "sha256:8110749069f2f82f5e146f28ddf81e1254825fd65c0b367ff2b9e4fdc02e69fe", "1.5.0--r43hdfd78af_0": "sha256:6e0913af0d61c0d0a851bc5b1a68b2f37306be889e798692171f65b0972a954c"}, "docker": "quay.io/biocontainers/bioconductor-biodbmirbase"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biodbmirbase.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biodbmirbase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biodbmirbase:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-biodbmirbase:1.5.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biodbmirbase/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-biodbmirbase/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-biodbmirbase/1.5.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-biodbmirbase/1.5.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

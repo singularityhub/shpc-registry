@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sights"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sights/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sights/container.yaml"
-updated_at: "2023-12-09 03:24:09.214075"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2023-12-10 02:56:16.982180"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sights"
 aliases:
  - "gio-launch-desktop"
@@ -19,8 +19,9 @@ versions:
  - "1.16.0--r40hdfd78af_1"
  - "1.14.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sights"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sights", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sights", "latest": {"1.26.0--r43hdfd78af_0": "sha256:b165a75ee2960e3288945005d5807ec9fd0c7ecbd7fd84a09c7d52588ab4a44f"}, "tags": {"1.8.1--r351_0": "sha256:3477b59e4287632e487473d0d19ea2e09bd8364340a4c2c38b60307caaf5cefa", "1.24.0--r42hdfd78af_0": "sha256:ea47e6b15eddc8f2a7c14abc58d9dfa6b16ecc9ee2ddf7d93dba3cc4f79abdec", "1.20.0--r41hdfd78af_0": "sha256:af9f04e124b09310a2b0fc037e6b908e2d093814e58eb48dbd0735c2e37c2d05", "1.18.0--r41hdfd78af_0": "sha256:5099145b74cd2e7eb4040eefb6bda019ab5bc4a756df7a45882f41a87bd27ed4", "1.16.0--r40hdfd78af_1": "sha256:de403c25b509823b592f3ef3b673f8a0ed0a6faaaaf831e9fd65ec659288c54b", "1.14.0--r40_0": "sha256:f70278485266dfede0cd679ee50892639ea365da8a196761435004374df56f5e", "1.26.0--r43hdfd78af_0": "sha256:b165a75ee2960e3288945005d5807ec9fd0c7ecbd7fd84a09c7d52588ab4a44f"}, "docker": "quay.io/biocontainers/bioconductor-sights", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sights", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sights", "latest": {"1.28.0--r43hdfd78af_0": "sha256:7bf39acaf0152ccc6ee30b007a85499c0abfb95232fb818b2cde7d36d55ea0d6"}, "tags": {"1.8.1--r351_0": "sha256:3477b59e4287632e487473d0d19ea2e09bd8364340a4c2c38b60307caaf5cefa", "1.24.0--r42hdfd78af_0": "sha256:ea47e6b15eddc8f2a7c14abc58d9dfa6b16ecc9ee2ddf7d93dba3cc4f79abdec", "1.20.0--r41hdfd78af_0": "sha256:af9f04e124b09310a2b0fc037e6b908e2d093814e58eb48dbd0735c2e37c2d05", "1.18.0--r41hdfd78af_0": "sha256:5099145b74cd2e7eb4040eefb6bda019ab5bc4a756df7a45882f41a87bd27ed4", "1.16.0--r40hdfd78af_1": "sha256:de403c25b509823b592f3ef3b673f8a0ed0a6faaaaf831e9fd65ec659288c54b", "1.14.0--r40_0": "sha256:f70278485266dfede0cd679ee50892639ea365da8a196761435004374df56f5e", "1.26.0--r43hdfd78af_0": "sha256:b165a75ee2960e3288945005d5807ec9fd0c7ecbd7fd84a09c7d52588ab4a44f", "1.28.0--r43hdfd78af_0": "sha256:7bf39acaf0152ccc6ee30b007a85499c0abfb95232fb818b2cde7d36d55ea0d6"}, "docker": "quay.io/biocontainers/bioconductor-sights", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sights.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sights
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sights:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sights:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sights/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sights/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sights/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sights/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

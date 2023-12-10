@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-metabinr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metabinr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metabinr/container.yaml"
-updated_at: "2023-12-09 03:39:07.257109"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2023-12-10 03:11:35.047335"
+latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metabinr"
 aliases:
  - "jpackage"
@@ -36,8 +36,9 @@ aliases:
 versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.4.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-metabinr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metabinr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-metabinr", "latest": {"1.2.0--r43hdfd78af_0": "sha256:41427838185fe7dcc2f1f0dfba86b40f4359f718c3dd0d60d0a039576b9ba88e"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:8d9ece7014102c0ec5c1162c30c78d0e03c7f21e30b312b872002db627d6b13c", "1.2.0--r43hdfd78af_0": "sha256:41427838185fe7dcc2f1f0dfba86b40f4359f718c3dd0d60d0a039576b9ba88e"}, "docker": "quay.io/biocontainers/bioconductor-metabinr", "aliases": {"jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metabinr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-metabinr", "latest": {"1.4.0--r43hdfd78af_0": "sha256:e0b197f27206110fbec6af1a5752bcf334e686bf5519b43d49f830fb987d69b8"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:8d9ece7014102c0ec5c1162c30c78d0e03c7f21e30b312b872002db627d6b13c", "1.2.0--r43hdfd78af_0": "sha256:41427838185fe7dcc2f1f0dfba86b40f4359f718c3dd0d60d0a039576b9ba88e", "1.4.0--r43hdfd78af_0": "sha256:e0b197f27206110fbec6af1a5752bcf334e686bf5519b43d49f830fb987d69b8"}, "docker": "quay.io/biocontainers/bioconductor-metabinr", "aliases": {"jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metabinr.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metabinr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metabinr:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-metabinr:1.4.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metabinr/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-metabinr/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-metabinr/1.4.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-metabinr/1.4.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
