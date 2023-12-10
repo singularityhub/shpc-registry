@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-genomicranges
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-genomicranges
 latest:
-  1.52.0--r43ha9d7317_0: sha256:3ba59e5d54dbc9c848b4db7f7bcdc0d089edd7b23f28fe70faf0d982919b3334
+  1.54.1--r43ha9d7317_1: sha256:2652736eefedb22d00d8fe6efd9d4f1df91df781ee28b402e3a80419d034f1ee
 tags:
   1.46.1--r41hc0cfd56_1: sha256:8d8da7fb85a221e37b90faacdc11ae7a8c8c01decc9d0d2c1cb05dbc1583cf08
   1.50.0--r42hc0cfd56_0: sha256:93201e43ecc91803249436d1e67428700e8c280bfc528292653affe3f98f40a5
   1.50.0--r42ha9d7317_1: sha256:dbc61a9e68ea04585ae718771f5f210be296aaf3a55c316ab5354dd51204f58a
   1.52.0--r43ha9d7317_0: sha256:3ba59e5d54dbc9c848b4db7f7bcdc0d089edd7b23f28fe70faf0d982919b3334
+  1.54.1--r43ha9d7317_1: sha256:2652736eefedb22d00d8fe6efd9d4f1df91df781ee28b402e3a80419d034f1ee
 docker: quay.io/biocontainers/bioconductor-genomicranges
