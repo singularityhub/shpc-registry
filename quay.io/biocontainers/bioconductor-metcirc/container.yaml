@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-metcirc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-metcirc
 latest:
-  1.30.0--r43hdfd78af_0: sha256:28e98ddeaf324185eade98ec110a27b136b15aad8f91475deb35b609539cc5aa
+  1.32.0--r43hdfd78af_0: sha256:a267aa8cbf18cc228287c88603fe7369b51086a8984688a8c6376a790adc1f19
 tags:
   1.6.0--r3.4.1_0: sha256:0aa4fd8cca0b775e5a43fe7a6209cdb8d7e1e9aeb69577dc5982a538c8dc6de1
   1.28.0--r42hdfd78af_0: sha256:cf250ebf062eb97e7fcc29f29876394973f3907cb30787da58132b21963376af
@@ -11,6 +11,7 @@ tags:
   1.20.0--r40hdfd78af_1: sha256:77c82a0e826c5f87cb21be467ea13550462fd0f56a41e7024a3ed8fb06050ba4
   1.18.0--r40_0: sha256:a92e95f6da7419197bff46c52de747f6f8daf7fd12a179ad372a07ad90e4911f
   1.30.0--r43hdfd78af_0: sha256:28e98ddeaf324185eade98ec110a27b136b15aad8f91475deb35b609539cc5aa
+  1.32.0--r43hdfd78af_0: sha256:a267aa8cbf18cc228287c88603fe7369b51086a8984688a8c6376a790adc1f19
 docker: quay.io/biocontainers/bioconductor-metcirc
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

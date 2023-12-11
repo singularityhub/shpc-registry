@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-mafdb.1kgenomes.phase3.hs37d5
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mafdb.1kgenomes.phase3.hs37d5
 latest:
-  3.10.0--r43hdfd78af_8: sha256:5a1dc233e3cdde319b40def00557929b41a58b36e2e758660561d16073049abb
+  3.10.0--r43hdfd78af_9: sha256:a0372463493e15fea9b78830d78dec55e86a03b53ff09298b9c4dd7fbcd09fe8
 tags:
   3.7.0--r36_2: sha256:ef6b2d4dc787d5271ab4d23c3f0918152fab930d24166ebb1da2416b9977835c
   3.10.0--r42hdfd78af_7: sha256:d8869771fd0f7f73cae870ea4d041a1268a2c80f1c1eaab7df3bbe1293e662c2
   3.10.0--r43hdfd78af_8: sha256:5a1dc233e3cdde319b40def00557929b41a58b36e2e758660561d16073049abb
+  3.10.0--r43hdfd78af_9: sha256:a0372463493e15fea9b78830d78dec55e86a03b53ff09298b9c4dd7fbcd09fe8
 docker: quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase3.hs37d5
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

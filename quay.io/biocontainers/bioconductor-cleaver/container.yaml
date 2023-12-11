@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cleaver
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cleaver
 latest:
-  1.38.0--r43hdfd78af_0: sha256:1b73a9c1274bdba516611e0e6f0802bff2006378d18f2615f7ee76b2661377b6
+  1.40.0--r43hdfd78af_0: sha256:6081d4128d8685fcc1f7c8bca2336570d2f774b217a641982f56fb01d358129b
 tags:
   1.32.0--r41hdfd78af_0: sha256:a2ed376005cb852aa81404120853d0c0f8c52e336fd6e4dce491ad848451845e
   1.36.0--r42hdfd78af_0: sha256:9755638361e4d12419385699aca979cfb09b9dcb6be197c1f4850748540c75a6
   1.38.0--r43hdfd78af_0: sha256:1b73a9c1274bdba516611e0e6f0802bff2006378d18f2615f7ee76b2661377b6
+  1.40.0--r43hdfd78af_0: sha256:6081d4128d8685fcc1f7c8bca2336570d2f774b217a641982f56fb01d358129b
 docker: quay.io/biocontainers/bioconductor-cleaver

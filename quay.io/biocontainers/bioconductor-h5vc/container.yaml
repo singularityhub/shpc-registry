@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-h5vc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-h5vc
 latest:
-  2.34.0--r43hf17093f_0: sha256:73a19d8a6378aa8abe1d9a360384db46e31e0e61584914df77f1f441c06983f1
+  2.36.0--r43hf17093f_0: sha256:f9a1463bdb013b9aeb4792b4aa8275780699ea070e85f09b79e8d8409342eac7
 tags:
   2.28.0--r41hc247a5b_2: sha256:7d6464937df00f4020ecc81bea94944060f8f022f3396bd0ff524a0ab8e104e6
   2.32.0--r42hc247a5b_0: sha256:d7c8303b533c2f78df617bfc9bf04c6ea83e9146a3e11be65dd88573200b4364
   2.32.0--r42hf17093f_1: sha256:5b661ae5a27866f8ce5300e2ce6cdafa2a5f1eafe0f0bccfc5aed490c33892a0
   2.34.0--r43hf17093f_0: sha256:73a19d8a6378aa8abe1d9a360384db46e31e0e61584914df77f1f441c06983f1
+  2.36.0--r43hf17093f_0: sha256:f9a1463bdb013b9aeb4792b4aa8275780699ea070e85f09b79e8d8409342eac7
 docker: quay.io/biocontainers/bioconductor-h5vc

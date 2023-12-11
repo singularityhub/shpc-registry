@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ctsv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-ctsv
 latest:
-  1.2.0--r43hdfd78af_0: sha256:6524ae968bcc3b8f1b2f2a4bd4437ebdb817d6a237995ccd62f30dc619207c4e
+  1.4.0--r43hdfd78af_0: sha256:b53ca3f6aa2df91fa5158782c8b325c0fc6ab4e93c26b7d35bd7239e0c912590
 tags:
   1.0.0--r42hdfd78af_0: sha256:27e56ddd771c8fa1e9418990f70d1dc33b815eeb31bc355a27cf2bb8a2cf0b5b
   1.2.0--r43hdfd78af_0: sha256:6524ae968bcc3b8f1b2f2a4bd4437ebdb817d6a237995ccd62f30dc619207c4e
+  1.4.0--r43hdfd78af_0: sha256:b53ca3f6aa2df91fa5158782c8b325c0fc6ab4e93c26b7d35bd7239e0c912590
 docker: quay.io/biocontainers/bioconductor-ctsv
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config

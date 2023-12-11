@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-etec16s
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-etec16s
 latest:
-  1.28.0--r43hdfd78af_0: sha256:a5e414ebfbc537cf48520a061071ee366df9e8f67f64642a816b1b0e02adfee5
+  1.30.0--r43hdfd78af_0: sha256:e43de2901b4e54182e979a402d89f9aa2dc36f1ed4d67cffcf88810a2522f761
 tags:
   1.22.0--r41hdfd78af_1: sha256:3f4b9296b86e8eaabb75abe13ba51fbb923f85b6e9287572ed09d6bb9995c2ba
   1.26.0--r42hdfd78af_0: sha256:b1404d02656af56f608d371936002f096fddcbedd5cbbad19bdd19c62d9ca16e
   1.28.0--r43hdfd78af_0: sha256:a5e414ebfbc537cf48520a061071ee366df9e8f67f64642a816b1b0e02adfee5
+  1.30.0--r43hdfd78af_0: sha256:e43de2901b4e54182e979a402d89f9aa2dc36f1ed4d67cffcf88810a2522f761
 docker: quay.io/biocontainers/bioconductor-etec16s

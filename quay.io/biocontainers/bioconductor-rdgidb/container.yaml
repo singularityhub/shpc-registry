@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rdgidb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rdgidb
 latest:
-  1.26.0--r43hdfd78af_0: sha256:50d3efd8ed8a9d7d46402d31e6f37c89d97338d0769cc83884ae2ce73654ebdf
+  1.28.0--r43hdfd78af_0: sha256:b9d73352113e6205373c5d211b0d95afbd44392b735059bcccd49a04dcef75ca
 tags:
   1.8.0--r351_0: sha256:03d4a258693bb5a22c87be151e96c7f872e168f5f1bec93f29bc80ab439ea056
   1.24.0--r42hdfd78af_0: sha256:a7645123876dfb1cd987bfe196e6d861b7ba3cf65011ee702143923984750ab3
@@ -11,6 +11,7 @@ tags:
   1.16.0--r40hdfd78af_1: sha256:4dcbfa7cf01d7e4c86c9b3d9415a89596412c85148c97d91b8e77a18c094625a
   1.14.0--r40_0: sha256:2eedba1f3df26532034236d2d717801ba324650b02d32b998bf96d208af1fe18
   1.26.0--r43hdfd78af_0: sha256:50d3efd8ed8a9d7d46402d31e6f37c89d97338d0769cc83884ae2ce73654ebdf
+  1.28.0--r43hdfd78af_0: sha256:b9d73352113e6205373c5d211b0d95afbd44392b735059bcccd49a04dcef75ca
 docker: quay.io/biocontainers/bioconductor-rdgidb
 aliases:
   c89: /usr/local/bin/c89

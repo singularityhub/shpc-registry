@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-tanggle
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tanggle
 latest:
-  1.6.0--r43hdfd78af_0: sha256:325fb48f64c90e20346c05aa7604c2825dd141e471bc956e513e13e377af99fc
+  1.8.0--r43hdfd78af_0: sha256:4a917e331bb622878f0a150ccace080f368be6a825811935825792381dc7e46c
 tags:
   1.0.0--r41hdfd78af_0: sha256:c516412090ae64961f14d3387adb1e0e5666b65aea790709a3e6ebf3e7f24950
   1.4.0--r42hdfd78af_0: sha256:96a4bdaf5178b69aeb23d293f437fad47cc0572321012106b9763fcb3345ace6
   1.6.0--r43hdfd78af_0: sha256:325fb48f64c90e20346c05aa7604c2825dd141e471bc956e513e13e377af99fc
+  1.8.0--r43hdfd78af_0: sha256:4a917e331bb622878f0a150ccace080f368be6a825811935825792381dc7e46c
 docker: quay.io/biocontainers/bioconductor-tanggle

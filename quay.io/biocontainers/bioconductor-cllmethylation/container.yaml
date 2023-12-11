@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-cllmethylation
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cllmethylation
 latest:
-  1.20.0--r43hdfd78af_0: sha256:51518721f5d96ed817c70083ebc0c5b1c0f8d8d600186b0f4527070d35665446
+  1.22.0--r43hdfd78af_0: sha256:06fa4c6368d173b684f3f6247046868fab9e2a92067b03725446141fe6fcff80
 tags:
   1.8.0--r40_0: sha256:46bd2a01d2ebe2ccefecf50adf4d5ef1788ac3da5d2205b21519fe4aca2e21dc
   1.18.0--r42hdfd78af_0: sha256:caf986f8d1a34167242f144a8e1e0073b4a79938b550c0a39ed5850c88772606
@@ -10,6 +10,7 @@ tags:
   1.12.0--r41hdfd78af_0: sha256:621d3759086c6142ab8def0140fb8a2bc469565e98782f1b1ee21e3c86ecb044
   1.10.0--r40hdfd78af_1: sha256:f524be9150599a3aec9daef96e92dd1a367f351ceab8cba18a6f7f522093841e
   1.20.0--r43hdfd78af_0: sha256:51518721f5d96ed817c70083ebc0c5b1c0f8d8d600186b0f4527070d35665446
+  1.22.0--r43hdfd78af_0: sha256:06fa4c6368d173b684f3f6247046868fab9e2a92067b03725446141fe6fcff80
 docker: quay.io/biocontainers/bioconductor-cllmethylation
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

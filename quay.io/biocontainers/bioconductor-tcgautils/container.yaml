@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-tcgautils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tcgautils
 latest:
-  1.20.2--r43hdfd78af_0: sha256:4a4b75382417f52ed8a68339bbc980b7c65351ca5a3222915f96d9aa5debe017
+  1.22.0--r43hdfd78af_0: sha256:adbfd2ca6edba9bf93fbf30498422c6a361755927335d2e90ad74e1de118628c
 tags:
   1.8.0--r40_0: sha256:48551f4b89e2d35c651f2e8e64756d82828dd26e060d74ba77beecddef9c84b3
   1.18.0--r42hdfd78af_0: sha256:77cf15fb28b769e5fbc8ff9aa83b363312a1df55d89e53e389ffc3b96e26c669
@@ -10,6 +10,7 @@ tags:
   1.12.0--r41hdfd78af_0: sha256:4795de1c9ac7901703b64c73940dab9e18f3464ec43f852cf3667655524268bf
   1.10.0--r40hdfd78af_1: sha256:de7baf706db33f71166f1e8a3f5c4b02ba2241d48fe983de586d55aaedba6ef3
   1.20.2--r43hdfd78af_0: sha256:4a4b75382417f52ed8a68339bbc980b7c65351ca5a3222915f96d9aa5debe017
+  1.22.0--r43hdfd78af_0: sha256:adbfd2ca6edba9bf93fbf30498422c6a361755927335d2e90ad74e1de118628c
 docker: quay.io/biocontainers/bioconductor-tcgautils
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

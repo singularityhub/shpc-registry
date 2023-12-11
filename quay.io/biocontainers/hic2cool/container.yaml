@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/hic2cool
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hic2cool
 latest:
-  0.8.3--pyh864c0ab_2: sha256:33e7f94049aad07b8d1633ef02a67475cdc95834cb732be9806e9f1ce733c45e
+  1.0.1--pyh7cba7a3_0: sha256:db86e0f09f467da61d6063aca0b6569f5d15d488c5705db09bd07b17f7317c56
 tags:
   0.8.3--pyh864c0ab_2: sha256:33e7f94049aad07b8d1633ef02a67475cdc95834cb732be9806e9f1ce733c45e
+  1.0.1--pyh7cba7a3_0: sha256:db86e0f09f467da61d6063aca0b6569f5d15d488c5705db09bd07b17f7317c56
 docker: quay.io/biocontainers/hic2cool
 aliases:
   hic2cool: /usr/local/bin/hic2cool

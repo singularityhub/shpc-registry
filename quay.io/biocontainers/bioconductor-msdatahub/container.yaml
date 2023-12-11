@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-msdatahub
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-msdatahub
 latest:
-  1.0.0--r43hdfd78af_0: sha256:57d6eb80169046713371d070955f3be35ac8cc03f2468c91aa5f61a8bb112414
+  1.2.0--r43hdfd78af_0: sha256:7cd95e8a0edb3d6c8fc9fb827500bc40531ed81fd50166a4170ba919d1f553f2
 tags:
   1.0.0--r43hdfd78af_0: sha256:57d6eb80169046713371d070955f3be35ac8cc03f2468c91aa5f61a8bb112414
+  1.2.0--r43hdfd78af_0: sha256:7cd95e8a0edb3d6c8fc9fb827500bc40531ed81fd50166a4170ba919d1f553f2
 docker: quay.io/biocontainers/bioconductor-msdatahub
 aliases:
   hb-info: /usr/local/bin/hb-info

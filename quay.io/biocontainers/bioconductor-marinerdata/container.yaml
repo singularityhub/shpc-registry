@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-marinerdata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-marinerdata
 latest:
-  1.0.0--r43hdfd78af_0: sha256:7e3870b4cf9c3739fead024d9d37cdc5b87453b9406c2442b753eedfc011f568
+  1.2.0--r43hdfd78af_0: sha256:5bd901096b56b09c4a9bc0d7430221f9baecaf366693305423a402d2c89267f1
 tags:
   1.0.0--r43hdfd78af_0: sha256:7e3870b4cf9c3739fead024d9d37cdc5b87453b9406c2442b753eedfc011f568
+  1.2.0--r43hdfd78af_0: sha256:5bd901096b56b09c4a9bc0d7430221f9baecaf366693305423a402d2c89267f1
 docker: quay.io/biocontainers/bioconductor-marinerdata
 aliases:
   hb-info: /usr/local/bin/hb-info
