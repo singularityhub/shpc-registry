@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-geomap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-geomap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-geomap/container.yaml"
-updated_at: "2023-12-10 03:07:37.425359"
+updated_at: "2023-12-11 03:06:41.400882"
 latest: "2.3_8--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-geomap"
 aliases:

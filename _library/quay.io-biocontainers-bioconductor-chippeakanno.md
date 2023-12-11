@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chippeakanno"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chippeakanno/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chippeakanno/container.yaml"
-updated_at: "2023-12-10 03:02:44.203849"
+updated_at: "2023-12-11 03:01:48.428039"
 latest: "3.34.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chippeakanno"
 

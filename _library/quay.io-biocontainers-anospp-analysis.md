@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/anospp-analysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anospp-analysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anospp-analysis/container.yaml"
-updated_at: "2023-12-10 02:45:46.551024"
+updated_at: "2023-12-11 02:45:00.031128"
 latest: "0.2.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/anospp-analysis"
 aliases:

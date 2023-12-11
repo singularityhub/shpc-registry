@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-medme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-medme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-medme/container.yaml"
-updated_at: "2023-12-10 03:05:25.337386"
-latest: "1.60.0--r43ha9d7317_0"
+updated_at: "2023-12-11 03:04:29.761431"
+latest: "1.62.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-medme"
 aliases:
  - "f2py3.10"
@@ -20,8 +20,9 @@ versions:
  - "1.58.0--r42hc0cfd56_0"
  - "1.58.0--r42ha9d7317_1"
  - "1.60.0--r43ha9d7317_0"
+ - "1.62.0--r43ha9d7317_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-medme"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-medme", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-medme", "latest": {"1.60.0--r43ha9d7317_0": "sha256:54c86bb23bec730232ee86df77fba7ae6f750b008fb1349fcd4ff453b25e37e7"}, "tags": {"1.54.0--r41hc0cfd56_2": "sha256:06a752639d0d2d9a05b37a6c10e6b94eb0085b471249ca5b59db080004c37305", "1.58.0--r42hc0cfd56_0": "sha256:f23148d067bf90ac3c06e7eada9f5cfe05f999be7e2ad8bee9cde8ef1db428d2", "1.58.0--r42ha9d7317_1": "sha256:f0724b282eef63035a58490a1c49c119b5d8324b6c905c82cb87c6bf5d104f70", "1.60.0--r43ha9d7317_0": "sha256:54c86bb23bec730232ee86df77fba7ae6f750b008fb1349fcd4ff453b25e37e7"}, "docker": "quay.io/biocontainers/bioconductor-medme", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-medme", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-medme", "latest": {"1.62.0--r43ha9d7317_0": "sha256:ca52753751dad057ca542c8e4219a1d240ef06590fb5977aa6f8961848ab4c2a"}, "tags": {"1.54.0--r41hc0cfd56_2": "sha256:06a752639d0d2d9a05b37a6c10e6b94eb0085b471249ca5b59db080004c37305", "1.58.0--r42hc0cfd56_0": "sha256:f23148d067bf90ac3c06e7eada9f5cfe05f999be7e2ad8bee9cde8ef1db428d2", "1.58.0--r42ha9d7317_1": "sha256:f0724b282eef63035a58490a1c49c119b5d8324b6c905c82cb87c6bf5d104f70", "1.60.0--r43ha9d7317_0": "sha256:54c86bb23bec730232ee86df77fba7ae6f750b008fb1349fcd4ff453b25e37e7", "1.62.0--r43ha9d7317_0": "sha256:ca52753751dad057ca542c8e4219a1d240ef06590fb5977aa6f8961848ab4c2a"}, "docker": "quay.io/biocontainers/bioconductor-medme", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-medme.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-medme
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-medme:1.60.0--r43ha9d7317_0
+$ shpc install quay.io/biocontainers/bioconductor-medme:1.62.0--r43ha9d7317_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-medme/1.60.0--r43ha9d7317_0
-$ module help quay.io/biocontainers/bioconductor-medme/1.60.0--r43ha9d7317_0
+$ module load quay.io/biocontainers/bioconductor-medme/1.62.0--r43ha9d7317_0
+$ module help quay.io/biocontainers/bioconductor-medme/1.62.0--r43ha9d7317_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

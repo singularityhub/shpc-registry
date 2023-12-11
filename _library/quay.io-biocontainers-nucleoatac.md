@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nucleoatac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nucleoatac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nucleoatac/container.yaml"
-updated_at: "2023-12-10 03:12:06.112473"
+updated_at: "2023-12-11 03:11:08.803270"
 latest: "0.3.4--py27h984c793_7"
 container_url: "https://biocontainers.pro/tools/nucleoatac"
 aliases:

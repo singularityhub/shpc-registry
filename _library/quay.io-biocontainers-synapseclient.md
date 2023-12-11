@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/synapseclient"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/synapseclient/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/synapseclient/container.yaml"
-updated_at: "2023-12-10 02:32:42.410469"
-latest: "3.1.1--pyhdfd78af_0"
+updated_at: "2023-12-11 02:32:04.931698"
+latest: "3.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/synapseclient"
 aliases:
  - "keyring"
@@ -26,8 +26,9 @@ versions:
  - "2.7.2--pyh7cba7a3_0"
  - "3.0.0--pyhdfd78af_0"
  - "3.1.1--pyhdfd78af_0"
+ - "3.2.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for synapseclient"
-config: {"url": "https://biocontainers.pro/tools/synapseclient", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for synapseclient", "latest": {"3.1.1--pyhdfd78af_0": "sha256:b7a4f9609d293f71ae6f94d3d87ba6b48487f53f3a018402fd1d19724e371fd5"}, "tags": {"2.7.0--pyh7cba7a3_0": "sha256:c50226759523160f06f15d49f1f0bc65ccb33328afce86b9a9cf9ff36aa08084", "2.7.1--pyh7cba7a3_0": "sha256:61a428da1828832f176115f29ec47a037c242080461fb7f56d2ca55f25d3d653", "2.7.2--pyh7cba7a3_0": "sha256:393a8f76ba483f1e8a9db63bc331c6cdd4fd08d2075f36560c07fd363541c0ec", "3.0.0--pyhdfd78af_0": "sha256:ab75af610226ffec1953ce401f18b4f24abed7c25bb1d3444650247741fd37e3", "3.1.1--pyhdfd78af_0": "sha256:b7a4f9609d293f71ae6f94d3d87ba6b48487f53f3a018402fd1d19724e371fd5"}, "docker": "quay.io/biocontainers/synapseclient", "aliases": {"keyring": "/usr/local/bin/keyring", "synapse": "/usr/local/bin/synapse", "normalizer": "/usr/local/bin/normalizer", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool"}}
+config: {"url": "https://biocontainers.pro/tools/synapseclient", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for synapseclient", "latest": {"3.2.0--pyhdfd78af_0": "sha256:e365c9b8ef263668bef69a04fe15c0d1f8b4fd00565b24023c4a1b4f78f7adb8"}, "tags": {"2.7.0--pyh7cba7a3_0": "sha256:c50226759523160f06f15d49f1f0bc65ccb33328afce86b9a9cf9ff36aa08084", "2.7.1--pyh7cba7a3_0": "sha256:61a428da1828832f176115f29ec47a037c242080461fb7f56d2ca55f25d3d653", "2.7.2--pyh7cba7a3_0": "sha256:393a8f76ba483f1e8a9db63bc331c6cdd4fd08d2075f36560c07fd363541c0ec", "3.0.0--pyhdfd78af_0": "sha256:ab75af610226ffec1953ce401f18b4f24abed7c25bb1d3444650247741fd37e3", "3.1.1--pyhdfd78af_0": "sha256:b7a4f9609d293f71ae6f94d3d87ba6b48487f53f3a018402fd1d19724e371fd5", "3.2.0--pyhdfd78af_0": "sha256:e365c9b8ef263668bef69a04fe15c0d1f8b4fd00565b24023c4a1b4f78f7adb8"}, "docker": "quay.io/biocontainers/synapseclient", "aliases": {"keyring": "/usr/local/bin/keyring", "synapse": "/usr/local/bin/synapse", "normalizer": "/usr/local/bin/normalizer", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/synapseclient.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/synapseclient
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/synapseclient:3.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/synapseclient:3.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/synapseclient/3.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/synapseclient/3.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/synapseclient/3.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/synapseclient/3.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

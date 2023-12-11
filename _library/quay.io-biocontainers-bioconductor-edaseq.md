@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-edaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-edaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-edaseq/container.yaml"
-updated_at: "2023-12-10 02:30:27.688762"
-latest: "2.34.0--r43hdfd78af_0"
+updated_at: "2023-12-11 02:29:51.761910"
+latest: "2.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-edaseq"
 aliases:
  - "bmp2tiff"
@@ -25,8 +25,9 @@ versions:
  - "2.24.0--r40hdfd78af_1"
  - "2.22.0--r40_0"
  - "2.34.0--r43hdfd78af_0"
+ - "2.36.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-edaseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-edaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-edaseq", "latest": {"2.34.0--r43hdfd78af_0": "sha256:e6b6cdc398d9893a8236d5f9a722be8153e69ad7f71a2b53eaa7d4ae0cc74d00"}, "tags": {"2.8.0--r3.4.1_0": "sha256:1f12d27572ba0ee2852930224e8029d8da9e97afd4f79bc034bda7d55fc47594", "2.32.0--r42hdfd78af_0": "sha256:5a139ce7017e0ed880bafc07c1f9807207e571106c9294928115c24e50f882d1", "2.28.0--r41hdfd78af_0": "sha256:aa670b48293bdd1f29883c925b76f7a74fc84e0d161ee21ccf568a36c44469fc", "2.26.0--r41hdfd78af_0": "sha256:1685bc33d5a74f9fecb0d77ff6839824d1a28a44b682cfe33b646a21af2d3753", "2.24.0--r40hdfd78af_1": "sha256:fa95e7f8ff9b1457b62d5727a3a04ea097c28927f137ea85a08b6b356f864f54", "2.22.0--r40_0": "sha256:5c7c52f187b847d3c75f46793568beccd15ac00d1c06c191988c5e989a97771c", "2.34.0--r43hdfd78af_0": "sha256:e6b6cdc398d9893a8236d5f9a722be8153e69ad7f71a2b53eaa7d4ae0cc74d00"}, "docker": "quay.io/biocontainers/bioconductor-edaseq", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-edaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-edaseq", "latest": {"2.36.0--r43hdfd78af_0": "sha256:06fcaca929145704291fe85d3822f91d67ad8070f464cc456d0b27d097867d39"}, "tags": {"2.8.0--r3.4.1_0": "sha256:1f12d27572ba0ee2852930224e8029d8da9e97afd4f79bc034bda7d55fc47594", "2.32.0--r42hdfd78af_0": "sha256:5a139ce7017e0ed880bafc07c1f9807207e571106c9294928115c24e50f882d1", "2.28.0--r41hdfd78af_0": "sha256:aa670b48293bdd1f29883c925b76f7a74fc84e0d161ee21ccf568a36c44469fc", "2.26.0--r41hdfd78af_0": "sha256:1685bc33d5a74f9fecb0d77ff6839824d1a28a44b682cfe33b646a21af2d3753", "2.24.0--r40hdfd78af_1": "sha256:fa95e7f8ff9b1457b62d5727a3a04ea097c28927f137ea85a08b6b356f864f54", "2.22.0--r40_0": "sha256:5c7c52f187b847d3c75f46793568beccd15ac00d1c06c191988c5e989a97771c", "2.34.0--r43hdfd78af_0": "sha256:e6b6cdc398d9893a8236d5f9a722be8153e69ad7f71a2b53eaa7d4ae0cc74d00", "2.36.0--r43hdfd78af_0": "sha256:06fcaca929145704291fe85d3822f91d67ad8070f464cc456d0b27d097867d39"}, "docker": "quay.io/biocontainers/bioconductor-edaseq", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-edaseq.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioconductor-edaseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-edaseq:2.34.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-edaseq:2.36.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-edaseq/2.34.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-edaseq/2.34.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-edaseq/2.36.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-edaseq/2.36.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

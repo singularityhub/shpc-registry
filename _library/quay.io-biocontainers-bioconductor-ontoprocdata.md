@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ontoprocdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ontoprocdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ontoprocdata/container.yaml"
-updated_at: "2023-12-10 03:02:16.686665"
-latest: "0.99.9901--r43hdfd78af_1"
+updated_at: "2023-12-11 03:01:20.867043"
+latest: "0.99.9901--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-ontoprocdata"
 
 versions:
  - "0.99.9--r41hdfd78af_1"
  - "0.99.9901--r42hdfd78af_0"
  - "0.99.9901--r43hdfd78af_1"
+ - "0.99.9901--r43hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-ontoprocdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ontoprocdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ontoprocdata", "latest": {"0.99.9901--r43hdfd78af_1": "sha256:974d5cedf59f0674211f20f11bde504020315026d89e74fb824c139a57ebdcb3"}, "tags": {"0.99.9--r41hdfd78af_1": "sha256:513546f1630c241e5d72aaa52f7d4189432c03567ba2140d69cd794201592b40", "0.99.9901--r42hdfd78af_0": "sha256:6b3acaf4539eca4b0ea6bc56f6871be3e7e11aecc539f235ed7845a3b44ce285", "0.99.9901--r43hdfd78af_1": "sha256:974d5cedf59f0674211f20f11bde504020315026d89e74fb824c139a57ebdcb3"}, "docker": "quay.io/biocontainers/bioconductor-ontoprocdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ontoprocdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ontoprocdata", "latest": {"0.99.9901--r43hdfd78af_2": "sha256:e94caf7d595cf250843194fba6a1c480b9ebcbf8af3992e6315b79d6b54bc05b"}, "tags": {"0.99.9--r41hdfd78af_1": "sha256:513546f1630c241e5d72aaa52f7d4189432c03567ba2140d69cd794201592b40", "0.99.9901--r42hdfd78af_0": "sha256:6b3acaf4539eca4b0ea6bc56f6871be3e7e11aecc539f235ed7845a3b44ce285", "0.99.9901--r43hdfd78af_1": "sha256:974d5cedf59f0674211f20f11bde504020315026d89e74fb824c139a57ebdcb3", "0.99.9901--r43hdfd78af_2": "sha256:e94caf7d595cf250843194fba6a1c480b9ebcbf8af3992e6315b79d6b54bc05b"}, "docker": "quay.io/biocontainers/bioconductor-ontoprocdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ontoprocdata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ontoprocdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ontoprocdata:0.99.9901--r43hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-ontoprocdata:0.99.9901--r43hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ontoprocdata/0.99.9901--r43hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-ontoprocdata/0.99.9901--r43hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-ontoprocdata/0.99.9901--r43hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-ontoprocdata/0.99.9901--r43hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

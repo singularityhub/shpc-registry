@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-rcollectl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcollectl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcollectl/container.yaml"
-updated_at: "2023-12-10 02:59:25.115531"
-latest: "1.0.1--r43hdfd78af_0"
+updated_at: "2023-12-11 02:58:30.230306"
+latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcollectl"
 aliases:
  - "hb-info"
  - "tjbench"
 versions:
  - "1.0.1--r43hdfd78af_0"
+ - "1.2.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-rcollectl"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rcollectl", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rcollectl", "latest": {"1.0.1--r43hdfd78af_0": "sha256:a92d6d29922098c2ad97056c3330844966da4f69c7442836c63c8f200cf26f98"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:a92d6d29922098c2ad97056c3330844966da4f69c7442836c63c8f200cf26f98"}, "docker": "quay.io/biocontainers/bioconductor-rcollectl", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rcollectl", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rcollectl", "latest": {"1.2.0--r43hdfd78af_0": "sha256:d14449bbc17df84ff305b7022ad4b05d79b0d8e02d7001a3fde6e8973182bb24"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:a92d6d29922098c2ad97056c3330844966da4f69c7442836c63c8f200cf26f98", "1.2.0--r43hdfd78af_0": "sha256:d14449bbc17df84ff305b7022ad4b05d79b0d8e02d7001a3fde6e8973182bb24"}, "docker": "quay.io/biocontainers/bioconductor-rcollectl", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rcollectl.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rcollectl
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rcollectl:1.0.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rcollectl:1.2.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rcollectl/1.0.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rcollectl/1.0.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rcollectl/1.2.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rcollectl/1.2.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

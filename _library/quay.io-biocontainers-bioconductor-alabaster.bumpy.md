@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-alabaster.bumpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alabaster.bumpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alabaster.bumpy/container.yaml"
-updated_at: "2023-12-10 02:54:39.862002"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2023-12-11 02:53:45.550689"
+latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alabaster.bumpy"
 aliases:
  - "hb-info"
  - "tjbench"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.2.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-alabaster.bumpy"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-alabaster.bumpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-alabaster.bumpy", "latest": {"1.0.0--r43hdfd78af_0": "sha256:201b37b8aa245d114e8a2adf1b673dcf4413a2e4e0de436a55647a396aef5e39"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:201b37b8aa245d114e8a2adf1b673dcf4413a2e4e0de436a55647a396aef5e39"}, "docker": "quay.io/biocontainers/bioconductor-alabaster.bumpy", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-alabaster.bumpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-alabaster.bumpy", "latest": {"1.2.0--r43hdfd78af_0": "sha256:ce34298dc32172ea33efad07a2b627380f6cf68ff9ec3f406cda28732427b19b"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:201b37b8aa245d114e8a2adf1b673dcf4413a2e4e0de436a55647a396aef5e39", "1.2.0--r43hdfd78af_0": "sha256:ce34298dc32172ea33efad07a2b627380f6cf68ff9ec3f406cda28732427b19b"}, "docker": "quay.io/biocontainers/bioconductor-alabaster.bumpy", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-alabaster.bumpy.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-alabaster.bumpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-alabaster.bumpy:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-alabaster.bumpy:1.2.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-alabaster.bumpy/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-alabaster.bumpy/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-alabaster.bumpy/1.2.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-alabaster.bumpy/1.2.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

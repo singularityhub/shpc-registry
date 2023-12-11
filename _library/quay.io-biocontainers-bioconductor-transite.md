@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-transite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-transite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-transite/container.yaml"
-updated_at: "2023-12-10 03:00:16.421751"
-latest: "1.18.0--r43hf17093f_0"
+updated_at: "2023-12-11 02:59:21.197214"
+latest: "1.20.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-transite"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "1.10.0--r41h399db7b_0"
  - "1.16.0--r42hf17093f_1"
  - "1.18.0--r43hf17093f_0"
+ - "1.20.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-transite"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-transite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-transite", "latest": {"1.18.0--r43hf17093f_0": "sha256:eb646d394db643c43b77033b87ef628d706294eb88878d038dac8fa36caab939"}, "tags": {"1.8.0--r40h399db7b_2": "sha256:fc0a18d0b5dadf003485c93a1e49da747e2b71d8e5b2d050e7bd5f25e2b96939", "1.16.0--r42hc247a5b_0": "sha256:a3d0f0f7d87e898862d0fc977b6935246bc5160630aff4976feb20cb0578ad40", "1.12.1--r41hc247a5b_1": "sha256:aefb9e47789a2b5f76de0257bdf9777c6998592d9ff9fb9f3eabe7ca328343ec", "1.10.0--r41h399db7b_0": "sha256:fec9f864e0056eb06f2a1e917e3a56df1c59830504db514405a829373f4243b9", "1.16.0--r42hf17093f_1": "sha256:ac9dceb3452dc1abae26afd30f2c2bbe5e2625ff3e3fa9cdd5e5cf555519de1a", "1.18.0--r43hf17093f_0": "sha256:eb646d394db643c43b77033b87ef628d706294eb88878d038dac8fa36caab939"}, "docker": "quay.io/biocontainers/bioconductor-transite", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-transite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-transite", "latest": {"1.20.0--r43hf17093f_0": "sha256:7236ff9da3185d1b71318e90ccc55e3e37a456da8133216c1f7a41ee917927c8"}, "tags": {"1.8.0--r40h399db7b_2": "sha256:fc0a18d0b5dadf003485c93a1e49da747e2b71d8e5b2d050e7bd5f25e2b96939", "1.16.0--r42hc247a5b_0": "sha256:a3d0f0f7d87e898862d0fc977b6935246bc5160630aff4976feb20cb0578ad40", "1.12.1--r41hc247a5b_1": "sha256:aefb9e47789a2b5f76de0257bdf9777c6998592d9ff9fb9f3eabe7ca328343ec", "1.10.0--r41h399db7b_0": "sha256:fec9f864e0056eb06f2a1e917e3a56df1c59830504db514405a829373f4243b9", "1.16.0--r42hf17093f_1": "sha256:ac9dceb3452dc1abae26afd30f2c2bbe5e2625ff3e3fa9cdd5e5cf555519de1a", "1.18.0--r43hf17093f_0": "sha256:eb646d394db643c43b77033b87ef628d706294eb88878d038dac8fa36caab939", "1.20.0--r43hf17093f_0": "sha256:7236ff9da3185d1b71318e90ccc55e3e37a456da8133216c1f7a41ee917927c8"}, "docker": "quay.io/biocontainers/bioconductor-transite", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-transite.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-transite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-transite:1.18.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-transite:1.20.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-transite/1.18.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-transite/1.18.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-transite/1.20.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-transite/1.20.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

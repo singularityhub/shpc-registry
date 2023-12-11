@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-guideseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-guideseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-guideseq/container.yaml"
-updated_at: "2023-12-10 02:51:23.356509"
+updated_at: "2023-12-11 02:50:31.498303"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-guideseq"
 aliases:

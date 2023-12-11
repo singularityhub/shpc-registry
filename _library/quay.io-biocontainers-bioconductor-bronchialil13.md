@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-bronchialil13"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bronchialil13/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bronchialil13/container.yaml"
-updated_at: "2023-12-10 03:08:41.750386"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2023-12-11 03:07:45.580242"
+latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bronchialil13"
 
 versions:
  - "1.32.0--r41hdfd78af_1"
  - "1.36.0--r42hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.40.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bronchialil13"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bronchialil13", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bronchialil13", "latest": {"1.38.0--r43hdfd78af_0": "sha256:3e5f77628518da7bcd220997fa54df1177c996ea0fc2572691c87a0d0ccfce4c"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:aa28300dbc398dde2bef8283de9bf88856eccad1bda88bab934ba853c316e81a", "1.36.0--r42hdfd78af_0": "sha256:52b5891e18d1f69308f1aa841e5c4a50193609a0af5c837c23d3b451e69aacd4", "1.38.0--r43hdfd78af_0": "sha256:3e5f77628518da7bcd220997fa54df1177c996ea0fc2572691c87a0d0ccfce4c"}, "docker": "quay.io/biocontainers/bioconductor-bronchialil13"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bronchialil13", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bronchialil13", "latest": {"1.40.0--r43hdfd78af_0": "sha256:85f7b8207c74d2dd60f59e3bb0d2116b9fc6dc736a1cca2c037b7010e5f1a530"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:aa28300dbc398dde2bef8283de9bf88856eccad1bda88bab934ba853c316e81a", "1.36.0--r42hdfd78af_0": "sha256:52b5891e18d1f69308f1aa841e5c4a50193609a0af5c837c23d3b451e69aacd4", "1.38.0--r43hdfd78af_0": "sha256:3e5f77628518da7bcd220997fa54df1177c996ea0fc2572691c87a0d0ccfce4c", "1.40.0--r43hdfd78af_0": "sha256:85f7b8207c74d2dd60f59e3bb0d2116b9fc6dc736a1cca2c037b7010e5f1a530"}, "docker": "quay.io/biocontainers/bioconductor-bronchialil13"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bronchialil13.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bronchialil13
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bronchialil13:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-bronchialil13:1.40.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bronchialil13/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-bronchialil13/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-bronchialil13/1.40.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bronchialil13/1.40.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

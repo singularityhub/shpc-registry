@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-gsgalgor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsgalgor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsgalgor/container.yaml"
-updated_at: "2023-12-10 03:10:02.319257"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2023-12-11 03:09:05.443900"
+latest: "1.12.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsgalgor"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.12.0--r43hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-gsgalgor"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gsgalgor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gsgalgor", "latest": {"1.10.0--r43hdfd78af_0": "sha256:3f8336d336d9be559f07846ef2cf346dce395d8e48941de3644f3f2190f6deba"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:e6607565cf328cb3501616df3c7b2065dd3ab4cb65c0aef41c7854262eaa515a", "1.8.0--r42hdfd78af_0": "sha256:35aeb1e32f03235a8242c8fdafe8ff42961027e640ac74263baf6fd9a3305c6c", "1.10.0--r43hdfd78af_0": "sha256:3f8336d336d9be559f07846ef2cf346dce395d8e48941de3644f3f2190f6deba"}, "docker": "quay.io/biocontainers/bioconductor-gsgalgor"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gsgalgor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gsgalgor", "latest": {"1.12.0--r43hdfd78af_1": "sha256:28ca70a14dbcff9b9cdecda8e0641925d8a99a5e6a81418bb63e23fce585fe23"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:e6607565cf328cb3501616df3c7b2065dd3ab4cb65c0aef41c7854262eaa515a", "1.8.0--r42hdfd78af_0": "sha256:35aeb1e32f03235a8242c8fdafe8ff42961027e640ac74263baf6fd9a3305c6c", "1.10.0--r43hdfd78af_0": "sha256:3f8336d336d9be559f07846ef2cf346dce395d8e48941de3644f3f2190f6deba", "1.12.0--r43hdfd78af_1": "sha256:28ca70a14dbcff9b9cdecda8e0641925d8a99a5e6a81418bb63e23fce585fe23"}, "docker": "quay.io/biocontainers/bioconductor-gsgalgor"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gsgalgor.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gsgalgor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gsgalgor:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gsgalgor:1.12.0--r43hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gsgalgor/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gsgalgor/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gsgalgor/1.12.0--r43hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-gsgalgor/1.12.0--r43hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

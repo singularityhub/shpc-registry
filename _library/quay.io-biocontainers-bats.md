@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bats/container.yaml"
-updated_at: "2023-12-10 03:14:10.638772"
+updated_at: "2023-12-11 03:13:11.660844"
 latest: "0.4.0--1"
 container_url: "https://biocontainers.pro/tools/bats"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sconify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sconify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sconify/container.yaml"
-updated_at: "2023-12-10 03:09:33.628728"
+updated_at: "2023-12-11 03:08:37.015081"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sconify"
 aliases:
