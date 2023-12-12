@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-planttfhunter
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-planttfhunter
 latest:
-  1.0.0--r43hdfd78af_0: sha256:d2a1ba3b688c35f7225adf9224132ecbb058f8746bbd7c6f988c8d80b31b0104
+  1.2.0--r43hdfd78af_0: sha256:7d20e675f59bdfaef39de81941ae95d587fc1a2e3d986b4374c06f9d4e653ffa
 tags:
   1.0.0--r43hdfd78af_0: sha256:d2a1ba3b688c35f7225adf9224132ecbb058f8746bbd7c6f988c8d80b31b0104
+  1.2.0--r43hdfd78af_0: sha256:7d20e675f59bdfaef39de81941ae95d587fc1a2e3d986b4374c06f9d4e653ffa
 docker: quay.io/biocontainers/bioconductor-planttfhunter
 aliases:
   hb-info: /usr/local/bin/hb-info

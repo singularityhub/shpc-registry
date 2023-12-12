@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-grmetrics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-grmetrics
 latest:
-  1.26.0--r43hdfd78af_0: sha256:257480d4e1a68ca9a73b36b00909638d5649e48826fe6d2e3720a6013ba70265
+  1.28.0--r43hdfd78af_0: sha256:e2dc0b17e54b40b31011fbaf4687ceb21973bf9fbf9ece8a9cb87f9cd3d05a4c
 tags:
   1.8.1--r351_0: sha256:cc3a1adc91533e9331e4d39c01cbb6c44316393c645bf49e40e87b8c54c87254
   1.24.0--r42hdfd78af_0: sha256:025a479d92f071072bfdc820b6d441c44e6df8cd5641e1be83acdba91e5cbe1a
@@ -11,6 +11,7 @@ tags:
   1.16.0--r40hdfd78af_1: sha256:22c26f286a334c0f4228677b4f00d870c034e470462c6d94e3613062c34cd0a2
   1.14.0--r40_0: sha256:efa1ea4ce169912d054b021e05a4af4a8d88e03728ddcb538ccc5c9e88d20dc9
   1.26.0--r43hdfd78af_0: sha256:257480d4e1a68ca9a73b36b00909638d5649e48826fe6d2e3720a6013ba70265
+  1.28.0--r43hdfd78af_0: sha256:e2dc0b17e54b40b31011fbaf4687ceb21973bf9fbf9ece8a9cb87f9cd3d05a4c
 docker: quay.io/biocontainers/bioconductor-grmetrics
 aliases:
   idn2: /usr/local/bin/idn2

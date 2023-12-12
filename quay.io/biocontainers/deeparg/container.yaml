@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/deeparg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for deeparg
 latest:
-  1.0.2--pyhdfd78af_1: sha256:e832b2c8217b058b9fba5bd61be0c87f03721464bfb7bc7025ed100414b974bf
+  1.0.4--pyhdfd78af_0: sha256:aec6284e99b2568a709ac120d81d65381176687cf834f01cf05fe686314ead03
 tags:
   1.0.2--pyhdfd78af_1: sha256:e832b2c8217b058b9fba5bd61be0c87f03721464bfb7bc7025ed100414b974bf
+  1.0.4--pyhdfd78af_0: sha256:aec6284e99b2568a709ac120d81d65381176687cf834f01cf05fe686314ead03
 docker: quay.io/biocontainers/deeparg
 aliases:
   deeparg: /usr/local/bin/deeparg

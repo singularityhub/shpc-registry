@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-tenxvisiumdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tenxvisiumdata
 latest:
-  1.8.0--r43hdfd78af_0: sha256:689844c5f5182582fea29a334bfcb122aa97d71ff22e12e258b5b8d497a0ba8a
+  1.10.0--r43hdfd78af_0: sha256:7f90214ea6cbc662a8d77e73ff4a408a759376ae0d12261d7931198ddc28f017
 tags:
   1.2.0--r41hdfd78af_1: sha256:6fee5602f4ee413cf7cebeafeb969c445c26bb49cef4c1000a72b58004e10e5c
   1.6.0--r42hdfd78af_0: sha256:6ebe6c5bf37d4e5100df8fd7c393e87243563347ff73af367a87a9ea9caa6736
   1.8.0--r43hdfd78af_0: sha256:689844c5f5182582fea29a334bfcb122aa97d71ff22e12e258b5b8d497a0ba8a
+  1.10.0--r43hdfd78af_0: sha256:7f90214ea6cbc662a8d77e73ff4a408a759376ae0d12261d7931198ddc28f017
 docker: quay.io/biocontainers/bioconductor-tenxvisiumdata
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-mina
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mina
 latest:
-  1.8.0--r43hf17093f_0: sha256:71185796c945ee911735830cac2b9705c55bfc99326ff874e0ad928131222d2d
+  1.10.0--r43hf17093f_1: sha256:dd8e714bac9d19ffb4d7a3e039c4294e61f8a5a5667a54f8ea125ba2008d9588
 tags:
   1.2.0--r41hc247a5b_2: sha256:a1f5d5bc1d4201740e3f73aa86767f1e81e11ae5afec1f0cd528a8981fd72ff8
   1.6.0--r42hc247a5b_0: sha256:f9bd85c2ade4ad1c2f5883528e31898053194fad1f91c7d12f0d6e0a4b8deb3c
   1.6.0--r42hf17093f_1: sha256:56c0818baa7f4fe0588fe87472ddc56e52d5a629f3d6b598bbec6daef86e41d2
   1.8.0--r43hf17093f_0: sha256:71185796c945ee911735830cac2b9705c55bfc99326ff874e0ad928131222d2d
+  1.10.0--r43hf17093f_1: sha256:dd8e714bac9d19ffb4d7a3e039c4294e61f8a5a5667a54f8ea125ba2008d9588
 docker: quay.io/biocontainers/bioconductor-mina

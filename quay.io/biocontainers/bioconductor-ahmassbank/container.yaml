@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-ahmassbank
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-ahmassbank
 latest:
-  1.0.0--r43hdfd78af_0: sha256:f6b0880a6de9098307e03557f66a6c3eedf36283d502d5bf804452a1dfcf316e
+  1.2.0--r43hdfd78af_0: sha256:ff89b26891867aae1a18b4ff2212525faf63b6b0c4a737c63a255276fd9d6293
 tags:
   1.0.0--r43hdfd78af_0: sha256:f6b0880a6de9098307e03557f66a6c3eedf36283d502d5bf804452a1dfcf316e
+  1.2.0--r43hdfd78af_0: sha256:ff89b26891867aae1a18b4ff2212525faf63b6b0c4a737c63a255276fd9d6293
 docker: quay.io/biocontainers/bioconductor-ahmassbank
 aliases:
   hb-info: /usr/local/bin/hb-info

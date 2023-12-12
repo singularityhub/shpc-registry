@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-director
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-director
 latest:
-  1.26.0--r43hdfd78af_0: sha256:c89a9091ea5ed0636eedee31f47742ee8516fe62e1eb9d129de5ef73c76b2d0c
+  1.28.0--r43hdfd78af_0: sha256:72abd89f8fb0ca9d8501310698049d2b91bff5efbb34e659fefe31738050c2df
 tags:
   1.8.0--r351_0: sha256:f0b06b839bf1e8c21935078af372f8eafccf46ac3799e4fe086f09610521742d
   1.24.0--r42hdfd78af_0: sha256:6df99390bc47dbe0f3aa2dce4f91d83dd560b69a2515c2a5b800eb8797671f59
@@ -11,6 +11,7 @@ tags:
   1.16.0--r40hdfd78af_1: sha256:a48dbfc887b475daa3ac7176d66d29dae50b5ebe431a4fa479ad8e16f8eca9dd
   1.14.0--r40_0: sha256:f27cc33c07641e19b0f8415773baf23bc37d566308129efcda96440e863ef8a3
   1.26.0--r43hdfd78af_0: sha256:c89a9091ea5ed0636eedee31f47742ee8516fe62e1eb9d129de5ef73c76b2d0c
+  1.28.0--r43hdfd78af_0: sha256:72abd89f8fb0ca9d8501310698049d2b91bff5efbb34e659fefe31738050c2df
 docker: quay.io/biocontainers/bioconductor-director
 aliases:
   c89: /usr/local/bin/c89

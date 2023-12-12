@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-yeastrnaseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-yeastrnaseq
 latest:
-  0.38.0--r43hdfd78af_0: sha256:69a0b1aa0e0c154ad564e2925441dee7d289b0b2a8e7ec0b148242667cba8d98
+  0.40.0--r43hdfd78af_0: sha256:481c3a5d4128fc319c268f3a92e12255a584c272f54638aed9eaab56a4da9cfa
 tags:
   0.32.0--r41hdfd78af_1: sha256:3b71b0bcf818b6e0bc98684602920f304e6972d0f98b58c525e459a0bec27101
   0.35.0--r42hdfd78af_0: sha256:9d2bd34842d12a59f65c879b66a67b129c91ce4a209180060512ac6bcbcd83d0
   0.38.0--r43hdfd78af_0: sha256:69a0b1aa0e0c154ad564e2925441dee7d289b0b2a8e7ec0b148242667cba8d98
+  0.40.0--r43hdfd78af_0: sha256:481c3a5d4128fc319c268f3a92e12255a584c272f54638aed9eaab56a4da9cfa
 docker: quay.io/biocontainers/bioconductor-yeastrnaseq

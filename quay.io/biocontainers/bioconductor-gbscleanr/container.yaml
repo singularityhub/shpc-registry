@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-gbscleanr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-gbscleanr
 latest:
-  1.4.4--r43hf17093f_0: sha256:a94b5d9ba38def6813676caffc9507a15bcc42c02dc6e4de9d81d56a709c2671
+  1.6.0--r43hf17093f_0: sha256:a95c2afc8c65a13353d3f95062e2bb8b408c6f6fc9618595a29dff19fbe9f946
 tags:
   1.4.4--r43hf17093f_0: sha256:a94b5d9ba38def6813676caffc9507a15bcc42c02dc6e4de9d81d56a709c2671
+  1.6.0--r43hf17093f_0: sha256:a95c2afc8c65a13353d3f95062e2bb8b408c6f6fc9618595a29dff19fbe9f946
 docker: quay.io/biocontainers/bioconductor-gbscleanr
 aliases:
   hb-info: /usr/local/bin/hb-info
