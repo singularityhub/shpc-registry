@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quicktree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quicktree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quicktree/container.yaml"
-updated_at: "2023-12-11 02:55:35.514783"
+updated_at: "2023-12-12 02:55:11.642396"
 latest: "2.5--h031d066_4"
 container_url: "https://biocontainers.pro/tools/quicktree"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-wppi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wppi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wppi/container.yaml"
-updated_at: "2023-12-11 02:31:25.176837"
+updated_at: "2023-12-12 02:31:35.597949"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-wppi"
 

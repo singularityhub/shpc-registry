@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gsearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gsearch/container.yaml"
-updated_at: "2023-12-11 03:13:32.999306"
-latest: "0.1.4--hdbdd923_0"
+updated_at: "2023-12-12 03:12:46.115204"
+latest: "0.1.6--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/gsearch"
 aliases:
  - "request"
@@ -14,8 +14,9 @@ versions:
  - "0.0.12--h87f3376_0"
  - "0.1.2--h43eeafb_6"
  - "0.1.4--hdbdd923_0"
+ - "0.1.6--hdbdd923_0"
 description: "singularity registry hpc automated addition for gsearch"
-config: {"url": "https://biocontainers.pro/tools/gsearch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gsearch", "latest": {"0.1.4--hdbdd923_0": "sha256:eaf550307c5090808e7628310a5a23670e15bf2d633e758fb02964c2bc04504e"}, "tags": {"0.0.12--h87f3376_0": "sha256:f84d5cb4c00788fe4166ae40cc5caf9bc23550ea9cd655a0e830ba23583fec43", "0.1.2--h43eeafb_6": "sha256:dd9e7d11197dc1519906f745c7bd520c9d3302832113eab879deba0a3ae553fd", "0.1.4--hdbdd923_0": "sha256:eaf550307c5090808e7628310a5a23670e15bf2d633e758fb02964c2bc04504e"}, "docker": "quay.io/biocontainers/gsearch", "aliases": {"request": "/usr/local/bin/request", "tohnsw": "/usr/local/bin/tohnsw"}}
+config: {"url": "https://biocontainers.pro/tools/gsearch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gsearch", "latest": {"0.1.6--hdbdd923_0": "sha256:3ea1e9ed7d25baf83df39cd3de67d086337f7e5915f5b2e24a1b71f9b9528233"}, "tags": {"0.0.12--h87f3376_0": "sha256:f84d5cb4c00788fe4166ae40cc5caf9bc23550ea9cd655a0e830ba23583fec43", "0.1.2--h43eeafb_6": "sha256:dd9e7d11197dc1519906f745c7bd520c9d3302832113eab879deba0a3ae553fd", "0.1.4--hdbdd923_0": "sha256:eaf550307c5090808e7628310a5a23670e15bf2d633e758fb02964c2bc04504e", "0.1.6--hdbdd923_0": "sha256:3ea1e9ed7d25baf83df39cd3de67d086337f7e5915f5b2e24a1b71f9b9528233"}, "docker": "quay.io/biocontainers/gsearch", "aliases": {"request": "/usr/local/bin/request", "tohnsw": "/usr/local/bin/tohnsw"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gsearch.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/gsearch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gsearch:0.1.4--hdbdd923_0
+$ shpc install quay.io/biocontainers/gsearch:0.1.6--hdbdd923_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gsearch/0.1.4--hdbdd923_0
-$ module help quay.io/biocontainers/gsearch/0.1.4--hdbdd923_0
+$ module load quay.io/biocontainers/gsearch/0.1.6--hdbdd923_0
+$ module help quay.io/biocontainers/gsearch/0.1.6--hdbdd923_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

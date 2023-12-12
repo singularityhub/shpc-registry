@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nucamino"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nucamino/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nucamino/container.yaml"
-updated_at: "2023-12-11 02:43:22.539038"
+updated_at: "2023-12-12 02:43:13.147225"
 latest: "0.1.3--h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/nucamino"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-cleaver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cleaver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cleaver/container.yaml"
-updated_at: "2023-12-11 02:51:18.926420"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2023-12-12 02:51:00.208866"
+latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cleaver"
 
 versions:
  - "1.32.0--r41hdfd78af_0"
  - "1.36.0--r42hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.40.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cleaver"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cleaver", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cleaver", "latest": {"1.38.0--r43hdfd78af_0": "sha256:1b73a9c1274bdba516611e0e6f0802bff2006378d18f2615f7ee76b2661377b6"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:a2ed376005cb852aa81404120853d0c0f8c52e336fd6e4dce491ad848451845e", "1.36.0--r42hdfd78af_0": "sha256:9755638361e4d12419385699aca979cfb09b9dcb6be197c1f4850748540c75a6", "1.38.0--r43hdfd78af_0": "sha256:1b73a9c1274bdba516611e0e6f0802bff2006378d18f2615f7ee76b2661377b6"}, "docker": "quay.io/biocontainers/bioconductor-cleaver"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cleaver", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cleaver", "latest": {"1.40.0--r43hdfd78af_0": "sha256:6081d4128d8685fcc1f7c8bca2336570d2f774b217a641982f56fb01d358129b"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:a2ed376005cb852aa81404120853d0c0f8c52e336fd6e4dce491ad848451845e", "1.36.0--r42hdfd78af_0": "sha256:9755638361e4d12419385699aca979cfb09b9dcb6be197c1f4850748540c75a6", "1.38.0--r43hdfd78af_0": "sha256:1b73a9c1274bdba516611e0e6f0802bff2006378d18f2615f7ee76b2661377b6", "1.40.0--r43hdfd78af_0": "sha256:6081d4128d8685fcc1f7c8bca2336570d2f774b217a641982f56fb01d358129b"}, "docker": "quay.io/biocontainers/bioconductor-cleaver"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cleaver.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cleaver
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cleaver:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cleaver:1.40.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cleaver/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cleaver/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cleaver/1.40.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cleaver/1.40.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

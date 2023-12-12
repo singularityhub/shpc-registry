@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svgwrite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svgwrite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svgwrite/container.yaml"
-updated_at: "2023-12-11 02:50:57.485126"
+updated_at: "2023-12-12 02:50:38.884894"
 latest: "1.1.6--py36_0"
 container_url: "https://biocontainers.pro/tools/svgwrite"
 aliases:

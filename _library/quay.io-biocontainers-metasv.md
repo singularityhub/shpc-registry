@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metasv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metasv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metasv/container.yaml"
-updated_at: "2023-12-11 03:06:23.269231"
+updated_at: "2023-12-12 03:05:44.900410"
 latest: "0.5.4--py27h9801fc8_4"
 container_url: "https://biocontainers.pro/tools/metasv"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/trilinos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/trilinos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/trilinos/container.yaml"
-updated_at: "2023-12-11 03:15:51.742326"
+updated_at: "2023-12-12 03:15:01.902975"
 latest: "13.2.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/trilinos"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pgr-tk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgr-tk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgr-tk/container.yaml"
-updated_at: "2023-12-11 02:55:11.785837"
+updated_at: "2023-12-12 02:54:48.532947"
 latest: "0.5.1--py38h8fa8eaa_0"
 container_url: "https://biocontainers.pro/tools/pgr-tk"
 aliases:

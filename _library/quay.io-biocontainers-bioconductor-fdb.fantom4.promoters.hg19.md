@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19/container.yaml"
-updated_at: "2023-12-11 03:04:53.765475"
-latest: "1.0.0--r43hdfd78af_11"
+updated_at: "2023-12-12 03:04:17.477293"
+latest: "1.0.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-fdb.fantom4.promoters.hg19"
 
 versions:
  - "1.0.0--r41hdfd78af_9"
  - "1.0.0--r42hdfd78af_10"
  - "1.0.0--r43hdfd78af_11"
+ - "1.0.0--r43hdfd78af_12"
 description: "shpc-registry automated BioContainers addition for bioconductor-fdb.fantom4.promoters.hg19"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fdb.fantom4.promoters.hg19", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fdb.fantom4.promoters.hg19", "latest": {"1.0.0--r43hdfd78af_11": "sha256:6508d02f2a416eaa223fecfaa09748e349b96be0bf853106d744063ada6024df"}, "tags": {"1.0.0--r41hdfd78af_9": "sha256:32eebdaea9a8d509e1a0fa2814e71859e76b052f5da1ad0bf697e77649933df8", "1.0.0--r42hdfd78af_10": "sha256:3b8af1a4c11dc55898bab0d8d564075322cd6522f98e2cace088095303b72685", "1.0.0--r43hdfd78af_11": "sha256:6508d02f2a416eaa223fecfaa09748e349b96be0bf853106d744063ada6024df"}, "docker": "quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fdb.fantom4.promoters.hg19", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fdb.fantom4.promoters.hg19", "latest": {"1.0.0--r43hdfd78af_12": "sha256:8d1db41ea7003219fd8cf2845923b725615617b0368da0c49b9d838a05d17c91"}, "tags": {"1.0.0--r41hdfd78af_9": "sha256:32eebdaea9a8d509e1a0fa2814e71859e76b052f5da1ad0bf697e77649933df8", "1.0.0--r42hdfd78af_10": "sha256:3b8af1a4c11dc55898bab0d8d564075322cd6522f98e2cace088095303b72685", "1.0.0--r43hdfd78af_11": "sha256:6508d02f2a416eaa223fecfaa09748e349b96be0bf853106d744063ada6024df", "1.0.0--r43hdfd78af_12": "sha256:8d1db41ea7003219fd8cf2845923b725615617b0368da0c49b9d838a05d17c91"}, "docker": "quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19:1.0.0--r43hdfd78af_11
+$ shpc install quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19:1.0.0--r43hdfd78af_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19/1.0.0--r43hdfd78af_11
-$ module help quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19/1.0.0--r43hdfd78af_11
+$ module load quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19/1.0.0--r43hdfd78af_12
+$ module help quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19/1.0.0--r43hdfd78af_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

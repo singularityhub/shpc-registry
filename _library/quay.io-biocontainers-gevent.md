@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gevent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gevent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gevent/container.yaml"
-updated_at: "2023-12-11 02:32:33.677311"
+updated_at: "2023-12-12 02:32:41.851835"
 latest: "1.1rc4--py35_0"
 container_url: "https://biocontainers.pro/tools/gevent"
 aliases:

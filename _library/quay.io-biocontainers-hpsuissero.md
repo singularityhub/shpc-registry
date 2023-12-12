@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hpsuissero"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hpsuissero/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hpsuissero/container.yaml"
-updated_at: "2023-12-11 02:56:58.018357"
+updated_at: "2023-12-12 02:56:32.626707"
 latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hpsuissero"
 aliases:

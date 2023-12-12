@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gffmunger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gffmunger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gffmunger/container.yaml"
-updated_at: "2023-12-11 02:41:42.936669"
+updated_at: "2023-12-12 02:41:35.774312"
 latest: "0.1.3--py_1"
 container_url: "https://biocontainers.pro/tools/gffmunger"
 aliases:

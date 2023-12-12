@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm39.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm39.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm39.refgene/container.yaml"
-updated_at: "2023-12-11 02:46:24.612063"
-latest: "3.12.0--r43hdfd78af_6"
+updated_at: "2023-12-12 02:46:11.743551"
+latest: "3.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm39.refgene"
 
 versions:
  - "3.12.0--r41hdfd78af_4"
  - "3.12.0--r42hdfd78af_5"
  - "3.12.0--r43hdfd78af_6"
+ - "3.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm39.refgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm39.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm39.refgene", "latest": {"3.12.0--r43hdfd78af_6": "sha256:f898e4c5cba39e2fdb9ae403af351ec90be8dc4a9349637b7896242d48c0d7f1"}, "tags": {"3.12.0--r41hdfd78af_4": "sha256:793eddf2edc01b3961b03ccb2c7f0576eb985e864e92f351767ef99efb83566a", "3.12.0--r42hdfd78af_5": "sha256:c99ff37ab5f91204342128055dc24629d46cef0243e9e0757f75cedf4ef1c447", "3.12.0--r43hdfd78af_6": "sha256:f898e4c5cba39e2fdb9ae403af351ec90be8dc4a9349637b7896242d48c0d7f1"}, "docker": "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm39.refgene"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm39.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm39.refgene", "latest": {"3.18.0--r43hdfd78af_0": "sha256:6dd6e020328f6003ebcb96cb3729c88108ab42e7c6bc36fa25e2ff4c7bdd7c1c"}, "tags": {"3.12.0--r41hdfd78af_4": "sha256:793eddf2edc01b3961b03ccb2c7f0576eb985e864e92f351767ef99efb83566a", "3.12.0--r42hdfd78af_5": "sha256:c99ff37ab5f91204342128055dc24629d46cef0243e9e0757f75cedf4ef1c447", "3.12.0--r43hdfd78af_6": "sha256:f898e4c5cba39e2fdb9ae403af351ec90be8dc4a9349637b7896242d48c0d7f1", "3.18.0--r43hdfd78af_0": "sha256:6dd6e020328f6003ebcb96cb3729c88108ab42e7c6bc36fa25e2ff4c7bdd7c1c"}, "docker": "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm39.refgene"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm39.refgene.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm39.refge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm39.refgene:3.12.0--r43hdfd78af_6
+$ shpc install quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm39.refgene:3.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm39.refgene/3.12.0--r43hdfd78af_6
-$ module help quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm39.refgene/3.12.0--r43hdfd78af_6
+$ module load quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm39.refgene/3.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm39.refgene/3.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

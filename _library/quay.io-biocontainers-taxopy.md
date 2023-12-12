@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxopy/container.yaml"
-updated_at: "2023-12-11 02:36:29.774628"
+updated_at: "2023-12-12 02:36:30.863241"
 latest: "0.12.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/taxopy"
 aliases:

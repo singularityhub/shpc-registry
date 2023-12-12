@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-prostatecancergrasso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prostatecancergrasso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prostatecancergrasso/container.yaml"
-updated_at: "2023-12-11 02:59:22.613829"
-latest: "1.28.0--r43hdfd78af_0"
+updated_at: "2023-12-12 02:58:54.130242"
+latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prostatecancergrasso"
 
 versions:
  - "1.22.0--r41hdfd78af_1"
  - "1.26.0--r42hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
+ - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-prostatecancergrasso"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-prostatecancergrasso", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prostatecancergrasso", "latest": {"1.28.0--r43hdfd78af_0": "sha256:ac727333b02759be69bd8e370adf00d8f96203113e3f8873a3a3462fa9fa446a"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:4fa20e2828c1d9a258d48b43f37410501e61785940c173506e04fa8fec856521", "1.26.0--r42hdfd78af_0": "sha256:3ebd31ef7e47df394b2b0220ab2d12723d0c8563fbfec761ff0a3abfa2a1fcfe", "1.28.0--r43hdfd78af_0": "sha256:ac727333b02759be69bd8e370adf00d8f96203113e3f8873a3a3462fa9fa446a"}, "docker": "quay.io/biocontainers/bioconductor-prostatecancergrasso"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-prostatecancergrasso", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prostatecancergrasso", "latest": {"1.30.0--r43hdfd78af_0": "sha256:d82f66dcd6dc70f664ad18e7772b5836fe00d56e06446b12adf5f2aedd97ece0"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:4fa20e2828c1d9a258d48b43f37410501e61785940c173506e04fa8fec856521", "1.26.0--r42hdfd78af_0": "sha256:3ebd31ef7e47df394b2b0220ab2d12723d0c8563fbfec761ff0a3abfa2a1fcfe", "1.28.0--r43hdfd78af_0": "sha256:ac727333b02759be69bd8e370adf00d8f96203113e3f8873a3a3462fa9fa446a", "1.30.0--r43hdfd78af_0": "sha256:d82f66dcd6dc70f664ad18e7772b5836fe00d56e06446b12adf5f2aedd97ece0"}, "docker": "quay.io/biocontainers/bioconductor-prostatecancergrasso"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-prostatecancergrasso.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-prostatecancergrasso
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-prostatecancergrasso:1.28.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-prostatecancergrasso:1.30.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-prostatecancergrasso/1.28.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-prostatecancergrasso/1.28.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-prostatecancergrasso/1.30.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-prostatecancergrasso/1.30.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hic2cool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hic2cool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hic2cool/container.yaml"
-updated_at: "2023-12-11 02:45:43.910165"
-latest: "0.8.3--pyh864c0ab_2"
+updated_at: "2023-12-12 02:45:31.751181"
+latest: "1.0.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/hic2cool"
 aliases:
  - "hic2cool"
@@ -21,8 +21,9 @@ aliases:
  - "pairix"
 versions:
  - "0.8.3--pyh864c0ab_2"
+ - "1.0.1--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for hic2cool"
-config: {"url": "https://biocontainers.pro/tools/hic2cool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hic2cool", "latest": {"0.8.3--pyh864c0ab_2": "sha256:33e7f94049aad07b8d1633ef02a67475cdc95834cb732be9806e9f1ce733c45e"}, "tags": {"0.8.3--pyh864c0ab_2": "sha256:33e7f94049aad07b8d1633ef02a67475cdc95834cb732be9806e9f1ce733c45e"}, "docker": "quay.io/biocontainers/hic2cool", "aliases": {"hic2cool": "/usr/local/bin/hic2cool", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix"}}
+config: {"url": "https://biocontainers.pro/tools/hic2cool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hic2cool", "latest": {"1.0.1--pyh7cba7a3_0": "sha256:db86e0f09f467da61d6063aca0b6569f5d15d488c5705db09bd07b17f7317c56"}, "tags": {"0.8.3--pyh864c0ab_2": "sha256:33e7f94049aad07b8d1633ef02a67475cdc95834cb732be9806e9f1ce733c45e", "1.0.1--pyh7cba7a3_0": "sha256:db86e0f09f467da61d6063aca0b6569f5d15d488c5705db09bd07b17f7317c56"}, "docker": "quay.io/biocontainers/hic2cool", "aliases": {"hic2cool": "/usr/local/bin/hic2cool", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hic2cool.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/hic2cool
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hic2cool:0.8.3--pyh864c0ab_2
+$ shpc install quay.io/biocontainers/hic2cool:1.0.1--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hic2cool/0.8.3--pyh864c0ab_2
-$ module help quay.io/biocontainers/hic2cool/0.8.3--pyh864c0ab_2
+$ module load quay.io/biocontainers/hic2cool/1.0.1--pyh7cba7a3_0
+$ module help quay.io/biocontainers/hic2cool/1.0.1--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

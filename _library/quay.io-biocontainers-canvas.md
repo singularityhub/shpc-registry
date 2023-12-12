@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/canvas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/canvas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/canvas/container.yaml"
-updated_at: "2023-12-11 02:41:35.483876"
+updated_at: "2023-12-12 02:41:28.510473"
 latest: "1.35.1.1316--0"
 container_url: "https://biocontainers.pro/tools/canvas"
 aliases:

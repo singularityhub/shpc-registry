@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-prroc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-prroc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-prroc/container.yaml"
-updated_at: "2023-12-11 02:45:04.255996"
+updated_at: "2023-12-12 02:44:52.828717"
 latest: "1.1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-prroc"
 aliases:

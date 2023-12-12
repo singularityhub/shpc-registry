@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hmp2data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hmp2data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hmp2data/container.yaml"
-updated_at: "2023-12-11 02:39:02.674409"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2023-12-12 02:38:59.714731"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hmp2data"
 aliases:
  - "pandoc-server"
@@ -15,8 +15,9 @@ versions:
  - "1.8.0--r41hdfd78af_1"
  - "1.12.0--r42hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hmp2data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hmp2data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hmp2data", "latest": {"1.14.0--r43hdfd78af_0": "sha256:f9f84b1b84025cdc28af66211612f76c11d704e2331697ef3434be2e385eaafb"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:e666d9b5e01e13860a6793f8e6b20f988b27da681366b6114d3f4a8cd8512a6e", "1.12.0--r42hdfd78af_0": "sha256:00654c1b7b8822b2fdc48aadfa1f5416621dab96b35e8c396038f3b3039b2cb4", "1.14.0--r43hdfd78af_0": "sha256:f9f84b1b84025cdc28af66211612f76c11d704e2331697ef3434be2e385eaafb"}, "docker": "quay.io/biocontainers/bioconductor-hmp2data", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hmp2data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hmp2data", "latest": {"1.16.0--r43hdfd78af_0": "sha256:8aa64ea90091fc644c2248e11275b09100cba030c5de5a9d3b0f93431cf05e5f"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:e666d9b5e01e13860a6793f8e6b20f988b27da681366b6114d3f4a8cd8512a6e", "1.12.0--r42hdfd78af_0": "sha256:00654c1b7b8822b2fdc48aadfa1f5416621dab96b35e8c396038f3b3039b2cb4", "1.14.0--r43hdfd78af_0": "sha256:f9f84b1b84025cdc28af66211612f76c11d704e2331697ef3434be2e385eaafb", "1.16.0--r43hdfd78af_0": "sha256:8aa64ea90091fc644c2248e11275b09100cba030c5de5a9d3b0f93431cf05e5f"}, "docker": "quay.io/biocontainers/bioconductor-hmp2data", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hmp2data.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hmp2data
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hmp2data:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-hmp2data:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hmp2data/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-hmp2data/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-hmp2data/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hmp2data/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

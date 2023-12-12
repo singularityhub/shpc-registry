@@ -4,7 +4,7 @@ name:  "python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/python/container.yaml"
-updated_at: "2023-12-11 03:15:08.786846"
+updated_at: "2023-12-12 03:14:19.850169"
 latest: "3.13-rc"
 container_url: "https://hub.docker.com/_/python"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/rempi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/rempi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/rempi/container.yaml"
-updated_at: "2023-12-11 03:15:50.340410"
+updated_at: "2023-12-12 03:15:00.517178"
 latest: "1.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/rempi"
 aliases:

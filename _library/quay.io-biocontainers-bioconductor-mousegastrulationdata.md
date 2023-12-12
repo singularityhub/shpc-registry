@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mousegastrulationdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mousegastrulationdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mousegastrulationdata/container.yaml"
-updated_at: "2023-12-11 02:33:49.448734"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2023-12-12 02:33:55.337714"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mousegastrulationdata"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -22,8 +22,9 @@ versions:
  - "1.8.0--r41hdfd78af_1"
  - "1.12.0--r42hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mousegastrulationdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mousegastrulationdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mousegastrulationdata", "latest": {"1.14.0--r43hdfd78af_0": "sha256:7a98ccd33f48d94972a2ab87422700f658c38a8c665df783b62f18c1eb01dde7"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:9dd922f26757bde7b786758c7392d4b16b52a19ce8f3c68eee5784e56193eda9", "1.12.0--r42hdfd78af_0": "sha256:7320efcca92ebb0f562e16e8787a1967571d94b3d053cc40a78d6cac52990371", "1.14.0--r43hdfd78af_0": "sha256:7a98ccd33f48d94972a2ab87422700f658c38a8c665df783b62f18c1eb01dde7"}, "docker": "quay.io/biocontainers/bioconductor-mousegastrulationdata", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mousegastrulationdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mousegastrulationdata", "latest": {"1.16.0--r43hdfd78af_0": "sha256:6208bee5bd6fb6ccdb0e7ca7f08fe739b1a7d35c8ece393ca733c7dcc0219d81"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:9dd922f26757bde7b786758c7392d4b16b52a19ce8f3c68eee5784e56193eda9", "1.12.0--r42hdfd78af_0": "sha256:7320efcca92ebb0f562e16e8787a1967571d94b3d053cc40a78d6cac52990371", "1.14.0--r43hdfd78af_0": "sha256:7a98ccd33f48d94972a2ab87422700f658c38a8c665df783b62f18c1eb01dde7", "1.16.0--r43hdfd78af_0": "sha256:6208bee5bd6fb6ccdb0e7ca7f08fe739b1a7d35c8ece393ca733c7dcc0219d81"}, "docker": "quay.io/biocontainers/bioconductor-mousegastrulationdata", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mousegastrulationdata.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mousegastrulationdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mousegastrulationdata:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mousegastrulationdata:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mousegastrulationdata/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mousegastrulationdata/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mousegastrulationdata/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mousegastrulationdata/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-geneexpressionsignature"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geneexpressionsignature/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geneexpressionsignature/container.yaml"
-updated_at: "2023-12-11 02:30:29.898633"
-latest: "1.46.0--r43hdfd78af_0"
+updated_at: "2023-12-12 02:30:41.720893"
+latest: "1.48.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geneexpressionsignature"
 
 versions:
  - "1.40.0--r41hdfd78af_0"
  - "1.44.0--r42hdfd78af_0"
  - "1.46.0--r43hdfd78af_0"
+ - "1.48.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-geneexpressionsignature"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geneexpressionsignature", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geneexpressionsignature", "latest": {"1.46.0--r43hdfd78af_0": "sha256:ff98ff1a93f9cbaee4a7c681dbed49bacfd095c54cd7183ebde39e673888d1be"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:ffc3d3959577ee10876bb6ec2cd4cdda6febaf86350a5c68966c96133ce8aac5", "1.44.0--r42hdfd78af_0": "sha256:a9d72a02d77a0450c49ff0730155aa2a492a8762484fe08a2c18e2e96003dd73", "1.46.0--r43hdfd78af_0": "sha256:ff98ff1a93f9cbaee4a7c681dbed49bacfd095c54cd7183ebde39e673888d1be"}, "docker": "quay.io/biocontainers/bioconductor-geneexpressionsignature"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geneexpressionsignature", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geneexpressionsignature", "latest": {"1.48.0--r43hdfd78af_0": "sha256:09338efdfad2dd2e897cef3b4f7d626068c8b647858d50cf0d38f9809b320427"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:ffc3d3959577ee10876bb6ec2cd4cdda6febaf86350a5c68966c96133ce8aac5", "1.44.0--r42hdfd78af_0": "sha256:a9d72a02d77a0450c49ff0730155aa2a492a8762484fe08a2c18e2e96003dd73", "1.46.0--r43hdfd78af_0": "sha256:ff98ff1a93f9cbaee4a7c681dbed49bacfd095c54cd7183ebde39e673888d1be", "1.48.0--r43hdfd78af_0": "sha256:09338efdfad2dd2e897cef3b4f7d626068c8b647858d50cf0d38f9809b320427"}, "docker": "quay.io/biocontainers/bioconductor-geneexpressionsignature"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geneexpressionsignature.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-geneexpressionsignature
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-geneexpressionsignature:1.46.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-geneexpressionsignature:1.48.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-geneexpressionsignature/1.46.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-geneexpressionsignature/1.46.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-geneexpressionsignature/1.48.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-geneexpressionsignature/1.48.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

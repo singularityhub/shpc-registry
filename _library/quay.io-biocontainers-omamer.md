@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/omamer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/omamer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/omamer/container.yaml"
-updated_at: "2023-12-11 02:48:25.464861"
-latest: "2.0.1--pyhdfd78af_0"
+updated_at: "2023-12-12 02:48:09.707057"
+latest: "2.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/omamer"
 aliases:
  - "omamer"
@@ -36,8 +36,9 @@ aliases:
  - "lrelease-pro"
 versions:
  - "2.0.1--pyhdfd78af_0"
+ - "2.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for omamer"
-config: {"url": "https://biocontainers.pro/tools/omamer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for omamer", "latest": {"2.0.1--pyhdfd78af_0": "sha256:e91900997f8b1962bc886bb237655f7a906e43e1a36c81329631dd92f961eb44"}, "tags": {"2.0.1--pyhdfd78af_0": "sha256:e91900997f8b1962bc886bb237655f7a906e43e1a36c81329631dd92f961eb44"}, "docker": "quay.io/biocontainers/omamer", "aliases": {"omamer": "/usr/local/bin/omamer", "cpuinfo": "/usr/local/bin/cpuinfo", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "getfattr": "/usr/local/bin/getfattr", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro"}}
+config: {"url": "https://biocontainers.pro/tools/omamer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for omamer", "latest": {"2.0.2--pyhdfd78af_0": "sha256:04459955ce65ec9a02a4a56a61f70952e46f12faa8374a63fe0a774aa27f6b33"}, "tags": {"2.0.1--pyhdfd78af_0": "sha256:e91900997f8b1962bc886bb237655f7a906e43e1a36c81329631dd92f961eb44", "2.0.2--pyhdfd78af_0": "sha256:04459955ce65ec9a02a4a56a61f70952e46f12faa8374a63fe0a774aa27f6b33"}, "docker": "quay.io/biocontainers/omamer", "aliases": {"omamer": "/usr/local/bin/omamer", "cpuinfo": "/usr/local/bin/cpuinfo", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "getfattr": "/usr/local/bin/getfattr", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/omamer.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/omamer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/omamer:2.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/omamer:2.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/omamer/2.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/omamer/2.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/omamer/2.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/omamer/2.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
