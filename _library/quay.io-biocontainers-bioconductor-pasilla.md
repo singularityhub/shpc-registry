@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-pasilla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pasilla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pasilla/container.yaml"
-updated_at: "2023-12-12 02:36:34.734423"
-latest: "1.28.0--r43hdfd78af_0"
+updated_at: "2023-12-13 02:36:20.536976"
+latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pasilla"
 
 versions:
  - "1.22.0--r41hdfd78af_1"
  - "1.26.0--r42hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
+ - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pasilla"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pasilla", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pasilla", "latest": {"1.28.0--r43hdfd78af_0": "sha256:295f4a85b0062af78fa6a30cd4f75d7f23b165e9c66cecf98bc5506d41357c7e"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:7bef8bee94b66a37dcc53d3e9405762c0b3b2630185a4cad2dd067c944cfa157", "1.26.0--r42hdfd78af_0": "sha256:bd9d341bb1c9604c72dbeaca7342a08c69a006dbd4e227a74b4007ba7c640452", "1.28.0--r43hdfd78af_0": "sha256:295f4a85b0062af78fa6a30cd4f75d7f23b165e9c66cecf98bc5506d41357c7e"}, "docker": "quay.io/biocontainers/bioconductor-pasilla"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pasilla", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pasilla", "latest": {"1.30.0--r43hdfd78af_0": "sha256:f5c98135e801908516e92c384f806b051f2c193d752d338e7c7df7cbfc998f68"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:7bef8bee94b66a37dcc53d3e9405762c0b3b2630185a4cad2dd067c944cfa157", "1.26.0--r42hdfd78af_0": "sha256:bd9d341bb1c9604c72dbeaca7342a08c69a006dbd4e227a74b4007ba7c640452", "1.28.0--r43hdfd78af_0": "sha256:295f4a85b0062af78fa6a30cd4f75d7f23b165e9c66cecf98bc5506d41357c7e", "1.30.0--r43hdfd78af_0": "sha256:f5c98135e801908516e92c384f806b051f2c193d752d338e7c7df7cbfc998f68"}, "docker": "quay.io/biocontainers/bioconductor-pasilla"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pasilla.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pasilla
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pasilla:1.28.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pasilla:1.30.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pasilla/1.28.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pasilla/1.28.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pasilla/1.30.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pasilla/1.30.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

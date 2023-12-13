@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deeparg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeparg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deeparg/container.yaml"
-updated_at: "2023-12-12 02:32:45.444937"
-latest: "1.0.2--pyhdfd78af_1"
+updated_at: "2023-12-13 02:32:25.103761"
+latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deeparg"
 aliases:
  - "deeparg"
@@ -22,8 +22,9 @@ aliases:
  - "qwebengine_convert_dict"
 versions:
  - "1.0.2--pyhdfd78af_1"
+ - "1.0.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for deeparg"
-config: {"url": "https://biocontainers.pro/tools/deeparg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deeparg", "latest": {"1.0.2--pyhdfd78af_1": "sha256:e832b2c8217b058b9fba5bd61be0c87f03721464bfb7bc7025ed100414b974bf"}, "tags": {"1.0.2--pyhdfd78af_1": "sha256:e832b2c8217b058b9fba5bd61be0c87f03721464bfb7bc7025ed100414b974bf"}, "docker": "quay.io/biocontainers/deeparg", "aliases": {"deeparg": "/usr/local/bin/deeparg", "theano-test": "/usr/local/bin/theano-test", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "ete3": "/usr/local/bin/ete3", "diamond": "/usr/local/bin/diamond", "tabulate": "/usr/local/bin/tabulate", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "idn2": "/usr/local/bin/idn2", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
+config: {"url": "https://biocontainers.pro/tools/deeparg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deeparg", "latest": {"1.0.4--pyhdfd78af_0": "sha256:aec6284e99b2568a709ac120d81d65381176687cf834f01cf05fe686314ead03"}, "tags": {"1.0.2--pyhdfd78af_1": "sha256:e832b2c8217b058b9fba5bd61be0c87f03721464bfb7bc7025ed100414b974bf", "1.0.4--pyhdfd78af_0": "sha256:aec6284e99b2568a709ac120d81d65381176687cf834f01cf05fe686314ead03"}, "docker": "quay.io/biocontainers/deeparg", "aliases": {"deeparg": "/usr/local/bin/deeparg", "theano-test": "/usr/local/bin/theano-test", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "ete3": "/usr/local/bin/ete3", "diamond": "/usr/local/bin/diamond", "tabulate": "/usr/local/bin/tabulate", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "idn2": "/usr/local/bin/idn2", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deeparg.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/deeparg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deeparg:1.0.2--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/deeparg:1.0.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deeparg/1.0.2--pyhdfd78af_1
-$ module help quay.io/biocontainers/deeparg/1.0.2--pyhdfd78af_1
+$ module load quay.io/biocontainers/deeparg/1.0.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/deeparg/1.0.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

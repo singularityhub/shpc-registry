@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metabomxtr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metabomxtr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metabomxtr/container.yaml"
-updated_at: "2023-12-12 02:45:50.098373"
+updated_at: "2023-12-13 02:45:41.408859"
 latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metabomxtr"
 

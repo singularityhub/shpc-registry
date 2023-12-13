@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perbase/container.yaml"
-updated_at: "2023-12-12 02:30:14.056073"
+updated_at: "2023-12-13 02:29:49.580802"
 latest: "0.9.0--h787ab5b_0"
 container_url: "https://biocontainers.pro/tools/perbase"
 aliases:

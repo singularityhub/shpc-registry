@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-randrotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-randrotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-randrotation/container.yaml"
-updated_at: "2023-12-12 03:07:31.883639"
-latest: "1.12.0--r43hdfd78af_0"
+updated_at: "2023-12-13 03:07:39.934054"
+latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-randrotation"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
+ - "1.14.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-randrotation"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-randrotation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-randrotation", "latest": {"1.12.0--r43hdfd78af_0": "sha256:ab5e4cc3cf304309032b2e3d9af612baedc1ec383c25fec3d9c6d9c87b2428cc"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:786dab0b38caa583502e90dddd40c06191d971ed7d232bbac4ce9754284b4776", "1.10.0--r42hdfd78af_0": "sha256:ce3380d85fd5fdbf236181e60ad80a869a073cac6a115e340c7d4dfd9495324e", "1.12.0--r43hdfd78af_0": "sha256:ab5e4cc3cf304309032b2e3d9af612baedc1ec383c25fec3d9c6d9c87b2428cc"}, "docker": "quay.io/biocontainers/bioconductor-randrotation"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-randrotation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-randrotation", "latest": {"1.14.0--r43hdfd78af_0": "sha256:519f2c058ba9f6289e6a106d10e12bf3feaed02e77ae33142b05354d8aaa311f"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:786dab0b38caa583502e90dddd40c06191d971ed7d232bbac4ce9754284b4776", "1.10.0--r42hdfd78af_0": "sha256:ce3380d85fd5fdbf236181e60ad80a869a073cac6a115e340c7d4dfd9495324e", "1.12.0--r43hdfd78af_0": "sha256:ab5e4cc3cf304309032b2e3d9af612baedc1ec383c25fec3d9c6d9c87b2428cc", "1.14.0--r43hdfd78af_0": "sha256:519f2c058ba9f6289e6a106d10e12bf3feaed02e77ae33142b05354d8aaa311f"}, "docker": "quay.io/biocontainers/bioconductor-randrotation"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-randrotation.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-randrotation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-randrotation:1.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-randrotation:1.14.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-randrotation/1.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-randrotation/1.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-randrotation/1.14.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-randrotation/1.14.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

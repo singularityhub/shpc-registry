@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ccmetagen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ccmetagen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ccmetagen/container.yaml"
-updated_at: "2023-12-12 02:39:27.719569"
-latest: "1.4.1--pyh7cba7a3_0"
+updated_at: "2023-12-13 02:39:16.101936"
+latest: "1.4.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/ccmetagen"
 aliases:
  - "CCMetagen.py"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "1.4.0--pyh5e36f6f_0"
  - "1.4.1--pyh7cba7a3_0"
+ - "1.4.2--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for ccmetagen"
-config: {"url": "https://biocontainers.pro/tools/ccmetagen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ccmetagen", "latest": {"1.4.1--pyh7cba7a3_0": "sha256:c081a10240769c3708ffc23dc7a355256455324b8e8c2d90f7b28038662974db"}, "tags": {"1.4.0--pyh5e36f6f_0": "sha256:32a2c8f007b83e50e3e428683eabf083623dd33f7bef88c61f811dc777c9cdb1", "1.4.1--pyh7cba7a3_0": "sha256:c081a10240769c3708ffc23dc7a355256455324b8e8c2d90f7b28038662974db"}, "docker": "quay.io/biocontainers/ccmetagen", "aliases": {"CCMetagen.py": "/usr/local/bin/CCMetagen.py", "CCMetagen_extract_seqs.py": "/usr/local/bin/CCMetagen_extract_seqs.py", "CCMetagen_merge.py": "/usr/local/bin/CCMetagen_merge.py", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "ktClassifyBLAST": "/usr/local/bin/ktClassifyBLAST", "ktGetContigMagnitudes": "/usr/local/bin/ktGetContigMagnitudes", "ktGetLCA": "/usr/local/bin/ktGetLCA", "ktGetLibPath": "/usr/local/bin/ktGetLibPath", "ktGetTaxIDFromAcc": "/usr/local/bin/ktGetTaxIDFromAcc", "ktGetTaxInfo": "/usr/local/bin/ktGetTaxInfo", "ktImportBLAST": "/usr/local/bin/ktImportBLAST", "ktImportDiskUsage": "/usr/local/bin/ktImportDiskUsage", "ktImportEC": "/usr/local/bin/ktImportEC", "ktImportFCP": "/usr/local/bin/ktImportFCP"}}
+config: {"url": "https://biocontainers.pro/tools/ccmetagen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ccmetagen", "latest": {"1.4.2--pyh7cba7a3_0": "sha256:8da4b817b29e7e45615815a43b59da9b76769c0d8dd2165e7ad0b78599d5b6cb"}, "tags": {"1.4.0--pyh5e36f6f_0": "sha256:32a2c8f007b83e50e3e428683eabf083623dd33f7bef88c61f811dc777c9cdb1", "1.4.1--pyh7cba7a3_0": "sha256:c081a10240769c3708ffc23dc7a355256455324b8e8c2d90f7b28038662974db", "1.4.2--pyh7cba7a3_0": "sha256:8da4b817b29e7e45615815a43b59da9b76769c0d8dd2165e7ad0b78599d5b6cb"}, "docker": "quay.io/biocontainers/ccmetagen", "aliases": {"CCMetagen.py": "/usr/local/bin/CCMetagen.py", "CCMetagen_extract_seqs.py": "/usr/local/bin/CCMetagen_extract_seqs.py", "CCMetagen_merge.py": "/usr/local/bin/CCMetagen_merge.py", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "ktClassifyBLAST": "/usr/local/bin/ktClassifyBLAST", "ktGetContigMagnitudes": "/usr/local/bin/ktGetContigMagnitudes", "ktGetLCA": "/usr/local/bin/ktGetLCA", "ktGetLibPath": "/usr/local/bin/ktGetLibPath", "ktGetTaxIDFromAcc": "/usr/local/bin/ktGetTaxIDFromAcc", "ktGetTaxInfo": "/usr/local/bin/ktGetTaxInfo", "ktImportBLAST": "/usr/local/bin/ktImportBLAST", "ktImportDiskUsage": "/usr/local/bin/ktImportDiskUsage", "ktImportEC": "/usr/local/bin/ktImportEC", "ktImportFCP": "/usr/local/bin/ktImportFCP"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ccmetagen.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/ccmetagen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ccmetagen:1.4.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/ccmetagen:1.4.2--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ccmetagen/1.4.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/ccmetagen/1.4.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/ccmetagen/1.4.2--pyh7cba7a3_0
+$ module help quay.io/biocontainers/ccmetagen/1.4.2--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75/container.yaml"
-updated_at: "2023-12-12 03:02:43.243313"
-latest: "2.99.0--r43hdfd78af_14"
+updated_at: "2023-12-13 03:02:44.538525"
+latest: "2.99.0--r43hdfd78af_15"
 container_url: "https://biocontainers.pro/tools/bioconductor-ensdb.hsapiens.v75"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "2.99.0--r40hdfd78af_9"
  - "2.99.0--r42hdfd78af_13"
  - "2.99.0--r43hdfd78af_14"
+ - "2.99.0--r43hdfd78af_15"
 description: "shpc-registry automated BioContainers addition for bioconductor-ensdb.hsapiens.v75"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ensdb.hsapiens.v75", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ensdb.hsapiens.v75", "latest": {"2.99.0--r43hdfd78af_14": "sha256:776a3db37ad8db58d36b5857721f9a006035fe2199e4d4e2c4b3efd10520ef3a"}, "tags": {"2.99.0--r40hdfd78af_9": "sha256:0af9ffae60af053bd2d6c2bc5bdedd02d5539fd0b7aa2558848957919b90c319", "2.99.0--r42hdfd78af_13": "sha256:d40414d2dd25e918595e2df5542456559b5e08935c557790662196f14e7a921d", "2.99.0--r43hdfd78af_14": "sha256:776a3db37ad8db58d36b5857721f9a006035fe2199e4d4e2c4b3efd10520ef3a"}, "docker": "quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ensdb.hsapiens.v75", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ensdb.hsapiens.v75", "latest": {"2.99.0--r43hdfd78af_15": "sha256:92df4c082d6a925dd05b3ba004dfa57a9f4b1d988ebd8081db3f2479260e2506"}, "tags": {"2.99.0--r40hdfd78af_9": "sha256:0af9ffae60af053bd2d6c2bc5bdedd02d5539fd0b7aa2558848957919b90c319", "2.99.0--r42hdfd78af_13": "sha256:d40414d2dd25e918595e2df5542456559b5e08935c557790662196f14e7a921d", "2.99.0--r43hdfd78af_14": "sha256:776a3db37ad8db58d36b5857721f9a006035fe2199e4d4e2c4b3efd10520ef3a", "2.99.0--r43hdfd78af_15": "sha256:92df4c082d6a925dd05b3ba004dfa57a9f4b1d988ebd8081db3f2479260e2506"}, "docker": "quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75:2.99.0--r43hdfd78af_14
+$ shpc install quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75:2.99.0--r43hdfd78af_15
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75/2.99.0--r43hdfd78af_14
-$ module help quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75/2.99.0--r43hdfd78af_14
+$ module load quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75/2.99.0--r43hdfd78af_15
+$ module help quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75/2.99.0--r43hdfd78af_15
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

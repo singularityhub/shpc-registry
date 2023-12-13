@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xxmotif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xxmotif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xxmotif/container.yaml"
-updated_at: "2023-12-12 02:43:00.924154"
+updated_at: "2023-12-13 02:42:51.386329"
 latest: "1.6--h2d50403_2"
 container_url: "https://biocontainers.pro/tools/xxmotif"
 aliases:
