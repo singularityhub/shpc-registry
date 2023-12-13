@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-signifinder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-signifinder
 latest:
-  1.2.1--r43hdfd78af_0: sha256:43b29c6295dfa59ebd4ad6a080530b154f4f2dbc8c204ba54bfc1ea7a7104cdd
+  1.4.0--r43hdfd78af_0: sha256:aef4cb962ca3f150d33c845146a4b168d9c2ad65aa22d35a67669cb1c761ef40
 tags:
   1.0.0--r42hdfd78af_0: sha256:58a7ccbd9679e6f0e14e55378d18138dd6a412001c78490570ebee04545d51ed
   1.2.1--r43hdfd78af_0: sha256:43b29c6295dfa59ebd4ad6a080530b154f4f2dbc8c204ba54bfc1ea7a7104cdd
+  1.4.0--r43hdfd78af_0: sha256:aef4cb962ca3f150d33c845146a4b168d9c2ad65aa22d35a67669cb1c761ef40
 docker: quay.io/biocontainers/bioconductor-signifinder
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

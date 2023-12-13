@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-omicsprint
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-omicsprint
 latest:
-  1.20.0--r43hdfd78af_0: sha256:20e1ea0108f7a5256b8c69197c1de42dca7f8276dba0e815e22dd8780d202543
+  1.22.0--r43hdfd78af_0: sha256:e657ec8df06a9ac67496212496d4febb01259353550e2713fa2850604b0549cf
 tags:
   1.8.0--r40_0: sha256:04af044b6136068b46aab3715e0076b94cba78fcc8eb84d6ff6c612c8cb69335
   1.18.0--r42hdfd78af_0: sha256:0cc170a51247687dce03600f0693e6109cd8fdecb796afde5f196399091856d9
@@ -10,6 +10,7 @@ tags:
   1.12.0--r41hdfd78af_0: sha256:3c7bcfb93045723d226bd042f49ceecbd7a202da251f15b98480b0cc88d78d17
   1.10.0--r40hdfd78af_1: sha256:3dd15305ae623b684df6d0e3a921471266090856c22e754ef2d7187cd21c2091
   1.20.0--r43hdfd78af_0: sha256:20e1ea0108f7a5256b8c69197c1de42dca7f8276dba0e815e22dd8780d202543
+  1.22.0--r43hdfd78af_0: sha256:e657ec8df06a9ac67496212496d4febb01259353550e2713fa2850604b0549cf
 docker: quay.io/biocontainers/bioconductor-omicsprint
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

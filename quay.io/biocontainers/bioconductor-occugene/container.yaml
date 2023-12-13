@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-occugene
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-occugene
 latest:
-  1.60.0--r43hdfd78af_0: sha256:f518e80885c81c12608fce7f5c1689efc5dcc975fadc809fa27be5d0c6dd428d
+  1.62.0--r43hdfd78af_0: sha256:3e18720d899a24845a41a820b657696f4e90457b10a05ca42ceeda6173e40b66
 tags:
   1.54.0--r41hdfd78af_0: sha256:760936c64cb848488d5be6ab1ba36462af9b3493511e8a9a864562e898a9a9d4
   1.58.0--r42hdfd78af_0: sha256:706b314b0f63787f0989d292b4b0be79194094200e5fc1d5d81b2c4bc41efe94
   1.60.0--r43hdfd78af_0: sha256:f518e80885c81c12608fce7f5c1689efc5dcc975fadc809fa27be5d0c6dd428d
+  1.62.0--r43hdfd78af_0: sha256:3e18720d899a24845a41a820b657696f4e90457b10a05ca42ceeda6173e40b66
 docker: quay.io/biocontainers/bioconductor-occugene
