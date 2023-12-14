@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-occugene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-occugene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-occugene/container.yaml"
-updated_at: "2023-12-13 03:07:44.734545"
-latest: "1.60.0--r43hdfd78af_0"
+updated_at: "2023-12-14 03:05:42.370085"
+latest: "1.62.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-occugene"
 
 versions:
  - "1.54.0--r41hdfd78af_0"
  - "1.58.0--r42hdfd78af_0"
  - "1.60.0--r43hdfd78af_0"
+ - "1.62.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-occugene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-occugene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-occugene", "latest": {"1.60.0--r43hdfd78af_0": "sha256:f518e80885c81c12608fce7f5c1689efc5dcc975fadc809fa27be5d0c6dd428d"}, "tags": {"1.54.0--r41hdfd78af_0": "sha256:760936c64cb848488d5be6ab1ba36462af9b3493511e8a9a864562e898a9a9d4", "1.58.0--r42hdfd78af_0": "sha256:706b314b0f63787f0989d292b4b0be79194094200e5fc1d5d81b2c4bc41efe94", "1.60.0--r43hdfd78af_0": "sha256:f518e80885c81c12608fce7f5c1689efc5dcc975fadc809fa27be5d0c6dd428d"}, "docker": "quay.io/biocontainers/bioconductor-occugene"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-occugene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-occugene", "latest": {"1.62.0--r43hdfd78af_0": "sha256:3e18720d899a24845a41a820b657696f4e90457b10a05ca42ceeda6173e40b66"}, "tags": {"1.54.0--r41hdfd78af_0": "sha256:760936c64cb848488d5be6ab1ba36462af9b3493511e8a9a864562e898a9a9d4", "1.58.0--r42hdfd78af_0": "sha256:706b314b0f63787f0989d292b4b0be79194094200e5fc1d5d81b2c4bc41efe94", "1.60.0--r43hdfd78af_0": "sha256:f518e80885c81c12608fce7f5c1689efc5dcc975fadc809fa27be5d0c6dd428d", "1.62.0--r43hdfd78af_0": "sha256:3e18720d899a24845a41a820b657696f4e90457b10a05ca42ceeda6173e40b66"}, "docker": "quay.io/biocontainers/bioconductor-occugene"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-occugene.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-occugene
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-occugene:1.60.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-occugene:1.62.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-occugene/1.60.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-occugene/1.60.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-occugene/1.62.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-occugene/1.62.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

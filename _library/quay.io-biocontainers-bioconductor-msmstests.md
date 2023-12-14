@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-msmstests"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msmstests/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msmstests/container.yaml"
-updated_at: "2023-12-13 03:01:31.133009"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2023-12-14 02:59:37.534660"
+latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msmstests"
 aliases:
  - "zipcmp"
@@ -22,8 +22,9 @@ versions:
  - "1.32.0--r41hdfd78af_0"
  - "1.36.0--r42hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.40.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msmstests"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msmstests", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msmstests", "latest": {"1.38.0--r43hdfd78af_0": "sha256:22dd74a46f696ed24800cdeefa8c245fb30a1a7d27ced94398c70edad9c0095c"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:a81d1e873cbb4281b00ab6cd1bcc55342fe1807a10bb3a6a1ac0f1db2266248f", "1.36.0--r42hdfd78af_0": "sha256:3f7830b050bb6df353ad58a4f42d1c6d3bd51e1f93081bc9ec43a8ec22ec2b70", "1.38.0--r43hdfd78af_0": "sha256:22dd74a46f696ed24800cdeefa8c245fb30a1a7d27ced94398c70edad9c0095c"}, "docker": "quay.io/biocontainers/bioconductor-msmstests", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msmstests", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msmstests", "latest": {"1.40.0--r43hdfd78af_0": "sha256:3dc0cc70f1f7369fa0b4eadd69d3851968bbc105e02f25757b8ff701fe8d92ac"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:a81d1e873cbb4281b00ab6cd1bcc55342fe1807a10bb3a6a1ac0f1db2266248f", "1.36.0--r42hdfd78af_0": "sha256:3f7830b050bb6df353ad58a4f42d1c6d3bd51e1f93081bc9ec43a8ec22ec2b70", "1.38.0--r43hdfd78af_0": "sha256:22dd74a46f696ed24800cdeefa8c245fb30a1a7d27ced94398c70edad9c0095c", "1.40.0--r43hdfd78af_0": "sha256:3dc0cc70f1f7369fa0b4eadd69d3851968bbc105e02f25757b8ff701fe8d92ac"}, "docker": "quay.io/biocontainers/bioconductor-msmstests", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msmstests.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msmstests
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msmstests:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-msmstests:1.40.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msmstests/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-msmstests/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-msmstests/1.40.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msmstests/1.40.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-duoclustering2018"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-duoclustering2018/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-duoclustering2018/container.yaml"
-updated_at: "2023-12-13 03:05:38.456098"
-latest: "1.18.0--r43hdfd78af_0"
+updated_at: "2023-12-14 03:03:38.583977"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-duoclustering2018"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "1.12.0--r41hdfd78af_1"
  - "1.10.0--r41hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-duoclustering2018"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-duoclustering2018", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-duoclustering2018", "latest": {"1.18.0--r43hdfd78af_0": "sha256:8fc783543e3817ee55c43fe5bd51e86249e936b96c964ecf5f7cfa1a84a54f8e"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:83ae9e0b916cac4eeeb10d6e973fff2af28731a387b89bf8642b87e2b389c8b4", "1.16.0--r42hdfd78af_0": "sha256:b5e7257210d46a711dfed4686604324b65f7cd645a3f42c5894e2a4d5b0b690e", "1.12.0--r41hdfd78af_1": "sha256:5ccbfa5a7d8b3db1ede9a9b80f09fa250ac7bf03ab3857fa8017bd7fad6018e1", "1.10.0--r41hdfd78af_0": "sha256:b995d542878b2e3a48363830eadcf78bda52d179536122d1e943074981057a7c", "1.18.0--r43hdfd78af_0": "sha256:8fc783543e3817ee55c43fe5bd51e86249e936b96c964ecf5f7cfa1a84a54f8e"}, "docker": "quay.io/biocontainers/bioconductor-duoclustering2018", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-duoclustering2018", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-duoclustering2018", "latest": {"1.20.0--r43hdfd78af_0": "sha256:485c5f5c68ad900adf0d8ac91985ca72c3987061ca0887ccf47ef61b595c8a42"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:83ae9e0b916cac4eeeb10d6e973fff2af28731a387b89bf8642b87e2b389c8b4", "1.16.0--r42hdfd78af_0": "sha256:b5e7257210d46a711dfed4686604324b65f7cd645a3f42c5894e2a4d5b0b690e", "1.12.0--r41hdfd78af_1": "sha256:5ccbfa5a7d8b3db1ede9a9b80f09fa250ac7bf03ab3857fa8017bd7fad6018e1", "1.10.0--r41hdfd78af_0": "sha256:b995d542878b2e3a48363830eadcf78bda52d179536122d1e943074981057a7c", "1.18.0--r43hdfd78af_0": "sha256:8fc783543e3817ee55c43fe5bd51e86249e936b96c964ecf5f7cfa1a84a54f8e", "1.20.0--r43hdfd78af_0": "sha256:485c5f5c68ad900adf0d8ac91985ca72c3987061ca0887ccf47ef61b595c8a42"}, "docker": "quay.io/biocontainers/bioconductor-duoclustering2018", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-duoclustering2018.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-duoclustering2018
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-duoclustering2018:1.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-duoclustering2018:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-duoclustering2018/1.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-duoclustering2018/1.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-duoclustering2018/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-duoclustering2018/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

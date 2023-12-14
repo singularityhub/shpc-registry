@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deepfplearn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepfplearn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepfplearn/container.yaml"
-updated_at: "2023-12-13 02:43:42.903016"
-latest: "1.2--pyhdfd78af_0"
+updated_at: "2023-12-14 02:42:01.107408"
+latest: "2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deepfplearn"
 aliases:
  - "dfpl"
@@ -39,8 +39,9 @@ aliases:
  - "pyrsa-verify"
 versions:
  - "1.2--pyhdfd78af_0"
+ - "2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for deepfplearn"
-config: {"url": "https://biocontainers.pro/tools/deepfplearn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deepfplearn", "latest": {"1.2--pyhdfd78af_0": "sha256:6d1aad0d1db3f80273c301d884d5be9f219bb7879fac144865c3e29dff3723d2"}, "tags": {"1.2--pyhdfd78af_0": "sha256:6d1aad0d1db3f80273c301d884d5be9f219bb7879fac144865c3e29dff3723d2"}, "docker": "quay.io/biocontainers/deepfplearn", "aliases": {"dfpl": "/usr/local/bin/dfpl", "shortuuid": "/usr/local/bin/shortuuid", "wandb": "/usr/local/bin/wandb", "wb": "/usr/local/bin/wb", "h5delete": "/usr/local/bin/h5delete", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "aec": "/usr/local/bin/aec", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "markdown_py": "/usr/local/bin/markdown_py", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify"}}
+config: {"url": "https://biocontainers.pro/tools/deepfplearn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deepfplearn", "latest": {"2.0--pyhdfd78af_0": "sha256:33e0bc566dfecc6ad322b8a6c82c199cbe480ba4327e5fa5cf825c01e15b7c98"}, "tags": {"1.2--pyhdfd78af_0": "sha256:6d1aad0d1db3f80273c301d884d5be9f219bb7879fac144865c3e29dff3723d2", "2.0--pyhdfd78af_0": "sha256:33e0bc566dfecc6ad322b8a6c82c199cbe480ba4327e5fa5cf825c01e15b7c98"}, "docker": "quay.io/biocontainers/deepfplearn", "aliases": {"dfpl": "/usr/local/bin/dfpl", "shortuuid": "/usr/local/bin/shortuuid", "wandb": "/usr/local/bin/wandb", "wb": "/usr/local/bin/wb", "h5delete": "/usr/local/bin/h5delete", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "aec": "/usr/local/bin/aec", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "markdown_py": "/usr/local/bin/markdown_py", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepfplearn.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/deepfplearn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deepfplearn:1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/deepfplearn:2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deepfplearn/1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/deepfplearn/1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/deepfplearn/2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/deepfplearn/2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

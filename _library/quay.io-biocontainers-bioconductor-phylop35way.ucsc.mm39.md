@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39/container.yaml"
-updated_at: "2023-12-13 02:41:46.585282"
-latest: "3.16.0--r43hdfd78af_1"
+updated_at: "2023-12-14 02:40:06.277493"
+latest: "3.16.0--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-phylop35way.ucsc.mm39"
 aliases:
  - "installBiocDataPackage.sh"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "3.16.0--r42hdfd78af_0"
  - "3.16.0--r43hdfd78af_1"
+ - "3.16.0--r43hdfd78af_2"
 description: "singularity registry hpc automated addition for bioconductor-phylop35way.ucsc.mm39"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-phylop35way.ucsc.mm39", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-phylop35way.ucsc.mm39", "latest": {"3.16.0--r43hdfd78af_1": "sha256:a44982dc113616db2a55c2efee43d295e415e6e104176f8afe0f49ff558c97b3"}, "tags": {"3.16.0--r42hdfd78af_0": "sha256:ac889c52e7f157831744f6c625fc130a0eb4856dd4d92338cfdbd6ed7e9305ac", "3.16.0--r43hdfd78af_1": "sha256:a44982dc113616db2a55c2efee43d295e415e6e104176f8afe0f49ff558c97b3"}, "docker": "quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-phylop35way.ucsc.mm39", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-phylop35way.ucsc.mm39", "latest": {"3.16.0--r43hdfd78af_2": "sha256:42e8362af32a21daeb3fbedf1fabab0fb289809c89fc413403f2f45be2f32553"}, "tags": {"3.16.0--r42hdfd78af_0": "sha256:ac889c52e7f157831744f6c625fc130a0eb4856dd4d92338cfdbd6ed7e9305ac", "3.16.0--r43hdfd78af_1": "sha256:a44982dc113616db2a55c2efee43d295e415e6e104176f8afe0f49ff558c97b3", "3.16.0--r43hdfd78af_2": "sha256:42e8362af32a21daeb3fbedf1fabab0fb289809c89fc413403f2f45be2f32553"}, "docker": "quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39:3.16.0--r43hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39:3.16.0--r43hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39/3.16.0--r43hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39/3.16.0--r43hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39/3.16.0--r43hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39/3.16.0--r43hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

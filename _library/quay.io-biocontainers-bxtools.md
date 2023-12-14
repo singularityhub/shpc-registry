@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bxtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bxtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bxtools/container.yaml"
-updated_at: "2023-12-13 02:46:44.075499"
+updated_at: "2023-12-14 02:45:02.066452"
 latest: "0.1.0--hf5e1c6e_5"
 container_url: "https://biocontainers.pro/tools/bxtools"
 aliases:
