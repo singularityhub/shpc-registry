@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-guitar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-guitar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-guitar/container.yaml"
-updated_at: "2023-12-14 02:47:25.363449"
+updated_at: "2023-12-14 03:18:06.864158"
 latest: "2.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-guitar"
 aliases:

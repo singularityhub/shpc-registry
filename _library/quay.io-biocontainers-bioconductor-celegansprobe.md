@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-celegansprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-celegansprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-celegansprobe/container.yaml"
-updated_at: "2023-12-14 02:58:47.363384"
+updated_at: "2023-12-14 03:29:40.872190"
 latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-celegansprobe"
 

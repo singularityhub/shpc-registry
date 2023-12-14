@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spidermir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spidermir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spidermir/container.yaml"
-updated_at: "2023-12-14 02:57:39.014807"
+updated_at: "2023-12-14 03:28:31.128513"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spidermir"
 aliases:

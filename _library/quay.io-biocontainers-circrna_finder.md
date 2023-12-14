@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/circrna_finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circrna_finder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circrna_finder/container.yaml"
-updated_at: "2023-12-14 03:03:16.985618"
+updated_at: "2023-12-14 03:34:15.551707"
 latest: "1.2--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/circrna_finder"
 aliases:
