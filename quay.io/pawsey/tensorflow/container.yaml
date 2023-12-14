@@ -1,0 +1,18 @@
+docker: quay.io/pawsey/tensorflow
+url: https://singularity-hpc.readthedocs.io
+maintainer: dipietrantonio 
+features:
+  gpu: true
+
+aliases:
+  python: /usr/bin/python3  
+  python3: /usr/bin/python3  
+  venv: /usr/bin/python3 -m venv --system-site-packages
+  bash: /bin/bash
+
+description: Pawsey build of TensorFlow for AMD GPUs.
+
+latest:
+  2.12.1.570-rocm5.6.0: sha256:7ed1455b773cfa21229c69502e7a4c48766ee8791076526fb9782ed4161cd099
+tags:
+  2.12.1.570-rocm5.6.0: sha256:7ed1455b773cfa21229c69502e7a4c48766ee8791076526fb9782ed4161cd099
