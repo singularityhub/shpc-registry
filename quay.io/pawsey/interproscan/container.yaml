@@ -1,0 +1,12 @@
+docker: quay.io/sarahbeecroft9/interproscan
+url: https://quay.io/sarahbeecroft9/interproscan
+maintainer: '@sarahbeecroft'
+description: Interproscan software v5.56-89.0, which run the scanning algorithms from the InterPro database in an integrated way.
+latest:
+  '5.56-89.0': sha256:ffd13641d13632fb254cd90bae14fbb8332e86d0fbb214ba0074c3fd68fe0070
+tags:
+  '5.56-89.0': sha256:ffd13641d13632fb254cd90bae14fbb8332e86d0fbb214ba0074c3fd68fe0070
+aliases:
+- name: interproscan.sh
+  command: /usr/local/interproscan/interproscan.sh
+  singularity_options: -B /scratch/references/interproscan-5.56-89.0/data:/usr/local/interproscan/data
