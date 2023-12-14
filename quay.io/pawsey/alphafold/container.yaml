@@ -1,0 +1,12 @@
+docker: quay.io/sarahbeecroft9/alphafold
+url: https://quay.io/sarahbeecroft9/alphafold
+maintainer: '@sarahbeecroft'
+description: AlphaFold is an artificial intelligence (AI) program developed by Alphabet's/Google's DeepMind which performs predictions of protein structure. This module runs on CPU and NVIDIA GPU only.
+latest:
+  '2.2.3': sha256:cb4af40028e49dd340403b469ff667c924672c5c1ac3caa40eb4f2c680ad74a0
+tags:
+  '2.2.3': sha256:cb4af40028e49dd340403b469ff667c924672c5c1ac3caa40eb4f2c680ad74a0
+aliases:
+- name: alphafold
+  command: bash /app/run_alphafold.sh
+  singularity_options: -B /scratch/references/alphafold
