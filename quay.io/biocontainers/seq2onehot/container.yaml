@@ -2,11 +2,9 @@ url: https://biocontainers.pro/tools/seq2onehot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seq2onehot
 latest:
-  0.0.1--pyhfa5458b_0: 'crane digest quay.io/biocontainers/seq2onehot:0.0.1--pyhfa5458b_0:
-    unrecognized HTTP status: 502 Bad Gateway'
+  0.0.1--pyhfa5458b_0: sha256:6d116b0b2ea78644926072e1dbc2b0891e7810e526a4b5069c3a6122022bc31f
 tags:
-  0.0.1--pyhfa5458b_0: 'crane digest quay.io/biocontainers/seq2onehot:0.0.1--pyhfa5458b_0:
-    unrecognized HTTP status: 502 Bad Gateway'
+  0.0.1--pyhfa5458b_0: sha256:6d116b0b2ea78644926072e1dbc2b0891e7810e526a4b5069c3a6122022bc31f
 docker: quay.io/biocontainers/seq2onehot
 aliases:
   seq2onehot: /usr/local/bin/seq2onehot

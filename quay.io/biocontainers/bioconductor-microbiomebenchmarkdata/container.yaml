@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-microbiomebenchmarkdata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-microbiomebenchmarkdata
 latest:
-  1.2.0--r43hdfd78af_0: sha256:73b73f006bf2cacb41bea2f14def1e3522e6143e392f3c78af94548b7df1570f
+  1.4.0--r43hdfd78af_0: sha256:b00201ec86d6425e148d1c7cfa1b14d3a9b598a343709c02e98b596e9047f117
 tags:
   1.0.0--r42hdfd78af_0: sha256:5364c3adc162418eb7e6b109e50b4231ff39d9c4b3668a5150c5bac738443465
   1.2.0--r43hdfd78af_0: sha256:73b73f006bf2cacb41bea2f14def1e3522e6143e392f3c78af94548b7df1570f
+  1.4.0--r43hdfd78af_0: sha256:b00201ec86d6425e148d1c7cfa1b14d3a9b598a343709c02e98b596e9047f117
 docker: quay.io/biocontainers/bioconductor-microbiomebenchmarkdata
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

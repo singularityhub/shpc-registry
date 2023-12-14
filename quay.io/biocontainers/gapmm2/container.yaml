@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gapmm2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gapmm2
 latest:
-  0.2.0--pyhdfd78af_0: sha256:a41112ff73ef13209d38658c8fc68a8bb06635f76e3b6b0a7076b1c6dce94d6c
+  23.11.3--pyhdfd78af_0: sha256:58d3894bc9a7f43959a2798c59aa046d277db031a13ec208f64cee96bd252643
 tags:
   0.2.0--pyhdfd78af_0: sha256:a41112ff73ef13209d38658c8fc68a8bb06635f76e3b6b0a7076b1c6dce94d6c
+  23.11.3--pyhdfd78af_0: sha256:58d3894bc9a7f43959a2798c59aa046d277db031a13ec208f64cee96bd252643
 docker: quay.io/biocontainers/gapmm2
 aliases:
   gapmm2: /usr/local/bin/gapmm2

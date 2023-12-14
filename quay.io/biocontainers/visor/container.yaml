@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/visor
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for visor
 latest:
-  1.1.2--pyh5e36f6f_0: sha256:224d83e0c27671220a8728f18d640bbbb82b3283c3a54fb4b4aca9057b9722cb
+  1.1.2.1--pyh7cba7a3_0: sha256:082e33cea817cb0fbd23f57382389d3c54da1b63580e5d7f66751510f000fb8c
 tags:
   1.1.2--pyh5e36f6f_0: sha256:224d83e0c27671220a8728f18d640bbbb82b3283c3a54fb4b4aca9057b9722cb
+  1.1.2.1--pyh7cba7a3_0: sha256:082e33cea817cb0fbd23f57382389d3c54da1b63580e5d7f66751510f000fb8c
 docker: quay.io/biocontainers/visor
 aliases:
   VISOR: /usr/local/bin/VISOR

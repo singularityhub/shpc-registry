@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-drosophila2.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-drosophila2.db
 latest:
-  3.13.0--r42hdfd78af_2: sha256:790148654f1f79b44ddd46bdd5fe97dbf8b624c529d186a23678b791ecabedda
+  3.13.0--r43hdfd78af_4: sha256:bcc4588dea30f88ff5731481e695005394c767283ea3d779122dbcdb5a533818
 tags:
   3.2.3--r41hdfd78af_7: sha256:ee2b03083bfe42279c61e0d6ab55e699f16a8e25fb79289a011084425c96df1b
   3.13.0--r42hdfd78af_2: sha256:790148654f1f79b44ddd46bdd5fe97dbf8b624c529d186a23678b791ecabedda
+  3.13.0--r43hdfd78af_4: sha256:bcc4588dea30f88ff5731481e695005394c767283ea3d779122dbcdb5a533818
 docker: quay.io/biocontainers/bioconductor-drosophila2.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

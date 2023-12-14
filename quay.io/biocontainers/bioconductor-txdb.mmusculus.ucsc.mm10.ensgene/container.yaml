@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm10.ensge
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
 latest:
-  3.4.0--r43hdfd78af_16: sha256:88a689bd3f6213fed957d2a6b1c5933d520c11f0c2c55f5d4d0b4be66329b5a0
+  3.4.0--r43hdfd78af_17: sha256:a169fdcec8fd0ba3878b44e55fd90ecf1ed1e10f69a34990d91d426ff0cd3c65
 tags:
   3.4.0--r40_9: sha256:b87d48cf341dba877002e1d819a519170e1e2163597a24fd8e380ee0035579e2
   3.4.0--r42hdfd78af_15: sha256:e54522e15920c9a6740f3b89e1dd5c2154b12b0f6a194e29d510b08a7d87c252
   3.4.0--r43hdfd78af_16: sha256:88a689bd3f6213fed957d2a6b1c5933d520c11f0c2c55f5d4d0b4be66329b5a0
+  3.4.0--r43hdfd78af_17: sha256:a169fdcec8fd0ba3878b44e55fd90ecf1ed1e10f69a34990d91d426ff0cd3c65
 docker: quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

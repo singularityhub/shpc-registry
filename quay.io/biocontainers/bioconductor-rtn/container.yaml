@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rtn
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rtn
 latest:
-  2.24.0--r43hdfd78af_0: sha256:a31f13c5726216d81beffffd421c327e8956606f7ccf1d09f71e228d34a25e5d
+  2.26.0--r43hdfd78af_0: sha256:43468ab9bdb3dd16cb4404151ddd76b35f3f6936b237e4ed94570ee7757093e2
 tags:
   2.8.1--r36_0: sha256:35d61a9af6052720d1e7c56e62324da7c2ace255dc9520a55f511974783d04ce
   2.22.0--r42hdfd78af_0: sha256:0b85e2cafa7db1dbb83aad70373c633bfa219805b9ed60f16ed58cd41d17420b
@@ -11,6 +11,7 @@ tags:
   2.14.1--r40hdfd78af_0: sha256:1370b56672a33aece9b61130e429e9c64c3dd5791d000fc0940a369c74b2d1af
   2.12.0--r40_0: sha256:6418bf24e427ec679deb6b1ec60f9462ae8b4a776a12d94843a0b27cabbe5099
   2.24.0--r43hdfd78af_0: sha256:a31f13c5726216d81beffffd421c327e8956606f7ccf1d09f71e228d34a25e5d
+  2.26.0--r43hdfd78af_0: sha256:43468ab9bdb3dd16cb4404151ddd76b35f3f6936b237e4ed94570ee7757093e2
 docker: quay.io/biocontainers/bioconductor-rtn
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

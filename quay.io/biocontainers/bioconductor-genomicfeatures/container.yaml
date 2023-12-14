@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-genomicfeatures
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-genomicfeatures
 latest:
-  1.52.1--r43hdfd78af_0: sha256:54ea43c8b5168d70816ba23e5dc621d8c4669125283bfce61fa03b9903f4cf7e
+  1.54.1--r43hdfd78af_0: sha256:99bc387a86a70afd73f8d80bc680986dd1a8ef9d25a08584d8014b4054fe9cfe
 tags:
   1.46.1--r41hdfd78af_0: sha256:18cb4d8ca45714d0ce3f1b6ff1c570771fe85588e1e55f6aa913d7c098dbb56b
   1.50.2--r42hdfd78af_0: sha256:1254064bd08761e07e10ff3e7eb36e8094b95e770819a489f719367b1fb1202a
   1.52.1--r43hdfd78af_0: sha256:54ea43c8b5168d70816ba23e5dc621d8c4669125283bfce61fa03b9903f4cf7e
+  1.54.1--r43hdfd78af_0: sha256:99bc387a86a70afd73f8d80bc680986dd1a8ef9d25a08584d8014b4054fe9cfe
 docker: quay.io/biocontainers/bioconductor-genomicfeatures

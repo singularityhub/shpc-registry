@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/mercat2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mercat2
 latest:
-  1.2--pyhdfd78af_0: sha256:97398c9e68eca78fc1ceb7a4fd2a21fa47cb1daa3f343e9a1c4ec3eb089bba66
+  1.3--pyhdfd78af_0: sha256:6396cbe9c95f85b755a769c8acd6d5fa7ab8040b13053cab9a4fc7fc48d1b3c9
 tags:
   1.0--pyhdfd78af_0: sha256:4ba0fa4dd73223956a9487181305a18b5774e603fbbd79f87c10799349fd78b2
   1.0--pyhdfd78af_1: sha256:26791536cd3b5edbcb611098a4bffe84c033146195d65dd3ad5e27cf4156fb15
   1.2--pyhdfd78af_0: sha256:97398c9e68eca78fc1ceb7a4fd2a21fa47cb1daa3f343e9a1c4ec3eb089bba66
   1.1--pyhdfd78af_0: sha256:c81304d882eb0ad3869c005b47cf3cb335b1c5d10e7860d114bed0eb78f998c2
+  1.3--pyhdfd78af_0: sha256:6396cbe9c95f85b755a769c8acd6d5fa7ab8040b13053cab9a4fc7fc48d1b3c9
 docker: quay.io/biocontainers/mercat2
 aliases:
   countAssembly.py: /usr/local/bin/countAssembly.py

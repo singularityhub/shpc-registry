@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/sage-proteomics
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sage-proteomics
 latest:
-  0.14.4--h031d066_0: sha256:d76b6cd9e74861b7f82c46de360489adcafb71214dc953fa0be178c50eba1cdf
+  0.14.5--h031d066_0: sha256:c25316faea9193e520b68702c00ea214467e9f5205b8bce7023667b55d25d34e
 tags:
   0.8.1--hec16e2b_0: sha256:c66ead864888868623284914f811e4c4c2894a8bb7bb6d55f55bb5aae15dcf6f
   0.9.4--hec16e2b_0: sha256:ec89353ebcdda930283732d7bf904bc5d624a2f864672ea24d467066afaa8087
@@ -16,6 +16,7 @@ tags:
   0.14.0--h031d066_0: sha256:3d53cca352e16935def040797f19dffbe69b754d22d6639353765587f3e0e5e2
   0.14.3--h031d066_0: sha256:d8d6e58529b71dd653fda74b3cdd0b9e39a2e6fa81cf91bc39d1654d98d8d4a2
   0.14.4--h031d066_0: sha256:d76b6cd9e74861b7f82c46de360489adcafb71214dc953fa0be178c50eba1cdf
+  0.14.5--h031d066_0: sha256:c25316faea9193e520b68702c00ea214467e9f5205b8bce7023667b55d25d34e
 docker: quay.io/biocontainers/sage-proteomics
 aliases:
   sage: /usr/local/bin/sage

@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-txdb.celegans.ucsc.ce11.ensgen
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-txdb.celegans.ucsc.ce11.ensgene
 latest:
-  3.15.0--r43hdfd78af_1: sha256:7ed692ae3ecda5c0802844030b89f19e47629b1f2c5121c9d50fa2dac6d996b6
+  3.15.0--r43hdfd78af_2: sha256:59f7fa754cc8de2637cae2338fc454c3f7e817864c4d4ef05db675cc620f1966
 tags:
   3.4.6--r36_2: sha256:77bc5f4a0b6443cb5f421ff151ad3ed5e8cf19a3567c292f79123e54564aa28a
   3.15.0--r42hdfd78af_0: sha256:40c79f13ec2ba3ecaa60f27cccd2784713b1230048882dfe75258005050d0e31
   3.12.0--r41hdfd78af_4: sha256:e8a608e6e2caee6666c5e81b342329cee5962e01df4f0ccff7ec6727218adb30
   3.11.0--r40_0: sha256:8f1918e12dd22c9954df879b5264b2a1e3f9999e59587403c22a1dc4666121be
   3.15.0--r43hdfd78af_1: sha256:7ed692ae3ecda5c0802844030b89f19e47629b1f2c5121c9d50fa2dac6d996b6
+  3.15.0--r43hdfd78af_2: sha256:59f7fa754cc8de2637cae2338fc454c3f7e817864c4d4ef05db675cc620f1966
 docker: quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
