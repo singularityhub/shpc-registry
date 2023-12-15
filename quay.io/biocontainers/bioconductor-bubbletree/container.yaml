@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-bubbletree
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bubbletree
 latest:
-  2.30.0--r43hdfd78af_0: sha256:2ceedebff36862ddaeb6fc128f46ef32fb3c33de59871882470ac5629035d046
+  2.32.0--r43hdfd78af_0: sha256:450820ce16f1534d6ef46f61f1fe93294c5e7e55d89e14a7cb8151b4b371238b
 tags:
   2.8.0--r3.4.1_1: sha256:56ec8558a11756a965cd4a986c572020d91f929b7f3d38c6ce1bbc55f21f0aca
   2.28.0--r42hdfd78af_0: sha256:04c161353e7062a4aea9f7fe57e5a7a768d7914a7de670ad04eb8dd50b293a96
@@ -11,6 +11,7 @@ tags:
   2.20.0--r40hdfd78af_1: sha256:6cb36450630d116440fa3eff2654aec3d39a3f61f4f9d2e5eba451032d308c14
   2.18.0--r40_0: sha256:12419db5c1cc89c0fcb2fa599af8eacac33f899d64bbae80965e147af285efff
   2.30.0--r43hdfd78af_0: sha256:2ceedebff36862ddaeb6fc128f46ef32fb3c33de59871882470ac5629035d046
+  2.32.0--r43hdfd78af_0: sha256:450820ce16f1534d6ef46f61f1fe93294c5e7e55d89e14a7cb8151b4b371238b
 docker: quay.io/biocontainers/bioconductor-bubbletree
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-msstatsqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-msstatsqc
 latest:
-  2.18.0--r43hdfd78af_0: sha256:51f9dbb5831973fc763b7b16533dadead732901f0af86f02394681162866f309
+  2.20.0--r43hdfd78af_0: sha256:48310e0ab19c11b2985ee2d808e60b3df6868942d9b27837d5517f679116ee26
 tags:
   2.8.0--r40hdfd78af_1: sha256:7f31f7bc12399c1f1b4037bccba555b145a535064d0f40218b1a97e7421d044a
   2.16.0--r42hdfd78af_0: sha256:8ec79a8acdeccb442dcb875b978cc7f04e721cada2919fefec9addbf4e0ba82c
   2.12.0--r41hdfd78af_0: sha256:917287397c3a46792a2faf707f94fbc263694581be41f4ab894e100dd47f7241
   2.10.0--r41hdfd78af_0: sha256:0fcd0a67d0b40ca29643051c6d666a9dcc824a80c2d1c16ddc154674bacad9b4
   2.18.0--r43hdfd78af_0: sha256:51f9dbb5831973fc763b7b16533dadead732901f0af86f02394681162866f309
+  2.20.0--r43hdfd78af_0: sha256:48310e0ab19c11b2985ee2d808e60b3df6868942d9b27837d5517f679116ee26
 docker: quay.io/biocontainers/bioconductor-msstatsqc
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf

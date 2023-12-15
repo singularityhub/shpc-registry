@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-bsgenome
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bsgenome
 latest:
-  1.68.0--r43hdfd78af_0: sha256:d6199f425696411d019f67f280535057c0f051b8ad225a8ca6a7edf51d74d6e8
+  1.70.1--r43hdfd78af_0: sha256:362141ff833323cb5ef33f5c6cade17ae07be1ae5c25768392d950e2a07a7879
 tags:
   1.62.0--r41hdfd78af_0: sha256:bffb3c8a796fe6d90a2e396d3057ca8466d4665e65f0e00bdffdc1ce32efeaae
   1.66.1--r42hdfd78af_0: sha256:7efb620cefb91478615f1e4764a04900667d15abcd92a50fd39cd3a84c2aaba7
   1.66.3--r42hdfd78af_0: sha256:edea25c2b9860e0bb8cc7f96344574bfc46c9c19ece7cc028b0e077c3d9b3928
   1.68.0--r43hdfd78af_0: sha256:d6199f425696411d019f67f280535057c0f051b8ad225a8ca6a7edf51d74d6e8
+  1.70.1--r43hdfd78af_0: sha256:362141ff833323cb5ef33f5c6cade17ae07be1ae5c25768392d950e2a07a7879
 docker: quay.io/biocontainers/bioconductor-bsgenome

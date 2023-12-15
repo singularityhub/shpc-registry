@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-msgbsr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-msgbsr
 latest:
-  1.24.0--r43hdfd78af_0: sha256:c425cdbff409e374d90420a6843b80401817b0dde445818ed354d0934e9b94ce
+  1.26.0--r43hdfd78af_0: sha256:e3e68a82ff6653bca8c449f40b9ddf59301c2ac7b54daa82c4b5738b7cd70271
 tags:
   1.8.0--r36_1: sha256:8f30b00b31b4d310358c900640845a175b0bbe4885ef71dd497998157af9ae27
   1.22.0--r42hdfd78af_0: sha256:e4b156e530911c72dc782e2d50bad0cf99bbdcdbdbf1744e9940248475ac5a8a
@@ -11,6 +11,7 @@ tags:
   1.12.0--r40_0: sha256:669345d7ce3d9a995f5dcd07de5b8a9777db6578332e2355ca9803b569b10d7e
   1.10.0--r36_0: sha256:ab6d527a9d1d3dd2b6b5e9439b97d928c333036ab9c7555da4a0a0dae7997ed9
   1.24.0--r43hdfd78af_0: sha256:c425cdbff409e374d90420a6843b80401817b0dde445818ed354d0934e9b94ce
+  1.26.0--r43hdfd78af_0: sha256:e3e68a82ff6653bca8c449f40b9ddf59301c2ac7b54daa82c4b5738b7cd70271
 docker: quay.io/biocontainers/bioconductor-msgbsr
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

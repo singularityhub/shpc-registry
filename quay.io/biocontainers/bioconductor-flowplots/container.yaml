@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-flowplots
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-flowplots
 latest:
-  1.48.0--r43hdfd78af_0: sha256:727936a2e1e325ce3adabc7c374084f1ffe3f283ab7bf99be05b747625c2ece9
+  1.50.0--r43hdfd78af_0: sha256:309d6850be3e150f03c616a5f52432942ea7864e8af99bee722cf82c7da0b636
 tags:
   1.42.0--r41hdfd78af_0: sha256:6ea6f9a9c89f7e310761354fa30eda014ae3ca8137e143bd1136d6b1e59dd631
   1.46.0--r42hdfd78af_0: sha256:2b93832564ed1bf797e0b3fa27e1fcdd74933e7fe02e031731bafd3935fc636c
   1.48.0--r43hdfd78af_0: sha256:727936a2e1e325ce3adabc7c374084f1ffe3f283ab7bf99be05b747625c2ece9
+  1.50.0--r43hdfd78af_0: sha256:309d6850be3e150f03c616a5f52432942ea7864e8af99bee722cf82c7da0b636
 docker: quay.io/biocontainers/bioconductor-flowplots

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-spatialomicsoverlay
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-spatialomicsoverlay
 latest:
-  1.0.0--r43hdfd78af_0: sha256:8de92ac035a8cf3f4d0d61cec8bf8b0284fb4e7002f29b88a03c6c446d79e6a0
+  1.2.1--r43hdfd78af_0: sha256:cce406de0754a86b6fbf7129951b78915eb1fc885c5f1e488113e9bb65febd95
 tags:
   1.0.0--r43hdfd78af_0: sha256:8de92ac035a8cf3f4d0d61cec8bf8b0284fb4e7002f29b88a03c6c446d79e6a0
+  1.2.1--r43hdfd78af_0: sha256:cce406de0754a86b6fbf7129951b78915eb1fc885c5f1e488113e9bb65febd95
 docker: quay.io/biocontainers/bioconductor-spatialomicsoverlay
 aliases:
   jwebserver: /usr/local/bin/jwebserver

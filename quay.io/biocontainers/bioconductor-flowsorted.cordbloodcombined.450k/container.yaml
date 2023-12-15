@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-flowsorted.cordbloodcombined.4
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-flowsorted.cordbloodcombined.450k
 latest:
-  1.16.0--r43hdfd78af_0: sha256:0ff4ab3862dbd141adab49415c5fec8a0d99cc716989eb3466fc02a24cb5e218
+  1.18.0--r43hdfd78af_0: sha256:8787a7c12ff9a09d2beac2c021cc123dbb7881b0b610878b9ad9e4e0b5c6d8d0
 tags:
   1.8.0--r41hdfd78af_0: sha256:6bc0021db4dc576e58cec8d50ec1f00f52c4012d2e9e6a05a671da1f6fed14be
   1.14.0--r42hdfd78af_0: sha256:202ef62ecf328e89b5f3373719fc47d6700361ad670567bded2707ada5cc21cb
   1.10.0--r41hdfd78af_1: sha256:9d09ef880e256f499f4f1d0d0ffb2f0e3c1c3e162d9dc88dc6f92fddb3f00b73
   1.16.0--r43hdfd78af_0: sha256:0ff4ab3862dbd141adab49415c5fec8a0d99cc716989eb3466fc02a24cb5e218
+  1.18.0--r43hdfd78af_0: sha256:8787a7c12ff9a09d2beac2c021cc123dbb7881b0b610878b9ad9e4e0b5c6d8d0
 docker: quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

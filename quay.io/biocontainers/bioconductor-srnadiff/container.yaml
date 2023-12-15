@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-srnadiff
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-srnadiff
 latest:
-  1.18.0--r42hf17093f_1: sha256:0f82645801925c4e5669e1faeba6fbb6562a65138dceeeb20152d7c51c18548f
+  1.22.0--r43hf17093f_0: sha256:9eb082882926775ba5c7a3c6a1e05a44215f1ff18de737e65cf737d664da0126
 tags:
   1.8.0--r40h5f743cb_0: sha256:89ea9f33aa6fbf9cf90faee540f9da52134e2242b9e1760d180a7b79875b71cf
   1.18.0--r42hc247a5b_0: sha256:e041de989ecc5e35a04feaa50878e6a80fbe438295ee7ae824a2ca249c68506c
@@ -10,6 +10,7 @@ tags:
   1.12.2--r41h399db7b_0: sha256:9dce7f5e1adbd005dfaca8910b2729e8cd59d2de414a7ff2eaa8d077639d7677
   1.10.1--r40h399db7b_0: sha256:b0fd963364a6fa438780aa09346677377d029dc25690935aa537ff8a0bdecf2c
   1.18.0--r42hf17093f_1: sha256:0f82645801925c4e5669e1faeba6fbb6562a65138dceeeb20152d7c51c18548f
+  1.22.0--r43hf17093f_0: sha256:9eb082882926775ba5c7a3c6a1e05a44215f1ff18de737e65cf737d664da0126
 docker: quay.io/biocontainers/bioconductor-srnadiff
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc
