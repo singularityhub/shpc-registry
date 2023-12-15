@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cellsnake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cellsnake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cellsnake/container.yaml"
-updated_at: "2023-12-14 03:27:12.261636"
+updated_at: "2023-12-15 03:04:12.308251"
 latest: "0.2.0.11--pyh7cba7a3_2"
 container_url: "https://biocontainers.pro/tools/cellsnake"
 aliases:

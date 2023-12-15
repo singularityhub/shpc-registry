@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tetyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tetyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tetyper/container.yaml"
-updated_at: "2023-12-14 03:31:43.282445"
+updated_at: "2023-12-15 02:47:21.931050"
 latest: "1.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/tetyper"
 aliases:

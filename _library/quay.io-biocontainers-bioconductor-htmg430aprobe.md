@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-htmg430aprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-htmg430aprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htmg430aprobe/container.yaml"
-updated_at: "2023-12-14 03:36:49.545981"
+updated_at: "2023-12-15 02:36:18.928657"
 latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-htmg430aprobe"
 

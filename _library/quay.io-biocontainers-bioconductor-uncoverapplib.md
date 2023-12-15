@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-uncoverapplib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-uncoverapplib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-uncoverapplib/container.yaml"
-updated_at: "2023-12-14 03:01:40.963940"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2023-12-15 03:03:43.943715"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-uncoverapplib"
 aliases:
  - "pandoc"
@@ -13,8 +13,9 @@ versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.7.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-uncoverapplib"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-uncoverapplib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-uncoverapplib", "latest": {"1.10.0--r43hdfd78af_0": "sha256:065515878daf2714bd0f16edc6b19dd9a18abfd678b29bba2d1333b2616b43aa"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:2e83b5823bfc0d57c39d8f5022a0282962202c025741ea7481932f9114dab87b", "1.7.0--r42hdfd78af_0": "sha256:26dad16b482655f35994f696148a2ffe0f0430f7daa858d253be5d2afb46f45a", "1.10.0--r43hdfd78af_0": "sha256:065515878daf2714bd0f16edc6b19dd9a18abfd678b29bba2d1333b2616b43aa"}, "docker": "quay.io/biocontainers/bioconductor-uncoverapplib", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-uncoverapplib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-uncoverapplib", "latest": {"1.12.0--r43hdfd78af_0": "sha256:557767e28339ed726a7f89cabb7f8d31262dcad8d7e70e8250a1c19055695366"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:2e83b5823bfc0d57c39d8f5022a0282962202c025741ea7481932f9114dab87b", "1.7.0--r42hdfd78af_0": "sha256:26dad16b482655f35994f696148a2ffe0f0430f7daa858d253be5d2afb46f45a", "1.10.0--r43hdfd78af_0": "sha256:065515878daf2714bd0f16edc6b19dd9a18abfd678b29bba2d1333b2616b43aa", "1.12.0--r43hdfd78af_0": "sha256:557767e28339ed726a7f89cabb7f8d31262dcad8d7e70e8250a1c19055695366"}, "docker": "quay.io/biocontainers/bioconductor-uncoverapplib", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-uncoverapplib.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-uncoverapplib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-uncoverapplib:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-uncoverapplib:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-uncoverapplib/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-uncoverapplib/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-uncoverapplib/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-uncoverapplib/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

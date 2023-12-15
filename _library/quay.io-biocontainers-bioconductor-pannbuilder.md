@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pannbuilder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pannbuilder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pannbuilder/container.yaml"
-updated_at: "2023-12-14 03:24:56.459624"
+updated_at: "2023-12-15 02:53:34.853719"
 latest: "1.43.0--r341_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pannbuilder"
 aliases:

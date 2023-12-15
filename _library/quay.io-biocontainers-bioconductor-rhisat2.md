@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rhisat2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rhisat2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rhisat2/container.yaml"
-updated_at: "2023-12-14 03:30:33.380416"
+updated_at: "2023-12-15 02:35:19.469740"
 latest: "1.16.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rhisat2"
 aliases:

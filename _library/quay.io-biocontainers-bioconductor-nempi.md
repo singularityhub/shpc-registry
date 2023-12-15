@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-nempi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nempi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nempi/container.yaml"
-updated_at: "2023-12-14 03:06:17.031961"
-latest: "1.8.0--r43hdfd78af_0"
+updated_at: "2023-12-15 02:49:04.887969"
+latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nempi"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
+ - "1.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nempi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nempi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nempi", "latest": {"1.8.0--r43hdfd78af_0": "sha256:d2a947de06134374ad5f86bae8621e16b703c07ce3ff7af725bf1d80cfc826cb"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:3cba6b8ad8c5317d4ca619001e0fcba8316a43e45bb57b3517c8fee48c3e3491", "1.6.0--r42hdfd78af_0": "sha256:49521c8517ebc4f9f61dec79da32acf6eef726a20d809f1f74089ba0219c084e", "1.8.0--r43hdfd78af_0": "sha256:d2a947de06134374ad5f86bae8621e16b703c07ce3ff7af725bf1d80cfc826cb"}, "docker": "quay.io/biocontainers/bioconductor-nempi"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nempi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nempi", "latest": {"1.10.0--r43hdfd78af_0": "sha256:61acb592a6392bdb968bac9950b25ca6c94b153b225756e141715d0311a7056a"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:3cba6b8ad8c5317d4ca619001e0fcba8316a43e45bb57b3517c8fee48c3e3491", "1.6.0--r42hdfd78af_0": "sha256:49521c8517ebc4f9f61dec79da32acf6eef726a20d809f1f74089ba0219c084e", "1.8.0--r43hdfd78af_0": "sha256:d2a947de06134374ad5f86bae8621e16b703c07ce3ff7af725bf1d80cfc826cb", "1.10.0--r43hdfd78af_0": "sha256:61acb592a6392bdb968bac9950b25ca6c94b153b225756e141715d0311a7056a"}, "docker": "quay.io/biocontainers/bioconductor-nempi"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nempi.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nempi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nempi:1.8.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-nempi:1.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nempi/1.8.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-nempi/1.8.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-nempi/1.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-nempi/1.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-muscle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-muscle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-muscle/container.yaml"
-updated_at: "2023-12-14 03:36:59.136498"
-latest: "3.42.0--r43hf17093f_0"
+updated_at: "2023-12-15 02:44:01.259144"
+latest: "3.44.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-muscle"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "3.40.0--r42hc247a5b_0"
  - "3.40.0--r42hf17093f_1"
  - "3.42.0--r43hf17093f_0"
+ - "3.44.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-muscle"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-muscle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-muscle", "latest": {"3.42.0--r43hf17093f_0": "sha256:57b65c3eb36c3ac310f16c93742e643f1350d435e7856e73fda9bc2915107a43"}, "tags": {"3.36.0--r41hc247a5b_2": "sha256:1904411d39d7c00dbf18cef33c82180ce03eec476ea7b87e2e34c220e81bdf57", "3.40.0--r42hc247a5b_0": "sha256:1e65564055c026d4dceec663ac41c92b82d99aa7c767a4cdbe98186fce247746", "3.40.0--r42hf17093f_1": "sha256:f6951530428894a211acf7619f45983e4e989633c577ca970d0347e617d951a4", "3.42.0--r43hf17093f_0": "sha256:57b65c3eb36c3ac310f16c93742e643f1350d435e7856e73fda9bc2915107a43"}, "docker": "quay.io/biocontainers/bioconductor-muscle"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-muscle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-muscle", "latest": {"3.44.0--r43hf17093f_0": "sha256:00844cbb60561f6e71bd7dffab9bd9e57a69ac5895e169d1fcfc2d4a69eefe33"}, "tags": {"3.36.0--r41hc247a5b_2": "sha256:1904411d39d7c00dbf18cef33c82180ce03eec476ea7b87e2e34c220e81bdf57", "3.40.0--r42hc247a5b_0": "sha256:1e65564055c026d4dceec663ac41c92b82d99aa7c767a4cdbe98186fce247746", "3.40.0--r42hf17093f_1": "sha256:f6951530428894a211acf7619f45983e4e989633c577ca970d0347e617d951a4", "3.42.0--r43hf17093f_0": "sha256:57b65c3eb36c3ac310f16c93742e643f1350d435e7856e73fda9bc2915107a43", "3.44.0--r43hf17093f_0": "sha256:00844cbb60561f6e71bd7dffab9bd9e57a69ac5895e169d1fcfc2d4a69eefe33"}, "docker": "quay.io/biocontainers/bioconductor-muscle"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-muscle.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-muscle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-muscle:3.42.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-muscle:3.44.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-muscle/3.42.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-muscle/3.42.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-muscle/3.44.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-muscle/3.44.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

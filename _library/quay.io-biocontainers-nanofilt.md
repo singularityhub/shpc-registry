@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanofilt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanofilt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanofilt/container.yaml"
-updated_at: "2023-12-14 03:28:21.799552"
+updated_at: "2023-12-15 02:58:07.579196"
 latest: "2.8.0--py_0"
 container_url: "https://biocontainers.pro/tools/nanofilt"
 aliases:

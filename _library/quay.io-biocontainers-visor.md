@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/visor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/visor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/visor/container.yaml"
-updated_at: "2023-12-14 03:41:46.921507"
-latest: "1.1.2--pyh5e36f6f_0"
+updated_at: "2023-12-15 03:00:42.096652"
+latest: "1.1.2.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/visor"
 aliases:
  - "VISOR"
@@ -38,8 +38,9 @@ aliases:
  - "bed12ToBed6"
 versions:
  - "1.1.2--pyh5e36f6f_0"
+ - "1.1.2.1--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for visor"
-config: {"url": "https://biocontainers.pro/tools/visor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for visor", "latest": {"1.1.2--pyh5e36f6f_0": "sha256:224d83e0c27671220a8728f18d640bbbb82b3283c3a54fb4b4aca9057b9722cb"}, "tags": {"1.1.2--pyh5e36f6f_0": "sha256:224d83e0c27671220a8728f18d640bbbb82b3283c3a54fb4b4aca9057b9722cb"}, "docker": "quay.io/biocontainers/visor", "aliases": {"VISOR": "/usr/local/bin/VISOR", "badread": "/usr/local/bin/badread", "pywgsim": "/usr/local/bin/pywgsim", "plac_runner.py": "/usr/local/bin/plac_runner.py", "minimap2.py": "/usr/local/bin/minimap2.py", "jupyter-trust": "/usr/local/bin/jupyter-trust", "faidx": "/usr/local/bin/faidx", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "jsonschema": "/usr/local/bin/jsonschema", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6"}}
+config: {"url": "https://biocontainers.pro/tools/visor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for visor", "latest": {"1.1.2.1--pyh7cba7a3_0": "sha256:082e33cea817cb0fbd23f57382389d3c54da1b63580e5d7f66751510f000fb8c"}, "tags": {"1.1.2--pyh5e36f6f_0": "sha256:224d83e0c27671220a8728f18d640bbbb82b3283c3a54fb4b4aca9057b9722cb", "1.1.2.1--pyh7cba7a3_0": "sha256:082e33cea817cb0fbd23f57382389d3c54da1b63580e5d7f66751510f000fb8c"}, "docker": "quay.io/biocontainers/visor", "aliases": {"VISOR": "/usr/local/bin/VISOR", "badread": "/usr/local/bin/badread", "pywgsim": "/usr/local/bin/pywgsim", "plac_runner.py": "/usr/local/bin/plac_runner.py", "minimap2.py": "/usr/local/bin/minimap2.py", "jupyter-trust": "/usr/local/bin/jupyter-trust", "faidx": "/usr/local/bin/faidx", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "jsonschema": "/usr/local/bin/jsonschema", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/visor.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/visor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/visor:1.1.2--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/visor:1.1.2.1--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/visor/1.1.2--pyh5e36f6f_0
-$ module help quay.io/biocontainers/visor/1.1.2--pyh5e36f6f_0
+$ module load quay.io/biocontainers/visor/1.1.2.1--pyh7cba7a3_0
+$ module help quay.io/biocontainers/visor/1.1.2.1--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

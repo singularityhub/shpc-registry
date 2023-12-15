@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sccaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sccaller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sccaller/container.yaml"
-updated_at: "2023-12-14 02:59:48.215043"
+updated_at: "2023-12-15 03:07:46.480682"
 latest: "2.0.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sccaller"
 aliases:

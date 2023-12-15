@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-diffloop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diffloop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diffloop/container.yaml"
-updated_at: "2023-12-14 02:59:50.452227"
+updated_at: "2023-12-15 02:45:51.253750"
 latest: "1.22.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-diffloop"
 aliases:
