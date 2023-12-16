@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rrbsdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rrbsdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rrbsdata/container.yaml"
-updated_at: "2023-12-15 02:37:40.689624"
+updated_at: "2023-12-16 02:34:23.525669"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rrbsdata"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-lymphclon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-lymphclon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-lymphclon/container.yaml"
-updated_at: "2023-12-15 03:11:13.172333"
+updated_at: "2023-12-16 03:08:03.299077"
 latest: "1.3.0--r43h3121a25_3"
 container_url: "https://biocontainers.pro/tools/r-lymphclon"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-delayedarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-delayedarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-delayedarray/container.yaml"
-updated_at: "2023-12-15 03:06:01.111527"
-latest: "0.26.6--r43ha9d7317_0"
+updated_at: "2023-12-16 03:02:49.872290"
+latest: "0.28.0--r43ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-delayedarray"
 aliases:
  - "c89"
@@ -19,8 +19,9 @@ versions:
  - "0.14.0--r40h037d062_0"
  - "0.24.0--r42ha9d7317_1"
  - "0.26.6--r43ha9d7317_0"
+ - "0.28.0--r43ha9d7317_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-delayedarray"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-delayedarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-delayedarray", "latest": {"0.26.6--r43ha9d7317_0": "sha256:135d937d7a1699854c6bef8ff6aa62c5a028f8d4726d36834dda07a497f53db7"}, "tags": {"0.8.0--r351h14c3975_0": "sha256:7859783e28cd29574f681942ccb0daffb0c68889478f62a979971fe3b61c1ca3", "0.24.0--r42hc0cfd56_0": "sha256:af5bfcd1ad096fb66eaea08d137317419856076729d3c0afb084b6432062fd3c", "0.20.0--r41hc0cfd56_2": "sha256:c3f36980beb5a98ebb4d4498c011e002984345e46648e900e798405acb0bbea9", "0.18.0--r41hd029910_0": "sha256:e917f1eacafcd961697870976fc9ca9c866425e341db286ec7d480536033a114", "0.16.3--r40hd029910_0": "sha256:9cf7b96dc636853343fac2c23ac3fab5ceb680f0f9d9042d0c25beddeb76130b", "0.14.0--r40h037d062_0": "sha256:412647ce998d5ece4e13668281b6ad6369d0968a643da48bd6c83662a9003b69", "0.24.0--r42ha9d7317_1": "sha256:f270b4f033526670036a24a3069743d6f9b332750e4112f61f12cd8db6ab5d8e", "0.26.6--r43ha9d7317_0": "sha256:135d937d7a1699854c6bef8ff6aa62c5a028f8d4726d36834dda07a497f53db7"}, "docker": "quay.io/biocontainers/bioconductor-delayedarray", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-delayedarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-delayedarray", "latest": {"0.28.0--r43ha9d7317_1": "sha256:4d170846a1438499c210745aa45dae15c1f21c4a14e12a59d86cdf8285804884"}, "tags": {"0.8.0--r351h14c3975_0": "sha256:7859783e28cd29574f681942ccb0daffb0c68889478f62a979971fe3b61c1ca3", "0.24.0--r42hc0cfd56_0": "sha256:af5bfcd1ad096fb66eaea08d137317419856076729d3c0afb084b6432062fd3c", "0.20.0--r41hc0cfd56_2": "sha256:c3f36980beb5a98ebb4d4498c011e002984345e46648e900e798405acb0bbea9", "0.18.0--r41hd029910_0": "sha256:e917f1eacafcd961697870976fc9ca9c866425e341db286ec7d480536033a114", "0.16.3--r40hd029910_0": "sha256:9cf7b96dc636853343fac2c23ac3fab5ceb680f0f9d9042d0c25beddeb76130b", "0.14.0--r40h037d062_0": "sha256:412647ce998d5ece4e13668281b6ad6369d0968a643da48bd6c83662a9003b69", "0.24.0--r42ha9d7317_1": "sha256:f270b4f033526670036a24a3069743d6f9b332750e4112f61f12cd8db6ab5d8e", "0.26.6--r43ha9d7317_0": "sha256:135d937d7a1699854c6bef8ff6aa62c5a028f8d4726d36834dda07a497f53db7", "0.28.0--r43ha9d7317_1": "sha256:4d170846a1438499c210745aa45dae15c1f21c4a14e12a59d86cdf8285804884"}, "docker": "quay.io/biocontainers/bioconductor-delayedarray", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-delayedarray.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-delayedarray
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-delayedarray:0.26.6--r43ha9d7317_0
+$ shpc install quay.io/biocontainers/bioconductor-delayedarray:0.28.0--r43ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-delayedarray/0.26.6--r43ha9d7317_0
-$ module help quay.io/biocontainers/bioconductor-delayedarray/0.26.6--r43ha9d7317_0
+$ module load quay.io/biocontainers/bioconductor-delayedarray/0.28.0--r43ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-delayedarray/0.28.0--r43ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

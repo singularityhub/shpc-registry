@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tenxpbmcdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tenxpbmcdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tenxpbmcdata/container.yaml"
-updated_at: "2023-12-15 03:09:02.999194"
-latest: "1.18.0--r43hdfd78af_0"
+updated_at: "2023-12-16 03:05:52.085045"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tenxpbmcdata"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "1.12.0--r41hdfd78af_1"
  - "1.10.0--r41hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tenxpbmcdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tenxpbmcdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tenxpbmcdata", "latest": {"1.18.0--r43hdfd78af_0": "sha256:8f83e641371b71b9cebc8a9042c1a83be8238569c1706847d1904cb4476e7b5b"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:f804ba7a7e2151819db3a885abbc2210ae8d038614e2a8c12941f1ad5cb6ee84", "1.16.0--r42hdfd78af_0": "sha256:bfffc505bbbde10e571d459d5514c679d08aa5260174e5f4f2aed27f77f96a3d", "1.12.0--r41hdfd78af_1": "sha256:2f9903ed8d926d873b4d0f4c8865a6b8deba3676d3b690d8c94a4f6b0f3dbbc1", "1.10.0--r41hdfd78af_0": "sha256:215700089631d532c5063b0246e26e866794c4b8d65cefc6e0f1ab96ef50c936", "1.18.0--r43hdfd78af_0": "sha256:8f83e641371b71b9cebc8a9042c1a83be8238569c1706847d1904cb4476e7b5b"}, "docker": "quay.io/biocontainers/bioconductor-tenxpbmcdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tenxpbmcdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tenxpbmcdata", "latest": {"1.20.0--r43hdfd78af_0": "sha256:4da4bcefca36f2f9111dabd55ad96370a0a00369112375d769e55a8604409080"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:f804ba7a7e2151819db3a885abbc2210ae8d038614e2a8c12941f1ad5cb6ee84", "1.16.0--r42hdfd78af_0": "sha256:bfffc505bbbde10e571d459d5514c679d08aa5260174e5f4f2aed27f77f96a3d", "1.12.0--r41hdfd78af_1": "sha256:2f9903ed8d926d873b4d0f4c8865a6b8deba3676d3b690d8c94a4f6b0f3dbbc1", "1.10.0--r41hdfd78af_0": "sha256:215700089631d532c5063b0246e26e866794c4b8d65cefc6e0f1ab96ef50c936", "1.18.0--r43hdfd78af_0": "sha256:8f83e641371b71b9cebc8a9042c1a83be8238569c1706847d1904cb4476e7b5b", "1.20.0--r43hdfd78af_0": "sha256:4da4bcefca36f2f9111dabd55ad96370a0a00369112375d769e55a8604409080"}, "docker": "quay.io/biocontainers/bioconductor-tenxpbmcdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tenxpbmcdata.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tenxpbmcdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tenxpbmcdata:1.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tenxpbmcdata:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tenxpbmcdata/1.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tenxpbmcdata/1.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tenxpbmcdata/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tenxpbmcdata/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

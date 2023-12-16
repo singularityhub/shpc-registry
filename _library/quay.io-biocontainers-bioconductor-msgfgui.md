@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msgfgui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msgfgui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msgfgui/container.yaml"
-updated_at: "2023-12-15 02:42:21.034184"
+updated_at: "2023-12-16 02:39:07.770286"
 latest: "1.28.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msgfgui"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-madseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-madseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-madseq/container.yaml"
-updated_at: "2023-12-15 02:35:56.558599"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2023-12-16 02:32:39.128932"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-madseq"
 aliases:
  - "jags"
@@ -18,8 +18,9 @@ versions:
  - "1.16.0--r40hdfd78af_1"
  - "1.14.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-madseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-madseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-madseq", "latest": {"1.26.0--r43hdfd78af_0": "sha256:3e17ed671aa0b40a17ab4b0d45c1df2c3a575946f9d4e3b6b991922b3754ef1c"}, "tags": {"1.6.1--r351_0": "sha256:bdf83bc6a59390a6597cf711bcc28cb1e3889d49d995dabd4e11cd82372db511", "1.24.0--r42hdfd78af_0": "sha256:018573516ab061dd24a723093dcfc7be02735ed3964698061360530378114386", "1.20.0--r41hdfd78af_0": "sha256:0865cc6447ff603bfdbdc2de05621015e0c76f6c844a7bc431806364e0c457aa", "1.18.0--r41hdfd78af_0": "sha256:cd2281d16e198338c098ba1d709ebb3ecc8705433f5486b173e81700b9ebff82", "1.16.0--r40hdfd78af_1": "sha256:4ac5b6bd5216740ca3fa9df5c069fa0532c3040aa0234a6476e0df815faa96f3", "1.14.0--r40_0": "sha256:89306d4ef01bbe83f17f10ae48fd72970597ad0f5dcb4a25d8516fcb2a75510c", "1.26.0--r43hdfd78af_0": "sha256:3e17ed671aa0b40a17ab4b0d45c1df2c3a575946f9d4e3b6b991922b3754ef1c"}, "docker": "quay.io/biocontainers/bioconductor-madseq", "aliases": {"jags": "/usr/local/bin/jags", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-madseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-madseq", "latest": {"1.28.0--r43hdfd78af_0": "sha256:cf43b6638b920da23b62f00efb646b5cad34cc2031fbd87e0d6d950cee4b8616"}, "tags": {"1.6.1--r351_0": "sha256:bdf83bc6a59390a6597cf711bcc28cb1e3889d49d995dabd4e11cd82372db511", "1.24.0--r42hdfd78af_0": "sha256:018573516ab061dd24a723093dcfc7be02735ed3964698061360530378114386", "1.20.0--r41hdfd78af_0": "sha256:0865cc6447ff603bfdbdc2de05621015e0c76f6c844a7bc431806364e0c457aa", "1.18.0--r41hdfd78af_0": "sha256:cd2281d16e198338c098ba1d709ebb3ecc8705433f5486b173e81700b9ebff82", "1.16.0--r40hdfd78af_1": "sha256:4ac5b6bd5216740ca3fa9df5c069fa0532c3040aa0234a6476e0df815faa96f3", "1.14.0--r40_0": "sha256:89306d4ef01bbe83f17f10ae48fd72970597ad0f5dcb4a25d8516fcb2a75510c", "1.26.0--r43hdfd78af_0": "sha256:3e17ed671aa0b40a17ab4b0d45c1df2c3a575946f9d4e3b6b991922b3754ef1c", "1.28.0--r43hdfd78af_0": "sha256:cf43b6638b920da23b62f00efb646b5cad34cc2031fbd87e0d6d950cee4b8616"}, "docker": "quay.io/biocontainers/bioconductor-madseq", "aliases": {"jags": "/usr/local/bin/jags", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-madseq.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-madseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-madseq:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-madseq:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-madseq/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-madseq/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-madseq/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-madseq/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

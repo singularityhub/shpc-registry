@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19/container.yaml"
-updated_at: "2023-12-15 02:39:54.038928"
-latest: "2.2.0--r43hdfd78af_15"
+updated_at: "2023-12-16 02:36:39.028376"
+latest: "2.2.0--r43hdfd78af_16"
 container_url: "https://biocontainers.pro/tools/bioconductor-fdb.infiniummethylation.hg19"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "2.2.0--r40_9"
  - "2.2.0--r42hdfd78af_14"
  - "2.2.0--r43hdfd78af_15"
+ - "2.2.0--r43hdfd78af_16"
 description: "shpc-registry automated BioContainers addition for bioconductor-fdb.infiniummethylation.hg19"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fdb.infiniummethylation.hg19", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fdb.infiniummethylation.hg19", "latest": {"2.2.0--r43hdfd78af_15": "sha256:0cd3f309b1aa9c5f4043eaa669102e3a52ead0a6c372ebeddfcdea8192e09500"}, "tags": {"2.2.0--r40_9": "sha256:ea7755e7af9c750995e6a07b7a2527ce79fb62e66c67037051c71d9279c40b8b", "2.2.0--r42hdfd78af_14": "sha256:cab4bf7374c9ebb80e5407bc8068f18c79bba90ff13c6ceb96e181195760e627", "2.2.0--r43hdfd78af_15": "sha256:0cd3f309b1aa9c5f4043eaa669102e3a52ead0a6c372ebeddfcdea8192e09500"}, "docker": "quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fdb.infiniummethylation.hg19", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fdb.infiniummethylation.hg19", "latest": {"2.2.0--r43hdfd78af_16": "sha256:b7030ce8ec8f756572011dfe2a86c5e28871c7e007002d43f7a001707bcb1884"}, "tags": {"2.2.0--r40_9": "sha256:ea7755e7af9c750995e6a07b7a2527ce79fb62e66c67037051c71d9279c40b8b", "2.2.0--r42hdfd78af_14": "sha256:cab4bf7374c9ebb80e5407bc8068f18c79bba90ff13c6ceb96e181195760e627", "2.2.0--r43hdfd78af_15": "sha256:0cd3f309b1aa9c5f4043eaa669102e3a52ead0a6c372ebeddfcdea8192e09500", "2.2.0--r43hdfd78af_16": "sha256:b7030ce8ec8f756572011dfe2a86c5e28871c7e007002d43f7a001707bcb1884"}, "docker": "quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19:2.2.0--r43hdfd78af_15
+$ shpc install quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19:2.2.0--r43hdfd78af_16
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19/2.2.0--r43hdfd78af_15
-$ module help quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19/2.2.0--r43hdfd78af_15
+$ module load quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19/2.2.0--r43hdfd78af_16
+$ module help quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg19/2.2.0--r43hdfd78af_16
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

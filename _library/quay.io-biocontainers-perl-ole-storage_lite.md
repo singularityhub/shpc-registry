@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-ole-storage_lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-ole-storage_lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-ole-storage_lite/container.yaml"
-updated_at: "2023-12-15 02:43:09.759543"
+updated_at: "2023-12-16 02:39:57.707369"
 latest: "0.20--pl5321h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/perl-ole-storage_lite"
 aliases:

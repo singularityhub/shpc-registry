@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-spikeli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spikeli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spikeli/container.yaml"
-updated_at: "2023-12-15 02:56:26.553800"
-latest: "2.60.0--r43hdfd78af_0"
+updated_at: "2023-12-16 02:53:24.312545"
+latest: "2.62.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spikeli"
 
 versions:
  - "2.54.0--r41hdfd78af_0"
  - "2.58.0--r42hdfd78af_0"
  - "2.60.0--r43hdfd78af_0"
+ - "2.62.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-spikeli"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spikeli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spikeli", "latest": {"2.60.0--r43hdfd78af_0": "sha256:cedddd519fdb21a6513b41d6131a009189cb06d2345d4ed761280aadb42bc7b6"}, "tags": {"2.54.0--r41hdfd78af_0": "sha256:93bb96bcbb331d11f56071a27a63e25ff1136b93aeee1fead3d08262080b4c29", "2.58.0--r42hdfd78af_0": "sha256:a69261648f7de1f0a2cc3e42fde2f4e935b853cf9f5345cc62d0f8855bc4b8b9", "2.60.0--r43hdfd78af_0": "sha256:cedddd519fdb21a6513b41d6131a009189cb06d2345d4ed761280aadb42bc7b6"}, "docker": "quay.io/biocontainers/bioconductor-spikeli"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spikeli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spikeli", "latest": {"2.62.0--r43hdfd78af_0": "sha256:1be99f451723d1040c01a3ade543ef4ee24a7a22a1fab08b80f3909458343107"}, "tags": {"2.54.0--r41hdfd78af_0": "sha256:93bb96bcbb331d11f56071a27a63e25ff1136b93aeee1fead3d08262080b4c29", "2.58.0--r42hdfd78af_0": "sha256:a69261648f7de1f0a2cc3e42fde2f4e935b853cf9f5345cc62d0f8855bc4b8b9", "2.60.0--r43hdfd78af_0": "sha256:cedddd519fdb21a6513b41d6131a009189cb06d2345d4ed761280aadb42bc7b6", "2.62.0--r43hdfd78af_0": "sha256:1be99f451723d1040c01a3ade543ef4ee24a7a22a1fab08b80f3909458343107"}, "docker": "quay.io/biocontainers/bioconductor-spikeli"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spikeli.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spikeli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spikeli:2.60.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spikeli:2.62.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spikeli/2.60.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spikeli/2.60.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spikeli/2.62.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spikeli/2.62.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

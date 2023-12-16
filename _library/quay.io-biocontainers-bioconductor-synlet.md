@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-synlet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-synlet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-synlet/container.yaml"
-updated_at: "2023-12-15 02:59:47.907307"
-latest: "2.0.0--r43hdfd78af_0"
+updated_at: "2023-12-16 02:56:42.194540"
+latest: "2.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-synlet"
 aliases:
  - "ncurses5-config"
@@ -18,8 +18,9 @@ versions:
  - "1.20.0--r40hdfd78af_1"
  - "1.18.0--r40_0"
  - "2.0.0--r43hdfd78af_0"
+ - "2.2.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-synlet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-synlet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synlet", "latest": {"2.0.0--r43hdfd78af_0": "sha256:d3364227d0e3448f2e2cf6897a26778ca26da649c251d283b1f9871f45d76bdd"}, "tags": {"1.8.0--r3.4.1_0": "sha256:ef19a48e10168cad09b12afa7f5c82d5af1e9ac1b3079250653e1deaba88e170", "1.28.0--r42hdfd78af_0": "sha256:08bdb92ef42f57a2d668622468d2f043d80049e3b4a449fe9cf59497fb4a1bb5", "1.24.0--r41hdfd78af_0": "sha256:26fb5e3392d969ab43e0fa74d069c3dc5b9b13b98166086ca8fef815fd8a9c89", "1.22.0--r41hdfd78af_0": "sha256:b2d43234c8be3007f9246f38301bfbffb4a6b493fb4cfa5b33dcd7dc7dd63a0c", "1.20.0--r40hdfd78af_1": "sha256:f2ce984c5542c8139bdfc0d7ad774cca027493dbc360aae7160b266e36f799b4", "1.18.0--r40_0": "sha256:8e17f33855cb680122e5856be712f3194b1a226ba2816bf941bb252be7d6a31f", "2.0.0--r43hdfd78af_0": "sha256:d3364227d0e3448f2e2cf6897a26778ca26da649c251d283b1f9871f45d76bdd"}, "docker": "quay.io/biocontainers/bioconductor-synlet", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-synlet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synlet", "latest": {"2.2.0--r43hdfd78af_0": "sha256:4d0f61e8353a6dcb385138ba71a4320412139e1d11fb6757d2a68e309175ca77"}, "tags": {"1.8.0--r3.4.1_0": "sha256:ef19a48e10168cad09b12afa7f5c82d5af1e9ac1b3079250653e1deaba88e170", "1.28.0--r42hdfd78af_0": "sha256:08bdb92ef42f57a2d668622468d2f043d80049e3b4a449fe9cf59497fb4a1bb5", "1.24.0--r41hdfd78af_0": "sha256:26fb5e3392d969ab43e0fa74d069c3dc5b9b13b98166086ca8fef815fd8a9c89", "1.22.0--r41hdfd78af_0": "sha256:b2d43234c8be3007f9246f38301bfbffb4a6b493fb4cfa5b33dcd7dc7dd63a0c", "1.20.0--r40hdfd78af_1": "sha256:f2ce984c5542c8139bdfc0d7ad774cca027493dbc360aae7160b266e36f799b4", "1.18.0--r40_0": "sha256:8e17f33855cb680122e5856be712f3194b1a226ba2816bf941bb252be7d6a31f", "2.0.0--r43hdfd78af_0": "sha256:d3364227d0e3448f2e2cf6897a26778ca26da649c251d283b1f9871f45d76bdd", "2.2.0--r43hdfd78af_0": "sha256:4d0f61e8353a6dcb385138ba71a4320412139e1d11fb6757d2a68e309175ca77"}, "docker": "quay.io/biocontainers/bioconductor-synlet", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-synlet.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-synlet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-synlet:2.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-synlet:2.2.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-synlet/2.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-synlet/2.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-synlet/2.2.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-synlet/2.2.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scaffold_builder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scaffold_builder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scaffold_builder/container.yaml"
-updated_at: "2023-12-15 02:54:48.813995"
+updated_at: "2023-12-16 02:51:47.101866"
 latest: "2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scaffold_builder"
 aliases:

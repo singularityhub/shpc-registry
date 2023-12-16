@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hormon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hormon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hormon/container.yaml"
-updated_at: "2023-12-15 02:53:22.937208"
+updated_at: "2023-12-16 02:50:21.046286"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hormon"
 aliases:

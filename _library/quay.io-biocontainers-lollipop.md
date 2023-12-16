@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lollipop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lollipop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lollipop/container.yaml"
-updated_at: "2023-12-15 02:40:49.587575"
+updated_at: "2023-12-16 02:37:35.129624"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lollipop"
 aliases:

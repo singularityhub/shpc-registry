@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-inpas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-inpas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-inpas/container.yaml"
-updated_at: "2023-12-15 02:57:30.846437"
+updated_at: "2023-12-16 02:54:27.780802"
 latest: "2.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-inpas"
 

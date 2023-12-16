@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-illuminahumanmethylation27k.db/container.yaml"
-updated_at: "2023-12-15 03:09:25.971759"
+updated_at: "2023-12-16 03:06:15.466395"
 latest: "1.4.8--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-illuminahumanmethylation27k.db"
 

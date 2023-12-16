@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-rgenometracks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgenometracks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgenometracks/container.yaml"
-updated_at: "2023-12-15 03:14:14.862938"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2023-12-16 03:11:07.505295"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgenometracks"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rgenometracks"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rgenometracks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgenometracks", "latest": {"1.6.0--r43hdfd78af_0": "sha256:f2ce043730bc1bfcd4e80acb1e6c5e6c58193bbe9951239a5c14202860677923"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:e5d3c687d59af5894c636267cc0b423a2d97c7583aa876e96ee32e69ffd9f790", "1.4.0--r42hdfd78af_0": "sha256:8f1439ea42c2d6539c0112a752fe6578e522eea0e2cc0bed0e579347af694dfc", "1.6.0--r43hdfd78af_0": "sha256:f2ce043730bc1bfcd4e80acb1e6c5e6c58193bbe9951239a5c14202860677923"}, "docker": "quay.io/biocontainers/bioconductor-rgenometracks"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rgenometracks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgenometracks", "latest": {"1.8.0--r43hdfd78af_0": "sha256:f275c2e4026ac17b5e47576ef67386291662912934d05caf1795c7a09c0e7745"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:e5d3c687d59af5894c636267cc0b423a2d97c7583aa876e96ee32e69ffd9f790", "1.4.0--r42hdfd78af_0": "sha256:8f1439ea42c2d6539c0112a752fe6578e522eea0e2cc0bed0e579347af694dfc", "1.6.0--r43hdfd78af_0": "sha256:f2ce043730bc1bfcd4e80acb1e6c5e6c58193bbe9951239a5c14202860677923", "1.8.0--r43hdfd78af_0": "sha256:f275c2e4026ac17b5e47576ef67386291662912934d05caf1795c7a09c0e7745"}, "docker": "quay.io/biocontainers/bioconductor-rgenometracks"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rgenometracks.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rgenometracks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rgenometracks:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rgenometracks:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rgenometracks/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rgenometracks/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rgenometracks/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rgenometracks/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

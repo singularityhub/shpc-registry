@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amplisim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amplisim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amplisim/container.yaml"
-updated_at: "2023-12-15 02:34:41.798590"
+updated_at: "2023-12-16 02:31:23.493180"
 latest: "0.2.1--h77de753_0"
 container_url: "https://biocontainers.pro/tools/amplisim"
 aliases:
