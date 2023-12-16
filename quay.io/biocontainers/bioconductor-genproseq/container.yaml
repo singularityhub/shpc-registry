@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-genproseq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-genproseq
 latest:
-  1.4.2--r43hdfd78af_0: sha256:35adeb0ee1b75b167bce664c089e44a3253541bd2879c20b6ad049ef68bf1d05
+  1.6.0--r43hdfd78af_0: sha256:d14b5d8c39e682ed28c594917a41bba9952957a7bbe84f18cb5812b2309ef3fb
 tags:
   1.2.0--r42hdfd78af_0: sha256:4ef2707389578ebd7f769efe967cf0e108980d5a593d1f159e8890cf2278243a
   1.4.2--r43hdfd78af_0: sha256:35adeb0ee1b75b167bce664c089e44a3253541bd2879c20b6ad049ef68bf1d05
+  1.6.0--r43hdfd78af_0: sha256:d14b5d8c39e682ed28c594917a41bba9952957a7bbe84f18cb5812b2309ef3fb
 docker: quay.io/biocontainers/bioconductor-genproseq
 aliases:
   git2_cli: /usr/local/bin/git2_cli

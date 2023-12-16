@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-screenr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-screenr
 latest:
-  1.2.0--r43hdfd78af_0: sha256:6ec7ffbbafae75dccad12513cdbed916026d1ab4d0788ae253f2b320510a860c
+  1.4.0--r43hdfd78af_0: sha256:fe5412d96da84d3ae75d7273d61f2a485b0a56aa6ec78eb39b7aaae76de14faa
 tags:
   1.0.0--r42hdfd78af_0: sha256:fe094028144f66655e1573b6e3620b8de3e0f208aa43773984f5c997444846ed
   1.2.0--r43hdfd78af_0: sha256:6ec7ffbbafae75dccad12513cdbed916026d1ab4d0788ae253f2b320510a860c
+  1.4.0--r43hdfd78af_0: sha256:fe5412d96da84d3ae75d7273d61f2a485b0a56aa6ec78eb39b7aaae76de14faa
 docker: quay.io/biocontainers/bioconductor-screenr

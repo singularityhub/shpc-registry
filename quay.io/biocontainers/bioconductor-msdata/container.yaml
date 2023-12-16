@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-msdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-msdata
 latest:
-  0.40.0--r43hdfd78af_0: sha256:1cc3a2a6eb0ad8eaf8519d94f72bccc7a0d21d4637f6cc93d52a31e2804d1f9c
+  0.42.0--r43hdfd78af_0: sha256:fa0562582d61910df49a8295d1347bb677dbbbbedc9daf81c1584f8b53e2169c
 tags:
   0.34.0--r41hdfd78af_1: sha256:b218815e50955bab6c119600cbdebf70e043c541e8cb133047e2210dae8804c8
   0.37.0--r42hdfd78af_0: sha256:b07fe70e7d4cbfbd4b0595b6027daec35145fcbb5e8f44f32a930ce5945f4e40
   0.40.0--r43hdfd78af_0: sha256:1cc3a2a6eb0ad8eaf8519d94f72bccc7a0d21d4637f6cc93d52a31e2804d1f9c
+  0.42.0--r43hdfd78af_0: sha256:fa0562582d61910df49a8295d1347bb677dbbbbedc9daf81c1584f8b53e2169c
 docker: quay.io/biocontainers/bioconductor-msdata

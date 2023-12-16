@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-metapone
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-metapone
 latest:
-  1.6.0--r43hdfd78af_0: sha256:91736df5569066cd66334b04c25a930e1ebc4e3e70e314bc7c5f58aa940480d5
+  1.8.0--r43hdfd78af_0: sha256:102aa2b5f82338bf778848efaafd32c6c27a8336b906e9016b322071dbcc972e
 tags:
   1.0.0--r41hdfd78af_0: sha256:77bb95b319eb33b7f5d7ae9a767b352164b49921c40a198e4d2bb35739a8b677
   1.4.0--r42hdfd78af_0: sha256:1a3f819f6b813946f797f704ebdc28753157b28f494ff607b942cf55e64068cc
   1.6.0--r43hdfd78af_0: sha256:91736df5569066cd66334b04c25a930e1ebc4e3e70e314bc7c5f58aa940480d5
+  1.8.0--r43hdfd78af_0: sha256:102aa2b5f82338bf778848efaafd32c6c27a8336b906e9016b322071dbcc972e
 docker: quay.io/biocontainers/bioconductor-metapone

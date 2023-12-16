@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-omicade4
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-omicade4
 latest:
-  1.40.0--r43hdfd78af_0: sha256:dcba7eb5652f43b2412bebbf0554cc55a9ffcb456b816034468275cea3dac699
+  1.42.0--r43hdfd78af_0: sha256:61ab7c1ee233dde88b5bf443b37630f82c383e0c6c79f72102388012b714da6c
 tags:
   1.34.0--r41hdfd78af_0: sha256:7a83bccc6d166feb0f083edccb30dff2e5a30b0c87e4e163ac102c2cfaf611db
   1.38.0--r42hdfd78af_0: sha256:19329f0e4b9d55526d86c55a9c4ba6a1e3bbeb97ad42682bbd2c68fad2c66381
   1.40.0--r43hdfd78af_0: sha256:dcba7eb5652f43b2412bebbf0554cc55a9ffcb456b816034468275cea3dac699
+  1.42.0--r43hdfd78af_0: sha256:61ab7c1ee233dde88b5bf443b37630f82c383e0c6c79f72102388012b714da6c
 docker: quay.io/biocontainers/bioconductor-omicade4

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-inpower
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-inpower
 latest:
-  1.36.0--r43hdfd78af_0: sha256:d3c897afb52f656cda800724685228bbbc6d27fe074d51bc523e6ceb69ac1fa8
+  1.38.0--r43hdfd78af_0: sha256:a25b09a04ce775b227df7b15af378366e6d6a1151bbfc8431b5f5570dbf39aba
 tags:
   1.30.0--r41hdfd78af_0: sha256:94c8addeb3f9ff6c82803f462fd03879c158a0fd43205d7a54262971b9f99c77
   1.34.0--r42hdfd78af_0: sha256:0010d92c2515e1cda7bf5c849470b515e5b7d2250f71f97de8d07b4b8a7f90a8
   1.36.0--r43hdfd78af_0: sha256:d3c897afb52f656cda800724685228bbbc6d27fe074d51bc523e6ceb69ac1fa8
+  1.38.0--r43hdfd78af_0: sha256:a25b09a04ce775b227df7b15af378366e6d6a1151bbfc8431b5f5570dbf39aba
 docker: quay.io/biocontainers/bioconductor-inpower

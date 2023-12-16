@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rwikipathways
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rwikipathways
 latest:
-  1.20.0--r43hdfd78af_0: sha256:0dfa88796851c4bd015ae29445b56753f803200f133e498e8604660f19ecf9a6
+  1.22.1--r43hdfd78af_0: sha256:8c4fb5301c0fccf4538eb9da1ff839c5f2ed4fb64f7294339cfbed7531f1fd23
 tags:
   1.8.2--r40_0: sha256:3c4943d789edcfbcc28045a1df557c41c60ebe876fa02f32680ef0d5a256d8d2
   1.18.0--r42hdfd78af_0: sha256:0edc0e384ee12c2366a573d9f013839bb29e7f46ed10941f8a9067a2394405ad
@@ -10,6 +10,7 @@ tags:
   1.12.0--r41hdfd78af_0: sha256:23701a8691fbb0ff0ed06c20a47e820092c677297baa6d8bcbc2602a35346af1
   1.10.1--r40hdfd78af_0: sha256:d59b7832de947f03e17d27403e546d4051e8749e24b3720e8b25b1c10f346f1c
   1.20.0--r43hdfd78af_0: sha256:0dfa88796851c4bd015ae29445b56753f803200f133e498e8604660f19ecf9a6
+  1.22.1--r43hdfd78af_0: sha256:8c4fb5301c0fccf4538eb9da1ff839c5f2ed4fb64f7294339cfbed7531f1fd23
 docker: quay.io/biocontainers/bioconductor-rwikipathways
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

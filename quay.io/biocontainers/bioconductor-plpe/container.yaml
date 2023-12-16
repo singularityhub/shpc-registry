@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-plpe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-plpe
 latest:
-  1.60.0--r43hdfd78af_0: sha256:ff29d75a7c8da4c0e280ec08beb293a47d6604106f3ebc5b8e5101c2025678de
+  1.62.0--r43hdfd78af_0: sha256:caf68ec93d9611b05d9a79f923adb207f771bc2cc09ed9be731a4112451ed34f
 tags:
   1.54.0--r41hdfd78af_0: sha256:10a9dd29c49e58f808758f388998c1b731674ade9de5865a734cd01a9873a3e8
   1.58.0--r42hdfd78af_0: sha256:439ea7fd1e171c97559d2cdf32bb03d8a0bf45ed75ab26ea4fe8fedb88ba399d
   1.60.0--r43hdfd78af_0: sha256:ff29d75a7c8da4c0e280ec08beb293a47d6604106f3ebc5b8e5101c2025678de
+  1.62.0--r43hdfd78af_0: sha256:caf68ec93d9611b05d9a79f923adb207f771bc2cc09ed9be731a4112451ed34f
 docker: quay.io/biocontainers/bioconductor-plpe

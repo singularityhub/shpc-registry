@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-chipexoqual
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-chipexoqual
 latest:
-  1.24.0--r43hdfd78af_0: sha256:6a960990ed4923e68e3dbfcf51ce4a2b81688a0ef8b1d7f96a71746b0a6884bc
+  1.26.0--r43hdfd78af_0: sha256:ffe0935246f6757c2ea78f7b03ef6522c843c2c0fdfce4a65188b87f587bf6bc
 tags:
   1.8.0--r36_1: sha256:e11a81991aa2a911f3405f00b9599ec97cdd09fb202886b58b39215b76be070f
   1.22.0--r42hdfd78af_0: sha256:52c7198a4cbfdd40a7ce4eef310befacb9a846f3a3de7f026d33be683eb61924
@@ -11,6 +11,7 @@ tags:
   1.14.0--r40hdfd78af_1: sha256:e5ccdf5dab998ea980313ba651de3fd770da68156377e9aef91c25a99dbee6a1
   1.12.0--r40_0: sha256:d89ca9654c64da5891a5c140868e59498c9816b163518899b6c5acbdb7918e15
   1.24.0--r43hdfd78af_0: sha256:6a960990ed4923e68e3dbfcf51ce4a2b81688a0ef8b1d7f96a71746b0a6884bc
+  1.26.0--r43hdfd78af_0: sha256:ffe0935246f6757c2ea78f7b03ef6522c843c2c0fdfce4a65188b87f587bf6bc
 docker: quay.io/biocontainers/bioconductor-chipexoqual
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

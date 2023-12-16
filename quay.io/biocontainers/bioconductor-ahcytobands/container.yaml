@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-ahcytobands
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ahcytobands
 latest:
-  0.99.1--r43hdfd78af_3: sha256:95bb9f2bf663f7cba435187230fce6959d1eff2547016775652fa9c291856203
+  0.99.1--r43hdfd78af_4: sha256:08fb6e2c8081b12d91d3570e4c57fc3a45303276566529e381612e32890f8a6a
 tags:
   0.99.1--r41hdfd78af_1: sha256:5e9593d2a59d55700e9b7c552a1dad0ec851b3f29a7efbef99c0d41847a04d74
   0.99.1--r42hdfd78af_2: sha256:6b51c847a7f3ba6d3542e452ed1e3dc2d7481996a425ac74f65769b714d20f8f
   0.99.1--r43hdfd78af_3: sha256:95bb9f2bf663f7cba435187230fce6959d1eff2547016775652fa9c291856203
+  0.99.1--r43hdfd78af_4: sha256:08fb6e2c8081b12d91d3570e4c57fc3a45303276566529e381612e32890f8a6a
 docker: quay.io/biocontainers/bioconductor-ahcytobands
