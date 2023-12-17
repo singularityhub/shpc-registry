@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-nugomm1a520177cdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-nugomm1a520177cdf
 latest:
-  3.4.0--r43hdfd78af_11: sha256:7bd99d8a5dab2911b3983596c8a7cce9b3507c79ec5d825bd6068730b1827b9c
+  3.4.0--r43hdfd78af_12: sha256:74c5ea98d1f6acec1e4e691786a32aed2c21ac7cadec0df9a3b467ee173e6d29
 tags:
   3.4.0--r41hdfd78af_9: sha256:ee772d0df926e85c344b836a691013e4ad312441a5d02a700f704d720260a868
   3.4.0--r42hdfd78af_10: sha256:d5a69e3c1cc26dacc2fe8cc4f5d3d4601d663199f6979aac67d403b3cf02b5f7
   3.4.0--r43hdfd78af_11: sha256:7bd99d8a5dab2911b3983596c8a7cce9b3507c79ec5d825bd6068730b1827b9c
+  3.4.0--r43hdfd78af_12: sha256:74c5ea98d1f6acec1e4e691786a32aed2c21ac7cadec0df9a3b467ee173e6d29
 docker: quay.io/biocontainers/bioconductor-nugomm1a520177cdf

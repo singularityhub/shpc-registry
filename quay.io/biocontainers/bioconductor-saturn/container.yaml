@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-saturn
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-saturn
 latest:
-  1.8.0--r43hdfd78af_0: sha256:ce3e3389c23894ddb7b64425121866e10e389b313ae22d334d6bad636c081041
+  1.10.0--r43hdfd78af_0: sha256:75c1fe96b97e3720f7ee6df80014c89bc24fd1c087c959828ddf68f1390a8b5a
 tags:
   1.2.0--r41hdfd78af_0: sha256:ff4efb4a8ae186a15af6df52a28d203859f6ba829cc796214b359a250ebc06bb
   1.6.0--r42hdfd78af_0: sha256:280c51bba7dfb57a67490d448ef51080269b7ed88eddb849d19b1129c5b9dd2a
   1.8.0--r43hdfd78af_0: sha256:ce3e3389c23894ddb7b64425121866e10e389b313ae22d334d6bad636c081041
+  1.10.0--r43hdfd78af_0: sha256:75c1fe96b97e3720f7ee6df80014c89bc24fd1c087c959828ddf68f1390a8b5a
 docker: quay.io/biocontainers/bioconductor-saturn

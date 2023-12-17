@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-trio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-trio
 latest:
-  3.38.0--r43hdfd78af_0: sha256:f18fcc8ee30d646716ca4541a16d72d3f0ef19fdd6192a6c043f8ac8c624c2b0
+  3.40.0--r43hdfd78af_0: sha256:30b2c9ce5f4fa40c3dfc73b24085694de1c040a29d462b66f45ff9b96b6b158f
 tags:
   3.32.0--r41hdfd78af_0: sha256:a0878477ae311fa4aef6c283ae6d26f4230b416c25b541adbe57e51258464e81
   3.36.0--r42hdfd78af_0: sha256:0ee7ab80e1459023ca89ac2259bde069c6769d3391d6dcdf54440b99f89c6692
   3.38.0--r43hdfd78af_0: sha256:f18fcc8ee30d646716ca4541a16d72d3f0ef19fdd6192a6c043f8ac8c624c2b0
+  3.40.0--r43hdfd78af_0: sha256:30b2c9ce5f4fa40c3dfc73b24085694de1c040a29d462b66f45ff9b96b6b158f
 docker: quay.io/biocontainers/bioconductor-trio

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-matrixqcvis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-matrixqcvis
 latest:
-  1.8.0--r43hdfd78af_0: sha256:b78b4700f0126cb450bf352e68374abc9074a52f7ecda2a3d855189886647d7a
+  1.10.0--r43hdfd78af_0: sha256:2b9b320f8130e273562da75e9b0245b345dfbfab400a32ee7590b887986dddfd
 tags:
   1.2.0--r41hdfd78af_0: sha256:c761f3590dbbb681d7a17d5383f56455ad70118e8d87ed533fdc87b2a84bc5aa
   1.6.0--r42hdfd78af_0: sha256:1a87c7f911c0ddac076d68e814054f8af4fe38d5009510540fa3de46e6010fd5
   1.8.0--r43hdfd78af_0: sha256:b78b4700f0126cb450bf352e68374abc9074a52f7ecda2a3d855189886647d7a
+  1.10.0--r43hdfd78af_0: sha256:2b9b320f8130e273562da75e9b0245b345dfbfab400a32ee7590b887986dddfd
 docker: quay.io/biocontainers/bioconductor-matrixqcvis
 aliases:
   pandoc: /usr/local/bin/pandoc

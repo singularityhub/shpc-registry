@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-drosgenome1.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-drosgenome1.db
 latest:
-  3.13.0--r43hdfd78af_3: sha256:bd50e9cde50ba2b339c44f5344e13e8438bcc54825b13f7510ea618c480644d6
+  3.13.0--r43hdfd78af_4: sha256:a54379a7634f265167b918c867d4fc3777a1520b515d0e916ae51bc91ab7ada8
 tags:
   3.2.3--r41hdfd78af_7: sha256:93f8f2f51bdc952fa9f7db6bd4d7c0b4fb36f6eeebe1a19575321942ec014295
   3.13.0--r42hdfd78af_2: sha256:60368517cdf004aec345e7d0947bed7fe6b8444e2eeb8a72765c58ae0c53ec82
   3.13.0--r43hdfd78af_3: sha256:bd50e9cde50ba2b339c44f5344e13e8438bcc54825b13f7510ea618c480644d6
+  3.13.0--r43hdfd78af_4: sha256:a54379a7634f265167b918c867d4fc3777a1520b515d0e916ae51bc91ab7ada8
 docker: quay.io/biocontainers/bioconductor-drosgenome1.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

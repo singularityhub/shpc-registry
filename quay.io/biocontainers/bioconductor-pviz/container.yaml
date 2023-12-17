@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-pviz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pviz
 latest:
-  1.34.0--r43hdfd78af_0: sha256:f55806a60aae4f5449f85f5a8c23f61897a28e02d7cbdf850b0bf24ce09d4434
+  1.36.0--r43hdfd78af_0: sha256:5f6bc17a0ea55d21db7b89c47a06e281d0ba5cbb598c7659a2b22e65bcaf46e8
 tags:
   1.28.0--r41hdfd78af_0: sha256:516343a80955f6a913f9238f32ef9540532f2052e533af5461f1ad5944088828
   1.32.0--r42hdfd78af_0: sha256:ba01727b3319ef1d94fc1d683052ef9a7d67ed01d326c10502e3d19c1783338f
   1.34.0--r43hdfd78af_0: sha256:f55806a60aae4f5449f85f5a8c23f61897a28e02d7cbdf850b0bf24ce09d4434
+  1.36.0--r43hdfd78af_0: sha256:5f6bc17a0ea55d21db7b89c47a06e281d0ba5cbb598c7659a2b22e65bcaf46e8
 docker: quay.io/biocontainers/bioconductor-pviz

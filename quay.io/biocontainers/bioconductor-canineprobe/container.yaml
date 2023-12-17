@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-canineprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-canineprobe
 latest:
-  2.18.0--r43hdfd78af_11: sha256:679be52b13f64cf4e4d4ce1be3a8b7e3a9519e69b0cc1f4814fa96aaafc31342
+  2.18.0--r43hdfd78af_12: sha256:4bf8deb22082e4b876ff67598e53a79f9f37dfca5884d03598f973111da0396b
 tags:
   2.18.0--r41hdfd78af_9: sha256:2d775c05027a9e3e2210d8868ed3f8946d26ecd82198465b356f3ce2a5425c3d
   2.18.0--r42hdfd78af_10: sha256:733bf74cb55465afac2b34816c84d33aeddc45bef87516abf70f6ceb9667463f
   2.18.0--r43hdfd78af_11: sha256:679be52b13f64cf4e4d4ce1be3a8b7e3a9519e69b0cc1f4814fa96aaafc31342
+  2.18.0--r43hdfd78af_12: sha256:4bf8deb22082e4b876ff67598e53a79f9f37dfca5884d03598f973111da0396b
 docker: quay.io/biocontainers/bioconductor-canineprobe

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-iseehub
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-iseehub
 latest:
-  1.1.1--r43hdfd78af_0: sha256:7caf9d2580f3fd2c971289dbf619db9f43ae95029e2e6beae90d9780bf7e6260
+  1.4.0--r43hdfd78af_0: sha256:f749dc1321f6599c9c17f838979d3bd10039bd60c00550d62993053dc1bf9f0d
 tags:
   1.0.0--r42hdfd78af_0: sha256:0e3a111a68b48d8b104f494ce4d0a4bfce3ca7d0c6a39f6d15eb8dd1faa1a4e4
   1.1.1--r43hdfd78af_0: sha256:7caf9d2580f3fd2c971289dbf619db9f43ae95029e2e6beae90d9780bf7e6260
+  1.4.0--r43hdfd78af_0: sha256:f749dc1321f6599c9c17f838979d3bd10039bd60c00550d62993053dc1bf9f0d
 docker: quay.io/biocontainers/bioconductor-iseehub
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
