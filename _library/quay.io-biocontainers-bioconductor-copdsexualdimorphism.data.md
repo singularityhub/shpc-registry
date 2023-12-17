@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-copdsexualdimorphism.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-copdsexualdimorphism.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-copdsexualdimorphism.data/container.yaml"
-updated_at: "2023-12-16 02:46:22.040620"
-latest: "1.36.0--r43hdfd78af_0"
+updated_at: "2023-12-17 02:49:52.684745"
+latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-copdsexualdimorphism.data"
 
 versions:
  - "1.30.0--r41hdfd78af_1"
  - "1.33.0--r42hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
+ - "1.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-copdsexualdimorphism.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-copdsexualdimorphism.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-copdsexualdimorphism.data", "latest": {"1.36.0--r43hdfd78af_0": "sha256:ca0bd14541b42291a7f82c891a20f51faac86b6f2cb8a436c09ef6a78ba9e435"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:8dae0cf09b7edc153098992d48f5ad975d5742ac871d03c21f034c357d4ffb5c", "1.33.0--r42hdfd78af_0": "sha256:deb3187a240732b915da720bf5b12ba2c01f77409c64b9e19836ea7741da4ff6", "1.36.0--r43hdfd78af_0": "sha256:ca0bd14541b42291a7f82c891a20f51faac86b6f2cb8a436c09ef6a78ba9e435"}, "docker": "quay.io/biocontainers/bioconductor-copdsexualdimorphism.data"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-copdsexualdimorphism.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-copdsexualdimorphism.data", "latest": {"1.38.0--r43hdfd78af_0": "sha256:c392c7290fa194a703b08ea97de35150ac822a556c56dcc7c6231d7945dcbce7"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:8dae0cf09b7edc153098992d48f5ad975d5742ac871d03c21f034c357d4ffb5c", "1.33.0--r42hdfd78af_0": "sha256:deb3187a240732b915da720bf5b12ba2c01f77409c64b9e19836ea7741da4ff6", "1.36.0--r43hdfd78af_0": "sha256:ca0bd14541b42291a7f82c891a20f51faac86b6f2cb8a436c09ef6a78ba9e435", "1.38.0--r43hdfd78af_0": "sha256:c392c7290fa194a703b08ea97de35150ac822a556c56dcc7c6231d7945dcbce7"}, "docker": "quay.io/biocontainers/bioconductor-copdsexualdimorphism.data"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-copdsexualdimorphism.data.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-copdsexualdimorphism.data
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-copdsexualdimorphism.data:1.36.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-copdsexualdimorphism.data:1.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-copdsexualdimorphism.data/1.36.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-copdsexualdimorphism.data/1.36.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-copdsexualdimorphism.data/1.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-copdsexualdimorphism.data/1.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

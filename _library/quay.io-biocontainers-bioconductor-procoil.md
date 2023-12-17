@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-procoil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-procoil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-procoil/container.yaml"
-updated_at: "2023-12-16 02:31:20.674554"
-latest: "2.28.0--r43hdfd78af_0"
+updated_at: "2023-12-17 02:34:59.768423"
+latest: "2.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-procoil"
 
 versions:
@@ -16,8 +16,9 @@ versions:
  - "2.18.0--r40hdfd78af_1"
  - "2.16.0--r40_0"
  - "2.28.0--r43hdfd78af_0"
+ - "2.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-procoil"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-procoil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-procoil", "latest": {"2.28.0--r43hdfd78af_0": "sha256:65d8b04182f4d7cc9359813e4164c51524c1283819c735510a39f9f5e153adfc"}, "tags": {"2.8.0--r351_0": "sha256:c91e72c2c60c5dc76e41d7571da6fd0a5e7cc57dae3534f8ba5702bd23880379", "2.26.0--r42hdfd78af_0": "sha256:974dffe99a43990cb7cf694463812ba6e8959ea4937808768c31840ba0fc22d7", "2.22.0--r41hdfd78af_0": "sha256:79fe5751ca4971eb509d5bf86bd81e37e739e30c4f992e85a7d4cff632f66cbf", "2.20.0--r41hdfd78af_0": "sha256:b47113be5c688c0eae5bf68f4fc0daaf9f9f6afa8ff59751ddc3f6f94906e812", "2.18.0--r40hdfd78af_1": "sha256:e3c2c9fdc3791694a2f8e23a8fb4f4043afe7da372df2cfd1cede644e3e8abfc", "2.16.0--r40_0": "sha256:526b160e530a46a7806a75b021e69f853d31c27753fc36c8cd6239cb388b1162", "2.28.0--r43hdfd78af_0": "sha256:65d8b04182f4d7cc9359813e4164c51524c1283819c735510a39f9f5e153adfc"}, "docker": "quay.io/biocontainers/bioconductor-procoil"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-procoil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-procoil", "latest": {"2.30.0--r43hdfd78af_0": "sha256:a5cb26c2d059b6f248fceffdc350c274858720332f7ea789f94c0f41117e9289"}, "tags": {"2.8.0--r351_0": "sha256:c91e72c2c60c5dc76e41d7571da6fd0a5e7cc57dae3534f8ba5702bd23880379", "2.26.0--r42hdfd78af_0": "sha256:974dffe99a43990cb7cf694463812ba6e8959ea4937808768c31840ba0fc22d7", "2.22.0--r41hdfd78af_0": "sha256:79fe5751ca4971eb509d5bf86bd81e37e739e30c4f992e85a7d4cff632f66cbf", "2.20.0--r41hdfd78af_0": "sha256:b47113be5c688c0eae5bf68f4fc0daaf9f9f6afa8ff59751ddc3f6f94906e812", "2.18.0--r40hdfd78af_1": "sha256:e3c2c9fdc3791694a2f8e23a8fb4f4043afe7da372df2cfd1cede644e3e8abfc", "2.16.0--r40_0": "sha256:526b160e530a46a7806a75b021e69f853d31c27753fc36c8cd6239cb388b1162", "2.28.0--r43hdfd78af_0": "sha256:65d8b04182f4d7cc9359813e4164c51524c1283819c735510a39f9f5e153adfc", "2.30.0--r43hdfd78af_0": "sha256:a5cb26c2d059b6f248fceffdc350c274858720332f7ea789f94c0f41117e9289"}, "docker": "quay.io/biocontainers/bioconductor-procoil"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-procoil.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-procoil
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-procoil:2.28.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-procoil:2.30.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-procoil/2.28.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-procoil/2.28.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-procoil/2.30.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-procoil/2.30.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-apalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-apalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-apalyzer/container.yaml"
-updated_at: "2023-12-16 03:05:50.958345"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2023-12-17 03:09:10.621512"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-apalyzer"
 
 versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.12.0--r42hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-apalyzer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-apalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-apalyzer", "latest": {"1.14.0--r43hdfd78af_0": "sha256:77675041d217613c18afb4a4bc8e1784eee42bd0b90ec30a86003562e9fbbcef"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:360430302712778e0b7efa552b37e1d85e818559b7dc282f305a8bde37b3d9a3", "1.12.0--r42hdfd78af_0": "sha256:f1bc139f8b60785979eb06f9856c4c3db8f53b3954c200232ec1dcb020273dae", "1.14.0--r43hdfd78af_0": "sha256:77675041d217613c18afb4a4bc8e1784eee42bd0b90ec30a86003562e9fbbcef"}, "docker": "quay.io/biocontainers/bioconductor-apalyzer"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-apalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-apalyzer", "latest": {"1.16.0--r43hdfd78af_0": "sha256:eb024c1029ed501a583436a19fd371e3644c78b820d2a5e899b1aa8c398e4844"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:360430302712778e0b7efa552b37e1d85e818559b7dc282f305a8bde37b3d9a3", "1.12.0--r42hdfd78af_0": "sha256:f1bc139f8b60785979eb06f9856c4c3db8f53b3954c200232ec1dcb020273dae", "1.14.0--r43hdfd78af_0": "sha256:77675041d217613c18afb4a4bc8e1784eee42bd0b90ec30a86003562e9fbbcef", "1.16.0--r43hdfd78af_0": "sha256:eb024c1029ed501a583436a19fd371e3644c78b820d2a5e899b1aa8c398e4844"}, "docker": "quay.io/biocontainers/bioconductor-apalyzer"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-apalyzer.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-apalyzer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-apalyzer:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-apalyzer:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-apalyzer/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-apalyzer/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-apalyzer/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-apalyzer/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

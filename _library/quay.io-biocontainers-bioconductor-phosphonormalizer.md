@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-phosphonormalizer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phosphonormalizer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phosphonormalizer/container.yaml"
-updated_at: "2023-12-16 02:47:29.890646"
-latest: "1.24.0--r43hdfd78af_0"
+updated_at: "2023-12-17 02:50:59.767019"
+latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phosphonormalizer"
 aliases:
  - "gio-launch-desktop"
@@ -19,8 +19,9 @@ versions:
  - "1.12.0--r40_0"
  - "1.10.0--r36_0"
  - "1.24.0--r43hdfd78af_0"
+ - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-phosphonormalizer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-phosphonormalizer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phosphonormalizer", "latest": {"1.24.0--r43hdfd78af_0": "sha256:117a5b5e5a76f15e40bd90d804a6b647f302408a12f82ebbd65388de701ab05b"}, "tags": {"1.8.0--r36_1": "sha256:f99b6862ffeb946a90ff6ca2b26b4dc99b3160062c2b34f5e774890ba9b5a7b1", "1.22.0--r42hdfd78af_0": "sha256:8c00831afbd9bbad3be0d3d24443fddd39dcddb75e717423087bb00e3530ad2a", "1.18.0--r41hdfd78af_0": "sha256:dc1a8eb704c92a8a578ab0ca66bacc00c78ad2ab3aa5676494bc962f1f0cab46", "1.16.0--r41hdfd78af_0": "sha256:aa02c79a2fb64e4d9048f8bc5f8856b7637d2c3438cf89f612b7255df43ad565", "1.12.0--r40_0": "sha256:725a2fce614e30bfa39c24a29055613c3c843e27a404093ddff912befae93522", "1.10.0--r36_0": "sha256:42307fe1cb33fca669186247ab59a58554ad7d252521775af9bdc1474c1f7870", "1.24.0--r43hdfd78af_0": "sha256:117a5b5e5a76f15e40bd90d804a6b647f302408a12f82ebbd65388de701ab05b"}, "docker": "quay.io/biocontainers/bioconductor-phosphonormalizer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-phosphonormalizer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phosphonormalizer", "latest": {"1.26.0--r43hdfd78af_0": "sha256:0afea823097734c6bbcbd255b6de348feabcffbee056fc2a30eae988056b9d0e"}, "tags": {"1.8.0--r36_1": "sha256:f99b6862ffeb946a90ff6ca2b26b4dc99b3160062c2b34f5e774890ba9b5a7b1", "1.22.0--r42hdfd78af_0": "sha256:8c00831afbd9bbad3be0d3d24443fddd39dcddb75e717423087bb00e3530ad2a", "1.18.0--r41hdfd78af_0": "sha256:dc1a8eb704c92a8a578ab0ca66bacc00c78ad2ab3aa5676494bc962f1f0cab46", "1.16.0--r41hdfd78af_0": "sha256:aa02c79a2fb64e4d9048f8bc5f8856b7637d2c3438cf89f612b7255df43ad565", "1.12.0--r40_0": "sha256:725a2fce614e30bfa39c24a29055613c3c843e27a404093ddff912befae93522", "1.10.0--r36_0": "sha256:42307fe1cb33fca669186247ab59a58554ad7d252521775af9bdc1474c1f7870", "1.24.0--r43hdfd78af_0": "sha256:117a5b5e5a76f15e40bd90d804a6b647f302408a12f82ebbd65388de701ab05b", "1.26.0--r43hdfd78af_0": "sha256:0afea823097734c6bbcbd255b6de348feabcffbee056fc2a30eae988056b9d0e"}, "docker": "quay.io/biocontainers/bioconductor-phosphonormalizer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-phosphonormalizer.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-phosphonormalizer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-phosphonormalizer:1.24.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-phosphonormalizer:1.26.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-phosphonormalizer/1.24.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-phosphonormalizer/1.24.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-phosphonormalizer/1.26.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-phosphonormalizer/1.26.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

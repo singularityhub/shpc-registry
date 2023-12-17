@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-metabosignal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metabosignal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metabosignal/container.yaml"
-updated_at: "2023-12-16 02:31:58.322126"
-latest: "1.30.1--r43hdfd78af_0"
+updated_at: "2023-12-17 02:35:36.651928"
+latest: "1.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metabosignal"
 aliases:
  - "wget"
@@ -19,8 +19,9 @@ versions:
  - "1.20.0--r40hdfd78af_1"
  - "1.18.0--r40_0"
  - "1.30.1--r43hdfd78af_0"
+ - "1.32.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-metabosignal"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metabosignal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metabosignal", "latest": {"1.30.1--r43hdfd78af_0": "sha256:3635207e74e25673ec8e0cc1b1d766103e7034d7d64b840058a6a9e9d5934bb5"}, "tags": {"1.8.0--r3.4.1_0": "sha256:910b79c21d580fa7eed3a032266d45b78b4123e142546fa2352814f95ccb4485", "1.28.0--r42hdfd78af_0": "sha256:301fa25271b13aabbbe70aa8319b3963f45e608c5fbd1d2b07b95cb20a515c5f", "1.24.0--r41hdfd78af_0": "sha256:46f8ca90b5b3a9bb8357960d1393c788f179fc6fb38d3e5da09c1d03b983f686", "1.22.0--r41hdfd78af_0": "sha256:2ca6580472d63d39f5022cf5b9a26b214bfbdacbc8f91cfc1f153a13f649b311", "1.20.0--r40hdfd78af_1": "sha256:877364ff0a0affb3f20b89e9a4e1c9b2b633fdb997251f7b6cf6ef5e48becafd", "1.18.0--r40_0": "sha256:c65fad9565c4431835aeb9c84119c364182dd38db1a0ff616f916b8d3e611ee6", "1.30.1--r43hdfd78af_0": "sha256:3635207e74e25673ec8e0cc1b1d766103e7034d7d64b840058a6a9e9d5934bb5"}, "docker": "quay.io/biocontainers/bioconductor-metabosignal", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metabosignal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metabosignal", "latest": {"1.32.0--r43hdfd78af_0": "sha256:6e969d6eaf40df17017c017a9ea544a7480e50b35b3aafebd051cd7c82b67201"}, "tags": {"1.8.0--r3.4.1_0": "sha256:910b79c21d580fa7eed3a032266d45b78b4123e142546fa2352814f95ccb4485", "1.28.0--r42hdfd78af_0": "sha256:301fa25271b13aabbbe70aa8319b3963f45e608c5fbd1d2b07b95cb20a515c5f", "1.24.0--r41hdfd78af_0": "sha256:46f8ca90b5b3a9bb8357960d1393c788f179fc6fb38d3e5da09c1d03b983f686", "1.22.0--r41hdfd78af_0": "sha256:2ca6580472d63d39f5022cf5b9a26b214bfbdacbc8f91cfc1f153a13f649b311", "1.20.0--r40hdfd78af_1": "sha256:877364ff0a0affb3f20b89e9a4e1c9b2b633fdb997251f7b6cf6ef5e48becafd", "1.18.0--r40_0": "sha256:c65fad9565c4431835aeb9c84119c364182dd38db1a0ff616f916b8d3e611ee6", "1.30.1--r43hdfd78af_0": "sha256:3635207e74e25673ec8e0cc1b1d766103e7034d7d64b840058a6a9e9d5934bb5", "1.32.0--r43hdfd78af_0": "sha256:6e969d6eaf40df17017c017a9ea544a7480e50b35b3aafebd051cd7c82b67201"}, "docker": "quay.io/biocontainers/bioconductor-metabosignal", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metabosignal.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metabosignal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metabosignal:1.30.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-metabosignal:1.32.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metabosignal/1.30.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-metabosignal/1.30.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-metabosignal/1.32.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-metabosignal/1.32.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

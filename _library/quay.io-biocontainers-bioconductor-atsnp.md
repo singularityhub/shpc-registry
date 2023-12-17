@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-atsnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-atsnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-atsnp/container.yaml"
-updated_at: "2023-12-16 02:52:21.987643"
-latest: "1.16.0--r43hf17093f_0"
+updated_at: "2023-12-17 02:55:48.973938"
+latest: "1.18.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-atsnp"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "1.10.0--r41hc247a5b_2"
  - "1.14.0--r42hf17093f_1"
  - "1.16.0--r43hf17093f_0"
+ - "1.18.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-atsnp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-atsnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-atsnp", "latest": {"1.16.0--r43hf17093f_0": "sha256:f1ea553e15c603b9373071bbc2f296351cc9091fbfdeb765c967f41e6d3cd5db"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:40e1ab4feb8dfae9dbef31172293dfb3153eec7992d3d9f09e708caa33d6af2b", "1.14.0--r42hc247a5b_0": "sha256:e851e4286e6427a3e0a7139d3c1f405a3daba89cef097df653989973f8ec58d1", "1.10.0--r41hc247a5b_2": "sha256:2711465010c3adfbc15d96b1bf75944cdc61886b74a3b4199dcb11448335e8ea", "1.14.0--r42hf17093f_1": "sha256:c8193076416a074ebc94d17457047244f02530f83e28bfa13287c0b87deb4ec9", "1.16.0--r43hf17093f_0": "sha256:f1ea553e15c603b9373071bbc2f296351cc9091fbfdeb765c967f41e6d3cd5db"}, "docker": "quay.io/biocontainers/bioconductor-atsnp", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-atsnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-atsnp", "latest": {"1.18.0--r43hf17093f_0": "sha256:f9856dcfe2f063b5dbbe9e6d40c3de69ab0afad0f9bca01a3fc6205d747323de"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:40e1ab4feb8dfae9dbef31172293dfb3153eec7992d3d9f09e708caa33d6af2b", "1.14.0--r42hc247a5b_0": "sha256:e851e4286e6427a3e0a7139d3c1f405a3daba89cef097df653989973f8ec58d1", "1.10.0--r41hc247a5b_2": "sha256:2711465010c3adfbc15d96b1bf75944cdc61886b74a3b4199dcb11448335e8ea", "1.14.0--r42hf17093f_1": "sha256:c8193076416a074ebc94d17457047244f02530f83e28bfa13287c0b87deb4ec9", "1.16.0--r43hf17093f_0": "sha256:f1ea553e15c603b9373071bbc2f296351cc9091fbfdeb765c967f41e6d3cd5db", "1.18.0--r43hf17093f_0": "sha256:f9856dcfe2f063b5dbbe9e6d40c3de69ab0afad0f9bca01a3fc6205d747323de"}, "docker": "quay.io/biocontainers/bioconductor-atsnp", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-atsnp.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-atsnp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-atsnp:1.16.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-atsnp:1.18.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-atsnp/1.16.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-atsnp/1.16.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-atsnp/1.18.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-atsnp/1.18.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

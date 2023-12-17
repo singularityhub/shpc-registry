@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-restfulse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-restfulse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-restfulse/container.yaml"
-updated_at: "2023-12-16 02:53:34.466477"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2023-12-17 02:57:00.530948"
+latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-restfulse"
 aliases:
  - "gio-launch-desktop"
@@ -19,8 +19,9 @@ versions:
  - "1.12.0--r40hdfd78af_1"
  - "1.10.0--r40_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-restfulse"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-restfulse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-restfulse", "latest": {"1.22.0--r43hdfd78af_0": "sha256:eab29ec85b7dea3773a01446ca0a18b243557cc3ebdc7229ebbd7c8d32e0cbff"}, "tags": {"1.8.0--r36_0": "sha256:68be39c0a794b65888bf0dca08ae8338779820f9fb1a231055863c28d0af2680", "1.20.0--r42hdfd78af_0": "sha256:acb67380e6823ce79516cfa178538a0c2612e7b493dfc45eabf7e07278ef3353", "1.16.0--r41hdfd78af_0": "sha256:8d23f643b7271c8485bfd95f8fc5d4710917dc809df10db399f77596e0b6b253", "1.13.1--r41hdfd78af_0": "sha256:d36da0f94a6ead7c56d2137629ea206e80512f1a01ce937a95794d386e9a6437", "1.12.0--r40hdfd78af_1": "sha256:1ae5f013fa351879837b6a9f1e9c03ba53274fde908eeb4167321a68cb726094", "1.10.0--r40_0": "sha256:ec94a2c86964811942e9bff72069e36db49b3907a2ea337de137dfde91c84cfe", "1.22.0--r43hdfd78af_0": "sha256:eab29ec85b7dea3773a01446ca0a18b243557cc3ebdc7229ebbd7c8d32e0cbff"}, "docker": "quay.io/biocontainers/bioconductor-restfulse", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-restfulse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-restfulse", "latest": {"1.24.0--r43hdfd78af_0": "sha256:69d9f908f62a6e3ed1ac3b1cc25e087542f1326d90bc9dd59973c4074a796a6a"}, "tags": {"1.8.0--r36_0": "sha256:68be39c0a794b65888bf0dca08ae8338779820f9fb1a231055863c28d0af2680", "1.20.0--r42hdfd78af_0": "sha256:acb67380e6823ce79516cfa178538a0c2612e7b493dfc45eabf7e07278ef3353", "1.16.0--r41hdfd78af_0": "sha256:8d23f643b7271c8485bfd95f8fc5d4710917dc809df10db399f77596e0b6b253", "1.13.1--r41hdfd78af_0": "sha256:d36da0f94a6ead7c56d2137629ea206e80512f1a01ce937a95794d386e9a6437", "1.12.0--r40hdfd78af_1": "sha256:1ae5f013fa351879837b6a9f1e9c03ba53274fde908eeb4167321a68cb726094", "1.10.0--r40_0": "sha256:ec94a2c86964811942e9bff72069e36db49b3907a2ea337de137dfde91c84cfe", "1.22.0--r43hdfd78af_0": "sha256:eab29ec85b7dea3773a01446ca0a18b243557cc3ebdc7229ebbd7c8d32e0cbff", "1.24.0--r43hdfd78af_0": "sha256:69d9f908f62a6e3ed1ac3b1cc25e087542f1326d90bc9dd59973c4074a796a6a"}, "docker": "quay.io/biocontainers/bioconductor-restfulse", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-restfulse.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-restfulse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-restfulse:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-restfulse:1.24.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-restfulse/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-restfulse/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-restfulse/1.24.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-restfulse/1.24.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

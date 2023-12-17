@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cordon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cordon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cordon/container.yaml"
-updated_at: "2023-12-16 02:58:29.289543"
-latest: "1.18.0--r43hdfd78af_0"
+updated_at: "2023-12-17 03:01:53.288120"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cordon"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cordon"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cordon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cordon", "latest": {"1.18.0--r43hdfd78af_0": "sha256:4155ea70a42d79e30082b50a44eebaa7f815f6b87f457b90a6b9e29f663fd27e"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:d9b6f118dda0d5c9d67528e7083092313384d6b4e198434fce507c470fd4c9ce", "1.16.0--r42hdfd78af_0": "sha256:8d1eed886f26a06acffb9c7fe8d4f7661b2f43e4d30e8b922ea7edaacaf2954a", "1.12.0--r41hdfd78af_0": "sha256:def3bf2ad0b724a92a5644c39f735983ef2d5e453d5d1a2254b4c64a6ed8b78a", "1.10.0--r41hdfd78af_0": "sha256:5b3c7e9d79f9183f6d933d173b9589f991d93a14ffeb5cefc5431c15d8662cb5", "1.18.0--r43hdfd78af_0": "sha256:4155ea70a42d79e30082b50a44eebaa7f815f6b87f457b90a6b9e29f663fd27e"}, "docker": "quay.io/biocontainers/bioconductor-cordon", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cordon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cordon", "latest": {"1.20.0--r43hdfd78af_0": "sha256:7713b64d38678f5dc27a7f6178fb9866516f2234d9d1cd35e4287329113bdaae"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:d9b6f118dda0d5c9d67528e7083092313384d6b4e198434fce507c470fd4c9ce", "1.16.0--r42hdfd78af_0": "sha256:8d1eed886f26a06acffb9c7fe8d4f7661b2f43e4d30e8b922ea7edaacaf2954a", "1.12.0--r41hdfd78af_0": "sha256:def3bf2ad0b724a92a5644c39f735983ef2d5e453d5d1a2254b4c64a6ed8b78a", "1.10.0--r41hdfd78af_0": "sha256:5b3c7e9d79f9183f6d933d173b9589f991d93a14ffeb5cefc5431c15d8662cb5", "1.18.0--r43hdfd78af_0": "sha256:4155ea70a42d79e30082b50a44eebaa7f815f6b87f457b90a6b9e29f663fd27e", "1.20.0--r43hdfd78af_0": "sha256:7713b64d38678f5dc27a7f6178fb9866516f2234d9d1cd35e4287329113bdaae"}, "docker": "quay.io/biocontainers/bioconductor-cordon", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cordon.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cordon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cordon:1.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cordon:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cordon/1.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cordon/1.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cordon/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cordon/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
