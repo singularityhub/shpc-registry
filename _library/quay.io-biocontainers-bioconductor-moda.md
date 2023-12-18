@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-moda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moda/container.yaml"
-updated_at: "2023-12-17 02:39:32.952622"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2023-12-18 02:38:56.887603"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-moda"
 aliases:
  - "wget"
@@ -19,8 +19,9 @@ versions:
  - "1.16.0--r40hdfd78af_1"
  - "1.14.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-moda"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-moda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-moda", "latest": {"1.26.0--r43hdfd78af_0": "sha256:81636843caf486c4dd7c46c87d074d378f2493738825f46845e15e51108c8277"}, "tags": {"1.8.0--r351_0": "sha256:962bc57acd9cd1a43034297819db9c3d9987871dd1762916aad10ce695df775c", "1.24.0--r42hdfd78af_0": "sha256:9698e745df5dbcba744780bee300932c0d72233dd97e898b454a15befcc114c8", "1.20.0--r41hdfd78af_0": "sha256:d1e53ecd401f79f95434eee6768aaa83c5e47b678ed427010d4bb9fa5469c5e7", "1.18.0--r41hdfd78af_0": "sha256:d10e45620f2f2c4e2ebd537ea40da2f845ed54caa4cac9ad32a2dab04149ba2f", "1.16.0--r40hdfd78af_1": "sha256:86eedbb9e580b9b25c89284818b2bf91db8b035c42860049e865f1bfa9ef92e1", "1.14.0--r40_0": "sha256:f5e7ddc5d15c60dca82aaec751266ececfa215e1f3ac68d4c7ae341558cc7a7b", "1.26.0--r43hdfd78af_0": "sha256:81636843caf486c4dd7c46c87d074d378f2493738825f46845e15e51108c8277"}, "docker": "quay.io/biocontainers/bioconductor-moda", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-moda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-moda", "latest": {"1.28.0--r43hdfd78af_0": "sha256:1bed725643f2c2901cd865ea684a2b49d0830c6048cc5db728cbd580aa641c9a"}, "tags": {"1.8.0--r351_0": "sha256:962bc57acd9cd1a43034297819db9c3d9987871dd1762916aad10ce695df775c", "1.24.0--r42hdfd78af_0": "sha256:9698e745df5dbcba744780bee300932c0d72233dd97e898b454a15befcc114c8", "1.20.0--r41hdfd78af_0": "sha256:d1e53ecd401f79f95434eee6768aaa83c5e47b678ed427010d4bb9fa5469c5e7", "1.18.0--r41hdfd78af_0": "sha256:d10e45620f2f2c4e2ebd537ea40da2f845ed54caa4cac9ad32a2dab04149ba2f", "1.16.0--r40hdfd78af_1": "sha256:86eedbb9e580b9b25c89284818b2bf91db8b035c42860049e865f1bfa9ef92e1", "1.14.0--r40_0": "sha256:f5e7ddc5d15c60dca82aaec751266ececfa215e1f3ac68d4c7ae341558cc7a7b", "1.26.0--r43hdfd78af_0": "sha256:81636843caf486c4dd7c46c87d074d378f2493738825f46845e15e51108c8277", "1.28.0--r43hdfd78af_0": "sha256:1bed725643f2c2901cd865ea684a2b49d0830c6048cc5db728cbd580aa641c9a"}, "docker": "quay.io/biocontainers/bioconductor-moda", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-moda.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-moda
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-moda:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-moda:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-moda/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-moda/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-moda/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-moda/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

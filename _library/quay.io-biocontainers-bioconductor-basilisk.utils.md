@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-basilisk.utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-basilisk.utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-basilisk.utils/container.yaml"
-updated_at: "2023-12-17 02:43:07.997915"
-latest: "1.12.1--r43hdfd78af_0"
+updated_at: "2023-12-18 02:42:33.636892"
+latest: "1.14.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-basilisk.utils"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
  - "1.12.1--r43hdfd78af_0"
+ - "1.14.1--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-basilisk.utils"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-basilisk.utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-basilisk.utils", "latest": {"1.12.1--r43hdfd78af_0": "sha256:13127287c88c49f0f0968a478125decc5e83e494f6e324106966bbfc15027863"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:53c76e81260bd5473c294a5a36806daa731d74f89cdb4a46c55d29675bb8bae6", "1.10.0--r42hdfd78af_0": "sha256:07229edd6b355ef2e99935162ecbdfeae5f45e0e5916e04d17ac26d1b6e3c2c7", "1.12.1--r43hdfd78af_0": "sha256:13127287c88c49f0f0968a478125decc5e83e494f6e324106966bbfc15027863"}, "docker": "quay.io/biocontainers/bioconductor-basilisk.utils"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-basilisk.utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-basilisk.utils", "latest": {"1.14.1--r43hdfd78af_0": "sha256:b6c79940d9094db5fa7a222fc8d7f4b9eb3e336f4ccb632fcc31ff6763a01cab"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:53c76e81260bd5473c294a5a36806daa731d74f89cdb4a46c55d29675bb8bae6", "1.10.0--r42hdfd78af_0": "sha256:07229edd6b355ef2e99935162ecbdfeae5f45e0e5916e04d17ac26d1b6e3c2c7", "1.12.1--r43hdfd78af_0": "sha256:13127287c88c49f0f0968a478125decc5e83e494f6e324106966bbfc15027863", "1.14.1--r43hdfd78af_0": "sha256:b6c79940d9094db5fa7a222fc8d7f4b9eb3e336f4ccb632fcc31ff6763a01cab"}, "docker": "quay.io/biocontainers/bioconductor-basilisk.utils"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-basilisk.utils.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-basilisk.utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-basilisk.utils:1.12.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-basilisk.utils:1.14.1--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-basilisk.utils/1.12.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-basilisk.utils/1.12.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-basilisk.utils/1.14.1--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-basilisk.utils/1.14.1--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

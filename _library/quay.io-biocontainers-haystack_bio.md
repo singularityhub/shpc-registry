@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haystack_bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haystack_bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haystack_bio/container.yaml"
-updated_at: "2023-12-17 02:56:58.306204"
+updated_at: "2023-12-18 02:56:41.340683"
 latest: "0.5.5--py_1"
 container_url: "https://biocontainers.pro/tools/haystack_bio"
 aliases:

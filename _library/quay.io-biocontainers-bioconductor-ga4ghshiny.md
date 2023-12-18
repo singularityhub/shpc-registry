@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ga4ghshiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ga4ghshiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ga4ghshiny/container.yaml"
-updated_at: "2023-12-17 03:07:48.628279"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2023-12-18 03:07:44.680970"
+latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ga4ghshiny"
 aliases:
  - "gio-launch-desktop"
@@ -19,8 +19,9 @@ versions:
  - "1.12.0--r40hdfd78af_1"
  - "1.10.0--r40_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ga4ghshiny"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ga4ghshiny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ga4ghshiny", "latest": {"1.22.0--r43hdfd78af_0": "sha256:cec3c0df9d1d1f34516249cca8e3af09b206b75c642d5577ff3674bd8db35952"}, "tags": {"1.8.0--r36_0": "sha256:a19bc8b63a4a7faf4ad57319e9714fa5f6cf791941f00e555c1fbf6c633c4664", "1.20.0--r42hdfd78af_0": "sha256:e28692b47a5f65e1f02e333faee8f753482c2ddcb8c1b68e942786434f141bb5", "1.16.0--r41hdfd78af_0": "sha256:2d27178ec9a8de0e12fee44c398ce3e90c4badd1c937add1fd2d93a53ca7d863", "1.14.0--r41hdfd78af_0": "sha256:5eb4eec4308c9910f3959e39bd4f8a69bb685358e23d4392bfb0073e3ca6da88", "1.12.0--r40hdfd78af_1": "sha256:695cb48c3f86a6102ed1f3b20d539a0e4cf2983ec5e6aa2fe3c3b3ce0707f02b", "1.10.0--r40_0": "sha256:3284f1e69a2804a19c192185ac6267938797ed1583a974eed34384354c23c86f", "1.22.0--r43hdfd78af_0": "sha256:cec3c0df9d1d1f34516249cca8e3af09b206b75c642d5577ff3674bd8db35952"}, "docker": "quay.io/biocontainers/bioconductor-ga4ghshiny", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ga4ghshiny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ga4ghshiny", "latest": {"1.24.0--r43hdfd78af_0": "sha256:0cb301b2ff80cb1e83ac1968a268923f01659b7b423095ae8b644d102331ea06"}, "tags": {"1.8.0--r36_0": "sha256:a19bc8b63a4a7faf4ad57319e9714fa5f6cf791941f00e555c1fbf6c633c4664", "1.20.0--r42hdfd78af_0": "sha256:e28692b47a5f65e1f02e333faee8f753482c2ddcb8c1b68e942786434f141bb5", "1.16.0--r41hdfd78af_0": "sha256:2d27178ec9a8de0e12fee44c398ce3e90c4badd1c937add1fd2d93a53ca7d863", "1.14.0--r41hdfd78af_0": "sha256:5eb4eec4308c9910f3959e39bd4f8a69bb685358e23d4392bfb0073e3ca6da88", "1.12.0--r40hdfd78af_1": "sha256:695cb48c3f86a6102ed1f3b20d539a0e4cf2983ec5e6aa2fe3c3b3ce0707f02b", "1.10.0--r40_0": "sha256:3284f1e69a2804a19c192185ac6267938797ed1583a974eed34384354c23c86f", "1.22.0--r43hdfd78af_0": "sha256:cec3c0df9d1d1f34516249cca8e3af09b206b75c642d5577ff3674bd8db35952", "1.24.0--r43hdfd78af_0": "sha256:0cb301b2ff80cb1e83ac1968a268923f01659b7b423095ae8b644d102331ea06"}, "docker": "quay.io/biocontainers/bioconductor-ga4ghshiny", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ga4ghshiny.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ga4ghshiny
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ga4ghshiny:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ga4ghshiny:1.24.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ga4ghshiny/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ga4ghshiny/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ga4ghshiny/1.24.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ga4ghshiny/1.24.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

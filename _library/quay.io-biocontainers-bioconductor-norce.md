@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-norce"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-norce/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-norce/container.yaml"
-updated_at: "2023-12-17 03:13:08.228453"
-latest: "1.12.0--r43hdfd78af_0"
+updated_at: "2023-12-18 03:13:09.982956"
+latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-norce"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
+ - "1.14.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-norce"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-norce", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-norce", "latest": {"1.12.0--r43hdfd78af_0": "sha256:e14920ba18c6a8e3544f50f59b22a0b71f050db3f7c2b30806a77d72e75f8a1a"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:f68861adeda4b782b2c81a40473535d389364284093d921d346ad8e8809b9a8a", "1.10.0--r42hdfd78af_0": "sha256:69892493bbe0a8a7699b7f26e859dc7709c1972d7d73a4797a5a5695b04b0e1c", "1.12.0--r43hdfd78af_0": "sha256:e14920ba18c6a8e3544f50f59b22a0b71f050db3f7c2b30806a77d72e75f8a1a"}, "docker": "quay.io/biocontainers/bioconductor-norce"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-norce", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-norce", "latest": {"1.14.0--r43hdfd78af_0": "sha256:cd7c443167c8528d79c1c186e752eeba16619daef535f5b90a7e4a25a5f65b62"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:f68861adeda4b782b2c81a40473535d389364284093d921d346ad8e8809b9a8a", "1.10.0--r42hdfd78af_0": "sha256:69892493bbe0a8a7699b7f26e859dc7709c1972d7d73a4797a5a5695b04b0e1c", "1.12.0--r43hdfd78af_0": "sha256:e14920ba18c6a8e3544f50f59b22a0b71f050db3f7c2b30806a77d72e75f8a1a", "1.14.0--r43hdfd78af_0": "sha256:cd7c443167c8528d79c1c186e752eeba16619daef535f5b90a7e4a25a5f65b62"}, "docker": "quay.io/biocontainers/bioconductor-norce"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-norce.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-norce
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-norce:1.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-norce:1.14.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-norce/1.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-norce/1.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-norce/1.14.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-norce/1.14.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sdams"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sdams/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sdams/container.yaml"
-updated_at: "2023-12-17 02:34:16.994491"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2023-12-18 02:33:35.563736"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sdams"
 aliases:
  - "2to3-3.8"
@@ -23,8 +23,9 @@ versions:
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
  - "1.20.0--r43hdfd78af_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sdams"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sdams", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sdams", "latest": {"1.20.0--r43hdfd78af_0": "sha256:b89aecca170f68fedb2e11d006b35647bec331a2106881aabc6543206e78fccd"}, "tags": {"1.8.0--r40_0": "sha256:1d8ccd7b622d7854543360b1ce1e2460fc06a44cf3ce6290f6aa0c7b13e79dce", "1.18.0--r42hdfd78af_0": "sha256:82a171c46b5c0b24d8c2e1c4a23255466e8997fb500a4aa00a2b212f18a8661b", "1.14.0--r41hdfd78af_0": "sha256:b8578c3363989a5063c0325c02158bc4ae4345c943c80ab29825a6ba3986e33c", "1.12.0--r41hdfd78af_0": "sha256:9829c7a7c519155acbdc4be1ce96676b5cfb0417e68b3d416601e35f725a09ad", "1.10.0--r40hdfd78af_1": "sha256:9596f4c5a0b7fa7f0fe9370a96eed6a96c83b14bd60fd4b49eba3454164759df", "1.20.0--r43hdfd78af_0": "sha256:b89aecca170f68fedb2e11d006b35647bec331a2106881aabc6543206e78fccd"}, "docker": "quay.io/biocontainers/bioconductor-sdams", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sdams", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sdams", "latest": {"1.22.0--r43hdfd78af_0": "sha256:9bc9007f609b0b86159bc6f7d1a5bbc0ea44856489dc2b02ab56d220971d62fd"}, "tags": {"1.8.0--r40_0": "sha256:1d8ccd7b622d7854543360b1ce1e2460fc06a44cf3ce6290f6aa0c7b13e79dce", "1.18.0--r42hdfd78af_0": "sha256:82a171c46b5c0b24d8c2e1c4a23255466e8997fb500a4aa00a2b212f18a8661b", "1.14.0--r41hdfd78af_0": "sha256:b8578c3363989a5063c0325c02158bc4ae4345c943c80ab29825a6ba3986e33c", "1.12.0--r41hdfd78af_0": "sha256:9829c7a7c519155acbdc4be1ce96676b5cfb0417e68b3d416601e35f725a09ad", "1.10.0--r40hdfd78af_1": "sha256:9596f4c5a0b7fa7f0fe9370a96eed6a96c83b14bd60fd4b49eba3454164759df", "1.20.0--r43hdfd78af_0": "sha256:b89aecca170f68fedb2e11d006b35647bec331a2106881aabc6543206e78fccd", "1.22.0--r43hdfd78af_0": "sha256:9bc9007f609b0b86159bc6f7d1a5bbc0ea44856489dc2b02ab56d220971d62fd"}, "docker": "quay.io/biocontainers/bioconductor-sdams", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sdams.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sdams
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sdams:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sdams:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sdams/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sdams/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sdams/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sdams/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

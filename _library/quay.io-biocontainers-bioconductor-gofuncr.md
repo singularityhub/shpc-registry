@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gofuncr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gofuncr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gofuncr/container.yaml"
-updated_at: "2023-12-17 02:49:16.367769"
-latest: "1.20.0--r43hf17093f_0"
+updated_at: "2023-12-18 02:48:47.069557"
+latest: "1.22.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gofuncr"
 aliases:
  - "2to3-3.8"
@@ -24,8 +24,9 @@ versions:
  - "1.10.0--r40h399db7b_1"
  - "1.18.0--r42hf17093f_1"
  - "1.20.0--r43hf17093f_0"
+ - "1.22.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gofuncr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gofuncr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gofuncr", "latest": {"1.20.0--r43hf17093f_0": "sha256:082560bcda6cf5676c27ad1874feeeb61a0bc66704cf1fd63dda43934f4f3bd2"}, "tags": {"1.8.0--r40h5f743cb_0": "sha256:161e71fa78b81f996ae0abbfb1672039e8d38cde564d9b8c2c6fc44d392aae6b", "1.18.0--r42hc247a5b_0": "sha256:b393160b49b12b6d41ea89c90c493bb8c51a90431b244bde77dc8a4c2ee1ce23", "1.14.0--r41hc247a5b_2": "sha256:e599b427eb4ae40cee356ce3b5eca0d31622464a80eb72cb0ea29e8b6cf7bda1", "1.12.0--r41h399db7b_0": "sha256:2c6642ca29cdbabe1c5d6e9d84554b29659554ad83c06ad058eb175e9af49dee", "1.10.0--r40h399db7b_1": "sha256:52ea80ca7941f57cdb080e17bef4fe0fb0ea4d8f99fb6f649be0264010e69a69", "1.18.0--r42hf17093f_1": "sha256:a50e06decde48cffb1cc48449923c3defe2cb036669ba2ae6b77210d47f529f7", "1.20.0--r43hf17093f_0": "sha256:082560bcda6cf5676c27ad1874feeeb61a0bc66704cf1fd63dda43934f4f3bd2"}, "docker": "quay.io/biocontainers/bioconductor-gofuncr", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gofuncr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gofuncr", "latest": {"1.22.0--r43hf17093f_0": "sha256:b790b7c7ef7f772d4bef8cedd403cc44ac7dfd8f2d2c595323c7c7877c772e1d"}, "tags": {"1.8.0--r40h5f743cb_0": "sha256:161e71fa78b81f996ae0abbfb1672039e8d38cde564d9b8c2c6fc44d392aae6b", "1.18.0--r42hc247a5b_0": "sha256:b393160b49b12b6d41ea89c90c493bb8c51a90431b244bde77dc8a4c2ee1ce23", "1.14.0--r41hc247a5b_2": "sha256:e599b427eb4ae40cee356ce3b5eca0d31622464a80eb72cb0ea29e8b6cf7bda1", "1.12.0--r41h399db7b_0": "sha256:2c6642ca29cdbabe1c5d6e9d84554b29659554ad83c06ad058eb175e9af49dee", "1.10.0--r40h399db7b_1": "sha256:52ea80ca7941f57cdb080e17bef4fe0fb0ea4d8f99fb6f649be0264010e69a69", "1.18.0--r42hf17093f_1": "sha256:a50e06decde48cffb1cc48449923c3defe2cb036669ba2ae6b77210d47f529f7", "1.20.0--r43hf17093f_0": "sha256:082560bcda6cf5676c27ad1874feeeb61a0bc66704cf1fd63dda43934f4f3bd2", "1.22.0--r43hf17093f_0": "sha256:b790b7c7ef7f772d4bef8cedd403cc44ac7dfd8f2d2c595323c7c7877c772e1d"}, "docker": "quay.io/biocontainers/bioconductor-gofuncr", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gofuncr.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gofuncr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gofuncr:1.20.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-gofuncr:1.22.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gofuncr/1.20.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-gofuncr/1.20.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-gofuncr/1.22.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-gofuncr/1.22.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

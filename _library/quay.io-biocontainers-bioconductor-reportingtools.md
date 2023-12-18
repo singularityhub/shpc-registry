@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-reportingtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reportingtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reportingtools/container.yaml"
-updated_at: "2023-12-17 02:59:47.078708"
-latest: "2.39.0--r43hdfd78af_0"
+updated_at: "2023-12-18 02:59:34.865069"
+latest: "2.42.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-reportingtools"
 
 versions:
  - "2.34.0--r41hdfd78af_0"
  - "2.38.0--r42hdfd78af_0"
  - "2.39.0--r43hdfd78af_0"
+ - "2.42.2--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-reportingtools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-reportingtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reportingtools", "latest": {"2.39.0--r43hdfd78af_0": "sha256:7993cdca829936ec321e847177697c9098d2ec6900b7b2c991e48dea296828cc"}, "tags": {"2.34.0--r41hdfd78af_0": "sha256:562eeb71107b5cd1d97b05f3b52ff6f633a8454f260d157e01a0039e464b312b", "2.38.0--r42hdfd78af_0": "sha256:4e5413f45941249a49577b4432c1eeb48da5b369fa879283d0d29b1055259506", "2.39.0--r43hdfd78af_0": "sha256:7993cdca829936ec321e847177697c9098d2ec6900b7b2c991e48dea296828cc"}, "docker": "quay.io/biocontainers/bioconductor-reportingtools"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-reportingtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reportingtools", "latest": {"2.42.2--r43hdfd78af_0": "sha256:29275413dc9b214aec7b5a3775c0131e54f7dfcbb43389050cf1e3779e7ae292"}, "tags": {"2.34.0--r41hdfd78af_0": "sha256:562eeb71107b5cd1d97b05f3b52ff6f633a8454f260d157e01a0039e464b312b", "2.38.0--r42hdfd78af_0": "sha256:4e5413f45941249a49577b4432c1eeb48da5b369fa879283d0d29b1055259506", "2.39.0--r43hdfd78af_0": "sha256:7993cdca829936ec321e847177697c9098d2ec6900b7b2c991e48dea296828cc", "2.42.2--r43hdfd78af_0": "sha256:29275413dc9b214aec7b5a3775c0131e54f7dfcbb43389050cf1e3779e7ae292"}, "docker": "quay.io/biocontainers/bioconductor-reportingtools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-reportingtools.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-reportingtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-reportingtools:2.39.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-reportingtools:2.42.2--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-reportingtools/2.39.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-reportingtools/2.39.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-reportingtools/2.42.2--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-reportingtools/2.42.2--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

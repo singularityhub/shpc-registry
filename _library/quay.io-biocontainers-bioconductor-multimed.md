@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-multimed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multimed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multimed/container.yaml"
-updated_at: "2023-12-17 02:48:29.283989"
-latest: "2.22.0--r43hdfd78af_0"
+updated_at: "2023-12-18 02:47:59.162256"
+latest: "2.24.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-multimed"
 aliases:
  - "gio-launch-desktop"
@@ -19,8 +19,9 @@ versions:
  - "2.12.0--r40hdfd78af_1"
  - "2.10.0--r40_0"
  - "2.22.0--r43hdfd78af_0"
+ - "2.24.0--r43hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-multimed"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-multimed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-multimed", "latest": {"2.22.0--r43hdfd78af_0": "sha256:08a417e54e88e7aa935dfb2aa7c7502e0aad84eeadf2aea1a4e1478aa5e4b0d2"}, "tags": {"2.8.0--r36_0": "sha256:fa672979f418ca1ec9801d612977b8c4b8c6e6d78db996c1fb3d10ab46ad3805", "2.20.0--r42hdfd78af_0": "sha256:8cb1a63a710003b1fced10d8fe8b5d7a8885b86967b5dc0fc7b6ddc6c3706e4a", "2.16.0--r41hdfd78af_0": "sha256:f72103a8fbf3857913dbf3750e09d730cd8a7d17b2b25063910bee9d6b7bc436", "2.14.0--r41hdfd78af_0": "sha256:3baf040798c19031a0026d26f3b8f8da79e5fbd393cf1cf81b82548c20b2e1c9", "2.12.0--r40hdfd78af_1": "sha256:9315df5b02012bd9cc873b9a6aeb33b61b98f88f6f8cfc8c653c1ac4a0c3a1cb", "2.10.0--r40_0": "sha256:5e66f77d17365899d1af9c1a09e36b23c376ec3097eeb30758b7e1949a399a01", "2.22.0--r43hdfd78af_0": "sha256:08a417e54e88e7aa935dfb2aa7c7502e0aad84eeadf2aea1a4e1478aa5e4b0d2"}, "docker": "quay.io/biocontainers/bioconductor-multimed", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-multimed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-multimed", "latest": {"2.24.0--r43hdfd78af_1": "sha256:420a7da2774ccbc7d2c1271076e912ae0f9fa32f133a50f912795ea5aa20e45c"}, "tags": {"2.8.0--r36_0": "sha256:fa672979f418ca1ec9801d612977b8c4b8c6e6d78db996c1fb3d10ab46ad3805", "2.20.0--r42hdfd78af_0": "sha256:8cb1a63a710003b1fced10d8fe8b5d7a8885b86967b5dc0fc7b6ddc6c3706e4a", "2.16.0--r41hdfd78af_0": "sha256:f72103a8fbf3857913dbf3750e09d730cd8a7d17b2b25063910bee9d6b7bc436", "2.14.0--r41hdfd78af_0": "sha256:3baf040798c19031a0026d26f3b8f8da79e5fbd393cf1cf81b82548c20b2e1c9", "2.12.0--r40hdfd78af_1": "sha256:9315df5b02012bd9cc873b9a6aeb33b61b98f88f6f8cfc8c653c1ac4a0c3a1cb", "2.10.0--r40_0": "sha256:5e66f77d17365899d1af9c1a09e36b23c376ec3097eeb30758b7e1949a399a01", "2.22.0--r43hdfd78af_0": "sha256:08a417e54e88e7aa935dfb2aa7c7502e0aad84eeadf2aea1a4e1478aa5e4b0d2", "2.24.0--r43hdfd78af_1": "sha256:420a7da2774ccbc7d2c1271076e912ae0f9fa32f133a50f912795ea5aa20e45c"}, "docker": "quay.io/biocontainers/bioconductor-multimed", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-multimed.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-multimed
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-multimed:2.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-multimed:2.24.0--r43hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-multimed/2.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-multimed/2.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-multimed/2.24.0--r43hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-multimed/2.24.0--r43hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

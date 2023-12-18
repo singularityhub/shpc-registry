@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-geneoverlap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geneoverlap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geneoverlap/container.yaml"
-updated_at: "2023-12-17 02:40:20.803250"
-latest: "1.36.0--r43hdfd78af_0"
+updated_at: "2023-12-18 02:39:45.524788"
+latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geneoverlap"
 
 versions:
  - "1.30.0--r41hdfd78af_0"
  - "1.34.0--r42hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
+ - "1.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-geneoverlap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geneoverlap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geneoverlap", "latest": {"1.36.0--r43hdfd78af_0": "sha256:224ffab58dd31c1d00f3dd1dc6bf5b794ed24a8643f9d9eb925e995577d2eba1"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:8d877a09ba1e49f8d4a3a2c9529feeb7e4179ecf8b91a42e628a1729ab87041b", "1.34.0--r42hdfd78af_0": "sha256:862c37e9bc4a0b4f304a025d0e23de716705b37ca5d7cfed20bdf8640c1ba22b", "1.36.0--r43hdfd78af_0": "sha256:224ffab58dd31c1d00f3dd1dc6bf5b794ed24a8643f9d9eb925e995577d2eba1"}, "docker": "quay.io/biocontainers/bioconductor-geneoverlap"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geneoverlap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geneoverlap", "latest": {"1.38.0--r43hdfd78af_0": "sha256:4dcf12eabf4785868589ecf4aa3db5c2c5b7af47ddffff2c86def030eb5b7a62"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:8d877a09ba1e49f8d4a3a2c9529feeb7e4179ecf8b91a42e628a1729ab87041b", "1.34.0--r42hdfd78af_0": "sha256:862c37e9bc4a0b4f304a025d0e23de716705b37ca5d7cfed20bdf8640c1ba22b", "1.36.0--r43hdfd78af_0": "sha256:224ffab58dd31c1d00f3dd1dc6bf5b794ed24a8643f9d9eb925e995577d2eba1", "1.38.0--r43hdfd78af_0": "sha256:4dcf12eabf4785868589ecf4aa3db5c2c5b7af47ddffff2c86def030eb5b7a62"}, "docker": "quay.io/biocontainers/bioconductor-geneoverlap"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geneoverlap.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-geneoverlap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-geneoverlap:1.36.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-geneoverlap:1.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-geneoverlap/1.36.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-geneoverlap/1.36.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-geneoverlap/1.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-geneoverlap/1.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

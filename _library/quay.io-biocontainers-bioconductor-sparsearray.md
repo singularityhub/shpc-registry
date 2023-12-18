@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-sparsearray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sparsearray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sparsearray/container.yaml"
-updated_at: "2023-12-17 02:58:28.637978"
-latest: "1.0.10--r43ha9d7317_0"
+updated_at: "2023-12-18 02:58:15.167006"
+latest: "1.2.2--r43ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-sparsearray"
 aliases:
  - "hb-info"
  - "tjbench"
 versions:
  - "1.0.10--r43ha9d7317_0"
+ - "1.2.2--r43ha9d7317_1"
 description: "singularity registry hpc automated addition for bioconductor-sparsearray"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sparsearray", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-sparsearray", "latest": {"1.0.10--r43ha9d7317_0": "sha256:2bfed3b1dcb0a1d98535a806914c632d5693c1cb775daffcebdab60ed84c44dd"}, "tags": {"1.0.10--r43ha9d7317_0": "sha256:2bfed3b1dcb0a1d98535a806914c632d5693c1cb775daffcebdab60ed84c44dd"}, "docker": "quay.io/biocontainers/bioconductor-sparsearray", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sparsearray", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-sparsearray", "latest": {"1.2.2--r43ha9d7317_1": "sha256:666f4d9c0a8ce586796e63571cabdc8a8ae90691886288b9462cbbfded87ef24"}, "tags": {"1.0.10--r43ha9d7317_0": "sha256:2bfed3b1dcb0a1d98535a806914c632d5693c1cb775daffcebdab60ed84c44dd", "1.2.2--r43ha9d7317_1": "sha256:666f4d9c0a8ce586796e63571cabdc8a8ae90691886288b9462cbbfded87ef24"}, "docker": "quay.io/biocontainers/bioconductor-sparsearray", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sparsearray.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sparsearray
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sparsearray:1.0.10--r43ha9d7317_0
+$ shpc install quay.io/biocontainers/bioconductor-sparsearray:1.2.2--r43ha9d7317_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sparsearray/1.0.10--r43ha9d7317_0
-$ module help quay.io/biocontainers/bioconductor-sparsearray/1.0.10--r43ha9d7317_0
+$ module load quay.io/biocontainers/bioconductor-sparsearray/1.2.2--r43ha9d7317_1
+$ module help quay.io/biocontainers/bioconductor-sparsearray/1.2.2--r43ha9d7317_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

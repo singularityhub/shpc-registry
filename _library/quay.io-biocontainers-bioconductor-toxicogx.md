@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-toxicogx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-toxicogx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-toxicogx/container.yaml"
-updated_at: "2023-12-17 03:08:41.719000"
-latest: "2.4.0--r43hdfd78af_0"
+updated_at: "2023-12-18 03:08:39.105801"
+latest: "2.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-toxicogx"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "2.2.0--r42hdfd78af_0"
  - "2.4.0--r43hdfd78af_0"
+ - "2.6.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-toxicogx"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-toxicogx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-toxicogx", "latest": {"2.4.0--r43hdfd78af_0": "sha256:74bea11e3fd6e6b24ed099afc83b0f4c62b635af34ad6e7b0c364105fc62f57a"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:5f6559c9440b94724333799267a664af69dec234ac8db4535d67db427c958f40", "2.2.0--r42hdfd78af_0": "sha256:1c8959a50f7c68507fd0e5ffa4f5c2dd1cbdf9d8b9ab2150c73c2c9b2c15fa7b", "2.4.0--r43hdfd78af_0": "sha256:74bea11e3fd6e6b24ed099afc83b0f4c62b635af34ad6e7b0c364105fc62f57a"}, "docker": "quay.io/biocontainers/bioconductor-toxicogx"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-toxicogx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-toxicogx", "latest": {"2.6.0--r43hdfd78af_0": "sha256:56f8596864bb52e200d9efa9f85f04ccdd9e22ae18c81895ddc1fbfd19801e69"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:5f6559c9440b94724333799267a664af69dec234ac8db4535d67db427c958f40", "2.2.0--r42hdfd78af_0": "sha256:1c8959a50f7c68507fd0e5ffa4f5c2dd1cbdf9d8b9ab2150c73c2c9b2c15fa7b", "2.4.0--r43hdfd78af_0": "sha256:74bea11e3fd6e6b24ed099afc83b0f4c62b635af34ad6e7b0c364105fc62f57a", "2.6.0--r43hdfd78af_0": "sha256:56f8596864bb52e200d9efa9f85f04ccdd9e22ae18c81895ddc1fbfd19801e69"}, "docker": "quay.io/biocontainers/bioconductor-toxicogx"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-toxicogx.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-toxicogx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-toxicogx:2.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-toxicogx:2.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-toxicogx/2.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-toxicogx/2.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-toxicogx/2.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-toxicogx/2.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

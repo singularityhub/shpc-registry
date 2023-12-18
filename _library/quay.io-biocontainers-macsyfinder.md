@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/macsyfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/macsyfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/macsyfinder/container.yaml"
-updated_at: "2023-12-17 02:44:22.473695"
+updated_at: "2023-12-18 02:43:49.191413"
 latest: "2.1.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/macsyfinder"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-pviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pviz/container.yaml"
-updated_at: "2023-12-17 03:06:28.670722"
-latest: "1.34.0--r43hdfd78af_0"
+updated_at: "2023-12-18 03:06:23.509362"
+latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pviz"
 
 versions:
  - "1.28.0--r41hdfd78af_0"
  - "1.32.0--r42hdfd78af_0"
  - "1.34.0--r43hdfd78af_0"
+ - "1.36.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pviz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pviz", "latest": {"1.34.0--r43hdfd78af_0": "sha256:f55806a60aae4f5449f85f5a8c23f61897a28e02d7cbdf850b0bf24ce09d4434"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:516343a80955f6a913f9238f32ef9540532f2052e533af5461f1ad5944088828", "1.32.0--r42hdfd78af_0": "sha256:ba01727b3319ef1d94fc1d683052ef9a7d67ed01d326c10502e3d19c1783338f", "1.34.0--r43hdfd78af_0": "sha256:f55806a60aae4f5449f85f5a8c23f61897a28e02d7cbdf850b0bf24ce09d4434"}, "docker": "quay.io/biocontainers/bioconductor-pviz"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pviz", "latest": {"1.36.0--r43hdfd78af_0": "sha256:5f6bc17a0ea55d21db7b89c47a06e281d0ba5cbb598c7659a2b22e65bcaf46e8"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:516343a80955f6a913f9238f32ef9540532f2052e533af5461f1ad5944088828", "1.32.0--r42hdfd78af_0": "sha256:ba01727b3319ef1d94fc1d683052ef9a7d67ed01d326c10502e3d19c1783338f", "1.34.0--r43hdfd78af_0": "sha256:f55806a60aae4f5449f85f5a8c23f61897a28e02d7cbdf850b0bf24ce09d4434", "1.36.0--r43hdfd78af_0": "sha256:5f6bc17a0ea55d21db7b89c47a06e281d0ba5cbb598c7659a2b22e65bcaf46e8"}, "docker": "quay.io/biocontainers/bioconductor-pviz"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pviz.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pviz:1.34.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pviz:1.36.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pviz/1.34.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pviz/1.34.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pviz/1.36.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pviz/1.36.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

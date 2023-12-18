@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-metagxbreast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metagxbreast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metagxbreast/container.yaml"
-updated_at: "2023-12-17 02:47:27.791435"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2023-12-18 02:46:57.271644"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metagxbreast"
 aliases:
  - "2to3-3.8"
@@ -23,8 +23,9 @@ versions:
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40_0"
  - "1.20.0--r43hdfd78af_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-metagxbreast"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metagxbreast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metagxbreast", "latest": {"1.20.0--r43hdfd78af_0": "sha256:6731222d200573b97c97d38464a67cfc9b948faacf8b4630e38dd2cc85ef2216"}, "tags": {"1.8.0--r40_0": "sha256:b4961ec55aff2acd9e94a482d11fe3ed698ecefcaaa3f01f56ea07a5cb71e7de", "1.18.0--r42hdfd78af_0": "sha256:7da945119d4fa189287a5647ea20d53c93b5b36e25cc56cf670336697be3a0e9", "1.14.0--r41hdfd78af_1": "sha256:8c61c50d14fa2156a365c5b7c015ab04a15fdcad00e674c7dcc2ea6f76c45c3b", "1.12.0--r41hdfd78af_0": "sha256:1d5781df3ec8f008b136e5037551b4f82f5bf9877333c2b2730fa6e41bd9806c", "1.10.0--r40_0": "sha256:f78afdaededadb75bf2f0a786f6bfef906d1b7e1c0df86810b8049afe7fc1d0d", "1.20.0--r43hdfd78af_0": "sha256:6731222d200573b97c97d38464a67cfc9b948faacf8b4630e38dd2cc85ef2216"}, "docker": "quay.io/biocontainers/bioconductor-metagxbreast", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metagxbreast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metagxbreast", "latest": {"1.22.0--r43hdfd78af_0": "sha256:419a6864567f39e53e30d58074ddfabbcfd6638adb504ee3efa92c4bc9d9967a"}, "tags": {"1.8.0--r40_0": "sha256:b4961ec55aff2acd9e94a482d11fe3ed698ecefcaaa3f01f56ea07a5cb71e7de", "1.18.0--r42hdfd78af_0": "sha256:7da945119d4fa189287a5647ea20d53c93b5b36e25cc56cf670336697be3a0e9", "1.14.0--r41hdfd78af_1": "sha256:8c61c50d14fa2156a365c5b7c015ab04a15fdcad00e674c7dcc2ea6f76c45c3b", "1.12.0--r41hdfd78af_0": "sha256:1d5781df3ec8f008b136e5037551b4f82f5bf9877333c2b2730fa6e41bd9806c", "1.10.0--r40_0": "sha256:f78afdaededadb75bf2f0a786f6bfef906d1b7e1c0df86810b8049afe7fc1d0d", "1.20.0--r43hdfd78af_0": "sha256:6731222d200573b97c97d38464a67cfc9b948faacf8b4630e38dd2cc85ef2216", "1.22.0--r43hdfd78af_0": "sha256:419a6864567f39e53e30d58074ddfabbcfd6638adb504ee3efa92c4bc9d9967a"}, "docker": "quay.io/biocontainers/bioconductor-metagxbreast", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metagxbreast.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metagxbreast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metagxbreast:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-metagxbreast:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metagxbreast/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-metagxbreast/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-metagxbreast/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-metagxbreast/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

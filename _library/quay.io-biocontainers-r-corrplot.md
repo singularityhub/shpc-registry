@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-corrplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-corrplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-corrplot/container.yaml"
-updated_at: "2023-12-17 02:36:29.144088"
+updated_at: "2023-12-18 02:35:49.940654"
 latest: "0.77--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-corrplot"
 aliases:
