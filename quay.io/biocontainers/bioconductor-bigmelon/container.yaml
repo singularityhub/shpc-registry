@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-bigmelon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bigmelon
 latest:
-  1.26.0--r43hdfd78af_0: sha256:f212175558557e6d2ca05e502b2748c11652323d8b5a7ca90d15d0b6f56759a7
+  1.28.0--r43hdfd78af_0: sha256:74c22b05d638ec2d78a39a0a7dc22641c48e9672b9864a68968b39602a61cabd
 tags:
   1.8.0--r351_0: sha256:6e3d8bc360f13859f9c2fd75ef304cf74823fb5a2cf89c03a9a8b2971db8796f
   1.24.0--r42hdfd78af_0: sha256:1b8c1bd73ac18ecef79108030996952ee04547def45d89fceecd2259b9a9e112
@@ -11,6 +11,7 @@ tags:
   1.16.0--r40hdfd78af_1: sha256:c248c97262f1b4ca7f1a7d2450c58d5eb07341ca641c95745e2aba5177465890
   1.14.0--r40_0: sha256:aeab6a67014763ee1f093e4dbc5ab95960bf2d2d96aca96cadcc6579e9fc245c
   1.26.0--r43hdfd78af_0: sha256:f212175558557e6d2ca05e502b2748c11652323d8b5a7ca90d15d0b6f56759a7
+  1.28.0--r43hdfd78af_0: sha256:74c22b05d638ec2d78a39a0a7dc22641c48e9672b9864a68968b39602a61cabd
 docker: quay.io/biocontainers/bioconductor-bigmelon
 aliases:
   wget: /usr/local/bin/wget

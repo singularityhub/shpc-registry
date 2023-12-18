@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ggmanh
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-ggmanh
 latest:
-  1.4.0--r43hdfd78af_0: sha256:bcb8353dace37594ed563a2d29e7c07804e5c744b27a4ee672a363112be2f713
+  1.6.0--r43hdfd78af_0: sha256:985ac39c6064dde8a717224efbd658b140da44a9a920a8a9275ec846f2f91675
 tags:
   1.2.0--r42hdfd78af_0: sha256:843752f458d5cd6c0492900538a1be2049bbd042b5a9ad570d37e9df65dade8e
   1.4.0--r43hdfd78af_0: sha256:bcb8353dace37594ed563a2d29e7c07804e5c744b27a4ee672a363112be2f713
+  1.6.0--r43hdfd78af_0: sha256:985ac39c6064dde8a717224efbd658b140da44a9a920a8a9275ec846f2f91675
 docker: quay.io/biocontainers/bioconductor-ggmanh
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

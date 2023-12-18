@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-fishalyser
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fishalyser
 latest:
-  1.34.0--r43hdfd78af_0: sha256:49e9e658af400b08157521978cfebf97b01ca1d9260381350f0c2a138e8b3ec1
+  1.36.0--r43hdfd78af_0: sha256:4ef72aefc1be64b6650c38d516ec2b07c33bc70d9d4f929559ab00fdb6a48b3e
 tags:
   1.28.0--r41hdfd78af_0: sha256:adab4cc196fb3d8be0750727028bb1f3a02ee648334c8449c5fb3966aceffb5a
   1.32.0--r42hdfd78af_0: sha256:859a726c8506dee460e7c7415036a1b5a7434c1f59a308f770e3bfdb1cf28457
   1.34.0--r43hdfd78af_0: sha256:49e9e658af400b08157521978cfebf97b01ca1d9260381350f0c2a138e8b3ec1
+  1.36.0--r43hdfd78af_0: sha256:4ef72aefc1be64b6650c38d516ec2b07c33bc70d9d4f929559ab00fdb6a48b3e
 docker: quay.io/biocontainers/bioconductor-fishalyser
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom

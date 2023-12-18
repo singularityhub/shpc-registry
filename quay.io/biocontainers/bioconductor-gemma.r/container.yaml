@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-gemma.r
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-gemma.r
 latest:
-  1.2.0--r43hdfd78af_0: sha256:7ccb03e6d6c22a961ff5c0f272a137ba1aeb111f97b67a12d068d6cca18d43bf
+  2.0.0--r43hdfd78af_0: sha256:5a04748603c8b65cd86772380d0e1591f1eb3a54d50f0cc7205a14af726ad55b
 tags:
   1.0.0--r42hdfd78af_0: sha256:cd0fce0e6b5aac424036c872a02ebb366c23403546520e41cf5ec5c978ebd379
   1.2.0--r43hdfd78af_0: sha256:7ccb03e6d6c22a961ff5c0f272a137ba1aeb111f97b67a12d068d6cca18d43bf
+  2.0.0--r43hdfd78af_0: sha256:5a04748603c8b65cd86772380d0e1591f1eb3a54d50f0cc7205a14af726ad55b
 docker: quay.io/biocontainers/bioconductor-gemma.r
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

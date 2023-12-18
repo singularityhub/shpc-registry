@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-hgudkfz31.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hgudkfz31.db
 latest:
-  3.2.3--r43hdfd78af_11: sha256:86971ad827c3ae20486bc024e9de3d73f19823b6f510adadf9d9652d667d2189
+  3.2.3--r43hdfd78af_12: sha256:324bc13ba0059b12d75b2a62f2dd283e1c99b0a254908518e52ee6b9fa53d338
 tags:
   3.2.3--r41hdfd78af_9: sha256:394058d4b7f63a4aada60045d48450aa864d017c76ad25f341175af4b4a84ab0
   3.2.3--r42hdfd78af_10: sha256:f79dba27ba0264eb6eda0df75f097b88fe81434c0901e8ef42f836f4fbba56c3
   3.2.3--r43hdfd78af_11: sha256:86971ad827c3ae20486bc024e9de3d73f19823b6f510adadf9d9652d667d2189
+  3.2.3--r43hdfd78af_12: sha256:324bc13ba0059b12d75b2a62f2dd283e1c99b0a254908518e52ee6b9fa53d338
 docker: quay.io/biocontainers/bioconductor-hgudkfz31.db

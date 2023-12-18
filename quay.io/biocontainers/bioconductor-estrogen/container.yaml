@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-estrogen
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-estrogen
 latest:
-  1.46.0--r43hdfd78af_0: sha256:72e443c57a75610c4b71e574f288c0ce364fe1c62146cdc940b32e2bc18bad7a
+  1.48.0--r43hdfd78af_0: sha256:292e59d161887e76c21ae352db52731f9ea0ee07d0d33d5ec98db1f6d2c9a655
 tags:
   1.40.0--r41hdfd78af_1: sha256:6ac882777f9ddd07a2a089d857adc991a55c2205e5511861456e2118e10c3f11
   1.43.0--r42hdfd78af_0: sha256:e63c5ad46fe9784396cd2c9214a37c2140da117b440b4276f7718685ca3e8047
   1.46.0--r43hdfd78af_0: sha256:72e443c57a75610c4b71e574f288c0ce364fe1c62146cdc940b32e2bc18bad7a
+  1.48.0--r43hdfd78af_0: sha256:292e59d161887e76c21ae352db52731f9ea0ee07d0d33d5ec98db1f6d2c9a655
 docker: quay.io/biocontainers/bioconductor-estrogen

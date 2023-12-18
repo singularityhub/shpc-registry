@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-assessorfdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-assessorfdata
 latest:
-  1.18.0--r43hdfd78af_0: sha256:c316c275f9417dfa6f3ea66797e4f56fc187082a65599ae1eec2f209e139c5e4
+  1.20.0--r43hdfd78af_0: sha256:31161e8fce3060ba830225af83bf49b2fc59e447dc070a4bf0b5b33134947f01
 tags:
   1.8.0--r40hdfd78af_1: sha256:7b375210fa91081638cb05e654a39bd1070fe450f8d2c1c35abad6be1159f38d
   1.16.0--r42hdfd78af_0: sha256:7e5d3c79dfb02d1f01ddd2efe4978ce3e0177fdd6c5e0efddf8799a2f196090a
   1.12.0--r41hdfd78af_1: sha256:bb2957a01ae86c808d78368f7f6d5dd819273a64689c4923c6ee1d86400f2b9c
   1.10.0--r41hdfd78af_0: sha256:d40f011b27b242aa448a01adc96584ae0c4a9ffec44757520c745147b7c0c54d
   1.18.0--r43hdfd78af_0: sha256:c316c275f9417dfa6f3ea66797e4f56fc187082a65599ae1eec2f209e139c5e4
+  1.20.0--r43hdfd78af_0: sha256:31161e8fce3060ba830225af83bf49b2fc59e447dc070a4bf0b5b33134947f01
 docker: quay.io/biocontainers/bioconductor-assessorfdata
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
