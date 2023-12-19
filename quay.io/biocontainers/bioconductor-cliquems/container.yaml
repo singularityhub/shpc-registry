@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-cliquems
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cliquems
 latest:
-  1.13.0--r43hf17093f_0: sha256:9e1e07196dc1580d158f900c9c509d22913bf8448265a19521542980066679a0
+  1.16.0--r43hf17093f_0: sha256:d8615083390604c202f61bd689c22d30889370001ad7d5b70ffcdefbaf37b736
 tags:
   1.8.0--r41hc247a5b_2: sha256:03085b49b0d8db5862dd85033882f6a891a1bff797f238f93bfcb243813a1a68
   1.12.0--r42hc247a5b_0: sha256:8bff91321de656001ab907ed8ea8cf4a9d59773edbaafa2769d459932dea138f
   1.12.0--r42hf17093f_1: sha256:2f0ba27b9d79a6524b18942cc01c5e4b5c6b1f08614682cab6a41f23a9d4646a
   1.13.0--r43hf17093f_0: sha256:9e1e07196dc1580d158f900c9c509d22913bf8448265a19521542980066679a0
+  1.16.0--r43hf17093f_0: sha256:d8615083390604c202f61bd689c22d30889370001ad7d5b70ffcdefbaf37b736
 docker: quay.io/biocontainers/bioconductor-cliquems
 aliases:
   zipcmp: /usr/local/bin/zipcmp

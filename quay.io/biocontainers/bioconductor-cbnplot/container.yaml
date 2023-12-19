@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cbnplot
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-cbnplot
 latest:
-  1.0.0--r43hdfd78af_0: sha256:65e1d7e76b656ce3a68624c170036f42136d877be6d4f79123d5adfa39249e2b
+  1.2.0--r43hdfd78af_0: sha256:799d454a9d8cbaed098534a1220abc6f2c4dd498271a05cecc04056797cd621d
 tags:
   1.0.0--r43hdfd78af_0: sha256:65e1d7e76b656ce3a68624c170036f42136d877be6d4f79123d5adfa39249e2b
+  1.2.0--r43hdfd78af_0: sha256:799d454a9d8cbaed098534a1220abc6f2c4dd498271a05cecc04056797cd621d
 docker: quay.io/biocontainers/bioconductor-cbnplot
 aliases:
   hb-info: /usr/local/bin/hb-info

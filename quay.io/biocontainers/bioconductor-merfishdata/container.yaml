@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-merfishdata
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-merfishdata
 latest:
-  1.2.0--r43hdfd78af_0: sha256:5463c815bcbef39ea5c57aa62a68bcb7d07b9284777af08d094f5110022c4b2f
+  1.4.1--r43hdfd78af_0: sha256:988bbe275bee24fad13911f182130e0a5ad18fd08c3c70e0261e23d4f6f0ba36
 tags:
   1.0.0--r42hdfd78af_0: sha256:0456af9ca4501d107ecdbf84c936793c10e49d3250dd33bfac9f000f2fab66fc
   1.2.0--r43hdfd78af_0: sha256:5463c815bcbef39ea5c57aa62a68bcb7d07b9284777af08d094f5110022c4b2f
+  1.4.1--r43hdfd78af_0: sha256:988bbe275bee24fad13911f182130e0a5ad18fd08c3c70e0261e23d4f6f0ba36
 docker: quay.io/biocontainers/bioconductor-merfishdata
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config

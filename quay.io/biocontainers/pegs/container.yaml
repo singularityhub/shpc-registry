@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pegs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pegs
 latest:
-  0.6.5--pyhdfd78af_0: sha256:28a2396e216472ab8e4d62e6763ca87b34bab8c690ee412153bc5ca61bd5d48c
+  0.6.6--pyhdfd78af_0: sha256:8cf77d9a2acab1aad6a00c0545ac6784ea2e6f901ea22be7794c77b2cfe473d3
 tags:
   0.6.5--pyhdfd78af_0: sha256:28a2396e216472ab8e4d62e6763ca87b34bab8c690ee412153bc5ca61bd5d48c
+  0.6.6--pyhdfd78af_0: sha256:8cf77d9a2acab1aad6a00c0545ac6784ea2e6f901ea22be7794c77b2cfe473d3
 docker: quay.io/biocontainers/pegs
 aliases:
   mk_pegs_intervals: /usr/local/bin/mk_pegs_intervals

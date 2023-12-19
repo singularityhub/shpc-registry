@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/tissuumaps
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tissuumaps
 latest:
-  3.1.1.6--pyh7cba7a3_0: sha256:b0231f61378c0781c2719afc91275689a62ac88535c854c370a9c5785badcfca
+  3.2--pyh7cba7a3_0: sha256:b77dc6a15f5d48a8242be6e5d10a16459bf2249226b89325f120886082939a40
 tags:
   3.1.1.6--pyh7cba7a3_0: sha256:b0231f61378c0781c2719afc91275689a62ac88535c854c370a9c5785badcfca
+  3.2--pyh7cba7a3_0: sha256:b77dc6a15f5d48a8242be6e5d10a16459bf2249226b89325f120886082939a40
 docker: quay.io/biocontainers/tissuumaps
 aliases:
   SvtAv1DecApp: /usr/local/bin/SvtAv1DecApp

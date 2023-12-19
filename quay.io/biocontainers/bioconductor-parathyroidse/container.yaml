@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-parathyroidse
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-parathyroidse
 latest:
-  1.38.0--r43hdfd78af_0: sha256:3ffc0f139e00bf68349a441b31798c83c31fdf3c29d7f0123d601e712519d3c2
+  1.40.0--r43hdfd78af_0: sha256:753621e0c980e21a6de02005f832ede71be09c8f43445cda3f547dd73a85dc90
 tags:
   1.32.0--r41hdfd78af_1: sha256:70b8357a603ac392379203efec386bddfa2e6eb4a6c1f158f04f0f0bdecbca34
   1.36.0--r42hdfd78af_0: sha256:d47f04cc51089ad3b5e85d1c9097585aab69719cba9281398e6351ca69cbe88b
   1.38.0--r43hdfd78af_0: sha256:3ffc0f139e00bf68349a441b31798c83c31fdf3c29d7f0123d601e712519d3c2
+  1.40.0--r43hdfd78af_0: sha256:753621e0c980e21a6de02005f832ede71be09c8f43445cda3f547dd73a85dc90
 docker: quay.io/biocontainers/bioconductor-parathyroidse

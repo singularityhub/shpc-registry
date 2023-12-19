@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/lorikeet-genome
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for lorikeet-genome
 latest:
-  0.7.3--h28a2364_1: sha256:478bdf1f330e1e1155e6a757fcc7a6efef55e2d192b0214c41f397194b638841
+  0.8.2--h8e1a5b0_0: sha256:af54babcbe43484862bf9f42e8fd7f3c16fbe0f1c495b0c14addb289d257cdf7
 tags:
   0.7.3--h28a2364_1: sha256:478bdf1f330e1e1155e6a757fcc7a6efef55e2d192b0214c41f397194b638841
+  0.8.2--h8e1a5b0_0: sha256:af54babcbe43484862bf9f42e8fd7f3c16fbe0f1c495b0c14addb289d257cdf7
 docker: quay.io/biocontainers/lorikeet-genome
 aliases:
   bwa-mem2: /usr/local/bin/bwa-mem2

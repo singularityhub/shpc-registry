@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-branchpointer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-branchpointer
 latest:
-  1.26.0--r43hdfd78af_0: sha256:7556ce5fd2651743ee7037c3fcf66c6db44a83adac6c31bc4e72d6b12de53975
+  1.28.0--r43hdfd78af_0: sha256:70c3c2f70d7a7c6504c86e4dbd4dd8b2461bd5f607d7e626d91d5683d1afb418
 tags:
   1.8.0--r351_0: sha256:44a0bd4c349c2b752b6ee08b1b8fd93da8dbd9019bc555634757a305f271d2fc
   1.24.0--r42hdfd78af_0: sha256:025b01459a99d873e81c40e7b03df3702ca185183264e91ae88e7c7450896e8d
@@ -11,6 +11,7 @@ tags:
   1.16.0--r40hdfd78af_1: sha256:d0dbeab8bfb67f09b30fb2ad7b5c57982b774bddfd8689841ea6517816333444
   1.14.0--r40_0: sha256:aed629920cf27b29d24629f1ebb92f8610ef71704d3a58bd5bebf14ed0be2eb8
   1.26.0--r43hdfd78af_0: sha256:7556ce5fd2651743ee7037c3fcf66c6db44a83adac6c31bc4e72d6b12de53975
+  1.28.0--r43hdfd78af_0: sha256:70c3c2f70d7a7c6504c86e4dbd4dd8b2461bd5f607d7e626d91d5683d1afb418
 docker: quay.io/biocontainers/bioconductor-branchpointer
 aliases:
   wget: /usr/local/bin/wget

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-gaggle
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gaggle
 latest:
-  1.68.0--r43hdfd78af_0: sha256:c79e7d1998222677bfd85baf308038afa3b7f4eef32612fb81bb79b27ab5c01b
+  1.70.0--r43hdfd78af_0: sha256:46d980b9fc51d4dcf90efb68f50bc6d3301944732980a5c236d3f0d69e3afaeb
 tags:
   1.62.0--r41hdfd78af_0: sha256:f736d26f4d23313c77310a4df57d8322ebe26b48d18067ae4553593a4e657ac4
   1.66.0--r42hdfd78af_0: sha256:ed1d0fa483c841f61cb40fc107f0476583e346eb8ed7378554cbd2eb486942aa
   1.68.0--r43hdfd78af_0: sha256:c79e7d1998222677bfd85baf308038afa3b7f4eef32612fb81bb79b27ab5c01b
+  1.70.0--r43hdfd78af_0: sha256:46d980b9fc51d4dcf90efb68f50bc6d3301944732980a5c236d3f0d69e3afaeb
 docker: quay.io/biocontainers/bioconductor-gaggle
 aliases:
   jfr: /usr/local/bin/jfr

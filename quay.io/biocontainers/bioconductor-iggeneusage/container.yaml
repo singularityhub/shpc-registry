@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-iggeneusage
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-iggeneusage
 latest:
-  1.14.0--r43hf17093f_0: sha256:06bef08ef085dc3198cd36888540e00f0c8cdddcdbd9cc0259038e84ff43b4cc
+  1.16.0--r43hf17093f_0: sha256:8ebf43de0b6aace69ca05661b0b78e20b0966fe18bd42044f8550b16f77e1601
 tags:
   1.8.0--r41hc247a5b_2: sha256:61f76c2ff410f5efb8debdd8b6a5fadf8bc816d684d337fa336dd556ce7dc9b9
   1.12.0--r42hc247a5b_0: sha256:30cfd8c5c538d84ed7c6f40b635ae3f449bde0cb75d7862793cbd337a7d46aff
   1.12.0--r42hf17093f_1: sha256:3b81ba08e30026d04666c85cba0a8717c9f34d6762c6ef4df8bb1184304250e2
   1.14.0--r43hf17093f_0: sha256:06bef08ef085dc3198cd36888540e00f0c8cdddcdbd9cc0259038e84ff43b4cc
+  1.16.0--r43hf17093f_0: sha256:8ebf43de0b6aace69ca05661b0b78e20b0966fe18bd42044f8550b16f77e1601
 docker: quay.io/biocontainers/bioconductor-iggeneusage
