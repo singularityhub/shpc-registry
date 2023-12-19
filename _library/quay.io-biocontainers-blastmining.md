@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blastmining"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blastmining/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blastmining/container.yaml"
-updated_at: "2023-12-18 02:38:26.284060"
+updated_at: "2023-12-19 02:36:51.914496"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/blastmining"
 aliases:

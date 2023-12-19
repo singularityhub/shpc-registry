@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/boms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/boms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/boms/container.yaml"
-updated_at: "2023-12-18 02:32:55.654306"
+updated_at: "2023-12-19 02:31:40.255387"
 latest: "1.0.5--py310h068649b_0"
 container_url: "https://biocontainers.pro/tools/boms"
 aliases:

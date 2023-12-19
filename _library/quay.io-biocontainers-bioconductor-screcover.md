@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-screcover"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-screcover/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-screcover/container.yaml"
-updated_at: "2023-12-18 03:09:30.240298"
+updated_at: "2023-12-19 03:06:06.953616"
 latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-screcover"
 aliases:

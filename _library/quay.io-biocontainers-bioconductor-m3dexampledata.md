@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-m3dexampledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-m3dexampledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-m3dexampledata/container.yaml"
-updated_at: "2023-12-18 02:48:27.474896"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2023-12-19 02:46:21.281213"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-m3dexampledata"
 aliases:
  - "wget"
@@ -19,8 +19,9 @@ versions:
  - "1.16.0--r40hdfd78af_1"
  - "1.15.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-m3dexampledata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-m3dexampledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-m3dexampledata", "latest": {"1.26.0--r43hdfd78af_0": "sha256:c0d021e3611eafa570908d7031432f312e4b6b8ea560d34e99703f9196cdd429"}, "tags": {"1.8.0--r351_0": "sha256:16ff7737d39ddf81fbc953466f1d89a6433da3c3612423cce714623081047c8c", "1.23.0--r42hdfd78af_0": "sha256:deb62c9096695b4da3a2f5e4058dc91afe974a6ec75d9279984cc17e5d6abc36", "1.20.0--r41hdfd78af_1": "sha256:07bff37a77e8ad69bb0b4b1c883bfb8e05128b559a7ecbabcc2b0b3646870971", "1.18.0--r41hdfd78af_0": "sha256:ab147bb68ac236ebb7df86855dab10ed1154bd0360ab674fd132466ef086655e", "1.16.0--r40hdfd78af_1": "sha256:5862906493beae10770b77ed7b7507f7c076e77937ec6c6a32246483579d48a1", "1.15.0--r40_0": "sha256:0a375fda4617cd016a9a81070c1df07e38a32c690798fad4fd3a408a19fd36a2", "1.26.0--r43hdfd78af_0": "sha256:c0d021e3611eafa570908d7031432f312e4b6b8ea560d34e99703f9196cdd429"}, "docker": "quay.io/biocontainers/bioconductor-m3dexampledata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-m3dexampledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-m3dexampledata", "latest": {"1.28.0--r43hdfd78af_0": "sha256:0e7c887ff0bfa63b8b28caa3d434de7605da71200edf09aecb8767562eeaea7c"}, "tags": {"1.8.0--r351_0": "sha256:16ff7737d39ddf81fbc953466f1d89a6433da3c3612423cce714623081047c8c", "1.23.0--r42hdfd78af_0": "sha256:deb62c9096695b4da3a2f5e4058dc91afe974a6ec75d9279984cc17e5d6abc36", "1.20.0--r41hdfd78af_1": "sha256:07bff37a77e8ad69bb0b4b1c883bfb8e05128b559a7ecbabcc2b0b3646870971", "1.18.0--r41hdfd78af_0": "sha256:ab147bb68ac236ebb7df86855dab10ed1154bd0360ab674fd132466ef086655e", "1.16.0--r40hdfd78af_1": "sha256:5862906493beae10770b77ed7b7507f7c076e77937ec6c6a32246483579d48a1", "1.15.0--r40_0": "sha256:0a375fda4617cd016a9a81070c1df07e38a32c690798fad4fd3a408a19fd36a2", "1.26.0--r43hdfd78af_0": "sha256:c0d021e3611eafa570908d7031432f312e4b6b8ea560d34e99703f9196cdd429", "1.28.0--r43hdfd78af_0": "sha256:0e7c887ff0bfa63b8b28caa3d434de7605da71200edf09aecb8767562eeaea7c"}, "docker": "quay.io/biocontainers/bioconductor-m3dexampledata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-m3dexampledata.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-m3dexampledata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-m3dexampledata:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-m3dexampledata:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-m3dexampledata/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-m3dexampledata/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-m3dexampledata/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-m3dexampledata/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

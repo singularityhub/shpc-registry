@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-brendadb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-brendadb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-brendadb/container.yaml"
-updated_at: "2023-12-18 02:29:59.856545"
-latest: "1.14.0--r43hf17093f_0"
+updated_at: "2023-12-19 02:28:54.181378"
+latest: "1.16.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-brendadb"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.11.0--r42hc247a5b_0"
  - "1.11.0--r42hf17093f_1"
  - "1.14.0--r43hf17093f_0"
+ - "1.16.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-brendadb"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-brendadb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-brendadb", "latest": {"1.14.0--r43hf17093f_0": "sha256:1d53e9220fb46fac16ca61a334487bab2353ffdd98d845532e14a1016407580d"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:2d0c714edd59e197cb2aba2707ab7338986a5cce50941cf45f3ba674f72318e1", "1.11.0--r42hc247a5b_0": "sha256:ea41a492edd5dc232d89f7541b22835f4f243f6f2fbc62566c1d69bca0a4f83b", "1.11.0--r42hf17093f_1": "sha256:7548e0ad9c2fc5f915026a73c0206b5791ca21744f46fec8fea0f81cb23d041c", "1.14.0--r43hf17093f_0": "sha256:1d53e9220fb46fac16ca61a334487bab2353ffdd98d845532e14a1016407580d"}, "docker": "quay.io/biocontainers/bioconductor-brendadb"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-brendadb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-brendadb", "latest": {"1.16.0--r43hf17093f_0": "sha256:01405a5ddcfc868d13839f8a0abef7cf9049ad30430298f6edd5eccf88cea0b9"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:2d0c714edd59e197cb2aba2707ab7338986a5cce50941cf45f3ba674f72318e1", "1.11.0--r42hc247a5b_0": "sha256:ea41a492edd5dc232d89f7541b22835f4f243f6f2fbc62566c1d69bca0a4f83b", "1.11.0--r42hf17093f_1": "sha256:7548e0ad9c2fc5f915026a73c0206b5791ca21744f46fec8fea0f81cb23d041c", "1.14.0--r43hf17093f_0": "sha256:1d53e9220fb46fac16ca61a334487bab2353ffdd98d845532e14a1016407580d", "1.16.0--r43hf17093f_0": "sha256:01405a5ddcfc868d13839f8a0abef7cf9049ad30430298f6edd5eccf88cea0b9"}, "docker": "quay.io/biocontainers/bioconductor-brendadb"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-brendadb.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-brendadb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-brendadb:1.14.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-brendadb:1.16.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-brendadb/1.14.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-brendadb/1.14.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-brendadb/1.16.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-brendadb/1.16.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

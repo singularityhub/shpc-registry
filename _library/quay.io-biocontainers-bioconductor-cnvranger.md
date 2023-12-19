@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cnvranger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnvranger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnvranger/container.yaml"
-updated_at: "2023-12-18 03:12:47.666896"
-latest: "1.16.4--r43hdfd78af_0"
+updated_at: "2023-12-19 03:09:14.579559"
+latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnvranger"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.14.0--r42hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
  - "1.16.4--r43hdfd78af_0"
+ - "1.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cnvranger"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cnvranger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnvranger", "latest": {"1.16.4--r43hdfd78af_0": "sha256:6b5ae0c5c912b380e165394913a888d2e663764e0afb4c98285155dd76b7164a"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:cfb424da9abb5eadd1548300b1e32adf979cc6edd6f746664a4936cf7f508910", "1.14.0--r42hdfd78af_0": "sha256:b654516ae818115f05f4499265c5917992aff12d0da95029d2add1157045f275", "1.10.0--r41hdfd78af_0": "sha256:178d4e3eac95e42fcc54cad6ecdca3bad724626a360934c28b6b42d368ae1c84", "1.16.4--r43hdfd78af_0": "sha256:6b5ae0c5c912b380e165394913a888d2e663764e0afb4c98285155dd76b7164a"}, "docker": "quay.io/biocontainers/bioconductor-cnvranger", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cnvranger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnvranger", "latest": {"1.18.0--r43hdfd78af_0": "sha256:62d6e0742f5c075b59b36e77d6e1e0672d566879f831f265e0ad9a6fbbddd674"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:cfb424da9abb5eadd1548300b1e32adf979cc6edd6f746664a4936cf7f508910", "1.14.0--r42hdfd78af_0": "sha256:b654516ae818115f05f4499265c5917992aff12d0da95029d2add1157045f275", "1.10.0--r41hdfd78af_0": "sha256:178d4e3eac95e42fcc54cad6ecdca3bad724626a360934c28b6b42d368ae1c84", "1.16.4--r43hdfd78af_0": "sha256:6b5ae0c5c912b380e165394913a888d2e663764e0afb4c98285155dd76b7164a", "1.18.0--r43hdfd78af_0": "sha256:62d6e0742f5c075b59b36e77d6e1e0672d566879f831f265e0ad9a6fbbddd674"}, "docker": "quay.io/biocontainers/bioconductor-cnvranger", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cnvranger.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cnvranger
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cnvranger:1.16.4--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cnvranger:1.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cnvranger/1.16.4--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cnvranger/1.16.4--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cnvranger/1.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cnvranger/1.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

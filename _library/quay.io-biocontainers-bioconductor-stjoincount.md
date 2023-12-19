@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-stjoincount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stjoincount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stjoincount/container.yaml"
-updated_at: "2023-12-18 03:11:05.304317"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2023-12-19 03:07:37.231891"
+latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stjoincount"
 aliases:
  - "pg_amcheck"
@@ -36,8 +36,9 @@ aliases:
 versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.4.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-stjoincount"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-stjoincount", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-stjoincount", "latest": {"1.2.0--r43hdfd78af_0": "sha256:32b34575e1014d13bfaf2b04c9c5d07fca042047a6f3300d8850300ec1210952"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:9e7f3a3e72c6f12a44e1b16da44343d1f9d972bab6c8c5602c9df7ea719824ed", "1.2.0--r43hdfd78af_0": "sha256:32b34575e1014d13bfaf2b04c9c5d07fca042047a6f3300d8850300ec1210952"}, "docker": "quay.io/biocontainers/bioconductor-stjoincount", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "udunits2": "/usr/local/bin/udunits2", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync", "dap-config": "/usr/local/bin/dap-config", "dap-config-pkgconfig": "/usr/local/bin/dap-config-pkgconfig", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize", "gdal_translate": "/usr/local/bin/gdal_translate"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-stjoincount", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-stjoincount", "latest": {"1.4.0--r43hdfd78af_0": "sha256:46e004af4178ab5ab82624b616ac691a4051fe1fa571705ff1901f89c724444b"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:9e7f3a3e72c6f12a44e1b16da44343d1f9d972bab6c8c5602c9df7ea719824ed", "1.2.0--r43hdfd78af_0": "sha256:32b34575e1014d13bfaf2b04c9c5d07fca042047a6f3300d8850300ec1210952", "1.4.0--r43hdfd78af_0": "sha256:46e004af4178ab5ab82624b616ac691a4051fe1fa571705ff1901f89c724444b"}, "docker": "quay.io/biocontainers/bioconductor-stjoincount", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "udunits2": "/usr/local/bin/udunits2", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync", "dap-config": "/usr/local/bin/dap-config", "dap-config-pkgconfig": "/usr/local/bin/dap-config-pkgconfig", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize", "gdal_translate": "/usr/local/bin/gdal_translate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-stjoincount.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/bioconductor-stjoincount
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-stjoincount:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-stjoincount:1.4.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-stjoincount/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-stjoincount/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-stjoincount/1.4.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-stjoincount/1.4.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

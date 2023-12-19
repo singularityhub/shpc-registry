@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-epialleler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epialleler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epialleler/container.yaml"
-updated_at: "2023-12-18 02:41:04.609786"
-latest: "1.8.1--r43hf17093f_0"
+updated_at: "2023-12-19 02:39:21.948999"
+latest: "1.10.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epialleler"
 
 versions:
  - "1.2.0--r41hc247a5b_2"
  - "1.8.1--r43hf17093f_0"
+ - "1.10.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-epialleler"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-epialleler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epialleler", "latest": {"1.8.1--r43hf17093f_0": "sha256:d05c7445787cc530f4c06e7d0c482c569391dc48ed335e44a264643190feddfd"}, "tags": {"1.2.0--r41hc247a5b_2": "sha256:18a1c72ef0446570273f5b9576452db84e883545cc6cee01a054576552823502", "1.8.1--r43hf17093f_0": "sha256:d05c7445787cc530f4c06e7d0c482c569391dc48ed335e44a264643190feddfd"}, "docker": "quay.io/biocontainers/bioconductor-epialleler"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-epialleler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epialleler", "latest": {"1.10.0--r43hf17093f_0": "sha256:c9b5a7559faeae42308bab823f1dd8fcc3d7be0381d72d39e1e0ab67665abffe"}, "tags": {"1.2.0--r41hc247a5b_2": "sha256:18a1c72ef0446570273f5b9576452db84e883545cc6cee01a054576552823502", "1.8.1--r43hf17093f_0": "sha256:d05c7445787cc530f4c06e7d0c482c569391dc48ed335e44a264643190feddfd", "1.10.0--r43hf17093f_0": "sha256:c9b5a7559faeae42308bab823f1dd8fcc3d7be0381d72d39e1e0ab67665abffe"}, "docker": "quay.io/biocontainers/bioconductor-epialleler"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-epialleler.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-epialleler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-epialleler:1.8.1--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-epialleler:1.10.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-epialleler/1.8.1--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-epialleler/1.8.1--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-epialleler/1.10.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-epialleler/1.10.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
