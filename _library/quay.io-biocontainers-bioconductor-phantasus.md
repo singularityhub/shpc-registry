@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-phantasus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phantasus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phantasus/container.yaml"
-updated_at: "2023-12-20 03:45:59.026745"
+updated_at: "2023-12-20 04:05:41.043794"
 latest: "1.20.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phantasus"
 aliases:

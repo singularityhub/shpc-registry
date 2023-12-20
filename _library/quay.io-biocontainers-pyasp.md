@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyasp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyasp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyasp/container.yaml"
-updated_at: "2023-12-20 03:46:02.661362"
+updated_at: "2023-12-20 04:05:44.781924"
 latest: "1.4.3--py35_1"
 container_url: "https://biocontainers.pro/tools/pyasp"
 aliases:
