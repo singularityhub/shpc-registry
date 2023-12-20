@@ -141,6 +141,17 @@
             "avatar_url": [
                 "https://avatars.githubusercontent.com/u/31269264?v=4"
             ]
+        },
+        {
+            "login": "georgiesamaha",
+            "name": "Georgie Samaha",
+            "contributions": [
+                "code"
+            ],
+            "profile": "https://github.com/georgiesamaha",
+            "avatar_url": [
+                "https://avatars.githubusercontent.com/u/73086054?v=4"
+            ]
         }
     ],
     "contributorsPerLine": 7
