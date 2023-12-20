@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strobealign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strobealign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strobealign/container.yaml"
-updated_at: "2023-12-20 02:39:33.856450"
+updated_at: "2023-12-20 03:37:59.793906"
 latest: "0.12.0--h43eeafb_0"
 container_url: "https://biocontainers.pro/tools/strobealign"
 aliases:

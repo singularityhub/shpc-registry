@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-aucell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-aucell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-aucell/container.yaml"
-updated_at: "2023-12-20 02:53:42.320586"
+updated_at: "2023-12-20 03:52:06.679377"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-aucell"
 aliases:

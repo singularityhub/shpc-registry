@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pathogentrack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathogentrack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathogentrack/container.yaml"
-updated_at: "2023-12-20 02:52:15.366504"
+updated_at: "2023-12-20 03:50:39.504668"
 latest: "0.2.3--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/pathogentrack"
 aliases:

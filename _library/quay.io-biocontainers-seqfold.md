@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqfold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqfold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqfold/container.yaml"
-updated_at: "2023-12-20 02:48:06.488341"
+updated_at: "2023-12-20 03:46:31.689491"
 latest: "0.7.17--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqfold"
 aliases:
