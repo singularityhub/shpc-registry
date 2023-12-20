@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-ncgtw
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ncgtw
 latest:
-  1.14.0--r43hf17093f_0: sha256:479ac28a7c7450775fcb54fe91d55fb7fa1d1752df62fa121af9587b5a732f4d
+  1.16.0--r43hf17093f_0: sha256:3aa003d2a1149973a4255c6b7462f5138ea9cc80e73a1e377cddcc4a2b67d177
 tags:
   1.8.0--r41hc247a5b_2: sha256:85241514e8f287aa7df8b5361154705329330b1e694897d7e217be3ad98b5fd3
   1.12.0--r42hc247a5b_0: sha256:1d509c4974ae677bf6dd8eae3997e63b113a9e42a3df9f70835e3c0b4501476f
   1.12.0--r42hf17093f_1: sha256:14c25caf207f7b45efb31c9eb48f0151c8158b308aebc317042efd93681efacd
   1.14.0--r43hf17093f_0: sha256:479ac28a7c7450775fcb54fe91d55fb7fa1d1752df62fa121af9587b5a732f4d
+  1.16.0--r43hf17093f_0: sha256:3aa003d2a1149973a4255c6b7462f5138ea9cc80e73a1e377cddcc4a2b67d177
 docker: quay.io/biocontainers/bioconductor-ncgtw
 aliases:
   zipcmp: /usr/local/bin/zipcmp

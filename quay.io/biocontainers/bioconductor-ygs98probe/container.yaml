@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-ygs98probe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ygs98probe
 latest:
-  2.18.0--r43hdfd78af_11: sha256:119c4cd2c96c42319568131c9b34c039dfb06cbca49861d7961b507a4c95b117
+  2.18.0--r43hdfd78af_12: sha256:b4500f9f4fc8c12c022d11c6d7ca9eb97bc5ba313d286ad742f8cf5560c429ec
 tags:
   2.18.0--r41hdfd78af_9: sha256:5f3ff961c65028132dd68b363488197753e428356127d79ad7cd70a79538e991
   2.18.0--r42hdfd78af_10: sha256:a14568f91d0ff0cbd3aedcabccc2c89f3efb6830481126d04292a876b7ecc98c
   2.18.0--r43hdfd78af_11: sha256:119c4cd2c96c42319568131c9b34c039dfb06cbca49861d7961b507a4c95b117
+  2.18.0--r43hdfd78af_12: sha256:b4500f9f4fc8c12c022d11c6d7ca9eb97bc5ba313d286ad742f8cf5560c429ec
 docker: quay.io/biocontainers/bioconductor-ygs98probe

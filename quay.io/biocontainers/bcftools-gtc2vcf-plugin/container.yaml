@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bcftools-gtc2vcf-plugin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bcftools-gtc2vcf-plugin
 latest:
-  1.9--hedc5323_0: sha256:01ca58c4a338f64be8b0970710da7e4afca0722f1bf289d3498c6f914a6c7faf
+  1.19--h4dfc31f_0: sha256:7804abd6ca13359aeffd7f96de3f6294e7d1b947a059ab2e8078cb1e99d6c688
 tags:
   1.9--hedc5323_0: sha256:01ca58c4a338f64be8b0970710da7e4afca0722f1bf289d3498c6f914a6c7faf
+  1.19--h4dfc31f_0: sha256:7804abd6ca13359aeffd7f96de3f6294e7d1b947a059ab2e8078cb1e99d6c688
+  1.18--h4dfc31f_0: sha256:ffd0217f26bf3dd19344d8e46f40b6c5a5e161795f934571dab88ea1b911ad2a
 docker: quay.io/biocontainers/bcftools-gtc2vcf-plugin
 aliases:
   guess-ploidy.py: /usr/local/bin/guess-ploidy.py

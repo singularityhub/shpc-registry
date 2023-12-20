@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-ahlrbasedbs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ahlrbasedbs
 latest:
-  1.6.0--r43hdfd78af_0: sha256:6b1aa737a7dabafa193b3aeed71c7906e541163d56119af8cf5432cdda3889a8
+  1.7.0--r43hdfd78af_0: sha256:1a00866374f5f47d01ba2296191015261a47f18a7f29a0bc3f5c254d6b0f8609
 tags:
   1.2.0--r41hdfd78af_1: sha256:7a7726285e5c83cf3e9b4af8cffaf25939285ad55d771b3fdb11bc159e263d19
   1.5.0--r42hdfd78af_0: sha256:abe0ee191fda768c1cd88d3ebd8af1cfc9b64b2309046d11514b2c3aecb41d96
   1.6.0--r43hdfd78af_0: sha256:6b1aa737a7dabafa193b3aeed71c7906e541163d56119af8cf5432cdda3889a8
+  1.7.0--r43hdfd78af_0: sha256:1a00866374f5f47d01ba2296191015261a47f18a7f29a0bc3f5c254d6b0f8609
 docker: quay.io/biocontainers/bioconductor-ahlrbasedbs

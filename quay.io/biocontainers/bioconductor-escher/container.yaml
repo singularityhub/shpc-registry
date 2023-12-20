@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-escher
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-escher
 latest:
-  1.0.0--r43hdfd78af_0: sha256:88da2d693c5beb8c363e5ef58bd791d818f1359f80cb6da6809049c16f41e0d0
+  1.2.0--r43hdfd78af_0: sha256:2721007ed34480d27cf9aa8cdf9e2de8ed7b449d2ed843553930ef06f86e12f5
 tags:
   1.0.0--r43hdfd78af_0: sha256:88da2d693c5beb8c363e5ef58bd791d818f1359f80cb6da6809049c16f41e0d0
+  1.2.0--r43hdfd78af_0: sha256:2721007ed34480d27cf9aa8cdf9e2de8ed7b449d2ed843553930ef06f86e12f5
 docker: quay.io/biocontainers/bioconductor-escher
 aliases:
   git2: /usr/local/bin/git2

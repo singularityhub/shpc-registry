@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/insilicosv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for insilicosv
 latest:
-  0.0.5--pyhdfd78af_0: sha256:aa0e08298dee74105c51bed73fe0c5b3ef8c222cee2be3ca21ffed479b93c188
+  0.0.6--pyhdfd78af_0: sha256:bfb51b50a8d2e5d2ede15daac06e89ff83f8d3856b7d2f27f1d76c94cbc084cc
 tags:
   0.0.5--pyhdfd78af_0: sha256:aa0e08298dee74105c51bed73fe0c5b3ef8c222cee2be3ca21ffed479b93c188
+  0.0.6--pyhdfd78af_0: sha256:bfb51b50a8d2e5d2ede15daac06e89ff83f8d3856b7d2f27f1d76c94cbc084cc
 docker: quay.io/biocontainers/insilicosv
 aliases:
   insilicosv: /usr/local/bin/insilicosv
