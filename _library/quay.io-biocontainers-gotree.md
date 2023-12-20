@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gotree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gotree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gotree/container.yaml"
-updated_at: "2023-12-19 02:48:09.206949"
-latest: "0.4.4--h9ee0642_0"
+updated_at: "2023-12-20 02:35:18.727204"
+latest: "0.4.5--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/gotree"
 aliases:
  - "gotree"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.4.3--h4b4d50d_2"
  - "0.4.4--h9ee0642_0"
+ - "0.4.5--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for gotree"
-config: {"url": "https://biocontainers.pro/tools/gotree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gotree", "latest": {"0.4.4--h9ee0642_0": "sha256:efb97b708609f0b3a4e2864e5c6597f96433528471091fd41f470622c8702709"}, "tags": {"0.4.3--h4b4d50d_2": "sha256:3b0f023c7c7860e1854fbfcfcd15f176ff02f3e6f2e01da02477edb51e2b4244", "0.4.4--h9ee0642_0": "sha256:efb97b708609f0b3a4e2864e5c6597f96433528471091fd41f470622c8702709"}, "docker": "quay.io/biocontainers/gotree", "aliases": {"gotree": "/usr/local/bin/gotree", "gotree_test.sh": "/usr/local/bin/gotree_test.sh"}}
+config: {"url": "https://biocontainers.pro/tools/gotree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gotree", "latest": {"0.4.5--h9ee0642_0": "sha256:2da23422878495ec6e5051920a32d58f6e93498cba642a3c1ef7d85c27b74aff"}, "tags": {"0.4.3--h4b4d50d_2": "sha256:3b0f023c7c7860e1854fbfcfcd15f176ff02f3e6f2e01da02477edb51e2b4244", "0.4.4--h9ee0642_0": "sha256:efb97b708609f0b3a4e2864e5c6597f96433528471091fd41f470622c8702709", "0.4.5--h9ee0642_0": "sha256:2da23422878495ec6e5051920a32d58f6e93498cba642a3c1ef7d85c27b74aff"}, "docker": "quay.io/biocontainers/gotree", "aliases": {"gotree": "/usr/local/bin/gotree", "gotree_test.sh": "/usr/local/bin/gotree_test.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gotree.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/gotree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gotree:0.4.4--h9ee0642_0
+$ shpc install quay.io/biocontainers/gotree:0.4.5--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gotree/0.4.4--h9ee0642_0
-$ module help quay.io/biocontainers/gotree/0.4.4--h9ee0642_0
+$ module load quay.io/biocontainers/gotree/0.4.5--h9ee0642_0
+$ module help quay.io/biocontainers/gotree/0.4.5--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

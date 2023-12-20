@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pegs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pegs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pegs/container.yaml"
-updated_at: "2023-12-19 03:05:29.976045"
-latest: "0.6.5--pyhdfd78af_0"
+updated_at: "2023-12-20 02:53:31.319095"
+latest: "0.6.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pegs"
 aliases:
  - "mk_pegs_intervals"
@@ -22,8 +22,9 @@ aliases:
  - "psicc"
 versions:
  - "0.6.5--pyhdfd78af_0"
+ - "0.6.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pegs"
-config: {"url": "https://biocontainers.pro/tools/pegs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pegs", "latest": {"0.6.5--pyhdfd78af_0": "sha256:28a2396e216472ab8e4d62e6763ca87b34bab8c690ee412153bc5ca61bd5d48c"}, "tags": {"0.6.5--pyhdfd78af_0": "sha256:28a2396e216472ab8e4d62e6763ca87b34bab8c690ee412153bc5ca61bd5d48c"}, "docker": "quay.io/biocontainers/pegs", "aliases": {"mk_pegs_intervals": "/usr/local/bin/mk_pegs_intervals", "pegs": "/usr/local/bin/pegs", "vba_extract.py": "/usr/local/bin/vba_extract.py", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc"}}
+config: {"url": "https://biocontainers.pro/tools/pegs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pegs", "latest": {"0.6.6--pyhdfd78af_0": "sha256:8cf77d9a2acab1aad6a00c0545ac6784ea2e6f901ea22be7794c77b2cfe473d3"}, "tags": {"0.6.5--pyhdfd78af_0": "sha256:28a2396e216472ab8e4d62e6763ca87b34bab8c690ee412153bc5ca61bd5d48c", "0.6.6--pyhdfd78af_0": "sha256:8cf77d9a2acab1aad6a00c0545ac6784ea2e6f901ea22be7794c77b2cfe473d3"}, "docker": "quay.io/biocontainers/pegs", "aliases": {"mk_pegs_intervals": "/usr/local/bin/mk_pegs_intervals", "pegs": "/usr/local/bin/pegs", "vba_extract.py": "/usr/local/bin/vba_extract.py", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pegs.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/pegs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pegs:0.6.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pegs:0.6.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pegs/0.6.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/pegs/0.6.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/pegs/0.6.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/pegs/0.6.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

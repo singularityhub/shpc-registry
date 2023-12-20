@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crimson"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crimson/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crimson/container.yaml"
-updated_at: "2023-12-19 03:06:59.229611"
+updated_at: "2023-12-20 02:55:05.002074"
 latest: "1.1.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/crimson"
 aliases:

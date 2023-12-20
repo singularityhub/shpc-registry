@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/tasmanian"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/tasmanian/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/tasmanian/container.yaml"
-updated_at: "2023-12-19 03:11:39.901881"
+updated_at: "2023-12-20 02:59:58.826984"
 latest: "7.9"
 container_url: "https://github.com/orgs/autamus/packages/container/package/tasmanian"
 aliases:

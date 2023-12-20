@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-parathyroidse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-parathyroidse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-parathyroidse/container.yaml"
-updated_at: "2023-12-19 02:42:24.490498"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2023-12-20 02:29:16.710278"
+latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-parathyroidse"
 
 versions:
  - "1.32.0--r41hdfd78af_1"
  - "1.36.0--r42hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.40.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-parathyroidse"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-parathyroidse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-parathyroidse", "latest": {"1.38.0--r43hdfd78af_0": "sha256:3ffc0f139e00bf68349a441b31798c83c31fdf3c29d7f0123d601e712519d3c2"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:70b8357a603ac392379203efec386bddfa2e6eb4a6c1f158f04f0f0bdecbca34", "1.36.0--r42hdfd78af_0": "sha256:d47f04cc51089ad3b5e85d1c9097585aab69719cba9281398e6351ca69cbe88b", "1.38.0--r43hdfd78af_0": "sha256:3ffc0f139e00bf68349a441b31798c83c31fdf3c29d7f0123d601e712519d3c2"}, "docker": "quay.io/biocontainers/bioconductor-parathyroidse"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-parathyroidse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-parathyroidse", "latest": {"1.40.0--r43hdfd78af_0": "sha256:753621e0c980e21a6de02005f832ede71be09c8f43445cda3f547dd73a85dc90"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:70b8357a603ac392379203efec386bddfa2e6eb4a6c1f158f04f0f0bdecbca34", "1.36.0--r42hdfd78af_0": "sha256:d47f04cc51089ad3b5e85d1c9097585aab69719cba9281398e6351ca69cbe88b", "1.38.0--r43hdfd78af_0": "sha256:3ffc0f139e00bf68349a441b31798c83c31fdf3c29d7f0123d601e712519d3c2", "1.40.0--r43hdfd78af_0": "sha256:753621e0c980e21a6de02005f832ede71be09c8f43445cda3f547dd73a85dc90"}, "docker": "quay.io/biocontainers/bioconductor-parathyroidse"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-parathyroidse.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-parathyroidse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-parathyroidse:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-parathyroidse:1.40.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-parathyroidse/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-parathyroidse/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-parathyroidse/1.40.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-parathyroidse/1.40.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

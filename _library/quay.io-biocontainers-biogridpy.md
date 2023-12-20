@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biogridpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biogridpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biogridpy/container.yaml"
-updated_at: "2023-12-19 03:05:05.136301"
+updated_at: "2023-12-20 02:53:05.204157"
 latest: "0.1.1--py_2"
 container_url: "https://biocontainers.pro/tools/biogridpy"
 aliases:

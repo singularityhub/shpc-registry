@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-trnadbimport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trnadbimport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trnadbimport/container.yaml"
-updated_at: "2023-12-19 02:56:43.768760"
-latest: "1.18.0--r43hdfd78af_0"
+updated_at: "2023-12-20 02:44:19.486967"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trnadbimport"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-trnadbimport"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-trnadbimport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trnadbimport", "latest": {"1.18.0--r43hdfd78af_0": "sha256:25248939062678f01fa4cc76e591c02ab268755f3a1234395a592c26b1f5d996"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:8ae6e1daf09f6370170f98a11526c2bf0cc86ed0ff28e14fce23a78e0840e37b", "1.16.0--r42hdfd78af_0": "sha256:c90f1057ee7ad3c83febb361a1db4afbc98c441fe7337ad49e50caed4372123b", "1.12.0--r41hdfd78af_0": "sha256:87c0a63cc737d26139c1e0cf1b0fca1264334baf9370ee2afce2d69f717dbe43", "1.10.0--r41hdfd78af_0": "sha256:ba07f60d00970076d6d2699d0b152156375ae63c70951d1a658119439deacccd", "1.18.0--r43hdfd78af_0": "sha256:25248939062678f01fa4cc76e591c02ab268755f3a1234395a592c26b1f5d996"}, "docker": "quay.io/biocontainers/bioconductor-trnadbimport", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-trnadbimport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trnadbimport", "latest": {"1.20.0--r43hdfd78af_0": "sha256:5d0a32d6665c9b5274bdddf4b6f3bfe415a12371e599517dd625bf252e7942be"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:8ae6e1daf09f6370170f98a11526c2bf0cc86ed0ff28e14fce23a78e0840e37b", "1.16.0--r42hdfd78af_0": "sha256:c90f1057ee7ad3c83febb361a1db4afbc98c441fe7337ad49e50caed4372123b", "1.12.0--r41hdfd78af_0": "sha256:87c0a63cc737d26139c1e0cf1b0fca1264334baf9370ee2afce2d69f717dbe43", "1.10.0--r41hdfd78af_0": "sha256:ba07f60d00970076d6d2699d0b152156375ae63c70951d1a658119439deacccd", "1.18.0--r43hdfd78af_0": "sha256:25248939062678f01fa4cc76e591c02ab268755f3a1234395a592c26b1f5d996", "1.20.0--r43hdfd78af_0": "sha256:5d0a32d6665c9b5274bdddf4b6f3bfe415a12371e599517dd625bf252e7942be"}, "docker": "quay.io/biocontainers/bioconductor-trnadbimport", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-trnadbimport.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-trnadbimport
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-trnadbimport:1.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-trnadbimport:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-trnadbimport/1.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-trnadbimport/1.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-trnadbimport/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-trnadbimport/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tcgabiolinks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tcgabiolinks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tcgabiolinks/container.yaml"
-updated_at: "2023-12-19 02:46:03.029773"
-latest: "2.28.3--r43hdfd78af_0"
+updated_at: "2023-12-20 02:33:06.355972"
+latest: "2.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tcgabiolinks"
 aliases:
  - "wget"
@@ -17,8 +17,9 @@ versions:
  - "2.18.0--r40hdfd78af_1"
  - "2.16.0--r40_0"
  - "2.28.3--r43hdfd78af_0"
+ - "2.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tcgabiolinks"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tcgabiolinks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tcgabiolinks", "latest": {"2.28.3--r43hdfd78af_0": "sha256:2b0b967c6478bcdb29796658624a55b3ae4c16f3874c0ea3d0f9bfecfc5a22c8"}, "tags": {"2.8.4--r351_0": "sha256:5869c07ab826e15b5ec0eb991cf2130f8ee07159dfdf3bd0ed4ff2c88ef6f777", "2.25.3--r42hdfd78af_0": "sha256:66acd002968eb5d8e9d31d54333a0d64385c2faa1d74197a593b6ed9529bbaf6", "2.22.1--r41hdfd78af_0": "sha256:c65ffc8f751d4338aec03d4724d52acdd5d3c98ee139699480659392782a7bb6", "2.20.0--r41hdfd78af_0": "sha256:640d26edd969727f529aac2a3538eab53673310a86a8d2ecc2ea121e471dfee4", "2.18.0--r40hdfd78af_1": "sha256:c0ece0a64c9a5d0082ff369fac13d815a9d0e3560fa81b0fbf804bb8c4846158", "2.16.0--r40_0": "sha256:dba52bff875da6dd69cf077be2efeb9e7428adb34fc09e3ed5d74e2742bf4099", "2.28.3--r43hdfd78af_0": "sha256:2b0b967c6478bcdb29796658624a55b3ae4c16f3874c0ea3d0f9bfecfc5a22c8"}, "docker": "quay.io/biocontainers/bioconductor-tcgabiolinks", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tcgabiolinks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tcgabiolinks", "latest": {"2.30.0--r43hdfd78af_0": "sha256:7e8f6dd9eb9bccf32c82303f7bc551d68b1387f29d8d09333ddf9a8524011a56"}, "tags": {"2.8.4--r351_0": "sha256:5869c07ab826e15b5ec0eb991cf2130f8ee07159dfdf3bd0ed4ff2c88ef6f777", "2.25.3--r42hdfd78af_0": "sha256:66acd002968eb5d8e9d31d54333a0d64385c2faa1d74197a593b6ed9529bbaf6", "2.22.1--r41hdfd78af_0": "sha256:c65ffc8f751d4338aec03d4724d52acdd5d3c98ee139699480659392782a7bb6", "2.20.0--r41hdfd78af_0": "sha256:640d26edd969727f529aac2a3538eab53673310a86a8d2ecc2ea121e471dfee4", "2.18.0--r40hdfd78af_1": "sha256:c0ece0a64c9a5d0082ff369fac13d815a9d0e3560fa81b0fbf804bb8c4846158", "2.16.0--r40_0": "sha256:dba52bff875da6dd69cf077be2efeb9e7428adb34fc09e3ed5d74e2742bf4099", "2.28.3--r43hdfd78af_0": "sha256:2b0b967c6478bcdb29796658624a55b3ae4c16f3874c0ea3d0f9bfecfc5a22c8", "2.30.0--r43hdfd78af_0": "sha256:7e8f6dd9eb9bccf32c82303f7bc551d68b1387f29d8d09333ddf9a8524011a56"}, "docker": "quay.io/biocontainers/bioconductor-tcgabiolinks", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tcgabiolinks.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tcgabiolinks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tcgabiolinks:2.28.3--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tcgabiolinks:2.30.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tcgabiolinks/2.28.3--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tcgabiolinks/2.28.3--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tcgabiolinks/2.30.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tcgabiolinks/2.30.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

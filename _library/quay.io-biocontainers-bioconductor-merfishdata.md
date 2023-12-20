@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-merfishdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-merfishdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-merfishdata/container.yaml"
-updated_at: "2023-12-19 02:47:20.352548"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2023-12-20 02:34:27.528854"
+latest: "1.4.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-merfishdata"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -36,8 +36,9 @@ aliases:
 versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.4.1--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-merfishdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-merfishdata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-merfishdata", "latest": {"1.2.0--r43hdfd78af_0": "sha256:5463c815bcbef39ea5c57aa62a68bcb7d07b9284777af08d094f5110022c4b2f"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:0456af9ca4501d107ecdbf84c936793c10e49d3250dd33bfac9f000f2fab66fc", "1.2.0--r43hdfd78af_0": "sha256:5463c815bcbef39ea5c57aa62a68bcb7d07b9284777af08d094f5110022c4b2f"}, "docker": "quay.io/biocontainers/bioconductor-merfishdata", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-merfishdata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-merfishdata", "latest": {"1.4.1--r43hdfd78af_0": "sha256:988bbe275bee24fad13911f182130e0a5ad18fd08c3c70e0261e23d4f6f0ba36"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:0456af9ca4501d107ecdbf84c936793c10e49d3250dd33bfac9f000f2fab66fc", "1.2.0--r43hdfd78af_0": "sha256:5463c815bcbef39ea5c57aa62a68bcb7d07b9284777af08d094f5110022c4b2f", "1.4.1--r43hdfd78af_0": "sha256:988bbe275bee24fad13911f182130e0a5ad18fd08c3c70e0261e23d4f6f0ba36"}, "docker": "quay.io/biocontainers/bioconductor-merfishdata", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-merfishdata.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/bioconductor-merfishdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-merfishdata:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-merfishdata:1.4.1--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-merfishdata/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-merfishdata/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-merfishdata/1.4.1--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-merfishdata/1.4.1--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

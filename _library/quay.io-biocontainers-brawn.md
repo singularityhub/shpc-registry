@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/brawn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/brawn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/brawn/container.yaml"
-updated_at: "2023-12-19 02:46:18.859464"
+updated_at: "2023-12-20 02:33:22.976710"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/brawn"
 aliases:

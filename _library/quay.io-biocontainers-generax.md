@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/generax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/generax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/generax/container.yaml"
-updated_at: "2023-12-19 03:08:47.939877"
+updated_at: "2023-12-20 02:56:58.938576"
 latest: "2.0.4--h103dbdd_3"
 container_url: "https://biocontainers.pro/tools/generax"
 aliases:

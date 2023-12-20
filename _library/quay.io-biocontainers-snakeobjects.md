@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakeobjects"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakeobjects/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakeobjects/container.yaml"
-updated_at: "2023-12-19 02:39:27.854141"
+updated_at: "2023-12-20 02:26:11.463530"
 latest: "3.1.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/snakeobjects"
 aliases:

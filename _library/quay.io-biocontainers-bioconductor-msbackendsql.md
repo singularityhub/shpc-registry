@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-msbackendsql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msbackendsql/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msbackendsql/container.yaml"
-updated_at: "2023-12-19 02:39:04.855287"
-latest: "1.0.1--r43hdfd78af_0"
+updated_at: "2023-12-20 02:25:47.307905"
+latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msbackendsql"
 aliases:
  - "hb-info"
  - "tjbench"
 versions:
  - "1.0.1--r43hdfd78af_0"
+ - "1.2.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-msbackendsql"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msbackendsql", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-msbackendsql", "latest": {"1.0.1--r43hdfd78af_0": "sha256:69926e6de94bb820121926f6c2073cbce007078dca3b593b42b1ca2b83e0f473"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:69926e6de94bb820121926f6c2073cbce007078dca3b593b42b1ca2b83e0f473"}, "docker": "quay.io/biocontainers/bioconductor-msbackendsql", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msbackendsql", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-msbackendsql", "latest": {"1.2.0--r43hdfd78af_0": "sha256:d0ceb5eeb00f052a4be8a0ce37bc27edcb545e0fefcb3ff2e5295f45f9401c63"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:69926e6de94bb820121926f6c2073cbce007078dca3b593b42b1ca2b83e0f473", "1.2.0--r43hdfd78af_0": "sha256:d0ceb5eeb00f052a4be8a0ce37bc27edcb545e0fefcb3ff2e5295f45f9401c63"}, "docker": "quay.io/biocontainers/bioconductor-msbackendsql", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msbackendsql.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msbackendsql
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msbackendsql:1.0.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-msbackendsql:1.2.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msbackendsql/1.0.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-msbackendsql/1.0.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-msbackendsql/1.2.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msbackendsql/1.2.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

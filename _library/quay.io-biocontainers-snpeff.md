@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snpeff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snpeff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snpeff/container.yaml"
-updated_at: "2023-12-19 02:36:19.009072"
+updated_at: "2023-12-20 02:22:53.043097"
 latest: "5.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snpeff"
 aliases:

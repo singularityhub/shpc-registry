@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mummer2circos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mummer2circos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mummer2circos/container.yaml"
-updated_at: "2023-12-19 02:55:31.537752"
+updated_at: "2023-12-20 02:43:03.637371"
 latest: "1.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mummer2circos"
 aliases:

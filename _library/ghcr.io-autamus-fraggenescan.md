@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/fraggenescan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/fraggenescan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/fraggenescan/container.yaml"
-updated_at: "2023-12-19 03:11:25.176648"
+updated_at: "2023-12-20 02:59:43.408512"
 latest: "1.31"
 container_url: "https://github.com/orgs/autamus/packages/container/package/fraggenescan"
 

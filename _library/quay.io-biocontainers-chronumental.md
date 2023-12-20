@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chronumental"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chronumental/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chronumental/container.yaml"
-updated_at: "2023-12-19 03:02:24.932019"
+updated_at: "2023-12-20 02:50:16.886613"
 latest: "0.0.63--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chronumental"
 aliases:

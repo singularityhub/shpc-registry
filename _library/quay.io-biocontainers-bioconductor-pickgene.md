@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-pickgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pickgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pickgene/container.yaml"
-updated_at: "2023-12-19 02:38:09.793400"
-latest: "1.72.0--r43hdfd78af_0"
+updated_at: "2023-12-20 02:24:49.337714"
+latest: "1.74.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pickgene"
 
 versions:
  - "1.66.0--r41hdfd78af_0"
  - "1.70.0--r42hdfd78af_0"
  - "1.72.0--r43hdfd78af_0"
+ - "1.74.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pickgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pickgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pickgene", "latest": {"1.72.0--r43hdfd78af_0": "sha256:c92c335b8ad504bbca48b8e20abf943560bddb16a41c6be7ea5a2ddfc8328b67"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:200ab601e7bbe83d6f36e1534e1d9b8e7645950383919baed374d60e7261e47c", "1.70.0--r42hdfd78af_0": "sha256:12f3a0534b80890245743485e8ebec391ab35d0a27ed7974eb72222716d784e1", "1.72.0--r43hdfd78af_0": "sha256:c92c335b8ad504bbca48b8e20abf943560bddb16a41c6be7ea5a2ddfc8328b67"}, "docker": "quay.io/biocontainers/bioconductor-pickgene"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pickgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pickgene", "latest": {"1.74.0--r43hdfd78af_0": "sha256:b06149d7f3756be55689811124de2f32c87d24ae64688fb5e0b07ca55a7a7e01"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:200ab601e7bbe83d6f36e1534e1d9b8e7645950383919baed374d60e7261e47c", "1.70.0--r42hdfd78af_0": "sha256:12f3a0534b80890245743485e8ebec391ab35d0a27ed7974eb72222716d784e1", "1.72.0--r43hdfd78af_0": "sha256:c92c335b8ad504bbca48b8e20abf943560bddb16a41c6be7ea5a2ddfc8328b67", "1.74.0--r43hdfd78af_0": "sha256:b06149d7f3756be55689811124de2f32c87d24ae64688fb5e0b07ca55a7a7e01"}, "docker": "quay.io/biocontainers/bioconductor-pickgene"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pickgene.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pickgene
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pickgene:1.72.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pickgene:1.74.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pickgene/1.72.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pickgene/1.72.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pickgene/1.74.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pickgene/1.74.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

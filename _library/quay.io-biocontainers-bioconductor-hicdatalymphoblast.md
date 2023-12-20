@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hicdatalymphoblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicdatalymphoblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicdatalymphoblast/container.yaml"
-updated_at: "2023-12-19 02:31:45.621752"
+updated_at: "2023-12-20 02:18:01.153919"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicdatalymphoblast"
 

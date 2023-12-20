@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lorikeet-genome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lorikeet-genome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lorikeet-genome/container.yaml"
-updated_at: "2023-12-19 02:33:58.023842"
-latest: "0.7.3--h28a2364_1"
+updated_at: "2023-12-20 02:20:24.095033"
+latest: "0.8.2--h8e1a5b0_0"
 container_url: "https://biocontainers.pro/tools/lorikeet-genome"
 aliases:
  - "bwa-mem2"
@@ -31,8 +31,9 @@ aliases:
  - "env_parallel.ash"
 versions:
  - "0.7.3--h28a2364_1"
+ - "0.8.2--h8e1a5b0_0"
 description: "shpc-registry automated BioContainers addition for lorikeet-genome"
-config: {"url": "https://biocontainers.pro/tools/lorikeet-genome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lorikeet-genome", "latest": {"0.7.3--h28a2364_1": "sha256:478bdf1f330e1e1155e6a757fcc7a6efef55e2d192b0214c41f397194b638841"}, "tags": {"0.7.3--h28a2364_1": "sha256:478bdf1f330e1e1155e6a757fcc7a6efef55e2d192b0214c41f397194b638841"}, "docker": "quay.io/biocontainers/lorikeet-genome", "aliases": {"bwa-mem2": "/usr/local/bin/bwa-mem2", "bwa-mem2.avx": "/usr/local/bin/bwa-mem2.avx", "bwa-mem2.avx2": "/usr/local/bin/bwa-mem2.avx2", "bwa-mem2.avx512bw": "/usr/local/bin/bwa-mem2.avx512bw", "bwa-mem2.sse41": "/usr/local/bin/bwa-mem2.sse41", "bwa-mem2.sse42": "/usr/local/bin/bwa-mem2.sse42", "dashing": "/usr/local/bin/dashing", "lorikeet": "/usr/local/bin/lorikeet", "ngmlr": "/usr/local/bin/ngmlr", "starcode": "/usr/local/bin/starcode", "svim": "/usr/local/bin/svim", "vt": "/usr/local/bin/vt", "fastANI": "/usr/local/bin/fastANI", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "gff2gff.py": "/usr/local/bin/gff2gff.py", "bokeh": "/usr/local/bin/bokeh", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash"}}
+config: {"url": "https://biocontainers.pro/tools/lorikeet-genome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lorikeet-genome", "latest": {"0.8.2--h8e1a5b0_0": "sha256:af54babcbe43484862bf9f42e8fd7f3c16fbe0f1c495b0c14addb289d257cdf7"}, "tags": {"0.7.3--h28a2364_1": "sha256:478bdf1f330e1e1155e6a757fcc7a6efef55e2d192b0214c41f397194b638841", "0.8.2--h8e1a5b0_0": "sha256:af54babcbe43484862bf9f42e8fd7f3c16fbe0f1c495b0c14addb289d257cdf7"}, "docker": "quay.io/biocontainers/lorikeet-genome", "aliases": {"bwa-mem2": "/usr/local/bin/bwa-mem2", "bwa-mem2.avx": "/usr/local/bin/bwa-mem2.avx", "bwa-mem2.avx2": "/usr/local/bin/bwa-mem2.avx2", "bwa-mem2.avx512bw": "/usr/local/bin/bwa-mem2.avx512bw", "bwa-mem2.sse41": "/usr/local/bin/bwa-mem2.sse41", "bwa-mem2.sse42": "/usr/local/bin/bwa-mem2.sse42", "dashing": "/usr/local/bin/dashing", "lorikeet": "/usr/local/bin/lorikeet", "ngmlr": "/usr/local/bin/ngmlr", "starcode": "/usr/local/bin/starcode", "svim": "/usr/local/bin/svim", "vt": "/usr/local/bin/vt", "fastANI": "/usr/local/bin/fastANI", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "gff2gff.py": "/usr/local/bin/gff2gff.py", "bokeh": "/usr/local/bin/bokeh", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lorikeet-genome.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/lorikeet-genome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lorikeet-genome:0.7.3--h28a2364_1
+$ shpc install quay.io/biocontainers/lorikeet-genome:0.8.2--h8e1a5b0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lorikeet-genome/0.7.3--h28a2364_1
-$ module help quay.io/biocontainers/lorikeet-genome/0.7.3--h28a2364_1
+$ module load quay.io/biocontainers/lorikeet-genome/0.8.2--h8e1a5b0_0
+$ module help quay.io/biocontainers/lorikeet-genome/0.8.2--h8e1a5b0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

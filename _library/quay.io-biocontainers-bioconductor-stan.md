@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-stan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stan/container.yaml"
-updated_at: "2023-12-19 02:38:05.540824"
+updated_at: "2023-12-20 02:24:44.857775"
 latest: "2.26.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-stan"
 aliases:

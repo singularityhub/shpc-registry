@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/alan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/alan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/alan/container.yaml"
-updated_at: "2023-12-19 03:11:28.406481"
+updated_at: "2023-12-20 02:59:46.780016"
 latest: "2.1.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/alan"
 aliases:

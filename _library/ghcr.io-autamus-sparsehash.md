@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/sparsehash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/sparsehash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/sparsehash/container.yaml"
-updated_at: "2023-12-19 03:11:31.341019"
+updated_at: "2023-12-20 02:59:49.862592"
 latest: "2.0.4"
 container_url: "https://github.com/orgs/autamus/packages/container/package/sparsehash"
 

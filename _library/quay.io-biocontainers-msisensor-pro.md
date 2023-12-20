@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msisensor-pro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msisensor-pro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msisensor-pro/container.yaml"
-updated_at: "2023-12-19 02:42:28.558281"
+updated_at: "2023-12-20 02:29:20.910071"
 latest: "1.2.0--h0033a41_6"
 container_url: "https://biocontainers.pro/tools/msisensor-pro"
 aliases:

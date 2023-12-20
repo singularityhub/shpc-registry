@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnachisel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnachisel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnachisel/container.yaml"
-updated_at: "2023-12-19 02:34:08.200596"
+updated_at: "2023-12-20 02:20:34.756033"
 latest: "3.2.11--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/dnachisel"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/mafft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/mafft/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/mafft/container.yaml"
-updated_at: "2023-12-19 03:11:37.482885"
+updated_at: "2023-12-20 02:59:56.328720"
 latest: "7.481"
 container_url: "https://github.com/orgs/autamus/packages/container/package/mafft"
 aliases:

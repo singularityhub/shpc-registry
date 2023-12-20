@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/keepalive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/keepalive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/keepalive/container.yaml"
-updated_at: "2023-12-19 02:53:44.552774"
+updated_at: "2023-12-20 02:41:11.347352"
 latest: "0.5--py35_0"
 container_url: "https://biocontainers.pro/tools/keepalive"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dropest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dropest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dropest/container.yaml"
-updated_at: "2023-12-19 02:28:47.182635"
+updated_at: "2023-12-20 02:14:49.072218"
 latest: "0.8.6--r42h05d83d2_7"
 container_url: "https://biocontainers.pro/tools/dropest"
 aliases:

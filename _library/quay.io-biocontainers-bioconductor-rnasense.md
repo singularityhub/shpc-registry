@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-rnasense"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnasense/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnasense/container.yaml"
-updated_at: "2023-12-19 02:48:37.319365"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2023-12-20 02:35:48.309220"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnasense"
 
 versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.12.0--r42hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnasense"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnasense", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnasense", "latest": {"1.14.0--r43hdfd78af_0": "sha256:bb4cd5654aafb1356a3c1b4605962260f727dab06c0368b22c65779974f77ef6"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:e181de18b69039c9695172122c42115d77e006c910e6fcff505bfacdb0ce72b9", "1.12.0--r42hdfd78af_0": "sha256:525ff195dea324493f42583b9db10e75f57c9af653d4ed2574b02f999dc9085b", "1.14.0--r43hdfd78af_0": "sha256:bb4cd5654aafb1356a3c1b4605962260f727dab06c0368b22c65779974f77ef6"}, "docker": "quay.io/biocontainers/bioconductor-rnasense"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnasense", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnasense", "latest": {"1.16.0--r43hdfd78af_0": "sha256:952e19854e98061766d40cc8f427fbbcb5f308e04d3c5b457dc8469323351a37"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:e181de18b69039c9695172122c42115d77e006c910e6fcff505bfacdb0ce72b9", "1.12.0--r42hdfd78af_0": "sha256:525ff195dea324493f42583b9db10e75f57c9af653d4ed2574b02f999dc9085b", "1.14.0--r43hdfd78af_0": "sha256:bb4cd5654aafb1356a3c1b4605962260f727dab06c0368b22c65779974f77ef6", "1.16.0--r43hdfd78af_0": "sha256:952e19854e98061766d40cc8f427fbbcb5f308e04d3c5b457dc8469323351a37"}, "docker": "quay.io/biocontainers/bioconductor-rnasense"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnasense.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rnasense
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rnasense:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rnasense:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rnasense/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rnasense/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rnasense/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rnasense/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/epydoc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epydoc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epydoc/container.yaml"
-updated_at: "2023-12-19 02:41:01.939992"
+updated_at: "2023-12-20 02:27:49.884718"
 latest: "3.0.1--py27_1"
 container_url: "https://biocontainers.pro/tools/epydoc"
 aliases:

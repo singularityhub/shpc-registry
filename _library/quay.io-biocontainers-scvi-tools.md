@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scvi-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scvi-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scvi-tools/container.yaml"
-updated_at: "2023-12-19 02:38:59.214977"
+updated_at: "2023-12-20 02:25:41.337752"
 latest: "0.14.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/scvi-tools"
 aliases:

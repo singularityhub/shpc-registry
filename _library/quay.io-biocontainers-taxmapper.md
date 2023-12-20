@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxmapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxmapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxmapper/container.yaml"
-updated_at: "2023-12-19 03:03:27.796595"
+updated_at: "2023-12-20 02:51:22.972764"
 latest: "1.0.2--py_3"
 container_url: "https://biocontainers.pro/tools/taxmapper"
 aliases:

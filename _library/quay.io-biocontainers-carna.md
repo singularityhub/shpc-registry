@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/carna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/carna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/carna/container.yaml"
-updated_at: "2023-12-19 03:02:20.370021"
+updated_at: "2023-12-20 02:50:12.135851"
 latest: "1.3.3--h470a237_2"
 container_url: "https://biocontainers.pro/tools/carna"
 aliases:

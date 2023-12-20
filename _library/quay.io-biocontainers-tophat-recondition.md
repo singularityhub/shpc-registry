@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tophat-recondition"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tophat-recondition/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tophat-recondition/container.yaml"
-updated_at: "2023-12-19 02:50:46.613330"
+updated_at: "2023-12-20 02:38:04.361765"
 latest: "1.4--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/tophat-recondition"
 aliases:

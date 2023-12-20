@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cbnplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cbnplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cbnplot/container.yaml"
-updated_at: "2023-12-19 02:36:47.928521"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2023-12-20 02:23:23.293984"
+latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cbnplot"
 aliases:
  - "hb-info"
@@ -29,8 +29,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.2.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-cbnplot"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cbnplot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cbnplot", "latest": {"1.0.0--r43hdfd78af_0": "sha256:65e1d7e76b656ce3a68624c170036f42136d877be6d4f79123d5adfa39249e2b"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:65e1d7e76b656ce3a68624c170036f42136d877be6d4f79123d5adfa39249e2b"}, "docker": "quay.io/biocontainers/bioconductor-cbnplot", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cbnplot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cbnplot", "latest": {"1.2.0--r43hdfd78af_0": "sha256:799d454a9d8cbaed098534a1220abc6f2c4dd498271a05cecc04056797cd621d"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:65e1d7e76b656ce3a68624c170036f42136d877be6d4f79123d5adfa39249e2b", "1.2.0--r43hdfd78af_0": "sha256:799d454a9d8cbaed098534a1220abc6f2c4dd498271a05cecc04056797cd621d"}, "docker": "quay.io/biocontainers/bioconductor-cbnplot", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cbnplot.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cbnplot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cbnplot:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cbnplot:1.2.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cbnplot/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cbnplot/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cbnplot/1.2.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cbnplot/1.2.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

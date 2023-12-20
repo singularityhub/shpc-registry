@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msmseda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msmseda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msmseda/container.yaml"
-updated_at: "2023-12-19 02:55:40.313828"
+updated_at: "2023-12-20 02:43:12.937039"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msmseda"
 aliases:

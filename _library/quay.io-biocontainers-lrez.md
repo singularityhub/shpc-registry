@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lrez"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lrez/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lrez/container.yaml"
-updated_at: "2023-12-19 03:08:36.953125"
+updated_at: "2023-12-20 02:56:47.433951"
 latest: "2.2.4--h21ec9f0_2"
 container_url: "https://biocontainers.pro/tools/lrez"
 aliases:
