@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/compleasm
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for compleasm
 latest:
-  0.2.2--pyh7cba7a3_0: sha256:f4e232d2e1861d9d3be59d61bc555b59f3308e57ae5054ee99287986152dad25
+  0.2.4--pyh7cba7a3_0: sha256:ef137f63f63da4e3a7681ac25ce15179f233c25fe350090b19eeacc1ac79bfc4
 tags:
   0.2.2--pyh7cba7a3_0: sha256:f4e232d2e1861d9d3be59d61bc555b59f3308e57ae5054ee99287986152dad25
+  0.2.4--pyh7cba7a3_0: sha256:ef137f63f63da4e3a7681ac25ce15179f233c25fe350090b19eeacc1ac79bfc4
 docker: quay.io/biocontainers/compleasm
 aliases:
   compleasm: /usr/local/bin/compleasm

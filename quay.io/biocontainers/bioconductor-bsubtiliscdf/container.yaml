@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-bsubtiliscdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bsubtiliscdf
 latest:
-  2.18.0--r43hdfd78af_11: sha256:85455fd3985596fa53f2354cb5ee5d52e5ccb895f4f1a78f379a19c705855e38
+  2.18.0--r43hdfd78af_12: sha256:574fc80f6d5480e192739680af515ef147054d503b3d053f191d238bc2add034
 tags:
   2.18.0--r41hdfd78af_9: sha256:1c4accc5ac5087c1506f9e46f4cb904194c704d7d21ea2cedb1ad824c200281f
   2.18.0--r42hdfd78af_10: sha256:9cd7b0d7c0851c01897901d091d8538fbe9eda8aa0c57a19096fe6e648e2642d
   2.18.0--r43hdfd78af_11: sha256:85455fd3985596fa53f2354cb5ee5d52e5ccb895f4f1a78f379a19c705855e38
+  2.18.0--r43hdfd78af_12: sha256:574fc80f6d5480e192739680af515ef147054d503b3d053f191d238bc2add034
 docker: quay.io/biocontainers/bioconductor-bsubtiliscdf

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-geneplast.data.string.v91
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-geneplast.data.string.v91
 latest:
-  0.99.6--r43hdfd78af_11: sha256:66ee57dc4cd86e3a41aedc78bba04cbbc9384b007ea886aae4857d4b66c3d797
+  0.99.6--r43hdfd78af_12: sha256:9d435f166825e9c48a17f54c27aafe4927457830dcf54a55a34be35a13767f1b
 tags:
   0.99.6--r41hdfd78af_9: sha256:f863a07ba68b0f734c5b1e9cb1580f28cb5cc4349a9930b448c63cb409262184
   0.99.6--r42hdfd78af_10: sha256:9022a72793b79d79d4ae9416b26f85c9a654ba2d54c12c359d907952c866d455
   0.99.6--r43hdfd78af_11: sha256:66ee57dc4cd86e3a41aedc78bba04cbbc9384b007ea886aae4857d4b66c3d797
+  0.99.6--r43hdfd78af_12: sha256:9d435f166825e9c48a17f54c27aafe4927457830dcf54a55a34be35a13767f1b
 docker: quay.io/biocontainers/bioconductor-geneplast.data.string.v91

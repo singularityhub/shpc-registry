@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-scvir
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-scvir
 latest:
-  1.0.0--r43hdfd78af_0: sha256:36d47bf58e13d7b419a2ff3bcc0486eb11551c7f4c9dfe7f9320cb9f570c8b21
+  1.2.0--r43hdfd78af_0: sha256:af4f22741b7c5c9a7b508cb161c1e6397797fbf54144ff6a921af09c427b9b42
 tags:
   1.0.0--r43hdfd78af_0: sha256:36d47bf58e13d7b419a2ff3bcc0486eb11551c7f4c9dfe7f9320cb9f570c8b21
+  1.2.0--r43hdfd78af_0: sha256:af4f22741b7c5c9a7b508cb161c1e6397797fbf54144ff6a921af09c427b9b42
 docker: quay.io/biocontainers/bioconductor-scvir
 aliases:
   hb-info: /usr/local/bin/hb-info

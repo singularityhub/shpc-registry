@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-acde
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-acde
 latest:
-  1.30.0--r43hdfd78af_0: sha256:40cd71eb82610f9aedde7a1a7e3c6ae6f28f2e08b562a7763d6b06b2c149d22d
+  1.32.0--r43hdfd78af_0: sha256:00ae3777c2ff184fbc870d669f054e20b27269bae281a6dab6915c480f9735a8
 tags:
   1.8.0--r3.4.1_0: sha256:7c3aba92ea8829f4d4e6f8aef8d0e7f0ff12b0428c060159a5d90f5a31f2292c
   1.28.0--r42hdfd78af_0: sha256:dc8b78014a5987c5f127cdee58dfb4bf47b44d7f24ca484c14af19cd4bd9e379
@@ -11,6 +11,7 @@ tags:
   1.20.0--r40hdfd78af_1: sha256:20d1b81d410f4d22553c1e37586952061cb5fd46a589d239365d1528248df76b
   1.18.0--r40_0: sha256:a11898f1693a3628461b485bc8ac2d6414e990b5f0b53647472aea8db5068821
   1.30.0--r43hdfd78af_0: sha256:40cd71eb82610f9aedde7a1a7e3c6ae6f28f2e08b562a7763d6b06b2c149d22d
+  1.32.0--r43hdfd78af_0: sha256:00ae3777c2ff184fbc870d669f054e20b27269bae281a6dab6915c480f9735a8
 docker: quay.io/biocontainers/bioconductor-acde
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

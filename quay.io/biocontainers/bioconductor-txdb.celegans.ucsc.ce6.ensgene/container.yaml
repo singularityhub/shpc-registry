@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-txdb.celegans.ucsc.ce6.ensgene
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-txdb.celegans.ucsc.ce6.ensgene
 latest:
-  3.2.2--r43hdfd78af_15: sha256:64e792aea524a87f4a17bf5c54631d6c426e7bb461e57264254e98b372dc6f32
+  3.2.2--r43hdfd78af_16: sha256:869b04cb9048d6c2c8148b4a979e76fc8341178a0dbb050acf6692317976de25
 tags:
   3.2.2--r40_9: sha256:f399d3f669c3e153c49b6e2da6d553d28d9b199b2050c417220ca393b9acfa30
   3.2.2--r42hdfd78af_14: sha256:f125cc78d2001a05aa6d4ab4ead7ae4141979b73d4afc73bde7036363804111b
   3.2.2--r43hdfd78af_15: sha256:64e792aea524a87f4a17bf5c54631d6c426e7bb461e57264254e98b372dc6f32
+  3.2.2--r43hdfd78af_16: sha256:869b04cb9048d6c2c8148b4a979e76fc8341178a0dbb050acf6692317976de25
 docker: quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce6.ensgene
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

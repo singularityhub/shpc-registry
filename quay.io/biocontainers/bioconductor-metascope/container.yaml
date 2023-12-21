@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-metascope
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-metascope
 latest:
-  1.0.0--r43hdfd78af_0: sha256:693ce54e7968fe6b18f7d71f7c8aa8ee85500361cb3b4ffbc04fb01221fa6da6
+  1.2.0--r43hdfd78af_0: sha256:59a0efaadd1c0251f04c66af60d34311380ef54c727cc7b22bb95265cff07f4b
 tags:
   1.0.0--r43hdfd78af_0: sha256:693ce54e7968fe6b18f7d71f7c8aa8ee85500361cb3b4ffbc04fb01221fa6da6
+  1.2.0--r43hdfd78af_0: sha256:59a0efaadd1c0251f04c66af60d34311380ef54c727cc7b22bb95265cff07f4b
 docker: quay.io/biocontainers/bioconductor-metascope
 aliases:
   hb-info: /usr/local/bin/hb-info

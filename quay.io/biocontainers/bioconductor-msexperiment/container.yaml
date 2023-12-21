@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-msexperiment
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-msexperiment
 latest:
-  1.2.0--r43hdfd78af_0: sha256:f9b862c52a1a9d6ac76d7d52f17f6f0fbd48dc952862c407b7e3991d25202058
+  1.4.0--r43hdfd78af_0: sha256:75fda3e72227dcabddbef3b5208e26f0722730ab8abfdbda0504c2ccf0433e27
 tags:
   1.0.0--r42hdfd78af_0: sha256:4c9e88ca288416fa5b3529eec809f613ec5a9af4e537e3a8fe36bda9bac5dfdc
   1.2.0--r43hdfd78af_0: sha256:f9b862c52a1a9d6ac76d7d52f17f6f0fbd48dc952862c407b7e3991d25202058
+  1.4.0--r43hdfd78af_0: sha256:75fda3e72227dcabddbef3b5208e26f0722730ab8abfdbda0504c2ccf0433e27
 docker: quay.io/biocontainers/bioconductor-msexperiment
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

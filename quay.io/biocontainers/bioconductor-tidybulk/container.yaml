@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-tidybulk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tidybulk
 latest:
-  1.12.0--r43hdfd78af_0: sha256:0fdd08c234b831f952ce3aade3611a2f56029b4ac2036be15f4f2fe6ae66223f
+  1.14.2--r43hdfd78af_0: sha256:a7214683405cd426df92d0c2dd6ea01a2c1d174b6f11d16e8ef7005b64949a2b
 tags:
   1.6.1--r41hdfd78af_0: sha256:309f25d783e45393b84893712581efa4614a71679e7c4eecc239909bdef6ad9b
   1.10.0--r42hdfd78af_0: sha256:9985d7ed2dd7cdbb3fb06041e0cbdc15aabd43bdb32b94f2b87561825b1cd39d
   1.12.0--r43hdfd78af_0: sha256:0fdd08c234b831f952ce3aade3611a2f56029b4ac2036be15f4f2fe6ae66223f
+  1.14.2--r43hdfd78af_0: sha256:a7214683405cd426df92d0c2dd6ea01a2c1d174b6f11d16e8ef7005b64949a2b
 docker: quay.io/biocontainers/bioconductor-tidybulk

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-acidplots
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-acidplots
 latest:
-  0.7.1--r43hdfd78af_0: sha256:11300b7c951f34c50c25607d2a6415bfe4b6e616edcef130225d580bbbf200a4
+  0.7.2--r43hdfd78af_0: sha256:08b3f07560c4b26d497cb7f84ceb6801fb923e97ff41e5e1d9a41e84c2c6d43b
 tags:
   0.4.0--r41hdfd78af_0: sha256:51aca75c76f442f3e9af355ad80d4b1d5006ecfe214ae17e4a0bd7fa83a34843
   0.5.3--r42hdfd78af_1: sha256:b6c03328839ea124fbaf3fc0eae52971e5f2e4423c5efec58d0647eaf06c53cf
@@ -12,4 +12,5 @@ tags:
   0.5.5--r43hdfd78af_2: sha256:0ae832afef6157e8253d1a92056d56a7bf46cc6fccda58d3c5aab37a7bc17b53
   0.6.1--r43hdfd78af_0: sha256:dc688e5afaf5588b23dfb4642ecd4f577cccdc3d93c1f233b64ca74fd683930c
   0.7.1--r43hdfd78af_0: sha256:11300b7c951f34c50c25607d2a6415bfe4b6e616edcef130225d580bbbf200a4
+  0.7.2--r43hdfd78af_0: sha256:08b3f07560c4b26d497cb7f84ceb6801fb923e97ff41e5e1d9a41e84c2c6d43b
 docker: quay.io/biocontainers/r-acidplots

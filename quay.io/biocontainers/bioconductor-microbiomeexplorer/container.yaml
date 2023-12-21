@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-microbiomeexplorer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-microbiomeexplorer
 latest:
-  1.10.0--r43hdfd78af_0: sha256:ce8ad35561e5e326212c72aab504e206470f56fda798a1c016d3abbbad0dfd18
+  1.12.0--r43hdfd78af_0: sha256:5e274998b4b63fa1fc66dc48a59f24a2826d4a7d803979905095f1ebea94a7fc
 tags:
   1.4.0--r41hdfd78af_0: sha256:5363ab9da69d8734647a0010ddb325d19a2265482eceda0e364c94ba01909701
   1.8.0--r42hdfd78af_0: sha256:d1a920e59a435108b8ae5ecd13a6dcfe4805eb8e3730610bffa4476a6dc96f40
   1.10.0--r43hdfd78af_0: sha256:ce8ad35561e5e326212c72aab504e206470f56fda798a1c016d3abbbad0dfd18
+  1.12.0--r43hdfd78af_0: sha256:5e274998b4b63fa1fc66dc48a59f24a2826d4a7d803979905095f1ebea94a7fc
 docker: quay.io/biocontainers/bioconductor-microbiomeexplorer
 aliases:
   pandoc: /usr/local/bin/pandoc
