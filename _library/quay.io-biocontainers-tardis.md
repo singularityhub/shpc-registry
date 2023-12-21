@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tardis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tardis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tardis/container.yaml"
-updated_at: "2023-12-20 04:00:25.897032"
+updated_at: "2023-12-21 02:56:33.437769"
 latest: "1.0.19--py27h53fee03_1"
 container_url: "https://biocontainers.pro/tools/tardis"
 aliases:

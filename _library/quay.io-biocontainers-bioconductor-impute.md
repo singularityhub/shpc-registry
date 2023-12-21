@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-impute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-impute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-impute/container.yaml"
-updated_at: "2023-12-20 03:55:04.957507"
-latest: "1.74.1--r43h9913872_0"
+updated_at: "2023-12-21 02:51:02.668379"
+latest: "1.76.0--r43h9913872_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-impute"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.72.0--r42hefde4a7_0"
  - "1.72.0--r42h9913872_1"
  - "1.74.1--r43h9913872_0"
+ - "1.76.0--r43h9913872_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-impute"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-impute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-impute", "latest": {"1.74.1--r43h9913872_0": "sha256:24658456d0cdccf15223d4c88bc57813133b9ed7012288e837d2721b32fea6d9"}, "tags": {"1.68.0--r41hefde4a7_2": "sha256:12ed9015057c455610ded717c4608a1e931187d0f109bc19b2b6f72643f95fbf", "1.72.0--r42hefde4a7_0": "sha256:bd15f61cf31fe3db77e84b4c4ca914eeb9ff12ee89d9ea6f6763eb8103bdd7a1", "1.72.0--r42h9913872_1": "sha256:3a23196b9708d5ff54a5e354b6a4c3b27845913395ac88055ae7271d1611d752", "1.74.1--r43h9913872_0": "sha256:24658456d0cdccf15223d4c88bc57813133b9ed7012288e837d2721b32fea6d9"}, "docker": "quay.io/biocontainers/bioconductor-impute"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-impute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-impute", "latest": {"1.76.0--r43h9913872_1": "sha256:6ddb904d504d7dbc324cee05e75029117951eae698797c8c8c98c7284dcf2de1"}, "tags": {"1.68.0--r41hefde4a7_2": "sha256:12ed9015057c455610ded717c4608a1e931187d0f109bc19b2b6f72643f95fbf", "1.72.0--r42hefde4a7_0": "sha256:bd15f61cf31fe3db77e84b4c4ca914eeb9ff12ee89d9ea6f6763eb8103bdd7a1", "1.72.0--r42h9913872_1": "sha256:3a23196b9708d5ff54a5e354b6a4c3b27845913395ac88055ae7271d1611d752", "1.74.1--r43h9913872_0": "sha256:24658456d0cdccf15223d4c88bc57813133b9ed7012288e837d2721b32fea6d9", "1.76.0--r43h9913872_1": "sha256:6ddb904d504d7dbc324cee05e75029117951eae698797c8c8c98c7284dcf2de1"}, "docker": "quay.io/biocontainers/bioconductor-impute"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-impute.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-impute
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-impute:1.74.1--r43h9913872_0
+$ shpc install quay.io/biocontainers/bioconductor-impute:1.76.0--r43h9913872_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-impute/1.74.1--r43h9913872_0
-$ module help quay.io/biocontainers/bioconductor-impute/1.74.1--r43h9913872_0
+$ module load quay.io/biocontainers/bioconductor-impute/1.76.0--r43h9913872_1
+$ module help quay.io/biocontainers/bioconductor-impute/1.76.0--r43h9913872_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

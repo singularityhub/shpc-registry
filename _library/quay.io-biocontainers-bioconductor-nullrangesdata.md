@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nullrangesdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nullrangesdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nullrangesdata/container.yaml"
-updated_at: "2023-12-20 03:58:10.337647"
+updated_at: "2023-12-21 02:54:12.820008"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nullrangesdata"
 

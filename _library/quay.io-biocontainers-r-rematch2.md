@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rematch2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rematch2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rematch2/container.yaml"
-updated_at: "2023-12-20 04:00:26.763681"
+updated_at: "2023-12-21 02:56:34.302151"
 latest: "2.0.1--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-rematch2"
 aliases:

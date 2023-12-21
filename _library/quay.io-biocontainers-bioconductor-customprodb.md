@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-customprodb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-customprodb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-customprodb/container.yaml"
-updated_at: "2023-12-20 04:11:51.163365"
+updated_at: "2023-12-21 03:08:12.351359"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-customprodb"
 

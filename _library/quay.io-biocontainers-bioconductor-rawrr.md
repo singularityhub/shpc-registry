@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rawrr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rawrr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rawrr/container.yaml"
-updated_at: "2023-12-20 04:09:38.502883"
-latest: "1.8.1--r43hdfd78af_0"
+updated_at: "2023-12-21 03:05:55.950503"
+latest: "1.10.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rawrr"
 aliases:
  - "aprofutil"
@@ -28,8 +28,9 @@ versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
  - "1.8.1--r43hdfd78af_0"
+ - "1.10.2--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rawrr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rawrr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rawrr", "latest": {"1.8.1--r43hdfd78af_0": "sha256:5b67fc9624b19712730c036ef63f8cca5681f7db56d5cd1333c6b2c6751e8498"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:64c2a70d6061a17efbe398e16057528b90f6b892357e687c626d5cbb965df0d2", "1.6.0--r42hdfd78af_0": "sha256:7d29a2cd775ce2f7fa11e4e2587ea5acce3bd2bb441e61d9508d82c4fe39f1e3", "1.8.1--r43hdfd78af_0": "sha256:5b67fc9624b19712730c036ef63f8cca5681f7db56d5cd1333c6b2c6751e8498"}, "docker": "quay.io/biocontainers/bioconductor-rawrr", "aliases": {"aprofutil": "/usr/local/bin/aprofutil", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "mono-hang-watchdog": "/usr/local/bin/mono-hang-watchdog", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rawrr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rawrr", "latest": {"1.10.2--r43hdfd78af_0": "sha256:de5d85bd2d13f1ea70968f8b10892aae6ac41b00eed74275bdea76ab4519ebec"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:64c2a70d6061a17efbe398e16057528b90f6b892357e687c626d5cbb965df0d2", "1.6.0--r42hdfd78af_0": "sha256:7d29a2cd775ce2f7fa11e4e2587ea5acce3bd2bb441e61d9508d82c4fe39f1e3", "1.8.1--r43hdfd78af_0": "sha256:5b67fc9624b19712730c036ef63f8cca5681f7db56d5cd1333c6b2c6751e8498", "1.10.2--r43hdfd78af_0": "sha256:de5d85bd2d13f1ea70968f8b10892aae6ac41b00eed74275bdea76ab4519ebec"}, "docker": "quay.io/biocontainers/bioconductor-rawrr", "aliases": {"aprofutil": "/usr/local/bin/aprofutil", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "mono-hang-watchdog": "/usr/local/bin/mono-hang-watchdog", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rawrr.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rawrr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rawrr:1.8.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rawrr:1.10.2--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rawrr/1.8.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rawrr/1.8.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rawrr/1.10.2--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rawrr/1.10.2--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

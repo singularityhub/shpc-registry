@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/jass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jass/container.yaml"
-updated_at: "2023-12-20 03:46:59.350729"
-latest: "2.2--pyhb7b1952_0"
+updated_at: "2023-12-21 02:42:54.693204"
+latest: "2.3--pyhca03a8a_0"
 container_url: "https://biocontainers.pro/tools/jass"
 aliases:
  - "celery"
@@ -22,8 +22,9 @@ aliases:
  - "opj_dump"
 versions:
  - "2.2--pyhb7b1952_0"
+ - "2.3--pyhca03a8a_0"
 description: "shpc-registry automated BioContainers addition for jass"
-config: {"url": "https://biocontainers.pro/tools/jass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jass", "latest": {"2.2--pyhb7b1952_0": "sha256:66d6851d6b762232989564b4ebcf4395b2002905b8c06dddedfe4887789f136e"}, "tags": {"2.2--pyhb7b1952_0": "sha256:66d6851d6b762232989564b4ebcf4395b2002905b8c06dddedfe4887789f136e"}, "docker": "quay.io/biocontainers/jass", "aliases": {"celery": "/usr/local/bin/celery", "jass": "/usr/local/bin/jass", "flask": "/usr/local/bin/flask", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/jass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jass", "latest": {"2.3--pyhca03a8a_0": "sha256:fa8bd4d82a9ea4a5bed7df736b1f7dc341740762c0aed4c9b9ae9174f308f9f9"}, "tags": {"2.2--pyhb7b1952_0": "sha256:66d6851d6b762232989564b4ebcf4395b2002905b8c06dddedfe4887789f136e", "2.3--pyhca03a8a_0": "sha256:fa8bd4d82a9ea4a5bed7df736b1f7dc341740762c0aed4c9b9ae9174f308f9f9"}, "docker": "quay.io/biocontainers/jass", "aliases": {"celery": "/usr/local/bin/celery", "jass": "/usr/local/bin/jass", "flask": "/usr/local/bin/flask", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jass.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/jass
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/jass:2.2--pyhb7b1952_0
+$ shpc install quay.io/biocontainers/jass:2.3--pyhca03a8a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/jass/2.2--pyhb7b1952_0
-$ module help quay.io/biocontainers/jass/2.2--pyhb7b1952_0
+$ module load quay.io/biocontainers/jass/2.3--pyhca03a8a_0
+$ module help quay.io/biocontainers/jass/2.3--pyhca03a8a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

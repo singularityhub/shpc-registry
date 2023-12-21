@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nrpys"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nrpys/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nrpys/container.yaml"
-updated_at: "2023-12-20 04:08:51.712125"
-latest: "0.1.1--py311ha8f3691_1"
+updated_at: "2023-12-21 03:05:08.616718"
+latest: "0.1.1--py312ha8f3691_2"
 container_url: "https://biocontainers.pro/tools/nrpys"
 aliases:
  - "2to3-3.10"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.1.1--py310h8472f5a_0"
  - "0.1.1--py311ha8f3691_1"
+ - "0.1.1--py312ha8f3691_2"
 description: "singularity registry hpc automated addition for nrpys"
-config: {"url": "https://biocontainers.pro/tools/nrpys", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nrpys", "latest": {"0.1.1--py311ha8f3691_1": "sha256:95174cfb5e073906125f632daf5b9a617019bfeca77ac12bc32342cf5b215ff2"}, "tags": {"0.1.1--py310h8472f5a_0": "sha256:3c28459ece0043f6b6c72d3db5bb2b1dd7a9eda9aa2e7f72374a31d1a0199d66", "0.1.1--py311ha8f3691_1": "sha256:95174cfb5e073906125f632daf5b9a617019bfeca77ac12bc32342cf5b215ff2"}, "docker": "quay.io/biocontainers/nrpys", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/nrpys", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nrpys", "latest": {"0.1.1--py312ha8f3691_2": "sha256:2b05614171c25026d28d9d6b0ab561d8e6116fa6fcf47afac565e1fe039dcc75"}, "tags": {"0.1.1--py310h8472f5a_0": "sha256:3c28459ece0043f6b6c72d3db5bb2b1dd7a9eda9aa2e7f72374a31d1a0199d66", "0.1.1--py311ha8f3691_1": "sha256:95174cfb5e073906125f632daf5b9a617019bfeca77ac12bc32342cf5b215ff2", "0.1.1--py312ha8f3691_2": "sha256:2b05614171c25026d28d9d6b0ab561d8e6116fa6fcf47afac565e1fe039dcc75"}, "docker": "quay.io/biocontainers/nrpys", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nrpys.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/nrpys
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nrpys:0.1.1--py311ha8f3691_1
+$ shpc install quay.io/biocontainers/nrpys:0.1.1--py312ha8f3691_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nrpys/0.1.1--py311ha8f3691_1
-$ module help quay.io/biocontainers/nrpys/0.1.1--py311ha8f3691_1
+$ module load quay.io/biocontainers/nrpys/0.1.1--py312ha8f3691_2
+$ module help quay.io/biocontainers/nrpys/0.1.1--py312ha8f3691_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

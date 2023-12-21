@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/insilicosv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/insilicosv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/insilicosv/container.yaml"
-updated_at: "2023-12-20 03:52:26.743727"
-latest: "0.0.5--pyhdfd78af_0"
+updated_at: "2023-12-21 02:48:24.577557"
+latest: "0.0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/insilicosv"
 aliases:
  - "insilicosv"
@@ -30,8 +30,9 @@ aliases:
  - "transicc"
 versions:
  - "0.0.5--pyhdfd78af_0"
+ - "0.0.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for insilicosv"
-config: {"url": "https://biocontainers.pro/tools/insilicosv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for insilicosv", "latest": {"0.0.5--pyhdfd78af_0": "sha256:aa0e08298dee74105c51bed73fe0c5b3ef8c222cee2be3ca21ffed479b93c188"}, "tags": {"0.0.5--pyhdfd78af_0": "sha256:aa0e08298dee74105c51bed73fe0c5b3ef8c222cee2be3ca21ffed479b93c188"}, "docker": "quay.io/biocontainers/insilicosv", "aliases": {"insilicosv": "/usr/local/bin/insilicosv", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/insilicosv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for insilicosv", "latest": {"0.0.6--pyhdfd78af_0": "sha256:bfb51b50a8d2e5d2ede15daac06e89ff83f8d3856b7d2f27f1d76c94cbc084cc"}, "tags": {"0.0.5--pyhdfd78af_0": "sha256:aa0e08298dee74105c51bed73fe0c5b3ef8c222cee2be3ca21ffed479b93c188", "0.0.6--pyhdfd78af_0": "sha256:bfb51b50a8d2e5d2ede15daac06e89ff83f8d3856b7d2f27f1d76c94cbc084cc"}, "docker": "quay.io/biocontainers/insilicosv", "aliases": {"insilicosv": "/usr/local/bin/insilicosv", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/insilicosv.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/insilicosv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/insilicosv:0.0.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/insilicosv:0.0.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/insilicosv/0.0.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/insilicosv/0.0.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/insilicosv/0.0.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/insilicosv/0.0.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

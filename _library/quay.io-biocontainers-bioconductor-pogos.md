@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-pogos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pogos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pogos/container.yaml"
-updated_at: "2023-12-20 03:51:50.371521"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2023-12-21 02:47:48.372926"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pogos"
 aliases:
  - "2to3-3.8"
@@ -23,8 +23,9 @@ versions:
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
  - "1.20.0--r43hdfd78af_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pogos"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pogos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pogos", "latest": {"1.20.0--r43hdfd78af_0": "sha256:449c9911c6e922e2b98f82ba1b6bb2c7183329dcf2c04042ced0ddc124a3c168"}, "tags": {"1.8.0--r40_0": "sha256:56fb6bfded1c2477df4fc85bd7a8200dad6b724145f89098ff97e36d7596fdf2", "1.18.0--r42hdfd78af_0": "sha256:215edbee6fdc5a20da2c16dd67a5a0f056b0afc7782762c844ba5d521e60a283", "1.14.0--r41hdfd78af_0": "sha256:b30f3d6edb6933d58c8f7575aa73f41285b9461f67153ad38b1502eb0fc85c03", "1.12.0--r41hdfd78af_0": "sha256:ae798a9491500e1f8bd483d7f9a88c03c0f2917add03c579de475ba561f9ca5d", "1.10.0--r40hdfd78af_1": "sha256:747d2b6f035a42d20708979fca7be3e697024c8242eccf95ceaf0b7d60b4931a", "1.20.0--r43hdfd78af_0": "sha256:449c9911c6e922e2b98f82ba1b6bb2c7183329dcf2c04042ced0ddc124a3c168"}, "docker": "quay.io/biocontainers/bioconductor-pogos", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pogos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pogos", "latest": {"1.22.0--r43hdfd78af_0": "sha256:14b626cbab5267963b0facf80462bfe05eb4c1af1f4510845911406487d26bc2"}, "tags": {"1.8.0--r40_0": "sha256:56fb6bfded1c2477df4fc85bd7a8200dad6b724145f89098ff97e36d7596fdf2", "1.18.0--r42hdfd78af_0": "sha256:215edbee6fdc5a20da2c16dd67a5a0f056b0afc7782762c844ba5d521e60a283", "1.14.0--r41hdfd78af_0": "sha256:b30f3d6edb6933d58c8f7575aa73f41285b9461f67153ad38b1502eb0fc85c03", "1.12.0--r41hdfd78af_0": "sha256:ae798a9491500e1f8bd483d7f9a88c03c0f2917add03c579de475ba561f9ca5d", "1.10.0--r40hdfd78af_1": "sha256:747d2b6f035a42d20708979fca7be3e697024c8242eccf95ceaf0b7d60b4931a", "1.20.0--r43hdfd78af_0": "sha256:449c9911c6e922e2b98f82ba1b6bb2c7183329dcf2c04042ced0ddc124a3c168", "1.22.0--r43hdfd78af_0": "sha256:14b626cbab5267963b0facf80462bfe05eb4c1af1f4510845911406487d26bc2"}, "docker": "quay.io/biocontainers/bioconductor-pogos", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pogos.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pogos
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pogos:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pogos:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pogos/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pogos/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pogos/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pogos/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

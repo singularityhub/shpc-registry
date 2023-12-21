@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cyordereddict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cyordereddict/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cyordereddict/container.yaml"
-updated_at: "2023-12-20 04:04:52.400021"
+updated_at: "2023-12-21 03:01:06.351490"
 latest: "0.2.2--py35_0"
 container_url: "https://biocontainers.pro/tools/cyordereddict"
 aliases:

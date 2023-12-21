@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hicmatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hicmatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hicmatrix/container.yaml"
-updated_at: "2023-12-20 03:57:33.579870"
-latest: "17--pyhdfd78af_0"
+updated_at: "2023-12-21 02:53:34.344686"
+latest: "17.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hicmatrix"
 aliases:
  - "dask-mpi"
@@ -29,8 +29,9 @@ versions:
  - "13--py_0"
  - "12--py_0"
  - "17--pyhdfd78af_0"
+ - "17.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hicmatrix"
-config: {"url": "https://biocontainers.pro/tools/hicmatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hicmatrix", "latest": {"17--pyhdfd78af_0": "sha256:5c8f3f653262a45254951bd64f2b4d46131f2dbc99482918deb5fe7dbd64e988"}, "tags": {"2.2--pyh24bf2e0_1": "sha256:c523832375604f64607bb264aaa5f20bd507ac9a8274a5cecbe3b633dd09caea", "16--pyhdfd78af_0": "sha256:78597a8192d09d04f9ce84cb47c20130d7547a4e31d48f10c0b7e7a6b1582deb", "15--py_0": "sha256:91a5133510c170b24d0fb8708edd811ac609383d7198e6adf10a8263b89c026d", "14--py_0": "sha256:38429c2c801e55fd2036e7e54b6da9bb2851900980ed3ecad8b749efedfebd13", "13--py_0": "sha256:cfce8e6bcb330daff55e4b353817f396fa671753f96a11e8f8ba3f20281ffca0", "12--py_0": "sha256:26a660a0f9ce73ec185751345fd42f01fd3ab5c24ca2df62085827788e9feb27", "17--pyhdfd78af_0": "sha256:5c8f3f653262a45254951bd64f2b4d46131f2dbc99482918deb5fe7dbd64e988"}, "docker": "quay.io/biocontainers/hicmatrix", "aliases": {"dask-mpi": "/usr/local/bin/dask-mpi", "dask-remote": "/usr/local/bin/dask-remote", "dask-submit": "/usr/local/bin/dask-submit", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix"}}
+config: {"url": "https://biocontainers.pro/tools/hicmatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hicmatrix", "latest": {"17.1--pyhdfd78af_0": "sha256:8c73244e840e6a4f3ae882a273fdecf96515db1449ce697e023550716695ed0c"}, "tags": {"2.2--pyh24bf2e0_1": "sha256:c523832375604f64607bb264aaa5f20bd507ac9a8274a5cecbe3b633dd09caea", "16--pyhdfd78af_0": "sha256:78597a8192d09d04f9ce84cb47c20130d7547a4e31d48f10c0b7e7a6b1582deb", "15--py_0": "sha256:91a5133510c170b24d0fb8708edd811ac609383d7198e6adf10a8263b89c026d", "14--py_0": "sha256:38429c2c801e55fd2036e7e54b6da9bb2851900980ed3ecad8b749efedfebd13", "13--py_0": "sha256:cfce8e6bcb330daff55e4b353817f396fa671753f96a11e8f8ba3f20281ffca0", "12--py_0": "sha256:26a660a0f9ce73ec185751345fd42f01fd3ab5c24ca2df62085827788e9feb27", "17--pyhdfd78af_0": "sha256:5c8f3f653262a45254951bd64f2b4d46131f2dbc99482918deb5fe7dbd64e988", "17.1--pyhdfd78af_0": "sha256:8c73244e840e6a4f3ae882a273fdecf96515db1449ce697e023550716695ed0c"}, "docker": "quay.io/biocontainers/hicmatrix", "aliases": {"dask-mpi": "/usr/local/bin/dask-mpi", "dask-remote": "/usr/local/bin/dask-remote", "dask-submit": "/usr/local/bin/dask-submit", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hicmatrix.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/hicmatrix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hicmatrix:17--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/hicmatrix:17.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hicmatrix/17--pyhdfd78af_0
-$ module help quay.io/biocontainers/hicmatrix/17--pyhdfd78af_0
+$ module load quay.io/biocontainers/hicmatrix/17.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/hicmatrix/17.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

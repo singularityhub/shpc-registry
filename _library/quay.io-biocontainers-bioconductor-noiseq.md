@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-noiseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-noiseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-noiseq/container.yaml"
-updated_at: "2023-12-20 03:32:22.645089"
-latest: "2.44.0--r43hdfd78af_0"
+updated_at: "2023-12-21 02:27:51.561534"
+latest: "2.46.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-noiseq"
 
 versions:
  - "2.38.0--r41hdfd78af_0"
  - "2.42.0--r42hdfd78af_0"
  - "2.44.0--r43hdfd78af_0"
+ - "2.46.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-noiseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-noiseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-noiseq", "latest": {"2.44.0--r43hdfd78af_0": "sha256:65b1acf7d4cc7bf7ec0104ae47709e810c0b20e03e6f216f10549a6a484ac74a"}, "tags": {"2.38.0--r41hdfd78af_0": "sha256:31bf3b47786beffdef3b5d3513f14e68d998fbe218696a1b5db6c0a97125576b", "2.42.0--r42hdfd78af_0": "sha256:06f5be572ae412640d026ffa7fb29b22d38a8e3397964f03b9d0a1964f618eca", "2.44.0--r43hdfd78af_0": "sha256:65b1acf7d4cc7bf7ec0104ae47709e810c0b20e03e6f216f10549a6a484ac74a"}, "docker": "quay.io/biocontainers/bioconductor-noiseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-noiseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-noiseq", "latest": {"2.46.0--r43hdfd78af_0": "sha256:3af301311852f1021ce49e81d8764b17a7787d6ac587a63f7ca08b2194614fab"}, "tags": {"2.38.0--r41hdfd78af_0": "sha256:31bf3b47786beffdef3b5d3513f14e68d998fbe218696a1b5db6c0a97125576b", "2.42.0--r42hdfd78af_0": "sha256:06f5be572ae412640d026ffa7fb29b22d38a8e3397964f03b9d0a1964f618eca", "2.44.0--r43hdfd78af_0": "sha256:65b1acf7d4cc7bf7ec0104ae47709e810c0b20e03e6f216f10549a6a484ac74a", "2.46.0--r43hdfd78af_0": "sha256:3af301311852f1021ce49e81d8764b17a7787d6ac587a63f7ca08b2194614fab"}, "docker": "quay.io/biocontainers/bioconductor-noiseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-noiseq.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-noiseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-noiseq:2.44.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-noiseq:2.46.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-noiseq/2.44.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-noiseq/2.44.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-noiseq/2.46.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-noiseq/2.46.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-rattus.norvegicus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rattus.norvegicus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rattus.norvegicus/container.yaml"
-updated_at: "2023-12-20 03:56:58.683911"
-latest: "1.3.1--r43hdfd78af_11"
+updated_at: "2023-12-21 02:52:58.328630"
+latest: "1.3.1--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-rattus.norvegicus"
 
 versions:
  - "1.3.1--r41hdfd78af_9"
  - "1.3.1--r42hdfd78af_10"
  - "1.3.1--r43hdfd78af_11"
+ - "1.3.1--r43hdfd78af_12"
 description: "shpc-registry automated BioContainers addition for bioconductor-rattus.norvegicus"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rattus.norvegicus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rattus.norvegicus", "latest": {"1.3.1--r43hdfd78af_11": "sha256:b1e724618d92950d342f435d4d8c6f06c7cdacaaf71423e06db0a47c56a71202"}, "tags": {"1.3.1--r41hdfd78af_9": "sha256:5c71c7664c66440c55060799175f28b8f27e80586b18c0bbb5c88f4078e78e93", "1.3.1--r42hdfd78af_10": "sha256:a2043f173d8b56e1583024b26116198847c631cd86897298cee2dc91a9b7f040", "1.3.1--r43hdfd78af_11": "sha256:b1e724618d92950d342f435d4d8c6f06c7cdacaaf71423e06db0a47c56a71202"}, "docker": "quay.io/biocontainers/bioconductor-rattus.norvegicus"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rattus.norvegicus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rattus.norvegicus", "latest": {"1.3.1--r43hdfd78af_12": "sha256:1f06d4b117f05fbad12103fa267465b46eed7a31b031e77fc9e3eee3a3e08e6e"}, "tags": {"1.3.1--r41hdfd78af_9": "sha256:5c71c7664c66440c55060799175f28b8f27e80586b18c0bbb5c88f4078e78e93", "1.3.1--r42hdfd78af_10": "sha256:a2043f173d8b56e1583024b26116198847c631cd86897298cee2dc91a9b7f040", "1.3.1--r43hdfd78af_11": "sha256:b1e724618d92950d342f435d4d8c6f06c7cdacaaf71423e06db0a47c56a71202", "1.3.1--r43hdfd78af_12": "sha256:1f06d4b117f05fbad12103fa267465b46eed7a31b031e77fc9e3eee3a3e08e6e"}, "docker": "quay.io/biocontainers/bioconductor-rattus.norvegicus"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rattus.norvegicus.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rattus.norvegicus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rattus.norvegicus:1.3.1--r43hdfd78af_11
+$ shpc install quay.io/biocontainers/bioconductor-rattus.norvegicus:1.3.1--r43hdfd78af_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rattus.norvegicus/1.3.1--r43hdfd78af_11
-$ module help quay.io/biocontainers/bioconductor-rattus.norvegicus/1.3.1--r43hdfd78af_11
+$ module load quay.io/biocontainers/bioconductor-rattus.norvegicus/1.3.1--r43hdfd78af_12
+$ module help quay.io/biocontainers/bioconductor-rattus.norvegicus/1.3.1--r43hdfd78af_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

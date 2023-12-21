@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unifrac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unifrac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unifrac/container.yaml"
-updated_at: "2023-12-20 04:09:06.073525"
+updated_at: "2023-12-21 03:05:23.244707"
 latest: "1.3--py38hbff2b2d_0"
 container_url: "https://biocontainers.pro/tools/unifrac"
 aliases:

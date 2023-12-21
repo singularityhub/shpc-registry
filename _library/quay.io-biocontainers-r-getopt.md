@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-getopt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-getopt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-getopt/container.yaml"
-updated_at: "2023-12-20 04:16:33.490813"
+updated_at: "2023-12-21 03:12:56.510740"
 latest: "1.20.0--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-getopt"
 aliases:

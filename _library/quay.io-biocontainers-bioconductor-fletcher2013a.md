@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fletcher2013a"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fletcher2013a/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fletcher2013a/container.yaml"
-updated_at: "2023-12-20 03:51:43.758872"
+updated_at: "2023-12-21 02:47:41.769636"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fletcher2013a"
 

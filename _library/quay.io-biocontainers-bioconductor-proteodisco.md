@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-proteodisco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-proteodisco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-proteodisco/container.yaml"
-updated_at: "2023-12-20 03:51:54.171269"
+updated_at: "2023-12-21 02:47:52.098172"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-proteodisco"
 

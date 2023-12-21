@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ncgtw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ncgtw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ncgtw/container.yaml"
-updated_at: "2023-12-20 03:47:32.133609"
-latest: "1.14.0--r43hf17093f_0"
+updated_at: "2023-12-21 02:43:28.229884"
+latest: "1.16.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ncgtw"
 aliases:
  - "zipcmp"
@@ -23,8 +23,9 @@ versions:
  - "1.12.0--r42hc247a5b_0"
  - "1.12.0--r42hf17093f_1"
  - "1.14.0--r43hf17093f_0"
+ - "1.16.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ncgtw"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ncgtw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ncgtw", "latest": {"1.14.0--r43hf17093f_0": "sha256:479ac28a7c7450775fcb54fe91d55fb7fa1d1752df62fa121af9587b5a732f4d"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:85241514e8f287aa7df8b5361154705329330b1e694897d7e217be3ad98b5fd3", "1.12.0--r42hc247a5b_0": "sha256:1d509c4974ae677bf6dd8eae3997e63b113a9e42a3df9f70835e3c0b4501476f", "1.12.0--r42hf17093f_1": "sha256:14c25caf207f7b45efb31c9eb48f0151c8158b308aebc317042efd93681efacd", "1.14.0--r43hf17093f_0": "sha256:479ac28a7c7450775fcb54fe91d55fb7fa1d1752df62fa121af9587b5a732f4d"}, "docker": "quay.io/biocontainers/bioconductor-ncgtw", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ncgtw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ncgtw", "latest": {"1.16.0--r43hf17093f_0": "sha256:3aa003d2a1149973a4255c6b7462f5138ea9cc80e73a1e377cddcc4a2b67d177"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:85241514e8f287aa7df8b5361154705329330b1e694897d7e217be3ad98b5fd3", "1.12.0--r42hc247a5b_0": "sha256:1d509c4974ae677bf6dd8eae3997e63b113a9e42a3df9f70835e3c0b4501476f", "1.12.0--r42hf17093f_1": "sha256:14c25caf207f7b45efb31c9eb48f0151c8158b308aebc317042efd93681efacd", "1.14.0--r43hf17093f_0": "sha256:479ac28a7c7450775fcb54fe91d55fb7fa1d1752df62fa121af9587b5a732f4d", "1.16.0--r43hf17093f_0": "sha256:3aa003d2a1149973a4255c6b7462f5138ea9cc80e73a1e377cddcc4a2b67d177"}, "docker": "quay.io/biocontainers/bioconductor-ncgtw", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ncgtw.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ncgtw
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ncgtw:1.14.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-ncgtw:1.16.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ncgtw/1.14.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-ncgtw/1.14.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-ncgtw/1.16.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-ncgtw/1.16.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
