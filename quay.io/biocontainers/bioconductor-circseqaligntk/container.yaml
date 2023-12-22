@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-circseqaligntk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-circseqaligntk
 latest:
-  1.2.0--r43hdfd78af_0: sha256:a85caec4c9446342a3be6db88748358c795654c277402cc9332022906f6f9ffd
+  1.4.0--r43hdfd78af_0: sha256:9f3f3354f8b61baa0fba27bdfc340edc72e6a964b9896e5d4b32b7ca2227e8bc
 tags:
   1.0.0--r42hdfd78af_0: sha256:b4c3fd20960d4181fba168e4981e7d0a01e9e856d2d2e6b50f8e4af0ab73e0f7
   1.2.0--r43hdfd78af_0: sha256:a85caec4c9446342a3be6db88748358c795654c277402cc9332022906f6f9ffd
+  1.4.0--r43hdfd78af_0: sha256:9f3f3354f8b61baa0fba27bdfc340edc72e6a964b9896e5d4b32b7ca2227e8bc
 docker: quay.io/biocontainers/bioconductor-circseqaligntk
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

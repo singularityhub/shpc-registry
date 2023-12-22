@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-infinityflow
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-infinityflow
 latest:
-  1.8.0--r42hdfd78af_0: sha256:f200f2550fdaf45800ab3f57edf1622b759e87bce8b7c443fed33f9066e6923c
+  1.12.0--r43hdfd78af_0: sha256:194a05fd5a103a9b06adea52adb48f39c87a9f8728d49d09f59475c80b67f5ff
 tags:
   1.4.0--r41hdfd78af_0: sha256:90943639ecd5452486b16b401d3b96ccefe5bdcae2d71d7edaed564a1fa39482
   1.8.0--r42hdfd78af_0: sha256:f200f2550fdaf45800ab3f57edf1622b759e87bce8b7c443fed33f9066e6923c
+  1.12.0--r43hdfd78af_0: sha256:194a05fd5a103a9b06adea52adb48f39c87a9f8728d49d09f59475c80b67f5ff
 docker: quay.io/biocontainers/bioconductor-infinityflow
 aliases:
   xgboost: /usr/local/bin/xgboost

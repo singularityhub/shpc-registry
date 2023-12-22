@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-sspaths
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sspaths
 latest:
-  1.14.0--r43hdfd78af_0: sha256:2fde753702e64f7bca31f512e86d7970b9dcb0f6174ac5a94a24668c0f8ff8ad
+  1.16.0--r43hdfd78af_0: sha256:a0b4c8452e4a9ffe767101d3436ee27724557d71c17857f17618d89797e8fba1
 tags:
   1.8.0--r41hdfd78af_0: sha256:941229e821828b672531173483658d6f42180592b04c27707ef9e5a05dde0aad
   1.12.0--r42hdfd78af_0: sha256:b66a13d563985da6922298b5d9e99d5619c886888302f67d1d402ea0ddf57d7d
   1.14.0--r43hdfd78af_0: sha256:2fde753702e64f7bca31f512e86d7970b9dcb0f6174ac5a94a24668c0f8ff8ad
+  1.16.0--r43hdfd78af_0: sha256:a0b4c8452e4a9ffe767101d3436ee27724557d71c17857f17618d89797e8fba1
 docker: quay.io/biocontainers/bioconductor-sspaths

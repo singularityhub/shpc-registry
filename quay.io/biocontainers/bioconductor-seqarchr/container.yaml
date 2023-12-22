@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-seqarchr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-seqarchr
 latest:
-  1.4.0--r43hdfd78af_0: sha256:a9cda94a4d2dadfc0e528b093a8631bea1dcb07f0be208fb9ed53645a519477b
+  1.6.0--r43hdfd78af_0: sha256:dad6f9fcb69ee37416ca034f14575b6377ec4bcdf0162d96f9aa5915b4acf4f8
 tags:
   1.2.0--r42hdfd78af_0: sha256:91cdd2a2d243d3201f40025b1287493acb2b793e56ab9feee3deffaf02e0497c
   1.4.0--r43hdfd78af_0: sha256:a9cda94a4d2dadfc0e528b093a8631bea1dcb07f0be208fb9ed53645a519477b
+  1.6.0--r43hdfd78af_0: sha256:dad6f9fcb69ee37416ca034f14575b6377ec4bcdf0162d96f9aa5915b4acf4f8
 docker: quay.io/biocontainers/bioconductor-seqarchr
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

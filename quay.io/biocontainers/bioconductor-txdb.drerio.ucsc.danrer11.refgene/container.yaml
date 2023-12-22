@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-txdb.drerio.ucsc.danrer11.refg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-txdb.drerio.ucsc.danrer11.refgene
 latest:
-  3.4.6--r43hdfd78af_10: sha256:0519f427a6479b1b41e758c424eaba9322c00bbb0378ac66a354c98e5438c606
+  3.4.6--r43hdfd78af_11: sha256:906d344c0af6f46ba05a37e5d8141a7e40ef33234b171c46274cef1322810ba5
 tags:
   3.4.6--r41hdfd78af_8: sha256:8cfe1b1a0dc4132e79ec2066dbdb56502cda06e252b2fbb85022b4c109e0cc6d
   3.4.6--r42hdfd78af_9: sha256:b5f15c962cfc4fd96d9c93a21027f5a34f442b7831d1d74558dcd768c0e89247
   3.4.6--r43hdfd78af_10: sha256:0519f427a6479b1b41e758c424eaba9322c00bbb0378ac66a354c98e5438c606
+  3.4.6--r43hdfd78af_11: sha256:906d344c0af6f46ba05a37e5d8141a7e40ef33234b171c46274cef1322810ba5
 docker: quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene

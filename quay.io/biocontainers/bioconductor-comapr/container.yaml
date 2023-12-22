@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-comapr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-comapr
 latest:
-  1.4.0--r43hdfd78af_0: sha256:8c15fb6199f38b534eabe6031489556ac78d4b143c182f46cb6ac063613ac2f0
+  1.6.1--r43hdfd78af_0: sha256:723b268794111f518c7b3c89fd019978fd7b880555f9985baa33def8f8807480
 tags:
   1.2.0--r42hdfd78af_0: sha256:65121950fea12f3b3f1201422b1d870a9db54b3fcd725655570b0171d0277355
   1.4.0--r43hdfd78af_0: sha256:8c15fb6199f38b534eabe6031489556ac78d4b143c182f46cb6ac063613ac2f0
+  1.6.1--r43hdfd78af_0: sha256:723b268794111f518c7b3c89fd019978fd7b880555f9985baa33def8f8807480
 docker: quay.io/biocontainers/bioconductor-comapr
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

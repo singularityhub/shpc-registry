@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-singlemoleculefootprinting
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-singlemoleculefootprinting
 latest:
-  1.8.0--r43hdfd78af_0: sha256:7d82a30723e52101727e6f8f7005dcfc2563f57559ca85ab66fbfc47fea08d36
+  1.10.0--r43hdfd78af_0: sha256:87ffd139466cadcdb046fdb5d51316d8c7d493375d17e0080f362b075cbb98a6
 tags:
   1.2.0--r41hdfd78af_0: sha256:935196e8734ff17b240b8a1f3156ea14f4aa2c3b8be2a7dad3fef3ddbf1eede1
   1.6.0--r42hdfd78af_0: sha256:680cc581645d5cbc0718531e1a6a9127a5208622913c47af31918bddc508827b
   1.8.0--r43hdfd78af_0: sha256:7d82a30723e52101727e6f8f7005dcfc2563f57559ca85ab66fbfc47fea08d36
+  1.10.0--r43hdfd78af_0: sha256:87ffd139466cadcdb046fdb5d51316d8c7d493375d17e0080f362b075cbb98a6
 docker: quay.io/biocontainers/bioconductor-singlemoleculefootprinting
