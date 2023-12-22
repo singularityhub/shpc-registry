@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dplyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dplyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dplyr/container.yaml"
-updated_at: "2023-12-21 02:42:27.840086"
+updated_at: "2023-12-22 02:40:33.634556"
 latest: "0.5.0--r3.3.2_1"
 container_url: "https://biocontainers.pro/tools/r-dplyr"
 aliases:

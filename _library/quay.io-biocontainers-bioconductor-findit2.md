@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-findit2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-findit2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-findit2/container.yaml"
-updated_at: "2023-12-21 03:10:34.175045"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2023-12-22 03:07:37.179695"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-findit2"
 aliases:
  - "installBiocDataPackage.sh"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "1.4.0--r42hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-findit2"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-findit2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-findit2", "latest": {"1.6.0--r43hdfd78af_0": "sha256:645a45c8f04a65b7d148883b56964e8ccd75076d620cdd3be4137673b762d06a"}, "tags": {"1.4.0--r42hdfd78af_0": "sha256:4ff311ef4c6af28473ac0276fb30f97cfd435876b1780d907a6e0de29d100c5a", "1.6.0--r43hdfd78af_0": "sha256:645a45c8f04a65b7d148883b56964e8ccd75076d620cdd3be4137673b762d06a"}, "docker": "quay.io/biocontainers/bioconductor-findit2", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-findit2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-findit2", "latest": {"1.8.0--r43hdfd78af_0": "sha256:c5ad4977edb19641373310d8fd9d781c36ac5a0e90c7a53bc9f56e85b975d2bd"}, "tags": {"1.4.0--r42hdfd78af_0": "sha256:4ff311ef4c6af28473ac0276fb30f97cfd435876b1780d907a6e0de29d100c5a", "1.6.0--r43hdfd78af_0": "sha256:645a45c8f04a65b7d148883b56964e8ccd75076d620cdd3be4137673b762d06a", "1.8.0--r43hdfd78af_0": "sha256:c5ad4977edb19641373310d8fd9d781c36ac5a0e90c7a53bc9f56e85b975d2bd"}, "docker": "quay.io/biocontainers/bioconductor-findit2", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-findit2.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-findit2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-findit2:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-findit2:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-findit2/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-findit2/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-findit2/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-findit2/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

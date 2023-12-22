@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sga/container.yaml"
-updated_at: "2023-12-21 02:31:03.977790"
+updated_at: "2023-12-22 02:29:50.404279"
 latest: "0.10.15--h0dced8c_8"
 container_url: "https://biocontainers.pro/tools/sga"
 aliases:

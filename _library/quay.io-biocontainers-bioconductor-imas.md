@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-imas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-imas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-imas/container.yaml"
-updated_at: "2023-12-21 02:43:06.800189"
+updated_at: "2023-12-22 02:41:10.149608"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-imas"
 aliases:

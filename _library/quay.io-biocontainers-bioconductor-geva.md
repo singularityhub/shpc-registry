@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-geva"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geva/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geva/container.yaml"
-updated_at: "2023-12-21 02:39:06.601495"
-latest: "1.8.0--r43hdfd78af_0"
+updated_at: "2023-12-22 02:37:25.334715"
+latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geva"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
+ - "1.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-geva"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geva", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geva", "latest": {"1.8.0--r43hdfd78af_0": "sha256:b3c786b36f2b755c23a797ec94ee18795682fd697b847b45bc2761838ea50118"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:3bc85396a228782fecc837d99e89b11b34657945592b81344a24ad86c517e05d", "1.6.0--r42hdfd78af_0": "sha256:ac563017dad7ea32352b05ae930bb310b0c8238e7249ec783480dcb7798ece29", "1.8.0--r43hdfd78af_0": "sha256:b3c786b36f2b755c23a797ec94ee18795682fd697b847b45bc2761838ea50118"}, "docker": "quay.io/biocontainers/bioconductor-geva"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geva", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geva", "latest": {"1.10.0--r43hdfd78af_0": "sha256:a26f469b6bfceb8d6edc29aad6ef3e0b2685ee9c4b515675579cfd2670e7c206"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:3bc85396a228782fecc837d99e89b11b34657945592b81344a24ad86c517e05d", "1.6.0--r42hdfd78af_0": "sha256:ac563017dad7ea32352b05ae930bb310b0c8238e7249ec783480dcb7798ece29", "1.8.0--r43hdfd78af_0": "sha256:b3c786b36f2b755c23a797ec94ee18795682fd697b847b45bc2761838ea50118", "1.10.0--r43hdfd78af_0": "sha256:a26f469b6bfceb8d6edc29aad6ef3e0b2685ee9c4b515675579cfd2670e7c206"}, "docker": "quay.io/biocontainers/bioconductor-geva"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geva.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-geva
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-geva:1.8.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-geva:1.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-geva/1.8.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-geva/1.8.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-geva/1.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-geva/1.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

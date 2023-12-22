@@ -4,7 +4,7 @@ name:  "julia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/julia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/julia/container.yaml"
-updated_at: "2023-12-21 02:27:25.493648"
+updated_at: "2023-12-22 02:26:17.544859"
 latest: "1.9.4"
 container_url: "https://hub.docker.com/_/julia"
 aliases:
@@ -18,7 +18,7 @@ versions:
  - "1.9.3"
  - "1.9.4"
 description: "An interpreted, high-level, high-performance dynamic programming language for technical computing."
-config: {"docker": "julia", "url": "https://hub.docker.com/_/julia", "maintainer": "@marcodelapierre", "description": "An interpreted, high-level, high-performance dynamic programming language for technical computing.", "latest": {"1.9.4": "sha256:2a6c8fc56eec5988886ae270da7f97a52b4cb75afba9aedb44195f2ecd7240a5"}, "tags": {"1.8.3": "sha256:172938f81c0a5f607a71c6babeb6f0d0aac7a9bb3d43b000734b80f764748448", "1.8.5": "sha256:c9c13e38ea7ef6a893b97834e75f00fec4fc07b24072088e1360171cb192ebb0", "1.9.0": "sha256:a4eba1f0c1c2076eef737f5f441c80de87997faab982e816fd256e50326c6c8d", "1.9.1": "sha256:9313aec843ab5395eb0898b004737497da2b7ed50d72b53fc94dfca014af7d51", "1.9.2": "sha256:f4ec5401b88c20c01565ad55b826821f987369ab461dedb72706d95798d4ddb0", "1.9.3": "sha256:2bb36ee0d8b44fb2a1e034fa4e636c66ccc713fa0a41ca23b5d9207b837cb41a", "1.9.4": "sha256:2a6c8fc56eec5988886ae270da7f97a52b4cb75afba9aedb44195f2ecd7240a5"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"julia": "/usr/local/julia/bin/julia"}}
+config: {"docker": "julia", "url": "https://hub.docker.com/_/julia", "maintainer": "@marcodelapierre", "description": "An interpreted, high-level, high-performance dynamic programming language for technical computing.", "latest": {"1.9.4": "sha256:829ddd53a80d14cfc02bae02198254ddef1de292c7cd6af694312fa8ad341290"}, "tags": {"1.8.3": "sha256:172938f81c0a5f607a71c6babeb6f0d0aac7a9bb3d43b000734b80f764748448", "1.8.5": "sha256:c9c13e38ea7ef6a893b97834e75f00fec4fc07b24072088e1360171cb192ebb0", "1.9.0": "sha256:a4eba1f0c1c2076eef737f5f441c80de87997faab982e816fd256e50326c6c8d", "1.9.1": "sha256:9313aec843ab5395eb0898b004737497da2b7ed50d72b53fc94dfca014af7d51", "1.9.2": "sha256:f4ec5401b88c20c01565ad55b826821f987369ab461dedb72706d95798d4ddb0", "1.9.3": "sha256:2bb36ee0d8b44fb2a1e034fa4e636c66ccc713fa0a41ca23b5d9207b837cb41a", "1.9.4": "sha256:829ddd53a80d14cfc02bae02198254ddef1de292c7cd6af694312fa8ad341290"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"julia": "/usr/local/julia/bin/julia"}}
 ---
 
 This module is a singularity container wrapper for julia.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fishpond"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fishpond/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fishpond/container.yaml"
-updated_at: "2023-12-21 02:50:52.525625"
+updated_at: "2023-12-22 02:48:51.598182"
 latest: "2.6.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fishpond"
 

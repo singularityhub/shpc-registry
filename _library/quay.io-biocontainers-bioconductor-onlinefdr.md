@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-onlinefdr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-onlinefdr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-onlinefdr/container.yaml"
-updated_at: "2023-12-21 02:55:48.114404"
-latest: "2.8.0--r43hf17093f_0"
+updated_at: "2023-12-22 02:53:29.649748"
+latest: "2.10.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-onlinefdr"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.6.0--r42hc247a5b_0"
  - "2.6.0--r42hf17093f_2"
  - "2.8.0--r43hf17093f_0"
+ - "2.10.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-onlinefdr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-onlinefdr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-onlinefdr", "latest": {"2.8.0--r43hf17093f_0": "sha256:2bcdd082e37ca8364d3848effdc187f75799aeb9a8b02274e013ac20dc02fc02"}, "tags": {"2.2.0--r41hc247a5b_2": "sha256:b31fc934b6d6b4bcb73be92a10f244e04b6b4c96b5afaf5fc8ca89e76fa863ee", "2.6.0--r42hc247a5b_0": "sha256:9163f05f69bfa2e279d458b31a025a24fc29eee1b8d11e013f457111ab902cd7", "2.6.0--r42hf17093f_2": "sha256:c5d7399485458f21519aadb528fd49d2a4a1fb7de2e596a8fd937f1359b4f930", "2.8.0--r43hf17093f_0": "sha256:2bcdd082e37ca8364d3848effdc187f75799aeb9a8b02274e013ac20dc02fc02"}, "docker": "quay.io/biocontainers/bioconductor-onlinefdr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-onlinefdr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-onlinefdr", "latest": {"2.10.0--r43hf17093f_0": "sha256:a43f677a3758bf5e1d82800c7a7a506d6a041a1fafeeb72e9926590ab9385f04"}, "tags": {"2.2.0--r41hc247a5b_2": "sha256:b31fc934b6d6b4bcb73be92a10f244e04b6b4c96b5afaf5fc8ca89e76fa863ee", "2.6.0--r42hc247a5b_0": "sha256:9163f05f69bfa2e279d458b31a025a24fc29eee1b8d11e013f457111ab902cd7", "2.6.0--r42hf17093f_2": "sha256:c5d7399485458f21519aadb528fd49d2a4a1fb7de2e596a8fd937f1359b4f930", "2.8.0--r43hf17093f_0": "sha256:2bcdd082e37ca8364d3848effdc187f75799aeb9a8b02274e013ac20dc02fc02", "2.10.0--r43hf17093f_0": "sha256:a43f677a3758bf5e1d82800c7a7a506d6a041a1fafeeb72e9926590ab9385f04"}, "docker": "quay.io/biocontainers/bioconductor-onlinefdr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-onlinefdr.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-onlinefdr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-onlinefdr:2.8.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-onlinefdr:2.10.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-onlinefdr/2.8.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-onlinefdr/2.8.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-onlinefdr/2.10.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-onlinefdr/2.10.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
