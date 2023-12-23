@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-progeny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-progeny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-progeny/container.yaml"
-updated_at: "2023-12-22 02:41:00.581199"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2023-12-23 02:38:09.128130"
+latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-progeny"
 aliases:
  - "gio-launch-desktop"
@@ -19,8 +19,9 @@ versions:
  - "1.12.0--r40hdfd78af_1"
  - "1.10.0--r40_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-progeny"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-progeny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-progeny", "latest": {"1.22.0--r43hdfd78af_0": "sha256:723373f7121d3d5f7e3c1bb97576e01e2a03971358ff62250d5c7e41ce7e79ed"}, "tags": {"1.8.0--r36_0": "sha256:e9090364da05edb2e71262f548d6f24d8435ef37f57d7e0edc7c92af0ecb0cc3", "1.20.0--r42hdfd78af_0": "sha256:46edabdfd4171f3ad9b80c780df534eb63f392aa03add9299cf0c8b45386bde3", "1.16.0--r41hdfd78af_0": "sha256:39b8891adcda56c56aada73837a4df6ae7852db489f94118ef77183cbd2943e5", "1.14.0--r41hdfd78af_0": "sha256:31494f9ee2d6fbf00ec6e72862a1db1a504aa177c3420877dae4b015317ef57e", "1.12.0--r40hdfd78af_1": "sha256:beaeffcc8aac3cdd55e38ef176dbbed42f37f41f58ba77a34be587a4a88a1894", "1.10.0--r40_0": "sha256:12b2422183a10783618bb7faaeaddaf3cd8e912febb8cb81d01e095db05b1264", "1.22.0--r43hdfd78af_0": "sha256:723373f7121d3d5f7e3c1bb97576e01e2a03971358ff62250d5c7e41ce7e79ed"}, "docker": "quay.io/biocontainers/bioconductor-progeny", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-progeny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-progeny", "latest": {"1.24.0--r43hdfd78af_0": "sha256:aba7381016e5ad6c648980472fdf97026501ec37764105e1a0b92f2294814a43"}, "tags": {"1.8.0--r36_0": "sha256:e9090364da05edb2e71262f548d6f24d8435ef37f57d7e0edc7c92af0ecb0cc3", "1.20.0--r42hdfd78af_0": "sha256:46edabdfd4171f3ad9b80c780df534eb63f392aa03add9299cf0c8b45386bde3", "1.16.0--r41hdfd78af_0": "sha256:39b8891adcda56c56aada73837a4df6ae7852db489f94118ef77183cbd2943e5", "1.14.0--r41hdfd78af_0": "sha256:31494f9ee2d6fbf00ec6e72862a1db1a504aa177c3420877dae4b015317ef57e", "1.12.0--r40hdfd78af_1": "sha256:beaeffcc8aac3cdd55e38ef176dbbed42f37f41f58ba77a34be587a4a88a1894", "1.10.0--r40_0": "sha256:12b2422183a10783618bb7faaeaddaf3cd8e912febb8cb81d01e095db05b1264", "1.22.0--r43hdfd78af_0": "sha256:723373f7121d3d5f7e3c1bb97576e01e2a03971358ff62250d5c7e41ce7e79ed", "1.24.0--r43hdfd78af_0": "sha256:aba7381016e5ad6c648980472fdf97026501ec37764105e1a0b92f2294814a43"}, "docker": "quay.io/biocontainers/bioconductor-progeny", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-progeny.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-progeny
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-progeny:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-progeny:1.24.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-progeny/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-progeny/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-progeny/1.24.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-progeny/1.24.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

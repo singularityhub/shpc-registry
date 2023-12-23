@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene/container.yaml"
-updated_at: "2023-12-22 02:52:37.422237"
-latest: "3.4.6--r43hdfd78af_10"
+updated_at: "2023-12-23 02:49:41.782439"
+latest: "3.4.6--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.drerio.ucsc.danrer11.refgene"
 
 versions:
  - "3.4.6--r41hdfd78af_8"
  - "3.4.6--r42hdfd78af_9"
  - "3.4.6--r43hdfd78af_10"
+ - "3.4.6--r43hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.drerio.ucsc.danrer11.refgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.drerio.ucsc.danrer11.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.drerio.ucsc.danrer11.refgene", "latest": {"3.4.6--r43hdfd78af_10": "sha256:0519f427a6479b1b41e758c424eaba9322c00bbb0378ac66a354c98e5438c606"}, "tags": {"3.4.6--r41hdfd78af_8": "sha256:8cfe1b1a0dc4132e79ec2066dbdb56502cda06e252b2fbb85022b4c109e0cc6d", "3.4.6--r42hdfd78af_9": "sha256:b5f15c962cfc4fd96d9c93a21027f5a34f442b7831d1d74558dcd768c0e89247", "3.4.6--r43hdfd78af_10": "sha256:0519f427a6479b1b41e758c424eaba9322c00bbb0378ac66a354c98e5438c606"}, "docker": "quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.drerio.ucsc.danrer11.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.drerio.ucsc.danrer11.refgene", "latest": {"3.4.6--r43hdfd78af_11": "sha256:906d344c0af6f46ba05a37e5d8141a7e40ef33234b171c46274cef1322810ba5"}, "tags": {"3.4.6--r41hdfd78af_8": "sha256:8cfe1b1a0dc4132e79ec2066dbdb56502cda06e252b2fbb85022b4c109e0cc6d", "3.4.6--r42hdfd78af_9": "sha256:b5f15c962cfc4fd96d9c93a21027f5a34f442b7831d1d74558dcd768c0e89247", "3.4.6--r43hdfd78af_10": "sha256:0519f427a6479b1b41e758c424eaba9322c00bbb0378ac66a354c98e5438c606", "3.4.6--r43hdfd78af_11": "sha256:906d344c0af6f46ba05a37e5d8141a7e40ef33234b171c46274cef1322810ba5"}, "docker": "quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene:3.4.6--r43hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene:3.4.6--r43hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene/3.4.6--r43hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene/3.4.6--r43hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene/3.4.6--r43hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene/3.4.6--r43hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

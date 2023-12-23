@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-readqpcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-readqpcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-readqpcr/container.yaml"
-updated_at: "2023-12-22 02:37:44.042762"
-latest: "1.46.0--r43hdfd78af_0"
+updated_at: "2023-12-23 02:34:53.118591"
+latest: "1.48.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-readqpcr"
 
 versions:
  - "1.40.0--r41hdfd78af_0"
  - "1.44.0--r42hdfd78af_0"
  - "1.46.0--r43hdfd78af_0"
+ - "1.48.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-readqpcr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-readqpcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-readqpcr", "latest": {"1.46.0--r43hdfd78af_0": "sha256:28a305c432207d1f3a8bae7dbfecd2a37a8e74406190ba64f7bf20b68b5e03af"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:a7c5f8a4fd6677d4859ea04af6751394a843c091456217c7d2a2f029ae60d3f5", "1.44.0--r42hdfd78af_0": "sha256:baacd40a901342653361db5329faaac9bc97887b872fd7e839ca0d4567b0f34d", "1.46.0--r43hdfd78af_0": "sha256:28a305c432207d1f3a8bae7dbfecd2a37a8e74406190ba64f7bf20b68b5e03af"}, "docker": "quay.io/biocontainers/bioconductor-readqpcr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-readqpcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-readqpcr", "latest": {"1.48.0--r43hdfd78af_0": "sha256:24861efc0cade35e2a39809e2c0968e5738e8109df4d31b387e55caefb416380"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:a7c5f8a4fd6677d4859ea04af6751394a843c091456217c7d2a2f029ae60d3f5", "1.44.0--r42hdfd78af_0": "sha256:baacd40a901342653361db5329faaac9bc97887b872fd7e839ca0d4567b0f34d", "1.46.0--r43hdfd78af_0": "sha256:28a305c432207d1f3a8bae7dbfecd2a37a8e74406190ba64f7bf20b68b5e03af", "1.48.0--r43hdfd78af_0": "sha256:24861efc0cade35e2a39809e2c0968e5738e8109df4d31b387e55caefb416380"}, "docker": "quay.io/biocontainers/bioconductor-readqpcr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-readqpcr.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-readqpcr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-readqpcr:1.46.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-readqpcr:1.48.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-readqpcr/1.46.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-readqpcr/1.46.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-readqpcr/1.48.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-readqpcr/1.48.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

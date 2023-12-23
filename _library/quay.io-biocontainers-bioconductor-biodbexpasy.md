@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-biodbexpasy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biodbexpasy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biodbexpasy/container.yaml"
-updated_at: "2023-12-22 02:48:50.436984"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2023-12-23 02:45:50.780815"
+latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biodbexpasy"
 
 versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.6.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-biodbexpasy"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biodbexpasy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-biodbexpasy", "latest": {"1.4.0--r43hdfd78af_0": "sha256:04746c2f44b6dcb0e45f23680b7d9f388a57555cacaff777ce2dc22b9a38fd76"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:1594710c2aef7cacce168a5f92df6c3c1f229a8c965d94ae2810977dd0f3b5ad", "1.4.0--r43hdfd78af_0": "sha256:04746c2f44b6dcb0e45f23680b7d9f388a57555cacaff777ce2dc22b9a38fd76"}, "docker": "quay.io/biocontainers/bioconductor-biodbexpasy"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biodbexpasy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-biodbexpasy", "latest": {"1.6.0--r43hdfd78af_0": "sha256:02d42b773088a7895b12da39a215bcf915d29477a3e82a9897678fabd6295a73"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:1594710c2aef7cacce168a5f92df6c3c1f229a8c965d94ae2810977dd0f3b5ad", "1.4.0--r43hdfd78af_0": "sha256:04746c2f44b6dcb0e45f23680b7d9f388a57555cacaff777ce2dc22b9a38fd76", "1.6.0--r43hdfd78af_0": "sha256:02d42b773088a7895b12da39a215bcf915d29477a3e82a9897678fabd6295a73"}, "docker": "quay.io/biocontainers/bioconductor-biodbexpasy"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biodbexpasy.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biodbexpasy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biodbexpasy:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-biodbexpasy:1.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biodbexpasy/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-biodbexpasy/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-biodbexpasy/1.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-biodbexpasy/1.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

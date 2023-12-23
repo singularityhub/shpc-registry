@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-easyreporting"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-easyreporting/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-easyreporting/container.yaml"
-updated_at: "2023-12-22 02:46:10.984220"
-latest: "1.12.0--r43hdfd78af_0"
+updated_at: "2023-12-23 02:43:18.729143"
+latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-easyreporting"
 aliases:
  - "pandoc"
@@ -13,8 +13,9 @@ versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
+ - "1.14.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-easyreporting"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-easyreporting", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-easyreporting", "latest": {"1.12.0--r43hdfd78af_0": "sha256:5e4f4ce3433e692d6fc6d6e41581e662bddbd13d31792f95c7d555c0f4b76e8e"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:8b9bfa934772943797b94c086f0ea13d39d5a4085d934677c666a2c314641c55", "1.10.0--r42hdfd78af_0": "sha256:a15f3199de73fda123774a8db620dc65db46e77a3d44bf52664a3b535cc105fb", "1.12.0--r43hdfd78af_0": "sha256:5e4f4ce3433e692d6fc6d6e41581e662bddbd13d31792f95c7d555c0f4b76e8e"}, "docker": "quay.io/biocontainers/bioconductor-easyreporting", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-easyreporting", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-easyreporting", "latest": {"1.14.0--r43hdfd78af_0": "sha256:7f397e8bad95b164da59b3a60c1363e06a91cc5966cf7268e9cc9afee003def3"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:8b9bfa934772943797b94c086f0ea13d39d5a4085d934677c666a2c314641c55", "1.10.0--r42hdfd78af_0": "sha256:a15f3199de73fda123774a8db620dc65db46e77a3d44bf52664a3b535cc105fb", "1.12.0--r43hdfd78af_0": "sha256:5e4f4ce3433e692d6fc6d6e41581e662bddbd13d31792f95c7d555c0f4b76e8e", "1.14.0--r43hdfd78af_0": "sha256:7f397e8bad95b164da59b3a60c1363e06a91cc5966cf7268e9cc9afee003def3"}, "docker": "quay.io/biocontainers/bioconductor-easyreporting", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-easyreporting.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-easyreporting
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-easyreporting:1.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-easyreporting:1.14.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-easyreporting/1.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-easyreporting/1.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-easyreporting/1.14.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-easyreporting/1.14.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

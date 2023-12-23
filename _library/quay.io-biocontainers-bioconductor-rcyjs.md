@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rcyjs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcyjs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcyjs/container.yaml"
-updated_at: "2023-12-22 03:03:11.823619"
-latest: "2.22.0--r43hdfd78af_0"
+updated_at: "2023-12-23 03:00:23.920221"
+latest: "2.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcyjs"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "2.12.0--r40hdfd78af_1"
  - "2.10.0--r40_0"
  - "2.22.0--r43hdfd78af_0"
+ - "2.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rcyjs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rcyjs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcyjs", "latest": {"2.22.0--r43hdfd78af_0": "sha256:7f384f8d752eb4d37b0a70c66efd0e96e12a0144e7e56f925cf8b9600cf1c0f1"}, "tags": {"2.8.0--r36_0": "sha256:737601347e76a7caa627d26f01ef38c4fcb983d8d1336968550b377fb87821f6", "2.20.0--r42hdfd78af_0": "sha256:e91b654f29030b3402b7d481c7361368cb68a8a24eca6f4d6b75224f6dd314ab", "2.16.0--r41hdfd78af_0": "sha256:1888f3684a818e4515282fb29494e842062727d75376c8b8534c3bb916298b29", "2.12.0--r40hdfd78af_1": "sha256:5784f8b3efabd10e286fbbc131cde3941614cdb495a008fc019904d5969bd87e", "2.10.0--r40_0": "sha256:6f891413baa3ff4514b432db31d9cd8b49c0f3ddfff3a8c6bcf35822282cf310", "2.22.0--r43hdfd78af_0": "sha256:7f384f8d752eb4d37b0a70c66efd0e96e12a0144e7e56f925cf8b9600cf1c0f1"}, "docker": "quay.io/biocontainers/bioconductor-rcyjs", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rcyjs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcyjs", "latest": {"2.24.0--r43hdfd78af_0": "sha256:2b43f3971fa04d644c22a069d5d317d7207e658b6719027b00cc3df503754417"}, "tags": {"2.8.0--r36_0": "sha256:737601347e76a7caa627d26f01ef38c4fcb983d8d1336968550b377fb87821f6", "2.20.0--r42hdfd78af_0": "sha256:e91b654f29030b3402b7d481c7361368cb68a8a24eca6f4d6b75224f6dd314ab", "2.16.0--r41hdfd78af_0": "sha256:1888f3684a818e4515282fb29494e842062727d75376c8b8534c3bb916298b29", "2.12.0--r40hdfd78af_1": "sha256:5784f8b3efabd10e286fbbc131cde3941614cdb495a008fc019904d5969bd87e", "2.10.0--r40_0": "sha256:6f891413baa3ff4514b432db31d9cd8b49c0f3ddfff3a8c6bcf35822282cf310", "2.22.0--r43hdfd78af_0": "sha256:7f384f8d752eb4d37b0a70c66efd0e96e12a0144e7e56f925cf8b9600cf1c0f1", "2.24.0--r43hdfd78af_0": "sha256:2b43f3971fa04d644c22a069d5d317d7207e658b6719027b00cc3df503754417"}, "docker": "quay.io/biocontainers/bioconductor-rcyjs", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rcyjs.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rcyjs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rcyjs:2.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rcyjs:2.24.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rcyjs/2.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rcyjs/2.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rcyjs/2.24.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rcyjs/2.24.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

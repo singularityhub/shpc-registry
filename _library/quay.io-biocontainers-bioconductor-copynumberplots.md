@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-copynumberplots"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-copynumberplots/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-copynumberplots/container.yaml"
-updated_at: "2023-12-22 03:09:23.347710"
-latest: "1.16.0--r43hdfd78af_0"
+updated_at: "2023-12-23 03:06:31.028549"
+latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-copynumberplots"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.14.0--r42hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
+ - "1.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-copynumberplots"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-copynumberplots", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-copynumberplots", "latest": {"1.16.0--r43hdfd78af_0": "sha256:baa8aacb1fd56494f6f5ccd943d251ff9e60eaf9391ed48d21a3ff08145a195d"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:d95d160a8fd628263158f7088c74f9b6a2229c225323a73ca5ac736efc58c8e2", "1.14.0--r42hdfd78af_0": "sha256:b336dc5228294c117967fc54264d14e3774c6b0b3d92851220c0c67361c9e344", "1.10.0--r41hdfd78af_0": "sha256:55dea7d23a21b74f47e5a2a11796d69c05b0340f3527f214f58017380d78f712", "1.16.0--r43hdfd78af_0": "sha256:baa8aacb1fd56494f6f5ccd943d251ff9e60eaf9391ed48d21a3ff08145a195d"}, "docker": "quay.io/biocontainers/bioconductor-copynumberplots", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-copynumberplots", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-copynumberplots", "latest": {"1.18.0--r43hdfd78af_0": "sha256:d0331729666496c5cb91fd06f76200157038effced182d8f9a8267f6fdc9404c"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:d95d160a8fd628263158f7088c74f9b6a2229c225323a73ca5ac736efc58c8e2", "1.14.0--r42hdfd78af_0": "sha256:b336dc5228294c117967fc54264d14e3774c6b0b3d92851220c0c67361c9e344", "1.10.0--r41hdfd78af_0": "sha256:55dea7d23a21b74f47e5a2a11796d69c05b0340f3527f214f58017380d78f712", "1.16.0--r43hdfd78af_0": "sha256:baa8aacb1fd56494f6f5ccd943d251ff9e60eaf9391ed48d21a3ff08145a195d", "1.18.0--r43hdfd78af_0": "sha256:d0331729666496c5cb91fd06f76200157038effced182d8f9a8267f6fdc9404c"}, "docker": "quay.io/biocontainers/bioconductor-copynumberplots", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-copynumberplots.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-copynumberplots
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-copynumberplots:1.16.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-copynumberplots:1.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-copynumberplots/1.16.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-copynumberplots/1.16.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-copynumberplots/1.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-copynumberplots/1.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

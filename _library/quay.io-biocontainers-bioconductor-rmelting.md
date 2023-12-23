@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rmelting"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rmelting/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rmelting/container.yaml"
-updated_at: "2023-12-22 02:35:02.338355"
-latest: "1.16.0--r43hdfd78af_0"
+updated_at: "2023-12-23 02:32:08.912978"
+latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rmelting"
 aliases:
  - "jfr"
@@ -23,8 +23,9 @@ versions:
  - "1.14.0--r42hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
+ - "1.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rmelting"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rmelting", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rmelting", "latest": {"1.16.0--r43hdfd78af_0": "sha256:082652f6b97218dfd80b2e8a52f1a5ff33444a7e704931439b08e8fa5ea9f272"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:70252b296f6864655e4c8418d1baa8a8c6d20cf44c9e476a344bc456e025914a", "1.14.0--r42hdfd78af_0": "sha256:445b4631e647b553d6d0f7251931b9b56c6a947077e9688449252dec7069ea1b", "1.10.0--r41hdfd78af_0": "sha256:0930a71d7876e791ee55098ac977e8cd3a3f9b0973aaaa8ba4be26063f9a4ca8", "1.16.0--r43hdfd78af_0": "sha256:082652f6b97218dfd80b2e8a52f1a5ff33444a7e704931439b08e8fa5ea9f272"}, "docker": "quay.io/biocontainers/bioconductor-rmelting", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rmelting", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rmelting", "latest": {"1.18.0--r43hdfd78af_0": "sha256:9fd21320a8fa9ae0c145cadeb7567199b293eb511d4a2abf0a0ad230f595ead1"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:70252b296f6864655e4c8418d1baa8a8c6d20cf44c9e476a344bc456e025914a", "1.14.0--r42hdfd78af_0": "sha256:445b4631e647b553d6d0f7251931b9b56c6a947077e9688449252dec7069ea1b", "1.10.0--r41hdfd78af_0": "sha256:0930a71d7876e791ee55098ac977e8cd3a3f9b0973aaaa8ba4be26063f9a4ca8", "1.16.0--r43hdfd78af_0": "sha256:082652f6b97218dfd80b2e8a52f1a5ff33444a7e704931439b08e8fa5ea9f272", "1.18.0--r43hdfd78af_0": "sha256:9fd21320a8fa9ae0c145cadeb7567199b293eb511d4a2abf0a0ad230f595ead1"}, "docker": "quay.io/biocontainers/bioconductor-rmelting", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rmelting.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rmelting
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rmelting:1.16.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rmelting:1.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rmelting/1.16.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rmelting/1.16.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rmelting/1.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rmelting/1.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

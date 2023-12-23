@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ffpeexampledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ffpeexampledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ffpeexampledata/container.yaml"
-updated_at: "2023-12-22 03:04:36.427262"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2023-12-23 03:01:48.957851"
+latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ffpeexampledata"
 
 versions:
  - "1.32.0--r41hdfd78af_1"
  - "1.36.0--r42hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.40.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ffpeexampledata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ffpeexampledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ffpeexampledata", "latest": {"1.38.0--r43hdfd78af_0": "sha256:757308d10ec8089ee17a6099d505c1f6ef9cbae667f6e00dc6c5d5a3700308b8"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:bf2e7ef8a3567778da4172ea163a721f28166ec97fc7c42c57cf91d5a37d9294", "1.36.0--r42hdfd78af_0": "sha256:5e02919f62366f66bb8ac5fd71d3a08c261a3e1be09bf6daf3b87c598af79cf4", "1.38.0--r43hdfd78af_0": "sha256:757308d10ec8089ee17a6099d505c1f6ef9cbae667f6e00dc6c5d5a3700308b8"}, "docker": "quay.io/biocontainers/bioconductor-ffpeexampledata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ffpeexampledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ffpeexampledata", "latest": {"1.40.0--r43hdfd78af_0": "sha256:8decac6d626095bbeb8e611cb539762aa29e17fc493b803591dfd1d55cd59319"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:bf2e7ef8a3567778da4172ea163a721f28166ec97fc7c42c57cf91d5a37d9294", "1.36.0--r42hdfd78af_0": "sha256:5e02919f62366f66bb8ac5fd71d3a08c261a3e1be09bf6daf3b87c598af79cf4", "1.38.0--r43hdfd78af_0": "sha256:757308d10ec8089ee17a6099d505c1f6ef9cbae667f6e00dc6c5d5a3700308b8", "1.40.0--r43hdfd78af_0": "sha256:8decac6d626095bbeb8e611cb539762aa29e17fc493b803591dfd1d55cd59319"}, "docker": "quay.io/biocontainers/bioconductor-ffpeexampledata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ffpeexampledata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ffpeexampledata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ffpeexampledata:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ffpeexampledata:1.40.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ffpeexampledata/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ffpeexampledata/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ffpeexampledata/1.40.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ffpeexampledata/1.40.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
