@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-circrnaprofiler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-circrnaprofiler
 latest:
-  1.14.0--r43hdfd78af_0: sha256:2322cb60cf7d19c755fddafea41991ff5f832acf64ee2b9db3b5bb5eb447b75a
+  1.16.0--r43hdfd78af_0: sha256:fe9cb14b1825214fdb9ab5998b3bd091086a00e044bae0704bc02a8b7e7d6573
 tags:
   1.8.0--r41hdfd78af_0: sha256:09c7371712c325fd4d102e02ea23a82202b99f7c07c8120b595127c2836c8936
   1.12.0--r42hdfd78af_0: sha256:3c5c1784ed87617733119be536537372fa7999f9f865652974c0c36588f7e9f0
   1.14.0--r43hdfd78af_0: sha256:2322cb60cf7d19c755fddafea41991ff5f832acf64ee2b9db3b5bb5eb447b75a
+  1.16.0--r43hdfd78af_0: sha256:fe9cb14b1825214fdb9ab5998b3bd091086a00e044bae0704bc02a8b7e7d6573
 docker: quay.io/biocontainers/bioconductor-circrnaprofiler

@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/dnaapler
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dnaapler
 latest:
-  0.4.0--pyhdfd78af_0: sha256:e67a95fc0b2d6552ecc932d550422fbc9d0f03723e12fd08ad14ec8312e2dc85
+  0.5.0--pyhdfd78af_0: sha256:e3a103f47310eb5403e2518de5bc4f23d64c852fa4326866f88c4f8996032b0c
 tags:
   0.1.0--pyhdfd78af_0: sha256:f21c89d826bcf74ea0e9bdb574eb9d8b4dc685af03fc837abe33af53773f1e66
   0.3.0--pyhdfd78af_0: sha256:6ae49745a944bbcd5c29b5c24ee2349937bba1e6e95978d4403dc014966884cc
   0.2.0--pyhdfd78af_0: sha256:afbf56ef8a9387897ea08722b29b1512dc7bd9b9d95e773c78745b6d3d9e4516
   0.3.2--pyhdfd78af_0: sha256:367b872a1a117b1b4a5853bc514fcbdf04d4f694a55338bd7e615e113fa05e9f
   0.4.0--pyhdfd78af_0: sha256:e67a95fc0b2d6552ecc932d550422fbc9d0f03723e12fd08ad14ec8312e2dc85
+  0.5.0--pyhdfd78af_0: sha256:e3a103f47310eb5403e2518de5bc4f23d64c852fa4326866f88c4f8996032b0c
 docker: quay.io/biocontainers/dnaapler
 aliases:
   dnaapler: /usr/local/bin/dnaapler

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-olin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-olin
 latest:
-  1.78.0--r43hdfd78af_0: sha256:48cbec87d514cff9eb2f3d5d9dc87885cca211a1e9d27d0a4bdba4886fe39fab
+  1.80.0--r43hdfd78af_0: sha256:b7f0c12a141c0ce79a38d1bf2980a9dc144480ff2c14b8ad3d118c4e088ea592
 tags:
   1.72.0--r41hdfd78af_0: sha256:ce8dab1a2ef2b074415fdae13f592bd6c0f19a33e9bba989783303e69614921e
   1.76.0--r42hdfd78af_0: sha256:0373aef740b57f3d001269fe29ecdad5ae27aa9464a5b83f8aea5edd529e6205
   1.78.0--r43hdfd78af_0: sha256:48cbec87d514cff9eb2f3d5d9dc87885cca211a1e9d27d0a4bdba4886fe39fab
+  1.80.0--r43hdfd78af_0: sha256:b7f0c12a141c0ce79a38d1bf2980a9dc144480ff2c14b8ad3d118c4e088ea592
 docker: quay.io/biocontainers/bioconductor-olin

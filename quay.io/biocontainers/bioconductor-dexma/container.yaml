@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-dexma
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dexma
 latest:
-  1.8.0--r43hdfd78af_0: sha256:b97f284a957ab38e72c0e973fda0cdccc65aab8dcf28c1dc02b189e44c7a6d61
+  1.10.6--r43hdfd78af_0: sha256:28e3f0efd0e55ed93266dfa41f1863a871b66f2533c8f30a1be85d5f7e357634
 tags:
   1.2.0--r41hdfd78af_0: sha256:a3cb64910b447c4a44e058f7b7b36311268e366b97cc08b9f1af00a68c2fe41c
   1.6.0--r42hdfd78af_0: sha256:43544a65f278d7fc0ccb932a48aef95b37d8145a5e296184f17d27ba58cbf91d
   1.8.0--r43hdfd78af_0: sha256:b97f284a957ab38e72c0e973fda0cdccc65aab8dcf28c1dc02b189e44c7a6d61
+  1.10.6--r43hdfd78af_0: sha256:28e3f0efd0e55ed93266dfa41f1863a871b66f2533c8f30a1be85d5f7e357634
 docker: quay.io/biocontainers/bioconductor-dexma

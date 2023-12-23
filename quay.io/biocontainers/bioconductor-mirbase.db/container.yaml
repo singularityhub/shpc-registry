@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mirbase.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mirbase.db
 latest:
-  1.2.0--r43hdfd78af_11: sha256:66a888136c0180ca765c269c2d0a73ba3c2c59c12eb08e5e1e48a7fa68d13716
+  1.2.0--r43hdfd78af_12: sha256:16c19c92b789748769d864fb870d578dca58b2fb57a4256798a9619781580161
 tags:
   1.2.0--r41hdfd78af_9: sha256:61cb11fc70be45577dd3b9d16892aa1118e56fe49259c2ce6831e750a36b4b3e
   1.2.0--r42hdfd78af_10: sha256:d1f0f9893cacbb259208eb58c71ca3d666a5c7b4782469a959e90376cd1a981e
   1.2.0--r43hdfd78af_11: sha256:66a888136c0180ca765c269c2d0a73ba3c2c59c12eb08e5e1e48a7fa68d13716
+  1.2.0--r43hdfd78af_12: sha256:16c19c92b789748769d864fb870d578dca58b2fb57a4256798a9619781580161
 docker: quay.io/biocontainers/bioconductor-mirbase.db

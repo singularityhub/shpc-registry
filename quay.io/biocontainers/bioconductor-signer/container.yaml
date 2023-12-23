@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-signer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-signer
 latest:
-  2.2.1--r43hf17093f_0: sha256:db179e0d90f023744b4f2dfe4ac80440e725a2f1db1a71afb2bbfb60acb2bb61
+  2.4.0--r43hf17093f_0: sha256:a5043bdd8eb0354319c63eaa2f32e08971e8ac7f53f7c85740ff820075667807
 tags:
   1.8.0--r351hf484d3e_0: sha256:e3f9ad9dbb1aea0cce7a0f33aa052efe4232116e5298480dbe7e41720ccd02c1
   2.0.0--r42hc247a5b_0: sha256:cf669403031d49b3d5c24104ad86f325671b9d793068763ef97e817f636a4aa2
@@ -12,6 +12,7 @@ tags:
   1.14.0--r40h5f743cb_0: sha256:d2c95b1f48f81cbc7d9cebe698a091fc6c7c31d750812eacb79b43dc2092e43f
   2.0.0--r42hf17093f_1: sha256:e821004e9c2f84932992fb16d03ffc6cc307be0430508aec1b9d49d2db9c0c3e
   2.2.1--r43hf17093f_0: sha256:db179e0d90f023744b4f2dfe4ac80440e725a2f1db1a71afb2bbfb60acb2bb61
+  2.4.0--r43hf17093f_0: sha256:a5043bdd8eb0354319c63eaa2f32e08971e8ac7f53f7c85740ff820075667807
 docker: quay.io/biocontainers/bioconductor-signer
 aliases:
   wget: /usr/local/bin/wget

@@ -2,8 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-cotan
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-cotan
 latest:
-  2.0.4--r43hdfd78af_0: sha256:f0aaad331665ee568d598f154cd326b88cd5fd77cb2ad48531ac82058011636f
+  2.2.1--r43hdfd78af_0: sha256:2b9909c13346db71326392827ff3e6fb795a2b22e5d56bb2621c011ac45e85ff
 tags:
   1.2.0--r42hdfd78af_0: sha256:026c04608cc5d435ed3e53e8caac9e4d1ab838bb8f933fce7eed290d93e7e843
   2.0.4--r43hdfd78af_0: sha256:f0aaad331665ee568d598f154cd326b88cd5fd77cb2ad48531ac82058011636f
+  2.2.1--r43hdfd78af_0: sha256:2b9909c13346db71326392827ff3e6fb795a2b22e5d56bb2621c011ac45e85ff
 docker: quay.io/biocontainers/bioconductor-cotan

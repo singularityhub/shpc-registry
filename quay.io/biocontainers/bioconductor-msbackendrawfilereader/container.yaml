@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-msbackendrawfilereader
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-msbackendrawfilereader
 latest:
-  1.6.0--r43hdfd78af_0: sha256:96efac0633d544c8b215ae23f02df7e2532ae5a14d330139fce70aaa80d063bc
+  1.8.1--r43hdfd78af_0: sha256:1dd031721c879fb1bc00d711c082e5908d97f9b1abd0243c073e25a53ecc1a7c
 tags:
   1.0.0--r41hdfd78af_0: sha256:d1bbbeb560b39ae1bd1e4b705db5cc7a7d0b960c9b961460eaf2525bd2599448
   1.4.0--r42hdfd78af_0: sha256:c8fdaf56650fc52426075a8df5e50ca5822a18c4bdd1e7e8d9a4ae08a14ab816
   1.6.0--r43hdfd78af_0: sha256:96efac0633d544c8b215ae23f02df7e2532ae5a14d330139fce70aaa80d063bc
+  1.8.1--r43hdfd78af_0: sha256:1dd031721c879fb1bc00d711c082e5908d97f9b1abd0243c073e25a53ecc1a7c
 docker: quay.io/biocontainers/bioconductor-msbackendrawfilereader
 aliases:
   aprofutil: /usr/local/bin/aprofutil

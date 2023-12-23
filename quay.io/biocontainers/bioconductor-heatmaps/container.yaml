@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-heatmaps
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-heatmaps
 latest:
-  1.24.0--r43hdfd78af_0: sha256:b707cc2dcf080bc2e4ad83e8a1caa81603ebe845da6c17275842810c0ebbfc08
+  1.26.0--r43hdfd78af_0: sha256:cf5f2a2b1d757e15f0c8772ac235cb38f264249e2ce76a9388697feb7c1d1d67
 tags:
   1.8.0--r36_1: sha256:d0cdbe17b7eb6595ad73c356d714553f4a112ce66b2b6220f025bc075834c430
   1.22.0--r42hdfd78af_0: sha256:564e5fe73a8de6f6362b1a3115cb202ace5d0b6569edd3c18f9caf3e54095bdf
@@ -11,6 +11,7 @@ tags:
   1.14.0--r40hdfd78af_1: sha256:ce52ac8de159558557ac4062272a69cb529a21958bfc071a0aecff5dffc7551c
   1.12.0--r40_0: sha256:7bc20d3e05a921010f7778b1af005a83b59dcfc21f69d10341d35dd66e81af24
   1.24.0--r43hdfd78af_0: sha256:b707cc2dcf080bc2e4ad83e8a1caa81603ebe845da6c17275842810c0ebbfc08
+  1.26.0--r43hdfd78af_0: sha256:cf5f2a2b1d757e15f0c8772ac235cb38f264249e2ce76a9388697feb7c1d1d67
 docker: quay.io/biocontainers/bioconductor-heatmaps
 aliases:
   mpichversion: /usr/local/bin/mpichversion
