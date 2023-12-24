@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wise2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wise2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wise2/container.yaml"
-updated_at: "2023-12-23 03:06:38.657893"
+updated_at: "2023-12-24 03:09:04.524799"
 latest: "2.4.1--h5c1b0a6_4"
 container_url: "https://biocontainers.pro/tools/wise2"
 aliases:

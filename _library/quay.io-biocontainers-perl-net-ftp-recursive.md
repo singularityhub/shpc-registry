@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-net-ftp-recursive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-net-ftp-recursive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-net-ftp-recursive/container.yaml"
-updated_at: "2023-12-23 02:23:17.004315"
+updated_at: "2023-12-24 02:28:28.271990"
 latest: "2.04--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-net-ftp-recursive"
 aliases:

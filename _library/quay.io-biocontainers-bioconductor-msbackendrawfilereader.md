@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-msbackendrawfilereader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msbackendrawfilereader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msbackendrawfilereader/container.yaml"
-updated_at: "2023-12-23 02:59:39.053998"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2023-12-24 03:02:30.163073"
+latest: "1.8.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msbackendrawfilereader"
 aliases:
  - "aprofutil"
@@ -28,8 +28,9 @@ versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.8.1--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msbackendrawfilereader"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msbackendrawfilereader", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msbackendrawfilereader", "latest": {"1.6.0--r43hdfd78af_0": "sha256:96efac0633d544c8b215ae23f02df7e2532ae5a14d330139fce70aaa80d063bc"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:d1bbbeb560b39ae1bd1e4b705db5cc7a7d0b960c9b961460eaf2525bd2599448", "1.4.0--r42hdfd78af_0": "sha256:c8fdaf56650fc52426075a8df5e50ca5822a18c4bdd1e7e8d9a4ae08a14ab816", "1.6.0--r43hdfd78af_0": "sha256:96efac0633d544c8b215ae23f02df7e2532ae5a14d330139fce70aaa80d063bc"}, "docker": "quay.io/biocontainers/bioconductor-msbackendrawfilereader", "aliases": {"aprofutil": "/usr/local/bin/aprofutil", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "mono-hang-watchdog": "/usr/local/bin/mono-hang-watchdog", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msbackendrawfilereader", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msbackendrawfilereader", "latest": {"1.8.1--r43hdfd78af_0": "sha256:1dd031721c879fb1bc00d711c082e5908d97f9b1abd0243c073e25a53ecc1a7c"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:d1bbbeb560b39ae1bd1e4b705db5cc7a7d0b960c9b961460eaf2525bd2599448", "1.4.0--r42hdfd78af_0": "sha256:c8fdaf56650fc52426075a8df5e50ca5822a18c4bdd1e7e8d9a4ae08a14ab816", "1.6.0--r43hdfd78af_0": "sha256:96efac0633d544c8b215ae23f02df7e2532ae5a14d330139fce70aaa80d063bc", "1.8.1--r43hdfd78af_0": "sha256:1dd031721c879fb1bc00d711c082e5908d97f9b1abd0243c073e25a53ecc1a7c"}, "docker": "quay.io/biocontainers/bioconductor-msbackendrawfilereader", "aliases": {"aprofutil": "/usr/local/bin/aprofutil", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "mono-hang-watchdog": "/usr/local/bin/mono-hang-watchdog", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msbackendrawfilereader.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msbackendrawfilereader
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msbackendrawfilereader:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-msbackendrawfilereader:1.8.1--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msbackendrawfilereader/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-msbackendrawfilereader/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-msbackendrawfilereader/1.8.1--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msbackendrawfilereader/1.8.1--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

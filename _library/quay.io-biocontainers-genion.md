@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genion/container.yaml"
-updated_at: "2023-12-23 03:06:31.864050"
+updated_at: "2023-12-24 03:08:58.126049"
 latest: "1.2.3--hdcf5f25_1"
 container_url: "https://biocontainers.pro/tools/genion"
 aliases:

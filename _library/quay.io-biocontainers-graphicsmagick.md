@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graphicsmagick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphicsmagick/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphicsmagick/container.yaml"
-updated_at: "2023-12-23 03:06:26.477571"
+updated_at: "2023-12-24 03:08:53.066793"
 latest: "1.3.31"
 container_url: "https://biocontainers.pro/tools/graphicsmagick"
 aliases:

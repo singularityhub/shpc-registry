@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strainr2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strainr2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strainr2/container.yaml"
-updated_at: "2023-12-23 02:55:51.966207"
+updated_at: "2023-12-24 02:58:54.797773"
 latest: "1.0.0--py312r43h031d066_0"
 container_url: "https://biocontainers.pro/tools/strainr2"
 aliases:

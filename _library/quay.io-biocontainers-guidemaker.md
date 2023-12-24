@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/guidemaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/guidemaker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/guidemaker/container.yaml"
-updated_at: "2023-12-23 02:40:32.694392"
-latest: "0.4.1--pyhdfd78af_0"
+updated_at: "2023-12-24 02:44:29.218578"
+latest: "0.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/guidemaker"
 aliases:
  - "base58"
@@ -44,8 +44,9 @@ versions:
  - "0.3.4--pyhdfd78af_0"
  - "0.3.6--pyhdfd78af_0"
  - "0.4.1--pyhdfd78af_0"
+ - "0.4.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for guidemaker"
-config: {"url": "https://biocontainers.pro/tools/guidemaker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for guidemaker", "latest": {"0.4.1--pyhdfd78af_0": "sha256:0f251e8233708e4a00b4699dc359ef8b9bf25b22e656d3046c4b06ccb86de76b"}, "tags": {"0.3.4--pyhdfd78af_0": "sha256:9ffc309a7fdc7dad98bca348e8d6ca538548b2e0ca4b24961c88f40fdcb6c83d", "0.3.6--pyhdfd78af_0": "sha256:5b2323eaf10fbdf5eb814e726325ecff4c177514bb4e6e3c2dd46f6a6f37e9bf", "0.4.1--pyhdfd78af_0": "sha256:0f251e8233708e4a00b4699dc359ef8b9bf25b22e656d3046c4b06ccb86de76b"}, "docker": "quay.io/biocontainers/guidemaker", "aliases": {"base58": "/usr/local/bin/base58", "black": "/usr/local/bin/black", "black-primer": "/usr/local/bin/black-primer", "blackd": "/usr/local/bin/blackd", "csv-import": "/usr/local/bin/csv-import", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "guidemaker": "/usr/local/bin/guidemaker", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "onnxruntime_test": "/usr/local/bin/onnxruntime_test", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "pdoc": "/usr/local/bin/pdoc", "pdoc3": "/usr/local/bin/pdoc3", "pybind11-config": "/usr/local/bin/pybind11-config", "send2trash": "/usr/local/bin/send2trash", "streamlit": "/usr/local/bin/streamlit", "streamlit.cmd": "/usr/local/bin/streamlit.cmd", "timezone-dump": "/usr/local/bin/timezone-dump", "watchmedo": "/usr/local/bin/watchmedo", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "coverage": "/usr/local/bin/coverage", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "mako-render": "/usr/local/bin/mako-render", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/guidemaker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for guidemaker", "latest": {"0.4.2--pyhdfd78af_0": "sha256:14062045f818e0461968308ba7071e218bc02150b1c2a1173cf60f93f2dcca31"}, "tags": {"0.3.4--pyhdfd78af_0": "sha256:9ffc309a7fdc7dad98bca348e8d6ca538548b2e0ca4b24961c88f40fdcb6c83d", "0.3.6--pyhdfd78af_0": "sha256:5b2323eaf10fbdf5eb814e726325ecff4c177514bb4e6e3c2dd46f6a6f37e9bf", "0.4.1--pyhdfd78af_0": "sha256:0f251e8233708e4a00b4699dc359ef8b9bf25b22e656d3046c4b06ccb86de76b", "0.4.2--pyhdfd78af_0": "sha256:14062045f818e0461968308ba7071e218bc02150b1c2a1173cf60f93f2dcca31"}, "docker": "quay.io/biocontainers/guidemaker", "aliases": {"base58": "/usr/local/bin/base58", "black": "/usr/local/bin/black", "black-primer": "/usr/local/bin/black-primer", "blackd": "/usr/local/bin/blackd", "csv-import": "/usr/local/bin/csv-import", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "guidemaker": "/usr/local/bin/guidemaker", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "onnxruntime_test": "/usr/local/bin/onnxruntime_test", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "pdoc": "/usr/local/bin/pdoc", "pdoc3": "/usr/local/bin/pdoc3", "pybind11-config": "/usr/local/bin/pybind11-config", "send2trash": "/usr/local/bin/send2trash", "streamlit": "/usr/local/bin/streamlit", "streamlit.cmd": "/usr/local/bin/streamlit.cmd", "timezone-dump": "/usr/local/bin/timezone-dump", "watchmedo": "/usr/local/bin/watchmedo", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "coverage": "/usr/local/bin/coverage", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "mako-render": "/usr/local/bin/mako-render", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/guidemaker.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/guidemaker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/guidemaker:0.4.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/guidemaker:0.4.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/guidemaker/0.4.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/guidemaker/0.4.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/guidemaker/0.4.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/guidemaker/0.4.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

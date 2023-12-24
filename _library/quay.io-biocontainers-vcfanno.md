@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/vcfanno"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcfanno/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcfanno/container.yaml"
-updated_at: "2023-12-23 02:30:44.534698"
-latest: "0.3.3--h9ee0642_0"
+updated_at: "2023-12-24 02:35:16.962144"
+latest: "0.3.5--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/vcfanno"
 aliases:
  - "vcfanno"
 versions:
  - "0.3.3--h9ee0642_0"
+ - "0.3.5--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for vcfanno"
-config: {"url": "https://biocontainers.pro/tools/vcfanno", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcfanno", "latest": {"0.3.3--h9ee0642_0": "sha256:201932e9213c303413ffee8d3c638b243ee31b1be6b8ed65e9ee9175b30443ff"}, "tags": {"0.3.3--h9ee0642_0": "sha256:201932e9213c303413ffee8d3c638b243ee31b1be6b8ed65e9ee9175b30443ff"}, "docker": "quay.io/biocontainers/vcfanno", "aliases": {"vcfanno": "/usr/local/bin/vcfanno"}}
+config: {"url": "https://biocontainers.pro/tools/vcfanno", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcfanno", "latest": {"0.3.5--h9ee0642_0": "sha256:c486ce62813b08b418150cdc4a09b1a3cff7a7282f972951e4b00ee3e25dc624"}, "tags": {"0.3.3--h9ee0642_0": "sha256:201932e9213c303413ffee8d3c638b243ee31b1be6b8ed65e9ee9175b30443ff", "0.3.5--h9ee0642_0": "sha256:c486ce62813b08b418150cdc4a09b1a3cff7a7282f972951e4b00ee3e25dc624"}, "docker": "quay.io/biocontainers/vcfanno", "aliases": {"vcfanno": "/usr/local/bin/vcfanno"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcfanno.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/vcfanno
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcfanno:0.3.3--h9ee0642_0
+$ shpc install quay.io/biocontainers/vcfanno:0.3.5--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcfanno/0.3.3--h9ee0642_0
-$ module help quay.io/biocontainers/vcfanno/0.3.3--h9ee0642_0
+$ module load quay.io/biocontainers/vcfanno/0.3.5--h9ee0642_0
+$ module help quay.io/biocontainers/vcfanno/0.3.5--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

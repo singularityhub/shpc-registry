@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spem/container.yaml"
-updated_at: "2023-12-23 02:52:28.953874"
+updated_at: "2023-12-24 02:55:43.001842"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spem"
 

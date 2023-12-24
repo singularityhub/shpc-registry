@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-rnagilentdesign028282.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnagilentdesign028282.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnagilentdesign028282.db/container.yaml"
-updated_at: "2023-12-23 02:40:42.612275"
-latest: "3.2.3--r43hdfd78af_11"
+updated_at: "2023-12-24 02:44:38.486496"
+latest: "3.2.3--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnagilentdesign028282.db"
 
 versions:
  - "3.2.3--r41hdfd78af_9"
  - "3.2.3--r42hdfd78af_10"
  - "3.2.3--r43hdfd78af_11"
+ - "3.2.3--r43hdfd78af_12"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnagilentdesign028282.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnagilentdesign028282.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnagilentdesign028282.db", "latest": {"3.2.3--r43hdfd78af_11": "sha256:c1448f71def48b82ffbf72cee2bcdb9366550e2c922b52f986b2d1232ece6197"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:025cf6e90502f19b18bbd4f8e041b68d713a9a893d0b817f8ff30c880795d6f4", "3.2.3--r42hdfd78af_10": "sha256:ebce38d2e1b50a1d55db739d7f71fb0c6e0db52ae389d5d8b0a972b06926d6b1", "3.2.3--r43hdfd78af_11": "sha256:c1448f71def48b82ffbf72cee2bcdb9366550e2c922b52f986b2d1232ece6197"}, "docker": "quay.io/biocontainers/bioconductor-rnagilentdesign028282.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnagilentdesign028282.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnagilentdesign028282.db", "latest": {"3.2.3--r43hdfd78af_12": "sha256:d5189ea2fc2ca07214a0facfa828073afa737a462d7e11500ba66537a8e2e146"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:025cf6e90502f19b18bbd4f8e041b68d713a9a893d0b817f8ff30c880795d6f4", "3.2.3--r42hdfd78af_10": "sha256:ebce38d2e1b50a1d55db739d7f71fb0c6e0db52ae389d5d8b0a972b06926d6b1", "3.2.3--r43hdfd78af_11": "sha256:c1448f71def48b82ffbf72cee2bcdb9366550e2c922b52f986b2d1232ece6197", "3.2.3--r43hdfd78af_12": "sha256:d5189ea2fc2ca07214a0facfa828073afa737a462d7e11500ba66537a8e2e146"}, "docker": "quay.io/biocontainers/bioconductor-rnagilentdesign028282.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnagilentdesign028282.db.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rnagilentdesign028282.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rnagilentdesign028282.db:3.2.3--r43hdfd78af_11
+$ shpc install quay.io/biocontainers/bioconductor-rnagilentdesign028282.db:3.2.3--r43hdfd78af_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rnagilentdesign028282.db/3.2.3--r43hdfd78af_11
-$ module help quay.io/biocontainers/bioconductor-rnagilentdesign028282.db/3.2.3--r43hdfd78af_11
+$ module load quay.io/biocontainers/bioconductor-rnagilentdesign028282.db/3.2.3--r43hdfd78af_12
+$ module help quay.io/biocontainers/bioconductor-rnagilentdesign028282.db/3.2.3--r43hdfd78af_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
