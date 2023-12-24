@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rguatlas4k.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rguatlas4k.db
 latest:
-  3.2.3--r43hdfd78af_12: sha256:899f1222b6ff8a49cf91b9c34e4a71f6892f2db3e0db77304b4378f37e5d27f8
+  3.2.3--r43hdfd78af_13: sha256:640d12dd2037f8b3aad67425cfdc1f8d70f38a74df8182931913a6ccd2314db9
 tags:
   3.2.3--r41hdfd78af_9: sha256:e0431d918120c3a827095b5b42403f3809da76dd780345e95329199bd8ed1e7e
   3.2.3--r42hdfd78af_11: sha256:cbd66317c4ef8a4b99300ea9722a9688dd43e6ce1c426ba11ce95a9656f2a3aa
   3.2.3--r43hdfd78af_12: sha256:899f1222b6ff8a49cf91b9c34e4a71f6892f2db3e0db77304b4378f37e5d27f8
+  3.2.3--r43hdfd78af_13: sha256:640d12dd2037f8b3aad67425cfdc1f8d70f38a74df8182931913a6ccd2314db9
 docker: quay.io/biocontainers/bioconductor-rguatlas4k.db

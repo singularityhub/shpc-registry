@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-omixer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-omixer
 latest:
-  1.10.0--r43hdfd78af_0: sha256:45e941c476155979908572f820e3579af26cb5ab22f3dea71a0ec4ad297f4663
+  1.12.0--r43hdfd78af_0: sha256:30bbad5f65f590f879e542fb933df39aceddeda9d2cc8cd45ba349f53bda4924
 tags:
   1.4.0--r41hdfd78af_0: sha256:89ad416faea6b8590fa8e7a92876de338446e7dd34b363a51791fae91f3902ed
   1.8.0--r42hdfd78af_0: sha256:341496cc60358a6fef04081663b01e5fcb8ffff51daca196efa48c0ac096dd08
   1.10.0--r43hdfd78af_0: sha256:45e941c476155979908572f820e3579af26cb5ab22f3dea71a0ec4ad297f4663
+  1.12.0--r43hdfd78af_0: sha256:30bbad5f65f590f879e542fb933df39aceddeda9d2cc8cd45ba349f53bda4924
 docker: quay.io/biocontainers/bioconductor-omixer

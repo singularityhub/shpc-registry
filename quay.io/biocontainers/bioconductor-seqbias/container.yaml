@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-seqbias
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-seqbias
 latest:
-  1.48.0--r43hf17093f_0: sha256:5c9842611df0ad8fd8e532694d9e4dc16e061d0a50d5be8a3e15077f344f9aa8
+  1.50.0--r43hf17093f_0: sha256:b00cfa7eb2d74b575c60f0b446be88b3b1315aab7410df9af2a7c4a64d6311ca
 tags:
   1.42.0--r41hc247a5b_2: sha256:eeea2a558e3b230722e58bdc77c6829ae4787aca92cd927ad0ed823d6da1dfcc
   1.46.0--r42hc247a5b_0: sha256:c334c7cccb9b5248bed4d816125b6f80ea60350979827a20dd8f8877f916efa6
   1.46.0--r42hf17093f_1: sha256:90dd6322695bea73052edb88538e67162695f60178a502b381f216c39ed370d2
   1.48.0--r43hf17093f_0: sha256:5c9842611df0ad8fd8e532694d9e4dc16e061d0a50d5be8a3e15077f344f9aa8
+  1.50.0--r43hf17093f_0: sha256:b00cfa7eb2d74b575c60f0b446be88b3b1315aab7410df9af2a7c4a64d6311ca
 docker: quay.io/biocontainers/bioconductor-seqbias

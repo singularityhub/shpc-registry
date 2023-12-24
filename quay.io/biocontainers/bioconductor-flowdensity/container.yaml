@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-flowdensity
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-flowdensity
 latest:
-  1.34.0--r43hf0b54c8_0: sha256:d863fd4c1b16edbe646642e88136a0fde813958da05b2c20081344cc7ca27b50
+  1.36.1--r43hf0b54c8_0: sha256:7f724f645eb0f8e2d2190b063c528d31e25eba992fd6e2fc6120bf3bcea53878
 tags:
   1.6.0--r3.3.2_0: sha256:c768a35bc18cd010a55d28284153632eeaed324512d81a5032020a6eccfc6986
   1.32.0--r42hd91ffd7_0: sha256:a44885f49467dbeec0d9e89efcf80343789376a4681c48a6df7a9f3fd1f41378
@@ -12,6 +12,7 @@ tags:
   1.22.0--r40hbc14f71_0: sha256:9c92d8703e269526f098bcb7183c9136ada67aca3d0a3864ce65e2810c942520
   1.32.0--r42ha823636_1: sha256:807fbf1624e62c9e0575ba7ccb2f16508ba472722cbfe4441c4b8c884652e2f8
   1.34.0--r43hf0b54c8_0: sha256:d863fd4c1b16edbe646642e88136a0fde813958da05b2c20081344cc7ca27b50
+  1.36.1--r43hf0b54c8_0: sha256:7f724f645eb0f8e2d2190b063c528d31e25eba992fd6e2fc6120bf3bcea53878
 docker: quay.io/biocontainers/bioconductor-flowdensity
 aliases:
   uconv: /usr/local/bin/uconv

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-desubs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-desubs
 latest:
-  1.26.0--r43hdfd78af_0: sha256:a9424cc420d0f830ca07a51f0eb1701faa027c6ccc20e6ed0258f18e61eb0c30
+  1.28.0--r43hdfd78af_0: sha256:77f39a41337c7c4a962575504372ae1da07ea0d65a737760a4b18115756e48f6
 tags:
   1.8.1--r351_1: sha256:21ea4c0cc09f7b33b149d2ff2627a63513a7618c6b75ac74ddb4be29337c8d4d
   1.24.0--r42hdfd78af_0: sha256:0f3d725f7c5ac0e67bf677246ae9cda591a725dd95b9a1b82a9551e31de013c9
@@ -11,6 +11,7 @@ tags:
   1.14.0--r40_0: sha256:8abb2979519e1f49739600680a7463afb1ba91caa36ebe59230711c0fae53110
   1.12.0--r36_0: sha256:2f1d3bd3f2b639b1932bb8630a5bddbea06e92452eeba1ce60f45f3068898ffb
   1.26.0--r43hdfd78af_0: sha256:a9424cc420d0f830ca07a51f0eb1701faa027c6ccc20e6ed0258f18e61eb0c30
+  1.28.0--r43hdfd78af_0: sha256:77f39a41337c7c4a962575504372ae1da07ea0d65a737760a4b18115756e48f6
 docker: quay.io/biocontainers/bioconductor-desubs
 aliases:
   idn2: /usr/local/bin/idn2

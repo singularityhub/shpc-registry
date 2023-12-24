@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ucscrepeatmasker
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-ucscrepeatmasker
 latest:
-  3.15.2--r43hdfd78af_1: sha256:bbd5a8013302194c55c6e6568cea261f323edf115bc4a6bf1257bbab37963ca7
+  3.15.2--r43hdfd78af_2: sha256:8c781da89f379947cade958852559da083b6027fdb7ed1e522e3e7b4f33cc9b9
 tags:
   3.15.2--r42hdfd78af_0: sha256:92cd28487d51c5afabea13409e7d6cca170b1457543d4beafb91af494dc049f0
   3.15.2--r43hdfd78af_1: sha256:bbd5a8013302194c55c6e6568cea261f323edf115bc4a6bf1257bbab37963ca7
+  3.15.2--r43hdfd78af_2: sha256:8c781da89f379947cade958852559da083b6027fdb7ed1e522e3e7b4f33cc9b9
 docker: quay.io/biocontainers/bioconductor-ucscrepeatmasker
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

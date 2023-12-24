@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/ultraplex
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ultraplex
 latest:
-  1.2.9--py39hf95cd2a_0: sha256:88d3f865faa1e5d6aa1e05b3225ecce809242dd126d66e7f2d68db086482942b
+  1.2.9--py39hf95cd2a_1: sha256:77f0cfcb4722107bf607726eed2379c4bbf81fff98cd1442801eb33f4a28efa7
 tags:
   1.2.5--py38hbff2b2d_1: sha256:ddbad5d727fc973a41af1ea912875d0d5dae098ced96529579f0f9d467b14ec6
   1.2.5--py38he5da3d1_2: sha256:91534aea10a0522397d4484bb47300c79cb96ffe41aada57b7055ead51a8e08a
   1.2.9--py39hf95cd2a_0: sha256:88d3f865faa1e5d6aa1e05b3225ecce809242dd126d66e7f2d68db086482942b
+  1.2.9--py39hf95cd2a_1: sha256:77f0cfcb4722107bf607726eed2379c4bbf81fff98cd1442801eb33f4a28efa7
 docker: quay.io/biocontainers/ultraplex
 aliases:
   ultraplex: /usr/local/bin/ultraplex

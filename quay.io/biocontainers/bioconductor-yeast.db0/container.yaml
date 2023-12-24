@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-yeast.db0
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-yeast.db0
 latest:
-  3.17.0--r43hdfd78af_0: sha256:182e8a0f57164ba271ce87e6bc8fa0b29054a6d5d0a154da5c5e2a88bdd4973b
+  3.18.0--r43hdfd78af_0: sha256:1264806aa06cf1966e3377d50f5c3a18a12c7f3bd5311f212133c605e97f3be9
 tags:
   3.8.2--r36_1: sha256:dd837ed9f241295188f905280f2d22d1d653fe20945fb994bdf0414d6e8f624a
   3.16.0--r42hdfd78af_0: sha256:cd148f84bab4e2035d62c1becb4f1a7df9423286494d277e36f3332b16debad1
@@ -11,6 +11,7 @@ tags:
   3.12.0--r40hdfd78af_1: sha256:04c62750c4ec2972d40df1eed57600f9d3a1c8f27b1c2ef54a4b48e6d174b7dd
   3.11.2--r40_0: sha256:cb4eeb62fa2be4439127a51f4988a29dea66e4706c45ac3f9afd7341374cecb9
   3.17.0--r43hdfd78af_0: sha256:182e8a0f57164ba271ce87e6bc8fa0b29054a6d5d0a154da5c5e2a88bdd4973b
+  3.18.0--r43hdfd78af_0: sha256:1264806aa06cf1966e3377d50f5c3a18a12c7f3bd5311f212133c605e97f3be9
 docker: quay.io/biocontainers/bioconductor-yeast.db0
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

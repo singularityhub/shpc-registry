@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-ribosomeprofilingqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ribosomeprofilingqc
 latest:
-  1.12.0--r43hdfd78af_0: sha256:671411cc593668b075dda83cfaf73f1afe7bf7df0563b75fb4a77cf899063806
+  1.14.0--r43hdfd78af_0: sha256:6ebab3d74ac60ce15bbfb29e39db664272b9a091f4522c8d105afd3987121166
 tags:
   1.6.0--r41hdfd78af_0: sha256:cb0671d16ad850719da2abcc8defba05a7c4ba1bb958c91f061fd19e98e9191f
   1.10.0--r42hdfd78af_0: sha256:db76a5c5983293ea2db5f300fce09b977e288394861b8ff2bc3bc2674cd92253
   1.12.0--r43hdfd78af_0: sha256:671411cc593668b075dda83cfaf73f1afe7bf7df0563b75fb4a77cf899063806
+  1.14.0--r43hdfd78af_0: sha256:6ebab3d74ac60ce15bbfb29e39db664272b9a091f4522c8d105afd3987121166
 docker: quay.io/biocontainers/bioconductor-ribosomeprofilingqc

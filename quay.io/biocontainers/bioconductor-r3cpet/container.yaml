@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-r3cpet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-r3cpet
 latest:
-  1.32.0--r43hf17093f_0: sha256:b5109f76e05a6685d32c67e0c4a8f552eae70e0f4e5798cf718c3a9ef033965e
+  1.34.0--r43hf17093f_0: sha256:3635048a93c859ea0f88f721f8dc4db94ab6de9e5672d946bdd17f455eb62370
 tags:
   1.26.0--r41hc247a5b_3: sha256:471eecbf6441e29722e94829a2ee8638150f4b23077d75488823eb16af0a59aa
   1.30.0--r42hc247a5b_0: sha256:673eb791a5aeb6a3b2ebec18facb5d1b3236971df5c786eb03347dd48499269b
   1.30.0--r42hf17093f_1: sha256:78cef6cb8419536089d77a9e3077813be217889026fb09e966ba8c24ce3b6a25
   1.32.0--r43hf17093f_0: sha256:b5109f76e05a6685d32c67e0c4a8f552eae70e0f4e5798cf718c3a9ef033965e
+  1.34.0--r43hf17093f_0: sha256:3635048a93c859ea0f88f721f8dc4db94ab6de9e5672d946bdd17f455eb62370
 docker: quay.io/biocontainers/bioconductor-r3cpet
 aliases:
   glpsol: /usr/local/bin/glpsol

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-tdbasedufe
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-tdbasedufe
 latest:
-  1.0.0--r43hdfd78af_0: sha256:171f668d80ae8a7fed0569357639f33919c5b9553cf276836907e3aa78c33fe6
+  1.2.0--r43hdfd78af_0: sha256:7cfae4f149689f01e9afe9c30005f6b3b0ac95c72f756324be83e6700529034e
 tags:
   1.0.0--r43hdfd78af_0: sha256:171f668d80ae8a7fed0569357639f33919c5b9553cf276836907e3aa78c33fe6
+  1.2.0--r43hdfd78af_0: sha256:7cfae4f149689f01e9afe9c30005f6b3b0ac95c72f756324be83e6700529034e
 docker: quay.io/biocontainers/bioconductor-tdbasedufe
 aliases:
   hb-info: /usr/local/bin/hb-info

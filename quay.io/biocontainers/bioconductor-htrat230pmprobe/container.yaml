@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-htrat230pmprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-htrat230pmprobe
 latest:
-  2.18.0--r43hdfd78af_11: sha256:7df6ca07fd6c07e67e6a9adcc5176fedb2d3203f0be97bbe8cd617b6066a9961
+  2.18.0--r43hdfd78af_12: sha256:1c3f4e8cfd9cd8a044b6ca278c839789d5516006013c539cba8ac0b190f63043
 tags:
   2.18.0--r41hdfd78af_9: sha256:59bcdd084d22e3a3cbf29c0fba7ca4b1c401579ed7910e7bc14e9b1dee5b081c
   2.18.0--r42hdfd78af_10: sha256:24b34948cb5f5e1f8f3b9811c78c6f8b14833e054f52c45df26d12a6904e5f4a
   2.18.0--r43hdfd78af_11: sha256:7df6ca07fd6c07e67e6a9adcc5176fedb2d3203f0be97bbe8cd617b6066a9961
+  2.18.0--r43hdfd78af_12: sha256:1c3f4e8cfd9cd8a044b6ca278c839789d5516006013c539cba8ac0b190f63043
 docker: quay.io/biocontainers/bioconductor-htrat230pmprobe

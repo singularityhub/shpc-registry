@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-despace
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-despace
 latest:
-  1.0.0--r43hdfd78af_0: sha256:ceb4605f8c8b1d07e1b5710e903bcfd148d14ade825b369ae30b2b2e580708a6
+  1.2.0--r43hdfd78af_0: sha256:8a30f361150d100176f8ec58e85ce74c03cd626d3b3534e5e9ad6d2e794dbfcc
 tags:
   1.0.0--r43hdfd78af_0: sha256:ceb4605f8c8b1d07e1b5710e903bcfd148d14ade825b369ae30b2b2e580708a6
+  1.2.0--r43hdfd78af_0: sha256:8a30f361150d100176f8ec58e85ce74c03cd626d3b3534e5e9ad6d2e794dbfcc
 docker: quay.io/biocontainers/bioconductor-despace
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
