@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-hugene.1.0.st.v1frmavecs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hugene.1.0.st.v1frmavecs
 latest:
-  1.1.0--r43hdfd78af_11: sha256:1625d34647ad8976accf6a101a5665ad2164be625e25031ca99751ae57a699e7
+  1.1.0--r43hdfd78af_12: sha256:1edf4e1263d5d1dbe66218b8e17a53a9bc41cab1af1b9f883b5563d79563dfd7
 tags:
   1.1.0--r41hdfd78af_9: sha256:7249aab0b8d3c11c078dc6b04362fd5579376597fb50d7b92460c0dce24914ca
   1.1.0--r42hdfd78af_10: sha256:3ecf2b5351070570bfde8437a42be0984b3f139ad9dbe107d295308ee29cb955
   1.1.0--r43hdfd78af_11: sha256:1625d34647ad8976accf6a101a5665ad2164be625e25031ca99751ae57a699e7
+  1.1.0--r43hdfd78af_12: sha256:1edf4e1263d5d1dbe66218b8e17a53a9bc41cab1af1b9f883b5563d79563dfd7
 docker: quay.io/biocontainers/bioconductor-hugene.1.0.st.v1frmavecs

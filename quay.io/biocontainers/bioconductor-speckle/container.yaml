@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-speckle
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-speckle
 latest:
-  1.0.0--r43hdfd78af_0: sha256:0b5e7f951c7e98affbbfe19db0377f8e2ceddf6bb56d7d9f187ac562f224b55c
+  1.2.0--r43hdfd78af_0: sha256:db6c983df963a7b04012d746979eb2c80f755ac2dc12d7a8dd5c27dade4801aa
 tags:
   1.0.0--r43hdfd78af_0: sha256:0b5e7f951c7e98affbbfe19db0377f8e2ceddf6bb56d7d9f187ac562f224b55c
+  1.2.0--r43hdfd78af_0: sha256:db6c983df963a7b04012d746979eb2c80f755ac2dc12d7a8dd5c27dade4801aa
 docker: quay.io/biocontainers/bioconductor-speckle
 aliases:
   geosop: /usr/local/bin/geosop

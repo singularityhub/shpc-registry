@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-msigdb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-msigdb
 latest:
-  1.8.0--r43hdfd78af_0: sha256:2e1fe667031089af37ba30de84c0f65bd2125a804caf2e70114b76d8fffdc762
+  1.10.0--r43hdfd78af_0: sha256:5fd3301b4d9fdca60399802ca5a8c8c1c2ea835eb279678cca1c014ee47ca8db
 tags:
   1.2.0--r41hdfd78af_1: sha256:105b75f44eb682c377b06dcf11879d1f0e8df04b3e0eb6f722130e81981b35d4
   1.6.0--r42hdfd78af_0: sha256:5ae148f6b21c1ef28254b8b3a4454b624b062c4e2c4d7c550ef0c30716daa144
   1.8.0--r43hdfd78af_0: sha256:2e1fe667031089af37ba30de84c0f65bd2125a804caf2e70114b76d8fffdc762
+  1.10.0--r43hdfd78af_0: sha256:5fd3301b4d9fdca60399802ca5a8c8c1c2ea835eb279678cca1c014ee47ca8db
 docker: quay.io/biocontainers/bioconductor-msigdb

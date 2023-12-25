@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-tpp2d
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tpp2d
 latest:
-  1.16.0--r43hdfd78af_0: sha256:7f3245ad1f6d566408169eed955dc8e037a4a411845a9cbe3c5c028ebbe34ec3
+  1.18.0--r43hdfd78af_0: sha256:247ef4dbcdf6d4dccc67ce24ef0c26c64c50fb6805a04dc3503f788f3f34a1f2
 tags:
   1.8.0--r41hdfd78af_0: sha256:15dd708a4d92bbf7632d953a33f2c3471bd4cd46006d1228aa7275a5b8e67cfd
   1.14.0--r42hdfd78af_0: sha256:54cc115a9edb98fc0d332d7eb56b1932c27e8e49a9037c68f96c28990221691a
   1.10.0--r41hdfd78af_0: sha256:f8953b850738345ef105d52fe6a86bc6f318bda405138ded6d261e9ec120dacd
   1.16.0--r43hdfd78af_0: sha256:7f3245ad1f6d566408169eed955dc8e037a4a411845a9cbe3c5c028ebbe34ec3
+  1.18.0--r43hdfd78af_0: sha256:247ef4dbcdf6d4dccc67ce24ef0c26c64c50fb6805a04dc3503f788f3f34a1f2
 docker: quay.io/biocontainers/bioconductor-tpp2d
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

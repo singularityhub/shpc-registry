@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fiji-max_inscribed_circles
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fiji-max_inscribed_circles
 latest:
-  2.0.0--hdfd78af_0: sha256:47700c567d84c9c074914f4dbf9b7e5d72bfba71fb649334d0aefe307bb6aee2
+  2.1.0--hdfd78af_0: sha256:6e3a1218ed954e9791bde4af1706b7abe319c54dc85f05a083022b21f399741e
 tags:
   2.0.0--hdfd78af_0: sha256:47700c567d84c9c074914f4dbf9b7e5d72bfba71fb649334d0aefe307bb6aee2
+  2.1.0--hdfd78af_0: sha256:6e3a1218ed954e9791bde4af1706b7abe319c54dc85f05a083022b21f399741e
 docker: quay.io/biocontainers/fiji-max_inscribed_circles
 aliases:
   ImageJ: /usr/local/bin/ImageJ

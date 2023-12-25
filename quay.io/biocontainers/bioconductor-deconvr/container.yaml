@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-deconvr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-deconvr
 latest:
-  1.6.0--r43hdfd78af_0: sha256:c55a30e1d216abc93738538ad975e602c007a4098848c2805c68608735aa8e61
+  1.8.0--r43hdfd78af_0: sha256:1dbe5672296f5edf58e295dddafdce4999e38cb4445e0ce9d630b630913d18e6
 tags:
   1.0.1--r41hdfd78af_0: sha256:e7122044a349bfbb6e78f82acec25d8b96f9d3a0259991cde5de364800263332
   1.4.0--r42hdfd78af_0: sha256:d7fcb4fac882317ec6494a5c70f8bf9d32fa4ef4b627cf3682dee5a836a93ae1
   1.6.0--r43hdfd78af_0: sha256:c55a30e1d216abc93738538ad975e602c007a4098848c2805c68608735aa8e61
+  1.8.0--r43hdfd78af_0: sha256:1dbe5672296f5edf58e295dddafdce4999e38cb4445e0ce9d630b630913d18e6
 docker: quay.io/biocontainers/bioconductor-deconvr

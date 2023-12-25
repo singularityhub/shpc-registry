@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-spatialheatmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-spatialheatmap
 latest:
-  2.6.0--r43hdfd78af_0: sha256:298a8e0806258969b11207836e0261d36af50a8ac1ace8e4887a6fabc34ca940
+  2.8.0--r43hdfd78af_0: sha256:b6f4aae4694953948518e8438ec8a9cb785cbf60a89d72bcb65980ceabca0961
 tags:
   2.0.0--r41hdfd78af_0: sha256:e1b25948df4a9b0b4696010f34fc45302a4571a475dfd906ef8d4d141e3c54c6
   2.4.0--r42hdfd78af_0: sha256:5eb263c88136f4815e729fc98697ddded97dc4178bbbac0f0597c3c0fd341fb8
   2.6.0--r43hdfd78af_0: sha256:298a8e0806258969b11207836e0261d36af50a8ac1ace8e4887a6fabc34ca940
+  2.8.0--r43hdfd78af_0: sha256:b6f4aae4694953948518e8438ec8a9cb785cbf60a89d72bcb65980ceabca0961
 docker: quay.io/biocontainers/bioconductor-spatialheatmap
 aliases:
   aomdec: /usr/local/bin/aomdec

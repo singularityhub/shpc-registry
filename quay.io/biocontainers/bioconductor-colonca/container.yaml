@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-colonca
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-colonca
 latest:
-  1.42.0--r43hdfd78af_0: sha256:1ecdf3560e673cb1c910aef7dfff040e8f05dbe0098646a35aaf543aa015c6c0
+  1.44.0--r43hdfd78af_0: sha256:7be62fddef4d5b050cedea206474247709404400a6872bc2e0186e8aa3eb7955
 tags:
   1.36.0--r41hdfd78af_1: sha256:50403dbe8c7432a8680708bb5a9b09743bfd047d93f50f1bf22344f85c64b14c
   1.40.0--r42hdfd78af_0: sha256:a128ce619a3e3fbf4d48cc956b92347c8898218b9a32eeedab58d60b45eedf86
   1.42.0--r43hdfd78af_0: sha256:1ecdf3560e673cb1c910aef7dfff040e8f05dbe0098646a35aaf543aa015c6c0
+  1.44.0--r43hdfd78af_0: sha256:7be62fddef4d5b050cedea206474247709404400a6872bc2e0186e8aa3eb7955
 docker: quay.io/biocontainers/bioconductor-colonca

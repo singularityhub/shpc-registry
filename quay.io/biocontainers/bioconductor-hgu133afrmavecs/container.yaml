@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-hgu133afrmavecs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hgu133afrmavecs
 latest:
-  1.5.0--r43hdfd78af_12: sha256:bd7156b192d13066acac41b65adec677e213c5f0b1b2b8cdd24fac9e6b1fab25
+  1.5.0--r43hdfd78af_13: sha256:1b9640528b5097dcfb2154d6fa4fd8ef99ff64007e89762646eaf2d072b0463b
 tags:
   1.5.0--r41hdfd78af_9: sha256:246a6c4bb47f3c2d7a89c3f5155ed8362aa7f46ee7e96ad006559d0f51b2645d
   1.5.0--r42hdfd78af_11: sha256:07e1e8931aa3fa094232cbc0a5167adbf08570ab563eb277dc5776737b387d53
   1.5.0--r43hdfd78af_12: sha256:bd7156b192d13066acac41b65adec677e213c5f0b1b2b8cdd24fac9e6b1fab25
+  1.5.0--r43hdfd78af_13: sha256:1b9640528b5097dcfb2154d6fa4fd8ef99ff64007e89762646eaf2d072b0463b
 docker: quay.io/biocontainers/bioconductor-hgu133afrmavecs

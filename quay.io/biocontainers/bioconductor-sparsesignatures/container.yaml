@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-sparsesignatures
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sparsesignatures
 latest:
-  2.10.0--r43hdfd78af_0: sha256:1ba97bf5075dac69879cd85e609d0969222c1954cd426b8072089b33317006af
+  2.12.0--r43hdfd78af_0: sha256:09d0e98d9803f498de8e750a99352507542070353b50037688dafc17a3e1d757
 tags:
   2.4.0--r41hdfd78af_0: sha256:ec74d1a0ed2eb295b713e63e3ccb1128c6c72a925f1e4d66bb62b4567da6e73e
   2.8.0--r42hdfd78af_0: sha256:3aa74dbb9bd0969b8c175c2544e218439e85c05d38a2ebd75b7d25b1bfc15f25
   2.10.0--r43hdfd78af_0: sha256:1ba97bf5075dac69879cd85e609d0969222c1954cd426b8072089b33317006af
+  2.12.0--r43hdfd78af_0: sha256:09d0e98d9803f498de8e750a99352507542070353b50037688dafc17a3e1d757
 docker: quay.io/biocontainers/bioconductor-sparsesignatures

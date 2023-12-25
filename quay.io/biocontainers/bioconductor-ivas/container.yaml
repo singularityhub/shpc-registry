@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-ivas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ivas
 latest:
-  2.20.0--r43hdfd78af_0: sha256:ed9159e609c1291da9560f4d393b206437262984630c3232efaf154b05be8c03
+  2.22.0--r43hdfd78af_0: sha256:a6f4cca118122c6129c890354e827fdc0d393bc2421c4638ed1eebb88693e086
 tags:
   2.8.0--r40_0: sha256:b2218ec5924abf8fe6b6df8405951b5c7eeebba4bb9da8466a7a3b34d5f646db
   2.18.0--r42hdfd78af_0: sha256:80e8fd1814098bb61b18e0bf4bae1a31f363afc800e0b878b3d345c869c4025c
@@ -10,6 +10,7 @@ tags:
   2.12.0--r41hdfd78af_0: sha256:9dbfb2876cd1ed53ed565c8be95b4a1b06d1ab2898f3124c9a30c160caa5df3d
   2.10.0--r40hdfd78af_1: sha256:2f4f95f1104b6b8b79f4db418c0cf1e4e0f20fb01cbeb838c2271b58fdab0e7a
   2.20.0--r43hdfd78af_0: sha256:ed9159e609c1291da9560f4d393b206437262984630c3232efaf154b05be8c03
+  2.22.0--r43hdfd78af_0: sha256:a6f4cca118122c6129c890354e827fdc0d393bc2421c4638ed1eebb88693e086
 docker: quay.io/biocontainers/bioconductor-ivas
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8
