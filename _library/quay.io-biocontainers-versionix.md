@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/versionix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/versionix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/versionix/container.yaml"
-updated_at: "2023-12-24 02:51:39.425362"
-latest: "0.2.2--pyhdfd78af_0"
+updated_at: "2023-12-25 02:51:21.260328"
+latest: "0.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/versionix"
 aliases:
  - "versionix"
@@ -19,8 +19,9 @@ versions:
  - "0.2.0--pyhdfd78af_0"
  - "0.2.1--pyhdfd78af_0"
  - "0.2.2--pyhdfd78af_0"
+ - "0.2.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for versionix"
-config: {"url": "https://biocontainers.pro/tools/versionix", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for versionix", "latest": {"0.2.2--pyhdfd78af_0": "sha256:4995d3bc1fe8464495e19128a2ea748df8b9f50914f1c43832bc412d6328bcad"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:66d17854284bbe6dd78fb5aa5941017983400bdb63dc880e65950c857fb22dcb", "0.2.1--pyhdfd78af_0": "sha256:db7b8a89fd8a46f2128ca6e3cf9375ebb9d844021e9d182686fd9e3141e9cfd1", "0.2.2--pyhdfd78af_0": "sha256:4995d3bc1fe8464495e19128a2ea748df8b9f50914f1c43832bc412d6328bcad"}, "docker": "quay.io/biocontainers/versionix", "aliases": {"versionix": "/usr/local/bin/versionix", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/versionix", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for versionix", "latest": {"0.2.3--pyhdfd78af_0": "sha256:6d36702aeb6ad25737b2c3f114625c58b972b3ca0e9416df123d18a959ae3304"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:66d17854284bbe6dd78fb5aa5941017983400bdb63dc880e65950c857fb22dcb", "0.2.1--pyhdfd78af_0": "sha256:db7b8a89fd8a46f2128ca6e3cf9375ebb9d844021e9d182686fd9e3141e9cfd1", "0.2.2--pyhdfd78af_0": "sha256:4995d3bc1fe8464495e19128a2ea748df8b9f50914f1c43832bc412d6328bcad", "0.2.3--pyhdfd78af_0": "sha256:6d36702aeb6ad25737b2c3f114625c58b972b3ca0e9416df123d18a959ae3304"}, "docker": "quay.io/biocontainers/versionix", "aliases": {"versionix": "/usr/local/bin/versionix", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/versionix.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/versionix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/versionix:0.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/versionix:0.2.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/versionix/0.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/versionix/0.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/versionix/0.2.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/versionix/0.2.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

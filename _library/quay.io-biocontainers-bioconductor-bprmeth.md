@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bprmeth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bprmeth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bprmeth/container.yaml"
-updated_at: "2023-12-24 02:48:47.184593"
-latest: "1.26.1--r43hf17093f_0"
+updated_at: "2023-12-25 02:48:29.229888"
+latest: "1.28.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bprmeth"
 aliases:
  - "pandoc-citeproc"
@@ -22,8 +22,9 @@ versions:
  - "1.14.0--r40h5f743cb_0"
  - "1.24.0--r42hf17093f_1"
  - "1.26.1--r43hf17093f_0"
+ - "1.28.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bprmeth"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bprmeth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bprmeth", "latest": {"1.26.1--r43hf17093f_0": "sha256:05f352997f0a12091b04952c33ae7f40d718b7d59832c7726c5dcec150ecb3fa"}, "tags": {"1.8.1--r351hf484d3e_0": "sha256:22008019d0323c98a8ce16e7abaf1f5701c023335911c457e0137bfe38fd5f66", "1.24.0--r42hc247a5b_0": "sha256:4908b9f454916b4c16f8c96f079457590b0b2cc45e857ad8dd9033d18ccd502f", "1.20.0--r41hc247a5b_2": "sha256:f045e76b9d91f0b422fdd7fb5b0e26f5dac2ea5def06463340818a8c4b67275a", "1.18.0--r41h399db7b_0": "sha256:60485ac087a55dade00b0cf7290b12a82337e6e2fa7500f83a838f0b66679e4b", "1.16.0--r40h399db7b_1": "sha256:3c1f5cdc7f55182a3d3445bb13ff4e095a86a46f3154873708e0f2c8f5e115a1", "1.14.0--r40h5f743cb_0": "sha256:128d0539f792563e39712065000afdcf5f58289fac7dcfcb277699c2551c4054", "1.24.0--r42hf17093f_1": "sha256:27fbdaeb461bb114ee8445a6759762740afb9d8bae1fcaf0d93e2893daa07d0b", "1.26.1--r43hf17093f_0": "sha256:05f352997f0a12091b04952c33ae7f40d718b7d59832c7726c5dcec150ecb3fa"}, "docker": "quay.io/biocontainers/bioconductor-bprmeth", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bprmeth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bprmeth", "latest": {"1.28.0--r43hf17093f_0": "sha256:6215a0d70744c2196da6f6bee367350e830d2a3c58d032c4518fe258046d20f3"}, "tags": {"1.8.1--r351hf484d3e_0": "sha256:22008019d0323c98a8ce16e7abaf1f5701c023335911c457e0137bfe38fd5f66", "1.24.0--r42hc247a5b_0": "sha256:4908b9f454916b4c16f8c96f079457590b0b2cc45e857ad8dd9033d18ccd502f", "1.20.0--r41hc247a5b_2": "sha256:f045e76b9d91f0b422fdd7fb5b0e26f5dac2ea5def06463340818a8c4b67275a", "1.18.0--r41h399db7b_0": "sha256:60485ac087a55dade00b0cf7290b12a82337e6e2fa7500f83a838f0b66679e4b", "1.16.0--r40h399db7b_1": "sha256:3c1f5cdc7f55182a3d3445bb13ff4e095a86a46f3154873708e0f2c8f5e115a1", "1.14.0--r40h5f743cb_0": "sha256:128d0539f792563e39712065000afdcf5f58289fac7dcfcb277699c2551c4054", "1.24.0--r42hf17093f_1": "sha256:27fbdaeb461bb114ee8445a6759762740afb9d8bae1fcaf0d93e2893daa07d0b", "1.26.1--r43hf17093f_0": "sha256:05f352997f0a12091b04952c33ae7f40d718b7d59832c7726c5dcec150ecb3fa", "1.28.0--r43hf17093f_0": "sha256:6215a0d70744c2196da6f6bee367350e830d2a3c58d032c4518fe258046d20f3"}, "docker": "quay.io/biocontainers/bioconductor-bprmeth", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bprmeth.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bprmeth
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bprmeth:1.26.1--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-bprmeth:1.28.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bprmeth/1.26.1--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-bprmeth/1.26.1--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-bprmeth/1.28.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-bprmeth/1.28.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

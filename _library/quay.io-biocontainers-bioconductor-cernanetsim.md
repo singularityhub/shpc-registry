@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-cernanetsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cernanetsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cernanetsim/container.yaml"
-updated_at: "2023-12-24 02:48:34.172217"
-latest: "1.12.0--r43hdfd78af_0"
+updated_at: "2023-12-25 02:48:16.262588"
+latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cernanetsim"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
+ - "1.14.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cernanetsim"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cernanetsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cernanetsim", "latest": {"1.12.0--r43hdfd78af_0": "sha256:52b7ddaca3a913f21d70cb68952fc79088739fa5bcb4be32568da89b3507b9d9"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:bd1638693f7e75e6416da47c8115b356928fea61ec93009dfe50c65a5fb1896c", "1.10.0--r42hdfd78af_0": "sha256:563f23abcc17c6527af533a88e3dd30a3d26eb348775d4901f1997c240ac467c", "1.12.0--r43hdfd78af_0": "sha256:52b7ddaca3a913f21d70cb68952fc79088739fa5bcb4be32568da89b3507b9d9"}, "docker": "quay.io/biocontainers/bioconductor-cernanetsim"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cernanetsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cernanetsim", "latest": {"1.14.0--r43hdfd78af_0": "sha256:5b4ef09a88d4473aad2d75c61ff19e31ed6c75d6e666ce5b244b64487bd70a5d"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:bd1638693f7e75e6416da47c8115b356928fea61ec93009dfe50c65a5fb1896c", "1.10.0--r42hdfd78af_0": "sha256:563f23abcc17c6527af533a88e3dd30a3d26eb348775d4901f1997c240ac467c", "1.12.0--r43hdfd78af_0": "sha256:52b7ddaca3a913f21d70cb68952fc79088739fa5bcb4be32568da89b3507b9d9", "1.14.0--r43hdfd78af_0": "sha256:5b4ef09a88d4473aad2d75c61ff19e31ed6c75d6e666ce5b244b64487bd70a5d"}, "docker": "quay.io/biocontainers/bioconductor-cernanetsim"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cernanetsim.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cernanetsim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cernanetsim:1.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cernanetsim:1.14.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cernanetsim/1.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cernanetsim/1.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cernanetsim/1.14.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cernanetsim/1.14.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bioconcotk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bioconcotk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bioconcotk/container.yaml"
-updated_at: "2023-12-24 02:46:47.886912"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2023-12-25 02:46:30.237760"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bioconcotk"
 aliases:
  - "2to3-3.8"
@@ -23,8 +23,9 @@ versions:
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
  - "1.20.0--r43hdfd78af_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bioconcotk"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bioconcotk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bioconcotk", "latest": {"1.20.0--r43hdfd78af_0": "sha256:4a1442f80595ee5356205f9f0cec1400730e22c28f4f794226c5cfaa590e57fd"}, "tags": {"1.8.0--r40_0": "sha256:62fa4ee96ef2d9341e1226bd3d4992f3fb0ba1cfc576430fc35ae37d83ee83ca", "1.18.0--r42hdfd78af_0": "sha256:35161791591cc09206a686882e36aae37eecb33e275a302feca069c427e28c40", "1.14.0--r41hdfd78af_0": "sha256:57692cb3da02a24dd3189fe6cab8ab57f18b37dd4d70a6aa12ee8a611295da81", "1.12.0--r41hdfd78af_0": "sha256:4eceee3250a9d1279d5a71b22352fe37f4d44bc2e5625b87132ba97d3069fc22", "1.10.0--r40hdfd78af_1": "sha256:c46e47f161a1e8382ddb72234106dd964c991c0e6564833f98696184c5aa19d0", "1.20.0--r43hdfd78af_0": "sha256:4a1442f80595ee5356205f9f0cec1400730e22c28f4f794226c5cfaa590e57fd"}, "docker": "quay.io/biocontainers/bioconductor-bioconcotk", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bioconcotk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bioconcotk", "latest": {"1.22.0--r43hdfd78af_0": "sha256:4cf8ce19a4df482683f0461950cf6eb0ece66efef210abbf3e6782ab6cb6cd85"}, "tags": {"1.8.0--r40_0": "sha256:62fa4ee96ef2d9341e1226bd3d4992f3fb0ba1cfc576430fc35ae37d83ee83ca", "1.18.0--r42hdfd78af_0": "sha256:35161791591cc09206a686882e36aae37eecb33e275a302feca069c427e28c40", "1.14.0--r41hdfd78af_0": "sha256:57692cb3da02a24dd3189fe6cab8ab57f18b37dd4d70a6aa12ee8a611295da81", "1.12.0--r41hdfd78af_0": "sha256:4eceee3250a9d1279d5a71b22352fe37f4d44bc2e5625b87132ba97d3069fc22", "1.10.0--r40hdfd78af_1": "sha256:c46e47f161a1e8382ddb72234106dd964c991c0e6564833f98696184c5aa19d0", "1.20.0--r43hdfd78af_0": "sha256:4a1442f80595ee5356205f9f0cec1400730e22c28f4f794226c5cfaa590e57fd", "1.22.0--r43hdfd78af_0": "sha256:4cf8ce19a4df482683f0461950cf6eb0ece66efef210abbf3e6782ab6cb6cd85"}, "docker": "quay.io/biocontainers/bioconductor-bioconcotk", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bioconcotk.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bioconcotk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bioconcotk:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-bioconcotk:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bioconcotk/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-bioconcotk/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-bioconcotk/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bioconcotk/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

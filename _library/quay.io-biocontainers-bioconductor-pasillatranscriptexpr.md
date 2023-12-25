@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-pasillatranscriptexpr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pasillatranscriptexpr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pasillatranscriptexpr/container.yaml"
-updated_at: "2023-12-24 03:00:45.298843"
-latest: "1.28.0--r43hdfd78af_0"
+updated_at: "2023-12-25 03:00:25.662166"
+latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pasillatranscriptexpr"
 
 versions:
  - "1.22.0--r41hdfd78af_1"
  - "1.25.0--r42hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
+ - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pasillatranscriptexpr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pasillatranscriptexpr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pasillatranscriptexpr", "latest": {"1.28.0--r43hdfd78af_0": "sha256:48c288781059e7e13bfec7fca66d9a46e0088a1ab8d5f0cc75c325d35c1847d7"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:ad324b12d278d0a46e40c9926245986b3588ad167a8cc45f57edac96e82d9c21", "1.25.0--r42hdfd78af_0": "sha256:6b9d7f7ccfed02c4815ac29f42fd2f700c5630e03002a3c26b6dba0963382dd8", "1.28.0--r43hdfd78af_0": "sha256:48c288781059e7e13bfec7fca66d9a46e0088a1ab8d5f0cc75c325d35c1847d7"}, "docker": "quay.io/biocontainers/bioconductor-pasillatranscriptexpr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pasillatranscriptexpr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pasillatranscriptexpr", "latest": {"1.30.0--r43hdfd78af_0": "sha256:e7aa8a69532683edf59ec712f16479b6de6868f65bd3297b1b64aedf662b51a4"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:ad324b12d278d0a46e40c9926245986b3588ad167a8cc45f57edac96e82d9c21", "1.25.0--r42hdfd78af_0": "sha256:6b9d7f7ccfed02c4815ac29f42fd2f700c5630e03002a3c26b6dba0963382dd8", "1.28.0--r43hdfd78af_0": "sha256:48c288781059e7e13bfec7fca66d9a46e0088a1ab8d5f0cc75c325d35c1847d7", "1.30.0--r43hdfd78af_0": "sha256:e7aa8a69532683edf59ec712f16479b6de6868f65bd3297b1b64aedf662b51a4"}, "docker": "quay.io/biocontainers/bioconductor-pasillatranscriptexpr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pasillatranscriptexpr.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pasillatranscriptexpr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pasillatranscriptexpr:1.28.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pasillatranscriptexpr:1.30.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pasillatranscriptexpr/1.28.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pasillatranscriptexpr/1.28.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pasillatranscriptexpr/1.30.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pasillatranscriptexpr/1.30.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

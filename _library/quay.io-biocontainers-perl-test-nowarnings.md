@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-nowarnings"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-nowarnings/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-nowarnings/container.yaml"
-updated_at: "2023-12-24 03:04:14.382777"
+updated_at: "2023-12-25 03:03:54.379476"
 latest: "1.06--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-test-nowarnings"
 aliases:

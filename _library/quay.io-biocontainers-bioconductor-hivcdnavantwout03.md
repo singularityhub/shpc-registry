@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hivcdnavantwout03"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hivcdnavantwout03/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hivcdnavantwout03/container.yaml"
-updated_at: "2023-12-24 02:48:49.047000"
+updated_at: "2023-12-25 02:48:31.085713"
 latest: "1.42.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hivcdnavantwout03"
 

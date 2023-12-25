@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-gmoviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gmoviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gmoviz/container.yaml"
-updated_at: "2023-12-24 02:57:43.245722"
-latest: "1.12.0--r43hdfd78af_0"
+updated_at: "2023-12-25 02:57:24.040438"
+latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gmoviz"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
  - "1.10.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
+ - "1.14.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gmoviz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gmoviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gmoviz", "latest": {"1.12.0--r43hdfd78af_0": "sha256:82b7292bf47a6ab098f9a1102b7ba14bdbd072f40deb846c8791a4f3275e709a"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:cb93eeb396319a6bd4b2871b00b41242da884b7fb78170c03d68c09b9d906c33", "1.10.0--r42hdfd78af_0": "sha256:608601c12cbb277a1b7ff87953bcefac1c20be682841cf23643b1928247da078", "1.12.0--r43hdfd78af_0": "sha256:82b7292bf47a6ab098f9a1102b7ba14bdbd072f40deb846c8791a4f3275e709a"}, "docker": "quay.io/biocontainers/bioconductor-gmoviz"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gmoviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gmoviz", "latest": {"1.14.0--r43hdfd78af_0": "sha256:821f298d025f69180668b1b473e5f8a62c4a0eff9f4c7a292db0691eab8831d9"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:cb93eeb396319a6bd4b2871b00b41242da884b7fb78170c03d68c09b9d906c33", "1.10.0--r42hdfd78af_0": "sha256:608601c12cbb277a1b7ff87953bcefac1c20be682841cf23643b1928247da078", "1.12.0--r43hdfd78af_0": "sha256:82b7292bf47a6ab098f9a1102b7ba14bdbd072f40deb846c8791a4f3275e709a", "1.14.0--r43hdfd78af_0": "sha256:821f298d025f69180668b1b473e5f8a62c4a0eff9f4c7a292db0691eab8831d9"}, "docker": "quay.io/biocontainers/bioconductor-gmoviz"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gmoviz.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gmoviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gmoviz:1.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gmoviz:1.14.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gmoviz/1.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gmoviz/1.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gmoviz/1.14.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gmoviz/1.14.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

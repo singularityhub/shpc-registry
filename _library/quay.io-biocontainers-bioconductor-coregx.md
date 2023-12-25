@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-coregx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-coregx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-coregx/container.yaml"
-updated_at: "2023-12-24 02:43:09.015904"
+updated_at: "2023-12-25 02:42:51.675528"
 latest: "2.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-coregx"
 

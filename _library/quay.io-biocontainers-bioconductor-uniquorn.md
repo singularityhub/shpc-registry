@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-uniquorn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-uniquorn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-uniquorn/container.yaml"
-updated_at: "2023-12-24 02:32:58.150987"
-latest: "2.20.0--r43hdfd78af_0"
+updated_at: "2023-12-25 02:32:41.367997"
+latest: "2.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-uniquorn"
 aliases:
  - "2to3-3.8"
@@ -23,8 +23,9 @@ versions:
  - "2.12.0--r41hdfd78af_0"
  - "2.10.0--r40hdfd78af_1"
  - "2.20.0--r43hdfd78af_0"
+ - "2.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-uniquorn"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-uniquorn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-uniquorn", "latest": {"2.20.0--r43hdfd78af_0": "sha256:0e3aadf7d450270d4eaf87ff3f00039e92c92016a587c0124b62b4c8d2f91fb3"}, "tags": {"2.8.0--r40_0": "sha256:8fc224c01bd3adb5ac9587a49092eb5917eff74bb7b7eacc237d6bc1c3f49cb8", "2.18.0--r42hdfd78af_0": "sha256:f79c44d69e58b3e6e49da118391fe72ee374df7cde71d364ec2b1be72c17d634", "2.14.0--r41hdfd78af_0": "sha256:c5e9647ef71857869d661da858d0a0fd0c70fbabb6c821e49a9c6c87e44c0316", "2.12.0--r41hdfd78af_0": "sha256:5521f1c09dd9804df1e21bcb853360ea5339c4696987ea749f8063e82990bf3f", "2.10.0--r40hdfd78af_1": "sha256:f5c8facdfd949c4bd414952a35e740126b9d19651b36c9297600a12bcf9c83c3", "2.20.0--r43hdfd78af_0": "sha256:0e3aadf7d450270d4eaf87ff3f00039e92c92016a587c0124b62b4c8d2f91fb3"}, "docker": "quay.io/biocontainers/bioconductor-uniquorn", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-uniquorn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-uniquorn", "latest": {"2.22.0--r43hdfd78af_0": "sha256:eb5c8e889fcdfa299cb03595b86c668791c90432e9e1c99a3488dbc7797b079e"}, "tags": {"2.8.0--r40_0": "sha256:8fc224c01bd3adb5ac9587a49092eb5917eff74bb7b7eacc237d6bc1c3f49cb8", "2.18.0--r42hdfd78af_0": "sha256:f79c44d69e58b3e6e49da118391fe72ee374df7cde71d364ec2b1be72c17d634", "2.14.0--r41hdfd78af_0": "sha256:c5e9647ef71857869d661da858d0a0fd0c70fbabb6c821e49a9c6c87e44c0316", "2.12.0--r41hdfd78af_0": "sha256:5521f1c09dd9804df1e21bcb853360ea5339c4696987ea749f8063e82990bf3f", "2.10.0--r40hdfd78af_1": "sha256:f5c8facdfd949c4bd414952a35e740126b9d19651b36c9297600a12bcf9c83c3", "2.20.0--r43hdfd78af_0": "sha256:0e3aadf7d450270d4eaf87ff3f00039e92c92016a587c0124b62b4c8d2f91fb3", "2.22.0--r43hdfd78af_0": "sha256:eb5c8e889fcdfa299cb03595b86c668791c90432e9e1c99a3488dbc7797b079e"}, "docker": "quay.io/biocontainers/bioconductor-uniquorn", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-uniquorn.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-uniquorn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-uniquorn:2.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-uniquorn:2.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-uniquorn/2.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-uniquorn/2.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-uniquorn/2.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-uniquorn/2.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

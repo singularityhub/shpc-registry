@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rcy3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcy3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcy3/container.yaml"
-updated_at: "2023-12-24 03:02:03.073221"
-latest: "2.20.0--r43hdfd78af_0"
+updated_at: "2023-12-25 03:01:43.177037"
+latest: "2.22.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcy3"
 aliases:
  - "Cytoscape"
@@ -25,8 +25,9 @@ versions:
  - "2.12.0--r41hdfd78af_0"
  - "2.10.2--r40hdfd78af_0"
  - "2.20.0--r43hdfd78af_0"
+ - "2.22.1--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rcy3"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rcy3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcy3", "latest": {"2.20.0--r43hdfd78af_0": "sha256:03ce8a011a9225ffa942b606ad9f8cd8111e916c47b4fb292f311e2ad9d726ac"}, "tags": {"2.8.0--r40_0": "sha256:9a1ec4012f6876d669c81aa550a8ee1203b753f967de00b7447c9faf89ee9812", "2.18.0--r42hdfd78af_0": "sha256:a491f09c703b75ea62ec4f3733f3016479f9cf275e0f031410488971529bdd91", "2.14.0--r41hdfd78af_0": "sha256:b9df7d99a13e1de12b7936b653117059c29f905c572b3ce0fa63f92a43ad4bb3", "2.12.0--r41hdfd78af_0": "sha256:3b2d40901c99522d3f47ebde9bf39916fa3912dea61c2aa25e1af81a89579beb", "2.10.2--r40hdfd78af_0": "sha256:d28498ff1eff8c40c3cad22af523ab06abf3dbb1ebdd9f6b421f732b612f93e5", "2.20.0--r43hdfd78af_0": "sha256:03ce8a011a9225ffa942b606ad9f8cd8111e916c47b4fb292f311e2ad9d726ac"}, "docker": "quay.io/biocontainers/bioconductor-rcy3", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rcy3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcy3", "latest": {"2.22.1--r43hdfd78af_0": "sha256:0a7a21b24bd1d18168a66b3ca476dcf1d02e7412b0e353628a90002029e2d55e"}, "tags": {"2.8.0--r40_0": "sha256:9a1ec4012f6876d669c81aa550a8ee1203b753f967de00b7447c9faf89ee9812", "2.18.0--r42hdfd78af_0": "sha256:a491f09c703b75ea62ec4f3733f3016479f9cf275e0f031410488971529bdd91", "2.14.0--r41hdfd78af_0": "sha256:b9df7d99a13e1de12b7936b653117059c29f905c572b3ce0fa63f92a43ad4bb3", "2.12.0--r41hdfd78af_0": "sha256:3b2d40901c99522d3f47ebde9bf39916fa3912dea61c2aa25e1af81a89579beb", "2.10.2--r40hdfd78af_0": "sha256:d28498ff1eff8c40c3cad22af523ab06abf3dbb1ebdd9f6b421f732b612f93e5", "2.20.0--r43hdfd78af_0": "sha256:03ce8a011a9225ffa942b606ad9f8cd8111e916c47b4fb292f311e2ad9d726ac", "2.22.1--r43hdfd78af_0": "sha256:0a7a21b24bd1d18168a66b3ca476dcf1d02e7412b0e353628a90002029e2d55e"}, "docker": "quay.io/biocontainers/bioconductor-rcy3", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rcy3.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rcy3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rcy3:2.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rcy3:2.22.1--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rcy3/2.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rcy3/2.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rcy3/2.22.1--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rcy3/2.22.1--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

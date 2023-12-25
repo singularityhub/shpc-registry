@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-panelcn.mops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-panelcn.mops/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-panelcn.mops/container.yaml"
-updated_at: "2023-12-24 02:52:01.480040"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2023-12-25 02:51:43.313545"
+latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-panelcn.mops"
 aliases:
  - "gio-launch-desktop"
@@ -19,8 +19,9 @@ versions:
  - "1.12.0--r40hdfd78af_1"
  - "1.10.0--r40_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-panelcn.mops"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-panelcn.mops", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-panelcn.mops", "latest": {"1.22.0--r43hdfd78af_0": "sha256:3c657766360c772cc765f4eb05b2aded925f7f396445a2a6b6539623cd302f3d"}, "tags": {"1.8.0--r36_0": "sha256:e6b676c9183a94d10c0ccb6c7f3a883f2a81de81fec68a0897c0f8bd4e2d61eb", "1.20.0--r42hdfd78af_0": "sha256:e887dd632aa76710591ee361202ba32f31bfc8bf3aeb943b9f777ffdda449104", "1.16.0--r41hdfd78af_0": "sha256:4087abcd468059b13ffa25e9325599235b7a67554c0b1d76357c852246114b57", "1.14.0--r41hdfd78af_0": "sha256:c47f12e0144875f8a176679cbcb7fde91ea28184ecf88f0c63fb18a6f8ffb377", "1.12.0--r40hdfd78af_1": "sha256:8f43edb364616c9c7b58fb7386b8c6552f1541b5cb280f4d4c12162d184b7405", "1.10.0--r40_0": "sha256:90a2919ba4b423e9a7c5dadce25692da6b699bfe08943aa7f73df7a2a420ba03", "1.22.0--r43hdfd78af_0": "sha256:3c657766360c772cc765f4eb05b2aded925f7f396445a2a6b6539623cd302f3d"}, "docker": "quay.io/biocontainers/bioconductor-panelcn.mops", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-panelcn.mops", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-panelcn.mops", "latest": {"1.24.0--r43hdfd78af_0": "sha256:c12a89b00d19a72b10051bb48dc2fc4ec4e7b6ac8f791d41a1ef414de62a2f8a"}, "tags": {"1.8.0--r36_0": "sha256:e6b676c9183a94d10c0ccb6c7f3a883f2a81de81fec68a0897c0f8bd4e2d61eb", "1.20.0--r42hdfd78af_0": "sha256:e887dd632aa76710591ee361202ba32f31bfc8bf3aeb943b9f777ffdda449104", "1.16.0--r41hdfd78af_0": "sha256:4087abcd468059b13ffa25e9325599235b7a67554c0b1d76357c852246114b57", "1.14.0--r41hdfd78af_0": "sha256:c47f12e0144875f8a176679cbcb7fde91ea28184ecf88f0c63fb18a6f8ffb377", "1.12.0--r40hdfd78af_1": "sha256:8f43edb364616c9c7b58fb7386b8c6552f1541b5cb280f4d4c12162d184b7405", "1.10.0--r40_0": "sha256:90a2919ba4b423e9a7c5dadce25692da6b699bfe08943aa7f73df7a2a420ba03", "1.22.0--r43hdfd78af_0": "sha256:3c657766360c772cc765f4eb05b2aded925f7f396445a2a6b6539623cd302f3d", "1.24.0--r43hdfd78af_0": "sha256:c12a89b00d19a72b10051bb48dc2fc4ec4e7b6ac8f791d41a1ef414de62a2f8a"}, "docker": "quay.io/biocontainers/bioconductor-panelcn.mops", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-panelcn.mops.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-panelcn.mops
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-panelcn.mops:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-panelcn.mops:1.24.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-panelcn.mops/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-panelcn.mops/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-panelcn.mops/1.24.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-panelcn.mops/1.24.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
