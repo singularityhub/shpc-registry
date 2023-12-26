@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-proloc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-proloc
 latest:
-  1.40.1--r43hf17093f_0: sha256:13272a84733c8f3cd81ad8d5b231a1ac79763e87652014463ea55f6054f6e95d
+  1.42.0--r43hf17093f_0: sha256:507622f6aa5b063188883437e9267ed7c8d512ace7b058ffd3dd41561df7fa44
 tags:
   1.34.0--r41hc247a5b_2: sha256:6deff5adec3bed7b5bdaccaeefaafb4f7d96a9ea4bf6cf3c84678c67fd4df1fc
   1.38.0--r42hc247a5b_0: sha256:954b32a5dd3f389174e3c2987f13e5ece4084751ad2520e85fa66d11a07408c4
   1.38.0--r42hf17093f_1: sha256:2fd281c53b7bd9f140ed313aa198ba6604842668416ba683298aa57a6f77668a
   1.40.1--r43hf17093f_0: sha256:13272a84733c8f3cd81ad8d5b231a1ac79763e87652014463ea55f6054f6e95d
+  1.42.0--r43hf17093f_0: sha256:507622f6aa5b063188883437e9267ed7c8d512ace7b058ffd3dd41561df7fa44
 docker: quay.io/biocontainers/bioconductor-proloc
 aliases:
   zipcmp: /usr/local/bin/zipcmp

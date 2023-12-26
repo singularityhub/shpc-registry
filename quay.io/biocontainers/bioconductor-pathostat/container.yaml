@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-pathostat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pathostat
 latest:
-  1.26.0--r43hdfd78af_0: sha256:5cf70a4184a6467ba571e6759c63b1cbaddeff27e80d3c2ec3e9d85ab791aacf
+  1.28.0--r43hdfd78af_0: sha256:93897649730c1989b3c03485cc01225e4f9260182f3875cea8b41d29c84c1397
 tags:
   1.8.4--r351_0: sha256:347c81c309b1c6dabbb6f238c685d70fb2308ae015b11dc884c1d38496cb05c0
   1.24.0--r42hdfd78af_0: sha256:ab3781d112636ea98443df98e82fde894e568da6e7fa1ca5f592e01513a3ba90
@@ -11,6 +11,7 @@ tags:
   1.16.0--r40hdfd78af_1: sha256:8f0dc4ab22823c6941e73aab034301c8c551d72708402771b491b34ac81ba92c
   1.14.0--r40_0: sha256:3356299f4acf52ca15947147f3df79d4242e609b2fbaedca4e3932a9ee0cbfde
   1.26.0--r43hdfd78af_0: sha256:5cf70a4184a6467ba571e6759c63b1cbaddeff27e80d3c2ec3e9d85ab791aacf
+  1.28.0--r43hdfd78af_0: sha256:93897649730c1989b3c03485cc01225e4f9260182f3875cea8b41d29c84c1397
 docker: quay.io/biocontainers/bioconductor-pathostat
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

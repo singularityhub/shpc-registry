@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-xtropicalisprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-xtropicalisprobe
 latest:
-  2.18.0--r43hdfd78af_11: sha256:a251f2d4a82b7ca51fb532308f802ab1889f1be6b0d1ec703afbe8b373392793
+  2.18.0--r43hdfd78af_12: sha256:83b28e9a7989c68a2a1b607e19190659a517e51aabe85ed70014fa01f73f527b
 tags:
   2.18.0--r41hdfd78af_9: sha256:90fdb5003798999168126ca59c1dd4496e4534a72bc1bfef891f4a86d61f6977
   2.18.0--r42hdfd78af_10: sha256:f0a6cc1986c9e203d520adcdaff4bba24c9e57e8d31701fc44336b917b6a03fe
   2.18.0--r43hdfd78af_11: sha256:a251f2d4a82b7ca51fb532308f802ab1889f1be6b0d1ec703afbe8b373392793
+  2.18.0--r43hdfd78af_12: sha256:83b28e9a7989c68a2a1b607e19190659a517e51aabe85ed70014fa01f73f527b
 docker: quay.io/biocontainers/bioconductor-xtropicalisprobe

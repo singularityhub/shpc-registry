@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-mfa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mfa
 latest:
-  1.22.0--r43hf17093f_0: sha256:e9f05bd7f4317d3146f4028e6530253633afa23d2375a67cee6215247ff10173
+  1.24.0--r43hf17093f_0: sha256:bfb66638892412781da3123c21ec2157d75d371265712cdfa7506f921888b202
 tags:
   1.8.0--r36he1b5a44_0: sha256:de69067bce4482a27ba77eaa19f1ab6a4be9cc7370083e2fc8675063753bed26
   1.20.0--r42hc247a5b_0: sha256:121424609bc5721cbe05c53ac1f9aee9996010a2291ff6ca147518c9679576bc
@@ -12,6 +12,7 @@ tags:
   1.10.0--r40h5f743cb_0: sha256:78caf21524b615113510d70162fcb60d745c5a4971e45ed468c41e0715b412d0
   1.20.0--r42hf17093f_1: sha256:48cc8f39cefc2c50d819b16ca8f41e3cb0aea4a17f55a90a755b403e26f07c36
   1.22.0--r43hf17093f_0: sha256:e9f05bd7f4317d3146f4028e6530253633afa23d2375a67cee6215247ff10173
+  1.24.0--r43hf17093f_0: sha256:bfb66638892412781da3123c21ec2157d75d371265712cdfa7506f921888b202
 docker: quay.io/biocontainers/bioconductor-mfa
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

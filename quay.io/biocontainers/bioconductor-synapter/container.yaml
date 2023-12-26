@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-synapter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-synapter
 latest:
-  2.24.0--r43hdfd78af_0: sha256:009c3d932de898c1983dcc0d83db2591653bac86e41bcb950d904a215961d5ae
+  2.26.0--r43hdfd78af_0: sha256:9256e975f994e827596a06794cb3d6692819904cc2e5f2a34cc9bcaf09e1be27
 tags:
   2.8.0--r36_1: sha256:b3ca462a0eb36f009c48f82b3e9d5be2a1facebe5838d6b48b8981190f5d66d8
   2.22.0--r42hdfd78af_0: sha256:6711c74421c0f1e6b5b1a1f2f7200d26e2af859ce2dfe270e8dd00a69e597305
@@ -10,6 +10,7 @@ tags:
   2.12.0--r40_0: sha256:c6f8a9695c7f8a700f9262081c75fc7f2cb040c667a03fba41a79d6cb050ec2b
   2.10.0--r36_0: sha256:3a039550501b44c0c123575ad913f71a94ea375b2bf1299519fe3a12d52c6293
   2.24.0--r43hdfd78af_0: sha256:009c3d932de898c1983dcc0d83db2591653bac86e41bcb950d904a215961d5ae
+  2.26.0--r43hdfd78af_0: sha256:9256e975f994e827596a06794cb3d6692819904cc2e5f2a34cc9bcaf09e1be27
 docker: quay.io/biocontainers/bioconductor-synapter
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

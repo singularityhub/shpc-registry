@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-isomirs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-isomirs
 latest:
-  1.28.0--r43hdfd78af_0: sha256:c90453feda86498b879c69356afc0382e9f8adaace8cceaae45952c99f01fd78
+  1.30.0--r43hdfd78af_0: sha256:351367e1ecb33b3e6cddf5e9b40cb4c6197628ad5cbb7bda5bc97fa310f62c96
 tags:
   1.8.0--r341_0: sha256:fb4cddf8f3350e118dd1005c53d22ddd0d1cdfeddd9676b3307a9246ead47487
   1.26.0--r42hdfd78af_0: sha256:b60a14faeb298f34e987c0811df6c163a60121469793271221ae034fe5237dc9
@@ -11,6 +11,7 @@ tags:
   1.18.1--r40hdfd78af_0: sha256:458a7a523ccdbcf9bd5be997fd0c87c9561a111dd6371de68152f4fb96f5c58b
   1.16.0--r40_0: sha256:623435a757494e761ac71d84d98354033f8ceeb809362a1b72754d75faa3086f
   1.28.0--r43hdfd78af_0: sha256:c90453feda86498b879c69356afc0382e9f8adaace8cceaae45952c99f01fd78
+  1.30.0--r43hdfd78af_0: sha256:351367e1ecb33b3e6cddf5e9b40cb4c6197628ad5cbb7bda5bc97fa310f62c96
 docker: quay.io/biocontainers/bioconductor-isomirs
 aliases:
   wget: /usr/local/bin/wget

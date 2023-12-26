@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-hpaanalyze
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hpaanalyze
 latest:
-  1.18.1--r43hdfd78af_0: sha256:7e3a3647092aa22eb5920b0498466c263141484e3bfd09d3862200d4bd65c446
+  1.20.0--r43hdfd78af_1: sha256:c05d3213e840a305183e747296b52eb8f1469f1b46e7499b2213963208bdfe85
 tags:
   1.8.1--r40hdfd78af_0: sha256:4c8fdffe67ecd8b389c9c584c2348e8c7c219e086a1d91c8a7449f0d843c7733
   1.16.0--r42hdfd78af_0: sha256:946332e367e75963fad4d6c236ade6234aaad170716f9fed7a4dad520b7cc171
   1.12.0--r41hdfd78af_0: sha256:048c4c1631f7a015394448506e4987d9c8876bc5d972065165a74fa2a5a948f7
   1.10.0--r41hdfd78af_0: sha256:594961da93c133d021178edde6c26f6d5f05c7189a505a99bbe66c259b8f762c
   1.18.1--r43hdfd78af_0: sha256:7e3a3647092aa22eb5920b0498466c263141484e3bfd09d3862200d4bd65c446
+  1.20.0--r43hdfd78af_1: sha256:c05d3213e840a305183e747296b52eb8f1469f1b46e7499b2213963208bdfe85
 docker: quay.io/biocontainers/bioconductor-hpaanalyze
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

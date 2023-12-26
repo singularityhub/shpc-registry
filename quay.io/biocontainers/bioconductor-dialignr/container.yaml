@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-dialignr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dialignr
 latest:
-  2.8.0--r43hf17093f_0: sha256:064fa269888df5e92c8389116b7da282e724d8382a7c00029a67efadd1f1e4e9
+  2.10.0--r43hf17093f_0: sha256:cd22d777e2c4c118d6dd9ff2923111d05b38dd6e82a294adb60dfe4d13bb5f8c
 tags:
   2.2.0--r41hc247a5b_2: sha256:5f19f2cf1f68175db7d5d1451df164f6f2e778d28c0239672cd5065e13f80e8d
   2.6.0--r42hc247a5b_0: sha256:50e5bf70ad7dbfd894fc2e70b6eaefd0fb41ad8e03595fcfd93847e8d3cae573
   2.6.0--r42hf17093f_1: sha256:54cfe46bfd3215de4c1070551991749b203c4d0a1c5222ed300379814a14b2dc
   2.8.0--r43hf17093f_0: sha256:064fa269888df5e92c8389116b7da282e724d8382a7c00029a67efadd1f1e4e9
+  2.10.0--r43hf17093f_0: sha256:cd22d777e2c4c118d6dd9ff2923111d05b38dd6e82a294adb60dfe4d13bb5f8c
 docker: quay.io/biocontainers/bioconductor-dialignr
 aliases:
   zipcmp: /usr/local/bin/zipcmp

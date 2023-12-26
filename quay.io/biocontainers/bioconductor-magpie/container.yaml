@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-magpie
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-magpie
 latest:
-  1.0.0--r43hdfd78af_0: sha256:f0515c572ecc4e01a712eb7b40f60c7f25a6ea134e790d2e7891be01c763332d
+  1.2.0--r43hdfd78af_0: sha256:0cb54ff67d6ac5f27ca749a0d376351be43c1abf4089dcf124aae0d600fbfa9c
 tags:
   1.0.0--r43hdfd78af_0: sha256:f0515c572ecc4e01a712eb7b40f60c7f25a6ea134e790d2e7891be01c763332d
+  1.2.0--r43hdfd78af_0: sha256:0cb54ff67d6ac5f27ca749a0d376351be43c1abf4089dcf124aae0d600fbfa9c
 docker: quay.io/biocontainers/bioconductor-magpie
 aliases:
   hb-info: /usr/local/bin/hb-info

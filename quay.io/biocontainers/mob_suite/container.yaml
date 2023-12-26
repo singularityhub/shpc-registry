@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/mob_suite
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mob_suite
 latest:
-  3.1.7--pyh7cba7a3_0: sha256:ca3cb05e76366f4ee573f4af55df1a5b7f765b4bd268a4a0fbcda967b59402e1
+  3.1.8--pyhdfd78af_1: sha256:93c2c4a70dff9e50ea366b0dc2cf2f5c8b04cd40a1b326e5b5ae1610b63aa10d
 tags:
   3.1.0--pyhdfd78af_0: sha256:ea9a68e1fb86f058e4cd42e384a7f51df18689fdd585fa03790ed079733df629
   3.1.4--pyhdfd78af_0: sha256:6783ea481c6104be146437ddf6d31610b1bba9e03dc464597d83dfa7c2a2ade6
   3.1.6--pyhdfd78af_0: sha256:1cec27ebdaa5a8425a8c245002ddf781e6ffecd0cb725de494003ac9abeacf04
   3.1.7--pyh7cba7a3_0: sha256:ca3cb05e76366f4ee573f4af55df1a5b7f765b4bd268a4a0fbcda967b59402e1
+  3.1.8--pyhdfd78af_1: sha256:93c2c4a70dff9e50ea366b0dc2cf2f5c8b04cd40a1b326e5b5ae1610b63aa10d
 docker: quay.io/biocontainers/mob_suite
 aliases:
   attr: /usr/local/bin/attr

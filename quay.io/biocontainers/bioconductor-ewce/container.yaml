@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-ewce
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ewce
 latest:
-  1.8.2--r43hdfd78af_0: sha256:1dd332f315fbce5b7bf86b352fd27d191e9c558710ddf97d29e7ba12c224a0b6
+  1.10.2--r43hdfd78af_0: sha256:3769b5bb8eb39753f90377dbbe647cb91274aba25ae91a3eff9f0b48ad421621
 tags:
   1.2.0--r41hdfd78af_0: sha256:745deb9a0cd62484210da4357840222560dc1ed22574e5c80ac79fa21065ec7a
   1.6.0--r42hdfd78af_0: sha256:f8d301f97eafa95e88d6ca1a92bf86d093d13196a137325c11fdd7387fda2ff4
   1.8.2--r43hdfd78af_0: sha256:1dd332f315fbce5b7bf86b352fd27d191e9c558710ddf97d29e7ba12c224a0b6
+  1.10.2--r43hdfd78af_0: sha256:3769b5bb8eb39753f90377dbbe647cb91274aba25ae91a3eff9f0b48ad421621
 docker: quay.io/biocontainers/bioconductor-ewce
