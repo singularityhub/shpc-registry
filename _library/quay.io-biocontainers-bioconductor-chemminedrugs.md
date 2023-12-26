@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chemminedrugs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chemminedrugs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chemminedrugs/container.yaml"
-updated_at: "2023-12-25 02:57:57.170412"
-latest: "1.0.2--r43hdfd78af_11"
+updated_at: "2023-12-26 02:55:18.625429"
+latest: "1.0.2--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-chemminedrugs"
 aliases:
  - "rsvg-convert"
@@ -17,8 +17,9 @@ versions:
  - "1.0.2--r41hdfd78af_9"
  - "1.0.2--r42hdfd78af_10"
  - "1.0.2--r43hdfd78af_11"
+ - "1.0.2--r43hdfd78af_12"
 description: "shpc-registry automated BioContainers addition for bioconductor-chemminedrugs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chemminedrugs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chemminedrugs", "latest": {"1.0.2--r43hdfd78af_11": "sha256:0c3119f2a6b52834d5275a42826f777c5c2508e7da3139a52fbc0b051990bf7f"}, "tags": {"1.0.2--r41hdfd78af_9": "sha256:80d3f58de9f95c35f4273abc831ea79b0c1a3ee554632529e26469725e42fc7e", "1.0.2--r42hdfd78af_10": "sha256:a4da1630190e0f7cda74d856be8193e5349b4db3b3932a9922ea3e7d32eb715b", "1.0.2--r43hdfd78af_11": "sha256:0c3119f2a6b52834d5275a42826f777c5c2508e7da3139a52fbc0b051990bf7f"}, "docker": "quay.io/biocontainers/bioconductor-chemminedrugs", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chemminedrugs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chemminedrugs", "latest": {"1.0.2--r43hdfd78af_12": "sha256:320c614102848f108773745ca5322e21aad6bdb36455e4fe79d57470a1673c7d"}, "tags": {"1.0.2--r41hdfd78af_9": "sha256:80d3f58de9f95c35f4273abc831ea79b0c1a3ee554632529e26469725e42fc7e", "1.0.2--r42hdfd78af_10": "sha256:a4da1630190e0f7cda74d856be8193e5349b4db3b3932a9922ea3e7d32eb715b", "1.0.2--r43hdfd78af_11": "sha256:0c3119f2a6b52834d5275a42826f777c5c2508e7da3139a52fbc0b051990bf7f", "1.0.2--r43hdfd78af_12": "sha256:320c614102848f108773745ca5322e21aad6bdb36455e4fe79d57470a1673c7d"}, "docker": "quay.io/biocontainers/bioconductor-chemminedrugs", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chemminedrugs.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chemminedrugs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chemminedrugs:1.0.2--r43hdfd78af_11
+$ shpc install quay.io/biocontainers/bioconductor-chemminedrugs:1.0.2--r43hdfd78af_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chemminedrugs/1.0.2--r43hdfd78af_11
-$ module help quay.io/biocontainers/bioconductor-chemminedrugs/1.0.2--r43hdfd78af_11
+$ module load quay.io/biocontainers/bioconductor-chemminedrugs/1.0.2--r43hdfd78af_12
+$ module help quay.io/biocontainers/bioconductor-chemminedrugs/1.0.2--r43hdfd78af_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mobilitytransformr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mobilitytransformr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mobilitytransformr/container.yaml"
-updated_at: "2023-12-25 02:43:06.011077"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2023-12-26 02:40:11.259047"
+latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mobilitytransformr"
 aliases:
  - "zipcmp"
@@ -36,8 +36,9 @@ aliases:
 versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.6.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-mobilitytransformr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mobilitytransformr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-mobilitytransformr", "latest": {"1.4.0--r43hdfd78af_0": "sha256:e1ba65a76162fc89d449fab37226eb5e9a763dcc686fd6dda791d8e525ba675e"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:e0ee3bc11d065d7ec1af786fdf8887753eb459147ea5e2f40d9f0b2c48d44be2", "1.4.0--r43hdfd78af_0": "sha256:e1ba65a76162fc89d449fab37226eb5e9a763dcc686fd6dda791d8e525ba675e"}, "docker": "quay.io/biocontainers/bioconductor-mobilitytransformr", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp", "hdfed": "/usr/local/bin/hdfed", "hdfimport": "/usr/local/bin/hdfimport", "hdfls": "/usr/local/bin/hdfls", "hdfpack": "/usr/local/bin/hdfpack", "hdftopal": "/usr/local/bin/hdftopal", "hdftor8": "/usr/local/bin/hdftor8", "hdfunpac": "/usr/local/bin/hdfunpac", "hdiff": "/usr/local/bin/hdiff", "hdp": "/usr/local/bin/hdp", "hrepack": "/usr/local/bin/hrepack", "jpeg2hdf": "/usr/local/bin/jpeg2hdf", "paltohdf": "/usr/local/bin/paltohdf"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mobilitytransformr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-mobilitytransformr", "latest": {"1.6.0--r43hdfd78af_0": "sha256:9988160d2df6855f585f5e5bb053a99292c65622018144137effaae76b6bddf6"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:e0ee3bc11d065d7ec1af786fdf8887753eb459147ea5e2f40d9f0b2c48d44be2", "1.4.0--r43hdfd78af_0": "sha256:e1ba65a76162fc89d449fab37226eb5e9a763dcc686fd6dda791d8e525ba675e", "1.6.0--r43hdfd78af_0": "sha256:9988160d2df6855f585f5e5bb053a99292c65622018144137effaae76b6bddf6"}, "docker": "quay.io/biocontainers/bioconductor-mobilitytransformr", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp", "hdfed": "/usr/local/bin/hdfed", "hdfimport": "/usr/local/bin/hdfimport", "hdfls": "/usr/local/bin/hdfls", "hdfpack": "/usr/local/bin/hdfpack", "hdftopal": "/usr/local/bin/hdftopal", "hdftor8": "/usr/local/bin/hdftor8", "hdfunpac": "/usr/local/bin/hdfunpac", "hdiff": "/usr/local/bin/hdiff", "hdp": "/usr/local/bin/hdp", "hrepack": "/usr/local/bin/hrepack", "jpeg2hdf": "/usr/local/bin/jpeg2hdf", "paltohdf": "/usr/local/bin/paltohdf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mobilitytransformr.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mobilitytransformr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mobilitytransformr:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mobilitytransformr:1.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mobilitytransformr/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mobilitytransformr/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mobilitytransformr/1.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mobilitytransformr/1.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

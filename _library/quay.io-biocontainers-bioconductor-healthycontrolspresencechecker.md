@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-healthycontrolspresencechecker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-healthycontrolspresencechecker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-healthycontrolspresencechecker/container.yaml"
-updated_at: "2023-12-25 03:02:10.493584"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2023-12-26 02:59:35.980156"
+latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-healthycontrolspresencechecker"
 aliases:
  - "installBiocDataPackage.sh"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.6.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-healthycontrolspresencechecker"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-healthycontrolspresencechecker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-healthycontrolspresencechecker", "latest": {"1.4.0--r43hdfd78af_0": "sha256:ba4f75279c8da18b7bf29b88e669e60f4a86c8f9fd3f4b8aa74db5d3fb60ed49"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:e83220cd59e79e1501b8bb6cfb8e9dd64e56c15580cbefe4d0062212e63695ff", "1.4.0--r43hdfd78af_0": "sha256:ba4f75279c8da18b7bf29b88e669e60f4a86c8f9fd3f4b8aa74db5d3fb60ed49"}, "docker": "quay.io/biocontainers/bioconductor-healthycontrolspresencechecker", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-healthycontrolspresencechecker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-healthycontrolspresencechecker", "latest": {"1.6.0--r43hdfd78af_0": "sha256:1631d71eed2c57b18395d43528b546a192ef384e220d6382b0cd590b823cd834"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:e83220cd59e79e1501b8bb6cfb8e9dd64e56c15580cbefe4d0062212e63695ff", "1.4.0--r43hdfd78af_0": "sha256:ba4f75279c8da18b7bf29b88e669e60f4a86c8f9fd3f4b8aa74db5d3fb60ed49", "1.6.0--r43hdfd78af_0": "sha256:1631d71eed2c57b18395d43528b546a192ef384e220d6382b0cd590b823cd834"}, "docker": "quay.io/biocontainers/bioconductor-healthycontrolspresencechecker", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-healthycontrolspresencechecker.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-healthycontrolspresencechecker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-healthycontrolspresencechecker:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-healthycontrolspresencechecker:1.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-healthycontrolspresencechecker/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-healthycontrolspresencechecker/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-healthycontrolspresencechecker/1.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-healthycontrolspresencechecker/1.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

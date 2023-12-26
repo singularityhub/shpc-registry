@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-celarefdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-celarefdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-celarefdata/container.yaml"
-updated_at: "2023-12-25 03:08:09.706009"
-latest: "1.18.0--r43hdfd78af_0"
+updated_at: "2023-12-26 03:05:40.869110"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-celarefdata"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "1.12.0--r41hdfd78af_1"
  - "1.10.0--r41hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-celarefdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-celarefdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-celarefdata", "latest": {"1.18.0--r43hdfd78af_0": "sha256:b476f61af84c0ac0d1e728ac4f4f1e91198dffe6ea0c182546e33399bbaa3b59"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:f839a2f6cfff34b5532027f010aadcfc2bc67c542cf0726cf280d1d0dfc3114e", "1.15.0--r42hdfd78af_0": "sha256:5b97d1ba0c5e65effc286ff43faeebdf622c401041d9282656e397e032c025e3", "1.12.0--r41hdfd78af_1": "sha256:9af9b6c2f423f8c18add71f549511edbafadc86411791dac0643bf4698245cc1", "1.10.0--r41hdfd78af_0": "sha256:d9989dccf9279ed7e1bd52617caa97e451c6289d6a6b7589c65e4086598392ba", "1.18.0--r43hdfd78af_0": "sha256:b476f61af84c0ac0d1e728ac4f4f1e91198dffe6ea0c182546e33399bbaa3b59"}, "docker": "quay.io/biocontainers/bioconductor-celarefdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-celarefdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-celarefdata", "latest": {"1.20.0--r43hdfd78af_0": "sha256:72f2fa7c49d6f74f507fd5174275255bb1a74463c5962b34ee08000cf1ca78da"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:f839a2f6cfff34b5532027f010aadcfc2bc67c542cf0726cf280d1d0dfc3114e", "1.15.0--r42hdfd78af_0": "sha256:5b97d1ba0c5e65effc286ff43faeebdf622c401041d9282656e397e032c025e3", "1.12.0--r41hdfd78af_1": "sha256:9af9b6c2f423f8c18add71f549511edbafadc86411791dac0643bf4698245cc1", "1.10.0--r41hdfd78af_0": "sha256:d9989dccf9279ed7e1bd52617caa97e451c6289d6a6b7589c65e4086598392ba", "1.18.0--r43hdfd78af_0": "sha256:b476f61af84c0ac0d1e728ac4f4f1e91198dffe6ea0c182546e33399bbaa3b59", "1.20.0--r43hdfd78af_0": "sha256:72f2fa7c49d6f74f507fd5174275255bb1a74463c5962b34ee08000cf1ca78da"}, "docker": "quay.io/biocontainers/bioconductor-celarefdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-celarefdata.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-celarefdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-celarefdata:1.18.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-celarefdata:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-celarefdata/1.18.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-celarefdata/1.18.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-celarefdata/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-celarefdata/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

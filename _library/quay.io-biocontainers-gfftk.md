@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gfftk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfftk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfftk/container.yaml"
-updated_at: "2023-12-25 02:33:51.724291"
-latest: "23.9.6--pyhdfd78af_0"
+updated_at: "2023-12-26 02:30:46.112250"
+latest: "23.12.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gfftk"
 aliases:
  - "gfftk"
@@ -18,8 +18,9 @@ aliases:
  - "natsort"
 versions:
  - "23.9.6--pyhdfd78af_0"
+ - "23.12.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for gfftk"
-config: {"url": "https://biocontainers.pro/tools/gfftk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gfftk", "latest": {"23.9.6--pyhdfd78af_0": "sha256:7f95a7662694bd17189f1fac7be32213b1fd737c4a53009ca34203a7e3d9d89a"}, "tags": {"23.9.6--pyhdfd78af_0": "sha256:7f95a7662694bd17189f1fac7be32213b1fd737c4a53009ca34203a7e3d9d89a"}, "docker": "quay.io/biocontainers/gfftk", "aliases": {"gfftk": "/usr/local/bin/gfftk", "table2asn": "/usr/local/bin/table2asn", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "natsort": "/usr/local/bin/natsort"}}
+config: {"url": "https://biocontainers.pro/tools/gfftk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gfftk", "latest": {"23.12.5--pyhdfd78af_0": "sha256:f3b42a8eeb360a5cbe27ae99c650d3ef098d7da8c8244e34c91dcd0a12ec2494"}, "tags": {"23.9.6--pyhdfd78af_0": "sha256:7f95a7662694bd17189f1fac7be32213b1fd737c4a53009ca34203a7e3d9d89a", "23.12.5--pyhdfd78af_0": "sha256:f3b42a8eeb360a5cbe27ae99c650d3ef098d7da8c8244e34c91dcd0a12ec2494"}, "docker": "quay.io/biocontainers/gfftk", "aliases": {"gfftk": "/usr/local/bin/gfftk", "table2asn": "/usr/local/bin/table2asn", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "natsort": "/usr/local/bin/natsort"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gfftk.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/gfftk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gfftk:23.9.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gfftk:23.12.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gfftk/23.9.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/gfftk/23.9.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/gfftk/23.12.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/gfftk/23.12.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

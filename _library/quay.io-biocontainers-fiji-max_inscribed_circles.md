@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fiji-max_inscribed_circles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fiji-max_inscribed_circles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fiji-max_inscribed_circles/container.yaml"
-updated_at: "2023-12-25 02:36:54.047930"
-latest: "2.0.0--hdfd78af_0"
+updated_at: "2023-12-26 02:33:52.145338"
+latest: "2.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fiji-max_inscribed_circles"
 aliases:
  - "ImageJ"
@@ -38,8 +38,9 @@ aliases:
  - "jps"
 versions:
  - "2.0.0--hdfd78af_0"
+ - "2.1.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for fiji-max_inscribed_circles"
-config: {"url": "https://biocontainers.pro/tools/fiji-max_inscribed_circles", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fiji-max_inscribed_circles", "latest": {"2.0.0--hdfd78af_0": "sha256:47700c567d84c9c074914f4dbf9b7e5d72bfba71fb649334d0aefe307bb6aee2"}, "tags": {"2.0.0--hdfd78af_0": "sha256:47700c567d84c9c074914f4dbf9b7e5d72bfba71fb649334d0aefe307bb6aee2"}, "docker": "quay.io/biocontainers/fiji-max_inscribed_circles", "aliases": {"ImageJ": "/usr/local/bin/ImageJ", "ImageJ_bin": "/usr/local/bin/ImageJ_bin", "bunwarpj": "/usr/local/bin/bunwarpj", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
+config: {"url": "https://biocontainers.pro/tools/fiji-max_inscribed_circles", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fiji-max_inscribed_circles", "latest": {"2.1.0--hdfd78af_0": "sha256:6e3a1218ed954e9791bde4af1706b7abe319c54dc85f05a083022b21f399741e"}, "tags": {"2.0.0--hdfd78af_0": "sha256:47700c567d84c9c074914f4dbf9b7e5d72bfba71fb649334d0aefe307bb6aee2", "2.1.0--hdfd78af_0": "sha256:6e3a1218ed954e9791bde4af1706b7abe319c54dc85f05a083022b21f399741e"}, "docker": "quay.io/biocontainers/fiji-max_inscribed_circles", "aliases": {"ImageJ": "/usr/local/bin/ImageJ", "ImageJ_bin": "/usr/local/bin/ImageJ_bin", "bunwarpj": "/usr/local/bin/bunwarpj", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fiji-max_inscribed_circles.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/fiji-max_inscribed_circles
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fiji-max_inscribed_circles:2.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/fiji-max_inscribed_circles:2.1.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fiji-max_inscribed_circles/2.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/fiji-max_inscribed_circles/2.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/fiji-max_inscribed_circles/2.1.0--hdfd78af_0
+$ module help quay.io/biocontainers/fiji-max_inscribed_circles/2.1.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-yarn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yarn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yarn/container.yaml"
-updated_at: "2023-12-25 03:04:17.523085"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2023-12-26 03:01:45.041396"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-yarn"
 aliases:
  - "wget"
@@ -19,8 +19,9 @@ versions:
  - "1.16.0--r40hdfd78af_1"
  - "1.14.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-yarn"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-yarn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-yarn", "latest": {"1.26.0--r43hdfd78af_0": "sha256:c62bec0bf7341e3eb3dcc903f29ce28b70457d1ed20452cecbca47344e69454b"}, "tags": {"1.8.0--r351_0": "sha256:28d0a139a27e473ff709bc7ee4301e1c501040230d0212ef3aa389acc3106b4f", "1.24.0--r42hdfd78af_0": "sha256:dcd86f0c9c28016f6ed9498adbc30d2d1ca1129d0ef95aab108a53bb94469165", "1.20.0--r41hdfd78af_0": "sha256:97365a6d69cb93fcd4ba135851a6b67bfec34ea98062e9a2d6d7aab0f3acbcb8", "1.18.0--r41hdfd78af_0": "sha256:5ff74f46eae3326cdfcd62a7863aa3c1df40571bf6bde6b9e7c728f58d84067a", "1.16.0--r40hdfd78af_1": "sha256:cb1be6d32dff01c7ae28ce32630ef170fddc9d7d13d6e83616d894e6896c9abb", "1.14.0--r40_0": "sha256:bd3fd3c581f530cd407508d06522e9ff13e9a1bd7d0ae57123da25d027132e29", "1.26.0--r43hdfd78af_0": "sha256:c62bec0bf7341e3eb3dcc903f29ce28b70457d1ed20452cecbca47344e69454b"}, "docker": "quay.io/biocontainers/bioconductor-yarn", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-yarn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-yarn", "latest": {"1.28.0--r43hdfd78af_0": "sha256:fade8f05661b85f79445c431087d47c7d25696c2b8ea99d93385e7522f641231"}, "tags": {"1.8.0--r351_0": "sha256:28d0a139a27e473ff709bc7ee4301e1c501040230d0212ef3aa389acc3106b4f", "1.24.0--r42hdfd78af_0": "sha256:dcd86f0c9c28016f6ed9498adbc30d2d1ca1129d0ef95aab108a53bb94469165", "1.20.0--r41hdfd78af_0": "sha256:97365a6d69cb93fcd4ba135851a6b67bfec34ea98062e9a2d6d7aab0f3acbcb8", "1.18.0--r41hdfd78af_0": "sha256:5ff74f46eae3326cdfcd62a7863aa3c1df40571bf6bde6b9e7c728f58d84067a", "1.16.0--r40hdfd78af_1": "sha256:cb1be6d32dff01c7ae28ce32630ef170fddc9d7d13d6e83616d894e6896c9abb", "1.14.0--r40_0": "sha256:bd3fd3c581f530cd407508d06522e9ff13e9a1bd7d0ae57123da25d027132e29", "1.26.0--r43hdfd78af_0": "sha256:c62bec0bf7341e3eb3dcc903f29ce28b70457d1ed20452cecbca47344e69454b", "1.28.0--r43hdfd78af_0": "sha256:fade8f05661b85f79445c431087d47c7d25696c2b8ea99d93385e7522f641231"}, "docker": "quay.io/biocontainers/bioconductor-yarn", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-yarn.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-yarn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-yarn:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-yarn:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-yarn/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-yarn/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-yarn/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-yarn/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

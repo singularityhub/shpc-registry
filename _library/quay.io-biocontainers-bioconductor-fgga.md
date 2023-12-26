@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fgga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fgga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fgga/container.yaml"
-updated_at: "2023-12-25 02:38:33.713560"
+updated_at: "2023-12-26 02:35:33.645742"
 latest: "1.9.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fgga"
 

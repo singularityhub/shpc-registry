@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pasta/container.yaml"
-updated_at: "2023-12-25 03:01:09.669960"
-latest: "1.7.8--py36h8c4c3a4_4"
+updated_at: "2023-12-26 02:58:34.162512"
+latest: "1.9.0--py39hf48a03f_0"
 container_url: "https://biocontainers.pro/tools/pasta"
 aliases:
  - "fakealigner"
@@ -33,8 +33,9 @@ aliases:
  - "jaotc"
 versions:
  - "1.7.8--py36h8c4c3a4_4"
+ - "1.9.0--py39hf48a03f_0"
 description: "shpc-registry automated BioContainers addition for pasta"
-config: {"url": "https://biocontainers.pro/tools/pasta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pasta", "latest": {"1.7.8--py36h8c4c3a4_4": "sha256:3aa9f94be4732e32add993c19017df3ab6ed4a0465944450dfb219373f9f5d36"}, "tags": {"1.7.8--py36h8c4c3a4_4": "sha256:3aa9f94be4732e32add993c19017df3ab6ed4a0465944450dfb219373f9f5d36"}, "docker": "quay.io/biocontainers/pasta", "aliases": {"fakealigner": "/usr/local/bin/fakealigner", "faketree": "/usr/local/bin/faketree", "fasttreeMP": "/usr/local/bin/fasttreeMP", "hmmeralign": "/usr/local/bin/hmmeralign", "hmmerbuild": "/usr/local/bin/hmmerbuild", "opal.jar": "/usr/local/bin/opal.jar", "padaligner": "/usr/local/bin/padaligner", "randtree": "/usr/local/bin/randtree", "raxml": "/usr/local/bin/raxml", "raxmlp": "/usr/local/bin/raxmlp", "run_pasta.py": "/usr/local/bin/run_pasta.py", "run_pasta_gui.py": "/usr/local/bin/run_pasta_gui.py", "run_seqtools.py": "/usr/local/bin/run_seqtools.py", "prank": "/usr/local/bin/prank", "muscle": "/usr/local/bin/muscle", "fasttree": "/usr/local/bin/fasttree", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "clustalw2": "/usr/local/bin/clustalw2", "mafft": "/usr/local/bin/mafft", "hmmalign": "/usr/local/bin/hmmalign", "hmmbuild": "/usr/local/bin/hmmbuild", "jaotc": "/usr/local/bin/jaotc"}}
+config: {"url": "https://biocontainers.pro/tools/pasta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pasta", "latest": {"1.9.0--py39hf48a03f_0": "sha256:f8d807d23493337085fbe54c8ad22c573c8820706033a2475cc6f18ad846731c"}, "tags": {"1.7.8--py36h8c4c3a4_4": "sha256:3aa9f94be4732e32add993c19017df3ab6ed4a0465944450dfb219373f9f5d36", "1.9.0--py39hf48a03f_0": "sha256:f8d807d23493337085fbe54c8ad22c573c8820706033a2475cc6f18ad846731c"}, "docker": "quay.io/biocontainers/pasta", "aliases": {"fakealigner": "/usr/local/bin/fakealigner", "faketree": "/usr/local/bin/faketree", "fasttreeMP": "/usr/local/bin/fasttreeMP", "hmmeralign": "/usr/local/bin/hmmeralign", "hmmerbuild": "/usr/local/bin/hmmerbuild", "opal.jar": "/usr/local/bin/opal.jar", "padaligner": "/usr/local/bin/padaligner", "randtree": "/usr/local/bin/randtree", "raxml": "/usr/local/bin/raxml", "raxmlp": "/usr/local/bin/raxmlp", "run_pasta.py": "/usr/local/bin/run_pasta.py", "run_pasta_gui.py": "/usr/local/bin/run_pasta_gui.py", "run_seqtools.py": "/usr/local/bin/run_seqtools.py", "prank": "/usr/local/bin/prank", "muscle": "/usr/local/bin/muscle", "fasttree": "/usr/local/bin/fasttree", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "clustalw2": "/usr/local/bin/clustalw2", "mafft": "/usr/local/bin/mafft", "hmmalign": "/usr/local/bin/hmmalign", "hmmbuild": "/usr/local/bin/hmmbuild", "jaotc": "/usr/local/bin/jaotc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pasta.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/pasta
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pasta:1.7.8--py36h8c4c3a4_4
+$ shpc install quay.io/biocontainers/pasta:1.9.0--py39hf48a03f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pasta/1.7.8--py36h8c4c3a4_4
-$ module help quay.io/biocontainers/pasta/1.7.8--py36h8c4c3a4_4
+$ module load quay.io/biocontainers/pasta/1.9.0--py39hf48a03f_0
+$ module help quay.io/biocontainers/pasta/1.9.0--py39hf48a03f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bigmemory"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bigmemory/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bigmemory/container.yaml"
-updated_at: "2023-12-25 02:35:22.245058"
+updated_at: "2023-12-26 02:32:18.657584"
 latest: "4.5.19--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-bigmemory"
 

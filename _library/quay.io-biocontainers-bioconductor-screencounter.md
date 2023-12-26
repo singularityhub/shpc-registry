@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-screencounter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-screencounter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-screencounter/container.yaml"
-updated_at: "2023-12-25 02:55:51.736853"
-latest: "1.0.1--r43hf17093f_0"
+updated_at: "2023-12-26 02:53:10.790734"
+latest: "1.2.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-screencounter"
 aliases:
  - "hb-info"
@@ -27,8 +27,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.1--r43hf17093f_0"
+ - "1.2.0--r43hf17093f_0"
 description: "singularity registry hpc automated addition for bioconductor-screencounter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-screencounter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-screencounter", "latest": {"1.0.1--r43hf17093f_0": "sha256:d23e1c6586bb7559cbd60e8081b992f83139065240760587ed755c3b71ae6ad5"}, "tags": {"1.0.1--r43hf17093f_0": "sha256:d23e1c6586bb7559cbd60e8081b992f83139065240760587ed755c3b71ae6ad5"}, "docker": "quay.io/biocontainers/bioconductor-screencounter", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-screencounter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-screencounter", "latest": {"1.2.0--r43hf17093f_0": "sha256:dde6fa3ea16a08542da4888716c8bfb4e91d76d1e689f1521ed2982bb2850654"}, "tags": {"1.0.1--r43hf17093f_0": "sha256:d23e1c6586bb7559cbd60e8081b992f83139065240760587ed755c3b71ae6ad5", "1.2.0--r43hf17093f_0": "sha256:dde6fa3ea16a08542da4888716c8bfb4e91d76d1e689f1521ed2982bb2850654"}, "docker": "quay.io/biocontainers/bioconductor-screencounter", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-screencounter.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-screencounter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-screencounter:1.0.1--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-screencounter:1.2.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-screencounter/1.0.1--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-screencounter/1.0.1--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-screencounter/1.2.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-screencounter/1.2.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

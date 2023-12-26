@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-zebrafishrnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-zebrafishrnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-zebrafishrnaseq/container.yaml"
-updated_at: "2023-12-25 02:51:32.145192"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2023-12-26 02:48:46.582771"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-zebrafishrnaseq"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
  - "1.20.0--r43hdfd78af_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-zebrafishrnaseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-zebrafishrnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-zebrafishrnaseq", "latest": {"1.20.0--r43hdfd78af_0": "sha256:af6871245c1e3b31c1bfcbce9d36b99b105464554ec317de0404508e29e0116b"}, "tags": {"1.9.0--r40_0": "sha256:7221fb618f6399b2b2a6672da2882ef6c15a52498e4bc0a37218a03ae0c270af", "1.17.0--r42hdfd78af_0": "sha256:7679f2ff753439a35ba3f84fc8dece993c9c34189ed804a7ec1e236e20971901", "1.14.0--r41hdfd78af_1": "sha256:9a571d5f70ff4660f253eed45b6f6e5679c3272a6f13ce27960fdb026dbe38e3", "1.12.0--r41hdfd78af_0": "sha256:5ea0ecb25d1a887f385198a2c9326b89eef6bf61e2aface1c7b54504976f221e", "1.10.0--r40hdfd78af_1": "sha256:6af77b16104be663df98052d37bf6e78be5660eb2048ba5243bee6f9d197bc7e", "1.20.0--r43hdfd78af_0": "sha256:af6871245c1e3b31c1bfcbce9d36b99b105464554ec317de0404508e29e0116b"}, "docker": "quay.io/biocontainers/bioconductor-zebrafishrnaseq", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-zebrafishrnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-zebrafishrnaseq", "latest": {"1.22.0--r43hdfd78af_0": "sha256:6dbca71541aacf83ed6a1962f1507111fe75f5364e120cdfa6625b49cfde38f0"}, "tags": {"1.9.0--r40_0": "sha256:7221fb618f6399b2b2a6672da2882ef6c15a52498e4bc0a37218a03ae0c270af", "1.17.0--r42hdfd78af_0": "sha256:7679f2ff753439a35ba3f84fc8dece993c9c34189ed804a7ec1e236e20971901", "1.14.0--r41hdfd78af_1": "sha256:9a571d5f70ff4660f253eed45b6f6e5679c3272a6f13ce27960fdb026dbe38e3", "1.12.0--r41hdfd78af_0": "sha256:5ea0ecb25d1a887f385198a2c9326b89eef6bf61e2aface1c7b54504976f221e", "1.10.0--r40hdfd78af_1": "sha256:6af77b16104be663df98052d37bf6e78be5660eb2048ba5243bee6f9d197bc7e", "1.20.0--r43hdfd78af_0": "sha256:af6871245c1e3b31c1bfcbce9d36b99b105464554ec317de0404508e29e0116b", "1.22.0--r43hdfd78af_0": "sha256:6dbca71541aacf83ed6a1962f1507111fe75f5364e120cdfa6625b49cfde38f0"}, "docker": "quay.io/biocontainers/bioconductor-zebrafishrnaseq", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-zebrafishrnaseq.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-zebrafishrnaseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-zebrafishrnaseq:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-zebrafishrnaseq:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-zebrafishrnaseq/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-zebrafishrnaseq/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-zebrafishrnaseq/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-zebrafishrnaseq/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
