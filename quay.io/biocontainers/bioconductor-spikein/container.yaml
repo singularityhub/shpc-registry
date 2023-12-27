@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-spikein
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-spikein
 latest:
-  1.42.0--r43hdfd78af_0: sha256:e41583025739a8bc12fd2c895e40011eed6b010939e014eb18b4f5c71d40bcbd
+  1.44.0--r43hdfd78af_0: sha256:383762701561063e69769e40dabfed3c871343582dde8e19592d1f6faa839db9
 tags:
   1.36.0--r41hdfd78af_1: sha256:5ee88a68d7dee3ffaf53b6da2f63f9c545f13b9224a23d773baa3e6cff8bfe77
   1.40.0--r42hdfd78af_0: sha256:e437d89116ada86d11876ff76730095f7a804f65aa165791c814ce5fda2fca6d
   1.42.0--r43hdfd78af_0: sha256:e41583025739a8bc12fd2c895e40011eed6b010939e014eb18b4f5c71d40bcbd
+  1.44.0--r43hdfd78af_0: sha256:383762701561063e69769e40dabfed3c871343582dde8e19592d1f6faa839db9
 docker: quay.io/biocontainers/bioconductor-spikein

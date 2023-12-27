@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mogene10stv1cdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mogene10stv1cdf
 latest:
-  2.18.0--r43hdfd78af_11: sha256:72930f4f2d20a95019006cebdfa38f912e5922c54c2ddcf235817947ad37f835
+  2.18.0--r43hdfd78af_12: sha256:9c7e8e7bdc4aaf38aff0383400afbeaca3a3daeb7ab253c084ac68849f4ae43b
 tags:
   2.18.0--r41hdfd78af_9: sha256:d9dcb5d1959b12c66ffbb6379be9d5ff07f2534a3171b9b988b2a8443ac76e84
   2.18.0--r42hdfd78af_10: sha256:2e4145b303e483cd5f20a77a71ec70c85a32f0afeb9e6175d86b883e0682bb6a
   2.18.0--r43hdfd78af_11: sha256:72930f4f2d20a95019006cebdfa38f912e5922c54c2ddcf235817947ad37f835
+  2.18.0--r43hdfd78af_12: sha256:9c7e8e7bdc4aaf38aff0383400afbeaca3a3daeb7ab253c084ac68849f4ae43b
 docker: quay.io/biocontainers/bioconductor-mogene10stv1cdf

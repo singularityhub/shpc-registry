@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-sagenhaft
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sagenhaft
 latest:
-  1.70.0--r43hdfd78af_0: sha256:6a830adda0cbd15c399634a4382637ac2b217136425b731db0d381b40e3fee6b
+  1.72.0--r43hdfd78af_1: sha256:9673a25c24ea006d14a39a2ed55aed9a78a973103514a5811f1406a7b011fbbe
 tags:
   1.64.0--r41hdfd78af_0: sha256:d73a32bac8e7599e715ca3eb466756ceba874fc963c3fca4247048017e7cda0d
   1.68.0--r42hdfd78af_0: sha256:44ee5013bf0e0d839cc816e38f04f4995a7929203d939af4d339149039ead521
   1.70.0--r43hdfd78af_0: sha256:6a830adda0cbd15c399634a4382637ac2b217136425b731db0d381b40e3fee6b
+  1.72.0--r43hdfd78af_1: sha256:9673a25c24ea006d14a39a2ed55aed9a78a973103514a5811f1406a7b011fbbe
 docker: quay.io/biocontainers/bioconductor-sagenhaft

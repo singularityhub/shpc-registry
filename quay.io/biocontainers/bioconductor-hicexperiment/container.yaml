@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-hicexperiment
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-hicexperiment
 latest:
-  1.0.0--r43hdfd78af_0: sha256:1946eb96561041a055783f195d0142ada1089eb6eef8f359b5ea5aabe701f465
+  1.2.0--r43hdfd78af_0: sha256:77cec683853137a762b46dc73cadebbf9efbdce10803c42620d9e708a2130c38
 tags:
   1.0.0--r43hdfd78af_0: sha256:1946eb96561041a055783f195d0142ada1089eb6eef8f359b5ea5aabe701f465
+  1.2.0--r43hdfd78af_0: sha256:77cec683853137a762b46dc73cadebbf9efbdce10803c42620d9e708a2130c38
 docker: quay.io/biocontainers/bioconductor-hicexperiment
 aliases:
   hb-info: /usr/local/bin/hb-info

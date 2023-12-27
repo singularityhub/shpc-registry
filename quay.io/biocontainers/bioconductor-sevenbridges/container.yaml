@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-sevenbridges
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sevenbridges
 latest:
-  1.30.0--r43hdfd78af_0: sha256:a68d37fafcb078458ab85856d0b3fb219405aa25b9348a18d6a3a7763a680d81
+  1.32.0--r43hdfd78af_0: sha256:7e962942ec4167347fe6ec2c4710a53ab272aaae735a2e16d967444a450edf17
 tags:
   1.24.0--r41hdfd78af_0: sha256:b73cb5e2300bb999ffccc42bac1b1d3c854ad52100e5ed3ca112500a7153046f
   1.28.0--r42hdfd78af_0: sha256:93b0a23e94444abed9ed620db62b29aa67921d192cb802c6ac062abb0c0dc3b9
   1.30.0--r43hdfd78af_0: sha256:a68d37fafcb078458ab85856d0b3fb219405aa25b9348a18d6a3a7763a680d81
+  1.32.0--r43hdfd78af_0: sha256:7e962942ec4167347fe6ec2c4710a53ab272aaae735a2e16d967444a450edf17
 docker: quay.io/biocontainers/bioconductor-sevenbridges

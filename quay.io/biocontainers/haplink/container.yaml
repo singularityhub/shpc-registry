@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/haplink
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for haplink
 latest:
-  1.0.0--h031d066_0: sha256:24be64f759b16a0417604d173ab828ac7d555ac4fdf95788676ee8ebe4525300
+  1.1.0--h031d066_0: sha256:890ea9df40044bbbc326f8b55ff95e2e68923daa0d6b635ebc74a1c523c496e5
 tags:
   1.0.0--h031d066_0: sha256:24be64f759b16a0417604d173ab828ac7d555ac4fdf95788676ee8ebe4525300
+  1.1.0--h031d066_0: sha256:890ea9df40044bbbc326f8b55ff95e2e68923daa0d6b635ebc74a1c523c496e5
 docker: quay.io/biocontainers/haplink
 aliases:
   7z: /usr/local/bin/7z

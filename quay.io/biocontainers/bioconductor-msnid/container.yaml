@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-msnid
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-msnid
 latest:
-  1.34.0--r43hf17093f_0: sha256:f1d8230541fa7943924a96a6762e763fa2134f5603ce4cc1c286be335f131c98
+  1.36.0--r43hf17093f_0: sha256:2a8703c29e7e77e79ca229b6e074c95ac6cb4536773d726ffea6df3900b3a478
 tags:
   1.28.0--r41hc247a5b_2: sha256:5b1848dc3a8dff619e23ad2cd31abe23e8a3ec2fccc4583f3d4f4ccef7cffa6b
   1.32.0--r42hc247a5b_0: sha256:cdb17fce3e1825b237d79c9a34413d0b14d24fd48069c541f0f8ee20f53219ec
   1.32.0--r42hf17093f_1: sha256:c720bceb9c7456ccef02f26288f1814c0c2b5a026abe15cc37f0e7c3defa7818
   1.34.0--r43hf17093f_0: sha256:f1d8230541fa7943924a96a6762e763fa2134f5603ce4cc1c286be335f131c98
+  1.36.0--r43hf17093f_0: sha256:2a8703c29e7e77e79ca229b6e074c95ac6cb4536773d726ffea6df3900b3a478
 docker: quay.io/biocontainers/bioconductor-msnid
 aliases:
   pandoc-server: /usr/local/bin/pandoc-server

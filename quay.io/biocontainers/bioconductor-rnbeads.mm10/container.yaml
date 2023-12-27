@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rnbeads.mm10
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rnbeads.mm10
 latest:
-  2.8.0--r43hdfd78af_0: sha256:646aa154d17992b62f8efcb23445376b749b272576819b034a50b5910b52a74a
+  2.10.0--r43hdfd78af_0: sha256:3894f0e2fde641722decf555464692b966c8216429b8486c1f085f7f3d09b22b
 tags:
   2.2.0--r41hdfd78af_1: sha256:ebc4cc57bcf4fafe64c560b09668e5270af41f67c099c6a4bcadaec8aad028c8
   2.6.0--r42hdfd78af_0: sha256:2d9471c1dec981c4a2152fa3608af65f829514b2e5a4c8205c71ebe988337f4c
   2.8.0--r43hdfd78af_0: sha256:646aa154d17992b62f8efcb23445376b749b272576819b034a50b5910b52a74a
+  2.10.0--r43hdfd78af_0: sha256:3894f0e2fde641722decf555464692b966c8216429b8486c1f085f7f3d09b22b
 docker: quay.io/biocontainers/bioconductor-rnbeads.mm10

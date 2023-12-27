@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-basespacer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-basespacer
 latest:
-  1.44.0--r43hdfd78af_0: sha256:696442910e74dc780b180d6200f4c916e0810ee1e3fbb9422904aef5099ed661
+  1.46.0--r43hdfd78af_0: sha256:60a76299b32fe9a5bb637a51e6cbf484becbcb77b085ff3986d061cd7743b4d5
 tags:
   1.38.0--r41hdfd78af_0: sha256:8ecdbdb59299c1825b1a080abd582fff071ec5db3633bda0453408298bfbf391
   1.42.0--r42hdfd78af_0: sha256:bd08d35ac68252b7a199a64f58dcc7656bee6ab96c431b39227de8212a54dee5
   1.44.0--r43hdfd78af_0: sha256:696442910e74dc780b180d6200f4c916e0810ee1e3fbb9422904aef5099ed661
+  1.46.0--r43hdfd78af_0: sha256:60a76299b32fe9a5bb637a51e6cbf484becbcb77b085ff3986d061cd7743b4d5
 docker: quay.io/biocontainers/bioconductor-basespacer

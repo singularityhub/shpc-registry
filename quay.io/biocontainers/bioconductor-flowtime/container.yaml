@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-flowtime
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-flowtime
 latest:
-  1.24.0--r43hdfd78af_0: sha256:c92ec18e2d3d489cbdcee747bb418cf3058b8cb9184906491c6710175f73cf83
+  1.26.0--r43hdfd78af_0: sha256:dea9ce52237f0e6e03678ce6f80e00504bc6749621decbddf885f05d56cf6d6b
 tags:
   1.8.0--r36_1: sha256:2810eeccf5a1536fd244e20d0103b1afece779a68c147000808a9c3eec38affa
   1.22.0--r42hdfd78af_0: sha256:e700a0d13024cf75fc0a270b966ae2a4c4bf054c65c0dfedc4a08cf0c5b06e53
@@ -11,6 +11,7 @@ tags:
   1.14.0--r40hdfd78af_1: sha256:be4fe7e2c6d700dea4fe7b0e01a667baa0a089ec9561dfa0c02f645870fb0be7
   1.12.0--r40_0: sha256:46453210c88c580844abbc4ab8ebe3e9f1d2034eb3930631911ef8ac344a8398
   1.24.0--r43hdfd78af_0: sha256:c92ec18e2d3d489cbdcee747bb418cf3058b8cb9184906491c6710175f73cf83
+  1.26.0--r43hdfd78af_0: sha256:dea9ce52237f0e6e03678ce6f80e00504bc6749621decbddf885f05d56cf6d6b
 docker: quay.io/biocontainers/bioconductor-flowtime
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
