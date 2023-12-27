@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/jgoslin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jgoslin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jgoslin/container.yaml"
-updated_at: "2023-12-26 02:33:58.949021"
-latest: "2.0.2--hdfd78af_0"
+updated_at: "2023-12-27 02:34:42.978257"
+latest: "2.2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jgoslin"
 aliases:
  - "jgoslin"
@@ -21,8 +21,9 @@ aliases:
  - "jlink"
 versions:
  - "2.0.2--hdfd78af_0"
+ - "2.2.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for jgoslin"
-config: {"url": "https://biocontainers.pro/tools/jgoslin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jgoslin", "latest": {"2.0.2--hdfd78af_0": "sha256:69596708ec89864bdf76c57dc2e82f878debe63c3debdd5fd573e5263d01c0d7"}, "tags": {"2.0.2--hdfd78af_0": "sha256:69596708ec89864bdf76c57dc2e82f878debe63c3debdd5fd573e5263d01c0d7"}, "docker": "quay.io/biocontainers/jgoslin", "aliases": {"jgoslin": "/usr/local/bin/jgoslin", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/jgoslin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jgoslin", "latest": {"2.2.0--hdfd78af_0": "sha256:e2fb44c754ef43141007df9b5c02edca58fdfc9c666349a007930bfbe7a5e0f1"}, "tags": {"2.0.2--hdfd78af_0": "sha256:69596708ec89864bdf76c57dc2e82f878debe63c3debdd5fd573e5263d01c0d7", "2.2.0--hdfd78af_0": "sha256:e2fb44c754ef43141007df9b5c02edca58fdfc9c666349a007930bfbe7a5e0f1"}, "docker": "quay.io/biocontainers/jgoslin", "aliases": {"jgoslin": "/usr/local/bin/jgoslin", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jgoslin.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/jgoslin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/jgoslin:2.0.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/jgoslin:2.2.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/jgoslin/2.0.2--hdfd78af_0
-$ module help quay.io/biocontainers/jgoslin/2.0.2--hdfd78af_0
+$ module load quay.io/biocontainers/jgoslin/2.2.0--hdfd78af_0
+$ module help quay.io/biocontainers/jgoslin/2.2.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

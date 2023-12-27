@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-atena"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-atena/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-atena/container.yaml"
-updated_at: "2023-12-26 02:49:19.163822"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2023-12-27 02:50:13.268213"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-atena"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-atena"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-atena", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-atena", "latest": {"1.6.0--r43hdfd78af_0": "sha256:e0d2377ce8d2c453d24f1762884f8ca7218e98fc6d7fbbcd1413d06d3b9127fc"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:4348c6122fedb367c156c4f7144cd4ae74cdddc03898cb282cb94cae4df452a1", "1.4.0--r42hdfd78af_0": "sha256:fcbe9ea21c3e91a87a6d4ac27b45eacb9991bc1695a77bd48e527ad8bede9a19", "1.6.0--r43hdfd78af_0": "sha256:e0d2377ce8d2c453d24f1762884f8ca7218e98fc6d7fbbcd1413d06d3b9127fc"}, "docker": "quay.io/biocontainers/bioconductor-atena"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-atena", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-atena", "latest": {"1.8.0--r43hdfd78af_0": "sha256:c00c9453f641b53929c5c9e109e80b9601cf4a22cb7f9bcee70781adf5bd0201"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:4348c6122fedb367c156c4f7144cd4ae74cdddc03898cb282cb94cae4df452a1", "1.4.0--r42hdfd78af_0": "sha256:fcbe9ea21c3e91a87a6d4ac27b45eacb9991bc1695a77bd48e527ad8bede9a19", "1.6.0--r43hdfd78af_0": "sha256:e0d2377ce8d2c453d24f1762884f8ca7218e98fc6d7fbbcd1413d06d3b9127fc", "1.8.0--r43hdfd78af_0": "sha256:c00c9453f641b53929c5c9e109e80b9601cf4a22cb7f9bcee70781adf5bd0201"}, "docker": "quay.io/biocontainers/bioconductor-atena"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-atena.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-atena
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-atena:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-atena:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-atena/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-atena/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-atena/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-atena/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

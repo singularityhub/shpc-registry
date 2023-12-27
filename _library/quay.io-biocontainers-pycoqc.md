@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pycoqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycoqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycoqc/container.yaml"
-updated_at: "2023-12-26 02:59:10.957711"
+updated_at: "2023-12-27 03:00:11.913670"
 latest: "2.5.2--py_0"
 container_url: "https://biocontainers.pro/tools/pycoqc"
 aliases:

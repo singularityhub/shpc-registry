@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-methylclockdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylclockdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylclockdata/container.yaml"
-updated_at: "2023-12-26 02:43:38.773519"
-latest: "1.8.1--r43hdfd78af_0"
+updated_at: "2023-12-27 02:44:28.810847"
+latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylclockdata"
 
 versions:
  - "1.2.0--r41hdfd78af_1"
  - "1.6.0--r42hdfd78af_0"
  - "1.8.1--r43hdfd78af_0"
+ - "1.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-methylclockdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methylclockdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylclockdata", "latest": {"1.8.1--r43hdfd78af_0": "sha256:60cd083ba203312f65f194cda0dd059cfceedbb4d652759411a1b171eecc69d2"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:0e757a85b4daca6b197460d815eff2599186fe73ae1363f5b528fe3f3bca310a", "1.6.0--r42hdfd78af_0": "sha256:b00044a226c002ecdbbc56cc9c02a644362fe78df895ef8d15937e215a6d66e1", "1.8.1--r43hdfd78af_0": "sha256:60cd083ba203312f65f194cda0dd059cfceedbb4d652759411a1b171eecc69d2"}, "docker": "quay.io/biocontainers/bioconductor-methylclockdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methylclockdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylclockdata", "latest": {"1.10.0--r43hdfd78af_0": "sha256:48ff7f00ea91221111a0b9907aa075db937c7741d789f2bf1d21dc3d65d4b8f5"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:0e757a85b4daca6b197460d815eff2599186fe73ae1363f5b528fe3f3bca310a", "1.6.0--r42hdfd78af_0": "sha256:b00044a226c002ecdbbc56cc9c02a644362fe78df895ef8d15937e215a6d66e1", "1.8.1--r43hdfd78af_0": "sha256:60cd083ba203312f65f194cda0dd059cfceedbb4d652759411a1b171eecc69d2", "1.10.0--r43hdfd78af_0": "sha256:48ff7f00ea91221111a0b9907aa075db937c7741d789f2bf1d21dc3d65d4b8f5"}, "docker": "quay.io/biocontainers/bioconductor-methylclockdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methylclockdata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-methylclockdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-methylclockdata:1.8.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-methylclockdata:1.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-methylclockdata/1.8.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-methylclockdata/1.8.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-methylclockdata/1.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-methylclockdata/1.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

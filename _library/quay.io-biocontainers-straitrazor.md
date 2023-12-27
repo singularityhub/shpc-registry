@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/straitrazor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/straitrazor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/straitrazor/container.yaml"
-updated_at: "2023-12-26 03:00:10.972974"
+updated_at: "2023-12-27 03:01:12.590882"
 latest: "3.0.1--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/straitrazor"
 aliases:

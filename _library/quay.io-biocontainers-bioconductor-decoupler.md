@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-decoupler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-decoupler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-decoupler/container.yaml"
-updated_at: "2023-12-26 02:45:07.162185"
-latest: "2.6.0--r43hdfd78af_0"
+updated_at: "2023-12-27 02:45:57.977786"
+latest: "2.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-decoupler"
 
 versions:
  - "2.0.0--r41hdfd78af_0"
  - "2.4.0--r42hdfd78af_0"
  - "2.6.0--r43hdfd78af_0"
+ - "2.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-decoupler"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-decoupler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-decoupler", "latest": {"2.6.0--r43hdfd78af_0": "sha256:7b6e4d294417f88db1c8d4fe1ac8cd3b37b77ef7ed9ee32d089223b7546cb805"}, "tags": {"2.0.0--r41hdfd78af_0": "sha256:6dc9144e875c77817fa3285a3c409ac022b09d81d717a4c4fcf423b35b560cba", "2.4.0--r42hdfd78af_0": "sha256:f8a22397be4a58d350edf348c47d2e9aaa1ce4af99c5b0fd54a83bda0ab21cff", "2.6.0--r43hdfd78af_0": "sha256:7b6e4d294417f88db1c8d4fe1ac8cd3b37b77ef7ed9ee32d089223b7546cb805"}, "docker": "quay.io/biocontainers/bioconductor-decoupler"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-decoupler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-decoupler", "latest": {"2.8.0--r43hdfd78af_0": "sha256:de1de9e9444b81ba43c6fd4686f41922c6685b03610b7a77d18a2199cc61c698"}, "tags": {"2.0.0--r41hdfd78af_0": "sha256:6dc9144e875c77817fa3285a3c409ac022b09d81d717a4c4fcf423b35b560cba", "2.4.0--r42hdfd78af_0": "sha256:f8a22397be4a58d350edf348c47d2e9aaa1ce4af99c5b0fd54a83bda0ab21cff", "2.6.0--r43hdfd78af_0": "sha256:7b6e4d294417f88db1c8d4fe1ac8cd3b37b77ef7ed9ee32d089223b7546cb805", "2.8.0--r43hdfd78af_0": "sha256:de1de9e9444b81ba43c6fd4686f41922c6685b03610b7a77d18a2199cc61c698"}, "docker": "quay.io/biocontainers/bioconductor-decoupler"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-decoupler.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-decoupler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-decoupler:2.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-decoupler:2.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-decoupler/2.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-decoupler/2.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-decoupler/2.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-decoupler/2.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

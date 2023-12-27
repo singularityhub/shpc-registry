@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanopore_simulation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanopore_simulation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanopore_simulation/container.yaml"
-updated_at: "2023-12-26 02:42:21.995682"
+updated_at: "2023-12-27 02:43:11.090149"
 latest: "0.3--py_2"
 container_url: "https://biocontainers.pro/tools/nanopore_simulation"
 aliases:

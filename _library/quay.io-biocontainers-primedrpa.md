@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/primedrpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primedrpa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/primedrpa/container.yaml"
-updated_at: "2023-12-26 02:30:42.061008"
+updated_at: "2023-12-27 02:31:24.185961"
 latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/primedrpa"
 aliases:

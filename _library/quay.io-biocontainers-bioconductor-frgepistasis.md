@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-frgepistasis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-frgepistasis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-frgepistasis/container.yaml"
-updated_at: "2023-12-26 02:56:40.991609"
-latest: "1.36.0--r43hdfd78af_0"
+updated_at: "2023-12-27 02:57:40.015960"
+latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-frgepistasis"
 
 versions:
  - "1.30.0--r41hdfd78af_0"
  - "1.34.0--r42hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
+ - "1.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-frgepistasis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-frgepistasis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-frgepistasis", "latest": {"1.36.0--r43hdfd78af_0": "sha256:fcd986ec2e859d587391496b4dc8892dd19f637b22716b48d77b4c36062c2f01"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:1b4b0e0a300e10fd8add93e4fcadae550142053d3d6faea41b3c520e55805971", "1.34.0--r42hdfd78af_0": "sha256:cc571bbb9ce1fa401ed37191cfccb2a406a76a6c5e486f560a0b62b5ff2941b6", "1.36.0--r43hdfd78af_0": "sha256:fcd986ec2e859d587391496b4dc8892dd19f637b22716b48d77b4c36062c2f01"}, "docker": "quay.io/biocontainers/bioconductor-frgepistasis"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-frgepistasis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-frgepistasis", "latest": {"1.38.0--r43hdfd78af_0": "sha256:33c4bafc372f758d1e0a2717b4aef0f022e400a96fde9579f50307a6c8a1b7b4"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:1b4b0e0a300e10fd8add93e4fcadae550142053d3d6faea41b3c520e55805971", "1.34.0--r42hdfd78af_0": "sha256:cc571bbb9ce1fa401ed37191cfccb2a406a76a6c5e486f560a0b62b5ff2941b6", "1.36.0--r43hdfd78af_0": "sha256:fcd986ec2e859d587391496b4dc8892dd19f637b22716b48d77b4c36062c2f01", "1.38.0--r43hdfd78af_0": "sha256:33c4bafc372f758d1e0a2717b4aef0f022e400a96fde9579f50307a6c8a1b7b4"}, "docker": "quay.io/biocontainers/bioconductor-frgepistasis"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-frgepistasis.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-frgepistasis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-frgepistasis:1.36.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-frgepistasis:1.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-frgepistasis/1.36.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-frgepistasis/1.36.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-frgepistasis/1.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-frgepistasis/1.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

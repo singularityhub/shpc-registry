@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-vaexprs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vaexprs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vaexprs/container.yaml"
-updated_at: "2023-12-26 02:59:43.925345"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2023-12-27 03:00:45.252487"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vaexprs"
 aliases:
  - "jaotc"
@@ -22,8 +22,9 @@ versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-vaexprs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-vaexprs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vaexprs", "latest": {"1.6.0--r43hdfd78af_0": "sha256:7d9bc354a6c2ba591c5f06a72878a25421deadc1e445b600282dd56504dadeaa"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:93781ee973d9b2c986f9b8d818a1c0217d7448e5690965ae6a55beea816598ba", "1.4.0--r42hdfd78af_0": "sha256:46f46b412b761cc226f62cab9fb87ba5bcb1f9e1041b881bb8cbb1c5f4f85d16", "1.6.0--r43hdfd78af_0": "sha256:7d9bc354a6c2ba591c5f06a72878a25421deadc1e445b600282dd56504dadeaa"}, "docker": "quay.io/biocontainers/bioconductor-vaexprs", "aliases": {"jaotc": "/usr/local/bin/jaotc", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-vaexprs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vaexprs", "latest": {"1.8.0--r43hdfd78af_0": "sha256:f604edcf6068540b4591b03f0b50b19f33aefa8a34b96474c0c73ec96598a3b9"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:93781ee973d9b2c986f9b8d818a1c0217d7448e5690965ae6a55beea816598ba", "1.4.0--r42hdfd78af_0": "sha256:46f46b412b761cc226f62cab9fb87ba5bcb1f9e1041b881bb8cbb1c5f4f85d16", "1.6.0--r43hdfd78af_0": "sha256:7d9bc354a6c2ba591c5f06a72878a25421deadc1e445b600282dd56504dadeaa", "1.8.0--r43hdfd78af_0": "sha256:f604edcf6068540b4591b03f0b50b19f33aefa8a34b96474c0c73ec96598a3b9"}, "docker": "quay.io/biocontainers/bioconductor-vaexprs", "aliases": {"jaotc": "/usr/local/bin/jaotc", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-vaexprs.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-vaexprs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-vaexprs:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-vaexprs:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-vaexprs/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-vaexprs/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-vaexprs/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-vaexprs/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

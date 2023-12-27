@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tapestry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tapestry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tapestry/container.yaml"
-updated_at: "2023-12-26 02:41:26.848390"
+updated_at: "2023-12-27 02:42:15.231338"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tapestry"
 aliases:

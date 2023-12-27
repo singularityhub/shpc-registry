@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-soap-nmr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-soap-nmr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-soap-nmr/container.yaml"
-updated_at: "2023-12-26 02:27:14.897478"
+updated_at: "2023-12-27 02:27:55.244678"
 latest: "0.1.0.20170207--r43h9ee0642_6"
 container_url: "https://biocontainers.pro/tools/r-soap-nmr"
 aliases:

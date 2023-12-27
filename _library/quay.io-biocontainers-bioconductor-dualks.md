@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dualks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dualks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dualks/container.yaml"
-updated_at: "2023-12-26 03:03:29.878319"
+updated_at: "2023-12-27 03:04:34.611277"
 latest: "1.53.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dualks"
 

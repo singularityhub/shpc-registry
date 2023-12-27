@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spectrassembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spectrassembler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spectrassembler/container.yaml"
-updated_at: "2023-12-26 02:40:47.139814"
+updated_at: "2023-12-27 02:41:35.030255"
 latest: "0.0.1a1--py_4"
 container_url: "https://biocontainers.pro/tools/spectrassembler"
 aliases:

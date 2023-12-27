@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-tripr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tripr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tripr/container.yaml"
-updated_at: "2023-12-26 02:51:27.926940"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2023-12-27 02:52:23.545080"
+latest: "1.8.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-tripr"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.8.0--r43hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-tripr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tripr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tripr", "latest": {"1.6.0--r43hdfd78af_0": "sha256:d512c8580141290123c12e0be164d3dea5504c25ff7fdcf99079ab2f31193ae4"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:dccbe088e00ac4e0ca4473320f058c48bfed007b7c5938dd28b3f4a3c30a3765", "1.4.0--r42hdfd78af_0": "sha256:3df41ccd69277bd28fcc24abb47cce85e81d1de315db82e85b9e3bddd685185a", "1.6.0--r43hdfd78af_0": "sha256:d512c8580141290123c12e0be164d3dea5504c25ff7fdcf99079ab2f31193ae4"}, "docker": "quay.io/biocontainers/bioconductor-tripr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tripr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tripr", "latest": {"1.8.0--r43hdfd78af_1": "sha256:36a4900da7ecfad81ad5afccbe77d5ed9724f362fa710ce9c882de493d0fe576"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:dccbe088e00ac4e0ca4473320f058c48bfed007b7c5938dd28b3f4a3c30a3765", "1.4.0--r42hdfd78af_0": "sha256:3df41ccd69277bd28fcc24abb47cce85e81d1de315db82e85b9e3bddd685185a", "1.6.0--r43hdfd78af_0": "sha256:d512c8580141290123c12e0be164d3dea5504c25ff7fdcf99079ab2f31193ae4", "1.8.0--r43hdfd78af_1": "sha256:36a4900da7ecfad81ad5afccbe77d5ed9724f362fa710ce9c882de493d0fe576"}, "docker": "quay.io/biocontainers/bioconductor-tripr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tripr.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tripr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tripr:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tripr:1.8.0--r43hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tripr/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tripr/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tripr/1.8.0--r43hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-tripr/1.8.0--r43hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

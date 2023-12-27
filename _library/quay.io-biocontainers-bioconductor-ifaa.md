@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ifaa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ifaa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ifaa/container.yaml"
-updated_at: "2023-12-26 02:35:13.588317"
+updated_at: "2023-12-27 02:35:58.391336"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ifaa"
 aliases:

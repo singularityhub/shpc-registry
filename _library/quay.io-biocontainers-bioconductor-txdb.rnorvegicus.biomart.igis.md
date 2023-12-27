@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.biomart.igis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.biomart.igis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.biomart.igis/container.yaml"
-updated_at: "2023-12-26 02:50:52.250069"
+updated_at: "2023-12-27 02:51:47.530606"
 latest: "2.3.2--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.biomart.igis"
 

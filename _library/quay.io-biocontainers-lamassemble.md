@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lamassemble"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lamassemble/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lamassemble/container.yaml"
-updated_at: "2023-12-26 02:33:52.684932"
-latest: "1.6.1--pyh7cba7a3_0"
+updated_at: "2023-12-27 02:34:36.705608"
+latest: "1.7.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/lamassemble"
 aliases:
  - "fastq-interleave"
@@ -44,8 +44,10 @@ versions:
  - "1.6.0--pyh7cba7a3_0"
  - "1.5.0--pyh7cba7a3_0"
  - "1.6.1--pyh7cba7a3_0"
+ - "1.7.0--pyh7cba7a3_0"
+ - "1.6.2--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for lamassemble"
-config: {"url": "https://biocontainers.pro/tools/lamassemble", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lamassemble", "latest": {"1.6.1--pyh7cba7a3_0": "sha256:f7f23ba59021a4c3994944a2632d1ad7ae9b148a94542a409acfd3e44e4c6e68"}, "tags": {"1.4.2--pyh3252c3a_0": "sha256:5ecef7ef2e290a4388e6d025ecc4916cd5783094fe25d1beac158aa91275a918", "1.6.0--pyh7cba7a3_0": "sha256:5b3d98437104051e330d90438b63746a736b601321e9f2a082139e5c6fe7ae8e", "1.5.0--pyh7cba7a3_0": "sha256:687521b1f11605c3a2b6652adbdbee7eaecfef1bb789e0519cde43757333b7f8", "1.6.1--pyh7cba7a3_0": "sha256:f7f23ba59021a4c3994944a2632d1ad7ae9b148a94542a409acfd3e44e4c6e68"}, "docker": "quay.io/biocontainers/lamassemble", "aliases": {"fastq-interleave": "/usr/local/bin/fastq-interleave", "lamassemble": "/usr/local/bin/lamassemble", "last-dotplot": "/usr/local/bin/last-dotplot", "last-map-probs": "/usr/local/bin/last-map-probs", "last-merge-batches": "/usr/local/bin/last-merge-batches", "last-pair-probs": "/usr/local/bin/last-pair-probs", "last-postmask": "/usr/local/bin/last-postmask", "last-split": "/usr/local/bin/last-split", "last-split8": "/usr/local/bin/last-split8", "last-train": "/usr/local/bin/last-train", "lastal": "/usr/local/bin/lastal", "lastal8": "/usr/local/bin/lastal8", "lastdb": "/usr/local/bin/lastdb", "lastdb8": "/usr/local/bin/lastdb8", "maf-convert": "/usr/local/bin/maf-convert", "maf-cut": "/usr/local/bin/maf-cut", "maf-join": "/usr/local/bin/maf-join", "maf-sort": "/usr/local/bin/maf-sort", "maf-swap": "/usr/local/bin/maf-swap", "parallel-fasta": "/usr/local/bin/parallel-fasta", "parallel-fastq": "/usr/local/bin/parallel-fastq", "parsort": "/usr/local/bin/parsort", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "perl5.32.0": "/usr/local/bin/perl5.32.0", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi"}}
+config: {"url": "https://biocontainers.pro/tools/lamassemble", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lamassemble", "latest": {"1.7.0--pyh7cba7a3_0": "sha256:ee9df442746e9b33165677fb6730b91e120344e3dea6cecb33e7a9038ef141f7"}, "tags": {"1.4.2--pyh3252c3a_0": "sha256:5ecef7ef2e290a4388e6d025ecc4916cd5783094fe25d1beac158aa91275a918", "1.6.0--pyh7cba7a3_0": "sha256:5b3d98437104051e330d90438b63746a736b601321e9f2a082139e5c6fe7ae8e", "1.5.0--pyh7cba7a3_0": "sha256:687521b1f11605c3a2b6652adbdbee7eaecfef1bb789e0519cde43757333b7f8", "1.6.1--pyh7cba7a3_0": "sha256:f7f23ba59021a4c3994944a2632d1ad7ae9b148a94542a409acfd3e44e4c6e68", "1.7.0--pyh7cba7a3_0": "sha256:ee9df442746e9b33165677fb6730b91e120344e3dea6cecb33e7a9038ef141f7", "1.6.2--pyh7cba7a3_0": "sha256:00e0597a3c49842aa4c64a2b84f96e58ef5bc98b7276c58afca5221562bfb637"}, "docker": "quay.io/biocontainers/lamassemble", "aliases": {"fastq-interleave": "/usr/local/bin/fastq-interleave", "lamassemble": "/usr/local/bin/lamassemble", "last-dotplot": "/usr/local/bin/last-dotplot", "last-map-probs": "/usr/local/bin/last-map-probs", "last-merge-batches": "/usr/local/bin/last-merge-batches", "last-pair-probs": "/usr/local/bin/last-pair-probs", "last-postmask": "/usr/local/bin/last-postmask", "last-split": "/usr/local/bin/last-split", "last-split8": "/usr/local/bin/last-split8", "last-train": "/usr/local/bin/last-train", "lastal": "/usr/local/bin/lastal", "lastal8": "/usr/local/bin/lastal8", "lastdb": "/usr/local/bin/lastdb", "lastdb8": "/usr/local/bin/lastdb8", "maf-convert": "/usr/local/bin/maf-convert", "maf-cut": "/usr/local/bin/maf-cut", "maf-join": "/usr/local/bin/maf-join", "maf-sort": "/usr/local/bin/maf-sort", "maf-swap": "/usr/local/bin/maf-swap", "parallel-fasta": "/usr/local/bin/parallel-fasta", "parallel-fastq": "/usr/local/bin/parallel-fastq", "parsort": "/usr/local/bin/parsort", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "perl5.32.0": "/usr/local/bin/perl5.32.0", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lamassemble.
@@ -60,7 +62,7 @@ $ shpc install quay.io/biocontainers/lamassemble
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lamassemble:1.6.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/lamassemble:1.7.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lamassemble/1.6.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/lamassemble/1.6.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/lamassemble/1.7.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/lamassemble/1.7.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

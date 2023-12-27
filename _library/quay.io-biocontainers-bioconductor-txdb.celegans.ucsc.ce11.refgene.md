@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene/container.yaml"
-updated_at: "2023-12-26 02:47:02.346155"
-latest: "3.4.6--r43hdfd78af_10"
+updated_at: "2023-12-27 02:47:54.658879"
+latest: "3.4.6--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.celegans.ucsc.ce11.refgene"
 
 versions:
  - "3.4.6--r41hdfd78af_8"
  - "3.4.6--r42hdfd78af_9"
  - "3.4.6--r43hdfd78af_10"
+ - "3.4.6--r43hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.celegans.ucsc.ce11.refgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.celegans.ucsc.ce11.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.celegans.ucsc.ce11.refgene", "latest": {"3.4.6--r43hdfd78af_10": "sha256:4f20821d25d1e36e44b5644a9105ad80fd7213f70924bc40c48e5c4820e47efc"}, "tags": {"3.4.6--r41hdfd78af_8": "sha256:7cf1187a5abff7dda1ad19db3a7f4b7df751c2774a4b3998c77b21f499d19a63", "3.4.6--r42hdfd78af_9": "sha256:09cd8744ff4b9669723cc1e87a64e8867d101b7e553e772cbc31f77632c4a383", "3.4.6--r43hdfd78af_10": "sha256:4f20821d25d1e36e44b5644a9105ad80fd7213f70924bc40c48e5c4820e47efc"}, "docker": "quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.celegans.ucsc.ce11.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.celegans.ucsc.ce11.refgene", "latest": {"3.4.6--r43hdfd78af_11": "sha256:e8da9e869e94626c169f2d243d41f6d65e38bd07283df79c592579dea05eed65"}, "tags": {"3.4.6--r41hdfd78af_8": "sha256:7cf1187a5abff7dda1ad19db3a7f4b7df751c2774a4b3998c77b21f499d19a63", "3.4.6--r42hdfd78af_9": "sha256:09cd8744ff4b9669723cc1e87a64e8867d101b7e553e772cbc31f77632c4a383", "3.4.6--r43hdfd78af_10": "sha256:4f20821d25d1e36e44b5644a9105ad80fd7213f70924bc40c48e5c4820e47efc", "3.4.6--r43hdfd78af_11": "sha256:e8da9e869e94626c169f2d243d41f6d65e38bd07283df79c592579dea05eed65"}, "docker": "quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene:3.4.6--r43hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene:3.4.6--r43hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene/3.4.6--r43hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene/3.4.6--r43hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene/3.4.6--r43hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene/3.4.6--r43hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

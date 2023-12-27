@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scarray.sat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scarray.sat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scarray.sat/container.yaml"
-updated_at: "2023-12-26 02:35:34.198042"
-latest: "1.0.2--r43hdfd78af_0"
+updated_at: "2023-12-27 02:36:19.264678"
+latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scarray.sat"
 aliases:
  - "geosop"
@@ -31,8 +31,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.2--r43hdfd78af_0"
+ - "1.2.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-scarray.sat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scarray.sat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-scarray.sat", "latest": {"1.0.2--r43hdfd78af_0": "sha256:1c4cb00668ed99e023c69a05f63b5a8ca2b5da8adae26d95222594f59a2a82fa"}, "tags": {"1.0.2--r43hdfd78af_0": "sha256:1c4cb00668ed99e023c69a05f63b5a8ca2b5da8adae26d95222594f59a2a82fa"}, "docker": "quay.io/biocontainers/bioconductor-scarray.sat", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scarray.sat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-scarray.sat", "latest": {"1.2.0--r43hdfd78af_0": "sha256:76bfd1e1535df9f1c2b2d6505e7f476c9b802c60ad7defb5df51c34b320f394c"}, "tags": {"1.0.2--r43hdfd78af_0": "sha256:1c4cb00668ed99e023c69a05f63b5a8ca2b5da8adae26d95222594f59a2a82fa", "1.2.0--r43hdfd78af_0": "sha256:76bfd1e1535df9f1c2b2d6505e7f476c9b802c60ad7defb5df51c34b320f394c"}, "docker": "quay.io/biocontainers/bioconductor-scarray.sat", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scarray.sat.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scarray.sat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scarray.sat:1.0.2--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scarray.sat:1.2.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scarray.sat/1.0.2--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scarray.sat/1.0.2--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scarray.sat/1.2.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scarray.sat/1.2.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
