@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamscale"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamscale/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamscale/container.yaml"
-updated_at: "2023-12-27 02:38:16.789100"
+updated_at: "2023-12-28 02:38:09.028192"
 latest: "0.0.5--h37b53dd_8"
 container_url: "https://biocontainers.pro/tools/bamscale"
 aliases:

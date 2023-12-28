@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clusterjudge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clusterjudge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clusterjudge/container.yaml"
-updated_at: "2023-12-27 02:30:54.658056"
+updated_at: "2023-12-28 02:30:44.512433"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clusterjudge"
 aliases:

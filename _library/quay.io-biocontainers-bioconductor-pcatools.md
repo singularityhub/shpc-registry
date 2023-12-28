@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-pcatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pcatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pcatools/container.yaml"
-updated_at: "2023-12-27 02:46:53.482704"
-latest: "2.12.0--r43hf17093f_0"
+updated_at: "2023-12-28 02:46:50.210307"
+latest: "2.14.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pcatools"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.10.0--r42hc247a5b_0"
  - "2.10.0--r42hf17093f_1"
  - "2.12.0--r43hf17093f_0"
+ - "2.14.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pcatools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pcatools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcatools", "latest": {"2.12.0--r43hf17093f_0": "sha256:32844ee65f9bc8050b4571d77e47819102bd16316f04838b6712f53527552dc1"}, "tags": {"2.6.0--r41hc247a5b_2": "sha256:ecc5a61ff97f7cf1ae1807a5d1530c04b4ed91d1e2863a6d85063ba4a24c4734", "2.10.0--r42hc247a5b_0": "sha256:cfe52596c08d57a337eec5873bb84e503bbc1497b74db5a64f64f5051ec5a5c9", "2.10.0--r42hf17093f_1": "sha256:af5ba81a239cd5022befc70e0534354f1e9b33e370407334e7c1a4bbf3d709aa", "2.12.0--r43hf17093f_0": "sha256:32844ee65f9bc8050b4571d77e47819102bd16316f04838b6712f53527552dc1"}, "docker": "quay.io/biocontainers/bioconductor-pcatools"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pcatools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcatools", "latest": {"2.14.0--r43hf17093f_0": "sha256:527cf6207741cc4e61347195b607eb087caf3a4caeca40b282ca4ebc4116f026"}, "tags": {"2.6.0--r41hc247a5b_2": "sha256:ecc5a61ff97f7cf1ae1807a5d1530c04b4ed91d1e2863a6d85063ba4a24c4734", "2.10.0--r42hc247a5b_0": "sha256:cfe52596c08d57a337eec5873bb84e503bbc1497b74db5a64f64f5051ec5a5c9", "2.10.0--r42hf17093f_1": "sha256:af5ba81a239cd5022befc70e0534354f1e9b33e370407334e7c1a4bbf3d709aa", "2.12.0--r43hf17093f_0": "sha256:32844ee65f9bc8050b4571d77e47819102bd16316f04838b6712f53527552dc1", "2.14.0--r43hf17093f_0": "sha256:527cf6207741cc4e61347195b607eb087caf3a4caeca40b282ca4ebc4116f026"}, "docker": "quay.io/biocontainers/bioconductor-pcatools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pcatools.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pcatools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pcatools:2.12.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-pcatools:2.14.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pcatools/2.12.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-pcatools/2.12.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-pcatools/2.14.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-pcatools/2.14.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

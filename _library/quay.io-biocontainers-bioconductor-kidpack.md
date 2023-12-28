@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-kidpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kidpack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kidpack/container.yaml"
-updated_at: "2023-12-27 02:51:33.329935"
-latest: "1.42.0--r43hdfd78af_0"
+updated_at: "2023-12-28 02:51:31.280443"
+latest: "1.44.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kidpack"
 
 versions:
  - "1.36.0--r41hdfd78af_1"
  - "1.40.0--r42hdfd78af_0"
  - "1.42.0--r43hdfd78af_0"
+ - "1.44.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-kidpack"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-kidpack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kidpack", "latest": {"1.42.0--r43hdfd78af_0": "sha256:6d465f4664d48b32487ecb07787188c9370bb1c10f7949bfeb9b9ba244ad0cc1"}, "tags": {"1.36.0--r41hdfd78af_1": "sha256:45e2d4f2680162a3ea42081c52833d42f4162171453b1c52cba40c86221f6d5a", "1.40.0--r42hdfd78af_0": "sha256:9cb882b8c17b44b36d12a6d4d2277f21433482cab06d3cc5ff7f6a9849249d2e", "1.42.0--r43hdfd78af_0": "sha256:6d465f4664d48b32487ecb07787188c9370bb1c10f7949bfeb9b9ba244ad0cc1"}, "docker": "quay.io/biocontainers/bioconductor-kidpack"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-kidpack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kidpack", "latest": {"1.44.0--r43hdfd78af_0": "sha256:93f064e389fd656ff18bb8f405b36421fa326fea42e7a1f9750add9bf2e10b16"}, "tags": {"1.36.0--r41hdfd78af_1": "sha256:45e2d4f2680162a3ea42081c52833d42f4162171453b1c52cba40c86221f6d5a", "1.40.0--r42hdfd78af_0": "sha256:9cb882b8c17b44b36d12a6d4d2277f21433482cab06d3cc5ff7f6a9849249d2e", "1.42.0--r43hdfd78af_0": "sha256:6d465f4664d48b32487ecb07787188c9370bb1c10f7949bfeb9b9ba244ad0cc1", "1.44.0--r43hdfd78af_0": "sha256:93f064e389fd656ff18bb8f405b36421fa326fea42e7a1f9750add9bf2e10b16"}, "docker": "quay.io/biocontainers/bioconductor-kidpack"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-kidpack.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-kidpack
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-kidpack:1.42.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-kidpack:1.44.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-kidpack/1.42.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-kidpack/1.42.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-kidpack/1.44.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-kidpack/1.44.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

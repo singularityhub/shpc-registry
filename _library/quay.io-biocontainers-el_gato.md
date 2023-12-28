@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/el_gato"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/el_gato/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/el_gato/container.yaml"
-updated_at: "2023-12-27 03:00:40.899165"
-latest: "1.14.4--py311hdfd78af_0"
+updated_at: "2023-12-28 03:00:43.148497"
+latest: "1.15.2--py311hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/el_gato"
 aliases:
  - "el_gato.py"
@@ -40,8 +40,9 @@ aliases:
  - "date"
 versions:
  - "1.14.4--py311hdfd78af_0"
+ - "1.15.2--py311hdfd78af_0"
 description: "singularity registry hpc automated addition for el_gato"
-config: {"url": "https://biocontainers.pro/tools/el_gato", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for el_gato", "latest": {"1.14.4--py311hdfd78af_0": "sha256:d28834612de0e736a09a40324290e4152631ed22b4a2ef90e50867c6ee914be6"}, "tags": {"1.14.4--py311hdfd78af_0": "sha256:d28834612de0e736a09a40324290e4152631ed22b4a2ef90e50867c6ee914be6"}, "docker": "quay.io/biocontainers/el_gato", "aliases": {"el_gato.py": "/usr/local/bin/el_gato.py", "elgato_report.py": "/usr/local/bin/elgato_report.py", "gfPcr": "/usr/local/bin/gfPcr", "isPcr": "/usr/local/bin/isPcr", "run_el_gato.nf": "/usr/local/bin/run_el_gato.nf", "jwebserver": "/usr/local/bin/jwebserver", "gfServer": "/usr/local/bin/gfServer", "nextflow.bak": "/usr/local/bin/nextflow.bak", "nextflow": "/usr/local/bin/nextflow", "blastn_vdb": "/usr/local/bin/blastn_vdb", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "test_pcre": "/usr/local/bin/test_pcre", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date"}}
+config: {"url": "https://biocontainers.pro/tools/el_gato", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for el_gato", "latest": {"1.15.2--py311hdfd78af_0": "sha256:343d3b3ba94540ab9482b9c58f7ac6a6162164245c79fceaf84219c2f6e82f1d"}, "tags": {"1.14.4--py311hdfd78af_0": "sha256:d28834612de0e736a09a40324290e4152631ed22b4a2ef90e50867c6ee914be6", "1.15.2--py311hdfd78af_0": "sha256:343d3b3ba94540ab9482b9c58f7ac6a6162164245c79fceaf84219c2f6e82f1d"}, "docker": "quay.io/biocontainers/el_gato", "aliases": {"el_gato.py": "/usr/local/bin/el_gato.py", "elgato_report.py": "/usr/local/bin/elgato_report.py", "gfPcr": "/usr/local/bin/gfPcr", "isPcr": "/usr/local/bin/isPcr", "run_el_gato.nf": "/usr/local/bin/run_el_gato.nf", "jwebserver": "/usr/local/bin/jwebserver", "gfServer": "/usr/local/bin/gfServer", "nextflow.bak": "/usr/local/bin/nextflow.bak", "nextflow": "/usr/local/bin/nextflow", "blastn_vdb": "/usr/local/bin/blastn_vdb", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "test_pcre": "/usr/local/bin/test_pcre", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/el_gato.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/el_gato
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/el_gato:1.14.4--py311hdfd78af_0
+$ shpc install quay.io/biocontainers/el_gato:1.15.2--py311hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/el_gato/1.14.4--py311hdfd78af_0
-$ module help quay.io/biocontainers/el_gato/1.14.4--py311hdfd78af_0
+$ module load quay.io/biocontainers/el_gato/1.15.2--py311hdfd78af_0
+$ module help quay.io/biocontainers/el_gato/1.15.2--py311hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-metaboannotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metaboannotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metaboannotation/container.yaml"
-updated_at: "2023-12-27 03:01:36.128558"
-latest: "1.4.1--r43hdfd78af_0"
+updated_at: "2023-12-28 03:01:38.900838"
+latest: "1.6.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metaboannotation"
 aliases:
  - "installBiocDataPackage.sh"
@@ -33,8 +33,9 @@ aliases:
 versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.1--r43hdfd78af_0"
+ - "1.6.1--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-metaboannotation"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metaboannotation", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-metaboannotation", "latest": {"1.4.1--r43hdfd78af_0": "sha256:44334ca4ad377cf4e34be1bb0fb6ff696854061b297e3a4ea363909be96d4eb7"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:71f6882b5c315a0870d8bb249ac0904b457929d65bbcaf6357f48fb58a6c241a", "1.4.1--r43hdfd78af_0": "sha256:44334ca4ad377cf4e34be1bb0fb6ff696854061b297e3a4ea363909be96d4eb7"}, "docker": "quay.io/biocontainers/bioconductor-metaboannotation", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "rsvg-convert": "/usr/local/bin/rsvg-convert", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metaboannotation", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-metaboannotation", "latest": {"1.6.1--r43hdfd78af_0": "sha256:d65a2e01e2d0ef9348e3bb4cf5ff6bc894e78df1a451b882320221d0d9755ff4"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:71f6882b5c315a0870d8bb249ac0904b457929d65bbcaf6357f48fb58a6c241a", "1.4.1--r43hdfd78af_0": "sha256:44334ca4ad377cf4e34be1bb0fb6ff696854061b297e3a4ea363909be96d4eb7", "1.6.1--r43hdfd78af_0": "sha256:d65a2e01e2d0ef9348e3bb4cf5ff6bc894e78df1a451b882320221d0d9755ff4"}, "docker": "quay.io/biocontainers/bioconductor-metaboannotation", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "rsvg-convert": "/usr/local/bin/rsvg-convert", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metaboannotation.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metaboannotation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metaboannotation:1.4.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-metaboannotation:1.6.1--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metaboannotation/1.4.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-metaboannotation/1.4.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-metaboannotation/1.6.1--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-metaboannotation/1.6.1--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-nanotator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nanotator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nanotator/container.yaml"
-updated_at: "2023-12-27 02:57:13.409314"
-latest: "1.16.0--r43hdfd78af_0"
+updated_at: "2023-12-28 02:57:14.190827"
+latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nanotator"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.14.0--r42hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
+ - "1.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nanotator"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nanotator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nanotator", "latest": {"1.16.0--r43hdfd78af_0": "sha256:9fa84fbc776aee5df533c18a181f34f235319b6bce1331cb663f94e885be0f6e"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:e729b789415026ee1dd5ebed85de1cc04319b84d809c7235b6072962b6de8685", "1.14.0--r42hdfd78af_0": "sha256:9bba0a9f53fa7e173ce44067b88177c1d3e88ba1088d2902c4d6dfb3cb8bd6ce", "1.10.0--r41hdfd78af_0": "sha256:35fbb8f8a0c1991494d8a430119ee4bfc0d8c887e9a647f937f59df3ce254d42", "1.16.0--r43hdfd78af_0": "sha256:9fa84fbc776aee5df533c18a181f34f235319b6bce1331cb663f94e885be0f6e"}, "docker": "quay.io/biocontainers/bioconductor-nanotator", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nanotator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nanotator", "latest": {"1.18.0--r43hdfd78af_0": "sha256:6db7b3a03b89326d6263f99d137ba4263b833db07cb86a31debffcf9e736bdd4"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:e729b789415026ee1dd5ebed85de1cc04319b84d809c7235b6072962b6de8685", "1.14.0--r42hdfd78af_0": "sha256:9bba0a9f53fa7e173ce44067b88177c1d3e88ba1088d2902c4d6dfb3cb8bd6ce", "1.10.0--r41hdfd78af_0": "sha256:35fbb8f8a0c1991494d8a430119ee4bfc0d8c887e9a647f937f59df3ce254d42", "1.16.0--r43hdfd78af_0": "sha256:9fa84fbc776aee5df533c18a181f34f235319b6bce1331cb663f94e885be0f6e", "1.18.0--r43hdfd78af_0": "sha256:6db7b3a03b89326d6263f99d137ba4263b833db07cb86a31debffcf9e736bdd4"}, "docker": "quay.io/biocontainers/bioconductor-nanotator", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nanotator.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nanotator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nanotator:1.16.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-nanotator:1.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nanotator/1.16.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-nanotator/1.16.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-nanotator/1.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-nanotator/1.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

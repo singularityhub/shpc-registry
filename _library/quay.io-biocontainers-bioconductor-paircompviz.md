@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-paircompviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-paircompviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-paircompviz/container.yaml"
-updated_at: "2023-12-27 02:43:26.425743"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2023-12-28 02:43:21.483514"
+latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-paircompviz"
 
 versions:
  - "1.32.0--r41hdfd78af_0"
  - "1.36.0--r42hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.40.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-paircompviz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-paircompviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-paircompviz", "latest": {"1.38.0--r43hdfd78af_0": "sha256:48821f979b8980d616773bf36cebefa69f23a88e97f58ebe2045a77e568abc3d"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:6fbc26b645a1d0c47241bd06a0ea03577ed91693b1288bf0169c7324a764f1c5", "1.36.0--r42hdfd78af_0": "sha256:6d7b311972ddd0f1c40033b6d4699468eb2efa5d790e803b28bcb53d3d2e11c8", "1.38.0--r43hdfd78af_0": "sha256:48821f979b8980d616773bf36cebefa69f23a88e97f58ebe2045a77e568abc3d"}, "docker": "quay.io/biocontainers/bioconductor-paircompviz"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-paircompviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-paircompviz", "latest": {"1.40.0--r43hdfd78af_0": "sha256:ce08c6b92a325bcdeea4ca5627373acbc9879acdfb503c37eef5347a85d9ae8e"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:6fbc26b645a1d0c47241bd06a0ea03577ed91693b1288bf0169c7324a764f1c5", "1.36.0--r42hdfd78af_0": "sha256:6d7b311972ddd0f1c40033b6d4699468eb2efa5d790e803b28bcb53d3d2e11c8", "1.38.0--r43hdfd78af_0": "sha256:48821f979b8980d616773bf36cebefa69f23a88e97f58ebe2045a77e568abc3d", "1.40.0--r43hdfd78af_0": "sha256:ce08c6b92a325bcdeea4ca5627373acbc9879acdfb503c37eef5347a85d9ae8e"}, "docker": "quay.io/biocontainers/bioconductor-paircompviz"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-paircompviz.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-paircompviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-paircompviz:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-paircompviz:1.40.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-paircompviz/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-paircompviz/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-paircompviz/1.40.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-paircompviz/1.40.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

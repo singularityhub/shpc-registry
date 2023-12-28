@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-flowcut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowcut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowcut/container.yaml"
-updated_at: "2023-12-27 03:09:07.110178"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2023-12-28 03:09:12.665837"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowcut"
 aliases:
  - "geosop"
@@ -14,8 +14,9 @@ versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowcut"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowcut", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowcut", "latest": {"1.10.0--r43hdfd78af_0": "sha256:8bf972e049b89149878d860a38794dc73d1a7d2ffdd59660c94130313ed462d5"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:06982b6e2d8666f508fd4d321fdbab9806ff09c46d85a52a019790bceb136419", "1.8.0--r42hdfd78af_0": "sha256:0cbcae48854fba8405b2121a8d985696aa6394154fb1971c46da0a2c1379a2fc", "1.10.0--r43hdfd78af_0": "sha256:8bf972e049b89149878d860a38794dc73d1a7d2ffdd59660c94130313ed462d5"}, "docker": "quay.io/biocontainers/bioconductor-flowcut", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowcut", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowcut", "latest": {"1.12.0--r43hdfd78af_0": "sha256:c8f36b481890a855b746676ea5f5b86ffd1ee5433af813624300c5f114f792bf"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:06982b6e2d8666f508fd4d321fdbab9806ff09c46d85a52a019790bceb136419", "1.8.0--r42hdfd78af_0": "sha256:0cbcae48854fba8405b2121a8d985696aa6394154fb1971c46da0a2c1379a2fc", "1.10.0--r43hdfd78af_0": "sha256:8bf972e049b89149878d860a38794dc73d1a7d2ffdd59660c94130313ed462d5", "1.12.0--r43hdfd78af_0": "sha256:c8f36b481890a855b746676ea5f5b86ffd1ee5433af813624300c5f114f792bf"}, "docker": "quay.io/biocontainers/bioconductor-flowcut", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowcut.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowcut
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowcut:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-flowcut:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowcut/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-flowcut/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-flowcut/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-flowcut/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

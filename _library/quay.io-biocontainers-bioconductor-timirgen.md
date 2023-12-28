@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-timirgen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-timirgen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-timirgen/container.yaml"
-updated_at: "2023-12-27 03:06:35.047851"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2023-12-28 03:06:39.700998"
+latest: "1.11.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-timirgen"
 aliases:
  - "Cytoscape"
@@ -22,8 +22,9 @@ versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.11.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-timirgen"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-timirgen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-timirgen", "latest": {"1.10.0--r43hdfd78af_0": "sha256:5f593268d862c8686b55efdb3687302eb6a9f05ccc2d721c0866b75146a484e7"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:3692e4cba844c0294a5f90d191c0a56833a498c6b75cef5a760e72441e11792b", "1.8.0--r42hdfd78af_0": "sha256:342d87d41d489db6916db80d8060e8bc2ca733c7789271cb6c5a4193d54ae662", "1.10.0--r43hdfd78af_0": "sha256:5f593268d862c8686b55efdb3687302eb6a9f05ccc2d721c0866b75146a484e7"}, "docker": "quay.io/biocontainers/bioconductor-timirgen", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "curve_keygen": "/usr/local/bin/curve_keygen", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-timirgen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-timirgen", "latest": {"1.11.0--r43hdfd78af_0": "sha256:b1c737ca00147c1455760528b0978cccfef8b21ce1b601bf543f86db396c7b13"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:3692e4cba844c0294a5f90d191c0a56833a498c6b75cef5a760e72441e11792b", "1.8.0--r42hdfd78af_0": "sha256:342d87d41d489db6916db80d8060e8bc2ca733c7789271cb6c5a4193d54ae662", "1.10.0--r43hdfd78af_0": "sha256:5f593268d862c8686b55efdb3687302eb6a9f05ccc2d721c0866b75146a484e7", "1.11.0--r43hdfd78af_0": "sha256:b1c737ca00147c1455760528b0978cccfef8b21ce1b601bf543f86db396c7b13"}, "docker": "quay.io/biocontainers/bioconductor-timirgen", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "curve_keygen": "/usr/local/bin/curve_keygen", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-timirgen.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-timirgen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-timirgen:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-timirgen:1.11.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-timirgen/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-timirgen/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-timirgen/1.11.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-timirgen/1.11.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

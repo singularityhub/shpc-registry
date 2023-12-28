@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-normalize450k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-normalize450k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-normalize450k/container.yaml"
-updated_at: "2023-12-27 02:52:27.353018"
+updated_at: "2023-12-28 02:52:26.109553"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-normalize450k"
 

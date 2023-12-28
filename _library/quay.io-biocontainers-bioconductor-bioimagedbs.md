@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bioimagedbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bioimagedbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bioimagedbs/container.yaml"
-updated_at: "2023-12-27 02:50:06.422707"
-latest: "1.8.0--r43hdfd78af_0"
+updated_at: "2023-12-28 02:50:04.121161"
+latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bioimagedbs"
 aliases:
  - "SvtAv1DecApp"
@@ -41,8 +41,9 @@ versions:
  - "1.2.2--r41hdfd78af_1"
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
+ - "1.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bioimagedbs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bioimagedbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bioimagedbs", "latest": {"1.8.0--r43hdfd78af_0": "sha256:97345ac5a0b15454f1a46f897de8064701ae4f5a580324959f54d376886443a9"}, "tags": {"1.2.2--r41hdfd78af_1": "sha256:a9068e787b853d2a626c9cd4f46942a7bbfc69be387a05b967397985fd8d8efe", "1.6.0--r42hdfd78af_0": "sha256:ca516a3b3fcab4ddd771b1ea720152d093a702f93f8d5ec87e54d942f927be12", "1.8.0--r43hdfd78af_0": "sha256:97345ac5a0b15454f1a46f897de8064701ae4f5a580324959f54d376886443a9"}, "docker": "quay.io/biocontainers/bioconductor-bioimagedbs", "aliases": {"SvtAv1DecApp": "/usr/local/bin/SvtAv1DecApp", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "lame": "/usr/local/bin/lame", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "trust": "/usr/local/bin/trust", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "x264": "/usr/local/bin/x264", "x265": "/usr/local/bin/x265", "pandoc-server": "/usr/local/bin/pandoc-server", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bioimagedbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bioimagedbs", "latest": {"1.10.0--r43hdfd78af_0": "sha256:00e69e459a3e41935d2794e24fc29a50486dbd4c6d5e4c6639b30f6cbd7cec23"}, "tags": {"1.2.2--r41hdfd78af_1": "sha256:a9068e787b853d2a626c9cd4f46942a7bbfc69be387a05b967397985fd8d8efe", "1.6.0--r42hdfd78af_0": "sha256:ca516a3b3fcab4ddd771b1ea720152d093a702f93f8d5ec87e54d942f927be12", "1.8.0--r43hdfd78af_0": "sha256:97345ac5a0b15454f1a46f897de8064701ae4f5a580324959f54d376886443a9", "1.10.0--r43hdfd78af_0": "sha256:00e69e459a3e41935d2794e24fc29a50486dbd4c6d5e4c6639b30f6cbd7cec23"}, "docker": "quay.io/biocontainers/bioconductor-bioimagedbs", "aliases": {"SvtAv1DecApp": "/usr/local/bin/SvtAv1DecApp", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "lame": "/usr/local/bin/lame", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "trust": "/usr/local/bin/trust", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "x264": "/usr/local/bin/x264", "x265": "/usr/local/bin/x265", "pandoc-server": "/usr/local/bin/pandoc-server", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bioimagedbs.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bioimagedbs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bioimagedbs:1.8.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-bioimagedbs:1.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bioimagedbs/1.8.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-bioimagedbs/1.8.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-bioimagedbs/1.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bioimagedbs/1.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

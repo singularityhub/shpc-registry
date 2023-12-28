@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-metabolomicsworkbenchr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metabolomicsworkbenchr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metabolomicsworkbenchr/container.yaml"
-updated_at: "2023-12-27 02:44:52.286650"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2023-12-28 02:44:48.254133"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metabolomicsworkbenchr"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-metabolomicsworkbenchr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metabolomicsworkbenchr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metabolomicsworkbenchr", "latest": {"1.10.0--r43hdfd78af_0": "sha256:46a918c8a3ef8871bb6a58d53b2ed8084005f5fb327da523c8c3dead5fddd108"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:70f33c8dfe9bd9dffbdae7dab1edab4c42c16744cdfd73497f77fcef74ec4eda", "1.8.0--r42hdfd78af_0": "sha256:7975664a2784bd12f99bde0527bb0939557e65b82c7f4efc504fe1584e8c2097", "1.10.0--r43hdfd78af_0": "sha256:46a918c8a3ef8871bb6a58d53b2ed8084005f5fb327da523c8c3dead5fddd108"}, "docker": "quay.io/biocontainers/bioconductor-metabolomicsworkbenchr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metabolomicsworkbenchr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metabolomicsworkbenchr", "latest": {"1.12.0--r43hdfd78af_0": "sha256:c827b10fbf712e8b73c39c674882755068dc5ca001fbe446049cd94894f0dd8f"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:70f33c8dfe9bd9dffbdae7dab1edab4c42c16744cdfd73497f77fcef74ec4eda", "1.8.0--r42hdfd78af_0": "sha256:7975664a2784bd12f99bde0527bb0939557e65b82c7f4efc504fe1584e8c2097", "1.10.0--r43hdfd78af_0": "sha256:46a918c8a3ef8871bb6a58d53b2ed8084005f5fb327da523c8c3dead5fddd108", "1.12.0--r43hdfd78af_0": "sha256:c827b10fbf712e8b73c39c674882755068dc5ca001fbe446049cd94894f0dd8f"}, "docker": "quay.io/biocontainers/bioconductor-metabolomicsworkbenchr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metabolomicsworkbenchr.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metabolomicsworkbenchr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metabolomicsworkbenchr:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-metabolomicsworkbenchr:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metabolomicsworkbenchr/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-metabolomicsworkbenchr/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-metabolomicsworkbenchr/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-metabolomicsworkbenchr/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
