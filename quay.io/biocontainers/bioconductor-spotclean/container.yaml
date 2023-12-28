@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-spotclean
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-spotclean
 latest:
-  1.2.0--r43hdfd78af_0: sha256:4faffa9856121ecd0338b9504766dbdd7695909ce82da27ce2c4e5bc407d8aa8
+  1.4.1--r43hdfd78af_0: sha256:3afb997bf5766a0f6c6b626b7a9a2dea62abddb3c06087b65413b8aeea5d70c7
 tags:
   1.0.0--r42hdfd78af_0: sha256:d180ee23cfad25f102f5051d47273df524c60bd1a30a797d993e2a6cef04e5ee
   1.2.0--r43hdfd78af_0: sha256:4faffa9856121ecd0338b9504766dbdd7695909ce82da27ce2c4e5bc407d8aa8
+  1.4.1--r43hdfd78af_0: sha256:3afb997bf5766a0f6c6b626b7a9a2dea62abddb3c06087b65413b8aeea5d70c7
 docker: quay.io/biocontainers/bioconductor-spotclean
 aliases:
   geosop: /usr/local/bin/geosop

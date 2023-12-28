@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-beer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-beer
 latest:
-  1.4.0--r43hdfd78af_0: sha256:d301c8cb2cf1fc52dbde3255e859817bcea8c6269fc5983e7340f1daac6ff21d
+  1.6.0--r43hdfd78af_0: sha256:bb1af563528977a1a93a96d81f1cbc426bdfe9dec190ba4ace14b3fcaddb94bf
 tags:
   1.2.0--r42hdfd78af_0: sha256:689897f1d177b6bb214cf71870ca064b85b6e53680b0b1525eab1e9cbc498129
   1.4.0--r43hdfd78af_0: sha256:d301c8cb2cf1fc52dbde3255e859817bcea8c6269fc5983e7340f1daac6ff21d
+  1.6.0--r43hdfd78af_0: sha256:bb1af563528977a1a93a96d81f1cbc426bdfe9dec190ba4ace14b3fcaddb94bf
 docker: quay.io/biocontainers/bioconductor-beer
 aliases:
   jags: /usr/local/bin/jags

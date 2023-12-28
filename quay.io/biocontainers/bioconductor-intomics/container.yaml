@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-intomics
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-intomics
 latest:
-  1.0.0--r43hdfd78af_0: sha256:39f5a597eab44bb705a010f2cd3833bceada1e3834a9e70f8aef5d71f3b466bf
+  1.2.0--r43hdfd78af_0: sha256:8bee9dc1817ce157523fa47770ac8c92f8a83d81d7f760d59427a1bcf412aa01
 tags:
   1.0.0--r43hdfd78af_0: sha256:39f5a597eab44bb705a010f2cd3833bceada1e3834a9e70f8aef5d71f3b466bf
+  1.2.0--r43hdfd78af_0: sha256:8bee9dc1817ce157523fa47770ac8c92f8a83d81d7f760d59427a1bcf412aa01
 docker: quay.io/biocontainers/bioconductor-intomics
 aliases:
   git2: /usr/local/bin/git2

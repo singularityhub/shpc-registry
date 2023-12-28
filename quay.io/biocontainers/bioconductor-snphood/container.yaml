@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-snphood
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-snphood
 latest:
-  1.30.0--r43hdfd78af_0: sha256:a794e29547dacc86d7c35362a94792e330173db2a2c698f8c6267e1c40b7ebf8
+  1.32.0--r43hdfd78af_0: sha256:fb2590c7cf6cd14e009756847130c6836327b89b81276af828fa7caf4b8ce964
 tags:
   1.8.0--r3.4.1_0: sha256:c9401d4f03c0f2d9432e7dcf03660a532830be6b5de6962b9a37aba9de632750
   1.28.0--r42hdfd78af_0: sha256:2586b9e8fde8ac16a2de3e76fca98599b8c7cd40a25e796fa0e5900d125a691e
@@ -11,6 +11,7 @@ tags:
   1.20.0--r40hdfd78af_1: sha256:fd7c9f60b77499af3375a132e8d6bbe7a13c49ba5df96b41d52f5fe69ab370a6
   1.18.0--r40_0: sha256:278ed5a3467f8993b848a8401671454a4af8558c3245f769c370901884b5ce94
   1.30.0--r43hdfd78af_0: sha256:a794e29547dacc86d7c35362a94792e330173db2a2c698f8c6267e1c40b7ebf8
+  1.32.0--r43hdfd78af_0: sha256:fb2590c7cf6cd14e009756847130c6836327b89b81276af828fa7caf4b8ce964
 docker: quay.io/biocontainers/bioconductor-snphood
 aliases:
   my_print_defaults: /usr/local/bin/my_print_defaults

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-netomics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-netomics
 latest:
-  1.6.0--r43hdfd78af_0: sha256:6a2a3bdf1723dcc9c76219737a10aa9954363c84031ca9f7a65a70a203178442
+  1.8.0--r43hdfd78af_0: sha256:675f573ca653b0cbf6006d05d7cab22ce2098f2fca2b6adb8319ee19318e55cf
 tags:
   1.0.0--r41hdfd78af_0: sha256:b42134db517f9d5b5c1231c0a3ed79168ef6f966201da1cbedab2cd5fa5f550a
   1.4.0--r42hdfd78af_0: sha256:53680ac1bfa8139b8c1bf533f4934dabc37ddf829943c13aece0a5fd549e172f
   1.6.0--r43hdfd78af_0: sha256:6a2a3bdf1723dcc9c76219737a10aa9954363c84031ca9f7a65a70a203178442
+  1.8.0--r43hdfd78af_0: sha256:675f573ca653b0cbf6006d05d7cab22ce2098f2fca2b6adb8319ee19318e55cf
 docker: quay.io/biocontainers/bioconductor-netomics

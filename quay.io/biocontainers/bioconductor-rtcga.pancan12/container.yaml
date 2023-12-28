@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-rtcga.pancan12
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rtcga.pancan12
 latest:
-  1.28.0--r43hdfd78af_0: sha256:65fd9dcee0c6aa707c828d4b302cbb99ffc4cf0845395c17c79469bde6df8a12
+  1.30.0--r43hdfd78af_0: sha256:cff98f44049b78ca5889c514184eeada49412195c4bfaec242dd9c202b865ac7
 tags:
   1.22.0--r41hdfd78af_1: sha256:79992ed9963e989d7bba62bc0b8137cdc2ce3f1eaea7ba8bc599f6b37bf5d089
   1.25.0--r42hdfd78af_0: sha256:817f9938a3361c4765357212c2aaf4e26920401cd579dbf4ab015a0990bb0957
   1.28.0--r43hdfd78af_0: sha256:65fd9dcee0c6aa707c828d4b302cbb99ffc4cf0845395c17c79469bde6df8a12
+  1.30.0--r43hdfd78af_0: sha256:cff98f44049b78ca5889c514184eeada49412195c4bfaec242dd9c202b865ac7
 docker: quay.io/biocontainers/bioconductor-rtcga.pancan12
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

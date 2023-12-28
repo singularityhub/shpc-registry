@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-factr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-factr
 latest:
-  1.2.0--r43hdfd78af_0: sha256:3371091dc9e5f2d1ef0a7d431d732e2262d6506c1f267b4fca057a96cbba1990
+  1.4.0--r43hdfd78af_0: sha256:c61c8c13cab2836e5e4f2cdae651bceb2b2a709658e3a86cd2a8dc167ac5b4c1
 tags:
   1.0.0--r42hdfd78af_0: sha256:bb25d31ca8c0c20852af1a985cd65f196526ac3cdd50a91885c98c2851f28bad
   1.2.0--r43hdfd78af_0: sha256:3371091dc9e5f2d1ef0a7d431d732e2262d6506c1f267b4fca057a96cbba1990
+  1.4.0--r43hdfd78af_0: sha256:c61c8c13cab2836e5e4f2cdae651bceb2b2a709658e3a86cd2a8dc167ac5b4c1
 docker: quay.io/biocontainers/bioconductor-factr
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

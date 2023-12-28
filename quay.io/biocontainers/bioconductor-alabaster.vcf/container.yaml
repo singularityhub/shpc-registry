@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-alabaster.vcf
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-alabaster.vcf
 latest:
-  1.0.0--r43hdfd78af_0: sha256:f4b7aba8e877b43afd67b2014e4465b7289ff69481cf847883be96c77f7c1562
+  1.2.0--r43hdfd78af_0: sha256:0a925a49ee50a56218e3567cd7a994e95db55f086152327bbc03be732019ec5d
 tags:
   1.0.0--r43hdfd78af_0: sha256:f4b7aba8e877b43afd67b2014e4465b7289ff69481cf847883be96c77f7c1562
+  1.2.0--r43hdfd78af_0: sha256:0a925a49ee50a56218e3567cd7a994e95db55f086152327bbc03be732019ec5d
 docker: quay.io/biocontainers/bioconductor-alabaster.vcf
 aliases:
   hb-info: /usr/local/bin/hb-info

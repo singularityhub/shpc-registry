@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-pareg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-pareg
 latest:
-  1.2.0--r42hdfd78af_0: sha256:99a56f1caa6edc639d818fb79ebf7417f820ba89f018368f96a6dcd78109ffa7
+  1.6.0--r43hdfd78af_0: sha256:6f361efc4046d9293191d4a96a2d6c3f8004f381fab31157fcaf2846e7daf920
 tags:
   1.2.0--r42hdfd78af_0: sha256:99a56f1caa6edc639d818fb79ebf7417f820ba89f018368f96a6dcd78109ffa7
+  1.6.0--r43hdfd78af_0: sha256:6f361efc4046d9293191d4a96a2d6c3f8004f381fab31157fcaf2846e7daf920
 docker: quay.io/biocontainers/bioconductor-pareg
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

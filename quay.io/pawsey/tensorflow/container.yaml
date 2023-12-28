@@ -1,12 +1,12 @@
 docker: quay.io/pawsey/tensorflow
 url: https://singularity-hpc.readthedocs.io
-maintainer: dipietrantonio 
+maintainer: dipietrantonio
 features:
   gpu: true
 
 aliases:
-  python: /usr/bin/python3  
-  python3: /usr/bin/python3  
+  python: /usr/bin/python3
+  python3: /usr/bin/python3
   venv: /usr/bin/python3 -m venv --system-site-packages
   bash: /bin/bash
 
