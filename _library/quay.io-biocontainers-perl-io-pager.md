@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-io-pager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-pager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-pager/container.yaml"
-updated_at: "2023-12-28 02:44:18.294906"
+updated_at: "2023-12-29 02:41:15.278818"
 latest: "2.10--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-io-pager"
 aliases:

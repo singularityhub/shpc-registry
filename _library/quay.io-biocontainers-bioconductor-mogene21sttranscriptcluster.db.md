@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mogene21sttranscriptcluster.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mogene21sttranscriptcluster.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mogene21sttranscriptcluster.db/container.yaml"
-updated_at: "2023-12-28 02:55:06.652206"
+updated_at: "2023-12-29 02:52:05.865132"
 latest: "8.8.0--r43hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-mogene21sttranscriptcluster.db"
 

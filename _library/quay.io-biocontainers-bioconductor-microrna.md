@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-microrna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-microrna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-microrna/container.yaml"
-updated_at: "2023-12-28 02:50:51.395949"
-latest: "1.58.0--r43hf17093f_0"
+updated_at: "2023-12-29 02:47:50.310734"
+latest: "1.60.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-microrna"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.56.0--r42hc247a5b_0"
  - "1.56.0--r42hf17093f_1"
  - "1.58.0--r43hf17093f_0"
+ - "1.60.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-microrna"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-microrna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-microrna", "latest": {"1.58.0--r43hf17093f_0": "sha256:39c01edc5ffb7a6ce9e5e5e8195f0300908e9e37844ec0bbeccecf4d3f65ff99"}, "tags": {"1.52.0--r41hc247a5b_2": "sha256:d196c507e23c7465156333dc220b9c4ce6fba3128c6b5b0f6e6ed291125c9bb8", "1.56.0--r42hc247a5b_0": "sha256:1d52828d1d7d0c572306a298b27f3ecadb6411c1940eef1d3cf8ac9de360dde1", "1.56.0--r42hf17093f_1": "sha256:63801afd1e74588bface28e99ee15008325e6376533f6b6036292b81ab68b682", "1.58.0--r43hf17093f_0": "sha256:39c01edc5ffb7a6ce9e5e5e8195f0300908e9e37844ec0bbeccecf4d3f65ff99"}, "docker": "quay.io/biocontainers/bioconductor-microrna"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-microrna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-microrna", "latest": {"1.60.0--r43hf17093f_0": "sha256:61361f73fcc319d094883d001eb1b17de6bf3d1b6250ce615d0e1fc70f4ca7c7"}, "tags": {"1.52.0--r41hc247a5b_2": "sha256:d196c507e23c7465156333dc220b9c4ce6fba3128c6b5b0f6e6ed291125c9bb8", "1.56.0--r42hc247a5b_0": "sha256:1d52828d1d7d0c572306a298b27f3ecadb6411c1940eef1d3cf8ac9de360dde1", "1.56.0--r42hf17093f_1": "sha256:63801afd1e74588bface28e99ee15008325e6376533f6b6036292b81ab68b682", "1.58.0--r43hf17093f_0": "sha256:39c01edc5ffb7a6ce9e5e5e8195f0300908e9e37844ec0bbeccecf4d3f65ff99", "1.60.0--r43hf17093f_0": "sha256:61361f73fcc319d094883d001eb1b17de6bf3d1b6250ce615d0e1fc70f4ca7c7"}, "docker": "quay.io/biocontainers/bioconductor-microrna"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-microrna.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-microrna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-microrna:1.58.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-microrna:1.60.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-microrna/1.58.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-microrna/1.58.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-microrna/1.60.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-microrna/1.60.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

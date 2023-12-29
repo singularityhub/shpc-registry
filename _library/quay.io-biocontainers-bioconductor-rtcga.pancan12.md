@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.pancan12"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.pancan12/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.pancan12/container.yaml"
-updated_at: "2023-12-28 02:27:57.244923"
-latest: "1.28.0--r43hdfd78af_0"
+updated_at: "2023-12-29 02:24:42.338058"
+latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.pancan12"
 aliases:
  - "f2py3.10"
@@ -19,8 +19,9 @@ versions:
  - "1.22.0--r41hdfd78af_1"
  - "1.25.0--r42hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
+ - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rtcga.pancan12"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.pancan12", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.pancan12", "latest": {"1.28.0--r43hdfd78af_0": "sha256:65fd9dcee0c6aa707c828d4b302cbb99ffc4cf0845395c17c79469bde6df8a12"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:79992ed9963e989d7bba62bc0b8137cdc2ce3f1eaea7ba8bc599f6b37bf5d089", "1.25.0--r42hdfd78af_0": "sha256:817f9938a3361c4765357212c2aaf4e26920401cd579dbf4ab015a0990bb0957", "1.28.0--r43hdfd78af_0": "sha256:65fd9dcee0c6aa707c828d4b302cbb99ffc4cf0845395c17c79469bde6df8a12"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.pancan12", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.pancan12", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.pancan12", "latest": {"1.30.0--r43hdfd78af_0": "sha256:cff98f44049b78ca5889c514184eeada49412195c4bfaec242dd9c202b865ac7"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:79992ed9963e989d7bba62bc0b8137cdc2ce3f1eaea7ba8bc599f6b37bf5d089", "1.25.0--r42hdfd78af_0": "sha256:817f9938a3361c4765357212c2aaf4e26920401cd579dbf4ab015a0990bb0957", "1.28.0--r43hdfd78af_0": "sha256:65fd9dcee0c6aa707c828d4b302cbb99ffc4cf0845395c17c79469bde6df8a12", "1.30.0--r43hdfd78af_0": "sha256:cff98f44049b78ca5889c514184eeada49412195c4bfaec242dd9c202b865ac7"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.pancan12", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rtcga.pancan12.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rtcga.pancan12
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rtcga.pancan12:1.28.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rtcga.pancan12:1.30.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rtcga.pancan12/1.28.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rtcga.pancan12/1.28.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rtcga.pancan12/1.30.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rtcga.pancan12/1.30.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

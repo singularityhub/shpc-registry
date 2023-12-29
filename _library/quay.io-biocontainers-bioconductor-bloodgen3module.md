@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bloodgen3module"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bloodgen3module/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bloodgen3module/container.yaml"
-updated_at: "2023-12-28 02:43:41.268038"
-latest: "1.8.0--r43hdfd78af_0"
+updated_at: "2023-12-29 02:40:38.458003"
+latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bloodgen3module"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
+ - "1.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bloodgen3module"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bloodgen3module", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bloodgen3module", "latest": {"1.8.0--r43hdfd78af_0": "sha256:fb3f8ec0b92d26dc4f33790fa34de5c800560ea95f34ad5a855a1d64500b1f9d"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:8c461765947d56f7ce100df00bd03a9034e46175f8f55e112f6bc3293bcc7ec2", "1.6.0--r42hdfd78af_0": "sha256:5414f3a6aabc6ad1604e4012166ac0e4b06cb2a01b159f6d678f29ca4a27d93b", "1.8.0--r43hdfd78af_0": "sha256:fb3f8ec0b92d26dc4f33790fa34de5c800560ea95f34ad5a855a1d64500b1f9d"}, "docker": "quay.io/biocontainers/bioconductor-bloodgen3module", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bloodgen3module", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bloodgen3module", "latest": {"1.10.0--r43hdfd78af_0": "sha256:053334a69e412ee216f9fdc301b865f8e3fbeb40ecfec12485923f964f31f431"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:8c461765947d56f7ce100df00bd03a9034e46175f8f55e112f6bc3293bcc7ec2", "1.6.0--r42hdfd78af_0": "sha256:5414f3a6aabc6ad1604e4012166ac0e4b06cb2a01b159f6d678f29ca4a27d93b", "1.8.0--r43hdfd78af_0": "sha256:fb3f8ec0b92d26dc4f33790fa34de5c800560ea95f34ad5a855a1d64500b1f9d", "1.10.0--r43hdfd78af_0": "sha256:053334a69e412ee216f9fdc301b865f8e3fbeb40ecfec12485923f964f31f431"}, "docker": "quay.io/biocontainers/bioconductor-bloodgen3module", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bloodgen3module.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bloodgen3module
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bloodgen3module:1.8.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-bloodgen3module:1.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bloodgen3module/1.8.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-bloodgen3module/1.8.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-bloodgen3module/1.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bloodgen3module/1.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

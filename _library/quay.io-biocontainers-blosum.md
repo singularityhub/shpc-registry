@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blosum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blosum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blosum/container.yaml"
-updated_at: "2023-12-28 02:54:31.561653"
+updated_at: "2023-12-29 02:51:30.982437"
 latest: "2.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/blosum"
 aliases:

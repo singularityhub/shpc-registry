@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dmelsgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dmelsgi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dmelsgi/container.yaml"
-updated_at: "2023-12-28 02:59:42.061076"
-latest: "1.32.0--r43hdfd78af_0"
+updated_at: "2023-12-29 02:56:38.512120"
+latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dmelsgi"
 aliases:
  - "glpsol"
@@ -13,8 +13,9 @@ versions:
  - "1.26.0--r41hdfd78af_1"
  - "1.29.1--r42hdfd78af_0"
  - "1.32.0--r43hdfd78af_0"
+ - "1.34.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dmelsgi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dmelsgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dmelsgi", "latest": {"1.32.0--r43hdfd78af_0": "sha256:0ded75289837dc4f24b3e5a1544601e4fde4b7a965b914ae114d60333c96be6d"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:09100acbc06a941981dbdfc404455e793398feb27a0c4b025fd72aae7049f044", "1.29.1--r42hdfd78af_0": "sha256:9df82b739d7a47582f2898c5f4a12e276b89d7b9c556761b9412f034b0fe6f40", "1.32.0--r43hdfd78af_0": "sha256:0ded75289837dc4f24b3e5a1544601e4fde4b7a965b914ae114d60333c96be6d"}, "docker": "quay.io/biocontainers/bioconductor-dmelsgi", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dmelsgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dmelsgi", "latest": {"1.34.0--r43hdfd78af_0": "sha256:7c877d0ccf508c0e219aaa20a9a7ca3cf33fb69f73455351dde5a49ef0ce8b1e"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:09100acbc06a941981dbdfc404455e793398feb27a0c4b025fd72aae7049f044", "1.29.1--r42hdfd78af_0": "sha256:9df82b739d7a47582f2898c5f4a12e276b89d7b9c556761b9412f034b0fe6f40", "1.32.0--r43hdfd78af_0": "sha256:0ded75289837dc4f24b3e5a1544601e4fde4b7a965b914ae114d60333c96be6d", "1.34.0--r43hdfd78af_0": "sha256:7c877d0ccf508c0e219aaa20a9a7ca3cf33fb69f73455351dde5a49ef0ce8b1e"}, "docker": "quay.io/biocontainers/bioconductor-dmelsgi", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dmelsgi.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dmelsgi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dmelsgi:1.32.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dmelsgi:1.34.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dmelsgi/1.32.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dmelsgi/1.32.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dmelsgi/1.34.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dmelsgi/1.34.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

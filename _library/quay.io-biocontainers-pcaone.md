@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pcaone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pcaone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pcaone/container.yaml"
-updated_at: "2023-12-28 02:58:19.296993"
+updated_at: "2023-12-29 02:55:16.785343"
 latest: "0.4.0--hf73f384_0"
 container_url: "https://biocontainers.pro/tools/pcaone"
 aliases:

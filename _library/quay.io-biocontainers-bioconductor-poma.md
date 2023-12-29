@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-poma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-poma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-poma/container.yaml"
-updated_at: "2023-12-28 03:02:28.528710"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2023-12-29 02:59:21.605585"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-poma"
 aliases:
  - "zipcmp"
@@ -22,8 +22,9 @@ versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-poma"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-poma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-poma", "latest": {"1.10.0--r43hdfd78af_0": "sha256:592ec5235b6b80460ff29d8e9ad8e77dca5606596333f35f76b0f05a6edcef5a"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:428fdbb01403d77ce180cdffd578af7225310e976828b750f0f6565f2bd07a86", "1.8.0--r42hdfd78af_0": "sha256:09ff4aa97bfc9aaf91e9a4f6a95c8ec46be31e0d9bcb4a4bf45337893667f494", "1.10.0--r43hdfd78af_0": "sha256:592ec5235b6b80460ff29d8e9ad8e77dca5606596333f35f76b0f05a6edcef5a"}, "docker": "quay.io/biocontainers/bioconductor-poma", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-poma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-poma", "latest": {"1.12.0--r43hdfd78af_0": "sha256:83d6314b80218ddc440af34ce2e42021f0e8a8f596b2f9a9c77f0302aa7b11e9"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:428fdbb01403d77ce180cdffd578af7225310e976828b750f0f6565f2bd07a86", "1.8.0--r42hdfd78af_0": "sha256:09ff4aa97bfc9aaf91e9a4f6a95c8ec46be31e0d9bcb4a4bf45337893667f494", "1.10.0--r43hdfd78af_0": "sha256:592ec5235b6b80460ff29d8e9ad8e77dca5606596333f35f76b0f05a6edcef5a", "1.12.0--r43hdfd78af_0": "sha256:83d6314b80218ddc440af34ce2e42021f0e8a8f596b2f9a9c77f0302aa7b11e9"}, "docker": "quay.io/biocontainers/bioconductor-poma", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-poma.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-poma
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-poma:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-poma:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-poma/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-poma/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-poma/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-poma/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

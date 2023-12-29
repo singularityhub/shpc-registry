@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minimock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minimock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minimock/container.yaml"
-updated_at: "2023-12-28 02:33:03.685579"
+updated_at: "2023-12-29 02:29:54.928721"
 latest: "1.2.8--py27_1"
 container_url: "https://biocontainers.pro/tools/minimock"
 aliases:

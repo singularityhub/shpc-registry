@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pastml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pastml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pastml/container.yaml"
-updated_at: "2023-12-28 02:35:52.554322"
+updated_at: "2023-12-29 02:32:46.857917"
 latest: "1.9.40--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pastml"
 aliases:

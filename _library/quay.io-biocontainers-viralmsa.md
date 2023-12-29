@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viralmsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viralmsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viralmsa/container.yaml"
-updated_at: "2023-12-28 02:43:57.461163"
+updated_at: "2023-12-29 02:40:54.706286"
 latest: "1.1.40--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/viralmsa"
 aliases:

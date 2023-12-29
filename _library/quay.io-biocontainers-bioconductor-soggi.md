@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-soggi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-soggi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-soggi/container.yaml"
-updated_at: "2023-12-28 02:59:34.090807"
-latest: "1.32.0--r43hdfd78af_0"
+updated_at: "2023-12-29 02:56:30.703801"
+latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-soggi"
 aliases:
  - "tclsh8.5"
@@ -20,8 +20,9 @@ versions:
  - "1.22.0--r40hdfd78af_1"
  - "1.20.0--r40_0"
  - "1.32.0--r43hdfd78af_0"
+ - "1.34.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-soggi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-soggi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-soggi", "latest": {"1.32.0--r43hdfd78af_0": "sha256:e8738af566789157402167ff8b234f4100a6091c60c7cb2c8075ff12f46e9c98"}, "tags": {"1.8.0--r3.4.1_0": "sha256:6bb37595e09fcac4aaec539166453fc07b36c4e2a2c87052546fcc695a894408", "1.30.0--r42hdfd78af_0": "sha256:4fd60660853862b1a87277489df8c19d21a2a6798520ee9b20e2c8ec7420e4b9", "1.26.0--r41hdfd78af_0": "sha256:5eebfe821342c52b2d0ebb939765cbb18e4b132feca1a3f9ba2a449d2bf2ec82", "1.24.0--r41hdfd78af_0": "sha256:cbbb29849a8d5d4ff00aded6751b38f8e0ed65ac23516d45440d99fb40126777", "1.22.0--r40hdfd78af_1": "sha256:bdc4697b34db2de4741552a831287fa48a3c18365cfad49098aec7f0cc9d7487", "1.20.0--r40_0": "sha256:e1877f66d1c19c75161e3400dbf8f68e84841c11bde3800ebb5b4e8399408779", "1.32.0--r43hdfd78af_0": "sha256:e8738af566789157402167ff8b234f4100a6091c60c7cb2c8075ff12f46e9c98"}, "docker": "quay.io/biocontainers/bioconductor-soggi", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-soggi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-soggi", "latest": {"1.34.0--r43hdfd78af_0": "sha256:1a12760ac603e7effd71e19247dc163e7557c7135f98a027b4584eb1322b4f76"}, "tags": {"1.8.0--r3.4.1_0": "sha256:6bb37595e09fcac4aaec539166453fc07b36c4e2a2c87052546fcc695a894408", "1.30.0--r42hdfd78af_0": "sha256:4fd60660853862b1a87277489df8c19d21a2a6798520ee9b20e2c8ec7420e4b9", "1.26.0--r41hdfd78af_0": "sha256:5eebfe821342c52b2d0ebb939765cbb18e4b132feca1a3f9ba2a449d2bf2ec82", "1.24.0--r41hdfd78af_0": "sha256:cbbb29849a8d5d4ff00aded6751b38f8e0ed65ac23516d45440d99fb40126777", "1.22.0--r40hdfd78af_1": "sha256:bdc4697b34db2de4741552a831287fa48a3c18365cfad49098aec7f0cc9d7487", "1.20.0--r40_0": "sha256:e1877f66d1c19c75161e3400dbf8f68e84841c11bde3800ebb5b4e8399408779", "1.32.0--r43hdfd78af_0": "sha256:e8738af566789157402167ff8b234f4100a6091c60c7cb2c8075ff12f46e9c98", "1.34.0--r43hdfd78af_0": "sha256:1a12760ac603e7effd71e19247dc163e7557c7135f98a027b4584eb1322b4f76"}, "docker": "quay.io/biocontainers/bioconductor-soggi", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-soggi.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-soggi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-soggi:1.32.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-soggi:1.34.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-soggi/1.32.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-soggi/1.32.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-soggi/1.34.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-soggi/1.34.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

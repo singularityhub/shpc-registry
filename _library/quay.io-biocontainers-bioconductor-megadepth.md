@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-megadepth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-megadepth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-megadepth/container.yaml"
-updated_at: "2023-12-28 02:57:08.124667"
+updated_at: "2023-12-29 02:54:06.113516"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-megadepth"
 

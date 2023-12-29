@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-quantsmooth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-quantsmooth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-quantsmooth/container.yaml"
-updated_at: "2023-12-28 03:03:59.364685"
-latest: "1.66.0--r43hdfd78af_0"
+updated_at: "2023-12-29 03:00:50.008584"
+latest: "1.68.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-quantsmooth"
 
 versions:
  - "1.60.0--r41hdfd78af_0"
  - "1.64.0--r42hdfd78af_0"
  - "1.66.0--r43hdfd78af_0"
+ - "1.68.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-quantsmooth"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-quantsmooth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-quantsmooth", "latest": {"1.66.0--r43hdfd78af_0": "sha256:4e7f1389d2332c9ce4e87fc807a38c72b0177430378639e6e43ae273f4456a80"}, "tags": {"1.60.0--r41hdfd78af_0": "sha256:8aaf0f8e6a7b45b60143ab483f3e51899aec1af6daf6b27e883a009c3565c252", "1.64.0--r42hdfd78af_0": "sha256:686b0d55c032a0df9e24eb868225cf2a885f12a7c50a3ce2624a9c90b80e58a6", "1.66.0--r43hdfd78af_0": "sha256:4e7f1389d2332c9ce4e87fc807a38c72b0177430378639e6e43ae273f4456a80"}, "docker": "quay.io/biocontainers/bioconductor-quantsmooth"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-quantsmooth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-quantsmooth", "latest": {"1.68.0--r43hdfd78af_0": "sha256:b2d0f79d01924ef3c1b74bf6d865f76db9c69f1a2b06313278375dd382b2c048"}, "tags": {"1.60.0--r41hdfd78af_0": "sha256:8aaf0f8e6a7b45b60143ab483f3e51899aec1af6daf6b27e883a009c3565c252", "1.64.0--r42hdfd78af_0": "sha256:686b0d55c032a0df9e24eb868225cf2a885f12a7c50a3ce2624a9c90b80e58a6", "1.66.0--r43hdfd78af_0": "sha256:4e7f1389d2332c9ce4e87fc807a38c72b0177430378639e6e43ae273f4456a80", "1.68.0--r43hdfd78af_0": "sha256:b2d0f79d01924ef3c1b74bf6d865f76db9c69f1a2b06313278375dd382b2c048"}, "docker": "quay.io/biocontainers/bioconductor-quantsmooth"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-quantsmooth.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-quantsmooth
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-quantsmooth:1.66.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-quantsmooth:1.68.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-quantsmooth/1.66.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-quantsmooth/1.66.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-quantsmooth/1.68.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-quantsmooth/1.68.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

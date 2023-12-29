@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mait"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mait/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mait/container.yaml"
-updated_at: "2023-12-28 03:07:13.213009"
-latest: "1.34.0--r43hf17093f_0"
+updated_at: "2023-12-29 03:04:00.784761"
+latest: "1.36.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mait"
 aliases:
  - "pg_amcheck"
@@ -23,8 +23,9 @@ versions:
  - "1.32.0--r42hc247a5b_0"
  - "1.32.0--r42hf17093f_1"
  - "1.34.0--r43hf17093f_0"
+ - "1.36.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mait"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mait", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mait", "latest": {"1.34.0--r43hf17093f_0": "sha256:93107f2cc40cdd96356fa04d034887f1e656f06e2aa239938cdc75f2de35c044"}, "tags": {"1.28.0--r41hc247a5b_2": "sha256:e391dc12fe04223b405e3fe1d7b68f546531c69516fc1b24594143dd3af85acd", "1.32.0--r42hc247a5b_0": "sha256:14a90b2f59e9676c3c652a3ee81d21489f1f7356102a1651b4262efd6dae83de", "1.32.0--r42hf17093f_1": "sha256:e0de26602a6a226d8b26fa8237c593623b86fc9981109bb95e236d4ecac2bfe9", "1.34.0--r43hf17093f_0": "sha256:93107f2cc40cdd96356fa04d034887f1e656f06e2aa239938cdc75f2de35c044"}, "docker": "quay.io/biocontainers/bioconductor-mait", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mait", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mait", "latest": {"1.36.0--r43hf17093f_0": "sha256:6441043da5f4975f2810391bbc912dac66cde8fc275effae3b8612853750bf70"}, "tags": {"1.28.0--r41hc247a5b_2": "sha256:e391dc12fe04223b405e3fe1d7b68f546531c69516fc1b24594143dd3af85acd", "1.32.0--r42hc247a5b_0": "sha256:14a90b2f59e9676c3c652a3ee81d21489f1f7356102a1651b4262efd6dae83de", "1.32.0--r42hf17093f_1": "sha256:e0de26602a6a226d8b26fa8237c593623b86fc9981109bb95e236d4ecac2bfe9", "1.34.0--r43hf17093f_0": "sha256:93107f2cc40cdd96356fa04d034887f1e656f06e2aa239938cdc75f2de35c044", "1.36.0--r43hf17093f_0": "sha256:6441043da5f4975f2810391bbc912dac66cde8fc275effae3b8612853750bf70"}, "docker": "quay.io/biocontainers/bioconductor-mait", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mait.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mait
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mait:1.34.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-mait:1.36.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mait/1.34.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-mait/1.34.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-mait/1.36.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-mait/1.36.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

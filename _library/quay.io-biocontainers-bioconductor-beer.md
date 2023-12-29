@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-beer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-beer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-beer/container.yaml"
-updated_at: "2023-12-28 02:35:19.816570"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2023-12-29 02:32:13.819665"
+latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-beer"
 aliases:
  - "jags"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.6.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-beer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-beer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-beer", "latest": {"1.4.0--r43hdfd78af_0": "sha256:d301c8cb2cf1fc52dbde3255e859817bcea8c6269fc5983e7340f1daac6ff21d"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:689897f1d177b6bb214cf71870ca064b85b6e53680b0b1525eab1e9cbc498129", "1.4.0--r43hdfd78af_0": "sha256:d301c8cb2cf1fc52dbde3255e859817bcea8c6269fc5983e7340f1daac6ff21d"}, "docker": "quay.io/biocontainers/bioconductor-beer", "aliases": {"jags": "/usr/local/bin/jags", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-beer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-beer", "latest": {"1.6.0--r43hdfd78af_0": "sha256:bb1af563528977a1a93a96d81f1cbc426bdfe9dec190ba4ace14b3fcaddb94bf"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:689897f1d177b6bb214cf71870ca064b85b6e53680b0b1525eab1e9cbc498129", "1.4.0--r43hdfd78af_0": "sha256:d301c8cb2cf1fc52dbde3255e859817bcea8c6269fc5983e7340f1daac6ff21d", "1.6.0--r43hdfd78af_0": "sha256:bb1af563528977a1a93a96d81f1cbc426bdfe9dec190ba4ace14b3fcaddb94bf"}, "docker": "quay.io/biocontainers/bioconductor-beer", "aliases": {"jags": "/usr/local/bin/jags", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-beer.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-beer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-beer:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-beer:1.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-beer/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-beer/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-beer/1.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-beer/1.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

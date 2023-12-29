@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rqt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rqt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rqt/container.yaml"
-updated_at: "2023-12-28 02:29:45.910471"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2023-12-29 02:26:33.144147"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rqt"
 aliases:
  - "wget"
@@ -19,8 +19,9 @@ versions:
  - "1.16.0--r40hdfd78af_1"
  - "1.14.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rqt"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rqt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rqt", "latest": {"1.26.0--r43hdfd78af_0": "sha256:84401e2483799ab1d74dff7858857d62816ebbbd13c5ab2a1752313ee77a4631"}, "tags": {"1.8.0--r351_0": "sha256:35f270f2e3410f1de191a80e5b43210119c3600aff929ba78369d309edc4a2e5", "1.24.0--r42hdfd78af_0": "sha256:d76d9ca02e8a4f6d9608fa3c06a36816cb13bfad7f74ae4b1914deb5384a01de", "1.19.0--r41hdfd78af_0": "sha256:7d027c0d928be31929e962eec927ac01efe1b3daf43c957372022ddeba8386e1", "1.18.0--r41hdfd78af_0": "sha256:f5cf4c52d89c0b28968802b65de8018a3dd4755e7013d5503aa2127f5ea8bf31", "1.16.0--r40hdfd78af_1": "sha256:990c4aaf707d1386f7de92ba6c50d66c2008b2b44ddcd5900ee7d222d7bd6337", "1.14.0--r40_0": "sha256:922777ac2bbef25ce397f9fb8f3e037e5a8ed43c2299df279dbd0b6b1435688c", "1.26.0--r43hdfd78af_0": "sha256:84401e2483799ab1d74dff7858857d62816ebbbd13c5ab2a1752313ee77a4631"}, "docker": "quay.io/biocontainers/bioconductor-rqt", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rqt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rqt", "latest": {"1.28.0--r43hdfd78af_0": "sha256:eaa500e6573caba5c16dc3e0a56441b61f4b737b5e239427f57b4ea4fbf71470"}, "tags": {"1.8.0--r351_0": "sha256:35f270f2e3410f1de191a80e5b43210119c3600aff929ba78369d309edc4a2e5", "1.24.0--r42hdfd78af_0": "sha256:d76d9ca02e8a4f6d9608fa3c06a36816cb13bfad7f74ae4b1914deb5384a01de", "1.19.0--r41hdfd78af_0": "sha256:7d027c0d928be31929e962eec927ac01efe1b3daf43c957372022ddeba8386e1", "1.18.0--r41hdfd78af_0": "sha256:f5cf4c52d89c0b28968802b65de8018a3dd4755e7013d5503aa2127f5ea8bf31", "1.16.0--r40hdfd78af_1": "sha256:990c4aaf707d1386f7de92ba6c50d66c2008b2b44ddcd5900ee7d222d7bd6337", "1.14.0--r40_0": "sha256:922777ac2bbef25ce397f9fb8f3e037e5a8ed43c2299df279dbd0b6b1435688c", "1.26.0--r43hdfd78af_0": "sha256:84401e2483799ab1d74dff7858857d62816ebbbd13c5ab2a1752313ee77a4631", "1.28.0--r43hdfd78af_0": "sha256:eaa500e6573caba5c16dc3e0a56441b61f4b737b5e239427f57b4ea4fbf71470"}, "docker": "quay.io/biocontainers/bioconductor-rqt", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rqt.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rqt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rqt:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rqt:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rqt/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rqt/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rqt/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rqt/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
