@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pbstarphase
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pbstarphase
+latest:
+  0.7.3--h9ee0642_0: sha256:37a9f7c48cc4fd17cef5f5ca8f11d3dac57c903f77cc0da423299c144e61dae9
+tags:
+  0.7.3--h9ee0642_0: sha256:37a9f7c48cc4fd17cef5f5ca8f11d3dac57c903f77cc0da423299c144e61dae9
+docker: quay.io/biocontainers/pbstarphase
+aliases:
+  pbstarphase: /usr/local/bin/pbstarphase

@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/bioconductor-hoodscanr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-hoodscanr
+latest:
+  1.0.0--r43hf17093f_0: sha256:cf411b63c015921aed744b4138f953fd1080d62e44bc25dad6824bbcf4a09008
+tags:
+  1.0.0--r43hf17093f_0: sha256:cf411b63c015921aed744b4138f953fd1080d62e44bc25dad6824bbcf4a09008
+docker: quay.io/biocontainers/bioconductor-hoodscanr
+aliases:
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  Magick++-config: /usr/local/bin/Magick++-config
+  MagickCore-config: /usr/local/bin/MagickCore-config
+  MagickWand-config: /usr/local/bin/MagickWand-config
+  animate: /usr/local/bin/animate
+  composite: /usr/local/bin/composite
+  conjure: /usr/local/bin/conjure
+  display: /usr/local/bin/display
+  identify: /usr/local/bin/identify
+  import: /usr/local/bin/import
+  magick: /usr/local/bin/magick
+  magick-script: /usr/local/bin/magick-script
+  mogrify: /usr/local/bin/mogrify
+  montage: /usr/local/bin/montage
+  convert: /usr/local/bin/convert
+  pkg-config: /usr/local/bin/pkg-config
+  pkg-config.bin: /usr/local/bin/pkg-config.bin
+  stream: /usr/local/bin/stream
+  compare: /usr/local/bin/compare

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/snakemake-storage-plugin-fs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for snakemake-storage-plugin-fs
+latest:
+  0.1.5--pyhdfd78af_0: sha256:7d97f360f4ecc89fbb706d35d6b848b1af9476d2f0e1cd9290aaad8687e47eb7
+tags:
+  0.1.5--pyhdfd78af_0: sha256:7d97f360f4ecc89fbb706d35d6b848b1af9476d2f0e1cd9290aaad8687e47eb7
+docker: quay.io/biocontainers/snakemake-storage-plugin-fs
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/bioconductor-enrichviewnet
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-enrichviewnet
+latest:
+  1.0.0--r43hdfd78af_0: sha256:5f6aed35f31ac7a37d45aedb9abd72a7ba7b9e9a32ad601374971a2040efa6da
+tags:
+  1.0.0--r43hdfd78af_0: sha256:5f6aed35f31ac7a37d45aedb9abd72a7ba7b9e9a32ad601374971a2040efa6da
+docker: quay.io/biocontainers/bioconductor-enrichviewnet
+aliases:
+  Cytoscape: /usr/local/bin/Cytoscape
+  cytoscape.sh: /usr/local/bin/cytoscape.sh
+  gen_vmoptions.sh: /usr/local/bin/gen_vmoptions.sh
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  curve_keygen: /usr/local/bin/curve_keygen
+  jpackage: /usr/local/bin/jpackage
+  hb-info: /usr/local/bin/hb-info
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  glpsol: /usr/local/bin/glpsol
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tjbench: /usr/local/bin/tjbench
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script

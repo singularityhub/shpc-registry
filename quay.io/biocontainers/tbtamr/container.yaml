@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/tbtamr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tbtamr
+latest:
+  0.0.4--pyhdfd78af_0: sha256:b8b4597e58caac49052a943fa189552d2e84d42301693837ecb748644f162852
+tags:
+  0.0.4--pyhdfd78af_0: sha256:b8b4597e58caac49052a943fa189552d2e84d42301693837ecb748644f162852
+docker: quay.io/biocontainers/tbtamr
+aliases:
+  csvtk: /usr/local/bin/csvtk
+  delly: /usr/local/bin/delly
+  split_ref_by_bai_datasize.py: /usr/local/bin/split_ref_by_bai_datasize.py
+  tbtamr: /usr/local/bin/tbtamr
+  vcfnullgenofields: /usr/local/bin/vcfnullgenofields
+  vcfwave: /usr/local/bin/vcfwave
+  jwebserver: /usr/local/bin/jwebserver
+  sam_add_rg.pl: /usr/local/bin/sam_add_rg.pl
+  update_version.sh: /usr/local/bin/update_version.sh
+  samclip: /usr/local/bin/samclip
+  tabix++: /usr/local/bin/tabix++
+  snpEff: /usr/local/bin/snpEff
+  bamleftalign: /usr/local/bin/bamleftalign
+  coverage_to_regions.py: /usr/local/bin/coverage_to_regions.py
+  fasta_generate_regions.py: /usr/local/bin/fasta_generate_regions.py
+  freebayes-parallel: /usr/local/bin/freebayes-parallel
+  generate_freebayes_region_scripts.sh: /usr/local/bin/generate_freebayes_region_scripts.sh
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  freebayes: /usr/local/bin/freebayes
+  abba-baba: /usr/local/bin/abba-baba
+  bFst: /usr/local/bin/bFst
+  bed2region: /usr/local/bin/bed2region
+  bgziptabix: /usr/local/bin/bgziptabix
+  dumpContigsFromHeader: /usr/local/bin/dumpContigsFromHeader
+  genotypeSummary: /usr/local/bin/genotypeSummary
+  hapLrt: /usr/local/bin/hapLrt
+  iHS: /usr/local/bin/iHS
+  meltEHH: /usr/local/bin/meltEHH
+  normalize-iHS: /usr/local/bin/normalize-iHS
+  pFst: /usr/local/bin/pFst
+  pVst: /usr/local/bin/pVst

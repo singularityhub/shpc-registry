@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bioconductor-ccplotr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-ccplotr
+latest:
+  1.0.0--r43hdfd78af_0: sha256:21da448b1f5a36cca184e046a9789994c3b3fb07da8e0e3e2523d4b901408b54
+tags:
+  1.0.0--r43hdfd78af_0: sha256:21da448b1f5a36cca184e046a9789994c3b3fb07da8e0e3e2523d4b901408b54
+docker: quay.io/biocontainers/bioconductor-ccplotr
+aliases:
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  hb-info: /usr/local/bin/hb-info
+  glpsol: /usr/local/bin/glpsol
+  tjbench: /usr/local/bin/tjbench

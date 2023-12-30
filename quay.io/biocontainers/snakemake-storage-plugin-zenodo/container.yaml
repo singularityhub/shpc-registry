@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/snakemake-storage-plugin-zenodo
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for snakemake-storage-plugin-zenodo
+latest:
+  0.1.2--pyhdfd78af_0: sha256:1b66e1a7b4c6cf11b66a99e419e987b64613b6242a45327ddfe72403d21b7467
+tags:
+  0.1.2--pyhdfd78af_0: sha256:1b66e1a7b4c6cf11b66a99e419e987b64613b6242a45327ddfe72403d21b7467
+docker: quay.io/biocontainers/snakemake-storage-plugin-zenodo
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  normalizer: /usr/local/bin/normalizer

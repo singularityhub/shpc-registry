@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-beachmat.hdf5
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-beachmat.hdf5
+latest:
+  1.0.0--r43hf17093f_0: sha256:549600d1785653d6f988970213eb3cc2cca1ad77eb2cee28e76c33112b0099ae
+tags:
+  1.0.0--r43hf17093f_0: sha256:549600d1785653d6f988970213eb3cc2cca1ad77eb2cee28e76c33112b0099ae
+docker: quay.io/biocontainers/bioconductor-beachmat.hdf5
+aliases:
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

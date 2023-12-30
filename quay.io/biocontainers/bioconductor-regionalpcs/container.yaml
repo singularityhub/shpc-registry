@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/bioconductor-regionalpcs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-regionalpcs
+latest:
+  1.0.0--r43hdfd78af_0: sha256:423821fd1faffb45fb33bc66f9fa68a714f50a6928bee2bcc6c810a1278fcb72
+tags:
+  1.0.0--r43hdfd78af_0: sha256:423821fd1faffb45fb33bc66f9fa68a714f50a6928bee2bcc6c810a1278fcb72
+docker: quay.io/biocontainers/bioconductor-regionalpcs
+aliases:
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  hb-info: /usr/local/bin/hb-info
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tjbench: /usr/local/bin/tjbench
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete

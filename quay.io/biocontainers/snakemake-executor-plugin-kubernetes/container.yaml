@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/snakemake-executor-plugin-kubernetes
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for snakemake-executor-plugin-kubernetes
+latest:
+  0.1.4--pyhdfd78af_0: sha256:6aab8d09f4e04e77cbac75eca157ebe0892bf18579fe6fa5307fdba96a93967c
+tags:
+  0.1.4--pyhdfd78af_0: sha256:6aab8d09f4e04e77cbac75eca157ebe0892bf18579fe6fa5307fdba96a93967c
+docker: quay.io/biocontainers/snakemake-executor-plugin-kubernetes
+aliases:
+  wsdump: /usr/local/bin/wsdump
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt
+  pyrsa-keygen: /usr/local/bin/pyrsa-keygen
+  pyrsa-priv2pub: /usr/local/bin/pyrsa-priv2pub
+  pyrsa-sign: /usr/local/bin/pyrsa-sign
+  pyrsa-verify: /usr/local/bin/pyrsa-verify
+  normalizer: /usr/local/bin/normalizer
