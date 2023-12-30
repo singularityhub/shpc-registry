@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-genabel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-genabel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-genabel/container.yaml"
-updated_at: "2023-12-30 02:31:44.747604"
+updated_at: "2023-12-30 04:20:57.345211"
 latest: "1.8_0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-genabel"
 

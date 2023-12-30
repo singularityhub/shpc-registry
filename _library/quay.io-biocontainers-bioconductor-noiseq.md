@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-noiseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-noiseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-noiseq/container.yaml"
-updated_at: "2023-12-30 02:25:40.651918"
+updated_at: "2023-12-30 04:14:57.699230"
 latest: "2.46.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-noiseq"
 

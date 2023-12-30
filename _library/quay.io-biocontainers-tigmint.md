@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tigmint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tigmint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tigmint/container.yaml"
-updated_at: "2023-12-30 02:32:47.731600"
+updated_at: "2023-12-30 04:21:59.583484"
 latest: "1.2.10--py310h590eda1_0"
 container_url: "https://biocontainers.pro/tools/tigmint"
 aliases:

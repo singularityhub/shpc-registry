@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-normqpcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-normqpcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-normqpcr/container.yaml"
-updated_at: "2023-12-30 03:06:55.212038"
+updated_at: "2023-12-30 04:56:06.149147"
 latest: "1.48.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-normqpcr"
 
