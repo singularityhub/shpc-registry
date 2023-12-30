@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bioconductor-phantasuslite
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-phantasuslite
+latest:
+  1.0.0--r43hdfd78af_0: sha256:845f5c3af8cbc033b8c67aae773eb8bfe663d3833054d7776b5575777e515eaa
+tags:
+  1.0.0--r43hdfd78af_0: sha256:845f5c3af8cbc033b8c67aae773eb8bfe663d3833054d7776b5575777e515eaa
+docker: quay.io/biocontainers/bioconductor-phantasuslite
+aliases:
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

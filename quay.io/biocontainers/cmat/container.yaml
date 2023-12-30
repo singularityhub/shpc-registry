@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/cmat
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cmat
+latest:
+  3.1.0--py38hdfd78af_0: sha256:9187a6c7e380b32ef54665ae1ffe83ab663d23066f4747ed28342f25ad0f3bb4
+tags:
+  3.1.0--py38hdfd78af_0: sha256:9187a6c7e380b32ef54665ae1ffe83ab663d23066f4747ed28342f25ad0f3bb4
+docker: quay.io/biocontainers/cmat
+aliases:
+  VERSION: /usr/local/bin/VERSION
+  cmat: /usr/local/bin/cmat
+  coveralls: /usr/local/bin/coveralls
+  jwebserver: /usr/local/bin/jwebserver
+  nextflow.bak: /usr/local/bin/nextflow.bak
+  nextflow: /usr/local/bin/nextflow
+  coverage: /usr/local/bin/coverage
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  ls: /usr/local/bin/ls
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  cp: /usr/local/bin/cp
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date
+  dd: /usr/local/bin/dd
+  df: /usr/local/bin/df

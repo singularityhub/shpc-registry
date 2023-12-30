@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/campyagainst
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for campyagainst
+latest:
+  0.1.0--pyhdfd78af_0: sha256:c9c9f83435ca96f8f30fbc30c0e118fdf98c0e7cdcb8026051ae74db7ecb81db
+tags:
+  0.1.0--pyhdfd78af_0: sha256:c9c9f83435ca96f8f30fbc30c0e118fdf98c0e7cdcb8026051ae74db7ecb81db
+docker: quay.io/biocontainers/campyagainst
+aliases:
+  campyagainst: /usr/local/bin/campyagainst
+  fastANI: /usr/local/bin/fastANI
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

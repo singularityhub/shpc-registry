@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/yacht
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for yacht
+latest:
+  1.1.0--pyhdfd78af_0: sha256:413e313bfb1140a54dea1159b3e88d81f003dabcab3deba2370a05dd5a685004
+tags:
+  1.1.0--pyhdfd78af_0: sha256:413e313bfb1140a54dea1159b3e88d81f003dabcab3deba2370a05dd5a685004
+docker: quay.io/biocontainers/yacht
+aliases:
+  codecov: /usr/local/bin/codecov
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  sourmash: /usr/local/bin/sourmash
+  taxonkit: /usr/local/bin/taxonkit
+  yacht: /usr/local/bin/yacht
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  coverage: /usr/local/bin/coverage
+  screed: /usr/local/bin/screed
+  biom: /usr/local/bin/biom
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  h5delete: /usr/local/bin/h5delete
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  tjbench: /usr/local/bin/tjbench
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
+  gif2h5: /usr/local/bin/gif2h5

@@ -1,0 +1,56 @@
+url: https://biocontainers.pro/tools/tf-comb
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tf-comb
+latest:
+  1.1--py39hec7c8de_0: sha256:a119197f0e84cf48a70a5131678390578d0dbc86a7c31ecda05d1fd9051af8d3
+tags:
+  1.1--py39hec7c8de_0: sha256:a119197f0e84cf48a70a5131678390578d0dbc86a7c31ecda05d1fd9051af8d3
+docker: quay.io/biocontainers/tf-comb
+aliases:
+  TOBIAS: /usr/local/bin/TOBIAS
+  cluster_sites_by_overlap.py: /usr/local/bin/cluster_sites_by_overlap.py
+  community: /usr/local/bin/community
+  compare_gos.py: /usr/local/bin/compare_gos.py
+  fetch_associations.py: /usr/local/bin/fetch_associations.py
+  filter_important_factors.py: /usr/local/bin/filter_important_factors.py
+  find_enrichment.py: /usr/local/bin/find_enrichment.py
+  get_gprof: /usr/local/bin/get_gprof
+  go_plot.py: /usr/local/bin/go_plot.py
+  map_to_slim.py: /usr/local/bin/map_to_slim.py
+  moods-dna.py: /usr/local/bin/moods-dna.py
+  ncbi_gene_results_to_python.py: /usr/local/bin/ncbi_gene_results_to_python.py
+  plot_go_term.py: /usr/local/bin/plot_go_term.py
+  prt_terms.py: /usr/local/bin/prt_terms.py
+  qnorm: /usr/local/bin/qnorm
+  svist4get: /usr/local/bin/svist4get
+  svist4get_copier: /usr/local/bin/svist4get_copier
+  uropa: /usr/local/bin/uropa
+  uropa2gtf.R: /usr/local/bin/uropa2gtf.R
+  uropa_summary.R: /usr/local/bin/uropa_summary.R
+  wr_hier.py: /usr/local/bin/wr_hier.py
+  wr_sections.py: /usr/local/bin/wr_sections.py
+  ccache-swig: /usr/local/bin/ccache-swig
+  swig: /usr/local/bin/swig
+  mpg123: /usr/local/bin/mpg123
+  mpg123-id3dump: /usr/local/bin/mpg123-id3dump
+  mpg123-strip: /usr/local/bin/mpg123-strip
+  out123: /usr/local/bin/out123
+  xgboost: /usr/local/bin/xgboost
+  dumpsexp: /usr/local/bin/dumpsexp
+  gpg-error: /usr/local/bin/gpg-error
+  gpgrt-config: /usr/local/bin/gpgrt-config
+  hmac256: /usr/local/bin/hmac256
+  libgcrypt-config: /usr/local/bin/libgcrypt-config
+  mpicalc: /usr/local/bin/mpicalc
+  yat2m: /usr/local/bin/yat2m
+  lame: /usr/local/bin/lame
+  markdown-it: /usr/local/bin/markdown-it
+  sip-build: /usr/local/bin/sip-build
+  sip-distinfo: /usr/local/bin/sip-distinfo
+  sip-install: /usr/local/bin/sip-install
+  sip-module: /usr/local/bin/sip-module
+  sip-sdist: /usr/local/bin/sip-sdist
+  sip-wheel: /usr/local/bin/sip-wheel
+  attr: /usr/local/bin/attr
+  balsam: /usr/local/bin/balsam
+  getfattr: /usr/local/bin/getfattr

@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/snakemake-storage-plugin-s3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for snakemake-storage-plugin-s3
+latest:
+  0.2.8--pyhdfd78af_1: sha256:12cd4ef702fc9ad87d34f8b9d2948981834a9f25667f3e18c4e41187757a5912
+tags:
+  0.2.8--pyhdfd78af_1: sha256:12cd4ef702fc9ad87d34f8b9d2948981834a9f25667f3e18c4e41187757a5912
+docker: quay.io/biocontainers/snakemake-storage-plugin-s3
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  jp.py: /usr/local/bin/jp.py

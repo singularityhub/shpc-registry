@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/me-pcr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for me-pcr
+latest:
+  1.0.6--hdbdd923_0: sha256:3cbe34452e9dd295d9770334d2be894b191d46f456a3d6d36da18fc8105f5cb5
+tags:
+  1.0.6--hdbdd923_0: sha256:3cbe34452e9dd295d9770334d2be894b191d46f456a3d6d36da18fc8105f5cb5
+docker: quay.io/biocontainers/me-pcr
+aliases:
+  me-PCR: /usr/local/bin/me-PCR

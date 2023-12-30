@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/snakemake-executor-plugin-azure-batch
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for snakemake-executor-plugin-azure-batch
+latest:
+  0.1.3--pyhdfd78af_0: sha256:1e0985636bfa6c8d2ee0b9150e5815de66eb8c3923b3cfa0da39cc80aaaf20be
+tags:
+  0.1.3--pyhdfd78af_0: sha256:1e0985636bfa6c8d2ee0b9150e5815de66eb8c3923b3cfa0da39cc80aaaf20be
+docker: quay.io/biocontainers/snakemake-executor-plugin-azure-batch
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  normalizer: /usr/local/bin/normalizer

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/snakemake-executor-plugin-cluster-generic
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for snakemake-executor-plugin-cluster-generic
+latest:
+  1.0.7--pyhdfd78af_0: sha256:1e2f2709af16c9fd6f86635c0c60e9f1f5a7e0ea8ab97ddb9bb5fbc52e94c3a3
+tags:
+  1.0.7--pyhdfd78af_0: sha256:1e2f2709af16c9fd6f86635c0c60e9f1f5a7e0ea8ab97ddb9bb5fbc52e94c3a3
+docker: quay.io/biocontainers/snakemake-executor-plugin-cluster-generic
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/scib
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scib
+latest:
+  1.1.4--py38h2494328_0: sha256:91a487df92fc00c6a50bd23ac8b07ee58e1195c801a3ebe014bb4dfaeaa5951a
+tags:
+  1.1.4--py38h2494328_0: sha256:91a487df92fc00c6a50bd23ac8b07ee58e1195c801a3ebe014bb4dfaeaa5951a
+docker: quay.io/biocontainers/scib
+aliases:
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  igraph: /usr/local/bin/igraph
+  scanpy: /usr/local/bin/scanpy
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  h5delete: /usr/local/bin/h5delete
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  numba: /usr/local/bin/numba
+  natsort: /usr/local/bin/natsort
+  diffimg: /usr/local/bin/diffimg
+  delaunay: /usr/local/bin/delaunay
+  gts-config: /usr/local/bin/gts-config
+  gts2dxf: /usr/local/bin/gts2dxf
