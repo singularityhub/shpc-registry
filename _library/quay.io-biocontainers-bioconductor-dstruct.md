@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dstruct"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dstruct/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dstruct/container.yaml"
-updated_at: "2023-12-29 02:51:08.516532"
+updated_at: "2023-12-30 02:53:40.341142"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dstruct"
 

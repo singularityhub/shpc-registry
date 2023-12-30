@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-snadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snadata/container.yaml"
-updated_at: "2023-12-29 02:33:14.622459"
+updated_at: "2023-12-30 02:36:13.254868"
 latest: "1.46.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-snadata"
 

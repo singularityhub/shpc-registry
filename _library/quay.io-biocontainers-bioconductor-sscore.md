@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sscore/container.yaml"
-updated_at: "2023-12-29 02:40:18.826822"
+updated_at: "2023-12-30 02:43:07.774016"
 latest: "1.72.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sscore"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngless"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngless/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngless/container.yaml"
-updated_at: "2023-12-29 03:02:21.837964"
+updated_at: "2023-12-30 03:04:43.686877"
 latest: "1.5.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/ngless"
 aliases:

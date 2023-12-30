@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/modlamp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/modlamp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/modlamp/container.yaml"
-updated_at: "2023-12-29 02:24:12.459071"
+updated_at: "2023-12-30 02:27:28.959916"
 latest: "4.3.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/modlamp"
 aliases:
