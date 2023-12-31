@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/varcode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varcode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varcode/container.yaml"
-updated_at: "2023-12-30 04:21:31.378946"
+updated_at: "2023-12-31 02:36:21.561169"
 latest: "1.1.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/varcode"
 aliases:

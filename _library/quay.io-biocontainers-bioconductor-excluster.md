@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-excluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-excluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-excluster/container.yaml"
-updated_at: "2023-12-30 04:18:36.430204"
+updated_at: "2023-12-31 02:33:16.062119"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-excluster"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/frogs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/frogs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/frogs/container.yaml"
-updated_at: "2023-12-30 04:27:18.124380"
+updated_at: "2023-12-31 02:42:29.222734"
 latest: "4.1.0--h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/frogs"
 aliases:

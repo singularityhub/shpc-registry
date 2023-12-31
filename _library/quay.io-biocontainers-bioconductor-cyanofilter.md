@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cyanofilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cyanofilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cyanofilter/container.yaml"
-updated_at: "2023-12-30 04:35:44.047719"
+updated_at: "2023-12-31 02:51:09.816775"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cyanofilter"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-podcall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-podcall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-podcall/container.yaml"
-updated_at: "2023-12-30 04:52:54.146343"
+updated_at: "2023-12-31 03:08:50.770494"
 latest: "1.10.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-podcall"
 
