@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-cpan-meta-yaml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-cpan-meta-yaml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-cpan-meta-yaml/container.yaml"
-updated_at: "2023-12-31 03:12:57.256793"
+updated_at: "2024-01-01 03:17:57.068451"
 latest: "0.018--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-cpan-meta-yaml"
 aliases:

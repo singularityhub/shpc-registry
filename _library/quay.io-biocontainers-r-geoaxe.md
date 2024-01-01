@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-geoaxe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-geoaxe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-geoaxe/container.yaml"
-updated_at: "2023-12-31 03:07:55.940028"
+updated_at: "2024-01-01 03:12:50.214518"
 latest: "0.1.0--r351h6115d3f_4"
 container_url: "https://biocontainers.pro/tools/r-geoaxe"
 aliases:

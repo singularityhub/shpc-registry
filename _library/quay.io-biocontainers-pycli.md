@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pycli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycli/container.yaml"
-updated_at: "2023-12-31 02:31:06.948041"
+updated_at: "2024-01-01 02:35:40.303737"
 latest: "2.0.3--py_1"
 container_url: "https://biocontainers.pro/tools/pycli"
 aliases:

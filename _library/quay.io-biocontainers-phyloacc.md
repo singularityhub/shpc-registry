@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phyloacc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyloacc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyloacc/container.yaml"
-updated_at: "2023-12-31 02:47:42.940147"
+updated_at: "2024-01-01 02:52:12.151297"
 latest: "2.2.0--py39hd053c45_2"
 container_url: "https://biocontainers.pro/tools/phyloacc"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-lsd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-lsd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-lsd/container.yaml"
-updated_at: "2023-12-31 03:05:33.332047"
+updated_at: "2024-01-01 03:10:27.264761"
 latest: "3.0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-lsd"
 aliases:

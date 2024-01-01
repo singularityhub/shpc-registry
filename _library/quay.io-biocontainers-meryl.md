@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/meryl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meryl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/meryl/container.yaml"
-updated_at: "2023-12-31 02:52:18.139214"
+updated_at: "2024-01-01 02:56:51.288412"
 latest: "1.4--h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/meryl"
 aliases:

@@ -4,7 +4,7 @@ name:  "rocker/ml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/ml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/ml/container.yaml"
-updated_at: "2023-12-31 03:14:37.831683"
+updated_at: "2024-01-01 03:19:39.275644"
 latest: "4.3.2"
 container_url: "https://hub.docker.com/r/rocker/ml"
 aliases:

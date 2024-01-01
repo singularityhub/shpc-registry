@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tbx20bamsubset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tbx20bamsubset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tbx20bamsubset/container.yaml"
-updated_at: "2023-12-31 03:04:55.189236"
+updated_at: "2024-01-01 03:09:48.338302"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tbx20bamsubset"
 

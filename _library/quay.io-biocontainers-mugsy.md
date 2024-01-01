@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mugsy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mugsy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mugsy/container.yaml"
-updated_at: "2023-12-31 02:39:55.407958"
+updated_at: "2024-01-01 02:44:19.832132"
 latest: "1.2.3--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/mugsy"
 aliases:

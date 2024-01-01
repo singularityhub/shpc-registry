@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mirtop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mirtop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mirtop/container.yaml"
-updated_at: "2023-12-31 02:52:10.437880"
+updated_at: "2024-01-01 02:56:43.517420"
 latest: "0.4.25--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/mirtop"
 aliases:
