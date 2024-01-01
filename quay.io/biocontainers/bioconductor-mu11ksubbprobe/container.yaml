@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mu11ksubbprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mu11ksubbprobe
 latest:
-  2.18.0--r43hdfd78af_11: sha256:1cb36e32df652dcf720f96c275f329e16feb3920c25492049771383c6bef2a95
+  2.18.0--r43hdfd78af_12: sha256:383773e0261dafe49c2bff85a11c399a3980539736d5730e19588ed001b1b1e2
 tags:
   2.18.0--r41hdfd78af_9: sha256:741d8806ff2199993c331cb472c5063ac45e632623b5abc17c91bd92717ed790
   2.18.0--r42hdfd78af_10: sha256:1ab401602867b7d0ac7a02785f25a1b369e529fb15d9b61c75ea61bed73dc2e7
   2.18.0--r43hdfd78af_11: sha256:1cb36e32df652dcf720f96c275f329e16feb3920c25492049771383c6bef2a95
+  2.18.0--r43hdfd78af_12: sha256:383773e0261dafe49c2bff85a11c399a3980539736d5730e19588ed001b1b1e2
 docker: quay.io/biocontainers/bioconductor-mu11ksubbprobe

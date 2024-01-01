@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-pigengene
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pigengene
 latest:
-  1.26.0--r43hdfd78af_0: sha256:bf96010d73c92420936f600249827f89cdfc16d24c338a7cb84edf8c06469d4c
+  1.28.0--r43hdfd78af_0: sha256:2153234c9d4797c318010c6c51c464a066e296b3e4a8962a7a14011ae3285e0c
 tags:
   1.8.0--r351_0: sha256:80aeac87a4d78552487ee6b7db5b2b60edc6217f094ef3fdb25b1a40f45e676c
   1.20.0--r41hdfd78af_0: sha256:2d09c4dee61e5a2969156f1e19b146ea0d67fd7dd1262be7e41f399f5f3d0651
@@ -12,6 +12,7 @@ tags:
   1.12.0--r36_0: sha256:10ad21ac03dc8b8b88b8ff60a23abf3a89eeccecc5d2003ec9ae9716c50d65c6
   1.24.0--r42hdfd78af_0: sha256:61dfa9578ad1a1b055b13e59937c0587fad5fa7bd67ac4833f85e444d5668f55
   1.26.0--r43hdfd78af_0: sha256:bf96010d73c92420936f600249827f89cdfc16d24c338a7cb84edf8c06469d4c
+  1.28.0--r43hdfd78af_0: sha256:2153234c9d4797c318010c6c51c464a066e296b3e4a8962a7a14011ae3285e0c
 docker: quay.io/biocontainers/bioconductor-pigengene
 aliases:
   wget: /usr/local/bin/wget

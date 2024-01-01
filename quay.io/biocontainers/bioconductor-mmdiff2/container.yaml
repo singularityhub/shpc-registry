@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-mmdiff2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mmdiff2
 latest:
-  1.28.0--r43hdfd78af_0: sha256:3c98489316ce5c7b84ce55e2a3ab0fc550296b0c972f268aec5243a09e960517
+  1.30.0--r43hdfd78af_0: sha256:132f23ba71e07e5a9d3fb8986e196d29b4c09466a3899cf3628aacfa749d15a5
 tags:
   1.8.0--r341_0: sha256:8d57bafc53fb3cae67e200465edc80b410f6122b746843fc874b15289a3b4a70
   1.22.0--r41hdfd78af_0: sha256:a024e36ba6a9591c5e7c5885c15055a75cf3c989bd9de5e7c20a0fd218dbd6f6
@@ -12,6 +12,7 @@ tags:
   1.14.0--r36_0: sha256:569d9596d2412bae9fd4787258efa228b0e91f281db482be8ccd93cba0b5b3df
   1.26.0--r42hdfd78af_0: sha256:99eaef311d2a2a2becce6aa5ba59f74f5f780ab8ced6934141c4b7633c81013e
   1.28.0--r43hdfd78af_0: sha256:3c98489316ce5c7b84ce55e2a3ab0fc550296b0c972f268aec5243a09e960517
+  1.30.0--r43hdfd78af_0: sha256:132f23ba71e07e5a9d3fb8986e196d29b4c09466a3899cf3628aacfa749d15a5
 docker: quay.io/biocontainers/bioconductor-mmdiff2
 aliases:
   wget: /usr/local/bin/wget

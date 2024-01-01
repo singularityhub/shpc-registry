@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-drawproteins
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-drawproteins
 latest:
-  1.20.0--r43hdfd78af_0: sha256:4163a394119bd85fd58afb1fda10c7369d5575d62da37c509b88e7814d6516a2
+  1.22.0--r43hdfd78af_0: sha256:3243f342d0f659554b7484269eb01859839a91dcc8a5374a18ee46184ed0afde
 tags:
   1.8.0--r40_0: sha256:95f1b2b420d62cd3af4f41c117542eeba33659ab69e5fcaa991c18293088aac2
   1.14.0--r41hdfd78af_0: sha256:0f79a8cae84ba75ae41e015f7578d0e1faee17f539f54ab572c4270be3c83702
@@ -10,6 +10,7 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:77d8f5c9ac61b73298e8d9bf6274a0ce399c51c5d042ffd86c99bf1835addd7e
   1.18.0--r42hdfd78af_0: sha256:5ad2ef751eab707446d86894d51c1992524039214b16df0e0eb8a82b2a3918db
   1.20.0--r43hdfd78af_0: sha256:4163a394119bd85fd58afb1fda10c7369d5575d62da37c509b88e7814d6516a2
+  1.22.0--r43hdfd78af_0: sha256:3243f342d0f659554b7484269eb01859839a91dcc8a5374a18ee46184ed0afde
 docker: quay.io/biocontainers/bioconductor-drawproteins
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

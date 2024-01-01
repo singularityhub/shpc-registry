@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-cogeqc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-cogeqc
 latest:
-  1.4.0--r43hdfd78af_0: sha256:e6e0f5862156ad8043b2acba29261f192f1e82247067c0e21b956a8ecafc0f39
+  1.6.0--r43hdfd78af_0: sha256:03a0da5940e3ae0df583e4c3a95e37f385609d69987e49ac43b2ec71220a2813
 tags:
   1.2.0--r42hdfd78af_0: sha256:067d0ce048e94e8c8b55ded7b2c1dfa8947614cb12659588b315b7f22707cb6d
   1.4.0--r43hdfd78af_0: sha256:e6e0f5862156ad8043b2acba29261f192f1e82247067c0e21b956a8ecafc0f39
+  1.6.0--r43hdfd78af_0: sha256:03a0da5940e3ae0df583e4c3a95e37f385609d69987e49ac43b2ec71220a2813
 docker: quay.io/biocontainers/bioconductor-cogeqc
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

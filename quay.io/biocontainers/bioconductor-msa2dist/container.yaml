@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-msa2dist
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-msa2dist
 latest:
-  1.4.0--r43hf17093f_0: sha256:666981df2d894b206bb7c5aa4574c95618caebed7a02c19465b93ea00e804b3a
+  1.6.0--r43hf17093f_0: sha256:e509af3d8c551766a9e7ed432da8fa6061718aa0d89684f29940eb8ede5400e4
 tags:
   1.2.0--r42hc247a5b_0: sha256:1dd799411e07ca515b652a5fcae1cb92911c404bc3235166d43ff67913c82a46
   1.2.0--r42hf17093f_1: sha256:e87f0acd17ed873ab5f6d3285089f4ee30ab4bb8eedd32a5b790d8885ed9b8d0
   1.4.0--r43hf17093f_0: sha256:666981df2d894b206bb7c5aa4574c95618caebed7a02c19465b93ea00e804b3a
+  1.6.0--r43hf17093f_0: sha256:e509af3d8c551766a9e7ed432da8fa6061718aa0d89684f29940eb8ede5400e4
 docker: quay.io/biocontainers/bioconductor-msa2dist
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

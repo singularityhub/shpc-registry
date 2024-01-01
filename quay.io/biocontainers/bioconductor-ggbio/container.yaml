@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-ggbio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ggbio
 latest:
-  1.48.0--r43hdfd78af_0: sha256:54d61e22008d8d448274b7cd4e77dc560acd740c48d36ab647468bde195a20a2
+  1.50.0--r43hdfd78af_0: sha256:f8e8979cdece1ba0cad848f8a58585a6cb892afd450618b3fc6f3f2408594e97
 tags:
   1.42.0--r41hdfd78af_0: sha256:61e99f5247749f67e252a814ba5bf0febb433f98244a766217ea1bff813efd2c
   1.46.0--r42hdfd78af_0: sha256:bf0884ee65c46ac652a6f34a212b7ee5bad4ba03c91daee6b095fc7e80c7ebf1
   1.48.0--r43hdfd78af_0: sha256:54d61e22008d8d448274b7cd4e77dc560acd740c48d36ab647468bde195a20a2
+  1.50.0--r43hdfd78af_0: sha256:f8e8979cdece1ba0cad848f8a58585a6cb892afd450618b3fc6f3f2408594e97
 docker: quay.io/biocontainers/bioconductor-ggbio

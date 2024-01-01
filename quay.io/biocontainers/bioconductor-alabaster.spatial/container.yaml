@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-alabaster.spatial
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-alabaster.spatial
 latest:
-  1.0.0--r43hdfd78af_0: sha256:024586ae50b06ba818b0377dc62e090cff4f640a440307cb9b8a1b9ef8cd9f78
+  1.2.0--r43hdfd78af_0: sha256:ca896071256d96e823e7a2250c8fa2b903e67b641eebd90bb0a9ed63d72d2e50
 tags:
   1.0.0--r43hdfd78af_0: sha256:024586ae50b06ba818b0377dc62e090cff4f640a440307cb9b8a1b9ef8cd9f78
+  1.2.0--r43hdfd78af_0: sha256:ca896071256d96e823e7a2250c8fa2b903e67b641eebd90bb0a9ed63d72d2e50
 docker: quay.io/biocontainers/bioconductor-alabaster.spatial
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
