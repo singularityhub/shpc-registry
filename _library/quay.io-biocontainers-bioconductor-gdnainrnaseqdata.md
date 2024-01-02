@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gdnainrnaseqdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gdnainrnaseqdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gdnainrnaseqdata/container.yaml"
-updated_at: "2024-01-01 03:32:10.277577"
+updated_at: "2024-01-02 03:06:06.843546"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gdnainrnaseqdata"
 aliases:

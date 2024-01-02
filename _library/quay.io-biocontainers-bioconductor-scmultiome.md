@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scmultiome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scmultiome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scmultiome/container.yaml"
-updated_at: "2024-01-01 03:01:56.660303"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2024-01-02 02:35:18.239715"
+latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scmultiome"
 aliases:
  - "hb-info"
@@ -28,8 +28,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.2.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-scmultiome"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scmultiome", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-scmultiome", "latest": {"1.0.0--r43hdfd78af_0": "sha256:6d38d04a988919c6f36a92f6e45c3fea6546029df3f587ae005354dd06ccdac1"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:6d38d04a988919c6f36a92f6e45c3fea6546029df3f587ae005354dd06ccdac1"}, "docker": "quay.io/biocontainers/bioconductor-scmultiome", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scmultiome", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-scmultiome", "latest": {"1.2.0--r43hdfd78af_0": "sha256:23dd846755faa9ec34ce0273910dfaa6ced09ec7f28e0654b949ff679c71d9a6"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:6d38d04a988919c6f36a92f6e45c3fea6546029df3f587ae005354dd06ccdac1", "1.2.0--r43hdfd78af_0": "sha256:23dd846755faa9ec34ce0273910dfaa6ced09ec7f28e0654b949ff679c71d9a6"}, "docker": "quay.io/biocontainers/bioconductor-scmultiome", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scmultiome.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scmultiome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scmultiome:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scmultiome:1.2.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scmultiome/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scmultiome/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scmultiome/1.2.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scmultiome/1.2.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

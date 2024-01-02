@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-timerquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-timerquant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-timerquant/container.yaml"
-updated_at: "2024-01-01 03:05:04.966297"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2024-01-02 02:38:33.321678"
+latest: "1.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-timerquant"
 
 versions:
  - "1.24.0--r41hdfd78af_1"
  - "1.27.0--r42hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.32.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-timerquant"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-timerquant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-timerquant", "latest": {"1.30.0--r43hdfd78af_0": "sha256:60577d4c11b3bfdb807c68166c5249971429c8e7f90bde47d52ed90ed9958cfc"}, "tags": {"1.24.0--r41hdfd78af_1": "sha256:e48b927fe50ee8c5d92a043adb506e340888e520766cc2bf7456445e025a8520", "1.27.0--r42hdfd78af_0": "sha256:247bf7fc845c7fff3f826c6a6ac5af3473d12cc709680e077e83638ef1a41c94", "1.30.0--r43hdfd78af_0": "sha256:60577d4c11b3bfdb807c68166c5249971429c8e7f90bde47d52ed90ed9958cfc"}, "docker": "quay.io/biocontainers/bioconductor-timerquant"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-timerquant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-timerquant", "latest": {"1.32.0--r43hdfd78af_0": "sha256:0501e675129bb551d28ef2e8e17bf4f083f77a0988381a9472408cc795053623"}, "tags": {"1.24.0--r41hdfd78af_1": "sha256:e48b927fe50ee8c5d92a043adb506e340888e520766cc2bf7456445e025a8520", "1.27.0--r42hdfd78af_0": "sha256:247bf7fc845c7fff3f826c6a6ac5af3473d12cc709680e077e83638ef1a41c94", "1.30.0--r43hdfd78af_0": "sha256:60577d4c11b3bfdb807c68166c5249971429c8e7f90bde47d52ed90ed9958cfc", "1.32.0--r43hdfd78af_0": "sha256:0501e675129bb551d28ef2e8e17bf4f083f77a0988381a9472408cc795053623"}, "docker": "quay.io/biocontainers/bioconductor-timerquant"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-timerquant.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-timerquant
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-timerquant:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-timerquant:1.32.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-timerquant/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-timerquant/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-timerquant/1.32.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-timerquant/1.32.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cbaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cbaf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cbaf/container.yaml"
-updated_at: "2024-01-01 03:26:59.787864"
-latest: "1.22.0--r43hdfd78af_0"
+updated_at: "2024-01-02 03:00:46.380274"
+latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cbaf"
 aliases:
  - "extcheck"
@@ -25,8 +25,9 @@ versions:
  - "1.12.1--r40hdfd78af_0"
  - "1.20.0--r42hdfd78af_0"
  - "1.22.0--r43hdfd78af_0"
+ - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cbaf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cbaf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cbaf", "latest": {"1.22.0--r43hdfd78af_0": "sha256:e873a48f8dd40b74d83f57fa5c14193996aecf7a03143a13ffed9358567b7aca"}, "tags": {"1.8.0--r36_0": "sha256:54f25d8cd192b5d7d99b6b5e061ba2d8e5d4107ea69c802aca8f9aadfdb91c74", "1.16.0--r41hdfd78af_0": "sha256:4e864c023123df66481610145f778dc77e4744b50ba1638265c331aea4b77729", "1.14.0--r41hdfd78af_0": "sha256:044b06d205723585c12aedccc6d593990b2341e209f9d3340af188902295efda", "1.12.1--r40hdfd78af_0": "sha256:0f2d456f8137fa3ec7c355100a8aeb169c9984187cf6c05b3c046ee0e3c37e59", "1.20.0--r42hdfd78af_0": "sha256:4871c7ce78fafab946b6069470165a28f2fb05c5a0a85b2eb2ffc424558f0af1", "1.22.0--r43hdfd78af_0": "sha256:e873a48f8dd40b74d83f57fa5c14193996aecf7a03143a13ffed9358567b7aca"}, "docker": "quay.io/biocontainers/bioconductor-cbaf", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cbaf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cbaf", "latest": {"1.24.0--r43hdfd78af_0": "sha256:775f084395eb2910fc1d3c723ff90a8c4fbec3011af1abba8316e680efbe5d4a"}, "tags": {"1.8.0--r36_0": "sha256:54f25d8cd192b5d7d99b6b5e061ba2d8e5d4107ea69c802aca8f9aadfdb91c74", "1.16.0--r41hdfd78af_0": "sha256:4e864c023123df66481610145f778dc77e4744b50ba1638265c331aea4b77729", "1.14.0--r41hdfd78af_0": "sha256:044b06d205723585c12aedccc6d593990b2341e209f9d3340af188902295efda", "1.12.1--r40hdfd78af_0": "sha256:0f2d456f8137fa3ec7c355100a8aeb169c9984187cf6c05b3c046ee0e3c37e59", "1.20.0--r42hdfd78af_0": "sha256:4871c7ce78fafab946b6069470165a28f2fb05c5a0a85b2eb2ffc424558f0af1", "1.22.0--r43hdfd78af_0": "sha256:e873a48f8dd40b74d83f57fa5c14193996aecf7a03143a13ffed9358567b7aca", "1.24.0--r43hdfd78af_0": "sha256:775f084395eb2910fc1d3c723ff90a8c4fbec3011af1abba8316e680efbe5d4a"}, "docker": "quay.io/biocontainers/bioconductor-cbaf", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cbaf.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cbaf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cbaf:1.22.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cbaf:1.24.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cbaf/1.22.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cbaf/1.22.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cbaf/1.24.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cbaf/1.24.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

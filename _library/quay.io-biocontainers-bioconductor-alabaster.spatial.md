@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-alabaster.spatial"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alabaster.spatial/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alabaster.spatial/container.yaml"
-updated_at: "2024-01-01 02:59:34.232459"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2024-01-02 02:32:48.726326"
+latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alabaster.spatial"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -35,8 +35,9 @@ aliases:
  - "gsdj"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.2.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-alabaster.spatial"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-alabaster.spatial", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-alabaster.spatial", "latest": {"1.0.0--r43hdfd78af_0": "sha256:024586ae50b06ba818b0377dc62e090cff4f640a440307cb9b8a1b9ef8cd9f78"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:024586ae50b06ba818b0377dc62e090cff4f640a440307cb9b8a1b9ef8cd9f78"}, "docker": "quay.io/biocontainers/bioconductor-alabaster.spatial", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "hb-info": "/usr/local/bin/hb-info", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-alabaster.spatial", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-alabaster.spatial", "latest": {"1.2.0--r43hdfd78af_0": "sha256:ca896071256d96e823e7a2250c8fa2b903e67b641eebd90bb0a9ed63d72d2e50"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:024586ae50b06ba818b0377dc62e090cff4f640a440307cb9b8a1b9ef8cd9f78", "1.2.0--r43hdfd78af_0": "sha256:ca896071256d96e823e7a2250c8fa2b903e67b641eebd90bb0a9ed63d72d2e50"}, "docker": "quay.io/biocontainers/bioconductor-alabaster.spatial", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "hb-info": "/usr/local/bin/hb-info", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-alabaster.spatial.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/bioconductor-alabaster.spatial
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-alabaster.spatial:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-alabaster.spatial:1.2.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-alabaster.spatial/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-alabaster.spatial/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-alabaster.spatial/1.2.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-alabaster.spatial/1.2.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

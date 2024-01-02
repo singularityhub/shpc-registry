@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deeptoolsintervals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeptoolsintervals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deeptoolsintervals/container.yaml"
-updated_at: "2024-01-01 03:09:06.094011"
-latest: "0.1.9--py39h87d955d_5"
+updated_at: "2024-01-02 02:42:38.586236"
+latest: "0.1.9--py310h8472f5a_6"
 container_url: "https://biocontainers.pro/tools/deeptoolsintervals"
 aliases:
  - "python2-config"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "0.1.9--py27h9801fc8_4"
  - "0.1.9--py39h87d955d_5"
+ - "0.1.9--py310h8472f5a_6"
 description: "shpc-registry automated BioContainers addition for deeptoolsintervals"
-config: {"url": "https://biocontainers.pro/tools/deeptoolsintervals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deeptoolsintervals", "latest": {"0.1.9--py39h87d955d_5": "sha256:0545250d5a69f037a832a3b187470aa59df2681a6b7c239aec8ad411106d41f3"}, "tags": {"0.1.9--py27h9801fc8_4": "sha256:903220a951714054dd1d2386e794cef191ecac6b2cdd0446f30d746e00661642", "0.1.9--py39h87d955d_5": "sha256:0545250d5a69f037a832a3b187470aa59df2681a6b7c239aec8ad411106d41f3"}, "docker": "quay.io/biocontainers/deeptoolsintervals", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/deeptoolsintervals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deeptoolsintervals", "latest": {"0.1.9--py310h8472f5a_6": "sha256:97262820c3446fe70596e4ad1f916bd73e31ef9a7b09d739d9d989e6e60e2bb5"}, "tags": {"0.1.9--py27h9801fc8_4": "sha256:903220a951714054dd1d2386e794cef191ecac6b2cdd0446f30d746e00661642", "0.1.9--py39h87d955d_5": "sha256:0545250d5a69f037a832a3b187470aa59df2681a6b7c239aec8ad411106d41f3", "0.1.9--py310h8472f5a_6": "sha256:97262820c3446fe70596e4ad1f916bd73e31ef9a7b09d739d9d989e6e60e2bb5"}, "docker": "quay.io/biocontainers/deeptoolsintervals", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deeptoolsintervals.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/deeptoolsintervals
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deeptoolsintervals:0.1.9--py39h87d955d_5
+$ shpc install quay.io/biocontainers/deeptoolsintervals:0.1.9--py310h8472f5a_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deeptoolsintervals/0.1.9--py39h87d955d_5
-$ module help quay.io/biocontainers/deeptoolsintervals/0.1.9--py39h87d955d_5
+$ module load quay.io/biocontainers/deeptoolsintervals/0.1.9--py310h8472f5a_6
+$ module help quay.io/biocontainers/deeptoolsintervals/0.1.9--py310h8472f5a_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

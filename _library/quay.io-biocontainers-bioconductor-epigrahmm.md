@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-epigrahmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epigrahmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epigrahmm/container.yaml"
-updated_at: "2024-01-01 03:07:02.140002"
-latest: "1.8.2--r43hf17093f_0"
+updated_at: "2024-01-02 02:40:32.217379"
+latest: "1.10.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epigrahmm"
 aliases:
  - "f2py3.10"
@@ -21,8 +21,9 @@ versions:
  - "1.6.4--r42hc247a5b_0"
  - "1.6.4--r42hf17093f_1"
  - "1.8.2--r43hf17093f_0"
+ - "1.10.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-epigrahmm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-epigrahmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epigrahmm", "latest": {"1.8.2--r43hf17093f_0": "sha256:912ac6be3e86eea0c7ef98351319467774e248e05f8194fd10c68ba6ac31ad88"}, "tags": {"1.2.2--r41hc247a5b_1": "sha256:300dc00b6c5dc135b07edded18c4d663fb851905245ef62565fa76b9172f76eb", "1.6.0--r42hc247a5b_0": "sha256:52a5f3f428a8c42381adff79587fac9f884b8d0cfee3b458f99e157bb4370cdc", "1.6.4--r42hc247a5b_0": "sha256:eee62ffb1383271404e604c64f499875fd4ff44aa3ecbd2470341f7a79d897a5", "1.6.4--r42hf17093f_1": "sha256:63f007e732a6774356c94656e722582008a509d5f3d57af55b76b66130651059", "1.8.2--r43hf17093f_0": "sha256:912ac6be3e86eea0c7ef98351319467774e248e05f8194fd10c68ba6ac31ad88"}, "docker": "quay.io/biocontainers/bioconductor-epigrahmm", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-epigrahmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epigrahmm", "latest": {"1.10.0--r43hf17093f_0": "sha256:226e816d0080e2108d3f7a3fd290515a84f7cdae0ee95967fc0bf9fc11a635b6"}, "tags": {"1.2.2--r41hc247a5b_1": "sha256:300dc00b6c5dc135b07edded18c4d663fb851905245ef62565fa76b9172f76eb", "1.6.0--r42hc247a5b_0": "sha256:52a5f3f428a8c42381adff79587fac9f884b8d0cfee3b458f99e157bb4370cdc", "1.6.4--r42hc247a5b_0": "sha256:eee62ffb1383271404e604c64f499875fd4ff44aa3ecbd2470341f7a79d897a5", "1.6.4--r42hf17093f_1": "sha256:63f007e732a6774356c94656e722582008a509d5f3d57af55b76b66130651059", "1.8.2--r43hf17093f_0": "sha256:912ac6be3e86eea0c7ef98351319467774e248e05f8194fd10c68ba6ac31ad88", "1.10.0--r43hf17093f_0": "sha256:226e816d0080e2108d3f7a3fd290515a84f7cdae0ee95967fc0bf9fc11a635b6"}, "docker": "quay.io/biocontainers/bioconductor-epigrahmm", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-epigrahmm.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-epigrahmm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-epigrahmm:1.8.2--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-epigrahmm:1.10.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-epigrahmm/1.8.2--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-epigrahmm/1.8.2--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-epigrahmm/1.10.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-epigrahmm/1.10.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ppinfer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ppinfer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ppinfer/container.yaml"
-updated_at: "2024-01-01 03:20:06.637544"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2024-01-02 02:53:47.175872"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ppinfer"
 aliases:
  - "wget"
@@ -20,8 +20,9 @@ versions:
  - "1.12.0--r36_1"
  - "1.24.0--r42hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ppinfer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ppinfer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ppinfer", "latest": {"1.26.0--r43hdfd78af_0": "sha256:935e69d7238c4869643437205ab3e98fd8d9a595a82cec159ee0fc00b214ff47"}, "tags": {"1.8.1--r351_0": "sha256:5a69d581f732588683ea9ea9838bbd66eafd2419d0d9aeb0b605e157fef60057", "1.20.0--r41hdfd78af_0": "sha256:133d505bfc446345f7fff42df7eec00ca56caaaa8b08a0a65dee41a6b8da5dd8", "1.18.0--r41hdfd78af_0": "sha256:4ceed9875471693a134a7ecace4d59e677885f382766a9fb78acedd51a323d53", "1.16.0--r40hdfd78af_1": "sha256:e5e25399c2f1dfab1d206d3ec5988accbf7f62748af74689efeabb2933b99673", "1.14.0--r40_0": "sha256:8b4aaf6c8cd7db7102114f6a622084a328f01a5aad9b3a83c532a12fdee3e619", "1.12.0--r36_1": "sha256:6d1f0e3aa4c63cc8458bf6a62d87bc591af1449a57e0ab7a9600e860b8ab3ae8", "1.24.0--r42hdfd78af_0": "sha256:803e56e18889d628d861a890104e7233416f475ee221ad372c731b04acddb889", "1.26.0--r43hdfd78af_0": "sha256:935e69d7238c4869643437205ab3e98fd8d9a595a82cec159ee0fc00b214ff47"}, "docker": "quay.io/biocontainers/bioconductor-ppinfer", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ppinfer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ppinfer", "latest": {"1.28.0--r43hdfd78af_0": "sha256:f0a2ff5548cf52fb841af7b96456a5429bec814655e1935b71d10d42807a422e"}, "tags": {"1.8.1--r351_0": "sha256:5a69d581f732588683ea9ea9838bbd66eafd2419d0d9aeb0b605e157fef60057", "1.20.0--r41hdfd78af_0": "sha256:133d505bfc446345f7fff42df7eec00ca56caaaa8b08a0a65dee41a6b8da5dd8", "1.18.0--r41hdfd78af_0": "sha256:4ceed9875471693a134a7ecace4d59e677885f382766a9fb78acedd51a323d53", "1.16.0--r40hdfd78af_1": "sha256:e5e25399c2f1dfab1d206d3ec5988accbf7f62748af74689efeabb2933b99673", "1.14.0--r40_0": "sha256:8b4aaf6c8cd7db7102114f6a622084a328f01a5aad9b3a83c532a12fdee3e619", "1.12.0--r36_1": "sha256:6d1f0e3aa4c63cc8458bf6a62d87bc591af1449a57e0ab7a9600e860b8ab3ae8", "1.24.0--r42hdfd78af_0": "sha256:803e56e18889d628d861a890104e7233416f475ee221ad372c731b04acddb889", "1.26.0--r43hdfd78af_0": "sha256:935e69d7238c4869643437205ab3e98fd8d9a595a82cec159ee0fc00b214ff47", "1.28.0--r43hdfd78af_0": "sha256:f0a2ff5548cf52fb841af7b96456a5429bec814655e1935b71d10d42807a422e"}, "docker": "quay.io/biocontainers/bioconductor-ppinfer", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ppinfer.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ppinfer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ppinfer:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ppinfer:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ppinfer/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ppinfer/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ppinfer/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ppinfer/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-genemeta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genemeta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genemeta/container.yaml"
-updated_at: "2024-01-01 03:32:12.956039"
-latest: "1.72.0--r43hdfd78af_0"
+updated_at: "2024-01-02 03:06:09.649945"
+latest: "1.74.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genemeta"
 
 versions:
  - "1.66.0--r41hdfd78af_0"
  - "1.70.0--r42hdfd78af_0"
  - "1.72.0--r43hdfd78af_0"
+ - "1.74.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genemeta"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genemeta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genemeta", "latest": {"1.72.0--r43hdfd78af_0": "sha256:5673f4b353f76860f26f0ec5b8be4d956e0b72a4b4412a5a145eafad8414c009"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:207ba77e7c439d1ceb3441aa2218401c9ce71c4df85428ff0e8ad8aabbee7921", "1.70.0--r42hdfd78af_0": "sha256:7ad0c9a3b163474db914651e345e21c9c68ec2c7d30ab2b383ce91e365a41424", "1.72.0--r43hdfd78af_0": "sha256:5673f4b353f76860f26f0ec5b8be4d956e0b72a4b4412a5a145eafad8414c009"}, "docker": "quay.io/biocontainers/bioconductor-genemeta"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genemeta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genemeta", "latest": {"1.74.0--r43hdfd78af_0": "sha256:7959e7b788d4a43d9833d91451f2dd48e3abc4d4c01b14b5df3c78c4ca78dd90"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:207ba77e7c439d1ceb3441aa2218401c9ce71c4df85428ff0e8ad8aabbee7921", "1.70.0--r42hdfd78af_0": "sha256:7ad0c9a3b163474db914651e345e21c9c68ec2c7d30ab2b383ce91e365a41424", "1.72.0--r43hdfd78af_0": "sha256:5673f4b353f76860f26f0ec5b8be4d956e0b72a4b4412a5a145eafad8414c009", "1.74.0--r43hdfd78af_0": "sha256:7959e7b788d4a43d9833d91451f2dd48e3abc4d4c01b14b5df3c78c4ca78dd90"}, "docker": "quay.io/biocontainers/bioconductor-genemeta"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genemeta.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genemeta
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genemeta:1.72.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-genemeta:1.74.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genemeta/1.72.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-genemeta/1.72.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-genemeta/1.74.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genemeta/1.74.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

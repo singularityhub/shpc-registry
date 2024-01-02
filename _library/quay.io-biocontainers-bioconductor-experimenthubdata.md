@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-experimenthubdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-experimenthubdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-experimenthubdata/container.yaml"
-updated_at: "2024-01-01 03:12:11.286115"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2024-01-02 02:45:46.493058"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-experimenthubdata"
 aliases:
  - "wget"
@@ -20,8 +20,9 @@ versions:
  - "1.12.0--r36_0"
  - "1.24.0--r42hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-experimenthubdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-experimenthubdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-experimenthubdata", "latest": {"1.26.0--r43hdfd78af_0": "sha256:693693df208f97ed98b0720fce471b76134c6beb875d0d27685d49dc43334ef4"}, "tags": {"1.8.0--r351_0": "sha256:f5e5373c60a15764ec8e41ad1165fe8c00749f376f3def1741346efb68ed7924", "1.20.0--r41hdfd78af_0": "sha256:4ede104f7af994756750a5e571a64c64e685b029df93361aae5de3d241fc4e33", "1.18.0--r41hdfd78af_0": "sha256:f67895ee66da9cba7cec6c9b616177fa90c668ae538825aa947ae0e353725d8a", "1.16.0--r40hdfd78af_1": "sha256:2f67a7a83ae9a6c89ff050fab15901da25b23d7416eebc28c05bd8d7eca05340", "1.14.0--r40_0": "sha256:756eca4bfe7abe1e3107e721f5a339a5e3f32fd9436eb506f6cb53ec945144ad", "1.12.0--r36_0": "sha256:2b47c3f34ca38d8a85c5fd331cd3ceb4f91a5c46bad92552501e9dbf4b205470", "1.24.0--r42hdfd78af_0": "sha256:2060f5b2ad6d427a5035023ea8e1907cb54f742315c47b1a5cb607ba67b8e585", "1.26.0--r43hdfd78af_0": "sha256:693693df208f97ed98b0720fce471b76134c6beb875d0d27685d49dc43334ef4"}, "docker": "quay.io/biocontainers/bioconductor-experimenthubdata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-experimenthubdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-experimenthubdata", "latest": {"1.28.0--r43hdfd78af_0": "sha256:6a18dd7e14149da83e103ac1d44d9f285611a2a37260302d97e12bf4a1945f75"}, "tags": {"1.8.0--r351_0": "sha256:f5e5373c60a15764ec8e41ad1165fe8c00749f376f3def1741346efb68ed7924", "1.20.0--r41hdfd78af_0": "sha256:4ede104f7af994756750a5e571a64c64e685b029df93361aae5de3d241fc4e33", "1.18.0--r41hdfd78af_0": "sha256:f67895ee66da9cba7cec6c9b616177fa90c668ae538825aa947ae0e353725d8a", "1.16.0--r40hdfd78af_1": "sha256:2f67a7a83ae9a6c89ff050fab15901da25b23d7416eebc28c05bd8d7eca05340", "1.14.0--r40_0": "sha256:756eca4bfe7abe1e3107e721f5a339a5e3f32fd9436eb506f6cb53ec945144ad", "1.12.0--r36_0": "sha256:2b47c3f34ca38d8a85c5fd331cd3ceb4f91a5c46bad92552501e9dbf4b205470", "1.24.0--r42hdfd78af_0": "sha256:2060f5b2ad6d427a5035023ea8e1907cb54f742315c47b1a5cb607ba67b8e585", "1.26.0--r43hdfd78af_0": "sha256:693693df208f97ed98b0720fce471b76134c6beb875d0d27685d49dc43334ef4", "1.28.0--r43hdfd78af_0": "sha256:6a18dd7e14149da83e103ac1d44d9f285611a2a37260302d97e12bf4a1945f75"}, "docker": "quay.io/biocontainers/bioconductor-experimenthubdata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-experimenthubdata.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-experimenthubdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-experimenthubdata:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-experimenthubdata:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-experimenthubdata/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-experimenthubdata/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-experimenthubdata/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-experimenthubdata/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

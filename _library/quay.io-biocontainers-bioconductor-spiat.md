@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-spiat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spiat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spiat/container.yaml"
-updated_at: "2024-01-01 03:26:37.651768"
-latest: "1.2.2--r43hdfd78af_0"
+updated_at: "2024-01-02 03:00:23.100056"
+latest: "1.4.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spiat"
 aliases:
  - "pg_amcheck"
@@ -36,8 +36,9 @@ aliases:
 versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.2--r43hdfd78af_0"
+ - "1.4.1--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-spiat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spiat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-spiat", "latest": {"1.2.2--r43hdfd78af_0": "sha256:69d272e4ecedcca0d04b905c263050a795f7bbb95e7a5ad4616be11f85d90756"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:1f848c9e7809a1728a5e9041a187d570ee5f93f7660b676a72d30b1b2de03d36", "1.2.2--r43hdfd78af_0": "sha256:69d272e4ecedcca0d04b905c263050a795f7bbb95e7a5ad4616be11f85d90756"}, "docker": "quay.io/biocontainers/bioconductor-spiat", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync", "dap-config": "/usr/local/bin/dap-config", "dap-config-pkgconfig": "/usr/local/bin/dap-config-pkgconfig", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize", "gdal_translate": "/usr/local/bin/gdal_translate", "gdaladdo": "/usr/local/bin/gdaladdo"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spiat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-spiat", "latest": {"1.4.1--r43hdfd78af_0": "sha256:360737ede2c6322e96fa50031f2412c0b52822a075ce19ae2f2de23cf2a21dc9"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:1f848c9e7809a1728a5e9041a187d570ee5f93f7660b676a72d30b1b2de03d36", "1.2.2--r43hdfd78af_0": "sha256:69d272e4ecedcca0d04b905c263050a795f7bbb95e7a5ad4616be11f85d90756", "1.4.1--r43hdfd78af_0": "sha256:360737ede2c6322e96fa50031f2412c0b52822a075ce19ae2f2de23cf2a21dc9"}, "docker": "quay.io/biocontainers/bioconductor-spiat", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync", "dap-config": "/usr/local/bin/dap-config", "dap-config-pkgconfig": "/usr/local/bin/dap-config-pkgconfig", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize", "gdal_translate": "/usr/local/bin/gdal_translate", "gdaladdo": "/usr/local/bin/gdaladdo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spiat.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spiat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spiat:1.2.2--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spiat:1.4.1--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spiat/1.2.2--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spiat/1.2.2--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spiat/1.4.1--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spiat/1.4.1--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-methylinheritance"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylinheritance/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylinheritance/container.yaml"
-updated_at: "2024-01-01 03:10:04.169889"
-latest: "1.24.0--r43hdfd78af_0"
+updated_at: "2024-01-02 02:43:38.579632"
+latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylinheritance"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "1.10.0--r36_0"
  - "1.22.0--r42hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
+ - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-methylinheritance"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methylinheritance", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylinheritance", "latest": {"1.24.0--r43hdfd78af_0": "sha256:c0bebfd12e507b8794238c328526cc61b8456f074371988c4457f168d298bf39"}, "tags": {"1.8.0--r36_1": "sha256:a83baa8fc04389bfa90ea8220a3c2de0b8c8e4a474e495da0bd86bda0e54b86e", "1.18.0--r41hdfd78af_0": "sha256:4179ec2835184ee657d7ba21c43a0037f7fcd629801cc946c11c7061c468d901", "1.16.0--r41hdfd78af_0": "sha256:f159c326269e0ddf758b53347d34e50f5bd1e3068d62411839771c9e91c85ce8", "1.14.0--r40hdfd78af_1": "sha256:bad14b3ba6dc7500a0824e0c1710d29f33c2eb5acd9273fcfc39298829218a1c", "1.12.0--r40_0": "sha256:8b6dbc2a7451526f41371e4bd0a4d0f15afc4f110f31daa096b5c20addfe5b1e", "1.10.0--r36_0": "sha256:5f44f8c19aa0ad68ea327eeb165155a1b4abd4a03af20cddcca883c00601f134", "1.22.0--r42hdfd78af_0": "sha256:e4ca008514480d910c2ccf2dd21be4e1a261d8f77453d6aaa3dffb89db439e67", "1.24.0--r43hdfd78af_0": "sha256:c0bebfd12e507b8794238c328526cc61b8456f074371988c4457f168d298bf39"}, "docker": "quay.io/biocontainers/bioconductor-methylinheritance", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methylinheritance", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylinheritance", "latest": {"1.26.0--r43hdfd78af_0": "sha256:1db62bf27b377b56e987cbc21466488710490a4c5a2e29db62945dd1aa1f986d"}, "tags": {"1.8.0--r36_1": "sha256:a83baa8fc04389bfa90ea8220a3c2de0b8c8e4a474e495da0bd86bda0e54b86e", "1.18.0--r41hdfd78af_0": "sha256:4179ec2835184ee657d7ba21c43a0037f7fcd629801cc946c11c7061c468d901", "1.16.0--r41hdfd78af_0": "sha256:f159c326269e0ddf758b53347d34e50f5bd1e3068d62411839771c9e91c85ce8", "1.14.0--r40hdfd78af_1": "sha256:bad14b3ba6dc7500a0824e0c1710d29f33c2eb5acd9273fcfc39298829218a1c", "1.12.0--r40_0": "sha256:8b6dbc2a7451526f41371e4bd0a4d0f15afc4f110f31daa096b5c20addfe5b1e", "1.10.0--r36_0": "sha256:5f44f8c19aa0ad68ea327eeb165155a1b4abd4a03af20cddcca883c00601f134", "1.22.0--r42hdfd78af_0": "sha256:e4ca008514480d910c2ccf2dd21be4e1a261d8f77453d6aaa3dffb89db439e67", "1.24.0--r43hdfd78af_0": "sha256:c0bebfd12e507b8794238c328526cc61b8456f074371988c4457f168d298bf39", "1.26.0--r43hdfd78af_0": "sha256:1db62bf27b377b56e987cbc21466488710490a4c5a2e29db62945dd1aa1f986d"}, "docker": "quay.io/biocontainers/bioconductor-methylinheritance", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methylinheritance.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-methylinheritance
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-methylinheritance:1.24.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-methylinheritance:1.26.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-methylinheritance/1.24.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-methylinheritance/1.24.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-methylinheritance/1.26.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-methylinheritance/1.26.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

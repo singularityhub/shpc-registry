@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-rnamodr.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnamodr.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnamodr.data/container.yaml"
-updated_at: "2024-01-01 03:23:46.480327"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2024-01-02 02:57:30.991994"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnamodr.data"
 
 versions:
  - "1.8.0--r41hdfd78af_1"
  - "1.12.0--r42hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnamodr.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnamodr.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnamodr.data", "latest": {"1.14.0--r43hdfd78af_0": "sha256:e6f70e912033d9e3002a7924affd415f569b188fbaa6d00fea002fc2e4b2f50a"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:7fea50e299c4f84f96ade804b29fd45795c23aeaf7a65038418e474c21eeef50", "1.12.0--r42hdfd78af_0": "sha256:69006bea4e7fc03c2ccb6e2834e1974ee27ab12c0eef0327cba58fc461991d7d", "1.14.0--r43hdfd78af_0": "sha256:e6f70e912033d9e3002a7924affd415f569b188fbaa6d00fea002fc2e4b2f50a"}, "docker": "quay.io/biocontainers/bioconductor-rnamodr.data"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnamodr.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnamodr.data", "latest": {"1.16.0--r43hdfd78af_0": "sha256:c1327db97178b519608c742688c169b1e63c78aa6a01006bebc51d27dc0cc2db"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:7fea50e299c4f84f96ade804b29fd45795c23aeaf7a65038418e474c21eeef50", "1.12.0--r42hdfd78af_0": "sha256:69006bea4e7fc03c2ccb6e2834e1974ee27ab12c0eef0327cba58fc461991d7d", "1.14.0--r43hdfd78af_0": "sha256:e6f70e912033d9e3002a7924affd415f569b188fbaa6d00fea002fc2e4b2f50a", "1.16.0--r43hdfd78af_0": "sha256:c1327db97178b519608c742688c169b1e63c78aa6a01006bebc51d27dc0cc2db"}, "docker": "quay.io/biocontainers/bioconductor-rnamodr.data"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnamodr.data.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rnamodr.data
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rnamodr.data:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rnamodr.data:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rnamodr.data/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rnamodr.data/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rnamodr.data/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rnamodr.data/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

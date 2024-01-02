@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-levi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-levi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-levi/container.yaml"
-updated_at: "2024-01-01 03:37:15.180440"
-latest: "1.18.0--r43hf17093f_0"
+updated_at: "2024-01-02 03:11:17.527542"
+latest: "1.20.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-levi"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "1.16.0--r42hc247a5b_0"
  - "1.16.0--r42hf17093f_1"
  - "1.18.0--r43hf17093f_0"
+ - "1.20.0--r43hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-levi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-levi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-levi", "latest": {"1.18.0--r43hf17093f_0": "sha256:b8843b575199b8797d1aa615a6ea17240fb04bfde3aa4d1a9b380cf2e16e993d"}, "tags": {"1.8.0--r40h399db7b_1": "sha256:9091bb30d944faafa6efa40b297de725a578dfa8052712364e48184efaeee11e", "1.12.0--r41hc247a5b_2": "sha256:2d5718d9c3596f1e8020d5fc99d3c1877c77633051f28d4e012e08c9962c9b8b", "1.10.0--r41h399db7b_0": "sha256:c5e5c9085b74800d52e9995e9eaea00230e0b0e94b235dc3055c5af05f4bcafe", "1.16.0--r42hc247a5b_0": "sha256:4ccf1475833a3fddd01e5ade5cee590bb2b0b777f2aa7dc5358cc4a7db82cb44", "1.16.0--r42hf17093f_1": "sha256:fed75e9feadbeb00c9f3cc9d0dcb1657758678ba6d45d2882c00a7e9c9f39f4c", "1.18.0--r43hf17093f_0": "sha256:b8843b575199b8797d1aa615a6ea17240fb04bfde3aa4d1a9b380cf2e16e993d"}, "docker": "quay.io/biocontainers/bioconductor-levi", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-levi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-levi", "latest": {"1.20.0--r43hf17093f_1": "sha256:26447bf51051ba0f574847d6002bc558ffb5e2dd3527cedb6f6a054cbb059e6b"}, "tags": {"1.8.0--r40h399db7b_1": "sha256:9091bb30d944faafa6efa40b297de725a578dfa8052712364e48184efaeee11e", "1.12.0--r41hc247a5b_2": "sha256:2d5718d9c3596f1e8020d5fc99d3c1877c77633051f28d4e012e08c9962c9b8b", "1.10.0--r41h399db7b_0": "sha256:c5e5c9085b74800d52e9995e9eaea00230e0b0e94b235dc3055c5af05f4bcafe", "1.16.0--r42hc247a5b_0": "sha256:4ccf1475833a3fddd01e5ade5cee590bb2b0b777f2aa7dc5358cc4a7db82cb44", "1.16.0--r42hf17093f_1": "sha256:fed75e9feadbeb00c9f3cc9d0dcb1657758678ba6d45d2882c00a7e9c9f39f4c", "1.18.0--r43hf17093f_0": "sha256:b8843b575199b8797d1aa615a6ea17240fb04bfde3aa4d1a9b380cf2e16e993d", "1.20.0--r43hf17093f_1": "sha256:26447bf51051ba0f574847d6002bc558ffb5e2dd3527cedb6f6a054cbb059e6b"}, "docker": "quay.io/biocontainers/bioconductor-levi", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-levi.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-levi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-levi:1.18.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-levi:1.20.0--r43hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-levi/1.18.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-levi/1.18.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-levi/1.20.0--r43hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-levi/1.20.0--r43hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

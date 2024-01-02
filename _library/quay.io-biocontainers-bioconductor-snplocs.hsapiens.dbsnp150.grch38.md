@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38/container.yaml"
-updated_at: "2024-01-01 03:22:08.961428"
-latest: "0.99.20--r43hdfd78af_11"
+updated_at: "2024-01-02 02:55:51.755146"
+latest: "0.99.20--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-snplocs.hsapiens.dbsnp150.grch38"
 
 versions:
  - "0.99.20--r41hdfd78af_9"
  - "0.99.20--r42hdfd78af_10"
  - "0.99.20--r43hdfd78af_11"
+ - "0.99.20--r43hdfd78af_12"
 description: "shpc-registry automated BioContainers addition for bioconductor-snplocs.hsapiens.dbsnp150.grch38"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-snplocs.hsapiens.dbsnp150.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snplocs.hsapiens.dbsnp150.grch38", "latest": {"0.99.20--r43hdfd78af_11": "sha256:91844686914f9cee5517b4ceca38bd76a42abcc6b2cbc7b5feca380f083e93bb"}, "tags": {"0.99.20--r41hdfd78af_9": "sha256:8cb827ce1d43f1289b2178941ad72e206db2f026bdd81d06cf1ece69576d3e95", "0.99.20--r42hdfd78af_10": "sha256:935ebeb1313ae6613ab3e201217d7bb191ee38f8f9c7e36932045e1293ff7aed", "0.99.20--r43hdfd78af_11": "sha256:91844686914f9cee5517b4ceca38bd76a42abcc6b2cbc7b5feca380f083e93bb"}, "docker": "quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-snplocs.hsapiens.dbsnp150.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snplocs.hsapiens.dbsnp150.grch38", "latest": {"0.99.20--r43hdfd78af_12": "sha256:1fd029c5129099621c7dfef1a9409e336699eff07a979600ad0988cc530d7b1e"}, "tags": {"0.99.20--r41hdfd78af_9": "sha256:8cb827ce1d43f1289b2178941ad72e206db2f026bdd81d06cf1ece69576d3e95", "0.99.20--r42hdfd78af_10": "sha256:935ebeb1313ae6613ab3e201217d7bb191ee38f8f9c7e36932045e1293ff7aed", "0.99.20--r43hdfd78af_11": "sha256:91844686914f9cee5517b4ceca38bd76a42abcc6b2cbc7b5feca380f083e93bb", "0.99.20--r43hdfd78af_12": "sha256:1fd029c5129099621c7dfef1a9409e336699eff07a979600ad0988cc530d7b1e"}, "docker": "quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38:0.99.20--r43hdfd78af_11
+$ shpc install quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38:0.99.20--r43hdfd78af_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38/0.99.20--r43hdfd78af_11
-$ module help quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38/0.99.20--r43hdfd78af_11
+$ module load quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38/0.99.20--r43hdfd78af_12
+$ module help quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38/0.99.20--r43hdfd78af_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

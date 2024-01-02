@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hatchet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hatchet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hatchet/container.yaml"
-updated_at: "2024-01-01 03:01:03.454331"
+updated_at: "2024-01-02 02:34:22.425603"
 latest: "0.4.10--py38h8c62d01_0"
 container_url: "https://biocontainers.pro/tools/hatchet"
 aliases:
