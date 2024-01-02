@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-motifbreakr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-motifbreakr
 latest:
-  2.13.7--r43hdfd78af_0: sha256:4303bb80ccd00ffa701f4d57deec609be1d8d28c53c40c9108753210ac519fec
+  2.16.0--r43hdfd78af_0: sha256:25ad1270f91e3d8e34f001b1beb7e06b4cec88ea56daa498d719320dfc672b2f
 tags:
   2.8.0--r41hdfd78af_0: sha256:9077d4d6af8a4e5ed478361d845a49160576f11bc0497393ae06400df86a6552
   2.12.0--r42hdfd78af_0: sha256:f78e11632dd2a8879daf2135e0ccb4dab1754ce02d928c727e0ee676c197bf25
   2.13.7--r43hdfd78af_0: sha256:4303bb80ccd00ffa701f4d57deec609be1d8d28c53c40c9108753210ac519fec
+  2.16.0--r43hdfd78af_0: sha256:25ad1270f91e3d8e34f001b1beb7e06b4cec88ea56daa498d719320dfc672b2f
 docker: quay.io/biocontainers/bioconductor-motifbreakr

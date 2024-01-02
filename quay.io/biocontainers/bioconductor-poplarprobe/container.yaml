@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-poplarprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-poplarprobe
 latest:
-  2.18.0--r43hdfd78af_11: sha256:b52b277cb417f7eafcc7a1dba3ad6103d233cb360a38e77f305a119af9bec84e
+  2.18.0--r43hdfd78af_12: sha256:c477a3cffe78e0f27c09a52e7ce0d1220c7941f437aa9d9fb48b4db9da330041
 tags:
   2.18.0--r41hdfd78af_9: sha256:8fcc57f25b97996677e68ac1bc8cf43b6ba501804c09de3aaf45dfc66655e735
   2.18.0--r42hdfd78af_10: sha256:b85f5c887c2e1e90a2aa8a57b69fa39d0bdd39808757f9d60dd27e40f534af62
   2.18.0--r43hdfd78af_11: sha256:b52b277cb417f7eafcc7a1dba3ad6103d233cb360a38e77f305a119af9bec84e
+  2.18.0--r43hdfd78af_12: sha256:c477a3cffe78e0f27c09a52e7ce0d1220c7941f437aa9d9fb48b4db9da330041
 docker: quay.io/biocontainers/bioconductor-poplarprobe

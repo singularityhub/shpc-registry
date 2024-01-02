@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-runibic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-runibic
 latest:
-  1.22.0--r43hf17093f_0: sha256:5e990d7c126ef92cec8bde42673b87434c164842cdd4d2e9c7799b3d05d4d479
+  1.24.0--r43hf17093f_0: sha256:f75fbcf18d92ad1b9801d24b204b2d0b6a74eea69ac73fd1975fca7848a3159f
 tags:
   1.8.0--r36he1b5a44_0: sha256:541144cc07c5dcfde1f9039e39af22a29500bad846bf450b55fa4c1c7c7fa80f
   1.16.0--r41hc247a5b_2: sha256:80766744c07408dd179b4edcb9dd566d7f7a81a753f173c183c0ababd2370185
@@ -12,6 +12,7 @@ tags:
   1.20.0--r42hc247a5b_0: sha256:a0c469426d05dda24e347dae5d73fb777f31a9c063a4885ff6af5e7701dd806f
   1.20.0--r42hf17093f_1: sha256:526e6ee6451d908af28b85ad1136accf154bfa33bbf2b9456bc3f1c7d0eeac51
   1.22.0--r43hf17093f_0: sha256:5e990d7c126ef92cec8bde42673b87434c164842cdd4d2e9c7799b3d05d4d479
+  1.24.0--r43hf17093f_0: sha256:f75fbcf18d92ad1b9801d24b204b2d0b6a74eea69ac73fd1975fca7848a3159f
 docker: quay.io/biocontainers/bioconductor-runibic
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

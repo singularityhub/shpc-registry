@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-splinter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-splinter
 latest:
-  1.26.0--r43hdfd78af_0: sha256:78206912620dbfd360f1343c7ae51f595c189ced5f2edb68f986ac85ac04cfea
+  1.28.0--r43hdfd78af_0: sha256:57172f193bbc1b9fe3d2864b98170b9978db02e8c82df110ffe5c933bb9d063d
 tags:
   1.8.0--r351_0: sha256:f431a2faedad5d022be40af055c53ea69cddfabf2009738939e0924ebb7e7d1a
   1.20.0--r41hdfd78af_0: sha256:ad008728365feb5816e826de1885ce8ad0438b30db2d38739ec01865ae34949f
@@ -12,6 +12,7 @@ tags:
   1.12.0--r36_0: sha256:5066f1b27ba674bdec9054f8ee2b3a7537e15fa7e1de79bcbd194d09426c61e8
   1.24.0--r42hdfd78af_0: sha256:06e01d64a0ac949eb2a1fad87f7152cadc7e815fc667df329f5e26d326f359ba
   1.26.0--r43hdfd78af_0: sha256:78206912620dbfd360f1343c7ae51f595c189ced5f2edb68f986ac85ac04cfea
+  1.28.0--r43hdfd78af_0: sha256:57172f193bbc1b9fe3d2864b98170b9978db02e8c82df110ffe5c933bb9d063d
 docker: quay.io/biocontainers/bioconductor-splinter
 aliases:
   wget: /usr/local/bin/wget

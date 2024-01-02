@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rappas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rappas
 latest:
-  1.21--0: sha256:99e868752e0efe443814a465632b8fd169896e5d72e220e34e2d57ecb466d8bf
+  1.22--hdfd78af_0: sha256:81c77622b18a18cabf1b5197ef64d3763469da16aaaf73db09b7ce75cbdcdfea
 tags:
   1.21--0: sha256:99e868752e0efe443814a465632b8fd169896e5d72e220e34e2d57ecb466d8bf
+  1.22--hdfd78af_0: sha256:81c77622b18a18cabf1b5197ef64d3763469da16aaaf73db09b7ce75cbdcdfea
 docker: quay.io/biocontainers/rappas
 aliases:
   RAPPAS.jar: /usr/local/bin/RAPPAS.jar

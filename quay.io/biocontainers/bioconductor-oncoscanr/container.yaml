@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-oncoscanr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-oncoscanr
 latest:
-  1.2.0--r43hdfd78af_0: sha256:80bd482f33a1969af3896b56f2e857eb38ce6bc4e190adcf53d8ed8180f955de
+  1.4.0--r43hdfd78af_0: sha256:caeb7f3b42fc904deef2ef8f04e6be8116d3bcba1db252ec74c44e86e2636d96
 tags:
   1.0.0--r42hdfd78af_0: sha256:f9d170dc53114c4d009e373b38ea9ab9b61b7e1f578335b1184f579dfae853a3
   1.2.0--r43hdfd78af_0: sha256:80bd482f33a1969af3896b56f2e857eb38ce6bc4e190adcf53d8ed8180f955de
+  1.4.0--r43hdfd78af_0: sha256:caeb7f3b42fc904deef2ef8f04e6be8116d3bcba1db252ec74c44e86e2636d96
 docker: quay.io/biocontainers/bioconductor-oncoscanr
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

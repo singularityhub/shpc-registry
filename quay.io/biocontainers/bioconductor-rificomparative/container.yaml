@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rificomparative
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-rificomparative
 latest:
-  1.0.1--r43hdfd78af_0: sha256:8425fab55d7be4d450268db2af6b466461a1abbd3e5e34733cb53d97dcb662d1
+  1.2.0--r43hdfd78af_0: sha256:66939d37e49f1bc7abb1cc94e86b9bf54122a20ee3ef1b0acea1060151e449d2
 tags:
   1.0.1--r43hdfd78af_0: sha256:8425fab55d7be4d450268db2af6b466461a1abbd3e5e34733cb53d97dcb662d1
+  1.2.0--r43hdfd78af_0: sha256:66939d37e49f1bc7abb1cc94e86b9bf54122a20ee3ef1b0acea1060151e449d2
 docker: quay.io/biocontainers/bioconductor-rificomparative
 aliases:
   git2: /usr/local/bin/git2

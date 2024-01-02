@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-gosorensen
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-gosorensen
 latest:
-  1.2.0--r43hdfd78af_0: sha256:55e6ffef51cbd52e6d6f24342e02493225fe60ff71d691ba261d9f68c1808a48
+  1.4.0--r43hdfd78af_0: sha256:30d9d84c6a01a36afe9622d7dd9e1bf23acea452a92359d434e88cd236d2dbef
 tags:
   1.0.0--r42hdfd78af_0: sha256:e021c6ec8c99c1dab6c4326116ba99a207e8f3a96bf022ad86119b51ea508c0a
   1.2.0--r43hdfd78af_0: sha256:55e6ffef51cbd52e6d6f24342e02493225fe60ff71d691ba261d9f68c1808a48
+  1.4.0--r43hdfd78af_0: sha256:30d9d84c6a01a36afe9622d7dd9e1bf23acea452a92359d434e88cd236d2dbef
 docker: quay.io/biocontainers/bioconductor-gosorensen
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

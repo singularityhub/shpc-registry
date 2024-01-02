@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-scale4c
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scale4c
 latest:
-  1.22.0--r43hdfd78af_0: sha256:afc47d86695dd19addf39082ba0fceeef20eea5537c4d699e81ff3e47cee5dbf
+  1.24.0--r43hdfd78af_0: sha256:65115a70c1c6390e0175525801f3f35a12e65643a8ccae4fa11bab311b87644f
 tags:
   1.8.0--r36_0: sha256:4ec1724497a7d6284a5a2a0fa36f36e94faa28aec33b70328c745950ae2eeb96
   1.16.0--r41hdfd78af_0: sha256:5a54ccb85d28b5eddf9f17fd87bef283bf68cc8507129691c057dc5d2cca4c72
@@ -11,6 +11,7 @@ tags:
   1.10.0--r40_0: sha256:5e49fb0cd007219f87670e1621b0cd8a06f135b450a4b6346b431a27229338b0
   1.20.0--r42hdfd78af_0: sha256:eed36875605304332b460b611d1c309bb4f0fc4647dfeafb7273b619e43a6b44
   1.22.0--r43hdfd78af_0: sha256:afc47d86695dd19addf39082ba0fceeef20eea5537c4d699e81ff3e47cee5dbf
+  1.24.0--r43hdfd78af_0: sha256:65115a70c1c6390e0175525801f3f35a12e65643a8ccae4fa11bab311b87644f
 docker: quay.io/biocontainers/bioconductor-scale4c
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-tomoseqr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-tomoseqr
 latest:
-  1.4.0--r43hdfd78af_0: sha256:8ef97c1516dcc10e2e128a842085953b2b07979c12d4c0dbf736eb9ed370c641
+  1.6.0--r43hdfd78af_0: sha256:fdcc44bf0ff2e1b7b6a6a660c75f8fbd037ef988d6a1e3913fb63e415ad8577e
 tags:
   1.2.0--r42hdfd78af_0: sha256:dfd29fcdd07576e255707d0a43b171f069dc21ee73cb2f6c961a3a5acecbb115
   1.4.0--r43hdfd78af_0: sha256:8ef97c1516dcc10e2e128a842085953b2b07979c12d4c0dbf736eb9ed370c641
+  1.6.0--r43hdfd78af_0: sha256:fdcc44bf0ff2e1b7b6a6a660c75f8fbd037ef988d6a1e3913fb63e415ad8577e
 docker: quay.io/biocontainers/bioconductor-tomoseqr
 aliases:
   SvtAv1DecApp: /usr/local/bin/SvtAv1DecApp

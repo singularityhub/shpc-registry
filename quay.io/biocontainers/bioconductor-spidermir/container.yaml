@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-spidermir
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-spidermir
 latest:
-  1.30.0--r43hdfd78af_0: sha256:3b3f6b9146746732e52ff33df6e4635cfb447ce6babf9de79734c98d24e9eefd
+  1.32.0--r43hdfd78af_0: sha256:b83f29e78881e0fcb27ca25a89e29bfa701aa9173d1a0dbd4bc3cd4a00522cd8
 tags:
   1.8.2--r3.4.1_0: sha256:7c1cbd8b6a2ce06b93b4a0bd3e5495f4fd7b4bd9cfe6f48d4317bce4a5c6c4be
   1.24.0--r41hdfd78af_0: sha256:cd96ad5b6eec227adb68ad933346004836f77add9e80b71cffcf4daf7a2bb8dc
@@ -12,6 +12,7 @@ tags:
   1.16.0--r36_0: sha256:eecf20c2c5e216bff6f8d82220bd7e755194ba0eee4bb71d80522d062b8dc392
   1.28.0--r42hdfd78af_0: sha256:6c3efb5e537c6b735b5b4342627b08a3561ab5496a098d1075692d900da07ee0
   1.30.0--r43hdfd78af_0: sha256:3b3f6b9146746732e52ff33df6e4635cfb447ce6babf9de79734c98d24e9eefd
+  1.32.0--r43hdfd78af_0: sha256:b83f29e78881e0fcb27ca25a89e29bfa701aa9173d1a0dbd4bc3cd4a00522cd8
 docker: quay.io/biocontainers/bioconductor-spidermir
 aliases:
   wget: /usr/local/bin/wget

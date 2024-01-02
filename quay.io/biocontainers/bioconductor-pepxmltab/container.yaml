@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-pepxmltab
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pepxmltab
 latest:
-  1.34.0--r43hdfd78af_0: sha256:92913f3466d7977894abe166e42e2f551216e4747c34f35069e760ccaa01261e
+  1.36.0--r43hdfd78af_1: sha256:79a90157529c57acd6809e0c012c1ec38e50adbbd2898453c54170a0a86686f3
 tags:
   1.28.0--r41hdfd78af_0: sha256:d993130a9ebefe27f21b66a878de618f12ef6285b7f5e2cbe652754364ac1094
   1.32.0--r42hdfd78af_0: sha256:f941fe42e3ae27406915427b35bbce79cae4a5b79a6860bc327f8a3a063106e0
   1.34.0--r43hdfd78af_0: sha256:92913f3466d7977894abe166e42e2f551216e4747c34f35069e760ccaa01261e
+  1.36.0--r43hdfd78af_1: sha256:79a90157529c57acd6809e0c012c1ec38e50adbbd2898453c54170a0a86686f3
 docker: quay.io/biocontainers/bioconductor-pepxmltab

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-lea
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lea
 latest:
-  3.12.2--r43ha9d7317_0: sha256:c893efbac88ba39d55aa8e39e994fdcf526844fc7526491b29e16b32a90e8f96
+  3.14.0--r43ha9d7317_0: sha256:c7c65e42da93b54d45f99246804566beb1a9628826b554469eddf18db8d976d6
 tags:
   3.6.0--r41hc0cfd56_2: sha256:3f695ff5825c63fad701e58b95394c76a847ae403a09e04a4472419e2209a5e5
   3.10.0--r42hc0cfd56_0: sha256:eb7d0fc2b1fad8de2c5d015f7b40726b7cfc5fb98b860908d3ec4e2d54ff6184
   3.10.0--r42ha9d7317_1: sha256:25d876cfcd70f4e3f5908d813180064f1586b3f7143f8143ac5f36bc1e15ee17
   3.12.2--r43ha9d7317_0: sha256:c893efbac88ba39d55aa8e39e994fdcf526844fc7526491b29e16b32a90e8f96
+  3.14.0--r43ha9d7317_0: sha256:c7c65e42da93b54d45f99246804566beb1a9628826b554469eddf18db8d976d6
 docker: quay.io/biocontainers/bioconductor-lea

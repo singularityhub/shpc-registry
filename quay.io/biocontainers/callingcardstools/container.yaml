@@ -2,12 +2,14 @@ url: https://biocontainers.pro/tools/callingcardstools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for callingcardstools
 latest:
-  1.2.0--pyhdfd78af_0: sha256:631093c5b77041a5ec4890319d47205f8df2ed353742d653463c095ba48f11b7
+  1.4.1--pyhdfd78af_0: sha256:f319e75cdd2087a336bea617d50b95bdbcfc6a821afc27833d9b9fdab19d8aaa
 tags:
   1.0.0--pyhca03a8a_0: sha256:b38c184d2a48b1f29947c07f9bc1ca03510f2d8e1cab7b076eb0e5ad8b7b4813
   1.0.0--pyhca03a8a_1: sha256:abc405cb339ca12a007eeb100e2db99411a7fca3d59fef2e92334c9fc55e4163
   1.2.0--pyhdfd78af_0: sha256:631093c5b77041a5ec4890319d47205f8df2ed353742d653463c095ba48f11b7
   1.1.0--pyhdfd78af_0: sha256:7d1732e9c9590ff91ae344b0f1069daf752ba5dc4c07894cf1e4a99de566730f
+  1.4.1--pyhdfd78af_0: sha256:f319e75cdd2087a336bea617d50b95bdbcfc6a821afc27833d9b9fdab19d8aaa
+  1.3.0--pyhdfd78af_0: sha256:3e6d15f53c41254969c093276e9403f19abdbf379828607d870fd5fe3fa034da
 docker: quay.io/biocontainers/callingcardstools
 aliases:
   callingcardstools: /usr/local/bin/callingcardstools

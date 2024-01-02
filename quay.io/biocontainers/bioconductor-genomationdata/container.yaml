@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-genomationdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-genomationdata
 latest:
-  1.32.0--r43hdfd78af_0: sha256:84c731ff4e045d37e83c49aeb0973a6e1a02e677d88414555ff372da6f5c490d
+  1.34.0--r43hdfd78af_0: sha256:0106cbf59fadefe10fac8f5138a6e76e9bdacf1cb5f375ce6318539cdb76050f
 tags:
   1.26.0--r41hdfd78af_1: sha256:49a3393edb4a0768c574cf8a49c880a0f01b8fa67bce64075903a7c2e2830250
   1.29.0--r42hdfd78af_0: sha256:da5e5966b37ae6b27ff5c69add2c5a66707cd05f4f11ed35f43cc312a7c17e57
   1.32.0--r43hdfd78af_0: sha256:84c731ff4e045d37e83c49aeb0973a6e1a02e677d88414555ff372da6f5c490d
+  1.34.0--r43hdfd78af_0: sha256:0106cbf59fadefe10fac8f5138a6e76e9bdacf1cb5f375ce6318539cdb76050f
 docker: quay.io/biocontainers/bioconductor-genomationdata
