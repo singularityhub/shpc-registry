@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-scdblfinder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scdblfinder
 latest:
-  1.12.0--r42hdfd78af_0: sha256:57fa2d191b6e48dfa047a0cd304ae9f85a5045ec3cf55069bab652f0f686d032
+  1.16.0--r43hdfd78af_0: sha256:ba1f84415706ed9c8ad03bb69a9c203be89b81dc5000eea665069ae8857f7784
 tags:
   1.8.0--r41hdfd78af_0: sha256:0adcef7f4ef4a4399eb2d2ae9f8731aaae0bb532c6edf02df98a1005be39c158
   1.12.0--r42hdfd78af_0: sha256:57fa2d191b6e48dfa047a0cd304ae9f85a5045ec3cf55069bab652f0f686d032
+  1.16.0--r43hdfd78af_0: sha256:ba1f84415706ed9c8ad03bb69a9c203be89b81dc5000eea665069ae8857f7784
 docker: quay.io/biocontainers/bioconductor-scdblfinder
 aliases:
   xgboost: /usr/local/bin/xgboost

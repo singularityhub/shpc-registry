@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-dresscheck
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dresscheck
 latest:
-  0.38.0--r43hdfd78af_0: sha256:abe1d6e02702f0f24fe3937a0db2ec3251e1322dc2c83d567b27c2e51042c719
+  0.40.0--r43hdfd78af_0: sha256:309226696f6e5128a6cefae1ca44870c5d060f42f1615419ebddc6bd9237e047
 tags:
   0.32.0--r41hdfd78af_1: sha256:a6b60f491207265ca64c2c1006cc982dcb96824808c3d93bf8b8b05f6b30680a
   0.36.0--r42hdfd78af_0: sha256:1db4d8702861c425f96fec761f493e63837aaa9fee453c1506e966ca9e7aa5ee
   0.38.0--r43hdfd78af_0: sha256:abe1d6e02702f0f24fe3937a0db2ec3251e1322dc2c83d567b27c2e51042c719
+  0.40.0--r43hdfd78af_0: sha256:309226696f6e5128a6cefae1ca44870c5d060f42f1615419ebddc6bd9237e047
 docker: quay.io/biocontainers/bioconductor-dresscheck

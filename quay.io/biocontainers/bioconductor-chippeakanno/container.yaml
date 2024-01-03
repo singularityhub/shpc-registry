@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-chippeakanno
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-chippeakanno
 latest:
-  3.34.1--r43hdfd78af_0: sha256:53dcb6b1af539b8834fc65a34e001f3c952017bc3b1dc9528741505e9850346d
+  3.36.0--r43hdfd78af_0: sha256:7aa1d52c40fcf561fa947bb68f65b914ebadf70063ad24d33e501b42e85d6445
 tags:
   3.28.0--r41hdfd78af_0: sha256:e49cef3379e15a4c7105f5a4348979e9db1855dd00efba6211dfc5286882cc0e
   3.32.0--r42hdfd78af_0: sha256:098d63eeefda46a3624aee4980a95c606e0bca3537be3f0bb9ae288c88129bac
   3.34.1--r43hdfd78af_0: sha256:53dcb6b1af539b8834fc65a34e001f3c952017bc3b1dc9528741505e9850346d
+  3.36.0--r43hdfd78af_0: sha256:7aa1d52c40fcf561fa947bb68f65b914ebadf70063ad24d33e501b42e85d6445
 docker: quay.io/biocontainers/bioconductor-chippeakanno

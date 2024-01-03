@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cottoncdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cottoncdf
 latest:
-  2.18.0--r43hdfd78af_11: sha256:d1f6a106a43bd9245d1eaf6c29b70cde8e9b949a74044e2da1e92d6fec210388
+  2.18.0--r43hdfd78af_12: sha256:91448554e5d8575f6ee5c83e338314245c007442d36cdfb87e7fd7d685ee5ab8
 tags:
   2.18.0--r41hdfd78af_9: sha256:b8fbe87417052fd4f8f9bfa8d94107a1f266db1c3f8a32f116efefda1263752e
   2.18.0--r42hdfd78af_10: sha256:463e703f9e2ed05468b25f970d1934031dc2bedb405718246b19bff0fb76f03e
   2.18.0--r43hdfd78af_11: sha256:d1f6a106a43bd9245d1eaf6c29b70cde8e9b949a74044e2da1e92d6fec210388
+  2.18.0--r43hdfd78af_12: sha256:91448554e5d8575f6ee5c83e338314245c007442d36cdfb87e7fd7d685ee5ab8
 docker: quay.io/biocontainers/bioconductor-cottoncdf
