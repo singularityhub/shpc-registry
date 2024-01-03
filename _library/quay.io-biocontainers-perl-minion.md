@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-minion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-minion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-minion/container.yaml"
-updated_at: "2024-01-02 03:08:32.322708"
-latest: "10.27--pl5321hdfd78af_0"
+updated_at: "2024-01-03 03:07:51.208960"
+latest: "10.28--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-minion"
 aliases:
  - "hypnotoad"
@@ -40,8 +40,9 @@ versions:
  - "10.25--pl5321hdfd78af_0"
  - "10.27--pl5321hdfd78af_0"
  - "10.26--pl5321hdfd78af_0"
+ - "10.28--pl5321hdfd78af_0"
 description: "singularity registry hpc automated addition for perl-minion"
-config: {"url": "https://biocontainers.pro/tools/perl-minion", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-minion", "latest": {"10.27--pl5321hdfd78af_0": "sha256:1f0a6e42472c20b0eefd114c6c118b3b18c3a9bd80cd800e71c6593a796ae5b3"}, "tags": {"10.25--pl5321hdfd78af_0": "sha256:02209cef337b913ad90efbbced8bc9521b1e4e9601fbdaed48ab86ef78a913e2", "10.27--pl5321hdfd78af_0": "sha256:1f0a6e42472c20b0eefd114c6c118b3b18c3a9bd80cd800e71c6593a796ae5b3", "10.26--pl5321hdfd78af_0": "sha256:43035972fbd10c4ebf1c6eb8cf7ecdaf482f1fa5987c71dcc735b9ad82580170"}, "docker": "quay.io/biocontainers/perl-minion", "aliases": {"hypnotoad": "/usr/local/bin/hypnotoad", "mojo": "/usr/local/bin/mojo", "morbo": "/usr/local/bin/morbo", "pg_amcheck": "/usr/local/bin/pg_amcheck", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pg_checksums": "/usr/local/bin/pg_checksums", "tzselect": "/usr/local/bin/tzselect", "zdump": "/usr/local/bin/zdump", "zic": "/usr/local/bin/zic", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal", "pg_resetwal": "/usr/local/bin/pg_resetwal", "pg_waldump": "/usr/local/bin/pg_waldump", "vacuumlo": "/usr/local/bin/vacuumlo", "clusterdb": "/usr/local/bin/clusterdb", "createdb": "/usr/local/bin/createdb", "createuser": "/usr/local/bin/createuser", "dropdb": "/usr/local/bin/dropdb", "dropuser": "/usr/local/bin/dropuser", "ecpg": "/usr/local/bin/ecpg", "initdb": "/usr/local/bin/initdb", "pg_archivecleanup": "/usr/local/bin/pg_archivecleanup", "pg_basebackup": "/usr/local/bin/pg_basebackup", "pg_controldata": "/usr/local/bin/pg_controldata", "pg_ctl": "/usr/local/bin/pg_ctl", "pg_dump": "/usr/local/bin/pg_dump", "pg_dumpall": "/usr/local/bin/pg_dumpall", "pg_isready": "/usr/local/bin/pg_isready"}}
+config: {"url": "https://biocontainers.pro/tools/perl-minion", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-minion", "latest": {"10.28--pl5321hdfd78af_0": "sha256:349a1c0ee336e6a28961da55039ba87f632c9d386f8cdb38863f52d52bec789e"}, "tags": {"10.25--pl5321hdfd78af_0": "sha256:02209cef337b913ad90efbbced8bc9521b1e4e9601fbdaed48ab86ef78a913e2", "10.27--pl5321hdfd78af_0": "sha256:1f0a6e42472c20b0eefd114c6c118b3b18c3a9bd80cd800e71c6593a796ae5b3", "10.26--pl5321hdfd78af_0": "sha256:43035972fbd10c4ebf1c6eb8cf7ecdaf482f1fa5987c71dcc735b9ad82580170", "10.28--pl5321hdfd78af_0": "sha256:349a1c0ee336e6a28961da55039ba87f632c9d386f8cdb38863f52d52bec789e"}, "docker": "quay.io/biocontainers/perl-minion", "aliases": {"hypnotoad": "/usr/local/bin/hypnotoad", "mojo": "/usr/local/bin/mojo", "morbo": "/usr/local/bin/morbo", "pg_amcheck": "/usr/local/bin/pg_amcheck", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pg_checksums": "/usr/local/bin/pg_checksums", "tzselect": "/usr/local/bin/tzselect", "zdump": "/usr/local/bin/zdump", "zic": "/usr/local/bin/zic", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal", "pg_resetwal": "/usr/local/bin/pg_resetwal", "pg_waldump": "/usr/local/bin/pg_waldump", "vacuumlo": "/usr/local/bin/vacuumlo", "clusterdb": "/usr/local/bin/clusterdb", "createdb": "/usr/local/bin/createdb", "createuser": "/usr/local/bin/createuser", "dropdb": "/usr/local/bin/dropdb", "dropuser": "/usr/local/bin/dropuser", "ecpg": "/usr/local/bin/ecpg", "initdb": "/usr/local/bin/initdb", "pg_archivecleanup": "/usr/local/bin/pg_archivecleanup", "pg_basebackup": "/usr/local/bin/pg_basebackup", "pg_controldata": "/usr/local/bin/pg_controldata", "pg_ctl": "/usr/local/bin/pg_ctl", "pg_dump": "/usr/local/bin/pg_dump", "pg_dumpall": "/usr/local/bin/pg_dumpall", "pg_isready": "/usr/local/bin/pg_isready"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-minion.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/perl-minion
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-minion:10.27--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-minion:10.28--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-minion/10.27--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-minion/10.27--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-minion/10.28--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-minion/10.28--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

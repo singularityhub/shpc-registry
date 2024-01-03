@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ribodetector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribodetector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribodetector/container.yaml"
-updated_at: "2024-01-02 02:51:59.045250"
-latest: "0.2.8--pyhdfd78af_0"
+updated_at: "2024-01-03 02:50:24.708925"
+latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ribodetector"
 aliases:
  - "onnxruntime_test"
@@ -30,8 +30,10 @@ aliases:
 versions:
  - "0.2.7--pyhdfd78af_0"
  - "0.2.8--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
+ - "0.2.9--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ribodetector"
-config: {"url": "https://biocontainers.pro/tools/ribodetector", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ribodetector", "latest": {"0.2.8--pyhdfd78af_0": "sha256:71d9ac788c1450b6a15fbd5e058a333cda15636796f1b0f39aad8ce6f6205f03"}, "tags": {"0.2.7--pyhdfd78af_0": "sha256:392b96c2b930172d9c43ba932ef0b470bc98294d1888a38531bca696ad1db786", "0.2.8--pyhdfd78af_0": "sha256:71d9ac788c1450b6a15fbd5e058a333cda15636796f1b0f39aad8ce6f6205f03"}, "docker": "quay.io/biocontainers/ribodetector", "aliases": {"onnxruntime_test": "/usr/local/bin/onnxruntime_test", "ribodetector": "/usr/local/bin/ribodetector", "ribodetector_cpu": "/usr/local/bin/ribodetector_cpu", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "protoc": "/usr/local/bin/protoc", "tqdm": "/usr/local/bin/tqdm", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/ribodetector", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ribodetector", "latest": {"0.3.0--pyhdfd78af_0": "sha256:9db326c86ee2e021f1ee9438b4f6323e97a83bf62916706b024aefe6969fcbe7"}, "tags": {"0.2.7--pyhdfd78af_0": "sha256:392b96c2b930172d9c43ba932ef0b470bc98294d1888a38531bca696ad1db786", "0.2.8--pyhdfd78af_0": "sha256:71d9ac788c1450b6a15fbd5e058a333cda15636796f1b0f39aad8ce6f6205f03", "0.3.0--pyhdfd78af_0": "sha256:9db326c86ee2e021f1ee9438b4f6323e97a83bf62916706b024aefe6969fcbe7", "0.2.9--pyhdfd78af_0": "sha256:0a05cfa9ce8745490697441ede8608ddfd6db51d683ed7830cc4920b88756bc1"}, "docker": "quay.io/biocontainers/ribodetector", "aliases": {"onnxruntime_test": "/usr/local/bin/onnxruntime_test", "ribodetector": "/usr/local/bin/ribodetector", "ribodetector_cpu": "/usr/local/bin/ribodetector_cpu", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "protoc": "/usr/local/bin/protoc", "tqdm": "/usr/local/bin/tqdm", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ribodetector.
@@ -46,7 +48,7 @@ $ shpc install quay.io/biocontainers/ribodetector
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ribodetector:0.2.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ribodetector:0.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ribodetector/0.2.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/ribodetector/0.2.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/ribodetector/0.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/ribodetector/0.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

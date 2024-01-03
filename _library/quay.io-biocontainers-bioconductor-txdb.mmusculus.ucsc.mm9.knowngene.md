@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/container.yaml"
-updated_at: "2024-01-02 02:52:49.033270"
-latest: "3.2.2--r43hdfd78af_15"
+updated_at: "2024-01-03 02:51:15.759659"
+latest: "3.2.2--r43hdfd78af_16"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "3.2.2--r41hdfd78af_13"
  - "3.2.2--r42hdfd78af_14"
  - "3.2.2--r43hdfd78af_15"
+ - "3.2.2--r43hdfd78af_16"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm9.knowngene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm9.knowngene", "latest": {"3.2.2--r43hdfd78af_15": "sha256:f5d97f61d16022ba4a691979e6cfe555e9c125e3aa94542632662a833cf527bb"}, "tags": {"3.2.2--r40_9": "sha256:8415202b978f006380bee7bdd2c09ddb0bc4d6280f3cdc24c5f8042ac4a4c773", "3.2.2--r41hdfd78af_13": "sha256:94429dd582908ea45ce225e104a2b94afb648d06964f0eaae7de9e2b9d9bbd2a", "3.2.2--r42hdfd78af_14": "sha256:c990d0531c35d9704b7fae1129d3a7a5b1b295348a5ca14b0ce83607fcb8c2f3", "3.2.2--r43hdfd78af_15": "sha256:f5d97f61d16022ba4a691979e6cfe555e9c125e3aa94542632662a833cf527bb"}, "docker": "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm9.knowngene", "latest": {"3.2.2--r43hdfd78af_16": "sha256:7a754787b60f302990ec373f5b8b7aba00dcacaafa78959eeead585a749b4a01"}, "tags": {"3.2.2--r40_9": "sha256:8415202b978f006380bee7bdd2c09ddb0bc4d6280f3cdc24c5f8042ac4a4c773", "3.2.2--r41hdfd78af_13": "sha256:94429dd582908ea45ce225e104a2b94afb648d06964f0eaae7de9e2b9d9bbd2a", "3.2.2--r42hdfd78af_14": "sha256:c990d0531c35d9704b7fae1129d3a7a5b1b295348a5ca14b0ce83607fcb8c2f3", "3.2.2--r43hdfd78af_15": "sha256:f5d97f61d16022ba4a691979e6cfe555e9c125e3aa94542632662a833cf527bb", "3.2.2--r43hdfd78af_16": "sha256:7a754787b60f302990ec373f5b8b7aba00dcacaafa78959eeead585a749b4a01"}, "docker": "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowng
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene:3.2.2--r43hdfd78af_15
+$ shpc install quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene:3.2.2--r43hdfd78af_16
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/3.2.2--r43hdfd78af_15
-$ module help quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/3.2.2--r43hdfd78af_15
+$ module load quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/3.2.2--r43hdfd78af_16
+$ module help quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/3.2.2--r43hdfd78af_16
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

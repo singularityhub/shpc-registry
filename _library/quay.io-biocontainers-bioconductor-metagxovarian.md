@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-metagxovarian"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metagxovarian/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metagxovarian/container.yaml"
-updated_at: "2024-01-02 03:12:47.149036"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2024-01-03 03:12:17.740421"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metagxovarian"
 aliases:
  - "2to3-3.8"
@@ -23,8 +23,9 @@ versions:
  - "1.10.0--r40hdfd78af_1"
  - "1.18.0--r42hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-metagxovarian"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metagxovarian", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metagxovarian", "latest": {"1.20.0--r43hdfd78af_0": "sha256:3a2b645b8b0033b2d3228eca52b68ceaf436d7812e3fc9d061f5de86f79375c5"}, "tags": {"1.8.0--r40_0": "sha256:6947c38a5bdbd518ae6bd06fce8f12c8d723036f4612db45adc5a9849cba9984", "1.14.0--r41hdfd78af_1": "sha256:badbab304588613c8d666119710ae5f006c5fdc6544ba070c8a8cf422254191f", "1.12.0--r41hdfd78af_0": "sha256:286ffa11225094d04c85f160763791f06b2897d3d6b66270584a3f9a5f4bb569", "1.10.0--r40hdfd78af_1": "sha256:3ed319eb2b043207c4353bc755935b3fd6c362c07e7596c5e8411efbbff262b0", "1.18.0--r42hdfd78af_0": "sha256:d70f3c4ae1e14f742e7e65920df6e0dfbac2944222887b730d97dd98b359359b", "1.20.0--r43hdfd78af_0": "sha256:3a2b645b8b0033b2d3228eca52b68ceaf436d7812e3fc9d061f5de86f79375c5"}, "docker": "quay.io/biocontainers/bioconductor-metagxovarian", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metagxovarian", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metagxovarian", "latest": {"1.22.0--r43hdfd78af_0": "sha256:7a62d08c5eb16c061fe03ebbfe9c0229da3f2271170ecef19138623225435281"}, "tags": {"1.8.0--r40_0": "sha256:6947c38a5bdbd518ae6bd06fce8f12c8d723036f4612db45adc5a9849cba9984", "1.14.0--r41hdfd78af_1": "sha256:badbab304588613c8d666119710ae5f006c5fdc6544ba070c8a8cf422254191f", "1.12.0--r41hdfd78af_0": "sha256:286ffa11225094d04c85f160763791f06b2897d3d6b66270584a3f9a5f4bb569", "1.10.0--r40hdfd78af_1": "sha256:3ed319eb2b043207c4353bc755935b3fd6c362c07e7596c5e8411efbbff262b0", "1.18.0--r42hdfd78af_0": "sha256:d70f3c4ae1e14f742e7e65920df6e0dfbac2944222887b730d97dd98b359359b", "1.20.0--r43hdfd78af_0": "sha256:3a2b645b8b0033b2d3228eca52b68ceaf436d7812e3fc9d061f5de86f79375c5", "1.22.0--r43hdfd78af_0": "sha256:7a62d08c5eb16c061fe03ebbfe9c0229da3f2271170ecef19138623225435281"}, "docker": "quay.io/biocontainers/bioconductor-metagxovarian", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metagxovarian.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metagxovarian
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metagxovarian:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-metagxovarian:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metagxovarian/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-metagxovarian/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-metagxovarian/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-metagxovarian/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

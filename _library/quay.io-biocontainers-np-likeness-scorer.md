@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/np-likeness-scorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/np-likeness-scorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/np-likeness-scorer/container.yaml"
-updated_at: "2024-01-02 02:32:12.119509"
+updated_at: "2024-01-03 02:30:16.632857"
 latest: "2.1--py35_0"
 container_url: "https://biocontainers.pro/tools/np-likeness-scorer"
 aliases:

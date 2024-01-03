@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nxtirfdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nxtirfdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nxtirfdata/container.yaml"
-updated_at: "2024-01-02 03:11:33.531923"
+updated_at: "2024-01-03 03:11:01.670921"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nxtirfdata"
 

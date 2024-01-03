@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ls-gkm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ls-gkm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ls-gkm/container.yaml"
-updated_at: "2024-01-02 02:48:15.233600"
+updated_at: "2024-01-03 02:46:32.895003"
 latest: "0.0.1--h2d50403_1"
 container_url: "https://biocontainers.pro/tools/ls-gkm"
 aliases:

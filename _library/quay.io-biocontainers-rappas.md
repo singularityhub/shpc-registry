@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rappas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rappas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rappas/container.yaml"
-updated_at: "2024-01-02 02:54:35.757433"
-latest: "1.21--0"
+updated_at: "2024-01-03 02:53:04.570746"
+latest: "1.22--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rappas"
 aliases:
  - "RAPPAS.jar"
@@ -26,8 +26,9 @@ aliases:
  - "orte-server"
 versions:
  - "1.21--0"
+ - "1.22--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for rappas"
-config: {"url": "https://biocontainers.pro/tools/rappas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rappas", "latest": {"1.21--0": "sha256:99e868752e0efe443814a465632b8fd169896e5d72e220e34e2d57ecb466d8bf"}, "tags": {"1.21--0": "sha256:99e868752e0efe443814a465632b8fd169896e5d72e220e34e2d57ecb466d8bf"}, "docker": "quay.io/biocontainers/rappas", "aliases": {"RAPPAS.jar": "/usr/local/bin/RAPPAS.jar", "phyml": "/usr/local/bin/phyml", "phyml-mpi": "/usr/local/bin/phyml-mpi", "phyrex": "/usr/local/bin/phyrex", "phytime": "/usr/local/bin/phytime", "rappas": "/usr/local/bin/rappas", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server"}}
+config: {"url": "https://biocontainers.pro/tools/rappas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rappas", "latest": {"1.22--hdfd78af_0": "sha256:81c77622b18a18cabf1b5197ef64d3763469da16aaaf73db09b7ce75cbdcdfea"}, "tags": {"1.21--0": "sha256:99e868752e0efe443814a465632b8fd169896e5d72e220e34e2d57ecb466d8bf", "1.22--hdfd78af_0": "sha256:81c77622b18a18cabf1b5197ef64d3763469da16aaaf73db09b7ce75cbdcdfea"}, "docker": "quay.io/biocontainers/rappas", "aliases": {"RAPPAS.jar": "/usr/local/bin/RAPPAS.jar", "phyml": "/usr/local/bin/phyml", "phyml-mpi": "/usr/local/bin/phyml-mpi", "phyrex": "/usr/local/bin/phyrex", "phytime": "/usr/local/bin/phytime", "rappas": "/usr/local/bin/rappas", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rappas.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/rappas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rappas:1.21--0
+$ shpc install quay.io/biocontainers/rappas:1.22--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rappas/1.21--0
-$ module help quay.io/biocontainers/rappas/1.21--0
+$ module load quay.io/biocontainers/rappas/1.22--hdfd78af_0
+$ module help quay.io/biocontainers/rappas/1.22--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

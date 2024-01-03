@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-splinter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-splinter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-splinter/container.yaml"
-updated_at: "2024-01-02 02:35:32.421133"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2024-01-03 02:33:34.793996"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-splinter"
 aliases:
  - "wget"
@@ -20,8 +20,9 @@ versions:
  - "1.12.0--r36_0"
  - "1.24.0--r42hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-splinter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-splinter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-splinter", "latest": {"1.26.0--r43hdfd78af_0": "sha256:78206912620dbfd360f1343c7ae51f595c189ced5f2edb68f986ac85ac04cfea"}, "tags": {"1.8.0--r351_0": "sha256:f431a2faedad5d022be40af055c53ea69cddfabf2009738939e0924ebb7e7d1a", "1.20.0--r41hdfd78af_0": "sha256:ad008728365feb5816e826de1885ce8ad0438b30db2d38739ec01865ae34949f", "1.18.0--r41hdfd78af_0": "sha256:1f9b8e7eed0db1d248195bbe9343633c6c680c507ec0a06049b01cb214460521", "1.16.0--r40hdfd78af_1": "sha256:45f6342d17068c1a2f8acee83651a332ac06aaecd477043d18ba740ee7f11fdb", "1.14.0--r40_0": "sha256:435ec40960c26aa7947c55a2177e7d5d0508519656b7ae59c7331e12c9d9f412", "1.12.0--r36_0": "sha256:5066f1b27ba674bdec9054f8ee2b3a7537e15fa7e1de79bcbd194d09426c61e8", "1.24.0--r42hdfd78af_0": "sha256:06e01d64a0ac949eb2a1fad87f7152cadc7e815fc667df329f5e26d326f359ba", "1.26.0--r43hdfd78af_0": "sha256:78206912620dbfd360f1343c7ae51f595c189ced5f2edb68f986ac85ac04cfea"}, "docker": "quay.io/biocontainers/bioconductor-splinter", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-splinter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-splinter", "latest": {"1.28.0--r43hdfd78af_0": "sha256:57172f193bbc1b9fe3d2864b98170b9978db02e8c82df110ffe5c933bb9d063d"}, "tags": {"1.8.0--r351_0": "sha256:f431a2faedad5d022be40af055c53ea69cddfabf2009738939e0924ebb7e7d1a", "1.20.0--r41hdfd78af_0": "sha256:ad008728365feb5816e826de1885ce8ad0438b30db2d38739ec01865ae34949f", "1.18.0--r41hdfd78af_0": "sha256:1f9b8e7eed0db1d248195bbe9343633c6c680c507ec0a06049b01cb214460521", "1.16.0--r40hdfd78af_1": "sha256:45f6342d17068c1a2f8acee83651a332ac06aaecd477043d18ba740ee7f11fdb", "1.14.0--r40_0": "sha256:435ec40960c26aa7947c55a2177e7d5d0508519656b7ae59c7331e12c9d9f412", "1.12.0--r36_0": "sha256:5066f1b27ba674bdec9054f8ee2b3a7537e15fa7e1de79bcbd194d09426c61e8", "1.24.0--r42hdfd78af_0": "sha256:06e01d64a0ac949eb2a1fad87f7152cadc7e815fc667df329f5e26d326f359ba", "1.26.0--r43hdfd78af_0": "sha256:78206912620dbfd360f1343c7ae51f595c189ced5f2edb68f986ac85ac04cfea", "1.28.0--r43hdfd78af_0": "sha256:57172f193bbc1b9fe3d2864b98170b9978db02e8c82df110ffe5c933bb9d063d"}, "docker": "quay.io/biocontainers/bioconductor-splinter", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-splinter.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-splinter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-splinter:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-splinter:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-splinter/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-splinter/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-splinter/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-splinter/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

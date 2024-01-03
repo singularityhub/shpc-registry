@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flagme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flagme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flagme/container.yaml"
-updated_at: "2024-01-02 03:09:29.668438"
+updated_at: "2024-01-03 03:08:51.762338"
 latest: "1.56.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flagme"
 aliases:

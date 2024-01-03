@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isafe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isafe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isafe/container.yaml"
-updated_at: "2024-01-02 02:52:52.293029"
+updated_at: "2024-01-03 02:51:19.107308"
 latest: "1.1.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/isafe"
 aliases:

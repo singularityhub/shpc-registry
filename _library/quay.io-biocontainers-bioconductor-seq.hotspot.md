@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-seq.hotspot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seq.hotspot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seq.hotspot/container.yaml"
-updated_at: "2024-01-02 02:34:07.259689"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2024-01-03 02:32:10.537951"
+latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seq.hotspot"
 aliases:
  - "hb-info"
  - "tjbench"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.2.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-seq.hotspot"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-seq.hotspot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-seq.hotspot", "latest": {"1.0.0--r43hdfd78af_0": "sha256:4003525a36b89a8781db886620e6e05741fb2b74a7570c1d9d2c801b7059cd03"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:4003525a36b89a8781db886620e6e05741fb2b74a7570c1d9d2c801b7059cd03"}, "docker": "quay.io/biocontainers/bioconductor-seq.hotspot", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-seq.hotspot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-seq.hotspot", "latest": {"1.2.0--r43hdfd78af_0": "sha256:5a7ad050a94c9c8a5ccebf3d84f2854397f9a81a3c3f2a966ff99e43c2b0914a"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:4003525a36b89a8781db886620e6e05741fb2b74a7570c1d9d2c801b7059cd03", "1.2.0--r43hdfd78af_0": "sha256:5a7ad050a94c9c8a5ccebf3d84f2854397f9a81a3c3f2a966ff99e43c2b0914a"}, "docker": "quay.io/biocontainers/bioconductor-seq.hotspot", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-seq.hotspot.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-seq.hotspot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-seq.hotspot:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-seq.hotspot:1.2.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-seq.hotspot/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-seq.hotspot/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-seq.hotspot/1.2.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-seq.hotspot/1.2.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

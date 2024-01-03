@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ipo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ipo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ipo/container.yaml"
-updated_at: "2024-01-02 02:59:48.606304"
+updated_at: "2024-01-03 02:58:32.548607"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ipo"
 aliases:

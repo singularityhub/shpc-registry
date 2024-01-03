@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-gothic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gothic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gothic/container.yaml"
-updated_at: "2024-01-02 02:42:08.121907"
-latest: "1.36.0--r43hdfd78af_0"
+updated_at: "2024-01-03 02:40:14.545375"
+latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gothic"
 
 versions:
  - "1.30.0--r41hdfd78af_0"
  - "1.34.0--r42hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
+ - "1.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gothic"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gothic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gothic", "latest": {"1.36.0--r43hdfd78af_0": "sha256:ed656b04188c86cd42854cc652409a948bc931fcd4bdf63434e6e798e0060255"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:f78524a5146d258828cf227b59281f52ae691fc4b2ad34d2c617b86c0cdbff61", "1.34.0--r42hdfd78af_0": "sha256:42c1df3e61f9889cbd10f8feb3bc465c23325ef2f6f63d2707143c2120ecd6c2", "1.36.0--r43hdfd78af_0": "sha256:ed656b04188c86cd42854cc652409a948bc931fcd4bdf63434e6e798e0060255"}, "docker": "quay.io/biocontainers/bioconductor-gothic"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gothic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gothic", "latest": {"1.38.0--r43hdfd78af_0": "sha256:59dd3d8a38b8e7f21e27b02545c2319f417a3dc7fbd76f7927e5205d0637aec1"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:f78524a5146d258828cf227b59281f52ae691fc4b2ad34d2c617b86c0cdbff61", "1.34.0--r42hdfd78af_0": "sha256:42c1df3e61f9889cbd10f8feb3bc465c23325ef2f6f63d2707143c2120ecd6c2", "1.36.0--r43hdfd78af_0": "sha256:ed656b04188c86cd42854cc652409a948bc931fcd4bdf63434e6e798e0060255", "1.38.0--r43hdfd78af_0": "sha256:59dd3d8a38b8e7f21e27b02545c2319f417a3dc7fbd76f7927e5205d0637aec1"}, "docker": "quay.io/biocontainers/bioconductor-gothic"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gothic.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gothic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gothic:1.36.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gothic:1.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gothic/1.36.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gothic/1.36.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gothic/1.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gothic/1.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
