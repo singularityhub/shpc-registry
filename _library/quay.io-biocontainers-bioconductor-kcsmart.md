@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-kcsmart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kcsmart/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kcsmart/container.yaml"
-updated_at: "2024-01-03 02:41:50.548684"
-latest: "2.58.0--r43hdfd78af_0"
+updated_at: "2024-01-04 02:42:03.260150"
+latest: "2.60.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kcsmart"
 
 versions:
  - "2.52.0--r41hdfd78af_0"
  - "2.56.0--r42hdfd78af_0"
  - "2.58.0--r43hdfd78af_0"
+ - "2.60.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-kcsmart"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-kcsmart", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kcsmart", "latest": {"2.58.0--r43hdfd78af_0": "sha256:5dea3b4d0b746ba3f38f95927d42019ed01492cad434a6e27f3dc2a5073b7f6c"}, "tags": {"2.52.0--r41hdfd78af_0": "sha256:24c7140dd930db7129265ce407bcbc77be66680c0317df07a1d1e34b38e8d0f1", "2.56.0--r42hdfd78af_0": "sha256:73321381600cb437b4223322be11c9584ebe7a9e969429cdb916c954ed6f6554", "2.58.0--r43hdfd78af_0": "sha256:5dea3b4d0b746ba3f38f95927d42019ed01492cad434a6e27f3dc2a5073b7f6c"}, "docker": "quay.io/biocontainers/bioconductor-kcsmart"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-kcsmart", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kcsmart", "latest": {"2.60.0--r43hdfd78af_0": "sha256:a54721a8a2b546261dc30aad2468a0624a58c4c150b02a572b23863b589d5a65"}, "tags": {"2.52.0--r41hdfd78af_0": "sha256:24c7140dd930db7129265ce407bcbc77be66680c0317df07a1d1e34b38e8d0f1", "2.56.0--r42hdfd78af_0": "sha256:73321381600cb437b4223322be11c9584ebe7a9e969429cdb916c954ed6f6554", "2.58.0--r43hdfd78af_0": "sha256:5dea3b4d0b746ba3f38f95927d42019ed01492cad434a6e27f3dc2a5073b7f6c", "2.60.0--r43hdfd78af_0": "sha256:a54721a8a2b546261dc30aad2468a0624a58c4c150b02a572b23863b589d5a65"}, "docker": "quay.io/biocontainers/bioconductor-kcsmart"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-kcsmart.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-kcsmart
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-kcsmart:2.58.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-kcsmart:2.60.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-kcsmart/2.58.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-kcsmart/2.58.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-kcsmart/2.60.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-kcsmart/2.60.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bioassayr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bioassayr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bioassayr/container.yaml"
-updated_at: "2024-01-03 02:53:04.022629"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2024-01-04 02:52:43.805253"
+latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bioassayr"
 aliases:
  - "rsvg-convert"
@@ -17,8 +17,9 @@ versions:
  - "1.32.0--r41hdfd78af_0"
  - "1.36.0--r42hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.40.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bioassayr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bioassayr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bioassayr", "latest": {"1.38.0--r43hdfd78af_0": "sha256:9f4412593808c6eb4bbf9d0a79912589a0e186df6a0890a3041c29ad56764867"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:880e1f15a46896dee9b3620134dfc45d66af334170f7472b81957bb8995a8b0c", "1.36.0--r42hdfd78af_0": "sha256:10230fa3f9d49ffe443345fba069d585bf4862ea924d4adabbf74af972da3aa0", "1.38.0--r43hdfd78af_0": "sha256:9f4412593808c6eb4bbf9d0a79912589a0e186df6a0890a3041c29ad56764867"}, "docker": "quay.io/biocontainers/bioconductor-bioassayr", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bioassayr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bioassayr", "latest": {"1.40.0--r43hdfd78af_0": "sha256:449aaa41ef19ba14bb1961733a89ddb20fb9d43acd0921346c303903010ff63a"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:880e1f15a46896dee9b3620134dfc45d66af334170f7472b81957bb8995a8b0c", "1.36.0--r42hdfd78af_0": "sha256:10230fa3f9d49ffe443345fba069d585bf4862ea924d4adabbf74af972da3aa0", "1.38.0--r43hdfd78af_0": "sha256:9f4412593808c6eb4bbf9d0a79912589a0e186df6a0890a3041c29ad56764867", "1.40.0--r43hdfd78af_0": "sha256:449aaa41ef19ba14bb1961733a89ddb20fb9d43acd0921346c303903010ff63a"}, "docker": "quay.io/biocontainers/bioconductor-bioassayr", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bioassayr.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bioassayr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bioassayr:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-bioassayr:1.40.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bioassayr/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-bioassayr/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-bioassayr/1.40.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bioassayr/1.40.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

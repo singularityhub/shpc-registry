@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/btllib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/btllib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/btllib/container.yaml"
-updated_at: "2024-01-03 02:55:04.782587"
-latest: "1.6.2--py38h2494328_0"
+updated_at: "2024-01-04 02:54:40.710253"
+latest: "1.7.0--py38h2494328_0"
 container_url: "https://biocontainers.pro/tools/btllib"
 aliases:
  - "gunzip"
@@ -59,8 +59,9 @@ versions:
  - "1.6.0--py38h4a32c8e_0"
  - "1.5.1--py38h2494328_1"
  - "1.6.2--py38h2494328_0"
+ - "1.7.0--py38h2494328_0"
 description: "singularity registry hpc automated addition for btllib"
-config: {"url": "https://biocontainers.pro/tools/btllib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for btllib", "latest": {"1.6.2--py38h2494328_0": "sha256:cff09a674aca42c471a2fbc3549d759941a93a5ce307ca267b3c138fff4e9d2a"}, "tags": {"1.4.8--py39hc16433a_0": "sha256:4d03cfdc291711db69669ef38cf5df43e4a4350831275f732f1b931a07025bd1", "1.4.10--py39hc16433a_0": "sha256:b191ac0d7bb86c654f4c14d602a12e994c5cba2839e74a092f7b5719aed8142b", "1.5.1--py39hc16433a_0": "sha256:1e525034a19024836149393c90c307506e3700845279eaabb0a2af8dd0dcedbd", "1.6.0--py38h4a32c8e_0": "sha256:4a875bc16b6e4e2903a68c7854a3bc097965093c8141d78900958e0e9c29b12a", "1.5.1--py38h2494328_1": "sha256:957a19adf91d64e57faea5354a586c0321407cda57a31e2495aa6640c79ccae5", "1.6.2--py38h2494328_0": "sha256:cff09a674aca42c471a2fbc3549d759941a93a5ce307ca267b3c138fff4e9d2a"}, "docker": "quay.io/biocontainers/btllib", "aliases": {"gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "zip": "/usr/local/bin/zip", "tar": "/usr/local/bin/tar", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "idn2": "/usr/local/bin/idn2", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "wget": "/usr/local/bin/wget", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/btllib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for btllib", "latest": {"1.7.0--py38h2494328_0": "sha256:d8781615df533926b82c2b2d81e8169dc9703c6558cad21fef9a849796767275"}, "tags": {"1.4.8--py39hc16433a_0": "sha256:4d03cfdc291711db69669ef38cf5df43e4a4350831275f732f1b931a07025bd1", "1.4.10--py39hc16433a_0": "sha256:b191ac0d7bb86c654f4c14d602a12e994c5cba2839e74a092f7b5719aed8142b", "1.5.1--py39hc16433a_0": "sha256:1e525034a19024836149393c90c307506e3700845279eaabb0a2af8dd0dcedbd", "1.6.0--py38h4a32c8e_0": "sha256:4a875bc16b6e4e2903a68c7854a3bc097965093c8141d78900958e0e9c29b12a", "1.5.1--py38h2494328_1": "sha256:957a19adf91d64e57faea5354a586c0321407cda57a31e2495aa6640c79ccae5", "1.6.2--py38h2494328_0": "sha256:cff09a674aca42c471a2fbc3549d759941a93a5ce307ca267b3c138fff4e9d2a", "1.7.0--py38h2494328_0": "sha256:d8781615df533926b82c2b2d81e8169dc9703c6558cad21fef9a849796767275"}, "docker": "quay.io/biocontainers/btllib", "aliases": {"gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "zip": "/usr/local/bin/zip", "tar": "/usr/local/bin/tar", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "idn2": "/usr/local/bin/idn2", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "wget": "/usr/local/bin/wget", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/btllib.
@@ -75,7 +76,7 @@ $ shpc install quay.io/biocontainers/btllib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/btllib:1.6.2--py38h2494328_0
+$ shpc install quay.io/biocontainers/btllib:1.7.0--py38h2494328_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -87,8 +88,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/btllib/1.6.2--py38h2494328_0
-$ module help quay.io/biocontainers/btllib/1.6.2--py38h2494328_0
+$ module load quay.io/biocontainers/btllib/1.7.0--py38h2494328_0
+$ module help quay.io/biocontainers/btllib/1.7.0--py38h2494328_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

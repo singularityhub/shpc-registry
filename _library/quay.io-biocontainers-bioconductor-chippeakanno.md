@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-chippeakanno"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chippeakanno/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chippeakanno/container.yaml"
-updated_at: "2024-01-03 02:53:00.985874"
-latest: "3.34.1--r43hdfd78af_0"
+updated_at: "2024-01-04 02:52:40.886880"
+latest: "3.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chippeakanno"
 
 versions:
  - "3.28.0--r41hdfd78af_0"
  - "3.32.0--r42hdfd78af_0"
  - "3.34.1--r43hdfd78af_0"
+ - "3.36.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chippeakanno"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chippeakanno", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chippeakanno", "latest": {"3.34.1--r43hdfd78af_0": "sha256:53dcb6b1af539b8834fc65a34e001f3c952017bc3b1dc9528741505e9850346d"}, "tags": {"3.28.0--r41hdfd78af_0": "sha256:e49cef3379e15a4c7105f5a4348979e9db1855dd00efba6211dfc5286882cc0e", "3.32.0--r42hdfd78af_0": "sha256:098d63eeefda46a3624aee4980a95c606e0bca3537be3f0bb9ae288c88129bac", "3.34.1--r43hdfd78af_0": "sha256:53dcb6b1af539b8834fc65a34e001f3c952017bc3b1dc9528741505e9850346d"}, "docker": "quay.io/biocontainers/bioconductor-chippeakanno"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chippeakanno", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chippeakanno", "latest": {"3.36.0--r43hdfd78af_0": "sha256:7aa1d52c40fcf561fa947bb68f65b914ebadf70063ad24d33e501b42e85d6445"}, "tags": {"3.28.0--r41hdfd78af_0": "sha256:e49cef3379e15a4c7105f5a4348979e9db1855dd00efba6211dfc5286882cc0e", "3.32.0--r42hdfd78af_0": "sha256:098d63eeefda46a3624aee4980a95c606e0bca3537be3f0bb9ae288c88129bac", "3.34.1--r43hdfd78af_0": "sha256:53dcb6b1af539b8834fc65a34e001f3c952017bc3b1dc9528741505e9850346d", "3.36.0--r43hdfd78af_0": "sha256:7aa1d52c40fcf561fa947bb68f65b914ebadf70063ad24d33e501b42e85d6445"}, "docker": "quay.io/biocontainers/bioconductor-chippeakanno"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chippeakanno.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chippeakanno
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chippeakanno:3.34.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-chippeakanno:3.36.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chippeakanno/3.34.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-chippeakanno/3.34.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-chippeakanno/3.36.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-chippeakanno/3.36.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

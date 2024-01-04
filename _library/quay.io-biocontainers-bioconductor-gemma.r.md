@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gemma.r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gemma.r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gemma.r/container.yaml"
-updated_at: "2024-01-03 02:40:41.135959"
+updated_at: "2024-01-04 02:40:56.346989"
 latest: "2.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gemma.r"
 aliases:

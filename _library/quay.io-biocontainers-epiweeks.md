@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/epiweeks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epiweeks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epiweeks/container.yaml"
-updated_at: "2024-01-03 02:31:20.321846"
-latest: "2.2.0--pyhdfd78af_0"
+updated_at: "2024-01-04 02:31:59.044311"
+latest: "2.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/epiweeks"
 aliases:
  - "2to3-3.10"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "2.1.4--pyhdfd78af_0"
  - "2.2.0--pyhdfd78af_0"
+ - "2.3.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for epiweeks"
-config: {"url": "https://biocontainers.pro/tools/epiweeks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epiweeks", "latest": {"2.2.0--pyhdfd78af_0": "sha256:a6bf30e50da9338d2e3fed2f95c806b2fc8c6d13d984d345dd4784c2636db36b"}, "tags": {"2.1.4--pyhdfd78af_0": "sha256:faf5a70f129a2f8cd5bc56ee33f1318c22f5b1d87d153e67834b1be9b7f59ecf", "2.2.0--pyhdfd78af_0": "sha256:a6bf30e50da9338d2e3fed2f95c806b2fc8c6d13d984d345dd4784c2636db36b"}, "docker": "quay.io/biocontainers/epiweeks", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/epiweeks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epiweeks", "latest": {"2.3.0--pyhdfd78af_0": "sha256:aca521ceebba698044f098153932b6c5609c5a3d2859ddb872373296c04bd9cf"}, "tags": {"2.1.4--pyhdfd78af_0": "sha256:faf5a70f129a2f8cd5bc56ee33f1318c22f5b1d87d153e67834b1be9b7f59ecf", "2.2.0--pyhdfd78af_0": "sha256:a6bf30e50da9338d2e3fed2f95c806b2fc8c6d13d984d345dd4784c2636db36b", "2.3.0--pyhdfd78af_0": "sha256:aca521ceebba698044f098153932b6c5609c5a3d2859ddb872373296c04bd9cf"}, "docker": "quay.io/biocontainers/epiweeks", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/epiweeks.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/epiweeks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/epiweeks:2.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/epiweeks:2.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/epiweeks/2.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/epiweeks/2.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/epiweeks/2.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/epiweeks/2.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

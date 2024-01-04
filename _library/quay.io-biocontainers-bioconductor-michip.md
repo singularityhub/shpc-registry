@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-michip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-michip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-michip/container.yaml"
-updated_at: "2024-01-03 03:02:25.813231"
-latest: "1.54.0--r43hdfd78af_0"
+updated_at: "2024-01-04 03:01:14.979183"
+latest: "1.56.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-michip"
 
 versions:
  - "1.48.0--r41hdfd78af_0"
  - "1.52.0--r42hdfd78af_0"
  - "1.54.0--r43hdfd78af_0"
+ - "1.56.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-michip"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-michip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-michip", "latest": {"1.54.0--r43hdfd78af_0": "sha256:430d934a238c79e5616129949303d8d0d3df7db37942c616b504f8620390d74f"}, "tags": {"1.48.0--r41hdfd78af_0": "sha256:05d205e5bb5f8b4956575cef017a258fa541620091bd9ead6df0dcbc0c346a8d", "1.52.0--r42hdfd78af_0": "sha256:2d8f5a200f07974d7958266545e403ff99ac166f6ef2415fcd34befe40e7d794", "1.54.0--r43hdfd78af_0": "sha256:430d934a238c79e5616129949303d8d0d3df7db37942c616b504f8620390d74f"}, "docker": "quay.io/biocontainers/bioconductor-michip"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-michip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-michip", "latest": {"1.56.0--r43hdfd78af_0": "sha256:951529f026a9e16b176b80de9e15f5ec7567e8f53976d1f7ab4fba2a28ca0eb3"}, "tags": {"1.48.0--r41hdfd78af_0": "sha256:05d205e5bb5f8b4956575cef017a258fa541620091bd9ead6df0dcbc0c346a8d", "1.52.0--r42hdfd78af_0": "sha256:2d8f5a200f07974d7958266545e403ff99ac166f6ef2415fcd34befe40e7d794", "1.54.0--r43hdfd78af_0": "sha256:430d934a238c79e5616129949303d8d0d3df7db37942c616b504f8620390d74f", "1.56.0--r43hdfd78af_0": "sha256:951529f026a9e16b176b80de9e15f5ec7567e8f53976d1f7ab4fba2a28ca0eb3"}, "docker": "quay.io/biocontainers/bioconductor-michip"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-michip.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-michip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-michip:1.54.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-michip:1.56.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-michip/1.54.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-michip/1.54.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-michip/1.56.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-michip/1.56.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

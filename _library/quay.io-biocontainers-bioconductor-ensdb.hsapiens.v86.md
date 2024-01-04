@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86/container.yaml"
-updated_at: "2024-01-03 02:32:04.513261"
-latest: "2.99.0--r43hdfd78af_11"
+updated_at: "2024-01-04 02:32:40.775879"
+latest: "2.99.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-ensdb.hsapiens.v86"
 
 versions:
  - "2.99.0--r41hdfd78af_9"
  - "2.99.0--r42hdfd78af_10"
  - "2.99.0--r43hdfd78af_11"
+ - "2.99.0--r43hdfd78af_12"
 description: "shpc-registry automated BioContainers addition for bioconductor-ensdb.hsapiens.v86"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ensdb.hsapiens.v86", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ensdb.hsapiens.v86", "latest": {"2.99.0--r43hdfd78af_11": "sha256:5c0b12c4deb0120e15a8418ce163cab8a40e48d4919fa1fc5d5755df01075dad"}, "tags": {"2.99.0--r41hdfd78af_9": "sha256:a41bf55d8ee3fb2d36f7eafd6c9f33822fde52a127e2c80239a4e50f7741a866", "2.99.0--r42hdfd78af_10": "sha256:b7a0ed9dd27741ff50c3c7ef8329cbab15dac279185c8bbd6fdcf6cc25defea1", "2.99.0--r43hdfd78af_11": "sha256:5c0b12c4deb0120e15a8418ce163cab8a40e48d4919fa1fc5d5755df01075dad"}, "docker": "quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ensdb.hsapiens.v86", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ensdb.hsapiens.v86", "latest": {"2.99.0--r43hdfd78af_12": "sha256:d0edb2726b960bb7a66037415d3aa10ed731953bca4c8df5ec3f8a17e8d15ff0"}, "tags": {"2.99.0--r41hdfd78af_9": "sha256:a41bf55d8ee3fb2d36f7eafd6c9f33822fde52a127e2c80239a4e50f7741a866", "2.99.0--r42hdfd78af_10": "sha256:b7a0ed9dd27741ff50c3c7ef8329cbab15dac279185c8bbd6fdcf6cc25defea1", "2.99.0--r43hdfd78af_11": "sha256:5c0b12c4deb0120e15a8418ce163cab8a40e48d4919fa1fc5d5755df01075dad", "2.99.0--r43hdfd78af_12": "sha256:d0edb2726b960bb7a66037415d3aa10ed731953bca4c8df5ec3f8a17e8d15ff0"}, "docker": "quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86:2.99.0--r43hdfd78af_11
+$ shpc install quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86:2.99.0--r43hdfd78af_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86/2.99.0--r43hdfd78af_11
-$ module help quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86/2.99.0--r43hdfd78af_11
+$ module load quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86/2.99.0--r43hdfd78af_12
+$ module help quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86/2.99.0--r43hdfd78af_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

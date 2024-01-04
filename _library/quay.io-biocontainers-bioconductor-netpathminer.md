@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-netpathminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netpathminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netpathminer/container.yaml"
-updated_at: "2024-01-03 03:05:52.460327"
+updated_at: "2024-01-04 03:04:25.422222"
 latest: "1.38.0--r43h4605cfd_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-netpathminer"
 aliases:

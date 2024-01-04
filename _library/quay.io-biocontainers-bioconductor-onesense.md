@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-onesense"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-onesense/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-onesense/container.yaml"
-updated_at: "2024-01-03 03:11:39.857142"
+updated_at: "2024-01-04 03:09:48.750362"
 latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-onesense"
 aliases:

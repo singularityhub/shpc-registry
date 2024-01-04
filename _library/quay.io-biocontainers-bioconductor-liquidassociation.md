@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-liquidassociation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-liquidassociation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-liquidassociation/container.yaml"
-updated_at: "2024-01-03 03:07:19.878156"
-latest: "1.54.0--r43hdfd78af_0"
+updated_at: "2024-01-04 03:05:46.285760"
+latest: "1.56.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-liquidassociation"
 
 versions:
  - "1.48.0--r41hdfd78af_0"
  - "1.52.0--r42hdfd78af_0"
  - "1.54.0--r43hdfd78af_0"
+ - "1.56.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-liquidassociation"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-liquidassociation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-liquidassociation", "latest": {"1.54.0--r43hdfd78af_0": "sha256:23ed225d2fc94ecd6cd1d80d47f3927053d292890b522e8157b566871230065d"}, "tags": {"1.48.0--r41hdfd78af_0": "sha256:26e2244fea75d1b51d36f0fd1865869aa02d753247b6e50ed62a8d10bdccc6af", "1.52.0--r42hdfd78af_0": "sha256:ed8d8e94fb8077e67bfb657f953ead3a17b14973047353c1f6e1efc53ec9a7c1", "1.54.0--r43hdfd78af_0": "sha256:23ed225d2fc94ecd6cd1d80d47f3927053d292890b522e8157b566871230065d"}, "docker": "quay.io/biocontainers/bioconductor-liquidassociation"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-liquidassociation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-liquidassociation", "latest": {"1.56.0--r43hdfd78af_0": "sha256:708c67c0e412c32b5253819d6c6d9a892c76542801489ced43de62e4adbe278e"}, "tags": {"1.48.0--r41hdfd78af_0": "sha256:26e2244fea75d1b51d36f0fd1865869aa02d753247b6e50ed62a8d10bdccc6af", "1.52.0--r42hdfd78af_0": "sha256:ed8d8e94fb8077e67bfb657f953ead3a17b14973047353c1f6e1efc53ec9a7c1", "1.54.0--r43hdfd78af_0": "sha256:23ed225d2fc94ecd6cd1d80d47f3927053d292890b522e8157b566871230065d", "1.56.0--r43hdfd78af_0": "sha256:708c67c0e412c32b5253819d6c6d9a892c76542801489ced43de62e4adbe278e"}, "docker": "quay.io/biocontainers/bioconductor-liquidassociation"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-liquidassociation.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-liquidassociation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-liquidassociation:1.54.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-liquidassociation:1.56.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-liquidassociation/1.54.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-liquidassociation/1.54.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-liquidassociation/1.56.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-liquidassociation/1.56.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cydar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cydar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cydar/container.yaml"
-updated_at: "2024-01-03 02:58:36.528993"
-latest: "1.24.0--r43hf17093f_0"
+updated_at: "2024-01-04 02:57:54.064013"
+latest: "1.26.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cydar"
 aliases:
  - "gio-launch-desktop"
@@ -21,8 +21,9 @@ versions:
  - "1.22.0--r42hc247a5b_0"
  - "1.22.0--r42hf17093f_1"
  - "1.24.0--r43hf17093f_0"
+ - "1.26.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cydar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cydar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cydar", "latest": {"1.24.0--r43hf17093f_0": "sha256:34ebc2a698de592857e088d330a84a28f179db730cf7ddd1258de43c87db65b9"}, "tags": {"1.8.0--r36he1b5a44_1": "sha256:3c34bf8a1b42ec91799fbee12380b7047eeb0e2bf5f3a51b3ca7b786f03e6090", "1.18.0--r41hc247a5b_2": "sha256:45d364aac7eecde5d9008481a32f8e6704635be5a9ca7cfc50a9da2f075b7f23", "1.16.0--r41h399db7b_0": "sha256:93713c17a9004f6b6f2a94a3490092b4a0ae8e9fd5cc6307f228b1c513bbb7cb", "1.14.0--r40h399db7b_2": "sha256:0293febf97ecab22d63f3936624c3230a8c2e8e5e842282fa0a4d3cfe4250932", "1.12.0--r40h5f743cb_0": "sha256:0729f2cdbb795d2f26a15a2a48a6fa80692aeeb1823eeac2c37479016ffa0718", "1.10.0--r36he1b5a44_0": "sha256:380352fb6779dd7fbba6e6d2389f44e976a967bafecc2ae4a0ce52cab0896ff5", "1.22.0--r42hc247a5b_0": "sha256:d34e26f17eb250583982c0712a872f5ac9c56b9ce1f0e990e91001853871a28e", "1.22.0--r42hf17093f_1": "sha256:bae1e759a88552c1c88ae2ef63d16727eca5ff07ab89709b61d2ce7fc15318a9", "1.24.0--r43hf17093f_0": "sha256:34ebc2a698de592857e088d330a84a28f179db730cf7ddd1258de43c87db65b9"}, "docker": "quay.io/biocontainers/bioconductor-cydar", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cydar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cydar", "latest": {"1.26.0--r43hf17093f_0": "sha256:50de497b2426e569d32af44ab13f23fe32ab8dcbf1bd103d60ef3c8b7783bf1b"}, "tags": {"1.8.0--r36he1b5a44_1": "sha256:3c34bf8a1b42ec91799fbee12380b7047eeb0e2bf5f3a51b3ca7b786f03e6090", "1.18.0--r41hc247a5b_2": "sha256:45d364aac7eecde5d9008481a32f8e6704635be5a9ca7cfc50a9da2f075b7f23", "1.16.0--r41h399db7b_0": "sha256:93713c17a9004f6b6f2a94a3490092b4a0ae8e9fd5cc6307f228b1c513bbb7cb", "1.14.0--r40h399db7b_2": "sha256:0293febf97ecab22d63f3936624c3230a8c2e8e5e842282fa0a4d3cfe4250932", "1.12.0--r40h5f743cb_0": "sha256:0729f2cdbb795d2f26a15a2a48a6fa80692aeeb1823eeac2c37479016ffa0718", "1.10.0--r36he1b5a44_0": "sha256:380352fb6779dd7fbba6e6d2389f44e976a967bafecc2ae4a0ce52cab0896ff5", "1.22.0--r42hc247a5b_0": "sha256:d34e26f17eb250583982c0712a872f5ac9c56b9ce1f0e990e91001853871a28e", "1.22.0--r42hf17093f_1": "sha256:bae1e759a88552c1c88ae2ef63d16727eca5ff07ab89709b61d2ce7fc15318a9", "1.24.0--r43hf17093f_0": "sha256:34ebc2a698de592857e088d330a84a28f179db730cf7ddd1258de43c87db65b9", "1.26.0--r43hf17093f_0": "sha256:50de497b2426e569d32af44ab13f23fe32ab8dcbf1bd103d60ef3c8b7783bf1b"}, "docker": "quay.io/biocontainers/bioconductor-cydar", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cydar.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cydar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cydar:1.24.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-cydar:1.26.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cydar/1.24.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-cydar/1.24.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-cydar/1.26.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-cydar/1.26.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
