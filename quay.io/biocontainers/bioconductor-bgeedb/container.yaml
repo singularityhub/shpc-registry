@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-bgeedb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bgeedb
 latest:
-  2.26.0--r43hdfd78af_0: sha256:d4a4725e0c00f2ab639781a29399c0a8a30c61230018af038f8e440a57a40454
+  2.28.0--r43hdfd78af_0: sha256:43fca2ce18690fafff6858c17dd57de3c402e88a02b7981abac7b6530c5a4d06
 tags:
   2.8.0--r351_0: sha256:e45df1f738bf39bb3a6c5a478b9618793e7dd8f58a297e655cd97bb35cfc8747
   2.20.0--r41hdfd78af_0: sha256:fd0260f73f91e7b6af552491f025dc280ea602fa23e7cbf1e73ed37f2a3eca46
@@ -12,6 +12,7 @@ tags:
   2.12.0--r36_0: sha256:99a2a41d9f231dbf6ab322db6d8c1f27670285fcb437892993af849a30a24d5a
   2.24.0--r42hdfd78af_0: sha256:6aedd0139528106866d1c0b3a67eac78fd24f8a5b2e20280f46b22e228c0d57c
   2.26.0--r43hdfd78af_0: sha256:d4a4725e0c00f2ab639781a29399c0a8a30c61230018af038f8e440a57a40454
+  2.28.0--r43hdfd78af_0: sha256:43fca2ce18690fafff6858c17dd57de3c402e88a02b7981abac7b6530c5a4d06
 docker: quay.io/biocontainers/bioconductor-bgeedb
 aliases:
   wget: /usr/local/bin/wget

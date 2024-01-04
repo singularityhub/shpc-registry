@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-doubletrouble
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-doubletrouble
 latest:
-  1.0.0--r43hdfd78af_0: sha256:10168141b2714f5664d92b7e1059583b2f642d8fbe63b0bafbf31e604885bcc7
+  1.2.1--r43hdfd78af_0: sha256:f66063abecd25fd296915a3d6844cab02d2a0524f4eb40bedb13d0ad725e39fd
 tags:
   1.0.0--r43hdfd78af_0: sha256:10168141b2714f5664d92b7e1059583b2f642d8fbe63b0bafbf31e604885bcc7
+  1.2.1--r43hdfd78af_0: sha256:f66063abecd25fd296915a3d6844cab02d2a0524f4eb40bedb13d0ad725e39fd
 docker: quay.io/biocontainers/bioconductor-doubletrouble
 aliases:
   hb-info: /usr/local/bin/hb-info

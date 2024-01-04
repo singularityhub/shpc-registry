@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/sneep
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sneep
 latest:
-  0.7--py38h8c62d01_0: sha256:9bd9a5ae26c59f2fd1031ad512029dbd8eff9def04122ce61747e1d3e5412bdd
+  0.8--py39h7cff6ad_0: sha256:ddca27cf97f04e937ce328c9fa7ccd70f7905465ac8809bdb2ad3007d76171d4
 tags:
   0.4--py39h7cff6ad_0: sha256:9015c0118ebc43589ca1368f31842e997b1f9abd79acbc2fc7516fabae0ea765
   0.4--py38h8c62d01_1: sha256:a4fc3a1846b42609e38ea69b3d92731d6373d4d775c723df41a6aa440ac66164
   0.7--py38h8c62d01_0: sha256:9bd9a5ae26c59f2fd1031ad512029dbd8eff9def04122ce61747e1d3e5412bdd
+  0.8--py39h7cff6ad_0: sha256:ddca27cf97f04e937ce328c9fa7ccd70f7905465ac8809bdb2ad3007d76171d4
 docker: quay.io/biocontainers/sneep
 aliases:
   HandleInOutput: /usr/local/bin/HandleInOutput

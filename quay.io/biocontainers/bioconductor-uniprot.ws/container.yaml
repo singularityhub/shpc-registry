@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-uniprot.ws
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-uniprot.ws
 latest:
-  2.40.1--r43hdfd78af_0: sha256:69688e7c5b8c6a3a83973712234f277cd1d7bf6d1f6ecaf8deb95fa1764d79bd
+  2.42.0--r43hdfd78af_0: sha256:8928e0118bd8aa4df1a5ac6fc4235f830cbd985e7786679c1eb8a83d58416619
 tags:
   2.34.0--r41hdfd78af_0: sha256:2e84af438953e016df793a551b6f2d0a43a8c93a4b9dbeb4e0bd79faf7ca9778
   2.38.0--r42hdfd78af_0: sha256:7839abe6f394b17fa3af15322074fd3db4f4eafe5611416967a79b90cb157395
   2.40.1--r43hdfd78af_0: sha256:69688e7c5b8c6a3a83973712234f277cd1d7bf6d1f6ecaf8deb95fa1764d79bd
+  2.42.0--r43hdfd78af_0: sha256:8928e0118bd8aa4df1a5ac6fc4235f830cbd985e7786679c1eb8a83d58416619
 docker: quay.io/biocontainers/bioconductor-uniprot.ws

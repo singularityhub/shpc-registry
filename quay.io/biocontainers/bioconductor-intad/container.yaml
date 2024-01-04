@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-intad
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-intad
 latest:
-  1.20.0--r43hdfd78af_0: sha256:21163da959b55f78b3adc48b75e814cf8b0d7ad42c7f9688448afde6cdd56ab2
+  1.22.0--r43hdfd78af_0: sha256:842b23207ab70bd750bfca85c7f2c55eb2487e324c28c9d7af849f5b196982af
 tags:
   1.8.0--r40_0: sha256:fd026f85fea120fe1d0309251543d30d2c2d2aa5a36f3be2ecb7499898f37cd9
   1.14.0--r41hdfd78af_0: sha256:0b5ea64a034b5342ec1c5e21b483637c6e593aca96772113dc1ca8f47d30fee7
@@ -10,6 +10,7 @@ tags:
   1.10.0--r40hdfd78af_1: sha256:b8e7bc3597659778b15db0086676c25fe7ac2ad60f3d8879e6725295db2e7dc0
   1.18.0--r42hdfd78af_0: sha256:4256d54ef194c593ba43c9f52b75d352ccc658ff9d322d51a20d9b8bc94930f3
   1.20.0--r43hdfd78af_0: sha256:21163da959b55f78b3adc48b75e814cf8b0d7ad42c7f9688448afde6cdd56ab2
+  1.22.0--r43hdfd78af_0: sha256:842b23207ab70bd750bfca85c7f2c55eb2487e324c28c9d7af849f5b196982af
 docker: quay.io/biocontainers/bioconductor-intad
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

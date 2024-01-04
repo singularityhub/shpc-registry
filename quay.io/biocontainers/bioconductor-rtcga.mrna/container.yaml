@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-rtcga.mrna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rtcga.mrna
 latest:
-  1.28.0--r43hdfd78af_0: sha256:336f9c4b8ad397aaa5ca38dfc6913d72b30e53ff5c7e117024c469a896d12245
+  1.30.0--r43hdfd78af_0: sha256:90fdffe2c6979ddb7ea0e6725f0426c4415e32110044a0ac01451690f09542e1
 tags:
   1.8.0--r351_0: sha256:e997891a35892b582f188b274aa7367278bbc4050861ea98aab5a0944978d57f
   1.25.0--r42hdfd78af_0: sha256:8e070c6feafdf81b201b0a8b271567882d2b06e8b173a1335a569d477ea546f3
@@ -11,6 +11,7 @@ tags:
   1.18.0--r40hdfd78af_1: sha256:d60cfd7e13af0cc38dcb4473b9ca2853659493fb06d8f3160d3d7a4122456af3
   1.17.0--r40_0: sha256:5fd5a1e14590ae50c4842030d12e7f3fff20fb237e816e5badccee62ce1be358
   1.28.0--r43hdfd78af_0: sha256:336f9c4b8ad397aaa5ca38dfc6913d72b30e53ff5c7e117024c469a896d12245
+  1.30.0--r43hdfd78af_0: sha256:90fdffe2c6979ddb7ea0e6725f0426c4415e32110044a0ac01451690f09542e1
 docker: quay.io/biocontainers/bioconductor-rtcga.mrna
 aliases:
   wget: /usr/local/bin/wget

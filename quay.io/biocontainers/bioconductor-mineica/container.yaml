@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mineica
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mineica
 latest:
-  1.40.0--r43hdfd78af_0: sha256:ed40974d47f1c0e443f7bd5a9ac467fe8a1bfadd130925fdd7bbd172fd91b777
+  1.42.0--r43hdfd78af_0: sha256:82e074cdef84efc6b5f6754e3a123529c59bef5c5772168d97b4cd245121bad1
 tags:
   1.34.0--r41hdfd78af_0: sha256:cb4165668a30a90d5a4cbb9a2d38d4cc4e527839b01259e754f70c06fd3361e2
   1.38.0--r42hdfd78af_0: sha256:530b1bcf4e754682d6b74bea76a0f00485e67e7118158951cdbcb4a8b72a551f
   1.40.0--r43hdfd78af_0: sha256:ed40974d47f1c0e443f7bd5a9ac467fe8a1bfadd130925fdd7bbd172fd91b777
+  1.42.0--r43hdfd78af_0: sha256:82e074cdef84efc6b5f6754e3a123529c59bef5c5772168d97b4cd245121bad1
 docker: quay.io/biocontainers/bioconductor-mineica

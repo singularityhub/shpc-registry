@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/poppunk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for poppunk
 latest:
-  2.6.2--py39hd8cb238_0: sha256:21b57627913aaa27a7adb89b3323e90136e4fa9f2e145b08718d858a99695789
+  2.6.3--py38hfd5d05e_0: sha256:cbe594ca9f10c6133b1287bfe572d2bae376711506b65463df8858178af4fc7a
 tags:
   2.5.0--py39h8884e85_0: sha256:718e597a11e17025a2da00ed147ea137fff767f7ff24dc23b8057316e39a2ae7
   2.6.0--py39h9b916c0_0: sha256:84b6936fc168c83f0082860476af99307bc6b4ec5474bfeb769350f9bc41d313
   2.6.0--py39hd8cb238_1: sha256:b0ca7c9d5228079f63898b9770cbcd7bda24470023c11239554588289d6e8deb
   2.6.2--py39hd8cb238_0: sha256:21b57627913aaa27a7adb89b3323e90136e4fa9f2e145b08718d858a99695789
+  2.6.3--py38hfd5d05e_0: sha256:cbe594ca9f10c6133b1287bfe572d2bae376711506b65463df8858178af4fc7a
 docker: quay.io/biocontainers/poppunk
 aliases:
   SvtAv1DecApp: /usr/local/bin/SvtAv1DecApp

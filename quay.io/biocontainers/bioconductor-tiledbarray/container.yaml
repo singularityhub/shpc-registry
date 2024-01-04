@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-tiledbarray
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tiledbarray
 latest:
-  1.10.0--r43hf17093f_0: sha256:4045f094603c67f0dcc67e1b6cd436a20282c1fd4f89cc84ab1dab5767b9c05d
+  1.12.0--r43hf17093f_0: sha256:d3fd603123f7dcee971b807924aff7335730ef06fd55415d2f4ac411d7db983c
 tags:
   1.4.0--r41hc247a5b_2: sha256:5a7cbb1f90694692d64a10f12cf77762a619dbdda3b385c5ad91d9e3c2aed411
   1.8.0--r42hc247a5b_0: sha256:141df3ec85aafeefb4d5424a55eb1b357f0774da9825d393eb41d9adf0fb84ce
   1.8.0--r42hf17093f_1: sha256:83557add720beccc17449460405ec1d5edf426924505b7a664af9c420c1f4a2d
   1.10.0--r43hf17093f_0: sha256:4045f094603c67f0dcc67e1b6cd436a20282c1fd4f89cc84ab1dab5767b9c05d
+  1.12.0--r43hf17093f_0: sha256:d3fd603123f7dcee971b807924aff7335730ef06fd55415d2f4ac411d7db983c
 docker: quay.io/biocontainers/bioconductor-tiledbarray

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rtrm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rtrm
 latest:
-  1.38.0--r43hdfd78af_0: sha256:2bc155ad83c5af396ea50306d00fe27bd0064df6eb2ea80254cf97784da82449
+  1.40.0--r43hdfd78af_0: sha256:a883c22de7f32e7ca2288b7093a180953bf725984259964c29be4ab35b55b6cd
 tags:
   1.32.0--r41hdfd78af_0: sha256:c53846f25eae20bc9cc0fef9d7be389264cf0059b6192fc084a2917f0f09041b
   1.36.0--r42hdfd78af_0: sha256:77a321e8a12c1f5f39bb8f1cdbe4ed93a66e3549fc98e96bde1bf5fe6efe2960
   1.38.0--r43hdfd78af_0: sha256:2bc155ad83c5af396ea50306d00fe27bd0064df6eb2ea80254cf97784da82449
+  1.40.0--r43hdfd78af_0: sha256:a883c22de7f32e7ca2288b7093a180953bf725984259964c29be4ab35b55b6cd
 docker: quay.io/biocontainers/bioconductor-rtrm
