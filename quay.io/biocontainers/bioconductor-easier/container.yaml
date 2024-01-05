@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-easier
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-easier
 latest:
-  1.6.3--r43hdfd78af_0: sha256:89b49b334c02c5f3cb27cb5b76584583a830eee7e2451afc5eed46d861881475
+  1.8.0--r43hdfd78af_0: sha256:c3202d7f58c840d140ae769ad4641adb33f5e975d4ed1d2746b0ca7b7c3ed273
 tags:
   1.0.0--r41hdfd78af_0: sha256:be3cb49ef8ee1f1d4c34d9a2dd8114a92e84da2ac2ceecd566acf5a39779c650
   1.4.0--r42hdfd78af_0: sha256:51ee752d22f6f0460d6698f4c1b650b8def64c26caf8b8301312b2f7aae54aa6
   1.6.3--r43hdfd78af_0: sha256:89b49b334c02c5f3cb27cb5b76584583a830eee7e2451afc5eed46d861881475
+  1.8.0--r43hdfd78af_0: sha256:c3202d7f58c840d140ae769ad4641adb33f5e975d4ed1d2746b0ca7b7c3ed273
 docker: quay.io/biocontainers/bioconductor-easier

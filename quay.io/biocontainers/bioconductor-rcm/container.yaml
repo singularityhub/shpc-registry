@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-rcm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rcm
 latest:
-  1.16.0--r43hdfd78af_0: sha256:f03302b6e6087bdfe97b7b712c2f549a8da22d94a2a60f94fb702dacfe3db032
+  1.18.0--r43hdfd78af_0: sha256:46f556f50f1732654d5b10bb4716f1ecac3b55bc920f81c659d8f9c500860f38
 tags:
   1.8.0--r41hdfd78af_0: sha256:263433e17b0cddcf498a4a2fb5c5c057772a5d38dd34ac07a03bf390e414972c
   1.10.0--r41hdfd78af_0: sha256:fd8d5378df940bc50f974f4df5be7246fe05ae5a914a5f17a07c6d0cc98e391a
   1.14.0--r42hdfd78af_0: sha256:6262c0267014dfc5a86f9c72e31270c8a37cb212a7f8ba92f11537cf57430f46
   1.16.0--r43hdfd78af_0: sha256:f03302b6e6087bdfe97b7b712c2f549a8da22d94a2a60f94fb702dacfe3db032
+  1.18.0--r43hdfd78af_0: sha256:46f556f50f1732654d5b10bb4716f1ecac3b55bc920f81c659d8f9c500860f38
 docker: quay.io/biocontainers/bioconductor-rcm
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

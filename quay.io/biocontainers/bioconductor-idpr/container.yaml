@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-idpr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-idpr
 latest:
-  1.10.0--r43hdfd78af_0: sha256:b23ff9a1a97eb67781313e164d0a4af1330f6470a391a8ccec16dfcbe3bd25fc
+  1.12.0--r43hdfd78af_0: sha256:a9615907e24c53015205a978af100bcef28661026d17ae192887d5e601453d07
 tags:
   1.4.0--r41hdfd78af_0: sha256:1494c418e3969e247c479f7762d351d129dce498ed614182bb2f94034565f657
   1.8.0--r42hdfd78af_0: sha256:957ddc2449f66af5a19630ab51105873cae7457b203ae49792c6b5da7571f267
   1.10.0--r43hdfd78af_0: sha256:b23ff9a1a97eb67781313e164d0a4af1330f6470a391a8ccec16dfcbe3bd25fc
+  1.12.0--r43hdfd78af_0: sha256:a9615907e24c53015205a978af100bcef28661026d17ae192887d5e601453d07
 docker: quay.io/biocontainers/bioconductor-idpr

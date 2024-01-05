@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-wppi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-wppi
 latest:
-  1.8.0--r43hdfd78af_0: sha256:4bed4701ab9776609d651218c5ec08f19b25bd11999c341bc44ee38a8bfbcd59
+  1.10.0--r43hdfd78af_0: sha256:2a2e70c4864186948be2a2b953d9731901df3808d7e5bebb4585095b604d791c
 tags:
   1.2.0--r41hdfd78af_0: sha256:77dd5c3c251ed6890643aa7351c69a856b1d1645556b0394b4c0df2b3fb3733d
   1.6.0--r42hdfd78af_0: sha256:158108464c0799d8b1b361cde151109c0e7c6c6509a8a9dd823369e62438d573
   1.8.0--r43hdfd78af_0: sha256:4bed4701ab9776609d651218c5ec08f19b25bd11999c341bc44ee38a8bfbcd59
+  1.10.0--r43hdfd78af_0: sha256:2a2e70c4864186948be2a2b953d9731901df3808d7e5bebb4585095b604d791c
 docker: quay.io/biocontainers/bioconductor-wppi

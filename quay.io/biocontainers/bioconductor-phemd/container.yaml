@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-phemd
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-phemd
 latest:
-  1.16.0--r43hdfd78af_0: sha256:4b98c8668e190fc62348273e66908c257588ef8bed904507eebc01c1d7ed62b8
+  1.18.0--r43hdfd78af_0: sha256:089c20407b437d5d0b2d230ea5cd8b5b6700252a0071af4728128f9a2faf5eac
 tags:
   1.6.0--r40hdfd78af_1: sha256:6a280129a286f90c50b6ae8674360a5a23f35d2465b780a6b1887e6c53cd75a1
   1.16.0--r43hdfd78af_0: sha256:4b98c8668e190fc62348273e66908c257588ef8bed904507eebc01c1d7ed62b8
+  1.18.0--r43hdfd78af_0: sha256:089c20407b437d5d0b2d230ea5cd8b5b6700252a0071af4728128f9a2faf5eac
 docker: quay.io/biocontainers/bioconductor-phemd
 aliases:
   f2py3.9: /usr/local/bin/f2py3.9

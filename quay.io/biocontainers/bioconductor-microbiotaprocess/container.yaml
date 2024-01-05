@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-microbiotaprocess
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-microbiotaprocess
 latest:
-  1.12.2--r43hdfd78af_0: sha256:411f4c539dc17a18f4e5e46049591079162a3cbe7e84bb2a81d4b1db708fb16d
+  1.14.0--r43hdfd78af_0: sha256:1ecec7872e98b727a3ba430dd9f2c9a67117e1c629cc52ac1b734be6e9f8dd53
 tags:
   1.6.1--r41hdfd78af_0: sha256:d141d9822d1e21216d3bbdbc938946c16ba01b6361a9db6721d96d86ad2598c4
   1.10.0--r42hdfd78af_0: sha256:ed4fdfb7c9bd8f733935e46192d26a9cb92a645a863d43c6bc7fe2a020502145
   1.12.2--r43hdfd78af_0: sha256:411f4c539dc17a18f4e5e46049591079162a3cbe7e84bb2a81d4b1db708fb16d
+  1.14.0--r43hdfd78af_0: sha256:1ecec7872e98b727a3ba430dd9f2c9a67117e1c629cc52ac1b734be6e9f8dd53
 docker: quay.io/biocontainers/bioconductor-microbiotaprocess

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-myvariant
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-myvariant
 latest:
-  1.30.0--r43hdfd78af_0: sha256:b09476581aae71a404bd8ec5b81473d1535894909c67a4a005b825953044b4c9
+  1.32.0--r43hdfd78af_0: sha256:cea624511b76543b0d778800b6c77fa03dee0ca592b0fa80dc6253cacb2a6e8d
 tags:
   1.8.0--r3.4.1_0: sha256:d083d1722e20e9b7b59a2658c32b35fea33bd15b9f56317386b5a72628109911
   1.24.0--r41hdfd78af_0: sha256:ad6c91abcc66a58e6d9b0ec0e3606003313ad6ba578c7040e1ae3e4a6f81f0aa
@@ -12,6 +12,7 @@ tags:
   1.16.0--r36_0: sha256:e9c99b01585855aa40e22556e1fcb441d3d97205069877c4e755a0fc101c7c61
   1.28.0--r42hdfd78af_0: sha256:6bc6e0abae88119b6398842301c091ccd3f5f78bba28c4530697e667e137ce76
   1.30.0--r43hdfd78af_0: sha256:b09476581aae71a404bd8ec5b81473d1535894909c67a4a005b825953044b4c9
+  1.32.0--r43hdfd78af_0: sha256:cea624511b76543b0d778800b6c77fa03dee0ca592b0fa80dc6253cacb2a6e8d
 docker: quay.io/biocontainers/bioconductor-myvariant
 aliases:
   my_print_defaults: /usr/local/bin/my_print_defaults

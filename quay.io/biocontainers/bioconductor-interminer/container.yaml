@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-interminer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-interminer
 latest:
-  1.22.0--r43hdfd78af_0: sha256:bcec89e21cb14637a74cb637102dc6da84770542f68cf3561c2bc30df617f347
+  1.24.0--r43hdfd78af_0: sha256:9e1232333aa86f2df73a72eeeef042d16f1af4b889014e89d2bade86dcf2b0f5
 tags:
   1.8.0--r36_0: sha256:4cc6ed718c683a1643f1f80db43b76a8147b0ece23b63edbb56d1f66e0175d81
   1.16.0--r41hdfd78af_0: sha256:e8f3f4b59f0b116f7205470a5e5d4cb99ef6e47b0ad61a5569efaa7e1681402a
@@ -11,6 +11,7 @@ tags:
   1.10.0--r40_0: sha256:6d6d63bea3554e1ce66dad5318edd8b0446130b47ec1acde4963201b13fb5796
   1.20.0--r42hdfd78af_0: sha256:6588165d68c1d68c0446823c59e2e6ca5c7ba8e1ac4d17e5054e97360cc54eba
   1.22.0--r43hdfd78af_0: sha256:bcec89e21cb14637a74cb637102dc6da84770542f68cf3561c2bc30df617f347
+  1.24.0--r43hdfd78af_0: sha256:9e1232333aa86f2df73a72eeeef042d16f1af4b889014e89d2bade86dcf2b0f5
 docker: quay.io/biocontainers/bioconductor-interminer
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

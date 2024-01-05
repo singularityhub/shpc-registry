@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-netactivity
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-netactivity
 latest:
-  1.0.0--r42hdfd78af_0: sha256:800432537a07a645b007bf4e2fcf1cea16d6e0f4c7049bb5e62006bf466df407
+  1.4.0--r43hdfd78af_0: sha256:6e3e596e6df6d7609e6145b33bec0416699e8d62dc80aa7c96162f71b4c60828
 tags:
   1.0.0--r42hdfd78af_0: sha256:800432537a07a645b007bf4e2fcf1cea16d6e0f4c7049bb5e62006bf466df407
+  1.4.0--r43hdfd78af_0: sha256:6e3e596e6df6d7609e6145b33bec0416699e8d62dc80aa7c96162f71b4c60828
 docker: quay.io/biocontainers/bioconductor-netactivity
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

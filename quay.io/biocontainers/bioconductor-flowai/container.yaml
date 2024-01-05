@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-flowai
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-flowai
 latest:
-  1.30.0--r43hdfd78af_0: sha256:c3d0cb4e574333c011affa05bb07dde2125cf1014bc097980618821d822f1dca
+  1.32.0--r43hdfd78af_0: sha256:d22c01eaa318b22ee5f154006651a3e7f9be517ae8e905c1fde272ce869a6f4d
 tags:
   1.6.2--r3.4.1_0: sha256:f62c3864abbe8bdf211e85fd65fd4e09b22804080f31e1f2f9ff93289254f274
   1.28.0--r42hdfd78af_0: sha256:a312fd59510af9d47f69b3852ac52cb59207783f94aa538a177ae7b3936514bf
@@ -11,6 +11,7 @@ tags:
   1.18.1--r40_0: sha256:58dd11d892172170cb057a15200ba23de4d06f90817e4d6de7fec3cfd6db2d15
   1.16.0--r36_0: sha256:4259fc09df65b7b71cad616c654022cc7badd4a6830b3eb65786d96bbd693a6b
   1.30.0--r43hdfd78af_0: sha256:c3d0cb4e574333c011affa05bb07dde2125cf1014bc097980618821d822f1dca
+  1.32.0--r43hdfd78af_0: sha256:d22c01eaa318b22ee5f154006651a3e7f9be517ae8e905c1fde272ce869a6f4d
 docker: quay.io/biocontainers/bioconductor-flowai
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-vulcandata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-vulcandata
 latest:
-  1.22.0--r43hdfd78af_0: sha256:4cfc251651de5b8c42ccd7da5c306f56c1e1cec1f27bb6232fc61cebd348a7d1
+  1.24.0--r43hdfd78af_0: sha256:3263745ffb6d68b2b527ecd6ec3c0446464fc15dfd210838b0a6041c8c855f20
 tags:
   1.8.0--r36_0: sha256:86fda5b2e7f68ee250399689919209c425e82cc2834f187904e317fc1519563a
   1.19.0--r42hdfd78af_0: sha256:bb3b03d201fb36ccc893189e43e64cd279eae0ccdd8632aef829a90c13bcac1a
@@ -11,6 +11,7 @@ tags:
   1.12.0--r40hdfd78af_1: sha256:753c9547e985a5fdf9c75fdd95b4414a401fd6ccdd2e784ca0a4ae654e29b3bc
   1.11.0--r40_0: sha256:d6e6832c230be861162ec322f57bfafdee05429293b400f05f7b7e917fe9bb9b
   1.22.0--r43hdfd78af_0: sha256:4cfc251651de5b8c42ccd7da5c306f56c1e1cec1f27bb6232fc61cebd348a7d1
+  1.24.0--r43hdfd78af_0: sha256:3263745ffb6d68b2b527ecd6ec3c0446464fc15dfd210838b0a6041c8c855f20
 docker: quay.io/biocontainers/bioconductor-vulcandata
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

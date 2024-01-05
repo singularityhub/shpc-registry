@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-adimpute
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-adimpute
 latest:
-  1.10.0--r43hdfd78af_0: sha256:18cd4693bae530302ca45ce2b85c4bbfa22a6de3c738af297f7e3d670800fbcb
+  1.12.0--r43hdfd78af_0: sha256:45f2c7599695002a536b1aeacc89c30c87ceb74bb70098f21d48016b9f42d386
 tags:
   1.4.0--r41hdfd78af_0: sha256:ebcf5db69ec9401d810212cc32f7e584f4c76f70a5eb0394ea60beb61c1b5772
   1.8.0--r42hdfd78af_0: sha256:5055a64eb040e9e13877a0e618edca610b8b0e32f7291f8907689d758cdaaf3a
   1.10.0--r43hdfd78af_0: sha256:18cd4693bae530302ca45ce2b85c4bbfa22a6de3c738af297f7e3d670800fbcb
+  1.12.0--r43hdfd78af_0: sha256:45f2c7599695002a536b1aeacc89c30c87ceb74bb70098f21d48016b9f42d386
 docker: quay.io/biocontainers/bioconductor-adimpute
