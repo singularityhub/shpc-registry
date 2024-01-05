@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/roary2fripan.py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/roary2fripan.py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/roary2fripan.py/container.yaml"
-updated_at: "2024-01-04 02:36:50.484616"
+updated_at: "2024-01-05 02:38:29.381219"
 latest: "0.1--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/roary2fripan.py"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lemur"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lemur/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lemur/container.yaml"
-updated_at: "2024-01-04 02:31:18.799881"
+updated_at: "2024-01-05 02:32:47.014648"
 latest: "1.0.4--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lemur"
 aliases:

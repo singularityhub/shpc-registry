@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dmrseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dmrseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dmrseq/container.yaml"
-updated_at: "2024-01-04 02:46:14.005738"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2024-01-05 02:48:02.330975"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dmrseq"
 aliases:
  - "2to3-3.8"
@@ -23,8 +23,9 @@ versions:
  - "1.10.0--r40hdfd78af_1"
  - "1.18.0--r42hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dmrseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dmrseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dmrseq", "latest": {"1.20.0--r43hdfd78af_0": "sha256:72b7a69ad976a66006f81be746ca85f64d96dbf021760fee0a3b055b07ca42f2"}, "tags": {"1.8.0--r40_0": "sha256:239ca0791cd4ce9d5f8b0493844c910c9f5df5ffefdd9b9034851747da1acf82", "1.14.0--r41hdfd78af_0": "sha256:0760ad8ff36caaba90adca24683f8dec80b706bec201781620742c448da3922c", "1.12.0--r41hdfd78af_0": "sha256:db998e63cd0a5116fc4da064200e34efcba203264e340bdff337350852b374c1", "1.10.0--r40hdfd78af_1": "sha256:bc59ced960fd1511cdef73c6c59bff9db823cd9e8f50ad0fd5e228935ac60254", "1.18.0--r42hdfd78af_0": "sha256:2a43056501bf186e64a9da64d0ab9136b7bf3e197077e010eff5c3821272a3f5", "1.20.0--r43hdfd78af_0": "sha256:72b7a69ad976a66006f81be746ca85f64d96dbf021760fee0a3b055b07ca42f2"}, "docker": "quay.io/biocontainers/bioconductor-dmrseq", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dmrseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dmrseq", "latest": {"1.22.0--r43hdfd78af_0": "sha256:5a7556e955d5525df608346f5493942298951c22eb1b3b4554771aac0d1fa939"}, "tags": {"1.8.0--r40_0": "sha256:239ca0791cd4ce9d5f8b0493844c910c9f5df5ffefdd9b9034851747da1acf82", "1.14.0--r41hdfd78af_0": "sha256:0760ad8ff36caaba90adca24683f8dec80b706bec201781620742c448da3922c", "1.12.0--r41hdfd78af_0": "sha256:db998e63cd0a5116fc4da064200e34efcba203264e340bdff337350852b374c1", "1.10.0--r40hdfd78af_1": "sha256:bc59ced960fd1511cdef73c6c59bff9db823cd9e8f50ad0fd5e228935ac60254", "1.18.0--r42hdfd78af_0": "sha256:2a43056501bf186e64a9da64d0ab9136b7bf3e197077e010eff5c3821272a3f5", "1.20.0--r43hdfd78af_0": "sha256:72b7a69ad976a66006f81be746ca85f64d96dbf021760fee0a3b055b07ca42f2", "1.22.0--r43hdfd78af_0": "sha256:5a7556e955d5525df608346f5493942298951c22eb1b3b4554771aac0d1fa939"}, "docker": "quay.io/biocontainers/bioconductor-dmrseq", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dmrseq.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dmrseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dmrseq:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dmrseq:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dmrseq/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dmrseq/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dmrseq/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dmrseq/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

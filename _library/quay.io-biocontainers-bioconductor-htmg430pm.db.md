@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-htmg430pm.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-htmg430pm.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htmg430pm.db/container.yaml"
-updated_at: "2024-01-04 02:43:39.000692"
-latest: "3.13.0--r43hdfd78af_3"
+updated_at: "2024-01-05 02:45:25.194753"
+latest: "3.13.0--r43hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/bioconductor-htmg430pm.db"
 
 versions:
  - "3.13.0--r41hdfd78af_1"
  - "3.13.0--r42hdfd78af_2"
  - "3.13.0--r43hdfd78af_3"
+ - "3.13.0--r43hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for bioconductor-htmg430pm.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-htmg430pm.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-htmg430pm.db", "latest": {"3.13.0--r43hdfd78af_3": "sha256:dfbbac0b6e8b38aefaf7c3b57f7ff6cc45adeb4c27aade0ea7dffb8a50227360"}, "tags": {"3.13.0--r41hdfd78af_1": "sha256:e318f561361d117b0e0c6723c33bae4e53567034a53de4277e6d66a4e3f59013", "3.13.0--r42hdfd78af_2": "sha256:807ffcda05d83e907e62cbd4c5b92a16668d977e9e04f763f81d18b1aa97d4ac", "3.13.0--r43hdfd78af_3": "sha256:dfbbac0b6e8b38aefaf7c3b57f7ff6cc45adeb4c27aade0ea7dffb8a50227360"}, "docker": "quay.io/biocontainers/bioconductor-htmg430pm.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-htmg430pm.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-htmg430pm.db", "latest": {"3.13.0--r43hdfd78af_4": "sha256:45dc2af8fd65117c9b9569f43426f920de6affd8c471c38a4333acb32cc99bb8"}, "tags": {"3.13.0--r41hdfd78af_1": "sha256:e318f561361d117b0e0c6723c33bae4e53567034a53de4277e6d66a4e3f59013", "3.13.0--r42hdfd78af_2": "sha256:807ffcda05d83e907e62cbd4c5b92a16668d977e9e04f763f81d18b1aa97d4ac", "3.13.0--r43hdfd78af_3": "sha256:dfbbac0b6e8b38aefaf7c3b57f7ff6cc45adeb4c27aade0ea7dffb8a50227360", "3.13.0--r43hdfd78af_4": "sha256:45dc2af8fd65117c9b9569f43426f920de6affd8c471c38a4333acb32cc99bb8"}, "docker": "quay.io/biocontainers/bioconductor-htmg430pm.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-htmg430pm.db.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-htmg430pm.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-htmg430pm.db:3.13.0--r43hdfd78af_3
+$ shpc install quay.io/biocontainers/bioconductor-htmg430pm.db:3.13.0--r43hdfd78af_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-htmg430pm.db/3.13.0--r43hdfd78af_3
-$ module help quay.io/biocontainers/bioconductor-htmg430pm.db/3.13.0--r43hdfd78af_3
+$ module load quay.io/biocontainers/bioconductor-htmg430pm.db/3.13.0--r43hdfd78af_4
+$ module help quay.io/biocontainers/bioconductor-htmg430pm.db/3.13.0--r43hdfd78af_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tigre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tigre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tigre/container.yaml"
-updated_at: "2024-01-04 02:27:42.877657"
-latest: "1.54.0--r43ha9d7317_0"
+updated_at: "2024-01-05 02:29:05.159463"
+latest: "1.56.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tigre"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.52.0--r42hc0cfd56_0"
  - "1.52.0--r42ha9d7317_1"
  - "1.54.0--r43ha9d7317_0"
+ - "1.56.0--r43ha9d7317_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tigre"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tigre", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tigre", "latest": {"1.54.0--r43ha9d7317_0": "sha256:2284722f04491a837cda96bc1f0c4e4a93552303d1d5c7bfb86e5b5c572746d0"}, "tags": {"1.48.0--r41hc0cfd56_2": "sha256:d5a6545f854cf45c0b49c7d80788010f2f22e65a39d94cc23af5937f9a64cddb", "1.52.0--r42hc0cfd56_0": "sha256:9344a6c099c0e9c4e6c723bd47b8980de1163d541ff918c9410f7642dd5231ad", "1.52.0--r42ha9d7317_1": "sha256:25e2e6219357b5a5532442550c52547e30d743ffc181148fed745088a879f510", "1.54.0--r43ha9d7317_0": "sha256:2284722f04491a837cda96bc1f0c4e4a93552303d1d5c7bfb86e5b5c572746d0"}, "docker": "quay.io/biocontainers/bioconductor-tigre"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tigre", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tigre", "latest": {"1.56.0--r43ha9d7317_0": "sha256:d6a0a088776a42f57cb8d27ab4fcba96263a5da692f4b69d39265715aaccbe68"}, "tags": {"1.48.0--r41hc0cfd56_2": "sha256:d5a6545f854cf45c0b49c7d80788010f2f22e65a39d94cc23af5937f9a64cddb", "1.52.0--r42hc0cfd56_0": "sha256:9344a6c099c0e9c4e6c723bd47b8980de1163d541ff918c9410f7642dd5231ad", "1.52.0--r42ha9d7317_1": "sha256:25e2e6219357b5a5532442550c52547e30d743ffc181148fed745088a879f510", "1.54.0--r43ha9d7317_0": "sha256:2284722f04491a837cda96bc1f0c4e4a93552303d1d5c7bfb86e5b5c572746d0", "1.56.0--r43ha9d7317_0": "sha256:d6a0a088776a42f57cb8d27ab4fcba96263a5da692f4b69d39265715aaccbe68"}, "docker": "quay.io/biocontainers/bioconductor-tigre"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tigre.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tigre
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tigre:1.54.0--r43ha9d7317_0
+$ shpc install quay.io/biocontainers/bioconductor-tigre:1.56.0--r43ha9d7317_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tigre/1.54.0--r43ha9d7317_0
-$ module help quay.io/biocontainers/bioconductor-tigre/1.54.0--r43ha9d7317_0
+$ module load quay.io/biocontainers/bioconductor-tigre/1.56.0--r43ha9d7317_0
+$ module help quay.io/biocontainers/bioconductor-tigre/1.56.0--r43ha9d7317_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/poppunk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poppunk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poppunk/container.yaml"
-updated_at: "2024-01-04 02:58:14.664252"
-latest: "2.6.2--py39hd8cb238_0"
+updated_at: "2024-01-05 03:00:20.299275"
+latest: "2.6.3--py38hfd5d05e_0"
 container_url: "https://biocontainers.pro/tools/poppunk"
 aliases:
  - "SvtAv1DecApp"
@@ -65,8 +65,9 @@ versions:
  - "2.6.0--py39h9b916c0_0"
  - "2.6.0--py39hd8cb238_1"
  - "2.6.2--py39hd8cb238_0"
+ - "2.6.3--py38hfd5d05e_0"
 description: "shpc-registry automated BioContainers addition for poppunk"
-config: {"url": "https://biocontainers.pro/tools/poppunk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for poppunk", "latest": {"2.6.2--py39hd8cb238_0": "sha256:21b57627913aaa27a7adb89b3323e90136e4fa9f2e145b08718d858a99695789"}, "tags": {"2.5.0--py39h8884e85_0": "sha256:718e597a11e17025a2da00ed147ea137fff767f7ff24dc23b8057316e39a2ae7", "2.6.0--py39h9b916c0_0": "sha256:84b6936fc168c83f0082860476af99307bc6b4ec5474bfeb769350f9bc41d313", "2.6.0--py39hd8cb238_1": "sha256:b0ca7c9d5228079f63898b9770cbcd7bda24470023c11239554588289d6e8deb", "2.6.2--py39hd8cb238_0": "sha256:21b57627913aaa27a7adb89b3323e90136e4fa9f2e145b08718d858a99695789"}, "docker": "quay.io/biocontainers/poppunk", "aliases": {"SvtAv1DecApp": "/usr/local/bin/SvtAv1DecApp", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "lame": "/usr/local/bin/lame", "mandrake": "/usr/local/bin/mandrake", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "poppunk": "/usr/local/bin/poppunk", "poppunk_add_weights.py": "/usr/local/bin/poppunk_add_weights.py", "poppunk_assign": "/usr/local/bin/poppunk_assign", "poppunk_batch_mst.py": "/usr/local/bin/poppunk_batch_mst.py", "poppunk_calculate_rand_indices.py": "/usr/local/bin/poppunk_calculate_rand_indices.py", "poppunk_calculate_silhouette.py": "/usr/local/bin/poppunk_calculate_silhouette.py", "poppunk_easy_run.py": "/usr/local/bin/poppunk_easy_run.py", "poppunk_extract_components.py": "/usr/local/bin/poppunk_extract_components.py", "poppunk_extract_distances.py": "/usr/local/bin/poppunk_extract_distances.py", "poppunk_info": "/usr/local/bin/poppunk_info", "poppunk_iterate.py": "/usr/local/bin/poppunk_iterate.py", "poppunk_mandrake": "/usr/local/bin/poppunk_mandrake", "poppunk_mst": "/usr/local/bin/poppunk_mst", "poppunk_references": "/usr/local/bin/poppunk_references", "poppunk_visualise": "/usr/local/bin/poppunk_visualise", "rapidnj": "/usr/local/bin/rapidnj", "sketchlib": "/usr/local/bin/sketchlib", "trust": "/usr/local/bin/trust", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "x264": "/usr/local/bin/x264", "x265": "/usr/local/bin/x265", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv", "psktool": "/usr/local/bin/psktool"}}
+config: {"url": "https://biocontainers.pro/tools/poppunk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for poppunk", "latest": {"2.6.3--py38hfd5d05e_0": "sha256:cbe594ca9f10c6133b1287bfe572d2bae376711506b65463df8858178af4fc7a"}, "tags": {"2.5.0--py39h8884e85_0": "sha256:718e597a11e17025a2da00ed147ea137fff767f7ff24dc23b8057316e39a2ae7", "2.6.0--py39h9b916c0_0": "sha256:84b6936fc168c83f0082860476af99307bc6b4ec5474bfeb769350f9bc41d313", "2.6.0--py39hd8cb238_1": "sha256:b0ca7c9d5228079f63898b9770cbcd7bda24470023c11239554588289d6e8deb", "2.6.2--py39hd8cb238_0": "sha256:21b57627913aaa27a7adb89b3323e90136e4fa9f2e145b08718d858a99695789", "2.6.3--py38hfd5d05e_0": "sha256:cbe594ca9f10c6133b1287bfe572d2bae376711506b65463df8858178af4fc7a"}, "docker": "quay.io/biocontainers/poppunk", "aliases": {"SvtAv1DecApp": "/usr/local/bin/SvtAv1DecApp", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "lame": "/usr/local/bin/lame", "mandrake": "/usr/local/bin/mandrake", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "poppunk": "/usr/local/bin/poppunk", "poppunk_add_weights.py": "/usr/local/bin/poppunk_add_weights.py", "poppunk_assign": "/usr/local/bin/poppunk_assign", "poppunk_batch_mst.py": "/usr/local/bin/poppunk_batch_mst.py", "poppunk_calculate_rand_indices.py": "/usr/local/bin/poppunk_calculate_rand_indices.py", "poppunk_calculate_silhouette.py": "/usr/local/bin/poppunk_calculate_silhouette.py", "poppunk_easy_run.py": "/usr/local/bin/poppunk_easy_run.py", "poppunk_extract_components.py": "/usr/local/bin/poppunk_extract_components.py", "poppunk_extract_distances.py": "/usr/local/bin/poppunk_extract_distances.py", "poppunk_info": "/usr/local/bin/poppunk_info", "poppunk_iterate.py": "/usr/local/bin/poppunk_iterate.py", "poppunk_mandrake": "/usr/local/bin/poppunk_mandrake", "poppunk_mst": "/usr/local/bin/poppunk_mst", "poppunk_references": "/usr/local/bin/poppunk_references", "poppunk_visualise": "/usr/local/bin/poppunk_visualise", "rapidnj": "/usr/local/bin/rapidnj", "sketchlib": "/usr/local/bin/sketchlib", "trust": "/usr/local/bin/trust", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "x264": "/usr/local/bin/x264", "x265": "/usr/local/bin/x265", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv", "psktool": "/usr/local/bin/psktool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/poppunk.
@@ -81,7 +82,7 @@ $ shpc install quay.io/biocontainers/poppunk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/poppunk:2.6.2--py39hd8cb238_0
+$ shpc install quay.io/biocontainers/poppunk:2.6.3--py38hfd5d05e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -93,8 +94,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/poppunk/2.6.2--py39hd8cb238_0
-$ module help quay.io/biocontainers/poppunk/2.6.2--py39hd8cb238_0
+$ module load quay.io/biocontainers/poppunk/2.6.3--py38hfd5d05e_0
+$ module help quay.io/biocontainers/poppunk/2.6.3--py38hfd5d05e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

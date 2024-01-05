@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-targetdecoy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-targetdecoy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-targetdecoy/container.yaml"
-updated_at: "2024-01-04 02:28:41.138980"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2024-01-05 02:30:05.343806"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-targetdecoy"
 aliases:
  - "zipcmp"
@@ -22,8 +22,9 @@ versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-targetdecoy"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-targetdecoy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-targetdecoy", "latest": {"1.6.0--r43hdfd78af_0": "sha256:8bea615847814d014116e56b23767f9973fb236641b8736a468287ccb9e299c2"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:e126c60fdbd454f8659d5969f4422902db19119a03d6fdf9711f592fc7578cc4", "1.4.0--r42hdfd78af_0": "sha256:377c3c7dc123f633fb1a6aed8dd42f2714da34b32c7c8900a5e2675ed4469abd", "1.6.0--r43hdfd78af_0": "sha256:8bea615847814d014116e56b23767f9973fb236641b8736a468287ccb9e299c2"}, "docker": "quay.io/biocontainers/bioconductor-targetdecoy", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-targetdecoy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-targetdecoy", "latest": {"1.8.0--r43hdfd78af_0": "sha256:ae1bca1b6cf2f0e98940049a297750e761f5e949dd982099dfcd958103da3562"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:e126c60fdbd454f8659d5969f4422902db19119a03d6fdf9711f592fc7578cc4", "1.4.0--r42hdfd78af_0": "sha256:377c3c7dc123f633fb1a6aed8dd42f2714da34b32c7c8900a5e2675ed4469abd", "1.6.0--r43hdfd78af_0": "sha256:8bea615847814d014116e56b23767f9973fb236641b8736a468287ccb9e299c2", "1.8.0--r43hdfd78af_0": "sha256:ae1bca1b6cf2f0e98940049a297750e761f5e949dd982099dfcd958103da3562"}, "docker": "quay.io/biocontainers/bioconductor-targetdecoy", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-targetdecoy.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-targetdecoy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-targetdecoy:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-targetdecoy:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-targetdecoy/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-targetdecoy/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-targetdecoy/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-targetdecoy/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

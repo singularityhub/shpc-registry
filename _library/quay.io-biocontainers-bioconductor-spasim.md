@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-spasim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spasim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spasim/container.yaml"
-updated_at: "2024-01-04 02:27:47.367816"
-latest: "1.2.1--r43hdfd78af_0"
+updated_at: "2024-01-05 02:29:09.805446"
+latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spasim"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -36,8 +36,9 @@ aliases:
 versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.1--r43hdfd78af_0"
+ - "1.4.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-spasim"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spasim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-spasim", "latest": {"1.2.1--r43hdfd78af_0": "sha256:8180f85b2903829ef8d0f0f76d7d2b9b4e652070a9b7c39f78505ee0f5a86b3f"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:a59bd11ea87be6800e43c60d9a9c2b46068e0ceb081b41726cd432aeb01b0776", "1.2.1--r43hdfd78af_0": "sha256:8180f85b2903829ef8d0f0f76d7d2b9b4e652070a9b7c39f78505ee0f5a86b3f"}, "docker": "quay.io/biocontainers/bioconductor-spasim", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spasim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-spasim", "latest": {"1.4.0--r43hdfd78af_0": "sha256:53e4ff01b60c32fd6d84381c6848c6ce19bc070d3ce14393b95741156b3e7e22"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:a59bd11ea87be6800e43c60d9a9c2b46068e0ceb081b41726cd432aeb01b0776", "1.2.1--r43hdfd78af_0": "sha256:8180f85b2903829ef8d0f0f76d7d2b9b4e652070a9b7c39f78505ee0f5a86b3f", "1.4.0--r43hdfd78af_0": "sha256:53e4ff01b60c32fd6d84381c6848c6ce19bc070d3ce14393b95741156b3e7e22"}, "docker": "quay.io/biocontainers/bioconductor-spasim", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spasim.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spasim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spasim:1.2.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spasim:1.4.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spasim/1.2.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spasim/1.2.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spasim/1.4.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spasim/1.4.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
