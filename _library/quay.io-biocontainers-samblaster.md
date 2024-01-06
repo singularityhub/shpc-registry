@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samblaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samblaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samblaster/container.yaml"
-updated_at: "2024-01-05 03:11:07.635958"
+updated_at: "2024-01-06 03:09:59.112608"
 latest: "0.1.26--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/samblaster"
 aliases:

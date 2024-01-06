@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-netsmooth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netsmooth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netsmooth/container.yaml"
-updated_at: "2024-01-05 02:41:16.408429"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2024-01-06 02:39:03.737526"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netsmooth"
 aliases:
  - "f2py3.8"
@@ -24,8 +24,9 @@ versions:
  - "1.10.0--r40hdfd78af_1"
  - "1.18.0--r42hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-netsmooth"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-netsmooth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netsmooth", "latest": {"1.20.0--r43hdfd78af_0": "sha256:98ded406b8983b14762e3438881be3f0ba970d31059dd138887ab2a9868e1a25"}, "tags": {"1.8.0--r40_0": "sha256:8a62a4417d29954dfd0954393f31c9b55303f7cae7aa253c49db9b7b94b58416", "1.14.0--r41hdfd78af_0": "sha256:31c8b4673dc78d82feb07f49506f2f8d78e00eda1adbcba862601d4d2853c72c", "1.12.0--r41hdfd78af_0": "sha256:5f977d64e07631add3009b0ed31bae284fc088ab73f439699f96d1532d26e28e", "1.10.0--r40hdfd78af_1": "sha256:424754a4b71d9cefbd2f84809cc527bd0c40b06dc7c534925703374c95a10df6", "1.18.0--r42hdfd78af_0": "sha256:1e8727b8ea7fd11687497e47d1d311dc220ef8d84960afd8570e7991a0fe9571", "1.20.0--r43hdfd78af_0": "sha256:98ded406b8983b14762e3438881be3f0ba970d31059dd138887ab2a9868e1a25"}, "docker": "quay.io/biocontainers/bioconductor-netsmooth", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-netsmooth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netsmooth", "latest": {"1.22.0--r43hdfd78af_0": "sha256:20cf73ce20f3a303f16890479d5b7c9afcf75606ae37251e77615ecb5c919629"}, "tags": {"1.8.0--r40_0": "sha256:8a62a4417d29954dfd0954393f31c9b55303f7cae7aa253c49db9b7b94b58416", "1.14.0--r41hdfd78af_0": "sha256:31c8b4673dc78d82feb07f49506f2f8d78e00eda1adbcba862601d4d2853c72c", "1.12.0--r41hdfd78af_0": "sha256:5f977d64e07631add3009b0ed31bae284fc088ab73f439699f96d1532d26e28e", "1.10.0--r40hdfd78af_1": "sha256:424754a4b71d9cefbd2f84809cc527bd0c40b06dc7c534925703374c95a10df6", "1.18.0--r42hdfd78af_0": "sha256:1e8727b8ea7fd11687497e47d1d311dc220ef8d84960afd8570e7991a0fe9571", "1.20.0--r43hdfd78af_0": "sha256:98ded406b8983b14762e3438881be3f0ba970d31059dd138887ab2a9868e1a25", "1.22.0--r43hdfd78af_0": "sha256:20cf73ce20f3a303f16890479d5b7c9afcf75606ae37251e77615ecb5c919629"}, "docker": "quay.io/biocontainers/bioconductor-netsmooth", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-netsmooth.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-netsmooth
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-netsmooth:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-netsmooth:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-netsmooth/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-netsmooth/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-netsmooth/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-netsmooth/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gopro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gopro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gopro/container.yaml"
-updated_at: "2024-01-05 02:39:17.011303"
-latest: "1.26.0--r43hf17093f_0"
+updated_at: "2024-01-06 02:37:00.911260"
+latest: "1.28.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gopro"
 aliases:
  - "wget"
@@ -21,8 +21,9 @@ versions:
  - "1.24.0--r42hc247a5b_0"
  - "1.24.0--r42hf17093f_1"
  - "1.26.0--r43hf17093f_0"
+ - "1.28.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gopro"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gopro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gopro", "latest": {"1.26.0--r43hf17093f_0": "sha256:73b32145cdb313d54d5fb9b5b3144b07c2a87516bddcd35b1caf3671ecb99564"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:1da51e006a66eaee5ba08a555ca3940c96c8b93536eb01150a1a35380557ffb5", "1.20.0--r41hc247a5b_2": "sha256:75efc16c002161a49d7f4ac31d4e4c35ab38a892b11ee02237f140a40f443915", "1.18.0--r41h399db7b_0": "sha256:af0cdfea9a20c1b68fc2b3e9d2c503969fa7257fb3055ecb464e56edd5e6d402", "1.16.0--r40h399db7b_1": "sha256:6ed7b1bcc262ea9c15baed5f781fd4244ab7a4583a7f96d391baae3385da97b0", "1.14.0--r40h5f743cb_0": "sha256:e7af4f6b62426060ea1ccfbc37a75376eadec861b8381a459dd5e25519639103", "1.12.0--r36he1b5a44_0": "sha256:68dc4aad8082686def07736191e79b69c6adc47b5d4b7ca1b312bc6ec5de0f5c", "1.24.0--r42hc247a5b_0": "sha256:41b6685132f3d59b721520116f5d156d4066d66f50fc0408b9fac98ecde87c11", "1.24.0--r42hf17093f_1": "sha256:24cdf21e3a5d08f065b8ed40617c6c12e30a620baa0918e899ed4c29fcc1eb6c", "1.26.0--r43hf17093f_0": "sha256:73b32145cdb313d54d5fb9b5b3144b07c2a87516bddcd35b1caf3671ecb99564"}, "docker": "quay.io/biocontainers/bioconductor-gopro", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gopro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gopro", "latest": {"1.28.0--r43hf17093f_0": "sha256:b81ae978e8a7fab0b40258fa58ffdf01ea51895ace6498dbae0095d4d7760f2e"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:1da51e006a66eaee5ba08a555ca3940c96c8b93536eb01150a1a35380557ffb5", "1.20.0--r41hc247a5b_2": "sha256:75efc16c002161a49d7f4ac31d4e4c35ab38a892b11ee02237f140a40f443915", "1.18.0--r41h399db7b_0": "sha256:af0cdfea9a20c1b68fc2b3e9d2c503969fa7257fb3055ecb464e56edd5e6d402", "1.16.0--r40h399db7b_1": "sha256:6ed7b1bcc262ea9c15baed5f781fd4244ab7a4583a7f96d391baae3385da97b0", "1.14.0--r40h5f743cb_0": "sha256:e7af4f6b62426060ea1ccfbc37a75376eadec861b8381a459dd5e25519639103", "1.12.0--r36he1b5a44_0": "sha256:68dc4aad8082686def07736191e79b69c6adc47b5d4b7ca1b312bc6ec5de0f5c", "1.24.0--r42hc247a5b_0": "sha256:41b6685132f3d59b721520116f5d156d4066d66f50fc0408b9fac98ecde87c11", "1.24.0--r42hf17093f_1": "sha256:24cdf21e3a5d08f065b8ed40617c6c12e30a620baa0918e899ed4c29fcc1eb6c", "1.26.0--r43hf17093f_0": "sha256:73b32145cdb313d54d5fb9b5b3144b07c2a87516bddcd35b1caf3671ecb99564", "1.28.0--r43hf17093f_0": "sha256:b81ae978e8a7fab0b40258fa58ffdf01ea51895ace6498dbae0095d4d7760f2e"}, "docker": "quay.io/biocontainers/bioconductor-gopro", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gopro.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gopro
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gopro:1.26.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-gopro:1.28.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gopro/1.26.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-gopro/1.26.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-gopro/1.28.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-gopro/1.28.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

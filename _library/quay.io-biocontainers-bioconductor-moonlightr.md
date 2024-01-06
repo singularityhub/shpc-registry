@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-moonlightr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moonlightr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moonlightr/container.yaml"
-updated_at: "2024-01-05 03:10:35.047881"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2024-01-06 03:09:24.765056"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-moonlightr"
 
 versions:
@@ -17,8 +17,9 @@ versions:
  - "1.10.0--r36_0"
  - "1.24.0--r42hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-moonlightr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-moonlightr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-moonlightr", "latest": {"1.26.0--r43hdfd78af_0": "sha256:cf6fcf391b6884c45da375996bdb4644196f35fd4f1e3b01053ea79b7fd675d4"}, "tags": {"1.8.0--r351_0": "sha256:758365058a716136af02ac1a27b4a9169c527cd59518fe7b6355cdf717bdf1b3", "1.19.0--r41hdfd78af_0": "sha256:adc02064233fc4b18541b8112a9600e618f55fffb6c4c4dbb21f79cda3864830", "1.18.0--r41hdfd78af_0": "sha256:9d6e280f4b2fd475c1958abc65accb28daa4ed9eacae74ff0e916c4a902d3fc5", "1.16.0--r40hdfd78af_1": "sha256:8e4e830e1e67ab0be4cd284e9936d34296cfd434d4eb78329611b15c65b585d7", "1.12.0--r36_0": "sha256:47138ca15cc6260606211610af7a7d2f9df1fe7a69dcc9f5cb4f3933880aa070", "1.10.0--r36_0": "sha256:4330c2d085a5553e6c3fe3cd323945077858fe2aecb09dffe20bed92f7dcb716", "1.24.0--r42hdfd78af_0": "sha256:ec84fdc322346eac64d0e15135067d7d7dae2d8a0a431833efbc06907e460bdc", "1.26.0--r43hdfd78af_0": "sha256:cf6fcf391b6884c45da375996bdb4644196f35fd4f1e3b01053ea79b7fd675d4"}, "docker": "quay.io/biocontainers/bioconductor-moonlightr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-moonlightr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-moonlightr", "latest": {"1.28.0--r43hdfd78af_0": "sha256:4804683f5edc760a005cf2673a7336e9373ac45391a58bc6779bd526be60cb27"}, "tags": {"1.8.0--r351_0": "sha256:758365058a716136af02ac1a27b4a9169c527cd59518fe7b6355cdf717bdf1b3", "1.19.0--r41hdfd78af_0": "sha256:adc02064233fc4b18541b8112a9600e618f55fffb6c4c4dbb21f79cda3864830", "1.18.0--r41hdfd78af_0": "sha256:9d6e280f4b2fd475c1958abc65accb28daa4ed9eacae74ff0e916c4a902d3fc5", "1.16.0--r40hdfd78af_1": "sha256:8e4e830e1e67ab0be4cd284e9936d34296cfd434d4eb78329611b15c65b585d7", "1.12.0--r36_0": "sha256:47138ca15cc6260606211610af7a7d2f9df1fe7a69dcc9f5cb4f3933880aa070", "1.10.0--r36_0": "sha256:4330c2d085a5553e6c3fe3cd323945077858fe2aecb09dffe20bed92f7dcb716", "1.24.0--r42hdfd78af_0": "sha256:ec84fdc322346eac64d0e15135067d7d7dae2d8a0a431833efbc06907e460bdc", "1.26.0--r43hdfd78af_0": "sha256:cf6fcf391b6884c45da375996bdb4644196f35fd4f1e3b01053ea79b7fd675d4", "1.28.0--r43hdfd78af_0": "sha256:4804683f5edc760a005cf2673a7336e9373ac45391a58bc6779bd526be60cb27"}, "docker": "quay.io/biocontainers/bioconductor-moonlightr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-moonlightr.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-moonlightr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-moonlightr:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-moonlightr:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-moonlightr/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-moonlightr/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-moonlightr/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-moonlightr/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

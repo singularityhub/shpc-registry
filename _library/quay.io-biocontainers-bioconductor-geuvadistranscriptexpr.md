@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geuvadistranscriptexpr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geuvadistranscriptexpr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geuvadistranscriptexpr/container.yaml"
-updated_at: "2024-01-05 02:40:27.570237"
+updated_at: "2024-01-06 02:38:13.286212"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geuvadistranscriptexpr"
 

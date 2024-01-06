@@ -4,7 +4,7 @@ name:  "rocker/ml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/ml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/ml/container.yaml"
-updated_at: "2024-01-05 03:13:45.960597"
+updated_at: "2024-01-06 03:12:47.463112"
 latest: "4.3.2"
 container_url: "https://hub.docker.com/r/rocker/ml"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "4.3.1"
  - "4.3.2"
 description: "Docker images with R + machine learning libraries (CPU versions)."
-config: {"docker": "rocker/ml", "url": "https://hub.docker.com/r/rocker/ml", "maintainer": "@vsoch", "description": "Docker images with R + machine learning libraries (CPU versions).", "latest": {"4.3.2": "sha256:efa93a34bdbe7858c12113dd0f53a0b28c193b10fc9ca29899d0025142508708"}, "tags": {"4.2.2": "sha256:ab1f59bd84b15b47cc6794d9d455b4248551b65b7e9ae5accec0ae7d3eba87d4", "4.2.3": "sha256:6dadf7932cfdebd3c0506ca982c845c147608c335941ac0e244d25c67531c903", "4.3.0": "sha256:d679ccd605328f5d714a332b7b06bef147869f26f2c58cbbc58fa6851070b35e", "4.3.1": "sha256:931ff49b8aba52ebfca958337eee1f692dc6c8a8649dc68fb1c50b87510561f1", "4.3.2": "sha256:efa93a34bdbe7858c12113dd0f53a0b28c193b10fc9ca29899d0025142508708"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-ml-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
+config: {"docker": "rocker/ml", "url": "https://hub.docker.com/r/rocker/ml", "maintainer": "@vsoch", "description": "Docker images with R + machine learning libraries (CPU versions).", "latest": {"4.3.2": "sha256:ca5c5e4d4cf94ab7a8f5d9eb4ace5ac9130179d5d71b623f0b7bf85e97fa3723"}, "tags": {"4.2.2": "sha256:ab1f59bd84b15b47cc6794d9d455b4248551b65b7e9ae5accec0ae7d3eba87d4", "4.2.3": "sha256:6dadf7932cfdebd3c0506ca982c845c147608c335941ac0e244d25c67531c903", "4.3.0": "sha256:d679ccd605328f5d714a332b7b06bef147869f26f2c58cbbc58fa6851070b35e", "4.3.1": "sha256:931ff49b8aba52ebfca958337eee1f692dc6c8a8649dc68fb1c50b87510561f1", "4.3.2": "sha256:ca5c5e4d4cf94ab7a8f5d9eb4ace5ac9130179d5d71b623f0b7bf85e97fa3723"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-ml-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
 ---
 
 This module is a singularity container wrapper for rocker/ml.

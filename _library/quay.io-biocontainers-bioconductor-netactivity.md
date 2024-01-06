@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-netactivity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netactivity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netactivity/container.yaml"
-updated_at: "2024-01-05 02:42:43.875243"
-latest: "1.0.0--r42hdfd78af_0"
+updated_at: "2024-01-06 02:40:34.659274"
+latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netactivity"
 aliases:
  - "installBiocDataPackage.sh"
@@ -26,8 +26,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.0--r42hdfd78af_0"
+ - "1.4.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-netactivity"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-netactivity", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-netactivity", "latest": {"1.0.0--r42hdfd78af_0": "sha256:800432537a07a645b007bf4e2fcf1cea16d6e0f4c7049bb5e62006bf466df407"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:800432537a07a645b007bf4e2fcf1cea16d6e0f4c7049bb5e62006bf466df407"}, "docker": "quay.io/biocontainers/bioconductor-netactivity", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-netactivity", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-netactivity", "latest": {"1.4.0--r43hdfd78af_0": "sha256:6e3e596e6df6d7609e6145b33bec0416699e8d62dc80aa7c96162f71b4c60828"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:800432537a07a645b007bf4e2fcf1cea16d6e0f4c7049bb5e62006bf466df407", "1.4.0--r43hdfd78af_0": "sha256:6e3e596e6df6d7609e6145b33bec0416699e8d62dc80aa7c96162f71b4c60828"}, "docker": "quay.io/biocontainers/bioconductor-netactivity", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-netactivity.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bioconductor-netactivity
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-netactivity:1.0.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-netactivity:1.4.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-netactivity/1.0.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-netactivity/1.0.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-netactivity/1.4.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-netactivity/1.4.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

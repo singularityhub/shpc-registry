@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-flowai"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowai/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowai/container.yaml"
-updated_at: "2024-01-05 03:08:59.059708"
-latest: "1.30.0--r43hdfd78af_0"
+updated_at: "2024-01-06 03:07:43.175785"
+latest: "1.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowai"
 aliases:
  - "tclsh8.5"
@@ -20,8 +20,9 @@ versions:
  - "1.18.1--r40_0"
  - "1.16.0--r36_0"
  - "1.30.0--r43hdfd78af_0"
+ - "1.32.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowai"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowai", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowai", "latest": {"1.30.0--r43hdfd78af_0": "sha256:c3d0cb4e574333c011affa05bb07dde2125cf1014bc097980618821d822f1dca"}, "tags": {"1.6.2--r3.4.1_0": "sha256:f62c3864abbe8bdf211e85fd65fd4e09b22804080f31e1f2f9ff93289254f274", "1.28.0--r42hdfd78af_0": "sha256:a312fd59510af9d47f69b3852ac52cb59207783f94aa538a177ae7b3936514bf", "1.24.0--r41hdfd78af_0": "sha256:2a56c97d15ef81046a9948cbeba9eec02ce3f2479a1e9b0d76e1bf802ad42cf6", "1.20.1--r40hdfd78af_0": "sha256:d52b3d3a02b3e02597466b52e12815f609da529de8951bb8fc2fa33a3f5d8862", "1.18.1--r40_0": "sha256:58dd11d892172170cb057a15200ba23de4d06f90817e4d6de7fec3cfd6db2d15", "1.16.0--r36_0": "sha256:4259fc09df65b7b71cad616c654022cc7badd4a6830b3eb65786d96bbd693a6b", "1.30.0--r43hdfd78af_0": "sha256:c3d0cb4e574333c011affa05bb07dde2125cf1014bc097980618821d822f1dca"}, "docker": "quay.io/biocontainers/bioconductor-flowai", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowai", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowai", "latest": {"1.32.0--r43hdfd78af_0": "sha256:d22c01eaa318b22ee5f154006651a3e7f9be517ae8e905c1fde272ce869a6f4d"}, "tags": {"1.6.2--r3.4.1_0": "sha256:f62c3864abbe8bdf211e85fd65fd4e09b22804080f31e1f2f9ff93289254f274", "1.28.0--r42hdfd78af_0": "sha256:a312fd59510af9d47f69b3852ac52cb59207783f94aa538a177ae7b3936514bf", "1.24.0--r41hdfd78af_0": "sha256:2a56c97d15ef81046a9948cbeba9eec02ce3f2479a1e9b0d76e1bf802ad42cf6", "1.20.1--r40hdfd78af_0": "sha256:d52b3d3a02b3e02597466b52e12815f609da529de8951bb8fc2fa33a3f5d8862", "1.18.1--r40_0": "sha256:58dd11d892172170cb057a15200ba23de4d06f90817e4d6de7fec3cfd6db2d15", "1.16.0--r36_0": "sha256:4259fc09df65b7b71cad616c654022cc7badd4a6830b3eb65786d96bbd693a6b", "1.30.0--r43hdfd78af_0": "sha256:c3d0cb4e574333c011affa05bb07dde2125cf1014bc097980618821d822f1dca", "1.32.0--r43hdfd78af_0": "sha256:d22c01eaa318b22ee5f154006651a3e7f9be517ae8e905c1fde272ce869a6f4d"}, "docker": "quay.io/biocontainers/bioconductor-flowai", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowai.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowai
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowai:1.30.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-flowai:1.32.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowai/1.30.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-flowai/1.30.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-flowai/1.32.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-flowai/1.32.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

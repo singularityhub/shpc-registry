@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-greylistchip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-greylistchip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-greylistchip/container.yaml"
-updated_at: "2024-01-05 03:12:26.419691"
-latest: "1.32.0--r43hdfd78af_0"
+updated_at: "2024-01-06 03:11:22.893947"
+latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-greylistchip"
 
 versions:
  - "1.26.0--r41hdfd78af_0"
  - "1.30.0--r42hdfd78af_0"
  - "1.32.0--r43hdfd78af_0"
+ - "1.34.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-greylistchip"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-greylistchip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-greylistchip", "latest": {"1.32.0--r43hdfd78af_0": "sha256:0b5d5e6bf6c3dfb6c53b4499c44befea622a750b21d34af1cc83965efacedb92"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:b480b0f16495d38024b723fc5d7622146185540b66ccfa888a6a6036a84f7194", "1.30.0--r42hdfd78af_0": "sha256:ce7e0d7674e530c03f7a7f3e62d7a1e0dae7256c7be714477e8b475118fb3fd7", "1.32.0--r43hdfd78af_0": "sha256:0b5d5e6bf6c3dfb6c53b4499c44befea622a750b21d34af1cc83965efacedb92"}, "docker": "quay.io/biocontainers/bioconductor-greylistchip"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-greylistchip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-greylistchip", "latest": {"1.34.0--r43hdfd78af_0": "sha256:70124e337b4825b6abb69bfd9847c33d91e503a51460af11ac615e970c4fe0a9"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:b480b0f16495d38024b723fc5d7622146185540b66ccfa888a6a6036a84f7194", "1.30.0--r42hdfd78af_0": "sha256:ce7e0d7674e530c03f7a7f3e62d7a1e0dae7256c7be714477e8b475118fb3fd7", "1.32.0--r43hdfd78af_0": "sha256:0b5d5e6bf6c3dfb6c53b4499c44befea622a750b21d34af1cc83965efacedb92", "1.34.0--r43hdfd78af_0": "sha256:70124e337b4825b6abb69bfd9847c33d91e503a51460af11ac615e970c4fe0a9"}, "docker": "quay.io/biocontainers/bioconductor-greylistchip"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-greylistchip.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-greylistchip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-greylistchip:1.32.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-greylistchip:1.34.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-greylistchip/1.32.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-greylistchip/1.32.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-greylistchip/1.34.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-greylistchip/1.34.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

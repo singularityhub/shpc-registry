@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bbknn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bbknn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bbknn/container.yaml"
-updated_at: "2024-01-05 03:10:34.778627"
-latest: "1.5.1--py36h91eb985_2"
+updated_at: "2024-01-06 03:09:24.482188"
+latest: "1.6.0--py310h4b81fae_0"
 container_url: "https://biocontainers.pro/tools/bbknn"
 aliases:
  - "numba"
@@ -20,8 +20,9 @@ aliases:
  - "python3.6m-config"
 versions:
  - "1.5.1--py36h91eb985_2"
+ - "1.6.0--py310h4b81fae_0"
 description: "shpc-registry automated BioContainers addition for bbknn"
-config: {"url": "https://biocontainers.pro/tools/bbknn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bbknn", "latest": {"1.5.1--py36h91eb985_2": "sha256:0c298061db57270d6b11a7447a2beddffda274faf832cc6770b12d0e777711a9"}, "tags": {"1.5.1--py36h91eb985_2": "sha256:0c298061db57270d6b11a7447a2beddffda274faf832cc6770b12d0e777711a9"}, "docker": "quay.io/biocontainers/bbknn", "aliases": {"numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
+config: {"url": "https://biocontainers.pro/tools/bbknn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bbknn", "latest": {"1.6.0--py310h4b81fae_0": "sha256:ec18b86e37e11528f778d676ab1e01b5bff7c457ff25a45b76b02f86e67520df"}, "tags": {"1.5.1--py36h91eb985_2": "sha256:0c298061db57270d6b11a7447a2beddffda274faf832cc6770b12d0e777711a9", "1.6.0--py310h4b81fae_0": "sha256:ec18b86e37e11528f778d676ab1e01b5bff7c457ff25a45b76b02f86e67520df"}, "docker": "quay.io/biocontainers/bbknn", "aliases": {"numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bbknn.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bbknn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bbknn:1.5.1--py36h91eb985_2
+$ shpc install quay.io/biocontainers/bbknn:1.6.0--py310h4b81fae_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bbknn/1.5.1--py36h91eb985_2
-$ module help quay.io/biocontainers/bbknn/1.5.1--py36h91eb985_2
+$ module load quay.io/biocontainers/bbknn/1.6.0--py310h4b81fae_0
+$ module help quay.io/biocontainers/bbknn/1.6.0--py310h4b81fae_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

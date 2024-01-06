@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-adimpute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-adimpute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-adimpute/container.yaml"
-updated_at: "2024-01-05 02:33:45.037695"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2024-01-06 02:31:25.612377"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-adimpute"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-adimpute"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-adimpute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-adimpute", "latest": {"1.10.0--r43hdfd78af_0": "sha256:18cd4693bae530302ca45ce2b85c4bbfa22a6de3c738af297f7e3d670800fbcb"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:ebcf5db69ec9401d810212cc32f7e584f4c76f70a5eb0394ea60beb61c1b5772", "1.8.0--r42hdfd78af_0": "sha256:5055a64eb040e9e13877a0e618edca610b8b0e32f7291f8907689d758cdaaf3a", "1.10.0--r43hdfd78af_0": "sha256:18cd4693bae530302ca45ce2b85c4bbfa22a6de3c738af297f7e3d670800fbcb"}, "docker": "quay.io/biocontainers/bioconductor-adimpute"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-adimpute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-adimpute", "latest": {"1.12.0--r43hdfd78af_0": "sha256:45f2c7599695002a536b1aeacc89c30c87ceb74bb70098f21d48016b9f42d386"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:ebcf5db69ec9401d810212cc32f7e584f4c76f70a5eb0394ea60beb61c1b5772", "1.8.0--r42hdfd78af_0": "sha256:5055a64eb040e9e13877a0e618edca610b8b0e32f7291f8907689d758cdaaf3a", "1.10.0--r43hdfd78af_0": "sha256:18cd4693bae530302ca45ce2b85c4bbfa22a6de3c738af297f7e3d670800fbcb", "1.12.0--r43hdfd78af_0": "sha256:45f2c7599695002a536b1aeacc89c30c87ceb74bb70098f21d48016b9f42d386"}, "docker": "quay.io/biocontainers/bioconductor-adimpute"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-adimpute.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-adimpute
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-adimpute:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-adimpute:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-adimpute/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-adimpute/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-adimpute/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-adimpute/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

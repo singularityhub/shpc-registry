@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-nanoporernaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nanoporernaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nanoporernaseq/container.yaml"
-updated_at: "2024-01-05 02:50:46.639430"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2024-01-06 02:48:51.741438"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nanoporernaseq"
 
 versions:
  - "1.4.0--r41hdfd78af_1"
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nanoporernaseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nanoporernaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nanoporernaseq", "latest": {"1.10.0--r43hdfd78af_0": "sha256:34e955b8b08001bd0a27781df1865ff1794adc058b93b99b192c4208d32fd199"}, "tags": {"1.4.0--r41hdfd78af_1": "sha256:e80063750fa419a75450e42284a726f3385473d60d3a8e91d5444dbe56c60e2a", "1.8.0--r42hdfd78af_0": "sha256:4eeccde6a68cd68e2b102961be764942ca98c1eb243cc57a94c34b48c4ce95de", "1.10.0--r43hdfd78af_0": "sha256:34e955b8b08001bd0a27781df1865ff1794adc058b93b99b192c4208d32fd199"}, "docker": "quay.io/biocontainers/bioconductor-nanoporernaseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nanoporernaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nanoporernaseq", "latest": {"1.12.0--r43hdfd78af_0": "sha256:b7fbd34cf7cabdc58b491f6e7330a86e7f14fd3a96d9817428efc2f305ac7c5e"}, "tags": {"1.4.0--r41hdfd78af_1": "sha256:e80063750fa419a75450e42284a726f3385473d60d3a8e91d5444dbe56c60e2a", "1.8.0--r42hdfd78af_0": "sha256:4eeccde6a68cd68e2b102961be764942ca98c1eb243cc57a94c34b48c4ce95de", "1.10.0--r43hdfd78af_0": "sha256:34e955b8b08001bd0a27781df1865ff1794adc058b93b99b192c4208d32fd199", "1.12.0--r43hdfd78af_0": "sha256:b7fbd34cf7cabdc58b491f6e7330a86e7f14fd3a96d9817428efc2f305ac7c5e"}, "docker": "quay.io/biocontainers/bioconductor-nanoporernaseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nanoporernaseq.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nanoporernaseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nanoporernaseq:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-nanoporernaseq:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nanoporernaseq/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-nanoporernaseq/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-nanoporernaseq/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-nanoporernaseq/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

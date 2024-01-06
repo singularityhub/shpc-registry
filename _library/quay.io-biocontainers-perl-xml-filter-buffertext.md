@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-filter-buffertext"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-filter-buffertext/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-filter-buffertext/container.yaml"
-updated_at: "2024-01-05 02:30:31.397498"
+updated_at: "2024-01-06 02:28:06.312526"
 latest: "1.01--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-xml-filter-buffertext"
 aliases:
