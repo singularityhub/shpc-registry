@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/heinz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/heinz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/heinz/container.yaml"
-updated_at: "2024-01-06 03:06:27.638039"
+updated_at: "2024-01-07 03:10:39.349492"
 latest: "2.0--he1b5a44_2"
 container_url: "https://biocontainers.pro/tools/heinz"
 aliases:

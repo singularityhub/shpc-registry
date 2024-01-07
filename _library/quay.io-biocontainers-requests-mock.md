@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/requests-mock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/requests-mock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/requests-mock/container.yaml"
-updated_at: "2024-01-06 02:47:19.455050"
+updated_at: "2024-01-07 02:52:13.701858"
 latest: "1.0.0--py27_1"
 container_url: "https://biocontainers.pro/tools/requests-mock"
 aliases:

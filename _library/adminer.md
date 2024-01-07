@@ -4,7 +4,7 @@ name:  "adminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/adminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/adminer/container.yaml"
-updated_at: "2024-01-06 02:26:30.200892"
+updated_at: "2024-01-07 02:32:03.951928"
 latest: "4.8.1"
 container_url: "https://hub.docker.com/_/adminer"
 

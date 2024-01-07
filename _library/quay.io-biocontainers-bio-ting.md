@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bio-ting"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bio-ting/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bio-ting/container.yaml"
-updated_at: "2024-01-06 02:58:58.661413"
+updated_at: "2024-01-07 03:03:30.464391"
 latest: "1.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/bio-ting"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-storage-plugin-s3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-storage-plugin-s3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-storage-plugin-s3/container.yaml"
-updated_at: "2024-01-06 02:46:55.128725"
+updated_at: "2024-01-07 02:51:50.171314"
 latest: "0.2.8--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/snakemake-storage-plugin-s3"
 aliases:

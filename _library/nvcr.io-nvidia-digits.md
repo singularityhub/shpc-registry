@@ -4,7 +4,7 @@ name:  "nvcr.io/nvidia/digits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia/digits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/nvidia/digits/container.yaml"
-updated_at: "2024-01-06 03:12:44.018619"
+updated_at: "2024-01-07 03:16:34.888463"
 latest: "sha256-92132672c1d985ebdfad13089cb1ead353e96df960788eed4b6eafd932613546.vex"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia:digits/tags"
 aliases:

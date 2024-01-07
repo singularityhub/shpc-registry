@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peptides"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peptides/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peptides/container.yaml"
-updated_at: "2024-01-06 02:32:05.258078"
+updated_at: "2024-01-07 02:37:26.889687"
 latest: "0.3.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/peptides"
 aliases:

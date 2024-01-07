@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/beamspy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beamspy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beamspy/container.yaml"
-updated_at: "2024-01-06 02:35:05.833635"
+updated_at: "2024-01-07 02:40:22.670078"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/beamspy"
 aliases:

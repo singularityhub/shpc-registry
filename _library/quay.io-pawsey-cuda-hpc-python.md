@@ -4,7 +4,7 @@ name:  "quay.io/pawsey/cuda-hpc-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/cuda-hpc-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/cuda-hpc-python/container.yaml"
-updated_at: "2024-01-06 03:11:40.836796"
+updated_at: "2024-01-07 03:15:35.186535"
 latest: "2022.03"
 container_url: "https://quay.io/repository/pawsey/cuda-hpc-python"
 aliases:

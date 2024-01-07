@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gmp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gmp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/gmp/container.yaml"
-updated_at: "2024-01-06 03:11:56.539257"
+updated_at: "2024-01-07 03:15:49.957480"
 latest: "6.2.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gmp"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/ginkgo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/ginkgo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/ginkgo/container.yaml"
-updated_at: "2024-01-06 03:11:48.782536"
+updated_at: "2024-01-07 03:15:42.714035"
 latest: "1.4.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/ginkgo"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowbeads"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowbeads/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowbeads/container.yaml"
-updated_at: "2024-01-06 02:59:46.616650"
+updated_at: "2024-01-07 03:04:16.507873"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowbeads"
 

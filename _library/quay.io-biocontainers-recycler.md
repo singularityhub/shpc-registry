@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/recycler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recycler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recycler/container.yaml"
-updated_at: "2024-01-06 02:32:13.336932"
+updated_at: "2024-01-07 02:37:34.716082"
 latest: "0.7--py_3"
 container_url: "https://biocontainers.pro/tools/recycler"
 aliases:

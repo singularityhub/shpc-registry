@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-barley1probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-barley1probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-barley1probe/container.yaml"
-updated_at: "2024-01-06 02:45:25.495598"
+updated_at: "2024-01-07 02:50:23.467274"
 latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-barley1probe"
 

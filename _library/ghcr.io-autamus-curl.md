@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/curl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/curl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/curl/container.yaml"
-updated_at: "2024-01-06 03:11:49.347227"
+updated_at: "2024-01-07 03:15:43.250757"
 latest: "7.80.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/curl"
 aliases:

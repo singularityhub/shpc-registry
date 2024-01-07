@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multigps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multigps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multigps/container.yaml"
-updated_at: "2024-01-06 02:35:32.106173"
+updated_at: "2024-01-07 02:40:48.517803"
 latest: "0.74--h9ee0642_3"
 container_url: "https://biocontainers.pro/tools/multigps"
 aliases:

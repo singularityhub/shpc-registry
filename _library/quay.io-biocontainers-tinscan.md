@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tinscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tinscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tinscan/container.yaml"
-updated_at: "2024-01-06 02:34:48.919502"
+updated_at: "2024-01-07 02:40:05.977750"
 latest: "0.2.0--py_2"
 container_url: "https://biocontainers.pro/tools/tinscan"
 aliases:

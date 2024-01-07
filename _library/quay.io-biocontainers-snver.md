@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snver/container.yaml"
-updated_at: "2024-01-06 02:44:39.790643"
+updated_at: "2024-01-07 02:49:39.259917"
 latest: "0.5.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/snver"
 aliases:

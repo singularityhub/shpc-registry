@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cmsip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cmsip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cmsip/container.yaml"
-updated_at: "2024-01-06 03:03:42.770408"
+updated_at: "2024-01-07 03:08:02.073103"
 latest: "0.0.3.0--py_0"
 container_url: "https://biocontainers.pro/tools/cmsip"
 aliases:
