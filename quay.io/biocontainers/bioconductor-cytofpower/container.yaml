@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cytofpower
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cytofpower
 latest:
-  1.6.0--r43hdfd78af_0: sha256:2c754e34377208b87212c72d410ab661f07a730a7a1f7c7b0dc535677fc8ae6c
+  1.8.0--r43hdfd78af_0: sha256:45e3c08b56808c2dc78d29c2a81353a6464730bec6b03fb5c59005051b87f8e5
 tags:
   1.0.0--r41hdfd78af_0: sha256:dbb489e7547da2881bbf25a9f46360610c89e231a68f6003134037d3fbdaebb4
   1.4.0--r42hdfd78af_0: sha256:64267da491fb27a87e37452a0d12ddd4da01ad1ab49567ca158810963c1bb567
   1.6.0--r43hdfd78af_0: sha256:2c754e34377208b87212c72d410ab661f07a730a7a1f7c7b0dc535677fc8ae6c
+  1.8.0--r43hdfd78af_0: sha256:45e3c08b56808c2dc78d29c2a81353a6464730bec6b03fb5c59005051b87f8e5
 docker: quay.io/biocontainers/bioconductor-cytofpower

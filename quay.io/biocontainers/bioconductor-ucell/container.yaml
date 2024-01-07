@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ucell
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-ucell
 latest:
-  2.4.0--r43hdfd78af_0: sha256:09508c0994675a761ba2e809344d8d54e2b950e9410f9b3fcaa1442801e6db8f
+  2.6.2--r43hdfd78af_0: sha256:3b84aedff3c915b1e83dc4b9bdf1681b6cc36c7f15d2ff9b1ed497ebd555c877
 tags:
   2.2.0--r42hdfd78af_0: sha256:13501ccf48dd4674db18accef58af1a8178021e586796d28b1c0440e64f5d852
   2.4.0--r43hdfd78af_0: sha256:09508c0994675a761ba2e809344d8d54e2b950e9410f9b3fcaa1442801e6db8f
+  2.6.2--r43hdfd78af_0: sha256:3b84aedff3c915b1e83dc4b9bdf1681b6cc36c7f15d2ff9b1ed497ebd555c877
 docker: quay.io/biocontainers/bioconductor-ucell
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

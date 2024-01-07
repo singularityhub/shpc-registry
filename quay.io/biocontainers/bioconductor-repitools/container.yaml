@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-repitools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-repitools
 latest:
-  1.46.0--r43ha9d7317_0: sha256:c320451454a518e1c375fb51c7f3f0e9949e98375d8a76165fe5803a92b17642
+  1.48.0--r43ha9d7317_0: sha256:1d348a3aaec77da3b5ba5a1af4ca57feb1855c570e43ff7f2cd081329d440749
 tags:
   1.40.0--r41hc0cfd56_2: sha256:ca8971cc74d7e27b9d32ec0d4190332b25ad841407d8d9af493da7ebf366841d
   1.44.0--r42hc0cfd56_0: sha256:106848a72d64fd1580aa3f3408b821ed8d3095018c5aafc87ed5595b4cac8749
   1.44.0--r42ha9d7317_1: sha256:411f8e872bfa4f245f6f79bea16817c3f5581f632141bf6e805e4ef984c8d2b9
   1.46.0--r43ha9d7317_0: sha256:c320451454a518e1c375fb51c7f3f0e9949e98375d8a76165fe5803a92b17642
+  1.48.0--r43ha9d7317_0: sha256:1d348a3aaec77da3b5ba5a1af4ca57feb1855c570e43ff7f2cd081329d440749
 docker: quay.io/biocontainers/bioconductor-repitools

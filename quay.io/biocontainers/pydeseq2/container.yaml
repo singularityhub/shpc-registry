@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pydeseq2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pydeseq2
 latest:
-  0.4.3--pyhdfd78af_0: sha256:2aa0c563f3d0f72b73fa77f63232e30bb5dc1302e785b0243b1b9e10ade8079e
+  0.4.4--pyhdfd78af_0: sha256:3f353d4ecee54d55174e30e2bdbb12c4b6b8f10631f1356dc1a550c97f8ec2ac
 tags:
   0.3.3--pyhdfd78af_0: sha256:f0ee1795cd72199539fd71461096fd4daae0e4e0a4e8d7932033823c340f51eb
   0.3.4--pyhdfd78af_0: sha256:21da3fe048cc4839ad05b455cdbe956bd807e1cdf1db2ba87e300d2491ddfca8
@@ -11,6 +11,7 @@ tags:
   0.4.0--pyhdfd78af_0: sha256:63bea776cf2db4c0254a6ec7d02469fc1f6abf9304fc320adf9b631421d4fbb5
   0.4.1--pyhdfd78af_0: sha256:32aed64801a66e45fafee5cac89b17b59ba639e6bfffddf88a047ec3f75356c4
   0.4.3--pyhdfd78af_0: sha256:2aa0c563f3d0f72b73fa77f63232e30bb5dc1302e785b0243b1b9e10ade8079e
+  0.4.4--pyhdfd78af_0: sha256:3f353d4ecee54d55174e30e2bdbb12c4b6b8f10631f1356dc1a550c97f8ec2ac
 docker: quay.io/biocontainers/pydeseq2
 aliases:
   h5delete: /usr/local/bin/h5delete

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/vcf2variants
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vcf2variants
 latest:
-  0.3--py_0: sha256:55081c97acbb61f114e1332b99861904150ccb1c9b1505cdbd46a4864b77f395
+  1.2--pyhdfd78af_0: sha256:a561495f415eb4c82ddfaa54ada7b7b9bb01159a92b9ae9dd194bbc8c3302e80
 tags:
   0.3--py_0: sha256:55081c97acbb61f114e1332b99861904150ccb1c9b1505cdbd46a4864b77f395
+  1.2--pyhdfd78af_0: sha256:a561495f415eb4c82ddfaa54ada7b7b9bb01159a92b9ae9dd194bbc8c3302e80
 docker: quay.io/biocontainers/vcf2variants
 aliases:
   vcf2variants: /usr/local/bin/vcf2variants

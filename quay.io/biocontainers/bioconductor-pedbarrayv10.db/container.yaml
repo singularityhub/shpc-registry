@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-pedbarrayv10.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pedbarrayv10.db
 latest:
-  3.2.3--r43hdfd78af_11: sha256:4d53cc8584582755c9891435bd9163e3b487476c8f5ad956235bc5359129f07c
+  3.2.3--r43hdfd78af_12: sha256:f1ac731f1e2a590e014a862bc9a1b977ede6ea3c3fd4497d13bd4991866875d1
 tags:
   3.2.3--r41hdfd78af_9: sha256:291b93b8ba7cb03230b904ff138caaaf644540dfd9d749ab0abfe6933459ac0f
   3.2.3--r42hdfd78af_10: sha256:b5068f8468a0e081aa8609af8b81ff8d87f144b3c970e9a2caf2226f3cbd5791
   3.2.3--r43hdfd78af_11: sha256:4d53cc8584582755c9891435bd9163e3b487476c8f5ad956235bc5359129f07c
+  3.2.3--r43hdfd78af_12: sha256:f1ac731f1e2a590e014a862bc9a1b977ede6ea3c3fd4497d13bd4991866875d1
 docker: quay.io/biocontainers/bioconductor-pedbarrayv10.db

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/b2b-utils
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for b2b-utils
 latest:
-  0.018--pl5321h9ee0642_0: sha256:ad243a21e5b7f913c38581ad68cca07c63418f40d7aa356434335bd07d3290b1
+  0.019--pl5321h9ee0642_0: sha256:7b3d8c952e98a189dec7450beabd24859406404c39a0962e4471ab6c0a7a3636
 tags:
   0.018--pl5321h9ee0642_0: sha256:ad243a21e5b7f913c38581ad68cca07c63418f40d7aa356434335bd07d3290b1
+  0.019--pl5321h9ee0642_0: sha256:7b3d8c952e98a189dec7450beabd24859406404c39a0962e4471ab6c0a7a3636
 docker: quay.io/biocontainers/b2b-utils
 aliases:
   DrawGram.jar: /usr/local/bin/DrawGram.jar

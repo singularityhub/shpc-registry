@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-canine.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-canine.db
 latest:
-  3.13.0--r43hdfd78af_3: sha256:acc02fdd0b42cc2ebf6901262f3d69d157af0f41e207a2f41f9991e3ebe9bdd0
+  3.13.0--r43hdfd78af_4: sha256:f811bce167a1fced7113af5c93f75904f30367d6f08cac3198da9ee6d51e51f5
 tags:
   3.2.3--r41hdfd78af_7: sha256:b9776d892ae2364c18d96b6c58b3e4578615af3bc73bb284fb08b8e877853dbb
   3.13.0--r42hdfd78af_2: sha256:0e5dd6defde0e2da4a346949e90d33304fa27a87e3b7221a80b8e9c26083ed97
   3.13.0--r43hdfd78af_3: sha256:acc02fdd0b42cc2ebf6901262f3d69d157af0f41e207a2f41f9991e3ebe9bdd0
+  3.13.0--r43hdfd78af_4: sha256:f811bce167a1fced7113af5c93f75904f30367d6f08cac3198da9ee6d51e51f5
 docker: quay.io/biocontainers/bioconductor-canine.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

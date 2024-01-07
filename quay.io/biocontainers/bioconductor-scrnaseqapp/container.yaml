@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-scrnaseqapp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-scrnaseqapp
 latest:
-  1.0.1--r43hdfd78af_0: sha256:2a454057c9a681e20c1c4ddc57a113f156cb1708fc28a364197f4ddbeeab3674
+  1.2.2--r43hdfd78af_0: sha256:8e941ba759a233b8c5b537b72197ae1fdf1f8995df0726ba18a532a0c69b8cab
 tags:
   1.0.1--r43hdfd78af_0: sha256:2a454057c9a681e20c1c4ddc57a113f156cb1708fc28a364197f4ddbeeab3674
+  1.2.2--r43hdfd78af_0: sha256:8e941ba759a233b8c5b537b72197ae1fdf1f8995df0726ba18a532a0c69b8cab
 docker: quay.io/biocontainers/bioconductor-scrnaseqapp
 aliases:
   h5delete: /usr/local/bin/h5delete

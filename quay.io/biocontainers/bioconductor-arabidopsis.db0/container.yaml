@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-arabidopsis.db0
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-arabidopsis.db0
 latest:
-  3.17.0--r43hdfd78af_0: sha256:971367269b8ab5f536ec8acfae23418ccd71692e4a513bc029d3017cd0008ea8
+  3.18.0--r43hdfd78af_0: sha256:373d69a17698b92bbf8c6ffaa4e042d8149bbdf5f6bd0a2e4e96bd8623643e79
 tags:
   3.8.2--r36_1: sha256:2374b9481e328e2f39d0691a62d7642d5fd395067d270dc7df6caf5b1129d7ed
   3.16.0--r42hdfd78af_0: sha256:9148533900346c853ac0c5b193b2fd30855c00b96918d66a65e2da9818444ca1
@@ -11,6 +11,7 @@ tags:
   3.12.0--r40hdfd78af_1: sha256:1c2690fbc1523617c774eec74a5b2ced1000cb334e2f4c61d6cb1e4c8123257e
   3.11.3--r40_0: sha256:bce2e406e5acf1d132e9a79e12777799ab49567ca95816d1c0d65889d5e23330
   3.17.0--r43hdfd78af_0: sha256:971367269b8ab5f536ec8acfae23418ccd71692e4a513bc029d3017cd0008ea8
+  3.18.0--r43hdfd78af_0: sha256:373d69a17698b92bbf8c6ffaa4e042d8149bbdf5f6bd0a2e4e96bd8623643e79
 docker: quay.io/biocontainers/bioconductor-arabidopsis.db0
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

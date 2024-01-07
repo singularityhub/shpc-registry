@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-spacepac
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-spacepac
 latest:
-  1.38.0--r43hdfd78af_0: sha256:3ac6b2a1d5ae4b9006acd62f70c45fccb36fef2c065f5085aae2ccc147a1b563
+  1.40.0--r43hdfd78af_0: sha256:0c2858ffd481a8f98eb5ce883cf707549b7607c6a13d7988859dbb29baae89ea
 tags:
   1.32.0--r41hdfd78af_0: sha256:78fec7f5e3c6f18f2dc6c8a30e253e50e0b1c798e04f8aab79022098f4679d7e
   1.36.0--r42hdfd78af_0: sha256:27d8896b967474b93be0260ef50028d468a9b6fb6df1e9b932dfc93b8537cc72
   1.38.0--r43hdfd78af_0: sha256:3ac6b2a1d5ae4b9006acd62f70c45fccb36fef2c065f5085aae2ccc147a1b563
+  1.40.0--r43hdfd78af_0: sha256:0c2858ffd481a8f98eb5ce883cf707549b7607c6a13d7988859dbb29baae89ea
 docker: quay.io/biocontainers/bioconductor-spacepac

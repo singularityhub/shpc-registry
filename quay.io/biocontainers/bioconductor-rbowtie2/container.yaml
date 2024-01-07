@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-rbowtie2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rbowtie2
 latest:
-  2.6.0--r43h639f7a0_0: sha256:e13033bb0c0a287128e00683dd3ca5290bb5345fa464e4627c05f1397011201c
+  2.8.0--r43hf17093f_0: sha256:c8ea23e8d24db1b1992724116965a69fe5f5b7310098f60dd4a007b34acb8214
 tags:
   2.0.0--r41he06c1ba_2: sha256:bb26b0a663dc59c90296d8f6772bffcb4080e2b75a4d54fef0b0285426e637a3
   2.4.0--r42he06c1ba_0: sha256:b4f16088639ce0c82658ca4a13e3cc45fe982d41e11af01c1fc971bca2925086
   2.4.0--r42h639f7a0_1: sha256:6a54fced241e4a40453f34862db0fb59dce451fbf105231d524d82c38dec0ed6
   2.6.0--r43h639f7a0_0: sha256:e13033bb0c0a287128e00683dd3ca5290bb5345fa464e4627c05f1397011201c
+  2.8.0--r43hf17093f_0: sha256:c8ea23e8d24db1b1992724116965a69fe5f5b7310098f60dd4a007b34acb8214
 docker: quay.io/biocontainers/bioconductor-rbowtie2

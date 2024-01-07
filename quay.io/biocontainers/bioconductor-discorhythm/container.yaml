@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-discorhythm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-discorhythm
 latest:
-  1.16.0--r43hdfd78af_0: sha256:8b9fa6a3f47721ef65cc0b50b6a3152b7ceb1dbbb7bd43bac2dc9ce927363ab3
+  1.18.0--r43hdfd78af_0: sha256:17ddf19927d7ca2e15bc5bfdd1779417cdb74d5821b7c49357403731d1bc79d6
 tags:
   1.8.0--r41hdfd78af_0: sha256:d09e59e4f68798a1a1fe33720f16a6267b40b8a7bf413176298b748a834aff86
   1.14.0--r42hdfd78af_0: sha256:af320fdbebdfbca9b2626ae5e6723f5c3c3c3dd1377a37f119ccd640d4485176
   1.10.0--r41hdfd78af_0: sha256:f6c3f2c789ebe50e1db3c7f8224d09522b7c3804affbb656f59d9ec4fef4e970
   1.16.0--r43hdfd78af_0: sha256:8b9fa6a3f47721ef65cc0b50b6a3152b7ceb1dbbb7bd43bac2dc9ce927363ab3
+  1.18.0--r43hdfd78af_0: sha256:17ddf19927d7ca2e15bc5bfdd1779417cdb74d5821b7c49357403731d1bc79d6
 docker: quay.io/biocontainers/bioconductor-discorhythm
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config

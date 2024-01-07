@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-spotlight
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-spotlight
 latest:
-  1.4.1--r43hdfd78af_0: sha256:dfd3b9e483d74ced21db3e823dc0bb94bf06c85b5bd8fe4d50fc150c0b93690e
+  1.6.3--r43hdfd78af_0: sha256:e4c4d2c3f9fd54760bb61399bb85ad79472908f81f8d35a27748c3d55bc65b5f
 tags:
   1.2.0--r42hdfd78af_0: sha256:c891d9d7f938a2c72fe1cf1772e485e72fd88822461ae93a3b54e0a40928d301
   1.4.1--r43hdfd78af_0: sha256:dfd3b9e483d74ced21db3e823dc0bb94bf06c85b5bd8fe4d50fc150c0b93690e
+  1.6.3--r43hdfd78af_0: sha256:e4c4d2c3f9fd54760bb61399bb85ad79472908f81f8d35a27748c3d55bc65b5f
 docker: quay.io/biocontainers/bioconductor-spotlight
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
