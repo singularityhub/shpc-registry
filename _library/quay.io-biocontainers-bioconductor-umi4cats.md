@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-umi4cats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-umi4cats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-umi4cats/container.yaml"
-updated_at: "2024-01-07 02:34:06.686816"
-latest: "1.10.0--r43hdfd78af_0"
+updated_at: "2024-01-08 02:32:05.783685"
+latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-umi4cats"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -22,8 +22,9 @@ versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
+ - "1.12.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-umi4cats"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-umi4cats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-umi4cats", "latest": {"1.10.0--r43hdfd78af_0": "sha256:cec37150c033888493a0bf770c8bc740a7a9fc2f95c11370b22a0424df725b43"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:7ae42d298a6c5dc8e26f8668a5353cfced87cb0d204c3b9b5d9d1f6bde409c01", "1.8.0--r42hdfd78af_0": "sha256:9a709317dbd7412d45562e850560d2a7593fdd745ae26f43f2614ee908bcb563", "1.10.0--r43hdfd78af_0": "sha256:cec37150c033888493a0bf770c8bc740a7a9fc2f95c11370b22a0424df725b43"}, "docker": "quay.io/biocontainers/bioconductor-umi4cats", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-umi4cats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-umi4cats", "latest": {"1.12.0--r43hdfd78af_0": "sha256:d2da1257764a418ed2f5963735e93d6cb5348f37d1c9d42251907d801cd309ad"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:7ae42d298a6c5dc8e26f8668a5353cfced87cb0d204c3b9b5d9d1f6bde409c01", "1.8.0--r42hdfd78af_0": "sha256:9a709317dbd7412d45562e850560d2a7593fdd745ae26f43f2614ee908bcb563", "1.10.0--r43hdfd78af_0": "sha256:cec37150c033888493a0bf770c8bc740a7a9fc2f95c11370b22a0424df725b43", "1.12.0--r43hdfd78af_0": "sha256:d2da1257764a418ed2f5963735e93d6cb5348f37d1c9d42251907d801cd309ad"}, "docker": "quay.io/biocontainers/bioconductor-umi4cats", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-umi4cats.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-umi4cats
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-umi4cats:1.10.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-umi4cats:1.12.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-umi4cats/1.10.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-umi4cats/1.10.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-umi4cats/1.12.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-umi4cats/1.12.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcontact2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcontact2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcontact2/container.yaml"
-updated_at: "2024-01-07 02:58:13.530417"
+updated_at: "2024-01-08 02:57:11.546450"
 latest: "0.11.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vcontact2"
 aliases:

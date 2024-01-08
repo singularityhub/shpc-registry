@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vcf2variants"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf2variants/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf2variants/container.yaml"
-updated_at: "2024-01-07 03:07:32.421234"
-latest: "0.3--py_0"
+updated_at: "2024-01-08 03:06:56.127027"
+latest: "1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vcf2variants"
 aliases:
  - "vcf2variants"
@@ -21,8 +21,9 @@ aliases:
  - "python3.7m"
 versions:
  - "0.3--py_0"
+ - "1.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for vcf2variants"
-config: {"url": "https://biocontainers.pro/tools/vcf2variants", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcf2variants", "latest": {"0.3--py_0": "sha256:55081c97acbb61f114e1332b99861904150ccb1c9b1505cdbd46a4864b77f395"}, "tags": {"0.3--py_0": "sha256:55081c97acbb61f114e1332b99861904150ccb1c9b1505cdbd46a4864b77f395"}, "docker": "quay.io/biocontainers/vcf2variants", "aliases": {"vcf2variants": "/usr/local/bin/vcf2variants", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
+config: {"url": "https://biocontainers.pro/tools/vcf2variants", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcf2variants", "latest": {"1.2--pyhdfd78af_0": "sha256:a561495f415eb4c82ddfaa54ada7b7b9bb01159a92b9ae9dd194bbc8c3302e80"}, "tags": {"0.3--py_0": "sha256:55081c97acbb61f114e1332b99861904150ccb1c9b1505cdbd46a4864b77f395", "1.2--pyhdfd78af_0": "sha256:a561495f415eb4c82ddfaa54ada7b7b9bb01159a92b9ae9dd194bbc8c3302e80"}, "docker": "quay.io/biocontainers/vcf2variants", "aliases": {"vcf2variants": "/usr/local/bin/vcf2variants", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcf2variants.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/vcf2variants
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcf2variants:0.3--py_0
+$ shpc install quay.io/biocontainers/vcf2variants:1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcf2variants/0.3--py_0
-$ module help quay.io/biocontainers/vcf2variants/0.3--py_0
+$ module load quay.io/biocontainers/vcf2variants/1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/vcf2variants/1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

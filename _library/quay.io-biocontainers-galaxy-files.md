@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/galaxy-files"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-files/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-files/container.yaml"
-updated_at: "2024-01-07 02:55:18.794292"
-latest: "23.1.3--pyhdfd78af_0"
+updated_at: "2024-01-08 02:54:09.628535"
+latest: "23.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galaxy-files"
 aliases:
  - "cheetah"
@@ -39,8 +39,9 @@ versions:
  - "23.1.1--pyhdfd78af_0"
  - "23.0.6--pyhdfd78af_0"
  - "23.1.3--pyhdfd78af_0"
+ - "23.1.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for galaxy-files"
-config: {"url": "https://biocontainers.pro/tools/galaxy-files", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for galaxy-files", "latest": {"23.1.3--pyhdfd78af_0": "sha256:b2a3436a440e936a551dd990f41a3aff3495b133633113705acd0036e58d4b02"}, "tags": {"23.0.4--pyhdfd78af_0": "sha256:7cd7affd47066001f2b2f491aa1653c231b501bf2f48f1c1e980cb0d941f4d94", "23.0.5--pyhdfd78af_0": "sha256:ba8d3e650f8afeef7a09e7ecaec7d9bfe666fb1a1dfc9e3533686928a0e37b54", "23.1.1--pyhdfd78af_0": "sha256:cc023db5255be1ee0e7359c6c6851addb61585474c8e97eb65d73bbfbd919a03", "23.0.6--pyhdfd78af_0": "sha256:b9b7d2092251df2d2f06b0967b4e3489016ad65012f3a3f2df2f47c78c848100", "23.1.3--pyhdfd78af_0": "sha256:b2a3436a440e936a551dd990f41a3aff3495b133633113705acd0036e58d4b02"}, "docker": "quay.io/biocontainers/galaxy-files", "aliases": {"cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "docutils": "/usr/local/bin/docutils", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py", "rst2xml.py": "/usr/local/bin/rst2xml.py", "rstpep2html.py": "/usr/local/bin/rstpep2html.py", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/galaxy-files", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for galaxy-files", "latest": {"23.1.4--pyhdfd78af_0": "sha256:788ba9c17e8c065dffa6ff313afa19596a64ba097c83c8a712c3175ca6c6350f"}, "tags": {"23.0.4--pyhdfd78af_0": "sha256:7cd7affd47066001f2b2f491aa1653c231b501bf2f48f1c1e980cb0d941f4d94", "23.0.5--pyhdfd78af_0": "sha256:ba8d3e650f8afeef7a09e7ecaec7d9bfe666fb1a1dfc9e3533686928a0e37b54", "23.1.1--pyhdfd78af_0": "sha256:cc023db5255be1ee0e7359c6c6851addb61585474c8e97eb65d73bbfbd919a03", "23.0.6--pyhdfd78af_0": "sha256:b9b7d2092251df2d2f06b0967b4e3489016ad65012f3a3f2df2f47c78c848100", "23.1.3--pyhdfd78af_0": "sha256:b2a3436a440e936a551dd990f41a3aff3495b133633113705acd0036e58d4b02", "23.1.4--pyhdfd78af_0": "sha256:788ba9c17e8c065dffa6ff313afa19596a64ba097c83c8a712c3175ca6c6350f"}, "docker": "quay.io/biocontainers/galaxy-files", "aliases": {"cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "docutils": "/usr/local/bin/docutils", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py", "rst2xml.py": "/usr/local/bin/rst2xml.py", "rstpep2html.py": "/usr/local/bin/rstpep2html.py", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy-files.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/galaxy-files
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/galaxy-files:23.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/galaxy-files:23.1.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/galaxy-files/23.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/galaxy-files/23.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/galaxy-files/23.1.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/galaxy-files/23.1.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

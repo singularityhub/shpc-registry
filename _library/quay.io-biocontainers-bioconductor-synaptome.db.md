@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-synaptome.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-synaptome.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-synaptome.db/container.yaml"
-updated_at: "2024-01-07 02:54:45.326634"
+updated_at: "2024-01-08 02:53:34.556531"
 latest: "0.99.12--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-synaptome.db"
 aliases:

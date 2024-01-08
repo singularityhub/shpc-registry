@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/artic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/artic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/artic/container.yaml"
-updated_at: "2024-01-07 02:36:28.146204"
-latest: "1.2.4--pyh7cba7a3_0"
+updated_at: "2024-01-08 02:34:34.083424"
+latest: "1.2.4--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/artic"
 aliases:
  - "align_trim"
@@ -55,8 +55,9 @@ aliases:
 versions:
  - "1.2.3--pyhdfd78af_0"
  - "1.2.4--pyh7cba7a3_0"
+ - "1.2.4--pyh7cba7a3_1"
 description: "shpc-registry automated BioContainers addition for artic"
-config: {"url": "https://biocontainers.pro/tools/artic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for artic", "latest": {"1.2.4--pyh7cba7a3_0": "sha256:2b0638f19ed87c83a79ddd56d773e2957be48b8aafe9f939f583a8bff66812b4"}, "tags": {"1.2.3--pyhdfd78af_0": "sha256:0576634dcbb7ae60090cd17f036002f8d825ff8185e5cbe6e2a9e6501e1f2a03", "1.2.4--pyh7cba7a3_0": "sha256:2b0638f19ed87c83a79ddd56d773e2957be48b8aafe9f939f583a8bff66812b4"}, "docker": "quay.io/biocontainers/artic", "aliases": {"align_trim": "/usr/local/bin/align_trim", "align_trim_n": "/usr/local/bin/align_trim_n", "artic": "/usr/local/bin/artic", "artic-tools": "/usr/local/bin/artic-tools", "artic_fasta_header": "/usr/local/bin/artic_fasta_header", "artic_get_stats": "/usr/local/bin/artic_get_stats", "artic_make_depth_mask": "/usr/local/bin/artic_make_depth_mask", "artic_mask": "/usr/local/bin/artic_mask", "artic_vcf_filter": "/usr/local/bin/artic_vcf_filter", "artic_vcf_merge": "/usr/local/bin/artic_vcf_merge", "check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "demux_fast5": "/usr/local/bin/demux_fast5", "fast5_subset": "/usr/local/bin/fast5_subset", "hdf2tf.py": "/usr/local/bin/hdf2tf.py", "longshot": "/usr/local/bin/longshot", "margin_cons": "/usr/local/bin/margin_cons", "margin_cons_medaka": "/usr/local/bin/margin_cons_medaka", "medaka": "/usr/local/bin/medaka", "medaka_consensus": "/usr/local/bin/medaka_consensus", "medaka_counts": "/usr/local/bin/medaka_counts", "medaka_data_path": "/usr/local/bin/medaka_data_path", "medaka_haploid_variant": "/usr/local/bin/medaka_haploid_variant", "medaka_version_report": "/usr/local/bin/medaka_version_report", "mini_align": "/usr/local/bin/mini_align", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "nanopolish": "/usr/local/bin/nanopolish", "nanopolish_makerange.py": "/usr/local/bin/nanopolish_makerange.py", "nanopolish_merge.py": "/usr/local/bin/nanopolish_merge.py", "porechop": "/usr/local/bin/porechop", "rich-click": "/usr/local/bin/rich-click", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "vcfextract": "/usr/local/bin/vcfextract", "whatshap": "/usr/local/bin/whatshap", "multiqc": "/usr/local/bin/multiqc", "minimap2.py": "/usr/local/bin/minimap2.py", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/artic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for artic", "latest": {"1.2.4--pyh7cba7a3_1": "sha256:0f2fc1360c5b9775d9f0187c351266a54d79b8a8baeb04738baef0c018f9d720"}, "tags": {"1.2.3--pyhdfd78af_0": "sha256:0576634dcbb7ae60090cd17f036002f8d825ff8185e5cbe6e2a9e6501e1f2a03", "1.2.4--pyh7cba7a3_0": "sha256:2b0638f19ed87c83a79ddd56d773e2957be48b8aafe9f939f583a8bff66812b4", "1.2.4--pyh7cba7a3_1": "sha256:0f2fc1360c5b9775d9f0187c351266a54d79b8a8baeb04738baef0c018f9d720"}, "docker": "quay.io/biocontainers/artic", "aliases": {"align_trim": "/usr/local/bin/align_trim", "align_trim_n": "/usr/local/bin/align_trim_n", "artic": "/usr/local/bin/artic", "artic-tools": "/usr/local/bin/artic-tools", "artic_fasta_header": "/usr/local/bin/artic_fasta_header", "artic_get_stats": "/usr/local/bin/artic_get_stats", "artic_make_depth_mask": "/usr/local/bin/artic_make_depth_mask", "artic_mask": "/usr/local/bin/artic_mask", "artic_vcf_filter": "/usr/local/bin/artic_vcf_filter", "artic_vcf_merge": "/usr/local/bin/artic_vcf_merge", "check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "demux_fast5": "/usr/local/bin/demux_fast5", "fast5_subset": "/usr/local/bin/fast5_subset", "hdf2tf.py": "/usr/local/bin/hdf2tf.py", "longshot": "/usr/local/bin/longshot", "margin_cons": "/usr/local/bin/margin_cons", "margin_cons_medaka": "/usr/local/bin/margin_cons_medaka", "medaka": "/usr/local/bin/medaka", "medaka_consensus": "/usr/local/bin/medaka_consensus", "medaka_counts": "/usr/local/bin/medaka_counts", "medaka_data_path": "/usr/local/bin/medaka_data_path", "medaka_haploid_variant": "/usr/local/bin/medaka_haploid_variant", "medaka_version_report": "/usr/local/bin/medaka_version_report", "mini_align": "/usr/local/bin/mini_align", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "nanopolish": "/usr/local/bin/nanopolish", "nanopolish_makerange.py": "/usr/local/bin/nanopolish_makerange.py", "nanopolish_merge.py": "/usr/local/bin/nanopolish_merge.py", "porechop": "/usr/local/bin/porechop", "rich-click": "/usr/local/bin/rich-click", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "vcfextract": "/usr/local/bin/vcfextract", "whatshap": "/usr/local/bin/whatshap", "multiqc": "/usr/local/bin/multiqc", "minimap2.py": "/usr/local/bin/minimap2.py", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/artic.
@@ -71,7 +72,7 @@ $ shpc install quay.io/biocontainers/artic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/artic:1.2.4--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/artic:1.2.4--pyh7cba7a3_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -83,8 +84,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/artic/1.2.4--pyh7cba7a3_0
-$ module help quay.io/biocontainers/artic/1.2.4--pyh7cba7a3_0
+$ module load quay.io/biocontainers/artic/1.2.4--pyh7cba7a3_1
+$ module help quay.io/biocontainers/artic/1.2.4--pyh7cba7a3_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

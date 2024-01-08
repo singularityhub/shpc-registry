@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-roseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-roseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-roseq/container.yaml"
-updated_at: "2024-01-07 02:41:37.316266"
+updated_at: "2024-01-08 02:39:54.793544"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-roseq"
 

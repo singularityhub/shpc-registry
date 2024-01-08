@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scrnaseqapp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scrnaseqapp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scrnaseqapp/container.yaml"
-updated_at: "2024-01-07 02:57:50.382528"
-latest: "1.0.1--r43hdfd78af_0"
+updated_at: "2024-01-08 02:56:47.488847"
+latest: "1.2.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scrnaseqapp"
 aliases:
  - "h5delete"
@@ -35,8 +35,9 @@ aliases:
  - "h5watch"
 versions:
  - "1.0.1--r43hdfd78af_0"
+ - "1.2.2--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-scrnaseqapp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scrnaseqapp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-scrnaseqapp", "latest": {"1.0.1--r43hdfd78af_0": "sha256:2a454057c9a681e20c1c4ddc57a113f156cb1708fc28a364197f4ddbeeab3674"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:2a454057c9a681e20c1c4ddc57a113f156cb1708fc28a364197f4ddbeeab3674"}, "docker": "quay.io/biocontainers/bioconductor-scrnaseqapp", "aliases": {"h5delete": "/usr/local/bin/h5delete", "geosop": "/usr/local/bin/geosop", "aec": "/usr/local/bin/aec", "geos-config": "/usr/local/bin/geos-config", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scrnaseqapp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-scrnaseqapp", "latest": {"1.2.2--r43hdfd78af_0": "sha256:8e941ba759a233b8c5b537b72197ae1fdf1f8995df0726ba18a532a0c69b8cab"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:2a454057c9a681e20c1c4ddc57a113f156cb1708fc28a364197f4ddbeeab3674", "1.2.2--r43hdfd78af_0": "sha256:8e941ba759a233b8c5b537b72197ae1fdf1f8995df0726ba18a532a0c69b8cab"}, "docker": "quay.io/biocontainers/bioconductor-scrnaseqapp", "aliases": {"h5delete": "/usr/local/bin/h5delete", "geosop": "/usr/local/bin/geosop", "aec": "/usr/local/bin/aec", "geos-config": "/usr/local/bin/geos-config", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scrnaseqapp.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scrnaseqapp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scrnaseqapp:1.0.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scrnaseqapp:1.2.2--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scrnaseqapp/1.0.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scrnaseqapp/1.0.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scrnaseqapp/1.2.2--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scrnaseqapp/1.2.2--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

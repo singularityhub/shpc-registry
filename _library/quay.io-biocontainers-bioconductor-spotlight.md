@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-spotlight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spotlight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spotlight/container.yaml"
-updated_at: "2024-01-07 03:12:21.969058"
-latest: "1.4.1--r43hdfd78af_0"
+updated_at: "2024-01-08 03:11:58.314604"
+latest: "1.6.3--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spotlight"
 aliases:
  - "installBiocDataPackage.sh"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.1--r43hdfd78af_0"
+ - "1.6.3--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-spotlight"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spotlight", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-spotlight", "latest": {"1.4.1--r43hdfd78af_0": "sha256:dfd3b9e483d74ced21db3e823dc0bb94bf06c85b5bd8fe4d50fc150c0b93690e"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:c891d9d7f938a2c72fe1cf1772e485e72fd88822461ae93a3b54e0a40928d301", "1.4.1--r43hdfd78af_0": "sha256:dfd3b9e483d74ced21db3e823dc0bb94bf06c85b5bd8fe4d50fc150c0b93690e"}, "docker": "quay.io/biocontainers/bioconductor-spotlight", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spotlight", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-spotlight", "latest": {"1.6.3--r43hdfd78af_0": "sha256:e4c4d2c3f9fd54760bb61399bb85ad79472908f81f8d35a27748c3d55bc65b5f"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:c891d9d7f938a2c72fe1cf1772e485e72fd88822461ae93a3b54e0a40928d301", "1.4.1--r43hdfd78af_0": "sha256:dfd3b9e483d74ced21db3e823dc0bb94bf06c85b5bd8fe4d50fc150c0b93690e", "1.6.3--r43hdfd78af_0": "sha256:e4c4d2c3f9fd54760bb61399bb85ad79472908f81f8d35a27748c3d55bc65b5f"}, "docker": "quay.io/biocontainers/bioconductor-spotlight", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spotlight.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spotlight
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spotlight:1.4.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spotlight:1.6.3--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spotlight/1.4.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spotlight/1.4.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spotlight/1.6.3--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spotlight/1.6.3--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

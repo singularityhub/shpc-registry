@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-microbiomemarker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-microbiomemarker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-microbiomemarker/container.yaml"
-updated_at: "2024-01-07 03:15:13.340622"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2024-01-08 03:14:56.741270"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-microbiomemarker"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-microbiomemarker"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-microbiomemarker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-microbiomemarker", "latest": {"1.6.0--r43hdfd78af_0": "sha256:1efdbb8bcd6d52782111843beb7d137e48d3747eb757713c130672d59acb4046"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:3a9837f375c2fe4093c4c33208c969bcbd38daed0716b6c7b0ae7d002a67114d", "1.4.0--r42hdfd78af_0": "sha256:5037955f5c9332544d3cf7faa7a38988b545ce5739fab764b9499f37bf9b793e", "1.6.0--r43hdfd78af_0": "sha256:1efdbb8bcd6d52782111843beb7d137e48d3747eb757713c130672d59acb4046"}, "docker": "quay.io/biocontainers/bioconductor-microbiomemarker"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-microbiomemarker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-microbiomemarker", "latest": {"1.8.0--r43hdfd78af_0": "sha256:019b589d5f06ce73172b0701ce7b615e451346cafdef4bf0697c2d93c10d75d6"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:3a9837f375c2fe4093c4c33208c969bcbd38daed0716b6c7b0ae7d002a67114d", "1.4.0--r42hdfd78af_0": "sha256:5037955f5c9332544d3cf7faa7a38988b545ce5739fab764b9499f37bf9b793e", "1.6.0--r43hdfd78af_0": "sha256:1efdbb8bcd6d52782111843beb7d137e48d3747eb757713c130672d59acb4046", "1.8.0--r43hdfd78af_0": "sha256:019b589d5f06ce73172b0701ce7b615e451346cafdef4bf0697c2d93c10d75d6"}, "docker": "quay.io/biocontainers/bioconductor-microbiomemarker"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-microbiomemarker.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-microbiomemarker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-microbiomemarker:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-microbiomemarker:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-microbiomemarker/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-microbiomemarker/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-microbiomemarker/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-microbiomemarker/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
