@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-kcsmart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kcsmart/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kcsmart/container.yaml"
-updated_at: "2024-01-08 02:45:15.131263"
+updated_at: "2024-01-08 03:20:31.645890"
 latest: "2.60.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kcsmart"
 

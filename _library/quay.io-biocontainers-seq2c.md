@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seq2c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seq2c/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seq2c/container.yaml"
-updated_at: "2024-01-08 02:45:58.984907"
+updated_at: "2024-01-08 03:21:13.446235"
 latest: "2019.05.30--pl526_0"
 container_url: "https://biocontainers.pro/tools/seq2c"
 aliases:

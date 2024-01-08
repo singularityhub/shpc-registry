@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vafator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vafator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vafator/container.yaml"
-updated_at: "2024-01-08 02:51:10.093841"
+updated_at: "2024-01-08 03:26:16.171293"
 latest: "2.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vafator"
 aliases:

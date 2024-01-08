@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-discriminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-discriminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-discriminer/container.yaml"
-updated_at: "2024-01-08 02:51:04.771536"
+updated_at: "2024-01-08 03:26:10.991237"
 latest: "0.1_29--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-discriminer"
 aliases:

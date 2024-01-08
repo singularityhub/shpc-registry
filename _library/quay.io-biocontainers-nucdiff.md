@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nucdiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nucdiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nucdiff/container.yaml"
-updated_at: "2024-01-08 03:13:07.905744"
+updated_at: "2024-01-08 03:47:32.391671"
 latest: "2.0.3--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/nucdiff"
 aliases:
