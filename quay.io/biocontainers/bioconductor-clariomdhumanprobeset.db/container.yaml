@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-clariomdhumanprobeset.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-clariomdhumanprobeset.db
 latest:
-  8.8.0--r43hdfd78af_3: sha256:64178eeaeda44f78a3a33b8de17bc333f1320c59582eec3faed8cbbb251c77fc
+  8.8.0--r43hdfd78af_4: sha256:b2b814e2a26e0d1e8b91e54bb190c4b41caa5511a0e24a68dc263eaf678203b2
 tags:
   8.8.0--r41hdfd78af_1: sha256:d47880b8f643a2874c3c08e624c3f26dcdcc3d7a2da206edc55cb83d1149e746
   8.8.0--r42hdfd78af_2: sha256:336f059a64768bc7c64ff411ea90ee61a6e68e98e399716e3fc707bcc99eb91f
   8.8.0--r43hdfd78af_3: sha256:64178eeaeda44f78a3a33b8de17bc333f1320c59582eec3faed8cbbb251c77fc
+  8.8.0--r43hdfd78af_4: sha256:b2b814e2a26e0d1e8b91e54bb190c4b41caa5511a0e24a68dc263eaf678203b2
 docker: quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db

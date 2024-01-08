@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-structuralvariantannotation
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-structuralvariantannotation
 latest:
-  1.16.0--r43hdfd78af_0: sha256:a8cf7ef3481615a67a5c110758be542bf3348199933f8ec8c22c71d0165bb8ab
+  1.18.0--r43hdfd78af_0: sha256:0e2abf54ba0579a8e198f197af820da40001fb0bb8d0bfa02de260e898d7387b
 tags:
   1.8.0--r41hdfd78af_0: sha256:70a34ebffa62d1c3e2d9af0da0825a71d58a314a6fe0e0b156a20f7a03c05f8f
   1.13.0--r42hdfd78af_0: sha256:e43df95940d5ee24ecd86e4d33aa26341ca2b555889818c1df0ae6383782f8fd
   1.10.0--r41hdfd78af_0: sha256:b74008a8312cb0f21550ce10e220de118fceffeecf0931812d5ef3cf82e69a48
   1.16.0--r43hdfd78af_0: sha256:a8cf7ef3481615a67a5c110758be542bf3348199933f8ec8c22c71d0165bb8ab
+  1.18.0--r43hdfd78af_0: sha256:0e2abf54ba0579a8e198f197af820da40001fb0bb8d0bfa02de260e898d7387b
 docker: quay.io/biocontainers/bioconductor-structuralvariantannotation
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

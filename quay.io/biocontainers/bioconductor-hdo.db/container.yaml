@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-hdo.db
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-hdo.db
 latest:
-  0.99.1--r43hdfd78af_1: sha256:d740051b1277cbc8da44efc24ef8b275d5682d90c3c3ab845bca6939bb0d8e23
+  0.99.1--r43hdfd78af_2: sha256:e03f107e942b877722455f899e60c8498a2b0df982b93249b558d0a4466229fe
 tags:
   0.99.1--r42hdfd78af_0: sha256:8c7b178fe2a1810dcb94270607684726a3ab2a7c71932b04a9ff71c04cf85c1b
   0.99.1--r43hdfd78af_1: sha256:d740051b1277cbc8da44efc24ef8b275d5682d90c3c3ab845bca6939bb0d8e23
+  0.99.1--r43hdfd78af_2: sha256:e03f107e942b877722455f899e60c8498a2b0df982b93249b558d0a4466229fe
 docker: quay.io/biocontainers/bioconductor-hdo.db
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

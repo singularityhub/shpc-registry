@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rhesusprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rhesusprobe
 latest:
-  2.18.0--r43hdfd78af_11: sha256:1675cc67b1f2b77ff1af9d4224c1f134747863437b3aac976d6d9c60d96532ef
+  2.18.0--r43hdfd78af_12: sha256:0cd2d9ec407d26569438616100674e10f1a387f198cb00add3a6e472ba38b87f
 tags:
   2.18.0--r41hdfd78af_9: sha256:0032667df49fc7e5f7ddb10fab0ccd0b1f4c80a5ab8940f15b459b86d001cfed
   2.18.0--r42hdfd78af_10: sha256:073f4252fb6d339f8cd82b72a06362edaddeee2a8f2f7fb72bb911f5dbbd3ec1
   2.18.0--r43hdfd78af_11: sha256:1675cc67b1f2b77ff1af9d4224c1f134747863437b3aac976d6d9c60d96532ef
+  2.18.0--r43hdfd78af_12: sha256:0cd2d9ec407d26569438616100674e10f1a387f198cb00add3a6e472ba38b87f
 docker: quay.io/biocontainers/bioconductor-rhesusprobe

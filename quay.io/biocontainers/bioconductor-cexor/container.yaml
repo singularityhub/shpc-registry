@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-cexor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cexor
 latest:
-  1.38.0--r43hdfd78af_0: sha256:a70d360219c22ba9d79fd08c4befe43faa55aeea1415b501018858691fcb0ae4
+  1.40.0--r43hdfd78af_0: sha256:97f2e8b0833e8ddf8e20243bebfd8ee162afe32275767bd4ecdf09bf9524414d
 tags:
   1.8.0--0: sha256:a20ecf2b90cc811a6df29d7569927376118626cb8152002f9671dde56438fdf6
   1.36.0--r42hdfd78af_0: sha256:cab1466e1e9d385cbd4b48a15577a8d24a063a0ed17f49e5292d63ea7d8def5d
@@ -11,6 +11,7 @@ tags:
   1.26.0--r40_0: sha256:7624b5ce44868ba6bdd465e70390b172bdddd72d72dbf565f7dd1a6a2cb34a50
   1.24.0--r36_0: sha256:f2bdc683234f64d38f76b4c478ae6d73ecf613e01e0cdfaac4f30f2c72c1955b
   1.38.0--r43hdfd78af_0: sha256:a70d360219c22ba9d79fd08c4befe43faa55aeea1415b501018858691fcb0ae4
+  1.40.0--r43hdfd78af_0: sha256:97f2e8b0833e8ddf8e20243bebfd8ee162afe32275767bd4ecdf09bf9524414d
 docker: quay.io/biocontainers/bioconductor-cexor
 aliases:
   pngcp: /usr/local/bin/pngcp

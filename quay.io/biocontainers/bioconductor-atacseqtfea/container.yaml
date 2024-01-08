@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-atacseqtfea
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-atacseqtfea
 latest:
-  1.2.0--r43hdfd78af_0: sha256:31510b98b98d9eb06724445ff0d5886c3677d1163bab0146bdaebb6fdfd74834
+  1.4.0--r43hdfd78af_0: sha256:48f69aec94d4b62755e2437a3419731b50c027bd79b5c74050d8e93badf897ce
 tags:
   1.0.1--r42hdfd78af_0: sha256:1c0f1bb30e8fe5eed6893c63f5706fa7e5fd59cf29c9e51cb144f7656cf2cdf3
   1.2.0--r43hdfd78af_0: sha256:31510b98b98d9eb06724445ff0d5886c3677d1163bab0146bdaebb6fdfd74834
+  1.4.0--r43hdfd78af_0: sha256:48f69aec94d4b62755e2437a3419731b50c027bd79b5c74050d8e93badf897ce
 docker: quay.io/biocontainers/bioconductor-atacseqtfea
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
