@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-reusedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reusedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reusedata/container.yaml"
-updated_at: "2024-01-08 03:47:50.640304"
+updated_at: "2024-01-09 03:13:26.632117"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-reusedata"
 aliases:

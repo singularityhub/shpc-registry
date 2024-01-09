@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gcrisprtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gcrisprtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gcrisprtools/container.yaml"
-updated_at: "2024-01-08 03:19:05.230577"
-latest: "2.6.0--r43hdfd78af_0"
+updated_at: "2024-01-09 02:43:59.739267"
+latest: "2.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gcrisprtools"
 aliases:
  - "pandoc"
@@ -13,8 +13,9 @@ versions:
  - "2.0.0--r41hdfd78af_0"
  - "2.4.0--r42hdfd78af_0"
  - "2.6.0--r43hdfd78af_0"
+ - "2.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gcrisprtools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gcrisprtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gcrisprtools", "latest": {"2.6.0--r43hdfd78af_0": "sha256:f095cfa26038651d93ee82a242c860d81ac953bafcb7baabe823e4a5fa98f324"}, "tags": {"2.0.0--r41hdfd78af_0": "sha256:47da2386925bdfd79c8d9758d74c43f8a29dd5f7f54e862bb894150dd3d8fc0b", "2.4.0--r42hdfd78af_0": "sha256:843a8160e754dff0798ed698eb68e32720b8dd8cb631ac1735ffab35e231eb09", "2.6.0--r43hdfd78af_0": "sha256:f095cfa26038651d93ee82a242c860d81ac953bafcb7baabe823e4a5fa98f324"}, "docker": "quay.io/biocontainers/bioconductor-gcrisprtools", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gcrisprtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gcrisprtools", "latest": {"2.8.0--r43hdfd78af_0": "sha256:238c987ec7cbb0c4043de375c766c1124074613771622ae915cf68e39c84fc99"}, "tags": {"2.0.0--r41hdfd78af_0": "sha256:47da2386925bdfd79c8d9758d74c43f8a29dd5f7f54e862bb894150dd3d8fc0b", "2.4.0--r42hdfd78af_0": "sha256:843a8160e754dff0798ed698eb68e32720b8dd8cb631ac1735ffab35e231eb09", "2.6.0--r43hdfd78af_0": "sha256:f095cfa26038651d93ee82a242c860d81ac953bafcb7baabe823e4a5fa98f324", "2.8.0--r43hdfd78af_0": "sha256:238c987ec7cbb0c4043de375c766c1124074613771622ae915cf68e39c84fc99"}, "docker": "quay.io/biocontainers/bioconductor-gcrisprtools", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gcrisprtools.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gcrisprtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gcrisprtools:2.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gcrisprtools:2.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gcrisprtools/2.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gcrisprtools/2.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gcrisprtools/2.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gcrisprtools/2.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

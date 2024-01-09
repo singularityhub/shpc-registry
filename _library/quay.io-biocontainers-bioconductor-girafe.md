@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-girafe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-girafe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-girafe/container.yaml"
-updated_at: "2024-01-08 03:30:54.025628"
+updated_at: "2024-01-09 02:56:11.617971"
 latest: "1.52.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-girafe"
 

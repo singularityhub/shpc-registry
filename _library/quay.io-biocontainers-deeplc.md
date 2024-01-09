@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deeplc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeplc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deeplc/container.yaml"
-updated_at: "2024-01-08 03:26:23.798725"
-latest: "2.2.22--pyhdfd78af_0"
+updated_at: "2024-01-09 02:51:34.529112"
+latest: "2.2.26--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deeplc"
 aliases:
  - "deeplc"
@@ -28,8 +28,9 @@ versions:
  - "2.2.9--pyhdfd78af_0"
  - "2.2.14--pyhdfd78af_0"
  - "2.2.22--pyhdfd78af_0"
+ - "2.2.26--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for deeplc"
-config: {"url": "https://biocontainers.pro/tools/deeplc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deeplc", "latest": {"2.2.22--pyhdfd78af_0": "sha256:8ddd26238101d79d588ea9e381e81a92d6877a34436ad315d9cdcd8239d9d470"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:ffd2beadc46a1f104fffcfd45a9be1ef8806f4a4b1189bad8da42a66820e3524", "2.1.9--pyhdfd78af_0": "sha256:6b754766620fba5e0ac707495e79f61afb30e57d97cfcc55dda81c76f7bfa136", "2.2.4--pyhdfd78af_0": "sha256:2fc3aa78536bcd512081be0e0a92e99c056b0ea3584c1f8153620c641f25a9f7", "2.2.9--pyhdfd78af_0": "sha256:6d0c41199698159569dfa02eb21a4a5f493b154ffcb82bda8c1d01d8d703eb4d", "2.2.14--pyhdfd78af_0": "sha256:b431b6d7b185f057c30bdd09ade8c553f00460fa004d765c5ba5279bb150232e", "2.2.22--pyhdfd78af_0": "sha256:8ddd26238101d79d588ea9e381e81a92d6877a34436ad315d9cdcd8239d9d470"}, "docker": "quay.io/biocontainers/deeplc", "aliases": {"deeplc": "/usr/local/bin/deeplc", "deeplc-gui": "/usr/local/bin/deeplc-gui", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2"}}
+config: {"url": "https://biocontainers.pro/tools/deeplc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deeplc", "latest": {"2.2.26--pyhdfd78af_0": "sha256:d10127dffc2269beb0a8d86e877b8d3d004752cf8ac903425816e28ec3dd9640"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:ffd2beadc46a1f104fffcfd45a9be1ef8806f4a4b1189bad8da42a66820e3524", "2.1.9--pyhdfd78af_0": "sha256:6b754766620fba5e0ac707495e79f61afb30e57d97cfcc55dda81c76f7bfa136", "2.2.4--pyhdfd78af_0": "sha256:2fc3aa78536bcd512081be0e0a92e99c056b0ea3584c1f8153620c641f25a9f7", "2.2.9--pyhdfd78af_0": "sha256:6d0c41199698159569dfa02eb21a4a5f493b154ffcb82bda8c1d01d8d703eb4d", "2.2.14--pyhdfd78af_0": "sha256:b431b6d7b185f057c30bdd09ade8c553f00460fa004d765c5ba5279bb150232e", "2.2.22--pyhdfd78af_0": "sha256:8ddd26238101d79d588ea9e381e81a92d6877a34436ad315d9cdcd8239d9d470", "2.2.26--pyhdfd78af_0": "sha256:d10127dffc2269beb0a8d86e877b8d3d004752cf8ac903425816e28ec3dd9640"}, "docker": "quay.io/biocontainers/deeplc", "aliases": {"deeplc": "/usr/local/bin/deeplc", "deeplc-gui": "/usr/local/bin/deeplc-gui", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deeplc.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/deeplc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deeplc:2.2.22--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/deeplc:2.2.26--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deeplc/2.2.22--pyhdfd78af_0
-$ module help quay.io/biocontainers/deeplc/2.2.22--pyhdfd78af_0
+$ module load quay.io/biocontainers/deeplc/2.2.26--pyhdfd78af_0
+$ module help quay.io/biocontainers/deeplc/2.2.26--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

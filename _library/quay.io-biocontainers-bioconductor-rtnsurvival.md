@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rtnsurvival"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtnsurvival/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtnsurvival/container.yaml"
-updated_at: "2024-01-08 03:14:19.691738"
+updated_at: "2024-01-09 02:39:07.781069"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtnsurvival"
 aliases:

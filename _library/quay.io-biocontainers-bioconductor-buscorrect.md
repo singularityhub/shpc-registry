@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-buscorrect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-buscorrect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-buscorrect/container.yaml"
-updated_at: "2024-01-08 03:15:49.515126"
-latest: "1.18.0--r43ha9d7317_0"
+updated_at: "2024-01-09 02:40:38.604201"
+latest: "1.20.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-buscorrect"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "1.10.0--r41hd029910_0"
  - "1.16.0--r42ha9d7317_1"
  - "1.18.0--r43ha9d7317_0"
+ - "1.20.0--r43ha9d7317_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-buscorrect"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-buscorrect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-buscorrect", "latest": {"1.18.0--r43ha9d7317_0": "sha256:189d85fc8798966b77589796c4165712053de31c76d2419be85e41a66141909a"}, "tags": {"1.8.0--r40hd029910_1": "sha256:a37dec7d691c3678797d7e44698507c158e3afef82ccd02e62f65a63115cbf38", "1.16.0--r42hc0cfd56_0": "sha256:9d1066a8070a70235ee591ffa6a3fcf2599322bd046067e542f8bce23d45c6b8", "1.12.0--r41hc0cfd56_2": "sha256:2b7133817bc614b6174a62e612f2f50240bcd5d73079bc00820084c36d62448c", "1.10.0--r41hd029910_0": "sha256:be154f75842a6f5a53fbeaf6ab2d66deb9d878f67c6565a81987f6342910890f", "1.16.0--r42ha9d7317_1": "sha256:173d0525fa0da9896b0090dae60a649f881471f3debc6ef73866749117ab7051", "1.18.0--r43ha9d7317_0": "sha256:189d85fc8798966b77589796c4165712053de31c76d2419be85e41a66141909a"}, "docker": "quay.io/biocontainers/bioconductor-buscorrect", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-buscorrect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-buscorrect", "latest": {"1.20.0--r43ha9d7317_0": "sha256:20d845faba8c16969b02669555463bd4aa27e111dd1cac01572e5d7f65948bfb"}, "tags": {"1.8.0--r40hd029910_1": "sha256:a37dec7d691c3678797d7e44698507c158e3afef82ccd02e62f65a63115cbf38", "1.16.0--r42hc0cfd56_0": "sha256:9d1066a8070a70235ee591ffa6a3fcf2599322bd046067e542f8bce23d45c6b8", "1.12.0--r41hc0cfd56_2": "sha256:2b7133817bc614b6174a62e612f2f50240bcd5d73079bc00820084c36d62448c", "1.10.0--r41hd029910_0": "sha256:be154f75842a6f5a53fbeaf6ab2d66deb9d878f67c6565a81987f6342910890f", "1.16.0--r42ha9d7317_1": "sha256:173d0525fa0da9896b0090dae60a649f881471f3debc6ef73866749117ab7051", "1.18.0--r43ha9d7317_0": "sha256:189d85fc8798966b77589796c4165712053de31c76d2419be85e41a66141909a", "1.20.0--r43ha9d7317_0": "sha256:20d845faba8c16969b02669555463bd4aa27e111dd1cac01572e5d7f65948bfb"}, "docker": "quay.io/biocontainers/bioconductor-buscorrect", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-buscorrect.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-buscorrect
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-buscorrect:1.18.0--r43ha9d7317_0
+$ shpc install quay.io/biocontainers/bioconductor-buscorrect:1.20.0--r43ha9d7317_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-buscorrect/1.18.0--r43ha9d7317_0
-$ module help quay.io/biocontainers/bioconductor-buscorrect/1.18.0--r43ha9d7317_0
+$ module load quay.io/biocontainers/bioconductor-buscorrect/1.20.0--r43ha9d7317_0
+$ module help quay.io/biocontainers/bioconductor-buscorrect/1.20.0--r43ha9d7317_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

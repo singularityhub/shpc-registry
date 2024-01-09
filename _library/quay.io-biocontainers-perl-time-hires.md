@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-time-hires"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-time-hires/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-time-hires/container.yaml"
-updated_at: "2024-01-08 03:19:23.144169"
+updated_at: "2024-01-09 02:44:17.763552"
 latest: "1.9764--pl5321h031d066_4"
 container_url: "https://biocontainers.pro/tools/perl-time-hires"
 aliases:

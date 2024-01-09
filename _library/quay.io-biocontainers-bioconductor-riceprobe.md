@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-riceprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-riceprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-riceprobe/container.yaml"
-updated_at: "2024-01-08 03:25:32.678514"
-latest: "2.18.0--r43hdfd78af_11"
+updated_at: "2024-01-09 02:50:41.754189"
+latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-riceprobe"
 
 versions:
  - "2.18.0--r41hdfd78af_9"
  - "2.18.0--r42hdfd78af_10"
  - "2.18.0--r43hdfd78af_11"
+ - "2.18.0--r43hdfd78af_12"
 description: "shpc-registry automated BioContainers addition for bioconductor-riceprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-riceprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-riceprobe", "latest": {"2.18.0--r43hdfd78af_11": "sha256:b8a63dd07c0c29faa718b408da8c91b4e272f7071be0d332ffe6224f25201777"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:5697f8dc2de7255b858ecba6dd0a81f547a30523f07a02a25231352b86c958b9", "2.18.0--r42hdfd78af_10": "sha256:4cbc0595fb983ea0b9cfc2df9d0d35dcfa7c74cf88dd6eeec8eb4bf3ac9b9c74", "2.18.0--r43hdfd78af_11": "sha256:b8a63dd07c0c29faa718b408da8c91b4e272f7071be0d332ffe6224f25201777"}, "docker": "quay.io/biocontainers/bioconductor-riceprobe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-riceprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-riceprobe", "latest": {"2.18.0--r43hdfd78af_12": "sha256:2d20229812707f1c954e68a608d8965c4b32533689ba7691b32199f13467c0ad"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:5697f8dc2de7255b858ecba6dd0a81f547a30523f07a02a25231352b86c958b9", "2.18.0--r42hdfd78af_10": "sha256:4cbc0595fb983ea0b9cfc2df9d0d35dcfa7c74cf88dd6eeec8eb4bf3ac9b9c74", "2.18.0--r43hdfd78af_11": "sha256:b8a63dd07c0c29faa718b408da8c91b4e272f7071be0d332ffe6224f25201777", "2.18.0--r43hdfd78af_12": "sha256:2d20229812707f1c954e68a608d8965c4b32533689ba7691b32199f13467c0ad"}, "docker": "quay.io/biocontainers/bioconductor-riceprobe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-riceprobe.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-riceprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-riceprobe:2.18.0--r43hdfd78af_11
+$ shpc install quay.io/biocontainers/bioconductor-riceprobe:2.18.0--r43hdfd78af_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-riceprobe/2.18.0--r43hdfd78af_11
-$ module help quay.io/biocontainers/bioconductor-riceprobe/2.18.0--r43hdfd78af_11
+$ module load quay.io/biocontainers/bioconductor-riceprobe/2.18.0--r43hdfd78af_12
+$ module help quay.io/biocontainers/bioconductor-riceprobe/2.18.0--r43hdfd78af_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

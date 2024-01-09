@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/submission-excel2xml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/submission-excel2xml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/submission-excel2xml/container.yaml"
-updated_at: "2024-01-08 03:19:44.791149"
+updated_at: "2024-01-09 02:44:39.827072"
 latest: "2.0.0--hf0b54c8_0"
 container_url: "https://biocontainers.pro/tools/submission-excel2xml"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cogito"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cogito/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cogito/container.yaml"
-updated_at: "2024-01-08 03:46:21.748478"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2024-01-09 03:11:55.290170"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cogito"
 aliases:
  - "pandoc"
@@ -13,8 +13,9 @@ versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cogito"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cogito", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cogito", "latest": {"1.6.0--r43hdfd78af_0": "sha256:946f92afcb7ac915a875c2d61ac24eedd5bedb310ac002d39bc4b3aa1360e5a7"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:a7e1aaae7f25d70c9e4d46e347855bff1e5ffac979d6a51e39b032cdbd3ee085", "1.4.0--r42hdfd78af_0": "sha256:1297935cd8dd924372e1737219193d188e29a03b96c4e0939319cb70ca734132", "1.6.0--r43hdfd78af_0": "sha256:946f92afcb7ac915a875c2d61ac24eedd5bedb310ac002d39bc4b3aa1360e5a7"}, "docker": "quay.io/biocontainers/bioconductor-cogito", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cogito", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cogito", "latest": {"1.8.0--r43hdfd78af_0": "sha256:ec6b136b364c53b3f6f9ca52b488c7461f269fd9e159a33ed287bf585ac08cae"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:a7e1aaae7f25d70c9e4d46e347855bff1e5ffac979d6a51e39b032cdbd3ee085", "1.4.0--r42hdfd78af_0": "sha256:1297935cd8dd924372e1737219193d188e29a03b96c4e0939319cb70ca734132", "1.6.0--r43hdfd78af_0": "sha256:946f92afcb7ac915a875c2d61ac24eedd5bedb310ac002d39bc4b3aa1360e5a7", "1.8.0--r43hdfd78af_0": "sha256:ec6b136b364c53b3f6f9ca52b488c7461f269fd9e159a33ed287bf585ac08cae"}, "docker": "quay.io/biocontainers/bioconductor-cogito", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cogito.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cogito
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cogito:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cogito:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cogito/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cogito/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cogito/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cogito/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

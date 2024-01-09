@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tiledbarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tiledbarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tiledbarray/container.yaml"
-updated_at: "2024-01-08 03:32:41.441565"
+updated_at: "2024-01-09 02:58:00.742769"
 latest: "1.12.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tiledbarray"
 

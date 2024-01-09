@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pgenlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgenlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgenlib/container.yaml"
-updated_at: "2024-01-08 03:38:19.079783"
+updated_at: "2024-01-09 03:03:47.370059"
 latest: "0.90.1--py310h551a815_0"
 container_url: "https://biocontainers.pro/tools/pgenlib"
 aliases:
