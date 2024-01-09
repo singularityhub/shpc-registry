@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-hs6ug171.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hs6ug171.db
 latest:
-  3.2.3--r43hdfd78af_11: sha256:dd958671739291b62b03c15006211a34b595daf59b67b8978ff1d9cbfdc02ba8
+  3.2.3--r43hdfd78af_12: sha256:6ad4d32a03e447d0fb63cb22d73b6bc6e90999f00d5e7fed26ef889ca730a41d
 tags:
   3.2.3--r41hdfd78af_9: sha256:8d7e514a5b0e102ccf51dd5f40799af3c879d5283d8d7a91966060cc8d60cac3
   3.2.3--r42hdfd78af_10: sha256:f4737c87ffa25d8fde47ada0d7217068bca61f9b495498194389a3349f15746c
   3.2.3--r43hdfd78af_11: sha256:dd958671739291b62b03c15006211a34b595daf59b67b8978ff1d9cbfdc02ba8
+  3.2.3--r43hdfd78af_12: sha256:6ad4d32a03e447d0fb63cb22d73b6bc6e90999f00d5e7fed26ef889ca730a41d
 docker: quay.io/biocontainers/bioconductor-hs6ug171.db

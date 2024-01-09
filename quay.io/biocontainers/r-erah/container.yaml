@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-erah
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-erah
 latest:
-  1.1.2--r43hdbdd923_0: sha256:ef13ca91c3f24f3d8ad02db0337ca18b1a8ed7c5b4b1cd65faae74faed87bdc6
+  2.0.1--r43h21a89ab_0: sha256:a8db4695aecdcf7c0ba1b95cad420a1098273e85ba335651401f70669fc60e6f
 tags:
   1.1.2--r43hdbdd923_0: sha256:ef13ca91c3f24f3d8ad02db0337ca18b1a8ed7c5b4b1cd65faae74faed87bdc6
+  2.0.1--r43h21a89ab_0: sha256:a8db4695aecdcf7c0ba1b95cad420a1098273e85ba335651401f70669fc60e6f
 docker: quay.io/biocontainers/r-erah
 aliases:
   h5fuse.sh: /usr/local/bin/h5fuse.sh

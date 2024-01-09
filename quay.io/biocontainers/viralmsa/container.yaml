@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/viralmsa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for viralmsa
 latest:
-  1.1.40--hdfd78af_0: sha256:81c912d439e1f5d85f1abed6bd1b1c04f0c019172daf02ba1ce6825860debf64
+  1.1.41--hdfd78af_0: sha256:f7b9629a6c3767f4789c85decada789fe2cfe1c66b5f86132a23b942044e4bd1
 tags:
   1.1.35--hdfd78af_0: sha256:c06d67ef26d2f820e6fa6c5cd7370782c29522d7d4c2cbb8cc1a1e59fb5687fb
   1.1.38--hdfd78af_0: sha256:45928c62539684c8d562b1788c64c42cd9502d5e24ddefe42c86a1684b068024
   1.1.40--hdfd78af_0: sha256:81c912d439e1f5d85f1abed6bd1b1c04f0c019172daf02ba1ce6825860debf64
+  1.1.41--hdfd78af_0: sha256:f7b9629a6c3767f4789c85decada789fe2cfe1c66b5f86132a23b942044e4bd1
 docker: quay.io/biocontainers/viralmsa
 aliases:
   STAR-avx: /usr/local/bin/STAR-avx

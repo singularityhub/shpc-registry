@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-glimma
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-glimma
 latest:
-  2.10.0--r43hdfd78af_0: sha256:7be49f88f8fa212b8ea0810e13ad1eb4d5b1e04d364300f020692c1b7567bf7c
+  2.12.0--r43hdfd78af_0: sha256:9da53d0d6a7a252d5975defd38d0fdba340f51b585f22cacdb8996b912e9490e
 tags:
   2.4.0--r41hdfd78af_0: sha256:623c957cf39a8f1e1c412b38750ff8f2b25027d7ac2008a49829495fb2434356
   2.8.0--r42hdfd78af_0: sha256:93092409d8d8f210076d873d6ef5614b34dd0f5d27da754208c63517ea892f57
   2.10.0--r43hdfd78af_0: sha256:7be49f88f8fa212b8ea0810e13ad1eb4d5b1e04d364300f020692c1b7567bf7c
+  2.12.0--r43hdfd78af_0: sha256:9da53d0d6a7a252d5975defd38d0fdba340f51b585f22cacdb8996b912e9490e
 docker: quay.io/biocontainers/bioconductor-glimma

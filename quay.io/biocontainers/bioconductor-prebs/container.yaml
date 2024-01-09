@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-prebs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-prebs
 latest:
-  1.40.0--r43hdfd78af_0: sha256:67fb0416ae057de078b39a11ee7018e9584a0663cbbc4d00244a40e4709e2228
+  1.42.0--r43hdfd78af_0: sha256:fcf8cc1d49292ff003b8e1830aeb89aed3fb6bb9be374e114691a854e0ff1cdb
 tags:
   1.34.0--r41hdfd78af_0: sha256:c49c8275b0f42bd519159147c5ad9b24db4f4db661152f0f2aa54a32604c8879
   1.38.0--r42hdfd78af_0: sha256:6450a616d6f8b2ddfdb331abfef5e6391d84620e2001896576f919475abb0e44
   1.40.0--r43hdfd78af_0: sha256:67fb0416ae057de078b39a11ee7018e9584a0663cbbc4d00244a40e4709e2228
+  1.42.0--r43hdfd78af_0: sha256:fcf8cc1d49292ff003b8e1830aeb89aed3fb6bb9be374e114691a854e0ff1cdb
 docker: quay.io/biocontainers/bioconductor-prebs
 aliases:
   pandoc: /usr/local/bin/pandoc
