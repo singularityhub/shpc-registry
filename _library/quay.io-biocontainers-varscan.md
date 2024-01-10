@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/varscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varscan/container.yaml"
-updated_at: "2024-01-10 02:43:45.238352"
+updated_at: "2024-01-10 08:38:40.401159"
 latest: "2.4.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/varscan"
 aliases:

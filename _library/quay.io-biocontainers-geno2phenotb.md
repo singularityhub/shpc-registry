@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/geno2phenotb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/geno2phenotb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/geno2phenotb/container.yaml"
-updated_at: "2024-01-10 03:01:49.469230"
+updated_at: "2024-01-10 08:56:50.106128"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/geno2phenotb"
 aliases:

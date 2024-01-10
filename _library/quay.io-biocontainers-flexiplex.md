@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flexiplex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flexiplex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flexiplex/container.yaml"
-updated_at: "2024-01-10 02:45:20.435815"
+updated_at: "2024-01-10 08:40:15.651903"
 latest: "0.97.1--py39h1f90b4d_1"
 container_url: "https://biocontainers.pro/tools/flexiplex"
 aliases:

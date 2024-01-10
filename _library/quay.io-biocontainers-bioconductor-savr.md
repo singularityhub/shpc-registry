@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-savr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-savr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-savr/container.yaml"
-updated_at: "2024-01-10 02:34:12.430316"
+updated_at: "2024-01-10 08:29:06.883059"
 latest: "1.37.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-savr"
 

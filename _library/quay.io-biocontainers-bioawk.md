@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioawk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioawk/container.yaml"
-updated_at: "2024-01-10 02:50:01.254538"
+updated_at: "2024-01-10 08:44:59.178656"
 latest: "1.0--he4a0461_9"
 container_url: "https://biocontainers.pro/tools/bioawk"
 aliases:

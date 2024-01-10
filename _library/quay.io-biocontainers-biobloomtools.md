@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobloomtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobloomtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobloomtools/container.yaml"
-updated_at: "2024-01-10 02:59:23.668671"
+updated_at: "2024-01-10 08:54:23.014143"
 latest: "2.3.5--h4056dc3_2"
 container_url: "https://biocontainers.pro/tools/biobloomtools"
 aliases:

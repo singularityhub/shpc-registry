@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-stepnorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stepnorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stepnorm/container.yaml"
-updated_at: "2024-01-10 02:41:16.666228"
+updated_at: "2024-01-10 08:36:11.604137"
 latest: "1.74.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stepnorm"
 

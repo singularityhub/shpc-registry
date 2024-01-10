@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coolbox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coolbox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coolbox/container.yaml"
-updated_at: "2024-01-10 02:38:45.109060"
+updated_at: "2024-01-10 08:33:40.279262"
 latest: "0.3.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/coolbox"
 aliases:

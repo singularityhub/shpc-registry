@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jarvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jarvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jarvis/container.yaml"
-updated_at: "2024-01-10 03:07:55.529363"
+updated_at: "2024-01-10 09:03:00.941145"
 latest: "1.1--h031d066_4"
 container_url: "https://biocontainers.pro/tools/jarvis"
 aliases:

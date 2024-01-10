@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/banner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/banner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/banner/container.yaml"
-updated_at: "2024-01-10 02:33:04.990359"
+updated_at: "2024-01-10 08:27:58.905994"
 latest: "0.0.2--py_0"
 container_url: "https://biocontainers.pro/tools/banner"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ms-entropy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ms-entropy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ms-entropy/container.yaml"
-updated_at: "2024-01-10 02:59:18.778268"
+updated_at: "2024-01-10 08:54:18.153147"
 latest: "1.1.1--py39hf95cd2a_0"
 container_url: "https://biocontainers.pro/tools/ms-entropy"
 aliases:
