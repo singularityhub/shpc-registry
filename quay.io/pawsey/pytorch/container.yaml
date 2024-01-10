@@ -1,6 +1,6 @@
 docker: quay.io/pawsey/pytorch
 url: https://singularity-hpc.readthedocs.io
-maintainer: dipietrantonio 
+maintainer: dipietrantonio
 features:
   gpu: true
 
