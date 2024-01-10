@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bsubtiliscdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bsubtiliscdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bsubtiliscdf/container.yaml"
-updated_at: "2024-01-09 02:44:30.002019"
+updated_at: "2024-01-10 02:43:00.751447"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-bsubtiliscdf"
 

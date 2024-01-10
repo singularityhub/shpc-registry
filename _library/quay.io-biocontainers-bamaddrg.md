@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamaddrg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamaddrg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamaddrg/container.yaml"
-updated_at: "2024-01-09 02:56:39.246106"
+updated_at: "2024-01-10 02:54:46.009136"
 latest: "9baba65f88228e55639689a3cea38dd150e6284f--h4dc6686_2"
 container_url: "https://biocontainers.pro/tools/bamaddrg"
 aliases:

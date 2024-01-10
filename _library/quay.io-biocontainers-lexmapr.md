@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lexmapr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lexmapr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lexmapr/container.yaml"
-updated_at: "2024-01-09 02:30:46.621179"
+updated_at: "2024-01-10 02:29:25.295044"
 latest: "0.7.1--py36h09cc20e_1"
 container_url: "https://biocontainers.pro/tools/lexmapr"
 aliases:

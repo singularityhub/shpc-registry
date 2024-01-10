@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gblocks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gblocks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gblocks/container.yaml"
-updated_at: "2024-01-09 03:12:56.237758"
+updated_at: "2024-01-10 03:10:40.816957"
 latest: "0.91b--h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/gblocks"
 aliases:

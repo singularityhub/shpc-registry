@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/intarna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/intarna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/intarna/container.yaml"
-updated_at: "2024-01-09 02:49:19.281508"
+updated_at: "2024-01-10 02:47:39.182791"
 latest: "3.3.2--pl5321h21ec9f0_1"
 container_url: "https://biocontainers.pro/tools/intarna"
 aliases:

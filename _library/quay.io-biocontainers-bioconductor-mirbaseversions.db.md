@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-mirbaseversions.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirbaseversions.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirbaseversions.db/container.yaml"
-updated_at: "2024-01-09 03:10:39.006616"
-latest: "1.1.0--r43hdfd78af_12"
+updated_at: "2024-01-10 03:08:29.671596"
+latest: "1.1.0--r43hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirbaseversions.db"
 
 versions:
  - "1.1.0--r41hdfd78af_9"
  - "1.1.0--r42hdfd78af_11"
  - "1.1.0--r43hdfd78af_12"
+ - "1.1.0--r43hdfd78af_13"
 description: "shpc-registry automated BioContainers addition for bioconductor-mirbaseversions.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mirbaseversions.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirbaseversions.db", "latest": {"1.1.0--r43hdfd78af_12": "sha256:4fbbdbacb2784e3093fb7650795c6dd279b0a9c54c18d8ba3011a5891e4dbae2"}, "tags": {"1.1.0--r41hdfd78af_9": "sha256:0d4bb11653288d0dfc50fb48fdde0de08560565615831426a09ed65cb4c0b80a", "1.1.0--r42hdfd78af_11": "sha256:c5d3acc4ff8a944677e639de0886338d7a3cf5d0989efbcafb75e35e914a2b64", "1.1.0--r43hdfd78af_12": "sha256:4fbbdbacb2784e3093fb7650795c6dd279b0a9c54c18d8ba3011a5891e4dbae2"}, "docker": "quay.io/biocontainers/bioconductor-mirbaseversions.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mirbaseversions.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirbaseversions.db", "latest": {"1.1.0--r43hdfd78af_13": "sha256:3222955c0dea6c81e92d714bcdd852199ddd07fda5d45e54aac2d80db5956323"}, "tags": {"1.1.0--r41hdfd78af_9": "sha256:0d4bb11653288d0dfc50fb48fdde0de08560565615831426a09ed65cb4c0b80a", "1.1.0--r42hdfd78af_11": "sha256:c5d3acc4ff8a944677e639de0886338d7a3cf5d0989efbcafb75e35e914a2b64", "1.1.0--r43hdfd78af_12": "sha256:4fbbdbacb2784e3093fb7650795c6dd279b0a9c54c18d8ba3011a5891e4dbae2", "1.1.0--r43hdfd78af_13": "sha256:3222955c0dea6c81e92d714bcdd852199ddd07fda5d45e54aac2d80db5956323"}, "docker": "quay.io/biocontainers/bioconductor-mirbaseversions.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mirbaseversions.db.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mirbaseversions.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mirbaseversions.db:1.1.0--r43hdfd78af_12
+$ shpc install quay.io/biocontainers/bioconductor-mirbaseversions.db:1.1.0--r43hdfd78af_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mirbaseversions.db/1.1.0--r43hdfd78af_12
-$ module help quay.io/biocontainers/bioconductor-mirbaseversions.db/1.1.0--r43hdfd78af_12
+$ module load quay.io/biocontainers/bioconductor-mirbaseversions.db/1.1.0--r43hdfd78af_13
+$ module help quay.io/biocontainers/bioconductor-mirbaseversions.db/1.1.0--r43hdfd78af_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

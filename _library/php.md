@@ -4,8 +4,8 @@ name:  "php"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/php/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/php/container.yaml"
-updated_at: "2024-01-09 03:16:22.541742"
-latest: "8-alpine3.18"
+updated_at: "2024-01-10 03:14:04.987424"
+latest: "8-alpine3.19"
 container_url: "https://hub.docker.com/_/php"
 aliases:
  - "php"
@@ -37,8 +37,9 @@ versions:
  - "8-alpine3.17"
  - "8.2"
  - "8-alpine3.18"
+ - "8-alpine3.19"
 description: "While designed for web development, the PHP scripting language also provides general-purpose use."
-config: {"docker": "php", "url": "https://hub.docker.com/_/php", "maintainer": "@vsoch", "description": "While designed for web development, the PHP scripting language also provides general-purpose use.", "latest": {"8-alpine3.18": "sha256:72ce7e0cf01d9325c30f1d5c4a588fa794c2e1620dd7c087f5a682cc9c27ff39"}, "tags": {"7.3.27-zts-alpine3.12": "sha256:33c32435b162a6aa427a506f4d3fd3616ab1897a0211c5787649e9e07b967223", "8.0.3-alpine": "sha256:f32cd843417d9271d1500ed3867922175604a243d8033ad1572d617ad7954171", "8.0.5-alpine": "sha256:b728c7e60d1bdb28bfba1bbd4ac3328fbde3a70a959a55c318ccae3fc4d170cf", "8.0.6-alpine": "sha256:a5afa558fcf8030edbc0f160339eaeefccdf1af53df35d0d26171c470a7ab5b6", "8.0.7-alpine": "sha256:edd37734c824c65cdbc1e68c9ac928c590a5c750b6b49c656a302b3b0742d371", "8.1.0": "sha256:b2afd03bcad73aa0a207b0be83310fb2cb35b7a47aceb89e82437b1d19bf81c5", "8.1.0RC1": "sha256:cfa06c39de438a7b7a3977d6412ec580721ad440472b0973ed87ff3758adb0aa", "8.1.0alpha1": "sha256:a63a64bc485982b0543af4ff2fe6e42cd82d65afc39eb4e073f5d361636513fb", "8.1.0alpha1-alpine": "sha256:028c42e86276c77e4bf5d05fb9df93142344d83f971f369a80b6f6e30a50e14b", "8.1.1": "sha256:444ba13f11741642a2692430f6678d47fb028442160ec9a5cfa9da7d3c0a9e07", "8.1.2": "sha256:f1d66b530e99d2e3c2ea302523c5a10ae9e666ddb5ceaacb7dda0af20c7976d7", "8.1.3": "sha256:c0dc322c09db1db4a02f98c97a361a91308c29a3d256703c1e1b64f1ddc28ac6", "latest": "sha256:0490f6f8fe4d442ebcda2604b55f6260831f082a40425f67d91abf4ba78b725b", "8": "sha256:0490f6f8fe4d442ebcda2604b55f6260831f082a40425f67d91abf4ba78b725b", "8-alpine3.15": "sha256:26d871b044c414dcf3564a018197211627d8b06e7b29415e870a585a2f365c3f", "8.1": "sha256:0df0549e01e32ce5e16db7cb4becf56e487c49a74f6322c242a7a4bb8e8e514e", "8.0": "sha256:0569e384b9064c04dec55dc6e41be41b494a878dfbb6577a7d76bd50cfd5bc00", "7": "sha256:620a6b9f4d4feef2210026172570465e9d0c1de79766418d3affd09190a7fda5", "8-alpine3.16": "sha256:9085a1c6e1c866314dccad5687254f98a139a36938e87235e65f13c83bfe9352", "8.2-rc": "sha256:898d05e063e38967e701617b2c19ae2306d23a496ec2bd32dbe662cd07c7157d", "8-alpine3.17": "sha256:af0809570027627bd16e89dea01fefcec427a1220dcaa494ee9d7afdfcfc2fcc", "8.2": "sha256:fcf36572f8c4fa59a5d3ba06ff5cc780c819c51d9d1e34d93f8dd6fa95305fc3", "8-alpine3.18": "sha256:72ce7e0cf01d9325c30f1d5c4a588fa794c2e1620dd7c087f5a682cc9c27ff39"}, "aliases": {"php": "/usr/local/bin/php", "php-cgi": "/usr/local/bin/php-cgi", "php-config": "/usr/local/bin/php-config", "phpdbg": "/usr/local/bin/phpdbg", "phpize": "/usr/local/bin/phpize"}}
+config: {"docker": "php", "url": "https://hub.docker.com/_/php", "maintainer": "@vsoch", "description": "While designed for web development, the PHP scripting language also provides general-purpose use.", "latest": {"8-alpine3.19": "sha256:26be1d9d2ac4d3f6a205c143af2933f18268c9ab77582f72906f3d394a4bc62e"}, "tags": {"7.3.27-zts-alpine3.12": "sha256:33c32435b162a6aa427a506f4d3fd3616ab1897a0211c5787649e9e07b967223", "8.0.3-alpine": "sha256:f32cd843417d9271d1500ed3867922175604a243d8033ad1572d617ad7954171", "8.0.5-alpine": "sha256:b728c7e60d1bdb28bfba1bbd4ac3328fbde3a70a959a55c318ccae3fc4d170cf", "8.0.6-alpine": "sha256:a5afa558fcf8030edbc0f160339eaeefccdf1af53df35d0d26171c470a7ab5b6", "8.0.7-alpine": "sha256:edd37734c824c65cdbc1e68c9ac928c590a5c750b6b49c656a302b3b0742d371", "8.1.0": "sha256:b2afd03bcad73aa0a207b0be83310fb2cb35b7a47aceb89e82437b1d19bf81c5", "8.1.0RC1": "sha256:cfa06c39de438a7b7a3977d6412ec580721ad440472b0973ed87ff3758adb0aa", "8.1.0alpha1": "sha256:a63a64bc485982b0543af4ff2fe6e42cd82d65afc39eb4e073f5d361636513fb", "8.1.0alpha1-alpine": "sha256:028c42e86276c77e4bf5d05fb9df93142344d83f971f369a80b6f6e30a50e14b", "8.1.1": "sha256:444ba13f11741642a2692430f6678d47fb028442160ec9a5cfa9da7d3c0a9e07", "8.1.2": "sha256:f1d66b530e99d2e3c2ea302523c5a10ae9e666ddb5ceaacb7dda0af20c7976d7", "8.1.3": "sha256:c0dc322c09db1db4a02f98c97a361a91308c29a3d256703c1e1b64f1ddc28ac6", "latest": "sha256:481d0f643fdc81304bce2547880ac80a10f39736b44e286a81174a5f64af5a28", "8": "sha256:481d0f643fdc81304bce2547880ac80a10f39736b44e286a81174a5f64af5a28", "8-alpine3.15": "sha256:26d871b044c414dcf3564a018197211627d8b06e7b29415e870a585a2f365c3f", "8.1": "sha256:9b5dfb7deef3e48d67b2599e4d3967bb3ece19fd5ba09cb8e7ee10f5facf36e0", "8.0": "sha256:0569e384b9064c04dec55dc6e41be41b494a878dfbb6577a7d76bd50cfd5bc00", "7": "sha256:620a6b9f4d4feef2210026172570465e9d0c1de79766418d3affd09190a7fda5", "8-alpine3.16": "sha256:9085a1c6e1c866314dccad5687254f98a139a36938e87235e65f13c83bfe9352", "8.2-rc": "sha256:c160c7e20d7a5df306af2c73925e6e8a8412245d4253487f2c989333939adcec", "8-alpine3.17": "sha256:af0809570027627bd16e89dea01fefcec427a1220dcaa494ee9d7afdfcfc2fcc", "8.2": "sha256:7f2883e29affa441169d00cceddbcf97a864b65474c2e7c89cab88afc6c2099c", "8-alpine3.18": "sha256:87cd6345439dcd87a936a9483111859b81bc418cdbb0dc14e9fff448037480ff", "8-alpine3.19": "sha256:26be1d9d2ac4d3f6a205c143af2933f18268c9ab77582f72906f3d394a4bc62e"}, "aliases": {"php": "/usr/local/bin/php", "php-cgi": "/usr/local/bin/php-cgi", "php-config": "/usr/local/bin/php-config", "phpdbg": "/usr/local/bin/phpdbg", "phpize": "/usr/local/bin/phpize"}}
 ---
 
 This module is a singularity container wrapper for php.
@@ -53,7 +54,7 @@ $ shpc install php
 Or a specific version:
 
 ```bash
-$ shpc install php:8-alpine3.18
+$ shpc install php:8-alpine3.19
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load php/8-alpine3.18
-$ module help php/8-alpine3.18
+$ module load php/8-alpine3.19
+$ module help php/8-alpine3.19
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

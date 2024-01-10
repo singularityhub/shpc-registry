@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-delayedtensor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-delayedtensor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-delayedtensor/container.yaml"
-updated_at: "2024-01-09 02:36:02.466303"
-latest: "1.6.0--r43hdfd78af_0"
+updated_at: "2024-01-10 02:34:39.847516"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-delayedtensor"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-delayedtensor"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-delayedtensor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-delayedtensor", "latest": {"1.6.0--r43hdfd78af_0": "sha256:4ca7a338c358cefb4579ece31433fd7a8f94e2955a112ad937c7e7e17351dcc2"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:891c8aa10491b6a62051ee9ca8ccb6b2d02752fe455a51fbee987d5f1c95d677", "1.4.0--r42hdfd78af_0": "sha256:d1ad2c2f7049578604b4f4763128146dc38c74d43ba4ec75d4c59b00a42351fe", "1.6.0--r43hdfd78af_0": "sha256:4ca7a338c358cefb4579ece31433fd7a8f94e2955a112ad937c7e7e17351dcc2"}, "docker": "quay.io/biocontainers/bioconductor-delayedtensor"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-delayedtensor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-delayedtensor", "latest": {"1.8.0--r43hdfd78af_0": "sha256:4708c388a9f4a60743a7cdefde886fa7ac92fc14f37ca30470497718fd43dd28"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:891c8aa10491b6a62051ee9ca8ccb6b2d02752fe455a51fbee987d5f1c95d677", "1.4.0--r42hdfd78af_0": "sha256:d1ad2c2f7049578604b4f4763128146dc38c74d43ba4ec75d4c59b00a42351fe", "1.6.0--r43hdfd78af_0": "sha256:4ca7a338c358cefb4579ece31433fd7a8f94e2955a112ad937c7e7e17351dcc2", "1.8.0--r43hdfd78af_0": "sha256:4708c388a9f4a60743a7cdefde886fa7ac92fc14f37ca30470497718fd43dd28"}, "docker": "quay.io/biocontainers/bioconductor-delayedtensor"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-delayedtensor.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-delayedtensor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-delayedtensor:1.6.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-delayedtensor:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-delayedtensor/1.6.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-delayedtensor/1.6.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-delayedtensor/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-delayedtensor/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

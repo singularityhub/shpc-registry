@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-magar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-magar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-magar/container.yaml"
-updated_at: "2024-01-09 03:08:04.311652"
-latest: "1.8.0--r43hdfd78af_0"
+updated_at: "2024-01-10 03:05:55.938126"
+latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-magar"
 aliases:
  - "2to3-3.10"
@@ -18,8 +18,9 @@ versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
+ - "1.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-magar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-magar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-magar", "latest": {"1.8.0--r43hdfd78af_0": "sha256:0604aaccfa39aab1ea083a17c81ac232e7047ab8516ba796b64661b73c4f00d2"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:b19900d28ddbf17807f6050b5ef613da101d7f942b39ae37f527a19376a4b39e", "1.6.0--r42hdfd78af_0": "sha256:14b0f64c8b67c6244754d9f2d44c7cc0bfa6169961a66669262b070a27437f25", "1.8.0--r43hdfd78af_0": "sha256:0604aaccfa39aab1ea083a17c81ac232e7047ab8516ba796b64661b73c4f00d2"}, "docker": "quay.io/biocontainers/bioconductor-magar", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-magar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-magar", "latest": {"1.10.0--r43hdfd78af_0": "sha256:13fee3320a296b0ff15cb132b9dd5c29bc775982930c8fd46666942c87979403"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:b19900d28ddbf17807f6050b5ef613da101d7f942b39ae37f527a19376a4b39e", "1.6.0--r42hdfd78af_0": "sha256:14b0f64c8b67c6244754d9f2d44c7cc0bfa6169961a66669262b070a27437f25", "1.8.0--r43hdfd78af_0": "sha256:0604aaccfa39aab1ea083a17c81ac232e7047ab8516ba796b64661b73c4f00d2", "1.10.0--r43hdfd78af_0": "sha256:13fee3320a296b0ff15cb132b9dd5c29bc775982930c8fd46666942c87979403"}, "docker": "quay.io/biocontainers/bioconductor-magar", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-magar.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-magar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-magar:1.8.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-magar:1.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-magar/1.8.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-magar/1.8.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-magar/1.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-magar/1.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

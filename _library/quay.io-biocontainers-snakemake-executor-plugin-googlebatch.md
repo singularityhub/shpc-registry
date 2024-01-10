@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-executor-plugin-googlebatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-executor-plugin-googlebatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-executor-plugin-googlebatch/container.yaml"
-updated_at: "2024-01-09 02:44:49.182824"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2024-01-10 02:43:19.395558"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-executor-plugin-googlebatch"
 aliases:
  - "protoc-24.4.0"
@@ -31,8 +31,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-executor-plugin-googlebatch"
-config: {"url": "https://biocontainers.pro/tools/snakemake-executor-plugin-googlebatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-executor-plugin-googlebatch", "latest": {"0.1.1--pyhdfd78af_0": "sha256:0b81b71a6f488202ba5102372965673eead4682367def48c08395d41845c7d3f"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:0b81b71a6f488202ba5102372965673eead4682367def48c08395d41845c7d3f"}, "docker": "quay.io/biocontainers/snakemake-executor-plugin-googlebatch", "aliases": {"protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "protoc": "/usr/local/bin/protoc", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-executor-plugin-googlebatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-executor-plugin-googlebatch", "latest": {"0.2.0--pyhdfd78af_0": "sha256:4562108d03af29f0dd5177790918cb03c98bc9f01e49c52aee3c7fcc458e95f7"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:0b81b71a6f488202ba5102372965673eead4682367def48c08395d41845c7d3f", "0.2.0--pyhdfd78af_0": "sha256:4562108d03af29f0dd5177790918cb03c98bc9f01e49c52aee3c7fcc458e95f7"}, "docker": "quay.io/biocontainers/snakemake-executor-plugin-googlebatch", "aliases": {"protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "protoc": "/usr/local/bin/protoc", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-executor-plugin-googlebatch.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/snakemake-executor-plugin-googlebatch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-executor-plugin-googlebatch:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-executor-plugin-googlebatch:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-executor-plugin-googlebatch/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-executor-plugin-googlebatch/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-executor-plugin-googlebatch/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-executor-plugin-googlebatch/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
