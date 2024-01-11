@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ucell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ucell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ucell/container.yaml"
-updated_at: "2024-01-10 08:37:56.145361"
+updated_at: "2024-01-10 23:43:06.119439"
 latest: "2.6.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ucell"
 aliases:

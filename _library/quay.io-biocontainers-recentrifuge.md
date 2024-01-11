@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/recentrifuge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recentrifuge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recentrifuge/container.yaml"
-updated_at: "2024-01-10 09:06:58.870523"
+updated_at: "2024-01-11 00:11:36.753129"
 latest: "1.12.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/recentrifuge"
 aliases:

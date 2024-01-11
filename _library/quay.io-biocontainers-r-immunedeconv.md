@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-immunedeconv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-immunedeconv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-immunedeconv/container.yaml"
-updated_at: "2024-01-10 08:57:05.362043"
+updated_at: "2024-01-11 00:01:58.726466"
 latest: "2.1.2--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-immunedeconv"
 

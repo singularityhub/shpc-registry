@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/duplomap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/duplomap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/duplomap/container.yaml"
-updated_at: "2024-01-10 08:24:48.576016"
+updated_at: "2024-01-10 23:30:13.435160"
 latest: "0.9.5--he4a0461_3"
 container_url: "https://biocontainers.pro/tools/duplomap"
 aliases:

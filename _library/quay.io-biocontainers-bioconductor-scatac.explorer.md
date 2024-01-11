@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scatac.explorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scatac.explorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scatac.explorer/container.yaml"
-updated_at: "2024-01-10 08:41:27.284021"
+updated_at: "2024-01-10 23:46:34.641431"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scatac.explorer"
 

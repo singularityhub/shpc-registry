@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/indelfixer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/indelfixer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/indelfixer/container.yaml"
-updated_at: "2024-01-10 08:44:19.679577"
+updated_at: "2024-01-10 23:49:24.051963"
 latest: "1.1--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/indelfixer"
 aliases:

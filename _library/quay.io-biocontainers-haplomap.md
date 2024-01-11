@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haplomap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haplomap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haplomap/container.yaml"
-updated_at: "2024-01-10 08:45:46.210469"
+updated_at: "2024-01-10 23:50:49.172986"
 latest: "0.1.0--h8cec121_2"
 container_url: "https://biocontainers.pro/tools/haplomap"
 aliases:

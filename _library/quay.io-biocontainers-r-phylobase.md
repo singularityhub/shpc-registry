@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-phylobase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-phylobase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-phylobase/container.yaml"
-updated_at: "2024-01-10 09:00:33.093219"
+updated_at: "2024-01-11 00:05:21.145485"
 latest: "0.8.6--r36h0357c0b_2"
 container_url: "https://biocontainers.pro/tools/r-phylobase"
 aliases:
