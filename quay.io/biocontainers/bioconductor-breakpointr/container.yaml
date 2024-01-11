@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-breakpointr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-breakpointr
 latest:
-  1.16.0--r42hdfd78af_0: sha256:738662e2583c4cb7a6ce903a0c94adc3f88d29637b3878c696d10d6871402fcb
+  1.20.0--r43hdfd78af_0: sha256:215ebe8d1104f244cd7d3393f69cd8e685b9ac57a38d302b047a1a11dcf05d46
 tags:
   1.8.0--r40hdfd78af_1: sha256:50dcd0f9f3e2b19ba7db3c28190b443828878e2ecfc191767d4a5a67dc16d296
   1.16.0--r42hdfd78af_0: sha256:738662e2583c4cb7a6ce903a0c94adc3f88d29637b3878c696d10d6871402fcb
   1.12.0--r41hdfd78af_0: sha256:fae8a814e1d64cce00abc2121b013a1bea709ccece9a0a105148cc4304ec6d6c
   1.10.0--r41hdfd78af_0: sha256:e7ca174c28515c8ecbb20a984a84008bbd8de3ccdf4be358b956b70a794b947a
+  1.20.0--r43hdfd78af_0: sha256:215ebe8d1104f244cd7d3393f69cd8e685b9ac57a38d302b047a1a11dcf05d46
 docker: quay.io/biocontainers/bioconductor-breakpointr
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
