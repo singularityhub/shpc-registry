@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepvariant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepvariant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepvariant/container.yaml"
-updated_at: "2024-01-10 23:50:37.076540"
+updated_at: "2024-01-11 02:51:34.245529"
 latest: "1.5.0--py36hf3e76ba_0"
 container_url: "https://biocontainers.pro/tools/deepvariant"
 aliases:

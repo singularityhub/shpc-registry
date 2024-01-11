@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methylinheritance"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylinheritance/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylinheritance/container.yaml"
-updated_at: "2024-01-10 23:43:55.769548"
+updated_at: "2024-01-11 02:44:55.792429"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylinheritance"
 aliases:

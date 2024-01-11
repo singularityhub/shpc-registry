@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cityhash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cityhash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cityhash/container.yaml"
-updated_at: "2024-01-10 23:44:37.496735"
+updated_at: "2024-01-11 02:45:36.999444"
 latest: "0.2.3.post9--py27_0"
 container_url: "https://biocontainers.pro/tools/cityhash"
 aliases:

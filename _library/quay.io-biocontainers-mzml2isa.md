@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mzml2isa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mzml2isa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mzml2isa/container.yaml"
-updated_at: "2024-01-11 00:11:51.538757"
+updated_at: "2024-01-11 03:12:51.661047"
 latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mzml2isa"
 aliases:

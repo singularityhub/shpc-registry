@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyomo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyomo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyomo/container.yaml"
-updated_at: "2024-01-10 23:35:39.859579"
+updated_at: "2024-01-11 02:36:36.133852"
 latest: "4.1.10527--py34_0"
 container_url: "https://biocontainers.pro/tools/pyomo"
 aliases:

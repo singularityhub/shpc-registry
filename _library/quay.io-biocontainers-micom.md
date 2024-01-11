@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/micom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/micom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/micom/container.yaml"
-updated_at: "2024-01-10 23:48:15.596513"
+updated_at: "2024-01-11 02:49:14.009555"
 latest: "0.33.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/micom"
 aliases:

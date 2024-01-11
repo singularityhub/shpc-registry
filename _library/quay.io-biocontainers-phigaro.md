@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phigaro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phigaro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phigaro/container.yaml"
-updated_at: "2024-01-10 23:52:19.443948"
+updated_at: "2024-01-11 02:53:15.438305"
 latest: "2.3.0--pyh7b7c402_1"
 container_url: "https://biocontainers.pro/tools/phigaro"
 aliases:

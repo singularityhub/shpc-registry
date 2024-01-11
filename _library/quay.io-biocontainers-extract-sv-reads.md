@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/extract-sv-reads"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extract-sv-reads/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/extract-sv-reads/container.yaml"
-updated_at: "2024-01-11 00:02:10.015430"
+updated_at: "2024-01-11 03:03:03.535500"
 latest: "1.3.0--pl5321h376f1d3_4"
 container_url: "https://biocontainers.pro/tools/extract-sv-reads"
 aliases:
