@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/vcfphasesets
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vcfphasesets
+latest:
+  0.3--pyhdfd78af_0: sha256:b7bb2bed396e6ee401051dfa01ebeafa8f9608e987d72201c0184d9f768de126
+tags:
+  0.3--pyhdfd78af_0: sha256:b7bb2bed396e6ee401051dfa01ebeafa8f9608e987d72201c0184d9f768de126
+docker: quay.io/biocontainers/vcfphasesets
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
