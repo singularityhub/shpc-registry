@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mait"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mait/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mait/container.yaml"
-updated_at: "2024-01-11 03:11:48.749735"
+updated_at: "2024-01-11 04:14:07.838919"
 latest: "1.36.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mait"
 aliases:

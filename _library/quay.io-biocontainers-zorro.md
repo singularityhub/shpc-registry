@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zorro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zorro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zorro/container.yaml"
-updated_at: "2024-01-11 02:53:05.573720"
+updated_at: "2024-01-11 03:55:07.454728"
 latest: "2011.12.01--h031d066_4"
 container_url: "https://biocontainers.pro/tools/zorro"
 aliases:

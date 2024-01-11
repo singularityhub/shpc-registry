@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-svm2crmdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-svm2crmdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-svm2crmdata/container.yaml"
-updated_at: "2024-01-11 03:04:08.252279"
+updated_at: "2024-01-11 04:06:26.306875"
 latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-svm2crmdata"
 

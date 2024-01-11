@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bader/container.yaml"
-updated_at: "2024-01-11 03:05:22.739254"
+updated_at: "2024-01-11 04:07:42.578658"
 latest: "1.40.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bader"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/methphaser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methphaser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methphaser/container.yaml"
-updated_at: "2024-01-11 02:36:22.720354"
+updated_at: "2024-01-11 03:38:05.135008"
 latest: "0.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/methphaser"
 aliases:
