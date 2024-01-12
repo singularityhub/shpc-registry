@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pypolca
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pypolca
 latest:
-  0.2.0--pyhdfd78af_0: sha256:13d0d9c402401802d6d429c8c93e28442d1422f4d0f493a4ea8803725c6e7a3a
+  0.2.1--pyhdfd78af_0: sha256:203895a4b08f4681d959fd3a89c29dea1207838659d338b76226a81947053f0e
 tags:
   0.1.1--pyhdfd78af_0: sha256:bd2df98b05ced93aa1930458fbed6ba2396aa4fed08efa87ba276d33bacaec1e
   0.2.0--pyhdfd78af_0: sha256:13d0d9c402401802d6d429c8c93e28442d1422f4d0f493a4ea8803725c6e7a3a
+  0.2.1--pyhdfd78af_0: sha256:203895a4b08f4681d959fd3a89c29dea1207838659d338b76226a81947053f0e
 docker: quay.io/biocontainers/pypolca
 aliases:
   pypolca: /usr/local/bin/pypolca

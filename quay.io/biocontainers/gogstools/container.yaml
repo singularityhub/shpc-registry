@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gogstools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gogstools
 latest:
-  0.1.1--py310hdfd78af_0: sha256:5d7751c44c35048d91a2aea3da86dbc9359f113b7396a83f3cd3956b02f9257f
+  0.1.2--py310hdfd78af_0: sha256:175d0ab68347b6de104c7c42ae4eebe225f30b1ae7261c1639329316531b9038
 tags:
   0.1.1--py310hdfd78af_0: sha256:5d7751c44c35048d91a2aea3da86dbc9359f113b7396a83f3cd3956b02f9257f
+  0.1.2--py310hdfd78af_0: sha256:175d0ab68347b6de104c7c42ae4eebe225f30b1ae7261c1639329316531b9038
 docker: quay.io/biocontainers/gogstools
 aliases:
   gff2embl: /usr/local/bin/gff2embl

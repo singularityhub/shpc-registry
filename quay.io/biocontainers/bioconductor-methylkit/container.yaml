@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-methylkit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-methylkit
 latest:
-  1.26.0--r43hf17093f_0: sha256:96c91be9687991ef9e415a6a18e2e28856957a34e577ea3abaeb42f24859743e
+  1.28.0--r43hf17093f_0: sha256:40a26dd0292c28c132452b1d434a91ebcbcf8a5d1d2d8203ed2d1b6b67ab8dfc
 tags:
   1.8.1--r351hf484d3e_0: sha256:909ebe59da99357056b614d693d766fdc8a7c3fb13b40aac7415771485a7eb9d
   1.24.0--r42hc247a5b_0: sha256:2fafe50bdc5b1c4b395a43252a96e01ff19625f6b1191e1f9e0037a7f9caf7be
@@ -12,6 +12,7 @@ tags:
   1.14.1--r40h5f743cb_0: sha256:fc3f51fa17884aca1ef397ec56a8c7bdf2a444a7dac398da556afa8fcbc0d8d3
   1.24.0--r42hf17093f_1: sha256:a41620e457db22d376f2c452e6bf75f84ed2100e1285f12b13ee40562d343a51
   1.26.0--r43hf17093f_0: sha256:96c91be9687991ef9e415a6a18e2e28856957a34e577ea3abaeb42f24859743e
+  1.28.0--r43hf17093f_0: sha256:40a26dd0292c28c132452b1d434a91ebcbcf8a5d1d2d8203ed2d1b6b67ab8dfc
 docker: quay.io/biocontainers/bioconductor-methylkit
 aliases:
   wget: /usr/local/bin/wget
