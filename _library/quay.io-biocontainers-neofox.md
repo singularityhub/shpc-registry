@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/neofox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/neofox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/neofox/container.yaml"
-updated_at: "2024-01-11 03:47:52.010088"
+updated_at: "2024-01-12 02:46:34.832970"
 latest: "1.0.2--pyr42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/neofox"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/galaxy-objectstore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-objectstore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-objectstore/container.yaml"
-updated_at: "2024-01-11 03:37:05.646702"
-latest: "23.1.3--pyhdfd78af_0"
+updated_at: "2024-01-12 02:35:51.577030"
+latest: "23.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galaxy-objectstore"
 aliases:
  - "cheetah"
@@ -28,8 +28,9 @@ versions:
  - "23.1.1--pyhdfd78af_0"
  - "23.0.6--pyhdfd78af_0"
  - "23.1.3--pyhdfd78af_0"
+ - "23.1.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for galaxy-objectstore"
-config: {"url": "https://biocontainers.pro/tools/galaxy-objectstore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-objectstore", "latest": {"23.1.3--pyhdfd78af_0": "sha256:f3b29bd811e9663a3f0e46cd93d110e627bcdb72fca1641de3265779451a0b39"}, "tags": {"22.1.1--pyhdfd78af_0": "sha256:61ccf6a893390ea655b838478affed3fb4967fc79914ef306d7631caec6c77a5", "23.0.4--pyhdfd78af_0": "sha256:7547ee5e7e47939757621cff8bf4163c7a0e8a57a57464caf3e700d79b3dc13e", "23.0.5--pyhdfd78af_0": "sha256:0c4f4524e802665b0b0574b698530d9851b141f17a7e3b055a31e16ea519f731", "23.1.1--pyhdfd78af_0": "sha256:56bdd305540d57fc080c87aabdb1f8d972041930ab6e76a1e52b20e4cf066a81", "23.0.6--pyhdfd78af_0": "sha256:14f1d1f614d75c58687e63c7c866e03c8a22b5ccc74cc3c447377b365bd0a2d0", "23.1.3--pyhdfd78af_0": "sha256:f3b29bd811e9663a3f0e46cd93d110e627bcdb72fca1641de3265779451a0b39"}, "docker": "quay.io/biocontainers/galaxy-objectstore", "aliases": {"cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "docutils": "/usr/local/bin/docutils", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py"}}
+config: {"url": "https://biocontainers.pro/tools/galaxy-objectstore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-objectstore", "latest": {"23.1.4--pyhdfd78af_0": "sha256:290bf0b322b981020c86d0a51c70871a1b0e8e1744ba4a8edb1e98ad19734936"}, "tags": {"22.1.1--pyhdfd78af_0": "sha256:61ccf6a893390ea655b838478affed3fb4967fc79914ef306d7631caec6c77a5", "23.0.4--pyhdfd78af_0": "sha256:7547ee5e7e47939757621cff8bf4163c7a0e8a57a57464caf3e700d79b3dc13e", "23.0.5--pyhdfd78af_0": "sha256:0c4f4524e802665b0b0574b698530d9851b141f17a7e3b055a31e16ea519f731", "23.1.1--pyhdfd78af_0": "sha256:56bdd305540d57fc080c87aabdb1f8d972041930ab6e76a1e52b20e4cf066a81", "23.0.6--pyhdfd78af_0": "sha256:14f1d1f614d75c58687e63c7c866e03c8a22b5ccc74cc3c447377b365bd0a2d0", "23.1.3--pyhdfd78af_0": "sha256:f3b29bd811e9663a3f0e46cd93d110e627bcdb72fca1641de3265779451a0b39", "23.1.4--pyhdfd78af_0": "sha256:290bf0b322b981020c86d0a51c70871a1b0e8e1744ba4a8edb1e98ad19734936"}, "docker": "quay.io/biocontainers/galaxy-objectstore", "aliases": {"cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "docutils": "/usr/local/bin/docutils", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy-objectstore.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/galaxy-objectstore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/galaxy-objectstore:23.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/galaxy-objectstore:23.1.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/galaxy-objectstore/23.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/galaxy-objectstore/23.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/galaxy-objectstore/23.1.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/galaxy-objectstore/23.1.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-breakpointr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-breakpointr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-breakpointr/container.yaml"
-updated_at: "2024-01-11 03:58:37.658593"
-latest: "1.16.0--r42hdfd78af_0"
+updated_at: "2024-01-12 02:57:14.802013"
+latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-breakpointr"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.16.0--r42hdfd78af_0"
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
+ - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-breakpointr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-breakpointr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-breakpointr", "latest": {"1.16.0--r42hdfd78af_0": "sha256:738662e2583c4cb7a6ce903a0c94adc3f88d29637b3878c696d10d6871402fcb"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:50dcd0f9f3e2b19ba7db3c28190b443828878e2ecfc191767d4a5a67dc16d296", "1.16.0--r42hdfd78af_0": "sha256:738662e2583c4cb7a6ce903a0c94adc3f88d29637b3878c696d10d6871402fcb", "1.12.0--r41hdfd78af_0": "sha256:fae8a814e1d64cce00abc2121b013a1bea709ccece9a0a105148cc4304ec6d6c", "1.10.0--r41hdfd78af_0": "sha256:e7ca174c28515c8ecbb20a984a84008bbd8de3ccdf4be358b956b70a794b947a"}, "docker": "quay.io/biocontainers/bioconductor-breakpointr", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-breakpointr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-breakpointr", "latest": {"1.20.0--r43hdfd78af_0": "sha256:215ebe8d1104f244cd7d3393f69cd8e685b9ac57a38d302b047a1a11dcf05d46"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:50dcd0f9f3e2b19ba7db3c28190b443828878e2ecfc191767d4a5a67dc16d296", "1.16.0--r42hdfd78af_0": "sha256:738662e2583c4cb7a6ce903a0c94adc3f88d29637b3878c696d10d6871402fcb", "1.12.0--r41hdfd78af_0": "sha256:fae8a814e1d64cce00abc2121b013a1bea709ccece9a0a105148cc4304ec6d6c", "1.10.0--r41hdfd78af_0": "sha256:e7ca174c28515c8ecbb20a984a84008bbd8de3ccdf4be358b956b70a794b947a", "1.20.0--r43hdfd78af_0": "sha256:215ebe8d1104f244cd7d3393f69cd8e685b9ac57a38d302b047a1a11dcf05d46"}, "docker": "quay.io/biocontainers/bioconductor-breakpointr", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-breakpointr.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-breakpointr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-breakpointr:1.16.0--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-breakpointr:1.20.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-breakpointr/1.16.0--r42hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-breakpointr/1.16.0--r42hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-breakpointr/1.20.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-breakpointr/1.20.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
