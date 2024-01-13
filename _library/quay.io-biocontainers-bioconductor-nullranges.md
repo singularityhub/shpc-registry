@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-nullranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nullranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nullranges/container.yaml"
-updated_at: "2024-01-12 03:06:52.097366"
-latest: "1.6.2--r43hdfd78af_0"
+updated_at: "2024-01-13 03:05:39.067526"
+latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nullranges"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.4.0--r42hdfd78af_0"
  - "1.6.2--r43hdfd78af_0"
+ - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nullranges"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nullranges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nullranges", "latest": {"1.6.2--r43hdfd78af_0": "sha256:2ca4df22950c7ebbf611265a5c72d0365332138c97eddb2e3d2d6def6f85fc63"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:a0dccd4c33de075d6bc885f6b2f9befc6d6063f367c779200bc31d7d32422faa", "1.4.0--r42hdfd78af_0": "sha256:4bc87ae9234db9b90dc662fc4365794ef027c751a348f7c470207f993246cd91", "1.6.2--r43hdfd78af_0": "sha256:2ca4df22950c7ebbf611265a5c72d0365332138c97eddb2e3d2d6def6f85fc63"}, "docker": "quay.io/biocontainers/bioconductor-nullranges"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nullranges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nullranges", "latest": {"1.8.0--r43hdfd78af_0": "sha256:79d3e1b462f253fb219c48802a1e9d69e02c3594faf8167ccb47c4bfe7d949fb"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:a0dccd4c33de075d6bc885f6b2f9befc6d6063f367c779200bc31d7d32422faa", "1.4.0--r42hdfd78af_0": "sha256:4bc87ae9234db9b90dc662fc4365794ef027c751a348f7c470207f993246cd91", "1.6.2--r43hdfd78af_0": "sha256:2ca4df22950c7ebbf611265a5c72d0365332138c97eddb2e3d2d6def6f85fc63", "1.8.0--r43hdfd78af_0": "sha256:79d3e1b462f253fb219c48802a1e9d69e02c3594faf8167ccb47c4bfe7d949fb"}, "docker": "quay.io/biocontainers/bioconductor-nullranges"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nullranges.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nullranges
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nullranges:1.6.2--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-nullranges:1.8.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nullranges/1.6.2--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-nullranges/1.6.2--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-nullranges/1.8.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-nullranges/1.8.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

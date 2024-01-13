@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gocr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gocr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gocr/container.yaml"
-updated_at: "2024-01-12 02:42:42.400700"
+updated_at: "2024-01-13 02:40:56.072809"
 latest: "0.50--h031d066_5"
 container_url: "https://biocontainers.pro/tools/gocr"
 aliases:

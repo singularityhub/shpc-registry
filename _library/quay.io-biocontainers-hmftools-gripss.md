@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-gripss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-gripss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-gripss/container.yaml"
-updated_at: "2024-01-12 02:56:10.159036"
-latest: "2.3.2--hdfd78af_0"
+updated_at: "2024-01-13 02:54:44.284258"
+latest: "2.3.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-gripss"
 aliases:
  - "gripss"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "2.2--hdfd78af_0"
  - "2.3.2--hdfd78af_0"
+ - "2.3.5--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hmftools-gripss"
-config: {"url": "https://biocontainers.pro/tools/hmftools-gripss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-gripss", "latest": {"2.3.2--hdfd78af_0": "sha256:4ac910852ddfa8156270b11826a533307024d261295243486a905dcd3fc257d6"}, "tags": {"2.2--hdfd78af_0": "sha256:fe16bb19af8b567a95e3f5f06f0c86fa255fb80a3d0dd7268b75c1bea19e4d01", "2.3.2--hdfd78af_0": "sha256:4ac910852ddfa8156270b11826a533307024d261295243486a905dcd3fc257d6"}, "docker": "quay.io/biocontainers/hmftools-gripss", "aliases": {"gripss": "/usr/local/bin/gripss", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-gripss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-gripss", "latest": {"2.3.5--hdfd78af_0": "sha256:0eb87fd225b375f7a67f14e712ab4d702ee596ddb9ee244b80f4cf1df98b00eb"}, "tags": {"2.2--hdfd78af_0": "sha256:fe16bb19af8b567a95e3f5f06f0c86fa255fb80a3d0dd7268b75c1bea19e4d01", "2.3.2--hdfd78af_0": "sha256:4ac910852ddfa8156270b11826a533307024d261295243486a905dcd3fc257d6", "2.3.5--hdfd78af_0": "sha256:0eb87fd225b375f7a67f14e712ab4d702ee596ddb9ee244b80f4cf1df98b00eb"}, "docker": "quay.io/biocontainers/hmftools-gripss", "aliases": {"gripss": "/usr/local/bin/gripss", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-gripss.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/hmftools-gripss
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-gripss:2.3.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-gripss:2.3.5--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-gripss/2.3.2--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-gripss/2.3.2--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-gripss/2.3.5--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-gripss/2.3.5--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/3seq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/3seq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/3seq/container.yaml"
-updated_at: "2024-01-12 02:43:09.595296"
+updated_at: "2024-01-13 02:41:23.715986"
 latest: "1.8--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/3seq"
 aliases:

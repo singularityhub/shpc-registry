@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fccac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fccac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fccac/container.yaml"
-updated_at: "2024-01-12 02:43:15.584262"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2024-01-13 02:41:29.905601"
+latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fccac"
 aliases:
  - "wget"
@@ -19,8 +19,9 @@ versions:
  - "1.16.0--r40hdfd78af_1"
  - "1.14.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fccac"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fccac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fccac", "latest": {"1.26.0--r43hdfd78af_0": "sha256:3c3418aaf12946d4c091397b328c7003b5f7ad041045fd4341672676a4e9a062"}, "tags": {"1.8.0--r351_0": "sha256:6f97236a6cf9429fea4eb2755b63a2fcd0a407aed7b8993fbcd324f3fda3edcd", "1.24.0--r42hdfd78af_0": "sha256:6ffa7ab16add93bbc6a680a7665c95719a99619c9818fc461730d3b24630cf81", "1.20.0--r41hdfd78af_0": "sha256:2449ce32785c67947b9bc7fb7f334c18da8663039be4dc0faa49625514e2ef91", "1.18.0--r41hdfd78af_0": "sha256:8bb8220f9f86a5ee3f27cd545fd840f6b8a694bad08ef4b7be0bd92939a2c941", "1.16.0--r40hdfd78af_1": "sha256:7e75ac8e54ea3db08e0afb4dbf8c34a55ddc150edefc25415d81b0fe98aafca5", "1.14.0--r40_0": "sha256:f32ccfabff45400dd8b3034c5fa78f2efcc51dadb325251b84decfa1140527e8", "1.26.0--r43hdfd78af_0": "sha256:3c3418aaf12946d4c091397b328c7003b5f7ad041045fd4341672676a4e9a062"}, "docker": "quay.io/biocontainers/bioconductor-fccac", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fccac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fccac", "latest": {"1.28.0--r43hdfd78af_0": "sha256:c076990b420bc13c8a50164a5e7c49dfcc0bac6a976b2cbf45762b9f2a676e0e"}, "tags": {"1.8.0--r351_0": "sha256:6f97236a6cf9429fea4eb2755b63a2fcd0a407aed7b8993fbcd324f3fda3edcd", "1.24.0--r42hdfd78af_0": "sha256:6ffa7ab16add93bbc6a680a7665c95719a99619c9818fc461730d3b24630cf81", "1.20.0--r41hdfd78af_0": "sha256:2449ce32785c67947b9bc7fb7f334c18da8663039be4dc0faa49625514e2ef91", "1.18.0--r41hdfd78af_0": "sha256:8bb8220f9f86a5ee3f27cd545fd840f6b8a694bad08ef4b7be0bd92939a2c941", "1.16.0--r40hdfd78af_1": "sha256:7e75ac8e54ea3db08e0afb4dbf8c34a55ddc150edefc25415d81b0fe98aafca5", "1.14.0--r40_0": "sha256:f32ccfabff45400dd8b3034c5fa78f2efcc51dadb325251b84decfa1140527e8", "1.26.0--r43hdfd78af_0": "sha256:3c3418aaf12946d4c091397b328c7003b5f7ad041045fd4341672676a4e9a062", "1.28.0--r43hdfd78af_0": "sha256:c076990b420bc13c8a50164a5e7c49dfcc0bac6a976b2cbf45762b9f2a676e0e"}, "docker": "quay.io/biocontainers/bioconductor-fccac", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fccac.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fccac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fccac:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-fccac:1.28.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fccac/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-fccac/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-fccac/1.28.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fccac/1.28.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

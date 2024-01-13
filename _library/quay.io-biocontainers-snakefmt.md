@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakefmt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakefmt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakefmt/container.yaml"
-updated_at: "2024-01-12 02:56:50.447555"
-latest: "0.8.5--pyhdfd78af_0"
+updated_at: "2024-01-13 02:55:25.357924"
+latest: "0.9.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/snakefmt"
 aliases:
  - "black"
@@ -25,8 +25,9 @@ versions:
  - "0.8.2--pyhdfd78af_0"
  - "0.8.4--pyhdfd78af_0"
  - "0.8.5--pyhdfd78af_0"
+ - "0.9.0--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for snakefmt"
-config: {"url": "https://biocontainers.pro/tools/snakefmt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakefmt", "latest": {"0.8.5--pyhdfd78af_0": "sha256:ddf8122907d3e4295d9d9e3e5b3fce013b6fdb83b6c0731f2c872421512b64c3"}, "tags": {"0.6.1--pyhdfd78af_0": "sha256:9d7d016c142dab89a2f02835c2ff74f2d523557570c6346536fbf0010d8f7ae8", "0.7.0--pyhdfd78af_0": "sha256:0b85a551ffa5811453c453138cda9c97246aba576249b364582f85bb05c05d32", "0.8.0--pyhdfd78af_0": "sha256:31b0067a2441921cad1438fe4340de3255412d7eb520f6f6701219496310db51", "0.8.1--pyhdfd78af_0": "sha256:de314cbc523e419a7c3a423b489652a3637a93459bb45780232b200dbf5d9855", "0.8.2--pyhdfd78af_0": "sha256:49224f9600551b295318e30e031e58e0158c9ed930bb47745148f7079f32d983", "0.8.4--pyhdfd78af_0": "sha256:073a2e51b4ff194a765095a174dd4e053d46cf5c20c845d20bc35ecfc62e46f8", "0.8.5--pyhdfd78af_0": "sha256:ddf8122907d3e4295d9d9e3e5b3fce013b6fdb83b6c0731f2c872421512b64c3"}, "docker": "quay.io/biocontainers/snakefmt", "aliases": {"black": "/usr/local/bin/black", "blackd": "/usr/local/bin/blackd", "snakefmt": "/usr/local/bin/snakefmt", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/snakefmt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakefmt", "latest": {"0.9.0--pyhdfd78af_1": "sha256:f1e9eca1f2e4151a1a517464f83238f6a207038acc8baf3c903470e41d6e5122"}, "tags": {"0.6.1--pyhdfd78af_0": "sha256:9d7d016c142dab89a2f02835c2ff74f2d523557570c6346536fbf0010d8f7ae8", "0.7.0--pyhdfd78af_0": "sha256:0b85a551ffa5811453c453138cda9c97246aba576249b364582f85bb05c05d32", "0.8.0--pyhdfd78af_0": "sha256:31b0067a2441921cad1438fe4340de3255412d7eb520f6f6701219496310db51", "0.8.1--pyhdfd78af_0": "sha256:de314cbc523e419a7c3a423b489652a3637a93459bb45780232b200dbf5d9855", "0.8.2--pyhdfd78af_0": "sha256:49224f9600551b295318e30e031e58e0158c9ed930bb47745148f7079f32d983", "0.8.4--pyhdfd78af_0": "sha256:073a2e51b4ff194a765095a174dd4e053d46cf5c20c845d20bc35ecfc62e46f8", "0.8.5--pyhdfd78af_0": "sha256:ddf8122907d3e4295d9d9e3e5b3fce013b6fdb83b6c0731f2c872421512b64c3", "0.9.0--pyhdfd78af_1": "sha256:f1e9eca1f2e4151a1a517464f83238f6a207038acc8baf3c903470e41d6e5122"}, "docker": "quay.io/biocontainers/snakefmt", "aliases": {"black": "/usr/local/bin/black", "blackd": "/usr/local/bin/blackd", "snakefmt": "/usr/local/bin/snakefmt", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakefmt.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/snakefmt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakefmt:0.8.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakefmt:0.9.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakefmt/0.8.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakefmt/0.8.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakefmt/0.9.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/snakefmt/0.9.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mupbwt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mupbwt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mupbwt/container.yaml"
-updated_at: "2024-01-12 02:40:17.756467"
+updated_at: "2024-01-13 02:38:29.071328"
 latest: "0.1.2--h6ab5fc9_2"
 container_url: "https://biocontainers.pro/tools/mupbwt"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/discosnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/discosnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/discosnp/container.yaml"
-updated_at: "2024-01-12 03:11:23.013701"
+updated_at: "2024-01-13 03:10:15.532509"
 latest: "2.6.2--h43eeafb_3"
 container_url: "https://biocontainers.pro/tools/discosnp"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-phantasus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phantasus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phantasus/container.yaml"
-updated_at: "2024-01-12 03:02:56.562762"
-latest: "1.20.2--r43hdfd78af_0"
+updated_at: "2024-01-13 03:01:40.245165"
+latest: "1.22.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phantasus"
 aliases:
  - "protoc"
@@ -24,8 +24,9 @@ versions:
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
  - "1.20.2--r43hdfd78af_0"
+ - "1.22.2--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-phantasus"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-phantasus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phantasus", "latest": {"1.20.2--r43hdfd78af_0": "sha256:48c53c5d8d3fb0c2c1cb22d8c17d3bcd22837e3f0af383c976df62be2392e5ac"}, "tags": {"1.8.0--r40_0": "sha256:389e202ac322433c1ae8d923ba9ce01012c87a488d1e45eda6806ea59d610157", "1.18.2--r42hdfd78af_0": "sha256:dc9280085adcd70eb640bc51d650f1e9f0f2451757eacba5924d009c66b1b24e", "1.14.0--r41hdfd78af_0": "sha256:8364c0a5847836e94a79640fa6b53514160f49007839722cdb524de1aaa227b7", "1.12.0--r41hdfd78af_0": "sha256:0d7c87c9ed80c58458aedf3be80fd744cbb7968e9742e714e9046e514d534934", "1.10.0--r40hdfd78af_1": "sha256:e0cb9e1bcff2863ff0bce42b4cbfa83021c3847ba04af1ab6990ee15f6cb58ea", "1.20.2--r43hdfd78af_0": "sha256:48c53c5d8d3fb0c2c1cb22d8c17d3bcd22837e3f0af383c976df62be2392e5ac"}, "docker": "quay.io/biocontainers/bioconductor-phantasus", "aliases": {"protoc": "/usr/local/bin/protoc", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-phantasus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phantasus", "latest": {"1.22.2--r43hdfd78af_0": "sha256:7926eba9f0a29700d3f6affdedec18795387b341cd2cc9c67a77b300d26a5e35"}, "tags": {"1.8.0--r40_0": "sha256:389e202ac322433c1ae8d923ba9ce01012c87a488d1e45eda6806ea59d610157", "1.18.2--r42hdfd78af_0": "sha256:dc9280085adcd70eb640bc51d650f1e9f0f2451757eacba5924d009c66b1b24e", "1.14.0--r41hdfd78af_0": "sha256:8364c0a5847836e94a79640fa6b53514160f49007839722cdb524de1aaa227b7", "1.12.0--r41hdfd78af_0": "sha256:0d7c87c9ed80c58458aedf3be80fd744cbb7968e9742e714e9046e514d534934", "1.10.0--r40hdfd78af_1": "sha256:e0cb9e1bcff2863ff0bce42b4cbfa83021c3847ba04af1ab6990ee15f6cb58ea", "1.20.2--r43hdfd78af_0": "sha256:48c53c5d8d3fb0c2c1cb22d8c17d3bcd22837e3f0af383c976df62be2392e5ac", "1.22.2--r43hdfd78af_0": "sha256:7926eba9f0a29700d3f6affdedec18795387b341cd2cc9c67a77b300d26a5e35"}, "docker": "quay.io/biocontainers/bioconductor-phantasus", "aliases": {"protoc": "/usr/local/bin/protoc", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-phantasus.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-phantasus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-phantasus:1.20.2--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-phantasus:1.22.2--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-phantasus/1.20.2--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-phantasus/1.20.2--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-phantasus/1.22.2--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-phantasus/1.22.2--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

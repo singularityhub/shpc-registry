@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chipxpress"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipxpress/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipxpress/container.yaml"
-updated_at: "2024-01-12 02:48:25.636617"
+updated_at: "2024-01-13 02:46:47.133800"
 latest: "1.42.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipxpress"
 

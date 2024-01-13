@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lotus2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lotus2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lotus2/container.yaml"
-updated_at: "2024-01-12 02:42:12.605237"
-latest: "2.30--hdfd78af_1"
+updated_at: "2024-01-13 02:40:24.967736"
+latest: "2.31--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lotus2"
 aliases:
  - "ITSx"
@@ -39,8 +39,9 @@ versions:
  - "2.28--hdfd78af_0"
  - "2.28.1--hdfd78af_1"
  - "2.30--hdfd78af_1"
+ - "2.31--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for lotus2"
-config: {"url": "https://biocontainers.pro/tools/lotus2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lotus2", "latest": {"2.30--hdfd78af_1": "sha256:02a51c7d81af45937d3066bb69afda3528e80d124b0c87eab1ee1296179ee74f"}, "tags": {"2.21--hdfd78af_0": "sha256:bbcf2903a884af263aba5f55020c29dcb68749fa51873d59d0959737a6400f4d", "2.22--hdfd78af_0": "sha256:9c3a69446d09c28cbbe9b5e2c8e68ace1c2f57034e5c3393a18464d2c5b6f3a0", "2.23--hdfd78af_0": "sha256:08f16d23a51b827b58a676c355ae5fa0a8c5eb6a014323adb99d458cb3684e21", "2.24--hdfd78af_0": "sha256:42874836caa74c58affe44be9c8f033f9df8a3d46308c6eaf8a2397fd9802e69", "2.25--hdfd78af_0": "sha256:fedc4368bc3e3017594398f9541486134438a51171df690d006ba4cee24e6171", "2.28--hdfd78af_0": "sha256:a6f76aca81728a9042cdddfc4b50a00bf26bcff47f7208d5f1e13bf3bb36b496", "2.28.1--hdfd78af_1": "sha256:6e25bf7c05341858dc68ae1b8908a62dd18d46baf5208054baee2dcbfbdca6a0", "2.30--hdfd78af_1": "sha256:02a51c7d81af45937d3066bb69afda3528e80d124b0c87eab1ee1296179ee74f"}, "docker": "quay.io/biocontainers/lotus2", "aliases": {"ITSx": "/usr/local/bin/ITSx", "LCA": "/usr/local/bin/LCA", "amplicon_contingency_table.py": "/usr/local/bin/amplicon_contingency_table.py", "graph_plot.py": "/usr/local/bin/graph_plot.py", "iqtree2": "/usr/local/bin/iqtree2", "lambda": "/usr/local/bin/lambda", "lambda_indexer": "/usr/local/bin/lambda_indexer", "lotus2": "/usr/local/bin/lotus2", "rdp_classifier": "/usr/local/bin/rdp_classifier", "rtk": "/usr/local/bin/rtk", "sdm": "/usr/local/bin/sdm", "swarm": "/usr/local/bin/swarm", "clustalo": "/usr/local/bin/clustalo", "zip": "/usr/local/bin/zip", "iqtree": "/usr/local/bin/iqtree", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "igraph": "/usr/local/bin/igraph", "vsearch": "/usr/local/bin/vsearch", "FET.pl": "/usr/local/bin/FET.pl"}}
+config: {"url": "https://biocontainers.pro/tools/lotus2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lotus2", "latest": {"2.31--hdfd78af_0": "sha256:94d6d40e4dd4e4974b6231e377a982a1709a91defe6f802526e5924e1773bb1a"}, "tags": {"2.21--hdfd78af_0": "sha256:bbcf2903a884af263aba5f55020c29dcb68749fa51873d59d0959737a6400f4d", "2.22--hdfd78af_0": "sha256:9c3a69446d09c28cbbe9b5e2c8e68ace1c2f57034e5c3393a18464d2c5b6f3a0", "2.23--hdfd78af_0": "sha256:08f16d23a51b827b58a676c355ae5fa0a8c5eb6a014323adb99d458cb3684e21", "2.24--hdfd78af_0": "sha256:42874836caa74c58affe44be9c8f033f9df8a3d46308c6eaf8a2397fd9802e69", "2.25--hdfd78af_0": "sha256:fedc4368bc3e3017594398f9541486134438a51171df690d006ba4cee24e6171", "2.28--hdfd78af_0": "sha256:a6f76aca81728a9042cdddfc4b50a00bf26bcff47f7208d5f1e13bf3bb36b496", "2.28.1--hdfd78af_1": "sha256:6e25bf7c05341858dc68ae1b8908a62dd18d46baf5208054baee2dcbfbdca6a0", "2.30--hdfd78af_1": "sha256:02a51c7d81af45937d3066bb69afda3528e80d124b0c87eab1ee1296179ee74f", "2.31--hdfd78af_0": "sha256:94d6d40e4dd4e4974b6231e377a982a1709a91defe6f802526e5924e1773bb1a"}, "docker": "quay.io/biocontainers/lotus2", "aliases": {"ITSx": "/usr/local/bin/ITSx", "LCA": "/usr/local/bin/LCA", "amplicon_contingency_table.py": "/usr/local/bin/amplicon_contingency_table.py", "graph_plot.py": "/usr/local/bin/graph_plot.py", "iqtree2": "/usr/local/bin/iqtree2", "lambda": "/usr/local/bin/lambda", "lambda_indexer": "/usr/local/bin/lambda_indexer", "lotus2": "/usr/local/bin/lotus2", "rdp_classifier": "/usr/local/bin/rdp_classifier", "rtk": "/usr/local/bin/rtk", "sdm": "/usr/local/bin/sdm", "swarm": "/usr/local/bin/swarm", "clustalo": "/usr/local/bin/clustalo", "zip": "/usr/local/bin/zip", "iqtree": "/usr/local/bin/iqtree", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "igraph": "/usr/local/bin/igraph", "vsearch": "/usr/local/bin/vsearch", "FET.pl": "/usr/local/bin/FET.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lotus2.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/lotus2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lotus2:2.30--hdfd78af_1
+$ shpc install quay.io/biocontainers/lotus2:2.31--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lotus2/2.30--hdfd78af_1
-$ module help quay.io/biocontainers/lotus2/2.30--hdfd78af_1
+$ module load quay.io/biocontainers/lotus2/2.31--hdfd78af_0
+$ module help quay.io/biocontainers/lotus2/2.31--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
