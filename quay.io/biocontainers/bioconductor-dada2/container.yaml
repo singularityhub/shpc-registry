@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-dada2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dada2
 latest:
-  1.28.0--r43hf17093f_0: sha256:b215ed2c3485cd2a0d10b5763661905bb78c6e4f2a091a64de5fbe56b4538d4d
+  1.30.0--r43hf17093f_0: sha256:4f7d44074376a21a44963226fe192133c8d7f0831863a2e3bdfe704e280235da
 tags:
   1.8.0--r351hfc679d8_0: sha256:91f7e534caac8cfb4a3607d835697ef28133b491b9cef4233b5c4cfcad382aa5
   1.26.0--r42hc247a5b_0: sha256:455e98b4cf5a8681aa8b4e9f06183ac00fadecd17b0690ec97960fcb0cc1ab7f
@@ -12,6 +12,7 @@ tags:
   1.16.0--r40h5f743cb_0: sha256:4865fade8ddd1f0168a7ebcfca97a8f08542e6fc9e01d006b45b6cba772618ac
   1.26.0--r42hf17093f_1: sha256:92498704ba421f1224e6ec98f293f0e7b836ae882263ef9c11b4772e01335c5f
   1.28.0--r43hf17093f_0: sha256:b215ed2c3485cd2a0d10b5763661905bb78c6e4f2a091a64de5fbe56b4538d4d
+  1.30.0--r43hf17093f_0: sha256:4f7d44074376a21a44963226fe192133c8d7f0831863a2e3bdfe704e280235da
 docker: quay.io/biocontainers/bioconductor-dada2
 aliases:
   wget: /usr/local/bin/wget

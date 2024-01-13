@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rocpai
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rocpai
 latest:
-  1.12.0--r43hdfd78af_0: sha256:3d3226d69bf5aaa697753368e18935ddbbab873a502c14d9f2a67f922af92965
+  1.14.0--r43hdfd78af_0: sha256:55093d55fb00cb0c603908f3a0262625327aa4c95ee734e6c90d5159b3cee0c8
 tags:
   1.6.0--r41hdfd78af_0: sha256:bf8d1dc125126feff57d61c043f17ba7094315ffa931387ea7f27d0447cafcf6
   1.10.0--r42hdfd78af_0: sha256:670984783a268a0e50e30f1857602ca20a7d6ac9470b29e28a7b573d93895270
   1.12.0--r43hdfd78af_0: sha256:3d3226d69bf5aaa697753368e18935ddbbab873a502c14d9f2a67f922af92965
+  1.14.0--r43hdfd78af_0: sha256:55093d55fb00cb0c603908f3a0262625327aa4c95ee734e6c90d5159b3cee0c8
 docker: quay.io/biocontainers/bioconductor-rocpai

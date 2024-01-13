@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-bionar
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-bionar
 latest:
-  1.2.4--r43hdfd78af_0: sha256:ae565c5c5ebdb8522c074fcd4f313be136690fb698154a45e07b34c37b30c973
+  1.4.0--r43hdfd78af_0: sha256:0188fb39aed0ffaef2171b8fd5950abc27a2f94c47f84a6695aeebcc7c34b42d
 tags:
   1.0.0--r42hdfd78af_0: sha256:405b0b2682c5b4f62d907b27bab0de88458f02d8f987aa52916824f08d8610a1
   1.2.4--r43hdfd78af_0: sha256:ae565c5c5ebdb8522c074fcd4f313be136690fb698154a45e07b34c37b30c973
+  1.4.0--r43hdfd78af_0: sha256:0188fb39aed0ffaef2171b8fd5950abc27a2f94c47f84a6695aeebcc7c34b42d
 docker: quay.io/biocontainers/bioconductor-bionar
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

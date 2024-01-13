@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-gep2pep
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gep2pep
 latest:
-  1.20.0--r43hdfd78af_0: sha256:d47ed1d0e031a4d9d3e923fd8e2adbc34a059d84b3826b3f4f4b349847ecd547
+  1.22.0--r43hdfd78af_0: sha256:ce1ae644d155bd8bde4129805dfe1c1928eec800c8fde0296147e51fd2afb73d
 tags:
   1.8.0--r40_0: sha256:c169c096173f9ff336d0d981706aa6e4fc915a8e2db708dd101710404ff27cfc
   1.18.0--r42hdfd78af_0: sha256:d701d974974ee7ba34b69b2eaf3428e05f52f2986de33fcc31912d6d4515fa02
@@ -10,6 +10,7 @@ tags:
   1.12.0--r41hdfd78af_0: sha256:d430207d74ad11718a6d2506c574f63957f238489306e12071c8dd35d7f74261
   1.10.0--r40hdfd78af_1: sha256:5d23ece91f66393a46b2a226125544b19b568e6f5ae72d3d233d2e50f1a587ec
   1.20.0--r43hdfd78af_0: sha256:d47ed1d0e031a4d9d3e923fd8e2adbc34a059d84b3826b3f4f4b349847ecd547
+  1.22.0--r43hdfd78af_0: sha256:ce1ae644d155bd8bde4129805dfe1c1928eec800c8fde0296147e51fd2afb73d
 docker: quay.io/biocontainers/bioconductor-gep2pep
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

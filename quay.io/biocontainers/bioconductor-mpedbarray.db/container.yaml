@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mpedbarray.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mpedbarray.db
 latest:
-  3.2.3--r43hdfd78af_12: sha256:841428ee33a0227ed66a63fca33e3c432d7d61ae48571733d3710e7f678a657d
+  3.2.3--r43hdfd78af_13: sha256:4e0edbf07b85f24fa7da7794dd826e421adbf47dd69abfc87917538f58febd14
 tags:
   3.2.3--r41hdfd78af_9: sha256:5d802f7ada010a58f587fa11e07074e7cdf75d56de0e2637f8ac3f6d04bd06fa
   3.2.3--r42hdfd78af_11: sha256:096a8c798db80b88ad0cc6a418d29b3b882657036fac1135f09885ba3dea8da4
   3.2.3--r43hdfd78af_12: sha256:841428ee33a0227ed66a63fca33e3c432d7d61ae48571733d3710e7f678a657d
+  3.2.3--r43hdfd78af_13: sha256:4e0edbf07b85f24fa7da7794dd826e421adbf47dd69abfc87917538f58febd14
 docker: quay.io/biocontainers/bioconductor-mpedbarray.db
