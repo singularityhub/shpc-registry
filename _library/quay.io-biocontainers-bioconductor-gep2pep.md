@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gep2pep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gep2pep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gep2pep/container.yaml"
-updated_at: "2024-01-13 03:10:16.081134"
-latest: "1.20.0--r43hdfd78af_0"
+updated_at: "2024-01-14 03:15:55.708020"
+latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gep2pep"
 aliases:
  - "2to3-3.8"
@@ -23,8 +23,9 @@ versions:
  - "1.12.0--r41hdfd78af_0"
  - "1.10.0--r40hdfd78af_1"
  - "1.20.0--r43hdfd78af_0"
+ - "1.22.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gep2pep"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gep2pep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gep2pep", "latest": {"1.20.0--r43hdfd78af_0": "sha256:d47ed1d0e031a4d9d3e923fd8e2adbc34a059d84b3826b3f4f4b349847ecd547"}, "tags": {"1.8.0--r40_0": "sha256:c169c096173f9ff336d0d981706aa6e4fc915a8e2db708dd101710404ff27cfc", "1.18.0--r42hdfd78af_0": "sha256:d701d974974ee7ba34b69b2eaf3428e05f52f2986de33fcc31912d6d4515fa02", "1.14.0--r41hdfd78af_0": "sha256:0555ba27f42c607724c0db0c78aab57bdd9cbac4faf8d2059cd4d723bbff9d0f", "1.12.0--r41hdfd78af_0": "sha256:d430207d74ad11718a6d2506c574f63957f238489306e12071c8dd35d7f74261", "1.10.0--r40hdfd78af_1": "sha256:5d23ece91f66393a46b2a226125544b19b568e6f5ae72d3d233d2e50f1a587ec", "1.20.0--r43hdfd78af_0": "sha256:d47ed1d0e031a4d9d3e923fd8e2adbc34a059d84b3826b3f4f4b349847ecd547"}, "docker": "quay.io/biocontainers/bioconductor-gep2pep", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gep2pep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gep2pep", "latest": {"1.22.0--r43hdfd78af_0": "sha256:ce1ae644d155bd8bde4129805dfe1c1928eec800c8fde0296147e51fd2afb73d"}, "tags": {"1.8.0--r40_0": "sha256:c169c096173f9ff336d0d981706aa6e4fc915a8e2db708dd101710404ff27cfc", "1.18.0--r42hdfd78af_0": "sha256:d701d974974ee7ba34b69b2eaf3428e05f52f2986de33fcc31912d6d4515fa02", "1.14.0--r41hdfd78af_0": "sha256:0555ba27f42c607724c0db0c78aab57bdd9cbac4faf8d2059cd4d723bbff9d0f", "1.12.0--r41hdfd78af_0": "sha256:d430207d74ad11718a6d2506c574f63957f238489306e12071c8dd35d7f74261", "1.10.0--r40hdfd78af_1": "sha256:5d23ece91f66393a46b2a226125544b19b568e6f5ae72d3d233d2e50f1a587ec", "1.20.0--r43hdfd78af_0": "sha256:d47ed1d0e031a4d9d3e923fd8e2adbc34a059d84b3826b3f4f4b349847ecd547", "1.22.0--r43hdfd78af_0": "sha256:ce1ae644d155bd8bde4129805dfe1c1928eec800c8fde0296147e51fd2afb73d"}, "docker": "quay.io/biocontainers/bioconductor-gep2pep", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gep2pep.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gep2pep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gep2pep:1.20.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gep2pep:1.22.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gep2pep/1.20.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gep2pep/1.20.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gep2pep/1.22.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gep2pep/1.22.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

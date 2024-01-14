@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rtracklayer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtracklayer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtracklayer/container.yaml"
-updated_at: "2024-01-13 02:31:40.367219"
+updated_at: "2024-01-14 02:35:46.329504"
 latest: "1.62.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtracklayer"
 

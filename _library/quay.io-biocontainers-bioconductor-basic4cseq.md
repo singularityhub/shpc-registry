@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-basic4cseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-basic4cseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-basic4cseq/container.yaml"
-updated_at: "2024-01-13 02:46:41.520056"
-latest: "1.36.0--r43hdfd78af_0"
+updated_at: "2024-01-14 02:51:23.251477"
+latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-basic4cseq"
 aliases:
  - "bmp2tiff"
@@ -25,8 +25,9 @@ versions:
  - "1.26.0--r40hdfd78af_1"
  - "1.24.0--r40_0"
  - "1.36.0--r43hdfd78af_0"
+ - "1.38.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-basic4cseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-basic4cseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-basic4cseq", "latest": {"1.36.0--r43hdfd78af_0": "sha256:35335629ac25e8f1366f32e20366ef31402a3af83405177f99a7b3e5bcce8834"}, "tags": {"1.6.0--r3.4.1_0": "sha256:d657b95b2ed78da7074f49bf72662ac5c84550792cc9fd03f786f52877b94dba", "1.34.0--r42hdfd78af_0": "sha256:03a18eaa7c3989dcdfce04d7f07c0dcededa711bff48e8f805f32eda977b1f45", "1.30.0--r41hdfd78af_0": "sha256:31d2cdee4083acddc9c6d126ea26233d7dca628e90d888a5e213a76e4e76ef0e", "1.28.0--r41hdfd78af_0": "sha256:50315779e2114a96045b198e8dfa4f7bc8ba264187d66963390431f54f3e2977", "1.26.0--r40hdfd78af_1": "sha256:d9e4e2f963402cd9b034656ae2b9cf0576d1b2507d4857408fca0aef3b59f921", "1.24.0--r40_0": "sha256:ecce0dca9f21e5da49fe1ce717e213fde39dceb825fe94f3db8afa6c1d0a7abe", "1.36.0--r43hdfd78af_0": "sha256:35335629ac25e8f1366f32e20366ef31402a3af83405177f99a7b3e5bcce8834"}, "docker": "quay.io/biocontainers/bioconductor-basic4cseq", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-basic4cseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-basic4cseq", "latest": {"1.38.0--r43hdfd78af_0": "sha256:7d2281cc658c9dd6b8f5c80fa274a243005fd7c94f1a591ac7f5d0f518079311"}, "tags": {"1.6.0--r3.4.1_0": "sha256:d657b95b2ed78da7074f49bf72662ac5c84550792cc9fd03f786f52877b94dba", "1.34.0--r42hdfd78af_0": "sha256:03a18eaa7c3989dcdfce04d7f07c0dcededa711bff48e8f805f32eda977b1f45", "1.30.0--r41hdfd78af_0": "sha256:31d2cdee4083acddc9c6d126ea26233d7dca628e90d888a5e213a76e4e76ef0e", "1.28.0--r41hdfd78af_0": "sha256:50315779e2114a96045b198e8dfa4f7bc8ba264187d66963390431f54f3e2977", "1.26.0--r40hdfd78af_1": "sha256:d9e4e2f963402cd9b034656ae2b9cf0576d1b2507d4857408fca0aef3b59f921", "1.24.0--r40_0": "sha256:ecce0dca9f21e5da49fe1ce717e213fde39dceb825fe94f3db8afa6c1d0a7abe", "1.36.0--r43hdfd78af_0": "sha256:35335629ac25e8f1366f32e20366ef31402a3af83405177f99a7b3e5bcce8834", "1.38.0--r43hdfd78af_0": "sha256:7d2281cc658c9dd6b8f5c80fa274a243005fd7c94f1a591ac7f5d0f518079311"}, "docker": "quay.io/biocontainers/bioconductor-basic4cseq", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-basic4cseq.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioconductor-basic4cseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-basic4cseq:1.36.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-basic4cseq:1.38.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-basic4cseq/1.36.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-basic4cseq/1.36.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-basic4cseq/1.38.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-basic4cseq/1.38.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
