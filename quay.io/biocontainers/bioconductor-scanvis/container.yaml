@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-scanvis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scanvis
 latest:
-  1.14.0--r43hdfd78af_0: sha256:7c8c0dba79e296af155d02dee9242157da7e875213ff8c466db4f18a0b337155
+  1.16.0--r43hdfd78af_0: sha256:a0c0293ce304bedaecf97a49ede50bbbb73cc9333b4e694b471367fa544e8c4d
 tags:
   1.7.0--r41hdfd78af_0: sha256:5d2c0f083c51c5901e8427cb774c3d02d1d9c097df1c6b6e8cf8b607be88c133
   1.12.0--r42hdfd78af_0: sha256:207ac23309cdfb6b1c6b992857aa01ce83383984eb57e6ea4a0c868da49d9896
   1.14.0--r43hdfd78af_0: sha256:7c8c0dba79e296af155d02dee9242157da7e875213ff8c466db4f18a0b337155
+  1.16.0--r43hdfd78af_0: sha256:a0c0293ce304bedaecf97a49ede50bbbb73cc9333b4e694b471367fa544e8c4d
 docker: quay.io/biocontainers/bioconductor-scanvis

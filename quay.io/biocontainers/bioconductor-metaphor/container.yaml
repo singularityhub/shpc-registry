@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-metaphor
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-metaphor
 latest:
-  1.2.0--r43hdfd78af_0: sha256:8a936facc63c53df508168c1e55e98779f241bfd8a5a717ab036d0ff341787cd
+  1.4.0--r43hdfd78af_0: sha256:a30c17b34fba772bd6bc53879c4f92d756a6b2d5d44ec81c28aa6bfcc0ff68f4
 tags:
   1.0.0--r42hdfd78af_0: sha256:b22bf8464cccae6b020b2c4cf7e186319112d1ff2b4b4934eaa62a08f7966bdb
   1.2.0--r43hdfd78af_0: sha256:8a936facc63c53df508168c1e55e98779f241bfd8a5a717ab036d0ff341787cd
+  1.4.0--r43hdfd78af_0: sha256:a30c17b34fba772bd6bc53879c4f92d756a6b2d5d44ec81c28aa6bfcc0ff68f4
 docker: quay.io/biocontainers/bioconductor-metaphor
 aliases:
   Cytoscape: /usr/local/bin/Cytoscape
