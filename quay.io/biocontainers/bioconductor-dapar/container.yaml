@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-dapar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dapar
 latest:
-  1.32.2--r43hdfd78af_0: sha256:85301e7a6b35c7615c5d9c7a6d7e5766a735c9867bb73525d1eaaf3a137fc539
+  1.34.2--r43hdfd78af_0: sha256:3dad23c59ab3ea0de31f2f4e4396007fed682e540910ee67d401621b37d5ab0b
 tags:
   1.26.0--r41hdfd78af_0: sha256:7bd326863354e300cff6210594707ee3cceecb421e0f8c78fdd81cc61cf0c997
   1.30.0--r42hdfd78af_0: sha256:24de2f3b94ff74be6e6164e5b4c8d26c7b22e0c8593a722a4cb3a163714c9477
   1.32.2--r43hdfd78af_0: sha256:85301e7a6b35c7615c5d9c7a6d7e5766a735c9867bb73525d1eaaf3a137fc539
+  1.34.2--r43hdfd78af_0: sha256:3dad23c59ab3ea0de31f2f4e4396007fed682e540910ee67d401621b37d5ab0b
 docker: quay.io/biocontainers/bioconductor-dapar
 aliases:
   zipcmp: /usr/local/bin/zipcmp
