@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/methyldackel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methyldackel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methyldackel/container.yaml"
-updated_at: "2024-01-15 03:07:45.689112"
+updated_at: "2024-01-15 04:02:34.802182"
 latest: "0.6.1--h6141fd1_6"
 container_url: "https://biocontainers.pro/tools/methyldackel"
 aliases:

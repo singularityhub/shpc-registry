@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sspaths"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sspaths/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sspaths/container.yaml"
-updated_at: "2024-01-15 03:11:35.126274"
+updated_at: "2024-01-15 04:06:25.194587"
 latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sspaths"
 

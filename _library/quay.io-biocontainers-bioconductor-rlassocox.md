@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rlassocox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rlassocox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rlassocox/container.yaml"
-updated_at: "2024-01-15 02:47:30.710357"
+updated_at: "2024-01-15 03:42:11.587475"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rlassocox"
 

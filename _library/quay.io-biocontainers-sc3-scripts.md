@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sc3-scripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sc3-scripts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sc3-scripts/container.yaml"
-updated_at: "2024-01-15 03:04:59.912916"
+updated_at: "2024-01-15 03:59:47.959344"
 latest: "0.0.6--r351_0"
 container_url: "https://biocontainers.pro/tools/sc3-scripts"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rapifilt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rapifilt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rapifilt/container.yaml"
-updated_at: "2024-01-15 02:56:54.839900"
+updated_at: "2024-01-15 03:51:42.233712"
 latest: "1.0--h2202e69_5"
 container_url: "https://biocontainers.pro/tools/rapifilt"
 aliases:

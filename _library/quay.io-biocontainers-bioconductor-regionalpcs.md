@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-regionalpcs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-regionalpcs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-regionalpcs/container.yaml"
-updated_at: "2024-01-15 03:14:07.627501"
+updated_at: "2024-01-15 04:08:56.961573"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-regionalpcs"
 aliases:

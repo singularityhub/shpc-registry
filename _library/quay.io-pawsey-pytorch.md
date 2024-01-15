@@ -4,7 +4,7 @@ name:  "quay.io/pawsey/pytorch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/pytorch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/pytorch/container.yaml"
-updated_at: "2024-01-15 03:16:57.215371"
+updated_at: "2024-01-15 04:11:46.430210"
 latest: "2.1.2-rocm5.6.0"
 container_url: "https://singularity-hpc.readthedocs.io"
 aliases:

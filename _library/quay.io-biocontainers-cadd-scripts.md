@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cadd-scripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cadd-scripts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cadd-scripts/container.yaml"
-updated_at: "2024-01-15 02:52:47.286509"
+updated_at: "2024-01-15 03:47:33.880552"
 latest: "1.6--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/cadd-scripts"
 aliases:
