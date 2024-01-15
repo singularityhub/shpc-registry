@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/pygenetic_code
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pygenetic_code
+latest:
+  0.20.0--py312he4a0461_0: sha256:2ccdf36f605d63834efc5261cf9f9829f5c8e2cdec8cee10d34ac01840f3db43
+tags:
+  0.20.0--py312he4a0461_0: sha256:2ccdf36f605d63834efc5261cf9f9829f5c8e2cdec8cee10d34ac01840f3db43
+docker: quay.io/biocontainers/pygenetic_code
+aliases:
+  pygenetic_code: /usr/local/bin/pygenetic_code
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
