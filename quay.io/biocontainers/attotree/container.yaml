@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/attotree
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for attotree
+latest:
+  0.1.0--pyhdfd78af_0: sha256:1c5c80c2c302fce5119dbb9baa081f0b599cee20ef3e057d9974bb02930b7578
+tags:
+  0.1.0--pyhdfd78af_0: sha256:1c5c80c2c302fce5119dbb9baa081f0b599cee20ef3e057d9974bb02930b7578
+docker: quay.io/biocontainers/attotree
+aliases:
+  attotree: /usr/local/bin/attotree
+  quicktree: /usr/local/bin/quicktree
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  mash: /usr/local/bin/mash
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
