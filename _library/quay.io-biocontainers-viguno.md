@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/viguno"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viguno/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viguno/container.yaml"
-updated_at: "2024-01-14 02:58:10.763780"
-latest: "0.1.6--h7e29777_0"
+updated_at: "2024-01-15 02:57:08.588283"
+latest: "0.2.0--h7e29777_0"
 container_url: "https://biocontainers.pro/tools/viguno"
 aliases:
  - "viguno"
 versions:
  - "0.1.1--h7e29777_0"
  - "0.1.6--h7e29777_0"
+ - "0.2.0--h7e29777_0"
 description: "singularity registry hpc automated addition for viguno"
-config: {"url": "https://biocontainers.pro/tools/viguno", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for viguno", "latest": {"0.1.6--h7e29777_0": "sha256:4dce318cf723819840d2fc641e08c4ea3b0877b64ffc47b7fe93ca6b0a81acf5"}, "tags": {"0.1.1--h7e29777_0": "sha256:8a42109d38493410adf689fa56a859c7cec55efe6d85f02b0c3f0a694e02234f", "0.1.6--h7e29777_0": "sha256:4dce318cf723819840d2fc641e08c4ea3b0877b64ffc47b7fe93ca6b0a81acf5"}, "docker": "quay.io/biocontainers/viguno", "aliases": {"viguno": "/usr/local/bin/viguno"}}
+config: {"url": "https://biocontainers.pro/tools/viguno", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for viguno", "latest": {"0.2.0--h7e29777_0": "sha256:37afccb38f1cf367d2ecba59696d68fab05f69533808c38c050c674e030011af"}, "tags": {"0.1.1--h7e29777_0": "sha256:8a42109d38493410adf689fa56a859c7cec55efe6d85f02b0c3f0a694e02234f", "0.1.6--h7e29777_0": "sha256:4dce318cf723819840d2fc641e08c4ea3b0877b64ffc47b7fe93ca6b0a81acf5", "0.2.0--h7e29777_0": "sha256:37afccb38f1cf367d2ecba59696d68fab05f69533808c38c050c674e030011af"}, "docker": "quay.io/biocontainers/viguno", "aliases": {"viguno": "/usr/local/bin/viguno"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/viguno.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/viguno
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/viguno:0.1.6--h7e29777_0
+$ shpc install quay.io/biocontainers/viguno:0.2.0--h7e29777_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/viguno/0.1.6--h7e29777_0
-$ module help quay.io/biocontainers/viguno/0.1.6--h7e29777_0
+$ module load quay.io/biocontainers/viguno/0.2.0--h7e29777_0
+$ module help quay.io/biocontainers/viguno/0.2.0--h7e29777_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
