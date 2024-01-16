@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/vcf2db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vcf2db
 latest:
-  2020.02.24--hdfd78af_1: sha256:8cdcd3a78130e2e9975e034983d9973b1d153e4f1a5f2cf300918f8a41f5db11
+  2020.02.24--pl5321hdfd78af_3: sha256:a54d14aee0eb6f7c2733012cec5a52fbfa1d91385cc93e17c8bfc622e4694e39
 tags:
   2020.02.24--hdfd78af_1: sha256:8cdcd3a78130e2e9975e034983d9973b1d153e4f1a5f2cf300918f8a41f5db11
+  2020.02.24--pl5321hdfd78af_3: sha256:a54d14aee0eb6f7c2733012cec5a52fbfa1d91385cc93e17c8bfc622e4694e39
 docker: quay.io/biocontainers/vcf2db
 aliases:
   peddy: /usr/local/bin/peddy

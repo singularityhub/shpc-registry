@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cleanupdtseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cleanupdtseq
 latest:
-  1.38.0--r43hdfd78af_0: sha256:224b3b7f6124218d83ac19386d1eff98c76c562aeb46580955eeb183d330d811
+  1.40.0--r43hdfd78af_0: sha256:7ef3108e88d711e34a7d736d601e4784345ceb36d1a8dc07f269b34edb7e52c4
 tags:
   1.32.0--r41hdfd78af_0: sha256:8591744f7f053f53dc7b21efa54f484f65ac3dbb4d6163cc563c34dea5e6d173
   1.36.0--r42hdfd78af_0: sha256:141bbe66586cad3ebd47825f3af839f14c60d58f5fc74d058c978deef745c401
   1.38.0--r43hdfd78af_0: sha256:224b3b7f6124218d83ac19386d1eff98c76c562aeb46580955eeb183d330d811
+  1.40.0--r43hdfd78af_0: sha256:7ef3108e88d711e34a7d736d601e4784345ceb36d1a8dc07f269b34edb7e52c4
 docker: quay.io/biocontainers/bioconductor-cleanupdtseq

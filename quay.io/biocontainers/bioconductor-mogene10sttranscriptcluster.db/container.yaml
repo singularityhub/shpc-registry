@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mogene10sttranscriptcluster.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mogene10sttranscriptcluster.db
 latest:
-  8.8.0--r43hdfd78af_3: sha256:591273bb9cd79f76da6389550f286f327258ba339daed53b5b77f15c0dae221a
+  8.8.0--r43hdfd78af_4: sha256:55809c846eadc50a6a83d25028bed89bd0be4432ea5974571bdd72a284653251
 tags:
   8.8.0--r41hdfd78af_1: sha256:7b838ea43880554867cf91bde089fc4a0a5f35020497c0de48528865af0f7acc
   8.8.0--r42hdfd78af_2: sha256:040fcb0f8d256a2b896f7eaf705c3a7e029086363f293ba9bf8e149b9c08e80f
   8.8.0--r43hdfd78af_3: sha256:591273bb9cd79f76da6389550f286f327258ba339daed53b5b77f15c0dae221a
+  8.8.0--r43hdfd78af_4: sha256:55809c846eadc50a6a83d25028bed89bd0be4432ea5974571bdd72a284653251
 docker: quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-bionetstat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bionetstat
 latest:
-  1.20.0--r43hdfd78af_0: sha256:c8d5a697ea0b1aa6cd30b08dcbb337364970bef76919bd96f4630b752ecf4926
+  1.22.0--r43hdfd78af_0: sha256:26a91c239b074ae39d66fdd264af42db04d46fdeb0d077fb92b60be1e98bb3e7
 tags:
   1.8.0--r40_0: sha256:a7e9a31bf6552a7bbccf6de61bc3535b92ba7889d42ced79efcb3a484379d339
   1.18.0--r42hdfd78af_0: sha256:7d94eba4417cfa986fcf9ef0aa64690dfc304841b3308a2f4a21a38fa50030c4
@@ -10,6 +10,7 @@ tags:
   1.12.0--r41hdfd78af_0: sha256:9901e5e6a8cab4bdb7774a7d31516d7774c55fed8760647b7667b26b9364674f
   1.10.2--r40hdfd78af_0: sha256:0714eb5ac3360244c4dd18602654d09c8081430d71f40bc3f2bafba213c13c64
   1.20.0--r43hdfd78af_0: sha256:c8d5a697ea0b1aa6cd30b08dcbb337364970bef76919bd96f4630b752ecf4926
+  1.22.0--r43hdfd78af_0: sha256:26a91c239b074ae39d66fdd264af42db04d46fdeb0d077fb92b60be1e98bb3e7
 docker: quay.io/biocontainers/bioconductor-bionetstat
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8
