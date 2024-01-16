@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-glob"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-glob/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-glob/container.yaml"
-updated_at: "2024-01-15 04:07:59.915292"
+updated_at: "2024-01-16 03:09:29.559082"
 latest: "0.11--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-text-glob"
 aliases:

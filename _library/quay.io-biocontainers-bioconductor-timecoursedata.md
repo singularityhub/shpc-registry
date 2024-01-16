@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-timecoursedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-timecoursedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-timecoursedata/container.yaml"
-updated_at: "2024-01-15 03:42:49.463023"
+updated_at: "2024-01-16 02:44:53.295068"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-timecoursedata"
 

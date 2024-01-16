@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pairadise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pairadise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pairadise/container.yaml"
-updated_at: "2024-01-15 03:48:54.896834"
+updated_at: "2024-01-16 02:50:45.996165"
 latest: "1.0.0--r36hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-pairadise"
 

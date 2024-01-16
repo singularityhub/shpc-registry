@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fann"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fann/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fann/container.yaml"
-updated_at: "2024-01-15 04:03:48.927089"
+updated_at: "2024-01-16 03:05:23.324057"
 latest: "2.2.0--hdbdd923_6"
 container_url: "https://biocontainers.pro/tools/fann"
 

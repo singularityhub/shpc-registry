@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ont-fast5-api"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ont-fast5-api/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ont-fast5-api/container.yaml"
-updated_at: "2024-01-15 03:33:35.657964"
-latest: "4.1.1--pyhdfd78af_0"
+updated_at: "2024-01-16 02:36:00.199668"
+latest: "4.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ont-fast5-api"
 aliases:
  - "check_compression"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "4.1.0--pyhdfd78af_0"
  - "4.1.1--pyhdfd78af_0"
+ - "4.1.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ont-fast5-api"
-config: {"url": "https://biocontainers.pro/tools/ont-fast5-api", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ont-fast5-api", "latest": {"4.1.1--pyhdfd78af_0": "sha256:b0da98965ff5fb117a051e5c3a6235bc088863af78a941d4acc2860b75ea3009"}, "tags": {"4.1.0--pyhdfd78af_0": "sha256:67cc05ce27ca64b6a08a4b26032c1532ab27b4bdcfb033fe443ea1883990ec4f", "4.1.1--pyhdfd78af_0": "sha256:b0da98965ff5fb117a051e5c3a6235bc088863af78a941d4acc2860b75ea3009"}, "docker": "quay.io/biocontainers/ont-fast5-api", "aliases": {"check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "demux_fast5": "/usr/local/bin/demux_fast5", "fast5_subset": "/usr/local/bin/fast5_subset", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "tar": "/usr/local/bin/tar", "f2py3.10": "/usr/local/bin/f2py3.10", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/ont-fast5-api", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ont-fast5-api", "latest": {"4.1.2--pyhdfd78af_0": "sha256:470f95920bf29138550f6038ac7627733ea4ec78a800d06f1358d263ae6aa13e"}, "tags": {"4.1.0--pyhdfd78af_0": "sha256:67cc05ce27ca64b6a08a4b26032c1532ab27b4bdcfb033fe443ea1883990ec4f", "4.1.1--pyhdfd78af_0": "sha256:b0da98965ff5fb117a051e5c3a6235bc088863af78a941d4acc2860b75ea3009", "4.1.2--pyhdfd78af_0": "sha256:470f95920bf29138550f6038ac7627733ea4ec78a800d06f1358d263ae6aa13e"}, "docker": "quay.io/biocontainers/ont-fast5-api", "aliases": {"check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "demux_fast5": "/usr/local/bin/demux_fast5", "fast5_subset": "/usr/local/bin/fast5_subset", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "tar": "/usr/local/bin/tar", "f2py3.10": "/usr/local/bin/f2py3.10", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ont-fast5-api.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/ont-fast5-api
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ont-fast5-api:4.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ont-fast5-api:4.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ont-fast5-api/4.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/ont-fast5-api/4.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/ont-fast5-api/4.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/ont-fast5-api/4.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

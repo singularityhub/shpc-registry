@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/awscli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/awscli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/awscli/container.yaml"
-updated_at: "2024-01-15 04:11:17.074856"
+updated_at: "2024-01-16 03:12:43.283286"
 latest: "1.8.3--py35_0"
 container_url: "https://biocontainers.pro/tools/awscli"
 aliases:

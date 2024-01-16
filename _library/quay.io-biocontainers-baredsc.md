@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/baredsc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/baredsc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/baredsc/container.yaml"
-updated_at: "2024-01-15 03:50:11.575489"
+updated_at: "2024-01-16 02:52:01.253443"
 latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/baredsc"
 aliases:
