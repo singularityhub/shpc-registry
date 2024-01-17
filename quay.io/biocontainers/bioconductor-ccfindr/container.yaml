@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-ccfindr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ccfindr
 latest:
-  1.20.0--r43hf17093f_0: sha256:dc22d8e2bd5a762204017e22aaa4b89c2dd7e10878d85dfd7cc4c37cbaf3e322
+  1.22.0--r43h7c4fd5e_0: sha256:9eee3d9d7abf77bb104b8f21ce5286a0d15626dbced621d451e864000184421f
 tags:
   1.8.0--r40h5f743cb_0: sha256:d073f895818d84225ac8b44392d728ebc910d066a9baf22d57f5faef239a8035
   1.18.0--r42hc247a5b_0: sha256:e79d0fa05cfb5f68d00a5e3ca6834c42216a3154950711b7296dafd9e242ee15
@@ -11,6 +11,7 @@ tags:
   1.10.0--r40h399db7b_1: sha256:1652d6feb16b40c2e7ed1de27c25b8c3702b7c76cc2366f557306670ea526edc
   1.18.0--r42hf17093f_1: sha256:df85c7d81b4a82777abd6a1ed33dc65632414f6b60cabe3c6d579432a51147f3
   1.20.0--r43hf17093f_0: sha256:dc22d8e2bd5a762204017e22aaa4b89c2dd7e10878d85dfd7cc4c37cbaf3e322
+  1.22.0--r43h7c4fd5e_0: sha256:9eee3d9d7abf77bb104b8f21ce5286a0d15626dbced621d451e864000184421f
 docker: quay.io/biocontainers/bioconductor-ccfindr
 aliases:
   aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl

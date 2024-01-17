@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/micom
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for micom
 latest:
-  0.33.0--pyhdfd78af_0: sha256:5f97f12bb8f4e8e5de9794118d901485dc09db5885fc0c66f39220236778c994
+  0.33.1--pyhdfd78af_0: sha256:53180a67df7aa32190449cba3e982d03ef60a2ee1f4599f484a0ad5261862b98
 tags:
   0.32.2--pyhdfd78af_0: sha256:e88e4949c421da1c631562600ebdd2066b9e4d52b7caeb037ac64e6883d7c2d5
   0.32.5--pyhdfd78af_0: sha256:8fb96ca2d0196ae736acc4a1110762499e8c9dd7b5461f49914224dcd3bbc0ad
   0.33.0--pyhdfd78af_0: sha256:5f97f12bb8f4e8e5de9794118d901485dc09db5885fc0c66f39220236778c994
+  0.33.1--pyhdfd78af_0: sha256:53180a67df7aa32190449cba3e982d03ef60a2ee1f4599f484a0ad5261862b98
 docker: quay.io/biocontainers/micom
 aliases:
   httpx: /usr/local/bin/httpx

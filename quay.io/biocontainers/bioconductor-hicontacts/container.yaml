@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-hicontacts
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-hicontacts
 latest:
-  1.2.0--r43hdfd78af_0: sha256:b4ac849cf3b9613df03cb529d02fdc9ad1f959e8141201b2690c614ee3e1fa21
+  1.4.0--r43hdfd78af_0: sha256:8c73732ffc75c9de84a6b571639c4b06c6aefe87736afaf5976e766cdc520704
 tags:
   1.0.0--r42hdfd78af_0: sha256:c07d5fa2137736baa39d2e9d208650e6cd5202504d1847200c176c5733de806e
   1.2.0--r43hdfd78af_0: sha256:b4ac849cf3b9613df03cb529d02fdc9ad1f959e8141201b2690c614ee3e1fa21
+  1.4.0--r43hdfd78af_0: sha256:8c73732ffc75c9de84a6b571639c4b06c6aefe87736afaf5976e766cdc520704
 docker: quay.io/biocontainers/bioconductor-hicontacts
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
