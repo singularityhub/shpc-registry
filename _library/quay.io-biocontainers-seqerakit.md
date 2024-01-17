@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seqerakit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqerakit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqerakit/container.yaml"
-updated_at: "2024-01-16 02:35:55.979658"
-latest: "0.4.4--pyhdfd78af_0"
+updated_at: "2024-01-17 02:36:19.266822"
+latest: "0.4.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqerakit"
 aliases:
  - "seqerakit"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "0.4.2--pyhdfd78af_0"
  - "0.4.4--pyhdfd78af_0"
+ - "0.4.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for seqerakit"
-config: {"url": "https://biocontainers.pro/tools/seqerakit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqerakit", "latest": {"0.4.4--pyhdfd78af_0": "sha256:7fb524504772fbe2746f29371df54ecba9cfb5187b688b705e492a50b479da5b"}, "tags": {"0.4.2--pyhdfd78af_0": "sha256:8162bcdf3e991c9dcaac249c8332943103271169b61b0ad8498aa3e0aa5f78b0", "0.4.4--pyhdfd78af_0": "sha256:7fb524504772fbe2746f29371df54ecba9cfb5187b688b705e492a50b479da5b"}, "docker": "quay.io/biocontainers/seqerakit", "aliases": {"seqerakit": "/usr/local/bin/seqerakit", "tw": "/usr/local/bin/tw", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/seqerakit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqerakit", "latest": {"0.4.5--pyhdfd78af_0": "sha256:ebccdbd2ccd6a0351c88fd7f74d0541435ae8e2950920077136a393ba791a4d8"}, "tags": {"0.4.2--pyhdfd78af_0": "sha256:8162bcdf3e991c9dcaac249c8332943103271169b61b0ad8498aa3e0aa5f78b0", "0.4.4--pyhdfd78af_0": "sha256:7fb524504772fbe2746f29371df54ecba9cfb5187b688b705e492a50b479da5b", "0.4.5--pyhdfd78af_0": "sha256:ebccdbd2ccd6a0351c88fd7f74d0541435ae8e2950920077136a393ba791a4d8"}, "docker": "quay.io/biocontainers/seqerakit", "aliases": {"seqerakit": "/usr/local/bin/seqerakit", "tw": "/usr/local/bin/tw", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqerakit.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/seqerakit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqerakit:0.4.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/seqerakit:0.4.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqerakit/0.4.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/seqerakit/0.4.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/seqerakit/0.4.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/seqerakit/0.4.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

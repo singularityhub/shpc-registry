@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-parse-yapp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-parse-yapp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-parse-yapp/container.yaml"
-updated_at: "2024-01-16 02:40:58.550325"
+updated_at: "2024-01-17 02:41:39.221585"
 latest: "1.21--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-parse-yapp"
 aliases:

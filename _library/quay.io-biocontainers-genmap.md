@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genmap/container.yaml"
-updated_at: "2024-01-16 02:49:24.141152"
+updated_at: "2024-01-17 02:50:26.738582"
 latest: "1.3.0--h87f3376_2"
 container_url: "https://biocontainers.pro/tools/genmap"
 aliases:

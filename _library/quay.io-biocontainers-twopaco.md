@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/twopaco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/twopaco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/twopaco/container.yaml"
-updated_at: "2024-01-16 02:37:47.450956"
+updated_at: "2024-01-17 02:38:23.758728"
 latest: "1.0.0--hbb2dabb_2"
 container_url: "https://biocontainers.pro/tools/twopaco"
 aliases:

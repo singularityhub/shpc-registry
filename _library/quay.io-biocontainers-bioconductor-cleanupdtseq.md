@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-cleanupdtseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cleanupdtseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cleanupdtseq/container.yaml"
-updated_at: "2024-01-16 03:07:45.119879"
-latest: "1.38.0--r43hdfd78af_0"
+updated_at: "2024-01-17 03:09:28.426357"
+latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cleanupdtseq"
 
 versions:
  - "1.32.0--r41hdfd78af_0"
  - "1.36.0--r42hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
+ - "1.40.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cleanupdtseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cleanupdtseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cleanupdtseq", "latest": {"1.38.0--r43hdfd78af_0": "sha256:224b3b7f6124218d83ac19386d1eff98c76c562aeb46580955eeb183d330d811"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:8591744f7f053f53dc7b21efa54f484f65ac3dbb4d6163cc563c34dea5e6d173", "1.36.0--r42hdfd78af_0": "sha256:141bbe66586cad3ebd47825f3af839f14c60d58f5fc74d058c978deef745c401", "1.38.0--r43hdfd78af_0": "sha256:224b3b7f6124218d83ac19386d1eff98c76c562aeb46580955eeb183d330d811"}, "docker": "quay.io/biocontainers/bioconductor-cleanupdtseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cleanupdtseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cleanupdtseq", "latest": {"1.40.0--r43hdfd78af_0": "sha256:7ef3108e88d711e34a7d736d601e4784345ceb36d1a8dc07f269b34edb7e52c4"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:8591744f7f053f53dc7b21efa54f484f65ac3dbb4d6163cc563c34dea5e6d173", "1.36.0--r42hdfd78af_0": "sha256:141bbe66586cad3ebd47825f3af839f14c60d58f5fc74d058c978deef745c401", "1.38.0--r43hdfd78af_0": "sha256:224b3b7f6124218d83ac19386d1eff98c76c562aeb46580955eeb183d330d811", "1.40.0--r43hdfd78af_0": "sha256:7ef3108e88d711e34a7d736d601e4784345ceb36d1a8dc07f269b34edb7e52c4"}, "docker": "quay.io/biocontainers/bioconductor-cleanupdtseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cleanupdtseq.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cleanupdtseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cleanupdtseq:1.38.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cleanupdtseq:1.40.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cleanupdtseq/1.38.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cleanupdtseq/1.38.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cleanupdtseq/1.40.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cleanupdtseq/1.40.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

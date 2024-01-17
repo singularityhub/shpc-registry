@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/simka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simka/container.yaml"
-updated_at: "2024-01-16 03:08:00.977799"
+updated_at: "2024-01-17 03:09:45.357199"
 latest: "1.5.3--hdcf5f25_4"
 container_url: "https://biocontainers.pro/tools/simka"
 aliases:

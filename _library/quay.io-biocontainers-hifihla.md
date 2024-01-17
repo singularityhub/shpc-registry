@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/hifihla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hifihla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hifihla/container.yaml"
-updated_at: "2024-01-16 03:08:35.007613"
-latest: "0.2.2--hdfd78af_0"
+updated_at: "2024-01-17 03:10:20.907786"
+latest: "0.2.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hifihla"
 aliases:
  - "hifihla"
 versions:
  - "0.2.2--hdfd78af_0"
+ - "0.2.3--hdfd78af_0"
 description: "singularity registry hpc automated addition for hifihla"
-config: {"url": "https://biocontainers.pro/tools/hifihla", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hifihla", "latest": {"0.2.2--hdfd78af_0": "sha256:f5efb93d34dea99aed8d8de49295279ee7685b6ce84a57b16f2008be5af8b0ac"}, "tags": {"0.2.2--hdfd78af_0": "sha256:f5efb93d34dea99aed8d8de49295279ee7685b6ce84a57b16f2008be5af8b0ac"}, "docker": "quay.io/biocontainers/hifihla", "aliases": {"hifihla": "/usr/local/bin/hifihla"}}
+config: {"url": "https://biocontainers.pro/tools/hifihla", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hifihla", "latest": {"0.2.3--hdfd78af_0": "sha256:90a0fd81202c4bc91a8abdbd43cdf9bc679ed7b6ceeee599b496b49e0d2010cd"}, "tags": {"0.2.2--hdfd78af_0": "sha256:f5efb93d34dea99aed8d8de49295279ee7685b6ce84a57b16f2008be5af8b0ac", "0.2.3--hdfd78af_0": "sha256:90a0fd81202c4bc91a8abdbd43cdf9bc679ed7b6ceeee599b496b49e0d2010cd"}, "docker": "quay.io/biocontainers/hifihla", "aliases": {"hifihla": "/usr/local/bin/hifihla"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hifihla.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/hifihla
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hifihla:0.2.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/hifihla:0.2.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hifihla/0.2.2--hdfd78af_0
-$ module help quay.io/biocontainers/hifihla/0.2.2--hdfd78af_0
+$ module load quay.io/biocontainers/hifihla/0.2.3--hdfd78af_0
+$ module help quay.io/biocontainers/hifihla/0.2.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

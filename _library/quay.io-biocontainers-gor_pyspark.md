@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gor_pyspark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gor_pyspark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gor_pyspark/container.yaml"
-updated_at: "2024-01-16 02:57:37.545045"
+updated_at: "2024-01-17 02:59:03.411559"
 latest: "3.22.6--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/gor_pyspark"
 aliases:

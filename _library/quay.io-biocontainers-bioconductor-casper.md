@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-casper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-casper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-casper/container.yaml"
-updated_at: "2024-01-16 02:55:57.323609"
+updated_at: "2024-01-17 02:57:17.537329"
 latest: "2.36.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-casper"
 

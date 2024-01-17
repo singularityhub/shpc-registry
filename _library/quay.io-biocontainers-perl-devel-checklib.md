@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-devel-checklib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-devel-checklib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-devel-checklib/container.yaml"
-updated_at: "2024-01-16 03:06:34.810549"
+updated_at: "2024-01-17 03:08:15.644464"
 latest: "1.16--pl5321hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/perl-devel-checklib"
 aliases:

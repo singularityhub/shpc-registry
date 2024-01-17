@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msp2db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msp2db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msp2db/container.yaml"
-updated_at: "2024-01-16 03:10:40.983875"
+updated_at: "2024-01-17 03:12:34.930923"
 latest: "0.0.9--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/msp2db"
 aliases:

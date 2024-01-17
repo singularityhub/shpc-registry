@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vcf2db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf2db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf2db/container.yaml"
-updated_at: "2024-01-16 02:58:06.602380"
-latest: "2020.02.24--hdfd78af_1"
+updated_at: "2024-01-17 02:59:33.686204"
+latest: "2020.02.24--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/vcf2db"
 aliases:
  - "peddy"
@@ -23,8 +23,9 @@ aliases:
  - "pydoc3.8"
 versions:
  - "2020.02.24--hdfd78af_1"
+ - "2020.02.24--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for vcf2db"
-config: {"url": "https://biocontainers.pro/tools/vcf2db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcf2db", "latest": {"2020.02.24--hdfd78af_1": "sha256:8cdcd3a78130e2e9975e034983d9973b1d153e4f1a5f2cf300918f8a41f5db11"}, "tags": {"2020.02.24--hdfd78af_1": "sha256:8cdcd3a78130e2e9975e034983d9973b1d153e4f1a5f2cf300918f8a41f5db11"}, "docker": "quay.io/biocontainers/vcf2db", "aliases": {"peddy": "/usr/local/bin/peddy", "toolshed": "/usr/local/bin/toolshed", "vcf2db.py": "/usr/local/bin/vcf2db.py", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "f2py3.8": "/usr/local/bin/f2py3.8", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8"}}
+config: {"url": "https://biocontainers.pro/tools/vcf2db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcf2db", "latest": {"2020.02.24--pl5321hdfd78af_3": "sha256:a54d14aee0eb6f7c2733012cec5a52fbfa1d91385cc93e17c8bfc622e4694e39"}, "tags": {"2020.02.24--hdfd78af_1": "sha256:8cdcd3a78130e2e9975e034983d9973b1d153e4f1a5f2cf300918f8a41f5db11", "2020.02.24--pl5321hdfd78af_3": "sha256:a54d14aee0eb6f7c2733012cec5a52fbfa1d91385cc93e17c8bfc622e4694e39"}, "docker": "quay.io/biocontainers/vcf2db", "aliases": {"peddy": "/usr/local/bin/peddy", "toolshed": "/usr/local/bin/toolshed", "vcf2db.py": "/usr/local/bin/vcf2db.py", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "f2py3.8": "/usr/local/bin/f2py3.8", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcf2db.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/vcf2db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcf2db:2020.02.24--hdfd78af_1
+$ shpc install quay.io/biocontainers/vcf2db:2020.02.24--pl5321hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcf2db/2020.02.24--hdfd78af_1
-$ module help quay.io/biocontainers/vcf2db/2020.02.24--hdfd78af_1
+$ module load quay.io/biocontainers/vcf2db/2020.02.24--pl5321hdfd78af_3
+$ module help quay.io/biocontainers/vcf2db/2020.02.24--pl5321hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

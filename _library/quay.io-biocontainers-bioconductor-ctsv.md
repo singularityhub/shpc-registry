@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ctsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ctsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ctsv/container.yaml"
-updated_at: "2024-01-16 02:41:25.725673"
+updated_at: "2024-01-17 02:42:06.637700"
 latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ctsv"
 aliases:
