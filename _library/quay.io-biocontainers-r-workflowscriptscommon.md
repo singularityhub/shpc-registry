@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-workflowscriptscommon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-workflowscriptscommon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-workflowscriptscommon/container.yaml"
-updated_at: "2024-01-18 02:38:58.671165"
+updated_at: "2024-01-18 02:48:52.480540"
 latest: "0.0.8--r41hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/r-workflowscriptscommon"
 

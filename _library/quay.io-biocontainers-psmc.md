@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psmc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psmc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psmc/container.yaml"
-updated_at: "2024-01-18 02:31:07.779056"
+updated_at: "2024-01-18 02:40:33.293386"
 latest: "0.6.5--h43eeafb_2"
 container_url: "https://biocontainers.pro/tools/psmc"
 aliases:

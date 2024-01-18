@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rmir.hs.mirna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rmir.hs.mirna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rmir.hs.mirna/container.yaml"
-updated_at: "2024-01-18 03:10:25.539615"
+updated_at: "2024-01-18 03:21:15.212106"
 latest: "1.0.7--r43hdfd78af_15"
 container_url: "https://biocontainers.pro/tools/bioconductor-rmir.hs.mirna"
 aliases:
