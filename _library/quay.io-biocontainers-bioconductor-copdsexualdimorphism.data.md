@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-copdsexualdimorphism.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-copdsexualdimorphism.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-copdsexualdimorphism.data/container.yaml"
-updated_at: "2024-01-17 02:50:13.944094"
+updated_at: "2024-01-18 02:49:07.004115"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-copdsexualdimorphism.data"
 

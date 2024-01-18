@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hicontacts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicontacts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicontacts/container.yaml"
-updated_at: "2024-01-17 02:41:53.315618"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2024-01-18 02:41:05.606329"
+latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicontacts"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.4.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-hicontacts"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hicontacts", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-hicontacts", "latest": {"1.2.0--r43hdfd78af_0": "sha256:b4ac849cf3b9613df03cb529d02fdc9ad1f959e8141201b2690c614ee3e1fa21"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:c07d5fa2137736baa39d2e9d208650e6cd5202504d1847200c176c5733de806e", "1.2.0--r43hdfd78af_0": "sha256:b4ac849cf3b9613df03cb529d02fdc9ad1f959e8141201b2690c614ee3e1fa21"}, "docker": "quay.io/biocontainers/bioconductor-hicontacts", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hicontacts", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-hicontacts", "latest": {"1.4.0--r43hdfd78af_0": "sha256:8c73732ffc75c9de84a6b571639c4b06c6aefe87736afaf5976e766cdc520704"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:c07d5fa2137736baa39d2e9d208650e6cd5202504d1847200c176c5733de806e", "1.2.0--r43hdfd78af_0": "sha256:b4ac849cf3b9613df03cb529d02fdc9ad1f959e8141201b2690c614ee3e1fa21", "1.4.0--r43hdfd78af_0": "sha256:8c73732ffc75c9de84a6b571639c4b06c6aefe87736afaf5976e766cdc520704"}, "docker": "quay.io/biocontainers/bioconductor-hicontacts", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hicontacts.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hicontacts
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hicontacts:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-hicontacts:1.4.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hicontacts/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-hicontacts/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-hicontacts/1.4.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hicontacts/1.4.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

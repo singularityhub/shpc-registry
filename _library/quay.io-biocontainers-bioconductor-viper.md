@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-viper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-viper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-viper/container.yaml"
-updated_at: "2024-01-17 02:35:33.388847"
+updated_at: "2024-01-18 02:35:06.818817"
 latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-viper"
 
