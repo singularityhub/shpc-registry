@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/r-clustree
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-clustree
+latest:
+  0.5.1: sha256:878416fce524d6288208f2cc59fd10a878df012830f047ac53d39de06cf65e24
+tags:
+  0.5.1: sha256:878416fce524d6288208f2cc59fd10a878df012830f047ac53d39de06cf65e24
+docker: quay.io/biocontainers/r-clustree
+aliases:
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  glpsol: /usr/local/bin/glpsol
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
