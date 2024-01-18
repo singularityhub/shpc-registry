@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-singlecellsignalr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-singlecellsignalr
 latest:
-  1.12.0--r43hdfd78af_0: sha256:f468f205c7b81caa46391b5628a213a39714b2b1556c11bcb5b3803d525b0ae6
+  1.14.0--r43hdfd78af_0: sha256:5df0f2473f41fc78050a7511cf59337ee19b62425bb842b97d328c735883b2db
 tags:
   1.6.0--r41hdfd78af_0: sha256:28c73bdec67d2f64237f307f5a0fa88816aec095473498fae170bb74e6a4a9d8
   1.10.0--r42hdfd78af_0: sha256:1e4e1344bdabfaa761c876f12ce178a727bbc4799247a25d7bb06b983fb01e46
   1.12.0--r43hdfd78af_0: sha256:f468f205c7b81caa46391b5628a213a39714b2b1556c11bcb5b3803d525b0ae6
+  1.14.0--r43hdfd78af_0: sha256:5df0f2473f41fc78050a7511cf59337ee19b62425bb842b97d328c735883b2db
 docker: quay.io/biocontainers/bioconductor-singlecellsignalr

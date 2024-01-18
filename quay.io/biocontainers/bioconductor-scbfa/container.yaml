@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-scbfa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scbfa
 latest:
-  1.14.0--r43hdfd78af_0: sha256:1c95e7c9716e96ccbbb9a5f812d9856d46355d9de6a591dc039b6790d0611576
+  1.16.0--r43hdfd78af_0: sha256:36cf964193dcab1a8aeb0d345aee5e9028231aea30a9c7e8d0e1ccc4e68353d8
 tags:
   1.8.0--r41hdfd78af_0: sha256:609374ff73f9118ab6fdc27b303173af4574394ad6bccf1dca5f9c9509d1c9d0
   1.12.0--r42hdfd78af_0: sha256:d133b2b2321076d696a9372bfb14a41ba72ecce657dd44379cf97aef50c9622a
   1.14.0--r43hdfd78af_0: sha256:1c95e7c9716e96ccbbb9a5f812d9856d46355d9de6a591dc039b6790d0611576
+  1.16.0--r43hdfd78af_0: sha256:36cf964193dcab1a8aeb0d345aee5e9028231aea30a9c7e8d0e1ccc4e68353d8
 docker: quay.io/biocontainers/bioconductor-scbfa

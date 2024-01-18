@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-ataccogaps
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-ataccogaps
 latest:
-  1.2.0--r43hdfd78af_0: sha256:8e9a4cb703907884dc6b20cf53460cb254d8a7e70a669c29f03c97eb2610d85e
+  1.4.0--r43hdfd78af_0: sha256:40339264315502fe860cfa7490e5a590355471aca7ae1ec008c74238528b6f28
 tags:
   1.0.0--r42hdfd78af_0: sha256:21790ae957c08378431ec2b437d699305378c40ecb686a37dc7c1d0db377b082
   1.2.0--r43hdfd78af_0: sha256:8e9a4cb703907884dc6b20cf53460cb254d8a7e70a669c29f03c97eb2610d85e
+  1.4.0--r43hdfd78af_0: sha256:40339264315502fe860cfa7490e5a590355471aca7ae1ec008c74238528b6f28
 docker: quay.io/biocontainers/bioconductor-ataccogaps
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
