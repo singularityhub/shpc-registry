@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ataccogaps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ataccogaps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ataccogaps/container.yaml"
-updated_at: "2024-01-18 03:13:35.163811"
-latest: "1.2.0--r43hdfd78af_0"
+updated_at: "2024-01-19 03:03:56.234364"
+latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ataccogaps"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "1.0.0--r42hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
+ - "1.4.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-ataccogaps"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ataccogaps", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ataccogaps", "latest": {"1.2.0--r43hdfd78af_0": "sha256:8e9a4cb703907884dc6b20cf53460cb254d8a7e70a669c29f03c97eb2610d85e"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:21790ae957c08378431ec2b437d699305378c40ecb686a37dc7c1d0db377b082", "1.2.0--r43hdfd78af_0": "sha256:8e9a4cb703907884dc6b20cf53460cb254d8a7e70a669c29f03c97eb2610d85e"}, "docker": "quay.io/biocontainers/bioconductor-ataccogaps", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ataccogaps", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ataccogaps", "latest": {"1.4.0--r43hdfd78af_0": "sha256:40339264315502fe860cfa7490e5a590355471aca7ae1ec008c74238528b6f28"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:21790ae957c08378431ec2b437d699305378c40ecb686a37dc7c1d0db377b082", "1.2.0--r43hdfd78af_0": "sha256:8e9a4cb703907884dc6b20cf53460cb254d8a7e70a669c29f03c97eb2610d85e", "1.4.0--r43hdfd78af_0": "sha256:40339264315502fe860cfa7490e5a590355471aca7ae1ec008c74238528b6f28"}, "docker": "quay.io/biocontainers/bioconductor-ataccogaps", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ataccogaps.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ataccogaps
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ataccogaps:1.2.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ataccogaps:1.4.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ataccogaps/1.2.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ataccogaps/1.2.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ataccogaps/1.4.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ataccogaps/1.4.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

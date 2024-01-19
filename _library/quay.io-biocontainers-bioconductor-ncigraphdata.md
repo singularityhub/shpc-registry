@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ncigraphdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ncigraphdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ncigraphdata/container.yaml"
-updated_at: "2024-01-18 02:51:54.666748"
+updated_at: "2024-01-19 02:43:17.334502"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ncigraphdata"
 
