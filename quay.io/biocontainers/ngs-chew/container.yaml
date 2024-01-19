@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/ngs-chew
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ngs-chew
 latest:
-  0.8.1--pyhdfd78af_0: sha256:93e5ccecc84d2de4482a6da29db829b3f82f3671e0e8b0b88f8c8ebe69ca644a
+  0.9.2--pyhdfd78af_0: sha256:90654795353a83e446493c18cdaa8a22dac9aef138208c9b049724487aa9ec29
 tags:
   0.8.0--pyhdfd78af_0: sha256:459e2b19a0ed61cd41d6696792ba40080e70dc5c57de5355eacb5d4a393d7a02
   0.8.1--pyhdfd78af_0: sha256:93e5ccecc84d2de4482a6da29db829b3f82f3671e0e8b0b88f8c8ebe69ca644a
+  0.9.2--pyhdfd78af_0: sha256:90654795353a83e446493c18cdaa8a22dac9aef138208c9b049724487aa9ec29
 docker: quay.io/biocontainers/ngs-chew
 aliases:
   ngs-chew: /usr/local/bin/ngs-chew

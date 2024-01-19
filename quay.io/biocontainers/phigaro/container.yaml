@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/phigaro
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phigaro
 latest:
-  2.3.0--pyh7b7c402_1: sha256:88e98c633043f38d397047b2ec4b2606af4cd391bc970b07c2497bdc2b8e5d9a
+  2.4.0--pyhdfd78af_0: sha256:a624e3e99032d54aa0900999e347882eb2b90f9b2522510a9419a8aeb07092f2
 tags:
   2.3.0--pyh7b7c402_1: sha256:88e98c633043f38d397047b2ec4b2606af4cd391bc970b07c2497bdc2b8e5d9a
+  2.4.0--pyhdfd78af_0: sha256:a624e3e99032d54aa0900999e347882eb2b90f9b2522510a9419a8aeb07092f2
 docker: quay.io/biocontainers/phigaro
 aliases:
   phigaro: /usr/local/bin/phigaro
