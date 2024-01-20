@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cctutorial
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cctutorial
 latest:
-  1.38.0--r43hdfd78af_0: sha256:232c2821760e0a017acf88bd4be95d43a0ab96fff6300645aeb44a5e5a0234d3
+  1.40.0--r43hdfd78af_0: sha256:94fbe19e8e4e2194438a12b1f23f8a5f043ab8a1008b37bd965883b9e7bb2cd8
 tags:
   1.32.0--r41hdfd78af_1: sha256:ed76e9748f7659dcb732416e1c4fd0ff5ff32b4f76aa364cc11f15955e758554
   1.36.0--r42hdfd78af_0: sha256:0c458abcb5ec5dc626551caccef4167e259a85ee2add8b1c0ed2cb43186cce59
   1.38.0--r43hdfd78af_0: sha256:232c2821760e0a017acf88bd4be95d43a0ab96fff6300645aeb44a5e5a0234d3
+  1.40.0--r43hdfd78af_0: sha256:94fbe19e8e4e2194438a12b1f23f8a5f043ab8a1008b37bd965883b9e7bb2cd8
 docker: quay.io/biocontainers/bioconductor-cctutorial
