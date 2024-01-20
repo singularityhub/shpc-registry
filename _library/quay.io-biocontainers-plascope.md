@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plascope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plascope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plascope/container.yaml"
-updated_at: "2024-01-19 02:51:29.062249"
+updated_at: "2024-01-20 02:48:53.343448"
 latest: "1.3.1--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/plascope"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/balrog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/balrog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/balrog/container.yaml"
-updated_at: "2024-01-19 02:36:22.549557"
+updated_at: "2024-01-20 02:33:18.082558"
 latest: "0.5.1--hd03093a_4"
 container_url: "https://biocontainers.pro/tools/balrog"
 aliases:

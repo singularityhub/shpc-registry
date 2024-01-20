@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phigaro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phigaro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phigaro/container.yaml"
-updated_at: "2024-01-19 02:54:08.381249"
-latest: "2.3.0--pyh7b7c402_1"
+updated_at: "2024-01-20 02:51:38.133660"
+latest: "2.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phigaro"
 aliases:
  - "phigaro"
@@ -22,8 +22,9 @@ aliases:
  - "esl-alipid"
 versions:
  - "2.3.0--pyh7b7c402_1"
+ - "2.4.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for phigaro"
-config: {"url": "https://biocontainers.pro/tools/phigaro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phigaro", "latest": {"2.3.0--pyh7b7c402_1": "sha256:88e98c633043f38d397047b2ec4b2606af4cd391bc970b07c2497bdc2b8e5d9a"}, "tags": {"2.3.0--pyh7b7c402_1": "sha256:88e98c633043f38d397047b2ec4b2606af4cd391bc970b07c2497bdc2b8e5d9a"}, "docker": "quay.io/biocontainers/phigaro", "aliases": {"phigaro": "/usr/local/bin/phigaro", "phigaro-setup": "/usr/local/bin/phigaro-setup", "prodigal": "/usr/local/bin/prodigal", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "f2py3.6": "/usr/local/bin/f2py3.6", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid"}}
+config: {"url": "https://biocontainers.pro/tools/phigaro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phigaro", "latest": {"2.4.0--pyhdfd78af_0": "sha256:a624e3e99032d54aa0900999e347882eb2b90f9b2522510a9419a8aeb07092f2"}, "tags": {"2.3.0--pyh7b7c402_1": "sha256:88e98c633043f38d397047b2ec4b2606af4cd391bc970b07c2497bdc2b8e5d9a", "2.4.0--pyhdfd78af_0": "sha256:a624e3e99032d54aa0900999e347882eb2b90f9b2522510a9419a8aeb07092f2"}, "docker": "quay.io/biocontainers/phigaro", "aliases": {"phigaro": "/usr/local/bin/phigaro", "phigaro-setup": "/usr/local/bin/phigaro-setup", "prodigal": "/usr/local/bin/prodigal", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "f2py3.6": "/usr/local/bin/f2py3.6", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phigaro.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/phigaro
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phigaro:2.3.0--pyh7b7c402_1
+$ shpc install quay.io/biocontainers/phigaro:2.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phigaro/2.3.0--pyh7b7c402_1
-$ module help quay.io/biocontainers/phigaro/2.3.0--pyh7b7c402_1
+$ module load quay.io/biocontainers/phigaro/2.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/phigaro/2.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

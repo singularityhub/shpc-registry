@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spikeli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spikeli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spikeli/container.yaml"
-updated_at: "2024-01-19 02:57:02.301094"
+updated_at: "2024-01-20 02:54:38.080517"
 latest: "2.62.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spikeli"
 

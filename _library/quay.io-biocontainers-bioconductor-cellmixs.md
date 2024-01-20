@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cellmixs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellmixs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellmixs/container.yaml"
-updated_at: "2024-01-19 03:09:53.806512"
-latest: "1.16.0--r43hdfd78af_0"
+updated_at: "2024-01-20 03:08:02.309164"
+latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellmixs"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.14.0--r42hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
+ - "1.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cellmixs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cellmixs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellmixs", "latest": {"1.16.0--r43hdfd78af_0": "sha256:77958c944587417fd93f8efb201bb53c08da3f25b05b3ecdc0617389d0f68acb"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:b8b39cbc552026a2ba902a10f94ab80b1831d78f861c4cce8dde9ef06e5c3b33", "1.14.0--r42hdfd78af_0": "sha256:6f987aaf0a0382ee040cf0e7b42f16a244db3a5106e00e7aef115f8593c03fde", "1.10.0--r41hdfd78af_0": "sha256:201c6683ad16559140f9abd858d9cb206a52297b1d7e04bb6115eef2f100ccc6", "1.16.0--r43hdfd78af_0": "sha256:77958c944587417fd93f8efb201bb53c08da3f25b05b3ecdc0617389d0f68acb"}, "docker": "quay.io/biocontainers/bioconductor-cellmixs", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cellmixs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellmixs", "latest": {"1.18.0--r43hdfd78af_0": "sha256:edc653f92f67985da0557072f6847d363e2bf261abe142561ae96e29b88ae624"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:b8b39cbc552026a2ba902a10f94ab80b1831d78f861c4cce8dde9ef06e5c3b33", "1.14.0--r42hdfd78af_0": "sha256:6f987aaf0a0382ee040cf0e7b42f16a244db3a5106e00e7aef115f8593c03fde", "1.10.0--r41hdfd78af_0": "sha256:201c6683ad16559140f9abd858d9cb206a52297b1d7e04bb6115eef2f100ccc6", "1.16.0--r43hdfd78af_0": "sha256:77958c944587417fd93f8efb201bb53c08da3f25b05b3ecdc0617389d0f68acb", "1.18.0--r43hdfd78af_0": "sha256:edc653f92f67985da0557072f6847d363e2bf261abe142561ae96e29b88ae624"}, "docker": "quay.io/biocontainers/bioconductor-cellmixs", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cellmixs.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cellmixs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cellmixs:1.16.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cellmixs:1.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cellmixs/1.16.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cellmixs/1.16.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cellmixs/1.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cellmixs/1.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

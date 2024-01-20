@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rop/container.yaml"
-updated_at: "2024-01-19 03:06:27.657549"
+updated_at: "2024-01-20 03:04:26.936294"
 latest: "1.1.2--py27heb79e2c_3"
 container_url: "https://biocontainers.pro/tools/rop"
 aliases:

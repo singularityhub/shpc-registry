@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-storage-plugin-ftp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-storage-plugin-ftp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-storage-plugin-ftp/container.yaml"
-updated_at: "2024-01-19 03:03:17.495165"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2024-01-20 03:01:08.423808"
+latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-storage-plugin-ftp"
 aliases:
  - "2to3-3.12"
@@ -15,8 +15,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-storage-plugin-ftp"
-config: {"url": "https://biocontainers.pro/tools/snakemake-storage-plugin-ftp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-storage-plugin-ftp", "latest": {"0.1.1--pyhdfd78af_0": "sha256:4f32a13ee9b3f4d9981a593b1f950ac4e97d262d782438699333d536b6453d69"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:4f32a13ee9b3f4d9981a593b1f950ac4e97d262d782438699333d536b6453d69"}, "docker": "quay.io/biocontainers/snakemake-storage-plugin-ftp", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-storage-plugin-ftp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-storage-plugin-ftp", "latest": {"0.1.2--pyhdfd78af_0": "sha256:c21822103653598ed7da38887272b1e35dc99fbb08c9e8c6d81719cea282ca6b"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:4f32a13ee9b3f4d9981a593b1f950ac4e97d262d782438699333d536b6453d69", "0.1.2--pyhdfd78af_0": "sha256:c21822103653598ed7da38887272b1e35dc99fbb08c9e8c6d81719cea282ca6b"}, "docker": "quay.io/biocontainers/snakemake-storage-plugin-ftp", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-storage-plugin-ftp.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/snakemake-storage-plugin-ftp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-storage-plugin-ftp:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-storage-plugin-ftp:0.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-storage-plugin-ftp/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-storage-plugin-ftp/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-storage-plugin-ftp/0.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-storage-plugin-ftp/0.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

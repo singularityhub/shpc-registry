@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snvphyl-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snvphyl-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snvphyl-tools/container.yaml"
-updated_at: "2024-01-19 02:55:08.914143"
+updated_at: "2024-01-20 02:52:40.654352"
 latest: "1.8.2--pl5321h031d066_8"
 container_url: "https://biocontainers.pro/tools/snvphyl-tools"
 aliases:

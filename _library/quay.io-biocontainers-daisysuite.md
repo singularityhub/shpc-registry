@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/daisysuite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/daisysuite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/daisysuite/container.yaml"
-updated_at: "2024-01-19 03:09:50.975274"
+updated_at: "2024-01-20 03:07:59.368625"
 latest: "1.3.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/daisysuite"
 aliases:

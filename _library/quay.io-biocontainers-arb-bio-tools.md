@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arb-bio-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arb-bio-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arb-bio-tools/container.yaml"
-updated_at: "2024-01-19 02:31:41.395577"
+updated_at: "2024-01-20 02:28:47.397117"
 latest: "6.0.6--haa8b8d8_8"
 container_url: "https://biocontainers.pro/tools/arb-bio-tools"
 aliases:

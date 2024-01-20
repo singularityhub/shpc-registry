@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fdrtool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fdrtool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fdrtool/container.yaml"
-updated_at: "2024-01-19 02:41:55.775054"
+updated_at: "2024-01-20 02:38:59.868635"
 latest: "1.2.15--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-fdrtool"
 aliases:

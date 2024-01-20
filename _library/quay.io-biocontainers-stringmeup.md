@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stringmeup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stringmeup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stringmeup/container.yaml"
-updated_at: "2024-01-19 02:43:15.506280"
+updated_at: "2024-01-20 02:40:22.370994"
 latest: "0.1.4--py_0"
 container_url: "https://biocontainers.pro/tools/stringmeup"
 aliases:
