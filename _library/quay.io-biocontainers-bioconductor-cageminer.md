@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cageminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cageminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cageminer/container.yaml"
-updated_at: "2024-01-20 02:47:43.024713"
+updated_at: "2024-01-21 02:53:32.338717"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cageminer"
 

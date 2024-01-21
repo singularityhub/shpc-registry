@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mitos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mitos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mitos/container.yaml"
-updated_at: "2024-01-20 02:47:57.290001"
+updated_at: "2024-01-21 02:53:47.271879"
 latest: "2.1.6--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mitos"
 aliases:

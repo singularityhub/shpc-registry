@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gcspikelite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gcspikelite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gcspikelite/container.yaml"
-updated_at: "2024-01-20 02:57:33.595584"
+updated_at: "2024-01-21 03:03:50.640173"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gcspikelite"
 

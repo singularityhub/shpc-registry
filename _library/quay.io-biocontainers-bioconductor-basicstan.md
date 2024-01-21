@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-basicstan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-basicstan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-basicstan/container.yaml"
-updated_at: "2024-01-20 02:54:58.273458"
-latest: "1.2.0--r43hf17093f_0"
+updated_at: "2024-01-21 03:01:06.087161"
+latest: "1.4.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-basicstan"
 aliases:
  - "installBiocDataPackage.sh"
@@ -29,8 +29,9 @@ versions:
  - "1.0.0--r42hc247a5b_0"
  - "1.0.0--r42hf17093f_1"
  - "1.2.0--r43hf17093f_0"
+ - "1.4.0--r43hf17093f_0"
 description: "singularity registry hpc automated addition for bioconductor-basicstan"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-basicstan", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-basicstan", "latest": {"1.2.0--r43hf17093f_0": "sha256:3a627d58a2203160ff65244db10650cab7b572b404ecef2d7e2d447599d70956"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:507cc6cea8e6199c1c320c2319479d8be4e0c89146cb75a9f9223271a1bf4b28", "1.0.0--r42hf17093f_1": "sha256:8cd7faf735c940b2cf4b26608c87480e2b47d5b0fa49e9e1b7124023436ec10e", "1.2.0--r43hf17093f_0": "sha256:3a627d58a2203160ff65244db10650cab7b572b404ecef2d7e2d447599d70956"}, "docker": "quay.io/biocontainers/bioconductor-basicstan", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-basicstan", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-basicstan", "latest": {"1.4.0--r43hf17093f_0": "sha256:68a5e7de798e3ee2070cfcb5b3b4b19ef6589eaadc762a90af3fb4b3ff863683"}, "tags": {"1.0.0--r42hc247a5b_0": "sha256:507cc6cea8e6199c1c320c2319479d8be4e0c89146cb75a9f9223271a1bf4b28", "1.0.0--r42hf17093f_1": "sha256:8cd7faf735c940b2cf4b26608c87480e2b47d5b0fa49e9e1b7124023436ec10e", "1.2.0--r43hf17093f_0": "sha256:3a627d58a2203160ff65244db10650cab7b572b404ecef2d7e2d447599d70956", "1.4.0--r43hf17093f_0": "sha256:68a5e7de798e3ee2070cfcb5b3b4b19ef6589eaadc762a90af3fb4b3ff863683"}, "docker": "quay.io/biocontainers/bioconductor-basicstan", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-basicstan.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-basicstan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-basicstan:1.2.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-basicstan:1.4.0--r43hf17093f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-basicstan/1.2.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-basicstan/1.2.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-basicstan/1.4.0--r43hf17093f_0
+$ module help quay.io/biocontainers/bioconductor-basicstan/1.4.0--r43hf17093f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

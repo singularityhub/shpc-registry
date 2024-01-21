@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-annmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-annmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-annmap/container.yaml"
-updated_at: "2024-01-20 02:44:24.252931"
-latest: "1.42.0--r43hdfd78af_0"
+updated_at: "2024-01-21 02:50:05.475637"
+latest: "1.44.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-annmap"
 aliases:
  - "my_print_defaults"
@@ -15,8 +15,9 @@ versions:
  - "1.36.0--r41hdfd78af_0"
  - "1.40.0--r42hdfd78af_0"
  - "1.42.0--r43hdfd78af_0"
+ - "1.44.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-annmap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-annmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annmap", "latest": {"1.42.0--r43hdfd78af_0": "sha256:98d4b656148f501df5de1d1a5b67c04b0583b59eed2a34557a0715789803a541"}, "tags": {"1.36.0--r41hdfd78af_0": "sha256:c7e0332122ab972cb8cba4291bff66d11e60356d8a87410ae6b52e4fe0de09a0", "1.40.0--r42hdfd78af_0": "sha256:cfea53eb668f3954134754c0ba74beff5011ed036a7f46010f0c6732ed19ce6a", "1.42.0--r43hdfd78af_0": "sha256:98d4b656148f501df5de1d1a5b67c04b0583b59eed2a34557a0715789803a541"}, "docker": "quay.io/biocontainers/bioconductor-annmap", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-annmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annmap", "latest": {"1.44.0--r43hdfd78af_0": "sha256:eefcf7306fa480f43c2a9bd81d5859dd2d3639675a9810266d1e8eabfa2a3539"}, "tags": {"1.36.0--r41hdfd78af_0": "sha256:c7e0332122ab972cb8cba4291bff66d11e60356d8a87410ae6b52e4fe0de09a0", "1.40.0--r42hdfd78af_0": "sha256:cfea53eb668f3954134754c0ba74beff5011ed036a7f46010f0c6732ed19ce6a", "1.42.0--r43hdfd78af_0": "sha256:98d4b656148f501df5de1d1a5b67c04b0583b59eed2a34557a0715789803a541", "1.44.0--r43hdfd78af_0": "sha256:eefcf7306fa480f43c2a9bd81d5859dd2d3639675a9810266d1e8eabfa2a3539"}, "docker": "quay.io/biocontainers/bioconductor-annmap", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-annmap.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-annmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-annmap:1.42.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-annmap:1.44.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-annmap/1.42.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-annmap/1.42.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-annmap/1.44.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-annmap/1.44.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

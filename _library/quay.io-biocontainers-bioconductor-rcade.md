@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rcade"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcade/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcade/container.yaml"
-updated_at: "2024-01-20 02:51:05.359540"
+updated_at: "2024-01-21 02:57:03.315442"
 latest: "1.39.1--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcade"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hisat2-pipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hisat2-pipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hisat2-pipeline/container.yaml"
-updated_at: "2024-01-20 02:32:56.175292"
-latest: "1.0.6--pyhdfd78af_0"
+updated_at: "2024-01-21 02:38:07.616388"
+latest: "1.0.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hisat2-pipeline"
 aliases:
  - "annot-tsv"
@@ -56,8 +56,9 @@ aliases:
  - "wgsim"
 versions:
  - "1.0.6--pyhdfd78af_0"
+ - "1.0.7--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for hisat2-pipeline"
-config: {"url": "https://biocontainers.pro/tools/hisat2-pipeline", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hisat2-pipeline", "latest": {"1.0.6--pyhdfd78af_0": "sha256:47f4dd4a4ceab17e2df3538186e00765b4cb43427ad91153ea2542741bfc1a7d"}, "tags": {"1.0.6--pyhdfd78af_0": "sha256:47f4dd4a4ceab17e2df3538186e00765b4cb43427ad91153ea2542741bfc1a7d"}, "docker": "quay.io/biocontainers/hisat2-pipeline", "aliases": {"annot-tsv": "/usr/local/bin/annot-tsv", "extract_exons.py": "/usr/local/bin/extract_exons.py", "extract_splice_sites.py": "/usr/local/bin/extract_splice_sites.py", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s", "hisat2-pipeline": "/usr/local/bin/hisat2-pipeline", "hisat2_extract_exons.py": "/usr/local/bin/hisat2_extract_exons.py", "hisat2_extract_snps_haplotypes_UCSC.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py", "hisat2_extract_snps_haplotypes_VCF.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py", "hisat2_extract_splice_sites.py": "/usr/local/bin/hisat2_extract_splice_sites.py", "hisat2_read_statistics.py": "/usr/local/bin/hisat2_read_statistics.py", "hisat2_simulate_reads.py": "/usr/local/bin/hisat2_simulate_reads.py", "prepDE.py": "/usr/local/bin/prepDE.py", "stringtie": "/usr/local/bin/stringtie", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "wgsim": "/usr/local/bin/wgsim"}}
+config: {"url": "https://biocontainers.pro/tools/hisat2-pipeline", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hisat2-pipeline", "latest": {"1.0.7--pyhdfd78af_0": "sha256:dfcdeb6b41fe0243b31eb34bb2573b2e5489334cfe6a04299202c4a3ebd20179"}, "tags": {"1.0.6--pyhdfd78af_0": "sha256:47f4dd4a4ceab17e2df3538186e00765b4cb43427ad91153ea2542741bfc1a7d", "1.0.7--pyhdfd78af_0": "sha256:dfcdeb6b41fe0243b31eb34bb2573b2e5489334cfe6a04299202c4a3ebd20179"}, "docker": "quay.io/biocontainers/hisat2-pipeline", "aliases": {"annot-tsv": "/usr/local/bin/annot-tsv", "extract_exons.py": "/usr/local/bin/extract_exons.py", "extract_splice_sites.py": "/usr/local/bin/extract_splice_sites.py", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s", "hisat2-pipeline": "/usr/local/bin/hisat2-pipeline", "hisat2_extract_exons.py": "/usr/local/bin/hisat2_extract_exons.py", "hisat2_extract_snps_haplotypes_UCSC.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py", "hisat2_extract_snps_haplotypes_VCF.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py", "hisat2_extract_splice_sites.py": "/usr/local/bin/hisat2_extract_splice_sites.py", "hisat2_read_statistics.py": "/usr/local/bin/hisat2_read_statistics.py", "hisat2_simulate_reads.py": "/usr/local/bin/hisat2_simulate_reads.py", "prepDE.py": "/usr/local/bin/prepDE.py", "stringtie": "/usr/local/bin/stringtie", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "wgsim": "/usr/local/bin/wgsim"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hisat2-pipeline.
@@ -72,7 +73,7 @@ $ shpc install quay.io/biocontainers/hisat2-pipeline
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hisat2-pipeline:1.0.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/hisat2-pipeline:1.0.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -84,8 +85,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hisat2-pipeline/1.0.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/hisat2-pipeline/1.0.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/hisat2-pipeline/1.0.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/hisat2-pipeline/1.0.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

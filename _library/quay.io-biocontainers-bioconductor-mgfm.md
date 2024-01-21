@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mgfm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mgfm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mgfm/container.yaml"
-updated_at: "2024-01-20 02:51:41.106958"
+updated_at: "2024-01-21 02:57:40.421128"
 latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mgfm"
 

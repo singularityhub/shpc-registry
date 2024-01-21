@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-knowseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-knowseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-knowseq/container.yaml"
-updated_at: "2024-01-20 03:01:23.490717"
-latest: "1.14.0--r43hdfd78af_0"
+updated_at: "2024-01-21 03:07:52.056476"
+latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-knowseq"
 aliases:
  - "pandoc"
@@ -13,8 +13,9 @@ versions:
  - "1.8.0--r41hdfd78af_0"
  - "1.12.0--r42hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
+ - "1.16.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-knowseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-knowseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-knowseq", "latest": {"1.14.0--r43hdfd78af_0": "sha256:f6b4fdc12f7792bddcdf4e870c423af346817cc69be4536b0587b076764dd9bb"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:4fdada097d3a961c449bf2251ed1c655f135840b8f67601a1213e9b46a675b8a", "1.12.0--r42hdfd78af_0": "sha256:ba4eaa903b370b7bd679bee00b4cb96b1498b6220747aa1da8cf89ace50d7866", "1.14.0--r43hdfd78af_0": "sha256:f6b4fdc12f7792bddcdf4e870c423af346817cc69be4536b0587b076764dd9bb"}, "docker": "quay.io/biocontainers/bioconductor-knowseq", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-knowseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-knowseq", "latest": {"1.16.0--r43hdfd78af_0": "sha256:fc8414988ca732d70cf7b4d64f19ea02cb508b482ef73055ed996be7f7df0fd9"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:4fdada097d3a961c449bf2251ed1c655f135840b8f67601a1213e9b46a675b8a", "1.12.0--r42hdfd78af_0": "sha256:ba4eaa903b370b7bd679bee00b4cb96b1498b6220747aa1da8cf89ace50d7866", "1.14.0--r43hdfd78af_0": "sha256:f6b4fdc12f7792bddcdf4e870c423af346817cc69be4536b0587b076764dd9bb", "1.16.0--r43hdfd78af_0": "sha256:fc8414988ca732d70cf7b4d64f19ea02cb508b482ef73055ed996be7f7df0fd9"}, "docker": "quay.io/biocontainers/bioconductor-knowseq", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-knowseq.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-knowseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-knowseq:1.14.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-knowseq:1.16.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-knowseq/1.14.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-knowseq/1.14.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-knowseq/1.16.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-knowseq/1.16.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
