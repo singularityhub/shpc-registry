@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cliprofiler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cliprofiler
 latest:
-  1.6.0--r43hdfd78af_0: sha256:e37e8ba717db5ab5dc46766f233cca4a9c6b56c01f5565d6a3d272a0f200b6b7
+  1.8.0--r43hdfd78af_0: sha256:ffee792e263681684bb0f53d4efe6aeb11f05c77b599ef2590f6d25caa9636ca
 tags:
   1.0.0--r41hdfd78af_0: sha256:0cc4a207d3a707227079d9f0dfdf44aa7e6af714f48124d3234502af05aa7d56
   1.4.0--r42hdfd78af_0: sha256:203926549368371b87417d009bff623b93fb5dcab41dec68b9eec2eb81d51338
   1.6.0--r43hdfd78af_0: sha256:e37e8ba717db5ab5dc46766f233cca4a9c6b56c01f5565d6a3d272a0f200b6b7
+  1.8.0--r43hdfd78af_0: sha256:ffee792e263681684bb0f53d4efe6aeb11f05c77b599ef2590f6d25caa9636ca
 docker: quay.io/biocontainers/bioconductor-cliprofiler
