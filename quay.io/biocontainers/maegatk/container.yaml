@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/maegatk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for maegatk
+latest:
+  0.2.0--pyhdfd78af_0: sha256:95c3392a843c3978ad545cbbee864dfa273ff2d5c97fd920efb1c787f3dfc9fc
+tags:
+  0.2.0--pyhdfd78af_0: sha256:95c3392a843c3978ad545cbbee864dfa273ff2d5c97fd920efb1c787f3dfc9fc
+docker: quay.io/biocontainers/maegatk
+aliases:
+  annot-tsv: /usr/local/bin/annot-tsv
+  fgbio: /usr/local/bin/fgbio
+  maegatk: /usr/local/bin/maegatk
+  vcfnullgenofields: /usr/local/bin/vcfnullgenofields
+  vcfwave: /usr/local/bin/vcfwave
+  split_ref_by_bai_datasize.py: /usr/local/bin/split_ref_by_bai_datasize.py
+  sam_add_rg.pl: /usr/local/bin/sam_add_rg.pl
+  update_version.sh: /usr/local/bin/update_version.sh
+  jwebserver: /usr/local/bin/jwebserver
+  tabix++: /usr/local/bin/tabix++
+  bamleftalign: /usr/local/bin/bamleftalign
+  coverage_to_regions.py: /usr/local/bin/coverage_to_regions.py
+  fasta_generate_regions.py: /usr/local/bin/fasta_generate_regions.py
+  freebayes-parallel: /usr/local/bin/freebayes-parallel
+  generate_freebayes_region_scripts.sh: /usr/local/bin/generate_freebayes_region_scripts.sh
+  freebayes: /usr/local/bin/freebayes
+  abba-baba: /usr/local/bin/abba-baba
+  bFst: /usr/local/bin/bFst
+  bed2region: /usr/local/bin/bed2region
+  bgziptabix: /usr/local/bin/bgziptabix
+  dumpContigsFromHeader: /usr/local/bin/dumpContigsFromHeader
+  genotypeSummary: /usr/local/bin/genotypeSummary
+  hapLrt: /usr/local/bin/hapLrt
+  iHS: /usr/local/bin/iHS
+  meltEHH: /usr/local/bin/meltEHH
+  normalize-iHS: /usr/local/bin/normalize-iHS
+  pFst: /usr/local/bin/pFst
+  pVst: /usr/local/bin/pVst
+  permuteGPAT++: /usr/local/bin/permuteGPAT++
+  permuteSmooth: /usr/local/bin/permuteSmooth

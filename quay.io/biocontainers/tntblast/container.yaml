@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/tntblast
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tntblast
+latest:
+  2.61--hdcf5f25_0: sha256:46ef993bbd28d9e45bd7846babee3393256145aebdfe27ff321d074c1a70bd6c
+tags:
+  2.61--hdcf5f25_0: sha256:46ef993bbd28d9e45bd7846babee3393256145aebdfe27ff321d074c1a70bd6c
+docker: quay.io/biocontainers/tntblast
+aliases:
+  tntblast: /usr/local/bin/tntblast
