@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/harmony-pytorch
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for harmony-pytorch
 latest:
-  0.1.7--pyhdfd78af_1: sha256:edfd3e889733fb5c7070a370aab975467e7f76f8ddba1443f094f845e630b7bd
+  0.1.8--pyhdfd78af_0: sha256:e251ef320f71b91b13fed5b9972cb26ca76b5fd6b49e22d3f43376212178a288
 tags:
   0.1.7--pyhdfd78af_1: sha256:edfd3e889733fb5c7070a370aab975467e7f76f8ddba1443f094f845e630b7bd
+  0.1.8--pyhdfd78af_0: sha256:e251ef320f71b91b13fed5b9972cb26ca76b5fd6b49e22d3f43376212178a288
 docker: quay.io/biocontainers/harmony-pytorch
 aliases:
   convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cannoli
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cannoli
 latest:
-  1.0--hdfd78af_0: sha256:09c9ddeff4b684b00751bd6449848d940e18312522d2db721d40c61685919cf5
+  1.0.1--hdfd78af_0: sha256:d31ca8287444ee2660d8f18d00622dd32d37fa63e86002c4777f53febbb15796
 tags:
   1.0--hdfd78af_0: sha256:09c9ddeff4b684b00751bd6449848d940e18312522d2db721d40c61685919cf5
+  1.0.1--hdfd78af_0: sha256:d31ca8287444ee2660d8f18d00622dd32d37fa63e86002c4777f53febbb15796
 docker: quay.io/biocontainers/cannoli
 aliases:
   beeline: /usr/local/bin/beeline
