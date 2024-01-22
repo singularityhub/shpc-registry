@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rifi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rifi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rifi/container.yaml"
-updated_at: "2024-01-21 03:18:04.211820"
-latest: "1.4.1--r43hdfd78af_0"
+updated_at: "2024-01-22 03:17:52.610999"
+latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rifi"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.1--r43hdfd78af_0"
+ - "1.6.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-rifi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rifi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rifi", "latest": {"1.4.1--r43hdfd78af_0": "sha256:33e1d337300019ba6aaf66324acbffaf9e8ea2072137da49d835b46bf8c5465d"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:395d37fca05f8c5561de01963baf1f250a817648de5e0de5cb9811ee9df7dc0a", "1.4.1--r43hdfd78af_0": "sha256:33e1d337300019ba6aaf66324acbffaf9e8ea2072137da49d835b46bf8c5465d"}, "docker": "quay.io/biocontainers/bioconductor-rifi", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rifi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rifi", "latest": {"1.6.0--r43hdfd78af_0": "sha256:f3c047d71c94f121a622a6b47e5d89b20927032f6e51d03ad9463c042d0c229a"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:395d37fca05f8c5561de01963baf1f250a817648de5e0de5cb9811ee9df7dc0a", "1.4.1--r43hdfd78af_0": "sha256:33e1d337300019ba6aaf66324acbffaf9e8ea2072137da49d835b46bf8c5465d", "1.6.0--r43hdfd78af_0": "sha256:f3c047d71c94f121a622a6b47e5d89b20927032f6e51d03ad9463c042d0c229a"}, "docker": "quay.io/biocontainers/bioconductor-rifi", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rifi.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rifi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rifi:1.4.1--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rifi:1.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rifi/1.4.1--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rifi/1.4.1--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rifi/1.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rifi/1.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

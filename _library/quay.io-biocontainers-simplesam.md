@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/simplesam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simplesam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simplesam/container.yaml"
-updated_at: "2024-01-21 02:44:22.891786"
+updated_at: "2024-01-22 02:45:02.799643"
 latest: "0.1.4.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/simplesam"
 aliases:

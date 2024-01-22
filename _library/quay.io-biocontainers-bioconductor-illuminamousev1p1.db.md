@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-illuminamousev1p1.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-illuminamousev1p1.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-illuminamousev1p1.db/container.yaml"
-updated_at: "2024-01-21 02:46:45.748288"
+updated_at: "2024-01-22 02:47:23.050257"
 latest: "1.26.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-illuminamousev1p1.db"
 

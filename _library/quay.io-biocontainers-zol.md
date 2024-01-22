@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/zol"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zol/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zol/container.yaml"
-updated_at: "2024-01-21 03:06:03.247844"
-latest: "1.3.16--py310h0dbaff4_0"
+updated_at: "2024-01-22 03:06:02.182677"
+latest: "1.3.17--py310h0dbaff4_0"
 container_url: "https://biocontainers.pro/tools/zol"
 aliases:
  - "HYPHYMPI"
@@ -67,8 +67,9 @@ versions:
  - "1.3.10--py310h0dbaff4_0"
  - "1.3.11--py310h0dbaff4_0"
  - "1.3.16--py310h0dbaff4_0"
+ - "1.3.17--py310h0dbaff4_0"
 description: "singularity registry hpc automated addition for zol"
-config: {"url": "https://biocontainers.pro/tools/zol", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for zol", "latest": {"1.3.16--py310h0dbaff4_0": "sha256:1507be31f3212f432444bcadacaff4f1d99d8c8777a000d5f25b6cc9c823b7ae"}, "tags": {"1.2.7--py310h30d9df9_0": "sha256:e6fecbf5fb5bcd06df49b8a06e02f19b49046af79a05d377e66a845834e78258", "1.2.8--py310h30d9df9_0": "sha256:525638de0d1e583d55a1774922d12f4b93b6bf00b3d193088ee832496c86f256", "1.3.6--py310h0dbaff4_0": "sha256:a93a5b0727d99965c1d63c59c0d1b584aeb5f4fbb2538eef30210f049dbb5c0e", "1.3.9--py310h0dbaff4_0": "sha256:dd412bf8349a055a65395b305fbc2330381c0f39430950d284a9a4c888c67137", "1.3.10--py310h0dbaff4_0": "sha256:762d6c0c88873d3bf2dd73595c389418eaf983b579ad0097e4f6fe593dcedfd5", "1.3.11--py310h0dbaff4_0": "sha256:0cb08892b03b4c34e040456a17ed5c659ee262e00fe7de1243492ad48ba9e343", "1.3.16--py310h0dbaff4_0": "sha256:1507be31f3212f432444bcadacaff4f1d99d8c8777a000d5f25b6cc9c823b7ae"}, "docker": "quay.io/biocontainers/zol", "aliases": {"HYPHYMPI": "/usr/local/bin/HYPHYMPI", "ZOL": "/usr/local/bin/ZOL", "axel": "/usr/local/bin/axel", "clusterHeatmap.R": "/usr/local/bin/clusterHeatmap.R", "convertMiniprotGffToGbkAndProt.py": "/usr/local/bin/convertMiniprotGffToGbkAndProt.py", "extractBiG-SCAPEclusters.py": "/usr/local/bin/extractBiG-SCAPEclusters.py", "fai": "/usr/local/bin/fai", "findOrthologs.py": "/usr/local/bin/findOrthologs.py", "gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "hyphy": "/usr/local/bin/hyphy", "listAllGenomesInDirectory.py": "/usr/local/bin/listAllGenomesInDirectory.py", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "plotSegments.R": "/usr/local/bin/plotSegments.R", "prepTG": "/usr/local/bin/prepTG", "processNCBIGenBank.py": "/usr/local/bin/processNCBIGenBank.py", "pyrodigal": "/usr/local/bin/pyrodigal", "runProdigalAndMakeProperGenbank.py": "/usr/local/bin/runProdigalAndMakeProperGenbank.py", "runRBH": "/usr/local/bin/runRBH", "setup_annotation_dbs.py": "/usr/local/bin/setup_annotation_dbs.py", "skani": "/usr/local/bin/skani", "slclust": "/usr/local/bin/slclust", "splitDiamondResults": "/usr/local/bin/splitDiamondResults", "splitDiamondResultsForFai": "/usr/local/bin/splitDiamondResultsForFai", "zol": "/usr/local/bin/zol", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray"}}
+config: {"url": "https://biocontainers.pro/tools/zol", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for zol", "latest": {"1.3.17--py310h0dbaff4_0": "sha256:f4060bd491797270fbce4821a6edf87ed5d21181d0322cf1ff7d133d2bda458a"}, "tags": {"1.2.7--py310h30d9df9_0": "sha256:e6fecbf5fb5bcd06df49b8a06e02f19b49046af79a05d377e66a845834e78258", "1.2.8--py310h30d9df9_0": "sha256:525638de0d1e583d55a1774922d12f4b93b6bf00b3d193088ee832496c86f256", "1.3.6--py310h0dbaff4_0": "sha256:a93a5b0727d99965c1d63c59c0d1b584aeb5f4fbb2538eef30210f049dbb5c0e", "1.3.9--py310h0dbaff4_0": "sha256:dd412bf8349a055a65395b305fbc2330381c0f39430950d284a9a4c888c67137", "1.3.10--py310h0dbaff4_0": "sha256:762d6c0c88873d3bf2dd73595c389418eaf983b579ad0097e4f6fe593dcedfd5", "1.3.11--py310h0dbaff4_0": "sha256:0cb08892b03b4c34e040456a17ed5c659ee262e00fe7de1243492ad48ba9e343", "1.3.16--py310h0dbaff4_0": "sha256:1507be31f3212f432444bcadacaff4f1d99d8c8777a000d5f25b6cc9c823b7ae", "1.3.17--py310h0dbaff4_0": "sha256:f4060bd491797270fbce4821a6edf87ed5d21181d0322cf1ff7d133d2bda458a"}, "docker": "quay.io/biocontainers/zol", "aliases": {"HYPHYMPI": "/usr/local/bin/HYPHYMPI", "ZOL": "/usr/local/bin/ZOL", "axel": "/usr/local/bin/axel", "clusterHeatmap.R": "/usr/local/bin/clusterHeatmap.R", "convertMiniprotGffToGbkAndProt.py": "/usr/local/bin/convertMiniprotGffToGbkAndProt.py", "extractBiG-SCAPEclusters.py": "/usr/local/bin/extractBiG-SCAPEclusters.py", "fai": "/usr/local/bin/fai", "findOrthologs.py": "/usr/local/bin/findOrthologs.py", "gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "hyphy": "/usr/local/bin/hyphy", "listAllGenomesInDirectory.py": "/usr/local/bin/listAllGenomesInDirectory.py", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "plotSegments.R": "/usr/local/bin/plotSegments.R", "prepTG": "/usr/local/bin/prepTG", "processNCBIGenBank.py": "/usr/local/bin/processNCBIGenBank.py", "pyrodigal": "/usr/local/bin/pyrodigal", "runProdigalAndMakeProperGenbank.py": "/usr/local/bin/runProdigalAndMakeProperGenbank.py", "runRBH": "/usr/local/bin/runRBH", "setup_annotation_dbs.py": "/usr/local/bin/setup_annotation_dbs.py", "skani": "/usr/local/bin/skani", "slclust": "/usr/local/bin/slclust", "splitDiamondResults": "/usr/local/bin/splitDiamondResults", "splitDiamondResultsForFai": "/usr/local/bin/splitDiamondResultsForFai", "zol": "/usr/local/bin/zol", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/zol.
@@ -83,7 +84,7 @@ $ shpc install quay.io/biocontainers/zol
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/zol:1.3.16--py310h0dbaff4_0
+$ shpc install quay.io/biocontainers/zol:1.3.17--py310h0dbaff4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -95,8 +96,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/zol/1.3.16--py310h0dbaff4_0
-$ module help quay.io/biocontainers/zol/1.3.16--py310h0dbaff4_0
+$ module load quay.io/biocontainers/zol/1.3.17--py310h0dbaff4_0
+$ module help quay.io/biocontainers/zol/1.3.17--py310h0dbaff4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tcdemux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tcdemux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tcdemux/container.yaml"
-updated_at: "2024-01-21 02:55:53.321393"
+updated_at: "2024-01-22 02:56:12.208890"
 latest: "0.0.24--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tcdemux"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tadbit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tadbit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tadbit/container.yaml"
-updated_at: "2024-01-21 02:46:59.190025"
+updated_at: "2024-01-22 02:47:36.271292"
 latest: "1.0.1--py36h4aaaa08_1"
 container_url: "https://biocontainers.pro/tools/tadbit"
 aliases:

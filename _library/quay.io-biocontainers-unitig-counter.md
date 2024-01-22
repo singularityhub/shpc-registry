@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unitig-counter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unitig-counter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unitig-counter/container.yaml"
-updated_at: "2024-01-21 02:34:25.291733"
+updated_at: "2024-01-22 02:35:01.421823"
 latest: "1.1.0--h56fc30b_0"
 container_url: "https://biocontainers.pro/tools/unitig-counter"
 aliases:

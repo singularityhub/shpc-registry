@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/igdiscover"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igdiscover/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igdiscover/container.yaml"
-updated_at: "2024-01-21 02:37:37.578643"
+updated_at: "2024-01-22 02:38:14.725613"
 latest: "0.15.1--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/igdiscover"
 aliases:

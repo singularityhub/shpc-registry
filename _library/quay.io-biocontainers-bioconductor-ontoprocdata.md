@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ontoprocdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ontoprocdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ontoprocdata/container.yaml"
-updated_at: "2024-01-21 02:52:17.836758"
+updated_at: "2024-01-22 02:52:45.551674"
 latest: "0.99.9901--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-ontoprocdata"
 

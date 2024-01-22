@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eta/container.yaml"
-updated_at: "2024-01-21 02:46:33.760313"
+updated_at: "2024-01-22 02:47:11.232032"
 latest: "0.9.7--pyh864c0ab_3"
 container_url: "https://biocontainers.pro/tools/eta"
 aliases:

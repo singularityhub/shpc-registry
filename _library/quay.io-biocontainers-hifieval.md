@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hifieval"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hifieval/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hifieval/container.yaml"
-updated_at: "2024-01-21 02:35:08.757816"
+updated_at: "2024-01-22 02:35:44.858154"
 latest: "0.4.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/hifieval"
 aliases:

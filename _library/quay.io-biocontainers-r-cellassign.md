@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-cellassign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cellassign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cellassign/container.yaml"
-updated_at: "2024-01-21 02:50:13.342090"
+updated_at: "2024-01-22 02:50:45.336724"
 latest: "0.99.2--r43hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/r-cellassign"
 aliases:

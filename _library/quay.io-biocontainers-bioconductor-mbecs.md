@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mbecs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mbecs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mbecs/container.yaml"
-updated_at: "2024-01-21 02:41:43.736177"
-latest: "1.4.0--r43hdfd78af_0"
+updated_at: "2024-01-22 02:42:23.553315"
+latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mbecs"
 aliases:
  - "installBiocDataPackage.sh"
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
+ - "1.6.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-mbecs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mbecs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-mbecs", "latest": {"1.4.0--r43hdfd78af_0": "sha256:fa24d23ff2d2c065dd871bff960b7a66fe0174b870b63a09a6d960aedcbbb6cb"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:93a4e32d1ed427aceeb8edd479f74f63dc77c7fa77b647abd8e6fb5f32549361", "1.4.0--r43hdfd78af_0": "sha256:fa24d23ff2d2c065dd871bff960b7a66fe0174b870b63a09a6d960aedcbbb6cb"}, "docker": "quay.io/biocontainers/bioconductor-mbecs", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mbecs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-mbecs", "latest": {"1.6.0--r43hdfd78af_0": "sha256:5a96662362688917831267b7257a4521e60fc9b350a60351ee0466a742580632"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:93a4e32d1ed427aceeb8edd479f74f63dc77c7fa77b647abd8e6fb5f32549361", "1.4.0--r43hdfd78af_0": "sha256:fa24d23ff2d2c065dd871bff960b7a66fe0174b870b63a09a6d960aedcbbb6cb", "1.6.0--r43hdfd78af_0": "sha256:5a96662362688917831267b7257a4521e60fc9b350a60351ee0466a742580632"}, "docker": "quay.io/biocontainers/bioconductor-mbecs", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mbecs.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mbecs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mbecs:1.4.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mbecs:1.6.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mbecs/1.4.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mbecs/1.4.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mbecs/1.6.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mbecs/1.6.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
