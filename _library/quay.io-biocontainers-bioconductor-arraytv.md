@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-arraytv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-arraytv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-arraytv/container.yaml"
-updated_at: "2024-01-22 02:46:35.850966"
+updated_at: "2024-01-22 03:30:30.419880"
 latest: "1.25.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-arraytv"
 aliases:

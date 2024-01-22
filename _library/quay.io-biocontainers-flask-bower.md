@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flask-bower"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-bower/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flask-bower/container.yaml"
-updated_at: "2024-01-22 02:53:38.832725"
+updated_at: "2024-01-22 03:37:30.909665"
 latest: "1.3.0--py27_0"
 container_url: "https://biocontainers.pro/tools/flask-bower"
 aliases:
