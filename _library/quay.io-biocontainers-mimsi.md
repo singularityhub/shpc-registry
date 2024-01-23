@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mimsi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mimsi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mimsi/container.yaml"
-updated_at: "2024-01-22 03:50:23.857580"
+updated_at: "2024-01-23 03:04:19.278967"
 latest: "0.4.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mimsi"
 aliases:

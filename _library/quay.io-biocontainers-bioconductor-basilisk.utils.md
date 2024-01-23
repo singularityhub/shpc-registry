@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-basilisk.utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-basilisk.utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-basilisk.utils/container.yaml"
-updated_at: "2024-01-22 03:31:16.515530"
+updated_at: "2024-01-23 02:44:53.549678"
 latest: "1.14.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-basilisk.utils"
 

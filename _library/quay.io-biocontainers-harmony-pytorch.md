@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/harmony-pytorch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/harmony-pytorch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/harmony-pytorch/container.yaml"
-updated_at: "2024-01-22 03:30:35.244951"
-latest: "0.1.7--pyhdfd78af_1"
+updated_at: "2024-01-23 02:44:11.414848"
+latest: "0.1.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/harmony-pytorch"
 aliases:
  - "convert-caffe2-to-onnx"
@@ -19,8 +19,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.1.7--pyhdfd78af_1"
+ - "0.1.8--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for harmony-pytorch"
-config: {"url": "https://biocontainers.pro/tools/harmony-pytorch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for harmony-pytorch", "latest": {"0.1.7--pyhdfd78af_1": "sha256:edfd3e889733fb5c7070a370aab975467e7f76f8ddba1443f094f845e630b7bd"}, "tags": {"0.1.7--pyhdfd78af_1": "sha256:edfd3e889733fb5c7070a370aab975467e7f76f8ddba1443f094f845e630b7bd"}, "docker": "quay.io/biocontainers/harmony-pytorch", "aliases": {"convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/harmony-pytorch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for harmony-pytorch", "latest": {"0.1.8--pyhdfd78af_0": "sha256:e251ef320f71b91b13fed5b9972cb26ca76b5fd6b49e22d3f43376212178a288"}, "tags": {"0.1.7--pyhdfd78af_1": "sha256:edfd3e889733fb5c7070a370aab975467e7f76f8ddba1443f094f845e630b7bd", "0.1.8--pyhdfd78af_0": "sha256:e251ef320f71b91b13fed5b9972cb26ca76b5fd6b49e22d3f43376212178a288"}, "docker": "quay.io/biocontainers/harmony-pytorch", "aliases": {"convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/harmony-pytorch.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/harmony-pytorch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/harmony-pytorch:0.1.7--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/harmony-pytorch:0.1.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/harmony-pytorch/0.1.7--pyhdfd78af_1
-$ module help quay.io/biocontainers/harmony-pytorch/0.1.7--pyhdfd78af_1
+$ module load quay.io/biocontainers/harmony-pytorch/0.1.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/harmony-pytorch/0.1.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

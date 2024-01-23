@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cannoli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cannoli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cannoli/container.yaml"
-updated_at: "2024-01-22 03:56:44.796516"
-latest: "1.0--hdfd78af_0"
+updated_at: "2024-01-23 03:10:46.814536"
+latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cannoli"
 aliases:
  - "beeline"
@@ -57,8 +57,9 @@ aliases:
  - "grpc_node_plugin"
 versions:
  - "1.0--hdfd78af_0"
+ - "1.0.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cannoli"
-config: {"url": "https://biocontainers.pro/tools/cannoli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cannoli", "latest": {"1.0--hdfd78af_0": "sha256:09c9ddeff4b684b00751bd6449848d940e18312522d2db721d40c61685919cf5"}, "tags": {"1.0--hdfd78af_0": "sha256:09c9ddeff4b684b00751bd6449848d940e18312522d2db721d40c61685919cf5"}, "docker": "quay.io/biocontainers/cannoli", "aliases": {"beeline": "/usr/local/bin/beeline", "beeline.cmd": "/usr/local/bin/beeline.cmd", "cannoli-shell": "/usr/local/bin/cannoli-shell", "cannoli-submit": "/usr/local/bin/cannoli-submit", "csv-import": "/usr/local/bin/csv-import", "docker-image-tool.sh": "/usr/local/bin/docker-image-tool.sh", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "find-spark-home": "/usr/local/bin/find-spark-home", "find-spark-home.cmd": "/usr/local/bin/find-spark-home.cmd", "find_spark_home.py": "/usr/local/bin/find_spark_home.py", "load-spark-env.cmd": "/usr/local/bin/load-spark-env.cmd", "load-spark-env.sh": "/usr/local/bin/load-spark-env.sh", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "pyspark": "/usr/local/bin/pyspark", "pyspark.cmd": "/usr/local/bin/pyspark.cmd", "pyspark2.cmd": "/usr/local/bin/pyspark2.cmd", "run-example": "/usr/local/bin/run-example", "run-example.cmd": "/usr/local/bin/run-example.cmd", "spark-class": "/usr/local/bin/spark-class", "spark-class.cmd": "/usr/local/bin/spark-class.cmd", "spark-class2.cmd": "/usr/local/bin/spark-class2.cmd", "spark-shell": "/usr/local/bin/spark-shell", "spark-shell.cmd": "/usr/local/bin/spark-shell.cmd", "spark-shell2.cmd": "/usr/local/bin/spark-shell2.cmd", "spark-sql": "/usr/local/bin/spark-sql", "spark-sql.cmd": "/usr/local/bin/spark-sql.cmd", "spark-sql2.cmd": "/usr/local/bin/spark-sql2.cmd", "spark-submit": "/usr/local/bin/spark-submit", "spark-submit.cmd": "/usr/local/bin/spark-submit.cmd", "spark-submit2.cmd": "/usr/local/bin/spark-submit2.cmd", "sparkR": "/usr/local/bin/sparkR", "sparkR.cmd": "/usr/local/bin/sparkR.cmd", "sparkR2.cmd": "/usr/local/bin/sparkR2.cmd", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/cannoli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cannoli", "latest": {"1.0.1--hdfd78af_0": "sha256:d31ca8287444ee2660d8f18d00622dd32d37fa63e86002c4777f53febbb15796"}, "tags": {"1.0--hdfd78af_0": "sha256:09c9ddeff4b684b00751bd6449848d940e18312522d2db721d40c61685919cf5", "1.0.1--hdfd78af_0": "sha256:d31ca8287444ee2660d8f18d00622dd32d37fa63e86002c4777f53febbb15796"}, "docker": "quay.io/biocontainers/cannoli", "aliases": {"beeline": "/usr/local/bin/beeline", "beeline.cmd": "/usr/local/bin/beeline.cmd", "cannoli-shell": "/usr/local/bin/cannoli-shell", "cannoli-submit": "/usr/local/bin/cannoli-submit", "csv-import": "/usr/local/bin/csv-import", "docker-image-tool.sh": "/usr/local/bin/docker-image-tool.sh", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "find-spark-home": "/usr/local/bin/find-spark-home", "find-spark-home.cmd": "/usr/local/bin/find-spark-home.cmd", "find_spark_home.py": "/usr/local/bin/find_spark_home.py", "load-spark-env.cmd": "/usr/local/bin/load-spark-env.cmd", "load-spark-env.sh": "/usr/local/bin/load-spark-env.sh", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "pyspark": "/usr/local/bin/pyspark", "pyspark.cmd": "/usr/local/bin/pyspark.cmd", "pyspark2.cmd": "/usr/local/bin/pyspark2.cmd", "run-example": "/usr/local/bin/run-example", "run-example.cmd": "/usr/local/bin/run-example.cmd", "spark-class": "/usr/local/bin/spark-class", "spark-class.cmd": "/usr/local/bin/spark-class.cmd", "spark-class2.cmd": "/usr/local/bin/spark-class2.cmd", "spark-shell": "/usr/local/bin/spark-shell", "spark-shell.cmd": "/usr/local/bin/spark-shell.cmd", "spark-shell2.cmd": "/usr/local/bin/spark-shell2.cmd", "spark-sql": "/usr/local/bin/spark-sql", "spark-sql.cmd": "/usr/local/bin/spark-sql.cmd", "spark-sql2.cmd": "/usr/local/bin/spark-sql2.cmd", "spark-submit": "/usr/local/bin/spark-submit", "spark-submit.cmd": "/usr/local/bin/spark-submit.cmd", "spark-submit2.cmd": "/usr/local/bin/spark-submit2.cmd", "sparkR": "/usr/local/bin/sparkR", "sparkR.cmd": "/usr/local/bin/sparkR.cmd", "sparkR2.cmd": "/usr/local/bin/sparkR2.cmd", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cannoli.
@@ -73,7 +74,7 @@ $ shpc install quay.io/biocontainers/cannoli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cannoli:1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/cannoli:1.0.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -85,8 +86,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cannoli/1.0--hdfd78af_0
-$ module help quay.io/biocontainers/cannoli/1.0--hdfd78af_0
+$ module load quay.io/biocontainers/cannoli/1.0.1--hdfd78af_0
+$ module help quay.io/biocontainers/cannoli/1.0.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

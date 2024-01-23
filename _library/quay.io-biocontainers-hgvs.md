@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hgvs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hgvs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hgvs/container.yaml"
-updated_at: "2024-01-22 03:43:11.242724"
+updated_at: "2024-01-23 02:57:00.857988"
 latest: "1.5.4--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/hgvs"
 aliases:
