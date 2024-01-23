@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/adam
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for adam
 latest:
-  1.0--hdfd78af_0: sha256:25971a9e9ebcf48a23f085e2beef3317c65edc6bd459bb707677039e7b895f54
+  1.0.1--hdfd78af_0: sha256:08001768f3f72844d062ebd3b03058774d4ad989de12a5ddde4e207d94886a60
 tags:
   1.0--hdfd78af_0: sha256:25971a9e9ebcf48a23f085e2beef3317c65edc6bd459bb707677039e7b895f54
+  1.0.1--hdfd78af_0: sha256:08001768f3f72844d062ebd3b03058774d4ad989de12a5ddde4e207d94886a60
 docker: quay.io/biocontainers/adam
 aliases:
   adam-shell: /usr/local/bin/adam-shell
