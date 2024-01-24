@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lfa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lfa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lfa/container.yaml"
-updated_at: "2024-01-23 03:00:24.524912"
+updated_at: "2024-01-24 03:00:30.849913"
 latest: "2.2.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lfa"
 aliases:

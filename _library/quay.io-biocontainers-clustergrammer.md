@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clustergrammer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clustergrammer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clustergrammer/container.yaml"
-updated_at: "2024-01-23 03:12:11.582538"
+updated_at: "2024-01-24 03:12:34.385924"
 latest: "1.13.6--pyh864c0ab_3"
 container_url: "https://biocontainers.pro/tools/clustergrammer"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pathrender"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathrender/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathrender/container.yaml"
-updated_at: "2024-01-23 03:07:56.144681"
+updated_at: "2024-01-24 03:08:13.648142"
 latest: "1.70.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathrender"
 
