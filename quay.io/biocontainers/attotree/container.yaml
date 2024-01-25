@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/attotree
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for attotree
 latest:
-  0.1.0--pyhdfd78af_0: sha256:1c5c80c2c302fce5119dbb9baa081f0b599cee20ef3e057d9974bb02930b7578
+  0.1.1--pyhdfd78af_0: sha256:a76ab0eb5385b56de7bf69d7ee1c00cc342a1ceb265f3a529dc6bf489b2826bd
 tags:
   0.1.0--pyhdfd78af_0: sha256:1c5c80c2c302fce5119dbb9baa081f0b599cee20ef3e057d9974bb02930b7578
+  0.1.1--pyhdfd78af_0: sha256:a76ab0eb5385b56de7bf69d7ee1c00cc342a1ceb265f3a529dc6bf489b2826bd
 docker: quay.io/biocontainers/attotree
 aliases:
   attotree: /usr/local/bin/attotree
