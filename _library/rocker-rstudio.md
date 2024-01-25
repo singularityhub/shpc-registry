@@ -4,7 +4,7 @@ name:  "rocker/rstudio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/rstudio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/rstudio/container.yaml"
-updated_at: "2024-01-24 03:18:00.114506"
+updated_at: "2024-01-25 03:17:45.449210"
 latest: "4.3.2"
 container_url: "https://hub.docker.com/r/rocker/rstudio"
 aliases:
@@ -25,7 +25,7 @@ versions:
  - "4.3.1"
  - "4.3.2"
 description: "Rstudio server image"
-config: {"docker": "rocker/rstudio", "url": "https://hub.docker.com/r/rocker/rstudio", "maintainer": "@vsoch", "description": "Rstudio server image", "latest": {"4.3.2": "sha256:350f2521a627082605674f3dcd2476985b3dfc7f3d5045e766423272fc14f0a4"}, "tags": {"4.2.2": "sha256:f27b29b5c02e3af1e2332548d02bfed520e09f5f89acc23e8bd63d2c1260b7a5", "3.6.3": "sha256:a2014be0cc26059c3f7fbbef66b25599b7c8871f880caac12037f9a142f60b81", "4.1.3": "sha256:ca8c39a2efdf5fcac4739d8dc30d13c8fcff7b533e1ca8e2d00a8eed768a5bfd", "4.0.5": "sha256:9bba06f6bb133967482079f0c0f590e5dfbda396b23e811535accd451da8a798", "4.2.3": "sha256:bf22831bbf2be03949d3a86a5e7ce08c25e99cf60bf769bb56f34befa8632f31", "4.3.0": "sha256:dea6f45c503cd7b6205608ae86525c236044b375ee461452a55ee611e85b9768", "4.3.1": "sha256:1bce32c088bda6cdbc5694b7728b89140542a9b0f9bf7c6bccf452d9ef530102", "4.3.2": "sha256:350f2521a627082605674f3dcd2476985b3dfc7f3d5045e766423272fc14f0a4"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-rstudio-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
+config: {"docker": "rocker/rstudio", "url": "https://hub.docker.com/r/rocker/rstudio", "maintainer": "@vsoch", "description": "Rstudio server image", "latest": {"4.3.2": "sha256:a0d248647a4534c544266cb9cffd072900c008835ac10b8d0e7f2d4b15a31ae3"}, "tags": {"4.2.2": "sha256:f27b29b5c02e3af1e2332548d02bfed520e09f5f89acc23e8bd63d2c1260b7a5", "3.6.3": "sha256:a2014be0cc26059c3f7fbbef66b25599b7c8871f880caac12037f9a142f60b81", "4.1.3": "sha256:ca8c39a2efdf5fcac4739d8dc30d13c8fcff7b533e1ca8e2d00a8eed768a5bfd", "4.0.5": "sha256:9bba06f6bb133967482079f0c0f590e5dfbda396b23e811535accd451da8a798", "4.2.3": "sha256:bf22831bbf2be03949d3a86a5e7ce08c25e99cf60bf769bb56f34befa8632f31", "4.3.0": "sha256:dea6f45c503cd7b6205608ae86525c236044b375ee461452a55ee611e85b9768", "4.3.1": "sha256:1bce32c088bda6cdbc5694b7728b89140542a9b0f9bf7c6bccf452d9ef530102", "4.3.2": "sha256:a0d248647a4534c544266cb9cffd072900c008835ac10b8d0e7f2d4b15a31ae3"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-rstudio-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
 ---
 
 This module is a singularity container wrapper for rocker/rstudio.
