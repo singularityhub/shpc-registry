@@ -1,0 +1,48 @@
+url: https://biocontainers.pro/tools/revoluzer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for revoluzer
+latest:
+  0.1.2--h6f67891_0: sha256:3803eeb5132059e0ecdb25c7953631cdef96f7cb1f6e02e240576e5c551719c9
+tags:
+  0.1.2--h6f67891_0: sha256:3803eeb5132059e0ecdb25c7953631cdef96f7cb1f6e02e240576e5c551719c9
+docker: quay.io/biocontainers/revoluzer
+aliases:
+  amgr: /usr/local/bin/amgr
+  anamed: /usr/local/bin/anamed
+  comgen: /usr/local/bin/comgen
+  compress: /usr/local/bin/compress
+  construct_triples: /usr/local/bin/construct_triples
+  crex: /usr/local/bin/crex
+  deldup: /usr/local/bin/deldup
+  dupdet: /usr/local/bin/dupdet
+  enumall: /usr/local/bin/enumall
+  evoluzer: /usr/local/bin/evoluzer
+  gdiff: /usr/local/bin/gdiff
+  grappaResultParser: /usr/local/bin/grappaResultParser
+  ichar: /usr/local/bin/ichar
+  identifySorting: /usr/local/bin/identifySorting
+  ilp-rrrmt: /usr/local/bin/ilp-rrrmt
+  intervals: /usr/local/bin/intervals
+  its: /usr/local/bin/its
+  median: /usr/local/bin/median
+  mgrResultParser: /usr/local/bin/mgrResultParser
+  normalize: /usr/local/bin/normalize
+  nrex: /usr/local/bin/nrex
+  phy2nex: /usr/local/bin/phy2nex
+  pqplot: /usr/local/bin/pqplot
+  pqresolve: /usr/local/bin/pqresolve
+  pqsplits: /usr/local/bin/pqsplits
+  pqstat: /usr/local/bin/pqstat
+  revoluzer: /usr/local/bin/revoluzer
+  revolver: /usr/local/bin/revolver
+  robfould: /usr/local/bin/robfould
+  sortVsPreserve: /usr/local/bin/sortVsPreserve
+  tdlmedian: /usr/local/bin/tdlmedian
+  tmrloc: /usr/local/bin/tmrloc
+  treedegree: /usr/local/bin/treedegree
+  trex: /usr/local/bin/trex
+  distmat: /usr/local/bin/distmat
+  uniq: /usr/local/bin/uniq
+  test: /usr/local/bin/test
+  gc: /usr/local/bin/gc
+  glpsol: /usr/local/bin/glpsol
