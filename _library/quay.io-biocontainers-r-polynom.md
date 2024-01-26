@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-polynom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-polynom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-polynom/container.yaml"
-updated_at: "2024-01-25 03:13:40.056824"
+updated_at: "2024-01-26 02:31:32.031954"
 latest: "1.3_8--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-polynom"
 aliases:

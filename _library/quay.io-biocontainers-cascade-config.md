@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cascade-config"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cascade-config/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cascade-config/container.yaml"
-updated_at: "2024-01-25 03:05:34.063956"
+updated_at: "2024-01-26 02:33:00.704689"
 latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cascade-config"
 aliases:
