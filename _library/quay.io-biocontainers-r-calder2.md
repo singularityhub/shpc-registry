@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-calder2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-calder2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-calder2/container.yaml"
-updated_at: "2024-01-26 02:53:48.890238"
+updated_at: "2024-01-27 02:44:58.814971"
 latest: "0.7--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-calder2"
 aliases:

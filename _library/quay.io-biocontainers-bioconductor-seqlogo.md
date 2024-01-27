@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-seqlogo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seqlogo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seqlogo/container.yaml"
-updated_at: "2024-01-26 02:35:39.081111"
+updated_at: "2024-01-27 02:24:03.980946"
 latest: "1.68.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seqlogo"
 

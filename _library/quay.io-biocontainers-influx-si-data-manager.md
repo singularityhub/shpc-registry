@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/influx-si-data-manager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/influx-si-data-manager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/influx-si-data-manager/container.yaml"
-updated_at: "2024-01-26 02:52:03.704950"
-latest: "0.1.4--pyhdfd78af_0"
+updated_at: "2024-01-27 02:42:57.702075"
+latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/influx-si-data-manager"
 aliases:
  - "influx_si_data_manager"
@@ -16,8 +16,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "0.1.4--pyhdfd78af_0"
+ - "1.0.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for influx-si-data-manager"
-config: {"url": "https://biocontainers.pro/tools/influx-si-data-manager", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for influx-si-data-manager", "latest": {"0.1.4--pyhdfd78af_0": "sha256:9095dd141c29b87b08fb004d600c50d3c480d126a6815adf4cb67bf419cc51b3"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:9095dd141c29b87b08fb004d600c50d3c480d126a6815adf4cb67bf419cc51b3"}, "docker": "quay.io/biocontainers/influx-si-data-manager", "aliases": {"influx_si_data_manager": "/usr/local/bin/influx_si_data_manager", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/influx-si-data-manager", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for influx-si-data-manager", "latest": {"1.0.0--pyhdfd78af_0": "sha256:9fc7dff24f6a41a7be93eb882abcb3ef7e41dcff19a9f5f34fd939ce493e133c"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:9095dd141c29b87b08fb004d600c50d3c480d126a6815adf4cb67bf419cc51b3", "1.0.0--pyhdfd78af_0": "sha256:9fc7dff24f6a41a7be93eb882abcb3ef7e41dcff19a9f5f34fd939ce493e133c"}, "docker": "quay.io/biocontainers/influx-si-data-manager", "aliases": {"influx_si_data_manager": "/usr/local/bin/influx_si_data_manager", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/influx-si-data-manager.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/influx-si-data-manager
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/influx-si-data-manager:0.1.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/influx-si-data-manager:1.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/influx-si-data-manager/0.1.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/influx-si-data-manager/0.1.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/influx-si-data-manager/1.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/influx-si-data-manager/1.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
