@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/unitig-caller
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for unitig-caller
 latest:
-  1.3.0--py310ha320341_2: sha256:2870911ee13b3d05caa9062917cd5603160536f49b63955acae18173f4f8cedb
+  1.3.0--py310ha320341_3: sha256:a5bf88de1be2bc9d544c1f37e6fc4b45e85d9d1989f7850ed93caeea0908c88e
 tags:
   1.3.0--py39h307a098_0: sha256:1ffab8eede992b34218a162fbb3eaf9173528818795eb1acad711172561912e8
   1.3.0--py37h2c368fa_1: sha256:9e28fe200f439e20ba8a72e272312736561e32a86d2db03f9dc76a5f26211bcf
   1.3.0--py310ha320341_2: sha256:2870911ee13b3d05caa9062917cd5603160536f49b63955acae18173f4f8cedb
+  1.3.0--py310ha320341_3: sha256:a5bf88de1be2bc9d544c1f37e6fc4b45e85d9d1989f7850ed93caeea0908c88e
 docker: quay.io/biocontainers/unitig-caller
 aliases:
   Bifrost: /usr/local/bin/Bifrost
