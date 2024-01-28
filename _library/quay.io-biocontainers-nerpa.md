@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nerpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nerpa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nerpa/container.yaml"
-updated_at: "2024-01-28 03:52:20.032087"
+updated_at: "2024-01-28 04:14:48.804043"
 latest: "1.0.0--py39hc16433a_4"
 container_url: "https://biocontainers.pro/tools/nerpa"
 aliases:

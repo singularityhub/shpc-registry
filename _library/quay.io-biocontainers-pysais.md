@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pysais"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pysais/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pysais/container.yaml"
-updated_at: "2024-01-28 03:34:22.230718"
+updated_at: "2024-01-28 03:56:40.048580"
 latest: "1.1.0--py310hd6be1da_0"
 container_url: "https://biocontainers.pro/tools/pysais"
 aliases:
