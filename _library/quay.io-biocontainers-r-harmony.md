@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-harmony"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-harmony/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-harmony/container.yaml"
-updated_at: "2024-01-27 02:39:55.412446"
+updated_at: "2024-01-28 02:41:33.771103"
 latest: "0.1--r43h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/r-harmony"
 

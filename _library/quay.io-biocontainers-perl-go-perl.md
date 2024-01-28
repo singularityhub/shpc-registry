@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-go-perl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-go-perl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-go-perl/container.yaml"
-updated_at: "2024-01-27 02:30:50.188449"
+updated_at: "2024-01-28 02:33:22.383059"
 latest: "0.15--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-go-perl"
 aliases:

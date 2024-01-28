@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/khmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/khmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/khmer/container.yaml"
-updated_at: "2024-01-27 02:23:13.015312"
+updated_at: "2024-01-28 02:26:27.747242"
 latest: "3.0.0a3--py37h2c368fa_3"
 container_url: "https://biocontainers.pro/tools/khmer"
 aliases:

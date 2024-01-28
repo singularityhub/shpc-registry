@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/raiss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raiss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/raiss/container.yaml"
-updated_at: "2024-01-27 02:39:43.785485"
+updated_at: "2024-01-28 02:41:23.230223"
 latest: "4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/raiss"
 aliases:

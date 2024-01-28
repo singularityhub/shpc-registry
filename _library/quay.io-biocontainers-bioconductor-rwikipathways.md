@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rwikipathways"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rwikipathways/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rwikipathways/container.yaml"
-updated_at: "2024-01-27 02:30:27.818438"
+updated_at: "2024-01-28 02:33:02.351056"
 latest: "1.22.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rwikipathways"
 aliases:

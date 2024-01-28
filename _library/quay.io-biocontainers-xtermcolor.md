@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xtermcolor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xtermcolor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xtermcolor/container.yaml"
-updated_at: "2024-01-27 02:51:01.077814"
+updated_at: "2024-01-28 02:51:29.612068"
 latest: "1.3--pyh864c0ab_2"
 container_url: "https://biocontainers.pro/tools/xtermcolor"
 aliases:

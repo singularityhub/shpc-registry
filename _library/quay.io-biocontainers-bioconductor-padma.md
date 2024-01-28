@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-padma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-padma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-padma/container.yaml"
-updated_at: "2024-01-27 02:33:10.169815"
+updated_at: "2024-01-28 02:35:28.523318"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-padma"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mcsea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mcsea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mcsea/container.yaml"
-updated_at: "2024-01-27 02:26:59.936360"
+updated_at: "2024-01-28 02:29:53.268106"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mcsea"
 aliases:
