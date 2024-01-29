@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oncofuse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oncofuse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oncofuse/container.yaml"
-updated_at: "2024-01-28 03:39:02.665157"
+updated_at: "2024-01-29 02:27:57.003765"
 latest: "1.1.1--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/oncofuse"
 aliases:

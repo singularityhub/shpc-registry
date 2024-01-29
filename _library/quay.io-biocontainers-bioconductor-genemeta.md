@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genemeta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genemeta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genemeta/container.yaml"
-updated_at: "2024-01-28 04:03:59.182503"
+updated_at: "2024-01-29 02:52:47.668442"
 latest: "1.74.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genemeta"
 

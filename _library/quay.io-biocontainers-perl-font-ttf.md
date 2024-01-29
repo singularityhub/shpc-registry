@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-font-ttf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-font-ttf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-font-ttf/container.yaml"
-updated_at: "2024-01-28 03:39:31.885722"
+updated_at: "2024-01-29 02:28:26.093176"
 latest: "1.06--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-font-ttf"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rentrez"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rentrez/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rentrez/container.yaml"
-updated_at: "2024-01-28 04:02:06.132147"
+updated_at: "2024-01-29 02:50:54.819456"
 latest: "1.1.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-rentrez"
 aliases:

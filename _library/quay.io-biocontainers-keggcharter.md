@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/keggcharter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/keggcharter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/keggcharter/container.yaml"
-updated_at: "2024-01-28 04:06:41.217997"
+updated_at: "2024-01-29 02:55:29.041408"
 latest: "1.1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/keggcharter"
 aliases:

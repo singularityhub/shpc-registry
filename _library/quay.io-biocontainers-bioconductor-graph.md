@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-graph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-graph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-graph/container.yaml"
-updated_at: "2024-01-28 04:16:07.067293"
+updated_at: "2024-01-29 03:04:47.380000"
 latest: "1.80.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-graph"
 

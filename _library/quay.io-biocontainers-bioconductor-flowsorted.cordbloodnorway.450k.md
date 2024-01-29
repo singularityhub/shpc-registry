@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k/container.yaml"
-updated_at: "2024-01-28 03:59:41.594131"
+updated_at: "2024-01-29 02:48:30.619244"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowsorted.cordbloodnorway.450k"
 aliases:

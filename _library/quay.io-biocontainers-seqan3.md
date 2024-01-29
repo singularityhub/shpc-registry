@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/seqan3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqan3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqan3/container.yaml"
-updated_at: "2024-01-28 03:56:35.974246"
-latest: "3.3.0--hdfd78af_0"
+updated_at: "2024-01-29 02:45:25.212811"
+latest: "3.3.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/seqan3"
 
 versions:
  - "3.2.0--hdfd78af_0"
  - "3.3.0--hdfd78af_0"
+ - "3.3.0--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for seqan3"
-config: {"url": "https://biocontainers.pro/tools/seqan3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqan3", "latest": {"3.3.0--hdfd78af_0": "sha256:fef0d968f4e76ecfefe94e7c43bb53b38e32e999b2eff7d410a2aa0f1978a9ec"}, "tags": {"3.2.0--hdfd78af_0": "sha256:8ff1046707a4f70ac1ba002e997cbac80056af4e8bdaa9f857e202ee79264483", "3.3.0--hdfd78af_0": "sha256:fef0d968f4e76ecfefe94e7c43bb53b38e32e999b2eff7d410a2aa0f1978a9ec"}, "docker": "quay.io/biocontainers/seqan3"}
+config: {"url": "https://biocontainers.pro/tools/seqan3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqan3", "latest": {"3.3.0--hdfd78af_1": "sha256:fe5e00f709b7d09dcb4184e86637b9470bfbbea98d9cea5160ad791e68aebd3d"}, "tags": {"3.2.0--hdfd78af_0": "sha256:8ff1046707a4f70ac1ba002e997cbac80056af4e8bdaa9f857e202ee79264483", "3.3.0--hdfd78af_0": "sha256:fef0d968f4e76ecfefe94e7c43bb53b38e32e999b2eff7d410a2aa0f1978a9ec", "3.3.0--hdfd78af_1": "sha256:fe5e00f709b7d09dcb4184e86637b9470bfbbea98d9cea5160ad791e68aebd3d"}, "docker": "quay.io/biocontainers/seqan3"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqan3.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/seqan3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqan3:3.3.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/seqan3:3.3.0--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqan3/3.3.0--hdfd78af_0
-$ module help quay.io/biocontainers/seqan3/3.3.0--hdfd78af_0
+$ module load quay.io/biocontainers/seqan3/3.3.0--hdfd78af_1
+$ module help quay.io/biocontainers/seqan3/3.3.0--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xcoredata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xcoredata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xcoredata/container.yaml"
-updated_at: "2024-01-28 03:52:46.988767"
+updated_at: "2024-01-29 02:41:36.243118"
 latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xcoredata"
 aliases:
