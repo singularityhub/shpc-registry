@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/skder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skder/container.yaml"
-updated_at: "2024-01-29 02:38:52.974498"
+updated_at: "2024-01-30 02:38:59.208211"
 latest: "1.0.8--py310h0dbaff4_0"
 container_url: "https://biocontainers.pro/tools/skder"
 aliases:

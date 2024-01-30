@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bloodcancermultiomics2017"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bloodcancermultiomics2017/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bloodcancermultiomics2017/container.yaml"
-updated_at: "2024-01-29 02:34:53.068471"
+updated_at: "2024-01-30 02:34:54.479270"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bloodcancermultiomics2017"
 aliases:
