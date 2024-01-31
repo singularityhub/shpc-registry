@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cov-lineages"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cov-lineages/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cov-lineages/container.yaml"
-updated_at: "2024-01-30 02:49:25.702660"
+updated_at: "2024-01-31 02:50:15.680837"
 latest: "2020.05.19.2--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/cov-lineages"
 aliases:

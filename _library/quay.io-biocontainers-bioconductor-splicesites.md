@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-splicesites"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-splicesites/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-splicesites/container.yaml"
-updated_at: "2024-01-30 02:48:56.610447"
+updated_at: "2024-01-31 02:49:46.644615"
 latest: "1.31.0--r36h516909a_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-splicesites"
 aliases:

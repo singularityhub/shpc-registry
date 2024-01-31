@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bcftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bcftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/bcftools/container.yaml"
-updated_at: "2024-01-30 03:05:43.735218"
+updated_at: "2024-01-31 03:06:36.924455"
 latest: "1.14"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bcftools"
 aliases:

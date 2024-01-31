@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/megagta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/megagta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/megagta/container.yaml"
-updated_at: "2024-01-30 02:26:18.524767"
+updated_at: "2024-01-31 02:26:52.981940"
 latest: "0.1_alpha--0"
 container_url: "https://biocontainers.pro/tools/megagta"
 aliases:

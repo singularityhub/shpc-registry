@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/clingo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/clingo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/clingo/container.yaml"
-updated_at: "2024-01-30 03:05:46.749904"
+updated_at: "2024-01-31 03:06:39.878616"
 latest: "5.5.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/clingo"
 aliases:

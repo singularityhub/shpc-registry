@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/diamond"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/diamond/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/diamond/container.yaml"
-updated_at: "2024-01-30 03:05:35.756146"
+updated_at: "2024-01-31 03:06:29.085711"
 latest: "2.0.13"
 container_url: "https://github.com/orgs/autamus/packages/container/package/diamond"
 aliases:

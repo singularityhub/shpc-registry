@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sv2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sv2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sv2/container.yaml"
-updated_at: "2024-01-30 02:27:05.386328"
+updated_at: "2024-01-31 02:27:39.892377"
 latest: "1.4.3.4--py27h4329609_7"
 container_url: "https://biocontainers.pro/tools/sv2"
 aliases:

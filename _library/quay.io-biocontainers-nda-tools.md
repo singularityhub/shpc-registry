@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nda-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nda-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nda-tools/container.yaml"
-updated_at: "2024-01-30 02:55:05.145186"
+updated_at: "2024-01-31 02:55:57.916181"
 latest: "0.2.26--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/nda-tools"
 aliases:

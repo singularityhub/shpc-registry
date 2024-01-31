@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pycrac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycrac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycrac/container.yaml"
-updated_at: "2024-01-30 02:55:22.217381"
+updated_at: "2024-01-31 02:56:15.790613"
 latest: "1.5.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/pycrac"
 aliases:

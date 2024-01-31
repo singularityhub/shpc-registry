@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aletsch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aletsch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aletsch/container.yaml"
-updated_at: "2024-01-30 02:56:07.762247"
+updated_at: "2024-01-31 02:57:03.686322"
 latest: "1.0.3--h5642b88_6"
 container_url: "https://biocontainers.pro/tools/aletsch"
 aliases:

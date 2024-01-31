@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gopeaks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gopeaks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gopeaks/container.yaml"
-updated_at: "2024-01-30 02:40:54.192118"
+updated_at: "2024-01-31 02:41:47.829115"
 latest: "1.0.0--heaae5f8_2"
 container_url: "https://biocontainers.pro/tools/gopeaks"
 aliases:

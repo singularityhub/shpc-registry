@@ -4,7 +4,7 @@ name:  "amdih/namd3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/amdih/namd3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/amdih/namd3/container.yaml"
-updated_at: "2024-01-30 03:06:32.954916"
+updated_at: "2024-01-31 03:07:25.237821"
 latest: "3.0a9"
 container_url: "https://www.amd.com/en/technologies/infinity-hub/namd"
 aliases:

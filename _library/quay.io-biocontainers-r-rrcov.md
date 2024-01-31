@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rrcov"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rrcov/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rrcov/container.yaml"
-updated_at: "2024-01-30 02:30:14.748723"
+updated_at: "2024-01-31 02:30:49.067365"
 latest: "1.3_11--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-rrcov"
 aliases:
