@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cgt
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cgt
+latest:
+  1.0.0--h4349ce8_0: sha256:23f3cdc3f1de65ff9e1f2f673d68488587bb20ac37403417559918fc2aca3225
+tags:
+  1.0.0--h4349ce8_0: sha256:23f3cdc3f1de65ff9e1f2f673d68488587bb20ac37403417559918fc2aca3225
+docker: quay.io/biocontainers/cgt
+aliases:
+  cgt_bacpop: /usr/local/bin/cgt_bacpop

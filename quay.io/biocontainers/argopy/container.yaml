@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/argopy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for argopy
+latest:
+  0.1.15: sha256:2ddf66a74542bc555b34620ffb6446fa1a2f38169ae4f566fd69f23e184523e8
+tags:
+  0.1.15: sha256:2ddf66a74542bc555b34620ffb6446fa1a2f38169ae4f566fd69f23e184523e8
+docker: quay.io/biocontainers/argopy
+aliases:
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  nc3tonc4: /usr/local/bin/nc3tonc4
+  nc4tonc3: /usr/local/bin/nc4tonc3
+  ncinfo: /usr/local/bin/ncinfo
+  httpx: /usr/local/bin/httpx
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  h5delete: /usr/local/bin/h5delete
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif
+  hdf2jpeg: /usr/local/bin/hdf2jpeg
+  hdf8to24: /usr/local/bin/hdf8to24
+  hdfcomp: /usr/local/bin/hdfcomp
+  hdfed: /usr/local/bin/hdfed
+  hdfimport: /usr/local/bin/hdfimport
+  hdfls: /usr/local/bin/hdfls
+  hdfpack: /usr/local/bin/hdfpack
+  hdftopal: /usr/local/bin/hdftopal
+  hdftor8: /usr/local/bin/hdftor8
+  hdfunpac: /usr/local/bin/hdfunpac
+  hdiff: /usr/local/bin/hdiff

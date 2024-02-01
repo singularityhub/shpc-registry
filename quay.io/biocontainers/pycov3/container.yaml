@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/pycov3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pycov3
+latest:
+  2.1.0--pyh7cba7a3_0: sha256:f148ffcab338e673a5c7230de5e6a75e1cd04dadc15622d1fe27bf31d36ff65b
+tags:
+  2.1.0--pyh7cba7a3_0: sha256:f148ffcab338e673a5c7230de5e6a75e1cd04dadc15622d1fe27bf31d36ff65b
+docker: quay.io/biocontainers/pycov3
+aliases:
+  pycov3: /usr/local/bin/pycov3
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

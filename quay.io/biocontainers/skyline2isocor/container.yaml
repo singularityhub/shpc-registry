@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/skyline2isocor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for skyline2isocor
+latest:
+  0.1.2--pyhdfd78af_0: sha256:a5be5e9e02d9c30921e811a3b27e1e58fd24d7f35228a7f8ca48607e8c032b11
+tags:
+  0.1.2--pyhdfd78af_0: sha256:a5be5e9e02d9c30921e811a3b27e1e58fd24d7f35228a7f8ca48607e8c032b11
+docker: quay.io/biocontainers/skyline2isocor
+aliases:
+  skyline2isocor: /usr/local/bin/skyline2isocor
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
