@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/itol-config
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for itol-config
+latest:
+  0.1.0--pyhdfd78af_0: sha256:c65095c854ece440014a595d3e8a9804c0421e6175923d5d7373ae5c8571292e
+tags:
+  0.1.0--pyhdfd78af_0: sha256:c65095c854ece440014a595d3e8a9804c0421e6175923d5d7373ae5c8571292e
+docker: quay.io/biocontainers/itol-config
+aliases:
+  itol-config: /usr/local/bin/itol-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
