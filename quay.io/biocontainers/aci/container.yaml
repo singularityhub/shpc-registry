@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/aci
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for aci
 latest:
-  1.2.20231229--pyhdfd78af_0: sha256:4778aec20107bfdaab26a0be853be151b239e955a9d793259b617713abfec63a
+  1.4.20240116--pyhdfd78af_0: sha256:d47bf0f851463ccfa373621bbe5119303f6f3bf94afd938775b4352d6de184e7
 tags:
   1.2.20231229--pyhdfd78af_0: sha256:4778aec20107bfdaab26a0be853be151b239e955a9d793259b617713abfec63a
+  1.4.20240116--pyhdfd78af_0: sha256:d47bf0f851463ccfa373621bbe5119303f6f3bf94afd938775b4352d6de184e7
 docker: quay.io/biocontainers/aci
 aliases:
   aci: /usr/local/bin/aci

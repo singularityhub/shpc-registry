@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/dupsifter
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dupsifter
 latest:
-  1.2.0.20230926--h81da01d_0: sha256:42004beb33f1b6bf83b5401f20f081f22cd6ee12a948531189fc46ae72d375dd
+  1.2.1.20240119--h81da01d_0: sha256:b0d1b51c00e6a4895d79c45d98d58ae11903d3f59ba8753162110e58cb3ce514
 tags:
   1.2.0.20230926--h81da01d_0: sha256:42004beb33f1b6bf83b5401f20f081f22cd6ee12a948531189fc46ae72d375dd
+  1.2.1.20240119--h81da01d_0: sha256:b0d1b51c00e6a4895d79c45d98d58ae11903d3f59ba8753162110e58cb3ce514
 docker: quay.io/biocontainers/dupsifter
 aliases:
   dupsifter: /usr/local/bin/dupsifter
