@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcov"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcov/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcov/container.yaml"
-updated_at: "2024-01-31 02:34:48.856473"
+updated_at: "2024-02-01 02:36:26.078452"
 latest: "1.0--ha16aae7_7"
 container_url: "https://biocontainers.pro/tools/bcov"
 aliases:

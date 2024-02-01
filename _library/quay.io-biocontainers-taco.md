@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taco/container.yaml"
-updated_at: "2024-01-31 02:58:18.167139"
+updated_at: "2024-02-01 02:35:30.228195"
 latest: "0.7.3--py27_0"
 container_url: "https://biocontainers.pro/tools/taco"
 aliases:

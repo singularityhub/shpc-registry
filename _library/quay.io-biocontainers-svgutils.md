@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svgutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svgutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svgutils/container.yaml"
-updated_at: "2024-01-31 02:43:51.373488"
+updated_at: "2024-02-01 02:53:24.299448"
 latest: "0.1.0--py36_0"
 container_url: "https://biocontainers.pro/tools/svgutils"
 aliases:

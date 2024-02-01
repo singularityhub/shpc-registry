@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-citefuse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-citefuse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-citefuse/container.yaml"
-updated_at: "2024-01-31 02:44:28.402168"
+updated_at: "2024-02-01 02:52:08.024676"
 latest: "1.14.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-citefuse"
 

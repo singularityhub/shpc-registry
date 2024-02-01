@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aquila_umap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aquila_umap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aquila_umap/container.yaml"
-updated_at: "2024-01-31 02:21:56.217858"
+updated_at: "2024-02-01 02:49:23.995085"
 latest: "1.0--pyh864c0ab_2"
 container_url: "https://biocontainers.pro/tools/aquila_umap"
 aliases:

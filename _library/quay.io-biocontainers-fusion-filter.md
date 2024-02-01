@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fusion-filter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fusion-filter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fusion-filter/container.yaml"
-updated_at: "2024-01-31 02:35:13.831345"
+updated_at: "2024-02-01 02:54:49.241935"
 latest: "0.5.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/fusion-filter"
 aliases:

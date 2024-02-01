@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-gripss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-gripss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-gripss/container.yaml"
-updated_at: "2024-01-31 02:52:05.105517"
+updated_at: "2024-02-01 02:43:39.098547"
 latest: "2.3.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-gripss"
 aliases:

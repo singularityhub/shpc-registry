@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/halla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/halla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/halla/container.yaml"
-updated_at: "2024-01-31 02:23:27.358060"
+updated_at: "2024-02-01 02:34:52.334545"
 latest: "0.8.17--py36_0"
 container_url: "https://biocontainers.pro/tools/halla"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-statvisual"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-statvisual/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-statvisual/container.yaml"
-updated_at: "2024-01-31 02:42:13.505193"
+updated_at: "2024-02-01 02:43:24.127583"
 latest: "1.2.1--r43h3342da4_5"
 container_url: "https://biocontainers.pro/tools/r-statvisual"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/salmon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/salmon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/salmon/container.yaml"
-updated_at: "2024-01-31 03:06:31.517036"
+updated_at: "2024-02-01 02:25:41.150450"
 latest: "1.9.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/salmon"
 aliases:
