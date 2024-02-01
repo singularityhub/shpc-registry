@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-scoper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scoper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scoper/container.yaml"
-updated_at: "2024-02-01 02:38:50.935161"
+updated_at: "2024-02-01 03:15:17.945279"
 latest: "1.2.1--r42h21a89ab_2"
 container_url: "https://biocontainers.pro/tools/r-scoper"
 aliases:

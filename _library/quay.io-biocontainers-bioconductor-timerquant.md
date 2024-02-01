@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-timerquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-timerquant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-timerquant/container.yaml"
-updated_at: "2024-02-01 02:39:45.683192"
+updated_at: "2024-02-01 03:16:13.355884"
 latest: "1.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-timerquant"
 

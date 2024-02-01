@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqbuster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqbuster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqbuster/container.yaml"
-updated_at: "2024-02-01 03:05:19.829294"
+updated_at: "2024-02-01 03:42:07.646189"
 latest: "3.5--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/seqbuster"
 aliases:
