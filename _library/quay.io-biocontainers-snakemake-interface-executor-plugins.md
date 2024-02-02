@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-interface-executor-plugins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-interface-executor-plugins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-interface-executor-plugins/container.yaml"
-updated_at: "2024-02-01 03:09:51.675042"
-latest: "8.1.3--pyhdfd78af_0"
+updated_at: "2024-02-02 02:29:04.256106"
+latest: "8.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-interface-executor-plugins"
 aliases:
  - "2to3-3.11"
@@ -26,8 +26,9 @@ versions:
  - "8.1.0--pyhdfd78af_0"
  - "8.0.2--pyhdfd78af_0"
  - "8.1.3--pyhdfd78af_0"
+ - "8.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-interface-executor-plugins"
-config: {"url": "https://biocontainers.pro/tools/snakemake-interface-executor-plugins", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-interface-executor-plugins", "latest": {"8.1.3--pyhdfd78af_0": "sha256:11751e88c540e585578c1f8e8b8f97121c69918c34889c91e167581f528c5561"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:8b8ed1c92656a706fc8386caea18f534de39fa8bb504e785ecfe97971cace5c3", "5.0.2--pyhdfd78af_0": "sha256:1ad0280b34f79c258d0868dd38f2675eb76972a86e57949c69c56e168f9ab8d7", "4.0.0--pyhdfd78af_0": "sha256:0ca7fba9e8f7a81904603a3e36c238a6f307bcb07929b92fafe23a80cc292aa4", "3.0.2--pyhdfd78af_0": "sha256:8e12b0efb937fa5fe8482bb041a9fad428451815ff1a73938f2adae9762bc124", "2.0.0--pyhdfd78af_0": "sha256:78ffee73d269f0271cd0aa7a123f4d2e4ae9b60733150486eca50fbda0f13510", "1.2.0--pyhdfd78af_0": "sha256:9ba9b877056afc069bd8f48a9a40ecfc318b9106fbb2a8d5f3e76d392504d1f7", "7.0.3--pyhdfd78af_0": "sha256:837cabc913cce79e6b50c7222e8320996cc8429bf4ffa9ab495c1343629056e5", "6.0.0--pyhdfd78af_0": "sha256:e606119c453da262571bfbc8708acc3773a1fd0d713efd0dc98e1a3ec172a017", "8.1.0--pyhdfd78af_0": "sha256:15dcb8b3bb2b43810e124cb82e7058b6842905033d40aae636ec208980f57afd", "8.0.2--pyhdfd78af_0": "sha256:f236d48e338860539ca5d99f713ea06e5749d5406faceabeed7a82b71b3b9140", "8.1.3--pyhdfd78af_0": "sha256:11751e88c540e585578c1f8e8b8f97121c69918c34889c91e167581f528c5561"}, "docker": "quay.io/biocontainers/snakemake-interface-executor-plugins", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-interface-executor-plugins", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-interface-executor-plugins", "latest": {"8.2.0--pyhdfd78af_0": "sha256:27e4a179e53f0d986ad6b63927d9ac3b7de3ea0abd77eb2af006baded72e87f1"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:8b8ed1c92656a706fc8386caea18f534de39fa8bb504e785ecfe97971cace5c3", "5.0.2--pyhdfd78af_0": "sha256:1ad0280b34f79c258d0868dd38f2675eb76972a86e57949c69c56e168f9ab8d7", "4.0.0--pyhdfd78af_0": "sha256:0ca7fba9e8f7a81904603a3e36c238a6f307bcb07929b92fafe23a80cc292aa4", "3.0.2--pyhdfd78af_0": "sha256:8e12b0efb937fa5fe8482bb041a9fad428451815ff1a73938f2adae9762bc124", "2.0.0--pyhdfd78af_0": "sha256:78ffee73d269f0271cd0aa7a123f4d2e4ae9b60733150486eca50fbda0f13510", "1.2.0--pyhdfd78af_0": "sha256:9ba9b877056afc069bd8f48a9a40ecfc318b9106fbb2a8d5f3e76d392504d1f7", "7.0.3--pyhdfd78af_0": "sha256:837cabc913cce79e6b50c7222e8320996cc8429bf4ffa9ab495c1343629056e5", "6.0.0--pyhdfd78af_0": "sha256:e606119c453da262571bfbc8708acc3773a1fd0d713efd0dc98e1a3ec172a017", "8.1.0--pyhdfd78af_0": "sha256:15dcb8b3bb2b43810e124cb82e7058b6842905033d40aae636ec208980f57afd", "8.0.2--pyhdfd78af_0": "sha256:f236d48e338860539ca5d99f713ea06e5749d5406faceabeed7a82b71b3b9140", "8.1.3--pyhdfd78af_0": "sha256:11751e88c540e585578c1f8e8b8f97121c69918c34889c91e167581f528c5561", "8.2.0--pyhdfd78af_0": "sha256:27e4a179e53f0d986ad6b63927d9ac3b7de3ea0abd77eb2af006baded72e87f1"}, "docker": "quay.io/biocontainers/snakemake-interface-executor-plugins", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-interface-executor-plugins.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/snakemake-interface-executor-plugins
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-interface-executor-plugins:8.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-interface-executor-plugins:8.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-interface-executor-plugins/8.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-interface-executor-plugins/8.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-interface-executor-plugins/8.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-interface-executor-plugins/8.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

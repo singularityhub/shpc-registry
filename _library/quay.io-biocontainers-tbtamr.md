@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tbtamr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tbtamr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tbtamr/container.yaml"
-updated_at: "2024-02-01 03:26:11.251702"
-latest: "0.0.4--pyhdfd78af_0"
+updated_at: "2024-02-02 02:45:21.643326"
+latest: "0.0.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/tbtamr"
 aliases:
  - "csvtk"
@@ -41,8 +41,9 @@ aliases:
  - "pVst"
 versions:
  - "0.0.4--pyhdfd78af_0"
+ - "0.0.4--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for tbtamr"
-config: {"url": "https://biocontainers.pro/tools/tbtamr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tbtamr", "latest": {"0.0.4--pyhdfd78af_0": "sha256:b8b4597e58caac49052a943fa189552d2e84d42301693837ecb748644f162852"}, "tags": {"0.0.4--pyhdfd78af_0": "sha256:b8b4597e58caac49052a943fa189552d2e84d42301693837ecb748644f162852"}, "docker": "quay.io/biocontainers/tbtamr", "aliases": {"csvtk": "/usr/local/bin/csvtk", "delly": "/usr/local/bin/delly", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "tbtamr": "/usr/local/bin/tbtamr", "vcfnullgenofields": "/usr/local/bin/vcfnullgenofields", "vcfwave": "/usr/local/bin/vcfwave", "jwebserver": "/usr/local/bin/jwebserver", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "update_version.sh": "/usr/local/bin/update_version.sh", "samclip": "/usr/local/bin/samclip", "tabix++": "/usr/local/bin/tabix++", "snpEff": "/usr/local/bin/snpEff", "bamleftalign": "/usr/local/bin/bamleftalign", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "fasta_generate_regions.py": "/usr/local/bin/fasta_generate_regions.py", "freebayes-parallel": "/usr/local/bin/freebayes-parallel", "generate_freebayes_region_scripts.sh": "/usr/local/bin/generate_freebayes_region_scripts.sh", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "freebayes": "/usr/local/bin/freebayes", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt", "iHS": "/usr/local/bin/iHS", "meltEHH": "/usr/local/bin/meltEHH", "normalize-iHS": "/usr/local/bin/normalize-iHS", "pFst": "/usr/local/bin/pFst", "pVst": "/usr/local/bin/pVst"}}
+config: {"url": "https://biocontainers.pro/tools/tbtamr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tbtamr", "latest": {"0.0.4--pyhdfd78af_1": "sha256:5eddf362b8918bf944b72541ea526743083c846d005c19a464692758409ba5e3"}, "tags": {"0.0.4--pyhdfd78af_0": "sha256:b8b4597e58caac49052a943fa189552d2e84d42301693837ecb748644f162852", "0.0.4--pyhdfd78af_1": "sha256:5eddf362b8918bf944b72541ea526743083c846d005c19a464692758409ba5e3"}, "docker": "quay.io/biocontainers/tbtamr", "aliases": {"csvtk": "/usr/local/bin/csvtk", "delly": "/usr/local/bin/delly", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "tbtamr": "/usr/local/bin/tbtamr", "vcfnullgenofields": "/usr/local/bin/vcfnullgenofields", "vcfwave": "/usr/local/bin/vcfwave", "jwebserver": "/usr/local/bin/jwebserver", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "update_version.sh": "/usr/local/bin/update_version.sh", "samclip": "/usr/local/bin/samclip", "tabix++": "/usr/local/bin/tabix++", "snpEff": "/usr/local/bin/snpEff", "bamleftalign": "/usr/local/bin/bamleftalign", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "fasta_generate_regions.py": "/usr/local/bin/fasta_generate_regions.py", "freebayes-parallel": "/usr/local/bin/freebayes-parallel", "generate_freebayes_region_scripts.sh": "/usr/local/bin/generate_freebayes_region_scripts.sh", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "freebayes": "/usr/local/bin/freebayes", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt", "iHS": "/usr/local/bin/iHS", "meltEHH": "/usr/local/bin/meltEHH", "normalize-iHS": "/usr/local/bin/normalize-iHS", "pFst": "/usr/local/bin/pFst", "pVst": "/usr/local/bin/pVst"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tbtamr.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/tbtamr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tbtamr:0.0.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/tbtamr:0.0.4--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tbtamr/0.0.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/tbtamr/0.0.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/tbtamr/0.0.4--pyhdfd78af_1
+$ module help quay.io/biocontainers/tbtamr/0.0.4--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
