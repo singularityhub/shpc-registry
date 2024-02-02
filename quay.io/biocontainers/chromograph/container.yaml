@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/chromograph
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for chromograph
 latest:
-  1.3.1--pyhdfd78af_1: sha256:6a9c1ab5a6ea8a982b518ae9145d2b92451d7425476fd44efd4fb70e10ed566f
+  1.3.1--pyhdfd78af_2: sha256:f7a757a5b7f017f8bd8b5b99adc0a4ffcf7f892af64760377bc457d81407acb5
 tags:
   1.3.1--pyhdfd78af_1: sha256:6a9c1ab5a6ea8a982b518ae9145d2b92451d7425476fd44efd4fb70e10ed566f
+  1.3.1--pyhdfd78af_2: sha256:f7a757a5b7f017f8bd8b5b99adc0a4ffcf7f892af64760377bc457d81407acb5
 docker: quay.io/biocontainers/chromograph
 aliases:
   chromograph: /usr/local/bin/chromograph
