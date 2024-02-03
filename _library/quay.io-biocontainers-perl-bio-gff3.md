@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-gff3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-gff3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-gff3/container.yaml"
-updated_at: "2024-02-02 02:54:27.438466"
+updated_at: "2024-02-03 02:53:24.278457"
 latest: "2.0--pl5321hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/perl-bio-gff3"
 aliases:

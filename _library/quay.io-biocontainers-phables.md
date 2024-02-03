@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phables"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phables/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phables/container.yaml"
-updated_at: "2024-02-02 02:44:12.429741"
-latest: "1.2.2--pyhdfd78af_0"
+updated_at: "2024-02-03 02:42:43.970260"
+latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phables"
 aliases:
  - "bsdcat"
@@ -54,8 +54,9 @@ versions:
  - "1.2.0--pyh7cba7a3_0"
  - "1.2.1--pyhdfd78af_0"
  - "1.2.2--pyhdfd78af_0"
+ - "1.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for phables"
-config: {"url": "https://biocontainers.pro/tools/phables", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phables", "latest": {"1.2.2--pyhdfd78af_0": "sha256:26169f377bcc4d4d5b5524ed9a918423d5e45e1e15356192e1e3c5cb7e06ddd0"}, "tags": {"0.1.1--pyh7cba7a3_0": "sha256:c30018443a584035d223038712cd15f39f5205f5d3c85f8636af34eb12b18aba", "0.2.0--pyh7cba7a3_0": "sha256:f797103ba061e07a716e5821a775995d7546bb277977c3b441243b48648bd43c", "1.0.0--pyh7cba7a3_0": "sha256:7dbbaf5369aea00225e51af0751e737184b209ed12078308e2764ef0ccec611d", "1.1.0--pyh7cba7a3_0": "sha256:2264309866c3b7210b8fef464081a524bd5841523f1ec0bba3297d8e93734d50", "1.2.0--pyh7cba7a3_0": "sha256:3328a6854f8a095fc56552861d6dead0ff2169795faa0b4e15ca452f4ccd020d", "1.2.1--pyhdfd78af_0": "sha256:bcd4dc94cdb06579c4be928bea6e3d797c9324e1a877f6d221bbda21acedaeb5", "1.2.2--pyhdfd78af_0": "sha256:26169f377bcc4d4d5b5524ed9a918423d5e45e1e15356192e1e3c5cb7e06ddd0"}, "docker": "quay.io/biocontainers/phables", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "markdown-it": "/usr/local/bin/markdown-it", "mergesolv": "/usr/local/bin/mergesolv", "phables": "/usr/local/bin/phables", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "stone": "/usr/local/bin/stone", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "tabulate": "/usr/local/bin/tabulate", "py.test": "/usr/local/bin/py.test", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen"}}
+config: {"url": "https://biocontainers.pro/tools/phables", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phables", "latest": {"1.3.0--pyhdfd78af_0": "sha256:75492f88dec4d34be38636a438d91e1dcea0f96a4167223f281cfbb808432a1d"}, "tags": {"0.1.1--pyh7cba7a3_0": "sha256:c30018443a584035d223038712cd15f39f5205f5d3c85f8636af34eb12b18aba", "0.2.0--pyh7cba7a3_0": "sha256:f797103ba061e07a716e5821a775995d7546bb277977c3b441243b48648bd43c", "1.0.0--pyh7cba7a3_0": "sha256:7dbbaf5369aea00225e51af0751e737184b209ed12078308e2764ef0ccec611d", "1.1.0--pyh7cba7a3_0": "sha256:2264309866c3b7210b8fef464081a524bd5841523f1ec0bba3297d8e93734d50", "1.2.0--pyh7cba7a3_0": "sha256:3328a6854f8a095fc56552861d6dead0ff2169795faa0b4e15ca452f4ccd020d", "1.2.1--pyhdfd78af_0": "sha256:bcd4dc94cdb06579c4be928bea6e3d797c9324e1a877f6d221bbda21acedaeb5", "1.2.2--pyhdfd78af_0": "sha256:26169f377bcc4d4d5b5524ed9a918423d5e45e1e15356192e1e3c5cb7e06ddd0", "1.3.0--pyhdfd78af_0": "sha256:75492f88dec4d34be38636a438d91e1dcea0f96a4167223f281cfbb808432a1d"}, "docker": "quay.io/biocontainers/phables", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "markdown-it": "/usr/local/bin/markdown-it", "mergesolv": "/usr/local/bin/mergesolv", "phables": "/usr/local/bin/phables", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "stone": "/usr/local/bin/stone", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "tabulate": "/usr/local/bin/tabulate", "py.test": "/usr/local/bin/py.test", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phables.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/phables
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phables:1.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/phables:1.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phables/1.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/phables/1.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/phables/1.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/phables/1.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

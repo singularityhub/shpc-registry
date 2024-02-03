@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gdrcore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gdrcore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gdrcore/container.yaml"
-updated_at: "2024-02-02 02:58:29.140564"
+updated_at: "2024-02-03 02:57:30.863081"
 latest: "1.0.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gdrcore"
 aliases:

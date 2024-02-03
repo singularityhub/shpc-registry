@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chromograph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromograph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromograph/container.yaml"
-updated_at: "2024-02-02 02:33:33.585367"
-latest: "1.3.1--pyhdfd78af_1"
+updated_at: "2024-02-03 02:31:42.020001"
+latest: "1.3.1--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/chromograph"
 aliases:
  - "chromograph"
@@ -31,8 +31,9 @@ aliases:
  - "transicc"
 versions:
  - "1.3.1--pyhdfd78af_1"
+ - "1.3.1--pyhdfd78af_2"
 description: "singularity registry hpc automated addition for chromograph"
-config: {"url": "https://biocontainers.pro/tools/chromograph", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chromograph", "latest": {"1.3.1--pyhdfd78af_1": "sha256:6a9c1ab5a6ea8a982b518ae9145d2b92451d7425476fd44efd4fb70e10ed566f"}, "tags": {"1.3.1--pyhdfd78af_1": "sha256:6a9c1ab5a6ea8a982b518ae9145d2b92451d7425476fd44efd4fb70e10ed566f"}, "docker": "quay.io/biocontainers/chromograph", "aliases": {"chromograph": "/usr/local/bin/chromograph", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/chromograph", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chromograph", "latest": {"1.3.1--pyhdfd78af_2": "sha256:f7a757a5b7f017f8bd8b5b99adc0a4ffcf7f892af64760377bc457d81407acb5"}, "tags": {"1.3.1--pyhdfd78af_1": "sha256:6a9c1ab5a6ea8a982b518ae9145d2b92451d7425476fd44efd4fb70e10ed566f", "1.3.1--pyhdfd78af_2": "sha256:f7a757a5b7f017f8bd8b5b99adc0a4ffcf7f892af64760377bc457d81407acb5"}, "docker": "quay.io/biocontainers/chromograph", "aliases": {"chromograph": "/usr/local/bin/chromograph", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chromograph.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/chromograph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chromograph:1.3.1--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/chromograph:1.3.1--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chromograph/1.3.1--pyhdfd78af_1
-$ module help quay.io/biocontainers/chromograph/1.3.1--pyhdfd78af_1
+$ module load quay.io/biocontainers/chromograph/1.3.1--pyhdfd78af_2
+$ module help quay.io/biocontainers/chromograph/1.3.1--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
