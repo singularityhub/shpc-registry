@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/strainscan
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for strainscan
 latest:
-  1.0.14--pyhdfd78af_0: sha256:7b56741173a31ea8ed943e3559b781495660b3be23ead5d218f26b7be60beb76
+  1.0.14--pyhdfd78af_1: sha256:be54652e31c74712a643f01e2128bc6733bb0f6460c74ae372536cad4fb4631a
 tags:
   1.0.3--pyhdfd78af_0: sha256:b1a52f463ffd1dfd1b04fdc09db9c3b3b9b046a6b2e8ec323c74881766c91809
   1.0.10--pyhdfd78af_0: sha256:714db542572a4cb414577cc2018248a6870115a6ff1a7e8c028f84f9941b517e
   1.0.14--pyhdfd78af_0: sha256:7b56741173a31ea8ed943e3559b781495660b3be23ead5d218f26b7be60beb76
+  1.0.14--pyhdfd78af_1: sha256:be54652e31c74712a643f01e2128bc6733bb0f6460c74ae372536cad4fb4631a
 docker: quay.io/biocontainers/strainscan
 aliases:
   graphdump: /usr/local/bin/graphdump

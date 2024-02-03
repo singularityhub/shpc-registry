@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/crispector
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for crispector
 latest:
-  1.0.4--py_0: sha256:df5adb03b0cafabc261ece2e33b2f0557e53f59c23f0b4b54f3cde4ec5320e5e
+  1.0.7--pyhdfd78af_0: sha256:b6e917dfdff295b8e6b519b8b6dc4df4ec29ad8a8b77fcf628b438a108263e36
 tags:
   1.0.4--py_0: sha256:df5adb03b0cafabc261ece2e33b2f0557e53f59c23f0b4b54f3cde4ec5320e5e
+  1.0.7--pyhdfd78af_0: sha256:b6e917dfdff295b8e6b519b8b6dc4df4ec29ad8a8b77fcf628b438a108263e36
 docker: quay.io/biocontainers/crispector
 aliases:
   crispector: /usr/local/bin/crispector
