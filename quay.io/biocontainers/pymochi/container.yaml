@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pymochi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pymochi
 latest:
-  0.9--pyhdfd78af_0: sha256:29ad535b3bbb54217fbef2a517aaa4a8707ceb9d629398acbf29cd11595eb2ab
+  1.0--pyhdfd78af_0: sha256:ca79eb16515f484ca6013bdef6101f3a22a0d8077b92b0a82d55d93b23acccba
 tags:
   0.9--pyhdfd78af_0: sha256:29ad535b3bbb54217fbef2a517aaa4a8707ceb9d629398acbf29cd11595eb2ab
+  1.0--pyhdfd78af_0: sha256:ca79eb16515f484ca6013bdef6101f3a22a0d8077b92b0a82d55d93b23acccba
 docker: quay.io/biocontainers/pymochi
 aliases:
   demo_mochi.py: /usr/local/bin/demo_mochi.py

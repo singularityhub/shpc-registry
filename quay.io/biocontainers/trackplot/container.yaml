@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/trackplot
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for trackplot
 latest:
-  0.3.6--pyhdfd78af_0: sha256:4436db98bac0472fc225aba61fa2bf7f13e3bd400a4ff4044c30d1d27c0a3dc8
+  0.3.7--pyhdfd78af_0: sha256:71447a866504acaa62324b1686c8691969f4be1193b9cdc2140ab4e6616b12d5
 tags:
   0.2.1--pyh7cba7a3_0: sha256:cead03a1c5541490b6316c747d2053fc355daa038e0ec42512475dd786bdbd27
   0.2.4--pyh7cba7a3_0: sha256:8b91a94c0c99708c958f3289e0a6e7b5cc8740aec3720830c5920d5ceb15363e
@@ -10,6 +10,7 @@ tags:
   0.2.6--pyh7cba7a3_0: sha256:736649acdfbe52a1373496164146d46bf5bc25465df7d4ad95d0f88279a2ef67
   0.3.4--pyh7cba7a3_0: sha256:b0841a4431d8c0177241643a55a1ff87fc8d6abc9943a905681f5a18fc17b30f
   0.3.6--pyhdfd78af_0: sha256:4436db98bac0472fc225aba61fa2bf7f13e3bd400a4ff4044c30d1d27c0a3dc8
+  0.3.7--pyhdfd78af_0: sha256:71447a866504acaa62324b1686c8691969f4be1193b9cdc2140ab4e6616b12d5
 docker: quay.io/biocontainers/trackplot
 aliases:
   dask: /usr/local/bin/dask

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/flight-genome
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for flight-genome
 latest:
-  1.6.2--pyh7cba7a3_0: sha256:ab05c455932111aaa6ca239bc94eaa635fae30f82f0ff4b5869fb0619592bf34
+  1.6.3--pyh7cba7a3_0: sha256:437589ceb490ada3dedccfb63ce4338ea81cfb003a7eb28d63ae68281d495cd1
 tags:
   1.5.0--pypyh5e36f6f_0: sha256:372c34305aa54c5d7370552544d0fb743ec9b00982c7e537e1394c88c54e99a4
   1.6.0--pyh7cba7a3_0: sha256:35e5153c6b25514f65b80f34aa4e5917bbfa8ff8addcb9ade3bf7131ca9789d6
   1.6.2--pyh7cba7a3_0: sha256:ab05c455932111aaa6ca239bc94eaa635fae30f82f0ff4b5869fb0619592bf34
+  1.6.3--pyh7cba7a3_0: sha256:437589ceb490ada3dedccfb63ce4338ea81cfb003a7eb28d63ae68281d495cd1
 docker: quay.io/biocontainers/flight-genome
 aliases:
   flight: /usr/local/bin/flight

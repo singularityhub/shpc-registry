@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/mashmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mashmap
 latest:
-  3.1.2--h07ea13f_0: sha256:accb5a39b48c774c17afd565416c9aee3ce184790fac88c587df49fe430ab137
+  3.1.3--h07ea13f_0: sha256:3b162ff64cfa053d3701717864c26638b8b48b0b8ff331ada1d48bcdef862e16
 tags:
   2.0--pl5321h8e5b204_8: sha256:6b6c744b535f172a9f5f0b6ce936cb8a125c2c81eadfe306e499a5e16cc96122
   3.0.1--h97b747e_1: sha256:7c73ae6da33523ccf8945c9544a57717496b7fffe284c1d81a36ca785357d811
@@ -10,6 +10,7 @@ tags:
   3.0.6--h07ea13f_0: sha256:f159f3c225feaece5159b1b8171e7f08a1cba4303340057f792bc17008332d28
   3.1.1--h7093193_0: sha256:84ff1a86ff663aa614dc8f994610efd55cd019a31b11fffea0f18c8f0ec17039
   3.1.2--h07ea13f_0: sha256:accb5a39b48c774c17afd565416c9aee3ce184790fac88c587df49fe430ab137
+  3.1.3--h07ea13f_0: sha256:3b162ff64cfa053d3701717864c26638b8b48b0b8ff331ada1d48bcdef862e16
 docker: quay.io/biocontainers/mashmap
 aliases:
   mashmap: /usr/local/bin/mashmap

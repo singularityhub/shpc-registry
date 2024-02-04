@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/generax
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for generax
 latest:
-  2.0.4--h103dbdd_3: sha256:31a286a9800383699b36a8c6c80905051bc158e2805f81b3b6e59b9c2b7c4ecf
+  2.1.3--h103dbdd_0: sha256:9c4d1d17896b7759b384efe5624c4aa3e43cc3a082d1e013738ac80d717f25c2
 tags:
   2.0.4--h5c6ebe3_1: sha256:6927b12e31ded0b8da869dc946f3a5b0bcd3333f43ecffb1710db40b9e340726
   2.0.4--h103dbdd_3: sha256:31a286a9800383699b36a8c6c80905051bc158e2805f81b3b6e59b9c2b7c4ecf
+  2.1.3--h103dbdd_0: sha256:9c4d1d17896b7759b384efe5624c4aa3e43cc3a082d1e013738ac80d717f25c2
 docker: quay.io/biocontainers/generax
 aliases:
   generax: /usr/local/bin/generax

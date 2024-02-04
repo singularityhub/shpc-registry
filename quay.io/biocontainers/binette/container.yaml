@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/binette
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for binette
 latest:
-  0.1.6--pyh7cba7a3_0: sha256:ba990894d2cc6179191e635c459a3cf5c01b178bdbe2f7acd184c8211791073b
+  1.0.0--pyh7cba7a3_0: sha256:58d240522cd791b20acb0d61491eda65bf3f33a6461cdb61741fc074a7f43619
 tags:
   0.1.6--pyh7cba7a3_0: sha256:ba990894d2cc6179191e635c459a3cf5c01b178bdbe2f7acd184c8211791073b
+  1.0.0--pyh7cba7a3_0: sha256:58d240522cd791b20acb0d61491eda65bf3f33a6461cdb61741fc074a7f43619
+  0.1.7--pyh7cba7a3_0: sha256:c24a73e65f2b8d1d37fa4146f496af53e3945ea4476d7f9b6df2581e08e3aa9a
 docker: quay.io/biocontainers/binette
 aliases:
   binette: /usr/local/bin/binette
