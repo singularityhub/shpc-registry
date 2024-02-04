@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hmp16sdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hmp16sdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hmp16sdata/container.yaml"
-updated_at: "2024-02-03 02:52:54.281020"
+updated_at: "2024-02-04 02:59:25.820188"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hmp16sdata"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/strainscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strainscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strainscan/container.yaml"
-updated_at: "2024-02-03 02:37:19.380915"
-latest: "1.0.14--pyhdfd78af_0"
+updated_at: "2024-02-04 02:44:06.257451"
+latest: "1.0.14--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/strainscan"
 aliases:
  - "graphdump"
@@ -31,8 +31,9 @@ versions:
  - "1.0.3--pyhdfd78af_0"
  - "1.0.10--pyhdfd78af_0"
  - "1.0.14--pyhdfd78af_0"
+ - "1.0.14--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for strainscan"
-config: {"url": "https://biocontainers.pro/tools/strainscan", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strainscan", "latest": {"1.0.14--pyhdfd78af_0": "sha256:7b56741173a31ea8ed943e3559b781495660b3be23ead5d218f26b7be60beb76"}, "tags": {"1.0.3--pyhdfd78af_0": "sha256:b1a52f463ffd1dfd1b04fdc09db9c3b3b9b046a6b2e8ec323c74881766c91809", "1.0.10--pyhdfd78af_0": "sha256:714db542572a4cb414577cc2018248a6870115a6ff1a7e8c028f84f9941b517e", "1.0.14--pyhdfd78af_0": "sha256:7b56741173a31ea8ed943e3559b781495660b3be23ead5d218f26b7be60beb76"}, "docker": "quay.io/biocontainers/strainscan", "aliases": {"graphdump": "/usr/local/bin/graphdump", "maf2synteny": "/usr/local/bin/maf2synteny", "sibeliaz": "/usr/local/bin/sibeliaz", "sibeliaz-lcb": "/usr/local/bin/sibeliaz-lcb", "spoa": "/usr/local/bin/spoa", "strainscan": "/usr/local/bin/strainscan", "strainscan_build": "/usr/local/bin/strainscan_build", "twopaco": "/usr/local/bin/twopaco", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/strainscan", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strainscan", "latest": {"1.0.14--pyhdfd78af_1": "sha256:be54652e31c74712a643f01e2128bc6733bb0f6460c74ae372536cad4fb4631a"}, "tags": {"1.0.3--pyhdfd78af_0": "sha256:b1a52f463ffd1dfd1b04fdc09db9c3b3b9b046a6b2e8ec323c74881766c91809", "1.0.10--pyhdfd78af_0": "sha256:714db542572a4cb414577cc2018248a6870115a6ff1a7e8c028f84f9941b517e", "1.0.14--pyhdfd78af_0": "sha256:7b56741173a31ea8ed943e3559b781495660b3be23ead5d218f26b7be60beb76", "1.0.14--pyhdfd78af_1": "sha256:be54652e31c74712a643f01e2128bc6733bb0f6460c74ae372536cad4fb4631a"}, "docker": "quay.io/biocontainers/strainscan", "aliases": {"graphdump": "/usr/local/bin/graphdump", "maf2synteny": "/usr/local/bin/maf2synteny", "sibeliaz": "/usr/local/bin/sibeliaz", "sibeliaz-lcb": "/usr/local/bin/sibeliaz-lcb", "spoa": "/usr/local/bin/spoa", "strainscan": "/usr/local/bin/strainscan", "strainscan_build": "/usr/local/bin/strainscan_build", "twopaco": "/usr/local/bin/twopaco", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strainscan.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/strainscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strainscan:1.0.14--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/strainscan:1.0.14--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strainscan/1.0.14--pyhdfd78af_0
-$ module help quay.io/biocontainers/strainscan/1.0.14--pyhdfd78af_0
+$ module load quay.io/biocontainers/strainscan/1.0.14--pyhdfd78af_1
+$ module help quay.io/biocontainers/strainscan/1.0.14--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

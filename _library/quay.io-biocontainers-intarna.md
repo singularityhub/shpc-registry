@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/intarna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/intarna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/intarna/container.yaml"
-updated_at: "2024-02-03 03:00:12.840463"
-latest: "3.3.2--pl5321h21ec9f0_1"
+updated_at: "2024-02-04 03:06:51.785495"
+latest: "3.4.0--pl5321h21ec9f0_0"
 container_url: "https://biocontainers.pro/tools/intarna"
 aliases:
  - "CopomuS.py"
@@ -35,8 +35,9 @@ aliases:
 versions:
  - "3.3.2--pl5321h7ff8a90_0"
  - "3.3.2--pl5321h21ec9f0_1"
+ - "3.4.0--pl5321h21ec9f0_0"
 description: "shpc-registry automated BioContainers addition for intarna"
-config: {"url": "https://biocontainers.pro/tools/intarna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for intarna", "latest": {"3.3.2--pl5321h21ec9f0_1": "sha256:72e67827518817a5ed15cf77c2c541c9c25824dbb6dc7ce4564541b1ca024e2b"}, "tags": {"3.3.2--pl5321h7ff8a90_0": "sha256:eb5a581eca80ab15ad27e6abd2dc60d20425b563acc101ca5049951630094fc3", "3.3.2--pl5321h21ec9f0_1": "sha256:72e67827518817a5ed15cf77c2c541c9c25824dbb6dc7ce4564541b1ca024e2b"}, "docker": "quay.io/biocontainers/intarna", "aliases": {"CopomuS.py": "/usr/local/bin/CopomuS.py", "IntaRNA": "/usr/local/bin/IntaRNA", "IntaRNA1": "/usr/local/bin/IntaRNA1", "IntaRNA2": "/usr/local/bin/IntaRNA2", "IntaRNA3": "/usr/local/bin/IntaRNA3", "IntaRNA_CSV_p-value.R": "/usr/local/bin/IntaRNA_CSV_p-value.R", "IntaRNA_plotRegions.R": "/usr/local/bin/IntaRNA_plotRegions.R", "IntaRNAduplex": "/usr/local/bin/IntaRNAduplex", "IntaRNAens": "/usr/local/bin/IntaRNAens", "IntaRNAexact": "/usr/local/bin/IntaRNAexact", "IntaRNAhelix": "/usr/local/bin/IntaRNAhelix", "IntaRNAsTar": "/usr/local/bin/IntaRNAsTar", "IntaRNAseed": "/usr/local/bin/IntaRNAseed", "RNAmultifold": "/usr/local/bin/RNAmultifold", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
+config: {"url": "https://biocontainers.pro/tools/intarna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for intarna", "latest": {"3.4.0--pl5321h21ec9f0_0": "sha256:0f4ec4ced039013172ae1cc89a637195840a823d5e8b8d50e93e573758ea0103"}, "tags": {"3.3.2--pl5321h7ff8a90_0": "sha256:eb5a581eca80ab15ad27e6abd2dc60d20425b563acc101ca5049951630094fc3", "3.3.2--pl5321h21ec9f0_1": "sha256:72e67827518817a5ed15cf77c2c541c9c25824dbb6dc7ce4564541b1ca024e2b", "3.4.0--pl5321h21ec9f0_0": "sha256:0f4ec4ced039013172ae1cc89a637195840a823d5e8b8d50e93e573758ea0103"}, "docker": "quay.io/biocontainers/intarna", "aliases": {"CopomuS.py": "/usr/local/bin/CopomuS.py", "IntaRNA": "/usr/local/bin/IntaRNA", "IntaRNA1": "/usr/local/bin/IntaRNA1", "IntaRNA2": "/usr/local/bin/IntaRNA2", "IntaRNA3": "/usr/local/bin/IntaRNA3", "IntaRNA_CSV_p-value.R": "/usr/local/bin/IntaRNA_CSV_p-value.R", "IntaRNA_plotRegions.R": "/usr/local/bin/IntaRNA_plotRegions.R", "IntaRNAduplex": "/usr/local/bin/IntaRNAduplex", "IntaRNAens": "/usr/local/bin/IntaRNAens", "IntaRNAexact": "/usr/local/bin/IntaRNAexact", "IntaRNAhelix": "/usr/local/bin/IntaRNAhelix", "IntaRNAsTar": "/usr/local/bin/IntaRNAsTar", "IntaRNAseed": "/usr/local/bin/IntaRNAseed", "RNAmultifold": "/usr/local/bin/RNAmultifold", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/intarna.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/intarna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/intarna:3.3.2--pl5321h21ec9f0_1
+$ shpc install quay.io/biocontainers/intarna:3.4.0--pl5321h21ec9f0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/intarna/3.3.2--pl5321h21ec9f0_1
-$ module help quay.io/biocontainers/intarna/3.3.2--pl5321h21ec9f0_1
+$ module load quay.io/biocontainers/intarna/3.4.0--pl5321h21ec9f0_0
+$ module help quay.io/biocontainers/intarna/3.4.0--pl5321h21ec9f0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

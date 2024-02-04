@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-inspect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-inspect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-inspect/container.yaml"
-updated_at: "2024-02-03 02:46:17.323168"
+updated_at: "2024-02-04 02:52:56.347363"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-inspect"
 aliases:

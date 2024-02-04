@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/crispector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crispector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crispector/container.yaml"
-updated_at: "2024-02-03 02:32:37.507951"
-latest: "1.0.4--py_0"
+updated_at: "2024-02-04 02:39:20.915102"
+latest: "1.0.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crispector"
 aliases:
  - "crispector"
@@ -21,8 +21,9 @@ aliases:
  - "pyvenv-3.7"
 versions:
  - "1.0.4--py_0"
+ - "1.0.7--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for crispector"
-config: {"url": "https://biocontainers.pro/tools/crispector", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crispector", "latest": {"1.0.4--py_0": "sha256:df5adb03b0cafabc261ece2e33b2f0557e53f59c23f0b4b54f3cde4ec5320e5e"}, "tags": {"1.0.4--py_0": "sha256:df5adb03b0cafabc261ece2e33b2f0557e53f59c23f0b4b54f3cde4ec5320e5e"}, "docker": "quay.io/biocontainers/crispector", "aliases": {"crispector": "/usr/local/bin/crispector", "fastp": "/usr/local/bin/fastp", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/crispector", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crispector", "latest": {"1.0.7--pyhdfd78af_0": "sha256:b6e917dfdff295b8e6b519b8b6dc4df4ec29ad8a8b77fcf628b438a108263e36"}, "tags": {"1.0.4--py_0": "sha256:df5adb03b0cafabc261ece2e33b2f0557e53f59c23f0b4b54f3cde4ec5320e5e", "1.0.7--pyhdfd78af_0": "sha256:b6e917dfdff295b8e6b519b8b6dc4df4ec29ad8a8b77fcf628b438a108263e36"}, "docker": "quay.io/biocontainers/crispector", "aliases": {"crispector": "/usr/local/bin/crispector", "fastp": "/usr/local/bin/fastp", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crispector.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/crispector
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crispector:1.0.4--py_0
+$ shpc install quay.io/biocontainers/crispector:1.0.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crispector/1.0.4--py_0
-$ module help quay.io/biocontainers/crispector/1.0.4--py_0
+$ module load quay.io/biocontainers/crispector/1.0.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/crispector/1.0.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
