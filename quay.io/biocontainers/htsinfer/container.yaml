@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/htsinfer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for htsinfer
 latest:
-  0.9.0--pyhdfd78af_0: sha256:6148ab06a46990c7bf746ce7d1bb5d2e314da0a3fe5dd5221c1a028a60dd87ae
+  0.10.0--pyhdfd78af_0: sha256:17e728bbb8d66f06b233d2f2cd74be9882d3f8f368a3b618be990be01f40332c
 tags:
   0.9.0--pyhdfd78af_0: sha256:6148ab06a46990c7bf746ce7d1bb5d2e314da0a3fe5dd5221c1a028a60dd87ae
+  0.10.0--pyhdfd78af_0: sha256:17e728bbb8d66f06b233d2f2cd74be9882d3f8f368a3b618be990be01f40332c
 docker: quay.io/biocontainers/htsinfer
 aliases:
   STAR-avx: /usr/local/bin/STAR-avx
