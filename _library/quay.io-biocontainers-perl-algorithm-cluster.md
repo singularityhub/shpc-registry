@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-algorithm-cluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-algorithm-cluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-algorithm-cluster/container.yaml"
-updated_at: "2024-02-05 02:48:14.993928"
+updated_at: "2024-02-05 03:09:15.802713"
 latest: "1.59--pl5321h031d066_3"
 container_url: "https://biocontainers.pro/tools/perl-algorithm-cluster"
 aliases:

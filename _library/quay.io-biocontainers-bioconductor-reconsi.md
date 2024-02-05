@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-reconsi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reconsi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reconsi/container.yaml"
-updated_at: "2024-02-05 03:00:41.897284"
+updated_at: "2024-02-05 03:21:53.593293"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-reconsi"
 
