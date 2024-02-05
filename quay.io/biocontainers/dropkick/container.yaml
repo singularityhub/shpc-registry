@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/dropkick
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dropkick
+latest:
+  1.2.8--py39hdd8045a_0: sha256:1f52e2c8667bd29bd832f2e48628fe591d1013cb00d772f78e0c656fc28f9f38
+tags:
+  1.2.8--py39hdd8045a_0: sha256:1f52e2c8667bd29bd832f2e48628fe591d1013cb00d772f78e0c656fc28f9f38
+docker: quay.io/biocontainers/dropkick
+aliases:
+  SvtAv1DecApp: /usr/local/bin/SvtAv1DecApp
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  dav1d: /usr/local/bin/dav1d
+  dropkick: /usr/local/bin/dropkick
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  rav1e: /usr/local/bin/rav1e
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
+  tiffcomment: /usr/local/bin/tiffcomment
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  imageio_download_bin: /usr/local/bin/imageio_download_bin
+  imageio_remove_bin: /usr/local/bin/imageio_remove_bin
+  skivi: /usr/local/bin/skivi
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  scanpy: /usr/local/bin/scanpy
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
