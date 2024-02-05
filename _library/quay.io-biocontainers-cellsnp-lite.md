@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cellsnp-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cellsnp-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cellsnp-lite/container.yaml"
-updated_at: "2024-02-04 03:03:48.384169"
+updated_at: "2024-02-05 03:05:55.207982"
 latest: "1.2.3--h6141fd1_2"
 container_url: "https://biocontainers.pro/tools/cellsnp-lite"
 aliases:

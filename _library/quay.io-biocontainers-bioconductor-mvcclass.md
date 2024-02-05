@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mvcclass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mvcclass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mvcclass/container.yaml"
-updated_at: "2024-02-04 02:41:07.274233"
+updated_at: "2024-02-05 02:43:57.346054"
 latest: "1.76.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mvcclass"
 

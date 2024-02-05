@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/savana"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/savana/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/savana/container.yaml"
-updated_at: "2024-02-04 02:29:01.191196"
+updated_at: "2024-02-05 02:32:20.470968"
 latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/savana"
 aliases:

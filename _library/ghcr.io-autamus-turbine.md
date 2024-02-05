@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/turbine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/turbine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/turbine/container.yaml"
-updated_at: "2024-02-04 02:24:46.632949"
+updated_at: "2024-02-05 02:28:21.264148"
 latest: "1.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/turbine"
 aliases:

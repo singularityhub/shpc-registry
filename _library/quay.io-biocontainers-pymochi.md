@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pymochi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymochi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pymochi/container.yaml"
-updated_at: "2024-02-04 03:05:58.838351"
-latest: "0.9--pyhdfd78af_0"
+updated_at: "2024-02-05 03:07:57.853329"
+latest: "1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pymochi"
 aliases:
  - "demo_mochi.py"
@@ -38,8 +38,9 @@ aliases:
  - "brotli"
 versions:
  - "0.9--pyhdfd78af_0"
+ - "1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pymochi"
-config: {"url": "https://biocontainers.pro/tools/pymochi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pymochi", "latest": {"0.9--pyhdfd78af_0": "sha256:29ad535b3bbb54217fbef2a517aaa4a8707ceb9d629398acbf29cd11595eb2ab"}, "tags": {"0.9--pyhdfd78af_0": "sha256:29ad535b3bbb54217fbef2a517aaa4a8707ceb9d629398acbf29cd11595eb2ab"}, "docker": "quay.io/biocontainers/pymochi", "aliases": {"demo_mochi.py": "/usr/local/bin/demo_mochi.py", "protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "run_mochi.py": "/usr/local/bin/run_mochi.py", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "tjbench": "/usr/local/bin/tjbench", "protoc": "/usr/local/bin/protoc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli"}}
+config: {"url": "https://biocontainers.pro/tools/pymochi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pymochi", "latest": {"1.0--pyhdfd78af_0": "sha256:ca79eb16515f484ca6013bdef6101f3a22a0d8077b92b0a82d55d93b23acccba"}, "tags": {"0.9--pyhdfd78af_0": "sha256:29ad535b3bbb54217fbef2a517aaa4a8707ceb9d629398acbf29cd11595eb2ab", "1.0--pyhdfd78af_0": "sha256:ca79eb16515f484ca6013bdef6101f3a22a0d8077b92b0a82d55d93b23acccba"}, "docker": "quay.io/biocontainers/pymochi", "aliases": {"demo_mochi.py": "/usr/local/bin/demo_mochi.py", "protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "run_mochi.py": "/usr/local/bin/run_mochi.py", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "tjbench": "/usr/local/bin/tjbench", "protoc": "/usr/local/bin/protoc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pymochi.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/pymochi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pymochi:0.9--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pymochi:1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pymochi/0.9--pyhdfd78af_0
-$ module help quay.io/biocontainers/pymochi/0.9--pyhdfd78af_0
+$ module load quay.io/biocontainers/pymochi/1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/pymochi/1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

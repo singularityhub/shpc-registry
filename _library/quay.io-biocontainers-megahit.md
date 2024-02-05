@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/megahit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/megahit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/megahit/container.yaml"
-updated_at: "2024-02-04 02:49:52.414792"
+updated_at: "2024-02-05 02:52:29.298934"
 latest: "1.2.9--h43eeafb_4"
 container_url: "https://biocontainers.pro/tools/megahit"
 aliases:

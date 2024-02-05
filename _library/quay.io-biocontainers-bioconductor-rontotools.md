@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rontotools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rontotools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rontotools/container.yaml"
-updated_at: "2024-02-04 02:51:40.431736"
+updated_at: "2024-02-05 02:54:14.651740"
 latest: "2.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rontotools"
 

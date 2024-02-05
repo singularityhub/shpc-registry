@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peaks2utr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peaks2utr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peaks2utr/container.yaml"
-updated_at: "2024-02-04 02:31:31.261372"
+updated_at: "2024-02-05 02:34:42.087260"
 latest: "1.2.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/peaks2utr"
 aliases:

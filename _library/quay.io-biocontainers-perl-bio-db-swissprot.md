@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-db-swissprot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-db-swissprot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-db-swissprot/container.yaml"
-updated_at: "2024-02-04 02:44:23.450915"
+updated_at: "2024-02-05 02:47:07.780633"
 latest: "1.7.4--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-db-swissprot"
 aliases:
