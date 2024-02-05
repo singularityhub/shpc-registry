@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/rnanorm
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rnanorm
+latest:
+  2.1.0--pyhdfd78af_0: sha256:70b0661c5fe531d48cda08ac4fb7882236fb515b1ddf12474419b055841bc557
+tags:
+  2.1.0--pyhdfd78af_0: sha256:70b0661c5fe531d48cda08ac4fb7882236fb515b1ddf12474419b055841bc557
+docker: quay.io/biocontainers/rnanorm
+aliases:
+  rnanorm: /usr/local/bin/rnanorm
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

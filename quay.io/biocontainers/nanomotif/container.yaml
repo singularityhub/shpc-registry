@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/nanomotif
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nanomotif
+latest:
+  0.1.13--pyh7cba7a3_0: sha256:cb4477f5650058c118955846614f5d296a227e409741a8dfb70234bf5965f03b
+tags:
+  0.1.13--pyh7cba7a3_0: sha256:cb4477f5650058c118955846614f5d296a227e409741a8dfb70234bf5965f03b
+docker: quay.io/biocontainers/nanomotif
+aliases:
+  nanomotif: /usr/local/bin/nanomotif
+  f2py3.11: /usr/local/bin/f2py3.11
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

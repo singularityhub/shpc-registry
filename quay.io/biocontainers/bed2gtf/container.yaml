@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bed2gtf
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bed2gtf
+latest:
+  1.9.0--h4ac6f70_0: sha256:32ffd1516d1fc28bb763366e2f428c0708cfa6b26c117aa9d22170babfd92fbd
+tags:
+  1.9.0--h4ac6f70_0: sha256:32ffd1516d1fc28bb763366e2f428c0708cfa6b26c117aa9d22170babfd92fbd
+docker: quay.io/biocontainers/bed2gtf
+aliases:
+  bed2gtf: /usr/local/bin/bed2gtf

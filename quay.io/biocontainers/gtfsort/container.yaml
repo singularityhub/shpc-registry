@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/gtfsort
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gtfsort
+latest:
+  0.2.1--h4ac6f70_0: sha256:3d43af263d2bb3884c54eda72f1b8e96b8a746b72f1c78e34defe7341be2f5e0
+tags:
+  0.2.1--h4ac6f70_0: sha256:3d43af263d2bb3884c54eda72f1b8e96b8a746b72f1c78e34defe7341be2f5e0
+docker: quay.io/biocontainers/gtfsort
+aliases:
+  gtfsort: /usr/local/bin/gtfsort
