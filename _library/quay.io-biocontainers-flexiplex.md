@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flexiplex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flexiplex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flexiplex/container.yaml"
-updated_at: "2024-02-05 03:02:11.309864"
-latest: "0.97.1--py39h1f90b4d_1"
+updated_at: "2024-02-06 02:33:58.749271"
+latest: "1.01--py39h1f90b4d_0"
 container_url: "https://biocontainers.pro/tools/flexiplex"
 aliases:
  - "flexiplex"
@@ -33,8 +33,9 @@ aliases:
 versions:
  - "0.97.1--py39h1f90b4d_0"
  - "0.97.1--py39h1f90b4d_1"
+ - "1.01--py39h1f90b4d_0"
 description: "singularity registry hpc automated addition for flexiplex"
-config: {"url": "https://biocontainers.pro/tools/flexiplex", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flexiplex", "latest": {"0.97.1--py39h1f90b4d_1": "sha256:c21b2c47b8f168972906db84c9ccefcf2fa642ac0dd2ac40b00b585b24005d19"}, "tags": {"0.97.1--py39h1f90b4d_0": "sha256:11149299fdec797f30de904206aa7375719b3362dd066151f066d00539b31dc3", "0.97.1--py39h1f90b4d_1": "sha256:c21b2c47b8f168972906db84c9ccefcf2fa642ac0dd2ac40b00b585b24005d19"}, "docker": "quay.io/biocontainers/flexiplex", "aliases": {"flexiplex": "/usr/local/bin/flexiplex", "flexiplex-filter": "/usr/local/bin/flexiplex-filter", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/flexiplex", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flexiplex", "latest": {"1.01--py39h1f90b4d_0": "sha256:1ab0b77a4f4f55ba639cbb4cece74f6998f661d89734b56511798808ea56162a"}, "tags": {"0.97.1--py39h1f90b4d_0": "sha256:11149299fdec797f30de904206aa7375719b3362dd066151f066d00539b31dc3", "0.97.1--py39h1f90b4d_1": "sha256:c21b2c47b8f168972906db84c9ccefcf2fa642ac0dd2ac40b00b585b24005d19", "1.01--py39h1f90b4d_0": "sha256:1ab0b77a4f4f55ba639cbb4cece74f6998f661d89734b56511798808ea56162a"}, "docker": "quay.io/biocontainers/flexiplex", "aliases": {"flexiplex": "/usr/local/bin/flexiplex", "flexiplex-filter": "/usr/local/bin/flexiplex-filter", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flexiplex.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/flexiplex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flexiplex:0.97.1--py39h1f90b4d_1
+$ shpc install quay.io/biocontainers/flexiplex:1.01--py39h1f90b4d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flexiplex/0.97.1--py39h1f90b4d_1
-$ module help quay.io/biocontainers/flexiplex/0.97.1--py39h1f90b4d_1
+$ module load quay.io/biocontainers/flexiplex/1.01--py39h1f90b4d_0
+$ module help quay.io/biocontainers/flexiplex/1.01--py39h1f90b4d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

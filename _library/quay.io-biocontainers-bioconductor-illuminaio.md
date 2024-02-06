@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-illuminaio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-illuminaio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-illuminaio/container.yaml"
-updated_at: "2024-02-05 03:05:12.618287"
+updated_at: "2024-02-06 02:32:21.017679"
 latest: "0.44.0--r43ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-illuminaio"
 

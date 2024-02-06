@@ -4,7 +4,7 @@ name:  "vanessa/salad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/vanessa/salad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/vanessa/salad/container.yaml"
-updated_at: "2024-02-05 03:34:24.870334"
+updated_at: "2024-02-06 03:05:17.100417"
 latest: "latest"
 container_url: "https://hub.docker.com/r/vanessa/salad"
 aliases:

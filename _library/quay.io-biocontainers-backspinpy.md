@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/backspinpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/backspinpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/backspinpy/container.yaml"
-updated_at: "2024-02-05 02:54:05.330491"
+updated_at: "2024-02-06 02:39:58.946481"
 latest: "0.2.1--pyh24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/backspinpy"
 aliases:
