@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cadd-scripts
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cadd-scripts
 latest:
-  1.6--hdfd78af_1: sha256:74bbc85ed86e868598b2438dfad64aa902f6a5a6d6af73a380698a3136169b74
+  1.7--hdfd78af_0: sha256:3376f97e2cbab429b54d97cdea439b888439ae8f0778b20cda5c0990691fb38d
 tags:
   1.6--hdfd78af_1: sha256:74bbc85ed86e868598b2438dfad64aa902f6a5a6d6af73a380698a3136169b74
+  1.7--hdfd78af_0: sha256:3376f97e2cbab429b54d97cdea439b888439ae8f0778b20cda5c0990691fb38d
 docker: quay.io/biocontainers/cadd-scripts
 aliases:
   cadd-install.sh: /usr/local/bin/cadd-install.sh

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/metdatamodel
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metdatamodel
 latest:
-  0.5.5--pyhdfd78af_0: sha256:87ae862193344f59a6446a506e79f084638a939fb92d9f1eb32857cf313f9c38
+  0.6.0--pyhdfd78af_0: sha256:776bfb6a0d168efb0c8e01a9d79ece74ee882b665659b42ee0990425635aec47
 tags:
   0.4.14--pyhdfd78af_0: sha256:f4aafb1565010a8c2143cd2826005de9f334f01b3713803fcd4578e9efbb5dde
   0.5.5--pyhdfd78af_0: sha256:87ae862193344f59a6446a506e79f084638a939fb92d9f1eb32857cf313f9c38
+  0.6.0--pyhdfd78af_0: sha256:776bfb6a0d168efb0c8e01a9d79ece74ee882b665659b42ee0990425635aec47
 docker: quay.io/biocontainers/metdatamodel
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

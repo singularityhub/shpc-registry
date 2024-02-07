@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/dnoise
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dnoise
 latest:
-  1.4.0--pyhdfd78af_0: sha256:7114c4070f4f34f359ca19eabbed2b8ea95e369212d9fa7f4b736db4ce875dc6
+  1.4.1--pyhdfd78af_0: sha256:a446aebe5dc4b7e9ea5b30af7f43b34d6222cd54f925292b6eba23c22b5445c8
 tags:
   1.4.0--pyhdfd78af_0: sha256:7114c4070f4f34f359ca19eabbed2b8ea95e369212d9fa7f4b736db4ce875dc6
+  1.4.1--pyhdfd78af_0: sha256:a446aebe5dc4b7e9ea5b30af7f43b34d6222cd54f925292b6eba23c22b5445c8
 docker: quay.io/biocontainers/dnoise
 aliases:
   dnoise: /usr/local/bin/dnoise
