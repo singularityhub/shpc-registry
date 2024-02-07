@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mmseqs2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmseqs2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmseqs2/container.yaml"
-updated_at: "2024-02-06 02:44:08.729076"
+updated_at: "2024-02-07 02:23:40.037810"
 latest: "15.6f452--pl5321h6a68c12_0"
 container_url: "https://biocontainers.pro/tools/mmseqs2"
 aliases:

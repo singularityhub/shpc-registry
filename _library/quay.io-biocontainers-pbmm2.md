@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbmm2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbmm2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbmm2/container.yaml"
-updated_at: "2024-02-06 02:32:03.007287"
+updated_at: "2024-02-07 02:30:37.803766"
 latest: "1.13.1--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/pbmm2"
 aliases:

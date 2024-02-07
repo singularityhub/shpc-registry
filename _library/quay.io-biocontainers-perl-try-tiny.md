@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-try-tiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-try-tiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-try-tiny/container.yaml"
-updated_at: "2024-02-06 02:48:24.952178"
+updated_at: "2024-02-07 02:24:26.282275"
 latest: "0.31--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-try-tiny"
 
