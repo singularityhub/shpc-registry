@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/customtkinter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/customtkinter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/customtkinter/container.yaml"
-updated_at: "2024-02-07 02:53:48.221963"
-latest: "5.2.1--pyh7cba7a3_0"
+updated_at: "2024-02-08 02:23:28.510811"
+latest: "5.2.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/customtkinter"
 aliases:
  - "2to3-3.12"
@@ -16,8 +16,9 @@ aliases:
  - "python3.1"
 versions:
  - "5.2.1--pyh7cba7a3_0"
+ - "5.2.2--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for customtkinter"
-config: {"url": "https://biocontainers.pro/tools/customtkinter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for customtkinter", "latest": {"5.2.1--pyh7cba7a3_0": "sha256:631742761a744d16d32012797acbb6cad2557882a7f685b50501da2c9e8fb5f0"}, "tags": {"5.2.1--pyh7cba7a3_0": "sha256:631742761a744d16d32012797acbb6cad2557882a7f685b50501da2c9e8fb5f0"}, "docker": "quay.io/biocontainers/customtkinter", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/customtkinter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for customtkinter", "latest": {"5.2.2--pyh7cba7a3_0": "sha256:daadce4bb30f460a7f95c8d0d5694c8c375e8ef5ba77fc00f7eae416557b530d"}, "tags": {"5.2.1--pyh7cba7a3_0": "sha256:631742761a744d16d32012797acbb6cad2557882a7f685b50501da2c9e8fb5f0", "5.2.2--pyh7cba7a3_0": "sha256:daadce4bb30f460a7f95c8d0d5694c8c375e8ef5ba77fc00f7eae416557b530d"}, "docker": "quay.io/biocontainers/customtkinter", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/customtkinter.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/customtkinter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/customtkinter:5.2.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/customtkinter:5.2.2--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/customtkinter/5.2.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/customtkinter/5.2.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/customtkinter/5.2.2--pyh7cba7a3_0
+$ module help quay.io/biocontainers/customtkinter/5.2.2--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

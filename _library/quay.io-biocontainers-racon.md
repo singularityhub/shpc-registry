@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/racon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/racon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/racon/container.yaml"
-updated_at: "2024-02-07 02:30:31.486588"
+updated_at: "2024-02-08 03:02:40.931652"
 latest: "1.5.0--h21ec9f0_2"
 container_url: "https://biocontainers.pro/tools/racon"
 aliases:

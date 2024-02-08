@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/protmapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/protmapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/protmapper/container.yaml"
-updated_at: "2024-02-07 02:32:52.739310"
-latest: "0.0.28--pyhdfd78af_0"
+updated_at: "2024-02-08 02:53:40.842990"
+latest: "0.0.29--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/protmapper"
 aliases:
  - "protmapper"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "0.0.21--py_0"
  - "0.0.28--pyhdfd78af_0"
+ - "0.0.29--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for protmapper"
-config: {"url": "https://biocontainers.pro/tools/protmapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for protmapper", "latest": {"0.0.28--pyhdfd78af_0": "sha256:3430d8288b8459d732102b805aae29635e266f2fd72089812e5e4f022808218c"}, "tags": {"0.0.21--py_0": "sha256:6a6bb1a4b99341c16033df8ec711efab375d2a399de2ac2884c5e0caeb6de520", "0.0.28--pyhdfd78af_0": "sha256:3430d8288b8459d732102b805aae29635e266f2fd72089812e5e4f022808218c"}, "docker": "quay.io/biocontainers/protmapper", "aliases": {"protmapper": "/usr/local/bin/protmapper", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "jp.py": "/usr/local/bin/jp.py", "chardetect": "/usr/local/bin/chardetect", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9"}}
+config: {"url": "https://biocontainers.pro/tools/protmapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for protmapper", "latest": {"0.0.29--pyhdfd78af_0": "sha256:5e1077683fd5a680bc286bed356c2a4e4af18c77a81f4212de3ff897f7498062"}, "tags": {"0.0.21--py_0": "sha256:6a6bb1a4b99341c16033df8ec711efab375d2a399de2ac2884c5e0caeb6de520", "0.0.28--pyhdfd78af_0": "sha256:3430d8288b8459d732102b805aae29635e266f2fd72089812e5e4f022808218c", "0.0.29--pyhdfd78af_0": "sha256:5e1077683fd5a680bc286bed356c2a4e4af18c77a81f4212de3ff897f7498062"}, "docker": "quay.io/biocontainers/protmapper", "aliases": {"protmapper": "/usr/local/bin/protmapper", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "jp.py": "/usr/local/bin/jp.py", "chardetect": "/usr/local/bin/chardetect", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/protmapper.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/protmapper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/protmapper:0.0.28--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/protmapper:0.0.29--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/protmapper/0.0.28--pyhdfd78af_0
-$ module help quay.io/biocontainers/protmapper/0.0.28--pyhdfd78af_0
+$ module load quay.io/biocontainers/protmapper/0.0.29--pyhdfd78af_0
+$ module help quay.io/biocontainers/protmapper/0.0.29--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

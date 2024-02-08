@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metdatamodel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metdatamodel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metdatamodel/container.yaml"
-updated_at: "2024-02-07 02:22:13.612747"
-latest: "0.5.5--pyhdfd78af_0"
+updated_at: "2024-02-08 02:58:22.716014"
+latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metdatamodel"
 aliases:
  - "2to3-3.12"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.4.14--pyhdfd78af_0"
  - "0.5.5--pyhdfd78af_0"
+ - "0.6.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for metdatamodel"
-config: {"url": "https://biocontainers.pro/tools/metdatamodel", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metdatamodel", "latest": {"0.5.5--pyhdfd78af_0": "sha256:87ae862193344f59a6446a506e79f084638a939fb92d9f1eb32857cf313f9c38"}, "tags": {"0.4.14--pyhdfd78af_0": "sha256:f4aafb1565010a8c2143cd2826005de9f334f01b3713803fcd4578e9efbb5dde", "0.5.5--pyhdfd78af_0": "sha256:87ae862193344f59a6446a506e79f084638a939fb92d9f1eb32857cf313f9c38"}, "docker": "quay.io/biocontainers/metdatamodel", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/metdatamodel", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metdatamodel", "latest": {"0.6.0--pyhdfd78af_0": "sha256:776bfb6a0d168efb0c8e01a9d79ece74ee882b665659b42ee0990425635aec47"}, "tags": {"0.4.14--pyhdfd78af_0": "sha256:f4aafb1565010a8c2143cd2826005de9f334f01b3713803fcd4578e9efbb5dde", "0.5.5--pyhdfd78af_0": "sha256:87ae862193344f59a6446a506e79f084638a939fb92d9f1eb32857cf313f9c38", "0.6.0--pyhdfd78af_0": "sha256:776bfb6a0d168efb0c8e01a9d79ece74ee882b665659b42ee0990425635aec47"}, "docker": "quay.io/biocontainers/metdatamodel", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metdatamodel.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/metdatamodel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metdatamodel:0.5.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/metdatamodel:0.6.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metdatamodel/0.5.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/metdatamodel/0.5.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/metdatamodel/0.6.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/metdatamodel/0.6.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

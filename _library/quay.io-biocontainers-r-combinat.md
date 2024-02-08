@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-combinat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-combinat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-combinat/container.yaml"
-updated_at: "2024-02-07 02:35:30.683499"
+updated_at: "2024-02-08 02:59:54.562946"
 latest: "0.0_8--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-combinat"
 aliases:

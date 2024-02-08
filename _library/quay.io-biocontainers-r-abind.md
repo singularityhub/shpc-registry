@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-abind"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-abind/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-abind/container.yaml"
-updated_at: "2024-02-07 02:59:06.606301"
+updated_at: "2024-02-08 02:44:36.194729"
 latest: "1.4.3--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-abind"
 aliases:

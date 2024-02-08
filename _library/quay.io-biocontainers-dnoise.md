@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dnoise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnoise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnoise/container.yaml"
-updated_at: "2024-02-07 02:50:12.630168"
-latest: "1.4.0--pyhdfd78af_0"
+updated_at: "2024-02-08 02:48:48.994631"
+latest: "1.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dnoise"
 aliases:
  - "dnoise"
@@ -18,8 +18,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.4.0--pyhdfd78af_0"
+ - "1.4.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for dnoise"
-config: {"url": "https://biocontainers.pro/tools/dnoise", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dnoise", "latest": {"1.4.0--pyhdfd78af_0": "sha256:7114c4070f4f34f359ca19eabbed2b8ea95e369212d9fa7f4b736db4ce875dc6"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:7114c4070f4f34f359ca19eabbed2b8ea95e369212d9fa7f4b736db4ce875dc6"}, "docker": "quay.io/biocontainers/dnoise", "aliases": {"dnoise": "/usr/local/bin/dnoise", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tqdm": "/usr/local/bin/tqdm", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/dnoise", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dnoise", "latest": {"1.4.1--pyhdfd78af_0": "sha256:a446aebe5dc4b7e9ea5b30af7f43b34d6222cd54f925292b6eba23c22b5445c8"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:7114c4070f4f34f359ca19eabbed2b8ea95e369212d9fa7f4b736db4ce875dc6", "1.4.1--pyhdfd78af_0": "sha256:a446aebe5dc4b7e9ea5b30af7f43b34d6222cd54f925292b6eba23c22b5445c8"}, "docker": "quay.io/biocontainers/dnoise", "aliases": {"dnoise": "/usr/local/bin/dnoise", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tqdm": "/usr/local/bin/tqdm", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dnoise.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/dnoise
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dnoise:1.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/dnoise:1.4.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dnoise/1.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/dnoise/1.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/dnoise/1.4.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/dnoise/1.4.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
