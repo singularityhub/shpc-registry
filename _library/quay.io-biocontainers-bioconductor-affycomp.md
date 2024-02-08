@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-affycomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-affycomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-affycomp/container.yaml"
-updated_at: "2024-02-08 02:53:29.975115"
+updated_at: "2024-02-08 08:26:55.521334"
 latest: "1.78.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-affycomp"
 

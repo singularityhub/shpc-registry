@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowsorted.dlpfc.450k/container.yaml"
-updated_at: "2024-02-08 02:44:24.832085"
+updated_at: "2024-02-08 08:17:39.064937"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowsorted.dlpfc.450k"
 
