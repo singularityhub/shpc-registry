@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/evigene
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for evigene
 latest:
-  23.7.15--hdfd78af_0: sha256:08fa38709bd88ac41294a61f85bf9965bea4fe5e54412b89b52633bc3b846834
+  23.7.15--hdfd78af_1: sha256:383d8cda10e65e7311d01f776bfc8b0592b32897ef411e12cc6c2395a8890668
 tags:
   23.7.15--hdfd78af_0: sha256:08fa38709bd88ac41294a61f85bf9965bea4fe5e54412b89b52633bc3b846834
+  23.7.15--hdfd78af_1: sha256:383d8cda10e65e7311d01f776bfc8b0592b32897ef411e12cc6c2395a8890668
 docker: quay.io/biocontainers/evigene
 aliases:
   esd2esi: /usr/local/bin/esd2esi
