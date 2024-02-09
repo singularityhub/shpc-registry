@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biseq/container.yaml"
-updated_at: "2024-02-08 08:18:45.213117"
+updated_at: "2024-02-09 02:44:54.948538"
 latest: "1.42.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biseq"
 

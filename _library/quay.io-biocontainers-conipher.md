@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/conipher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/conipher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/conipher/container.yaml"
-updated_at: "2024-02-08 08:16:47.117192"
-latest: "2.1.0--r40hdfd78af_1"
+updated_at: "2024-02-09 02:43:03.181505"
+latest: "2.2.0--r40hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/conipher"
 aliases:
  - "git2"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "2.1.0--r41hdfd78af_0"
  - "2.1.0--r40hdfd78af_1"
+ - "2.2.0--r40hdfd78af_0"
 description: "singularity registry hpc automated addition for conipher"
-config: {"url": "https://biocontainers.pro/tools/conipher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for conipher", "latest": {"2.1.0--r40hdfd78af_1": "sha256:ddb1e092a4d7dc96c831300b0729cfe65eb70b88dbedec09b01baa06d2667085"}, "tags": {"2.1.0--r41hdfd78af_0": "sha256:081ec50c3920500dd7f4eba4d1fb836ba29231a3a8c7d8a270695274e11ca496", "2.1.0--r40hdfd78af_1": "sha256:ddb1e092a4d7dc96c831300b0729cfe65eb70b88dbedec09b01baa06d2667085"}, "docker": "quay.io/biocontainers/conipher", "aliases": {"git2": "/usr/local/bin/git2", "hb-info": "/usr/local/bin/hb-info", "f2py3.11": "/usr/local/bin/f2py3.11", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/conipher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for conipher", "latest": {"2.2.0--r40hdfd78af_0": "sha256:e8499330feefef97d9ed27153b3d42524399c39b74832a3cd861064b5af9304e"}, "tags": {"2.1.0--r41hdfd78af_0": "sha256:081ec50c3920500dd7f4eba4d1fb836ba29231a3a8c7d8a270695274e11ca496", "2.1.0--r40hdfd78af_1": "sha256:ddb1e092a4d7dc96c831300b0729cfe65eb70b88dbedec09b01baa06d2667085", "2.2.0--r40hdfd78af_0": "sha256:e8499330feefef97d9ed27153b3d42524399c39b74832a3cd861064b5af9304e"}, "docker": "quay.io/biocontainers/conipher", "aliases": {"git2": "/usr/local/bin/git2", "hb-info": "/usr/local/bin/hb-info", "f2py3.11": "/usr/local/bin/f2py3.11", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/conipher.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/conipher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/conipher:2.1.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/conipher:2.2.0--r40hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/conipher/2.1.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/conipher/2.1.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/conipher/2.2.0--r40hdfd78af_0
+$ module help quay.io/biocontainers/conipher/2.2.0--r40hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

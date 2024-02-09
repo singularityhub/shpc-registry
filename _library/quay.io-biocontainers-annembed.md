@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/annembed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annembed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annembed/container.yaml"
-updated_at: "2024-02-08 08:33:49.539045"
+updated_at: "2024-02-09 02:59:28.167709"
 latest: "0.1.2--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/annembed"
 aliases:
