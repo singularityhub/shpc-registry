@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/hmftools-bam-tools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hmftools-bam-tools
+latest:
+  1.2--hdfd78af_0: sha256:67db5eb1951e9600321855476c0d3d60b4c6db1f7929b722068dec63657e0c76
+tags:
+  1.2--hdfd78af_0: sha256:67db5eb1951e9600321855476c0d3d60b4c6db1f7929b722068dec63657e0c76
+docker: quay.io/biocontainers/hmftools-bam-tools
+aliases:
+  jwebserver: /usr/local/bin/jwebserver
+  bamtools: /usr/local/bin/bamtools
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
