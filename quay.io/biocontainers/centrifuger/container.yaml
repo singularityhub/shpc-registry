@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/centrifuger
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for centrifuger
 latest:
-  1.0.0--hdcf5f25_0: sha256:127aff480ab97feb9b884907e158a8ebe6bb720e56aa1964ff45d4024166aeaf
+  1.0.1--hdcf5f25_0: sha256:2df1788e95f6b6283ee918a296fdf8c369241327be6a66c4243f9ca11065f9ec
 tags:
   1.0.0--hdcf5f25_0: sha256:127aff480ab97feb9b884907e158a8ebe6bb720e56aa1964ff45d4024166aeaf
+  1.0.1--hdcf5f25_0: sha256:2df1788e95f6b6283ee918a296fdf8c369241327be6a66c4243f9ca11065f9ec
 docker: quay.io/biocontainers/centrifuger
 aliases:
   centrifuger: /usr/local/bin/centrifuger

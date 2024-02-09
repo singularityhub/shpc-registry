@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/abromics_galaxy_json_extractor
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for abromics_galaxy_json_extractor
 latest:
-  0.8.3--pyh7cba7a3_0: sha256:32c91ad6a9dacb3d62cee7c1adf520dbdd2ef9379a28865a080162366e5759a6
+  0.8.3.4--pyh7cba7a3_0: sha256:a1239e52a41bbcb45740d9547f501ecac1d54066199e3c44c102a083e3c583ae
 tags:
   0.1--pyh7cba7a3_0: sha256:82c5f0cb8e22a33725b0682074bb2ac4f0a04a96786fa101b7162702fac0663e
   0.1--pyh7cba7a3_1: sha256:d747407f794e9bbb9142ee8ff326dc9c285d0edeb891def6915c719fd61c9f97
@@ -13,6 +13,7 @@ tags:
   0.7--pyh7cba7a3_0: sha256:97dfbf3a64569e8e0eda2de301606b7073fdfac9dfa40cbf9250964c42731a6b
   0.8.1--pyh7cba7a3_0: sha256:321449de92785bb8b1e619cdbda6b8cb1cce1c80b2de531f33c6e3dd829fa1ec
   0.8.3--pyh7cba7a3_0: sha256:32c91ad6a9dacb3d62cee7c1adf520dbdd2ef9379a28865a080162366e5759a6
+  0.8.3.4--pyh7cba7a3_0: sha256:a1239e52a41bbcb45740d9547f501ecac1d54066199e3c44c102a083e3c583ae
 docker: quay.io/biocontainers/abromics_galaxy_json_extractor
 aliases:
   abromics_extract: /usr/local/bin/abromics_extract
