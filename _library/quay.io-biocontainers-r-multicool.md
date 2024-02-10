@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-multicool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-multicool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-multicool/container.yaml"
-updated_at: "2024-02-09 03:20:00.841074"
+updated_at: "2024-02-10 02:19:49.375263"
 latest: "0.1_10--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-multicool"
 aliases:

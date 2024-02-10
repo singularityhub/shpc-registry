@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ompbam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ompbam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ompbam/container.yaml"
-updated_at: "2024-02-09 03:43:11.287989"
+updated_at: "2024-02-10 02:43:10.747782"
 latest: "1.6.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ompbam"
 

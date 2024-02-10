@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/centrifuger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/centrifuger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/centrifuger/container.yaml"
-updated_at: "2024-02-09 03:59:32.391748"
-latest: "1.0.0--hdcf5f25_0"
+updated_at: "2024-02-10 02:59:41.468976"
+latest: "1.0.1--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/centrifuger"
 aliases:
  - "centrifuger"
@@ -23,8 +23,9 @@ aliases:
  - "wget"
 versions:
  - "1.0.0--hdcf5f25_0"
+ - "1.0.1--hdcf5f25_0"
 description: "singularity registry hpc automated addition for centrifuger"
-config: {"url": "https://biocontainers.pro/tools/centrifuger", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for centrifuger", "latest": {"1.0.0--hdcf5f25_0": "sha256:127aff480ab97feb9b884907e158a8ebe6bb720e56aa1964ff45d4024166aeaf"}, "tags": {"1.0.0--hdcf5f25_0": "sha256:127aff480ab97feb9b884907e158a8ebe6bb720e56aa1964ff45d4024166aeaf"}, "docker": "quay.io/biocontainers/centrifuger", "aliases": {"centrifuger": "/usr/local/bin/centrifuger", "centrifuger-build": "/usr/local/bin/centrifuger-build", "centrifuger-download": "/usr/local/bin/centrifuger-download", "centrifuger-inspect": "/usr/local/bin/centrifuger-inspect", "centrifuger-kreport": "/usr/local/bin/centrifuger-kreport", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tar": "/usr/local/bin/tar", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/centrifuger", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for centrifuger", "latest": {"1.0.1--hdcf5f25_0": "sha256:2df1788e95f6b6283ee918a296fdf8c369241327be6a66c4243f9ca11065f9ec"}, "tags": {"1.0.0--hdcf5f25_0": "sha256:127aff480ab97feb9b884907e158a8ebe6bb720e56aa1964ff45d4024166aeaf", "1.0.1--hdcf5f25_0": "sha256:2df1788e95f6b6283ee918a296fdf8c369241327be6a66c4243f9ca11065f9ec"}, "docker": "quay.io/biocontainers/centrifuger", "aliases": {"centrifuger": "/usr/local/bin/centrifuger", "centrifuger-build": "/usr/local/bin/centrifuger-build", "centrifuger-download": "/usr/local/bin/centrifuger-download", "centrifuger-inspect": "/usr/local/bin/centrifuger-inspect", "centrifuger-kreport": "/usr/local/bin/centrifuger-kreport", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tar": "/usr/local/bin/tar", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/centrifuger.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/centrifuger
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/centrifuger:1.0.0--hdcf5f25_0
+$ shpc install quay.io/biocontainers/centrifuger:1.0.1--hdcf5f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/centrifuger/1.0.0--hdcf5f25_0
-$ module help quay.io/biocontainers/centrifuger/1.0.0--hdcf5f25_0
+$ module load quay.io/biocontainers/centrifuger/1.0.1--hdcf5f25_0
+$ module help quay.io/biocontainers/centrifuger/1.0.1--hdcf5f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

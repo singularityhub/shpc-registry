@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-class-xsaccessor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-xsaccessor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-xsaccessor/container.yaml"
-updated_at: "2024-02-09 03:42:05.662281"
+updated_at: "2024-02-10 02:42:04.683812"
 latest: "1.19--pl5321h031d066_6"
 container_url: "https://biocontainers.pro/tools/perl-class-xsaccessor"
 aliases:

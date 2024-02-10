@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-arrayquality"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-arrayquality/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-arrayquality/container.yaml"
-updated_at: "2024-02-09 03:38:42.502880"
+updated_at: "2024-02-10 02:38:40.256481"
 latest: "1.80.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-arrayquality"
 

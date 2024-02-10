@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/abromics_galaxy_json_extractor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abromics_galaxy_json_extractor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abromics_galaxy_json_extractor/container.yaml"
-updated_at: "2024-02-09 03:48:26.929529"
-latest: "0.8.3--pyh7cba7a3_0"
+updated_at: "2024-02-10 02:48:29.132197"
+latest: "0.8.3.4--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/abromics_galaxy_json_extractor"
 aliases:
  - "abromics_extract"
@@ -26,8 +26,9 @@ versions:
  - "0.7--pyh7cba7a3_0"
  - "0.8.1--pyh7cba7a3_0"
  - "0.8.3--pyh7cba7a3_0"
+ - "0.8.3.4--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for abromics_galaxy_json_extractor"
-config: {"url": "https://biocontainers.pro/tools/abromics_galaxy_json_extractor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for abromics_galaxy_json_extractor", "latest": {"0.8.3--pyh7cba7a3_0": "sha256:32c91ad6a9dacb3d62cee7c1adf520dbdd2ef9379a28865a080162366e5759a6"}, "tags": {"0.1--pyh7cba7a3_0": "sha256:82c5f0cb8e22a33725b0682074bb2ac4f0a04a96786fa101b7162702fac0663e", "0.1--pyh7cba7a3_1": "sha256:d747407f794e9bbb9142ee8ff326dc9c285d0edeb891def6915c719fd61c9f97", "0.4--pyh7cba7a3_0": "sha256:d734adf08305cfd8c254691f306b66686df6d40d4bf98cd2f88cbfe482d128ec", "0.2--pyh7cba7a3_0": "sha256:f0c97301c6eaba5445d69ed4816072ebc4bbd4152ce864d5200e1c8bfeee4448", "0.6--pyh7cba7a3_0": "sha256:87f40329983f8e9d527eb834173dc8522b7bef60341c81f701e4f3191a17e135", "0.5--pyh7cba7a3_0": "sha256:60c5d58bf8d2b42b5a2f1628f9eec7a9f548d1fd897fe2c81fffb5cee3fcb5ed", "0.7--pyh7cba7a3_0": "sha256:97dfbf3a64569e8e0eda2de301606b7073fdfac9dfa40cbf9250964c42731a6b", "0.8.1--pyh7cba7a3_0": "sha256:321449de92785bb8b1e619cdbda6b8cb1cce1c80b2de531f33c6e3dd829fa1ec", "0.8.3--pyh7cba7a3_0": "sha256:32c91ad6a9dacb3d62cee7c1adf520dbdd2ef9379a28865a080162366e5759a6"}, "docker": "quay.io/biocontainers/abromics_galaxy_json_extractor", "aliases": {"abromics_extract": "/usr/local/bin/abromics_extract", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/abromics_galaxy_json_extractor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for abromics_galaxy_json_extractor", "latest": {"0.8.3.4--pyh7cba7a3_0": "sha256:a1239e52a41bbcb45740d9547f501ecac1d54066199e3c44c102a083e3c583ae"}, "tags": {"0.1--pyh7cba7a3_0": "sha256:82c5f0cb8e22a33725b0682074bb2ac4f0a04a96786fa101b7162702fac0663e", "0.1--pyh7cba7a3_1": "sha256:d747407f794e9bbb9142ee8ff326dc9c285d0edeb891def6915c719fd61c9f97", "0.4--pyh7cba7a3_0": "sha256:d734adf08305cfd8c254691f306b66686df6d40d4bf98cd2f88cbfe482d128ec", "0.2--pyh7cba7a3_0": "sha256:f0c97301c6eaba5445d69ed4816072ebc4bbd4152ce864d5200e1c8bfeee4448", "0.6--pyh7cba7a3_0": "sha256:87f40329983f8e9d527eb834173dc8522b7bef60341c81f701e4f3191a17e135", "0.5--pyh7cba7a3_0": "sha256:60c5d58bf8d2b42b5a2f1628f9eec7a9f548d1fd897fe2c81fffb5cee3fcb5ed", "0.7--pyh7cba7a3_0": "sha256:97dfbf3a64569e8e0eda2de301606b7073fdfac9dfa40cbf9250964c42731a6b", "0.8.1--pyh7cba7a3_0": "sha256:321449de92785bb8b1e619cdbda6b8cb1cce1c80b2de531f33c6e3dd829fa1ec", "0.8.3--pyh7cba7a3_0": "sha256:32c91ad6a9dacb3d62cee7c1adf520dbdd2ef9379a28865a080162366e5759a6", "0.8.3.4--pyh7cba7a3_0": "sha256:a1239e52a41bbcb45740d9547f501ecac1d54066199e3c44c102a083e3c583ae"}, "docker": "quay.io/biocontainers/abromics_galaxy_json_extractor", "aliases": {"abromics_extract": "/usr/local/bin/abromics_extract", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abromics_galaxy_json_extractor.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/abromics_galaxy_json_extractor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/abromics_galaxy_json_extractor:0.8.3--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/abromics_galaxy_json_extractor:0.8.3.4--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/abromics_galaxy_json_extractor/0.8.3--pyh7cba7a3_0
-$ module help quay.io/biocontainers/abromics_galaxy_json_extractor/0.8.3--pyh7cba7a3_0
+$ module load quay.io/biocontainers/abromics_galaxy_json_extractor/0.8.3.4--pyh7cba7a3_0
+$ module help quay.io/biocontainers/abromics_galaxy_json_extractor/0.8.3.4--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

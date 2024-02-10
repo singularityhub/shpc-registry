@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dir.expiry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dir.expiry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dir.expiry/container.yaml"
-updated_at: "2024-02-09 03:39:34.514422"
+updated_at: "2024-02-10 02:39:32.591884"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dir.expiry"
 
