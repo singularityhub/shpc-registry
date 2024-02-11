@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-tee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-tee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-tee/container.yaml"
-updated_at: "2024-02-10 02:32:46.444875"
+updated_at: "2024-02-11 02:37:25.362743"
 latest: "0.07--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-file-tee"
 aliases:

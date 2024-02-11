@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tntblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tntblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tntblast/container.yaml"
-updated_at: "2024-02-10 02:55:02.906256"
+updated_at: "2024-02-11 02:59:34.083035"
 latest: "2.61--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/tntblast"
 aliases:

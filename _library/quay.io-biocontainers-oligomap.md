@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oligomap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oligomap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oligomap/container.yaml"
-updated_at: "2024-02-10 02:48:22.701214"
+updated_at: "2024-02-11 02:52:56.337808"
 latest: "1.0.1--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/oligomap"
 aliases:

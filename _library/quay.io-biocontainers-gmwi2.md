@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gmwi2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gmwi2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gmwi2/container.yaml"
-updated_at: "2024-02-10 02:50:06.913369"
+updated_at: "2024-02-11 02:54:40.050946"
 latest: "1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gmwi2"
 aliases:
