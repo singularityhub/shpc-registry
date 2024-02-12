@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/gffpandas
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gffpandas
+latest:
+  1.2.2--pyhdfd78af_0: sha256:e637b5887a1234c530879dcb51f07adf5c4139d1ef14fc69c1f52fcf17f4c2ba
+tags:
+  1.2.2--pyhdfd78af_0: sha256:e637b5887a1234c530879dcb51f07adf5c4139d1ef14fc69c1f52fcf17f4c2ba
+docker: quay.io/biocontainers/gffpandas
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

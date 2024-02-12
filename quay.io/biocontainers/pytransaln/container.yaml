@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/pytransaln
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pytransaln
+latest:
+  0.2.1--pyh7cba7a3_0: sha256:c76c2df3d603abf76a56387c4e5d3899737e03fc23a944bf836f7a4a82c6730b
+tags:
+  0.2.1--pyh7cba7a3_0: sha256:c76c2df3d603abf76a56387c4e5d3899737e03fc23a944bf836f7a4a82c6730b
+docker: quay.io/biocontainers/pytransaln
+aliases:
+  pytransaln: /usr/local/bin/pytransaln
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

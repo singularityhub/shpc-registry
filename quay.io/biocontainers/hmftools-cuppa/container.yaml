@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/hmftools-cuppa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hmftools-cuppa
+latest:
+  1.8.1--hdfd78af_0: sha256:9f3fa03556c9999c6470ac71cc25b721eb069bf9445bc1c5cd8fa099058ea4ae
+tags:
+  1.8.1--hdfd78af_0: sha256:9f3fa03556c9999c6470ac71cc25b721eb069bf9445bc1c5cd8fa099058ea4ae
+docker: quay.io/biocontainers/hmftools-cuppa
+aliases:
+  cuppa: /usr/local/bin/cuppa
+  cuppa-chart: /usr/local/bin/cuppa-chart
+  jwebserver: /usr/local/bin/jwebserver
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  hb-info: /usr/local/bin/hb-info
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  jfr: /usr/local/bin/jfr
+  brotli: /usr/local/bin/brotli
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell

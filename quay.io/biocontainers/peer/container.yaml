@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/peer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for peer
+latest:
+  1.3--hdbdd923_0: sha256:607e2cf162f874b50469508c1b6b5fc4aba154cb309b47765fd59e61648cb4a8
+tags:
+  1.3--hdbdd923_0: sha256:607e2cf162f874b50469508c1b6b5fc4aba154cb309b47765fd59e61648cb4a8
+docker: quay.io/biocontainers/peer
+aliases:
+  peertool: /usr/local/bin/peertool
