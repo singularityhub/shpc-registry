@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/ccsmeth
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ccsmeth
 latest:
-  0.4.1--pyhdfd78af_0: sha256:d88bb1a93a8671b66aba337e93c78f4d82cec7271578e86bb979d0fc724a1c2e
+  0.5.0--pyhdfd78af_0: sha256:5eaf9da605ab31102658ca754e698fdce4d669a2851b0c82e793225c7a0bf83a
 tags:
   0.3.2--pyhdfd78af_0: sha256:cb9b70e5db3cb7cc43083f2a1e9768b802cb37c00a6b18b4cec1f75314faf08f
   0.4.0--pyhdfd78af_0: sha256:14399b5658ccf5df18bd035fe62f3298c32415fad9d6d3d1842c56d615a62fb7
   0.3.4--pyhdfd78af_0: sha256:176cdf19fe702869d868633b70e247eaa8a9cad653b858c27349b094dcd3db82
   0.4.1--pyhdfd78af_0: sha256:d88bb1a93a8671b66aba337e93c78f4d82cec7271578e86bb979d0fc724a1c2e
+  0.5.0--pyhdfd78af_0: sha256:5eaf9da605ab31102658ca754e698fdce4d669a2851b0c82e793225c7a0bf83a
 docker: quay.io/biocontainers/ccsmeth
 aliases:
   ccs: /usr/local/bin/ccs

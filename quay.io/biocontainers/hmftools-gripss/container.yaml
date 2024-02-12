@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/hmftools-gripss
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hmftools-gripss
 latest:
-  2.3.5--hdfd78af_0: sha256:0eb87fd225b375f7a67f14e712ab4d702ee596ddb9ee244b80f4cf1df98b00eb
+  2.4--hdfd78af_0: sha256:62e5581d99a855a09b30da39328d7e5e35f9c753c21eb1b654d191eb6b66dc39
 tags:
   2.2--hdfd78af_0: sha256:fe16bb19af8b567a95e3f5f06f0c86fa255fb80a3d0dd7268b75c1bea19e4d01
   2.3.2--hdfd78af_0: sha256:4ac910852ddfa8156270b11826a533307024d261295243486a905dcd3fc257d6
   2.3.5--hdfd78af_0: sha256:0eb87fd225b375f7a67f14e712ab4d702ee596ddb9ee244b80f4cf1df98b00eb
+  2.4--hdfd78af_0: sha256:62e5581d99a855a09b30da39328d7e5e35f9c753c21eb1b654d191eb6b66dc39
 docker: quay.io/biocontainers/hmftools-gripss
 aliases:
   gripss: /usr/local/bin/gripss
