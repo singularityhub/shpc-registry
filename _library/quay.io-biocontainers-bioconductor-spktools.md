@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spktools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spktools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spktools/container.yaml"
-updated_at: "2024-02-12 02:51:40.956816"
+updated_at: "2024-02-12 03:26:21.386886"
 latest: "1.58.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spktools"
 
