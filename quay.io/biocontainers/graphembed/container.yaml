@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/graphembed
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for graphembed
+latest:
+  0.1.0--hdbdd923_0: sha256:1c8c0ae1c70cdf15dc6dacfcb795f11960657073ddfa4960fd5a93e8d3dcc0a4
+tags:
+  0.1.0--hdbdd923_0: sha256:1c8c0ae1c70cdf15dc6dacfcb795f11960657073ddfa4960fd5a93e8d3dcc0a4
+docker: quay.io/biocontainers/graphembed
+aliases:
+  graphembed: /usr/local/bin/graphembed

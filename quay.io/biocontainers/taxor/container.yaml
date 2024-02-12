@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/taxor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for taxor
+latest:
+  0.1.1--hc155240_0: sha256:6eb2f6c2a9607ac9f50466bc52c21e54c2d1c884d5920a32554a196f45dfe1fe
+tags:
+  0.1.1--hc155240_0: sha256:6eb2f6c2a9607ac9f50466bc52c21e54c2d1c884d5920a32554a196f45dfe1fe
+docker: quay.io/biocontainers/taxor
+aliases:
+  cmp: /usr/local/bin/cmp
+  diff: /usr/local/bin/diff
+  diff3: /usr/local/bin/diff3
+  sdiff: /usr/local/bin/sdiff
+  taxor: /usr/local/bin/taxor
+  egrep: /usr/local/bin/egrep
+  fgrep: /usr/local/bin/fgrep
+  grep: /usr/local/bin/grep
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  ls: /usr/local/bin/ls
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  cp: /usr/local/bin/cp
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date
+  dd: /usr/local/bin/dd
+  df: /usr/local/bin/df
+  dir: /usr/local/bin/dir
+  dircolors: /usr/local/bin/dircolors

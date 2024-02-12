@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/multirnafold
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for multirnafold
+latest:
+  2.1--h4ac6f70_0: sha256:76a0ed85af24bd7ff56d7022de81435d92ddc626e4ffd385fa9123e7dffbd4da
+tags:
+  2.1--h4ac6f70_0: sha256:76a0ed85af24bd7ff56d7022de81435d92ddc626e4ffd385fa9123e7dffbd4da
+docker: quay.io/biocontainers/multirnafold
+aliases:
+  feature_description: /usr/local/bin/feature_description
+  multifold: /usr/local/bin/multifold
+  pairfold: /usr/local/bin/pairfold
+  pairfold-web: /usr/local/bin/pairfold-web
+  simfold: /usr/local/bin/simfold
+  simfold_pf: /usr/local/bin/simfold_pf
