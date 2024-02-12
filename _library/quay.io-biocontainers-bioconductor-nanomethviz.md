@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nanomethviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nanomethviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nanomethviz/container.yaml"
-updated_at: "2024-02-11 02:34:28.395874"
+updated_at: "2024-02-12 02:33:06.368438"
 latest: "2.8.1--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nanomethviz"
 

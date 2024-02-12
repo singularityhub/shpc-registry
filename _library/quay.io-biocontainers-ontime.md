@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ontime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ontime/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ontime/container.yaml"
-updated_at: "2024-02-11 02:45:49.446771"
-latest: "0.2.3--h031d066_0"
+updated_at: "2024-02-12 02:44:53.457136"
+latest: "0.3.0--h031d066_0"
 container_url: "https://biocontainers.pro/tools/ontime"
 aliases:
  - "ontime"
@@ -13,8 +13,9 @@ versions:
  - "0.1.3--hec16e2b_0"
  - "0.1.3--h031d066_2"
  - "0.2.3--h031d066_0"
+ - "0.3.0--h031d066_0"
 description: "singularity registry hpc automated addition for ontime"
-config: {"url": "https://biocontainers.pro/tools/ontime", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ontime", "latest": {"0.2.3--h031d066_0": "sha256:7b53043a8251dff485e576d6fbd8718769c79225c6b5960f8cac7e59350543a2"}, "tags": {"0.1.3--hec16e2b_0": "sha256:7b24635eae78943080e36ac55dd3966b72cb8ba4f3183be7139def4e5119ca69", "0.1.3--h031d066_2": "sha256:cb9d2cdeb2b39ed5870ef511fc68d4c526753aaa5a46da9799ac2dcc6dc45d81", "0.2.3--h031d066_0": "sha256:7b53043a8251dff485e576d6fbd8718769c79225c6b5960f8cac7e59350543a2"}, "docker": "quay.io/biocontainers/ontime", "aliases": {"ontime": "/usr/local/bin/ontime"}}
+config: {"url": "https://biocontainers.pro/tools/ontime", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ontime", "latest": {"0.3.0--h031d066_0": "sha256:61a62bcf14cc3e9597ff539ac9f36f08325c94362ffaf0a4678933eb25970942"}, "tags": {"0.1.3--hec16e2b_0": "sha256:7b24635eae78943080e36ac55dd3966b72cb8ba4f3183be7139def4e5119ca69", "0.1.3--h031d066_2": "sha256:cb9d2cdeb2b39ed5870ef511fc68d4c526753aaa5a46da9799ac2dcc6dc45d81", "0.2.3--h031d066_0": "sha256:7b53043a8251dff485e576d6fbd8718769c79225c6b5960f8cac7e59350543a2", "0.3.0--h031d066_0": "sha256:61a62bcf14cc3e9597ff539ac9f36f08325c94362ffaf0a4678933eb25970942"}, "docker": "quay.io/biocontainers/ontime", "aliases": {"ontime": "/usr/local/bin/ontime"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ontime.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/ontime
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ontime:0.2.3--h031d066_0
+$ shpc install quay.io/biocontainers/ontime:0.3.0--h031d066_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ontime/0.2.3--h031d066_0
-$ module help quay.io/biocontainers/ontime/0.2.3--h031d066_0
+$ module load quay.io/biocontainers/ontime/0.3.0--h031d066_0
+$ module help quay.io/biocontainers/ontime/0.3.0--h031d066_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/monsda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/monsda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/monsda/container.yaml"
-updated_at: "2024-02-11 03:04:58.068104"
-latest: "1.2.2--pyhdfd78af_0"
+updated_at: "2024-02-12 03:04:14.797852"
+latest: "1.2.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/monsda"
 aliases:
  - "bsdcat"
@@ -54,8 +54,9 @@ versions:
  - "1.1.0--pyhdfd78af_1"
  - "1.1.1--pyhdfd78af_0"
  - "1.2.2--pyhdfd78af_0"
+ - "1.2.2--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for monsda"
-config: {"url": "https://biocontainers.pro/tools/monsda", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for monsda", "latest": {"1.2.2--pyhdfd78af_0": "sha256:970e593fa0046a13ff02737096fc5e894b6e15228ab20905da5ed9ec7631b380"}, "tags": {"1.0.0--pypyhdfd78af_0": "sha256:2d39c68cf0269585307464336066ac1723aa04dca4b45c64d8668f69929f256c", "1.1.0--pyhdfd78af_1": "sha256:f86a82b48980e438d637a36a285d70c7097be8fdb02bb102a5e6768e6061f3b0", "1.1.1--pyhdfd78af_0": "sha256:65182d8bb897dcf53c308f121155c97aa2a9b0ff3c1bd661a8702dfe3977e68e", "1.2.2--pyhdfd78af_0": "sha256:970e593fa0046a13ff02737096fc5e894b6e15228ab20905da5ed9ec7631b380"}, "docker": "quay.io/biocontainers/monsda", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "monsda": "/usr/local/bin/monsda", "monsda_configure": "/usr/local/bin/monsda_configure", "nextflow": "/usr/local/bin/nextflow", "nextflow.bak": "/usr/local/bin/nextflow.bak", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "versioneer": "/usr/local/bin/versioneer", "stone": "/usr/local/bin/stone", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum"}}
+config: {"url": "https://biocontainers.pro/tools/monsda", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for monsda", "latest": {"1.2.2--pyhdfd78af_1": "sha256:e0fcfcec101975fed3fdf2b9bbec85bc3d2e2fa37d0bdee8cc26c11d6ab7fbb6"}, "tags": {"1.0.0--pypyhdfd78af_0": "sha256:2d39c68cf0269585307464336066ac1723aa04dca4b45c64d8668f69929f256c", "1.1.0--pyhdfd78af_1": "sha256:f86a82b48980e438d637a36a285d70c7097be8fdb02bb102a5e6768e6061f3b0", "1.1.1--pyhdfd78af_0": "sha256:65182d8bb897dcf53c308f121155c97aa2a9b0ff3c1bd661a8702dfe3977e68e", "1.2.2--pyhdfd78af_0": "sha256:970e593fa0046a13ff02737096fc5e894b6e15228ab20905da5ed9ec7631b380", "1.2.2--pyhdfd78af_1": "sha256:e0fcfcec101975fed3fdf2b9bbec85bc3d2e2fa37d0bdee8cc26c11d6ab7fbb6"}, "docker": "quay.io/biocontainers/monsda", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "monsda": "/usr/local/bin/monsda", "monsda_configure": "/usr/local/bin/monsda_configure", "nextflow": "/usr/local/bin/nextflow", "nextflow.bak": "/usr/local/bin/nextflow.bak", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "versioneer": "/usr/local/bin/versioneer", "stone": "/usr/local/bin/stone", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/monsda.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/monsda
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/monsda:1.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/monsda:1.2.2--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/monsda/1.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/monsda/1.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/monsda/1.2.2--pyhdfd78af_1
+$ module help quay.io/biocontainers/monsda/1.2.2--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

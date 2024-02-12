@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-copy-recursive-reduced"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-copy-recursive-reduced/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-copy-recursive-reduced/container.yaml"
-updated_at: "2024-02-11 03:00:10.524062"
+updated_at: "2024-02-12 02:59:23.773336"
 latest: "0.006--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-file-copy-recursive-reduced"
 aliases:

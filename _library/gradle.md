@@ -4,7 +4,7 @@ name:  "gradle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/gradle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/gradle/container.yaml"
-updated_at: "2024-02-11 03:07:39.828529"
+updated_at: "2024-02-12 03:06:58.823293"
 latest: "8-jdk21"
 container_url: "https://hub.docker.com/_/gradle"
 aliases:

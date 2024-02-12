@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gneiss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gneiss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gneiss/container.yaml"
-updated_at: "2024-02-11 02:27:52.676797"
+updated_at: "2024-02-12 02:26:23.513559"
 latest: "0.4.6--py_0"
 container_url: "https://biocontainers.pro/tools/gneiss"
 aliases:

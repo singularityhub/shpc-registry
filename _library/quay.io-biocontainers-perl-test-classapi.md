@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-classapi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-classapi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-classapi/container.yaml"
-updated_at: "2024-02-11 02:42:04.103207"
+updated_at: "2024-02-12 02:41:01.273870"
 latest: "1.07--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-test-classapi"
 aliases:

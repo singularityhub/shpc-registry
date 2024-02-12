@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fateid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fateid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fateid/container.yaml"
-updated_at: "2024-02-11 02:27:13.926172"
+updated_at: "2024-02-12 02:25:44.222334"
 latest: "0.1.8--r36h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-fateid"
 

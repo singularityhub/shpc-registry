@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sneep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sneep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sneep/container.yaml"
-updated_at: "2024-02-11 02:24:24.993995"
+updated_at: "2024-02-12 02:22:52.082132"
 latest: "0.9--py38h8c62d01_0"
 container_url: "https://biocontainers.pro/tools/sneep"
 aliases:
