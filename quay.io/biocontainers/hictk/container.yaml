@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/hictk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hictk
 latest:
-  0.0.6--h7c38aa9_0: sha256:216e89f01b570228bd171da5cc8829a6b53e71cddbe09213d6c718368c173af5
+  0.0.8--h7c38aa9_0: sha256:d9e0cfc4c78b9888e7d5bef3fe95db3dcea204953f5a7eb6403b8ab9dea8d105
 tags:
   0.0.2--h7c38aa9_0: sha256:76809edcae96e8fb559513c0c53e093c65f13d308f059f30bb0215db31e1b214
   0.0.3--h7c38aa9_0: sha256:9141463bbdace95d344f3e08764b4fa51231a94c9aa726615a10066ef8bfd5a0
   0.0.6--h7c38aa9_0: sha256:216e89f01b570228bd171da5cc8829a6b53e71cddbe09213d6c718368c173af5
+  0.0.8--h7c38aa9_0: sha256:d9e0cfc4c78b9888e7d5bef3fe95db3dcea204953f5a7eb6403b8ab9dea8d105
 docker: quay.io/biocontainers/hictk
 aliases:
   hictk: /usr/local/bin/hictk

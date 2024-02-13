@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/orsum
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for orsum
 latest:
-  1.6.0--hdfd78af_0: sha256:d6a52601487d7851b7d105d45252e887071d2743f5cbf35de28737f97339533a
+  1.7.0--hdfd78af_0: sha256:8dff115cd645aa0a3efd0e795997cff9d8b24b9c8d049176b47c389ba20c8c93
 tags:
   1.4.0--hdfd78af_0: sha256:dfa94f9ce9ff8053e2f39b85c49a835fa286586014b278b952b136431cd29ccf
   1.6.0--hdfd78af_0: sha256:d6a52601487d7851b7d105d45252e887071d2743f5cbf35de28737f97339533a
   1.5.0--hdfd78af_0: sha256:70a0346dc1d8079bd0a51a7d02c6880e74cb8409b83f2c2d7d3665c3faeff789
+  1.7.0--hdfd78af_0: sha256:8dff115cd645aa0a3efd0e795997cff9d8b24b9c8d049176b47c389ba20c8c93
 docker: quay.io/biocontainers/orsum
 aliases:
   orsum.py: /usr/local/bin/orsum.py
