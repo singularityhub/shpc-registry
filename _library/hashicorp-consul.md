@@ -4,8 +4,8 @@ name:  "hashicorp/consul"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/hashicorp/consul/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/hashicorp/consul/container.yaml"
-updated_at: "2024-02-13 02:21:06.625417"
-latest: "1.17.0-rc1"
+updated_at: "2024-02-14 02:21:27.039936"
+latest: "1.18.0-rc1"
 container_url: "https://hub.docker.com/r/hashicorp/consul"
 aliases:
  - "consul"
@@ -14,8 +14,9 @@ versions:
  - "1.16"
  - "1.17.0-rc1"
  - "1.17"
+ - "1.18.0-rc1"
 description: "Automatic build of consul based on the current release."
-config: {"docker": "hashicorp/consul", "maintainer": "@vsoch", "url": "https://hub.docker.com/r/hashicorp/consul", "description": "Automatic build of consul based on the current release.", "latest": {"1.17.0-rc1": "sha256:a44a99380b89e66caa4a6511212bff40fa1f4b89d62374bd4ebcf3897c05976b"}, "tags": {"1.16": "sha256:f16ce06f0ec91dc1104668641a5a521db5e29ef40c44fd295a80d76974588d64", "1.17.0-rc1": "sha256:a44a99380b89e66caa4a6511212bff40fa1f4b89d62374bd4ebcf3897c05976b", "1.17": "sha256:0bdb01ea0114b9939e442f9a28eccf2ac5aeb58b63ff26d478ca95e87de11ba3"}, "aliases": {"consul": "/bin/consul", "docker-entrypoint.sh": "/usr/local/bin/docker-entrypoint.sh"}}
+config: {"docker": "hashicorp/consul", "maintainer": "@vsoch", "url": "https://hub.docker.com/r/hashicorp/consul", "description": "Automatic build of consul based on the current release.", "latest": {"1.18.0-rc1": "sha256:0e20dd2d4cc42b7efd888334432e5524c58acc37f7fd6541269c61c15afe5328"}, "tags": {"1.16": "sha256:e4c674e01776d5bd8c6d85462c7fb057b2c5ec46256e2d0ac2737caf122decd7", "1.17.0-rc1": "sha256:a44a99380b89e66caa4a6511212bff40fa1f4b89d62374bd4ebcf3897c05976b", "1.17": "sha256:fa5020e2307bc941e4317207de1ab55f2c7a8cd6b02c0592cce1cd20ec8a7f87", "1.18.0-rc1": "sha256:0e20dd2d4cc42b7efd888334432e5524c58acc37f7fd6541269c61c15afe5328"}, "aliases": {"consul": "/bin/consul", "docker-entrypoint.sh": "/usr/local/bin/docker-entrypoint.sh"}}
 ---
 
 This module is a singularity container wrapper for hashicorp/consul.
@@ -30,7 +31,7 @@ $ shpc install hashicorp/consul
 Or a specific version:
 
 ```bash
-$ shpc install hashicorp/consul:1.17.0-rc1
+$ shpc install hashicorp/consul:1.18.0-rc1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load hashicorp/consul/1.17.0-rc1
-$ module help hashicorp/consul/1.17.0-rc1
+$ module load hashicorp/consul/1.18.0-rc1
+$ module help hashicorp/consul/1.18.0-rc1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

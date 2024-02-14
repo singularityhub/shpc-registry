@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/veryfasttree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/veryfasttree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/veryfasttree/container.yaml"
-updated_at: "2024-02-13 02:41:02.663705"
+updated_at: "2024-02-14 02:59:11.093229"
 latest: "4.0.03--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/veryfasttree"
 aliases:

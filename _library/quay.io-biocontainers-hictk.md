@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hictk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hictk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hictk/container.yaml"
-updated_at: "2024-02-13 02:56:30.084621"
-latest: "0.0.6--h7c38aa9_0"
+updated_at: "2024-02-14 02:52:55.945904"
+latest: "0.0.8--h7c38aa9_0"
 container_url: "https://biocontainers.pro/tools/hictk"
 aliases:
  - "hictk"
@@ -38,8 +38,9 @@ versions:
  - "0.0.2--h7c38aa9_0"
  - "0.0.3--h7c38aa9_0"
  - "0.0.6--h7c38aa9_0"
+ - "0.0.8--h7c38aa9_0"
 description: "singularity registry hpc automated addition for hictk"
-config: {"url": "https://biocontainers.pro/tools/hictk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hictk", "latest": {"0.0.6--h7c38aa9_0": "sha256:216e89f01b570228bd171da5cc8829a6b53e71cddbe09213d6c718368c173af5"}, "tags": {"0.0.2--h7c38aa9_0": "sha256:76809edcae96e8fb559513c0c53e093c65f13d308f059f30bb0215db31e1b214", "0.0.3--h7c38aa9_0": "sha256:9141463bbdace95d344f3e08764b4fa51231a94c9aa726615a10066ef8bfd5a0", "0.0.6--h7c38aa9_0": "sha256:216e89f01b570228bd171da5cc8829a6b53e71cddbe09213d6c718368c173af5"}, "docker": "quay.io/biocontainers/hictk", "aliases": {"hictk": "/usr/local/bin/hictk", "h5delete": "/usr/local/bin/h5delete", "aec": "/usr/local/bin/aec", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack"}}
+config: {"url": "https://biocontainers.pro/tools/hictk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hictk", "latest": {"0.0.8--h7c38aa9_0": "sha256:d9e0cfc4c78b9888e7d5bef3fe95db3dcea204953f5a7eb6403b8ab9dea8d105"}, "tags": {"0.0.2--h7c38aa9_0": "sha256:76809edcae96e8fb559513c0c53e093c65f13d308f059f30bb0215db31e1b214", "0.0.3--h7c38aa9_0": "sha256:9141463bbdace95d344f3e08764b4fa51231a94c9aa726615a10066ef8bfd5a0", "0.0.6--h7c38aa9_0": "sha256:216e89f01b570228bd171da5cc8829a6b53e71cddbe09213d6c718368c173af5", "0.0.8--h7c38aa9_0": "sha256:d9e0cfc4c78b9888e7d5bef3fe95db3dcea204953f5a7eb6403b8ab9dea8d105"}, "docker": "quay.io/biocontainers/hictk", "aliases": {"hictk": "/usr/local/bin/hictk", "h5delete": "/usr/local/bin/h5delete", "aec": "/usr/local/bin/aec", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hictk.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/hictk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hictk:0.0.6--h7c38aa9_0
+$ shpc install quay.io/biocontainers/hictk:0.0.8--h7c38aa9_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hictk/0.0.6--h7c38aa9_0
-$ module help quay.io/biocontainers/hictk/0.0.6--h7c38aa9_0
+$ module load quay.io/biocontainers/hictk/0.0.8--h7c38aa9_0
+$ module help quay.io/biocontainers/hictk/0.0.8--h7c38aa9_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
