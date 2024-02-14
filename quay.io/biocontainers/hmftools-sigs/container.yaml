@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/hmftools-sigs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-sigs
 latest:
-  1.1--hdfd78af_0: sha256:a1a7c0785568f2acff0aa2adc8e16d58213227857a69406f1348db01cc0a378a
+  1.2.1--hdfd78af_0: sha256:2aa638eb2a253578f20ed71df593e56a0ec65863c5c27e5a1b44689f4f460d15
 tags:
   1.1--hdfd78af_0: sha256:a1a7c0785568f2acff0aa2adc8e16d58213227857a69406f1348db01cc0a378a
+  1.2.1--hdfd78af_0: sha256:2aa638eb2a253578f20ed71df593e56a0ec65863c5c27e5a1b44689f4f460d15
 docker: quay.io/biocontainers/hmftools-sigs
 aliases:
   sigs: /usr/local/bin/sigs

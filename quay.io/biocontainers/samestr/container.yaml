@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/samestr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for samestr
 latest:
-  1.2023.4--pyhdfd78af_0: sha256:9d0d2a19c3188f2b2962f368890c89b3b6be694f03f561f3eb2b70bcda3f1a9a
+  1.2024.2.post1--pyhdfd78af_0: sha256:3495c11e9c233a7e5be4ec836b2b1db47537a1719726814373d4cff16b5cd987
 tags:
   1.2023.4--pyhdfd78af_0: sha256:9d0d2a19c3188f2b2962f368890c89b3b6be694f03f561f3eb2b70bcda3f1a9a
+  1.2024.2.post1--pyhdfd78af_0: sha256:3495c11e9c233a7e5be4ec836b2b1db47537a1719726814373d4cff16b5cd987
 docker: quay.io/biocontainers/samestr
 aliases:
   dump_file.py: /usr/local/bin/dump_file.py
