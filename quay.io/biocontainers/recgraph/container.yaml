@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/recgraph
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for recgraph
+latest:
+  1.0.0--h031d066_0: sha256:3534eba6ca4986a588c86067f458b201764ca85a0b8770ca74e5111a71514beb
+tags:
+  1.0.0--h031d066_0: sha256:3534eba6ca4986a588c86067f458b201764ca85a0b8770ca74e5111a71514beb
+docker: quay.io/biocontainers/recgraph
+aliases:
+  recgraph: /usr/local/bin/recgraph
