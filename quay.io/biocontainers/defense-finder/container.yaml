@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/defense-finder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for defense-finder
 latest:
-  1.2.0--pyhdfd78af_0: sha256:5ba30d2d8099fbbdef8147945b57a27e3e95e8ade8582b0170606d38553fb2a1
+  1.2.1--pyhdfd78af_0: sha256:11e49b8272572e9b8604737fffe5137fcaee8b830acd112ac740cb118f77ba71
 tags:
   1.0.9--pyhdfd78af_0: sha256:17364186d96289f09be4e3295ffd78c39f84a1d8db70bad3efac94ad65b2e43e
   1.1.1--pyhdfd78af_0: sha256:341237c1e0f908839c5f0be29bb2748f08750e66008e12f571a007d616e16900
   1.2.0--pyhdfd78af_0: sha256:5ba30d2d8099fbbdef8147945b57a27e3e95e8ade8582b0170606d38553fb2a1
+  1.2.1--pyhdfd78af_0: sha256:11e49b8272572e9b8604737fffe5137fcaee8b830acd112ac740cb118f77ba71
 docker: quay.io/biocontainers/defense-finder
 aliases:
   defense-finder: /usr/local/bin/defense-finder

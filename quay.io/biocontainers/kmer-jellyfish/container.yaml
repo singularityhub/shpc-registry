@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/kmer-jellyfish
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kmer-jellyfish
 latest:
-  2.3.0--h9f5acd7_3: sha256:8b656996004664483c1960d2202a2badf6b567687733e76fd32fb9c8389c7480
+  2.3.1--h4ac6f70_0: sha256:b5576aff0699c58265800f3a79d727321621c9edca42e4dd9d9095ca4a6924de
 tags:
   2.3.0--h9f5acd7_3: sha256:8b656996004664483c1960d2202a2badf6b567687733e76fd32fb9c8389c7480
+  2.3.1--h4ac6f70_0: sha256:b5576aff0699c58265800f3a79d727321621c9edca42e4dd9d9095ca4a6924de
 docker: quay.io/biocontainers/kmer-jellyfish
 aliases:
   jellyfish: /usr/local/bin/jellyfish

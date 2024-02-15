@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/neofox
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for neofox
 latest:
-  1.0.2--pyr42hdfd78af_0: sha256:f6307aba30c7364e0c3a4db3018419d25039f5f98139f3b568ecf2a9c25ec38f
+  1.1.0--pyhdfd78af_0: sha256:9ef6bfc5fc0adfedf8f97506ce16777cee29b7b9c64f18bd4f039d41ff7aeb0a
 tags:
   1.0.2--pyr42hdfd78af_0: sha256:f6307aba30c7364e0c3a4db3018419d25039f5f98139f3b568ecf2a9c25ec38f
+  1.1.0--pyhdfd78af_0: sha256:9ef6bfc5fc0adfedf8f97506ce16777cee29b7b9c64f18bd4f039d41ff7aeb0a
 docker: quay.io/biocontainers/neofox
 aliases:
   dotenv: /usr/local/bin/dotenv

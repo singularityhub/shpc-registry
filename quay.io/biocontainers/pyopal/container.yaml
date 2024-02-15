@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/pyopal
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pyopal
 latest:
-  0.4.1--py38hcbe9525_0: sha256:a215607eba82ca074619fb0ca71861fe159c06f2ac01640009fa1e359128077b
+  0.5.1--py310h068649b_0: sha256:903d33d5abb353a4740ea1c63fae5b66e6c514101e8a7a0e68a322b32f1559a8
 tags:
   0.3.0--py38hcbe9525_0: sha256:f40fa611d0a9f2b710641934b5285ff8aa5d614145eabde81e34673223b947db
   0.4.0--py39he10ea66_0: sha256:b563fc9590cb1cf13374ddf8e5782e258ffd8db832fb916a7257bf01a9f1a238
   0.4.1--py38hcbe9525_0: sha256:a215607eba82ca074619fb0ca71861fe159c06f2ac01640009fa1e359128077b
+  0.5.1--py310h068649b_0: sha256:903d33d5abb353a4740ea1c63fae5b66e6c514101e8a7a0e68a322b32f1559a8
 docker: quay.io/biocontainers/pyopal
 aliases:
   archspec: /usr/local/bin/archspec
