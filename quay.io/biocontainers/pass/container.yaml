@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pass
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pass
+latest:
+  0.3.1--hdfd78af_0: sha256:82d62fc6ba980bde99b9da43d7ad298edcca74204462b967d885b0f7bdc9c260
+tags:
+  0.3.1--hdfd78af_0: sha256:82d62fc6ba980bde99b9da43d7ad298edcca74204462b967d885b0f7bdc9c260
+docker: quay.io/biocontainers/pass
+aliases:
+  PASS: /usr/local/bin/PASS

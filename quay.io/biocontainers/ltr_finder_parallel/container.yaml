@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/ltr_finder_parallel
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ltr_finder_parallel
+latest:
+  1.1--hdfd78af_0: sha256:97ae0f3dbfcda9ccf248acc3d282bcba82855c5e797e62efbab9f4fcc4b86a12
+tags:
+  1.1--hdfd78af_0: sha256:97ae0f3dbfcda9ccf248acc3d282bcba82855c5e797e62efbab9f4fcc4b86a12
+docker: quay.io/biocontainers/ltr_finder_parallel
+aliases:
+  LTR_FINDER_parallel: /usr/local/bin/LTR_FINDER_parallel
+  check_result.pl: /usr/local/bin/check_result.pl
+  down_tRNA.pl: /usr/local/bin/down_tRNA.pl
+  filter_rt.pl: /usr/local/bin/filter_rt.pl
+  genome_plot.pl: /usr/local/bin/genome_plot.pl
+  genome_plot2.pl: /usr/local/bin/genome_plot2.pl
+  genome_plot_svg.pl: /usr/local/bin/genome_plot_svg.pl
+  ltr_finder: /usr/local/bin/ltr_finder
+  psearch: /usr/local/bin/psearch
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  bdftogd: /usr/local/bin/bdftogd
+  gd2copypal: /usr/local/bin/gd2copypal
+  gd2togif: /usr/local/bin/gd2togif
+  gd2topng: /usr/local/bin/gd2topng
+  gdcmpgif: /usr/local/bin/gdcmpgif
+  gdparttopng: /usr/local/bin/gdparttopng
+  gdtopng: /usr/local/bin/gdtopng
+  giftogd2: /usr/local/bin/giftogd2
+  pngtogd: /usr/local/bin/pngtogd
+  pngtogd2: /usr/local/bin/pngtogd2
+  webpng: /usr/local/bin/webpng
+  annotate: /usr/local/bin/annotate
+  tjbench: /usr/local/bin/tjbench
+  img2webp: /usr/local/bin/img2webp
+  cwebp: /usr/local/bin/cwebp
+  dwebp: /usr/local/bin/dwebp
+  gif2webp: /usr/local/bin/gif2webp
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild
+  gifclrmp: /usr/local/bin/gifclrmp
+  giffix: /usr/local/bin/giffix
+  giftext: /usr/local/bin/giftext
+  giftool: /usr/local/bin/giftool
