@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/presto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/presto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/presto/container.yaml"
-updated_at: "2024-02-14 02:44:42.761902"
-latest: "0.7.1--pyhdfd78af_0"
+updated_at: "2024-02-15 02:45:08.649241"
+latest: "0.7.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/presto"
 aliases:
  - "AlignSets.py"
@@ -34,8 +34,9 @@ aliases:
  - "blst2tkns"
 versions:
  - "0.7.1--pyhdfd78af_0"
+ - "0.7.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for presto"
-config: {"url": "https://biocontainers.pro/tools/presto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for presto", "latest": {"0.7.1--pyhdfd78af_0": "sha256:2743943d2cb9065b7d19853ad972dcaa6977905e3edf3c0a4cc1fa295691e1c5"}, "tags": {"0.7.1--pyhdfd78af_0": "sha256:2743943d2cb9065b7d19853ad972dcaa6977905e3edf3c0a4cc1fa295691e1c5"}, "docker": "quay.io/biocontainers/presto", "aliases": {"AlignSets.py": "/usr/local/bin/AlignSets.py", "AssemblePairs.py": "/usr/local/bin/AssemblePairs.py", "BuildConsensus.py": "/usr/local/bin/BuildConsensus.py", "ClusterSets.py": "/usr/local/bin/ClusterSets.py", "CollapseSeq.py": "/usr/local/bin/CollapseSeq.py", "ConvertHeaders.py": "/usr/local/bin/ConvertHeaders.py", "EstimateError.py": "/usr/local/bin/EstimateError.py", "FilterSeq.py": "/usr/local/bin/FilterSeq.py", "MaskPrimers.py": "/usr/local/bin/MaskPrimers.py", "PairSeq.py": "/usr/local/bin/PairSeq.py", "ParseHeaders.py": "/usr/local/bin/ParseHeaders.py", "ParseLog.py": "/usr/local/bin/ParseLog.py", "SplitSeq.py": "/usr/local/bin/SplitSeq.py", "UnifyHeaders.py": "/usr/local/bin/UnifyHeaders.py", "vsearch": "/usr/local/bin/vsearch", "muscle": "/usr/local/bin/muscle", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns"}}
+config: {"url": "https://biocontainers.pro/tools/presto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for presto", "latest": {"0.7.2--pyhdfd78af_0": "sha256:8d5a941bb135b548c6657cbf5905af08cc5b86775049d3c6cae8263a090be1c4"}, "tags": {"0.7.1--pyhdfd78af_0": "sha256:2743943d2cb9065b7d19853ad972dcaa6977905e3edf3c0a4cc1fa295691e1c5", "0.7.2--pyhdfd78af_0": "sha256:8d5a941bb135b548c6657cbf5905af08cc5b86775049d3c6cae8263a090be1c4"}, "docker": "quay.io/biocontainers/presto", "aliases": {"AlignSets.py": "/usr/local/bin/AlignSets.py", "AssemblePairs.py": "/usr/local/bin/AssemblePairs.py", "BuildConsensus.py": "/usr/local/bin/BuildConsensus.py", "ClusterSets.py": "/usr/local/bin/ClusterSets.py", "CollapseSeq.py": "/usr/local/bin/CollapseSeq.py", "ConvertHeaders.py": "/usr/local/bin/ConvertHeaders.py", "EstimateError.py": "/usr/local/bin/EstimateError.py", "FilterSeq.py": "/usr/local/bin/FilterSeq.py", "MaskPrimers.py": "/usr/local/bin/MaskPrimers.py", "PairSeq.py": "/usr/local/bin/PairSeq.py", "ParseHeaders.py": "/usr/local/bin/ParseHeaders.py", "ParseLog.py": "/usr/local/bin/ParseLog.py", "SplitSeq.py": "/usr/local/bin/SplitSeq.py", "UnifyHeaders.py": "/usr/local/bin/UnifyHeaders.py", "vsearch": "/usr/local/bin/vsearch", "muscle": "/usr/local/bin/muscle", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/presto.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/presto
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/presto:0.7.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/presto:0.7.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/presto/0.7.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/presto/0.7.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/presto/0.7.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/presto/0.7.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

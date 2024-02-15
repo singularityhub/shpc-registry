@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cpat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cpat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cpat/container.yaml"
-updated_at: "2024-02-14 02:32:35.428547"
-latest: "3.0.4--py38h24c8ff8_2"
+updated_at: "2024-02-15 02:33:03.460706"
+latest: "3.0.5--py38h24c8ff8_0"
 container_url: "https://biocontainers.pro/tools/cpat"
 aliases:
  - "cpat.py"
@@ -24,8 +24,9 @@ aliases:
 versions:
  - "3.0.4--py36h40b2fa4_1"
  - "3.0.4--py38h24c8ff8_2"
+ - "3.0.5--py38h24c8ff8_0"
 description: "shpc-registry automated BioContainers addition for cpat"
-config: {"url": "https://biocontainers.pro/tools/cpat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cpat", "latest": {"3.0.4--py38h24c8ff8_2": "sha256:c9d74da160d76725e15cb837b797a5e48df51d53658bd8c962d09be5899c7d29"}, "tags": {"3.0.4--py36h40b2fa4_1": "sha256:0113650a0fc7cfaee126d3ae94201979fbf84716a89706e82848371eda7f6228", "3.0.4--py38h24c8ff8_2": "sha256:c9d74da160d76725e15cb837b797a5e48df51d53658bd8c962d09be5899c7d29"}, "docker": "quay.io/biocontainers/cpat", "aliases": {"cpat.py": "/usr/local/bin/cpat.py", "make_hexamer_tab.py": "/usr/local/bin/make_hexamer_tab.py", "make_logitModel.py": "/usr/local/bin/make_logitModel.py", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
+config: {"url": "https://biocontainers.pro/tools/cpat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cpat", "latest": {"3.0.5--py38h24c8ff8_0": "sha256:5f6682dd067ab96d1bbc45ee0f12793a36a703b638e3604b2fef138e9107c5f3"}, "tags": {"3.0.4--py36h40b2fa4_1": "sha256:0113650a0fc7cfaee126d3ae94201979fbf84716a89706e82848371eda7f6228", "3.0.4--py38h24c8ff8_2": "sha256:c9d74da160d76725e15cb837b797a5e48df51d53658bd8c962d09be5899c7d29", "3.0.5--py38h24c8ff8_0": "sha256:5f6682dd067ab96d1bbc45ee0f12793a36a703b638e3604b2fef138e9107c5f3"}, "docker": "quay.io/biocontainers/cpat", "aliases": {"cpat.py": "/usr/local/bin/cpat.py", "make_hexamer_tab.py": "/usr/local/bin/make_hexamer_tab.py", "make_logitModel.py": "/usr/local/bin/make_logitModel.py", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cpat.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/cpat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cpat:3.0.4--py38h24c8ff8_2
+$ shpc install quay.io/biocontainers/cpat:3.0.5--py38h24c8ff8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cpat/3.0.4--py38h24c8ff8_2
-$ module help quay.io/biocontainers/cpat/3.0.4--py38h24c8ff8_2
+$ module load quay.io/biocontainers/cpat/3.0.5--py38h24c8ff8_0
+$ module help quay.io/biocontainers/cpat/3.0.5--py38h24c8ff8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

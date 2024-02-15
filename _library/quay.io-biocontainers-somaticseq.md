@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/somaticseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/somaticseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/somaticseq/container.yaml"
-updated_at: "2024-02-14 02:34:16.146269"
-latest: "3.7.3--pyhdfd78af_0"
+updated_at: "2024-02-15 02:34:42.551855"
+latest: "3.7.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/somaticseq"
 aliases:
  - "MuSE"
@@ -57,8 +57,9 @@ aliases:
  - "run-roh.pl"
 versions:
  - "3.7.3--pyhdfd78af_0"
+ - "3.7.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for somaticseq"
-config: {"url": "https://biocontainers.pro/tools/somaticseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for somaticseq", "latest": {"3.7.3--pyhdfd78af_0": "sha256:a234a8309da5826b08cb37588a8f229e8c33298793a3c532b63879aa3d2e0501"}, "tags": {"3.7.3--pyhdfd78af_0": "sha256:a234a8309da5826b08cb37588a8f229e8c33298793a3c532b63879aa3d2e0501"}, "docker": "quay.io/biocontainers/somaticseq", "aliases": {"MuSE": "/usr/local/bin/MuSE", "SSeq_tsv2vcf.py": "/usr/local/bin/SSeq_tsv2vcf.py", "ada_model_builder_ntChange.R": "/usr/local/bin/ada_model_builder_ntChange.R", "ada_model_predictor.R": "/usr/local/bin/ada_model_predictor.R", "concat.py": "/usr/local/bin/concat.py", "linguistic_sequence_complexity.py": "/usr/local/bin/linguistic_sequence_complexity.py", "lociCounterWithLabels.py": "/usr/local/bin/lociCounterWithLabels.py", "lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "makeAlignmentScripts.py": "/usr/local/bin/makeAlignmentScripts.py", "makeSomaticScripts.py": "/usr/local/bin/makeSomaticScripts.py", "paired_end_bam2fastq.py": "/usr/local/bin/paired_end_bam2fastq.py", "remove_callers_from_somaticseq_tsv.py": "/usr/local/bin/remove_callers_from_somaticseq_tsv.py", "run_somaticseq.py": "/usr/local/bin/run_somaticseq.py", "run_workflows.py": "/usr/local/bin/run_workflows.py", "scalpel-discovery": "/usr/local/bin/scalpel-discovery", "scalpel-export": "/usr/local/bin/scalpel-export", "single_sample_vcf2tsv.py": "/usr/local/bin/single_sample_vcf2tsv.py", "somatic_vcf2tsv.py": "/usr/local/bin/somatic_vcf2tsv.py", "somatic_xgboost.py": "/usr/local/bin/somatic_xgboost.py", "somaticseq_parallel.py": "/usr/local/bin/somaticseq_parallel.py", "splitVcf.py": "/usr/local/bin/splitVcf.py", "split_Bed_into_equal_regions.py": "/usr/local/bin/split_Bed_into_equal_regions.py", "tally_variants_from_multiple_vcfs.py": "/usr/local/bin/tally_variants_from_multiple_vcfs.py", "testsomatic.R": "/usr/local/bin/testsomatic.R", "teststrandbias.R": "/usr/local/bin/teststrandbias.R", "var2vcf_paired.pl": "/usr/local/bin/var2vcf_paired.pl", "var2vcf_valid.pl": "/usr/local/bin/var2vcf_valid.pl", "vardict": "/usr/local/bin/vardict", "vardict.pl": "/usr/local/bin/vardict.pl", "vardict2mut.pl": "/usr/local/bin/vardict2mut.pl", "variant_annotation.py": "/usr/local/bin/variant_annotation.py", "varscan": "/usr/local/bin/varscan", "vcfsorter.pl": "/usr/local/bin/vcfsorter.pl", "gatk": "/usr/local/bin/gatk", "xgboost": "/usr/local/bin/xgboost", "gff2gff.py": "/usr/local/bin/gff2gff.py", "bamtools": "/usr/local/bin/bamtools", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl"}}
+config: {"url": "https://biocontainers.pro/tools/somaticseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for somaticseq", "latest": {"3.7.4--pyhdfd78af_0": "sha256:d63dc3e6c1742b95fd2ff579b40b4b646738928d898f2f4fd4ff93a598098f16"}, "tags": {"3.7.3--pyhdfd78af_0": "sha256:a234a8309da5826b08cb37588a8f229e8c33298793a3c532b63879aa3d2e0501", "3.7.4--pyhdfd78af_0": "sha256:d63dc3e6c1742b95fd2ff579b40b4b646738928d898f2f4fd4ff93a598098f16"}, "docker": "quay.io/biocontainers/somaticseq", "aliases": {"MuSE": "/usr/local/bin/MuSE", "SSeq_tsv2vcf.py": "/usr/local/bin/SSeq_tsv2vcf.py", "ada_model_builder_ntChange.R": "/usr/local/bin/ada_model_builder_ntChange.R", "ada_model_predictor.R": "/usr/local/bin/ada_model_predictor.R", "concat.py": "/usr/local/bin/concat.py", "linguistic_sequence_complexity.py": "/usr/local/bin/linguistic_sequence_complexity.py", "lociCounterWithLabels.py": "/usr/local/bin/lociCounterWithLabels.py", "lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "makeAlignmentScripts.py": "/usr/local/bin/makeAlignmentScripts.py", "makeSomaticScripts.py": "/usr/local/bin/makeSomaticScripts.py", "paired_end_bam2fastq.py": "/usr/local/bin/paired_end_bam2fastq.py", "remove_callers_from_somaticseq_tsv.py": "/usr/local/bin/remove_callers_from_somaticseq_tsv.py", "run_somaticseq.py": "/usr/local/bin/run_somaticseq.py", "run_workflows.py": "/usr/local/bin/run_workflows.py", "scalpel-discovery": "/usr/local/bin/scalpel-discovery", "scalpel-export": "/usr/local/bin/scalpel-export", "single_sample_vcf2tsv.py": "/usr/local/bin/single_sample_vcf2tsv.py", "somatic_vcf2tsv.py": "/usr/local/bin/somatic_vcf2tsv.py", "somatic_xgboost.py": "/usr/local/bin/somatic_xgboost.py", "somaticseq_parallel.py": "/usr/local/bin/somaticseq_parallel.py", "splitVcf.py": "/usr/local/bin/splitVcf.py", "split_Bed_into_equal_regions.py": "/usr/local/bin/split_Bed_into_equal_regions.py", "tally_variants_from_multiple_vcfs.py": "/usr/local/bin/tally_variants_from_multiple_vcfs.py", "testsomatic.R": "/usr/local/bin/testsomatic.R", "teststrandbias.R": "/usr/local/bin/teststrandbias.R", "var2vcf_paired.pl": "/usr/local/bin/var2vcf_paired.pl", "var2vcf_valid.pl": "/usr/local/bin/var2vcf_valid.pl", "vardict": "/usr/local/bin/vardict", "vardict.pl": "/usr/local/bin/vardict.pl", "vardict2mut.pl": "/usr/local/bin/vardict2mut.pl", "variant_annotation.py": "/usr/local/bin/variant_annotation.py", "varscan": "/usr/local/bin/varscan", "vcfsorter.pl": "/usr/local/bin/vcfsorter.pl", "gatk": "/usr/local/bin/gatk", "xgboost": "/usr/local/bin/xgboost", "gff2gff.py": "/usr/local/bin/gff2gff.py", "bamtools": "/usr/local/bin/bamtools", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/somaticseq.
@@ -73,7 +74,7 @@ $ shpc install quay.io/biocontainers/somaticseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/somaticseq:3.7.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/somaticseq:3.7.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -85,8 +86,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/somaticseq/3.7.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/somaticseq/3.7.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/somaticseq/3.7.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/somaticseq/3.7.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

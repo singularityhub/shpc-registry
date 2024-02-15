@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/recentrifuge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recentrifuge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recentrifuge/container.yaml"
-updated_at: "2024-02-14 02:38:56.140461"
-latest: "1.13.1--pyhdfd78af_0"
+updated_at: "2024-02-15 02:39:24.612428"
+latest: "1.14.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/recentrifuge"
 aliases:
  - "rcf"
@@ -30,8 +30,10 @@ versions:
  - "1.12.1--pyhdfd78af_0"
  - "1.12.2--pyhdfd78af_0"
  - "1.13.1--pyhdfd78af_0"
+ - "1.14.0--pyhdfd78af_0"
+ - "1.13.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for recentrifuge"
-config: {"url": "https://biocontainers.pro/tools/recentrifuge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for recentrifuge", "latest": {"1.13.1--pyhdfd78af_0": "sha256:0d1cc7a4feb1902194d77039574c241cf9d763d9d69e2a1381d7bb3e3e2b53b1"}, "tags": {"1.9.1--pyhdfd78af_0": "sha256:32f8a055bd0ae507e7ce8c84fba2100b7a6554e36e8d7ca320367bbabd527897", "1.10.0--pyhdfd78af_0": "sha256:684bcf23dd5657424c7fea2a7505819c9ed42af7062521c73cad5ed406e2daaf", "1.12.1--pyhdfd78af_0": "sha256:f2b0e996b66c2f52c9b2aec34520be73d1628a7430da560318689c98a651109c", "1.12.2--pyhdfd78af_0": "sha256:49288c1152a1a50de019ac30e9e8155e459d172f07dfd710bd8ae6edae38470a", "1.13.1--pyhdfd78af_0": "sha256:0d1cc7a4feb1902194d77039574c241cf9d763d9d69e2a1381d7bb3e3e2b53b1"}, "docker": "quay.io/biocontainers/recentrifuge", "aliases": {"rcf": "/usr/local/bin/rcf", "refasplit": "/usr/local/bin/refasplit", "remock": "/usr/local/bin/remock", "retaxdump": "/usr/local/bin/retaxdump", "retest": "/usr/local/bin/retest", "rextract": "/usr/local/bin/rextract", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp"}}
+config: {"url": "https://biocontainers.pro/tools/recentrifuge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for recentrifuge", "latest": {"1.14.0--pyhdfd78af_0": "sha256:6d915d255c1ebdc97c27b315df6955895977d1a9d7e02f2ebaab96fab8353119"}, "tags": {"1.9.1--pyhdfd78af_0": "sha256:32f8a055bd0ae507e7ce8c84fba2100b7a6554e36e8d7ca320367bbabd527897", "1.10.0--pyhdfd78af_0": "sha256:684bcf23dd5657424c7fea2a7505819c9ed42af7062521c73cad5ed406e2daaf", "1.12.1--pyhdfd78af_0": "sha256:f2b0e996b66c2f52c9b2aec34520be73d1628a7430da560318689c98a651109c", "1.12.2--pyhdfd78af_0": "sha256:49288c1152a1a50de019ac30e9e8155e459d172f07dfd710bd8ae6edae38470a", "1.13.1--pyhdfd78af_0": "sha256:0d1cc7a4feb1902194d77039574c241cf9d763d9d69e2a1381d7bb3e3e2b53b1", "1.14.0--pyhdfd78af_0": "sha256:6d915d255c1ebdc97c27b315df6955895977d1a9d7e02f2ebaab96fab8353119", "1.13.2--pyhdfd78af_0": "sha256:a537774b56e8411f769944db12f7413f83263e64ff02cb3b1da123add191bd79"}, "docker": "quay.io/biocontainers/recentrifuge", "aliases": {"rcf": "/usr/local/bin/rcf", "refasplit": "/usr/local/bin/refasplit", "remock": "/usr/local/bin/remock", "retaxdump": "/usr/local/bin/retaxdump", "retest": "/usr/local/bin/retest", "rextract": "/usr/local/bin/rextract", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/recentrifuge.
@@ -46,7 +48,7 @@ $ shpc install quay.io/biocontainers/recentrifuge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/recentrifuge:1.13.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/recentrifuge:1.14.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/recentrifuge/1.13.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/recentrifuge/1.13.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/recentrifuge/1.14.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/recentrifuge/1.14.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

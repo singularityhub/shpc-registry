@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ssnappy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ssnappy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ssnappy/container.yaml"
-updated_at: "2024-02-14 03:04:18.116962"
+updated_at: "2024-02-15 03:04:40.146543"
 latest: "1.6.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ssnappy"
 aliases:
