@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-smite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-smite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-smite/container.yaml"
-updated_at: "2024-02-15 02:40:22.500043"
+updated_at: "2024-02-15 03:30:36.568821"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-smite"
 aliases:

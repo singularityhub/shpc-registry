@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/figaro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/figaro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/figaro/container.yaml"
-updated_at: "2024-02-15 02:59:23.716280"
+updated_at: "2024-02-15 03:50:00.178072"
 latest: "1.1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/figaro"
 aliases:

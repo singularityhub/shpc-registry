@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-html-form"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-form/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-form/container.yaml"
-updated_at: "2024-02-15 03:03:18.815849"
+updated_at: "2024-02-15 03:54:00.718110"
 latest: "6.07--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-html-form"
 aliases:
