@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pqsfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pqsfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pqsfinder/container.yaml"
-updated_at: "2024-02-15 03:31:04.206049"
+updated_at: "2024-02-16 02:39:13.074157"
 latest: "2.18.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pqsfinder"
 aliases:
