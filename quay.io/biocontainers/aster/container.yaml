@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/aster
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for aster
 latest:
-  1.15--h4ac6f70_2: sha256:6a4a575329c24067145d5f98e368e032eef5d68d27527918e5429c0d8af9aed6
+  1.16--h4ac6f70_1: sha256:69aceadbe6052bebe779cf030deb63604c667a16a12e85eac1fd822b1989cc68
 tags:
   1.3--h9f5acd7_1: sha256:7662b11a19008b7a13b77ae116f2d20231d3ca19b47fabf4977b90b438fd4d9f
   1.13--h9f5acd7_1: sha256:e920b1c7056a761b814990427ee02e0912436dfb1a2c577a9e06d7e0daad50fc
   1.10--h9f5acd7_0: sha256:560eb7339e54eed72efd2206afd091a429200cba29787b2821bc4a0f86da3065
   1.15--h9f5acd7_0: sha256:448675af5acef5e394212ed13e27508b496c9b0e38ec12eae3e9d4f304e03846
   1.15--h4ac6f70_2: sha256:6a4a575329c24067145d5f98e368e032eef5d68d27527918e5429c0d8af9aed6
+  1.16--h4ac6f70_1: sha256:69aceadbe6052bebe779cf030deb63604c667a16a12e85eac1fd822b1989cc68
 docker: quay.io/biocontainers/aster
 aliases:
   asterisk: /usr/local/bin/asterisk

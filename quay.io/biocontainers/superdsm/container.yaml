@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/superdsm
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for superdsm
 latest:
-  0.1.3--pyhdfd78af_1: sha256:9fb485080d519378158373c13bbca971e96b4277502fb69cf8408cbd550ca65d
+  0.2.0--pyhdfd78af_0: sha256:7bd6a8a422687499b403e7d176c1b260b93fef254869cee24757c25738f99972
 tags:
   0.1--pyhdfd78af_0: sha256:46b2af7c92f0621815d8fc6e4bdf853bcd72a3aef4ab04da8f5cdbe635e12efa
   0.1.3--pyhdfd78af_1: sha256:9fb485080d519378158373c13bbca971e96b4277502fb69cf8408cbd550ca65d
+  0.2.0--pyhdfd78af_0: sha256:7bd6a8a422687499b403e7d176c1b260b93fef254869cee24757c25738f99972
 docker: quay.io/biocontainers/superdsm
 aliases:
   corepack: /usr/local/bin/corepack

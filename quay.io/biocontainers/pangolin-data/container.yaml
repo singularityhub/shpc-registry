@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pangolin-data
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pangolin-data
 latest:
-  1.23.1--pyh7cba7a3_0: sha256:04a939c7053553998449197f20f72b403efa49f474532e5f3f2d40c85a0a1059
+  1.25.1--pyh7cba7a3_0: sha256:d6b916b31b24e85517c57e42d9a39c279f35aa26b032f6099cb95976143ef879
 tags:
   1.9--pyh5e36f6f_0: sha256:986d54d7de55e4764ee8a9eb195a46beb883fb9638879d559c815c9bd11d0f5c
   1.18.1.1--pyh7cba7a3_0: sha256:b7ab5e8340e5a5129444aec7f5919e0a53fe276934b32cecb88769a142984e0a
@@ -15,6 +15,8 @@ tags:
   1.21--pyh7cba7a3_0: sha256:071486364ba073d27cee34bdd74f9e33db4575c3bc76b568e5736081e3f04bdb
   1.22--pyh7cba7a3_0: sha256:9be48983ea937cfc87499c58aa72b1f61fba46e48d7058bf4e951a5dcd66fa76
   1.23.1--pyh7cba7a3_0: sha256:04a939c7053553998449197f20f72b403efa49f474532e5f3f2d40c85a0a1059
+  1.25.1--pyh7cba7a3_0: sha256:d6b916b31b24e85517c57e42d9a39c279f35aa26b032f6099cb95976143ef879
+  1.24--pyh7cba7a3_0: sha256:c2f51c7a9bfabc49fd741d4c52198aba5aac87a44d6d2ef708904a39a71c74b8
 docker: quay.io/biocontainers/pangolin-data
 aliases:
   pangolin_data: /usr/local/bin/pangolin_data
