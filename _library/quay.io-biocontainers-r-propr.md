@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-propr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-propr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-propr/container.yaml"
-updated_at: "2024-02-16 02:25:34.364996"
-latest: "4.2.6"
+updated_at: "2024-02-17 02:24:13.418970"
+latest: "5.0.3"
 container_url: "https://biocontainers.pro/tools/r-propr"
 aliases:
  - "hb-info"
@@ -13,8 +13,9 @@ aliases:
  - "glpsol"
 versions:
  - "4.2.6"
+ - "5.0.3"
 description: "singularity registry hpc automated addition for r-propr"
-config: {"url": "https://biocontainers.pro/tools/r-propr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-propr", "latest": {"4.2.6": "sha256:7714125e7c1f1eb2db9de9d7a9dfa94b1af009852071af39ea3a34e6e70f3ff9"}, "tags": {"4.2.6": "sha256:7714125e7c1f1eb2db9de9d7a9dfa94b1af009852071af39ea3a34e6e70f3ff9"}, "docker": "quay.io/biocontainers/r-propr", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/r-propr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-propr", "latest": {"5.0.3": "sha256:070508fb23592e6833e957e1a4797251d4b281b0997d7e1b942a509f05354e26"}, "tags": {"4.2.6": "sha256:7714125e7c1f1eb2db9de9d7a9dfa94b1af009852071af39ea3a34e6e70f3ff9", "5.0.3": "sha256:070508fb23592e6833e957e1a4797251d4b281b0997d7e1b942a509f05354e26"}, "docker": "quay.io/biocontainers/r-propr", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-propr.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-propr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-propr:4.2.6
+$ shpc install quay.io/biocontainers/r-propr:5.0.3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-propr/4.2.6
-$ module help quay.io/biocontainers/r-propr/4.2.6
+$ module load quay.io/biocontainers/r-propr/5.0.3
+$ module help quay.io/biocontainers/r-propr/5.0.3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

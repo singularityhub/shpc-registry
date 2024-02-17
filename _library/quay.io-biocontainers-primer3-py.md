@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/primer3-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primer3-py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/primer3-py/container.yaml"
-updated_at: "2024-02-16 02:47:48.897643"
-latest: "2.0.1--py39hf95cd2a_1"
+updated_at: "2024-02-17 02:47:01.570023"
+latest: "2.0.3--py310h4b81fae_0"
 container_url: "https://biocontainers.pro/tools/primer3-py"
 aliases:
  - "python2-config"
@@ -23,8 +23,9 @@ versions:
  - "1.2.2--py311hec16e2b_0"
  - "2.0.1--py311h031d066_0"
  - "2.0.1--py39hf95cd2a_1"
+ - "2.0.3--py310h4b81fae_0"
 description: "shpc-registry automated BioContainers addition for primer3-py"
-config: {"url": "https://biocontainers.pro/tools/primer3-py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for primer3-py", "latest": {"2.0.1--py39hf95cd2a_1": "sha256:cae7b6397b67e8970d4165041b760c6993c9225bd054338aa390776651add91e"}, "tags": {"0.6.1--py27h9801fc8_1": "sha256:61a01cd51d6f5e74dff60f08b12aeefb44e74b51a26b2c7146d92fac7fa66593", "1.2.0--py311hec16e2b_0": "sha256:eb6a8c0d9785e85a23ec7427d77ff942f1cd6f5adefec875cd60ea7240ccb210", "1.2.1--py311hec16e2b_0": "sha256:52b73c4300355427a0707859457eb1cec8f32c148796f8b14e9ba16fe49c1e1e", "2.0.0--py311hec16e2b_0": "sha256:5f7ffb160d571bd27e41b3b15638f2ce0f56c92591e679d5626a23992fa37156", "1.2.2--py311hec16e2b_0": "sha256:6043cdd10fe44721b7ee33acb83d87bd7fbb612c783dda15e6d480485f532d97", "2.0.1--py311h031d066_0": "sha256:ca4233e61403c347ff4d15d670b33461b2215d988df036b8cde11e402f49122a", "2.0.1--py39hf95cd2a_1": "sha256:cae7b6397b67e8970d4165041b760c6993c9225bd054338aa390776651add91e"}, "docker": "quay.io/biocontainers/primer3-py", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/primer3-py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for primer3-py", "latest": {"2.0.3--py310h4b81fae_0": "sha256:8fa7b2bce1376b7c48357b93f969b4bb3fe0d286b2b52bd92f02bc08f29c0105"}, "tags": {"0.6.1--py27h9801fc8_1": "sha256:61a01cd51d6f5e74dff60f08b12aeefb44e74b51a26b2c7146d92fac7fa66593", "1.2.0--py311hec16e2b_0": "sha256:eb6a8c0d9785e85a23ec7427d77ff942f1cd6f5adefec875cd60ea7240ccb210", "1.2.1--py311hec16e2b_0": "sha256:52b73c4300355427a0707859457eb1cec8f32c148796f8b14e9ba16fe49c1e1e", "2.0.0--py311hec16e2b_0": "sha256:5f7ffb160d571bd27e41b3b15638f2ce0f56c92591e679d5626a23992fa37156", "1.2.2--py311hec16e2b_0": "sha256:6043cdd10fe44721b7ee33acb83d87bd7fbb612c783dda15e6d480485f532d97", "2.0.1--py311h031d066_0": "sha256:ca4233e61403c347ff4d15d670b33461b2215d988df036b8cde11e402f49122a", "2.0.1--py39hf95cd2a_1": "sha256:cae7b6397b67e8970d4165041b760c6993c9225bd054338aa390776651add91e", "2.0.3--py310h4b81fae_0": "sha256:8fa7b2bce1376b7c48357b93f969b4bb3fe0d286b2b52bd92f02bc08f29c0105"}, "docker": "quay.io/biocontainers/primer3-py", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/primer3-py.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/primer3-py
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/primer3-py:2.0.1--py39hf95cd2a_1
+$ shpc install quay.io/biocontainers/primer3-py:2.0.3--py310h4b81fae_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/primer3-py/2.0.1--py39hf95cd2a_1
-$ module help quay.io/biocontainers/primer3-py/2.0.1--py39hf95cd2a_1
+$ module load quay.io/biocontainers/primer3-py/2.0.3--py310h4b81fae_0
+$ module help quay.io/biocontainers/primer3-py/2.0.3--py310h4b81fae_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
