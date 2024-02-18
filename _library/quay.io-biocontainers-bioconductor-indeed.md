@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-indeed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-indeed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-indeed/container.yaml"
-updated_at: "2024-02-17 02:28:14.376979"
+updated_at: "2024-02-18 02:31:54.316616"
 latest: "2.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-indeed"
 

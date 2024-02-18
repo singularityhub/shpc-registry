@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-qubicdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qubicdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qubicdata/container.yaml"
-updated_at: "2024-02-17 02:29:52.740356"
+updated_at: "2024-02-18 02:33:34.464535"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qubicdata"
 

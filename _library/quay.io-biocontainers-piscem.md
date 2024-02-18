@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/piscem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piscem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piscem/container.yaml"
-updated_at: "2024-02-17 02:42:27.557794"
+updated_at: "2024-02-18 02:46:04.554735"
 latest: "0.7.1--h7c313c4_0"
 container_url: "https://biocontainers.pro/tools/piscem"
 aliases:
