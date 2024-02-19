@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/biodigest
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for biodigest
+latest:
+  0.2.16--pyhdfd78af_0: sha256:cf2f1bf957ee3f470dc3ba9f8267b8045e3cf531c773e5a5c4d1cf2034728b7c
+tags:
+  0.2.16--pyhdfd78af_0: sha256:cf2f1bf957ee3f470dc3ba9f8267b8045e3cf531c773e5a5c4d1cf2034728b7c
+docker: quay.io/biocontainers/biodigest
+aliases:
+  bioservices: /usr/local/bin/bioservices
+  gseapy: /usr/local/bin/gseapy
+  gtk-builder-tool: /usr/local/bin/gtk-builder-tool
+  gtk-encode-symbolic-svg: /usr/local/bin/gtk-encode-symbolic-svg
+  gtk-launch: /usr/local/bin/gtk-launch
+  gtk-query-immodules-3.0: /usr/local/bin/gtk-query-immodules-3.0
+  gtk-query-settings: /usr/local/bin/gtk-query-settings
+  wayland-scanner: /usr/local/bin/wayland-scanner
+  browse: /usr/local/bin/browse
+  xkbcli: /usr/local/bin/xkbcli
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  rsvg-convert: /usr/local/bin/rsvg-convert
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  gtk-update-icon-cache: /usr/local/bin/gtk-update-icon-cache
+  gdk-pixbuf-thumbnailer: /usr/local/bin/gdk-pixbuf-thumbnailer
+  gdk-pixbuf-csource: /usr/local/bin/gdk-pixbuf-csource
+  gdk-pixbuf-pixdata: /usr/local/bin/gdk-pixbuf-pixdata
+  gdk-pixbuf-query-loaders: /usr/local/bin/gdk-pixbuf-query-loaders
+  hb-info: /usr/local/bin/hb-info
+  dbus-cleanup-sockets: /usr/local/bin/dbus-cleanup-sockets
+  dbus-daemon: /usr/local/bin/dbus-daemon
+  dbus-launch: /usr/local/bin/dbus-launch
+  dbus-monitor: /usr/local/bin/dbus-monitor
+  dbus-run-session: /usr/local/bin/dbus-run-session
+  dbus-send: /usr/local/bin/dbus-send
+  dbus-test-tool: /usr/local/bin/dbus-test-tool
+  dbus-update-activation-environment: /usr/local/bin/dbus-update-activation-environment
+  dbus-uuidgen: /usr/local/bin/dbus-uuidgen
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  tqdm: /usr/local/bin/tqdm
