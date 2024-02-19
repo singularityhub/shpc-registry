@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-umi4cats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-umi4cats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-umi4cats/container.yaml"
-updated_at: "2024-02-19 02:44:49.040733"
+updated_at: "2024-02-19 02:54:28.373578"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-umi4cats"
 aliases:

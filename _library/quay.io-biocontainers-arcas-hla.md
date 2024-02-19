@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arcas-hla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arcas-hla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arcas-hla/container.yaml"
-updated_at: "2024-02-19 02:24:00.769151"
+updated_at: "2024-02-19 02:33:00.746839"
 latest: "0.5.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/arcas-hla"
 aliases:

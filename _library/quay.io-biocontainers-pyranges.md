@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyranges/container.yaml"
-updated_at: "2024-02-19 02:44:35.087589"
+updated_at: "2024-02-19 02:54:14.360040"
 latest: "0.0.88--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/pyranges"
 aliases:

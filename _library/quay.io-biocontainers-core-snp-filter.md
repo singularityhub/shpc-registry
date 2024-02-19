@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/core-snp-filter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/core-snp-filter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/core-snp-filter/container.yaml"
-updated_at: "2024-02-19 02:59:05.639522"
+updated_at: "2024-02-19 03:08:49.187947"
 latest: "0.1.1--hdbdd923_1"
 container_url: "https://biocontainers.pro/tools/core-snp-filter"
 aliases:
