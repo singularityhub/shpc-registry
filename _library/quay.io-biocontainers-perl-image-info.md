@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-image-info"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-image-info/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-image-info/container.yaml"
-updated_at: "2024-02-18 02:59:58.456724"
+updated_at: "2024-02-19 02:59:37.771592"
 latest: "1.42--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-image-info"
 aliases:

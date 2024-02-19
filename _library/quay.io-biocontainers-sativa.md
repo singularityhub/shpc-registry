@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sativa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sativa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sativa/container.yaml"
-updated_at: "2024-02-18 02:31:25.405681"
-latest: "0.9.1--py311h031d066_1"
+updated_at: "2024-02-19 02:31:02.621640"
+latest: "0.9.3--py312h031d066_0"
 container_url: "https://biocontainers.pro/tools/sativa"
 aliases:
  - "2to3-3.11"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.9.1--py311h031d066_0"
  - "0.9.1--py311h031d066_1"
+ - "0.9.3--py312h031d066_0"
 description: "singularity registry hpc automated addition for sativa"
-config: {"url": "https://biocontainers.pro/tools/sativa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sativa", "latest": {"0.9.1--py311h031d066_1": "sha256:8557279b76b23c02f09062ad2ab056b9357716dad858a62a8abeaa9d396e360b"}, "tags": {"0.9.1--py311h031d066_0": "sha256:7d13ff9bc4af7ea05d490512299a373053acb706879562abff1e06e4c080fcd7", "0.9.1--py311h031d066_1": "sha256:8557279b76b23c02f09062ad2ab056b9357716dad858a62a8abeaa9d396e360b"}, "docker": "quay.io/biocontainers/sativa", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/sativa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sativa", "latest": {"0.9.3--py312h031d066_0": "sha256:2f3e7a6e17f7a5321abebae3066ffa150b9a1979bdf5dc0fa6391ee68631f368"}, "tags": {"0.9.1--py311h031d066_0": "sha256:7d13ff9bc4af7ea05d490512299a373053acb706879562abff1e06e4c080fcd7", "0.9.1--py311h031d066_1": "sha256:8557279b76b23c02f09062ad2ab056b9357716dad858a62a8abeaa9d396e360b", "0.9.3--py312h031d066_0": "sha256:2f3e7a6e17f7a5321abebae3066ffa150b9a1979bdf5dc0fa6391ee68631f368"}, "docker": "quay.io/biocontainers/sativa", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sativa.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/sativa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sativa:0.9.1--py311h031d066_1
+$ shpc install quay.io/biocontainers/sativa:0.9.3--py312h031d066_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sativa/0.9.1--py311h031d066_1
-$ module help quay.io/biocontainers/sativa/0.9.1--py311h031d066_1
+$ module load quay.io/biocontainers/sativa/0.9.3--py312h031d066_0
+$ module help quay.io/biocontainers/sativa/0.9.3--py312h031d066_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

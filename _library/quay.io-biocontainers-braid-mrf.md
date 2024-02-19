@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/braid-mrf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/braid-mrf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/braid-mrf/container.yaml"
-updated_at: "2024-02-18 03:01:19.161054"
+updated_at: "2024-02-19 03:00:58.543236"
 latest: "1.0.9--pyhfa5458b_0"
 container_url: "https://biocontainers.pro/tools/braid-mrf"
 aliases:

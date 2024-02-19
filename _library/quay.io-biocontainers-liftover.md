@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/liftover"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/liftover/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/liftover/container.yaml"
-updated_at: "2024-02-18 02:33:28.131142"
+updated_at: "2024-02-19 02:33:04.772812"
 latest: "1.1.17--py39hd65a603_0"
 container_url: "https://biocontainers.pro/tools/liftover"
 aliases:
