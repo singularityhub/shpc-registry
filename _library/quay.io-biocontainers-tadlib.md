@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tadlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tadlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tadlib/container.yaml"
-updated_at: "2024-02-19 02:45:41.233743"
+updated_at: "2024-02-20 02:34:11.100369"
 latest: "0.4.5.post1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tadlib"
 aliases:

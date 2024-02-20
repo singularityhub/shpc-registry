@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panx/container.yaml"
-updated_at: "2024-02-19 02:33:25.623589"
+updated_at: "2024-02-20 02:22:00.943029"
 latest: "1.6.0--py27_0"
 container_url: "https://biocontainers.pro/tools/panx"
 aliases:

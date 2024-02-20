@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epicompare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epicompare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epicompare/container.yaml"
-updated_at: "2024-02-19 02:50:17.676365"
+updated_at: "2024-02-20 02:38:55.659319"
 latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epicompare"
 aliases:

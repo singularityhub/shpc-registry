@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hypro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hypro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hypro/container.yaml"
-updated_at: "2024-02-19 02:42:44.355724"
+updated_at: "2024-02-20 02:31:11.405829"
 latest: "0.1--py_0"
 container_url: "https://biocontainers.pro/tools/hypro"
 aliases:

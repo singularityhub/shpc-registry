@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hla-asm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hla-asm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hla-asm/container.yaml"
-updated_at: "2024-02-19 03:15:15.313522"
+updated_at: "2024-02-20 03:04:41.006108"
 latest: "1.0.1--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hla-asm"
 aliases:

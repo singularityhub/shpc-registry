@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-data-optlist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-optlist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-optlist/container.yaml"
-updated_at: "2024-02-19 02:40:39.128303"
+updated_at: "2024-02-20 02:29:07.042290"
 latest: "0.112--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-data-optlist"
 aliases:

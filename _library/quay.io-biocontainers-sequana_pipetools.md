@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sequana_pipetools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequana_pipetools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequana_pipetools/container.yaml"
-updated_at: "2024-02-19 02:48:51.553418"
+updated_at: "2024-02-20 02:37:26.406352"
 latest: "0.9.4--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/sequana_pipetools"
 aliases:

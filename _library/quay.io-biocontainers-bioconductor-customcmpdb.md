@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-customcmpdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-customcmpdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-customcmpdb/container.yaml"
-updated_at: "2024-02-19 02:40:22.965023"
+updated_at: "2024-02-20 02:28:50.496507"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-customcmpdb"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-messina"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-messina/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-messina/container.yaml"
-updated_at: "2024-02-19 02:36:48.397497"
+updated_at: "2024-02-20 02:25:14.334982"
 latest: "1.38.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-messina"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unitig-caller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unitig-caller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unitig-caller/container.yaml"
-updated_at: "2024-02-19 02:44:46.950150"
+updated_at: "2024-02-20 02:33:15.490717"
 latest: "1.3.0--py310ha320341_3"
 container_url: "https://biocontainers.pro/tools/unitig-caller"
 aliases:

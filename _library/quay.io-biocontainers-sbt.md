@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sbt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sbt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sbt/container.yaml"
-updated_at: "2024-02-19 02:47:02.833455"
+updated_at: "2024-02-20 02:35:34.789337"
 latest: "0.13.12--1"
 container_url: "https://biocontainers.pro/tools/sbt"
 aliases:

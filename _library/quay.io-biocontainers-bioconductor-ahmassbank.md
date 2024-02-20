@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ahmassbank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ahmassbank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ahmassbank/container.yaml"
-updated_at: "2024-02-19 03:02:56.008163"
+updated_at: "2024-02-20 02:51:59.300916"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ahmassbank"
 aliases:

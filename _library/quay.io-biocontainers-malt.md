@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/malt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/malt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/malt/container.yaml"
-updated_at: "2024-02-19 03:16:06.473947"
-latest: "0.61--hdfd78af_0"
+updated_at: "2024-02-20 03:05:33.918793"
+latest: "0.62--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/malt"
 aliases:
  - "malt-build"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "0.53--hdfd78af_0"
  - "0.61--hdfd78af_0"
+ - "0.62--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for malt"
-config: {"url": "https://biocontainers.pro/tools/malt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for malt", "latest": {"0.61--hdfd78af_0": "sha256:1ffb4475e9073aed1b8620fa5436d1d01c48c0ba6319491650d444c78c950259"}, "tags": {"0.53--hdfd78af_0": "sha256:5bc6018958dd52f946ce816d0d9e5450c3b851198eb138844266f063a2bb7af1", "0.61--hdfd78af_0": "sha256:1ffb4475e9073aed1b8620fa5436d1d01c48c0ba6319491650d444c78c950259"}, "docker": "quay.io/biocontainers/malt", "aliases": {"malt-build": "/usr/local/bin/malt-build", "malt-run": "/usr/local/bin/malt-run", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/malt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for malt", "latest": {"0.62--hdfd78af_0": "sha256:8c6e61ecf93f141870f29648ab898a32cdc817827d19ef9dfe0f3e0be4e5ad87"}, "tags": {"0.53--hdfd78af_0": "sha256:5bc6018958dd52f946ce816d0d9e5450c3b851198eb138844266f063a2bb7af1", "0.61--hdfd78af_0": "sha256:1ffb4475e9073aed1b8620fa5436d1d01c48c0ba6319491650d444c78c950259", "0.62--hdfd78af_0": "sha256:8c6e61ecf93f141870f29648ab898a32cdc817827d19ef9dfe0f3e0be4e5ad87"}, "docker": "quay.io/biocontainers/malt", "aliases": {"malt-build": "/usr/local/bin/malt-build", "malt-run": "/usr/local/bin/malt-run", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/malt.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/malt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/malt:0.61--hdfd78af_0
+$ shpc install quay.io/biocontainers/malt:0.62--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/malt/0.61--hdfd78af_0
-$ module help quay.io/biocontainers/malt/0.61--hdfd78af_0
+$ module load quay.io/biocontainers/malt/0.62--hdfd78af_0
+$ module help quay.io/biocontainers/malt/0.62--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
