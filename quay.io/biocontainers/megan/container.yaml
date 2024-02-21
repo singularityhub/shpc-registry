@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/megan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for megan
 latest:
-  6.24.20--h9ee0642_0: sha256:ea9d322bb14e6823a32af1ab6eb56bd0f999674d435a4c20f3e4897e39aac662
+  6.25.9--h9ee0642_0: sha256:fcde7c8b352e21533d6835d1868121e4eb0c9fded208a5a1aadd4860ba3564df
 tags:
   6.21.7--h9ee0642_0: sha256:537fb81ee0151a2299ca82649e00f92a8e44f1f6bb3f85a26e9b2e902dbc91b7
   6.24.20--h9ee0642_0: sha256:ea9d322bb14e6823a32af1ab6eb56bd0f999674d435a4c20f3e4897e39aac662
+  6.25.9--h9ee0642_0: sha256:fcde7c8b352e21533d6835d1868121e4eb0c9fded208a5a1aadd4860ba3564df
 docker: quay.io/biocontainers/megan
 aliases:
   MEGAN: /usr/local/bin/MEGAN

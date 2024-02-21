@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/biocode
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biocode
 latest:
-  0.10.0--pyhdfd78af_0: sha256:7cc4e85ff845ac231776f2022d33f4c01af1b1bf4ebfb41835ce4cdbc30db4e8
+  0.11.0--pyhdfd78af_0: sha256:22d4a025b2ad104c751e7eb8c36f81702cf1800aaf621cf03d4fda8d8ccc42b5
 tags:
   0.10.0--pyhdfd78af_0: sha256:7cc4e85ff845ac231776f2022d33f4c01af1b1bf4ebfb41835ce4cdbc30db4e8
+  0.11.0--pyhdfd78af_0: sha256:22d4a025b2ad104c751e7eb8c36f81702cf1800aaf621cf03d4fda8d8ccc42b5
 docker: quay.io/biocontainers/biocode
 aliases:
   add_gff3_locus_tags.py: /usr/local/bin/add_gff3_locus_tags.py

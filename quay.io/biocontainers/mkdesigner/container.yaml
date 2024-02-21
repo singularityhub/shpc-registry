@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/mkdesigner
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mkdesigner
 latest:
-  0.3.1--pyhdfd78af_0: sha256:e003a60a1e84724c3d9c6db59a75f0fdad46c013f13f02edd8ad3efaa00b5b31
+  0.3.4--pyhdfd78af_0: sha256:66a78fbaaaddb070627526c9f776b84068c0fed281915a887143949c7f2b3f7b
 tags:
   0.1.1--pyh7cba7a3_0: sha256:69f19bbff348f9312d60de1b483a99ec8ed52dc7d0274e33f1d437a6d699e677
   0.2.1--pyh7cba7a3_0: sha256:d026804e37c1bf3e8e440e0a3d5fdf84e30343a79f57e4fe93c0a8e4f40f4ddc
   0.3.1--pyhdfd78af_0: sha256:e003a60a1e84724c3d9c6db59a75f0fdad46c013f13f02edd8ad3efaa00b5b31
+  0.3.4--pyhdfd78af_0: sha256:66a78fbaaaddb070627526c9f776b84068c0fed281915a887143949c7f2b3f7b
 docker: quay.io/biocontainers/mkdesigner
 aliases:
   blastn_vdb: /usr/local/bin/blastn_vdb

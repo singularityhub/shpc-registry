@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/dimet
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dimet
 latest:
-  0.1.4--pyhdfd78af_0: sha256:74c7f55596b52f566e1b86ec64fa8bd93bfae7d42c4e7a2ed3ef61b658dde67c
+  0.2.1--pyhdfd78af_0: sha256:161d30b4a14b1bb7ee011924f29d6e241695db52d0f08200ed39557094d342c4
 tags:
   0.1.0--pyhdfd78af_0: sha256:a993b30cda1a57e963612a68fd991e958fa2baeacba9227e848b37cfa6f2185b
   0.1.3--pyhdfd78af_0: sha256:aab2c0304cb9c65d7ff83dd730c3840befe3b4fa151c8c557ff7fe7065b90abc
   0.1.4--pyhdfd78af_0: sha256:74c7f55596b52f566e1b86ec64fa8bd93bfae7d42c4e7a2ed3ef61b658dde67c
+  0.2.1--pyhdfd78af_0: sha256:161d30b4a14b1bb7ee011924f29d6e241695db52d0f08200ed39557094d342c4
 docker: quay.io/biocontainers/dimet
 aliases:
   dotenv: /usr/local/bin/dotenv

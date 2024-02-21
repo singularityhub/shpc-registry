@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-easydifferentialgenecoexpression
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-easydifferentialgenecoexpression
 latest:
-  1.0--r43h3121a25_2: sha256:1125c986b28cb1be545ff388ea4f0ac039c68511db53488a47cf23f10764b964
+  1.4--r43h3121a25_0: sha256:30aac6bdf9a256cfcf5be139dd79a45148e8c7f054aae366c8073f6e8ba09b51
 tags:
   1.0--r42h3121a25_1: sha256:b68d7fb65d2efe73fc7d0f22d2db9c98c77f2d7b5b0737efa3c4d8b784d030c7
   1.0--r43h3121a25_2: sha256:1125c986b28cb1be545ff388ea4f0ac039c68511db53488a47cf23f10764b964
+  1.4--r43h3121a25_0: sha256:30aac6bdf9a256cfcf5be139dd79a45148e8c7f054aae366c8073f6e8ba09b51
 docker: quay.io/biocontainers/r-easydifferentialgenecoexpression
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
