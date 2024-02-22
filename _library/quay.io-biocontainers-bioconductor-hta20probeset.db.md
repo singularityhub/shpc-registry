@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hta20probeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hta20probeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hta20probeset.db/container.yaml"
-updated_at: "2024-02-22 03:26:12.485840"
+updated_at: "2024-02-22 04:45:19.582728"
 latest: "8.8.0--r43hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/bioconductor-hta20probeset.db"
 
