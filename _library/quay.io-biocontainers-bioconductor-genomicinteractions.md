@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomicinteractions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicinteractions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicinteractions/container.yaml"
-updated_at: "2024-02-22 02:44:39.401772"
+updated_at: "2024-02-22 03:13:27.074867"
 latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicinteractions"
 
