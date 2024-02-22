@@ -13,7 +13,8 @@ aliases:
 description: Pawsey build of PyTorch for AMD GPUs.
 
 latest:
-  2.1.2-rocm5.6.0: sha256:d8f91fb847ff2f3a38c091e5d69a628cd7637739ab90db5ab42e596d67a48073
+  2.2.0-rocm5.6.0: sha256:148b1d0842cd70acd6cc4b5d3cd2da7a426f56442317d2b722915baf82d7f5ff
 tags:
+  2.2.0-rocm5.6.0: sha256:148b1d0842cd70acd6cc4b5d3cd2da7a426f56442317d2b722915baf82d7f5ff
   2.1.2-rocm5.6.0: sha256:d8f91fb847ff2f3a38c091e5d69a628cd7637739ab90db5ab42e596d67a48073
   2.1.0-rocm5.6.0: sha256:3dbe6711f170d409cba0e25577859799e97eccb80c3d1b8b6df5bd6cf8c0aea6
