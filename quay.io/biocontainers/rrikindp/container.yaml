@@ -1,0 +1,48 @@
+url: https://biocontainers.pro/tools/rrikindp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rrikindp
+latest:
+  0.0.1--py38h820c706_0: sha256:3cc6029f8790d0c2ee284f30abfd10a68ba1c72c707b038af90435f41b7f1352
+tags:
+  0.0.1--py38h820c706_0: sha256:3cc6029f8790d0c2ee284f30abfd10a68ba1c72c707b038af90435f41b7f1352
+docker: quay.io/biocontainers/rrikindp
+aliases:
+  CopomuS.py: /usr/local/bin/CopomuS.py
+  IntaRNA: /usr/local/bin/IntaRNA
+  IntaRNA1: /usr/local/bin/IntaRNA1
+  IntaRNA2: /usr/local/bin/IntaRNA2
+  IntaRNA3: /usr/local/bin/IntaRNA3
+  IntaRNA_CSV_p-value.R: /usr/local/bin/IntaRNA_CSV_p-value.R
+  IntaRNA_plotRegions.R: /usr/local/bin/IntaRNA_plotRegions.R
+  IntaRNAduplex: /usr/local/bin/IntaRNAduplex
+  IntaRNAens: /usr/local/bin/IntaRNAens
+  IntaRNAexact: /usr/local/bin/IntaRNAexact
+  IntaRNAhelix: /usr/local/bin/IntaRNAhelix
+  IntaRNAsTar: /usr/local/bin/IntaRNAsTar
+  IntaRNAseed: /usr/local/bin/IntaRNAseed
+  RRIkinDP: /usr/local/bin/RRIkinDP
+  RNAmultifold: /usr/local/bin/RNAmultifold
+  RNAdos: /usr/local/bin/RNAdos
+  AnalyseDists: /usr/local/bin/AnalyseDists
+  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
+  RNAlocmin: /usr/local/bin/RNAlocmin
+  RNApvmin: /usr/local/bin/RNApvmin
+  b2ct: /usr/local/bin/b2ct
+  ct2db: /usr/local/bin/ct2db
+  kinwalker: /usr/local/bin/kinwalker
+  popt: /usr/local/bin/popt
+  RNA2Dfold: /usr/local/bin/RNA2Dfold
+  RNALalifold: /usr/local/bin/RNALalifold
+  RNAPKplex: /usr/local/bin/RNAPKplex
+  RNAparconv: /usr/local/bin/RNAparconv
+  RNAplex: /usr/local/bin/RNAplex
+  RNAsnoop: /usr/local/bin/RNAsnoop
+  RNAfold: /usr/local/bin/RNAfold
+  Kinfold: /usr/local/bin/Kinfold
+  RNALfold: /usr/local/bin/RNALfold
+  RNAaliduplex: /usr/local/bin/RNAaliduplex
+  RNAalifold: /usr/local/bin/RNAalifold
+  RNAcofold: /usr/local/bin/RNAcofold
+  RNAdistance: /usr/local/bin/RNAdistance
+  RNAduplex: /usr/local/bin/RNAduplex
+  RNAeval: /usr/local/bin/RNAeval
