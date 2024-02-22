@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orfanage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orfanage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orfanage/container.yaml"
-updated_at: "2024-02-21 02:41:53.277495"
+updated_at: "2024-02-22 02:42:19.624567"
 latest: "1.1.0--ha666654_0"
 container_url: "https://biocontainers.pro/tools/orfanage"
 aliases:

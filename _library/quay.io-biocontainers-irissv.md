@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/irissv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irissv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/irissv/container.yaml"
-updated_at: "2024-02-21 02:51:38.124928"
-latest: "1.0.4--hdfd78af_2"
+updated_at: "2024-02-22 02:52:20.733383"
+latest: "1.0.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/irissv"
 aliases:
  - "iris"
@@ -22,8 +22,9 @@ aliases:
  - "jfr"
 versions:
  - "1.0.4--hdfd78af_2"
+ - "1.0.5--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for irissv"
-config: {"url": "https://biocontainers.pro/tools/irissv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irissv", "latest": {"1.0.4--hdfd78af_2": "sha256:e854b554b11377b9b47f32d1c33b13d84b9fde2c5b99045d946f1e01568ec6a1"}, "tags": {"1.0.4--hdfd78af_2": "sha256:e854b554b11377b9b47f32d1c33b13d84b9fde2c5b99045d946f1e01568ec6a1"}, "docker": "quay.io/biocontainers/irissv", "aliases": {"iris": "/usr/local/bin/iris", "iris.jar": "/usr/local/bin/iris.jar", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "jfr": "/usr/local/bin/jfr"}}
+config: {"url": "https://biocontainers.pro/tools/irissv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irissv", "latest": {"1.0.5--hdfd78af_0": "sha256:3e0824519576230a72746de9722f7dc9bc6965794b30414158262731643b956f"}, "tags": {"1.0.4--hdfd78af_2": "sha256:e854b554b11377b9b47f32d1c33b13d84b9fde2c5b99045d946f1e01568ec6a1", "1.0.5--hdfd78af_0": "sha256:3e0824519576230a72746de9722f7dc9bc6965794b30414158262731643b956f"}, "docker": "quay.io/biocontainers/irissv", "aliases": {"iris": "/usr/local/bin/iris", "iris.jar": "/usr/local/bin/iris.jar", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "jfr": "/usr/local/bin/jfr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/irissv.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/irissv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/irissv:1.0.4--hdfd78af_2
+$ shpc install quay.io/biocontainers/irissv:1.0.5--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/irissv/1.0.4--hdfd78af_2
-$ module help quay.io/biocontainers/irissv/1.0.4--hdfd78af_2
+$ module load quay.io/biocontainers/irissv/1.0.5--hdfd78af_0
+$ module help quay.io/biocontainers/irissv/1.0.5--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

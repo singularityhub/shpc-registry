@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-levi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-levi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-levi/container.yaml"
-updated_at: "2024-02-21 02:58:16.534164"
+updated_at: "2024-02-22 02:59:14.678494"
 latest: "1.20.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-levi"
 aliases:

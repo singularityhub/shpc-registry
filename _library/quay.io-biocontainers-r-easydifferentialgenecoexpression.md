@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-easydifferentialgenecoexpression"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-easydifferentialgenecoexpression/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-easydifferentialgenecoexpression/container.yaml"
-updated_at: "2024-02-21 03:02:04.171110"
-latest: "1.0--r43h3121a25_2"
+updated_at: "2024-02-22 03:03:09.715009"
+latest: "1.4--r43h3121a25_0"
 container_url: "https://biocontainers.pro/tools/r-easydifferentialgenecoexpression"
 aliases:
  - "installBiocDataPackage.sh"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "1.0--r42h3121a25_1"
  - "1.0--r43h3121a25_2"
+ - "1.4--r43h3121a25_0"
 description: "singularity registry hpc automated addition for r-easydifferentialgenecoexpression"
-config: {"url": "https://biocontainers.pro/tools/r-easydifferentialgenecoexpression", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-easydifferentialgenecoexpression", "latest": {"1.0--r43h3121a25_2": "sha256:1125c986b28cb1be545ff388ea4f0ac039c68511db53488a47cf23f10764b964"}, "tags": {"1.0--r42h3121a25_1": "sha256:b68d7fb65d2efe73fc7d0f22d2db9c98c77f2d7b5b0737efa3c4d8b784d030c7", "1.0--r43h3121a25_2": "sha256:1125c986b28cb1be545ff388ea4f0ac039c68511db53488a47cf23f10764b964"}, "docker": "quay.io/biocontainers/r-easydifferentialgenecoexpression", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-easydifferentialgenecoexpression", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-easydifferentialgenecoexpression", "latest": {"1.4--r43h3121a25_0": "sha256:30aac6bdf9a256cfcf5be139dd79a45148e8c7f054aae366c8073f6e8ba09b51"}, "tags": {"1.0--r42h3121a25_1": "sha256:b68d7fb65d2efe73fc7d0f22d2db9c98c77f2d7b5b0737efa3c4d8b784d030c7", "1.0--r43h3121a25_2": "sha256:1125c986b28cb1be545ff388ea4f0ac039c68511db53488a47cf23f10764b964", "1.4--r43h3121a25_0": "sha256:30aac6bdf9a256cfcf5be139dd79a45148e8c7f054aae366c8073f6e8ba09b51"}, "docker": "quay.io/biocontainers/r-easydifferentialgenecoexpression", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-easydifferentialgenecoexpression.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/r-easydifferentialgenecoexpression
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-easydifferentialgenecoexpression:1.0--r43h3121a25_2
+$ shpc install quay.io/biocontainers/r-easydifferentialgenecoexpression:1.4--r43h3121a25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-easydifferentialgenecoexpression/1.0--r43h3121a25_2
-$ module help quay.io/biocontainers/r-easydifferentialgenecoexpression/1.0--r43h3121a25_2
+$ module load quay.io/biocontainers/r-easydifferentialgenecoexpression/1.4--r43h3121a25_0
+$ module help quay.io/biocontainers/r-easydifferentialgenecoexpression/1.4--r43h3121a25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

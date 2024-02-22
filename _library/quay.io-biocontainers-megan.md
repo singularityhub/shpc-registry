@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/megan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/megan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/megan/container.yaml"
-updated_at: "2024-02-21 02:37:51.370940"
-latest: "6.24.20--h9ee0642_0"
+updated_at: "2024-02-22 02:38:11.028598"
+latest: "6.25.9--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/megan"
 aliases:
  - "MEGAN"
@@ -40,8 +40,9 @@ aliases:
 versions:
  - "6.21.7--h9ee0642_0"
  - "6.24.20--h9ee0642_0"
+ - "6.25.9--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for megan"
-config: {"url": "https://biocontainers.pro/tools/megan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for megan", "latest": {"6.24.20--h9ee0642_0": "sha256:ea9d322bb14e6823a32af1ab6eb56bd0f999674d435a4c20f3e4897e39aac662"}, "tags": {"6.21.7--h9ee0642_0": "sha256:537fb81ee0151a2299ca82649e00f92a8e44f1f6bb3f85a26e9b2e902dbc91b7", "6.24.20--h9ee0642_0": "sha256:ea9d322bb14e6823a32af1ab6eb56bd0f999674d435a4c20f3e4897e39aac662"}, "docker": "quay.io/biocontainers/megan", "aliases": {"MEGAN": "/usr/local/bin/MEGAN", "aadder-build": "/usr/local/bin/aadder-build", "aadder-run": "/usr/local/bin/aadder-run", "blast2lca": "/usr/local/bin/blast2lca", "blast2rma": "/usr/local/bin/blast2rma", "compute-comparison": "/usr/local/bin/compute-comparison", "daa-meganizer": "/usr/local/bin/daa-meganizer", "daa2info": "/usr/local/bin/daa2info", "daa2rma": "/usr/local/bin/daa2rma", "extract-biome": "/usr/local/bin/extract-biome", "gc-assembler": "/usr/local/bin/gc-assembler", "maf2daa": "/usr/local/bin/maf2daa", "megan-server": "/usr/local/bin/megan-server", "read-extractor": "/usr/local/bin/read-extractor", "reanalyzer": "/usr/local/bin/reanalyzer", "references-annotator": "/usr/local/bin/references-annotator", "rma2info": "/usr/local/bin/rma2info", "sam2rma": "/usr/local/bin/sam2rma", "sort-last-maf": "/usr/local/bin/sort-last-maf", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/megan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for megan", "latest": {"6.25.9--h9ee0642_0": "sha256:fcde7c8b352e21533d6835d1868121e4eb0c9fded208a5a1aadd4860ba3564df"}, "tags": {"6.21.7--h9ee0642_0": "sha256:537fb81ee0151a2299ca82649e00f92a8e44f1f6bb3f85a26e9b2e902dbc91b7", "6.24.20--h9ee0642_0": "sha256:ea9d322bb14e6823a32af1ab6eb56bd0f999674d435a4c20f3e4897e39aac662", "6.25.9--h9ee0642_0": "sha256:fcde7c8b352e21533d6835d1868121e4eb0c9fded208a5a1aadd4860ba3564df"}, "docker": "quay.io/biocontainers/megan", "aliases": {"MEGAN": "/usr/local/bin/MEGAN", "aadder-build": "/usr/local/bin/aadder-build", "aadder-run": "/usr/local/bin/aadder-run", "blast2lca": "/usr/local/bin/blast2lca", "blast2rma": "/usr/local/bin/blast2rma", "compute-comparison": "/usr/local/bin/compute-comparison", "daa-meganizer": "/usr/local/bin/daa-meganizer", "daa2info": "/usr/local/bin/daa2info", "daa2rma": "/usr/local/bin/daa2rma", "extract-biome": "/usr/local/bin/extract-biome", "gc-assembler": "/usr/local/bin/gc-assembler", "maf2daa": "/usr/local/bin/maf2daa", "megan-server": "/usr/local/bin/megan-server", "read-extractor": "/usr/local/bin/read-extractor", "reanalyzer": "/usr/local/bin/reanalyzer", "references-annotator": "/usr/local/bin/references-annotator", "rma2info": "/usr/local/bin/rma2info", "sam2rma": "/usr/local/bin/sam2rma", "sort-last-maf": "/usr/local/bin/sort-last-maf", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/megan.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/megan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/megan:6.24.20--h9ee0642_0
+$ shpc install quay.io/biocontainers/megan:6.25.9--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/megan/6.24.20--h9ee0642_0
-$ module help quay.io/biocontainers/megan/6.24.20--h9ee0642_0
+$ module load quay.io/biocontainers/megan/6.25.9--h9ee0642_0
+$ module help quay.io/biocontainers/megan/6.25.9--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
