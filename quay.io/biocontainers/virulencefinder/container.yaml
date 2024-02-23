@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/virulencefinder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for virulencefinder
 latest:
-  2.0.4--hdfd78af_0: sha256:36729c8e3016d23bd44b4ebc928412d7931b9289330ba48f7c0eab79a2a70337
+  2.0.4--hdfd78af_1: sha256:62d5336b85bf6abdd9a2c78a9b8983ea6253c08413f1a286181233e6e467953f
 tags:
   2.0.4--hdfd78af_0: sha256:36729c8e3016d23bd44b4ebc928412d7931b9289330ba48f7c0eab79a2a70337
+  2.0.4--hdfd78af_1: sha256:62d5336b85bf6abdd9a2c78a9b8983ea6253c08413f1a286181233e6e467953f
 docker: quay.io/biocontainers/virulencefinder
 aliases:
   download-virulence-db.sh: /usr/local/bin/download-virulence-db.sh
