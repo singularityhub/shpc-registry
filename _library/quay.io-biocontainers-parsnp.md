@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/parsnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parsnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parsnp/container.yaml"
-updated_at: "2024-02-23 02:53:11.005712"
-latest: "2.0.2--hdcf5f25_0"
+updated_at: "2024-02-24 02:50:35.063722"
+latest: "2.0.3--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/parsnp"
 aliases:
  - "Phi"
@@ -29,8 +29,9 @@ versions:
  - "1.7.4--hd03093a_1"
  - "1.7.4--hdcf5f25_2"
  - "2.0.2--hdcf5f25_0"
+ - "2.0.3--hdcf5f25_0"
 description: "shpc-registry automated BioContainers addition for parsnp"
-config: {"url": "https://biocontainers.pro/tools/parsnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for parsnp", "latest": {"2.0.2--hdcf5f25_0": "sha256:92f65467c9c98dee883cccf053b0846a6fd9b9a37cca30fe3fe3582017278850"}, "tags": {"1.7.4--hd03093a_1": "sha256:92ec26ccc5ad8c73fc010f9deb5594ce9e63874516ca12aad069988256fb5158", "1.7.4--hdcf5f25_2": "sha256:635ec260e74a45ba1a1c98361ca0a6426214cd1a4fbf2630160621110378033f", "2.0.2--hdcf5f25_0": "sha256:92f65467c9c98dee883cccf053b0846a6fd9b9a37cca30fe3fe3582017278850"}, "docker": "quay.io/biocontainers/parsnp", "aliases": {"Phi": "/usr/local/bin/Phi", "Profile": "/usr/local/bin/Profile", "extend.py": "/usr/local/bin/extend.py", "harvesttools": "/usr/local/bin/harvesttools", "logger.py": "/usr/local/bin/logger.py", "parsnp": "/usr/local/bin/parsnp", "template.ini": "/usr/local/bin/template.ini", "fastANI": "/usr/local/bin/fastANI", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++"}}
+config: {"url": "https://biocontainers.pro/tools/parsnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for parsnp", "latest": {"2.0.3--hdcf5f25_0": "sha256:b46999fb9842f183443dd6226b461c1d8074d4c1391c1f2b1e51cc20cee8f8b2"}, "tags": {"1.7.4--hd03093a_1": "sha256:92ec26ccc5ad8c73fc010f9deb5594ce9e63874516ca12aad069988256fb5158", "1.7.4--hdcf5f25_2": "sha256:635ec260e74a45ba1a1c98361ca0a6426214cd1a4fbf2630160621110378033f", "2.0.2--hdcf5f25_0": "sha256:92f65467c9c98dee883cccf053b0846a6fd9b9a37cca30fe3fe3582017278850", "2.0.3--hdcf5f25_0": "sha256:b46999fb9842f183443dd6226b461c1d8074d4c1391c1f2b1e51cc20cee8f8b2"}, "docker": "quay.io/biocontainers/parsnp", "aliases": {"Phi": "/usr/local/bin/Phi", "Profile": "/usr/local/bin/Profile", "extend.py": "/usr/local/bin/extend.py", "harvesttools": "/usr/local/bin/harvesttools", "logger.py": "/usr/local/bin/logger.py", "parsnp": "/usr/local/bin/parsnp", "template.ini": "/usr/local/bin/template.ini", "fastANI": "/usr/local/bin/fastANI", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/parsnp.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/parsnp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/parsnp:2.0.2--hdcf5f25_0
+$ shpc install quay.io/biocontainers/parsnp:2.0.3--hdcf5f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/parsnp/2.0.2--hdcf5f25_0
-$ module help quay.io/biocontainers/parsnp/2.0.2--hdcf5f25_0
+$ module load quay.io/biocontainers/parsnp/2.0.3--hdcf5f25_0
+$ module help quay.io/biocontainers/parsnp/2.0.3--hdcf5f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

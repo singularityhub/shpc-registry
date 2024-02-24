@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/virulencefinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virulencefinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virulencefinder/container.yaml"
-updated_at: "2024-02-23 02:51:02.425286"
-latest: "2.0.4--hdfd78af_0"
+updated_at: "2024-02-24 02:48:26.628127"
+latest: "2.0.4--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/virulencefinder"
 aliases:
  - "download-virulence-db.sh"
@@ -41,8 +41,9 @@ aliases:
  - "transmute.Linux"
 versions:
  - "2.0.4--hdfd78af_0"
+ - "2.0.4--hdfd78af_1"
 description: "singularity registry hpc automated addition for virulencefinder"
-config: {"url": "https://biocontainers.pro/tools/virulencefinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for virulencefinder", "latest": {"2.0.4--hdfd78af_0": "sha256:36729c8e3016d23bd44b4ebc928412d7931b9289330ba48f7c0eab79a2a70337"}, "tags": {"2.0.4--hdfd78af_0": "sha256:36729c8e3016d23bd44b4ebc928412d7931b9289330ba48f7c0eab79a2a70337"}, "docker": "quay.io/biocontainers/virulencefinder", "aliases": {"download-virulence-db.sh": "/usr/local/bin/download-virulence-db.sh", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "virulencefinder.py": "/usr/local/bin/virulencefinder.py", "tabulate": "/usr/local/bin/tabulate", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs", "snp2tbl": "/usr/local/bin/snp2tbl", "sort-table": "/usr/local/bin/sort-table", "spdi2tbl": "/usr/local/bin/spdi2tbl", "split-at-intron": "/usr/local/bin/split-at-intron", "tbl2xml": "/usr/local/bin/tbl2xml", "transmute.Linux": "/usr/local/bin/transmute.Linux"}}
+config: {"url": "https://biocontainers.pro/tools/virulencefinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for virulencefinder", "latest": {"2.0.4--hdfd78af_1": "sha256:62d5336b85bf6abdd9a2c78a9b8983ea6253c08413f1a286181233e6e467953f"}, "tags": {"2.0.4--hdfd78af_0": "sha256:36729c8e3016d23bd44b4ebc928412d7931b9289330ba48f7c0eab79a2a70337", "2.0.4--hdfd78af_1": "sha256:62d5336b85bf6abdd9a2c78a9b8983ea6253c08413f1a286181233e6e467953f"}, "docker": "quay.io/biocontainers/virulencefinder", "aliases": {"download-virulence-db.sh": "/usr/local/bin/download-virulence-db.sh", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "virulencefinder.py": "/usr/local/bin/virulencefinder.py", "tabulate": "/usr/local/bin/tabulate", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs", "snp2tbl": "/usr/local/bin/snp2tbl", "sort-table": "/usr/local/bin/sort-table", "spdi2tbl": "/usr/local/bin/spdi2tbl", "split-at-intron": "/usr/local/bin/split-at-intron", "tbl2xml": "/usr/local/bin/tbl2xml", "transmute.Linux": "/usr/local/bin/transmute.Linux"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/virulencefinder.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/virulencefinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/virulencefinder:2.0.4--hdfd78af_0
+$ shpc install quay.io/biocontainers/virulencefinder:2.0.4--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/virulencefinder/2.0.4--hdfd78af_0
-$ module help quay.io/biocontainers/virulencefinder/2.0.4--hdfd78af_0
+$ module load quay.io/biocontainers/virulencefinder/2.0.4--hdfd78af_1
+$ module help quay.io/biocontainers/virulencefinder/2.0.4--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
