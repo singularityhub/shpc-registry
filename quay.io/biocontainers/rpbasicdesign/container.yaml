@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rpbasicdesign
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rpbasicdesign
 latest:
-  1.1.1: sha256:aaf1679ea79d30e824d51409e44152116c5c93fad9091c254932551171dab8e5
+  1.2.2: sha256:f59d1c386b9a480db60ce2de15181a56ae8c88027219c361c3f954e16d2f0afa
 tags:
   1.1.1: sha256:aaf1679ea79d30e824d51409e44152116c5c93fad9091c254932551171dab8e5
+  1.2.2: sha256:f59d1c386b9a480db60ce2de15181a56ae8c88027219c361c3f954e16d2f0afa
 docker: quay.io/biocontainers/rpbasicdesign
 aliases:
   depinfo: /usr/local/bin/depinfo
