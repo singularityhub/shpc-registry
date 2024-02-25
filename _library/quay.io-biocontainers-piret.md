@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/piret"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piret/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piret/container.yaml"
-updated_at: "2024-02-24 02:51:23.635268"
+updated_at: "2024-02-25 02:54:08.237294"
 latest: "0.3.4--1"
 container_url: "https://biocontainers.pro/tools/piret"
 aliases:

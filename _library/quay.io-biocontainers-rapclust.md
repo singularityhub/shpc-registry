@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rapclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rapclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rapclust/container.yaml"
-updated_at: "2024-02-24 02:56:22.857963"
+updated_at: "2024-02-25 02:58:55.104231"
 latest: "0.1.2--pyh24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/rapclust"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-metacoder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metacoder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metacoder/container.yaml"
-updated_at: "2024-02-24 02:52:48.325667"
-latest: "0.3.6--r43h21a89ab_3"
+updated_at: "2024-02-25 02:55:30.661580"
+latest: "0.3.7--r43h21a89ab_0"
 container_url: "https://biocontainers.pro/tools/r-metacoder"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "0.3.6--r42hecf12ef_0"
  - "0.3.6--r42h21a89ab_2"
  - "0.3.6--r43h21a89ab_3"
+ - "0.3.7--r43h21a89ab_0"
 description: "shpc-registry automated BioContainers addition for r-metacoder"
-config: {"url": "https://biocontainers.pro/tools/r-metacoder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metacoder", "latest": {"0.3.6--r43h21a89ab_3": "sha256:fcb42d660e9446f88456a9e63fa0d0ea7dfa190409ff8893a4d9b5cdc5c8f7e1"}, "tags": {"0.3.5--r41hecf12ef_1": "sha256:8696246aa3556d541a75ec7bb7554db97bdfc3a513509cc3bbf4bf58fde44510", "0.3.5--r42hecf12ef_2": "sha256:014f333643f9a42999ff7c1296428e728315227f0fe4616564252563c195f906", "0.3.6--r42hecf12ef_0": "sha256:2f75d9904806ecc15a4049df0388875ddc815b4c66744e6083ba74adae49bda1", "0.3.6--r42h21a89ab_2": "sha256:a431956ce6c59b67e106ac7781174a3731aeaa6374d676d085ed875af270bc50", "0.3.6--r43h21a89ab_3": "sha256:fcb42d660e9446f88456a9e63fa0d0ea7dfa190409ff8893a4d9b5cdc5c8f7e1"}, "docker": "quay.io/biocontainers/r-metacoder"}
+config: {"url": "https://biocontainers.pro/tools/r-metacoder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metacoder", "latest": {"0.3.7--r43h21a89ab_0": "sha256:d571b5f003fe60ad542bd6112ab838736fced3d9d3c1eb358f731536224e9cf1"}, "tags": {"0.3.5--r41hecf12ef_1": "sha256:8696246aa3556d541a75ec7bb7554db97bdfc3a513509cc3bbf4bf58fde44510", "0.3.5--r42hecf12ef_2": "sha256:014f333643f9a42999ff7c1296428e728315227f0fe4616564252563c195f906", "0.3.6--r42hecf12ef_0": "sha256:2f75d9904806ecc15a4049df0388875ddc815b4c66744e6083ba74adae49bda1", "0.3.6--r42h21a89ab_2": "sha256:a431956ce6c59b67e106ac7781174a3731aeaa6374d676d085ed875af270bc50", "0.3.6--r43h21a89ab_3": "sha256:fcb42d660e9446f88456a9e63fa0d0ea7dfa190409ff8893a4d9b5cdc5c8f7e1", "0.3.7--r43h21a89ab_0": "sha256:d571b5f003fe60ad542bd6112ab838736fced3d9d3c1eb358f731536224e9cf1"}, "docker": "quay.io/biocontainers/r-metacoder"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-metacoder.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-metacoder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-metacoder:0.3.6--r43h21a89ab_3
+$ shpc install quay.io/biocontainers/r-metacoder:0.3.7--r43h21a89ab_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-metacoder/0.3.6--r43h21a89ab_3
-$ module help quay.io/biocontainers/r-metacoder/0.3.6--r43h21a89ab_3
+$ module load quay.io/biocontainers/r-metacoder/0.3.7--r43h21a89ab_0
+$ module help quay.io/biocontainers/r-metacoder/0.3.7--r43h21a89ab_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

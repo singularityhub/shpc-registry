@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rpbasicdesign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rpbasicdesign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rpbasicdesign/container.yaml"
-updated_at: "2024-02-24 02:43:43.884939"
-latest: "1.1.1"
+updated_at: "2024-02-25 02:46:56.570927"
+latest: "1.2.2"
 container_url: "https://biocontainers.pro/tools/rpbasicdesign"
 aliases:
  - "depinfo"
@@ -32,8 +32,9 @@ aliases:
  - "obprop"
 versions:
  - "1.1.1"
+ - "1.2.2"
 description: "shpc-registry automated BioContainers addition for rpbasicdesign"
-config: {"url": "https://biocontainers.pro/tools/rpbasicdesign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rpbasicdesign", "latest": {"1.1.1": "sha256:aaf1679ea79d30e824d51409e44152116c5c93fad9091c254932551171dab8e5"}, "tags": {"1.1.1": "sha256:aaf1679ea79d30e824d51409e44152116c5c93fad9091c254932551171dab8e5"}, "docker": "quay.io/biocontainers/rpbasicdesign", "aliases": {"depinfo": "/usr/local/bin/depinfo", "filetype": "/usr/local/bin/filetype", "httpx": "/usr/local/bin/httpx", "isympy": "/usr/local/bin/isympy", "obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "pint-convert": "/usr/local/bin/pint-convert", "search_zenodo": "/usr/local/bin/search_zenodo", "search_zenodo.py": "/usr/local/bin/search_zenodo.py", "slugify": "/usr/local/bin/slugify", "upload_zenodo": "/usr/local/bin/upload_zenodo", "upload_zenodo.py": "/usr/local/bin/upload_zenodo.py", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop"}}
+config: {"url": "https://biocontainers.pro/tools/rpbasicdesign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rpbasicdesign", "latest": {"1.2.2": "sha256:f59d1c386b9a480db60ce2de15181a56ae8c88027219c361c3f954e16d2f0afa"}, "tags": {"1.1.1": "sha256:aaf1679ea79d30e824d51409e44152116c5c93fad9091c254932551171dab8e5", "1.2.2": "sha256:f59d1c386b9a480db60ce2de15181a56ae8c88027219c361c3f954e16d2f0afa"}, "docker": "quay.io/biocontainers/rpbasicdesign", "aliases": {"depinfo": "/usr/local/bin/depinfo", "filetype": "/usr/local/bin/filetype", "httpx": "/usr/local/bin/httpx", "isympy": "/usr/local/bin/isympy", "obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "pint-convert": "/usr/local/bin/pint-convert", "search_zenodo": "/usr/local/bin/search_zenodo", "search_zenodo.py": "/usr/local/bin/search_zenodo.py", "slugify": "/usr/local/bin/slugify", "upload_zenodo": "/usr/local/bin/upload_zenodo", "upload_zenodo.py": "/usr/local/bin/upload_zenodo.py", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rpbasicdesign.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/rpbasicdesign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rpbasicdesign:1.1.1
+$ shpc install quay.io/biocontainers/rpbasicdesign:1.2.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rpbasicdesign/1.1.1
-$ module help quay.io/biocontainers/rpbasicdesign/1.1.1
+$ module load quay.io/biocontainers/rpbasicdesign/1.2.2
+$ module help quay.io/biocontainers/rpbasicdesign/1.2.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

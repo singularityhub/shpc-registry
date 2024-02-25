@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scrublet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scrublet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scrublet/container.yaml"
-updated_at: "2024-02-24 02:35:35.693301"
+updated_at: "2024-02-25 02:39:28.076882"
 latest: "0.2.3--pyh5e36f6f_1"
 container_url: "https://biocontainers.pro/tools/scrublet"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-data-munge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-munge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-munge/container.yaml"
-updated_at: "2024-02-24 02:26:42.137723"
+updated_at: "2024-02-25 02:31:15.429326"
 latest: "0.097--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-data-munge"
 aliases:
