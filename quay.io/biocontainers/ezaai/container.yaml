@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ezaai
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ezaai
 latest:
-  1.2.2--hdfd78af_0: sha256:6110f9ab539e534a0ed71644380429f2965a032eafe884bb15d48746e4f8d95a
+  1.2.3--hdfd78af_0: sha256:8ac2bc1b6a13c485024f52f021948136aae9700e033440d436a645c22ababf9e
 tags:
   1.2.2--hdfd78af_0: sha256:6110f9ab539e534a0ed71644380429f2965a032eafe884bb15d48746e4f8d95a
+  1.2.3--hdfd78af_0: sha256:8ac2bc1b6a13c485024f52f021948136aae9700e033440d436a645c22ababf9e
 docker: quay.io/biocontainers/ezaai
 aliases:
   EzAAI: /usr/local/bin/EzAAI

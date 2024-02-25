@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gxf2bed
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gxf2bed
 latest:
-  0.1.0--h4ac6f70_0: sha256:8b0610cd1a25541b12e382bc35b1568815edadafd753cc3b91b401441087efff
+  0.2.0--h4ac6f70_0: sha256:b5824362836a68e71ce1c002b219023d91e8c88ed131808367ce5efbfb77df3c
 tags:
   0.1.0--h4ac6f70_0: sha256:8b0610cd1a25541b12e382bc35b1568815edadafd753cc3b91b401441087efff
+  0.2.0--h4ac6f70_0: sha256:b5824362836a68e71ce1c002b219023d91e8c88ed131808367ce5efbfb77df3c
 docker: quay.io/biocontainers/gxf2bed
 aliases:
   gxf2bed: /usr/local/bin/gxf2bed
