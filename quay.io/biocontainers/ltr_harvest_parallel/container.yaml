@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/ltr_harvest_parallel
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ltr_harvest_parallel
+latest:
+  1.1--hdfd78af_0: sha256:5ed99acdb518e848a69a71b04a2ec7c6d898a23021c93474b4ffa66532b91755
+tags:
+  1.1--hdfd78af_0: sha256:5ed99acdb518e848a69a71b04a2ec7c6d898a23021c93474b4ffa66532b91755
+docker: quay.io/biocontainers/ltr_harvest_parallel
+aliases:
+  LTR_HARVEST_parallel: /usr/local/bin/LTR_HARVEST_parallel
+  genometools-config: /usr/local/bin/genometools-config
+  gt: /usr/local/bin/gt
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  hb-info: /usr/local/bin/hb-info
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
