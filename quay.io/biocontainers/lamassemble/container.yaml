@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/lamassemble
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for lamassemble
 latest:
-  1.7.0--pyh7cba7a3_0: sha256:ee9df442746e9b33165677fb6730b91e120344e3dea6cecb33e7a9038ef141f7
+  1.7.1--pyh7cba7a3_0: sha256:20b216589b4f2b8c1b87dc8dc8b64a00d0e77a7a86623da2fa675ccb5d1831fd
 tags:
   1.4.2--pyh3252c3a_0: sha256:5ecef7ef2e290a4388e6d025ecc4916cd5783094fe25d1beac158aa91275a918
   1.6.0--pyh7cba7a3_0: sha256:5b3d98437104051e330d90438b63746a736b601321e9f2a082139e5c6fe7ae8e
@@ -10,6 +10,7 @@ tags:
   1.6.1--pyh7cba7a3_0: sha256:f7f23ba59021a4c3994944a2632d1ad7ae9b148a94542a409acfd3e44e4c6e68
   1.7.0--pyh7cba7a3_0: sha256:ee9df442746e9b33165677fb6730b91e120344e3dea6cecb33e7a9038ef141f7
   1.6.2--pyh7cba7a3_0: sha256:00e0597a3c49842aa4c64a2b84f96e58ef5bc98b7276c58afca5221562bfb637
+  1.7.1--pyh7cba7a3_0: sha256:20b216589b4f2b8c1b87dc8dc8b64a00d0e77a7a86623da2fa675ccb5d1831fd
 docker: quay.io/biocontainers/lamassemble
 aliases:
   fastq-interleave: /usr/local/bin/fastq-interleave

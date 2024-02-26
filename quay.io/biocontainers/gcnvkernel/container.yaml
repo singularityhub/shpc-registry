@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gcnvkernel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gcnvkernel
 latest:
-  0.8--pyhdfd78af_0: sha256:0cad41b898e5d28902a58ef131760f1de43cffe4f7a0a07c4776ad05694ceb54
+  0.8--pyhdfd78af_1: sha256:b7132681687339407fe905d3f121a78297d69f1f9bca8704841f741362594341
 tags:
   0.7--py_0: sha256:0581c320698d99ef0625710ae602087e68d17a9689943232c92cfa4c716c8a93
   0.8--pyhdfd78af_0: sha256:0cad41b898e5d28902a58ef131760f1de43cffe4f7a0a07c4776ad05694ceb54
+  0.8--pyhdfd78af_1: sha256:b7132681687339407fe905d3f121a78297d69f1f9bca8704841f741362594341
 docker: quay.io/biocontainers/gcnvkernel
 aliases:
   theano-cache: /usr/local/bin/theano-cache
