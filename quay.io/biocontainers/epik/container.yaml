@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/epik
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for epik
+latest:
+  0.2.0--hdcf5f25_0: sha256:90c65d3506242405b62688c216aa7a33deb36d0d71786d20e33d13be82186148
+tags:
+  0.2.0--hdcf5f25_0: sha256:90c65d3506242405b62688c216aa7a33deb36d0d71786d20e33d13be82186148
+docker: quay.io/biocontainers/epik
+aliases:
+  epik-aa: /usr/local/bin/epik-aa
+  epik-dna: /usr/local/bin/epik-dna
+  epik.py: /usr/local/bin/epik.py
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
