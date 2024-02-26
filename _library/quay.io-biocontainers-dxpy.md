@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dxpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dxpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dxpy/container.yaml"
-updated_at: "2024-02-26 03:07:45.034746"
+updated_at: "2024-02-26 04:08:42.499992"
 latest: "0.318.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/dxpy"
 aliases:

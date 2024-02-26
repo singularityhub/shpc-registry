@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanocaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanocaller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanocaller/container.yaml"
-updated_at: "2024-02-26 03:01:24.084480"
+updated_at: "2024-02-26 04:02:00.101492"
 latest: "3.4.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanocaller"
 aliases:

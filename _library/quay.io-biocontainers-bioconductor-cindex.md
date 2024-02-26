@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cindex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cindex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cindex/container.yaml"
-updated_at: "2024-02-26 02:33:54.488489"
+updated_at: "2024-02-26 03:33:13.671243"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cindex"
 aliases:

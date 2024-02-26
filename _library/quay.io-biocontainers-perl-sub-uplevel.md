@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sub-uplevel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sub-uplevel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sub-uplevel/container.yaml"
-updated_at: "2024-02-26 02:37:42.288020"
+updated_at: "2024-02-26 03:37:12.742706"
 latest: "0.2800--pl5321hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/perl-sub-uplevel"
 aliases:

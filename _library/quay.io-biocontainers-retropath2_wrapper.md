@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/retropath2_wrapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/retropath2_wrapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/retropath2_wrapper/container.yaml"
-updated_at: "2024-02-26 02:28:20.020681"
+updated_at: "2024-02-26 03:27:24.652111"
 latest: "2.4.0"
 container_url: "https://biocontainers.pro/tools/retropath2_wrapper"
 aliases:

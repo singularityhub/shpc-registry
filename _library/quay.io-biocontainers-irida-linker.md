@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/irida-linker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irida-linker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/irida-linker/container.yaml"
-updated_at: "2024-02-26 02:33:39.251312"
+updated_at: "2024-02-26 03:32:57.637205"
 latest: "1.1.1--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/irida-linker"
 aliases:

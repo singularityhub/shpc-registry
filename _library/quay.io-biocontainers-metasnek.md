@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metasnek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metasnek/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metasnek/container.yaml"
-updated_at: "2024-02-26 02:36:31.959089"
+updated_at: "2024-02-26 03:35:59.666477"
 latest: "0.0.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metasnek"
 aliases:
