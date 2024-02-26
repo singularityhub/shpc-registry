@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/riassigner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riassigner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riassigner/container.yaml"
-updated_at: "2024-02-25 02:33:56.903082"
-latest: "0.3.4--pyhdfd78af_4"
+updated_at: "2024-02-26 02:35:07.965390"
+latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/riassigner"
 aliases:
  - "pint-convert"
@@ -25,8 +25,9 @@ versions:
  - "0.3.4--pyhdfd78af_1"
  - "0.3.4--pyhdfd78af_3"
  - "0.3.4--pyhdfd78af_4"
+ - "0.4.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for riassigner"
-config: {"url": "https://biocontainers.pro/tools/riassigner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for riassigner", "latest": {"0.3.4--pyhdfd78af_4": "sha256:2174d334db75b4b47789eb1b8569d3078fe3a81a143e3a7d3e10e6d4c9594b10"}, "tags": {"0.3.3--pyhdfd78af_0": "sha256:a4b56c866a9df417109b67788662226b2d1a58343891f542175f8592ed207cdc", "0.3.3--pyhdfd78af_1": "sha256:9263cd5da1716f29a0b4733dbc3a9dfa363c856cefd00b3d7d36869aaa141efe", "0.3.4--pyhdfd78af_1": "sha256:40b5ecfc42316878cd886b1c61e43c183e9cfd9cb01e81775b9199c3c3dfaa86", "0.3.4--pyhdfd78af_3": "sha256:18481d1c446b6c9196a60a8de59271331ee5931c2e8e834ca540e5b88a126e33", "0.3.4--pyhdfd78af_4": "sha256:2174d334db75b4b47789eb1b8569d3078fe3a81a143e3a7d3e10e6d4c9594b10"}, "docker": "quay.io/biocontainers/riassigner", "aliases": {"pint-convert": "/usr/local/bin/pint-convert", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "xslt-config": "/usr/local/bin/xslt-config"}}
+config: {"url": "https://biocontainers.pro/tools/riassigner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for riassigner", "latest": {"0.4.0--pyhdfd78af_0": "sha256:8f2bfb3efb5b3ec6f90c6fe50b20145ab5d863002549799930877a148364a15e"}, "tags": {"0.3.3--pyhdfd78af_0": "sha256:a4b56c866a9df417109b67788662226b2d1a58343891f542175f8592ed207cdc", "0.3.3--pyhdfd78af_1": "sha256:9263cd5da1716f29a0b4733dbc3a9dfa363c856cefd00b3d7d36869aaa141efe", "0.3.4--pyhdfd78af_1": "sha256:40b5ecfc42316878cd886b1c61e43c183e9cfd9cb01e81775b9199c3c3dfaa86", "0.3.4--pyhdfd78af_3": "sha256:18481d1c446b6c9196a60a8de59271331ee5931c2e8e834ca540e5b88a126e33", "0.3.4--pyhdfd78af_4": "sha256:2174d334db75b4b47789eb1b8569d3078fe3a81a143e3a7d3e10e6d4c9594b10", "0.4.0--pyhdfd78af_0": "sha256:8f2bfb3efb5b3ec6f90c6fe50b20145ab5d863002549799930877a148364a15e"}, "docker": "quay.io/biocontainers/riassigner", "aliases": {"pint-convert": "/usr/local/bin/pint-convert", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "xslt-config": "/usr/local/bin/xslt-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/riassigner.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/riassigner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/riassigner:0.3.4--pyhdfd78af_4
+$ shpc install quay.io/biocontainers/riassigner:0.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/riassigner/0.3.4--pyhdfd78af_4
-$ module help quay.io/biocontainers/riassigner/0.3.4--pyhdfd78af_4
+$ module load quay.io/biocontainers/riassigner/0.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/riassigner/0.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

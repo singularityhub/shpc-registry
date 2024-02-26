@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gxf2bed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gxf2bed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gxf2bed/container.yaml"
-updated_at: "2024-02-25 02:26:18.951393"
-latest: "0.1.0--h4ac6f70_0"
+updated_at: "2024-02-26 02:27:23.870706"
+latest: "0.2.0--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/gxf2bed"
 aliases:
  - "gxf2bed"
 versions:
  - "0.1.0--h4ac6f70_0"
+ - "0.2.0--h4ac6f70_0"
 description: "singularity registry hpc automated addition for gxf2bed"
-config: {"url": "https://biocontainers.pro/tools/gxf2bed", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gxf2bed", "latest": {"0.1.0--h4ac6f70_0": "sha256:8b0610cd1a25541b12e382bc35b1568815edadafd753cc3b91b401441087efff"}, "tags": {"0.1.0--h4ac6f70_0": "sha256:8b0610cd1a25541b12e382bc35b1568815edadafd753cc3b91b401441087efff"}, "docker": "quay.io/biocontainers/gxf2bed", "aliases": {"gxf2bed": "/usr/local/bin/gxf2bed"}}
+config: {"url": "https://biocontainers.pro/tools/gxf2bed", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gxf2bed", "latest": {"0.2.0--h4ac6f70_0": "sha256:b5824362836a68e71ce1c002b219023d91e8c88ed131808367ce5efbfb77df3c"}, "tags": {"0.1.0--h4ac6f70_0": "sha256:8b0610cd1a25541b12e382bc35b1568815edadafd753cc3b91b401441087efff", "0.2.0--h4ac6f70_0": "sha256:b5824362836a68e71ce1c002b219023d91e8c88ed131808367ce5efbfb77df3c"}, "docker": "quay.io/biocontainers/gxf2bed", "aliases": {"gxf2bed": "/usr/local/bin/gxf2bed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gxf2bed.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gxf2bed
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gxf2bed:0.1.0--h4ac6f70_0
+$ shpc install quay.io/biocontainers/gxf2bed:0.2.0--h4ac6f70_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gxf2bed/0.1.0--h4ac6f70_0
-$ module help quay.io/biocontainers/gxf2bed/0.1.0--h4ac6f70_0
+$ module load quay.io/biocontainers/gxf2bed/0.2.0--h4ac6f70_0
+$ module help quay.io/biocontainers/gxf2bed/0.2.0--h4ac6f70_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chromap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromap/container.yaml"
-updated_at: "2024-02-25 02:42:17.468286"
-latest: "0.2.5--hdcf5f25_2"
+updated_at: "2024-02-26 02:43:43.762010"
+latest: "0.2.6--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/chromap"
 aliases:
  - "chromap"
@@ -14,8 +14,9 @@ versions:
  - "0.2.4--hd03093a_0"
  - "0.2.5--hd03093a_0"
  - "0.2.5--hdcf5f25_2"
+ - "0.2.6--hdcf5f25_0"
 description: "shpc-registry automated BioContainers addition for chromap"
-config: {"url": "https://biocontainers.pro/tools/chromap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chromap", "latest": {"0.2.5--hdcf5f25_2": "sha256:d2dd59fca3f31a7bdaf508891e5e9a60ead3c1c205f427f0f7a2533ce38d62cb"}, "tags": {"0.2.3--hd03093a_1": "sha256:9a8e62c7881cb59f42978d78eb55934ea11fd4fbfc01d0964b92dbf08e43e22c", "0.2.4--hd03093a_0": "sha256:99f71d1d070f2eb285603971b218f3b70c07c62d4ae708a59f42ea508a7df024", "0.2.5--hd03093a_0": "sha256:ffe3bf3e17307675d5c6b338e8fcd26060865f51f6e43f2d9e6fadd1aa7d417d", "0.2.5--hdcf5f25_2": "sha256:d2dd59fca3f31a7bdaf508891e5e9a60ead3c1c205f427f0f7a2533ce38d62cb"}, "docker": "quay.io/biocontainers/chromap", "aliases": {"chromap": "/usr/local/bin/chromap"}}
+config: {"url": "https://biocontainers.pro/tools/chromap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chromap", "latest": {"0.2.6--hdcf5f25_0": "sha256:18fca6050c753e2108eb511f8b7a62f90f483ef9a1b6dcbede853572940bb70b"}, "tags": {"0.2.3--hd03093a_1": "sha256:9a8e62c7881cb59f42978d78eb55934ea11fd4fbfc01d0964b92dbf08e43e22c", "0.2.4--hd03093a_0": "sha256:99f71d1d070f2eb285603971b218f3b70c07c62d4ae708a59f42ea508a7df024", "0.2.5--hd03093a_0": "sha256:ffe3bf3e17307675d5c6b338e8fcd26060865f51f6e43f2d9e6fadd1aa7d417d", "0.2.5--hdcf5f25_2": "sha256:d2dd59fca3f31a7bdaf508891e5e9a60ead3c1c205f427f0f7a2533ce38d62cb", "0.2.6--hdcf5f25_0": "sha256:18fca6050c753e2108eb511f8b7a62f90f483ef9a1b6dcbede853572940bb70b"}, "docker": "quay.io/biocontainers/chromap", "aliases": {"chromap": "/usr/local/bin/chromap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chromap.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/chromap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chromap:0.2.5--hdcf5f25_2
+$ shpc install quay.io/biocontainers/chromap:0.2.6--hdcf5f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chromap/0.2.5--hdcf5f25_2
-$ module help quay.io/biocontainers/chromap/0.2.5--hdcf5f25_2
+$ module load quay.io/biocontainers/chromap/0.2.6--hdcf5f25_0
+$ module help quay.io/biocontainers/chromap/0.2.6--hdcf5f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

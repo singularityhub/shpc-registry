@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/illumina-cleanup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/illumina-cleanup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/illumina-cleanup/container.yaml"
-updated_at: "2024-02-25 02:59:29.689664"
+updated_at: "2024-02-26 03:00:59.276527"
 latest: "1.0.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/illumina-cleanup"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastsimbac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastsimbac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastsimbac/container.yaml"
-updated_at: "2024-02-25 02:53:23.626267"
+updated_at: "2024-02-26 02:54:51.925374"
 latest: "1.0.1_bd3ad13d8f79--haf6292c_5"
 container_url: "https://biocontainers.pro/tools/fastsimbac"
 aliases:

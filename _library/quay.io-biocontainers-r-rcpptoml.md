@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rcpptoml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rcpptoml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rcpptoml/container.yaml"
-updated_at: "2024-02-25 02:40:34.270069"
+updated_at: "2024-02-26 02:41:59.348907"
 latest: "0.1.3--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-rcpptoml"
 aliases:

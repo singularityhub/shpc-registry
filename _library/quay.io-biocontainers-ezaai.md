@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ezaai"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ezaai/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ezaai/container.yaml"
-updated_at: "2024-02-25 02:57:14.424722"
-latest: "1.2.2--hdfd78af_0"
+updated_at: "2024-02-26 02:58:43.521337"
+latest: "1.2.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ezaai"
 aliases:
  - "EzAAI"
@@ -36,8 +36,9 @@ aliases:
  - "print-columns"
 versions:
  - "1.2.2--hdfd78af_0"
+ - "1.2.3--hdfd78af_0"
 description: "singularity registry hpc automated addition for ezaai"
-config: {"url": "https://biocontainers.pro/tools/ezaai", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ezaai", "latest": {"1.2.2--hdfd78af_0": "sha256:6110f9ab539e534a0ed71644380429f2965a032eafe884bb15d48746e4f8d95a"}, "tags": {"1.2.2--hdfd78af_0": "sha256:6110f9ab539e534a0ed71644380429f2965a032eafe884bb15d48746e4f8d95a"}, "docker": "quay.io/biocontainers/ezaai", "aliases": {"EzAAI": "/usr/local/bin/EzAAI", "mmseqs": "/usr/local/bin/mmseqs", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "diamond": "/usr/local/bin/diamond", "prodigal": "/usr/local/bin/prodigal", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns"}}
+config: {"url": "https://biocontainers.pro/tools/ezaai", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ezaai", "latest": {"1.2.3--hdfd78af_0": "sha256:8ac2bc1b6a13c485024f52f021948136aae9700e033440d436a645c22ababf9e"}, "tags": {"1.2.2--hdfd78af_0": "sha256:6110f9ab539e534a0ed71644380429f2965a032eafe884bb15d48746e4f8d95a", "1.2.3--hdfd78af_0": "sha256:8ac2bc1b6a13c485024f52f021948136aae9700e033440d436a645c22ababf9e"}, "docker": "quay.io/biocontainers/ezaai", "aliases": {"EzAAI": "/usr/local/bin/EzAAI", "mmseqs": "/usr/local/bin/mmseqs", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "diamond": "/usr/local/bin/diamond", "prodigal": "/usr/local/bin/prodigal", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ezaai.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/ezaai
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ezaai:1.2.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/ezaai:1.2.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ezaai/1.2.2--hdfd78af_0
-$ module help quay.io/biocontainers/ezaai/1.2.2--hdfd78af_0
+$ module load quay.io/biocontainers/ezaai/1.2.3--hdfd78af_0
+$ module help quay.io/biocontainers/ezaai/1.2.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pythoncyc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pythoncyc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pythoncyc/container.yaml"
-updated_at: "2024-02-25 02:53:40.243725"
+updated_at: "2024-02-26 02:55:08.575142"
 latest: "2.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pythoncyc"
 aliases:
