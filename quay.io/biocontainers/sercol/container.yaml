@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sercol
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sercol
 latest:
-  0.1.4--pyh7cba7a3_0: sha256:2eef4e8d05925a8f42e25d79dbdebe65923ccddaed00cb73627f3a429b147349
+  1.0.0--pyh7cba7a3_0: sha256:a85d96c99fa2dc81ceccb3eab26bed12bc06f11a0947e0ebc79239f9489d6fa8
 tags:
   0.1.4--pyh7cba7a3_0: sha256:2eef4e8d05925a8f42e25d79dbdebe65923ccddaed00cb73627f3a429b147349
+  1.0.0--pyh7cba7a3_0: sha256:a85d96c99fa2dc81ceccb3eab26bed12bc06f11a0947e0ebc79239f9489d6fa8
 docker: quay.io/biocontainers/sercol
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11

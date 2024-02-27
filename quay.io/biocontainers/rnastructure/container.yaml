@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/rnastructure
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rnastructure
 latest:
-  6.3--hdbdd923_3: sha256:ca79dbf8575680aefd41ca02be609faaea8499cab39f2bb9b1b21dfc5b5b6cd8
+  6.4--hdbdd923_0: sha256:fabd1bec660c278b6c1005af3abb7e023ea1ebef3c9fab57c2be6b926528cf8d
 tags:
   6.3--h87f3376_1: sha256:f81fbbafc35076e3e95e9c132a6c2dd6050c1afe56c5173bdb4237f3a2617b5f
   6.3--hdbdd923_3: sha256:ca79dbf8575680aefd41ca02be609faaea8499cab39f2bb9b1b21dfc5b5b6cd8
+  6.4--hdbdd923_0: sha256:fabd1bec660c278b6c1005af3abb7e023ea1ebef3c9fab57c2be6b926528cf8d
 docker: quay.io/biocontainers/rnastructure
 aliases:
   AccessFold: /usr/local/bin/AccessFold

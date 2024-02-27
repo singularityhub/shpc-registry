@@ -3,9 +3,9 @@ url: https://quay.io/repository/vgteam/vg?tab=info
 maintainer: '@vsoch'
 description: Tools for working with genomic variation graphs. https://github.com/vgteam/vg
 latest:
-  latest: sha256:142f5c08e2ce62e2d67b7b83211eca90e5ff56f514c33604e862f098ec2ad11a
+  latest: sha256:c5903d30a0304c4a5b6637fbded06ff3fb5d9b8f1ce0ef342222ed46c9a182b7
 tags:
-  latest: sha256:142f5c08e2ce62e2d67b7b83211eca90e5ff56f514c33604e862f098ec2ad11a
+  latest: sha256:c5903d30a0304c4a5b6637fbded06ff3fb5d9b8f1ce0ef342222ed46c9a182b7
 filter:
 - latest
 aliases:
