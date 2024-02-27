@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ampcombi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ampcombi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ampcombi/container.yaml"
-updated_at: "2024-02-26 03:28:18.578952"
-latest: "0.1.7--pyhdfd78af_0"
+updated_at: "2024-02-27 02:25:00.968983"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ampcombi"
 aliases:
  - "amp_database.py"
@@ -29,8 +29,9 @@ aliases:
 versions:
  - "0.1.3--pyhdfd78af_0"
  - "0.1.7--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ampcombi"
-config: {"url": "https://biocontainers.pro/tools/ampcombi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ampcombi", "latest": {"0.1.7--pyhdfd78af_0": "sha256:2de52e495a6fc50de9e44e3f787cd0759a67988e91c1de0e222042d25c93cafa"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:0004ccc0368f788639e51736abbb7840d703ca46499a48fb050fbcf92f47cbc1", "0.1.7--pyhdfd78af_0": "sha256:2de52e495a6fc50de9e44e3f787cd0759a67988e91c1de0e222042d25c93cafa"}, "docker": "quay.io/biocontainers/ampcombi", "aliases": {"amp_database.py": "/usr/local/bin/amp_database.py", "amp_fasta.py": "/usr/local/bin/amp_fasta.py", "ampcombi": "/usr/local/bin/ampcombi", "ampcombi.py": "/usr/local/bin/ampcombi.py", "check_input.py": "/usr/local/bin/check_input.py", "diamond_alignment.sh": "/usr/local/bin/diamond_alignment.sh", "diamond_makedb.sh": "/usr/local/bin/diamond_makedb.sh", "print_header.py": "/usr/local/bin/print_header.py", "reformat_tables.py": "/usr/local/bin/reformat_tables.py", "diamond": "/usr/local/bin/diamond", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/ampcombi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ampcombi", "latest": {"0.2.0--pyhdfd78af_0": "sha256:9e41a49d0b33fdaa5a9516ea9084b557fdf1f30d8f2a50a2f813760f3c1a8bf2"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:0004ccc0368f788639e51736abbb7840d703ca46499a48fb050fbcf92f47cbc1", "0.1.7--pyhdfd78af_0": "sha256:2de52e495a6fc50de9e44e3f787cd0759a67988e91c1de0e222042d25c93cafa", "0.2.0--pyhdfd78af_0": "sha256:9e41a49d0b33fdaa5a9516ea9084b557fdf1f30d8f2a50a2f813760f3c1a8bf2"}, "docker": "quay.io/biocontainers/ampcombi", "aliases": {"amp_database.py": "/usr/local/bin/amp_database.py", "amp_fasta.py": "/usr/local/bin/amp_fasta.py", "ampcombi": "/usr/local/bin/ampcombi", "ampcombi.py": "/usr/local/bin/ampcombi.py", "check_input.py": "/usr/local/bin/check_input.py", "diamond_alignment.sh": "/usr/local/bin/diamond_alignment.sh", "diamond_makedb.sh": "/usr/local/bin/diamond_makedb.sh", "print_header.py": "/usr/local/bin/print_header.py", "reformat_tables.py": "/usr/local/bin/reformat_tables.py", "diamond": "/usr/local/bin/diamond", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ampcombi.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/ampcombi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ampcombi:0.1.7--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ampcombi:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ampcombi/0.1.7--pyhdfd78af_0
-$ module help quay.io/biocontainers/ampcombi/0.1.7--pyhdfd78af_0
+$ module load quay.io/biocontainers/ampcombi/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/ampcombi/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

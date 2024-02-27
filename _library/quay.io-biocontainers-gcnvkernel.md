@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gcnvkernel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gcnvkernel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gcnvkernel/container.yaml"
-updated_at: "2024-02-26 03:56:45.557345"
-latest: "0.8--pyhdfd78af_0"
+updated_at: "2024-02-27 02:53:23.916932"
+latest: "0.8--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/gcnvkernel"
 aliases:
  - "theano-cache"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "0.7--py_0"
  - "0.8--pyhdfd78af_0"
+ - "0.8--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for gcnvkernel"
-config: {"url": "https://biocontainers.pro/tools/gcnvkernel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gcnvkernel", "latest": {"0.8--pyhdfd78af_0": "sha256:0cad41b898e5d28902a58ef131760f1de43cffe4f7a0a07c4776ad05694ceb54"}, "tags": {"0.7--py_0": "sha256:0581c320698d99ef0625710ae602087e68d17a9689943232c92cfa4c716c8a93", "0.8--pyhdfd78af_0": "sha256:0cad41b898e5d28902a58ef131760f1de43cffe4f7a0a07c4776ad05694ceb54"}, "docker": "quay.io/biocontainers/gcnvkernel", "aliases": {"theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "mako-render": "/usr/local/bin/mako-render", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "f2py3.6": "/usr/local/bin/f2py3.6", "certutil": "/usr/local/bin/certutil"}}
+config: {"url": "https://biocontainers.pro/tools/gcnvkernel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gcnvkernel", "latest": {"0.8--pyhdfd78af_1": "sha256:b7132681687339407fe905d3f121a78297d69f1f9bca8704841f741362594341"}, "tags": {"0.7--py_0": "sha256:0581c320698d99ef0625710ae602087e68d17a9689943232c92cfa4c716c8a93", "0.8--pyhdfd78af_0": "sha256:0cad41b898e5d28902a58ef131760f1de43cffe4f7a0a07c4776ad05694ceb54", "0.8--pyhdfd78af_1": "sha256:b7132681687339407fe905d3f121a78297d69f1f9bca8704841f741362594341"}, "docker": "quay.io/biocontainers/gcnvkernel", "aliases": {"theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "mako-render": "/usr/local/bin/mako-render", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "f2py3.6": "/usr/local/bin/f2py3.6", "certutil": "/usr/local/bin/certutil"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gcnvkernel.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/gcnvkernel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gcnvkernel:0.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gcnvkernel:0.8--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gcnvkernel/0.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/gcnvkernel/0.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/gcnvkernel/0.8--pyhdfd78af_1
+$ module help quay.io/biocontainers/gcnvkernel/0.8--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

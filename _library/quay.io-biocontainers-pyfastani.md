@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyfastani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfastani/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfastani/container.yaml"
-updated_at: "2024-02-26 04:08:43.351004"
-latest: "0.4.1--py39h4e691d4_3"
+updated_at: "2024-02-27 03:05:32.259176"
+latest: "0.5.1--py38h5cf8b27_0"
 container_url: "https://biocontainers.pro/tools/pyfastani"
 aliases:
  - "2to3-3.9"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.4.1--py39h2add14b_0"
  - "0.4.1--py39h4e691d4_3"
+ - "0.5.1--py38h5cf8b27_0"
 description: "singularity registry hpc automated addition for pyfastani"
-config: {"url": "https://biocontainers.pro/tools/pyfastani", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyfastani", "latest": {"0.4.1--py39h4e691d4_3": "sha256:e84548ee3b5f15b62aac4e98e5c3d7aa8c860760d5f06821fb34ec9ac807b16f"}, "tags": {"0.4.1--py39h2add14b_0": "sha256:6d64b2758d97d4e89f64635e226878075f5629c650141452af088c793b204f04", "0.4.1--py39h4e691d4_3": "sha256:e84548ee3b5f15b62aac4e98e5c3d7aa8c860760d5f06821fb34ec9ac807b16f"}, "docker": "quay.io/biocontainers/pyfastani", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyfastani", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyfastani", "latest": {"0.5.1--py38h5cf8b27_0": "sha256:20d1137bf818313afb074cad634b74249f0048058faa7d188424b98edea83048"}, "tags": {"0.4.1--py39h2add14b_0": "sha256:6d64b2758d97d4e89f64635e226878075f5629c650141452af088c793b204f04", "0.4.1--py39h4e691d4_3": "sha256:e84548ee3b5f15b62aac4e98e5c3d7aa8c860760d5f06821fb34ec9ac807b16f", "0.5.1--py38h5cf8b27_0": "sha256:20d1137bf818313afb074cad634b74249f0048058faa7d188424b98edea83048"}, "docker": "quay.io/biocontainers/pyfastani", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyfastani.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/pyfastani
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyfastani:0.4.1--py39h4e691d4_3
+$ shpc install quay.io/biocontainers/pyfastani:0.5.1--py38h5cf8b27_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyfastani/0.4.1--py39h4e691d4_3
-$ module help quay.io/biocontainers/pyfastani/0.4.1--py39h4e691d4_3
+$ module load quay.io/biocontainers/pyfastani/0.5.1--py38h5cf8b27_0
+$ module help quay.io/biocontainers/pyfastani/0.5.1--py38h5cf8b27_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

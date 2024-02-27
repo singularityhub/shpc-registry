@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/amplify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amplify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amplify/container.yaml"
-updated_at: "2024-02-26 03:30:32.663439"
-latest: "1.1.0--hdfd78af_0"
+updated_at: "2024-02-27 02:27:15.016277"
+latest: "2.0.0--py36hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/amplify"
 aliases:
  - "AMPlify"
@@ -22,8 +22,9 @@ aliases:
  - "markdown_py"
 versions:
  - "1.1.0--hdfd78af_0"
+ - "2.0.0--py36hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for amplify"
-config: {"url": "https://biocontainers.pro/tools/amplify", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for amplify", "latest": {"1.1.0--hdfd78af_0": "sha256:787ca694b922f8ee6313d2df2b429ad62940444f8ebc60edc1f9b5e283a24928"}, "tags": {"1.1.0--hdfd78af_0": "sha256:787ca694b922f8ee6313d2df2b429ad62940444f8ebc60edc1f9b5e283a24928"}, "docker": "quay.io/biocontainers/amplify", "aliases": {"AMPlify": "/usr/local/bin/AMPlify", "train_amplify": "/usr/local/bin/train_amplify", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "markdown_py": "/usr/local/bin/markdown_py"}}
+config: {"url": "https://biocontainers.pro/tools/amplify", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for amplify", "latest": {"2.0.0--py36hdfd78af_0": "sha256:4202d742a883a4b5e76044e32d34320b95221add3fd18e8274cb3bc3b511cd11"}, "tags": {"1.1.0--hdfd78af_0": "sha256:787ca694b922f8ee6313d2df2b429ad62940444f8ebc60edc1f9b5e283a24928", "2.0.0--py36hdfd78af_0": "sha256:4202d742a883a4b5e76044e32d34320b95221add3fd18e8274cb3bc3b511cd11"}, "docker": "quay.io/biocontainers/amplify", "aliases": {"AMPlify": "/usr/local/bin/AMPlify", "train_amplify": "/usr/local/bin/train_amplify", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "markdown_py": "/usr/local/bin/markdown_py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/amplify.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/amplify
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/amplify:1.1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/amplify:2.0.0--py36hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/amplify/1.1.0--hdfd78af_0
-$ module help quay.io/biocontainers/amplify/1.1.0--hdfd78af_0
+$ module load quay.io/biocontainers/amplify/2.0.0--py36hdfd78af_0
+$ module help quay.io/biocontainers/amplify/2.0.0--py36hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

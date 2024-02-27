@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/conipher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/conipher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/conipher/container.yaml"
-updated_at: "2024-02-26 03:24:38.813712"
+updated_at: "2024-02-27 02:21:17.639041"
 latest: "2.2.0--r40hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/conipher"
 aliases:
