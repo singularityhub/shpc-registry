@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-mark-dups"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-mark-dups/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-mark-dups/container.yaml"
-updated_at: "2024-02-27 02:49:56.748412"
-latest: "1.1--hdfd78af_0"
+updated_at: "2024-02-28 02:50:42.312750"
+latest: "1.1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-mark-dups"
 aliases:
  - "annot-tsv"
@@ -37,8 +37,9 @@ aliases:
  - "ace2sam"
 versions:
  - "1.1--hdfd78af_0"
+ - "1.1.2--hdfd78af_0"
 description: "singularity registry hpc automated addition for hmftools-mark-dups"
-config: {"url": "https://biocontainers.pro/tools/hmftools-mark-dups", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-mark-dups", "latest": {"1.1--hdfd78af_0": "sha256:066faa9ec1d9ba9b84b1d49f708ff42422df188157bfa5794ff75cc7e4ae5b54"}, "tags": {"1.1--hdfd78af_0": "sha256:066faa9ec1d9ba9b84b1d49f708ff42422df188157bfa5794ff75cc7e4ae5b54"}, "docker": "quay.io/biocontainers/hmftools-mark-dups", "aliases": {"annot-tsv": "/usr/local/bin/annot-tsv", "markdups": "/usr/local/bin/markdups", "ldc-build-runtime": "/usr/local/bin/ldc-build-runtime", "ldc-profdata": "/usr/local/bin/ldc-profdata", "ldc-prune-cache": "/usr/local/bin/ldc-prune-cache", "ldc2": "/usr/local/bin/ldc2", "ldmd2": "/usr/local/bin/ldmd2", "sambamba": "/usr/local/bin/sambamba", "jwebserver": "/usr/local/bin/jwebserver", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "ace2sam": "/usr/local/bin/ace2sam"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-mark-dups", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-mark-dups", "latest": {"1.1.2--hdfd78af_0": "sha256:c33439d6c93905dc946e2d8df0243f8ebc166012b1f7e26cce26b2d519f3d5ce"}, "tags": {"1.1--hdfd78af_0": "sha256:066faa9ec1d9ba9b84b1d49f708ff42422df188157bfa5794ff75cc7e4ae5b54", "1.1.2--hdfd78af_0": "sha256:c33439d6c93905dc946e2d8df0243f8ebc166012b1f7e26cce26b2d519f3d5ce"}, "docker": "quay.io/biocontainers/hmftools-mark-dups", "aliases": {"annot-tsv": "/usr/local/bin/annot-tsv", "markdups": "/usr/local/bin/markdups", "ldc-build-runtime": "/usr/local/bin/ldc-build-runtime", "ldc-profdata": "/usr/local/bin/ldc-profdata", "ldc-prune-cache": "/usr/local/bin/ldc-prune-cache", "ldc2": "/usr/local/bin/ldc2", "ldmd2": "/usr/local/bin/ldmd2", "sambamba": "/usr/local/bin/sambamba", "jwebserver": "/usr/local/bin/jwebserver", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "ace2sam": "/usr/local/bin/ace2sam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-mark-dups.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/hmftools-mark-dups
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-mark-dups:1.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-mark-dups:1.1.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-mark-dups/1.1--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-mark-dups/1.1--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-mark-dups/1.1.2--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-mark-dups/1.1.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

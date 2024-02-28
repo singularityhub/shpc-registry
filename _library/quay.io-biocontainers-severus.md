@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/severus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/severus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/severus/container.yaml"
-updated_at: "2024-02-27 02:35:55.855156"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2024-02-28 02:37:05.714035"
+latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/severus"
 aliases:
  - "severus"
@@ -36,8 +36,9 @@ aliases:
  - "dot_builtins"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for severus"
-config: {"url": "https://biocontainers.pro/tools/severus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for severus", "latest": {"0.1.1--pyhdfd78af_0": "sha256:1f7eb598ed310b7d676d9107f1cecdce918acd469c563d4cb47b8ac81cd86048"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:1f7eb598ed310b7d676d9107f1cecdce918acd469c563d4cb47b8ac81cd86048"}, "docker": "quay.io/biocontainers/severus", "aliases": {"severus": "/usr/local/bin/severus", "hb-info": "/usr/local/bin/hb-info", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts", "transform": "/usr/local/bin/transform", "rsvg-convert": "/usr/local/bin/rsvg-convert", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo", "gtk-query-immodules-2.0": "/usr/local/bin/gtk-query-immodules-2.0", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot", "dot2gxl": "/usr/local/bin/dot2gxl", "dot_builtins": "/usr/local/bin/dot_builtins"}}
+config: {"url": "https://biocontainers.pro/tools/severus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for severus", "latest": {"0.1.2--pyhdfd78af_0": "sha256:5f14f38ccd22324a8e2ec48f85ca58282564d61a11d3c5ab19c2f73829bb6c4c"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:1f7eb598ed310b7d676d9107f1cecdce918acd469c563d4cb47b8ac81cd86048", "0.1.2--pyhdfd78af_0": "sha256:5f14f38ccd22324a8e2ec48f85ca58282564d61a11d3c5ab19c2f73829bb6c4c"}, "docker": "quay.io/biocontainers/severus", "aliases": {"severus": "/usr/local/bin/severus", "hb-info": "/usr/local/bin/hb-info", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts", "transform": "/usr/local/bin/transform", "rsvg-convert": "/usr/local/bin/rsvg-convert", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo", "gtk-query-immodules-2.0": "/usr/local/bin/gtk-query-immodules-2.0", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot", "dot2gxl": "/usr/local/bin/dot2gxl", "dot_builtins": "/usr/local/bin/dot_builtins"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/severus.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/severus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/severus:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/severus:0.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/severus/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/severus/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/severus/0.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/severus/0.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

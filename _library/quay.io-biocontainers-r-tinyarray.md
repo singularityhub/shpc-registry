@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tinyarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tinyarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tinyarray/container.yaml"
-updated_at: "2024-02-27 02:55:07.012930"
+updated_at: "2024-02-28 02:55:38.496078"
 latest: "2.3.2--r43h3121a25_0"
 container_url: "https://biocontainers.pro/tools/r-tinyarray"
 aliases:
