@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/fairy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fairy
+latest:
+  0.5.3--h4ac6f70_0: sha256:a03cae5fdd092ec682ab7b36792379be4b45ca2067c0ce1c92c96e24ac12c44f
+tags:
+  0.5.3--h4ac6f70_0: sha256:a03cae5fdd092ec682ab7b36792379be4b45ca2067c0ce1c92c96e24ac12c44f
+docker: quay.io/biocontainers/fairy
+aliases:
+  fairy: /usr/local/bin/fairy

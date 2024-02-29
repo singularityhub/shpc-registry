@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/piscem-infer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for piscem-infer
+latest:
+  0.6.0--h4349ce8_0: sha256:e73bbcfed24977527fce0669a6b4c76a30fefbff6021223c3cec296363ec6893
+tags:
+  0.6.0--h4349ce8_0: sha256:e73bbcfed24977527fce0669a6b4c76a30fefbff6021223c3cec296363ec6893
+docker: quay.io/biocontainers/piscem-infer
+aliases:
+  piscem-infer: /usr/local/bin/piscem-infer
