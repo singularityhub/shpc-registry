@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lusstr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lusstr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lusstr/container.yaml"
-updated_at: "2024-02-28 02:43:34.522753"
+updated_at: "2024-02-29 02:42:09.977538"
 latest: "0.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lusstr"
 aliases:

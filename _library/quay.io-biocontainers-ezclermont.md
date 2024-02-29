@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ezclermont"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ezclermont/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ezclermont/container.yaml"
-updated_at: "2024-02-28 02:35:00.735386"
+updated_at: "2024-02-29 02:33:31.595863"
 latest: "0.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ezclermont"
 aliases:

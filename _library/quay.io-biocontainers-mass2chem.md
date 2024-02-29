@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mass2chem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mass2chem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mass2chem/container.yaml"
-updated_at: "2024-02-28 02:36:33.652443"
-latest: "0.4.9--pyhdfd78af_0"
+updated_at: "2024-02-29 02:35:04.683952"
+latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mass2chem"
 aliases:
  - "2to3-3.12"
@@ -16,8 +16,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.4.9--pyhdfd78af_0"
+ - "0.5.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mass2chem"
-config: {"url": "https://biocontainers.pro/tools/mass2chem", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mass2chem", "latest": {"0.4.9--pyhdfd78af_0": "sha256:bda6f79d3765c942d1df850329934316443d6b3ae13834c819a0b1f22df6ea6d"}, "tags": {"0.4.9--pyhdfd78af_0": "sha256:bda6f79d3765c942d1df850329934316443d6b3ae13834c819a0b1f22df6ea6d"}, "docker": "quay.io/biocontainers/mass2chem", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/mass2chem", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mass2chem", "latest": {"0.5.0--pyhdfd78af_0": "sha256:209868a75590ca81e00b861d0ff9824078bdec65fd3d52dcf5f4a36b2df12146"}, "tags": {"0.4.9--pyhdfd78af_0": "sha256:bda6f79d3765c942d1df850329934316443d6b3ae13834c819a0b1f22df6ea6d", "0.5.0--pyhdfd78af_0": "sha256:209868a75590ca81e00b861d0ff9824078bdec65fd3d52dcf5f4a36b2df12146"}, "docker": "quay.io/biocontainers/mass2chem", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mass2chem.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/mass2chem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mass2chem:0.4.9--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mass2chem:0.5.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mass2chem/0.4.9--pyhdfd78af_0
-$ module help quay.io/biocontainers/mass2chem/0.4.9--pyhdfd78af_0
+$ module load quay.io/biocontainers/mass2chem/0.5.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/mass2chem/0.5.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

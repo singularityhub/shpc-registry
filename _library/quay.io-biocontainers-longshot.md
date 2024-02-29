@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/longshot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longshot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longshot/container.yaml"
-updated_at: "2024-02-28 02:45:29.459667"
+updated_at: "2024-02-29 02:44:04.975037"
 latest: "0.4.5--hd175d40_2"
 container_url: "https://biocontainers.pro/tools/longshot"
 aliases:

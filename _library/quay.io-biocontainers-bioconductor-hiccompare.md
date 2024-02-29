@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hiccompare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hiccompare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hiccompare/container.yaml"
-updated_at: "2024-02-28 02:31:49.827297"
+updated_at: "2024-02-29 02:30:19.442225"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hiccompare"
 aliases:

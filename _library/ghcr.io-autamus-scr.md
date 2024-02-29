@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/scr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/scr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/scr/container.yaml"
-updated_at: "2024-02-28 02:21:55.592915"
+updated_at: "2024-02-29 02:20:21.805949"
 latest: "3.0.rc.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/scr"
 aliases:

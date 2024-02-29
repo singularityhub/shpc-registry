@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/google-sparsehash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/google-sparsehash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/google-sparsehash/container.yaml"
-updated_at: "2024-02-28 02:35:57.251448"
+updated_at: "2024-02-29 02:34:28.134242"
 latest: "2.0.3--1"
 container_url: "https://biocontainers.pro/tools/google-sparsehash"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/skyline2isocor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skyline2isocor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skyline2isocor/container.yaml"
-updated_at: "2024-02-28 02:59:56.316072"
-latest: "0.1.2--pyhdfd78af_0"
+updated_at: "2024-02-29 02:58:39.669032"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/skyline2isocor"
 aliases:
  - "skyline2isocor"
@@ -16,8 +16,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "0.1.2--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for skyline2isocor"
-config: {"url": "https://biocontainers.pro/tools/skyline2isocor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for skyline2isocor", "latest": {"0.1.2--pyhdfd78af_0": "sha256:a5be5e9e02d9c30921e811a3b27e1e58fd24d7f35228a7f8ca48607e8c032b11"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:a5be5e9e02d9c30921e811a3b27e1e58fd24d7f35228a7f8ca48607e8c032b11"}, "docker": "quay.io/biocontainers/skyline2isocor", "aliases": {"skyline2isocor": "/usr/local/bin/skyline2isocor", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/skyline2isocor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for skyline2isocor", "latest": {"0.2.0--pyhdfd78af_0": "sha256:1291248f4c2e9be73b4d02ddde18cdbedc1d7b42d9f1c2fd1237fa26afa818f9"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:a5be5e9e02d9c30921e811a3b27e1e58fd24d7f35228a7f8ca48607e8c032b11", "0.2.0--pyhdfd78af_0": "sha256:1291248f4c2e9be73b4d02ddde18cdbedc1d7b42d9f1c2fd1237fa26afa818f9"}, "docker": "quay.io/biocontainers/skyline2isocor", "aliases": {"skyline2isocor": "/usr/local/bin/skyline2isocor", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/skyline2isocor.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/skyline2isocor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/skyline2isocor:0.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/skyline2isocor:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/skyline2isocor/0.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/skyline2isocor/0.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/skyline2isocor/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/skyline2isocor/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

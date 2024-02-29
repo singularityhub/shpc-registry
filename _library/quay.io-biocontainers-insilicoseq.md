@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/insilicoseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/insilicoseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/insilicoseq/container.yaml"
-updated_at: "2024-02-28 02:48:12.365225"
-latest: "1.6.0--pyh7cba7a3_0"
+updated_at: "2024-02-29 02:46:49.473664"
+latest: "2.0.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/insilicoseq"
 aliases:
  - "iss"
@@ -22,8 +22,9 @@ versions:
  - "1.5.4--pyh5e36f6f_0"
  - "1.5.4--pyh7cba7a3_1"
  - "1.6.0--pyh7cba7a3_0"
+ - "2.0.1--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for insilicoseq"
-config: {"url": "https://biocontainers.pro/tools/insilicoseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for insilicoseq", "latest": {"1.6.0--pyh7cba7a3_0": "sha256:4af20b9b401bd578841b48b8e2118bf377da3a33a946285bb7d2bca104850e2c"}, "tags": {"1.5.4--pyh5e36f6f_0": "sha256:63f663d7b87877b2c8c60be5fb1f4f8c4724c6b9861287d4acdc5e2b5b3b86cf", "1.5.4--pyh7cba7a3_1": "sha256:127e5ec48502aec2c32856490dbfcd2c42874c276bf57ce73369175fa748dea9", "1.6.0--pyh7cba7a3_0": "sha256:4af20b9b401bd578841b48b8e2118bf377da3a33a946285bb7d2bca104850e2c"}, "docker": "quay.io/biocontainers/insilicoseq", "aliases": {"iss": "/usr/local/bin/iss", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/insilicoseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for insilicoseq", "latest": {"2.0.1--pyh7cba7a3_0": "sha256:106746b94b62c9dcee0e1353bb5952c26311d4032c6c7b7d1d47ae4f811e8b4e"}, "tags": {"1.5.4--pyh5e36f6f_0": "sha256:63f663d7b87877b2c8c60be5fb1f4f8c4724c6b9861287d4acdc5e2b5b3b86cf", "1.5.4--pyh7cba7a3_1": "sha256:127e5ec48502aec2c32856490dbfcd2c42874c276bf57ce73369175fa748dea9", "1.6.0--pyh7cba7a3_0": "sha256:4af20b9b401bd578841b48b8e2118bf377da3a33a946285bb7d2bca104850e2c", "2.0.1--pyh7cba7a3_0": "sha256:106746b94b62c9dcee0e1353bb5952c26311d4032c6c7b7d1d47ae4f811e8b4e"}, "docker": "quay.io/biocontainers/insilicoseq", "aliases": {"iss": "/usr/local/bin/iss", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/insilicoseq.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/insilicoseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/insilicoseq:1.6.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/insilicoseq:2.0.1--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/insilicoseq/1.6.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/insilicoseq/1.6.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/insilicoseq/2.0.1--pyh7cba7a3_0
+$ module help quay.io/biocontainers/insilicoseq/2.0.1--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

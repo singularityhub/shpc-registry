@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tksm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tksm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tksm/container.yaml"
-updated_at: "2024-02-28 02:57:01.448805"
-latest: "0.3.2--py310h2b6aa90_0"
+updated_at: "2024-02-29 02:55:45.403590"
+latest: "0.5.0--py310h2b6aa90_0"
 container_url: "https://biocontainers.pro/tools/tksm"
 aliases:
  - "tksm"
@@ -23,8 +23,9 @@ versions:
  - "0.3.0--py310h2b6aa90_0"
  - "0.3.1--py39hd65a603_0"
  - "0.3.2--py310h2b6aa90_0"
+ - "0.5.0--py310h2b6aa90_0"
 description: "singularity registry hpc automated addition for tksm"
-config: {"url": "https://biocontainers.pro/tools/tksm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tksm", "latest": {"0.3.2--py310h2b6aa90_0": "sha256:130f3382a7dd0d4b07022d48ee227a28b6b16c93be6acfb4d18a8d30ad422cce"}, "tags": {"0.3.0--py310h2b6aa90_0": "sha256:7f2302660b26d99a214b32df97538c2ce523d81d7216cd44f7143fbe51393657", "0.3.1--py39hd65a603_0": "sha256:3108642a0ff85a1539192f41e355f94414f1985c7cd624d6fe395151e1c591ba", "0.3.2--py310h2b6aa90_0": "sha256:130f3382a7dd0d4b07022d48ee227a28b6b16c93be6acfb4d18a8d30ad422cce"}, "docker": "quay.io/biocontainers/tksm", "aliases": {"tksm": "/usr/local/bin/tksm", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/tksm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tksm", "latest": {"0.5.0--py310h2b6aa90_0": "sha256:075ba729f805b35cce2b46c83a967dd4fefcb5d7af32d9cfa76de19ae203f675"}, "tags": {"0.3.0--py310h2b6aa90_0": "sha256:7f2302660b26d99a214b32df97538c2ce523d81d7216cd44f7143fbe51393657", "0.3.1--py39hd65a603_0": "sha256:3108642a0ff85a1539192f41e355f94414f1985c7cd624d6fe395151e1c591ba", "0.3.2--py310h2b6aa90_0": "sha256:130f3382a7dd0d4b07022d48ee227a28b6b16c93be6acfb4d18a8d30ad422cce", "0.5.0--py310h2b6aa90_0": "sha256:075ba729f805b35cce2b46c83a967dd4fefcb5d7af32d9cfa76de19ae203f675"}, "docker": "quay.io/biocontainers/tksm", "aliases": {"tksm": "/usr/local/bin/tksm", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tksm.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/tksm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tksm:0.3.2--py310h2b6aa90_0
+$ shpc install quay.io/biocontainers/tksm:0.5.0--py310h2b6aa90_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tksm/0.3.2--py310h2b6aa90_0
-$ module help quay.io/biocontainers/tksm/0.3.2--py310h2b6aa90_0
+$ module load quay.io/biocontainers/tksm/0.5.0--py310h2b6aa90_0
+$ module help quay.io/biocontainers/tksm/0.5.0--py310h2b6aa90_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
