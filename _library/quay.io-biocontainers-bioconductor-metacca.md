@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metacca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metacca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metacca/container.yaml"
-updated_at: "2024-02-29 02:27:29.808039"
+updated_at: "2024-02-29 02:42:57.410884"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metacca"
 

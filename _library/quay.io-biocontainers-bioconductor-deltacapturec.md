@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-deltacapturec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-deltacapturec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-deltacapturec/container.yaml"
-updated_at: "2024-02-29 02:43:52.134025"
+updated_at: "2024-02-29 02:58:03.817810"
 latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-deltacapturec"
 
