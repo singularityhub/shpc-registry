@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/consplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/consplice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/consplice/container.yaml"
-updated_at: "2024-02-29 03:18:10.116725"
+updated_at: "2024-03-01 03:09:54.443214"
 latest: "0.0.6--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/consplice"
 aliases:

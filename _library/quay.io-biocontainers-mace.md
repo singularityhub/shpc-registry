@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mace/container.yaml"
-updated_at: "2024-02-29 02:52:02.260544"
+updated_at: "2024-03-01 02:42:27.811614"
 latest: "1.2--py27hdeff1b7_3"
 container_url: "https://biocontainers.pro/tools/mace"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/hypre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hypre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/hypre/container.yaml"
-updated_at: "2024-02-29 02:36:27.038347"
+updated_at: "2024-03-01 02:25:37.355018"
 latest: "2.26.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hypre"
 

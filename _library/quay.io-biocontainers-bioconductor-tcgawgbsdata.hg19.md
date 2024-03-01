@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tcgawgbsdata.hg19"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tcgawgbsdata.hg19/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tcgawgbsdata.hg19/container.yaml"
-updated_at: "2024-02-29 03:16:55.330969"
+updated_at: "2024-03-01 03:08:37.176371"
 latest: "1.12.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-tcgawgbsdata.hg19"
 aliases:

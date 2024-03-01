@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rnexml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rnexml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rnexml/container.yaml"
-updated_at: "2024-02-29 02:44:57.070799"
+updated_at: "2024-03-01 02:34:46.863916"
 latest: "2.4.0--r36h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-rnexml"
 aliases:

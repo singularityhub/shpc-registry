@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sparqlwrapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sparqlwrapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sparqlwrapper/container.yaml"
-updated_at: "2024-02-29 02:44:14.288183"
+updated_at: "2024-03-01 02:34:00.379285"
 latest: "1.7.6--py35_0"
 container_url: "https://biocontainers.pro/tools/sparqlwrapper"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-quartpac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-quartpac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-quartpac/container.yaml"
-updated_at: "2024-02-29 02:47:02.109169"
+updated_at: "2024-03-01 02:37:02.462062"
 latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-quartpac"
 

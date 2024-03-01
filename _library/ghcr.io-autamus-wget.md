@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/wget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/wget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/wget/container.yaml"
-updated_at: "2024-02-29 02:37:03.945769"
+updated_at: "2024-03-01 02:26:18.017786"
 latest: "1.21.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/wget"
 aliases:
