@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ctat-lncrna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ctat-lncrna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ctat-lncrna/container.yaml"
-updated_at: "2024-03-01 02:35:08.955426"
+updated_at: "2024-03-02 02:29:10.337835"
 latest: "1.0.1--2"
 container_url: "https://biocontainers.pro/tools/ctat-lncrna"
 aliases:

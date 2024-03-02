@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-html-tagset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-tagset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-tagset/container.yaml"
-updated_at: "2024-03-01 02:53:27.508042"
+updated_at: "2024-03-02 02:47:28.448221"
 latest: "3.20--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-html-tagset"
 aliases:

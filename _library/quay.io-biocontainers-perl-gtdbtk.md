@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-gtdbtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-gtdbtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-gtdbtk/container.yaml"
-updated_at: "2024-03-01 03:05:53.598840"
+updated_at: "2024-03-02 03:00:00.822857"
 latest: "0.1.5--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-gtdbtk"
 aliases:
