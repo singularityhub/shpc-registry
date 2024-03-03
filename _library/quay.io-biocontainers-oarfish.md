@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/oarfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oarfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oarfish/container.yaml"
-updated_at: "2024-03-02 02:59:48.586050"
-latest: "0.2.0--h4349ce8_0"
+updated_at: "2024-03-03 03:03:24.293381"
+latest: "0.3.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/oarfish"
 aliases:
  - "oarfish"
 versions:
  - "0.2.0--h4349ce8_0"
+ - "0.3.0--h4349ce8_0"
 description: "singularity registry hpc automated addition for oarfish"
-config: {"url": "https://biocontainers.pro/tools/oarfish", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oarfish", "latest": {"0.2.0--h4349ce8_0": "sha256:946f787788361fd60c6321a867d46742a656d1d5b2631789a511e171a7ada166"}, "tags": {"0.2.0--h4349ce8_0": "sha256:946f787788361fd60c6321a867d46742a656d1d5b2631789a511e171a7ada166"}, "docker": "quay.io/biocontainers/oarfish", "aliases": {"oarfish": "/usr/local/bin/oarfish"}}
+config: {"url": "https://biocontainers.pro/tools/oarfish", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oarfish", "latest": {"0.3.0--h4349ce8_0": "sha256:c208006ead82df89ab7e6f6c736ebf5cf51bcb45192c5abf8753e7519c1e0401"}, "tags": {"0.2.0--h4349ce8_0": "sha256:946f787788361fd60c6321a867d46742a656d1d5b2631789a511e171a7ada166", "0.3.0--h4349ce8_0": "sha256:c208006ead82df89ab7e6f6c736ebf5cf51bcb45192c5abf8753e7519c1e0401"}, "docker": "quay.io/biocontainers/oarfish", "aliases": {"oarfish": "/usr/local/bin/oarfish"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oarfish.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/oarfish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/oarfish:0.2.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/oarfish:0.3.0--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/oarfish/0.2.0--h4349ce8_0
-$ module help quay.io/biocontainers/oarfish/0.2.0--h4349ce8_0
+$ module load quay.io/biocontainers/oarfish/0.3.0--h4349ce8_0
+$ module help quay.io/biocontainers/oarfish/0.3.0--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

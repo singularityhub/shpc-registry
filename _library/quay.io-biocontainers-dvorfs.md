@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dvorfs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dvorfs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dvorfs/container.yaml"
-updated_at: "2024-03-02 02:51:13.819386"
+updated_at: "2024-03-03 02:54:52.201610"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dvorfs"
 aliases:

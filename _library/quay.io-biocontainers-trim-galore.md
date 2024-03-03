@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trim-galore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trim-galore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trim-galore/container.yaml"
-updated_at: "2024-03-02 02:37:47.088585"
+updated_at: "2024-03-03 02:41:18.197106"
 latest: "0.6.10--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/trim-galore"
 aliases:
