@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cobra-meta
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cobra-meta
 latest:
-  1.2.2--pyhdfd78af_0: sha256:64e91e338f65d7d4f2eb5768a42014ef11a5caa6461865bc3d3cbde6fee47f6e
+  1.2.3--pyhdfd78af_0: sha256:71db379d0eb9af3bb151c70bc1aaf20f0847f5339172ee3953bc71d90f0885ef
 tags:
   1.2.2--pyhdfd78af_0: sha256:64e91e338f65d7d4f2eb5768a42014ef11a5caa6461865bc3d3cbde6fee47f6e
+  1.2.3--pyhdfd78af_0: sha256:71db379d0eb9af3bb151c70bc1aaf20f0847f5339172ee3953bc71d90f0885ef
 docker: quay.io/biocontainers/cobra-meta
 aliases:
   cobra-meta: /usr/local/bin/cobra-meta
