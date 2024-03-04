@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-saureuscdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-saureuscdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-saureuscdf/container.yaml"
-updated_at: "2024-03-04 03:11:41.682771"
+updated_at: "2024-03-04 04:38:17.492256"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-saureuscdf"
 

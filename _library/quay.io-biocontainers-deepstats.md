@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepstats/container.yaml"
-updated_at: "2024-03-04 03:10:33.758140"
+updated_at: "2024-03-04 04:37:09.519836"
 latest: "0.4--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/deepstats"
 aliases:

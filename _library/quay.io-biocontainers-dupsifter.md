@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dupsifter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dupsifter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dupsifter/container.yaml"
-updated_at: "2024-03-04 03:11:07.232341"
+updated_at: "2024-03-04 04:37:42.975981"
 latest: "1.2.1.20240119--h81da01d_0"
 container_url: "https://biocontainers.pro/tools/dupsifter"
 aliases:

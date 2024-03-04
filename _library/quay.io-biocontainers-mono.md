@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mono"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mono/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mono/container.yaml"
-updated_at: "2024-03-04 03:15:11.796350"
+updated_at: "2024-03-04 04:41:48.434009"
 latest: "4.6.2.6--0"
 container_url: "https://biocontainers.pro/tools/mono"
 aliases:
