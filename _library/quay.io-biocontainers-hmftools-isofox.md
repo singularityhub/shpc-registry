@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-isofox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-isofox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-isofox/container.yaml"
-updated_at: "2024-03-03 02:31:18.440908"
-latest: "1.6.2--hdfd78af_0"
+updated_at: "2024-03-04 03:09:13.936186"
+latest: "1.7.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-isofox"
 aliases:
  - "isofox"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.5--hdfd78af_0"
  - "1.6.2--hdfd78af_0"
+ - "1.7.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hmftools-isofox"
-config: {"url": "https://biocontainers.pro/tools/hmftools-isofox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-isofox", "latest": {"1.6.2--hdfd78af_0": "sha256:635c5002bb92ec165325ddeaa5f3a7b2cb2668d98d9b8bdfab5dca32a4f059a1"}, "tags": {"1.5--hdfd78af_0": "sha256:5d334f293ec92ff5472ee183df50b5bea22289fe2867baad9785af9229ebb6bf", "1.6.2--hdfd78af_0": "sha256:635c5002bb92ec165325ddeaa5f3a7b2cb2668d98d9b8bdfab5dca32a4f059a1"}, "docker": "quay.io/biocontainers/hmftools-isofox", "aliases": {"isofox": "/usr/local/bin/isofox", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-isofox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-isofox", "latest": {"1.7.1--hdfd78af_0": "sha256:d81d25813be45e1f1a2f87440cc06064ee5c3cc07fe731307216dc97249c0202"}, "tags": {"1.5--hdfd78af_0": "sha256:5d334f293ec92ff5472ee183df50b5bea22289fe2867baad9785af9229ebb6bf", "1.6.2--hdfd78af_0": "sha256:635c5002bb92ec165325ddeaa5f3a7b2cb2668d98d9b8bdfab5dca32a4f059a1", "1.7.1--hdfd78af_0": "sha256:d81d25813be45e1f1a2f87440cc06064ee5c3cc07fe731307216dc97249c0202"}, "docker": "quay.io/biocontainers/hmftools-isofox", "aliases": {"isofox": "/usr/local/bin/isofox", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-isofox.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/hmftools-isofox
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-isofox:1.6.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-isofox:1.7.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-isofox/1.6.2--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-isofox/1.6.2--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-isofox/1.7.1--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-isofox/1.7.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

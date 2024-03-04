@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/serotypefinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/serotypefinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/serotypefinder/container.yaml"
-updated_at: "2024-03-03 02:38:54.260910"
-latest: "2.0.1--py39hdfd78af_0"
+updated_at: "2024-03-04 03:16:49.764686"
+latest: "2.0.2--py312hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/serotypefinder"
 aliases:
  - "kma"
@@ -26,8 +26,9 @@ aliases:
  - "pm-collect"
 versions:
  - "2.0.1--py39hdfd78af_0"
+ - "2.0.2--py312hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for serotypefinder"
-config: {"url": "https://biocontainers.pro/tools/serotypefinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for serotypefinder", "latest": {"2.0.1--py39hdfd78af_0": "sha256:04d3dd31d77ca3f0d2d35dfb090c2beccad959f07fb9fe87a0c6db2d0650f99a"}, "tags": {"2.0.1--py39hdfd78af_0": "sha256:04d3dd31d77ca3f0d2d35dfb090c2beccad959f07fb9fe87a0c6db2d0650f99a"}, "docker": "quay.io/biocontainers/serotypefinder", "aliases": {"kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "serotypefinder": "/usr/local/bin/serotypefinder", "update-serotypefinder-db": "/usr/local/bin/update-serotypefinder-db", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "tabulate": "/usr/local/bin/tabulate", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect"}}
+config: {"url": "https://biocontainers.pro/tools/serotypefinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for serotypefinder", "latest": {"2.0.2--py312hdfd78af_1": "sha256:3a4953edfbcb7e22226aefc1c785310145e448eb0f3f89297e3d845f14794b05"}, "tags": {"2.0.1--py39hdfd78af_0": "sha256:04d3dd31d77ca3f0d2d35dfb090c2beccad959f07fb9fe87a0c6db2d0650f99a", "2.0.2--py312hdfd78af_1": "sha256:3a4953edfbcb7e22226aefc1c785310145e448eb0f3f89297e3d845f14794b05"}, "docker": "quay.io/biocontainers/serotypefinder", "aliases": {"kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "serotypefinder": "/usr/local/bin/serotypefinder", "update-serotypefinder-db": "/usr/local/bin/update-serotypefinder-db", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "tabulate": "/usr/local/bin/tabulate", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/serotypefinder.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/serotypefinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/serotypefinder:2.0.1--py39hdfd78af_0
+$ shpc install quay.io/biocontainers/serotypefinder:2.0.2--py312hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/serotypefinder/2.0.1--py39hdfd78af_0
-$ module help quay.io/biocontainers/serotypefinder/2.0.1--py39hdfd78af_0
+$ module load quay.io/biocontainers/serotypefinder/2.0.2--py312hdfd78af_1
+$ module help quay.io/biocontainers/serotypefinder/2.0.2--py312hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

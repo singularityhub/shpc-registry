@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cobra-meta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cobra-meta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cobra-meta/container.yaml"
-updated_at: "2024-03-03 02:30:32.791695"
-latest: "1.2.2--pyhdfd78af_0"
+updated_at: "2024-03-04 03:08:28.094620"
+latest: "1.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cobra-meta"
 aliases:
  - "cobra-meta"
@@ -36,8 +36,9 @@ aliases:
  - "sort-table"
 versions:
  - "1.2.2--pyhdfd78af_0"
+ - "1.2.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cobra-meta"
-config: {"url": "https://biocontainers.pro/tools/cobra-meta", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cobra-meta", "latest": {"1.2.2--pyhdfd78af_0": "sha256:64e91e338f65d7d4f2eb5768a42014ef11a5caa6461865bc3d3cbde6fee47f6e"}, "tags": {"1.2.2--pyhdfd78af_0": "sha256:64e91e338f65d7d4f2eb5768a42014ef11a5caa6461865bc3d3cbde6fee47f6e"}, "docker": "quay.io/biocontainers/cobra-meta", "aliases": {"cobra-meta": "/usr/local/bin/cobra-meta", "blastn_vdb": "/usr/local/bin/blastn_vdb", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "test_pcre": "/usr/local/bin/test_pcre", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs", "snp2tbl": "/usr/local/bin/snp2tbl", "sort-table": "/usr/local/bin/sort-table"}}
+config: {"url": "https://biocontainers.pro/tools/cobra-meta", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cobra-meta", "latest": {"1.2.3--pyhdfd78af_0": "sha256:71db379d0eb9af3bb151c70bc1aaf20f0847f5339172ee3953bc71d90f0885ef"}, "tags": {"1.2.2--pyhdfd78af_0": "sha256:64e91e338f65d7d4f2eb5768a42014ef11a5caa6461865bc3d3cbde6fee47f6e", "1.2.3--pyhdfd78af_0": "sha256:71db379d0eb9af3bb151c70bc1aaf20f0847f5339172ee3953bc71d90f0885ef"}, "docker": "quay.io/biocontainers/cobra-meta", "aliases": {"cobra-meta": "/usr/local/bin/cobra-meta", "blastn_vdb": "/usr/local/bin/blastn_vdb", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "test_pcre": "/usr/local/bin/test_pcre", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs", "snp2tbl": "/usr/local/bin/snp2tbl", "sort-table": "/usr/local/bin/sort-table"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cobra-meta.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/cobra-meta
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cobra-meta:1.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cobra-meta:1.2.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cobra-meta/1.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/cobra-meta/1.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/cobra-meta/1.2.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/cobra-meta/1.2.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
