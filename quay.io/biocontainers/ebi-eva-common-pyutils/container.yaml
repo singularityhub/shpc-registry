@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/ebi-eva-common-pyutils
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ebi-eva-common-pyutils
+latest:
+  0.6.3--pyh7cba7a3_0: sha256:db31057a9bfd43ad420626b42fa383c137baa3d964f1a16d84a7f6aef89ddf18
+tags:
+  0.6.3--pyh7cba7a3_0: sha256:db31057a9bfd43ad420626b42fa383c137baa3d964f1a16d84a7f6aef89ddf18
+docker: quay.io/biocontainers/ebi-eva-common-pyutils
+aliases:
+  archive_directory.py: /usr/local/bin/archive_directory.py
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  normalizer: /usr/local/bin/normalizer

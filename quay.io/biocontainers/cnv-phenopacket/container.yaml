@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/cnv-phenopacket
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cnv-phenopacket
+latest:
+  1.0.2: sha256:dc01977d100f6196564fbe5d6675036df995e383f9d7ac45f75a40d55884d7de
+tags:
+  1.0.2: sha256:dc01977d100f6196564fbe5d6675036df995e383f9d7ac45f75a40d55884d7de
+docker: quay.io/biocontainers/cnv-phenopacket
+aliases:
+  cnv-phenopacket: /usr/local/bin/cnv-phenopacket
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  jsonschema: /usr/local/bin/jsonschema
