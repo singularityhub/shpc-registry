@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/macs3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for macs3
+latest:
+  3.0.1--py312he4a0461_0: sha256:8afe27c70bf2c3bcebd06f8819e014aba71565066d69e188817006df1e46f022
+tags:
+  3.0.1--py312he4a0461_0: sha256:8afe27c70bf2c3bcebd06f8819e014aba71565066d69e188817006df1e46f022
+docker: quay.io/biocontainers/macs3
+aliases:
+  macs3: /usr/local/bin/macs3
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/circulocov
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for circulocov
+latest:
+  0.1.20240104--pyhdfd78af_0: sha256:361b92e2c0bde6376edca82bec5f4b128d60495ef8096bcdee9750fd3a0748b4
+tags:
+  0.1.20240104--pyhdfd78af_0: sha256:361b92e2c0bde6376edca82bec5f4b128d60495ef8096bcdee9750fd3a0748b4
+docker: quay.io/biocontainers/circulocov
+aliases:
+  circulocov: /usr/local/bin/circulocov
+  sdust: /usr/local/bin/sdust
+  k8: /usr/local/bin/k8
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc
