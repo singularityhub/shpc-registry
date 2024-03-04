@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/coreutils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for coreutils
 latest:
-  8.31--h14c3975_0: sha256:5e775e4111ec92f609cfe0504b6db2ddef4b65fb9177b9aaa5c1a0f0fc27d256
+  '9.3': sha256:46c0d357a6d1288393d6d90375ed09bb2d24a728442b1299ff35d856b706f2b4
 tags:
   8.31--h14c3975_0: sha256:5e775e4111ec92f609cfe0504b6db2ddef4b65fb9177b9aaa5c1a0f0fc27d256
+  '9.3': sha256:46c0d357a6d1288393d6d90375ed09bb2d24a728442b1299ff35d856b706f2b4
 docker: quay.io/biocontainers/coreutils
 aliases:
   basenc: /usr/local/bin/basenc

@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/taxmyphage
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for taxmyphage
 latest:
-  0.2.7--pyhdfd78af_0: sha256:1f10ebca3364b6a661166ad57ade34f450706e9215cadea10e1c2080d905a40b
+  0.2.8--pyhdfd78af_0: sha256:0638e0c6615767926f5ceef49480292448c01bf16ad2b823e9c73f8c67352dac
 tags:
   0.1.9--pyhdfd78af_0: sha256:8b46ea32e3328eb038dbc92200a1f83b31833475c575ea0005d0116c11d539da
   0.2.3--pyhdfd78af_0: sha256:2916f24702c4ef8500741f0c341390448bd31291149851b2257e733bdcccc8af
   0.2.6--pyhdfd78af_0: sha256:b8fe2e6a9f6adc79895ccdc7c8dcbf8950affd43b15d2ca3f6f25cbba71c2aab
   0.2.7--pyhdfd78af_0: sha256:1f10ebca3364b6a661166ad57ade34f450706e9215cadea10e1c2080d905a40b
+  0.2.8--pyhdfd78af_0: sha256:0638e0c6615767926f5ceef49480292448c01bf16ad2b823e9c73f8c67352dac
 docker: quay.io/biocontainers/taxmyphage
 aliases:
   taxmyphage: /usr/local/bin/taxmyphage
