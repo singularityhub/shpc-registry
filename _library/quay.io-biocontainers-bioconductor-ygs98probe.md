@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ygs98probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ygs98probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ygs98probe/container.yaml"
-updated_at: "2024-03-04 04:44:46.885973"
+updated_at: "2024-03-05 02:38:33.519246"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-ygs98probe"
 

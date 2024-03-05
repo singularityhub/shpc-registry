@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbfusion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbfusion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbfusion/container.yaml"
-updated_at: "2024-03-04 04:49:30.071137"
+updated_at: "2024-03-05 02:43:16.456036"
 latest: "0.4.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pbfusion"
 aliases:

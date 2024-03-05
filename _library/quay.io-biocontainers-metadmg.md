@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metadmg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metadmg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metadmg/container.yaml"
-updated_at: "2024-03-04 05:07:33.109886"
+updated_at: "2024-03-05 03:01:08.144836"
 latest: "0.4--h8e173a3_0"
 container_url: "https://biocontainers.pro/tools/metadmg"
 aliases:

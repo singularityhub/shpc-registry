@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastspar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastspar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastspar/container.yaml"
-updated_at: "2024-03-04 04:48:28.531985"
+updated_at: "2024-03-05 02:42:14.836768"
 latest: "1.0.0--hac4c98c_5"
 container_url: "https://biocontainers.pro/tools/fastspar"
 aliases:

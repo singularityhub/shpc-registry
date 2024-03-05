@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transit/container.yaml"
-updated_at: "2024-03-04 04:46:19.099321"
+updated_at: "2024-03-05 02:40:05.316830"
 latest: "3.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/transit"
 aliases:

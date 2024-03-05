@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lamassemble"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lamassemble/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lamassemble/container.yaml"
-updated_at: "2024-03-04 04:35:04.126794"
+updated_at: "2024-03-05 02:29:04.828538"
 latest: "1.7.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/lamassemble"
 aliases:

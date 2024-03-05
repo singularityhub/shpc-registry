@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/guidemaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/guidemaker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/guidemaker/container.yaml"
-updated_at: "2024-03-04 04:41:43.587806"
+updated_at: "2024-03-05 02:35:31.938188"
 latest: "0.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/guidemaker"
 aliases:

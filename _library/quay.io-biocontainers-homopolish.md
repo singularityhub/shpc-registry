@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/homopolish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/homopolish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/homopolish/container.yaml"
-updated_at: "2024-03-04 05:03:07.819690"
+updated_at: "2024-03-05 02:56:48.158844"
 latest: "0.4.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/homopolish"
 aliases:

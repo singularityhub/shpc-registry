@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pargenes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pargenes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pargenes/container.yaml"
-updated_at: "2024-03-04 04:47:02.843958"
+updated_at: "2024-03-05 02:40:48.782797"
 latest: "1.2.0--py27h8374a30_0"
 container_url: "https://biocontainers.pro/tools/pargenes"
 aliases:

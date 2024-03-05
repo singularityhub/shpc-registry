@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pepsnmrdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pepsnmrdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pepsnmrdata/container.yaml"
-updated_at: "2024-03-04 04:47:06.337190"
+updated_at: "2024-03-05 02:40:52.270996"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pepsnmrdata"
 aliases:
