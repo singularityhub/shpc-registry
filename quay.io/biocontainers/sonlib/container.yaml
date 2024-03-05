@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sonlib
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sonlib
 latest:
-  1.1.0--py_2: sha256:0edb4b58190e1a330acf9693e029add6ba497ffc0a562302ce2796ff5d5444cf
+  2.0.dev88--py38h7cf9df2_0: sha256:2e5e3ccb060bdbafb4aa3627722e191feb0d6850cbc4f9db7dc2d37b74fa05b7
 tags:
   1.1.0--py_2: sha256:0edb4b58190e1a330acf9693e029add6ba497ffc0a562302ce2796ff5d5444cf
+  2.0.dev88--py38h7cf9df2_0: sha256:2e5e3ccb060bdbafb4aa3627722e191feb0d6850cbc4f9db7dc2d37b74fa05b7
 docker: quay.io/biocontainers/sonlib
 aliases:
   python2-config: /usr/local/bin/python2-config
