@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sonlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sonlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sonlib/container.yaml"
-updated_at: "2024-03-05 02:52:13.698204"
-latest: "1.1.0--py_2"
+updated_at: "2024-03-06 02:52:41.399247"
+latest: "2.0.dev88--py38h7cf9df2_0"
 container_url: "https://biocontainers.pro/tools/sonlib"
 aliases:
  - "python2-config"
@@ -17,8 +17,9 @@ aliases:
  - "smtpd.py"
 versions:
  - "1.1.0--py_2"
+ - "2.0.dev88--py38h7cf9df2_0"
 description: "shpc-registry automated BioContainers addition for sonlib"
-config: {"url": "https://biocontainers.pro/tools/sonlib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sonlib", "latest": {"1.1.0--py_2": "sha256:0edb4b58190e1a330acf9693e029add6ba497ffc0a562302ce2796ff5d5444cf"}, "tags": {"1.1.0--py_2": "sha256:0edb4b58190e1a330acf9693e029add6ba497ffc0a562302ce2796ff5d5444cf"}, "docker": "quay.io/biocontainers/sonlib", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/sonlib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sonlib", "latest": {"2.0.dev88--py38h7cf9df2_0": "sha256:2e5e3ccb060bdbafb4aa3627722e191feb0d6850cbc4f9db7dc2d37b74fa05b7"}, "tags": {"1.1.0--py_2": "sha256:0edb4b58190e1a330acf9693e029add6ba497ffc0a562302ce2796ff5d5444cf", "2.0.dev88--py38h7cf9df2_0": "sha256:2e5e3ccb060bdbafb4aa3627722e191feb0d6850cbc4f9db7dc2d37b74fa05b7"}, "docker": "quay.io/biocontainers/sonlib", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sonlib.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/sonlib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sonlib:1.1.0--py_2
+$ shpc install quay.io/biocontainers/sonlib:2.0.dev88--py38h7cf9df2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sonlib/1.1.0--py_2
-$ module help quay.io/biocontainers/sonlib/1.1.0--py_2
+$ module load quay.io/biocontainers/sonlib/2.0.dev88--py38h7cf9df2_0
+$ module help quay.io/biocontainers/sonlib/2.0.dev88--py38h7cf9df2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

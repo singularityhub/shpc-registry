@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-virus-interpreter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-virus-interpreter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-virus-interpreter/container.yaml"
-updated_at: "2024-03-05 02:24:30.737105"
+updated_at: "2024-03-06 02:24:00.287996"
 latest: "1.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-virus-interpreter"
 aliases:

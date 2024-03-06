@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bed2gtf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bed2gtf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bed2gtf/container.yaml"
-updated_at: "2024-03-05 02:53:46.413075"
-latest: "1.9.0--h4ac6f70_0"
+updated_at: "2024-03-06 02:54:18.239181"
+latest: "1.9.1--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/bed2gtf"
 aliases:
  - "bed2gtf"
 versions:
  - "1.9.0--h4ac6f70_0"
+ - "1.9.1--h4ac6f70_0"
 description: "singularity registry hpc automated addition for bed2gtf"
-config: {"url": "https://biocontainers.pro/tools/bed2gtf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bed2gtf", "latest": {"1.9.0--h4ac6f70_0": "sha256:32ffd1516d1fc28bb763366e2f428c0708cfa6b26c117aa9d22170babfd92fbd"}, "tags": {"1.9.0--h4ac6f70_0": "sha256:32ffd1516d1fc28bb763366e2f428c0708cfa6b26c117aa9d22170babfd92fbd"}, "docker": "quay.io/biocontainers/bed2gtf", "aliases": {"bed2gtf": "/usr/local/bin/bed2gtf"}}
+config: {"url": "https://biocontainers.pro/tools/bed2gtf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bed2gtf", "latest": {"1.9.1--h4ac6f70_0": "sha256:c2f4594e68bc2c493a7ceca7701e676a890db6f275e692a6d65f07be3503ba67"}, "tags": {"1.9.0--h4ac6f70_0": "sha256:32ffd1516d1fc28bb763366e2f428c0708cfa6b26c117aa9d22170babfd92fbd", "1.9.1--h4ac6f70_0": "sha256:c2f4594e68bc2c493a7ceca7701e676a890db6f275e692a6d65f07be3503ba67"}, "docker": "quay.io/biocontainers/bed2gtf", "aliases": {"bed2gtf": "/usr/local/bin/bed2gtf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bed2gtf.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bed2gtf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bed2gtf:1.9.0--h4ac6f70_0
+$ shpc install quay.io/biocontainers/bed2gtf:1.9.1--h4ac6f70_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bed2gtf/1.9.0--h4ac6f70_0
-$ module help quay.io/biocontainers/bed2gtf/1.9.0--h4ac6f70_0
+$ module load quay.io/biocontainers/bed2gtf/1.9.1--h4ac6f70_0
+$ module help quay.io/biocontainers/bed2gtf/1.9.1--h4ac6f70_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

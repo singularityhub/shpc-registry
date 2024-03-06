@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcfsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcfsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcfsim/container.yaml"
-updated_at: "2024-03-05 02:31:35.846188"
+updated_at: "2024-03-06 02:31:32.749143"
 latest: "1.0.9.alpha--pyhca03a8a_0"
 container_url: "https://biocontainers.pro/tools/vcfsim"
 aliases:

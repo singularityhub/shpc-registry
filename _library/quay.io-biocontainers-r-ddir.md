@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ddir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ddir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ddir/container.yaml"
-updated_at: "2024-03-05 02:39:07.034869"
+updated_at: "2024-03-06 02:39:10.857931"
 latest: "0.0.3--r43hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/r-ddir"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/htsinfer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/htsinfer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/htsinfer/container.yaml"
-updated_at: "2024-03-05 02:30:55.952720"
-latest: "0.10.0--pyhdfd78af_0"
+updated_at: "2024-03-06 02:30:51.796753"
+latest: "0.11.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/htsinfer"
 aliases:
  - "STAR-avx"
@@ -51,8 +51,9 @@ aliases:
 versions:
  - "0.9.0--pyhdfd78af_0"
  - "0.10.0--pyhdfd78af_0"
+ - "0.11.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for htsinfer"
-config: {"url": "https://biocontainers.pro/tools/htsinfer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for htsinfer", "latest": {"0.10.0--pyhdfd78af_0": "sha256:17e728bbb8d66f06b233d2f2cd74be9882d3f8f368a3b618be990be01f40332c"}, "tags": {"0.9.0--pyhdfd78af_0": "sha256:6148ab06a46990c7bf746ce7d1bb5d2e314da0a3fe5dd5221c1a028a60dd87ae", "0.10.0--pyhdfd78af_0": "sha256:17e728bbb8d66f06b233d2f2cd74be9882d3f8f368a3b618be990be01f40332c"}, "docker": "quay.io/biocontainers/htsinfer", "aliases": {"STAR-avx": "/usr/local/bin/STAR-avx", "STAR-avx2": "/usr/local/bin/STAR-avx2", "STAR-plain": "/usr/local/bin/STAR-plain", "STAR-sse3": "/usr/local/bin/STAR-sse3", "STAR-sse4.1": "/usr/local/bin/STAR-sse4.1", "STAR-ssse3": "/usr/local/bin/STAR-ssse3", "STARlong-avx": "/usr/local/bin/STARlong-avx", "STARlong-avx2": "/usr/local/bin/STARlong-avx2", "STARlong-plain": "/usr/local/bin/STARlong-plain", "STARlong-sse3": "/usr/local/bin/STARlong-sse3", "STARlong-sse4.1": "/usr/local/bin/STARlong-sse4.1", "STARlong-ssse3": "/usr/local/bin/STARlong-ssse3", "annot-tsv": "/usr/local/bin/annot-tsv", "htsinfer": "/usr/local/bin/htsinfer", "kallisto": "/usr/local/bin/kallisto", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "cutadapt": "/usr/local/bin/cutadapt", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "igzip": "/usr/local/bin/igzip", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "f2py3.10": "/usr/local/bin/f2py3.10", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls"}}
+config: {"url": "https://biocontainers.pro/tools/htsinfer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for htsinfer", "latest": {"0.11.0--pyhdfd78af_1": "sha256:c2e2f62b8b91947cbe6d382fa6a22ed73b3a446f5747882cea82d2b0e3911927"}, "tags": {"0.9.0--pyhdfd78af_0": "sha256:6148ab06a46990c7bf746ce7d1bb5d2e314da0a3fe5dd5221c1a028a60dd87ae", "0.10.0--pyhdfd78af_0": "sha256:17e728bbb8d66f06b233d2f2cd74be9882d3f8f368a3b618be990be01f40332c", "0.11.0--pyhdfd78af_1": "sha256:c2e2f62b8b91947cbe6d382fa6a22ed73b3a446f5747882cea82d2b0e3911927"}, "docker": "quay.io/biocontainers/htsinfer", "aliases": {"STAR-avx": "/usr/local/bin/STAR-avx", "STAR-avx2": "/usr/local/bin/STAR-avx2", "STAR-plain": "/usr/local/bin/STAR-plain", "STAR-sse3": "/usr/local/bin/STAR-sse3", "STAR-sse4.1": "/usr/local/bin/STAR-sse4.1", "STAR-ssse3": "/usr/local/bin/STAR-ssse3", "STARlong-avx": "/usr/local/bin/STARlong-avx", "STARlong-avx2": "/usr/local/bin/STARlong-avx2", "STARlong-plain": "/usr/local/bin/STARlong-plain", "STARlong-sse3": "/usr/local/bin/STARlong-sse3", "STARlong-sse4.1": "/usr/local/bin/STARlong-sse4.1", "STARlong-ssse3": "/usr/local/bin/STARlong-ssse3", "annot-tsv": "/usr/local/bin/annot-tsv", "htsinfer": "/usr/local/bin/htsinfer", "kallisto": "/usr/local/bin/kallisto", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "cutadapt": "/usr/local/bin/cutadapt", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "igzip": "/usr/local/bin/igzip", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "f2py3.10": "/usr/local/bin/f2py3.10", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/htsinfer.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/htsinfer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/htsinfer:0.10.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/htsinfer:0.11.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/htsinfer/0.10.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/htsinfer/0.10.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/htsinfer/0.11.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/htsinfer/0.11.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pytrf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytrf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytrf/container.yaml"
-updated_at: "2024-03-05 02:50:12.053511"
-latest: "1.2.1--py38he5da3d1_1"
+updated_at: "2024-03-06 02:50:34.710542"
+latest: "1.3.0--py310h4b81fae_0"
 container_url: "https://biocontainers.pro/tools/pytrf"
 aliases:
  - "pytrf"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "1.2.1--py311h031d066_0"
  - "1.2.1--py38he5da3d1_1"
+ - "1.3.0--py310h4b81fae_0"
 description: "singularity registry hpc automated addition for pytrf"
-config: {"url": "https://biocontainers.pro/tools/pytrf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pytrf", "latest": {"1.2.1--py38he5da3d1_1": "sha256:a8965ef1f3031be7626e26448e8c5c178a280fa8a24429f14f0bc201f65f461d"}, "tags": {"1.2.1--py311h031d066_0": "sha256:f456cb9560503e9078253b4ab1ede244736c96b7e57f4091fa65fe08116ec5a3", "1.2.1--py38he5da3d1_1": "sha256:a8965ef1f3031be7626e26448e8c5c178a280fa8a24429f14f0bc201f65f461d"}, "docker": "quay.io/biocontainers/pytrf", "aliases": {"pytrf": "/usr/local/bin/pytrf", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
+config: {"url": "https://biocontainers.pro/tools/pytrf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pytrf", "latest": {"1.3.0--py310h4b81fae_0": "sha256:8196d705b6bbc727abf0ad2cd1b230961e38ec2cb12642fd2ec00ded4074e358"}, "tags": {"1.2.1--py311h031d066_0": "sha256:f456cb9560503e9078253b4ab1ede244736c96b7e57f4091fa65fe08116ec5a3", "1.2.1--py38he5da3d1_1": "sha256:a8965ef1f3031be7626e26448e8c5c178a280fa8a24429f14f0bc201f65f461d", "1.3.0--py310h4b81fae_0": "sha256:8196d705b6bbc727abf0ad2cd1b230961e38ec2cb12642fd2ec00ded4074e358"}, "docker": "quay.io/biocontainers/pytrf", "aliases": {"pytrf": "/usr/local/bin/pytrf", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytrf.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/pytrf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pytrf:1.2.1--py38he5da3d1_1
+$ shpc install quay.io/biocontainers/pytrf:1.3.0--py310h4b81fae_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pytrf/1.2.1--py38he5da3d1_1
-$ module help quay.io/biocontainers/pytrf/1.2.1--py38he5da3d1_1
+$ module load quay.io/biocontainers/pytrf/1.3.0--py310h4b81fae_0
+$ module help quay.io/biocontainers/pytrf/1.3.0--py310h4b81fae_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
