@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/phynder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phynder
+latest:
+  1.0--h81da01d_0: sha256:7a6262a21b793ad11c3012a6139b7bf978e2331fff4b7a6a7ee40abb7740533e
+tags:
+  1.0--h81da01d_0: sha256:7a6262a21b793ad11c3012a6139b7bf978e2331fff4b7a6a7ee40abb7740533e
+docker: quay.io/biocontainers/phynder
+aliases:
+  annot-tsv: /usr/local/bin/annot-tsv
+  phynder: /usr/local/bin/phynder
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
