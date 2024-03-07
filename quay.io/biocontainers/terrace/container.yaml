@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/terrace
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for terrace
 latest:
-  1.1.1--he153687_0: sha256:e335df0d5a1e6b67d409f78746c2dcc48cb9d7a4c95758643b5b04752b8b4d02
+  1.1.2--he153687_0: sha256:e52e73bcaafcf22bb6bfbdcf8a6b5be33fd5a96b2946789bb484791fc0819123
 tags:
   1.1.1--he153687_0: sha256:e335df0d5a1e6b67d409f78746c2dcc48cb9d7a4c95758643b5b04752b8b4d02
+  1.1.2--he153687_0: sha256:e52e73bcaafcf22bb6bfbdcf8a6b5be33fd5a96b2946789bb484791fc0819123
 docker: quay.io/biocontainers/terrace
 aliases:
   annot-tsv: /usr/local/bin/annot-tsv
