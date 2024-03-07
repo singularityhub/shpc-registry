@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flaimapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flaimapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flaimapper/container.yaml"
-updated_at: "2024-03-07 00:08:41.193127"
+updated_at: "2024-03-07 02:40:18.035016"
 latest: "3.0.0--py_2"
 container_url: "https://biocontainers.pro/tools/flaimapper"
 aliases:

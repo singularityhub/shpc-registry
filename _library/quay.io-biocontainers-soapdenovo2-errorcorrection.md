@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/soapdenovo2-errorcorrection"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soapdenovo2-errorcorrection/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soapdenovo2-errorcorrection/container.yaml"
-updated_at: "2024-03-06 23:44:38.667945"
+updated_at: "2024-03-07 02:16:53.564562"
 latest: "2.0--h21ec9f0_7"
 container_url: "https://biocontainers.pro/tools/soapdenovo2-errorcorrection"
 aliases:

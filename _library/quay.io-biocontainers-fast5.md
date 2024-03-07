@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fast5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fast5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fast5/container.yaml"
-updated_at: "2024-03-07 00:20:42.969223"
+updated_at: "2024-03-07 02:52:11.893540"
 latest: "0.6.5--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/fast5"
 

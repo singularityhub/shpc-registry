@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmntrimmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmntrimmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmntrimmer/container.yaml"
-updated_at: "2024-03-07 00:01:01.938706"
+updated_at: "2024-03-07 02:32:56.163991"
 latest: "0.6.5--he93f0d0_1"
 container_url: "https://biocontainers.pro/tools/hmntrimmer"
 aliases:

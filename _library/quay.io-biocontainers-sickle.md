@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sickle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sickle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sickle/container.yaml"
-updated_at: "2024-03-06 23:57:36.653510"
+updated_at: "2024-03-07 02:29:38.061157"
 latest: "0.7.0--pyh9f0ad1d_0"
 container_url: "https://biocontainers.pro/tools/sickle"
 

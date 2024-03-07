@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/figtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/figtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/figtree/container.yaml"
-updated_at: "2024-03-07 00:07:36.525973"
+updated_at: "2024-03-07 02:39:14.422004"
 latest: "1.4.4--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/figtree"
 aliases:

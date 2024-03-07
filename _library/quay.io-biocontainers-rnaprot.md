@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnaprot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnaprot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnaprot/container.yaml"
-updated_at: "2024-03-06 23:50:05.478832"
+updated_at: "2024-03-07 02:22:10.060585"
 latest: "0.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/rnaprot"
 aliases:

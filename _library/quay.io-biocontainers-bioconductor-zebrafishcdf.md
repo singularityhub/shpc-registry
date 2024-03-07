@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-zebrafishcdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-zebrafishcdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-zebrafishcdf/container.yaml"
-updated_at: "2024-03-07 00:08:51.843484"
+updated_at: "2024-03-07 02:40:28.544101"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-zebrafishcdf"
 
