@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-nodiv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nodiv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nodiv/container.yaml"
-updated_at: "2024-03-06 03:04:26.867453"
+updated_at: "2024-03-07 00:01:06.147109"
 latest: "1.3.0--r351h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-nodiv"
 aliases:

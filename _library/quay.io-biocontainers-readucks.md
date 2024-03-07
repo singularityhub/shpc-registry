@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/readucks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/readucks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/readucks/container.yaml"
-updated_at: "2024-03-06 02:47:26.613644"
+updated_at: "2024-03-06 23:43:36.852750"
 latest: "0.0.3--py_0"
 container_url: "https://biocontainers.pro/tools/readucks"
 aliases:

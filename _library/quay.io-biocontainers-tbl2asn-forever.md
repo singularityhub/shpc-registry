@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tbl2asn-forever"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tbl2asn-forever/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tbl2asn-forever/container.yaml"
-updated_at: "2024-03-06 03:03:37.152130"
+updated_at: "2024-03-06 23:53:12.386741"
 latest: "25.7.2f--h031d066_4"
 container_url: "https://biocontainers.pro/tools/tbl2asn-forever"
 aliases:

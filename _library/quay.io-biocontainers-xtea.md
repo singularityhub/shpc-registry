@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xtea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xtea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xtea/container.yaml"
-updated_at: "2024-03-06 02:37:05.160904"
+updated_at: "2024-03-07 00:10:16.514145"
 latest: "0.1.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/xtea"
 aliases:
