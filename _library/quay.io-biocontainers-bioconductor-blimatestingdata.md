@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-blimatestingdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-blimatestingdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-blimatestingdata/container.yaml"
-updated_at: "2024-03-07 02:34:03.526064"
+updated_at: "2024-03-07 03:38:14.776760"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-blimatestingdata"
 aliases:

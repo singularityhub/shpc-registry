@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tqdist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tqdist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tqdist/container.yaml"
-updated_at: "2024-03-07 02:42:41.539434"
+updated_at: "2024-03-07 03:46:58.483266"
 latest: "1.0.0--h1b792b2_3"
 container_url: "https://biocontainers.pro/tools/tqdist"
 aliases:

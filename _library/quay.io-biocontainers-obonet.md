@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/obonet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/obonet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/obonet/container.yaml"
-updated_at: "2024-03-07 02:44:12.306128"
+updated_at: "2024-03-07 03:48:29.976286"
 latest: "1.0.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/obonet"
 aliases:

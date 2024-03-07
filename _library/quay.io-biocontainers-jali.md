@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jali"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jali/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jali/container.yaml"
-updated_at: "2024-03-07 02:55:53.126005"
+updated_at: "2024-03-07 04:00:16.741038"
 latest: "1.3--0"
 container_url: "https://biocontainers.pro/tools/jali"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-anvilbilling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anvilbilling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anvilbilling/container.yaml"
-updated_at: "2024-03-07 02:36:11.993781"
+updated_at: "2024-03-07 03:40:25.255048"
 latest: "1.12.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-anvilbilling"
 

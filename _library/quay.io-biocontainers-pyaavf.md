@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyaavf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyaavf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyaavf/container.yaml"
-updated_at: "2024-03-07 02:42:29.327772"
+updated_at: "2024-03-07 03:46:46.073543"
 latest: "0.1.0--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/pyaavf"
 aliases:

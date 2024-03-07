@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hybracter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hybracter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hybracter/container.yaml"
-updated_at: "2024-03-07 02:21:26.564010"
+updated_at: "2024-03-07 03:25:33.871479"
 latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hybracter"
 aliases:
