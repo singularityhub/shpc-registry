@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/ena-upload-cli
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ena-upload-cli
 latest:
-  0.7.0--pyhdfd78af_0: sha256:0326f603885aa049bea28b28fae351f614586e0841ff9a9ad07e70e3b15e2681
+  0.7.1--pyhdfd78af_0: sha256:dd629359417f9407cfb029615884a75dd204854e728708d576b77d05d08ada76
 tags:
   0.6.1--pyh5e36f6f_0: sha256:b3244a8caf8c18efd7fc7970ed5f79c18b4eeed933be1c488ec90f0741061ca6
   0.6.2--pyh7cba7a3_0: sha256:4c2b1e5fad9c1d51b04487016f19df04f877606c9b721d53210c2faf8e1fe8e2
   0.6.3--pyhdfd78af_0: sha256:daefb2a2602122460c0be2e5d62470f7d1c8883c7440cbeb40e513e924ba09a1
   0.7.0--pyhdfd78af_0: sha256:0326f603885aa049bea28b28fae351f614586e0841ff9a9ad07e70e3b15e2681
+  0.7.1--pyhdfd78af_0: sha256:dd629359417f9407cfb029615884a75dd204854e728708d576b77d05d08ada76
 docker: quay.io/biocontainers/ena-upload-cli
 aliases:
   ena-upload-cli: /usr/local/bin/ena-upload-cli
