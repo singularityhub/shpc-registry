@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pgx-pipe-helper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgx-pipe-helper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgx-pipe-helper/container.yaml"
-updated_at: "2024-03-07 03:52:54.319323"
+updated_at: "2024-03-08 02:55:16.051159"
 latest: "0.0.4--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/pgx-pipe-helper"
 aliases:

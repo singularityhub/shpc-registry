@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ribotaper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribotaper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribotaper/container.yaml"
-updated_at: "2024-03-07 03:23:28.107538"
+updated_at: "2024-03-08 02:26:32.174771"
 latest: "1.3.1a--h031d066_6"
 container_url: "https://biocontainers.pro/tools/ribotaper"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/terrace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/terrace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/terrace/container.yaml"
-updated_at: "2024-03-07 03:20:33.776304"
-latest: "1.1.1--he153687_0"
+updated_at: "2024-03-08 02:23:41.855786"
+latest: "1.1.2--he153687_0"
 container_url: "https://biocontainers.pro/tools/terrace"
 aliases:
  - "annot-tsv"
@@ -15,8 +15,9 @@ aliases:
  - "tabix"
 versions:
  - "1.1.1--he153687_0"
+ - "1.1.2--he153687_0"
 description: "singularity registry hpc automated addition for terrace"
-config: {"url": "https://biocontainers.pro/tools/terrace", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for terrace", "latest": {"1.1.1--he153687_0": "sha256:e335df0d5a1e6b67d409f78746c2dcc48cb9d7a4c95758643b5b04752b8b4d02"}, "tags": {"1.1.1--he153687_0": "sha256:e335df0d5a1e6b67d409f78746c2dcc48cb9d7a4c95758643b5b04752b8b4d02"}, "docker": "quay.io/biocontainers/terrace", "aliases": {"annot-tsv": "/usr/local/bin/annot-tsv", "terrace": "/usr/local/bin/terrace", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/terrace", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for terrace", "latest": {"1.1.2--he153687_0": "sha256:e52e73bcaafcf22bb6bfbdcf8a6b5be33fd5a96b2946789bb484791fc0819123"}, "tags": {"1.1.1--he153687_0": "sha256:e335df0d5a1e6b67d409f78746c2dcc48cb9d7a4c95758643b5b04752b8b4d02", "1.1.2--he153687_0": "sha256:e52e73bcaafcf22bb6bfbdcf8a6b5be33fd5a96b2946789bb484791fc0819123"}, "docker": "quay.io/biocontainers/terrace", "aliases": {"annot-tsv": "/usr/local/bin/annot-tsv", "terrace": "/usr/local/bin/terrace", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/terrace.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/terrace
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/terrace:1.1.1--he153687_0
+$ shpc install quay.io/biocontainers/terrace:1.1.2--he153687_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/terrace/1.1.1--he153687_0
-$ module help quay.io/biocontainers/terrace/1.1.1--he153687_0
+$ module load quay.io/biocontainers/terrace/1.1.2--he153687_0
+$ module help quay.io/biocontainers/terrace/1.1.2--he153687_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

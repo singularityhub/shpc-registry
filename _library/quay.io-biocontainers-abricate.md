@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abricate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abricate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abricate/container.yaml"
-updated_at: "2024-03-07 03:36:00.269562"
+updated_at: "2024-03-08 02:38:46.154015"
 latest: "1.0.1--ha8f3691_2"
 container_url: "https://biocontainers.pro/tools/abricate"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-return-multilevel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-return-multilevel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-return-multilevel/container.yaml"
-updated_at: "2024-03-07 03:37:10.049525"
+updated_at: "2024-03-08 02:39:54.529201"
 latest: "0.08--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-return-multilevel"
 aliases:

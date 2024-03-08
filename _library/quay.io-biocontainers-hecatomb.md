@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hecatomb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hecatomb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hecatomb/container.yaml"
-updated_at: "2024-03-07 03:32:57.010266"
-latest: "1.3.1--pyh7cba7a3_0"
+updated_at: "2024-03-08 02:35:47.533618"
+latest: "1.3.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/hecatomb"
 aliases:
  - "bsdcat"
@@ -34,8 +34,9 @@ versions:
  - "1.1.0--hdfd78af_0"
  - "1.2.0--pyh7cba7a3_0"
  - "1.3.1--pyh7cba7a3_0"
+ - "1.3.2--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for hecatomb"
-config: {"url": "https://biocontainers.pro/tools/hecatomb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hecatomb", "latest": {"1.3.1--pyh7cba7a3_0": "sha256:5be432ab99db0f950a28143d1e26d20fbeaa72b43ce6f9369c655b5e02533dd8"}, "tags": {"1.1.0--hdfd78af_0": "sha256:d74f91dc02b4c54fb1ee2d70d19806d87ef12e60d1082c346c15f70ba9f0ca05", "1.2.0--pyh7cba7a3_0": "sha256:61b5dad319db3d1fed6fcfe1ce84fe9defd7ef41362ed11e377d8535e1b49bb5", "1.3.1--pyh7cba7a3_0": "sha256:5be432ab99db0f950a28143d1e26d20fbeaa72b43ce6f9369c655b5e02533dd8"}, "docker": "quay.io/biocontainers/hecatomb", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "hecatomb": "/usr/local/bin/hecatomb", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion"}}
+config: {"url": "https://biocontainers.pro/tools/hecatomb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hecatomb", "latest": {"1.3.2--pyh7cba7a3_0": "sha256:8ec36ce5993d19da91bf3bcda79f9d791d007e84e25af3c0f3f503ce242733bb"}, "tags": {"1.1.0--hdfd78af_0": "sha256:d74f91dc02b4c54fb1ee2d70d19806d87ef12e60d1082c346c15f70ba9f0ca05", "1.2.0--pyh7cba7a3_0": "sha256:61b5dad319db3d1fed6fcfe1ce84fe9defd7ef41362ed11e377d8535e1b49bb5", "1.3.1--pyh7cba7a3_0": "sha256:5be432ab99db0f950a28143d1e26d20fbeaa72b43ce6f9369c655b5e02533dd8", "1.3.2--pyh7cba7a3_0": "sha256:8ec36ce5993d19da91bf3bcda79f9d791d007e84e25af3c0f3f503ce242733bb"}, "docker": "quay.io/biocontainers/hecatomb", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "hecatomb": "/usr/local/bin/hecatomb", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hecatomb.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/hecatomb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hecatomb:1.3.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/hecatomb:1.3.2--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hecatomb/1.3.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/hecatomb/1.3.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/hecatomb/1.3.2--pyh7cba7a3_0
+$ module help quay.io/biocontainers/hecatomb/1.3.2--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

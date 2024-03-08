@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minced"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minced/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minced/container.yaml"
-updated_at: "2024-03-07 03:43:31.754754"
+updated_at: "2024-03-08 02:46:07.184814"
 latest: "0.4.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/minced"
 aliases:

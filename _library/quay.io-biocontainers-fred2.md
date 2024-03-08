@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fred2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fred2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fred2/container.yaml"
-updated_at: "2024-03-07 03:20:36.275482"
+updated_at: "2024-03-08 02:23:44.216625"
 latest: "2.0.7--py_0"
 container_url: "https://biocontainers.pro/tools/fred2"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dudes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dudes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dudes/container.yaml"
-updated_at: "2024-03-07 03:41:30.758144"
-latest: "0.08--py_2"
+updated_at: "2024-03-08 02:44:09.140367"
+latest: "0.10.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dudes"
 aliases:
  - "DUDes.py"
@@ -22,8 +22,9 @@ aliases:
  - "pyvenv"
 versions:
  - "0.08--py_2"
+ - "0.10.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for dudes"
-config: {"url": "https://biocontainers.pro/tools/dudes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dudes", "latest": {"0.08--py_2": "sha256:641a9d969ea283bc8b6c6dabdb26b846eac2dbfeb39a80f4ea9c3e568e6bbdfc"}, "tags": {"0.08--py_2": "sha256:641a9d969ea283bc8b6c6dabdb26b846eac2dbfeb39a80f4ea9c3e568e6bbdfc"}, "docker": "quay.io/biocontainers/dudes", "aliases": {"DUDes.py": "/usr/local/bin/DUDes.py", "DUDesDB.py": "/usr/local/bin/DUDesDB.py", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/dudes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dudes", "latest": {"0.10.0--pyhdfd78af_0": "sha256:26c2d0dcca113a5aad9e38036a4744bd8c2f08120fa9a844b9928445505c5330"}, "tags": {"0.08--py_2": "sha256:641a9d969ea283bc8b6c6dabdb26b846eac2dbfeb39a80f4ea9c3e568e6bbdfc", "0.10.0--pyhdfd78af_0": "sha256:26c2d0dcca113a5aad9e38036a4744bd8c2f08120fa9a844b9928445505c5330"}, "docker": "quay.io/biocontainers/dudes", "aliases": {"DUDes.py": "/usr/local/bin/DUDes.py", "DUDesDB.py": "/usr/local/bin/DUDesDB.py", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dudes.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/dudes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dudes:0.08--py_2
+$ shpc install quay.io/biocontainers/dudes:0.10.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dudes/0.08--py_2
-$ module help quay.io/biocontainers/dudes/0.08--py_2
+$ module load quay.io/biocontainers/dudes/0.10.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/dudes/0.10.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

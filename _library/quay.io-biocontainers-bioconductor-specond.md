@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-specond"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-specond/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-specond/container.yaml"
-updated_at: "2024-03-07 03:22:59.847877"
+updated_at: "2024-03-08 02:26:04.546813"
 latest: "1.56.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-specond"
 
