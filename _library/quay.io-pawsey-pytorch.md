@@ -4,8 +4,8 @@ name:  "quay.io/pawsey/pytorch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/pytorch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/pytorch/container.yaml"
-updated_at: "2024-03-08 03:05:16.749997"
-latest: "2.2.0-rocm5.6.0"
+updated_at: "2024-03-09 03:03:17.275628"
+latest: "2.2.0-rocm5.7.3"
 container_url: "https://singularity-hpc.readthedocs.io"
 aliases:
  - "python"
@@ -16,8 +16,9 @@ versions:
  - "2.2.0-rocm5.6.0"
  - "2.1.2-rocm5.6.0"
  - "2.1.0-rocm5.6.0"
+ - "2.2.0-rocm5.7.3"
 description: "Pawsey build of PyTorch for AMD GPUs."
-config: {"docker": "quay.io/pawsey/pytorch", "url": "https://singularity-hpc.readthedocs.io", "maintainer": "dipietrantonio", "features": {"gpu": true}, "aliases": {"python": "/usr/bin/python3", "python3": "/usr/bin/python3", "venv": "/usr/bin/python3 -m venv --system-site-packages", "bash": "/bin/bash"}, "description": "Pawsey build of PyTorch for AMD GPUs.", "latest": {"2.2.0-rocm5.6.0": "sha256:148b1d0842cd70acd6cc4b5d3cd2da7a426f56442317d2b722915baf82d7f5ff"}, "tags": {"2.2.0-rocm5.6.0": "sha256:148b1d0842cd70acd6cc4b5d3cd2da7a426f56442317d2b722915baf82d7f5ff", "2.1.2-rocm5.6.0": "sha256:d8f91fb847ff2f3a38c091e5d69a628cd7637739ab90db5ab42e596d67a48073", "2.1.0-rocm5.6.0": "sha256:3dbe6711f170d409cba0e25577859799e97eccb80c3d1b8b6df5bd6cf8c0aea6"}}
+config: {"docker": "quay.io/pawsey/pytorch", "url": "https://singularity-hpc.readthedocs.io", "maintainer": "dipietrantonio", "features": {"gpu": true}, "aliases": {"python": "/usr/bin/python3", "python3": "/usr/bin/python3", "venv": "/usr/bin/python3 -m venv --system-site-packages", "bash": "/bin/bash"}, "description": "Pawsey build of PyTorch for AMD GPUs.", "latest": {"2.2.0-rocm5.7.3": "sha256:378f81d0c2cd1a85723bcad7ada4991d2a87bb5328199966e766031733b7dd8e"}, "tags": {"2.2.0-rocm5.6.0": "sha256:148b1d0842cd70acd6cc4b5d3cd2da7a426f56442317d2b722915baf82d7f5ff", "2.1.2-rocm5.6.0": "sha256:d8f91fb847ff2f3a38c091e5d69a628cd7637739ab90db5ab42e596d67a48073", "2.1.0-rocm5.6.0": "sha256:3dbe6711f170d409cba0e25577859799e97eccb80c3d1b8b6df5bd6cf8c0aea6", "2.2.0-rocm5.7.3": "sha256:378f81d0c2cd1a85723bcad7ada4991d2a87bb5328199966e766031733b7dd8e"}}
 ---
 
 This module is a singularity container wrapper for quay.io/pawsey/pytorch.
@@ -32,7 +33,7 @@ $ shpc install quay.io/pawsey/pytorch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/pawsey/pytorch:2.2.0-rocm5.6.0
+$ shpc install quay.io/pawsey/pytorch:2.2.0-rocm5.7.3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/pawsey/pytorch/2.2.0-rocm5.6.0
-$ module help quay.io/pawsey/pytorch/2.2.0-rocm5.6.0
+$ module load quay.io/pawsey/pytorch/2.2.0-rocm5.7.3
+$ module help quay.io/pawsey/pytorch/2.2.0-rocm5.7.3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

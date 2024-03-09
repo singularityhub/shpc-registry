@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pronto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pronto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pronto/container.yaml"
-updated_at: "2024-03-08 02:28:11.838625"
-latest: "2.5.5--pyhdfd78af_0"
+updated_at: "2024-03-09 02:24:13.550568"
+latest: "2.5.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pronto"
 aliases:
  - "x86_64-conda_cos7-linux-gnu-ld"
@@ -22,8 +22,9 @@ versions:
  - "2.5.3--pyhdfd78af_0"
  - "2.5.4--pyhdfd78af_0"
  - "2.5.5--pyhdfd78af_0"
+ - "2.5.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pronto"
-config: {"url": "https://biocontainers.pro/tools/pronto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pronto", "latest": {"2.5.5--pyhdfd78af_0": "sha256:de1c639da68cb0834c9bc867cd4aba122c6840730d7e5e4d58196dde8c04f3f9"}, "tags": {"2.5.1--pyhdfd78af_0": "sha256:639b5301b7af8ebac01c28673852f49df0c565fdfe63232824a25af2bc9702d6", "2.5.2--pyhdfd78af_0": "sha256:6a403584a79512fb0a02c2cbe7eb548531164ee5f35cb6371c7ab10e4bafed96", "2.5.3--pyhdfd78af_0": "sha256:3bd8bf9b2571a15636117f90f05b919762226379e6b21674202d2abc9aaf3d89", "2.5.4--pyhdfd78af_0": "sha256:9b4ca03021b47ab0c57ae778d56aecbd23907532205df2bea2c33b7e08446650", "2.5.5--pyhdfd78af_0": "sha256:de1c639da68cb0834c9bc867cd4aba122c6840730d7e5e4d58196dde8c04f3f9"}, "docker": "quay.io/biocontainers/pronto", "aliases": {"x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "chardetect": "/usr/local/bin/chardetect", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pronto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pronto", "latest": {"2.5.6--pyhdfd78af_0": "sha256:9b171a0697ccede6209a936eee1953f60533e37903201e44b1611c0c21b2c58d"}, "tags": {"2.5.1--pyhdfd78af_0": "sha256:639b5301b7af8ebac01c28673852f49df0c565fdfe63232824a25af2bc9702d6", "2.5.2--pyhdfd78af_0": "sha256:6a403584a79512fb0a02c2cbe7eb548531164ee5f35cb6371c7ab10e4bafed96", "2.5.3--pyhdfd78af_0": "sha256:3bd8bf9b2571a15636117f90f05b919762226379e6b21674202d2abc9aaf3d89", "2.5.4--pyhdfd78af_0": "sha256:9b4ca03021b47ab0c57ae778d56aecbd23907532205df2bea2c33b7e08446650", "2.5.5--pyhdfd78af_0": "sha256:de1c639da68cb0834c9bc867cd4aba122c6840730d7e5e4d58196dde8c04f3f9", "2.5.6--pyhdfd78af_0": "sha256:9b171a0697ccede6209a936eee1953f60533e37903201e44b1611c0c21b2c58d"}, "docker": "quay.io/biocontainers/pronto", "aliases": {"x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "chardetect": "/usr/local/bin/chardetect", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pronto.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/pronto
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pronto:2.5.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pronto:2.5.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pronto/2.5.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/pronto/2.5.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/pronto/2.5.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/pronto/2.5.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

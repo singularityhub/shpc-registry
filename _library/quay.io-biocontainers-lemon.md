@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lemon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lemon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lemon/container.yaml"
-updated_at: "2024-03-08 02:55:29.850936"
+updated_at: "2024-03-09 02:53:10.763656"
 latest: "1.3.1--0"
 container_url: "https://biocontainers.pro/tools/lemon"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gawk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gawk/container.yaml"
-updated_at: "2024-03-08 02:51:43.289549"
-latest: "5.1.0"
+updated_at: "2024-03-09 02:49:17.481407"
+latest: "5.3.0"
 container_url: "https://biocontainers.pro/tools/gawk"
 aliases:
  - "gawk"
@@ -13,8 +13,9 @@ aliases:
  - "awk"
 versions:
  - "5.1.0"
+ - "5.3.0"
 description: "shpc-registry automated BioContainers addition for gawk"
-config: {"url": "https://biocontainers.pro/tools/gawk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gawk", "latest": {"5.1.0": "sha256:9d300f3d0a35fb059e3952ce01b3b108d595d0a9e943f156dce7c078bb8617aa"}, "tags": {"5.1.0": "sha256:9d300f3d0a35fb059e3952ce01b3b108d595d0a9e943f156dce7c078bb8617aa"}, "docker": "quay.io/biocontainers/gawk", "aliases": {"gawk": "/usr/local/bin/gawk", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk"}}
+config: {"url": "https://biocontainers.pro/tools/gawk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gawk", "latest": {"5.3.0": "sha256:701d6199235b36d054c24b1d0a889ca5e9740e301e4b46651f54d59576b73cd0"}, "tags": {"5.1.0": "sha256:9d300f3d0a35fb059e3952ce01b3b108d595d0a9e943f156dce7c078bb8617aa", "5.3.0": "sha256:701d6199235b36d054c24b1d0a889ca5e9740e301e4b46651f54d59576b73cd0"}, "docker": "quay.io/biocontainers/gawk", "aliases": {"gawk": "/usr/local/bin/gawk", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gawk.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/gawk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gawk:5.1.0
+$ shpc install quay.io/biocontainers/gawk:5.3.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gawk/5.1.0
-$ module help quay.io/biocontainers/gawk/5.1.0
+$ module load quay.io/biocontainers/gawk/5.3.0
+$ module help quay.io/biocontainers/gawk/5.3.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
