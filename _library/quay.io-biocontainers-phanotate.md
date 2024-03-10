@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phanotate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phanotate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phanotate/container.yaml"
-updated_at: "2024-03-09 02:32:54.538119"
+updated_at: "2024-03-10 02:39:40.692160"
 latest: "1.6.4--py38h2494328_0"
 container_url: "https://biocontainers.pro/tools/phanotate"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-math-cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-cdf/container.yaml"
-updated_at: "2024-03-09 02:52:49.816586"
+updated_at: "2024-03-10 02:59:35.610686"
 latest: "0.1--pl5321h031d066_9"
 container_url: "https://biocontainers.pro/tools/perl-math-cdf"
 aliases:

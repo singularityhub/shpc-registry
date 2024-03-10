@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/woltka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/woltka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/woltka/container.yaml"
-updated_at: "2024-03-09 02:53:09.671613"
-latest: "0.1.5--pyh7cba7a3_0"
+updated_at: "2024-03-10 02:59:55.618957"
+latest: "0.1.6--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/woltka"
 aliases:
  - "f2py3.11"
@@ -37,8 +37,9 @@ aliases:
  - "h5repart"
 versions:
  - "0.1.5--pyh7cba7a3_0"
+ - "0.1.6--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for woltka"
-config: {"url": "https://biocontainers.pro/tools/woltka", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for woltka", "latest": {"0.1.5--pyh7cba7a3_0": "sha256:79e38787aec12cfd67a107d3ab7f9535c556751852408ac4f2b41e370199f3b5"}, "tags": {"0.1.5--pyh7cba7a3_0": "sha256:79e38787aec12cfd67a107d3ab7f9535c556751852408ac4f2b41e370199f3b5"}, "docker": "quay.io/biocontainers/woltka", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "woltka": "/usr/local/bin/woltka", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "aec": "/usr/local/bin/aec", "biom": "/usr/local/bin/biom", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack", "h5repart": "/usr/local/bin/h5repart"}}
+config: {"url": "https://biocontainers.pro/tools/woltka", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for woltka", "latest": {"0.1.6--pyh7cba7a3_0": "sha256:6f349d288bd565b9b32c278bf79840204269e23afd97ad488d4f5d41d578a51a"}, "tags": {"0.1.5--pyh7cba7a3_0": "sha256:79e38787aec12cfd67a107d3ab7f9535c556751852408ac4f2b41e370199f3b5", "0.1.6--pyh7cba7a3_0": "sha256:6f349d288bd565b9b32c278bf79840204269e23afd97ad488d4f5d41d578a51a"}, "docker": "quay.io/biocontainers/woltka", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "woltka": "/usr/local/bin/woltka", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "aec": "/usr/local/bin/aec", "biom": "/usr/local/bin/biom", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack", "h5repart": "/usr/local/bin/h5repart"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/woltka.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/woltka
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/woltka:0.1.5--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/woltka:0.1.6--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/woltka/0.1.5--pyh7cba7a3_0
-$ module help quay.io/biocontainers/woltka/0.1.5--pyh7cba7a3_0
+$ module load quay.io/biocontainers/woltka/0.1.6--pyh7cba7a3_0
+$ module help quay.io/biocontainers/woltka/0.1.6--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
