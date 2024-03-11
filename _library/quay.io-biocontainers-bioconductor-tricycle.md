@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tricycle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tricycle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tricycle/container.yaml"
-updated_at: "2024-03-11 02:50:10.258443"
+updated_at: "2024-03-11 03:18:23.403146"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tricycle"
 
