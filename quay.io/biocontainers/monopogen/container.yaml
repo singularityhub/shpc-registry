@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/monopogen
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for monopogen
 latest:
-  1.1.0--pyhdfd78af_0: sha256:582f1bed3cc9c5e7253e7d191a4478a1d3812949fdfaa28ea53a6407dff24b0d
+  1.5.0--pyhdfd78af_1: sha256:ee8075f0d78fe13dd1e38d2bb98854a5ac8aebc906994ce897e16dcea2256fb8
 tags:
   1.1.0--pyhdfd78af_0: sha256:582f1bed3cc9c5e7253e7d191a4478a1d3812949fdfaa28ea53a6407dff24b0d
+  1.5.0--pyhdfd78af_1: sha256:ee8075f0d78fe13dd1e38d2bb98854a5ac8aebc906994ce897e16dcea2256fb8
 docker: quay.io/biocontainers/monopogen
 aliases:
   annot-tsv: /usr/local/bin/annot-tsv

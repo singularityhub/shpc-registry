@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/lisa2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for lisa2
 latest:
-  2.3.2--pyhdfd78af_0: sha256:e203444a1f3fcd25752c49ab7d8b864574798f9ff95dfad258fab123aabcc783
+  2.3.2--pyhdfd78af_1: sha256:ea07581a34086c30adaf1235415955bd69f575a348b9604c83bab13565d81054
 tags:
   2.3.0--pyhdfd78af_0: sha256:f142ccc65fbb38f5bd86c90b2ae6ae236906a6c2f3cff58038cb63d1f2bf3d15
   2.3.2--pyhdfd78af_0: sha256:e203444a1f3fcd25752c49ab7d8b864574798f9ff95dfad258fab123aabcc783
+  2.3.2--pyhdfd78af_1: sha256:ea07581a34086c30adaf1235415955bd69f575a348b9604c83bab13565d81054
 docker: quay.io/biocontainers/lisa2
 aliases:
   lisa: /usr/local/bin/lisa

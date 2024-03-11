@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/msfragger
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for msfragger
 latest:
-  4.0--py312hdfd78af_0: sha256:d8b918c2e3f0808f808fba17b88b8da1b70d74eae02f0633c3696fe8ebbdd6e5
+  4.0--py312hdfd78af_1: sha256:92ee7698d678c26aec33d8a313b7d3282c8aceb54dfbbeec8d149ac66126659c
 tags:
   4.0--py312hdfd78af_0: sha256:d8b918c2e3f0808f808fba17b88b8da1b70d74eae02f0633c3696fe8ebbdd6e5
+  4.0--py312hdfd78af_1: sha256:92ee7698d678c26aec33d8a313b7d3282c8aceb54dfbbeec8d149ac66126659c
 docker: quay.io/biocontainers/msfragger
 aliases:
   csc-dim: /usr/local/bin/csc-dim

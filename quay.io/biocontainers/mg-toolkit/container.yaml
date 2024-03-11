@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mg-toolkit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mg-toolkit
 latest:
-  0.10.1--pyhdfd78af_0: sha256:b5adea33832b64cd1a1de1e69bf7c67a7a198692baaca78f8b64636e14bf39d6
+  0.10.4--pyhdfd78af_0: sha256:884e3d97188f6be632777c905121f1fc53622fee767ddcdb87b188f954ff027e
 tags:
   0.9.1--py_0: sha256:38c312a228b8ded34328f89510247eb876b2d11a15a53b4f37179e1c332b04b3
   0.10.1--pyhdfd78af_0: sha256:b5adea33832b64cd1a1de1e69bf7c67a7a198692baaca78f8b64636e14bf39d6
+  0.10.4--pyhdfd78af_0: sha256:884e3d97188f6be632777c905121f1fc53622fee767ddcdb87b188f954ff027e
 docker: quay.io/biocontainers/mg-toolkit
 aliases:
   mg-toolkit: /usr/local/bin/mg-toolkit
