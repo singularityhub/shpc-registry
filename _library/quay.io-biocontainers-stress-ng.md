@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stress-ng"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stress-ng/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stress-ng/container.yaml"
-updated_at: "2024-03-10 02:29:32.877381"
+updated_at: "2024-03-11 02:27:02.349349"
 latest: "0.12.04"
 container_url: "https://biocontainers.pro/tools/stress-ng"
 aliases:

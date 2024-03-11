@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qcat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qcat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qcat/container.yaml"
-updated_at: "2024-03-10 02:40:39.789510"
+updated_at: "2024-03-11 02:37:43.699651"
 latest: "1.1.0--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/qcat"
 aliases:

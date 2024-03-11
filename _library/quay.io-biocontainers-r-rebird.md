@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rebird"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rebird/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rebird/container.yaml"
-updated_at: "2024-03-10 03:06:44.691549"
+updated_at: "2024-03-11 03:02:52.623316"
 latest: "1.0.0--r351h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-rebird"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viramp-hub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viramp-hub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viramp-hub/container.yaml"
-updated_at: "2024-03-10 03:05:15.859202"
+updated_at: "2024-03-11 03:01:24.997883"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/viramp-hub"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spliceai"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spliceai/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spliceai/container.yaml"
-updated_at: "2024-03-10 02:44:21.383021"
+updated_at: "2024-03-11 02:41:17.165322"
 latest: "1.3.1--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/spliceai"
 

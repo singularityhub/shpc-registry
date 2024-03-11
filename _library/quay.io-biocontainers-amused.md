@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amused"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amused/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amused/container.yaml"
-updated_at: "2024-03-10 02:32:05.566189"
+updated_at: "2024-03-11 02:29:31.872963"
 latest: "1.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/amused"
 aliases:

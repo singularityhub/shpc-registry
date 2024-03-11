@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-truncnorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-truncnorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-truncnorm/container.yaml"
-updated_at: "2024-03-10 02:42:14.141387"
+updated_at: "2024-03-11 02:39:15.083072"
 latest: "1.0_7--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-truncnorm"
 aliases:

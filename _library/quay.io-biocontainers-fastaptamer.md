@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastaptamer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastaptamer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastaptamer/container.yaml"
-updated_at: "2024-03-10 02:40:29.194423"
+updated_at: "2024-03-11 02:37:33.714755"
 latest: "1.0.14--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/fastaptamer"
 aliases:
