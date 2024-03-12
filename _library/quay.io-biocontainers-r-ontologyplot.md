@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-ontologyplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ontologyplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ontologyplot/container.yaml"
-updated_at: "2024-03-11 03:22:00.536834"
-latest: "1.6--r43h3342da4_4"
+updated_at: "2024-03-12 02:52:53.116353"
+latest: "1.7--r43h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-ontologyplot"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.6--r41h3342da4_2"
  - "1.6--r42h3342da4_3"
  - "1.6--r43h3342da4_4"
+ - "1.7--r43h3342da4_0"
 description: "shpc-registry automated BioContainers addition for r-ontologyplot"
-config: {"url": "https://biocontainers.pro/tools/r-ontologyplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ontologyplot", "latest": {"1.6--r43h3342da4_4": "sha256:0a5795be06654415d1fd800509e5386cbbfc1a295a610bd83ae90cde5183a347"}, "tags": {"1.6--r41h3342da4_2": "sha256:0b34cbf818d52a3730d67e510ade28e70a392db55974a11df24e0ed63cfccd7e", "1.6--r42h3342da4_3": "sha256:0857fd4fe885d69263fd7b03f4bbf2cabb032fa66f1328acae13ab4e756393c3", "1.6--r43h3342da4_4": "sha256:0a5795be06654415d1fd800509e5386cbbfc1a295a610bd83ae90cde5183a347"}, "docker": "quay.io/biocontainers/r-ontologyplot", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-ontologyplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ontologyplot", "latest": {"1.7--r43h3342da4_0": "sha256:60cf4729299cb0824ba112675a0fdf95b348658622d35551a170652ebf4a6119"}, "tags": {"1.6--r41h3342da4_2": "sha256:0b34cbf818d52a3730d67e510ade28e70a392db55974a11df24e0ed63cfccd7e", "1.6--r42h3342da4_3": "sha256:0857fd4fe885d69263fd7b03f4bbf2cabb032fa66f1328acae13ab4e756393c3", "1.6--r43h3342da4_4": "sha256:0a5795be06654415d1fd800509e5386cbbfc1a295a610bd83ae90cde5183a347", "1.7--r43h3342da4_0": "sha256:60cf4729299cb0824ba112675a0fdf95b348658622d35551a170652ebf4a6119"}, "docker": "quay.io/biocontainers/r-ontologyplot", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ontologyplot.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-ontologyplot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-ontologyplot:1.6--r43h3342da4_4
+$ shpc install quay.io/biocontainers/r-ontologyplot:1.7--r43h3342da4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-ontologyplot/1.6--r43h3342da4_4
-$ module help quay.io/biocontainers/r-ontologyplot/1.6--r43h3342da4_4
+$ module load quay.io/biocontainers/r-ontologyplot/1.7--r43h3342da4_0
+$ module help quay.io/biocontainers/r-ontologyplot/1.7--r43h3342da4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

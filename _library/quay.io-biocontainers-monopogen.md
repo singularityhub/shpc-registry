@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/monopogen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/monopogen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/monopogen/container.yaml"
-updated_at: "2024-03-11 02:53:20.161857"
-latest: "1.1.0--pyhdfd78af_0"
+updated_at: "2024-03-12 02:22:37.282482"
+latest: "1.5.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/monopogen"
 aliases:
  - "annot-tsv"
@@ -37,8 +37,9 @@ aliases:
  - "aserver"
 versions:
  - "1.1.0--pyhdfd78af_0"
+ - "1.5.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for monopogen"
-config: {"url": "https://biocontainers.pro/tools/monopogen", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for monopogen", "latest": {"1.1.0--pyhdfd78af_0": "sha256:582f1bed3cc9c5e7253e7d191a4478a1d3812949fdfaa28ea53a6407dff24b0d"}, "tags": {"1.1.0--pyhdfd78af_0": "sha256:582f1bed3cc9c5e7253e7d191a4478a1d3812949fdfaa28ea53a6407dff24b0d"}, "docker": "quay.io/biocontainers/monopogen", "aliases": {"annot-tsv": "/usr/local/bin/annot-tsv", "beagle": "/usr/local/bin/beagle", "jwebserver": "/usr/local/bin/jwebserver", "gff2gff.py": "/usr/local/bin/gff2gff.py", "jpackage": "/usr/local/bin/jpackage", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "hb-info": "/usr/local/bin/hb-info", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver"}}
+config: {"url": "https://biocontainers.pro/tools/monopogen", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for monopogen", "latest": {"1.5.0--pyhdfd78af_1": "sha256:ee8075f0d78fe13dd1e38d2bb98854a5ac8aebc906994ce897e16dcea2256fb8"}, "tags": {"1.1.0--pyhdfd78af_0": "sha256:582f1bed3cc9c5e7253e7d191a4478a1d3812949fdfaa28ea53a6407dff24b0d", "1.5.0--pyhdfd78af_1": "sha256:ee8075f0d78fe13dd1e38d2bb98854a5ac8aebc906994ce897e16dcea2256fb8"}, "docker": "quay.io/biocontainers/monopogen", "aliases": {"annot-tsv": "/usr/local/bin/annot-tsv", "beagle": "/usr/local/bin/beagle", "jwebserver": "/usr/local/bin/jwebserver", "gff2gff.py": "/usr/local/bin/gff2gff.py", "jpackage": "/usr/local/bin/jpackage", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "hb-info": "/usr/local/bin/hb-info", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/monopogen.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/monopogen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/monopogen:1.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/monopogen:1.5.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/monopogen/1.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/monopogen/1.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/monopogen/1.5.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/monopogen/1.5.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

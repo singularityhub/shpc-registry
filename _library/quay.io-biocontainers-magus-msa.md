@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/magus-msa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magus-msa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/magus-msa/container.yaml"
-updated_at: "2024-03-11 02:54:39.861656"
-latest: "0.1.2--pyhdfd78af_0"
+updated_at: "2024-03-12 02:24:01.688173"
+latest: "0.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/magus-msa"
 aliases:
  - "blastn_vdb"
@@ -45,8 +45,9 @@ aliases:
  - "ginsi"
 versions:
  - "0.1.2--pyhdfd78af_0"
+ - "0.1.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for magus-msa"
-config: {"url": "https://biocontainers.pro/tools/magus-msa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for magus-msa", "latest": {"0.1.2--pyhdfd78af_0": "sha256:cd01e1b765c786ffcbb47651a2bd0146e6f1e69a992ee09c6ae7e8b5847bed5a"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:cd01e1b765c786ffcbb47651a2bd0146e6f1e69a992ee09c6ae7e8b5847bed5a"}, "docker": "quay.io/biocontainers/magus-msa", "aliases": {"blastn_vdb": "/usr/local/bin/blastn_vdb", "magus": "/usr/local/bin/magus", "rcl": "/usr/local/bin/rcl", "rcl-dot-resmap.pl": "/usr/local/bin/rcl-dot-resmap.pl", "rcl-qc": "/usr/local/bin/rcl-qc", "rcl-qm.R": "/usr/local/bin/rcl-qm.R", "rcl-relevel.pl": "/usr/local/bin/rcl-relevel.pl", "rcl-select.pl": "/usr/local/bin/rcl-select.pl", "rcldo.pl": "/usr/local/bin/rcldo.pl", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "clustalo": "/usr/local/bin/clustalo", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "clm": "/usr/local/bin/clm", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxdump": "/usr/local/bin/mcxdump", "mcxi": "/usr/local/bin/mcxi", "mcxload": "/usr/local/bin/mcxload", "mcxmap": "/usr/local/bin/mcxmap", "mcxsubs": "/usr/local/bin/mcxsubs", "dendropy-format": "/usr/local/bin/dendropy-format", "test_pcre": "/usr/local/bin/test_pcre", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "sumlabels.py": "/usr/local/bin/sumlabels.py", "fasttree": "/usr/local/bin/fasttree", "sumtrees.py": "/usr/local/bin/sumtrees.py", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi"}}
+config: {"url": "https://biocontainers.pro/tools/magus-msa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for magus-msa", "latest": {"0.1.3--pyhdfd78af_0": "sha256:059079a6be8fe5a175a0069ef15b989bac53223fac550791cc03dca976b474db"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:cd01e1b765c786ffcbb47651a2bd0146e6f1e69a992ee09c6ae7e8b5847bed5a", "0.1.3--pyhdfd78af_0": "sha256:059079a6be8fe5a175a0069ef15b989bac53223fac550791cc03dca976b474db"}, "docker": "quay.io/biocontainers/magus-msa", "aliases": {"blastn_vdb": "/usr/local/bin/blastn_vdb", "magus": "/usr/local/bin/magus", "rcl": "/usr/local/bin/rcl", "rcl-dot-resmap.pl": "/usr/local/bin/rcl-dot-resmap.pl", "rcl-qc": "/usr/local/bin/rcl-qc", "rcl-qm.R": "/usr/local/bin/rcl-qm.R", "rcl-relevel.pl": "/usr/local/bin/rcl-relevel.pl", "rcl-select.pl": "/usr/local/bin/rcl-select.pl", "rcldo.pl": "/usr/local/bin/rcldo.pl", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "clustalo": "/usr/local/bin/clustalo", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "clm": "/usr/local/bin/clm", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxdump": "/usr/local/bin/mcxdump", "mcxi": "/usr/local/bin/mcxi", "mcxload": "/usr/local/bin/mcxload", "mcxmap": "/usr/local/bin/mcxmap", "mcxsubs": "/usr/local/bin/mcxsubs", "dendropy-format": "/usr/local/bin/dendropy-format", "test_pcre": "/usr/local/bin/test_pcre", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "sumlabels.py": "/usr/local/bin/sumlabels.py", "fasttree": "/usr/local/bin/fasttree", "sumtrees.py": "/usr/local/bin/sumtrees.py", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/magus-msa.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/magus-msa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/magus-msa:0.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/magus-msa:0.1.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/magus-msa/0.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/magus-msa/0.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/magus-msa/0.1.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/magus-msa/0.1.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

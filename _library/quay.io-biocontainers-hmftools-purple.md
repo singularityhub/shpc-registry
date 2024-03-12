@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-purple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-purple/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-purple/container.yaml"
-updated_at: "2024-03-11 02:54:06.625720"
-latest: "4.0.1--hdfd78af_0"
+updated_at: "2024-03-12 02:23:26.368825"
+latest: "4.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-purple"
 aliases:
  - "PURPLE"
@@ -23,8 +23,9 @@ versions:
  - "3.6--hdfd78af_0"
  - "3.7.1--hdfd78af_0"
  - "4.0.1--hdfd78af_0"
+ - "4.0.2--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hmftools-purple"
-config: {"url": "https://biocontainers.pro/tools/hmftools-purple", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-purple", "latest": {"4.0.1--hdfd78af_0": "sha256:c4ce0fdaecc4fb59589ec8c8bd1b8ac7ab4786674cf44d5b7c24a3deab7bb13b"}, "tags": {"3.6--hdfd78af_0": "sha256:677d1b3509a70b16dd502a7cc44302c9e8282de9371f6af07c41ec2f7d7269fb", "3.7.1--hdfd78af_0": "sha256:51b6c25b739da67cb614b0dea35b040982f9d0000c2dc4a49ce1c65956503260", "4.0.1--hdfd78af_0": "sha256:c4ce0fdaecc4fb59589ec8c8bd1b8ac7ab4786674cf44d5b7c24a3deab7bb13b"}, "docker": "quay.io/biocontainers/hmftools-purple", "aliases": {"PURPLE": "/usr/local/bin/PURPLE", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "gddiag": "/usr/local/bin/gddiag", "list.modules": "/usr/local/bin/list.modules", "test.modules": "/usr/local/bin/test.modules", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-purple", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-purple", "latest": {"4.0.2--hdfd78af_0": "sha256:5a49bae5dedfb1d0d411aef0ba45d1976d4278c4446c9fd26e6843d0dc56930a"}, "tags": {"3.6--hdfd78af_0": "sha256:677d1b3509a70b16dd502a7cc44302c9e8282de9371f6af07c41ec2f7d7269fb", "3.7.1--hdfd78af_0": "sha256:51b6c25b739da67cb614b0dea35b040982f9d0000c2dc4a49ce1c65956503260", "4.0.1--hdfd78af_0": "sha256:c4ce0fdaecc4fb59589ec8c8bd1b8ac7ab4786674cf44d5b7c24a3deab7bb13b", "4.0.2--hdfd78af_0": "sha256:5a49bae5dedfb1d0d411aef0ba45d1976d4278c4446c9fd26e6843d0dc56930a"}, "docker": "quay.io/biocontainers/hmftools-purple", "aliases": {"PURPLE": "/usr/local/bin/PURPLE", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "gddiag": "/usr/local/bin/gddiag", "list.modules": "/usr/local/bin/list.modules", "test.modules": "/usr/local/bin/test.modules", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-purple.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/hmftools-purple
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-purple:4.0.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-purple:4.0.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-purple/4.0.1--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-purple/4.0.1--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-purple/4.0.2--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-purple/4.0.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
