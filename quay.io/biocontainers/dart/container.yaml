@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/dart
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dart
 latest:
-  1.4.6--hcd5855d_4: sha256:54a209a913f225fec40bc3b6660f44923a3aeab33257d184b64d04ec5f8a1b70
+  1.4.6--hcd5855d_5: sha256:868f6df52824734d722146a502dd631c883cec9c8951f9dae66352fe01990034
 tags:
   1.4.6--h2ccddb4_2: sha256:b614e86b5f3d13eecb280fba216d6a541ddd1a779ea727ce1b13a6d5287d477e
   1.4.6--h2ccddb4_3: sha256:f56bf61e8fe395b415d39e5612ffd42bb36d95a90fa0a05ad7ad86121a797e33
   1.4.6--hcd5855d_4: sha256:54a209a913f225fec40bc3b6660f44923a3aeab33257d184b64d04ec5f8a1b70
+  1.4.6--hcd5855d_5: sha256:868f6df52824734d722146a502dd631c883cec9c8951f9dae66352fe01990034
 docker: quay.io/biocontainers/dart
 aliases:
   bwt_index: /usr/local/bin/bwt_index
