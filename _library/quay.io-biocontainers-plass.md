@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plass/container.yaml"
-updated_at: "2024-03-12 02:34:29.466540"
+updated_at: "2024-03-13 02:49:24.332717"
 latest: "4.687d7--pl5321h6a68c12_5"
 container_url: "https://biocontainers.pro/tools/plass"
 aliases:

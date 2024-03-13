@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dart/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dart/container.yaml"
-updated_at: "2024-03-12 03:01:21.414436"
-latest: "1.4.6--hcd5855d_4"
+updated_at: "2024-03-13 02:57:55.587449"
+latest: "1.4.6--hcd5855d_5"
 container_url: "https://biocontainers.pro/tools/dart"
 aliases:
  - "bwt_index"
@@ -14,8 +14,9 @@ versions:
  - "1.4.6--h2ccddb4_2"
  - "1.4.6--h2ccddb4_3"
  - "1.4.6--hcd5855d_4"
+ - "1.4.6--hcd5855d_5"
 description: "shpc-registry automated BioContainers addition for dart"
-config: {"url": "https://biocontainers.pro/tools/dart", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dart", "latest": {"1.4.6--hcd5855d_4": "sha256:54a209a913f225fec40bc3b6660f44923a3aeab33257d184b64d04ec5f8a1b70"}, "tags": {"1.4.6--h2ccddb4_2": "sha256:b614e86b5f3d13eecb280fba216d6a541ddd1a779ea727ce1b13a6d5287d477e", "1.4.6--h2ccddb4_3": "sha256:f56bf61e8fe395b415d39e5612ffd42bb36d95a90fa0a05ad7ad86121a797e33", "1.4.6--hcd5855d_4": "sha256:54a209a913f225fec40bc3b6660f44923a3aeab33257d184b64d04ec5f8a1b70"}, "docker": "quay.io/biocontainers/dart", "aliases": {"bwt_index": "/usr/local/bin/bwt_index", "dart": "/usr/local/bin/dart"}}
+config: {"url": "https://biocontainers.pro/tools/dart", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dart", "latest": {"1.4.6--hcd5855d_5": "sha256:868f6df52824734d722146a502dd631c883cec9c8951f9dae66352fe01990034"}, "tags": {"1.4.6--h2ccddb4_2": "sha256:b614e86b5f3d13eecb280fba216d6a541ddd1a779ea727ce1b13a6d5287d477e", "1.4.6--h2ccddb4_3": "sha256:f56bf61e8fe395b415d39e5612ffd42bb36d95a90fa0a05ad7ad86121a797e33", "1.4.6--hcd5855d_4": "sha256:54a209a913f225fec40bc3b6660f44923a3aeab33257d184b64d04ec5f8a1b70", "1.4.6--hcd5855d_5": "sha256:868f6df52824734d722146a502dd631c883cec9c8951f9dae66352fe01990034"}, "docker": "quay.io/biocontainers/dart", "aliases": {"bwt_index": "/usr/local/bin/bwt_index", "dart": "/usr/local/bin/dart"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dart.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/dart
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dart:1.4.6--hcd5855d_4
+$ shpc install quay.io/biocontainers/dart:1.4.6--hcd5855d_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dart/1.4.6--hcd5855d_4
-$ module help quay.io/biocontainers/dart/1.4.6--hcd5855d_4
+$ module load quay.io/biocontainers/dart/1.4.6--hcd5855d_5
+$ module help quay.io/biocontainers/dart/1.4.6--hcd5855d_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

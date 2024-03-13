@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ra-integrate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ra-integrate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ra-integrate/container.yaml"
-updated_at: "2024-03-12 02:36:47.739508"
+updated_at: "2024-03-13 03:00:32.793942"
 latest: "0.1--0"
 container_url: "https://biocontainers.pro/tools/ra-integrate"
 aliases:

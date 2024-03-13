@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioframe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioframe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioframe/container.yaml"
-updated_at: "2024-03-12 02:57:05.341279"
-latest: "0.6.1--pyhdfd78af_0"
+updated_at: "2024-03-13 02:57:01.495457"
+latest: "0.6.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioframe"
 aliases:
  - "bam2pairs"
@@ -25,8 +25,9 @@ versions:
  - "0.5.0--pyhdfd78af_0"
  - "0.5.1--pyhdfd78af_0"
  - "0.6.1--pyhdfd78af_0"
+ - "0.6.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioframe"
-config: {"url": "https://biocontainers.pro/tools/bioframe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioframe", "latest": {"0.6.1--pyhdfd78af_0": "sha256:2308209e994f1cfe7f147ee7845e726fde60466f6f95c77f4969b4963fbc8ad4"}, "tags": {"0.3.3--pyhdfd78af_0": "sha256:d0d4f6e99abcbc4b5b94225ead9eb539b58749e58da0bf1387dbac36281355ab", "0.4.0--pyhdfd78af_0": "sha256:8a816ed8508812fd6757548f0d9daf6a9064f349e512c1b1274a08c25fcdb37e", "0.4.1--pyhdfd78af_0": "sha256:6053643e52baa1a18ec6e9ec6c56fba39da5642b7c6f69f58bf8c2aac04385b7", "0.5.0--pyhdfd78af_0": "sha256:041ee302276a32447289e47388198445dd5d4521c2dc4a1c278eaa6cffb22929", "0.5.1--pyhdfd78af_0": "sha256:a46612986cd567797b252b8078aa1c425857eb1af683f0b2dc85870d1a7aeafb", "0.6.1--pyhdfd78af_0": "sha256:2308209e994f1cfe7f147ee7845e726fde60466f6f95c77f4969b4963fbc8ad4"}, "docker": "quay.io/biocontainers/bioframe", "aliases": {"bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix", "pairs_merger": "/usr/local/bin/pairs_merger"}}
+config: {"url": "https://biocontainers.pro/tools/bioframe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioframe", "latest": {"0.6.3--pyhdfd78af_0": "sha256:bb662792e94b18ee2990a202bcf683b5e6e054c74fcacbaf9890c2881095cd8a"}, "tags": {"0.3.3--pyhdfd78af_0": "sha256:d0d4f6e99abcbc4b5b94225ead9eb539b58749e58da0bf1387dbac36281355ab", "0.4.0--pyhdfd78af_0": "sha256:8a816ed8508812fd6757548f0d9daf6a9064f349e512c1b1274a08c25fcdb37e", "0.4.1--pyhdfd78af_0": "sha256:6053643e52baa1a18ec6e9ec6c56fba39da5642b7c6f69f58bf8c2aac04385b7", "0.5.0--pyhdfd78af_0": "sha256:041ee302276a32447289e47388198445dd5d4521c2dc4a1c278eaa6cffb22929", "0.5.1--pyhdfd78af_0": "sha256:a46612986cd567797b252b8078aa1c425857eb1af683f0b2dc85870d1a7aeafb", "0.6.1--pyhdfd78af_0": "sha256:2308209e994f1cfe7f147ee7845e726fde60466f6f95c77f4969b4963fbc8ad4", "0.6.3--pyhdfd78af_0": "sha256:bb662792e94b18ee2990a202bcf683b5e6e054c74fcacbaf9890c2881095cd8a"}, "docker": "quay.io/biocontainers/bioframe", "aliases": {"bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix", "pairs_merger": "/usr/local/bin/pairs_merger"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioframe.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioframe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioframe:0.6.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bioframe:0.6.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioframe/0.6.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/bioframe/0.6.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/bioframe/0.6.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/bioframe/0.6.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

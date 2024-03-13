@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ggtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggtree/container.yaml"
-updated_at: "2024-03-12 02:27:22.012749"
+updated_at: "2024-03-13 02:35:50.755422"
 latest: "3.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggtree"
 

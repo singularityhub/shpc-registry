@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bolt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bolt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bolt/container.yaml"
-updated_at: "2024-03-12 02:21:14.013462"
+updated_at: "2024-03-13 02:38:32.392571"
 latest: "0.3.0--h65a12c2_6"
 container_url: "https://biocontainers.pro/tools/bolt"
 

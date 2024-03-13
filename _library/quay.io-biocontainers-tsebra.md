@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tsebra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tsebra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tsebra/container.yaml"
-updated_at: "2024-03-12 02:59:12.492454"
-latest: "1.1.2.2--pyhca03a8a_0"
+updated_at: "2024-03-13 02:43:14.002693"
+latest: "1.1.2.4--pyhca03a8a_0"
 container_url: "https://biocontainers.pro/tools/tsebra"
 aliases:
  - "evidence.py"
@@ -27,8 +27,9 @@ versions:
  - "1.1.1--pyhca03a8a_0"
  - "1.1.2--pyhca03a8a_0"
  - "1.1.2.2--pyhca03a8a_0"
+ - "1.1.2.4--pyhca03a8a_0"
 description: "singularity registry hpc automated addition for tsebra"
-config: {"url": "https://biocontainers.pro/tools/tsebra", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tsebra", "latest": {"1.1.2.2--pyhca03a8a_0": "sha256:eb2c66ec0e47a8d56b20ec6a6fe713ba1f47e5bf0ce6ef035122f893616a2282"}, "tags": {"1.1.1--pyhca03a8a_0": "sha256:9203773dc6c39f1448b1eddd9ab33cb5b05409ba84fb939e110f89f21e464fdf", "1.1.2--pyhca03a8a_0": "sha256:cf1d149ccbe505772a95fb61ac39fe41a59ac23968d7aaa9ab67054161fa9102", "1.1.2.2--pyhca03a8a_0": "sha256:eb2c66ec0e47a8d56b20ec6a6fe713ba1f47e5bf0ce6ef035122f893616a2282"}, "docker": "quay.io/biocontainers/tsebra", "aliases": {"evidence.py": "/usr/local/bin/evidence.py", "features.py": "/usr/local/bin/features.py", "fix_gtf_ids.py": "/usr/local/bin/fix_gtf_ids.py", "genome_anno.py": "/usr/local/bin/genome_anno.py", "get_longest_isoform.py": "/usr/local/bin/get_longest_isoform.py", "overlap_graph.py": "/usr/local/bin/overlap_graph.py", "rename_gtf.py": "/usr/local/bin/rename_gtf.py", "tsebra.py": "/usr/local/bin/tsebra.py", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/tsebra", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tsebra", "latest": {"1.1.2.4--pyhca03a8a_0": "sha256:211158a8c75e560bf2e7a4f899b988c12634768eabfe8707c0f6bd9adc547f43"}, "tags": {"1.1.1--pyhca03a8a_0": "sha256:9203773dc6c39f1448b1eddd9ab33cb5b05409ba84fb939e110f89f21e464fdf", "1.1.2--pyhca03a8a_0": "sha256:cf1d149ccbe505772a95fb61ac39fe41a59ac23968d7aaa9ab67054161fa9102", "1.1.2.2--pyhca03a8a_0": "sha256:eb2c66ec0e47a8d56b20ec6a6fe713ba1f47e5bf0ce6ef035122f893616a2282", "1.1.2.4--pyhca03a8a_0": "sha256:211158a8c75e560bf2e7a4f899b988c12634768eabfe8707c0f6bd9adc547f43"}, "docker": "quay.io/biocontainers/tsebra", "aliases": {"evidence.py": "/usr/local/bin/evidence.py", "features.py": "/usr/local/bin/features.py", "fix_gtf_ids.py": "/usr/local/bin/fix_gtf_ids.py", "genome_anno.py": "/usr/local/bin/genome_anno.py", "get_longest_isoform.py": "/usr/local/bin/get_longest_isoform.py", "overlap_graph.py": "/usr/local/bin/overlap_graph.py", "rename_gtf.py": "/usr/local/bin/rename_gtf.py", "tsebra.py": "/usr/local/bin/tsebra.py", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tsebra.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/tsebra
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tsebra:1.1.2.2--pyhca03a8a_0
+$ shpc install quay.io/biocontainers/tsebra:1.1.2.4--pyhca03a8a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tsebra/1.1.2.2--pyhca03a8a_0
-$ module help quay.io/biocontainers/tsebra/1.1.2.2--pyhca03a8a_0
+$ module load quay.io/biocontainers/tsebra/1.1.2.4--pyhca03a8a_0
+$ module help quay.io/biocontainers/tsebra/1.1.2.4--pyhca03a8a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

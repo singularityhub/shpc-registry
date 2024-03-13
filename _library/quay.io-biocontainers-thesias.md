@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/thesias"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/thesias/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/thesias/container.yaml"
-updated_at: "2024-03-12 02:45:23.020994"
+updated_at: "2024-03-13 02:27:19.960626"
 latest: "3.1.1--h031d066_5"
 container_url: "https://biocontainers.pro/tools/thesias"
 aliases:

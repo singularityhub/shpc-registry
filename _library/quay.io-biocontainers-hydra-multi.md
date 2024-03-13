@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hydra-multi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hydra-multi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hydra-multi/container.yaml"
-updated_at: "2024-03-12 02:40:04.858127"
+updated_at: "2024-03-13 02:25:48.809092"
 latest: "0.5.4--py27h43eeafb_3"
 container_url: "https://biocontainers.pro/tools/hydra-multi"
 aliases:
