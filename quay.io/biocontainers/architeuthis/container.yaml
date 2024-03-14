@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/architeuthis
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for architeuthis
+latest:
+  0.2.1--he881be0_0: sha256:72ef08355e8d61b8b08835872e66971b7502900a204b9f52e314b3694436b1d0
+tags:
+  0.2.1--he881be0_0: sha256:72ef08355e8d61b8b08835872e66971b7502900a204b9f52e314b3694436b1d0
+docker: quay.io/biocontainers/architeuthis
+aliases:
+  architeuthis: /usr/local/bin/architeuthis
+  taxonkit: /usr/local/bin/taxonkit

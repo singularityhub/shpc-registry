@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/locityper
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for locityper
+latest:
+  0.13.4--h919a2d8_0: sha256:3b6d6735d168f151a5e756c026b9441a2408a52bf06e852f8846ce9dfebd766e
+tags:
+  0.13.4--h919a2d8_0: sha256:3b6d6735d168f151a5e756c026b9441a2408a52bf06e852f8846ce9dfebd766e
+docker: quay.io/biocontainers/locityper
+aliases:
+  locityper: /usr/local/bin/locityper
+  strobealign: /usr/local/bin/strobealign
+  annot-tsv: /usr/local/bin/annot-tsv
+  sdust: /usr/local/bin/sdust
+  k8: /usr/local/bin/k8
+  paftools.js: /usr/local/bin/paftools.js
+  minimap2: /usr/local/bin/minimap2
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short
+  md5fa: /usr/local/bin/md5fa
+  md5sum-lite: /usr/local/bin/md5sum-lite
+  plot-bamstats: /usr/local/bin/plot-bamstats
+  psl2sam.pl: /usr/local/bin/psl2sam.pl
+  sam2vcf.pl: /usr/local/bin/sam2vcf.pl
+  samtools.pl: /usr/local/bin/samtools.pl
+  seq_cache_populate.pl: /usr/local/bin/seq_cache_populate.pl
+  soap2sam.pl: /usr/local/bin/soap2sam.pl
+  zoom2sam.pl: /usr/local/bin/zoom2sam.pl
+  novo2sam.pl: /usr/local/bin/novo2sam.pl
+  wgsim: /usr/local/bin/wgsim

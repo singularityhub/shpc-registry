@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/merge-gbk-records
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for merge-gbk-records
+latest:
+  0.2.0--pyhdfd78af_0: sha256:f6f5789911dd8be1260d756fc119bf155d0037db9bdad9b9e45ca19ee85a5f38
+tags:
+  0.2.0--pyhdfd78af_0: sha256:f6f5789911dd8be1260d756fc119bf155d0037db9bdad9b9e45ca19ee85a5f38
+docker: quay.io/biocontainers/merge-gbk-records
+aliases:
+  merge-gbk-records: /usr/local/bin/merge-gbk-records
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
