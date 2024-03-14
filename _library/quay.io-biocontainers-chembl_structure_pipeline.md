@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chembl_structure_pipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chembl_structure_pipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chembl_structure_pipeline/container.yaml"
-updated_at: "2024-03-13 02:32:55.726433"
+updated_at: "2024-03-14 02:30:43.408022"
 latest: "1.0.0"
 container_url: "https://biocontainers.pro/tools/chembl_structure_pipeline"
 aliases:

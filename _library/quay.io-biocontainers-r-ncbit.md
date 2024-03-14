@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ncbit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ncbit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ncbit/container.yaml"
-updated_at: "2024-03-13 02:40:29.411608"
+updated_at: "2024-03-14 02:38:28.278262"
 latest: "2013.03.29--r40h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-ncbit"
 aliases:

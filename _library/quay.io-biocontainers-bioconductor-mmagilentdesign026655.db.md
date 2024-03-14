@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mmagilentdesign026655.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mmagilentdesign026655.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mmagilentdesign026655.db/container.yaml"
-updated_at: "2024-03-13 02:33:07.413215"
+updated_at: "2024-03-14 02:30:55.316656"
 latest: "3.2.3--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-mmagilentdesign026655.db"
 

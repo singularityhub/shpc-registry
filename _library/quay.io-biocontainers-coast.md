@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coast/container.yaml"
-updated_at: "2024-03-13 02:24:27.090820"
+updated_at: "2024-03-14 02:22:09.837397"
 latest: "0.2.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/coast"
 aliases:
