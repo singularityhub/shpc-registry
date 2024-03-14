@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-most"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-most/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-most/container.yaml"
-updated_at: "2024-03-14 02:53:37.253232"
+updated_at: "2024-03-14 03:10:43.562232"
 latest: "0.38--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-test-most"
 aliases:
