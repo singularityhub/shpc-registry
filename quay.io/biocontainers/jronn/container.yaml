@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/jronn
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for jronn
 latest:
-  7.1.0--hdfd78af_0: sha256:31618dc275c65cddc6275c6e04f095e53ba175c1cff82cd66f22a684df240186
+  7.1.0--hdfd78af_1: sha256:31d681ecdda9f558070805285d8a82ab01a3c12a5dfa62f68a2c9a8b993f5488
 tags:
   7.1.0--hdfd78af_0: sha256:31618dc275c65cddc6275c6e04f095e53ba175c1cff82cd66f22a684df240186
+  7.1.0--hdfd78af_1: sha256:31d681ecdda9f558070805285d8a82ab01a3c12a5dfa62f68a2c9a8b993f5488
 docker: quay.io/biocontainers/jronn
 aliases:
   jronn: /usr/local/bin/jronn

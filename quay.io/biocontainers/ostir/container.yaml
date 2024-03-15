@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/ostir
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ostir
 latest:
-  1.1.0--pyhdfd78af_0: sha256:47ef87c7648dda103087cf2a54fd1a0be227401366ab982fd9fc6579f45a8e17
+  1.1.2--pyhdfd78af_0: sha256:50cd2f40b437cc632e6780b04ad6686f212fc776fcdfc51d35d8db59e4c4ddba
 tags:
   1.0.6--pyhdfd78af_0: sha256:4f6d965f7f20e3f8562fa59259aa995773ac37c6c0987444782f719036348296
   1.1.0--pyhdfd78af_0: sha256:47ef87c7648dda103087cf2a54fd1a0be227401366ab982fd9fc6579f45a8e17
+  1.1.2--pyhdfd78af_0: sha256:50cd2f40b437cc632e6780b04ad6686f212fc776fcdfc51d35d8db59e4c4ddba
 docker: quay.io/biocontainers/ostir
 aliases:
   ostir: /usr/local/bin/ostir
