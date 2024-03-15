@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-easydifferentialgenecoexpression"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-easydifferentialgenecoexpression/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-easydifferentialgenecoexpression/container.yaml"
-updated_at: "2024-03-14 02:57:23.757729"
+updated_at: "2024-03-15 02:41:34.207968"
 latest: "1.4--r43h3121a25_0"
 container_url: "https://biocontainers.pro/tools/r-easydifferentialgenecoexpression"
 aliases:
