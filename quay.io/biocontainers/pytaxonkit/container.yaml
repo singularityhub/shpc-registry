@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pytaxonkit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pytaxonkit
 latest:
-  0.8--pyhdfd78af_0: sha256:3307049f3ffb04bbf7192aa07466c2d8574a9d076a6d55d285450d845c9fa3d0
+  0.9--pyhdfd78af_0: sha256:5c588cc1cae773a4aebe6992fa71fdc3f5fa659f7ebc336f3b4dc50f2a01bbf3
 tags:
   0.8--pyhdfd78af_0: sha256:3307049f3ffb04bbf7192aa07466c2d8574a9d076a6d55d285450d845c9fa3d0
+  0.9--pyhdfd78af_0: sha256:5c588cc1cae773a4aebe6992fa71fdc3f5fa659f7ebc336f3b4dc50f2a01bbf3
 docker: quay.io/biocontainers/pytaxonkit
 aliases:
   taxonkit: /usr/local/bin/taxonkit

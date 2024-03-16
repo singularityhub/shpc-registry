@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ffq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ffq
 latest:
-  0.3.0--pyhdfd78af_0: sha256:b4cb5b57f2a7d98e18aeb3801b40ae7d18fb70edd52769b6bb3776477207ed6c
+  0.3.1--pyhdfd78af_0: sha256:2cf8a32256dada368a63be1cbbaba6e86e95111b7b7f33d6090a78381e0a6a16
 tags:
   0.3.0--pyhdfd78af_0: sha256:b4cb5b57f2a7d98e18aeb3801b40ae7d18fb70edd52769b6bb3776477207ed6c
+  0.3.1--pyhdfd78af_0: sha256:2cf8a32256dada368a63be1cbbaba6e86e95111b7b7f33d6090a78381e0a6a16
 docker: quay.io/biocontainers/ffq
 aliases:
   ffq: /usr/local/bin/ffq
