@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/jronn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jronn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jronn/container.yaml"
-updated_at: "2024-03-15 03:04:01.764366"
-latest: "7.1.0--hdfd78af_0"
+updated_at: "2024-03-16 03:03:15.822704"
+latest: "7.1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/jronn"
 aliases:
  - "jronn"
@@ -36,8 +36,9 @@ aliases:
  - "jconsole"
 versions:
  - "7.1.0--hdfd78af_0"
+ - "7.1.0--hdfd78af_1"
 description: "singularity registry hpc automated addition for jronn"
-config: {"url": "https://biocontainers.pro/tools/jronn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for jronn", "latest": {"7.1.0--hdfd78af_0": "sha256:31618dc275c65cddc6275c6e04f095e53ba175c1cff82cd66f22a684df240186"}, "tags": {"7.1.0--hdfd78af_0": "sha256:31618dc275c65cddc6275c6e04f095e53ba175c1cff82cd66f22a684df240186"}, "docker": "quay.io/biocontainers/jronn", "aliases": {"jronn": "/usr/local/bin/jronn", "jwebserver": "/usr/local/bin/jwebserver", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole"}}
+config: {"url": "https://biocontainers.pro/tools/jronn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for jronn", "latest": {"7.1.0--hdfd78af_1": "sha256:31d681ecdda9f558070805285d8a82ab01a3c12a5dfa62f68a2c9a8b993f5488"}, "tags": {"7.1.0--hdfd78af_0": "sha256:31618dc275c65cddc6275c6e04f095e53ba175c1cff82cd66f22a684df240186", "7.1.0--hdfd78af_1": "sha256:31d681ecdda9f558070805285d8a82ab01a3c12a5dfa62f68a2c9a8b993f5488"}, "docker": "quay.io/biocontainers/jronn", "aliases": {"jronn": "/usr/local/bin/jronn", "jwebserver": "/usr/local/bin/jwebserver", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jronn.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/jronn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/jronn:7.1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/jronn:7.1.0--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/jronn/7.1.0--hdfd78af_0
-$ module help quay.io/biocontainers/jronn/7.1.0--hdfd78af_0
+$ module load quay.io/biocontainers/jronn/7.1.0--hdfd78af_1
+$ module help quay.io/biocontainers/jronn/7.1.0--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

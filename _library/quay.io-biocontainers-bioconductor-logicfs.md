@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-logicfs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-logicfs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-logicfs/container.yaml"
-updated_at: "2024-03-15 02:52:31.561392"
+updated_at: "2024-03-16 02:51:36.409199"
 latest: "2.22.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-logicfs"
 aliases:

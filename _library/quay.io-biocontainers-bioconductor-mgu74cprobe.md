@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mgu74cprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mgu74cprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mgu74cprobe/container.yaml"
-updated_at: "2024-03-15 03:00:14.648738"
+updated_at: "2024-03-16 02:59:25.538062"
 latest: "2.18.0--r43hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-mgu74cprobe"
 aliases:

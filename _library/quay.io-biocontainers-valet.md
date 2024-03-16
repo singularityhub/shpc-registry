@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/valet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/valet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/valet/container.yaml"
-updated_at: "2024-03-15 02:37:22.359080"
+updated_at: "2024-03-16 02:36:06.048643"
 latest: "1.0--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/valet"
 aliases:

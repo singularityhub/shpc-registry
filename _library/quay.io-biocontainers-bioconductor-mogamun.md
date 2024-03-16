@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mogamun"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mogamun/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mogamun/container.yaml"
-updated_at: "2024-03-15 02:25:23.339056"
+updated_at: "2024-03-16 02:23:58.282607"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mogamun"
 aliases:

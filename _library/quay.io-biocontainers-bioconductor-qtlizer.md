@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-qtlizer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qtlizer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qtlizer/container.yaml"
-updated_at: "2024-03-15 02:59:03.791761"
+updated_at: "2024-03-16 02:58:14.088920"
 latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qtlizer"
 

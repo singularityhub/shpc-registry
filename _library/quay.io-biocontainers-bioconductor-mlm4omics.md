@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mlm4omics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mlm4omics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mlm4omics/container.yaml"
-updated_at: "2024-03-15 02:26:11.058625"
+updated_at: "2024-03-16 02:24:46.799028"
 latest: "1.2.0--r351hf484d3e_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mlm4omics"
 aliases:

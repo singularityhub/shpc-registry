@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-m3dexampledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-m3dexampledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-m3dexampledata/container.yaml"
-updated_at: "2024-03-15 02:26:02.941637"
+updated_at: "2024-03-16 02:24:38.545382"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-m3dexampledata"
 aliases:
