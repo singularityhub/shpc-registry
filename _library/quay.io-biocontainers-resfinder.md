@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/resfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/resfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/resfinder/container.yaml"
-updated_at: "2024-03-16 02:37:04.912043"
-latest: "4.4.2--pyhdfd78af_1"
+updated_at: "2024-03-17 02:38:45.419071"
+latest: "4.4.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/resfinder"
 aliases:
  - "download-db.sh"
@@ -43,8 +43,9 @@ aliases:
 versions:
  - "4.1.11--hdfd78af_0"
  - "4.4.2--pyhdfd78af_1"
+ - "4.4.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for resfinder"
-config: {"url": "https://biocontainers.pro/tools/resfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for resfinder", "latest": {"4.4.2--pyhdfd78af_1": "sha256:5cba85ba3ecb4cd0e87ed43d46dd73fe5f99f0d1a3b72521e3fcd84e8721c74e"}, "tags": {"4.1.11--hdfd78af_0": "sha256:3ff989d18d575db36aad864ccf99e591f9fd2ec70fc239f5aa874eb7fa55122a", "4.4.2--pyhdfd78af_1": "sha256:5cba85ba3ecb4cd0e87ed43d46dd73fe5f99f0d1a3b72521e3fcd84e8721c74e"}, "docker": "quay.io/biocontainers/resfinder", "aliases": {"download-db.sh": "/usr/local/bin/download-db.sh", "git_test.py": "/usr/local/bin/git_test.py", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "run_resfinder.py": "/usr/local/bin/run_resfinder.py", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "tabulate": "/usr/local/bin/tabulate", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns"}}
+config: {"url": "https://biocontainers.pro/tools/resfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for resfinder", "latest": {"4.4.3--pyhdfd78af_0": "sha256:6efacdd0ceaa9df3db5e85f90be380fc6fb5f8ca1df3a222d325b1a4ab283c07"}, "tags": {"4.1.11--hdfd78af_0": "sha256:3ff989d18d575db36aad864ccf99e591f9fd2ec70fc239f5aa874eb7fa55122a", "4.4.2--pyhdfd78af_1": "sha256:5cba85ba3ecb4cd0e87ed43d46dd73fe5f99f0d1a3b72521e3fcd84e8721c74e", "4.4.3--pyhdfd78af_0": "sha256:6efacdd0ceaa9df3db5e85f90be380fc6fb5f8ca1df3a222d325b1a4ab283c07"}, "docker": "quay.io/biocontainers/resfinder", "aliases": {"download-db.sh": "/usr/local/bin/download-db.sh", "git_test.py": "/usr/local/bin/git_test.py", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "run_resfinder.py": "/usr/local/bin/run_resfinder.py", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "tabulate": "/usr/local/bin/tabulate", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/resfinder.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/resfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/resfinder:4.4.2--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/resfinder:4.4.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/resfinder/4.4.2--pyhdfd78af_1
-$ module help quay.io/biocontainers/resfinder/4.4.2--pyhdfd78af_1
+$ module load quay.io/biocontainers/resfinder/4.4.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/resfinder/4.4.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

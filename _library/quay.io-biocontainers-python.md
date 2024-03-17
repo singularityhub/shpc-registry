@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python/container.yaml"
-updated_at: "2024-03-16 02:38:53.451116"
-latest: "3.10"
+updated_at: "2024-03-17 02:40:30.559893"
+latest: "3.12"
 container_url: "https://biocontainers.pro/tools/python"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "3"
  - "3.10"
  - "3.9"
+ - "3.12"
 description: "shpc-registry automated BioContainers addition for python"
-config: {"url": "https://biocontainers.pro/tools/python", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python", "latest": {"3.10": "sha256:f6b44640f06e8265ebf5ce85ca12cea53af110c188d6b4acf5f59887c24abb8f"}, "tags": {"3.9--1": "sha256:d97d2b329b4e44d2e07a9737ba348b185d6a47f34fba0ef301d44d11669cac60", "3": "sha256:c2b3b7137c6d44ec29dd500e87c0ea5e13e3d537eebb0abfb733ecdd5d2455ee", "3.10": "sha256:f6b44640f06e8265ebf5ce85ca12cea53af110c188d6b4acf5f59887c24abb8f", "3.9": "sha256:c6b961c4c7bbfedddc8bbce9431ce550621c4fe526bb0f11a73c314507ec730d"}, "docker": "quay.io/biocontainers/python"}
+config: {"url": "https://biocontainers.pro/tools/python", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python", "latest": {"3.12": "sha256:29fccb317d61a9d09ecf432f63bfea512b98f0f3bc3764dc65fbdbc0f02473b5"}, "tags": {"3.9--1": "sha256:d97d2b329b4e44d2e07a9737ba348b185d6a47f34fba0ef301d44d11669cac60", "3": "sha256:c2b3b7137c6d44ec29dd500e87c0ea5e13e3d537eebb0abfb733ecdd5d2455ee", "3.10": "sha256:f6b44640f06e8265ebf5ce85ca12cea53af110c188d6b4acf5f59887c24abb8f", "3.9": "sha256:c6b961c4c7bbfedddc8bbce9431ce550621c4fe526bb0f11a73c314507ec730d", "3.12": "sha256:29fccb317d61a9d09ecf432f63bfea512b98f0f3bc3764dc65fbdbc0f02473b5"}, "docker": "quay.io/biocontainers/python"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/python
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/python:3.10
+$ shpc install quay.io/biocontainers/python:3.12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/python/3.10
-$ module help quay.io/biocontainers/python/3.10
+$ module load quay.io/biocontainers/python/3.12
+$ module help quay.io/biocontainers/python/3.12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

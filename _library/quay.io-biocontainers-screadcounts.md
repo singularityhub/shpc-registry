@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/screadcounts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/screadcounts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/screadcounts/container.yaml"
-updated_at: "2024-03-16 02:49:13.340820"
-latest: "1.3.2--hdfd78af_0"
+updated_at: "2024-03-17 02:50:22.943349"
+latest: "1.4.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/screadcounts"
 aliases:
  - "helpviewer"
@@ -55,8 +55,9 @@ aliases:
  - "blast2sam.pl"
 versions:
  - "1.3.2--hdfd78af_0"
+ - "1.4.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for screadcounts"
-config: {"url": "https://biocontainers.pro/tools/screadcounts", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for screadcounts", "latest": {"1.3.2--hdfd78af_0": "sha256:919f4e7f0994a1ee13a27786f8b43e8d15f9737fd7648e9191d3307f9e4d11e1"}, "tags": {"1.3.2--hdfd78af_0": "sha256:919f4e7f0994a1ee13a27786f8b43e8d15f9737fd7648e9191d3307f9e4d11e1"}, "docker": "quay.io/biocontainers/screadcounts", "aliases": {"helpviewer": "/usr/local/bin/helpviewer", "img2png": "/usr/local/bin/img2png", "img2py": "/usr/local/bin/img2py", "img2xpm": "/usr/local/bin/img2xpm", "pycrust": "/usr/local/bin/pycrust", "pyshell": "/usr/local/bin/pyshell", "pyslices": "/usr/local/bin/pyslices", "pyslicesshell": "/usr/local/bin/pyslicesshell", "pywxrc": "/usr/local/bin/pywxrc", "readCounts": "/usr/local/bin/readCounts", "readCountsMatrix": "/usr/local/bin/readCountsMatrix", "scReadCounts": "/usr/local/bin/scReadCounts", "scVarLoci": "/usr/local/bin/scVarLoci", "varLoci": "/usr/local/bin/varLoci", "wx-config": "/usr/local/bin/wx-config", "wxdemo": "/usr/local/bin/wxdemo", "wxdocs": "/usr/local/bin/wxdocs", "wxget": "/usr/local/bin/wxget", "wxrc": "/usr/local/bin/wxrc", "wxrc-3.2": "/usr/local/bin/wxrc-3.2", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo", "gtk-query-immodules-2.0": "/usr/local/bin/gtk-query-immodules-2.0", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "normalizer": "/usr/local/bin/normalizer", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0", "gst-discoverer-1.0": "/usr/local/bin/gst-discoverer-1.0", "gst-play-1.0": "/usr/local/bin/gst-play-1.0", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "gst-inspect-1.0": "/usr/local/bin/gst-inspect-1.0", "gst-launch-1.0": "/usr/local/bin/gst-launch-1.0", "gst-stats-1.0": "/usr/local/bin/gst-stats-1.0", "gst-typefind-1.0": "/usr/local/bin/gst-typefind-1.0", "f2py3.10": "/usr/local/bin/f2py3.10", "aserver": "/usr/local/bin/aserver", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/screadcounts", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for screadcounts", "latest": {"1.4.0--hdfd78af_0": "sha256:086add4dbe78621aba8e60be450838ee978ca2bf11a5f116d61cb630112153c4"}, "tags": {"1.3.2--hdfd78af_0": "sha256:919f4e7f0994a1ee13a27786f8b43e8d15f9737fd7648e9191d3307f9e4d11e1", "1.4.0--hdfd78af_0": "sha256:086add4dbe78621aba8e60be450838ee978ca2bf11a5f116d61cb630112153c4"}, "docker": "quay.io/biocontainers/screadcounts", "aliases": {"helpviewer": "/usr/local/bin/helpviewer", "img2png": "/usr/local/bin/img2png", "img2py": "/usr/local/bin/img2py", "img2xpm": "/usr/local/bin/img2xpm", "pycrust": "/usr/local/bin/pycrust", "pyshell": "/usr/local/bin/pyshell", "pyslices": "/usr/local/bin/pyslices", "pyslicesshell": "/usr/local/bin/pyslicesshell", "pywxrc": "/usr/local/bin/pywxrc", "readCounts": "/usr/local/bin/readCounts", "readCountsMatrix": "/usr/local/bin/readCountsMatrix", "scReadCounts": "/usr/local/bin/scReadCounts", "scVarLoci": "/usr/local/bin/scVarLoci", "varLoci": "/usr/local/bin/varLoci", "wx-config": "/usr/local/bin/wx-config", "wxdemo": "/usr/local/bin/wxdemo", "wxdocs": "/usr/local/bin/wxdocs", "wxget": "/usr/local/bin/wxget", "wxrc": "/usr/local/bin/wxrc", "wxrc-3.2": "/usr/local/bin/wxrc-3.2", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo", "gtk-query-immodules-2.0": "/usr/local/bin/gtk-query-immodules-2.0", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "normalizer": "/usr/local/bin/normalizer", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0", "gst-discoverer-1.0": "/usr/local/bin/gst-discoverer-1.0", "gst-play-1.0": "/usr/local/bin/gst-play-1.0", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "gst-inspect-1.0": "/usr/local/bin/gst-inspect-1.0", "gst-launch-1.0": "/usr/local/bin/gst-launch-1.0", "gst-stats-1.0": "/usr/local/bin/gst-stats-1.0", "gst-typefind-1.0": "/usr/local/bin/gst-typefind-1.0", "f2py3.10": "/usr/local/bin/f2py3.10", "aserver": "/usr/local/bin/aserver", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/screadcounts.
@@ -71,7 +72,7 @@ $ shpc install quay.io/biocontainers/screadcounts
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/screadcounts:1.3.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/screadcounts:1.4.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -83,8 +84,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/screadcounts/1.3.2--hdfd78af_0
-$ module help quay.io/biocontainers/screadcounts/1.3.2--hdfd78af_0
+$ module load quay.io/biocontainers/screadcounts/1.4.0--hdfd78af_0
+$ module help quay.io/biocontainers/screadcounts/1.4.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

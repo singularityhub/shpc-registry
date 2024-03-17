@@ -4,8 +4,8 @@ name:  "rocker/tidyverse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/tidyverse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/tidyverse/container.yaml"
-updated_at: "2024-03-16 03:06:22.979235"
-latest: "4.3.2"
+updated_at: "2024-03-17 03:07:04.168653"
+latest: "4.3.3"
 container_url: "https://hub.docker.com/r/rocker/tidyverse"
 aliases:
  - "R"
@@ -25,8 +25,9 @@ versions:
  - "4.3.0"
  - "4.3.1"
  - "4.3.2"
+ - "4.3.3"
 description: "Version-stable build of R, rstudio, and R packages "
-config: {"docker": "rocker/tidyverse", "url": "https://hub.docker.com/r/rocker/tidyverse", "maintainer": "@vsoch", "description": "Version-stable build of R, rstudio, and R packages ", "latest": {"4.3.2": "sha256:7ca07187e0ab554e31e1172c5cda7e4989effe9d565391f94dc7bfae78217312"}, "tags": {"4.2.2": "sha256:15096dd154bffee891c3feed8a9505bb8d25166365c3df759cb6bb1ee8e54e89", "3.6.3": "sha256:e3be20f79432e88e5e242d553d2bba76caf61c41d14186edd1f6a2343800de74", "4.1.3": "sha256:bb9fa0eba8168d0bc06300f4a5e04873be70a6e7a147cda6d0e985320e1ab25d", "4.0.5": "sha256:5f8630c1c26a8baf7bbf6b69f30169e28f99153b057452e0437e95da109c3477", "4.2.3": "sha256:befeccdd620283e5eb2b4627220a210fdde62d3f1700000ee6f854123604f737", "4.3.0": "sha256:edfeb0c07acd79d0d78413171048a7b61d410a655b78d3615466b138a2951816", "4.3.1": "sha256:a97117fa51d524fc801918402a9e2e7cb92769a7bbf78b8d6110ae5e7ed2e764", "4.3.2": "sha256:7ca07187e0ab554e31e1172c5cda7e4989effe9d565391f94dc7bfae78217312"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-ml-run": "/bin/bash", "rocker-tidyverse-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
+config: {"docker": "rocker/tidyverse", "url": "https://hub.docker.com/r/rocker/tidyverse", "maintainer": "@vsoch", "description": "Version-stable build of R, rstudio, and R packages ", "latest": {"4.3.3": "sha256:c21e6a2312f6f0f5938efb7a98553ea59b1d2c5c9eeb24b9bca8efa838ea529d"}, "tags": {"4.2.2": "sha256:fa2ba674c05b42fd45b06d3f9f087d27fff934331bb67a4de91f4308d705b3ce", "3.6.3": "sha256:e3be20f79432e88e5e242d553d2bba76caf61c41d14186edd1f6a2343800de74", "4.1.3": "sha256:60e93793ca813a4e6058bb4324ad42ed2cd63243a2a772157acd700d56dd60d5", "4.0.5": "sha256:233f9012e033a96933a90a297b3ff4c8f123e57a3ebb7bf41301f136dc14a3fa", "4.2.3": "sha256:7d5140e47a582369bf107788c96e9c080115c8c38346c0aa4cc563dfc200e4c9", "4.3.0": "sha256:40b4376357cb795e2284a662ab92ded17407fa67d326b50a982b809e7a257308", "4.3.1": "sha256:47fc6ebdb30cbfece31a017108f13c503085e1a8a62e7338f1ff3eb3a2ee54a9", "4.3.2": "sha256:93f54c8eb73722654ae06504fd5297b117f9ee25491a05e2b8daff2a0348eec2", "4.3.3": "sha256:c21e6a2312f6f0f5938efb7a98553ea59b1d2c5c9eeb24b9bca8efa838ea529d"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-ml-run": "/bin/bash", "rocker-tidyverse-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
 ---
 
 This module is a singularity container wrapper for rocker/tidyverse.
@@ -41,7 +42,7 @@ $ shpc install rocker/tidyverse
 Or a specific version:
 
 ```bash
-$ shpc install rocker/tidyverse:4.3.2
+$ shpc install rocker/tidyverse:4.3.3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load rocker/tidyverse/4.3.2
-$ module help rocker/tidyverse/4.3.2
+$ module load rocker/tidyverse/4.3.3
+$ module help rocker/tidyverse/4.3.3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

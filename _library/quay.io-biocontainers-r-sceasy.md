@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sceasy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sceasy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sceasy/container.yaml"
-updated_at: "2024-03-16 02:38:35.758115"
+updated_at: "2024-03-17 02:40:13.538934"
 latest: "0.0.7--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-sceasy"
 aliases:

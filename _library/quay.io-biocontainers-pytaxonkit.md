@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pytaxonkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytaxonkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytaxonkit/container.yaml"
-updated_at: "2024-03-16 03:06:04.606874"
-latest: "0.8--pyhdfd78af_0"
+updated_at: "2024-03-17 03:06:45.912052"
+latest: "0.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pytaxonkit"
 aliases:
  - "taxonkit"
@@ -20,8 +20,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.8--pyhdfd78af_0"
+ - "0.9--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pytaxonkit"
-config: {"url": "https://biocontainers.pro/tools/pytaxonkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytaxonkit", "latest": {"0.8--pyhdfd78af_0": "sha256:3307049f3ffb04bbf7192aa07466c2d8574a9d076a6d55d285450d845c9fa3d0"}, "tags": {"0.8--pyhdfd78af_0": "sha256:3307049f3ffb04bbf7192aa07466c2d8574a9d076a6d55d285450d845c9fa3d0"}, "docker": "quay.io/biocontainers/pytaxonkit", "aliases": {"taxonkit": "/usr/local/bin/taxonkit", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pytaxonkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytaxonkit", "latest": {"0.9--pyhdfd78af_0": "sha256:5c588cc1cae773a4aebe6992fa71fdc3f5fa659f7ebc336f3b4dc50f2a01bbf3"}, "tags": {"0.8--pyhdfd78af_0": "sha256:3307049f3ffb04bbf7192aa07466c2d8574a9d076a6d55d285450d845c9fa3d0", "0.9--pyhdfd78af_0": "sha256:5c588cc1cae773a4aebe6992fa71fdc3f5fa659f7ebc336f3b4dc50f2a01bbf3"}, "docker": "quay.io/biocontainers/pytaxonkit", "aliases": {"taxonkit": "/usr/local/bin/taxonkit", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytaxonkit.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/pytaxonkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pytaxonkit:0.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pytaxonkit:0.9--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pytaxonkit/0.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/pytaxonkit/0.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/pytaxonkit/0.9--pyhdfd78af_0
+$ module help quay.io/biocontainers/pytaxonkit/0.9--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
