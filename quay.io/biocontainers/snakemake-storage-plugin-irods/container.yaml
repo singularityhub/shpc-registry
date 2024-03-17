@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/snakemake-storage-plugin-irods
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snakemake-storage-plugin-irods
 latest:
-  0.1.1--pyhdfd78af_0: sha256:853d071dc8bb3571f79acd45d569b80221ca027c235395d8a5c7527e32ce9d67
+  0.1.2--pyhdfd78af_0: sha256:ed673cef586cc117e4a1432ddbe7d5c52c4905217ac9e7fac9df7cb33f0104d8
 tags:
   0.1.1--pyhdfd78af_0: sha256:853d071dc8bb3571f79acd45d569b80221ca027c235395d8a5c7527e32ce9d67
+  0.1.2--pyhdfd78af_0: sha256:ed673cef586cc117e4a1432ddbe7d5c52c4905217ac9e7fac9df7cb33f0104d8
 docker: quay.io/biocontainers/snakemake-storage-plugin-irods
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

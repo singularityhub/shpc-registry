@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/genoboo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for genoboo
 latest:
-  0.4.12--h4ac6f70_0: sha256:5c26b54e0b26efd831f53dfa2e6bc8769af7e1db150689cbfe13375c7e8adf86
+  0.4.13--h4ac6f70_0: sha256:1ebb523a6e5af3a7eab9d80ed36dd29b83e8b0caa3c58345ee0a732a4edb59be
 tags:
   0.4.1--h9f5acd7_0: sha256:db400ba7bb082430351443bb92483b0b970d2674ebcdf3473ae5ca8795aa5d57
   0.4.2--h9f5acd7_0: sha256:0c30ac1734c603f810c53dc2d1a783af18753698c6e2b4e81873f1ca698a0eeb
@@ -12,6 +12,7 @@ tags:
   0.4.7--h4ac6f70_0: sha256:94ea47a9395894cb464da54c9507a7f6adc4fe79932ee4a144cdb23b36cc0393
   0.4.9--h4ac6f70_0: sha256:67a0effecd4ec6d7bfcb6593a2baeffcd1a339c666fc8654b1e76d4df0ee200f
   0.4.12--h4ac6f70_0: sha256:5c26b54e0b26efd831f53dfa2e6bc8769af7e1db150689cbfe13375c7e8adf86
+  0.4.13--h4ac6f70_0: sha256:1ebb523a6e5af3a7eab9d80ed36dd29b83e8b0caa3c58345ee0a732a4edb59be
 docker: quay.io/biocontainers/genoboo
 aliases:
   genoboo: /usr/local/bin/genoboo
