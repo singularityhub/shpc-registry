@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samwell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samwell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samwell/container.yaml"
-updated_at: "2024-03-18 03:25:38.997196"
+updated_at: "2024-03-18 23:10:45.028298"
 latest: "0.0.4--py38he5da3d1_2"
 container_url: "https://biocontainers.pro/tools/samwell"
 aliases:
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "0.0.4--py39hbf8eff0_1"
  - "0.0.4--py38he5da3d1_2"
+ - "0.0.4--py39hf95cd2a_2"
 description: "shpc-registry automated BioContainers addition for samwell"
-config: {"url": "https://biocontainers.pro/tools/samwell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samwell", "latest": {"0.0.4--py38he5da3d1_2": "sha256:f44e510091daced8ceb04a0087388b28636f73f21cb67307a40e35eaa114e9ed"}, "tags": {"0.0.4--py39hbf8eff0_1": "sha256:4f02faf3cb58c793cd24e733143d8be372133c11f7fe06b7d60ae9837289237b", "0.0.4--py38he5da3d1_2": "sha256:f44e510091daced8ceb04a0087388b28636f73f21cb67307a40e35eaa114e9ed"}, "docker": "quay.io/biocontainers/samwell", "aliases": {"docutils": "/usr/local/bin/docutils", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py"}}
+config: {"url": "https://biocontainers.pro/tools/samwell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samwell", "latest": {"0.0.4--py38he5da3d1_2": "sha256:f44e510091daced8ceb04a0087388b28636f73f21cb67307a40e35eaa114e9ed"}, "tags": {"0.0.4--py39hbf8eff0_1": "sha256:4f02faf3cb58c793cd24e733143d8be372133c11f7fe06b7d60ae9837289237b", "0.0.4--py38he5da3d1_2": "sha256:f44e510091daced8ceb04a0087388b28636f73f21cb67307a40e35eaa114e9ed", "0.0.4--py39hf95cd2a_2": "sha256:b9f4211c0de3efb3ceb37c320eb4c0641127bd4d3a162262e79e6ac896d28d23"}, "docker": "quay.io/biocontainers/samwell", "aliases": {"docutils": "/usr/local/bin/docutils", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samwell.

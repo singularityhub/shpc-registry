@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-jazaerimetadata.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-jazaerimetadata.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-jazaerimetadata.db/container.yaml"
-updated_at: "2024-03-18 03:27:21.168014"
+updated_at: "2024-03-18 23:12:16.251068"
 latest: "3.2.3--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-jazaerimetadata.db"
 

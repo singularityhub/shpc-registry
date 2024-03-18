@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/httpretty"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/httpretty/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/httpretty/container.yaml"
-updated_at: "2024-03-18 03:53:56.954990"
+updated_at: "2024-03-18 23:36:45.991908"
 latest: "0.8.10--py35_0"
 container_url: "https://biocontainers.pro/tools/httpretty"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.8.10--py35_0"
+ - "0.8.10--py36_0"
 description: "shpc-registry automated BioContainers addition for httpretty"
-config: {"url": "https://biocontainers.pro/tools/httpretty", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for httpretty", "latest": {"0.8.10--py35_0": "sha256:d41fc84a0f3211ad409db284a2380e19db15a11f5e8d1ac93c7268541b52075f"}, "tags": {"0.8.10--py35_0": "sha256:d41fc84a0f3211ad409db284a2380e19db15a11f5e8d1ac93c7268541b52075f"}, "docker": "quay.io/biocontainers/httpretty", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/httpretty", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for httpretty", "latest": {"0.8.10--py35_0": "sha256:d41fc84a0f3211ad409db284a2380e19db15a11f5e8d1ac93c7268541b52075f"}, "tags": {"0.8.10--py35_0": "sha256:d41fc84a0f3211ad409db284a2380e19db15a11f5e8d1ac93c7268541b52075f", "0.8.10--py36_0": "sha256:182363cf735967c3201bdc426c5c3860d661151d260ad1bee45b85da433c12b0"}, "docker": "quay.io/biocontainers/httpretty", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/httpretty.

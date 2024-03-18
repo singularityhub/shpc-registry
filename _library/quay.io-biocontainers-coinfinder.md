@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/coinfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coinfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coinfinder/container.yaml"
-updated_at: "2024-03-18 03:39:58.093022"
-latest: "1.2.1--py39h2ce926b_0"
+updated_at: "2024-03-18 23:23:30.114269"
+latest: "1.2.1--py310h457ec61_1"
 container_url: "https://biocontainers.pro/tools/coinfinder"
 aliases:
  - "coinfinder"
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "1.2.0--py37haba7c85_0"
  - "1.2.1--py39h2ce926b_0"
+ - "1.2.1--py310h457ec61_1"
 description: "shpc-registry automated BioContainers addition for coinfinder"
-config: {"url": "https://biocontainers.pro/tools/coinfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coinfinder", "latest": {"1.2.1--py39h2ce926b_0": "sha256:35378bc446ad19bcab07c5f53771e82bfa513b5ac44c759fff6b7919a284a385"}, "tags": {"1.2.0--py37haba7c85_0": "sha256:534f1e154055a49d4d2a6de83fa7c31496b41bcbba79bd1fbdde38554d64f2b1", "1.2.1--py39h2ce926b_0": "sha256:35378bc446ad19bcab07c5f53771e82bfa513b5ac44c759fff6b7919a284a385"}, "docker": "quay.io/biocontainers/coinfinder", "aliases": {"coinfinder": "/usr/local/bin/coinfinder", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "lame": "/usr/local/bin/lame", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "x264": "/usr/local/bin/x264", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv", "psktool": "/usr/local/bin/psktool"}}
+config: {"url": "https://biocontainers.pro/tools/coinfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coinfinder", "latest": {"1.2.1--py310h457ec61_1": "sha256:29cb4083c344d622225802af5bfe8829b9b198dec0d88d5bd340803d4bf7985c"}, "tags": {"1.2.0--py37haba7c85_0": "sha256:534f1e154055a49d4d2a6de83fa7c31496b41bcbba79bd1fbdde38554d64f2b1", "1.2.1--py39h2ce926b_0": "sha256:35378bc446ad19bcab07c5f53771e82bfa513b5ac44c759fff6b7919a284a385", "1.2.1--py310h457ec61_1": "sha256:29cb4083c344d622225802af5bfe8829b9b198dec0d88d5bd340803d4bf7985c"}, "docker": "quay.io/biocontainers/coinfinder", "aliases": {"coinfinder": "/usr/local/bin/coinfinder", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "lame": "/usr/local/bin/lame", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "x264": "/usr/local/bin/x264", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv", "psktool": "/usr/local/bin/psktool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/coinfinder.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/coinfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/coinfinder:1.2.1--py39h2ce926b_0
+$ shpc install quay.io/biocontainers/coinfinder:1.2.1--py310h457ec61_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/coinfinder/1.2.1--py39h2ce926b_0
-$ module help quay.io/biocontainers/coinfinder/1.2.1--py39h2ce926b_0
+$ module load quay.io/biocontainers/coinfinder/1.2.1--py310h457ec61_1
+$ module help quay.io/biocontainers/coinfinder/1.2.1--py310h457ec61_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

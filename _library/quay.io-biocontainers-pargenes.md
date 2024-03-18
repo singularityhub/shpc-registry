@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pargenes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pargenes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pargenes/container.yaml"
-updated_at: "2024-03-18 03:21:47.869017"
+updated_at: "2024-03-18 23:07:16.522609"
 latest: "1.2.0--py27h8374a30_0"
 container_url: "https://biocontainers.pro/tools/pargenes"
 aliases:
@@ -23,8 +23,9 @@ aliases:
  - "orte-server"
 versions:
  - "1.2.0--py27h8374a30_0"
+ - "1.2.0--py38h9e9a824_0"
 description: "shpc-registry automated BioContainers addition for pargenes"
-config: {"url": "https://biocontainers.pro/tools/pargenes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pargenes", "latest": {"1.2.0--py27h8374a30_0": "sha256:95e0089c23d2ebb9235ab1324ac37628ef0da02f2711ea8ebedc0e634a806078"}, "tags": {"1.2.0--py27h8374a30_0": "sha256:95e0089c23d2ebb9235ab1324ac37628ef0da02f2711ea8ebedc0e634a806078"}, "docker": "quay.io/biocontainers/pargenes", "aliases": {"pargenes-hpc-debug.py": "/usr/local/bin/pargenes-hpc-debug.py", "pargenes-hpc.py": "/usr/local/bin/pargenes-hpc.py", "pargenes.py": "/usr/local/bin/pargenes.py", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server"}}
+config: {"url": "https://biocontainers.pro/tools/pargenes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pargenes", "latest": {"1.2.0--py27h8374a30_0": "sha256:95e0089c23d2ebb9235ab1324ac37628ef0da02f2711ea8ebedc0e634a806078"}, "tags": {"1.2.0--py27h8374a30_0": "sha256:95e0089c23d2ebb9235ab1324ac37628ef0da02f2711ea8ebedc0e634a806078", "1.2.0--py38h9e9a824_0": "sha256:65cab248c6ae12cf629a3821d5a2d4e3e4cc9a117ebbe9d6856d21a7061831d9"}, "docker": "quay.io/biocontainers/pargenes", "aliases": {"pargenes-hpc-debug.py": "/usr/local/bin/pargenes-hpc-debug.py", "pargenes-hpc.py": "/usr/local/bin/pargenes-hpc.py", "pargenes.py": "/usr/local/bin/pargenes.py", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pargenes.

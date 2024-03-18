@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaclassifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaclassifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaclassifier/container.yaml"
-updated_at: "2024-03-18 03:59:45.427473"
+updated_at: "2024-03-18 23:42:23.349067"
 latest: "v1.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/metaclassifier"
 aliases:
@@ -23,8 +23,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "v1.0.1--py_0"
+ - "1.0.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for metaclassifier"
-config: {"url": "https://biocontainers.pro/tools/metaclassifier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaclassifier", "latest": {"v1.0.1--py_0": "sha256:32537c537035382d6d7f774300e84f362a01c44ab77acbc98827355cc1a82a99"}, "tags": {"v1.0.1--py_0": "sha256:32537c537035382d6d7f774300e84f362a01c44ab77acbc98827355cc1a82a99"}, "docker": "quay.io/biocontainers/metaclassifier", "aliases": {"classify_reads": "/usr/local/bin/classify_reads", "metaclassifier": "/usr/local/bin/metaclassifier", "pear": "/usr/local/bin/pear", "pearRM": "/usr/local/bin/pearRM", "process_reads": "/usr/local/bin/process_reads", "vsearch": "/usr/local/bin/vsearch", "seqtk": "/usr/local/bin/seqtk", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/metaclassifier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaclassifier", "latest": {"v1.0.1--py_0": "sha256:32537c537035382d6d7f774300e84f362a01c44ab77acbc98827355cc1a82a99"}, "tags": {"v1.0.1--py_0": "sha256:32537c537035382d6d7f774300e84f362a01c44ab77acbc98827355cc1a82a99", "1.0.1--pyhdfd78af_0": "sha256:c85a0545b2a00925439b5b89eac46541bccb0bf4cf2d2671c75c0285a8ee6f03"}, "docker": "quay.io/biocontainers/metaclassifier", "aliases": {"classify_reads": "/usr/local/bin/classify_reads", "metaclassifier": "/usr/local/bin/metaclassifier", "pear": "/usr/local/bin/pear", "pearRM": "/usr/local/bin/pearRM", "process_reads": "/usr/local/bin/process_reads", "vsearch": "/usr/local/bin/vsearch", "seqtk": "/usr/local/bin/seqtk", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metaclassifier.

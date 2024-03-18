@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-qdnaseq.hg19"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qdnaseq.hg19/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qdnaseq.hg19/container.yaml"
-updated_at: "2024-03-18 03:37:28.911270"
+updated_at: "2024-03-18 23:21:11.339782"
 latest: "1.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qdnaseq.hg19"
 

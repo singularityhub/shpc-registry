@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-checkmate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-checkmate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-checkmate/container.yaml"
-updated_at: "2024-03-18 03:44:42.595853"
+updated_at: "2024-03-18 23:27:57.587902"
 latest: "1.8.2--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-checkmate"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8.2--r3.3.1_0"
+ - "1.8.2--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-checkmate"
-config: {"url": "https://biocontainers.pro/tools/r-checkmate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-checkmate", "latest": {"1.8.2--r3.3.1_0": "sha256:39de3c25915c570841c285c5073509b6d43ad74619ea326b81833edf798524f3"}, "tags": {"1.8.2--r3.3.1_0": "sha256:39de3c25915c570841c285c5073509b6d43ad74619ea326b81833edf798524f3"}, "docker": "quay.io/biocontainers/r-checkmate", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-checkmate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-checkmate", "latest": {"1.8.2--r3.3.1_0": "sha256:39de3c25915c570841c285c5073509b6d43ad74619ea326b81833edf798524f3"}, "tags": {"1.8.2--r3.3.1_0": "sha256:39de3c25915c570841c285c5073509b6d43ad74619ea326b81833edf798524f3", "1.8.2--r3.3.2_0": "sha256:3e00f15b2312bdcfd0eefbe92a4ef0e1d88238ee87da1a79fe241b0fb54239d5"}, "docker": "quay.io/biocontainers/r-checkmate", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-checkmate.

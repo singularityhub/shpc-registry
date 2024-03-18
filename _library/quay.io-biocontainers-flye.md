@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flye"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flye/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flye/container.yaml"
-updated_at: "2024-03-18 03:56:29.795508"
-latest: "2.8.3--py37hccf3b7b_1"
+updated_at: "2024-03-18 23:39:13.869994"
+latest: "2.9.3--py310h2b6aa90_0"
 container_url: "https://biocontainers.pro/tools/flye"
 aliases:
  - "flye"
@@ -23,8 +23,10 @@ aliases:
  - "pyvenv"
 versions:
  - "2.8.3--py37hccf3b7b_1"
+ - "2.9.3--py310h2b6aa90_0"
+ - "2.8.3--py27h6a42192_1"
 description: "shpc-registry automated BioContainers addition for flye"
-config: {"url": "https://biocontainers.pro/tools/flye", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flye", "latest": {"2.8.3--py37hccf3b7b_1": "sha256:f445a939c51fbd3d15986e545c02bc00deca654c487eab9a087e74fa7f7c8993"}, "tags": {"2.8.3--py37hccf3b7b_1": "sha256:f445a939c51fbd3d15986e545c02bc00deca654c487eab9a087e74fa7f7c8993"}, "docker": "quay.io/biocontainers/flye", "aliases": {"flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/flye", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flye", "latest": {"2.9.3--py310h2b6aa90_0": "sha256:2df78e6175ff1815f3e68ba8e394c633375b20dccb66fa85b5748b1e8c472178"}, "tags": {"2.8.3--py37hccf3b7b_1": "sha256:f445a939c51fbd3d15986e545c02bc00deca654c487eab9a087e74fa7f7c8993", "2.9.3--py310h2b6aa90_0": "sha256:2df78e6175ff1815f3e68ba8e394c633375b20dccb66fa85b5748b1e8c472178", "2.8.3--py27h6a42192_1": "sha256:acb209fb71f17d383624ec6f72f40045413a8c1279a6079ce76fbed3f5c95d43"}, "docker": "quay.io/biocontainers/flye", "aliases": {"flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flye.
@@ -39,7 +41,7 @@ $ shpc install quay.io/biocontainers/flye
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flye:2.8.3--py37hccf3b7b_1
+$ shpc install quay.io/biocontainers/flye:2.9.3--py310h2b6aa90_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flye/2.8.3--py37hccf3b7b_1
-$ module help quay.io/biocontainers/flye/2.8.3--py37hccf3b7b_1
+$ module load quay.io/biocontainers/flye/2.9.3--py310h2b6aa90_0
+$ module help quay.io/biocontainers/flye/2.9.3--py310h2b6aa90_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

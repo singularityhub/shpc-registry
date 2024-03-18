@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/itk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itk/container.yaml"
-updated_at: "2024-03-18 03:54:43.000419"
+updated_at: "2024-03-18 23:37:30.401019"
 latest: "4.10.1--py27_2"
 container_url: "https://biocontainers.pro/tools/itk"
 aliases:
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "4.6.1--py35_1"
  - "4.10.1--py27_2"
+ - "4.6.1--py36_1"
 description: "shpc-registry automated BioContainers addition for itk"
-config: {"url": "https://biocontainers.pro/tools/itk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for itk", "latest": {"4.10.1--py27_2": "sha256:57d48686ce99c39eaf0f9e3e6b25118899d66e944e15804126d1e740a157958f"}, "tags": {"4.6.1--py35_1": "sha256:3541075669d7d559c102b127cd73d02c5b2bd09b00780014876bd76ed248c185", "4.10.1--py27_2": "sha256:57d48686ce99c39eaf0f9e3e6b25118899d66e944e15804126d1e740a157958f"}, "docker": "quay.io/biocontainers/itk", "aliases": {"itkTestDriver": "/usr/local/bin/itkTestDriver", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/itk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for itk", "latest": {"4.10.1--py27_2": "sha256:57d48686ce99c39eaf0f9e3e6b25118899d66e944e15804126d1e740a157958f"}, "tags": {"4.6.1--py35_1": "sha256:3541075669d7d559c102b127cd73d02c5b2bd09b00780014876bd76ed248c185", "4.10.1--py27_2": "sha256:57d48686ce99c39eaf0f9e3e6b25118899d66e944e15804126d1e740a157958f", "4.6.1--py36_1": "sha256:142f3b52b4fb17cb1bef9c627aea3824d8392846a6ff3786e1280dc424afcf0b"}, "docker": "quay.io/biocontainers/itk", "aliases": {"itkTestDriver": "/usr/local/bin/itkTestDriver", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/itk.

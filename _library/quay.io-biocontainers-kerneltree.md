@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kerneltree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kerneltree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kerneltree/container.yaml"
-updated_at: "2024-03-18 04:01:21.451832"
+updated_at: "2024-03-18 23:43:56.332929"
 latest: "0.0.5--py27heb79e2c_1"
 container_url: "https://biocontainers.pro/tools/kerneltree"
 aliases:
@@ -17,8 +17,9 @@ aliases:
  - "smtpd.py"
 versions:
  - "0.0.5--py27heb79e2c_1"
+ - "0.0.5--py36hc5360cc_1"
 description: "shpc-registry automated BioContainers addition for kerneltree"
-config: {"url": "https://biocontainers.pro/tools/kerneltree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kerneltree", "latest": {"0.0.5--py27heb79e2c_1": "sha256:30feae8c72bd92813d1a6a2515a96c8a1d1b83d1d28c226c2f306de0f53b5063"}, "tags": {"0.0.5--py27heb79e2c_1": "sha256:30feae8c72bd92813d1a6a2515a96c8a1d1b83d1d28c226c2f306de0f53b5063"}, "docker": "quay.io/biocontainers/kerneltree", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/kerneltree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kerneltree", "latest": {"0.0.5--py27heb79e2c_1": "sha256:30feae8c72bd92813d1a6a2515a96c8a1d1b83d1d28c226c2f306de0f53b5063"}, "tags": {"0.0.5--py27heb79e2c_1": "sha256:30feae8c72bd92813d1a6a2515a96c8a1d1b83d1d28c226c2f306de0f53b5063", "0.0.5--py36hc5360cc_1": "sha256:d9fc7a4f490b40f56c03317fbc46723425de9b0b8d04f6814d50b782e70466c6"}, "docker": "quay.io/biocontainers/kerneltree", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kerneltree.

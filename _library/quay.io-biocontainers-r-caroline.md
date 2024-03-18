@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-caroline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-caroline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-caroline/container.yaml"
-updated_at: "2024-03-18 03:38:08.032665"
+updated_at: "2024-03-18 23:21:47.690034"
 latest: "0.7.6--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-caroline"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.7.6--r3.3.1_0"
+ - "0.7.6--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-caroline"
-config: {"url": "https://biocontainers.pro/tools/r-caroline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-caroline", "latest": {"0.7.6--r3.3.1_0": "sha256:3d31ee5bea7703196771768644c4a3bced601417a1161381203e0657065d4f10"}, "tags": {"0.7.6--r3.3.1_0": "sha256:3d31ee5bea7703196771768644c4a3bced601417a1161381203e0657065d4f10"}, "docker": "quay.io/biocontainers/r-caroline", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-caroline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-caroline", "latest": {"0.7.6--r3.3.1_0": "sha256:3d31ee5bea7703196771768644c4a3bced601417a1161381203e0657065d4f10"}, "tags": {"0.7.6--r3.3.1_0": "sha256:3d31ee5bea7703196771768644c4a3bced601417a1161381203e0657065d4f10", "0.7.6--r3.3.2_0": "sha256:4194c82916a49e349301cdfaaa59d898cf627c189e5098e0e6c7c34cf36b1dbd"}, "docker": "quay.io/biocontainers/r-caroline", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-caroline.

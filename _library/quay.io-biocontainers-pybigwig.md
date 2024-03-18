@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pybigwig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybigwig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybigwig/container.yaml"
-updated_at: "2024-03-18 03:42:35.039338"
-latest: "0.3.13--py37h92ddc84_1"
+updated_at: "2024-03-18 23:25:56.951099"
+latest: "0.3.22--py39h44c22c2_1"
 container_url: "https://biocontainers.pro/tools/pybigwig"
 aliases:
  - "2to3-3.5"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "0.3.9--np113py35_0"
  - "0.3.13--py37h92ddc84_1"
+ - "0.3.22--py39h44c22c2_1"
 description: "shpc-registry automated BioContainers addition for pybigwig"
-config: {"url": "https://biocontainers.pro/tools/pybigwig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybigwig", "latest": {"0.3.13--py37h92ddc84_1": "sha256:9562a8c0e472922b38d1c7bbe56e6b1cdbe54aa9a5338ca07e9a9c69f41eb39c"}, "tags": {"0.3.9--np113py35_0": "sha256:8e51b54cea226b58287f1a5639bb5da0da65a39fac5bf99f7660d8552cae1534", "0.3.13--py37h92ddc84_1": "sha256:9562a8c0e472922b38d1c7bbe56e6b1cdbe54aa9a5338ca07e9a9c69f41eb39c"}, "docker": "quay.io/biocontainers/pybigwig", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/pybigwig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybigwig", "latest": {"0.3.22--py39h44c22c2_1": "sha256:e0e1d048a89596448ae8e5978c2de3325cae4132be50bae8112bf1be34660203"}, "tags": {"0.3.9--np113py35_0": "sha256:8e51b54cea226b58287f1a5639bb5da0da65a39fac5bf99f7660d8552cae1534", "0.3.13--py37h92ddc84_1": "sha256:9562a8c0e472922b38d1c7bbe56e6b1cdbe54aa9a5338ca07e9a9c69f41eb39c", "0.3.22--py39h44c22c2_1": "sha256:e0e1d048a89596448ae8e5978c2de3325cae4132be50bae8112bf1be34660203"}, "docker": "quay.io/biocontainers/pybigwig", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybigwig.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/pybigwig
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pybigwig:0.3.13--py37h92ddc84_1
+$ shpc install quay.io/biocontainers/pybigwig:0.3.22--py39h44c22c2_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pybigwig/0.3.13--py37h92ddc84_1
-$ module help quay.io/biocontainers/pybigwig/0.3.13--py37h92ddc84_1
+$ module load quay.io/biocontainers/pybigwig/0.3.22--py39h44c22c2_1
+$ module help quay.io/biocontainers/pybigwig/0.3.22--py39h44c22c2_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

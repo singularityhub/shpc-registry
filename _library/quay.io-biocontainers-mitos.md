@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mitos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mitos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mitos/container.yaml"
-updated_at: "2024-03-18 03:21:51.554632"
-latest: "2.1.7--pyhdfd78af_0"
+updated_at: "2024-03-18 23:07:19.956500"
+latest: "2.1.7--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mitos"
 aliases:
  - "analyse.py"
@@ -36,8 +36,9 @@ versions:
  - "2.1.3--pyhdfd78af_0"
  - "2.1.6--pyhdfd78af_1"
  - "2.1.7--pyhdfd78af_0"
+ - "2.1.7--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for mitos"
-config: {"url": "https://biocontainers.pro/tools/mitos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mitos", "latest": {"2.1.7--pyhdfd78af_0": "sha256:2bde03061de290547f6886db226cd947fab73403ff3414647fba483d4b64b497"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:5a17df47ea636c4fd46f2b7cd173e8551446228b4baca21dc20392b1d43503d9", "2.1.3--pyhdfd78af_0": "sha256:3b596a3d0cbb57946e1d0aa886cf9b38e52c422f8fc4e4e6d767e101baeb1483", "2.1.6--pyhdfd78af_1": "sha256:f19404b86e0448e39d2a672f1d89c7f2d2e2fbf4a2c75ebb146e11f92ba233b2", "2.1.7--pyhdfd78af_0": "sha256:2bde03061de290547f6886db226cd947fab73403ff3414647fba483d4b64b497"}, "docker": "quay.io/biocontainers/mitos", "aliases": {"analyse.py": "/usr/local/bin/analyse.py", "gcpp.py": "/usr/local/bin/gcpp.py", "geneorder.py": "/usr/local/bin/geneorder.py", "getfeatures.py": "/usr/local/bin/getfeatures.py", "getinfo.py": "/usr/local/bin/getinfo.py", "plotprot.R": "/usr/local/bin/plotprot.R", "plotrna.R": "/usr/local/bin/plotrna.R", "plotstst.R": "/usr/local/bin/plotstst.R", "refseqsplit.py": "/usr/local/bin/refseqsplit.py", "runmitos.py": "/usr/local/bin/runmitos.py", "subseq.py": "/usr/local/bin/subseq.py", "taxtree.py": "/usr/local/bin/taxtree.py", "update-blastdb.py": "/usr/local/bin/update-blastdb.py", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval", "RNAforester": "/usr/local/bin/RNAforester"}}
+config: {"url": "https://biocontainers.pro/tools/mitos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mitos", "latest": {"2.1.7--pyhdfd78af_1": "sha256:2447475c09bf7637a74f63037d833039ba1c6387ecfdff606e367310a03b1224"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:5a17df47ea636c4fd46f2b7cd173e8551446228b4baca21dc20392b1d43503d9", "2.1.3--pyhdfd78af_0": "sha256:3b596a3d0cbb57946e1d0aa886cf9b38e52c422f8fc4e4e6d767e101baeb1483", "2.1.6--pyhdfd78af_1": "sha256:f19404b86e0448e39d2a672f1d89c7f2d2e2fbf4a2c75ebb146e11f92ba233b2", "2.1.7--pyhdfd78af_0": "sha256:2bde03061de290547f6886db226cd947fab73403ff3414647fba483d4b64b497", "2.1.7--pyhdfd78af_1": "sha256:2447475c09bf7637a74f63037d833039ba1c6387ecfdff606e367310a03b1224"}, "docker": "quay.io/biocontainers/mitos", "aliases": {"analyse.py": "/usr/local/bin/analyse.py", "gcpp.py": "/usr/local/bin/gcpp.py", "geneorder.py": "/usr/local/bin/geneorder.py", "getfeatures.py": "/usr/local/bin/getfeatures.py", "getinfo.py": "/usr/local/bin/getinfo.py", "plotprot.R": "/usr/local/bin/plotprot.R", "plotrna.R": "/usr/local/bin/plotrna.R", "plotstst.R": "/usr/local/bin/plotstst.R", "refseqsplit.py": "/usr/local/bin/refseqsplit.py", "runmitos.py": "/usr/local/bin/runmitos.py", "subseq.py": "/usr/local/bin/subseq.py", "taxtree.py": "/usr/local/bin/taxtree.py", "update-blastdb.py": "/usr/local/bin/update-blastdb.py", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval", "RNAforester": "/usr/local/bin/RNAforester"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mitos.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/mitos
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mitos:2.1.7--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mitos:2.1.7--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mitos/2.1.7--pyhdfd78af_0
-$ module help quay.io/biocontainers/mitos/2.1.7--pyhdfd78af_0
+$ module load quay.io/biocontainers/mitos/2.1.7--pyhdfd78af_1
+$ module help quay.io/biocontainers/mitos/2.1.7--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

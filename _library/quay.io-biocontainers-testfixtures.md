@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/testfixtures"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/testfixtures/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/testfixtures/container.yaml"
-updated_at: "2024-03-18 04:07:16.574926"
+updated_at: "2024-03-18 23:49:38.173610"
 latest: "4.8.0--py35_0"
 container_url: "https://biocontainers.pro/tools/testfixtures"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "4.8.0--py35_0"
+ - "4.8.0--py36_0"
 description: "shpc-registry automated BioContainers addition for testfixtures"
-config: {"url": "https://biocontainers.pro/tools/testfixtures", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for testfixtures", "latest": {"4.8.0--py35_0": "sha256:d1ff3b57055a3c07f35e0ac9739ccc8564ca656e0c81b29a6f027de78fcf192a"}, "tags": {"4.8.0--py35_0": "sha256:d1ff3b57055a3c07f35e0ac9739ccc8564ca656e0c81b29a6f027de78fcf192a"}, "docker": "quay.io/biocontainers/testfixtures", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/testfixtures", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for testfixtures", "latest": {"4.8.0--py35_0": "sha256:d1ff3b57055a3c07f35e0ac9739ccc8564ca656e0c81b29a6f027de78fcf192a"}, "tags": {"4.8.0--py35_0": "sha256:d1ff3b57055a3c07f35e0ac9739ccc8564ca656e0c81b29a6f027de78fcf192a", "4.8.0--py36_0": "sha256:4083460ecb61df3cc4abaa21399f9906a69add4c284887880569e7497eb98f30"}, "docker": "quay.io/biocontainers/testfixtures", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/testfixtures.

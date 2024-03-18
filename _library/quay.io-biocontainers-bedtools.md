@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bedtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bedtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bedtools/container.yaml"
-updated_at: "2024-03-18 03:25:27.055604"
-latest: "2.30.0--h468198e_3"
+updated_at: "2024-03-18 23:10:34.458090"
+latest: "2.31.1--hf5e1c6e_1"
 container_url: "https://biocontainers.pro/tools/bedtools"
 aliases:
  - "bedtools"
@@ -21,8 +21,9 @@ aliases:
  - "clusterBed"
 versions:
  - "2.30.0--h468198e_3"
+ - "2.31.1--hf5e1c6e_1"
 description: "shpc-registry automated BioContainers addition for bedtools"
-config: {"url": "https://biocontainers.pro/tools/bedtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bedtools", "latest": {"2.30.0--h468198e_3": "sha256:7824178c95ca5aefdd0f19a9092f8a2434ee51d830517eeb840e5b08efb4d7f1"}, "tags": {"2.30.0--h468198e_3": "sha256:7824178c95ca5aefdd0f19a9092f8a2434ee51d830517eeb840e5b08efb4d7f1"}, "docker": "quay.io/biocontainers/bedtools", "aliases": {"bedtools": "/usr/local/bin/bedtools", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed"}}
+config: {"url": "https://biocontainers.pro/tools/bedtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bedtools", "latest": {"2.31.1--hf5e1c6e_1": "sha256:c4627fcfa02d43a3ed0235306a187b9eb44281b60bc4e332163d0fda68ba948a"}, "tags": {"2.30.0--h468198e_3": "sha256:7824178c95ca5aefdd0f19a9092f8a2434ee51d830517eeb840e5b08efb4d7f1", "2.31.1--hf5e1c6e_1": "sha256:c4627fcfa02d43a3ed0235306a187b9eb44281b60bc4e332163d0fda68ba948a"}, "docker": "quay.io/biocontainers/bedtools", "aliases": {"bedtools": "/usr/local/bin/bedtools", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bedtools.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bedtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bedtools:2.30.0--h468198e_3
+$ shpc install quay.io/biocontainers/bedtools:2.31.1--hf5e1c6e_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bedtools/2.30.0--h468198e_3
-$ module help quay.io/biocontainers/bedtools/2.30.0--h468198e_3
+$ module load quay.io/biocontainers/bedtools/2.31.1--hf5e1c6e_1
+$ module help quay.io/biocontainers/bedtools/2.31.1--hf5e1c6e_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

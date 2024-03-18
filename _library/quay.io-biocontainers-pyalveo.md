@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyalveo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyalveo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyalveo/container.yaml"
-updated_at: "2024-03-18 03:41:34.844680"
+updated_at: "2024-03-18 23:25:00.529663"
 latest: "1.0.3--py36_1"
 container_url: "https://biocontainers.pro/tools/pyalveo"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "ncurses5-config"
 versions:
  - "1.0.3--py36_1"
+ - "1.0.3--py35_1"
 description: "shpc-registry automated BioContainers addition for pyalveo"
-config: {"url": "https://biocontainers.pro/tools/pyalveo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyalveo", "latest": {"1.0.3--py36_1": "sha256:eea320f41e8f7a87cdbfe309c0764356f17a32b5d7c6b3d60fef6d5a6bb13b7c"}, "tags": {"1.0.3--py36_1": "sha256:eea320f41e8f7a87cdbfe309c0764356f17a32b5d7c6b3d60fef6d5a6bb13b7c"}, "docker": "quay.io/biocontainers/pyalveo", "aliases": {"pyjwt": "/usr/local/bin/pyjwt", "chardetect": "/usr/local/bin/chardetect", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyalveo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyalveo", "latest": {"1.0.3--py36_1": "sha256:eea320f41e8f7a87cdbfe309c0764356f17a32b5d7c6b3d60fef6d5a6bb13b7c"}, "tags": {"1.0.3--py36_1": "sha256:eea320f41e8f7a87cdbfe309c0764356f17a32b5d7c6b3d60fef6d5a6bb13b7c", "1.0.3--py35_1": "sha256:0ae820df23929e1513681757471a9fddd5676a40e9e3e9f77352779ffc6e051c"}, "docker": "quay.io/biocontainers/pyalveo", "aliases": {"pyjwt": "/usr/local/bin/pyjwt", "chardetect": "/usr/local/bin/chardetect", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyalveo.

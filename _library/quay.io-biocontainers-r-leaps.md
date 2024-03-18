@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-leaps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-leaps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-leaps/container.yaml"
-updated_at: "2024-03-18 04:02:59.580473"
+updated_at: "2024-03-18 23:45:30.684036"
 latest: "2.9--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-leaps"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "2.9--r3.2.2_0"
+ - "2.9--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-leaps"
-config: {"url": "https://biocontainers.pro/tools/r-leaps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-leaps", "latest": {"2.9--r3.2.2_0": "sha256:18373292817564ccd6a40a893fe13053c4ddcdab37957fdb2b99cc9b79e95a82"}, "tags": {"2.9--r3.2.2_0": "sha256:18373292817564ccd6a40a893fe13053c4ddcdab37957fdb2b99cc9b79e95a82"}, "docker": "quay.io/biocontainers/r-leaps", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-leaps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-leaps", "latest": {"2.9--r3.2.2_0": "sha256:18373292817564ccd6a40a893fe13053c4ddcdab37957fdb2b99cc9b79e95a82"}, "tags": {"2.9--r3.2.2_0": "sha256:18373292817564ccd6a40a893fe13053c4ddcdab37957fdb2b99cc9b79e95a82", "2.9--r3.3.2_0": "sha256:2f9a7533fcdb92e51ab5eac7b48f0434030b90e6671e4ae0d14d4284759957a5"}, "docker": "quay.io/biocontainers/r-leaps", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-leaps.

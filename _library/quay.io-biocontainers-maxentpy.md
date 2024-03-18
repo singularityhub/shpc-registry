@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/maxentpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maxentpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maxentpy/container.yaml"
-updated_at: "2024-03-18 03:26:39.733456"
+updated_at: "2024-03-18 23:11:38.942870"
 latest: "0.02--py39hbf8eff0_1"
 container_url: "https://biocontainers.pro/tools/maxentpy"
 aliases:
@@ -15,8 +15,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.02--py39hbf8eff0_1"
+ - "0.02--py310h1425a21_1"
 description: "shpc-registry automated BioContainers addition for maxentpy"
-config: {"url": "https://biocontainers.pro/tools/maxentpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for maxentpy", "latest": {"0.02--py39hbf8eff0_1": "sha256:8c135f159b745ca77e500a7b2c766d969d170169186f3c50ef57ddb751588b0d"}, "tags": {"0.02--py39hbf8eff0_1": "sha256:8c135f159b745ca77e500a7b2c766d969d170169186f3c50ef57ddb751588b0d"}, "docker": "quay.io/biocontainers/maxentpy", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/maxentpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for maxentpy", "latest": {"0.02--py39hbf8eff0_1": "sha256:8c135f159b745ca77e500a7b2c766d969d170169186f3c50ef57ddb751588b0d"}, "tags": {"0.02--py39hbf8eff0_1": "sha256:8c135f159b745ca77e500a7b2c766d969d170169186f3c50ef57ddb751588b0d", "0.02--py310h1425a21_1": "sha256:0c80ece58df4b716333ecda4a2fee790760e0efef7c01b114d733940419825db"}, "docker": "quay.io/biocontainers/maxentpy", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/maxentpy.

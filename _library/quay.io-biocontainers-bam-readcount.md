@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bam-readcount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bam-readcount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bam-readcount/container.yaml"
-updated_at: "2024-03-18 03:48:59.908476"
+updated_at: "2024-03-18 23:32:03.393263"
 latest: "0.8--py36pl526h94a8ba4_4"
 container_url: "https://biocontainers.pro/tools/bam-readcount"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "podselect"
 versions:
  - "0.8--py36pl526h94a8ba4_4"
+ - "0.8--py27pl526h94a8ba4_4"
 description: "shpc-registry automated BioContainers addition for bam-readcount"
-config: {"url": "https://biocontainers.pro/tools/bam-readcount", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bam-readcount", "latest": {"0.8--py36pl526h94a8ba4_4": "sha256:c83b579f9415ca84a6572aa79016891d181f0d6ea95c24664a9ce62a00a05bf8"}, "tags": {"0.8--py36pl526h94a8ba4_4": "sha256:c83b579f9415ca84a6572aa79016891d181f0d6ea95c24664a9ce62a00a05bf8"}, "docker": "quay.io/biocontainers/bam-readcount", "aliases": {"bam-readcount": "/usr/local/bin/bam-readcount", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/bam-readcount", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bam-readcount", "latest": {"0.8--py36pl526h94a8ba4_4": "sha256:c83b579f9415ca84a6572aa79016891d181f0d6ea95c24664a9ce62a00a05bf8"}, "tags": {"0.8--py36pl526h94a8ba4_4": "sha256:c83b579f9415ca84a6572aa79016891d181f0d6ea95c24664a9ce62a00a05bf8", "0.8--py27pl526h94a8ba4_4": "sha256:105fadd93c51b18302cf8609f055b019cc01b28139ad569ccb2fef7df2b90735"}, "docker": "quay.io/biocontainers/bam-readcount", "aliases": {"bam-readcount": "/usr/local/bin/bam-readcount", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bam-readcount.

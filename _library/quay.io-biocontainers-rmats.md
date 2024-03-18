@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/rmats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rmats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rmats/container.yaml"
-updated_at: "2024-03-18 03:39:15.732365"
-latest: "4.1.2--py27ha9cf2de_4"
+updated_at: "2024-03-18 23:22:50.688379"
+latest: "4.2.0--py310h2385082_0"
 container_url: "https://biocontainers.pro/tools/rmats"
 
 versions:
  - "4.1.2--py27ha9cf2de_4"
+ - "4.2.0--py310h2385082_0"
+ - "4.1.2--py310h2385082_5"
 description: "shpc-registry automated BioContainers addition for rmats"
-config: {"url": "https://biocontainers.pro/tools/rmats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rmats", "latest": {"4.1.2--py27ha9cf2de_4": "sha256:fa9c99eee212bbb11275d6c19cb9a77667dcec12b70e46f39eef488b80007b41"}, "tags": {"4.1.2--py27ha9cf2de_4": "sha256:fa9c99eee212bbb11275d6c19cb9a77667dcec12b70e46f39eef488b80007b41"}, "docker": "quay.io/biocontainers/rmats"}
+config: {"url": "https://biocontainers.pro/tools/rmats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rmats", "latest": {"4.2.0--py310h2385082_0": "sha256:470aa164ed6ecc3715bf78ee9700b3e5659607faf99917a78a9a5def252a06ef"}, "tags": {"4.1.2--py27ha9cf2de_4": "sha256:fa9c99eee212bbb11275d6c19cb9a77667dcec12b70e46f39eef488b80007b41", "4.2.0--py310h2385082_0": "sha256:470aa164ed6ecc3715bf78ee9700b3e5659607faf99917a78a9a5def252a06ef", "4.1.2--py310h2385082_5": "sha256:ca1346fb4d436c9fb65f2c4bf64659422138c4acfaccc062142453367f49a767"}, "docker": "quay.io/biocontainers/rmats"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rmats.
@@ -26,7 +28,7 @@ $ shpc install quay.io/biocontainers/rmats
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rmats:4.1.2--py27ha9cf2de_4
+$ shpc install quay.io/biocontainers/rmats:4.2.0--py310h2385082_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rmats/4.1.2--py27ha9cf2de_4
-$ module help quay.io/biocontainers/rmats/4.1.2--py27ha9cf2de_4
+$ module load quay.io/biocontainers/rmats/4.2.0--py310h2385082_0
+$ module help quay.io/biocontainers/rmats/4.2.0--py310h2385082_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pscl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pscl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pscl/container.yaml"
-updated_at: "2024-03-18 03:32:31.561766"
+updated_at: "2024-03-18 23:16:50.939756"
 latest: "1.4.9--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-pscl"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.4.9--r3.3.1_0"
+ - "1.4.9--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-pscl"
-config: {"url": "https://biocontainers.pro/tools/r-pscl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pscl", "latest": {"1.4.9--r3.3.1_0": "sha256:b12dd2df7999ad700c7d42d1d031224b81c64972f515dafc63b57f7b71b3a2ba"}, "tags": {"1.4.9--r3.3.1_0": "sha256:b12dd2df7999ad700c7d42d1d031224b81c64972f515dafc63b57f7b71b3a2ba"}, "docker": "quay.io/biocontainers/r-pscl", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-pscl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pscl", "latest": {"1.4.9--r3.3.1_0": "sha256:b12dd2df7999ad700c7d42d1d031224b81c64972f515dafc63b57f7b71b3a2ba"}, "tags": {"1.4.9--r3.3.1_0": "sha256:b12dd2df7999ad700c7d42d1d031224b81c64972f515dafc63b57f7b71b3a2ba", "1.4.9--r3.3.2_0": "sha256:48b1ff30e6b3e9f50106930a310ee431b88f2c2ce1a608a4924fa8e6a4ebcdd5"}, "docker": "quay.io/biocontainers/r-pscl", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pscl.

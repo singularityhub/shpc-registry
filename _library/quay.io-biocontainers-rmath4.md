@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rmath4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rmath4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rmath4/container.yaml"
-updated_at: "2024-03-18 03:28:02.995032"
+updated_at: "2024-03-18 23:12:54.220972"
 latest: "4.3.1--py310h4b81fae_0"
 container_url: "https://biocontainers.pro/tools/rmath4"
 aliases:
@@ -15,8 +15,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "4.3.1--py310h4b81fae_0"
+ - "4.3.1--py38he5da3d1_0"
 description: "singularity registry hpc automated addition for rmath4"
-config: {"url": "https://biocontainers.pro/tools/rmath4", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rmath4", "latest": {"4.3.1--py310h4b81fae_0": "sha256:eda8a210376db9c0a524a10fa2e1df714d817520c9abe4ff5d155e994d9e3bf6"}, "tags": {"4.3.1--py310h4b81fae_0": "sha256:eda8a210376db9c0a524a10fa2e1df714d817520c9abe4ff5d155e994d9e3bf6"}, "docker": "quay.io/biocontainers/rmath4", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/rmath4", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rmath4", "latest": {"4.3.1--py310h4b81fae_0": "sha256:eda8a210376db9c0a524a10fa2e1df714d817520c9abe4ff5d155e994d9e3bf6"}, "tags": {"4.3.1--py310h4b81fae_0": "sha256:eda8a210376db9c0a524a10fa2e1df714d817520c9abe4ff5d155e994d9e3bf6", "4.3.1--py38he5da3d1_0": "sha256:5e0cd12b035ff8b6797e0db1ac0f77e2cc1aa27081b64bc0a914b0e04956afb3"}, "docker": "quay.io/biocontainers/rmath4", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rmath4.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mikado"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mikado/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mikado/container.yaml"
-updated_at: "2024-03-18 03:35:15.530628"
-latest: "2.2.4--py39h70b41aa_0"
+updated_at: "2024-03-18 23:19:14.332039"
+latest: "2.3.4--py310ha14a713_0"
 container_url: "https://biocontainers.pro/tools/mikado"
 aliases:
  - "add_transcript_feature_to_gtf.py"
@@ -44,8 +44,10 @@ aliases:
  - "fetch_file"
 versions:
  - "2.2.4--py39h70b41aa_0"
+ - "2.3.4--py310ha14a713_0"
+ - "2.2.5--py39h70b41aa_0"
 description: "shpc-registry automated BioContainers addition for mikado"
-config: {"url": "https://biocontainers.pro/tools/mikado", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mikado", "latest": {"2.2.4--py39h70b41aa_0": "sha256:0a1fa4a62ed41707c54c3c4a31b8a4bfc15f18f5d1f1b06b69f9bc7a07de38ea"}, "tags": {"2.2.4--py39h70b41aa_0": "sha256:0a1fa4a62ed41707c54c3c4a31b8a4bfc15f18f5d1f1b06b69f9bc7a07de38ea"}, "docker": "quay.io/biocontainers/mikado", "aliases": {"add_transcript_feature_to_gtf.py": "/usr/local/bin/add_transcript_feature_to_gtf.py", "align_collect.py": "/usr/local/bin/align_collect.py", "asm_collect.py": "/usr/local/bin/asm_collect.py", "bam2gtf.py": "/usr/local/bin/bam2gtf.py", "black": "/usr/local/bin/black", "black-primer": "/usr/local/bin/black-primer", "blackd": "/usr/local/bin/blackd", "calculate_distances.py": "/usr/local/bin/calculate_distances.py", "class_run.py": "/usr/local/bin/class_run.py", "convert_cdna_match_gff3.py": "/usr/local/bin/convert_cdna_match_gff3.py", "daijin": "/usr/local/bin/daijin", "extract_promoter_regions.py": "/usr/local/bin/extract_promoter_regions.py", "getFastaFromIds.py": "/usr/local/bin/getFastaFromIds.py", "gffjunc_to_bed12.py": "/usr/local/bin/gffjunc_to_bed12.py", "grep.py": "/usr/local/bin/grep.py", "hypothesis": "/usr/local/bin/hypothesis", "merge_junction_bed12.py": "/usr/local/bin/merge_junction_bed12.py", "mikado": "/usr/local/bin/mikado", "remove_from_embl.py": "/usr/local/bin/remove_from_embl.py", "remove_utrs.py": "/usr/local/bin/remove_utrs.py", "sanitize_blast_db.py": "/usr/local/bin/sanitize_blast_db.py", "split_fasta.py": "/usr/local/bin/split_fasta.py", "tease_maker_apart.py": "/usr/local/bin/tease_maker_apart.py", "trim_long_introns.py": "/usr/local/bin/trim_long_introns.py", "stone": "/usr/local/bin/stone", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file"}}
+config: {"url": "https://biocontainers.pro/tools/mikado", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mikado", "latest": {"2.3.4--py310ha14a713_0": "sha256:eb6238107c78079f752d8fcf9c41472eef3953660caecb46d5dd601c80ef4213"}, "tags": {"2.2.4--py39h70b41aa_0": "sha256:0a1fa4a62ed41707c54c3c4a31b8a4bfc15f18f5d1f1b06b69f9bc7a07de38ea", "2.3.4--py310ha14a713_0": "sha256:eb6238107c78079f752d8fcf9c41472eef3953660caecb46d5dd601c80ef4213", "2.2.5--py39h70b41aa_0": "sha256:a495f251c4f068b2a6d91e8615e763e4443fe15447a0da25c442c05003d12f76"}, "docker": "quay.io/biocontainers/mikado", "aliases": {"add_transcript_feature_to_gtf.py": "/usr/local/bin/add_transcript_feature_to_gtf.py", "align_collect.py": "/usr/local/bin/align_collect.py", "asm_collect.py": "/usr/local/bin/asm_collect.py", "bam2gtf.py": "/usr/local/bin/bam2gtf.py", "black": "/usr/local/bin/black", "black-primer": "/usr/local/bin/black-primer", "blackd": "/usr/local/bin/blackd", "calculate_distances.py": "/usr/local/bin/calculate_distances.py", "class_run.py": "/usr/local/bin/class_run.py", "convert_cdna_match_gff3.py": "/usr/local/bin/convert_cdna_match_gff3.py", "daijin": "/usr/local/bin/daijin", "extract_promoter_regions.py": "/usr/local/bin/extract_promoter_regions.py", "getFastaFromIds.py": "/usr/local/bin/getFastaFromIds.py", "gffjunc_to_bed12.py": "/usr/local/bin/gffjunc_to_bed12.py", "grep.py": "/usr/local/bin/grep.py", "hypothesis": "/usr/local/bin/hypothesis", "merge_junction_bed12.py": "/usr/local/bin/merge_junction_bed12.py", "mikado": "/usr/local/bin/mikado", "remove_from_embl.py": "/usr/local/bin/remove_from_embl.py", "remove_utrs.py": "/usr/local/bin/remove_utrs.py", "sanitize_blast_db.py": "/usr/local/bin/sanitize_blast_db.py", "split_fasta.py": "/usr/local/bin/split_fasta.py", "tease_maker_apart.py": "/usr/local/bin/tease_maker_apart.py", "trim_long_introns.py": "/usr/local/bin/trim_long_introns.py", "stone": "/usr/local/bin/stone", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mikado.
@@ -60,7 +62,7 @@ $ shpc install quay.io/biocontainers/mikado
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mikado:2.2.4--py39h70b41aa_0
+$ shpc install quay.io/biocontainers/mikado:2.3.4--py310ha14a713_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mikado/2.2.4--py39h70b41aa_0
-$ module help quay.io/biocontainers/mikado/2.2.4--py39h70b41aa_0
+$ module load quay.io/biocontainers/mikado/2.3.4--py310ha14a713_0
+$ module help quay.io/biocontainers/mikado/2.3.4--py310ha14a713_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

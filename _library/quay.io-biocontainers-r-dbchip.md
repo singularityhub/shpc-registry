@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dbchip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dbchip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dbchip/container.yaml"
-updated_at: "2024-03-18 03:56:22.157396"
+updated_at: "2024-03-18 23:39:06.469967"
 latest: "1.1.6--r3.2.2_1"
 container_url: "https://biocontainers.pro/tools/r-dbchip"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.1.6--r3.2.2_1"
+ - "1.1.6--r3.4.1_1"
 description: "shpc-registry automated BioContainers addition for r-dbchip"
-config: {"url": "https://biocontainers.pro/tools/r-dbchip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dbchip", "latest": {"1.1.6--r3.2.2_1": "sha256:9ed68b76f9c74dbcd6a32f5e88ee9383ce1efb5a83e2c8bc029995beabc5101f"}, "tags": {"1.1.6--r3.2.2_1": "sha256:9ed68b76f9c74dbcd6a32f5e88ee9383ce1efb5a83e2c8bc029995beabc5101f"}, "docker": "quay.io/biocontainers/r-dbchip", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-dbchip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dbchip", "latest": {"1.1.6--r3.2.2_1": "sha256:9ed68b76f9c74dbcd6a32f5e88ee9383ce1efb5a83e2c8bc029995beabc5101f"}, "tags": {"1.1.6--r3.2.2_1": "sha256:9ed68b76f9c74dbcd6a32f5e88ee9383ce1efb5a83e2c8bc029995beabc5101f", "1.1.6--r3.4.1_1": "sha256:7275bfd133cbb93153daae41454e634e65e61b1d486bd17fc2cc191263544f27"}, "docker": "quay.io/biocontainers/r-dbchip", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dbchip.

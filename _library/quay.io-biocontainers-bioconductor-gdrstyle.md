@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gdrstyle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gdrstyle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gdrstyle/container.yaml"
-updated_at: "2024-03-18 03:53:34.354427"
+updated_at: "2024-03-18 23:36:24.315162"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gdrstyle"
 aliases:

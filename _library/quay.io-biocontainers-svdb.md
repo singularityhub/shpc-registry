@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/svdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svdb/container.yaml"
-updated_at: "2024-03-18 03:52:58.175901"
-latest: "2.5.2--py36h40b2fa4_0"
+updated_at: "2024-03-18 23:35:49.611124"
+latest: "2.8.2--py38h24c8ff8_1"
 container_url: "https://biocontainers.pro/tools/svdb"
 aliases:
  - "svdb"
@@ -21,8 +21,12 @@ aliases:
  - "pyvenv"
 versions:
  - "2.5.2--py36h40b2fa4_0"
+ - "2.8.2--py38h24c8ff8_1"
+ - "2.7.1--py27h4329609_0"
+ - "2.6.4--py37h37892f8_1"
+ - "2.5.2--py37h37892f8_1"
 description: "shpc-registry automated BioContainers addition for svdb"
-config: {"url": "https://biocontainers.pro/tools/svdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svdb", "latest": {"2.5.2--py36h40b2fa4_0": "sha256:f83996eca213345a591c5c48018fa1b4aca0511e29d92b2d8976ba374de7bcbb"}, "tags": {"2.5.2--py36h40b2fa4_0": "sha256:f83996eca213345a591c5c48018fa1b4aca0511e29d92b2d8976ba374de7bcbb"}, "docker": "quay.io/biocontainers/svdb", "aliases": {"svdb": "/usr/local/bin/svdb", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/svdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svdb", "latest": {"2.8.2--py38h24c8ff8_1": "sha256:ecb79c3ba7704fbd44623d83691acc72de6ef4c3bde970d594cbbf0652c80bdf"}, "tags": {"2.5.2--py36h40b2fa4_0": "sha256:f83996eca213345a591c5c48018fa1b4aca0511e29d92b2d8976ba374de7bcbb", "2.8.2--py38h24c8ff8_1": "sha256:ecb79c3ba7704fbd44623d83691acc72de6ef4c3bde970d594cbbf0652c80bdf", "2.7.1--py27h4329609_0": "sha256:505d2de8f3452094e645e56a6c0c2e0b14761b8015f4f849e4e4acd5cdb3109e", "2.6.4--py37h37892f8_1": "sha256:418f0626e872c35e493dfcfac76e16dad8474d1944392ae46996caeec8dffe85", "2.5.2--py37h37892f8_1": "sha256:1e54e6a1c84c891a5b6da399c57e1361e1bb84503767ae937d0a842ca003659a"}, "docker": "quay.io/biocontainers/svdb", "aliases": {"svdb": "/usr/local/bin/svdb", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svdb.
@@ -37,7 +41,7 @@ $ shpc install quay.io/biocontainers/svdb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/svdb:2.5.2--py36h40b2fa4_0
+$ shpc install quay.io/biocontainers/svdb:2.8.2--py38h24c8ff8_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/svdb/2.5.2--py36h40b2fa4_0
-$ module help quay.io/biocontainers/svdb/2.5.2--py36h40b2fa4_0
+$ module load quay.io/biocontainers/svdb/2.8.2--py38h24c8ff8_1
+$ module help quay.io/biocontainers/svdb/2.8.2--py38h24c8ff8_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

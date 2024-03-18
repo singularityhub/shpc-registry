@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smudgeplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smudgeplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smudgeplot/container.yaml"
-updated_at: "2024-03-18 03:39:28.341894"
+updated_at: "2024-03-18 23:23:02.319337"
 latest: "0.2.5--py38r42he5da3d1_3"
 container_url: "https://biocontainers.pro/tools/smudgeplot"
 aliases:
@@ -20,8 +20,9 @@ versions:
  - "0.2.5--py38r41hbff2b2d_0"
  - "0.2.5--py38r42hbff2b2d_1"
  - "0.2.5--py38r42he5da3d1_3"
+ - "0.2.5--py310r42h4b81fae_3"
 description: "shpc-registry automated BioContainers addition for smudgeplot"
-config: {"url": "https://biocontainers.pro/tools/smudgeplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smudgeplot", "latest": {"0.2.5--py38r42he5da3d1_3": "sha256:3713fc0d0491334c6e65598dde03b78a1ed065bcda64bffdf8338f0b6c66ab27"}, "tags": {"0.2.5--py38r41hbff2b2d_0": "sha256:9e47c3550abc185291a5466bc5137d4f5f711bb258f3363fe6fe6129ba2c8b62", "0.2.5--py38r42hbff2b2d_1": "sha256:b7b1f193b1ed0ab39de60086f6e892cfa415253d233576fef27db493cdf639ba", "0.2.5--py38r42he5da3d1_3": "sha256:3713fc0d0491334c6e65598dde03b78a1ed065bcda64bffdf8338f0b6c66ab27"}, "docker": "quay.io/biocontainers/smudgeplot", "aliases": {"smudgeplot.py": "/usr/local/bin/smudgeplot.py", "smudgeplot_plot.R": "/usr/local/bin/smudgeplot_plot.R", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/smudgeplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smudgeplot", "latest": {"0.2.5--py38r42he5da3d1_3": "sha256:3713fc0d0491334c6e65598dde03b78a1ed065bcda64bffdf8338f0b6c66ab27"}, "tags": {"0.2.5--py38r41hbff2b2d_0": "sha256:9e47c3550abc185291a5466bc5137d4f5f711bb258f3363fe6fe6129ba2c8b62", "0.2.5--py38r42hbff2b2d_1": "sha256:b7b1f193b1ed0ab39de60086f6e892cfa415253d233576fef27db493cdf639ba", "0.2.5--py38r42he5da3d1_3": "sha256:3713fc0d0491334c6e65598dde03b78a1ed065bcda64bffdf8338f0b6c66ab27", "0.2.5--py310r42h4b81fae_3": "sha256:8a19c82f8ab80418c8caaec1bf25ded4ae7927e6c7a3c2863f1f87347abcffd3"}, "docker": "quay.io/biocontainers/smudgeplot", "aliases": {"smudgeplot.py": "/usr/local/bin/smudgeplot.py", "smudgeplot_plot.R": "/usr/local/bin/smudgeplot_plot.R", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smudgeplot.

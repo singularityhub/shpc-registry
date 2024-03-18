@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gap2seq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gap2seq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gap2seq/container.yaml"
-updated_at: "2024-03-18 03:27:27.147701"
+updated_at: "2024-03-18 23:12:21.790750"
 latest: "3.1--py39h6c8c9e3_3"
 container_url: "https://biocontainers.pro/tools/gap2seq"
 aliases:
@@ -23,8 +23,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "3.1--py39h6c8c9e3_3"
+ - "3.1--py310h7bb695f_3"
 description: "shpc-registry automated BioContainers addition for gap2seq"
-config: {"url": "https://biocontainers.pro/tools/gap2seq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gap2seq", "latest": {"3.1--py39h6c8c9e3_3": "sha256:95662347fd6aa7f8454b67a2385c37039fe7863b676c1d0eee351db6dbbdd406"}, "tags": {"3.1--py39h6c8c9e3_3": "sha256:95662347fd6aa7f8454b67a2385c37039fe7863b676c1d0eee351db6dbbdd406"}, "docker": "quay.io/biocontainers/gap2seq", "aliases": {"Gap2Seq": "/usr/local/bin/Gap2Seq", "Gap2Seq-core": "/usr/local/bin/Gap2Seq-core", "GapCutter": "/usr/local/bin/GapCutter", "GapMerger": "/usr/local/bin/GapMerger", "ReadFilter": "/usr/local/bin/ReadFilter", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/gap2seq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gap2seq", "latest": {"3.1--py39h6c8c9e3_3": "sha256:95662347fd6aa7f8454b67a2385c37039fe7863b676c1d0eee351db6dbbdd406"}, "tags": {"3.1--py39h6c8c9e3_3": "sha256:95662347fd6aa7f8454b67a2385c37039fe7863b676c1d0eee351db6dbbdd406", "3.1--py310h7bb695f_3": "sha256:9a4108cb19e5e6b9d12d54a98c7deb9579cb90017c7df6f2f28e60311001b36f"}, "docker": "quay.io/biocontainers/gap2seq", "aliases": {"Gap2Seq": "/usr/local/bin/Gap2Seq", "Gap2Seq-core": "/usr/local/bin/Gap2Seq-core", "GapCutter": "/usr/local/bin/GapCutter", "GapMerger": "/usr/local/bin/GapMerger", "ReadFilter": "/usr/local/bin/ReadFilter", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gap2seq.

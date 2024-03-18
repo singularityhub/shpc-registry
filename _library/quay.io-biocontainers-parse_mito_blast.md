@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parse_mito_blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parse_mito_blast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parse_mito_blast/container.yaml"
-updated_at: "2024-03-18 03:31:51.893802"
+updated_at: "2024-03-18 23:16:15.531604"
 latest: "1.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/parse_mito_blast"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.2--hdfd78af_0"
+ - "1.0.2"
 description: "singularity registry hpc automated addition for parse_mito_blast"
-config: {"url": "https://biocontainers.pro/tools/parse_mito_blast", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for parse_mito_blast", "latest": {"1.0.2--hdfd78af_0": "sha256:2346679dea1481c872f5a4274f78ebb5e9a5e22d6aae5e6c0e2b3cf8d336cc27"}, "tags": {"1.0.2--hdfd78af_0": "sha256:2346679dea1481c872f5a4274f78ebb5e9a5e22d6aae5e6c0e2b3cf8d336cc27"}, "docker": "quay.io/biocontainers/parse_mito_blast", "aliases": {"parse_mito_blast.py": "/usr/local/bin/parse_mito_blast.py", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/parse_mito_blast", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for parse_mito_blast", "latest": {"1.0.2--hdfd78af_0": "sha256:2346679dea1481c872f5a4274f78ebb5e9a5e22d6aae5e6c0e2b3cf8d336cc27"}, "tags": {"1.0.2--hdfd78af_0": "sha256:2346679dea1481c872f5a4274f78ebb5e9a5e22d6aae5e6c0e2b3cf8d336cc27", "1.0.2": "sha256:ba2ab6ac6dec51f2e00534b7b1f1ebbac78c000fcf0eb7c3f7ef4bf69543ca5a"}, "docker": "quay.io/biocontainers/parse_mito_blast", "aliases": {"parse_mito_blast.py": "/usr/local/bin/parse_mito_blast.py", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/parse_mito_blast.

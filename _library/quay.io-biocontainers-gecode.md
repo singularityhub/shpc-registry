@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gecode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gecode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gecode/container.yaml"
-updated_at: "2024-03-18 03:46:48.019788"
+updated_at: "2024-03-18 23:29:57.165270"
 latest: "6.2.0--h53e199c_4"
 container_url: "https://biocontainers.pro/tools/gecode"
 aliases:

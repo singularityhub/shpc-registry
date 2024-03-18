@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-ipo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ipo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ipo/container.yaml"
-updated_at: "2024-03-18 04:04:43.118458"
+updated_at: "2024-03-18 23:47:09.461946"
 latest: "1.7.5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ipo"
 
 versions:
  - "1.7.5--r3.3.1_0"
+ - "1.7.5--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-ipo"
-config: {"url": "https://biocontainers.pro/tools/r-ipo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ipo", "latest": {"1.7.5--r3.3.1_0": "sha256:544c8ac926b4cc1e41186920826df30321f70ec22c342f9b276a46f7892afbd1"}, "tags": {"1.7.5--r3.3.1_0": "sha256:544c8ac926b4cc1e41186920826df30321f70ec22c342f9b276a46f7892afbd1"}, "docker": "quay.io/biocontainers/r-ipo"}
+config: {"url": "https://biocontainers.pro/tools/r-ipo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ipo", "latest": {"1.7.5--r3.3.1_0": "sha256:544c8ac926b4cc1e41186920826df30321f70ec22c342f9b276a46f7892afbd1"}, "tags": {"1.7.5--r3.3.1_0": "sha256:544c8ac926b4cc1e41186920826df30321f70ec22c342f9b276a46f7892afbd1", "1.7.5--r3.3.2_0": "sha256:056411baaf626dfe0e56df46a2d881c891686c36fe3003006bf3db721d906bc5"}, "docker": "quay.io/biocontainers/r-ipo"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ipo.

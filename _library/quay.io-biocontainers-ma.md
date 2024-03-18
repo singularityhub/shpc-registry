@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ma/container.yaml"
-updated_at: "2024-03-18 03:41:01.096494"
+updated_at: "2024-03-18 23:24:29.215331"
 latest: "2.0.2--py39h6935b12_0"
 container_url: "https://biocontainers.pro/tools/ma"
 aliases:
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "2.0.1--py39h6935b12_0"
  - "2.0.2--py39h6935b12_0"
+ - "2.0.2--py37h595c7a6_0"
 description: "shpc-registry automated BioContainers addition for ma"
-config: {"url": "https://biocontainers.pro/tools/ma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ma", "latest": {"2.0.2--py39h6935b12_0": "sha256:f9cfd5ce138e9d17f1240b5829b910f3bc589a1bd05c629dd11da8bb9e246e2e"}, "tags": {"2.0.1--py39h6935b12_0": "sha256:358d1489fd28aff879ba1a502d28b03db9c16aee7aa028b1bdcff68636b3213d", "2.0.2--py39h6935b12_0": "sha256:f9cfd5ce138e9d17f1240b5829b910f3bc589a1bd05c629dd11da8bb9e246e2e"}, "docker": "quay.io/biocontainers/ma", "aliases": {"lzma": "/usr/local/bin/lzma", "lzmadec": "/usr/local/bin/lzmadec", "lzmainfo": "/usr/local/bin/lzmainfo", "maCMD": "/usr/local/bin/maCMD", "unlzma": "/usr/local/bin/unlzma", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/ma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ma", "latest": {"2.0.2--py39h6935b12_0": "sha256:f9cfd5ce138e9d17f1240b5829b910f3bc589a1bd05c629dd11da8bb9e246e2e"}, "tags": {"2.0.1--py39h6935b12_0": "sha256:358d1489fd28aff879ba1a502d28b03db9c16aee7aa028b1bdcff68636b3213d", "2.0.2--py39h6935b12_0": "sha256:f9cfd5ce138e9d17f1240b5829b910f3bc589a1bd05c629dd11da8bb9e246e2e", "2.0.2--py37h595c7a6_0": "sha256:b641b9be9180bb9151430bf14970437273f0153cacc8ea431e3b1a5df412ad71"}, "docker": "quay.io/biocontainers/ma", "aliases": {"lzma": "/usr/local/bin/lzma", "lzmadec": "/usr/local/bin/lzmadec", "lzmainfo": "/usr/local/bin/lzmainfo", "maCMD": "/usr/local/bin/maCMD", "unlzma": "/usr/local/bin/unlzma", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ma.

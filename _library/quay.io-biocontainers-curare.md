@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/curare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/curare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/curare/container.yaml"
-updated_at: "2024-03-18 04:01:22.272717"
-latest: "0.5.1--pyhdfd78af_0"
+updated_at: "2024-03-18 23:43:57.129817"
+latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/curare"
 aliases:
  - "bsdcat"
@@ -48,8 +48,9 @@ aliases:
 versions:
  - "0.4.5--pypyhdfd78af_0"
  - "0.5.1--pyhdfd78af_0"
+ - "0.6.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for curare"
-config: {"url": "https://biocontainers.pro/tools/curare", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for curare", "latest": {"0.5.1--pyhdfd78af_0": "sha256:68bd35171cfe3c9775bd94999fcbf9987f4bf23d89a89f5741254302a36509e6"}, "tags": {"0.4.5--pypyhdfd78af_0": "sha256:94d4f2afc27bff1d3c7c0a3312195734cd8c82e71c348f08dcd40bf12ba54b83", "0.5.1--pyhdfd78af_0": "sha256:68bd35171cfe3c9775bd94999fcbf9987f4bf23d89a89f5741254302a36509e6"}, "docker": "quay.io/biocontainers/curare", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "curare": "/usr/local/bin/curare", "curare_wizard": "/usr/local/bin/curare_wizard", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "stone": "/usr/local/bin/stone", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion"}}
+config: {"url": "https://biocontainers.pro/tools/curare", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for curare", "latest": {"0.6.0--pyhdfd78af_0": "sha256:c3eabb3d5cb301ca92c01b59fa78d28dc05600df69e32997bdd2e3211e3c3b50"}, "tags": {"0.4.5--pypyhdfd78af_0": "sha256:94d4f2afc27bff1d3c7c0a3312195734cd8c82e71c348f08dcd40bf12ba54b83", "0.5.1--pyhdfd78af_0": "sha256:68bd35171cfe3c9775bd94999fcbf9987f4bf23d89a89f5741254302a36509e6", "0.6.0--pyhdfd78af_0": "sha256:c3eabb3d5cb301ca92c01b59fa78d28dc05600df69e32997bdd2e3211e3c3b50"}, "docker": "quay.io/biocontainers/curare", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "curare": "/usr/local/bin/curare", "curare_wizard": "/usr/local/bin/curare_wizard", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "stone": "/usr/local/bin/stone", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/curare.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/curare
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/curare:0.5.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/curare:0.6.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/curare/0.5.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/curare/0.5.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/curare/0.6.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/curare/0.6.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

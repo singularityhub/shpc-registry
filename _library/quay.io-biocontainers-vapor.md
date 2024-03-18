@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vapor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vapor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vapor/container.yaml"
-updated_at: "2024-03-18 03:57:30.442717"
+updated_at: "2024-03-18 23:40:12.621401"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vapor"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.0.2--pyhdfd78af_0"
+ - "1.0.2"
 description: "shpc-registry automated BioContainers addition for vapor"
-config: {"url": "https://biocontainers.pro/tools/vapor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vapor", "latest": {"1.0.2--pyhdfd78af_0": "sha256:70a25e3e8bd5727013e15f01ff538e3401166fa8b1099d0d841c2253eaff216a"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:70a25e3e8bd5727013e15f01ff538e3401166fa8b1099d0d841c2253eaff216a"}, "docker": "quay.io/biocontainers/vapor", "aliases": {"vapor.py": "/usr/local/bin/vapor.py", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/vapor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vapor", "latest": {"1.0.2--pyhdfd78af_0": "sha256:70a25e3e8bd5727013e15f01ff538e3401166fa8b1099d0d841c2253eaff216a"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:70a25e3e8bd5727013e15f01ff538e3401166fa8b1099d0d841c2253eaff216a", "1.0.2": "sha256:5cb6db8005b3730592c0067bb4e68e6b17272f23dbd63bc5a849416ca01f72af"}, "docker": "quay.io/biocontainers/vapor", "aliases": {"vapor.py": "/usr/local/bin/vapor.py", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vapor.

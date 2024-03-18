@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-docopt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-docopt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-docopt/container.yaml"
-updated_at: "2024-03-18 03:29:59.024166"
+updated_at: "2024-03-18 23:14:38.010777"
 latest: "0.4.3.3--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-docopt"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.4.3.3--r3.2.2_0"
+ - "0.4.3.3--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-docopt"
-config: {"url": "https://biocontainers.pro/tools/r-docopt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-docopt", "latest": {"0.4.3.3--r3.2.2_0": "sha256:a42936284ddc9cc37ff4c8971c780f98d04a19a729caf0094dab8cb2f7ce3ffc"}, "tags": {"0.4.3.3--r3.2.2_0": "sha256:a42936284ddc9cc37ff4c8971c780f98d04a19a729caf0094dab8cb2f7ce3ffc"}, "docker": "quay.io/biocontainers/r-docopt", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-docopt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-docopt", "latest": {"0.4.3.3--r3.2.2_0": "sha256:a42936284ddc9cc37ff4c8971c780f98d04a19a729caf0094dab8cb2f7ce3ffc"}, "tags": {"0.4.3.3--r3.2.2_0": "sha256:a42936284ddc9cc37ff4c8971c780f98d04a19a729caf0094dab8cb2f7ce3ffc", "0.4.3.3--r3.3.2_0": "sha256:630724a6f7113d6c1aa4ac1cb715cc59a9bd03e1d6592d49097903ba843f68b1"}, "docker": "quay.io/biocontainers/r-docopt", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-docopt.

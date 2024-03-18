@@ -4,7 +4,7 @@ name:  "rocker/shiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/shiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/shiny/container.yaml"
-updated_at: "2024-03-18 04:07:46.972885"
+updated_at: "2024-03-18 23:50:07.550102"
 latest: "4.3.3"
 container_url: "https://hub.docker.com/r/rocker/shiny"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "4.3.2"
  - "4.3.3"
 description: "Docker image with R + Shiny."
-config: {"docker": "rocker/shiny", "url": "https://hub.docker.com/r/rocker/shiny", "maintainer": "@vsoch", "description": "Docker image with R + Shiny.", "latest": {"4.3.3": "sha256:f7960ec6e75bfe408c5dde9c4dc8d296ee638aa8f4372abc5484a2eee7e7fcfb"}, "tags": {"4.2.2": "sha256:d884c20e91e962d779d44bdc089553f9d7688d4e5ae200374ecd1702bb136b57", "3.6.3": "sha256:212182dd244edd0380f2f76521f2c10405504b632696852d776402585eb68625", "4.1.3": "sha256:2e13901182cd775624431cfb906c3b0c90eee1b824a102a213cc3f136dcbb9fa", "4.0.5": "sha256:4e68438dc5a553b440e148ba04832007a6949361c4c9796c042599a7b2444285", "4.2.3": "sha256:9267ac974ca8031498b65c1e2d299ed7116ffba2dba71fef4b9d34611a5a8120", "4.3.0": "sha256:a732d7771c38129e5f1e7fcce512f39b46df0064b0304f05e8cced887610f6b6", "4.3.1": "sha256:012b6255036ad5d0018ca4a24ef04647d91f7732b82f76a1de14f52f3424214e", "4.3.2": "sha256:178c41269c69b9c570df7531513428cd50160f370307ba65fbb87577ebd25951", "4.3.3": "sha256:f7960ec6e75bfe408c5dde9c4dc8d296ee638aa8f4372abc5484a2eee7e7fcfb"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"rocker-shiny-run": "/bin/bash", "shiny-server": "/opt/shiny-server"}}
+config: {"docker": "rocker/shiny", "url": "https://hub.docker.com/r/rocker/shiny", "maintainer": "@vsoch", "description": "Docker image with R + Shiny.", "latest": {"4.3.3": "sha256:492e6b277c28f48b5464927958aeb764d47fcfef199c3b408053065395bd94f2"}, "tags": {"4.2.2": "sha256:5a01f59096c1b86e283cf9756d8badf8f1760a565b82b0c02112f7ffabb81b8b", "3.6.3": "sha256:212182dd244edd0380f2f76521f2c10405504b632696852d776402585eb68625", "4.1.3": "sha256:2e13901182cd775624431cfb906c3b0c90eee1b824a102a213cc3f136dcbb9fa", "4.0.5": "sha256:4e68438dc5a553b440e148ba04832007a6949361c4c9796c042599a7b2444285", "4.2.3": "sha256:fabaf2857be7b90d574253b0e6d930229d9a0cfe59c711624dc44fc11f2b43b1", "4.3.0": "sha256:2e798db9b2765e6a8ee6726ff869780a3c931f8b33ff401f4e7273c7c18dbfac", "4.3.1": "sha256:32c51f1ee5e1e2d6e14fd56ace923f77ecb9b254d9b2bce4e342a5856223e5ca", "4.3.2": "sha256:7acc2720c95ea42f17bc08c444402b7acf4d1e5aa2c6ebd2c0e74a5004477cb9", "4.3.3": "sha256:492e6b277c28f48b5464927958aeb764d47fcfef199c3b408053065395bd94f2"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"rocker-shiny-run": "/bin/bash", "shiny-server": "/opt/shiny-server"}}
 ---
 
 This module is a singularity container wrapper for rocker/shiny.

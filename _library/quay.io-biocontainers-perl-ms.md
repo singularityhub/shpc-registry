@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-ms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-ms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-ms/container.yaml"
-updated_at: "2024-03-18 03:53:37.915322"
-latest: "0.207002--pl5321hdfd78af_0"
+updated_at: "2024-03-18 23:36:27.753362"
+latest: "0.207003--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-ms"
 aliases:
  - "bgzip.pl"
@@ -17,8 +17,9 @@ aliases:
  - "streamzip"
 versions:
  - "0.207002--pl5321hdfd78af_0"
+ - "0.207003--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-ms"
-config: {"url": "https://biocontainers.pro/tools/perl-ms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-ms", "latest": {"0.207002--pl5321hdfd78af_0": "sha256:0aca2b426acdf483003e49fa4da0bd99915b283c6a9ad580e62bfb7a0c369d59"}, "tags": {"0.207002--pl5321hdfd78af_0": "sha256:0aca2b426acdf483003e49fa4da0bd99915b283c6a9ad580e62bfb7a0c369d59"}, "docker": "quay.io/biocontainers/perl-ms", "aliases": {"bgzip.pl": "/usr/local/bin/bgzip.pl", "cv2storable.pl": "/usr/local/bin/cv2storable.pl", "index_mzml": "/usr/local/bin/index_mzml", "index_pepxml": "/usr/local/bin/index_pepxml", "unimod2storable.pl": "/usr/local/bin/unimod2storable.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-ms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-ms", "latest": {"0.207003--pl5321hdfd78af_0": "sha256:e230ba7a8f992e668e6ab0542909028aa23545b426c125d247e863ec42ec144b"}, "tags": {"0.207002--pl5321hdfd78af_0": "sha256:0aca2b426acdf483003e49fa4da0bd99915b283c6a9ad580e62bfb7a0c369d59", "0.207003--pl5321hdfd78af_0": "sha256:e230ba7a8f992e668e6ab0542909028aa23545b426c125d247e863ec42ec144b"}, "docker": "quay.io/biocontainers/perl-ms", "aliases": {"bgzip.pl": "/usr/local/bin/bgzip.pl", "cv2storable.pl": "/usr/local/bin/cv2storable.pl", "index_mzml": "/usr/local/bin/index_mzml", "index_pepxml": "/usr/local/bin/index_pepxml", "unimod2storable.pl": "/usr/local/bin/unimod2storable.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-ms.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/perl-ms
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-ms:0.207002--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-ms:0.207003--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-ms/0.207002--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-ms/0.207002--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-ms/0.207003--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-ms/0.207003--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

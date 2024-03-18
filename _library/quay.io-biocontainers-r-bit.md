@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-bit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bit/container.yaml"
-updated_at: "2024-03-18 03:39:29.767587"
+updated_at: "2024-03-18 23:23:03.632712"
 latest: "1.1_12--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-bit"
 
 versions:
  - "1.1_12--r3.2.2_0"
+ - "1.1_12--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-bit"
-config: {"url": "https://biocontainers.pro/tools/r-bit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bit", "latest": {"1.1_12--r3.2.2_0": "sha256:243fa30da3e7d738e13d8df27461fa9e6dd8f46ae8397ee11c895b0271190409"}, "tags": {"1.1_12--r3.2.2_0": "sha256:243fa30da3e7d738e13d8df27461fa9e6dd8f46ae8397ee11c895b0271190409"}, "docker": "quay.io/biocontainers/r-bit"}
+config: {"url": "https://biocontainers.pro/tools/r-bit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bit", "latest": {"1.1_12--r3.2.2_0": "sha256:243fa30da3e7d738e13d8df27461fa9e6dd8f46ae8397ee11c895b0271190409"}, "tags": {"1.1_12--r3.2.2_0": "sha256:243fa30da3e7d738e13d8df27461fa9e6dd8f46ae8397ee11c895b0271190409", "1.1_12--r3.3.2_0": "sha256:6f0be3ac6b219c2c217387b31cde3edddb5069b8cc4d0be6f407cc1155aefd9c"}, "docker": "quay.io/biocontainers/r-bit"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bit.

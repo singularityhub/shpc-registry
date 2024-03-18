@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/requests-cache"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/requests-cache/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/requests-cache/container.yaml"
-updated_at: "2024-03-18 03:27:15.393811"
+updated_at: "2024-03-18 23:12:10.994553"
 latest: "0.4.10--py35_0"
 container_url: "https://biocontainers.pro/tools/requests-cache"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.4.10--py35_0"
+ - "0.4.10--py36_0"
 description: "shpc-registry automated BioContainers addition for requests-cache"
-config: {"url": "https://biocontainers.pro/tools/requests-cache", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for requests-cache", "latest": {"0.4.10--py35_0": "sha256:22add512238bc474ec8ce6ed9ed35628bfc17beb80c3f586ae6e3543092c0220"}, "tags": {"0.4.10--py35_0": "sha256:22add512238bc474ec8ce6ed9ed35628bfc17beb80c3f586ae6e3543092c0220"}, "docker": "quay.io/biocontainers/requests-cache", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/requests-cache", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for requests-cache", "latest": {"0.4.10--py35_0": "sha256:22add512238bc474ec8ce6ed9ed35628bfc17beb80c3f586ae6e3543092c0220"}, "tags": {"0.4.10--py35_0": "sha256:22add512238bc474ec8ce6ed9ed35628bfc17beb80c3f586ae6e3543092c0220", "0.4.10--py36_0": "sha256:d1765625c4975bb8b83a647de6f534e07e0b57da9f72052091ce9cbad88e3e4c"}, "docker": "quay.io/biocontainers/requests-cache", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/requests-cache.

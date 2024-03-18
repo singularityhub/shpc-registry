@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fftwtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fftwtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fftwtools/container.yaml"
-updated_at: "2024-03-18 03:23:05.909541"
+updated_at: "2024-03-18 23:08:28.361053"
 latest: "0.9.7--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-fftwtools"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "thumbnail"
 versions:
  - "0.9.7--r3.2.2_0"
+ - "0.9.7--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-fftwtools"
-config: {"url": "https://biocontainers.pro/tools/r-fftwtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fftwtools", "latest": {"0.9.7--r3.2.2_0": "sha256:0826d5ae74371b48c0beb49818b05bef66897e0937a7a213a967096185992740"}, "tags": {"0.9.7--r3.2.2_0": "sha256:0826d5ae74371b48c0beb49818b05bef66897e0937a7a213a967096185992740"}, "docker": "quay.io/biocontainers/r-fftwtools", "aliases": {"pngcp": "/usr/local/bin/pngcp", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail"}}
+config: {"url": "https://biocontainers.pro/tools/r-fftwtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fftwtools", "latest": {"0.9.7--r3.2.2_0": "sha256:0826d5ae74371b48c0beb49818b05bef66897e0937a7a213a967096185992740"}, "tags": {"0.9.7--r3.2.2_0": "sha256:0826d5ae74371b48c0beb49818b05bef66897e0937a7a213a967096185992740", "0.9.7--r3.3.2_0": "sha256:90d233073ce8bf9231124d8c4cab7608544d36e10a52e469a24b89316502ca82"}, "docker": "quay.io/biocontainers/r-fftwtools", "aliases": {"pngcp": "/usr/local/bin/pngcp", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-fftwtools.

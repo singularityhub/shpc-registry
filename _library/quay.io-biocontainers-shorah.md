@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/shorah"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shorah/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shorah/container.yaml"
-updated_at: "2024-03-18 03:58:14.398813"
-latest: "1.99.2--py36h721498b_1"
+updated_at: "2024-03-18 23:40:55.192789"
+latest: "1.99.2--py38h73782ee_8"
 container_url: "https://biocontainers.pro/tools/shorah"
 aliases:
  - "b2w"
@@ -24,8 +24,9 @@ aliases:
  - "htsfile"
 versions:
  - "1.99.2--py36h721498b_1"
+ - "1.99.2--py38h73782ee_8"
 description: "shpc-registry automated BioContainers addition for shorah"
-config: {"url": "https://biocontainers.pro/tools/shorah", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shorah", "latest": {"1.99.2--py36h721498b_1": "sha256:566066d5f0988c9974276c5b1253d5792c2570877d6f6284afe250842360faa0"}, "tags": {"1.99.2--py36h721498b_1": "sha256:566066d5f0988c9974276c5b1253d5792c2570877d6f6284afe250842360faa0"}, "docker": "quay.io/biocontainers/shorah", "aliases": {"b2w": "/usr/local/bin/b2w", "diri_sampler": "/usr/local/bin/diri_sampler", "fil": "/usr/local/bin/fil", "shorah": "/usr/local/bin/shorah", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "htsfile": "/usr/local/bin/htsfile"}}
+config: {"url": "https://biocontainers.pro/tools/shorah", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shorah", "latest": {"1.99.2--py38h73782ee_8": "sha256:1d4f101fe884128dce890dd662fd96ab6d08ea283bcd2861549096e0fff0c4fb"}, "tags": {"1.99.2--py36h721498b_1": "sha256:566066d5f0988c9974276c5b1253d5792c2570877d6f6284afe250842360faa0", "1.99.2--py38h73782ee_8": "sha256:1d4f101fe884128dce890dd662fd96ab6d08ea283bcd2861549096e0fff0c4fb"}, "docker": "quay.io/biocontainers/shorah", "aliases": {"b2w": "/usr/local/bin/b2w", "diri_sampler": "/usr/local/bin/diri_sampler", "fil": "/usr/local/bin/fil", "shorah": "/usr/local/bin/shorah", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "htsfile": "/usr/local/bin/htsfile"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shorah.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/shorah
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/shorah:1.99.2--py36h721498b_1
+$ shpc install quay.io/biocontainers/shorah:1.99.2--py38h73782ee_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/shorah/1.99.2--py36h721498b_1
-$ module help quay.io/biocontainers/shorah/1.99.2--py36h721498b_1
+$ module load quay.io/biocontainers/shorah/1.99.2--py38h73782ee_8
+$ module help quay.io/biocontainers/shorah/1.99.2--py38h73782ee_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

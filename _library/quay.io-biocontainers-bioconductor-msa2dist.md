@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msa2dist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msa2dist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msa2dist/container.yaml"
-updated_at: "2024-03-18 03:40:15.524013"
+updated_at: "2024-03-18 23:23:46.278670"
 latest: "1.6.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msa2dist"
 aliases:

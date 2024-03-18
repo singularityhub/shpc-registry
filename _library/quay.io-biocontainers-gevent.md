@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gevent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gevent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gevent/container.yaml"
-updated_at: "2024-03-18 03:21:41.760159"
+updated_at: "2024-03-18 23:07:10.698114"
 latest: "1.1rc4--py35_0"
 container_url: "https://biocontainers.pro/tools/gevent"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "1.1rc4--py35_0"
+ - "1.1rc4--py36_0"
 description: "shpc-registry automated BioContainers addition for gevent"
-config: {"url": "https://biocontainers.pro/tools/gevent", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gevent", "latest": {"1.1rc4--py35_0": "sha256:04adeb5bd580a2b600a5c271129f5253f922100e42fed2e2861799d87016f5de"}, "tags": {"1.1rc4--py35_0": "sha256:04adeb5bd580a2b600a5c271129f5253f922100e42fed2e2861799d87016f5de"}, "docker": "quay.io/biocontainers/gevent", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/gevent", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gevent", "latest": {"1.1rc4--py35_0": "sha256:04adeb5bd580a2b600a5c271129f5253f922100e42fed2e2861799d87016f5de"}, "tags": {"1.1rc4--py35_0": "sha256:04adeb5bd580a2b600a5c271129f5253f922100e42fed2e2861799d87016f5de", "1.1rc4--py36_0": "sha256:f1ea53ec45ffc8262d775195a5f74daf2446273694c9d3e9059cdd25dd1a4bbf"}, "docker": "quay.io/biocontainers/gevent", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gevent.

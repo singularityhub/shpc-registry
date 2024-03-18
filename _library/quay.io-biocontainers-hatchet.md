@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hatchet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hatchet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hatchet/container.yaml"
-updated_at: "2024-03-18 03:50:46.629077"
-latest: "0.4.10--py38h8c62d01_0"
+updated_at: "2024-03-18 23:33:44.463318"
+latest: "2.0.1--py310h0dbaff4_0"
 container_url: "https://biocontainers.pro/tools/hatchet"
 aliases:
  - "hatchet"
@@ -23,8 +23,12 @@ aliases:
 versions:
  - "0.4.9--py37h22450f8_0"
  - "0.4.10--py38h8c62d01_0"
+ - "2.0.1--py310h0dbaff4_0"
+ - "1.1.1--py38h4a32c8e_0"
+ - "1.0.3--py37h96cfd12_0"
+ - "0.4.14--py37h96cfd12_0"
 description: "shpc-registry automated BioContainers addition for hatchet"
-config: {"url": "https://biocontainers.pro/tools/hatchet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hatchet", "latest": {"0.4.10--py38h8c62d01_0": "sha256:912ac7d7943c6297667329264ff961ae884c41957c62fc1e5ba596c84dc47362"}, "tags": {"0.4.9--py37h22450f8_0": "sha256:eda1508a16eed310a7fba5e2ecf8b101338f7f0cb5bc793e81fbbbe16b2ea194", "0.4.10--py38h8c62d01_0": "sha256:912ac7d7943c6297667329264ff961ae884c41957c62fc1e5ba596c84dc47362"}, "docker": "quay.io/biocontainers/hatchet", "aliases": {"hatchet": "/usr/local/bin/hatchet", "pyomo": "/usr/local/bin/pyomo", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats"}}
+config: {"url": "https://biocontainers.pro/tools/hatchet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hatchet", "latest": {"2.0.1--py310h0dbaff4_0": "sha256:1b81a4fbee9db03c4e370b55b70479233e0f788ccb63d46f74bac2788a89aebf"}, "tags": {"0.4.9--py37h22450f8_0": "sha256:eda1508a16eed310a7fba5e2ecf8b101338f7f0cb5bc793e81fbbbe16b2ea194", "0.4.10--py38h8c62d01_0": "sha256:912ac7d7943c6297667329264ff961ae884c41957c62fc1e5ba596c84dc47362", "2.0.1--py310h0dbaff4_0": "sha256:1b81a4fbee9db03c4e370b55b70479233e0f788ccb63d46f74bac2788a89aebf", "1.1.1--py38h4a32c8e_0": "sha256:9e360a9a32e05582e302b2c3c1f0424a2f6c3ea4c774dcfd81478818cdba7278", "1.0.3--py37h96cfd12_0": "sha256:b8c8e22d78498e3bc6966831feb87914a2bd5a8fc7c9c642a27bce7950b43f14", "0.4.14--py37h96cfd12_0": "sha256:efb42c77c0e5e6f23907c1d95fe67c572c8d691d72baec7216fba0ebd696be8f"}, "docker": "quay.io/biocontainers/hatchet", "aliases": {"hatchet": "/usr/local/bin/hatchet", "pyomo": "/usr/local/bin/pyomo", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hatchet.
@@ -39,7 +43,7 @@ $ shpc install quay.io/biocontainers/hatchet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hatchet:0.4.10--py38h8c62d01_0
+$ shpc install quay.io/biocontainers/hatchet:2.0.1--py310h0dbaff4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hatchet/0.4.10--py38h8c62d01_0
-$ module help quay.io/biocontainers/hatchet/0.4.10--py38h8c62d01_0
+$ module load quay.io/biocontainers/hatchet/2.0.1--py310h0dbaff4_0
+$ module help quay.io/biocontainers/hatchet/2.0.1--py310h0dbaff4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

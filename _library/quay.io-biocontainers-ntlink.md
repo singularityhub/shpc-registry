@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ntlink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntlink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntlink/container.yaml"
-updated_at: "2024-03-18 04:06:50.481217"
-latest: "1.3.9--py38hf4f3596_0"
+updated_at: "2024-03-18 23:49:12.992655"
+latest: "1.3.9--py310hf270fc4_3"
 container_url: "https://biocontainers.pro/tools/ntlink"
 aliases:
  - "abyss-rresolver-short"
@@ -52,8 +52,9 @@ versions:
  - "1.3.7--py39h6935b12_0"
  - "1.3.8--py39h6935b12_0"
  - "1.3.9--py38hf4f3596_0"
+ - "1.3.9--py310hf270fc4_3"
 description: "shpc-registry automated BioContainers addition for ntlink"
-config: {"url": "https://biocontainers.pro/tools/ntlink", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ntlink", "latest": {"1.3.9--py38hf4f3596_0": "sha256:514c94decad28b5192a4b278b0b47f86c3002a361421879485f95a5980fdf702"}, "tags": {"1.3.4--py39h6935b12_0": "sha256:afce9184978c9c93e6d58986630145fff8f2212bebf24c73a6b4c3bb79abdbea", "1.3.5--py39h6935b12_0": "sha256:a80c0086fe28f2a87d87d93a4e3f81209d3a7747e2e541fd78b318b6eb46ac02", "1.3.7--py39h6935b12_0": "sha256:f888e055e26b2e8c16bbfa0850f07f07bb3db157e81eb5a6c9305649ac0a6b16", "1.3.8--py39h6935b12_0": "sha256:868d0420edd6d573b24cf1c46553d2644a4adebf01eca9b09e0bd1dcadda8782", "1.3.9--py38hf4f3596_0": "sha256:514c94decad28b5192a4b278b0b47f86c3002a361421879485f95a5980fdf702"}, "docker": "quay.io/biocontainers/ntlink", "aliases": {"abyss-rresolver-short": "/usr/local/bin/abyss-rresolver-short", "abyss-stack-size": "/usr/local/bin/abyss-stack-size", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "indexlr": "/usr/local/bin/indexlr", "irqtop": "/usr/local/bin/irqtop", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "lsirq": "/usr/local/bin/lsirq", "nsenter": "/usr/local/bin/nsenter", "ntLink": "/usr/local/bin/ntLink", "ntLink_rounds": "/usr/local/bin/ntLink_rounds", "prlimit": "/usr/local/bin/prlimit", "scriptlive": "/usr/local/bin/scriptlive", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt", "col": "/usr/local/bin/col", "colcrt": "/usr/local/bin/colcrt", "colrm": "/usr/local/bin/colrm", "column": "/usr/local/bin/column", "dmesg": "/usr/local/bin/dmesg", "eject": "/usr/local/bin/eject"}}
+config: {"url": "https://biocontainers.pro/tools/ntlink", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ntlink", "latest": {"1.3.9--py310hf270fc4_3": "sha256:ec847abf748d7f89bff0c3c3d48c349b761c88c916af691afe6ad2f01f3b00cc"}, "tags": {"1.3.4--py39h6935b12_0": "sha256:afce9184978c9c93e6d58986630145fff8f2212bebf24c73a6b4c3bb79abdbea", "1.3.5--py39h6935b12_0": "sha256:a80c0086fe28f2a87d87d93a4e3f81209d3a7747e2e541fd78b318b6eb46ac02", "1.3.7--py39h6935b12_0": "sha256:f888e055e26b2e8c16bbfa0850f07f07bb3db157e81eb5a6c9305649ac0a6b16", "1.3.8--py39h6935b12_0": "sha256:868d0420edd6d573b24cf1c46553d2644a4adebf01eca9b09e0bd1dcadda8782", "1.3.9--py38hf4f3596_0": "sha256:514c94decad28b5192a4b278b0b47f86c3002a361421879485f95a5980fdf702", "1.3.9--py310hf270fc4_3": "sha256:ec847abf748d7f89bff0c3c3d48c349b761c88c916af691afe6ad2f01f3b00cc"}, "docker": "quay.io/biocontainers/ntlink", "aliases": {"abyss-rresolver-short": "/usr/local/bin/abyss-rresolver-short", "abyss-stack-size": "/usr/local/bin/abyss-stack-size", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "indexlr": "/usr/local/bin/indexlr", "irqtop": "/usr/local/bin/irqtop", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "lsirq": "/usr/local/bin/lsirq", "nsenter": "/usr/local/bin/nsenter", "ntLink": "/usr/local/bin/ntLink", "ntLink_rounds": "/usr/local/bin/ntLink_rounds", "prlimit": "/usr/local/bin/prlimit", "scriptlive": "/usr/local/bin/scriptlive", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt", "col": "/usr/local/bin/col", "colcrt": "/usr/local/bin/colcrt", "colrm": "/usr/local/bin/colrm", "column": "/usr/local/bin/column", "dmesg": "/usr/local/bin/dmesg", "eject": "/usr/local/bin/eject"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ntlink.
@@ -68,7 +69,7 @@ $ shpc install quay.io/biocontainers/ntlink
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ntlink:1.3.9--py38hf4f3596_0
+$ shpc install quay.io/biocontainers/ntlink:1.3.9--py310hf270fc4_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -80,8 +81,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ntlink/1.3.9--py38hf4f3596_0
-$ module help quay.io/biocontainers/ntlink/1.3.9--py38hf4f3596_0
+$ module load quay.io/biocontainers/ntlink/1.3.9--py310hf270fc4_3
+$ module help quay.io/biocontainers/ntlink/1.3.9--py310hf270fc4_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

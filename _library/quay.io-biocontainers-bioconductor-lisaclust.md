@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-lisaclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lisaclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lisaclust/container.yaml"
-updated_at: "2024-03-18 03:59:13.930660"
-latest: "1.8.0--r43hdfd78af_0"
+updated_at: "2024-03-18 23:41:52.888776"
+latest: "1.10.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lisaclust"
 aliases:
  - "testepsg"
@@ -22,8 +22,9 @@ versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
+ - "1.10.1--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-lisaclust"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lisaclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lisaclust", "latest": {"1.8.0--r43hdfd78af_0": "sha256:08d383aa67943ec7d601daf6c96172b81621be1f91d6cfe2fa3eb40b200c9548"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:7c47a796f7c3e36d7207cf87f87cdb180f87e8e22d9bc7ef4fb62644b37dca52", "1.6.0--r42hdfd78af_0": "sha256:b3bae946c7d27134c533527f2e4a89bb0522f90fccb2ceb94316ca283aa57dac", "1.8.0--r43hdfd78af_0": "sha256:08d383aa67943ec7d601daf6c96172b81621be1f91d6cfe2fa3eb40b200c9548"}, "docker": "quay.io/biocontainers/bioconductor-lisaclust", "aliases": {"testepsg": "/usr/local/bin/testepsg", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "pg_standby": "/usr/local/bin/pg_standby", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lisaclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lisaclust", "latest": {"1.10.1--r43hdfd78af_0": "sha256:e8525e8c5229c7bdf6d6355f76a9e8798151bb77fe1dc78f81e590cf2e8e21ad"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:7c47a796f7c3e36d7207cf87f87cdb180f87e8e22d9bc7ef4fb62644b37dca52", "1.6.0--r42hdfd78af_0": "sha256:b3bae946c7d27134c533527f2e4a89bb0522f90fccb2ceb94316ca283aa57dac", "1.8.0--r43hdfd78af_0": "sha256:08d383aa67943ec7d601daf6c96172b81621be1f91d6cfe2fa3eb40b200c9548", "1.10.1--r43hdfd78af_0": "sha256:e8525e8c5229c7bdf6d6355f76a9e8798151bb77fe1dc78f81e590cf2e8e21ad"}, "docker": "quay.io/biocontainers/bioconductor-lisaclust", "aliases": {"testepsg": "/usr/local/bin/testepsg", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "pg_standby": "/usr/local/bin/pg_standby", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lisaclust.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lisaclust
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lisaclust:1.8.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-lisaclust:1.10.1--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lisaclust/1.8.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-lisaclust/1.8.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-lisaclust/1.10.1--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-lisaclust/1.10.1--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

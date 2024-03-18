@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nwalign3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nwalign3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nwalign3/container.yaml"
-updated_at: "2024-03-18 03:53:53.643690"
+updated_at: "2024-03-18 23:36:42.828785"
 latest: "0.1.2--py38h24c8ff8_3"
 container_url: "https://biocontainers.pro/tools/nwalign3"
 aliases:
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "0.1.2--py39h5371cbf_1"
  - "0.1.2--py38h24c8ff8_3"
+ - "0.1.2--py39hec7c8de_3"
 description: "singularity registry hpc automated addition for nwalign3"
-config: {"url": "https://biocontainers.pro/tools/nwalign3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nwalign3", "latest": {"0.1.2--py38h24c8ff8_3": "sha256:a581601cf43c3ad48932e9783d9d25198ee123ad216b2e73d149932e0e4e675f"}, "tags": {"0.1.2--py39h5371cbf_1": "sha256:ee11f13a1b8d7b3af2f9b7f2c04e3b9dd0500dad01db26684b3270929cfd1c85", "0.1.2--py38h24c8ff8_3": "sha256:a581601cf43c3ad48932e9783d9d25198ee123ad216b2e73d149932e0e4e675f"}, "docker": "quay.io/biocontainers/nwalign3", "aliases": {"nwalign3": "/usr/local/bin/nwalign3", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/nwalign3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nwalign3", "latest": {"0.1.2--py38h24c8ff8_3": "sha256:a581601cf43c3ad48932e9783d9d25198ee123ad216b2e73d149932e0e4e675f"}, "tags": {"0.1.2--py39h5371cbf_1": "sha256:ee11f13a1b8d7b3af2f9b7f2c04e3b9dd0500dad01db26684b3270929cfd1c85", "0.1.2--py38h24c8ff8_3": "sha256:a581601cf43c3ad48932e9783d9d25198ee123ad216b2e73d149932e0e4e675f", "0.1.2--py39hec7c8de_3": "sha256:f76e7ef603e756e54585ffb9decbb2f0c3c77b50d850e9406e163b7deab338bd"}, "docker": "quay.io/biocontainers/nwalign3", "aliases": {"nwalign3": "/usr/local/bin/nwalign3", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nwalign3.

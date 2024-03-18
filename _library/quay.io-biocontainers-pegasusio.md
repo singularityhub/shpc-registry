@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pegasusio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pegasusio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pegasusio/container.yaml"
-updated_at: "2024-03-18 03:56:36.355288"
-latest: "0.5.0--py39h38f01e4_0"
+updated_at: "2024-03-18 23:39:20.227206"
+latest: "0.9.0--py38he5da3d1_0"
 container_url: "https://biocontainers.pro/tools/pegasusio"
 aliases:
  - "pegasusio"
@@ -21,8 +21,13 @@ aliases:
  - "h5watch"
 versions:
  - "0.5.0--py39h38f01e4_0"
+ - "0.9.0--py38he5da3d1_0"
+ - "0.8.1--py310h4b81fae_0"
+ - "0.7.1--py39hbf8eff0_1"
+ - "0.6.2--py37h8902056_0"
+ - "0.5.1.post1--py37h8902056_2"
 description: "shpc-registry automated BioContainers addition for pegasusio"
-config: {"url": "https://biocontainers.pro/tools/pegasusio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pegasusio", "latest": {"0.5.0--py39h38f01e4_0": "sha256:661d999a3ff8fc343d8d85e8313be7ead9827680d4a2918202b013bc4f55a5b8"}, "tags": {"0.5.0--py39h38f01e4_0": "sha256:661d999a3ff8fc343d8d85e8313be7ead9827680d4a2918202b013bc4f55a5b8"}, "docker": "quay.io/biocontainers/pegasusio", "aliases": {"pegasusio": "/usr/local/bin/pegasusio", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch"}}
+config: {"url": "https://biocontainers.pro/tools/pegasusio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pegasusio", "latest": {"0.9.0--py38he5da3d1_0": "sha256:ea762655eb2cb9ce7312f9e93850a13ca59611c290533b7223529c25374c401b"}, "tags": {"0.5.0--py39h38f01e4_0": "sha256:661d999a3ff8fc343d8d85e8313be7ead9827680d4a2918202b013bc4f55a5b8", "0.9.0--py38he5da3d1_0": "sha256:ea762655eb2cb9ce7312f9e93850a13ca59611c290533b7223529c25374c401b", "0.8.1--py310h4b81fae_0": "sha256:38df9a85d5d0a0fdfb55d50d761101ef770f2b4db2fb8095402022ae6d0871ec", "0.7.1--py39hbf8eff0_1": "sha256:adb47c6a71e07cd4084940b948e881f297663b240e3c1419ac698655b7df2b78", "0.6.2--py37h8902056_0": "sha256:ddc9de5399ca514b325ff279881d4789ca465fbaf8630eef76fe6c5e9e3c424f", "0.5.1.post1--py37h8902056_2": "sha256:2151a33f562faf35a3460018851c2a4a6638817071b0dc62f8aac9120188987d"}, "docker": "quay.io/biocontainers/pegasusio", "aliases": {"pegasusio": "/usr/local/bin/pegasusio", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pegasusio.
@@ -37,7 +42,7 @@ $ shpc install quay.io/biocontainers/pegasusio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pegasusio:0.5.0--py39h38f01e4_0
+$ shpc install quay.io/biocontainers/pegasusio:0.9.0--py38he5da3d1_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pegasusio/0.5.0--py39h38f01e4_0
-$ module help quay.io/biocontainers/pegasusio/0.5.0--py39h38f01e4_0
+$ module load quay.io/biocontainers/pegasusio/0.9.0--py38he5da3d1_0
+$ module help quay.io/biocontainers/pegasusio/0.9.0--py38he5da3d1_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

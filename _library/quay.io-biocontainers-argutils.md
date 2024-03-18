@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/argutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/argutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/argutils/container.yaml"
-updated_at: "2024-03-18 04:04:46.386560"
+updated_at: "2024-03-18 23:47:12.630348"
 latest: "0.3.2--py35_1"
 container_url: "https://biocontainers.pro/tools/argutils"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.3.2--py35_1"
+ - "0.3.2--py36_1"
 description: "shpc-registry automated BioContainers addition for argutils"
-config: {"url": "https://biocontainers.pro/tools/argutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for argutils", "latest": {"0.3.2--py35_1": "sha256:163143dc1e963f3981999d140cea30483ece91de7bf5a45eeb984625ca1ef762"}, "tags": {"0.3.2--py35_1": "sha256:163143dc1e963f3981999d140cea30483ece91de7bf5a45eeb984625ca1ef762"}, "docker": "quay.io/biocontainers/argutils", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/argutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for argutils", "latest": {"0.3.2--py35_1": "sha256:163143dc1e963f3981999d140cea30483ece91de7bf5a45eeb984625ca1ef762"}, "tags": {"0.3.2--py35_1": "sha256:163143dc1e963f3981999d140cea30483ece91de7bf5a45eeb984625ca1ef762", "0.3.2--py36_1": "sha256:9a126ada6111307c7045885f4afd0e80f2060966bbe3269e5cba1d0ac7313abe"}, "docker": "quay.io/biocontainers/argutils", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/argutils.

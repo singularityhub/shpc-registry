@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cbea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cbea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cbea/container.yaml"
-updated_at: "2024-03-18 03:41:19.274926"
+updated_at: "2024-03-18 23:24:45.961939"
 latest: "1.3.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cbea"
 aliases:
@@ -28,8 +28,9 @@ versions:
  - "1.2.0--r42hc247a5b_0"
  - "1.2.0--r42hf17093f_1"
  - "1.3.0--r43hf17093f_0"
+ - "1.2.0--r43hf17093f_2"
 description: "singularity registry hpc automated addition for bioconductor-cbea"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cbea", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cbea", "latest": {"1.3.0--r43hf17093f_0": "sha256:245e87d295ac51d32af686d55ddf0ab870b49a8106d673e19cb73448f9595747"}, "tags": {"1.2.0--r42hc247a5b_0": "sha256:b8016993d14a879b1a355da4923691c3c14cd5f2dec8e169b0b290d8a7250b3b", "1.2.0--r42hf17093f_1": "sha256:242bd16c88609879a8b21a54c894afee9311d6121966c038788c3898bc83266c", "1.3.0--r43hf17093f_0": "sha256:245e87d295ac51d32af686d55ddf0ab870b49a8106d673e19cb73448f9595747"}, "docker": "quay.io/biocontainers/bioconductor-cbea", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cbea", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cbea", "latest": {"1.3.0--r43hf17093f_0": "sha256:245e87d295ac51d32af686d55ddf0ab870b49a8106d673e19cb73448f9595747"}, "tags": {"1.2.0--r42hc247a5b_0": "sha256:b8016993d14a879b1a355da4923691c3c14cd5f2dec8e169b0b290d8a7250b3b", "1.2.0--r42hf17093f_1": "sha256:242bd16c88609879a8b21a54c894afee9311d6121966c038788c3898bc83266c", "1.3.0--r43hf17093f_0": "sha256:245e87d295ac51d32af686d55ddf0ab870b49a8106d673e19cb73448f9595747", "1.2.0--r43hf17093f_2": "sha256:142a4d4b33b4ea17dac24103af08c341d69cbc33ba2ac23b2c71bd862a9ffc34"}, "docker": "quay.io/biocontainers/bioconductor-cbea", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cbea.

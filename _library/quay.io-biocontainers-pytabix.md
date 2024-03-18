@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytabix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytabix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytabix/container.yaml"
-updated_at: "2024-03-18 03:31:34.262730"
+updated_at: "2024-03-18 23:15:59.994357"
 latest: "0.1--py39h4e691d4_4"
 container_url: "https://biocontainers.pro/tools/pytabix"
 aliases:
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.1--py39h2add14b_2"
  - "0.1--py39h4e691d4_4"
+ - "0.1--py310h6cc9453_4"
 description: "shpc-registry automated BioContainers addition for pytabix"
-config: {"url": "https://biocontainers.pro/tools/pytabix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytabix", "latest": {"0.1--py39h4e691d4_4": "sha256:a3841008dcd3d80cc730dfa6adecc6557673456e2315f2a63287dd8302f0e3d0"}, "tags": {"0.1--py39h2add14b_2": "sha256:b46165a98b4361dc4834539b3e98899be7eb5db8df8969ab590c8ca07a86f36c", "0.1--py39h4e691d4_4": "sha256:a3841008dcd3d80cc730dfa6adecc6557673456e2315f2a63287dd8302f0e3d0"}, "docker": "quay.io/biocontainers/pytabix", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/pytabix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytabix", "latest": {"0.1--py39h4e691d4_4": "sha256:a3841008dcd3d80cc730dfa6adecc6557673456e2315f2a63287dd8302f0e3d0"}, "tags": {"0.1--py39h2add14b_2": "sha256:b46165a98b4361dc4834539b3e98899be7eb5db8df8969ab590c8ca07a86f36c", "0.1--py39h4e691d4_4": "sha256:a3841008dcd3d80cc730dfa6adecc6557673456e2315f2a63287dd8302f0e3d0", "0.1--py310h6cc9453_4": "sha256:af6713e425ef8ee6dc4e24ba72bcc7b0e39b86f6f30302a371c4b747e8dc84a4"}, "docker": "quay.io/biocontainers/pytabix", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytabix.

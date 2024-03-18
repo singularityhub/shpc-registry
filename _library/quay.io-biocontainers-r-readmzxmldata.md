@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-readmzxmldata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-readmzxmldata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-readmzxmldata/container.yaml"
-updated_at: "2024-03-18 03:26:33.658900"
+updated_at: "2024-03-18 23:11:33.402812"
 latest: "2.8.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-readmzxmldata"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "2.8.1--r3.2.2_0"
+ - "2.8.1--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-readmzxmldata"
-config: {"url": "https://biocontainers.pro/tools/r-readmzxmldata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-readmzxmldata", "latest": {"2.8.1--r3.2.2_0": "sha256:1b32aa17623548c03a3ffa748ef7086d2e4c9392c3c6d4826844091892ab4ce6"}, "tags": {"2.8.1--r3.2.2_0": "sha256:1b32aa17623548c03a3ffa748ef7086d2e4c9392c3c6d4826844091892ab4ce6"}, "docker": "quay.io/biocontainers/r-readmzxmldata", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-readmzxmldata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-readmzxmldata", "latest": {"2.8.1--r3.2.2_0": "sha256:1b32aa17623548c03a3ffa748ef7086d2e4c9392c3c6d4826844091892ab4ce6"}, "tags": {"2.8.1--r3.2.2_0": "sha256:1b32aa17623548c03a3ffa748ef7086d2e4c9392c3c6d4826844091892ab4ce6", "2.8.1--r3.4.1_0": "sha256:47e310d8b7547bfc6291dd5f4c502bd35c6f863ea96c946b5c9d2199215faba7"}, "docker": "quay.io/biocontainers/r-readmzxmldata", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-readmzxmldata.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clustalw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clustalw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clustalw/container.yaml"
-updated_at: "2024-03-18 03:37:40.012219"
-latest: "2.1--h4ac6f70_9"
+updated_at: "2024-03-18 23:21:21.715578"
+latest: "2.1--h4ac6f70_10"
 container_url: "https://biocontainers.pro/tools/clustalw"
 aliases:
  - "clustalw"
@@ -14,8 +14,9 @@ versions:
  - "2.1--h9f5acd7_7"
  - "2.1--h9f5acd7_8"
  - "2.1--h4ac6f70_9"
+ - "2.1--h4ac6f70_10"
 description: "shpc-registry automated BioContainers addition for clustalw"
-config: {"url": "https://biocontainers.pro/tools/clustalw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clustalw", "latest": {"2.1--h4ac6f70_9": "sha256:94e62edc6dafc451ae4a61b129584f1734cfe84954b523bd56b74d7ba4e7d4c6"}, "tags": {"2.1--h9f5acd7_7": "sha256:b6a0bd2d397078fa1a35d7f4cef68a75ea953dbaa101781c48cdebc3994c4972", "2.1--h9f5acd7_8": "sha256:4111516e8f0fb14f8f99afb729d4c8e58271f77167e69d2d794eb384ca26b49b", "2.1--h4ac6f70_9": "sha256:94e62edc6dafc451ae4a61b129584f1734cfe84954b523bd56b74d7ba4e7d4c6"}, "docker": "quay.io/biocontainers/clustalw", "aliases": {"clustalw": "/usr/local/bin/clustalw", "clustalw2": "/usr/local/bin/clustalw2"}}
+config: {"url": "https://biocontainers.pro/tools/clustalw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clustalw", "latest": {"2.1--h4ac6f70_10": "sha256:b1687fc90cc131bccbf53d49ca1dc7251f9df1fd4865e746b72b06d19e7aff5b"}, "tags": {"2.1--h9f5acd7_7": "sha256:b6a0bd2d397078fa1a35d7f4cef68a75ea953dbaa101781c48cdebc3994c4972", "2.1--h9f5acd7_8": "sha256:4111516e8f0fb14f8f99afb729d4c8e58271f77167e69d2d794eb384ca26b49b", "2.1--h4ac6f70_9": "sha256:94e62edc6dafc451ae4a61b129584f1734cfe84954b523bd56b74d7ba4e7d4c6", "2.1--h4ac6f70_10": "sha256:b1687fc90cc131bccbf53d49ca1dc7251f9df1fd4865e746b72b06d19e7aff5b"}, "docker": "quay.io/biocontainers/clustalw", "aliases": {"clustalw": "/usr/local/bin/clustalw", "clustalw2": "/usr/local/bin/clustalw2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clustalw.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/clustalw
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clustalw:2.1--h4ac6f70_9
+$ shpc install quay.io/biocontainers/clustalw:2.1--h4ac6f70_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clustalw/2.1--h4ac6f70_9
-$ module help quay.io/biocontainers/clustalw/2.1--h4ac6f70_9
+$ module load quay.io/biocontainers/clustalw/2.1--h4ac6f70_10
+$ module help quay.io/biocontainers/clustalw/2.1--h4ac6f70_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

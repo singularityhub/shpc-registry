@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mixtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mixtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mixtools/container.yaml"
-updated_at: "2024-03-18 03:31:00.607597"
+updated_at: "2024-03-18 23:15:30.980017"
 latest: "1.1.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-mixtools"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.1.0--r3.3.1_0"
+ - "1.1.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-mixtools"
-config: {"url": "https://biocontainers.pro/tools/r-mixtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mixtools", "latest": {"1.1.0--r3.3.1_0": "sha256:b92a4b6a6cbc770d35bd02a9681ec8ea7ab206a38f94bd2e4b9229c65c8bf0da"}, "tags": {"1.1.0--r3.3.1_0": "sha256:b92a4b6a6cbc770d35bd02a9681ec8ea7ab206a38f94bd2e4b9229c65c8bf0da"}, "docker": "quay.io/biocontainers/r-mixtools", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-mixtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mixtools", "latest": {"1.1.0--r3.3.1_0": "sha256:b92a4b6a6cbc770d35bd02a9681ec8ea7ab206a38f94bd2e4b9229c65c8bf0da"}, "tags": {"1.1.0--r3.3.1_0": "sha256:b92a4b6a6cbc770d35bd02a9681ec8ea7ab206a38f94bd2e4b9229c65c8bf0da", "1.1.0--r3.3.2_0": "sha256:12077ae790097fe59cdb77e97d31305582f917a54993ad1583f6e0102f697a07"}, "docker": "quay.io/biocontainers/r-mixtools", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mixtools.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pcst-fast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pcst-fast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pcst-fast/container.yaml"
-updated_at: "2024-03-18 03:33:45.071450"
+updated_at: "2024-03-18 23:17:55.608101"
 latest: "1.0.10--py39h1f90b4d_0"
 container_url: "https://biocontainers.pro/tools/pcst-fast"
 aliases:
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.0.8--py36h2ad2d48_1"
  - "1.0.10--py39h1f90b4d_0"
+ - "1.0.10--py38h2494328_0"
 description: "shpc-registry automated BioContainers addition for pcst-fast"
-config: {"url": "https://biocontainers.pro/tools/pcst-fast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pcst-fast", "latest": {"1.0.10--py39h1f90b4d_0": "sha256:f444b27752fbab340df8b480001321d0835bbfeec86e53a04e50441f91fa5284"}, "tags": {"1.0.8--py36h2ad2d48_1": "sha256:a7573139b4c0938f808d4ede1fc153d6ba49ebf0f11a13f0380e4716c5f10eab", "1.0.10--py39h1f90b4d_0": "sha256:f444b27752fbab340df8b480001321d0835bbfeec86e53a04e50441f91fa5284"}, "docker": "quay.io/biocontainers/pcst-fast", "aliases": {"pybind11-config": "/usr/local/bin/pybind11-config", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pcst-fast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pcst-fast", "latest": {"1.0.10--py39h1f90b4d_0": "sha256:f444b27752fbab340df8b480001321d0835bbfeec86e53a04e50441f91fa5284"}, "tags": {"1.0.8--py36h2ad2d48_1": "sha256:a7573139b4c0938f808d4ede1fc153d6ba49ebf0f11a13f0380e4716c5f10eab", "1.0.10--py39h1f90b4d_0": "sha256:f444b27752fbab340df8b480001321d0835bbfeec86e53a04e50441f91fa5284", "1.0.10--py38h2494328_0": "sha256:e4c54ce89e62eb12c0ebdcc9d2de8840015867a965f0fafe44637d8e14e95483"}, "docker": "quay.io/biocontainers/pcst-fast", "aliases": {"pybind11-config": "/usr/local/bin/pybind11-config", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pcst-fast.

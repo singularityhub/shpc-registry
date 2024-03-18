@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-rbwa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbwa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbwa/container.yaml"
-updated_at: "2024-03-18 03:45:42.517112"
-latest: "1.4.0--r43hd5da469_0"
+updated_at: "2024-03-18 23:28:54.518341"
+latest: "1.6.0--r43hd5da469_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbwa"
 
 versions:
  - "1.2.0--r42h87de86e_0"
  - "1.2.0--r42hd5da469_2"
  - "1.4.0--r43hd5da469_0"
+ - "1.6.0--r43hd5da469_0"
 description: "singularity registry hpc automated addition for bioconductor-rbwa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rbwa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rbwa", "latest": {"1.4.0--r43hd5da469_0": "sha256:f0b0be863b738793f638b4ab7ee539a09af3e4c7ee55cb73f90f2e34c957518e"}, "tags": {"1.2.0--r42h87de86e_0": "sha256:b175f0ae1a0d4013e9605bcc5f027906a26aa23c2b653ba19cc942521840218b", "1.2.0--r42hd5da469_2": "sha256:64e5d286a34936a3b7efbdb3c97c8eb297528bc16171e0a0e582d5d8a70d0558", "1.4.0--r43hd5da469_0": "sha256:f0b0be863b738793f638b4ab7ee539a09af3e4c7ee55cb73f90f2e34c957518e"}, "docker": "quay.io/biocontainers/bioconductor-rbwa"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rbwa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rbwa", "latest": {"1.6.0--r43hd5da469_0": "sha256:a2155fcdd2466460e209c5b6faedddf3bca5c077c0bb3905d483154e55394c73"}, "tags": {"1.2.0--r42h87de86e_0": "sha256:b175f0ae1a0d4013e9605bcc5f027906a26aa23c2b653ba19cc942521840218b", "1.2.0--r42hd5da469_2": "sha256:64e5d286a34936a3b7efbdb3c97c8eb297528bc16171e0a0e582d5d8a70d0558", "1.4.0--r43hd5da469_0": "sha256:f0b0be863b738793f638b4ab7ee539a09af3e4c7ee55cb73f90f2e34c957518e", "1.6.0--r43hd5da469_0": "sha256:a2155fcdd2466460e209c5b6faedddf3bca5c077c0bb3905d483154e55394c73"}, "docker": "quay.io/biocontainers/bioconductor-rbwa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rbwa.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rbwa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rbwa:1.4.0--r43hd5da469_0
+$ shpc install quay.io/biocontainers/bioconductor-rbwa:1.6.0--r43hd5da469_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rbwa/1.4.0--r43hd5da469_0
-$ module help quay.io/biocontainers/bioconductor-rbwa/1.4.0--r43hd5da469_0
+$ module load quay.io/biocontainers/bioconductor-rbwa/1.6.0--r43hd5da469_0
+$ module help quay.io/biocontainers/bioconductor-rbwa/1.6.0--r43hd5da469_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

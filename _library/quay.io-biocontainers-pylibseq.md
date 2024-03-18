@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pylibseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pylibseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pylibseq/container.yaml"
-updated_at: "2024-03-18 04:03:18.143958"
+updated_at: "2024-03-18 23:45:48.521355"
 latest: "0.2.3--py310h30d9df9_6"
 container_url: "https://biocontainers.pro/tools/pylibseq"
 aliases:
@@ -24,8 +24,9 @@ aliases:
 versions:
  - "0.2.3--py36h2ad2d48_3"
  - "0.2.3--py310h30d9df9_6"
+ - "0.2.3--py38h4a32c8e_6"
 description: "shpc-registry automated BioContainers addition for pylibseq"
-config: {"url": "https://biocontainers.pro/tools/pylibseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pylibseq", "latest": {"0.2.3--py310h30d9df9_6": "sha256:1dfecec8d23ea1dedd70d241b29c6cd0fa25aa089028a28893fe71d120fd3be3"}, "tags": {"0.2.3--py36h2ad2d48_3": "sha256:89ae914031cb39902aea8de7d0706478e59996ae864613954c116d585cab8840", "0.2.3--py310h30d9df9_6": "sha256:1dfecec8d23ea1dedd70d241b29c6cd0fa25aa089028a28893fe71d120fd3be3"}, "docker": "quay.io/biocontainers/pylibseq", "aliases": {"msp": "/usr/local/bin/msp", "mspms": "/usr/local/bin/mspms", "tskit": "/usr/local/bin/tskit", "f2py3.6": "/usr/local/bin/f2py3.6", "jsonschema": "/usr/local/bin/jsonschema", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/pylibseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pylibseq", "latest": {"0.2.3--py310h30d9df9_6": "sha256:1dfecec8d23ea1dedd70d241b29c6cd0fa25aa089028a28893fe71d120fd3be3"}, "tags": {"0.2.3--py36h2ad2d48_3": "sha256:89ae914031cb39902aea8de7d0706478e59996ae864613954c116d585cab8840", "0.2.3--py310h30d9df9_6": "sha256:1dfecec8d23ea1dedd70d241b29c6cd0fa25aa089028a28893fe71d120fd3be3", "0.2.3--py38h4a32c8e_6": "sha256:50389f230afd6362d0577c5504b921b396ef51820404e1a405367c7f96961db5"}, "docker": "quay.io/biocontainers/pylibseq", "aliases": {"msp": "/usr/local/bin/msp", "mspms": "/usr/local/bin/mspms", "tskit": "/usr/local/bin/tskit", "f2py3.6": "/usr/local/bin/f2py3.6", "jsonschema": "/usr/local/bin/jsonschema", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pylibseq.

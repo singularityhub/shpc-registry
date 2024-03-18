@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dnaio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnaio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnaio/container.yaml"
-updated_at: "2024-03-18 03:59:02.446810"
-latest: "0.8.0--py39hbf8eff0_0"
+updated_at: "2024-03-18 23:41:41.714426"
+latest: "1.2.0--py38he5da3d1_1"
 container_url: "https://biocontainers.pro/tools/dnaio"
 aliases:
  - "igzip"
@@ -20,8 +20,13 @@ aliases:
  - "python3.9"
 versions:
  - "0.8.0--py39hbf8eff0_0"
+ - "1.2.0--py38he5da3d1_1"
+ - "1.1.0--py310h4b81fae_0"
+ - "1.0.1--py310h4b81fae_0"
+ - "0.10.0--py38he5da3d1_3"
+ - "0.9.1--py39hbf8eff0_1"
 description: "shpc-registry automated BioContainers addition for dnaio"
-config: {"url": "https://biocontainers.pro/tools/dnaio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dnaio", "latest": {"0.8.0--py39hbf8eff0_0": "sha256:ba32fbeebfb974dbd40ca9d4772901a388168aec2bdd4c31a1e8dd8d6d158733"}, "tags": {"0.8.0--py39hbf8eff0_0": "sha256:ba32fbeebfb974dbd40ca9d4772901a388168aec2bdd4c31a1e8dd8d6d158733"}, "docker": "quay.io/biocontainers/dnaio", "aliases": {"igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9"}}
+config: {"url": "https://biocontainers.pro/tools/dnaio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dnaio", "latest": {"1.2.0--py38he5da3d1_1": "sha256:5af6c6ce593cea2b90fdadfe1a726c2ce4d61f86c3f7ca40053f05db0c0ae1fa"}, "tags": {"0.8.0--py39hbf8eff0_0": "sha256:ba32fbeebfb974dbd40ca9d4772901a388168aec2bdd4c31a1e8dd8d6d158733", "1.2.0--py38he5da3d1_1": "sha256:5af6c6ce593cea2b90fdadfe1a726c2ce4d61f86c3f7ca40053f05db0c0ae1fa", "1.1.0--py310h4b81fae_0": "sha256:10fb19ae3bff3cf28793fe8382a9a5525309f2049533583b8f61d253a5492329", "1.0.1--py310h4b81fae_0": "sha256:35d5d7813afb78d667b1f47d70e9f52280aafb76e0d6b46fcd4f7900a551ff64", "0.10.0--py38he5da3d1_3": "sha256:f895a77c64b10094f00cb2e49e495520936477ff93057a922dd7dcf6b02ecaeb", "0.9.1--py39hbf8eff0_1": "sha256:c1adea8b1fd73edfd27a50312e9ec88c6f4b2c7c04d0b2f06bd4d5ae65a58653"}, "docker": "quay.io/biocontainers/dnaio", "aliases": {"igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dnaio.
@@ -36,7 +41,7 @@ $ shpc install quay.io/biocontainers/dnaio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dnaio:0.8.0--py39hbf8eff0_0
+$ shpc install quay.io/biocontainers/dnaio:1.2.0--py38he5da3d1_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dnaio/0.8.0--py39hbf8eff0_0
-$ module help quay.io/biocontainers/dnaio/0.8.0--py39hbf8eff0_0
+$ module load quay.io/biocontainers/dnaio/1.2.0--py38he5da3d1_1
+$ module help quay.io/biocontainers/dnaio/1.2.0--py38he5da3d1_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/krbalancing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krbalancing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/krbalancing/container.yaml"
-updated_at: "2024-03-18 03:22:22.842907"
+updated_at: "2024-03-18 23:07:49.110421"
 latest: "0.0.5--py310h0dbaff4_7"
 container_url: "https://biocontainers.pro/tools/krbalancing"
 aliases:
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.0.5--py38h4a32c8e_4"
  - "0.0.5--py310h0dbaff4_7"
+ - "0.0.5--py39h1f90b4d_7"
 description: "shpc-registry automated BioContainers addition for krbalancing"
-config: {"url": "https://biocontainers.pro/tools/krbalancing", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krbalancing", "latest": {"0.0.5--py310h0dbaff4_7": "sha256:70286ab6375e18726ecb5e80e208ae53562d6aa68623abb27f3c247614e674f3"}, "tags": {"0.0.5--py38h4a32c8e_4": "sha256:c393b80dd6376008d76af8256e9cc9a3e6c1cf6815bd30f4f5319b456032e34d", "0.0.5--py310h0dbaff4_7": "sha256:70286ab6375e18726ecb5e80e208ae53562d6aa68623abb27f3c247614e674f3"}, "docker": "quay.io/biocontainers/krbalancing", "aliases": {"pybind11-config": "/usr/local/bin/pybind11-config", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/krbalancing", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krbalancing", "latest": {"0.0.5--py310h0dbaff4_7": "sha256:70286ab6375e18726ecb5e80e208ae53562d6aa68623abb27f3c247614e674f3"}, "tags": {"0.0.5--py38h4a32c8e_4": "sha256:c393b80dd6376008d76af8256e9cc9a3e6c1cf6815bd30f4f5319b456032e34d", "0.0.5--py310h0dbaff4_7": "sha256:70286ab6375e18726ecb5e80e208ae53562d6aa68623abb27f3c247614e674f3", "0.0.5--py39h1f90b4d_7": "sha256:e17d943246724f86ec10c6dbbb68a2d39944bc585379febfda5b06b86f294d76"}, "docker": "quay.io/biocontainers/krbalancing", "aliases": {"pybind11-config": "/usr/local/bin/pybind11-config", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/krbalancing.

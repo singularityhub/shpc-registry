@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-maxlik"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-maxlik/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-maxlik/container.yaml"
-updated_at: "2024-03-18 03:58:35.653628"
+updated_at: "2024-03-18 23:41:15.792317"
 latest: "1.3_4--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-maxlik"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.3_4--r3.3.1_0"
+ - "1.3_4--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-maxlik"
-config: {"url": "https://biocontainers.pro/tools/r-maxlik", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-maxlik", "latest": {"1.3_4--r3.3.1_0": "sha256:2fabd7f6859248a2937c834129e17469e6baca7b746bfe65b0433b51744f2115"}, "tags": {"1.3_4--r3.3.1_0": "sha256:2fabd7f6859248a2937c834129e17469e6baca7b746bfe65b0433b51744f2115"}, "docker": "quay.io/biocontainers/r-maxlik", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-maxlik", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-maxlik", "latest": {"1.3_4--r3.3.1_0": "sha256:2fabd7f6859248a2937c834129e17469e6baca7b746bfe65b0433b51744f2115"}, "tags": {"1.3_4--r3.3.1_0": "sha256:2fabd7f6859248a2937c834129e17469e6baca7b746bfe65b0433b51744f2115", "1.3_4--r3.3.2_0": "sha256:8a561d593cb9768be05e0e71874fb3beb6dcfcc7f181aaa1c27d8a93c43f9178"}, "docker": "quay.io/biocontainers/r-maxlik", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-maxlik.

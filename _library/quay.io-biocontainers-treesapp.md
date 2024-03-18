@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/treesapp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treesapp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treesapp/container.yaml"
-updated_at: "2024-03-18 03:51:49.412163"
-latest: "0.11.3--py36hae55d0a_0"
+updated_at: "2024-03-18 23:34:43.697178"
+latest: "0.11.4--py37h96cfd12_1"
 container_url: "https://biocontainers.pro/tools/treesapp"
 aliases:
  - "epa-ng"
@@ -28,8 +28,11 @@ versions:
  - "0.9.8--py36hf1ae8f4_0"
  - "0.11.3--py36hae55d0a_0"
  - "0.10.4--py37h22450f8_1"
+ - "0.11.4--py37h96cfd12_1"
+ - "0.10.4--py36hae55d0a_1"
+ - "0.9.8--py37h9a982cc_0"
 description: "shpc-registry automated BioContainers addition for treesapp"
-config: {"url": "https://biocontainers.pro/tools/treesapp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treesapp", "latest": {"0.11.3--py36hae55d0a_0": "sha256:6ccdfc4941a609d147efdfd9bda086ce6fa4555209edde7185da6d8c68064584"}, "tags": {"0.9.8--py36hf1ae8f4_0": "sha256:d63460ac608408ff1be74b44e9252bbb0b8be1922563500451cc5ae1bccc812b", "0.11.3--py36hae55d0a_0": "sha256:6ccdfc4941a609d147efdfd9bda086ce6fa4555209edde7185da6d8c68064584", "0.10.4--py37h22450f8_1": "sha256:b6182d665f7996715f3a51232a14f7f5c83f020783ddabd8f8f6692d847a831f"}, "docker": "quay.io/biocontainers/treesapp", "aliases": {"epa-ng": "/usr/local/bin/epa-ng", "pyfastx": "/usr/local/bin/pyfastx", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "samsum": "/usr/local/bin/samsum", "treesapp": "/usr/local/bin/treesapp", "mmseqs": "/usr/local/bin/mmseqs", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "vsearch": "/usr/local/bin/vsearch", "ete3": "/usr/local/bin/ete3", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "xkbcli": "/usr/local/bin/xkbcli", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl"}}
+config: {"url": "https://biocontainers.pro/tools/treesapp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treesapp", "latest": {"0.11.4--py37h96cfd12_1": "sha256:b676af9a6f17f20ae58045c4121acdaf6119869b58e77a1407af925b50e72458"}, "tags": {"0.9.8--py36hf1ae8f4_0": "sha256:d63460ac608408ff1be74b44e9252bbb0b8be1922563500451cc5ae1bccc812b", "0.11.3--py36hae55d0a_0": "sha256:6ccdfc4941a609d147efdfd9bda086ce6fa4555209edde7185da6d8c68064584", "0.10.4--py37h22450f8_1": "sha256:b6182d665f7996715f3a51232a14f7f5c83f020783ddabd8f8f6692d847a831f", "0.11.4--py37h96cfd12_1": "sha256:b676af9a6f17f20ae58045c4121acdaf6119869b58e77a1407af925b50e72458", "0.10.4--py36hae55d0a_1": "sha256:88a52c6fdea2d4cebf64518b32018d6e727d885ea7145000e52529e12afc2d2b", "0.9.8--py37h9a982cc_0": "sha256:d3c60e7972bd0b4aa88ef47372b310bb170b714d69e1975fb79e888fcc0fd45c"}, "docker": "quay.io/biocontainers/treesapp", "aliases": {"epa-ng": "/usr/local/bin/epa-ng", "pyfastx": "/usr/local/bin/pyfastx", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "samsum": "/usr/local/bin/samsum", "treesapp": "/usr/local/bin/treesapp", "mmseqs": "/usr/local/bin/mmseqs", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "vsearch": "/usr/local/bin/vsearch", "ete3": "/usr/local/bin/ete3", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "xkbcli": "/usr/local/bin/xkbcli", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/treesapp.
@@ -44,7 +47,7 @@ $ shpc install quay.io/biocontainers/treesapp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/treesapp:0.11.3--py36hae55d0a_0
+$ shpc install quay.io/biocontainers/treesapp:0.11.4--py37h96cfd12_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/treesapp/0.11.3--py36hae55d0a_0
-$ module help quay.io/biocontainers/treesapp/0.11.3--py36hae55d0a_0
+$ module load quay.io/biocontainers/treesapp/0.11.4--py37h96cfd12_1
+$ module help quay.io/biocontainers/treesapp/0.11.4--py37h96cfd12_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

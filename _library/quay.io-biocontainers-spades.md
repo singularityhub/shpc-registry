@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/spades"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spades/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spades/container.yaml"
-updated_at: "2024-03-18 03:45:19.152457"
-latest: "3.15.4--h95f258a_0"
+updated_at: "2024-03-18 23:28:32.273121"
+latest: "3.15.5--h95f258a_1"
 container_url: "https://biocontainers.pro/tools/spades"
 aliases:
  - "2to3-3.5"
@@ -54,8 +54,9 @@ aliases:
  - "truspades.py"
 versions:
  - "3.15.4--h95f258a_0"
+ - "3.15.5--h95f258a_1"
 description: "shpc-registry automated BioContainers addition for spades"
-config: {"url": "https://biocontainers.pro/tools/spades", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spades", "latest": {"3.15.4--h95f258a_0": "sha256:7dfda44ae2535ba1ccc7c60c2ec265f8672cfd45885f458a964daf1b839a7ec1"}, "tags": {"3.15.4--h95f258a_0": "sha256:7dfda44ae2535ba1ccc7c60c2ec265f8672cfd45885f458a964daf1b839a7ec1"}, "docker": "quay.io/biocontainers/spades", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "bwa-spades": "/usr/local/bin/bwa-spades", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "coronaspades.py": "/usr/local/bin/coronaspades.py", "corrector": "/usr/local/bin/corrector", "dipspades.py": "/usr/local/bin/dipspades.py", "dipspades": "/usr/local/bin/dipspades", "hammer": "/usr/local/bin/hammer", "idle3.5": "/usr/local/bin/idle3.5", "ionhammer": "/usr/local/bin/ionhammer", "mag-improve": "/usr/local/bin/mag-improve", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaspades.py": "/usr/local/bin/metaspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "plasmidspades.py": "/usr/local/bin/plasmidspades.py", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5": "/usr/local/bin/python3.5", "python3.5m-config": "/usr/local/bin/python3.5m-config", "python3.5m": "/usr/local/bin/python3.5m", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "pyvenv": "/usr/local/bin/pyvenv", "rnaspades.py": "/usr/local/bin/rnaspades.py", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "scaffold_correction": "/usr/local/bin/scaffold_correction", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-hammer": "/usr/local/bin/spades-hammer", "spades-ionhammer": "/usr/local/bin/spades-ionhammer", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-kmercount": "/usr/local/bin/spades-kmercount", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spades-truseq-scfcorrection": "/usr/local/bin/spades-truseq-scfcorrection", "spades.py": "/usr/local/bin/spades.py", "spades": "/usr/local/bin/spades", "spades_init.py": "/usr/local/bin/spades_init.py", "spaligner": "/usr/local/bin/spaligner", "truspades.py": "/usr/local/bin/truspades.py"}}
+config: {"url": "https://biocontainers.pro/tools/spades", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spades", "latest": {"3.15.5--h95f258a_1": "sha256:ce6565d2e86ca1a0baacca9888837c246ec1cab0f2821ed3ba40acc6e0dd5d0e"}, "tags": {"3.15.4--h95f258a_0": "sha256:7dfda44ae2535ba1ccc7c60c2ec265f8672cfd45885f458a964daf1b839a7ec1", "3.15.5--h95f258a_1": "sha256:ce6565d2e86ca1a0baacca9888837c246ec1cab0f2821ed3ba40acc6e0dd5d0e"}, "docker": "quay.io/biocontainers/spades", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "bwa-spades": "/usr/local/bin/bwa-spades", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "coronaspades.py": "/usr/local/bin/coronaspades.py", "corrector": "/usr/local/bin/corrector", "dipspades.py": "/usr/local/bin/dipspades.py", "dipspades": "/usr/local/bin/dipspades", "hammer": "/usr/local/bin/hammer", "idle3.5": "/usr/local/bin/idle3.5", "ionhammer": "/usr/local/bin/ionhammer", "mag-improve": "/usr/local/bin/mag-improve", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaspades.py": "/usr/local/bin/metaspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "plasmidspades.py": "/usr/local/bin/plasmidspades.py", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5": "/usr/local/bin/python3.5", "python3.5m-config": "/usr/local/bin/python3.5m-config", "python3.5m": "/usr/local/bin/python3.5m", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "pyvenv": "/usr/local/bin/pyvenv", "rnaspades.py": "/usr/local/bin/rnaspades.py", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "scaffold_correction": "/usr/local/bin/scaffold_correction", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-hammer": "/usr/local/bin/spades-hammer", "spades-ionhammer": "/usr/local/bin/spades-ionhammer", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-kmercount": "/usr/local/bin/spades-kmercount", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spades-truseq-scfcorrection": "/usr/local/bin/spades-truseq-scfcorrection", "spades.py": "/usr/local/bin/spades.py", "spades": "/usr/local/bin/spades", "spades_init.py": "/usr/local/bin/spades_init.py", "spaligner": "/usr/local/bin/spaligner", "truspades.py": "/usr/local/bin/truspades.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spades.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/spades
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/spades:3.15.4--h95f258a_0
+$ shpc install quay.io/biocontainers/spades:3.15.5--h95f258a_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/spades/3.15.4--h95f258a_0
-$ module help quay.io/biocontainers/spades/3.15.4--h95f258a_0
+$ module load quay.io/biocontainers/spades/3.15.5--h95f258a_1
+$ module help quay.io/biocontainers/spades/3.15.5--h95f258a_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cosmosr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cosmosr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cosmosr/container.yaml"
-updated_at: "2024-03-18 03:51:55.012346"
-latest: "1.8.0--r43hdfd78af_0"
+updated_at: "2024-03-18 23:34:49.002697"
+latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cosmosr"
 aliases:
  - "pandoc"
@@ -13,8 +13,9 @@ versions:
  - "1.2.0--r41hdfd78af_0"
  - "1.6.0--r42hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
+ - "1.10.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cosmosr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cosmosr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cosmosr", "latest": {"1.8.0--r43hdfd78af_0": "sha256:d11883ed4433b28863e6848c12bbd24a1831878785ce5522169d1e9b60db20c9"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:0818dde3e37d6f3041ec115d6951fe266c1d7dc0515bdea4ba8e40f65ecd71b0", "1.6.0--r42hdfd78af_0": "sha256:0a3e128e97d73aaae0650b03f891c459f6044998151c1342a5b93bf7f252d894", "1.8.0--r43hdfd78af_0": "sha256:d11883ed4433b28863e6848c12bbd24a1831878785ce5522169d1e9b60db20c9"}, "docker": "quay.io/biocontainers/bioconductor-cosmosr", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cosmosr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cosmosr", "latest": {"1.10.0--r43hdfd78af_0": "sha256:5908457f2cbd254b0079eca4b6de7d063af1faad60624c1d6a202089e0ade895"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:0818dde3e37d6f3041ec115d6951fe266c1d7dc0515bdea4ba8e40f65ecd71b0", "1.6.0--r42hdfd78af_0": "sha256:0a3e128e97d73aaae0650b03f891c459f6044998151c1342a5b93bf7f252d894", "1.8.0--r43hdfd78af_0": "sha256:d11883ed4433b28863e6848c12bbd24a1831878785ce5522169d1e9b60db20c9", "1.10.0--r43hdfd78af_0": "sha256:5908457f2cbd254b0079eca4b6de7d063af1faad60624c1d6a202089e0ade895"}, "docker": "quay.io/biocontainers/bioconductor-cosmosr", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cosmosr.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cosmosr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cosmosr:1.8.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cosmosr:1.10.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cosmosr/1.8.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cosmosr/1.8.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cosmosr/1.10.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cosmosr/1.10.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

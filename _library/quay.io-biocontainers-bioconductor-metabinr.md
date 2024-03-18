@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metabinr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metabinr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metabinr/container.yaml"
-updated_at: "2024-03-18 04:07:07.234906"
+updated_at: "2024-03-18 23:49:29.160812"
 latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metabinr"
 aliases:
