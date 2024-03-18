@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/phylophlan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phylophlan
 latest:
-  3.1--pyhdfd78af_0: sha256:2299cc869c2bdd4c075dad5737448dc91f37f6ee8bcffc9295931a75e142d5ef
+  3.1.1--pyhdfd78af_0: sha256:a08cd83326a81d21d3e78a7ebf36b8255107dfb50c3107b9700c3395381d3cbd
 tags:
   3.0--py_7: sha256:7ad925997528299766b3f7cab8b13ce447e3715c4010976556d6a014a2f4ac83
   3.1--pyhdfd78af_0: sha256:2299cc869c2bdd4c075dad5737448dc91f37f6ee8bcffc9295931a75e142d5ef
+  3.1.1--pyhdfd78af_0: sha256:a08cd83326a81d21d3e78a7ebf36b8255107dfb50c3107b9700c3395381d3cbd
 docker: quay.io/biocontainers/phylophlan
 aliases:
   phylophlan: /usr/local/bin/phylophlan

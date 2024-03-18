@@ -5,6 +5,7 @@ latest:
   1.0.4_beta--h5b5514e_2: sha256:7801552791c4b778bea9a544debff237f2383bee2718484a5bd574b9b89866d8
 tags:
   1.0.4_beta--h5b5514e_2: sha256:7801552791c4b778bea9a544debff237f2383bee2718484a5bd574b9b89866d8
+  1.0.4--h43eeafb_2: sha256:a9b5a137912f45edc9a74b9bac4338e7b5a48edbc689b635c8d423c68966ac2f
 docker: quay.io/biocontainers/centrifuge-core
 aliases:
   centrifuge: /usr/local/bin/centrifuge

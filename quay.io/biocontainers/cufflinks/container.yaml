@@ -5,6 +5,7 @@ latest:
   2.2.1--py36_2: sha256:28c24c8bc79ad89d7426dd724f0e317b306467656ad7e18a6e7c29d8f7d72dcd
 tags:
   2.2.1--py36_2: sha256:28c24c8bc79ad89d7426dd724f0e317b306467656ad7e18a6e7c29d8f7d72dcd
+  2.2.1--py27_2: sha256:e3f7493b64c199020be27e76988985d999650b32b99b429cd613a9b3d44a3d9b
 docker: quay.io/biocontainers/cufflinks
 aliases:
   cuffcompare: /usr/local/bin/cuffcompare

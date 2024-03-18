@@ -5,6 +5,7 @@ latest:
   v4.0--1: sha256:b09d49ad4fd507b68d998dd0a3e26759d816bfed69476a5760c888aa933ac698
 tags:
   v4.0--1: sha256:b09d49ad4fd507b68d998dd0a3e26759d816bfed69476a5760c888aa933ac698
+  4.0--hdfd78af_1: sha256:ba2bb61711d7a5e79f6a5fb98b69e815e6b0d5d097b3b17fcd1545ddaad9c293
 docker: quay.io/biocontainers/colombo
 aliases:
   Colombo: /usr/local/bin/Colombo

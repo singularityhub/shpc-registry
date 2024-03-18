@@ -5,6 +5,7 @@ latest:
   2.5.0--r3.3.1_0: sha256:dc80b5117365b9a80ef910a793f1300ac1eaed215de20f9c0df35645e9f3faff
 tags:
   2.5.0--r3.3.1_0: sha256:dc80b5117365b9a80ef910a793f1300ac1eaed215de20f9c0df35645e9f3faff
+  2.5.0--r3.3.2_0: sha256:5571bb12be5acd5c197cd984b55651ccb7f5f633311a9d748410c41d11d04a6d
 docker: quay.io/biocontainers/r-r.utils
 aliases:
   uconv: /usr/local/bin/uconv

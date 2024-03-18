@@ -5,6 +5,7 @@ latest:
   1.4.1--py35_0: sha256:7a6f132863afb0a283aa3f8cef6451437fa61e341e23dcbe9dc0bb6402b7f74d
 tags:
   1.4.1--py35_0: sha256:7a6f132863afb0a283aa3f8cef6451437fa61e341e23dcbe9dc0bb6402b7f74d
+  1.4.1--py36_0: sha256:45870a42df4aca64e6f48e94f8c22b0b3385d4a864ac36e1dae9a96dae548714
 docker: quay.io/biocontainers/brewer2mpl
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5
