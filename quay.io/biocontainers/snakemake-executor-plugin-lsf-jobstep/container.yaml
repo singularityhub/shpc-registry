@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/snakemake-executor-plugin-lsf-jobstep
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for snakemake-executor-plugin-lsf-jobstep
+latest:
+  0.1.10--pyhdfd78af_0: sha256:24294568921e1e498bf767a4f7d7c170ce5a256444c4f36202d070178d461978
+tags:
+  0.1.10--pyhdfd78af_0: sha256:24294568921e1e498bf767a4f7d7c170ce5a256444c4f36202d070178d461978
+docker: quay.io/biocontainers/snakemake-executor-plugin-lsf-jobstep
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

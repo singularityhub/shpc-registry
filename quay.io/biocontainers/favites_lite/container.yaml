@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/favites_lite
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for favites_lite
+latest:
+  1.0.1--hdfd78af_0: sha256:91e448a45956d134b4a250652c7cb17b7cc231eb26d1e30c5d0a53f9e429789e
+tags:
+  1.0.1--hdfd78af_0: sha256:91e448a45956d134b4a250652c7cb17b7cc231eb26d1e30c5d0a53f9e429789e
+docker: quay.io/biocontainers/favites_lite
+aliases:
+  GEMF: /usr/local/bin/GEMF
+  GEMF_FAVITES.py: /usr/local/bin/GEMF_FAVITES.py
+  coatran_constant: /usr/local/bin/coatran_constant
+  coatran_expgrowth: /usr/local/bin/coatran_expgrowth
+  coatran_inftime: /usr/local/bin/coatran_inftime
+  coatran_transtree: /usr/local/bin/coatran_transtree
+  favites_lite.py: /usr/local/bin/favites_lite.py
+  ngg_barabasi_albert: /usr/local/bin/ngg_barabasi_albert
+  ngg_barbell: /usr/local/bin/ngg_barbell
+  ngg_complete: /usr/local/bin/ngg_complete
+  ngg_cycle: /usr/local/bin/ngg_cycle
+  ngg_empty: /usr/local/bin/ngg_empty
+  ngg_erdos_renyi: /usr/local/bin/ngg_erdos_renyi
+  ngg_newman_watts_strogatz: /usr/local/bin/ngg_newman_watts_strogatz
+  ngg_path: /usr/local/bin/ngg_path
+  ngg_ring_lattice: /usr/local/bin/ngg_ring_lattice
+  seq-gen: /usr/local/bin/seq-gen
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

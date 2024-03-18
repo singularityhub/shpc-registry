@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/orientationpy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for orientationpy
+latest:
+  0.2.0.4--pyhdfd78af_0: sha256:fef62e82dd43a459ad9c8d07823f8d5c13a38cf14610e4a30caced1550b4e465
+tags:
+  0.2.0.4--pyhdfd78af_0: sha256:fef62e82dd43a459ad9c8d07823f8d5c13a38cf14610e4a30caced1550b4e465
+docker: quay.io/biocontainers/orientationpy
+aliases:
+  numba: /usr/local/bin/numba
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

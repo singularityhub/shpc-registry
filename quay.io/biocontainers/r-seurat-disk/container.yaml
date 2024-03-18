@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/r-seurat-disk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-seurat-disk
+latest:
+  0.0.0.9021--r43h9ee0642_0: sha256:00f4290bad530073598cc7d5cf6ef0344d7a7568c0b69504aa4d493cd0527005
+tags:
+  0.0.0.9021--r43h9ee0642_0: sha256:00f4290bad530073598cc7d5cf6ef0344d7a7568c0b69504aa4d493cd0527005
+docker: quay.io/biocontainers/r-seurat-disk
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  pandoc-server: /usr/local/bin/pandoc-server
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  h5delete: /usr/local/bin/h5delete
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  glpsol: /usr/local/bin/glpsol
+  hb-info: /usr/local/bin/hb-info
+  pandoc: /usr/local/bin/pandoc
+  tjbench: /usr/local/bin/tjbench
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam
+  h5ls: /usr/local/bin/h5ls
+  h5mkgrp: /usr/local/bin/h5mkgrp
+  h5perf_serial: /usr/local/bin/h5perf_serial
+  h5redeploy: /usr/local/bin/h5redeploy

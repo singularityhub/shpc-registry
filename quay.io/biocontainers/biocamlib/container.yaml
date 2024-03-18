@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/biocamlib
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for biocamlib
+latest:
+  1.0.0--h9ee0642_0: sha256:aa5f1ed2f11a681edd0a3c958a5c6cf2ffd6df9e35ee4c063be0d00885a17ade
+tags:
+  1.0.0--h9ee0642_0: sha256:aa5f1ed2f11a681edd0a3c958a5c6cf2ffd6df9e35ee4c063be0d00885a17ade
+docker: quay.io/biocontainers/biocamlib
+aliases:
+  FASTools: /usr/local/bin/FASTools
+  Octopus: /usr/local/bin/Octopus
+  Parallel: /usr/local/bin/Parallel
+  RC: /usr/local/bin/RC
