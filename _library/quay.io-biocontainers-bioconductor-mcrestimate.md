@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mcrestimate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mcrestimate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mcrestimate/container.yaml"
-updated_at: "2024-03-18 03:01:51.115912"
+updated_at: "2024-03-18 04:03:07.937538"
 latest: "2.42.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mcrestimate"
 aliases:

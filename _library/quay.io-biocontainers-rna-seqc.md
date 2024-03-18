@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rna-seqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rna-seqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rna-seqc/container.yaml"
-updated_at: "2024-03-18 02:40:38.010248"
+updated_at: "2024-03-18 03:41:24.144044"
 latest: "2.3.5--ha241645_5"
 container_url: "https://biocontainers.pro/tools/rna-seqc"
 aliases:

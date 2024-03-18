@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kipoi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kipoi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kipoi/container.yaml"
-updated_at: "2024-03-18 02:46:19.278994"
+updated_at: "2024-03-18 03:47:16.946720"
 latest: "0.8.6--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/kipoi"
 

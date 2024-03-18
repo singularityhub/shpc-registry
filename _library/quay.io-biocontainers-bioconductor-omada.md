@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-omada"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omada/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omada/container.yaml"
-updated_at: "2024-03-18 02:38:40.519300"
+updated_at: "2024-03-18 03:39:20.575281"
 latest: "1.4.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-omada"
 

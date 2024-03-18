@@ -4,7 +4,7 @@ name:  "nvcr.io/hpc/preflightcheck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/preflightcheck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/hpc/preflightcheck/container.yaml"
-updated_at: "2024-03-18 02:22:10.522519"
+updated_at: "2024-03-18 03:21:14.866558"
 latest: "20.11"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:preflightcheck"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fragpipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fragpipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fragpipe/container.yaml"
-updated_at: "2024-03-18 02:52:42.925697"
+updated_at: "2024-03-18 03:53:51.702017"
 latest: "20.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fragpipe"
 aliases:
