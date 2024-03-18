@@ -5,6 +5,7 @@ latest:
   0.3.2--py35_1: sha256:163143dc1e963f3981999d140cea30483ece91de7bf5a45eeb984625ca1ef762
 tags:
   0.3.2--py35_1: sha256:163143dc1e963f3981999d140cea30483ece91de7bf5a45eeb984625ca1ef762
+  0.3.2--py36_1: sha256:9a126ada6111307c7045885f4afd0e80f2060966bbe3269e5cba1d0ac7313abe
 docker: quay.io/biocontainers/argutils
 aliases:
   2to3-3.5: /usr/local/bin/2to3-3.5

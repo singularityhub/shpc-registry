@@ -5,6 +5,7 @@ latest:
   1.2.8--py39hdd8045a_0: sha256:1f52e2c8667bd29bd832f2e48628fe591d1013cb00d772f78e0c656fc28f9f38
 tags:
   1.2.8--py39hdd8045a_0: sha256:1f52e2c8667bd29bd832f2e48628fe591d1013cb00d772f78e0c656fc28f9f38
+  1.2.8--py310h7eb0018_0: sha256:922b0efc7f7df2ba6456b4ac76ad8bc8773f347631032f5be20c745bb9558752
 docker: quay.io/biocontainers/dropkick
 aliases:
   SvtAv1DecApp: /usr/local/bin/SvtAv1DecApp

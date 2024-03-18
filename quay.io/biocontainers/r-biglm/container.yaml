@@ -5,6 +5,7 @@ latest:
   0.9_1--r3.3.1_0: sha256:4e96c2fe7caee8f9d688efe9853ea404276dc351a5ee8b1184fe1f5f36d3c61b
 tags:
   0.9_1--r3.3.1_0: sha256:4e96c2fe7caee8f9d688efe9853ea404276dc351a5ee8b1184fe1f5f36d3c61b
+  0.9_1--r3.3.2_0: sha256:38c5b3f549273dbe4060b5522475d75a7aefb9ba44cccf3e65e147c20e2bc709
 docker: quay.io/biocontainers/r-biglm
 aliases:
   uconv: /usr/local/bin/uconv

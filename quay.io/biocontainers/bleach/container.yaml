@@ -5,6 +5,7 @@ latest:
   1.4.2--py35_0: sha256:b7f71fa5c3a55f778443402bca4baa3d8aac227514fc2e851a41a53693f06849
 tags:
   1.4.2--py35_0: sha256:b7f71fa5c3a55f778443402bca4baa3d8aac227514fc2e851a41a53693f06849
+  1.4.2--py36_0: sha256:2f74d2462138803363752b9794a607e582031e1b52fcc171610a4f70361fae73
 docker: quay.io/biocontainers/bleach
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

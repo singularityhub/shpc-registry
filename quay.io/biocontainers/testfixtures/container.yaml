@@ -5,6 +5,7 @@ latest:
   4.8.0--py35_0: sha256:d1ff3b57055a3c07f35e0ac9739ccc8564ca656e0c81b29a6f027de78fcf192a
 tags:
   4.8.0--py35_0: sha256:d1ff3b57055a3c07f35e0ac9739ccc8564ca656e0c81b29a6f027de78fcf192a
+  4.8.0--py36_0: sha256:4083460ecb61df3cc4abaa21399f9906a69add4c284887880569e7497eb98f30
 docker: quay.io/biocontainers/testfixtures
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

@@ -5,6 +5,7 @@ latest:
   0.14--py36hd181a71_1: sha256:30e6a5ae975f3a1e4ac203ef7835291116de546ab8db00377782ab7158ba8edc
 tags:
   0.14--py36hd181a71_1: sha256:30e6a5ae975f3a1e4ac203ef7835291116de546ab8db00377782ab7158ba8edc
+  0.14--py37h13b99d1_1: sha256:aa5936f416b83dbac7638fb21b84d715f50e186f3b598c8d9d4284377cdffa7a
 docker: quay.io/biocontainers/goetia
 aliases:
   bam2fasta: /usr/local/bin/bam2fasta

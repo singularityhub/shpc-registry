@@ -5,6 +5,7 @@ latest:
   0.4.10--py35_0: sha256:22add512238bc474ec8ce6ed9ed35628bfc17beb80c3f586ae6e3543092c0220
 tags:
   0.4.10--py35_0: sha256:22add512238bc474ec8ce6ed9ed35628bfc17beb80c3f586ae6e3543092c0220
+  0.4.10--py36_0: sha256:d1765625c4975bb8b83a647de6f534e07e0b57da9f72052091ce9cbad88e3e4c
 docker: quay.io/biocontainers/requests-cache
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

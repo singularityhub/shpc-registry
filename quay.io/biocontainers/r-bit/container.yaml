@@ -5,4 +5,5 @@ latest:
   1.1_12--r3.2.2_0: sha256:243fa30da3e7d738e13d8df27461fa9e6dd8f46ae8397ee11c895b0271190409
 tags:
   1.1_12--r3.2.2_0: sha256:243fa30da3e7d738e13d8df27461fa9e6dd8f46ae8397ee11c895b0271190409
+  1.1_12--r3.3.2_0: sha256:6f0be3ac6b219c2c217387b31cde3edddb5069b8cc4d0be6f407cc1155aefd9c
 docker: quay.io/biocontainers/r-bit

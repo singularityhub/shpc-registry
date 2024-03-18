@@ -5,6 +5,7 @@ latest:
   1.4--py35_0: sha256:92ef4813a813497ccb176fd44cd0959e2c36029079f59e1c5fcb9cba0908360b
 tags:
   1.4--py35_0: sha256:92ef4813a813497ccb176fd44cd0959e2c36029079f59e1c5fcb9cba0908360b
+  1.4--py36_0: sha256:564010ee21451f29a7f91b15fd00c4cc5c07b05b2973673fc0c18ab194bd74e3
 docker: quay.io/biocontainers/infinity
 aliases:
   2to3-3.5: /usr/local/bin/2to3-3.5

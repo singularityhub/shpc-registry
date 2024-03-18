@@ -5,6 +5,7 @@ latest:
   0.14--r3.3.1_0: sha256:9c87cac757649a3588a1f8ce0b8c8a77b5a7e1822befbfd46cfde339ed3327ab
 tags:
   0.14--r3.3.1_0: sha256:9c87cac757649a3588a1f8ce0b8c8a77b5a7e1822befbfd46cfde339ed3327ab
+  0.14--r3.3.2_0: sha256:b902282f6ba0f0102af07583442fcc39105ee052e7dad0b5842dad24c7f17cb5
 docker: quay.io/biocontainers/r-outliers
 aliases:
   pango-querymodules: /usr/local/bin/pango-querymodules

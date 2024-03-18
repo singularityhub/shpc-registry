@@ -5,6 +5,7 @@ latest:
   0.02--py39hbf8eff0_1: sha256:8c135f159b745ca77e500a7b2c766d969d170169186f3c50ef57ddb751588b0d
 tags:
   0.02--py39hbf8eff0_1: sha256:8c135f159b745ca77e500a7b2c766d969d170169186f3c50ef57ddb751588b0d
+  0.02--py310h1425a21_1: sha256:0c80ece58df4b716333ecda4a2fee790760e0efef7c01b114d733940419825db
 docker: quay.io/biocontainers/maxentpy
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9

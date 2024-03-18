@@ -6,6 +6,7 @@ latest:
 tags:
   0.0.4--py39hbf8eff0_1: sha256:4f02faf3cb58c793cd24e733143d8be372133c11f7fe06b7d60ae9837289237b
   0.0.4--py38he5da3d1_2: sha256:f44e510091daced8ceb04a0087388b28636f73f21cb67307a40e35eaa114e9ed
+  0.0.4--py39hf95cd2a_2: sha256:b9f4211c0de3efb3ceb37c320eb4c0641127bd4d3a162262e79e6ac896d28d23
 docker: quay.io/biocontainers/samwell
 aliases:
   docutils: /usr/local/bin/docutils

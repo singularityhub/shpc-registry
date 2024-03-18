@@ -5,6 +5,7 @@ latest:
   2.1--py35_0: sha256:ee06d1cc4523ae1fcf38156262679dafefeff5190a3e23b00b0242e75e10ce27
 tags:
   2.1--py35_0: sha256:ee06d1cc4523ae1fcf38156262679dafefeff5190a3e23b00b0242e75e10ce27
+  2.1--py36_0: sha256:fe4e07712018789b396080bb7f2e4cec11d5f1e7f29fe061611a1974e3343cda
 docker: quay.io/biocontainers/flask-sqlalchemy
 aliases:
   flask: /usr/local/bin/flask

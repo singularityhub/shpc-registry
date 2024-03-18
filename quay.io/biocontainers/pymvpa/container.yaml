@@ -6,6 +6,7 @@ latest:
 tags:
   2.6.5--py39h70e0db4_5: sha256:8511e0b9e2e8bfb7fdb8b67b23e4b0baf71a91f61a8d76dfd9c9e8d29795179c
   2.6.5--py310hda10691_8: sha256:5122c074b0aad966b8f212f48c4bd86a1a1eed67d173ac5b18569a4fc2dab848
+  2.6.5--py39h0163359_8: sha256:9e67d05d02197d9132095358762e64727721fea2e6de30b966c7088424c4c833
 docker: quay.io/biocontainers/pymvpa
 aliases:
   ccache-swig: /usr/local/bin/ccache-swig

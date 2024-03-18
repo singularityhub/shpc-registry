@@ -5,6 +5,7 @@ latest:
   2.6.0--py34_0: sha256:405fbdf4d1624658cdb24203b4f1051e7e0271b939fb9873d389733018c74a30
 tags:
   2.6.0--py34_0: sha256:405fbdf4d1624658cdb24203b4f1051e7e0271b939fb9873d389733018c74a30
+  2.6.0--py36_0: sha256:c1b819faa5586e58c0e46970ed64de3e19bcc9a8ef7b6e3fc7db2d2091a070f4
 docker: quay.io/biocontainers/python-dateutil
 aliases:
   2to3-3.4: /usr/local/bin/2to3-3.4

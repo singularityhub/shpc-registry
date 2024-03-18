@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/samtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for samtools
 latest:
-  1.15--h3843a85_0: sha256:d68e1b5f504dc60eb9f2a02eecbac44a63f144e7d455b3fb1a25323c667ca4c4
+  1.19.2--h50ea8bc_1: sha256:9cd15e719101ae8808e4c3f152cca2bf06f9e1ad8551ed43c1e626cb6afdaa02
 tags:
   1.10--h2e538c0_3: sha256:84a8d0c0acec87448a47cefa60c4f4a545887239fcd7984a58b48e7a6ac86390
   1.11--h6270b1f_0: sha256:141120f19f849b79e05ae2fac981383988445c373b8b5db7f3dd221179af382b
@@ -10,6 +10,11 @@ tags:
   1.13--h8c37831_0: sha256:04da5297386dfae2458a93613a8c60216d158ee7cb9f96188dad71c1952f7f72
   1.14--hb421002_0: sha256:88632c41eba8b94b7a2a1013f422aecf478a0cb278740bcc3a38058c903d61ad
   1.15--h3843a85_0: sha256:d68e1b5f504dc60eb9f2a02eecbac44a63f144e7d455b3fb1a25323c667ca4c4
+  1.19.2--h50ea8bc_1: sha256:9cd15e719101ae8808e4c3f152cca2bf06f9e1ad8551ed43c1e626cb6afdaa02
+  1.18--h50ea8bc_1: sha256:d98e76a31fc42336a11ee2b7f15a2f7dff7a36bcfd82bd712570411468573ebd
+  1.17--hd87286a_2: sha256:b3b53a23804f421ee67d624af55c3a22cd2a8ff896d39ad38413c63488a286e4
+  1.16.1--h00cdaf9_2: sha256:85f48a5a15fa523ba0edf3797f9e127f56e1ee4ef1d6dc90a757a53498a27c3e
+  1.15.1--h6899075_1: sha256:7b9def45ac8a25153935ca53118c8dbed2ea92a99001c83508fec3f0f6f26802
 docker: quay.io/biocontainers/samtools
 aliases:
   ace2sam: /usr/local/bin/ace2sam

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/hitac
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hitac
 latest:
-  2.2.1--pyhdfd78af_0: sha256:97fd50cff28b9e2fd4c497dc478205cf16cdc078b56bd045eb14eaeac31c36a2
+  2.2.2--pyhdfd78af_0: sha256:7676960d7075a115d46cc86379bcf701106ca7ba7e1bc4bb56a7ca84f4400920
 tags:
   2.0.9--pyhdfd78af_1: sha256:93e8fbf4c59aec2d7144867b2ccf5efb3d8895de6a1cdd25aec13f077536fdd4
   2.0.21--pyhdfd78af_0: sha256:a5fa1532708e157cc37614dcff5294da86c2260aa10b8305612409d5fb9d339d
@@ -11,6 +11,7 @@ tags:
   2.0.30--pyhdfd78af_0: sha256:b6c5dbdbc955089b3ea8309093e5bbe324020e5a208e7e5d1d53c4478ae064a3
   2.2.1--pyhdfd78af_0: sha256:97fd50cff28b9e2fd4c497dc478205cf16cdc078b56bd045eb14eaeac31c36a2
   2.1.1--pyhdfd78af_0: sha256:8889c7ab7fe82ff8c16e2324d57fc4102dbab977aff79ede31ab0dd7ba369f70
+  2.2.2--pyhdfd78af_0: sha256:7676960d7075a115d46cc86379bcf701106ca7ba7e1bc4bb56a7ca84f4400920
 docker: quay.io/biocontainers/hitac
 aliases:
   hiclass: /usr/local/bin/hiclass

@@ -5,6 +5,7 @@ latest:
   1.0.2--hdfd78af_0: sha256:2346679dea1481c872f5a4274f78ebb5e9a5e22d6aae5e6c0e2b3cf8d336cc27
 tags:
   1.0.2--hdfd78af_0: sha256:2346679dea1481c872f5a4274f78ebb5e9a5e22d6aae5e6c0e2b3cf8d336cc27
+  1.0.2: sha256:ba2ab6ac6dec51f2e00534b7b1f1ebbac78c000fcf0eb7c3f7ef4bf69543ca5a
 docker: quay.io/biocontainers/parse_mito_blast
 aliases:
   parse_mito_blast.py: /usr/local/bin/parse_mito_blast.py

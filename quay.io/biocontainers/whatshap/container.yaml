@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/whatshap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for whatshap
 latest:
-  1.5--py39hc16433a_0: sha256:061a520a1dff9d31b267754fc55410c18b4d4449f66bb3f975ad95aba313d4ea
+  2.2--py310h0dbaff4_0: sha256:29def3e1bf45b97360ff8bee842cbbb489b14e6b8e366dff4d8e7ca089c2c8b7
 tags:
   1.5--py39hc16433a_0: sha256:061a520a1dff9d31b267754fc55410c18b4d4449f66bb3f975ad95aba313d4ea
+  2.2--py310h0dbaff4_0: sha256:29def3e1bf45b97360ff8bee842cbbb489b14e6b8e366dff4d8e7ca089c2c8b7
+  2.1--py39h1f90b4d_0: sha256:c2e7b7636f672ffee7bb3c6cb80317490a54b7d13f4e6a4d401fc742b3a14c29
+  2.0--py38h2494328_0: sha256:a29366d6cb7c2d6207dfdbd852f54d93cbeb31fdfafffb059ab73aa8f6d0be84
+  1.7--py310h0dbaff4_1: sha256:06b6214a063d449372a1cb1cfc870164e9ad1666bb6d992a2c684eb6db7f2b1b
+  1.6--py37h96cfd12_1: sha256:4cc2328d99a43750f0538f67a5f8776330a38654d1c2b7b06b1dcebf19de6717
 docker: quay.io/biocontainers/whatshap
 aliases:
   whatshap: /usr/local/bin/whatshap
