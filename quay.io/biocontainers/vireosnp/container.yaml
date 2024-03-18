@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/vireosnp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vireosnp
+latest:
+  0.5.8--pyh7cba7a3_0: sha256:25fe5a73e5485ac67dcaf3a8cc49c7515d93777dffb94afb57705147247a5624
+tags:
+  0.5.8--pyh7cba7a3_0: sha256:25fe5a73e5485ac67dcaf3a8cc49c7515d93777dffb94afb57705147247a5624
+docker: quay.io/biocontainers/vireosnp
+aliases:
+  GTbarcode: /usr/local/bin/GTbarcode
+  vireo: /usr/local/bin/vireo
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc
