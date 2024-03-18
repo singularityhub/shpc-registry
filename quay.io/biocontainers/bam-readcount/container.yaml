@@ -5,6 +5,7 @@ latest:
   0.8--py36pl526h94a8ba4_4: sha256:c83b579f9415ca84a6572aa79016891d181f0d6ea95c24664a9ce62a00a05bf8
 tags:
   0.8--py36pl526h94a8ba4_4: sha256:c83b579f9415ca84a6572aa79016891d181f0d6ea95c24664a9ce62a00a05bf8
+  0.8--py27pl526h94a8ba4_4: sha256:105fadd93c51b18302cf8609f055b019cc01b28139ad569ccb2fef7df2b90735
 docker: quay.io/biocontainers/bam-readcount
 aliases:
   bam-readcount: /usr/local/bin/bam-readcount

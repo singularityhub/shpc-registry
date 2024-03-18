@@ -5,6 +5,7 @@ latest:
   1.3_11--r3.2.2_0: sha256:d15e838d9f1f7fdb83989e73728e19dd22a526734d14ac8cf4d94ddf8ff265f3
 tags:
   1.3_11--r3.2.2_0: sha256:d15e838d9f1f7fdb83989e73728e19dd22a526734d14ac8cf4d94ddf8ff265f3
+  1.3_11--r3.3.2_0: sha256:4c1e53d893857fd6c6ddaf32d8453dc8cbfa76954ff1d91890ebf71e6e002403
 docker: quay.io/biocontainers/r-rrcov
 aliases:
   pngcp: /usr/local/bin/pngcp

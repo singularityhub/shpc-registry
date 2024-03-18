@@ -5,6 +5,7 @@ latest:
   0.5--r3.3.2_0: sha256:ef9e1b5d3b834fe7d62daf5245e022eeae9cfdab318dcf3ccf1b391da31d0e67
 tags:
   0.5--r3.3.2_0: sha256:ef9e1b5d3b834fe7d62daf5245e022eeae9cfdab318dcf3ccf1b391da31d0e67
+  0.5--r3.4.1_0: sha256:32b0775229a766641636166724941ba10ac980f6092059b07f041ab7054e3913
 docker: quay.io/biocontainers/r-gpseq
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

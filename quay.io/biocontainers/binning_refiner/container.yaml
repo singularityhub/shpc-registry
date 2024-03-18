@@ -5,6 +5,7 @@ latest:
   1.4.3--pyh5e36f6f_0: sha256:f214b51f81dcc5cb87f61171c359cbad7b16b3005bb85dc23e583d74dc2c1e9d
 tags:
   1.4.3--pyh5e36f6f_0: sha256:f214b51f81dcc5cb87f61171c359cbad7b16b3005bb85dc23e583d74dc2c1e9d
+  1.4.3: sha256:9993b118e8defdf9cb636e127eb554b3926c765496fb16c231102fb8e63fd79a
 docker: quay.io/biocontainers/binning_refiner
 aliases:
   Binning_refiner: /usr/local/bin/Binning_refiner

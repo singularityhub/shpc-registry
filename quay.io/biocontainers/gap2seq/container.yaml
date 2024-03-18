@@ -5,6 +5,7 @@ latest:
   3.1--py39h6c8c9e3_3: sha256:95662347fd6aa7f8454b67a2385c37039fe7863b676c1d0eee351db6dbbdd406
 tags:
   3.1--py39h6c8c9e3_3: sha256:95662347fd6aa7f8454b67a2385c37039fe7863b676c1d0eee351db6dbbdd406
+  3.1--py310h7bb695f_3: sha256:9a4108cb19e5e6b9d12d54a98c7deb9579cb90017c7df6f2f28e60311001b36f
 docker: quay.io/biocontainers/gap2seq
 aliases:
   Gap2Seq: /usr/local/bin/Gap2Seq

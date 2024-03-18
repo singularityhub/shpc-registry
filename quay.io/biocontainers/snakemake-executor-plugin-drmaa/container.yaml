@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/snakemake-executor-plugin-drmaa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snakemake-executor-plugin-drmaa
 latest:
-  0.1.3--pyhdfd78af_0: sha256:081df72898ae48f956569da1b43ffdbb6fba4cd4ba8738016a736b0ffbeb55c9
+  0.1.4--pyhdfd78af_0: sha256:b76707a4a34a8576c02c079dd42c1044a6c54df64dcfd57ea16fbd3ab6b06e6c
 tags:
   0.1.3--pyhdfd78af_0: sha256:081df72898ae48f956569da1b43ffdbb6fba4cd4ba8738016a736b0ffbeb55c9
+  0.1.4--pyhdfd78af_0: sha256:b76707a4a34a8576c02c079dd42c1044a6c54df64dcfd57ea16fbd3ab6b06e6c
 docker: quay.io/biocontainers/snakemake-executor-plugin-drmaa
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

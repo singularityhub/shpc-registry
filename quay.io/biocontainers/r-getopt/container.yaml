@@ -5,6 +5,7 @@ latest:
   1.20.0--r3.2.2_0: sha256:c48a0f945fee3bec2447b1d41e516dd7468f898a96656f421ba9f4901c666524
 tags:
   1.20.0--r3.2.2_0: sha256:c48a0f945fee3bec2447b1d41e516dd7468f898a96656f421ba9f4901c666524
+  1.20.0--r3.3.2_0: sha256:15935a60f93347c6e89749c9f2b5024938068d001322edcc2900e05db741d31f
 docker: quay.io/biocontainers/r-getopt
 aliases:
   pngcp: /usr/local/bin/pngcp

@@ -6,6 +6,7 @@ latest:
 tags:
   1.2.2--py37h96cfd12_3: sha256:acc9acd73f65eb7343634cfb4e776e9e4a9ea8485df4c16eaeb1fc9a56c6bc6c
   1.2.2--py39h1f90b4d_5: sha256:7e8322a53c9bd5a0c3bc5f2de34d73323ef494d5f62afc46a7ee02cfbcdbd282
+  1.2.2--py38h2494328_5: sha256:1320ac763b66b5c9823a176609c548704e3188ab66b39bd74cd29fea151797ee
 docker: quay.io/biocontainers/plncpro
 aliases:
   plncpro: /usr/local/bin/plncpro

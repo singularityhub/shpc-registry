@@ -5,6 +5,7 @@ latest:
   v1.0.1--py_0: sha256:32537c537035382d6d7f774300e84f362a01c44ab77acbc98827355cc1a82a99
 tags:
   v1.0.1--py_0: sha256:32537c537035382d6d7f774300e84f362a01c44ab77acbc98827355cc1a82a99
+  1.0.1--pyhdfd78af_0: sha256:c85a0545b2a00925439b5b89eac46541bccb0bf4cf2d2671c75c0285a8ee6f03
 docker: quay.io/biocontainers/metaclassifier
 aliases:
   classify_reads: /usr/local/bin/classify_reads

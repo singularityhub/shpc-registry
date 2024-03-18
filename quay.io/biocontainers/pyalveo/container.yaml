@@ -5,6 +5,7 @@ latest:
   1.0.3--py36_1: sha256:eea320f41e8f7a87cdbfe309c0764356f17a32b5d7c6b3d60fef6d5a6bb13b7c
 tags:
   1.0.3--py36_1: sha256:eea320f41e8f7a87cdbfe309c0764356f17a32b5d7c6b3d60fef6d5a6bb13b7c
+  1.0.3--py35_1: sha256:0ae820df23929e1513681757471a9fddd5676a40e9e3e9f77352779ffc6e051c
 docker: quay.io/biocontainers/pyalveo
 aliases:
   pyjwt: /usr/local/bin/pyjwt

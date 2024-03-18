@@ -5,6 +5,7 @@ latest:
   0.0.4--py35r3.3.1_0: sha256:8e2712379781fe7ed58fe0032cd8d94d941c90f79b58b57abb7c30ee2b6cbd68
 tags:
   0.0.4--py35r3.3.1_0: sha256:8e2712379781fe7ed58fe0032cd8d94d941c90f79b58b57abb7c30ee2b6cbd68
+  0.0.4--py35r3.4.1_0: sha256:3493cf0b973e4b703ef0f573ee8c389bf5988e8fa98924f61cc28551cba63757
 docker: quay.io/biocontainers/cgat-scripts-nosetests
 aliases:
   innochecksum: /usr/local/bin/innochecksum

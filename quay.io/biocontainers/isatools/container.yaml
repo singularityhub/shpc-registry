@@ -9,6 +9,7 @@ tags:
   0.11.0--py_0: sha256:41bffbd21deb58b59d92c7136953e92fe0864fed0c37fe3703a722aee2a3eb26
   0.10.3--py_1: sha256:806b5f738a462dcfd4a3d4df3a94fab1491115b70e70bdd1fa1ac237cb0a1ab8
   0.14.2--pyhdfd78af_0: sha256:5c2af7b7d8f4f477be96b3f4f172bb8b33907190822c0a54a5c56bae5ac0bad3
+  0.9.5--py35_0: sha256:d2211318fc8d9779a6c0fb63a64f92914085232e460a15959c0a3f363bb42806
 docker: quay.io/biocontainers/isatools
 aliases:
   isatools: /usr/local/bin/isatools

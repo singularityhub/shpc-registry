@@ -5,6 +5,7 @@ latest:
   3.4.0--r3.3.2_0: sha256:8226e8669cf402894ae0171546244be3f1f3ed8c692851c6995042bb61c47261
 tags:
   3.4.0--r3.3.2_0: sha256:8226e8669cf402894ae0171546244be3f1f3ed8c692851c6995042bb61c47261
+  3.4.0--r3.4.1_0: sha256:2063b6f31774c35713190cae9f61b583639dca5751d19ee5efd22ec3f976db1a
 docker: quay.io/biocontainers/r-ggthemes
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

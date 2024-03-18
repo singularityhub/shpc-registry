@@ -5,6 +5,7 @@ latest:
   1.8.2--r3.3.1_0: sha256:39de3c25915c570841c285c5073509b6d43ad74619ea326b81833edf798524f3
 tags:
   1.8.2--r3.3.1_0: sha256:39de3c25915c570841c285c5073509b6d43ad74619ea326b81833edf798524f3
+  1.8.2--r3.3.2_0: sha256:3e00f15b2312bdcfd0eefbe92a4ef0e1d88238ee87da1a79fe241b0fb54239d5
 docker: quay.io/biocontainers/r-checkmate
 aliases:
   uconv: /usr/local/bin/uconv

@@ -5,6 +5,7 @@ latest:
   0.9.7--r3.2.2_0: sha256:0826d5ae74371b48c0beb49818b05bef66897e0937a7a213a967096185992740
 tags:
   0.9.7--r3.2.2_0: sha256:0826d5ae74371b48c0beb49818b05bef66897e0937a7a213a967096185992740
+  0.9.7--r3.3.2_0: sha256:90d233073ce8bf9231124d8c4cab7608544d36e10a52e469a24b89316502ca82
 docker: quay.io/biocontainers/r-fftwtools
 aliases:
   pngcp: /usr/local/bin/pngcp

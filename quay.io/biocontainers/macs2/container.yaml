@@ -6,6 +6,7 @@ latest:
 tags:
   2.2.7.1--py38hbff2b2d_5: sha256:dc79794e7724d93e9d8ccd1cc7f12f20027695a562fea2a85467c2c41e516b10
   2.2.9.1--py38he5da3d1_0: sha256:2ced5035e7a83413034a77c12f5434fc35c823647431665e4ab2175afcc0445c
+  2.2.9.1--py39hf95cd2a_0: sha256:72c7bb1607500199d93008847805f7d6e035bd112237db6a0aff1edee1b79788
 docker: quay.io/biocontainers/macs2
 aliases:
   macs2: /usr/local/bin/macs2

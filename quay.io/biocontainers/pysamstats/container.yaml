@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pysamstats
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pysamstats
 latest:
-  1.1.2--py36haf49e46_9: sha256:5abf8ce9403e1559842f52fa33935e9e4d14f14f9d5448d8fa65eed9c35dce87
+  1.1.2--py38h7cf9df2_10: sha256:b52c8f44bb8cfa6e3d780bd2ab9a41046df1b2e69375415ab4bf8555a554894c
 tags:
   1.1.2--py36haf49e46_9: sha256:5abf8ce9403e1559842f52fa33935e9e4d14f14f9d5448d8fa65eed9c35dce87
+  1.1.2--py38h7cf9df2_10: sha256:b52c8f44bb8cfa6e3d780bd2ab9a41046df1b2e69375415ab4bf8555a554894c
 docker: quay.io/biocontainers/pysamstats
 aliases:
   pysamstats: /usr/local/bin/pysamstats

@@ -5,6 +5,7 @@ latest:
   1.1.0--r3.3.1_0: sha256:b92a4b6a6cbc770d35bd02a9681ec8ea7ab206a38f94bd2e4b9229c65c8bf0da
 tags:
   1.1.0--r3.3.1_0: sha256:b92a4b6a6cbc770d35bd02a9681ec8ea7ab206a38f94bd2e4b9229c65c8bf0da
+  1.1.0--r3.3.2_0: sha256:12077ae790097fe59cdb77e97d31305582f917a54993ad1583f6e0102f697a07
 docker: quay.io/biocontainers/r-mixtools
 aliases:
   uconv: /usr/local/bin/uconv

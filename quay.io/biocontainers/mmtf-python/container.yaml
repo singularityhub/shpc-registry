@@ -5,6 +5,7 @@ latest:
   1.0.5--py27_0: sha256:6de4f7078bbb1efab014c2b4abc14353a688f00854116906e82979a4e807b680
 tags:
   1.0.5--py27_0: sha256:6de4f7078bbb1efab014c2b4abc14353a688f00854116906e82979a4e807b680
+  1.0.5--py36_0: sha256:c68e07a5d01714d6d780b1cbd6c4dfba7159116bb738ae7cf9e9cbd63248321e
 docker: quay.io/biocontainers/mmtf-python
 aliases:
   sample: /usr/local/bin/sample

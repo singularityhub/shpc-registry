@@ -5,6 +5,7 @@ latest:
   2.4.4--py38hc387825_0: sha256:3d8d2196e200e6dca8c0f6230e61c5a717384f4bb1669a16cf201cf9e2b61032
 tags:
   2.4.4--py38hc387825_0: sha256:3d8d2196e200e6dca8c0f6230e61c5a717384f4bb1669a16cf201cf9e2b61032
+  2.4.4--py39he5231b2_0: sha256:9e6c5d889a9938a45b08d9040ad2078cb933157c594d9d27db889f77bf51bf3b
 docker: quay.io/biocontainers/nordic
 aliases:
   bonesis-attractors: /usr/local/bin/bonesis-attractors

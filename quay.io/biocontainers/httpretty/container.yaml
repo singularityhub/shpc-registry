@@ -5,6 +5,7 @@ latest:
   0.8.10--py35_0: sha256:d41fc84a0f3211ad409db284a2380e19db15a11f5e8d1ac93c7268541b52075f
 tags:
   0.8.10--py35_0: sha256:d41fc84a0f3211ad409db284a2380e19db15a11f5e8d1ac93c7268541b52075f
+  0.8.10--py36_0: sha256:182363cf735967c3201bdc426c5c3860d661151d260ad1bee45b85da433c12b0
 docker: quay.io/biocontainers/httpretty
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

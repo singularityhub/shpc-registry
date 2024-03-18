@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-amplican
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-amplican
 latest:
-  1.22.1--r43hf17093f_0: sha256:68e5ab17ffd2f3ec46f7e963e4295228ae303a29eee5a072f48a0029dc2b3e97
+  1.24.0--r43hf17093f_0: sha256:da7849a96d9f572c17a07715f6307d7e389e012837710637d235e4b63ccd5452
 tags:
   1.8.0--r36he1b5a44_0: sha256:744ec8d7f3b05afc5becf2a4acd3ba6b8c2fbac1374cefe97c4037b2aa2d740f
   1.16.0--r41hc247a5b_2: sha256:30bf8a5ae6c186817feba02370c0254b011b2075fb7b49184ffd1cffd1e4434e
@@ -12,6 +12,7 @@ tags:
   1.20.0--r42hc247a5b_0: sha256:b4278cc18d801603cb37670b696d70a972de79d0ab07b48ba441992c5e45d2a0
   1.20.0--r42hf17093f_1: sha256:9350fedb8add43bd780d34e4aadb56715bf9aa1db38ee85f3efc08582ecaa6e4
   1.22.1--r43hf17093f_0: sha256:68e5ab17ffd2f3ec46f7e963e4295228ae303a29eee5a072f48a0029dc2b3e97
+  1.24.0--r43hf17093f_0: sha256:da7849a96d9f572c17a07715f6307d7e389e012837710637d235e4b63ccd5452
 docker: quay.io/biocontainers/bioconductor-amplican
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

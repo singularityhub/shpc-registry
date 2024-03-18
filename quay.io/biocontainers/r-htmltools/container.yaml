@@ -5,6 +5,7 @@ latest:
   0.3--r3.2.2_0: sha256:f34b92782659ca868de203c1767986fb4e7c7e156e0ad4b31528ed30697cf6c4
 tags:
   0.3--r3.2.2_0: sha256:f34b92782659ca868de203c1767986fb4e7c7e156e0ad4b31528ed30697cf6c4
+  0.3--r3.3.2_0: sha256:92aec45b55cae0601816092619e5c4127339470a1eca55c1d39a561d33e46ee2
 docker: quay.io/biocontainers/r-htmltools
 aliases:
   pngcp: /usr/local/bin/pngcp

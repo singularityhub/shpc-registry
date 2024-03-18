@@ -5,6 +5,7 @@ latest:
   1.0.2--pyhdfd78af_0: sha256:70a25e3e8bd5727013e15f01ff538e3401166fa8b1099d0d841c2253eaff216a
 tags:
   1.0.2--pyhdfd78af_0: sha256:70a25e3e8bd5727013e15f01ff538e3401166fa8b1099d0d841c2253eaff216a
+  1.0.2: sha256:5cb6db8005b3730592c0067bb4e68e6b17272f23dbd63bc5a849416ca01f72af
 docker: quay.io/biocontainers/vapor
 aliases:
   vapor.py: /usr/local/bin/vapor.py
