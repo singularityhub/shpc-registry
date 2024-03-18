@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-meshr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-meshr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-meshr/container.yaml"
-updated_at: "2024-03-17 02:47:31.807358"
+updated_at: "2024-03-18 02:46:41.111404"
 latest: "2.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-meshr"
 aliases:

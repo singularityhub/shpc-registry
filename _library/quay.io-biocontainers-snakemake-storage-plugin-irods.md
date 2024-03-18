@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-storage-plugin-irods"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-storage-plugin-irods/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-storage-plugin-irods/container.yaml"
-updated_at: "2024-03-17 02:34:29.361922"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2024-03-18 02:33:27.122329"
+latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-storage-plugin-irods"
 aliases:
  - "2to3-3.12"
@@ -15,8 +15,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-storage-plugin-irods"
-config: {"url": "https://biocontainers.pro/tools/snakemake-storage-plugin-irods", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-storage-plugin-irods", "latest": {"0.1.1--pyhdfd78af_0": "sha256:853d071dc8bb3571f79acd45d569b80221ca027c235395d8a5c7527e32ce9d67"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:853d071dc8bb3571f79acd45d569b80221ca027c235395d8a5c7527e32ce9d67"}, "docker": "quay.io/biocontainers/snakemake-storage-plugin-irods", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-storage-plugin-irods", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-storage-plugin-irods", "latest": {"0.1.2--pyhdfd78af_0": "sha256:ed673cef586cc117e4a1432ddbe7d5c52c4905217ac9e7fac9df7cb33f0104d8"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:853d071dc8bb3571f79acd45d569b80221ca027c235395d8a5c7527e32ce9d67", "0.1.2--pyhdfd78af_0": "sha256:ed673cef586cc117e4a1432ddbe7d5c52c4905217ac9e7fac9df7cb33f0104d8"}, "docker": "quay.io/biocontainers/snakemake-storage-plugin-irods", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-storage-plugin-irods.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/snakemake-storage-plugin-irods
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-storage-plugin-irods:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-storage-plugin-irods:0.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-storage-plugin-irods/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-storage-plugin-irods/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-storage-plugin-irods/0.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-storage-plugin-irods/0.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
