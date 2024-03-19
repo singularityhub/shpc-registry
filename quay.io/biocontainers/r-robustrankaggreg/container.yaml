@@ -5,6 +5,7 @@ latest:
   1.1--r3.2.2_0: sha256:3c7055a3966a421eaf4248ac0a0cf79beb70bec5805e42ec4b32a7c2808661ba
 tags:
   1.1--r3.2.2_0: sha256:3c7055a3966a421eaf4248ac0a0cf79beb70bec5805e42ec4b32a7c2808661ba
+  1.1--r3.4.1_0: sha256:c044dcd945438e5c5e41507ab04df6706dcde5e5dc51ee3c090def224f163087
 docker: quay.io/biocontainers/r-robustrankaggreg
 aliases:
   pngcp: /usr/local/bin/pngcp

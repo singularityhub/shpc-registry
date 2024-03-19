@@ -5,6 +5,7 @@ latest:
   0.4.5--py36_0: sha256:1c662efd6a6620f2c60239b9d2ae7287fd9d41e589addc5ca4b758fb904d46ee
 tags:
   0.4.5--py36_0: sha256:1c662efd6a6620f2c60239b9d2ae7287fd9d41e589addc5ca4b758fb904d46ee
+  0.4.5--py35_0: sha256:69a4e91d84744640d85f6583b4b528e6ea7180724690df3ffa24461d5a6bea9d
 docker: quay.io/biocontainers/garnet
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

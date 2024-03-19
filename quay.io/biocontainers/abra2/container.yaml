@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/abra2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for abra2
 latest:
-  2.24--h9f5acd7_1: sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2
+  2.24--hdcf5f25_3: sha256:b9246f5a0746ced3273db776f647925445ba99230a9d53b6cdf2229714e0505b
 tags:
   2.24--h9f5acd7_1: sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2
+  2.24--hdcf5f25_3: sha256:b9246f5a0746ced3273db776f647925445ba99230a9d53b6cdf2229714e0505b
 docker: quay.io/biocontainers/abra2
 aliases:
   abra2: /usr/local/bin/abra2

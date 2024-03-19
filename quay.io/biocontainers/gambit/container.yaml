@@ -5,6 +5,7 @@ latest:
   1.0.0--py39hbf8eff0_0: sha256:1fa10eced8516ebb54d23058399d9ede93ef17fe39bd7d1198de83f8a030d7a5
 tags:
   1.0.0--py39hbf8eff0_0: sha256:1fa10eced8516ebb54d23058399d9ede93ef17fe39bd7d1198de83f8a030d7a5
+  1.0.0--py310h1425a21_0: sha256:2dadd8244cdde0da5728bacd904aa765103b30789c5b44c5ed70d3ad308fd8df
 docker: quay.io/biocontainers/gambit
 aliases:
   alembic: /usr/local/bin/alembic

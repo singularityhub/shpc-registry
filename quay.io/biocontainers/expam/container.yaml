@@ -9,6 +9,7 @@ tags:
   1.2.2.1--py39hf95cd2a_0: sha256:9b5430bbd8f0f392cc5631d81b2574d6da0e1b82ed21559a16b09a54e5edfead
   1.2.2.3--py310h4b81fae_0: sha256:5afda9d402da3255026736028705eaf3893e5dfc2322306ad888dc34db636e6a
   1.2.2.5--py310h4b81fae_0: sha256:fcddfae61fe4fd20d851dcb484e96d2173e48321bebf5280cf887ead444e2d6a
+  1.2.2.5--py39hf95cd2a_0: sha256:cd255d1111be1f4761ffbb09ae5748af83fa19535cb408018a6f4c7c821dd220
 docker: quay.io/biocontainers/expam
 aliases:
   expam: /usr/local/bin/expam
