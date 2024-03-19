@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmasker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmasker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmasker/container.yaml"
-updated_at: "2024-03-18 23:41:12.105666"
+updated_at: "2024-03-19 02:57:14.355242"
 latest: "1.1.1--py39pl5321r42h1f90b4d_6"
 container_url: "https://biocontainers.pro/tools/kmasker"
 aliases:
@@ -31,8 +31,9 @@ versions:
  - "1.1.1--py38pl5321r41h4a32c8e_4"
  - "1.1.1--py36pl5321r42h2ad2d48_5"
  - "1.1.1--py39pl5321r42h1f90b4d_6"
+ - "1.1.1--py310pl5321r42h0dbaff4_6"
 description: "shpc-registry automated BioContainers addition for kmasker"
-config: {"url": "https://biocontainers.pro/tools/kmasker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kmasker", "latest": {"1.1.1--py39pl5321r42h1f90b4d_6": "sha256:5c34dbf1868eb689a6693cef545c4ab27af2a484a0a690ff73a4481dcaff6121"}, "tags": {"1.1.1--py38pl5321r41h4a32c8e_4": "sha256:ede1044175023763cec1c569a63c7d1fa6e19d5cfb1110795f30f70bb297b0dc", "1.1.1--py36pl5321r42h2ad2d48_5": "sha256:2f8db110b6cfd86a522b46ea3398097be1cc0f203c99714f874d96e9f44df57c", "1.1.1--py39pl5321r42h1f90b4d_6": "sha256:5c34dbf1868eb689a6693cef545c4ab27af2a484a0a690ff73a4481dcaff6121"}, "docker": "quay.io/biocontainers/kmasker", "aliases": {"Kmasker": "/usr/local/bin/Kmasker", "cmasker": "/usr/local/bin/cmasker", "fastq-clipper": "/usr/local/bin/fastq-clipper", "fastq-join": "/usr/local/bin/fastq-join", "fastq-mcf": "/usr/local/bin/fastq-mcf", "fastq-multx": "/usr/local/bin/fastq-multx", "fastq-stats": "/usr/local/bin/fastq-stats", "gffread": "/usr/local/bin/gffread", "which": "/usr/local/bin/which", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "jellyfish": "/usr/local/bin/jellyfish", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat"}}
+config: {"url": "https://biocontainers.pro/tools/kmasker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kmasker", "latest": {"1.1.1--py39pl5321r42h1f90b4d_6": "sha256:5c34dbf1868eb689a6693cef545c4ab27af2a484a0a690ff73a4481dcaff6121"}, "tags": {"1.1.1--py38pl5321r41h4a32c8e_4": "sha256:ede1044175023763cec1c569a63c7d1fa6e19d5cfb1110795f30f70bb297b0dc", "1.1.1--py36pl5321r42h2ad2d48_5": "sha256:2f8db110b6cfd86a522b46ea3398097be1cc0f203c99714f874d96e9f44df57c", "1.1.1--py39pl5321r42h1f90b4d_6": "sha256:5c34dbf1868eb689a6693cef545c4ab27af2a484a0a690ff73a4481dcaff6121", "1.1.1--py310pl5321r42h0dbaff4_6": "sha256:02892de4a3f45bab8f4c36efa07e0e344d8c4693a33c443d6d458b11554655a4"}, "docker": "quay.io/biocontainers/kmasker", "aliases": {"Kmasker": "/usr/local/bin/Kmasker", "cmasker": "/usr/local/bin/cmasker", "fastq-clipper": "/usr/local/bin/fastq-clipper", "fastq-join": "/usr/local/bin/fastq-join", "fastq-mcf": "/usr/local/bin/fastq-mcf", "fastq-multx": "/usr/local/bin/fastq-multx", "fastq-stats": "/usr/local/bin/fastq-stats", "gffread": "/usr/local/bin/gffread", "which": "/usr/local/bin/which", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "jellyfish": "/usr/local/bin/jellyfish", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kmasker.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cufflinks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cufflinks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cufflinks/container.yaml"
-updated_at: "2024-03-18 23:25:24.883858"
+updated_at: "2024-03-19 02:41:08.022018"
 latest: "2.2.1--py36_2"
 container_url: "https://biocontainers.pro/tools/cufflinks"
 aliases:
@@ -28,8 +28,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "2.2.1--py36_2"
+ - "2.2.1--py27_2"
 description: "shpc-registry automated BioContainers addition for cufflinks"
-config: {"url": "https://biocontainers.pro/tools/cufflinks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cufflinks", "latest": {"2.2.1--py36_2": "sha256:28c24c8bc79ad89d7426dd724f0e317b306467656ad7e18a6e7c29d8f7d72dcd"}, "tags": {"2.2.1--py36_2": "sha256:28c24c8bc79ad89d7426dd724f0e317b306467656ad7e18a6e7c29d8f7d72dcd"}, "docker": "quay.io/biocontainers/cufflinks", "aliases": {"cuffcompare": "/usr/local/bin/cuffcompare", "cuffdiff": "/usr/local/bin/cuffdiff", "cufflinks": "/usr/local/bin/cufflinks", "cuffmerge": "/usr/local/bin/cuffmerge", "cuffnorm": "/usr/local/bin/cuffnorm", "cuffquant": "/usr/local/bin/cuffquant", "gffread": "/usr/local/bin/gffread", "gtf_to_sam": "/usr/local/bin/gtf_to_sam", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/cufflinks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cufflinks", "latest": {"2.2.1--py36_2": "sha256:28c24c8bc79ad89d7426dd724f0e317b306467656ad7e18a6e7c29d8f7d72dcd"}, "tags": {"2.2.1--py36_2": "sha256:28c24c8bc79ad89d7426dd724f0e317b306467656ad7e18a6e7c29d8f7d72dcd", "2.2.1--py27_2": "sha256:e3f7493b64c199020be27e76988985d999650b32b99b429cd613a9b3d44a3d9b"}, "docker": "quay.io/biocontainers/cufflinks", "aliases": {"cuffcompare": "/usr/local/bin/cuffcompare", "cuffdiff": "/usr/local/bin/cuffdiff", "cufflinks": "/usr/local/bin/cufflinks", "cuffmerge": "/usr/local/bin/cuffmerge", "cuffnorm": "/usr/local/bin/cuffnorm", "cuffquant": "/usr/local/bin/cuffquant", "gffread": "/usr/local/bin/gffread", "gtf_to_sam": "/usr/local/bin/gtf_to_sam", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cufflinks.

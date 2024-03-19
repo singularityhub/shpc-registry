@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/simlord"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simlord/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simlord/container.yaml"
-updated_at: "2024-03-18 23:20:42.944580"
+updated_at: "2024-03-19 02:36:20.935557"
 latest: "1.0.4--py39hf95cd2a_3"
 container_url: "https://biocontainers.pro/tools/simlord"
 aliases:
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "1.0.4--py310h1425a21_2"
  - "1.0.4--py39hf95cd2a_3"
+ - "1.0.4--py310h4b81fae_3"
 description: "shpc-registry automated BioContainers addition for simlord"
-config: {"url": "https://biocontainers.pro/tools/simlord", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simlord", "latest": {"1.0.4--py39hf95cd2a_3": "sha256:b8a4615bc06a75456ccd68d53f54717b38f061a2de186e2ab4021d982444887f"}, "tags": {"1.0.4--py310h1425a21_2": "sha256:8409743fb9ebe22a5f42ab133eda3df09a80bb577f9b2479b5a8f2456dd4759c", "1.0.4--py39hf95cd2a_3": "sha256:b8a4615bc06a75456ccd68d53f54717b38f061a2de186e2ab4021d982444887f"}, "docker": "quay.io/biocontainers/simlord", "aliases": {"simlord": "/usr/local/bin/simlord", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/simlord", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simlord", "latest": {"1.0.4--py39hf95cd2a_3": "sha256:b8a4615bc06a75456ccd68d53f54717b38f061a2de186e2ab4021d982444887f"}, "tags": {"1.0.4--py310h1425a21_2": "sha256:8409743fb9ebe22a5f42ab133eda3df09a80bb577f9b2479b5a8f2456dd4759c", "1.0.4--py39hf95cd2a_3": "sha256:b8a4615bc06a75456ccd68d53f54717b38f061a2de186e2ab4021d982444887f", "1.0.4--py310h4b81fae_3": "sha256:238400df2f47c6bf6241dea5eee6c9fdded24e3c018a47e5cdd97d0df73b7bfb"}, "docker": "quay.io/biocontainers/simlord", "aliases": {"simlord": "/usr/local/bin/simlord", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/simlord.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vgan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vgan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vgan/container.yaml"
-updated_at: "2024-03-18 23:35:18.091597"
+updated_at: "2024-03-19 02:51:13.352400"
 latest: "2.0.2--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/vgan"
 aliases:

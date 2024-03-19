@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-extutils-pkgconfig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-extutils-pkgconfig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-extutils-pkgconfig/container.yaml"
-updated_at: "2024-03-18 23:18:04.340592"
+updated_at: "2024-03-19 02:33:39.262922"
 latest: "1.16--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-extutils-pkgconfig"
 aliases:

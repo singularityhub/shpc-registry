@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-r.utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-r.utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-r.utils/container.yaml"
-updated_at: "2024-03-18 23:27:32.415732"
+updated_at: "2024-03-19 02:43:17.874224"
 latest: "2.5.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-r.utils"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "2.5.0--r3.3.1_0"
+ - "2.5.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-r.utils"
-config: {"url": "https://biocontainers.pro/tools/r-r.utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-r.utils", "latest": {"2.5.0--r3.3.1_0": "sha256:dc80b5117365b9a80ef910a793f1300ac1eaed215de20f9c0df35645e9f3faff"}, "tags": {"2.5.0--r3.3.1_0": "sha256:dc80b5117365b9a80ef910a793f1300ac1eaed215de20f9c0df35645e9f3faff"}, "docker": "quay.io/biocontainers/r-r.utils", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-r.utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-r.utils", "latest": {"2.5.0--r3.3.1_0": "sha256:dc80b5117365b9a80ef910a793f1300ac1eaed215de20f9c0df35645e9f3faff"}, "tags": {"2.5.0--r3.3.1_0": "sha256:dc80b5117365b9a80ef910a793f1300ac1eaed215de20f9c0df35645e9f3faff", "2.5.0--r3.3.2_0": "sha256:5571bb12be5acd5c197cd984b55651ccb7f5f633311a9d748410c41d11d04a6d"}, "docker": "quay.io/biocontainers/r-r.utils", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-r.utils.

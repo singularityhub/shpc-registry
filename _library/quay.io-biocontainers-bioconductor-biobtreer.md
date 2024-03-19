@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biobtreer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biobtreer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biobtreer/container.yaml"
-updated_at: "2024-03-18 23:36:34.617052"
+updated_at: "2024-03-19 02:52:31.407554"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biobtreer"
 

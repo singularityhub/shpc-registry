@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zeroc-ice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zeroc-ice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zeroc-ice/container.yaml"
-updated_at: "2024-03-18 23:43:01.230766"
+updated_at: "2024-03-19 02:59:05.652405"
 latest: "3.7.1--py27hc3b63c6_1"
 container_url: "https://biocontainers.pro/tools/zeroc-ice"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "smtpd.py"
 versions:
  - "3.7.1--py27hc3b63c6_1"
+ - "3.7.1--py36hc3b63c6_1"
 description: "shpc-registry automated BioContainers addition for zeroc-ice"
-config: {"url": "https://biocontainers.pro/tools/zeroc-ice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zeroc-ice", "latest": {"3.7.1--py27hc3b63c6_1": "sha256:7a8e81ed3132ff55713da372488e93fc4111fef8eedaec56d5304143d4ba5c03"}, "tags": {"3.7.1--py27hc3b63c6_1": "sha256:7a8e81ed3132ff55713da372488e93fc4111fef8eedaec56d5304143d4ba5c03"}, "docker": "quay.io/biocontainers/zeroc-ice", "aliases": {"slice2py": "/usr/local/bin/slice2py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/zeroc-ice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zeroc-ice", "latest": {"3.7.1--py27hc3b63c6_1": "sha256:7a8e81ed3132ff55713da372488e93fc4111fef8eedaec56d5304143d4ba5c03"}, "tags": {"3.7.1--py27hc3b63c6_1": "sha256:7a8e81ed3132ff55713da372488e93fc4111fef8eedaec56d5304143d4ba5c03", "3.7.1--py36hc3b63c6_1": "sha256:d04765acaaf6189adf07bbb1ad121b21c8507f09cc7c257f75b97514c8a25e71"}, "docker": "quay.io/biocontainers/zeroc-ice", "aliases": {"slice2py": "/usr/local/bin/slice2py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/zeroc-ice.

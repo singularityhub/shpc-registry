@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxonomy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxonomy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxonomy/container.yaml"
-updated_at: "2024-03-18 23:39:22.080342"
+updated_at: "2024-03-19 02:55:22.067881"
 latest: "0.10.0--py39hb377b6a_0"
 container_url: "https://biocontainers.pro/tools/taxonomy"
 aliases:
@@ -16,8 +16,10 @@ aliases:
 versions:
  - "0.9.0--py39hbf8eff0_0"
  - "0.10.0--py39hb377b6a_0"
+ - "0.10.0--py310h4b6de7c_0"
+ - "0.9.0--py310h1425a21_0"
 description: "shpc-registry automated BioContainers addition for taxonomy"
-config: {"url": "https://biocontainers.pro/tools/taxonomy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taxonomy", "latest": {"0.10.0--py39hb377b6a_0": "sha256:653bfd162ceb21839a2d2515a3ed6bc5c4eb33357ea3b19256cab5b589c472b0"}, "tags": {"0.9.0--py39hbf8eff0_0": "sha256:df1f9c27aa0e002acd8ed0422170005175424855ae697197f0bde3eb00c9a0c4", "0.10.0--py39hb377b6a_0": "sha256:653bfd162ceb21839a2d2515a3ed6bc5c4eb33357ea3b19256cab5b589c472b0"}, "docker": "quay.io/biocontainers/taxonomy", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/taxonomy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taxonomy", "latest": {"0.10.0--py39hb377b6a_0": "sha256:653bfd162ceb21839a2d2515a3ed6bc5c4eb33357ea3b19256cab5b589c472b0"}, "tags": {"0.9.0--py39hbf8eff0_0": "sha256:df1f9c27aa0e002acd8ed0422170005175424855ae697197f0bde3eb00c9a0c4", "0.10.0--py39hb377b6a_0": "sha256:653bfd162ceb21839a2d2515a3ed6bc5c4eb33357ea3b19256cab5b589c472b0", "0.10.0--py310h4b6de7c_0": "sha256:6e11b08d499cdc4f7a3542010998c581c3cd2ac1211d870f8da6de183e509605", "0.9.0--py310h1425a21_0": "sha256:9d6515a7f248ed8dbdfec69f3baa0554403a41b540bbf5d24f4ab9672263d6ed"}, "docker": "quay.io/biocontainers/taxonomy", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/taxonomy.

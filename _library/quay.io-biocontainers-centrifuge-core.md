@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/centrifuge-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/centrifuge-core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/centrifuge-core/container.yaml"
-updated_at: "2024-03-18 23:09:26.198569"
+updated_at: "2024-03-19 02:24:49.590232"
 latest: "1.0.4_beta--h5b5514e_2"
 container_url: "https://biocontainers.pro/tools/centrifuge-core"
 aliases:
@@ -28,8 +28,9 @@ aliases:
  - "streamzip"
 versions:
  - "1.0.4_beta--h5b5514e_2"
+ - "1.0.4--h43eeafb_2"
 description: "shpc-registry automated BioContainers addition for centrifuge-core"
-config: {"url": "https://biocontainers.pro/tools/centrifuge-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for centrifuge-core", "latest": {"1.0.4_beta--h5b5514e_2": "sha256:7801552791c4b778bea9a544debff237f2383bee2718484a5bd574b9b89866d8"}, "tags": {"1.0.4_beta--h5b5514e_2": "sha256:7801552791c4b778bea9a544debff237f2383bee2718484a5bd574b9b89866d8"}, "docker": "quay.io/biocontainers/centrifuge-core", "aliases": {"centrifuge": "/usr/local/bin/centrifuge", "centrifuge-BuildSharedSequence.pl": "/usr/local/bin/centrifuge-BuildSharedSequence.pl", "centrifuge-RemoveEmptySequence.pl": "/usr/local/bin/centrifuge-RemoveEmptySequence.pl", "centrifuge-RemoveN.pl": "/usr/local/bin/centrifuge-RemoveN.pl", "centrifuge-build": "/usr/local/bin/centrifuge-build", "centrifuge-build-bin": "/usr/local/bin/centrifuge-build-bin", "centrifuge-class": "/usr/local/bin/centrifuge-class", "centrifuge-compress.pl": "/usr/local/bin/centrifuge-compress.pl", "centrifuge-download": "/usr/local/bin/centrifuge-download", "centrifuge-inspect": "/usr/local/bin/centrifuge-inspect", "centrifuge-inspect-bin": "/usr/local/bin/centrifuge-inspect-bin", "centrifuge-kreport": "/usr/local/bin/centrifuge-kreport", "centrifuge-sort-nt.pl": "/usr/local/bin/centrifuge-sort-nt.pl", "tar": "/usr/local/bin/tar", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/centrifuge-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for centrifuge-core", "latest": {"1.0.4_beta--h5b5514e_2": "sha256:7801552791c4b778bea9a544debff237f2383bee2718484a5bd574b9b89866d8"}, "tags": {"1.0.4_beta--h5b5514e_2": "sha256:7801552791c4b778bea9a544debff237f2383bee2718484a5bd574b9b89866d8", "1.0.4--h43eeafb_2": "sha256:a9b5a137912f45edc9a74b9bac4338e7b5a48edbc689b635c8d423c68966ac2f"}, "docker": "quay.io/biocontainers/centrifuge-core", "aliases": {"centrifuge": "/usr/local/bin/centrifuge", "centrifuge-BuildSharedSequence.pl": "/usr/local/bin/centrifuge-BuildSharedSequence.pl", "centrifuge-RemoveEmptySequence.pl": "/usr/local/bin/centrifuge-RemoveEmptySequence.pl", "centrifuge-RemoveN.pl": "/usr/local/bin/centrifuge-RemoveN.pl", "centrifuge-build": "/usr/local/bin/centrifuge-build", "centrifuge-build-bin": "/usr/local/bin/centrifuge-build-bin", "centrifuge-class": "/usr/local/bin/centrifuge-class", "centrifuge-compress.pl": "/usr/local/bin/centrifuge-compress.pl", "centrifuge-download": "/usr/local/bin/centrifuge-download", "centrifuge-inspect": "/usr/local/bin/centrifuge-inspect", "centrifuge-inspect-bin": "/usr/local/bin/centrifuge-inspect-bin", "centrifuge-kreport": "/usr/local/bin/centrifuge-kreport", "centrifuge-sort-nt.pl": "/usr/local/bin/centrifuge-sort-nt.pl", "tar": "/usr/local/bin/tar", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/centrifuge-core.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ganon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ganon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ganon/container.yaml"
-updated_at: "2024-03-18 23:29:38.908114"
+updated_at: "2024-03-19 02:45:27.177918"
 latest: "2.1.0--py39ha35b9be_0"
 container_url: "https://biocontainers.pro/tools/ganon"
 aliases:

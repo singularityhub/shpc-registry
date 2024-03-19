@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plncpro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plncpro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plncpro/container.yaml"
-updated_at: "2024-03-18 23:20:05.505348"
+updated_at: "2024-03-19 02:35:42.852502"
 latest: "1.2.2--py39h1f90b4d_5"
 container_url: "https://biocontainers.pro/tools/plncpro"
 aliases:
