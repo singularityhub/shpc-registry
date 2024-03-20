@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mitoclone2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mitoclone2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mitoclone2/container.yaml"
-updated_at: "2024-03-19 02:24:05.708835"
+updated_at: "2024-03-20 02:23:35.954297"
 latest: "1.8.1--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mitoclone2"
 

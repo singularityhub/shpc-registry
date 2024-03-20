@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ngs-chew"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngs-chew/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngs-chew/container.yaml"
-updated_at: "2024-03-19 02:42:03.569063"
-latest: "0.9.2--pyhdfd78af_0"
+updated_at: "2024-03-20 02:41:27.480930"
+latest: "0.9.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ngs-chew"
 aliases:
  - "ngs-chew"
@@ -38,8 +38,9 @@ versions:
  - "0.8.0--pyhdfd78af_0"
  - "0.8.1--pyhdfd78af_0"
  - "0.9.2--pyhdfd78af_0"
+ - "0.9.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ngs-chew"
-config: {"url": "https://biocontainers.pro/tools/ngs-chew", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ngs-chew", "latest": {"0.9.2--pyhdfd78af_0": "sha256:90654795353a83e446493c18cdaa8a22dac9aef138208c9b049724487aa9ec29"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:459e2b19a0ed61cd41d6696792ba40080e70dc5c57de5355eacb5d4a393d7a02", "0.8.1--pyhdfd78af_0": "sha256:93e5ccecc84d2de4482a6da29db829b3f82f3671e0e8b0b88f8c8ebe69ca644a", "0.9.2--pyhdfd78af_0": "sha256:90654795353a83e446493c18cdaa8a22dac9aef138208c9b049724487aa9ec29"}, "docker": "quay.io/biocontainers/ngs-chew", "aliases": {"ngs-chew": "/usr/local/bin/ngs-chew", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "f2py3.10": "/usr/local/bin/f2py3.10", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl"}}
+config: {"url": "https://biocontainers.pro/tools/ngs-chew", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ngs-chew", "latest": {"0.9.4--pyhdfd78af_0": "sha256:033d70f038a2805ecd363be6524548b2168e0523d5d18e854660752027ab9788"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:459e2b19a0ed61cd41d6696792ba40080e70dc5c57de5355eacb5d4a393d7a02", "0.8.1--pyhdfd78af_0": "sha256:93e5ccecc84d2de4482a6da29db829b3f82f3671e0e8b0b88f8c8ebe69ca644a", "0.9.2--pyhdfd78af_0": "sha256:90654795353a83e446493c18cdaa8a22dac9aef138208c9b049724487aa9ec29", "0.9.4--pyhdfd78af_0": "sha256:033d70f038a2805ecd363be6524548b2168e0523d5d18e854660752027ab9788"}, "docker": "quay.io/biocontainers/ngs-chew", "aliases": {"ngs-chew": "/usr/local/bin/ngs-chew", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "f2py3.10": "/usr/local/bin/f2py3.10", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngs-chew.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/ngs-chew
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ngs-chew:0.9.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ngs-chew:0.9.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ngs-chew/0.9.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/ngs-chew/0.9.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/ngs-chew/0.9.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/ngs-chew/0.9.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

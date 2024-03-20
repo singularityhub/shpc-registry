@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-convert"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-convert/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-convert/container.yaml"
-updated_at: "2024-03-19 02:22:30.870681"
+updated_at: "2024-03-20 02:22:01.573971"
 latest: "1.78.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-convert"
 

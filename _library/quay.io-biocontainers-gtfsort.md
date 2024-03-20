@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gtfsort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gtfsort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gtfsort/container.yaml"
-updated_at: "2024-03-19 03:05:27.740261"
-latest: "0.2.1--h4ac6f70_0"
+updated_at: "2024-03-20 03:04:42.423087"
+latest: "0.2.2--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/gtfsort"
 aliases:
  - "gtfsort"
 versions:
  - "0.2.1--h4ac6f70_0"
+ - "0.2.2--h4ac6f70_0"
 description: "singularity registry hpc automated addition for gtfsort"
-config: {"url": "https://biocontainers.pro/tools/gtfsort", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gtfsort", "latest": {"0.2.1--h4ac6f70_0": "sha256:3d43af263d2bb3884c54eda72f1b8e96b8a746b72f1c78e34defe7341be2f5e0"}, "tags": {"0.2.1--h4ac6f70_0": "sha256:3d43af263d2bb3884c54eda72f1b8e96b8a746b72f1c78e34defe7341be2f5e0"}, "docker": "quay.io/biocontainers/gtfsort", "aliases": {"gtfsort": "/usr/local/bin/gtfsort"}}
+config: {"url": "https://biocontainers.pro/tools/gtfsort", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gtfsort", "latest": {"0.2.2--h4ac6f70_0": "sha256:e302a25a8dacf95756b6f2c1e271e29844f372e92676312b2bc6798f5de4bc03"}, "tags": {"0.2.1--h4ac6f70_0": "sha256:3d43af263d2bb3884c54eda72f1b8e96b8a746b72f1c78e34defe7341be2f5e0", "0.2.2--h4ac6f70_0": "sha256:e302a25a8dacf95756b6f2c1e271e29844f372e92676312b2bc6798f5de4bc03"}, "docker": "quay.io/biocontainers/gtfsort", "aliases": {"gtfsort": "/usr/local/bin/gtfsort"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gtfsort.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gtfsort
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gtfsort:0.2.1--h4ac6f70_0
+$ shpc install quay.io/biocontainers/gtfsort:0.2.2--h4ac6f70_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gtfsort/0.2.1--h4ac6f70_0
-$ module help quay.io/biocontainers/gtfsort/0.2.1--h4ac6f70_0
+$ module load quay.io/biocontainers/gtfsort/0.2.2--h4ac6f70_0
+$ module help quay.io/biocontainers/gtfsort/0.2.2--h4ac6f70_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

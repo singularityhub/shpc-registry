@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyrodigal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyrodigal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyrodigal/container.yaml"
-updated_at: "2024-03-19 02:38:43.434422"
-latest: "0.6.4--py36h91eb985_1"
+updated_at: "2024-03-20 02:38:08.924889"
+latest: "3.3.0--py39hf95cd2a_1"
 container_url: "https://biocontainers.pro/tools/pyrodigal"
 aliases:
  - "2to3-3.6"
@@ -19,8 +19,13 @@ aliases:
  - "pyvenv"
 versions:
  - "0.6.4--py36h91eb985_1"
+ - "3.3.0--py39hf95cd2a_1"
+ - "3.2.2--py310h4b81fae_0"
+ - "3.1.1--py39hf95cd2a_0"
+ - "3.0.1--py310h4b81fae_0"
+ - "2.3.0--py38he5da3d1_1"
 description: "shpc-registry automated BioContainers addition for pyrodigal"
-config: {"url": "https://biocontainers.pro/tools/pyrodigal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyrodigal", "latest": {"0.6.4--py36h91eb985_1": "sha256:7933d6030d97adc057449b3217a0b4b28b2ce3cdfda6f75ce5d8eaa1e4c8dd67"}, "tags": {"0.6.4--py36h91eb985_1": "sha256:7933d6030d97adc057449b3217a0b4b28b2ce3cdfda6f75ce5d8eaa1e4c8dd67"}, "docker": "quay.io/biocontainers/pyrodigal", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pyrodigal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyrodigal", "latest": {"3.3.0--py39hf95cd2a_1": "sha256:6c2c7e184b4c61dfc1695134885cc5584e997b1b3849b1aff45c436db1dd9b01"}, "tags": {"0.6.4--py36h91eb985_1": "sha256:7933d6030d97adc057449b3217a0b4b28b2ce3cdfda6f75ce5d8eaa1e4c8dd67", "3.3.0--py39hf95cd2a_1": "sha256:6c2c7e184b4c61dfc1695134885cc5584e997b1b3849b1aff45c436db1dd9b01", "3.2.2--py310h4b81fae_0": "sha256:53a900e1aba3fe12fce71af7c009dfe39c5cac972d3f1b86535769f3c5f798f4", "3.1.1--py39hf95cd2a_0": "sha256:e9a5ed6d39b52d771273bc0344b19573ad711e820af09125f2fd36314ac49639", "3.0.1--py310h4b81fae_0": "sha256:dee1ee50fc8f050d179b17df95eda23bbb9558a3c1fbadbd2302777c4bf8f2b9", "2.3.0--py38he5da3d1_1": "sha256:c1acd12a0b831f6dace973478ced7395d1ce6d04b59d8b64c88f269d7d83965a"}, "docker": "quay.io/biocontainers/pyrodigal", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyrodigal.
@@ -35,7 +40,7 @@ $ shpc install quay.io/biocontainers/pyrodigal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyrodigal:0.6.4--py36h91eb985_1
+$ shpc install quay.io/biocontainers/pyrodigal:3.3.0--py39hf95cd2a_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyrodigal/0.6.4--py36h91eb985_1
-$ module help quay.io/biocontainers/pyrodigal/0.6.4--py36h91eb985_1
+$ module load quay.io/biocontainers/pyrodigal/3.3.0--py39hf95cd2a_1
+$ module help quay.io/biocontainers/pyrodigal/3.3.0--py39hf95cd2a_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

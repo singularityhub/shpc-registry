@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tajimas_d"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tajimas_d/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tajimas_d/container.yaml"
-updated_at: "2024-03-19 02:54:21.731109"
-latest: "2.0.0--pyhdfd78af_0"
+updated_at: "2024-03-20 02:53:40.636924"
+latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tajimas_d"
 aliases:
  - "tajimas_d"
@@ -17,8 +17,9 @@ aliases:
  - "python3.1"
 versions:
  - "2.0.0--pyhdfd78af_0"
+ - "2.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for tajimas_d"
-config: {"url": "https://biocontainers.pro/tools/tajimas_d", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tajimas_d", "latest": {"2.0.0--pyhdfd78af_0": "sha256:2a237acdf40c14912aa7fde41974659d7d8b30c96538ca97734e4b2177cb499a"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:2a237acdf40c14912aa7fde41974659d7d8b30c96538ca97734e4b2177cb499a"}, "docker": "quay.io/biocontainers/tajimas_d", "aliases": {"tajimas_d": "/usr/local/bin/tajimas_d", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/tajimas_d", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tajimas_d", "latest": {"2.0.1--pyhdfd78af_0": "sha256:29f74040b0ee960e02c738262b36709207939d294012ed6d29854b54e051bb5d"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:2a237acdf40c14912aa7fde41974659d7d8b30c96538ca97734e4b2177cb499a", "2.0.1--pyhdfd78af_0": "sha256:29f74040b0ee960e02c738262b36709207939d294012ed6d29854b54e051bb5d"}, "docker": "quay.io/biocontainers/tajimas_d", "aliases": {"tajimas_d": "/usr/local/bin/tajimas_d", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tajimas_d.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/tajimas_d
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tajimas_d:2.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/tajimas_d:2.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tajimas_d/2.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/tajimas_d/2.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/tajimas_d/2.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/tajimas_d/2.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

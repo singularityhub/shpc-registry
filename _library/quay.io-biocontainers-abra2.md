@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/abra2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abra2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abra2/container.yaml"
-updated_at: "2024-03-19 02:54:22.535511"
-latest: "2.24--h9f5acd7_1"
+updated_at: "2024-03-20 02:53:41.439119"
+latest: "2.24--hdcf5f25_3"
 container_url: "https://biocontainers.pro/tools/abra2"
 aliases:
  - "abra2"
@@ -21,8 +21,9 @@ aliases:
  - "chown"
 versions:
  - "2.24--h9f5acd7_1"
+ - "2.24--hdcf5f25_3"
 description: "shpc-registry automated BioContainers addition for abra2"
-config: {"url": "https://biocontainers.pro/tools/abra2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abra2", "latest": {"2.24--h9f5acd7_1": "sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2"}, "tags": {"2.24--h9f5acd7_1": "sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2"}, "docker": "quay.io/biocontainers/abra2", "aliases": {"abra2": "/usr/local/bin/abra2", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
+config: {"url": "https://biocontainers.pro/tools/abra2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abra2", "latest": {"2.24--hdcf5f25_3": "sha256:b9246f5a0746ced3273db776f647925445ba99230a9d53b6cdf2229714e0505b"}, "tags": {"2.24--h9f5acd7_1": "sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2", "2.24--hdcf5f25_3": "sha256:b9246f5a0746ced3273db776f647925445ba99230a9d53b6cdf2229714e0505b"}, "docker": "quay.io/biocontainers/abra2", "aliases": {"abra2": "/usr/local/bin/abra2", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abra2.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/abra2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/abra2:2.24--h9f5acd7_1
+$ shpc install quay.io/biocontainers/abra2:2.24--hdcf5f25_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/abra2/2.24--h9f5acd7_1
-$ module help quay.io/biocontainers/abra2/2.24--h9f5acd7_1
+$ module load quay.io/biocontainers/abra2/2.24--hdcf5f25_3
+$ module help quay.io/biocontainers/abra2/2.24--hdcf5f25_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

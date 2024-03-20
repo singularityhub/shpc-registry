@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gambit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gambit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gambit/container.yaml"
-updated_at: "2024-03-19 02:39:22.394686"
+updated_at: "2024-03-20 02:38:47.549250"
 latest: "1.0.0--py39hbf8eff0_0"
 container_url: "https://biocontainers.pro/tools/gambit"
 aliases:
@@ -37,8 +37,9 @@ aliases:
  - "2to3-3.9"
 versions:
  - "1.0.0--py39hbf8eff0_0"
+ - "1.0.0--py310h1425a21_0"
 description: "singularity registry hpc automated addition for gambit"
-config: {"url": "https://biocontainers.pro/tools/gambit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gambit", "latest": {"1.0.0--py39hbf8eff0_0": "sha256:1fa10eced8516ebb54d23058399d9ede93ef17fe39bd7d1198de83f8a030d7a5"}, "tags": {"1.0.0--py39hbf8eff0_0": "sha256:1fa10eced8516ebb54d23058399d9ede93ef17fe39bd7d1198de83f8a030d7a5"}, "docker": "quay.io/biocontainers/gambit", "aliases": {"alembic": "/usr/local/bin/alembic", "gambit": "/usr/local/bin/gambit", "mako-render": "/usr/local/bin/mako-render", "f2py3.9": "/usr/local/bin/f2py3.9", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack", "h5repart": "/usr/local/bin/h5repart", "h5stat": "/usr/local/bin/h5stat", "h5unjam": "/usr/local/bin/h5unjam", "h5dump": "/usr/local/bin/h5dump", "h5cc": "/usr/local/bin/h5cc", "2to3-3.9": "/usr/local/bin/2to3-3.9"}}
+config: {"url": "https://biocontainers.pro/tools/gambit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gambit", "latest": {"1.0.0--py39hbf8eff0_0": "sha256:1fa10eced8516ebb54d23058399d9ede93ef17fe39bd7d1198de83f8a030d7a5"}, "tags": {"1.0.0--py39hbf8eff0_0": "sha256:1fa10eced8516ebb54d23058399d9ede93ef17fe39bd7d1198de83f8a030d7a5", "1.0.0--py310h1425a21_0": "sha256:2dadd8244cdde0da5728bacd904aa765103b30789c5b44c5ed70d3ad308fd8df"}, "docker": "quay.io/biocontainers/gambit", "aliases": {"alembic": "/usr/local/bin/alembic", "gambit": "/usr/local/bin/gambit", "mako-render": "/usr/local/bin/mako-render", "f2py3.9": "/usr/local/bin/f2py3.9", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack", "h5repart": "/usr/local/bin/h5repart", "h5stat": "/usr/local/bin/h5stat", "h5unjam": "/usr/local/bin/h5unjam", "h5dump": "/usr/local/bin/h5dump", "h5cc": "/usr/local/bin/h5cc", "2to3-3.9": "/usr/local/bin/2to3-3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gambit.
