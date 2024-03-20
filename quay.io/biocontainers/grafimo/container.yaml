@@ -5,6 +5,7 @@ latest:
   1.1.6--py39h5371cbf_0: sha256:c1aac609e9056ed7b9aa3428234568a6068547f82568f5822aebfece8c2e47dd
 tags:
   1.1.6--py39h5371cbf_0: sha256:c1aac609e9056ed7b9aa3428234568a6068547f82568f5822aebfece8c2e47dd
+  1.1.6--py310h79ef01b_0: sha256:0884cc708b5a892cc4171385fe393831b2b53f9427c1aa5b5a93daa42c119cbe
 docker: quay.io/biocontainers/grafimo
 aliases:
   grafimo: /usr/local/bin/grafimo

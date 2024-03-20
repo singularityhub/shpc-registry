@@ -5,6 +5,7 @@ latest:
   0.5.10--r3.2.2_1: sha256:f58e58fc924832e4bef82ebc5f7946aee81ef176a051586a2fbbfa9b22c9b421
 tags:
   0.5.10--r3.2.2_1: sha256:f58e58fc924832e4bef82ebc5f7946aee81ef176a051586a2fbbfa9b22c9b421
+  0.5.10--r3.3.2_1: sha256:943550dfd22251d38e4be6843190d5c4dc608e28a4ee83cc375a33cdf85c8a6e
 docker: quay.io/biocontainers/r-googlevis
 aliases:
   pngcp: /usr/local/bin/pngcp

@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/stream
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for stream
 latest:
-  0.4.0--py37r36hc99cbb1_0: sha256:59ebb094505a21d0fe38825be15c968aeda821dc94bc924080cf799e3a420f0a
+  1.1--pyhdfd78af_0: sha256:ac0e13a1b0236d701388da73437d8a81d4a28664651d5d9557af172e770f686f
 tags:
   0.4.0--py37r36hc99cbb1_0: sha256:59ebb094505a21d0fe38825be15c968aeda821dc94bc924080cf799e3a420f0a
+  1.1--pyhdfd78af_0: sha256:ac0e13a1b0236d701388da73437d8a81d4a28664651d5d9557af172e770f686f
+  1.0--py_0: sha256:25e99229fd19df62b5e56341f97ec09f2d7abb240fe5b7871e9118152b470d75
+  0.4.1--py37r36hc99cbb1_0: sha256:615b4a7ecd202d9ad9ca882a7b788bc53f0eba597f334a69d3a7af94817310a7
 docker: quay.io/biocontainers/stream
 aliases:
   gunicorn: /usr/local/bin/gunicorn

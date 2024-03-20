@@ -6,6 +6,7 @@ latest:
 tags:
   3.1.1--py36h4aaaa08_2: sha256:4ed3b2bf36055c2a7dac266608034b4e42858fd3aeab3b82a652763abfcd9a80
   3.1.1--py38hcbe9525_3: sha256:7d3090432b03be84a7351c2c6fca87689b3a4fbce09b33d27a2ee11bf9d85a50
+  3.1.1--py310h068649b_3: sha256:3f92e59484e332edd1397a1f55dbb743ec14aeed9aba273558aea21ed88f76d2
 docker: quay.io/biocontainers/chia-rep
 aliases:
   f2py3.6: /usr/local/bin/f2py3.6

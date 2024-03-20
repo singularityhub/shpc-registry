@@ -5,6 +5,7 @@ latest:
   0.2.9--py35_0: sha256:9eccaea40140b04ff6cfd934c86aff5a02413c29e6bf2e2ad5fae04be366fed1
 tags:
   0.2.9--py35_0: sha256:9eccaea40140b04ff6cfd934c86aff5a02413c29e6bf2e2ad5fae04be366fed1
+  0.2.9--py36_0: sha256:0d3fe65a6ef04765ed29f594232acc23fc2f13bb30ab63b8eb8ead1626809506
 docker: quay.io/biocontainers/pysftp
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

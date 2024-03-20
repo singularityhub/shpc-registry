@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rrikindp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rrikindp
 latest:
-  0.0.1--py38h820c706_0: sha256:3cc6029f8790d0c2ee284f30abfd10a68ba1c72c707b038af90435f41b7f1352
+  0.0.2--py39h68928f9_0: sha256:23a65de161c8d7e7ac92f558a613f3c6b78fccf5aae8e772b678e044627433a4
 tags:
   0.0.1--py38h820c706_0: sha256:3cc6029f8790d0c2ee284f30abfd10a68ba1c72c707b038af90435f41b7f1352
+  0.0.2--py39h68928f9_0: sha256:23a65de161c8d7e7ac92f558a613f3c6b78fccf5aae8e772b678e044627433a4
 docker: quay.io/biocontainers/rrikindp
 aliases:
   CopomuS.py: /usr/local/bin/CopomuS.py

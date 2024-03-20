@@ -5,6 +5,7 @@ latest:
   4.3.20--r3.3.1_1: sha256:0b06b12d5cd926a5299f24a835f6b7ba14d615161fd2a0efdf17b448964de9ef
 tags:
   4.3.20--r3.3.1_1: sha256:0b06b12d5cd926a5299f24a835f6b7ba14d615161fd2a0efdf17b448964de9ef
+  4.3.20--r3.3.2_1: sha256:b6f9977aed0e83c700f356fd44d32cb2768bdb07af606d4674b406a5dde8f982
 docker: quay.io/biocontainers/r-rcppparallel
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

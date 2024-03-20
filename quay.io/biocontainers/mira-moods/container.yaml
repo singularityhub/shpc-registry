@@ -5,6 +5,7 @@ latest:
   1.9.4.2--py311hcbe9525_0: sha256:52ec30e177e67c8d364e50dd4017a4a5904e3f828ed2c3aa608d63cd49478d97
 tags:
   1.9.4.2--py311hcbe9525_0: sha256:52ec30e177e67c8d364e50dd4017a4a5904e3f828ed2c3aa608d63cd49478d97
+  1.9.4.2--py311he10ea66_0: sha256:3dcba175e580f90d9e2a3ececc2844f34571f1d93e59d4ad9d57dde119fd1ee2
 docker: quay.io/biocontainers/mira-moods
 aliases:
   moods-dna.py: /usr/local/bin/moods-dna.py

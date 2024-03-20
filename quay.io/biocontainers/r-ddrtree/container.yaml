@@ -5,6 +5,7 @@ latest:
   0.1.5--r3.3.1_0: sha256:079e5022b40a3e2debfe37bb876483b75084b7167832d00933bf6dc222131477
 tags:
   0.1.5--r3.3.1_0: sha256:079e5022b40a3e2debfe37bb876483b75084b7167832d00933bf6dc222131477
+  0.1.5--r3.3.2_0: sha256:4ae1a629fbc03b902a8fc04b8d72a76e6e9b71e4ed6f668f186a846c5e04ad54
 docker: quay.io/biocontainers/r-ddrtree
 aliases:
   uconv: /usr/local/bin/uconv

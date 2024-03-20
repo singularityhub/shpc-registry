@@ -5,6 +5,7 @@ latest:
   1.0_2--r3.3.1_0: sha256:4879d702562f4192b1d1c89205ba7b12319c3bb593dd618298b935efaa239a30
 tags:
   1.0_2--r3.3.1_0: sha256:4879d702562f4192b1d1c89205ba7b12319c3bb593dd618298b935efaa239a30
+  1.0_2--r3.3.2_0: sha256:14425019d37aa3f3c760ef41084d6e8baf48439481b681aae61f6d4a76db8fbb
 docker: quay.io/biocontainers/r-vgam
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

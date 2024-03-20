@@ -5,6 +5,7 @@ latest:
   1.1--r3.3.2_0: sha256:72b2bde3706caa2ae00846185286a45dc299931452689cddff8075bc5c646be4
 tags:
   1.1--r3.3.2_0: sha256:72b2bde3706caa2ae00846185286a45dc299931452689cddff8075bc5c646be4
+  1.1--r3.4.1_0: sha256:2f1ac8b89c999d4ae876656892f52274a6c9ee23aaaaa8311dd4c1f3eca29b47
 docker: quay.io/biocontainers/r-cnogpro
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

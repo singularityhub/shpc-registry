@@ -5,6 +5,7 @@ latest:
   0.5--py35_0: sha256:858aefd9de83d21dd9d3d9f8973be2adc3a9a8a7d2e779b098a855bb371bf60c
 tags:
   0.5--py35_0: sha256:858aefd9de83d21dd9d3d9f8973be2adc3a9a8a7d2e779b098a855bb371bf60c
+  0.5--py36_0: sha256:5cd41cd3b5627f31adfe533a8fcab19dc439999395cfb2ac8db8c1276110c1c8
 docker: quay.io/biocontainers/keepalive
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

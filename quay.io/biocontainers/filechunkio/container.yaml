@@ -5,6 +5,7 @@ latest:
   1.6--py35_0: sha256:40320935ca1da8836ea49ed02d58a62ec090d8d6171f2e48a2964011434368d1
 tags:
   1.6--py35_0: sha256:40320935ca1da8836ea49ed02d58a62ec090d8d6171f2e48a2964011434368d1
+  1.6--py36_0: sha256:9705214cabd83bac9ae05ca9f3ae61ee68ae37af2e87d9220dbd04a850772b3b
 docker: quay.io/biocontainers/filechunkio
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5
