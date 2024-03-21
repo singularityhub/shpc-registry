@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/crabz
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for crabz
+latest:
+  0.9.0: sha256:1b65229b4ecf4425cb67d91cb49dcfa695aa51d812078d28164dbcefcb9adafd
+tags:
+  0.9.0: sha256:1b65229b4ecf4425cb67d91cb49dcfa695aa51d812078d28164dbcefcb9adafd
+docker: quay.io/biocontainers/crabz
+aliases:
+  crabz: /usr/local/bin/crabz

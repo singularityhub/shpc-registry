@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/r-azimuth
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-azimuth
+latest:
+  0.5.0--r43hdbdd923_0: sha256:befb3dbae9da2b82ba70229876398b3b602758b4ce713d99671ab8c45c40d330
+tags:
+  0.5.0--r43hdbdd923_0: sha256:befb3dbae9da2b82ba70229876398b3b602758b4ce713d99671ab8c45c40d330
+docker: quay.io/biocontainers/r-azimuth
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  pandoc-server: /usr/local/bin/pandoc-server
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  h5delete: /usr/local/bin/h5delete
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  glpsol: /usr/local/bin/glpsol
+  hb-info: /usr/local/bin/hb-info
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  pandoc: /usr/local/bin/pandoc
+  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  tjbench: /usr/local/bin/tjbench
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
