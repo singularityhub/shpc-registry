@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sonicparanoid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sonicparanoid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sonicparanoid/container.yaml"
-updated_at: "2024-03-20 03:00:37.057364"
+updated_at: "2024-03-21 03:03:29.838608"
 latest: "1.3.8--py38hcbe9525_3"
 container_url: "https://biocontainers.pro/tools/sonicparanoid"
 aliases:
@@ -26,8 +26,9 @@ aliases:
 versions:
  - "1.3.8--py38h8ded8fe_2"
  - "1.3.8--py38hcbe9525_3"
+ - "1.3.8--py39he10ea66_3"
 description: "shpc-registry automated BioContainers addition for sonicparanoid"
-config: {"url": "https://biocontainers.pro/tools/sonicparanoid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sonicparanoid", "latest": {"1.3.8--py38hcbe9525_3": "sha256:bd726d3613849f2262fafd49757080aa3b46db3a8ed0dbee3957c1f83c4ff6e8"}, "tags": {"1.3.8--py38h8ded8fe_2": "sha256:a3e11e21e19d938fb2b6e162411a18de6623231b97b0fea02fd322086bbe92a0", "1.3.8--py38hcbe9525_3": "sha256:bd726d3613849f2262fafd49757080aa3b46db3a8ed0dbee3957c1f83c4ff6e8"}, "docker": "quay.io/biocontainers/sonicparanoid", "aliases": {"filetype": "/usr/local/bin/filetype", "sonic-debug-infer-ortho-table": "/usr/local/bin/sonic-debug-infer-ortho-table", "sonicparanoid": "/usr/local/bin/sonicparanoid", "sonicparanoid-extract": "/usr/local/bin/sonicparanoid-extract", "sonicparanoid-get-test-data": "/usr/local/bin/sonicparanoid-get-test-data", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble"}}
+config: {"url": "https://biocontainers.pro/tools/sonicparanoid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sonicparanoid", "latest": {"1.3.8--py38hcbe9525_3": "sha256:bd726d3613849f2262fafd49757080aa3b46db3a8ed0dbee3957c1f83c4ff6e8"}, "tags": {"1.3.8--py38h8ded8fe_2": "sha256:a3e11e21e19d938fb2b6e162411a18de6623231b97b0fea02fd322086bbe92a0", "1.3.8--py38hcbe9525_3": "sha256:bd726d3613849f2262fafd49757080aa3b46db3a8ed0dbee3957c1f83c4ff6e8", "1.3.8--py39he10ea66_3": "sha256:6f282b9cd288e4a12cd2611c9ffdb2cd65daa9f429507435df916ffb1f9e1e77"}, "docker": "quay.io/biocontainers/sonicparanoid", "aliases": {"filetype": "/usr/local/bin/filetype", "sonic-debug-infer-ortho-table": "/usr/local/bin/sonic-debug-infer-ortho-table", "sonicparanoid": "/usr/local/bin/sonicparanoid", "sonicparanoid-extract": "/usr/local/bin/sonicparanoid-extract", "sonicparanoid-get-test-data": "/usr/local/bin/sonicparanoid-get-test-data", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sonicparanoid.

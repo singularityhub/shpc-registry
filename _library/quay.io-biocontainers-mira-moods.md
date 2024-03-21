@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mira-moods"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mira-moods/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mira-moods/container.yaml"
-updated_at: "2024-03-20 02:37:18.338617"
+updated_at: "2024-03-21 02:39:58.767350"
 latest: "1.9.4.2--py311hcbe9525_0"
 container_url: "https://biocontainers.pro/tools/mira-moods"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.9.4.2--py311hcbe9525_0"
+ - "1.9.4.2--py311he10ea66_0"
 description: "singularity registry hpc automated addition for mira-moods"
-config: {"url": "https://biocontainers.pro/tools/mira-moods", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mira-moods", "latest": {"1.9.4.2--py311hcbe9525_0": "sha256:52ec30e177e67c8d364e50dd4017a4a5904e3f828ed2c3aa608d63cd49478d97"}, "tags": {"1.9.4.2--py311hcbe9525_0": "sha256:52ec30e177e67c8d364e50dd4017a4a5904e3f828ed2c3aa608d63cd49478d97"}, "docker": "quay.io/biocontainers/mira-moods", "aliases": {"moods-dna.py": "/usr/local/bin/moods-dna.py", "ccache-swig": "/usr/local/bin/ccache-swig", "swig": "/usr/local/bin/swig", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/mira-moods", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mira-moods", "latest": {"1.9.4.2--py311hcbe9525_0": "sha256:52ec30e177e67c8d364e50dd4017a4a5904e3f828ed2c3aa608d63cd49478d97"}, "tags": {"1.9.4.2--py311hcbe9525_0": "sha256:52ec30e177e67c8d364e50dd4017a4a5904e3f828ed2c3aa608d63cd49478d97", "1.9.4.2--py311he10ea66_0": "sha256:3dcba175e580f90d9e2a3ececc2844f34571f1d93e59d4ad9d57dde119fd1ee2"}, "docker": "quay.io/biocontainers/mira-moods", "aliases": {"moods-dna.py": "/usr/local/bin/moods-dna.py", "ccache-swig": "/usr/local/bin/ccache-swig", "swig": "/usr/local/bin/swig", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mira-moods.

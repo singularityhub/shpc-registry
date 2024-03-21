@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqcomplexity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqcomplexity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqcomplexity/container.yaml"
-updated_at: "2024-03-20 03:03:53.071876"
+updated_at: "2024-03-21 03:06:44.051323"
 latest: "0.1.2--he9f29cb_0"
 container_url: "https://biocontainers.pro/tools/seqcomplexity"
 aliases:
@@ -12,8 +12,9 @@ aliases:
 versions:
  - "0.1.2--he9f29cb_0"
  - "0.1.2"
+ - "0.1.2--he6968d2_1"
 description: "singularity registry hpc automated addition for seqcomplexity"
-config: {"url": "https://biocontainers.pro/tools/seqcomplexity", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqcomplexity", "latest": {"0.1.2--he9f29cb_0": "sha256:acecac06c0b33fcfa38b9053dc19f217e88f939f0499d4e9e88515447c496d20"}, "tags": {"0.1.2--he9f29cb_0": "sha256:acecac06c0b33fcfa38b9053dc19f217e88f939f0499d4e9e88515447c496d20", "0.1.2": "sha256:e04769b948f69a299573f3d793df950bbc44da54789db89db6b559ccce440d69"}, "docker": "quay.io/biocontainers/seqcomplexity", "aliases": {"seqcomplexity": "/usr/local/bin/seqcomplexity"}}
+config: {"url": "https://biocontainers.pro/tools/seqcomplexity", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqcomplexity", "latest": {"0.1.2--he9f29cb_0": "sha256:acecac06c0b33fcfa38b9053dc19f217e88f939f0499d4e9e88515447c496d20"}, "tags": {"0.1.2--he9f29cb_0": "sha256:acecac06c0b33fcfa38b9053dc19f217e88f939f0499d4e9e88515447c496d20", "0.1.2": "sha256:e04769b948f69a299573f3d793df950bbc44da54789db89db6b559ccce440d69", "0.1.2--he6968d2_1": "sha256:6e39321ef49a1c53a5658e21113df1062cffff41b340e50ced6e67856d456a25"}, "docker": "quay.io/biocontainers/seqcomplexity", "aliases": {"seqcomplexity": "/usr/local/bin/seqcomplexity"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqcomplexity.

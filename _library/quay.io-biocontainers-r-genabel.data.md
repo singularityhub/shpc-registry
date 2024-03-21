@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-genabel.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-genabel.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-genabel.data/container.yaml"
-updated_at: "2024-03-20 02:39:50.307725"
+updated_at: "2024-03-21 02:42:34.621469"
 latest: "1.0.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-genabel.data"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.0.0--r3.3.1_0"
+ - "1.0.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-genabel.data"
-config: {"url": "https://biocontainers.pro/tools/r-genabel.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-genabel.data", "latest": {"1.0.0--r3.3.1_0": "sha256:8237075a1be057599b79533ad00bc4a64cc5280aa4ca16e8c76c9ee16728772f"}, "tags": {"1.0.0--r3.3.1_0": "sha256:8237075a1be057599b79533ad00bc4a64cc5280aa4ca16e8c76c9ee16728772f"}, "docker": "quay.io/biocontainers/r-genabel.data", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-genabel.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-genabel.data", "latest": {"1.0.0--r3.3.1_0": "sha256:8237075a1be057599b79533ad00bc4a64cc5280aa4ca16e8c76c9ee16728772f"}, "tags": {"1.0.0--r3.3.1_0": "sha256:8237075a1be057599b79533ad00bc4a64cc5280aa4ca16e8c76c9ee16728772f", "1.0.0--r3.4.1_0": "sha256:3ba4fb6b5c00decaae0b4f33904ec5bcdb524929d649518997132a802ca508f3"}, "docker": "quay.io/biocontainers/r-genabel.data", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-genabel.data.

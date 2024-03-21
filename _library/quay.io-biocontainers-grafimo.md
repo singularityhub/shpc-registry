@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grafimo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grafimo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grafimo/container.yaml"
-updated_at: "2024-03-20 02:56:55.014298"
+updated_at: "2024-03-21 02:59:47.309065"
 latest: "1.1.6--py39h5371cbf_0"
 container_url: "https://biocontainers.pro/tools/grafimo"
 aliases:
@@ -22,8 +22,9 @@ aliases:
  - "gtscompare"
 versions:
  - "1.1.6--py39h5371cbf_0"
+ - "1.1.6--py310h79ef01b_0"
 description: "shpc-registry automated BioContainers addition for grafimo"
-config: {"url": "https://biocontainers.pro/tools/grafimo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grafimo", "latest": {"1.1.6--py39h5371cbf_0": "sha256:c1aac609e9056ed7b9aa3428234568a6068547f82568f5822aebfece8c2e47dd"}, "tags": {"1.1.6--py39h5371cbf_0": "sha256:c1aac609e9056ed7b9aa3428234568a6068547f82568f5822aebfece8c2e47dd"}, "docker": "quay.io/biocontainers/grafimo", "aliases": {"grafimo": "/usr/local/bin/grafimo", "vg": "/usr/local/bin/vg", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare"}}
+config: {"url": "https://biocontainers.pro/tools/grafimo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grafimo", "latest": {"1.1.6--py39h5371cbf_0": "sha256:c1aac609e9056ed7b9aa3428234568a6068547f82568f5822aebfece8c2e47dd"}, "tags": {"1.1.6--py39h5371cbf_0": "sha256:c1aac609e9056ed7b9aa3428234568a6068547f82568f5822aebfece8c2e47dd", "1.1.6--py310h79ef01b_0": "sha256:0884cc708b5a892cc4171385fe393831b2b53f9427c1aa5b5a93daa42c119cbe"}, "docker": "quay.io/biocontainers/grafimo", "aliases": {"grafimo": "/usr/local/bin/grafimo", "vg": "/usr/local/bin/vg", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grafimo.

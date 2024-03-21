@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ddrtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ddrtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ddrtree/container.yaml"
-updated_at: "2024-03-20 02:27:18.943434"
+updated_at: "2024-03-21 02:29:40.099227"
 latest: "0.1.5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ddrtree"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.1.5--r3.3.1_0"
+ - "0.1.5--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-ddrtree"
-config: {"url": "https://biocontainers.pro/tools/r-ddrtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ddrtree", "latest": {"0.1.5--r3.3.1_0": "sha256:079e5022b40a3e2debfe37bb876483b75084b7167832d00933bf6dc222131477"}, "tags": {"0.1.5--r3.3.1_0": "sha256:079e5022b40a3e2debfe37bb876483b75084b7167832d00933bf6dc222131477"}, "docker": "quay.io/biocontainers/r-ddrtree", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-ddrtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ddrtree", "latest": {"0.1.5--r3.3.1_0": "sha256:079e5022b40a3e2debfe37bb876483b75084b7167832d00933bf6dc222131477"}, "tags": {"0.1.5--r3.3.1_0": "sha256:079e5022b40a3e2debfe37bb876483b75084b7167832d00933bf6dc222131477", "0.1.5--r3.3.2_0": "sha256:4ae1a629fbc03b902a8fc04b8d72a76e6e9b71e4ed6f668f186a846c5e04ad54"}, "docker": "quay.io/biocontainers/r-ddrtree", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ddrtree.

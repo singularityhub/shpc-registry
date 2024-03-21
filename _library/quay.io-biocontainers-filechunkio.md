@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/filechunkio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/filechunkio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/filechunkio/container.yaml"
-updated_at: "2024-03-20 02:30:55.776763"
+updated_at: "2024-03-21 02:33:26.635011"
 latest: "1.6--py35_0"
 container_url: "https://biocontainers.pro/tools/filechunkio"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "1.6--py35_0"
+ - "1.6--py36_0"
 description: "shpc-registry automated BioContainers addition for filechunkio"
-config: {"url": "https://biocontainers.pro/tools/filechunkio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for filechunkio", "latest": {"1.6--py35_0": "sha256:40320935ca1da8836ea49ed02d58a62ec090d8d6171f2e48a2964011434368d1"}, "tags": {"1.6--py35_0": "sha256:40320935ca1da8836ea49ed02d58a62ec090d8d6171f2e48a2964011434368d1"}, "docker": "quay.io/biocontainers/filechunkio", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/filechunkio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for filechunkio", "latest": {"1.6--py35_0": "sha256:40320935ca1da8836ea49ed02d58a62ec090d8d6171f2e48a2964011434368d1"}, "tags": {"1.6--py35_0": "sha256:40320935ca1da8836ea49ed02d58a62ec090d8d6171f2e48a2964011434368d1", "1.6--py36_0": "sha256:9705214cabd83bac9ae05ca9f3ae61ee68ae37af2e87d9220dbd04a850772b3b"}, "docker": "quay.io/biocontainers/filechunkio", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/filechunkio.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-loci2path"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-loci2path/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-loci2path/container.yaml"
-updated_at: "2024-03-20 02:47:49.789489"
+updated_at: "2024-03-21 02:50:43.112201"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-loci2path"
 aliases:

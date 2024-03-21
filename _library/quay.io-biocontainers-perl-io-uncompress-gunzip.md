@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-io-uncompress-gunzip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-uncompress-gunzip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-uncompress-gunzip/container.yaml"
-updated_at: "2024-03-20 02:45:32.329505"
+updated_at: "2024-03-21 02:48:25.278979"
 latest: "2.064--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-io-uncompress-gunzip"
 aliases:

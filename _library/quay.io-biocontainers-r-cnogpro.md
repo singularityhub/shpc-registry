@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-cnogpro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cnogpro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cnogpro/container.yaml"
-updated_at: "2024-03-20 02:43:03.552793"
+updated_at: "2024-03-21 02:45:53.639660"
 latest: "1.1--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-cnogpro"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.1--r3.3.2_0"
+ - "1.1--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-cnogpro"
-config: {"url": "https://biocontainers.pro/tools/r-cnogpro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-cnogpro", "latest": {"1.1--r3.3.2_0": "sha256:72b2bde3706caa2ae00846185286a45dc299931452689cddff8075bc5c646be4"}, "tags": {"1.1--r3.3.2_0": "sha256:72b2bde3706caa2ae00846185286a45dc299931452689cddff8075bc5c646be4"}, "docker": "quay.io/biocontainers/r-cnogpro", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-cnogpro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-cnogpro", "latest": {"1.1--r3.3.2_0": "sha256:72b2bde3706caa2ae00846185286a45dc299931452689cddff8075bc5c646be4"}, "tags": {"1.1--r3.3.2_0": "sha256:72b2bde3706caa2ae00846185286a45dc299931452689cddff8075bc5c646be4", "1.1--r3.4.1_0": "sha256:2f1ac8b89c999d4ae876656892f52274a6c9ee23aaaaa8311dd4c1f3eca29b47"}, "docker": "quay.io/biocontainers/r-cnogpro", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-cnogpro.

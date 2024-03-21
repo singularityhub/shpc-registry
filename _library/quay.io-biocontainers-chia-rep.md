@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chia-rep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chia-rep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chia-rep/container.yaml"
-updated_at: "2024-03-20 03:02:03.175507"
+updated_at: "2024-03-21 03:04:55.053544"
 latest: "3.1.1--py38hcbe9525_3"
 container_url: "https://biocontainers.pro/tools/chia-rep"
 aliases:
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "3.1.1--py36h4aaaa08_2"
  - "3.1.1--py38hcbe9525_3"
+ - "3.1.1--py310h068649b_3"
 description: "shpc-registry automated BioContainers addition for chia-rep"
-config: {"url": "https://biocontainers.pro/tools/chia-rep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chia-rep", "latest": {"3.1.1--py38hcbe9525_3": "sha256:7d3090432b03be84a7351c2c6fca87689b3a4fbce09b33d27a2ee11bf9d85a50"}, "tags": {"3.1.1--py36h4aaaa08_2": "sha256:4ed3b2bf36055c2a7dac266608034b4e42858fd3aeab3b82a652763abfcd9a80", "3.1.1--py38hcbe9525_3": "sha256:7d3090432b03be84a7351c2c6fca87689b3a4fbce09b33d27a2ee11bf9d85a50"}, "docker": "quay.io/biocontainers/chia-rep", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/chia-rep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chia-rep", "latest": {"3.1.1--py38hcbe9525_3": "sha256:7d3090432b03be84a7351c2c6fca87689b3a4fbce09b33d27a2ee11bf9d85a50"}, "tags": {"3.1.1--py36h4aaaa08_2": "sha256:4ed3b2bf36055c2a7dac266608034b4e42858fd3aeab3b82a652763abfcd9a80", "3.1.1--py38hcbe9525_3": "sha256:7d3090432b03be84a7351c2c6fca87689b3a4fbce09b33d27a2ee11bf9d85a50", "3.1.1--py310h068649b_3": "sha256:3f92e59484e332edd1397a1f55dbb743ec14aeed9aba273558aea21ed88f76d2"}, "docker": "quay.io/biocontainers/chia-rep", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chia-rep.
