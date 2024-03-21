@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/scsplit
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scsplit
+latest:
+  1.0.8.2--pyh7cba7a3_0: sha256:ca8a76aee4ddaab1e303488e081274edb3e68e23e004c0847e48ca0233af9fd9
+tags:
+  1.0.8.2--pyh7cba7a3_0: sha256:ca8a76aee4ddaab1e303488e081274edb3e68e23e004c0847e48ca0233af9fd9
+docker: quay.io/biocontainers/scsplit
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
