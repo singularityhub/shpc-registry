@@ -5,6 +5,7 @@ latest:
   2.4.0--py35_0: sha256:967be08c59edde8e49b31f9d0810bb6c0e4d86626a43fbdf063838999642643a
 tags:
   2.4.0--py35_0: sha256:967be08c59edde8e49b31f9d0810bb6c0e4d86626a43fbdf063838999642643a
+  2.4.0--py36_0: sha256:db0a3ee559b53ef52512015c8cb6dccfbc9e9e0b1dd4d45fa3843b5c668cd265
 docker: quay.io/biocontainers/openpyxl
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

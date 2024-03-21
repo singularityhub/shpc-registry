@@ -5,6 +5,7 @@ latest:
   0.9.31--py35_1: sha256:cd5de468b98c07c4277201fe5b4464a5a25343df8dc27239772bd9fdb7728e02
 tags:
   0.9.31--py35_1: sha256:cd5de468b98c07c4277201fe5b4464a5a25343df8dc27239772bd9fdb7728e02
+  0.9.31--py27_1: sha256:255d3fa71118aaf45a0a0e0a1137db1dbeca279e5da479cd0fb3dc21299e023a
 docker: quay.io/biocontainers/easydev
 aliases:
   easydev_buildPackage: /usr/local/bin/easydev_buildPackage

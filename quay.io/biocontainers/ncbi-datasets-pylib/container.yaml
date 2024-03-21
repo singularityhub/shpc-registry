@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/ncbi-datasets-pylib
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ncbi-datasets-pylib
 latest:
-  16.3.0--pyhdfd78af_0: sha256:8a49e1e38747988ffc34573d9f8d30e8f2c1413d5015a5545950436be11c9f48
+  16.6.0--pyhdfd78af_0: sha256:133d9d017b4082b7b55e610ab2f38006edf53c859cbd7307e84d49ffc550ae39
 tags:
   14.19.0--pyhdfd78af_0: sha256:b5a2027b3da2b34c98bb5ba4dc5df22ed850de44644f50caa839bfcebb5f46bc
   14.23.0--pyhdfd78af_0: sha256:3b52159b9047da1ee88cf42d724e399bf062ec0ad2b9350be18efafae21e6066
@@ -36,6 +36,9 @@ tags:
   16.3.0--pyhdfd78af_0: sha256:8a49e1e38747988ffc34573d9f8d30e8f2c1413d5015a5545950436be11c9f48
   16.2.0--pyhdfd78af_0: sha256:80a66b11053f6f4d19f412efeec078e68f200e41a3d249ff188997578334581e
   16.1.2--pyhdfd78af_0: sha256:b9646c645fdc389350ddbaa238b9a6c96515d646b80bdf6a4fd69dfd73f8b900
+  16.6.0--pyhdfd78af_0: sha256:133d9d017b4082b7b55e610ab2f38006edf53c859cbd7307e84d49ffc550ae39
+  16.5.0--pyhdfd78af_0: sha256:0c11a55fd69af4ee7ecaa905bbd95792a8fc64ac72ad9156b7d2d5bb56008507
+  16.4.9--pyhdfd78af_0: sha256:e014d2612270ab86f79b7c1e046e359bfb608acc5891a5ccfa258000409377b6
 docker: quay.io/biocontainers/ncbi-datasets-pylib
 aliases:
   gffutils-cli: /usr/local/bin/gffutils-cli

@@ -5,6 +5,7 @@ latest:
   3.5.0--py27hc30c61c_3: sha256:13782a9ed90f26c1d98813259d8f2b6fad0be961ffa356e9e0c59a90667b69c6
 tags:
   3.5.0--py27hc30c61c_3: sha256:13782a9ed90f26c1d98813259d8f2b6fad0be961ffa356e9e0c59a90667b69c6
+  3.5.0--py36h2ad2d48_3: sha256:b7806c35a69b6e440ff4c0ae3a3d31268429b636e3ff0cba4ca750200fd8d7a6
 docker: quay.io/biocontainers/mlpy
 aliases:
   f2py2: /usr/local/bin/f2py2

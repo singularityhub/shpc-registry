@@ -5,6 +5,7 @@ latest:
   0.2.1--r3.3.1_0: sha256:d59b1165f0a8507757bb08ca937f762eda645b0009d7163274684eae98464599
 tags:
   0.2.1--r3.3.1_0: sha256:d59b1165f0a8507757bb08ca937f762eda645b0009d7163274684eae98464599
+  0.2.1--r3.3.2_0: sha256:55e93fe8d02b33141c9f4e1d81b573f6975aa5c6d4fa92afeb2d752e18b45141
 docker: quay.io/biocontainers/r-shinyace
 aliases:
   uconv: /usr/local/bin/uconv
