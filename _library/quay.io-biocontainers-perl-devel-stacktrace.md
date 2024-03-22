@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-devel-stacktrace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-devel-stacktrace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-devel-stacktrace/container.yaml"
-updated_at: "2024-03-21 04:02:23.335337"
+updated_at: "2024-03-22 02:29:53.536115"
 latest: "2.04--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-devel-stacktrace"
 aliases:

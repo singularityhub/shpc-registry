@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-amber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-amber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-amber/container.yaml"
-updated_at: "2024-03-21 03:58:45.142364"
+updated_at: "2024-03-22 02:25:59.247673"
 latest: "4.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-amber"
 aliases:
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "3.9--hdfd78af_1"
  - "4.0--hdfd78af_0"
+ - "3.9.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hmftools-amber"
-config: {"url": "https://biocontainers.pro/tools/hmftools-amber", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-amber", "latest": {"4.0--hdfd78af_0": "sha256:4bead7f67388476a14b043d86fdc9b0636e532a9329d418a1b438cea23e3bb74"}, "tags": {"3.9--hdfd78af_1": "sha256:2735782fa475aed6f552b466dcd7ca4f03e7431e4555f1369d67d088b04d0247", "4.0--hdfd78af_0": "sha256:4bead7f67388476a14b043d86fdc9b0636e532a9329d418a1b438cea23e3bb74"}, "docker": "quay.io/biocontainers/hmftools-amber", "aliases": {"AMBER": "/usr/local/bin/AMBER", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-amber", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-amber", "latest": {"4.0--hdfd78af_0": "sha256:4bead7f67388476a14b043d86fdc9b0636e532a9329d418a1b438cea23e3bb74"}, "tags": {"3.9--hdfd78af_1": "sha256:2735782fa475aed6f552b466dcd7ca4f03e7431e4555f1369d67d088b04d0247", "4.0--hdfd78af_0": "sha256:4bead7f67388476a14b043d86fdc9b0636e532a9329d418a1b438cea23e3bb74", "3.9.1--hdfd78af_0": "sha256:37c09c6d4eeebc11824ecf08a75ab17e9197176b54f4a731259f0708b9c8530c"}, "docker": "quay.io/biocontainers/hmftools-amber", "aliases": {"AMBER": "/usr/local/bin/AMBER", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-amber.

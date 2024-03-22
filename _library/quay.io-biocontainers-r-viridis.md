@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-viridis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-viridis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-viridis/container.yaml"
-updated_at: "2024-03-21 04:14:56.688296"
+updated_at: "2024-03-22 02:43:11.456543"
 latest: "0.3.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-viridis"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.3.1--r3.2.2_0"
+ - "0.3.1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-viridis"
-config: {"url": "https://biocontainers.pro/tools/r-viridis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-viridis", "latest": {"0.3.1--r3.2.2_0": "sha256:6eca7359eb55fc39e553e9dcb18ab584a02bbf49a64af4854a17e9add06ef32d"}, "tags": {"0.3.1--r3.2.2_0": "sha256:6eca7359eb55fc39e553e9dcb18ab584a02bbf49a64af4854a17e9add06ef32d"}, "docker": "quay.io/biocontainers/r-viridis", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-viridis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-viridis", "latest": {"0.3.1--r3.2.2_0": "sha256:6eca7359eb55fc39e553e9dcb18ab584a02bbf49a64af4854a17e9add06ef32d"}, "tags": {"0.3.1--r3.2.2_0": "sha256:6eca7359eb55fc39e553e9dcb18ab584a02bbf49a64af4854a17e9add06ef32d", "0.3.1--r3.3.2_0": "sha256:d10b7c2f0ed10f61faf3381d1306eed40a71f4a37b1c2db5779f58c2a0f880d6"}, "docker": "quay.io/biocontainers/r-viridis", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-viridis.

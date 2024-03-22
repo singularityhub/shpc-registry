@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gmd/container.yaml"
-updated_at: "2024-03-21 04:36:40.871435"
+updated_at: "2024-03-22 03:05:59.344192"
 latest: "0.3.3--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-gmd"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.3.3--r3.3.1_1"
+ - "0.3.3--r3.3.2_1"
 description: "shpc-registry automated BioContainers addition for r-gmd"
-config: {"url": "https://biocontainers.pro/tools/r-gmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gmd", "latest": {"0.3.3--r3.3.1_1": "sha256:4b6b6ab9b4ea641e09163db039ea7fb3d3b8523d76b615fae64dcedc4b8064a6"}, "tags": {"0.3.3--r3.3.1_1": "sha256:4b6b6ab9b4ea641e09163db039ea7fb3d3b8523d76b615fae64dcedc4b8064a6"}, "docker": "quay.io/biocontainers/r-gmd", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-gmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gmd", "latest": {"0.3.3--r3.3.1_1": "sha256:4b6b6ab9b4ea641e09163db039ea7fb3d3b8523d76b615fae64dcedc4b8064a6"}, "tags": {"0.3.3--r3.3.1_1": "sha256:4b6b6ab9b4ea641e09163db039ea7fb3d3b8523d76b615fae64dcedc4b8064a6", "0.3.3--r3.3.2_1": "sha256:27807c2875d0dd566ac760edd731c1a7e166f59108f1ee1e43f1970f49129d77"}, "docker": "quay.io/biocontainers/r-gmd", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gmd.

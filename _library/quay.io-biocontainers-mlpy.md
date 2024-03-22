@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mlpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mlpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mlpy/container.yaml"
-updated_at: "2024-03-21 04:33:51.115336"
+updated_at: "2024-03-22 03:03:00.381581"
 latest: "3.5.0--py27hc30c61c_3"
 container_url: "https://biocontainers.pro/tools/mlpy"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "smtpd.py"
 versions:
  - "3.5.0--py27hc30c61c_3"
+ - "3.5.0--py36h2ad2d48_3"
 description: "shpc-registry automated BioContainers addition for mlpy"
-config: {"url": "https://biocontainers.pro/tools/mlpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mlpy", "latest": {"3.5.0--py27hc30c61c_3": "sha256:13782a9ed90f26c1d98813259d8f2b6fad0be961ffa356e9e0c59a90667b69c6"}, "tags": {"3.5.0--py27hc30c61c_3": "sha256:13782a9ed90f26c1d98813259d8f2b6fad0be961ffa356e9e0c59a90667b69c6"}, "docker": "quay.io/biocontainers/mlpy", "aliases": {"f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/mlpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mlpy", "latest": {"3.5.0--py27hc30c61c_3": "sha256:13782a9ed90f26c1d98813259d8f2b6fad0be961ffa356e9e0c59a90667b69c6"}, "tags": {"3.5.0--py27hc30c61c_3": "sha256:13782a9ed90f26c1d98813259d8f2b6fad0be961ffa356e9e0c59a90667b69c6", "3.5.0--py36h2ad2d48_3": "sha256:b7806c35a69b6e440ff4c0ae3a3d31268429b636e3ff0cba4ca750200fd8d7a6"}, "docker": "quay.io/biocontainers/mlpy", "aliases": {"f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mlpy.

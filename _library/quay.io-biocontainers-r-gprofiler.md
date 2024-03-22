@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gprofiler/container.yaml"
-updated_at: "2024-03-21 04:24:31.638936"
+updated_at: "2024-03-22 02:53:20.610970"
 latest: "0.6.1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-gprofiler"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.6.1--r3.3.1_0"
+ - "0.6.1--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-gprofiler"
-config: {"url": "https://biocontainers.pro/tools/r-gprofiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gprofiler", "latest": {"0.6.1--r3.3.1_0": "sha256:ba34fba6b2f9a38d7c923e509f50c7f784d47d051dc0a5500ea5fab3568776e9"}, "tags": {"0.6.1--r3.3.1_0": "sha256:ba34fba6b2f9a38d7c923e509f50c7f784d47d051dc0a5500ea5fab3568776e9"}, "docker": "quay.io/biocontainers/r-gprofiler", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-gprofiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gprofiler", "latest": {"0.6.1--r3.3.1_0": "sha256:ba34fba6b2f9a38d7c923e509f50c7f784d47d051dc0a5500ea5fab3568776e9"}, "tags": {"0.6.1--r3.3.1_0": "sha256:ba34fba6b2f9a38d7c923e509f50c7f784d47d051dc0a5500ea5fab3568776e9", "0.6.1--r3.4.1_0": "sha256:bf6e64d2ec9a2527451cb2d246c710bd6e4fbad7f7bb5fd62dc7295b4dfbec59"}, "docker": "quay.io/biocontainers/r-gprofiler", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gprofiler.

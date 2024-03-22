@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dadi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dadi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dadi/container.yaml"
-updated_at: "2024-03-21 04:06:24.457830"
+updated_at: "2024-03-22 02:34:11.031644"
 latest: "2.0.5--py37hc1659b7_0"
 container_url: "https://biocontainers.pro/tools/dadi"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "qwebengine_convert_dict"
 versions:
  - "2.0.5--py37hc1659b7_0"
+ - "2.0.5--py36hc1659b7_0"
 description: "shpc-registry automated BioContainers addition for dadi"
-config: {"url": "https://biocontainers.pro/tools/dadi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dadi", "latest": {"2.0.5--py37hc1659b7_0": "sha256:19dd055c301c7acdcfd0f8de239113360e89a716583a788a0cb186a7defea4cf"}, "tags": {"2.0.5--py37hc1659b7_0": "sha256:19dd055c301c7acdcfd0f8de239113360e89a716583a788a0cb186a7defea4cf"}, "docker": "quay.io/biocontainers/dadi", "aliases": {"compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
+config: {"url": "https://biocontainers.pro/tools/dadi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dadi", "latest": {"2.0.5--py37hc1659b7_0": "sha256:19dd055c301c7acdcfd0f8de239113360e89a716583a788a0cb186a7defea4cf"}, "tags": {"2.0.5--py37hc1659b7_0": "sha256:19dd055c301c7acdcfd0f8de239113360e89a716583a788a0cb186a7defea4cf", "2.0.5--py36hc1659b7_0": "sha256:3dbb914be506b735bf30a6d2adbae07968c8f43c3baa053c98ff436e1aa5aca5"}, "docker": "quay.io/biocontainers/dadi", "aliases": {"compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dadi.

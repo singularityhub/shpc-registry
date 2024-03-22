@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pepdat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pepdat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pepdat/container.yaml"
-updated_at: "2024-03-21 04:20:09.501077"
+updated_at: "2024-03-22 02:48:45.255820"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pepdat"
 aliases:

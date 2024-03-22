@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbsim3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbsim3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbsim3/container.yaml"
-updated_at: "2024-03-21 04:18:29.056244"
+updated_at: "2024-03-22 02:47:00.094261"
 latest: "3.0.2--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/pbsim3"
 aliases:

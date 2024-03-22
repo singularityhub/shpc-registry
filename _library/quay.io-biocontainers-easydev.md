@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/easydev"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/easydev/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/easydev/container.yaml"
-updated_at: "2024-03-21 03:55:38.778629"
+updated_at: "2024-03-22 02:22:37.790875"
 latest: "0.9.31--py35_1"
 container_url: "https://biocontainers.pro/tools/easydev"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "python3.5m"
 versions:
  - "0.9.31--py35_1"
+ - "0.9.31--py27_1"
 description: "shpc-registry automated BioContainers addition for easydev"
-config: {"url": "https://biocontainers.pro/tools/easydev", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for easydev", "latest": {"0.9.31--py35_1": "sha256:cd5de468b98c07c4277201fe5b4464a5a25343df8dc27239772bd9fdb7728e02"}, "tags": {"0.9.31--py35_1": "sha256:cd5de468b98c07c4277201fe5b4464a5a25343df8dc27239772bd9fdb7728e02"}, "docker": "quay.io/biocontainers/easydev", "aliases": {"easydev_buildPackage": "/usr/local/bin/easydev_buildPackage", "ibrowse": "/usr/local/bin/ibrowse", "multigit": "/usr/local/bin/multigit", "browse": "/usr/local/bin/browse", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m"}}
+config: {"url": "https://biocontainers.pro/tools/easydev", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for easydev", "latest": {"0.9.31--py35_1": "sha256:cd5de468b98c07c4277201fe5b4464a5a25343df8dc27239772bd9fdb7728e02"}, "tags": {"0.9.31--py35_1": "sha256:cd5de468b98c07c4277201fe5b4464a5a25343df8dc27239772bd9fdb7728e02", "0.9.31--py27_1": "sha256:255d3fa71118aaf45a0a0e0a1137db1dbeca279e5da479cd0fb3dc21299e023a"}, "docker": "quay.io/biocontainers/easydev", "aliases": {"easydev_buildPackage": "/usr/local/bin/easydev_buildPackage", "ibrowse": "/usr/local/bin/ibrowse", "multigit": "/usr/local/bin/multigit", "browse": "/usr/local/bin/browse", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/easydev.
