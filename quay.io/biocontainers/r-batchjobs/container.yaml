@@ -5,6 +5,7 @@ latest:
   1.6--r3.2.2_0: sha256:69a13146a2ced92dafa778cbd9623189b4a288b653e19309493db569742fc629
 tags:
   1.6--r3.2.2_0: sha256:69a13146a2ced92dafa778cbd9623189b4a288b653e19309493db569742fc629
+  1.6--r3.3.2_0: sha256:31878ce10f9c3695e1b50cd9eafe955adde510af3c6d06e0b519c19921f96aed
 docker: quay.io/biocontainers/r-batchjobs
 aliases:
   pngcp: /usr/local/bin/pngcp

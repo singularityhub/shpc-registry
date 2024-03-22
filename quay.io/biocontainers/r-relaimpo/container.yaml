@@ -5,6 +5,7 @@ latest:
   2.2_2--r3.3.1_0: sha256:980538c147812a333d337494d871b0809af4c1d0035668e27c85a138ed14240b
 tags:
   2.2_2--r3.3.1_0: sha256:980538c147812a333d337494d871b0809af4c1d0035668e27c85a138ed14240b
+  2.2_2--r3.3.2_0: sha256:a9af5e9b062438ff6df73d8da9a3e5ec9112124c92b67164357b4c6ee3b69792
 docker: quay.io/biocontainers/r-relaimpo
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

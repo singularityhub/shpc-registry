@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/prophyle
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for prophyle
 latest:
-  0.3.1.0--py36h8b12597_5: sha256:66c48c5cc47ceb1560c660015418833a6749a915d31891e3c2eda5c93609af83
+  0.3.3.1--py39h4e691d4_0: sha256:673cd302cca6d863eb9fe7e4968b73b764b966cc41f4ddffc26150719f4e22f7
 tags:
   0.3.1.0--py36h8b12597_5: sha256:66c48c5cc47ceb1560c660015418833a6749a915d31891e3c2eda5c93609af83
+  0.3.3.1--py39h4e691d4_0: sha256:673cd302cca6d863eb9fe7e4968b73b764b966cc41f4ddffc26150719f4e22f7
 docker: quay.io/biocontainers/prophyle
 aliases:
   prophyle: /usr/local/bin/prophyle

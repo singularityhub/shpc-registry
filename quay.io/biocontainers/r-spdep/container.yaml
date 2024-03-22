@@ -5,6 +5,7 @@ latest:
   0.6_8--r3.3.1_0: sha256:8c76c7a173cc0df15a6303a20c860bbdd7a664ceefb325c05c5fb53435a11cff
 tags:
   0.6_8--r3.3.1_0: sha256:8c76c7a173cc0df15a6303a20c860bbdd7a664ceefb325c05c5fb53435a11cff
+  0.6_8--r3.3.2_0: sha256:203219a1fe8e8239a0a60c57a8c92b6870bff12eed9e940af45a1f8e17779225
 docker: quay.io/biocontainers/r-spdep
 aliases:
   pango-querymodules: /usr/local/bin/pango-querymodules

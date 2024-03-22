@@ -5,6 +5,7 @@ latest:
   2.2.1--r3.3.1_0: sha256:474e49e8eafb4d22d2633473c527eefc22c0d195ec947c0a95d51d95307e8823
 tags:
   2.2.1--r3.3.1_0: sha256:474e49e8eafb4d22d2633473c527eefc22c0d195ec947c0a95d51d95307e8823
+  2.2.1--r3.3.2_0: sha256:f1d441197a06ef8f888eb6275d03d0b6d44a5bb07e1596b8350981aa8864d9a4
 docker: quay.io/biocontainers/r-ggplot2
 aliases:
   uconv: /usr/local/bin/uconv

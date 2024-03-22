@@ -5,6 +5,7 @@ latest:
   1.0--py37h595c7a6_5: sha256:9362a60c7a27bd00c04a7d599660e43cd4a3acb45d9f56306ee3248fe1a8707b
 tags:
   1.0--py37h595c7a6_5: sha256:9362a60c7a27bd00c04a7d599660e43cd4a3acb45d9f56306ee3248fe1a8707b
+  1.0--py310h590eda1_5: sha256:1b221bf323a83d188ab53844a2fb7bf37b37ad9b5340c5043ce57cff12b56d1b
 docker: quay.io/biocontainers/komb
 aliases:
   Bifrost: /usr/local/bin/Bifrost

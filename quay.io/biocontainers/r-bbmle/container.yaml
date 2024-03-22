@@ -5,6 +5,7 @@ latest:
   1.0.18--r3.3.1_0: sha256:0da58cd0b1b3ab81d3e33689ac59aacd73a1a843f8f5b092b33543893742852f
 tags:
   1.0.18--r3.3.1_0: sha256:0da58cd0b1b3ab81d3e33689ac59aacd73a1a843f8f5b092b33543893742852f
+  1.0.18--r3.3.2_0: sha256:e0b2c60b9eba6128615f2bff6097c2e71dd0169949324d99b5852d58f29904f3
 docker: quay.io/biocontainers/r-bbmle
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

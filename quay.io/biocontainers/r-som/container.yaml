@@ -5,6 +5,7 @@ latest:
   0.3_5.1--r3.3.1_0: sha256:d15b89fe63d0ab7e9f56af9c3cf42dccbff6f7cc30702830d9e99737a560d6cc
 tags:
   0.3_5.1--r3.3.1_0: sha256:d15b89fe63d0ab7e9f56af9c3cf42dccbff6f7cc30702830d9e99737a560d6cc
+  0.3_5.1--r3.3.2_0: sha256:3422a1e6fe326eb104b173de5f06623aa1884f74de6e276966d386c377bf8540
 docker: quay.io/biocontainers/r-som
 aliases:
   uconv: /usr/local/bin/uconv

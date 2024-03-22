@@ -2,7 +2,12 @@ url: https://biocontainers.pro/tools/snakemake
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for snakemake
 latest:
-  5.4.0--0: sha256:babe98d0fe1badf8bca64df76b48af8d9d5595d96a23d8ec2ff6560e30f98181
+  8.9.0--hdfd78af_0: sha256:b64ef7f0647049d227f350406879e450d9a8a5f1e120e588bdfced0d094891f1
 tags:
   5.4.0--0: sha256:babe98d0fe1badf8bca64df76b48af8d9d5595d96a23d8ec2ff6560e30f98181
+  8.9.0--hdfd78af_0: sha256:b64ef7f0647049d227f350406879e450d9a8a5f1e120e588bdfced0d094891f1
+  8.8.0--hdfd78af_0: sha256:fe71bfb1525ba30c79ddb6529b4b84734b374f4e8deaee62cb11effbaf2ad585
+  8.7.0--hdfd78af_0: sha256:af5ebbce2da9d5f5ad9a68ba7d5e050c219c8d9562710a46384ab0e1e2715db1
+  8.6.0--hdfd78af_0: sha256:10ea50c0ec1508e998b2e1a987c043dbeaa71ad5e808629ba7d5fd34d72bb969
+  8.5.5--hdfd78af_0: sha256:1b51b49baa71fcc34c9071f61c5b7fff397ce0f63a7a5035a87fc4320efc3a97
 docker: quay.io/biocontainers/snakemake
