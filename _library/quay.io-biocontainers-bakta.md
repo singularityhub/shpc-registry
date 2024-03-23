@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bakta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bakta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bakta/container.yaml"
-updated_at: "2024-03-22 03:02:29.187765"
-latest: "1.9.2--pyhdfd78af_0"
+updated_at: "2024-03-23 03:00:55.217587"
+latest: "1.9.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bakta"
 aliases:
  - "EukHighConfidenceFilter"
@@ -47,8 +47,9 @@ versions:
  - "1.8.2--pyhdfd78af_1"
  - "1.9.1--pyhdfd78af_0"
  - "1.9.2--pyhdfd78af_0"
+ - "1.9.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bakta"
-config: {"url": "https://biocontainers.pro/tools/bakta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bakta", "latest": {"1.9.2--pyhdfd78af_0": "sha256:0f7ca6052b91063123b88189c61765717f91a1bb8a1c530b1e1df44f6c60e41a"}, "tags": {"1.5.1--pyhdfd78af_0": "sha256:4b6e6caef591f0caa658dff7db4d153abf4b3200948da0e3701dd65637adfdb0", "1.6.1--pyhdfd78af_0": "sha256:faf0bd626c870520dcc465946426f4d3b9e0944956f834b64230d2a7e85941e5", "1.7.0--pyhdfd78af_1": "sha256:b659c23f4c0637bd9bc7aa1477b710367875356d9ec3a8e88e66fb2a92f26241", "1.8.1--pyhdfd78af_0": "sha256:31cf5dbe49e9f6aa07c9acdb49380b5c3ea9710095c0c8a56c9d876c65440321", "1.8.2--pyhdfd78af_1": "sha256:2be7064d241e8f83d648e7f4912ffa647d0775dafdee413084eb4096bbd74b10", "1.9.1--pyhdfd78af_0": "sha256:05edde3f36deae2bfec949ef2c92befc9bb61501420e7d0d7439b5277b17003e", "1.9.2--pyhdfd78af_0": "sha256:0f7ca6052b91063123b88189c61765717f91a1bb8a1c530b1e1df44f6c60e41a"}, "docker": "quay.io/biocontainers/bakta", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "amrfinder_update": "/usr/local/bin/amrfinder_update", "bakta": "/usr/local/bin/bakta", "bakta_db": "/usr/local/bin/bakta_db", "bakta_proteins": "/usr/local/bin/bakta_proteins", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "dna_mutation": "/usr/local/bin/dna_mutation", "eufindtRNA": "/usr/local/bin/eufindtRNA", "fasta2gsi": "/usr/local/bin/fasta2gsi", "fasta2parts": "/usr/local/bin/fasta2parts", "fasta_check": "/usr/local/bin/fasta_check", "fasta_extract": "/usr/local/bin/fasta_extract", "gff_check": "/usr/local/bin/gff_check", "pilercr": "/usr/local/bin/pilercr", "sstofa": "/usr/local/bin/sstofa", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "aragorn": "/usr/local/bin/aragorn", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit"}}
+config: {"url": "https://biocontainers.pro/tools/bakta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bakta", "latest": {"1.9.3--pyhdfd78af_0": "sha256:004cc278bfc4cd03663fec1c6462bd48158a724acf610f0a4e2fbbdafd3dbc5d"}, "tags": {"1.5.1--pyhdfd78af_0": "sha256:4b6e6caef591f0caa658dff7db4d153abf4b3200948da0e3701dd65637adfdb0", "1.6.1--pyhdfd78af_0": "sha256:faf0bd626c870520dcc465946426f4d3b9e0944956f834b64230d2a7e85941e5", "1.7.0--pyhdfd78af_1": "sha256:b659c23f4c0637bd9bc7aa1477b710367875356d9ec3a8e88e66fb2a92f26241", "1.8.1--pyhdfd78af_0": "sha256:31cf5dbe49e9f6aa07c9acdb49380b5c3ea9710095c0c8a56c9d876c65440321", "1.8.2--pyhdfd78af_1": "sha256:2be7064d241e8f83d648e7f4912ffa647d0775dafdee413084eb4096bbd74b10", "1.9.1--pyhdfd78af_0": "sha256:05edde3f36deae2bfec949ef2c92befc9bb61501420e7d0d7439b5277b17003e", "1.9.2--pyhdfd78af_0": "sha256:0f7ca6052b91063123b88189c61765717f91a1bb8a1c530b1e1df44f6c60e41a", "1.9.3--pyhdfd78af_0": "sha256:004cc278bfc4cd03663fec1c6462bd48158a724acf610f0a4e2fbbdafd3dbc5d"}, "docker": "quay.io/biocontainers/bakta", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "amrfinder_update": "/usr/local/bin/amrfinder_update", "bakta": "/usr/local/bin/bakta", "bakta_db": "/usr/local/bin/bakta_db", "bakta_proteins": "/usr/local/bin/bakta_proteins", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "dna_mutation": "/usr/local/bin/dna_mutation", "eufindtRNA": "/usr/local/bin/eufindtRNA", "fasta2gsi": "/usr/local/bin/fasta2gsi", "fasta2parts": "/usr/local/bin/fasta2parts", "fasta_check": "/usr/local/bin/fasta_check", "fasta_extract": "/usr/local/bin/fasta_extract", "gff_check": "/usr/local/bin/gff_check", "pilercr": "/usr/local/bin/pilercr", "sstofa": "/usr/local/bin/sstofa", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "aragorn": "/usr/local/bin/aragorn", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bakta.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/bakta
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bakta:1.9.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bakta:1.9.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bakta/1.9.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/bakta/1.9.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/bakta/1.9.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/bakta/1.9.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

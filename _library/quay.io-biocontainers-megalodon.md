@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/megalodon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/megalodon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/megalodon/container.yaml"
-updated_at: "2024-03-22 02:47:55.987724"
-latest: "2.3.1--py37h73a75cf_0"
+updated_at: "2024-03-23 02:46:45.835982"
+latest: "2.5.0--py39hf95cd2a_0"
 container_url: "https://biocontainers.pro/tools/megalodon"
 aliases:
  - "check_compression"
@@ -27,8 +27,11 @@ aliases:
  - "pydoc3.7"
 versions:
  - "2.3.1--py37h73a75cf_0"
+ - "2.5.0--py39hf95cd2a_0"
+ - "2.4.1--py310h4b81fae_2"
+ - "2.3.5--py37h73a75cf_0"
 description: "shpc-registry automated BioContainers addition for megalodon"
-config: {"url": "https://biocontainers.pro/tools/megalodon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for megalodon", "latest": {"2.3.1--py37h73a75cf_0": "sha256:880cf1cc1fd5b1a16eb94a579dc0e7d30348bf9ec1b4b0b12adaac3de4a6e33e"}, "tags": {"2.3.1--py37h73a75cf_0": "sha256:880cf1cc1fd5b1a16eb94a579dc0e7d30348bf9ec1b4b0b12adaac3de4a6e33e"}, "docker": "quay.io/biocontainers/megalodon", "aliases": {"check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "fast5_subset": "/usr/local/bin/fast5_subset", "megalodon": "/usr/local/bin/megalodon", "megalodon_extras": "/usr/local/bin/megalodon_extras", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "minimap2.py": "/usr/local/bin/minimap2.py", "tar": "/usr/local/bin/tar", "tqdm": "/usr/local/bin/tqdm", "f2py3.7": "/usr/local/bin/f2py3.7", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7"}}
+config: {"url": "https://biocontainers.pro/tools/megalodon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for megalodon", "latest": {"2.5.0--py39hf95cd2a_0": "sha256:c5f7025c42cc2222fb5d8ea1aa8ef0eabf1f77e74c9177812f10283e03b2a6b4"}, "tags": {"2.3.1--py37h73a75cf_0": "sha256:880cf1cc1fd5b1a16eb94a579dc0e7d30348bf9ec1b4b0b12adaac3de4a6e33e", "2.5.0--py39hf95cd2a_0": "sha256:c5f7025c42cc2222fb5d8ea1aa8ef0eabf1f77e74c9177812f10283e03b2a6b4", "2.4.1--py310h4b81fae_2": "sha256:30d8b8564d912d2ca42cecc67af06eae27273bea547a4b7f210ac9974f32d085", "2.3.5--py37h73a75cf_0": "sha256:77459030770a913eef26865027fe21792305d4bc76e5d1f4d60df6f521199cd9"}, "docker": "quay.io/biocontainers/megalodon", "aliases": {"check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "fast5_subset": "/usr/local/bin/fast5_subset", "megalodon": "/usr/local/bin/megalodon", "megalodon_extras": "/usr/local/bin/megalodon_extras", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "minimap2.py": "/usr/local/bin/minimap2.py", "tar": "/usr/local/bin/tar", "tqdm": "/usr/local/bin/tqdm", "f2py3.7": "/usr/local/bin/f2py3.7", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/megalodon.
@@ -43,7 +46,7 @@ $ shpc install quay.io/biocontainers/megalodon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/megalodon:2.3.1--py37h73a75cf_0
+$ shpc install quay.io/biocontainers/megalodon:2.5.0--py39hf95cd2a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/megalodon/2.3.1--py37h73a75cf_0
-$ module help quay.io/biocontainers/megalodon/2.3.1--py37h73a75cf_0
+$ module load quay.io/biocontainers/megalodon/2.5.0--py39hf95cd2a_0
+$ module help quay.io/biocontainers/megalodon/2.5.0--py39hf95cd2a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

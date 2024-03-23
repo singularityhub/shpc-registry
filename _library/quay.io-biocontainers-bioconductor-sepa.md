@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sepa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sepa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sepa/container.yaml"
-updated_at: "2024-03-22 02:36:53.947975"
+updated_at: "2024-03-23 02:36:04.949400"
 latest: "1.13.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-sepa"
 aliases:
@@ -18,8 +18,9 @@ versions:
  - "1.13.0--r36_1"
  - "1.12.0--r351_0"
  - "1.10.0--r341_0"
+ - "1.10.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sepa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sepa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sepa", "latest": {"1.13.0--r36_1": "sha256:b6e8c4eaf5522bcd32ee9a9d692c2e66271172bebc54e4ce40dc6586c2581399"}, "tags": {"1.8.0--r3.4.1_0": "sha256:56e29c4a2e3ed957c0cc6e8fd6fc6c973ccb02ed057fd7ca8524f4d0f5275bfd", "1.13.0--r36_1": "sha256:b6e8c4eaf5522bcd32ee9a9d692c2e66271172bebc54e4ce40dc6586c2581399", "1.12.0--r351_0": "sha256:e511e91c9a1e035773916fce6b162c2a9eaded3f1ebffb8b6f036251e7fe76f2", "1.10.0--r341_0": "sha256:44d20488c899f3d282964d0299fdb5db0747a63ff40fbf3d16adca43486f95fe"}, "docker": "quay.io/biocontainers/bioconductor-sepa", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sepa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sepa", "latest": {"1.13.0--r36_1": "sha256:b6e8c4eaf5522bcd32ee9a9d692c2e66271172bebc54e4ce40dc6586c2581399"}, "tags": {"1.8.0--r3.4.1_0": "sha256:56e29c4a2e3ed957c0cc6e8fd6fc6c973ccb02ed057fd7ca8524f4d0f5275bfd", "1.13.0--r36_1": "sha256:b6e8c4eaf5522bcd32ee9a9d692c2e66271172bebc54e4ce40dc6586c2581399", "1.12.0--r351_0": "sha256:e511e91c9a1e035773916fce6b162c2a9eaded3f1ebffb8b6f036251e7fe76f2", "1.10.0--r341_0": "sha256:44d20488c899f3d282964d0299fdb5db0747a63ff40fbf3d16adca43486f95fe", "1.10.0--r351_0": "sha256:ec161b1f760c985035e267f2082469eb2c1efb45f88eda52e5f6388b520c5236"}, "docker": "quay.io/biocontainers/bioconductor-sepa", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sepa.

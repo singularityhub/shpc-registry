@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyfastx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfastx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfastx/container.yaml"
-updated_at: "2024-03-22 02:29:47.810512"
-latest: "0.8.4--py38h4c6a040_1"
+updated_at: "2024-03-23 02:29:06.891538"
+latest: "2.1.0--py38h7cf9df2_0"
 container_url: "https://biocontainers.pro/tools/pyfastx"
 aliases:
  - "pyfastx"
@@ -16,8 +16,13 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.8.4--py38h4c6a040_1"
+ - "2.1.0--py38h7cf9df2_0"
+ - "2.0.2--py310h83093d7_0"
+ - "1.1.0--py310h83093d7_3"
+ - "1.0.1--py310h8472f5a_0"
+ - "0.9.1--py310h8472f5a_0"
 description: "shpc-registry automated BioContainers addition for pyfastx"
-config: {"url": "https://biocontainers.pro/tools/pyfastx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyfastx", "latest": {"0.8.4--py38h4c6a040_1": "sha256:bea6d8242020df2cce630454adc91ff35ae182d9e9e516a9d1f4d64deda73cd7"}, "tags": {"0.8.4--py38h4c6a040_1": "sha256:bea6d8242020df2cce630454adc91ff35ae182d9e9e516a9d1f4d64deda73cd7"}, "docker": "quay.io/biocontainers/pyfastx", "aliases": {"pyfastx": "/usr/local/bin/pyfastx", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyfastx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyfastx", "latest": {"2.1.0--py38h7cf9df2_0": "sha256:f34d935114cb46ca94f5ed57d0c01d556f6e80f5c051b6740f950464e41c38c1"}, "tags": {"0.8.4--py38h4c6a040_1": "sha256:bea6d8242020df2cce630454adc91ff35ae182d9e9e516a9d1f4d64deda73cd7", "2.1.0--py38h7cf9df2_0": "sha256:f34d935114cb46ca94f5ed57d0c01d556f6e80f5c051b6740f950464e41c38c1", "2.0.2--py310h83093d7_0": "sha256:249797adbbaff4c586e4dd253669d9380e6833722b362261d2c49c475f2754dd", "1.1.0--py310h83093d7_3": "sha256:dfe659d377b1f7d1789063b409cfc9523de2706dc029435345d4ec8e42669a4c", "1.0.1--py310h8472f5a_0": "sha256:69f74c404b57677d290236558e92b4a3a15103f615bb2d7b30a55aebb77e0e4b", "0.9.1--py310h8472f5a_0": "sha256:c6643f412211a53846117160ae213471cf600282d2440952370d9462f27a1093"}, "docker": "quay.io/biocontainers/pyfastx", "aliases": {"pyfastx": "/usr/local/bin/pyfastx", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyfastx.
@@ -32,7 +37,7 @@ $ shpc install quay.io/biocontainers/pyfastx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyfastx:0.8.4--py38h4c6a040_1
+$ shpc install quay.io/biocontainers/pyfastx:2.1.0--py38h7cf9df2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyfastx/0.8.4--py38h4c6a040_1
-$ module help quay.io/biocontainers/pyfastx/0.8.4--py38h4c6a040_1
+$ module load quay.io/biocontainers/pyfastx/2.1.0--py38h7cf9df2_0
+$ module help quay.io/biocontainers/pyfastx/2.1.0--py38h7cf9df2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

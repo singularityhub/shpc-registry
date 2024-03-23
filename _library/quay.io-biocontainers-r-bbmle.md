@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bbmle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bbmle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bbmle/container.yaml"
-updated_at: "2024-03-22 02:39:41.781816"
+updated_at: "2024-03-23 02:38:47.240289"
 latest: "1.0.18--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-bbmle"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.0.18--r3.3.1_0"
+ - "1.0.18--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-bbmle"
-config: {"url": "https://biocontainers.pro/tools/r-bbmle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bbmle", "latest": {"1.0.18--r3.3.1_0": "sha256:0da58cd0b1b3ab81d3e33689ac59aacd73a1a843f8f5b092b33543893742852f"}, "tags": {"1.0.18--r3.3.1_0": "sha256:0da58cd0b1b3ab81d3e33689ac59aacd73a1a843f8f5b092b33543893742852f"}, "docker": "quay.io/biocontainers/r-bbmle", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-bbmle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bbmle", "latest": {"1.0.18--r3.3.1_0": "sha256:0da58cd0b1b3ab81d3e33689ac59aacd73a1a843f8f5b092b33543893742852f"}, "tags": {"1.0.18--r3.3.1_0": "sha256:0da58cd0b1b3ab81d3e33689ac59aacd73a1a843f8f5b092b33543893742852f", "1.0.18--r3.3.2_0": "sha256:e0b2c60b9eba6128615f2bff6097c2e71dd0169949324d99b5852d58f29904f3"}, "docker": "quay.io/biocontainers/r-bbmle", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bbmle.

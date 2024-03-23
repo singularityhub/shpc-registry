@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggplot2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggplot2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggplot2/container.yaml"
-updated_at: "2024-03-22 02:41:30.029431"
+updated_at: "2024-03-23 02:40:35.327895"
 latest: "2.2.1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ggplot2"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "2.2.1--r3.3.1_0"
+ - "2.2.1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-ggplot2"
-config: {"url": "https://biocontainers.pro/tools/r-ggplot2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggplot2", "latest": {"2.2.1--r3.3.1_0": "sha256:474e49e8eafb4d22d2633473c527eefc22c0d195ec947c0a95d51d95307e8823"}, "tags": {"2.2.1--r3.3.1_0": "sha256:474e49e8eafb4d22d2633473c527eefc22c0d195ec947c0a95d51d95307e8823"}, "docker": "quay.io/biocontainers/r-ggplot2", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-ggplot2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggplot2", "latest": {"2.2.1--r3.3.1_0": "sha256:474e49e8eafb4d22d2633473c527eefc22c0d195ec947c0a95d51d95307e8823"}, "tags": {"2.2.1--r3.3.1_0": "sha256:474e49e8eafb4d22d2633473c527eefc22c0d195ec947c0a95d51d95307e8823", "2.2.1--r3.3.2_0": "sha256:f1d441197a06ef8f888eb6275d03d0b6d44a5bb07e1596b8350981aa8864d9a4"}, "docker": "quay.io/biocontainers/r-ggplot2", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ggplot2.

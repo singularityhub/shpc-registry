@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-jmosaics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-jmosaics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-jmosaics/container.yaml"
-updated_at: "2024-03-22 03:02:50.156434"
+updated_at: "2024-03-23 03:01:15.557895"
 latest: "1.10.0--0"
 container_url: "https://biocontainers.pro/tools/bioconductor-jmosaics"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "podselect"
 versions:
  - "1.10.0--0"
+ - "1.10.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-jmosaics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-jmosaics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-jmosaics", "latest": {"1.10.0--0": "sha256:07ebd9f4e1d666ab9f6c2e480e6e9d15cb297e32977d972b97971d1384dee218"}, "tags": {"1.10.0--0": "sha256:07ebd9f4e1d666ab9f6c2e480e6e9d15cb297e32977d972b97971d1384dee218"}, "docker": "quay.io/biocontainers/bioconductor-jmosaics", "aliases": {"perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-jmosaics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-jmosaics", "latest": {"1.10.0--0": "sha256:07ebd9f4e1d666ab9f6c2e480e6e9d15cb297e32977d972b97971d1384dee218"}, "tags": {"1.10.0--0": "sha256:07ebd9f4e1d666ab9f6c2e480e6e9d15cb297e32977d972b97971d1384dee218", "1.10.0--r3.4.1_0": "sha256:7d7eefe6fd3d3fc102248348399ac44602618520e376d55a489609900aa44a03"}, "docker": "quay.io/biocontainers/bioconductor-jmosaics", "aliases": {"perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-jmosaics.

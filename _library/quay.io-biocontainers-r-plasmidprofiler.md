@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-plasmidprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-plasmidprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-plasmidprofiler/container.yaml"
-updated_at: "2024-03-22 02:46:26.631502"
+updated_at: "2024-03-23 02:45:19.210527"
 latest: "0.1.6--r3.3.1_3"
 container_url: "https://biocontainers.pro/tools/r-plasmidprofiler"
 aliases:
@@ -16,8 +16,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.1.6--r3.3.1_3"
+ - "0.1.6--r3.4.1_3"
 description: "shpc-registry automated BioContainers addition for r-plasmidprofiler"
-config: {"url": "https://biocontainers.pro/tools/r-plasmidprofiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-plasmidprofiler", "latest": {"0.1.6--r3.3.1_3": "sha256:5639ee92462caba214410e094b63f2034e61f76410afe6af3916e5f2c80fd0e1"}, "tags": {"0.1.6--r3.3.1_3": "sha256:5639ee92462caba214410e094b63f2034e61f76410afe6af3916e5f2c80fd0e1"}, "docker": "quay.io/biocontainers/r-plasmidprofiler", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "uconv": "/usr/local/bin/uconv", "pandoc": "/usr/local/bin/pandoc", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-plasmidprofiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-plasmidprofiler", "latest": {"0.1.6--r3.3.1_3": "sha256:5639ee92462caba214410e094b63f2034e61f76410afe6af3916e5f2c80fd0e1"}, "tags": {"0.1.6--r3.3.1_3": "sha256:5639ee92462caba214410e094b63f2034e61f76410afe6af3916e5f2c80fd0e1", "0.1.6--r3.4.1_3": "sha256:9796156eb25addefa637fc3aa8c2eca022abc6a716a6a2d7e55521942cad7b8f"}, "docker": "quay.io/biocontainers/r-plasmidprofiler", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "uconv": "/usr/local/bin/uconv", "pandoc": "/usr/local/bin/pandoc", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-plasmidprofiler.

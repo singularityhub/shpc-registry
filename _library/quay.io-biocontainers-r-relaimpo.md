@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-relaimpo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-relaimpo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-relaimpo/container.yaml"
-updated_at: "2024-03-22 03:00:28.244805"
+updated_at: "2024-03-23 02:58:55.867151"
 latest: "2.2_2--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-relaimpo"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "2.2_2--r3.3.1_0"
+ - "2.2_2--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-relaimpo"
-config: {"url": "https://biocontainers.pro/tools/r-relaimpo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-relaimpo", "latest": {"2.2_2--r3.3.1_0": "sha256:980538c147812a333d337494d871b0809af4c1d0035668e27c85a138ed14240b"}, "tags": {"2.2_2--r3.3.1_0": "sha256:980538c147812a333d337494d871b0809af4c1d0035668e27c85a138ed14240b"}, "docker": "quay.io/biocontainers/r-relaimpo", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-relaimpo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-relaimpo", "latest": {"2.2_2--r3.3.1_0": "sha256:980538c147812a333d337494d871b0809af4c1d0035668e27c85a138ed14240b"}, "tags": {"2.2_2--r3.3.1_0": "sha256:980538c147812a333d337494d871b0809af4c1d0035668e27c85a138ed14240b", "2.2_2--r3.3.2_0": "sha256:a9af5e9b062438ff6df73d8da9a3e5ec9112124c92b67164357b4c6ee3b69792"}, "docker": "quay.io/biocontainers/r-relaimpo", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-relaimpo.

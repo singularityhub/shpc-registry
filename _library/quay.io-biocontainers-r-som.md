@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-som"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-som/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-som/container.yaml"
-updated_at: "2024-03-22 02:30:50.876029"
+updated_at: "2024-03-23 02:30:07.993091"
 latest: "0.3_5.1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-som"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.3_5.1--r3.3.1_0"
+ - "0.3_5.1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-som"
-config: {"url": "https://biocontainers.pro/tools/r-som", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-som", "latest": {"0.3_5.1--r3.3.1_0": "sha256:d15b89fe63d0ab7e9f56af9c3cf42dccbff6f7cc30702830d9e99737a560d6cc"}, "tags": {"0.3_5.1--r3.3.1_0": "sha256:d15b89fe63d0ab7e9f56af9c3cf42dccbff6f7cc30702830d9e99737a560d6cc"}, "docker": "quay.io/biocontainers/r-som", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-som", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-som", "latest": {"0.3_5.1--r3.3.1_0": "sha256:d15b89fe63d0ab7e9f56af9c3cf42dccbff6f7cc30702830d9e99737a560d6cc"}, "tags": {"0.3_5.1--r3.3.1_0": "sha256:d15b89fe63d0ab7e9f56af9c3cf42dccbff6f7cc30702830d9e99737a560d6cc", "0.3_5.1--r3.3.2_0": "sha256:3422a1e6fe326eb104b173de5f06623aa1884f74de6e276966d386c377bf8540"}, "docker": "quay.io/biocontainers/r-som", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-som.

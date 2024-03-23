@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-spdep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-spdep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-spdep/container.yaml"
-updated_at: "2024-03-22 03:03:12.783702"
+updated_at: "2024-03-23 03:01:37.901686"
 latest: "0.6_8--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-spdep"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.6_8--r3.3.1_0"
+ - "0.6_8--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-spdep"
-config: {"url": "https://biocontainers.pro/tools/r-spdep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-spdep", "latest": {"0.6_8--r3.3.1_0": "sha256:8c76c7a173cc0df15a6303a20c860bbdd7a664ceefb325c05c5fb53435a11cff"}, "tags": {"0.6_8--r3.3.1_0": "sha256:8c76c7a173cc0df15a6303a20c860bbdd7a664ceefb325c05c5fb53435a11cff"}, "docker": "quay.io/biocontainers/r-spdep", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-spdep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-spdep", "latest": {"0.6_8--r3.3.1_0": "sha256:8c76c7a173cc0df15a6303a20c860bbdd7a664ceefb325c05c5fb53435a11cff"}, "tags": {"0.6_8--r3.3.1_0": "sha256:8c76c7a173cc0df15a6303a20c860bbdd7a664ceefb325c05c5fb53435a11cff", "0.6_8--r3.3.2_0": "sha256:203219a1fe8e8239a0a60c57a8c92b6870bff12eed9e940af45a1f8e17779225"}, "docker": "quay.io/biocontainers/r-spdep", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-spdep.

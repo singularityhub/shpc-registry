@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xsloader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xsloader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xsloader/container.yaml"
-updated_at: "2024-03-22 02:43:27.503434"
+updated_at: "2024-03-23 02:42:28.989116"
 latest: "0.24--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-xsloader"
 aliases:

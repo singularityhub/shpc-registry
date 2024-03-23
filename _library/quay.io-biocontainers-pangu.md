@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pangu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pangu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pangu/container.yaml"
-updated_at: "2024-03-22 03:01:53.772629"
+updated_at: "2024-03-23 03:00:20.282341"
 latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pangu"
 aliases:

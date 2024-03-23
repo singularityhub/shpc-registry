@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/telescope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telescope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/telescope/container.yaml"
-updated_at: "2024-03-22 03:04:11.818811"
+updated_at: "2024-03-23 03:02:35.152646"
 latest: "1.0.3--py37hc399e3d_5"
 container_url: "https://biocontainers.pro/tools/telescope"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "python3.7m-config"
 versions:
  - "1.0.3--py37hc399e3d_5"
+ - "1.0.3--py310hb8902aa_5"
 description: "shpc-registry automated BioContainers addition for telescope"
-config: {"url": "https://biocontainers.pro/tools/telescope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for telescope", "latest": {"1.0.3--py37hc399e3d_5": "sha256:b2010ebdf2f5b2382317781653f583c3dc9ff8e487f1416c1d92cd1f1235ef65"}, "tags": {"1.0.3--py37hc399e3d_5": "sha256:b2010ebdf2f5b2382317781653f583c3dc9ff8e487f1416c1d92cd1f1235ef65"}, "docker": "quay.io/biocontainers/telescope", "aliases": {"telescope": "/usr/local/bin/telescope", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
+config: {"url": "https://biocontainers.pro/tools/telescope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for telescope", "latest": {"1.0.3--py37hc399e3d_5": "sha256:b2010ebdf2f5b2382317781653f583c3dc9ff8e487f1416c1d92cd1f1235ef65"}, "tags": {"1.0.3--py37hc399e3d_5": "sha256:b2010ebdf2f5b2382317781653f583c3dc9ff8e487f1416c1d92cd1f1235ef65", "1.0.3--py310hb8902aa_5": "sha256:cc3cfb40f0c7855af5edc2e70fdd6d703e6aba2e3631c25cc1010731d34f2f7c"}, "docker": "quay.io/biocontainers/telescope", "aliases": {"telescope": "/usr/local/bin/telescope", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/telescope.

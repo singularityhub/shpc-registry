@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-coloc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-coloc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-coloc/container.yaml"
-updated_at: "2024-03-22 02:59:19.966218"
+updated_at: "2024-03-23 02:57:49.039429"
 latest: "5.1.0.1--r42h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-coloc"
 

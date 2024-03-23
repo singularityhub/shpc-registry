@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/jcvi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jcvi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jcvi/container.yaml"
-updated_at: "2024-03-22 02:39:58.424050"
-latest: "1.1.5--py36h29c9776_0"
+updated_at: "2024-03-23 02:39:03.581182"
+latest: "1.3.9--py310hd6be1da_0"
 container_url: "https://biocontainers.pro/tools/jcvi"
 aliases:
  - "compare_gos.py"
@@ -34,8 +34,11 @@ aliases:
  - "jp.py"
 versions:
  - "1.1.5--py36h29c9776_0"
+ - "1.3.9--py310hd6be1da_0"
+ - "1.2.7--py39h5371cbf_3"
+ - "1.1.19--py36h40b2fa4_1"
 description: "shpc-registry automated BioContainers addition for jcvi"
-config: {"url": "https://biocontainers.pro/tools/jcvi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jcvi", "latest": {"1.1.5--py36h29c9776_0": "sha256:f425a65bada8e48b55f298d13782051d9e944439ff9091ce56a33ee9e9f261db"}, "tags": {"1.1.5--py36h29c9776_0": "sha256:f425a65bada8e48b55f298d13782051d9e944439ff9091ce56a33ee9e9f261db"}, "docker": "quay.io/biocontainers/jcvi", "aliases": {"compare_gos.py": "/usr/local/bin/compare_gos.py", "coveralls": "/usr/local/bin/coveralls", "cpuinfo": "/usr/local/bin/cpuinfo", "fetch_associations.py": "/usr/local/bin/fetch_associations.py", "find_enrichment.py": "/usr/local/bin/find_enrichment.py", "go_plot.py": "/usr/local/bin/go_plot.py", "map_to_slim.py": "/usr/local/bin/map_to_slim.py", "ncbi_gene_results_to_python.py": "/usr/local/bin/ncbi_gene_results_to_python.py", "plot_go_term.py": "/usr/local/bin/plot_go_term.py", "prt_terms.py": "/usr/local/bin/prt_terms.py", "py.test-benchmark": "/usr/local/bin/py.test-benchmark", "pytest-benchmark": "/usr/local/bin/pytest-benchmark", "wr_hier.py": "/usr/local/bin/wr_hier.py", "wr_sections.py": "/usr/local/bin/wr_sections.py", "coverage": "/usr/local/bin/coverage", "gffutils-cli": "/usr/local/bin/gffutils-cli", "vba_extract.py": "/usr/local/bin/vba_extract.py", "ete3": "/usr/local/bin/ete3", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "xkbcli": "/usr/local/bin/xkbcli", "jp.py": "/usr/local/bin/jp.py"}}
+config: {"url": "https://biocontainers.pro/tools/jcvi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jcvi", "latest": {"1.3.9--py310hd6be1da_0": "sha256:15d98b5ffb701e60a0afd41681f018ff8a436b36828562280b26c65326b722e0"}, "tags": {"1.1.5--py36h29c9776_0": "sha256:f425a65bada8e48b55f298d13782051d9e944439ff9091ce56a33ee9e9f261db", "1.3.9--py310hd6be1da_0": "sha256:15d98b5ffb701e60a0afd41681f018ff8a436b36828562280b26c65326b722e0", "1.2.7--py39h5371cbf_3": "sha256:13d1c3ee673c0375c7e3c707f30319292b4bf0c940bf278462e29fa6a449d87d", "1.1.19--py36h40b2fa4_1": "sha256:7b94ec1cd7f3455517385f862cf5ba4a1811ba1e711373b2ce745aee59f29596"}, "docker": "quay.io/biocontainers/jcvi", "aliases": {"compare_gos.py": "/usr/local/bin/compare_gos.py", "coveralls": "/usr/local/bin/coveralls", "cpuinfo": "/usr/local/bin/cpuinfo", "fetch_associations.py": "/usr/local/bin/fetch_associations.py", "find_enrichment.py": "/usr/local/bin/find_enrichment.py", "go_plot.py": "/usr/local/bin/go_plot.py", "map_to_slim.py": "/usr/local/bin/map_to_slim.py", "ncbi_gene_results_to_python.py": "/usr/local/bin/ncbi_gene_results_to_python.py", "plot_go_term.py": "/usr/local/bin/plot_go_term.py", "prt_terms.py": "/usr/local/bin/prt_terms.py", "py.test-benchmark": "/usr/local/bin/py.test-benchmark", "pytest-benchmark": "/usr/local/bin/pytest-benchmark", "wr_hier.py": "/usr/local/bin/wr_hier.py", "wr_sections.py": "/usr/local/bin/wr_sections.py", "coverage": "/usr/local/bin/coverage", "gffutils-cli": "/usr/local/bin/gffutils-cli", "vba_extract.py": "/usr/local/bin/vba_extract.py", "ete3": "/usr/local/bin/ete3", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "xkbcli": "/usr/local/bin/xkbcli", "jp.py": "/usr/local/bin/jp.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jcvi.
@@ -50,7 +53,7 @@ $ shpc install quay.io/biocontainers/jcvi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/jcvi:1.1.5--py36h29c9776_0
+$ shpc install quay.io/biocontainers/jcvi:1.3.9--py310hd6be1da_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/jcvi/1.1.5--py36h29c9776_0
-$ module help quay.io/biocontainers/jcvi/1.1.5--py36h29c9776_0
+$ module load quay.io/biocontainers/jcvi/1.3.9--py310hd6be1da_0
+$ module help quay.io/biocontainers/jcvi/1.3.9--py310hd6be1da_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
