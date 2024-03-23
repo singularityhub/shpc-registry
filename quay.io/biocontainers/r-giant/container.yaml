@@ -5,6 +5,7 @@ latest:
   1.2--r3.3.2_0: sha256:be43f31d57d55e5caefd87d6a29653a1dc1493edcdb836a1d7d9bc96dae9956f
 tags:
   1.2--r3.3.2_0: sha256:be43f31d57d55e5caefd87d6a29653a1dc1493edcdb836a1d7d9bc96dae9956f
+  1.2--r3.4.1_0: sha256:2bf4515ac3af6f53f9415d207b151a39a51f457506d3db4b99539e77733fcccc
 docker: quay.io/biocontainers/r-giant
 aliases:
   uconv: /usr/local/bin/uconv

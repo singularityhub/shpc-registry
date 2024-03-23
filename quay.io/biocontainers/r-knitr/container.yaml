@@ -5,6 +5,7 @@ latest:
   1.12.3--0: sha256:de40e05fa5056f1b5e8a7db01c74cf767a5cadcae06322efb4cdea65046cb39e
 tags:
   1.12.3--0: sha256:de40e05fa5056f1b5e8a7db01c74cf767a5cadcae06322efb4cdea65046cb39e
+  1.12.3--r3.3.2_0: sha256:61c8993a893af882e19673078bd183c1840ce086e475563b34c7e04c45c48937
 docker: quay.io/biocontainers/r-knitr
 aliases:
   pngcp: /usr/local/bin/pngcp

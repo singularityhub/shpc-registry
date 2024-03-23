@@ -5,6 +5,7 @@ latest:
   2.0_5--r3.3.1_0: sha256:eb7dbf4de0f06758dae09d65ce92f35caadb0f71ef2141b8dcfab6840815044f
 tags:
   2.0_5--r3.3.1_0: sha256:eb7dbf4de0f06758dae09d65ce92f35caadb0f71ef2141b8dcfab6840815044f
+  2.0_5--r3.3.2_0: sha256:603c095c8e6a4c099935a21e360594d30a17be289bf0a825359433ec8574e609
 docker: quay.io/biocontainers/r-ada
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

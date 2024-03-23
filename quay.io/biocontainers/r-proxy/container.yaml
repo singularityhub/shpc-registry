@@ -5,6 +5,7 @@ latest:
   0.4_16--r3.3.1_0: sha256:49a84da3cfac744b57769c8318ba7e3faebd9ad11ae3f9cce0416d130d04c2e0
 tags:
   0.4_16--r3.3.1_0: sha256:49a84da3cfac744b57769c8318ba7e3faebd9ad11ae3f9cce0416d130d04c2e0
+  0.4_16--r3.3.2_0: sha256:c04dc9039972052f71df7008257e5818ff56cb9ffce1814c8e54a4528497f824
 docker: quay.io/biocontainers/r-proxy
 aliases:
   uconv: /usr/local/bin/uconv
