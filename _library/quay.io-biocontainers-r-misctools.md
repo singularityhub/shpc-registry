@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-misctools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-misctools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-misctools/container.yaml"
-updated_at: "2024-03-23 02:35:28.642065"
+updated_at: "2024-03-24 02:39:26.385321"
 latest: "0.6_22--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-misctools"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.6_22--r3.3.1_0"
+ - "0.6_22--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-misctools"
-config: {"url": "https://biocontainers.pro/tools/r-misctools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-misctools", "latest": {"0.6_22--r3.3.1_0": "sha256:b0724f7e565513714b76ee6590a553268cb19f84217049daaa4582c71f299004"}, "tags": {"0.6_22--r3.3.1_0": "sha256:b0724f7e565513714b76ee6590a553268cb19f84217049daaa4582c71f299004"}, "docker": "quay.io/biocontainers/r-misctools", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-misctools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-misctools", "latest": {"0.6_22--r3.3.1_0": "sha256:b0724f7e565513714b76ee6590a553268cb19f84217049daaa4582c71f299004"}, "tags": {"0.6_22--r3.3.1_0": "sha256:b0724f7e565513714b76ee6590a553268cb19f84217049daaa4582c71f299004", "0.6_22--r3.3.2_0": "sha256:7a096744f18390b27e07b7e14e21d01a1632ce32265fcb36a385878f4b9f14e7"}, "docker": "quay.io/biocontainers/r-misctools", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-misctools.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-curatedadiporna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-curatedadiporna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-curatedadiporna/container.yaml"
-updated_at: "2024-03-23 02:47:46.110749"
+updated_at: "2024-03-24 02:51:34.497300"
 latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-curatedadiporna"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-knitr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-knitr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-knitr/container.yaml"
-updated_at: "2024-03-23 03:04:27.018946"
+updated_at: "2024-03-24 03:08:12.074440"
 latest: "1.12.3--0"
 container_url: "https://biocontainers.pro/tools/r-knitr"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.12.3--0"
+ - "1.12.3--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-knitr"
-config: {"url": "https://biocontainers.pro/tools/r-knitr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-knitr", "latest": {"1.12.3--0": "sha256:de40e05fa5056f1b5e8a7db01c74cf767a5cadcae06322efb4cdea65046cb39e"}, "tags": {"1.12.3--0": "sha256:de40e05fa5056f1b5e8a7db01c74cf767a5cadcae06322efb4cdea65046cb39e"}, "docker": "quay.io/biocontainers/r-knitr", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-knitr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-knitr", "latest": {"1.12.3--0": "sha256:de40e05fa5056f1b5e8a7db01c74cf767a5cadcae06322efb4cdea65046cb39e"}, "tags": {"1.12.3--0": "sha256:de40e05fa5056f1b5e8a7db01c74cf767a5cadcae06322efb4cdea65046cb39e", "1.12.3--r3.3.2_0": "sha256:61c8993a893af882e19673078bd183c1840ce086e475563b34c7e04c45c48937"}, "docker": "quay.io/biocontainers/r-knitr", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-knitr.

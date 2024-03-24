@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gat/container.yaml"
-updated_at: "2024-03-23 02:39:45.975011"
+updated_at: "2024-03-24 02:43:40.107128"
 latest: "1.3.6--py39h87d955d_4"
 container_url: "https://biocontainers.pro/tools/gat"
 aliases:
@@ -25,8 +25,9 @@ aliases:
  - "qwebengine_convert_dict"
 versions:
  - "1.3.6--py39h87d955d_4"
+ - "1.3.6--py310h8472f5a_4"
 description: "shpc-registry automated BioContainers addition for gat"
-config: {"url": "https://biocontainers.pro/tools/gat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gat", "latest": {"1.3.6--py39h87d955d_4": "sha256:51c4d1e5ae1ff06721294006b523ae4ac1cc20529f312fe30983c9f6bd759707"}, "tags": {"1.3.6--py39h87d955d_4": "sha256:51c4d1e5ae1ff06721294006b523ae4ac1cc20529f312fe30983c9f6bd759707"}, "docker": "quay.io/biocontainers/gat", "aliases": {"gat-compare.py": "/usr/local/bin/gat-compare.py", "gat-great.py": "/usr/local/bin/gat-great.py", "gat-plot.py": "/usr/local/bin/gat-plot.py", "gat-run.py": "/usr/local/bin/gat-run.py", "msgattrib": "/usr/local/bin/msgattrib", "xkbcli": "/usr/local/bin/xkbcli", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
+config: {"url": "https://biocontainers.pro/tools/gat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gat", "latest": {"1.3.6--py39h87d955d_4": "sha256:51c4d1e5ae1ff06721294006b523ae4ac1cc20529f312fe30983c9f6bd759707"}, "tags": {"1.3.6--py39h87d955d_4": "sha256:51c4d1e5ae1ff06721294006b523ae4ac1cc20529f312fe30983c9f6bd759707", "1.3.6--py310h8472f5a_4": "sha256:969438ad9a74c7b536f1d9a690be41c1e7e92d0672a1ecd927b731f47d404a5a"}, "docker": "quay.io/biocontainers/gat", "aliases": {"gat-compare.py": "/usr/local/bin/gat-compare.py", "gat-great.py": "/usr/local/bin/gat-great.py", "gat-plot.py": "/usr/local/bin/gat-plot.py", "gat-run.py": "/usr/local/bin/gat-run.py", "msgattrib": "/usr/local/bin/msgattrib", "xkbcli": "/usr/local/bin/xkbcli", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gat.

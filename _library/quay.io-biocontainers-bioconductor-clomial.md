@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clomial"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clomial/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clomial/container.yaml"
-updated_at: "2024-03-23 02:34:15.794178"
+updated_at: "2024-03-24 02:38:14.252517"
 latest: "1.38.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-clomial"
 

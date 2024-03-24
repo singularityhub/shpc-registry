@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/anndata2ri"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anndata2ri/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anndata2ri/container.yaml"
-updated_at: "2024-03-23 02:34:21.840178"
+updated_at: "2024-03-24 02:38:20.231920"
 latest: "1.3.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/anndata2ri"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ada"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ada/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ada/container.yaml"
-updated_at: "2024-03-23 02:40:30.111538"
+updated_at: "2024-03-24 02:44:23.482951"
 latest: "2.0_5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ada"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "2.0_5--r3.3.1_0"
+ - "2.0_5--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-ada"
-config: {"url": "https://biocontainers.pro/tools/r-ada", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ada", "latest": {"2.0_5--r3.3.1_0": "sha256:eb7dbf4de0f06758dae09d65ce92f35caadb0f71ef2141b8dcfab6840815044f"}, "tags": {"2.0_5--r3.3.1_0": "sha256:eb7dbf4de0f06758dae09d65ce92f35caadb0f71ef2141b8dcfab6840815044f"}, "docker": "quay.io/biocontainers/r-ada", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-ada", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ada", "latest": {"2.0_5--r3.3.1_0": "sha256:eb7dbf4de0f06758dae09d65ce92f35caadb0f71ef2141b8dcfab6840815044f"}, "tags": {"2.0_5--r3.3.1_0": "sha256:eb7dbf4de0f06758dae09d65ce92f35caadb0f71ef2141b8dcfab6840815044f", "2.0_5--r3.3.2_0": "sha256:603c095c8e6a4c099935a21e360594d30a17be289bf0a825359433ec8574e609"}, "docker": "quay.io/biocontainers/r-ada", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ada.

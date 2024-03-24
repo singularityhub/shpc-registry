@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/python-edlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-edlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-edlib/container.yaml"
-updated_at: "2024-03-23 02:52:42.734912"
-latest: "1.3.9--py38h2494328_4"
+updated_at: "2024-03-24 02:56:29.492661"
+latest: "1.3.9--py38h2494328_5"
 container_url: "https://biocontainers.pro/tools/python-edlib"
 aliases:
  - "python2-config"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "1.3.9--py27he8a552f_0"
  - "1.3.9--py38h2494328_4"
+ - "1.3.9--py38h2494328_5"
 description: "shpc-registry automated BioContainers addition for python-edlib"
-config: {"url": "https://biocontainers.pro/tools/python-edlib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-edlib", "latest": {"1.3.9--py38h2494328_4": "sha256:74e1b74979f3fd2e5a08a74b4771534971b0075bef949e3ff50cbf30bda720d3"}, "tags": {"1.3.9--py27he8a552f_0": "sha256:73d9eea9a3a3f41648fc43e4edf15c9f6d69e481c2af43498e84fce1dcdcfbbc", "1.3.9--py38h2494328_4": "sha256:74e1b74979f3fd2e5a08a74b4771534971b0075bef949e3ff50cbf30bda720d3"}, "docker": "quay.io/biocontainers/python-edlib", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/python-edlib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-edlib", "latest": {"1.3.9--py38h2494328_5": "sha256:e3aa76d89f4895355d90ae9f8b87d621c4da17dc3aa1f62105006003cf64f9cd"}, "tags": {"1.3.9--py27he8a552f_0": "sha256:73d9eea9a3a3f41648fc43e4edf15c9f6d69e481c2af43498e84fce1dcdcfbbc", "1.3.9--py38h2494328_4": "sha256:74e1b74979f3fd2e5a08a74b4771534971b0075bef949e3ff50cbf30bda720d3", "1.3.9--py38h2494328_5": "sha256:e3aa76d89f4895355d90ae9f8b87d621c4da17dc3aa1f62105006003cf64f9cd"}, "docker": "quay.io/biocontainers/python-edlib", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-edlib.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/python-edlib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/python-edlib:1.3.9--py38h2494328_4
+$ shpc install quay.io/biocontainers/python-edlib:1.3.9--py38h2494328_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/python-edlib/1.3.9--py38h2494328_4
-$ module help quay.io/biocontainers/python-edlib/1.3.9--py38h2494328_4
+$ module load quay.io/biocontainers/python-edlib/1.3.9--py38h2494328_5
+$ module help quay.io/biocontainers/python-edlib/1.3.9--py38h2494328_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

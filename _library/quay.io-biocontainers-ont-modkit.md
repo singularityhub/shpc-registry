@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ont-modkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ont-modkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ont-modkit/container.yaml"
-updated_at: "2024-03-23 02:53:47.127133"
-latest: "0.2.4--hdcf5f25_0"
+updated_at: "2024-03-24 02:57:33.571598"
+latest: "0.2.6--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/ont-modkit"
 aliases:
  - "modkit"
@@ -14,8 +14,9 @@ versions:
  - "0.2.1--hdcf5f25_0"
  - "0.2.2--hdcf5f25_0"
  - "0.2.4--hdcf5f25_0"
+ - "0.2.6--hdcf5f25_0"
 description: "singularity registry hpc automated addition for ont-modkit"
-config: {"url": "https://biocontainers.pro/tools/ont-modkit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ont-modkit", "latest": {"0.2.4--hdcf5f25_0": "sha256:ccb350e95ce17aa04f9d35b55e83f1361d69de3856f37e6a72120b63ebd595a4"}, "tags": {"0.2.0--hdcf5f25_0": "sha256:07de6449e8476fb37b1ff4ba431386fe33313c54a88d8840402c87887affd90e", "0.2.1--hdcf5f25_0": "sha256:9652585587fd7d2d32bd6aa36b9e656adc43c8460405ec4d1cf2d63d43b25dc5", "0.2.2--hdcf5f25_0": "sha256:8ff6b58b408eb2883b1f76aeb9d77983fdc91d395bfe7bfed055265fca9f058e", "0.2.4--hdcf5f25_0": "sha256:ccb350e95ce17aa04f9d35b55e83f1361d69de3856f37e6a72120b63ebd595a4"}, "docker": "quay.io/biocontainers/ont-modkit", "aliases": {"modkit": "/usr/local/bin/modkit"}}
+config: {"url": "https://biocontainers.pro/tools/ont-modkit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ont-modkit", "latest": {"0.2.6--hdcf5f25_0": "sha256:9dd9d1a2d943d5617e52c67ac8a7ee61db959f57637d619c5dde504ac0e8b600"}, "tags": {"0.2.0--hdcf5f25_0": "sha256:07de6449e8476fb37b1ff4ba431386fe33313c54a88d8840402c87887affd90e", "0.2.1--hdcf5f25_0": "sha256:9652585587fd7d2d32bd6aa36b9e656adc43c8460405ec4d1cf2d63d43b25dc5", "0.2.2--hdcf5f25_0": "sha256:8ff6b58b408eb2883b1f76aeb9d77983fdc91d395bfe7bfed055265fca9f058e", "0.2.4--hdcf5f25_0": "sha256:ccb350e95ce17aa04f9d35b55e83f1361d69de3856f37e6a72120b63ebd595a4", "0.2.6--hdcf5f25_0": "sha256:9dd9d1a2d943d5617e52c67ac8a7ee61db959f57637d619c5dde504ac0e8b600"}, "docker": "quay.io/biocontainers/ont-modkit", "aliases": {"modkit": "/usr/local/bin/modkit"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ont-modkit.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/ont-modkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ont-modkit:0.2.4--hdcf5f25_0
+$ shpc install quay.io/biocontainers/ont-modkit:0.2.6--hdcf5f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ont-modkit/0.2.4--hdcf5f25_0
-$ module help quay.io/biocontainers/ont-modkit/0.2.4--hdcf5f25_0
+$ module load quay.io/biocontainers/ont-modkit/0.2.6--hdcf5f25_0
+$ module help quay.io/biocontainers/ont-modkit/0.2.6--hdcf5f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

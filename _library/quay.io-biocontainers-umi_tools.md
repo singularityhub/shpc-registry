@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/umi_tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/umi_tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/umi_tools/container.yaml"
-updated_at: "2024-03-23 03:02:56.813728"
-latest: "1.0.1--py37h516909a_0"
+updated_at: "2024-03-24 03:06:42.240776"
+latest: "1.1.5--py38he5da3d1_0"
 container_url: "https://biocontainers.pro/tools/umi_tools"
 aliases:
  - "umi_tools"
@@ -21,8 +21,10 @@ aliases:
  - "qwebengine_convert_dict"
 versions:
  - "1.0.1--py37h516909a_0"
+ - "1.1.5--py38he5da3d1_0"
+ - "1.0.1--py38h0213d0e_2"
 description: "shpc-registry automated BioContainers addition for umi_tools"
-config: {"url": "https://biocontainers.pro/tools/umi_tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for umi_tools", "latest": {"1.0.1--py37h516909a_0": "sha256:8755af50bacc2e942c980449176f0509bebbb411d83cdc234e1b2853d2dd3c29"}, "tags": {"1.0.1--py37h516909a_0": "sha256:8755af50bacc2e942c980449176f0509bebbb411d83cdc234e1b2853d2dd3c29"}, "docker": "quay.io/biocontainers/umi_tools", "aliases": {"umi_tools": "/usr/local/bin/umi_tools", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
+config: {"url": "https://biocontainers.pro/tools/umi_tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for umi_tools", "latest": {"1.1.5--py38he5da3d1_0": "sha256:2abd15b17306a8369d5a4d2f1190ca474b35b6dd7dd6f95d3853bed998dc0e13"}, "tags": {"1.0.1--py37h516909a_0": "sha256:8755af50bacc2e942c980449176f0509bebbb411d83cdc234e1b2853d2dd3c29", "1.1.5--py38he5da3d1_0": "sha256:2abd15b17306a8369d5a4d2f1190ca474b35b6dd7dd6f95d3853bed998dc0e13", "1.0.1--py38h0213d0e_2": "sha256:b3398e88fed52c35a087b7396cda70e9df49010c6c766d5de66b7693072bdad0"}, "docker": "quay.io/biocontainers/umi_tools", "aliases": {"umi_tools": "/usr/local/bin/umi_tools", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/umi_tools.
@@ -37,7 +39,7 @@ $ shpc install quay.io/biocontainers/umi_tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/umi_tools:1.0.1--py37h516909a_0
+$ shpc install quay.io/biocontainers/umi_tools:1.1.5--py38he5da3d1_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/umi_tools/1.0.1--py37h516909a_0
-$ module help quay.io/biocontainers/umi_tools/1.0.1--py37h516909a_0
+$ module load quay.io/biocontainers/umi_tools/1.1.5--py38he5da3d1_0
+$ module help quay.io/biocontainers/umi_tools/1.1.5--py38he5da3d1_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

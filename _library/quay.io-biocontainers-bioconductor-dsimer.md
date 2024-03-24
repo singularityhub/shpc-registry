@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dsimer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dsimer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dsimer/container.yaml"
-updated_at: "2024-03-23 02:22:26.039723"
+updated_at: "2024-03-24 02:26:47.082658"
 latest: "1.6.0--r341hfc679d8_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dsimer"
 aliases:
@@ -13,8 +13,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.6.0--r341hfc679d8_0"
+ - "1.6.0--r351hfc679d8_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dsimer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dsimer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dsimer", "latest": {"1.6.0--r341hfc679d8_0": "sha256:1eff67cd40149138651a63e519148108bd41233d899cb925030f4ba51e93cca7"}, "tags": {"1.6.0--r341hfc679d8_0": "sha256:1eff67cd40149138651a63e519148108bd41233d899cb925030f4ba51e93cca7"}, "docker": "quay.io/biocontainers/bioconductor-dsimer", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dsimer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dsimer", "latest": {"1.6.0--r341hfc679d8_0": "sha256:1eff67cd40149138651a63e519148108bd41233d899cb925030f4ba51e93cca7"}, "tags": {"1.6.0--r341hfc679d8_0": "sha256:1eff67cd40149138651a63e519148108bd41233d899cb925030f4ba51e93cca7", "1.6.0--r351hfc679d8_0": "sha256:c6137c7d4abd148173d52937a4f825f94aa1afdd48032333bbfa817102ea72b5"}, "docker": "quay.io/biocontainers/bioconductor-dsimer", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dsimer.

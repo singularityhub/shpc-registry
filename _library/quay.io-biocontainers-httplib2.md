@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/httplib2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/httplib2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/httplib2/container.yaml"
-updated_at: "2024-03-23 02:46:11.383750"
+updated_at: "2024-03-24 02:50:00.658749"
 latest: "0.9.2--py35_0"
 container_url: "https://biocontainers.pro/tools/httplib2"
 aliases:

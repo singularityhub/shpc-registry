@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/longshot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longshot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longshot/container.yaml"
-updated_at: "2024-03-23 02:32:53.007330"
-latest: "0.4.5--hd175d40_2"
+updated_at: "2024-03-24 02:36:54.401188"
+latest: "1.0.0--hd4f2111_0"
 container_url: "https://biocontainers.pro/tools/longshot"
 aliases:
  - "longshot"
@@ -13,8 +13,10 @@ versions:
  - "v0.3.5--h80880c6_0"
  - "0.4.5--hc4ca7c3_0"
  - "0.4.5--hd175d40_2"
+ - "1.0.0--hd4f2111_0"
+ - "0.3.5--h80880c6_0"
 description: "shpc-registry automated BioContainers addition for longshot"
-config: {"url": "https://biocontainers.pro/tools/longshot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for longshot", "latest": {"0.4.5--hd175d40_2": "sha256:1bf8278e82945cc7a8ca7eee3a71a84c43dd89f598da5cb64f458ae9cc535af8"}, "tags": {"v0.3.5--h80880c6_0": "sha256:8115bbdc19c0cf173a10bbffe22522ea83a7ae3a1fd0ecb46cf069a45ad1c88e", "0.4.5--hc4ca7c3_0": "sha256:2875eb55c1c48050e3cc7bb218710e2dccd6f5c43b9065b9debb7d8b96490f05", "0.4.5--hd175d40_2": "sha256:1bf8278e82945cc7a8ca7eee3a71a84c43dd89f598da5cb64f458ae9cc535af8"}, "docker": "quay.io/biocontainers/longshot", "aliases": {"longshot": "/usr/local/bin/longshot"}}
+config: {"url": "https://biocontainers.pro/tools/longshot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for longshot", "latest": {"1.0.0--hd4f2111_0": "sha256:52494d2eabe6c6c3f34d91331b1b96a120dd50616e9702f4c6c53ca193e1ced0"}, "tags": {"v0.3.5--h80880c6_0": "sha256:8115bbdc19c0cf173a10bbffe22522ea83a7ae3a1fd0ecb46cf069a45ad1c88e", "0.4.5--hc4ca7c3_0": "sha256:2875eb55c1c48050e3cc7bb218710e2dccd6f5c43b9065b9debb7d8b96490f05", "0.4.5--hd175d40_2": "sha256:1bf8278e82945cc7a8ca7eee3a71a84c43dd89f598da5cb64f458ae9cc535af8", "1.0.0--hd4f2111_0": "sha256:52494d2eabe6c6c3f34d91331b1b96a120dd50616e9702f4c6c53ca193e1ced0", "0.3.5--h80880c6_0": "sha256:cd025da0abd4c6bbe31ad51837804864f34284e7279f25b68d0731b6859c0077"}, "docker": "quay.io/biocontainers/longshot", "aliases": {"longshot": "/usr/local/bin/longshot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/longshot.
@@ -29,7 +31,7 @@ $ shpc install quay.io/biocontainers/longshot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/longshot:0.4.5--hd175d40_2
+$ shpc install quay.io/biocontainers/longshot:1.0.0--hd4f2111_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/longshot/0.4.5--hd175d40_2
-$ module help quay.io/biocontainers/longshot/0.4.5--hd175d40_2
+$ module load quay.io/biocontainers/longshot/1.0.0--hd4f2111_0
+$ module help quay.io/biocontainers/longshot/1.0.0--hd4f2111_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

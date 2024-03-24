@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanolyse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanolyse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanolyse/container.yaml"
-updated_at: "2024-03-23 02:53:08.633523"
+updated_at: "2024-03-24 02:56:55.121107"
 latest: "1.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanolyse"
 aliases:

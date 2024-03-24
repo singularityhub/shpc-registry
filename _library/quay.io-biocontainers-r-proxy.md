@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-proxy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-proxy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-proxy/container.yaml"
-updated_at: "2024-03-23 02:30:15.935310"
+updated_at: "2024-03-24 02:34:21.722493"
 latest: "0.4_16--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-proxy"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.4_16--r3.3.1_0"
+ - "0.4_16--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-proxy"
-config: {"url": "https://biocontainers.pro/tools/r-proxy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-proxy", "latest": {"0.4_16--r3.3.1_0": "sha256:49a84da3cfac744b57769c8318ba7e3faebd9ad11ae3f9cce0416d130d04c2e0"}, "tags": {"0.4_16--r3.3.1_0": "sha256:49a84da3cfac744b57769c8318ba7e3faebd9ad11ae3f9cce0416d130d04c2e0"}, "docker": "quay.io/biocontainers/r-proxy", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-proxy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-proxy", "latest": {"0.4_16--r3.3.1_0": "sha256:49a84da3cfac744b57769c8318ba7e3faebd9ad11ae3f9cce0416d130d04c2e0"}, "tags": {"0.4_16--r3.3.1_0": "sha256:49a84da3cfac744b57769c8318ba7e3faebd9ad11ae3f9cce0416d130d04c2e0", "0.4_16--r3.3.2_0": "sha256:c04dc9039972052f71df7008257e5818ff56cb9ffce1814c8e54a4528497f824"}, "docker": "quay.io/biocontainers/r-proxy", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-proxy.
