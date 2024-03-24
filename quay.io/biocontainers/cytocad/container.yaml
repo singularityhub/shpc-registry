@@ -6,6 +6,7 @@ latest:
 tags:
   1.0.3--py36h91eb985_1: sha256:0ae1ca6f9d2f7f6a684b8e209db217de93e9632b8f11ec340c929971fc3e9715
   1.0.3--py38he5da3d1_2: sha256:44611d0035be75024c525140c6087018644aa0dfedd2096606b764dab0b2dddf
+  1.0.3--py310h4b81fae_2: sha256:0340759eaefd7db9b421502e4f75a22ef730becde64e3871b2769aaf1c19e1b7
 docker: quay.io/biocontainers/cytocad
 aliases:
   cytocad: /usr/local/bin/cytocad

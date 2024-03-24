@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pybigtools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pybigtools
 latest:
-  0.1.0--py38h61b5871_0: sha256:624efcb6b60a64fd0708d1b6dd2b09aed5b1fb9c31622bc197f3061158f71b93
+  0.1.2--py38h61b5871_2: sha256:e76c0f2483de2280f557976cbaa71a4342b16b71967b0b7fd90bbf0c534984bd
 tags:
   0.1.0--py38h61b5871_0: sha256:624efcb6b60a64fd0708d1b6dd2b09aed5b1fb9c31622bc197f3061158f71b93
+  0.1.2--py38h61b5871_2: sha256:e76c0f2483de2280f557976cbaa71a4342b16b71967b0b7fd90bbf0c534984bd
 docker: quay.io/biocontainers/pybigtools
 aliases:
   f2py3.8: /usr/local/bin/f2py3.8

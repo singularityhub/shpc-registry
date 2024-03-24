@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/diffacto
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for diffacto
 latest:
-  1.0.6--pyh5e36f6f_0: sha256:23b2366f3cb648d1b21c1001c1788e6b2f6197f2b321cc5a07aa68c132c821c2
+  1.0.7--pyh7cba7a3_0: sha256:b22f2942aa432dae75e77de90694e3b6e069ddbd75af6615ee5d72bf3629abe0
 tags:
   1.0.6--pyh5e36f6f_0: sha256:23b2366f3cb648d1b21c1001c1788e6b2f6197f2b321cc5a07aa68c132c821c2
+  1.0.7--pyh7cba7a3_0: sha256:b22f2942aa432dae75e77de90694e3b6e069ddbd75af6615ee5d72bf3629abe0
 docker: quay.io/biocontainers/diffacto
 aliases:
   diffacto: /usr/local/bin/diffacto

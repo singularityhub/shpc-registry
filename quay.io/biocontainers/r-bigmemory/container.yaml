@@ -5,4 +5,5 @@ latest:
   4.5.19--r3.2.2_0: sha256:cbcc82d26a59d83c5ac3af295358b556d1497d28c95e6a9ea24d00f79008a2b6
 tags:
   4.5.19--r3.2.2_0: sha256:cbcc82d26a59d83c5ac3af295358b556d1497d28c95e6a9ea24d00f79008a2b6
+  4.5.19--r3.3.2_0: sha256:69968d27ab110fdac253f92180e02182ef6523bec51e2ad1ee2b5397aaaca9e1
 docker: quay.io/biocontainers/r-bigmemory

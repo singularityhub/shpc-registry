@@ -5,6 +5,7 @@ latest:
   1.84_6.1--r3.2.2_0: sha256:591209580ca6312c672bf06c4976caa263382fbe315295a3f5ee8dded6dea810
 tags:
   1.84_6.1--r3.2.2_0: sha256:591209580ca6312c672bf06c4976caa263382fbe315295a3f5ee8dded6dea810
+  1.84_6.1--r3.3.2_0: sha256:d99af429ae22f3e4ea27715e4568c23f057c36cbf1f06f1dc2aeaa21e6aa9f8d
 docker: quay.io/biocontainers/r-snowfall
 aliases:
   pngcp: /usr/local/bin/pngcp

@@ -5,6 +5,7 @@ latest:
   1.18.0--r351hfc679d8_0: sha256:d783bef4e59faaf6a5abd40fb7ff4a5c4d70a8ae385a23a4bcaef639b781c265
 tags:
   1.18.0--r351hfc679d8_0: sha256:d783bef4e59faaf6a5abd40fb7ff4a5c4d70a8ae385a23a4bcaef639b781c265
+  1.18.0--r341hfc679d8_0: sha256:ce74d4c912f9135c9695649432acff6c667f3a0c3f603d7f628dbef221abec81
 docker: quay.io/biocontainers/bioconductor-flipflop
 aliases:
   wget: /usr/local/bin/wget
