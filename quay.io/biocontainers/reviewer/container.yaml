@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/reviewer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for reviewer
+latest:
+  0.2.7--h48da230_0: sha256:eaebbbfa59ede34a0f6c9f488321ba4c6ccd95372771a1367f1f5a68d6358db5
+tags:
+  0.2.7--h48da230_0: sha256:eaebbbfa59ede34a0f6c9f488321ba4c6ccd95372771a1367f1f5a68d6358db5
+docker: quay.io/biocontainers/reviewer
+aliases:
+  REViewer: /usr/local/bin/REViewer
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
