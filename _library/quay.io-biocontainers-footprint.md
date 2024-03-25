@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/footprint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/footprint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/footprint/container.yaml"
-updated_at: "2024-03-25 03:07:17.569508"
+updated_at: "2024-03-25 03:40:29.079311"
 latest: "1.0.1--pl5321r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/footprint"
 aliases:
