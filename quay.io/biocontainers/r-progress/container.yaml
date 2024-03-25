@@ -5,6 +5,7 @@ latest:
   1.0.2--r3.3.1_0: sha256:bfd973cdc5e3b611e9a9a9a77b0f2c76a328ea552399e308927fffe96688216f
 tags:
   1.0.2--r3.3.1_0: sha256:bfd973cdc5e3b611e9a9a9a77b0f2c76a328ea552399e308927fffe96688216f
+  1.0.2--r3.3.2_0: sha256:eafbcfd8ce22ae6f5e783c793ee1564061fded750c88abd5dfe6890ac3d8dcc2
 docker: quay.io/biocontainers/r-progress
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

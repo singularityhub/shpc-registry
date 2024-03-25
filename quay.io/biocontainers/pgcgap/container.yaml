@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pgcgap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pgcgap
 latest:
-  1.0.35--pl5321hdfd78af_0: sha256:16b7429e5beac461255299ee58e2c2c7cf154e1d1c46d915c935abde2783eba8
+  1.0.35--pl5321hdfd78af_1: sha256:7611739117dca3af89b757ddce26101eb10bfa9e3dbf788abfdbcee2c9167fd3
 tags:
   1.0.9--2: sha256:2e7bb4db86b7d6a1adac57195bfa7a22e0d37ec64dbe592cd07bb4b987196183
   1.0.35--pl5321hdfd78af_0: sha256:16b7429e5beac461255299ee58e2c2c7cf154e1d1c46d915c935abde2783eba8
+  1.0.35--pl5321hdfd78af_1: sha256:7611739117dca3af89b757ddce26101eb10bfa9e3dbf788abfdbcee2c9167fd3
 docker: quay.io/biocontainers/pgcgap
 aliases:
   COG.pl: /usr/local/bin/COG.pl

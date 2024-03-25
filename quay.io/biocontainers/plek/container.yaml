@@ -6,6 +6,7 @@ latest:
 tags:
   1.2--py38h8ded8fe_5: sha256:ac9e43073c12cd1936311ae7b2dc6dc247c424467aead24ebf6ffd790e8620f9
   1.2--py39he10ea66_7: sha256:dcb1a49e121b4627a7ed12bba2ca796265812325391ab6160ddb53ebaf755392
+  1.2--py38hcbe9525_7: sha256:afccd6ad0e4c69bc77636169ead8ee9668888bd5bc4f5bc58881bdda56b238d7
 docker: quay.io/biocontainers/plek
 aliases:
   PLEK: /usr/local/bin/PLEK

@@ -5,6 +5,7 @@ latest:
   1.4--py27_0: sha256:a32fffd445e119efc977573ef56eb8a49984dff124c422fbbb15d55c2ef44642
 tags:
   1.4--py27_0: sha256:a32fffd445e119efc977573ef56eb8a49984dff124c422fbbb15d55c2ef44642
+  1.4--py36_0: sha256:127c24773013551cf38ed02e9bb3d810375af3ecba8e03c7006f0b04fac4154c
 docker: quay.io/biocontainers/gfinisher
 aliases:
   gfinisher: /usr/local/bin/gfinisher

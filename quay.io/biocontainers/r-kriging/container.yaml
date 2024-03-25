@@ -5,6 +5,7 @@ latest:
   1.1--r3.3.2_0: sha256:fb224e27d1e997e47db137dd4d392598fb90a93fc6ab307d9943ba88774392bb
 tags:
   1.1--r3.3.2_0: sha256:fb224e27d1e997e47db137dd4d392598fb90a93fc6ab307d9943ba88774392bb
+  1.1--r3.4.1_0: sha256:a9ef17d17a5f8911ca076a447ac79a243fc1e347349c45a31723b0b2e06a9b62
 docker: quay.io/biocontainers/r-kriging
 aliases:
   uconv: /usr/local/bin/uconv

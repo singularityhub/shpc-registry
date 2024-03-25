@@ -10,6 +10,7 @@ tags:
   1.14.0--r36he1b5a44_1: sha256:e185436c0f25a0961e77db8a0ad052de3e97ae47d8971356e7760d8136655f3e
   1.12.0--r351hf484d3e_0: sha256:f8d3f41c4e42a1721099d903efbf835378f3ad94c897d04ea6eae2434dd55ec3
   1.10.0--r351hfc679d8_0: sha256:357e5d9d9623f51accbe0428b1052ede92f098ecd885a9757ddd7e8d5f52aa35
+  1.10.0--r341hfc679d8_0: sha256:769c29bcae4c9f80bdc8777c73eed44e1d1e41b9f28bc2639c55f80cca3d3dbe
 docker: quay.io/biocontainers/bioconductor-junctionseq
 aliases:
   wget: /usr/local/bin/wget

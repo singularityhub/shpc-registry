@@ -5,6 +5,7 @@ latest:
   0.4.31--r3.2.2_1: sha256:41e1d81179ffe2a19bb4f4cb8fb773cbb202135b03b4d5d32e64a7f1b1ae2200
 tags:
   0.4.31--r3.2.2_1: sha256:41e1d81179ffe2a19bb4f4cb8fb773cbb202135b03b4d5d32e64a7f1b1ae2200
+  0.4.31--r3.3.2_1: sha256:c477fcb7a0c47ff7b596a40f317658ea392871915edc63031e085439ef788e66
 docker: quay.io/biocontainers/r-runit
 aliases:
   pngcp: /usr/local/bin/pngcp

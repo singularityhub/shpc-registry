@@ -5,6 +5,7 @@ latest:
   1.1.4--py38h2494328_0: sha256:91a487df92fc00c6a50bd23ac8b07ee58e1195c801a3ebe014bb4dfaeaa5951a
 tags:
   1.1.4--py38h2494328_0: sha256:91a487df92fc00c6a50bd23ac8b07ee58e1195c801a3ebe014bb4dfaeaa5951a
+  1.1.4--py310h0dbaff4_0: sha256:5525b76a5f38462f692ceccf88121cfccff3cdd1abf4d8fc3b4d5a6d1288e3a7
 docker: quay.io/biocontainers/scib
 aliases:
   h5tools_test_utils: /usr/local/bin/h5tools_test_utils

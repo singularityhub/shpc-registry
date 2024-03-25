@@ -5,6 +5,7 @@ latest:
   0.3.1--py27_2: sha256:c8538e485273f5921502e1755eee31b16ea5b255904fb7bfe1fb688e92682857
 tags:
   0.3.1--py27_2: sha256:c8538e485273f5921502e1755eee31b16ea5b255904fb7bfe1fb688e92682857
+  0.3.1--py35_2: sha256:81f66250d072b1cb93d6a4e2924aacce0de2b1791e482ff617f16c337507af12
 docker: quay.io/biocontainers/workspace
 aliases:
   ws: /usr/local/bin/ws

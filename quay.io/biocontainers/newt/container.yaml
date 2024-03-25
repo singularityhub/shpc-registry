@@ -5,6 +5,7 @@ latest:
   0.52.18--py27_3: sha256:02df7804d74fb9e3b2fa94bdb0455a81c6bd3e0231637e1d33cd208eef92eab6
 tags:
   0.52.18--py27_3: sha256:02df7804d74fb9e3b2fa94bdb0455a81c6bd3e0231637e1d33cd208eef92eab6
+  0.52.18--py36_3: sha256:b35a00f297156ef9c3154080fa4b6715ff4c6fce016cd9431f8c57473f0b2f2a
 docker: quay.io/biocontainers/newt
 aliases:
   slsh: /usr/local/bin/slsh

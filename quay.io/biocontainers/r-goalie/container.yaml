@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-goalie
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-goalie
 latest:
-  0.6.11--r43hdfd78af_0: sha256:49c3d51bd88e443ad636e3c3ea23daa2d13381c2a649153bb721098778a4bd7a
+  0.7.7--r43hdfd78af_1: sha256:c1de67897e7ceeb021099186a56ded72eda24e28f670ff6aced1659ed59a7e80
 tags:
   0.6.0--r41hdfd78af_0: sha256:a325da85dec2f4b653c6b77314852291f8a6384534a21cc0bab715e4d9581f38
   0.6.6--r42hdfd78af_1: sha256:b5b8d73740d55553148c7de88b54315d0a5ba843ba468b7fd408f99a72635be2
@@ -12,4 +12,6 @@ tags:
   0.6.9--r42hdfd78af_1: sha256:732de7c1c7e6ed903137841bea50da7ee959599df17a1b0b2015cea1e82cc235
   0.6.10--r42hdfd78af_0: sha256:3ff95d0918f0b64beed0ddbc4924d5dee039b919e67eafbd9075fff47a045dc1
   0.6.11--r43hdfd78af_0: sha256:49c3d51bd88e443ad636e3c3ea23daa2d13381c2a649153bb721098778a4bd7a
+  0.7.7--r43hdfd78af_1: sha256:c1de67897e7ceeb021099186a56ded72eda24e28f670ff6aced1659ed59a7e80
+  0.6.18--r43hdfd78af_0: sha256:e39f04e173b7b412692e13bb631313f5fb3538999b787fe5ee825df2dd6bb01e
 docker: quay.io/biocontainers/r-goalie
