@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/diffacto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diffacto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/diffacto/container.yaml"
-updated_at: "2024-03-24 02:31:27.867659"
-latest: "1.0.6--pyh5e36f6f_0"
+updated_at: "2024-03-25 02:30:52.524988"
+latest: "1.0.7--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/diffacto"
 aliases:
  - "diffacto"
@@ -21,8 +21,9 @@ aliases:
  - "python3.9"
 versions:
  - "1.0.6--pyh5e36f6f_0"
+ - "1.0.7--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for diffacto"
-config: {"url": "https://biocontainers.pro/tools/diffacto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for diffacto", "latest": {"1.0.6--pyh5e36f6f_0": "sha256:23b2366f3cb648d1b21c1001c1788e6b2f6197f2b321cc5a07aa68c132c821c2"}, "tags": {"1.0.6--pyh5e36f6f_0": "sha256:23b2366f3cb648d1b21c1001c1788e6b2f6197f2b321cc5a07aa68c132c821c2"}, "docker": "quay.io/biocontainers/diffacto", "aliases": {"diffacto": "/usr/local/bin/diffacto", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9"}}
+config: {"url": "https://biocontainers.pro/tools/diffacto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for diffacto", "latest": {"1.0.7--pyh7cba7a3_0": "sha256:b22f2942aa432dae75e77de90694e3b6e069ddbd75af6615ee5d72bf3629abe0"}, "tags": {"1.0.6--pyh5e36f6f_0": "sha256:23b2366f3cb648d1b21c1001c1788e6b2f6197f2b321cc5a07aa68c132c821c2", "1.0.7--pyh7cba7a3_0": "sha256:b22f2942aa432dae75e77de90694e3b6e069ddbd75af6615ee5d72bf3629abe0"}, "docker": "quay.io/biocontainers/diffacto", "aliases": {"diffacto": "/usr/local/bin/diffacto", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/diffacto.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/diffacto
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/diffacto:1.0.6--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/diffacto:1.0.7--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/diffacto/1.0.6--pyh5e36f6f_0
-$ module help quay.io/biocontainers/diffacto/1.0.6--pyh5e36f6f_0
+$ module load quay.io/biocontainers/diffacto/1.0.7--pyh7cba7a3_0
+$ module help quay.io/biocontainers/diffacto/1.0.7--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

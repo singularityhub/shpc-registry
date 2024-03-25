@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cytocad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cytocad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cytocad/container.yaml"
-updated_at: "2024-03-24 03:04:53.143060"
+updated_at: "2024-03-25 03:05:10.780407"
 latest: "1.0.3--py38he5da3d1_2"
 container_url: "https://biocontainers.pro/tools/cytocad"
 aliases:
@@ -24,8 +24,9 @@ aliases:
 versions:
  - "1.0.3--py36h91eb985_1"
  - "1.0.3--py38he5da3d1_2"
+ - "1.0.3--py310h4b81fae_2"
 description: "shpc-registry automated BioContainers addition for cytocad"
-config: {"url": "https://biocontainers.pro/tools/cytocad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cytocad", "latest": {"1.0.3--py38he5da3d1_2": "sha256:44611d0035be75024c525140c6087018644aa0dfedd2096606b764dab0b2dddf"}, "tags": {"1.0.3--py36h91eb985_1": "sha256:0ae1ca6f9d2f7f6a684b8e209db217de93e9632b8f11ec340c929971fc3e9715", "1.0.3--py38he5da3d1_2": "sha256:44611d0035be75024c525140c6087018644aa0dfedd2096606b764dab0b2dddf"}, "docker": "quay.io/biocontainers/cytocad", "aliases": {"cytocad": "/usr/local/bin/cytocad", "rfmix2tagore.py": "/usr/local/bin/rfmix2tagore.py", "tagore": "/usr/local/bin/tagore", "f2py3.6": "/usr/local/bin/f2py3.6", "rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed"}}
+config: {"url": "https://biocontainers.pro/tools/cytocad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cytocad", "latest": {"1.0.3--py38he5da3d1_2": "sha256:44611d0035be75024c525140c6087018644aa0dfedd2096606b764dab0b2dddf"}, "tags": {"1.0.3--py36h91eb985_1": "sha256:0ae1ca6f9d2f7f6a684b8e209db217de93e9632b8f11ec340c929971fc3e9715", "1.0.3--py38he5da3d1_2": "sha256:44611d0035be75024c525140c6087018644aa0dfedd2096606b764dab0b2dddf", "1.0.3--py310h4b81fae_2": "sha256:0340759eaefd7db9b421502e4f75a22ef730becde64e3871b2769aaf1c19e1b7"}, "docker": "quay.io/biocontainers/cytocad", "aliases": {"cytocad": "/usr/local/bin/cytocad", "rfmix2tagore.py": "/usr/local/bin/rfmix2tagore.py", "tagore": "/usr/local/bin/tagore", "f2py3.6": "/usr/local/bin/f2py3.6", "rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cytocad.

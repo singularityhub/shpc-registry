@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pybigtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybigtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybigtools/container.yaml"
-updated_at: "2024-03-24 02:43:37.358086"
-latest: "0.1.0--py38h61b5871_0"
+updated_at: "2024-03-25 02:43:21.671847"
+latest: "0.1.2--py38h61b5871_2"
 container_url: "https://biocontainers.pro/tools/pybigtools"
 aliases:
  - "f2py3.8"
@@ -16,8 +16,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.1.0--py38h61b5871_0"
+ - "0.1.2--py38h61b5871_2"
 description: "singularity registry hpc automated addition for pybigtools"
-config: {"url": "https://biocontainers.pro/tools/pybigtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybigtools", "latest": {"0.1.0--py38h61b5871_0": "sha256:624efcb6b60a64fd0708d1b6dd2b09aed5b1fb9c31622bc197f3061158f71b93"}, "tags": {"0.1.0--py38h61b5871_0": "sha256:624efcb6b60a64fd0708d1b6dd2b09aed5b1fb9c31622bc197f3061158f71b93"}, "docker": "quay.io/biocontainers/pybigtools", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/pybigtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybigtools", "latest": {"0.1.2--py38h61b5871_2": "sha256:e76c0f2483de2280f557976cbaa71a4342b16b71967b0b7fd90bbf0c534984bd"}, "tags": {"0.1.0--py38h61b5871_0": "sha256:624efcb6b60a64fd0708d1b6dd2b09aed5b1fb9c31622bc197f3061158f71b93", "0.1.2--py38h61b5871_2": "sha256:e76c0f2483de2280f557976cbaa71a4342b16b71967b0b7fd90bbf0c534984bd"}, "docker": "quay.io/biocontainers/pybigtools", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybigtools.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/pybigtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pybigtools:0.1.0--py38h61b5871_0
+$ shpc install quay.io/biocontainers/pybigtools:0.1.2--py38h61b5871_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pybigtools/0.1.0--py38h61b5871_0
-$ module help quay.io/biocontainers/pybigtools/0.1.0--py38h61b5871_0
+$ module load quay.io/biocontainers/pybigtools/0.1.2--py38h61b5871_2
+$ module help quay.io/biocontainers/pybigtools/0.1.2--py38h61b5871_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

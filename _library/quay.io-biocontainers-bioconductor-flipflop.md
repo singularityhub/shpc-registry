@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-flipflop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flipflop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flipflop/container.yaml"
-updated_at: "2024-03-24 02:42:35.735256"
+updated_at: "2024-03-25 02:42:19.850083"
 latest: "1.18.0--r351hfc679d8_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flipflop"
 aliases:
  - "wget"
 versions:
  - "1.18.0--r351hfc679d8_0"
+ - "1.18.0--r341hfc679d8_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flipflop"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flipflop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flipflop", "latest": {"1.18.0--r351hfc679d8_0": "sha256:d783bef4e59faaf6a5abd40fb7ff4a5c4d70a8ae385a23a4bcaef639b781c265"}, "tags": {"1.18.0--r351hfc679d8_0": "sha256:d783bef4e59faaf6a5abd40fb7ff4a5c4d70a8ae385a23a4bcaef639b781c265"}, "docker": "quay.io/biocontainers/bioconductor-flipflop", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flipflop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flipflop", "latest": {"1.18.0--r351hfc679d8_0": "sha256:d783bef4e59faaf6a5abd40fb7ff4a5c4d70a8ae385a23a4bcaef639b781c265"}, "tags": {"1.18.0--r351hfc679d8_0": "sha256:d783bef4e59faaf6a5abd40fb7ff4a5c4d70a8ae385a23a4bcaef639b781c265", "1.18.0--r341hfc679d8_0": "sha256:ce74d4c912f9135c9695649432acff6c667f3a0c3f603d7f628dbef221abec81"}, "docker": "quay.io/biocontainers/bioconductor-flipflop", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flipflop.

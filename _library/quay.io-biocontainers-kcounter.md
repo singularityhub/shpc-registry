@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kcounter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kcounter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kcounter/container.yaml"
-updated_at: "2024-03-24 02:48:10.902589"
+updated_at: "2024-03-25 02:48:04.041321"
 latest: "0.1.1--py310h4b81fae_4"
 container_url: "https://biocontainers.pro/tools/kcounter"
 aliases:
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "0.1.1--py37h8902056_1"
  - "0.1.1--py310h4b81fae_4"
+ - "0.1.1--py39hf95cd2a_4"
 description: "shpc-registry automated BioContainers addition for kcounter"
-config: {"url": "https://biocontainers.pro/tools/kcounter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kcounter", "latest": {"0.1.1--py310h4b81fae_4": "sha256:c69c09bb30148ad328c39431552f6adb4c6e66b0c416f0b45e037ddbee31ff54"}, "tags": {"0.1.1--py37h8902056_1": "sha256:aa44cefa403d840b5279ab1f312db42c2abec05cb743e7a917d0ea1d914475de", "0.1.1--py310h4b81fae_4": "sha256:c69c09bb30148ad328c39431552f6adb4c6e66b0c416f0b45e037ddbee31ff54"}, "docker": "quay.io/biocontainers/kcounter", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/kcounter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kcounter", "latest": {"0.1.1--py310h4b81fae_4": "sha256:c69c09bb30148ad328c39431552f6adb4c6e66b0c416f0b45e037ddbee31ff54"}, "tags": {"0.1.1--py37h8902056_1": "sha256:aa44cefa403d840b5279ab1f312db42c2abec05cb743e7a917d0ea1d914475de", "0.1.1--py310h4b81fae_4": "sha256:c69c09bb30148ad328c39431552f6adb4c6e66b0c416f0b45e037ddbee31ff54", "0.1.1--py39hf95cd2a_4": "sha256:81057f96bb174467751aa68c3efc149d92adc139573e6b751598143ddb4f6196"}, "docker": "quay.io/biocontainers/kcounter", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kcounter.

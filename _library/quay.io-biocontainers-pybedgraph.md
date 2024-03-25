@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybedgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybedgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybedgraph/container.yaml"
-updated_at: "2024-03-24 02:30:12.379067"
+updated_at: "2024-03-25 02:29:34.494386"
 latest: "0.5.43--py39he10ea66_4"
 container_url: "https://biocontainers.pro/tools/pybedgraph"
 aliases:
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.5.43--py38h8ded8fe_3"
  - "0.5.43--py39he10ea66_4"
+ - "0.5.43--py38hcbe9525_4"
 description: "shpc-registry automated BioContainers addition for pybedgraph"
-config: {"url": "https://biocontainers.pro/tools/pybedgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybedgraph", "latest": {"0.5.43--py39he10ea66_4": "sha256:9f0996e4bb144d86f7717b3d45b6e5cde0c71d1bad1d2779cf0b6e772708f5a8"}, "tags": {"0.5.43--py38h8ded8fe_3": "sha256:6b469fd45ac09b81fd3c5af96ad4eb5097123f909497b70bc7ed396977257579", "0.5.43--py39he10ea66_4": "sha256:9f0996e4bb144d86f7717b3d45b6e5cde0c71d1bad1d2779cf0b6e772708f5a8"}, "docker": "quay.io/biocontainers/pybedgraph", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/pybedgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybedgraph", "latest": {"0.5.43--py39he10ea66_4": "sha256:9f0996e4bb144d86f7717b3d45b6e5cde0c71d1bad1d2779cf0b6e772708f5a8"}, "tags": {"0.5.43--py38h8ded8fe_3": "sha256:6b469fd45ac09b81fd3c5af96ad4eb5097123f909497b70bc7ed396977257579", "0.5.43--py39he10ea66_4": "sha256:9f0996e4bb144d86f7717b3d45b6e5cde0c71d1bad1d2779cf0b6e772708f5a8", "0.5.43--py38hcbe9525_4": "sha256:1ac4073767a2edf91ff3b49997c3c5a54b32a78b7ec7dff32ac39b1cc4ac75b1"}, "docker": "quay.io/biocontainers/pybedgraph", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybedgraph.
