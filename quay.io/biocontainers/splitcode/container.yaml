@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/splitcode
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for splitcode
+latest:
+  0.29.4--hdcf5f25_0: sha256:d6deb640e186cc466b2a0e7cc0a03c55794cedcd1c5fc70e61c89cf52883a37b
+tags:
+  0.29.4--hdcf5f25_0: sha256:d6deb640e186cc466b2a0e7cc0a03c55794cedcd1c5fc70e61c89cf52883a37b
+docker: quay.io/biocontainers/splitcode
+aliases:
+  splitcode: /usr/local/bin/splitcode
