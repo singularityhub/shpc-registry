@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-saige"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-saige/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-saige/container.yaml"
-updated_at: "2024-03-25 03:14:18.314874"
-latest: "0.45.0--r41h723e9af_4"
+updated_at: "2024-03-26 02:37:21.022650"
+latest: "1.3.1--r43h3710e3a_0"
 container_url: "https://biocontainers.pro/tools/r-saige"
 aliases:
  - "bgenix"
@@ -18,8 +18,12 @@ aliases:
  - "step2_SPAtests.R"
 versions:
  - "0.45.0--r41h723e9af_4"
+ - "1.3.1--r43h3710e3a_0"
+ - "1.2.0--r43h3710e3a_0"
+ - "1.1.9--r43h3710e3a_3"
+ - "0.45.0--r42h723e9af_5"
 description: "shpc-registry automated BioContainers addition for r-saige"
-config: {"url": "https://biocontainers.pro/tools/r-saige", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-saige", "latest": {"0.45.0--r41h723e9af_4": "sha256:066611caaba72656958979750db871e1d4b81fcc0d44ba3bcffb513ac1847117"}, "tags": {"0.45.0--r41h723e9af_4": "sha256:066611caaba72656958979750db871e1d4b81fcc0d44ba3bcffb513ac1847117"}, "docker": "quay.io/biocontainers/r-saige", "aliases": {"bgenix": "/usr/local/bin/bgenix", "cat-bgen": "/usr/local/bin/cat-bgen", "createSparseGRM.R": "/usr/local/bin/createSparseGRM.R", "edit-bgen": "/usr/local/bin/edit-bgen", "extractNglmm.R": "/usr/local/bin/extractNglmm.R", "sav": "/usr/local/bin/sav", "step1_fitNULLGLMM.R": "/usr/local/bin/step1_fitNULLGLMM.R", "step2_SPAtests.R": "/usr/local/bin/step2_SPAtests.R"}}
+config: {"url": "https://biocontainers.pro/tools/r-saige", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-saige", "latest": {"1.3.1--r43h3710e3a_0": "sha256:82d70aa1e6378163cda6d9763b5d07197bf28b061829465a481a527c93993870"}, "tags": {"0.45.0--r41h723e9af_4": "sha256:066611caaba72656958979750db871e1d4b81fcc0d44ba3bcffb513ac1847117", "1.3.1--r43h3710e3a_0": "sha256:82d70aa1e6378163cda6d9763b5d07197bf28b061829465a481a527c93993870", "1.2.0--r43h3710e3a_0": "sha256:d03a88069d2ed0be316b4c0686c70400400016c872b8b9620bdef986c5c3eb59", "1.1.9--r43h3710e3a_3": "sha256:e05dc3b783f726045ff1ac096e387abe407db5364140ba8703b7731bfaeda43d", "0.45.0--r42h723e9af_5": "sha256:0e1d81b3f49d4286b2c4edd9c68a24f1b3c1da2a0821d271a83380a407067eaa"}, "docker": "quay.io/biocontainers/r-saige", "aliases": {"bgenix": "/usr/local/bin/bgenix", "cat-bgen": "/usr/local/bin/cat-bgen", "createSparseGRM.R": "/usr/local/bin/createSparseGRM.R", "edit-bgen": "/usr/local/bin/edit-bgen", "extractNglmm.R": "/usr/local/bin/extractNglmm.R", "sav": "/usr/local/bin/sav", "step1_fitNULLGLMM.R": "/usr/local/bin/step1_fitNULLGLMM.R", "step2_SPAtests.R": "/usr/local/bin/step2_SPAtests.R"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-saige.
@@ -34,7 +38,7 @@ $ shpc install quay.io/biocontainers/r-saige
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-saige:0.45.0--r41h723e9af_4
+$ shpc install quay.io/biocontainers/r-saige:1.3.1--r43h3710e3a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-saige/0.45.0--r41h723e9af_4
-$ module help quay.io/biocontainers/r-saige/0.45.0--r41h723e9af_4
+$ module load quay.io/biocontainers/r-saige/1.3.1--r43h3710e3a_0
+$ module help quay.io/biocontainers/r-saige/1.3.1--r43h3710e3a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

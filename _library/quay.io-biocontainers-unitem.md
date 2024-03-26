@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unitem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unitem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unitem/container.yaml"
-updated_at: "2024-03-25 03:00:33.557279"
+updated_at: "2024-03-26 02:23:06.195391"
 latest: "1.2.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/unitem"
 aliases:

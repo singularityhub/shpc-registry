@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prophane"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prophane/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prophane/container.yaml"
-updated_at: "2024-03-25 02:59:49.890764"
+updated_at: "2024-03-26 02:22:22.394940"
 latest: "6.2.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/prophane"
 aliases:

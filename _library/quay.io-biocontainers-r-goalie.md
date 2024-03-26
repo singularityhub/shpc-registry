@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-goalie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-goalie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-goalie/container.yaml"
-updated_at: "2024-03-25 03:18:50.716332"
-latest: "0.6.11--r43hdfd78af_0"
+updated_at: "2024-03-26 02:41:54.010501"
+latest: "0.7.7--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-goalie"
 
 versions:
@@ -17,8 +17,10 @@ versions:
  - "0.6.9--r42hdfd78af_1"
  - "0.6.10--r42hdfd78af_0"
  - "0.6.11--r43hdfd78af_0"
+ - "0.7.7--r43hdfd78af_1"
+ - "0.6.18--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-goalie"
-config: {"url": "https://biocontainers.pro/tools/r-goalie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-goalie", "latest": {"0.6.11--r43hdfd78af_0": "sha256:49c3d51bd88e443ad636e3c3ea23daa2d13381c2a649153bb721098778a4bd7a"}, "tags": {"0.6.0--r41hdfd78af_0": "sha256:a325da85dec2f4b653c6b77314852291f8a6384534a21cc0bab715e4d9581f38", "0.6.6--r42hdfd78af_1": "sha256:b5b8d73740d55553148c7de88b54315d0a5ba843ba468b7fd408f99a72635be2", "0.6.7--r42hdfd78af_0": "sha256:fadea0235c03e420a43588fc7850bde802eb6d0336decf17e909a4a0e6c0f7c7", "0.6.8--r42hdfd78af_0": "sha256:de3733dd01c8694d1c72c3cac290438c0267c8b835124ed809190e7ac7b19d1c", "0.6.8--r42hdfd78af_1": "sha256:33c940b37e0bb54d35f9010994d4c05e3acd1c281bf04b9fb947b4a80c2add59", "0.6.9--r42hdfd78af_1": "sha256:732de7c1c7e6ed903137841bea50da7ee959599df17a1b0b2015cea1e82cc235", "0.6.10--r42hdfd78af_0": "sha256:3ff95d0918f0b64beed0ddbc4924d5dee039b919e67eafbd9075fff47a045dc1", "0.6.11--r43hdfd78af_0": "sha256:49c3d51bd88e443ad636e3c3ea23daa2d13381c2a649153bb721098778a4bd7a"}, "docker": "quay.io/biocontainers/r-goalie"}
+config: {"url": "https://biocontainers.pro/tools/r-goalie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-goalie", "latest": {"0.7.7--r43hdfd78af_1": "sha256:c1de67897e7ceeb021099186a56ded72eda24e28f670ff6aced1659ed59a7e80"}, "tags": {"0.6.0--r41hdfd78af_0": "sha256:a325da85dec2f4b653c6b77314852291f8a6384534a21cc0bab715e4d9581f38", "0.6.6--r42hdfd78af_1": "sha256:b5b8d73740d55553148c7de88b54315d0a5ba843ba468b7fd408f99a72635be2", "0.6.7--r42hdfd78af_0": "sha256:fadea0235c03e420a43588fc7850bde802eb6d0336decf17e909a4a0e6c0f7c7", "0.6.8--r42hdfd78af_0": "sha256:de3733dd01c8694d1c72c3cac290438c0267c8b835124ed809190e7ac7b19d1c", "0.6.8--r42hdfd78af_1": "sha256:33c940b37e0bb54d35f9010994d4c05e3acd1c281bf04b9fb947b4a80c2add59", "0.6.9--r42hdfd78af_1": "sha256:732de7c1c7e6ed903137841bea50da7ee959599df17a1b0b2015cea1e82cc235", "0.6.10--r42hdfd78af_0": "sha256:3ff95d0918f0b64beed0ddbc4924d5dee039b919e67eafbd9075fff47a045dc1", "0.6.11--r43hdfd78af_0": "sha256:49c3d51bd88e443ad636e3c3ea23daa2d13381c2a649153bb721098778a4bd7a", "0.7.7--r43hdfd78af_1": "sha256:c1de67897e7ceeb021099186a56ded72eda24e28f670ff6aced1659ed59a7e80", "0.6.18--r43hdfd78af_0": "sha256:e39f04e173b7b412692e13bb631313f5fb3538999b787fe5ee825df2dd6bb01e"}, "docker": "quay.io/biocontainers/r-goalie"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-goalie.
@@ -33,7 +35,7 @@ $ shpc install quay.io/biocontainers/r-goalie
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-goalie:0.6.11--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/r-goalie:0.7.7--r43hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-goalie/0.6.11--r43hdfd78af_0
-$ module help quay.io/biocontainers/r-goalie/0.6.11--r43hdfd78af_0
+$ module load quay.io/biocontainers/r-goalie/0.7.7--r43hdfd78af_1
+$ module help quay.io/biocontainers/r-goalie/0.7.7--r43hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

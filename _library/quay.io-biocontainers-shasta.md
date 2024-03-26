@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shasta/container.yaml"
-updated_at: "2024-03-25 03:06:54.220486"
+updated_at: "2024-03-26 02:29:44.449554"
 latest: "0.11.1--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/shasta"
 aliases:

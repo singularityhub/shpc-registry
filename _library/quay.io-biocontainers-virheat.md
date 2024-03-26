@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/virheat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virheat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virheat/container.yaml"
-updated_at: "2024-03-25 03:23:26.851628"
+updated_at: "2024-03-26 02:46:41.614325"
 latest: "0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/virheat"
 aliases:

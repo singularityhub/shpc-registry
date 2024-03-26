@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg18"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg18/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg18/container.yaml"
-updated_at: "2024-03-25 03:08:29.248200"
+updated_at: "2024-03-26 02:31:24.226094"
 latest: "0.0.2--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-huexexonprobesetlocationhg18"
 

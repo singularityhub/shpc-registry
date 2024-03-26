@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/assembly_finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/assembly_finder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/assembly_finder/container.yaml"
-updated_at: "2024-03-25 03:36:49.498132"
+updated_at: "2024-03-26 03:00:39.675748"
 latest: "0.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/assembly_finder"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deeptools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeptools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deeptools/container.yaml"
-updated_at: "2024-03-25 03:09:47.653405"
-latest: "3.1.3--py37h14c3975_1"
+updated_at: "2024-03-26 02:32:42.824899"
+latest: "3.5.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deeptools"
 aliases:
  - "alignmentSieve"
@@ -41,8 +41,13 @@ aliases:
  - "jupyter-troubleshoot"
 versions:
  - "3.1.3--py37h14c3975_1"
+ - "3.5.5--pyhdfd78af_0"
+ - "3.4.3--py_0"
+ - "3.3.2--py_1"
+ - "3.2.1--py_0"
+ - "3.1.3--py36h14c3975_1"
 description: "shpc-registry automated BioContainers addition for deeptools"
-config: {"url": "https://biocontainers.pro/tools/deeptools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deeptools", "latest": {"3.1.3--py37h14c3975_1": "sha256:2bf9fbdd82da72ae0a1e4b0fe8e634215b9bbc02bfa510c175e2f15ee3a2a1a8"}, "tags": {"3.1.3--py37h14c3975_1": "sha256:2bf9fbdd82da72ae0a1e4b0fe8e634215b9bbc02bfa510c175e2f15ee3a2a1a8"}, "docker": "quay.io/biocontainers/deeptools", "aliases": {"alignmentSieve": "/usr/local/bin/alignmentSieve", "bamCompare": "/usr/local/bin/bamCompare", "bamCoverage": "/usr/local/bin/bamCoverage", "bamPEFragmentSize": "/usr/local/bin/bamPEFragmentSize", "bigwigCompare": "/usr/local/bin/bigwigCompare", "computeGCBias": "/usr/local/bin/computeGCBias", "computeMatrix": "/usr/local/bin/computeMatrix", "computeMatrixOperations": "/usr/local/bin/computeMatrixOperations", "correctGCBias": "/usr/local/bin/correctGCBias", "deeptools": "/usr/local/bin/deeptools", "estimateReadFiltering": "/usr/local/bin/estimateReadFiltering", "estimateScaleFactor": "/usr/local/bin/estimateScaleFactor", "multiBamSummary": "/usr/local/bin/multiBamSummary", "multiBigwigSummary": "/usr/local/bin/multiBigwigSummary", "plotCorrelation": "/usr/local/bin/plotCorrelation", "plotCoverage": "/usr/local/bin/plotCoverage", "plotEnrichment": "/usr/local/bin/plotEnrichment", "plotFingerprint": "/usr/local/bin/plotFingerprint", "plotHeatmap": "/usr/local/bin/plotHeatmap", "plotPCA": "/usr/local/bin/plotPCA", "plotProfile": "/usr/local/bin/plotProfile", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot"}}
+config: {"url": "https://biocontainers.pro/tools/deeptools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deeptools", "latest": {"3.5.5--pyhdfd78af_0": "sha256:fab4182e0f1338745d9fe8315477e05a6484e717aac1430403dbc8d7e789ecf9"}, "tags": {"3.1.3--py37h14c3975_1": "sha256:2bf9fbdd82da72ae0a1e4b0fe8e634215b9bbc02bfa510c175e2f15ee3a2a1a8", "3.5.5--pyhdfd78af_0": "sha256:fab4182e0f1338745d9fe8315477e05a6484e717aac1430403dbc8d7e789ecf9", "3.4.3--py_0": "sha256:fa9360a860cba2e0f455ef501a6c208713caf110fd8bee2dd973105f16facb23", "3.3.2--py_1": "sha256:86e0e55d22989b169ef4c6ed913ae51d24c196f33a2f092ad58ddd94834964f3", "3.2.1--py_0": "sha256:fb721e2a8c0ac0d3770cf2be2b4a1b60eba2ca86ecf533cfec6ad319e5dad494", "3.1.3--py36h14c3975_1": "sha256:26d9c41b51d798b20d2c7040e159fd353afd9092400e2e7ad47cba986f2f85d5"}, "docker": "quay.io/biocontainers/deeptools", "aliases": {"alignmentSieve": "/usr/local/bin/alignmentSieve", "bamCompare": "/usr/local/bin/bamCompare", "bamCoverage": "/usr/local/bin/bamCoverage", "bamPEFragmentSize": "/usr/local/bin/bamPEFragmentSize", "bigwigCompare": "/usr/local/bin/bigwigCompare", "computeGCBias": "/usr/local/bin/computeGCBias", "computeMatrix": "/usr/local/bin/computeMatrix", "computeMatrixOperations": "/usr/local/bin/computeMatrixOperations", "correctGCBias": "/usr/local/bin/correctGCBias", "deeptools": "/usr/local/bin/deeptools", "estimateReadFiltering": "/usr/local/bin/estimateReadFiltering", "estimateScaleFactor": "/usr/local/bin/estimateScaleFactor", "multiBamSummary": "/usr/local/bin/multiBamSummary", "multiBigwigSummary": "/usr/local/bin/multiBigwigSummary", "plotCorrelation": "/usr/local/bin/plotCorrelation", "plotCoverage": "/usr/local/bin/plotCoverage", "plotEnrichment": "/usr/local/bin/plotEnrichment", "plotFingerprint": "/usr/local/bin/plotFingerprint", "plotHeatmap": "/usr/local/bin/plotHeatmap", "plotPCA": "/usr/local/bin/plotPCA", "plotProfile": "/usr/local/bin/plotProfile", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deeptools.
@@ -57,7 +62,7 @@ $ shpc install quay.io/biocontainers/deeptools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deeptools:3.1.3--py37h14c3975_1
+$ shpc install quay.io/biocontainers/deeptools:3.5.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deeptools/3.1.3--py37h14c3975_1
-$ module help quay.io/biocontainers/deeptools/3.1.3--py37h14c3975_1
+$ module load quay.io/biocontainers/deeptools/3.5.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/deeptools/3.5.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

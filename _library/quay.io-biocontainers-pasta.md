@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pasta/container.yaml"
-updated_at: "2024-03-25 03:38:20.187898"
+updated_at: "2024-03-26 03:02:11.590782"
 latest: "1.9.0--py39hf48a03f_0"
 container_url: "https://biocontainers.pro/tools/pasta"
 aliases:
@@ -34,8 +34,10 @@ aliases:
 versions:
  - "1.7.8--py36h8c4c3a4_4"
  - "1.9.0--py39hf48a03f_0"
+ - "1.9.0--py38h6805031_0"
+ - "1.7.8--py37h8f50634_4"
 description: "shpc-registry automated BioContainers addition for pasta"
-config: {"url": "https://biocontainers.pro/tools/pasta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pasta", "latest": {"1.9.0--py39hf48a03f_0": "sha256:f8d807d23493337085fbe54c8ad22c573c8820706033a2475cc6f18ad846731c"}, "tags": {"1.7.8--py36h8c4c3a4_4": "sha256:3aa9f94be4732e32add993c19017df3ab6ed4a0465944450dfb219373f9f5d36", "1.9.0--py39hf48a03f_0": "sha256:f8d807d23493337085fbe54c8ad22c573c8820706033a2475cc6f18ad846731c"}, "docker": "quay.io/biocontainers/pasta", "aliases": {"fakealigner": "/usr/local/bin/fakealigner", "faketree": "/usr/local/bin/faketree", "fasttreeMP": "/usr/local/bin/fasttreeMP", "hmmeralign": "/usr/local/bin/hmmeralign", "hmmerbuild": "/usr/local/bin/hmmerbuild", "opal.jar": "/usr/local/bin/opal.jar", "padaligner": "/usr/local/bin/padaligner", "randtree": "/usr/local/bin/randtree", "raxml": "/usr/local/bin/raxml", "raxmlp": "/usr/local/bin/raxmlp", "run_pasta.py": "/usr/local/bin/run_pasta.py", "run_pasta_gui.py": "/usr/local/bin/run_pasta_gui.py", "run_seqtools.py": "/usr/local/bin/run_seqtools.py", "prank": "/usr/local/bin/prank", "muscle": "/usr/local/bin/muscle", "fasttree": "/usr/local/bin/fasttree", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "clustalw2": "/usr/local/bin/clustalw2", "mafft": "/usr/local/bin/mafft", "hmmalign": "/usr/local/bin/hmmalign", "hmmbuild": "/usr/local/bin/hmmbuild", "jaotc": "/usr/local/bin/jaotc"}}
+config: {"url": "https://biocontainers.pro/tools/pasta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pasta", "latest": {"1.9.0--py39hf48a03f_0": "sha256:f8d807d23493337085fbe54c8ad22c573c8820706033a2475cc6f18ad846731c"}, "tags": {"1.7.8--py36h8c4c3a4_4": "sha256:3aa9f94be4732e32add993c19017df3ab6ed4a0465944450dfb219373f9f5d36", "1.9.0--py39hf48a03f_0": "sha256:f8d807d23493337085fbe54c8ad22c573c8820706033a2475cc6f18ad846731c", "1.9.0--py38h6805031_0": "sha256:567d94bcde91ace5e4fae48381223ada0da188f7446a4f947a5cac750306f60a", "1.7.8--py37h8f50634_4": "sha256:ea216e74289a54e38db618d564859e50e675c5978ddf1c401e38fdaa16e1891a"}, "docker": "quay.io/biocontainers/pasta", "aliases": {"fakealigner": "/usr/local/bin/fakealigner", "faketree": "/usr/local/bin/faketree", "fasttreeMP": "/usr/local/bin/fasttreeMP", "hmmeralign": "/usr/local/bin/hmmeralign", "hmmerbuild": "/usr/local/bin/hmmerbuild", "opal.jar": "/usr/local/bin/opal.jar", "padaligner": "/usr/local/bin/padaligner", "randtree": "/usr/local/bin/randtree", "raxml": "/usr/local/bin/raxml", "raxmlp": "/usr/local/bin/raxmlp", "run_pasta.py": "/usr/local/bin/run_pasta.py", "run_pasta_gui.py": "/usr/local/bin/run_pasta_gui.py", "run_seqtools.py": "/usr/local/bin/run_seqtools.py", "prank": "/usr/local/bin/prank", "muscle": "/usr/local/bin/muscle", "fasttree": "/usr/local/bin/fasttree", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "clustalw2": "/usr/local/bin/clustalw2", "mafft": "/usr/local/bin/mafft", "hmmalign": "/usr/local/bin/hmmalign", "hmmbuild": "/usr/local/bin/hmmbuild", "jaotc": "/usr/local/bin/jaotc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pasta.

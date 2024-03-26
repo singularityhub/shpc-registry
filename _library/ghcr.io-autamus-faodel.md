@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/faodel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/faodel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/faodel/container.yaml"
-updated_at: "2024-03-25 02:59:13.403084"
+updated_at: "2024-03-26 02:21:45.474477"
 latest: "1.2108.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/faodel"
 aliases:

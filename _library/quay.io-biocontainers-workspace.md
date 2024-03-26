@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/workspace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/workspace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/workspace/container.yaml"
-updated_at: "2024-03-25 03:00:19.420638"
+updated_at: "2024-03-26 02:22:51.961531"
 latest: "0.3.1--py27_2"
 container_url: "https://biocontainers.pro/tools/workspace"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "smtpd.py"
 versions:
  - "0.3.1--py27_2"
+ - "0.3.1--py35_2"
 description: "shpc-registry automated BioContainers addition for workspace"
-config: {"url": "https://biocontainers.pro/tools/workspace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for workspace", "latest": {"0.3.1--py27_2": "sha256:c8538e485273f5921502e1755eee31b16ea5b255904fb7bfe1fb688e92682857"}, "tags": {"0.3.1--py27_2": "sha256:c8538e485273f5921502e1755eee31b16ea5b255904fb7bfe1fb688e92682857"}, "docker": "quay.io/biocontainers/workspace", "aliases": {"ws": "/usr/local/bin/ws", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/workspace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for workspace", "latest": {"0.3.1--py27_2": "sha256:c8538e485273f5921502e1755eee31b16ea5b255904fb7bfe1fb688e92682857"}, "tags": {"0.3.1--py27_2": "sha256:c8538e485273f5921502e1755eee31b16ea5b255904fb7bfe1fb688e92682857", "0.3.1--py35_2": "sha256:81f66250d072b1cb93d6a4e2924aacce0de2b1791e482ff617f16c337507af12"}, "docker": "quay.io/biocontainers/workspace", "aliases": {"ws": "/usr/local/bin/ws", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/workspace.

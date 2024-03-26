@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fastmatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fastmatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fastmatch/container.yaml"
-updated_at: "2024-03-25 03:26:48.129331"
+updated_at: "2024-03-26 02:50:10.474376"
 latest: "1.1_0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-fastmatch"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.1_0--r3.3.1_0"
+ - "1.1_0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-fastmatch"
-config: {"url": "https://biocontainers.pro/tools/r-fastmatch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fastmatch", "latest": {"1.1_0--r3.3.1_0": "sha256:7704da13ad4165ef9318ae5b66ed82be82cd4bb9101c57b77c5aab4a3ab05f39"}, "tags": {"1.1_0--r3.3.1_0": "sha256:7704da13ad4165ef9318ae5b66ed82be82cd4bb9101c57b77c5aab4a3ab05f39"}, "docker": "quay.io/biocontainers/r-fastmatch", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-fastmatch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fastmatch", "latest": {"1.1_0--r3.3.1_0": "sha256:7704da13ad4165ef9318ae5b66ed82be82cd4bb9101c57b77c5aab4a3ab05f39"}, "tags": {"1.1_0--r3.3.1_0": "sha256:7704da13ad4165ef9318ae5b66ed82be82cd4bb9101c57b77c5aab4a3ab05f39", "1.1_0--r3.3.2_0": "sha256:601bf78f01aa94c0ebc35af478dd9608463f760a6775432c4203de94fe9428f1"}, "docker": "quay.io/biocontainers/r-fastmatch", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-fastmatch.

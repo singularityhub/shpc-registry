@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/newt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/newt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/newt/container.yaml"
-updated_at: "2024-03-25 03:06:59.378101"
+updated_at: "2024-03-26 02:29:49.973302"
 latest: "0.52.18--py27_3"
 container_url: "https://biocontainers.pro/tools/newt"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.52.18--py27_3"
+ - "0.52.18--py36_3"
 description: "shpc-registry automated BioContainers addition for newt"
-config: {"url": "https://biocontainers.pro/tools/newt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for newt", "latest": {"0.52.18--py27_3": "sha256:02df7804d74fb9e3b2fa94bdb0455a81c6bd3e0231637e1d33cd208eef92eab6"}, "tags": {"0.52.18--py27_3": "sha256:02df7804d74fb9e3b2fa94bdb0455a81c6bd3e0231637e1d33cd208eef92eab6"}, "docker": "quay.io/biocontainers/newt", "aliases": {"slsh": "/usr/local/bin/slsh", "whiptail": "/usr/local/bin/whiptail", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/newt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for newt", "latest": {"0.52.18--py27_3": "sha256:02df7804d74fb9e3b2fa94bdb0455a81c6bd3e0231637e1d33cd208eef92eab6"}, "tags": {"0.52.18--py27_3": "sha256:02df7804d74fb9e3b2fa94bdb0455a81c6bd3e0231637e1d33cd208eef92eab6", "0.52.18--py36_3": "sha256:b35a00f297156ef9c3154080fa4b6715ff4c6fce016cd9431f8c57473f0b2f2a"}, "docker": "quay.io/biocontainers/newt", "aliases": {"slsh": "/usr/local/bin/slsh", "whiptail": "/usr/local/bin/whiptail", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/newt.
