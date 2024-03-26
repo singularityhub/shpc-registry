@@ -5,6 +5,7 @@ latest:
   0.9.6--py35_0: sha256:300a0acdffb5794226b91a2a9c328de8951eb3e386795feec8074cb894535dc1
 tags:
   0.9.6--py35_0: sha256:300a0acdffb5794226b91a2a9c328de8951eb3e386795feec8074cb894535dc1
+  0.9.6--py36_0: sha256:4bc24135aa70dba818c620150d6d6b3187ae95eb4d96bd9b5697387e3f55b922
 docker: quay.io/biocontainers/pyinotify
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

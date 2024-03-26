@@ -5,4 +5,5 @@ latest:
   0.8.0--py27_0: sha256:5799ad6383ddb1dda9624d0ac5e5ad51466e67f90a61cc733ee97c67b8805b6f
 tags:
   0.8.0--py27_0: sha256:5799ad6383ddb1dda9624d0ac5e5ad51466e67f90a61cc733ee97c67b8805b6f
+  0.8.0--py35_0: sha256:044595dbc517bcf2e5dc9f0b5fcfe81deab40121cac09a481536785aa9fdbf8e
 docker: quay.io/biocontainers/cyvcf

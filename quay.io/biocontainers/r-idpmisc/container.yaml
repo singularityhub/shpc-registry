@@ -5,6 +5,7 @@ latest:
   1.1.17--r3.3.1_0: sha256:650d705a39621ee44bb7e18546ce2ae433f60834a62990ccaeafbc08a23bac74
 tags:
   1.1.17--r3.3.1_0: sha256:650d705a39621ee44bb7e18546ce2ae433f60834a62990ccaeafbc08a23bac74
+  1.1.17--r3.4.1_0: sha256:8943da364d0de283d066ebb0da80982438e3854c6cb63a31b46f6d0b6bee88fb
 docker: quay.io/biocontainers/r-idpmisc
 aliases:
   uconv: /usr/local/bin/uconv

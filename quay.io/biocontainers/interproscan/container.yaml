@@ -6,6 +6,8 @@ latest:
 tags:
   5.55_88.0--hec16e2b_1: sha256:027fea1a3a6d22c758bc2e456f7427048fa270b75d8b4e81134256d97b846481
   5.59_91.0--hec16e2b_1: sha256:f5f1afca06ea17ad0c33e652bfb88ea55d1cbcfeea6f10a52d94db86d87c79d8
+  5.59-91.0: sha256:88f27ab5f1c92bf4a075e763dda952bb3dcbf56edaaeaff8ca5da756ff020e1a
+  5.55-88.0: sha256:37ca2d8a693b2ddf685292dc1d64c734db7a7bbc311a40d2bef3d31aaa5ff3d6
 docker: quay.io/biocontainers/interproscan
 aliases:
   2ft: /usr/local/bin/2ft

@@ -5,6 +5,7 @@ latest:
   3.0.0--r3.3.1_0: sha256:f65551434b702b0db7a2559aa9c208d055b0a5f6e5f02a19ef8b6f6f0776b451
 tags:
   3.0.0--r3.3.1_0: sha256:f65551434b702b0db7a2559aa9c208d055b0a5f6e5f02a19ef8b6f6f0776b451
+  3.0.0--r3.3.2_0: sha256:5a37e8292ea818710a30981345b153a67ae1676b47f827a09f275f719d611612
 docker: quay.io/biocontainers/r-delaporte
 aliases:
   uconv: /usr/local/bin/uconv

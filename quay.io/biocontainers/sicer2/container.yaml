@@ -6,6 +6,7 @@ latest:
 tags:
   1.0.3--py37h37892f8_2: sha256:d5e957a3d4b01a6cbe55117151fbbd664d261524c1f367585b31c1123980cf9f
   1.0.3--py39hec7c8de_3: sha256:66ef5033bc9a0d02a02525a23733c054bd9daf988d19d91ab5703ad4591b7b7b
+  1.0.3--py310hd6be1da_3: sha256:c9be73869b8b3d115f9dea4a8220c22a36b921b83eb840b20a4bbcc6f7a40d1e
 docker: quay.io/biocontainers/sicer2
 aliases:
   recognicer: /usr/local/bin/recognicer

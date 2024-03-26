@@ -5,6 +5,7 @@ latest:
   0.9_5--r3.3.1_0: sha256:8ef0a960efc1351fe54e28346afac07397c94e7cd94bd758acee50c3c8ad1fa9
 tags:
   0.9_5--r3.3.1_0: sha256:8ef0a960efc1351fe54e28346afac07397c94e7cd94bd758acee50c3c8ad1fa9
+  0.9_5--r3.3.2_0: sha256:3a342b3fff3622781b5d56ada939861b97d3e3f40a477b48768ab882724a3e09
 docker: quay.io/biocontainers/r-bit64
 aliases:
   pango-querymodules: /usr/local/bin/pango-querymodules

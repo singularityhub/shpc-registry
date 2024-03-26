@@ -2,10 +2,14 @@ url: https://biocontainers.pro/tools/gatk4
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gatk4
 latest:
-  4.2.5.0--hdfd78af_0: sha256:7e97333012f99e9b316d812b61bfa23fc438478e62909e64507bd1405f4ddb21
+  4.5.0.0--py36hdfd78af_0: sha256:6cbaf094204d22734c04122933fa12eb208d6cc639ab6e4ae8af315381682847
 tags:
   4.1.9.0--py39_0: sha256:7b0b112b595861b140cbebdec5a0534bea9c40ef8bea4b3927fcea7ec53f5f57
   4.2.5.0--hdfd78af_0: sha256:7e97333012f99e9b316d812b61bfa23fc438478e62909e64507bd1405f4ddb21
+  4.5.0.0--py36hdfd78af_0: sha256:6cbaf094204d22734c04122933fa12eb208d6cc639ab6e4ae8af315381682847
+  4.4.0.0--py36hdfd78af_0: sha256:31fd0f00431b92ab4a59906e1959b9cfea346e2996de2f7a1e999774b43c2ba1
+  4.3.0.0--py36hdfd78af_0: sha256:49f91bc0fcb704271c18a519715bf161141c0a00be4cf49c7ef2866de1f59a46
+  4.2.6.1--py36hdfd78af_1: sha256:34b762bbe035e62c34dfd72fc21095b2f4b57fc14bfb1dc3ec128c3ee4dee8c2
 docker: quay.io/biocontainers/gatk4
 aliases:
   gatk: /usr/local/bin/gatk

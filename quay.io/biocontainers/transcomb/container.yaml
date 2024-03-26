@@ -5,6 +5,7 @@ latest:
   1.0--boost1.60_0: sha256:fed706a49d4c590dcf7a136a3485197e7d957652d6efd32bdbf148a11cfbc879
 tags:
   1.0--boost1.60_0: sha256:fed706a49d4c590dcf7a136a3485197e7d957652d6efd32bdbf148a11cfbc879
+  1.0--boost1.61_0: sha256:ca5b0b6fb4adeddc80e63f759f34ef0d8c971df399d704387b4dca8da3a9eecb
 docker: quay.io/biocontainers/transcomb
 aliases:
   Assemble: /usr/local/bin/Assemble

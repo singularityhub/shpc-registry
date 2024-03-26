@@ -5,6 +5,7 @@ latest:
   2.3--r3.3.1_0: sha256:b82c2fe09f716148e9443ef5446471ed318162b07e5d56e8dd88f02aa1ef72ce
 tags:
   2.3--r3.3.1_0: sha256:b82c2fe09f716148e9443ef5446471ed318162b07e5d56e8dd88f02aa1ef72ce
+  2.3--r3.3.2_0: sha256:3f245b879d164e1610d14c0bbfc9b07d4d52536c764a98e76d185609f2e93b03
 docker: quay.io/biocontainers/r-mitools
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

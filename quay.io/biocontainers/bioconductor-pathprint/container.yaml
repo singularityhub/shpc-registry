@@ -10,6 +10,7 @@ tags:
   1.14.0--r36_1: sha256:c12e96eaaacd2b388c98f0be0826313db527a6e49743544c634f984463540c16
   1.12.0--r351_0: sha256:0f72e2296499e7136c50c22861e86c977624397285af2ab56d088631710ade7e
   1.10.4--r351_0: sha256:bea19fae4fab5a4ddc6890e76566b03a0f405e179b1fbfdeef7b77ebe7f17b07
+  1.10.4--r341_0: sha256:32ce6a71fc6ecccddbc8ca986cd0569c621d2456a6d2c885fe872c3ef16b2a1e
 docker: quay.io/biocontainers/bioconductor-pathprint
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config
