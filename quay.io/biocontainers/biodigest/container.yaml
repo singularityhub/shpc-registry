@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/biodigest
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biodigest
 latest:
-  0.2.16--pyhdfd78af_0: sha256:cf2f1bf957ee3f470dc3ba9f8267b8045e3cf531c773e5a5c4d1cf2034728b7c
+  0.2.16--pyhdfd78af_2: sha256:f141714fbd71e279eb4f53cf0e53ea6f68a4787aee1d278d5851859c9685bc66
 tags:
   0.2.16--pyhdfd78af_0: sha256:cf2f1bf957ee3f470dc3ba9f8267b8045e3cf531c773e5a5c4d1cf2034728b7c
+  0.2.16--pyhdfd78af_2: sha256:f141714fbd71e279eb4f53cf0e53ea6f68a4787aee1d278d5851859c9685bc66
 docker: quay.io/biocontainers/biodigest
 aliases:
   bioservices: /usr/local/bin/bioservices

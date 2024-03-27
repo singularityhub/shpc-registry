@@ -6,6 +6,7 @@ latest:
 tags:
   1.5--pl5321hdfd78af_0: sha256:14ee275e78389dff447f210d2e270475a409c05233e339a231b1804357d8b048
   1.5--pl5321hdfd78af_1: sha256:e6311708d321d90047d7b0aa60b9ce9eb158b1660524b9ed623b3f1f9c656345
+  1.5.1--pl5321h031d066_2: sha256:4a75992521c7e02a34ecd4d28a6537bd535e3a031e0a615f5407b9aad6007dd5
 docker: quay.io/biocontainers/vadr
 aliases:
   ann_exons_ens.pl: /usr/local/bin/ann_exons_ens.pl

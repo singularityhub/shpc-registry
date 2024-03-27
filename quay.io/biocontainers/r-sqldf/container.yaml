@@ -5,6 +5,7 @@ latest:
   0.4_10--r3.3.1_0: sha256:bf0fd80ac7d9462eed5b1fe413dbd4b439e383169ebb3121ae2f8fe30d8bea53
 tags:
   0.4_10--r3.3.1_0: sha256:bf0fd80ac7d9462eed5b1fe413dbd4b439e383169ebb3121ae2f8fe30d8bea53
+  0.4_10--r3.3.2_0: sha256:d18c2091e73d31355ad8a2590888a9d5d2c4cd1ed6abf2e6c7cab58ed9ce4ebf
 docker: quay.io/biocontainers/r-sqldf
 aliases:
   uconv: /usr/local/bin/uconv

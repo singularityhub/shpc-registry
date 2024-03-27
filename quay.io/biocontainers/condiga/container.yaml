@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/condiga
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for condiga
 latest:
-  0.2.1--pyh7cba7a3_0: sha256:d520ca7258c07f047ae6c88c8b668969f873d51e068e79d8ab1d0c6695dd40c4
+  0.2.2--pyhdfd78af_0: sha256:bf2d4f3331129ebca2644c454fece9628d0367a3044dfa95bb6bac20e43e9f48
 tags:
   0.2.0--pyh7cba7a3_0: sha256:c265272f72c36c38b1ab64665715a200ec991126dcd0540d362e8e3681af2508
   0.2.1--pyh7cba7a3_0: sha256:d520ca7258c07f047ae6c88c8b668969f873d51e068e79d8ab1d0c6695dd40c4
+  0.2.2--pyhdfd78af_0: sha256:bf2d4f3331129ebca2644c454fece9628d0367a3044dfa95bb6bac20e43e9f48
 docker: quay.io/biocontainers/condiga
 aliases:
   condiga: /usr/local/bin/condiga

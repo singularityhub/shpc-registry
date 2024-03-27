@@ -5,6 +5,7 @@ latest:
   3.1.5--py35_1: sha256:4b0ae51210b5ca8227cb5caffa472f20c0967991816fc26825933532e71e3004
 tags:
   3.1.5--py35_1: sha256:4b0ae51210b5ca8227cb5caffa472f20c0967991816fc26825933532e71e3004
+  3.1.5--py36_1: sha256:4973ac025ce948a9854e6ec167421d0b9ddd367db99c1b447a85ec940dd76391
 docker: quay.io/biocontainers/bitstring
 aliases:
   2to3-3.5: /usr/local/bin/2to3-3.5

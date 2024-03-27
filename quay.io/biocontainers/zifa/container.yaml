@@ -5,6 +5,7 @@ latest:
   0.1.0--py35_0: sha256:9c8ce0258e201106f319164e325201b4d12668694273dcc0c7cc0f1413f93ff8
 tags:
   0.1.0--py35_0: sha256:9c8ce0258e201106f319164e325201b4d12668694273dcc0c7cc0f1413f93ff8
+  0.1.0--py36_0: sha256:87024bd96fcda7b2ab7469c7f74b4708d58815f900ccb406e69e18a84f864059
 docker: quay.io/biocontainers/zifa
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

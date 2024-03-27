@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/ntlink
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ntlink
 latest:
-  1.3.9--py310hf270fc4_3: sha256:ec847abf748d7f89bff0c3c3d48c349b761c88c916af691afe6ad2f01f3b00cc
+  1.3.9--py310hf270fc4_4: sha256:6f8393d3e3b775749d3506f67f570b7bf3bc8783e67cde07de1135dbfa602973
 tags:
   1.3.4--py39h6935b12_0: sha256:afce9184978c9c93e6d58986630145fff8f2212bebf24c73a6b4c3bb79abdbea
   1.3.5--py39h6935b12_0: sha256:a80c0086fe28f2a87d87d93a4e3f81209d3a7747e2e541fd78b318b6eb46ac02
@@ -10,6 +10,7 @@ tags:
   1.3.8--py39h6935b12_0: sha256:868d0420edd6d573b24cf1c46553d2644a4adebf01eca9b09e0bd1dcadda8782
   1.3.9--py38hf4f3596_0: sha256:514c94decad28b5192a4b278b0b47f86c3002a361421879485f95a5980fdf702
   1.3.9--py310hf270fc4_3: sha256:ec847abf748d7f89bff0c3c3d48c349b761c88c916af691afe6ad2f01f3b00cc
+  1.3.9--py310hf270fc4_4: sha256:6f8393d3e3b775749d3506f67f570b7bf3bc8783e67cde07de1135dbfa602973
 docker: quay.io/biocontainers/ntlink
 aliases:
   abyss-rresolver-short: /usr/local/bin/abyss-rresolver-short

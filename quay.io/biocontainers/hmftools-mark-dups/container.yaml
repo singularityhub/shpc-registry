@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/hmftools-mark-dups
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-mark-dups
 latest:
-  1.1.2--hdfd78af_0: sha256:c33439d6c93905dc946e2d8df0243f8ebc166012b1f7e26cce26b2d519f3d5ce
+  1.1.3--hdfd78af_0: sha256:f45dfed7be02518735455de2419ad8c929a61e111cb9541f08e0cb0eb505e517
 tags:
   1.1--hdfd78af_0: sha256:066faa9ec1d9ba9b84b1d49f708ff42422df188157bfa5794ff75cc7e4ae5b54
   1.1.2--hdfd78af_0: sha256:c33439d6c93905dc946e2d8df0243f8ebc166012b1f7e26cce26b2d519f3d5ce
+  1.1.3--hdfd78af_0: sha256:f45dfed7be02518735455de2419ad8c929a61e111cb9541f08e0cb0eb505e517
 docker: quay.io/biocontainers/hmftools-mark-dups
 aliases:
   annot-tsv: /usr/local/bin/annot-tsv
