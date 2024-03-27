@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-strandcheckr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-strandcheckr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-strandcheckr/container.yaml"
-updated_at: "2024-03-26 02:35:30.578417"
+updated_at: "2024-03-27 02:35:05.502028"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-strandcheckr"
 aliases:

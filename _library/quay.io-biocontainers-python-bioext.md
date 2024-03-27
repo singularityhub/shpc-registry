@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-bioext"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-bioext/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-bioext/container.yaml"
-updated_at: "2024-03-26 02:25:16.424233"
+updated_at: "2024-03-27 02:25:17.173194"
 latest: "0.21.2--py38hecf9f4f_0"
 container_url: "https://biocontainers.pro/tools/python-bioext"
 aliases:
@@ -26,8 +26,10 @@ aliases:
 versions:
  - "0.20.4--py39h7f6d023_2"
  - "0.21.2--py38hecf9f4f_0"
+ - "0.21.2--py310h748d2df_0"
+ - "0.20.4--py310h69358a1_2"
 description: "shpc-registry automated BioContainers addition for python-bioext"
-config: {"url": "https://biocontainers.pro/tools/python-bioext", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-bioext", "latest": {"0.21.2--py38hecf9f4f_0": "sha256:1c2d7bde1c40ae4f1ebb32c4d609399ac6763846d4fe4a85e7ad508ff37ce225"}, "tags": {"0.20.4--py39h7f6d023_2": "sha256:da83fe6d4b44b625e96632c11892d4a7d3786c6cd6bc3cce7537811b927e8545", "0.21.2--py38hecf9f4f_0": "sha256:1c2d7bde1c40ae4f1ebb32c4d609399ac6763846d4fe4a85e7ad508ff37ce225"}, "docker": "quay.io/biocontainers/python-bioext", "aliases": {"bam2fna": "/usr/local/bin/bam2fna", "bam2msa": "/usr/local/bin/bam2msa", "bamclip": "/usr/local/bin/bamclip", "bealign": "/usr/local/bin/bealign", "clipedge": "/usr/local/bin/clipedge", "consensus": "/usr/local/bin/consensus", "msa2bam": "/usr/local/bin/msa2bam", "seqmerge": "/usr/local/bin/seqmerge", "translate": "/usr/local/bin/translate", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/python-bioext", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-bioext", "latest": {"0.21.2--py38hecf9f4f_0": "sha256:1c2d7bde1c40ae4f1ebb32c4d609399ac6763846d4fe4a85e7ad508ff37ce225"}, "tags": {"0.20.4--py39h7f6d023_2": "sha256:da83fe6d4b44b625e96632c11892d4a7d3786c6cd6bc3cce7537811b927e8545", "0.21.2--py38hecf9f4f_0": "sha256:1c2d7bde1c40ae4f1ebb32c4d609399ac6763846d4fe4a85e7ad508ff37ce225", "0.21.2--py310h748d2df_0": "sha256:3b5e61a71c2a16e65405b14d6e2758092f9955046f80a5a5b90843d83ca51afd", "0.20.4--py310h69358a1_2": "sha256:7c5c0c71a0aa4e144def3a5e9c4aa038daf8670188a568157f951ab8e1cff38b"}, "docker": "quay.io/biocontainers/python-bioext", "aliases": {"bam2fna": "/usr/local/bin/bam2fna", "bam2msa": "/usr/local/bin/bam2msa", "bamclip": "/usr/local/bin/bamclip", "bealign": "/usr/local/bin/bealign", "clipedge": "/usr/local/bin/clipedge", "consensus": "/usr/local/bin/consensus", "msa2bam": "/usr/local/bin/msa2bam", "seqmerge": "/usr/local/bin/seqmerge", "translate": "/usr/local/bin/translate", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-bioext.

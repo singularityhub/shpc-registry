@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seqfu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqfu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqfu/container.yaml"
-updated_at: "2024-03-26 02:31:21.758729"
-latest: "1.9.1--h38613fd_0"
+updated_at: "2024-03-27 02:31:02.899231"
+latest: "1.20.3--h1eb128b_0"
 container_url: "https://biocontainers.pro/tools/seqfu"
 aliases:
  - "dadaist2-mergeseqs"
@@ -25,8 +25,13 @@ aliases:
  - "seqfu"
 versions:
  - "1.9.1--h38613fd_0"
+ - "1.20.3--h1eb128b_0"
+ - "1.18.0--h6ead514_0"
+ - "1.17.1--h6ead514_2"
+ - "1.16.0--hbd632db_0"
+ - "1.15.3--hbd632db_0"
 description: "shpc-registry automated BioContainers addition for seqfu"
-config: {"url": "https://biocontainers.pro/tools/seqfu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqfu", "latest": {"1.9.1--h38613fd_0": "sha256:41311b69fd24c9da0ad9213cee97efc34bb4a87b196fbc5c79204182dfab4865"}, "tags": {"1.9.1--h38613fd_0": "sha256:41311b69fd24c9da0ad9213cee97efc34bb4a87b196fbc5c79204182dfab4865"}, "docker": "quay.io/biocontainers/seqfu", "aliases": {"dadaist2-mergeseqs": "/usr/local/bin/dadaist2-mergeseqs", "fu-16Sregion": "/usr/local/bin/fu-16Sregion", "fu-cov": "/usr/local/bin/fu-cov", "fu-homocomp": "/usr/local/bin/fu-homocomp", "fu-index": "/usr/local/bin/fu-index", "fu-msa": "/usr/local/bin/fu-msa", "fu-multirelabel": "/usr/local/bin/fu-multirelabel", "fu-nanotags": "/usr/local/bin/fu-nanotags", "fu-orf": "/usr/local/bin/fu-orf", "fu-primers": "/usr/local/bin/fu-primers", "fu-shred": "/usr/local/bin/fu-shred", "fu-sw": "/usr/local/bin/fu-sw", "fu-tabcheck": "/usr/local/bin/fu-tabcheck", "fu-virfilter": "/usr/local/bin/fu-virfilter", "seqfu": "/usr/local/bin/seqfu"}}
+config: {"url": "https://biocontainers.pro/tools/seqfu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqfu", "latest": {"1.20.3--h1eb128b_0": "sha256:8a748c805f226b5c66473b139100fff36d6cc5b1cdff7d5cfa45b51b9e3bd47e"}, "tags": {"1.9.1--h38613fd_0": "sha256:41311b69fd24c9da0ad9213cee97efc34bb4a87b196fbc5c79204182dfab4865", "1.20.3--h1eb128b_0": "sha256:8a748c805f226b5c66473b139100fff36d6cc5b1cdff7d5cfa45b51b9e3bd47e", "1.18.0--h6ead514_0": "sha256:cab09b6e20820caf824c28b2835fd8942efb3f7e813ba08afd0bec99b30b4ac0", "1.17.1--h6ead514_2": "sha256:ef997cedffedc74e61a308367dfaaaf73c91435af644f0bfe318e3574089c626", "1.16.0--hbd632db_0": "sha256:58f274071d6352da738fa5e2f77c61f1404ab71956effb7e89ade1fa9316a897", "1.15.3--hbd632db_0": "sha256:1ffcf63e0464d1ce2720b25b1e52c43c419f1aff2aec1b4dbe1814ecca993de1"}, "docker": "quay.io/biocontainers/seqfu", "aliases": {"dadaist2-mergeseqs": "/usr/local/bin/dadaist2-mergeseqs", "fu-16Sregion": "/usr/local/bin/fu-16Sregion", "fu-cov": "/usr/local/bin/fu-cov", "fu-homocomp": "/usr/local/bin/fu-homocomp", "fu-index": "/usr/local/bin/fu-index", "fu-msa": "/usr/local/bin/fu-msa", "fu-multirelabel": "/usr/local/bin/fu-multirelabel", "fu-nanotags": "/usr/local/bin/fu-nanotags", "fu-orf": "/usr/local/bin/fu-orf", "fu-primers": "/usr/local/bin/fu-primers", "fu-shred": "/usr/local/bin/fu-shred", "fu-sw": "/usr/local/bin/fu-sw", "fu-tabcheck": "/usr/local/bin/fu-tabcheck", "fu-virfilter": "/usr/local/bin/fu-virfilter", "seqfu": "/usr/local/bin/seqfu"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqfu.
@@ -41,7 +46,7 @@ $ shpc install quay.io/biocontainers/seqfu
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqfu:1.9.1--h38613fd_0
+$ shpc install quay.io/biocontainers/seqfu:1.20.3--h1eb128b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqfu/1.9.1--h38613fd_0
-$ module help quay.io/biocontainers/seqfu/1.9.1--h38613fd_0
+$ module load quay.io/biocontainers/seqfu/1.20.3--h1eb128b_0
+$ module help quay.io/biocontainers/seqfu/1.20.3--h1eb128b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

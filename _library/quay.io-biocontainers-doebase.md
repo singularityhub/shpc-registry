@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/doebase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/doebase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/doebase/container.yaml"
-updated_at: "2024-03-26 03:00:44.053650"
+updated_at: "2024-03-27 02:59:15.194916"
 latest: "2.0.2"
 container_url: "https://biocontainers.pro/tools/doebase"
 
 versions:
  - "2.0.2"
+ - "v2.0.2"
 description: "shpc-registry automated BioContainers addition for doebase"
-config: {"url": "https://biocontainers.pro/tools/doebase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for doebase", "latest": {"2.0.2": "sha256:359898a4daa75c8e484e3c1eeb89536bc7db0c807a7d86ee6c7c67f881e6dd60"}, "tags": {"2.0.2": "sha256:359898a4daa75c8e484e3c1eeb89536bc7db0c807a7d86ee6c7c67f881e6dd60"}, "docker": "quay.io/biocontainers/doebase"}
+config: {"url": "https://biocontainers.pro/tools/doebase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for doebase", "latest": {"2.0.2": "sha256:359898a4daa75c8e484e3c1eeb89536bc7db0c807a7d86ee6c7c67f881e6dd60"}, "tags": {"2.0.2": "sha256:359898a4daa75c8e484e3c1eeb89536bc7db0c807a7d86ee6c7c67f881e6dd60", "v2.0.2": "sha256:7d596626854c9979203e58adec68cd4789096b047b712c0b39a68f90e2c98aef"}, "docker": "quay.io/biocontainers/doebase"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/doebase.

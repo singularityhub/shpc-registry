@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyinotify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyinotify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyinotify/container.yaml"
-updated_at: "2024-03-26 02:46:09.297141"
+updated_at: "2024-03-27 02:45:22.103433"
 latest: "0.9.6--py35_0"
 container_url: "https://biocontainers.pro/tools/pyinotify"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.9.6--py35_0"
+ - "0.9.6--py36_0"
 description: "shpc-registry automated BioContainers addition for pyinotify"
-config: {"url": "https://biocontainers.pro/tools/pyinotify", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyinotify", "latest": {"0.9.6--py35_0": "sha256:300a0acdffb5794226b91a2a9c328de8951eb3e386795feec8074cb894535dc1"}, "tags": {"0.9.6--py35_0": "sha256:300a0acdffb5794226b91a2a9c328de8951eb3e386795feec8074cb894535dc1"}, "docker": "quay.io/biocontainers/pyinotify", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/pyinotify", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyinotify", "latest": {"0.9.6--py35_0": "sha256:300a0acdffb5794226b91a2a9c328de8951eb3e386795feec8074cb894535dc1"}, "tags": {"0.9.6--py35_0": "sha256:300a0acdffb5794226b91a2a9c328de8951eb3e386795feec8074cb894535dc1", "0.9.6--py36_0": "sha256:4bc24135aa70dba818c620150d6d6b3187ae95eb4d96bd9b5697387e3f55b922"}, "docker": "quay.io/biocontainers/pyinotify", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyinotify.

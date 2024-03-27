@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/cgat-scripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgat-scripts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-scripts/container.yaml"
-updated_at: "2024-03-26 02:28:16.663674"
+updated_at: "2024-03-27 02:28:07.415467"
 latest: "0.3.2--py36h355e19c_2"
 container_url: "https://biocontainers.pro/tools/cgat-scripts"
 
 versions:
  - "0.3.2--py36h355e19c_2"
+ - "0.3.2--py35h355e19c_2"
 description: "shpc-registry automated BioContainers addition for cgat-scripts"
-config: {"url": "https://biocontainers.pro/tools/cgat-scripts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-scripts", "latest": {"0.3.2--py36h355e19c_2": "sha256:691fd6dc0f5d3ca0a7d60b518b9a66014dd043f28c0060baa5112de2c2665059"}, "tags": {"0.3.2--py36h355e19c_2": "sha256:691fd6dc0f5d3ca0a7d60b518b9a66014dd043f28c0060baa5112de2c2665059"}, "docker": "quay.io/biocontainers/cgat-scripts"}
+config: {"url": "https://biocontainers.pro/tools/cgat-scripts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-scripts", "latest": {"0.3.2--py36h355e19c_2": "sha256:691fd6dc0f5d3ca0a7d60b518b9a66014dd043f28c0060baa5112de2c2665059"}, "tags": {"0.3.2--py36h355e19c_2": "sha256:691fd6dc0f5d3ca0a7d60b518b9a66014dd043f28c0060baa5112de2c2665059", "0.3.2--py35h355e19c_2": "sha256:161c9c6bf5429b4228d86a02583ba16f72fcfa445ce8dbcb92d4b6f574d7dcb4"}, "docker": "quay.io/biocontainers/cgat-scripts"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgat-scripts.

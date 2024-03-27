@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alignlib-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alignlib-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alignlib-lite/container.yaml"
-updated_at: "2024-03-26 02:41:06.817586"
+updated_at: "2024-03-27 02:40:34.138372"
 latest: "0.3--py310h99d9a7c_6"
 container_url: "https://biocontainers.pro/tools/alignlib-lite"
 aliases:
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.3--py39he1fd14c_5"
  - "0.3--py310h99d9a7c_6"
+ - "0.3--py38h529b8a6_6"
 description: "shpc-registry automated BioContainers addition for alignlib-lite"
-config: {"url": "https://biocontainers.pro/tools/alignlib-lite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alignlib-lite", "latest": {"0.3--py310h99d9a7c_6": "sha256:80358d722d5bcc0a9ae854444632f95d26df7bf3db36eb6b5354f01500fac39d"}, "tags": {"0.3--py39he1fd14c_5": "sha256:9060e90edfb1e18d4b4febdb1c24b19ce5b4083c7f4f0fd3371a92c46bd56a0b", "0.3--py310h99d9a7c_6": "sha256:80358d722d5bcc0a9ae854444632f95d26df7bf3db36eb6b5354f01500fac39d"}, "docker": "quay.io/biocontainers/alignlib-lite", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/alignlib-lite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alignlib-lite", "latest": {"0.3--py310h99d9a7c_6": "sha256:80358d722d5bcc0a9ae854444632f95d26df7bf3db36eb6b5354f01500fac39d"}, "tags": {"0.3--py39he1fd14c_5": "sha256:9060e90edfb1e18d4b4febdb1c24b19ce5b4083c7f4f0fd3371a92c46bd56a0b", "0.3--py310h99d9a7c_6": "sha256:80358d722d5bcc0a9ae854444632f95d26df7bf3db36eb6b5354f01500fac39d", "0.3--py38h529b8a6_6": "sha256:e287f550305d259bc97245321bf157047909093c3dc86ab9274254d87ff6be24"}, "docker": "quay.io/biocontainers/alignlib-lite", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alignlib-lite.

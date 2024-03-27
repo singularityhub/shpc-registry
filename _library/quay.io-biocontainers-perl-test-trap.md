@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-trap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-trap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-trap/container.yaml"
-updated_at: "2024-03-26 02:41:13.662949"
+updated_at: "2024-03-27 02:40:40.800631"
 latest: "0.3.3--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-test-trap"
 aliases:

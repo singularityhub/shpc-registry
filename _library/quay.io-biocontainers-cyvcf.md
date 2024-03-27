@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/cyvcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cyvcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cyvcf/container.yaml"
-updated_at: "2024-03-26 02:49:47.478531"
+updated_at: "2024-03-27 02:48:52.344530"
 latest: "0.8.0--py27_0"
 container_url: "https://biocontainers.pro/tools/cyvcf"
 
 versions:
  - "0.8.0--py27_0"
+ - "0.8.0--py35_0"
 description: "shpc-registry automated BioContainers addition for cyvcf"
-config: {"url": "https://biocontainers.pro/tools/cyvcf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cyvcf", "latest": {"0.8.0--py27_0": "sha256:5799ad6383ddb1dda9624d0ac5e5ad51466e67f90a61cc733ee97c67b8805b6f"}, "tags": {"0.8.0--py27_0": "sha256:5799ad6383ddb1dda9624d0ac5e5ad51466e67f90a61cc733ee97c67b8805b6f"}, "docker": "quay.io/biocontainers/cyvcf"}
+config: {"url": "https://biocontainers.pro/tools/cyvcf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cyvcf", "latest": {"0.8.0--py27_0": "sha256:5799ad6383ddb1dda9624d0ac5e5ad51466e67f90a61cc733ee97c67b8805b6f"}, "tags": {"0.8.0--py27_0": "sha256:5799ad6383ddb1dda9624d0ac5e5ad51466e67f90a61cc733ee97c67b8805b6f", "0.8.0--py35_0": "sha256:044595dbc517bcf2e5dc9f0b5fcfe81deab40121cac09a481536785aa9fdbf8e"}, "docker": "quay.io/biocontainers/cyvcf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cyvcf.

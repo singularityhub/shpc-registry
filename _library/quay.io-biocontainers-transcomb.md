@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transcomb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transcomb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transcomb/container.yaml"
-updated_at: "2024-03-26 02:46:00.284859"
+updated_at: "2024-03-27 02:45:13.230133"
 latest: "1.0--boost1.60_0"
 container_url: "https://biocontainers.pro/tools/transcomb"
 aliases:
@@ -25,8 +25,9 @@ aliases:
  - "pyvenv-3.5"
 versions:
  - "1.0--boost1.60_0"
+ - "1.0--boost1.61_0"
 description: "shpc-registry automated BioContainers addition for transcomb"
-config: {"url": "https://biocontainers.pro/tools/transcomb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transcomb", "latest": {"1.0--boost1.60_0": "sha256:fed706a49d4c590dcf7a136a3485197e7d957652d6efd32bdbf148a11cfbc879"}, "tags": {"1.0--boost1.60_0": "sha256:fed706a49d4c590dcf7a136a3485197e7d957652d6efd32bdbf148a11cfbc879"}, "docker": "quay.io/biocontainers/transcomb", "aliases": {"Assemble": "/usr/local/bin/Assemble", "CorrectName": "/usr/local/bin/CorrectName", "Pre_Alignment": "/usr/local/bin/Pre_Alignment", "TransComb": "/usr/local/bin/TransComb", "bamtools-2.4.0": "/usr/local/bin/bamtools-2.4.0", "bamtools": "/usr/local/bin/bamtools", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5"}}
+config: {"url": "https://biocontainers.pro/tools/transcomb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transcomb", "latest": {"1.0--boost1.60_0": "sha256:fed706a49d4c590dcf7a136a3485197e7d957652d6efd32bdbf148a11cfbc879"}, "tags": {"1.0--boost1.60_0": "sha256:fed706a49d4c590dcf7a136a3485197e7d957652d6efd32bdbf148a11cfbc879", "1.0--boost1.61_0": "sha256:ca5b0b6fb4adeddc80e63f759f34ef0d8c971df399d704387b4dca8da3a9eecb"}, "docker": "quay.io/biocontainers/transcomb", "aliases": {"Assemble": "/usr/local/bin/Assemble", "CorrectName": "/usr/local/bin/CorrectName", "Pre_Alignment": "/usr/local/bin/Pre_Alignment", "TransComb": "/usr/local/bin/TransComb", "bamtools-2.4.0": "/usr/local/bin/bamtools-2.4.0", "bamtools": "/usr/local/bin/bamtools", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/transcomb.
