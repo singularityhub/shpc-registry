@@ -1,0 +1,45 @@
+url: https://biocontainers.pro/tools/eva-sub-cli
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for eva-sub-cli
+latest:
+  0.2--py312hdfd78af_0: sha256:c0cdcbcfe8fc1378efbbc40dc2983ad27e0a1d5e412e96f8c88f88b2db031c4d
+tags:
+  0.2--py312hdfd78af_0: sha256:c0cdcbcfe8fc1378efbbc40dc2983ad27e0a1d5e412e96f8c88f88b2db031c4d
+docker: quay.io/biocontainers/eva-sub-cli
+aliases:
+  archive_directory.py: /usr/local/bin/archive_directory.py
+  biovalidator: /usr/local/bin/biovalidator
+  check_fasta_insdc.py: /usr/local/bin/check_fasta_insdc.py
+  eva-sub-cli.py: /usr/local/bin/eva-sub-cli.py
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  samples_checker.py: /usr/local/bin/samples_checker.py
+  vcf_assembly_checker: /usr/local/bin/vcf_assembly_checker
+  vcf_validator: /usr/local/bin/vcf_validator
+  xlsx2json.py: /usr/local/bin/xlsx2json.py
+  corepack: /usr/local/bin/corepack
+  nextflow.bak: /usr/local/bin/nextflow.bak
+  npx: /usr/local/bin/npx
+  nextflow: /usr/local/bin/nextflow
+  node: /usr/local/bin/node
+  npm: /usr/local/bin/npm
+  jwebserver: /usr/local/bin/jwebserver
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  ls: /usr/local/bin/ls
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  cp: /usr/local/bin/cp
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date
