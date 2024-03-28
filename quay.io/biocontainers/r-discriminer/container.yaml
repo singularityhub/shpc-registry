@@ -5,6 +5,7 @@ latest:
   0.1_29--r3.2.2_0: sha256:87815ea6aadda7eeccb399f84ea79918509cfd77a381f2e4b19ba666f6334494
 tags:
   0.1_29--r3.2.2_0: sha256:87815ea6aadda7eeccb399f84ea79918509cfd77a381f2e4b19ba666f6334494
+  0.1_29--r3.3.2_0: sha256:8d874a43d33bd6989077ff4b59ebcd3b5a541bedc8d2164151643571db9de6b9
 docker: quay.io/biocontainers/r-discriminer
 aliases:
   pngcp: /usr/local/bin/pngcp

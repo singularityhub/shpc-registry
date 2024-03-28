@@ -5,6 +5,7 @@ latest:
   1.1.0--py37h7273adc_5: sha256:ba779ed0166edfe48898ec5598704140c68dac5b92ad5a2f1e511debb1a6c328
 tags:
   1.1.0--py37h7273adc_5: sha256:ba779ed0166edfe48898ec5598704140c68dac5b92ad5a2f1e511debb1a6c328
+  1.1.0--py310hc2005d1_5: sha256:2d88acf59d5bd79c7b1dd00e604a0dd34bcca9d5dd3ed8ee7974b6aba8a96f9a
 docker: quay.io/biocontainers/pp-sketchlib
 aliases:
   poppunk_sketch: /usr/local/bin/poppunk_sketch

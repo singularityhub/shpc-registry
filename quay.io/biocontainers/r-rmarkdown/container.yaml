@@ -5,6 +5,7 @@ latest:
   0.9.5--0: sha256:82d79903b730c3494da469b412459184a4f799dd9c552ad85e7ec78fdf85189a
 tags:
   0.9.5--0: sha256:82d79903b730c3494da469b412459184a4f799dd9c552ad85e7ec78fdf85189a
+  0.9.5--r3.3.2_0: sha256:ccf8745d8ce852c56009b7a20326db5ed8aba2b6a65023a5dc70f475da3ca9f3
 docker: quay.io/biocontainers/r-rmarkdown
 aliases:
   pngcp: /usr/local/bin/pngcp

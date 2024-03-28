@@ -5,6 +5,7 @@ latest:
   1.5.0--py35h549429d_0: sha256:395ba27115165c868f1b948c876f1ed567ed9809d704e8871f67bb4c4bc071c6
 tags:
   1.5.0--py35h549429d_0: sha256:395ba27115165c868f1b948c876f1ed567ed9809d704e8871f67bb4c4bc071c6
+  1.5.0--py36h549429d_0: sha256:097cebbddba5e3349acde003aca35a387a0000202aeb630d62fa733b403df1d3
 docker: quay.io/biocontainers/merfishtools
 aliases:
   merfishtools: /usr/local/bin/merfishtools

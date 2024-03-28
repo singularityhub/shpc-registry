@@ -6,6 +6,7 @@ latest:
 tags:
   0.1.3--py39h792ddb7_0: sha256:cff254b0bb0dd8041f3b43678ed66a477f87d7b72d526a6a474f3e374ccb3d94
   0.1.3--py310h79000e5_1: sha256:22cf5aa299f2e6b8ac8a4b0331b85183a971349cd8b8aed1fa256b78276f7d31
+  0.1.3--py38h5df1436_1: sha256:00048a868adf474e926e4eb99fb5ff285f09bae85558508209bfa805349eb373
 docker: quay.io/biocontainers/pybmtools
 aliases:
   f2py3.9: /usr/local/bin/f2py3.9

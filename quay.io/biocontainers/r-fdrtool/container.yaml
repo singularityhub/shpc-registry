@@ -5,6 +5,7 @@ latest:
   1.2.15--r3.2.2_0: sha256:43a8280f455b8087ce1425f8adb5eafe2b08fab6bee3ab06f6b67e0c2056d31a
 tags:
   1.2.15--r3.2.2_0: sha256:43a8280f455b8087ce1425f8adb5eafe2b08fab6bee3ab06f6b67e0c2056d31a
+  1.2.15--r3.3.2_0: sha256:c9f76e042c9e6cd19ab845c9559d0d0811a30cbbff855413b098df5421c40673
 docker: quay.io/biocontainers/r-fdrtool
 aliases:
   pngcp: /usr/local/bin/pngcp

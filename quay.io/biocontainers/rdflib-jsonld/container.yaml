@@ -5,6 +5,7 @@ latest:
   0.4--py27_0: sha256:58775dc33299b2304504f398e129bcb1bcc1c87eb8751169982f490c5237a2ee
 tags:
   0.4--py27_0: sha256:58775dc33299b2304504f398e129bcb1bcc1c87eb8751169982f490c5237a2ee
+  0.4--py36_0: sha256:a3cf0dbc8b26adf79f511337f8fcaaf5f30fff436a9023a94cedea454f994822
 docker: quay.io/biocontainers/rdflib-jsonld
 aliases:
   csv2rdf: /usr/local/bin/csv2rdf

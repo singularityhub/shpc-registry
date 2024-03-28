@@ -5,6 +5,7 @@ latest:
   3.1.0--py35_3: sha256:ad29ba05eea04eb39997ea9f2d0fe3f3c03d95c669c10c54b66552333c74bb07
 tags:
   3.1.0--py35_3: sha256:ad29ba05eea04eb39997ea9f2d0fe3f3c03d95c669c10c54b66552333c74bb07
+  3.1.0--py35pl5.22.0_3: sha256:6d53353d1c48778664af8261e0cdebd3eb8e5436048804293c985662c6c110b9
 docker: quay.io/biocontainers/amos
 aliases:
   AMOScmp: /usr/local/bin/AMOScmp

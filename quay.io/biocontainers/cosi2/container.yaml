@@ -5,6 +5,7 @@ latest:
   2.3.0rc4--py27h2d50403_1: sha256:b8372c183135e0549f4f17aa2f7f546b58493236f0ac6352d6f7cfe57b4a9779
 tags:
   2.3.0rc4--py27h2d50403_1: sha256:b8372c183135e0549f4f17aa2f7f546b58493236f0ac6352d6f7cfe57b4a9779
+  2.3.0rc4--py36h2d50403_1: sha256:0257bc17b12d0523ca9635f0da9ccf170df6eecc92054f9eec617e28cf1d1a50
 docker: quay.io/biocontainers/cosi2
 aliases:
   coalescent: /usr/local/bin/coalescent

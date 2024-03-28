@@ -5,6 +5,7 @@ latest:
   0.2.5--py37h8902056_1: sha256:4b46eb4487718024405060e5e72655d68fe7308c5a90fcc5b2b9a0f27d604cfd
 tags:
   0.2.5--py37h8902056_1: sha256:4b46eb4487718024405060e5e72655d68fe7308c5a90fcc5b2b9a0f27d604cfd
+  0.2.5--py36h91eb985_1: sha256:e9b43a4920da385b33a28b05eac5aa6c42aa00b2fcb6537721a60a14902ce90d
 docker: quay.io/biocontainers/rnasamba
 aliases:
   rnasamba: /usr/local/bin/rnasamba

@@ -5,6 +5,7 @@ latest:
   0.9.47--r3.3.1_0: sha256:88238fec2e6e36cd5d5a6d05d380e31b86032bf5c7271399d00a20bc0d743733
 tags:
   0.9.47--r3.3.1_0: sha256:88238fec2e6e36cd5d5a6d05d380e31b86032bf5c7271399d00a20bc0d743733
+  0.9.47--r3.3.2_0: sha256:b942398509f02e79f668a0f4ed7e327c2a06ac16b005986952bd7e0a9eea7079
 docker: quay.io/biocontainers/r-penalized
 aliases:
   pango-querymodules: /usr/local/bin/pango-querymodules
