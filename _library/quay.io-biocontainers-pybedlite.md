@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybedlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybedlite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybedlite/container.yaml"
-updated_at: "2024-03-27 02:30:43.260825"
+updated_at: "2024-03-28 02:34:54.301789"
 latest: "0.0.4--py38he5da3d1_0"
 container_url: "https://biocontainers.pro/tools/pybedlite"
 aliases:
@@ -18,8 +18,9 @@ versions:
  - "0.0.2--pyhdfd78af_0"
  - "0.0.3--pyhdfd78af_0"
  - "0.0.4--py38he5da3d1_0"
+ - "0.0.4--py39hf95cd2a_0"
 description: "singularity registry hpc automated addition for pybedlite"
-config: {"url": "https://biocontainers.pro/tools/pybedlite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybedlite", "latest": {"0.0.4--py38he5da3d1_0": "sha256:b66f2812958e8c9383d983d288166b114eab9cfb0722724bc74bf829a2bf54cb"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:500efc9947d7803c722c39c20aceb840154ddbce2eed46a95050584343a0ec06", "0.0.3--pyhdfd78af_0": "sha256:55f09d10d9490ac54400883b3a322a00df5046e78a30c43ee7e7f9ed66ae6ddd", "0.0.4--py38he5da3d1_0": "sha256:b66f2812958e8c9383d983d288166b114eab9cfb0722724bc74bf829a2bf54cb"}, "docker": "quay.io/biocontainers/pybedlite", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/pybedlite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybedlite", "latest": {"0.0.4--py38he5da3d1_0": "sha256:b66f2812958e8c9383d983d288166b114eab9cfb0722724bc74bf829a2bf54cb"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:500efc9947d7803c722c39c20aceb840154ddbce2eed46a95050584343a0ec06", "0.0.3--pyhdfd78af_0": "sha256:55f09d10d9490ac54400883b3a322a00df5046e78a30c43ee7e7f9ed66ae6ddd", "0.0.4--py38he5da3d1_0": "sha256:b66f2812958e8c9383d983d288166b114eab9cfb0722724bc74bf829a2bf54cb", "0.0.4--py39hf95cd2a_0": "sha256:59879ccc4dbf0b0405d24dd2865aba71114ea9ff5ccd63d0847185819f9517a3"}, "docker": "quay.io/biocontainers/pybedlite", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybedlite.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-set-intervaltree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-set-intervaltree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-set-intervaltree/container.yaml"
-updated_at: "2024-03-27 02:53:27.640747"
+updated_at: "2024-03-28 02:58:31.674492"
 latest: "0.12--pl5321hdbdd923_3"
 container_url: "https://biocontainers.pro/tools/perl-set-intervaltree"
 aliases:

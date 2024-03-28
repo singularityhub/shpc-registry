@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/condiga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/condiga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/condiga/container.yaml"
-updated_at: "2024-03-27 02:41:24.958424"
-latest: "0.2.1--pyh7cba7a3_0"
+updated_at: "2024-03-28 02:46:01.015883"
+latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/condiga"
 aliases:
  - "condiga"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "0.2.0--pyh7cba7a3_0"
  - "0.2.1--pyh7cba7a3_0"
+ - "0.2.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for condiga"
-config: {"url": "https://biocontainers.pro/tools/condiga", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for condiga", "latest": {"0.2.1--pyh7cba7a3_0": "sha256:d520ca7258c07f047ae6c88c8b668969f873d51e068e79d8ab1d0c6695dd40c4"}, "tags": {"0.2.0--pyh7cba7a3_0": "sha256:c265272f72c36c38b1ab64665715a200ec991126dcd0540d362e8e3681af2508", "0.2.1--pyh7cba7a3_0": "sha256:d520ca7258c07f047ae6c88c8b668969f873d51e068e79d8ab1d0c6695dd40c4"}, "docker": "quay.io/biocontainers/condiga", "aliases": {"condiga": "/usr/local/bin/condiga", "taxonkit": "/usr/local/bin/taxonkit", "vba_extract.py": "/usr/local/bin/vba_extract.py", "convert": "/usr/local/bin/convert", "f2py3.11": "/usr/local/bin/f2py3.11", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tqdm": "/usr/local/bin/tqdm", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/condiga", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for condiga", "latest": {"0.2.2--pyhdfd78af_0": "sha256:bf2d4f3331129ebca2644c454fece9628d0367a3044dfa95bb6bac20e43e9f48"}, "tags": {"0.2.0--pyh7cba7a3_0": "sha256:c265272f72c36c38b1ab64665715a200ec991126dcd0540d362e8e3681af2508", "0.2.1--pyh7cba7a3_0": "sha256:d520ca7258c07f047ae6c88c8b668969f873d51e068e79d8ab1d0c6695dd40c4", "0.2.2--pyhdfd78af_0": "sha256:bf2d4f3331129ebca2644c454fece9628d0367a3044dfa95bb6bac20e43e9f48"}, "docker": "quay.io/biocontainers/condiga", "aliases": {"condiga": "/usr/local/bin/condiga", "taxonkit": "/usr/local/bin/taxonkit", "vba_extract.py": "/usr/local/bin/vba_extract.py", "convert": "/usr/local/bin/convert", "f2py3.11": "/usr/local/bin/f2py3.11", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tqdm": "/usr/local/bin/tqdm", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/condiga.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/condiga
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/condiga:0.2.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/condiga:0.2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/condiga/0.2.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/condiga/0.2.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/condiga/0.2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/condiga/0.2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

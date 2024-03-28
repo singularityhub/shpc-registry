@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rtca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtca/container.yaml"
-updated_at: "2024-03-27 02:47:54.336407"
+updated_at: "2024-03-28 02:52:45.045188"
 latest: "1.54.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtca"
 

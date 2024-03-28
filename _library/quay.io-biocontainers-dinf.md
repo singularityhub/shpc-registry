@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dinf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dinf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dinf/container.yaml"
-updated_at: "2024-03-27 02:41:38.274042"
+updated_at: "2024-03-28 02:46:14.763201"
 latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dinf"
 aliases:

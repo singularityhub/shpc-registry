@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libshorah"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libshorah/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libshorah/container.yaml"
-updated_at: "2024-03-27 03:01:13.367481"
+updated_at: "2024-03-28 03:06:33.797305"
 latest: "1.99.4--py39h641c068_1"
 container_url: "https://biocontainers.pro/tools/libshorah"
 aliases:
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "1.99.4--py39hcdbde3b_0"
  - "1.99.4--py39h641c068_1"
+ - "1.99.4--py38hebc1f04_1"
 description: "singularity registry hpc automated addition for libshorah"
-config: {"url": "https://biocontainers.pro/tools/libshorah", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for libshorah", "latest": {"1.99.4--py39h641c068_1": "sha256:f0be9165200b1c6899c9c6c179d9bcc29802be65818ffc2b6d35547c0d5ccf2b"}, "tags": {"1.99.4--py39hcdbde3b_0": "sha256:7235ba43982d0fca28dd49904799bd4584c4561bd315924e6c6a286a65b11994", "1.99.4--py39h641c068_1": "sha256:f0be9165200b1c6899c9c6c179d9bcc29802be65818ffc2b6d35547c0d5ccf2b"}, "docker": "quay.io/biocontainers/libshorah", "aliases": {"htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/libshorah", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for libshorah", "latest": {"1.99.4--py39h641c068_1": "sha256:f0be9165200b1c6899c9c6c179d9bcc29802be65818ffc2b6d35547c0d5ccf2b"}, "tags": {"1.99.4--py39hcdbde3b_0": "sha256:7235ba43982d0fca28dd49904799bd4584c4561bd315924e6c6a286a65b11994", "1.99.4--py39h641c068_1": "sha256:f0be9165200b1c6899c9c6c179d9bcc29802be65818ffc2b6d35547c0d5ccf2b", "1.99.4--py38hebc1f04_1": "sha256:4d9f9573cd7eb46bf706536aa31b8b19b9f6a95660b07bdb6aa060e8d8d74ed4"}, "docker": "quay.io/biocontainers/libshorah", "aliases": {"htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libshorah.

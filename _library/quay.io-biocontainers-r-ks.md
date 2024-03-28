@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ks/container.yaml"
-updated_at: "2024-03-27 02:41:03.106097"
+updated_at: "2024-03-28 02:45:38.169822"
 latest: "1.10.6--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-ks"
 aliases:

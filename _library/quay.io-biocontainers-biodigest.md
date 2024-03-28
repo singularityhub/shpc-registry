@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biodigest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biodigest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biodigest/container.yaml"
-updated_at: "2024-03-27 02:47:45.584010"
-latest: "0.2.16--pyhdfd78af_0"
+updated_at: "2024-03-28 02:52:35.880657"
+latest: "0.2.16--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/biodigest"
 aliases:
  - "bioservices"
@@ -43,8 +43,9 @@ aliases:
  - "tqdm"
 versions:
  - "0.2.16--pyhdfd78af_0"
+ - "0.2.16--pyhdfd78af_2"
 description: "singularity registry hpc automated addition for biodigest"
-config: {"url": "https://biocontainers.pro/tools/biodigest", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biodigest", "latest": {"0.2.16--pyhdfd78af_0": "sha256:cf2f1bf957ee3f470dc3ba9f8267b8045e3cf531c773e5a5c4d1cf2034728b7c"}, "tags": {"0.2.16--pyhdfd78af_0": "sha256:cf2f1bf957ee3f470dc3ba9f8267b8045e3cf531c773e5a5c4d1cf2034728b7c"}, "docker": "quay.io/biocontainers/biodigest", "aliases": {"bioservices": "/usr/local/bin/bioservices", "gseapy": "/usr/local/bin/gseapy", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "wayland-scanner": "/usr/local/bin/wayland-scanner", "browse": "/usr/local/bin/browse", "xkbcli": "/usr/local/bin/xkbcli", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "rsvg-convert": "/usr/local/bin/rsvg-convert", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "hb-info": "/usr/local/bin/hb-info", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool", "dbus-update-activation-environment": "/usr/local/bin/dbus-update-activation-environment", "dbus-uuidgen": "/usr/local/bin/dbus-uuidgen", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/biodigest", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biodigest", "latest": {"0.2.16--pyhdfd78af_2": "sha256:f141714fbd71e279eb4f53cf0e53ea6f68a4787aee1d278d5851859c9685bc66"}, "tags": {"0.2.16--pyhdfd78af_0": "sha256:cf2f1bf957ee3f470dc3ba9f8267b8045e3cf531c773e5a5c4d1cf2034728b7c", "0.2.16--pyhdfd78af_2": "sha256:f141714fbd71e279eb4f53cf0e53ea6f68a4787aee1d278d5851859c9685bc66"}, "docker": "quay.io/biocontainers/biodigest", "aliases": {"bioservices": "/usr/local/bin/bioservices", "gseapy": "/usr/local/bin/gseapy", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "wayland-scanner": "/usr/local/bin/wayland-scanner", "browse": "/usr/local/bin/browse", "xkbcli": "/usr/local/bin/xkbcli", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "rsvg-convert": "/usr/local/bin/rsvg-convert", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "hb-info": "/usr/local/bin/hb-info", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool", "dbus-update-activation-environment": "/usr/local/bin/dbus-update-activation-environment", "dbus-uuidgen": "/usr/local/bin/dbus-uuidgen", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biodigest.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/biodigest
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biodigest:0.2.16--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/biodigest:0.2.16--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biodigest/0.2.16--pyhdfd78af_0
-$ module help quay.io/biocontainers/biodigest/0.2.16--pyhdfd78af_0
+$ module load quay.io/biocontainers/biodigest/0.2.16--pyhdfd78af_2
+$ module help quay.io/biocontainers/biodigest/0.2.16--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

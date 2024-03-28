@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bitstring"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bitstring/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bitstring/container.yaml"
-updated_at: "2024-03-27 02:42:39.610146"
+updated_at: "2024-03-28 02:47:18.373274"
 latest: "3.1.5--py35_1"
 container_url: "https://biocontainers.pro/tools/bitstring"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "3.1.5--py35_1"
+ - "3.1.5--py36_1"
 description: "shpc-registry automated BioContainers addition for bitstring"
-config: {"url": "https://biocontainers.pro/tools/bitstring", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bitstring", "latest": {"3.1.5--py35_1": "sha256:4b0ae51210b5ca8227cb5caffa472f20c0967991816fc26825933532e71e3004"}, "tags": {"3.1.5--py35_1": "sha256:4b0ae51210b5ca8227cb5caffa472f20c0967991816fc26825933532e71e3004"}, "docker": "quay.io/biocontainers/bitstring", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bitstring", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bitstring", "latest": {"3.1.5--py35_1": "sha256:4b0ae51210b5ca8227cb5caffa472f20c0967991816fc26825933532e71e3004"}, "tags": {"3.1.5--py35_1": "sha256:4b0ae51210b5ca8227cb5caffa472f20c0967991816fc26825933532e71e3004", "3.1.5--py36_1": "sha256:4973ac025ce948a9854e6ec167421d0b9ddd367db99c1b447a85ec940dd76391"}, "docker": "quay.io/biocontainers/bitstring", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bitstring.

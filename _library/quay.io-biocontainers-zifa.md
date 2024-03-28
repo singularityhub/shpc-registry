@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zifa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zifa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zifa/container.yaml"
-updated_at: "2024-03-27 02:24:45.225862"
+updated_at: "2024-03-28 02:28:41.212483"
 latest: "0.1.0--py35_0"
 container_url: "https://biocontainers.pro/tools/zifa"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.1.0--py35_0"
+ - "0.1.0--py36_0"
 description: "shpc-registry automated BioContainers addition for zifa"
-config: {"url": "https://biocontainers.pro/tools/zifa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zifa", "latest": {"0.1.0--py35_0": "sha256:9c8ce0258e201106f319164e325201b4d12668694273dcc0c7cc0f1413f93ff8"}, "tags": {"0.1.0--py35_0": "sha256:9c8ce0258e201106f319164e325201b4d12668694273dcc0c7cc0f1413f93ff8"}, "docker": "quay.io/biocontainers/zifa", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/zifa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zifa", "latest": {"0.1.0--py35_0": "sha256:9c8ce0258e201106f319164e325201b4d12668694273dcc0c7cc0f1413f93ff8"}, "tags": {"0.1.0--py35_0": "sha256:9c8ce0258e201106f319164e325201b4d12668694273dcc0c7cc0f1413f93ff8", "0.1.0--py36_0": "sha256:87024bd96fcda7b2ab7469c7f74b4708d58815f900ccb406e69e18a84f864059"}, "docker": "quay.io/biocontainers/zifa", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/zifa.
