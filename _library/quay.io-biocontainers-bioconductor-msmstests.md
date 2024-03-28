@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msmstests"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msmstests/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msmstests/container.yaml"
-updated_at: "2024-03-28 02:59:05.500022"
+updated_at: "2024-03-28 03:08:03.374278"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msmstests"
 aliases:

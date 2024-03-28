@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sword"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sword/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sword/container.yaml"
-updated_at: "2024-03-28 02:53:22.689778"
+updated_at: "2024-03-28 03:02:34.423382"
 latest: "1.0.4--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/sword"
 aliases:

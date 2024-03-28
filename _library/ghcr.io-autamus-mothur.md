@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/mothur"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/mothur/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/mothur/container.yaml"
-updated_at: "2024-03-28 02:25:12.611503"
+updated_at: "2024-03-28 02:35:46.480331"
 latest: "1.46.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/mothur"
 aliases:

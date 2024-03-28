@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pydeseq2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydeseq2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydeseq2/container.yaml"
-updated_at: "2024-03-28 02:40:48.112051"
+updated_at: "2024-03-28 02:50:26.537740"
 latest: "0.4.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pydeseq2"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hibed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hibed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hibed/container.yaml"
-updated_at: "2024-03-28 03:00:20.160838"
+updated_at: "2024-03-28 03:09:16.746118"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hibed"
 aliases:

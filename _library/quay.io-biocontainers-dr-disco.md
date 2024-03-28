@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dr-disco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dr-disco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dr-disco/container.yaml"
-updated_at: "2024-03-28 03:08:11.781085"
+updated_at: "2024-03-28 03:16:46.960068"
 latest: "0.18.3--pyh086e186_0"
 container_url: "https://biocontainers.pro/tools/dr-disco"
 aliases:

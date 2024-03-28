@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal5.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal5.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal5.refgene/container.yaml"
-updated_at: "2024-03-28 02:35:58.591740"
+updated_at: "2024-03-28 02:45:56.541180"
 latest: "3.12.0--r43hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.ggallus.ucsc.galgal5.refgene"
 aliases:

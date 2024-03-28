@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-restfulsedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-restfulsedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-restfulsedata/container.yaml"
-updated_at: "2024-03-28 02:51:02.623251"
+updated_at: "2024-03-28 03:00:22.041286"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-restfulsedata"
 aliases:
