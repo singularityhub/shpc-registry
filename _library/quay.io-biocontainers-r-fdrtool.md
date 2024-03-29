@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fdrtool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fdrtool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fdrtool/container.yaml"
-updated_at: "2024-03-28 02:38:26.297850"
+updated_at: "2024-03-29 02:23:50.369623"
 latest: "1.2.15--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-fdrtool"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.2.15--r3.2.2_0"
+ - "1.2.15--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-fdrtool"
-config: {"url": "https://biocontainers.pro/tools/r-fdrtool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fdrtool", "latest": {"1.2.15--r3.2.2_0": "sha256:43a8280f455b8087ce1425f8adb5eafe2b08fab6bee3ab06f6b67e0c2056d31a"}, "tags": {"1.2.15--r3.2.2_0": "sha256:43a8280f455b8087ce1425f8adb5eafe2b08fab6bee3ab06f6b67e0c2056d31a"}, "docker": "quay.io/biocontainers/r-fdrtool", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-fdrtool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fdrtool", "latest": {"1.2.15--r3.2.2_0": "sha256:43a8280f455b8087ce1425f8adb5eafe2b08fab6bee3ab06f6b67e0c2056d31a"}, "tags": {"1.2.15--r3.2.2_0": "sha256:43a8280f455b8087ce1425f8adb5eafe2b08fab6bee3ab06f6b67e0c2056d31a", "1.2.15--r3.3.2_0": "sha256:c9f76e042c9e6cd19ab845c9559d0d0811a30cbbff855413b098df5421c40673"}, "docker": "quay.io/biocontainers/r-fdrtool", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-fdrtool.

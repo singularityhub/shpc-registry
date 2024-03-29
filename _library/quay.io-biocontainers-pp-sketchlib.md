@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pp-sketchlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pp-sketchlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pp-sketchlib/container.yaml"
-updated_at: "2024-03-28 03:12:58.300431"
+updated_at: "2024-03-29 02:58:39.821646"
 latest: "1.1.0--py37h7273adc_5"
 container_url: "https://biocontainers.pro/tools/pp-sketchlib"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "h5clear"
 versions:
  - "1.1.0--py37h7273adc_5"
+ - "1.1.0--py310hc2005d1_5"
 description: "shpc-registry automated BioContainers addition for pp-sketchlib"
-config: {"url": "https://biocontainers.pro/tools/pp-sketchlib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pp-sketchlib", "latest": {"1.1.0--py37h7273adc_5": "sha256:ba779ed0166edfe48898ec5598704140c68dac5b92ad5a2f1e511debb1a6c328"}, "tags": {"1.1.0--py37h7273adc_5": "sha256:ba779ed0166edfe48898ec5598704140c68dac5b92ad5a2f1e511debb1a6c328"}, "docker": "quay.io/biocontainers/pp-sketchlib", "aliases": {"poppunk_sketch": "/usr/local/bin/poppunk_sketch", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "h5clear": "/usr/local/bin/h5clear"}}
+config: {"url": "https://biocontainers.pro/tools/pp-sketchlib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pp-sketchlib", "latest": {"1.1.0--py37h7273adc_5": "sha256:ba779ed0166edfe48898ec5598704140c68dac5b92ad5a2f1e511debb1a6c328"}, "tags": {"1.1.0--py37h7273adc_5": "sha256:ba779ed0166edfe48898ec5598704140c68dac5b92ad5a2f1e511debb1a6c328", "1.1.0--py310hc2005d1_5": "sha256:2d88acf59d5bd79c7b1dd00e604a0dd34bcca9d5dd3ed8ee7974b6aba8a96f9a"}, "docker": "quay.io/biocontainers/pp-sketchlib", "aliases": {"poppunk_sketch": "/usr/local/bin/poppunk_sketch", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "h5clear": "/usr/local/bin/h5clear"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pp-sketchlib.

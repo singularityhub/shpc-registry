@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-catools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-catools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-catools/container.yaml"
-updated_at: "2024-03-28 03:13:53.169281"
+updated_at: "2024-03-29 02:59:35.756694"
 latest: "1.17.1--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-catools"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybmtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybmtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybmtools/container.yaml"
-updated_at: "2024-03-28 02:46:54.944486"
+updated_at: "2024-03-29 02:32:21.438419"
 latest: "0.1.3--py310h79000e5_1"
 container_url: "https://biocontainers.pro/tools/pybmtools"
 aliases:
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.1.3--py39h792ddb7_0"
  - "0.1.3--py310h79000e5_1"
+ - "0.1.3--py38h5df1436_1"
 description: "singularity registry hpc automated addition for pybmtools"
-config: {"url": "https://biocontainers.pro/tools/pybmtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybmtools", "latest": {"0.1.3--py310h79000e5_1": "sha256:22cf5aa299f2e6b8ac8a4b0331b85183a971349cd8b8aed1fa256b78276f7d31"}, "tags": {"0.1.3--py39h792ddb7_0": "sha256:cff254b0bb0dd8041f3b43678ed66a477f87d7b72d526a6a474f3e374ccb3d94", "0.1.3--py310h79000e5_1": "sha256:22cf5aa299f2e6b8ac8a4b0331b85183a971349cd8b8aed1fa256b78276f7d31"}, "docker": "quay.io/biocontainers/pybmtools", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/pybmtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybmtools", "latest": {"0.1.3--py310h79000e5_1": "sha256:22cf5aa299f2e6b8ac8a4b0331b85183a971349cd8b8aed1fa256b78276f7d31"}, "tags": {"0.1.3--py39h792ddb7_0": "sha256:cff254b0bb0dd8041f3b43678ed66a477f87d7b72d526a6a474f3e374ccb3d94", "0.1.3--py310h79000e5_1": "sha256:22cf5aa299f2e6b8ac8a4b0331b85183a971349cd8b8aed1fa256b78276f7d31", "0.1.3--py38h5df1436_1": "sha256:00048a868adf474e926e4eb99fb5ff285f09bae85558508209bfa805349eb373"}, "docker": "quay.io/biocontainers/pybmtools", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybmtools.

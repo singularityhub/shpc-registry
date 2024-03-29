@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/mpc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/mpc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/mpc/container.yaml"
-updated_at: "2024-03-28 02:36:23.753928"
+updated_at: "2024-03-29 02:21:47.421517"
 latest: "1.2.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/mpc"
 

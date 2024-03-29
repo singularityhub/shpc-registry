@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-penalized"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-penalized/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-penalized/container.yaml"
-updated_at: "2024-03-28 02:49:25.158887"
+updated_at: "2024-03-29 02:34:51.928291"
 latest: "0.9.47--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-penalized"
 aliases:
@@ -15,8 +15,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.9.47--r3.3.1_0"
+ - "0.9.47--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-penalized"
-config: {"url": "https://biocontainers.pro/tools/r-penalized", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-penalized", "latest": {"0.9.47--r3.3.1_0": "sha256:88238fec2e6e36cd5d5a6d05d380e31b86032bf5c7271399d00a20bc0d743733"}, "tags": {"0.9.47--r3.3.1_0": "sha256:88238fec2e6e36cd5d5a6d05d380e31b86032bf5c7271399d00a20bc0d743733"}, "docker": "quay.io/biocontainers/r-penalized", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-penalized", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-penalized", "latest": {"0.9.47--r3.3.1_0": "sha256:88238fec2e6e36cd5d5a6d05d380e31b86032bf5c7271399d00a20bc0d743733"}, "tags": {"0.9.47--r3.3.1_0": "sha256:88238fec2e6e36cd5d5a6d05d380e31b86032bf5c7271399d00a20bc0d743733", "0.9.47--r3.3.2_0": "sha256:b942398509f02e79f668a0f4ed7e327c2a06ac16b005986952bd7e0a9eea7079"}, "docker": "quay.io/biocontainers/r-penalized", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-penalized.

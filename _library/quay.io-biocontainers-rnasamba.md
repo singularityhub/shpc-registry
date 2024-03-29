@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnasamba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnasamba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnasamba/container.yaml"
-updated_at: "2024-03-28 02:52:03.014925"
+updated_at: "2024-03-29 02:37:29.801355"
 latest: "0.2.5--py37h8902056_1"
 container_url: "https://biocontainers.pro/tools/rnasamba"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "tensorboard"
 versions:
  - "0.2.5--py37h8902056_1"
+ - "0.2.5--py36h91eb985_1"
 description: "shpc-registry automated BioContainers addition for rnasamba"
-config: {"url": "https://biocontainers.pro/tools/rnasamba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnasamba", "latest": {"0.2.5--py37h8902056_1": "sha256:4b46eb4487718024405060e5e72655d68fe7308c5a90fcc5b2b9a0f27d604cfd"}, "tags": {"0.2.5--py37h8902056_1": "sha256:4b46eb4487718024405060e5e72655d68fe7308c5a90fcc5b2b9a0f27d604cfd"}, "docker": "quay.io/biocontainers/rnasamba", "aliases": {"rnasamba": "/usr/local/bin/rnasamba", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard"}}
+config: {"url": "https://biocontainers.pro/tools/rnasamba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnasamba", "latest": {"0.2.5--py37h8902056_1": "sha256:4b46eb4487718024405060e5e72655d68fe7308c5a90fcc5b2b9a0f27d604cfd"}, "tags": {"0.2.5--py37h8902056_1": "sha256:4b46eb4487718024405060e5e72655d68fe7308c5a90fcc5b2b9a0f27d604cfd", "0.2.5--py36h91eb985_1": "sha256:e9b43a4920da385b33a28b05eac5aa6c42aa00b2fcb6537721a60a14902ce90d"}, "docker": "quay.io/biocontainers/rnasamba", "aliases": {"rnasamba": "/usr/local/bin/rnasamba", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnasamba.

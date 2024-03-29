@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/geos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/geos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/geos/container.yaml"
-updated_at: "2024-03-28 02:36:01.820810"
+updated_at: "2024-03-29 02:21:25.447418"
 latest: "3.9.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/geos"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/merfishtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/merfishtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/merfishtools/container.yaml"
-updated_at: "2024-03-28 03:10:50.747820"
+updated_at: "2024-03-29 02:56:32.294971"
 latest: "1.5.0--py35h549429d_0"
 container_url: "https://biocontainers.pro/tools/merfishtools"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "pyvenv-3.5"
 versions:
  - "1.5.0--py35h549429d_0"
+ - "1.5.0--py36h549429d_0"
 description: "shpc-registry automated BioContainers addition for merfishtools"
-config: {"url": "https://biocontainers.pro/tools/merfishtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for merfishtools", "latest": {"1.5.0--py35h549429d_0": "sha256:395ba27115165c868f1b948c876f1ed567ed9809d704e8871f67bb4c4bc071c6"}, "tags": {"1.5.0--py35h549429d_0": "sha256:395ba27115165c868f1b948c876f1ed567ed9809d704e8871f67bb4c4bc071c6"}, "docker": "quay.io/biocontainers/merfishtools", "aliases": {"merfishtools": "/usr/local/bin/merfishtools", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5"}}
+config: {"url": "https://biocontainers.pro/tools/merfishtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for merfishtools", "latest": {"1.5.0--py35h549429d_0": "sha256:395ba27115165c868f1b948c876f1ed567ed9809d704e8871f67bb4c4bc071c6"}, "tags": {"1.5.0--py35h549429d_0": "sha256:395ba27115165c868f1b948c876f1ed567ed9809d704e8871f67bb4c4bc071c6", "1.5.0--py36h549429d_0": "sha256:097cebbddba5e3349acde003aca35a387a0000202aeb630d62fa733b403df1d3"}, "docker": "quay.io/biocontainers/merfishtools", "aliases": {"merfishtools": "/usr/local/bin/merfishtools", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/merfishtools.

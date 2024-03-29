@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scanindel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scanindel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scanindel/container.yaml"
-updated_at: "2024-03-28 03:12:47.454892"
+updated_at: "2024-03-29 02:58:28.984158"
 latest: "1.3--1"
 container_url: "https://biocontainers.pro/tools/scanindel"
 aliases:

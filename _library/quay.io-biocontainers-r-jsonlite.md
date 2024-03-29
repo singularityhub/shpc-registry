@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-jsonlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-jsonlite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-jsonlite/container.yaml"
-updated_at: "2024-03-28 02:47:27.738839"
+updated_at: "2024-03-29 02:32:54.320110"
 latest: "0.9.19--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-jsonlite"
 aliases:

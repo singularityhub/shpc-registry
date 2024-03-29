@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rdflib-jsonld"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdflib-jsonld/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdflib-jsonld/container.yaml"
-updated_at: "2024-03-28 02:59:03.762111"
+updated_at: "2024-03-29 02:44:37.837945"
 latest: "0.4--py27_0"
 container_url: "https://biocontainers.pro/tools/rdflib-jsonld"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "python-config"
 versions:
  - "0.4--py27_0"
+ - "0.4--py36_0"
 description: "shpc-registry automated BioContainers addition for rdflib-jsonld"
-config: {"url": "https://biocontainers.pro/tools/rdflib-jsonld", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rdflib-jsonld", "latest": {"0.4--py27_0": "sha256:58775dc33299b2304504f398e129bcb1bcc1c87eb8751169982f490c5237a2ee"}, "tags": {"0.4--py27_0": "sha256:58775dc33299b2304504f398e129bcb1bcc1c87eb8751169982f490c5237a2ee"}, "docker": "quay.io/biocontainers/rdflib-jsonld", "aliases": {"csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config"}}
+config: {"url": "https://biocontainers.pro/tools/rdflib-jsonld", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rdflib-jsonld", "latest": {"0.4--py27_0": "sha256:58775dc33299b2304504f398e129bcb1bcc1c87eb8751169982f490c5237a2ee"}, "tags": {"0.4--py27_0": "sha256:58775dc33299b2304504f398e129bcb1bcc1c87eb8751169982f490c5237a2ee", "0.4--py36_0": "sha256:a3cf0dbc8b26adf79f511337f8fcaaf5f30fff436a9023a94cedea454f994822"}, "docker": "quay.io/biocontainers/rdflib-jsonld", "aliases": {"csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rdflib-jsonld.

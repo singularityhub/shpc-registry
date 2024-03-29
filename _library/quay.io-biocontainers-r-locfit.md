@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-locfit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-locfit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-locfit/container.yaml"
-updated_at: "2024-03-28 03:17:31.435648"
+updated_at: "2024-03-29 03:03:16.305748"
 latest: "1.5_9.1--r3.3.1_2"
 container_url: "https://biocontainers.pro/tools/r-locfit"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.5_9.1--r3.3.1_2"
+ - "1.5_9.1--r3.3.2_2"
 description: "shpc-registry automated BioContainers addition for r-locfit"
-config: {"url": "https://biocontainers.pro/tools/r-locfit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-locfit", "latest": {"1.5_9.1--r3.3.1_2": "sha256:1d8682d3b2a7e10feb7405f67f231c276f35eb4372e9f9bc32e5e0d74d96c21d"}, "tags": {"1.5_9.1--r3.3.1_2": "sha256:1d8682d3b2a7e10feb7405f67f231c276f35eb4372e9f9bc32e5e0d74d96c21d"}, "docker": "quay.io/biocontainers/r-locfit", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-locfit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-locfit", "latest": {"1.5_9.1--r3.3.1_2": "sha256:1d8682d3b2a7e10feb7405f67f231c276f35eb4372e9f9bc32e5e0d74d96c21d"}, "tags": {"1.5_9.1--r3.3.1_2": "sha256:1d8682d3b2a7e10feb7405f67f231c276f35eb4372e9f9bc32e5e0d74d96c21d", "1.5_9.1--r3.3.2_2": "sha256:7addd4e9df7a106c3fee41ba306f001dfa04b21acf3fd74f1ab537b67d00a781"}, "docker": "quay.io/biocontainers/r-locfit", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-locfit.

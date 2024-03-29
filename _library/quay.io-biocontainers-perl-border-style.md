@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-border-style"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-border-style/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-border-style/container.yaml"
-updated_at: "2024-03-28 03:12:25.962423"
+updated_at: "2024-03-29 02:58:07.486403"
 latest: "0.01--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-border-style"
 aliases:

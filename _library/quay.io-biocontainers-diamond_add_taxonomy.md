@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/diamond_add_taxonomy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diamond_add_taxonomy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/diamond_add_taxonomy/container.yaml"
-updated_at: "2024-03-28 03:00:04.042945"
+updated_at: "2024-03-29 02:45:39.391643"
 latest: "0.1.2--py36_0"
 container_url: "https://biocontainers.pro/tools/diamond_add_taxonomy"
 

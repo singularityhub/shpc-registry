@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-discriminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-discriminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-discriminer/container.yaml"
-updated_at: "2024-03-28 02:43:11.883421"
+updated_at: "2024-03-29 02:28:37.271307"
 latest: "0.1_29--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-discriminer"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.1_29--r3.2.2_0"
+ - "0.1_29--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-discriminer"
-config: {"url": "https://biocontainers.pro/tools/r-discriminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-discriminer", "latest": {"0.1_29--r3.2.2_0": "sha256:87815ea6aadda7eeccb399f84ea79918509cfd77a381f2e4b19ba666f6334494"}, "tags": {"0.1_29--r3.2.2_0": "sha256:87815ea6aadda7eeccb399f84ea79918509cfd77a381f2e4b19ba666f6334494"}, "docker": "quay.io/biocontainers/r-discriminer", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-discriminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-discriminer", "latest": {"0.1_29--r3.2.2_0": "sha256:87815ea6aadda7eeccb399f84ea79918509cfd77a381f2e4b19ba666f6334494"}, "tags": {"0.1_29--r3.2.2_0": "sha256:87815ea6aadda7eeccb399f84ea79918509cfd77a381f2e4b19ba666f6334494", "0.1_29--r3.3.2_0": "sha256:8d874a43d33bd6989077ff4b59ebcd3b5a541bedc8d2164151643571db9de6b9"}, "docker": "quay.io/biocontainers/r-discriminer", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-discriminer.

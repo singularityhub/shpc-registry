@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-eir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eir/container.yaml"
-updated_at: "2024-03-28 02:52:58.889054"
+updated_at: "2024-03-29 02:38:25.722971"
 latest: "1.42.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-eir"
 aliases:

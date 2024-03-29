@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ncls"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncls/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncls/container.yaml"
-updated_at: "2024-03-28 03:04:07.970466"
-latest: "0.0.56--py27h3dcb392_0"
+updated_at: "2024-03-29 02:49:49.388460"
+latest: "0.0.68--py38he5da3d1_1"
 container_url: "https://biocontainers.pro/tools/ncls"
 aliases:
  - "f2py2"
@@ -19,8 +19,9 @@ aliases:
  - "smtpd.py"
 versions:
  - "0.0.56--py27h3dcb392_0"
+ - "0.0.68--py38he5da3d1_1"
 description: "shpc-registry automated BioContainers addition for ncls"
-config: {"url": "https://biocontainers.pro/tools/ncls", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncls", "latest": {"0.0.56--py27h3dcb392_0": "sha256:3494f37bdc327ccee0157fc652aebfdfd743739e89b3cc29165576554b5799a9"}, "tags": {"0.0.56--py27h3dcb392_0": "sha256:3494f37bdc327ccee0157fc652aebfdfd743739e89b3cc29165576554b5799a9"}, "docker": "quay.io/biocontainers/ncls", "aliases": {"f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/ncls", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncls", "latest": {"0.0.68--py38he5da3d1_1": "sha256:ee615c4d10f6a228902f228b0b25c535527c57016ac5eaa7c135d0765f11b5d2"}, "tags": {"0.0.56--py27h3dcb392_0": "sha256:3494f37bdc327ccee0157fc652aebfdfd743739e89b3cc29165576554b5799a9", "0.0.68--py38he5da3d1_1": "sha256:ee615c4d10f6a228902f228b0b25c535527c57016ac5eaa7c135d0765f11b5d2"}, "docker": "quay.io/biocontainers/ncls", "aliases": {"f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncls.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/ncls
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ncls:0.0.56--py27h3dcb392_0
+$ shpc install quay.io/biocontainers/ncls:0.0.68--py38he5da3d1_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ncls/0.0.56--py27h3dcb392_0
-$ module help quay.io/biocontainers/ncls/0.0.56--py27h3dcb392_0
+$ module load quay.io/biocontainers/ncls/0.0.68--py38he5da3d1_1
+$ module help quay.io/biocontainers/ncls/0.0.68--py38he5da3d1_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
