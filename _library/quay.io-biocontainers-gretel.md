@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gretel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gretel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gretel/container.yaml"
-updated_at: "2024-03-29 02:46:23.515382"
+updated_at: "2024-03-30 02:44:20.340158"
 latest: "0.0.94--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/gretel"
 aliases:

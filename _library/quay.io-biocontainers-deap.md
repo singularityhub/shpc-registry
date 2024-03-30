@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deap/container.yaml"
-updated_at: "2024-03-29 02:51:07.787739"
+updated_at: "2024-03-30 02:49:01.964315"
 latest: "1.0.2--pyh864c0ab_2"
 container_url: "https://biocontainers.pro/tools/deap"
 aliases:

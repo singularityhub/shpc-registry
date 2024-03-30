@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-citruscdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-citruscdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-citruscdf/container.yaml"
-updated_at: "2024-03-29 03:02:51.001008"
+updated_at: "2024-03-30 03:00:48.315298"
 latest: "2.18.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-citruscdf"
 

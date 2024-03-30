@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epidish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epidish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epidish/container.yaml"
-updated_at: "2024-03-29 02:56:16.658071"
+updated_at: "2024-03-30 02:54:13.631344"
 latest: "2.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epidish"
 aliases:

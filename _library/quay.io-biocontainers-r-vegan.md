@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-vegan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-vegan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-vegan/container.yaml"
-updated_at: "2024-03-29 02:48:22.584526"
+updated_at: "2024-03-30 02:46:16.502167"
 latest: "2.4-3"
 container_url: "https://biocontainers.pro/tools/r-vegan"
 aliases:
