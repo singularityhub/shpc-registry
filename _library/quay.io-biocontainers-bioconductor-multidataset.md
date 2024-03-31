@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-multidataset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multidataset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multidataset/container.yaml"
-updated_at: "2024-03-30 02:30:34.817206"
+updated_at: "2024-03-31 02:37:17.919676"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-multidataset"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biophi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biophi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biophi/container.yaml"
-updated_at: "2024-03-30 02:57:40.903760"
+updated_at: "2024-03-31 03:04:47.172446"
 latest: "1.0.9--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/biophi"
 aliases:

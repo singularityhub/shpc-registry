@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-conclus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-conclus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-conclus/container.yaml"
-updated_at: "2024-03-30 02:36:46.182389"
+updated_at: "2024-03-31 02:43:30.784822"
 latest: "1.5.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-conclus"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scmeth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scmeth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scmeth/container.yaml"
-updated_at: "2024-03-30 02:59:18.195744"
+updated_at: "2024-03-31 03:06:29.262560"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scmeth"
 aliases:
