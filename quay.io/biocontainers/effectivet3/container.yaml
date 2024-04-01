@@ -5,6 +5,7 @@ latest:
   1.0.1--py35_0: sha256:b516f07ffee3469afa4e67f0f7576e31ed3bff326ca7758f9d94e6e152aeb2db
 tags:
   1.0.1--py35_0: sha256:b516f07ffee3469afa4e67f0f7576e31ed3bff326ca7758f9d94e6e152aeb2db
+  1.0.1--py36_0: sha256:79ab366ea919e8626afaa88253c883dbda4cd1b4661a877f2c6cd52f8d8a7cad
 docker: quay.io/biocontainers/effectivet3
 aliases:
   effectivet3: /usr/local/bin/effectivet3

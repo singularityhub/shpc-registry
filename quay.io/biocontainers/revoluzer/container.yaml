@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/revoluzer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for revoluzer
 latest:
-  0.1.2--h6f67891_0: sha256:3803eeb5132059e0ecdb25c7953631cdef96f7cb1f6e02e240576e5c551719c9
+  0.1.6--h6f67891_0: sha256:23f44d62c734888346ae17e156f8ce398683b6718023e076c664e53d82f895da
 tags:
   0.1.2--h6f67891_0: sha256:3803eeb5132059e0ecdb25c7953631cdef96f7cb1f6e02e240576e5c551719c9
+  0.1.6--h6f67891_0: sha256:23f44d62c734888346ae17e156f8ce398683b6718023e076c664e53d82f895da
 docker: quay.io/biocontainers/revoluzer
 aliases:
   amgr: /usr/local/bin/amgr

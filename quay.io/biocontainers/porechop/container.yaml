@@ -6,6 +6,7 @@ latest:
 tags:
   0.2.4--py36h2ad2d48_3: sha256:35800da592ada9572f5a5afaa11f4f0c6256f60380d861bc87ed18150efe429b
   0.2.4--py310h0dbaff4_6: sha256:bdebfe1504004cd4aba2426ce9e80fe508827880eef2c3cd544886a54791d1a0
+  0.2.4--py39h1f90b4d_6: sha256:b992e750069fadd3bcd1cd130a9471f6fb3c86e8d4607c39dbbb3f96890a341b
 docker: quay.io/biocontainers/porechop
 aliases:
   porechop: /usr/local/bin/porechop

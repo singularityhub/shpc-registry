@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/bactopia-variants
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bactopia-variants
 latest:
-  1.0.1--hdfd78af_0: sha256:8ede899763f9285cbb84c0449ccc7407d55fcace9e8e071126e1653639ebc04b
+  1.0.2--hdfd78af_0: sha256:c72db3c5e3ef901399b3bdbdd2d823c75c8361291305e33fdbe53511a21f3e74
 tags:
   1.0.0--hdfd78af_0: sha256:8d3abb93dd5a3dc0e7cd0aaa3eb76a5572aa366c7f93d0ac916e5bf4e9b19fcd
   1.0.1--hdfd78af_0: sha256:8ede899763f9285cbb84c0449ccc7407d55fcace9e8e071126e1653639ebc04b
+  1.0.2--hdfd78af_0: sha256:c72db3c5e3ef901399b3bdbdd2d823c75c8361291305e33fdbe53511a21f3e74
 docker: quay.io/biocontainers/bactopia-variants
 aliases:
   RNAmultifold: /usr/local/bin/RNAmultifold

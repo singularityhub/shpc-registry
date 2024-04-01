@@ -5,6 +5,7 @@ latest:
   0.14.1--py36_1: sha256:bd2e3666a023025fd759f9e3dc9361e303e58cbde1ac580b4dad056647c4ddb0
 tags:
   0.14.1--py36_1: sha256:bd2e3666a023025fd759f9e3dc9361e303e58cbde1ac580b4dad056647c4ddb0
+  0.14.1--py37_1: sha256:9d13aaadb612c1516ca2c4941d89e2f49fb94cbce71533b27b4c032c5376c2f7
 docker: quay.io/biocontainers/pyx
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/chewbbaca
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for chewbbaca
 latest:
-  3.3.3--pyhdfd78af_0: sha256:8f555edfc02c2bc471447abcf704c31f26c6fbc706543d15d6d95de4f56ce4b0
+  3.3.4--pyhdfd78af_0: sha256:b7528c759e4daf7093f2ef9023689c662c5ee51dfd332138f357ea8519e8d972
 tags:
   2.8.5--pyhdfd78af_0: sha256:3c32318871e17ad1e6b4b0d38085fb6ca25e250ced5721798705944d8fc3c9a0
   3.0.0--pyhdfd78af_0: sha256:293aba861b02baa4bfef96577bc3e10a71381acdefc4117d3f6682ef71304aab
@@ -14,6 +14,7 @@ tags:
   3.3.1--pyhdfd78af_0: sha256:c54559bc7056078883338a1b49bb75922e6d4dd15566c4566aa8f929d0e683bd
   3.3.2--pyhdfd78af_0: sha256:56f1c2fdc0b5704601ccf5a98178b76efe5746c2de2a8dd769744f0799c5029b
   3.3.3--pyhdfd78af_0: sha256:8f555edfc02c2bc471447abcf704c31f26c6fbc706543d15d6d95de4f56ce4b0
+  3.3.4--pyhdfd78af_0: sha256:b7528c759e4daf7093f2ef9023689c662c5ee51dfd332138f357ea8519e8d972
 docker: quay.io/biocontainers/chewbbaca
 aliases:
   chewBBACA.py: /usr/local/bin/chewBBACA.py

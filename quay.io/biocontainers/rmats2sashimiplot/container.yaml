@@ -6,6 +6,8 @@ latest:
 tags:
   2.0.4--py27h21c881e_2: sha256:f9847503f54c249ec84ff20cd23184f93da09be654c6745d951860b3485b31c5
   3.0.0--py38ha5a061d_0: sha256:116f7f4a3b581505b634b3057c12617df506121be418f921e1623a4cc01e13d4
+  3.0.0--py310h079770c_0: sha256:7a59f1747e90d3ea4eff214443b02e7fe05b3a77ba893d8ccfa8f3251d0450cc
+  2.0.4--py310h079770c_2: sha256:554802bf1fd63d51fd3b285ca5c8ae1c7cd090f7969203bc75d4a9cd9db53af3
 docker: quay.io/biocontainers/rmats2sashimiplot
 aliases:
   index_gff: /usr/local/bin/index_gff

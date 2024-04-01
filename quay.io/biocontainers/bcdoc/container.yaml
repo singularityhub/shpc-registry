@@ -5,6 +5,7 @@ latest:
   0.16.0--py35_0: sha256:84b262c5b3e79b98d26086fa721be9d54f8403f7c676107bc745643549ccabdf
 tags:
   0.16.0--py35_0: sha256:84b262c5b3e79b98d26086fa721be9d54f8403f7c676107bc745643549ccabdf
+  0.16.0--py36_0: sha256:0bf5a891b96803dc40a22e1a386c6994586059c0a2ca166e2f3dfbe91c66fea3
 docker: quay.io/biocontainers/bcdoc
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

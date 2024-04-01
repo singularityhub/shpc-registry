@@ -5,6 +5,7 @@ latest:
   1.2.8--py27_1: sha256:e1595412a216f360608b39abfd84521b3475bf7f61a17bf7f4845a1642a9f40e
 tags:
   1.2.8--py27_1: sha256:e1595412a216f360608b39abfd84521b3475bf7f61a17bf7f4845a1642a9f40e
+  1.2.8--py35_1: sha256:f34c235c396b9bfce798f5d5d75976f4941743ea4477188f28a09cc445c4035f
 docker: quay.io/biocontainers/minimock
 aliases:
   python2-config: /usr/local/bin/python2-config

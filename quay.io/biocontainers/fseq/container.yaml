@@ -5,6 +5,7 @@ latest:
   1.84--py36pl5.22.0_0: sha256:521bc849fbef9eec4a457087f1f6a7c33ae1cc8a8293a1d63231b573544b3231
 tags:
   1.84--py36pl5.22.0_0: sha256:521bc849fbef9eec4a457087f1f6a7c33ae1cc8a8293a1d63231b573544b3231
+  1.84--py35pl5.22.0_0: sha256:cca936ca640136d7aaf60a2249a7248e76c8261e87abed43d432f815f71f4c48
 docker: quay.io/biocontainers/fseq
 aliases:
   fseq: /usr/local/bin/fseq

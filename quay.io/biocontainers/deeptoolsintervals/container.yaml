@@ -8,6 +8,7 @@ tags:
   0.1.9--py39h87d955d_5: sha256:0545250d5a69f037a832a3b187470aa59df2681a6b7c239aec8ad411106d41f3
   0.1.9--py310h8472f5a_6: sha256:97262820c3446fe70596e4ad1f916bd73e31ef9a7b09d739d9d989e6e60e2bb5
   0.1.9--py310h8472f5a_7: sha256:f80da71c8c20df74fa3f33c11a0803c94662d7d0d2c9e37ce41d51bd866e4d74
+  0.1.9--py39h87d955d_7: sha256:24ef8a946d45e3a5c2ac163f7a5f44cd2038c7941fc18b8e05e924bcd722a79a
 docker: quay.io/biocontainers/deeptoolsintervals
 aliases:
   python2-config: /usr/local/bin/python2-config

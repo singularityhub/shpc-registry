@@ -5,6 +5,7 @@ latest:
   1.0.4--0: sha256:fc0be88149bae0796eea4c3342c16803190e366c088a92c2443c339a9b4abf0e
 tags:
   1.0.4--0: sha256:fc0be88149bae0796eea4c3342c16803190e366c088a92c2443c339a9b4abf0e
+  1.0.4--r3.4.1_0: sha256:df9163f898a92a055d2fb7d432a1936fc0aa669cfdb1b2a5615db2b831e5cab0
 docker: quay.io/biocontainers/r-xnomial
 aliases:
   pngcp: /usr/local/bin/pngcp
