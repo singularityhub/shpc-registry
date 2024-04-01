@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/gb-io
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gb-io
+latest:
+  0.3.1--py310he6195e5_0: sha256:47d2b4deb9ad28070dc2446978e35549259300028e01368937d1695cf9866103
+tags:
+  0.3.1--py310he6195e5_0: sha256:47d2b4deb9ad28070dc2446978e35549259300028e01368937d1695cf9866103
+docker: quay.io/biocontainers/gb-io
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

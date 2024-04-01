@@ -1,0 +1,58 @@
+url: https://biocontainers.pro/tools/ntroot
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ntroot
+latest:
+  1.0.0--py39h68928f9_0: sha256:6a250462b90aeeb2b93986f1cc88806e4916bd4ec0c22d6cb14657d1df82416f
+tags:
+  1.0.0--py39h68928f9_0: sha256:6a250462b90aeeb2b93986f1cc88806e4916bd4ec0c22d6cb14657d1df82416f
+docker: quay.io/biocontainers/ntroot
+aliases:
+  eido: /usr/local/bin/eido
+  indexlr: /usr/local/bin/indexlr
+  lrunzip: /usr/local/bin/lrunzip
+  lrzcat: /usr/local/bin/lrzcat
+  lrzip: /usr/local/bin/lrzip
+  lrztar: /usr/local/bin/lrztar
+  lrzuntar: /usr/local/bin/lrzuntar
+  make_genome_bf: /usr/local/bin/make_genome_bf
+  mi_bf_generate: /usr/local/bin/mi_bf_generate
+  ntRootAncestryPredictor.pl: /usr/local/bin/ntRootAncestryPredictor.pl
+  ntcard: /usr/local/bin/ntcard
+  ntedit: /usr/local/bin/ntedit
+  ntedit_run_pipeline.smk: /usr/local/bin/ntedit_run_pipeline.smk
+  nthits: /usr/local/bin/nthits
+  nthits-bfq: /usr/local/bin/nthits-bfq
+  nthll: /usr/local/bin/nthll
+  ntroot: /usr/local/bin/ntroot
+  ntroot_run_pipeline.smk: /usr/local/bin/ntroot_run_pipeline.smk
+  protoc-25.3.0: /usr/local/bin/protoc-25.3.0
+  randseq: /usr/local/bin/randseq
+  run-ntedit: /usr/local/bin/run-ntedit
+  zipcloak: /usr/local/bin/zipcloak
+  zipnote: /usr/local/bin/zipnote
+  zipsplit: /usr/local/bin/zipsplit
+  annot-tsv: /usr/local/bin/annot-tsv
+  zip: /usr/local/bin/zip
+  gunzip: /usr/local/bin/gunzip
+  gzexe: /usr/local/bin/gzexe
+  gzip: /usr/local/bin/gzip
+  uncompress: /usr/local/bin/uncompress
+  zcat: /usr/local/bin/zcat
+  zcmp: /usr/local/bin/zcmp
+  zdiff: /usr/local/bin/zdiff
+  zegrep: /usr/local/bin/zegrep
+  zfgrep: /usr/local/bin/zfgrep
+  zforce: /usr/local/bin/zforce
+  zgrep: /usr/local/bin/zgrep
+  zmore: /usr/local/bin/zmore
+  znew: /usr/local/bin/znew
+  markdown-it: /usr/local/bin/markdown-it
+  stone: /usr/local/bin/stone
+  tar: /usr/local/bin/tar
+  yte: /usr/local/bin/yte
+  plac_runner.py: /usr/local/bin/plac_runner.py
+  docutils: /usr/local/bin/docutils
+  pulptest: /usr/local/bin/pulptest
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp
+  humanfriendly: /usr/local/bin/humanfriendly
