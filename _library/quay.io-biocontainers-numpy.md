@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/numpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/numpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/numpy/container.yaml"
-updated_at: "2024-04-01 02:30:47.961841"
+updated_at: "2024-04-01 03:43:43.226269"
 latest: "1.15.4"
 container_url: "https://biocontainers.pro/tools/numpy"
 aliases:

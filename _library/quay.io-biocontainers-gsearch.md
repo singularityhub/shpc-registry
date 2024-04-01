@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gsearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gsearch/container.yaml"
-updated_at: "2024-04-01 02:51:29.911440"
+updated_at: "2024-04-01 04:03:42.137852"
 latest: "0.1.9--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/gsearch"
 aliases:

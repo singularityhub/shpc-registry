@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-ipc-sharelite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-ipc-sharelite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-ipc-sharelite/container.yaml"
-updated_at: "2024-04-01 02:57:07.285469"
+updated_at: "2024-04-01 04:09:10.041131"
 latest: "0.17--pl5321h4ac6f70_5"
 container_url: "https://biocontainers.pro/tools/perl-ipc-sharelite"
 aliases:

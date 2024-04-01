@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xyalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xyalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xyalign/container.yaml"
-updated_at: "2024-04-01 03:04:08.614321"
+updated_at: "2024-04-01 04:15:56.757306"
 latest: "1.1.5--py_1"
 container_url: "https://biocontainers.pro/tools/xyalign"
 aliases:

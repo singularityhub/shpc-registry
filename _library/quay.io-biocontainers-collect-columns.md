@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/collect-columns"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/collect-columns/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/collect-columns/container.yaml"
-updated_at: "2024-04-01 03:15:01.561173"
+updated_at: "2024-04-01 04:26:31.194703"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/collect-columns"
 aliases:

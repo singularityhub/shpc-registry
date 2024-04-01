@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/etoki"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/etoki/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/etoki/container.yaml"
-updated_at: "2024-04-01 02:34:29.873364"
+updated_at: "2024-04-01 03:47:17.418283"
 latest: "1.2.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/etoki"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/opsin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/opsin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/opsin/container.yaml"
-updated_at: "2024-04-01 03:11:04.137662"
+updated_at: "2024-04-01 04:22:41.077788"
 latest: "2.4.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/opsin"
 aliases:

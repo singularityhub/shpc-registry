@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-daglogo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-daglogo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-daglogo/container.yaml"
-updated_at: "2024-04-01 02:54:03.339179"
+updated_at: "2024-04-01 04:06:11.214526"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-daglogo"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dta/container.yaml"
-updated_at: "2024-04-01 03:12:24.113148"
+updated_at: "2024-04-01 04:23:58.294957"
 latest: "2.48.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-dta"
 

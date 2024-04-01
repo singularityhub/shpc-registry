@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gawk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gawk/container.yaml"
-updated_at: "2024-04-01 03:06:53.964786"
+updated_at: "2024-04-01 04:18:37.867170"
 latest: "5.3.0"
 container_url: "https://biocontainers.pro/tools/gawk"
 aliases:
