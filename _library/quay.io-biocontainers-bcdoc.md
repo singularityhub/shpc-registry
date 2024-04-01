@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcdoc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcdoc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcdoc/container.yaml"
-updated_at: "2024-03-31 02:30:35.661633"
+updated_at: "2024-04-01 02:35:04.827958"
 latest: "0.16.0--py35_0"
 container_url: "https://biocontainers.pro/tools/bcdoc"
 aliases:

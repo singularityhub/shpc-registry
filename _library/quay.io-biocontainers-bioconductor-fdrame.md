@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fdrame"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fdrame/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fdrame/container.yaml"
-updated_at: "2024-03-31 03:00:19.236125"
+updated_at: "2024-04-01 03:04:41.710258"
 latest: "1.74.0--r43ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-fdrame"
 

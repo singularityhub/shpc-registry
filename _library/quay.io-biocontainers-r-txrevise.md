@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-txrevise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-txrevise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-txrevise/container.yaml"
-updated_at: "2024-03-31 03:06:41.718095"
+updated_at: "2024-04-01 03:11:01.665170"
 latest: "2.0--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-txrevise"
 

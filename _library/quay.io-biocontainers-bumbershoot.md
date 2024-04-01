@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bumbershoot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bumbershoot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bumbershoot/container.yaml"
-updated_at: "2024-03-31 03:07:57.729936"
+updated_at: "2024-04-01 03:12:16.163829"
 latest: "3_0_21142_0e4f4a4--h7d875b9_0"
 container_url: "https://biocontainers.pro/tools/bumbershoot"
 aliases:

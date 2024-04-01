@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mantis_pfa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mantis_pfa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mantis_pfa/container.yaml"
-updated_at: "2024-03-31 03:08:08.944800"
+updated_at: "2024-04-01 03:12:26.839455"
 latest: "1.5.5--py38he5da3d1_2"
 container_url: "https://biocontainers.pro/tools/mantis_pfa"
 aliases:
