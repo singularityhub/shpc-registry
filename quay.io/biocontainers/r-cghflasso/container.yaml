@@ -5,6 +5,7 @@ latest:
   0.2_1--r3.2.2_0: sha256:6da422afdcdb5c9e16d6c97b1a0b70d263bf0e9c7513a3e40681935c8e4a2b41
 tags:
   0.2_1--r3.2.2_0: sha256:6da422afdcdb5c9e16d6c97b1a0b70d263bf0e9c7513a3e40681935c8e4a2b41
+  0.2_1--r3.3.2_0: sha256:1bd80942d4ffb7d1ddb57e416631e93b06293bd01446c9a920bf3f8af036d6d2
 docker: quay.io/biocontainers/r-cghflasso
 aliases:
   pngcp: /usr/local/bin/pngcp

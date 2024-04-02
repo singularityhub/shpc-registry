@@ -5,6 +5,7 @@ latest:
   0.9_0--r3.3.1_0: sha256:586da88efd97823d9543452fd2b4e5057bd4344543d592e2f71bdc9ca2cebba1
 tags:
   0.9_0--r3.3.1_0: sha256:586da88efd97823d9543452fd2b4e5057bd4344543d592e2f71bdc9ca2cebba1
+  0.9_0--r3.4.1_0: sha256:9a068b593acb07f2f59d5ed7eb9f29df807210e991f34a4b3443fe7e927f8beb
 docker: quay.io/biocontainers/r-grimport
 aliases:
   uconv: /usr/local/bin/uconv

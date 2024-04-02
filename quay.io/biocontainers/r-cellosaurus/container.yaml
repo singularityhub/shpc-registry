@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-cellosaurus
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-cellosaurus
 latest:
-  0.8.1--r43hdfd78af_0: sha256:fa5b06b9658212297e05c9f840e39f2b10ec83d960c3e2bfe24308dcf06c9887
+  0.8.2--r43hdfd78af_0: sha256:cc6de33d83fc7d40d5362151107d1820cf26d4919f72d19566108dff0079e54a
 tags:
   0.5.2--r42hdfd78af_0: sha256:21e7528a3078b17aae69fdfbf9a5da011b057e13f70c22b3c5ece8fec09c2241
   0.5.3--r42hdfd78af_0: sha256:182560b693e8592a79ab38020df75361617be98cac827885af09921619ecc361
@@ -10,6 +10,7 @@ tags:
   0.6.0--r43hdfd78af_0: sha256:54320d2136758e820259b6934c89aca1aad1a39ce7771ca407a4a35ae685510e
   0.7.2--r43hdfd78af_0: sha256:e0067d4222bf840681bc7924cf890bcac9f7628f43c1f7cc3ff7d6bebf9f775c
   0.8.1--r43hdfd78af_0: sha256:fa5b06b9658212297e05c9f840e39f2b10ec83d960c3e2bfe24308dcf06c9887
+  0.8.2--r43hdfd78af_0: sha256:cc6de33d83fc7d40d5362151107d1820cf26d4919f72d19566108dff0079e54a
 docker: quay.io/biocontainers/r-cellosaurus
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11

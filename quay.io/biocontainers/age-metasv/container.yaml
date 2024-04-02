@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/age-metasv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for age-metasv
 latest:
-  2015.01.29.3--h4ac6f70_7: sha256:9122481bf9690bbdc79ec4291c3d29156cb7c9d613a2faa34c644b6c4afe0afc
+  2015.01.29.3--h4ac6f70_8: sha256:345536fb397b8acd49a3462b956c5a1c481763055a89efb8013874506488e91e
 tags:
   2015.01.29.3--h9f5acd7_5: sha256:88660caa860131060d21c2b64529ab709881c8ff1772913eed0323786b6fe774
   2015.01.29.3--h4ac6f70_7: sha256:9122481bf9690bbdc79ec4291c3d29156cb7c9d613a2faa34c644b6c4afe0afc
+  2015.01.29.3--h4ac6f70_8: sha256:345536fb397b8acd49a3462b956c5a1c481763055a89efb8013874506488e91e
 docker: quay.io/biocontainers/age-metasv
 aliases:
   age_align: /usr/local/bin/age_align

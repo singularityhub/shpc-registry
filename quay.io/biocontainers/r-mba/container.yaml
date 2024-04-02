@@ -5,6 +5,7 @@ latest:
   0.0_8--r3.2.2_0: sha256:313827eb44cf5f07edf82549cac24ce010c96bc102c74c2651a201b4e201b396
 tags:
   0.0_8--r3.2.2_0: sha256:313827eb44cf5f07edf82549cac24ce010c96bc102c74c2651a201b4e201b396
+  0.0_8--r3.3.2_0: sha256:af6623c2a5fd28cb3ac45154860215d3f69187b262308d1e5139c401df5c81df
 docker: quay.io/biocontainers/r-mba
 aliases:
   pngcp: /usr/local/bin/pngcp

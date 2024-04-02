@@ -5,6 +5,7 @@ latest:
   0.7.1--py36h09cc20e_1: sha256:175576fc849b8df48d555f5017f4a567b0dd2be824f493d167437f044f676c9e
 tags:
   0.7.1--py36h09cc20e_1: sha256:175576fc849b8df48d555f5017f4a567b0dd2be824f493d167437f044f676c9e
+  0.7.1--py37he4bd417_1: sha256:8530039756f9945f24dcaba269e25bbe535b27c9ebac9d3396eb2993684bc1bd
 docker: quay.io/biocontainers/lexmapr
 aliases:
   lexmapr: /usr/local/bin/lexmapr

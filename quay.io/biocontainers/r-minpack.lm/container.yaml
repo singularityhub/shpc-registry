@@ -5,6 +5,7 @@ latest:
   1.2_1--r3.3.1_0: sha256:738373d9ffd4a14fa33301dc22af082f1bd1cfc155d37092a48dfb711b50e7c9
 tags:
   1.2_1--r3.3.1_0: sha256:738373d9ffd4a14fa33301dc22af082f1bd1cfc155d37092a48dfb711b50e7c9
+  1.2_1--r3.3.2_0: sha256:6e9f685182c07719d27cb3199865da46188560957f30910eb85f5b87460f8297
 docker: quay.io/biocontainers/r-minpack.lm
 aliases:
   uconv: /usr/local/bin/uconv

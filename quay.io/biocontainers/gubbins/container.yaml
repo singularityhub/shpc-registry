@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/gubbins
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gubbins
 latest:
-  3.2.1--py39pl5321h87d955d_0: sha256:18221405d72b5ba7ca93aa9098cb99b73cc290ef0c1f60104ac29a40dc9d1cff
+  3.3.4--py39pl5321he4a0461_1: sha256:f6b07ef2ebb5336f632256f1468b5be1270bd1666565e673d1eee294056789a7
 tags:
   3.2.1--py39pl5321h87d955d_0: sha256:18221405d72b5ba7ca93aa9098cb99b73cc290ef0c1f60104ac29a40dc9d1cff
+  3.3.4--py39pl5321he4a0461_1: sha256:f6b07ef2ebb5336f632256f1468b5be1270bd1666565e673d1eee294056789a7
+  3.2.1--py310pl5321h8472f5a_1: sha256:b4899c5084715d141b9978a43a3e04c76c18fc40cb82903b997b1e5c4ada0c04
 docker: quay.io/biocontainers/gubbins
 aliases:
   extract_gubbins_clade.py: /usr/local/bin/extract_gubbins_clade.py

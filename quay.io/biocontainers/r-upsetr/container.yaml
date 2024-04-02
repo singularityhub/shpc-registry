@@ -5,6 +5,7 @@ latest:
   1.0.3--r3.3.1_1: sha256:b6706f866bf0c3331e802afb73617f11197a821b1c9d2d60035062563c630531
 tags:
   1.0.3--r3.3.1_1: sha256:b6706f866bf0c3331e802afb73617f11197a821b1c9d2d60035062563c630531
+  1.0.3--r3.3.2_1: sha256:1f62e41d1d6802fef74b1a69fda4e2cd770f2378ccf3dad09923864da6dfee65
 docker: quay.io/biocontainers/r-upsetr
 aliases:
   pango-querymodules: /usr/local/bin/pango-querymodules
