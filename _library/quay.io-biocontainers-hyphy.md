@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/hyphy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hyphy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hyphy/container.yaml"
-updated_at: "2024-04-01 03:56:16.688395"
-latest: "2.5.38--h91ae1e9_0"
+updated_at: "2024-04-02 02:39:16.276883"
+latest: "2.5.60--h0705fce_0"
 container_url: "https://biocontainers.pro/tools/hyphy"
 
 versions:
  - "2.5.9--ha076c6e_0"
  - "2.5.38--h91ae1e9_0"
+ - "2.5.60--h0705fce_0"
 description: "shpc-registry automated BioContainers addition for hyphy"
-config: {"url": "https://biocontainers.pro/tools/hyphy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hyphy", "latest": {"2.5.38--h91ae1e9_0": "sha256:9f943f4c5c10e4017da77ede652df4b920858fcdc9926a077b426b4fbad18d2a"}, "tags": {"2.5.9--ha076c6e_0": "sha256:a84936a03479d9782d991344e44db9539804065e04d9c6850ae911c068b723d3", "2.5.38--h91ae1e9_0": "sha256:9f943f4c5c10e4017da77ede652df4b920858fcdc9926a077b426b4fbad18d2a"}, "docker": "quay.io/biocontainers/hyphy"}
+config: {"url": "https://biocontainers.pro/tools/hyphy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hyphy", "latest": {"2.5.60--h0705fce_0": "sha256:b670b6db8c9eca3d1ff98cfe570b2be953c7bfa2de0abbfb10638d6a16ff9dc3"}, "tags": {"2.5.9--ha076c6e_0": "sha256:a84936a03479d9782d991344e44db9539804065e04d9c6850ae911c068b723d3", "2.5.38--h91ae1e9_0": "sha256:9f943f4c5c10e4017da77ede652df4b920858fcdc9926a077b426b4fbad18d2a", "2.5.60--h0705fce_0": "sha256:b670b6db8c9eca3d1ff98cfe570b2be953c7bfa2de0abbfb10638d6a16ff9dc3"}, "docker": "quay.io/biocontainers/hyphy"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hyphy.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/hyphy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hyphy:2.5.38--h91ae1e9_0
+$ shpc install quay.io/biocontainers/hyphy:2.5.60--h0705fce_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hyphy/2.5.38--h91ae1e9_0
-$ module help quay.io/biocontainers/hyphy/2.5.38--h91ae1e9_0
+$ module load quay.io/biocontainers/hyphy/2.5.60--h0705fce_0
+$ module help quay.io/biocontainers/hyphy/2.5.60--h0705fce_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/hifiasm_meta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hifiasm_meta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hifiasm_meta/container.yaml"
-updated_at: "2024-04-01 03:59:03.654218"
+updated_at: "2024-04-02 02:42:08.588795"
 latest: "hamtv0.3--h5b5514e_1"
 container_url: "https://biocontainers.pro/tools/hifiasm_meta"
 aliases:
  - "hifiasm_meta"
 versions:
  - "hamtv0.3--h5b5514e_1"
+ - "hamtv0.3.1--h43eeafb_2"
 description: "shpc-registry automated BioContainers addition for hifiasm_meta"
-config: {"url": "https://biocontainers.pro/tools/hifiasm_meta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hifiasm_meta", "latest": {"hamtv0.3--h5b5514e_1": "sha256:776514c78ca278f86cadebc71a9a0fb43d31959b55d795c5888e5784b9a1e0f9"}, "tags": {"hamtv0.3--h5b5514e_1": "sha256:776514c78ca278f86cadebc71a9a0fb43d31959b55d795c5888e5784b9a1e0f9"}, "docker": "quay.io/biocontainers/hifiasm_meta", "aliases": {"hifiasm_meta": "/usr/local/bin/hifiasm_meta"}}
+config: {"url": "https://biocontainers.pro/tools/hifiasm_meta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hifiasm_meta", "latest": {"hamtv0.3--h5b5514e_1": "sha256:776514c78ca278f86cadebc71a9a0fb43d31959b55d795c5888e5784b9a1e0f9"}, "tags": {"hamtv0.3--h5b5514e_1": "sha256:776514c78ca278f86cadebc71a9a0fb43d31959b55d795c5888e5784b9a1e0f9", "hamtv0.3.1--h43eeafb_2": "sha256:b75f269f9e8304a70b3c0f9eef4ae5570fecde7f9c880f9e5a30ecbd7c03c014"}, "docker": "quay.io/biocontainers/hifiasm_meta", "aliases": {"hifiasm_meta": "/usr/local/bin/hifiasm_meta"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hifiasm_meta.

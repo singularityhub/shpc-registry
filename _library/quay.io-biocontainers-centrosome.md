@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/centrosome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/centrosome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/centrosome/container.yaml"
-updated_at: "2024-04-01 04:17:28.987371"
+updated_at: "2024-04-02 03:01:06.721441"
 latest: "1.2.2--py39hd5189a5_0"
 container_url: "https://biocontainers.pro/tools/centrosome"
 aliases:
@@ -27,8 +27,9 @@ versions:
  - "1.2.1--py39h919a90d_0"
  - "1.2.1--py310h5aa3a86_2"
  - "1.2.2--py39hd5189a5_0"
+ - "1.2.2--py310h5aa3a86_0"
 description: "shpc-registry automated BioContainers addition for centrosome"
-config: {"url": "https://biocontainers.pro/tools/centrosome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for centrosome", "latest": {"1.2.2--py39hd5189a5_0": "sha256:b7b071eea0cff775c86f85e7a61ca745387cafe83ca2cc821fde9bc38f9847f5"}, "tags": {"1.2.1--py39h919a90d_0": "sha256:c69100fcbd1f8a78542dccfee785dc7109eb0f80ba82c17e4b5ee7d717bff89d", "1.2.1--py310h5aa3a86_2": "sha256:35890ff19fa1d7cb12defec85878101fc9d4afec0777cfe68f6ac0f39c1a2aba", "1.2.2--py39hd5189a5_0": "sha256:b7b071eea0cff775c86f85e7a61ca745387cafe83ca2cc821fde9bc38f9847f5"}, "docker": "quay.io/biocontainers/centrosome", "aliases": {"aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng"}}
+config: {"url": "https://biocontainers.pro/tools/centrosome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for centrosome", "latest": {"1.2.2--py39hd5189a5_0": "sha256:b7b071eea0cff775c86f85e7a61ca745387cafe83ca2cc821fde9bc38f9847f5"}, "tags": {"1.2.1--py39h919a90d_0": "sha256:c69100fcbd1f8a78542dccfee785dc7109eb0f80ba82c17e4b5ee7d717bff89d", "1.2.1--py310h5aa3a86_2": "sha256:35890ff19fa1d7cb12defec85878101fc9d4afec0777cfe68f6ac0f39c1a2aba", "1.2.2--py39hd5189a5_0": "sha256:b7b071eea0cff775c86f85e7a61ca745387cafe83ca2cc821fde9bc38f9847f5", "1.2.2--py310h5aa3a86_0": "sha256:feec3f091816e15cfdee3e3304b1ef56e113e76ba218790ae699672d194bbba9"}, "docker": "quay.io/biocontainers/centrosome", "aliases": {"aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/centrosome.

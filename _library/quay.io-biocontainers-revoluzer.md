@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/revoluzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/revoluzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/revoluzer/container.yaml"
-updated_at: "2024-04-01 04:26:40.470052"
-latest: "0.1.2--h6f67891_0"
+updated_at: "2024-04-02 03:10:37.519335"
+latest: "0.1.6--h6f67891_0"
 container_url: "https://biocontainers.pro/tools/revoluzer"
 aliases:
  - "amgr"
@@ -49,8 +49,9 @@ aliases:
  - "glpsol"
 versions:
  - "0.1.2--h6f67891_0"
+ - "0.1.6--h6f67891_0"
 description: "singularity registry hpc automated addition for revoluzer"
-config: {"url": "https://biocontainers.pro/tools/revoluzer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for revoluzer", "latest": {"0.1.2--h6f67891_0": "sha256:3803eeb5132059e0ecdb25c7953631cdef96f7cb1f6e02e240576e5c551719c9"}, "tags": {"0.1.2--h6f67891_0": "sha256:3803eeb5132059e0ecdb25c7953631cdef96f7cb1f6e02e240576e5c551719c9"}, "docker": "quay.io/biocontainers/revoluzer", "aliases": {"amgr": "/usr/local/bin/amgr", "anamed": "/usr/local/bin/anamed", "comgen": "/usr/local/bin/comgen", "compress": "/usr/local/bin/compress", "construct_triples": "/usr/local/bin/construct_triples", "crex": "/usr/local/bin/crex", "deldup": "/usr/local/bin/deldup", "dupdet": "/usr/local/bin/dupdet", "enumall": "/usr/local/bin/enumall", "evoluzer": "/usr/local/bin/evoluzer", "gdiff": "/usr/local/bin/gdiff", "grappaResultParser": "/usr/local/bin/grappaResultParser", "ichar": "/usr/local/bin/ichar", "identifySorting": "/usr/local/bin/identifySorting", "ilp-rrrmt": "/usr/local/bin/ilp-rrrmt", "intervals": "/usr/local/bin/intervals", "its": "/usr/local/bin/its", "median": "/usr/local/bin/median", "mgrResultParser": "/usr/local/bin/mgrResultParser", "normalize": "/usr/local/bin/normalize", "nrex": "/usr/local/bin/nrex", "phy2nex": "/usr/local/bin/phy2nex", "pqplot": "/usr/local/bin/pqplot", "pqresolve": "/usr/local/bin/pqresolve", "pqsplits": "/usr/local/bin/pqsplits", "pqstat": "/usr/local/bin/pqstat", "revoluzer": "/usr/local/bin/revoluzer", "revolver": "/usr/local/bin/revolver", "robfould": "/usr/local/bin/robfould", "sortVsPreserve": "/usr/local/bin/sortVsPreserve", "tdlmedian": "/usr/local/bin/tdlmedian", "tmrloc": "/usr/local/bin/tmrloc", "treedegree": "/usr/local/bin/treedegree", "trex": "/usr/local/bin/trex", "distmat": "/usr/local/bin/distmat", "uniq": "/usr/local/bin/uniq", "test": "/usr/local/bin/test", "gc": "/usr/local/bin/gc", "glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/revoluzer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for revoluzer", "latest": {"0.1.6--h6f67891_0": "sha256:23f44d62c734888346ae17e156f8ce398683b6718023e076c664e53d82f895da"}, "tags": {"0.1.2--h6f67891_0": "sha256:3803eeb5132059e0ecdb25c7953631cdef96f7cb1f6e02e240576e5c551719c9", "0.1.6--h6f67891_0": "sha256:23f44d62c734888346ae17e156f8ce398683b6718023e076c664e53d82f895da"}, "docker": "quay.io/biocontainers/revoluzer", "aliases": {"amgr": "/usr/local/bin/amgr", "anamed": "/usr/local/bin/anamed", "comgen": "/usr/local/bin/comgen", "compress": "/usr/local/bin/compress", "construct_triples": "/usr/local/bin/construct_triples", "crex": "/usr/local/bin/crex", "deldup": "/usr/local/bin/deldup", "dupdet": "/usr/local/bin/dupdet", "enumall": "/usr/local/bin/enumall", "evoluzer": "/usr/local/bin/evoluzer", "gdiff": "/usr/local/bin/gdiff", "grappaResultParser": "/usr/local/bin/grappaResultParser", "ichar": "/usr/local/bin/ichar", "identifySorting": "/usr/local/bin/identifySorting", "ilp-rrrmt": "/usr/local/bin/ilp-rrrmt", "intervals": "/usr/local/bin/intervals", "its": "/usr/local/bin/its", "median": "/usr/local/bin/median", "mgrResultParser": "/usr/local/bin/mgrResultParser", "normalize": "/usr/local/bin/normalize", "nrex": "/usr/local/bin/nrex", "phy2nex": "/usr/local/bin/phy2nex", "pqplot": "/usr/local/bin/pqplot", "pqresolve": "/usr/local/bin/pqresolve", "pqsplits": "/usr/local/bin/pqsplits", "pqstat": "/usr/local/bin/pqstat", "revoluzer": "/usr/local/bin/revoluzer", "revolver": "/usr/local/bin/revolver", "robfould": "/usr/local/bin/robfould", "sortVsPreserve": "/usr/local/bin/sortVsPreserve", "tdlmedian": "/usr/local/bin/tdlmedian", "tmrloc": "/usr/local/bin/tmrloc", "treedegree": "/usr/local/bin/treedegree", "trex": "/usr/local/bin/trex", "distmat": "/usr/local/bin/distmat", "uniq": "/usr/local/bin/uniq", "test": "/usr/local/bin/test", "gc": "/usr/local/bin/gc", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/revoluzer.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/revoluzer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/revoluzer:0.1.2--h6f67891_0
+$ shpc install quay.io/biocontainers/revoluzer:0.1.6--h6f67891_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/revoluzer/0.1.2--h6f67891_0
-$ module help quay.io/biocontainers/revoluzer/0.1.2--h6f67891_0
+$ module load quay.io/biocontainers/revoluzer/0.1.6--h6f67891_0
+$ module help quay.io/biocontainers/revoluzer/0.1.6--h6f67891_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

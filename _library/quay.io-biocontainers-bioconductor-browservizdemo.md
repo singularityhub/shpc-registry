@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-browservizdemo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-browservizdemo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-browservizdemo/container.yaml"
-updated_at: "2024-04-01 03:49:48.239564"
+updated_at: "2024-04-02 02:32:37.408132"
 latest: "1.11.0--r351hfc679d8_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-browservizdemo"
 
 versions:
  - "1.11.0--r351hfc679d8_0"
+ - "1.11.0--r341hfc679d8_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-browservizdemo"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-browservizdemo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-browservizdemo", "latest": {"1.11.0--r351hfc679d8_0": "sha256:653b9b48057b9a8f3f8759f0e440f57f8d67e25aed9f50be55788da50db43576"}, "tags": {"1.11.0--r351hfc679d8_0": "sha256:653b9b48057b9a8f3f8759f0e440f57f8d67e25aed9f50be55788da50db43576"}, "docker": "quay.io/biocontainers/bioconductor-browservizdemo"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-browservizdemo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-browservizdemo", "latest": {"1.11.0--r351hfc679d8_0": "sha256:653b9b48057b9a8f3f8759f0e440f57f8d67e25aed9f50be55788da50db43576"}, "tags": {"1.11.0--r351hfc679d8_0": "sha256:653b9b48057b9a8f3f8759f0e440f57f8d67e25aed9f50be55788da50db43576", "1.11.0--r341hfc679d8_0": "sha256:4006f2f4f94248c88164418c85a3499024bb02bd8929a497fe0217673b0809e3"}, "docker": "quay.io/biocontainers/bioconductor-browservizdemo"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-browservizdemo.

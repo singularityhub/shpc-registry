@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/checkv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/checkv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/checkv/container.yaml"
-updated_at: "2024-04-01 03:45:57.271892"
-latest: "1.0.1--pyhdfd78af_0"
+updated_at: "2024-04-02 02:28:38.715755"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/checkv"
 aliases:
  - "checkv"
@@ -22,8 +22,9 @@ aliases:
  - "esl-alirev"
 versions:
  - "1.0.1--pyhdfd78af_0"
+ - "1.0.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for checkv"
-config: {"url": "https://biocontainers.pro/tools/checkv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for checkv", "latest": {"1.0.1--pyhdfd78af_0": "sha256:9077a083c6a33c8d0b06162f0d4f52b6bc751068112a1f4f8ee23118d04f4b1f"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:9077a083c6a33c8d0b06162f0d4f52b6bc751068112a1f4f8ee23118d04f4b1f"}, "docker": "quay.io/biocontainers/checkv", "aliases": {"checkv": "/usr/local/bin/checkv", "prodigal-gv": "/usr/local/bin/prodigal-gv", "diamond": "/usr/local/bin/diamond", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev"}}
+config: {"url": "https://biocontainers.pro/tools/checkv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for checkv", "latest": {"1.0.3--pyhdfd78af_0": "sha256:e71b0ab781af9a1093fcf160beee587cc96aa50ff7c1a2b078166201fa390725"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:9077a083c6a33c8d0b06162f0d4f52b6bc751068112a1f4f8ee23118d04f4b1f", "1.0.3--pyhdfd78af_0": "sha256:e71b0ab781af9a1093fcf160beee587cc96aa50ff7c1a2b078166201fa390725"}, "docker": "quay.io/biocontainers/checkv", "aliases": {"checkv": "/usr/local/bin/checkv", "prodigal-gv": "/usr/local/bin/prodigal-gv", "diamond": "/usr/local/bin/diamond", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/checkv.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/checkv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/checkv:1.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/checkv:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/checkv/1.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/checkv/1.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/checkv/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/checkv/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

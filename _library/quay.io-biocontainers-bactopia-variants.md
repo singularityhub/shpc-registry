@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bactopia-variants"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bactopia-variants/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bactopia-variants/container.yaml"
-updated_at: "2024-04-01 04:08:42.240103"
-latest: "1.0.1--hdfd78af_0"
+updated_at: "2024-04-02 02:52:03.822535"
+latest: "1.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bactopia-variants"
 aliases:
  - "RNAmultifold"
@@ -54,8 +54,9 @@ aliases:
 versions:
  - "1.0.0--hdfd78af_0"
  - "1.0.1--hdfd78af_0"
+ - "1.0.2--hdfd78af_0"
 description: "singularity registry hpc automated addition for bactopia-variants"
-config: {"url": "https://biocontainers.pro/tools/bactopia-variants", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bactopia-variants", "latest": {"1.0.1--hdfd78af_0": "sha256:8ede899763f9285cbb84c0449ccc7407d55fcace9e8e071126e1653639ebc04b"}, "tags": {"1.0.0--hdfd78af_0": "sha256:8d3abb93dd5a3dc0e7cd0aaa3eb76a5572aa366c7f93d0ac916e5bf4e9b19fcd", "1.0.1--hdfd78af_0": "sha256:8ede899763f9285cbb84c0449ccc7407d55fcace9e8e071126e1653639ebc04b"}, "docker": "quay.io/biocontainers/bactopia-variants", "aliases": {"RNAmultifold": "/usr/local/bin/RNAmultifold", "TMalign": "/usr/local/bin/TMalign", "bactopia-variants": "/usr/local/bin/bactopia-variants", "cleanup-coverage.py": "/usr/local/bin/cleanup-coverage.py", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "mask-consensus.py": "/usr/local/bin/mask-consensus.py", "poa": "/usr/local/bin/poa", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "snippy": "/usr/local/bin/snippy", "snippy-clean_full_aln": "/usr/local/bin/snippy-clean_full_aln", "snippy-core": "/usr/local/bin/snippy-core", "snippy-multi": "/usr/local/bin/snippy-multi", "snippy-vcf_extract_subs": "/usr/local/bin/snippy-vcf_extract_subs", "snippy-vcf_report": "/usr/local/bin/snippy-vcf_report", "snippy-vcf_to_tab": "/usr/local/bin/snippy-vcf_to_tab", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "update_version.sh": "/usr/local/bin/update_version.sh", "vcf-annotator": "/usr/local/bin/vcf-annotator", "snp-sites": "/usr/local/bin/snp-sites", "clustalo": "/usr/local/bin/clustalo", "vt": "/usr/local/bin/vt", "rename": "/usr/local/bin/rename", "tabix++": "/usr/local/bin/tabix++", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat", "megablast": "/usr/local/bin/megablast", "samclip": "/usr/local/bin/samclip", "any2fasta": "/usr/local/bin/any2fasta", "snpEff": "/usr/local/bin/snpEff", "bamleftalign": "/usr/local/bin/bamleftalign", "bc": "/usr/local/bin/bc", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "dc": "/usr/local/bin/dc", "fasta_generate_regions.py": "/usr/local/bin/fasta_generate_regions.py", "freebayes-parallel": "/usr/local/bin/freebayes-parallel"}}
+config: {"url": "https://biocontainers.pro/tools/bactopia-variants", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bactopia-variants", "latest": {"1.0.2--hdfd78af_0": "sha256:c72db3c5e3ef901399b3bdbdd2d823c75c8361291305e33fdbe53511a21f3e74"}, "tags": {"1.0.0--hdfd78af_0": "sha256:8d3abb93dd5a3dc0e7cd0aaa3eb76a5572aa366c7f93d0ac916e5bf4e9b19fcd", "1.0.1--hdfd78af_0": "sha256:8ede899763f9285cbb84c0449ccc7407d55fcace9e8e071126e1653639ebc04b", "1.0.2--hdfd78af_0": "sha256:c72db3c5e3ef901399b3bdbdd2d823c75c8361291305e33fdbe53511a21f3e74"}, "docker": "quay.io/biocontainers/bactopia-variants", "aliases": {"RNAmultifold": "/usr/local/bin/RNAmultifold", "TMalign": "/usr/local/bin/TMalign", "bactopia-variants": "/usr/local/bin/bactopia-variants", "cleanup-coverage.py": "/usr/local/bin/cleanup-coverage.py", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "mask-consensus.py": "/usr/local/bin/mask-consensus.py", "poa": "/usr/local/bin/poa", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "snippy": "/usr/local/bin/snippy", "snippy-clean_full_aln": "/usr/local/bin/snippy-clean_full_aln", "snippy-core": "/usr/local/bin/snippy-core", "snippy-multi": "/usr/local/bin/snippy-multi", "snippy-vcf_extract_subs": "/usr/local/bin/snippy-vcf_extract_subs", "snippy-vcf_report": "/usr/local/bin/snippy-vcf_report", "snippy-vcf_to_tab": "/usr/local/bin/snippy-vcf_to_tab", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "update_version.sh": "/usr/local/bin/update_version.sh", "vcf-annotator": "/usr/local/bin/vcf-annotator", "snp-sites": "/usr/local/bin/snp-sites", "clustalo": "/usr/local/bin/clustalo", "vt": "/usr/local/bin/vt", "rename": "/usr/local/bin/rename", "tabix++": "/usr/local/bin/tabix++", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat", "megablast": "/usr/local/bin/megablast", "samclip": "/usr/local/bin/samclip", "any2fasta": "/usr/local/bin/any2fasta", "snpEff": "/usr/local/bin/snpEff", "bamleftalign": "/usr/local/bin/bamleftalign", "bc": "/usr/local/bin/bc", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "dc": "/usr/local/bin/dc", "fasta_generate_regions.py": "/usr/local/bin/fasta_generate_regions.py", "freebayes-parallel": "/usr/local/bin/freebayes-parallel"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bactopia-variants.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/bactopia-variants
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bactopia-variants:1.0.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/bactopia-variants:1.0.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bactopia-variants/1.0.1--hdfd78af_0
-$ module help quay.io/biocontainers/bactopia-variants/1.0.1--hdfd78af_0
+$ module load quay.io/biocontainers/bactopia-variants/1.0.2--hdfd78af_0
+$ module help quay.io/biocontainers/bactopia-variants/1.0.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

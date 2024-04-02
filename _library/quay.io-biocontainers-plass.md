@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/plass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plass/container.yaml"
-updated_at: "2024-04-01 04:08:57.313696"
-latest: "4.687d7--pl5321h6a68c12_5"
+updated_at: "2024-04-02 02:52:19.346194"
+latest: "5.cf8933--pl5321h6a68c12_0"
 container_url: "https://biocontainers.pro/tools/plass"
 aliases:
  - "plass"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "4.687d7--pl5321hf1761c0_3"
  - "4.687d7--pl5321h6a68c12_5"
+ - "5.cf8933--pl5321h6a68c12_0"
 description: "shpc-registry automated BioContainers addition for plass"
-config: {"url": "https://biocontainers.pro/tools/plass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plass", "latest": {"4.687d7--pl5321h6a68c12_5": "sha256:c14320a99ea06aa7cf4f8d47ee7de453df0207eb5a7e35bc2de073e6c9a5f6b7"}, "tags": {"4.687d7--pl5321hf1761c0_3": "sha256:81ff206e4cabdcb4512b9cb5950e9f79ffb8dd038cdfc15d03e2249e80b4f62f", "4.687d7--pl5321h6a68c12_5": "sha256:c14320a99ea06aa7cf4f8d47ee7de453df0207eb5a7e35bc2de073e6c9a5f6b7"}, "docker": "quay.io/biocontainers/plass", "aliases": {"plass": "/usr/local/bin/plass", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/plass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plass", "latest": {"5.cf8933--pl5321h6a68c12_0": "sha256:80fcfeb5b33c9fad81101e5e8e42e555a0d7c8fc0b587434a0128bb7f0644d52"}, "tags": {"4.687d7--pl5321hf1761c0_3": "sha256:81ff206e4cabdcb4512b9cb5950e9f79ffb8dd038cdfc15d03e2249e80b4f62f", "4.687d7--pl5321h6a68c12_5": "sha256:c14320a99ea06aa7cf4f8d47ee7de453df0207eb5a7e35bc2de073e6c9a5f6b7", "5.cf8933--pl5321h6a68c12_0": "sha256:80fcfeb5b33c9fad81101e5e8e42e555a0d7c8fc0b587434a0128bb7f0644d52"}, "docker": "quay.io/biocontainers/plass", "aliases": {"plass": "/usr/local/bin/plass", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plass.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/plass
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plass:4.687d7--pl5321h6a68c12_5
+$ shpc install quay.io/biocontainers/plass:5.cf8933--pl5321h6a68c12_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plass/4.687d7--pl5321h6a68c12_5
-$ module help quay.io/biocontainers/plass/4.687d7--pl5321h6a68c12_5
+$ module load quay.io/biocontainers/plass/5.cf8933--pl5321h6a68c12_0
+$ module help quay.io/biocontainers/plass/5.cf8933--pl5321h6a68c12_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

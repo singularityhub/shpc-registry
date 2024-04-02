@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-xnomial"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-xnomial/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-xnomial/container.yaml"
-updated_at: "2024-04-01 04:02:01.799055"
+updated_at: "2024-04-02 02:45:12.335322"
 latest: "1.0.4--0"
 container_url: "https://biocontainers.pro/tools/r-xnomial"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.0.4--0"
+ - "1.0.4--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-xnomial"
-config: {"url": "https://biocontainers.pro/tools/r-xnomial", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-xnomial", "latest": {"1.0.4--0": "sha256:fc0be88149bae0796eea4c3342c16803190e366c088a92c2443c339a9b4abf0e"}, "tags": {"1.0.4--0": "sha256:fc0be88149bae0796eea4c3342c16803190e366c088a92c2443c339a9b4abf0e"}, "docker": "quay.io/biocontainers/r-xnomial", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-xnomial", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-xnomial", "latest": {"1.0.4--0": "sha256:fc0be88149bae0796eea4c3342c16803190e366c088a92c2443c339a9b4abf0e"}, "tags": {"1.0.4--0": "sha256:fc0be88149bae0796eea4c3342c16803190e366c088a92c2443c339a9b4abf0e", "1.0.4--r3.4.1_0": "sha256:df9163f898a92a055d2fb7d432a1936fc0aa669cfdb1b2a5615db2b831e5cab0"}, "docker": "quay.io/biocontainers/r-xnomial", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-xnomial.
