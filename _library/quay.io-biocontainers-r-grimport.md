@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-grimport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-grimport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-grimport/container.yaml"
-updated_at: "2024-04-02 02:40:46.473143"
+updated_at: "2024-04-03 02:38:13.501677"
 latest: "0.9_0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-grimport"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.9_0--r3.3.1_0"
+ - "0.9_0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-grimport"
-config: {"url": "https://biocontainers.pro/tools/r-grimport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-grimport", "latest": {"0.9_0--r3.3.1_0": "sha256:586da88efd97823d9543452fd2b4e5057bd4344543d592e2f71bdc9ca2cebba1"}, "tags": {"0.9_0--r3.3.1_0": "sha256:586da88efd97823d9543452fd2b4e5057bd4344543d592e2f71bdc9ca2cebba1"}, "docker": "quay.io/biocontainers/r-grimport", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-grimport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-grimport", "latest": {"0.9_0--r3.3.1_0": "sha256:586da88efd97823d9543452fd2b4e5057bd4344543d592e2f71bdc9ca2cebba1"}, "tags": {"0.9_0--r3.3.1_0": "sha256:586da88efd97823d9543452fd2b4e5057bd4344543d592e2f71bdc9ca2cebba1", "0.9_0--r3.4.1_0": "sha256:9a068b593acb07f2f59d5ed7eb9f29df807210e991f34a4b3443fe7e927f8beb"}, "docker": "quay.io/biocontainers/r-grimport", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-grimport.

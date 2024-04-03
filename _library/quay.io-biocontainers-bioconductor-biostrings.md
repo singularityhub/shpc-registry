@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biostrings"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biostrings/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biostrings/container.yaml"
-updated_at: "2024-04-02 02:35:27.122535"
+updated_at: "2024-04-03 02:32:56.467752"
 latest: "2.70.1--r43ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-biostrings"
 

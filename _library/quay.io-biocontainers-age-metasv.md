@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/age-metasv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/age-metasv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/age-metasv/container.yaml"
-updated_at: "2024-04-02 03:07:10.122995"
-latest: "2015.01.29.3--h4ac6f70_7"
+updated_at: "2024-04-03 03:04:23.469904"
+latest: "2015.01.29.3--h4ac6f70_8"
 container_url: "https://biocontainers.pro/tools/age-metasv"
 aliases:
  - "age_align"
 versions:
  - "2015.01.29.3--h9f5acd7_5"
  - "2015.01.29.3--h4ac6f70_7"
+ - "2015.01.29.3--h4ac6f70_8"
 description: "shpc-registry automated BioContainers addition for age-metasv"
-config: {"url": "https://biocontainers.pro/tools/age-metasv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for age-metasv", "latest": {"2015.01.29.3--h4ac6f70_7": "sha256:9122481bf9690bbdc79ec4291c3d29156cb7c9d613a2faa34c644b6c4afe0afc"}, "tags": {"2015.01.29.3--h9f5acd7_5": "sha256:88660caa860131060d21c2b64529ab709881c8ff1772913eed0323786b6fe774", "2015.01.29.3--h4ac6f70_7": "sha256:9122481bf9690bbdc79ec4291c3d29156cb7c9d613a2faa34c644b6c4afe0afc"}, "docker": "quay.io/biocontainers/age-metasv", "aliases": {"age_align": "/usr/local/bin/age_align"}}
+config: {"url": "https://biocontainers.pro/tools/age-metasv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for age-metasv", "latest": {"2015.01.29.3--h4ac6f70_8": "sha256:345536fb397b8acd49a3462b956c5a1c481763055a89efb8013874506488e91e"}, "tags": {"2015.01.29.3--h9f5acd7_5": "sha256:88660caa860131060d21c2b64529ab709881c8ff1772913eed0323786b6fe774", "2015.01.29.3--h4ac6f70_7": "sha256:9122481bf9690bbdc79ec4291c3d29156cb7c9d613a2faa34c644b6c4afe0afc", "2015.01.29.3--h4ac6f70_8": "sha256:345536fb397b8acd49a3462b956c5a1c481763055a89efb8013874506488e91e"}, "docker": "quay.io/biocontainers/age-metasv", "aliases": {"age_align": "/usr/local/bin/age_align"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/age-metasv.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/age-metasv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/age-metasv:2015.01.29.3--h4ac6f70_7
+$ shpc install quay.io/biocontainers/age-metasv:2015.01.29.3--h4ac6f70_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/age-metasv/2015.01.29.3--h4ac6f70_7
-$ module help quay.io/biocontainers/age-metasv/2015.01.29.3--h4ac6f70_7
+$ module load quay.io/biocontainers/age-metasv/2015.01.29.3--h4ac6f70_8
+$ module help quay.io/biocontainers/age-metasv/2015.01.29.3--h4ac6f70_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

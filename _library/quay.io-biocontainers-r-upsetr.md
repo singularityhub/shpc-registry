@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-upsetr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-upsetr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-upsetr/container.yaml"
-updated_at: "2024-04-02 02:57:25.593320"
+updated_at: "2024-04-03 02:54:43.577599"
 latest: "1.0.3--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-upsetr"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.0.3--r3.3.1_1"
+ - "1.0.3--r3.3.2_1"
 description: "shpc-registry automated BioContainers addition for r-upsetr"
-config: {"url": "https://biocontainers.pro/tools/r-upsetr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-upsetr", "latest": {"1.0.3--r3.3.1_1": "sha256:b6706f866bf0c3331e802afb73617f11197a821b1c9d2d60035062563c630531"}, "tags": {"1.0.3--r3.3.1_1": "sha256:b6706f866bf0c3331e802afb73617f11197a821b1c9d2d60035062563c630531"}, "docker": "quay.io/biocontainers/r-upsetr", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-upsetr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-upsetr", "latest": {"1.0.3--r3.3.1_1": "sha256:b6706f866bf0c3331e802afb73617f11197a821b1c9d2d60035062563c630531"}, "tags": {"1.0.3--r3.3.1_1": "sha256:b6706f866bf0c3331e802afb73617f11197a821b1c9d2d60035062563c630531", "1.0.3--r3.3.2_1": "sha256:1f62e41d1d6802fef74b1a69fda4e2cd770f2378ccf3dad09923864da6dfee65"}, "docker": "quay.io/biocontainers/r-upsetr", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-upsetr.

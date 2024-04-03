@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lexmapr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lexmapr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lexmapr/container.yaml"
-updated_at: "2024-04-02 02:47:43.879249"
+updated_at: "2024-04-03 02:45:07.827712"
 latest: "0.7.1--py36h09cc20e_1"
 container_url: "https://biocontainers.pro/tools/lexmapr"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "python3.6"
 versions:
  - "0.7.1--py36h09cc20e_1"
+ - "0.7.1--py37he4bd417_1"
 description: "shpc-registry automated BioContainers addition for lexmapr"
-config: {"url": "https://biocontainers.pro/tools/lexmapr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lexmapr", "latest": {"0.7.1--py36h09cc20e_1": "sha256:175576fc849b8df48d555f5017f4a567b0dd2be824f493d167437f044f676c9e"}, "tags": {"0.7.1--py36h09cc20e_1": "sha256:175576fc849b8df48d555f5017f4a567b0dd2be824f493d167437f044f676c9e"}, "docker": "quay.io/biocontainers/lexmapr", "aliases": {"lexmapr": "/usr/local/bin/lexmapr", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "chardetect": "/usr/local/bin/chardetect", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
+config: {"url": "https://biocontainers.pro/tools/lexmapr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lexmapr", "latest": {"0.7.1--py36h09cc20e_1": "sha256:175576fc849b8df48d555f5017f4a567b0dd2be824f493d167437f044f676c9e"}, "tags": {"0.7.1--py36h09cc20e_1": "sha256:175576fc849b8df48d555f5017f4a567b0dd2be824f493d167437f044f676c9e", "0.7.1--py37he4bd417_1": "sha256:8530039756f9945f24dcaba269e25bbe535b27c9ebac9d3396eb2993684bc1bd"}, "docker": "quay.io/biocontainers/lexmapr", "aliases": {"lexmapr": "/usr/local/bin/lexmapr", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "chardetect": "/usr/local/bin/chardetect", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lexmapr.

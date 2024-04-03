@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytrimal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytrimal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytrimal/container.yaml"
-updated_at: "2024-04-02 02:30:43.102237"
+updated_at: "2024-04-03 02:28:15.310992"
 latest: "0.7.0--py39he10ea66_0"
 container_url: "https://biocontainers.pro/tools/pytrimal"
 aliases:
@@ -18,8 +18,11 @@ versions:
  - "0.5.5--py310h068649b_2"
  - "0.6.0--py38hcbe9525_0"
  - "0.7.0--py39he10ea66_0"
+ - "0.7.0--py38hcbe9525_0"
+ - "0.6.0--py39he10ea66_0"
+ - "0.5.5--py39he10ea66_2"
 description: "singularity registry hpc automated addition for pytrimal"
-config: {"url": "https://biocontainers.pro/tools/pytrimal", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pytrimal", "latest": {"0.7.0--py39he10ea66_0": "sha256:3f364b42bd1ce2d217a6612268ded0972d07739207c981b0d7f7ac9e0ced56b8"}, "tags": {"0.5.5--py39h67e14b5_0": "sha256:9de448978aad8748e875cc6112578959de1e182b0f4fb0aadcf34aaccba3657b", "0.5.5--py310h068649b_2": "sha256:f6e22f944cdb866e874442f7d22cf31ca475d1bc0ae2a8bcd6c158c21cc6e11e", "0.6.0--py38hcbe9525_0": "sha256:aae0fae121c6ff71a58209b88d8024f979b6b0483bccbe833560e8330b57519e", "0.7.0--py39he10ea66_0": "sha256:3f364b42bd1ce2d217a6612268ded0972d07739207c981b0d7f7ac9e0ced56b8"}, "docker": "quay.io/biocontainers/pytrimal", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/pytrimal", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pytrimal", "latest": {"0.7.0--py39he10ea66_0": "sha256:3f364b42bd1ce2d217a6612268ded0972d07739207c981b0d7f7ac9e0ced56b8"}, "tags": {"0.5.5--py39h67e14b5_0": "sha256:9de448978aad8748e875cc6112578959de1e182b0f4fb0aadcf34aaccba3657b", "0.5.5--py310h068649b_2": "sha256:f6e22f944cdb866e874442f7d22cf31ca475d1bc0ae2a8bcd6c158c21cc6e11e", "0.6.0--py38hcbe9525_0": "sha256:aae0fae121c6ff71a58209b88d8024f979b6b0483bccbe833560e8330b57519e", "0.7.0--py39he10ea66_0": "sha256:3f364b42bd1ce2d217a6612268ded0972d07739207c981b0d7f7ac9e0ced56b8", "0.7.0--py38hcbe9525_0": "sha256:6277e32b7632c2fce060bce26fb2e086e7b65ffe387ded5c7599318d2732cd97", "0.6.0--py39he10ea66_0": "sha256:278794a7012aa710c032cab323b64f86c7166ed2adf9cc5392e1007074028589", "0.5.5--py39he10ea66_2": "sha256:22a162ab22de2d47818fe8b11b7e32102b9b51abff9757caeff6d96d2d2a0726"}, "docker": "quay.io/biocontainers/pytrimal", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytrimal.

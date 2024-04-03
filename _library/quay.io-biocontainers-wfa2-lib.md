@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/wfa2-lib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wfa2-lib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wfa2-lib/container.yaml"
-updated_at: "2024-04-02 02:59:51.901419"
-latest: "2.3.4--h4ac6f70_0"
+updated_at: "2024-04-03 02:57:08.783586"
+latest: "2.3.4--h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/wfa2-lib"
 
 versions:
  - "2.3.3--h4ac6f70_0"
  - "2.3.3--h4ac6f70_1"
  - "2.3.4--h4ac6f70_0"
+ - "2.3.4--h4ac6f70_1"
 description: "singularity registry hpc automated addition for wfa2-lib"
-config: {"url": "https://biocontainers.pro/tools/wfa2-lib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for wfa2-lib", "latest": {"2.3.4--h4ac6f70_0": "sha256:582f548d1d513596a094db779394f0b4338888d6e21e893f619771afcbb5340e"}, "tags": {"2.3.3--h4ac6f70_0": "sha256:62df605f9d9cac3fa9a3a4283692f74a818bb992da3c8d1218c8f7ea5204545d", "2.3.3--h4ac6f70_1": "sha256:263f84c297911d5a74da0ccd8d07cd3f2afe95bcd3c6e93c0ebdf422ef95939e", "2.3.4--h4ac6f70_0": "sha256:582f548d1d513596a094db779394f0b4338888d6e21e893f619771afcbb5340e"}, "docker": "quay.io/biocontainers/wfa2-lib"}
+config: {"url": "https://biocontainers.pro/tools/wfa2-lib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for wfa2-lib", "latest": {"2.3.4--h4ac6f70_1": "sha256:5d0d1292c4c354393667788b7c9ebf1475dc4edb658e47d9b1362430473592a1"}, "tags": {"2.3.3--h4ac6f70_0": "sha256:62df605f9d9cac3fa9a3a4283692f74a818bb992da3c8d1218c8f7ea5204545d", "2.3.3--h4ac6f70_1": "sha256:263f84c297911d5a74da0ccd8d07cd3f2afe95bcd3c6e93c0ebdf422ef95939e", "2.3.4--h4ac6f70_0": "sha256:582f548d1d513596a094db779394f0b4338888d6e21e893f619771afcbb5340e", "2.3.4--h4ac6f70_1": "sha256:5d0d1292c4c354393667788b7c9ebf1475dc4edb658e47d9b1362430473592a1"}, "docker": "quay.io/biocontainers/wfa2-lib"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wfa2-lib.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/wfa2-lib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wfa2-lib:2.3.4--h4ac6f70_0
+$ shpc install quay.io/biocontainers/wfa2-lib:2.3.4--h4ac6f70_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wfa2-lib/2.3.4--h4ac6f70_0
-$ module help quay.io/biocontainers/wfa2-lib/2.3.4--h4ac6f70_0
+$ module load quay.io/biocontainers/wfa2-lib/2.3.4--h4ac6f70_1
+$ module help quay.io/biocontainers/wfa2-lib/2.3.4--h4ac6f70_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

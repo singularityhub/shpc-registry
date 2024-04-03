@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-phonr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-phonr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-phonr/container.yaml"
-updated_at: "2024-04-02 02:56:25.275465"
+updated_at: "2024-04-03 02:53:44.026691"
 latest: "1.0_3--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-phonr"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.0_3--r3.2.2_0"
+ - "1.0_3--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-phonr"
-config: {"url": "https://biocontainers.pro/tools/r-phonr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-phonr", "latest": {"1.0_3--r3.2.2_0": "sha256:07fb0772c7047938217ae100783a8ca8e7d694084c7f39024653e87523038481"}, "tags": {"1.0_3--r3.2.2_0": "sha256:07fb0772c7047938217ae100783a8ca8e7d694084c7f39024653e87523038481"}, "docker": "quay.io/biocontainers/r-phonr", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-phonr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-phonr", "latest": {"1.0_3--r3.2.2_0": "sha256:07fb0772c7047938217ae100783a8ca8e7d694084c7f39024653e87523038481"}, "tags": {"1.0_3--r3.2.2_0": "sha256:07fb0772c7047938217ae100783a8ca8e7d694084c7f39024653e87523038481", "1.0_3--r3.3.2_0": "sha256:1a469fe7c279801b62edf281dfb17adf75dc1251a08a1066df0598f97c4e51c8"}, "docker": "quay.io/biocontainers/r-phonr", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-phonr.

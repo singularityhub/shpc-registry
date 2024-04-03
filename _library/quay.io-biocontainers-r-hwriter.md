@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-hwriter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hwriter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hwriter/container.yaml"
-updated_at: "2024-04-02 02:53:50.715354"
+updated_at: "2024-04-03 02:51:11.580286"
 latest: "1.3.2--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-hwriter"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.3.2--r3.2.2_0"
+ - "1.3.2--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-hwriter"
-config: {"url": "https://biocontainers.pro/tools/r-hwriter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-hwriter", "latest": {"1.3.2--r3.2.2_0": "sha256:1b75f361edb93b745e46f9660ebc24e6ff9484a97f1c92678df597c79bc14565"}, "tags": {"1.3.2--r3.2.2_0": "sha256:1b75f361edb93b745e46f9660ebc24e6ff9484a97f1c92678df597c79bc14565"}, "docker": "quay.io/biocontainers/r-hwriter", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-hwriter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-hwriter", "latest": {"1.3.2--r3.2.2_0": "sha256:1b75f361edb93b745e46f9660ebc24e6ff9484a97f1c92678df597c79bc14565"}, "tags": {"1.3.2--r3.2.2_0": "sha256:1b75f361edb93b745e46f9660ebc24e6ff9484a97f1c92678df597c79bc14565", "1.3.2--r3.3.2_0": "sha256:ebd7620bb59b6d7db4251668fa0e89c860c14663ee576102d023a6fe57c4b5f8"}, "docker": "quay.io/biocontainers/r-hwriter", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-hwriter.

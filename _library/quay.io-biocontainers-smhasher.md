@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smhasher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smhasher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smhasher/container.yaml"
-updated_at: "2024-04-02 02:40:29.431829"
+updated_at: "2024-04-03 02:37:56.736110"
 latest: "0.150.1--py39h1f90b4d_9"
 container_url: "https://biocontainers.pro/tools/smhasher"
 aliases:
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "0.150.1--py36h2ad2d48_6"
  - "0.150.1--py39h1f90b4d_9"
+ - "0.150.1--py310h0dbaff4_9"
 description: "shpc-registry automated BioContainers addition for smhasher"
-config: {"url": "https://biocontainers.pro/tools/smhasher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smhasher", "latest": {"0.150.1--py39h1f90b4d_9": "sha256:d40132b191ca8e68008159e16a839e0c561ce911091c471be99e60b3e744c8ce"}, "tags": {"0.150.1--py36h2ad2d48_6": "sha256:8bdba4a4e70771909374f5f8e7890272dd2a165ccbf911c1ae87c415d3f3a632", "0.150.1--py39h1f90b4d_9": "sha256:d40132b191ca8e68008159e16a839e0c561ce911091c471be99e60b3e744c8ce"}, "docker": "quay.io/biocontainers/smhasher", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/smhasher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smhasher", "latest": {"0.150.1--py39h1f90b4d_9": "sha256:d40132b191ca8e68008159e16a839e0c561ce911091c471be99e60b3e744c8ce"}, "tags": {"0.150.1--py36h2ad2d48_6": "sha256:8bdba4a4e70771909374f5f8e7890272dd2a165ccbf911c1ae87c415d3f3a632", "0.150.1--py39h1f90b4d_9": "sha256:d40132b191ca8e68008159e16a839e0c561ce911091c471be99e60b3e744c8ce", "0.150.1--py310h0dbaff4_9": "sha256:92ca90f126a0bb7daedf6b3606e0f8740b2dbb376a27416701631871d16d8d9f"}, "docker": "quay.io/biocontainers/smhasher", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smhasher.

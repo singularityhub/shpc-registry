@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mendelscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mendelscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mendelscan/container.yaml"
-updated_at: "2024-04-02 02:54:05.945814"
+updated_at: "2024-04-03 02:51:26.811459"
 latest: "v1.2.2--1"
 container_url: "https://biocontainers.pro/tools/mendelscan"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "orbd"
 versions:
  - "v1.2.2--1"
+ - "1.2.2--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for mendelscan"
-config: {"url": "https://biocontainers.pro/tools/mendelscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mendelscan", "latest": {"v1.2.2--1": "sha256:b08e46838eff9846fdc1d41074f71687a33a52c9995672a1bc881aaccf19e437"}, "tags": {"v1.2.2--1": "sha256:b08e46838eff9846fdc1d41074f71687a33a52c9995672a1bc881aaccf19e437"}, "docker": "quay.io/biocontainers/mendelscan", "aliases": {"mendelscan": "/usr/local/bin/mendelscan", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/mendelscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mendelscan", "latest": {"v1.2.2--1": "sha256:b08e46838eff9846fdc1d41074f71687a33a52c9995672a1bc881aaccf19e437"}, "tags": {"v1.2.2--1": "sha256:b08e46838eff9846fdc1d41074f71687a33a52c9995672a1bc881aaccf19e437", "1.2.2--hdfd78af_1": "sha256:e99ee0df9641dc53fdf87286b6794f8df0b5e925f21014469be41c3005d3bec0"}, "docker": "quay.io/biocontainers/mendelscan", "aliases": {"mendelscan": "/usr/local/bin/mendelscan", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mendelscan.

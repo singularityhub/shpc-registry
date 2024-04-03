@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-km.ci"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-km.ci/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-km.ci/container.yaml"
-updated_at: "2024-04-02 03:07:57.035629"
+updated_at: "2024-04-03 03:05:09.504891"
 latest: "0.5_2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-km.ci"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.5_2--r3.3.2_0"
+ - "0.5_2--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-km.ci"
-config: {"url": "https://biocontainers.pro/tools/r-km.ci", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-km.ci", "latest": {"0.5_2--r3.3.2_0": "sha256:c71b0d1950e8914851e1a54783b23b17fc60f18f02d982b0fdd9108c4298a8c5"}, "tags": {"0.5_2--r3.3.2_0": "sha256:c71b0d1950e8914851e1a54783b23b17fc60f18f02d982b0fdd9108c4298a8c5"}, "docker": "quay.io/biocontainers/r-km.ci", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-km.ci", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-km.ci", "latest": {"0.5_2--r3.3.2_0": "sha256:c71b0d1950e8914851e1a54783b23b17fc60f18f02d982b0fdd9108c4298a8c5"}, "tags": {"0.5_2--r3.3.2_0": "sha256:c71b0d1950e8914851e1a54783b23b17fc60f18f02d982b0fdd9108c4298a8c5", "0.5_2--r3.4.1_0": "sha256:c7b9e9d9aa291f02702a26573d0219b26945456893370b0aa6c5c0701ffae2d3"}, "docker": "quay.io/biocontainers/r-km.ci", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-km.ci.
