@@ -5,6 +5,7 @@ latest:
   0.4.1--r3.3.1_1: sha256:33fb39cda142b837425d5b159e4d6102ab64ca759ea99fbef1f0e3540d4fadbf
 tags:
   0.4.1--r3.3.1_1: sha256:33fb39cda142b837425d5b159e4d6102ab64ca759ea99fbef1f0e3540d4fadbf
+  0.4.1--r3.3.2_1: sha256:723e7be40313113d1c3a00ffac5bb27e60b5accfcb1fd85ddb4d7d9fe6a87d3f
 docker: quay.io/biocontainers/r-scales
 aliases:
   uconv: /usr/local/bin/uconv

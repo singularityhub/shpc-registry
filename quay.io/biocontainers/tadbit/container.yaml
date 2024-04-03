@@ -6,6 +6,7 @@ latest:
 tags:
   1.0.1--py36h4aaaa08_1: sha256:c3c69e45f09ff844de670fb2204610268bab04c181f495c45cc810268d468897
   1.0--py27h877ad6c_1: sha256:c82fad7b55d437ae373e3926a75c793503e3c7e08b7319b1b926ccdb88ea5b30
+  1.0.1--py310h2a84d7f_1: sha256:04a00d23463ff263ba768054ee3304508abb790e7873b3264db2673dde3b05fb
 docker: quay.io/biocontainers/tadbit
 aliases:
   gem-indexer: /usr/local/bin/gem-indexer

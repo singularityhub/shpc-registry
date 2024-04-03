@@ -5,6 +5,7 @@ latest:
   0.1_3--r3.3.1_0: sha256:2d3ce25fe96a0c39b73fd6b6659a36a8fae93e31d81eddd4e1ee31665327e296
 tags:
   0.1_3--r3.3.1_0: sha256:2d3ce25fe96a0c39b73fd6b6659a36a8fae93e31d81eddd4e1ee31665327e296
+  0.1_3--r3.3.2_0: sha256:0857377d7a20017b6c6294b2edaf87d0a339aef3e3cbbeb25b0fecad069934c1
 docker: quay.io/biocontainers/r-itertools
 aliases:
   uconv: /usr/local/bin/uconv

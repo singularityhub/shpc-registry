@@ -5,6 +5,7 @@ latest:
   0.1_12--r3.3.1_1: sha256:8bc0e401376c8297ef9d50c0bbaa0bf1278723d9eb7e3dfeba619eb7bc89bd7e
 tags:
   0.1_12--r3.3.1_1: sha256:8bc0e401376c8297ef9d50c0bbaa0bf1278723d9eb7e3dfeba619eb7bc89bd7e
+  0.1_12--r3.3.2_1: sha256:a5d827a6e4598bc9d6e98dfff430c54942b5c4fe7ba7908cc4dacc4b5c97577c
 docker: quay.io/biocontainers/r-deldir
 aliases:
   uconv: /usr/local/bin/uconv

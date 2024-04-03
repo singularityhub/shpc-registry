@@ -5,6 +5,7 @@ latest:
   1.7.6--py35_0: sha256:619cd39cd8445620bf58ec8428bc3ef24382aba522b31d781203924633258d46
 tags:
   1.7.6--py35_0: sha256:619cd39cd8445620bf58ec8428bc3ef24382aba522b31d781203924633258d46
+  1.7.6--py36_0: sha256:4aa786dbdeb6e987fcaac8070774408cd73643cfb29b61e49d0938e7d8c9306b
 docker: quay.io/biocontainers/sparqlwrapper
 aliases:
   csv2rdf: /usr/local/bin/csv2rdf

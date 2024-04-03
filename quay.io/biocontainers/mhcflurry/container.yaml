@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/mhcflurry
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mhcflurry
 latest:
-  2.1.0--pyh7cba7a3_0: sha256:101c694c3d60c33a5d5fd9058df7091d22ae7b760e0fbfff4e21228c208aea22
+  2.1.1--pyh7cba7a3_0: sha256:760a5fecc9b65a0cd1ccca93b4e412df0816329d0d335e265665d4322cf618db
 tags:
   2.0.1--pyh864c0ab_0: sha256:00f87fd3ce4d2c069d14c44822d6ef024dd55165a181cde57bbc96119ce4ee53
   2.0.6--pyh7cba7a3_0: sha256:485d9e6f847228f65721ca6d5e59a0d7f3f6237c4eb5c34c4ee551e13ef0e28c
   2.1.0--pyh7cba7a3_0: sha256:101c694c3d60c33a5d5fd9058df7091d22ae7b760e0fbfff4e21228c208aea22
+  2.1.1--pyh7cba7a3_0: sha256:760a5fecc9b65a0cd1ccca93b4e412df0816329d0d335e265665d4322cf618db
 docker: quay.io/biocontainers/mhcflurry
 aliases:
   _mhcflurry-cluster-worker-entry-point: /usr/local/bin/_mhcflurry-cluster-worker-entry-point

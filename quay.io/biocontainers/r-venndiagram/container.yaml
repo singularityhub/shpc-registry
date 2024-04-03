@@ -5,6 +5,7 @@ latest:
   1.6.16--r3.2.2_0: sha256:8881535b48bd317e32555b453aafd148ddffcecd8a088274af277e83dc428fa6
 tags:
   1.6.16--r3.2.2_0: sha256:8881535b48bd317e32555b453aafd148ddffcecd8a088274af277e83dc428fa6
+  1.6.16--r3.3.2_0: sha256:e34b52c494463f6b65c729ee818d23a5e187313d4f1675d6c6c2ddc4fb8153bd
 docker: quay.io/biocontainers/r-venndiagram
 aliases:
   pngcp: /usr/local/bin/pngcp

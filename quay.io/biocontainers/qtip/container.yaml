@@ -5,6 +5,7 @@ latest:
   1.6.2--py36h7eb728f_1: sha256:94cadcf3a63a0b68f5b2f514507a3bc2bddd25791eff0d16fdb26ed63918f5ca
 tags:
   1.6.2--py36h7eb728f_1: sha256:94cadcf3a63a0b68f5b2f514507a3bc2bddd25791eff0d16fdb26ed63918f5ca
+  1.6.2--py35h7eb728f_1: sha256:fed54964f4797abf5d4e88f764ccee67bda39be6dc4a186b8b21c38c6f50bf9b
 docker: quay.io/biocontainers/qtip
 aliases:
   qtip: /usr/local/bin/qtip

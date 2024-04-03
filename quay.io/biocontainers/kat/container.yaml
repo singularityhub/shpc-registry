@@ -6,6 +6,7 @@ latest:
 tags:
   2.4.2--py36h873903e_2: sha256:74b2649ad063f0091c9f09602f7fee8d872a99a2f54382bbb3d825cc8de79de4
   2.4.2--py39h7c5ebd6_3: sha256:a3f774bef166850cee064d97064afea39fd21f80b00786fd475e61cfe28a7372
+  2.4.2--py36hc902310_3: sha256:45d58b422767d90d4065ccb6d5b2279ef52c5ef6ce3be1eb6b429245a90093ef
 docker: quay.io/biocontainers/kat
 aliases:
   kat: /usr/local/bin/kat

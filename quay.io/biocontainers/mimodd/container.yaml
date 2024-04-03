@@ -5,6 +5,7 @@ latest:
   0.1.9--py36_0: sha256:891054c4a37eadca5433989561a2b31842e7e21f828d50a164afab4e1bd65804
 tags:
   0.1.9--py36_0: sha256:891054c4a37eadca5433989561a2b31842e7e21f828d50a164afab4e1bd65804
+  0.1.9--py35_0: sha256:f2e503d22dd74c7e827b59c067d1ad91fada0bdd159c4a3727e818cbf7caac43
 docker: quay.io/biocontainers/mimodd
 aliases:
   BATCH: /usr/local/bin/BATCH

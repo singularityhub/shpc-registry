@@ -5,6 +5,7 @@ latest:
   1.2.3--py27h20e14e4_5: sha256:3aa8d1202e61d1395c5a150dba42cea696054521b4041e765ad3a64e73ef1f0f
 tags:
   1.2.3--py27h20e14e4_5: sha256:3aa8d1202e61d1395c5a150dba42cea696054521b4041e765ad3a64e73ef1f0f
+  1.2.3--py36hd5865be_5: sha256:118a40635284de6c8ac9c03e3c9df7de47d59039769eaa05553ce39c8a40acfa
 docker: quay.io/biocontainers/probabilistic2020
 aliases:
   extract_gene_seq: /usr/local/bin/extract_gene_seq

@@ -5,6 +5,7 @@ latest:
   0.0.6--r3.3.1_0: sha256:2cdf5b52b75f8d3fa118fde9bac469bf0c39cc0c9dca2ef072785d6568f141fe
 tags:
   0.0.6--r3.3.1_0: sha256:2cdf5b52b75f8d3fa118fde9bac469bf0c39cc0c9dca2ef072785d6568f141fe
+  0.0.6--r3.4.1_0: sha256:713b3ebc4091b838b7e919a23bfa285c9bb5d6909abba72df383af80caf32468
 docker: quay.io/biocontainers/r-tfmpvalue
 aliases:
   uconv: /usr/local/bin/uconv

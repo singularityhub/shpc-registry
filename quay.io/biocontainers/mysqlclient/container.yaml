@@ -6,6 +6,7 @@ latest:
 tags:
   1.3.9--py27_0: sha256:02245055f0576434dc080344832bdda981b4fbc4db4c67f9c61e65a963015dd9
   1.3.10--py36_0: sha256:c491371db47b1eb925db64f01d57abdcafe45d7213e23e6e300afe2133a8eaed
+  1.3.10--py35_0: sha256:4296740477b273e257a66761d90ca9e9347fc7266fb41b0df847f6d9cf33f3ba
 docker: quay.io/biocontainers/mysqlclient
 aliases:
   easy_install-2.7: /usr/local/bin/easy_install-2.7

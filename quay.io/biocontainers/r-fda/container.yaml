@@ -5,6 +5,7 @@ latest:
   2.4.4--r3.2.2_0: sha256:e28b84536ae5d4f30949d01b1f564f145732eb594a7cb6f3e7aea48a11162630
 tags:
   2.4.4--r3.2.2_0: sha256:e28b84536ae5d4f30949d01b1f564f145732eb594a7cb6f3e7aea48a11162630
+  2.4.4--r3.3.2_0: sha256:7b11993a6614475a3e81aff5c52f216e51c547c6ae9e491e991b6555af4c852a
 docker: quay.io/biocontainers/r-fda
 aliases:
   pngcp: /usr/local/bin/pngcp
