@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qtip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qtip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qtip/container.yaml"
-updated_at: "2024-04-03 03:05:20.104049"
+updated_at: "2024-04-04 03:07:16.366764"
 latest: "1.6.2--py36h7eb728f_1"
 container_url: "https://biocontainers.pro/tools/qtip"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.6.2--py36h7eb728f_1"
+ - "1.6.2--py35h7eb728f_1"
 description: "shpc-registry automated BioContainers addition for qtip"
-config: {"url": "https://biocontainers.pro/tools/qtip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qtip", "latest": {"1.6.2--py36h7eb728f_1": "sha256:94cadcf3a63a0b68f5b2f514507a3bc2bddd25791eff0d16fdb26ed63918f5ca"}, "tags": {"1.6.2--py36h7eb728f_1": "sha256:94cadcf3a63a0b68f5b2f514507a3bc2bddd25791eff0d16fdb26ed63918f5ca"}, "docker": "quay.io/biocontainers/qtip", "aliases": {"qtip": "/usr/local/bin/qtip", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/qtip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qtip", "latest": {"1.6.2--py36h7eb728f_1": "sha256:94cadcf3a63a0b68f5b2f514507a3bc2bddd25791eff0d16fdb26ed63918f5ca"}, "tags": {"1.6.2--py36h7eb728f_1": "sha256:94cadcf3a63a0b68f5b2f514507a3bc2bddd25791eff0d16fdb26ed63918f5ca", "1.6.2--py35h7eb728f_1": "sha256:fed54964f4797abf5d4e88f764ccee67bda39be6dc4a186b8b21c38c6f50bf9b"}, "docker": "quay.io/biocontainers/qtip", "aliases": {"qtip": "/usr/local/bin/qtip", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/qtip.

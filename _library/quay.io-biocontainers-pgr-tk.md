@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pgr-tk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgr-tk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgr-tk/container.yaml"
-updated_at: "2024-04-03 02:33:41.735581"
+updated_at: "2024-04-04 02:35:42.385094"
 latest: "0.5.1--py38h8fa8eaa_0"
 container_url: "https://biocontainers.pro/tools/pgr-tk"
 aliases:
@@ -19,8 +19,9 @@ versions:
  - "0.3.6--py39h67e14b5_0"
  - "0.3.6--py39he10ea66_2"
  - "0.5.1--py38h8fa8eaa_0"
+ - "0.3.6--py38hcbe9525_2"
 description: "singularity registry hpc automated addition for pgr-tk"
-config: {"url": "https://biocontainers.pro/tools/pgr-tk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pgr-tk", "latest": {"0.5.1--py38h8fa8eaa_0": "sha256:e439d7a6f5b714503b46ef2c716acb1ec315390017e41ff471e0bd23072e57cd"}, "tags": {"0.3.6--py39h67e14b5_0": "sha256:9b8403494fdf04181be9a8b0b76b4e36946d4e1f519ca42b24eb3a52ab4fa29f", "0.3.6--py39he10ea66_2": "sha256:4d7bb485e8fd69bc1c7d1045307065c0d580c7ae166fc037647f9c7e555cc30f", "0.5.1--py38h8fa8eaa_0": "sha256:e439d7a6f5b714503b46ef2c716acb1ec315390017e41ff471e0bd23072e57cd"}, "docker": "quay.io/biocontainers/pgr-tk", "aliases": {"pgr-mdb": "/usr/local/bin/pgr-mdb", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/pgr-tk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pgr-tk", "latest": {"0.5.1--py38h8fa8eaa_0": "sha256:e439d7a6f5b714503b46ef2c716acb1ec315390017e41ff471e0bd23072e57cd"}, "tags": {"0.3.6--py39h67e14b5_0": "sha256:9b8403494fdf04181be9a8b0b76b4e36946d4e1f519ca42b24eb3a52ab4fa29f", "0.3.6--py39he10ea66_2": "sha256:4d7bb485e8fd69bc1c7d1045307065c0d580c7ae166fc037647f9c7e555cc30f", "0.5.1--py38h8fa8eaa_0": "sha256:e439d7a6f5b714503b46ef2c716acb1ec315390017e41ff471e0bd23072e57cd", "0.3.6--py38hcbe9525_2": "sha256:5186756cffa7207fc31993d0ba1dce175addab5d77a42f74db181d8aefbf6b1c"}, "docker": "quay.io/biocontainers/pgr-tk", "aliases": {"pgr-mdb": "/usr/local/bin/pgr-mdb", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pgr-tk.

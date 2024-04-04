@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-polysat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-polysat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-polysat/container.yaml"
-updated_at: "2024-04-03 03:06:28.605347"
+updated_at: "2024-04-04 03:08:24.602822"
 latest: "1.7_4--r351h14c3975_0"
 container_url: "https://biocontainers.pro/tools/r-polysat"
 aliases:

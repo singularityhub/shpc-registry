@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gnparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gnparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gnparser/container.yaml"
-updated_at: "2024-04-03 02:53:25.099769"
+updated_at: "2024-04-04 02:55:23.172565"
 latest: "1.9.0--he881be0_0"
 container_url: "https://biocontainers.pro/tools/gnparser"
 aliases:

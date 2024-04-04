@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fda/container.yaml"
-updated_at: "2024-04-03 02:31:25.775388"
+updated_at: "2024-04-04 02:33:26.399622"
 latest: "2.4.4--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-fda"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "2.4.4--r3.2.2_0"
+ - "2.4.4--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-fda"
-config: {"url": "https://biocontainers.pro/tools/r-fda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fda", "latest": {"2.4.4--r3.2.2_0": "sha256:e28b84536ae5d4f30949d01b1f564f145732eb594a7cb6f3e7aea48a11162630"}, "tags": {"2.4.4--r3.2.2_0": "sha256:e28b84536ae5d4f30949d01b1f564f145732eb594a7cb6f3e7aea48a11162630"}, "docker": "quay.io/biocontainers/r-fda", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-fda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fda", "latest": {"2.4.4--r3.2.2_0": "sha256:e28b84536ae5d4f30949d01b1f564f145732eb594a7cb6f3e7aea48a11162630"}, "tags": {"2.4.4--r3.2.2_0": "sha256:e28b84536ae5d4f30949d01b1f564f145732eb594a7cb6f3e7aea48a11162630", "2.4.4--r3.3.2_0": "sha256:7b11993a6614475a3e81aff5c52f216e51c547c6ae9e491e991b6555af4c852a"}, "docker": "quay.io/biocontainers/r-fda", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-fda.

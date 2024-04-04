@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-getoptlong"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-getoptlong/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-getoptlong/container.yaml"
-updated_at: "2024-04-03 02:38:41.618096"
+updated_at: "2024-04-04 02:40:41.809778"
 latest: "0.1.0--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-getoptlong"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.1.0--r3.2.2_0"
+ - "0.1.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-getoptlong"
-config: {"url": "https://biocontainers.pro/tools/r-getoptlong", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-getoptlong", "latest": {"0.1.0--r3.2.2_0": "sha256:77f8b52d570ac07a1238459920e25105f043f823c0132aa0a53c1f0460b05bed"}, "tags": {"0.1.0--r3.2.2_0": "sha256:77f8b52d570ac07a1238459920e25105f043f823c0132aa0a53c1f0460b05bed"}, "docker": "quay.io/biocontainers/r-getoptlong", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-getoptlong", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-getoptlong", "latest": {"0.1.0--r3.2.2_0": "sha256:77f8b52d570ac07a1238459920e25105f043f823c0132aa0a53c1f0460b05bed"}, "tags": {"0.1.0--r3.2.2_0": "sha256:77f8b52d570ac07a1238459920e25105f043f823c0132aa0a53c1f0460b05bed", "0.1.0--r3.3.2_0": "sha256:6d6a731dd7486f5165633fc0dc23f6b8ad9dd429666d4a5f45ba32d71ee4b2c9"}, "docker": "quay.io/biocontainers/r-getoptlong", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-getoptlong.

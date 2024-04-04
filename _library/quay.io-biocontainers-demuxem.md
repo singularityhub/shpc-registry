@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/demuxem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/demuxem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/demuxem/container.yaml"
-updated_at: "2024-04-03 02:25:08.031971"
+updated_at: "2024-04-04 02:27:10.917146"
 latest: "0.1.7--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/demuxem"
 aliases:
@@ -22,8 +22,9 @@ aliases:
  - "cwebp"
 versions:
  - "0.1.7--pyhdfd78af_1"
+ - "0.1.7.post1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for demuxem"
-config: {"url": "https://biocontainers.pro/tools/demuxem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for demuxem", "latest": {"0.1.7--pyhdfd78af_1": "sha256:a122f404ae5694e9232b18ae22014d9fd0011a28b1f350cea19986741184cbb5"}, "tags": {"0.1.7--pyhdfd78af_1": "sha256:a122f404ae5694e9232b18ae22014d9fd0011a28b1f350cea19986741184cbb5"}, "docker": "quay.io/biocontainers/demuxem", "aliases": {"demuxEM": "/usr/local/bin/demuxEM", "pegasusio": "/usr/local/bin/pegasusio", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp"}}
+config: {"url": "https://biocontainers.pro/tools/demuxem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for demuxem", "latest": {"0.1.7--pyhdfd78af_1": "sha256:a122f404ae5694e9232b18ae22014d9fd0011a28b1f350cea19986741184cbb5"}, "tags": {"0.1.7--pyhdfd78af_1": "sha256:a122f404ae5694e9232b18ae22014d9fd0011a28b1f350cea19986741184cbb5", "0.1.7.post1--pyhdfd78af_0": "sha256:2b77af339d909fc7265195d580a69027d5798d53eb65e6fe861246e08edbbf6b"}, "docker": "quay.io/biocontainers/demuxem", "aliases": {"demuxEM": "/usr/local/bin/demuxEM", "pegasusio": "/usr/local/bin/pegasusio", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/demuxem.

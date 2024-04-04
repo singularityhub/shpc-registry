@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sparqlwrapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sparqlwrapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sparqlwrapper/container.yaml"
-updated_at: "2024-04-03 03:01:59.033390"
+updated_at: "2024-04-04 03:03:54.924330"
 latest: "1.7.6--py35_0"
 container_url: "https://biocontainers.pro/tools/sparqlwrapper"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "python3.5"
 versions:
  - "1.7.6--py35_0"
+ - "1.7.6--py36_0"
 description: "shpc-registry automated BioContainers addition for sparqlwrapper"
-config: {"url": "https://biocontainers.pro/tools/sparqlwrapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sparqlwrapper", "latest": {"1.7.6--py35_0": "sha256:619cd39cd8445620bf58ec8428bc3ef24382aba522b31d781203924633258d46"}, "tags": {"1.7.6--py35_0": "sha256:619cd39cd8445620bf58ec8428bc3ef24382aba522b31d781203924633258d46"}, "docker": "quay.io/biocontainers/sparqlwrapper", "aliases": {"csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5"}}
+config: {"url": "https://biocontainers.pro/tools/sparqlwrapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sparqlwrapper", "latest": {"1.7.6--py35_0": "sha256:619cd39cd8445620bf58ec8428bc3ef24382aba522b31d781203924633258d46"}, "tags": {"1.7.6--py35_0": "sha256:619cd39cd8445620bf58ec8428bc3ef24382aba522b31d781203924633258d46", "1.7.6--py36_0": "sha256:4aa786dbdeb6e987fcaac8070774408cd73643cfb29b61e49d0938e7d8c9306b"}, "docker": "quay.io/biocontainers/sparqlwrapper", "aliases": {"csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sparqlwrapper.

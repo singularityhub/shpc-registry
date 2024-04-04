@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/probabilistic2020"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/probabilistic2020/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/probabilistic2020/container.yaml"
-updated_at: "2024-04-03 02:37:38.083447"
+updated_at: "2024-04-04 02:39:38.040585"
 latest: "1.2.3--py27h20e14e4_5"
 container_url: "https://biocontainers.pro/tools/probabilistic2020"
 aliases:
@@ -23,8 +23,9 @@ aliases:
  - "smtpd.py"
 versions:
  - "1.2.3--py27h20e14e4_5"
+ - "1.2.3--py36hd5865be_5"
 description: "shpc-registry automated BioContainers addition for probabilistic2020"
-config: {"url": "https://biocontainers.pro/tools/probabilistic2020", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for probabilistic2020", "latest": {"1.2.3--py27h20e14e4_5": "sha256:3aa8d1202e61d1395c5a150dba42cea696054521b4041e765ad3a64e73ef1f0f"}, "tags": {"1.2.3--py27h20e14e4_5": "sha256:3aa8d1202e61d1395c5a150dba42cea696054521b4041e765ad3a64e73ef1f0f"}, "docker": "quay.io/biocontainers/probabilistic2020", "aliases": {"extract_gene_seq": "/usr/local/bin/extract_gene_seq", "mut_annotate": "/usr/local/bin/mut_annotate", "probabilistic2020": "/usr/local/bin/probabilistic2020", "simulate_non_silent_ratio": "/usr/local/bin/simulate_non_silent_ratio", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/probabilistic2020", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for probabilistic2020", "latest": {"1.2.3--py27h20e14e4_5": "sha256:3aa8d1202e61d1395c5a150dba42cea696054521b4041e765ad3a64e73ef1f0f"}, "tags": {"1.2.3--py27h20e14e4_5": "sha256:3aa8d1202e61d1395c5a150dba42cea696054521b4041e765ad3a64e73ef1f0f", "1.2.3--py36hd5865be_5": "sha256:118a40635284de6c8ac9c03e3c9df7de47d59039769eaa05553ce39c8a40acfa"}, "docker": "quay.io/biocontainers/probabilistic2020", "aliases": {"extract_gene_seq": "/usr/local/bin/extract_gene_seq", "mut_annotate": "/usr/local/bin/mut_annotate", "probabilistic2020": "/usr/local/bin/probabilistic2020", "simulate_non_silent_ratio": "/usr/local/bin/simulate_non_silent_ratio", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/probabilistic2020.

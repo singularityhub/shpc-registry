@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-scales"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scales/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scales/container.yaml"
-updated_at: "2024-04-03 02:29:32.482187"
+updated_at: "2024-04-04 02:31:33.313615"
 latest: "0.4.1--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-scales"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.4.1--r3.3.1_1"
+ - "0.4.1--r3.3.2_1"
 description: "shpc-registry automated BioContainers addition for r-scales"
-config: {"url": "https://biocontainers.pro/tools/r-scales", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-scales", "latest": {"0.4.1--r3.3.1_1": "sha256:33fb39cda142b837425d5b159e4d6102ab64ca759ea99fbef1f0e3540d4fadbf"}, "tags": {"0.4.1--r3.3.1_1": "sha256:33fb39cda142b837425d5b159e4d6102ab64ca759ea99fbef1f0e3540d4fadbf"}, "docker": "quay.io/biocontainers/r-scales", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-scales", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-scales", "latest": {"0.4.1--r3.3.1_1": "sha256:33fb39cda142b837425d5b159e4d6102ab64ca759ea99fbef1f0e3540d4fadbf"}, "tags": {"0.4.1--r3.3.1_1": "sha256:33fb39cda142b837425d5b159e4d6102ab64ca759ea99fbef1f0e3540d4fadbf", "0.4.1--r3.3.2_1": "sha256:723e7be40313113d1c3a00ffac5bb27e60b5accfcb1fd85ddb4d7d9fe6a87d3f"}, "docker": "quay.io/biocontainers/r-scales", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-scales.

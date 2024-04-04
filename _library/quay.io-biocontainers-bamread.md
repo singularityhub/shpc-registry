@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamread/container.yaml"
-updated_at: "2024-04-03 03:03:34.299368"
+updated_at: "2024-04-04 03:05:30.708488"
 latest: "0.0.16--py310h4b81fae_1"
 container_url: "https://biocontainers.pro/tools/bamread"
 aliases:
@@ -24,8 +24,9 @@ versions:
  - "0.0.11--py39hbf8eff0_1"
  - "0.0.16--py39hbf8eff0_0"
  - "0.0.16--py310h4b81fae_1"
+ - "0.0.16--py38he5da3d1_1"
 description: "shpc-registry automated BioContainers addition for bamread"
-config: {"url": "https://biocontainers.pro/tools/bamread", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamread", "latest": {"0.0.16--py310h4b81fae_1": "sha256:00486a0a5ab8ac86bbd11714a6abd08310076ebc9861fe578f56dacb67494304"}, "tags": {"0.0.9--py37h8902056_1": "sha256:7db5d33af2662c58a388b809d6ea5748b3c25dd1d6891f43e9e5100f95534fe0", "0.0.11--py39hbf8eff0_1": "sha256:fc4d683c215e9e345de818b4b8a708c8c16b775920ef200fbd7ad91c85aa3782", "0.0.16--py39hbf8eff0_0": "sha256:98ae45a13a83e1c1788ee3f9a24a2d249f09dd749be8d9ed9275c9e097a61bf8", "0.0.16--py310h4b81fae_1": "sha256:00486a0a5ab8ac86bbd11714a6abd08310076ebc9861fe578f56dacb67494304"}, "docker": "quay.io/biocontainers/bamread", "aliases": {"bamread": "/usr/local/bin/bamread", "natsort": "/usr/local/bin/natsort", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/bamread", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamread", "latest": {"0.0.16--py310h4b81fae_1": "sha256:00486a0a5ab8ac86bbd11714a6abd08310076ebc9861fe578f56dacb67494304"}, "tags": {"0.0.9--py37h8902056_1": "sha256:7db5d33af2662c58a388b809d6ea5748b3c25dd1d6891f43e9e5100f95534fe0", "0.0.11--py39hbf8eff0_1": "sha256:fc4d683c215e9e345de818b4b8a708c8c16b775920ef200fbd7ad91c85aa3782", "0.0.16--py39hbf8eff0_0": "sha256:98ae45a13a83e1c1788ee3f9a24a2d249f09dd749be8d9ed9275c9e097a61bf8", "0.0.16--py310h4b81fae_1": "sha256:00486a0a5ab8ac86bbd11714a6abd08310076ebc9861fe578f56dacb67494304", "0.0.16--py38he5da3d1_1": "sha256:0622c4613d9be0bd3effc0209b519113114d8bdfb3af77919c280c0d8cc2c1b0"}, "docker": "quay.io/biocontainers/bamread", "aliases": {"bamread": "/usr/local/bin/bamread", "natsort": "/usr/local/bin/natsort", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamread.

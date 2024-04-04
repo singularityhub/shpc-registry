@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyseq-align"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyseq-align/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyseq-align/container.yaml"
-updated_at: "2024-04-03 02:33:28.982918"
+updated_at: "2024-04-04 02:35:29.416937"
 latest: "1.0.2--py39hf95cd2a_3"
 container_url: "https://biocontainers.pro/tools/pyseq-align"
 aliases:
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "1.0.2--py37h8902056_1"
  - "1.0.2--py39hf95cd2a_3"
+ - "1.0.2--py38he5da3d1_3"
 description: "shpc-registry automated BioContainers addition for pyseq-align"
-config: {"url": "https://biocontainers.pro/tools/pyseq-align", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyseq-align", "latest": {"1.0.2--py39hf95cd2a_3": "sha256:192c6881e42deae339b0ef4fb4b7fbb15fb8b6e893a4a18fe5090fd22c68c496"}, "tags": {"1.0.2--py37h8902056_1": "sha256:c73c1742fc1b767f7a9695e79ad8e94de1902382c63efc0dce9bd124e99032f0", "1.0.2--py39hf95cd2a_3": "sha256:192c6881e42deae339b0ef4fb4b7fbb15fb8b6e893a4a18fe5090fd22c68c496"}, "docker": "quay.io/biocontainers/pyseq-align", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pyseq-align", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyseq-align", "latest": {"1.0.2--py39hf95cd2a_3": "sha256:192c6881e42deae339b0ef4fb4b7fbb15fb8b6e893a4a18fe5090fd22c68c496"}, "tags": {"1.0.2--py37h8902056_1": "sha256:c73c1742fc1b767f7a9695e79ad8e94de1902382c63efc0dce9bd124e99032f0", "1.0.2--py39hf95cd2a_3": "sha256:192c6881e42deae339b0ef4fb4b7fbb15fb8b6e893a4a18fe5090fd22c68c496", "1.0.2--py38he5da3d1_3": "sha256:98013e5d178f526a6d62587abeac141ce954c90d6e812a49c9817e6dfb3c94ae"}, "docker": "quay.io/biocontainers/pyseq-align", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyseq-align.

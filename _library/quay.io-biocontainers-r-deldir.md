@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-deldir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-deldir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-deldir/container.yaml"
-updated_at: "2024-04-03 03:05:11.684967"
+updated_at: "2024-04-04 03:07:07.974828"
 latest: "0.1_12--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-deldir"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.1_12--r3.3.1_1"
+ - "0.1_12--r3.3.2_1"
 description: "shpc-registry automated BioContainers addition for r-deldir"
-config: {"url": "https://biocontainers.pro/tools/r-deldir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-deldir", "latest": {"0.1_12--r3.3.1_1": "sha256:8bc0e401376c8297ef9d50c0bbaa0bf1278723d9eb7e3dfeba619eb7bc89bd7e"}, "tags": {"0.1_12--r3.3.1_1": "sha256:8bc0e401376c8297ef9d50c0bbaa0bf1278723d9eb7e3dfeba619eb7bc89bd7e"}, "docker": "quay.io/biocontainers/r-deldir", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-deldir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-deldir", "latest": {"0.1_12--r3.3.1_1": "sha256:8bc0e401376c8297ef9d50c0bbaa0bf1278723d9eb7e3dfeba619eb7bc89bd7e"}, "tags": {"0.1_12--r3.3.1_1": "sha256:8bc0e401376c8297ef9d50c0bbaa0bf1278723d9eb7e3dfeba619eb7bc89bd7e", "0.1_12--r3.3.2_1": "sha256:a5d827a6e4598bc9d6e98dfff430c54942b5c4fe7ba7908cc4dacc4b5c97577c"}, "docker": "quay.io/biocontainers/r-deldir", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-deldir.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tfmpvalue"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tfmpvalue/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tfmpvalue/container.yaml"
-updated_at: "2024-04-03 02:42:51.140048"
+updated_at: "2024-04-04 02:44:49.237704"
 latest: "0.0.6--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-tfmpvalue"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.0.6--r3.3.1_0"
+ - "0.0.6--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-tfmpvalue"
-config: {"url": "https://biocontainers.pro/tools/r-tfmpvalue", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tfmpvalue", "latest": {"0.0.6--r3.3.1_0": "sha256:2cdf5b52b75f8d3fa118fde9bac469bf0c39cc0c9dca2ef072785d6568f141fe"}, "tags": {"0.0.6--r3.3.1_0": "sha256:2cdf5b52b75f8d3fa118fde9bac469bf0c39cc0c9dca2ef072785d6568f141fe"}, "docker": "quay.io/biocontainers/r-tfmpvalue", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-tfmpvalue", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tfmpvalue", "latest": {"0.0.6--r3.3.1_0": "sha256:2cdf5b52b75f8d3fa118fde9bac469bf0c39cc0c9dca2ef072785d6568f141fe"}, "tags": {"0.0.6--r3.3.1_0": "sha256:2cdf5b52b75f8d3fa118fde9bac469bf0c39cc0c9dca2ef072785d6568f141fe", "0.0.6--r3.4.1_0": "sha256:713b3ebc4091b838b7e919a23bfa285c9bb5d6909abba72df383af80caf32468"}, "docker": "quay.io/biocontainers/r-tfmpvalue", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-tfmpvalue.
