@@ -5,6 +5,7 @@ latest:
   0.1.5--py37h516909a_0: sha256:c9ac6530cfb680cfe4a7a1412e7a862030d6bf216c62f14f15890326429ea16e
 tags:
   0.1.5--py37h516909a_0: sha256:c9ac6530cfb680cfe4a7a1412e7a862030d6bf216c62f14f15890326429ea16e
+  0.1.5--py36h516909a_0: sha256:aa6d6b84016f516d71c2986068a38dd41e969a9f7ef1399a0ad0e549d9e277ef
 docker: quay.io/biocontainers/genomelake
 aliases:
   dask-remote: /usr/local/bin/dask-remote

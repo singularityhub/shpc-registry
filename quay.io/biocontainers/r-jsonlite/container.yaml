@@ -5,6 +5,7 @@ latest:
   0.9.19--r3.3.1_1: sha256:47f1d9f319e2f735cbdb56afc695e313eb6d460a229e7edb433c3debe7bb347e
 tags:
   0.9.19--r3.3.1_1: sha256:47f1d9f319e2f735cbdb56afc695e313eb6d460a229e7edb433c3debe7bb347e
+  0.9.19--r3.3.2_1: sha256:d9dc979c0c5f17cd87d6c85cb7e9cb24230f9918765d43027b8a75b59045eea1
 docker: quay.io/biocontainers/r-jsonlite
 aliases:
   uconv: /usr/local/bin/uconv

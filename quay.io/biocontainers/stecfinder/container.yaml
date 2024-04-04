@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/stecfinder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for stecfinder
 latest:
-  1.1.1--pyhdfd78af_0: sha256:e165d65c127be2ec70a6f066a5f209ff8956ddd9edb5ea646a889072e8897e0a
+  1.1.2--pyhdfd78af_0: sha256:d29e03564562608d02b068251dd00b86642ec621a677dc1eb9cdec2b58eb0a23
 tags:
   1.1.0--pyhdfd78af_0: sha256:dadf3e030539a5df63721596346b54fff590ec8eb7fab0a16a42e8620c27372d
   1.1.1--pyhdfd78af_0: sha256:e165d65c127be2ec70a6f066a5f209ff8956ddd9edb5ea646a889072e8897e0a
+  1.1.2--pyhdfd78af_0: sha256:d29e03564562608d02b068251dd00b86642ec621a677dc1eb9cdec2b58eb0a23
 docker: quay.io/biocontainers/stecfinder
 aliases:
   kma: /usr/local/bin/kma

@@ -6,6 +6,7 @@ latest:
 tags:
   1.1.2--py39hbf8eff0_3: sha256:4b723525bd15ddbe8f48e2eea10288c65a0c737ee4c929dd38719e3460cab357
   1.1.2--py310h4b81fae_5: sha256:9e2ebbf5dd99b27071f7cb4afc3918c6880b6364f9de16d3923019b887a2cada
+  1.1.2--py39hf95cd2a_5: sha256:ec4c7424ea1aa08aacde8f68b0c1d24635568c62010aeda2b09c563b96f143de
 docker: quay.io/biocontainers/cyushuffle
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9

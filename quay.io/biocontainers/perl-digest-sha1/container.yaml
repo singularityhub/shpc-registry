@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/perl-digest-sha1
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-digest-sha1
 latest:
-  2.13--pl5321h4ac6f70_5: sha256:e7fac37a8d8ea78d656b05a8c93f1cacb1b33efe147fe2d483078f308c5e7f36
+  2.13--pl5321h4ac6f70_6: sha256:30514a56bf255f77b5d2d0c6eed35f394f3703eab2a70417f652d2ff16afbbce
 tags:
   2.13--pl5321h9f5acd7_3: sha256:f42bc242a9225e70c5c087891512f40a305b65822a1cf8185817d3d910efe678
   2.13--pl5321h4ac6f70_5: sha256:e7fac37a8d8ea78d656b05a8c93f1cacb1b33efe147fe2d483078f308c5e7f36
+  2.13--pl5321h4ac6f70_6: sha256:30514a56bf255f77b5d2d0c6eed35f394f3703eab2a70417f652d2ff16afbbce
 docker: quay.io/biocontainers/perl-digest-sha1
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

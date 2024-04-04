@@ -6,6 +6,7 @@ latest:
 tags:
   1.2.2--py39h2add14b_0: sha256:7f987be75d1028a6c291437e202d7c3569e2e7f06b7b6538569eb94a7e80a933
   1.2.2--py39h4e691d4_1: sha256:4d85dc88990e681d1a9a02c9aa2afec946d2ef18c3e819d6826bfe5cc8da30d9
+  1.2.2--py310h6cc9453_1: sha256:bd376e348fbda78caeac292edb579b9193b9aabca5b35502ea688e01c9e3cc59
 docker: quay.io/biocontainers/resmico
 aliases:
   ccmake: /usr/local/bin/ccmake

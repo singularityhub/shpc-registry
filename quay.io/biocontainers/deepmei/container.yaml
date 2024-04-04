@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/deepmei
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for deepmei
 latest:
-  1.0.0--hdfd78af_0: sha256:2cea61072003ce9db519391639e938db5674b3f4014a799293e5fd222e31a24a
+  1.6.24--hdfd78af_0: sha256:0b5634471eaeb0ab3e487647d95e2d8276bbca14aa3a0e4730a69c8867fc6c9a
 tags:
   1.0.0--hdfd78af_0: sha256:2cea61072003ce9db519391639e938db5674b3f4014a799293e5fd222e31a24a
+  1.6.24--hdfd78af_0: sha256:0b5634471eaeb0ab3e487647d95e2d8276bbca14aa3a0e4730a69c8867fc6c9a
 docker: quay.io/biocontainers/deepmei
 aliases:
   bigRmskAlignBed.as: /usr/local/bin/bigRmskAlignBed.as

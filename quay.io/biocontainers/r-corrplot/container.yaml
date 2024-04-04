@@ -5,6 +5,7 @@ latest:
   0.77--r3.3.1_0: sha256:4d2604dcb5825f059bb94bee4c26e626eec560249d5451a4fc368029350ced14
 tags:
   0.77--r3.3.1_0: sha256:4d2604dcb5825f059bb94bee4c26e626eec560249d5451a4fc368029350ced14
+  0.77--r3.3.2_0: sha256:5943f9069c1fbd775d88e12f32a9394926fc2f662d5dd0fe8559e5548c2fa349
 docker: quay.io/biocontainers/r-corrplot
 aliases:
   uconv: /usr/local/bin/uconv

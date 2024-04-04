@@ -5,6 +5,7 @@ latest:
   0.5.0--py37h77a2a36_1: sha256:58d61ec06edb3441f7d9b2b5dcc0f819a096b134468c6b5b4eda1cae22392d0e
 tags:
   0.5.0--py37h77a2a36_1: sha256:58d61ec06edb3441f7d9b2b5dcc0f819a096b134468c6b5b4eda1cae22392d0e
+  0.5.0--py36h4f025d9_1: sha256:188c9b514e3d15253fe985d929755dfa36ba588521e4be724c5480f179015580
 docker: quay.io/biocontainers/selene-sdk
 aliases:
   selene_sdk: /usr/local/bin/selene_sdk

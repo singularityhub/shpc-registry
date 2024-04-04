@@ -9,6 +9,7 @@ tags:
   1.10.0--r41hbcef4ee_1: sha256:d58e8076718d038c1f85bd9b84641ffb0c66273066c6e80083ead2a13a799c8e
   1.14.0--r42hd6180af_1: sha256:15fbafffffdf715835337a742e83f2f0aa63ac6abf17ff223747fb6039344349
   1.16.0--r43hdfd78af_0: sha256:55fe99fb5022fca15ca1a4ff8e7eb131ac4d530b8fd82d7dc7fd0678d1a373f7
+  1.14.0--r42h5284365_1: sha256:a1252fef89e1153068a67f1480fc50dd8ab3c908448e014e5ffd6ab2b451ccc4
 docker: quay.io/biocontainers/bioconductor-rcwlpipelines
 aliases:
   node: /usr/local/bin/node

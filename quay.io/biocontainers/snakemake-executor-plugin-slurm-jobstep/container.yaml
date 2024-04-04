@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/snakemake-executor-plugin-slurm-jobstep
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snakemake-executor-plugin-slurm-jobstep
 latest:
-  0.1.10--pyhdfd78af_0: sha256:6f6dc5bd6bd2d3670a24cbe539aced0a41843c28c51e8bce714c1ef406502764
+  0.1.11--pyhdfd78af_0: sha256:46a3ee753d34bb1aac3c068289b53cb84294a81916607054731baf1dd8fd0b8e
 tags:
   0.1.8--pyhdfd78af_0: sha256:877fba61de3da80da06b7c51859b437d96a3dccf6cdc3b0dbaf839bde3fe1724
   0.1.10--pyhdfd78af_0: sha256:6f6dc5bd6bd2d3670a24cbe539aced0a41843c28c51e8bce714c1ef406502764
+  0.1.11--pyhdfd78af_0: sha256:46a3ee753d34bb1aac3c068289b53cb84294a81916607054731baf1dd8fd0b8e
 docker: quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/metaeuk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metaeuk
 latest:
-  6.a5d39d9--pl5321h6a68c12_3: sha256:747073d0d621f9994db023426d4837779d4d42152b292d92fc1eafe2c9ad5a96
+  6.a5d39d9--pl5321h6a68c12_4: sha256:43f9a970450d4299e440226b30cafb42a5038244a8cf72c2b30114f774750ded
 tags:
   6.a5d39d9--pl5321hf1761c0_1: sha256:2b31f6eb87329e0b6bb738af94aa7bc12e75ca2a4451904596abbb1d0bf935d6
   6.a5d39d9--pl5321h6a68c12_3: sha256:747073d0d621f9994db023426d4837779d4d42152b292d92fc1eafe2c9ad5a96
+  6.a5d39d9--pl5321h6a68c12_4: sha256:43f9a970450d4299e440226b30cafb42a5038244a8cf72c2b30114f774750ded
 docker: quay.io/biocontainers/metaeuk
 aliases:
   metaeuk: /usr/local/bin/metaeuk
