@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/conduit-assembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/conduit-assembler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/conduit-assembler/container.yaml"
-updated_at: "2024-04-04 02:58:54.558873"
+updated_at: "2024-04-04 04:21:41.250107"
 latest: "0.1.2--h14cfee4_1"
 container_url: "https://biocontainers.pro/tools/conduit-assembler"
 aliases:

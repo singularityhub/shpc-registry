@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scrnaseqapp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scrnaseqapp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scrnaseqapp/container.yaml"
-updated_at: "2024-04-04 02:42:39.166675"
+updated_at: "2024-04-04 04:05:07.420182"
 latest: "1.2.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scrnaseqapp"
 aliases:

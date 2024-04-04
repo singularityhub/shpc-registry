@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-remove"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-remove/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-remove/container.yaml"
-updated_at: "2024-04-04 03:08:59.428047"
+updated_at: "2024-04-04 04:32:06.715300"
 latest: "1.57--pl5321h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/perl-file-remove"
 aliases:

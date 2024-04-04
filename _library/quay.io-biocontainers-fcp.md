@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fcp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fcp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fcp/container.yaml"
-updated_at: "2024-04-04 02:57:01.632359"
+updated_at: "2024-04-04 04:19:45.045019"
 latest: "1.0.7--py27_0"
 container_url: "https://biocontainers.pro/tools/fcp"
 aliases:

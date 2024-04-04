@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viroconstrictor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viroconstrictor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viroconstrictor/container.yaml"
-updated_at: "2024-04-04 02:27:02.033905"
+updated_at: "2024-04-04 03:49:17.345212"
 latest: "1.4.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/viroconstrictor"
 aliases:

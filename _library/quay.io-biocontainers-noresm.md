@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/noresm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/noresm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/noresm/container.yaml"
-updated_at: "2024-04-04 02:40:39.663692"
+updated_at: "2024-04-04 04:03:06.660751"
 latest: "2.0.2--py38pl5321hbcac906_1"
 container_url: "https://biocontainers.pro/tools/noresm"
 aliases:
