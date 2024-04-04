@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/rabbitqcplus
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rabbitqcplus
+latest:
+  2.2.9--h43eeafb_0: sha256:f51b039b364284aa991e2be51dc9478633cfe395a1fbc47b0abd5347cfde58f9
+tags:
+  2.2.9--h43eeafb_0: sha256:f51b039b364284aa991e2be51dc9478633cfe395a1fbc47b0abd5347cfde58f9
+docker: quay.io/biocontainers/rabbitqcplus
+aliases:
+  RabbitQCPlus: /usr/local/bin/RabbitQCPlus
+  rabbitqcplus: /usr/local/bin/rabbitqcplus
