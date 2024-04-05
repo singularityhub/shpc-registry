@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metaeuk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaeuk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaeuk/container.yaml"
-updated_at: "2024-04-04 04:15:29.368386"
-latest: "6.a5d39d9--pl5321h6a68c12_3"
+updated_at: "2024-04-05 02:50:20.458741"
+latest: "6.a5d39d9--pl5321h6a68c12_4"
 container_url: "https://biocontainers.pro/tools/metaeuk"
 aliases:
  - "metaeuk"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "6.a5d39d9--pl5321hf1761c0_1"
  - "6.a5d39d9--pl5321h6a68c12_3"
+ - "6.a5d39d9--pl5321h6a68c12_4"
 description: "shpc-registry automated BioContainers addition for metaeuk"
-config: {"url": "https://biocontainers.pro/tools/metaeuk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaeuk", "latest": {"6.a5d39d9--pl5321h6a68c12_3": "sha256:747073d0d621f9994db023426d4837779d4d42152b292d92fc1eafe2c9ad5a96"}, "tags": {"6.a5d39d9--pl5321hf1761c0_1": "sha256:2b31f6eb87329e0b6bb738af94aa7bc12e75ca2a4451904596abbb1d0bf935d6", "6.a5d39d9--pl5321h6a68c12_3": "sha256:747073d0d621f9994db023426d4837779d4d42152b292d92fc1eafe2c9ad5a96"}, "docker": "quay.io/biocontainers/metaeuk", "aliases": {"metaeuk": "/usr/local/bin/metaeuk", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/metaeuk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaeuk", "latest": {"6.a5d39d9--pl5321h6a68c12_4": "sha256:43f9a970450d4299e440226b30cafb42a5038244a8cf72c2b30114f774750ded"}, "tags": {"6.a5d39d9--pl5321hf1761c0_1": "sha256:2b31f6eb87329e0b6bb738af94aa7bc12e75ca2a4451904596abbb1d0bf935d6", "6.a5d39d9--pl5321h6a68c12_3": "sha256:747073d0d621f9994db023426d4837779d4d42152b292d92fc1eafe2c9ad5a96", "6.a5d39d9--pl5321h6a68c12_4": "sha256:43f9a970450d4299e440226b30cafb42a5038244a8cf72c2b30114f774750ded"}, "docker": "quay.io/biocontainers/metaeuk", "aliases": {"metaeuk": "/usr/local/bin/metaeuk", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metaeuk.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/metaeuk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metaeuk:6.a5d39d9--pl5321h6a68c12_3
+$ shpc install quay.io/biocontainers/metaeuk:6.a5d39d9--pl5321h6a68c12_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metaeuk/6.a5d39d9--pl5321h6a68c12_3
-$ module help quay.io/biocontainers/metaeuk/6.a5d39d9--pl5321h6a68c12_3
+$ module load quay.io/biocontainers/metaeuk/6.a5d39d9--pl5321h6a68c12_4
+$ module help quay.io/biocontainers/metaeuk/6.a5d39d9--pl5321h6a68c12_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

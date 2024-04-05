@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomelake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomelake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomelake/container.yaml"
-updated_at: "2024-04-04 04:22:36.115115"
+updated_at: "2024-04-05 02:57:16.156747"
 latest: "0.1.5--py37h516909a_0"
 container_url: "https://biocontainers.pro/tools/genomelake"
 aliases:
@@ -22,8 +22,9 @@ aliases:
  - "venn_mpl.py"
 versions:
  - "0.1.5--py37h516909a_0"
+ - "0.1.5--py36h516909a_0"
 description: "shpc-registry automated BioContainers addition for genomelake"
-config: {"url": "https://biocontainers.pro/tools/genomelake", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomelake", "latest": {"0.1.5--py37h516909a_0": "sha256:c9ac6530cfb680cfe4a7a1412e7a862030d6bf216c62f14f15890326429ea16e"}, "tags": {"0.1.5--py37h516909a_0": "sha256:c9ac6530cfb680cfe4a7a1412e7a862030d6bf216c62f14f15890326429ea16e"}, "docker": "quay.io/biocontainers/genomelake", "aliases": {"dask-remote": "/usr/local/bin/dask-remote", "dask-submit": "/usr/local/bin/dask-submit", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py"}}
+config: {"url": "https://biocontainers.pro/tools/genomelake", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomelake", "latest": {"0.1.5--py37h516909a_0": "sha256:c9ac6530cfb680cfe4a7a1412e7a862030d6bf216c62f14f15890326429ea16e"}, "tags": {"0.1.5--py37h516909a_0": "sha256:c9ac6530cfb680cfe4a7a1412e7a862030d6bf216c62f14f15890326429ea16e", "0.1.5--py36h516909a_0": "sha256:aa6d6b84016f516d71c2986068a38dd41e969a9f7ef1399a0ad0e549d9e277ef"}, "docker": "quay.io/biocontainers/genomelake", "aliases": {"dask-remote": "/usr/local/bin/dask-remote", "dask-submit": "/usr/local/bin/dask-submit", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genomelake.

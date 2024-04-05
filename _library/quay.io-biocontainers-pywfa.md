@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pywfa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pywfa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pywfa/container.yaml"
-updated_at: "2024-04-04 03:58:42.798761"
+updated_at: "2024-04-05 02:33:58.201595"
 latest: "0.5.1--py39hf95cd2a_2"
 container_url: "https://biocontainers.pro/tools/pywfa"
 
@@ -14,8 +14,9 @@ versions:
  - "0.4.2--hec16e2b_0"
  - "0.5.1--h031d066_0"
  - "0.5.1--py39hf95cd2a_2"
+ - "0.5.1--py38he5da3d1_2"
 description: "singularity registry hpc automated addition for pywfa"
-config: {"url": "https://biocontainers.pro/tools/pywfa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pywfa", "latest": {"0.5.1--py39hf95cd2a_2": "sha256:d91581773bac49fc732a921390def212faf02a7768c9c626fa7d1564400bff9a"}, "tags": {"0.4.1--hec16e2b_0": "sha256:ef0edf82a8c6820a94c47e9dab04fab06779d537aa80982e773a73579c0f59c0", "0.5.0--hec16e2b_0": "sha256:f082c548ed89a70b89e3fe84f6ff07f1f845bc3076e2734396e3b7532517170b", "0.4.2--hec16e2b_0": "sha256:7cbec4a01b3f5a878e45a0e4595445817485880239baaf0062aa0427ea447918", "0.5.1--h031d066_0": "sha256:0f2df4d48e6deb216cbcb612bf044bbd993633d4f7f8b3947fd13d6ebd3783d9", "0.5.1--py39hf95cd2a_2": "sha256:d91581773bac49fc732a921390def212faf02a7768c9c626fa7d1564400bff9a"}, "docker": "quay.io/biocontainers/pywfa"}
+config: {"url": "https://biocontainers.pro/tools/pywfa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pywfa", "latest": {"0.5.1--py39hf95cd2a_2": "sha256:d91581773bac49fc732a921390def212faf02a7768c9c626fa7d1564400bff9a"}, "tags": {"0.4.1--hec16e2b_0": "sha256:ef0edf82a8c6820a94c47e9dab04fab06779d537aa80982e773a73579c0f59c0", "0.5.0--hec16e2b_0": "sha256:f082c548ed89a70b89e3fe84f6ff07f1f845bc3076e2734396e3b7532517170b", "0.4.2--hec16e2b_0": "sha256:7cbec4a01b3f5a878e45a0e4595445817485880239baaf0062aa0427ea447918", "0.5.1--h031d066_0": "sha256:0f2df4d48e6deb216cbcb612bf044bbd993633d4f7f8b3947fd13d6ebd3783d9", "0.5.1--py39hf95cd2a_2": "sha256:d91581773bac49fc732a921390def212faf02a7768c9c626fa7d1564400bff9a", "0.5.1--py38he5da3d1_2": "sha256:25ce1a807427aeb51c1b850205aad535ff4932ce84d008e6843682a51dede1cf"}, "docker": "quay.io/biocontainers/pywfa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pywfa.

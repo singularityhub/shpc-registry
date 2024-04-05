@@ -4,7 +4,7 @@ name:  "bids/spm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/spm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/spm/container.yaml"
-updated_at: "2024-04-04 04:32:57.395196"
+updated_at: "2024-04-05 03:07:09.550599"
 latest: "chrisfilo-patch-1"
 container_url: "https://hub.docker.com/r/bids/spm"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "enh_various"
  - "unstable"
 description: "The implementation of the theoretical concepts of Statistical Parametric Mapping in a complete analysis package."
-config: {"docker": "bids/spm", "url": "https://hub.docker.com/r/bids/spm", "maintainer": "@vsoch", "description": "The implementation of the theoretical concepts of Statistical Parametric Mapping in a complete analysis package.", "latest": {"chrisfilo-patch-1": "sha256:a569a8fc2b9b4b99bea1ea0b61c3772961708ec1890080084ed008fe27846a44"}, "tags": {"latest": "sha256:cb77a4589bd6a3fb4cf79c76781e8a0cd92ce045ee1373679ddc431afb2a0a16", "v0.0.20": "sha256:e72a97f0aad8a4e635d7c1d92f6fbf38ee98cb117eba520e26bbc135c052255c", "chrisfilo-patch-1": "sha256:a569a8fc2b9b4b99bea1ea0b61c3772961708ec1890080084ed008fe27846a44", "enh_various": "sha256:e477c8a30722eafe8fc61592bf17b64c0afd5f737140589ef55d76ebc47bffd7", "unstable": "sha256:a7316d2b1ddb5cd7605a9ae98a3d500e5ece51f2fccbe7823bfff96eade8084f"}, "aliases": {"spm12": "/opt/spm12/spm12"}, "filter": ["v*"]}
+config: {"docker": "bids/spm", "url": "https://hub.docker.com/r/bids/spm", "maintainer": "@vsoch", "description": "The implementation of the theoretical concepts of Statistical Parametric Mapping in a complete analysis package.", "latest": {"chrisfilo-patch-1": "sha256:a569a8fc2b9b4b99bea1ea0b61c3772961708ec1890080084ed008fe27846a44"}, "tags": {"latest": "sha256:cb77a4589bd6a3fb4cf79c76781e8a0cd92ce045ee1373679ddc431afb2a0a16", "v0.0.20": "sha256:e72a97f0aad8a4e635d7c1d92f6fbf38ee98cb117eba520e26bbc135c052255c", "chrisfilo-patch-1": "sha256:a569a8fc2b9b4b99bea1ea0b61c3772961708ec1890080084ed008fe27846a44", "enh_various": "sha256:e477c8a30722eafe8fc61592bf17b64c0afd5f737140589ef55d76ebc47bffd7", "unstable": "sha256:f696fa1d3c7b29388710afa1fdaf3db2248f13751d9c87707c644a6d2e1659c6"}, "aliases": {"spm12": "/opt/spm12/spm12"}, "filter": ["v*"]}
 ---
 
 This module is a singularity container wrapper for bids/spm.

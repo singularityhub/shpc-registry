@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/selene-sdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/selene-sdk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/selene-sdk/container.yaml"
-updated_at: "2024-04-04 03:51:52.833122"
+updated_at: "2024-04-05 02:27:19.548371"
 latest: "0.5.0--py37h77a2a36_1"
 container_url: "https://biocontainers.pro/tools/selene-sdk"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "idle3.7"
 versions:
  - "0.5.0--py37h77a2a36_1"
+ - "0.5.0--py36h4f025d9_1"
 description: "shpc-registry automated BioContainers addition for selene-sdk"
-config: {"url": "https://biocontainers.pro/tools/selene-sdk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for selene-sdk", "latest": {"0.5.0--py37h77a2a36_1": "sha256:58d61ec06edb3441f7d9b2b5dcc0f819a096b134468c6b5b4eda1cae22392d0e"}, "tags": {"0.5.0--py37h77a2a36_1": "sha256:58d61ec06edb3441f7d9b2b5dcc0f819a096b134468c6b5b4eda1cae22392d0e"}, "docker": "quay.io/biocontainers/selene-sdk", "aliases": {"selene_sdk": "/usr/local/bin/selene_sdk", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "faidx": "/usr/local/bin/faidx", "f2py3.7": "/usr/local/bin/f2py3.7", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7"}}
+config: {"url": "https://biocontainers.pro/tools/selene-sdk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for selene-sdk", "latest": {"0.5.0--py37h77a2a36_1": "sha256:58d61ec06edb3441f7d9b2b5dcc0f819a096b134468c6b5b4eda1cae22392d0e"}, "tags": {"0.5.0--py37h77a2a36_1": "sha256:58d61ec06edb3441f7d9b2b5dcc0f819a096b134468c6b5b4eda1cae22392d0e", "0.5.0--py36h4f025d9_1": "sha256:188c9b514e3d15253fe985d929755dfa36ba588521e4be724c5480f179015580"}, "docker": "quay.io/biocontainers/selene-sdk", "aliases": {"selene_sdk": "/usr/local/bin/selene_sdk", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "faidx": "/usr/local/bin/faidx", "f2py3.7": "/usr/local/bin/f2py3.7", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/selene-sdk.

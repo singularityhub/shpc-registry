@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proteowizard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteowizard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteowizard/container.yaml"
-updated_at: "2024-04-04 04:12:47.741521"
+updated_at: "2024-04-05 02:47:42.621949"
 latest: "3_0_9992--h2d50403_2"
 container_url: "https://biocontainers.pro/tools/proteowizard"
 aliases:
@@ -27,8 +27,9 @@ aliases:
  - "txt2mzml"
 versions:
  - "3_0_9992--h2d50403_2"
+ - "3.0.9992"
 description: "shpc-registry automated BioContainers addition for proteowizard"
-config: {"url": "https://biocontainers.pro/tools/proteowizard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteowizard", "latest": {"3_0_9992--h2d50403_2": "sha256:3b1753654e2d825d6ee34192cdf0d08b886565fb7ed1fd01c4f4c713968c304f"}, "tags": {"3_0_9992--h2d50403_2": "sha256:3b1753654e2d825d6ee34192cdf0d08b886565fb7ed1fd01c4f4c713968c304f"}, "docker": "quay.io/biocontainers/proteowizard", "aliases": {"chainsaw": "/usr/local/bin/chainsaw", "idcat": "/usr/local/bin/idcat", "idconvert": "/usr/local/bin/idconvert", "msaccess": "/usr/local/bin/msaccess", "msbenchmark": "/usr/local/bin/msbenchmark", "mscat": "/usr/local/bin/mscat", "msconvert": "/usr/local/bin/msconvert", "msdiff": "/usr/local/bin/msdiff", "msdir": "/usr/local/bin/msdir", "msistats": "/usr/local/bin/msistats", "mspicture": "/usr/local/bin/mspicture", "peakaboo": "/usr/local/bin/peakaboo", "pepcat": "/usr/local/bin/pepcat", "pepsum": "/usr/local/bin/pepsum", "qtofpeakpicker": "/usr/local/bin/qtofpeakpicker", "sldout": "/usr/local/bin/sldout", "txt2mzml": "/usr/local/bin/txt2mzml"}}
+config: {"url": "https://biocontainers.pro/tools/proteowizard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteowizard", "latest": {"3_0_9992--h2d50403_2": "sha256:3b1753654e2d825d6ee34192cdf0d08b886565fb7ed1fd01c4f4c713968c304f"}, "tags": {"3_0_9992--h2d50403_2": "sha256:3b1753654e2d825d6ee34192cdf0d08b886565fb7ed1fd01c4f4c713968c304f", "3.0.9992": "sha256:eaf9f7b9a1129c954cd3eaa7a079c8a7d51898a8b87578eaf77093f75a12659c"}, "docker": "quay.io/biocontainers/proteowizard", "aliases": {"chainsaw": "/usr/local/bin/chainsaw", "idcat": "/usr/local/bin/idcat", "idconvert": "/usr/local/bin/idconvert", "msaccess": "/usr/local/bin/msaccess", "msbenchmark": "/usr/local/bin/msbenchmark", "mscat": "/usr/local/bin/mscat", "msconvert": "/usr/local/bin/msconvert", "msdiff": "/usr/local/bin/msdiff", "msdir": "/usr/local/bin/msdir", "msistats": "/usr/local/bin/msistats", "mspicture": "/usr/local/bin/mspicture", "peakaboo": "/usr/local/bin/peakaboo", "pepcat": "/usr/local/bin/pepcat", "pepsum": "/usr/local/bin/pepsum", "qtofpeakpicker": "/usr/local/bin/qtofpeakpicker", "sldout": "/usr/local/bin/sldout", "txt2mzml": "/usr/local/bin/txt2mzml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proteowizard.

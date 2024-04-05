@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/stecfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stecfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stecfinder/container.yaml"
-updated_at: "2024-04-04 04:20:56.797096"
-latest: "1.1.1--pyhdfd78af_0"
+updated_at: "2024-04-05 02:55:39.997016"
+latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/stecfinder"
 aliases:
  - "kma"
@@ -26,8 +26,9 @@ aliases:
 versions:
  - "1.1.0--pyhdfd78af_0"
  - "1.1.1--pyhdfd78af_0"
+ - "1.1.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for stecfinder"
-config: {"url": "https://biocontainers.pro/tools/stecfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stecfinder", "latest": {"1.1.1--pyhdfd78af_0": "sha256:e165d65c127be2ec70a6f066a5f209ff8956ddd9edb5ea646a889072e8897e0a"}, "tags": {"1.1.0--pyhdfd78af_0": "sha256:dadf3e030539a5df63721596346b54fff590ec8eb7fab0a16a42e8620c27372d", "1.1.1--pyhdfd78af_0": "sha256:e165d65c127be2ec70a6f066a5f209ff8956ddd9edb5ea646a889072e8897e0a"}, "docker": "quay.io/biocontainers/stecfinder", "aliases": {"kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "stecfinder": "/usr/local/bin/stecfinder", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
+config: {"url": "https://biocontainers.pro/tools/stecfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stecfinder", "latest": {"1.1.2--pyhdfd78af_0": "sha256:d29e03564562608d02b068251dd00b86642ec621a677dc1eb9cdec2b58eb0a23"}, "tags": {"1.1.0--pyhdfd78af_0": "sha256:dadf3e030539a5df63721596346b54fff590ec8eb7fab0a16a42e8620c27372d", "1.1.1--pyhdfd78af_0": "sha256:e165d65c127be2ec70a6f066a5f209ff8956ddd9edb5ea646a889072e8897e0a", "1.1.2--pyhdfd78af_0": "sha256:d29e03564562608d02b068251dd00b86642ec621a677dc1eb9cdec2b58eb0a23"}, "docker": "quay.io/biocontainers/stecfinder", "aliases": {"kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "stecfinder": "/usr/local/bin/stecfinder", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/stecfinder.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/stecfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/stecfinder:1.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/stecfinder:1.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/stecfinder/1.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/stecfinder/1.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/stecfinder/1.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/stecfinder/1.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

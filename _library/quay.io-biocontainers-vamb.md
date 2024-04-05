@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vamb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vamb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vamb/container.yaml"
-updated_at: "2024-04-04 04:08:29.579944"
+updated_at: "2024-04-05 02:43:33.328880"
 latest: "3.0.2--py37h8902056_2"
 container_url: "https://biocontainers.pro/tools/vamb"
 aliases:
@@ -22,8 +22,9 @@ aliases:
  - "python3.7m"
 versions:
  - "3.0.2--py37h8902056_2"
+ - "3.0.2--py36h91eb985_2"
 description: "shpc-registry automated BioContainers addition for vamb"
-config: {"url": "https://biocontainers.pro/tools/vamb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vamb", "latest": {"3.0.2--py37h8902056_2": "sha256:f6c3eae18439c3bbdac47d72242a37e9df5ef82bfe1c54749dfaac1914202bf1"}, "tags": {"3.0.2--py37h8902056_2": "sha256:f6c3eae18439c3bbdac47d72242a37e9df5ef82bfe1c54749dfaac1914202bf1"}, "docker": "quay.io/biocontainers/vamb", "aliases": {"concatenate.py": "/usr/local/bin/concatenate.py", "vamb": "/usr/local/bin/vamb", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
+config: {"url": "https://biocontainers.pro/tools/vamb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vamb", "latest": {"3.0.2--py37h8902056_2": "sha256:f6c3eae18439c3bbdac47d72242a37e9df5ef82bfe1c54749dfaac1914202bf1"}, "tags": {"3.0.2--py37h8902056_2": "sha256:f6c3eae18439c3bbdac47d72242a37e9df5ef82bfe1c54749dfaac1914202bf1", "3.0.2--py36h91eb985_2": "sha256:92ae8eca6139ccd5c31216b49de194a4c0a9a46882eba0b447cc2f77ce1f409c"}, "docker": "quay.io/biocontainers/vamb", "aliases": {"concatenate.py": "/usr/local/bin/concatenate.py", "vamb": "/usr/local/bin/vamb", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vamb.

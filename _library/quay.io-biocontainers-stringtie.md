@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/stringtie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stringtie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stringtie/container.yaml"
-updated_at: "2024-04-04 04:23:43.557748"
-latest: "2.2.1--hecb563c_2"
+updated_at: "2024-04-05 02:58:21.957513"
+latest: "2.2.1--h43eeafb_6"
 container_url: "https://biocontainers.pro/tools/stringtie"
 aliases:
  - "prepDE.py"
@@ -21,8 +21,9 @@ aliases:
  - "tabix"
 versions:
  - "2.2.1--hecb563c_2"
+ - "2.2.1--h43eeafb_6"
 description: "shpc-registry automated BioContainers addition for stringtie"
-config: {"url": "https://biocontainers.pro/tools/stringtie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stringtie", "latest": {"2.2.1--hecb563c_2": "sha256:8f557d827442a99b264caf623e075f4e3bd4421b2ffc8de69bc45156a076dadf"}, "tags": {"2.2.1--hecb563c_2": "sha256:8f557d827442a99b264caf623e075f4e3bd4421b2ffc8de69bc45156a076dadf"}, "docker": "quay.io/biocontainers/stringtie", "aliases": {"prepDE.py": "/usr/local/bin/prepDE.py", "stringtie": "/usr/local/bin/stringtie", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/stringtie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stringtie", "latest": {"2.2.1--h43eeafb_6": "sha256:3a57bf3a577e0027d2a35ff9fc5f95ceb376893dd40d467d4b216cc85678e8e6"}, "tags": {"2.2.1--hecb563c_2": "sha256:8f557d827442a99b264caf623e075f4e3bd4421b2ffc8de69bc45156a076dadf", "2.2.1--h43eeafb_6": "sha256:3a57bf3a577e0027d2a35ff9fc5f95ceb376893dd40d467d4b216cc85678e8e6"}, "docker": "quay.io/biocontainers/stringtie", "aliases": {"prepDE.py": "/usr/local/bin/prepDE.py", "stringtie": "/usr/local/bin/stringtie", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/stringtie.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/stringtie
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/stringtie:2.2.1--hecb563c_2
+$ shpc install quay.io/biocontainers/stringtie:2.2.1--h43eeafb_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/stringtie/2.2.1--hecb563c_2
-$ module help quay.io/biocontainers/stringtie/2.2.1--hecb563c_2
+$ module load quay.io/biocontainers/stringtie/2.2.1--h43eeafb_6
+$ module help quay.io/biocontainers/stringtie/2.2.1--h43eeafb_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

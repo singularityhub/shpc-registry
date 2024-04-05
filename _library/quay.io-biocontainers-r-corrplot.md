@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-corrplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-corrplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-corrplot/container.yaml"
-updated_at: "2024-04-04 03:57:23.720141"
+updated_at: "2024-04-05 02:32:40.651435"
 latest: "0.77--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-corrplot"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.77--r3.3.1_0"
+ - "0.77--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-corrplot"
-config: {"url": "https://biocontainers.pro/tools/r-corrplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-corrplot", "latest": {"0.77--r3.3.1_0": "sha256:4d2604dcb5825f059bb94bee4c26e626eec560249d5451a4fc368029350ced14"}, "tags": {"0.77--r3.3.1_0": "sha256:4d2604dcb5825f059bb94bee4c26e626eec560249d5451a4fc368029350ced14"}, "docker": "quay.io/biocontainers/r-corrplot", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-corrplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-corrplot", "latest": {"0.77--r3.3.1_0": "sha256:4d2604dcb5825f059bb94bee4c26e626eec560249d5451a4fc368029350ced14"}, "tags": {"0.77--r3.3.1_0": "sha256:4d2604dcb5825f059bb94bee4c26e626eec560249d5451a4fc368029350ced14", "0.77--r3.3.2_0": "sha256:5943f9069c1fbd775d88e12f32a9394926fc2f662d5dd0fe8559e5548c2fa349"}, "docker": "quay.io/biocontainers/r-corrplot", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-corrplot.

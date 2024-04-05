@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/igblast-parser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igblast-parser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igblast-parser/container.yaml"
-updated_at: "2024-04-04 04:19:08.469228"
+updated_at: "2024-04-05 02:53:54.659417"
 latest: "0.0.4--py310h4b81fae_6"
 container_url: "https://biocontainers.pro/tools/igblast-parser"
 aliases:
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "0.0.4--py36h91eb985_3"
  - "0.0.4--py310h4b81fae_6"
+ - "0.0.4--py39hf95cd2a_6"
 description: "shpc-registry automated BioContainers addition for igblast-parser"
-config: {"url": "https://biocontainers.pro/tools/igblast-parser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for igblast-parser", "latest": {"0.0.4--py310h4b81fae_6": "sha256:e3748894a9de3d6ecf75ffb6ff2d34b439895a90a8c7c24cf5fd9dd1a9003755"}, "tags": {"0.0.4--py36h91eb985_3": "sha256:a045cf35ef6514fb8371f7c6a80104667af2a73753780a5e5aeb61c31e823de1", "0.0.4--py310h4b81fae_6": "sha256:e3748894a9de3d6ecf75ffb6ff2d34b439895a90a8c7c24cf5fd9dd1a9003755"}, "docker": "quay.io/biocontainers/igblast-parser", "aliases": {"igblast-parser": "/usr/local/bin/igblast-parser", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/igblast-parser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for igblast-parser", "latest": {"0.0.4--py310h4b81fae_6": "sha256:e3748894a9de3d6ecf75ffb6ff2d34b439895a90a8c7c24cf5fd9dd1a9003755"}, "tags": {"0.0.4--py36h91eb985_3": "sha256:a045cf35ef6514fb8371f7c6a80104667af2a73753780a5e5aeb61c31e823de1", "0.0.4--py310h4b81fae_6": "sha256:e3748894a9de3d6ecf75ffb6ff2d34b439895a90a8c7c24cf5fd9dd1a9003755", "0.0.4--py39hf95cd2a_6": "sha256:23350bb4dd4e60f1603e09b4342b81855f72f0f7248ce5aa9a4627ea22ed1112"}, "docker": "quay.io/biocontainers/igblast-parser", "aliases": {"igblast-parser": "/usr/local/bin/igblast-parser", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/igblast-parser.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cyushuffle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cyushuffle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cyushuffle/container.yaml"
-updated_at: "2024-04-04 04:20:47.033817"
+updated_at: "2024-04-05 02:55:30.587308"
 latest: "1.1.2--py310h4b81fae_5"
 container_url: "https://biocontainers.pro/tools/cyushuffle"
 aliases:
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "1.1.2--py39hbf8eff0_3"
  - "1.1.2--py310h4b81fae_5"
+ - "1.1.2--py39hf95cd2a_5"
 description: "shpc-registry automated BioContainers addition for cyushuffle"
-config: {"url": "https://biocontainers.pro/tools/cyushuffle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cyushuffle", "latest": {"1.1.2--py310h4b81fae_5": "sha256:9e2ebbf5dd99b27071f7cb4afc3918c6880b6364f9de16d3923019b887a2cada"}, "tags": {"1.1.2--py39hbf8eff0_3": "sha256:4b723525bd15ddbe8f48e2eea10288c65a0c737ee4c929dd38719e3460cab357", "1.1.2--py310h4b81fae_5": "sha256:9e2ebbf5dd99b27071f7cb4afc3918c6880b6364f9de16d3923019b887a2cada"}, "docker": "quay.io/biocontainers/cyushuffle", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/cyushuffle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cyushuffle", "latest": {"1.1.2--py310h4b81fae_5": "sha256:9e2ebbf5dd99b27071f7cb4afc3918c6880b6364f9de16d3923019b887a2cada"}, "tags": {"1.1.2--py39hbf8eff0_3": "sha256:4b723525bd15ddbe8f48e2eea10288c65a0c737ee4c929dd38719e3460cab357", "1.1.2--py310h4b81fae_5": "sha256:9e2ebbf5dd99b27071f7cb4afc3918c6880b6364f9de16d3923019b887a2cada", "1.1.2--py39hf95cd2a_5": "sha256:ec4c7424ea1aa08aacde8f68b0c1d24635568c62010aeda2b09c563b96f143de"}, "docker": "quay.io/biocontainers/cyushuffle", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cyushuffle.
