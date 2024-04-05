@@ -5,6 +5,7 @@ latest:
   1.0.0--py39h68928f9_0: sha256:6a250462b90aeeb2b93986f1cc88806e4916bd4ec0c22d6cb14657d1df82416f
 tags:
   1.0.0--py39h68928f9_0: sha256:6a250462b90aeeb2b93986f1cc88806e4916bd4ec0c22d6cb14657d1df82416f
+  1.0.0--py38h820c706_0: sha256:f802bc31cf1cfa0f781842b5d62390615b51a0563b47ee5289b14fa186837ea5
 docker: quay.io/biocontainers/ntroot
 aliases:
   eido: /usr/local/bin/eido

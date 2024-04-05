@@ -5,6 +5,7 @@ latest:
   3.1--r3.2.2_0: sha256:c3415463851fc4ac5254bc70b2aa22da66c5058a54a678db9a784430ccc5d513
 tags:
   3.1--r3.2.2_0: sha256:c3415463851fc4ac5254bc70b2aa22da66c5058a54a678db9a784430ccc5d513
+  3.1--r3.3.2_0: sha256:d404a11118f5023a2537c57d928d0427b56f9f7a4333490274620af45d833ec0
 docker: quay.io/biocontainers/r-hdrcde
 aliases:
   pngcp: /usr/local/bin/pngcp

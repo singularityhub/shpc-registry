@@ -5,6 +5,7 @@ latest:
   v1.0.0--pyh5e36f6f_0: sha256:9f6b9702b32921f712a8f5ec0aef60ef1044ca746c5be70d7b710625be965999
 tags:
   v1.0.0--pyh5e36f6f_0: sha256:9f6b9702b32921f712a8f5ec0aef60ef1044ca746c5be70d7b710625be965999
+  1.0.0--pyh5e36f6f_0: sha256:565da739962e22fa43aa5ed6e0ee2309ad48f2dbbfaaef00e5575aa84302e524
 docker: quay.io/biocontainers/codingorf
 aliases:
   codingorf: /usr/local/bin/codingorf

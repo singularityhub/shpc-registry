@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ataqv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ataqv
 latest:
-  1.3.0--py27h5e5d24b_4: sha256:e2a89c9badc8f52305001c6435da54fbf8576a55a5281a5a44e12ddc715c843f
+  1.3.1--py39hc3b0e92_2: sha256:a2b002ecb3cff5be65d4f74dcac743f59e98f5282eff54265627968fd5739177
 tags:
   1.3.0--py27h5e5d24b_4: sha256:e2a89c9badc8f52305001c6435da54fbf8576a55a5281a5a44e12ddc715c843f
+  1.3.1--py39hc3b0e92_2: sha256:a2b002ecb3cff5be65d4f74dcac743f59e98f5282eff54265627968fd5739177
 docker: quay.io/biocontainers/ataqv
 aliases:
   ataqv: /usr/local/bin/ataqv
