@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iced"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iced/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iced/container.yaml"
-updated_at: "2024-04-05 02:56:01.181146"
+updated_at: "2024-04-06 02:42:40.667118"
 latest: "0.5.10--py39hd5189a5_2"
 container_url: "https://biocontainers.pro/tools/iced"
 aliases:
@@ -23,8 +23,9 @@ versions:
  - "0.5.9--py37h9c5868f_0"
  - "0.5.10--py36hd5865be_1"
  - "0.5.10--py39hd5189a5_2"
+ - "0.5.10--py38h8c35140_2"
 description: "shpc-registry automated BioContainers addition for iced"
-config: {"url": "https://biocontainers.pro/tools/iced", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iced", "latest": {"0.5.10--py39hd5189a5_2": "sha256:3b54de665ed01aa702202fc628f2ff3be1a217c647b8c22c2fc80db90e8e5acf"}, "tags": {"0.5.9--py37h9c5868f_0": "sha256:57e789ead8ebd6aef0f697052a9c6a8d18151913245f01bb5ac085e7570da9c2", "0.5.10--py36hd5865be_1": "sha256:83746a628214562a8f3bbc05e1025ea396522168522b21a6bcc311337eb370a4", "0.5.10--py39hd5189a5_2": "sha256:3b54de665ed01aa702202fc628f2ff3be1a217c647b8c22c2fc80db90e8e5acf"}, "docker": "quay.io/biocontainers/iced", "aliases": {"ice": "/usr/local/bin/ice", "f2py3.7": "/usr/local/bin/f2py3.7", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
+config: {"url": "https://biocontainers.pro/tools/iced", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iced", "latest": {"0.5.10--py39hd5189a5_2": "sha256:3b54de665ed01aa702202fc628f2ff3be1a217c647b8c22c2fc80db90e8e5acf"}, "tags": {"0.5.9--py37h9c5868f_0": "sha256:57e789ead8ebd6aef0f697052a9c6a8d18151913245f01bb5ac085e7570da9c2", "0.5.10--py36hd5865be_1": "sha256:83746a628214562a8f3bbc05e1025ea396522168522b21a6bcc311337eb370a4", "0.5.10--py39hd5189a5_2": "sha256:3b54de665ed01aa702202fc628f2ff3be1a217c647b8c22c2fc80db90e8e5acf", "0.5.10--py38h8c35140_2": "sha256:0afd6949f70a17089b679c32e02d2be54f9285e25b9fb2ed005d53ff12fb80d4"}, "docker": "quay.io/biocontainers/iced", "aliases": {"ice": "/usr/local/bin/ice", "f2py3.7": "/usr/local/bin/f2py3.7", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/iced.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/taxor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxor/container.yaml"
-updated_at: "2024-04-05 02:28:50.694460"
-latest: "0.1.1--hc155240_0"
+updated_at: "2024-04-06 02:44:02.461440"
+latest: "0.1.3--hc155240_0"
 container_url: "https://biocontainers.pro/tools/taxor"
 aliases:
  - "cmp"
@@ -40,8 +40,9 @@ aliases:
  - "dircolors"
 versions:
  - "0.1.1--hc155240_0"
+ - "0.1.3--hc155240_0"
 description: "singularity registry hpc automated addition for taxor"
-config: {"url": "https://biocontainers.pro/tools/taxor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for taxor", "latest": {"0.1.1--hc155240_0": "sha256:6eb2f6c2a9607ac9f50466bc52c21e54c2d1c884d5920a32554a196f45dfe1fe"}, "tags": {"0.1.1--hc155240_0": "sha256:6eb2f6c2a9607ac9f50466bc52c21e54c2d1c884d5920a32554a196f45dfe1fe"}, "docker": "quay.io/biocontainers/taxor", "aliases": {"cmp": "/usr/local/bin/cmp", "diff": "/usr/local/bin/diff", "diff3": "/usr/local/bin/diff3", "sdiff": "/usr/local/bin/sdiff", "taxor": "/usr/local/bin/taxor", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd", "df": "/usr/local/bin/df", "dir": "/usr/local/bin/dir", "dircolors": "/usr/local/bin/dircolors"}}
+config: {"url": "https://biocontainers.pro/tools/taxor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for taxor", "latest": {"0.1.3--hc155240_0": "sha256:f70f29afef0607110b259a5de66df0685a97fb8182da4146f915d3ec6dad3042"}, "tags": {"0.1.1--hc155240_0": "sha256:6eb2f6c2a9607ac9f50466bc52c21e54c2d1c884d5920a32554a196f45dfe1fe", "0.1.3--hc155240_0": "sha256:f70f29afef0607110b259a5de66df0685a97fb8182da4146f915d3ec6dad3042"}, "docker": "quay.io/biocontainers/taxor", "aliases": {"cmp": "/usr/local/bin/cmp", "diff": "/usr/local/bin/diff", "diff3": "/usr/local/bin/diff3", "sdiff": "/usr/local/bin/sdiff", "taxor": "/usr/local/bin/taxor", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd", "df": "/usr/local/bin/df", "dir": "/usr/local/bin/dir", "dircolors": "/usr/local/bin/dircolors"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/taxor.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/taxor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/taxor:0.1.1--hc155240_0
+$ shpc install quay.io/biocontainers/taxor:0.1.3--hc155240_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/taxor/0.1.1--hc155240_0
-$ module help quay.io/biocontainers/taxor/0.1.1--hc155240_0
+$ module load quay.io/biocontainers/taxor/0.1.3--hc155240_0
+$ module help quay.io/biocontainers/taxor/0.1.3--hc155240_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

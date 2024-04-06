@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/peptide-shaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peptide-shaker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peptide-shaker/container.yaml"
-updated_at: "2024-04-05 02:55:25.205732"
-latest: "1.16.36--0"
+updated_at: "2024-04-06 02:25:51.221924"
+latest: "3.0.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/peptide-shaker"
 aliases:
  - "peptide-shaker"
@@ -22,8 +22,12 @@ aliases:
 versions:
  - "1.16.4--py27_0"
  - "1.16.36--0"
+ - "3.0.6--hdfd78af_0"
+ - "2.2.25--hdfd78af_0"
+ - "2.0.33--hec16e2b_1"
+ - "1.16.40--1"
 description: "shpc-registry automated BioContainers addition for peptide-shaker"
-config: {"url": "https://biocontainers.pro/tools/peptide-shaker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for peptide-shaker", "latest": {"1.16.36--0": "sha256:517b09a0af52899fd1143053d06595b8e2dbddbe1c4b3cf717018e2ea6edc4ab"}, "tags": {"1.16.4--py27_0": "sha256:1ee91304befdc6a6b3573eadfd25ff59ec64f4f08c909b0e95a3edfa4e3d0617", "1.16.36--0": "sha256:517b09a0af52899fd1143053d06595b8e2dbddbe1c4b3cf717018e2ea6edc4ab"}, "docker": "quay.io/biocontainers/peptide-shaker", "aliases": {"peptide-shaker": "/usr/local/bin/peptide-shaker", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj"}}
+config: {"url": "https://biocontainers.pro/tools/peptide-shaker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for peptide-shaker", "latest": {"3.0.6--hdfd78af_0": "sha256:6be13626b6c4687c7e722f772ce03a47bbc610e6e535a98b84d5b4bc2116717d"}, "tags": {"1.16.4--py27_0": "sha256:1ee91304befdc6a6b3573eadfd25ff59ec64f4f08c909b0e95a3edfa4e3d0617", "1.16.36--0": "sha256:517b09a0af52899fd1143053d06595b8e2dbddbe1c4b3cf717018e2ea6edc4ab", "3.0.6--hdfd78af_0": "sha256:6be13626b6c4687c7e722f772ce03a47bbc610e6e535a98b84d5b4bc2116717d", "2.2.25--hdfd78af_0": "sha256:50b596c30d0b6e171f66787cbad65fef88ed8f437b20d86290143b207fe19a4e", "2.0.33--hec16e2b_1": "sha256:5aa9b828a3a311fb57665688d681ed9f1700f6f4fc885d7b419de461d0f168da", "1.16.40--1": "sha256:550e23016a7ee8547fee9bf5bbda7a5bdac0105309223f662e18af3c7be70415"}, "docker": "quay.io/biocontainers/peptide-shaker", "aliases": {"peptide-shaker": "/usr/local/bin/peptide-shaker", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peptide-shaker.
@@ -38,7 +42,7 @@ $ shpc install quay.io/biocontainers/peptide-shaker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/peptide-shaker:1.16.36--0
+$ shpc install quay.io/biocontainers/peptide-shaker:3.0.6--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/peptide-shaker/1.16.36--0
-$ module help quay.io/biocontainers/peptide-shaker/1.16.36--0
+$ module load quay.io/biocontainers/peptide-shaker/3.0.6--hdfd78af_0
+$ module help quay.io/biocontainers/peptide-shaker/3.0.6--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

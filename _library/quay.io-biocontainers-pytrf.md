@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytrf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytrf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytrf/container.yaml"
-updated_at: "2024-04-05 03:03:38.692487"
+updated_at: "2024-04-06 02:51:35.504775"
 latest: "1.3.0--py310h4b81fae_0"
 container_url: "https://biocontainers.pro/tools/pytrf"
 aliases:
@@ -18,8 +18,10 @@ versions:
  - "1.2.1--py311h031d066_0"
  - "1.2.1--py38he5da3d1_1"
  - "1.3.0--py310h4b81fae_0"
+ - "1.3.0--py39hf95cd2a_0"
+ - "1.2.1--py39hf95cd2a_1"
 description: "singularity registry hpc automated addition for pytrf"
-config: {"url": "https://biocontainers.pro/tools/pytrf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pytrf", "latest": {"1.3.0--py310h4b81fae_0": "sha256:8196d705b6bbc727abf0ad2cd1b230961e38ec2cb12642fd2ec00ded4074e358"}, "tags": {"1.2.1--py311h031d066_0": "sha256:f456cb9560503e9078253b4ab1ede244736c96b7e57f4091fa65fe08116ec5a3", "1.2.1--py38he5da3d1_1": "sha256:a8965ef1f3031be7626e26448e8c5c178a280fa8a24429f14f0bc201f65f461d", "1.3.0--py310h4b81fae_0": "sha256:8196d705b6bbc727abf0ad2cd1b230961e38ec2cb12642fd2ec00ded4074e358"}, "docker": "quay.io/biocontainers/pytrf", "aliases": {"pytrf": "/usr/local/bin/pytrf", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
+config: {"url": "https://biocontainers.pro/tools/pytrf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pytrf", "latest": {"1.3.0--py310h4b81fae_0": "sha256:8196d705b6bbc727abf0ad2cd1b230961e38ec2cb12642fd2ec00ded4074e358"}, "tags": {"1.2.1--py311h031d066_0": "sha256:f456cb9560503e9078253b4ab1ede244736c96b7e57f4091fa65fe08116ec5a3", "1.2.1--py38he5da3d1_1": "sha256:a8965ef1f3031be7626e26448e8c5c178a280fa8a24429f14f0bc201f65f461d", "1.3.0--py310h4b81fae_0": "sha256:8196d705b6bbc727abf0ad2cd1b230961e38ec2cb12642fd2ec00ded4074e358", "1.3.0--py39hf95cd2a_0": "sha256:5703c1d5a142b1172ad8b1d267d6e969c598d9308606946ee1192fa81c07c42c", "1.2.1--py39hf95cd2a_1": "sha256:4c2cdd9aa2e0a0172bc0aed5fee498eb11a39553a207b0e26e1f946bc1f04c19"}, "docker": "quay.io/biocontainers/pytrf", "aliases": {"pytrf": "/usr/local/bin/pytrf", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytrf.

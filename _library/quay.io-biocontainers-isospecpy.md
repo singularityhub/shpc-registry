@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isospecpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isospecpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isospecpy/container.yaml"
-updated_at: "2024-04-05 02:36:56.288370"
+updated_at: "2024-04-06 02:42:45.901224"
 latest: "2.2.2--py310h068649b_0"
 container_url: "https://biocontainers.pro/tools/isospecpy"
 aliases:
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "2.2.1--py38hcbe9525_0"
  - "2.2.2--py310h068649b_0"
+ - "2.2.2--py39he10ea66_0"
 description: "singularity registry hpc automated addition for isospecpy"
-config: {"url": "https://biocontainers.pro/tools/isospecpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for isospecpy", "latest": {"2.2.2--py310h068649b_0": "sha256:091c7b13a633e3576c75aeb0661cb0a22bd878ec9649ab04e5721d104ce123b1"}, "tags": {"2.2.1--py38hcbe9525_0": "sha256:31b39aab88920db9ca0e844b763f25cc8f57a8a0244b530ccb78a60467031c39", "2.2.2--py310h068649b_0": "sha256:091c7b13a633e3576c75aeb0661cb0a22bd878ec9649ab04e5721d104ce123b1"}, "docker": "quay.io/biocontainers/isospecpy", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/isospecpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for isospecpy", "latest": {"2.2.2--py310h068649b_0": "sha256:091c7b13a633e3576c75aeb0661cb0a22bd878ec9649ab04e5721d104ce123b1"}, "tags": {"2.2.1--py38hcbe9525_0": "sha256:31b39aab88920db9ca0e844b763f25cc8f57a8a0244b530ccb78a60467031c39", "2.2.2--py310h068649b_0": "sha256:091c7b13a633e3576c75aeb0661cb0a22bd878ec9649ab04e5721d104ce123b1", "2.2.2--py39he10ea66_0": "sha256:beeddb81014dfc7424adfc7fce863dccdeeb0d108b7ab95bc10e0378642b1ac5"}, "docker": "quay.io/biocontainers/isospecpy", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/isospecpy.

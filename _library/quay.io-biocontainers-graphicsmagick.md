@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/graphicsmagick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphicsmagick/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphicsmagick/container.yaml"
-updated_at: "2024-04-05 02:57:14.809281"
-latest: "1.3.42"
+updated_at: "2024-04-06 02:34:45.131475"
+latest: "1.3.43"
 container_url: "https://biocontainers.pro/tools/graphicsmagick"
 aliases:
  - "GraphicsMagick++-config"
@@ -25,8 +25,9 @@ aliases:
 versions:
  - "1.3.31"
  - "1.3.42"
+ - "1.3.43"
 description: "shpc-registry automated BioContainers addition for graphicsmagick"
-config: {"url": "https://biocontainers.pro/tools/graphicsmagick", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphicsmagick", "latest": {"1.3.42": "sha256:45989dbbf99e793a5a8702543a8a9c7f0a58693f01884ff302e84c0ea83d2a45"}, "tags": {"1.3.31": "sha256:bcaebffbf74e0f876cef6389016aa87ae62f58d6f0c09508fba62361f610c87e", "1.3.42": "sha256:45989dbbf99e793a5a8702543a8a9c7f0a58693f01884ff302e84c0ea83d2a45"}, "docker": "quay.io/biocontainers/graphicsmagick", "aliases": {"GraphicsMagick++-config": "/usr/local/bin/GraphicsMagick++-config", "GraphicsMagick-config": "/usr/local/bin/GraphicsMagick-config", "GraphicsMagickWand-config": "/usr/local/bin/GraphicsMagickWand-config", "gm": "/usr/local/bin/gm", "chrpath": "/usr/local/bin/chrpath", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "gnuplot": "/usr/local/bin/gnuplot", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "compile-et.pl": "/usr/local/bin/compile-et.pl", "gdlib-config": "/usr/local/bin/gdlib-config"}}
+config: {"url": "https://biocontainers.pro/tools/graphicsmagick", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphicsmagick", "latest": {"1.3.43": "sha256:f052a92264afa84157f28832cbac6216d51c3dcd7477104af99f041396d68dc7"}, "tags": {"1.3.31": "sha256:bcaebffbf74e0f876cef6389016aa87ae62f58d6f0c09508fba62361f610c87e", "1.3.42": "sha256:45989dbbf99e793a5a8702543a8a9c7f0a58693f01884ff302e84c0ea83d2a45", "1.3.43": "sha256:f052a92264afa84157f28832cbac6216d51c3dcd7477104af99f041396d68dc7"}, "docker": "quay.io/biocontainers/graphicsmagick", "aliases": {"GraphicsMagick++-config": "/usr/local/bin/GraphicsMagick++-config", "GraphicsMagick-config": "/usr/local/bin/GraphicsMagick-config", "GraphicsMagickWand-config": "/usr/local/bin/GraphicsMagickWand-config", "gm": "/usr/local/bin/gm", "chrpath": "/usr/local/bin/chrpath", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "gnuplot": "/usr/local/bin/gnuplot", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "compile-et.pl": "/usr/local/bin/compile-et.pl", "gdlib-config": "/usr/local/bin/gdlib-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/graphicsmagick.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/graphicsmagick
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/graphicsmagick:1.3.42
+$ shpc install quay.io/biocontainers/graphicsmagick:1.3.43
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/graphicsmagick/1.3.42
-$ module help quay.io/biocontainers/graphicsmagick/1.3.42
+$ module load quay.io/biocontainers/graphicsmagick/1.3.43
+$ module help quay.io/biocontainers/graphicsmagick/1.3.43
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

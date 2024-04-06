@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/codingorf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/codingorf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/codingorf/container.yaml"
-updated_at: "2024-04-05 02:53:44.479830"
+updated_at: "2024-04-06 02:21:56.747862"
 latest: "v1.0.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/codingorf"
 aliases:
@@ -17,8 +17,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "v1.0.0--pyh5e36f6f_0"
+ - "1.0.0--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for codingorf"
-config: {"url": "https://biocontainers.pro/tools/codingorf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for codingorf", "latest": {"v1.0.0--pyh5e36f6f_0": "sha256:9f6b9702b32921f712a8f5ec0aef60ef1044ca746c5be70d7b710625be965999"}, "tags": {"v1.0.0--pyh5e36f6f_0": "sha256:9f6b9702b32921f712a8f5ec0aef60ef1044ca746c5be70d7b710625be965999"}, "docker": "quay.io/biocontainers/codingorf", "aliases": {"codingorf": "/usr/local/bin/codingorf", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/codingorf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for codingorf", "latest": {"v1.0.0--pyh5e36f6f_0": "sha256:9f6b9702b32921f712a8f5ec0aef60ef1044ca746c5be70d7b710625be965999"}, "tags": {"v1.0.0--pyh5e36f6f_0": "sha256:9f6b9702b32921f712a8f5ec0aef60ef1044ca746c5be70d7b710625be965999", "1.0.0--pyh5e36f6f_0": "sha256:565da739962e22fa43aa5ed6e0ee2309ad48f2dbbfaaef00e5575aa84302e524"}, "docker": "quay.io/biocontainers/codingorf", "aliases": {"codingorf": "/usr/local/bin/codingorf", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/codingorf.

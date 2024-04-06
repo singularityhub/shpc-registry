@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-hdrcde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hdrcde/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hdrcde/container.yaml"
-updated_at: "2024-04-05 02:52:42.083667"
+updated_at: "2024-04-06 02:56:18.007291"
 latest: "3.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-hdrcde"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "3.1--r3.2.2_0"
+ - "3.1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-hdrcde"
-config: {"url": "https://biocontainers.pro/tools/r-hdrcde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-hdrcde", "latest": {"3.1--r3.2.2_0": "sha256:c3415463851fc4ac5254bc70b2aa22da66c5058a54a678db9a784430ccc5d513"}, "tags": {"3.1--r3.2.2_0": "sha256:c3415463851fc4ac5254bc70b2aa22da66c5058a54a678db9a784430ccc5d513"}, "docker": "quay.io/biocontainers/r-hdrcde", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-hdrcde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-hdrcde", "latest": {"3.1--r3.2.2_0": "sha256:c3415463851fc4ac5254bc70b2aa22da66c5058a54a678db9a784430ccc5d513"}, "tags": {"3.1--r3.2.2_0": "sha256:c3415463851fc4ac5254bc70b2aa22da66c5058a54a678db9a784430ccc5d513", "3.1--r3.3.2_0": "sha256:d404a11118f5023a2537c57d928d0427b56f9f7a4333490274620af45d833ec0"}, "docker": "quay.io/biocontainers/r-hdrcde", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-hdrcde.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mykatlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mykatlas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mykatlas/container.yaml"
-updated_at: "2024-04-05 02:31:51.678156"
+updated_at: "2024-04-06 02:30:56.937751"
 latest: "0.6.1--py38ha5a061d_6"
 container_url: "https://biocontainers.pro/tools/mykatlas"
 aliases:
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "0.6.1--py27h21c881e_5"
  - "0.6.1--py38ha5a061d_6"
+ - "0.6.1--py39h6a678da_6"
 description: "shpc-registry automated BioContainers addition for mykatlas"
-config: {"url": "https://biocontainers.pro/tools/mykatlas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mykatlas", "latest": {"0.6.1--py38ha5a061d_6": "sha256:2985a55b649c109da785ddbb237fae968d2bb689cf263cfac56e2a4df8c02ee3"}, "tags": {"0.6.1--py27h21c881e_5": "sha256:dfa4cc640600037079e807b41321a4d81b45c08435b4877e65234b797c1d5f20", "0.6.1--py38ha5a061d_6": "sha256:2985a55b649c109da785ddbb237fae968d2bb689cf263cfac56e2a4df8c02ee3"}, "docker": "quay.io/biocontainers/mykatlas", "aliases": {"atlas": "/usr/local/bin/atlas", "mccortex31": "/usr/local/bin/mccortex31", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2"}}
+config: {"url": "https://biocontainers.pro/tools/mykatlas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mykatlas", "latest": {"0.6.1--py38ha5a061d_6": "sha256:2985a55b649c109da785ddbb237fae968d2bb689cf263cfac56e2a4df8c02ee3"}, "tags": {"0.6.1--py27h21c881e_5": "sha256:dfa4cc640600037079e807b41321a4d81b45c08435b4877e65234b797c1d5f20", "0.6.1--py38ha5a061d_6": "sha256:2985a55b649c109da785ddbb237fae968d2bb689cf263cfac56e2a4df8c02ee3", "0.6.1--py39h6a678da_6": "sha256:9e5d8ebda1711238867f3f22aa667ada5d415a57df3dd39575ea561398839b08"}, "docker": "quay.io/biocontainers/mykatlas", "aliases": {"atlas": "/usr/local/bin/atlas", "mccortex31": "/usr/local/bin/mccortex31", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mykatlas.

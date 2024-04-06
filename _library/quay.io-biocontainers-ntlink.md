@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ntlink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntlink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntlink/container.yaml"
-updated_at: "2024-04-05 03:06:19.799723"
+updated_at: "2024-04-06 02:25:15.538654"
 latest: "1.3.9--py310hf270fc4_4"
 container_url: "https://biocontainers.pro/tools/ntlink"
 aliases:
