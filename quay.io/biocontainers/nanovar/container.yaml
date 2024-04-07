@@ -8,6 +8,8 @@ tags:
   1.4.1--py38he5da3d1_2: sha256:4bf04d517cc829cc5ce9e7c76e4ebe5a4bbfa261229c0413f476fd326cb0378d
   1.5.0--py38he5da3d1_0: sha256:3a6e5bd46980d6588cd02d79ea3e3f266088aae8f7392181c6d3b3a8d2723e90
   1.5.1--py39hf95cd2a_0: sha256:1309ccca4339b303c66b286b3c915d80b0a3be653b229472c4926b7e99f76d1b
+  1.5.1--py38he5da3d1_0: sha256:27b50c1f4a210c9600b9e4e42ea8c2589a611dacbddc9f4ad048be8b16c56ed4
+  1.4.1--py39hf95cd2a_2: sha256:a3ac134bc225f338c7da27813ec238315e4794daa77a7f9ce531a9fcb5e94b88
 docker: quay.io/biocontainers/nanovar
 aliases:
   cytocad: /usr/local/bin/cytocad

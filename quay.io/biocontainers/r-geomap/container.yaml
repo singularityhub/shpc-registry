@@ -5,6 +5,7 @@ latest:
   2.3_8--r3.2.2_0: sha256:eab208e08e3b0197391f73508d12e25386365f11507753c04d5e91c01f04935f
 tags:
   2.3_8--r3.2.2_0: sha256:eab208e08e3b0197391f73508d12e25386365f11507753c04d5e91c01f04935f
+  2.3_8--r3.3.2_0: sha256:a41734698e9086bdff7a429633ae1eec329f829e683e5751377ade162a26fde1
 docker: quay.io/biocontainers/r-geomap
 aliases:
   pngcp: /usr/local/bin/pngcp

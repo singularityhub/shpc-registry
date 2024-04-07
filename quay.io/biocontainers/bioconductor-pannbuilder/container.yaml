@@ -5,6 +5,7 @@ latest:
   1.43.0--r341_0: sha256:0fd98258c3b312b340128fd0160d6704b21698d6a787a9e0a29ee5db959307eb
 tags:
   1.43.0--r341_0: sha256:0fd98258c3b312b340128fd0160d6704b21698d6a787a9e0a29ee5db959307eb
+  1.43.0--r351_0: sha256:729d7c2c3d7570d2e2254b66db9b47bdf1750f7c097d28cab18edb1ae66d2cc5
 docker: quay.io/biocontainers/bioconductor-pannbuilder
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

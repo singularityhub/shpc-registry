@@ -6,6 +6,7 @@ latest:
 tags:
   5.18.0--py37hdb953fb_4: sha256:bce45246db7f032e3997937cc4c17e2e473c9062829062c1aab2e96e3f136a63
   5.18.0--py38hfa3b0b9_6: sha256:38ced9e2c66d636d3366041bbe52b9c6443513a80569bbfb25aa491a2c2ef3ab
+  5.18.0--py39hb0ddb50_6: sha256:a07b3d9e411852440fa8d8157b11b329c539c6fd245acfc58a0ccdd07a981174
 docker: quay.io/biocontainers/python-libsbml
 aliases:
   2to3-3.7: /usr/local/bin/2to3-3.7

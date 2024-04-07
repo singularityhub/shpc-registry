@@ -6,6 +6,7 @@ latest:
 tags:
   0.6.9--r3.3.1_1: sha256:9e963354cf354cc6ca06ff24f2e7ce22ae368a569190f5d6028a896db04d2c84
   0.6.12--r3.3.1_0: sha256:7c2bc626726f403d86c68e7464bbd47a35dcfa7da3aba46f06b46712b12755a0
+  0.6.12--r3.3.2_0: sha256:2487d07b4c1ea83bf96bc90b288a2326411a75dd462a78f26ead9ff54edda7da
 docker: quay.io/biocontainers/r-digest
 aliases:
   uconv: /usr/local/bin/uconv

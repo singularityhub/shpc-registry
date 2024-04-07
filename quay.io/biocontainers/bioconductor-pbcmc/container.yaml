@@ -5,6 +5,7 @@ latest:
   1.8.0--r341_0: sha256:fc72449a4ed29a0cb471d2d63c30d91026cfcba3cce18bf5ce79001788872fff
 tags:
   1.8.0--r341_0: sha256:fc72449a4ed29a0cb471d2d63c30d91026cfcba3cce18bf5ce79001788872fff
+  1.8.0--r351_0: sha256:e27ea160bc8f1dee576d41ce6db757b6e74205af565a75670d3be3fdb1bdc7e1
 docker: quay.io/biocontainers/bioconductor-pbcmc
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

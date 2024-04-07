@@ -5,6 +5,7 @@ latest:
   2.2.1--py27h07887db_0: sha256:3811acd7cea650cabfd8856460aa9cd7b811cd4752123c3634dd0972a8217bda
 tags:
   2.2.1--py27h07887db_0: sha256:3811acd7cea650cabfd8856460aa9cd7b811cd4752123c3634dd0972a8217bda
+  2.2.1--py37h07887db_0: sha256:02b48c93f7c02c9d57e229cc00a02287bac95971a944aed6d13ebd7db4469371
 docker: quay.io/biocontainers/mapsplice
 aliases:
   AddFusionStrandConsistent: /usr/local/bin/AddFusionStrandConsistent

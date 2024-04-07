@@ -5,6 +5,7 @@ latest:
   0.12.13--py35_0: sha256:1e330941be4995680b77fe424e8c2d8d36911b8663e2b7d5dc156552fdddc4cc
 tags:
   0.12.13--py35_0: sha256:1e330941be4995680b77fe424e8c2d8d36911b8663e2b7d5dc156552fdddc4cc
+  0.12.13--py36_0: sha256:6d876683d13ed7b2c5f741dbea18777f6977e470db6cc5e562fdf6adfae5fdc3
 docker: quay.io/biocontainers/ruamel.yaml
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5
