@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-reactomegraph4r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reactomegraph4r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reactomegraph4r/container.yaml"
-updated_at: "2024-04-06 02:25:03.004596"
+updated_at: "2024-04-07 02:29:30.220257"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-reactomegraph4r"
 aliases:

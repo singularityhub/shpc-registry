@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-transview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-transview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-transview/container.yaml"
-updated_at: "2024-04-06 03:03:44.848960"
+updated_at: "2024-04-07 03:06:40.443145"
 latest: "1.46.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-transview"
 
