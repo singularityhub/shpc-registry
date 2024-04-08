@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/phava
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phava
+latest:
+  0.2.3--pyhdfd78af_0: sha256:8d468e3a30146d174a9671633c0803a32b24ff5c341b1d11cabf48a8d0f91af9
+tags:
+  0.2.3--pyhdfd78af_0: sha256:8d468e3a30146d174a9671633c0803a32b24ff5c341b1d11cabf48a8d0f91af9
+docker: quay.io/biocontainers/phava
+aliases:
+  gawk-5.3.0: /usr/local/bin/gawk-5.3.0
+  gawkbug: /usr/local/bin/gawkbug
+  phava: /usr/local/bin/phava
+  aria2c: /usr/local/bin/aria2c
+  annot-tsv: /usr/local/bin/annot-tsv
+  xmlget: /usr/local/bin/xmlget
+  xmltext: /usr/local/bin/xmltext
+  aaindexextract: /usr/local/bin/aaindexextract
+  abiview: /usr/local/bin/abiview
+  acdgalaxy: /usr/local/bin/acdgalaxy
+  acdlog: /usr/local/bin/acdlog
+  acdpretty: /usr/local/bin/acdpretty
+  acdtable: /usr/local/bin/acdtable
+  acdtrace: /usr/local/bin/acdtrace
+  acdvalid: /usr/local/bin/acdvalid
+  aligncopy: /usr/local/bin/aligncopy
+  aligncopypair: /usr/local/bin/aligncopypair
+  antigenic: /usr/local/bin/antigenic
+  assemblyget: /usr/local/bin/assemblyget
+  backtranambig: /usr/local/bin/backtranambig
+  backtranseq: /usr/local/bin/backtranseq
+  banana: /usr/local/bin/banana
+  biosed: /usr/local/bin/biosed
+  btwisted: /usr/local/bin/btwisted
+  cachedas: /usr/local/bin/cachedas
+  cachedbfetch: /usr/local/bin/cachedbfetch
+  cacheebeyesearch: /usr/local/bin/cacheebeyesearch
+  cacheensembl: /usr/local/bin/cacheensembl
