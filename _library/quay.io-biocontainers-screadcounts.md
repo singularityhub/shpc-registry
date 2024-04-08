@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/screadcounts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/screadcounts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/screadcounts/container.yaml"
-updated_at: "2024-04-08 02:48:52.916855"
+updated_at: "2024-04-08 02:45:31.567980"
 latest: "1.4.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/screadcounts"
 aliases:

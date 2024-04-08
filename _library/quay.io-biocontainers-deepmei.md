@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepmei"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepmei/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepmei/container.yaml"
-updated_at: "2024-04-08 03:08:15.360388"
+updated_at: "2024-04-08 03:08:40.536211"
 latest: "1.6.24--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deepmei"
 aliases:

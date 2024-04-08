@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/go"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/go/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/go/container.yaml"
-updated_at: "2024-04-08 02:35:50.379260"
+updated_at: "2024-04-08 02:29:57.209631"
 latest: "1.11.3"
 container_url: "https://biocontainers.pro/tools/go"
 aliases:
