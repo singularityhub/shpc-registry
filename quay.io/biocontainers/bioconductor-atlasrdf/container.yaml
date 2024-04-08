@@ -5,6 +5,7 @@ latest:
   1.12.0--r3.3.2_0: sha256:fe824641064fcb87443df4ab1fb0ada87d551b1fa1cc899faa15b9dd9f4c20ac
 tags:
   1.12.0--r3.3.2_0: sha256:fe824641064fcb87443df4ab1fb0ada87d551b1fa1cc899faa15b9dd9f4c20ac
+  1.12.0--r3.4.1_0: sha256:92ffb9afac05c3d4ef7a49d17c3813711673c49674dd0d6a80127ab1814b890b
 docker: quay.io/biocontainers/bioconductor-atlasrdf
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

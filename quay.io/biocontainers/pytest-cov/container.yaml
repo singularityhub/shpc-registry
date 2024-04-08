@@ -5,6 +5,7 @@ latest:
   2.4.0--py34_0: sha256:38cdfbc5ce43d8f98c11cad4f79d6279b1af8ab5af38352eaaf0f61160361505
 tags:
   2.4.0--py34_0: sha256:38cdfbc5ce43d8f98c11cad4f79d6279b1af8ab5af38352eaaf0f61160361505
+  2.4.0--py36_0: sha256:a23da123418f42d4094b41d5c614928040db1a336fa1278065678b2a874c0df0
 docker: quay.io/biocontainers/pytest-cov
 aliases:
   2to3-3.4: /usr/local/bin/2to3-3.4

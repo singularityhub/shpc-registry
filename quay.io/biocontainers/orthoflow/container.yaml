@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/orthoflow
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for orthoflow
 latest:
-  0.3.1--pyh7cba7a3_0: sha256:41639f40870ce3e92d06d6f30f9a9f89bc2ec793658b697547b86298c073de0a
+  0.3.4--pyhdfd78af_0: sha256:ad73bf53b9258cd239edff230e71d6cf5bbe5a3159b28c7b830fa005e29400d0
 tags:
   0.2.0--pyh7cba7a3_0: sha256:3e84fec9e23855640097b5f6d089fe9cd7141197a2bfcda131ee9b2eedd28b43
   0.3.0--pyh7cba7a3_0: sha256:9ecf9c9efb97e7a3aef893374f5fd228156624412917fe931829159bc970b146
   0.3.1--pyh7cba7a3_0: sha256:41639f40870ce3e92d06d6f30f9a9f89bc2ec793658b697547b86298c073de0a
+  0.3.4--pyhdfd78af_0: sha256:ad73bf53b9258cd239edff230e71d6cf5bbe5a3159b28c7b830fa005e29400d0
 docker: quay.io/biocontainers/orthoflow
 aliases:
   orthoflow: /usr/local/bin/orthoflow

@@ -5,6 +5,7 @@ latest:
   1.3.0--py27_0: sha256:f0e51751b1e595c0643b1b8c84f9878be2fa0df3cc07aa130259a851150995f6
 tags:
   1.3.0--py27_0: sha256:f0e51751b1e595c0643b1b8c84f9878be2fa0df3cc07aa130259a851150995f6
+  1.3.0--py35_0: sha256:2d12e5dd295ba70456749b824f7c4c38755b0b9b3467e88f54fc96eddae36433
 docker: quay.io/biocontainers/flask-bower
 aliases:
   flask: /usr/local/bin/flask

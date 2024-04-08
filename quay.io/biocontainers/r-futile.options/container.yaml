@@ -5,6 +5,7 @@ latest:
   1.0.0--r3.2.2_0: sha256:4ef42550b47399ba1cf845d071cee3496502c84a507eac44440d2fae6404dd7f
 tags:
   1.0.0--r3.2.2_0: sha256:4ef42550b47399ba1cf845d071cee3496502c84a507eac44440d2fae6404dd7f
+  1.0.0--r3.3.2_0: sha256:28b7020fd32ce114ac4b1a4984ed49491716b254ec022f1ed6fb912b8231174a
 docker: quay.io/biocontainers/r-futile.options
 aliases:
   pngcp: /usr/local/bin/pngcp

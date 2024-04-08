@@ -6,6 +6,7 @@ latest:
 tags:
   0.6.1--py36h2ad2d48_5: sha256:6c95a59b430c0469d935c70c547de9b441b4b0a8e317d69051724e55f76f4a24
   0.6.1--py310h0dbaff4_8: sha256:d64c8895277d5af30369a3b22d256b14584c4cb2f085000d1d709c3aadace272
+  0.6.1--py38h2494328_8: sha256:5a7b181345b7a23a7dfd44b7cc6851a7642adaf165485dcb85958e4d8e348520
 docker: quay.io/biocontainers/python-msgpack
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

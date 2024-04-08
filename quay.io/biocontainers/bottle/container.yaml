@@ -5,6 +5,7 @@ latest:
   0.12.9--py35_0: sha256:a93a0fc954b5bbf71bf6215160b27fc445030a63e34fe71fb3f8e8b77fc29e78
 tags:
   0.12.9--py35_0: sha256:a93a0fc954b5bbf71bf6215160b27fc445030a63e34fe71fb3f8e8b77fc29e78
+  0.12.9--py36_0: sha256:882c0409ea48afdac146b9e309e54cefd12f7fff7f65f3d9d4380da84343d352
 docker: quay.io/biocontainers/bottle
 aliases:
   bottle.py: /usr/local/bin/bottle.py

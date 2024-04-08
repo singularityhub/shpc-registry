@@ -5,6 +5,7 @@ latest:
   1.40.0--r351_0: sha256:abfdb7a7a00abb0f3baea98e2748d2a52075be829ac9370b7a23439974f56964
 tags:
   1.40.0--r351_0: sha256:abfdb7a7a00abb0f3baea98e2748d2a52075be829ac9370b7a23439974f56964
+  1.40.0--r341_0: sha256:8709b9730ad78a3db5a745c0e1e13f03cf901a1c0c51b3d350142db19b212f8a
 docker: quay.io/biocontainers/bioconductor-flowq
 aliases:
   -pkg-config: /usr/local/bin/-pkg-config

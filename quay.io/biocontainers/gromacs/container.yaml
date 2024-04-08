@@ -10,6 +10,7 @@ tags:
   2021--h3ddc34e_1: sha256:9ae79478fe6429591f581bdcbc7a551d33fb803f687cd6763e9ceae1ecd1ea3e
   2021--h3ddc34e_0: sha256:7746e530aae199720345de90154bebe47eb52205c4338d8ab14a9a729af48d99
   2020.6--h8f66b55_0: sha256:03dd0bda6ce2df2f661f04a922c3ee1028f54623215c07bc345f623f4e2a7659
+  2021.1--mpi_openmpi_h9969a6a_2: sha256:db8765bb4f2859f569b5c2756516e45651344f709c9021b9e7a8c3e4dd113bb9
 docker: quay.io/biocontainers/gromacs
 aliases:
   GMXRC: /usr/local/bin/GMXRC

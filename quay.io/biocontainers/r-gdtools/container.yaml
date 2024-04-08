@@ -5,6 +5,7 @@ latest:
   0.1.4--r3.3.1_0: sha256:538c615992e355176fb83a826390903e3c759712e57141f96427c85d5e2f0b36
 tags:
   0.1.4--r3.3.1_0: sha256:538c615992e355176fb83a826390903e3c759712e57141f96427c85d5e2f0b36
+  0.1.4--r3.3.2_0: sha256:c773cf4cc6ece1c73394bccc717f7c0643d850d2f81cee060aae4d90ab1da129
 docker: quay.io/biocontainers/r-gdtools
 aliases:
   uconv: /usr/local/bin/uconv

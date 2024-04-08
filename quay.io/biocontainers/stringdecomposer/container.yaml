@@ -6,6 +6,7 @@ latest:
 tags:
   1.1.2--py36h2ad2d48_1: sha256:35bf0c6868a75eb0b9acf3bbbbc590eee33ce3ca146abb01fa6633fd6b537dfb
   1.1.2--py310h0dbaff4_2: sha256:0a0ca3b1a6e2c3ece8d2208da42abce5af5968d6ea018b9a310ed00889cc1974
+  1.1.2--py39h1f90b4d_2: sha256:b1ecee97bfb6f6a1258742246cdaca3d1e15721365ccbab783e26fa9e260f840
 docker: quay.io/biocontainers/stringdecomposer
 aliases:
   stringdecomposer: /usr/local/bin/stringdecomposer

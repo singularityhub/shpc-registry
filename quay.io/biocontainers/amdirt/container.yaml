@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/amdirt
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for amdirt
 latest:
-  1.5.0--pyhdfd78af_0: sha256:40c57ea2da544cdf015d4a9555bb8aad9253a0ea3db4abd7120c48d3b7e1bb91
+  1.5.0--pyhdfd78af_1: sha256:4f0a685801ecb4294b5fb3c2022c3093b89318eb279387f44072583d9f336d6d
 tags:
   1.4.3--pyhdfd78af_0: sha256:0c9b82ae40249523d2ff74f2ff51efa786a583106f8e8b496c723324cd80e843
   1.4.6--pyhdfd78af_0: sha256:2847a4aaee53e840bd412192eb59a1925df61d880c549bb6414e0a04d0747892
   1.5.0--pyhdfd78af_0: sha256:40c57ea2da544cdf015d4a9555bb8aad9253a0ea3db4abd7120c48d3b7e1bb91
+  1.5.0--pyhdfd78af_1: sha256:4f0a685801ecb4294b5fb3c2022c3093b89318eb279387f44072583d9f336d6d
 docker: quay.io/biocontainers/amdirt
 aliases:
   AMDirT: /usr/local/bin/AMDirT

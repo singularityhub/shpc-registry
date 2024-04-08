@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/metagenome-atlas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metagenome-atlas
 latest:
-  2.17.0--pyhdfd78af_0: sha256:eedd9e6e4b09480281ef5179f324ada159e0c1b872b3ff592d30ed493114346e
+  2.18.1--pyhdfd78af_0: sha256:944f81a82d952f2e4d656f1db12c9c8891fd41fa87ae16d4c8be3bb31261b7ab
 tags:
   2.9.1--pyhdfd78af_0: sha256:5b24ec8e8747ee48f0b7f8b690d574e026617895f4ebd37e777878634885faca
   2.12.0--pyhdfd78af_1: sha256:b28317b771a5563b11d20d6ee9b9885794a1aa8f4e6f66af4b09b570bf304342
@@ -15,6 +15,8 @@ tags:
   2.15.2--pyhdfd78af_0: sha256:ea1de8f5f5979c32d18c3f8f6ace8210b5aafaea0fa3c218e076ac0ee3a5c368
   2.16.3--pyhdfd78af_0: sha256:373e8a15e5f20dec380df2bf6989648ff6e4104fea189a8d373d93c7c376f9fe
   2.17.0--pyhdfd78af_0: sha256:eedd9e6e4b09480281ef5179f324ada159e0c1b872b3ff592d30ed493114346e
+  2.18.1--pyhdfd78af_0: sha256:944f81a82d952f2e4d656f1db12c9c8891fd41fa87ae16d4c8be3bb31261b7ab
+  2.17.2--pyhdfd78af_0: sha256:b42a003d56d5fb81d0568e20bb80ca12eb359bc25efe87ea07e40cffe1dd13ae
 docker: quay.io/biocontainers/metagenome-atlas
 aliases:
   atlas: /usr/local/bin/atlas

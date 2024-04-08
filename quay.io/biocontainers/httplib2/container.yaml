@@ -5,6 +5,7 @@ latest:
   0.9.2--py35_0: sha256:e284f75641d99f3954482c0ae8cdb29cc98e794309ed619253fbd2d4b22f3152
 tags:
   0.9.2--py35_0: sha256:e284f75641d99f3954482c0ae8cdb29cc98e794309ed619253fbd2d4b22f3152
+  0.9.2--py36_0: sha256:2e616a88983b77d6ac4c7b52180542d8484420aad007643b098516b3e6bc0f2f
 docker: quay.io/biocontainers/httplib2
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

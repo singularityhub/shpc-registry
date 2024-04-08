@@ -5,6 +5,7 @@ latest:
   1.2--r3.2.2_0: sha256:cdb848a3e5cf860d25c261ce0f3ca90642cddf0b6fcbd90b27daaa374549e20f
 tags:
   1.2--r3.2.2_0: sha256:cdb848a3e5cf860d25c261ce0f3ca90642cddf0b6fcbd90b27daaa374549e20f
+  1.2--r3.4.1_0: sha256:eb6a61d8d3e1ca0c13a8d90043188dc821ae5c7dadf46de7042d00cd03639d7a
 docker: quay.io/biocontainers/r-idr
 aliases:
   pngcp: /usr/local/bin/pngcp
