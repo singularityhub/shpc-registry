@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-libsbml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-libsbml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-libsbml/container.yaml"
-updated_at: "2024-04-07 03:01:02.239733"
+updated_at: "2024-04-08 03:10:59.597861"
 latest: "5.18.0--py38hfa3b0b9_6"
 container_url: "https://biocontainers.pro/tools/python-libsbml"
 aliases:
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "5.18.0--py37hdb953fb_4"
  - "5.18.0--py38hfa3b0b9_6"
+ - "5.18.0--py39hb0ddb50_6"
 description: "shpc-registry automated BioContainers addition for python-libsbml"
-config: {"url": "https://biocontainers.pro/tools/python-libsbml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-libsbml", "latest": {"5.18.0--py38hfa3b0b9_6": "sha256:38ced9e2c66d636d3366041bbe52b9c6443513a80569bbfb25aa491a2c2ef3ab"}, "tags": {"5.18.0--py37hdb953fb_4": "sha256:bce45246db7f032e3997937cc4c17e2e473c9062829062c1aab2e96e3f136a63", "5.18.0--py38hfa3b0b9_6": "sha256:38ced9e2c66d636d3366041bbe52b9c6443513a80569bbfb25aa491a2c2ef3ab"}, "docker": "quay.io/biocontainers/python-libsbml", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/python-libsbml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-libsbml", "latest": {"5.18.0--py38hfa3b0b9_6": "sha256:38ced9e2c66d636d3366041bbe52b9c6443513a80569bbfb25aa491a2c2ef3ab"}, "tags": {"5.18.0--py37hdb953fb_4": "sha256:bce45246db7f032e3997937cc4c17e2e473c9062829062c1aab2e96e3f136a63", "5.18.0--py38hfa3b0b9_6": "sha256:38ced9e2c66d636d3366041bbe52b9c6443513a80569bbfb25aa491a2c2ef3ab", "5.18.0--py39hb0ddb50_6": "sha256:a07b3d9e411852440fa8d8157b11b329c539c6fd245acfc58a0ccdd07a981174"}, "docker": "quay.io/biocontainers/python-libsbml", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-libsbml.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pannbuilder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pannbuilder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pannbuilder/container.yaml"
-updated_at: "2024-04-07 03:02:33.271649"
+updated_at: "2024-04-08 03:12:38.096218"
 latest: "1.43.0--r341_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pannbuilder"
 aliases:
@@ -12,8 +12,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.43.0--r341_0"
+ - "1.43.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pannbuilder"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pannbuilder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pannbuilder", "latest": {"1.43.0--r341_0": "sha256:0fd98258c3b312b340128fd0160d6704b21698d6a787a9e0a29ee5db959307eb"}, "tags": {"1.43.0--r341_0": "sha256:0fd98258c3b312b340128fd0160d6704b21698d6a787a9e0a29ee5db959307eb"}, "docker": "quay.io/biocontainers/bioconductor-pannbuilder", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pannbuilder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pannbuilder", "latest": {"1.43.0--r341_0": "sha256:0fd98258c3b312b340128fd0160d6704b21698d6a787a9e0a29ee5db959307eb"}, "tags": {"1.43.0--r341_0": "sha256:0fd98258c3b312b340128fd0160d6704b21698d6a787a9e0a29ee5db959307eb", "1.43.0--r351_0": "sha256:729d7c2c3d7570d2e2254b66db9b47bdf1750f7c097d28cab18edb1ae66d2cc5"}, "docker": "quay.io/biocontainers/bioconductor-pannbuilder", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pannbuilder.

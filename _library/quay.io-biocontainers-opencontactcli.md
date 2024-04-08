@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/opencontactcli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/opencontactcli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/opencontactcli/container.yaml"
-updated_at: "2024-04-07 02:40:47.937676"
+updated_at: "2024-04-08 02:48:53.489938"
 latest: "1.1--py39hdd8045a_7"
 container_url: "https://biocontainers.pro/tools/opencontactcli"
 aliases:
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "1.1--py36h5f405dc_6"
  - "1.1--py39hdd8045a_7"
+ - "1.1--py38hf811d0c_7"
 description: "shpc-registry automated BioContainers addition for opencontactcli"
-config: {"url": "https://biocontainers.pro/tools/opencontactcli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for opencontactcli", "latest": {"1.1--py39hdd8045a_7": "sha256:5e6cf597c03a565762d614f345c4a2bb63233d25ca48bd37495f6b3d1f791546"}, "tags": {"1.1--py36h5f405dc_6": "sha256:ac624ab162be8768da170c651c9093a02f9e8934d5aebe070025e040fce9923c", "1.1--py39hdd8045a_7": "sha256:5e6cf597c03a565762d614f345c4a2bb63233d25ca48bd37495f6b3d1f791546"}, "docker": "quay.io/biocontainers/opencontactcli", "aliases": {"OpenContactCLI": "/usr/local/bin/OpenContactCLI", "contactgui.f": "/usr/local/bin/contactgui.f", "inputgui.f": "/usr/local/bin/inputgui.f", "ljresid": "/usr/local/bin/ljresid", "ljresidn": "/usr/local/bin/ljresidn", "main_cli.py": "/usr/local/bin/main_cli.py", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/opencontactcli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for opencontactcli", "latest": {"1.1--py39hdd8045a_7": "sha256:5e6cf597c03a565762d614f345c4a2bb63233d25ca48bd37495f6b3d1f791546"}, "tags": {"1.1--py36h5f405dc_6": "sha256:ac624ab162be8768da170c651c9093a02f9e8934d5aebe070025e040fce9923c", "1.1--py39hdd8045a_7": "sha256:5e6cf597c03a565762d614f345c4a2bb63233d25ca48bd37495f6b3d1f791546", "1.1--py38hf811d0c_7": "sha256:fbbddd16471abe5a02142521b51172922e8a2cfa43a9aaa136bdc08ccf55bc21"}, "docker": "quay.io/biocontainers/opencontactcli", "aliases": {"OpenContactCLI": "/usr/local/bin/OpenContactCLI", "contactgui.f": "/usr/local/bin/contactgui.f", "inputgui.f": "/usr/local/bin/inputgui.f", "ljresid": "/usr/local/bin/ljresid", "ljresidn": "/usr/local/bin/ljresidn", "main_cli.py": "/usr/local/bin/main_cli.py", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/opencontactcli.

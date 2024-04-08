@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ruamel.yaml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ruamel.yaml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ruamel.yaml/container.yaml"
-updated_at: "2024-04-07 02:28:16.805138"
+updated_at: "2024-04-08 02:35:12.465744"
 latest: "0.12.13--py35_0"
 container_url: "https://biocontainers.pro/tools/ruamel.yaml"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.12.13--py35_0"
+ - "0.12.13--py36_0"
 description: "shpc-registry automated BioContainers addition for ruamel.yaml"
-config: {"url": "https://biocontainers.pro/tools/ruamel.yaml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ruamel.yaml", "latest": {"0.12.13--py35_0": "sha256:1e330941be4995680b77fe424e8c2d8d36911b8663e2b7d5dc156552fdddc4cc"}, "tags": {"0.12.13--py35_0": "sha256:1e330941be4995680b77fe424e8c2d8d36911b8663e2b7d5dc156552fdddc4cc"}, "docker": "quay.io/biocontainers/ruamel.yaml", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/ruamel.yaml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ruamel.yaml", "latest": {"0.12.13--py35_0": "sha256:1e330941be4995680b77fe424e8c2d8d36911b8663e2b7d5dc156552fdddc4cc"}, "tags": {"0.12.13--py35_0": "sha256:1e330941be4995680b77fe424e8c2d8d36911b8663e2b7d5dc156552fdddc4cc", "0.12.13--py36_0": "sha256:6d876683d13ed7b2c5f741dbea18777f6977e470db6cc5e562fdf6adfae5fdc3"}, "docker": "quay.io/biocontainers/ruamel.yaml", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ruamel.yaml.

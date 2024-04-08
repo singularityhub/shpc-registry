@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nanomotif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanomotif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanomotif/container.yaml"
-updated_at: "2024-04-07 02:53:11.755402"
-latest: "0.1.19--pyh7cba7a3_0"
+updated_at: "2024-04-08 03:02:25.087868"
+latest: "0.1.20--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/nanomotif"
 aliases:
  - "nanomotif"
@@ -34,8 +34,9 @@ versions:
  - "0.1.13--pyh7cba7a3_0"
  - "0.1.15--pyh7cba7a3_0"
  - "0.1.19--pyh7cba7a3_0"
+ - "0.1.20--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for nanomotif"
-config: {"url": "https://biocontainers.pro/tools/nanomotif", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nanomotif", "latest": {"0.1.19--pyh7cba7a3_0": "sha256:619610f22e9e5854ac47f376d4bda1896eb93f3d99e500253e2c4da624aeb6ba"}, "tags": {"0.1.13--pyh7cba7a3_0": "sha256:cb4477f5650058c118955846614f5d296a227e409741a8dfb70234bf5965f03b", "0.1.15--pyh7cba7a3_0": "sha256:cec36c6bfce00d855b86bb77c51b2f09c84203fe3eb4138c62c68ba1a7fb0479", "0.1.19--pyh7cba7a3_0": "sha256:619610f22e9e5854ac47f376d4bda1896eb93f3d99e500253e2c4da624aeb6ba"}, "docker": "quay.io/biocontainers/nanomotif", "aliases": {"nanomotif": "/usr/local/bin/nanomotif", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/nanomotif", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nanomotif", "latest": {"0.1.20--pyh7cba7a3_0": "sha256:9aad5cfee75e9254f4000a2e0de9c41d3bd4eb717ec0eab062580bbf52ce3262"}, "tags": {"0.1.13--pyh7cba7a3_0": "sha256:cb4477f5650058c118955846614f5d296a227e409741a8dfb70234bf5965f03b", "0.1.15--pyh7cba7a3_0": "sha256:cec36c6bfce00d855b86bb77c51b2f09c84203fe3eb4138c62c68ba1a7fb0479", "0.1.19--pyh7cba7a3_0": "sha256:619610f22e9e5854ac47f376d4bda1896eb93f3d99e500253e2c4da624aeb6ba", "0.1.20--pyh7cba7a3_0": "sha256:9aad5cfee75e9254f4000a2e0de9c41d3bd4eb717ec0eab062580bbf52ce3262"}, "docker": "quay.io/biocontainers/nanomotif", "aliases": {"nanomotif": "/usr/local/bin/nanomotif", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanomotif.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/nanomotif
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanomotif:0.1.19--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/nanomotif:0.1.20--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanomotif/0.1.19--pyh7cba7a3_0
-$ module help quay.io/biocontainers/nanomotif/0.1.19--pyh7cba7a3_0
+$ module load quay.io/biocontainers/nanomotif/0.1.20--pyh7cba7a3_0
+$ module help quay.io/biocontainers/nanomotif/0.1.20--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

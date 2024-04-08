@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pbcmc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pbcmc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pbcmc/container.yaml"
-updated_at: "2024-04-07 03:01:18.310628"
+updated_at: "2024-04-08 03:11:16.882699"
 latest: "1.8.0--r341_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pbcmc"
 aliases:
@@ -12,8 +12,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8.0--r341_0"
+ - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pbcmc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pbcmc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pbcmc", "latest": {"1.8.0--r341_0": "sha256:fc72449a4ed29a0cb471d2d63c30d91026cfcba3cce18bf5ce79001788872fff"}, "tags": {"1.8.0--r341_0": "sha256:fc72449a4ed29a0cb471d2d63c30d91026cfcba3cce18bf5ce79001788872fff"}, "docker": "quay.io/biocontainers/bioconductor-pbcmc", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pbcmc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pbcmc", "latest": {"1.8.0--r341_0": "sha256:fc72449a4ed29a0cb471d2d63c30d91026cfcba3cce18bf5ce79001788872fff"}, "tags": {"1.8.0--r341_0": "sha256:fc72449a4ed29a0cb471d2d63c30d91026cfcba3cce18bf5ce79001788872fff", "1.8.0--r351_0": "sha256:e27ea160bc8f1dee576d41ce6db757b6e74205af565a75670d3be3fdb1bdc7e1"}, "docker": "quay.io/biocontainers/bioconductor-pbcmc", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pbcmc.

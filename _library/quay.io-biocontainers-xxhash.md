@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xxhash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xxhash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xxhash/container.yaml"
-updated_at: "2024-04-07 03:03:28.004653"
+updated_at: "2024-04-08 03:13:37.446286"
 latest: "1.0.1--py35h2d50403_1"
 container_url: "https://biocontainers.pro/tools/xxhash"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "pyvenv"
 versions:
  - "1.0.1--py35h2d50403_1"
+ - "1.0.1--py36h2d50403_1"
 description: "shpc-registry automated BioContainers addition for xxhash"
-config: {"url": "https://biocontainers.pro/tools/xxhash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xxhash", "latest": {"1.0.1--py35h2d50403_1": "sha256:67e23579726d76b24807be7b4e37decc46d09373b1a40b7564ab5254c50d5bf9"}, "tags": {"1.0.1--py35h2d50403_1": "sha256:67e23579726d76b24807be7b4e37decc46d09373b1a40b7564ab5254c50d5bf9"}, "docker": "quay.io/biocontainers/xxhash", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/xxhash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xxhash", "latest": {"1.0.1--py35h2d50403_1": "sha256:67e23579726d76b24807be7b4e37decc46d09373b1a40b7564ab5254c50d5bf9"}, "tags": {"1.0.1--py35h2d50403_1": "sha256:67e23579726d76b24807be7b4e37decc46d09373b1a40b7564ab5254c50d5bf9", "1.0.1--py36h2d50403_1": "sha256:9f4439eaf935c98ad56fe7674e04d7f0cca61ce29236aacba5da347fa9d66000"}, "docker": "quay.io/biocontainers/xxhash", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xxhash.

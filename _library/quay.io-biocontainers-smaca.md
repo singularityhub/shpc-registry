@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smaca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smaca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smaca/container.yaml"
-updated_at: "2024-04-07 02:40:24.104768"
+updated_at: "2024-04-08 02:48:27.390105"
 latest: "1.2.3--py310h5aa3a86_4"
 container_url: "https://biocontainers.pro/tools/smaca"
 aliases:
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "1.2.3--py39h919a90d_3"
  - "1.2.3--py310h5aa3a86_4"
+ - "1.2.3--py38h8c35140_4"
 description: "shpc-registry automated BioContainers addition for smaca"
-config: {"url": "https://biocontainers.pro/tools/smaca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smaca", "latest": {"1.2.3--py310h5aa3a86_4": "sha256:5d2c050e435e511c0c26a842e9583f56e6ab2abb9c27bdac284e5ee10bd6f160"}, "tags": {"1.2.3--py39h919a90d_3": "sha256:9f18b52c26a11a73033cb6f7db83bad13b926ca47ed6109b4d0b28a91f35ebcf", "1.2.3--py310h5aa3a86_4": "sha256:5d2c050e435e511c0c26a842e9583f56e6ab2abb9c27bdac284e5ee10bd6f160"}, "docker": "quay.io/biocontainers/smaca", "aliases": {"smaca": "/usr/local/bin/smaca", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/smaca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smaca", "latest": {"1.2.3--py310h5aa3a86_4": "sha256:5d2c050e435e511c0c26a842e9583f56e6ab2abb9c27bdac284e5ee10bd6f160"}, "tags": {"1.2.3--py39h919a90d_3": "sha256:9f18b52c26a11a73033cb6f7db83bad13b926ca47ed6109b4d0b28a91f35ebcf", "1.2.3--py310h5aa3a86_4": "sha256:5d2c050e435e511c0c26a842e9583f56e6ab2abb9c27bdac284e5ee10bd6f160", "1.2.3--py38h8c35140_4": "sha256:c83b365e70a65cd01a43e6f1895b38f1b8eaed5f140ba9eed8cf6edc7771a15e"}, "docker": "quay.io/biocontainers/smaca", "aliases": {"smaca": "/usr/local/bin/smaca", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smaca.

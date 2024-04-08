@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-base64"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-base64/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-base64/container.yaml"
-updated_at: "2024-04-07 02:44:53.972596"
+updated_at: "2024-04-08 02:53:22.492360"
 latest: "1.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-base64"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.1--r3.2.2_0"
+ - "1.1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-base64"
-config: {"url": "https://biocontainers.pro/tools/r-base64", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-base64", "latest": {"1.1--r3.2.2_0": "sha256:d2b8ce0c91d725490c2bffa33ead7ab9c02fa814f2460632ad8be1cbed398692"}, "tags": {"1.1--r3.2.2_0": "sha256:d2b8ce0c91d725490c2bffa33ead7ab9c02fa814f2460632ad8be1cbed398692"}, "docker": "quay.io/biocontainers/r-base64", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-base64", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-base64", "latest": {"1.1--r3.2.2_0": "sha256:d2b8ce0c91d725490c2bffa33ead7ab9c02fa814f2460632ad8be1cbed398692"}, "tags": {"1.1--r3.2.2_0": "sha256:d2b8ce0c91d725490c2bffa33ead7ab9c02fa814f2460632ad8be1cbed398692", "1.1--r3.3.2_0": "sha256:6994803ba52c835e950a13cf04e96e681f1fd2f95c7f82541a62594370cb8ec2"}, "docker": "quay.io/biocontainers/r-base64", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-base64.

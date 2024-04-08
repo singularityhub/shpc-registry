@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scrnasim-toolz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scrnasim-toolz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scrnasim-toolz/container.yaml"
-updated_at: "2024-04-07 02:38:56.979086"
+updated_at: "2024-04-08 02:46:51.562026"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scrnasim-toolz"
 aliases:

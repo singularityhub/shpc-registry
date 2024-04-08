@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ahocorasicktrie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ahocorasicktrie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ahocorasicktrie/container.yaml"
-updated_at: "2024-04-07 02:59:27.984093"
+updated_at: "2024-04-08 03:09:17.609516"
 latest: "0.1.0--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-ahocorasicktrie"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.1.0--r3.3.1_1"
+ - "0.1.0--r3.3.2_1"
 description: "shpc-registry automated BioContainers addition for r-ahocorasicktrie"
-config: {"url": "https://biocontainers.pro/tools/r-ahocorasicktrie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ahocorasicktrie", "latest": {"0.1.0--r3.3.1_1": "sha256:99114bf0d81a45e71b2a7b83de623103b2d7a1c7518ec2bdede5ec2adb37cec5"}, "tags": {"0.1.0--r3.3.1_1": "sha256:99114bf0d81a45e71b2a7b83de623103b2d7a1c7518ec2bdede5ec2adb37cec5"}, "docker": "quay.io/biocontainers/r-ahocorasicktrie", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-ahocorasicktrie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ahocorasicktrie", "latest": {"0.1.0--r3.3.1_1": "sha256:99114bf0d81a45e71b2a7b83de623103b2d7a1c7518ec2bdede5ec2adb37cec5"}, "tags": {"0.1.0--r3.3.1_1": "sha256:99114bf0d81a45e71b2a7b83de623103b2d7a1c7518ec2bdede5ec2adb37cec5", "0.1.0--r3.3.2_1": "sha256:2f299e66ad3e382f63f7e5ac13ee90b45df20c409aa5aa41dd48a4cc69f7aea7"}, "docker": "quay.io/biocontainers/r-ahocorasicktrie", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ahocorasicktrie.

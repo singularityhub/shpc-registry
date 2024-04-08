@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cialign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cialign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cialign/container.yaml"
-updated_at: "2024-04-07 02:55:46.832173"
+updated_at: "2024-04-08 03:05:16.277828"
 latest: "1.1.0--pyhca03a8a_0"
 container_url: "https://biocontainers.pro/tools/cialign"
 aliases:

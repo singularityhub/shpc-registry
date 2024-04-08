@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-listenv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-listenv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-listenv/container.yaml"
-updated_at: "2024-04-07 03:00:01.997587"
+updated_at: "2024-04-08 03:09:54.439380"
 latest: "0.6.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-listenv"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.6.0--r3.3.1_0"
+ - "0.6.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-listenv"
-config: {"url": "https://biocontainers.pro/tools/r-listenv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-listenv", "latest": {"0.6.0--r3.3.1_0": "sha256:5fdf1b7d1aa1b24b7b051477282d4ae764ad6edc7e33561ad20e5c8d5b552a48"}, "tags": {"0.6.0--r3.3.1_0": "sha256:5fdf1b7d1aa1b24b7b051477282d4ae764ad6edc7e33561ad20e5c8d5b552a48"}, "docker": "quay.io/biocontainers/r-listenv", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-listenv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-listenv", "latest": {"0.6.0--r3.3.1_0": "sha256:5fdf1b7d1aa1b24b7b051477282d4ae764ad6edc7e33561ad20e5c8d5b552a48"}, "tags": {"0.6.0--r3.3.1_0": "sha256:5fdf1b7d1aa1b24b7b051477282d4ae764ad6edc7e33561ad20e5c8d5b552a48", "0.6.0--r3.3.2_0": "sha256:3253d17084e2525b54d961debad7fe493229b1af47a32544d59d74b46efc9146"}, "docker": "quay.io/biocontainers/r-listenv", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-listenv.

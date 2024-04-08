@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nextdenovo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextdenovo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nextdenovo/container.yaml"
-updated_at: "2024-04-07 02:25:47.584471"
+updated_at: "2024-04-08 02:32:29.099655"
 latest: "2.5.2--py39h36aabaf_3"
 container_url: "https://biocontainers.pro/tools/nextdenovo"
 aliases:
@@ -19,8 +19,9 @@ versions:
  - "2.5.0--py39h20169af_0"
  - "2.5.2--py39h20169af_0"
  - "2.5.2--py39h36aabaf_3"
+ - "2.5.2--py38h76b73ad_3"
 description: "singularity registry hpc automated addition for nextdenovo"
-config: {"url": "https://biocontainers.pro/tools/nextdenovo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nextdenovo", "latest": {"2.5.2--py39h36aabaf_3": "sha256:5c0a33732c3837c543dbe49abaef2172203d217ad95815409205ef149e7eb126"}, "tags": {"2.5.0--py39h20169af_0": "sha256:f3fc2264ce1343ef26f8304b4e78872d9e3cd625e5225e97986bf66fd1924ba1", "2.5.2--py39h20169af_0": "sha256:7e4193ebfce11c9e17c78dfa7e9d7584b3adb3d8361d49fb265cc5b6aebaa5ab", "2.5.2--py39h36aabaf_3": "sha256:5c0a33732c3837c543dbe49abaef2172203d217ad95815409205ef149e7eb126"}, "docker": "quay.io/biocontainers/nextdenovo", "aliases": {"nextDenovo": "/usr/local/bin/nextDenovo", "paralleltask": "/usr/local/bin/paralleltask", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/nextdenovo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nextdenovo", "latest": {"2.5.2--py39h36aabaf_3": "sha256:5c0a33732c3837c543dbe49abaef2172203d217ad95815409205ef149e7eb126"}, "tags": {"2.5.0--py39h20169af_0": "sha256:f3fc2264ce1343ef26f8304b4e78872d9e3cd625e5225e97986bf66fd1924ba1", "2.5.2--py39h20169af_0": "sha256:7e4193ebfce11c9e17c78dfa7e9d7584b3adb3d8361d49fb265cc5b6aebaa5ab", "2.5.2--py39h36aabaf_3": "sha256:5c0a33732c3837c543dbe49abaef2172203d217ad95815409205ef149e7eb126", "2.5.2--py38h76b73ad_3": "sha256:78fe99fa56688be0e728cfd83598275645a5a1c0f15ec08a42bcc189df5a5a0c"}, "docker": "quay.io/biocontainers/nextdenovo", "aliases": {"nextDenovo": "/usr/local/bin/nextDenovo", "paralleltask": "/usr/local/bin/paralleltask", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nextdenovo.

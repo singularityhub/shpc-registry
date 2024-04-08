@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sequenza-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequenza-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequenza-utils/container.yaml"
-updated_at: "2024-04-07 02:54:10.266886"
+updated_at: "2024-04-08 03:03:29.803003"
 latest: "3.0.0--py38hcbe9525_6"
 container_url: "https://biocontainers.pro/tools/sequenza-utils"
 aliases:
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "3.0.0--py27h95a95ce_5"
  - "3.0.0--py38hcbe9525_6"
+ - "3.0.0--py310h068649b_6"
 description: "shpc-registry automated BioContainers addition for sequenza-utils"
-config: {"url": "https://biocontainers.pro/tools/sequenza-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sequenza-utils", "latest": {"3.0.0--py38hcbe9525_6": "sha256:305f7f3b3093eb630b0343a4a8d5c7cb619608903455f1dfbebdc597a1443d1d"}, "tags": {"3.0.0--py27h95a95ce_5": "sha256:cd725cb5730ad0ea7536e0f5231d4462a83d4691f2c23ea63089fd9aaeaaffd2", "3.0.0--py38hcbe9525_6": "sha256:305f7f3b3093eb630b0343a4a8d5c7cb619608903455f1dfbebdc597a1443d1d"}, "docker": "quay.io/biocontainers/sequenza-utils", "aliases": {"sequenza-utils": "/usr/local/bin/sequenza-utils", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ace2sam": "/usr/local/bin/ace2sam"}}
+config: {"url": "https://biocontainers.pro/tools/sequenza-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sequenza-utils", "latest": {"3.0.0--py38hcbe9525_6": "sha256:305f7f3b3093eb630b0343a4a8d5c7cb619608903455f1dfbebdc597a1443d1d"}, "tags": {"3.0.0--py27h95a95ce_5": "sha256:cd725cb5730ad0ea7536e0f5231d4462a83d4691f2c23ea63089fd9aaeaaffd2", "3.0.0--py38hcbe9525_6": "sha256:305f7f3b3093eb630b0343a4a8d5c7cb619608903455f1dfbebdc597a1443d1d", "3.0.0--py310h068649b_6": "sha256:c747e187a8eb0719abbaf979c6279e95c5f88222b5c9e3f011753a7ec98e5bdd"}, "docker": "quay.io/biocontainers/sequenza-utils", "aliases": {"sequenza-utils": "/usr/local/bin/sequenza-utils", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ace2sam": "/usr/local/bin/ace2sam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sequenza-utils.

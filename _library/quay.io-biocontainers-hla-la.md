@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hla-la"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hla-la/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hla-la/container.yaml"
-updated_at: "2024-04-07 02:28:22.851166"
+updated_at: "2024-04-08 02:35:18.969362"
 latest: "1.0.3--hdcf5f25_2"
 container_url: "https://biocontainers.pro/tools/hla-la"
 aliases:
