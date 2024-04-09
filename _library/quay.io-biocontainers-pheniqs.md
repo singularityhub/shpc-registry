@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pheniqs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pheniqs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pheniqs/container.yaml"
-updated_at: "2024-04-08 03:20:04.717672"
-latest: "2.1.0--py310h0f0b2a6_6"
+updated_at: "2024-04-09 03:06:20.006260"
+latest: "2.1.0--py38h1b92da4_7"
 container_url: "https://biocontainers.pro/tools/pheniqs"
 aliases:
  - "pheniqs"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "2.1.0--py27h8478def_5"
  - "2.1.0--py310h0f0b2a6_6"
+ - "2.1.0--py38h1b92da4_7"
 description: "shpc-registry automated BioContainers addition for pheniqs"
-config: {"url": "https://biocontainers.pro/tools/pheniqs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pheniqs", "latest": {"2.1.0--py310h0f0b2a6_6": "sha256:1b633be69154cdb8b758d5f8596c00f8ecfc13bff87e8136c208076b5601df6b"}, "tags": {"2.1.0--py27h8478def_5": "sha256:e17b2cb267e6b74950c8832a001ca1864c38afa9d15ca5004e64480a5b0afa1d", "2.1.0--py310h0f0b2a6_6": "sha256:1b633be69154cdb8b758d5f8596c00f8ecfc13bff87e8136c208076b5601df6b"}, "docker": "quay.io/biocontainers/pheniqs", "aliases": {"pheniqs": "/usr/local/bin/pheniqs", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/pheniqs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pheniqs", "latest": {"2.1.0--py38h1b92da4_7": "sha256:9bc0b93ca087f92ec0ebfc7f99b85c53374a69403633a6e1283bada65bed2b44"}, "tags": {"2.1.0--py27h8478def_5": "sha256:e17b2cb267e6b74950c8832a001ca1864c38afa9d15ca5004e64480a5b0afa1d", "2.1.0--py310h0f0b2a6_6": "sha256:1b633be69154cdb8b758d5f8596c00f8ecfc13bff87e8136c208076b5601df6b", "2.1.0--py38h1b92da4_7": "sha256:9bc0b93ca087f92ec0ebfc7f99b85c53374a69403633a6e1283bada65bed2b44"}, "docker": "quay.io/biocontainers/pheniqs", "aliases": {"pheniqs": "/usr/local/bin/pheniqs", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pheniqs.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/pheniqs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pheniqs:2.1.0--py310h0f0b2a6_6
+$ shpc install quay.io/biocontainers/pheniqs:2.1.0--py38h1b92da4_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pheniqs/2.1.0--py310h0f0b2a6_6
-$ module help quay.io/biocontainers/pheniqs/2.1.0--py310h0f0b2a6_6
+$ module load quay.io/biocontainers/pheniqs/2.1.0--py38h1b92da4_7
+$ module help quay.io/biocontainers/pheniqs/2.1.0--py38h1b92da4_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

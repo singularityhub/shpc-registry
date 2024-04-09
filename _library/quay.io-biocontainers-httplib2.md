@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/httplib2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/httplib2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/httplib2/container.yaml"
-updated_at: "2024-04-08 02:33:11.365997"
+updated_at: "2024-04-09 02:29:07.266308"
 latest: "0.9.2--py35_0"
 container_url: "https://biocontainers.pro/tools/httplib2"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.9.2--py35_0"
+ - "0.9.2--py36_0"
 description: "shpc-registry automated BioContainers addition for httplib2"
-config: {"url": "https://biocontainers.pro/tools/httplib2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for httplib2", "latest": {"0.9.2--py35_0": "sha256:e284f75641d99f3954482c0ae8cdb29cc98e794309ed619253fbd2d4b22f3152"}, "tags": {"0.9.2--py35_0": "sha256:e284f75641d99f3954482c0ae8cdb29cc98e794309ed619253fbd2d4b22f3152"}, "docker": "quay.io/biocontainers/httplib2", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/httplib2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for httplib2", "latest": {"0.9.2--py35_0": "sha256:e284f75641d99f3954482c0ae8cdb29cc98e794309ed619253fbd2d4b22f3152"}, "tags": {"0.9.2--py35_0": "sha256:e284f75641d99f3954482c0ae8cdb29cc98e794309ed619253fbd2d4b22f3152", "0.9.2--py36_0": "sha256:2e616a88983b77d6ac4c7b52180542d8484420aad007643b098516b3e6bc0f2f"}, "docker": "quay.io/biocontainers/httplib2", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/httplib2.

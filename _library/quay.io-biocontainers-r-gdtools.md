@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gdtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gdtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gdtools/container.yaml"
-updated_at: "2024-04-08 03:17:29.449540"
+updated_at: "2024-04-09 03:04:16.344347"
 latest: "0.1.4--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-gdtools"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.1.4--r3.3.1_0"
+ - "0.1.4--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-gdtools"
-config: {"url": "https://biocontainers.pro/tools/r-gdtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gdtools", "latest": {"0.1.4--r3.3.1_0": "sha256:538c615992e355176fb83a826390903e3c759712e57141f96427c85d5e2f0b36"}, "tags": {"0.1.4--r3.3.1_0": "sha256:538c615992e355176fb83a826390903e3c759712e57141f96427c85d5e2f0b36"}, "docker": "quay.io/biocontainers/r-gdtools", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-gdtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gdtools", "latest": {"0.1.4--r3.3.1_0": "sha256:538c615992e355176fb83a826390903e3c759712e57141f96427c85d5e2f0b36"}, "tags": {"0.1.4--r3.3.1_0": "sha256:538c615992e355176fb83a826390903e3c759712e57141f96427c85d5e2f0b36", "0.1.4--r3.3.2_0": "sha256:c773cf4cc6ece1c73394bccc717f7c0643d850d2f81cee060aae4d90ab1da129"}, "docker": "quay.io/biocontainers/r-gdtools", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gdtools.

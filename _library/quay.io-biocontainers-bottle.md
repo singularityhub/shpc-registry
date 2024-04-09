@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bottle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bottle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bottle/container.yaml"
-updated_at: "2024-04-08 03:12:34.582979"
+updated_at: "2024-04-09 03:00:19.984708"
 latest: "0.12.9--py35_0"
 container_url: "https://biocontainers.pro/tools/bottle"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.12.9--py35_0"
+ - "0.12.9--py36_0"
 description: "shpc-registry automated BioContainers addition for bottle"
-config: {"url": "https://biocontainers.pro/tools/bottle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bottle", "latest": {"0.12.9--py35_0": "sha256:a93a0fc954b5bbf71bf6215160b27fc445030a63e34fe71fb3f8e8b77fc29e78"}, "tags": {"0.12.9--py35_0": "sha256:a93a0fc954b5bbf71bf6215160b27fc445030a63e34fe71fb3f8e8b77fc29e78"}, "docker": "quay.io/biocontainers/bottle", "aliases": {"bottle.py": "/usr/local/bin/bottle.py", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/bottle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bottle", "latest": {"0.12.9--py35_0": "sha256:a93a0fc954b5bbf71bf6215160b27fc445030a63e34fe71fb3f8e8b77fc29e78"}, "tags": {"0.12.9--py35_0": "sha256:a93a0fc954b5bbf71bf6215160b27fc445030a63e34fe71fb3f8e8b77fc29e78", "0.12.9--py36_0": "sha256:882c0409ea48afdac146b9e309e54cefd12f7fff7f65f3d9d4380da84343d352"}, "docker": "quay.io/biocontainers/bottle", "aliases": {"bottle.py": "/usr/local/bin/bottle.py", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bottle.

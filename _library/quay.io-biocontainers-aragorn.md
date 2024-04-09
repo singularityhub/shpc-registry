@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/aragorn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aragorn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aragorn/container.yaml"
-updated_at: "2024-04-08 02:57:33.917013"
-latest: "1.2.41--h031d066_1"
+updated_at: "2024-04-09 02:48:24.775754"
+latest: "1.2.41--h031d066_2"
 container_url: "https://biocontainers.pro/tools/aragorn"
 aliases:
  - "aragorn"
 versions:
  - "1.2.41--hec16e2b_0"
  - "1.2.41--h031d066_1"
+ - "1.2.41--h031d066_2"
 description: "shpc-registry automated BioContainers addition for aragorn"
-config: {"url": "https://biocontainers.pro/tools/aragorn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aragorn", "latest": {"1.2.41--h031d066_1": "sha256:497f6ebf0e15535856704eb4486b81b4fa6d243a8cb35c22db8ef54cee1c8f98"}, "tags": {"1.2.41--hec16e2b_0": "sha256:f2861de42c8da62ebf1114c533d681f57e1f93bc8278efc27306b19a192d6bd4", "1.2.41--h031d066_1": "sha256:497f6ebf0e15535856704eb4486b81b4fa6d243a8cb35c22db8ef54cee1c8f98"}, "docker": "quay.io/biocontainers/aragorn", "aliases": {"aragorn": "/usr/local/bin/aragorn"}}
+config: {"url": "https://biocontainers.pro/tools/aragorn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aragorn", "latest": {"1.2.41--h031d066_2": "sha256:52d29a85c9456be32c04f39e704a035fa3270d3b7055bcdd5672ab8802eddfd8"}, "tags": {"1.2.41--hec16e2b_0": "sha256:f2861de42c8da62ebf1114c533d681f57e1f93bc8278efc27306b19a192d6bd4", "1.2.41--h031d066_1": "sha256:497f6ebf0e15535856704eb4486b81b4fa6d243a8cb35c22db8ef54cee1c8f98", "1.2.41--h031d066_2": "sha256:52d29a85c9456be32c04f39e704a035fa3270d3b7055bcdd5672ab8802eddfd8"}, "docker": "quay.io/biocontainers/aragorn", "aliases": {"aragorn": "/usr/local/bin/aragorn"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aragorn.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/aragorn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aragorn:1.2.41--h031d066_1
+$ shpc install quay.io/biocontainers/aragorn:1.2.41--h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aragorn/1.2.41--h031d066_1
-$ module help quay.io/biocontainers/aragorn/1.2.41--h031d066_1
+$ module load quay.io/biocontainers/aragorn/1.2.41--h031d066_2
+$ module help quay.io/biocontainers/aragorn/1.2.41--h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

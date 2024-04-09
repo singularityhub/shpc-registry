@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/amplicon_coverage_plot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amplicon_coverage_plot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amplicon_coverage_plot/container.yaml"
-updated_at: "2024-04-08 02:52:16.348443"
-latest: "0.3.3--pyhdfd78af_0"
+updated_at: "2024-04-09 02:44:13.812852"
+latest: "0.3.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/amplicon_coverage_plot"
 aliases:
  - "amplicov"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "0.3.2--pyhdfd78af_0"
  - "0.3.3--pyhdfd78af_0"
+ - "0.3.3--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for amplicon_coverage_plot"
-config: {"url": "https://biocontainers.pro/tools/amplicon_coverage_plot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for amplicon_coverage_plot", "latest": {"0.3.3--pyhdfd78af_0": "sha256:79030441e6ca3b023758ca099a81855ba7c8d94202c6edad0cc3b8c355d7c9da"}, "tags": {"0.3.2--pyhdfd78af_0": "sha256:e491e3cd75d973764f62829479bd1a69fe55778406d3eb7e716f226ffdebc27c", "0.3.3--pyhdfd78af_0": "sha256:79030441e6ca3b023758ca099a81855ba7c8d94202c6edad0cc3b8c355d7c9da"}, "docker": "quay.io/biocontainers/amplicon_coverage_plot", "aliases": {"amplicov": "/usr/local/bin/amplicov", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/amplicon_coverage_plot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for amplicon_coverage_plot", "latest": {"0.3.3--pyhdfd78af_1": "sha256:f7cdd96b7dfac35da028a3196b2bc2dbb6026bd5cffbf2f3a6f1a7f1a149ee62"}, "tags": {"0.3.2--pyhdfd78af_0": "sha256:e491e3cd75d973764f62829479bd1a69fe55778406d3eb7e716f226ffdebc27c", "0.3.3--pyhdfd78af_0": "sha256:79030441e6ca3b023758ca099a81855ba7c8d94202c6edad0cc3b8c355d7c9da", "0.3.3--pyhdfd78af_1": "sha256:f7cdd96b7dfac35da028a3196b2bc2dbb6026bd5cffbf2f3a6f1a7f1a149ee62"}, "docker": "quay.io/biocontainers/amplicon_coverage_plot", "aliases": {"amplicov": "/usr/local/bin/amplicov", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/amplicon_coverage_plot.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/amplicon_coverage_plot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/amplicon_coverage_plot:0.3.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/amplicon_coverage_plot:0.3.3--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/amplicon_coverage_plot/0.3.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/amplicon_coverage_plot/0.3.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/amplicon_coverage_plot/0.3.3--pyhdfd78af_1
+$ module help quay.io/biocontainers/amplicon_coverage_plot/0.3.3--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

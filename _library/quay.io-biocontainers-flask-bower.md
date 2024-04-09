@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flask-bower"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-bower/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flask-bower/container.yaml"
-updated_at: "2024-04-08 03:20:29.994340"
+updated_at: "2024-04-09 03:06:39.760146"
 latest: "1.3.0--py27_0"
 container_url: "https://biocontainers.pro/tools/flask-bower"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.3.0--py27_0"
+ - "1.3.0--py35_0"
 description: "shpc-registry automated BioContainers addition for flask-bower"
-config: {"url": "https://biocontainers.pro/tools/flask-bower", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flask-bower", "latest": {"1.3.0--py27_0": "sha256:f0e51751b1e595c0643b1b8c84f9878be2fa0df3cc07aa130259a851150995f6"}, "tags": {"1.3.0--py27_0": "sha256:f0e51751b1e595c0643b1b8c84f9878be2fa0df3cc07aa130259a851150995f6"}, "docker": "quay.io/biocontainers/flask-bower", "aliases": {"flask": "/usr/local/bin/flask", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/flask-bower", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flask-bower", "latest": {"1.3.0--py27_0": "sha256:f0e51751b1e595c0643b1b8c84f9878be2fa0df3cc07aa130259a851150995f6"}, "tags": {"1.3.0--py27_0": "sha256:f0e51751b1e595c0643b1b8c84f9878be2fa0df3cc07aa130259a851150995f6", "1.3.0--py35_0": "sha256:2d12e5dd295ba70456749b824f7c4c38755b0b9b3467e88f54fc96eddae36433"}, "docker": "quay.io/biocontainers/flask-bower", "aliases": {"flask": "/usr/local/bin/flask", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flask-bower.

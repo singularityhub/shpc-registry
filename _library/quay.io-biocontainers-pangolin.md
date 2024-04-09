@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pangolin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pangolin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pangolin/container.yaml"
-updated_at: "2024-04-08 03:01:47.733839"
-latest: "4.0.3--pyhdfd78af_0"
+updated_at: "2024-04-09 02:51:45.308120"
+latest: "4.3--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/pangolin"
 aliases:
  - "constellations"
@@ -47,8 +47,12 @@ aliases:
  - "oshrun"
 versions:
  - "4.0.3--pyhdfd78af_0"
+ - "4.3--pyhdfd78af_2"
+ - "4.2--pyhdfd78af_1"
+ - "4.1.3--pyhdfd78af_0"
+ - "4.0.6--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for pangolin"
-config: {"url": "https://biocontainers.pro/tools/pangolin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pangolin", "latest": {"4.0.3--pyhdfd78af_0": "sha256:c997d652643071694f8392c0a787a4b24a1bc3c5125b606f123a931f24ac833c"}, "tags": {"4.0.3--pyhdfd78af_0": "sha256:c997d652643071694f8392c0a787a4b24a1bc3c5125b606f123a931f24ac833c"}, "docker": "quay.io/biocontainers/pangolin", "aliases": {"constellations": "/usr/local/bin/constellations", "extract_definitions.py": "/usr/local/bin/extract_definitions.py", "faToVcf": "/usr/local/bin/faToVcf", "fido2-assert": "/usr/local/bin/fido2-assert", "fido2-cred": "/usr/local/bin/fido2-cred", "fido2-token": "/usr/local/bin/fido2-token", "git-lfs": "/usr/local/bin/git-lfs", "gofasta": "/usr/local/bin/gofasta", "matOptimize": "/usr/local/bin/matOptimize", "matUtils": "/usr/local/bin/matUtils", "pangolearn.smk": "/usr/local/bin/pangolearn.smk", "pangolin": "/usr/local/bin/pangolin", "pangolin_data": "/usr/local/bin/pangolin_data", "preprocessing.smk": "/usr/local/bin/preprocessing.smk", "ripples": "/usr/local/bin/ripples", "scorpio": "/usr/local/bin/scorpio", "scp": "/usr/local/bin/scp", "sftp": "/usr/local/bin/sftp", "ssh": "/usr/local/bin/ssh", "ssh-add": "/usr/local/bin/ssh-add", "ssh-agent": "/usr/local/bin/ssh-agent", "ssh-keygen": "/usr/local/bin/ssh-keygen", "ssh-keyscan": "/usr/local/bin/ssh-keyscan", "sshd": "/usr/local/bin/sshd", "type_constellations.py": "/usr/local/bin/type_constellations.py", "usher": "/usr/local/bin/usher", "usher.smk": "/usr/local/bin/usher.smk", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
+config: {"url": "https://biocontainers.pro/tools/pangolin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pangolin", "latest": {"4.3--pyhdfd78af_2": "sha256:115cff80821321a1d153ed8d4c8c3c7cad3db8e28152f049aa42eb68d2ba07a6"}, "tags": {"4.0.3--pyhdfd78af_0": "sha256:c997d652643071694f8392c0a787a4b24a1bc3c5125b606f123a931f24ac833c", "4.3--pyhdfd78af_2": "sha256:115cff80821321a1d153ed8d4c8c3c7cad3db8e28152f049aa42eb68d2ba07a6", "4.2--pyhdfd78af_1": "sha256:92ceec379216b11d0976faa5af5ddb024863517afa555c986bc49c65520b54dd", "4.1.3--pyhdfd78af_0": "sha256:d18ba33d96a7258c90d16048a917e22df29c63e261acc82b2c16b8750e1950c7", "4.0.6--pyhdfd78af_1": "sha256:936e336b54a71f8b726b2b74689c382a069acdcafde2af8a647c1d6f94acef3e"}, "docker": "quay.io/biocontainers/pangolin", "aliases": {"constellations": "/usr/local/bin/constellations", "extract_definitions.py": "/usr/local/bin/extract_definitions.py", "faToVcf": "/usr/local/bin/faToVcf", "fido2-assert": "/usr/local/bin/fido2-assert", "fido2-cred": "/usr/local/bin/fido2-cred", "fido2-token": "/usr/local/bin/fido2-token", "git-lfs": "/usr/local/bin/git-lfs", "gofasta": "/usr/local/bin/gofasta", "matOptimize": "/usr/local/bin/matOptimize", "matUtils": "/usr/local/bin/matUtils", "pangolearn.smk": "/usr/local/bin/pangolearn.smk", "pangolin": "/usr/local/bin/pangolin", "pangolin_data": "/usr/local/bin/pangolin_data", "preprocessing.smk": "/usr/local/bin/preprocessing.smk", "ripples": "/usr/local/bin/ripples", "scorpio": "/usr/local/bin/scorpio", "scp": "/usr/local/bin/scp", "sftp": "/usr/local/bin/sftp", "ssh": "/usr/local/bin/ssh", "ssh-add": "/usr/local/bin/ssh-add", "ssh-agent": "/usr/local/bin/ssh-agent", "ssh-keygen": "/usr/local/bin/ssh-keygen", "ssh-keyscan": "/usr/local/bin/ssh-keyscan", "sshd": "/usr/local/bin/sshd", "type_constellations.py": "/usr/local/bin/type_constellations.py", "usher": "/usr/local/bin/usher", "usher.smk": "/usr/local/bin/usher.smk", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pangolin.
@@ -63,7 +67,7 @@ $ shpc install quay.io/biocontainers/pangolin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pangolin:4.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pangolin:4.3--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pangolin/4.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/pangolin/4.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/pangolin/4.3--pyhdfd78af_2
+$ module help quay.io/biocontainers/pangolin/4.3--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

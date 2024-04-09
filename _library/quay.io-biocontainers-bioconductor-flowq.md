@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowq/container.yaml"
-updated_at: "2024-04-08 03:18:48.373023"
+updated_at: "2024-04-09 03:05:19.660563"
 latest: "1.40.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowq"
 aliases:
@@ -24,8 +24,9 @@ aliases:
  - "MagickWand-config"
 versions:
  - "1.40.0--r351_0"
+ - "1.40.0--r341_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowq", "latest": {"1.40.0--r351_0": "sha256:abfdb7a7a00abb0f3baea98e2748d2a52075be829ac9370b7a23439974f56964"}, "tags": {"1.40.0--r351_0": "sha256:abfdb7a7a00abb0f3baea98e2748d2a52075be829ac9370b7a23439974f56964"}, "docker": "quay.io/biocontainers/bioconductor-flowq", "aliases": {"-pkg-config": "/usr/local/bin/-pkg-config", "croco-0.6-config": "/usr/local/bin/croco-0.6-config", "csslint-0.6": "/usr/local/bin/csslint-0.6", "x86_64-unknown-linux-gnu-pkg-config": "/usr/local/bin/x86_64-unknown-linux-gnu-pkg-config", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowq", "latest": {"1.40.0--r351_0": "sha256:abfdb7a7a00abb0f3baea98e2748d2a52075be829ac9370b7a23439974f56964"}, "tags": {"1.40.0--r351_0": "sha256:abfdb7a7a00abb0f3baea98e2748d2a52075be829ac9370b7a23439974f56964", "1.40.0--r341_0": "sha256:8709b9730ad78a3db5a745c0e1e13f03cf901a1c0c51b3d350142db19b212f8a"}, "docker": "quay.io/biocontainers/bioconductor-flowq", "aliases": {"-pkg-config": "/usr/local/bin/-pkg-config", "croco-0.6-config": "/usr/local/bin/croco-0.6-config", "csslint-0.6": "/usr/local/bin/csslint-0.6", "x86_64-unknown-linux-gnu-pkg-config": "/usr/local/bin/x86_64-unknown-linux-gnu-pkg-config", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowq.

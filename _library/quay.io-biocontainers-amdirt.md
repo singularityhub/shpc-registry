@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/amdirt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amdirt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amdirt/container.yaml"
-updated_at: "2024-04-08 02:56:26.635668"
-latest: "1.5.0--pyhdfd78af_0"
+updated_at: "2024-04-09 02:47:31.436532"
+latest: "1.5.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/amdirt"
 aliases:
  - "AMDirT"
@@ -41,8 +41,9 @@ versions:
  - "1.4.3--pyhdfd78af_0"
  - "1.4.6--pyhdfd78af_0"
  - "1.5.0--pyhdfd78af_0"
+ - "1.5.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for amdirt"
-config: {"url": "https://biocontainers.pro/tools/amdirt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amdirt", "latest": {"1.5.0--pyhdfd78af_0": "sha256:40c57ea2da544cdf015d4a9555bb8aad9253a0ea3db4abd7120c48d3b7e1bb91"}, "tags": {"1.4.3--pyhdfd78af_0": "sha256:0c9b82ae40249523d2ff74f2ff51efa786a583106f8e8b496c723324cd80e843", "1.4.6--pyhdfd78af_0": "sha256:2847a4aaee53e840bd412192eb59a1925df61d880c549bb6414e0a04d0747892", "1.5.0--pyhdfd78af_0": "sha256:40c57ea2da544cdf015d4a9555bb8aad9253a0ea3db4abd7120c48d3b7e1bb91"}, "docker": "quay.io/biocontainers/amdirt", "aliases": {"AMDirT": "/usr/local/bin/AMDirT", "streamlit": "/usr/local/bin/streamlit", "streamlit.cmd": "/usr/local/bin/streamlit.cmd", "watchmedo": "/usr/local/bin/watchmedo", "markdown-it": "/usr/local/bin/markdown-it", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "tjbench": "/usr/local/bin/tjbench", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "f2py3.11": "/usr/local/bin/f2py3.11", "curve_keygen": "/usr/local/bin/curve_keygen", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "ipython3": "/usr/local/bin/ipython3"}}
+config: {"url": "https://biocontainers.pro/tools/amdirt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amdirt", "latest": {"1.5.0--pyhdfd78af_1": "sha256:4f0a685801ecb4294b5fb3c2022c3093b89318eb279387f44072583d9f336d6d"}, "tags": {"1.4.3--pyhdfd78af_0": "sha256:0c9b82ae40249523d2ff74f2ff51efa786a583106f8e8b496c723324cd80e843", "1.4.6--pyhdfd78af_0": "sha256:2847a4aaee53e840bd412192eb59a1925df61d880c549bb6414e0a04d0747892", "1.5.0--pyhdfd78af_0": "sha256:40c57ea2da544cdf015d4a9555bb8aad9253a0ea3db4abd7120c48d3b7e1bb91", "1.5.0--pyhdfd78af_1": "sha256:4f0a685801ecb4294b5fb3c2022c3093b89318eb279387f44072583d9f336d6d"}, "docker": "quay.io/biocontainers/amdirt", "aliases": {"AMDirT": "/usr/local/bin/AMDirT", "streamlit": "/usr/local/bin/streamlit", "streamlit.cmd": "/usr/local/bin/streamlit.cmd", "watchmedo": "/usr/local/bin/watchmedo", "markdown-it": "/usr/local/bin/markdown-it", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "tjbench": "/usr/local/bin/tjbench", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "f2py3.11": "/usr/local/bin/f2py3.11", "curve_keygen": "/usr/local/bin/curve_keygen", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "ipython3": "/usr/local/bin/ipython3"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/amdirt.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/amdirt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/amdirt:1.5.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/amdirt:1.5.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/amdirt/1.5.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/amdirt/1.5.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/amdirt/1.5.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/amdirt/1.5.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

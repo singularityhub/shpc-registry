@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytest-cov"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytest-cov/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytest-cov/container.yaml"
-updated_at: "2024-04-08 03:00:58.550483"
+updated_at: "2024-04-09 02:51:06.607754"
 latest: "2.4.0--py34_0"
 container_url: "https://biocontainers.pro/tools/pytest-cov"
 aliases:
@@ -27,8 +27,9 @@ aliases:
  - "pyvenv"
 versions:
  - "2.4.0--py34_0"
+ - "2.4.0--py36_0"
 description: "shpc-registry automated BioContainers addition for pytest-cov"
-config: {"url": "https://biocontainers.pro/tools/pytest-cov", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytest-cov", "latest": {"2.4.0--py34_0": "sha256:38cdfbc5ce43d8f98c11cad4f79d6279b1af8ab5af38352eaaf0f61160361505"}, "tags": {"2.4.0--py34_0": "sha256:38cdfbc5ce43d8f98c11cad4f79d6279b1af8ab5af38352eaaf0f61160361505"}, "docker": "quay.io/biocontainers/pytest-cov", "aliases": {"2to3-3.4": "/usr/local/bin/2to3-3.4", "coverage-3.4": "/usr/local/bin/coverage-3.4", "coverage3": "/usr/local/bin/coverage3", "easy_install-3.4": "/usr/local/bin/easy_install-3.4", "idle3.4": "/usr/local/bin/idle3.4", "pydoc3.4": "/usr/local/bin/pydoc3.4", "python3.4": "/usr/local/bin/python3.4", "python3.4-config": "/usr/local/bin/python3.4-config", "python3.4m": "/usr/local/bin/python3.4m", "python3.4m-config": "/usr/local/bin/python3.4m-config", "pyvenv-3.4": "/usr/local/bin/pyvenv-3.4", "coverage": "/usr/local/bin/coverage", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pytest-cov", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytest-cov", "latest": {"2.4.0--py34_0": "sha256:38cdfbc5ce43d8f98c11cad4f79d6279b1af8ab5af38352eaaf0f61160361505"}, "tags": {"2.4.0--py34_0": "sha256:38cdfbc5ce43d8f98c11cad4f79d6279b1af8ab5af38352eaaf0f61160361505", "2.4.0--py36_0": "sha256:a23da123418f42d4094b41d5c614928040db1a336fa1278065678b2a874c0df0"}, "docker": "quay.io/biocontainers/pytest-cov", "aliases": {"2to3-3.4": "/usr/local/bin/2to3-3.4", "coverage-3.4": "/usr/local/bin/coverage-3.4", "coverage3": "/usr/local/bin/coverage3", "easy_install-3.4": "/usr/local/bin/easy_install-3.4", "idle3.4": "/usr/local/bin/idle3.4", "pydoc3.4": "/usr/local/bin/pydoc3.4", "python3.4": "/usr/local/bin/python3.4", "python3.4-config": "/usr/local/bin/python3.4-config", "python3.4m": "/usr/local/bin/python3.4m", "python3.4m-config": "/usr/local/bin/python3.4m-config", "pyvenv-3.4": "/usr/local/bin/pyvenv-3.4", "coverage": "/usr/local/bin/coverage", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytest-cov.

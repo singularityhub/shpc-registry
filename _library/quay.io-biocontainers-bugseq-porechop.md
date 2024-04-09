@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bugseq-porechop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bugseq-porechop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bugseq-porechop/container.yaml"
-updated_at: "2024-04-08 02:37:11.299655"
+updated_at: "2024-04-09 02:32:19.382835"
 latest: "0.3.4pre--py37h96cfd12_2"
 container_url: "https://biocontainers.pro/tools/bugseq-porechop"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "pyvenv"
 versions:
  - "0.3.4pre--py37h96cfd12_2"
+ - "0.3.4pre--py36h2ad2d48_2"
 description: "shpc-registry automated BioContainers addition for bugseq-porechop"
-config: {"url": "https://biocontainers.pro/tools/bugseq-porechop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bugseq-porechop", "latest": {"0.3.4pre--py37h96cfd12_2": "sha256:f95fb3004e6dd2f7364be4d9872a0deba3732382ed682a8c82aa554d4ecabf26"}, "tags": {"0.3.4pre--py37h96cfd12_2": "sha256:f95fb3004e6dd2f7364be4d9872a0deba3732382ed682a8c82aa554d4ecabf26"}, "docker": "quay.io/biocontainers/bugseq-porechop", "aliases": {"porechop": "/usr/local/bin/porechop", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/bugseq-porechop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bugseq-porechop", "latest": {"0.3.4pre--py37h96cfd12_2": "sha256:f95fb3004e6dd2f7364be4d9872a0deba3732382ed682a8c82aa554d4ecabf26"}, "tags": {"0.3.4pre--py37h96cfd12_2": "sha256:f95fb3004e6dd2f7364be4d9872a0deba3732382ed682a8c82aa554d4ecabf26", "0.3.4pre--py36h2ad2d48_2": "sha256:1b726696769f56e679a3ff3c152100411bc2c8944ee27e566e53d30b77d08629"}, "docker": "quay.io/biocontainers/bugseq-porechop", "aliases": {"porechop": "/usr/local/bin/porechop", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bugseq-porechop.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/angsd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/angsd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/angsd/container.yaml"
-updated_at: "2024-04-08 02:57:36.654104"
-latest: "0.940--hce60e53_2"
+updated_at: "2024-04-09 02:48:26.949155"
+latest: "0.940--hf5e1c6e_3"
 container_url: "https://biocontainers.pro/tools/angsd"
 aliases:
  - "NGSadmix"
@@ -32,8 +32,9 @@ versions:
  - "0.940--h470d46e_0"
  - "0.940--h6448e42_1"
  - "0.940--hce60e53_2"
+ - "0.940--hf5e1c6e_3"
 description: "shpc-registry automated BioContainers addition for angsd"
-config: {"url": "https://biocontainers.pro/tools/angsd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for angsd", "latest": {"0.940--hce60e53_2": "sha256:68d0d98b4462630dcce46b926e6e3812ac05003dc1a8fb54c46b867b0fe200f9"}, "tags": {"0.939--h470d46e_1": "sha256:969d28663c9479680380e8ced285063d51eb7056f0db8b2ed3ebed66497297d3", "0.940--h470d46e_0": "sha256:8c66bcd4193150fe945d585c42b6510a11b301b4152b84be734d739366ee8714", "0.940--h6448e42_1": "sha256:33684484386bb42303196e8b1ff5c4170d4b8bdc72e7e73e349b434fadbbef25", "0.940--hce60e53_2": "sha256:68d0d98b4462630dcce46b926e6e3812ac05003dc1a8fb54c46b867b0fe200f9"}, "docker": "quay.io/biocontainers/angsd", "aliases": {"NGSadmix": "/usr/local/bin/NGSadmix", "angsd": "/usr/local/bin/angsd", "contamination": "/usr/local/bin/contamination", "contamination2": "/usr/local/bin/contamination2", "haploToPlink": "/usr/local/bin/haploToPlink", "ibs": "/usr/local/bin/ibs", "msHOT2glf": "/usr/local/bin/msHOT2glf", "msToGlf": "/usr/local/bin/msToGlf", "ngsPSMC": "/usr/local/bin/ngsPSMC", "printIcounts": "/usr/local/bin/printIcounts", "realSFS": "/usr/local/bin/realSFS", "scounts": "/usr/local/bin/scounts", "smartCount": "/usr/local/bin/smartCount", "splitgl": "/usr/local/bin/splitgl", "supersim": "/usr/local/bin/supersim", "thetaStat": "/usr/local/bin/thetaStat", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/angsd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for angsd", "latest": {"0.940--hf5e1c6e_3": "sha256:4126d3925a92778b1bfab45c1cd17c3210e6851980f1bf953ca2403b4a4b3800"}, "tags": {"0.939--h470d46e_1": "sha256:969d28663c9479680380e8ced285063d51eb7056f0db8b2ed3ebed66497297d3", "0.940--h470d46e_0": "sha256:8c66bcd4193150fe945d585c42b6510a11b301b4152b84be734d739366ee8714", "0.940--h6448e42_1": "sha256:33684484386bb42303196e8b1ff5c4170d4b8bdc72e7e73e349b434fadbbef25", "0.940--hce60e53_2": "sha256:68d0d98b4462630dcce46b926e6e3812ac05003dc1a8fb54c46b867b0fe200f9", "0.940--hf5e1c6e_3": "sha256:4126d3925a92778b1bfab45c1cd17c3210e6851980f1bf953ca2403b4a4b3800"}, "docker": "quay.io/biocontainers/angsd", "aliases": {"NGSadmix": "/usr/local/bin/NGSadmix", "angsd": "/usr/local/bin/angsd", "contamination": "/usr/local/bin/contamination", "contamination2": "/usr/local/bin/contamination2", "haploToPlink": "/usr/local/bin/haploToPlink", "ibs": "/usr/local/bin/ibs", "msHOT2glf": "/usr/local/bin/msHOT2glf", "msToGlf": "/usr/local/bin/msToGlf", "ngsPSMC": "/usr/local/bin/ngsPSMC", "printIcounts": "/usr/local/bin/printIcounts", "realSFS": "/usr/local/bin/realSFS", "scounts": "/usr/local/bin/scounts", "smartCount": "/usr/local/bin/smartCount", "splitgl": "/usr/local/bin/splitgl", "supersim": "/usr/local/bin/supersim", "thetaStat": "/usr/local/bin/thetaStat", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/angsd.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/angsd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/angsd:0.940--hce60e53_2
+$ shpc install quay.io/biocontainers/angsd:0.940--hf5e1c6e_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/angsd/0.940--hce60e53_2
-$ module help quay.io/biocontainers/angsd/0.940--hce60e53_2
+$ module load quay.io/biocontainers/angsd/0.940--hf5e1c6e_3
+$ module help quay.io/biocontainers/angsd/0.940--hf5e1c6e_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

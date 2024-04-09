@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chipanalyser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipanalyser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipanalyser/container.yaml"
-updated_at: "2024-04-08 03:17:37.424321"
+updated_at: "2024-04-09 03:04:22.586119"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipanalyser"
 aliases:

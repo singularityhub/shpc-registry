@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/talloc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/talloc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/talloc/container.yaml"
-updated_at: "2024-04-08 02:57:14.968818"
+updated_at: "2024-04-09 02:48:09.887942"
 latest: "2.1.9--0"
 container_url: "https://biocontainers.pro/tools/talloc"
 
