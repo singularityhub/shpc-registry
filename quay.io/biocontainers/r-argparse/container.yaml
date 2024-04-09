@@ -5,6 +5,7 @@ latest:
   1.0.1--py36r3.3.1_0: sha256:8e85652f83b25a0ce210c2513b7c6a0a120636116a2822eced411c1aa75d3ee8
 tags:
   1.0.1--py36r3.3.1_0: sha256:8e85652f83b25a0ce210c2513b7c6a0a120636116a2822eced411c1aa75d3ee8
+  1.0.1--py36r3.3.2_0: sha256:7cb0024d2d0e0f005bf1464e60ee0eda2480b5d75a19e479998269d4c49e4dc0
 docker: quay.io/biocontainers/r-argparse
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

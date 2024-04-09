@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/snakemake-executor-plugin-googlebatch
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snakemake-executor-plugin-googlebatch
 latest:
-  0.3.0--pyhdfd78af_0: sha256:5e0aba133467ddbbfebbd0f83354406116df30cf3f4b69d38a90feeb8f4d8d28
+  0.3.3--pyhdfd78af_0: sha256:8edf9781caebda48778e15b9f766b0f25598f7a7cbcb9202380b5e51f6497e17
 tags:
   0.1.1--pyhdfd78af_0: sha256:0b81b71a6f488202ba5102372965673eead4682367def48c08395d41845c7d3f
   0.2.0--pyhdfd78af_0: sha256:4562108d03af29f0dd5177790918cb03c98bc9f01e49c52aee3c7fcc458e95f7
   0.3.0--pyhdfd78af_0: sha256:5e0aba133467ddbbfebbd0f83354406116df30cf3f4b69d38a90feeb8f4d8d28
+  0.3.3--pyhdfd78af_0: sha256:8edf9781caebda48778e15b9f766b0f25598f7a7cbcb9202380b5e51f6497e17
 docker: quay.io/biocontainers/snakemake-executor-plugin-googlebatch
 aliases:
   protoc-24.4.0: /usr/local/bin/protoc-24.4.0

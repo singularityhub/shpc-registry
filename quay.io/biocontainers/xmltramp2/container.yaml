@@ -5,6 +5,7 @@ latest:
   3.1.1--py35_0: sha256:c207beaeb449ed91f7e0a88a1da3e4c311958c4462732a6c9d448f1daa9dae1c
 tags:
   3.1.1--py35_0: sha256:c207beaeb449ed91f7e0a88a1da3e4c311958c4462732a6c9d448f1daa9dae1c
+  3.1.1--py36_0: sha256:fa0198833689b1c8ef970e889d934a79f6e13388ccc2f8a2d6611a91d0ee92eb
 docker: quay.io/biocontainers/xmltramp2
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

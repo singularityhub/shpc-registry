@@ -6,6 +6,7 @@ latest:
 tags:
   1.4.3--py27h41a55b7_0: sha256:c4b8fa9f4e0743dd78d19f9848ebf006a19cac5f0fd760843e75913eb0abab3e
   1.4.7--py310h2401223_0: sha256:f78225877896bb8fe3a7099463952fcebb40205637f1a4d3de4b364e40e82aa1
+  1.4.7--py39h0ae133c_0: sha256:51c17eafe1de735415b1d1a878af025b64a17d4e4de0775117b5bdec857adfb6
 docker: quay.io/biocontainers/methylpy
 aliases:
   methylpy: /usr/local/bin/methylpy

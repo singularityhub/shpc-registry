@@ -5,6 +5,7 @@ latest:
   0.7--py37h675a0cb_2: sha256:ce3435ae32c832311e26fbbcf9032542e71fbe03d6a5d093958b50437839d943
 tags:
   0.7--py37h675a0cb_2: sha256:ce3435ae32c832311e26fbbcf9032542e71fbe03d6a5d093958b50437839d943
+  0.7--py38h8ded8fe_2: sha256:796a90a7f585744822d5dea3a9b7221bba67c1d913d285838e3d854af28a5e27
 docker: quay.io/biocontainers/sparse-neighbors-search
 aliases:
   numba: /usr/local/bin/numba

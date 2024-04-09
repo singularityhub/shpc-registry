@@ -5,6 +5,7 @@ latest:
   3.4--py35_0: sha256:2abc08d93f2c2fb75e574a09dcd44ae98436d64438c660aa0f5a5414dbc8daba
 tags:
   3.4--py35_0: sha256:2abc08d93f2c2fb75e574a09dcd44ae98436d64438c660aa0f5a5414dbc8daba
+  3.4--py36_0: sha256:8afe6ffa774ef8e1d0e0c70a19cf7369b9567a0553998381fa9fb7c676a82643
 docker: quay.io/biocontainers/python-weblogo
 aliases:
   transformseq: /usr/local/bin/transformseq

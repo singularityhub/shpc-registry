@@ -5,6 +5,7 @@ latest:
   0.4.0--py37h8dc5575_3: sha256:ae7902adebc6f4dd5dac0e5edeb8b7e79144918febd78d719796261694ced0f2
 tags:
   0.4.0--py37h8dc5575_3: sha256:ae7902adebc6f4dd5dac0e5edeb8b7e79144918febd78d719796261694ced0f2
+  0.4.0--py38h7243aa2_3: sha256:5b0fa6a3b5e9939461dd64eb7c859c1eba6f377684ef1583bf66c565b63fc740
 docker: quay.io/biocontainers/medpy
 aliases:
   itkTestDriver: /usr/local/bin/itkTestDriver

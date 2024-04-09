@@ -11,6 +11,9 @@ tags:
   1.0.0--py310h068649b_1: sha256:a8dbf208f0f8e950e4fddfe70a168cc9d0042a8e8b7a52270365b5b95a87101d
   0.9.2--py38h8ded8fe_0: sha256:ed67ba8f3c85ff7a84711f3c093e24bf25e5692aa7b7de5e49fd2ef904f33d67
   1.0.2--py39he10ea66_0: sha256:c4b1839e1c8eb753a7f7f654315a62aadeafe2fa3e138899b899e0cf5900eab9
+  1.0.2--py38hcbe9525_0: sha256:b5bfb85be02c7b595d5dfa8292fc0fd374241626c452c20320b4b1546b8b2fe9
+  0.9.2--py37h675a0cb_0: sha256:2eb4336431e12ced7917ed203e41275379de2891a36ec4e70f3e8616ee533087
+  0.8.3--py37h675a0cb_0: sha256:a8d08c6ead1fde0e0f7a06c19f69e68e1682a9d7f23ca4f9ef4637524a362405
 docker: quay.io/biocontainers/medicc2
 aliases:
   farcompilestrings: /usr/local/bin/farcompilestrings

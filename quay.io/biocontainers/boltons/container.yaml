@@ -5,6 +5,7 @@ latest:
   16.4.1--py35_0: sha256:87ae76c735ff42c04acfb27432868d9b43af75c2420d1067332c575a0a8287e5
 tags:
   16.4.1--py35_0: sha256:87ae76c735ff42c04acfb27432868d9b43af75c2420d1067332c575a0a8287e5
+  16.4.1--py36_0: sha256:d94b954346dd2f514db1dda8656571661ec70f378fc9923d44b865dd9096359a
 docker: quay.io/biocontainers/boltons
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5
