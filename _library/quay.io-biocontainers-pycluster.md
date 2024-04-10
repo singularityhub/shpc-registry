@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pycluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycluster/container.yaml"
-updated_at: "2024-04-09 02:40:33.433702"
+updated_at: "2024-04-10 02:41:28.567821"
 latest: "1.54--py38h24c8ff8_7"
 container_url: "https://biocontainers.pro/tools/pycluster"
 aliases:
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.54--py37h37892f8_6"
  - "1.54--py38h24c8ff8_7"
+ - "1.54--py39hec7c8de_7"
 description: "shpc-registry automated BioContainers addition for pycluster"
-config: {"url": "https://biocontainers.pro/tools/pycluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pycluster", "latest": {"1.54--py38h24c8ff8_7": "sha256:c535c4475c3a2fe373a55054f3f22563534bc4ff4b8ad206f368d9913767e72f"}, "tags": {"1.54--py37h37892f8_6": "sha256:f3205e9a244c006513081712b810e6987a8e2604f30338a2ea7bac7f9a870cc4", "1.54--py38h24c8ff8_7": "sha256:c535c4475c3a2fe373a55054f3f22563534bc4ff4b8ad206f368d9913767e72f"}, "docker": "quay.io/biocontainers/pycluster", "aliases": {"f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pycluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pycluster", "latest": {"1.54--py38h24c8ff8_7": "sha256:c535c4475c3a2fe373a55054f3f22563534bc4ff4b8ad206f368d9913767e72f"}, "tags": {"1.54--py37h37892f8_6": "sha256:f3205e9a244c006513081712b810e6987a8e2604f30338a2ea7bac7f9a870cc4", "1.54--py38h24c8ff8_7": "sha256:c535c4475c3a2fe373a55054f3f22563534bc4ff4b8ad206f368d9913767e72f", "1.54--py39hec7c8de_7": "sha256:dae276eec0e14296074258875b7b505866480e7a7c60ec50f3b3ec459f5af1a7"}, "docker": "quay.io/biocontainers/pycluster", "aliases": {"f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pycluster.

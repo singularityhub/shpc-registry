@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-argparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-argparse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-argparse/container.yaml"
-updated_at: "2024-04-09 02:30:07.669005"
+updated_at: "2024-04-10 02:30:51.935249"
 latest: "1.0.1--py36r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-argparse"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "pyvenv-3.6"
 versions:
  - "1.0.1--py36r3.3.1_0"
+ - "1.0.1--py36r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-argparse"
-config: {"url": "https://biocontainers.pro/tools/r-argparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-argparse", "latest": {"1.0.1--py36r3.3.1_0": "sha256:8e85652f83b25a0ce210c2513b7c6a0a120636116a2822eced411c1aa75d3ee8"}, "tags": {"1.0.1--py36r3.3.1_0": "sha256:8e85652f83b25a0ce210c2513b7c6a0a120636116a2822eced411c1aa75d3ee8"}, "docker": "quay.io/biocontainers/r-argparse", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "uconv": "/usr/local/bin/uconv", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/r-argparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-argparse", "latest": {"1.0.1--py36r3.3.1_0": "sha256:8e85652f83b25a0ce210c2513b7c6a0a120636116a2822eced411c1aa75d3ee8"}, "tags": {"1.0.1--py36r3.3.1_0": "sha256:8e85652f83b25a0ce210c2513b7c6a0a120636116a2822eced411c1aa75d3ee8", "1.0.1--py36r3.3.2_0": "sha256:7cb0024d2d0e0f005bf1464e60ee0eda2480b5d75a19e479998269d4c49e4dc0"}, "docker": "quay.io/biocontainers/r-argparse", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "uconv": "/usr/local/bin/uconv", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-argparse.

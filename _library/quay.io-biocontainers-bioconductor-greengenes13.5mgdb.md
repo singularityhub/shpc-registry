@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-greengenes13.5mgdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-greengenes13.5mgdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-greengenes13.5mgdb/container.yaml"
-updated_at: "2024-04-09 02:49:03.237786"
+updated_at: "2024-04-10 02:50:11.207272"
 latest: "2.0.0--r40hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-greengenes13.5mgdb"
 aliases:

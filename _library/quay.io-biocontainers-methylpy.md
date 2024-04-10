@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/methylpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methylpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methylpy/container.yaml"
-updated_at: "2024-04-09 03:01:53.004892"
+updated_at: "2024-04-10 03:03:22.955506"
 latest: "1.4.7--py310h2401223_0"
 container_url: "https://biocontainers.pro/tools/methylpy"
 aliases:
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.4.3--py27h41a55b7_0"
  - "1.4.7--py310h2401223_0"
+ - "1.4.7--py39h0ae133c_0"
 description: "shpc-registry automated BioContainers addition for methylpy"
-config: {"url": "https://biocontainers.pro/tools/methylpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for methylpy", "latest": {"1.4.7--py310h2401223_0": "sha256:f78225877896bb8fe3a7099463952fcebb40205637f1a4d3de4b364e40e82aa1"}, "tags": {"1.4.3--py27h41a55b7_0": "sha256:c4b8fa9f4e0743dd78d19f9848ebf006a19cac5f0fd760843e75913eb0abab3e", "1.4.7--py310h2401223_0": "sha256:f78225877896bb8fe3a7099463952fcebb40205637f1a4d3de4b364e40e82aa1"}, "docker": "quay.io/biocontainers/methylpy", "aliases": {"methylpy": "/usr/local/bin/methylpy", "wigToBigWig": "/usr/local/bin/wigToBigWig", "picard": "/usr/local/bin/picard", "cutadapt": "/usr/local/bin/cutadapt", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie"}}
+config: {"url": "https://biocontainers.pro/tools/methylpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for methylpy", "latest": {"1.4.7--py310h2401223_0": "sha256:f78225877896bb8fe3a7099463952fcebb40205637f1a4d3de4b364e40e82aa1"}, "tags": {"1.4.3--py27h41a55b7_0": "sha256:c4b8fa9f4e0743dd78d19f9848ebf006a19cac5f0fd760843e75913eb0abab3e", "1.4.7--py310h2401223_0": "sha256:f78225877896bb8fe3a7099463952fcebb40205637f1a4d3de4b364e40e82aa1", "1.4.7--py39h0ae133c_0": "sha256:51c17eafe1de735415b1d1a878af025b64a17d4e4de0775117b5bdec857adfb6"}, "docker": "quay.io/biocontainers/methylpy", "aliases": {"methylpy": "/usr/local/bin/methylpy", "wigToBigWig": "/usr/local/bin/wigToBigWig", "picard": "/usr/local/bin/picard", "cutadapt": "/usr/local/bin/cutadapt", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/methylpy.

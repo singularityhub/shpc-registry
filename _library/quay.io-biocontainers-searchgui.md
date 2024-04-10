@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/searchgui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/searchgui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/searchgui/container.yaml"
-updated_at: "2024-04-09 02:31:36.093414"
-latest: "3.3.10--h470a237_0"
+updated_at: "2024-04-10 02:32:21.468547"
+latest: "4.3.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/searchgui"
 aliases:
  - "csc"
@@ -31,8 +31,12 @@ aliases:
 versions:
  - "3.3.9--1"
  - "3.3.10--h470a237_0"
+ - "4.3.6--hdfd78af_0"
+ - "4.2.17--hdfd78af_0"
+ - "4.1.24--hec16e2b_0"
+ - "4.0.41--h779adbc_1"
 description: "shpc-registry automated BioContainers addition for searchgui"
-config: {"url": "https://biocontainers.pro/tools/searchgui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for searchgui", "latest": {"3.3.10--h470a237_0": "sha256:4da9144fdc9d12215e928886934c02c4a15a4342f131bc8607fd4357ddd1eb8a"}, "tags": {"3.3.9--1": "sha256:aa164bf07a166fcc397a07cd5d9b51df9162a3253ea9ab0bbabcac420a3cdbce", "3.3.10--h470a237_0": "sha256:4da9144fdc9d12215e928886934c02c4a15a4342f131bc8607fd4357ddd1eb8a"}, "docker": "quay.io/biocontainers/searchgui", "aliases": {"csc": "/usr/local/bin/csc", "csc-dim": "/usr/local/bin/csc-dim", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "searchgui": "/usr/local/bin/searchgui", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
+config: {"url": "https://biocontainers.pro/tools/searchgui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for searchgui", "latest": {"4.3.6--hdfd78af_0": "sha256:efe639df9f83a29a47f4bc222f2c0c84543d841a3e9312535e1330cbdc548848"}, "tags": {"3.3.9--1": "sha256:aa164bf07a166fcc397a07cd5d9b51df9162a3253ea9ab0bbabcac420a3cdbce", "3.3.10--h470a237_0": "sha256:4da9144fdc9d12215e928886934c02c4a15a4342f131bc8607fd4357ddd1eb8a", "4.3.6--hdfd78af_0": "sha256:efe639df9f83a29a47f4bc222f2c0c84543d841a3e9312535e1330cbdc548848", "4.2.17--hdfd78af_0": "sha256:1380c8a916c9c09b1bbeb535e1383ad77644661171ef42cbac21722c264403a7", "4.1.24--hec16e2b_0": "sha256:a04623ed0a8d06cb589bbd3649b8a7e23125163f34b25599b10834049b571759", "4.0.41--h779adbc_1": "sha256:963a07bcad6f685cec2719f31f158fe131e6a86d2a7321b74a9b001c5268cfb1"}, "docker": "quay.io/biocontainers/searchgui", "aliases": {"csc": "/usr/local/bin/csc", "csc-dim": "/usr/local/bin/csc-dim", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "searchgui": "/usr/local/bin/searchgui", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/searchgui.
@@ -47,7 +51,7 @@ $ shpc install quay.io/biocontainers/searchgui
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/searchgui:3.3.10--h470a237_0
+$ shpc install quay.io/biocontainers/searchgui:4.3.6--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/searchgui/3.3.10--h470a237_0
-$ module help quay.io/biocontainers/searchgui/3.3.10--h470a237_0
+$ module load quay.io/biocontainers/searchgui/4.3.6--hdfd78af_0
+$ module help quay.io/biocontainers/searchgui/4.3.6--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

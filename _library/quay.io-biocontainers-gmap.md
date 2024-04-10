@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gmap/container.yaml"
-updated_at: "2024-04-09 03:04:06.848670"
-latest: "2024.02.22--h9d449c0_0"
+updated_at: "2024-04-10 03:05:38.884848"
+latest: "2024.03.15--h9d449c0_1"
 container_url: "https://biocontainers.pro/tools/gmap"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "2023.10.10--h9d449c0_1"
  - "2023.07.20--h9d449c0_1"
  - "2023.06.01--h9d449c0_0"
+ - "2024.03.15--h9d449c0_1"
 description: "shpc-registry automated BioContainers addition for gmap"
-config: {"url": "https://biocontainers.pro/tools/gmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gmap", "latest": {"2024.02.22--h9d449c0_0": "sha256:c148f79cb0dff711da4469e4d4ff38a17d6b8524f5fbb0a93f0cedd79f99b817"}, "tags": {"2020.06.01--pl526h2f06484_1": "sha256:a4cf2182c8b982aa4e8214fcbc12b5acd88c8da1e751d005a9bb14e2c13358a8", "2024.02.22--h9d449c0_0": "sha256:c148f79cb0dff711da4469e4d4ff38a17d6b8524f5fbb0a93f0cedd79f99b817", "2023.12.01--h9d449c0_0": "sha256:d026f4c247543cd25e63fb1df9f8ad59335ce0e20d15b6ca11d29e9dac6a6233", "2023.10.10--h9d449c0_1": "sha256:66b71ed998dfad8bde8a114f9023a4039b939c9ed63a15acd24f96978dc5b3df", "2023.07.20--h9d449c0_1": "sha256:23fc44e13e8fed1277a1a2014006ffd1242107f219ee439c0ef48c160be56edd", "2023.06.01--h9d449c0_0": "sha256:4d4ad32be25de4e55920d392cfd8c60f0fcba3d672ba707eece257ee85710adb"}, "docker": "quay.io/biocontainers/gmap"}
+config: {"url": "https://biocontainers.pro/tools/gmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gmap", "latest": {"2024.03.15--h9d449c0_1": "sha256:d235feb81700a150677cf5cd5289beaf3eb3e5827408bdb0186bb6869704f279"}, "tags": {"2020.06.01--pl526h2f06484_1": "sha256:a4cf2182c8b982aa4e8214fcbc12b5acd88c8da1e751d005a9bb14e2c13358a8", "2024.02.22--h9d449c0_0": "sha256:c148f79cb0dff711da4469e4d4ff38a17d6b8524f5fbb0a93f0cedd79f99b817", "2023.12.01--h9d449c0_0": "sha256:d026f4c247543cd25e63fb1df9f8ad59335ce0e20d15b6ca11d29e9dac6a6233", "2023.10.10--h9d449c0_1": "sha256:66b71ed998dfad8bde8a114f9023a4039b939c9ed63a15acd24f96978dc5b3df", "2023.07.20--h9d449c0_1": "sha256:23fc44e13e8fed1277a1a2014006ffd1242107f219ee439c0ef48c160be56edd", "2023.06.01--h9d449c0_0": "sha256:4d4ad32be25de4e55920d392cfd8c60f0fcba3d672ba707eece257ee85710adb", "2024.03.15--h9d449c0_1": "sha256:d235feb81700a150677cf5cd5289beaf3eb3e5827408bdb0186bb6869704f279"}, "docker": "quay.io/biocontainers/gmap"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gmap.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/gmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gmap:2024.02.22--h9d449c0_0
+$ shpc install quay.io/biocontainers/gmap:2024.03.15--h9d449c0_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gmap/2024.02.22--h9d449c0_0
-$ module help quay.io/biocontainers/gmap/2024.02.22--h9d449c0_0
+$ module load quay.io/biocontainers/gmap/2024.03.15--h9d449c0_1
+$ module help quay.io/biocontainers/gmap/2024.03.15--h9d449c0_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sparse-neighbors-search"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sparse-neighbors-search/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sparse-neighbors-search/container.yaml"
-updated_at: "2024-04-09 02:27:53.487636"
+updated_at: "2024-04-10 02:28:35.556813"
 latest: "0.7--py37h675a0cb_2"
 container_url: "https://biocontainers.pro/tools/sparse-neighbors-search"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "python3.7m"
 versions:
  - "0.7--py37h675a0cb_2"
+ - "0.7--py38h8ded8fe_2"
 description: "shpc-registry automated BioContainers addition for sparse-neighbors-search"
-config: {"url": "https://biocontainers.pro/tools/sparse-neighbors-search", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sparse-neighbors-search", "latest": {"0.7--py37h675a0cb_2": "sha256:ce3435ae32c832311e26fbbcf9032542e71fbe03d6a5d093958b50437839d943"}, "tags": {"0.7--py37h675a0cb_2": "sha256:ce3435ae32c832311e26fbbcf9032542e71fbe03d6a5d093958b50437839d943"}, "docker": "quay.io/biocontainers/sparse-neighbors-search", "aliases": {"numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "tqdm": "/usr/local/bin/tqdm", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
+config: {"url": "https://biocontainers.pro/tools/sparse-neighbors-search", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sparse-neighbors-search", "latest": {"0.7--py37h675a0cb_2": "sha256:ce3435ae32c832311e26fbbcf9032542e71fbe03d6a5d093958b50437839d943"}, "tags": {"0.7--py37h675a0cb_2": "sha256:ce3435ae32c832311e26fbbcf9032542e71fbe03d6a5d093958b50437839d943", "0.7--py38h8ded8fe_2": "sha256:796a90a7f585744822d5dea3a9b7221bba67c1d913d285838e3d854af28a5e27"}, "docker": "quay.io/biocontainers/sparse-neighbors-search", "aliases": {"numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "tqdm": "/usr/local/bin/tqdm", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sparse-neighbors-search.

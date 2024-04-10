@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coatran"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coatran/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coatran/container.yaml"
-updated_at: "2024-04-09 02:39:24.512521"
+updated_at: "2024-04-10 02:40:18.055575"
 latest: "0.0.4--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/coatran"
 aliases:

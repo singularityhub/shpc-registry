@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rnachipintegrator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnachipintegrator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnachipintegrator/container.yaml"
-updated_at: "2024-04-09 02:42:27.822092"
-latest: "2.0.0--py_1"
+updated_at: "2024-04-10 02:43:25.068608"
+latest: "3.0.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/rnachipintegrator"
 aliases:
  - "RnaChipIntegrator"
@@ -17,8 +17,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "2.0.0--py_1"
+ - "3.0.0--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for rnachipintegrator"
-config: {"url": "https://biocontainers.pro/tools/rnachipintegrator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnachipintegrator", "latest": {"2.0.0--py_1": "sha256:d198d63246c57c95dd73075ee3a930b8740fa2af2f0ed4032398cf683aa152a6"}, "tags": {"2.0.0--py_1": "sha256:d198d63246c57c95dd73075ee3a930b8740fa2af2f0ed4032398cf683aa152a6"}, "docker": "quay.io/biocontainers/rnachipintegrator", "aliases": {"RnaChipIntegrator": "/usr/local/bin/RnaChipIntegrator", "vba_extract.py": "/usr/local/bin/vba_extract.py", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/rnachipintegrator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnachipintegrator", "latest": {"3.0.0--pyh7cba7a3_0": "sha256:06ec877ed27c8722dd91507791e61510e70533bdd4c9fe57b5f2a76abe8baabc"}, "tags": {"2.0.0--py_1": "sha256:d198d63246c57c95dd73075ee3a930b8740fa2af2f0ed4032398cf683aa152a6", "3.0.0--pyh7cba7a3_0": "sha256:06ec877ed27c8722dd91507791e61510e70533bdd4c9fe57b5f2a76abe8baabc"}, "docker": "quay.io/biocontainers/rnachipintegrator", "aliases": {"RnaChipIntegrator": "/usr/local/bin/RnaChipIntegrator", "vba_extract.py": "/usr/local/bin/vba_extract.py", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnachipintegrator.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/rnachipintegrator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rnachipintegrator:2.0.0--py_1
+$ shpc install quay.io/biocontainers/rnachipintegrator:3.0.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rnachipintegrator/2.0.0--py_1
-$ module help quay.io/biocontainers/rnachipintegrator/2.0.0--py_1
+$ module load quay.io/biocontainers/rnachipintegrator/3.0.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/rnachipintegrator/3.0.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

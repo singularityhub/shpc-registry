@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pgx-variant-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgx-variant-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgx-variant-tools/container.yaml"
-updated_at: "2024-04-09 02:29:44.847988"
+updated_at: "2024-04-10 02:30:28.751629"
 latest: "0.0.5--py_0"
 container_url: "https://biocontainers.pro/tools/pgx-variant-tools"
 

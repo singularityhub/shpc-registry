@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-qlcmatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-qlcmatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-qlcmatrix/container.yaml"
-updated_at: "2024-04-09 02:27:21.615858"
+updated_at: "2024-04-10 02:28:03.153246"
 latest: "0.9.5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-qlcmatrix"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.9.5--r3.3.1_0"
+ - "0.9.5--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-qlcmatrix"
-config: {"url": "https://biocontainers.pro/tools/r-qlcmatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-qlcmatrix", "latest": {"0.9.5--r3.3.1_0": "sha256:899d4b742bdb051802e879eabf4435297482714eb4e72b1be86c4af4b6741e1b"}, "tags": {"0.9.5--r3.3.1_0": "sha256:899d4b742bdb051802e879eabf4435297482714eb4e72b1be86c4af4b6741e1b"}, "docker": "quay.io/biocontainers/r-qlcmatrix", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-qlcmatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-qlcmatrix", "latest": {"0.9.5--r3.3.1_0": "sha256:899d4b742bdb051802e879eabf4435297482714eb4e72b1be86c4af4b6741e1b"}, "tags": {"0.9.5--r3.3.1_0": "sha256:899d4b742bdb051802e879eabf4435297482714eb4e72b1be86c4af4b6741e1b", "0.9.5--r3.3.2_0": "sha256:8fdf28d0170586e17a64a375056e2fa955ce69bd58ebc57e421cbde1c074b8bb"}, "docker": "quay.io/biocontainers/r-qlcmatrix", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-qlcmatrix.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/boltons"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/boltons/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/boltons/container.yaml"
-updated_at: "2024-04-09 02:43:34.053614"
+updated_at: "2024-04-10 02:44:34.801571"
 latest: "16.4.1--py35_0"
 container_url: "https://biocontainers.pro/tools/boltons"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "16.4.1--py35_0"
+ - "16.4.1--py36_0"
 description: "shpc-registry automated BioContainers addition for boltons"
-config: {"url": "https://biocontainers.pro/tools/boltons", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for boltons", "latest": {"16.4.1--py35_0": "sha256:87ae76c735ff42c04acfb27432868d9b43af75c2420d1067332c575a0a8287e5"}, "tags": {"16.4.1--py35_0": "sha256:87ae76c735ff42c04acfb27432868d9b43af75c2420d1067332c575a0a8287e5"}, "docker": "quay.io/biocontainers/boltons", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/boltons", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for boltons", "latest": {"16.4.1--py35_0": "sha256:87ae76c735ff42c04acfb27432868d9b43af75c2420d1067332c575a0a8287e5"}, "tags": {"16.4.1--py35_0": "sha256:87ae76c735ff42c04acfb27432868d9b43af75c2420d1067332c575a0a8287e5", "16.4.1--py36_0": "sha256:d94b954346dd2f514db1dda8656571661ec70f378fc9923d44b865dd9096359a"}, "docker": "quay.io/biocontainers/boltons", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/boltons.
