@@ -8,6 +8,8 @@ tags:
   0.8--py27h9801fc8_3: sha256:008d9b0bcb6e0de2f94a9686b6cfe13e2bf870de17783757b8657b003b959d07
   0.8--py310h4b81fae_5: sha256:eef49f8b4a3977c3cfd693cf93f18224d7af78bfc116c817e7e003a701c2b335
   0.9--py38he5da3d1_0: sha256:a7d6df8e22bceb1ecf65e2144a9966d998eea44652f6ea534800b259f9022738
+  0.9--py310h4b81fae_0: sha256:30d3e801be91a8a6ca32aca371a1b3df285fccde8b0d7ae0ab75880133c70d85
+  0.8--py38he5da3d1_5: sha256:2b6e18ba4d1b0a929d2a11a26f1c2dd1dfe6b1224b92bf103b0761b016430cc0
 docker: quay.io/biocontainers/nmrglue
 aliases:
   f2py3.6: /usr/local/bin/f2py3.6

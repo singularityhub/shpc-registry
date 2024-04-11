@@ -5,6 +5,7 @@ latest:
   0.5_1.4--r3.3.1_0: sha256:6c2fd5688371a87050fac2cc710e099df6a6efd0b71209e4e97582a85533b15b
 tags:
   0.5_1.4--r3.3.1_0: sha256:6c2fd5688371a87050fac2cc710e099df6a6efd0b71209e4e97582a85533b15b
+  0.5_1.4--r3.3.2_0: sha256:0ae3ea24463a58dfdb25c5aac400195286af38cb470b65d42cce33a710d75b25
 docker: quay.io/biocontainers/r-segmented
 aliases:
   uconv: /usr/local/bin/uconv

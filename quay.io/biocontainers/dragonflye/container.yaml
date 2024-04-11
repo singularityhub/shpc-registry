@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/dragonflye
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dragonflye
 latest:
-  1.1.2--hdfd78af_0: sha256:ad1a180d2b5433e295ac160fba4a5a3d717367d91c0b085c646a46a2166dcdea
+  1.2.0--hdfd78af_0: sha256:7c4b1d85397e6ee8ca8fb426cbf182558588ceac84843536aee6f19143f4dfd7
 tags:
   1.0.9--hdfd78af_0: sha256:3ee956287ddd0abcc4db884b12cbdec1c1233de50304468e6677c8d0b28659aa
   1.0.13--hdfd78af_0: sha256:ccd80cb057e8003ae7ddbbf9c00189ccded4b30ad7b57980e2c9abcf96ad7fd6
@@ -10,6 +10,7 @@ tags:
   1.1.0--hdfd78af_0: sha256:d698e110c4590c10d9dc21c955dfad00d4a1a5c55242394ea439f8f5821fa04b
   1.1.1--hdfd78af_0: sha256:169cb709b4bde4d7e06192bbab466d77e987b92aa2ccc59cdb8eb2dbe2b6ed86
   1.1.2--hdfd78af_0: sha256:ad1a180d2b5433e295ac160fba4a5a3d717367d91c0b085c646a46a2166dcdea
+  1.2.0--hdfd78af_0: sha256:7c4b1d85397e6ee8ca8fb426cbf182558588ceac84843536aee6f19143f4dfd7
 docker: quay.io/biocontainers/dragonflye
 aliases:
   assembly-scan: /usr/local/bin/assembly-scan

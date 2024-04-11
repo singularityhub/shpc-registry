@@ -6,6 +6,7 @@ latest:
 tags:
   0.1.4--py38h4c6a040_4: sha256:6f599a6ca627e20a7bbda59aefe2f54f987a94584f83006813e7f12862bbca8e
   0.1.4--py38h7cf9df2_7: sha256:f316ac5c2ebcf6edccd457e2f3742dbdcc3bab0d426412510918ce510798b256
+  0.1.4--py39h3d4b85c_7: sha256:0b767194c5ed3b6131fab786d1f548ba8bf92dec3a1aff3bcd7f690ae962c4fd
 docker: quay.io/biocontainers/bwapy
 aliases:
   bwamempy: /usr/local/bin/bwamempy

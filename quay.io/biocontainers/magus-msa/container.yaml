@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/magus-msa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for magus-msa
 latest:
-  0.1.3--pyhdfd78af_0: sha256:059079a6be8fe5a175a0069ef15b989bac53223fac550791cc03dca976b474db
+  0.2.0--pyhdfd78af_0: sha256:5b3c332fd718f82ecadb8a2bc3b1fd6abd9d87e42946f193277f4437ce1aec9c
 tags:
   0.1.2--pyhdfd78af_0: sha256:cd01e1b765c786ffcbb47651a2bd0146e6f1e69a992ee09c6ae7e8b5847bed5a
   0.1.3--pyhdfd78af_0: sha256:059079a6be8fe5a175a0069ef15b989bac53223fac550791cc03dca976b474db
+  0.2.0--pyhdfd78af_0: sha256:5b3c332fd718f82ecadb8a2bc3b1fd6abd9d87e42946f193277f4437ce1aec9c
 docker: quay.io/biocontainers/magus-msa
 aliases:
   blastn_vdb: /usr/local/bin/blastn_vdb

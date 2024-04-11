@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/vg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vg
 latest:
-  1.55.0--h9ee0642_0: sha256:a506f5774d98d9ea4907323642ec37484c9e2485624212c55fcd88aaa16eed8d
+  1.56.0--h9ee0642_0: sha256:424e3c871806754ff4eca16716b29c5e6394f5f3e51f2bb1811a6a667d134295
 tags:
   1.43.0--h9ee0642_0: sha256:767ff7be84ce574899ca0ce2fd8a7305835dba741aeb9bd45974b56c7095b8f2
   1.44.0--h9ee0642_0: sha256:3a91a6f0e09b3e4a555fccd56e35fa6ff941050b2530b328ac38c70a7d1a1679
@@ -17,6 +17,7 @@ tags:
   1.53.0--h9ee0642_0: sha256:11f680378fc69c2a80fec9229cffe5c62a96455b45271d1e7b37bbc51d26cd2d
   1.54.0--h9ee0642_0: sha256:a081bb6db6242b1fa94caff34c4eae0a9d82271bb2e6d064b161a037c30d46c8
   1.55.0--h9ee0642_0: sha256:a506f5774d98d9ea4907323642ec37484c9e2485624212c55fcd88aaa16eed8d
+  1.56.0--h9ee0642_0: sha256:424e3c871806754ff4eca16716b29c5e6394f5f3e51f2bb1811a6a667d134295
 docker: quay.io/biocontainers/vg
 aliases:
   vg: /usr/local/bin/vg

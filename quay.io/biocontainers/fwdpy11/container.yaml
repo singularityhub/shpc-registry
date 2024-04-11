@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/fwdpy11
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fwdpy11
 latest:
-  0.6.3--py36h7d13203_0: sha256:cbffbbec5c22c11bb9895a922aa215b028abe9b76140c68f2e308ec87c289a2e
+  0.22.2--py39h58a975e_0: sha256:729c1c0fb0b038749d79124e0362119137f306d4ebeab07fa0a3c5a7bd83f1aa
 tags:
   0.6.3--py36h7d13203_0: sha256:cbffbbec5c22c11bb9895a922aa215b028abe9b76140c68f2e308ec87c289a2e
+  0.22.2--py39h58a975e_0: sha256:729c1c0fb0b038749d79124e0362119137f306d4ebeab07fa0a3c5a7bd83f1aa
+  0.21.0--py38h15ccf8d_0: sha256:d85472e85fde7ccb479fcfd4a385d77e580ddaae3ac98da7850ed4c4984b62a1
+  0.20.1--py310h7677ecb_0: sha256:e5cae637e4871e1bc396656faef6230c5b14be93c7a2aabcdc5b3adf49539d85
+  0.19.10--py39h8c02b11_0: sha256:6d597672b1eac4d399a88a85a8740ccf64caefe2c975b4b8cda2c40e56ad09d1
+  0.18.3--py39h8c02b11_0: sha256:307bcc550cfb6c6b3447d76b33041b2fef62661edc0899ba3cd8d8d2a29368bd
 docker: quay.io/biocontainers/fwdpy11
 aliases:
   tskit: /usr/local/bin/tskit
