@@ -1,0 +1,77 @@
+url: https://biocontainers.pro/tools/gmsc-mapper
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gmsc-mapper
+latest:
+  0.1.0--pyhdfd78af_0: sha256:868b922a0dee225ae6891feacb272c75e64a9ef99398ca349bd1fef54fba1d69
+tags:
+  0.1.0--pyhdfd78af_0: sha256:868b922a0dee225ae6891feacb272c75e64a9ef99398ca349bd1fef54fba1d69
+docker: quay.io/biocontainers/gmsc-mapper
+aliases:
+  archive-ncbinlp: /usr/local/bin/archive-ncbinlp
+  archive-nihocc: /usr/local/bin/archive-nihocc
+  archive-nmcds: /usr/local/bin/archive-nmcds
+  archive-pmc: /usr/local/bin/archive-pmc
+  archive-taxonomy: /usr/local/bin/archive-taxonomy
+  archspec: /usr/local/bin/archspec
+  args2slice: /usr/local/bin/args2slice
+  asn2ref: /usr/local/bin/asn2ref
+  blst2gm: /usr/local/bin/blst2gm
+  cit2pmid: /usr/local/bin/cit2pmid
+  combine-uid-lists: /usr/local/bin/combine-uid-lists
+  difference-uid-lists: /usr/local/bin/difference-uid-lists
+  download-pmc: /usr/local/bin/download-pmc
+  ds2pme: /usr/local/bin/ds2pme
+  fetch-local: /usr/local/bin/fetch-local
+  fetch-nmcds: /usr/local/bin/fetch-nmcds
+  fetch-pmc: /usr/local/bin/fetch-pmc
+  fetch-taxonomy: /usr/local/bin/fetch-taxonomy
+  filter-genbank: /usr/local/bin/filter-genbank
+  filter-record: /usr/local/bin/filter-record
+  gawk-5.3.0: /usr/local/bin/gawk-5.3.0
+  gawkbug: /usr/local/bin/gawkbug
+  gbf2fsa: /usr/local/bin/gbf2fsa
+  gbf2ref: /usr/local/bin/gbf2ref
+  gm2ranges: /usr/local/bin/gm2ranges
+  gm2segs: /usr/local/bin/gm2segs
+  gmsc-mapper: /usr/local/bin/gmsc-mapper
+  ini2xml: /usr/local/bin/ini2xml
+  jsonl2xml: /usr/local/bin/jsonl2xml
+  just-first-key: /usr/local/bin/just-first-key
+  nhance.sh: /usr/local/bin/nhance.sh
+  pma2apa: /usr/local/bin/pma2apa
+  pma2pme: /usr/local/bin/pma2pme
+  pmc2bioc: /usr/local/bin/pmc2bioc
+  pmc2info: /usr/local/bin/pmc2info
+  quote-grouped-elements: /usr/local/bin/quote-grouped-elements
+  ref2pmid: /usr/local/bin/ref2pmid
+  refseq-nm-cds: /usr/local/bin/refseq-nm-cds
+  scn2xml: /usr/local/bin/scn2xml
+  stream-local: /usr/local/bin/stream-local
+  test-pmc-index: /usr/local/bin/test-pmc-index
+  toml2xml: /usr/local/bin/toml2xml
+  yaml2xml: /usr/local/bin/yaml2xml
+  pyrodigal: /usr/local/bin/pyrodigal
+  aria2c: /usr/local/bin/aria2c
+  blastn_vdb: /usr/local/bin/blastn_vdb
+  tblastn_vdb: /usr/local/bin/tblastn_vdb
+  uuid: /usr/local/bin/uuid
+  uuid-config: /usr/local/bin/uuid-config
+  mmseqs: /usr/local/bin/mmseqs
+  test_pcre: /usr/local/bin/test_pcre
+  awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  diamond: /usr/local/bin/diamond
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range
+  tbl2prod: /usr/local/bin/tbl2prod
+  uniq-table: /usr/local/bin/uniq-table
+  align-columns: /usr/local/bin/align-columns
+  blst2tkns: /usr/local/bin/blst2tkns
+  csv2xml: /usr/local/bin/csv2xml
+  disambiguate-nucleotides: /usr/local/bin/disambiguate-nucleotides
+  download-ncbi-software: /usr/local/bin/download-ncbi-software
+  ecommon.sh: /usr/local/bin/ecommon.sh
+  find-in-gene: /usr/local/bin/find-in-gene
+  fuse-ranges: /usr/local/bin/fuse-ranges
+  hgvs2spdi: /usr/local/bin/hgvs2spdi
