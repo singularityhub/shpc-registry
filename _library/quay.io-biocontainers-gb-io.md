@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gb-io"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gb-io/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gb-io/container.yaml"
-updated_at: "2024-04-11 02:57:58.026954"
+updated_at: "2024-04-11 03:01:49.835458"
 latest: "0.3.2--py38h8fa8eaa_0"
 container_url: "https://biocontainers.pro/tools/gb-io"
 aliases:

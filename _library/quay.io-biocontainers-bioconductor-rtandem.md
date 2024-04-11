@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rtandem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtandem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtandem/container.yaml"
-updated_at: "2024-04-11 03:09:23.027786"
+updated_at: "2024-04-11 03:11:58.587227"
 latest: "1.27.0--r40h1090f8d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtandem"
 aliases:

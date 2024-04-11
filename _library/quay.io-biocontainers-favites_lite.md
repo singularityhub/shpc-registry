@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/favites_lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/favites_lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/favites_lite/container.yaml"
-updated_at: "2024-04-11 02:41:43.669940"
+updated_at: "2024-04-11 02:47:22.740611"
 latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/favites_lite"
 aliases:

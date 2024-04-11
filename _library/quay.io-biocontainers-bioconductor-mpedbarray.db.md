@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mpedbarray.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mpedbarray.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mpedbarray.db/container.yaml"
-updated_at: "2024-04-11 02:37:16.132040"
+updated_at: "2024-04-11 02:43:24.137039"
 latest: "3.2.3--r43hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-mpedbarray.db"
 
