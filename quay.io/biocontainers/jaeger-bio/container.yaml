@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/jaeger-bio
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for jaeger-bio
+latest:
+  1.1.26--pyhdfd78af_0: sha256:c3c6e70c8654d271b6daf6f76d468fafe52cb8183cd1b2d6f0db3c605a038992
+tags:
+  1.1.26--pyhdfd78af_0: sha256:c3c6e70c8654d271b6daf6f76d468fafe52cb8183cd1b2d6f0db3c605a038992
+docker: quay.io/biocontainers/jaeger-bio
+aliases:
+  Jaeger: /usr/local/bin/Jaeger
+  Jaeger_parallel: /usr/local/bin/Jaeger_parallel
+  flatc: /usr/local/bin/flatc
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  protoc-24.4.0: /usr/local/bin/protoc-24.4.0
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2
+  h5delete: /usr/local/bin/h5delete
+  tflite_convert: /usr/local/bin/tflite_convert
+  saved_model_cli: /usr/local/bin/saved_model_cli
+  toco: /usr/local/bin/toco
+  toco_from_protos: /usr/local/bin/toco_from_protos
+  tensorboard: /usr/local/bin/tensorboard
+  markdown_py: /usr/local/bin/markdown_py
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt
+  pyrsa-keygen: /usr/local/bin/pyrsa-keygen
+  pyrsa-priv2pub: /usr/local/bin/pyrsa-priv2pub
