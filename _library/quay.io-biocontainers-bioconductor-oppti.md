@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-oppti"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oppti/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oppti/container.yaml"
-updated_at: "2024-04-10 02:58:06.961075"
+updated_at: "2024-04-11 03:02:06.692967"
 latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-oppti"
 

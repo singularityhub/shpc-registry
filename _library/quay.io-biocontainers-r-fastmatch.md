@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fastmatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fastmatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fastmatch/container.yaml"
-updated_at: "2024-04-10 02:45:13.044521"
+updated_at: "2024-04-11 02:48:20.531956"
 latest: "1.1_0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-fastmatch"
 aliases:

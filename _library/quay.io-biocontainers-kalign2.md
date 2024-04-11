@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kalign2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kalign2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kalign2/container.yaml"
-updated_at: "2024-04-10 02:33:16.338724"
+updated_at: "2024-04-11 02:35:34.481745"
 latest: "2.04--h031d066_6"
 container_url: "https://biocontainers.pro/tools/kalign2"
 aliases:
