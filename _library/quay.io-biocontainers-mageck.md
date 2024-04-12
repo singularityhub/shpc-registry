@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/mageck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mageck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mageck/container.yaml"
-updated_at: "2024-04-11 02:42:45.104303"
-latest: "0.5.9--py27h6bb024c_0"
+updated_at: "2024-04-12 02:37:35.193369"
+latest: "0.5.9.5--py39h1f90b4d_3"
 container_url: "https://biocontainers.pro/tools/mageck"
 
 versions:
  - "0.5.9--py27h6bb024c_0"
+ - "0.5.9.5--py39h1f90b4d_3"
 description: "shpc-registry automated BioContainers addition for mageck"
-config: {"url": "https://biocontainers.pro/tools/mageck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mageck", "latest": {"0.5.9--py27h6bb024c_0": "sha256:1c0057e80ebaa7f2185d8bc643201967df4fab848905b550803ede5b7a0888e8"}, "tags": {"0.5.9--py27h6bb024c_0": "sha256:1c0057e80ebaa7f2185d8bc643201967df4fab848905b550803ede5b7a0888e8"}, "docker": "quay.io/biocontainers/mageck"}
+config: {"url": "https://biocontainers.pro/tools/mageck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mageck", "latest": {"0.5.9.5--py39h1f90b4d_3": "sha256:46311eda123fa8c2f4cac44921407a11962f7c65d73028f0babd89b709b4dcb9"}, "tags": {"0.5.9--py27h6bb024c_0": "sha256:1c0057e80ebaa7f2185d8bc643201967df4fab848905b550803ede5b7a0888e8", "0.5.9.5--py39h1f90b4d_3": "sha256:46311eda123fa8c2f4cac44921407a11962f7c65d73028f0babd89b709b4dcb9"}, "docker": "quay.io/biocontainers/mageck"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mageck.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/mageck
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mageck:0.5.9--py27h6bb024c_0
+$ shpc install quay.io/biocontainers/mageck:0.5.9.5--py39h1f90b4d_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mageck/0.5.9--py27h6bb024c_0
-$ module help quay.io/biocontainers/mageck/0.5.9--py27h6bb024c_0
+$ module load quay.io/biocontainers/mageck/0.5.9.5--py39h1f90b4d_3
+$ module help quay.io/biocontainers/mageck/0.5.9.5--py39h1f90b4d_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

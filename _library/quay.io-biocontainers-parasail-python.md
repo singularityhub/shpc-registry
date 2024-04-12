@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/parasail-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parasail-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parasail-python/container.yaml"
-updated_at: "2024-04-11 02:47:22.475152"
-latest: "1.3.4--py38h5cf8b27_0"
+updated_at: "2024-04-12 02:42:16.566557"
+latest: "1.3.4--py310h6cc9453_1"
 container_url: "https://biocontainers.pro/tools/parasail-python"
 aliases:
  - "f2py3.8"
@@ -18,8 +18,9 @@ versions:
  - "1.2.4--py38h3b68952_2"
  - "1.3.4--py38h5cf8b27_0"
  - "1.2.4--py310hc8f18ef_2"
+ - "1.3.4--py310h6cc9453_1"
 description: "shpc-registry automated BioContainers addition for parasail-python"
-config: {"url": "https://biocontainers.pro/tools/parasail-python", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for parasail-python", "latest": {"1.3.4--py38h5cf8b27_0": "sha256:4551a9a8297d0b7237d5caa607ee94e26a86fec877ff27817e50aaa291b51ad0"}, "tags": {"1.2.4--py38h3b68952_2": "sha256:78d3565f88b8f4c480b9387548012eb06b6cc43c8c65ae993e0d8ceaaadd25c9", "1.3.4--py38h5cf8b27_0": "sha256:4551a9a8297d0b7237d5caa607ee94e26a86fec877ff27817e50aaa291b51ad0", "1.2.4--py310hc8f18ef_2": "sha256:8d2b4a6d5bffcffa63ea0a61dbef42883bcaf30fabe33ef6c2fcff46368b66fd"}, "docker": "quay.io/biocontainers/parasail-python", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/parasail-python", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for parasail-python", "latest": {"1.3.4--py310h6cc9453_1": "sha256:56782758e25a35b24d299b9752fbaf01f85be168eb6fe805fa2387a54e1073cc"}, "tags": {"1.2.4--py38h3b68952_2": "sha256:78d3565f88b8f4c480b9387548012eb06b6cc43c8c65ae993e0d8ceaaadd25c9", "1.3.4--py38h5cf8b27_0": "sha256:4551a9a8297d0b7237d5caa607ee94e26a86fec877ff27817e50aaa291b51ad0", "1.2.4--py310hc8f18ef_2": "sha256:8d2b4a6d5bffcffa63ea0a61dbef42883bcaf30fabe33ef6c2fcff46368b66fd", "1.3.4--py310h6cc9453_1": "sha256:56782758e25a35b24d299b9752fbaf01f85be168eb6fe805fa2387a54e1073cc"}, "docker": "quay.io/biocontainers/parasail-python", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/parasail-python.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/parasail-python
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/parasail-python:1.3.4--py38h5cf8b27_0
+$ shpc install quay.io/biocontainers/parasail-python:1.3.4--py310h6cc9453_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/parasail-python/1.3.4--py38h5cf8b27_0
-$ module help quay.io/biocontainers/parasail-python/1.3.4--py38h5cf8b27_0
+$ module load quay.io/biocontainers/parasail-python/1.3.4--py310h6cc9453_1
+$ module help quay.io/biocontainers/parasail-python/1.3.4--py310h6cc9453_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

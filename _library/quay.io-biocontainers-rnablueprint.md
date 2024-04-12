@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnablueprint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnablueprint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnablueprint/container.yaml"
-updated_at: "2024-04-11 02:53:52.600198"
+updated_at: "2024-04-12 02:48:56.728357"
 latest: "1.3.2--pl5321h820c706_6"
 container_url: "https://biocontainers.pro/tools/rnablueprint"
 aliases:
@@ -20,8 +20,9 @@ versions:
  - "1.3.2--pl5321hfe0f59a_4"
  - "1.3.2--pl5321hfe0f59a_5"
  - "1.3.2--pl5321h820c706_6"
+ - "1.3.2--pl5321h68928f9_6"
 description: "shpc-registry automated BioContainers addition for rnablueprint"
-config: {"url": "https://biocontainers.pro/tools/rnablueprint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnablueprint", "latest": {"1.3.2--pl5321h820c706_6": "sha256:f499702f9fc48f8d5369cb3f76738de233f5fc779572f92bb6bc34a115df6360"}, "tags": {"1.3.2--pl5321hfe0f59a_4": "sha256:65508ec8d7339babb19298d60bf59fb690f5c9bc345ae499c76ecddae9dc0939", "1.3.2--pl5321hfe0f59a_5": "sha256:ff0cac1439807bc2c505fee50b34eee60eadc4a2c4722bedb0fcb4d6282a92f1", "1.3.2--pl5321h820c706_6": "sha256:f499702f9fc48f8d5369cb3f76738de233f5fc779572f92bb6bc34a115df6360"}, "docker": "quay.io/biocontainers/rnablueprint", "aliases": {"RNAblueprint": "/usr/local/bin/RNAblueprint", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/rnablueprint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnablueprint", "latest": {"1.3.2--pl5321h820c706_6": "sha256:f499702f9fc48f8d5369cb3f76738de233f5fc779572f92bb6bc34a115df6360"}, "tags": {"1.3.2--pl5321hfe0f59a_4": "sha256:65508ec8d7339babb19298d60bf59fb690f5c9bc345ae499c76ecddae9dc0939", "1.3.2--pl5321hfe0f59a_5": "sha256:ff0cac1439807bc2c505fee50b34eee60eadc4a2c4722bedb0fcb4d6282a92f1", "1.3.2--pl5321h820c706_6": "sha256:f499702f9fc48f8d5369cb3f76738de233f5fc779572f92bb6bc34a115df6360", "1.3.2--pl5321h68928f9_6": "sha256:8b52e92d6cd912acaab79ab9fe7f2f35c755b37f7618c813b76f39628c94e957"}, "docker": "quay.io/biocontainers/rnablueprint", "aliases": {"RNAblueprint": "/usr/local/bin/RNAblueprint", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnablueprint.

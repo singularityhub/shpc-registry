@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pmcmr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pmcmr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pmcmr/container.yaml"
-updated_at: "2024-04-11 02:36:27.652490"
+updated_at: "2024-04-12 02:31:10.709813"
 latest: "4.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-pmcmr"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "4.1--r3.2.2_0"
+ - "4.1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-pmcmr"
-config: {"url": "https://biocontainers.pro/tools/r-pmcmr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pmcmr", "latest": {"4.1--r3.2.2_0": "sha256:80e0e954377d5cc3e2fc41699927a64c08b4e498088142c11297d434e9735562"}, "tags": {"4.1--r3.2.2_0": "sha256:80e0e954377d5cc3e2fc41699927a64c08b4e498088142c11297d434e9735562"}, "docker": "quay.io/biocontainers/r-pmcmr", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-pmcmr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pmcmr", "latest": {"4.1--r3.2.2_0": "sha256:80e0e954377d5cc3e2fc41699927a64c08b4e498088142c11297d434e9735562"}, "tags": {"4.1--r3.2.2_0": "sha256:80e0e954377d5cc3e2fc41699927a64c08b4e498088142c11297d434e9735562", "4.1--r3.3.2_0": "sha256:80731428474fd6e0c5b0e8c4973c3719db76e8741ea4b3a92b60277f9f093dda"}, "docker": "quay.io/biocontainers/r-pmcmr", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pmcmr.

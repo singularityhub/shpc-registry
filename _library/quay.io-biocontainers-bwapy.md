@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwapy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwapy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwapy/container.yaml"
-updated_at: "2024-04-11 02:38:48.368733"
+updated_at: "2024-04-12 02:33:33.918563"
 latest: "0.1.4--py38h7cf9df2_7"
 container_url: "https://biocontainers.pro/tools/bwapy"
 aliases:
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.1.4--py38h4c6a040_4"
  - "0.1.4--py38h7cf9df2_7"
+ - "0.1.4--py39h3d4b85c_7"
 description: "shpc-registry automated BioContainers addition for bwapy"
-config: {"url": "https://biocontainers.pro/tools/bwapy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwapy", "latest": {"0.1.4--py38h7cf9df2_7": "sha256:f316ac5c2ebcf6edccd457e2f3742dbdcc3bab0d426412510918ce510798b256"}, "tags": {"0.1.4--py38h4c6a040_4": "sha256:6f599a6ca627e20a7bbda59aefe2f54f987a94584f83006813e7f12862bbca8e", "0.1.4--py38h7cf9df2_7": "sha256:f316ac5c2ebcf6edccd457e2f3742dbdcc3bab0d426412510918ce510798b256"}, "docker": "quay.io/biocontainers/bwapy", "aliases": {"bwamempy": "/usr/local/bin/bwamempy", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/bwapy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwapy", "latest": {"0.1.4--py38h7cf9df2_7": "sha256:f316ac5c2ebcf6edccd457e2f3742dbdcc3bab0d426412510918ce510798b256"}, "tags": {"0.1.4--py38h4c6a040_4": "sha256:6f599a6ca627e20a7bbda59aefe2f54f987a94584f83006813e7f12862bbca8e", "0.1.4--py38h7cf9df2_7": "sha256:f316ac5c2ebcf6edccd457e2f3742dbdcc3bab0d426412510918ce510798b256", "0.1.4--py39h3d4b85c_7": "sha256:0b767194c5ed3b6131fab786d1f548ba8bf92dec3a1aff3bcd7f690ae962c4fd"}, "docker": "quay.io/biocontainers/bwapy", "aliases": {"bwamempy": "/usr/local/bin/bwamempy", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwapy.

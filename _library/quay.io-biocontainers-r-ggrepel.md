@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggrepel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggrepel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggrepel/container.yaml"
-updated_at: "2024-04-11 03:01:21.295832"
+updated_at: "2024-04-12 02:56:36.049618"
 latest: "0.6.5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ggrepel"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.6.5--r3.3.1_0"
+ - "0.6.5--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-ggrepel"
-config: {"url": "https://biocontainers.pro/tools/r-ggrepel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggrepel", "latest": {"0.6.5--r3.3.1_0": "sha256:89f77258216cb17ad5484653d036f1915ba79ec4a9406f3611a98de1fd497984"}, "tags": {"0.6.5--r3.3.1_0": "sha256:89f77258216cb17ad5484653d036f1915ba79ec4a9406f3611a98de1fd497984"}, "docker": "quay.io/biocontainers/r-ggrepel", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-ggrepel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggrepel", "latest": {"0.6.5--r3.3.1_0": "sha256:89f77258216cb17ad5484653d036f1915ba79ec4a9406f3611a98de1fd497984"}, "tags": {"0.6.5--r3.3.1_0": "sha256:89f77258216cb17ad5484653d036f1915ba79ec4a9406f3611a98de1fd497984", "0.6.5--r3.3.2_0": "sha256:c132c67b985e3b6175ab493b511a91540a7a4f67e0cdd9ee4f950e533f6850fd"}, "docker": "quay.io/biocontainers/r-ggrepel", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ggrepel.

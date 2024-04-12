@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gapless"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gapless/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gapless/container.yaml"
-updated_at: "2024-04-11 02:58:58.324919"
+updated_at: "2024-04-12 02:54:09.732481"
 latest: "0.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gapless"
 aliases:

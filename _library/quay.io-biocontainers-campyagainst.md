@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/campyagainst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/campyagainst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/campyagainst/container.yaml"
-updated_at: "2024-04-11 03:00:32.519434"
+updated_at: "2024-04-12 02:55:46.454069"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/campyagainst"
 aliases:

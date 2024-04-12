@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-globaloptions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-globaloptions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-globaloptions/container.yaml"
-updated_at: "2024-04-11 03:02:14.954165"
+updated_at: "2024-04-12 02:57:30.752943"
 latest: "0.0.8--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-globaloptions"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.0.8--r3.2.2_0"
+ - "0.0.8--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-globaloptions"
-config: {"url": "https://biocontainers.pro/tools/r-globaloptions", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-globaloptions", "latest": {"0.0.8--r3.2.2_0": "sha256:ba0570e95591f946611fe544be1f92532a3fde550c6f0deb889d9dd17637ea96"}, "tags": {"0.0.8--r3.2.2_0": "sha256:ba0570e95591f946611fe544be1f92532a3fde550c6f0deb889d9dd17637ea96"}, "docker": "quay.io/biocontainers/r-globaloptions", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-globaloptions", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-globaloptions", "latest": {"0.0.8--r3.2.2_0": "sha256:ba0570e95591f946611fe544be1f92532a3fde550c6f0deb889d9dd17637ea96"}, "tags": {"0.0.8--r3.2.2_0": "sha256:ba0570e95591f946611fe544be1f92532a3fde550c6f0deb889d9dd17637ea96", "0.0.8--r3.3.2_0": "sha256:7552df233747340b2c679d378974fe4e5f95d0e085f407e71ad5c7f39bf30eef"}, "docker": "quay.io/biocontainers/r-globaloptions", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-globaloptions.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scan.upc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scan.upc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scan.upc/container.yaml"
-updated_at: "2024-04-11 02:40:47.278490"
+updated_at: "2024-04-12 02:35:35.127327"
 latest: "2.44.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scan.upc"
 
