@@ -5,6 +5,7 @@ latest:
   0.3.7--py36_2: sha256:b7d7ce15261108c4efbb5889ac5d94a539e19f3a510282ab609c3d2c321679b4
 tags:
   0.3.7--py36_2: sha256:b7d7ce15261108c4efbb5889ac5d94a539e19f3a510282ab609c3d2c321679b4
+  0.3.7--py35_2: sha256:71296a0a5abb596c34fff016b4fb338342a09ca1acabeefe846eab06e1c095ee
 docker: quay.io/biocontainers/pomegranate
 aliases:
   cygdb: /usr/local/bin/cygdb

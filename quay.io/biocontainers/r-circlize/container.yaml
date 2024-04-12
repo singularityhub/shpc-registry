@@ -5,6 +5,7 @@ latest:
   0.3.3--r3.2.2_0: sha256:f5f693ad62aec8b8eec2382238551512ea42243fe10c59b854ce8f0d5f148b47
 tags:
   0.3.3--r3.2.2_0: sha256:f5f693ad62aec8b8eec2382238551512ea42243fe10c59b854ce8f0d5f148b47
+  0.3.3--r3.3.2_0: sha256:cfe0f37d527d43ebe6eb286094f772cbb232486c7b5b0a35a94c2683156ecb0b
 docker: quay.io/biocontainers/r-circlize
 aliases:
   pngcp: /usr/local/bin/pngcp

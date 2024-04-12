@@ -5,6 +5,7 @@ latest:
   3.2pre1--py36hc9558a2_0: sha256:72622e3a942a8ddabe9f72b386276c0a2f9cb4c389641b54596d1ebf5fb8ca77
 tags:
   3.2pre1--py36hc9558a2_0: sha256:72622e3a942a8ddabe9f72b386276c0a2f9cb4c389641b54596d1ebf5fb8ca77
+  3.2pre1--py37hc9558a2_0: sha256:72bc50971f65a8920d9561f609150fd6f2d76f52468a01369363b2c58c3ea7a0
 docker: quay.io/biocontainers/artic-porechop
 aliases:
   porechop: /usr/local/bin/porechop

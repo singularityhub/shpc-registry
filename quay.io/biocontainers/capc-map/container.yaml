@@ -5,6 +5,7 @@ latest:
   1.1.3--py36hffcf100_6: sha256:0b1f59dd54ce8bcd640d5f614d08f05d7bb17ef74c543bb3d28c997b39e2730f
 tags:
   1.1.3--py36hffcf100_6: sha256:0b1f59dd54ce8bcd640d5f614d08f05d7bb17ef74c543bb3d28c997b39e2730f
+  1.1.3--py27h8b767f7_6: sha256:7033590c3d29317d301008ec696c24bad45728bb8fc10ed983d129a50a5a27be
 docker: quay.io/biocontainers/capc-map
 aliases:
   capC-MAP: /usr/local/bin/capC-MAP

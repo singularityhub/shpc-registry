@@ -5,6 +5,7 @@ latest:
   1.5--py27r36hb3f55d8_2: sha256:889d31cba456da799a30fcaa8846b1a26f16aec7a362b8b4250e47aa5759b7fc
 tags:
   1.5--py27r36hb3f55d8_2: sha256:889d31cba456da799a30fcaa8846b1a26f16aec7a362b8b4250e47aa5759b7fc
+  1.5--py37r36hb3f55d8_2: sha256:5c0e4064a4f408c8e3317bf66883d4829f244791fb0f05b07f327d5dc083f924
 docker: quay.io/biocontainers/ont-tombo
 aliases:
   tombo: /usr/local/bin/tombo
