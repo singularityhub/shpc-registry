@@ -5,6 +5,7 @@ latest:
   1.6.3--r3.2.2_0: sha256:ce3814364ba484d1a75ed991204a965ab43b5c5d4c5d90d6a8847c5e3a609c50
 tags:
   1.6.3--r3.2.2_0: sha256:ce3814364ba484d1a75ed991204a965ab43b5c5d4c5d90d6a8847c5e3a609c50
+  1.6.3--r3.3.2_0: sha256:91c39ceca9846c71b91e4be10c0bfa2cd8c8c6e59b422d4d8086f3405f28e28c
 docker: quay.io/biocontainers/r-diagram
 aliases:
   pngcp: /usr/local/bin/pngcp

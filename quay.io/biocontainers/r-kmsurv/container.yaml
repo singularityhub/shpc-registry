@@ -5,6 +5,7 @@ latest:
   0.1_5--r3.3.2_0: sha256:dfb64bca86e6ceaae626e9e879d757c85c5e55a219c18590aeff96d78b173e1a
 tags:
   0.1_5--r3.3.2_0: sha256:dfb64bca86e6ceaae626e9e879d757c85c5e55a219c18590aeff96d78b173e1a
+  0.1_5--r3.4.1_0: sha256:58b15420c6146060fcb503489768ba117a947ba1bde5f78317f2d364703bcd85
 docker: quay.io/biocontainers/r-kmsurv
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

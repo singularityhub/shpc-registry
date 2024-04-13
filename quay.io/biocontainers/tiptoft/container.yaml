@@ -6,6 +6,7 @@ latest:
 tags:
   1.0.2--py37h8902056_3: sha256:11dc1f20f4f59a31285ab7380b91c1eb286ba31bed5d3cdc9fdf18f51a7e81f5
   1.0.2--py39hf95cd2a_4: sha256:34b47b509c3c9e2e7d7e15126a6f58071ab8cc4c89821dda2f38c04fcc0f657d
+  1.0.2--py310h4b81fae_4: sha256:5142b0a25214b816281c8ebec49081c0f70456d476bae1ca28932adfc8d4dd1f
 docker: quay.io/biocontainers/tiptoft
 aliases:
   tiptoft: /usr/local/bin/tiptoft

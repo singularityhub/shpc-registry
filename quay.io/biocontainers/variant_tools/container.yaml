@@ -5,6 +5,7 @@ latest:
   3.1.3--py36ha7febfa_2: sha256:4b20ba746976b8ddb3c36d7df5c6177a0aa6706ac1789db3171d3db8c4935a91
 tags:
   3.1.3--py36ha7febfa_2: sha256:4b20ba746976b8ddb3c36d7df5c6177a0aa6706ac1789db3171d3db8c4935a91
+  3.1.3--py38hd52fbc2_2: sha256:4e323e5da6ab9d07228f9d747432bf20dec5846db41816ad92c03dbdfea9c6a1
 docker: quay.io/biocontainers/variant_tools
 aliases:
   vtools: /usr/local/bin/vtools
