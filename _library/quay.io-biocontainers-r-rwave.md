@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rwave"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rwave/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rwave/container.yaml"
-updated_at: "2024-04-12 03:04:53.355903"
+updated_at: "2024-04-13 02:52:05.551237"
 latest: "2.4--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-rwave"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "2.4--r3.2.2_0"
+ - "2.4--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-rwave"
-config: {"url": "https://biocontainers.pro/tools/r-rwave", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rwave", "latest": {"2.4--r3.2.2_0": "sha256:17e0847334d5bbf7fdd2e8431893de353415ee1d37a75b104d5aac76ce637ad9"}, "tags": {"2.4--r3.2.2_0": "sha256:17e0847334d5bbf7fdd2e8431893de353415ee1d37a75b104d5aac76ce637ad9"}, "docker": "quay.io/biocontainers/r-rwave", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rwave", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rwave", "latest": {"2.4--r3.2.2_0": "sha256:17e0847334d5bbf7fdd2e8431893de353415ee1d37a75b104d5aac76ce637ad9"}, "tags": {"2.4--r3.2.2_0": "sha256:17e0847334d5bbf7fdd2e8431893de353415ee1d37a75b104d5aac76ce637ad9", "2.4--r3.3.2_0": "sha256:e1395d3e37d6f2a56b66cb3e5aaafad78fb9f9b4c1529f8989cf0537c9badd5e"}, "docker": "quay.io/biocontainers/r-rwave", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rwave.

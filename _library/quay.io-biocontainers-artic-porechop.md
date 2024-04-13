@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/artic-porechop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/artic-porechop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/artic-porechop/container.yaml"
-updated_at: "2024-04-12 02:36:57.903704"
+updated_at: "2024-04-13 02:24:21.540545"
 latest: "3.2pre1--py36hc9558a2_0"
 container_url: "https://biocontainers.pro/tools/artic-porechop"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "pyvenv"
 versions:
  - "3.2pre1--py36hc9558a2_0"
+ - "3.2pre1--py37hc9558a2_0"
 description: "shpc-registry automated BioContainers addition for artic-porechop"
-config: {"url": "https://biocontainers.pro/tools/artic-porechop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for artic-porechop", "latest": {"3.2pre1--py36hc9558a2_0": "sha256:72622e3a942a8ddabe9f72b386276c0a2f9cb4c389641b54596d1ebf5fb8ca77"}, "tags": {"3.2pre1--py36hc9558a2_0": "sha256:72622e3a942a8ddabe9f72b386276c0a2f9cb4c389641b54596d1ebf5fb8ca77"}, "docker": "quay.io/biocontainers/artic-porechop", "aliases": {"porechop": "/usr/local/bin/porechop", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/artic-porechop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for artic-porechop", "latest": {"3.2pre1--py36hc9558a2_0": "sha256:72622e3a942a8ddabe9f72b386276c0a2f9cb4c389641b54596d1ebf5fb8ca77"}, "tags": {"3.2pre1--py36hc9558a2_0": "sha256:72622e3a942a8ddabe9f72b386276c0a2f9cb4c389641b54596d1ebf5fb8ca77", "3.2pre1--py37hc9558a2_0": "sha256:72bc50971f65a8920d9561f609150fd6f2d76f52468a01369363b2c58c3ea7a0"}, "docker": "quay.io/biocontainers/artic-porechop", "aliases": {"porechop": "/usr/local/bin/porechop", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/artic-porechop.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-blockmodeling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-blockmodeling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-blockmodeling/container.yaml"
-updated_at: "2024-04-12 02:44:55.299426"
+updated_at: "2024-04-13 02:32:17.516842"
 latest: "0.1.8--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-blockmodeling"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.1.8--r3.3.1_1"
+ - "0.1.8--r3.3.2_1"
 description: "shpc-registry automated BioContainers addition for r-blockmodeling"
-config: {"url": "https://biocontainers.pro/tools/r-blockmodeling", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-blockmodeling", "latest": {"0.1.8--r3.3.1_1": "sha256:03592848bfb7bd2f2ca533f416db8e5ed0b34ecc751a3a9baa5618b8adc12a2c"}, "tags": {"0.1.8--r3.3.1_1": "sha256:03592848bfb7bd2f2ca533f416db8e5ed0b34ecc751a3a9baa5618b8adc12a2c"}, "docker": "quay.io/biocontainers/r-blockmodeling", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-blockmodeling", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-blockmodeling", "latest": {"0.1.8--r3.3.1_1": "sha256:03592848bfb7bd2f2ca533f416db8e5ed0b34ecc751a3a9baa5618b8adc12a2c"}, "tags": {"0.1.8--r3.3.1_1": "sha256:03592848bfb7bd2f2ca533f416db8e5ed0b34ecc751a3a9baa5618b8adc12a2c", "0.1.8--r3.3.2_1": "sha256:a3a423864833e390dc156a3bd4353e632aeebd2ad87188d5f00c124fc4df0fe8"}, "docker": "quay.io/biocontainers/r-blockmodeling", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-blockmodeling.

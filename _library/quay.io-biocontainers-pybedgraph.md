@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybedgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybedgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybedgraph/container.yaml"
-updated_at: "2024-04-12 02:34:02.118871"
+updated_at: "2024-04-13 02:21:26.234327"
 latest: "0.5.43--py39he10ea66_4"
 container_url: "https://biocontainers.pro/tools/pybedgraph"
 aliases:

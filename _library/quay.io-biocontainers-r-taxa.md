@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-taxa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-taxa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-taxa/container.yaml"
-updated_at: "2024-04-12 02:54:41.832357"
+updated_at: "2024-04-13 02:41:59.120301"
 latest: "0.3.2--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-taxa"
 

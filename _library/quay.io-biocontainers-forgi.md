@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/forgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/forgi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/forgi/container.yaml"
-updated_at: "2024-04-12 02:34:01.581379"
+updated_at: "2024-04-13 02:21:25.701007"
 latest: "2.2.2--py39hf662ef1_1"
 container_url: "https://biocontainers.pro/tools/forgi"
 aliases:
@@ -29,8 +29,10 @@ versions:
  - "2.1.1--py38hfd5ab5c_2"
  - "2.2.2--py39hf662ef1_1"
  - "2.1.1--py39hf662ef1_4"
+ - "2.2.2--py38he9326dd_1"
+ - "2.1.1--py38he9326dd_4"
 description: "shpc-registry automated BioContainers addition for forgi"
-config: {"url": "https://biocontainers.pro/tools/forgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for forgi", "latest": {"2.2.2--py39hf662ef1_1": "sha256:318ff33006c65dc3cca8913884fd354df4d2248fb3769428ab818325432b1f05"}, "tags": {"2.1.1--py36hffcf100_1": "sha256:240b3bc7b02fdc9b3961d97633e5e325c8247dbef6a5846ef33efdcc2b83255d", "2.1.1--py38hfd5ab5c_2": "sha256:1b9d997f892a50545ad924eb89e489ea940fe9bdcd04200586aef6c27ffff768", "2.2.2--py39hf662ef1_1": "sha256:318ff33006c65dc3cca8913884fd354df4d2248fb3769428ab818325432b1f05", "2.1.1--py39hf662ef1_4": "sha256:4ad192c30f0dbde28ea6339706a73c042bcf1b583eb5aca3e472132a0b0f6d11"}, "docker": "quay.io/biocontainers/forgi", "aliases": {"compare_RNA.py": "/usr/local/bin/compare_RNA.py", "describe_cg.py": "/usr/local/bin/describe_cg.py", "forgi_config.py": "/usr/local/bin/forgi_config.py", "pseudoknot_analyzer.py": "/usr/local/bin/pseudoknot_analyzer.py", "rnaConvert.py": "/usr/local/bin/rnaConvert.py", "visualize_rna.py": "/usr/local/bin/visualize_rna.py", "f2py3.6": "/usr/local/bin/f2py3.6", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
+config: {"url": "https://biocontainers.pro/tools/forgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for forgi", "latest": {"2.2.2--py39hf662ef1_1": "sha256:318ff33006c65dc3cca8913884fd354df4d2248fb3769428ab818325432b1f05"}, "tags": {"2.1.1--py36hffcf100_1": "sha256:240b3bc7b02fdc9b3961d97633e5e325c8247dbef6a5846ef33efdcc2b83255d", "2.1.1--py38hfd5ab5c_2": "sha256:1b9d997f892a50545ad924eb89e489ea940fe9bdcd04200586aef6c27ffff768", "2.2.2--py39hf662ef1_1": "sha256:318ff33006c65dc3cca8913884fd354df4d2248fb3769428ab818325432b1f05", "2.1.1--py39hf662ef1_4": "sha256:4ad192c30f0dbde28ea6339706a73c042bcf1b583eb5aca3e472132a0b0f6d11", "2.2.2--py38he9326dd_1": "sha256:31488fccbe8f8859a923ac15a33ffb5f0b23f89a05196459b978dc466828e96e", "2.1.1--py38he9326dd_4": "sha256:aa44c929c0598a0dd270c7378176a59b691877ad9b917b54ab6535a81aa48dd9"}, "docker": "quay.io/biocontainers/forgi", "aliases": {"compare_RNA.py": "/usr/local/bin/compare_RNA.py", "describe_cg.py": "/usr/local/bin/describe_cg.py", "forgi_config.py": "/usr/local/bin/forgi_config.py", "pseudoknot_analyzer.py": "/usr/local/bin/pseudoknot_analyzer.py", "rnaConvert.py": "/usr/local/bin/rnaConvert.py", "visualize_rna.py": "/usr/local/bin/visualize_rna.py", "f2py3.6": "/usr/local/bin/f2py3.6", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/forgi.

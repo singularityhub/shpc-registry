@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastqsplitter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastqsplitter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastqsplitter/container.yaml"
-updated_at: "2024-04-12 02:52:49.477739"
+updated_at: "2024-04-13 02:40:07.584241"
 latest: "1.2.0--py38he5da3d1_5"
 container_url: "https://biocontainers.pro/tools/fastqsplitter"
 aliases:
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.2.0--py38hbff2b2d_3"
  - "1.2.0--py38he5da3d1_5"
+ - "1.2.0--py310h4b81fae_5"
 description: "shpc-registry automated BioContainers addition for fastqsplitter"
-config: {"url": "https://biocontainers.pro/tools/fastqsplitter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqsplitter", "latest": {"1.2.0--py38he5da3d1_5": "sha256:9ee4f5950b5bc624bbbca60a6664bec19a373ce9f1241398dcd58d3445fae53b"}, "tags": {"1.2.0--py38hbff2b2d_3": "sha256:9bd62e637a0a1f968653282b334a4fba2879fced60855cee971dcfd4ed7fc39a", "1.2.0--py38he5da3d1_5": "sha256:9ee4f5950b5bc624bbbca60a6664bec19a373ce9f1241398dcd58d3445fae53b"}, "docker": "quay.io/biocontainers/fastqsplitter", "aliases": {"fastqsplitter": "/usr/local/bin/fastqsplitter", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8"}}
+config: {"url": "https://biocontainers.pro/tools/fastqsplitter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqsplitter", "latest": {"1.2.0--py38he5da3d1_5": "sha256:9ee4f5950b5bc624bbbca60a6664bec19a373ce9f1241398dcd58d3445fae53b"}, "tags": {"1.2.0--py38hbff2b2d_3": "sha256:9bd62e637a0a1f968653282b334a4fba2879fced60855cee971dcfd4ed7fc39a", "1.2.0--py38he5da3d1_5": "sha256:9ee4f5950b5bc624bbbca60a6664bec19a373ce9f1241398dcd58d3445fae53b", "1.2.0--py310h4b81fae_5": "sha256:30288bdb11accf31d33b8a6f52e502261302ff73a169f7eb442594cfd4efa02e"}, "docker": "quay.io/biocontainers/fastqsplitter", "aliases": {"fastqsplitter": "/usr/local/bin/fastqsplitter", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastqsplitter.

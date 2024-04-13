@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/neatms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/neatms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/neatms/container.yaml"
-updated_at: "2024-04-12 02:27:53.093635"
+updated_at: "2024-04-13 02:15:19.307090"
 latest: "0.7--py_0"
 container_url: "https://biocontainers.pro/tools/neatms"
 aliases:

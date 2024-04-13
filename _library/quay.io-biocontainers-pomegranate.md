@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pomegranate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pomegranate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pomegranate/container.yaml"
-updated_at: "2024-04-12 03:01:11.715719"
+updated_at: "2024-04-13 02:48:25.356280"
 latest: "0.3.7--py36_2"
 container_url: "https://biocontainers.pro/tools/pomegranate"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "python3.6m"
 versions:
  - "0.3.7--py36_2"
+ - "0.3.7--py35_2"
 description: "shpc-registry automated BioContainers addition for pomegranate"
-config: {"url": "https://biocontainers.pro/tools/pomegranate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pomegranate", "latest": {"0.3.7--py36_2": "sha256:b7d7ce15261108c4efbb5889ac5d94a539e19f3a510282ab609c3d2c321679b4"}, "tags": {"0.3.7--py36_2": "sha256:b7d7ce15261108c4efbb5889ac5d94a539e19f3a510282ab609c3d2c321679b4"}, "docker": "quay.io/biocontainers/pomegranate", "aliases": {"cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m"}}
+config: {"url": "https://biocontainers.pro/tools/pomegranate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pomegranate", "latest": {"0.3.7--py36_2": "sha256:b7d7ce15261108c4efbb5889ac5d94a539e19f3a510282ab609c3d2c321679b4"}, "tags": {"0.3.7--py36_2": "sha256:b7d7ce15261108c4efbb5889ac5d94a539e19f3a510282ab609c3d2c321679b4", "0.3.7--py35_2": "sha256:71296a0a5abb596c34fff016b4fb338342a09ca1acabeefe846eab06e1c095ee"}, "docker": "quay.io/biocontainers/pomegranate", "aliases": {"cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pomegranate.

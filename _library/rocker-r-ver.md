@@ -4,7 +4,7 @@ name:  "rocker/r-ver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/r-ver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/r-ver/container.yaml"
-updated_at: "2024-04-12 03:11:14.803106"
+updated_at: "2024-04-13 02:58:25.106435"
 latest: "4.3.3"
 container_url: "https://hub.docker.com/r/rocker/r-ver"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "4.3.2"
  - "4.3.3"
 description: "Version-stable build of R"
-config: {"docker": "rocker/r-ver", "url": "https://hub.docker.com/r/rocker/r-ver", "maintainer": "@marcodelapierre", "description": "Version-stable build of R", "latest": {"4.3.3": "sha256:dcee7483a7edd1aaae904b8e915f191ea263ba924dcdc7196e3ac951b2c69fa6"}, "tags": {"4.2.2": "sha256:e868e617f2adb9740983d5fed65032afa9632308ab94bde02da09182e46f9389", "3.6.3": "sha256:9414f76c5f91f24617b5275b8fe4f4ff1313b3b10698a525cac0063c01f2ca6d", "4.1.3": "sha256:7b41672ff49a216a65068f10267e6ae8ca954ff7146fb40ea5a82266d0ef2fb6", "4.0.5": "sha256:39f3e1bf6613b436b69e5b018273b36067325fb5aec20c4409a40c48af835461", "4.2.3": "sha256:9cbdac7f3737507638bd69ccf88bf9acb72c8b96ee16cba7ad88a0865b74d663", "4.3.0": "sha256:090046ca60f4d1c177616b77ea23f1d4ad7316c864bf27b26b2fa10f65bf00c5", "4.3.1": "sha256:f5f2d67b72a0fd0912222c2cf8eedfff809195775039e8f1701665322b1a8089", "4.3.2": "sha256:74e06e98f2b03d1b086caec243add1ea964f40a59b99195cfd3e99dd1264d632", "4.3.3": "sha256:dcee7483a7edd1aaae904b8e915f191ea263ba924dcdc7196e3ac951b2c69fa6"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript"}}
+config: {"docker": "rocker/r-ver", "url": "https://hub.docker.com/r/rocker/r-ver", "maintainer": "@marcodelapierre", "description": "Version-stable build of R", "latest": {"4.3.3": "sha256:1478c0bd3dfc26618eb032fa86ba969bd497d1752786f4b89dcc4c6f98d9f2d8"}, "tags": {"4.2.2": "sha256:e868e617f2adb9740983d5fed65032afa9632308ab94bde02da09182e46f9389", "3.6.3": "sha256:9414f76c5f91f24617b5275b8fe4f4ff1313b3b10698a525cac0063c01f2ca6d", "4.1.3": "sha256:7b41672ff49a216a65068f10267e6ae8ca954ff7146fb40ea5a82266d0ef2fb6", "4.0.5": "sha256:39f3e1bf6613b436b69e5b018273b36067325fb5aec20c4409a40c48af835461", "4.2.3": "sha256:9cbdac7f3737507638bd69ccf88bf9acb72c8b96ee16cba7ad88a0865b74d663", "4.3.0": "sha256:090046ca60f4d1c177616b77ea23f1d4ad7316c864bf27b26b2fa10f65bf00c5", "4.3.1": "sha256:f5f2d67b72a0fd0912222c2cf8eedfff809195775039e8f1701665322b1a8089", "4.3.2": "sha256:74e06e98f2b03d1b086caec243add1ea964f40a59b99195cfd3e99dd1264d632", "4.3.3": "sha256:1478c0bd3dfc26618eb032fa86ba969bd497d1752786f4b89dcc4c6f98d9f2d8"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript"}}
 ---
 
 This module is a singularity container wrapper for rocker/r-ver.

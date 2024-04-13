@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/influx_si"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/influx_si/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/influx_si/container.yaml"
-updated_at: "2024-04-12 02:55:13.270519"
-latest: "7.0.2--pyhdfd78af_0"
+updated_at: "2024-04-13 02:42:30.196582"
+latest: "7.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/influx_si"
 aliases:
  - "ff2ftbl"
@@ -48,8 +48,9 @@ versions:
  - "7.0--pyhdfd78af_0"
  - "7.0.1--pyhdfd78af_0"
  - "7.0.2--pyhdfd78af_0"
+ - "7.0.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for influx_si"
-config: {"url": "https://biocontainers.pro/tools/influx_si", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for influx_si", "latest": {"7.0.2--pyhdfd78af_0": "sha256:e16fdf3ab854ec1bd7c4597f1589b411d1ad6a256c583b049ba02bb5602b6ec0"}, "tags": {"6.1--pyhdfd78af_0": "sha256:ac0352104547261057cc19c24e0b82ff2385f894563b08cb339ff40ee9bb53e5", "7.0--pyhdfd78af_0": "sha256:4980fbec71a4aa6708fad9a0c58d7d3cb9c523be75a9b085d926d829d285e961", "7.0.1--pyhdfd78af_0": "sha256:06e6c91021049552370f490636f20b0b1ab887bfc9d64bce8cc9c69161a2a0d5", "7.0.2--pyhdfd78af_0": "sha256:e16fdf3ab854ec1bd7c4597f1589b411d1ad6a256c583b049ba02bb5602b6ec0"}, "docker": "quay.io/biocontainers/influx_si", "aliases": {"ff2ftbl": "/usr/local/bin/ff2ftbl", "ff2ftbl.py": "/usr/local/bin/ff2ftbl.py", "ftbl2code": "/usr/local/bin/ftbl2code", "ftbl2code.py": "/usr/local/bin/ftbl2code.py", "ftbl2cumoAb": "/usr/local/bin/ftbl2cumoAb", "ftbl2cumoAb.py": "/usr/local/bin/ftbl2cumoAb.py", "ftbl2kvh": "/usr/local/bin/ftbl2kvh", "ftbl2kvh.py": "/usr/local/bin/ftbl2kvh.py", "ftbl2labcin": "/usr/local/bin/ftbl2labcin", "ftbl2labcin.py": "/usr/local/bin/ftbl2labcin.py", "ftbl2metxml": "/usr/local/bin/ftbl2metxml", "ftbl2metxml.py": "/usr/local/bin/ftbl2metxml.py", "ftbl2mtf": "/usr/local/bin/ftbl2mtf", "ftbl2mtf.py": "/usr/local/bin/ftbl2mtf.py", "ftbl2netan": "/usr/local/bin/ftbl2netan", "ftbl2netan.py": "/usr/local/bin/ftbl2netan.py", "ftbl2optR": "/usr/local/bin/ftbl2optR", "ftbl2optR.py": "/usr/local/bin/ftbl2optR.py", "ftbl2xgmml": "/usr/local/bin/ftbl2xgmml", "ftbl2xgmml.py": "/usr/local/bin/ftbl2xgmml.py", "influx_i": "/usr/local/bin/influx_i", "influx_i.py": "/usr/local/bin/influx_i.py", "influx_s": "/usr/local/bin/influx_s", "influx_s.py": "/usr/local/bin/influx_s.py", "res2ftbl_meas": "/usr/local/bin/res2ftbl_meas", "res2ftbl_meas.py": "/usr/local/bin/res2ftbl_meas.py", "txt2ftbl": "/usr/local/bin/txt2ftbl", "txt2ftbl.py": "/usr/local/bin/txt2ftbl.py", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/influx_si", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for influx_si", "latest": {"7.0.3--pyhdfd78af_0": "sha256:ac566930cd79720c82634e830e9ba96878fa100975cd0b2b07c6b650ecb1f615"}, "tags": {"6.1--pyhdfd78af_0": "sha256:ac0352104547261057cc19c24e0b82ff2385f894563b08cb339ff40ee9bb53e5", "7.0--pyhdfd78af_0": "sha256:4980fbec71a4aa6708fad9a0c58d7d3cb9c523be75a9b085d926d829d285e961", "7.0.1--pyhdfd78af_0": "sha256:06e6c91021049552370f490636f20b0b1ab887bfc9d64bce8cc9c69161a2a0d5", "7.0.2--pyhdfd78af_0": "sha256:e16fdf3ab854ec1bd7c4597f1589b411d1ad6a256c583b049ba02bb5602b6ec0", "7.0.3--pyhdfd78af_0": "sha256:ac566930cd79720c82634e830e9ba96878fa100975cd0b2b07c6b650ecb1f615"}, "docker": "quay.io/biocontainers/influx_si", "aliases": {"ff2ftbl": "/usr/local/bin/ff2ftbl", "ff2ftbl.py": "/usr/local/bin/ff2ftbl.py", "ftbl2code": "/usr/local/bin/ftbl2code", "ftbl2code.py": "/usr/local/bin/ftbl2code.py", "ftbl2cumoAb": "/usr/local/bin/ftbl2cumoAb", "ftbl2cumoAb.py": "/usr/local/bin/ftbl2cumoAb.py", "ftbl2kvh": "/usr/local/bin/ftbl2kvh", "ftbl2kvh.py": "/usr/local/bin/ftbl2kvh.py", "ftbl2labcin": "/usr/local/bin/ftbl2labcin", "ftbl2labcin.py": "/usr/local/bin/ftbl2labcin.py", "ftbl2metxml": "/usr/local/bin/ftbl2metxml", "ftbl2metxml.py": "/usr/local/bin/ftbl2metxml.py", "ftbl2mtf": "/usr/local/bin/ftbl2mtf", "ftbl2mtf.py": "/usr/local/bin/ftbl2mtf.py", "ftbl2netan": "/usr/local/bin/ftbl2netan", "ftbl2netan.py": "/usr/local/bin/ftbl2netan.py", "ftbl2optR": "/usr/local/bin/ftbl2optR", "ftbl2optR.py": "/usr/local/bin/ftbl2optR.py", "ftbl2xgmml": "/usr/local/bin/ftbl2xgmml", "ftbl2xgmml.py": "/usr/local/bin/ftbl2xgmml.py", "influx_i": "/usr/local/bin/influx_i", "influx_i.py": "/usr/local/bin/influx_i.py", "influx_s": "/usr/local/bin/influx_s", "influx_s.py": "/usr/local/bin/influx_s.py", "res2ftbl_meas": "/usr/local/bin/res2ftbl_meas", "res2ftbl_meas.py": "/usr/local/bin/res2ftbl_meas.py", "txt2ftbl": "/usr/local/bin/txt2ftbl", "txt2ftbl.py": "/usr/local/bin/txt2ftbl.py", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/influx_si.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/influx_si
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/influx_si:7.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/influx_si:7.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/influx_si/7.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/influx_si/7.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/influx_si/7.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/influx_si/7.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
