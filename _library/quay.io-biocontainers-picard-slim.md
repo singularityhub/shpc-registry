@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/picard-slim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/picard-slim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/picard-slim/container.yaml"
-updated_at: "2024-04-13 02:41:31.539492"
-latest: "2.26.2--hdfd78af_0"
+updated_at: "2024-04-14 03:43:55.480413"
+latest: "3.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/picard-slim"
 aliases:
  - "picard"
@@ -20,8 +20,12 @@ aliases:
  - "jshell"
 versions:
  - "2.26.2--hdfd78af_0"
+ - "3.1.1--hdfd78af_0"
+ - "3.0.0--hdfd78af_0"
+ - "2.27.4--hdfd78af_0"
+ - "2.26.11--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for picard-slim"
-config: {"url": "https://biocontainers.pro/tools/picard-slim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for picard-slim", "latest": {"2.26.2--hdfd78af_0": "sha256:3957b0cf7b54a5f3794f88efdb3789962f1a49e591ffe13c5ded998ee462ef66"}, "tags": {"2.26.2--hdfd78af_0": "sha256:3957b0cf7b54a5f3794f88efdb3789962f1a49e591ffe13c5ded998ee462ef66"}, "docker": "quay.io/biocontainers/picard-slim", "aliases": {"picard": "/usr/local/bin/picard", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell"}}
+config: {"url": "https://biocontainers.pro/tools/picard-slim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for picard-slim", "latest": {"3.1.1--hdfd78af_0": "sha256:1c465dca4123d6c53b455560f083724607a983673cc831d6c4b10765d86453ca"}, "tags": {"2.26.2--hdfd78af_0": "sha256:3957b0cf7b54a5f3794f88efdb3789962f1a49e591ffe13c5ded998ee462ef66", "3.1.1--hdfd78af_0": "sha256:1c465dca4123d6c53b455560f083724607a983673cc831d6c4b10765d86453ca", "3.0.0--hdfd78af_0": "sha256:4a89716091eefe871181f02027e4963272b5eba3d037787b76a13d83d337fa53", "2.27.4--hdfd78af_0": "sha256:a89bc93eead2fdb003c937606719b467c477aa49de0cab259b0eb11c2243979e", "2.26.11--hdfd78af_0": "sha256:4f4b092bc3eb80a54e0e1c34069c351456fb1b07510b768ab93f1767f9efb9ad"}, "docker": "quay.io/biocontainers/picard-slim", "aliases": {"picard": "/usr/local/bin/picard", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/picard-slim.
@@ -36,7 +40,7 @@ $ shpc install quay.io/biocontainers/picard-slim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/picard-slim:2.26.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/picard-slim:3.1.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/picard-slim/2.26.2--hdfd78af_0
-$ module help quay.io/biocontainers/picard-slim/2.26.2--hdfd78af_0
+$ module load quay.io/biocontainers/picard-slim/3.1.1--hdfd78af_0
+$ module help quay.io/biocontainers/picard-slim/3.1.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

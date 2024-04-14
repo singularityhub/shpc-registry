@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fragpipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fragpipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fragpipe/container.yaml"
-updated_at: "2024-04-13 02:21:11.475071"
-latest: "20.0--hdfd78af_0"
+updated_at: "2024-04-14 03:23:31.498783"
+latest: "20.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/fragpipe"
 aliases:
  - "csc-dim"
@@ -44,8 +44,9 @@ aliases:
  - "ikdasm"
 versions:
  - "20.0--hdfd78af_0"
+ - "20.0--hdfd78af_2"
 description: "singularity registry hpc automated addition for fragpipe"
-config: {"url": "https://biocontainers.pro/tools/fragpipe", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fragpipe", "latest": {"20.0--hdfd78af_0": "sha256:bd821a40d7cea6a4d9e098c5bcdb99cb34658ad223a98216841dbc3eede418a4"}, "tags": {"20.0--hdfd78af_0": "sha256:bd821a40d7cea6a4d9e098c5bcdb99cb34658ad223a98216841dbc3eede418a4"}, "docker": "quay.io/biocontainers/fragpipe", "aliases": {"csc-dim": "/usr/local/bin/csc-dim", "fragpipe": "/usr/local/bin/fragpipe", "ionquant": "/usr/local/bin/ionquant", "monograph": "/usr/local/bin/monograph", "msfragger": "/usr/local/bin/msfragger", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "philosopher": "/usr/local/bin/philosopher", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr", "chktrust": "/usr/local/bin/chktrust", "crlupdate": "/usr/local/bin/crlupdate", "csharp": "/usr/local/bin/csharp", "dmcs": "/usr/local/bin/dmcs", "dtd2rng": "/usr/local/bin/dtd2rng", "dtd2xsd": "/usr/local/bin/dtd2xsd", "gacutil": "/usr/local/bin/gacutil", "gacutil2": "/usr/local/bin/gacutil2", "genxs": "/usr/local/bin/genxs", "httpcfg": "/usr/local/bin/httpcfg", "ikdasm": "/usr/local/bin/ikdasm"}}
+config: {"url": "https://biocontainers.pro/tools/fragpipe", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fragpipe", "latest": {"20.0--hdfd78af_2": "sha256:6a4592367bd83d410a53b0a6a744864b76375893ff1af23c5a47ba427e0e3eff"}, "tags": {"20.0--hdfd78af_0": "sha256:bd821a40d7cea6a4d9e098c5bcdb99cb34658ad223a98216841dbc3eede418a4", "20.0--hdfd78af_2": "sha256:6a4592367bd83d410a53b0a6a744864b76375893ff1af23c5a47ba427e0e3eff"}, "docker": "quay.io/biocontainers/fragpipe", "aliases": {"csc-dim": "/usr/local/bin/csc-dim", "fragpipe": "/usr/local/bin/fragpipe", "ionquant": "/usr/local/bin/ionquant", "monograph": "/usr/local/bin/monograph", "msfragger": "/usr/local/bin/msfragger", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "philosopher": "/usr/local/bin/philosopher", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr", "chktrust": "/usr/local/bin/chktrust", "crlupdate": "/usr/local/bin/crlupdate", "csharp": "/usr/local/bin/csharp", "dmcs": "/usr/local/bin/dmcs", "dtd2rng": "/usr/local/bin/dtd2rng", "dtd2xsd": "/usr/local/bin/dtd2xsd", "gacutil": "/usr/local/bin/gacutil", "gacutil2": "/usr/local/bin/gacutil2", "genxs": "/usr/local/bin/genxs", "httpcfg": "/usr/local/bin/httpcfg", "ikdasm": "/usr/local/bin/ikdasm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fragpipe.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/fragpipe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fragpipe:20.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/fragpipe:20.0--hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fragpipe/20.0--hdfd78af_0
-$ module help quay.io/biocontainers/fragpipe/20.0--hdfd78af_0
+$ module load quay.io/biocontainers/fragpipe/20.0--hdfd78af_2
+$ module help quay.io/biocontainers/fragpipe/20.0--hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-io-stringy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-stringy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-stringy/container.yaml"
-updated_at: "2024-04-13 02:29:55.379932"
+updated_at: "2024-04-14 03:32:18.428205"
 latest: "2.111--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-io-stringy"
 aliases:

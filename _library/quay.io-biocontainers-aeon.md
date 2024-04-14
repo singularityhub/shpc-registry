@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aeon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aeon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aeon/container.yaml"
-updated_at: "2024-04-13 02:56:53.231844"
+updated_at: "2024-04-14 03:59:25.342368"
 latest: "0.1.1--py310h4b6de7c_2"
 container_url: "https://biocontainers.pro/tools/aeon"
 aliases:
@@ -17,8 +17,9 @@ versions:
  - "0.1.1--py39h3b2373f_0"
  - "0.1.1--py39h3b2373f_1"
  - "0.1.1--py310h4b6de7c_2"
+ - "0.1.1--py39hb377b6a_2"
 description: "singularity registry hpc automated addition for aeon"
-config: {"url": "https://biocontainers.pro/tools/aeon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aeon", "latest": {"0.1.1--py310h4b6de7c_2": "sha256:a04ff094578b08bc1d3b92d424aa634c08c018b5a079c85cac23a8d7fd13b51a"}, "tags": {"0.1.1--py39h3b2373f_0": "sha256:947800f8b7cbccf4e0620bd09707dfe3878b0335a4d0a70753fdf7846985b0a7", "0.1.1--py39h3b2373f_1": "sha256:ce5a017491aaf37bda3c01498d3ab05c808f4d3295521daa584f444bea3e834c", "0.1.1--py310h4b6de7c_2": "sha256:a04ff094578b08bc1d3b92d424aa634c08c018b5a079c85cac23a8d7fd13b51a"}, "docker": "quay.io/biocontainers/aeon", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/aeon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aeon", "latest": {"0.1.1--py310h4b6de7c_2": "sha256:a04ff094578b08bc1d3b92d424aa634c08c018b5a079c85cac23a8d7fd13b51a"}, "tags": {"0.1.1--py39h3b2373f_0": "sha256:947800f8b7cbccf4e0620bd09707dfe3878b0335a4d0a70753fdf7846985b0a7", "0.1.1--py39h3b2373f_1": "sha256:ce5a017491aaf37bda3c01498d3ab05c808f4d3295521daa584f444bea3e834c", "0.1.1--py310h4b6de7c_2": "sha256:a04ff094578b08bc1d3b92d424aa634c08c018b5a079c85cac23a8d7fd13b51a", "0.1.1--py39hb377b6a_2": "sha256:e8685403fa9309c9183fb9b867423544f9d453c158ed1b2304c67d790b251b22"}, "docker": "quay.io/biocontainers/aeon", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aeon.

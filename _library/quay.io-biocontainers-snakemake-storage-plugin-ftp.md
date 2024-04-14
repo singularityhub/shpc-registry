@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-storage-plugin-ftp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-storage-plugin-ftp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-storage-plugin-ftp/container.yaml"
-updated_at: "2024-04-13 02:47:19.526801"
+updated_at: "2024-04-14 03:49:50.206441"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-storage-plugin-ftp"
 aliases:

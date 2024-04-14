@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tiptoft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tiptoft/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tiptoft/container.yaml"
-updated_at: "2024-04-13 02:57:57.487088"
+updated_at: "2024-04-14 04:00:30.063749"
 latest: "1.0.2--py39hf95cd2a_4"
 container_url: "https://biocontainers.pro/tools/tiptoft"
 aliases:
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "1.0.2--py37h8902056_3"
  - "1.0.2--py39hf95cd2a_4"
+ - "1.0.2--py310h4b81fae_4"
 description: "shpc-registry automated BioContainers addition for tiptoft"
-config: {"url": "https://biocontainers.pro/tools/tiptoft", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tiptoft", "latest": {"1.0.2--py39hf95cd2a_4": "sha256:34b47b509c3c9e2e7d7e15126a6f58071ab8cc4c89821dda2f38c04fcc0f657d"}, "tags": {"1.0.2--py37h8902056_3": "sha256:11dc1f20f4f59a31285ab7380b91c1eb286ba31bed5d3cdc9fdf18f51a7e81f5", "1.0.2--py39hf95cd2a_4": "sha256:34b47b509c3c9e2e7d7e15126a6f58071ab8cc4c89821dda2f38c04fcc0f657d"}, "docker": "quay.io/biocontainers/tiptoft", "aliases": {"tiptoft": "/usr/local/bin/tiptoft", "tiptoft_database_downloader": "/usr/local/bin/tiptoft_database_downloader", "fastaq": "/usr/local/bin/fastaq", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config"}}
+config: {"url": "https://biocontainers.pro/tools/tiptoft", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tiptoft", "latest": {"1.0.2--py39hf95cd2a_4": "sha256:34b47b509c3c9e2e7d7e15126a6f58071ab8cc4c89821dda2f38c04fcc0f657d"}, "tags": {"1.0.2--py37h8902056_3": "sha256:11dc1f20f4f59a31285ab7380b91c1eb286ba31bed5d3cdc9fdf18f51a7e81f5", "1.0.2--py39hf95cd2a_4": "sha256:34b47b509c3c9e2e7d7e15126a6f58071ab8cc4c89821dda2f38c04fcc0f657d", "1.0.2--py310h4b81fae_4": "sha256:5142b0a25214b816281c8ebec49081c0f70456d476bae1ca28932adfc8d4dd1f"}, "docker": "quay.io/biocontainers/tiptoft", "aliases": {"tiptoft": "/usr/local/bin/tiptoft", "tiptoft_database_downloader": "/usr/local/bin/tiptoft_database_downloader", "fastaq": "/usr/local/bin/fastaq", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tiptoft.

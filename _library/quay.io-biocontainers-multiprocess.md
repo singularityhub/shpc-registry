@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multiprocess"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multiprocess/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multiprocess/container.yaml"
-updated_at: "2024-04-13 02:44:10.508981"
+updated_at: "2024-04-14 03:46:38.140063"
 latest: "0.70.4--py35_0"
 container_url: "https://biocontainers.pro/tools/multiprocess"
 aliases:
@@ -22,8 +22,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.70.4--py35_0"
+ - "0.70.4--py36_0"
 description: "shpc-registry automated BioContainers addition for multiprocess"
-config: {"url": "https://biocontainers.pro/tools/multiprocess", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multiprocess", "latest": {"0.70.4--py35_0": "sha256:2d91227a7bc95d4a3636d1eb86caf34bebdc1a7223f720c95a02ba6b4a772efc"}, "tags": {"0.70.4--py35_0": "sha256:2d91227a7bc95d4a3636d1eb86caf34bebdc1a7223f720c95a02ba6b4a772efc"}, "docker": "quay.io/biocontainers/multiprocess", "aliases": {"get_objgraph.py": "/usr/local/bin/get_objgraph.py", "unpickle.py": "/usr/local/bin/unpickle.py", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/multiprocess", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multiprocess", "latest": {"0.70.4--py35_0": "sha256:2d91227a7bc95d4a3636d1eb86caf34bebdc1a7223f720c95a02ba6b4a772efc"}, "tags": {"0.70.4--py35_0": "sha256:2d91227a7bc95d4a3636d1eb86caf34bebdc1a7223f720c95a02ba6b4a772efc", "0.70.4--py36_0": "sha256:67ee3c9b7f8a5133080cd0942d7de6e41388c4a5468f51d3f0bee8423cf7aef7"}, "docker": "quay.io/biocontainers/multiprocess", "aliases": {"get_objgraph.py": "/usr/local/bin/get_objgraph.py", "unpickle.py": "/usr/local/bin/unpickle.py", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/multiprocess.

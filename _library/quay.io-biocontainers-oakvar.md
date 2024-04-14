@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/oakvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oakvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oakvar/container.yaml"
-updated_at: "2024-04-13 02:51:34.808788"
-latest: "2.9.91--pyhdfd78af_0"
+updated_at: "2024-04-14 03:54:06.621762"
+latest: "2.9.96--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/oakvar"
 aliases:
  - "elastipubsub5"
@@ -56,8 +56,9 @@ versions:
  - "2.9.83--pyhdfd78af_0"
  - "2.9.87--pyhdfd78af_0"
  - "2.9.91--pyhdfd78af_0"
+ - "2.9.96--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for oakvar"
-config: {"url": "https://biocontainers.pro/tools/oakvar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oakvar", "latest": {"2.9.91--pyhdfd78af_0": "sha256:9558584167209ae088ac4108156a00107d9dd25c713ab461b246baad8fe104db"}, "tags": {"2.8.40--pyh7cba7a3_0": "sha256:53c7659f32a608d9e7128d0b8684f1753c43e4dad6e2cd191da4a8db01c91be5", "2.9.3--pyh7cba7a3_0": "sha256:6c44c1bc3e3cf6a8d85a44afeef18e05c326bf67ceb89875a0fb5d5ec4fa0153", "2.9.36--pyhdfd78af_0": "sha256:6e30d030ffb965241c4340ce83ff6bf88546c6c3dc9f41a2cc7bc6ba7f61e7fb", "2.9.51--pyhdfd78af_0": "sha256:a992874bfd4391f4c5724fee08f42e48029668ed643373871c12195ea9a5a1d4", "2.9.58--pyhdfd78af_0": "sha256:9766e9d82ab1a3ee33270fdc171317dd7cbdff62b87cf4baab57fa81c787f5db", "2.9.78--pyhdfd78af_0": "sha256:47c48d19ad35532030437fb1be166e9b972edbd1096e505c190cba66b05560d7", "2.9.83--pyhdfd78af_0": "sha256:7c46c8582ce1fd203f9d6a4248470a05966efbb0371beb4b5eb4d7648f11626f", "2.9.87--pyhdfd78af_0": "sha256:ec11a960a7febb9f7f0268f7afd1ddfa4543f4a42bdb49a92160765b1c2fba19", "2.9.91--pyhdfd78af_0": "sha256:9558584167209ae088ac4108156a00107d9dd25c713ab461b246baad8fe104db"}, "docker": "quay.io/biocontainers/oakvar", "aliases": {"elastipubsub5": "/usr/local/bin/elastipubsub5", "gdown": "/usr/local/bin/gdown", "io_demo": "/usr/local/bin/io_demo", "markdown-it": "/usr/local/bin/markdown-it", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "ov": "/usr/local/bin/ov", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "tjbench": "/usr/local/bin/tjbench", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "markdown_py": "/usr/local/bin/markdown_py", "protoc": "/usr/local/bin/protoc", "pygmentize": "/usr/local/bin/pygmentize"}}
+config: {"url": "https://biocontainers.pro/tools/oakvar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oakvar", "latest": {"2.9.96--pyhdfd78af_0": "sha256:dce484cfecc187094a53c0d041ebc29247f67428d3e08b891e8e08211c42ebaa"}, "tags": {"2.8.40--pyh7cba7a3_0": "sha256:53c7659f32a608d9e7128d0b8684f1753c43e4dad6e2cd191da4a8db01c91be5", "2.9.3--pyh7cba7a3_0": "sha256:6c44c1bc3e3cf6a8d85a44afeef18e05c326bf67ceb89875a0fb5d5ec4fa0153", "2.9.36--pyhdfd78af_0": "sha256:6e30d030ffb965241c4340ce83ff6bf88546c6c3dc9f41a2cc7bc6ba7f61e7fb", "2.9.51--pyhdfd78af_0": "sha256:a992874bfd4391f4c5724fee08f42e48029668ed643373871c12195ea9a5a1d4", "2.9.58--pyhdfd78af_0": "sha256:9766e9d82ab1a3ee33270fdc171317dd7cbdff62b87cf4baab57fa81c787f5db", "2.9.78--pyhdfd78af_0": "sha256:47c48d19ad35532030437fb1be166e9b972edbd1096e505c190cba66b05560d7", "2.9.83--pyhdfd78af_0": "sha256:7c46c8582ce1fd203f9d6a4248470a05966efbb0371beb4b5eb4d7648f11626f", "2.9.87--pyhdfd78af_0": "sha256:ec11a960a7febb9f7f0268f7afd1ddfa4543f4a42bdb49a92160765b1c2fba19", "2.9.91--pyhdfd78af_0": "sha256:9558584167209ae088ac4108156a00107d9dd25c713ab461b246baad8fe104db", "2.9.96--pyhdfd78af_0": "sha256:dce484cfecc187094a53c0d041ebc29247f67428d3e08b891e8e08211c42ebaa"}, "docker": "quay.io/biocontainers/oakvar", "aliases": {"elastipubsub5": "/usr/local/bin/elastipubsub5", "gdown": "/usr/local/bin/gdown", "io_demo": "/usr/local/bin/io_demo", "markdown-it": "/usr/local/bin/markdown-it", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "ov": "/usr/local/bin/ov", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "tjbench": "/usr/local/bin/tjbench", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "sha256_profile": "/usr/local/bin/sha256_profile", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "markdown_py": "/usr/local/bin/markdown_py", "protoc": "/usr/local/bin/protoc", "pygmentize": "/usr/local/bin/pygmentize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oakvar.
@@ -72,7 +73,7 @@ $ shpc install quay.io/biocontainers/oakvar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/oakvar:2.9.91--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/oakvar:2.9.96--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -84,8 +85,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/oakvar/2.9.91--pyhdfd78af_0
-$ module help quay.io/biocontainers/oakvar/2.9.91--pyhdfd78af_0
+$ module load quay.io/biocontainers/oakvar/2.9.96--pyhdfd78af_0
+$ module help quay.io/biocontainers/oakvar/2.9.96--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/merqury"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/merqury/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/merqury/container.yaml"
-updated_at: "2024-04-13 02:38:30.036919"
-latest: "1.3--hdfd78af_1"
+updated_at: "2024-04-14 03:40:52.449810"
+latest: "1.3--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/merqury"
 aliases:
  - "igvtools"
@@ -27,8 +27,9 @@ versions:
  - "v1.0--0"
  - "1.3--hdfd78af_1"
  - "1.1--hdfd78af_3"
+ - "1.3--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for merqury"
-config: {"url": "https://biocontainers.pro/tools/merqury", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for merqury", "latest": {"1.3--hdfd78af_1": "sha256:05c1d4942b1d7c6481591a651bb325f74e2be99a3676f693fd599f8b459652a5"}, "tags": {"v1.0--0": "sha256:9a83df64687dcbd1b03a23882503669b0620ee63f8febe734eeb56d7ddf23210", "1.3--hdfd78af_1": "sha256:05c1d4942b1d7c6481591a651bb325f74e2be99a3676f693fd599f8b459652a5", "1.1--hdfd78af_3": "sha256:06000df147bf2398e7030e4e54ef0179502268d77baa579f70d52c347f7f82bf"}, "docker": "quay.io/biocontainers/merqury", "aliases": {"igvtools": "/usr/local/bin/igvtools", "merqury.sh": "/usr/local/bin/merqury.sh", "meryl-import": "/usr/local/bin/meryl-import", "meryl-lookup": "/usr/local/bin/meryl-lookup", "sequence": "/usr/local/bin/sequence", "meryl": "/usr/local/bin/meryl", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools"}}
+config: {"url": "https://biocontainers.pro/tools/merqury", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for merqury", "latest": {"1.3--hdfd78af_2": "sha256:d29cf65b57a5d5b23ede88b0785878831af3f245a977b04642e7bbc43619ee28"}, "tags": {"v1.0--0": "sha256:9a83df64687dcbd1b03a23882503669b0620ee63f8febe734eeb56d7ddf23210", "1.3--hdfd78af_1": "sha256:05c1d4942b1d7c6481591a651bb325f74e2be99a3676f693fd599f8b459652a5", "1.1--hdfd78af_3": "sha256:06000df147bf2398e7030e4e54ef0179502268d77baa579f70d52c347f7f82bf", "1.3--hdfd78af_2": "sha256:d29cf65b57a5d5b23ede88b0785878831af3f245a977b04642e7bbc43619ee28"}, "docker": "quay.io/biocontainers/merqury", "aliases": {"igvtools": "/usr/local/bin/igvtools", "merqury.sh": "/usr/local/bin/merqury.sh", "meryl-import": "/usr/local/bin/meryl-import", "meryl-lookup": "/usr/local/bin/meryl-lookup", "sequence": "/usr/local/bin/sequence", "meryl": "/usr/local/bin/meryl", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/merqury.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/merqury
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/merqury:1.3--hdfd78af_1
+$ shpc install quay.io/biocontainers/merqury:1.3--hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/merqury/1.3--hdfd78af_1
-$ module help quay.io/biocontainers/merqury/1.3--hdfd78af_1
+$ module load quay.io/biocontainers/merqury/1.3--hdfd78af_2
+$ module help quay.io/biocontainers/merqury/1.3--hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

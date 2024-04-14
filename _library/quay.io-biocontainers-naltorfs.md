@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/naltorfs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/naltorfs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/naltorfs/container.yaml"
-updated_at: "2024-04-13 02:27:13.859850"
+updated_at: "2024-04-14 03:29:36.390256"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/naltorfs"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.1.2--pyhdfd78af_0"
+ - "0.1.2"
 description: "singularity registry hpc automated addition for naltorfs"
-config: {"url": "https://biocontainers.pro/tools/naltorfs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for naltorfs", "latest": {"0.1.2--pyhdfd78af_0": "sha256:f21d7b3334053076d21f4c718fc73796882f68fb93d9b40b9a9a2ff33c3c171a"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:f21d7b3334053076d21f4c718fc73796882f68fb93d9b40b9a9a2ff33c3c171a"}, "docker": "quay.io/biocontainers/naltorfs", "aliases": {"bicodon_counts_from_fasta.py": "/usr/local/bin/bicodon_counts_from_fasta.py", "codon_freq_from_bicodons.py": "/usr/local/bin/codon_freq_from_bicodons.py", "find_nested_alt_orfs.py": "/usr/local/bin/find_nested_alt_orfs.py", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/naltorfs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for naltorfs", "latest": {"0.1.2--pyhdfd78af_0": "sha256:f21d7b3334053076d21f4c718fc73796882f68fb93d9b40b9a9a2ff33c3c171a"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:f21d7b3334053076d21f4c718fc73796882f68fb93d9b40b9a9a2ff33c3c171a", "0.1.2": "sha256:0c477b8d52711aad0ec3d95cb7a4e7ba205cc7264965a847c5c452dae7d54aec"}, "docker": "quay.io/biocontainers/naltorfs", "aliases": {"bicodon_counts_from_fasta.py": "/usr/local/bin/bicodon_counts_from_fasta.py", "codon_freq_from_bicodons.py": "/usr/local/bin/codon_freq_from_bicodons.py", "find_nested_alt_orfs.py": "/usr/local/bin/find_nested_alt_orfs.py", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/naltorfs.

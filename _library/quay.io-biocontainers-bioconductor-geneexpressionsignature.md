@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geneexpressionsignature"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geneexpressionsignature/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geneexpressionsignature/container.yaml"
-updated_at: "2024-04-13 02:17:52.457928"
+updated_at: "2024-04-14 03:20:11.722218"
 latest: "1.48.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geneexpressionsignature"
 

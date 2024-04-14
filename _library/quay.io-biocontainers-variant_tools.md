@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/variant_tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/variant_tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/variant_tools/container.yaml"
-updated_at: "2024-04-13 02:29:00.257524"
+updated_at: "2024-04-14 03:31:23.165899"
 latest: "3.1.3--py36ha7febfa_2"
 container_url: "https://biocontainers.pro/tools/variant_tools"
 aliases:
@@ -23,8 +23,9 @@ aliases:
  - "python3.6"
 versions:
  - "3.1.3--py36ha7febfa_2"
+ - "3.1.3--py38hd52fbc2_2"
 description: "shpc-registry automated BioContainers addition for variant_tools"
-config: {"url": "https://biocontainers.pro/tools/variant_tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for variant_tools", "latest": {"3.1.3--py36ha7febfa_2": "sha256:4b20ba746976b8ddb3c36d7df5c6177a0aa6706ac1789db3171d3db8c4935a91"}, "tags": {"3.1.3--py36ha7febfa_2": "sha256:4b20ba746976b8ddb3c36d7df5c6177a0aa6706ac1789db3171d3db8c4935a91"}, "docker": "quay.io/biocontainers/variant_tools", "aliases": {"vtools": "/usr/local/bin/vtools", "vtools_report": "/usr/local/bin/vtools_report", "worker_run": "/usr/local/bin/worker_run", "curve_keygen": "/usr/local/bin/curve_keygen", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
+config: {"url": "https://biocontainers.pro/tools/variant_tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for variant_tools", "latest": {"3.1.3--py36ha7febfa_2": "sha256:4b20ba746976b8ddb3c36d7df5c6177a0aa6706ac1789db3171d3db8c4935a91"}, "tags": {"3.1.3--py36ha7febfa_2": "sha256:4b20ba746976b8ddb3c36d7df5c6177a0aa6706ac1789db3171d3db8c4935a91", "3.1.3--py38hd52fbc2_2": "sha256:4e323e5da6ab9d07228f9d747432bf20dec5846db41816ad92c03dbdfea9c6a1"}, "docker": "quay.io/biocontainers/variant_tools", "aliases": {"vtools": "/usr/local/bin/vtools", "vtools_report": "/usr/local/bin/vtools_report", "worker_run": "/usr/local/bin/worker_run", "curve_keygen": "/usr/local/bin/curve_keygen", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/variant_tools.

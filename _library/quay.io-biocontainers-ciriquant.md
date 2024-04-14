@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ciriquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ciriquant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ciriquant/container.yaml"
-updated_at: "2024-04-13 02:21:46.152490"
+updated_at: "2024-04-14 03:24:06.232911"
 latest: "1.1.2--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/ciriquant"
 aliases:

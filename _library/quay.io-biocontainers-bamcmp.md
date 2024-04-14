@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamcmp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamcmp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamcmp/container.yaml"
-updated_at: "2024-04-13 02:33:02.068757"
+updated_at: "2024-04-14 03:35:24.943537"
 latest: "2.2--h28e74a2_2"
 container_url: "https://biocontainers.pro/tools/bamcmp"
 aliases:
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "2.2--h28e74a2_2"
  - "2.2"
+ - "2.2--h4ac6f70_5"
 description: "shpc-registry automated BioContainers addition for bamcmp"
-config: {"url": "https://biocontainers.pro/tools/bamcmp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamcmp", "latest": {"2.2--h28e74a2_2": "sha256:b897fa18e68b331cf9fe6c1128e5fd8ccf51fc3d3d545608ee43f412f77ebbce"}, "tags": {"2.2--h28e74a2_2": "sha256:b897fa18e68b331cf9fe6c1128e5fd8ccf51fc3d3d545608ee43f412f77ebbce", "2.2": "sha256:851ad4da01db7dfba50e4d01774f9ccf3660209d24e2ef5a1886ea0aee65f950"}, "docker": "quay.io/biocontainers/bamcmp", "aliases": {"bamcmp": "/usr/local/bin/bamcmp", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/bamcmp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamcmp", "latest": {"2.2--h28e74a2_2": "sha256:b897fa18e68b331cf9fe6c1128e5fd8ccf51fc3d3d545608ee43f412f77ebbce"}, "tags": {"2.2--h28e74a2_2": "sha256:b897fa18e68b331cf9fe6c1128e5fd8ccf51fc3d3d545608ee43f412f77ebbce", "2.2": "sha256:851ad4da01db7dfba50e4d01774f9ccf3660209d24e2ef5a1886ea0aee65f950", "2.2--h4ac6f70_5": "sha256:dd0b35a792afb005a99540d713a5df07ee7de1a8b7ef4722214128a36ae2b9e4"}, "docker": "quay.io/biocontainers/bamcmp", "aliases": {"bamcmp": "/usr/local/bin/bamcmp", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamcmp.

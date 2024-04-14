@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-kmsurv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-kmsurv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-kmsurv/container.yaml"
-updated_at: "2024-04-13 02:24:48.358856"
+updated_at: "2024-04-14 03:27:10.201843"
 latest: "0.1_5--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-kmsurv"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.1_5--r3.3.2_0"
+ - "0.1_5--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-kmsurv"
-config: {"url": "https://biocontainers.pro/tools/r-kmsurv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-kmsurv", "latest": {"0.1_5--r3.3.2_0": "sha256:dfb64bca86e6ceaae626e9e879d757c85c5e55a219c18590aeff96d78b173e1a"}, "tags": {"0.1_5--r3.3.2_0": "sha256:dfb64bca86e6ceaae626e9e879d757c85c5e55a219c18590aeff96d78b173e1a"}, "docker": "quay.io/biocontainers/r-kmsurv", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-kmsurv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-kmsurv", "latest": {"0.1_5--r3.3.2_0": "sha256:dfb64bca86e6ceaae626e9e879d757c85c5e55a219c18590aeff96d78b173e1a"}, "tags": {"0.1_5--r3.3.2_0": "sha256:dfb64bca86e6ceaae626e9e879d757c85c5e55a219c18590aeff96d78b173e1a", "0.1_5--r3.4.1_0": "sha256:58b15420c6146060fcb503489768ba117a947ba1bde5f78317f2d364703bcd85"}, "docker": "quay.io/biocontainers/r-kmsurv", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-kmsurv.

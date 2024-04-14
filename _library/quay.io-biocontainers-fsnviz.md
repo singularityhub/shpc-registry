@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fsnviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fsnviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fsnviz/container.yaml"
-updated_at: "2024-04-13 02:37:16.270622"
-latest: "0.3.0--pyhdfd78af_5"
+updated_at: "2024-04-14 03:39:38.730422"
+latest: "0.3.0--pyhdfd78af_6"
 container_url: "https://biocontainers.pro/tools/fsnviz"
 aliases:
  - "crimson"
@@ -22,8 +22,9 @@ aliases:
  - "gd2copypal"
 versions:
  - "0.3.0--pyhdfd78af_5"
+ - "0.3.0--pyhdfd78af_6"
 description: "shpc-registry automated BioContainers addition for fsnviz"
-config: {"url": "https://biocontainers.pro/tools/fsnviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fsnviz", "latest": {"0.3.0--pyhdfd78af_5": "sha256:c51d8d331c80929b4d5d87ca1326687e422e703bdae195cffc83a04c058dece4"}, "tags": {"0.3.0--pyhdfd78af_5": "sha256:c51d8d331c80929b4d5d87ca1326687e422e703bdae195cffc83a04c058dece4"}, "docker": "quay.io/biocontainers/fsnviz", "aliases": {"crimson": "/usr/local/bin/crimson", "fsnviz": "/usr/local/bin/fsnviz", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "gddiag": "/usr/local/bin/gddiag", "list.modules": "/usr/local/bin/list.modules", "test.modules": "/usr/local/bin/test.modules", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal"}}
+config: {"url": "https://biocontainers.pro/tools/fsnviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fsnviz", "latest": {"0.3.0--pyhdfd78af_6": "sha256:b9d2dae790a3756aef203f2ad092a5de53d55ce790fdaca4dfb36d9aad0deb1a"}, "tags": {"0.3.0--pyhdfd78af_5": "sha256:c51d8d331c80929b4d5d87ca1326687e422e703bdae195cffc83a04c058dece4", "0.3.0--pyhdfd78af_6": "sha256:b9d2dae790a3756aef203f2ad092a5de53d55ce790fdaca4dfb36d9aad0deb1a"}, "docker": "quay.io/biocontainers/fsnviz", "aliases": {"crimson": "/usr/local/bin/crimson", "fsnviz": "/usr/local/bin/fsnviz", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "gddiag": "/usr/local/bin/gddiag", "list.modules": "/usr/local/bin/list.modules", "test.modules": "/usr/local/bin/test.modules", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fsnviz.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/fsnviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fsnviz:0.3.0--pyhdfd78af_5
+$ shpc install quay.io/biocontainers/fsnviz:0.3.0--pyhdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fsnviz/0.3.0--pyhdfd78af_5
-$ module help quay.io/biocontainers/fsnviz/0.3.0--pyhdfd78af_5
+$ module load quay.io/biocontainers/fsnviz/0.3.0--pyhdfd78af_6
+$ module help quay.io/biocontainers/fsnviz/0.3.0--pyhdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

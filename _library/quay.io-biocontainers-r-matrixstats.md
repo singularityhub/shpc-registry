@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-matrixstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-matrixstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-matrixstats/container.yaml"
-updated_at: "2024-04-13 02:36:32.934300"
+updated_at: "2024-04-14 03:38:55.214275"
 latest: "0.51.0--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-matrixstats"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.51.0--r3.3.1_1"
+ - "0.51.0--r3.3.2_1"
 description: "shpc-registry automated BioContainers addition for r-matrixstats"
-config: {"url": "https://biocontainers.pro/tools/r-matrixstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-matrixstats", "latest": {"0.51.0--r3.3.1_1": "sha256:793bba72eb8fa3577c65477951c02f41137f1fdf7705579de74e12d2ac64a2c4"}, "tags": {"0.51.0--r3.3.1_1": "sha256:793bba72eb8fa3577c65477951c02f41137f1fdf7705579de74e12d2ac64a2c4"}, "docker": "quay.io/biocontainers/r-matrixstats", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-matrixstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-matrixstats", "latest": {"0.51.0--r3.3.1_1": "sha256:793bba72eb8fa3577c65477951c02f41137f1fdf7705579de74e12d2ac64a2c4"}, "tags": {"0.51.0--r3.3.1_1": "sha256:793bba72eb8fa3577c65477951c02f41137f1fdf7705579de74e12d2ac64a2c4", "0.51.0--r3.3.2_1": "sha256:a3f7be82429e36386d68c5f6f2588f238af7a8d9a803ae339c9212a027e56d6d"}, "docker": "quay.io/biocontainers/r-matrixstats", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-matrixstats.
