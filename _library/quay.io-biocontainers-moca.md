@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/moca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/moca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/moca/container.yaml"
-updated_at: "2024-04-15 04:46:30.945500"
+updated_at: "2024-04-15 06:34:11.661786"
 latest: "0.4.3--py_1"
 container_url: "https://biocontainers.pro/tools/moca"
 aliases:

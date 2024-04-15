@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methylseekr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylseekr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylseekr/container.yaml"
-updated_at: "2024-04-15 04:42:41.686990"
+updated_at: "2024-04-15 06:30:28.779497"
 latest: "1.42.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylseekr"
 

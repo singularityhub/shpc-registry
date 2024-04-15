@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/soapdenovo2-prepare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soapdenovo2-prepare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soapdenovo2-prepare/container.yaml"
-updated_at: "2024-04-15 04:10:28.903083"
+updated_at: "2024-04-15 05:57:42.676125"
 latest: "2.0--he4a0461_8"
 container_url: "https://biocontainers.pro/tools/soapdenovo2-prepare"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-compcoder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-compcoder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-compcoder/container.yaml"
-updated_at: "2024-04-15 04:23:08.420414"
+updated_at: "2024-04-15 06:10:25.832649"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-compcoder"
 

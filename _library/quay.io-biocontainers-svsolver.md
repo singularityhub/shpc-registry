@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svsolver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svsolver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svsolver/container.yaml"
-updated_at: "2024-04-15 04:40:57.430373"
+updated_at: "2024-04-15 06:28:46.572466"
 latest: "2022.07.20--mpich_h7252990_0"
 container_url: "https://biocontainers.pro/tools/svsolver"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/phist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/phist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/phist/container.yaml"
-updated_at: "2024-04-15 04:53:37.597273"
+updated_at: "2024-04-15 06:41:04.399376"
 latest: "1.9.6"
 container_url: "https://github.com/orgs/autamus/packages/container/package/phist"
 aliases:

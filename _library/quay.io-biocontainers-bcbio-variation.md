@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcbio-variation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcbio-variation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcbio-variation/container.yaml"
-updated_at: "2024-04-15 04:24:12.498897"
+updated_at: "2024-04-15 06:11:31.084553"
 latest: "0.2.6--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/bcbio-variation"
 aliases:

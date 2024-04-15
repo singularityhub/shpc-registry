@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-phenomis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phenomis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phenomis/container.yaml"
-updated_at: "2024-04-15 04:18:13.635796"
+updated_at: "2024-04-15 06:05:23.186263"
 latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phenomis"
 aliases:
