@@ -5,6 +5,7 @@ latest:
   3.33.0: sha256:8d3aba438a721ce57ac824e1b726f5f9b6e2526b82c8dca38b3c2a07b5fb78e8
 tags:
   3.33.0: sha256:8d3aba438a721ce57ac824e1b726f5f9b6e2526b82c8dca38b3c2a07b5fb78e8
+  '3': sha256:ffd74d14e51fe543ae7599c86b1411d8cc146c4608f8a1799c1cdfd38f4cf53d
 docker: quay.io/biocontainers/sqlite
 aliases:
   sqlite3: /usr/local/bin/sqlite3

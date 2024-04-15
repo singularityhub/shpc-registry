@@ -5,6 +5,7 @@ latest:
   0.3--0: sha256:3bde49fdb0ff0bb2ad6b64483acd5be92ab520253e359e0ee7009819d6762fa0
 tags:
   0.3--0: sha256:3bde49fdb0ff0bb2ad6b64483acd5be92ab520253e359e0ee7009819d6762fa0
+  0.3--hdfd78af_0: sha256:500ec2ec8ea9c9c73538c49ae53e50a4fbb4ad7988b32fbc6f9c77e44dcb034c
 docker: quay.io/biocontainers/dipcall
 aliases:
   bedtk: /usr/local/bin/bedtk

@@ -5,6 +5,7 @@ latest:
   1.7.2--r3.2.2_0: sha256:7594fe05c59cea7cdea9c32d9f3fbd8ac7d35d068ac90717145b3de4f8d94acc
 tags:
   1.7.2--r3.2.2_0: sha256:7594fe05c59cea7cdea9c32d9f3fbd8ac7d35d068ac90717145b3de4f8d94acc
+  1.7.2--r3.3.2_0: sha256:10ed231d1ee3dff7aa8f9923157829ea02ec251eee874cf38a12a2c3bbca623d
 docker: quay.io/biocontainers/r-calibrate
 aliases:
   pngcp: /usr/local/bin/pngcp

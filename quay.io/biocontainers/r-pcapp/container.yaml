@@ -5,6 +5,7 @@ latest:
   1.9_60--r3.2.2_0: sha256:cb9cc747548303c93b0d1c6fdfa14e2c80b1df752d558c99575462eda8121dfe
 tags:
   1.9_60--r3.2.2_0: sha256:cb9cc747548303c93b0d1c6fdfa14e2c80b1df752d558c99575462eda8121dfe
+  1.9_60--r3.3.2_0: sha256:ed5d9fbe8d1a415864c90c4514f177fe887b8c8f617e4f6a236a3527d551a9db
 docker: quay.io/biocontainers/r-pcapp
 aliases:
   pngcp: /usr/local/bin/pngcp

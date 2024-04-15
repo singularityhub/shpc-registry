@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bamtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bamtools
 latest:
-  2.5.2--hdcf5f25_2: sha256:2a6a12c50661287d5605d04e1ab7a67fe9b15994fac26371b52099fd5c59166a
+  2.5.2--hdcf5f25_3: sha256:b4009a6dcec42401b9574902a917c79e955af0f54bf6d14456d2db8dd759f2f7
 tags:
   2.5.2--hd03093a_0: sha256:599e39895bf24cd8cbbccda2a09609dc54435523298147d872267d94dfa19804
   2.5.2--hd03093a_1: sha256:9eb87f5ff78176c78fab5677976373ab86cabf9ddb0b1ae764ad4009858f417f
   2.5.2--hdcf5f25_2: sha256:2a6a12c50661287d5605d04e1ab7a67fe9b15994fac26371b52099fd5c59166a
+  2.5.2--hdcf5f25_3: sha256:b4009a6dcec42401b9574902a917c79e955af0f54bf6d14456d2db8dd759f2f7
 docker: quay.io/biocontainers/bamtools
 aliases:
   bamtools: /usr/local/bin/bamtools

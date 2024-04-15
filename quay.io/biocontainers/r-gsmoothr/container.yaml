@@ -5,6 +5,7 @@ latest:
   0.1.7--r3.3.1_0: sha256:1fc99803a525008b2a47a85046ff3b2382ab39042118a0aa3bc211974bf87393
 tags:
   0.1.7--r3.3.1_0: sha256:1fc99803a525008b2a47a85046ff3b2382ab39042118a0aa3bc211974bf87393
+  0.1.7--r3.4.1_0: sha256:76655b4591da9e71c9fd44ae095e850d0058e27a956dc5f5869071ef005b256f
 docker: quay.io/biocontainers/r-gsmoothr
 aliases:
   uconv: /usr/local/bin/uconv

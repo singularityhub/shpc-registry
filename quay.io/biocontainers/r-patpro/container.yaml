@@ -5,6 +5,7 @@ latest:
   1.1.0--r3.3.1_0: sha256:feb2e10f4804b30c1829ae48db58f8cc060a6d1fb083e257c2b910e4c1c369fd
 tags:
   1.1.0--r3.3.1_0: sha256:feb2e10f4804b30c1829ae48db58f8cc060a6d1fb083e257c2b910e4c1c369fd
+  1.1.0--r3.4.1_0: sha256:b0eed01a1e912f15f841e3e9286d996a6d4623cb45c3419e6a4e852286bc6a89
 docker: quay.io/biocontainers/r-patpro
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff
