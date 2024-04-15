@@ -4,14 +4,18 @@ name:  "quay.io/biocontainers/meme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/meme/container.yaml"
-updated_at: "2024-04-14 03:59:27.484007"
-latest: "5.1.1--py36pl526ha39971a_2"
+updated_at: "2024-04-15 04:51:16.194800"
+latest: "5.5.5--pl5321hda358d9_0"
 container_url: "https://biocontainers.pro/tools/meme"
 
 versions:
  - "5.1.1--py36pl526ha39971a_2"
+ - "5.5.5--pl5321hda358d9_0"
+ - "5.4.1--py310pl5321hb021246_2"
+ - "5.3.0--py37pl5262h2b62359_2"
+ - "5.1.1--py38pl526hc1f1133_3"
 description: "shpc-registry automated BioContainers addition for meme"
-config: {"url": "https://biocontainers.pro/tools/meme", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for meme", "latest": {"5.1.1--py36pl526ha39971a_2": "sha256:e3e0b38a966ff909ceb573fa9072399c27eed5266f2a02ca9875a6f04461b1a4"}, "tags": {"5.1.1--py36pl526ha39971a_2": "sha256:e3e0b38a966ff909ceb573fa9072399c27eed5266f2a02ca9875a6f04461b1a4"}, "docker": "quay.io/biocontainers/meme"}
+config: {"url": "https://biocontainers.pro/tools/meme", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for meme", "latest": {"5.5.5--pl5321hda358d9_0": "sha256:5a7a2c7ba931e310f132c7d94aa7505fa0ad717d159011d49881c72fd1ec3c2a"}, "tags": {"5.1.1--py36pl526ha39971a_2": "sha256:e3e0b38a966ff909ceb573fa9072399c27eed5266f2a02ca9875a6f04461b1a4", "5.5.5--pl5321hda358d9_0": "sha256:5a7a2c7ba931e310f132c7d94aa7505fa0ad717d159011d49881c72fd1ec3c2a", "5.4.1--py310pl5321hb021246_2": "sha256:a6183efb91c299ca6c5ae59a7ac202c18b7d1c6ee4ac1c4d7fd497fd43665f4b", "5.3.0--py37pl5262h2b62359_2": "sha256:9a3aca0b5701137e40e0bf8345a608a0611e31d1f87dd2d2db059d1be8690424", "5.1.1--py38pl526hc1f1133_3": "sha256:fe700133e60700fef230f1dc661f079b968f9179b193b4602bfba185dd31c4b0"}, "docker": "quay.io/biocontainers/meme"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/meme.
@@ -26,7 +30,7 @@ $ shpc install quay.io/biocontainers/meme
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/meme:5.1.1--py36pl526ha39971a_2
+$ shpc install quay.io/biocontainers/meme:5.5.5--pl5321hda358d9_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/meme/5.1.1--py36pl526ha39971a_2
-$ module help quay.io/biocontainers/meme/5.1.1--py36pl526ha39971a_2
+$ module load quay.io/biocontainers/meme/5.5.5--pl5321hda358d9_0
+$ module help quay.io/biocontainers/meme/5.5.5--pl5321hda358d9_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

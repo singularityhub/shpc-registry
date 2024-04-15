@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pmx_biobb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pmx_biobb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pmx_biobb/container.yaml"
-updated_at: "2024-04-14 03:59:23.434631"
+updated_at: "2024-04-15 04:51:11.835341"
 latest: "4.1.3--py37ha2f2a80_1"
 container_url: "https://biocontainers.pro/tools/pmx_biobb"
 aliases:
@@ -25,8 +25,9 @@ versions:
  - "3.0.3--py310h8537716_4"
  - "4.1.3--py37ha2f2a80_1"
  - "4.0.2--py310h95c5ba8_0"
+ - "4.0.2--py38h0928705_0"
 description: "shpc-registry automated BioContainers addition for pmx_biobb"
-config: {"url": "https://biocontainers.pro/tools/pmx_biobb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pmx_biobb", "latest": {"4.1.3--py37ha2f2a80_1": "sha256:278cf4b2c77a7084879ec355989b49fdadf7c0db231baee4a351d49cced82c64"}, "tags": {"1.0.0--py37hc94c342_3": "sha256:131e2e50a98da7e1dfe8d1f4c33e80d3cf1ef6d5c87486115800d4252a38e12d", "2.0.0--py37h1aed7a7_2": "sha256:b1cbde276643af57a90c86ddb13bc63546a3098d9b555d97d815265ba663e92f", "3.0.3--py310h8537716_4": "sha256:1393d4751b3962a9000fecdd30c09495c9c153096a3246911d5fe5c4db994217", "4.1.3--py37ha2f2a80_1": "sha256:278cf4b2c77a7084879ec355989b49fdadf7c0db231baee4a351d49cced82c64", "4.0.2--py310h95c5ba8_0": "sha256:ff09c3f07f56190e9b15cdc4bd778f8127835828920d198a646e73fe96a1a9c7"}, "docker": "quay.io/biocontainers/pmx_biobb", "aliases": {"pmx": "/usr/local/bin/pmx", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.7": "/usr/local/bin/f2py3.7", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp"}}
+config: {"url": "https://biocontainers.pro/tools/pmx_biobb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pmx_biobb", "latest": {"4.1.3--py37ha2f2a80_1": "sha256:278cf4b2c77a7084879ec355989b49fdadf7c0db231baee4a351d49cced82c64"}, "tags": {"1.0.0--py37hc94c342_3": "sha256:131e2e50a98da7e1dfe8d1f4c33e80d3cf1ef6d5c87486115800d4252a38e12d", "2.0.0--py37h1aed7a7_2": "sha256:b1cbde276643af57a90c86ddb13bc63546a3098d9b555d97d815265ba663e92f", "3.0.3--py310h8537716_4": "sha256:1393d4751b3962a9000fecdd30c09495c9c153096a3246911d5fe5c4db994217", "4.1.3--py37ha2f2a80_1": "sha256:278cf4b2c77a7084879ec355989b49fdadf7c0db231baee4a351d49cced82c64", "4.0.2--py310h95c5ba8_0": "sha256:ff09c3f07f56190e9b15cdc4bd778f8127835828920d198a646e73fe96a1a9c7", "4.0.2--py38h0928705_0": "sha256:44183bd3dc361c176dd4489dcd73fcc60df2b36fce8a60c2bed73a8ea30a9b85"}, "docker": "quay.io/biocontainers/pmx_biobb", "aliases": {"pmx": "/usr/local/bin/pmx", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.7": "/usr/local/bin/f2py3.7", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pmx_biobb.

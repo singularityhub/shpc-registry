@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-number-misc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-number-misc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-number-misc/container.yaml"
-updated_at: "2024-04-14 03:51:27.013551"
+updated_at: "2024-04-15 04:42:47.156492"
 latest: "1.2--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-number-misc"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyopal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyopal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyopal/container.yaml"
-updated_at: "2024-04-14 03:28:54.569761"
+updated_at: "2024-04-15 04:19:55.787156"
 latest: "0.5.2--py38hcbe9525_0"
 container_url: "https://biocontainers.pro/tools/pyopal"
 aliases:
@@ -20,8 +20,11 @@ versions:
  - "0.4.1--py38hcbe9525_0"
  - "0.5.1--py310h068649b_0"
  - "0.5.2--py38hcbe9525_0"
+ - "0.5.2--py39he10ea66_0"
+ - "0.4.1--py310h068649b_0"
+ - "0.3.0--py310h068649b_0"
 description: "singularity registry hpc automated addition for pyopal"
-config: {"url": "https://biocontainers.pro/tools/pyopal", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyopal", "latest": {"0.5.2--py38hcbe9525_0": "sha256:22399d1c986fdeef504bd3cf8099e3abbf21948cc3463859ff4becb8aecef9ba"}, "tags": {"0.3.0--py38hcbe9525_0": "sha256:f40fa611d0a9f2b710641934b5285ff8aa5d614145eabde81e34673223b947db", "0.4.0--py39he10ea66_0": "sha256:b563fc9590cb1cf13374ddf8e5782e258ffd8db832fb916a7257bf01a9f1a238", "0.4.1--py38hcbe9525_0": "sha256:a215607eba82ca074619fb0ca71861fe159c06f2ac01640009fa1e359128077b", "0.5.1--py310h068649b_0": "sha256:903d33d5abb353a4740ea1c63fae5b66e6c514101e8a7a0e68a322b32f1559a8", "0.5.2--py38hcbe9525_0": "sha256:22399d1c986fdeef504bd3cf8099e3abbf21948cc3463859ff4becb8aecef9ba"}, "docker": "quay.io/biocontainers/pyopal", "aliases": {"archspec": "/usr/local/bin/archspec", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyopal", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyopal", "latest": {"0.5.2--py38hcbe9525_0": "sha256:22399d1c986fdeef504bd3cf8099e3abbf21948cc3463859ff4becb8aecef9ba"}, "tags": {"0.3.0--py38hcbe9525_0": "sha256:f40fa611d0a9f2b710641934b5285ff8aa5d614145eabde81e34673223b947db", "0.4.0--py39he10ea66_0": "sha256:b563fc9590cb1cf13374ddf8e5782e258ffd8db832fb916a7257bf01a9f1a238", "0.4.1--py38hcbe9525_0": "sha256:a215607eba82ca074619fb0ca71861fe159c06f2ac01640009fa1e359128077b", "0.5.1--py310h068649b_0": "sha256:903d33d5abb353a4740ea1c63fae5b66e6c514101e8a7a0e68a322b32f1559a8", "0.5.2--py38hcbe9525_0": "sha256:22399d1c986fdeef504bd3cf8099e3abbf21948cc3463859ff4becb8aecef9ba", "0.5.2--py39he10ea66_0": "sha256:bc5e9b06b2e7360eaef2401a84fb2a447f77aae34ac989d21d89121a755dd43d", "0.4.1--py310h068649b_0": "sha256:b95bd19daaf527439652caec1ae573a8e625505522d69698360d3722eedbf8c4", "0.3.0--py310h068649b_0": "sha256:71e39c00f1db835247f47b632131b44ab2cabf475c63a582b58c303db25447de"}, "docker": "quay.io/biocontainers/pyopal", "aliases": {"archspec": "/usr/local/bin/archspec", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyopal.

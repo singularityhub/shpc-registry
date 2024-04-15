@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dipcall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dipcall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dipcall/container.yaml"
-updated_at: "2024-04-14 03:24:31.276283"
+updated_at: "2024-04-15 04:15:27.899099"
 latest: "0.3--0"
 container_url: "https://biocontainers.pro/tools/dipcall"
 aliases:
@@ -31,8 +31,9 @@ aliases:
  - "blast2sam.pl"
 versions:
  - "0.3--0"
+ - "0.3--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for dipcall"
-config: {"url": "https://biocontainers.pro/tools/dipcall", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dipcall", "latest": {"0.3--0": "sha256:3bde49fdb0ff0bb2ad6b64483acd5be92ab520253e359e0ee7009819d6762fa0"}, "tags": {"0.3--0": "sha256:3bde49fdb0ff0bb2ad6b64483acd5be92ab520253e359e0ee7009819d6762fa0"}, "docker": "quay.io/biocontainers/dipcall", "aliases": {"bedtk": "/usr/local/bin/bedtk", "dipcall-aux.js": "/usr/local/bin/dipcall-aux.js", "htsbox": "/usr/local/bin/htsbox", "meryl-analyze": "/usr/local/bin/meryl-analyze", "meryl-check": "/usr/local/bin/meryl-check", "meryl-import": "/usr/local/bin/meryl-import", "meryl-lookup": "/usr/local/bin/meryl-lookup", "meryl-simple": "/usr/local/bin/meryl-simple", "run-dipcall": "/usr/local/bin/run-dipcall", "unimap": "/usr/local/bin/unimap", "winnowmap": "/usr/local/bin/winnowmap", "meryl": "/usr/local/bin/meryl", "perl5.32.0": "/usr/local/bin/perl5.32.0", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/dipcall", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dipcall", "latest": {"0.3--0": "sha256:3bde49fdb0ff0bb2ad6b64483acd5be92ab520253e359e0ee7009819d6762fa0"}, "tags": {"0.3--0": "sha256:3bde49fdb0ff0bb2ad6b64483acd5be92ab520253e359e0ee7009819d6762fa0", "0.3--hdfd78af_0": "sha256:500ec2ec8ea9c9c73538c49ae53e50a4fbb4ad7988b32fbc6f9c77e44dcb034c"}, "docker": "quay.io/biocontainers/dipcall", "aliases": {"bedtk": "/usr/local/bin/bedtk", "dipcall-aux.js": "/usr/local/bin/dipcall-aux.js", "htsbox": "/usr/local/bin/htsbox", "meryl-analyze": "/usr/local/bin/meryl-analyze", "meryl-check": "/usr/local/bin/meryl-check", "meryl-import": "/usr/local/bin/meryl-import", "meryl-lookup": "/usr/local/bin/meryl-lookup", "meryl-simple": "/usr/local/bin/meryl-simple", "run-dipcall": "/usr/local/bin/run-dipcall", "unimap": "/usr/local/bin/unimap", "winnowmap": "/usr/local/bin/winnowmap", "meryl": "/usr/local/bin/meryl", "perl5.32.0": "/usr/local/bin/perl5.32.0", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dipcall.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-futile.logger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-futile.logger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-futile.logger/container.yaml"
-updated_at: "2024-04-14 03:17:54.425112"
+updated_at: "2024-04-15 04:08:41.221268"
 latest: "1.4.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-futile.logger"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.4.1--r3.2.2_0"
+ - "1.4.1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-futile.logger"
-config: {"url": "https://biocontainers.pro/tools/r-futile.logger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-futile.logger", "latest": {"1.4.1--r3.2.2_0": "sha256:3c51f3765815694c7b0ce446abe74d69126803035ef974b7eb8d2ca3f5af0840"}, "tags": {"1.4.1--r3.2.2_0": "sha256:3c51f3765815694c7b0ce446abe74d69126803035ef974b7eb8d2ca3f5af0840"}, "docker": "quay.io/biocontainers/r-futile.logger", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-futile.logger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-futile.logger", "latest": {"1.4.1--r3.2.2_0": "sha256:3c51f3765815694c7b0ce446abe74d69126803035ef974b7eb8d2ca3f5af0840"}, "tags": {"1.4.1--r3.2.2_0": "sha256:3c51f3765815694c7b0ce446abe74d69126803035ef974b7eb8d2ca3f5af0840", "1.4.1--r3.3.2_0": "sha256:c380ec6afa85f1081b3fa949fb77db954b5743e4ad629aec5d5d3a88db1fd748"}, "docker": "quay.io/biocontainers/r-futile.logger", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-futile.logger.

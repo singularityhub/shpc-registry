@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-river"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-river/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-river/container.yaml"
-updated_at: "2024-04-14 03:57:41.921700"
+updated_at: "2024-04-15 04:49:24.378417"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-river"
 aliases:

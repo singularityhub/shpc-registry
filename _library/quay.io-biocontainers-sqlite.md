@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/sqlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sqlite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sqlite/container.yaml"
-updated_at: "2024-04-14 03:43:54.663192"
+updated_at: "2024-04-15 04:35:09.771378"
 latest: "3.33.0"
 container_url: "https://biocontainers.pro/tools/sqlite"
 aliases:
  - "sqlite3"
 versions:
  - "3.33.0"
+ - "3"
 description: "shpc-registry automated BioContainers addition for sqlite"
-config: {"url": "https://biocontainers.pro/tools/sqlite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sqlite", "latest": {"3.33.0": "sha256:8d3aba438a721ce57ac824e1b726f5f9b6e2526b82c8dca38b3c2a07b5fb78e8"}, "tags": {"3.33.0": "sha256:8d3aba438a721ce57ac824e1b726f5f9b6e2526b82c8dca38b3c2a07b5fb78e8"}, "docker": "quay.io/biocontainers/sqlite", "aliases": {"sqlite3": "/usr/local/bin/sqlite3"}}
+config: {"url": "https://biocontainers.pro/tools/sqlite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sqlite", "latest": {"3.33.0": "sha256:8d3aba438a721ce57ac824e1b726f5f9b6e2526b82c8dca38b3c2a07b5fb78e8"}, "tags": {"3.33.0": "sha256:8d3aba438a721ce57ac824e1b726f5f9b6e2526b82c8dca38b3c2a07b5fb78e8", "3": "sha256:ffd74d14e51fe543ae7599c86b1411d8cc146c4608f8a1799c1cdfd38f4cf53d"}, "docker": "quay.io/biocontainers/sqlite", "aliases": {"sqlite3": "/usr/local/bin/sqlite3"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sqlite.
