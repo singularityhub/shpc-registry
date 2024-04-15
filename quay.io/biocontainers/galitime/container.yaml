@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/galitime
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for galitime
+latest:
+  0.1.2--pyhdfd78af_0: sha256:c8d00cd6b18c562510a666cf783f75d5985269f4994b3d1ebe9f471bb1e0caae
+tags:
+  0.1.2--pyhdfd78af_0: sha256:c8d00cd6b18c562510a666cf783f75d5985269f4994b3d1ebe9f471bb1e0caae
+docker: quay.io/biocontainers/galitime
+aliases:
+  galitime: /usr/local/bin/galitime
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

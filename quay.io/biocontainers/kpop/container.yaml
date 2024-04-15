@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/kpop
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kpop
+latest:
+  1.1.1--h9ee0642_0: sha256:a8c5c0ed1011707c57f38fc55556a96234d94315cf3f2e590944f1c08aeda0cc
+tags:
+  1.1.1--h9ee0642_0: sha256:a8c5c0ed1011707c57f38fc55556a96234d94315cf3f2e590944f1c08aeda0cc
+docker: quay.io/biocontainers/kpop
+aliases:
+  KPopCount: /usr/local/bin/KPopCount
+  KPopCountDB: /usr/local/bin/KPopCountDB
+  KPopTwist: /usr/local/bin/KPopTwist
+  KPopTwistDB: /usr/local/bin/KPopTwistDB
+  KPopTwist_: /usr/local/bin/KPopTwist_
+  pcre2posix_test: /usr/local/bin/pcre2posix_test
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
