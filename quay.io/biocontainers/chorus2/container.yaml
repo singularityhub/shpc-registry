@@ -6,6 +6,7 @@ latest:
 tags:
   2.01--py39h09cc20e_1: sha256:83e1cb499bc45319d56cf3c220c2627b1e69b888fb245ca3d9808b85fcfbceae
   2.01--py39ha5a061d_2: sha256:c0d438171eec0982257498854e1654d889aa141cb713ddc8f0685b3472c62f2e
+  2.01--py39h079770c_2: sha256:d679473d3fec196439da49b956ead5502ba50bf78d5c07d5870a0f296f28aade
 docker: quay.io/biocontainers/chorus2
 aliases:
   Chorus2: /usr/local/bin/Chorus2

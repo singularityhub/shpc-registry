@@ -5,6 +5,7 @@ latest:
   0.5.1--py39hbf8eff0_0: sha256:83e74d99ff38403d2c8e30f092866c748a9f753c5764a29b153e44017c609e02
 tags:
   0.5.1--py39hbf8eff0_0: sha256:83e74d99ff38403d2c8e30f092866c748a9f753c5764a29b153e44017c609e02
+  0.5.1--py310h1425a21_0: sha256:b705e8788aec71e51a7808eb70be4985dbe707c27840cf11593cba0405b41811
 docker: quay.io/biocontainers/hesslab-gambit
 aliases:
   alembic: /usr/local/bin/alembic

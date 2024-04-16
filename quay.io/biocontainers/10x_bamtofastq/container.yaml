@@ -6,6 +6,7 @@ latest:
 tags:
   1.4.1--h87f3376_0: sha256:d17a4d02513ca386d2628f2c7e8eb6af0556e108f35d9d4b2b2a593394911981
   1.4.1: sha256:405ece97fda53a5e3e26a7d11171a3f46e86652c9aaaa02444f096efac450da5
+  1.4.1--hdbdd923_2: sha256:cccdfecf37a2ecd75a8c0a828e2e85e974252d6988c7100c7b47c9f14c2c4999
 docker: quay.io/biocontainers/10x_bamtofastq
 aliases:
   bamtofastq: /usr/local/bin/bamtofastq

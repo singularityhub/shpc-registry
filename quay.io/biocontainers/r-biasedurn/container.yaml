@@ -5,6 +5,7 @@ latest:
   1.07--r3.3.1_2: sha256:68fc6e6164fef6541c44861aa5b6697e29bbaf8e1e763e8c6e4b3981f35f25a1
 tags:
   1.07--r3.3.1_2: sha256:68fc6e6164fef6541c44861aa5b6697e29bbaf8e1e763e8c6e4b3981f35f25a1
+  1.07--r3.3.2_2: sha256:4f718c55008b9a42e78cd971d38322bf69e1b0b00a1e81ee73b044820c94f683
 docker: quay.io/biocontainers/r-biasedurn
 aliases:
   uconv: /usr/local/bin/uconv

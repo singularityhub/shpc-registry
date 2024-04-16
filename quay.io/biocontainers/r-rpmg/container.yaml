@@ -5,6 +5,7 @@ latest:
   2.2_1--r3.2.2_0: sha256:5dd7b8a2f56aa6c3976776c3bb730d30d8c0f9d64f72e76e39cf198e07eafa71
 tags:
   2.2_1--r3.2.2_0: sha256:5dd7b8a2f56aa6c3976776c3bb730d30d8c0f9d64f72e76e39cf198e07eafa71
+  2.2_1--r3.3.2_0: sha256:756fb95c1cf964efc0d4f86bfbefc51c1ea73cd4c7e6f4240924bdb1ce75f16c
 docker: quay.io/biocontainers/r-rpmg
 aliases:
   pngcp: /usr/local/bin/pngcp

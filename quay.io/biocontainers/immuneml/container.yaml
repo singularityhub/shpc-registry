@@ -11,6 +11,7 @@ tags:
   2.2.4--py38he5da3d1_1: sha256:be75abc673b23f2ea4018863d80056eff57a390a4ebc80992b6e7cd9d4020593
   2.2.5--py39hf95cd2a_1: sha256:38b71ffbdfabcc443e20e06ad9fa62e64d3a18be23ffaf82a926b28429fbe058
   2.2.6--py38he5da3d1_0: sha256:2e01a8e85a254a88003e8b30f7ffcca20ef124b8a6c270a1ef076c52f77aaad6
+  2.2.6--py39hf95cd2a_0: sha256:44351c8d27e92462fc038d42231d8e394b8402a81004b723a0a1784133425321
 docker: quay.io/biocontainers/immuneml
 aliases:
   airr-tools: /usr/local/bin/airr-tools

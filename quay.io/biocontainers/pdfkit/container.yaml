@@ -5,6 +5,7 @@ latest:
   0.6.1--py36_0: sha256:88393462de8fc7ec9e678cb4870a5b6f0370d18695b2434af8564d9c0f8b62ff
 tags:
   0.6.1--py36_0: sha256:88393462de8fc7ec9e678cb4870a5b6f0370d18695b2434af8564d9c0f8b62ff
+  0.6.1--py27_0: sha256:b01bc3bb1c480792297329a465c1d80b84e50ac3298aa916cb53b3f32afef5f2
 docker: quay.io/biocontainers/pdfkit
 aliases:
   wkhtmltoimage: /usr/local/bin/wkhtmltoimage

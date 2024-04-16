@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/hifihla
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hifihla
 latest:
-  0.2.3--hdfd78af_0: sha256:90a0fd81202c4bc91a8abdbd43cdf9bc679ed7b6ceeee599b496b49e0d2010cd
+  0.3.1--hdfd78af_0: sha256:0a3807a7d5537293c3456ce03dcd1fa39a013bd3235e15c798821584c37736e4
 tags:
   0.2.2--hdfd78af_0: sha256:f5efb93d34dea99aed8d8de49295279ee7685b6ce84a57b16f2008be5af8b0ac
   0.2.3--hdfd78af_0: sha256:90a0fd81202c4bc91a8abdbd43cdf9bc679ed7b6ceeee599b496b49e0d2010cd
+  0.3.1--hdfd78af_0: sha256:0a3807a7d5537293c3456ce03dcd1fa39a013bd3235e15c798821584c37736e4
 docker: quay.io/biocontainers/hifihla
 aliases:
   hifihla: /usr/local/bin/hifihla

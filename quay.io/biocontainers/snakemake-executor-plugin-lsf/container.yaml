@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/snakemake-executor-plugin-lsf
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snakemake-executor-plugin-lsf
 latest:
-  0.2.2--pyhdfd78af_0: sha256:62c97160a1dea52fddae540cd151fc72fb4841082e30fdac2a77a54cc97571e5
+  0.2.3--pyhdfd78af_0: sha256:20feb3f699b45ff704af221cf1281bf1b3accccf5ee00adaee1e2f6f0f00523e
 tags:
   0.2.2--pyhdfd78af_0: sha256:62c97160a1dea52fddae540cd151fc72fb4841082e30fdac2a77a54cc97571e5
+  0.2.3--pyhdfd78af_0: sha256:20feb3f699b45ff704af221cf1281bf1b3accccf5ee00adaee1e2f6f0f00523e
 docker: quay.io/biocontainers/snakemake-executor-plugin-lsf
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

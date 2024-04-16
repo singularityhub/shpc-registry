@@ -5,6 +5,7 @@ latest:
   0.16--r3.3.2_0: sha256:51fdb3126c4e103ed7034ce69bfc4c6764c500630e4508b43d8b1d4ca3ddbad2
 tags:
   0.16--r3.3.2_0: sha256:51fdb3126c4e103ed7034ce69bfc4c6764c500630e4508b43d8b1d4ca3ddbad2
+  0.16--r3.4.1_0: sha256:931fc9619aadb49abe00bac40f61bf402438f4b5948d64a691468bf468ab4567
 docker: quay.io/biocontainers/r-mlgt
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

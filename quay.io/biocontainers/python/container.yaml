@@ -9,4 +9,5 @@ tags:
   '3.10': sha256:f6b44640f06e8265ebf5ce85ca12cea53af110c188d6b4acf5f59887c24abb8f
   '3.9': sha256:c6b961c4c7bbfedddc8bbce9431ce550621c4fe526bb0f11a73c314507ec730d
   '3.12': sha256:29fccb317d61a9d09ecf432f63bfea512b98f0f3bc3764dc65fbdbc0f02473b5
+  3.10.4: sha256:6745f24775c46d74a7c6e0f9d9b3b4cb3b14cadf531e9670f8b2fa26d1dbc637
 docker: quay.io/biocontainers/python

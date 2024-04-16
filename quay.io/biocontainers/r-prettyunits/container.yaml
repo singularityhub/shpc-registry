@@ -5,6 +5,7 @@ latest:
   1.0.2--r3.3.1_0: sha256:0bce126183156aaeb86b97fdf3faa486923163bf863f614d1e13e8a8083776a4
 tags:
   1.0.2--r3.3.1_0: sha256:0bce126183156aaeb86b97fdf3faa486923163bf863f614d1e13e8a8083776a4
+  1.0.2--r3.3.2_0: sha256:bddb785a9582a03e04eb8ea24522280785c8ae9ba416fd9e3536666b0a25a6f6
 docker: quay.io/biocontainers/r-prettyunits
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

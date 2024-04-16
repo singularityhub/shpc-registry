@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-basejump
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-basejump
 latest:
-  0.14.17--r41hdfd78af_2: sha256:1f245e059fb6c0f1eb7620c33eca863ddcab9e7b996174a48206b34d4d20323e
+  0.18.0--r43hdfd78af_1: sha256:db8774079fc75102adace21b1890b659d65f78ac697d7455fa3f19b734d37649
 tags:
   0.9.9--r351_0: sha256:01eaf445ae38a81bac6793680bfc751cdae1827beac4b05756e107c75e4e4bf4
   0.14.17--r41hdfd78af_2: sha256:1f245e059fb6c0f1eb7620c33eca863ddcab9e7b996174a48206b34d4d20323e
@@ -10,6 +10,11 @@ tags:
   0.12.16--r40_0: sha256:7c3fcd7e02d85c733b7ef78928bc93bd085279ea89fd460ebbc5fdd60b5a1dbb
   0.11.23--r36_0: sha256:3d8672de50c4fa3d027f990578c2c2f43bd4c4c5543b1dd387b87f36035431b1
   0.10.9--r351_1: sha256:b65c3d891f0a2253aa57d18ed985d51347d81090511b15c42e4711d7e9da2d43
+  0.18.0--r43hdfd78af_1: sha256:db8774079fc75102adace21b1890b659d65f78ac697d7455fa3f19b734d37649
+  0.17.0--r43hdfd78af_1: sha256:4559c56ae3fd6133bcd8b49450b7c16f5f26f6529f08e24601af808c0bea2426
+  0.16.5--r42hdfd78af_1: sha256:beb290528a3dfc9a8a1b6e0b3ac307aa33285eaaa0bbd9a1228b1639f7779289
+  0.15.0--r41hdfd78af_0: sha256:ac3aac61ec74895c33b45761438ebbc34754e2be841c53318193758f9a4b028c
+  0.14.23--r41hdfd78af_0: sha256:1aba157511543c69c78d847c8de465951d9054cf45ed9effc9ed64e90348b815
 docker: quay.io/biocontainers/r-basejump
 aliases:
   wget: /usr/local/bin/wget

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/resfinder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for resfinder
 latest:
-  4.4.3--pyhdfd78af_0: sha256:6efacdd0ceaa9df3db5e85f90be380fc6fb5f8ca1df3a222d325b1a4ab283c07
+  4.5.0--pyhdfd78af_0: sha256:079f93dc466364556cb517dbae1daccbcdea4455be38c7118d00867bde048a57
 tags:
   4.1.11--hdfd78af_0: sha256:3ff989d18d575db36aad864ccf99e591f9fd2ec70fc239f5aa874eb7fa55122a
   4.4.2--pyhdfd78af_1: sha256:5cba85ba3ecb4cd0e87ed43d46dd73fe5f99f0d1a3b72521e3fcd84e8721c74e
   4.4.3--pyhdfd78af_0: sha256:6efacdd0ceaa9df3db5e85f90be380fc6fb5f8ca1df3a222d325b1a4ab283c07
+  4.5.0--pyhdfd78af_0: sha256:079f93dc466364556cb517dbae1daccbcdea4455be38c7118d00867bde048a57
 docker: quay.io/biocontainers/resfinder
 aliases:
   download-db.sh: /usr/local/bin/download-db.sh
