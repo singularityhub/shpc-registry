@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwa/container.yaml"
-updated_at: "2024-04-15 06:25:03.107375"
+updated_at: "2024-04-16 02:52:58.807618"
 latest: "0.7.17--he4a0461_11"
 container_url: "https://biocontainers.pro/tools/bwa"
 aliases:

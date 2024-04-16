@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sctensor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sctensor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sctensor/container.yaml"
-updated_at: "2024-04-15 06:16:25.256562"
+updated_at: "2024-04-16 02:44:34.701832"
 latest: "2.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sctensor"
 aliases:

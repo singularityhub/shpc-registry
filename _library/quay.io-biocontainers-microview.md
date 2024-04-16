@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/microview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/microview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/microview/container.yaml"
-updated_at: "2024-04-15 06:18:04.902145"
+updated_at: "2024-04-16 02:46:11.653271"
 latest: "0.10.1--py312h031d066_0"
 container_url: "https://biocontainers.pro/tools/microview"
 aliases:
