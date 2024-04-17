@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/authentict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/authentict/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/authentict/container.yaml"
-updated_at: "2024-04-16 02:26:27.146781"
+updated_at: "2024-04-17 02:28:58.783338"
 latest: "1.0.1--py311h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/authentict"
 aliases:

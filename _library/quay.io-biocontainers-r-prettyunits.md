@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-prettyunits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-prettyunits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-prettyunits/container.yaml"
-updated_at: "2024-04-16 02:48:18.128458"
+updated_at: "2024-04-17 02:51:58.888064"
 latest: "1.0.2--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-prettyunits"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.0.2--r3.3.1_0"
+ - "1.0.2--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-prettyunits"
-config: {"url": "https://biocontainers.pro/tools/r-prettyunits", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-prettyunits", "latest": {"1.0.2--r3.3.1_0": "sha256:0bce126183156aaeb86b97fdf3faa486923163bf863f614d1e13e8a8083776a4"}, "tags": {"1.0.2--r3.3.1_0": "sha256:0bce126183156aaeb86b97fdf3faa486923163bf863f614d1e13e8a8083776a4"}, "docker": "quay.io/biocontainers/r-prettyunits", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-prettyunits", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-prettyunits", "latest": {"1.0.2--r3.3.1_0": "sha256:0bce126183156aaeb86b97fdf3faa486923163bf863f614d1e13e8a8083776a4"}, "tags": {"1.0.2--r3.3.1_0": "sha256:0bce126183156aaeb86b97fdf3faa486923163bf863f614d1e13e8a8083776a4", "1.0.2--r3.3.2_0": "sha256:bddb785a9582a03e04eb8ea24522280785c8ae9ba416fd9e3536666b0a25a6f6"}, "docker": "quay.io/biocontainers/r-prettyunits", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-prettyunits.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-executor-plugin-lsf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-executor-plugin-lsf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-executor-plugin-lsf/container.yaml"
-updated_at: "2024-04-16 02:31:46.442635"
-latest: "0.2.2--pyhdfd78af_0"
+updated_at: "2024-04-17 02:34:31.317839"
+latest: "0.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-executor-plugin-lsf"
 aliases:
  - "2to3-3.12"
@@ -15,8 +15,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "0.2.2--pyhdfd78af_0"
+ - "0.2.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-executor-plugin-lsf"
-config: {"url": "https://biocontainers.pro/tools/snakemake-executor-plugin-lsf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-executor-plugin-lsf", "latest": {"0.2.2--pyhdfd78af_0": "sha256:62c97160a1dea52fddae540cd151fc72fb4841082e30fdac2a77a54cc97571e5"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:62c97160a1dea52fddae540cd151fc72fb4841082e30fdac2a77a54cc97571e5"}, "docker": "quay.io/biocontainers/snakemake-executor-plugin-lsf", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-executor-plugin-lsf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-executor-plugin-lsf", "latest": {"0.2.3--pyhdfd78af_0": "sha256:20feb3f699b45ff704af221cf1281bf1b3accccf5ee00adaee1e2f6f0f00523e"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:62c97160a1dea52fddae540cd151fc72fb4841082e30fdac2a77a54cc97571e5", "0.2.3--pyhdfd78af_0": "sha256:20feb3f699b45ff704af221cf1281bf1b3accccf5ee00adaee1e2f6f0f00523e"}, "docker": "quay.io/biocontainers/snakemake-executor-plugin-lsf", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-executor-plugin-lsf.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/snakemake-executor-plugin-lsf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-executor-plugin-lsf:0.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-executor-plugin-lsf:0.2.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-executor-plugin-lsf/0.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-executor-plugin-lsf/0.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-executor-plugin-lsf/0.2.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-executor-plugin-lsf/0.2.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ismapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ismapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ismapper/container.yaml"
-updated_at: "2024-04-16 02:29:55.172741"
+updated_at: "2024-04-17 02:32:34.586283"
 latest: "2.0.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ismapper"
 aliases:

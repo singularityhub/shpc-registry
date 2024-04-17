@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hesslab-gambit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hesslab-gambit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hesslab-gambit/container.yaml"
-updated_at: "2024-04-16 02:29:52.027499"
+updated_at: "2024-04-17 02:32:31.438321"
 latest: "0.5.1--py39hbf8eff0_0"
 container_url: "https://biocontainers.pro/tools/hesslab-gambit"
 aliases:
@@ -22,8 +22,9 @@ aliases:
  - "h5copy"
 versions:
  - "0.5.1--py39hbf8eff0_0"
+ - "0.5.1--py310h1425a21_0"
 description: "shpc-registry automated BioContainers addition for hesslab-gambit"
-config: {"url": "https://biocontainers.pro/tools/hesslab-gambit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hesslab-gambit", "latest": {"0.5.1--py39hbf8eff0_0": "sha256:83e74d99ff38403d2c8e30f092866c748a9f753c5764a29b153e44017c609e02"}, "tags": {"0.5.1--py39hbf8eff0_0": "sha256:83e74d99ff38403d2c8e30f092866c748a9f753c5764a29b153e44017c609e02"}, "docker": "quay.io/biocontainers/hesslab-gambit", "aliases": {"alembic": "/usr/local/bin/alembic", "gambit": "/usr/local/bin/gambit", "mako-render": "/usr/local/bin/mako-render", "f2py3.9": "/usr/local/bin/f2py3.9", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/hesslab-gambit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hesslab-gambit", "latest": {"0.5.1--py39hbf8eff0_0": "sha256:83e74d99ff38403d2c8e30f092866c748a9f753c5764a29b153e44017c609e02"}, "tags": {"0.5.1--py39hbf8eff0_0": "sha256:83e74d99ff38403d2c8e30f092866c748a9f753c5764a29b153e44017c609e02", "0.5.1--py310h1425a21_0": "sha256:b705e8788aec71e51a7808eb70be4985dbe707c27840cf11593cba0405b41811"}, "docker": "quay.io/biocontainers/hesslab-gambit", "aliases": {"alembic": "/usr/local/bin/alembic", "gambit": "/usr/local/bin/gambit", "mako-render": "/usr/local/bin/mako-render", "f2py3.9": "/usr/local/bin/f2py3.9", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hesslab-gambit.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/ddrage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ddrage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ddrage/container.yaml"
-updated_at: "2024-04-16 02:50:24.377622"
-latest: "1.7.1--py_0"
+updated_at: "2024-04-17 02:54:04.567010"
+latest: "1.8.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ddrage"
 
 versions:
  - "1.7.1--py_0"
+ - "1.8.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ddrage"
-config: {"url": "https://biocontainers.pro/tools/ddrage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ddrage", "latest": {"1.7.1--py_0": "sha256:083ae9625a7c5e5f833bb3089e4084edbad20469b1f542774482b718454406e5"}, "tags": {"1.7.1--py_0": "sha256:083ae9625a7c5e5f833bb3089e4084edbad20469b1f542774482b718454406e5"}, "docker": "quay.io/biocontainers/ddrage"}
+config: {"url": "https://biocontainers.pro/tools/ddrage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ddrage", "latest": {"1.8.1--pyhdfd78af_0": "sha256:babc7665fc2a709027145a2b9638db32560b009dbb299e0a9fd58bc36d6f19fc"}, "tags": {"1.7.1--py_0": "sha256:083ae9625a7c5e5f833bb3089e4084edbad20469b1f542774482b718454406e5", "1.8.1--pyhdfd78af_0": "sha256:babc7665fc2a709027145a2b9638db32560b009dbb299e0a9fd58bc36d6f19fc"}, "docker": "quay.io/biocontainers/ddrage"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ddrage.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/ddrage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ddrage:1.7.1--py_0
+$ shpc install quay.io/biocontainers/ddrage:1.8.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ddrage/1.7.1--py_0
-$ module help quay.io/biocontainers/ddrage/1.7.1--py_0
+$ module load quay.io/biocontainers/ddrage/1.8.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/ddrage/1.8.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dist_est"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dist_est/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dist_est/container.yaml"
-updated_at: "2024-04-16 02:36:54.640328"
+updated_at: "2024-04-17 02:39:58.787547"
 latest: "1.1--hdbdd923_2"
 container_url: "https://biocontainers.pro/tools/dist_est"
 aliases:

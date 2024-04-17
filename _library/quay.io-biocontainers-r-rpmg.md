@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rpmg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rpmg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rpmg/container.yaml"
-updated_at: "2024-04-16 02:26:13.635940"
+updated_at: "2024-04-17 02:28:44.663938"
 latest: "2.2_1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-rpmg"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "2.2_1--r3.2.2_0"
+ - "2.2_1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-rpmg"
-config: {"url": "https://biocontainers.pro/tools/r-rpmg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rpmg", "latest": {"2.2_1--r3.2.2_0": "sha256:5dd7b8a2f56aa6c3976776c3bb730d30d8c0f9d64f72e76e39cf198e07eafa71"}, "tags": {"2.2_1--r3.2.2_0": "sha256:5dd7b8a2f56aa6c3976776c3bb730d30d8c0f9d64f72e76e39cf198e07eafa71"}, "docker": "quay.io/biocontainers/r-rpmg", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rpmg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rpmg", "latest": {"2.2_1--r3.2.2_0": "sha256:5dd7b8a2f56aa6c3976776c3bb730d30d8c0f9d64f72e76e39cf198e07eafa71"}, "tags": {"2.2_1--r3.2.2_0": "sha256:5dd7b8a2f56aa6c3976776c3bb730d30d8c0f9d64f72e76e39cf198e07eafa71", "2.2_1--r3.3.2_0": "sha256:756fb95c1cf964efc0d4f86bfbefc51c1ea73cd4c7e6f4240924bdb1ce75f16c"}, "docker": "quay.io/biocontainers/r-rpmg", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rpmg.

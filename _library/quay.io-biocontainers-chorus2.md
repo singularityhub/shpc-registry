@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chorus2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chorus2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chorus2/container.yaml"
-updated_at: "2024-04-16 02:31:02.813012"
+updated_at: "2024-04-17 02:33:45.520709"
 latest: "2.01--py39ha5a061d_2"
 container_url: "https://biocontainers.pro/tools/chorus2"
 aliases:
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "2.01--py39h09cc20e_1"
  - "2.01--py39ha5a061d_2"
+ - "2.01--py39h079770c_2"
 description: "shpc-registry automated BioContainers addition for chorus2"
-config: {"url": "https://biocontainers.pro/tools/chorus2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chorus2", "latest": {"2.01--py39ha5a061d_2": "sha256:c0d438171eec0982257498854e1654d889aa141cb713ddc8f0685b3472c62f2e"}, "tags": {"2.01--py39h09cc20e_1": "sha256:83e1cb499bc45319d56cf3c220c2627b1e69b888fb245ca3d9808b85fcfbceae", "2.01--py39ha5a061d_2": "sha256:c0d438171eec0982257498854e1654d889aa141cb713ddc8f0685b3472c62f2e"}, "docker": "quay.io/biocontainers/chorus2", "aliases": {"Chorus2": "/usr/local/bin/Chorus2", "ChorusDraftPrebuild": "/usr/local/bin/ChorusDraftPrebuild", "ChorusGUI": "/usr/local/bin/ChorusGUI", "ChorusHomo": "/usr/local/bin/ChorusHomo", "ChorusNGSfilter": "/usr/local/bin/ChorusNGSfilter", "ChorusNGSselect": "/usr/local/bin/ChorusNGSselect", "ChorusNoRef": "/usr/local/bin/ChorusNoRef", "ChorusPBGUI": "/usr/local/bin/ChorusPBGUI", "pyfasta": "/usr/local/bin/pyfasta", "gff2gff.py": "/usr/local/bin/gff2gff.py", "jellyfish": "/usr/local/bin/jellyfish", "qhelpconverter": "/usr/local/bin/qhelpconverter", "bwa": "/usr/local/bin/bwa", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "plot-vcfstats": "/usr/local/bin/plot-vcfstats"}}
+config: {"url": "https://biocontainers.pro/tools/chorus2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chorus2", "latest": {"2.01--py39ha5a061d_2": "sha256:c0d438171eec0982257498854e1654d889aa141cb713ddc8f0685b3472c62f2e"}, "tags": {"2.01--py39h09cc20e_1": "sha256:83e1cb499bc45319d56cf3c220c2627b1e69b888fb245ca3d9808b85fcfbceae", "2.01--py39ha5a061d_2": "sha256:c0d438171eec0982257498854e1654d889aa141cb713ddc8f0685b3472c62f2e", "2.01--py39h079770c_2": "sha256:d679473d3fec196439da49b956ead5502ba50bf78d5c07d5870a0f296f28aade"}, "docker": "quay.io/biocontainers/chorus2", "aliases": {"Chorus2": "/usr/local/bin/Chorus2", "ChorusDraftPrebuild": "/usr/local/bin/ChorusDraftPrebuild", "ChorusGUI": "/usr/local/bin/ChorusGUI", "ChorusHomo": "/usr/local/bin/ChorusHomo", "ChorusNGSfilter": "/usr/local/bin/ChorusNGSfilter", "ChorusNGSselect": "/usr/local/bin/ChorusNGSselect", "ChorusNoRef": "/usr/local/bin/ChorusNoRef", "ChorusPBGUI": "/usr/local/bin/ChorusPBGUI", "pyfasta": "/usr/local/bin/pyfasta", "gff2gff.py": "/usr/local/bin/gff2gff.py", "jellyfish": "/usr/local/bin/jellyfish", "qhelpconverter": "/usr/local/bin/qhelpconverter", "bwa": "/usr/local/bin/bwa", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "plot-vcfstats": "/usr/local/bin/plot-vcfstats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chorus2.

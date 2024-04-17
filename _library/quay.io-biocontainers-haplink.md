@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haplink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haplink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haplink/container.yaml"
-updated_at: "2024-04-16 03:07:24.220132"
+updated_at: "2024-04-17 03:11:09.885717"
 latest: "1.1.0--h031d066_0"
 container_url: "https://biocontainers.pro/tools/haplink"
 aliases:

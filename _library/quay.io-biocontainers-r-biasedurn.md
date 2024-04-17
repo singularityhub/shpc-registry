@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-biasedurn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-biasedurn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-biasedurn/container.yaml"
-updated_at: "2024-04-16 02:48:31.152783"
+updated_at: "2024-04-17 02:52:11.771005"
 latest: "1.07--r3.3.1_2"
 container_url: "https://biocontainers.pro/tools/r-biasedurn"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.07--r3.3.1_2"
+ - "1.07--r3.3.2_2"
 description: "shpc-registry automated BioContainers addition for r-biasedurn"
-config: {"url": "https://biocontainers.pro/tools/r-biasedurn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-biasedurn", "latest": {"1.07--r3.3.1_2": "sha256:68fc6e6164fef6541c44861aa5b6697e29bbaf8e1e763e8c6e4b3981f35f25a1"}, "tags": {"1.07--r3.3.1_2": "sha256:68fc6e6164fef6541c44861aa5b6697e29bbaf8e1e763e8c6e4b3981f35f25a1"}, "docker": "quay.io/biocontainers/r-biasedurn", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-biasedurn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-biasedurn", "latest": {"1.07--r3.3.1_2": "sha256:68fc6e6164fef6541c44861aa5b6697e29bbaf8e1e763e8c6e4b3981f35f25a1"}, "tags": {"1.07--r3.3.1_2": "sha256:68fc6e6164fef6541c44861aa5b6697e29bbaf8e1e763e8c6e4b3981f35f25a1", "1.07--r3.3.2_2": "sha256:4f718c55008b9a42e78cd971d38322bf69e1b0b00a1e81ee73b044820c94f683"}, "docker": "quay.io/biocontainers/r-biasedurn", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-biasedurn.

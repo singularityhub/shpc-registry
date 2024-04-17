@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bowtie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bowtie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bowtie/container.yaml"
-updated_at: "2024-04-16 03:01:30.669074"
-latest: "1.3.1--py36h769816f_3"
+updated_at: "2024-04-17 03:05:17.800500"
+latest: "1.3.1--py39h1a2fba0_7"
 container_url: "https://biocontainers.pro/tools/bowtie"
 aliases:
  - "bowtie"
@@ -29,8 +29,9 @@ aliases:
  - "perl5.32.1"
 versions:
  - "1.3.1--py36h769816f_3"
+ - "1.3.1--py39h1a2fba0_7"
 description: "shpc-registry automated BioContainers addition for bowtie"
-config: {"url": "https://biocontainers.pro/tools/bowtie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bowtie", "latest": {"1.3.1--py36h769816f_3": "sha256:ebfdf6379111f690154229e240b6d7e1b3556c99deb13abadee33c6b396c8373"}, "tags": {"1.3.1--py36h769816f_3": "sha256:ebfdf6379111f690154229e240b6d7e1b3556c99deb13abadee33c6b396c8373"}, "docker": "quay.io/biocontainers/bowtie", "aliases": {"bowtie": "/usr/local/bin/bowtie", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv", "perl5.32.1": "/usr/local/bin/perl5.32.1"}}
+config: {"url": "https://biocontainers.pro/tools/bowtie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bowtie", "latest": {"1.3.1--py39h1a2fba0_7": "sha256:10dc3387cddd49d8042864bf454d9101881d6b7eab4c1fdf54ad2343bd1819f7"}, "tags": {"1.3.1--py36h769816f_3": "sha256:ebfdf6379111f690154229e240b6d7e1b3556c99deb13abadee33c6b396c8373", "1.3.1--py39h1a2fba0_7": "sha256:10dc3387cddd49d8042864bf454d9101881d6b7eab4c1fdf54ad2343bd1819f7"}, "docker": "quay.io/biocontainers/bowtie", "aliases": {"bowtie": "/usr/local/bin/bowtie", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv", "perl5.32.1": "/usr/local/bin/perl5.32.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bowtie.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bowtie
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bowtie:1.3.1--py36h769816f_3
+$ shpc install quay.io/biocontainers/bowtie:1.3.1--py39h1a2fba0_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bowtie/1.3.1--py36h769816f_3
-$ module help quay.io/biocontainers/bowtie/1.3.1--py36h769816f_3
+$ module load quay.io/biocontainers/bowtie/1.3.1--py39h1a2fba0_7
+$ module help quay.io/biocontainers/bowtie/1.3.1--py39h1a2fba0_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

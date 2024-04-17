@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/guide-counter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/guide-counter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/guide-counter/container.yaml"
-updated_at: "2024-04-16 03:04:22.945792"
+updated_at: "2024-04-17 03:08:09.800273"
 latest: "0.1.3--hdbdd923_3"
 container_url: "https://biocontainers.pro/tools/guide-counter"
 aliases:

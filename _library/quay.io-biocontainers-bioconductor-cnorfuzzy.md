@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cnorfuzzy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnorfuzzy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnorfuzzy/container.yaml"
-updated_at: "2024-04-16 02:32:40.798743"
+updated_at: "2024-04-17 02:35:28.455118"
 latest: "1.44.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnorfuzzy"
 aliases:
