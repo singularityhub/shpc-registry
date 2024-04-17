@@ -6,6 +6,7 @@ latest:
 tags:
   2021.1--h9969a6a_0: sha256:0872ce119ca15586f3c96d1956eddba90220070e4ff31af0ac01b3a8def5190b
   2021--h9969a6a_1: sha256:30da963ab697ffb85b94b763c6aec1dfd5302e1efdd2a3d84c499f49a18b87f2
+  2021.1--h912c435_0: sha256:277b868f5779ab750fd351d62f277827671161e05a404c6d0daf7e041f7e91c8
 docker: quay.io/biocontainers/gromacs_mpi
 aliases:
   gmx_mpi: /usr/local/bin/gmx_mpi

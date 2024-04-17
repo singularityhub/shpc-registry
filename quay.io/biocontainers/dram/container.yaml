@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/dram
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dram
 latest:
-  1.4.6--pyhdfd78af_2: sha256:820fef71c2d1b7b862a569a4dd6cf78518b7ac92ecf3ef86a09db3f5f1bd34e6
+  1.5.0--pyhdfd78af_0: sha256:f6cf5a9b725cfe10beee5eda19d45efbe9ad8f44fc218feb97b80f75641d23f9
 tags:
   1.3.5--pyhdfd78af_0: sha256:b5abb14e7b0ded7a36cbd2458c256bdf9344618fe7781d37222bb01fa36ba85e
   1.4.0--pyhdfd78af_0: sha256:0ecc0fbc97a48bf66fb6b1f4d705373e66d3918f2e2cc073ec8295896a44c5bb
@@ -10,6 +10,7 @@ tags:
   1.4.5--pyhdfd78af_0: sha256:bee7c8c98893a8ab388ae32587b19326f108b16da8f907a63b9719417585d8ce
   1.4.6--pyhdfd78af_0: sha256:d419657ae3805cf55c6bffef31abacebc08c826990275eb31a9bc536a35ae743
   1.4.6--pyhdfd78af_2: sha256:820fef71c2d1b7b862a569a4dd6cf78518b7ac92ecf3ef86a09db3f5f1bd34e6
+  1.5.0--pyhdfd78af_0: sha256:f6cf5a9b725cfe10beee5eda19d45efbe9ad8f44fc218feb97b80f75641d23f9
 docker: quay.io/biocontainers/dram
 aliases:
   DRAM-setup.py: /usr/local/bin/DRAM-setup.py

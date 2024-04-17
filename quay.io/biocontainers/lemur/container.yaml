@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/lemur
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for lemur
 latest:
-  1.0.0--hdfd78af_0: sha256:7436a0cf24dadaa0ff49b679f3682385fa8e2a517e993fc35d54c4c907b0207a
+  1.0.1--hdfd78af_0: sha256:68445f63969fb3d200de9cfccaa35590a83e9764a09b984d975e2d7b53222c99
 tags:
   1.0.0--hdfd78af_0: sha256:7436a0cf24dadaa0ff49b679f3682385fa8e2a517e993fc35d54c4c907b0207a
+  1.0.1--hdfd78af_0: sha256:68445f63969fb3d200de9cfccaa35590a83e9764a09b984d975e2d7b53222c99
 docker: quay.io/biocontainers/lemur
 aliases:
   lemur: /usr/local/bin/lemur

@@ -5,6 +5,7 @@ latest:
   0.12.0--py27_0: sha256:e30fcc9dcabae8e7a0084110d4fceb42b4bf04bbdc9dd854d76ea8bc537b7943
 tags:
   0.12.0--py27_0: sha256:e30fcc9dcabae8e7a0084110d4fceb42b4bf04bbdc9dd854d76ea8bc537b7943
+  0.12.0--py36_0: sha256:2a5e946dbaea57a77faede2a0c756bd6d7c6733ee869bb4b4423f2d72cabbd61
 docker: quay.io/biocontainers/bucketcache
 aliases:
   easy_install-2.7: /usr/local/bin/easy_install-2.7

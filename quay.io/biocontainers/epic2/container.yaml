@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/epic2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for epic2
 latest:
-  0.0.48--py36hb4700b3_0: sha256:d30e12a08ca4001c78500703fba18380b5d1d2a2e01386caf27e55c409e25a61
+  0.0.52--py310hf47bd5e_6: sha256:ff16be197f89abad289a700368bf1216a61cb4ad9225e78706b2a0aa050da6bb
 tags:
   0.0.48--py36hb4700b3_0: sha256:d30e12a08ca4001c78500703fba18380b5d1d2a2e01386caf27e55c409e25a61
+  0.0.52--py310hf47bd5e_6: sha256:ff16be197f89abad289a700368bf1216a61cb4ad9225e78706b2a0aa050da6bb
 docker: quay.io/biocontainers/epic2
 aliases:
   epic2: /usr/local/bin/epic2

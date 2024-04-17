@@ -5,6 +5,7 @@ latest:
   1.4.3--py27_2: sha256:886917caa6a34a3a559090f5c626b108b03b24582b7914309cd00bed6f08879f
 tags:
   1.4.3--py27_2: sha256:886917caa6a34a3a559090f5c626b108b03b24582b7914309cd00bed6f08879f
+  1.4.3--py36_2: sha256:5c00c1a0798cb7191d3ed4d5bf899e73c0229e02695bc4c92760445555ee4988
 docker: quay.io/biocontainers/tgt
 aliases:
   tgt-concatenate-textgrids.py: /usr/local/bin/tgt-concatenate-textgrids.py

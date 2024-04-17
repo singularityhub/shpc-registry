@@ -5,6 +5,7 @@ latest:
   1.2.13--r3.2.2_0: sha256:1764541c6612fb18ea61dbff6d45f859db2d5d69e017e973e79cbac02137dff8
 tags:
   1.2.13--r3.2.2_0: sha256:1764541c6612fb18ea61dbff6d45f859db2d5d69e017e973e79cbac02137dff8
+  1.2.13--r3.4.1_0: sha256:cfcd2b341a8c0a475e33681e4372478e4dcf7b8ff593e0127a4c8cc1f5514b61
 docker: quay.io/biocontainers/r-genenet
 aliases:
   pngcp: /usr/local/bin/pngcp

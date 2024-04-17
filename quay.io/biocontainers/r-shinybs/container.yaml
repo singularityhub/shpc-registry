@@ -5,6 +5,7 @@ latest:
   0.25.0--r341h470a237_0: sha256:7696c5e0d7d7e7c29589104c2975fc81bd966f327d8199537ff98616fc7dd6ba
 tags:
   0.25.0--r341h470a237_0: sha256:7696c5e0d7d7e7c29589104c2975fc81bd966f327d8199537ff98616fc7dd6ba
+  0.25.0--r351h470a237_0: sha256:10f4be2fa62de1e0664357f9ef44fbfb7994d0b7513e5320945e8adbb3e209dc
 docker: quay.io/biocontainers/r-shinybs
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

@@ -8,6 +8,7 @@ tags:
   1.9.4.1--py37h675a0cb_2: sha256:fd7385b3661197aeee37395efcf79cd853774ddfc2f46e12832a2af8ecfe7de2
   1.9.4.1--py39he10ea66_4: sha256:21d2f9db79869927c43312b68686a9d13ea28403b42d6d56e8473c5476e48e72
   1.9.4.2--py310h0dbaff4_0: sha256:e1e6edb654eb35f735d79a293b1f0486f0581787436f803b175ac1fd8c872fa2
+  1.9.4.2--py38h2494328_0: sha256:ee8591de074ee17e2dc303c5de26c586eb315090bbe222a445991d7460daadbd
 docker: quay.io/biocontainers/moods
 aliases:
   ccache-swig: /usr/local/bin/ccache-swig
