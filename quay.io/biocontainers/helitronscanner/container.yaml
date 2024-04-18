@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/helitronscanner
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for helitronscanner
+latest:
+  1.0--hdfd78af_0: sha256:b1e8eed8ef77b9292154ee63d1e9cf82528082dd5daeb70e70578d7b6e2971c6
+tags:
+  1.0--hdfd78af_0: sha256:b1e8eed8ef77b9292154ee63d1e9cf82528082dd5daeb70e70578d7b6e2971c6
+docker: quay.io/biocontainers/helitronscanner
+aliases:
+  HelitronScanner: /usr/local/bin/HelitronScanner
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  jwebserver: /usr/local/bin/jwebserver
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb

@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/canopy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for canopy
+latest:
+  0.25--hdcf5f25_0: sha256:c74b5ead63b0803dcbe1349b2ae3a51270426c40dab3428e58003047df5ec60f
+tags:
+  0.25--hdcf5f25_0: sha256:c74b5ead63b0803dcbe1349b2ae3a51270426c40dab3428e58003047df5ec60f
+docker: quay.io/biocontainers/canopy
+aliases:
+  cc.bin: /usr/local/bin/cc.bin
