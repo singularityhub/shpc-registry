@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/anise_basil
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for anise_basil
 latest:
-  1.2.0--py39h1442aad_6: sha256:a2bffd2574d4c3160ebfc15ace4c600079383b8b8499b3ead00d50c810cabde7
+  1.2.0--py310h9da9059_7: sha256:be72c835025b2170c36b2c06a5edf196137ce9fad38c1eb4a6fb01c631220188
 tags:
   1.2.0--py36hcb2eddc_3: sha256:fba04d9b4155ce0cad72e78602e1f9d08e84cd3ae4765da8c264b640727dde12
   1.2.0--py39h1442aad_6: sha256:a2bffd2574d4c3160ebfc15ace4c600079383b8b8499b3ead00d50c810cabde7
   1.2.0--py38h529b8a6_6: sha256:20effeb6391a1d1b7faecfd4d091dcc95170607a60b4b1b650fcac37725d292b
+  1.2.0--py310h9da9059_7: sha256:be72c835025b2170c36b2c06a5edf196137ce9fad38c1eb4a6fb01c631220188
 docker: quay.io/biocontainers/anise_basil
 aliases:
   anise: /usr/local/bin/anise

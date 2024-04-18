@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pyhmmer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyhmmer
 latest:
-  0.10.10--py310h4b81fae_0: sha256:a77de384451422d056c2fec89c29416031c5eaa566dbf2ca43941ba1def97c46
+  0.10.11--py38he5da3d1_0: sha256:8009e0699920a23fb2c6cb2b23d446a8d2dd91666dfab03c6155c9c97511b123
 tags:
   0.4.7--py38h4a8c8d9_0: sha256:43edb82a437e456dd4c1dd7b2d4d614381c43b8d7c8423eb497d019a4fc2c554
   0.10.10--py310h4b81fae_0: sha256:a77de384451422d056c2fec89c29416031c5eaa566dbf2ca43941ba1def97c46
@@ -10,6 +10,7 @@ tags:
   0.8.2--py38he5da3d1_0: sha256:d163d5ec67827b5b8c424530be2b40978407e74a00dcea94e676a9b973cab88f
   0.7.2--py310h1425a21_0: sha256:82bb9e44ad593cd0f83b58957605805ed9a12c71d6323718f11e7bc5525d8cc9
   0.6.3--py310h1425a21_0: sha256:80af1b41a52127def5714369b04b45cf926d82cb19ae0d311fb78298a6c98f41
+  0.10.11--py38he5da3d1_0: sha256:8009e0699920a23fb2c6cb2b23d446a8d2dd91666dfab03c6155c9c97511b123
 docker: quay.io/biocontainers/pyhmmer
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8
