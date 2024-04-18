@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/dmtools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dmtools
+latest:
+  0.2.6--hda3def1_0: sha256:3d356c6f9c44f5fc4d30cb4f9a4507bc07423fb7aaa81965b3625076620b054b
+tags:
+  0.2.6--hda3def1_0: sha256:3d356c6f9c44f5fc4d30cb4f9a4507bc07423fb7aaa81965b3625076620b054b
+docker: quay.io/biocontainers/dmtools
+aliases:
+  bam2dm: /usr/local/bin/bam2dm
+  dmDMR: /usr/local/bin/dmDMR
+  dmalign: /usr/local/bin/dmalign
+  dmtools: /usr/local/bin/dmtools
+  genome2cg: /usr/local/bin/genome2cg
+  genomebinLen: /usr/local/bin/genomebinLen
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
