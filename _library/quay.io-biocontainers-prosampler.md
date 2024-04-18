@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/prosampler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prosampler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prosampler/container.yaml"
-updated_at: "2024-04-17 02:34:18.959117"
-latest: "1.0--hc9558a2_0"
+updated_at: "2024-04-18 02:54:21.087613"
+latest: "1.5--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/prosampler"
 aliases:
  - "ProSampler"
 versions:
  - "1.0--hc9558a2_0"
+ - "1.5--h4ac6f70_0"
 description: "shpc-registry automated BioContainers addition for prosampler"
-config: {"url": "https://biocontainers.pro/tools/prosampler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prosampler", "latest": {"1.0--hc9558a2_0": "sha256:ba843787293490ba6ddfd410cb51331966095f4013ce845bdc308fb4183b1a0a"}, "tags": {"1.0--hc9558a2_0": "sha256:ba843787293490ba6ddfd410cb51331966095f4013ce845bdc308fb4183b1a0a"}, "docker": "quay.io/biocontainers/prosampler", "aliases": {"ProSampler": "/usr/local/bin/ProSampler"}}
+config: {"url": "https://biocontainers.pro/tools/prosampler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prosampler", "latest": {"1.5--h4ac6f70_0": "sha256:a2b4b7efd7cb5cec154f7fe5dedbfa9f9caf10eb36e94a77d32d93d19b2690bd"}, "tags": {"1.0--hc9558a2_0": "sha256:ba843787293490ba6ddfd410cb51331966095f4013ce845bdc308fb4183b1a0a", "1.5--h4ac6f70_0": "sha256:a2b4b7efd7cb5cec154f7fe5dedbfa9f9caf10eb36e94a77d32d93d19b2690bd"}, "docker": "quay.io/biocontainers/prosampler", "aliases": {"ProSampler": "/usr/local/bin/ProSampler"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prosampler.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/prosampler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/prosampler:1.0--hc9558a2_0
+$ shpc install quay.io/biocontainers/prosampler:1.5--h4ac6f70_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/prosampler/1.0--hc9558a2_0
-$ module help quay.io/biocontainers/prosampler/1.0--hc9558a2_0
+$ module load quay.io/biocontainers/prosampler/1.5--h4ac6f70_0
+$ module help quay.io/biocontainers/prosampler/1.5--h4ac6f70_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

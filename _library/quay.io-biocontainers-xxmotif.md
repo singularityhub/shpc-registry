@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/xxmotif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xxmotif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xxmotif/container.yaml"
-updated_at: "2024-04-17 02:49:21.819714"
-latest: "1.6--h2d50403_2"
+updated_at: "2024-04-18 02:40:30.482476"
+latest: "1.6--h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/xxmotif"
 aliases:
  - "XXmotif"
 versions:
  - "1.6--h2d50403_2"
+ - "1.6--h9f5acd7_4"
 description: "shpc-registry automated BioContainers addition for xxmotif"
-config: {"url": "https://biocontainers.pro/tools/xxmotif", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xxmotif", "latest": {"1.6--h2d50403_2": "sha256:55f62289c34138832c85eaf3d5b9a832f912ae0e7a47c4a492c33dc8923a0e84"}, "tags": {"1.6--h2d50403_2": "sha256:55f62289c34138832c85eaf3d5b9a832f912ae0e7a47c4a492c33dc8923a0e84"}, "docker": "quay.io/biocontainers/xxmotif", "aliases": {"XXmotif": "/usr/local/bin/XXmotif"}}
+config: {"url": "https://biocontainers.pro/tools/xxmotif", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xxmotif", "latest": {"1.6--h9f5acd7_4": "sha256:9808ac633c97cfb8b72b301b3793eec306c6638bb2f1e16f368fe7756c80b420"}, "tags": {"1.6--h2d50403_2": "sha256:55f62289c34138832c85eaf3d5b9a832f912ae0e7a47c4a492c33dc8923a0e84", "1.6--h9f5acd7_4": "sha256:9808ac633c97cfb8b72b301b3793eec306c6638bb2f1e16f368fe7756c80b420"}, "docker": "quay.io/biocontainers/xxmotif", "aliases": {"XXmotif": "/usr/local/bin/XXmotif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xxmotif.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/xxmotif
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/xxmotif:1.6--h2d50403_2
+$ shpc install quay.io/biocontainers/xxmotif:1.6--h9f5acd7_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/xxmotif/1.6--h2d50403_2
-$ module help quay.io/biocontainers/xxmotif/1.6--h2d50403_2
+$ module load quay.io/biocontainers/xxmotif/1.6--h9f5acd7_4
+$ module help quay.io/biocontainers/xxmotif/1.6--h9f5acd7_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

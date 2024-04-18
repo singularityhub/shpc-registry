@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-moleculeexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moleculeexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moleculeexperiment/container.yaml"
-updated_at: "2024-04-17 03:08:08.709593"
+updated_at: "2024-04-18 02:27:10.787280"
 latest: "1.2.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-moleculeexperiment"
 aliases:

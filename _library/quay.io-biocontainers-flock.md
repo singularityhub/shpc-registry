@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flock/container.yaml"
-updated_at: "2024-04-17 02:37:26.527185"
+updated_at: "2024-04-18 02:31:29.913622"
 latest: "1.0--h470a237_2"
 container_url: "https://biocontainers.pro/tools/flock"
 aliases:

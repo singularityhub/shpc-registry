@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fail"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fail/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fail/container.yaml"
-updated_at: "2024-04-17 02:28:42.619511"
+updated_at: "2024-04-18 02:40:33.186843"
 latest: "1.3--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-fail"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.3--r3.2.2_0"
+ - "1.3--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-fail"
-config: {"url": "https://biocontainers.pro/tools/r-fail", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fail", "latest": {"1.3--r3.2.2_0": "sha256:6ece467da235f0b9bf40bf96024e2af2968988cb9bc65a7cc38663e9050832c0"}, "tags": {"1.3--r3.2.2_0": "sha256:6ece467da235f0b9bf40bf96024e2af2968988cb9bc65a7cc38663e9050832c0"}, "docker": "quay.io/biocontainers/r-fail", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-fail", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fail", "latest": {"1.3--r3.2.2_0": "sha256:6ece467da235f0b9bf40bf96024e2af2968988cb9bc65a7cc38663e9050832c0"}, "tags": {"1.3--r3.2.2_0": "sha256:6ece467da235f0b9bf40bf96024e2af2968988cb9bc65a7cc38663e9050832c0", "1.3--r3.3.2_0": "sha256:733c4ecf8b753278fbf41e4bdf53f76a9a4129e2ac2a6f64f2840cd48445ce8b"}, "docker": "quay.io/biocontainers/r-fail", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-fail.

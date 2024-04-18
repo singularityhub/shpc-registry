@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ahensdbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ahensdbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ahensdbs/container.yaml"
-updated_at: "2024-04-17 02:36:25.020967"
+updated_at: "2024-04-18 02:55:27.073506"
 latest: "1.1.10--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ahensdbs"
 

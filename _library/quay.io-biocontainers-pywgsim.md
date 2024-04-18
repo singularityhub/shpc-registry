@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pywgsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pywgsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pywgsim/container.yaml"
-updated_at: "2024-04-17 02:46:40.130135"
+updated_at: "2024-04-18 02:59:12.133986"
 latest: "0.5.2--py36h91eb985_0"
 container_url: "https://biocontainers.pro/tools/pywgsim"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "pyvenv"
 versions:
  - "0.5.2--py36h91eb985_0"
+ - "0.5.2--py310h1425a21_0"
 description: "singularity registry hpc automated addition for pywgsim"
-config: {"url": "https://biocontainers.pro/tools/pywgsim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pywgsim", "latest": {"0.5.2--py36h91eb985_0": "sha256:8c620d37909b2df8ce6cbe0abc79b7cb0f18f46a4d507d25d9c73cc9c68f72c2"}, "tags": {"0.5.2--py36h91eb985_0": "sha256:8c620d37909b2df8ce6cbe0abc79b7cb0f18f46a4d507d25d9c73cc9c68f72c2"}, "docker": "quay.io/biocontainers/pywgsim", "aliases": {"pywgsim": "/usr/local/bin/pywgsim", "plac_runner.py": "/usr/local/bin/plac_runner.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pywgsim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pywgsim", "latest": {"0.5.2--py36h91eb985_0": "sha256:8c620d37909b2df8ce6cbe0abc79b7cb0f18f46a4d507d25d9c73cc9c68f72c2"}, "tags": {"0.5.2--py36h91eb985_0": "sha256:8c620d37909b2df8ce6cbe0abc79b7cb0f18f46a4d507d25d9c73cc9c68f72c2", "0.5.2--py310h1425a21_0": "sha256:862a6e42a8acc7046e6fdab65c1569414c81a27bf71bc041aaae4e20d145821f"}, "docker": "quay.io/biocontainers/pywgsim", "aliases": {"pywgsim": "/usr/local/bin/pywgsim", "plac_runner.py": "/usr/local/bin/plac_runner.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pywgsim.

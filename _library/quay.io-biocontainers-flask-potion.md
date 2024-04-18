@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flask-potion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-potion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flask-potion/container.yaml"
-updated_at: "2024-04-17 02:30:16.401449"
+updated_at: "2024-04-18 03:04:04.099294"
 latest: "0.12.1--py35_0"
 container_url: "https://biocontainers.pro/tools/flask-potion"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "pyvenv-3.5"
 versions:
  - "0.12.1--py35_0"
+ - "0.12.1--py36_0"
 description: "shpc-registry automated BioContainers addition for flask-potion"
-config: {"url": "https://biocontainers.pro/tools/flask-potion", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flask-potion", "latest": {"0.12.1--py35_0": "sha256:e6029aeb1a3e6ef7fb5fb4f369a24aab814e1a7c5781e83c4f7fca0f60936cfe"}, "tags": {"0.12.1--py35_0": "sha256:e6029aeb1a3e6ef7fb5fb4f369a24aab814e1a7c5781e83c4f7fca0f60936cfe"}, "docker": "quay.io/biocontainers/flask-potion", "aliases": {"flask": "/usr/local/bin/flask", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5"}}
+config: {"url": "https://biocontainers.pro/tools/flask-potion", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flask-potion", "latest": {"0.12.1--py35_0": "sha256:e6029aeb1a3e6ef7fb5fb4f369a24aab814e1a7c5781e83c4f7fca0f60936cfe"}, "tags": {"0.12.1--py35_0": "sha256:e6029aeb1a3e6ef7fb5fb4f369a24aab814e1a7c5781e83c4f7fca0f60936cfe", "0.12.1--py36_0": "sha256:ba743f7234bbe18b36d35f5698d6f797ede1d2abc1959682d8f8c3d05813fc5d"}, "docker": "quay.io/biocontainers/flask-potion", "aliases": {"flask": "/usr/local/bin/flask", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flask-potion.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kma/container.yaml"
-updated_at: "2024-04-17 02:35:18.747612"
-latest: "1.4.0--h7132678_0"
+updated_at: "2024-04-18 02:54:51.186224"
+latest: "1.4.14--he4a0461_1"
 container_url: "https://biocontainers.pro/tools/kma"
 aliases:
  - "kma"
@@ -14,8 +14,9 @@ aliases:
  - "kma_update"
 versions:
  - "1.4.0--h7132678_0"
+ - "1.4.14--he4a0461_1"
 description: "shpc-registry automated BioContainers addition for kma"
-config: {"url": "https://biocontainers.pro/tools/kma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kma", "latest": {"1.4.0--h7132678_0": "sha256:e92f97e163dd82fefa40e9c3794cb0ff6cd818c953d3cc78b739e3a51afcdfe1"}, "tags": {"1.4.0--h7132678_0": "sha256:e92f97e163dd82fefa40e9c3794cb0ff6cd818c953d3cc78b739e3a51afcdfe1"}, "docker": "quay.io/biocontainers/kma", "aliases": {"kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update"}}
+config: {"url": "https://biocontainers.pro/tools/kma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kma", "latest": {"1.4.14--he4a0461_1": "sha256:af5d86d5d799dcbf208faf46f7dcf82861fdfe6e8f51584fef964421d90910ed"}, "tags": {"1.4.0--h7132678_0": "sha256:e92f97e163dd82fefa40e9c3794cb0ff6cd818c953d3cc78b739e3a51afcdfe1", "1.4.14--he4a0461_1": "sha256:af5d86d5d799dcbf208faf46f7dcf82861fdfe6e8f51584fef964421d90910ed"}, "docker": "quay.io/biocontainers/kma", "aliases": {"kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kma.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/kma
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kma:1.4.0--h7132678_0
+$ shpc install quay.io/biocontainers/kma:1.4.14--he4a0461_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kma/1.4.0--h7132678_0
-$ module help quay.io/biocontainers/kma/1.4.0--h7132678_0
+$ module load quay.io/biocontainers/kma/1.4.14--he4a0461_1
+$ module help quay.io/biocontainers/kma/1.4.14--he4a0461_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

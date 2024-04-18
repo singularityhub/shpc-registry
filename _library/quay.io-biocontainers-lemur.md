@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lemur"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lemur/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lemur/container.yaml"
-updated_at: "2024-04-17 02:28:01.481102"
-latest: "1.0.0--hdfd78af_0"
+updated_at: "2024-04-18 02:38:32.180607"
+latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lemur"
 aliases:
  - "lemur"
@@ -20,8 +20,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.0.0--hdfd78af_0"
+ - "1.0.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for lemur"
-config: {"url": "https://biocontainers.pro/tools/lemur", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lemur", "latest": {"1.0.0--hdfd78af_0": "sha256:7436a0cf24dadaa0ff49b679f3682385fa8e2a517e993fc35d54c4c907b0207a"}, "tags": {"1.0.0--hdfd78af_0": "sha256:7436a0cf24dadaa0ff49b679f3682385fa8e2a517e993fc35d54c4c907b0207a"}, "docker": "quay.io/biocontainers/lemur", "aliases": {"lemur": "/usr/local/bin/lemur", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/lemur", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lemur", "latest": {"1.0.1--hdfd78af_0": "sha256:68445f63969fb3d200de9cfccaa35590a83e9764a09b984d975e2d7b53222c99"}, "tags": {"1.0.0--hdfd78af_0": "sha256:7436a0cf24dadaa0ff49b679f3682385fa8e2a517e993fc35d54c4c907b0207a", "1.0.1--hdfd78af_0": "sha256:68445f63969fb3d200de9cfccaa35590a83e9764a09b984d975e2d7b53222c99"}, "docker": "quay.io/biocontainers/lemur", "aliases": {"lemur": "/usr/local/bin/lemur", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lemur.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/lemur
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lemur:1.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/lemur:1.0.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lemur/1.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/lemur/1.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/lemur/1.0.1--hdfd78af_0
+$ module help quay.io/biocontainers/lemur/1.0.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

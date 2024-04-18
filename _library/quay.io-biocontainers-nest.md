@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/nest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nest/container.yaml"
-updated_at: "2024-04-17 03:07:26.178992"
+updated_at: "2024-04-18 03:06:06.924559"
 latest: "2.14.0--py35h060fc9d_3"
 container_url: "https://biocontainers.pro/tools/nest"
 
 versions:
  - "2.14.0--py35h060fc9d_3"
+ - "2.14.0--py27h060fc9d_3"
 description: "shpc-registry automated BioContainers addition for nest"
-config: {"url": "https://biocontainers.pro/tools/nest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nest", "latest": {"2.14.0--py35h060fc9d_3": "sha256:bae81c155f6a149235785483fbd9b25a699958dec71dee65b234fb59cd3759a2"}, "tags": {"2.14.0--py35h060fc9d_3": "sha256:bae81c155f6a149235785483fbd9b25a699958dec71dee65b234fb59cd3759a2"}, "docker": "quay.io/biocontainers/nest"}
+config: {"url": "https://biocontainers.pro/tools/nest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nest", "latest": {"2.14.0--py35h060fc9d_3": "sha256:bae81c155f6a149235785483fbd9b25a699958dec71dee65b234fb59cd3759a2"}, "tags": {"2.14.0--py35h060fc9d_3": "sha256:bae81c155f6a149235785483fbd9b25a699958dec71dee65b234fb59cd3759a2", "2.14.0--py27h060fc9d_3": "sha256:f895a7721504fadbf612f5f8622c0e8fd04b16077bd67916cdef53d3784bed58"}, "docker": "quay.io/biocontainers/nest"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nest.

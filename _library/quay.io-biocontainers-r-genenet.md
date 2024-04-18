@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-genenet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-genenet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-genenet/container.yaml"
-updated_at: "2024-04-17 02:36:35.660663"
+updated_at: "2024-04-18 02:46:37.102430"
 latest: "1.2.13--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-genenet"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.2.13--r3.2.2_0"
+ - "1.2.13--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-genenet"
-config: {"url": "https://biocontainers.pro/tools/r-genenet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-genenet", "latest": {"1.2.13--r3.2.2_0": "sha256:1764541c6612fb18ea61dbff6d45f859db2d5d69e017e973e79cbac02137dff8"}, "tags": {"1.2.13--r3.2.2_0": "sha256:1764541c6612fb18ea61dbff6d45f859db2d5d69e017e973e79cbac02137dff8"}, "docker": "quay.io/biocontainers/r-genenet", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-genenet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-genenet", "latest": {"1.2.13--r3.2.2_0": "sha256:1764541c6612fb18ea61dbff6d45f859db2d5d69e017e973e79cbac02137dff8"}, "tags": {"1.2.13--r3.2.2_0": "sha256:1764541c6612fb18ea61dbff6d45f859db2d5d69e017e973e79cbac02137dff8", "1.2.13--r3.4.1_0": "sha256:cfcd2b341a8c0a475e33681e4372478e4dcf7b8ff593e0127a4c8cc1f5514b61"}, "docker": "quay.io/biocontainers/r-genenet", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-genenet.
