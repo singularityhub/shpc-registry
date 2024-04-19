@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/canopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/canopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/canopy/container.yaml"
-updated_at: "2024-04-18 03:01:00.662395"
+updated_at: "2024-04-19 02:35:49.529417"
 latest: "0.25--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/canopy"
 aliases:

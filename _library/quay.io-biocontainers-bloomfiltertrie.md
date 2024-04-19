@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bloomfiltertrie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bloomfiltertrie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bloomfiltertrie/container.yaml"
-updated_at: "2024-04-18 02:51:34.132140"
+updated_at: "2024-04-19 02:26:17.718012"
 latest: "0.8.7--h031d066_5"
 container_url: "https://biocontainers.pro/tools/bloomfiltertrie"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/filechunkio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/filechunkio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/filechunkio/container.yaml"
-updated_at: "2024-04-18 02:55:08.117861"
+updated_at: "2024-04-19 02:29:53.691186"
 latest: "1.6--py35_0"
 container_url: "https://biocontainers.pro/tools/filechunkio"
 aliases:

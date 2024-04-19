@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/igv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igv/container.yaml"
-updated_at: "2024-04-18 03:02:38.157133"
-latest: "2.16.2--hdfd78af_0"
+updated_at: "2024-04-19 02:37:27.746419"
+latest: "2.17.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/igv"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "2.11.9--hdfd78af_0"
  - "2.10.3--hdfd78af_0"
  - "2.16.2--hdfd78af_0"
+ - "2.17.4--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for igv"
-config: {"url": "https://biocontainers.pro/tools/igv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for igv", "latest": {"2.16.2--hdfd78af_0": "sha256:0941fa5b781f4457f51f9bd0fb938f7baffe4cd1b4e83877b40c964de1d9e11d"}, "tags": {"2.9.5--hdfd78af_0": "sha256:705d2341964a242d3c1affb3d6f865017b1cb34f7d05363b879cb3fba5cd737d", "2.13.2--hdfd78af_0": "sha256:56e4a4d08eb5745855000383ba68551e3c1b5abc08b701d3c355b279020ecffd", "2.12.3--hdfd78af_0": "sha256:38d8faad5e4cdab9193d16eea21cf12f8b0ce840553bdbe5fd9029da0cb0742e", "2.11.9--hdfd78af_0": "sha256:baf40d4279868662e94be5cadeeb535e61dd39d8288db93cda27b6f119cf1713", "2.10.3--hdfd78af_0": "sha256:6dc0b8d50dc8ac97d8dc9d075cc036335911781d02c44e0c4edbee8a3155162d", "2.16.2--hdfd78af_0": "sha256:0941fa5b781f4457f51f9bd0fb938f7baffe4cd1b4e83877b40c964de1d9e11d"}, "docker": "quay.io/biocontainers/igv"}
+config: {"url": "https://biocontainers.pro/tools/igv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for igv", "latest": {"2.17.4--hdfd78af_0": "sha256:907f906eddf34a2ef837d3de345352f1e0e0a18a879d618626dbaaec631719dc"}, "tags": {"2.9.5--hdfd78af_0": "sha256:705d2341964a242d3c1affb3d6f865017b1cb34f7d05363b879cb3fba5cd737d", "2.13.2--hdfd78af_0": "sha256:56e4a4d08eb5745855000383ba68551e3c1b5abc08b701d3c355b279020ecffd", "2.12.3--hdfd78af_0": "sha256:38d8faad5e4cdab9193d16eea21cf12f8b0ce840553bdbe5fd9029da0cb0742e", "2.11.9--hdfd78af_0": "sha256:baf40d4279868662e94be5cadeeb535e61dd39d8288db93cda27b6f119cf1713", "2.10.3--hdfd78af_0": "sha256:6dc0b8d50dc8ac97d8dc9d075cc036335911781d02c44e0c4edbee8a3155162d", "2.16.2--hdfd78af_0": "sha256:0941fa5b781f4457f51f9bd0fb938f7baffe4cd1b4e83877b40c964de1d9e11d", "2.17.4--hdfd78af_0": "sha256:907f906eddf34a2ef837d3de345352f1e0e0a18a879d618626dbaaec631719dc"}, "docker": "quay.io/biocontainers/igv"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/igv.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/igv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/igv:2.16.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/igv:2.17.4--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/igv/2.16.2--hdfd78af_0
-$ module help quay.io/biocontainers/igv/2.16.2--hdfd78af_0
+$ module load quay.io/biocontainers/igv/2.17.4--hdfd78af_0
+$ module help quay.io/biocontainers/igv/2.17.4--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

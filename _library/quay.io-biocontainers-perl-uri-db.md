@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-uri-db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-uri-db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-uri-db/container.yaml"
-updated_at: "2024-04-18 03:01:59.665536"
-latest: "0.21--pl5321hdfd78af_0"
+updated_at: "2024-04-19 02:36:48.980537"
+latest: "0.22--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-uri-db"
 
 versions:
  - "0.21--pl5321hdfd78af_0"
+ - "0.22--pl5321hdfd78af_0"
 description: "singularity registry hpc automated addition for perl-uri-db"
-config: {"url": "https://biocontainers.pro/tools/perl-uri-db", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-uri-db", "latest": {"0.21--pl5321hdfd78af_0": "sha256:af667119bb8fae1bae141f94665ea50caaba390596f30300145fe2c45cf7d18a"}, "tags": {"0.21--pl5321hdfd78af_0": "sha256:af667119bb8fae1bae141f94665ea50caaba390596f30300145fe2c45cf7d18a"}, "docker": "quay.io/biocontainers/perl-uri-db"}
+config: {"url": "https://biocontainers.pro/tools/perl-uri-db", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-uri-db", "latest": {"0.22--pl5321hdfd78af_0": "sha256:fa05948c72d44c0b43475b22116ad1a1c241a2fb4888a6e4819c75e43c239b44"}, "tags": {"0.21--pl5321hdfd78af_0": "sha256:af667119bb8fae1bae141f94665ea50caaba390596f30300145fe2c45cf7d18a", "0.22--pl5321hdfd78af_0": "sha256:fa05948c72d44c0b43475b22116ad1a1c241a2fb4888a6e4819c75e43c239b44"}, "docker": "quay.io/biocontainers/perl-uri-db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-uri-db.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/perl-uri-db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-uri-db:0.21--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-uri-db:0.22--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-uri-db/0.21--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-uri-db/0.21--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-uri-db/0.22--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-uri-db/0.22--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnashapes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnashapes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnashapes/container.yaml"
-updated_at: "2024-04-18 03:05:55.905034"
+updated_at: "2024-04-19 02:40:46.849010"
 latest: "3.3.2--pl5321h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/rnashapes"
 aliases:

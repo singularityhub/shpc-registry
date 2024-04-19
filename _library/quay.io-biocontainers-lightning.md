@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lightning"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lightning/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lightning/container.yaml"
-updated_at: "2024-04-18 02:52:56.561782"
+updated_at: "2024-04-19 02:27:41.014912"
 latest: "0.2.dev0--py36_0"
 container_url: "https://biocontainers.pro/tools/lightning"
 aliases:

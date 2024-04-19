@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/ribotricer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribotricer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribotricer/container.yaml"
-updated_at: "2024-04-18 03:15:18.753934"
-latest: "1.3.3--pyhdfd78af_0"
+updated_at: "2024-04-19 02:50:13.438630"
+latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ribotricer"
 
 versions:
  - "1.3.2--py_0"
  - "1.3.3--pyhdfd78af_0"
+ - "1.4.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ribotricer"
-config: {"url": "https://biocontainers.pro/tools/ribotricer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ribotricer", "latest": {"1.3.3--pyhdfd78af_0": "sha256:3e3ce814218b50555886b5d94697085d1c17de815a56dd20aa3b6408226d0e06"}, "tags": {"1.3.2--py_0": "sha256:ee66d39c752f32f2b5de489d36063bc74e6739a2637fc78dd084ec116f3b4af3", "1.3.3--pyhdfd78af_0": "sha256:3e3ce814218b50555886b5d94697085d1c17de815a56dd20aa3b6408226d0e06"}, "docker": "quay.io/biocontainers/ribotricer"}
+config: {"url": "https://biocontainers.pro/tools/ribotricer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ribotricer", "latest": {"1.4.0--pyhdfd78af_0": "sha256:09b1efa9f235a38319126d712e332ed09742c72896a4438627c2bd4e5f93623f"}, "tags": {"1.3.2--py_0": "sha256:ee66d39c752f32f2b5de489d36063bc74e6739a2637fc78dd084ec116f3b4af3", "1.3.3--pyhdfd78af_0": "sha256:3e3ce814218b50555886b5d94697085d1c17de815a56dd20aa3b6408226d0e06", "1.4.0--pyhdfd78af_0": "sha256:09b1efa9f235a38319126d712e332ed09742c72896a4438627c2bd4e5f93623f"}, "docker": "quay.io/biocontainers/ribotricer"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ribotricer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/ribotricer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ribotricer:1.3.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ribotricer:1.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ribotricer/1.3.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/ribotricer/1.3.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/ribotricer/1.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/ribotricer/1.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nextdenovo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextdenovo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nextdenovo/container.yaml"
-updated_at: "2024-04-18 02:53:48.722146"
+updated_at: "2024-04-19 02:28:33.708548"
 latest: "2.5.2--py39h36aabaf_3"
 container_url: "https://biocontainers.pro/tools/nextdenovo"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plant_tribes_assembly_post_processor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plant_tribes_assembly_post_processor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plant_tribes_assembly_post_processor/container.yaml"
-updated_at: "2024-04-18 02:54:08.831858"
+updated_at: "2024-04-19 02:28:54.001352"
 latest: "1.0.4--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/plant_tribes_assembly_post_processor"
 aliases:

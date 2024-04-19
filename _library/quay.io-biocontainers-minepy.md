@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minepy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minepy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minepy/container.yaml"
-updated_at: "2024-04-18 03:23:04.503040"
+updated_at: "2024-04-19 02:58:02.640691"
 latest: "1.2.3--py36h14c3975_0"
 container_url: "https://biocontainers.pro/tools/minepy"
 aliases:
