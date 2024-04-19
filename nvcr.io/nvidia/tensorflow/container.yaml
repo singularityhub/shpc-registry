@@ -6,7 +6,7 @@ description: TensorFlow is an open-source software library for high-performance 
   a variety of platforms (CPUs, GPUs, TPUs), and from desktops to clusters of servers
   to mobile and edge devices.
 latest:
-  24.02-tf2-py3-igpu: sha256:3de8a232b25d658d7c5ae34c4fa04d1a9823b0a681636c8864f76d109a9528c9
+  24.03-tf2-py3-igpu: sha256:e0aa8f42a48bbfb4ab39884f7c8a47442bababfee65063efd6edcaa07e63d9e0
 tags:
   21.02-tf1-py3: sha256:74f3e5f4a60a312df811ee5104baa189d158697953a91e7768f777895bb1d438
   21.03-tf1-py3: sha256:addbbdccb193849d58083154458318b2aa9b7945d9975284291b08b4336415e1
@@ -45,6 +45,7 @@ tags:
   23.11-tf2-py3-igpu: sha256:2e2c23a5a400e69bdaacb57ba2be8beed0a01d43569426e3ba6c219515c3eb04
   23.10-tf2-py3: sha256:7499bad0c8ab4cfad604adf8e88dd42c319207a96bebcc0fa5c5dff41e688f7d
   24.02-tf2-py3-igpu: sha256:3de8a232b25d658d7c5ae34c4fa04d1a9823b0a681636c8864f76d109a9528c9
+  24.03-tf2-py3-igpu: sha256:e0aa8f42a48bbfb4ab39884f7c8a47442bababfee65063efd6edcaa07e63d9e0
 filter:
 - 21*
 features:

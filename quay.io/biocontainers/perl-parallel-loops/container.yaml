@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-parallel-loops
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-parallel-loops
 latest:
-  0.10--pl5321hdfd78af_1: sha256:caa9346c1ff9cc78d1d916bb33eb0b9105742415932abd2ef5fec067d6287dc2
+  0.12--pl5321hdfd78af_0: sha256:4eb1c1e8501a39871ae150d02a735470e6d886a65db7008018f09f0b37c44e1c
 tags:
   0.10--pl5321hdfd78af_1: sha256:caa9346c1ff9cc78d1d916bb33eb0b9105742415932abd2ef5fec067d6287dc2
+  0.12--pl5321hdfd78af_0: sha256:4eb1c1e8501a39871ae150d02a735470e6d886a65db7008018f09f0b37c44e1c
 docker: quay.io/biocontainers/perl-parallel-loops
 aliases:
   moose-outdated: /usr/local/bin/moose-outdated

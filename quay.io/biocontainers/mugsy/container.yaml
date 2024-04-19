@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mugsy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mugsy
 latest:
-  1.2.3--hdfd78af_4: sha256:5764b6bc25ed1a6ba912154db34db2d2d5d260df3903a7327d4b3ad418475810
+  1.2.3--hdfd78af_5: sha256:78150905cca9f026016c132fa8939a35b29f81ef150c21fee88656e1c5d521d6
 tags:
   1.2.3--hdfd78af_4: sha256:5764b6bc25ed1a6ba912154db34db2d2d5d260df3903a7327d4b3ad418475810
+  1.2.3--hdfd78af_5: sha256:78150905cca9f026016c132fa8939a35b29f81ef150c21fee88656e1c5d521d6
 docker: quay.io/biocontainers/mugsy
 aliases:
   delta-dups.sh: /usr/local/bin/delta-dups.sh
