@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/prokbert
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for prokbert
 latest:
-  0.0.40--pyhdfd78af_0: sha256:eee5c4d2e751575bdfb0c85b716c5963098def50188ebab1a10e7d5478bc88c3
+  0.0.44--pyhdfd78af_0: sha256:dd64382cf3c0d13fa2d1559a67f16ac2bd87c51daeabe79811354efa7f755896
 tags:
   0.0.40--pyhdfd78af_0: sha256:eee5c4d2e751575bdfb0c85b716c5963098def50188ebab1a10e7d5478bc88c3
+  0.0.44--pyhdfd78af_0: sha256:dd64382cf3c0d13fa2d1559a67f16ac2bd87c51daeabe79811354efa7f755896
 docker: quay.io/biocontainers/prokbert
 aliases:
   cmtime: /usr/local/bin/cmtime
