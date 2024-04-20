@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-parallel-loops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-parallel-loops/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-parallel-loops/container.yaml"
-updated_at: "2024-04-19 02:49:09.797656"
-latest: "0.10--pl5321hdfd78af_1"
+updated_at: "2024-04-20 02:45:10.681535"
+latest: "0.12--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-parallel-loops"
 aliases:
  - "moose-outdated"
@@ -15,8 +15,9 @@ aliases:
  - "streamzip"
 versions:
  - "0.10--pl5321hdfd78af_1"
+ - "0.12--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-parallel-loops"
-config: {"url": "https://biocontainers.pro/tools/perl-parallel-loops", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-parallel-loops", "latest": {"0.10--pl5321hdfd78af_1": "sha256:caa9346c1ff9cc78d1d916bb33eb0b9105742415932abd2ef5fec067d6287dc2"}, "tags": {"0.10--pl5321hdfd78af_1": "sha256:caa9346c1ff9cc78d1d916bb33eb0b9105742415932abd2ef5fec067d6287dc2"}, "docker": "quay.io/biocontainers/perl-parallel-loops", "aliases": {"moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-parallel-loops", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-parallel-loops", "latest": {"0.12--pl5321hdfd78af_0": "sha256:4eb1c1e8501a39871ae150d02a735470e6d886a65db7008018f09f0b37c44e1c"}, "tags": {"0.10--pl5321hdfd78af_1": "sha256:caa9346c1ff9cc78d1d916bb33eb0b9105742415932abd2ef5fec067d6287dc2", "0.12--pl5321hdfd78af_0": "sha256:4eb1c1e8501a39871ae150d02a735470e6d886a65db7008018f09f0b37c44e1c"}, "docker": "quay.io/biocontainers/perl-parallel-loops", "aliases": {"moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-parallel-loops.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/perl-parallel-loops
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-parallel-loops:0.10--pl5321hdfd78af_1
+$ shpc install quay.io/biocontainers/perl-parallel-loops:0.12--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-parallel-loops/0.10--pl5321hdfd78af_1
-$ module help quay.io/biocontainers/perl-parallel-loops/0.10--pl5321hdfd78af_1
+$ module load quay.io/biocontainers/perl-parallel-loops/0.12--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-parallel-loops/0.12--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/squid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/squid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/squid/container.yaml"
-updated_at: "2024-04-19 02:42:33.455478"
+updated_at: "2024-04-20 02:38:37.055556"
 latest: "1.5--h422817f_7"
 container_url: "https://biocontainers.pro/tools/squid"
 aliases:

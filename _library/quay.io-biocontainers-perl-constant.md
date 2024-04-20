@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-constant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-constant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-constant/container.yaml"
-updated_at: "2024-04-19 02:49:24.874988"
+updated_at: "2024-04-20 02:45:25.572310"
 latest: "1.33--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-constant"
 aliases:

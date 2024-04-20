@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-segmentseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-segmentseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-segmentseq/container.yaml"
-updated_at: "2024-04-19 02:45:53.101469"
+updated_at: "2024-04-20 02:41:55.466523"
 latest: "2.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-segmentseq"
 
