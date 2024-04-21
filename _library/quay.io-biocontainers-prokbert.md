@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/prokbert"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prokbert/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prokbert/container.yaml"
-updated_at: "2024-04-20 02:43:27.616573"
-latest: "0.0.40--pyhdfd78af_0"
+updated_at: "2024-04-21 02:47:40.843079"
+latest: "0.0.44--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/prokbert"
 aliases:
  - "cmtime"
@@ -63,8 +63,9 @@ aliases:
  - "orc-scan"
 versions:
  - "0.0.40--pyhdfd78af_0"
+ - "0.0.44--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for prokbert"
-config: {"url": "https://biocontainers.pro/tools/prokbert", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for prokbert", "latest": {"0.0.40--pyhdfd78af_0": "sha256:eee5c4d2e751575bdfb0c85b716c5963098def50188ebab1a10e7d5478bc88c3"}, "tags": {"0.0.40--pyhdfd78af_0": "sha256:eee5c4d2e751575bdfb0c85b716c5963098def50188ebab1a10e7d5478bc88c3"}, "docker": "quay.io/biocontainers/prokbert", "aliases": {"cmtime": "/usr/local/bin/cmtime", "datasets-cli": "/usr/local/bin/datasets-cli", "get_gprof": "/usr/local/bin/get_gprof", "huggingface-cli": "/usr/local/bin/huggingface-cli", "ib_acme": "/usr/local/bin/ib_acme", "ibv_asyncwatch": "/usr/local/bin/ibv_asyncwatch", "ibv_devices": "/usr/local/bin/ibv_devices", "ibv_devinfo": "/usr/local/bin/ibv_devinfo", "ibv_rc_pingpong": "/usr/local/bin/ibv_rc_pingpong", "ibv_srq_pingpong": "/usr/local/bin/ibv_srq_pingpong", "ibv_uc_pingpong": "/usr/local/bin/ibv_uc_pingpong", "ibv_ud_pingpong": "/usr/local/bin/ibv_ud_pingpong", "ibv_xsrq_pingpong": "/usr/local/bin/ibv_xsrq_pingpong", "mckey": "/usr/local/bin/mckey", "protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "rcopy": "/usr/local/bin/rcopy", "rdma_client": "/usr/local/bin/rdma_client", "rdma_server": "/usr/local/bin/rdma_server", "rdma_xclient": "/usr/local/bin/rdma_xclient", "rdma_xserver": "/usr/local/bin/rdma_xserver", "riostream": "/usr/local/bin/riostream", "rping": "/usr/local/bin/rping", "rstream": "/usr/local/bin/rstream", "sacremoses": "/usr/local/bin/sacremoses", "transformers-cli": "/usr/local/bin/transformers-cli", "ucmatose": "/usr/local/bin/ucmatose", "udaddy": "/usr/local/bin/udaddy", "udpong": "/usr/local/bin/udpong", "cpuinfo": "/usr/local/bin/cpuinfo", "io_demo": "/usr/local/bin/io_demo", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan"}}
+config: {"url": "https://biocontainers.pro/tools/prokbert", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for prokbert", "latest": {"0.0.44--pyhdfd78af_0": "sha256:dd64382cf3c0d13fa2d1559a67f16ac2bd87c51daeabe79811354efa7f755896"}, "tags": {"0.0.40--pyhdfd78af_0": "sha256:eee5c4d2e751575bdfb0c85b716c5963098def50188ebab1a10e7d5478bc88c3", "0.0.44--pyhdfd78af_0": "sha256:dd64382cf3c0d13fa2d1559a67f16ac2bd87c51daeabe79811354efa7f755896"}, "docker": "quay.io/biocontainers/prokbert", "aliases": {"cmtime": "/usr/local/bin/cmtime", "datasets-cli": "/usr/local/bin/datasets-cli", "get_gprof": "/usr/local/bin/get_gprof", "huggingface-cli": "/usr/local/bin/huggingface-cli", "ib_acme": "/usr/local/bin/ib_acme", "ibv_asyncwatch": "/usr/local/bin/ibv_asyncwatch", "ibv_devices": "/usr/local/bin/ibv_devices", "ibv_devinfo": "/usr/local/bin/ibv_devinfo", "ibv_rc_pingpong": "/usr/local/bin/ibv_rc_pingpong", "ibv_srq_pingpong": "/usr/local/bin/ibv_srq_pingpong", "ibv_uc_pingpong": "/usr/local/bin/ibv_uc_pingpong", "ibv_ud_pingpong": "/usr/local/bin/ibv_ud_pingpong", "ibv_xsrq_pingpong": "/usr/local/bin/ibv_xsrq_pingpong", "mckey": "/usr/local/bin/mckey", "protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "rcopy": "/usr/local/bin/rcopy", "rdma_client": "/usr/local/bin/rdma_client", "rdma_server": "/usr/local/bin/rdma_server", "rdma_xclient": "/usr/local/bin/rdma_xclient", "rdma_xserver": "/usr/local/bin/rdma_xserver", "riostream": "/usr/local/bin/riostream", "rping": "/usr/local/bin/rping", "rstream": "/usr/local/bin/rstream", "sacremoses": "/usr/local/bin/sacremoses", "transformers-cli": "/usr/local/bin/transformers-cli", "ucmatose": "/usr/local/bin/ucmatose", "udaddy": "/usr/local/bin/udaddy", "udpong": "/usr/local/bin/udpong", "cpuinfo": "/usr/local/bin/cpuinfo", "io_demo": "/usr/local/bin/io_demo", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "produce_x_platform_fuzz_corpus": "/usr/local/bin/produce_x_platform_fuzz_corpus", "run_x_platform_fuzz_corpus": "/usr/local/bin/run_x_platform_fuzz_corpus", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prokbert.
@@ -79,7 +80,7 @@ $ shpc install quay.io/biocontainers/prokbert
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/prokbert:0.0.40--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/prokbert:0.0.44--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -91,8 +92,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/prokbert/0.0.40--pyhdfd78af_0
-$ module help quay.io/biocontainers/prokbert/0.0.40--pyhdfd78af_0
+$ module load quay.io/biocontainers/prokbert/0.0.44--pyhdfd78af_0
+$ module help quay.io/biocontainers/prokbert/0.0.44--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

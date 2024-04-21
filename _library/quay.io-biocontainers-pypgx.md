@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pypgx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypgx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pypgx/container.yaml"
-updated_at: "2024-04-20 03:06:40.987425"
-latest: "0.23.0--pyh7cba7a3_0"
+updated_at: "2024-04-21 03:10:44.063579"
+latest: "0.24.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/pypgx"
 aliases:
  - "fuc"
@@ -31,8 +31,9 @@ versions:
  - "0.21.0--pyh7cba7a3_0"
  - "0.22.0--pyh7cba7a3_0"
  - "0.23.0--pyh7cba7a3_0"
+ - "0.24.0--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for pypgx"
-config: {"url": "https://biocontainers.pro/tools/pypgx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pypgx", "latest": {"0.23.0--pyh7cba7a3_0": "sha256:2469b2bf6e62e906b75a0cc87c00ff48f259735b7d10cb1fedcdc0406b59d525"}, "tags": {"0.9.0--pyh5e36f6f_0": "sha256:86f03a8935c7c972a8e1823eff4439c472b5cc86daff176929abf6a6f01957e2", "0.19.0--pyh7cba7a3_0": "sha256:ec1484fc3e6d3ca332fd18c4750bd53537f4a2c50d484fe8da83822e07f8c4cb", "0.18.0--pyh5e36f6f_0": "sha256:2f5cf0fde84bd9539c2e790c535f971163fbd5a1cd14a3056d856d67c47916d3", "0.17.0--pyh5e36f6f_0": "sha256:64cab45134fa1c6739021a5ea59011c2faf753339fc7a3c146ee3c21589b4fca", "0.16.0--pyh5e36f6f_0": "sha256:073a2b683cb8c31cd3234861aedb8424c42677bb3c32b21719bcdb613e889228", "0.15.0--pyh5e36f6f_0": "sha256:28b73104906a4990a9129d8222d406feafaac81542c739f341dee719e229a372", "0.20.0--pyh7cba7a3_0": "sha256:8ff58238ba3715c738de130e8274553beef212cc1d0269fe617fb943a09d6689", "0.21.0--pyh7cba7a3_0": "sha256:0965024b75f2255ee328aae4999c49c405c7c759e39e3537de41d82095111e10", "0.22.0--pyh7cba7a3_0": "sha256:a282559940934709cb23b9f8cfff81fbf7a99581fb5e88915af065613d6e9945", "0.23.0--pyh7cba7a3_0": "sha256:2469b2bf6e62e906b75a0cc87c00ff48f259735b7d10cb1fedcdc0406b59d525"}, "docker": "quay.io/biocontainers/pypgx", "aliases": {"fuc": "/usr/local/bin/fuc", "pypgx": "/usr/local/bin/pypgx", "tabulate": "/usr/local/bin/tabulate", "natsort": "/usr/local/bin/natsort", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "jaotc": "/usr/local/bin/jaotc"}}
+config: {"url": "https://biocontainers.pro/tools/pypgx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pypgx", "latest": {"0.24.0--pyh7cba7a3_0": "sha256:954a3729466b920dfbf0a665e85890c6219fa60b4d5c0b9c206b8a6afab8d7b4"}, "tags": {"0.9.0--pyh5e36f6f_0": "sha256:86f03a8935c7c972a8e1823eff4439c472b5cc86daff176929abf6a6f01957e2", "0.19.0--pyh7cba7a3_0": "sha256:ec1484fc3e6d3ca332fd18c4750bd53537f4a2c50d484fe8da83822e07f8c4cb", "0.18.0--pyh5e36f6f_0": "sha256:2f5cf0fde84bd9539c2e790c535f971163fbd5a1cd14a3056d856d67c47916d3", "0.17.0--pyh5e36f6f_0": "sha256:64cab45134fa1c6739021a5ea59011c2faf753339fc7a3c146ee3c21589b4fca", "0.16.0--pyh5e36f6f_0": "sha256:073a2b683cb8c31cd3234861aedb8424c42677bb3c32b21719bcdb613e889228", "0.15.0--pyh5e36f6f_0": "sha256:28b73104906a4990a9129d8222d406feafaac81542c739f341dee719e229a372", "0.20.0--pyh7cba7a3_0": "sha256:8ff58238ba3715c738de130e8274553beef212cc1d0269fe617fb943a09d6689", "0.21.0--pyh7cba7a3_0": "sha256:0965024b75f2255ee328aae4999c49c405c7c759e39e3537de41d82095111e10", "0.22.0--pyh7cba7a3_0": "sha256:a282559940934709cb23b9f8cfff81fbf7a99581fb5e88915af065613d6e9945", "0.23.0--pyh7cba7a3_0": "sha256:2469b2bf6e62e906b75a0cc87c00ff48f259735b7d10cb1fedcdc0406b59d525", "0.24.0--pyh7cba7a3_0": "sha256:954a3729466b920dfbf0a665e85890c6219fa60b4d5c0b9c206b8a6afab8d7b4"}, "docker": "quay.io/biocontainers/pypgx", "aliases": {"fuc": "/usr/local/bin/fuc", "pypgx": "/usr/local/bin/pypgx", "tabulate": "/usr/local/bin/tabulate", "natsort": "/usr/local/bin/natsort", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "jaotc": "/usr/local/bin/jaotc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pypgx.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/pypgx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pypgx:0.23.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/pypgx:0.24.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pypgx/0.23.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/pypgx/0.23.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/pypgx/0.24.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/pypgx/0.24.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

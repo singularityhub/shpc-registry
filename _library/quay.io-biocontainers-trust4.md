@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/trust4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trust4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trust4/container.yaml"
-updated_at: "2024-04-20 02:32:18.878142"
-latest: "1.0.14--h43eeafb_0"
+updated_at: "2024-04-21 02:36:29.719518"
+latest: "1.1.0--h43eeafb_0"
 container_url: "https://biocontainers.pro/tools/trust4"
 aliases:
  - "BuildDatabaseFa.pl"
@@ -29,8 +29,9 @@ versions:
  - "1.0.12--h43eeafb_0"
  - "1.0.13--h43eeafb_0"
  - "1.0.14--h43eeafb_0"
+ - "1.1.0--h43eeafb_0"
 description: "shpc-registry automated BioContainers addition for trust4"
-config: {"url": "https://biocontainers.pro/tools/trust4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trust4", "latest": {"1.0.14--h43eeafb_0": "sha256:d045e80cad6e7b22ad480b09f6c994478de4f26a01629844b4a4c6b796da152d"}, "tags": {"1.0.7--h5b5514e_0": "sha256:c2ebbe6ff6cc24630eb0aa6ea17295e9138e5d0612993b41fddd60398082836e", "1.0.8--h5b5514e_0": "sha256:86c7b2b07f9fdd7f87f1ee9fccabacdfd3fdc8222bc5276582910bae9a389697", "1.0.9--h5b5514e_0": "sha256:0bfe7f8942e91a15bf06179c67479961d0a85d6125d2a4a886a47288f3f656df", "1.0.10--h43eeafb_1": "sha256:add817375e0b9ddfc026b5dc1bb8a7748bbe3df139b14523205f9ee82b0fcdbb", "1.0.12--h43eeafb_0": "sha256:bae8cefd755bf9861ad6ca4da30cb1625142f87e3e38d791407d2e9e8b5c78b8", "1.0.13--h43eeafb_0": "sha256:e0852ee5609e9e9c80a4914b4d5740faa4bedcf860b9231925a96c7bd04bfeab", "1.0.14--h43eeafb_0": "sha256:d045e80cad6e7b22ad480b09f6c994478de4f26a01629844b4a4c6b796da152d"}, "docker": "quay.io/biocontainers/trust4", "aliases": {"BuildDatabaseFa.pl": "/usr/local/bin/BuildDatabaseFa.pl", "BuildImgtAnnot.pl": "/usr/local/bin/BuildImgtAnnot.pl", "annotator": "/usr/local/bin/annotator", "bam-extractor": "/usr/local/bin/bam-extractor", "fastq-extractor": "/usr/local/bin/fastq-extractor", "run-trust4": "/usr/local/bin/run-trust4", "trust-airr.pl": "/usr/local/bin/trust-airr.pl", "trust-barcoderep.pl": "/usr/local/bin/trust-barcoderep.pl", "trust-simplerep.pl": "/usr/local/bin/trust-simplerep.pl", "trust-smartseq.pl": "/usr/local/bin/trust-smartseq.pl", "trust4": "/usr/local/bin/trust4", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/trust4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trust4", "latest": {"1.1.0--h43eeafb_0": "sha256:b3fa0455fcbe83b5a204f1a9f34112c582111babf770854344a89af8578f0540"}, "tags": {"1.0.7--h5b5514e_0": "sha256:c2ebbe6ff6cc24630eb0aa6ea17295e9138e5d0612993b41fddd60398082836e", "1.0.8--h5b5514e_0": "sha256:86c7b2b07f9fdd7f87f1ee9fccabacdfd3fdc8222bc5276582910bae9a389697", "1.0.9--h5b5514e_0": "sha256:0bfe7f8942e91a15bf06179c67479961d0a85d6125d2a4a886a47288f3f656df", "1.0.10--h43eeafb_1": "sha256:add817375e0b9ddfc026b5dc1bb8a7748bbe3df139b14523205f9ee82b0fcdbb", "1.0.12--h43eeafb_0": "sha256:bae8cefd755bf9861ad6ca4da30cb1625142f87e3e38d791407d2e9e8b5c78b8", "1.0.13--h43eeafb_0": "sha256:e0852ee5609e9e9c80a4914b4d5740faa4bedcf860b9231925a96c7bd04bfeab", "1.0.14--h43eeafb_0": "sha256:d045e80cad6e7b22ad480b09f6c994478de4f26a01629844b4a4c6b796da152d", "1.1.0--h43eeafb_0": "sha256:b3fa0455fcbe83b5a204f1a9f34112c582111babf770854344a89af8578f0540"}, "docker": "quay.io/biocontainers/trust4", "aliases": {"BuildDatabaseFa.pl": "/usr/local/bin/BuildDatabaseFa.pl", "BuildImgtAnnot.pl": "/usr/local/bin/BuildImgtAnnot.pl", "annotator": "/usr/local/bin/annotator", "bam-extractor": "/usr/local/bin/bam-extractor", "fastq-extractor": "/usr/local/bin/fastq-extractor", "run-trust4": "/usr/local/bin/run-trust4", "trust-airr.pl": "/usr/local/bin/trust-airr.pl", "trust-barcoderep.pl": "/usr/local/bin/trust-barcoderep.pl", "trust-simplerep.pl": "/usr/local/bin/trust-simplerep.pl", "trust-smartseq.pl": "/usr/local/bin/trust-smartseq.pl", "trust4": "/usr/local/bin/trust4", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trust4.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/trust4
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trust4:1.0.14--h43eeafb_0
+$ shpc install quay.io/biocontainers/trust4:1.1.0--h43eeafb_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trust4/1.0.14--h43eeafb_0
-$ module help quay.io/biocontainers/trust4/1.0.14--h43eeafb_0
+$ module load quay.io/biocontainers/trust4/1.1.0--h43eeafb_0
+$ module help quay.io/biocontainers/trust4/1.1.0--h43eeafb_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

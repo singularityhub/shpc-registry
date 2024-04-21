@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/umis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/umis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/umis/container.yaml"
-updated_at: "2024-04-20 02:37:47.425346"
+updated_at: "2024-04-21 02:42:05.157462"
 latest: "1.0.9--py27h9801fc8_0"
 container_url: "https://biocontainers.pro/tools/umis"
 

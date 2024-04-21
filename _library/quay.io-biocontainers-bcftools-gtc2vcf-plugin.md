@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bcftools-gtc2vcf-plugin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcftools-gtc2vcf-plugin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcftools-gtc2vcf-plugin/container.yaml"
-updated_at: "2024-04-20 02:51:27.325504"
-latest: "1.19--h4dfc31f_0"
+updated_at: "2024-04-21 02:55:35.403806"
+latest: "1.19--h4dfc31f_1"
 container_url: "https://biocontainers.pro/tools/bcftools-gtc2vcf-plugin"
 aliases:
  - "guess-ploidy.py"
@@ -19,8 +19,9 @@ versions:
  - "1.9--hedc5323_0"
  - "1.19--h4dfc31f_0"
  - "1.18--h4dfc31f_0"
+ - "1.19--h4dfc31f_1"
 description: "shpc-registry automated BioContainers addition for bcftools-gtc2vcf-plugin"
-config: {"url": "https://biocontainers.pro/tools/bcftools-gtc2vcf-plugin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcftools-gtc2vcf-plugin", "latest": {"1.19--h4dfc31f_0": "sha256:7804abd6ca13359aeffd7f96de3f6294e7d1b947a059ab2e8078cb1e99d6c688"}, "tags": {"1.9--hedc5323_0": "sha256:01ca58c4a338f64be8b0970710da7e4afca0722f1bf289d3498c6f914a6c7faf", "1.19--h4dfc31f_0": "sha256:7804abd6ca13359aeffd7f96de3f6294e7d1b947a059ab2e8078cb1e99d6c688", "1.18--h4dfc31f_0": "sha256:ffd0217f26bf3dd19344d8e46f40b6c5a5e161795f934571dab88ea1b911ad2a"}, "docker": "quay.io/biocontainers/bcftools-gtc2vcf-plugin", "aliases": {"guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
+config: {"url": "https://biocontainers.pro/tools/bcftools-gtc2vcf-plugin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcftools-gtc2vcf-plugin", "latest": {"1.19--h4dfc31f_1": "sha256:28be9423834d565c92ba7f58afab2b7c19f77cf23d7d6c4fb1e2a3e92d9a4fef"}, "tags": {"1.9--hedc5323_0": "sha256:01ca58c4a338f64be8b0970710da7e4afca0722f1bf289d3498c6f914a6c7faf", "1.19--h4dfc31f_0": "sha256:7804abd6ca13359aeffd7f96de3f6294e7d1b947a059ab2e8078cb1e99d6c688", "1.18--h4dfc31f_0": "sha256:ffd0217f26bf3dd19344d8e46f40b6c5a5e161795f934571dab88ea1b911ad2a", "1.19--h4dfc31f_1": "sha256:28be9423834d565c92ba7f58afab2b7c19f77cf23d7d6c4fb1e2a3e92d9a4fef"}, "docker": "quay.io/biocontainers/bcftools-gtc2vcf-plugin", "aliases": {"guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bcftools-gtc2vcf-plugin.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bcftools-gtc2vcf-plugin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bcftools-gtc2vcf-plugin:1.19--h4dfc31f_0
+$ shpc install quay.io/biocontainers/bcftools-gtc2vcf-plugin:1.19--h4dfc31f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bcftools-gtc2vcf-plugin/1.19--h4dfc31f_0
-$ module help quay.io/biocontainers/bcftools-gtc2vcf-plugin/1.19--h4dfc31f_0
+$ module load quay.io/biocontainers/bcftools-gtc2vcf-plugin/1.19--h4dfc31f_1
+$ module help quay.io/biocontainers/bcftools-gtc2vcf-plugin/1.19--h4dfc31f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

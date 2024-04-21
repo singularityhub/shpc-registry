@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-crbhits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-crbhits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-crbhits/container.yaml"
-updated_at: "2024-04-20 02:25:35.392881"
-latest: "0.0.4--r43hdbdd923_1"
+updated_at: "2024-04-21 02:29:42.290839"
+latest: "0.0.5--r43hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/r-crbhits"
 aliases:
  - "git2"
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "0.0.4--r42hdbdd923_0"
  - "0.0.4--r43hdbdd923_1"
+ - "0.0.5--r43hdbdd923_0"
 description: "singularity registry hpc automated addition for r-crbhits"
-config: {"url": "https://biocontainers.pro/tools/r-crbhits", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-crbhits", "latest": {"0.0.4--r43hdbdd923_1": "sha256:ab7735fe318617fdf05d28d1de36ce16dc489ee394ca39d96e2800151f2f3c82"}, "tags": {"0.0.4--r42hdbdd923_0": "sha256:e096a6d532bdcb4a9c5e0c3bb9319194538d2478ae3355a7b7af1691a21e2d98", "0.0.4--r43hdbdd923_1": "sha256:ab7735fe318617fdf05d28d1de36ce16dc489ee394ca39d96e2800151f2f3c82"}, "docker": "quay.io/biocontainers/r-crbhits", "aliases": {"git2": "/usr/local/bin/git2", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-crbhits", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-crbhits", "latest": {"0.0.5--r43hdbdd923_0": "sha256:523073834317f0e208fd0f5788450159932d39f3f774f91da61bc1aa02b50727"}, "tags": {"0.0.4--r42hdbdd923_0": "sha256:e096a6d532bdcb4a9c5e0c3bb9319194538d2478ae3355a7b7af1691a21e2d98", "0.0.4--r43hdbdd923_1": "sha256:ab7735fe318617fdf05d28d1de36ce16dc489ee394ca39d96e2800151f2f3c82", "0.0.5--r43hdbdd923_0": "sha256:523073834317f0e208fd0f5788450159932d39f3f774f91da61bc1aa02b50727"}, "docker": "quay.io/biocontainers/r-crbhits", "aliases": {"git2": "/usr/local/bin/git2", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-crbhits.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/r-crbhits
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-crbhits:0.0.4--r43hdbdd923_1
+$ shpc install quay.io/biocontainers/r-crbhits:0.0.5--r43hdbdd923_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-crbhits/0.0.4--r43hdbdd923_1
-$ module help quay.io/biocontainers/r-crbhits/0.0.4--r43hdbdd923_1
+$ module load quay.io/biocontainers/r-crbhits/0.0.5--r43hdbdd923_0
+$ module help quay.io/biocontainers/r-crbhits/0.0.5--r43hdbdd923_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
