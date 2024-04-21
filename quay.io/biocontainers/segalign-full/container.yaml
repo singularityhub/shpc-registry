@@ -5,6 +5,7 @@ latest:
   0.1.2--hdfd78af_1: sha256:9dc369f7d2847366c58c1ec3460a6f31bd75216ef5c7e9201997fef44867b21d
 tags:
   0.1.2--hdfd78af_1: sha256:9dc369f7d2847366c58c1ec3460a6f31bd75216ef5c7e9201997fef44867b21d
+  0.1.2.1--hdfd78af_0: sha256:9ed4c344d030c38b5f14dea0227a77ac148b8d4468d51ba91a19405ca6380c31
 docker: quay.io/biocontainers/segalign-full
 aliases:
   lastz: /usr/local/bin/lastz
