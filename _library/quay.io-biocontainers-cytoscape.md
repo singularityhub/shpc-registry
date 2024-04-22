@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cytoscape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cytoscape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cytoscape/container.yaml"
-updated_at: "2024-04-21 02:47:43.852350"
-latest: "3.10.1--he65b2d3_0"
+updated_at: "2024-04-22 02:47:11.038869"
+latest: "3.10.2--he65b2d3_0"
 container_url: "https://biocontainers.pro/tools/cytoscape"
 aliases:
  - "Cytoscape"
@@ -24,8 +24,9 @@ versions:
  - "3.9.1--hadc2ddb_0"
  - "3.9.1--he65b2d3_1"
  - "3.10.1--he65b2d3_0"
+ - "3.10.2--he65b2d3_0"
 description: "shpc-registry automated BioContainers addition for cytoscape"
-config: {"url": "https://biocontainers.pro/tools/cytoscape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cytoscape", "latest": {"3.10.1--he65b2d3_0": "sha256:b862e314c907a2956c82f5b6b35481ca8ae8194529533b3d1008d044b4a3422d"}, "tags": {"3.9.1--hadc2ddb_0": "sha256:080341a76cb6855437cd126b260c5d9443dbc1bdc7f453793b21fd344212b312", "3.9.1--he65b2d3_1": "sha256:ace1e1888db6aa701ffb6bd352ed7c441107acaf04dfe0aa30808b63713850eb", "3.10.1--he65b2d3_0": "sha256:b862e314c907a2956c82f5b6b35481ca8ae8194529533b3d1008d044b4a3422d"}, "docker": "quay.io/biocontainers/cytoscape", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell"}}
+config: {"url": "https://biocontainers.pro/tools/cytoscape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cytoscape", "latest": {"3.10.2--he65b2d3_0": "sha256:f39c384ec38a4dca4868560dd073881412c5b5f6e8e922dd88f8668303635cf9"}, "tags": {"3.9.1--hadc2ddb_0": "sha256:080341a76cb6855437cd126b260c5d9443dbc1bdc7f453793b21fd344212b312", "3.9.1--he65b2d3_1": "sha256:ace1e1888db6aa701ffb6bd352ed7c441107acaf04dfe0aa30808b63713850eb", "3.10.1--he65b2d3_0": "sha256:b862e314c907a2956c82f5b6b35481ca8ae8194529533b3d1008d044b4a3422d", "3.10.2--he65b2d3_0": "sha256:f39c384ec38a4dca4868560dd073881412c5b5f6e8e922dd88f8668303635cf9"}, "docker": "quay.io/biocontainers/cytoscape", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cytoscape.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/cytoscape
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cytoscape:3.10.1--he65b2d3_0
+$ shpc install quay.io/biocontainers/cytoscape:3.10.2--he65b2d3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cytoscape/3.10.1--he65b2d3_0
-$ module help quay.io/biocontainers/cytoscape/3.10.1--he65b2d3_0
+$ module load quay.io/biocontainers/cytoscape/3.10.2--he65b2d3_0
+$ module help quay.io/biocontainers/cytoscape/3.10.2--he65b2d3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

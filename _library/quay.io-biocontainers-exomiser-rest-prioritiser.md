@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/exomiser-rest-prioritiser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/exomiser-rest-prioritiser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/exomiser-rest-prioritiser/container.yaml"
-updated_at: "2024-04-21 02:51:26.121954"
+updated_at: "2024-04-22 02:50:53.217010"
 latest: "14.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/exomiser-rest-prioritiser"
 aliases:

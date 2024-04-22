@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/slncky"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slncky/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slncky/container.yaml"
-updated_at: "2024-04-21 02:55:12.776016"
+updated_at: "2024-04-22 02:54:39.524411"
 latest: "1.0.4--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/slncky"
 aliases:

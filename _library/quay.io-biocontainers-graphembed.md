@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/graphembed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphembed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphembed/container.yaml"
-updated_at: "2024-04-21 02:52:44.264568"
-latest: "0.1.0--hdbdd923_0"
+updated_at: "2024-04-22 02:52:11.145624"
+latest: "0.1.1--hdbdd923_1"
 container_url: "https://biocontainers.pro/tools/graphembed"
 aliases:
  - "graphembed"
 versions:
  - "0.1.0--hdbdd923_0"
+ - "0.1.1--hdbdd923_1"
 description: "singularity registry hpc automated addition for graphembed"
-config: {"url": "https://biocontainers.pro/tools/graphembed", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for graphembed", "latest": {"0.1.0--hdbdd923_0": "sha256:1c8c0ae1c70cdf15dc6dacfcb795f11960657073ddfa4960fd5a93e8d3dcc0a4"}, "tags": {"0.1.0--hdbdd923_0": "sha256:1c8c0ae1c70cdf15dc6dacfcb795f11960657073ddfa4960fd5a93e8d3dcc0a4"}, "docker": "quay.io/biocontainers/graphembed", "aliases": {"graphembed": "/usr/local/bin/graphembed"}}
+config: {"url": "https://biocontainers.pro/tools/graphembed", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for graphembed", "latest": {"0.1.1--hdbdd923_1": "sha256:c9b7cb282bd49de4215c586c712f211c628fff7b7f0b72a75d74aa90283d64f6"}, "tags": {"0.1.0--hdbdd923_0": "sha256:1c8c0ae1c70cdf15dc6dacfcb795f11960657073ddfa4960fd5a93e8d3dcc0a4", "0.1.1--hdbdd923_1": "sha256:c9b7cb282bd49de4215c586c712f211c628fff7b7f0b72a75d74aa90283d64f6"}, "docker": "quay.io/biocontainers/graphembed", "aliases": {"graphembed": "/usr/local/bin/graphembed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/graphembed.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/graphembed
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/graphembed:0.1.0--hdbdd923_0
+$ shpc install quay.io/biocontainers/graphembed:0.1.1--hdbdd923_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/graphembed/0.1.0--hdbdd923_0
-$ module help quay.io/biocontainers/graphembed/0.1.0--hdbdd923_0
+$ module load quay.io/biocontainers/graphembed/0.1.1--hdbdd923_1
+$ module help quay.io/biocontainers/graphembed/0.1.1--hdbdd923_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

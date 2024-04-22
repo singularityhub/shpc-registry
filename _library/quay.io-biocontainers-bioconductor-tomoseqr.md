@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tomoseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tomoseqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tomoseqr/container.yaml"
-updated_at: "2024-04-21 02:41:39.318125"
+updated_at: "2024-04-22 02:41:06.837042"
 latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tomoseqr"
 aliases:
