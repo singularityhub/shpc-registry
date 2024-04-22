@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/localhgt
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for localhgt
 latest:
-  1.0.1--h4ac6f70_0: sha256:b066b3045299e2a1433dded0d62906d292982a08d68181d72ebaebafb2a5740b
+  1.0.1--h4ac6f70_2: sha256:20efa1b8f0d5bd67ac947aaa868c25651e9753a9645d029fb4837964fdcd205d
 tags:
   1.0.1--h4ac6f70_0: sha256:b066b3045299e2a1433dded0d62906d292982a08d68181d72ebaebafb2a5740b
+  1.0.1--h4ac6f70_2: sha256:20efa1b8f0d5bd67ac947aaa868c25651e9753a9645d029fb4837964fdcd205d
 docker: quay.io/biocontainers/localhgt
 aliases:
   accurate_bkp.py: /usr/local/bin/accurate_bkp.py

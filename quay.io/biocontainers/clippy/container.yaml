@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/clippy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for clippy
 latest:
-  1.5.0--pyhdfd78af_0: sha256:8a162c87d0992ea655fcb7988a3d5b1354d48e7397b00bf84861519b1f14c303
+  1.5.0--pyh3cd468f_1: sha256:0a85935d0cb129b0027fff8eb113cfe114b018454e51ecb8127c60bfd55b920c
 tags:
   1.5.0--pyhdfd78af_0: sha256:8a162c87d0992ea655fcb7988a3d5b1354d48e7397b00bf84861519b1f14c303
+  1.5.0--pyh3cd468f_1: sha256:0a85935d0cb129b0027fff8eb113cfe114b018454e51ecb8127c60bfd55b920c
 docker: quay.io/biocontainers/clippy
 aliases:
   clippy: /usr/local/bin/clippy
