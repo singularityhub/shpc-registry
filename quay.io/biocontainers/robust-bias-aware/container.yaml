@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/robust-bias-aware
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for robust-bias-aware
+latest:
+  0.0.1--pyh7cba7a3_1: sha256:b682ee1666ba2cd017f24f3b97fcc7896edac02e99bcbc83a453a2e43a8136a7
+tags:
+  0.0.1--pyh7cba7a3_1: sha256:b682ee1666ba2cd017f24f3b97fcc7896edac02e99bcbc83a453a2e43a8136a7
+docker: quay.io/biocontainers/robust-bias-aware
+aliases:
+  robust-bias-aware: /usr/local/bin/robust-bias-aware
+  pybind11-config: /usr/local/bin/pybind11-config
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc
