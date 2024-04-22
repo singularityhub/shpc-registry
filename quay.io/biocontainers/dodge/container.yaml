@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/dodge
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dodge
+latest:
+  1.0.0--pyhdfd78af_0: sha256:123b8137a9dd4f34682d0c243ed210152226c56236a13cacef13011a16c5d9f6
+tags:
+  1.0.0--pyhdfd78af_0: sha256:123b8137a9dd4f34682d0c243ed210152226c56236a13cacef13011a16c5d9f6
+docker: quay.io/biocontainers/dodge
+aliases:
+  dodge: /usr/local/bin/dodge
+  dodgedists: /usr/local/bin/dodgedists
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
