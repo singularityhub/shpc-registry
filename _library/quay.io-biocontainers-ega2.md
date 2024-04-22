@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ega2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ega2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ega2/container.yaml"
-updated_at: "2024-04-22 02:30:52.497521"
+updated_at: "2024-04-22 03:03:48.816876"
 latest: "2.2.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ega2"
 aliases:

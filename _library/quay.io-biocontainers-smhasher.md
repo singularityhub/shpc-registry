@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smhasher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smhasher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smhasher/container.yaml"
-updated_at: "2024-04-22 02:32:26.664169"
+updated_at: "2024-04-22 03:05:25.443657"
 latest: "0.150.1--py39h1f90b4d_9"
 container_url: "https://biocontainers.pro/tools/smhasher"
 aliases:

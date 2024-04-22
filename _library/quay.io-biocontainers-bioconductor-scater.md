@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scater"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scater/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scater/container.yaml"
-updated_at: "2024-04-22 02:30:42.340338"
+updated_at: "2024-04-22 03:03:38.448646"
 latest: "1.30.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scater"
 

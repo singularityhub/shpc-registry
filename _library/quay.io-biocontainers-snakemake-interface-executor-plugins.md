@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-interface-executor-plugins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-interface-executor-plugins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-interface-executor-plugins/container.yaml"
-updated_at: "2024-04-22 02:56:07.030976"
+updated_at: "2024-04-22 03:29:43.614532"
 latest: "9.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-interface-executor-plugins"
 aliases:
