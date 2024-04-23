@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/annotwg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for annotwg
 latest:
-  1.0--hdfd78af_0: sha256:25432191ad9688054d20c1c2bf6e0f4504d22f271dce971aca00ccf276a201e6
+  1.0--hdfd78af_1: sha256:d8598c53e8be6fecddd8999a85b42b458fa05721bf5336ef17fd0eae16807f6e
 tags:
   1.0--hdfd78af_0: sha256:25432191ad9688054d20c1c2bf6e0f4504d22f271dce971aca00ccf276a201e6
+  1.0--hdfd78af_1: sha256:d8598c53e8be6fecddd8999a85b42b458fa05721bf5336ef17fd0eae16807f6e
 docker: quay.io/biocontainers/annotwg
 aliases:
   annotwg: /usr/local/bin/annotwg

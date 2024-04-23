@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/parsnp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for parsnp
 latest:
-  2.0.4--hdcf5f25_0: sha256:5d0b3ef0a891f7064db985564797a09e5dc0c7b3c009a11893f5a45f4f417408
+  2.0.5--hdcf5f25_0: sha256:d7954254f6af345c8c35e789a20683b4dd5eaceb2a20edd3d6a6dbd422d9479d
 tags:
   1.7.4--hd03093a_1: sha256:92ec26ccc5ad8c73fc010f9deb5594ce9e63874516ca12aad069988256fb5158
   1.7.4--hdcf5f25_2: sha256:635ec260e74a45ba1a1c98361ca0a6426214cd1a4fbf2630160621110378033f
   2.0.2--hdcf5f25_0: sha256:92f65467c9c98dee883cccf053b0846a6fd9b9a37cca30fe3fe3582017278850
   2.0.3--hdcf5f25_0: sha256:b46999fb9842f183443dd6226b461c1d8074d4c1391c1f2b1e51cc20cee8f8b2
   2.0.4--hdcf5f25_0: sha256:5d0b3ef0a891f7064db985564797a09e5dc0c7b3c009a11893f5a45f4f417408
+  2.0.5--hdcf5f25_0: sha256:d7954254f6af345c8c35e789a20683b4dd5eaceb2a20edd3d6a6dbd422d9479d
 docker: quay.io/biocontainers/parsnp
 aliases:
   Phi: /usr/local/bin/Phi

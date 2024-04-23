@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mashpit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mashpit
 latest:
-  0.9.2--pyhdfd78af_0: sha256:b9b92ec7ae5ff6dd2a77c39bed85d611a63fa35f0e878aa47c23c2d428267148
+  0.9.6--pyhdfd78af_0: sha256:ca640505c217cea431974f2b2a1778745a976a9343338ea5b9e6290d2b0cd67e
 tags:
   0.9.2--pyhdfd78af_0: sha256:b9b92ec7ae5ff6dd2a77c39bed85d611a63fa35f0e878aa47c23c2d428267148
+  0.9.6--pyhdfd78af_0: sha256:ca640505c217cea431974f2b2a1778745a976a9343338ea5b9e6290d2b0cd67e
 docker: quay.io/biocontainers/mashpit
 aliases:
   abi-dump.2.11.0: /usr/local/bin/abi-dump.2.11.0
