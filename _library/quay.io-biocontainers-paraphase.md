@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/paraphase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/paraphase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/paraphase/container.yaml"
-updated_at: "2024-04-22 03:25:53.351474"
-latest: "3.0.0--pyhdfd78af_0"
+updated_at: "2024-04-23 02:52:51.897353"
+latest: "3.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/paraphase"
 aliases:
  - "paraphase"
@@ -37,8 +37,9 @@ versions:
  - "2.2.2--pyhdfd78af_0"
  - "2.2.3--pyhdfd78af_0"
  - "3.0.0--pyhdfd78af_0"
+ - "3.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for paraphase"
-config: {"url": "https://biocontainers.pro/tools/paraphase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for paraphase", "latest": {"3.0.0--pyhdfd78af_0": "sha256:0e94943524384a95cd785bd43a00e9d5d2ee29b1cef1436afdb77a9f6b0f530f"}, "tags": {"1.1.3--pyhdfd78af_0": "sha256:bc105ab21e03a1d5730e44eb7e618486c449d5d7768cbfbcd6a77c0d30e249a1", "2.0.0--pyhdfd78af_0": "sha256:84d759ebb17fdcddabe8f92aefa0d407ed661d75cbea784f799ab58b716e0bf6", "2.1.0--pyhdfd78af_0": "sha256:b6f066afd2fac815bcec4da52aa20d9b1e8e3a5312353f66ef6a3ed15a7c6e44", "2.2.2--pyhdfd78af_0": "sha256:5445afb591635952d840ecde2f552870dc2ddd55e8f68e1994d22ae6931e7107", "2.2.3--pyhdfd78af_0": "sha256:947d04ffe5a80cfd9595cf7c50ad44680c88a9796b850ebc372ea2da50c4cc67", "3.0.0--pyhdfd78af_0": "sha256:0e94943524384a95cd785bd43a00e9d5d2ee29b1cef1436afdb77a9f6b0f530f"}, "docker": "quay.io/biocontainers/paraphase", "aliases": {"paraphase": "/usr/local/bin/paraphase", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/paraphase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for paraphase", "latest": {"3.1.1--pyhdfd78af_0": "sha256:2c9cbce0076367af79454b194aade755d9513684a8c97acb91fee4d7b4d10212"}, "tags": {"1.1.3--pyhdfd78af_0": "sha256:bc105ab21e03a1d5730e44eb7e618486c449d5d7768cbfbcd6a77c0d30e249a1", "2.0.0--pyhdfd78af_0": "sha256:84d759ebb17fdcddabe8f92aefa0d407ed661d75cbea784f799ab58b716e0bf6", "2.1.0--pyhdfd78af_0": "sha256:b6f066afd2fac815bcec4da52aa20d9b1e8e3a5312353f66ef6a3ed15a7c6e44", "2.2.2--pyhdfd78af_0": "sha256:5445afb591635952d840ecde2f552870dc2ddd55e8f68e1994d22ae6931e7107", "2.2.3--pyhdfd78af_0": "sha256:947d04ffe5a80cfd9595cf7c50ad44680c88a9796b850ebc372ea2da50c4cc67", "3.0.0--pyhdfd78af_0": "sha256:0e94943524384a95cd785bd43a00e9d5d2ee29b1cef1436afdb77a9f6b0f530f", "3.1.1--pyhdfd78af_0": "sha256:2c9cbce0076367af79454b194aade755d9513684a8c97acb91fee4d7b4d10212"}, "docker": "quay.io/biocontainers/paraphase", "aliases": {"paraphase": "/usr/local/bin/paraphase", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/paraphase.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/paraphase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/paraphase:3.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/paraphase:3.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/paraphase/3.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/paraphase/3.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/paraphase/3.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/paraphase/3.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

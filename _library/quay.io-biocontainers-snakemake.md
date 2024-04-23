@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake/container.yaml"
-updated_at: "2024-04-22 03:40:28.805408"
-latest: "8.9.0--hdfd78af_0"
+updated_at: "2024-04-23 03:07:28.629967"
+latest: "8.10.8--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "8.7.0--hdfd78af_0"
  - "8.6.0--hdfd78af_0"
  - "8.5.5--hdfd78af_0"
+ - "8.10.8--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for snakemake"
-config: {"url": "https://biocontainers.pro/tools/snakemake", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakemake", "latest": {"8.9.0--hdfd78af_0": "sha256:b64ef7f0647049d227f350406879e450d9a8a5f1e120e588bdfced0d094891f1"}, "tags": {"5.4.0--0": "sha256:babe98d0fe1badf8bca64df76b48af8d9d5595d96a23d8ec2ff6560e30f98181", "8.9.0--hdfd78af_0": "sha256:b64ef7f0647049d227f350406879e450d9a8a5f1e120e588bdfced0d094891f1", "8.8.0--hdfd78af_0": "sha256:fe71bfb1525ba30c79ddb6529b4b84734b374f4e8deaee62cb11effbaf2ad585", "8.7.0--hdfd78af_0": "sha256:af5ebbce2da9d5f5ad9a68ba7d5e050c219c8d9562710a46384ab0e1e2715db1", "8.6.0--hdfd78af_0": "sha256:10ea50c0ec1508e998b2e1a987c043dbeaa71ad5e808629ba7d5fd34d72bb969", "8.5.5--hdfd78af_0": "sha256:1b51b49baa71fcc34c9071f61c5b7fff397ce0f63a7a5035a87fc4320efc3a97"}, "docker": "quay.io/biocontainers/snakemake"}
+config: {"url": "https://biocontainers.pro/tools/snakemake", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakemake", "latest": {"8.10.8--hdfd78af_0": "sha256:43a958a4b12da111fcef111887379e3031e068e1a9670e84dd92b2c15f2465c9"}, "tags": {"5.4.0--0": "sha256:babe98d0fe1badf8bca64df76b48af8d9d5595d96a23d8ec2ff6560e30f98181", "8.9.0--hdfd78af_0": "sha256:b64ef7f0647049d227f350406879e450d9a8a5f1e120e588bdfced0d094891f1", "8.8.0--hdfd78af_0": "sha256:fe71bfb1525ba30c79ddb6529b4b84734b374f4e8deaee62cb11effbaf2ad585", "8.7.0--hdfd78af_0": "sha256:af5ebbce2da9d5f5ad9a68ba7d5e050c219c8d9562710a46384ab0e1e2715db1", "8.6.0--hdfd78af_0": "sha256:10ea50c0ec1508e998b2e1a987c043dbeaa71ad5e808629ba7d5fd34d72bb969", "8.5.5--hdfd78af_0": "sha256:1b51b49baa71fcc34c9071f61c5b7fff397ce0f63a7a5035a87fc4320efc3a97", "8.10.8--hdfd78af_0": "sha256:43a958a4b12da111fcef111887379e3031e068e1a9670e84dd92b2c15f2465c9"}, "docker": "quay.io/biocontainers/snakemake"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/snakemake
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake:8.9.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake:8.10.8--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake/8.9.0--hdfd78af_0
-$ module help quay.io/biocontainers/snakemake/8.9.0--hdfd78af_0
+$ module load quay.io/biocontainers/snakemake/8.10.8--hdfd78af_0
+$ module help quay.io/biocontainers/snakemake/8.10.8--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

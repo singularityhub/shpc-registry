@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/localhgt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/localhgt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/localhgt/container.yaml"
-updated_at: "2024-04-22 03:21:04.294696"
-latest: "1.0.1--h4ac6f70_0"
+updated_at: "2024-04-23 02:48:07.685287"
+latest: "1.0.1--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/localhgt"
 aliases:
  - "accurate_bkp.py"
@@ -50,8 +50,9 @@ aliases:
  - "export2sam.pl"
 versions:
  - "1.0.1--h4ac6f70_0"
+ - "1.0.1--h4ac6f70_2"
 description: "singularity registry hpc automated addition for localhgt"
-config: {"url": "https://biocontainers.pro/tools/localhgt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for localhgt", "latest": {"1.0.1--h4ac6f70_0": "sha256:b066b3045299e2a1433dded0d62906d292982a08d68181d72ebaebafb2a5740b"}, "tags": {"1.0.1--h4ac6f70_0": "sha256:b066b3045299e2a1433dded0d62906d292982a08d68181d72ebaebafb2a5740b"}, "docker": "quay.io/biocontainers/localhgt", "aliases": {"accurate_bkp.py": "/usr/local/bin/accurate_bkp.py", "evaluation.py": "/usr/local/bin/evaluation.py", "extractSplitReads_BwaMem.py": "/usr/local/bin/extractSplitReads_BwaMem.py", "extract_ref": "/usr/local/bin/extract_ref", "extract_transferred_seq.py": "/usr/local/bin/extract_transferred_seq.py", "generate_run_scripts.py": "/usr/local/bin/generate_run_scripts.py", "get_bed_file.py": "/usr/local/bin/get_bed_file.py", "get_raw_bkp.py": "/usr/local/bin/get_raw_bkp.py", "infer_HGT_breakpoint.py": "/usr/local/bin/infer_HGT_breakpoint.py", "infer_HGT_event.py": "/usr/local/bin/infer_HGT_event.py", "localhgt": "/usr/local/bin/localhgt", "localhgt.py": "/usr/local/bin/localhgt.py", "pipeline.sh": "/usr/local/bin/pipeline.sh", "remove_repeat.py": "/usr/local/bin/remove_repeat.py", "simulation.py": "/usr/local/bin/simulation.py", "annot-tsv": "/usr/local/bin/annot-tsv", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "seqkit": "/usr/local/bin/seqkit", "biom": "/usr/local/bin/biom", "fastp": "/usr/local/bin/fastp", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "igzip": "/usr/local/bin/igzip", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "natsort": "/usr/local/bin/natsort", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "normalizer": "/usr/local/bin/normalizer", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/localhgt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for localhgt", "latest": {"1.0.1--h4ac6f70_2": "sha256:20efa1b8f0d5bd67ac947aaa868c25651e9753a9645d029fb4837964fdcd205d"}, "tags": {"1.0.1--h4ac6f70_0": "sha256:b066b3045299e2a1433dded0d62906d292982a08d68181d72ebaebafb2a5740b", "1.0.1--h4ac6f70_2": "sha256:20efa1b8f0d5bd67ac947aaa868c25651e9753a9645d029fb4837964fdcd205d"}, "docker": "quay.io/biocontainers/localhgt", "aliases": {"accurate_bkp.py": "/usr/local/bin/accurate_bkp.py", "evaluation.py": "/usr/local/bin/evaluation.py", "extractSplitReads_BwaMem.py": "/usr/local/bin/extractSplitReads_BwaMem.py", "extract_ref": "/usr/local/bin/extract_ref", "extract_transferred_seq.py": "/usr/local/bin/extract_transferred_seq.py", "generate_run_scripts.py": "/usr/local/bin/generate_run_scripts.py", "get_bed_file.py": "/usr/local/bin/get_bed_file.py", "get_raw_bkp.py": "/usr/local/bin/get_raw_bkp.py", "infer_HGT_breakpoint.py": "/usr/local/bin/infer_HGT_breakpoint.py", "infer_HGT_event.py": "/usr/local/bin/infer_HGT_event.py", "localhgt": "/usr/local/bin/localhgt", "localhgt.py": "/usr/local/bin/localhgt.py", "pipeline.sh": "/usr/local/bin/pipeline.sh", "remove_repeat.py": "/usr/local/bin/remove_repeat.py", "simulation.py": "/usr/local/bin/simulation.py", "annot-tsv": "/usr/local/bin/annot-tsv", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "seqkit": "/usr/local/bin/seqkit", "biom": "/usr/local/bin/biom", "fastp": "/usr/local/bin/fastp", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "igzip": "/usr/local/bin/igzip", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "natsort": "/usr/local/bin/natsort", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "normalizer": "/usr/local/bin/normalizer", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/localhgt.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/localhgt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/localhgt:1.0.1--h4ac6f70_0
+$ shpc install quay.io/biocontainers/localhgt:1.0.1--h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/localhgt/1.0.1--h4ac6f70_0
-$ module help quay.io/biocontainers/localhgt/1.0.1--h4ac6f70_0
+$ module load quay.io/biocontainers/localhgt/1.0.1--h4ac6f70_2
+$ module help quay.io/biocontainers/localhgt/1.0.1--h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

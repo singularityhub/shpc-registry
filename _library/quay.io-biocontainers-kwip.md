@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kwip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kwip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kwip/container.yaml"
-updated_at: "2024-04-22 03:30:36.128562"
+updated_at: "2024-04-23 02:57:28.493321"
 latest: "0.2.0--h5b5514e_5"
 container_url: "https://biocontainers.pro/tools/kwip"
 aliases:

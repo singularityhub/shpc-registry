@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clippy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clippy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clippy/container.yaml"
-updated_at: "2024-04-22 03:27:37.283715"
-latest: "1.5.0--pyhdfd78af_0"
+updated_at: "2024-04-23 02:54:33.291329"
+latest: "1.5.0--pyh3cd468f_1"
 container_url: "https://biocontainers.pro/tools/clippy"
 aliases:
  - "clippy"
@@ -23,8 +23,9 @@ aliases:
  - "rst2latex.py"
 versions:
  - "1.5.0--pyhdfd78af_0"
+ - "1.5.0--pyh3cd468f_1"
 description: "shpc-registry automated BioContainers addition for clippy"
-config: {"url": "https://biocontainers.pro/tools/clippy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clippy", "latest": {"1.5.0--pyhdfd78af_0": "sha256:8a162c87d0992ea655fcb7988a3d5b1354d48e7397b00bf84861519b1f14c303"}, "tags": {"1.5.0--pyhdfd78af_0": "sha256:8a162c87d0992ea655fcb7988a3d5b1354d48e7397b00bf84861519b1f14c303"}, "docker": "quay.io/biocontainers/clippy", "aliases": {"clippy": "/usr/local/bin/clippy", "dash-generate-components": "/usr/local/bin/dash-generate-components", "renderer": "/usr/local/bin/renderer", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "flask": "/usr/local/bin/flask", "pybabel": "/usr/local/bin/pybabel", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py"}}
+config: {"url": "https://biocontainers.pro/tools/clippy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clippy", "latest": {"1.5.0--pyh3cd468f_1": "sha256:0a85935d0cb129b0027fff8eb113cfe114b018454e51ecb8127c60bfd55b920c"}, "tags": {"1.5.0--pyhdfd78af_0": "sha256:8a162c87d0992ea655fcb7988a3d5b1354d48e7397b00bf84861519b1f14c303", "1.5.0--pyh3cd468f_1": "sha256:0a85935d0cb129b0027fff8eb113cfe114b018454e51ecb8127c60bfd55b920c"}, "docker": "quay.io/biocontainers/clippy", "aliases": {"clippy": "/usr/local/bin/clippy", "dash-generate-components": "/usr/local/bin/dash-generate-components", "renderer": "/usr/local/bin/renderer", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "flask": "/usr/local/bin/flask", "pybabel": "/usr/local/bin/pybabel", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clippy.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/clippy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clippy:1.5.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/clippy:1.5.0--pyh3cd468f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clippy/1.5.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/clippy/1.5.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/clippy/1.5.0--pyh3cd468f_1
+$ module help quay.io/biocontainers/clippy/1.5.0--pyh3cd468f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
