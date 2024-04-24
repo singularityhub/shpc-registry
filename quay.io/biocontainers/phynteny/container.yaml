@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/phynteny
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phynteny
 latest:
-  0.1.11--pyh7cba7a3_0: sha256:158ef72ee44bbffae6a388685278230e0e9828a36709f67adadd1a8fe0fb1874
+  0.1.13--pyh7cba7a3_0: sha256:580a94679f29877cef2563b4a1efa906c015d00c57f42fef0a14be04b20c7550
 tags:
   0.1.11--pyh7cba7a3_0: sha256:158ef72ee44bbffae6a388685278230e0e9828a36709f67adadd1a8fe0fb1874
+  0.1.13--pyh7cba7a3_0: sha256:580a94679f29877cef2563b4a1efa906c015d00c57f42fef0a14be04b20c7550
 docker: quay.io/biocontainers/phynteny
 aliases:
   compute_confidence: /usr/local/bin/compute_confidence
