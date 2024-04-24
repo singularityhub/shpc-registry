@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/paplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/paplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/paplot/container.yaml"
-updated_at: "2024-04-23 02:57:21.482582"
+updated_at: "2024-04-24 02:55:39.904451"
 latest: "0.5.6--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/paplot"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/annotwg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annotwg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annotwg/container.yaml"
-updated_at: "2024-04-23 03:08:25.340859"
-latest: "1.0--hdfd78af_0"
+updated_at: "2024-04-24 03:06:18.640605"
+latest: "1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/annotwg"
 aliases:
  - "annotwg"
@@ -39,8 +39,9 @@ aliases:
  - "dd"
 versions:
  - "1.0--hdfd78af_0"
+ - "1.0--hdfd78af_1"
 description: "singularity registry hpc automated addition for annotwg"
-config: {"url": "https://biocontainers.pro/tools/annotwg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for annotwg", "latest": {"1.0--hdfd78af_0": "sha256:25432191ad9688054d20c1c2bf6e0f4504d22f271dce971aca00ccf276a201e6"}, "tags": {"1.0--hdfd78af_0": "sha256:25432191ad9688054d20c1c2bf6e0f4504d22f271dce971aca00ccf276a201e6"}, "docker": "quay.io/biocontainers/annotwg", "aliases": {"annotwg": "/usr/local/bin/annotwg", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "cutGenome": "/usr/local/bin/cutGenome", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "gff2gff.py": "/usr/local/bin/gff2gff.py", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "basenc": "/usr/local/bin/basenc", "awk": "/usr/local/bin/awk", "b2sum": "/usr/local/bin/b2sum", "gawk": "/usr/local/bin/gawk", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd"}}
+config: {"url": "https://biocontainers.pro/tools/annotwg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for annotwg", "latest": {"1.0--hdfd78af_1": "sha256:d8598c53e8be6fecddd8999a85b42b458fa05721bf5336ef17fd0eae16807f6e"}, "tags": {"1.0--hdfd78af_0": "sha256:25432191ad9688054d20c1c2bf6e0f4504d22f271dce971aca00ccf276a201e6", "1.0--hdfd78af_1": "sha256:d8598c53e8be6fecddd8999a85b42b458fa05721bf5336ef17fd0eae16807f6e"}, "docker": "quay.io/biocontainers/annotwg", "aliases": {"annotwg": "/usr/local/bin/annotwg", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "cutGenome": "/usr/local/bin/cutGenome", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "gff2gff.py": "/usr/local/bin/gff2gff.py", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "basenc": "/usr/local/bin/basenc", "awk": "/usr/local/bin/awk", "b2sum": "/usr/local/bin/b2sum", "gawk": "/usr/local/bin/gawk", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/annotwg.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/annotwg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/annotwg:1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/annotwg:1.0--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/annotwg/1.0--hdfd78af_0
-$ module help quay.io/biocontainers/annotwg/1.0--hdfd78af_0
+$ module load quay.io/biocontainers/annotwg/1.0--hdfd78af_1
+$ module help quay.io/biocontainers/annotwg/1.0--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
