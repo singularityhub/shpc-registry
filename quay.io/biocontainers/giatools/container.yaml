@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/giatools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for giatools
+latest:
+  0.1.1--pyhdfd78af_0: sha256:724daa314753502508037844637a3f3341b1647b0744dd9c58cd97b3e7301fbe
+tags:
+  0.1.1--pyhdfd78af_0: sha256:724daa314753502508037844637a3f3341b1647b0744dd9c58cd97b3e7301fbe
+docker: quay.io/biocontainers/giatools
+aliases:
+  SvtAv1DecApp: /usr/local/bin/SvtAv1DecApp
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  rav1e: /usr/local/bin/rav1e
+  dav1d: /usr/local/bin/dav1d
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
+  tiffcomment: /usr/local/bin/tiffcomment
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  imageio_download_bin: /usr/local/bin/imageio_download_bin
+  imageio_remove_bin: /usr/local/bin/imageio_remove_bin
+  skivi: /usr/local/bin/skivi
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  tjbench: /usr/local/bin/tjbench
+  brotli: /usr/local/bin/brotli
