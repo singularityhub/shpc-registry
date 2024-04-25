@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/tidyp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tidyp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tidyp/container.yaml"
-updated_at: "2024-04-24 02:37:38.770205"
-latest: "1.04--hec16e2b_4"
+updated_at: "2024-04-25 02:38:47.638995"
+latest: "1.04--h031d066_6"
 container_url: "https://biocontainers.pro/tools/tidyp"
 aliases:
  - "tidyp"
 versions:
  - "1.04--hec16e2b_4"
+ - "1.04--h031d066_6"
 description: "shpc-registry automated BioContainers addition for tidyp"
-config: {"url": "https://biocontainers.pro/tools/tidyp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tidyp", "latest": {"1.04--hec16e2b_4": "sha256:9cf2a6488ddd11bab48e6554043b323b23f5221c0fbbfbf2e09f6cf436558e71"}, "tags": {"1.04--hec16e2b_4": "sha256:9cf2a6488ddd11bab48e6554043b323b23f5221c0fbbfbf2e09f6cf436558e71"}, "docker": "quay.io/biocontainers/tidyp", "aliases": {"tidyp": "/usr/local/bin/tidyp"}}
+config: {"url": "https://biocontainers.pro/tools/tidyp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tidyp", "latest": {"1.04--h031d066_6": "sha256:35fc739c6c6fca6fe3ff925642e4b8b0c6cbc0c91c7aec6a8996aeb88767667e"}, "tags": {"1.04--hec16e2b_4": "sha256:9cf2a6488ddd11bab48e6554043b323b23f5221c0fbbfbf2e09f6cf436558e71", "1.04--h031d066_6": "sha256:35fc739c6c6fca6fe3ff925642e4b8b0c6cbc0c91c7aec6a8996aeb88767667e"}, "docker": "quay.io/biocontainers/tidyp", "aliases": {"tidyp": "/usr/local/bin/tidyp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tidyp.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/tidyp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tidyp:1.04--hec16e2b_4
+$ shpc install quay.io/biocontainers/tidyp:1.04--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tidyp/1.04--hec16e2b_4
-$ module help quay.io/biocontainers/tidyp/1.04--hec16e2b_4
+$ module load quay.io/biocontainers/tidyp/1.04--h031d066_6
+$ module help quay.io/biocontainers/tidyp/1.04--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

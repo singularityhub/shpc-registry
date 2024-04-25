@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phynteny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phynteny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phynteny/container.yaml"
-updated_at: "2024-04-24 03:03:03.023281"
-latest: "0.1.11--pyh7cba7a3_0"
+updated_at: "2024-04-25 03:04:33.755634"
+latest: "0.1.13--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/phynteny"
 aliases:
  - "compute_confidence"
@@ -41,8 +41,9 @@ aliases:
  - "protoc"
 versions:
  - "0.1.11--pyh7cba7a3_0"
+ - "0.1.13--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for phynteny"
-config: {"url": "https://biocontainers.pro/tools/phynteny", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phynteny", "latest": {"0.1.11--pyh7cba7a3_0": "sha256:158ef72ee44bbffae6a388685278230e0e9828a36709f67adadd1a8fe0fb1874"}, "tags": {"0.1.11--pyh7cba7a3_0": "sha256:158ef72ee44bbffae6a388685278230e0e9828a36709f67adadd1a8fe0fb1874"}, "docker": "quay.io/biocontainers/phynteny", "aliases": {"compute_confidence": "/usr/local/bin/compute_confidence", "generate_training_data": "/usr/local/bin/generate_training_data", "install_models": "/usr/local/bin/install_models", "matplotlib": "/usr/local/bin/matplotlib", "phynteny": "/usr/local/bin/phynteny", "train_model": "/usr/local/bin/train_model", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "aec": "/usr/local/bin/aec", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "markdown_py": "/usr/local/bin/markdown_py", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "protoc": "/usr/local/bin/protoc"}}
+config: {"url": "https://biocontainers.pro/tools/phynteny", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phynteny", "latest": {"0.1.13--pyh7cba7a3_0": "sha256:580a94679f29877cef2563b4a1efa906c015d00c57f42fef0a14be04b20c7550"}, "tags": {"0.1.11--pyh7cba7a3_0": "sha256:158ef72ee44bbffae6a388685278230e0e9828a36709f67adadd1a8fe0fb1874", "0.1.13--pyh7cba7a3_0": "sha256:580a94679f29877cef2563b4a1efa906c015d00c57f42fef0a14be04b20c7550"}, "docker": "quay.io/biocontainers/phynteny", "aliases": {"compute_confidence": "/usr/local/bin/compute_confidence", "generate_training_data": "/usr/local/bin/generate_training_data", "install_models": "/usr/local/bin/install_models", "matplotlib": "/usr/local/bin/matplotlib", "phynteny": "/usr/local/bin/phynteny", "train_model": "/usr/local/bin/train_model", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "aec": "/usr/local/bin/aec", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "markdown_py": "/usr/local/bin/markdown_py", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "protoc": "/usr/local/bin/protoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phynteny.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/phynteny
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phynteny:0.1.11--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/phynteny:0.1.13--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phynteny/0.1.11--pyh7cba7a3_0
-$ module help quay.io/biocontainers/phynteny/0.1.11--pyh7cba7a3_0
+$ module load quay.io/biocontainers/phynteny/0.1.13--pyh7cba7a3_0
+$ module help quay.io/biocontainers/phynteny/0.1.13--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
