@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-omicsviewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicsviewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicsviewer/container.yaml"
-updated_at: "2024-04-25 02:51:35.928563"
+updated_at: "2024-04-25 03:07:31.269098"
 latest: "1.2.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicsviewer"
 aliases:

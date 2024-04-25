@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pegas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pegas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pegas/container.yaml"
-updated_at: "2024-04-25 02:26:56.401603"
+updated_at: "2024-04-25 02:42:38.883507"
 latest: "0.11--r351h96ca727_2"
 container_url: "https://biocontainers.pro/tools/r-pegas"
 aliases:

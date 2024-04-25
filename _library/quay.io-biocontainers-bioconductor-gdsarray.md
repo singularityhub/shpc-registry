@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gdsarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gdsarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gdsarray/container.yaml"
-updated_at: "2024-04-25 03:09:57.262506"
+updated_at: "2024-04-25 03:25:58.767019"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gdsarray"
 aliases:
