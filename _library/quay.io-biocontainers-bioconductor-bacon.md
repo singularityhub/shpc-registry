@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bacon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bacon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bacon/container.yaml"
-updated_at: "2024-04-25 03:17:47.405210"
+updated_at: "2024-04-26 03:00:48.584698"
 latest: "1.30.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bacon"
 

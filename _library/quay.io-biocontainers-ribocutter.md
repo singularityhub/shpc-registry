@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ribocutter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribocutter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribocutter/container.yaml"
-updated_at: "2024-04-25 03:00:12.517970"
+updated_at: "2024-04-26 02:43:22.640419"
 latest: "0.1.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/ribocutter"
 aliases:

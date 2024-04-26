@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobasehttptools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobasehttptools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobasehttptools/container.yaml"
-updated_at: "2024-04-25 02:48:02.842299"
+updated_at: "2024-04-26 02:31:20.726709"
 latest: "1.1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/biobasehttptools"
 aliases:

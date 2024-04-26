@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rock/container.yaml"
-updated_at: "2024-04-25 03:24:17.520557"
+updated_at: "2024-04-26 03:07:33.060398"
 latest: "2.0--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/rock"
 aliases:

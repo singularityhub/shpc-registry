@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ms2rescore-rs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ms2rescore-rs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ms2rescore-rs/container.yaml"
-updated_at: "2024-04-25 03:24:52.587588"
+updated_at: "2024-04-26 03:08:12.572190"
 latest: "0.2.0--py39h801753a_0"
 container_url: "https://biocontainers.pro/tools/ms2rescore-rs"
 aliases:
@@ -15,8 +15,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.2.0--py39h801753a_0"
+ - "0.2.0--py310h28e8315_0"
 description: "singularity registry hpc automated addition for ms2rescore-rs"
-config: {"url": "https://biocontainers.pro/tools/ms2rescore-rs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ms2rescore-rs", "latest": {"0.2.0--py39h801753a_0": "sha256:9661fda435b0ca52dbe051f4fc93fae40520a1fd65df38122707a84c8655f68b"}, "tags": {"0.2.0--py39h801753a_0": "sha256:9661fda435b0ca52dbe051f4fc93fae40520a1fd65df38122707a84c8655f68b"}, "docker": "quay.io/biocontainers/ms2rescore-rs", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/ms2rescore-rs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ms2rescore-rs", "latest": {"0.2.0--py39h801753a_0": "sha256:9661fda435b0ca52dbe051f4fc93fae40520a1fd65df38122707a84c8655f68b"}, "tags": {"0.2.0--py39h801753a_0": "sha256:9661fda435b0ca52dbe051f4fc93fae40520a1fd65df38122707a84c8655f68b", "0.2.0--py310h28e8315_0": "sha256:5adfcdbe5ac9233a1643ad6d95686f0309f5d78b32769cd2d6658fd3bfc108ad"}, "docker": "quay.io/biocontainers/ms2rescore-rs", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ms2rescore-rs.

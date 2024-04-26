@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gghumanmethcancerpanelv1.db/container.yaml"
-updated_at: "2024-04-25 02:49:05.008957"
+updated_at: "2024-04-26 02:32:22.827066"
 latest: "1.4.1--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-gghumanmethcancerpanelv1.db"
 

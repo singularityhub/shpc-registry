@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isescan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isescan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isescan/container.yaml"
-updated_at: "2024-04-25 03:21:08.632729"
+updated_at: "2024-04-26 03:04:09.685619"
 latest: "1.7.2.3--h031d066_2"
 container_url: "https://biocontainers.pro/tools/isescan"
 aliases:

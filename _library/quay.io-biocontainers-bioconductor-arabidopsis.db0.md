@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-arabidopsis.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-arabidopsis.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-arabidopsis.db0/container.yaml"
-updated_at: "2024-04-25 02:57:12.362182"
+updated_at: "2024-04-26 02:40:25.059902"
 latest: "3.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-arabidopsis.db0"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abritamr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abritamr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abritamr/container.yaml"
-updated_at: "2024-04-25 02:43:10.021211"
+updated_at: "2024-04-26 02:26:26.547068"
 latest: "1.0.17--pyh5707d69_1"
 container_url: "https://biocontainers.pro/tools/abritamr"
 aliases:

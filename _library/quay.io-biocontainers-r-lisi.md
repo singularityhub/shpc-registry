@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-lisi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-lisi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-lisi/container.yaml"
-updated_at: "2024-04-25 02:45:37.684175"
+updated_at: "2024-04-26 02:28:54.354676"
 latest: "1.0--r43hdbdd923_5"
 container_url: "https://biocontainers.pro/tools/r-lisi"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/attotree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/attotree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/attotree/container.yaml"
-updated_at: "2024-04-25 02:53:42.182805"
-latest: "0.1.2--pyhdfd78af_0"
+updated_at: "2024-04-26 02:36:57.753996"
+latest: "0.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/attotree"
 aliases:
  - "attotree"
@@ -24,8 +24,9 @@ versions:
  - "0.1.0--pyhdfd78af_0"
  - "0.1.1--pyhdfd78af_0"
  - "0.1.2--pyhdfd78af_0"
+ - "0.1.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for attotree"
-config: {"url": "https://biocontainers.pro/tools/attotree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for attotree", "latest": {"0.1.2--pyhdfd78af_0": "sha256:8ea47e6c8f372ea4dc1d11b41383e09910ddc58add754e06cc555549a570bf2f"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:1c5c80c2c302fce5119dbb9baa081f0b599cee20ef3e057d9974bb02930b7578", "0.1.1--pyhdfd78af_0": "sha256:a76ab0eb5385b56de7bf69d7ee1c00cc342a1ceb265f3a529dc6bf489b2826bd", "0.1.2--pyhdfd78af_0": "sha256:8ea47e6c8f372ea4dc1d11b41383e09910ddc58add754e06cc555549a570bf2f"}, "docker": "quay.io/biocontainers/attotree", "aliases": {"attotree": "/usr/local/bin/attotree", "quicktree": "/usr/local/bin/quicktree", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/attotree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for attotree", "latest": {"0.1.6--pyhdfd78af_0": "sha256:534a6483d1830c2b98b68aa60261afe0d96ec3253bf5b2b830b311620233dadd"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:1c5c80c2c302fce5119dbb9baa081f0b599cee20ef3e057d9974bb02930b7578", "0.1.1--pyhdfd78af_0": "sha256:a76ab0eb5385b56de7bf69d7ee1c00cc342a1ceb265f3a529dc6bf489b2826bd", "0.1.2--pyhdfd78af_0": "sha256:8ea47e6c8f372ea4dc1d11b41383e09910ddc58add754e06cc555549a570bf2f", "0.1.6--pyhdfd78af_0": "sha256:534a6483d1830c2b98b68aa60261afe0d96ec3253bf5b2b830b311620233dadd"}, "docker": "quay.io/biocontainers/attotree", "aliases": {"attotree": "/usr/local/bin/attotree", "quicktree": "/usr/local/bin/quicktree", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/attotree.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/attotree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/attotree:0.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/attotree:0.1.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/attotree/0.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/attotree/0.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/attotree/0.1.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/attotree/0.1.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
