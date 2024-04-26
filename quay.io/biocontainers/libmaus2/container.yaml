@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/libmaus2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for libmaus2
 latest:
-  2.0.810--h05617a9_4: sha256:4e5219541df75555cc781ef1096cb82e94a92ac4de4e017f73fe8c9aa21e2fac
+  2.0.810--h05617a9_5: sha256:101151fa99223435b2f8312501c23c799833d7784c9708b3faa2c3ea5e1e57b7
 tags:
   2.0.810--hdd7f113_3: sha256:fe4df1b9a3a1c62ff14aa64c3906a6a858075c1a60f3a1d4d3f67cb9ecdd7db2
   2.0.810--h05617a9_4: sha256:4e5219541df75555cc781ef1096cb82e94a92ac4de4e017f73fe8c9aa21e2fac
+  2.0.810--h05617a9_5: sha256:101151fa99223435b2f8312501c23c799833d7784c9708b3faa2c3ea5e1e57b7
 docker: quay.io/biocontainers/libmaus2
 aliases:
   append_sff: /usr/local/bin/append_sff

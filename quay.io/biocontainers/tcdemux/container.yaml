@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/tcdemux
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tcdemux
 latest:
-  0.0.24--pyhdfd78af_0: sha256:b3417fb12860e8da32dc3b6158f35c2c3e0a57651435781efeb8693cf05b6648
+  0.0.25--pyhdfd78af_1: sha256:6409853c5648d6f9eb1fa8fba4fc4cfe2451bfce36de2da128fda697d5b71b20
 tags:
   0.0.13--pyhdfd78af_0: sha256:db69d9ff5ba15ddbec417470264584bd07de2a31dceced2bf1e337055823f942
   0.0.15--pyhdfd78af_0: sha256:f0f53825c0c65e8962f1f312a9b9da601c07cbd87058fb6a706f4deaa122f5c9
   0.0.24--pyhdfd78af_0: sha256:b3417fb12860e8da32dc3b6158f35c2c3e0a57651435781efeb8693cf05b6648
+  0.0.25--pyhdfd78af_1: sha256:6409853c5648d6f9eb1fa8fba4fc4cfe2451bfce36de2da128fda697d5b71b20
 docker: quay.io/biocontainers/tcdemux
 aliases:
   Xcalcmem.sh: /usr/local/bin/Xcalcmem.sh
