@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ipython-cluster-helper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ipython-cluster-helper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ipython-cluster-helper/container.yaml"
-updated_at: "2024-04-26 02:30:56.810477"
+updated_at: "2024-04-27 02:30:31.092147"
 latest: "0.6.4--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/ipython-cluster-helper"
 aliases:

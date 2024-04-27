@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/soda-gallery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soda-gallery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soda-gallery/container.yaml"
-updated_at: "2024-04-26 02:54:26.741806"
-latest: "1.0.1--pyh5e36f6f_0"
+updated_at: "2024-04-27 02:54:48.945811"
+latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/soda-gallery"
 aliases:
  - "dumppdf.py"
@@ -19,8 +19,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "1.0.1--pyh5e36f6f_0"
+ - "1.2.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for soda-gallery"
-config: {"url": "https://biocontainers.pro/tools/soda-gallery", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soda-gallery", "latest": {"1.0.1--pyh5e36f6f_0": "sha256:112fe8dd6561f8c44348c1af142db19f624fdcd2dcea6d216abd7e6f73518230"}, "tags": {"1.0.1--pyh5e36f6f_0": "sha256:112fe8dd6561f8c44348c1af142db19f624fdcd2dcea6d216abd7e6f73518230"}, "docker": "quay.io/biocontainers/soda-gallery", "aliases": {"dumppdf.py": "/usr/local/bin/dumppdf.py", "pdf2txt.py": "/usr/local/bin/pdf2txt.py", "soda": "/usr/local/bin/soda", "chardetect": "/usr/local/bin/chardetect", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/soda-gallery", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soda-gallery", "latest": {"1.2.0--pyhdfd78af_0": "sha256:18cfbe4b5972771e15514abc85736a9b41960444bebea5e0102908a1e5b4ae63"}, "tags": {"1.0.1--pyh5e36f6f_0": "sha256:112fe8dd6561f8c44348c1af142db19f624fdcd2dcea6d216abd7e6f73518230", "1.2.0--pyhdfd78af_0": "sha256:18cfbe4b5972771e15514abc85736a9b41960444bebea5e0102908a1e5b4ae63"}, "docker": "quay.io/biocontainers/soda-gallery", "aliases": {"dumppdf.py": "/usr/local/bin/dumppdf.py", "pdf2txt.py": "/usr/local/bin/pdf2txt.py", "soda": "/usr/local/bin/soda", "chardetect": "/usr/local/bin/chardetect", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/soda-gallery.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/soda-gallery
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/soda-gallery:1.0.1--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/soda-gallery:1.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/soda-gallery/1.0.1--pyh5e36f6f_0
-$ module help quay.io/biocontainers/soda-gallery/1.0.1--pyh5e36f6f_0
+$ module load quay.io/biocontainers/soda-gallery/1.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/soda-gallery/1.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

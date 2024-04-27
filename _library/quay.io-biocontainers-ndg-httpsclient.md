@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ndg-httpsclient"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ndg-httpsclient/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ndg-httpsclient/container.yaml"
-updated_at: "2024-04-26 03:04:27.539925"
+updated_at: "2024-04-27 03:05:10.188280"
 latest: "0.4.2--py36_0"
 container_url: "https://biocontainers.pro/tools/ndg-httpsclient"
 aliases:

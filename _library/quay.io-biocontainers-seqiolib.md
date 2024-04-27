@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqiolib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqiolib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqiolib/container.yaml"
-updated_at: "2024-04-26 03:07:28.761814"
+updated_at: "2024-04-27 03:08:02.689979"
 latest: "0.2.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqiolib"
 aliases:

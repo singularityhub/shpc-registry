@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/segzoo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/segzoo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/segzoo/container.yaml"
-updated_at: "2024-04-26 02:27:28.958121"
+updated_at: "2024-04-27 02:26:59.199864"
 latest: "1.0.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/segzoo"
 aliases:

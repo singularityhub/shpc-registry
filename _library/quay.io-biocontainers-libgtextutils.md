@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libgtextutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libgtextutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libgtextutils/container.yaml"
-updated_at: "2024-04-26 02:52:29.203051"
+updated_at: "2024-04-27 02:52:47.134128"
 latest: "0.7--hdbdd923_11"
 container_url: "https://biocontainers.pro/tools/libgtextutils"
 

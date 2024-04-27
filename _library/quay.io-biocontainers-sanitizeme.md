@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sanitizeme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sanitizeme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sanitizeme/container.yaml"
-updated_at: "2024-04-26 02:49:58.823082"
+updated_at: "2024-04-27 02:50:11.270950"
 latest: "1.1--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/sanitizeme"
 aliases:

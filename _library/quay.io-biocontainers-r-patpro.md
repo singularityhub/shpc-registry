@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-patpro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-patpro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-patpro/container.yaml"
-updated_at: "2024-04-26 02:40:26.677704"
+updated_at: "2024-04-27 02:40:19.034626"
 latest: "1.1.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-patpro"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/trycycler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trycycler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trycycler/container.yaml"
-updated_at: "2024-04-26 02:58:07.098040"
-latest: "0.5.4--pyhdfd78af_0"
+updated_at: "2024-04-27 02:58:37.581544"
+latest: "0.5.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/trycycler"
 aliases:
  - "miniasm"
@@ -24,8 +24,9 @@ aliases:
 versions:
  - "0.5.3--pyhdfd78af_0"
  - "0.5.4--pyhdfd78af_0"
+ - "0.5.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for trycycler"
-config: {"url": "https://biocontainers.pro/tools/trycycler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trycycler", "latest": {"0.5.4--pyhdfd78af_0": "sha256:ee4508f9d1dd76727ef3616ed1cc0c178f168c88a19271609816e73353d76e9e"}, "tags": {"0.5.3--pyhdfd78af_0": "sha256:6d41aeea85f64f241195ffb1396b9c027623a5a987941569aed360893ffc0935", "0.5.4--pyhdfd78af_0": "sha256:ee4508f9d1dd76727ef3616ed1cc0c178f168c88a19271609816e73353d76e9e"}, "docker": "quay.io/biocontainers/trycycler", "aliases": {"miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "trycycler": "/usr/local/bin/trycycler", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "muscle": "/usr/local/bin/muscle", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8"}}
+config: {"url": "https://biocontainers.pro/tools/trycycler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trycycler", "latest": {"0.5.5--pyhdfd78af_0": "sha256:0569cd4d2deb6cf752a2d7c55992c73b4f6f98c7782b97a04af9a605eddd6f31"}, "tags": {"0.5.3--pyhdfd78af_0": "sha256:6d41aeea85f64f241195ffb1396b9c027623a5a987941569aed360893ffc0935", "0.5.4--pyhdfd78af_0": "sha256:ee4508f9d1dd76727ef3616ed1cc0c178f168c88a19271609816e73353d76e9e", "0.5.5--pyhdfd78af_0": "sha256:0569cd4d2deb6cf752a2d7c55992c73b4f6f98c7782b97a04af9a605eddd6f31"}, "docker": "quay.io/biocontainers/trycycler", "aliases": {"miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "trycycler": "/usr/local/bin/trycycler", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "muscle": "/usr/local/bin/muscle", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trycycler.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/trycycler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trycycler:0.5.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/trycycler:0.5.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trycycler/0.5.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/trycycler/0.5.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/trycycler/0.5.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/trycycler/0.5.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

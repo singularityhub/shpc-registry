@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python/container.yaml"
-updated_at: "2024-04-26 02:53:20.372570"
+updated_at: "2024-04-27 02:53:40.284732"
 latest: "3.12"
 container_url: "https://biocontainers.pro/tools/python"
 

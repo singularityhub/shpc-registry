@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metalign/container.yaml"
-updated_at: "2024-04-26 02:25:14.833799"
+updated_at: "2024-04-27 02:24:41.170273"
 latest: "0.12.5--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/metalign"
 aliases:
