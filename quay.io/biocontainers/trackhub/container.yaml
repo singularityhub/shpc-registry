@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/trackhub
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for trackhub
 latest:
-  0.2.4--pyh864c0ab_2: sha256:e1f05980c715d8bc8d77430a71b1a8a6a91fc21647f422b9e1223c3dbb44b3e0
+  1.0--pyh7cba7a3_0: sha256:2402d073e510c11953e2f897462780bce32d83e8b0bc95f3bec2a0a4f4593274
 tags:
   0.2.4--pyh864c0ab_2: sha256:e1f05980c715d8bc8d77430a71b1a8a6a91fc21647f422b9e1223c3dbb44b3e0
+  1.0--pyh7cba7a3_0: sha256:2402d073e510c11953e2f897462780bce32d83e8b0bc95f3bec2a0a4f4593274
 docker: quay.io/biocontainers/trackhub
 aliases:
   rst2html4.py: /usr/local/bin/rst2html4.py
