@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fido"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fido/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fido/container.yaml"
-updated_at: "2024-04-27 03:03:12.074831"
+updated_at: "2024-04-28 03:06:21.661732"
 latest: "1.0--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/fido"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcbio-variation-recall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcbio-variation-recall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcbio-variation-recall/container.yaml"
-updated_at: "2024-04-27 02:54:07.092314"
+updated_at: "2024-04-28 02:57:40.208796"
 latest: "0.2.6--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bcbio-variation-recall"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gffutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gffutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gffutils/container.yaml"
-updated_at: "2024-04-27 02:39:07.526141"
-latest: "0.12--pyh7cba7a3_1"
+updated_at: "2024-04-28 02:43:16.693755"
+latest: "0.13--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/gffutils"
 aliases:
  - "gffutils-cli"
@@ -25,8 +25,9 @@ versions:
  - "0.10.1--pyh864c0ab_1"
  - "0.12--pyh7cba7a3_0"
  - "0.12--pyh7cba7a3_1"
+ - "0.13--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for gffutils"
-config: {"url": "https://biocontainers.pro/tools/gffutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gffutils", "latest": {"0.12--pyh7cba7a3_1": "sha256:358c6f858c9da075e3fea63d936d3089e2fc3e0d5f5c641f10c1c0b22080adb3"}, "tags": {"0.9--py_1": "sha256:dc769d1465c11ff16fc8e925ab192c9dd23c6908b9c89329e4b1e4abae641f8e", "0.11.1--pyh7cba7a3_0": "sha256:70f89e26735489d1929fc0e3a1341bc17ee737652cc1c3b783f6023120ae2a46", "0.10.1--pyh864c0ab_1": "sha256:d6136ad91a84406a16109cc180f900c3c500c59cf693d738bf5bc2aa38f65e51", "0.12--pyh7cba7a3_0": "sha256:05ab1a518d14d60b6d14b4fba0c968026a32e7eb3c4066f72c797c684e3ee372", "0.12--pyh7cba7a3_1": "sha256:358c6f858c9da075e3fea63d936d3089e2fc3e0d5f5c641f10c1c0b22080adb3"}, "docker": "quay.io/biocontainers/gffutils", "aliases": {"gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "faidx": "/usr/local/bin/faidx", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config"}}
+config: {"url": "https://biocontainers.pro/tools/gffutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gffutils", "latest": {"0.13--pyh7cba7a3_0": "sha256:f056c7dce8cc7eae80186f5a0499355a39a973c4025b5f45f08217bbd6d22abd"}, "tags": {"0.9--py_1": "sha256:dc769d1465c11ff16fc8e925ab192c9dd23c6908b9c89329e4b1e4abae641f8e", "0.11.1--pyh7cba7a3_0": "sha256:70f89e26735489d1929fc0e3a1341bc17ee737652cc1c3b783f6023120ae2a46", "0.10.1--pyh864c0ab_1": "sha256:d6136ad91a84406a16109cc180f900c3c500c59cf693d738bf5bc2aa38f65e51", "0.12--pyh7cba7a3_0": "sha256:05ab1a518d14d60b6d14b4fba0c968026a32e7eb3c4066f72c797c684e3ee372", "0.12--pyh7cba7a3_1": "sha256:358c6f858c9da075e3fea63d936d3089e2fc3e0d5f5c641f10c1c0b22080adb3", "0.13--pyh7cba7a3_0": "sha256:f056c7dce8cc7eae80186f5a0499355a39a973c4025b5f45f08217bbd6d22abd"}, "docker": "quay.io/biocontainers/gffutils", "aliases": {"gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "faidx": "/usr/local/bin/faidx", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gffutils.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/gffutils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gffutils:0.12--pyh7cba7a3_1
+$ shpc install quay.io/biocontainers/gffutils:0.13--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gffutils/0.12--pyh7cba7a3_1
-$ module help quay.io/biocontainers/gffutils/0.12--pyh7cba7a3_1
+$ module load quay.io/biocontainers/gffutils/0.13--pyh7cba7a3_0
+$ module help quay.io/biocontainers/gffutils/0.13--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

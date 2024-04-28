@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/textinput"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/textinput/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/textinput/container.yaml"
-updated_at: "2024-04-27 02:35:08.137553"
+updated_at: "2024-04-28 02:39:25.887742"
 latest: "0.2--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/textinput"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytrf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytrf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytrf/container.yaml"
-updated_at: "2024-04-27 02:57:12.486268"
+updated_at: "2024-04-28 03:00:38.413756"
 latest: "1.3.0--py310h4b81fae_0"
 container_url: "https://biocontainers.pro/tools/pytrf"
 aliases:

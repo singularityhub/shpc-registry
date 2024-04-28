@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/trackhub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trackhub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trackhub/container.yaml"
-updated_at: "2024-04-27 02:56:19.506044"
-latest: "0.2.4--pyh864c0ab_2"
+updated_at: "2024-04-28 02:59:47.441473"
+latest: "1.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/trackhub"
 aliases:
  - "rst2html4.py"
@@ -20,8 +20,9 @@ aliases:
  - "rst2xetex.py"
 versions:
  - "0.2.4--pyh864c0ab_2"
+ - "1.0--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for trackhub"
-config: {"url": "https://biocontainers.pro/tools/trackhub", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trackhub", "latest": {"0.2.4--pyh864c0ab_2": "sha256:e1f05980c715d8bc8d77430a71b1a8a6a91fc21647f422b9e1223c3dbb44b3e0"}, "tags": {"0.2.4--pyh864c0ab_2": "sha256:e1f05980c715d8bc8d77430a71b1a8a6a91fc21647f422b9e1223c3dbb44b3e0"}, "docker": "quay.io/biocontainers/trackhub", "aliases": {"rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py"}}
+config: {"url": "https://biocontainers.pro/tools/trackhub", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trackhub", "latest": {"1.0--pyh7cba7a3_0": "sha256:2402d073e510c11953e2f897462780bce32d83e8b0bc95f3bec2a0a4f4593274"}, "tags": {"0.2.4--pyh864c0ab_2": "sha256:e1f05980c715d8bc8d77430a71b1a8a6a91fc21647f422b9e1223c3dbb44b3e0", "1.0--pyh7cba7a3_0": "sha256:2402d073e510c11953e2f897462780bce32d83e8b0bc95f3bec2a0a4f4593274"}, "docker": "quay.io/biocontainers/trackhub", "aliases": {"rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trackhub.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/trackhub
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trackhub:0.2.4--pyh864c0ab_2
+$ shpc install quay.io/biocontainers/trackhub:1.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trackhub/0.2.4--pyh864c0ab_2
-$ module help quay.io/biocontainers/trackhub/0.2.4--pyh864c0ab_2
+$ module load quay.io/biocontainers/trackhub/1.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/trackhub/1.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

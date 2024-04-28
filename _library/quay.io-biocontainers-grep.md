@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grep/container.yaml"
-updated_at: "2024-04-27 02:54:51.469790"
+updated_at: "2024-04-28 02:58:22.784664"
 latest: "3.4--hf43ccf4_4"
 container_url: "https://biocontainers.pro/tools/grep"
 aliases:

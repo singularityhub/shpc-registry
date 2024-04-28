@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gadem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gadem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gadem/container.yaml"
-updated_at: "2024-04-27 02:37:48.265372"
-latest: "1.3.1--hec16e2b_4"
+updated_at: "2024-04-28 02:42:00.770794"
+latest: "1.3.1--h031d066_6"
 container_url: "https://biocontainers.pro/tools/gadem"
 aliases:
  - "gadem"
 versions:
  - "1.3.1--hec16e2b_4"
+ - "1.3.1--h031d066_6"
 description: "shpc-registry automated BioContainers addition for gadem"
-config: {"url": "https://biocontainers.pro/tools/gadem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gadem", "latest": {"1.3.1--hec16e2b_4": "sha256:de5c2d16302c3e35b4ffb032421a1a6d9ac2cd9e272111a45fb8b7d91ec2786e"}, "tags": {"1.3.1--hec16e2b_4": "sha256:de5c2d16302c3e35b4ffb032421a1a6d9ac2cd9e272111a45fb8b7d91ec2786e"}, "docker": "quay.io/biocontainers/gadem", "aliases": {"gadem": "/usr/local/bin/gadem"}}
+config: {"url": "https://biocontainers.pro/tools/gadem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gadem", "latest": {"1.3.1--h031d066_6": "sha256:8d8cf76d2d51e0224cecd7fe2e26bade84e49767ec171ceb48cdc23968f556bd"}, "tags": {"1.3.1--hec16e2b_4": "sha256:de5c2d16302c3e35b4ffb032421a1a6d9ac2cd9e272111a45fb8b7d91ec2786e", "1.3.1--h031d066_6": "sha256:8d8cf76d2d51e0224cecd7fe2e26bade84e49767ec171ceb48cdc23968f556bd"}, "docker": "quay.io/biocontainers/gadem", "aliases": {"gadem": "/usr/local/bin/gadem"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gadem.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gadem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gadem:1.3.1--hec16e2b_4
+$ shpc install quay.io/biocontainers/gadem:1.3.1--h031d066_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gadem/1.3.1--hec16e2b_4
-$ module help quay.io/biocontainers/gadem/1.3.1--hec16e2b_4
+$ module load quay.io/biocontainers/gadem/1.3.1--h031d066_6
+$ module help quay.io/biocontainers/gadem/1.3.1--h031d066_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
