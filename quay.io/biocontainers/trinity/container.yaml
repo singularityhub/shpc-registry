@@ -12,6 +12,7 @@ tags:
   2.13.2--hff880f7_4: sha256:e6352a3026242bdb0102038d98854b220b13ffab3b254de539b05c2b56eb007e
   2.15.1--h6ab5fc9_2: sha256:494af74f4a1ea05396780f78a5ef3cc22be401ea7906a7ea42d68bf9c6af770a
   2.15.1--pl5321h146fbdb_3: sha256:b936ffb3935c5a973730995c648389db823f0ce40c17c4ac52dfbafec00d8cb6
+  2.15.1--pl5321hdcf5f25_4: sha256:cdac3c533503bafb8485e19c107c3e1a78c4ad3415fb7598c94149c6379c4cc1
 docker: quay.io/biocontainers/trinity
 aliases:
   trinity: /usr/local/bin/Trinity

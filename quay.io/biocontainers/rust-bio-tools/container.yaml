@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/rust-bio-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rust-bio-tools
 latest:
-  0.42.0--h86f6036_0: sha256:5a947560331c7a80623a06247daff06ef6a0e1a2bee76dc98ca390e2528d02bc
+  0.42.2--h4458251_1: sha256:95ae884bec41928bee9d52624994acfc32b4d292bdda425e8ea86dff659a1ece
 tags:
   0.9.2--h46ad9a4_1: sha256:7ab14141f8438fe52f5257e8a2d202fbd58841d129049ab9e2c87c862df601e2
   0.19.5--heda7bfa_0: sha256:c2c4ccce7c0690f9321506856951db945d04e05a641b8afbedf7f330f7546ca7
@@ -15,6 +15,7 @@ tags:
   0.40.0--h8acc556_1: sha256:e3c005fd861ae91cfb8a46fcc245b9d59369a89340fada742cb74da6660988e8
   0.39.1--h8acc556_0: sha256:20e00a601c9e745a307a9b6fcb1f39ad11930753b5d600ea5b59bdfb34049ebb
   0.38.3--h8acc556_1: sha256:5ae30f30d00f22083b42e7996e8093a94e9ec3c1d8df2130b4ede1a53ab83939
+  0.42.2--h4458251_1: sha256:95ae884bec41928bee9d52624994acfc32b4d292bdda425e8ea86dff659a1ece
 docker: quay.io/biocontainers/rust-bio-tools
 aliases:
   rbt: /usr/local/bin/rbt

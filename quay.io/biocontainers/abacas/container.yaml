@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/abacas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for abacas
 latest:
-  1.3.1--pl5321hdfd78af_2: sha256:18c1fd4874883f331b3578ec2448ab36ab213c156a863495debf8a8e956a83b2
+  1.3.1--pl5321hdfd78af_3: sha256:761ec02c337ab935b7abee4088b78630bc9e043f0f34151a1acb5e62b0c49d7d
 tags:
   1.3.1--pl5321hdfd78af_2: sha256:18c1fd4874883f331b3578ec2448ab36ab213c156a863495debf8a8e956a83b2
+  1.3.1--pl5321hdfd78af_3: sha256:761ec02c337ab935b7abee4088b78630bc9e043f0f34151a1acb5e62b0c49d7d
 docker: quay.io/biocontainers/abacas
 aliases:
   abacas.1.3.1.pl: /usr/local/bin/abacas.1.3.1.pl

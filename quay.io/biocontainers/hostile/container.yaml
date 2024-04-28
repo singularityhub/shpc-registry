@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/hostile
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hostile
 latest:
-  1.0.0--pyhdfd78af_0: sha256:fa360b8059c2e3df5486cf1180e9adda98dd88b2d9996aa1ff095ef625db0359
+  1.1.0--pyhdfd78af_0: sha256:665935df0a40473e03c865dd74f6a9ef08aa900bddfb66e586de600cff4e03f4
 tags:
   0.0.2--pyhdfd78af_0: sha256:f5960c62146844c5d35c23c47740b1d6866ca3b358d2d77253df8a86eb7e5c9c
   0.1.0--pyhdfd78af_0: sha256:d6e620adc6339256e348b364f337a5bef4b0312581e46e42a391ba8a427289b6
@@ -12,6 +12,7 @@ tags:
   0.2.0--pyhdfd78af_0: sha256:08b38e53f01f78877bdac9638263be0f5b6e02b709c302f56812532d448728b8
   0.1.0--pyhdfd78af_1: sha256:d32b345e1eb3ab6eafb7a5df136803000a36c0b453c8f17a6bf9fd37c119c745
   1.0.0--pyhdfd78af_0: sha256:fa360b8059c2e3df5486cf1180e9adda98dd88b2d9996aa1ff095ef625db0359
+  1.1.0--pyhdfd78af_0: sha256:665935df0a40473e03c865dd74f6a9ef08aa900bddfb66e586de600cff4e03f4
 docker: quay.io/biocontainers/hostile
 aliases:
   hostile: /usr/local/bin/hostile
