@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/mudirac
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mudirac
+latest:
+  1.0.1: sha256:e0d133ffa552647c6eacc8ecce8251d1540d256af3af8914de5a1011a4f9cd03
+tags:
+  1.0.1: sha256:e0d133ffa552647c6eacc8ecce8251d1540d256af3af8914de5a1011a4f9cd03
+docker: quay.io/biocontainers/mudirac
+aliases:
+  mudirac: /usr/local/bin/mudirac
