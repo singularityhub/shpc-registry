@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cleanupdtseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cleanupdtseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cleanupdtseq/container.yaml"
-updated_at: "2024-04-28 02:32:50.022496"
+updated_at: "2024-04-29 02:30:09.572428"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cleanupdtseq"
 

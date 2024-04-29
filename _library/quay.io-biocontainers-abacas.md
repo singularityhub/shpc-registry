@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/abacas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abacas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abacas/container.yaml"
-updated_at: "2024-04-28 02:30:14.664874"
-latest: "1.3.1--pl5321hdfd78af_2"
+updated_at: "2024-04-29 02:27:30.738390"
+latest: "1.3.1--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/abacas"
 aliases:
  - "abacas.1.3.1.pl"
@@ -22,8 +22,9 @@ aliases:
  - "mummerplot"
 versions:
  - "1.3.1--pl5321hdfd78af_2"
+ - "1.3.1--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for abacas"
-config: {"url": "https://biocontainers.pro/tools/abacas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abacas", "latest": {"1.3.1--pl5321hdfd78af_2": "sha256:18c1fd4874883f331b3578ec2448ab36ab213c156a863495debf8a8e956a83b2"}, "tags": {"1.3.1--pl5321hdfd78af_2": "sha256:18c1fd4874883f331b3578ec2448ab36ab213c156a863495debf8a8e956a83b2"}, "docker": "quay.io/biocontainers/abacas", "aliases": {"abacas.1.3.1.pl": "/usr/local/bin/abacas.1.3.1.pl", "abacas.pl": "/usr/local/bin/abacas.pl", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
+config: {"url": "https://biocontainers.pro/tools/abacas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abacas", "latest": {"1.3.1--pl5321hdfd78af_3": "sha256:761ec02c337ab935b7abee4088b78630bc9e043f0f34151a1acb5e62b0c49d7d"}, "tags": {"1.3.1--pl5321hdfd78af_2": "sha256:18c1fd4874883f331b3578ec2448ab36ab213c156a863495debf8a8e956a83b2", "1.3.1--pl5321hdfd78af_3": "sha256:761ec02c337ab935b7abee4088b78630bc9e043f0f34151a1acb5e62b0c49d7d"}, "docker": "quay.io/biocontainers/abacas", "aliases": {"abacas.1.3.1.pl": "/usr/local/bin/abacas.1.3.1.pl", "abacas.pl": "/usr/local/bin/abacas.pl", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abacas.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/abacas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/abacas:1.3.1--pl5321hdfd78af_2
+$ shpc install quay.io/biocontainers/abacas:1.3.1--pl5321hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/abacas/1.3.1--pl5321hdfd78af_2
-$ module help quay.io/biocontainers/abacas/1.3.1--pl5321hdfd78af_2
+$ module load quay.io/biocontainers/abacas/1.3.1--pl5321hdfd78af_3
+$ module help quay.io/biocontainers/abacas/1.3.1--pl5321hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

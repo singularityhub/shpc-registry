@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parasail-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parasail-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parasail-python/container.yaml"
-updated_at: "2024-04-28 02:45:26.964524"
+updated_at: "2024-04-29 02:43:12.987394"
 latest: "1.3.4--py310h6cc9453_1"
 container_url: "https://biocontainers.pro/tools/parasail-python"
 aliases:
