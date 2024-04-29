@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/radiant
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for radiant
+latest:
+  1.1.5--h2a31222_0: sha256:d94ae5d9381b3f5621fbba37919f64e8f774958a7eccc56d2d4a437d8cd7f8b4
+tags:
+  1.1.5--h2a31222_0: sha256:d94ae5d9381b3f5621fbba37919f64e8f774958a7eccc56d2d4a437d8cd7f8b4
+docker: quay.io/biocontainers/radiant
+aliases:
+  makeRadiantDB: /usr/local/bin/makeRadiantDB
+  radiant: /usr/local/bin/radiant
