@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/monopogen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/monopogen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/monopogen/container.yaml"
-updated_at: "2024-04-30 02:56:56.487922"
+updated_at: "2024-05-01 03:02:35.095850"
 latest: "1.5.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/monopogen"
 aliases:

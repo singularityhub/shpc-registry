@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/skc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skc/container.yaml"
-updated_at: "2024-04-30 02:52:50.420027"
+updated_at: "2024-05-01 02:58:33.786013"
 latest: "0.1.0--h031d066_0"
 container_url: "https://biocontainers.pro/tools/skc"
 aliases:

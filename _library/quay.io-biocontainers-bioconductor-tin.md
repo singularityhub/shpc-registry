@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tin/container.yaml"
-updated_at: "2024-04-30 02:37:36.259421"
+updated_at: "2024-05-01 02:43:15.453894"
 latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tin"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/corekaburra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/corekaburra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/corekaburra/container.yaml"
-updated_at: "2024-04-30 03:04:08.923460"
+updated_at: "2024-05-01 03:09:39.308655"
 latest: "0.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/corekaburra"
 aliases:

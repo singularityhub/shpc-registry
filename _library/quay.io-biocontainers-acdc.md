@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/acdc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/acdc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/acdc/container.yaml"
-updated_at: "2024-04-30 02:59:01.592292"
+updated_at: "2024-05-01 03:04:41.192080"
 latest: "1.02--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/acdc"
 aliases:

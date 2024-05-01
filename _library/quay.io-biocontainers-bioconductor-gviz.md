@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gviz/container.yaml"
-updated_at: "2024-04-30 02:52:50.143786"
+updated_at: "2024-05-01 02:58:33.514840"
 latest: "1.46.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gviz"
 
