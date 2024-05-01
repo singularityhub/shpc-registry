@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rtk2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rtk2
 latest:
-  2.10--hdcf5f25_0: sha256:4f9ac7d7405bc53f0b5f65911ceccd2f2c35b0e513d81f44afc1ab532a8db260
+  2.11.2--hdcf5f25_0: sha256:0ce524a705af598d751ad38dd43a3654f0b9e4ab7c724db0dd10eaeb92ce9b80
 tags:
   2.10--hdcf5f25_0: sha256:4f9ac7d7405bc53f0b5f65911ceccd2f2c35b0e513d81f44afc1ab532a8db260
+  2.11.2--hdcf5f25_0: sha256:0ce524a705af598d751ad38dd43a3654f0b9e4ab7c724db0dd10eaeb92ce9b80
 docker: quay.io/biocontainers/rtk2
 aliases:
   rtk2: /usr/local/bin/rtk2
