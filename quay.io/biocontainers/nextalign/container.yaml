@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/nextalign
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nextalign
 latest:
-  2.14.0--h9ee0642_0: sha256:40467cb10d963f6755bb193046d13a804f3df22d8a86f47160f6131b6d7888ff
+  2.14.0--h9ee0642_1: sha256:b3a8d6c4fcc99c2d920c75ebbedd24ae0503d66ed18de792a6dfb22f37be3f19
 tags:
   2.7.0--h9ee0642_0: sha256:d7d53b9e97bf7b17d8c3d2e6b6ec964a992be6d00dc54ff67614f0d1fe9b7c4e
   2.8.0--h9ee0642_0: sha256:1e1f96e33a05809cae185848a27fcc8f0691c32c34973eefa90af331df5d2ebd
@@ -12,6 +12,7 @@ tags:
   2.12.0--h9ee0642_0: sha256:fa520e2eb0bcb37101df4cc00b59dc6b00f496dfdcce777256aa1a749f89b655
   2.13.1--h9ee0642_0: sha256:5d549a7d3d6554e763f1598034b9f6a7cc5c59dff0d7f9c83223fcc57b520bd0
   2.14.0--h9ee0642_0: sha256:40467cb10d963f6755bb193046d13a804f3df22d8a86f47160f6131b6d7888ff
+  2.14.0--h9ee0642_1: sha256:b3a8d6c4fcc99c2d920c75ebbedd24ae0503d66ed18de792a6dfb22f37be3f19
 docker: quay.io/biocontainers/nextalign
 aliases:
   nextalign: /usr/local/bin/nextalign

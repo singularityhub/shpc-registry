@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bedgovcf
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bedgovcf
 latest:
-  0.1.0--h9ee0642_0: sha256:33f57ff12e8aad98aaaef0afed0cecb3acfbd5987ba2e0ec25b8f45904e2afc0
+  0.1.1--h9ee0642_1: sha256:4b23f82399abb27b75bb1376d08ff0972f6968999427d18e017ffd49e61aa56e
 tags:
   0.1.0--h9ee0642_0: sha256:33f57ff12e8aad98aaaef0afed0cecb3acfbd5987ba2e0ec25b8f45904e2afc0
+  0.1.1--h9ee0642_1: sha256:4b23f82399abb27b75bb1376d08ff0972f6968999427d18e017ffd49e61aa56e
 docker: quay.io/biocontainers/bedgovcf
 aliases:
   bedgovcf: /usr/local/bin/bedgovcf

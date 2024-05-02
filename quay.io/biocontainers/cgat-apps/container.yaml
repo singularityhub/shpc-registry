@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/cgat-apps
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cgat-apps
 latest:
-  0.6.5--py37h179cca4_2: sha256:d4c82e87ed915c5e18ad15801a0d6c999fcf204c37ded62a20bcb72036ae980b
+  0.7.2--py310h5aa3a86_1: sha256:5b9bc17ab5081a2624e8f42df54190c637654312a24cf88b7707750b3a8ed508
 tags:
   0.6.5--py37h179cca4_2: sha256:d4c82e87ed915c5e18ad15801a0d6c999fcf204c37ded62a20bcb72036ae980b
   0.6.5--py38h1c8579b_2: sha256:ed8e56c5cba79f942ac349f7ba6d78a1bbe9c96ee55b20c4ec8a80a68c392315
+  0.7.2--py310h5aa3a86_1: sha256:5b9bc17ab5081a2624e8f42df54190c637654312a24cf88b7707750b3a8ed508
 docker: quay.io/biocontainers/cgat-apps
 aliases:
   bq: /usr/local/bin/bq
