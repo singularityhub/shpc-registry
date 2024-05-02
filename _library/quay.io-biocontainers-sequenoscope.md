@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sequenoscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequenoscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequenoscope/container.yaml"
-updated_at: "2024-05-01 03:08:39.929471"
-latest: "0.0.5--pyh7cba7a3_0"
+updated_at: "2024-05-02 03:03:35.835619"
+latest: "0.0.5--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/sequenoscope"
 aliases:
  - "sequenoscope"
@@ -36,8 +36,9 @@ aliases:
  - "psl2sam.pl"
 versions:
  - "0.0.5--pyh7cba7a3_0"
+ - "0.0.5--pyh7cba7a3_1"
 description: "singularity registry hpc automated addition for sequenoscope"
-config: {"url": "https://biocontainers.pro/tools/sequenoscope", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sequenoscope", "latest": {"0.0.5--pyh7cba7a3_0": "sha256:78fd850af42577b549f05d76ac11f010bdabfbcce60c8cbb4a5ce98966c3ae29"}, "tags": {"0.0.5--pyh7cba7a3_0": "sha256:78fd850af42577b549f05d76ac11f010bdabfbcce60c8cbb4a5ce98966c3ae29"}, "docker": "quay.io/biocontainers/sequenoscope", "aliases": {"sequenoscope": "/usr/local/bin/sequenoscope", "fastp": "/usr/local/bin/fastp", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "seqtk": "/usr/local/bin/seqtk", "mash": "/usr/local/bin/mash", "igzip": "/usr/local/bin/igzip", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/sequenoscope", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sequenoscope", "latest": {"0.0.5--pyh7cba7a3_1": "sha256:fe77f9906c0a62ed4dc32e7fe15613828fe97bf4d7254a37ae8b5b510132fa78"}, "tags": {"0.0.5--pyh7cba7a3_0": "sha256:78fd850af42577b549f05d76ac11f010bdabfbcce60c8cbb4a5ce98966c3ae29", "0.0.5--pyh7cba7a3_1": "sha256:fe77f9906c0a62ed4dc32e7fe15613828fe97bf4d7254a37ae8b5b510132fa78"}, "docker": "quay.io/biocontainers/sequenoscope", "aliases": {"sequenoscope": "/usr/local/bin/sequenoscope", "fastp": "/usr/local/bin/fastp", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "seqtk": "/usr/local/bin/seqtk", "mash": "/usr/local/bin/mash", "igzip": "/usr/local/bin/igzip", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sequenoscope.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/sequenoscope
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sequenoscope:0.0.5--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/sequenoscope:0.0.5--pyh7cba7a3_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sequenoscope/0.0.5--pyh7cba7a3_0
-$ module help quay.io/biocontainers/sequenoscope/0.0.5--pyh7cba7a3_0
+$ module load quay.io/biocontainers/sequenoscope/0.0.5--pyh7cba7a3_1
+$ module help quay.io/biocontainers/sequenoscope/0.0.5--pyh7cba7a3_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

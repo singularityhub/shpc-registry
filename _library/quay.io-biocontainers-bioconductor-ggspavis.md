@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ggspavis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggspavis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggspavis/container.yaml"
-updated_at: "2024-05-01 02:43:33.075370"
+updated_at: "2024-05-02 02:38:55.223843"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggspavis"
 aliases:

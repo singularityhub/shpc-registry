@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deeptoolsintervals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeptoolsintervals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deeptoolsintervals/container.yaml"
-updated_at: "2024-05-01 03:05:58.075335"
-latest: "0.1.9--py310h8472f5a_7"
+updated_at: "2024-05-02 03:00:56.602663"
+latest: "0.1.9--py38h4c6a040_8"
 container_url: "https://biocontainers.pro/tools/deeptoolsintervals"
 aliases:
  - "python2-config"
@@ -21,8 +21,9 @@ versions:
  - "0.1.9--py310h8472f5a_6"
  - "0.1.9--py310h8472f5a_7"
  - "0.1.9--py39h87d955d_7"
+ - "0.1.9--py38h4c6a040_8"
 description: "shpc-registry automated BioContainers addition for deeptoolsintervals"
-config: {"url": "https://biocontainers.pro/tools/deeptoolsintervals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deeptoolsintervals", "latest": {"0.1.9--py310h8472f5a_7": "sha256:f80da71c8c20df74fa3f33c11a0803c94662d7d0d2c9e37ce41d51bd866e4d74"}, "tags": {"0.1.9--py27h9801fc8_4": "sha256:903220a951714054dd1d2386e794cef191ecac6b2cdd0446f30d746e00661642", "0.1.9--py39h87d955d_5": "sha256:0545250d5a69f037a832a3b187470aa59df2681a6b7c239aec8ad411106d41f3", "0.1.9--py310h8472f5a_6": "sha256:97262820c3446fe70596e4ad1f916bd73e31ef9a7b09d739d9d989e6e60e2bb5", "0.1.9--py310h8472f5a_7": "sha256:f80da71c8c20df74fa3f33c11a0803c94662d7d0d2c9e37ce41d51bd866e4d74", "0.1.9--py39h87d955d_7": "sha256:24ef8a946d45e3a5c2ac163f7a5f44cd2038c7941fc18b8e05e924bcd722a79a"}, "docker": "quay.io/biocontainers/deeptoolsintervals", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/deeptoolsintervals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deeptoolsintervals", "latest": {"0.1.9--py38h4c6a040_8": "sha256:1b84468e617d594316114d2b5cc13f4fd3d0e755ef583f415444234347745eb5"}, "tags": {"0.1.9--py27h9801fc8_4": "sha256:903220a951714054dd1d2386e794cef191ecac6b2cdd0446f30d746e00661642", "0.1.9--py39h87d955d_5": "sha256:0545250d5a69f037a832a3b187470aa59df2681a6b7c239aec8ad411106d41f3", "0.1.9--py310h8472f5a_6": "sha256:97262820c3446fe70596e4ad1f916bd73e31ef9a7b09d739d9d989e6e60e2bb5", "0.1.9--py310h8472f5a_7": "sha256:f80da71c8c20df74fa3f33c11a0803c94662d7d0d2c9e37ce41d51bd866e4d74", "0.1.9--py39h87d955d_7": "sha256:24ef8a946d45e3a5c2ac163f7a5f44cd2038c7941fc18b8e05e924bcd722a79a", "0.1.9--py38h4c6a040_8": "sha256:1b84468e617d594316114d2b5cc13f4fd3d0e755ef583f415444234347745eb5"}, "docker": "quay.io/biocontainers/deeptoolsintervals", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deeptoolsintervals.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/deeptoolsintervals
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deeptoolsintervals:0.1.9--py310h8472f5a_7
+$ shpc install quay.io/biocontainers/deeptoolsintervals:0.1.9--py38h4c6a040_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deeptoolsintervals/0.1.9--py310h8472f5a_7
-$ module help quay.io/biocontainers/deeptoolsintervals/0.1.9--py310h8472f5a_7
+$ module load quay.io/biocontainers/deeptoolsintervals/0.1.9--py38h4c6a040_8
+$ module help quay.io/biocontainers/deeptoolsintervals/0.1.9--py38h4c6a040_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
