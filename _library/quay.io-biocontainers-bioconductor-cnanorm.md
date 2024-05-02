@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cnanorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnanorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnanorm/container.yaml"
-updated_at: "2024-05-02 02:51:12.548599"
+updated_at: "2024-05-02 03:19:40.724057"
 latest: "1.48.0--r43h9913872_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnanorm"
 

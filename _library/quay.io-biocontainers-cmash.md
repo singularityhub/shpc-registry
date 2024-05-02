@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cmash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cmash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cmash/container.yaml"
-updated_at: "2024-05-02 02:35:47.477995"
+updated_at: "2024-05-02 03:04:07.412963"
 latest: "0.5.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/cmash"
 aliases:

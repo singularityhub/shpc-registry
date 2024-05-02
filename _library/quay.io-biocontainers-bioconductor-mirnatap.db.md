@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mirnatap.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirnatap.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirnatap.db/container.yaml"
-updated_at: "2024-05-02 02:55:40.668071"
+updated_at: "2024-05-02 03:24:15.662807"
 latest: "0.99.10--r43hdfd78af_15"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirnatap.db"
 aliases:
