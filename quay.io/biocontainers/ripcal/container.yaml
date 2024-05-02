@@ -1,0 +1,77 @@
+url: https://biocontainers.pro/tools/ripcal
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ripcal
+latest:
+  2.0--hdfd78af_0: sha256:75c006e9637f5bc3547c7c68b4dee85102c29af36236fba9eb14b49aefaceffc
+tags:
+  2.0--hdfd78af_0: sha256:75c006e9637f5bc3547c7c68b4dee85102c29af36236fba9eb14b49aefaceffc
+docker: quay.io/biocontainers/ripcal
+aliases:
+  archive-ncbinlp: /usr/local/bin/archive-ncbinlp
+  archive-nihocc: /usr/local/bin/archive-nihocc
+  archive-nmcds: /usr/local/bin/archive-nmcds
+  archive-pmc: /usr/local/bin/archive-pmc
+  archive-taxonomy: /usr/local/bin/archive-taxonomy
+  args2slice: /usr/local/bin/args2slice
+  asn2ref: /usr/local/bin/asn2ref
+  blst2gm: /usr/local/bin/blst2gm
+  cit2pmid: /usr/local/bin/cit2pmid
+  combine-uid-lists: /usr/local/bin/combine-uid-lists
+  deripcal: /usr/local/bin/deripcal
+  difference-uid-lists: /usr/local/bin/difference-uid-lists
+  download-pmc: /usr/local/bin/download-pmc
+  ds2pme: /usr/local/bin/ds2pme
+  fetch-local: /usr/local/bin/fetch-local
+  fetch-nmcds: /usr/local/bin/fetch-nmcds
+  fetch-pmc: /usr/local/bin/fetch-pmc
+  fetch-taxonomy: /usr/local/bin/fetch-taxonomy
+  filter-genbank: /usr/local/bin/filter-genbank
+  filter-record: /usr/local/bin/filter-record
+  gbf2fsa: /usr/local/bin/gbf2fsa
+  gbf2ref: /usr/local/bin/gbf2ref
+  gm2ranges: /usr/local/bin/gm2ranges
+  gm2segs: /usr/local/bin/gm2segs
+  ini2xml: /usr/local/bin/ini2xml
+  jsonl2xml: /usr/local/bin/jsonl2xml
+  just-first-key: /usr/local/bin/just-first-key
+  nhance.sh: /usr/local/bin/nhance.sh
+  pma2apa: /usr/local/bin/pma2apa
+  pma2pme: /usr/local/bin/pma2pme
+  pmc2bioc: /usr/local/bin/pmc2bioc
+  pmc2info: /usr/local/bin/pmc2info
+  quote-grouped-elements: /usr/local/bin/quote-grouped-elements
+  ref2pmid: /usr/local/bin/ref2pmid
+  refseq-nm-cds: /usr/local/bin/refseq-nm-cds
+  ripcal: /usr/local/bin/ripcal
+  ripcal.bak: /usr/local/bin/ripcal.bak
+  ripcal_summarise: /usr/local/bin/ripcal_summarise
+  scn2xml: /usr/local/bin/scn2xml
+  stream-local: /usr/local/bin/stream-local
+  test-pmc-index: /usr/local/bin/test-pmc-index
+  toml2xml: /usr/local/bin/toml2xml
+  yaml2xml: /usr/local/bin/yaml2xml
+  gawk-5.3.0: /usr/local/bin/gawk-5.3.0
+  gawkbug: /usr/local/bin/gawkbug
+  TMalign: /usr/local/bin/TMalign
+  make_pscores.pl: /usr/local/bin/make_pscores.pl
+  poa: /usr/local/bin/poa
+  RNAmultifold: /usr/local/bin/RNAmultifold
+  clustalo: /usr/local/bin/clustalo
+  bl2seq: /usr/local/bin/bl2seq
+  blastall: /usr/local/bin/blastall
+  blastclust: /usr/local/bin/blastclust
+  blastpgp: /usr/local/bin/blastpgp
+  copymat: /usr/local/bin/copymat
+  fastacmd: /usr/local/bin/fastacmd
+  formatdb: /usr/local/bin/formatdb
+  formatrpsdb: /usr/local/bin/formatrpsdb
+  impala: /usr/local/bin/impala
+  makemat: /usr/local/bin/makemat
+  megablast: /usr/local/bin/megablast
+  blastn_vdb: /usr/local/bin/blastn_vdb
+  tblastn_vdb: /usr/local/bin/tblastn_vdb
+  RNAdos: /usr/local/bin/RNAdos
+  AnalyseDists: /usr/local/bin/AnalyseDists
+  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
+  RNAlocmin: /usr/local/bin/RNAlocmin
+  RNApvmin: /usr/local/bin/RNApvmin
