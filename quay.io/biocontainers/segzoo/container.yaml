@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/segzoo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for segzoo
 latest:
-  1.0.12--pyhdfd78af_0: sha256:27458ade99925c73a00b4e9c6f354328e8c01b215963efeefaecab4337183416
+  1.0.13--pyhdfd78af_0: sha256:f240bdd2893b712e183c9991b0151264d43ef7e27596c1af88c01a02991dc441
 tags:
   1.0.7--pyh7cba7a3_0: sha256:900f92a2759f7729ada1d846b15aa98506484934b3b90fdd6783b6dfabe34670
   1.0.11--pyhdfd78af_0: sha256:08aec7dee8bb16ac4c290e9078ab1c176299789de8828ac257f272d0442252fc
   1.0.12--pyhdfd78af_0: sha256:27458ade99925c73a00b4e9c6f354328e8c01b215963efeefaecab4337183416
+  1.0.13--pyhdfd78af_0: sha256:f240bdd2893b712e183c9991b0151264d43ef7e27596c1af88c01a02991dc441
 docker: quay.io/biocontainers/segzoo
 aliases:
   bigWigToBedGraph: /usr/local/bin/bigWigToBedGraph
