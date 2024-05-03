@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/surpyvor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/surpyvor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/surpyvor/container.yaml"
-updated_at: "2024-05-02 03:24:22.583549"
+updated_at: "2024-05-03 02:57:48.159990"
 latest: "0.15.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/surpyvor"
 aliases:

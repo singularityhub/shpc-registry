@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gatk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gatk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gatk/container.yaml"
-updated_at: "2024-05-02 03:27:34.167079"
-latest: "3.8--hdfd78af_11"
+updated_at: "2024-05-03 03:00:53.386306"
+latest: "3.8--hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/gatk"
 
 versions:
  - "3.8--9"
  - "3.8--hdfd78af_11"
+ - "3.8--hdfd78af_12"
 description: "shpc-registry automated BioContainers addition for gatk"
-config: {"url": "https://biocontainers.pro/tools/gatk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gatk", "latest": {"3.8--hdfd78af_11": "sha256:8f1ee6b1a419132bda968af90c9abcd1ea1f48eb9780cff408438e59fe6615c5"}, "tags": {"3.8--9": "sha256:e07c301b41224bd79f114438945677e3c62339d84e96659be29315c2b6d6c5db", "3.8--hdfd78af_11": "sha256:8f1ee6b1a419132bda968af90c9abcd1ea1f48eb9780cff408438e59fe6615c5"}, "docker": "quay.io/biocontainers/gatk"}
+config: {"url": "https://biocontainers.pro/tools/gatk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gatk", "latest": {"3.8--hdfd78af_12": "sha256:3b63494e9abc2b3a5a1b7c9d6316a69906d7ba6e78a758e97e69e959499722cf"}, "tags": {"3.8--9": "sha256:e07c301b41224bd79f114438945677e3c62339d84e96659be29315c2b6d6c5db", "3.8--hdfd78af_11": "sha256:8f1ee6b1a419132bda968af90c9abcd1ea1f48eb9780cff408438e59fe6615c5", "3.8--hdfd78af_12": "sha256:3b63494e9abc2b3a5a1b7c9d6316a69906d7ba6e78a758e97e69e959499722cf"}, "docker": "quay.io/biocontainers/gatk"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gatk.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gatk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gatk:3.8--hdfd78af_11
+$ shpc install quay.io/biocontainers/gatk:3.8--hdfd78af_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gatk/3.8--hdfd78af_11
-$ module help quay.io/biocontainers/gatk/3.8--hdfd78af_11
+$ module load quay.io/biocontainers/gatk/3.8--hdfd78af_12
+$ module help quay.io/biocontainers/gatk/3.8--hdfd78af_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

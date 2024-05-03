@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-estscan1"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-estscan1/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-estscan1/container.yaml"
-updated_at: "2024-05-02 03:27:15.305819"
+updated_at: "2024-05-03 03:00:34.794569"
 latest: "1.3--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-estscan1"
 aliases:

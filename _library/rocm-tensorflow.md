@@ -4,8 +4,8 @@ name:  "rocm/tensorflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocm/tensorflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocm/tensorflow/container.yaml"
-updated_at: "2024-05-02 03:39:43.221375"
-latest: "rocm6.0-tf2.14-dev"
+updated_at: "2024-05-03 03:13:02.110825"
+latest: "rocm6.1-py3.10-tf2.15-dev"
 container_url: "https://hub.docker.com/r/rocm/tensorflow"
 aliases:
  - "python"
@@ -17,8 +17,9 @@ versions:
  - "rocm5.6-tf2.12-dev"
  - "rocm5.7-tf2.13-dev"
  - "rocm6.0-tf2.14-dev"
+ - "rocm6.1-py3.10-tf2.15-dev"
 description: "Tensorflow with ROCm backend support"
-config: {"docker": "rocm/tensorflow", "url": "https://hub.docker.com/r/rocm/tensorflow", "maintainer": "@dipietrantonio", "description": "Tensorflow with ROCm backend support", "latest": {"rocm6.0-tf2.14-dev": "sha256:aee2c7cde19ed4b3fc4bbd27264b2019656f71020ea9f29eb687fb471a0a60e3"}, "tags": {"rocm5.5-tf2.11-dev": "sha256:646dc917033b1c8b69058e7dd8e127bb90b96f178841d3e95b9010bee10c1765", "gpg": "sha256:77be414a2b0f13a23696f846320a3ab03df1da974f7d642456e06f02aaa93544", "latest": "sha256:aee2c7cde19ed4b3fc4bbd27264b2019656f71020ea9f29eb687fb471a0a60e3", "rocm5.6-tf2.12-dev": "sha256:7bbea3f8edf8fd4fb0f1b7f6720910f29aaa31edf51a9fff8624a8d2da6cfefe", "rocm5.7-tf2.13-dev": "sha256:6f995539eebc062aac2b53db40e2b545192d8b032d0deada8c24c6651a7ac332", "rocm6.0-tf2.14-dev": "sha256:aee2c7cde19ed4b3fc4bbd27264b2019656f71020ea9f29eb687fb471a0a60e3"}, "features": {"gpu": true}, "aliases": {"python": "/usr/bin/python", "python3": "/usr/bin/python3"}}
+config: {"docker": "rocm/tensorflow", "url": "https://hub.docker.com/r/rocm/tensorflow", "maintainer": "@dipietrantonio", "description": "Tensorflow with ROCm backend support", "latest": {"rocm6.1-py3.10-tf2.15-dev": "sha256:5bb6212c86376d3333be0fc170fef785d8a13a2dc2a3e33649c9a4d86ec38d70"}, "tags": {"rocm5.5-tf2.11-dev": "sha256:646dc917033b1c8b69058e7dd8e127bb90b96f178841d3e95b9010bee10c1765", "gpg": "sha256:77be414a2b0f13a23696f846320a3ab03df1da974f7d642456e06f02aaa93544", "latest": "sha256:1435fe5c762ae1a331b9c210c48553787c05f12145d7eeb3e140b98467d04911", "rocm5.6-tf2.12-dev": "sha256:7bbea3f8edf8fd4fb0f1b7f6720910f29aaa31edf51a9fff8624a8d2da6cfefe", "rocm5.7-tf2.13-dev": "sha256:6f995539eebc062aac2b53db40e2b545192d8b032d0deada8c24c6651a7ac332", "rocm6.0-tf2.14-dev": "sha256:aee2c7cde19ed4b3fc4bbd27264b2019656f71020ea9f29eb687fb471a0a60e3", "rocm6.1-py3.10-tf2.15-dev": "sha256:5bb6212c86376d3333be0fc170fef785d8a13a2dc2a3e33649c9a4d86ec38d70"}, "features": {"gpu": true}, "aliases": {"python": "/usr/bin/python", "python3": "/usr/bin/python3"}}
 ---
 
 This module is a singularity container wrapper for rocm/tensorflow.
@@ -33,7 +34,7 @@ $ shpc install rocm/tensorflow
 Or a specific version:
 
 ```bash
-$ shpc install rocm/tensorflow:rocm6.0-tf2.14-dev
+$ shpc install rocm/tensorflow:rocm6.1-py3.10-tf2.15-dev
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load rocm/tensorflow/rocm6.0-tf2.14-dev
-$ module help rocm/tensorflow/rocm6.0-tf2.14-dev
+$ module load rocm/tensorflow/rocm6.1-py3.10-tf2.15-dev
+$ module help rocm/tensorflow/rocm6.1-py3.10-tf2.15-dev
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

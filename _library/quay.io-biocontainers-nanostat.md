@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanostat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanostat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanostat/container.yaml"
-updated_at: "2024-05-02 03:25:58.556667"
+updated_at: "2024-05-03 02:59:20.258756"
 latest: "1.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanostat"
 aliases:

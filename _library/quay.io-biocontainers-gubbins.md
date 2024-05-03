@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gubbins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gubbins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gubbins/container.yaml"
-updated_at: "2024-05-02 03:08:13.221975"
-latest: "3.3.4--py39pl5321he4a0461_1"
+updated_at: "2024-05-03 02:42:02.001847"
+latest: "3.3.5--py39pl5321he4a0461_0"
 container_url: "https://biocontainers.pro/tools/gubbins"
 aliases:
  - "extract_gubbins_clade.py"
@@ -32,8 +32,9 @@ versions:
  - "3.2.1--py39pl5321h87d955d_0"
  - "3.3.4--py39pl5321he4a0461_1"
  - "3.2.1--py310pl5321h8472f5a_1"
+ - "3.3.5--py39pl5321he4a0461_0"
 description: "shpc-registry automated BioContainers addition for gubbins"
-config: {"url": "https://biocontainers.pro/tools/gubbins", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gubbins", "latest": {"3.3.4--py39pl5321he4a0461_1": "sha256:f6b07ef2ebb5336f632256f1468b5be1270bd1666565e673d1eee294056789a7"}, "tags": {"3.2.1--py39pl5321h87d955d_0": "sha256:18221405d72b5ba7ca93aa9098cb99b73cc290ef0c1f60104ac29a40dc9d1cff", "3.3.4--py39pl5321he4a0461_1": "sha256:f6b07ef2ebb5336f632256f1468b5be1270bd1666565e673d1eee294056789a7", "3.2.1--py310pl5321h8472f5a_1": "sha256:b4899c5084715d141b9978a43a3e04c76c18fc40cb82903b997b1e5c4ada0c04"}, "docker": "quay.io/biocontainers/gubbins", "aliases": {"extract_gubbins_clade.py": "/usr/local/bin/extract_gubbins_clade.py", "generate_ska_alignment.py": "/usr/local/bin/generate_ska_alignment.py", "gubbins": "/usr/local/bin/gubbins", "gubbins_alignment_checker.py": "/usr/local/bin/gubbins_alignment_checker.py", "mask_gubbins_aln.py": "/usr/local/bin/mask_gubbins_aln.py", "rapidnj": "/usr/local/bin/rapidnj", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "run_gubbins.py": "/usr/local/bin/run_gubbins.py", "ska": "/usr/local/bin/ska", "iqtree": "/usr/local/bin/iqtree", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "dendropy-format": "/usr/local/bin/dendropy-format", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill"}}
+config: {"url": "https://biocontainers.pro/tools/gubbins", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gubbins", "latest": {"3.3.5--py39pl5321he4a0461_0": "sha256:f47273659f833f3d865157b07c56adcff7f11674690f1a311c160c1fbd8ba860"}, "tags": {"3.2.1--py39pl5321h87d955d_0": "sha256:18221405d72b5ba7ca93aa9098cb99b73cc290ef0c1f60104ac29a40dc9d1cff", "3.3.4--py39pl5321he4a0461_1": "sha256:f6b07ef2ebb5336f632256f1468b5be1270bd1666565e673d1eee294056789a7", "3.2.1--py310pl5321h8472f5a_1": "sha256:b4899c5084715d141b9978a43a3e04c76c18fc40cb82903b997b1e5c4ada0c04", "3.3.5--py39pl5321he4a0461_0": "sha256:f47273659f833f3d865157b07c56adcff7f11674690f1a311c160c1fbd8ba860"}, "docker": "quay.io/biocontainers/gubbins", "aliases": {"extract_gubbins_clade.py": "/usr/local/bin/extract_gubbins_clade.py", "generate_ska_alignment.py": "/usr/local/bin/generate_ska_alignment.py", "gubbins": "/usr/local/bin/gubbins", "gubbins_alignment_checker.py": "/usr/local/bin/gubbins_alignment_checker.py", "mask_gubbins_aln.py": "/usr/local/bin/mask_gubbins_aln.py", "rapidnj": "/usr/local/bin/rapidnj", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "run_gubbins.py": "/usr/local/bin/run_gubbins.py", "ska": "/usr/local/bin/ska", "iqtree": "/usr/local/bin/iqtree", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "dendropy-format": "/usr/local/bin/dendropy-format", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gubbins.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/gubbins
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gubbins:3.3.4--py39pl5321he4a0461_1
+$ shpc install quay.io/biocontainers/gubbins:3.3.5--py39pl5321he4a0461_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gubbins/3.3.4--py39pl5321he4a0461_1
-$ module help quay.io/biocontainers/gubbins/3.3.4--py39pl5321he4a0461_1
+$ module load quay.io/biocontainers/gubbins/3.3.5--py39pl5321he4a0461_0
+$ module help quay.io/biocontainers/gubbins/3.3.5--py39pl5321he4a0461_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

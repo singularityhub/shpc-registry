@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bedgovcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bedgovcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bedgovcf/container.yaml"
-updated_at: "2024-05-02 03:38:00.419249"
-latest: "0.1.0--h9ee0642_0"
+updated_at: "2024-05-03 03:11:19.458050"
+latest: "0.1.1--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/bedgovcf"
 aliases:
  - "bedgovcf"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "0.1.0--h9ee0642_0"
+ - "0.1.1--h9ee0642_1"
 description: "singularity registry hpc automated addition for bedgovcf"
-config: {"url": "https://biocontainers.pro/tools/bedgovcf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bedgovcf", "latest": {"0.1.0--h9ee0642_0": "sha256:33f57ff12e8aad98aaaef0afed0cecb3acfbd5987ba2e0ec25b8f45904e2afc0"}, "tags": {"0.1.0--h9ee0642_0": "sha256:33f57ff12e8aad98aaaef0afed0cecb3acfbd5987ba2e0ec25b8f45904e2afc0"}, "docker": "quay.io/biocontainers/bedgovcf", "aliases": {"bedgovcf": "/usr/local/bin/bedgovcf", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/bedgovcf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bedgovcf", "latest": {"0.1.1--h9ee0642_1": "sha256:4b23f82399abb27b75bb1376d08ff0972f6968999427d18e017ffd49e61aa56e"}, "tags": {"0.1.0--h9ee0642_0": "sha256:33f57ff12e8aad98aaaef0afed0cecb3acfbd5987ba2e0ec25b8f45904e2afc0", "0.1.1--h9ee0642_1": "sha256:4b23f82399abb27b75bb1376d08ff0972f6968999427d18e017ffd49e61aa56e"}, "docker": "quay.io/biocontainers/bedgovcf", "aliases": {"bedgovcf": "/usr/local/bin/bedgovcf", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bedgovcf.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bedgovcf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bedgovcf:0.1.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/bedgovcf:0.1.1--h9ee0642_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bedgovcf/0.1.0--h9ee0642_0
-$ module help quay.io/biocontainers/bedgovcf/0.1.0--h9ee0642_0
+$ module load quay.io/biocontainers/bedgovcf/0.1.1--h9ee0642_1
+$ module help quay.io/biocontainers/bedgovcf/0.1.1--h9ee0642_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wisecondorx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wisecondorx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wisecondorx/container.yaml"
-updated_at: "2024-05-02 02:54:49.745131"
-latest: "1.2.5--pyh5e36f6f_0"
+updated_at: "2024-05-03 02:28:42.614954"
+latest: "1.2.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/wisecondorx"
 aliases:
  - "WisecondorX"
@@ -21,8 +21,9 @@ aliases:
  - "2to3-3.10"
 versions:
  - "1.2.5--pyh5e36f6f_0"
+ - "1.2.7--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for wisecondorx"
-config: {"url": "https://biocontainers.pro/tools/wisecondorx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wisecondorx", "latest": {"1.2.5--pyh5e36f6f_0": "sha256:8e2557f4bea29f796cd0eff1bcaf3f4fe3c52a0ea45c2ae685833715732d0bcb"}, "tags": {"1.2.5--pyh5e36f6f_0": "sha256:8e2557f4bea29f796cd0eff1bcaf3f4fe3c52a0ea45c2ae685833715732d0bcb"}, "docker": "quay.io/biocontainers/wisecondorx", "aliases": {"WisecondorX": "/usr/local/bin/WisecondorX", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10"}}
+config: {"url": "https://biocontainers.pro/tools/wisecondorx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wisecondorx", "latest": {"1.2.7--pyhdfd78af_0": "sha256:24a66efa275c7eea19d1c2a533b01f01eeaec9f57a57ae14ff8d2b7892c049bb"}, "tags": {"1.2.5--pyh5e36f6f_0": "sha256:8e2557f4bea29f796cd0eff1bcaf3f4fe3c52a0ea45c2ae685833715732d0bcb", "1.2.7--pyhdfd78af_0": "sha256:24a66efa275c7eea19d1c2a533b01f01eeaec9f57a57ae14ff8d2b7892c049bb"}, "docker": "quay.io/biocontainers/wisecondorx", "aliases": {"WisecondorX": "/usr/local/bin/WisecondorX", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wisecondorx.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/wisecondorx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wisecondorx:1.2.5--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/wisecondorx:1.2.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wisecondorx/1.2.5--pyh5e36f6f_0
-$ module help quay.io/biocontainers/wisecondorx/1.2.5--pyh5e36f6f_0
+$ module load quay.io/biocontainers/wisecondorx/1.2.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/wisecondorx/1.2.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

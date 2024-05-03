@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/kraken2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/kraken2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/kraken2/container.yaml"
-updated_at: "2024-05-02 03:39:40.270819"
+updated_at: "2024-05-03 03:12:59.155630"
 latest: "2.1.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/kraken2"
 aliases:

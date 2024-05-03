@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/shiver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shiver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shiver/container.yaml"
-updated_at: "2024-05-02 03:20:14.489949"
-latest: "1.3.5--py35_0"
+updated_at: "2024-05-03 02:53:49.197578"
+latest: "1.7.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/shiver"
 aliases:
  - "basqcol"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "1.3.5--py35_0"
  - "1.3.5--py27_0"
+ - "1.7.3--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for shiver"
-config: {"url": "https://biocontainers.pro/tools/shiver", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shiver", "latest": {"1.3.5--py35_0": "sha256:665d05461b9b3a9d41235a0b45b13109822738ee71dd6a309ba307e657105e56"}, "tags": {"1.3.5--py35_0": "sha256:665d05461b9b3a9d41235a0b45b13109822738ee71dd6a309ba307e657105e56", "1.3.5--py27_0": "sha256:07a70181b2609f86b8af17342b8eb41a1c045b3280eed69946a8da1e4db01ac9"}, "docker": "quay.io/biocontainers/shiver", "aliases": {"basqcol": "/usr/local/bin/basqcol", "fetchseq": "/usr/local/bin/fetchseq", "mixreads": "/usr/local/bin/mixreads", "readstats": "/usr/local/bin/readstats", "shiver_align_contigs.sh": "/usr/local/bin/shiver_align_contigs.sh", "shiver_config.sh": "/usr/local/bin/shiver_config.sh", "shiver_full_auto.sh": "/usr/local/bin/shiver_full_auto.sh", "shiver_funcs.sh": "/usr/local/bin/shiver_funcs.sh", "shiver_init.sh": "/usr/local/bin/shiver_init.sh", "shiver_map_reads.sh": "/usr/local/bin/shiver_map_reads.sh", "shiver_reprocess_bam.sh": "/usr/local/bin/shiver_reprocess_bam.sh", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "trunkreads": "/usr/local/bin/trunkreads", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "picard": "/usr/local/bin/picard", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "fastaq": "/usr/local/bin/fastaq", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py"}}
+config: {"url": "https://biocontainers.pro/tools/shiver", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shiver", "latest": {"1.7.3--hdfd78af_0": "sha256:4360c6df02099b66a39321220d19efadf1073ca4b524a516717aa43049675733"}, "tags": {"1.3.5--py35_0": "sha256:665d05461b9b3a9d41235a0b45b13109822738ee71dd6a309ba307e657105e56", "1.3.5--py27_0": "sha256:07a70181b2609f86b8af17342b8eb41a1c045b3280eed69946a8da1e4db01ac9", "1.7.3--hdfd78af_0": "sha256:4360c6df02099b66a39321220d19efadf1073ca4b524a516717aa43049675733"}, "docker": "quay.io/biocontainers/shiver", "aliases": {"basqcol": "/usr/local/bin/basqcol", "fetchseq": "/usr/local/bin/fetchseq", "mixreads": "/usr/local/bin/mixreads", "readstats": "/usr/local/bin/readstats", "shiver_align_contigs.sh": "/usr/local/bin/shiver_align_contigs.sh", "shiver_config.sh": "/usr/local/bin/shiver_config.sh", "shiver_full_auto.sh": "/usr/local/bin/shiver_full_auto.sh", "shiver_funcs.sh": "/usr/local/bin/shiver_funcs.sh", "shiver_init.sh": "/usr/local/bin/shiver_init.sh", "shiver_map_reads.sh": "/usr/local/bin/shiver_map_reads.sh", "shiver_reprocess_bam.sh": "/usr/local/bin/shiver_reprocess_bam.sh", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "trunkreads": "/usr/local/bin/trunkreads", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "picard": "/usr/local/bin/picard", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "fastaq": "/usr/local/bin/fastaq", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shiver.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/shiver
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/shiver:1.3.5--py35_0
+$ shpc install quay.io/biocontainers/shiver:1.7.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/shiver/1.3.5--py35_0
-$ module help quay.io/biocontainers/shiver/1.3.5--py35_0
+$ module load quay.io/biocontainers/shiver/1.7.3--hdfd78af_0
+$ module help quay.io/biocontainers/shiver/1.7.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

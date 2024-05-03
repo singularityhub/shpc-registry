@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gars"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gars/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gars/container.yaml"
-updated_at: "2024-05-02 03:09:39.745880"
+updated_at: "2024-05-03 02:43:28.120994"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gars"
 aliases:
