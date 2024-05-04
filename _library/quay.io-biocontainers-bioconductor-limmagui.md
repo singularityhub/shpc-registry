@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-limmagui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-limmagui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-limmagui/container.yaml"
-updated_at: "2024-05-03 02:59:34.725942"
+updated_at: "2024-05-04 02:55:46.486626"
 latest: "1.78.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-limmagui"
 

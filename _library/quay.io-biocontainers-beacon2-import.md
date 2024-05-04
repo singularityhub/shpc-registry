@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/beacon2-import"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beacon2-import/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beacon2-import/container.yaml"
-updated_at: "2024-05-03 03:08:01.322606"
-latest: "1.0.6--pyhdfd78af_0"
+updated_at: "2024-05-04 03:04:18.642035"
+latest: "1.0.7--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/beacon2-import"
 aliases:
  - "beacon2-import"
@@ -38,8 +38,9 @@ aliases:
  - "f2py3.6"
 versions:
  - "1.0.6--pyhdfd78af_0"
+ - "1.0.7--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for beacon2-import"
-config: {"url": "https://biocontainers.pro/tools/beacon2-import", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for beacon2-import", "latest": {"1.0.6--pyhdfd78af_0": "sha256:5ff5d5a1d915956323cd54ae7d8899f9c7fd2fce26da7194f9f0c1a37e129595"}, "tags": {"1.0.6--pyhdfd78af_0": "sha256:5ff5d5a1d915956323cd54ae7d8899f9c7fd2fce26da7194f9f0c1a37e129595"}, "docker": "quay.io/biocontainers/beacon2-import", "aliases": {"beacon2-import": "/usr/local/bin/beacon2-import", "beacon2-search": "/usr/local/bin/beacon2-search", "bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "cyvcf2": "/usr/local/bin/cyvcf2", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier", "instance_events": "/usr/local/bin/instance_events", "kill_instance": "/usr/local/bin/kill_instance", "launch_instance": "/usr/local/bin/launch_instance", "list_instances": "/usr/local/bin/list_instances", "lss3": "/usr/local/bin/lss3", "mturk": "/usr/local/bin/mturk", "pyami_sendmail": "/usr/local/bin/pyami_sendmail", "route53": "/usr/local/bin/route53", "s3put": "/usr/local/bin/s3put", "sdbadmin": "/usr/local/bin/sdbadmin", "taskadmin": "/usr/local/bin/taskadmin", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "f2py3.6": "/usr/local/bin/f2py3.6"}}
+config: {"url": "https://biocontainers.pro/tools/beacon2-import", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for beacon2-import", "latest": {"1.0.7--pyh7cba7a3_0": "sha256:a019c442c47fdb6d566eb33dd02a33a12e639ffb3d35f59a06422a3e62504472"}, "tags": {"1.0.6--pyhdfd78af_0": "sha256:5ff5d5a1d915956323cd54ae7d8899f9c7fd2fce26da7194f9f0c1a37e129595", "1.0.7--pyh7cba7a3_0": "sha256:a019c442c47fdb6d566eb33dd02a33a12e639ffb3d35f59a06422a3e62504472"}, "docker": "quay.io/biocontainers/beacon2-import", "aliases": {"beacon2-import": "/usr/local/bin/beacon2-import", "beacon2-search": "/usr/local/bin/beacon2-search", "bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "cyvcf2": "/usr/local/bin/cyvcf2", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier", "instance_events": "/usr/local/bin/instance_events", "kill_instance": "/usr/local/bin/kill_instance", "launch_instance": "/usr/local/bin/launch_instance", "list_instances": "/usr/local/bin/list_instances", "lss3": "/usr/local/bin/lss3", "mturk": "/usr/local/bin/mturk", "pyami_sendmail": "/usr/local/bin/pyami_sendmail", "route53": "/usr/local/bin/route53", "s3put": "/usr/local/bin/s3put", "sdbadmin": "/usr/local/bin/sdbadmin", "taskadmin": "/usr/local/bin/taskadmin", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "f2py3.6": "/usr/local/bin/f2py3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/beacon2-import.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/beacon2-import
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/beacon2-import:1.0.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/beacon2-import:1.0.7--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/beacon2-import/1.0.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/beacon2-import/1.0.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/beacon2-import/1.0.7--pyh7cba7a3_0
+$ module help quay.io/biocontainers/beacon2-import/1.0.7--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

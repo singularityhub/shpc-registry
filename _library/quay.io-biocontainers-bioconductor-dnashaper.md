@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dnashaper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dnashaper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dnashaper/container.yaml"
-updated_at: "2024-05-03 02:58:46.417204"
+updated_at: "2024-05-04 02:54:56.523297"
 latest: "1.30.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dnashaper"
 aliases:
