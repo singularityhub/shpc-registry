@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/astral-tree
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for astral-tree
 latest:
-  5.7.8--hdfd78af_0: sha256:79a44e8ce8fb2d25bf7cad5cd6622e184e57a456d21462159914c11eb03713a4
+  5.7.8--hdfd78af_1: sha256:7a80d997d6aa3efeea158016912addb858a5e6e435f79a4e3c45d8deb6af2d78
 tags:
   5.7.8--hdfd78af_0: sha256:79a44e8ce8fb2d25bf7cad5cd6622e184e57a456d21462159914c11eb03713a4
+  5.7.8--hdfd78af_1: sha256:7a80d997d6aa3efeea158016912addb858a5e6e435f79a4e3c45d8deb6af2d78
 docker: quay.io/biocontainers/astral-tree
 aliases:
   astral: /usr/local/bin/astral

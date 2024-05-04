@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/stringtie
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for stringtie
 latest:
-  2.2.1--h43eeafb_6: sha256:3a57bf3a577e0027d2a35ff9fc5f95ceb376893dd40d467d4b216cc85678e8e6
+  2.2.2--h43eeafb_0: sha256:cc576f430b193ae4f42ac518375b13488957f251460aad3723ff0da38fa99922
 tags:
   2.2.1--hecb563c_2: sha256:8f557d827442a99b264caf623e075f4e3bd4421b2ffc8de69bc45156a076dadf
   2.2.1--h43eeafb_6: sha256:3a57bf3a577e0027d2a35ff9fc5f95ceb376893dd40d467d4b216cc85678e8e6
+  2.2.2--h43eeafb_0: sha256:cc576f430b193ae4f42ac518375b13488957f251460aad3723ff0da38fa99922
 docker: quay.io/biocontainers/stringtie
 aliases:
   prepDE.py: /usr/local/bin/prepDE.py

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mummer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mummer
 latest:
-  3.23--pl5321hdbdd923_16: sha256:6cc30f4cd6e23263532cd62400b12e4a740b1386d76ac4d6a39a40dcd54211b6
+  3.23--pl5321hdbdd923_17: sha256:4c143caa2358ece952dc2e5c0f5151e6bf95554007d68654890317e14bc5e213
 tags:
   3.23--pl5321h87f3376_14: sha256:7e8794c0f90afcca59db2b8d4be8c769b463ef7f3dc6d3f70970eae5c36ccf3f
   3.23--pl5321hdbdd923_16: sha256:6cc30f4cd6e23263532cd62400b12e4a740b1386d76ac4d6a39a40dcd54211b6
+  3.23--pl5321hdbdd923_17: sha256:4c143caa2358ece952dc2e5c0f5151e6bf95554007d68654890317e14bc5e213
 docker: quay.io/biocontainers/mummer
 aliases:
   mummer: /usr/local/bin/mummer

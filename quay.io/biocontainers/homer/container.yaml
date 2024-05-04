@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/homer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for homer
 latest:
-  4.11--pl5262h9f5acd7_8: sha256:e1a3c09329424f307de26c22c4d50fa34b1a7a2422b59a63e4231c00cfb0c4f3
+  4.11--pl5262h4ac6f70_9: sha256:7d4b81483f42b4efdf29be9b81a3b482037a8454901ce5346013b3bc79eccb47
 tags:
   4.9.1--pl526h2d50403_6: sha256:ccf2f8018a3cdde9d99da6b99a64d79282a756e777de4dc43a50f529cfbd8ca2
   4.11--pl5321h9f5acd7_7: sha256:7128c40e977d298c7718c2463f25407c436e27ff4940ede27d0a37e850033a17
   4.10--pl526hc9558a2_0: sha256:611ca4ea447e1892aca3cae3b02c9f43f209a3fabb1007b3e5758113f9040dc0
   4.11--pl5262h9f5acd7_8: sha256:e1a3c09329424f307de26c22c4d50fa34b1a7a2422b59a63e4231c00cfb0c4f3
+  4.11--pl5262h4ac6f70_9: sha256:7d4b81483f42b4efdf29be9b81a3b482037a8454901ce5346013b3bc79eccb47
 docker: quay.io/biocontainers/homer
 aliases:
   GenomeOntology.pl: /usr/local/bin/GenomeOntology.pl
