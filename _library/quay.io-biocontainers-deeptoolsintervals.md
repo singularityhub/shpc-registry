@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deeptoolsintervals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeptoolsintervals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deeptoolsintervals/container.yaml"
-updated_at: "2024-05-04 02:59:08.063892"
+updated_at: "2024-05-05 03:04:26.141721"
 latest: "0.1.9--py38h4c6a040_8"
 container_url: "https://biocontainers.pro/tools/deeptoolsintervals"
 aliases:

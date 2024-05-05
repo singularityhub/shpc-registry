@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-kissde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kissde/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kissde/container.yaml"
-updated_at: "2024-05-04 02:26:41.424726"
+updated_at: "2024-05-05 02:31:17.924830"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kissde"
 aliases:

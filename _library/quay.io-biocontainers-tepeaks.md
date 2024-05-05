@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tepeaks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tepeaks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tepeaks/container.yaml"
-updated_at: "2024-05-04 02:26:50.489936"
+updated_at: "2024-05-05 02:31:26.767939"
 latest: "0.1--ha503a2d_5"
 container_url: "https://biocontainers.pro/tools/tepeaks"
 aliases:

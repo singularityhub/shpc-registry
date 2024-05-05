@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/astral-tree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/astral-tree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/astral-tree/container.yaml"
-updated_at: "2024-05-04 02:56:19.687255"
-latest: "5.7.8--hdfd78af_0"
+updated_at: "2024-05-05 03:01:30.110063"
+latest: "5.7.8--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/astral-tree"
 aliases:
  - "astral"
@@ -36,8 +36,9 @@ aliases:
  - "jinfo"
 versions:
  - "5.7.8--hdfd78af_0"
+ - "5.7.8--hdfd78af_1"
 description: "singularity registry hpc automated addition for astral-tree"
-config: {"url": "https://biocontainers.pro/tools/astral-tree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for astral-tree", "latest": {"5.7.8--hdfd78af_0": "sha256:79a44e8ce8fb2d25bf7cad5cd6622e184e57a456d21462159914c11eb03713a4"}, "tags": {"5.7.8--hdfd78af_0": "sha256:79a44e8ce8fb2d25bf7cad5cd6622e184e57a456d21462159914c11eb03713a4"}, "docker": "quay.io/biocontainers/astral-tree", "aliases": {"astral": "/usr/local/bin/astral", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic", "rmid": "/usr/local/bin/rmid", "unpack200": "/usr/local/bin/unpack200", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
+config: {"url": "https://biocontainers.pro/tools/astral-tree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for astral-tree", "latest": {"5.7.8--hdfd78af_1": "sha256:7a80d997d6aa3efeea158016912addb858a5e6e435f79a4e3c45d8deb6af2d78"}, "tags": {"5.7.8--hdfd78af_0": "sha256:79a44e8ce8fb2d25bf7cad5cd6622e184e57a456d21462159914c11eb03713a4", "5.7.8--hdfd78af_1": "sha256:7a80d997d6aa3efeea158016912addb858a5e6e435f79a4e3c45d8deb6af2d78"}, "docker": "quay.io/biocontainers/astral-tree", "aliases": {"astral": "/usr/local/bin/astral", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic", "rmid": "/usr/local/bin/rmid", "unpack200": "/usr/local/bin/unpack200", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/astral-tree.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/astral-tree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/astral-tree:5.7.8--hdfd78af_0
+$ shpc install quay.io/biocontainers/astral-tree:5.7.8--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/astral-tree/5.7.8--hdfd78af_0
-$ module help quay.io/biocontainers/astral-tree/5.7.8--hdfd78af_0
+$ module load quay.io/biocontainers/astral-tree/5.7.8--hdfd78af_1
+$ module help quay.io/biocontainers/astral-tree/5.7.8--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

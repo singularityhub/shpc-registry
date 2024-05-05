@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sequali"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequali/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequali/container.yaml"
-updated_at: "2024-05-04 02:51:53.698314"
-latest: "0.6.0--py38he5da3d1_0"
+updated_at: "2024-05-05 02:56:49.173885"
+latest: "0.7.1--py310h4b81fae_0"
 container_url: "https://biocontainers.pro/tools/sequali"
 aliases:
  - "pygal_gen.py"
@@ -33,8 +33,9 @@ versions:
  - "0.4.1--py38he5da3d1_0"
  - "0.3.0--py38he5da3d1_0"
  - "0.2.0--py39hf95cd2a_0"
+ - "0.7.1--py310h4b81fae_0"
 description: "singularity registry hpc automated addition for sequali"
-config: {"url": "https://biocontainers.pro/tools/sequali", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sequali", "latest": {"0.6.0--py38he5da3d1_0": "sha256:306c2bc95e96801b5b8569c683e5b5b72219a431079efa83390754ed3e9730eb"}, "tags": {"0.1.0--py310h4b81fae_0": "sha256:c8dc189b2acd08be95ed7abc240d2797730cb6d1fb4e54b4d215f67b6443acdf", "0.4.1--py39hf95cd2a_0": "sha256:b158522f050119644e440a481cdd6d12e81e85af62d41a7ba9964d685a6d886c", "0.3.0--py310h4b81fae_0": "sha256:c7049e96977b1b60f99d5f6c45bc8f2ff1bbf7ca016cd1a504723acfd3ea61c1", "0.2.0--py310h4b81fae_0": "sha256:055fa2adee23900dbc530738e478b8f0ae69838c8b413b862480dcf7cd863466", "0.6.0--py38he5da3d1_0": "sha256:306c2bc95e96801b5b8569c683e5b5b72219a431079efa83390754ed3e9730eb", "0.5.1--py310h4b81fae_0": "sha256:d338e0fd0be3d304aafaf35b6b4db964e4e309dfb2190ff02ce11c8916ab52c2", "0.4.1--py38he5da3d1_0": "sha256:a08ba14ff2ed6bc0317b7a01c905a36616bfc156683197409d6e818f32c5ec4c", "0.3.0--py38he5da3d1_0": "sha256:858890dc4b24cf10f21fdeb9e333968cd70749d7ff5b90b7e11866fad6fecc5a", "0.2.0--py39hf95cd2a_0": "sha256:36bc1f1c864d1b47694dcf436df6a5cf03a398e347c6098c1dc0d809b9271a6b"}, "docker": "quay.io/biocontainers/sequali", "aliases": {"pygal_gen.py": "/usr/local/bin/pygal_gen.py", "sequali": "/usr/local/bin/sequali", "sequali-report": "/usr/local/bin/sequali-report", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/sequali", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sequali", "latest": {"0.7.1--py310h4b81fae_0": "sha256:abc9128884299885a322fda4b7e0e7074d1821c84dd1568254dc15bc15e8a852"}, "tags": {"0.1.0--py310h4b81fae_0": "sha256:c8dc189b2acd08be95ed7abc240d2797730cb6d1fb4e54b4d215f67b6443acdf", "0.4.1--py39hf95cd2a_0": "sha256:b158522f050119644e440a481cdd6d12e81e85af62d41a7ba9964d685a6d886c", "0.3.0--py310h4b81fae_0": "sha256:c7049e96977b1b60f99d5f6c45bc8f2ff1bbf7ca016cd1a504723acfd3ea61c1", "0.2.0--py310h4b81fae_0": "sha256:055fa2adee23900dbc530738e478b8f0ae69838c8b413b862480dcf7cd863466", "0.6.0--py38he5da3d1_0": "sha256:306c2bc95e96801b5b8569c683e5b5b72219a431079efa83390754ed3e9730eb", "0.5.1--py310h4b81fae_0": "sha256:d338e0fd0be3d304aafaf35b6b4db964e4e309dfb2190ff02ce11c8916ab52c2", "0.4.1--py38he5da3d1_0": "sha256:a08ba14ff2ed6bc0317b7a01c905a36616bfc156683197409d6e818f32c5ec4c", "0.3.0--py38he5da3d1_0": "sha256:858890dc4b24cf10f21fdeb9e333968cd70749d7ff5b90b7e11866fad6fecc5a", "0.2.0--py39hf95cd2a_0": "sha256:36bc1f1c864d1b47694dcf436df6a5cf03a398e347c6098c1dc0d809b9271a6b", "0.7.1--py310h4b81fae_0": "sha256:abc9128884299885a322fda4b7e0e7074d1821c84dd1568254dc15bc15e8a852"}, "docker": "quay.io/biocontainers/sequali", "aliases": {"pygal_gen.py": "/usr/local/bin/pygal_gen.py", "sequali": "/usr/local/bin/sequali", "sequali-report": "/usr/local/bin/sequali-report", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sequali.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/sequali
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sequali:0.6.0--py38he5da3d1_0
+$ shpc install quay.io/biocontainers/sequali:0.7.1--py310h4b81fae_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sequali/0.6.0--py38he5da3d1_0
-$ module help quay.io/biocontainers/sequali/0.6.0--py38he5da3d1_0
+$ module load quay.io/biocontainers/sequali/0.7.1--py310h4b81fae_0
+$ module help quay.io/biocontainers/sequali/0.7.1--py310h4b81fae_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

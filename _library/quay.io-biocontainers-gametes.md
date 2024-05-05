@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gametes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gametes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gametes/container.yaml"
-updated_at: "2024-05-04 02:26:20.401068"
+updated_at: "2024-05-05 02:30:57.550649"
 latest: "2.1--py310h7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/gametes"
 aliases:

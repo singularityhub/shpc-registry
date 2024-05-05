@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dcats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dcats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dcats/container.yaml"
-updated_at: "2024-05-04 02:47:43.929074"
+updated_at: "2024-05-05 02:52:24.402176"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dcats"
 aliases:
