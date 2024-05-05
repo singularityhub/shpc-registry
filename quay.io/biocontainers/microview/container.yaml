@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/microview
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for microview
 latest:
-  0.10.1--py312h031d066_0: sha256:22cd79f5bf8c4064a2de1b05924c04643aacf650e6f2e1b2413554e1b4b5f50c
+  0.11.0--py312h031d066_0: sha256:1a790db256052f09151743a5d477d9ba94be3bfb360072a1294855a1086688aa
 tags:
   0.10.1--py312h031d066_0: sha256:22cd79f5bf8c4064a2de1b05924c04643aacf650e6f2e1b2413554e1b4b5f50c
+  0.11.0--py312h031d066_0: sha256:1a790db256052f09151743a5d477d9ba94be3bfb360072a1294855a1086688aa
 docker: quay.io/biocontainers/microview
 aliases:
   frictionless: /usr/local/bin/frictionless

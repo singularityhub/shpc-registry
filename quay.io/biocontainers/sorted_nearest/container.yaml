@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/sorted_nearest
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sorted_nearest
 latest:
-  0.0.39--py38he5da3d1_0: sha256:bb842653b4173f55583524eb8ebc50b474b5cd5ee0f925680ef2afb3e58a1f7a
+  0.0.39--py39hf95cd2a_1: sha256:64c49ae95c170dac20b00af6e5a1ff27917f40be07af7ca3820bb3b25d01bc76
 tags:
   0.0.32--py39hcbe4a3b_1: sha256:5e99e777b488e799c00dbd8d15ea0438bfb30a452c1f1818520569f98d21f99d
   0.0.39--py38he5da3d1_0: sha256:bb842653b4173f55583524eb8ebc50b474b5cd5ee0f925680ef2afb3e58a1f7a
+  0.0.39--py39hf95cd2a_1: sha256:64c49ae95c170dac20b00af6e5a1ff27917f40be07af7ca3820bb3b25d01bc76
 docker: quay.io/biocontainers/sorted_nearest
 aliases:
   f2py3.9: /usr/local/bin/f2py3.9
