@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-multimed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multimed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multimed/container.yaml"
-updated_at: "2024-05-06 04:34:21.418855"
+updated_at: "2024-05-06 18:51:32.763597"
 latest: "2.24.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-multimed"
 aliases:

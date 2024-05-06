@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-netzoor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netzoor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netzoor/container.yaml"
-updated_at: "2024-05-06 04:11:51.295074"
+updated_at: "2024-05-06 18:28:32.726021"
 latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netzoor"
 aliases:
