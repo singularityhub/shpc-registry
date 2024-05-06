@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/epa-ng"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epa-ng/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epa-ng/container.yaml"
-updated_at: "2024-05-06 03:07:11.353967"
+updated_at: "2024-05-06 04:46:17.457270"
 latest: "0.3.8--hdcf5f25_4"
 container_url: "https://biocontainers.pro/tools/epa-ng"
 aliases:
