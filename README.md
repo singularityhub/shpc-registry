@@ -96,7 +96,7 @@ $ python .github/scripts/env.py remove quay.io/biocontainers/samtools maintainer
 
 ### BioContainers
 
-We have a [script](.github/scripts/update_biocontainers.py) that will generate (non existing) modules for BioContainers,
+We have a [script](.github/scripts/get_biocontainers.py) that will generate (non existing) modules for BioContainers,
 and it is run once a week! It works by way of using an updated cache at [https://github.com/singularityhub/shpc-registry-cache]
 generated directly from Biocontainers, which not only captures aliases for a latest tag, but also derives the accumulated
 counts across all 8K+ containers. With these counts we can generate aliases as follows:
@@ -119,7 +119,7 @@ $ git clone https://github.com/singularityhub/shpc-registry-cache /tmp/cache
 And then to run the script (this shows the defaults)
 
 ```bash
-$ python .github/scripts/update_biocontainers.py --cache /tmp/cache --registry $(pwd) --min-count-inclusion 10 --additional-count-inclusion 25
+$ python .github/scripts/get_biocontainers.py --cache /tmp/cache --registry $(pwd) --min-count-inclusion 10 --additional-count-inclusion 25
 ```
 
 from the root. Since this added over 8K containers to the registry, we needed a new strategy for running the updater TBA!
