@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clippy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clippy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clippy/container.yaml"
-updated_at: "2024-05-05 02:56:50.335896"
+updated_at: "2024-05-06 02:58:06.513770"
 latest: "1.5.0--pyh3cd468f_1"
 container_url: "https://biocontainers.pro/tools/clippy"
 aliases:

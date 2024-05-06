@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chic.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chic.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chic.data/container.yaml"
-updated_at: "2024-05-05 02:49:32.380038"
+updated_at: "2024-05-06 02:51:12.043266"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chic.data"
 aliases:

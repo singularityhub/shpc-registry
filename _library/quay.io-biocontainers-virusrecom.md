@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/virusrecom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virusrecom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virusrecom/container.yaml"
-updated_at: "2024-05-05 02:28:58.167074"
-latest: "1.1.4--pyhdfd78af_0"
+updated_at: "2024-05-06 02:30:38.273961"
+latest: "1.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/virusrecom"
 aliases:
  - "virusrecom"
@@ -31,8 +31,9 @@ aliases:
 versions:
  - "1.1.3--pyhdfd78af_1"
  - "1.1.4--pyhdfd78af_0"
+ - "1.1.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for virusrecom"
-config: {"url": "https://biocontainers.pro/tools/virusrecom", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for virusrecom", "latest": {"1.1.4--pyhdfd78af_0": "sha256:b0ca13e9d6068bd5cab599e4b571bfe47462ff3a51f8f5c8cfb9930782c86c71"}, "tags": {"1.1.3--pyhdfd78af_1": "sha256:2e53deb35314982aa9123632b568309b42c12f711b4b89a61443ca7ce093b697", "1.1.4--pyhdfd78af_0": "sha256:b0ca13e9d6068bd5cab599e4b571bfe47462ff3a51f8f5c8cfb9930782c86c71"}, "docker": "quay.io/biocontainers/virusrecom", "aliases": {"virusrecom": "/usr/local/bin/virusrecom", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/virusrecom", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for virusrecom", "latest": {"1.1.5--pyhdfd78af_0": "sha256:037fe758ff8f37cfd813a446d8e90fa9116983630eaa0982a752702d2e756d11"}, "tags": {"1.1.3--pyhdfd78af_1": "sha256:2e53deb35314982aa9123632b568309b42c12f711b4b89a61443ca7ce093b697", "1.1.4--pyhdfd78af_0": "sha256:b0ca13e9d6068bd5cab599e4b571bfe47462ff3a51f8f5c8cfb9930782c86c71", "1.1.5--pyhdfd78af_0": "sha256:037fe758ff8f37cfd813a446d8e90fa9116983630eaa0982a752702d2e756d11"}, "docker": "quay.io/biocontainers/virusrecom", "aliases": {"virusrecom": "/usr/local/bin/virusrecom", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/virusrecom.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/virusrecom
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/virusrecom:1.1.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/virusrecom:1.1.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/virusrecom/1.1.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/virusrecom/1.1.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/virusrecom/1.1.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/virusrecom/1.1.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

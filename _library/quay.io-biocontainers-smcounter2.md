@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smcounter2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smcounter2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smcounter2/container.yaml"
-updated_at: "2024-05-05 02:31:06.293939"
+updated_at: "2024-05-06 02:32:46.267265"
 latest: "0.1.2018.08.28--2"
 container_url: "https://biocontainers.pro/tools/smcounter2"
 aliases:

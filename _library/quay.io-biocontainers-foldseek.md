@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/foldseek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/foldseek/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/foldseek/container.yaml"
-updated_at: "2024-05-05 02:51:48.373005"
+updated_at: "2024-05-06 02:53:21.116621"
 latest: "8.ef4e960--pl5321hb365157_1"
 container_url: "https://biocontainers.pro/tools/foldseek"
 aliases:

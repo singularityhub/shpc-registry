@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cormut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cormut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cormut/container.yaml"
-updated_at: "2024-05-05 03:05:17.571594"
+updated_at: "2024-05-06 03:06:12.570513"
 latest: "1.29.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cormut"
 aliases:

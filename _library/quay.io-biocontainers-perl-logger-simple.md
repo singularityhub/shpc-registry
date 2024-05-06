@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-logger-simple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-logger-simple/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-logger-simple/container.yaml"
-updated_at: "2024-05-05 02:58:19.209289"
+updated_at: "2024-05-06 02:59:31.504672"
 latest: "2.0--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-logger-simple"
 aliases:

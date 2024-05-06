@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/setuptools_cython"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/setuptools_cython/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/setuptools_cython/container.yaml"
-updated_at: "2024-05-05 02:48:10.409961"
+updated_at: "2024-05-06 02:49:52.896145"
 latest: "0.2.1--pyh864c0ab_4"
 container_url: "https://biocontainers.pro/tools/setuptools_cython"
 aliases:

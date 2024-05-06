@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqhax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqhax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqhax/container.yaml"
-updated_at: "2024-05-05 02:42:04.980377"
+updated_at: "2024-05-06 02:43:47.489806"
 latest: "0.8.6--h6ab5fc9_0"
 container_url: "https://biocontainers.pro/tools/seqhax"
 aliases:

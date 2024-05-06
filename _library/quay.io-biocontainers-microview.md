@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/microview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/microview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/microview/container.yaml"
-updated_at: "2024-05-05 02:32:15.039436"
-latest: "0.10.1--py312h031d066_0"
+updated_at: "2024-05-06 02:33:56.180928"
+latest: "0.11.0--py312h031d066_0"
 container_url: "https://biocontainers.pro/tools/microview"
 aliases:
  - "frictionless"
@@ -40,8 +40,9 @@ aliases:
  - "pyftmerge"
 versions:
  - "0.10.1--py312h031d066_0"
+ - "0.11.0--py312h031d066_0"
 description: "singularity registry hpc automated addition for microview"
-config: {"url": "https://biocontainers.pro/tools/microview", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for microview", "latest": {"0.10.1--py312h031d066_0": "sha256:22cd79f5bf8c4064a2de1b05924c04643aacf650e6f2e1b2413554e1b4b5f50c"}, "tags": {"0.10.1--py312h031d066_0": "sha256:22cd79f5bf8c4064a2de1b05924c04643aacf650e6f2e1b2413554e1b4b5f50c"}, "docker": "quay.io/biocontainers/microview", "aliases": {"frictionless": "/usr/local/bin/frictionless", "marko": "/usr/local/bin/marko", "microview": "/usr/local/bin/microview", "petl": "/usr/local/bin/petl", "typer": "/usr/local/bin/typer", "slugify": "/usr/local/bin/slugify", "rich-click": "/usr/local/bin/rich-click", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "biom": "/usr/local/bin/biom", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "markdown-it": "/usr/local/bin/markdown-it", "h5delete": "/usr/local/bin/h5delete", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "tabulate": "/usr/local/bin/tabulate", "natsort": "/usr/local/bin/natsort", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "chardetect": "/usr/local/bin/chardetect", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge"}}
+config: {"url": "https://biocontainers.pro/tools/microview", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for microview", "latest": {"0.11.0--py312h031d066_0": "sha256:1a790db256052f09151743a5d477d9ba94be3bfb360072a1294855a1086688aa"}, "tags": {"0.10.1--py312h031d066_0": "sha256:22cd79f5bf8c4064a2de1b05924c04643aacf650e6f2e1b2413554e1b4b5f50c", "0.11.0--py312h031d066_0": "sha256:1a790db256052f09151743a5d477d9ba94be3bfb360072a1294855a1086688aa"}, "docker": "quay.io/biocontainers/microview", "aliases": {"frictionless": "/usr/local/bin/frictionless", "marko": "/usr/local/bin/marko", "microview": "/usr/local/bin/microview", "petl": "/usr/local/bin/petl", "typer": "/usr/local/bin/typer", "slugify": "/usr/local/bin/slugify", "rich-click": "/usr/local/bin/rich-click", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "biom": "/usr/local/bin/biom", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "markdown-it": "/usr/local/bin/markdown-it", "h5delete": "/usr/local/bin/h5delete", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "tabulate": "/usr/local/bin/tabulate", "natsort": "/usr/local/bin/natsort", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "chardetect": "/usr/local/bin/chardetect", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/microview.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/microview
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/microview:0.10.1--py312h031d066_0
+$ shpc install quay.io/biocontainers/microview:0.11.0--py312h031d066_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/microview/0.10.1--py312h031d066_0
-$ module help quay.io/biocontainers/microview/0.10.1--py312h031d066_0
+$ module load quay.io/biocontainers/microview/0.11.0--py312h031d066_0
+$ module help quay.io/biocontainers/microview/0.11.0--py312h031d066_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

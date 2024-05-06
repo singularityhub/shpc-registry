@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/virulign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virulign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virulign/container.yaml"
-updated_at: "2024-05-05 03:07:58.572288"
+updated_at: "2024-05-06 03:08:44.168217"
 latest: "1.1.1--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/virulign"
 aliases:

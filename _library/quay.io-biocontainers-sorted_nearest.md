@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sorted_nearest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sorted_nearest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sorted_nearest/container.yaml"
-updated_at: "2024-05-05 02:44:11.707901"
-latest: "0.0.39--py38he5da3d1_0"
+updated_at: "2024-05-06 02:45:54.524236"
+latest: "0.0.39--py39hf95cd2a_1"
 container_url: "https://biocontainers.pro/tools/sorted_nearest"
 aliases:
  - "f2py3.9"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.0.32--py39hcbe4a3b_1"
  - "0.0.39--py38he5da3d1_0"
+ - "0.0.39--py39hf95cd2a_1"
 description: "shpc-registry automated BioContainers addition for sorted_nearest"
-config: {"url": "https://biocontainers.pro/tools/sorted_nearest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sorted_nearest", "latest": {"0.0.39--py38he5da3d1_0": "sha256:bb842653b4173f55583524eb8ebc50b474b5cd5ee0f925680ef2afb3e58a1f7a"}, "tags": {"0.0.32--py39hcbe4a3b_1": "sha256:5e99e777b488e799c00dbd8d15ea0438bfb30a452c1f1818520569f98d21f99d", "0.0.39--py38he5da3d1_0": "sha256:bb842653b4173f55583524eb8ebc50b474b5cd5ee0f925680ef2afb3e58a1f7a"}, "docker": "quay.io/biocontainers/sorted_nearest", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/sorted_nearest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sorted_nearest", "latest": {"0.0.39--py39hf95cd2a_1": "sha256:64c49ae95c170dac20b00af6e5a1ff27917f40be07af7ca3820bb3b25d01bc76"}, "tags": {"0.0.32--py39hcbe4a3b_1": "sha256:5e99e777b488e799c00dbd8d15ea0438bfb30a452c1f1818520569f98d21f99d", "0.0.39--py38he5da3d1_0": "sha256:bb842653b4173f55583524eb8ebc50b474b5cd5ee0f925680ef2afb3e58a1f7a", "0.0.39--py39hf95cd2a_1": "sha256:64c49ae95c170dac20b00af6e5a1ff27917f40be07af7ca3820bb3b25d01bc76"}, "docker": "quay.io/biocontainers/sorted_nearest", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sorted_nearest.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/sorted_nearest
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sorted_nearest:0.0.39--py38he5da3d1_0
+$ shpc install quay.io/biocontainers/sorted_nearest:0.0.39--py39hf95cd2a_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sorted_nearest/0.0.39--py38he5da3d1_0
-$ module help quay.io/biocontainers/sorted_nearest/0.0.39--py38he5da3d1_0
+$ module load quay.io/biocontainers/sorted_nearest/0.0.39--py39hf95cd2a_1
+$ module help quay.io/biocontainers/sorted_nearest/0.0.39--py39hf95cd2a_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

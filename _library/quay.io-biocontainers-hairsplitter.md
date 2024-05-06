@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hairsplitter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hairsplitter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hairsplitter/container.yaml"
-updated_at: "2024-05-05 03:09:28.795257"
+updated_at: "2024-05-06 03:10:09.313367"
 latest: "1.7.15--h8b7377a_0"
 container_url: "https://biocontainers.pro/tools/hairsplitter"
 aliases:

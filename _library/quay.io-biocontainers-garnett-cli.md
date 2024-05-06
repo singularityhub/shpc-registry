@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/garnett-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/garnett-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/garnett-cli/container.yaml"
-updated_at: "2024-05-05 02:48:09.017785"
+updated_at: "2024-05-06 02:49:51.537500"
 latest: "0.0.5--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/garnett-cli"
 aliases:
