@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rismed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rismed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rismed/container.yaml"
-updated_at: "2024-05-06 18:59:54.381354"
+updated_at: "2024-05-07 03:06:51.676340"
 latest: "2.1.7--r40h6115d3f_2"
 container_url: "https://biocontainers.pro/tools/r-rismed"
 aliases:

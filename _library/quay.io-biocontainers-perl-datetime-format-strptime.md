@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-datetime-format-strptime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-datetime-format-strptime/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-datetime-format-strptime/container.yaml"
-updated_at: "2024-05-06 18:55:01.926555"
+updated_at: "2024-05-07 03:02:01.301717"
 latest: "1.75--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-datetime-format-strptime"
 aliases:

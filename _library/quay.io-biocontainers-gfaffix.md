@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gfaffix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfaffix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfaffix/container.yaml"
-updated_at: "2024-05-06 18:45:38.911538"
+updated_at: "2024-05-07 02:52:45.999273"
 latest: "0.1.5--h031d066_0"
 container_url: "https://biocontainers.pro/tools/gfaffix"
 aliases:

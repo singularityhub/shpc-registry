@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-data-uuid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-uuid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-uuid/container.yaml"
-updated_at: "2024-05-06 18:27:38.492308"
+updated_at: "2024-05-07 02:34:51.780978"
 latest: "1.226--pl5321h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/perl-data-uuid"
 aliases:

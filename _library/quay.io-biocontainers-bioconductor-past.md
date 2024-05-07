@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-past"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-past/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-past/container.yaml"
-updated_at: "2024-05-06 18:41:23.336356"
+updated_at: "2024-05-07 02:48:33.964941"
 latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-past"
 aliases:

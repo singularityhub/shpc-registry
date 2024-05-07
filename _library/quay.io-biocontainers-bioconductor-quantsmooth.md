@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-quantsmooth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-quantsmooth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-quantsmooth/container.yaml"
-updated_at: "2024-05-06 18:58:40.723311"
+updated_at: "2024-05-07 03:05:37.913403"
 latest: "1.68.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-quantsmooth"
 

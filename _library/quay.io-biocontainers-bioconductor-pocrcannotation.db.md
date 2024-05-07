@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pocrcannotation.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pocrcannotation.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pocrcannotation.db/container.yaml"
-updated_at: "2024-05-06 18:54:43.855990"
+updated_at: "2024-05-07 03:01:43.553401"
 latest: "3.2.3--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-pocrcannotation.db"
 

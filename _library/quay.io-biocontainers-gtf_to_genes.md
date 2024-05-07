@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gtf_to_genes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gtf_to_genes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gtf_to_genes/container.yaml"
-updated_at: "2024-05-06 18:45:23.985806"
+updated_at: "2024-05-07 02:52:31.259654"
 latest: "1.40--py_2"
 container_url: "https://biocontainers.pro/tools/gtf_to_genes"
 aliases:

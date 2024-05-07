@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/reago"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reago/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reago/container.yaml"
-updated_at: "2024-05-06 18:31:32.402654"
+updated_at: "2024-05-07 02:38:47.572775"
 latest: "1.1--py34_0"
 container_url: "https://biocontainers.pro/tools/reago"
 aliases:

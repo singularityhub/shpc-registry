@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-risa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-risa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-risa/container.yaml"
-updated_at: "2024-05-06 18:41:13.003246"
+updated_at: "2024-05-07 02:48:23.734634"
 latest: "1.44.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-risa"
 aliases:

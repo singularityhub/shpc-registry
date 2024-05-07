@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rmath4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rmath4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rmath4/container.yaml"
-updated_at: "2024-05-06 18:27:44.308126"
+updated_at: "2024-05-07 02:34:57.608692"
 latest: "4.3.1--py310h4b81fae_0"
 container_url: "https://biocontainers.pro/tools/rmath4"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-class-accessor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-accessor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-accessor/container.yaml"
-updated_at: "2024-05-06 18:43:35.305477"
+updated_at: "2024-05-07 02:50:44.076341"
 latest: "0.51--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-class-accessor"
 aliases:

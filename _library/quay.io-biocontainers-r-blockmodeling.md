@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-blockmodeling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-blockmodeling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-blockmodeling/container.yaml"
-updated_at: "2024-05-06 19:04:08.381389"
+updated_at: "2024-05-07 03:11:03.694814"
 latest: "0.1.8--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-blockmodeling"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-pegex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pegex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pegex/container.yaml"
-updated_at: "2024-05-06 18:56:16.744112"
+updated_at: "2024-05-07 03:03:15.262152"
 latest: "0.61--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-pegex"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rocr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rocr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rocr/container.yaml"
-updated_at: "2024-05-06 18:39:22.270300"
+updated_at: "2024-05-07 02:46:33.542204"
 latest: "1.0_7--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-rocr"
 aliases:

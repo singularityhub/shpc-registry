@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-starr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-starr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-starr/container.yaml"
-updated_at: "2024-05-06 18:52:08.965867"
+updated_at: "2024-05-07 02:59:10.432579"
 latest: "1.43.0--r40h037d062_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-starr"
 aliases:

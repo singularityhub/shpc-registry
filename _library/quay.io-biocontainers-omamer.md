@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/omamer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/omamer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/omamer/container.yaml"
-updated_at: "2024-05-06 19:05:18.329620"
+updated_at: "2024-05-07 03:12:13.444748"
 latest: "2.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/omamer"
 aliases:
