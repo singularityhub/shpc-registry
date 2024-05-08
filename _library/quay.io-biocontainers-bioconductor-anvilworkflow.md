@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-anvilworkflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anvilworkflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anvilworkflow/container.yaml"
-updated_at: "2024-05-07 02:44:25.322873"
+updated_at: "2024-05-08 02:29:41.293111"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-anvilworkflow"
 aliases:

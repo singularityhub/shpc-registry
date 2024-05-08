@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hcatonsildata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hcatonsildata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hcatonsildata/container.yaml"
-updated_at: "2024-05-07 02:37:23.605705"
+updated_at: "2024-05-08 02:22:37.153794"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hcatonsildata"
 aliases:

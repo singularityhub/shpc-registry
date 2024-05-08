@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pggb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pggb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pggb/container.yaml"
-updated_at: "2024-05-07 03:07:32.193917"
-latest: "0.5.4--hdfd78af_0"
+updated_at: "2024-05-08 02:53:16.253045"
+latest: "0.6.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pggb"
 aliases:
  - "gfaffix"
@@ -34,8 +34,9 @@ versions:
  - "0.5.2--hdfd78af_0"
  - "0.5.3--hdfd78af_2"
  - "0.5.4--hdfd78af_0"
+ - "0.6.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pggb"
-config: {"url": "https://biocontainers.pro/tools/pggb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pggb", "latest": {"0.5.4--hdfd78af_0": "sha256:d24a3152c130d25bb0d9c453ed41ad807c8aca733e4cdf759276a8d7c0940f5e"}, "tags": {"0.4.1--hdfd78af_0": "sha256:18875ce064179e4e4f2a1459b87a7de2af233f4d5f50d365f813d8d9ac50fc69", "0.5.0--hdfd78af_0": "sha256:a0fabae4c656e72e8cb4467401529617061e7d68db335fcabc61cc2a4abcfc64", "0.5.1--hdfd78af_1": "sha256:41c370aed5893a4ed669ccbdcaf7c2ed814e2d5dd71cd0006e8aada500437475", "0.5.2--hdfd78af_0": "sha256:c73a122857427f98f960b8e0c24e9c9c2cc0ed50a61d7bc8c6c0e195fb18288e", "0.5.3--hdfd78af_2": "sha256:20f409e7a15a2ff5283822e318bbe3ee67166852df72e31b7197dc66b89b66bf", "0.5.4--hdfd78af_0": "sha256:d24a3152c130d25bb0d9c453ed41ad807c8aca733e4cdf759276a8d7c0940f5e"}, "docker": "quay.io/biocontainers/pggb", "aliases": {"gfaffix": "/usr/local/bin/gfaffix", "odgi": "/usr/local/bin/odgi", "pggb": "/usr/local/bin/pggb", "rich-click": "/usr/local/bin/rich-click", "seqwish": "/usr/local/bin/seqwish", "smoothxg": "/usr/local/bin/smoothxg", "time": "/usr/local/bin/time", "vg": "/usr/local/bin/vg", "wfmash": "/usr/local/bin/wfmash", "multiqc": "/usr/local/bin/multiqc", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "cmark": "/usr/local/bin/cmark", "gff2gff.py": "/usr/local/bin/gff2gff.py", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "markdown_py": "/usr/local/bin/markdown_py"}}
+config: {"url": "https://biocontainers.pro/tools/pggb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pggb", "latest": {"0.6.0--hdfd78af_0": "sha256:c677564f26430a8e404c3de09905b9446c88ac269a46774631a6bca2f03124d4"}, "tags": {"0.4.1--hdfd78af_0": "sha256:18875ce064179e4e4f2a1459b87a7de2af233f4d5f50d365f813d8d9ac50fc69", "0.5.0--hdfd78af_0": "sha256:a0fabae4c656e72e8cb4467401529617061e7d68db335fcabc61cc2a4abcfc64", "0.5.1--hdfd78af_1": "sha256:41c370aed5893a4ed669ccbdcaf7c2ed814e2d5dd71cd0006e8aada500437475", "0.5.2--hdfd78af_0": "sha256:c73a122857427f98f960b8e0c24e9c9c2cc0ed50a61d7bc8c6c0e195fb18288e", "0.5.3--hdfd78af_2": "sha256:20f409e7a15a2ff5283822e318bbe3ee67166852df72e31b7197dc66b89b66bf", "0.5.4--hdfd78af_0": "sha256:d24a3152c130d25bb0d9c453ed41ad807c8aca733e4cdf759276a8d7c0940f5e", "0.6.0--hdfd78af_0": "sha256:c677564f26430a8e404c3de09905b9446c88ac269a46774631a6bca2f03124d4"}, "docker": "quay.io/biocontainers/pggb", "aliases": {"gfaffix": "/usr/local/bin/gfaffix", "odgi": "/usr/local/bin/odgi", "pggb": "/usr/local/bin/pggb", "rich-click": "/usr/local/bin/rich-click", "seqwish": "/usr/local/bin/seqwish", "smoothxg": "/usr/local/bin/smoothxg", "time": "/usr/local/bin/time", "vg": "/usr/local/bin/vg", "wfmash": "/usr/local/bin/wfmash", "multiqc": "/usr/local/bin/multiqc", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "cmark": "/usr/local/bin/cmark", "gff2gff.py": "/usr/local/bin/gff2gff.py", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "markdown_py": "/usr/local/bin/markdown_py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pggb.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/pggb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pggb:0.5.4--hdfd78af_0
+$ shpc install quay.io/biocontainers/pggb:0.6.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pggb/0.5.4--hdfd78af_0
-$ module help quay.io/biocontainers/pggb/0.5.4--hdfd78af_0
+$ module load quay.io/biocontainers/pggb/0.6.0--hdfd78af_0
+$ module help quay.io/biocontainers/pggb/0.6.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
