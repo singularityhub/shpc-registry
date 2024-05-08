@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/mess
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mess
 latest:
-  0.2.2--pyhdfd78af_0: sha256:1d07b5dd14e16bef7001b9a95e1c3141ee543b42c806c97271e9dba22d570c74
+  0.8.2--pyhdfd78af_0: sha256:4010dab1edfb9397a29950a8bb31bd7cf85b70c237435693080ae31b029e23c4
 tags:
   v0.2.1--pyhdfd78af_0: sha256:075b9a2353137cadffd70344aa01537de415419bf09a66eee659d674b4c1f581
   0.2.2--pyhdfd78af_0: sha256:1d07b5dd14e16bef7001b9a95e1c3141ee543b42c806c97271e9dba22d570c74
+  0.8.2--pyhdfd78af_0: sha256:4010dab1edfb9397a29950a8bb31bd7cf85b70c237435693080ae31b029e23c4
 docker: quay.io/biocontainers/mess
 aliases:
   mess: /usr/local/bin/mess

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/dunovo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dunovo
 latest:
-  3.0.2--hec16e2b_1: sha256:70f36252d65e0aa1d8b625e5a2a08ee8637afc4a1cae9c8ee8ed6b14aad2a07d
+  3.0.2--h031d066_3: sha256:4ec1671bcc7dc76d5ce839c2e7293952c901eae3d08ed0b8f6c6d19b8b47e6c3
 tags:
   3.0.2--hec16e2b_1: sha256:70f36252d65e0aa1d8b625e5a2a08ee8637afc4a1cae9c8ee8ed6b14aad2a07d
+  3.0.2--h031d066_3: sha256:4ec1671bcc7dc76d5ce839c2e7293952c901eae3d08ed0b8f6c6d19b8b47e6c3
 docker: quay.io/biocontainers/dunovo
 aliases:
   align-families.py: /usr/local/bin/align-families.py
