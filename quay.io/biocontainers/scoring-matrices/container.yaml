@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/scoring-matrices
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scoring-matrices
+latest:
+  0.2.0--py39hf95cd2a_0: sha256:683df7b870f58ff598cf015a4719928b3b52e06ddd820f651ee57620ebb7e24f
+tags:
+  0.2.0--py39hf95cd2a_0: sha256:683df7b870f58ff598cf015a4719928b3b52e06ddd820f651ee57620ebb7e24f
+docker: quay.io/biocontainers/scoring-matrices
+aliases:
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config

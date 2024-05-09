@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/squigualiser
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for squigualiser
+latest:
+  0.6.3--pyhca03a8a_0: sha256:159ac06f5d5b13ffc37f46adf6945bf0e016c71bc11e4a2c20c1acfc649c1b1d
+tags:
+  0.6.3--pyhca03a8a_0: sha256:159ac06f5d5b13ffc37f46adf6945bf0e016c71bc11e4a2c20c1acfc649c1b1d
+docker: quay.io/biocontainers/squigualiser
+aliases:
+  selenium-manager: /usr/local/bin/selenium-manager
+  squigualiser: /usr/local/bin/squigualiser
+  pyfastx: /usr/local/bin/pyfastx
+  bokeh: /usr/local/bin/bokeh
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  faidx: /usr/local/bin/faidx
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc
