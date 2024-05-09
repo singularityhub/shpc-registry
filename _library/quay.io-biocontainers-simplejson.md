@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/simplejson"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simplejson/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simplejson/container.yaml"
-updated_at: "2024-05-09 02:50:04.972273"
+updated_at: "2024-05-09 02:59:18.949452"
 latest: "3.8.1--py36_0"
 container_url: "https://biocontainers.pro/tools/simplejson"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-swimr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-swimr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-swimr/container.yaml"
-updated_at: "2024-05-09 03:15:17.056841"
+updated_at: "2024-05-09 03:24:25.063391"
 latest: "1.29.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-swimr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-elmer.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-elmer.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-elmer.data/container.yaml"
-updated_at: "2024-05-09 03:14:19.807320"
+updated_at: "2024-05-09 03:23:26.623724"
 latest: "2.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-elmer.data"
 aliases:

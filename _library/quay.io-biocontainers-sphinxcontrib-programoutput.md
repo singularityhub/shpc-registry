@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sphinxcontrib-programoutput"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sphinxcontrib-programoutput/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sphinxcontrib-programoutput/container.yaml"
-updated_at: "2024-05-09 02:48:26.156191"
+updated_at: "2024-05-09 02:57:38.186920"
 latest: "0.8--py36_0"
 container_url: "https://biocontainers.pro/tools/sphinxcontrib-programoutput"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ndex2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ndex2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ndex2/container.yaml"
-updated_at: "2024-05-09 02:49:29.604677"
+updated_at: "2024-05-09 02:58:42.888955"
 latest: "3.8.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/ndex2"
 aliases:
