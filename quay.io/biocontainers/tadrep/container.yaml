@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/tadrep
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tadrep
+latest:
+  0.9.2--pyhdfd78af_0: sha256:16f32a647c2ef06bf0f702ae6d2392711406094812891b4e0efa8d315e7c3936
+tags:
+  0.9.2--pyhdfd78af_0: sha256:16f32a647c2ef06bf0f702ae6d2392711406094812891b4e0efa8d315e7c3936
+docker: quay.io/biocontainers/tadrep
+aliases:
+  archspec: /usr/local/bin/archspec
+  pgv-download-dataset: /usr/local/bin/pgv-download-dataset
+  pgv-gui: /usr/local/bin/pgv-gui
+  pgv-mmseqs: /usr/local/bin/pgv-mmseqs
+  pgv-mummer: /usr/local/bin/pgv-mummer
+  pgv-pmauve: /usr/local/bin/pgv-pmauve
+  pgv-simpleplot: /usr/local/bin/pgv-simpleplot
+  tadrep: /usr/local/bin/tadrep
+  archive-ncbinlp: /usr/local/bin/archive-ncbinlp
+  archive-nihocc: /usr/local/bin/archive-nihocc
+  archive-nmcds: /usr/local/bin/archive-nmcds
+  archive-pmc: /usr/local/bin/archive-pmc
+  archive-taxonomy: /usr/local/bin/archive-taxonomy
+  args2slice: /usr/local/bin/args2slice
+  asn2ref: /usr/local/bin/asn2ref
+  blst2gm: /usr/local/bin/blst2gm
+  cit2pmid: /usr/local/bin/cit2pmid
+  combine-uid-lists: /usr/local/bin/combine-uid-lists
+  difference-uid-lists: /usr/local/bin/difference-uid-lists
+  download-pmc: /usr/local/bin/download-pmc
+  ds2pme: /usr/local/bin/ds2pme
+  fetch-local: /usr/local/bin/fetch-local
+  fetch-nmcds: /usr/local/bin/fetch-nmcds
+  fetch-pmc: /usr/local/bin/fetch-pmc
+  fetch-taxonomy: /usr/local/bin/fetch-taxonomy
+  filter-genbank: /usr/local/bin/filter-genbank
+  filter-record: /usr/local/bin/filter-record
+  gbf2fsa: /usr/local/bin/gbf2fsa
+  gbf2ref: /usr/local/bin/gbf2ref
+  gm2ranges: /usr/local/bin/gm2ranges
+  gm2segs: /usr/local/bin/gm2segs
+  ini2xml: /usr/local/bin/ini2xml
+  jsonl2xml: /usr/local/bin/jsonl2xml
