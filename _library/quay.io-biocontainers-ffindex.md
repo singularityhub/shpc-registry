@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ffindex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ffindex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ffindex/container.yaml"
-updated_at: "2024-05-08 02:35:15.173445"
+updated_at: "2024-05-09 02:47:11.895333"
 latest: "0.98--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/ffindex"
 

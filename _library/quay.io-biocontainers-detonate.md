@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/detonate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/detonate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/detonate/container.yaml"
-updated_at: "2024-05-08 02:33:21.574310"
+updated_at: "2024-05-09 02:45:21.991923"
 latest: "1.11--hae1ec2f_3"
 container_url: "https://biocontainers.pro/tools/detonate"
 aliases:

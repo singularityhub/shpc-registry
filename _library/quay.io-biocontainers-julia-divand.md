@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/julia-divand"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/julia-divand/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/julia-divand/container.yaml"
-updated_at: "2024-05-08 02:42:32.581366"
+updated_at: "2024-05-09 02:54:20.965924"
 latest: "2.7.9--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/julia-divand"
 aliases:

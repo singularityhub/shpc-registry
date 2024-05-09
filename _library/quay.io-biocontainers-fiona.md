@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fiona"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fiona/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fiona/container.yaml"
-updated_at: "2024-05-08 02:34:35.341113"
+updated_at: "2024-05-09 02:46:33.479665"
 latest: "1.8.6"
 container_url: "https://biocontainers.pro/tools/fiona"
 aliases:

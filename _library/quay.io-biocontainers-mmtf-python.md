@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mmtf-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmtf-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmtf-python/container.yaml"
-updated_at: "2024-05-08 02:44:20.584327"
+updated_at: "2024-05-09 02:56:03.087182"
 latest: "1.0.5--py27_0"
 container_url: "https://biocontainers.pro/tools/mmtf-python"
 aliases:

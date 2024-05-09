@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/singlem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/singlem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/singlem/container.yaml"
-updated_at: "2024-05-08 02:42:34.589356"
+updated_at: "2024-05-09 02:54:22.903452"
 latest: "0.16.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/singlem"
 aliases:

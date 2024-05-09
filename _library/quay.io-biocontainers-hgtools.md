@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hgtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hgtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hgtools/container.yaml"
-updated_at: "2024-05-08 02:57:20.007599"
+updated_at: "2024-05-09 03:08:43.720160"
 latest: "8.2.1--py_0"
 container_url: "https://biocontainers.pro/tools/hgtools"
 aliases:

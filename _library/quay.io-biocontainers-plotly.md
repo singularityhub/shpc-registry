@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plotly"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plotly/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plotly/container.yaml"
-updated_at: "2024-05-08 02:38:06.822644"
+updated_at: "2024-05-09 02:50:00.910589"
 latest: "3.1.1"
 container_url: "https://biocontainers.pro/tools/plotly"
 aliases:

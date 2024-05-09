@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/interleafq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/interleafq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/interleafq/container.yaml"
-updated_at: "2024-05-08 02:46:58.251031"
+updated_at: "2024-05-09 02:58:34.959156"
 latest: "1.1.0--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/interleafq"
 aliases:

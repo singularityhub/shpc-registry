@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chewiesnake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chewiesnake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chewiesnake/container.yaml"
-updated_at: "2024-05-08 02:29:31.611257"
+updated_at: "2024-05-09 02:41:37.841190"
 latest: "3.0.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/chewiesnake"
 aliases:

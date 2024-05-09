@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-schot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-schot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-schot/container.yaml"
-updated_at: "2024-05-08 02:46:05.463779"
+updated_at: "2024-05-09 02:57:44.198103"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-schot"
 

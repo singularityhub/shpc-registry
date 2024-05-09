@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bactopia-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bactopia-py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bactopia-py/container.yaml"
-updated_at: "2024-05-08 02:55:37.388743"
+updated_at: "2024-05-09 03:07:05.174974"
 latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bactopia-py"
 aliases:

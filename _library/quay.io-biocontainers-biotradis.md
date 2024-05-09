@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biotradis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biotradis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biotradis/container.yaml"
-updated_at: "2024-05-08 02:48:48.194195"
+updated_at: "2024-05-09 03:00:27.888047"
 latest: "1.4.5--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/biotradis"
 aliases:

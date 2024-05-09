@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-speckle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-speckle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-speckle/container.yaml"
-updated_at: "2024-05-08 02:52:16.208874"
+updated_at: "2024-05-09 03:03:52.722700"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-speckle"
 aliases:
