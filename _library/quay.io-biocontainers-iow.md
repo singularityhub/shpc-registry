@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/iow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iow/container.yaml"
-updated_at: "2024-05-09 02:58:09.847025"
-latest: "1.0.5--py39he10ea66_3"
+updated_at: "2024-05-10 02:51:42.459709"
+latest: "1.0.5--py39he10ea66_4"
 container_url: "https://biocontainers.pro/tools/iow"
 aliases:
  - "bp"
@@ -39,8 +39,9 @@ versions:
  - "1.0.5--py39h67e14b5_2"
  - "1.0.5--py39he10ea66_3"
  - "1.0.5--py38hcbe9525_3"
+ - "1.0.5--py39he10ea66_4"
 description: "singularity registry hpc automated addition for iow"
-config: {"url": "https://biocontainers.pro/tools/iow", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for iow", "latest": {"1.0.5--py39he10ea66_3": "sha256:3df0b0a3153a7bd2c77a6bff36605f920fad8d66a7b7e2a5007d5e0bd4338b38"}, "tags": {"1.0.5--py39h67e14b5_2": "sha256:5c61cc23aa5cf7186302bca3bd5e97d2b0c4a79150a307e9aba19b3447061bf1", "1.0.5--py39he10ea66_3": "sha256:3df0b0a3153a7bd2c77a6bff36605f920fad8d66a7b7e2a5007d5e0bd4338b38", "1.0.5--py38hcbe9525_3": "sha256:4395d0dcba0af7556516f3e5c1dbd6737376cbdcecf50fafba1f1d62dd0bbbf3"}, "docker": "quay.io/biocontainers/iow", "aliases": {"bp": "/usr/local/bin/bp", "ipython3.9": "/usr/local/bin/ipython3.9", "aec": "/usr/local/bin/aec", "doesitcache": "/usr/local/bin/doesitcache", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "natsort": "/usr/local/bin/natsort", "pygmentize": "/usr/local/bin/pygmentize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc"}}
+config: {"url": "https://biocontainers.pro/tools/iow", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for iow", "latest": {"1.0.5--py39he10ea66_4": "sha256:cab12b3dbcf01e849a9914ca8d740c7c29d4ecd7e3cdc5ddacf7f734261e36c8"}, "tags": {"1.0.5--py39h67e14b5_2": "sha256:5c61cc23aa5cf7186302bca3bd5e97d2b0c4a79150a307e9aba19b3447061bf1", "1.0.5--py39he10ea66_3": "sha256:3df0b0a3153a7bd2c77a6bff36605f920fad8d66a7b7e2a5007d5e0bd4338b38", "1.0.5--py38hcbe9525_3": "sha256:4395d0dcba0af7556516f3e5c1dbd6737376cbdcecf50fafba1f1d62dd0bbbf3", "1.0.5--py39he10ea66_4": "sha256:cab12b3dbcf01e849a9914ca8d740c7c29d4ecd7e3cdc5ddacf7f734261e36c8"}, "docker": "quay.io/biocontainers/iow", "aliases": {"bp": "/usr/local/bin/bp", "ipython3.9": "/usr/local/bin/ipython3.9", "aec": "/usr/local/bin/aec", "doesitcache": "/usr/local/bin/doesitcache", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "natsort": "/usr/local/bin/natsort", "pygmentize": "/usr/local/bin/pygmentize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/iow.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/iow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/iow:1.0.5--py39he10ea66_3
+$ shpc install quay.io/biocontainers/iow:1.0.5--py39he10ea66_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/iow/1.0.5--py39he10ea66_3
-$ module help quay.io/biocontainers/iow/1.0.5--py39he10ea66_3
+$ module load quay.io/biocontainers/iow/1.0.5--py39he10ea66_4
+$ module help quay.io/biocontainers/iow/1.0.5--py39he10ea66_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

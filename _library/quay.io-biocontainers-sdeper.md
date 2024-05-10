@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sdeper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sdeper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sdeper/container.yaml"
-updated_at: "2024-05-09 02:41:24.493744"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2024-05-10 02:34:20.780925"
+latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sdeper"
 aliases:
  - "runDeconvolution"
@@ -37,8 +37,11 @@ aliases:
  - "toco_from_protos"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.3.0--pyhdfd78af_0"
+ - "1.2.1--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for sdeper"
-config: {"url": "https://biocontainers.pro/tools/sdeper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sdeper", "latest": {"1.0.0--pyhdfd78af_0": "sha256:9ea1667a51e75f8d746964008d2062c4bd17e97e4191c439420cf6ccc76f53de"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:9ea1667a51e75f8d746964008d2062c4bd17e97e4191c439420cf6ccc76f53de"}, "docker": "quay.io/biocontainers/sdeper", "aliases": {"runDeconvolution": "/usr/local/bin/runDeconvolution", "runImputation": "/usr/local/bin/runImputation", "h5delete": "/usr/local/bin/h5delete", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "scanpy": "/usr/local/bin/scanpy", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "aec": "/usr/local/bin/aec", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos"}}
+config: {"url": "https://biocontainers.pro/tools/sdeper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sdeper", "latest": {"1.3.0--pyhdfd78af_0": "sha256:3d85b0a0a40c0969d1a02b09744d8730c2e9cdfb09f071c41cd1f743fadd780c"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:9ea1667a51e75f8d746964008d2062c4bd17e97e4191c439420cf6ccc76f53de", "1.3.0--pyhdfd78af_0": "sha256:3d85b0a0a40c0969d1a02b09744d8730c2e9cdfb09f071c41cd1f743fadd780c", "1.2.1--pyhdfd78af_0": "sha256:6e7efd373c1c8f3d575480983349ed9dab557aa8b820f2ba2bff49d69eec60ab", "1.1.0--pyhdfd78af_0": "sha256:ae4ba9d5b2e4e98493eb7c23270a16bb6e8d804e1aaedb7303e26de3c8ad0bad"}, "docker": "quay.io/biocontainers/sdeper", "aliases": {"runDeconvolution": "/usr/local/bin/runDeconvolution", "runImputation": "/usr/local/bin/runImputation", "h5delete": "/usr/local/bin/h5delete", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "scanpy": "/usr/local/bin/scanpy", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "aec": "/usr/local/bin/aec", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sdeper.
@@ -53,7 +56,7 @@ $ shpc install quay.io/biocontainers/sdeper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sdeper:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sdeper:1.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sdeper/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/sdeper/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/sdeper/1.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/sdeper/1.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

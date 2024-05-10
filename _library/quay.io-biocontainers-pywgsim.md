@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pywgsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pywgsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pywgsim/container.yaml"
-updated_at: "2024-05-09 03:14:35.869921"
+updated_at: "2024-05-10 03:08:05.822485"
 latest: "0.5.2--py36h91eb985_0"
 container_url: "https://biocontainers.pro/tools/pywgsim"
 aliases:

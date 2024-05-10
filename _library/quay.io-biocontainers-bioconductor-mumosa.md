@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mumosa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mumosa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mumosa/container.yaml"
-updated_at: "2024-05-09 03:23:06.056809"
+updated_at: "2024-05-10 03:16:32.829449"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mumosa"
 

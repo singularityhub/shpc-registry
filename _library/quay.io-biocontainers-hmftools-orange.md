@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-orange"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-orange/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-orange/container.yaml"
-updated_at: "2024-05-09 03:18:02.921952"
-latest: "3.3.1--hdfd78af_0"
+updated_at: "2024-05-10 03:11:33.860623"
+latest: "3.4.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-orange"
 aliases:
  - "orange"
@@ -40,8 +40,9 @@ versions:
  - "3.0.0--hdfd78af_0"
  - "3.3.0--hdfd78af_0"
  - "3.3.1--hdfd78af_0"
+ - "3.4.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for hmftools-orange"
-config: {"url": "https://biocontainers.pro/tools/hmftools-orange", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-orange", "latest": {"3.3.1--hdfd78af_0": "sha256:089d19d13a537f429e5e1449392b323eee68af0c4d7f6c7b6ad19ee1ea9d9d3c"}, "tags": {"1.10.2--hdfd78af_0": "sha256:b33037bae054a6eddce894ffa17bb14fc8a97b9db6732cfa827c419660e9e388", "2.7.1--hdfd78af_0": "sha256:94432963bf62385ceffc3c51fe7dcb4cf467a8b27b8e25c41d475f4ee08251db", "3.0.0--hdfd78af_0": "sha256:77686b5b24bd6abaadfab03c851935b82d66210c34d584ac632481ba135c003d", "3.3.0--hdfd78af_0": "sha256:c1bb45e3ae6734f6d8c7319d9b2e23f6699c179a2948d3ae6c7fb56d58eee22a", "3.3.1--hdfd78af_0": "sha256:089d19d13a537f429e5e1449392b323eee68af0c4d7f6c7b6ad19ee1ea9d9d3c"}, "docker": "quay.io/biocontainers/hmftools-orange", "aliases": {"orange": "/usr/local/bin/orange", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-orange", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-orange", "latest": {"3.4.0--hdfd78af_0": "sha256:0a1300a709d5121ac1078262a84cd44c85d0099a447a2a8d5130d2754b9656e4"}, "tags": {"1.10.2--hdfd78af_0": "sha256:b33037bae054a6eddce894ffa17bb14fc8a97b9db6732cfa827c419660e9e388", "2.7.1--hdfd78af_0": "sha256:94432963bf62385ceffc3c51fe7dcb4cf467a8b27b8e25c41d475f4ee08251db", "3.0.0--hdfd78af_0": "sha256:77686b5b24bd6abaadfab03c851935b82d66210c34d584ac632481ba135c003d", "3.3.0--hdfd78af_0": "sha256:c1bb45e3ae6734f6d8c7319d9b2e23f6699c179a2948d3ae6c7fb56d58eee22a", "3.3.1--hdfd78af_0": "sha256:089d19d13a537f429e5e1449392b323eee68af0c4d7f6c7b6ad19ee1ea9d9d3c", "3.4.0--hdfd78af_0": "sha256:0a1300a709d5121ac1078262a84cd44c85d0099a447a2a8d5130d2754b9656e4"}, "docker": "quay.io/biocontainers/hmftools-orange", "aliases": {"orange": "/usr/local/bin/orange", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-orange.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/hmftools-orange
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-orange:3.3.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-orange:3.4.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-orange/3.3.1--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-orange/3.3.1--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-orange/3.4.0--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-orange/3.4.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-rnacentral"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-rnacentral/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-rnacentral/container.yaml"
-updated_at: "2024-05-09 02:51:11.135344"
+updated_at: "2024-05-10 02:44:35.750460"
 latest: "1.0.0--0"
 container_url: "https://biocontainers.pro/tools/python-rnacentral"
 aliases:

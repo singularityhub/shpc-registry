@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bed2gff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bed2gff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bed2gff/container.yaml"
-updated_at: "2024-05-09 02:55:57.265136"
-latest: "0.1.4--h4ac6f70_0"
+updated_at: "2024-05-10 02:49:30.652671"
+latest: "0.1.5--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/bed2gff"
 aliases:
  - "bed2gff"
 versions:
  - "0.1.3--h4ac6f70_0"
  - "0.1.4--h4ac6f70_0"
+ - "0.1.5--h4ac6f70_0"
 description: "singularity registry hpc automated addition for bed2gff"
-config: {"url": "https://biocontainers.pro/tools/bed2gff", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bed2gff", "latest": {"0.1.4--h4ac6f70_0": "sha256:4b0ffef8710c0b724b17eb65a0c2aadf2df73e39d44b700398ef52e8e8acf9fa"}, "tags": {"0.1.3--h4ac6f70_0": "sha256:caa3ee07079f92a022b6f59b75854c9fe40a1ef10b254e49425778290b8a68ac", "0.1.4--h4ac6f70_0": "sha256:4b0ffef8710c0b724b17eb65a0c2aadf2df73e39d44b700398ef52e8e8acf9fa"}, "docker": "quay.io/biocontainers/bed2gff", "aliases": {"bed2gff": "/usr/local/bin/bed2gff"}}
+config: {"url": "https://biocontainers.pro/tools/bed2gff", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bed2gff", "latest": {"0.1.5--h4ac6f70_0": "sha256:ef24f285b6f345ec4c2d419e707f8f0e632d5812e35eaf57517a738cbce85048"}, "tags": {"0.1.3--h4ac6f70_0": "sha256:caa3ee07079f92a022b6f59b75854c9fe40a1ef10b254e49425778290b8a68ac", "0.1.4--h4ac6f70_0": "sha256:4b0ffef8710c0b724b17eb65a0c2aadf2df73e39d44b700398ef52e8e8acf9fa", "0.1.5--h4ac6f70_0": "sha256:ef24f285b6f345ec4c2d419e707f8f0e632d5812e35eaf57517a738cbce85048"}, "docker": "quay.io/biocontainers/bed2gff", "aliases": {"bed2gff": "/usr/local/bin/bed2gff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bed2gff.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bed2gff
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bed2gff:0.1.4--h4ac6f70_0
+$ shpc install quay.io/biocontainers/bed2gff:0.1.5--h4ac6f70_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bed2gff/0.1.4--h4ac6f70_0
-$ module help quay.io/biocontainers/bed2gff/0.1.4--h4ac6f70_0
+$ module load quay.io/biocontainers/bed2gff/0.1.5--h4ac6f70_0
+$ module help quay.io/biocontainers/bed2gff/0.1.5--h4ac6f70_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

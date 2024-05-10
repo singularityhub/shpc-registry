@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-martini"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-martini/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-martini/container.yaml"
-updated_at: "2024-05-09 03:12:19.293817"
+updated_at: "2024-05-10 03:05:48.799061"
 latest: "1.22.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-martini"
 aliases:

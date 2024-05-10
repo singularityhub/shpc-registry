@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mscoreutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mscoreutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mscoreutils/container.yaml"
-updated_at: "2024-05-09 02:57:54.584747"
+updated_at: "2024-05-10 02:51:27.553092"
 latest: "1.14.1--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mscoreutils"
 

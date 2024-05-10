@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scoring-matrices"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scoring-matrices/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scoring-matrices/container.yaml"
-updated_at: "2024-05-09 02:54:37.085304"
+updated_at: "2024-05-10 02:48:04.482945"
 latest: "0.2.0--py39hf95cd2a_0"
 container_url: "https://biocontainers.pro/tools/scoring-matrices"
 aliases:
@@ -15,8 +15,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.2.0--py39hf95cd2a_0"
+ - "0.2.0--py310h4b81fae_0"
 description: "singularity registry hpc automated addition for scoring-matrices"
-config: {"url": "https://biocontainers.pro/tools/scoring-matrices", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scoring-matrices", "latest": {"0.2.0--py39hf95cd2a_0": "sha256:683df7b870f58ff598cf015a4719928b3b52e06ddd820f651ee57620ebb7e24f"}, "tags": {"0.2.0--py39hf95cd2a_0": "sha256:683df7b870f58ff598cf015a4719928b3b52e06ddd820f651ee57620ebb7e24f"}, "docker": "quay.io/biocontainers/scoring-matrices", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/scoring-matrices", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scoring-matrices", "latest": {"0.2.0--py39hf95cd2a_0": "sha256:683df7b870f58ff598cf015a4719928b3b52e06ddd820f651ee57620ebb7e24f"}, "tags": {"0.2.0--py39hf95cd2a_0": "sha256:683df7b870f58ff598cf015a4719928b3b52e06ddd820f651ee57620ebb7e24f", "0.2.0--py310h4b81fae_0": "sha256:c0439d5f21bed2b935d77393eb643112f8536dc2510abb8a93fae0fb77dc3177"}, "docker": "quay.io/biocontainers/scoring-matrices", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scoring-matrices.

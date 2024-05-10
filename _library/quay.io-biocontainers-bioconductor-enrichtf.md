@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-enrichtf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-enrichtf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-enrichtf/container.yaml"
-updated_at: "2024-05-09 02:46:08.762301"
+updated_at: "2024-05-10 02:39:22.417919"
 latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-enrichtf"
 aliases:

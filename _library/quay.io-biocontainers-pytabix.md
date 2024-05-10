@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pytabix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytabix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytabix/container.yaml"
-updated_at: "2024-05-09 03:09:17.179506"
-latest: "0.1--py39h4e691d4_4"
+updated_at: "2024-05-10 03:02:46.282575"
+latest: "0.1--py38h5cf8b27_5"
 container_url: "https://biocontainers.pro/tools/pytabix"
 aliases:
  - "2to3-3.9"
@@ -17,8 +17,9 @@ versions:
  - "0.1--py39h2add14b_2"
  - "0.1--py39h4e691d4_4"
  - "0.1--py310h6cc9453_4"
+ - "0.1--py38h5cf8b27_5"
 description: "shpc-registry automated BioContainers addition for pytabix"
-config: {"url": "https://biocontainers.pro/tools/pytabix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytabix", "latest": {"0.1--py39h4e691d4_4": "sha256:a3841008dcd3d80cc730dfa6adecc6557673456e2315f2a63287dd8302f0e3d0"}, "tags": {"0.1--py39h2add14b_2": "sha256:b46165a98b4361dc4834539b3e98899be7eb5db8df8969ab590c8ca07a86f36c", "0.1--py39h4e691d4_4": "sha256:a3841008dcd3d80cc730dfa6adecc6557673456e2315f2a63287dd8302f0e3d0", "0.1--py310h6cc9453_4": "sha256:af6713e425ef8ee6dc4e24ba72bcc7b0e39b86f6f30302a371c4b747e8dc84a4"}, "docker": "quay.io/biocontainers/pytabix", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/pytabix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytabix", "latest": {"0.1--py38h5cf8b27_5": "sha256:869009ec1c9c788c58abb45063b58b84673aae5e923dff0803ed36c177b9ba88"}, "tags": {"0.1--py39h2add14b_2": "sha256:b46165a98b4361dc4834539b3e98899be7eb5db8df8969ab590c8ca07a86f36c", "0.1--py39h4e691d4_4": "sha256:a3841008dcd3d80cc730dfa6adecc6557673456e2315f2a63287dd8302f0e3d0", "0.1--py310h6cc9453_4": "sha256:af6713e425ef8ee6dc4e24ba72bcc7b0e39b86f6f30302a371c4b747e8dc84a4", "0.1--py38h5cf8b27_5": "sha256:869009ec1c9c788c58abb45063b58b84673aae5e923dff0803ed36c177b9ba88"}, "docker": "quay.io/biocontainers/pytabix", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytabix.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/pytabix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pytabix:0.1--py39h4e691d4_4
+$ shpc install quay.io/biocontainers/pytabix:0.1--py38h5cf8b27_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pytabix/0.1--py39h4e691d4_4
-$ module help quay.io/biocontainers/pytabix/0.1--py39h4e691d4_4
+$ module load quay.io/biocontainers/pytabix/0.1--py38h5cf8b27_5
+$ module help quay.io/biocontainers/pytabix/0.1--py38h5cf8b27_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
