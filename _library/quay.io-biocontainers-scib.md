@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scib/container.yaml"
-updated_at: "2024-05-10 02:57:43.893059"
+updated_at: "2024-05-11 02:50:14.721332"
 latest: "1.1.5--py39h1f90b4d_0"
 container_url: "https://biocontainers.pro/tools/scib"
 aliases:

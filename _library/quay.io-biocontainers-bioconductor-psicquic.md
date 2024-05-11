@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-psicquic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-psicquic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-psicquic/container.yaml"
-updated_at: "2024-05-10 02:52:12.371824"
+updated_at: "2024-05-11 02:44:44.196057"
 latest: "1.32.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-psicquic"
 
