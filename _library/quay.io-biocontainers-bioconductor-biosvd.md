@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biosvd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biosvd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biosvd/container.yaml"
-updated_at: "2024-05-11 02:36:22.831496"
+updated_at: "2024-05-12 02:40:58.644359"
 latest: "2.23.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biosvd"
 aliases:

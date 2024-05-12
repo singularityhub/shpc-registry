@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/umis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/umis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/umis/container.yaml"
-updated_at: "2024-05-11 02:40:56.744029"
-latest: "1.0.9--py27h9801fc8_0"
+updated_at: "2024-05-12 02:45:28.250212"
+latest: "1.0.9--py39hf95cd2a_2"
 container_url: "https://biocontainers.pro/tools/umis"
 
 versions:
  - "1.0.7--py27h516909a_0"
  - "1.0.9--py27h9801fc8_0"
+ - "1.0.9--py39hf95cd2a_2"
 description: "shpc-registry automated BioContainers addition for umis"
-config: {"url": "https://biocontainers.pro/tools/umis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for umis", "latest": {"1.0.9--py27h9801fc8_0": "sha256:c7aa72b01797584444066c2bf8852031b6f8dd58aeedf7f7bad3ede7e4d7e06f"}, "tags": {"1.0.7--py27h516909a_0": "sha256:c13a0a65712c77f17e35298202ee1ea2bd2bd4c29ca47e63b82b136cfbf638d6", "1.0.9--py27h9801fc8_0": "sha256:c7aa72b01797584444066c2bf8852031b6f8dd58aeedf7f7bad3ede7e4d7e06f"}, "docker": "quay.io/biocontainers/umis"}
+config: {"url": "https://biocontainers.pro/tools/umis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for umis", "latest": {"1.0.9--py39hf95cd2a_2": "sha256:cc43549bd917e392d482fe83279f8efe4728343a1fc11e1d54d2027cf27583b8"}, "tags": {"1.0.7--py27h516909a_0": "sha256:c13a0a65712c77f17e35298202ee1ea2bd2bd4c29ca47e63b82b136cfbf638d6", "1.0.9--py27h9801fc8_0": "sha256:c7aa72b01797584444066c2bf8852031b6f8dd58aeedf7f7bad3ede7e4d7e06f", "1.0.9--py39hf95cd2a_2": "sha256:cc43549bd917e392d482fe83279f8efe4728343a1fc11e1d54d2027cf27583b8"}, "docker": "quay.io/biocontainers/umis"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/umis.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/umis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/umis:1.0.9--py27h9801fc8_0
+$ shpc install quay.io/biocontainers/umis:1.0.9--py39hf95cd2a_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/umis/1.0.9--py27h9801fc8_0
-$ module help quay.io/biocontainers/umis/1.0.9--py27h9801fc8_0
+$ module load quay.io/biocontainers/umis/1.0.9--py39hf95cd2a_2
+$ module help quay.io/biocontainers/umis/1.0.9--py39hf95cd2a_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

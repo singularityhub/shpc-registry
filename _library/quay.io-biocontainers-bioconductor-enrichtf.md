@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-enrichtf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-enrichtf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-enrichtf/container.yaml"
-updated_at: "2024-05-11 02:32:18.863854"
-latest: "1.16.0--r43hdfd78af_0"
+updated_at: "2024-05-12 02:36:58.428727"
+latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-enrichtf"
 aliases:
  - "pandoc"
@@ -15,8 +15,9 @@ versions:
  - "1.14.0--r42hdfd78af_0"
  - "1.10.0--r41hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
+ - "1.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-enrichtf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-enrichtf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-enrichtf", "latest": {"1.16.0--r43hdfd78af_0": "sha256:b87c1fb8241b2c70c0e8ae95d4be76db695250f847ecb939154afd7f5134273e"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:e5f7c9840a9d1bfea2f08052ecce917bf7e2ad33f0c505eddbaeb41f18121353", "1.14.0--r42hdfd78af_0": "sha256:8f683c57ddbe8ae4b304c4e587cc7b83a689fb0eb65d6249c1c7b15bab75b8a5", "1.10.0--r41hdfd78af_0": "sha256:b1bf232c52d04efe0ab5fe841e0539152c2132011d6708f3e2c2c0f90d968974", "1.16.0--r43hdfd78af_0": "sha256:b87c1fb8241b2c70c0e8ae95d4be76db695250f847ecb939154afd7f5134273e"}, "docker": "quay.io/biocontainers/bioconductor-enrichtf", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-enrichtf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-enrichtf", "latest": {"1.18.0--r43hdfd78af_0": "sha256:e6e65b21e12f4a151f6df05e7b60016161bda8aff72fd889917e8865772b2b0a"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:e5f7c9840a9d1bfea2f08052ecce917bf7e2ad33f0c505eddbaeb41f18121353", "1.14.0--r42hdfd78af_0": "sha256:8f683c57ddbe8ae4b304c4e587cc7b83a689fb0eb65d6249c1c7b15bab75b8a5", "1.10.0--r41hdfd78af_0": "sha256:b1bf232c52d04efe0ab5fe841e0539152c2132011d6708f3e2c2c0f90d968974", "1.16.0--r43hdfd78af_0": "sha256:b87c1fb8241b2c70c0e8ae95d4be76db695250f847ecb939154afd7f5134273e", "1.18.0--r43hdfd78af_0": "sha256:e6e65b21e12f4a151f6df05e7b60016161bda8aff72fd889917e8865772b2b0a"}, "docker": "quay.io/biocontainers/bioconductor-enrichtf", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-enrichtf.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-enrichtf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-enrichtf:1.16.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-enrichtf:1.18.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-enrichtf/1.16.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-enrichtf/1.16.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-enrichtf/1.18.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-enrichtf/1.18.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

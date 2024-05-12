@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/goleft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/goleft/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/goleft/container.yaml"
-updated_at: "2024-05-11 02:45:35.943384"
-latest: "0.2.4--h9ee0642_1"
+updated_at: "2024-05-12 02:50:02.252074"
+latest: "0.2.6--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/goleft"
 aliases:
  - "goleft"
@@ -21,8 +21,9 @@ aliases:
  - "md5fa"
 versions:
  - "0.2.4--h9ee0642_1"
+ - "0.2.6--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for goleft"
-config: {"url": "https://biocontainers.pro/tools/goleft", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for goleft", "latest": {"0.2.4--h9ee0642_1": "sha256:6d60fe73daed42e743222ae077aff5ee97ed1edfbacc1ecd7e3d9e612df38c75"}, "tags": {"0.2.4--h9ee0642_1": "sha256:6d60fe73daed42e743222ae077aff5ee97ed1edfbacc1ecd7e3d9e612df38c75"}, "docker": "quay.io/biocontainers/goleft", "aliases": {"goleft": "/usr/local/bin/goleft", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
+config: {"url": "https://biocontainers.pro/tools/goleft", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for goleft", "latest": {"0.2.6--h9ee0642_0": "sha256:9d20b4348d7779d41233f927ce3c783e4c4f7db43f92db6dd641677326d7a633"}, "tags": {"0.2.4--h9ee0642_1": "sha256:6d60fe73daed42e743222ae077aff5ee97ed1edfbacc1ecd7e3d9e612df38c75", "0.2.6--h9ee0642_0": "sha256:9d20b4348d7779d41233f927ce3c783e4c4f7db43f92db6dd641677326d7a633"}, "docker": "quay.io/biocontainers/goleft", "aliases": {"goleft": "/usr/local/bin/goleft", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/goleft.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/goleft
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/goleft:0.2.4--h9ee0642_1
+$ shpc install quay.io/biocontainers/goleft:0.2.6--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/goleft/0.2.4--h9ee0642_1
-$ module help quay.io/biocontainers/goleft/0.2.4--h9ee0642_1
+$ module load quay.io/biocontainers/goleft/0.2.6--h9ee0642_0
+$ module help quay.io/biocontainers/goleft/0.2.6--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
