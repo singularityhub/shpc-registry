@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-msnbase
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-msnbase
 latest:
-  2.28.1--r43hf17093f_0: sha256:675d42b8c1555f2fc147c5af6cab98d6b3f4c334f84a1d261f2df620cdd23c65
+  2.28.1--r43hf17093f_1: sha256:44cb05095737488995ad2e282534b7b52b9d3a0aa1211c5a1bee0a8fc7bf4aa3
 tags:
   2.8.3--r351hf484d3e_0: sha256:ebd9244ae1e2ab403fb72cf47a83c3055c39e243a7249d4f90835a3e5b0597b3
   2.24.0--r42hc247a5b_0: sha256:aeffe7cf3115a809dca214bf0095357cb530f25b452616ee34101318ea0dde88
@@ -13,6 +13,7 @@ tags:
   2.24.0--r42hf17093f_1: sha256:dbff7f4b167cb3d208cfe5bbec1c146a17389074519d982f16f9b5aafb85bbd1
   2.26.0--r43hf17093f_0: sha256:08c6a50e08ca3d7728a0bf5f499145570a691b089a06f57ef25a023a76cc81c4
   2.28.1--r43hf17093f_0: sha256:675d42b8c1555f2fc147c5af6cab98d6b3f4c334f84a1d261f2df620cdd23c65
+  2.28.1--r43hf17093f_1: sha256:44cb05095737488995ad2e282534b7b52b9d3a0aa1211c5a1bee0a8fc7bf4aa3
 docker: quay.io/biocontainers/bioconductor-msnbase
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf
