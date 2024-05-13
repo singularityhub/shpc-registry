@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/liqa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for liqa
+latest:
+  1.3.4--pyhdfd78af_0: sha256:d55808f94c1e10131611cb41d72b1c2a0a30fa2c6aa8f981e6c5a80f22404145
+tags:
+  1.3.4--pyhdfd78af_0: sha256:d55808f94c1e10131611cb41d72b1c2a0a30fa2c6aa8f981e6c5a80f22404145
+docker: quay.io/biocontainers/liqa
+aliases:
+  PreProcess.pl: /usr/local/bin/PreProcess.pl
+  PreProcess_gtf.pl: /usr/local/bin/PreProcess_gtf.pl
+  group_process.pl: /usr/local/bin/group_process.pl
+  liqa: /usr/local/bin/liqa
+  liqa.py: /usr/local/bin/liqa.py
+  noveliso.py: /usr/local/bin/noveliso.py
+  testDAS.R: /usr/local/bin/testDAS.R
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc
