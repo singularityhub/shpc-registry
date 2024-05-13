@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wtforms-components"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wtforms-components/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wtforms-components/container.yaml"
-updated_at: "2024-05-13 02:46:13.567728"
+updated_at: "2024-05-13 03:02:39.282551"
 latest: "0.10.0--py36_0"
 container_url: "https://biocontainers.pro/tools/wtforms-components"
 aliases:

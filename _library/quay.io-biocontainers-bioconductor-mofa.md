@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mofa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mofa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mofa/container.yaml"
-updated_at: "2024-05-13 03:12:39.122851"
+updated_at: "2024-05-13 03:29:44.270316"
 latest: "1.6.1--py39r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mofa"
 

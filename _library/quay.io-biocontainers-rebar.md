@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rebar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rebar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rebar/container.yaml"
-updated_at: "2024-05-13 02:31:16.395886"
+updated_at: "2024-05-13 02:47:48.572531"
 latest: "0.2.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/rebar"
 aliases:
