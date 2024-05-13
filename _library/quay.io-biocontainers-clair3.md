@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clair3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clair3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clair3/container.yaml"
-updated_at: "2024-05-12 02:31:27.677740"
-latest: "1.0.7--py39hf5e1c6e_0"
+updated_at: "2024-05-13 02:32:12.575091"
+latest: "1.0.8--py39hf5e1c6e_1"
 container_url: "https://biocontainers.pro/tools/clair3"
 aliases:
  - "clair3.py"
@@ -37,8 +37,9 @@ versions:
  - "1.0.4--py39hf5e1c6e_3"
  - "1.0.5--py39hf5e1c6e_0"
  - "1.0.7--py39hf5e1c6e_0"
+ - "1.0.8--py39hf5e1c6e_1"
 description: "shpc-registry automated BioContainers addition for clair3"
-config: {"url": "https://biocontainers.pro/tools/clair3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clair3", "latest": {"1.0.7--py39hf5e1c6e_0": "sha256:30104b3c4b785df678e824bf07cf27cc00f32031e6273d8006dfbc826eee2c6e"}, "tags": {"0.1.9--hdfd78af_0": "sha256:3741ca6b49eaaa716d5314a749ae9df757fdcf7b14ed9774711a7825b9bd531b", "0.1.12--py39hb9dc472_6": "sha256:ca4e8cc2798209dac532bd00864495b14106fe7b1be4b0c729898f820054d6fd", "1.0.0--py39hb9dc472_0": "sha256:e88b3c1695af7b3c4c7d52376eaf3fd0265734c3c149d514b695c77afcc2a77d", "1.0.0--py39hb9dc472_1": "sha256:d86d506950a0eadd43792390852a5a5fc87291f6ecb73b1b5348ae29db29571e", "1.0.1--py39hb9dc472_0": "sha256:b3fa97ea5779ad0270ccec988d83749af5ace89ddea80cb79a7d3f597ccad4c4", "1.0.2--py39hb9dc472_0": "sha256:320f33b12fdee365d30d6c737688bf62260bbe9ebb7a9c41f6d0127ae2ee3d78", "1.0.3--py39h8492097_0": "sha256:24053158fd0f9ee7b3cab64c34985c4808553e0e279f3e77488dab953e3c4e06", "1.0.4--py39hf5e1c6e_1": "sha256:7d7540ab22497abf19f55f88b4eae1fbd82b54b85fd99d1837002d915f3dcc99", "1.0.4--py39hf5e1c6e_2": "sha256:0b763f792eacbcc0eec9aef3ab0573bde8647d596a4317d59aaf994e858f213d", "1.0.4--py39hf5e1c6e_3": "sha256:9d1a5224144b54150dad0bed6192a0fc39537264676e36b6e469b57a0285927e", "1.0.5--py39hf5e1c6e_0": "sha256:7c35dd6f7de6fc35e69b978cc9af5b96048aeb02410be12f1cbc298a538dfc81", "1.0.7--py39hf5e1c6e_0": "sha256:30104b3c4b785df678e824bf07cf27cc00f32031e6273d8006dfbc826eee2c6e"}, "docker": "quay.io/biocontainers/clair3", "aliases": {"clair3.py": "/usr/local/bin/clair3.py", "pypy": "/usr/local/bin/pypy", "pypy3": "/usr/local/bin/pypy3", "pypy3.6": "/usr/local/bin/pypy3.6", "run_clair3.sh": "/usr/local/bin/run_clair3.sh", "whatshap": "/usr/local/bin/whatshap", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "igzip": "/usr/local/bin/igzip", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2"}}
+config: {"url": "https://biocontainers.pro/tools/clair3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clair3", "latest": {"1.0.8--py39hf5e1c6e_1": "sha256:14de0a4f9b204f29222c44449c8bca29989209f2c077f46f68a5a532173bd22c"}, "tags": {"0.1.9--hdfd78af_0": "sha256:3741ca6b49eaaa716d5314a749ae9df757fdcf7b14ed9774711a7825b9bd531b", "0.1.12--py39hb9dc472_6": "sha256:ca4e8cc2798209dac532bd00864495b14106fe7b1be4b0c729898f820054d6fd", "1.0.0--py39hb9dc472_0": "sha256:e88b3c1695af7b3c4c7d52376eaf3fd0265734c3c149d514b695c77afcc2a77d", "1.0.0--py39hb9dc472_1": "sha256:d86d506950a0eadd43792390852a5a5fc87291f6ecb73b1b5348ae29db29571e", "1.0.1--py39hb9dc472_0": "sha256:b3fa97ea5779ad0270ccec988d83749af5ace89ddea80cb79a7d3f597ccad4c4", "1.0.2--py39hb9dc472_0": "sha256:320f33b12fdee365d30d6c737688bf62260bbe9ebb7a9c41f6d0127ae2ee3d78", "1.0.3--py39h8492097_0": "sha256:24053158fd0f9ee7b3cab64c34985c4808553e0e279f3e77488dab953e3c4e06", "1.0.4--py39hf5e1c6e_1": "sha256:7d7540ab22497abf19f55f88b4eae1fbd82b54b85fd99d1837002d915f3dcc99", "1.0.4--py39hf5e1c6e_2": "sha256:0b763f792eacbcc0eec9aef3ab0573bde8647d596a4317d59aaf994e858f213d", "1.0.4--py39hf5e1c6e_3": "sha256:9d1a5224144b54150dad0bed6192a0fc39537264676e36b6e469b57a0285927e", "1.0.5--py39hf5e1c6e_0": "sha256:7c35dd6f7de6fc35e69b978cc9af5b96048aeb02410be12f1cbc298a538dfc81", "1.0.7--py39hf5e1c6e_0": "sha256:30104b3c4b785df678e824bf07cf27cc00f32031e6273d8006dfbc826eee2c6e", "1.0.8--py39hf5e1c6e_1": "sha256:14de0a4f9b204f29222c44449c8bca29989209f2c077f46f68a5a532173bd22c"}, "docker": "quay.io/biocontainers/clair3", "aliases": {"clair3.py": "/usr/local/bin/clair3.py", "pypy": "/usr/local/bin/pypy", "pypy3": "/usr/local/bin/pypy3", "pypy3.6": "/usr/local/bin/pypy3.6", "run_clair3.sh": "/usr/local/bin/run_clair3.sh", "whatshap": "/usr/local/bin/whatshap", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "igzip": "/usr/local/bin/igzip", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clair3.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/clair3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clair3:1.0.7--py39hf5e1c6e_0
+$ shpc install quay.io/biocontainers/clair3:1.0.8--py39hf5e1c6e_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clair3/1.0.7--py39hf5e1c6e_0
-$ module help quay.io/biocontainers/clair3/1.0.7--py39hf5e1c6e_0
+$ module load quay.io/biocontainers/clair3/1.0.8--py39hf5e1c6e_1
+$ module help quay.io/biocontainers/clair3/1.0.8--py39hf5e1c6e_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ksnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ksnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ksnp/container.yaml"
-updated_at: "2024-05-12 02:48:24.327552"
+updated_at: "2024-05-13 02:49:53.322179"
 latest: "1.0.3--h146fbdb_0"
 container_url: "https://biocontainers.pro/tools/ksnp"
 aliases:

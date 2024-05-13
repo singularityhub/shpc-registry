@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-uniquorn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-uniquorn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-uniquorn/container.yaml"
-updated_at: "2024-05-12 02:33:51.612032"
+updated_at: "2024-05-13 02:34:44.629143"
 latest: "2.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-uniquorn"
 aliases:

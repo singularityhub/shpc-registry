@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-beadarrayusecases"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-beadarrayusecases/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-beadarrayusecases/container.yaml"
-updated_at: "2024-05-12 02:50:27.504238"
+updated_at: "2024-05-13 02:51:56.468317"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-beadarrayusecases"
 

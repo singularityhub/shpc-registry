@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/defense-finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/defense-finder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/defense-finder/container.yaml"
-updated_at: "2024-05-12 02:35:44.689297"
+updated_at: "2024-05-13 02:36:44.662964"
 latest: "1.2.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/defense-finder"
 aliases:

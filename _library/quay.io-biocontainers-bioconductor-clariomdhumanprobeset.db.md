@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db/container.yaml"
-updated_at: "2024-05-12 02:40:34.876111"
+updated_at: "2024-05-13 02:41:40.377170"
 latest: "8.8.0--r43hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/bioconductor-clariomdhumanprobeset.db"
 

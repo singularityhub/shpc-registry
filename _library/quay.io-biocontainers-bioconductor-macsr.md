@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-macsr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-macsr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-macsr/container.yaml"
-updated_at: "2024-05-12 03:05:41.691517"
+updated_at: "2024-05-13 03:07:15.880400"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-macsr"
 

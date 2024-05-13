@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/trimnami"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trimnami/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trimnami/container.yaml"
-updated_at: "2024-05-12 02:52:39.616549"
-latest: "0.1.3--pyhdfd78af_0"
+updated_at: "2024-05-13 02:54:08.316385"
+latest: "0.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/trimnami"
 aliases:
  - "eido"
@@ -39,8 +39,9 @@ aliases:
 versions:
  - "0.1.1--pyhdfd78af_0"
  - "0.1.3--pyhdfd78af_0"
+ - "0.1.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for trimnami"
-config: {"url": "https://biocontainers.pro/tools/trimnami", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for trimnami", "latest": {"0.1.3--pyhdfd78af_0": "sha256:47a30f41c1823604b0d9b0365798d355c290dd5c4adfbad704763cde330b2815"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:b6033266db12dd2bb3a0faffb259e3f19df6efe81a88b57c5cf6eae3835c94a9", "0.1.3--pyhdfd78af_0": "sha256:47a30f41c1823604b0d9b0365798d355c290dd5c4adfbad704763cde330b2815"}, "docker": "quay.io/biocontainers/trimnami", "aliases": {"eido": "/usr/local/bin/eido", "protoc-24.3.0": "/usr/local/bin/protoc-24.3.0", "trimnami": "/usr/local/bin/trimnami", "markdown-it": "/usr/local/bin/markdown-it", "stone": "/usr/local/bin/stone", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate"}}
+config: {"url": "https://biocontainers.pro/tools/trimnami", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for trimnami", "latest": {"0.1.4--pyhdfd78af_0": "sha256:1b6d2e255a656910c5bede73c10d42e1f29dd266197a65933ca31f6021c3e944"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:b6033266db12dd2bb3a0faffb259e3f19df6efe81a88b57c5cf6eae3835c94a9", "0.1.3--pyhdfd78af_0": "sha256:47a30f41c1823604b0d9b0365798d355c290dd5c4adfbad704763cde330b2815", "0.1.4--pyhdfd78af_0": "sha256:1b6d2e255a656910c5bede73c10d42e1f29dd266197a65933ca31f6021c3e944"}, "docker": "quay.io/biocontainers/trimnami", "aliases": {"eido": "/usr/local/bin/eido", "protoc-24.3.0": "/usr/local/bin/protoc-24.3.0", "trimnami": "/usr/local/bin/trimnami", "markdown-it": "/usr/local/bin/markdown-it", "stone": "/usr/local/bin/stone", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trimnami.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/trimnami
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trimnami:0.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/trimnami:0.1.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trimnami/0.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/trimnami/0.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/trimnami/0.1.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/trimnami/0.1.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

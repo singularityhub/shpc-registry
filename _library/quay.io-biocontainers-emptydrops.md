@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/emptydrops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emptydrops/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emptydrops/container.yaml"
-updated_at: "2024-05-12 03:00:17.843328"
+updated_at: "2024-05-13 03:01:48.127677"
 latest: "0.0.5--py_0"
 container_url: "https://biocontainers.pro/tools/emptydrops"
 aliases:

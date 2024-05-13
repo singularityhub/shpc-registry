@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxator-tk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxator-tk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxator-tk/container.yaml"
-updated_at: "2024-05-12 03:06:46.407649"
+updated_at: "2024-05-13 03:08:20.691787"
 latest: "1.3.3e--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/taxator-tk"
 aliases:
