@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biotmledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biotmledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biotmledata/container.yaml"
-updated_at: "2024-05-13 03:16:11.284501"
+updated_at: "2024-05-14 02:55:57.697902"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biotmledata"
 aliases:

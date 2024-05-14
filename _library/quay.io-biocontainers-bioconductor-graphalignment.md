@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-graphalignment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-graphalignment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-graphalignment/container.yaml"
-updated_at: "2024-05-13 03:31:43.797201"
+updated_at: "2024-05-14 03:11:01.565252"
 latest: "1.66.0--r43ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-graphalignment"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/jolytree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jolytree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jolytree/container.yaml"
-updated_at: "2024-05-13 03:23:08.584415"
-latest: "1.1b--hdfd78af_1"
+updated_at: "2024-05-14 03:02:44.071221"
+latest: "2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jolytree"
 aliases:
  - "JolyTree.sh"
@@ -23,8 +23,9 @@ aliases:
  - "jaotc"
 versions:
  - "1.1b--hdfd78af_1"
+ - "2.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for jolytree"
-config: {"url": "https://biocontainers.pro/tools/jolytree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jolytree", "latest": {"1.1b--hdfd78af_1": "sha256:9b88f1e6a6f4e2750946c88ae752f37b646eb7caf5c793298ac1b696d46df5d8"}, "tags": {"1.1b--hdfd78af_1": "sha256:9b88f1e6a6f4e2750946c88ae752f37b646eb7caf5c793298ac1b696d46df5d8"}, "docker": "quay.io/biocontainers/jolytree", "aliases": {"JolyTree.sh": "/usr/local/bin/JolyTree.sh", "REQ": "/usr/local/bin/REQ", "fastme": "/usr/local/bin/fastme", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc"}}
+config: {"url": "https://biocontainers.pro/tools/jolytree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jolytree", "latest": {"2.1--hdfd78af_0": "sha256:540a5d7d43a6444111db289a7d4571015b17b58e5974502214d3ddb3a65c663f"}, "tags": {"1.1b--hdfd78af_1": "sha256:9b88f1e6a6f4e2750946c88ae752f37b646eb7caf5c793298ac1b696d46df5d8", "2.1--hdfd78af_0": "sha256:540a5d7d43a6444111db289a7d4571015b17b58e5974502214d3ddb3a65c663f"}, "docker": "quay.io/biocontainers/jolytree", "aliases": {"JolyTree.sh": "/usr/local/bin/JolyTree.sh", "REQ": "/usr/local/bin/REQ", "fastme": "/usr/local/bin/fastme", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jolytree.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/jolytree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/jolytree:1.1b--hdfd78af_1
+$ shpc install quay.io/biocontainers/jolytree:2.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/jolytree/1.1b--hdfd78af_1
-$ module help quay.io/biocontainers/jolytree/1.1b--hdfd78af_1
+$ module load quay.io/biocontainers/jolytree/2.1--hdfd78af_0
+$ module help quay.io/biocontainers/jolytree/2.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/exonerate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/exonerate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/exonerate/container.yaml"
-updated_at: "2024-05-13 03:32:20.449379"
-latest: "2.4.0--hf34a1b8_7"
+updated_at: "2024-05-14 03:11:36.628575"
+latest: "2.4.0--h09da616_8"
 container_url: "https://biocontainers.pro/tools/exonerate"
 aliases:
  - "esd2esi"
@@ -45,8 +45,9 @@ versions:
  - "2.4.0--h09da616_5"
  - "2.4.0--h09da616_6"
  - "2.4.0--hf34a1b8_7"
+ - "2.4.0--h09da616_8"
 description: "shpc-registry automated BioContainers addition for exonerate"
-config: {"url": "https://biocontainers.pro/tools/exonerate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for exonerate", "latest": {"2.4.0--hf34a1b8_7": "sha256:36dfb47081479f368c844e3c66f1f4e565f4ea346690961ba07deb1f12792c6c"}, "tags": {"2.4.0--h09da616_5": "sha256:96de65ff2b02b8026cc382a3ef5cb8646de44b16f0f90f0b839a52119e3e977a", "2.4.0--h09da616_6": "sha256:b56a4c76c88d0aa8d9f39ae13131cb78e3fa19f961e3e93902a7f6eda6d599ad", "2.4.0--hf34a1b8_7": "sha256:36dfb47081479f368c844e3c66f1f4e565f4ea346690961ba07deb1f12792c6c"}, "docker": "quay.io/biocontainers/exonerate", "aliases": {"esd2esi": "/usr/local/bin/esd2esi", "exonerate": "/usr/local/bin/exonerate", "exonerate-server": "/usr/local/bin/exonerate-server", "fasta2esd": "/usr/local/bin/fasta2esd", "fastaannotatecdna": "/usr/local/bin/fastaannotatecdna", "fastachecksum": "/usr/local/bin/fastachecksum", "fastaclean": "/usr/local/bin/fastaclean", "fastaclip": "/usr/local/bin/fastaclip", "fastacomposition": "/usr/local/bin/fastacomposition", "fastadiff": "/usr/local/bin/fastadiff", "fastaexplode": "/usr/local/bin/fastaexplode", "fastafetch": "/usr/local/bin/fastafetch", "fastahardmask": "/usr/local/bin/fastahardmask", "fastaindex": "/usr/local/bin/fastaindex", "fastalength": "/usr/local/bin/fastalength", "fastanrdb": "/usr/local/bin/fastanrdb", "fastaoverlap": "/usr/local/bin/fastaoverlap", "fastareformat": "/usr/local/bin/fastareformat", "fastaremove": "/usr/local/bin/fastaremove", "fastarevcomp": "/usr/local/bin/fastarevcomp", "fastasoftmask": "/usr/local/bin/fastasoftmask", "fastasort": "/usr/local/bin/fastasort", "fastasplit": "/usr/local/bin/fastasplit", "fastasubseq": "/usr/local/bin/fastasubseq", "fastatranslate": "/usr/local/bin/fastatranslate", "fastavalidcds": "/usr/local/bin/fastavalidcds", "ipcress": "/usr/local/bin/ipcress", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/exonerate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for exonerate", "latest": {"2.4.0--h09da616_8": "sha256:6f86dacc6f1f32eb10a38fa19882b26d1b311f47e2237cb9b1abba5bed2b5304"}, "tags": {"2.4.0--h09da616_5": "sha256:96de65ff2b02b8026cc382a3ef5cb8646de44b16f0f90f0b839a52119e3e977a", "2.4.0--h09da616_6": "sha256:b56a4c76c88d0aa8d9f39ae13131cb78e3fa19f961e3e93902a7f6eda6d599ad", "2.4.0--hf34a1b8_7": "sha256:36dfb47081479f368c844e3c66f1f4e565f4ea346690961ba07deb1f12792c6c", "2.4.0--h09da616_8": "sha256:6f86dacc6f1f32eb10a38fa19882b26d1b311f47e2237cb9b1abba5bed2b5304"}, "docker": "quay.io/biocontainers/exonerate", "aliases": {"esd2esi": "/usr/local/bin/esd2esi", "exonerate": "/usr/local/bin/exonerate", "exonerate-server": "/usr/local/bin/exonerate-server", "fasta2esd": "/usr/local/bin/fasta2esd", "fastaannotatecdna": "/usr/local/bin/fastaannotatecdna", "fastachecksum": "/usr/local/bin/fastachecksum", "fastaclean": "/usr/local/bin/fastaclean", "fastaclip": "/usr/local/bin/fastaclip", "fastacomposition": "/usr/local/bin/fastacomposition", "fastadiff": "/usr/local/bin/fastadiff", "fastaexplode": "/usr/local/bin/fastaexplode", "fastafetch": "/usr/local/bin/fastafetch", "fastahardmask": "/usr/local/bin/fastahardmask", "fastaindex": "/usr/local/bin/fastaindex", "fastalength": "/usr/local/bin/fastalength", "fastanrdb": "/usr/local/bin/fastanrdb", "fastaoverlap": "/usr/local/bin/fastaoverlap", "fastareformat": "/usr/local/bin/fastareformat", "fastaremove": "/usr/local/bin/fastaremove", "fastarevcomp": "/usr/local/bin/fastarevcomp", "fastasoftmask": "/usr/local/bin/fastasoftmask", "fastasort": "/usr/local/bin/fastasort", "fastasplit": "/usr/local/bin/fastasplit", "fastasubseq": "/usr/local/bin/fastasubseq", "fastatranslate": "/usr/local/bin/fastatranslate", "fastavalidcds": "/usr/local/bin/fastavalidcds", "ipcress": "/usr/local/bin/ipcress", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/exonerate.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/exonerate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/exonerate:2.4.0--hf34a1b8_7
+$ shpc install quay.io/biocontainers/exonerate:2.4.0--h09da616_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/exonerate/2.4.0--hf34a1b8_7
-$ module help quay.io/biocontainers/exonerate/2.4.0--hf34a1b8_7
+$ module load quay.io/biocontainers/exonerate/2.4.0--h09da616_8
+$ module help quay.io/biocontainers/exonerate/2.4.0--h09da616_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

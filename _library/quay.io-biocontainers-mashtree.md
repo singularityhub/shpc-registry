@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mashtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mashtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mashtree/container.yaml"
-updated_at: "2024-05-13 03:01:48.849762"
+updated_at: "2024-05-14 02:41:59.638538"
 latest: "1.4.6--pl5321h031d066_0"
 container_url: "https://biocontainers.pro/tools/mashtree"
 aliases:

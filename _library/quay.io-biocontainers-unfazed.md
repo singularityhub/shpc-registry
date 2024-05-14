@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unfazed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unfazed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unfazed/container.yaml"
-updated_at: "2024-05-13 03:19:25.309371"
+updated_at: "2024-05-14 02:59:06.069517"
 latest: "1.0.2--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/unfazed"
 aliases:
