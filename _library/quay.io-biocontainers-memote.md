@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/memote"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/memote/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/memote/container.yaml"
-updated_at: "2024-05-14 02:54:31.695016"
+updated_at: "2024-05-15 02:59:04.847678"
 latest: "0.17.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/memote"
 aliases:

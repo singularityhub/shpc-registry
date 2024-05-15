@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/singlecell-barcodes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/singlecell-barcodes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/singlecell-barcodes/container.yaml"
-updated_at: "2024-05-14 03:11:16.173324"
+updated_at: "2024-05-15 03:16:03.829060"
 latest: "0.2--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/singlecell-barcodes"
 

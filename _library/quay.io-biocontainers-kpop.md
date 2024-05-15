@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kpop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kpop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kpop/container.yaml"
-updated_at: "2024-05-14 02:53:57.096007"
+updated_at: "2024-05-15 02:58:29.348275"
 latest: "1.1.1--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/kpop"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dascrubber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dascrubber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dascrubber/container.yaml"
-updated_at: "2024-05-14 03:11:36.043564"
+updated_at: "2024-05-15 03:16:24.063296"
 latest: "0.0.1a2--h031d066_6"
 container_url: "https://biocontainers.pro/tools/dascrubber"
 aliases:

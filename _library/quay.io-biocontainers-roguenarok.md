@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/roguenarok"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/roguenarok/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/roguenarok/container.yaml"
-updated_at: "2024-05-14 02:38:43.870169"
+updated_at: "2024-05-15 02:42:56.527496"
 latest: "1.0.1--h031d066_3"
 container_url: "https://biocontainers.pro/tools/roguenarok"
 aliases:

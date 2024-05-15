@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bionetcomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bionetcomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bionetcomp/container.yaml"
-updated_at: "2024-05-14 03:02:23.425160"
+updated_at: "2024-05-15 03:07:04.713813"
 latest: "1.1--pyhfa5458b_0"
 container_url: "https://biocontainers.pro/tools/bionetcomp"
 aliases:

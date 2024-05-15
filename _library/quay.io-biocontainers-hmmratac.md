@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmmratac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmmratac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmmratac/container.yaml"
-updated_at: "2024-05-14 02:37:29.503420"
+updated_at: "2024-05-15 02:41:40.968649"
 latest: "1.2.10--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hmmratac"
 aliases:

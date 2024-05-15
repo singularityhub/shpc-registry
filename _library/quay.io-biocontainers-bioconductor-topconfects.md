@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-topconfects"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-topconfects/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-topconfects/container.yaml"
-updated_at: "2024-05-14 02:46:25.392919"
+updated_at: "2024-05-15 02:50:46.630313"
 latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-topconfects"
 aliases:

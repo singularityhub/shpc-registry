@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cd-hit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cd-hit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cd-hit/container.yaml"
-updated_at: "2024-05-14 02:52:41.715690"
+updated_at: "2024-05-15 02:57:12.000950"
 latest: "4.8.1--h43eeafb_10"
 container_url: "https://biocontainers.pro/tools/cd-hit"
 

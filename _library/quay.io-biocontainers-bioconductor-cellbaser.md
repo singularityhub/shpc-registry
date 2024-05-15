@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellbaser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellbaser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellbaser/container.yaml"
-updated_at: "2024-05-14 02:46:15.632254"
+updated_at: "2024-05-15 02:50:36.684835"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellbaser"
 aliases:

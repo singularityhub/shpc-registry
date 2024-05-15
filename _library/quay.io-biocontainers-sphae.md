@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sphae"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sphae/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sphae/container.yaml"
-updated_at: "2024-05-14 02:37:53.749077"
+updated_at: "2024-05-15 02:42:05.635131"
 latest: "1.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sphae"
 aliases:

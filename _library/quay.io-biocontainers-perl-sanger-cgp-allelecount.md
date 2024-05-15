@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sanger-cgp-allelecount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sanger-cgp-allelecount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sanger-cgp-allelecount/container.yaml"
-updated_at: "2024-05-14 02:32:24.534727"
+updated_at: "2024-05-15 02:36:32.586770"
 latest: "4.3.0--pl5321h031d066_1"
 container_url: "https://biocontainers.pro/tools/perl-sanger-cgp-allelecount"
 aliases:

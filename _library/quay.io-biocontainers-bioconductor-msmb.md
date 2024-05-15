@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msmb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msmb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msmb/container.yaml"
-updated_at: "2024-05-14 02:36:36.841118"
+updated_at: "2024-05-15 02:40:47.530761"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msmb"
 aliases:
