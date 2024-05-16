@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/pymzml
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pymzml
 latest:
-  2.5.9--pyhdfd78af_0: sha256:8ed1849f4170c56fc89e1839681bdc90a669480aa7a3d9a6c960733022affce8
+  2.5.10--pyhdfd78af_0: sha256:91540ef91daebc3a013ada318f1809935a19e719fc5a0810838bc889d2c0cf19
 tags:
   2.5.2--pyhdfd78af_0: sha256:3ebc76112579dd8564784c9ac876626705ea4006653ca317f0e77d71fa96f82a
   2.5.3--pyhdfd78af_0: sha256:545817b3277aa5f22ab0b2c5e63f8961f24cdefaa5681242190ab5e776fd579f
   2.5.5--pyhdfd78af_0: sha256:c90fff0ce42efaf4396f721aefb85c7885429a878c4fd7698162fa487548d286
   2.5.6--pyhdfd78af_0: sha256:3891bd3f970cfa3f38059ab9d5141b0bc1b7a5bf9f13942cdef0c6dbf53d4051
   2.5.9--pyhdfd78af_0: sha256:8ed1849f4170c56fc89e1839681bdc90a669480aa7a3d9a6c960733022affce8
+  2.5.10--pyhdfd78af_0: sha256:91540ef91daebc3a013ada318f1809935a19e719fc5a0810838bc889d2c0cf19
 docker: quay.io/biocontainers/pymzml
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10
