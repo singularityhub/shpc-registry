@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-executor-plugin-cluster-sync"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-executor-plugin-cluster-sync/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-executor-plugin-cluster-sync/container.yaml"
-updated_at: "2024-05-15 03:16:13.802450"
+updated_at: "2024-05-16 02:28:55.926966"
 latest: "0.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-executor-plugin-cluster-sync"
 aliases:

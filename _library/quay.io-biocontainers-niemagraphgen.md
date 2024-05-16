@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/niemagraphgen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/niemagraphgen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/niemagraphgen/container.yaml"
-updated_at: "2024-05-15 02:45:02.186287"
+updated_at: "2024-05-16 02:33:33.466781"
 latest: "1.0.6--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/niemagraphgen"
 aliases:

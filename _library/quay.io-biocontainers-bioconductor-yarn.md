@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-yarn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yarn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yarn/container.yaml"
-updated_at: "2024-05-15 02:54:09.974244"
+updated_at: "2024-05-16 02:54:24.662312"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-yarn"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kallisto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kallisto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kallisto/container.yaml"
-updated_at: "2024-05-15 03:11:14.733719"
+updated_at: "2024-05-16 02:58:59.168613"
 latest: "0.50.1--hc877fd6_1"
 container_url: "https://biocontainers.pro/tools/kallisto"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/peka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peka/container.yaml"
-updated_at: "2024-05-15 02:43:11.258263"
-latest: "1.0.1--pyhdfd78af_0"
+updated_at: "2024-05-16 02:39:46.167661"
+latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/peka"
 aliases:
  - "peka"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "1.0.0--pyhdfd78af_0"
  - "1.0.1--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for peka"
-config: {"url": "https://biocontainers.pro/tools/peka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for peka", "latest": {"1.0.1--pyhdfd78af_0": "sha256:d04e2eb6b136c28a975e242243b727c97b9844566bb187103c3f8a4ff29c51b4"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:cce20276e134a6c24ca440718aaec27eb7bc5aa0d9d25a6baf34f72038a7ec2a", "1.0.1--pyhdfd78af_0": "sha256:d04e2eb6b136c28a975e242243b727c97b9844566bb187103c3f8a4ff29c51b4"}, "docker": "quay.io/biocontainers/peka", "aliases": {"peka": "/usr/local/bin/peka", "peka.py": "/usr/local/bin/peka.py", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed"}}
+config: {"url": "https://biocontainers.pro/tools/peka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for peka", "latest": {"1.0.2--pyhdfd78af_0": "sha256:8aed814fcb15c5a51f429ae165f7387099aecdd0efa0cde9dbb68ddb587ce5be"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:cce20276e134a6c24ca440718aaec27eb7bc5aa0d9d25a6baf34f72038a7ec2a", "1.0.1--pyhdfd78af_0": "sha256:d04e2eb6b136c28a975e242243b727c97b9844566bb187103c3f8a4ff29c51b4", "1.0.2--pyhdfd78af_0": "sha256:8aed814fcb15c5a51f429ae165f7387099aecdd0efa0cde9dbb68ddb587ce5be"}, "docker": "quay.io/biocontainers/peka", "aliases": {"peka": "/usr/local/bin/peka", "peka.py": "/usr/local/bin/peka.py", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peka.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/peka
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/peka:1.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/peka:1.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/peka/1.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/peka/1.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/peka/1.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/peka/1.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
