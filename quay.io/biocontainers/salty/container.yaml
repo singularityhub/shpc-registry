@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/salty
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for salty
 latest:
-  1.0.5--pyhdfd78af_1: sha256:17cb05a093f1267018e1c7ea351dc591cb23131967bd685fd5ad2351aa24f8de
+  1.0.6--pyhdfd78af_0: sha256:5238a351eef4a8a9b3f2ba1d3656b17e8a27f766c8141ddf5d2c8fbd0f02d033
 tags:
   1.0.0--pyhdfd78af_0: sha256:5d4169c5a3a77a9a781661627f0e3f180682c636b2a477cec5bf03ab3c0a9206
   1.0.4--pyhdfd78af_0: sha256:78b220955ad48dae774e76c9b040645527ade20e02d699e4ffbb29ef296d6466
   1.0.5--pyhdfd78af_1: sha256:17cb05a093f1267018e1c7ea351dc591cb23131967bd685fd5ad2351aa24f8de
+  1.0.6--pyhdfd78af_0: sha256:5238a351eef4a8a9b3f2ba1d3656b17e8a27f766c8141ddf5d2c8fbd0f02d033
 docker: quay.io/biocontainers/salty
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11
