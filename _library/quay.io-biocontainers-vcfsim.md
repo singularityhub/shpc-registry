@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vcfsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcfsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcfsim/container.yaml"
-updated_at: "2024-05-16 02:42:37.805487"
-latest: "1.0.10.alpha--pyhca03a8a_0"
+updated_at: "2024-05-19 02:45:57.536692"
+latest: "1.0.11.alpha--pyhca03a8a_0"
 container_url: "https://biocontainers.pro/tools/vcfsim"
 aliases:
  - "demes"
@@ -26,8 +26,9 @@ versions:
  - "1.0.8.alpha--pyhca03a8a_0"
  - "1.0.9.alpha--pyhca03a8a_0"
  - "1.0.10.alpha--pyhca03a8a_0"
+ - "1.0.11.alpha--pyhca03a8a_0"
 description: "singularity registry hpc automated addition for vcfsim"
-config: {"url": "https://biocontainers.pro/tools/vcfsim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcfsim", "latest": {"1.0.10.alpha--pyhca03a8a_0": "sha256:a85195e80c1b48fbd677796a1673dc48e2253a80e119476ad5fbbbbae1afaf6e"}, "tags": {"1.0.8.alpha--pyhca03a8a_0": "sha256:4d690c5dd2fc88c5ce2a5279e6a431e0dd66be96a0fb12f20a0a310c7c79ea1e", "1.0.9.alpha--pyhca03a8a_0": "sha256:69b9c77a2067f6b0a5a1a3412132715f45946eba24834b1cb31b66edf9dc24c8", "1.0.10.alpha--pyhca03a8a_0": "sha256:a85195e80c1b48fbd677796a1673dc48e2253a80e119476ad5fbbbbae1afaf6e"}, "docker": "quay.io/biocontainers/vcfsim", "aliases": {"demes": "/usr/local/bin/demes", "msp": "/usr/local/bin/msp", "mspms": "/usr/local/bin/mspms", "tskit": "/usr/local/bin/tskit", "vcfsim": "/usr/local/bin/vcfsim", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize"}}
+config: {"url": "https://biocontainers.pro/tools/vcfsim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcfsim", "latest": {"1.0.11.alpha--pyhca03a8a_0": "sha256:84c82dcfe282f5677e8dcd2d10f048d4acb2e95557fc0d4799e47a92828ed068"}, "tags": {"1.0.8.alpha--pyhca03a8a_0": "sha256:4d690c5dd2fc88c5ce2a5279e6a431e0dd66be96a0fb12f20a0a310c7c79ea1e", "1.0.9.alpha--pyhca03a8a_0": "sha256:69b9c77a2067f6b0a5a1a3412132715f45946eba24834b1cb31b66edf9dc24c8", "1.0.10.alpha--pyhca03a8a_0": "sha256:a85195e80c1b48fbd677796a1673dc48e2253a80e119476ad5fbbbbae1afaf6e", "1.0.11.alpha--pyhca03a8a_0": "sha256:84c82dcfe282f5677e8dcd2d10f048d4acb2e95557fc0d4799e47a92828ed068"}, "docker": "quay.io/biocontainers/vcfsim", "aliases": {"demes": "/usr/local/bin/demes", "msp": "/usr/local/bin/msp", "mspms": "/usr/local/bin/mspms", "tskit": "/usr/local/bin/tskit", "vcfsim": "/usr/local/bin/vcfsim", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcfsim.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/vcfsim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcfsim:1.0.10.alpha--pyhca03a8a_0
+$ shpc install quay.io/biocontainers/vcfsim:1.0.11.alpha--pyhca03a8a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcfsim/1.0.10.alpha--pyhca03a8a_0
-$ module help quay.io/biocontainers/vcfsim/1.0.10.alpha--pyhca03a8a_0
+$ module load quay.io/biocontainers/vcfsim/1.0.11.alpha--pyhca03a8a_0
+$ module help quay.io/biocontainers/vcfsim/1.0.11.alpha--pyhca03a8a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

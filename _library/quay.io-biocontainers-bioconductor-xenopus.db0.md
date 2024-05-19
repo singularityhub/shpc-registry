@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xenopus.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xenopus.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xenopus.db0/container.yaml"
-updated_at: "2024-05-16 03:09:53.330652"
+updated_at: "2024-05-19 03:17:09.811530"
 latest: "3.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xenopus.db0"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/atropos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atropos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atropos/container.yaml"
-updated_at: "2024-05-16 03:04:38.485810"
-latest: "1.1.32--py310h4b81fae_0"
+updated_at: "2024-05-19 03:11:27.139574"
+latest: "1.1.32--py38he5da3d1_1"
 container_url: "https://biocontainers.pro/tools/atropos"
 aliases:
  - "atropos"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "1.1.31--py39hbf8eff0_2"
  - "1.1.32--py310h4b81fae_0"
+ - "1.1.32--py38he5da3d1_1"
 description: "shpc-registry automated BioContainers addition for atropos"
-config: {"url": "https://biocontainers.pro/tools/atropos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for atropos", "latest": {"1.1.32--py310h4b81fae_0": "sha256:1e9116493e4516c6ee650f2bfceab4f1371124cfeb5b83730d4b6663c27fa90f"}, "tags": {"1.1.31--py39hbf8eff0_2": "sha256:f11b1d97dd8df11f6cbda15d4b1b6e45f1c9ba8b0e4a323d352c67d2cd009e87", "1.1.32--py310h4b81fae_0": "sha256:1e9116493e4516c6ee650f2bfceab4f1371124cfeb5b83730d4b6663c27fa90f"}, "docker": "quay.io/biocontainers/atropos", "aliases": {"atropos": "/usr/local/bin/atropos", "tqdm": "/usr/local/bin/tqdm", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/atropos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for atropos", "latest": {"1.1.32--py38he5da3d1_1": "sha256:88435a0d9d53c6d21dcdd4129795cc3517a87cc8d74878d677de8ef000ed88b7"}, "tags": {"1.1.31--py39hbf8eff0_2": "sha256:f11b1d97dd8df11f6cbda15d4b1b6e45f1c9ba8b0e4a323d352c67d2cd009e87", "1.1.32--py310h4b81fae_0": "sha256:1e9116493e4516c6ee650f2bfceab4f1371124cfeb5b83730d4b6663c27fa90f", "1.1.32--py38he5da3d1_1": "sha256:88435a0d9d53c6d21dcdd4129795cc3517a87cc8d74878d677de8ef000ed88b7"}, "docker": "quay.io/biocontainers/atropos", "aliases": {"atropos": "/usr/local/bin/atropos", "tqdm": "/usr/local/bin/tqdm", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/atropos.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/atropos
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/atropos:1.1.32--py310h4b81fae_0
+$ shpc install quay.io/biocontainers/atropos:1.1.32--py38he5da3d1_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/atropos/1.1.32--py310h4b81fae_0
-$ module help quay.io/biocontainers/atropos/1.1.32--py310h4b81fae_0
+$ module load quay.io/biocontainers/atropos/1.1.32--py38he5da3d1_1
+$ module help quay.io/biocontainers/atropos/1.1.32--py38he5da3d1_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

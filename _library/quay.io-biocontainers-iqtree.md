@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/iqtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iqtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iqtree/container.yaml"
-updated_at: "2024-05-16 03:01:24.191114"
-latest: "2.3.0--h21ec9f0_0"
+updated_at: "2024-05-19 03:07:42.217375"
+latest: "2.3.3--h21ec9f0_0"
 container_url: "https://biocontainers.pro/tools/iqtree"
 aliases:
  - "iqtree"
@@ -20,8 +20,9 @@ versions:
  - "2.2.5--h21ec9f0_0"
  - "2.2.6--h21ec9f0_0"
  - "2.3.0--h21ec9f0_0"
+ - "2.3.3--h21ec9f0_0"
 description: "shpc-registry automated BioContainers addition for iqtree"
-config: {"url": "https://biocontainers.pro/tools/iqtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iqtree", "latest": {"2.3.0--h21ec9f0_0": "sha256:47b0a9948911de84e2ce10ab84307bc56b7a275109e01970890fce20c51f299b"}, "tags": {"2.2.0_beta--hb97b32f_1": "sha256:96ca289717c1d1d07536802939f2da66c22ccf7e527b22297c78de585358e1c3", "2.2.0.3--hb97b32f_1": "sha256:a4d3f266bfac25f8018eaf03b14db48c66aa6eb02391ad28cf19520d61c3e5fb", "2.2.2.3--hb97b32f_0": "sha256:4442ecc36f74f42136a862eb4418c07cc3b220fcdc89c933127a14f61af66f97", "2.2.2.3--h2202e69_2": "sha256:a5f542fabdb0049270011df51d5561fa3884f0e0dc546d23722f46e58c7967fe", "2.2.2.7--h21ec9f0_2": "sha256:795c665251b2a6a92be9f5556b5c082d5907d00135231f663bbf0420000f6397", "2.2.3--h21ec9f0_0": "sha256:e64c69633a2eeb8755904583bf9601997a799dea1511987604fba26c51074501", "2.2.5--h21ec9f0_0": "sha256:4497a9270b83c860c8665e9618b326c1d1b879511bd0ba7fcb77e7ede061c834", "2.2.6--h21ec9f0_0": "sha256:40230f1ed601f73bfe8bc4ae8bc0f1cdbeadc91fe77d3e10fb0f18c7e5ec8964", "2.3.0--h21ec9f0_0": "sha256:47b0a9948911de84e2ce10ab84307bc56b7a275109e01970890fce20c51f299b"}, "docker": "quay.io/biocontainers/iqtree", "aliases": {"iqtree": "/usr/local/bin/iqtree", "iqtree2": "/usr/local/bin/iqtree2"}}
+config: {"url": "https://biocontainers.pro/tools/iqtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iqtree", "latest": {"2.3.3--h21ec9f0_0": "sha256:64334132270c1c32c9b7462647ec1e1496303d2cfeedc1d6daf9c4a996c9ca22"}, "tags": {"2.2.0_beta--hb97b32f_1": "sha256:96ca289717c1d1d07536802939f2da66c22ccf7e527b22297c78de585358e1c3", "2.2.0.3--hb97b32f_1": "sha256:a4d3f266bfac25f8018eaf03b14db48c66aa6eb02391ad28cf19520d61c3e5fb", "2.2.2.3--hb97b32f_0": "sha256:4442ecc36f74f42136a862eb4418c07cc3b220fcdc89c933127a14f61af66f97", "2.2.2.3--h2202e69_2": "sha256:a5f542fabdb0049270011df51d5561fa3884f0e0dc546d23722f46e58c7967fe", "2.2.2.7--h21ec9f0_2": "sha256:795c665251b2a6a92be9f5556b5c082d5907d00135231f663bbf0420000f6397", "2.2.3--h21ec9f0_0": "sha256:e64c69633a2eeb8755904583bf9601997a799dea1511987604fba26c51074501", "2.2.5--h21ec9f0_0": "sha256:4497a9270b83c860c8665e9618b326c1d1b879511bd0ba7fcb77e7ede061c834", "2.2.6--h21ec9f0_0": "sha256:40230f1ed601f73bfe8bc4ae8bc0f1cdbeadc91fe77d3e10fb0f18c7e5ec8964", "2.3.0--h21ec9f0_0": "sha256:47b0a9948911de84e2ce10ab84307bc56b7a275109e01970890fce20c51f299b", "2.3.3--h21ec9f0_0": "sha256:64334132270c1c32c9b7462647ec1e1496303d2cfeedc1d6daf9c4a996c9ca22"}, "docker": "quay.io/biocontainers/iqtree", "aliases": {"iqtree": "/usr/local/bin/iqtree", "iqtree2": "/usr/local/bin/iqtree2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/iqtree.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/iqtree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/iqtree:2.3.0--h21ec9f0_0
+$ shpc install quay.io/biocontainers/iqtree:2.3.3--h21ec9f0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/iqtree/2.3.0--h21ec9f0_0
-$ module help quay.io/biocontainers/iqtree/2.3.0--h21ec9f0_0
+$ module load quay.io/biocontainers/iqtree/2.3.3--h21ec9f0_0
+$ module help quay.io/biocontainers/iqtree/2.3.3--h21ec9f0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/epic2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epic2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epic2/container.yaml"
-updated_at: "2024-05-16 02:39:48.365638"
-latest: "0.0.52--py310hf47bd5e_6"
+updated_at: "2024-05-19 02:42:42.547585"
+latest: "0.0.52--py38h5cf8b27_7"
 container_url: "https://biocontainers.pro/tools/epic2"
 aliases:
  - "epic2"
@@ -24,8 +24,9 @@ aliases:
 versions:
  - "0.0.48--py36hb4700b3_0"
  - "0.0.52--py310hf47bd5e_6"
+ - "0.0.52--py38h5cf8b27_7"
 description: "shpc-registry automated BioContainers addition for epic2"
-config: {"url": "https://biocontainers.pro/tools/epic2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epic2", "latest": {"0.0.52--py310hf47bd5e_6": "sha256:ff16be197f89abad289a700368bf1216a61cb4ad9225e78706b2a0aa050da6bb"}, "tags": {"0.0.48--py36hb4700b3_0": "sha256:d30e12a08ca4001c78500703fba18380b5d1d2a2e01386caf27e55c409e25a61", "0.0.52--py310hf47bd5e_6": "sha256:ff16be197f89abad289a700368bf1216a61cb4ad9225e78706b2a0aa050da6bb"}, "docker": "quay.io/biocontainers/epic2", "aliases": {"epic2": "/usr/local/bin/epic2", "epic2-bw": "/usr/local/bin/epic2-bw", "epic2-df": "/usr/local/bin/epic2-df", "natsort": "/usr/local/bin/natsort", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/epic2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epic2", "latest": {"0.0.52--py38h5cf8b27_7": "sha256:c4ad1fd1982c43d6a22208d476be2bbaf6a5aeb4134052c3465d39515bdd2d23"}, "tags": {"0.0.48--py36hb4700b3_0": "sha256:d30e12a08ca4001c78500703fba18380b5d1d2a2e01386caf27e55c409e25a61", "0.0.52--py310hf47bd5e_6": "sha256:ff16be197f89abad289a700368bf1216a61cb4ad9225e78706b2a0aa050da6bb", "0.0.52--py38h5cf8b27_7": "sha256:c4ad1fd1982c43d6a22208d476be2bbaf6a5aeb4134052c3465d39515bdd2d23"}, "docker": "quay.io/biocontainers/epic2", "aliases": {"epic2": "/usr/local/bin/epic2", "epic2-bw": "/usr/local/bin/epic2-bw", "epic2-df": "/usr/local/bin/epic2-df", "natsort": "/usr/local/bin/natsort", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/epic2.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/epic2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/epic2:0.0.52--py310hf47bd5e_6
+$ shpc install quay.io/biocontainers/epic2:0.0.52--py38h5cf8b27_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/epic2/0.0.52--py310hf47bd5e_6
-$ module help quay.io/biocontainers/epic2/0.0.52--py310hf47bd5e_6
+$ module load quay.io/biocontainers/epic2/0.0.52--py38h5cf8b27_7
+$ module help quay.io/biocontainers/epic2/0.0.52--py38h5cf8b27_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

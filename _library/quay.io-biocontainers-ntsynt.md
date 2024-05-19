@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ntsynt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntsynt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntsynt/container.yaml"
-updated_at: "2024-05-16 02:55:25.491968"
-latest: "1.0.0--py38h2494328_1"
+updated_at: "2024-05-19 03:00:54.082515"
+latest: "1.0.1--py39h1f90b4d_0"
 container_url: "https://biocontainers.pro/tools/ntsynt"
 aliases:
  - "annot-tsv"
@@ -60,8 +60,9 @@ aliases:
 versions:
  - "1.0.0--py39h1f90b4d_0"
  - "1.0.0--py38h2494328_1"
+ - "1.0.1--py39h1f90b4d_0"
 description: "singularity registry hpc automated addition for ntsynt"
-config: {"url": "https://biocontainers.pro/tools/ntsynt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ntsynt", "latest": {"1.0.0--py38h2494328_1": "sha256:7f6bc8a461cc0b50e2db44c09225ff86fdad1edde155a4f05cd5e5a7bdea9d86"}, "tags": {"1.0.0--py39h1f90b4d_0": "sha256:306b9858d9354844142f8efbd59c9308eee286fdcf8cd49fafb14c6dbfb4b42c", "1.0.0--py38h2494328_1": "sha256:7f6bc8a461cc0b50e2db44c09225ff86fdad1edde155a4f05cd5e5a7bdea9d86"}, "docker": "quay.io/biocontainers/ntsynt", "aliases": {"annot-tsv": "/usr/local/bin/annot-tsv", "assembly_block.py": "/usr/local/bin/assembly_block.py", "eido": "/usr/local/bin/eido", "indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "mi_bf_generate": "/usr/local/bin/mi_bf_generate", "ntSynt": "/usr/local/bin/ntSynt", "ntjoin.py": "/usr/local/bin/ntjoin.py", "ntjoin_utils.py": "/usr/local/bin/ntjoin_utils.py", "ntsynt_make_common_bf": "/usr/local/bin/ntsynt_make_common_bf", "ntsynt_make_repeat_bfs.py": "/usr/local/bin/ntsynt_make_repeat_bfs.py", "ntsynt_run.py": "/usr/local/bin/ntsynt_run.py", "ntsynt_run_pipeline.smk": "/usr/local/bin/ntsynt_run_pipeline.smk", "ntsynt_synteny.py": "/usr/local/bin/ntsynt_synteny.py", "protoc-25.1.0": "/usr/local/bin/protoc-25.1.0", "randseq": "/usr/local/bin/randseq", "synteny_block.py": "/usr/local/bin/synteny_block.py", "zipcloak": "/usr/local/bin/zipcloak", "zipnote": "/usr/local/bin/zipnote", "zipsplit": "/usr/local/bin/zipsplit", "zip": "/usr/local/bin/zip", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "igraph": "/usr/local/bin/igraph", "markdown-it": "/usr/local/bin/markdown-it", "stone": "/usr/local/bin/stone", "seqtk": "/usr/local/bin/seqtk", "tar": "/usr/local/bin/tar", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp"}}
+config: {"url": "https://biocontainers.pro/tools/ntsynt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ntsynt", "latest": {"1.0.1--py39h1f90b4d_0": "sha256:ad47000cd5fb2ec9ca8d38ec41a7f4269e5b32d06160c67217cccc1df818229c"}, "tags": {"1.0.0--py39h1f90b4d_0": "sha256:306b9858d9354844142f8efbd59c9308eee286fdcf8cd49fafb14c6dbfb4b42c", "1.0.0--py38h2494328_1": "sha256:7f6bc8a461cc0b50e2db44c09225ff86fdad1edde155a4f05cd5e5a7bdea9d86", "1.0.1--py39h1f90b4d_0": "sha256:ad47000cd5fb2ec9ca8d38ec41a7f4269e5b32d06160c67217cccc1df818229c"}, "docker": "quay.io/biocontainers/ntsynt", "aliases": {"annot-tsv": "/usr/local/bin/annot-tsv", "assembly_block.py": "/usr/local/bin/assembly_block.py", "eido": "/usr/local/bin/eido", "indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "mi_bf_generate": "/usr/local/bin/mi_bf_generate", "ntSynt": "/usr/local/bin/ntSynt", "ntjoin.py": "/usr/local/bin/ntjoin.py", "ntjoin_utils.py": "/usr/local/bin/ntjoin_utils.py", "ntsynt_make_common_bf": "/usr/local/bin/ntsynt_make_common_bf", "ntsynt_make_repeat_bfs.py": "/usr/local/bin/ntsynt_make_repeat_bfs.py", "ntsynt_run.py": "/usr/local/bin/ntsynt_run.py", "ntsynt_run_pipeline.smk": "/usr/local/bin/ntsynt_run_pipeline.smk", "ntsynt_synteny.py": "/usr/local/bin/ntsynt_synteny.py", "protoc-25.1.0": "/usr/local/bin/protoc-25.1.0", "randseq": "/usr/local/bin/randseq", "synteny_block.py": "/usr/local/bin/synteny_block.py", "zipcloak": "/usr/local/bin/zipcloak", "zipnote": "/usr/local/bin/zipnote", "zipsplit": "/usr/local/bin/zipsplit", "zip": "/usr/local/bin/zip", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "igraph": "/usr/local/bin/igraph", "markdown-it": "/usr/local/bin/markdown-it", "stone": "/usr/local/bin/stone", "seqtk": "/usr/local/bin/seqtk", "tar": "/usr/local/bin/tar", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ntsynt.
@@ -76,7 +77,7 @@ $ shpc install quay.io/biocontainers/ntsynt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ntsynt:1.0.0--py38h2494328_1
+$ shpc install quay.io/biocontainers/ntsynt:1.0.1--py39h1f90b4d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -88,8 +89,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ntsynt/1.0.0--py38h2494328_1
-$ module help quay.io/biocontainers/ntsynt/1.0.0--py38h2494328_1
+$ module load quay.io/biocontainers/ntsynt/1.0.1--py39h1f90b4d_0
+$ module help quay.io/biocontainers/ntsynt/1.0.1--py39h1f90b4d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
