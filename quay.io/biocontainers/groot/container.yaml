@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/groot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for groot
 latest:
-  1.1.2--hef68116_1: sha256:0f6fafab0423019c06fe8dafb8b8760de1ca254e1ac89a2bbffb072add276a20
+  1.1.2--heaae5f8_3: sha256:e52404e318ee76e3d6cb379858dfca15a67d1f911c64c415d71c8292bda6959e
 tags:
   1.1.2--hef68116_1: sha256:0f6fafab0423019c06fe8dafb8b8760de1ca254e1ac89a2bbffb072add276a20
+  1.1.2--heaae5f8_3: sha256:e52404e318ee76e3d6cb379858dfca15a67d1f911c64c415d71c8292bda6959e
 docker: quay.io/biocontainers/groot
 aliases:
   groot: /usr/local/bin/groot

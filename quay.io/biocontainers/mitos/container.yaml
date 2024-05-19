@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/mitos
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mitos
 latest:
-  2.1.8--pyhdfd78af_0: sha256:99060b9d898d62f3d0e32cdb8bd39edff496d7f27f2c02a705527adc3c46ff4f
+  2.1.9--pyhdfd78af_0: sha256:b4fd792cee016fdadfac7a1d51de10fd957c2e17e939dd8e262d835fb0fbc25f
 tags:
   2.1.0--pyhdfd78af_0: sha256:5a17df47ea636c4fd46f2b7cd173e8551446228b4baca21dc20392b1d43503d9
   2.1.3--pyhdfd78af_0: sha256:3b596a3d0cbb57946e1d0aa886cf9b38e52c422f8fc4e4e6d767e101baeb1483
@@ -10,6 +10,7 @@ tags:
   2.1.7--pyhdfd78af_0: sha256:2bde03061de290547f6886db226cd947fab73403ff3414647fba483d4b64b497
   2.1.7--pyhdfd78af_1: sha256:2447475c09bf7637a74f63037d833039ba1c6387ecfdff606e367310a03b1224
   2.1.8--pyhdfd78af_0: sha256:99060b9d898d62f3d0e32cdb8bd39edff496d7f27f2c02a705527adc3c46ff4f
+  2.1.9--pyhdfd78af_0: sha256:b4fd792cee016fdadfac7a1d51de10fd957c2e17e939dd8e262d835fb0fbc25f
 docker: quay.io/biocontainers/mitos
 aliases:
   analyse.py: /usr/local/bin/analyse.py
