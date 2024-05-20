@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ska2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ska2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ska2/container.yaml"
-updated_at: "2024-05-19 02:40:11.531756"
+updated_at: "2024-05-20 02:40:19.313714"
 latest: "0.3.7--h4349ce8_1"
 container_url: "https://biocontainers.pro/tools/ska2"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vnl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vnl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vnl/container.yaml"
-updated_at: "2024-05-19 02:45:38.588966"
+updated_at: "2024-05-20 02:45:13.427586"
 latest: "1.17.0--0"
 container_url: "https://biocontainers.pro/tools/vnl"
 

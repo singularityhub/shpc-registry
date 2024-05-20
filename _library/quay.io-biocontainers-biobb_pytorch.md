@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobb_pytorch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_pytorch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_pytorch/container.yaml"
-updated_at: "2024-05-19 03:21:06.118609"
-latest: "4.1.0--pyhad2cae4_0"
+updated_at: "2024-05-20 03:16:07.936969"
+latest: "4.1.3--pyhad2cae4_0"
 container_url: "https://biocontainers.pro/tools/biobb_pytorch"
 aliases:
  - "apply_mdae"
@@ -39,8 +39,9 @@ aliases:
  - "normalizer"
 versions:
  - "4.1.0--pyhad2cae4_0"
+ - "4.1.3--pyhad2cae4_0"
 description: "singularity registry hpc automated addition for biobb_pytorch"
-config: {"url": "https://biocontainers.pro/tools/biobb_pytorch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biobb_pytorch", "latest": {"4.1.0--pyhad2cae4_0": "sha256:ec36144db9ee879b1e7d320db7658320aa40d67ace5d30fa7490c3d290cd2c5d"}, "tags": {"4.1.0--pyhad2cae4_0": "sha256:ec36144db9ee879b1e7d320db7658320aa40d67ace5d30fa7490c3d290cd2c5d"}, "docker": "quay.io/biocontainers/biobb_pytorch", "aliases": {"apply_mdae": "/usr/local/bin/apply_mdae", "protoc-25.1.0": "/usr/local/bin/protoc-25.1.0", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "train_mdae": "/usr/local/bin/train_mdae", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "protoc": "/usr/local/bin/protoc", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_pytorch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biobb_pytorch", "latest": {"4.1.3--pyhad2cae4_0": "sha256:e946850ffcae0e4af6a5026d21bbf717ab31f2972c04d72fae42dbcfe93159f3"}, "tags": {"4.1.0--pyhad2cae4_0": "sha256:ec36144db9ee879b1e7d320db7658320aa40d67ace5d30fa7490c3d290cd2c5d", "4.1.3--pyhad2cae4_0": "sha256:e946850ffcae0e4af6a5026d21bbf717ab31f2972c04d72fae42dbcfe93159f3"}, "docker": "quay.io/biocontainers/biobb_pytorch", "aliases": {"apply_mdae": "/usr/local/bin/apply_mdae", "protoc-25.1.0": "/usr/local/bin/protoc-25.1.0", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "train_mdae": "/usr/local/bin/train_mdae", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "protoc": "/usr/local/bin/protoc", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_pytorch.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/biobb_pytorch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobb_pytorch:4.1.0--pyhad2cae4_0
+$ shpc install quay.io/biocontainers/biobb_pytorch:4.1.3--pyhad2cae4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobb_pytorch/4.1.0--pyhad2cae4_0
-$ module help quay.io/biocontainers/biobb_pytorch/4.1.0--pyhad2cae4_0
+$ module load quay.io/biocontainers/biobb_pytorch/4.1.3--pyhad2cae4_0
+$ module help quay.io/biocontainers/biobb_pytorch/4.1.3--pyhad2cae4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dsb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dsb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dsb/container.yaml"
-updated_at: "2024-05-19 02:46:09.321022"
+updated_at: "2024-05-20 02:45:39.569686"
 latest: "1.0.3--r43h3121a25_0"
 container_url: "https://biocontainers.pro/tools/r-dsb"
 aliases:
