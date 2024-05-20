@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gemini
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gemini
 latest:
-  0.30.2--py27h6a6cfb3_5: sha256:373181e58cfde76f65811879a26fcc37d289c8f4d76bdc8ec72cc79d1a0a0396
+  0.30.2--py38h47c4b52_6: sha256:6832f7363cbfb39f716f9bfef6c0518bf46d326433d3d6e12d78389e1eb4aa3f
 tags:
   0.30.2--py27h6a6cfb3_5: sha256:373181e58cfde76f65811879a26fcc37d289c8f4d76bdc8ec72cc79d1a0a0396
+  0.30.2--py38h47c4b52_6: sha256:6832f7363cbfb39f716f9bfef6c0518bf46d326433d3d6e12d78389e1eb4aa3f
 docker: quay.io/biocontainers/gemini
 aliases:
   bottle.py: /usr/local/bin/bottle.py

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/hicmatrix
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hicmatrix
 latest:
-  17.1--pyhdfd78af_0: sha256:8c73244e840e6a4f3ae882a273fdecf96515db1449ce697e023550716695ed0c
+  17.2--pyhdfd78af_0: sha256:d32e808cd0096a67408759cdd3971cf4acac7134544177b7284d5ac0d4fa1e02
 tags:
   2.2--pyh24bf2e0_1: sha256:c523832375604f64607bb264aaa5f20bd507ac9a8274a5cecbe3b633dd09caea
   16--pyhdfd78af_0: sha256:78597a8192d09d04f9ce84cb47c20130d7547a4e31d48f10c0b7e7a6b1582deb
@@ -12,6 +12,8 @@ tags:
   12--py_0: sha256:26a660a0f9ce73ec185751345fd42f01fd3ab5c24ca2df62085827788e9feb27
   17--pyhdfd78af_0: sha256:5c8f3f653262a45254951bd64f2b4d46131f2dbc99482918deb5fe7dbd64e988
   17.1--pyhdfd78af_0: sha256:8c73244e840e6a4f3ae882a273fdecf96515db1449ce697e023550716695ed0c
+  17.2--pyhdfd78af_0: sha256:d32e808cd0096a67408759cdd3971cf4acac7134544177b7284d5ac0d4fa1e02
+  17.1--pyhdfd78af_1: sha256:6b0700093919740b1ec3c3bada33b62b7d5b01f87c15eeca8ee67f644be064ce
 docker: quay.io/biocontainers/hicmatrix
 aliases:
   dask-mpi: /usr/local/bin/dask-mpi
