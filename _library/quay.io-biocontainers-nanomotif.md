@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanomotif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanomotif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanomotif/container.yaml"
-updated_at: "2024-05-21 02:55:45.952407"
+updated_at: "2024-05-21 03:07:31.742899"
 latest: "0.1.20--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/nanomotif"
 aliases:

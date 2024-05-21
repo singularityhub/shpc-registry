@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-abarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-abarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-abarray/container.yaml"
-updated_at: "2024-05-21 02:48:45.208127"
+updated_at: "2024-05-21 03:00:38.380295"
 latest: "1.70.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-abarray"
 

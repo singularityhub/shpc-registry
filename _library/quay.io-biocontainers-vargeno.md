@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vargeno"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vargeno/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vargeno/container.yaml"
-updated_at: "2024-05-21 02:30:41.643674"
+updated_at: "2024-05-21 02:43:09.339193"
 latest: "1.0.3--h4ac6f70_5"
 container_url: "https://biocontainers.pro/tools/vargeno"
 aliases:

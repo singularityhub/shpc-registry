@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spatialomicsoverlay"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spatialomicsoverlay/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spatialomicsoverlay/container.yaml"
-updated_at: "2024-05-21 02:46:24.842054"
+updated_at: "2024-05-21 02:58:20.185834"
 latest: "1.2.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spatialomicsoverlay"
 aliases:
