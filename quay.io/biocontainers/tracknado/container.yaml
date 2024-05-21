@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/tracknado
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tracknado
 latest:
-  0.2.3--pyhdfd78af_0: sha256:28cc0622966ce1a73c58e3f1521aed6bd328a6fe9b8f654ea0003e5dd44d886f
+  0.2.4--pyhdfd78af_0: sha256:6739e3868471ac857dbd432dcc9e2497b5af2c0e77bf276d3f5ab1764a942233
 tags:
   0.2.3--pyhdfd78af_0: sha256:28cc0622966ce1a73c58e3f1521aed6bd328a6fe9b8f654ea0003e5dd44d886f
+  0.2.4--pyhdfd78af_0: sha256:6739e3868471ac857dbd432dcc9e2497b5af2c0e77bf276d3f5ab1764a942233
 docker: quay.io/biocontainers/tracknado
 aliases:
   cookiecutter: /usr/local/bin/cookiecutter

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/wise2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for wise2
 latest:
-  2.4.1--h5c1b0a6_4: sha256:cab57c48ef42f76bc933afad56af4a14ab9664c8ffe1d968e3c4cad739ebc906
+  2.4.1--h5c1b0a6_5: sha256:3635bd61e101cc0897d077d5da7a111c3e5cdcd78eb3541d36f17a1742dda2cf
 tags:
   2.4.1--h40d77a6_1: sha256:9541d66cc07102b1cbb0b8252f3cd8fe2d575788d55248b1a9d5b899d7223059
   2.4.1--h671cb6e_2: sha256:907a57932131980e099f625c821284af8511caa603bba04b8c0f3a5399f43432
   2.4.1--h5c1b0a6_4: sha256:cab57c48ef42f76bc933afad56af4a14ab9664c8ffe1d968e3c4cad739ebc906
+  2.4.1--h5c1b0a6_5: sha256:3635bd61e101cc0897d077d5da7a111c3e5cdcd78eb3541d36f17a1742dda2cf
 docker: quay.io/biocontainers/wise2
 aliases:
   dba: /usr/local/bin/dba

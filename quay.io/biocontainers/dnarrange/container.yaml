@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/dnarrange
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dnarrange
 latest:
-  1.6.1--pyh7cba7a3_0: sha256:f33ad7a8c171e3f858901a65df76361a29e7c82d0b79f3ae0df0de27c46bb716
+  1.6.2--pyh7cba7a3_0: sha256:eed13a804712f0b82f5fc2680da9c75b6a23a8381c5825e75de6296435047df4
 tags:
   1.5.3--pyh5e36f6f_0: sha256:1a0c04c0d9d8199965b44c2f22953e7521639ee28e1058fb4d0f60f876c93873
   1.6.1--pyh7cba7a3_0: sha256:f33ad7a8c171e3f858901a65df76361a29e7c82d0b79f3ae0df0de27c46bb716
+  1.6.2--pyh7cba7a3_0: sha256:eed13a804712f0b82f5fc2680da9c75b6a23a8381c5825e75de6296435047df4
 docker: quay.io/biocontainers/dnarrange
 aliases:
   dnarrange: /usr/local/bin/dnarrange
