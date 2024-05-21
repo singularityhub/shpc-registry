@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gemini"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gemini/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gemini/container.yaml"
-updated_at: "2024-05-20 02:34:12.548561"
-latest: "0.30.2--py27h6a6cfb3_5"
+updated_at: "2024-05-21 02:31:57.949652"
+latest: "0.30.2--py38h47c4b52_6"
 container_url: "https://biocontainers.pro/tools/gemini"
 aliases:
  - "bottle.py"
@@ -31,8 +31,9 @@ aliases:
  - "align_print_template.py"
 versions:
  - "0.30.2--py27h6a6cfb3_5"
+ - "0.30.2--py38h47c4b52_6"
 description: "shpc-registry automated BioContainers addition for gemini"
-config: {"url": "https://biocontainers.pro/tools/gemini", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gemini", "latest": {"0.30.2--py27h6a6cfb3_5": "sha256:373181e58cfde76f65811879a26fcc37d289c8f4d76bdc8ec72cc79d1a0a0396"}, "tags": {"0.30.2--py27h6a6cfb3_5": "sha256:373181e58cfde76f65811879a26fcc37d289c8f4d76bdc8ec72cc79d1a0a0396"}, "docker": "quay.io/biocontainers/gemini", "aliases": {"bottle.py": "/usr/local/bin/bottle.py", "dask-mpi": "/usr/local/bin/dask-mpi", "dask-remote": "/usr/local/bin/dask-remote", "dask-submit": "/usr/local/bin/dask-submit", "gemini": "/usr/local/bin/gemini", "grabix": "/usr/local/bin/grabix", "ipcluster": "/usr/local/bin/ipcluster", "ipcontroller": "/usr/local/bin/ipcontroller", "ipengine": "/usr/local/bin/ipengine", "iptest2": "/usr/local/bin/iptest2", "ipython2": "/usr/local/bin/ipython2", "unidecode": "/usr/local/bin/unidecode", "cyvcf2": "/usr/local/bin/cyvcf2", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py"}}
+config: {"url": "https://biocontainers.pro/tools/gemini", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gemini", "latest": {"0.30.2--py38h47c4b52_6": "sha256:6832f7363cbfb39f716f9bfef6c0518bf46d326433d3d6e12d78389e1eb4aa3f"}, "tags": {"0.30.2--py27h6a6cfb3_5": "sha256:373181e58cfde76f65811879a26fcc37d289c8f4d76bdc8ec72cc79d1a0a0396", "0.30.2--py38h47c4b52_6": "sha256:6832f7363cbfb39f716f9bfef6c0518bf46d326433d3d6e12d78389e1eb4aa3f"}, "docker": "quay.io/biocontainers/gemini", "aliases": {"bottle.py": "/usr/local/bin/bottle.py", "dask-mpi": "/usr/local/bin/dask-mpi", "dask-remote": "/usr/local/bin/dask-remote", "dask-submit": "/usr/local/bin/dask-submit", "gemini": "/usr/local/bin/gemini", "grabix": "/usr/local/bin/grabix", "ipcluster": "/usr/local/bin/ipcluster", "ipcontroller": "/usr/local/bin/ipcontroller", "ipengine": "/usr/local/bin/ipengine", "iptest2": "/usr/local/bin/iptest2", "ipython2": "/usr/local/bin/ipython2", "unidecode": "/usr/local/bin/unidecode", "cyvcf2": "/usr/local/bin/cyvcf2", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gemini.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/gemini
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gemini:0.30.2--py27h6a6cfb3_5
+$ shpc install quay.io/biocontainers/gemini:0.30.2--py38h47c4b52_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gemini/0.30.2--py27h6a6cfb3_5
-$ module help quay.io/biocontainers/gemini/0.30.2--py27h6a6cfb3_5
+$ module load quay.io/biocontainers/gemini/0.30.2--py38h47c4b52_6
+$ module help quay.io/biocontainers/gemini/0.30.2--py38h47c4b52_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

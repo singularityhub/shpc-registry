@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pronto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pronto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pronto/container.yaml"
-updated_at: "2024-05-20 02:35:21.220856"
+updated_at: "2024-05-21 02:33:12.475522"
 latest: "2.5.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pronto"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/intervaltree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/intervaltree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/intervaltree/container.yaml"
-updated_at: "2024-05-20 03:15:56.751740"
+updated_at: "2024-05-21 03:15:37.654960"
 latest: "2.1.0--py36_0"
 container_url: "https://biocontainers.pro/tools/intervaltree"
 aliases:

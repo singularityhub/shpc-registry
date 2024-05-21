@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-tabs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-tabs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-tabs/container.yaml"
-updated_at: "2024-05-20 02:44:19.965748"
+updated_at: "2024-05-21 02:42:41.517249"
 latest: "2013.0523--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-text-tabs"
 

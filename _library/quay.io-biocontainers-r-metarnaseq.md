@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-metarnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metarnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metarnaseq/container.yaml"
-updated_at: "2024-05-20 02:32:36.552033"
+updated_at: "2024-05-21 02:30:12.642887"
 latest: "1.0.2--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-metarnaseq"
 aliases:

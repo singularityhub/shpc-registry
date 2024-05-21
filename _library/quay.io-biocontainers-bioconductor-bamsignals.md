@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bamsignals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bamsignals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bamsignals/container.yaml"
-updated_at: "2024-05-20 03:07:47.091900"
-latest: "1.34.0--r43hf17093f_0"
+updated_at: "2024-05-21 03:07:06.280142"
+latest: "1.34.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-bamsignals"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.30.0--r42hf17093f_1"
  - "1.32.0--r43hf17093f_0"
  - "1.34.0--r43hf17093f_0"
+ - "1.34.0--r43hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-bamsignals"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bamsignals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bamsignals", "latest": {"1.34.0--r43hf17093f_0": "sha256:589610f35590a1b58569bef05016fbc167dd607f8c70686da74ed3919a695e5f"}, "tags": {"1.26.0--r41hc247a5b_2": "sha256:d01915ae50dcaf030eb3cc4ebc52e709699d1fb3c54897a7c386b50a4b7fb573", "1.30.0--r42hc247a5b_0": "sha256:9e034e37b3b8c3442198a100acae14b78b4b318d6d948795c8b813cf657e62e2", "1.30.0--r42hf17093f_1": "sha256:8b6cd66bd14c13411a787b859ddc4d50ca6dbc87b893e1f0ecfd3f00eedac23b", "1.32.0--r43hf17093f_0": "sha256:e50ad2b81e5f5447f9fc3adaf2e1ed50b075cde3c0da1b9483026d77b4edae6f", "1.34.0--r43hf17093f_0": "sha256:589610f35590a1b58569bef05016fbc167dd607f8c70686da74ed3919a695e5f"}, "docker": "quay.io/biocontainers/bioconductor-bamsignals"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bamsignals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bamsignals", "latest": {"1.34.0--r43hf17093f_1": "sha256:cf42a72686eb5356afd2fde431a936e6a67a02dcf89cda4b4ce2eb5194123a6b"}, "tags": {"1.26.0--r41hc247a5b_2": "sha256:d01915ae50dcaf030eb3cc4ebc52e709699d1fb3c54897a7c386b50a4b7fb573", "1.30.0--r42hc247a5b_0": "sha256:9e034e37b3b8c3442198a100acae14b78b4b318d6d948795c8b813cf657e62e2", "1.30.0--r42hf17093f_1": "sha256:8b6cd66bd14c13411a787b859ddc4d50ca6dbc87b893e1f0ecfd3f00eedac23b", "1.32.0--r43hf17093f_0": "sha256:e50ad2b81e5f5447f9fc3adaf2e1ed50b075cde3c0da1b9483026d77b4edae6f", "1.34.0--r43hf17093f_0": "sha256:589610f35590a1b58569bef05016fbc167dd607f8c70686da74ed3919a695e5f", "1.34.0--r43hf17093f_1": "sha256:cf42a72686eb5356afd2fde431a936e6a67a02dcf89cda4b4ce2eb5194123a6b"}, "docker": "quay.io/biocontainers/bioconductor-bamsignals"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bamsignals.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bamsignals
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bamsignals:1.34.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-bamsignals:1.34.0--r43hf17093f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bamsignals/1.34.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-bamsignals/1.34.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-bamsignals/1.34.0--r43hf17093f_1
+$ module help quay.io/biocontainers/bioconductor-bamsignals/1.34.0--r43hf17093f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

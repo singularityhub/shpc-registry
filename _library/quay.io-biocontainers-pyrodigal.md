@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyrodigal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyrodigal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyrodigal/container.yaml"
-updated_at: "2024-05-20 02:44:28.118261"
+updated_at: "2024-05-21 02:42:50.036486"
 latest: "3.3.0--py39hf95cd2a_1"
 container_url: "https://biocontainers.pro/tools/pyrodigal"
 aliases:

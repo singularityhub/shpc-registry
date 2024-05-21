@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/assemblytics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/assemblytics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/assemblytics/container.yaml"
-updated_at: "2024-05-20 02:51:20.680549"
+updated_at: "2024-05-21 02:49:58.823208"
 latest: "1.2.1--0"
 container_url: "https://biocontainers.pro/tools/assemblytics"
 aliases:
