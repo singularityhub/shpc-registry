@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cmappy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cmappy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cmappy/container.yaml"
-updated_at: "2024-05-21 03:07:04.710430"
-latest: "4.0.1--py39h1f90b4d_5"
+updated_at: "2024-05-22 02:55:15.676082"
+latest: "4.0.1--py38h2494328_6"
 container_url: "https://biocontainers.pro/tools/cmappy"
 aliases:
  - "concat"
@@ -26,8 +26,9 @@ versions:
  - "4.0.1--py36h2ad2d48_3"
  - "4.0.1--py39h1f90b4d_5"
  - "4.0.1--py38h2494328_5"
+ - "4.0.1--py38h2494328_6"
 description: "shpc-registry automated BioContainers addition for cmappy"
-config: {"url": "https://biocontainers.pro/tools/cmappy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cmappy", "latest": {"4.0.1--py39h1f90b4d_5": "sha256:2d43fe3a3c5151dd9051204527337ca5224df23b3ea46433141784bf28b83398"}, "tags": {"4.0.1--py36h2ad2d48_3": "sha256:c9d662975bca8b6407f524713286ae2cbb87f0e1089c3542e1e21c250e7daa51", "4.0.1--py39h1f90b4d_5": "sha256:2d43fe3a3c5151dd9051204527337ca5224df23b3ea46433141784bf28b83398", "4.0.1--py38h2494328_5": "sha256:f3b752dd4e92b9661cac071c2ed6188d17177a44476fc28ece25407fa6c9836f"}, "docker": "quay.io/biocontainers/cmappy", "aliases": {"concat": "/usr/local/bin/concat", "gct2gctx": "/usr/local/bin/gct2gctx", "gctx2gct": "/usr/local/bin/gctx2gct", "subset": "/usr/local/bin/subset", "f2py3.6": "/usr/local/bin/f2py3.6", "normalizer": "/usr/local/bin/normalizer", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/cmappy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cmappy", "latest": {"4.0.1--py38h2494328_6": "sha256:b44120780f163ab2137fde06f78a3e1bd7223aa059c67f242f25f9a3ce9d4c6d"}, "tags": {"4.0.1--py36h2ad2d48_3": "sha256:c9d662975bca8b6407f524713286ae2cbb87f0e1089c3542e1e21c250e7daa51", "4.0.1--py39h1f90b4d_5": "sha256:2d43fe3a3c5151dd9051204527337ca5224df23b3ea46433141784bf28b83398", "4.0.1--py38h2494328_5": "sha256:f3b752dd4e92b9661cac071c2ed6188d17177a44476fc28ece25407fa6c9836f", "4.0.1--py38h2494328_6": "sha256:b44120780f163ab2137fde06f78a3e1bd7223aa059c67f242f25f9a3ce9d4c6d"}, "docker": "quay.io/biocontainers/cmappy", "aliases": {"concat": "/usr/local/bin/concat", "gct2gctx": "/usr/local/bin/gct2gctx", "gctx2gct": "/usr/local/bin/gctx2gct", "subset": "/usr/local/bin/subset", "f2py3.6": "/usr/local/bin/f2py3.6", "normalizer": "/usr/local/bin/normalizer", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cmappy.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/cmappy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cmappy:4.0.1--py39h1f90b4d_5
+$ shpc install quay.io/biocontainers/cmappy:4.0.1--py38h2494328_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cmappy/4.0.1--py39h1f90b4d_5
-$ module help quay.io/biocontainers/cmappy/4.0.1--py39h1f90b4d_5
+$ module load quay.io/biocontainers/cmappy/4.0.1--py38h2494328_6
+$ module help quay.io/biocontainers/cmappy/4.0.1--py38h2494328_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "julia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/julia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/julia/container.yaml"
-updated_at: "2024-05-21 03:27:46.767736"
-latest: "1.10.2"
+updated_at: "2024-05-22 03:16:08.586975"
+latest: "1.10.3"
 container_url: "https://hub.docker.com/_/julia"
 aliases:
  - "julia"
@@ -20,8 +20,9 @@ versions:
  - "1.10.0"
  - "1.10.1"
  - "1.10.2"
+ - "1.10.3"
 description: "An interpreted, high-level, high-performance dynamic programming language for technical computing."
-config: {"docker": "julia", "url": "https://hub.docker.com/_/julia", "maintainer": "@marcodelapierre", "description": "An interpreted, high-level, high-performance dynamic programming language for technical computing.", "latest": {"1.10.2": "sha256:f45a60818bc33c54e6b71827d76b2216896bc77e7b35b5e3b0d077e8a86baf2b"}, "tags": {"1.8.3": "sha256:172938f81c0a5f607a71c6babeb6f0d0aac7a9bb3d43b000734b80f764748448", "1.8.5": "sha256:c9c13e38ea7ef6a893b97834e75f00fec4fc07b24072088e1360171cb192ebb0", "1.9.0": "sha256:a4eba1f0c1c2076eef737f5f441c80de87997faab982e816fd256e50326c6c8d", "1.9.1": "sha256:9313aec843ab5395eb0898b004737497da2b7ed50d72b53fc94dfca014af7d51", "1.9.2": "sha256:f4ec5401b88c20c01565ad55b826821f987369ab461dedb72706d95798d4ddb0", "1.9.3": "sha256:2bb36ee0d8b44fb2a1e034fa4e636c66ccc713fa0a41ca23b5d9207b837cb41a", "1.9.4": "sha256:829ddd53a80d14cfc02bae02198254ddef1de292c7cd6af694312fa8ad341290", "1.10.0": "sha256:3c56c7763e097e17ef158dd7e72acaa3284d51dbf111adae0eccd5782e78bdbc", "1.10.1": "sha256:2d992bcdfd817a11bfa70918879674b62dcd0a497e079116605c33dc9979589e", "1.10.2": "sha256:f45a60818bc33c54e6b71827d76b2216896bc77e7b35b5e3b0d077e8a86baf2b"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"julia": "/usr/local/julia/bin/julia"}}
+config: {"docker": "julia", "url": "https://hub.docker.com/_/julia", "maintainer": "@marcodelapierre", "description": "An interpreted, high-level, high-performance dynamic programming language for technical computing.", "latest": {"1.10.3": "sha256:11204c34c692c6f18754e6f5cb22bb1b57eb9f7a7180182f3cc76f665b604421"}, "tags": {"1.8.3": "sha256:172938f81c0a5f607a71c6babeb6f0d0aac7a9bb3d43b000734b80f764748448", "1.8.5": "sha256:c9c13e38ea7ef6a893b97834e75f00fec4fc07b24072088e1360171cb192ebb0", "1.9.0": "sha256:a4eba1f0c1c2076eef737f5f441c80de87997faab982e816fd256e50326c6c8d", "1.9.1": "sha256:9313aec843ab5395eb0898b004737497da2b7ed50d72b53fc94dfca014af7d51", "1.9.2": "sha256:f4ec5401b88c20c01565ad55b826821f987369ab461dedb72706d95798d4ddb0", "1.9.3": "sha256:2bb36ee0d8b44fb2a1e034fa4e636c66ccc713fa0a41ca23b5d9207b837cb41a", "1.9.4": "sha256:829ddd53a80d14cfc02bae02198254ddef1de292c7cd6af694312fa8ad341290", "1.10.0": "sha256:3c56c7763e097e17ef158dd7e72acaa3284d51dbf111adae0eccd5782e78bdbc", "1.10.1": "sha256:2d992bcdfd817a11bfa70918879674b62dcd0a497e079116605c33dc9979589e", "1.10.2": "sha256:63ae8a0184a85382e68b0af0a1d5491db66cb490059b1ab2a76b831e43bc7147", "1.10.3": "sha256:11204c34c692c6f18754e6f5cb22bb1b57eb9f7a7180182f3cc76f665b604421"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"julia": "/usr/local/julia/bin/julia"}}
 ---
 
 This module is a singularity container wrapper for julia.
@@ -36,7 +37,7 @@ $ shpc install julia
 Or a specific version:
 
 ```bash
-$ shpc install julia:1.10.2
+$ shpc install julia:1.10.3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load julia/1.10.2
-$ module help julia/1.10.2
+$ module load julia/1.10.3
+$ module help julia/1.10.3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

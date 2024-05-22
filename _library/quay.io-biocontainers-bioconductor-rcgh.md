@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rcgh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcgh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcgh/container.yaml"
-updated_at: "2024-05-21 03:09:51.840413"
+updated_at: "2024-05-22 02:58:02.035137"
 latest: "1.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcgh"
 aliases:

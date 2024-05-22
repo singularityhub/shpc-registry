@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/segalign-full"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/segalign-full/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/segalign-full/container.yaml"
-updated_at: "2024-05-21 02:55:53.325698"
-latest: "0.1.2--hdfd78af_1"
+updated_at: "2024-05-22 02:44:06.245152"
+latest: "0.1.2.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/segalign-full"
 aliases:
  - "lastz"
@@ -43,8 +43,9 @@ aliases:
 versions:
  - "0.1.2--hdfd78af_1"
  - "0.1.2.1--hdfd78af_0"
+ - "0.1.2.2--hdfd78af_0"
 description: "singularity registry hpc automated addition for segalign-full"
-config: {"url": "https://biocontainers.pro/tools/segalign-full", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for segalign-full", "latest": {"0.1.2--hdfd78af_1": "sha256:9dc369f7d2847366c58c1ec3460a6f31bd75216ef5c7e9201997fef44867b21d"}, "tags": {"0.1.2--hdfd78af_1": "sha256:9dc369f7d2847366c58c1ec3460a6f31bd75216ef5c7e9201997fef44867b21d", "0.1.2.1--hdfd78af_0": "sha256:9ed4c344d030c38b5f14dea0227a77ac148b8d4468d51ba91a19405ca6380c31"}, "docker": "quay.io/biocontainers/segalign-full", "aliases": {"lastz": "/usr/local/bin/lastz", "lastz_32": "/usr/local/bin/lastz_32", "lastz_D": "/usr/local/bin/lastz_D", "run_segalign": "/usr/local/bin/run_segalign", "run_segalign_repeat_masker": "/usr/local/bin/run_segalign_repeat_masker", "segalign": "/usr/local/bin/segalign", "segalign_repeat_masker": "/usr/local/bin/segalign_repeat_masker", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "faToTwoBit": "/usr/local/bin/faToTwoBit", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd", "df": "/usr/local/bin/df", "dir": "/usr/local/bin/dir"}}
+config: {"url": "https://biocontainers.pro/tools/segalign-full", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for segalign-full", "latest": {"0.1.2.2--hdfd78af_0": "sha256:e62ac55a6f57359ae61e1394956170b7fa2f0a13d3dab7cef38ed7f02a019281"}, "tags": {"0.1.2--hdfd78af_1": "sha256:9dc369f7d2847366c58c1ec3460a6f31bd75216ef5c7e9201997fef44867b21d", "0.1.2.1--hdfd78af_0": "sha256:9ed4c344d030c38b5f14dea0227a77ac148b8d4468d51ba91a19405ca6380c31", "0.1.2.2--hdfd78af_0": "sha256:e62ac55a6f57359ae61e1394956170b7fa2f0a13d3dab7cef38ed7f02a019281"}, "docker": "quay.io/biocontainers/segalign-full", "aliases": {"lastz": "/usr/local/bin/lastz", "lastz_32": "/usr/local/bin/lastz_32", "lastz_D": "/usr/local/bin/lastz_D", "run_segalign": "/usr/local/bin/run_segalign", "run_segalign_repeat_masker": "/usr/local/bin/run_segalign_repeat_masker", "segalign": "/usr/local/bin/segalign", "segalign_repeat_masker": "/usr/local/bin/segalign_repeat_masker", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "faToTwoBit": "/usr/local/bin/faToTwoBit", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd", "df": "/usr/local/bin/df", "dir": "/usr/local/bin/dir"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/segalign-full.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/segalign-full
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/segalign-full:0.1.2--hdfd78af_1
+$ shpc install quay.io/biocontainers/segalign-full:0.1.2.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/segalign-full/0.1.2--hdfd78af_1
-$ module help quay.io/biocontainers/segalign-full/0.1.2--hdfd78af_1
+$ module load quay.io/biocontainers/segalign-full/0.1.2.2--hdfd78af_0
+$ module help quay.io/biocontainers/segalign-full/0.1.2.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-semanticdiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-semanticdiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-semanticdiff/container.yaml"
-updated_at: "2024-05-21 03:02:22.872227"
+updated_at: "2024-05-22 02:50:34.903668"
 latest: "1.0007--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-xml-semanticdiff"
 aliases:
