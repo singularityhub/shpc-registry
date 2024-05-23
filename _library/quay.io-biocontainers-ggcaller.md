@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ggcaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ggcaller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ggcaller/container.yaml"
-updated_at: "2024-05-22 02:52:27.848789"
+updated_at: "2024-05-23 02:52:13.787706"
 latest: "1.3.4--py310h54719a5_0"
 container_url: "https://biocontainers.pro/tools/ggcaller"
 aliases:

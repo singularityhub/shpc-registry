@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bodymaprat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bodymaprat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bodymaprat/container.yaml"
-updated_at: "2024-05-22 03:05:20.193770"
+updated_at: "2024-05-23 03:05:14.454250"
 latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bodymaprat"
 aliases:

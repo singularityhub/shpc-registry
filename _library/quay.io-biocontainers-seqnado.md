@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seqnado"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqnado/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqnado/container.yaml"
-updated_at: "2024-05-22 03:13:26.236676"
-latest: "0.5.0--pyhdfd78af_0"
+updated_at: "2024-05-23 03:13:31.087993"
+latest: "0.5.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/seqnado"
 aliases:
  - "cnitool"
@@ -51,8 +51,9 @@ versions:
  - "0.4.1--pyhdfd78af_0"
  - "0.4.3--pyhdfd78af_0"
  - "0.5.0--pyhdfd78af_0"
+ - "0.5.1--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for seqnado"
-config: {"url": "https://biocontainers.pro/tools/seqnado", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqnado", "latest": {"0.5.0--pyhdfd78af_0": "sha256:d8b26068dff3ac7033071c0ae319142d6b706d9605350dcf5b3ae0f143a6a6bf"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:c36716cc66b2388ffc68a64a3e18af733b536056b3a3d4841daa27db093f2587", "0.4.3--pyhdfd78af_0": "sha256:ff74ac2b62ceeef07f5c9fc4cd132e03c7b123346721c506a6be662b2b95227a", "0.5.0--pyhdfd78af_0": "sha256:d8b26068dff3ac7033071c0ae319142d6b706d9605350dcf5b3ae0f143a6a6bf"}, "docker": "quay.io/biocontainers/seqnado", "aliases": {"cnitool": "/usr/local/bin/cnitool", "cookiecutter": "/usr/local/bin/cookiecutter", "mksquashfs": "/usr/local/bin/mksquashfs", "protoc-25.2.0": "/usr/local/bin/protoc-25.2.0", "run-singularity": "/usr/local/bin/run-singularity", "scmp_sys_resolver": "/usr/local/bin/scmp_sys_resolver", "seqnado": "/usr/local/bin/seqnado", "seqnado-config": "/usr/local/bin/seqnado-config", "seqnado-design": "/usr/local/bin/seqnado-design", "singularity": "/usr/local/bin/singularity", "sqfscat": "/usr/local/bin/sqfscat", "sqfstar": "/usr/local/bin/sqfstar", "tracknado": "/usr/local/bin/tracknado", "unsquashfs": "/usr/local/bin/unsquashfs", "slugify": "/usr/local/bin/slugify", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "markdown-it": "/usr/local/bin/markdown-it", "stone": "/usr/local/bin/stone", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "jp.py": "/usr/local/bin/jp.py", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen"}}
+config: {"url": "https://biocontainers.pro/tools/seqnado", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqnado", "latest": {"0.5.1--pyhdfd78af_1": "sha256:c1b29077b5230d950e147af872df050d32f0cf570e945b54d4d1708533c18149"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:c36716cc66b2388ffc68a64a3e18af733b536056b3a3d4841daa27db093f2587", "0.4.3--pyhdfd78af_0": "sha256:ff74ac2b62ceeef07f5c9fc4cd132e03c7b123346721c506a6be662b2b95227a", "0.5.0--pyhdfd78af_0": "sha256:d8b26068dff3ac7033071c0ae319142d6b706d9605350dcf5b3ae0f143a6a6bf", "0.5.1--pyhdfd78af_1": "sha256:c1b29077b5230d950e147af872df050d32f0cf570e945b54d4d1708533c18149"}, "docker": "quay.io/biocontainers/seqnado", "aliases": {"cnitool": "/usr/local/bin/cnitool", "cookiecutter": "/usr/local/bin/cookiecutter", "mksquashfs": "/usr/local/bin/mksquashfs", "protoc-25.2.0": "/usr/local/bin/protoc-25.2.0", "run-singularity": "/usr/local/bin/run-singularity", "scmp_sys_resolver": "/usr/local/bin/scmp_sys_resolver", "seqnado": "/usr/local/bin/seqnado", "seqnado-config": "/usr/local/bin/seqnado-config", "seqnado-design": "/usr/local/bin/seqnado-design", "singularity": "/usr/local/bin/singularity", "sqfscat": "/usr/local/bin/sqfscat", "sqfstar": "/usr/local/bin/sqfstar", "tracknado": "/usr/local/bin/tracknado", "unsquashfs": "/usr/local/bin/unsquashfs", "slugify": "/usr/local/bin/slugify", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "markdown-it": "/usr/local/bin/markdown-it", "stone": "/usr/local/bin/stone", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "jp.py": "/usr/local/bin/jp.py", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqnado.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/seqnado
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqnado:0.5.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/seqnado:0.5.1--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqnado/0.5.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/seqnado/0.5.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/seqnado/0.5.1--pyhdfd78af_1
+$ module help quay.io/biocontainers/seqnado/0.5.1--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
