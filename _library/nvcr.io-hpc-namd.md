@@ -4,8 +4,8 @@ name:  "nvcr.io/hpc/namd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/namd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/hpc/namd/container.yaml"
-updated_at: "2024-05-23 03:17:10.020831"
-latest: "3.0-alpha11"
+updated_at: "2024-05-24 03:18:28.307978"
+latest: "sha256-cd62d5f2a47a16b6a8d0b3fb735b0a33d0c8b2fa89da950bfcf29bd187b11176.sig"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:lammps/tags"
 aliases:
  - "charmrun"
@@ -21,8 +21,9 @@ versions:
  - "3.0-alpha3-singlenode-x86_64"
  - "3.0-alpha9-singlenode"
  - "3.0-alpha11"
+ - "sha256-cd62d5f2a47a16b6a8d0b3fb735b0a33d0c8b2fa89da950bfcf29bd187b11176.sig"
 description: "NAMD is a parallel molecular dynamics code designed for high-performance simulation of large biomolecular systems. NAMD uses the popular molecular graphics program VMD for simulation setup and trajectory analysis, but is also file-comp atible with AMBER, CHARMM, and X-PLOR."
-config: {"docker": "nvcr.io/hpc/namd", "url": "https://ngc.nvidia.com/catalog/containers/hpc:lammps/tags", "maintainer": "@vsoch", "description": "NAMD is a parallel molecular dynamics code designed for high-performance simulation of large biomolecular systems. NAMD uses the popular molecular graphics program VMD for simulation setup and trajectory analysis, but is also file-comp atible with AMBER, CHARMM, and X-PLOR.", "latest": {"3.0-alpha11": "sha256:f0bbd27b2a5d28f2e39418c6b2b5cad8f7895dad51d8bb040442a3776431b128"}, "tags": {"3.0-alpha3-singlenode": "sha256:9db0e23f0f53dd200568cc57f3618971378173555d30d3158ec41c6df8aee15e", "3.0-alpha3-singlenode-arm64": "sha256:3743f24e1bd353296adef6c14127ae418716ef686f75c790d497f90150785d39", "3.0-alpha3-singlenode-x86_64": "sha256:040e38a36f467f6a2e61dd343f480e4c7c7a571b6072607922851214070a627e", "3.0-alpha9-singlenode": "sha256:05e7c1eeb167b9d4250f6d75aab5e1d23597b922cf9aed4eaadfd3c24068287d", "3.0-alpha11": "sha256:f0bbd27b2a5d28f2e39418c6b2b5cad8f7895dad51d8bb040442a3776431b128"}, "filter": ["^((?!arm).)*$"], "aliases": {"charmrun": "/usr/local/bin/charmrun", "flipbinpdb": "/usr/local/bin/flipbinpdb", "flipdcd": "/usr/local/bin/flipdcd", "namd3": "/usr/local/bin/namd3", "psfgen": "/usr/local/bin/psfgen", "sortreplicas": "/usr/local/bin/sortreplicas", "vmd": "/usr/local/bin/vmd"}, "features": {"gpu": true}}
+config: {"docker": "nvcr.io/hpc/namd", "url": "https://ngc.nvidia.com/catalog/containers/hpc:lammps/tags", "maintainer": "@vsoch", "description": "NAMD is a parallel molecular dynamics code designed for high-performance simulation of large biomolecular systems. NAMD uses the popular molecular graphics program VMD for simulation setup and trajectory analysis, but is also file-comp atible with AMBER, CHARMM, and X-PLOR.", "latest": {"sha256-cd62d5f2a47a16b6a8d0b3fb735b0a33d0c8b2fa89da950bfcf29bd187b11176.sig": "sha256:554fa1c05c0f4d13df6202a256c9d761ef27218e34173d965c6fd71b92e1eaea"}, "tags": {"3.0-alpha3-singlenode": "sha256:9db0e23f0f53dd200568cc57f3618971378173555d30d3158ec41c6df8aee15e", "3.0-alpha3-singlenode-arm64": "sha256:3743f24e1bd353296adef6c14127ae418716ef686f75c790d497f90150785d39", "3.0-alpha3-singlenode-x86_64": "sha256:040e38a36f467f6a2e61dd343f480e4c7c7a571b6072607922851214070a627e", "3.0-alpha9-singlenode": "sha256:05e7c1eeb167b9d4250f6d75aab5e1d23597b922cf9aed4eaadfd3c24068287d", "3.0-alpha11": "sha256:f0bbd27b2a5d28f2e39418c6b2b5cad8f7895dad51d8bb040442a3776431b128", "sha256-cd62d5f2a47a16b6a8d0b3fb735b0a33d0c8b2fa89da950bfcf29bd187b11176.sig": "sha256:554fa1c05c0f4d13df6202a256c9d761ef27218e34173d965c6fd71b92e1eaea"}, "filter": ["^((?!arm).)*$"], "aliases": {"charmrun": "/usr/local/bin/charmrun", "flipbinpdb": "/usr/local/bin/flipbinpdb", "flipdcd": "/usr/local/bin/flipdcd", "namd3": "/usr/local/bin/namd3", "psfgen": "/usr/local/bin/psfgen", "sortreplicas": "/usr/local/bin/sortreplicas", "vmd": "/usr/local/bin/vmd"}, "features": {"gpu": true}}
 ---
 
 This module is a singularity container wrapper for nvcr.io/hpc/namd.
@@ -37,7 +38,7 @@ $ shpc install nvcr.io/hpc/namd
 Or a specific version:
 
 ```bash
-$ shpc install nvcr.io/hpc/namd:3.0-alpha11
+$ shpc install nvcr.io/hpc/namd:sha256-cd62d5f2a47a16b6a8d0b3fb735b0a33d0c8b2fa89da950bfcf29bd187b11176.sig
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load nvcr.io/hpc/namd/3.0-alpha11
-$ module help nvcr.io/hpc/namd/3.0-alpha11
+$ module load nvcr.io/hpc/namd/sha256-cd62d5f2a47a16b6a8d0b3fb735b0a33d0c8b2fa89da950bfcf29bd187b11176.sig
+$ module help nvcr.io/hpc/namd/sha256-cd62d5f2a47a16b6a8d0b3fb735b0a33d0c8b2fa89da950bfcf29bd187b11176.sig
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

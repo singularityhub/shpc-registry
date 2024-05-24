@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pcapp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pcapp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pcapp/container.yaml"
-updated_at: "2024-05-23 03:07:42.222956"
+updated_at: "2024-05-24 03:08:53.606720"
 latest: "1.9_60--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-pcapp"
 aliases:
