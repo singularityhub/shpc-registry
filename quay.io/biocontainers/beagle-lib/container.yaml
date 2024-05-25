@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/beagle-lib
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for beagle-lib
 latest:
-  4.0.1--h4ac6f70_0: sha256:458424f5ebf99a6b5c431f68e11ce230797998421a823ee976df79771e6a746f
+  4.0.1--h4ac6f70_1: sha256:6b5c01abe4f718b8ca5456a6cadd90282d342555d3dc3aa330cd90d33f9ff097
 tags:
   4.0.0--h9f5acd7_0: sha256:026cbb53b3eb273e21e1cc409ecc19dbc2d62955cc9c9c24ebcafed07a4cd2a9
   4.0.0--h4ac6f70_2: sha256:e105775cb9b9ad34a66800e1b194d36f02bd17a337afedfa2c19c0ddf385c1cf
   4.0.1--h4ac6f70_0: sha256:458424f5ebf99a6b5c431f68e11ce230797998421a823ee976df79771e6a746f
+  4.0.1--h4ac6f70_1: sha256:6b5c01abe4f718b8ca5456a6cadd90282d342555d3dc3aa330cd90d33f9ff097
 docker: quay.io/biocontainers/beagle-lib
 aliases:
   cups-config: /usr/local/bin/cups-config
