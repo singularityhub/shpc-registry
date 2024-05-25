@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ichorcna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ichorcna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ichorcna/container.yaml"
-updated_at: "2024-05-24 02:49:20.231492"
+updated_at: "2024-05-25 02:47:27.261975"
 latest: "0.5.0--pl5321r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-ichorcna"
 aliases:
