@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-projectr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-projectr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-projectr/container.yaml"
-updated_at: "2024-05-25 02:40:36.614629"
+updated_at: "2024-05-26 02:44:19.132916"
 latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-projectr"
 aliases:

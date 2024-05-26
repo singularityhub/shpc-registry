@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dechat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dechat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dechat/container.yaml"
-updated_at: "2024-05-25 02:52:21.498675"
+updated_at: "2024-05-26 02:55:55.322534"
 latest: "1.0.0--h500492e_0"
 container_url: "https://biocontainers.pro/tools/dechat"
 aliases:

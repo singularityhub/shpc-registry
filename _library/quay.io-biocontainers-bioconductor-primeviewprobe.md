@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-primeviewprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-primeviewprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-primeviewprobe/container.yaml"
-updated_at: "2024-05-25 03:12:05.531571"
+updated_at: "2024-05-26 03:15:37.799596"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-primeviewprobe"
 

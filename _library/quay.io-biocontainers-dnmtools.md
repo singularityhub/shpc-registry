@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnmtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnmtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnmtools/container.yaml"
-updated_at: "2024-05-25 02:46:24.406547"
+updated_at: "2024-05-26 02:50:02.616473"
 latest: "1.4.2--h0432e7c_0"
 container_url: "https://biocontainers.pro/tools/dnmtools"
 aliases:

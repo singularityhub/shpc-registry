@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-sage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-sage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-sage/container.yaml"
-updated_at: "2024-05-25 02:44:39.631567"
-latest: "3.4.2--hdfd78af_0"
+updated_at: "2024-05-26 02:48:19.177828"
+latest: "3.4.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-sage"
 aliases:
  - "SAGE"
@@ -24,8 +24,9 @@ versions:
  - "3.2.3--hdfd78af_0"
  - "3.4--hdfd78af_1"
  - "3.4.2--hdfd78af_0"
+ - "3.4.3--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hmftools-sage"
-config: {"url": "https://biocontainers.pro/tools/hmftools-sage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-sage", "latest": {"3.4.2--hdfd78af_0": "sha256:7f7612702c75074a5e542996a5c0d573edc8601768f3ee8658d586a3662a3d00"}, "tags": {"3.1--hdfd78af_0": "sha256:3804df655d9ae7c37ba5ba816ca5a95446bdb3d7fcb0fc587a83618e167f3ce1", "3.2.3--hdfd78af_0": "sha256:9711d591611abea80ceb161042efc4f6684cd276eb416cbeb60bc3da10078ce3", "3.4--hdfd78af_1": "sha256:87ab9632273ebc30fbe2a32cfd4f25e6c16c80668a23f376d584f1f8d3688c34", "3.4.2--hdfd78af_0": "sha256:7f7612702c75074a5e542996a5c0d573edc8601768f3ee8658d586a3662a3d00"}, "docker": "quay.io/biocontainers/hmftools-sage", "aliases": {"SAGE": "/usr/local/bin/SAGE", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-sage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-sage", "latest": {"3.4.3--hdfd78af_0": "sha256:606410e57eb5eece65ba77a098f6015808af209f5ff8f327ab0dda1ce0d716f0"}, "tags": {"3.1--hdfd78af_0": "sha256:3804df655d9ae7c37ba5ba816ca5a95446bdb3d7fcb0fc587a83618e167f3ce1", "3.2.3--hdfd78af_0": "sha256:9711d591611abea80ceb161042efc4f6684cd276eb416cbeb60bc3da10078ce3", "3.4--hdfd78af_1": "sha256:87ab9632273ebc30fbe2a32cfd4f25e6c16c80668a23f376d584f1f8d3688c34", "3.4.2--hdfd78af_0": "sha256:7f7612702c75074a5e542996a5c0d573edc8601768f3ee8658d586a3662a3d00", "3.4.3--hdfd78af_0": "sha256:606410e57eb5eece65ba77a098f6015808af209f5ff8f327ab0dda1ce0d716f0"}, "docker": "quay.io/biocontainers/hmftools-sage", "aliases": {"SAGE": "/usr/local/bin/SAGE", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-sage.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/hmftools-sage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-sage:3.4.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-sage:3.4.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-sage/3.4.2--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-sage/3.4.2--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-sage/3.4.3--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-sage/3.4.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genoflu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genoflu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genoflu/container.yaml"
-updated_at: "2024-05-25 02:34:44.808234"
+updated_at: "2024-05-26 02:38:30.635782"
 latest: "1.03--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genoflu"
 aliases:
