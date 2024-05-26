@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/psm-utils
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for psm-utils
 latest:
-  0.8.3--pyhdfd78af_0: sha256:967d17b6dd9609d5d79b5af030bbedfc77821f5fb249307b79967fab56dea00e
+  0.9.0--pyhdfd78af_0: sha256:75d396071ff5fffb424a03446ec45e9bc9407008ddbe25b6d0aa4918ec57990f
 tags:
   0.2.1--pyhdfd78af_0: sha256:787a40f6cba0557053f735f975d89c70dadb59a435a60aedf53423cd84b1bbe6
   0.2.3--pyhdfd78af_0: sha256:3cc8c99b5132d78489859d3c83fe35e88926df303988d54d871cbb0eec6418ae
@@ -14,6 +14,7 @@ tags:
   0.7.2--pyhdfd78af_0: sha256:40c90ac249e0a3decb98b98484b919a29f63e21caa0dca4acdab649cd5cde3e9
   0.7.4--pyhdfd78af_0: sha256:a6ead33053af839000bfe1298d77ba396c5d14066aabacee389c0d84d40ce026
   0.8.3--pyhdfd78af_0: sha256:967d17b6dd9609d5d79b5af030bbedfc77821f5fb249307b79967fab56dea00e
+  0.9.0--pyhdfd78af_0: sha256:75d396071ff5fffb424a03446ec45e9bc9407008ddbe25b6d0aa4918ec57990f
 docker: quay.io/biocontainers/psm-utils
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11
