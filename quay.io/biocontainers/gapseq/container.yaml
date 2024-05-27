@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/gapseq
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gapseq
+latest:
+  1.2--h9ee0642_0: sha256:5586c6942acf05643af4d5f0da828a9b0af3a742bf0a4eb43297e82eeae05777
+tags:
+  1.2--h9ee0642_0: sha256:5586c6942acf05643af4d5f0da828a9b0af3a742bf0a4eb43297e82eeae05777
+docker: quay.io/biocontainers/gapseq
+aliases:
+  gapseq: /usr/local/bin/gapseq
+  install_archived_sybilSBML.sh: /usr/local/bin/install_archived_sybilSBML.sh
+  update_sequences.sh: /usr/local/bin/update_sequences.sh
+  esd2esi: /usr/local/bin/esd2esi
+  exonerate: /usr/local/bin/exonerate
+  exonerate-server: /usr/local/bin/exonerate-server
+  fasta2esd: /usr/local/bin/fasta2esd
+  fastaannotatecdna: /usr/local/bin/fastaannotatecdna
+  fastachecksum: /usr/local/bin/fastachecksum
+  fastaclip: /usr/local/bin/fastaclip
+  fastacomposition: /usr/local/bin/fastacomposition
+  fastadiff: /usr/local/bin/fastadiff
+  fastaexplode: /usr/local/bin/fastaexplode
+  fastafetch: /usr/local/bin/fastafetch
+  fastahardmask: /usr/local/bin/fastahardmask
+  fastaindex: /usr/local/bin/fastaindex
+  fastalength: /usr/local/bin/fastalength
+  fastanrdb: /usr/local/bin/fastanrdb
+  fastaoverlap: /usr/local/bin/fastaoverlap
+  fastareformat: /usr/local/bin/fastareformat
+  fastaremove: /usr/local/bin/fastaremove
+  fastarevcomp: /usr/local/bin/fastarevcomp
+  fastasoftmask: /usr/local/bin/fastasoftmask
+  fastasort: /usr/local/bin/fastasort
+  fastasubseq: /usr/local/bin/fastasubseq
+  fastatranslate: /usr/local/bin/fastatranslate
+  fastavalidcds: /usr/local/bin/fastavalidcds
+  ipcress: /usr/local/bin/ipcress
