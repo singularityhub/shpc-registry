@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-raex10sttranscriptcluster.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-raex10sttranscriptcluster.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-raex10sttranscriptcluster.db/container.yaml"
-updated_at: "2024-05-26 02:54:10.790208"
+updated_at: "2024-05-27 02:53:58.520680"
 latest: "8.8.0--r43hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/bioconductor-raex10sttranscriptcluster.db"
 
