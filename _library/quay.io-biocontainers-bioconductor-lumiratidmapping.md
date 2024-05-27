@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lumiratidmapping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lumiratidmapping/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumiratidmapping/container.yaml"
-updated_at: "2024-05-27 03:15:15.798461"
+updated_at: "2024-05-27 03:18:21.560959"
 latest: "1.10.0--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-lumiratidmapping"
 

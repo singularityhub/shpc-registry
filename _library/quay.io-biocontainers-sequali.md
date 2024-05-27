@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sequali"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequali/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequali/container.yaml"
-updated_at: "2024-05-27 03:41:56.807869"
+updated_at: "2024-05-27 03:46:24.477997"
 latest: "0.7.1--py310h4b81fae_0"
 container_url: "https://biocontainers.pro/tools/sequali"
 aliases:

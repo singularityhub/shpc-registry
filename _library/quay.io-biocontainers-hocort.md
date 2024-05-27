@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hocort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hocort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hocort/container.yaml"
-updated_at: "2024-05-27 03:45:17.355126"
+updated_at: "2024-05-27 03:49:55.432398"
 latest: "1.2.2--py39hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hocort"
 aliases:

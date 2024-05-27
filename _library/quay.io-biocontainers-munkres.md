@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/munkres"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/munkres/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/munkres/container.yaml"
-updated_at: "2024-05-27 03:47:37.921545"
+updated_at: "2024-05-27 03:52:23.054985"
 latest: "1.0.7--py_1"
 container_url: "https://biocontainers.pro/tools/munkres"
 aliases:

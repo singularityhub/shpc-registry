@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quasitools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quasitools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quasitools/container.yaml"
-updated_at: "2024-05-27 03:09:23.805471"
+updated_at: "2024-05-27 03:12:08.645772"
 latest: "0.7.0--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/quasitools"
 

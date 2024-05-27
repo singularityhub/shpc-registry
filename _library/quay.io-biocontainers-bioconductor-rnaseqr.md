@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnaseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaseqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaseqr/container.yaml"
-updated_at: "2024-05-27 03:26:55.584531"
+updated_at: "2024-05-27 03:30:38.743308"
 latest: "1.15.1--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaseqr"
 aliases:
