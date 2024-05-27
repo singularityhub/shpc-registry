@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cellprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cellprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cellprofiler/container.yaml"
-updated_at: "2024-05-27 03:12:06.100512"
+updated_at: "2024-05-27 03:44:45.687700"
 latest: "4.2.6--py39hf95cd2a_0"
 container_url: "https://biocontainers.pro/tools/cellprofiler"
 

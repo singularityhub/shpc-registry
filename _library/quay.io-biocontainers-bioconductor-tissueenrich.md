@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tissueenrich"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tissueenrich/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tissueenrich/container.yaml"
-updated_at: "2024-05-27 02:33:33.871847"
+updated_at: "2024-05-27 03:06:42.577731"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tissueenrich"
 aliases:
