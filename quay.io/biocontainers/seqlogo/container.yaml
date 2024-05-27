@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/seqlogo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seqlogo
 latest:
-  5.29.8--py_0: sha256:b1a477d345da2dbeb2c47f560cc75648aca2ef585d6d8c1906efc94e28f51b0d
+  5.29.9--pyhdfd78af_0: sha256:388f998ddfda4b7c7b9902a3f9d3de4fc35a59bf0ed2b55ea281d18b026df1a7
 tags:
   5.29.8--py_0: sha256:b1a477d345da2dbeb2c47f560cc75648aca2ef585d6d8c1906efc94e28f51b0d
+  5.29.9--pyhdfd78af_0: sha256:388f998ddfda4b7c7b9902a3f9d3de4fc35a59bf0ed2b55ea281d18b026df1a7
 docker: quay.io/biocontainers/seqlogo
 aliases:
   transformseq: /usr/local/bin/transformseq
