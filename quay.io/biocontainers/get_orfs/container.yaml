@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/get_orfs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for get_orfs
+latest:
+  1.0.0--hdcf5f25_0: sha256:96bee6600e0ce1a952b7aba718c26b921da8cda83ecd7dbdc1d505a6a7ce2b05
+tags:
+  1.0.0--hdcf5f25_0: sha256:96bee6600e0ce1a952b7aba718c26b921da8cda83ecd7dbdc1d505a6a7ce2b05
+docker: quay.io/biocontainers/get_orfs
+aliases:
+  get_orfs: /usr/local/bin/get_orfs

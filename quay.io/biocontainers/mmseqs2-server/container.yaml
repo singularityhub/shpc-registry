@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/mmseqs2-server
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mmseqs2-server
+latest:
+  8.c4b9644--he881be0_0: sha256:522812e279da9c53c196fa282f9971cd780ad0afd4b0a93284250e2fa72e49fa
+tags:
+  8.c4b9644--he881be0_0: sha256:522812e279da9c53c196fa282f9971cd780ad0afd4b0a93284250e2fa72e49fa
+docker: quay.io/biocontainers/mmseqs2-server
+aliases:
+  foldseek: /usr/local/bin/foldseek
+  mmseqs-server: /usr/local/bin/mmseqs-server
+  gawk-5.3.0: /usr/local/bin/gawk-5.3.0
+  gawkbug: /usr/local/bin/gawkbug
+  aria2c: /usr/local/bin/aria2c
+  mmseqs: /usr/local/bin/mmseqs
+  awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  idn2: /usr/local/bin/idn2
+  wget: /usr/local/bin/wget
