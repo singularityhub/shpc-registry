@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-coregnet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-coregnet
 latest:
-  1.38.0--r43ha9d7317_0: sha256:cbbb6e9c17c2d0e56c530ceca0c2120c65dc71f62cdf6ed0270454aa0efa94ee
+  1.38.0--r43ha9d7317_1: sha256:c6ebe3cc22b9bb0308660d1b7ae89a20d14827a8f4b9b346c3bc9ed146f8a9b2
 tags:
   1.32.0--r41hc0cfd56_2: sha256:e1d16ac6afb96a0cdab9c0b0c3f8db2f496ad2bff5917c64a15d5d502a0e3d0b
   1.36.0--r42hc0cfd56_0: sha256:c721a18fa153e5809162ba2af04785e117a020da9752aeedf01e0293597d2dd2
   1.36.0--r42ha9d7317_2: sha256:c89ed8a4347761771942a5937d9c3e793d8191aa05b8566752a51446f699f85f
   1.38.0--r43ha9d7317_0: sha256:cbbb6e9c17c2d0e56c530ceca0c2120c65dc71f62cdf6ed0270454aa0efa94ee
+  1.38.0--r43ha9d7317_1: sha256:c6ebe3cc22b9bb0308660d1b7ae89a20d14827a8f4b9b346c3bc9ed146f8a9b2
 docker: quay.io/biocontainers/bioconductor-coregnet
 aliases:
   glpsol: /usr/local/bin/glpsol
