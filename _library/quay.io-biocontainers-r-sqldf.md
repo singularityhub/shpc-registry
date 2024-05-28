@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sqldf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sqldf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sqldf/container.yaml"
-updated_at: "2024-05-27 03:15:59.394982"
+updated_at: "2024-05-28 02:39:36.537264"
 latest: "0.4_10--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-sqldf"
 aliases:

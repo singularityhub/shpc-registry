@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-proteus-bartongroup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-proteus-bartongroup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-proteus-bartongroup/container.yaml"
-updated_at: "2024-05-27 03:46:12.594561"
+updated_at: "2024-05-28 03:08:25.506820"
 latest: "0.2.16--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-proteus-bartongroup"
 aliases:

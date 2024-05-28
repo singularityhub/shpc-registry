@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-genomictools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-genomictools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-genomictools/container.yaml"
-updated_at: "2024-05-27 03:56:00.509035"
+updated_at: "2024-05-28 03:17:45.208892"
 latest: "0.2.9.7--r43h21a89ab_6"
 container_url: "https://biocontainers.pro/tools/r-genomictools"
 

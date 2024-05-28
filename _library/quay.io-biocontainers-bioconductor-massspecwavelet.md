@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-massspecwavelet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-massspecwavelet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-massspecwavelet/container.yaml"
-updated_at: "2024-05-27 03:39:13.548740"
+updated_at: "2024-05-28 03:01:45.204525"
 latest: "1.68.0--r43ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-massspecwavelet"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/insilicoseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/insilicoseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/insilicoseq/container.yaml"
-updated_at: "2024-05-27 03:20:04.053893"
+updated_at: "2024-05-28 02:43:29.085085"
 latest: "2.0.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/insilicoseq"
 aliases:

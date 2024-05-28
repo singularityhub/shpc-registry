@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gseapy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gseapy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gseapy/container.yaml"
-updated_at: "2024-05-27 03:07:33.865627"
-latest: "1.1.2--py39h0d4550d_1"
+updated_at: "2024-05-28 02:31:34.184656"
+latest: "1.1.3--py38h4bed0b0_0"
 container_url: "https://biocontainers.pro/tools/gseapy"
 
 versions:
@@ -18,8 +18,9 @@ versions:
  - "0.13.0--py310hbee2dd9_0"
  - "0.12.1--py37h792ed70_0"
  - "1.1.2--py39h0d4550d_1"
+ - "1.1.3--py38h4bed0b0_0"
 description: "shpc-registry automated BioContainers addition for gseapy"
-config: {"url": "https://biocontainers.pro/tools/gseapy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gseapy", "latest": {"1.1.2--py39h0d4550d_1": "sha256:a222035f19d974f493181c1f28c9d1b6aa1d42ce858620e0c8d185aa362df820"}, "tags": {"0.9.9--py_0": "sha256:4d88852d9640ca767c2c9d5964c96ebae19414f96f2ad0c074dacba5acaa410c", "0.10.3--py_0": "sha256:cf64de5b410f92683a319199a544b52f364c15263d996660b9c5dd703725e72e", "0.9.19--py_0": "sha256:dfc12e9063073cc1feecb68f06a3537f6d5f8fab06a2e099690f9d4540a9d395", "1.1.2--py39h0d4550d_0": "sha256:12a7205cdd03856abdcfb98d1ffe756c8d139bf4b8e42157e06b79c8aa5853cd", "1.0.6--py310hbee2dd9_0": "sha256:4db772d105540c49af8029d5fb8ebec87293bf28cc7baa16a91d2b393f5e0de2", "0.14.0--py310hbee2dd9_0": "sha256:39fa87ce51d0e8778140123aebe5c2a899cf25cc3019b4f2dfc3ccb6895a844a", "0.13.0--py310hbee2dd9_0": "sha256:071cc1007f7c6ee1fd2f3a97475727ccec4f10d5877baf9e51816e3e2d7b893b", "0.12.1--py37h792ed70_0": "sha256:9e8f8b70b83594a5bb85a76fee698812f368cc399f0e4af4bde1db72c4af51ef", "1.1.2--py39h0d4550d_1": "sha256:a222035f19d974f493181c1f28c9d1b6aa1d42ce858620e0c8d185aa362df820"}, "docker": "quay.io/biocontainers/gseapy"}
+config: {"url": "https://biocontainers.pro/tools/gseapy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gseapy", "latest": {"1.1.3--py38h4bed0b0_0": "sha256:20cf08718be4d4bd19cc271a35d893b82853c942d89015e1daf8df0d0c61a24b"}, "tags": {"0.9.9--py_0": "sha256:4d88852d9640ca767c2c9d5964c96ebae19414f96f2ad0c074dacba5acaa410c", "0.10.3--py_0": "sha256:cf64de5b410f92683a319199a544b52f364c15263d996660b9c5dd703725e72e", "0.9.19--py_0": "sha256:dfc12e9063073cc1feecb68f06a3537f6d5f8fab06a2e099690f9d4540a9d395", "1.1.2--py39h0d4550d_0": "sha256:12a7205cdd03856abdcfb98d1ffe756c8d139bf4b8e42157e06b79c8aa5853cd", "1.0.6--py310hbee2dd9_0": "sha256:4db772d105540c49af8029d5fb8ebec87293bf28cc7baa16a91d2b393f5e0de2", "0.14.0--py310hbee2dd9_0": "sha256:39fa87ce51d0e8778140123aebe5c2a899cf25cc3019b4f2dfc3ccb6895a844a", "0.13.0--py310hbee2dd9_0": "sha256:071cc1007f7c6ee1fd2f3a97475727ccec4f10d5877baf9e51816e3e2d7b893b", "0.12.1--py37h792ed70_0": "sha256:9e8f8b70b83594a5bb85a76fee698812f368cc399f0e4af4bde1db72c4af51ef", "1.1.2--py39h0d4550d_1": "sha256:a222035f19d974f493181c1f28c9d1b6aa1d42ce858620e0c8d185aa362df820", "1.1.3--py38h4bed0b0_0": "sha256:20cf08718be4d4bd19cc271a35d893b82853c942d89015e1daf8df0d0c61a24b"}, "docker": "quay.io/biocontainers/gseapy"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gseapy.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/gseapy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gseapy:1.1.2--py39h0d4550d_1
+$ shpc install quay.io/biocontainers/gseapy:1.1.3--py38h4bed0b0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gseapy/1.1.2--py39h0d4550d_1
-$ module help quay.io/biocontainers/gseapy/1.1.2--py39h0d4550d_1
+$ module load quay.io/biocontainers/gseapy/1.1.3--py38h4bed0b0_0
+$ module help quay.io/biocontainers/gseapy/1.1.3--py38h4bed0b0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

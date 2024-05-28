@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/yaggo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yaggo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yaggo/container.yaml"
-updated_at: "2024-05-27 03:18:50.272029"
-latest: "1.5.10--0"
+updated_at: "2024-05-28 02:42:18.635775"
+latest: "1.5.10--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/yaggo"
 aliases:
  - "yaggo"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.5.9--0"
  - "1.5.10--0"
+ - "1.5.10--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for yaggo"
-config: {"url": "https://biocontainers.pro/tools/yaggo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yaggo", "latest": {"1.5.10--0": "sha256:2c6026bf4c6dabaf5bff62b8fea06b24c2f0620ddb3b93b2807bc3694e40e552"}, "tags": {"1.5.9--0": "sha256:a51367f9d77246dfc82e3a042b9d4ad9345f1c3332dcaa3962b832219babc640", "1.5.10--0": "sha256:2c6026bf4c6dabaf5bff62b8fea06b24c2f0620ddb3b93b2807bc3694e40e552"}, "docker": "quay.io/biocontainers/yaggo", "aliases": {"yaggo": "/usr/local/bin/yaggo", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5"}}
+config: {"url": "https://biocontainers.pro/tools/yaggo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yaggo", "latest": {"1.5.10--hdfd78af_1": "sha256:71bf2787f79ebaed64012806d42756a59b194bd54371a4ebf3c50a192854a555"}, "tags": {"1.5.9--0": "sha256:a51367f9d77246dfc82e3a042b9d4ad9345f1c3332dcaa3962b832219babc640", "1.5.10--0": "sha256:2c6026bf4c6dabaf5bff62b8fea06b24c2f0620ddb3b93b2807bc3694e40e552", "1.5.10--hdfd78af_1": "sha256:71bf2787f79ebaed64012806d42756a59b194bd54371a4ebf3c50a192854a555"}, "docker": "quay.io/biocontainers/yaggo", "aliases": {"yaggo": "/usr/local/bin/yaggo", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/yaggo.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/yaggo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/yaggo:1.5.10--0
+$ shpc install quay.io/biocontainers/yaggo:1.5.10--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/yaggo/1.5.10--0
-$ module help quay.io/biocontainers/yaggo/1.5.10--0
+$ module load quay.io/biocontainers/yaggo/1.5.10--hdfd78af_1
+$ module help quay.io/biocontainers/yaggo/1.5.10--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

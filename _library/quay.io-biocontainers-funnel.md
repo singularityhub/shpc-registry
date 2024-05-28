@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/funnel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/funnel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/funnel/container.yaml"
-updated_at: "2024-05-27 03:41:38.663600"
+updated_at: "2024-05-28 03:04:03.404537"
 latest: "0.9.0--0"
 container_url: "https://biocontainers.pro/tools/funnel"
 aliases:

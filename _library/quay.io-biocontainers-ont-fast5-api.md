@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ont-fast5-api"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ont-fast5-api/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ont-fast5-api/container.yaml"
-updated_at: "2024-05-27 03:31:36.154741"
+updated_at: "2024-05-28 02:54:29.059594"
 latest: "4.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ont-fast5-api"
 aliases:

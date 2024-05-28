@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-breakaway"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-breakaway/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-breakaway/container.yaml"
-updated_at: "2024-05-27 03:09:28.732870"
+updated_at: "2024-05-28 02:33:22.463665"
 latest: "4.7.9--r43h3121a25_2"
 container_url: "https://biocontainers.pro/tools/r-breakaway"
 aliases:

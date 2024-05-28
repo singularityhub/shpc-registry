@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lemur"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lemur/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lemur/container.yaml"
-updated_at: "2024-05-27 03:22:37.977391"
+updated_at: "2024-05-28 02:45:54.379332"
 latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lemur"
 aliases:

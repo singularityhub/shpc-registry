@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-splicer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-splicer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-splicer/container.yaml"
-updated_at: "2024-05-27 03:49:57.195235"
+updated_at: "2024-05-28 03:11:59.518942"
 latest: "1.22.0--r351h470a237_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-splicer"
 aliases:

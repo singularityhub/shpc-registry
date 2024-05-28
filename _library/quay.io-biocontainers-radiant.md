@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/radiant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/radiant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/radiant/container.yaml"
-updated_at: "2024-05-27 03:32:53.732231"
+updated_at: "2024-05-28 02:55:43.181537"
 latest: "1.1.5--h2a31222_0"
 container_url: "https://biocontainers.pro/tools/radiant"
 aliases:

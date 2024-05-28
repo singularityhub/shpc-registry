@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rcsbsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rcsbsearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rcsbsearch/container.yaml"
-updated_at: "2024-05-27 03:46:11.404718"
+updated_at: "2024-05-28 03:08:24.379945"
 latest: "0.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rcsbsearch"
 aliases:
