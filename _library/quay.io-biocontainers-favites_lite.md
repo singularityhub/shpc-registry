@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/favites_lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/favites_lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/favites_lite/container.yaml"
-updated_at: "2024-05-28 02:47:35.433839"
-latest: "1.0.1--hdfd78af_0"
+updated_at: "2024-05-29 02:49:13.349287"
+latest: "1.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/favites_lite"
 aliases:
  - "GEMF"
@@ -32,8 +32,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "1.0.1--hdfd78af_0"
+ - "1.0.3--hdfd78af_0"
 description: "singularity registry hpc automated addition for favites_lite"
-config: {"url": "https://biocontainers.pro/tools/favites_lite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for favites_lite", "latest": {"1.0.1--hdfd78af_0": "sha256:91e448a45956d134b4a250652c7cb17b7cc231eb26d1e30c5d0a53f9e429789e"}, "tags": {"1.0.1--hdfd78af_0": "sha256:91e448a45956d134b4a250652c7cb17b7cc231eb26d1e30c5d0a53f9e429789e"}, "docker": "quay.io/biocontainers/favites_lite", "aliases": {"GEMF": "/usr/local/bin/GEMF", "GEMF_FAVITES.py": "/usr/local/bin/GEMF_FAVITES.py", "coatran_constant": "/usr/local/bin/coatran_constant", "coatran_expgrowth": "/usr/local/bin/coatran_expgrowth", "coatran_inftime": "/usr/local/bin/coatran_inftime", "coatran_transtree": "/usr/local/bin/coatran_transtree", "favites_lite.py": "/usr/local/bin/favites_lite.py", "ngg_barabasi_albert": "/usr/local/bin/ngg_barabasi_albert", "ngg_barbell": "/usr/local/bin/ngg_barbell", "ngg_complete": "/usr/local/bin/ngg_complete", "ngg_cycle": "/usr/local/bin/ngg_cycle", "ngg_empty": "/usr/local/bin/ngg_empty", "ngg_erdos_renyi": "/usr/local/bin/ngg_erdos_renyi", "ngg_newman_watts_strogatz": "/usr/local/bin/ngg_newman_watts_strogatz", "ngg_path": "/usr/local/bin/ngg_path", "ngg_ring_lattice": "/usr/local/bin/ngg_ring_lattice", "seq-gen": "/usr/local/bin/seq-gen", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/favites_lite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for favites_lite", "latest": {"1.0.3--hdfd78af_0": "sha256:e83de8417c236dd244514d86d5138d0e079f0264a2e85d99006445c76b95da78"}, "tags": {"1.0.1--hdfd78af_0": "sha256:91e448a45956d134b4a250652c7cb17b7cc231eb26d1e30c5d0a53f9e429789e", "1.0.3--hdfd78af_0": "sha256:e83de8417c236dd244514d86d5138d0e079f0264a2e85d99006445c76b95da78"}, "docker": "quay.io/biocontainers/favites_lite", "aliases": {"GEMF": "/usr/local/bin/GEMF", "GEMF_FAVITES.py": "/usr/local/bin/GEMF_FAVITES.py", "coatran_constant": "/usr/local/bin/coatran_constant", "coatran_expgrowth": "/usr/local/bin/coatran_expgrowth", "coatran_inftime": "/usr/local/bin/coatran_inftime", "coatran_transtree": "/usr/local/bin/coatran_transtree", "favites_lite.py": "/usr/local/bin/favites_lite.py", "ngg_barabasi_albert": "/usr/local/bin/ngg_barabasi_albert", "ngg_barbell": "/usr/local/bin/ngg_barbell", "ngg_complete": "/usr/local/bin/ngg_complete", "ngg_cycle": "/usr/local/bin/ngg_cycle", "ngg_empty": "/usr/local/bin/ngg_empty", "ngg_erdos_renyi": "/usr/local/bin/ngg_erdos_renyi", "ngg_newman_watts_strogatz": "/usr/local/bin/ngg_newman_watts_strogatz", "ngg_path": "/usr/local/bin/ngg_path", "ngg_ring_lattice": "/usr/local/bin/ngg_ring_lattice", "seq-gen": "/usr/local/bin/seq-gen", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/favites_lite.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/favites_lite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/favites_lite:1.0.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/favites_lite:1.0.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/favites_lite/1.0.1--hdfd78af_0
-$ module help quay.io/biocontainers/favites_lite/1.0.1--hdfd78af_0
+$ module load quay.io/biocontainers/favites_lite/1.0.3--hdfd78af_0
+$ module help quay.io/biocontainers/favites_lite/1.0.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

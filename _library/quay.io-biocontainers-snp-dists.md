@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snp-dists"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snp-dists/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snp-dists/container.yaml"
-updated_at: "2024-05-28 02:33:01.454492"
+updated_at: "2024-05-29 02:34:48.250891"
 latest: "0.8.2--he4a0461_3"
 container_url: "https://biocontainers.pro/tools/snp-dists"
 aliases:

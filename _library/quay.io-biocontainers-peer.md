@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peer/container.yaml"
-updated_at: "2024-05-28 02:59:23.865473"
+updated_at: "2024-05-29 03:01:11.268570"
 latest: "1.3--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/peer"
 aliases:

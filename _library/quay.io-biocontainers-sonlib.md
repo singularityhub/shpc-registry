@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sonlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sonlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sonlib/container.yaml"
-updated_at: "2024-05-28 02:53:05.540008"
+updated_at: "2024-05-29 02:54:43.130542"
 latest: "2.0.dev88--py38h7cf9df2_0"
 container_url: "https://biocontainers.pro/tools/sonlib"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strobemap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strobemap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strobemap/container.yaml"
-updated_at: "2024-05-28 02:47:10.642575"
+updated_at: "2024-05-29 02:48:49.337630"
 latest: "0.0.2--hdcf5f25_3"
 container_url: "https://biocontainers.pro/tools/strobemap"
 aliases:

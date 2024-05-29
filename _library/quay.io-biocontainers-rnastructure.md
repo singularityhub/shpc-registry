@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnastructure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnastructure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnastructure/container.yaml"
-updated_at: "2024-05-28 02:57:03.340372"
+updated_at: "2024-05-29 02:58:48.796826"
 latest: "6.4--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/rnastructure"
 aliases:

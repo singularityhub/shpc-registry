@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmnfusion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmnfusion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmnfusion/container.yaml"
-updated_at: "2024-05-28 02:52:16.316055"
+updated_at: "2024-05-29 02:53:52.794541"
 latest: "1.2.12--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/hmnfusion"
 aliases:

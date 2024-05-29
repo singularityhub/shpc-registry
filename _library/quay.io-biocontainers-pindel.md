@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pindel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pindel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pindel/container.yaml"
-updated_at: "2024-05-28 02:51:37.274275"
+updated_at: "2024-05-29 02:53:13.080872"
 latest: "0.2.5b9--hdcf5f25_11"
 container_url: "https://biocontainers.pro/tools/pindel"
 aliases:
