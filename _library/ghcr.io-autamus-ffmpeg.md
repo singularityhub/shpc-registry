@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/ffmpeg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/ffmpeg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/ffmpeg/container.yaml"
-updated_at: "2024-05-29 03:20:41.900209"
+updated_at: "2024-05-30 03:20:11.863171"
 latest: "4.5"
 container_url: "https://github.com/orgs/autamus/packages/container/package/ffmpeg"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/backports.unittest_mock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/backports.unittest_mock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/backports.unittest_mock/container.yaml"
-updated_at: "2024-05-29 02:33:27.338154"
+updated_at: "2024-05-30 02:32:02.526695"
 latest: "1.3--py_2"
 container_url: "https://biocontainers.pro/tools/backports.unittest_mock"
 aliases:

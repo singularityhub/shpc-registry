@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-graphics-colorobject"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-graphics-colorobject/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-graphics-colorobject/container.yaml"
-updated_at: "2024-05-29 03:03:12.059467"
+updated_at: "2024-05-30 03:02:20.627706"
 latest: "0.5.0--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-graphics-colorobject"
 aliases:

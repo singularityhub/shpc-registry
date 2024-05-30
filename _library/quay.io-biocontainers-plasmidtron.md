@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plasmidtron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasmidtron/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasmidtron/container.yaml"
-updated_at: "2024-05-29 03:09:54.904190"
+updated_at: "2024-05-30 03:09:17.459120"
 latest: "0.4.1--py_2"
 container_url: "https://biocontainers.pro/tools/plasmidtron"
 aliases:

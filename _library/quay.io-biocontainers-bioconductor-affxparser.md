@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-affxparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-affxparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-affxparser/container.yaml"
-updated_at: "2024-05-29 02:37:53.572796"
+updated_at: "2024-05-30 02:36:35.980852"
 latest: "1.74.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-affxparser"
 

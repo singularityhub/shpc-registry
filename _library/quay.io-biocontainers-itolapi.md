@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/itolapi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itolapi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itolapi/container.yaml"
-updated_at: "2024-05-29 02:59:04.683978"
+updated_at: "2024-05-30 02:58:08.310688"
 latest: "4.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/itolapi"
 aliases:

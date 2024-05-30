@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quantiprot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quantiprot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quantiprot/container.yaml"
-updated_at: "2024-05-29 02:56:48.272707"
+updated_at: "2024-05-30 02:55:54.890116"
 latest: "0.2.5--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/quantiprot"
 aliases:

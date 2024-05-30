@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trimns_vgp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trimns_vgp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trimns_vgp/container.yaml"
-updated_at: "2024-05-29 03:00:39.808934"
+updated_at: "2024-05-30 02:59:43.983582"
 latest: "1.0--py_0"
 container_url: "https://biocontainers.pro/tools/trimns_vgp"
 aliases:

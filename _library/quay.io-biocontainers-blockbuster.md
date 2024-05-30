@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blockbuster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blockbuster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blockbuster/container.yaml"
-updated_at: "2024-05-29 03:00:18.431932"
+updated_at: "2024-05-30 02:59:21.855160"
 latest: "0.0.1.1--h031d066_7"
 container_url: "https://biocontainers.pro/tools/blockbuster"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/rust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/rust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/rust/container.yaml"
-updated_at: "2024-05-29 03:20:38.504913"
+updated_at: "2024-05-30 03:20:08.483090"
 latest: "1.60.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/rust"
 aliases:

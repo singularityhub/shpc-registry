@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-locfit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-locfit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-locfit/container.yaml"
-updated_at: "2024-05-29 03:05:20.291924"
+updated_at: "2024-05-30 03:04:34.161397"
 latest: "1.5_9.1--r3.3.1_2"
 container_url: "https://biocontainers.pro/tools/r-locfit"
 aliases:
