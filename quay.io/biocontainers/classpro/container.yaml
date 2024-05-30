@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/classpro
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for classpro
+latest:
+  1.0.2--hfeaf35a_0: sha256:5c0e2aae262cf009a70cbe698ccbd01d9d4744437aedac4cf27c53a646503916
+tags:
+  1.0.2--hfeaf35a_0: sha256:5c0e2aae262cf009a70cbe698ccbd01d9d4744437aedac4cf27c53a646503916
+docker: quay.io/biocontainers/classpro
+aliases:
+  ClassGS: /usr/local/bin/ClassGS
+  ClassPro: /usr/local/bin/ClassPro
+  class2acc: /usr/local/bin/class2acc
+  class2cns: /usr/local/bin/class2cns
+  prof2class: /usr/local/bin/prof2class

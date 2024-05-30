@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/vvv2_display
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vvv2_display
+latest:
+  0.2.1--pyhdfd78af_0: sha256:8dee685ecc5e356091ac3de6c40f8f7d35461b99c0cff682245c794068ad3221
+tags:
+  0.2.1--pyhdfd78af_0: sha256:8dee685ecc5e356091ac3de6c40f8f7d35461b99c0cff682245c794068ad3221
+docker: quay.io/biocontainers/vvv2_display
+aliases:
+  convert_tbl2json.py: /usr/local/bin/convert_tbl2json.py
+  convert_vcffile_to_readablefile2.py: /usr/local/bin/convert_vcffile_to_readablefile2.py
+  correct_covdepth_f.py: /usr/local/bin/correct_covdepth_f.py
+  correct_multicontig_vardict_vcf.py: /usr/local/bin/correct_multicontig_vardict_vcf.py
+  visualize_coverage_depth.R: /usr/local/bin/visualize_coverage_depth.R
+  visualize_snp_v4.R: /usr/local/bin/visualize_snp_v4.R
+  vvv2_display.py: /usr/local/bin/vvv2_display.py
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
