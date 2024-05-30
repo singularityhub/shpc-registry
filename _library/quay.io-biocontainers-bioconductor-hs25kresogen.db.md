@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hs25kresogen.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hs25kresogen.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hs25kresogen.db/container.yaml"
-updated_at: "2024-05-30 02:50:02.107276"
+updated_at: "2024-05-30 04:21:37.334281"
 latest: "2.5.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-hs25kresogen.db"
 

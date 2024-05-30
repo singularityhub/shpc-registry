@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gscreend"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gscreend/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gscreend/container.yaml"
-updated_at: "2024-05-30 02:40:03.402712"
+updated_at: "2024-05-30 04:11:52.757989"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gscreend"
 

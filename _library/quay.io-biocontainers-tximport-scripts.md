@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tximport-scripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tximport-scripts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tximport-scripts/container.yaml"
-updated_at: "2024-05-30 03:11:24.276121"
+updated_at: "2024-05-30 04:42:24.894266"
 latest: "0.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/tximport-scripts"
 aliases:
