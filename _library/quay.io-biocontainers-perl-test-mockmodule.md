@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-mockmodule"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-mockmodule/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-mockmodule/container.yaml"
-updated_at: "2024-05-30 04:14:21.750181"
+updated_at: "2024-05-31 02:42:38.317974"
 latest: "0.13--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-test-mockmodule"
 aliases:

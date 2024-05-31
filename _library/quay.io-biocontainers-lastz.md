@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lastz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lastz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lastz/container.yaml"
-updated_at: "2024-05-30 04:44:16.735925"
+updated_at: "2024-05-31 03:13:04.133608"
 latest: "1.04.22--h031d066_0"
 container_url: "https://biocontainers.pro/tools/lastz"
 aliases:

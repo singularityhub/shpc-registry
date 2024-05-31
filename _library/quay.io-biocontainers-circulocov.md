@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/circulocov"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circulocov/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circulocov/container.yaml"
-updated_at: "2024-05-30 04:22:18.415024"
+updated_at: "2024-05-31 02:50:38.070750"
 latest: "0.1.20240104--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/circulocov"
 aliases:
