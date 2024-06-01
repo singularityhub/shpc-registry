@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flask-potion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-potion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flask-potion/container.yaml"
-updated_at: "2024-05-31 03:07:40.760255"
+updated_at: "2024-06-01 03:09:53.809715"
 latest: "0.12.1--py35_0"
 container_url: "https://biocontainers.pro/tools/flask-potion"
 aliases:

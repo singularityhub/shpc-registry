@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sample-sheet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sample-sheet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sample-sheet/container.yaml"
-updated_at: "2024-05-31 03:10:22.604844"
+updated_at: "2024-06-01 03:12:30.189631"
 latest: "0.13.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sample-sheet"
 aliases:

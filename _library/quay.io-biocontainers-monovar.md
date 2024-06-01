@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/monovar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/monovar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/monovar/container.yaml"
-updated_at: "2024-05-31 03:00:22.667988"
+updated_at: "2024-06-01 03:02:52.469156"
 latest: "v0.0.1--2"
 container_url: "https://biocontainers.pro/tools/monovar"
 aliases:

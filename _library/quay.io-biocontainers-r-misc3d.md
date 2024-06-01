@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-misc3d"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-misc3d/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-misc3d/container.yaml"
-updated_at: "2024-05-31 03:06:28.280064"
+updated_at: "2024-06-01 03:08:43.700310"
 latest: "0.8_4--r3.3.2_1"
 container_url: "https://biocontainers.pro/tools/r-misc3d"
 aliases:

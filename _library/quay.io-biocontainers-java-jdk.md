@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/java-jdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/java-jdk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/java-jdk/container.yaml"
-updated_at: "2024-05-31 02:39:42.537603"
+updated_at: "2024-06-01 02:42:51.854134"
 latest: "8.0.112--1"
 container_url: "https://biocontainers.pro/tools/java-jdk"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-camthc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-camthc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-camthc/container.yaml"
-updated_at: "2024-05-31 02:44:13.944634"
+updated_at: "2024-06-01 02:47:15.902363"
 latest: "1.4.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-camthc"
 aliases:

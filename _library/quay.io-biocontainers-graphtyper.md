@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graphtyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphtyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphtyper/container.yaml"
-updated_at: "2024-05-31 02:47:15.987552"
+updated_at: "2024-06-01 02:50:11.398870"
 latest: "2.7.2--h468198e_1"
 container_url: "https://biocontainers.pro/tools/graphtyper"
 aliases:

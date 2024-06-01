@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jalview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jalview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jalview/container.yaml"
-updated_at: "2024-05-31 03:12:18.038483"
+updated_at: "2024-06-01 03:14:21.773989"
 latest: "2.11.3.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jalview"
 aliases:

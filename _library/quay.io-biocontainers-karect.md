@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/karect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/karect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/karect/container.yaml"
-updated_at: "2024-05-31 03:01:12.438517"
+updated_at: "2024-06-01 03:03:40.399186"
 latest: "1.0--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/karect"
 aliases:

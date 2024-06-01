@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pblaa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pblaa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pblaa/container.yaml"
-updated_at: "2024-05-31 02:34:47.265364"
+updated_at: "2024-06-01 02:38:06.090354"
 latest: "2.4.2--2"
 container_url: "https://biocontainers.pro/tools/pblaa"
 aliases:

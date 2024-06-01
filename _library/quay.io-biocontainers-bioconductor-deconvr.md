@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-deconvr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-deconvr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-deconvr/container.yaml"
-updated_at: "2024-05-31 03:14:15.086975"
+updated_at: "2024-06-01 03:16:14.810401"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-deconvr"
 

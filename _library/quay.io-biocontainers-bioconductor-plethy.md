@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-plethy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plethy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plethy/container.yaml"
-updated_at: "2024-05-31 03:07:25.255503"
+updated_at: "2024-06-01 03:09:38.694904"
 latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plethy"
 aliases:

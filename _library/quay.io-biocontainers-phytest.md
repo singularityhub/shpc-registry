@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phytest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phytest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phytest/container.yaml"
-updated_at: "2024-05-31 02:43:16.284295"
+updated_at: "2024-06-01 02:46:19.896988"
 latest: "1.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phytest"
 aliases:

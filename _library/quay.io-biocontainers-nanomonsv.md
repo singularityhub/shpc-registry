@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanomonsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanomonsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanomonsv/container.yaml"
-updated_at: "2024-05-31 03:06:21.952657"
+updated_at: "2024-06-01 03:08:37.611954"
 latest: "0.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanomonsv"
 aliases:
