@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/auspice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/auspice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/auspice/container.yaml"
-updated_at: "2024-06-01 03:03:23.932434"
+updated_at: "2024-06-02 03:02:11.928003"
 latest: "2.52.0--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/auspice"
 aliases:

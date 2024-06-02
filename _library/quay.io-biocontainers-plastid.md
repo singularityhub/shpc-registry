@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plastid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plastid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plastid/container.yaml"
-updated_at: "2024-06-01 03:11:55.471172"
+updated_at: "2024-06-02 03:10:42.818440"
 latest: "0.6.1--py39had3e4b6_2"
 container_url: "https://biocontainers.pro/tools/plastid"
 aliases:

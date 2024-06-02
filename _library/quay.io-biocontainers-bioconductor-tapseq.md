@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tapseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tapseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tapseq/container.yaml"
-updated_at: "2024-06-01 03:11:49.910646"
+updated_at: "2024-06-02 03:10:37.272355"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tapseq"
 

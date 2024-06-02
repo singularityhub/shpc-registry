@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-scevan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scevan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scevan/container.yaml"
-updated_at: "2024-06-01 02:47:37.008124"
+updated_at: "2024-06-02 02:46:25.998970"
 latest: "1.0.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-scevan"
 aliases:

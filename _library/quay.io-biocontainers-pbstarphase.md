@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbstarphase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbstarphase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbstarphase/container.yaml"
-updated_at: "2024-06-01 02:41:09.854751"
+updated_at: "2024-06-02 02:39:59.438584"
 latest: "0.10.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/pbstarphase"
 aliases:

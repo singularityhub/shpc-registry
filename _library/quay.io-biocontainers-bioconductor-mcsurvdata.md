@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mcsurvdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mcsurvdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mcsurvdata/container.yaml"
-updated_at: "2024-06-01 02:35:25.720562"
+updated_at: "2024-06-02 02:34:15.604770"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mcsurvdata"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spatiallibd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spatiallibd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spatiallibd/container.yaml"
-updated_at: "2024-06-01 02:37:36.903318"
+updated_at: "2024-06-02 02:36:26.493484"
 latest: "1.14.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spatiallibd"
 aliases:

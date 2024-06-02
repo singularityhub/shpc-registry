@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rbwa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbwa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbwa/container.yaml"
-updated_at: "2024-06-01 03:20:39.656069"
+updated_at: "2024-06-02 03:19:26.427512"
 latest: "1.6.0--r43hd5da469_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbwa"
 

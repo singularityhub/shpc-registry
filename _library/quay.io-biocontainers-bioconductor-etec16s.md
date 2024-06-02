@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-etec16s"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-etec16s/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-etec16s/container.yaml"
-updated_at: "2024-06-01 03:02:28.301961"
+updated_at: "2024-06-02 03:01:16.423475"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-etec16s"
 
