@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/flye
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for flye
 latest:
-  2.9.3--py39hd65a603_1: sha256:c2cbce14c55e78e00d8d9fdaf671601f263fe553a9d954a067d987402b134c96
+  2.9.4--py38he0f268d_0: sha256:c988dc01c49d3f076c76c4e09e190f444140333bb0c244b674c0c9c3fe9045ec
 tags:
   2.8.3--py37hccf3b7b_1: sha256:f445a939c51fbd3d15986e545c02bc00deca654c487eab9a087e74fa7f7c8993
   2.9.3--py310h2b6aa90_0: sha256:2df78e6175ff1815f3e68ba8e394c633375b20dccb66fa85b5748b1e8c472178
   2.8.3--py27h6a42192_1: sha256:acb209fb71f17d383624ec6f72f40045413a8c1279a6079ce76fbed3f5c95d43
   2.9.3--py39hd65a603_1: sha256:c2cbce14c55e78e00d8d9fdaf671601f263fe553a9d954a067d987402b134c96
+  2.9.4--py38he0f268d_0: sha256:c988dc01c49d3f076c76c4e09e190f444140333bb0c244b674c0c9c3fe9045ec
 docker: quay.io/biocontainers/flye
 aliases:
   flye: /usr/local/bin/flye
