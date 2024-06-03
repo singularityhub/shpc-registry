@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-fastqcleaner
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fastqcleaner
 latest:
-  1.20.0--r43hf17093f_0: sha256:0d2caa7fd62329bda98b4275b47d8adeec234daef16923c5d1905d11e94f1396
+  1.20.0--r43hf17093f_1: sha256:d87b0c0870c862e4d61c996c39f13566859a7d1dc5c0e013d59a00f050371ef1
 tags:
   1.8.0--r40h399db7b_1: sha256:2996ffdae5f9c2c339e9c35694a00cbabb9e656f1967c706b922772b740ade4e
   1.12.0--r41hc247a5b_2: sha256:6f33e10e87101f517e70355bc7d9c27aa8821a520e5a23dda35f4a254dcf6237
@@ -11,6 +11,7 @@ tags:
   1.16.0--r42hf17093f_1: sha256:a75bb4ac318edb4099fb28e18e026d2be03a7c014e0ef1687a9d6912c4456475
   1.18.0--r43hf17093f_0: sha256:bdec0a5b0e2d2191bf1ed83ed31aaffd0a26400b29a218b4177b748005957300
   1.20.0--r43hf17093f_0: sha256:0d2caa7fd62329bda98b4275b47d8adeec234daef16923c5d1905d11e94f1396
+  1.20.0--r43hf17093f_1: sha256:d87b0c0870c862e4d61c996c39f13566859a7d1dc5c0e013d59a00f050371ef1
 docker: quay.io/biocontainers/bioconductor-fastqcleaner
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

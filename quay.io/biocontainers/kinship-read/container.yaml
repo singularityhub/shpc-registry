@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/kinship-read
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kinship-read
 latest:
-  1.0--hdfd78af_0: sha256:284d482c94b9d0dcfe3175fed2f3c3d122e804c2fa38b671b6e53b1902be61ab
+  2.1.1--pyh7cba7a3_0: sha256:d19730d850aa53fe8b609e8a372461bd6433a2f09a3525f4f1b9d07a12531f2b
 tags:
   1.0--hdfd78af_0: sha256:284d482c94b9d0dcfe3175fed2f3c3d122e804c2fa38b671b6e53b1902be61ab
+  2.1.1--pyh7cba7a3_0: sha256:d19730d850aa53fe8b609e8a372461bd6433a2f09a3525f4f1b9d07a12531f2b
 docker: quay.io/biocontainers/kinship-read
 aliases:
   kinship-read: /usr/local/bin/kinship-read
