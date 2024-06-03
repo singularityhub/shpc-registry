@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libcifpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libcifpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libcifpp/container.yaml"
-updated_at: "2024-06-02 02:57:06.757258"
+updated_at: "2024-06-03 02:56:26.126477"
 latest: "7.0.4--h2202e69_0"
 container_url: "https://biocontainers.pro/tools/libcifpp"
 

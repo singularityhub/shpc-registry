@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/stranger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stranger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stranger/container.yaml"
-updated_at: "2024-06-02 02:54:16.795035"
-latest: "0.8.1--pyh5e36f6f_0"
+updated_at: "2024-06-03 02:53:33.525985"
+latest: "0.9.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/stranger"
 aliases:
  - "stranger"
@@ -19,8 +19,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.8.1--pyh5e36f6f_0"
+ - "0.9.0--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for stranger"
-config: {"url": "https://biocontainers.pro/tools/stranger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stranger", "latest": {"0.8.1--pyh5e36f6f_0": "sha256:13ebb3c62e57a1577ed568f34ec0fe1d32ef24202a5658453697e535e8148b2c"}, "tags": {"0.8.1--pyh5e36f6f_0": "sha256:13ebb3c62e57a1577ed568f34ec0fe1d32ef24202a5658453697e535e8148b2c"}, "docker": "quay.io/biocontainers/stranger", "aliases": {"stranger": "/usr/local/bin/stranger", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/stranger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stranger", "latest": {"0.9.0--pyh7cba7a3_0": "sha256:a63bc64876128b4245034523ef1b03e37d5240943e2e185564285059d4eded45"}, "tags": {"0.8.1--pyh5e36f6f_0": "sha256:13ebb3c62e57a1577ed568f34ec0fe1d32ef24202a5658453697e535e8148b2c", "0.9.0--pyh7cba7a3_0": "sha256:a63bc64876128b4245034523ef1b03e37d5240943e2e185564285059d4eded45"}, "docker": "quay.io/biocontainers/stranger", "aliases": {"stranger": "/usr/local/bin/stranger", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/stranger.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/stranger
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/stranger:0.8.1--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/stranger:0.9.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/stranger/0.8.1--pyh5e36f6f_0
-$ module help quay.io/biocontainers/stranger/0.8.1--pyh5e36f6f_0
+$ module load quay.io/biocontainers/stranger/0.9.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/stranger/0.9.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

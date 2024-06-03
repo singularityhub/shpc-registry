@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/anospp-analysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anospp-analysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anospp-analysis/container.yaml"
-updated_at: "2024-06-02 03:18:51.754281"
-latest: "0.2.1--pyhdfd78af_1"
+updated_at: "2024-06-03 03:18:32.440724"
+latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/anospp-analysis"
 aliases:
  - "anospp-prep"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "0.1.3--pyh7cba7a3_0"
  - "0.2.1--pyhdfd78af_1"
+ - "0.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for anospp-analysis"
-config: {"url": "https://biocontainers.pro/tools/anospp-analysis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for anospp-analysis", "latest": {"0.2.1--pyhdfd78af_1": "sha256:95487f5a2c080e746734ad4cf2bed71422312d993ba33d55f11edba606090a06"}, "tags": {"0.1.3--pyh7cba7a3_0": "sha256:5b0c9c143b7ddba4c7c7db1c6aaac90a9a033e045ceab76b23ebd1a34c0cfb36", "0.2.1--pyhdfd78af_1": "sha256:95487f5a2c080e746734ad4cf2bed71422312d993ba33d55f11edba606090a06"}, "docker": "quay.io/biocontainers/anospp-analysis", "aliases": {"anospp-prep": "/usr/local/bin/anospp-prep", "anospp-qc": "/usr/local/bin/anospp-qc", "tjbench": "/usr/local/bin/tjbench", "cutadapt": "/usr/local/bin/cutadapt", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi", "mafft-ginsi": "/usr/local/bin/mafft-ginsi", "mafft-homologs.rb": "/usr/local/bin/mafft-homologs.rb", "mafft-linsi": "/usr/local/bin/mafft-linsi", "mafft-nwns": "/usr/local/bin/mafft-nwns", "mafft-nwnsi": "/usr/local/bin/mafft-nwnsi", "mafft-profile": "/usr/local/bin/mafft-profile"}}
+config: {"url": "https://biocontainers.pro/tools/anospp-analysis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for anospp-analysis", "latest": {"0.3.0--pyhdfd78af_0": "sha256:36d28e7936abf94104ca901c8a2f744b5dfe59ff39ea9b59ebb4cb46d67b634f"}, "tags": {"0.1.3--pyh7cba7a3_0": "sha256:5b0c9c143b7ddba4c7c7db1c6aaac90a9a033e045ceab76b23ebd1a34c0cfb36", "0.2.1--pyhdfd78af_1": "sha256:95487f5a2c080e746734ad4cf2bed71422312d993ba33d55f11edba606090a06", "0.3.0--pyhdfd78af_0": "sha256:36d28e7936abf94104ca901c8a2f744b5dfe59ff39ea9b59ebb4cb46d67b634f"}, "docker": "quay.io/biocontainers/anospp-analysis", "aliases": {"anospp-prep": "/usr/local/bin/anospp-prep", "anospp-qc": "/usr/local/bin/anospp-qc", "tjbench": "/usr/local/bin/tjbench", "cutadapt": "/usr/local/bin/cutadapt", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi", "mafft-ginsi": "/usr/local/bin/mafft-ginsi", "mafft-homologs.rb": "/usr/local/bin/mafft-homologs.rb", "mafft-linsi": "/usr/local/bin/mafft-linsi", "mafft-nwns": "/usr/local/bin/mafft-nwns", "mafft-nwnsi": "/usr/local/bin/mafft-nwnsi", "mafft-profile": "/usr/local/bin/mafft-profile"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/anospp-analysis.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/anospp-analysis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/anospp-analysis:0.2.1--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/anospp-analysis:0.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/anospp-analysis/0.2.1--pyhdfd78af_1
-$ module help quay.io/biocontainers/anospp-analysis/0.2.1--pyhdfd78af_1
+$ module load quay.io/biocontainers/anospp-analysis/0.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/anospp-analysis/0.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

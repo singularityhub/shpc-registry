@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dune"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dune/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dune/container.yaml"
-updated_at: "2024-06-02 02:51:04.285790"
+updated_at: "2024-06-03 02:50:17.556211"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dune"
 

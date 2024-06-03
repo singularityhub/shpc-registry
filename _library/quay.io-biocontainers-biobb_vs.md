@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobb_vs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_vs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_vs/container.yaml"
-updated_at: "2024-06-02 02:57:29.531861"
-latest: "4.1.1--pyhdfd78af_0"
+updated_at: "2024-06-03 02:56:49.286928"
+latest: "4.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_vs"
 aliases:
  - "autodock_vina_run"
@@ -37,8 +37,10 @@ versions:
  - "3.9.0--pyhdfd78af_0"
  - "4.0.0--pyhdfd78af_2"
  - "4.1.1--pyhdfd78af_0"
+ - "4.2.0--pyhdfd78af_0"
+ - "4.1.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for biobb_vs"
-config: {"url": "https://biocontainers.pro/tools/biobb_vs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_vs", "latest": {"4.1.1--pyhdfd78af_0": "sha256:21e5aa01f3c00018627486893680f8566c50705ce9e9f166f912f44322b52d09"}, "tags": {"3.8.1--pyhdfd78af_0": "sha256:a089d7a39d9ef43fcc853dcb5940700a98d95762e83181914c8c72792d81b7bf", "3.9.0--pyhdfd78af_0": "sha256:4b0df305eb747459d0514192cbfe68fc52a76774d593cc27c4e3a8b4d260afeb", "4.0.0--pyhdfd78af_2": "sha256:5d59ae4da876a2d785b7931167e7ae4e7ce2d42717c14f24c36be507dc269da7", "4.1.1--pyhdfd78af_0": "sha256:21e5aa01f3c00018627486893680f8566c50705ce9e9f166f912f44322b52d09"}, "docker": "quay.io/biocontainers/biobb_vs", "aliases": {"autodock_vina_run": "/usr/local/bin/autodock_vina_run", "bindingsite": "/usr/local/bin/bindingsite", "box": "/usr/local/bin/box", "box_residues": "/usr/local/bin/box_residues", "dpocket": "/usr/local/bin/dpocket", "extract_model_pdbqt": "/usr/local/bin/extract_model_pdbqt", "fpocket": "/usr/local/bin/fpocket", "fpocket_filter": "/usr/local/bin/fpocket_filter", "fpocket_run": "/usr/local/bin/fpocket_run", "fpocket_select": "/usr/local/bin/fpocket_select", "mdpocket": "/usr/local/bin/mdpocket", "tpocket": "/usr/local/bin/tpocket", "vina": "/usr/local/bin/vina", "vina_split": "/usr/local/bin/vina_split", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_vs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_vs", "latest": {"4.2.0--pyhdfd78af_0": "sha256:08e078c457ea31a02aa5a0a862ec2db886325bebe92c769934a7df94a9340daf"}, "tags": {"3.8.1--pyhdfd78af_0": "sha256:a089d7a39d9ef43fcc853dcb5940700a98d95762e83181914c8c72792d81b7bf", "3.9.0--pyhdfd78af_0": "sha256:4b0df305eb747459d0514192cbfe68fc52a76774d593cc27c4e3a8b4d260afeb", "4.0.0--pyhdfd78af_2": "sha256:5d59ae4da876a2d785b7931167e7ae4e7ce2d42717c14f24c36be507dc269da7", "4.1.1--pyhdfd78af_0": "sha256:21e5aa01f3c00018627486893680f8566c50705ce9e9f166f912f44322b52d09", "4.2.0--pyhdfd78af_0": "sha256:08e078c457ea31a02aa5a0a862ec2db886325bebe92c769934a7df94a9340daf", "4.1.2--pyhdfd78af_0": "sha256:29a98b5eddb186495e415c92ffd5625b0fc792877dc2cc89c6373c5b209835a1"}, "docker": "quay.io/biocontainers/biobb_vs", "aliases": {"autodock_vina_run": "/usr/local/bin/autodock_vina_run", "bindingsite": "/usr/local/bin/bindingsite", "box": "/usr/local/bin/box", "box_residues": "/usr/local/bin/box_residues", "dpocket": "/usr/local/bin/dpocket", "extract_model_pdbqt": "/usr/local/bin/extract_model_pdbqt", "fpocket": "/usr/local/bin/fpocket", "fpocket_filter": "/usr/local/bin/fpocket_filter", "fpocket_run": "/usr/local/bin/fpocket_run", "fpocket_select": "/usr/local/bin/fpocket_select", "mdpocket": "/usr/local/bin/mdpocket", "tpocket": "/usr/local/bin/tpocket", "vina": "/usr/local/bin/vina", "vina_split": "/usr/local/bin/vina_split", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_vs.
@@ -53,7 +55,7 @@ $ shpc install quay.io/biocontainers/biobb_vs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobb_vs:4.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/biobb_vs:4.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobb_vs/4.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/biobb_vs/4.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/biobb_vs/4.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/biobb_vs/4.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
