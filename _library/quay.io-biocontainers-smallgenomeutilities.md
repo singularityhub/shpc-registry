@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/smallgenomeutilities"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smallgenomeutilities/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smallgenomeutilities/container.yaml"
-updated_at: "2024-06-03 02:46:40.088331"
-latest: "0.4.0--pyhdfd78af_0"
+updated_at: "2024-06-04 02:45:38.399794"
+latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/smallgenomeutilities"
 aliases:
  - "aln2basecnt"
@@ -40,8 +40,9 @@ versions:
  - "0.3.8--pyhdfd78af_0"
  - "0.3.9--pyhdfd78af_0"
  - "0.4.0--pyhdfd78af_0"
+ - "0.4.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for smallgenomeutilities"
-config: {"url": "https://biocontainers.pro/tools/smallgenomeutilities", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smallgenomeutilities", "latest": {"0.4.0--pyhdfd78af_0": "sha256:2c09d78a430eb9fed59aebf2989a9f4c2a9cb6cae0fba4e7d016c4433acabba9"}, "tags": {"0.3.8--pyhdfd78af_0": "sha256:7b8704ad07a1c8115ceb8601485aac729a0db24b7e6d746e46823c46950b4e0e", "0.3.9--pyhdfd78af_0": "sha256:d20d6a293a56894a83d467d55e0f8c319bae2013d89a98c24dce18b439915238", "0.4.0--pyhdfd78af_0": "sha256:2c09d78a430eb9fed59aebf2989a9f4c2a9cb6cae0fba4e7d016c4433acabba9"}, "docker": "quay.io/biocontainers/smallgenomeutilities", "aliases": {"aln2basecnt": "/usr/local/bin/aln2basecnt", "compute_mds": "/usr/local/bin/compute_mds", "convert_qr": "/usr/local/bin/convert_qr", "convert_reference": "/usr/local/bin/convert_reference", "coverage_stats": "/usr/local/bin/coverage_stats", "extract_consensus": "/usr/local/bin/extract_consensus", "extract_coverage_intervals": "/usr/local/bin/extract_coverage_intervals", "extract_sam": "/usr/local/bin/extract_sam", "extract_seq": "/usr/local/bin/extract_seq", "frameshift_deletions_checks": "/usr/local/bin/frameshift_deletions_checks", "gather_coverage": "/usr/local/bin/gather_coverage", "mapper": "/usr/local/bin/mapper", "min_coverage": "/usr/local/bin/min_coverage", "minority_freq": "/usr/local/bin/minority_freq", "pair_sequences": "/usr/local/bin/pair_sequences", "predict_num_reads": "/usr/local/bin/predict_num_reads", "pysamstats": "/usr/local/bin/pysamstats", "remove_gaps_msa": "/usr/local/bin/remove_gaps_msa", "coverage": "/usr/local/bin/coverage", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py"}}
+config: {"url": "https://biocontainers.pro/tools/smallgenomeutilities", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smallgenomeutilities", "latest": {"0.4.1--pyhdfd78af_0": "sha256:0b1891616ea45ff254b8af0927b376e3f79dab9f7b7ece1abbef3086cce1b144"}, "tags": {"0.3.8--pyhdfd78af_0": "sha256:7b8704ad07a1c8115ceb8601485aac729a0db24b7e6d746e46823c46950b4e0e", "0.3.9--pyhdfd78af_0": "sha256:d20d6a293a56894a83d467d55e0f8c319bae2013d89a98c24dce18b439915238", "0.4.0--pyhdfd78af_0": "sha256:2c09d78a430eb9fed59aebf2989a9f4c2a9cb6cae0fba4e7d016c4433acabba9", "0.4.1--pyhdfd78af_0": "sha256:0b1891616ea45ff254b8af0927b376e3f79dab9f7b7ece1abbef3086cce1b144"}, "docker": "quay.io/biocontainers/smallgenomeutilities", "aliases": {"aln2basecnt": "/usr/local/bin/aln2basecnt", "compute_mds": "/usr/local/bin/compute_mds", "convert_qr": "/usr/local/bin/convert_qr", "convert_reference": "/usr/local/bin/convert_reference", "coverage_stats": "/usr/local/bin/coverage_stats", "extract_consensus": "/usr/local/bin/extract_consensus", "extract_coverage_intervals": "/usr/local/bin/extract_coverage_intervals", "extract_sam": "/usr/local/bin/extract_sam", "extract_seq": "/usr/local/bin/extract_seq", "frameshift_deletions_checks": "/usr/local/bin/frameshift_deletions_checks", "gather_coverage": "/usr/local/bin/gather_coverage", "mapper": "/usr/local/bin/mapper", "min_coverage": "/usr/local/bin/min_coverage", "minority_freq": "/usr/local/bin/minority_freq", "pair_sequences": "/usr/local/bin/pair_sequences", "predict_num_reads": "/usr/local/bin/predict_num_reads", "pysamstats": "/usr/local/bin/pysamstats", "remove_gaps_msa": "/usr/local/bin/remove_gaps_msa", "coverage": "/usr/local/bin/coverage", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smallgenomeutilities.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/smallgenomeutilities
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/smallgenomeutilities:0.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/smallgenomeutilities:0.4.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/smallgenomeutilities/0.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/smallgenomeutilities/0.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/smallgenomeutilities/0.4.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/smallgenomeutilities/0.4.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

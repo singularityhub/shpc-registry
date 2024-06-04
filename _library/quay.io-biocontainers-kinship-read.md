@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kinship-read"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kinship-read/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kinship-read/container.yaml"
-updated_at: "2024-06-03 02:39:11.777837"
-latest: "1.0--hdfd78af_0"
+updated_at: "2024-06-04 02:38:16.722548"
+latest: "2.1.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/kinship-read"
 aliases:
  - "kinship-read"
@@ -18,8 +18,9 @@ aliases:
  - "smtpd.py"
 versions:
  - "1.0--hdfd78af_0"
+ - "2.1.1--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for kinship-read"
-config: {"url": "https://biocontainers.pro/tools/kinship-read", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kinship-read", "latest": {"1.0--hdfd78af_0": "sha256:284d482c94b9d0dcfe3175fed2f3c3d122e804c2fa38b671b6e53b1902be61ab"}, "tags": {"1.0--hdfd78af_0": "sha256:284d482c94b9d0dcfe3175fed2f3c3d122e804c2fa38b671b6e53b1902be61ab"}, "docker": "quay.io/biocontainers/kinship-read", "aliases": {"kinship-read": "/usr/local/bin/kinship-read", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/kinship-read", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kinship-read", "latest": {"2.1.1--pyh7cba7a3_0": "sha256:d19730d850aa53fe8b609e8a372461bd6433a2f09a3525f4f1b9d07a12531f2b"}, "tags": {"1.0--hdfd78af_0": "sha256:284d482c94b9d0dcfe3175fed2f3c3d122e804c2fa38b671b6e53b1902be61ab", "2.1.1--pyh7cba7a3_0": "sha256:d19730d850aa53fe8b609e8a372461bd6433a2f09a3525f4f1b9d07a12531f2b"}, "docker": "quay.io/biocontainers/kinship-read", "aliases": {"kinship-read": "/usr/local/bin/kinship-read", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kinship-read.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/kinship-read
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kinship-read:1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/kinship-read:2.1.1--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kinship-read/1.0--hdfd78af_0
-$ module help quay.io/biocontainers/kinship-read/1.0--hdfd78af_0
+$ module load quay.io/biocontainers/kinship-read/2.1.1--pyh7cba7a3_0
+$ module help quay.io/biocontainers/kinship-read/2.1.1--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

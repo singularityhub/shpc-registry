@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blacksheep-outliers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blacksheep-outliers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blacksheep-outliers/container.yaml"
-updated_at: "2024-06-03 02:45:33.593767"
+updated_at: "2024-06-04 02:44:33.356976"
 latest: "0.0.8--py_0"
 container_url: "https://biocontainers.pro/tools/blacksheep-outliers"
 aliases:

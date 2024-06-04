@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fqgrep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fqgrep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fqgrep/container.yaml"
-updated_at: "2024-06-03 02:39:52.155526"
+updated_at: "2024-06-04 02:38:56.621803"
 latest: "1.0.3--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/fqgrep"
 aliases:

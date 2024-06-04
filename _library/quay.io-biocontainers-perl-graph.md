@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-graph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-graph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-graph/container.yaml"
-updated_at: "2024-06-03 03:10:57.296132"
+updated_at: "2024-06-04 03:09:35.182190"
 latest: "0.9727--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-graph"
 

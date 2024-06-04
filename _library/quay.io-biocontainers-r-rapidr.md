@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rapidr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rapidr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rapidr/container.yaml"
-updated_at: "2024-06-03 03:05:00.285812"
+updated_at: "2024-06-04 03:03:42.579595"
 latest: "0.1.1--r43h3121a25_9"
 container_url: "https://biocontainers.pro/tools/r-rapidr"
 aliases:
