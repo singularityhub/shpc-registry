@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rebar
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rebar
 latest:
-  0.2.0--h9ee0642_0: sha256:974f18ad93b012ab4d71d9a2f5bb6f74eefb80372f8c4055bc6fade74c9f9da5
+  0.2.1--h9ee0642_0: sha256:5d7e83be02edba3bc7e5aa4603da5452f6bfa4c6ad8eb38cd5ac06a7c2b7962d
 tags:
   0.2.0--h9ee0642_0: sha256:974f18ad93b012ab4d71d9a2f5bb6f74eefb80372f8c4055bc6fade74c9f9da5
+  0.2.1--h9ee0642_0: sha256:5d7e83be02edba3bc7e5aa4603da5452f6bfa4c6ad8eb38cd5ac06a7c2b7962d
 docker: quay.io/biocontainers/rebar
 aliases:
   rebar: /usr/local/bin/rebar

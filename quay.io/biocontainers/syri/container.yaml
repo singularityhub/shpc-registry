@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/syri
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for syri
 latest:
-  1.6.3--py38hdbdd923_2: sha256:6b5d79511b07762472d649cfc331c43f65de94b41807e0bb9f4791f622141e5a
+  1.7.0--py310hdbdd923_0: sha256:f4306bd8510f58f625f742815877af3af3ae1417cd293122d31c9701c4ec2eb4
 tags:
   1.6.3--py39h67e14b5_0: sha256:ba972c5665f8c2c1353f00ec22928e42a7275ebf2d6d8ecbfbb4e58bf1cce50f
   1.6.3--py39he10ea66_1: sha256:7062e93b3cc408ffded0196289fdc94e32962a097f67d3b339a49d90a21a357e
   1.6.3--py38hdbdd923_2: sha256:6b5d79511b07762472d649cfc331c43f65de94b41807e0bb9f4791f622141e5a
+  1.7.0--py310hdbdd923_0: sha256:f4306bd8510f58f625f742815877af3af3ae1417cd293122d31c9701c4ec2eb4
 docker: quay.io/biocontainers/syri
 aliases:
   chroder: /usr/local/bin/chroder

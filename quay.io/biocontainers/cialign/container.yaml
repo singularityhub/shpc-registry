@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/cialign
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cialign
 latest:
-  1.1.0--pyhca03a8a_1: sha256:88a3fc11db60774f548d19ac9d2651bf5d7e701155bfc9c4d68b8010da52a309
+  1.1.0--pyhca03a8a_2: sha256:9a33f49e7336600ae63ca3af2413f529ac351c8da0241ac40f1e4b30d18e7904
 tags:
   1.0.18--pyhb7b1952_0: sha256:3d296ea4302144e2f8c2161efaf37f8dd84e3da7bd273412df81ea7588524109
   1.1.0--pyhca03a8a_0: sha256:d5f45a74b6aea1a3fce4dc9c83d9a92e96c48c453019ba76f7514ec8f5b2e58d
   1.1.0--pyhca03a8a_1: sha256:88a3fc11db60774f548d19ac9d2651bf5d7e701155bfc9c4d68b8010da52a309
+  1.1.0--pyhca03a8a_2: sha256:9a33f49e7336600ae63ca3af2413f529ac351c8da0241ac40f1e4b30d18e7904
 docker: quay.io/biocontainers/cialign
 aliases:
   CIAlign: /usr/local/bin/CIAlign

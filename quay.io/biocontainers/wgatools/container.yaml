@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/wgatools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for wgatools
 latest:
-  0.1.0--h7c767d4_1: sha256:d7eab7965f7ca4fe8c25f98b6382ab87abce14ac42eebc72d184150244a5cabb
+  0.1.1--h7c767d4_0: sha256:262cc07f7d99ec72f7ac5e473afb17537de0e110f561e79662041e1422762d5f
 tags:
   0.1.0--h7c767d4_1: sha256:d7eab7965f7ca4fe8c25f98b6382ab87abce14ac42eebc72d184150244a5cabb
+  0.1.1--h7c767d4_0: sha256:262cc07f7d99ec72f7ac5e473afb17537de0e110f561e79662041e1422762d5f
 docker: quay.io/biocontainers/wgatools
 aliases:
   wgatools: /usr/local/bin/wgatools
