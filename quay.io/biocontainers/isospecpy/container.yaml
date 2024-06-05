@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/isospecpy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for isospecpy
 latest:
-  2.2.2--py310h068649b_0: sha256:091c7b13a633e3576c75aeb0661cb0a22bd878ec9649ab04e5721d104ce123b1
+  2.2.2--py311h9f068be_1: sha256:7c3187622d155561067a1c36cfc2cd89230e16c158fd94e28f49ad4d912f3b2c
 tags:
   2.2.1--py38hcbe9525_0: sha256:31b39aab88920db9ca0e844b763f25cc8f57a8a0244b530ccb78a60467031c39
   2.2.2--py310h068649b_0: sha256:091c7b13a633e3576c75aeb0661cb0a22bd878ec9649ab04e5721d104ce123b1
   2.2.2--py39he10ea66_0: sha256:beeddb81014dfc7424adfc7fce863dccdeeb0d108b7ab95bc10e0378642b1ac5
+  2.2.2--py311h9f068be_1: sha256:7c3187622d155561067a1c36cfc2cd89230e16c158fd94e28f49ad4d912f3b2c
 docker: quay.io/biocontainers/isospecpy
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8
