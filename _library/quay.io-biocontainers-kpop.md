@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kpop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kpop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kpop/container.yaml"
-updated_at: "2024-06-04 03:04:27.117581"
-latest: "1.1.1--h9ee0642_0"
+updated_at: "2024-06-05 03:05:09.624581"
+latest: "1.1.1--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/kpop"
 aliases:
  - "KPopCount"
@@ -18,8 +18,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.1.1--h9ee0642_0"
+ - "1.1.1--h9ee0642_1"
 description: "singularity registry hpc automated addition for kpop"
-config: {"url": "https://biocontainers.pro/tools/kpop", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kpop", "latest": {"1.1.1--h9ee0642_0": "sha256:a8c5c0ed1011707c57f38fc55556a96234d94315cf3f2e590944f1c08aeda0cc"}, "tags": {"1.1.1--h9ee0642_0": "sha256:a8c5c0ed1011707c57f38fc55556a96234d94315cf3f2e590944f1c08aeda0cc"}, "docker": "quay.io/biocontainers/kpop", "aliases": {"KPopCount": "/usr/local/bin/KPopCount", "KPopCountDB": "/usr/local/bin/KPopCountDB", "KPopTwist": "/usr/local/bin/KPopTwist", "KPopTwistDB": "/usr/local/bin/KPopTwistDB", "KPopTwist_": "/usr/local/bin/KPopTwist_", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/kpop", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kpop", "latest": {"1.1.1--h9ee0642_1": "sha256:f9fd6a1ab3bccf0afd23995c0f4b5e9adacca6ad6da1b7a5dab86cd4b051a545"}, "tags": {"1.1.1--h9ee0642_0": "sha256:a8c5c0ed1011707c57f38fc55556a96234d94315cf3f2e590944f1c08aeda0cc", "1.1.1--h9ee0642_1": "sha256:f9fd6a1ab3bccf0afd23995c0f4b5e9adacca6ad6da1b7a5dab86cd4b051a545"}, "docker": "quay.io/biocontainers/kpop", "aliases": {"KPopCount": "/usr/local/bin/KPopCount", "KPopCountDB": "/usr/local/bin/KPopCountDB", "KPopTwist": "/usr/local/bin/KPopTwist", "KPopTwistDB": "/usr/local/bin/KPopTwistDB", "KPopTwist_": "/usr/local/bin/KPopTwist_", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kpop.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/kpop
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kpop:1.1.1--h9ee0642_0
+$ shpc install quay.io/biocontainers/kpop:1.1.1--h9ee0642_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kpop/1.1.1--h9ee0642_0
-$ module help quay.io/biocontainers/kpop/1.1.1--h9ee0642_0
+$ module load quay.io/biocontainers/kpop/1.1.1--h9ee0642_1
+$ module help quay.io/biocontainers/kpop/1.1.1--h9ee0642_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

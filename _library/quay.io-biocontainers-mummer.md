@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mummer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mummer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mummer/container.yaml"
-updated_at: "2024-06-04 02:37:45.956388"
+updated_at: "2024-06-05 02:37:59.227537"
 latest: "3.23--pl5321hdbdd923_17"
 container_url: "https://biocontainers.pro/tools/mummer"
 aliases:
@@ -13,8 +13,9 @@ versions:
  - "3.23--pl5321h87f3376_14"
  - "3.23--pl5321hdbdd923_16"
  - "3.23--pl5321hdbdd923_17"
+ - "3.23--pl5321h7021222_17"
 description: "shpc-registry automated BioContainers addition for mummer"
-config: {"url": "https://biocontainers.pro/tools/mummer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mummer", "latest": {"3.23--pl5321hdbdd923_17": "sha256:4c143caa2358ece952dc2e5c0f5151e6bf95554007d68654890317e14bc5e213"}, "tags": {"3.23--pl5321h87f3376_14": "sha256:7e8794c0f90afcca59db2b8d4be8c769b463ef7f3dc6d3f70970eae5c36ccf3f", "3.23--pl5321hdbdd923_16": "sha256:6cc30f4cd6e23263532cd62400b12e4a740b1386d76ac4d6a39a40dcd54211b6", "3.23--pl5321hdbdd923_17": "sha256:4c143caa2358ece952dc2e5c0f5151e6bf95554007d68654890317e14bc5e213"}, "docker": "quay.io/biocontainers/mummer", "aliases": {"mummer": "/usr/local/bin/mummer"}}
+config: {"url": "https://biocontainers.pro/tools/mummer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mummer", "latest": {"3.23--pl5321hdbdd923_17": "sha256:4c143caa2358ece952dc2e5c0f5151e6bf95554007d68654890317e14bc5e213"}, "tags": {"3.23--pl5321h87f3376_14": "sha256:7e8794c0f90afcca59db2b8d4be8c769b463ef7f3dc6d3f70970eae5c36ccf3f", "3.23--pl5321hdbdd923_16": "sha256:6cc30f4cd6e23263532cd62400b12e4a740b1386d76ac4d6a39a40dcd54211b6", "3.23--pl5321hdbdd923_17": "sha256:4c143caa2358ece952dc2e5c0f5151e6bf95554007d68654890317e14bc5e213", "3.23--pl5321h7021222_17": "sha256:669733941f56fc76229d82d6aa8a9d6b74c1e2f4dc9467e5e8b84b506da27330"}, "docker": "quay.io/biocontainers/mummer", "aliases": {"mummer": "/usr/local/bin/mummer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mummer.

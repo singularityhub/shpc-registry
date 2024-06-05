@@ -4,8 +4,8 @@ name:  "ruby"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ruby/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ruby/container.yaml"
-updated_at: "2024-06-04 03:19:02.399246"
-latest: "alpine3.19"
+updated_at: "2024-06-05 03:20:02.110860"
+latest: "alpine3.20"
 container_url: "https://hub.docker.com/_/ruby"
 aliases:
  - "bundle"
@@ -49,8 +49,11 @@ versions:
  - "alpine3.19"
  - "3.2.3"
  - "3.2.4"
+ - "3-alpine3.20"
+ - "3.2.4-alpine3.20"
+ - "alpine3.20"
 description: "Ruby is a dynamic, reflective, object-oriented, general-purpose, open-source programming language."
-config: {"docker": "ruby", "url": "https://hub.docker.com/_/ruby", "maintainer": "@vsoch", "description": "Ruby is a dynamic, reflective, object-oriented, general-purpose, open-source programming language.", "latest": {"alpine3.19": "sha256:92047b87f9a122a10b22fba43ad647969a5c1ca43da663abebf5718dce1ab6a0"}, "tags": {"3.0.1-alpine": "sha256:c7d2b6967cbf1d84477232ec8ad165585bed1f2cf8870eca86b3f90b1369313f", "3.0.2": "sha256:15dd21ae353c5f4faebed038d9d131c47b9fd84c14be8c3cfbc750204b63f009", "3.0.2-alpine": "sha256:b5e479ebc175726b5b77168b78b0322fec55e730c96f38ce8ca5b565aceca3a6", "3.1.0": "sha256:249deb7f2b1a01f034141f529a2daeecdfd2c04aa1e2b456bf328d899779ad7c", "3.1.0-preview1": "sha256:8740dc6f4d6468c6fc22f177c4159671ddd517f4ec3a7154549ffe1972d1f9a2", "3.1.1": "sha256:02132b99bb12b791701ae9bd86119eb879e49478b7b5d840c6c7cc9281ee63c0", "latest": "sha256:ce23a408a008a39960c168117f0dd297674e8f6fddd121efc7775f0a75974eb6", "3": "sha256:ce23a408a008a39960c168117f0dd297674e8f6fddd121efc7775f0a75974eb6", "3-alpine3.15": "sha256:3cd021fc8c763a5a5fc485eb6ca898eabdc5a94d1ac354511f5e958fc1cf3ca5", "3.1": "sha256:47aefafcc6a77af83853834d4525fe6b6e355bc496530dcfcd5fb411132a8a46", "3.0.3": "sha256:7c57b474163e01f1518ff830dffef023fbd014378edd414526562137edc1400f", "alpine": "sha256:92047b87f9a122a10b22fba43ad647969a5c1ca43da663abebf5718dce1ab6a0", "3.0.4": "sha256:261fa5cfc39bfd39811a4f86f350e60aa3fa4e5a1ef68e92123f17e5c149e163", "3-alpine3.16": "sha256:8022d9a6f819976abf37747f44d8cc7e806bc2b111bac0aa7f846a1d1f6519da", "3.0.4-alpine3.16": "sha256:d5c7b1207fdfc7a39125c2a33929b974077f6cd1dfdaaca3750d114e5febf32e", "3.2-rc": "sha256:7a7d94375a7cfc3c2c9f46f1a2cc1ba432e88723a2166d815acd1cbbc44b2fa2", "3-alpine3.17": "sha256:ab02a738d52d0077fe0d00fc7e9e7c014616bd175f163e7b15c4451b904ee04b", "3.2": "sha256:38d4577786b0d7b3dde3a79980102e599550d781b69ae1531148ac6eb6c1becb", "3.1.3": "sha256:c4d28f375a0addcf2d6fc0ac59e1f2d9d6ed5a2531568c1b80c35627bcae5b21", "3.0": "sha256:3ebe67ea53ffcb3c2f61125097a04f64a844eed98f1ef552ed7f97aca86ed5cd", "3.1.4": "sha256:8ebc619f459ec62a7d0763f910e50787cc7999de3c09632536b22aaf8725d3f1", "3-alpine3.18": "sha256:d907735cff25973a6c904d3b221914fabb217f279c807c53a807d6668c6b2acb", "alpine3.18": "sha256:d907735cff25973a6c904d3b221914fabb217f279c807c53a807d6668c6b2acb", "3.2.2": "sha256:bc2b1b2c5cf0423b9ca12f2c2196c51efa80c8d3d4d0cf01858e67dc2c7136e4", "3-alpine3.19": "sha256:92047b87f9a122a10b22fba43ad647969a5c1ca43da663abebf5718dce1ab6a0", "alpine3.19": "sha256:92047b87f9a122a10b22fba43ad647969a5c1ca43da663abebf5718dce1ab6a0", "3.2.3": "sha256:9ee6e94ab254ec61fd08472976a8d0a04d9745de76e9768ccd33f0b7d2fd1be9", "3.2.4": "sha256:38d4577786b0d7b3dde3a79980102e599550d781b69ae1531148ac6eb6c1becb"}, "aliases": {"bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "racc": "/usr/local/bin/racc", "rake": "/usr/local/bin/rake", "rbs": "/usr/local/bin/rbs", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby", "typeprof": "/usr/local/bin/typeprof"}}
+config: {"docker": "ruby", "url": "https://hub.docker.com/_/ruby", "maintainer": "@vsoch", "description": "Ruby is a dynamic, reflective, object-oriented, general-purpose, open-source programming language.", "latest": {"alpine3.20": "sha256:627ff002658004fe521f39abc083a915a5e50b0001ed0c941ba29d60dc2b88b7"}, "tags": {"3.0.1-alpine": "sha256:c7d2b6967cbf1d84477232ec8ad165585bed1f2cf8870eca86b3f90b1369313f", "3.0.2": "sha256:15dd21ae353c5f4faebed038d9d131c47b9fd84c14be8c3cfbc750204b63f009", "3.0.2-alpine": "sha256:b5e479ebc175726b5b77168b78b0322fec55e730c96f38ce8ca5b565aceca3a6", "3.1.0": "sha256:249deb7f2b1a01f034141f529a2daeecdfd2c04aa1e2b456bf328d899779ad7c", "3.1.0-preview1": "sha256:8740dc6f4d6468c6fc22f177c4159671ddd517f4ec3a7154549ffe1972d1f9a2", "3.1.1": "sha256:02132b99bb12b791701ae9bd86119eb879e49478b7b5d840c6c7cc9281ee63c0", "latest": "sha256:a67dcbc840ad773775c250f0caef2554a0c6f487289c6b113e1fa4aa1e175887", "3": "sha256:a67dcbc840ad773775c250f0caef2554a0c6f487289c6b113e1fa4aa1e175887", "3-alpine3.15": "sha256:3cd021fc8c763a5a5fc485eb6ca898eabdc5a94d1ac354511f5e958fc1cf3ca5", "3.1": "sha256:c7dd6d2df5e1ef7115c8b2f824550be107bbbb8585c3b997b0c52d2cb485fb51", "3.0.3": "sha256:7c57b474163e01f1518ff830dffef023fbd014378edd414526562137edc1400f", "alpine": "sha256:627ff002658004fe521f39abc083a915a5e50b0001ed0c941ba29d60dc2b88b7", "3.0.4": "sha256:261fa5cfc39bfd39811a4f86f350e60aa3fa4e5a1ef68e92123f17e5c149e163", "3-alpine3.16": "sha256:8022d9a6f819976abf37747f44d8cc7e806bc2b111bac0aa7f846a1d1f6519da", "3.0.4-alpine3.16": "sha256:d5c7b1207fdfc7a39125c2a33929b974077f6cd1dfdaaca3750d114e5febf32e", "3.2-rc": "sha256:7a7d94375a7cfc3c2c9f46f1a2cc1ba432e88723a2166d815acd1cbbc44b2fa2", "3-alpine3.17": "sha256:ab02a738d52d0077fe0d00fc7e9e7c014616bd175f163e7b15c4451b904ee04b", "3.2": "sha256:8fe805793476dc9f6be412dddd48ea786d24419acafc9cc587d77ce33cbd0a81", "3.1.3": "sha256:c4d28f375a0addcf2d6fc0ac59e1f2d9d6ed5a2531568c1b80c35627bcae5b21", "3.0": "sha256:dcb8a8a6ee981f949da505cb9f4f15cde696e7bcb088955bc1f92f23a4cd7a72", "3.1.4": "sha256:8ebc619f459ec62a7d0763f910e50787cc7999de3c09632536b22aaf8725d3f1", "3-alpine3.18": "sha256:d907735cff25973a6c904d3b221914fabb217f279c807c53a807d6668c6b2acb", "alpine3.18": "sha256:d907735cff25973a6c904d3b221914fabb217f279c807c53a807d6668c6b2acb", "3.2.2": "sha256:bc2b1b2c5cf0423b9ca12f2c2196c51efa80c8d3d4d0cf01858e67dc2c7136e4", "3-alpine3.19": "sha256:9fe0a1e9f40dea925e49b48447443b387b22d35ccd99a756d7cb094f43a407f2", "alpine3.19": "sha256:9fe0a1e9f40dea925e49b48447443b387b22d35ccd99a756d7cb094f43a407f2", "3.2.3": "sha256:9ee6e94ab254ec61fd08472976a8d0a04d9745de76e9768ccd33f0b7d2fd1be9", "3.2.4": "sha256:8fe805793476dc9f6be412dddd48ea786d24419acafc9cc587d77ce33cbd0a81", "3-alpine3.20": "sha256:627ff002658004fe521f39abc083a915a5e50b0001ed0c941ba29d60dc2b88b7", "3.2.4-alpine3.20": "sha256:ec3eff691fc6fba97eb415a63ca8379b82f952e3db373ab43382cbe794e33c35", "alpine3.20": "sha256:627ff002658004fe521f39abc083a915a5e50b0001ed0c941ba29d60dc2b88b7"}, "aliases": {"bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "racc": "/usr/local/bin/racc", "rake": "/usr/local/bin/rake", "rbs": "/usr/local/bin/rbs", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby", "typeprof": "/usr/local/bin/typeprof"}}
 ---
 
 This module is a singularity container wrapper for ruby.
@@ -65,7 +68,7 @@ $ shpc install ruby
 Or a specific version:
 
 ```bash
-$ shpc install ruby:alpine3.19
+$ shpc install ruby:alpine3.20
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ruby/alpine3.19
-$ module help ruby/alpine3.19
+$ module load ruby/alpine3.20
+$ module help ruby/alpine3.20
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

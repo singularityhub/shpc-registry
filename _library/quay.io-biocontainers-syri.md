@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/syri"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/syri/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/syri/container.yaml"
-updated_at: "2024-06-04 03:11:17.322040"
-latest: "1.6.3--py38hdbdd923_2"
+updated_at: "2024-06-05 03:12:07.762839"
+latest: "1.7.0--py310hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/syri"
 aliases:
  - "chroder"
@@ -39,8 +39,9 @@ versions:
  - "1.6.3--py39h67e14b5_0"
  - "1.6.3--py39he10ea66_1"
  - "1.6.3--py38hdbdd923_2"
+ - "1.7.0--py310hdbdd923_0"
 description: "singularity registry hpc automated addition for syri"
-config: {"url": "https://biocontainers.pro/tools/syri", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for syri", "latest": {"1.6.3--py38hdbdd923_2": "sha256:6b5d79511b07762472d649cfc331c43f65de94b41807e0bb9f4791f622141e5a"}, "tags": {"1.6.3--py39h67e14b5_0": "sha256:ba972c5665f8c2c1353f00ec22928e42a7275ebf2d6d8ecbfbb4e58bf1cce50f", "1.6.3--py39he10ea66_1": "sha256:7062e93b3cc408ffded0196289fdc94e32962a097f67d3b339a49d90a21a357e", "1.6.3--py38hdbdd923_2": "sha256:6b5d79511b07762472d649cfc331c43f65de94b41807e0bb9f4791f622141e5a"}, "docker": "quay.io/biocontainers/syri", "aliases": {"chroder": "/usr/local/bin/chroder", "syri": "/usr/local/bin/syri", "igraph": "/usr/local/bin/igraph", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py", "rst2xml.py": "/usr/local/bin/rst2xml.py", "rstpep2html.py": "/usr/local/bin/rstpep2html.py", "glpsol": "/usr/local/bin/glpsol", "f2py3.9": "/usr/local/bin/f2py3.9"}}
+config: {"url": "https://biocontainers.pro/tools/syri", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for syri", "latest": {"1.7.0--py310hdbdd923_0": "sha256:f4306bd8510f58f625f742815877af3af3ae1417cd293122d31c9701c4ec2eb4"}, "tags": {"1.6.3--py39h67e14b5_0": "sha256:ba972c5665f8c2c1353f00ec22928e42a7275ebf2d6d8ecbfbb4e58bf1cce50f", "1.6.3--py39he10ea66_1": "sha256:7062e93b3cc408ffded0196289fdc94e32962a097f67d3b339a49d90a21a357e", "1.6.3--py38hdbdd923_2": "sha256:6b5d79511b07762472d649cfc331c43f65de94b41807e0bb9f4791f622141e5a", "1.7.0--py310hdbdd923_0": "sha256:f4306bd8510f58f625f742815877af3af3ae1417cd293122d31c9701c4ec2eb4"}, "docker": "quay.io/biocontainers/syri", "aliases": {"chroder": "/usr/local/bin/chroder", "syri": "/usr/local/bin/syri", "igraph": "/usr/local/bin/igraph", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py", "rst2xml.py": "/usr/local/bin/rst2xml.py", "rstpep2html.py": "/usr/local/bin/rstpep2html.py", "glpsol": "/usr/local/bin/glpsol", "f2py3.9": "/usr/local/bin/f2py3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/syri.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/syri
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/syri:1.6.3--py38hdbdd923_2
+$ shpc install quay.io/biocontainers/syri:1.7.0--py310hdbdd923_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/syri/1.6.3--py38hdbdd923_2
-$ module help quay.io/biocontainers/syri/1.6.3--py38hdbdd923_2
+$ module load quay.io/biocontainers/syri/1.7.0--py310hdbdd923_0
+$ module help quay.io/biocontainers/syri/1.7.0--py310hdbdd923_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

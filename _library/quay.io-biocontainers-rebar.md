@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/rebar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rebar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rebar/container.yaml"
-updated_at: "2024-06-04 03:14:58.937607"
-latest: "0.2.0--h9ee0642_0"
+updated_at: "2024-06-05 03:15:54.311151"
+latest: "0.2.1--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/rebar"
 aliases:
  - "rebar"
 versions:
  - "0.2.0--h9ee0642_0"
+ - "0.2.1--h9ee0642_0"
 description: "singularity registry hpc automated addition for rebar"
-config: {"url": "https://biocontainers.pro/tools/rebar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rebar", "latest": {"0.2.0--h9ee0642_0": "sha256:974f18ad93b012ab4d71d9a2f5bb6f74eefb80372f8c4055bc6fade74c9f9da5"}, "tags": {"0.2.0--h9ee0642_0": "sha256:974f18ad93b012ab4d71d9a2f5bb6f74eefb80372f8c4055bc6fade74c9f9da5"}, "docker": "quay.io/biocontainers/rebar", "aliases": {"rebar": "/usr/local/bin/rebar"}}
+config: {"url": "https://biocontainers.pro/tools/rebar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rebar", "latest": {"0.2.1--h9ee0642_0": "sha256:5d7e83be02edba3bc7e5aa4603da5452f6bfa4c6ad8eb38cd5ac06a7c2b7962d"}, "tags": {"0.2.0--h9ee0642_0": "sha256:974f18ad93b012ab4d71d9a2f5bb6f74eefb80372f8c4055bc6fade74c9f9da5", "0.2.1--h9ee0642_0": "sha256:5d7e83be02edba3bc7e5aa4603da5452f6bfa4c6ad8eb38cd5ac06a7c2b7962d"}, "docker": "quay.io/biocontainers/rebar", "aliases": {"rebar": "/usr/local/bin/rebar"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rebar.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/rebar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rebar:0.2.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/rebar:0.2.1--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rebar/0.2.0--h9ee0642_0
-$ module help quay.io/biocontainers/rebar/0.2.0--h9ee0642_0
+$ module load quay.io/biocontainers/rebar/0.2.1--h9ee0642_0
+$ module help quay.io/biocontainers/rebar/0.2.1--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
