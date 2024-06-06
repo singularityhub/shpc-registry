@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobb_flexserv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_flexserv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_flexserv/container.yaml"
-updated_at: "2024-06-05 02:49:00.709737"
-latest: "4.1.0--pypl5321hdfd78af_0"
+updated_at: "2024-06-06 02:48:31.684563"
+latest: "4.2.0--pypl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_flexserv"
 aliases:
  - "bd"
@@ -70,8 +70,9 @@ versions:
  - "4.0.2--pypl5321hdfd78af_0"
  - "4.0.3--pypl5321hdfd78af_0"
  - "4.1.0--pypl5321hdfd78af_0"
+ - "4.2.0--pypl5321hdfd78af_0"
 description: "singularity registry hpc automated addition for biobb_flexserv"
-config: {"url": "https://biocontainers.pro/tools/biobb_flexserv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biobb_flexserv", "latest": {"4.1.0--pypl5321hdfd78af_0": "sha256:b49637a223de300cbd19da865d0e99c68aeb7fafe6103bc720a32e3435adb63e"}, "tags": {"3.9.1--pyhdfd78af_1": "sha256:5dff87be6311486611b5367b275c79f14b8205fb6cf7ad97351a5e7601aefab5", "4.0.0--pyhdfd78af_0": "sha256:62025c9b7269eed02eedadbeab69a2162c9ca6eedc2f09617ea8fecfe5df3a09", "4.0.2--pypl5321hdfd78af_0": "sha256:5d625728a7a86e1f3a0c9b53d56137c9ab3dde71a451a1c66435863b8efc38d0", "4.0.3--pypl5321hdfd78af_0": "sha256:a186f95a11b12933c7a99f3f6141292586354a95281e034c529246497bd550bb", "4.1.0--pypl5321hdfd78af_0": "sha256:b49637a223de300cbd19da865d0e99c68aeb7fafe6103bc720a32e3435adb63e"}, "docker": "quay.io/biocontainers/biobb_flexserv", "aliases": {"bd": "/usr/local/bin/bd", "bd_run": "/usr/local/bin/bd_run", "bison": "/usr/local/bin/bison", "diaghess": "/usr/local/bin/diaghess", "dmd_run": "/usr/local/bin/dmd_run", "dmdgoopt": "/usr/local/bin/dmdgoopt", "flex": "/usr/local/bin/flex", "flex++": "/usr/local/bin/flex++", "genpcz": "/usr/local/bin/genpcz", "lorellnma": "/usr/local/bin/lorellnma", "m4": "/usr/local/bin/m4", "mc-eigen-mdweb.pl": "/usr/local/bin/mc-eigen-mdweb.pl", "mc-eigen.pl": "/usr/local/bin/mc-eigen.pl", "nma_run": "/usr/local/bin/nma_run", "nmanu.pl": "/usr/local/bin/nmanu.pl", "pca_anim_mc.pl": "/usr/local/bin/pca_anim_mc.pl", "pcaunzip": "/usr/local/bin/pcaunzip", "pcazip": "/usr/local/bin/pcazip", "pcz_animate": "/usr/local/bin/pcz_animate", "pcz_bfactor": "/usr/local/bin/pcz_bfactor", "pcz_collectivity": "/usr/local/bin/pcz_collectivity", "pcz_evecs": "/usr/local/bin/pcz_evecs", "pcz_hinges": "/usr/local/bin/pcz_hinges", "pcz_info": "/usr/local/bin/pcz_info", "pcz_lindemann": "/usr/local/bin/pcz_lindemann", "pcz_similarity": "/usr/local/bin/pcz_similarity", "pcz_stiffness": "/usr/local/bin/pcz_stiffness", "pcz_unzip": "/usr/local/bin/pcz_unzip", "pcz_zip": "/usr/local/bin/pcz_zip", "pczdump": "/usr/local/bin/pczdump", "yacc": "/usr/local/bin/yacc", "aec": "/usr/local/bin/aec", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp", "hdfed": "/usr/local/bin/hdfed", "hdfimport": "/usr/local/bin/hdfimport", "hdfls": "/usr/local/bin/hdfls", "hdfpack": "/usr/local/bin/hdfpack", "hdftopal": "/usr/local/bin/hdftopal", "hdftor8": "/usr/local/bin/hdftor8", "hdfunpac": "/usr/local/bin/hdfunpac", "hdiff": "/usr/local/bin/hdiff", "hdp": "/usr/local/bin/hdp", "hrepack": "/usr/local/bin/hrepack", "jpeg2hdf": "/usr/local/bin/jpeg2hdf"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_flexserv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biobb_flexserv", "latest": {"4.2.0--pypl5321hdfd78af_0": "sha256:2506637841a27653f2b555b6afce85ad50b061cae918aeba5b396635e885a90e"}, "tags": {"3.9.1--pyhdfd78af_1": "sha256:5dff87be6311486611b5367b275c79f14b8205fb6cf7ad97351a5e7601aefab5", "4.0.0--pyhdfd78af_0": "sha256:62025c9b7269eed02eedadbeab69a2162c9ca6eedc2f09617ea8fecfe5df3a09", "4.0.2--pypl5321hdfd78af_0": "sha256:5d625728a7a86e1f3a0c9b53d56137c9ab3dde71a451a1c66435863b8efc38d0", "4.0.3--pypl5321hdfd78af_0": "sha256:a186f95a11b12933c7a99f3f6141292586354a95281e034c529246497bd550bb", "4.1.0--pypl5321hdfd78af_0": "sha256:b49637a223de300cbd19da865d0e99c68aeb7fafe6103bc720a32e3435adb63e", "4.2.0--pypl5321hdfd78af_0": "sha256:2506637841a27653f2b555b6afce85ad50b061cae918aeba5b396635e885a90e"}, "docker": "quay.io/biocontainers/biobb_flexserv", "aliases": {"bd": "/usr/local/bin/bd", "bd_run": "/usr/local/bin/bd_run", "bison": "/usr/local/bin/bison", "diaghess": "/usr/local/bin/diaghess", "dmd_run": "/usr/local/bin/dmd_run", "dmdgoopt": "/usr/local/bin/dmdgoopt", "flex": "/usr/local/bin/flex", "flex++": "/usr/local/bin/flex++", "genpcz": "/usr/local/bin/genpcz", "lorellnma": "/usr/local/bin/lorellnma", "m4": "/usr/local/bin/m4", "mc-eigen-mdweb.pl": "/usr/local/bin/mc-eigen-mdweb.pl", "mc-eigen.pl": "/usr/local/bin/mc-eigen.pl", "nma_run": "/usr/local/bin/nma_run", "nmanu.pl": "/usr/local/bin/nmanu.pl", "pca_anim_mc.pl": "/usr/local/bin/pca_anim_mc.pl", "pcaunzip": "/usr/local/bin/pcaunzip", "pcazip": "/usr/local/bin/pcazip", "pcz_animate": "/usr/local/bin/pcz_animate", "pcz_bfactor": "/usr/local/bin/pcz_bfactor", "pcz_collectivity": "/usr/local/bin/pcz_collectivity", "pcz_evecs": "/usr/local/bin/pcz_evecs", "pcz_hinges": "/usr/local/bin/pcz_hinges", "pcz_info": "/usr/local/bin/pcz_info", "pcz_lindemann": "/usr/local/bin/pcz_lindemann", "pcz_similarity": "/usr/local/bin/pcz_similarity", "pcz_stiffness": "/usr/local/bin/pcz_stiffness", "pcz_unzip": "/usr/local/bin/pcz_unzip", "pcz_zip": "/usr/local/bin/pcz_zip", "pczdump": "/usr/local/bin/pczdump", "yacc": "/usr/local/bin/yacc", "aec": "/usr/local/bin/aec", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp", "hdfed": "/usr/local/bin/hdfed", "hdfimport": "/usr/local/bin/hdfimport", "hdfls": "/usr/local/bin/hdfls", "hdfpack": "/usr/local/bin/hdfpack", "hdftopal": "/usr/local/bin/hdftopal", "hdftor8": "/usr/local/bin/hdftor8", "hdfunpac": "/usr/local/bin/hdfunpac", "hdiff": "/usr/local/bin/hdiff", "hdp": "/usr/local/bin/hdp", "hrepack": "/usr/local/bin/hrepack", "jpeg2hdf": "/usr/local/bin/jpeg2hdf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_flexserv.
@@ -86,7 +87,7 @@ $ shpc install quay.io/biocontainers/biobb_flexserv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobb_flexserv:4.1.0--pypl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/biobb_flexserv:4.2.0--pypl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -98,8 +99,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobb_flexserv/4.1.0--pypl5321hdfd78af_0
-$ module help quay.io/biocontainers/biobb_flexserv/4.1.0--pypl5321hdfd78af_0
+$ module load quay.io/biocontainers/biobb_flexserv/4.2.0--pypl5321hdfd78af_0
+$ module help quay.io/biocontainers/biobb_flexserv/4.2.0--pypl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/isospecpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isospecpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isospecpy/container.yaml"
-updated_at: "2024-06-05 03:07:39.436700"
-latest: "2.2.2--py310h068649b_0"
+updated_at: "2024-06-06 03:07:10.093541"
+latest: "2.2.2--py311h9f068be_1"
 container_url: "https://biocontainers.pro/tools/isospecpy"
 aliases:
  - "2to3-3.8"
@@ -17,8 +17,9 @@ versions:
  - "2.2.1--py38hcbe9525_0"
  - "2.2.2--py310h068649b_0"
  - "2.2.2--py39he10ea66_0"
+ - "2.2.2--py311h9f068be_1"
 description: "singularity registry hpc automated addition for isospecpy"
-config: {"url": "https://biocontainers.pro/tools/isospecpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for isospecpy", "latest": {"2.2.2--py310h068649b_0": "sha256:091c7b13a633e3576c75aeb0661cb0a22bd878ec9649ab04e5721d104ce123b1"}, "tags": {"2.2.1--py38hcbe9525_0": "sha256:31b39aab88920db9ca0e844b763f25cc8f57a8a0244b530ccb78a60467031c39", "2.2.2--py310h068649b_0": "sha256:091c7b13a633e3576c75aeb0661cb0a22bd878ec9649ab04e5721d104ce123b1", "2.2.2--py39he10ea66_0": "sha256:beeddb81014dfc7424adfc7fce863dccdeeb0d108b7ab95bc10e0378642b1ac5"}, "docker": "quay.io/biocontainers/isospecpy", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/isospecpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for isospecpy", "latest": {"2.2.2--py311h9f068be_1": "sha256:7c3187622d155561067a1c36cfc2cd89230e16c158fd94e28f49ad4d912f3b2c"}, "tags": {"2.2.1--py38hcbe9525_0": "sha256:31b39aab88920db9ca0e844b763f25cc8f57a8a0244b530ccb78a60467031c39", "2.2.2--py310h068649b_0": "sha256:091c7b13a633e3576c75aeb0661cb0a22bd878ec9649ab04e5721d104ce123b1", "2.2.2--py39he10ea66_0": "sha256:beeddb81014dfc7424adfc7fce863dccdeeb0d108b7ab95bc10e0378642b1ac5", "2.2.2--py311h9f068be_1": "sha256:7c3187622d155561067a1c36cfc2cd89230e16c158fd94e28f49ad4d912f3b2c"}, "docker": "quay.io/biocontainers/isospecpy", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/isospecpy.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/isospecpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/isospecpy:2.2.2--py310h068649b_0
+$ shpc install quay.io/biocontainers/isospecpy:2.2.2--py311h9f068be_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/isospecpy/2.2.2--py310h068649b_0
-$ module help quay.io/biocontainers/isospecpy/2.2.2--py310h068649b_0
+$ module load quay.io/biocontainers/isospecpy/2.2.2--py311h9f068be_1
+$ module help quay.io/biocontainers/isospecpy/2.2.2--py311h9f068be_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

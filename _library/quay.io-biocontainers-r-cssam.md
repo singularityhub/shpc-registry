@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-cssam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cssam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cssam/container.yaml"
-updated_at: "2024-06-05 02:55:32.295803"
-latest: "1.4--r42h4ac6f70_6"
+updated_at: "2024-06-06 02:55:03.442838"
+latest: "1.4--r43h4ac6f70_7"
 container_url: "https://biocontainers.pro/tools/r-cssam"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.4--r42h9f5acd7_4"
  - "1.4--r42h4ac6f70_5"
  - "1.4--r42h4ac6f70_6"
+ - "1.4--r43h4ac6f70_7"
 description: "shpc-registry automated BioContainers addition for r-cssam"
-config: {"url": "https://biocontainers.pro/tools/r-cssam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-cssam", "latest": {"1.4--r42h4ac6f70_6": "sha256:158f69c8e20c4329945b109f0e407e027916eb08d8b9642aee7c0030029cbb9d"}, "tags": {"1.4--r41h9f5acd7_2": "sha256:6ff08b7ca96f736267a5e21b4c459183531bf7a264f593c6719b20f1fff4fcbf", "1.4--r41h9f5acd7_3": "sha256:0f03926cc646a9ca355a6f49cd7979340c58f3f65ebad6957a1205eb9d483ed8", "1.4--r42h9f5acd7_4": "sha256:719bdc8b567620e8630c8aa6588f42ddd542cdca19cc4761d0886e176531d33e", "1.4--r42h4ac6f70_5": "sha256:79665f978d31d58005cd1201330fd2764d8f265edb905102684f8e9839b316fc", "1.4--r42h4ac6f70_6": "sha256:158f69c8e20c4329945b109f0e407e027916eb08d8b9642aee7c0030029cbb9d"}, "docker": "quay.io/biocontainers/r-cssam"}
+config: {"url": "https://biocontainers.pro/tools/r-cssam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-cssam", "latest": {"1.4--r43h4ac6f70_7": "sha256:143bc8dacb826308c15a2c682e855bc8d5593d9ea40f28493cdfdb1b9c463864"}, "tags": {"1.4--r41h9f5acd7_2": "sha256:6ff08b7ca96f736267a5e21b4c459183531bf7a264f593c6719b20f1fff4fcbf", "1.4--r41h9f5acd7_3": "sha256:0f03926cc646a9ca355a6f49cd7979340c58f3f65ebad6957a1205eb9d483ed8", "1.4--r42h9f5acd7_4": "sha256:719bdc8b567620e8630c8aa6588f42ddd542cdca19cc4761d0886e176531d33e", "1.4--r42h4ac6f70_5": "sha256:79665f978d31d58005cd1201330fd2764d8f265edb905102684f8e9839b316fc", "1.4--r42h4ac6f70_6": "sha256:158f69c8e20c4329945b109f0e407e027916eb08d8b9642aee7c0030029cbb9d", "1.4--r43h4ac6f70_7": "sha256:143bc8dacb826308c15a2c682e855bc8d5593d9ea40f28493cdfdb1b9c463864"}, "docker": "quay.io/biocontainers/r-cssam"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-cssam.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-cssam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-cssam:1.4--r42h4ac6f70_6
+$ shpc install quay.io/biocontainers/r-cssam:1.4--r43h4ac6f70_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-cssam/1.4--r42h4ac6f70_6
-$ module help quay.io/biocontainers/r-cssam/1.4--r42h4ac6f70_6
+$ module load quay.io/biocontainers/r-cssam/1.4--r43h4ac6f70_7
+$ module help quay.io/biocontainers/r-cssam/1.4--r43h4ac6f70_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
