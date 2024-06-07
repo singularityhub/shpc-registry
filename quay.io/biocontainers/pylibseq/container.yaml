@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/pylibseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pylibseq
 latest:
-  0.2.3--py310h30d9df9_6: sha256:1dfecec8d23ea1dedd70d241b29c6cd0fa25aa089028a28893fe71d120fd3be3
+  0.2.3--py310hb8f9c3a_7: sha256:0e8851223328418dcd290bd1af27fd33f2998df59b27676067a30cb396a94a8d
 tags:
   0.2.3--py36h2ad2d48_3: sha256:89ae914031cb39902aea8de7d0706478e59996ae864613954c116d585cab8840
   0.2.3--py310h30d9df9_6: sha256:1dfecec8d23ea1dedd70d241b29c6cd0fa25aa089028a28893fe71d120fd3be3
   0.2.3--py38h4a32c8e_6: sha256:50389f230afd6362d0577c5504b921b396ef51820404e1a405367c7f96961db5
+  0.2.3--py310hb8f9c3a_7: sha256:0e8851223328418dcd290bd1af27fd33f2998df59b27676067a30cb396a94a8d
 docker: quay.io/biocontainers/pylibseq
 aliases:
   msp: /usr/local/bin/msp

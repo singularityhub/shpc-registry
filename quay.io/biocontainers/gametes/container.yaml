@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gametes
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gametes
 latest:
-  2.1--py310h7cba7a3_0: sha256:dbb3d31cb45280e185981d426052299714c8ad2044d4c01ae0c48ad0dff11894
+  2.1--py312h7e72e81_1: sha256:d85e03ceff9ca155b283385414e6331f3b30401742a5abc87775c176e8cd32b4
 tags:
   2.1--py310h7cba7a3_0: sha256:dbb3d31cb45280e185981d426052299714c8ad2044d4c01ae0c48ad0dff11894
+  2.1--py312h7e72e81_1: sha256:d85e03ceff9ca155b283385414e6331f3b30401742a5abc87775c176e8cd32b4
 docker: quay.io/biocontainers/gametes
 aliases:
   gametes: /usr/local/bin/gametes
