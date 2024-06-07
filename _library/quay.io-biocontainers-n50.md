@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/n50"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/n50/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/n50/container.yaml"
-updated_at: "2024-06-06 03:14:43.663645"
+updated_at: "2024-06-07 03:17:20.678195"
 latest: "1.5.8--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/n50"
 aliases:

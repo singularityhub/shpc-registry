@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wget/container.yaml"
-updated_at: "2024-06-06 02:47:56.791383"
+updated_at: "2024-06-07 02:50:27.772556"
 latest: "1.21.4"
 container_url: "https://biocontainers.pro/tools/wget"
 aliases:

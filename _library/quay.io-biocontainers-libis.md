@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libis/container.yaml"
-updated_at: "2024-06-06 02:54:34.258237"
+updated_at: "2024-06-07 02:57:02.584005"
 latest: "0.1.6--py_0"
 container_url: "https://biocontainers.pro/tools/libis"
 aliases:

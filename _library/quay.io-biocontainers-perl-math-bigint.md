@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-math-bigint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-bigint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-bigint/container.yaml"
-updated_at: "2024-06-06 02:31:47.981825"
+updated_at: "2024-06-07 02:34:20.398371"
 latest: "2.003002--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-math-bigint"
 aliases:

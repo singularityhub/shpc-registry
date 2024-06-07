@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panfeed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panfeed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panfeed/container.yaml"
-updated_at: "2024-06-06 03:12:03.564877"
+updated_at: "2024-06-07 03:14:41.118969"
 latest: "1.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/panfeed"
 aliases:

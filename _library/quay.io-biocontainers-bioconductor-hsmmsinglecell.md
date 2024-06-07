@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hsmmsinglecell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hsmmsinglecell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hsmmsinglecell/container.yaml"
-updated_at: "2024-06-06 02:34:57.789598"
+updated_at: "2024-06-07 02:37:30.078189"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hsmmsinglecell"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rmats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rmats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rmats/container.yaml"
-updated_at: "2024-06-06 02:37:13.469097"
+updated_at: "2024-06-07 02:39:45.022898"
 latest: "4.3.0--py310h2385082_0"
 container_url: "https://biocontainers.pro/tools/rmats"
 

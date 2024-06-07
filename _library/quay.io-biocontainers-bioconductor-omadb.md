@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-omadb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omadb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omadb/container.yaml"
-updated_at: "2024-06-06 03:11:03.537348"
+updated_at: "2024-06-07 03:13:41.050434"
 latest: "2.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omadb"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mcpcounter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mcpcounter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mcpcounter/container.yaml"
-updated_at: "2024-06-06 03:10:57.292617"
+updated_at: "2024-06-07 03:13:34.781492"
 latest: "1.1.0--r43hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/r-mcpcounter"
 aliases:

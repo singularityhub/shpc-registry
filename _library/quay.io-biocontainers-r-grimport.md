@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-grimport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-grimport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-grimport/container.yaml"
-updated_at: "2024-06-06 02:37:17.148786"
+updated_at: "2024-06-07 02:39:48.660305"
 latest: "0.9_0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-grimport"
 aliases:
