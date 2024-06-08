@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/racon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for racon
 latest:
-  1.5.0--h21ec9f0_3: sha256:6c161d69dfeb686cd3da4d9f128272f6501d8d61ba80b632c443288dd2839803
+  1.5.0--hdcf5f25_4: sha256:35493ae30bc255f7b9a6a8272c1ab0c5997bbe2e0405ba65b688bc3eb1d0e4dd
 tags:
   1.5.0--h7ff8a90_0: sha256:105dad8159c103dd451cddc5c9e6d7d4ae0bc77d0f13f0ae23728b59d0e110df
   1.5.0--h21ec9f0_2: sha256:1f8ba10982e9e534dfcdca612f330f08979ad5a146aac3ca1b1af7df29599130
   1.5.0--h21ec9f0_3: sha256:6c161d69dfeb686cd3da4d9f128272f6501d8d61ba80b632c443288dd2839803
+  1.5.0--hdcf5f25_4: sha256:35493ae30bc255f7b9a6a8272c1ab0c5997bbe2e0405ba65b688bc3eb1d0e4dd
 docker: quay.io/biocontainers/racon
 aliases:
   racon: /usr/local/bin/racon

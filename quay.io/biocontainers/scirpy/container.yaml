@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/scirpy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scirpy
 latest:
-  0.16.1--pyhdfd78af_0: sha256:24769c0dc020dedc4e81738f145c828100df6e9744b96f41f6f44cf20bf965ca
+  0.17.0--pyhdfd78af_0: sha256:16f363d52655cffa251a306fc13b586aeedc0d18615dcb73c74d3876ac068145
 tags:
   0.9.1--pyhdfd78af_0: sha256:b9c7892ee076733df38e6d66abacdce0a5900964a9391437cf5923d5afc89bd8
   0.11.1--pyhdfd78af_0: sha256:111e7aa99a5e2acabfde209ea48930a61f2ff03545aaca3617d3e21c77bed890
@@ -17,6 +17,7 @@ tags:
   0.16.0--pyhdfd78af_0: sha256:030d4744244418b8e5636b47402837043bc05472bb32675b7c37f8337df04c34
   0.15.0--pyhdfd78af_0: sha256:cee6cd3be21b5793229bbfa7d33ef8cae2ab2c75d0158018a2f0822c42f9545c
   0.16.1--pyhdfd78af_0: sha256:24769c0dc020dedc4e81738f145c828100df6e9744b96f41f6f44cf20bf965ca
+  0.17.0--pyhdfd78af_0: sha256:16f363d52655cffa251a306fc13b586aeedc0d18615dcb73c74d3876ac068145
 docker: quay.io/biocontainers/scirpy
 aliases:
   airr-tools: /usr/local/bin/airr-tools
