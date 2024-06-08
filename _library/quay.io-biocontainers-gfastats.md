@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gfastats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfastats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfastats/container.yaml"
-updated_at: "2024-06-07 03:02:53.530140"
+updated_at: "2024-06-08 03:00:27.350680"
 latest: "1.3.6--hdcf5f25_3"
 container_url: "https://biocontainers.pro/tools/gfastats"
 aliases:

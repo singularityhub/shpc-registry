@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncbi-fcs-gx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-fcs-gx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-fcs-gx/container.yaml"
-updated_at: "2024-06-07 02:45:56.181717"
+updated_at: "2024-06-08 02:43:25.361285"
 latest: "0.5.0--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/ncbi-fcs-gx"
 aliases:

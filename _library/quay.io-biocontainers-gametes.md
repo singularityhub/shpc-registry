@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gametes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gametes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gametes/container.yaml"
-updated_at: "2024-06-07 02:45:12.464922"
-latest: "2.1--py310h7cba7a3_0"
+updated_at: "2024-06-08 02:42:41.662706"
+latest: "2.1--py312h7e72e81_1"
 container_url: "https://biocontainers.pro/tools/gametes"
 aliases:
  - "gametes"
@@ -36,8 +36,9 @@ aliases:
  - "java"
 versions:
  - "2.1--py310h7cba7a3_0"
+ - "2.1--py312h7e72e81_1"
 description: "singularity registry hpc automated addition for gametes"
-config: {"url": "https://biocontainers.pro/tools/gametes", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gametes", "latest": {"2.1--py310h7cba7a3_0": "sha256:dbb3d31cb45280e185981d426052299714c8ad2044d4c01ae0c48ad0dff11894"}, "tags": {"2.1--py310h7cba7a3_0": "sha256:dbb3d31cb45280e185981d426052299714c8ad2044d4c01ae0c48ad0dff11894"}, "docker": "quay.io/biocontainers/gametes", "aliases": {"gametes": "/usr/local/bin/gametes", "jwebserver": "/usr/local/bin/jwebserver", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "jpackage": "/usr/local/bin/jpackage", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java"}}
+config: {"url": "https://biocontainers.pro/tools/gametes", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gametes", "latest": {"2.1--py312h7e72e81_1": "sha256:d85e03ceff9ca155b283385414e6331f3b30401742a5abc87775c176e8cd32b4"}, "tags": {"2.1--py310h7cba7a3_0": "sha256:dbb3d31cb45280e185981d426052299714c8ad2044d4c01ae0c48ad0dff11894", "2.1--py312h7e72e81_1": "sha256:d85e03ceff9ca155b283385414e6331f3b30401742a5abc87775c176e8cd32b4"}, "docker": "quay.io/biocontainers/gametes", "aliases": {"gametes": "/usr/local/bin/gametes", "jwebserver": "/usr/local/bin/jwebserver", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "jpackage": "/usr/local/bin/jpackage", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gametes.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/gametes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gametes:2.1--py310h7cba7a3_0
+$ shpc install quay.io/biocontainers/gametes:2.1--py312h7e72e81_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gametes/2.1--py310h7cba7a3_0
-$ module help quay.io/biocontainers/gametes/2.1--py310h7cba7a3_0
+$ module load quay.io/biocontainers/gametes/2.1--py312h7e72e81_1
+$ module help quay.io/biocontainers/gametes/2.1--py312h7e72e81_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

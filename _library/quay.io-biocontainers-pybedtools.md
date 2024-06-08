@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybedtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybedtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybedtools/container.yaml"
-updated_at: "2024-06-07 02:50:08.030169"
+updated_at: "2024-06-08 02:47:40.444921"
 latest: "0.10.0--py39hd65a603_0"
 container_url: "https://biocontainers.pro/tools/pybedtools"
 aliases:

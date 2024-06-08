@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/commet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/commet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/commet/container.yaml"
-updated_at: "2024-06-07 02:46:40.385821"
-latest: "24.7.14--r42hd50232a_10"
+updated_at: "2024-06-08 02:44:09.947359"
+latest: "24.7.14--r43hd50232a_11"
 container_url: "https://biocontainers.pro/tools/commet"
 aliases:
  - "Commet.py"
@@ -26,8 +26,9 @@ versions:
  - "24.7.14--r41hfada1a9_7"
  - "24.7.14--r42hfada1a9_8"
  - "24.7.14--r42hd50232a_10"
+ - "24.7.14--r43hd50232a_11"
 description: "shpc-registry automated BioContainers addition for commet"
-config: {"url": "https://biocontainers.pro/tools/commet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for commet", "latest": {"24.7.14--r42hd50232a_10": "sha256:63b8c510e8fd8b3e1a4fa1266f1c9c13fa5b1dd1e5ab718b560e4c683fffe14a"}, "tags": {"24.7.14--r41hfada1a9_7": "sha256:c1942271fbd8abdb58bc26d68310c1cf07e2f295678a00ef9f75b12c60052e38", "24.7.14--r42hfada1a9_8": "sha256:fb6b30e2129a1593956647efa9585607b13ec0847bfed2d0a1937e44c3f90cb7", "24.7.14--r42hd50232a_10": "sha256:63b8c510e8fd8b3e1a4fa1266f1c9c13fa5b1dd1e5ab718b560e4c683fffe14a"}, "docker": "quay.io/biocontainers/commet", "aliases": {"Commet.py": "/usr/local/bin/Commet.py", "bvop": "/usr/local/bin/bvop", "compare_reads": "/usr/local/bin/compare_reads", "dendro.R": "/usr/local/bin/dendro.R", "extract_reads": "/usr/local/bin/extract_reads", "filter_reads": "/usr/local/bin/filter_reads", "heatmap.r": "/usr/local/bin/heatmap.r", "index_and_search": "/usr/local/bin/index_and_search", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/commet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for commet", "latest": {"24.7.14--r43hd50232a_11": "sha256:d1eb379b96269e537146b521c97b8ed8fe328f06896c7687edc6ecfe4021b52f"}, "tags": {"24.7.14--r41hfada1a9_7": "sha256:c1942271fbd8abdb58bc26d68310c1cf07e2f295678a00ef9f75b12c60052e38", "24.7.14--r42hfada1a9_8": "sha256:fb6b30e2129a1593956647efa9585607b13ec0847bfed2d0a1937e44c3f90cb7", "24.7.14--r42hd50232a_10": "sha256:63b8c510e8fd8b3e1a4fa1266f1c9c13fa5b1dd1e5ab718b560e4c683fffe14a", "24.7.14--r43hd50232a_11": "sha256:d1eb379b96269e537146b521c97b8ed8fe328f06896c7687edc6ecfe4021b52f"}, "docker": "quay.io/biocontainers/commet", "aliases": {"Commet.py": "/usr/local/bin/Commet.py", "bvop": "/usr/local/bin/bvop", "compare_reads": "/usr/local/bin/compare_reads", "dendro.R": "/usr/local/bin/dendro.R", "extract_reads": "/usr/local/bin/extract_reads", "filter_reads": "/usr/local/bin/filter_reads", "heatmap.r": "/usr/local/bin/heatmap.r", "index_and_search": "/usr/local/bin/index_and_search", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/commet.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/commet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/commet:24.7.14--r42hd50232a_10
+$ shpc install quay.io/biocontainers/commet:24.7.14--r43hd50232a_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/commet/24.7.14--r42hd50232a_10
-$ module help quay.io/biocontainers/commet/24.7.14--r42hd50232a_10
+$ module load quay.io/biocontainers/commet/24.7.14--r43hd50232a_11
+$ module help quay.io/biocontainers/commet/24.7.14--r43hd50232a_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

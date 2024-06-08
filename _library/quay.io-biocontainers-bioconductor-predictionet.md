@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-predictionet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-predictionet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-predictionet/container.yaml"
-updated_at: "2024-06-07 02:50:51.210907"
+updated_at: "2024-06-08 02:48:24.162824"
 latest: "1.40.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-predictionet"
 aliases:

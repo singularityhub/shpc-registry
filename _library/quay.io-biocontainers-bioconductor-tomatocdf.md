@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tomatocdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tomatocdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tomatocdf/container.yaml"
-updated_at: "2024-06-07 03:01:49.120457"
+updated_at: "2024-06-08 02:59:24.988858"
 latest: "2.18.0--r43hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-tomatocdf"
 

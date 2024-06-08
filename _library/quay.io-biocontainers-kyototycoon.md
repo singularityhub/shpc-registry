@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kyototycoon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kyototycoon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kyototycoon/container.yaml"
-updated_at: "2024-06-07 02:35:39.206148"
+updated_at: "2024-06-08 02:33:02.259221"
 latest: "20170410--h27c383b_4"
 container_url: "https://biocontainers.pro/tools/kyototycoon"
 aliases:

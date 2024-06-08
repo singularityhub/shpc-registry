@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tcgacrcmirna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tcgacrcmirna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tcgacrcmirna/container.yaml"
-updated_at: "2024-06-07 03:20:20.310166"
+updated_at: "2024-06-08 03:17:45.963964"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tcgacrcmirna"
 aliases:

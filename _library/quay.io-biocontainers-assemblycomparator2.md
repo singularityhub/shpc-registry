@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/assemblycomparator2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/assemblycomparator2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/assemblycomparator2/container.yaml"
-updated_at: "2024-06-07 02:54:57.908492"
+updated_at: "2024-06-08 02:52:35.689302"
 latest: "2.6.2--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/assemblycomparator2"
 aliases:

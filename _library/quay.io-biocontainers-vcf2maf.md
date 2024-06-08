@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vcf2maf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf2maf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf2maf/container.yaml"
-updated_at: "2024-06-07 02:40:22.515028"
-latest: "1.6.21--hdfd78af_0"
+updated_at: "2024-06-08 02:37:50.047833"
+latest: "1.6.22--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vcf2maf"
 aliases:
  - "crc32"
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "1.6.8--0"
  - "1.6.21--hdfd78af_0"
+ - "1.6.22--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for vcf2maf"
-config: {"url": "https://biocontainers.pro/tools/vcf2maf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcf2maf", "latest": {"1.6.21--hdfd78af_0": "sha256:e33def318468ac924bdcc280c4aa8984865709d111cd0df9b0d82c7908b7dd07"}, "tags": {"1.6.8--0": "sha256:5f4b0b6159d556d2de7f2bb46db688928d41ee28c8b1dd0f632cf6b558732805", "1.6.21--hdfd78af_0": "sha256:e33def318468ac924bdcc280c4aa8984865709d111cd0df9b0d82c7908b7dd07"}, "docker": "quay.io/biocontainers/vcf2maf", "aliases": {"crc32": "/usr/local/bin/crc32", "filter_vep.pl": "/usr/local/bin/filter_vep.pl", "maf2maf.pl": "/usr/local/bin/maf2maf.pl", "maf2vcf.pl": "/usr/local/bin/maf2vcf.pl", "variant_effect_predictor.pl": "/usr/local/bin/variant_effect_predictor.pl", "vcf2maf.pl": "/usr/local/bin/vcf2maf.pl", "vcf2vcf.pl": "/usr/local/bin/vcf2vcf.pl", "vep_convert_cache.pl": "/usr/local/bin/vep_convert_cache.pl", "vep_install.pl": "/usr/local/bin/vep_install.pl", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl"}}
+config: {"url": "https://biocontainers.pro/tools/vcf2maf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcf2maf", "latest": {"1.6.22--hdfd78af_0": "sha256:0b1d0ddc1082012d096067b9323a208fc9696a3e58a83890e2eafbff08dc26f9"}, "tags": {"1.6.8--0": "sha256:5f4b0b6159d556d2de7f2bb46db688928d41ee28c8b1dd0f632cf6b558732805", "1.6.21--hdfd78af_0": "sha256:e33def318468ac924bdcc280c4aa8984865709d111cd0df9b0d82c7908b7dd07", "1.6.22--hdfd78af_0": "sha256:0b1d0ddc1082012d096067b9323a208fc9696a3e58a83890e2eafbff08dc26f9"}, "docker": "quay.io/biocontainers/vcf2maf", "aliases": {"crc32": "/usr/local/bin/crc32", "filter_vep.pl": "/usr/local/bin/filter_vep.pl", "maf2maf.pl": "/usr/local/bin/maf2maf.pl", "maf2vcf.pl": "/usr/local/bin/maf2vcf.pl", "variant_effect_predictor.pl": "/usr/local/bin/variant_effect_predictor.pl", "vcf2maf.pl": "/usr/local/bin/vcf2maf.pl", "vcf2vcf.pl": "/usr/local/bin/vcf2vcf.pl", "vep_convert_cache.pl": "/usr/local/bin/vep_convert_cache.pl", "vep_install.pl": "/usr/local/bin/vep_install.pl", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcf2maf.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/vcf2maf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcf2maf:1.6.21--hdfd78af_0
+$ shpc install quay.io/biocontainers/vcf2maf:1.6.22--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcf2maf/1.6.21--hdfd78af_0
-$ module help quay.io/biocontainers/vcf2maf/1.6.21--hdfd78af_0
+$ module load quay.io/biocontainers/vcf2maf/1.6.22--hdfd78af_0
+$ module help quay.io/biocontainers/vcf2maf/1.6.22--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
