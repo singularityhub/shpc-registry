@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/sortmerna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sortmerna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sortmerna/container.yaml"
-updated_at: "2024-06-08 03:01:54.623505"
-latest: "4.3.6--h9ee0642_0"
+updated_at: "2024-06-09 03:05:23.331439"
+latest: "4.3.7--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/sortmerna"
 aliases:
  - "sortmerna"
 versions:
  - "4.3.6--h9ee0642_0"
+ - "4.3.7--hdbdd923_0"
 description: "shpc-registry automated BioContainers addition for sortmerna"
-config: {"url": "https://biocontainers.pro/tools/sortmerna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sortmerna", "latest": {"4.3.6--h9ee0642_0": "sha256:e35dc8312efb4255dafc0b06197838785a50c364d2baa64b9adcad65f8feb57c"}, "tags": {"4.3.6--h9ee0642_0": "sha256:e35dc8312efb4255dafc0b06197838785a50c364d2baa64b9adcad65f8feb57c"}, "docker": "quay.io/biocontainers/sortmerna", "aliases": {"sortmerna": "/usr/local/bin/sortmerna"}}
+config: {"url": "https://biocontainers.pro/tools/sortmerna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sortmerna", "latest": {"4.3.7--hdbdd923_0": "sha256:94d2fdcaa4c21b5db8e1a22ad7a43938bb4002d6dc243bee02b3ec7940e3f96f"}, "tags": {"4.3.6--h9ee0642_0": "sha256:e35dc8312efb4255dafc0b06197838785a50c364d2baa64b9adcad65f8feb57c", "4.3.7--hdbdd923_0": "sha256:94d2fdcaa4c21b5db8e1a22ad7a43938bb4002d6dc243bee02b3ec7940e3f96f"}, "docker": "quay.io/biocontainers/sortmerna", "aliases": {"sortmerna": "/usr/local/bin/sortmerna"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sortmerna.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/sortmerna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sortmerna:4.3.6--h9ee0642_0
+$ shpc install quay.io/biocontainers/sortmerna:4.3.7--hdbdd923_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sortmerna/4.3.6--h9ee0642_0
-$ module help quay.io/biocontainers/sortmerna/4.3.6--h9ee0642_0
+$ module load quay.io/biocontainers/sortmerna/4.3.7--hdbdd923_0
+$ module help quay.io/biocontainers/sortmerna/4.3.7--hdbdd923_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
