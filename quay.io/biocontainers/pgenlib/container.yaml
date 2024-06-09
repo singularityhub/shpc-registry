@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/pgenlib
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pgenlib
 latest:
-  0.90.2--py38h6c5ba02_0: sha256:283eb1252e8192c79ba70ddcb5806766f7b398652139eb42a8150072426693ee
+  0.90.2--py312hf0ab922_1: sha256:fc2175128f86c70b3de6808e3cda315a66e1ae3c7c57c1d22915b1f76ae2adf1
 tags:
   0.90.1--py310h551a815_0: sha256:60c573c7917153c77b62cc494a5ac014e62bf5ced1ed5b3a1078f7064f99daaf
   0.90.2--py38h6c5ba02_0: sha256:283eb1252e8192c79ba70ddcb5806766f7b398652139eb42a8150072426693ee
   0.90.2--py310h551a815_0: sha256:5acf608d0063b3b93e9100ad7160061893b7d2090f227455f974263be6083e75
+  0.90.2--py312hf0ab922_1: sha256:fc2175128f86c70b3de6808e3cda315a66e1ae3c7c57c1d22915b1f76ae2adf1
 docker: quay.io/biocontainers/pgenlib
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/autometa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for autometa
 latest:
-  2.2.1--pyh7cba7a3_0: sha256:72d2894a45615d0821c46904a9387f9f17c582234d04dc11653ae32e65fc6ef8
+  2.2.2--pyh7cba7a3_0: sha256:23d773ddcf35d56e3dba17a531648c11e4bcd007afa94c46f20bc38cc37cda21
 tags:
   2.1.0--pyh5e36f6f_0: sha256:0218a75e97b25934b22058e8cea1317a6c1affd0972682d4e8c44550cb1ad9e4
   2.2.0--pyh7cba7a3_0: sha256:3ee6969901c532b8736bc8bfd16739695751da870487ef8b6747be0a477df689
   2.2.1--pyh7cba7a3_0: sha256:72d2894a45615d0821c46904a9387f9f17c582234d04dc11653ae32e65fc6ef8
+  2.2.2--pyh7cba7a3_0: sha256:23d773ddcf35d56e3dba17a531648c11e4bcd007afa94c46f20bc38cc37cda21
 docker: quay.io/biocontainers/autometa
 aliases:
   autometa: /usr/local/bin/autometa
