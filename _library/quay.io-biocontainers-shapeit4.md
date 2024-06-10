@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/shapeit4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shapeit4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shapeit4/container.yaml"
-updated_at: "2024-06-09 03:16:42.641298"
-latest: "4.2.2--h3fe290a_3"
+updated_at: "2024-06-10 03:15:41.385028"
+latest: "4.2.2--h95d4b32_4"
 container_url: "https://biocontainers.pro/tools/shapeit4"
 aliases:
  - "shapeit4"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "4.2.2--h24bf969_1"
  - "4.2.2--h3fe290a_3"
+ - "4.2.2--h95d4b32_4"
 description: "shpc-registry automated BioContainers addition for shapeit4"
-config: {"url": "https://biocontainers.pro/tools/shapeit4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shapeit4", "latest": {"4.2.2--h3fe290a_3": "sha256:5f48c74a5cf6ce180071ec080b7ec88ef196a8477d8b9c1e0d71dc5a5ae54edd"}, "tags": {"4.2.2--h24bf969_1": "sha256:99027f00d2dabd6151f01612cc17d06c1a8731a04473bc2ad24a4cb1f734a861", "4.2.2--h3fe290a_3": "sha256:5f48c74a5cf6ce180071ec080b7ec88ef196a8477d8b9c1e0d71dc5a5ae54edd"}, "docker": "quay.io/biocontainers/shapeit4", "aliases": {"shapeit4": "/usr/local/bin/shapeit4", "shapeit4.2": "/usr/local/bin/shapeit4.2", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/shapeit4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shapeit4", "latest": {"4.2.2--h95d4b32_4": "sha256:90f225faef7cefbe7c65031e16b7c84ac26dba76a3754c021faf2e4337b51a94"}, "tags": {"4.2.2--h24bf969_1": "sha256:99027f00d2dabd6151f01612cc17d06c1a8731a04473bc2ad24a4cb1f734a861", "4.2.2--h3fe290a_3": "sha256:5f48c74a5cf6ce180071ec080b7ec88ef196a8477d8b9c1e0d71dc5a5ae54edd", "4.2.2--h95d4b32_4": "sha256:90f225faef7cefbe7c65031e16b7c84ac26dba76a3754c021faf2e4337b51a94"}, "docker": "quay.io/biocontainers/shapeit4", "aliases": {"shapeit4": "/usr/local/bin/shapeit4", "shapeit4.2": "/usr/local/bin/shapeit4.2", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shapeit4.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/shapeit4
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/shapeit4:4.2.2--h3fe290a_3
+$ shpc install quay.io/biocontainers/shapeit4:4.2.2--h95d4b32_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/shapeit4/4.2.2--h3fe290a_3
-$ module help quay.io/biocontainers/shapeit4/4.2.2--h3fe290a_3
+$ module load quay.io/biocontainers/shapeit4/4.2.2--h95d4b32_4
+$ module help quay.io/biocontainers/shapeit4/4.2.2--h95d4b32_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

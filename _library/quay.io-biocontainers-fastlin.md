@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastlin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastlin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastlin/container.yaml"
-updated_at: "2024-06-09 03:13:19.450505"
+updated_at: "2024-06-10 03:12:19.827471"
 latest: "0.2.3--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/fastlin"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/r-seqlogo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/r-seqlogo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/r-seqlogo/container.yaml"
-updated_at: "2024-06-09 03:21:52.755607"
+updated_at: "2024-06-10 03:20:48.355433"
 latest: "1.62.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/r-seqlogo"
 

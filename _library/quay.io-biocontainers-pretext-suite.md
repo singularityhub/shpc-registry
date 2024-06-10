@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pretext-suite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pretext-suite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pretext-suite/container.yaml"
-updated_at: "2024-06-09 03:09:00.579039"
+updated_at: "2024-06-10 03:08:03.237219"
 latest: "0.0.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pretext-suite"
 aliases:

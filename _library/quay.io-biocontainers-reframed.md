@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/reframed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reframed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reframed/container.yaml"
-updated_at: "2024-06-09 03:16:17.321747"
+updated_at: "2024-06-10 03:15:16.092741"
 latest: "1.5.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/reframed"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xtail"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xtail/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xtail/container.yaml"
-updated_at: "2024-06-09 03:15:18.334492"
+updated_at: "2024-06-10 03:14:17.599776"
 latest: "1.1.5--r40_4"
 container_url: "https://biocontainers.pro/tools/xtail"
 aliases:

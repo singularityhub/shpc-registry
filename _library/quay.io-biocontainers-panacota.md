@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panacota"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panacota/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panacota/container.yaml"
-updated_at: "2024-06-09 03:11:08.068200"
+updated_at: "2024-06-10 03:10:09.549963"
 latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/panacota"
 aliases:

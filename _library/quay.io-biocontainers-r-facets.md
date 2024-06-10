@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-facets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-facets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-facets/container.yaml"
-updated_at: "2024-06-09 02:59:24.670963"
+updated_at: "2024-06-10 02:58:32.605253"
 latest: "0.6.2--r43haf399aa_4"
 container_url: "https://biocontainers.pro/tools/r-facets"
 

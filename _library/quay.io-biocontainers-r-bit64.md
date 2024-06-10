@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bit64"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bit64/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bit64/container.yaml"
-updated_at: "2024-06-09 02:37:33.465733"
+updated_at: "2024-06-10 02:36:54.548314"
 latest: "0.9_5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-bit64"
 aliases:

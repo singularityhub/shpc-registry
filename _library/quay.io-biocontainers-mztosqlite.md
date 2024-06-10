@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mztosqlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mztosqlite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mztosqlite/container.yaml"
-updated_at: "2024-06-09 03:15:37.384408"
-latest: "2.1.1--py310h7cba7a3_1"
+updated_at: "2024-06-10 03:14:36.443995"
+latest: "2.1.1--py312h7e72e81_2"
 container_url: "https://biocontainers.pro/tools/mztosqlite"
 aliases:
  - "mz_to_sqlite"
@@ -21,8 +21,9 @@ aliases:
  - "jlink"
 versions:
  - "2.1.1--py310h7cba7a3_1"
+ - "2.1.1--py312h7e72e81_2"
 description: "shpc-registry automated BioContainers addition for mztosqlite"
-config: {"url": "https://biocontainers.pro/tools/mztosqlite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mztosqlite", "latest": {"2.1.1--py310h7cba7a3_1": "sha256:86dbba97978c6e4ad89c5d95e380eba07c641c96e526af6c47eb14c987e3c51b"}, "tags": {"2.1.1--py310h7cba7a3_1": "sha256:86dbba97978c6e4ad89c5d95e380eba07c641c96e526af6c47eb14c987e3c51b"}, "docker": "quay.io/biocontainers/mztosqlite", "aliases": {"mz_to_sqlite": "/usr/local/bin/mz_to_sqlite", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/mztosqlite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mztosqlite", "latest": {"2.1.1--py312h7e72e81_2": "sha256:f99abcb18719156a0a17e517d2447064cf460dceeade7673f1e96b7ce853393c"}, "tags": {"2.1.1--py310h7cba7a3_1": "sha256:86dbba97978c6e4ad89c5d95e380eba07c641c96e526af6c47eb14c987e3c51b", "2.1.1--py312h7e72e81_2": "sha256:f99abcb18719156a0a17e517d2447064cf460dceeade7673f1e96b7ce853393c"}, "docker": "quay.io/biocontainers/mztosqlite", "aliases": {"mz_to_sqlite": "/usr/local/bin/mz_to_sqlite", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mztosqlite.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/mztosqlite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mztosqlite:2.1.1--py310h7cba7a3_1
+$ shpc install quay.io/biocontainers/mztosqlite:2.1.1--py312h7e72e81_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mztosqlite/2.1.1--py310h7cba7a3_1
-$ module help quay.io/biocontainers/mztosqlite/2.1.1--py310h7cba7a3_1
+$ module load quay.io/biocontainers/mztosqlite/2.1.1--py312h7e72e81_2
+$ module help quay.io/biocontainers/mztosqlite/2.1.1--py312h7e72e81_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

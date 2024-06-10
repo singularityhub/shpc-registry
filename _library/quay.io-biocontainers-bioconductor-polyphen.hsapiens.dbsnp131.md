@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131/container.yaml"
-updated_at: "2024-06-09 02:46:08.546095"
+updated_at: "2024-06-10 02:45:24.179860"
 latest: "1.0.2--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-polyphen.hsapiens.dbsnp131"
 

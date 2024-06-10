@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbmarkdup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbmarkdup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbmarkdup/container.yaml"
-updated_at: "2024-06-09 02:59:54.313530"
+updated_at: "2024-06-10 02:59:01.997884"
 latest: "1.0.3--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/pbmarkdup"
 aliases:

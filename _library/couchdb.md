@@ -4,7 +4,7 @@ name:  "couchdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/couchdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/couchdb/container.yaml"
-updated_at: "2024-06-09 03:21:39.862562"
+updated_at: "2024-06-10 03:20:35.577865"
 latest: "3.3"
 container_url: "https://hub.docker.com/_/couchdb"
 aliases:
@@ -24,7 +24,7 @@ versions:
  - "3.0"
  - "3.3"
 description: "CouchDB is a database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing."
-config: {"docker": "couchdb", "url": "https://hub.docker.com/_/couchdb", "maintainer": "@vsoch", "description": "CouchDB is a database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing.", "latest": {"3.3": "sha256:3726254854224cb5d4a4e367fafefd702c7d9846a37fe96994e3d66fa57e9e5e"}, "tags": {"2": "sha256:5d1c0739afd9c14716d5b1f178fd9211fbeb62bc5865d501801bcc8547947e66", "3.1.1": "sha256:b422509b1648306dee1038f41756a982aefa17f986fa8ba18f6cd80e433dafdf", "3.2.0": "sha256:721df2c2a5da1b477e3976f3f10c3d1f015ba3c0101fb49efdcb7062b695a32c", "3.2.1": "sha256:37a7a9aab050c8c376b012d9c52da58e2c94d221b0eb5567edb88d8ceca096ee", "latest": "sha256:3726254854224cb5d4a4e367fafefd702c7d9846a37fe96994e3d66fa57e9e5e", "3": "sha256:3726254854224cb5d4a4e367fafefd702c7d9846a37fe96994e3d66fa57e9e5e", "3.2": "sha256:4ac77381a1fb34164219f2a5b806c217fbdff1e34a276bdc848368ab92ba5814", "3.1": "sha256:f97f62e1964e60ad3218f344fe7a6a3ef2bba3e8ac412e9546757676faf048e8", "3.0": "sha256:3257ad20542c483e744cf747641fb20d6b75ef627ff273f78be9e371e35f9608", "3.3": "sha256:3726254854224cb5d4a4e367fafefd702c7d9846a37fe96994e3d66fa57e9e5e"}, "aliases": {"couchdb": "/opt/couchdb/bin/couchdb", "couchdb.cmd": "/opt/couchdb/bin/couchdb.cmd", "couchjs": "/opt/couchdb/bin/couchjs", "remsh": "/opt/couchdb/bin/remsh"}}
+config: {"docker": "couchdb", "url": "https://hub.docker.com/_/couchdb", "maintainer": "@vsoch", "description": "CouchDB is a database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing.", "latest": {"3.3": "sha256:d585c55561969b6f79b09d98de22c892646e56c9c6987c47c5267b9ee4d7fb64"}, "tags": {"2": "sha256:5c83dab4f1994ee4bb9529e9b1d282406054a1f4ad957d80df9e1624bdfb35d7", "3.1.1": "sha256:b422509b1648306dee1038f41756a982aefa17f986fa8ba18f6cd80e433dafdf", "3.2.0": "sha256:721df2c2a5da1b477e3976f3f10c3d1f015ba3c0101fb49efdcb7062b695a32c", "3.2.1": "sha256:37a7a9aab050c8c376b012d9c52da58e2c94d221b0eb5567edb88d8ceca096ee", "latest": "sha256:d585c55561969b6f79b09d98de22c892646e56c9c6987c47c5267b9ee4d7fb64", "3": "sha256:d585c55561969b6f79b09d98de22c892646e56c9c6987c47c5267b9ee4d7fb64", "3.2": "sha256:1d446e8539d26cd6af1663716149dcbb5c4f3e995161f1c1a458336805503ab3", "3.1": "sha256:e74fd54ce04275d3b6df19f74a6b0cfe21617d3cc3f4325cfd6c37f2dd50078c", "3.0": "sha256:3257ad20542c483e744cf747641fb20d6b75ef627ff273f78be9e371e35f9608", "3.3": "sha256:d585c55561969b6f79b09d98de22c892646e56c9c6987c47c5267b9ee4d7fb64"}, "aliases": {"couchdb": "/opt/couchdb/bin/couchdb", "couchdb.cmd": "/opt/couchdb/bin/couchdb.cmd", "couchjs": "/opt/couchdb/bin/couchjs", "remsh": "/opt/couchdb/bin/remsh"}}
 ---
 
 This module is a singularity container wrapper for couchdb.

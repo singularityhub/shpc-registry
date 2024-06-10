@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plotsr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plotsr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plotsr/container.yaml"
-updated_at: "2024-06-09 03:05:34.856279"
+updated_at: "2024-06-10 03:04:39.500151"
 latest: "1.1.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/plotsr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moosex-types-path-tiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-types-path-tiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-types-path-tiny/container.yaml"
-updated_at: "2024-06-09 03:09:36.173092"
+updated_at: "2024-06-10 03:08:38.516786"
 latest: "0.012--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-moosex-types-path-tiny"
 aliases:

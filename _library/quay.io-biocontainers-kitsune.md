@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kitsune"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kitsune/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kitsune/container.yaml"
-updated_at: "2024-06-09 02:56:46.058256"
-latest: "1.3.3--pyhdfd78af_0"
+updated_at: "2024-06-10 02:55:55.554853"
+latest: "1.3.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kitsune"
 aliases:
  - "kitsune"
@@ -21,8 +21,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.3.3--pyhdfd78af_0"
+ - "1.3.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for kitsune"
-config: {"url": "https://biocontainers.pro/tools/kitsune", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kitsune", "latest": {"1.3.3--pyhdfd78af_0": "sha256:dea5da191097d7956ddcb61b7419dd360491f40d10269f7f56fbe42454cbc753"}, "tags": {"1.3.3--pyhdfd78af_0": "sha256:dea5da191097d7956ddcb61b7419dd360491f40d10269f7f56fbe42454cbc753"}, "docker": "quay.io/biocontainers/kitsune", "aliases": {"kitsune": "/usr/local/bin/kitsune", "jellyfish": "/usr/local/bin/jellyfish", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/kitsune", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kitsune", "latest": {"1.3.5--pyhdfd78af_0": "sha256:743ecbe805214f7cf2ef01a7ed1eac4a1b51149965e064bbb903fd8e480bf8f1"}, "tags": {"1.3.3--pyhdfd78af_0": "sha256:dea5da191097d7956ddcb61b7419dd360491f40d10269f7f56fbe42454cbc753", "1.3.5--pyhdfd78af_0": "sha256:743ecbe805214f7cf2ef01a7ed1eac4a1b51149965e064bbb903fd8e480bf8f1"}, "docker": "quay.io/biocontainers/kitsune", "aliases": {"kitsune": "/usr/local/bin/kitsune", "jellyfish": "/usr/local/bin/jellyfish", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kitsune.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/kitsune
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kitsune:1.3.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/kitsune:1.3.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kitsune/1.3.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/kitsune/1.3.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/kitsune/1.3.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/kitsune/1.3.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
