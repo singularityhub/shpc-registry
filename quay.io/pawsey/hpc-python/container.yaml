@@ -3,10 +3,9 @@ url: https://quay.io/repository/pawsey/hpc-python
 maintainer: '@marcodelapierre'
 description: Base Python images with popular packages for HPC workflows.
 latest:
-  '2022.03': sha256:962e7c24302b2dc3946bb22326d0cb4385373113a212231488070aa3e43bd1a1
+  '3.11-ubuntu23.04': sha256:09ffa5a5a2b477f11827b4ea2e60e367e2ee0b5da8829b5bd31c833b76a20570
 tags:
-  '2022.03': sha256:962e7c24302b2dc3946bb22326d0cb4385373113a212231488070aa3e43bd1a1
-  2022.03-hdf5mpi: sha256:e9a0db88e98c2388d8731a983ed845b46ce0e2d99d4566802b84142ce21e1c23
+  '3.11-ubuntu23.04': sha256:09ffa5a5a2b477f11827b4ea2e60e367e2ee0b5da8829b5bd31c833b76a20570
 aliases:
   python: /usr/local/bin/python
   python3: /usr/local/bin/python3
