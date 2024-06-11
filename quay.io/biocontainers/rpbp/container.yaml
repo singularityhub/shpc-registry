@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/rpbp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rpbp
 latest:
-  3.0.2--py310h0dbaff4_1: sha256:0d7cdfeb2ffeb093b1c94cc169594467695ed278270a290e4e1b4dfb6536d6f9
+  3.0.4--py310h0dbaff4_0: sha256:2e78526cde7234b6427f2f299666d4ddfcfbcfde8ad0ae24ba648c4ba7134b63
 tags:
   3.0.1--py38h4a32c8e_0: sha256:2be22cc25f5969f212e96e948fdd176061d714796377b1fd4141bbe04d244f60
   3.0.2--py310h0dbaff4_1: sha256:0d7cdfeb2ffeb093b1c94cc169594467695ed278270a290e4e1b4dfb6536d6f9
   3.0.2--py39h1f90b4d_1: sha256:ff54eda9bf074c64ea5a30576b108624de8a3a4f65b86c2e1f4434f372d0f50f
+  3.0.4--py310h0dbaff4_0: sha256:2e78526cde7234b6427f2f299666d4ddfcfbcfde8ad0ae24ba648c4ba7134b63
 docker: quay.io/biocontainers/rpbp
 aliases:
   add-mygene-info-to-orfs: /usr/local/bin/add-mygene-info-to-orfs

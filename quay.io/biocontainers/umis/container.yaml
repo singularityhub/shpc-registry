@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/umis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for umis
 latest:
-  1.0.9--py39hf95cd2a_2: sha256:cc43549bd917e392d482fe83279f8efe4728343a1fc11e1d54d2027cf27583b8
+  1.0.9--py39hff71179_3: sha256:c5acf9313fb1c5800fc7ce07b4aad2c915db14caccf6e90d34fb1f89bdb4ba88
 tags:
   1.0.7--py27h516909a_0: sha256:c13a0a65712c77f17e35298202ee1ea2bd2bd4c29ca47e63b82b136cfbf638d6
   1.0.9--py27h9801fc8_0: sha256:c7aa72b01797584444066c2bf8852031b6f8dd58aeedf7f7bad3ede7e4d7e06f
   1.0.9--py39hf95cd2a_2: sha256:cc43549bd917e392d482fe83279f8efe4728343a1fc11e1d54d2027cf27583b8
+  1.0.9--py39hff71179_3: sha256:c5acf9313fb1c5800fc7ce07b4aad2c915db14caccf6e90d34fb1f89bdb4ba88
 docker: quay.io/biocontainers/umis

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/nmrglue
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nmrglue
 latest:
-  0.9--py38he5da3d1_0: sha256:a7d6df8e22bceb1ecf65e2144a9966d998eea44652f6ea534800b259f9022738
+  0.9--py310h7c593f9_1: sha256:b2cf245ac464ff7ef43287447600af4632a74666d4bd0912f92db53900c9b644
 tags:
   0.8--py36h91eb985_2: sha256:08dea831b6d34e9ddc6223f1e8d3743aa3e936552e5055d56bbb3dd047d67e08
   0.8--py27h9801fc8_3: sha256:008d9b0bcb6e0de2f94a9686b6cfe13e2bf870de17783757b8657b003b959d07
@@ -10,6 +10,7 @@ tags:
   0.9--py38he5da3d1_0: sha256:a7d6df8e22bceb1ecf65e2144a9966d998eea44652f6ea534800b259f9022738
   0.9--py310h4b81fae_0: sha256:30d3e801be91a8a6ca32aca371a1b3df285fccde8b0d7ae0ab75880133c70d85
   0.8--py38he5da3d1_5: sha256:2b6e18ba4d1b0a929d2a11a26f1c2dd1dfe6b1224b92bf103b0761b016430cc0
+  0.9--py310h7c593f9_1: sha256:b2cf245ac464ff7ef43287447600af4632a74666d4bd0912f92db53900c9b644
 docker: quay.io/biocontainers/nmrglue
 aliases:
   f2py3.6: /usr/local/bin/f2py3.6

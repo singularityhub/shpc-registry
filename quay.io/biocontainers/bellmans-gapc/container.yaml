@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/bellmans-gapc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bellmans-gapc
 latest:
-  2024.01.12--hac0e68f_0: sha256:dfee14f73e761687d795568a97d422f47b828f1c857b006fae4e20983ec656bb
+  2024.01.12--h0432e7c_1: sha256:b831ab4e1db31f3e014f51c0c2c086f37dbca046bfb70406f72905d0f6c8e731
 tags:
   2022.07.04--h16d3260_0: sha256:855d0499991c6977e7e904c86c0ac1cff89ac6a0386e719b0635dc71c366520b
   2022.07.04--h16d3260_1: sha256:d3687cbcc0a8a48f7a328c6e1b6bdb3e76000b3c3c165faea609d4de96c3c319
   2022.07.04--hac0e68f_2: sha256:f341ee1cf4c49a4ed8c45b17c09e5122597475a92e8b8d0bc4bf88cfd9e3cc83
   2023.07.05--hac0e68f_0: sha256:c8b9a19590d103a8cdc51a99ad7aace89d13968b795798f359e7f8e39abc86a6
   2024.01.12--hac0e68f_0: sha256:dfee14f73e761687d795568a97d422f47b828f1c857b006fae4e20983ec656bb
+  2024.01.12--h0432e7c_1: sha256:b831ab4e1db31f3e014f51c0c2c086f37dbca046bfb70406f72905d0f6c8e731
 docker: quay.io/biocontainers/bellmans-gapc
 aliases:
   gapc: /usr/local/bin/gapc

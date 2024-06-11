@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/entrez-direct
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for entrez-direct
 latest:
-  21.6--he881be0_0: sha256:2306b887474eaeae13f3932b00a37f8acf4babf17008e028be6e90ed872a89b9
+  22.1--he881be0_0: sha256:73bbc354c23db556ee44f1f5b486c8314366ff2cf08497eb56b71bd26a38b280
 tags:
   7.70--pl526_2: sha256:5dfbbee26e1a0111d50a57862385606d61ea48576dc8c6cf0db5c8d7db912494
   16.2--he881be0_1: sha256:08a155e41ff29d396620a40906a16d3285fa21b508704ea161aeb3c2e071ef07
@@ -11,6 +11,7 @@ tags:
   13.8--pl526h375a9b1_0: sha256:bb569f53c1a9f96228df380810945df1da91c7cc68048f6ae4d3a650e79a838c
   13.3--pl526h375a9b1_0: sha256:861091e023c59e6b5d39e54954ad284c31ed684dc7530aa1431ca6047c161c5f
   21.6--he881be0_0: sha256:2306b887474eaeae13f3932b00a37f8acf4babf17008e028be6e90ed872a89b9
+  22.1--he881be0_0: sha256:73bbc354c23db556ee44f1f5b486c8314366ff2cf08497eb56b71bd26a38b280
 docker: quay.io/biocontainers/entrez-direct
 aliases:
   asp-ls.bak: /usr/local/bin/asp-ls.bak

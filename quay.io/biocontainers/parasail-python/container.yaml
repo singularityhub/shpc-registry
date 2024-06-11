@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/parasail-python
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for parasail-python
 latest:
-  1.3.4--py310h6cc9453_1: sha256:56782758e25a35b24d299b9752fbaf01f85be168eb6fe805fa2387a54e1073cc
+  1.3.4--py38h40d3509_2: sha256:93fed0ff73854d5f32099a0f118defc0b4b1ebdae069e1f178de487db9e26ffa
 tags:
   1.2.4--py38h3b68952_2: sha256:78d3565f88b8f4c480b9387548012eb06b6cc43c8c65ae993e0d8ceaaadd25c9
   1.3.4--py38h5cf8b27_0: sha256:4551a9a8297d0b7237d5caa607ee94e26a86fec877ff27817e50aaa291b51ad0
   1.2.4--py310hc8f18ef_2: sha256:8d2b4a6d5bffcffa63ea0a61dbef42883bcaf30fabe33ef6c2fcff46368b66fd
   1.3.4--py310h6cc9453_1: sha256:56782758e25a35b24d299b9752fbaf01f85be168eb6fe805fa2387a54e1073cc
+  1.3.4--py38h40d3509_2: sha256:93fed0ff73854d5f32099a0f118defc0b4b1ebdae069e1f178de487db9e26ffa
 docker: quay.io/biocontainers/parasail-python
 aliases:
   f2py3.8: /usr/local/bin/f2py3.8

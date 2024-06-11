@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/pcasuite
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pcasuite
 latest:
-  1.0.0--h27c8258_3: sha256:39eea2a0286b564b9191b4591a6bec6ab23fcddd3c5da45d20c475cca98d9adc
+  1.0.0--hc018b49_4: sha256:dcfabdf805ef241c04cd6b0c0ba01d3dd256ad48dbd16a389168138e36dab5b5
 tags:
   1.0.0--h52efb1e_1: sha256:acc77c9379704b671b27c4a5d2ace64c935aa91ec9f2fcb6c37b17085a8021f9
   1.0.0--h52efb1e_2: sha256:7ccc05f63410969619e2f6b032970045eff3ed13380188772e24cd48b7d8c1c8
   1.0.0--h27c8258_3: sha256:39eea2a0286b564b9191b4591a6bec6ab23fcddd3c5da45d20c475cca98d9adc
+  1.0.0--hc018b49_4: sha256:dcfabdf805ef241c04cd6b0c0ba01d3dd256ad48dbd16a389168138e36dab5b5
 docker: quay.io/biocontainers/pcasuite
 aliases:
   bison: /usr/local/bin/bison
