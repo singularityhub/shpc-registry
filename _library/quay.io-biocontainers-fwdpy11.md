@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fwdpy11"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fwdpy11/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fwdpy11/container.yaml"
-updated_at: "2024-06-11 02:53:00.255531"
+updated_at: "2024-06-11 05:18:32.731433"
 latest: "0.22.2--py39h58a975e_0"
 container_url: "https://biocontainers.pro/tools/fwdpy11"
 aliases:

@@ -4,17 +4,16 @@ name:  "quay.io/pawsey/hpc-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/hpc-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/hpc-python/container.yaml"
-updated_at: "2024-06-11 03:19:26.578626"
-latest: "2022.03"
+updated_at: "2024-06-11 05:45:44.510601"
+latest: "3.11-ubuntu23.04"
 container_url: "https://quay.io/repository/pawsey/hpc-python"
 aliases:
  - "python"
  - "python3"
 versions:
- - "2022.03"
- - "2022.03-hdf5mpi"
+ - "3.11-ubuntu23.04"
 description: "Base Python images with popular packages for HPC workflows."
-config: {"docker": "quay.io/pawsey/hpc-python", "url": "https://quay.io/repository/pawsey/hpc-python", "maintainer": "@marcodelapierre", "description": "Base Python images with popular packages for HPC workflows.", "latest": {"2022.03": "sha256:962e7c24302b2dc3946bb22326d0cb4385373113a212231488070aa3e43bd1a1"}, "tags": {"2022.03": "sha256:962e7c24302b2dc3946bb22326d0cb4385373113a212231488070aa3e43bd1a1", "2022.03-hdf5mpi": "sha256:e9a0db88e98c2388d8731a983ed845b46ce0e2d99d4566802b84142ce21e1c23"}, "aliases": {"python": "/usr/local/bin/python", "python3": "/usr/local/bin/python3"}, "env": {"PYTHONSTARTUP": "", "PYTHONUSERBASE": ""}, "features": {"home": true}}
+config: {"docker": "quay.io/pawsey/hpc-python", "url": "https://quay.io/repository/pawsey/hpc-python", "maintainer": "@marcodelapierre", "description": "Base Python images with popular packages for HPC workflows.", "latest": {"3.11-ubuntu23.04": "sha256:09ffa5a5a2b477f11827b4ea2e60e367e2ee0b5da8829b5bd31c833b76a20570"}, "tags": {"3.11-ubuntu23.04": "sha256:09ffa5a5a2b477f11827b4ea2e60e367e2ee0b5da8829b5bd31c833b76a20570"}, "aliases": {"python": "/usr/local/bin/python", "python3": "/usr/local/bin/python3"}, "env": {"PYTHONSTARTUP": "", "PYTHONUSERBASE": ""}, "features": {"home": true}}
 ---
 
 This module is a singularity container wrapper for quay.io/pawsey/hpc-python.
@@ -29,7 +28,7 @@ $ shpc install quay.io/pawsey/hpc-python
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/pawsey/hpc-python:2022.03
+$ shpc install quay.io/pawsey/hpc-python:3.11-ubuntu23.04
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/pawsey/hpc-python/2022.03
-$ module help quay.io/pawsey/hpc-python/2022.03
+$ module load quay.io/pawsey/hpc-python/3.11-ubuntu23.04
+$ module help quay.io/pawsey/hpc-python/3.11-ubuntu23.04
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tepid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tepid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tepid/container.yaml"
-updated_at: "2024-06-11 03:03:50.796309"
+updated_at: "2024-06-11 05:29:45.299912"
 latest: "0.10--py_0"
 container_url: "https://biocontainers.pro/tools/tepid"
 aliases:
