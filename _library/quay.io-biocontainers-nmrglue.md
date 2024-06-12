@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nmrglue"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nmrglue/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nmrglue/container.yaml"
-updated_at: "2024-06-11 05:37:44.848024"
-latest: "0.9--py38he5da3d1_0"
+updated_at: "2024-06-12 03:11:53.715123"
+latest: "0.9--py310h7c593f9_1"
 container_url: "https://biocontainers.pro/tools/nmrglue"
 aliases:
  - "f2py3.6"
@@ -25,8 +25,9 @@ versions:
  - "0.9--py38he5da3d1_0"
  - "0.9--py310h4b81fae_0"
  - "0.8--py38he5da3d1_5"
+ - "0.9--py310h7c593f9_1"
 description: "shpc-registry automated BioContainers addition for nmrglue"
-config: {"url": "https://biocontainers.pro/tools/nmrglue", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nmrglue", "latest": {"0.9--py38he5da3d1_0": "sha256:a7d6df8e22bceb1ecf65e2144a9966d998eea44652f6ea534800b259f9022738"}, "tags": {"0.8--py36h91eb985_2": "sha256:08dea831b6d34e9ddc6223f1e8d3743aa3e936552e5055d56bbb3dd047d67e08", "0.8--py27h9801fc8_3": "sha256:008d9b0bcb6e0de2f94a9686b6cfe13e2bf870de17783757b8657b003b959d07", "0.8--py310h4b81fae_5": "sha256:eef49f8b4a3977c3cfd693cf93f18224d7af78bfc116c817e7e003a701c2b335", "0.9--py38he5da3d1_0": "sha256:a7d6df8e22bceb1ecf65e2144a9966d998eea44652f6ea534800b259f9022738", "0.9--py310h4b81fae_0": "sha256:30d3e801be91a8a6ca32aca371a1b3df285fccde8b0d7ae0ab75880133c70d85", "0.8--py38he5da3d1_5": "sha256:2b6e18ba4d1b0a929d2a11a26f1c2dd1dfe6b1224b92bf103b0761b016430cc0"}, "docker": "quay.io/biocontainers/nmrglue", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/nmrglue", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nmrglue", "latest": {"0.9--py310h7c593f9_1": "sha256:b2cf245ac464ff7ef43287447600af4632a74666d4bd0912f92db53900c9b644"}, "tags": {"0.8--py36h91eb985_2": "sha256:08dea831b6d34e9ddc6223f1e8d3743aa3e936552e5055d56bbb3dd047d67e08", "0.8--py27h9801fc8_3": "sha256:008d9b0bcb6e0de2f94a9686b6cfe13e2bf870de17783757b8657b003b959d07", "0.8--py310h4b81fae_5": "sha256:eef49f8b4a3977c3cfd693cf93f18224d7af78bfc116c817e7e003a701c2b335", "0.9--py38he5da3d1_0": "sha256:a7d6df8e22bceb1ecf65e2144a9966d998eea44652f6ea534800b259f9022738", "0.9--py310h4b81fae_0": "sha256:30d3e801be91a8a6ca32aca371a1b3df285fccde8b0d7ae0ab75880133c70d85", "0.8--py38he5da3d1_5": "sha256:2b6e18ba4d1b0a929d2a11a26f1c2dd1dfe6b1224b92bf103b0761b016430cc0", "0.9--py310h7c593f9_1": "sha256:b2cf245ac464ff7ef43287447600af4632a74666d4bd0912f92db53900c9b644"}, "docker": "quay.io/biocontainers/nmrglue", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nmrglue.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/nmrglue
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nmrglue:0.9--py38he5da3d1_0
+$ shpc install quay.io/biocontainers/nmrglue:0.9--py310h7c593f9_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nmrglue/0.9--py38he5da3d1_0
-$ module help quay.io/biocontainers/nmrglue/0.9--py38he5da3d1_0
+$ module load quay.io/biocontainers/nmrglue/0.9--py310h7c593f9_1
+$ module help quay.io/biocontainers/nmrglue/0.9--py310h7c593f9_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

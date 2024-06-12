@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-org.sc.sgd.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.sc.sgd.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.sc.sgd.db/container.yaml"
-updated_at: "2024-06-11 05:32:28.955357"
+updated_at: "2024-06-12 03:06:45.964555"
 latest: "3.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.sc.sgd.db"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/log4cpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/log4cpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/log4cpp/container.yaml"
-updated_at: "2024-06-11 05:09:38.521534"
+updated_at: "2024-06-12 02:44:43.785281"
 latest: "1.1--0"
 container_url: "https://biocontainers.pro/tools/log4cpp"
 aliases:

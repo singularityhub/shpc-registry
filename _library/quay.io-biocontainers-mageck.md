@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/mageck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mageck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mageck/container.yaml"
-updated_at: "2024-06-11 05:11:25.558130"
-latest: "0.5.9.5--py38h2494328_4"
+updated_at: "2024-06-12 02:46:28.287375"
+latest: "0.5.9.5--py311h2a4ad6c_5"
 container_url: "https://biocontainers.pro/tools/mageck"
 
 versions:
  - "0.5.9--py27h6bb024c_0"
  - "0.5.9.5--py39h1f90b4d_3"
  - "0.5.9.5--py38h2494328_4"
+ - "0.5.9.5--py311h2a4ad6c_5"
 description: "shpc-registry automated BioContainers addition for mageck"
-config: {"url": "https://biocontainers.pro/tools/mageck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mageck", "latest": {"0.5.9.5--py38h2494328_4": "sha256:c0a0dc2f99da12af4c9dee2b3dd56918efab6240549b7f5b10c08ec5635f86b3"}, "tags": {"0.5.9--py27h6bb024c_0": "sha256:1c0057e80ebaa7f2185d8bc643201967df4fab848905b550803ede5b7a0888e8", "0.5.9.5--py39h1f90b4d_3": "sha256:46311eda123fa8c2f4cac44921407a11962f7c65d73028f0babd89b709b4dcb9", "0.5.9.5--py38h2494328_4": "sha256:c0a0dc2f99da12af4c9dee2b3dd56918efab6240549b7f5b10c08ec5635f86b3"}, "docker": "quay.io/biocontainers/mageck"}
+config: {"url": "https://biocontainers.pro/tools/mageck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mageck", "latest": {"0.5.9.5--py311h2a4ad6c_5": "sha256:d04109a6ea7ef95157d36fc311c7a455d4254514295c133b173f1fe46abc1a6b"}, "tags": {"0.5.9--py27h6bb024c_0": "sha256:1c0057e80ebaa7f2185d8bc643201967df4fab848905b550803ede5b7a0888e8", "0.5.9.5--py39h1f90b4d_3": "sha256:46311eda123fa8c2f4cac44921407a11962f7c65d73028f0babd89b709b4dcb9", "0.5.9.5--py38h2494328_4": "sha256:c0a0dc2f99da12af4c9dee2b3dd56918efab6240549b7f5b10c08ec5635f86b3", "0.5.9.5--py311h2a4ad6c_5": "sha256:d04109a6ea7ef95157d36fc311c7a455d4254514295c133b173f1fe46abc1a6b"}, "docker": "quay.io/biocontainers/mageck"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mageck.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/mageck
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mageck:0.5.9.5--py38h2494328_4
+$ shpc install quay.io/biocontainers/mageck:0.5.9.5--py311h2a4ad6c_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mageck/0.5.9.5--py38h2494328_4
-$ module help quay.io/biocontainers/mageck/0.5.9.5--py38h2494328_4
+$ module load quay.io/biocontainers/mageck/0.5.9.5--py311h2a4ad6c_5
+$ module help quay.io/biocontainers/mageck/0.5.9.5--py311h2a4ad6c_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

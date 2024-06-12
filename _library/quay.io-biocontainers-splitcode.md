@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/splitcode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/splitcode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/splitcode/container.yaml"
-updated_at: "2024-06-11 05:19:33.960281"
-latest: "0.29.4--hdcf5f25_0"
+updated_at: "2024-06-12 02:54:19.789063"
+latest: "0.30.0--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/splitcode"
 aliases:
  - "splitcode"
 versions:
  - "0.29.4--hdcf5f25_0"
+ - "0.30.0--hdcf5f25_0"
 description: "singularity registry hpc automated addition for splitcode"
-config: {"url": "https://biocontainers.pro/tools/splitcode", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for splitcode", "latest": {"0.29.4--hdcf5f25_0": "sha256:d6deb640e186cc466b2a0e7cc0a03c55794cedcd1c5fc70e61c89cf52883a37b"}, "tags": {"0.29.4--hdcf5f25_0": "sha256:d6deb640e186cc466b2a0e7cc0a03c55794cedcd1c5fc70e61c89cf52883a37b"}, "docker": "quay.io/biocontainers/splitcode", "aliases": {"splitcode": "/usr/local/bin/splitcode"}}
+config: {"url": "https://biocontainers.pro/tools/splitcode", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for splitcode", "latest": {"0.30.0--hdcf5f25_0": "sha256:0612da997efbfd2e7a38933825a7256437667bb702b6fc41f736952d7ffdb7e1"}, "tags": {"0.29.4--hdcf5f25_0": "sha256:d6deb640e186cc466b2a0e7cc0a03c55794cedcd1c5fc70e61c89cf52883a37b", "0.30.0--hdcf5f25_0": "sha256:0612da997efbfd2e7a38933825a7256437667bb702b6fc41f736952d7ffdb7e1"}, "docker": "quay.io/biocontainers/splitcode", "aliases": {"splitcode": "/usr/local/bin/splitcode"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/splitcode.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/splitcode
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/splitcode:0.29.4--hdcf5f25_0
+$ shpc install quay.io/biocontainers/splitcode:0.30.0--hdcf5f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/splitcode/0.29.4--hdcf5f25_0
-$ module help quay.io/biocontainers/splitcode/0.29.4--hdcf5f25_0
+$ module load quay.io/biocontainers/splitcode/0.30.0--hdcf5f25_0
+$ module help quay.io/biocontainers/splitcode/0.30.0--hdcf5f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

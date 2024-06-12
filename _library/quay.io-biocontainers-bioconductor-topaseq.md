@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-topaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-topaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-topaseq/container.yaml"
-updated_at: "2024-06-11 05:33:55.289624"
+updated_at: "2024-06-12 03:08:10.115776"
 latest: "1.24.0--r40h399db7b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-topaseq"
 aliases:

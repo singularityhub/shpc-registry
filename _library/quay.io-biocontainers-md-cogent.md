@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/md-cogent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/md-cogent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/md-cogent/container.yaml"
-updated_at: "2024-06-11 05:43:51.823845"
+updated_at: "2024-06-12 03:17:53.868344"
 latest: "8.0.0--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/md-cogent"
 aliases:
