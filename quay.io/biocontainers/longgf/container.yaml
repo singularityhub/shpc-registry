@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/longgf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for longgf
 latest:
-  0.1.2--h84372a0_6: sha256:41c05b0e46b34d19dbfb6d604067c1e917085ada12184bae1a46115f84953036
+  0.1.2--h4ac6f70_7: sha256:f064ef758bef432a54a46e38c220a616d92f39ba8d01a2215091206a8a649b51
 tags:
   0.1.2--h28e74a2_4: sha256:60f7ff2f499d28f8a4ff17fce5691a582a3d362cc667abdda55e00d803bf32bd
   0.1.2--hf77a93e_5: sha256:e6f5e764731c7638693b4cb01607d8e9ed43b019bb9df407a2150a8a9596e3d4
   0.1.2--h84372a0_6: sha256:41c05b0e46b34d19dbfb6d604067c1e917085ada12184bae1a46115f84953036
+  0.1.2--h4ac6f70_7: sha256:f064ef758bef432a54a46e38c220a616d92f39ba8d01a2215091206a8a649b51
 docker: quay.io/biocontainers/longgf
 aliases:
   LongGF: /usr/local/bin/LongGF

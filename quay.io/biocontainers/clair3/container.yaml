@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/clair3
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for clair3
 latest:
-  1.0.8--py39hf5e1c6e_1: sha256:14de0a4f9b204f29222c44449c8bca29989209f2c077f46f68a5a532173bd22c
+  1.0.8--py39h46983ab_2: sha256:3bcacd1a4491c4c95a6a1c2c39ba4441ab37cd2d618af2dbf4fc9934c6af445f
 tags:
   0.1.9--hdfd78af_0: sha256:3741ca6b49eaaa716d5314a749ae9df757fdcf7b14ed9774711a7825b9bd531b
   0.1.12--py39hb9dc472_6: sha256:ca4e8cc2798209dac532bd00864495b14106fe7b1be4b0c729898f820054d6fd
@@ -17,6 +17,7 @@ tags:
   1.0.5--py39hf5e1c6e_0: sha256:7c35dd6f7de6fc35e69b978cc9af5b96048aeb02410be12f1cbc298a538dfc81
   1.0.7--py39hf5e1c6e_0: sha256:30104b3c4b785df678e824bf07cf27cc00f32031e6273d8006dfbc826eee2c6e
   1.0.8--py39hf5e1c6e_1: sha256:14de0a4f9b204f29222c44449c8bca29989209f2c077f46f68a5a532173bd22c
+  1.0.8--py39h46983ab_2: sha256:3bcacd1a4491c4c95a6a1c2c39ba4441ab37cd2d618af2dbf4fc9934c6af445f
 docker: quay.io/biocontainers/clair3
 aliases:
   clair3.py: /usr/local/bin/clair3.py

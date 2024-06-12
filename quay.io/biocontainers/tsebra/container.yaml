@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/tsebra
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tsebra
 latest:
-  1.1.2.4--pyhca03a8a_0: sha256:211158a8c75e560bf2e7a4f899b988c12634768eabfe8707c0f6bd9adc547f43
+  1.1.2.5--pyhca03a8a_0: sha256:123dad62998b9cc2fb2b0d7590eeed4b678b6e41ce05c8a50b271a55922e52ef
 tags:
   1.1.1--pyhca03a8a_0: sha256:9203773dc6c39f1448b1eddd9ab33cb5b05409ba84fb939e110f89f21e464fdf
   1.1.2--pyhca03a8a_0: sha256:cf1d149ccbe505772a95fb61ac39fe41a59ac23968d7aaa9ab67054161fa9102
   1.1.2.2--pyhca03a8a_0: sha256:eb2c66ec0e47a8d56b20ec6a6fe713ba1f47e5bf0ce6ef035122f893616a2282
   1.1.2.4--pyhca03a8a_0: sha256:211158a8c75e560bf2e7a4f899b988c12634768eabfe8707c0f6bd9adc547f43
+  1.1.2.5--pyhca03a8a_0: sha256:123dad62998b9cc2fb2b0d7590eeed4b678b6e41ce05c8a50b271a55922e52ef
 docker: quay.io/biocontainers/tsebra
 aliases:
   evidence.py: /usr/local/bin/evidence.py

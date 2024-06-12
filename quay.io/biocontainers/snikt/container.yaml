@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/snikt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for snikt
 latest:
-  0.5.0--r42hdfd78af_1: sha256:31e40c36c138f5a5b3b40464d6a9b6ec0d316e3ce5b8762b21412fdef5040185
+  0.5.0--r43hdfd78af_2: sha256:c35173b682ae55a5cc99d44b4e7d7b1c8c4b1e756fe6a4ef371d0c84da87a67b
 tags:
   0.5.0--r41hdfd78af_0: sha256:269918776ab7e236c31ee209cd815e5a11dc5ed4620aeb5090263914fd9def9d
   0.5.0--r42hdfd78af_1: sha256:31e40c36c138f5a5b3b40464d6a9b6ec0d316e3ce5b8762b21412fdef5040185
+  0.5.0--r43hdfd78af_2: sha256:c35173b682ae55a5cc99d44b4e7d7b1c8c4b1e756fe6a4ef371d0c84da87a67b
 docker: quay.io/biocontainers/snikt
 aliases:
   snikt.R: /usr/local/bin/snikt.R

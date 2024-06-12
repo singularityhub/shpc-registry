@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sspace_basic
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sspace_basic
 latest:
-  2.1.1--hdfd78af_0: sha256:550f347a07069a424c7cf7e9fbf6b4c15df7d88c0517960be1de21567aabb400
+  2.1.1--hdfd78af_1: sha256:bab84e087a2b3c3578062e32bc41661a7a05106c391245f002a63415b1d73b8a
 tags:
   2.1.1--hdfd78af_0: sha256:550f347a07069a424c7cf7e9fbf6b4c15df7d88c0517960be1de21567aabb400
+  2.1.1--hdfd78af_1: sha256:bab84e087a2b3c3578062e32bc41661a7a05106c391245f002a63415b1d73b8a
 docker: quay.io/biocontainers/sspace_basic
 aliases:
   ExtendOrFormatContigs.pl: /usr/local/bin/ExtendOrFormatContigs.pl
