@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/simba_pbg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for simba_pbg
 latest:
-  1.2--py39hf95cd2a_2: sha256:14d2bfb9a31ddc9ff1892df101415d88e5d292a17bd1e2d14892dea2f7ab3607
+  1.2--py39hff71179_3: sha256:35c5831cdd641a5ae022933702f1738eb2855c6e10c4f3f27634ff5cce0448d0
 tags:
   1.2--py39hbf8eff0_0: sha256:12bff4e2f26e0612142fb693b7695229df6334eaa1ba91d480a2a9de92aa7098
   1.2--py36h91eb985_1: sha256:4f1afae9b6746916304e449459b9d262160eb17f873c35e10bbc33fcf3958ed4
   1.2--py39hf95cd2a_2: sha256:14d2bfb9a31ddc9ff1892df101415d88e5d292a17bd1e2d14892dea2f7ab3607
   1.2--py310h4b81fae_2: sha256:9ab0bf9334563fe621fa6c41e95d24c82a228f20392c7867deeb019aca0fc4f0
+  1.2--py39hff71179_3: sha256:35c5831cdd641a5ae022933702f1738eb2855c6e10c4f3f27634ff5cce0448d0
 docker: quay.io/biocontainers/simba_pbg
 aliases:
   hwloc-annotate: /usr/local/bin/hwloc-annotate

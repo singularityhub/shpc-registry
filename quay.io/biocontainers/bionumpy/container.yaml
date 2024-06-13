@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bionumpy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bionumpy
 latest:
-  1.0.9--pyha8f3691_0: sha256:3c50e64346d8990eb69a18275392d2627efdfff26cd0f81dece449950f65b716
+  1.0.10--pyha8f3691_0: sha256:87feeedb891f73bb855939f7fe5b5ef60fd561499c0593f9177749b429d7ff2a
 tags:
   0.2.17--pyha8f3691_0: sha256:4888799ec9467a088c72b11f5ebd1da9043d6153f6c83c45cbc5925d1eb7f28b
   0.2.20--pyha8f3691_0: sha256:2e71d23cc90a5aeafdc668ea857f119e36b5edc47c471fa551ac3f6bcd99c2dc
@@ -15,6 +15,7 @@ tags:
   1.0.2--pyha8f3691_0: sha256:dd4e94ba95e7357a5acb82f6ea9d010abbf64800a5f77dbb8184a25bcd052ec2
   1.0.8--pyha8f3691_0: sha256:f99cdc4ec4740a03fe1012d909bc99107f78e056c470cef932f0167c30eba09d
   1.0.9--pyha8f3691_0: sha256:3c50e64346d8990eb69a18275392d2627efdfff26cd0f81dece449950f65b716
+  1.0.10--pyha8f3691_0: sha256:87feeedb891f73bb855939f7fe5b5ef60fd561499c0593f9177749b429d7ff2a
 docker: quay.io/biocontainers/bionumpy
 aliases:
   bionumpy: /usr/local/bin/bionumpy
