@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/syny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/syny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/syny/container.yaml"
-updated_at: "2024-06-12 02:54:54.078976"
+updated_at: "2024-06-13 02:54:33.115396"
 latest: "1.1a--py310pl5321h7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/syny"
 aliases:

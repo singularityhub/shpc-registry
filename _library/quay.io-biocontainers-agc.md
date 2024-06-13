@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/agc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/agc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/agc/container.yaml"
-updated_at: "2024-06-12 03:05:02.022125"
-latest: "3.1--h9ee0642_0"
+updated_at: "2024-06-13 03:04:49.137805"
+latest: "3.1--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/agc"
 aliases:
  - "agc"
 versions:
  - "3.0--h9ee0642_0"
  - "3.1--h9ee0642_0"
+ - "3.1--h9ee0642_1"
 description: "singularity registry hpc automated addition for agc"
-config: {"url": "https://biocontainers.pro/tools/agc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for agc", "latest": {"3.1--h9ee0642_0": "sha256:9b46430f9e47a76fdd83fbbd06789eb165c76638884f24831c12965eb8d4bda5"}, "tags": {"3.0--h9ee0642_0": "sha256:e1a8b39f5300aa149ce90358b372f48a67881a80b1ad7e0c356f16e20b76f3f9", "3.1--h9ee0642_0": "sha256:9b46430f9e47a76fdd83fbbd06789eb165c76638884f24831c12965eb8d4bda5"}, "docker": "quay.io/biocontainers/agc", "aliases": {"agc": "/usr/local/bin/agc"}}
+config: {"url": "https://biocontainers.pro/tools/agc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for agc", "latest": {"3.1--h9ee0642_1": "sha256:5d578d074cd8c9a7f196a8844601821da4b98115645ec88d174761cf7e535060"}, "tags": {"3.0--h9ee0642_0": "sha256:e1a8b39f5300aa149ce90358b372f48a67881a80b1ad7e0c356f16e20b76f3f9", "3.1--h9ee0642_0": "sha256:9b46430f9e47a76fdd83fbbd06789eb165c76638884f24831c12965eb8d4bda5", "3.1--h9ee0642_1": "sha256:5d578d074cd8c9a7f196a8844601821da4b98115645ec88d174761cf7e535060"}, "docker": "quay.io/biocontainers/agc", "aliases": {"agc": "/usr/local/bin/agc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/agc.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/agc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/agc:3.1--h9ee0642_0
+$ shpc install quay.io/biocontainers/agc:3.1--h9ee0642_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/agc/3.1--h9ee0642_0
-$ module help quay.io/biocontainers/agc/3.1--h9ee0642_0
+$ module load quay.io/biocontainers/agc/3.1--h9ee0642_1
+$ module help quay.io/biocontainers/agc/3.1--h9ee0642_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

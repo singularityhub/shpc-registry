@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/datafunk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/datafunk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/datafunk/container.yaml"
-updated_at: "2024-06-12 02:33:52.556234"
+updated_at: "2024-06-13 02:33:18.562939"
 latest: "0.1.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/datafunk"
 aliases:

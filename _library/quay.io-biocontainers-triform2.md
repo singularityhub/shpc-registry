@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/triform2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/triform2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/triform2/container.yaml"
-updated_at: "2024-06-12 03:09:10.787718"
+updated_at: "2024-06-13 03:09:00.486456"
 latest: "0.0.5--py27r341h24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/triform2"
 aliases:
