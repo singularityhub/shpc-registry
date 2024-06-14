@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastq-filter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-filter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-filter/container.yaml"
-updated_at: "2024-06-13 02:52:16.850167"
-latest: "0.3.0--py310h4b81fae_1"
+updated_at: "2024-06-14 02:53:19.242169"
+latest: "0.3.0--py39hff71179_2"
 container_url: "https://biocontainers.pro/tools/fastq-filter"
 aliases:
  - "fastq-filter"
@@ -24,8 +24,9 @@ versions:
  - "0.3.0--py39hbf8eff0_0"
  - "0.3.0--py310h4b81fae_1"
  - "0.3.0--py39hf95cd2a_1"
+ - "0.3.0--py39hff71179_2"
 description: "singularity registry hpc automated addition for fastq-filter"
-config: {"url": "https://biocontainers.pro/tools/fastq-filter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastq-filter", "latest": {"0.3.0--py310h4b81fae_1": "sha256:98741e292e7ddccba27e4d29acf10f4e6f0599e18179c4481b1cfa43b68151a4"}, "tags": {"0.3.0--py39hbf8eff0_0": "sha256:d2d32e7beeffebd5b754952cf79e6b19b4e20c7ea6d0a291f3f21bee25f35927", "0.3.0--py310h4b81fae_1": "sha256:98741e292e7ddccba27e4d29acf10f4e6f0599e18179c4481b1cfa43b68151a4", "0.3.0--py39hf95cd2a_1": "sha256:3fab0908d0c12a7e136034505bf98bc7d8d201ae9f5840b3f4742fcbbfe77542"}, "docker": "quay.io/biocontainers/fastq-filter", "aliases": {"fastq-filter": "/usr/local/bin/fastq-filter", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/fastq-filter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastq-filter", "latest": {"0.3.0--py39hff71179_2": "sha256:9b59c2f67485b9ec00b35508df5bf17634af4271d995e27dbb1faa925bd9cb22"}, "tags": {"0.3.0--py39hbf8eff0_0": "sha256:d2d32e7beeffebd5b754952cf79e6b19b4e20c7ea6d0a291f3f21bee25f35927", "0.3.0--py310h4b81fae_1": "sha256:98741e292e7ddccba27e4d29acf10f4e6f0599e18179c4481b1cfa43b68151a4", "0.3.0--py39hf95cd2a_1": "sha256:3fab0908d0c12a7e136034505bf98bc7d8d201ae9f5840b3f4742fcbbfe77542", "0.3.0--py39hff71179_2": "sha256:9b59c2f67485b9ec00b35508df5bf17634af4271d995e27dbb1faa925bd9cb22"}, "docker": "quay.io/biocontainers/fastq-filter", "aliases": {"fastq-filter": "/usr/local/bin/fastq-filter", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastq-filter.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/fastq-filter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastq-filter:0.3.0--py310h4b81fae_1
+$ shpc install quay.io/biocontainers/fastq-filter:0.3.0--py39hff71179_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastq-filter/0.3.0--py310h4b81fae_1
-$ module help quay.io/biocontainers/fastq-filter/0.3.0--py310h4b81fae_1
+$ module load quay.io/biocontainers/fastq-filter/0.3.0--py39hff71179_2
+$ module help quay.io/biocontainers/fastq-filter/0.3.0--py39hff71179_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

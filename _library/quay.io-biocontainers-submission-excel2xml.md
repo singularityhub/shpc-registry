@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/submission-excel2xml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/submission-excel2xml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/submission-excel2xml/container.yaml"
-updated_at: "2024-06-13 03:03:12.435232"
-latest: "2.6--hdfd78af_0"
+updated_at: "2024-06-14 03:04:21.331956"
+latest: "2.8.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/submission-excel2xml"
 aliases:
  - "addr2line"
@@ -63,8 +63,9 @@ versions:
  - "2.0.0--hf0b54c8_0"
  - "2.5--hdfd78af_0"
  - "2.6--hdfd78af_0"
+ - "2.8.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for submission-excel2xml"
-config: {"url": "https://biocontainers.pro/tools/submission-excel2xml", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for submission-excel2xml", "latest": {"2.6--hdfd78af_0": "sha256:340df444ab3b004d61f568c6210f3636ce01c839da2abce91f6d0e185b8209fd"}, "tags": {"2.0.0--hf0b54c8_0": "sha256:8ffffb5c7df8e42f9b2ae583325e0e7619a7b8354f7434d4624560c10dd3bd07", "2.5--hdfd78af_0": "sha256:418c528cb8800476abc553ab808c8c424cb6df41fe6cce2cb30f033423f0d777", "2.6--hdfd78af_0": "sha256:340df444ab3b004d61f568c6210f3636ce01c839da2abce91f6d0e185b8209fd"}, "docker": "quay.io/biocontainers/submission-excel2xml", "aliases": {"addr2line": "/usr/local/bin/addr2line", "ar": "/usr/local/bin/ar", "as": "/usr/local/bin/as", "c++": "/usr/local/bin/c++", "c++filt": "/usr/local/bin/c++filt", "cc": "/usr/local/bin/cc", "cpp": "/usr/local/bin/cpp", "dwp": "/usr/local/bin/dwp", "elfedit": "/usr/local/bin/elfedit", "excel2xml_dra.rb": "/usr/local/bin/excel2xml_dra.rb", "excel2xml_jga.rb": "/usr/local/bin/excel2xml_jga.rb", "g++": "/usr/local/bin/g++", "gcc": "/usr/local/bin/gcc", "gcc-ar": "/usr/local/bin/gcc-ar", "gcc-nm": "/usr/local/bin/gcc-nm", "gcc-ranlib": "/usr/local/bin/gcc-ranlib", "gcov": "/usr/local/bin/gcov", "gcov-dump": "/usr/local/bin/gcov-dump", "gcov-tool": "/usr/local/bin/gcov-tool", "gfortran": "/usr/local/bin/gfortran", "gold": "/usr/local/bin/gold", "gprof": "/usr/local/bin/gprof", "ld": "/usr/local/bin/ld", "ld.bfd": "/usr/local/bin/ld.bfd", "ld.gold": "/usr/local/bin/ld.gold", "nm": "/usr/local/bin/nm", "objcopy": "/usr/local/bin/objcopy", "objdump": "/usr/local/bin/objdump", "ranlib": "/usr/local/bin/ranlib", "rbs": "/usr/local/bin/rbs", "rdbg": "/usr/local/bin/rdbg", "readelf": "/usr/local/bin/readelf", "size": "/usr/local/bin/size", "strings": "/usr/local/bin/strings", "strip": "/usr/local/bin/strip", "typeprof": "/usr/local/bin/typeprof", "validate_meta_dra.rb": "/usr/local/bin/validate_meta_dra.rb", "validate_meta_jga.rb": "/usr/local/bin/validate_meta_jga.rb", "racc": "/usr/local/bin/racc", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby"}}
+config: {"url": "https://biocontainers.pro/tools/submission-excel2xml", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for submission-excel2xml", "latest": {"2.8.1--hdfd78af_0": "sha256:8c7fdb33f0b9af705a3c3745085d768075af427feca29531059383ff4f416690"}, "tags": {"2.0.0--hf0b54c8_0": "sha256:8ffffb5c7df8e42f9b2ae583325e0e7619a7b8354f7434d4624560c10dd3bd07", "2.5--hdfd78af_0": "sha256:418c528cb8800476abc553ab808c8c424cb6df41fe6cce2cb30f033423f0d777", "2.6--hdfd78af_0": "sha256:340df444ab3b004d61f568c6210f3636ce01c839da2abce91f6d0e185b8209fd", "2.8.1--hdfd78af_0": "sha256:8c7fdb33f0b9af705a3c3745085d768075af427feca29531059383ff4f416690"}, "docker": "quay.io/biocontainers/submission-excel2xml", "aliases": {"addr2line": "/usr/local/bin/addr2line", "ar": "/usr/local/bin/ar", "as": "/usr/local/bin/as", "c++": "/usr/local/bin/c++", "c++filt": "/usr/local/bin/c++filt", "cc": "/usr/local/bin/cc", "cpp": "/usr/local/bin/cpp", "dwp": "/usr/local/bin/dwp", "elfedit": "/usr/local/bin/elfedit", "excel2xml_dra.rb": "/usr/local/bin/excel2xml_dra.rb", "excel2xml_jga.rb": "/usr/local/bin/excel2xml_jga.rb", "g++": "/usr/local/bin/g++", "gcc": "/usr/local/bin/gcc", "gcc-ar": "/usr/local/bin/gcc-ar", "gcc-nm": "/usr/local/bin/gcc-nm", "gcc-ranlib": "/usr/local/bin/gcc-ranlib", "gcov": "/usr/local/bin/gcov", "gcov-dump": "/usr/local/bin/gcov-dump", "gcov-tool": "/usr/local/bin/gcov-tool", "gfortran": "/usr/local/bin/gfortran", "gold": "/usr/local/bin/gold", "gprof": "/usr/local/bin/gprof", "ld": "/usr/local/bin/ld", "ld.bfd": "/usr/local/bin/ld.bfd", "ld.gold": "/usr/local/bin/ld.gold", "nm": "/usr/local/bin/nm", "objcopy": "/usr/local/bin/objcopy", "objdump": "/usr/local/bin/objdump", "ranlib": "/usr/local/bin/ranlib", "rbs": "/usr/local/bin/rbs", "rdbg": "/usr/local/bin/rdbg", "readelf": "/usr/local/bin/readelf", "size": "/usr/local/bin/size", "strings": "/usr/local/bin/strings", "strip": "/usr/local/bin/strip", "typeprof": "/usr/local/bin/typeprof", "validate_meta_dra.rb": "/usr/local/bin/validate_meta_dra.rb", "validate_meta_jga.rb": "/usr/local/bin/validate_meta_jga.rb", "racc": "/usr/local/bin/racc", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/submission-excel2xml.
@@ -79,7 +80,7 @@ $ shpc install quay.io/biocontainers/submission-excel2xml
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/submission-excel2xml:2.6--hdfd78af_0
+$ shpc install quay.io/biocontainers/submission-excel2xml:2.8.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -91,8 +92,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/submission-excel2xml/2.6--hdfd78af_0
-$ module help quay.io/biocontainers/submission-excel2xml/2.6--hdfd78af_0
+$ module load quay.io/biocontainers/submission-excel2xml/2.8.1--hdfd78af_0
+$ module help quay.io/biocontainers/submission-excel2xml/2.8.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
