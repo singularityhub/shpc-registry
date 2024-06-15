@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rlpipes
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rlpipes
 latest:
-  0.9.3--pyh5e36f6f_0: sha256:53489f98b3f5d03aae34894921fe693505b52ddab03ac03c615b67e9c7db30ec
+  0.9.4--pyh7cba7a3_0: sha256:14b77b6915551b5dda25e58291f27228951582edfea47db70e1fbd24d542c146
 tags:
   0.9.3--pyh5e36f6f_0: sha256:53489f98b3f5d03aae34894921fe693505b52ddab03ac03c615b67e9c7db30ec
+  0.9.4--pyh7cba7a3_0: sha256:14b77b6915551b5dda25e58291f27228951582edfea47db70e1fbd24d542c146
 docker: quay.io/biocontainers/rlpipes
 aliases:
   RLPipes: /usr/local/bin/RLPipes
