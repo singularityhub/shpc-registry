@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seq-gen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seq-gen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seq-gen/container.yaml"
-updated_at: "2024-06-14 03:16:06.254964"
+updated_at: "2024-06-15 03:15:05.827184"
 latest: "1.3.4--h031d066_7"
 container_url: "https://biocontainers.pro/tools/seq-gen"
 aliases:

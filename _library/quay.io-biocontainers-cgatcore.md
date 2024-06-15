@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgatcore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgatcore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgatcore/container.yaml"
-updated_at: "2024-06-14 02:47:12.805897"
+updated_at: "2024-06-15 02:45:32.759678"
 latest: "0.6.16--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cgatcore"
 aliases:

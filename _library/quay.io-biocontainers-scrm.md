@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scrm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scrm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scrm/container.yaml"
-updated_at: "2024-06-14 02:37:08.522993"
+updated_at: "2024-06-15 02:35:37.365881"
 latest: "1.7.4--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/scrm"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-without-module"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-without-module/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-without-module/container.yaml"
-updated_at: "2024-06-14 02:39:05.775604"
+updated_at: "2024-06-15 02:37:34.177435"
 latest: "0.20--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-test-without-module"
 aliases:

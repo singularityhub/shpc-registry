@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/decoypyrat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/decoypyrat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/decoypyrat/container.yaml"
-updated_at: "2024-06-14 03:13:19.894607"
+updated_at: "2024-06-15 03:12:14.295979"
 latest: "1.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/decoypyrat"
 aliases:

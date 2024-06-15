@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-qusage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qusage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qusage/container.yaml"
-updated_at: "2024-06-14 02:45:32.987359"
+updated_at: "2024-06-15 02:43:50.878778"
 latest: "2.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qusage"
 aliases:

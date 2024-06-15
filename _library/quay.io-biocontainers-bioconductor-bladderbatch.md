@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bladderbatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bladderbatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bladderbatch/container.yaml"
-updated_at: "2024-06-14 02:56:04.806303"
+updated_at: "2024-06-15 02:54:29.876000"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bladderbatch"
 

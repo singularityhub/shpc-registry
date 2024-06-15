@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eukcc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eukcc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eukcc/container.yaml"
-updated_at: "2024-06-14 02:48:18.288935"
+updated_at: "2024-06-15 02:46:38.650236"
 latest: "2.1.0--pypyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/eukcc"
 aliases:

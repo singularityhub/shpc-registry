@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kma/container.yaml"
-updated_at: "2024-06-14 02:40:37.873548"
+updated_at: "2024-06-15 02:39:04.168569"
 latest: "1.4.14--he4a0461_1"
 container_url: "https://biocontainers.pro/tools/kma"
 aliases:

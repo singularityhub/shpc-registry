@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bayesase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bayesase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bayesase/container.yaml"
-updated_at: "2024-06-14 03:11:16.733801"
+updated_at: "2024-06-15 03:10:05.438925"
 latest: "21.1.13.1--py_0"
 container_url: "https://biocontainers.pro/tools/bayesase"
 aliases:

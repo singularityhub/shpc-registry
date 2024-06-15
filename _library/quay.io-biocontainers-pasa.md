@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pasa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pasa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pasa/container.yaml"
-updated_at: "2024-06-14 03:07:03.506595"
+updated_at: "2024-06-15 03:05:43.016731"
 latest: "2.5.3--h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/pasa"
 aliases:
