@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-getopt-long
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-getopt-long
 latest:
-  2.54--pl5321hdfd78af_0: sha256:c673c0424ea5cc6f0453a4d02ab5decec80b6590d5278967b519aa7be51b880d
+  2.58--pl5321hdfd78af_0: sha256:50a2e558c5fb37878cf869a2f7838c90252ea4ec56e794c96f2b2c0450285e33
 tags:
   2.52--pl5321hdfd78af_0: sha256:0605150d30c518707fdb0ab8469583069a097ed459a8b10ac6aabd34ef36fab1
   2.53--pl5321hdfd78af_0: sha256:5b6394bf33afd795ab998b3a4aa0eee25988cf64bbdf98d7eab05ec8e0d52a2a
   2.54--pl5321hdfd78af_0: sha256:c673c0424ea5cc6f0453a4d02ab5decec80b6590d5278967b519aa7be51b880d
+  2.58--pl5321hdfd78af_0: sha256:50a2e558c5fb37878cf869a2f7838c90252ea4ec56e794c96f2b2c0450285e33
 docker: quay.io/biocontainers/perl-getopt-long

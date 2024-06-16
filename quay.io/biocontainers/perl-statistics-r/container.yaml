@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/perl-statistics-r
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-statistics-r
 latest:
-  0.34--pl5321r42hdfd78af_5: sha256:a8619ed060695a10858ee078253324c88e55ea5b62692b1b2a43e4d7ab50bf23
+  0.34--pl5321r43hdfd78af_6: sha256:2c7fba77bcde3a43b7f18230b95f2262756e6071c9de92ca46121694d7af5f81
 tags:
   0.34--pl5321r41hdfd78af_4: sha256:619e20fb6a280cb1acde2fc836bc20225c3f78d216d12e71edf77b9d3ddfbd5c
   0.34--pl5321r42hdfd78af_5: sha256:a8619ed060695a10858ee078253324c88e55ea5b62692b1b2a43e4d7ab50bf23
+  0.34--pl5321r43hdfd78af_6: sha256:2c7fba77bcde3a43b7f18230b95f2262756e6071c9de92ca46121694d7af5f81
 docker: quay.io/biocontainers/perl-statistics-r
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
