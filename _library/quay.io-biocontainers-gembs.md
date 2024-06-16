@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gembs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gembs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gembs/container.yaml"
-updated_at: "2024-06-15 03:15:36.937216"
-latest: "3.5.5_IHEC--py38h9338591_6"
+updated_at: "2024-06-16 03:18:26.683098"
+latest: "3.5.5_IHEC--py39h6859054_8"
 container_url: "https://biocontainers.pro/tools/gembs"
 aliases:
  - "bs_call"
@@ -28,8 +28,9 @@ versions:
  - "3.5.5_IHEC--py310h125d12e_5"
  - "3.5.5_IHEC--py38h9338591_6"
  - "3.5.5_IHEC--py39h9267ef1_6"
+ - "3.5.5_IHEC--py39h6859054_8"
 description: "shpc-registry automated BioContainers addition for gembs"
-config: {"url": "https://biocontainers.pro/tools/gembs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gembs", "latest": {"3.5.5_IHEC--py38h9338591_6": "sha256:8ef0021ecc59ae072de61a8bf986688c4234826eb69f318aa394538b7dbce3dc"}, "tags": {"3.5.5_IHEC--py310h125d12e_5": "sha256:01005849bd3135f29d0ef6186cbad00314f0d8bcea39d5ecdc651f6886e31299", "3.5.5_IHEC--py38h9338591_6": "sha256:8ef0021ecc59ae072de61a8bf986688c4234826eb69f318aa394538b7dbce3dc", "3.5.5_IHEC--py39h9267ef1_6": "sha256:582e9c7792c75f1dbc9a33d870ac3dd3219e8dc420acc0c4075090fc5ea63b6e"}, "docker": "quay.io/biocontainers/gembs", "aliases": {"bs_call": "/usr/local/bin/bs_call", "dbSNP_idx": "/usr/local/bin/dbSNP_idx", "gem-indexer": "/usr/local/bin/gem-indexer", "gem-mapper": "/usr/local/bin/gem-mapper", "gem-retriever": "/usr/local/bin/gem-retriever", "gemBS": "/usr/local/bin/gemBS", "wigToBigWig": "/usr/local/bin/wigToBigWig", "bedToBigBed": "/usr/local/bin/bedToBigBed", "get_objgraph": "/usr/local/bin/get_objgraph", "gff2gff.py": "/usr/local/bin/gff2gff.py", "undill": "/usr/local/bin/undill", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror"}}
+config: {"url": "https://biocontainers.pro/tools/gembs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gembs", "latest": {"3.5.5_IHEC--py39h6859054_8": "sha256:1aaff0c1cd207fbc148d3a68b4e52240c860f59d7767c4c55dc487f5cd29fd74"}, "tags": {"3.5.5_IHEC--py310h125d12e_5": "sha256:01005849bd3135f29d0ef6186cbad00314f0d8bcea39d5ecdc651f6886e31299", "3.5.5_IHEC--py38h9338591_6": "sha256:8ef0021ecc59ae072de61a8bf986688c4234826eb69f318aa394538b7dbce3dc", "3.5.5_IHEC--py39h9267ef1_6": "sha256:582e9c7792c75f1dbc9a33d870ac3dd3219e8dc420acc0c4075090fc5ea63b6e", "3.5.5_IHEC--py39h6859054_8": "sha256:1aaff0c1cd207fbc148d3a68b4e52240c860f59d7767c4c55dc487f5cd29fd74"}, "docker": "quay.io/biocontainers/gembs", "aliases": {"bs_call": "/usr/local/bin/bs_call", "dbSNP_idx": "/usr/local/bin/dbSNP_idx", "gem-indexer": "/usr/local/bin/gem-indexer", "gem-mapper": "/usr/local/bin/gem-mapper", "gem-retriever": "/usr/local/bin/gem-retriever", "gemBS": "/usr/local/bin/gemBS", "wigToBigWig": "/usr/local/bin/wigToBigWig", "bedToBigBed": "/usr/local/bin/bedToBigBed", "get_objgraph": "/usr/local/bin/get_objgraph", "gff2gff.py": "/usr/local/bin/gff2gff.py", "undill": "/usr/local/bin/undill", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gembs.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/gembs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gembs:3.5.5_IHEC--py38h9338591_6
+$ shpc install quay.io/biocontainers/gembs:3.5.5_IHEC--py39h6859054_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gembs/3.5.5_IHEC--py38h9338591_6
-$ module help quay.io/biocontainers/gembs/3.5.5_IHEC--py38h9338591_6
+$ module load quay.io/biocontainers/gembs/3.5.5_IHEC--py39h6859054_8
+$ module help quay.io/biocontainers/gembs/3.5.5_IHEC--py39h6859054_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

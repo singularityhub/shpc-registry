@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-aroma.core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-aroma.core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-aroma.core/container.yaml"
-updated_at: "2024-06-15 02:51:35.320758"
+updated_at: "2024-06-16 02:54:51.611488"
 latest: "3.3.1--r43h3121a25_0"
 container_url: "https://biocontainers.pro/tools/r-aroma.core"
 aliases:

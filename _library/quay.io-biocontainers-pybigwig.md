@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pybigwig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybigwig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybigwig/container.yaml"
-updated_at: "2024-06-15 03:11:41.308881"
-latest: "0.3.22--py38h5df1436_2"
+updated_at: "2024-06-16 03:14:34.141087"
+latest: "0.3.22--py312hfa7e9eb_3"
 container_url: "https://biocontainers.pro/tools/pybigwig"
 aliases:
  - "2to3-3.5"
@@ -23,8 +23,9 @@ versions:
  - "0.3.13--py37h92ddc84_1"
  - "0.3.22--py39h44c22c2_1"
  - "0.3.22--py38h5df1436_2"
+ - "0.3.22--py312hfa7e9eb_3"
 description: "shpc-registry automated BioContainers addition for pybigwig"
-config: {"url": "https://biocontainers.pro/tools/pybigwig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybigwig", "latest": {"0.3.22--py38h5df1436_2": "sha256:9bf10b5c100a5a768a859d331826f5585d3b35ed1291693378d06cd2d3ec19d8"}, "tags": {"0.3.9--np113py35_0": "sha256:8e51b54cea226b58287f1a5639bb5da0da65a39fac5bf99f7660d8552cae1534", "0.3.13--py37h92ddc84_1": "sha256:9562a8c0e472922b38d1c7bbe56e6b1cdbe54aa9a5338ca07e9a9c69f41eb39c", "0.3.22--py39h44c22c2_1": "sha256:e0e1d048a89596448ae8e5978c2de3325cae4132be50bae8112bf1be34660203", "0.3.22--py38h5df1436_2": "sha256:9bf10b5c100a5a768a859d331826f5585d3b35ed1291693378d06cd2d3ec19d8"}, "docker": "quay.io/biocontainers/pybigwig", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/pybigwig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybigwig", "latest": {"0.3.22--py312hfa7e9eb_3": "sha256:c159ee717c118bc4cb8b8694e464bd364fad401bf2428a24e18129a23984b21e"}, "tags": {"0.3.9--np113py35_0": "sha256:8e51b54cea226b58287f1a5639bb5da0da65a39fac5bf99f7660d8552cae1534", "0.3.13--py37h92ddc84_1": "sha256:9562a8c0e472922b38d1c7bbe56e6b1cdbe54aa9a5338ca07e9a9c69f41eb39c", "0.3.22--py39h44c22c2_1": "sha256:e0e1d048a89596448ae8e5978c2de3325cae4132be50bae8112bf1be34660203", "0.3.22--py38h5df1436_2": "sha256:9bf10b5c100a5a768a859d331826f5585d3b35ed1291693378d06cd2d3ec19d8", "0.3.22--py312hfa7e9eb_3": "sha256:c159ee717c118bc4cb8b8694e464bd364fad401bf2428a24e18129a23984b21e"}, "docker": "quay.io/biocontainers/pybigwig", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybigwig.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/pybigwig
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pybigwig:0.3.22--py38h5df1436_2
+$ shpc install quay.io/biocontainers/pybigwig:0.3.22--py312hfa7e9eb_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pybigwig/0.3.22--py38h5df1436_2
-$ module help quay.io/biocontainers/pybigwig/0.3.22--py38h5df1436_2
+$ module load quay.io/biocontainers/pybigwig/0.3.22--py312hfa7e9eb_3
+$ module help quay.io/biocontainers/pybigwig/0.3.22--py312hfa7e9eb_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

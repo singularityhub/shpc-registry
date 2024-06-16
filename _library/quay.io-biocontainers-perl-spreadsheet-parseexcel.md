@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-spreadsheet-parseexcel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-spreadsheet-parseexcel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-spreadsheet-parseexcel/container.yaml"
-updated_at: "2024-06-15 02:47:07.316731"
-latest: "0.65--pl5321hdfd78af_3"
+updated_at: "2024-06-16 02:50:30.950282"
+latest: "0.66--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-spreadsheet-parseexcel"
 aliases:
  - "map"
@@ -17,8 +17,9 @@ aliases:
  - "streamzip"
 versions:
  - "0.65--pl5321hdfd78af_3"
+ - "0.66--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-spreadsheet-parseexcel"
-config: {"url": "https://biocontainers.pro/tools/perl-spreadsheet-parseexcel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-spreadsheet-parseexcel", "latest": {"0.65--pl5321hdfd78af_3": "sha256:2670083853ae6844e096a48cac7e57599e82d4a5137adfd57380ab0f05d3ff77"}, "tags": {"0.65--pl5321hdfd78af_3": "sha256:2670083853ae6844e096a48cac7e57599e82d4a5137adfd57380ab0f05d3ff77"}, "docker": "quay.io/biocontainers/perl-spreadsheet-parseexcel", "aliases": {"map": "/usr/local/bin/map", "mirrorMappings": "/usr/local/bin/mirrorMappings", "mkCSGB2312": "/usr/local/bin/mkCSGB2312", "mkmapfile": "/usr/local/bin/mkmapfile", "chartex": "/usr/local/bin/chartex", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-spreadsheet-parseexcel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-spreadsheet-parseexcel", "latest": {"0.66--pl5321hdfd78af_0": "sha256:05801329202578699a99ffb6cb1a5ed72fc0df77426440d606e463644d6ab74d"}, "tags": {"0.65--pl5321hdfd78af_3": "sha256:2670083853ae6844e096a48cac7e57599e82d4a5137adfd57380ab0f05d3ff77", "0.66--pl5321hdfd78af_0": "sha256:05801329202578699a99ffb6cb1a5ed72fc0df77426440d606e463644d6ab74d"}, "docker": "quay.io/biocontainers/perl-spreadsheet-parseexcel", "aliases": {"map": "/usr/local/bin/map", "mirrorMappings": "/usr/local/bin/mirrorMappings", "mkCSGB2312": "/usr/local/bin/mkCSGB2312", "mkmapfile": "/usr/local/bin/mkmapfile", "chartex": "/usr/local/bin/chartex", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-spreadsheet-parseexcel.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/perl-spreadsheet-parseexcel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-spreadsheet-parseexcel:0.65--pl5321hdfd78af_3
+$ shpc install quay.io/biocontainers/perl-spreadsheet-parseexcel:0.66--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-spreadsheet-parseexcel/0.65--pl5321hdfd78af_3
-$ module help quay.io/biocontainers/perl-spreadsheet-parseexcel/0.65--pl5321hdfd78af_3
+$ module load quay.io/biocontainers/perl-spreadsheet-parseexcel/0.66--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-spreadsheet-parseexcel/0.66--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

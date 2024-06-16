@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/taxpasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxpasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxpasta/container.yaml"
-updated_at: "2024-06-15 03:01:40.429510"
-latest: "0.6.1--pyhdfd78af_0"
+updated_at: "2024-06-16 03:04:39.812908"
+latest: "0.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/taxpasta"
 aliases:
  - "depinfo"
@@ -30,8 +30,9 @@ versions:
  - "0.6.0--pyhdfd78af_0"
  - "0.5.0--pyhdfd78af_0"
  - "0.6.1--pyhdfd78af_0"
+ - "0.7.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for taxpasta"
-config: {"url": "https://biocontainers.pro/tools/taxpasta", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for taxpasta", "latest": {"0.6.1--pyhdfd78af_0": "sha256:5855f7c68d0a36e18e6996415cfaedb3ee2f48a797fb53e6688125a05369cf35"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:a43b13ba645ed13e6774e98b2a3cf698c134eebeec029c4fca783defbbc0ead9", "0.1.1--pyhdfd78af_0": "sha256:a2b4becb2bb77d214aa5d797d19ba36258e9bbd8c288d0a218ca17159383385e", "0.2.3--pyhdfd78af_0": "sha256:6bc5f3c3b3b02b81481b6b677377efe45790ca5e6578c629a35ba178ccf65059", "0.3.0--pyhdfd78af_0": "sha256:560c3a19d2561d84d42a9da55084834315886346ea936b5824621767e9050857", "0.4.1--pyhdfd78af_0": "sha256:35f5e2973f5b84849d7f821b1edc0804f3ad0e9a04f948259181f9e5f16d861a", "0.6.0--pyhdfd78af_0": "sha256:80b9119e470853e5d701c0eefdbb27f780ff1d66ef0f1a53f9aa7e0b4fbe13f7", "0.5.0--pyhdfd78af_0": "sha256:05435bd26a11275bf08a220b0df148fdc25386f280f85f6a6b46e8dbe3da6e59", "0.6.1--pyhdfd78af_0": "sha256:5855f7c68d0a36e18e6996415cfaedb3ee2f48a797fb53e6688125a05369cf35"}, "docker": "quay.io/biocontainers/taxpasta", "aliases": {"depinfo": "/usr/local/bin/depinfo", "f2py3.11": "/usr/local/bin/f2py3.11", "taxpasta": "/usr/local/bin/taxpasta", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "cmark": "/usr/local/bin/cmark", "pygmentize": "/usr/local/bin/pygmentize", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/taxpasta", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for taxpasta", "latest": {"0.7.0--pyhdfd78af_0": "sha256:b30223832825c3914a413a3d06e7e5db0cb0a828d49d962f6d5da071c1258ea3"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:a43b13ba645ed13e6774e98b2a3cf698c134eebeec029c4fca783defbbc0ead9", "0.1.1--pyhdfd78af_0": "sha256:a2b4becb2bb77d214aa5d797d19ba36258e9bbd8c288d0a218ca17159383385e", "0.2.3--pyhdfd78af_0": "sha256:6bc5f3c3b3b02b81481b6b677377efe45790ca5e6578c629a35ba178ccf65059", "0.3.0--pyhdfd78af_0": "sha256:560c3a19d2561d84d42a9da55084834315886346ea936b5824621767e9050857", "0.4.1--pyhdfd78af_0": "sha256:35f5e2973f5b84849d7f821b1edc0804f3ad0e9a04f948259181f9e5f16d861a", "0.6.0--pyhdfd78af_0": "sha256:80b9119e470853e5d701c0eefdbb27f780ff1d66ef0f1a53f9aa7e0b4fbe13f7", "0.5.0--pyhdfd78af_0": "sha256:05435bd26a11275bf08a220b0df148fdc25386f280f85f6a6b46e8dbe3da6e59", "0.6.1--pyhdfd78af_0": "sha256:5855f7c68d0a36e18e6996415cfaedb3ee2f48a797fb53e6688125a05369cf35", "0.7.0--pyhdfd78af_0": "sha256:b30223832825c3914a413a3d06e7e5db0cb0a828d49d962f6d5da071c1258ea3"}, "docker": "quay.io/biocontainers/taxpasta", "aliases": {"depinfo": "/usr/local/bin/depinfo", "f2py3.11": "/usr/local/bin/f2py3.11", "taxpasta": "/usr/local/bin/taxpasta", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "cmark": "/usr/local/bin/cmark", "pygmentize": "/usr/local/bin/pygmentize", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/taxpasta.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/taxpasta
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/taxpasta:0.6.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/taxpasta:0.7.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/taxpasta/0.6.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/taxpasta/0.6.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/taxpasta/0.7.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/taxpasta/0.7.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

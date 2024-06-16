@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sansa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sansa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sansa/container.yaml"
-updated_at: "2024-06-15 02:50:17.308126"
-latest: "0.2.1--hb7e2ac5_0"
+updated_at: "2024-06-16 02:53:36.000231"
+latest: "0.2.1--h6dccd9a_1"
 container_url: "https://biocontainers.pro/tools/sansa"
 aliases:
  - "sansa"
@@ -18,8 +18,9 @@ versions:
  - "0.0.8--hdc14858_6"
  - "0.2.1--hb7e2ac5_0"
  - "0.1.1--hb7e2ac5_0"
+ - "0.2.1--h6dccd9a_1"
 description: "shpc-registry automated BioContainers addition for sansa"
-config: {"url": "https://biocontainers.pro/tools/sansa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sansa", "latest": {"0.2.1--hb7e2ac5_0": "sha256:156906d965d3df5951dabb422faa034c00d9829705d377cab5ed8a25f43bd05c"}, "tags": {"0.0.8--h2e9000e_4": "sha256:97631d721171c37c444d137a28c4f0f518c1a6cf91da62de40101093ce4c260a", "0.0.8--hc64ef6e_5": "sha256:c9b27364965d92d66ab6ae8ca72f2b6455202c9990f30fabcae59116cca34e95", "0.0.8--hdc14858_6": "sha256:202785b6f062d3783595457db046c8920e13d90383863f6bbe5cd5b0d89b401c", "0.2.1--hb7e2ac5_0": "sha256:156906d965d3df5951dabb422faa034c00d9829705d377cab5ed8a25f43bd05c", "0.1.1--hb7e2ac5_0": "sha256:18f09e8b19842fdc5fa89ceda8f322ff3a4c2eaa64ac9ac91b030cc16ac07dd7"}, "docker": "quay.io/biocontainers/sansa", "aliases": {"sansa": "/usr/local/bin/sansa", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/sansa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sansa", "latest": {"0.2.1--h6dccd9a_1": "sha256:d628812e75b2c46e403f2276d9dcc5e105405968335945da5f242facd5cadd9d"}, "tags": {"0.0.8--h2e9000e_4": "sha256:97631d721171c37c444d137a28c4f0f518c1a6cf91da62de40101093ce4c260a", "0.0.8--hc64ef6e_5": "sha256:c9b27364965d92d66ab6ae8ca72f2b6455202c9990f30fabcae59116cca34e95", "0.0.8--hdc14858_6": "sha256:202785b6f062d3783595457db046c8920e13d90383863f6bbe5cd5b0d89b401c", "0.2.1--hb7e2ac5_0": "sha256:156906d965d3df5951dabb422faa034c00d9829705d377cab5ed8a25f43bd05c", "0.1.1--hb7e2ac5_0": "sha256:18f09e8b19842fdc5fa89ceda8f322ff3a4c2eaa64ac9ac91b030cc16ac07dd7", "0.2.1--h6dccd9a_1": "sha256:d628812e75b2c46e403f2276d9dcc5e105405968335945da5f242facd5cadd9d"}, "docker": "quay.io/biocontainers/sansa", "aliases": {"sansa": "/usr/local/bin/sansa", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sansa.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/sansa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sansa:0.2.1--hb7e2ac5_0
+$ shpc install quay.io/biocontainers/sansa:0.2.1--h6dccd9a_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sansa/0.2.1--hb7e2ac5_0
-$ module help quay.io/biocontainers/sansa/0.2.1--hb7e2ac5_0
+$ module load quay.io/biocontainers/sansa/0.2.1--h6dccd9a_1
+$ module help quay.io/biocontainers/sansa/0.2.1--h6dccd9a_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

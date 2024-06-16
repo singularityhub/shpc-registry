@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/popgen-entropy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/popgen-entropy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/popgen-entropy/container.yaml"
-updated_at: "2024-06-15 02:58:54.459248"
-latest: "2.0--h0469059_8"
+updated_at: "2024-06-16 03:01:58.049833"
+latest: "2.0--h3009346_9"
 container_url: "https://biocontainers.pro/tools/popgen-entropy"
 aliases:
  - "entropy"
@@ -24,8 +24,9 @@ versions:
  - "2.0--hc73b757_6"
  - "2.0--hc73b757_7"
  - "2.0--h0469059_8"
+ - "2.0--h3009346_9"
 description: "shpc-registry automated BioContainers addition for popgen-entropy"
-config: {"url": "https://biocontainers.pro/tools/popgen-entropy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for popgen-entropy", "latest": {"2.0--h0469059_8": "sha256:d83e249b0e2356d0f90c865ba0d6199b979686a1bfba44234fb477554506b40e"}, "tags": {"2.0--hc73b757_6": "sha256:a33eabe9f3d808b95f540c19038eb00db7427490200a8bfc73517eb0da919bc2", "2.0--hc73b757_7": "sha256:f0e6eb5c76f55a7399fa9304d89ba8a39f1bc5c492abb76db3bdea0a9caa6b10", "2.0--h0469059_8": "sha256:d83e249b0e2356d0f90c865ba0d6199b979686a1bfba44234fb477554506b40e"}, "docker": "quay.io/biocontainers/popgen-entropy", "aliases": {"entropy": "/usr/local/bin/entropy", "estpost.entropy": "/usr/local/bin/estpost.entropy", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/popgen-entropy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for popgen-entropy", "latest": {"2.0--h3009346_9": "sha256:4e38a9ca9c3f684e4944c5c7c455f5141e8386525f06bc8c9710891e07d44ba8"}, "tags": {"2.0--hc73b757_6": "sha256:a33eabe9f3d808b95f540c19038eb00db7427490200a8bfc73517eb0da919bc2", "2.0--hc73b757_7": "sha256:f0e6eb5c76f55a7399fa9304d89ba8a39f1bc5c492abb76db3bdea0a9caa6b10", "2.0--h0469059_8": "sha256:d83e249b0e2356d0f90c865ba0d6199b979686a1bfba44234fb477554506b40e", "2.0--h3009346_9": "sha256:4e38a9ca9c3f684e4944c5c7c455f5141e8386525f06bc8c9710891e07d44ba8"}, "docker": "quay.io/biocontainers/popgen-entropy", "aliases": {"entropy": "/usr/local/bin/entropy", "estpost.entropy": "/usr/local/bin/estpost.entropy", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/popgen-entropy.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/popgen-entropy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/popgen-entropy:2.0--h0469059_8
+$ shpc install quay.io/biocontainers/popgen-entropy:2.0--h3009346_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/popgen-entropy/2.0--h0469059_8
-$ module help quay.io/biocontainers/popgen-entropy/2.0--h0469059_8
+$ module load quay.io/biocontainers/popgen-entropy/2.0--h3009346_9
+$ module help quay.io/biocontainers/popgen-entropy/2.0--h3009346_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

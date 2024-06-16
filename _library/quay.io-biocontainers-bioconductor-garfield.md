@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-garfield"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-garfield/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-garfield/container.yaml"
-updated_at: "2024-06-15 02:51:23.689327"
+updated_at: "2024-06-16 02:54:40.363360"
 latest: "1.30.0--r43hf17093f_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-garfield"
 

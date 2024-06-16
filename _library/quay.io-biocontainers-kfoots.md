@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/kfoots"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kfoots/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kfoots/container.yaml"
-updated_at: "2024-06-15 03:00:14.286078"
-latest: "1.0--r42h031d066_9"
+updated_at: "2024-06-16 03:03:16.323710"
+latest: "1.0--r43h031d066_10"
 container_url: "https://biocontainers.pro/tools/kfoots"
 
 versions:
  - "1.0--r41hec16e2b_6"
  - "1.0--r42hec16e2b_7"
  - "1.0--r42h031d066_9"
+ - "1.0--r43h031d066_10"
 description: "shpc-registry automated BioContainers addition for kfoots"
-config: {"url": "https://biocontainers.pro/tools/kfoots", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kfoots", "latest": {"1.0--r42h031d066_9": "sha256:fedbd2a7929fecc1fbb1a2a5e9bfa786f5f008eac0d0b0ef1286b7aaae2652e0"}, "tags": {"1.0--r41hec16e2b_6": "sha256:54429ee26edcc2d3e3660c2b1b7782f114a08ee7130f10c301b4fd8f90fe3891", "1.0--r42hec16e2b_7": "sha256:b688634c21f205266e83d114018b6bbf0c63db9495db8abd4d13855bf666fbf6", "1.0--r42h031d066_9": "sha256:fedbd2a7929fecc1fbb1a2a5e9bfa786f5f008eac0d0b0ef1286b7aaae2652e0"}, "docker": "quay.io/biocontainers/kfoots"}
+config: {"url": "https://biocontainers.pro/tools/kfoots", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kfoots", "latest": {"1.0--r43h031d066_10": "sha256:c0f9947611d461596a58bb9d5798b993cd0dc0b335062d8875379674f89b5856"}, "tags": {"1.0--r41hec16e2b_6": "sha256:54429ee26edcc2d3e3660c2b1b7782f114a08ee7130f10c301b4fd8f90fe3891", "1.0--r42hec16e2b_7": "sha256:b688634c21f205266e83d114018b6bbf0c63db9495db8abd4d13855bf666fbf6", "1.0--r42h031d066_9": "sha256:fedbd2a7929fecc1fbb1a2a5e9bfa786f5f008eac0d0b0ef1286b7aaae2652e0", "1.0--r43h031d066_10": "sha256:c0f9947611d461596a58bb9d5798b993cd0dc0b335062d8875379674f89b5856"}, "docker": "quay.io/biocontainers/kfoots"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kfoots.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/kfoots
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kfoots:1.0--r42h031d066_9
+$ shpc install quay.io/biocontainers/kfoots:1.0--r43h031d066_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kfoots/1.0--r42h031d066_9
-$ module help quay.io/biocontainers/kfoots/1.0--r42h031d066_9
+$ module load quay.io/biocontainers/kfoots/1.0--r43h031d066_10
+$ module help quay.io/biocontainers/kfoots/1.0--r43h031d066_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
