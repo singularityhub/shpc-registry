@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bcov"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcov/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcov/container.yaml"
-updated_at: "2024-06-16 03:12:48.129280"
-latest: "1.0--ha16aae7_8"
+updated_at: "2024-06-17 03:13:11.349630"
+latest: "1.0--ha16aae7_9"
 container_url: "https://biocontainers.pro/tools/bcov"
 aliases:
  - "bcov"
@@ -15,8 +15,9 @@ versions:
  - "1.0--h7dd7c9e_5"
  - "1.0--ha16aae7_7"
  - "1.0--ha16aae7_8"
+ - "1.0--ha16aae7_9"
 description: "shpc-registry automated BioContainers addition for bcov"
-config: {"url": "https://biocontainers.pro/tools/bcov", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcov", "latest": {"1.0--ha16aae7_8": "sha256:c47f4367d0ea516453c413b7dfab036b3da80e5926d569d1547ca1b4813d27eb"}, "tags": {"1.0--h2b57dba_4": "sha256:9a011f8c9acd441b220a24866ff94e4c9b601ea060b75c442b05c58a47d971a4", "1.0--h7dd7c9e_5": "sha256:fb024166348604b0f0d3e7ddaa51f2013aaa502309883a55faf101136d3e2747", "1.0--ha16aae7_7": "sha256:68318115f2a37afb1b13ba2e835dd2a012cef08644957865fec02b5a346d652b", "1.0--ha16aae7_8": "sha256:c47f4367d0ea516453c413b7dfab036b3da80e5926d569d1547ca1b4813d27eb"}, "docker": "quay.io/biocontainers/bcov", "aliases": {"bcov": "/usr/local/bin/bcov", "glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bcov", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcov", "latest": {"1.0--ha16aae7_9": "sha256:6c1e75505c5d5e33b36f04e8a7b454945428309d9acf72a1925f52c28f8cc949"}, "tags": {"1.0--h2b57dba_4": "sha256:9a011f8c9acd441b220a24866ff94e4c9b601ea060b75c442b05c58a47d971a4", "1.0--h7dd7c9e_5": "sha256:fb024166348604b0f0d3e7ddaa51f2013aaa502309883a55faf101136d3e2747", "1.0--ha16aae7_7": "sha256:68318115f2a37afb1b13ba2e835dd2a012cef08644957865fec02b5a346d652b", "1.0--ha16aae7_8": "sha256:c47f4367d0ea516453c413b7dfab036b3da80e5926d569d1547ca1b4813d27eb", "1.0--ha16aae7_9": "sha256:6c1e75505c5d5e33b36f04e8a7b454945428309d9acf72a1925f52c28f8cc949"}, "docker": "quay.io/biocontainers/bcov", "aliases": {"bcov": "/usr/local/bin/bcov", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bcov.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bcov
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bcov:1.0--ha16aae7_8
+$ shpc install quay.io/biocontainers/bcov:1.0--ha16aae7_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bcov/1.0--ha16aae7_8
-$ module help quay.io/biocontainers/bcov/1.0--ha16aae7_8
+$ module load quay.io/biocontainers/bcov/1.0--ha16aae7_9
+$ module help quay.io/biocontainers/bcov/1.0--ha16aae7_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

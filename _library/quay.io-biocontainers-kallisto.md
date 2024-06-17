@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kallisto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kallisto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kallisto/container.yaml"
-updated_at: "2024-06-16 03:07:00.666478"
-latest: "0.50.1--hc877fd6_1"
+updated_at: "2024-06-17 03:07:27.252710"
+latest: "0.50.1--h6de1650_2"
 container_url: "https://biocontainers.pro/tools/kallisto"
 aliases:
  - "kallisto"
@@ -24,8 +24,9 @@ versions:
  - "0.50.0--hc877fd6_0"
  - "0.50.1--hc877fd6_0"
  - "0.50.1--hc877fd6_1"
+ - "0.50.1--h6de1650_2"
 description: "shpc-registry automated BioContainers addition for kallisto"
-config: {"url": "https://biocontainers.pro/tools/kallisto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kallisto", "latest": {"0.50.1--hc877fd6_1": "sha256:303df2157635a4a3c5f8aca72cb6cc66c6f7bb2a1a867ea66d540681ff3748ab"}, "tags": {"0.48.0--h15996b6_2": "sha256:e44c2964d20ee3fb46488f77752e904168bf0c343759b02a4ab852361512c103", "0.50.0--hc877fd6_0": "sha256:179723a1556f0da8349e67cea06bdca3ae1d532ceef13df23200c7d2ec1a0b3c", "0.50.1--hc877fd6_0": "sha256:b53e7a001384640d78d7efe8de63660d98432515fc74e041e575aa22fbf057b9", "0.50.1--hc877fd6_1": "sha256:303df2157635a4a3c5f8aca72cb6cc66c6f7bb2a1a867ea66d540681ff3748ab"}, "docker": "quay.io/biocontainers/kallisto", "aliases": {"kallisto": "/usr/local/bin/kallisto", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/kallisto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kallisto", "latest": {"0.50.1--h6de1650_2": "sha256:141d52cfdab16459e822d32603c0cb5610ba7c63f857003a36047aae6116b98f"}, "tags": {"0.48.0--h15996b6_2": "sha256:e44c2964d20ee3fb46488f77752e904168bf0c343759b02a4ab852361512c103", "0.50.0--hc877fd6_0": "sha256:179723a1556f0da8349e67cea06bdca3ae1d532ceef13df23200c7d2ec1a0b3c", "0.50.1--hc877fd6_0": "sha256:b53e7a001384640d78d7efe8de63660d98432515fc74e041e575aa22fbf057b9", "0.50.1--hc877fd6_1": "sha256:303df2157635a4a3c5f8aca72cb6cc66c6f7bb2a1a867ea66d540681ff3748ab", "0.50.1--h6de1650_2": "sha256:141d52cfdab16459e822d32603c0cb5610ba7c63f857003a36047aae6116b98f"}, "docker": "quay.io/biocontainers/kallisto", "aliases": {"kallisto": "/usr/local/bin/kallisto", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kallisto.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/kallisto
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kallisto:0.50.1--hc877fd6_1
+$ shpc install quay.io/biocontainers/kallisto:0.50.1--h6de1650_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kallisto/0.50.1--hc877fd6_1
-$ module help quay.io/biocontainers/kallisto/0.50.1--hc877fd6_1
+$ module load quay.io/biocontainers/kallisto/0.50.1--h6de1650_2
+$ module help quay.io/biocontainers/kallisto/0.50.1--h6de1650_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/macs3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/macs3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/macs3/container.yaml"
-updated_at: "2024-06-16 02:48:15.842649"
-latest: "3.0.1--py39h3d4b85c_2"
+updated_at: "2024-06-17 02:48:25.687805"
+latest: "3.0.1--py312he57d009_3"
 container_url: "https://biocontainers.pro/tools/macs3"
 aliases:
  - "macs3"
@@ -18,8 +18,9 @@ versions:
  - "3.0.1--py312he4a0461_0"
  - "3.0.1--py39h3d4b85c_2"
  - "3.0.1--py310h83093d7_2"
+ - "3.0.1--py312he57d009_3"
 description: "singularity registry hpc automated addition for macs3"
-config: {"url": "https://biocontainers.pro/tools/macs3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for macs3", "latest": {"3.0.1--py39h3d4b85c_2": "sha256:d470b75937959cf328b182eef2675d3323af120549890f50de4697535f30b115"}, "tags": {"3.0.1--py312he4a0461_0": "sha256:8afe27c70bf2c3bcebd06f8819e014aba71565066d69e188817006df1e46f022", "3.0.1--py39h3d4b85c_2": "sha256:d470b75937959cf328b182eef2675d3323af120549890f50de4697535f30b115", "3.0.1--py310h83093d7_2": "sha256:30f06ce881286e805d466eb93db7c0257eb25bf4a6001e6a1b2c0078f9eae1d0"}, "docker": "quay.io/biocontainers/macs3", "aliases": {"macs3": "/usr/local/bin/macs3", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/macs3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for macs3", "latest": {"3.0.1--py312he57d009_3": "sha256:27518d25b581f0a9d2144aa4109c5f0e90bd3cb5b6eea14912ef0fcfe5ab8311"}, "tags": {"3.0.1--py312he4a0461_0": "sha256:8afe27c70bf2c3bcebd06f8819e014aba71565066d69e188817006df1e46f022", "3.0.1--py39h3d4b85c_2": "sha256:d470b75937959cf328b182eef2675d3323af120549890f50de4697535f30b115", "3.0.1--py310h83093d7_2": "sha256:30f06ce881286e805d466eb93db7c0257eb25bf4a6001e6a1b2c0078f9eae1d0", "3.0.1--py312he57d009_3": "sha256:27518d25b581f0a9d2144aa4109c5f0e90bd3cb5b6eea14912ef0fcfe5ab8311"}, "docker": "quay.io/biocontainers/macs3", "aliases": {"macs3": "/usr/local/bin/macs3", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/macs3.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/macs3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/macs3:3.0.1--py39h3d4b85c_2
+$ shpc install quay.io/biocontainers/macs3:3.0.1--py312he57d009_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/macs3/3.0.1--py39h3d4b85c_2
-$ module help quay.io/biocontainers/macs3/3.0.1--py39h3d4b85c_2
+$ module load quay.io/biocontainers/macs3/3.0.1--py312he57d009_3
+$ module help quay.io/biocontainers/macs3/3.0.1--py312he57d009_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

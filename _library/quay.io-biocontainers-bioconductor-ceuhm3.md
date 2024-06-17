@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ceuhm3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ceuhm3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ceuhm3/container.yaml"
-updated_at: "2024-06-16 02:58:30.576249"
+updated_at: "2024-06-17 02:58:53.153600"
 latest: "0.26.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ceuhm3"
 aliases:

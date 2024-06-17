@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-digest-sha1"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-digest-sha1/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-digest-sha1/container.yaml"
-updated_at: "2024-06-16 02:42:15.725756"
+updated_at: "2024-06-17 02:42:25.981356"
 latest: "2.13--pl5321h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/perl-digest-sha1"
 aliases:

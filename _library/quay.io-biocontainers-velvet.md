@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/velvet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/velvet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/velvet/container.yaml"
-updated_at: "2024-06-16 03:22:25.587703"
-latest: "1.2.10--he4a0461_6"
+updated_at: "2024-06-17 03:22:49.257593"
+latest: "1.2.10--he4a0461_7"
 container_url: "https://biocontainers.pro/tools/velvet"
 aliases:
  - "velvetg"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.2.10--h7132678_5"
  - "1.2.10--he4a0461_6"
+ - "1.2.10--he4a0461_7"
 description: "shpc-registry automated BioContainers addition for velvet"
-config: {"url": "https://biocontainers.pro/tools/velvet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for velvet", "latest": {"1.2.10--he4a0461_6": "sha256:349d908b449a84cc203974f85e28d5bb2d002c320bb40541f43913cda0847131"}, "tags": {"1.2.10--h7132678_5": "sha256:eaf254b874804a5785453098daf4e9f0d0ae7d1f21086fb22d9224d691114ca7", "1.2.10--he4a0461_6": "sha256:349d908b449a84cc203974f85e28d5bb2d002c320bb40541f43913cda0847131"}, "docker": "quay.io/biocontainers/velvet", "aliases": {"velvetg": "/usr/local/bin/velvetg", "velveth": "/usr/local/bin/velveth"}}
+config: {"url": "https://biocontainers.pro/tools/velvet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for velvet", "latest": {"1.2.10--he4a0461_7": "sha256:1a34d932d05e5f84da7302adfe6d4b3a29cbdf7428c57ec5ba3d7b4fff7b2ec9"}, "tags": {"1.2.10--h7132678_5": "sha256:eaf254b874804a5785453098daf4e9f0d0ae7d1f21086fb22d9224d691114ca7", "1.2.10--he4a0461_6": "sha256:349d908b449a84cc203974f85e28d5bb2d002c320bb40541f43913cda0847131", "1.2.10--he4a0461_7": "sha256:1a34d932d05e5f84da7302adfe6d4b3a29cbdf7428c57ec5ba3d7b4fff7b2ec9"}, "docker": "quay.io/biocontainers/velvet", "aliases": {"velvetg": "/usr/local/bin/velvetg", "velveth": "/usr/local/bin/velveth"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/velvet.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/velvet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/velvet:1.2.10--he4a0461_6
+$ shpc install quay.io/biocontainers/velvet:1.2.10--he4a0461_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/velvet/1.2.10--he4a0461_6
-$ module help quay.io/biocontainers/velvet/1.2.10--he4a0461_6
+$ module load quay.io/biocontainers/velvet/1.2.10--he4a0461_7
+$ module help quay.io/biocontainers/velvet/1.2.10--he4a0461_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

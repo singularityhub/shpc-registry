@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/svtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svtk/container.yaml"
-updated_at: "2024-06-16 03:12:08.534858"
-latest: "0.0.20190615--py38he5da3d1_4"
+updated_at: "2024-06-17 03:12:31.881675"
+latest: "0.0.20190615--py312hf67a6ed_5"
 container_url: "https://biocontainers.pro/tools/svtk"
 aliases:
  - "svtk"
@@ -23,8 +23,9 @@ versions:
  - "0.0.20190615--py39hbf8eff0_3"
  - "0.0.20190615--py38he5da3d1_4"
  - "0.0.20190615--py310h4b81fae_4"
+ - "0.0.20190615--py312hf67a6ed_5"
 description: "shpc-registry automated BioContainers addition for svtk"
-config: {"url": "https://biocontainers.pro/tools/svtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svtk", "latest": {"0.0.20190615--py38he5da3d1_4": "sha256:e4cebaa93b649c11dc5e85a594630797be47671119429b7dd46b47e9001eb8c8"}, "tags": {"0.0.20190615--py39hbf8eff0_3": "sha256:a244c9e28c37777988ffdf7d96d79f10c1daed96c4b17de4d2800d03750a4831", "0.0.20190615--py38he5da3d1_4": "sha256:e4cebaa93b649c11dc5e85a594630797be47671119429b7dd46b47e9001eb8c8", "0.0.20190615--py310h4b81fae_4": "sha256:742997ff02980b8828240a402ddfb82dd123fae66def503fad945d7089eb1f9c"}, "docker": "quay.io/biocontainers/svtk", "aliases": {"svtk": "/usr/local/bin/svtk", "jp.py": "/usr/local/bin/jp.py", "natsort": "/usr/local/bin/natsort", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam"}}
+config: {"url": "https://biocontainers.pro/tools/svtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svtk", "latest": {"0.0.20190615--py312hf67a6ed_5": "sha256:da387cc3d51c316e29e67af383d6507626c20c81e6541368248465ba36182645"}, "tags": {"0.0.20190615--py39hbf8eff0_3": "sha256:a244c9e28c37777988ffdf7d96d79f10c1daed96c4b17de4d2800d03750a4831", "0.0.20190615--py38he5da3d1_4": "sha256:e4cebaa93b649c11dc5e85a594630797be47671119429b7dd46b47e9001eb8c8", "0.0.20190615--py310h4b81fae_4": "sha256:742997ff02980b8828240a402ddfb82dd123fae66def503fad945d7089eb1f9c", "0.0.20190615--py312hf67a6ed_5": "sha256:da387cc3d51c316e29e67af383d6507626c20c81e6541368248465ba36182645"}, "docker": "quay.io/biocontainers/svtk", "aliases": {"svtk": "/usr/local/bin/svtk", "jp.py": "/usr/local/bin/jp.py", "natsort": "/usr/local/bin/natsort", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svtk.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/svtk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/svtk:0.0.20190615--py38he5da3d1_4
+$ shpc install quay.io/biocontainers/svtk:0.0.20190615--py312hf67a6ed_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/svtk/0.0.20190615--py38he5da3d1_4
-$ module help quay.io/biocontainers/svtk/0.0.20190615--py38he5da3d1_4
+$ module load quay.io/biocontainers/svtk/0.0.20190615--py312hf67a6ed_5
+$ module help quay.io/biocontainers/svtk/0.0.20190615--py312hf67a6ed_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

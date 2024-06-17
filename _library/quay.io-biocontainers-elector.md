@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/elector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/elector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/elector/container.yaml"
-updated_at: "2024-06-16 03:03:58.353640"
-latest: "1.0.4--py39he10ea66_4"
+updated_at: "2024-06-17 03:04:25.660455"
+latest: "1.0.4--py312h719dbc0_5"
 container_url: "https://biocontainers.pro/tools/elector"
 aliases:
  - "Donatello"
@@ -28,8 +28,9 @@ versions:
  - "1.0.4--py36h4aaaa08_3"
  - "1.0.4--py39he10ea66_4"
  - "1.0.4--py38hcbe9525_4"
+ - "1.0.4--py312h719dbc0_5"
 description: "shpc-registry automated BioContainers addition for elector"
-config: {"url": "https://biocontainers.pro/tools/elector", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for elector", "latest": {"1.0.4--py39he10ea66_4": "sha256:4a17b0622469603426802e70d5298578f1aa5075c2b266d52b90b922ce74b390"}, "tags": {"1.0.4--py36h4aaaa08_3": "sha256:b4894ff41be1b3e1f94cdac9e67f25a3289427d1b03765306dcb9920c7d24f72", "1.0.4--py39he10ea66_4": "sha256:4a17b0622469603426802e70d5298578f1aa5075c2b266d52b90b922ce74b390", "1.0.4--py38hcbe9525_4": "sha256:11f7e53a0879eaf29cb32da6fa406a9feb8c340c5bef44f41ec22c11ecc368ee"}, "docker": "quay.io/biocontainers/elector", "aliases": {"Donatello": "/usr/local/bin/Donatello", "elector": "/usr/local/bin/elector", "fq2fa": "/usr/local/bin/fq2fa", "masterSplitter": "/usr/local/bin/masterSplitter", "poa": "/usr/local/bin/poa", "simulator": "/usr/local/bin/simulator", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "f2py3.6": "/usr/local/bin/f2py3.6", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6"}}
+config: {"url": "https://biocontainers.pro/tools/elector", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for elector", "latest": {"1.0.4--py312h719dbc0_5": "sha256:19a6e75fe55467b5b639720aede62b8d75f18d3b5e283dd0811663dbec12c464"}, "tags": {"1.0.4--py36h4aaaa08_3": "sha256:b4894ff41be1b3e1f94cdac9e67f25a3289427d1b03765306dcb9920c7d24f72", "1.0.4--py39he10ea66_4": "sha256:4a17b0622469603426802e70d5298578f1aa5075c2b266d52b90b922ce74b390", "1.0.4--py38hcbe9525_4": "sha256:11f7e53a0879eaf29cb32da6fa406a9feb8c340c5bef44f41ec22c11ecc368ee", "1.0.4--py312h719dbc0_5": "sha256:19a6e75fe55467b5b639720aede62b8d75f18d3b5e283dd0811663dbec12c464"}, "docker": "quay.io/biocontainers/elector", "aliases": {"Donatello": "/usr/local/bin/Donatello", "elector": "/usr/local/bin/elector", "fq2fa": "/usr/local/bin/fq2fa", "masterSplitter": "/usr/local/bin/masterSplitter", "poa": "/usr/local/bin/poa", "simulator": "/usr/local/bin/simulator", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "f2py3.6": "/usr/local/bin/f2py3.6", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/elector.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/elector
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/elector:1.0.4--py39he10ea66_4
+$ shpc install quay.io/biocontainers/elector:1.0.4--py312h719dbc0_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/elector/1.0.4--py39he10ea66_4
-$ module help quay.io/biocontainers/elector/1.0.4--py39he10ea66_4
+$ module load quay.io/biocontainers/elector/1.0.4--py312h719dbc0_5
+$ module help quay.io/biocontainers/elector/1.0.4--py312h719dbc0_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

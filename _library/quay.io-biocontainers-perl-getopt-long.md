@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-getopt-long"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-getopt-long/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-getopt-long/container.yaml"
-updated_at: "2024-06-16 03:01:22.758637"
-latest: "2.54--pl5321hdfd78af_0"
+updated_at: "2024-06-17 03:01:48.496650"
+latest: "2.58--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-getopt-long"
 
 versions:
  - "2.52--pl5321hdfd78af_0"
  - "2.53--pl5321hdfd78af_0"
  - "2.54--pl5321hdfd78af_0"
+ - "2.58--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-getopt-long"
-config: {"url": "https://biocontainers.pro/tools/perl-getopt-long", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-getopt-long", "latest": {"2.54--pl5321hdfd78af_0": "sha256:c673c0424ea5cc6f0453a4d02ab5decec80b6590d5278967b519aa7be51b880d"}, "tags": {"2.52--pl5321hdfd78af_0": "sha256:0605150d30c518707fdb0ab8469583069a097ed459a8b10ac6aabd34ef36fab1", "2.53--pl5321hdfd78af_0": "sha256:5b6394bf33afd795ab998b3a4aa0eee25988cf64bbdf98d7eab05ec8e0d52a2a", "2.54--pl5321hdfd78af_0": "sha256:c673c0424ea5cc6f0453a4d02ab5decec80b6590d5278967b519aa7be51b880d"}, "docker": "quay.io/biocontainers/perl-getopt-long"}
+config: {"url": "https://biocontainers.pro/tools/perl-getopt-long", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-getopt-long", "latest": {"2.58--pl5321hdfd78af_0": "sha256:50a2e558c5fb37878cf869a2f7838c90252ea4ec56e794c96f2b2c0450285e33"}, "tags": {"2.52--pl5321hdfd78af_0": "sha256:0605150d30c518707fdb0ab8469583069a097ed459a8b10ac6aabd34ef36fab1", "2.53--pl5321hdfd78af_0": "sha256:5b6394bf33afd795ab998b3a4aa0eee25988cf64bbdf98d7eab05ec8e0d52a2a", "2.54--pl5321hdfd78af_0": "sha256:c673c0424ea5cc6f0453a4d02ab5decec80b6590d5278967b519aa7be51b880d", "2.58--pl5321hdfd78af_0": "sha256:50a2e558c5fb37878cf869a2f7838c90252ea4ec56e794c96f2b2c0450285e33"}, "docker": "quay.io/biocontainers/perl-getopt-long"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-getopt-long.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-getopt-long
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-getopt-long:2.54--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-getopt-long:2.58--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-getopt-long/2.54--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-getopt-long/2.54--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-getopt-long/2.58--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-getopt-long/2.58--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

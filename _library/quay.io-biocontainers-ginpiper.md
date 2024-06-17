@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/ginpiper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ginpiper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ginpiper/container.yaml"
-updated_at: "2024-06-16 03:19:38.013494"
-latest: "1.0.0--r42hdfd78af_1"
+updated_at: "2024-06-17 03:19:58.767884"
+latest: "1.0.0--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/ginpiper"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.0.0--r42hdfd78af_1"
+ - "1.0.0--r43hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for ginpiper"
-config: {"url": "https://biocontainers.pro/tools/ginpiper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ginpiper", "latest": {"1.0.0--r42hdfd78af_1": "sha256:fbff1da8e62166fff192c036ae0a92a1aabf5c097c7129a3f31d27d06610b8db"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:5a3ece21f9fc0ec60537ce2fedb0b69e387415076659dce0390187def6cd7340", "1.0.0--r42hdfd78af_1": "sha256:fbff1da8e62166fff192c036ae0a92a1aabf5c097c7129a3f31d27d06610b8db"}, "docker": "quay.io/biocontainers/ginpiper"}
+config: {"url": "https://biocontainers.pro/tools/ginpiper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ginpiper", "latest": {"1.0.0--r43hdfd78af_2": "sha256:7807c8097ed40cd9947c1effaf5f6c1af4bd70a5317d6c374c1aa64e2d4a1024"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:5a3ece21f9fc0ec60537ce2fedb0b69e387415076659dce0390187def6cd7340", "1.0.0--r42hdfd78af_1": "sha256:fbff1da8e62166fff192c036ae0a92a1aabf5c097c7129a3f31d27d06610b8db", "1.0.0--r43hdfd78af_2": "sha256:7807c8097ed40cd9947c1effaf5f6c1af4bd70a5317d6c374c1aa64e2d4a1024"}, "docker": "quay.io/biocontainers/ginpiper"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ginpiper.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/ginpiper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ginpiper:1.0.0--r42hdfd78af_1
+$ shpc install quay.io/biocontainers/ginpiper:1.0.0--r43hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ginpiper/1.0.0--r42hdfd78af_1
-$ module help quay.io/biocontainers/ginpiper/1.0.0--r42hdfd78af_1
+$ module load quay.io/biocontainers/ginpiper/1.0.0--r43hdfd78af_2
+$ module help quay.io/biocontainers/ginpiper/1.0.0--r43hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
