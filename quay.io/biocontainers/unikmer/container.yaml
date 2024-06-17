@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/unikmer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for unikmer
 latest:
-  0.19.1--h9ee0642_0: sha256:b9f679628a5bdc11889906695b7fc95ba6b59cee13e4ea75a5902ee0fbbce1d3
+  0.20.0--h9ee0642_0: sha256:92654c4223ba021d9d11493de3d1aae84cef2710037a8d052cd33ed4cea29136
 tags:
   0.19.1--h9ee0642_0: sha256:b9f679628a5bdc11889906695b7fc95ba6b59cee13e4ea75a5902ee0fbbce1d3
+  0.20.0--h9ee0642_0: sha256:92654c4223ba021d9d11493de3d1aae84cef2710037a8d052cd33ed4cea29136
 docker: quay.io/biocontainers/unikmer
 aliases:
   unikmer: /usr/local/bin/unikmer
