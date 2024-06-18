@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/wbuild
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for wbuild
 latest:
-  1.8.0--pyhdfd78af_1: sha256:52b2860b4b52abf59ae4be85990d5ce46b995c40876188f86e36693fd1da471f
+  1.8.0--pyhdfd78af_2: sha256:892386cb27a772b7807c266318ff88953c6fc922e2293f65e4bb5519ec4a9cf6
 tags:
   1.8.0--pyhdfd78af_1: sha256:52b2860b4b52abf59ae4be85990d5ce46b995c40876188f86e36693fd1da471f
+  1.8.0--pyhdfd78af_2: sha256:892386cb27a772b7807c266318ff88953c6fc922e2293f65e4bb5519ec4a9cf6
 docker: quay.io/biocontainers/wbuild
 aliases:
   wbuild: /usr/local/bin/wbuild
