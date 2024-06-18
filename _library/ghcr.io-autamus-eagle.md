@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/eagle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/eagle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/eagle/container.yaml"
-updated_at: "2024-06-17 03:23:45.735667"
+updated_at: "2024-06-18 03:21:30.252220"
 latest: "1.1.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/eagle"
 aliases:

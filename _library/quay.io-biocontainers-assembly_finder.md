@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/assembly_finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/assembly_finder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/assembly_finder/container.yaml"
-updated_at: "2024-06-17 03:17:50.327690"
-latest: "0.7.3--pyhdfd78af_0"
+updated_at: "2024-06-18 03:15:38.347199"
+latest: "0.7.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/assembly_finder"
 aliases:
  - "ascli"
@@ -48,8 +48,9 @@ versions:
  - "0.4.2--pyhdfd78af_0"
  - "0.6.2--pyhdfd78af_0"
  - "0.7.3--pyhdfd78af_0"
+ - "0.7.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for assembly_finder"
-config: {"url": "https://biocontainers.pro/tools/assembly_finder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for assembly_finder", "latest": {"0.7.3--pyhdfd78af_0": "sha256:9ce928ddefb5c25ea6df3b7b51a7ebd5a1cf2ae6e273c59e508befd69c640a91"}, "tags": {"0.3.2--pyhdfd78af_1": "sha256:c27ad01f4897fd1d85bc7f05cee656ba436982231ec0d820d75e136eeb48a800", "0.4.1--pyhdfd78af_0": "sha256:a470bbff52c255846e6cef4c7511741771de67426a1a38b43e7d27724b125c6c", "0.3.3--pyhdfd78af_1": "sha256:b07a1066e0483a216a98724bbc0163f1453478ecde1767fcbb9a525b97f1e5fd", "0.4.2--pyhdfd78af_0": "sha256:11f5e17202a8884408755b15be19069e7b0e4418ac5645c7d4fe4026944ee6d9", "0.6.2--pyhdfd78af_0": "sha256:c4071b789ce5eebba13f1c0813f20ed896513c15384912ba54dd73818178d89f", "0.7.3--pyhdfd78af_0": "sha256:9ce928ddefb5c25ea6df3b7b51a7ebd5a1cf2ae6e273c59e508befd69c640a91"}, "docker": "quay.io/biocontainers/assembly_finder", "aliases": {"ascli": "/usr/local/bin/ascli", "ascp": "/usr/local/bin/ascp", "asession": "/usr/local/bin/asession", "aspera-license": "/usr/local/bin/aspera-license", "assembly_finder": "/usr/local/bin/assembly_finder", "rbs": "/usr/local/bin/rbs", "rdbg": "/usr/local/bin/rdbg", "typeprof": "/usr/local/bin/typeprof", "racc": "/usr/local/bin/racc", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "lame": "/usr/local/bin/lame", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby"}}
+config: {"url": "https://biocontainers.pro/tools/assembly_finder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for assembly_finder", "latest": {"0.7.4--pyhdfd78af_0": "sha256:dd771a62fcf3c7346f3eb7bc7c80b93df521599258db934fd1fa5b61f42b5f67"}, "tags": {"0.3.2--pyhdfd78af_1": "sha256:c27ad01f4897fd1d85bc7f05cee656ba436982231ec0d820d75e136eeb48a800", "0.4.1--pyhdfd78af_0": "sha256:a470bbff52c255846e6cef4c7511741771de67426a1a38b43e7d27724b125c6c", "0.3.3--pyhdfd78af_1": "sha256:b07a1066e0483a216a98724bbc0163f1453478ecde1767fcbb9a525b97f1e5fd", "0.4.2--pyhdfd78af_0": "sha256:11f5e17202a8884408755b15be19069e7b0e4418ac5645c7d4fe4026944ee6d9", "0.6.2--pyhdfd78af_0": "sha256:c4071b789ce5eebba13f1c0813f20ed896513c15384912ba54dd73818178d89f", "0.7.3--pyhdfd78af_0": "sha256:9ce928ddefb5c25ea6df3b7b51a7ebd5a1cf2ae6e273c59e508befd69c640a91", "0.7.4--pyhdfd78af_0": "sha256:dd771a62fcf3c7346f3eb7bc7c80b93df521599258db934fd1fa5b61f42b5f67"}, "docker": "quay.io/biocontainers/assembly_finder", "aliases": {"ascli": "/usr/local/bin/ascli", "ascp": "/usr/local/bin/ascp", "asession": "/usr/local/bin/asession", "aspera-license": "/usr/local/bin/aspera-license", "assembly_finder": "/usr/local/bin/assembly_finder", "rbs": "/usr/local/bin/rbs", "rdbg": "/usr/local/bin/rdbg", "typeprof": "/usr/local/bin/typeprof", "racc": "/usr/local/bin/racc", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "lame": "/usr/local/bin/lame", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/assembly_finder.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/assembly_finder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/assembly_finder:0.7.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/assembly_finder:0.7.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/assembly_finder/0.7.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/assembly_finder/0.7.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/assembly_finder/0.7.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/assembly_finder/0.7.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

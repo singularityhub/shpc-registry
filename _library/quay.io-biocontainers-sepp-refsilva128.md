@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sepp-refsilva128"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sepp-refsilva128/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sepp-refsilva128/container.yaml"
-updated_at: "2024-06-17 02:38:26.190866"
+updated_at: "2024-06-18 02:36:12.124848"
 latest: "4.5.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sepp-refsilva128"
 

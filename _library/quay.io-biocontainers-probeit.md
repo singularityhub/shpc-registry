@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/probeit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/probeit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/probeit/container.yaml"
-updated_at: "2024-06-17 02:51:00.681536"
+updated_at: "2024-06-18 02:48:51.290076"
 latest: "2.2--py38hcbe9525_2"
 container_url: "https://biocontainers.pro/tools/probeit"
 aliases:

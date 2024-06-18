@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/skder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skder/container.yaml"
-updated_at: "2024-06-17 02:52:58.464802"
-latest: "1.0.10--py310h0dbaff4_0"
+updated_at: "2024-06-18 02:50:52.138411"
+latest: "1.1.1--py310h0dbaff4_0"
 container_url: "https://biocontainers.pro/tools/skder"
 aliases:
  - "gimme_taxa.py"
@@ -30,8 +30,9 @@ versions:
  - "1.0.5--py310h0dbaff4_0"
  - "1.0.8--py310h0dbaff4_0"
  - "1.0.10--py310h0dbaff4_0"
+ - "1.1.1--py310h0dbaff4_0"
 description: "singularity registry hpc automated addition for skder"
-config: {"url": "https://biocontainers.pro/tools/skder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for skder", "latest": {"1.0.10--py310h0dbaff4_0": "sha256:76d9ae927f05197217199f7035ee14a47e84639a754172773e8b1a690a9c55b1"}, "tags": {"1.0--py310h0dbaff4_0": "sha256:38fdcb0465610414b995547f61ef7f4cf0f04419adbb4a7dc66dc7e4d612f3ae", "1.0.4--py310h0dbaff4_0": "sha256:c1c99cdbc2ccdb0e2cc4d5678351e464c29d33c44e19608925cb2d6232a6bc1c", "1.0.5--py310h0dbaff4_0": "sha256:17128701d76d02703ad4843ae60454fe14cfbc3eac4591d655b03ecb56de6650", "1.0.8--py310h0dbaff4_0": "sha256:5d1baeba6fa7c21ebc1eb15a265c098bc9df7abc295ca61ef6d08f5ff7e510bb", "1.0.10--py310h0dbaff4_0": "sha256:76d9ae927f05197217199f7035ee14a47e84639a754172773e8b1a690a9c55b1"}, "docker": "quay.io/biocontainers/skder", "aliases": {"gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd", "pyfastx": "/usr/local/bin/pyfastx", "skDER.py": "/usr/local/bin/skDER.py", "skDERcore": "/usr/local/bin/skDERcore", "skani": "/usr/local/bin/skani", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/skder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for skder", "latest": {"1.1.1--py310h0dbaff4_0": "sha256:26fa551890bb4d26b6a7e2fd87bfd65bdaa6dc336a3b98ca7c409b6352566b78"}, "tags": {"1.0--py310h0dbaff4_0": "sha256:38fdcb0465610414b995547f61ef7f4cf0f04419adbb4a7dc66dc7e4d612f3ae", "1.0.4--py310h0dbaff4_0": "sha256:c1c99cdbc2ccdb0e2cc4d5678351e464c29d33c44e19608925cb2d6232a6bc1c", "1.0.5--py310h0dbaff4_0": "sha256:17128701d76d02703ad4843ae60454fe14cfbc3eac4591d655b03ecb56de6650", "1.0.8--py310h0dbaff4_0": "sha256:5d1baeba6fa7c21ebc1eb15a265c098bc9df7abc295ca61ef6d08f5ff7e510bb", "1.0.10--py310h0dbaff4_0": "sha256:76d9ae927f05197217199f7035ee14a47e84639a754172773e8b1a690a9c55b1", "1.1.1--py310h0dbaff4_0": "sha256:26fa551890bb4d26b6a7e2fd87bfd65bdaa6dc336a3b98ca7c409b6352566b78"}, "docker": "quay.io/biocontainers/skder", "aliases": {"gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd", "pyfastx": "/usr/local/bin/pyfastx", "skDER.py": "/usr/local/bin/skDER.py", "skDERcore": "/usr/local/bin/skDERcore", "skani": "/usr/local/bin/skani", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/skder.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/skder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/skder:1.0.10--py310h0dbaff4_0
+$ shpc install quay.io/biocontainers/skder:1.1.1--py310h0dbaff4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/skder/1.0.10--py310h0dbaff4_0
-$ module help quay.io/biocontainers/skder/1.0.10--py310h0dbaff4_0
+$ module load quay.io/biocontainers/skder/1.1.1--py310h0dbaff4_0
+$ module help quay.io/biocontainers/skder/1.1.1--py310h0dbaff4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

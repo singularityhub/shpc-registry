@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/callstate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/callstate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/callstate/container.yaml"
-updated_at: "2024-06-17 02:45:54.353494"
+updated_at: "2024-06-18 02:43:41.908629"
 latest: "0.0.2--h0fde405_1"
 container_url: "https://biocontainers.pro/tools/callstate"
 aliases:

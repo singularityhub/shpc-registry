@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/axiome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/axiome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/axiome/container.yaml"
-updated_at: "2024-06-17 02:43:03.677388"
+updated_at: "2024-06-18 02:40:49.846848"
 latest: "2.0.4--py_3"
 container_url: "https://biocontainers.pro/tools/axiome"
 aliases:

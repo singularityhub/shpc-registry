@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rsa/container.yaml"
-updated_at: "2024-06-17 03:16:40.956320"
+updated_at: "2024-06-18 03:14:29.146540"
 latest: "3.1.4--py36_0"
 container_url: "https://biocontainers.pro/tools/rsa"
 aliases:

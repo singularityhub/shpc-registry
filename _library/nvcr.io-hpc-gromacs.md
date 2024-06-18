@@ -4,7 +4,7 @@ name:  "nvcr.io/hpc/gromacs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/gromacs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/hpc/gromacs/container.yaml"
-updated_at: "2024-06-17 03:24:14.768059"
+updated_at: "2024-06-18 03:21:59.147511"
 latest: "2023.2"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:gromacs/tags"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genoboo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genoboo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genoboo/container.yaml"
-updated_at: "2024-06-17 02:44:21.683790"
-latest: "0.4.15--h4ac6f70_0"
+updated_at: "2024-06-18 02:42:07.472497"
+latest: "0.4.16--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/genoboo"
 aliases:
  - "genoboo"
@@ -52,8 +52,9 @@ versions:
  - "0.4.12--h4ac6f70_0"
  - "0.4.13--h4ac6f70_0"
  - "0.4.15--h4ac6f70_0"
+ - "0.4.16--h4ac6f70_0"
 description: "singularity registry hpc automated addition for genoboo"
-config: {"url": "https://biocontainers.pro/tools/genoboo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genoboo", "latest": {"0.4.15--h4ac6f70_0": "sha256:fad462cd976b9c431bf82124213d3582ce51904e9390f1ec929951522bd55a9e"}, "tags": {"0.4.1--h9f5acd7_0": "sha256:db400ba7bb082430351443bb92483b0b970d2674ebcdf3473ae5ca8795aa5d57", "0.4.2--h9f5acd7_0": "sha256:0c30ac1734c603f810c53dc2d1a783af18753698c6e2b4e81873f1ca698a0eeb", "0.4.3--h9f5acd7_0": "sha256:3d8f3d1f959b86b1d72bbc196ef460148ac52ab217d7cfe7d94bf9de44d07ed7", "0.4.3--h4ac6f70_1": "sha256:f5c2b908e5422e5df916fa158a44d742e49302fbd9e0828e183669ac81b3dfa4", "0.4.4--h4ac6f70_0": "sha256:640e8695353dbc5df4221206ec5372d1c7b5352012da9bd8abe7b887b8ce5c26", "0.4.7--h4ac6f70_0": "sha256:94ea47a9395894cb464da54c9507a7f6adc4fe79932ee4a144cdb23b36cc0393", "0.4.9--h4ac6f70_0": "sha256:67a0effecd4ec6d7bfcb6593a2baeffcd1a339c666fc8654b1e76d4df0ee200f", "0.4.12--h4ac6f70_0": "sha256:5c26b54e0b26efd831f53dfa2e6bc8769af7e1db150689cbfe13375c7e8adf86", "0.4.13--h4ac6f70_0": "sha256:1ebb523a6e5af3a7eab9d80ed36dd29b83e8b0caa3c58345ee0a732a4edb59be", "0.4.15--h4ac6f70_0": "sha256:fad462cd976b9c431bf82124213d3582ce51904e9390f1ec929951522bd55a9e"}, "docker": "quay.io/biocontainers/genoboo", "aliases": {"genoboo": "/usr/local/bin/genoboo", "meteor": "/usr/local/bin/meteor", "mongo": "/usr/local/bin/mongo", "mongod": "/usr/local/bin/mongod", "mongos": "/usr/local/bin/mongos", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "npx": "/usr/local/bin/npx", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs", "snp2tbl": "/usr/local/bin/snp2tbl", "sort-table": "/usr/local/bin/sort-table", "spdi2tbl": "/usr/local/bin/spdi2tbl", "split-at-intron": "/usr/local/bin/split-at-intron", "tbl2xml": "/usr/local/bin/tbl2xml", "transmute.Linux": "/usr/local/bin/transmute.Linux", "xml2fsa": "/usr/local/bin/xml2fsa"}}
+config: {"url": "https://biocontainers.pro/tools/genoboo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genoboo", "latest": {"0.4.16--h4ac6f70_0": "sha256:b260c3755c8e0ad861cce06ef50efb74ea12f75ba9d6f2a6d42639a48655612d"}, "tags": {"0.4.1--h9f5acd7_0": "sha256:db400ba7bb082430351443bb92483b0b970d2674ebcdf3473ae5ca8795aa5d57", "0.4.2--h9f5acd7_0": "sha256:0c30ac1734c603f810c53dc2d1a783af18753698c6e2b4e81873f1ca698a0eeb", "0.4.3--h9f5acd7_0": "sha256:3d8f3d1f959b86b1d72bbc196ef460148ac52ab217d7cfe7d94bf9de44d07ed7", "0.4.3--h4ac6f70_1": "sha256:f5c2b908e5422e5df916fa158a44d742e49302fbd9e0828e183669ac81b3dfa4", "0.4.4--h4ac6f70_0": "sha256:640e8695353dbc5df4221206ec5372d1c7b5352012da9bd8abe7b887b8ce5c26", "0.4.7--h4ac6f70_0": "sha256:94ea47a9395894cb464da54c9507a7f6adc4fe79932ee4a144cdb23b36cc0393", "0.4.9--h4ac6f70_0": "sha256:67a0effecd4ec6d7bfcb6593a2baeffcd1a339c666fc8654b1e76d4df0ee200f", "0.4.12--h4ac6f70_0": "sha256:5c26b54e0b26efd831f53dfa2e6bc8769af7e1db150689cbfe13375c7e8adf86", "0.4.13--h4ac6f70_0": "sha256:1ebb523a6e5af3a7eab9d80ed36dd29b83e8b0caa3c58345ee0a732a4edb59be", "0.4.15--h4ac6f70_0": "sha256:fad462cd976b9c431bf82124213d3582ce51904e9390f1ec929951522bd55a9e", "0.4.16--h4ac6f70_0": "sha256:b260c3755c8e0ad861cce06ef50efb74ea12f75ba9d6f2a6d42639a48655612d"}, "docker": "quay.io/biocontainers/genoboo", "aliases": {"genoboo": "/usr/local/bin/genoboo", "meteor": "/usr/local/bin/meteor", "mongo": "/usr/local/bin/mongo", "mongod": "/usr/local/bin/mongod", "mongos": "/usr/local/bin/mongos", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "npx": "/usr/local/bin/npx", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs", "snp2tbl": "/usr/local/bin/snp2tbl", "sort-table": "/usr/local/bin/sort-table", "spdi2tbl": "/usr/local/bin/spdi2tbl", "split-at-intron": "/usr/local/bin/split-at-intron", "tbl2xml": "/usr/local/bin/tbl2xml", "transmute.Linux": "/usr/local/bin/transmute.Linux", "xml2fsa": "/usr/local/bin/xml2fsa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genoboo.
@@ -68,7 +69,7 @@ $ shpc install quay.io/biocontainers/genoboo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genoboo:0.4.15--h4ac6f70_0
+$ shpc install quay.io/biocontainers/genoboo:0.4.16--h4ac6f70_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -80,8 +81,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genoboo/0.4.15--h4ac6f70_0
-$ module help quay.io/biocontainers/genoboo/0.4.15--h4ac6f70_0
+$ module load quay.io/biocontainers/genoboo/0.4.16--h4ac6f70_0
+$ module help quay.io/biocontainers/genoboo/0.4.16--h4ac6f70_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

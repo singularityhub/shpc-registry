@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/embl-api-validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/embl-api-validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/embl-api-validator/container.yaml"
-updated_at: "2024-06-17 03:13:20.248109"
+updated_at: "2024-06-18 03:11:09.543019"
 latest: "1.1.180--1"
 container_url: "https://biocontainers.pro/tools/embl-api-validator"
 aliases:

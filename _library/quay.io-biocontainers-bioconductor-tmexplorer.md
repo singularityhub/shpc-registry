@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tmexplorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tmexplorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tmexplorer/container.yaml"
-updated_at: "2024-06-17 02:39:54.047538"
+updated_at: "2024-06-18 02:37:40.999078"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tmexplorer"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/swga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/swga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/swga/container.yaml"
-updated_at: "2024-06-17 02:48:08.130426"
+updated_at: "2024-06-18 02:45:56.422606"
 latest: "0.4.4--py27heb12742_2"
 container_url: "https://biocontainers.pro/tools/swga"
 aliases:

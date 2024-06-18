@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-emlassemblyline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-emlassemblyline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-emlassemblyline/container.yaml"
-updated_at: "2024-06-17 03:04:12.537412"
+updated_at: "2024-06-18 03:02:00.579606"
 latest: "3.5.5"
 container_url: "https://biocontainers.pro/tools/r-emlassemblyline"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/slow5tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slow5tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slow5tools/container.yaml"
-updated_at: "2024-06-17 03:16:14.933383"
-latest: "1.1.0--h500492e_0"
+updated_at: "2024-06-18 03:14:03.205153"
+latest: "1.1.0--h56e2c18_1"
 container_url: "https://biocontainers.pro/tools/slow5tools"
 aliases:
  - "slow5tools"
@@ -30,8 +30,13 @@ versions:
  - "0.8.0--h500492e_2"
  - "0.7.0--h500492e_2"
  - "1.1.0--h500492e_0"
+ - "1.1.0--h56e2c18_1"
+ - "1.0.0--h56e2c18_3"
+ - "0.9.0--h56e2c18_3"
+ - "0.8.0--h56e2c18_3"
+ - "0.7.0--h56e2c18_3"
 description: "shpc-registry automated BioContainers addition for slow5tools"
-config: {"url": "https://biocontainers.pro/tools/slow5tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for slow5tools", "latest": {"1.1.0--h500492e_0": "sha256:2c08ef8a9cdb96a848d216e6dcad45df91a0a1060ef2f16602b441751c3b4b84"}, "tags": {"0.6.0--h0326b38_2": "sha256:fa2549fa31797e890061e4e6c911d2d378486cf17f6e98adeb93f17500e5cdca", "1.0.0--h0326b38_0": "sha256:90f91ba8044f03abbe5fbfc26d59d59238a335b15ca0bbee4c78ee9af2f344bb", "0.9.0--h0326b38_0": "sha256:19de6d9091eb7b94692378a04127193cd49c5161d021363b57fef29293afa5f0", "0.8.0--h0326b38_0": "sha256:04b7875daa1314c2f8d4d5fffeb6b58e6391be2b69a704379453c3596ac88d21", "0.7.0--h0326b38_0": "sha256:179fa0baacc5088811445883d0867358899b69f7ec2bbebad607a28199a3c510", "1.0.0--h500492e_2": "sha256:b49bda78b104cf8a27f41cfec9355d4dfcc7926f72a9cf68ee2e818a9d0f2ae5", "0.9.0--h500492e_2": "sha256:07db5f4a67c5df285b9e32bb49dfe26ccd03766b60f51ec564a5a9535423a76b", "0.8.0--h500492e_2": "sha256:ce7670e7d0e14748524064882264ace57835657c193a4fabf253d0f50f74e190", "0.7.0--h500492e_2": "sha256:1a12a508d1a79311ba0577225222a84ce8c2ea4d61e66ff75e7a5417769ebd05", "1.1.0--h500492e_0": "sha256:2c08ef8a9cdb96a848d216e6dcad45df91a0a1060ef2f16602b441751c3b4b84"}, "docker": "quay.io/biocontainers/slow5tools", "aliases": {"slow5tools": "/usr/local/bin/slow5tools", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/slow5tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for slow5tools", "latest": {"1.1.0--h56e2c18_1": "sha256:b8304e69ee49591fcf9642b7c93d550c8a9fe0ef2fc99e86d10c382821fa6a88"}, "tags": {"0.6.0--h0326b38_2": "sha256:fa2549fa31797e890061e4e6c911d2d378486cf17f6e98adeb93f17500e5cdca", "1.0.0--h0326b38_0": "sha256:90f91ba8044f03abbe5fbfc26d59d59238a335b15ca0bbee4c78ee9af2f344bb", "0.9.0--h0326b38_0": "sha256:19de6d9091eb7b94692378a04127193cd49c5161d021363b57fef29293afa5f0", "0.8.0--h0326b38_0": "sha256:04b7875daa1314c2f8d4d5fffeb6b58e6391be2b69a704379453c3596ac88d21", "0.7.0--h0326b38_0": "sha256:179fa0baacc5088811445883d0867358899b69f7ec2bbebad607a28199a3c510", "1.0.0--h500492e_2": "sha256:b49bda78b104cf8a27f41cfec9355d4dfcc7926f72a9cf68ee2e818a9d0f2ae5", "0.9.0--h500492e_2": "sha256:07db5f4a67c5df285b9e32bb49dfe26ccd03766b60f51ec564a5a9535423a76b", "0.8.0--h500492e_2": "sha256:ce7670e7d0e14748524064882264ace57835657c193a4fabf253d0f50f74e190", "0.7.0--h500492e_2": "sha256:1a12a508d1a79311ba0577225222a84ce8c2ea4d61e66ff75e7a5417769ebd05", "1.1.0--h500492e_0": "sha256:2c08ef8a9cdb96a848d216e6dcad45df91a0a1060ef2f16602b441751c3b4b84", "1.1.0--h56e2c18_1": "sha256:b8304e69ee49591fcf9642b7c93d550c8a9fe0ef2fc99e86d10c382821fa6a88", "1.0.0--h56e2c18_3": "sha256:5b098f4932aa7ac748c5fa3e875036fca5068d0d55fe37ebd8e96ad3a72663f2", "0.9.0--h56e2c18_3": "sha256:1eb59c466aaa30d3c5ae860ce8e665f95ebfe677b1da525a17af986037c03479", "0.8.0--h56e2c18_3": "sha256:17768c26cea2ce3e7611e065e0a71e8ffa6a81b4965ddbd2bf69de9b5c38d855", "0.7.0--h56e2c18_3": "sha256:3883a6fe5abf2d01a7ed376659404ec548d2cee5b9389ab01566bc9ee6abbc39"}, "docker": "quay.io/biocontainers/slow5tools", "aliases": {"slow5tools": "/usr/local/bin/slow5tools", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/slow5tools.
@@ -46,7 +51,7 @@ $ shpc install quay.io/biocontainers/slow5tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/slow5tools:1.1.0--h500492e_0
+$ shpc install quay.io/biocontainers/slow5tools:1.1.0--h56e2c18_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/slow5tools/1.1.0--h500492e_0
-$ module help quay.io/biocontainers/slow5tools/1.1.0--h500492e_0
+$ module load quay.io/biocontainers/slow5tools/1.1.0--h56e2c18_1
+$ module help quay.io/biocontainers/slow5tools/1.1.0--h56e2c18_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/primer3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primer3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/primer3/container.yaml"
-updated_at: "2024-06-17 03:08:05.658379"
-latest: "2.6.1--pl5321hdbdd923_4"
+updated_at: "2024-06-18 03:05:55.397100"
+latest: "2.6.1--pl5321hdbdd923_5"
 container_url: "https://biocontainers.pro/tools/primer3"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.6.1--pl5321h87f3376_2"
  - "2.5.0--pl5262h1b792b2_1"
  - "2.6.1--pl5321hdbdd923_4"
+ - "2.6.1--pl5321hdbdd923_5"
 description: "shpc-registry automated BioContainers addition for primer3"
-config: {"url": "https://biocontainers.pro/tools/primer3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for primer3", "latest": {"2.6.1--pl5321hdbdd923_4": "sha256:f37dcb36d0d68d17cca80aec1fc39f6e69503b8ad53272c1a330ed9e8a13554b"}, "tags": {"v2.5.0--pl526he1b5a44_0": "sha256:860d430a579f69ce45c4a729c7215e5dbabad650a988d7b7bcdef677be278d71", "2.6.1--pl5321h87f3376_2": "sha256:02b13b3403cab8201b92d0580de6fadca4e19fae6caaedc0d6cb36cb8afb5568", "2.5.0--pl5262h1b792b2_1": "sha256:f7913349cc10b498da1058fbcb848539e816bd437f2ab4b211252d636b3e840f", "2.6.1--pl5321hdbdd923_4": "sha256:f37dcb36d0d68d17cca80aec1fc39f6e69503b8ad53272c1a330ed9e8a13554b"}, "docker": "quay.io/biocontainers/primer3"}
+config: {"url": "https://biocontainers.pro/tools/primer3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for primer3", "latest": {"2.6.1--pl5321hdbdd923_5": "sha256:dad40cbfe8d4d3c56a78c6d814c3f63b60df2da99cd70fe5a90080b89ff9e249"}, "tags": {"v2.5.0--pl526he1b5a44_0": "sha256:860d430a579f69ce45c4a729c7215e5dbabad650a988d7b7bcdef677be278d71", "2.6.1--pl5321h87f3376_2": "sha256:02b13b3403cab8201b92d0580de6fadca4e19fae6caaedc0d6cb36cb8afb5568", "2.5.0--pl5262h1b792b2_1": "sha256:f7913349cc10b498da1058fbcb848539e816bd437f2ab4b211252d636b3e840f", "2.6.1--pl5321hdbdd923_4": "sha256:f37dcb36d0d68d17cca80aec1fc39f6e69503b8ad53272c1a330ed9e8a13554b", "2.6.1--pl5321hdbdd923_5": "sha256:dad40cbfe8d4d3c56a78c6d814c3f63b60df2da99cd70fe5a90080b89ff9e249"}, "docker": "quay.io/biocontainers/primer3"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/primer3.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/primer3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/primer3:2.6.1--pl5321hdbdd923_4
+$ shpc install quay.io/biocontainers/primer3:2.6.1--pl5321hdbdd923_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/primer3/2.6.1--pl5321hdbdd923_4
-$ module help quay.io/biocontainers/primer3/2.6.1--pl5321hdbdd923_4
+$ module load quay.io/biocontainers/primer3/2.6.1--pl5321hdbdd923_5
+$ module help quay.io/biocontainers/primer3/2.6.1--pl5321hdbdd923_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

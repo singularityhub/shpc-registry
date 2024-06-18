@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scar/container.yaml"
-updated_at: "2024-06-17 03:10:54.256068"
+updated_at: "2024-06-18 03:08:43.703632"
 latest: "0.5.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scar"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/unikmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unikmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unikmer/container.yaml"
-updated_at: "2024-06-17 02:45:34.497533"
-latest: "0.19.1--h9ee0642_0"
+updated_at: "2024-06-18 02:43:21.686613"
+latest: "0.20.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/unikmer"
 aliases:
  - "unikmer"
 versions:
  - "0.19.1--h9ee0642_0"
+ - "0.20.0--h9ee0642_0"
 description: "singularity registry hpc automated addition for unikmer"
-config: {"url": "https://biocontainers.pro/tools/unikmer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unikmer", "latest": {"0.19.1--h9ee0642_0": "sha256:b9f679628a5bdc11889906695b7fc95ba6b59cee13e4ea75a5902ee0fbbce1d3"}, "tags": {"0.19.1--h9ee0642_0": "sha256:b9f679628a5bdc11889906695b7fc95ba6b59cee13e4ea75a5902ee0fbbce1d3"}, "docker": "quay.io/biocontainers/unikmer", "aliases": {"unikmer": "/usr/local/bin/unikmer"}}
+config: {"url": "https://biocontainers.pro/tools/unikmer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unikmer", "latest": {"0.20.0--h9ee0642_0": "sha256:92654c4223ba021d9d11493de3d1aae84cef2710037a8d052cd33ed4cea29136"}, "tags": {"0.19.1--h9ee0642_0": "sha256:b9f679628a5bdc11889906695b7fc95ba6b59cee13e4ea75a5902ee0fbbce1d3", "0.20.0--h9ee0642_0": "sha256:92654c4223ba021d9d11493de3d1aae84cef2710037a8d052cd33ed4cea29136"}, "docker": "quay.io/biocontainers/unikmer", "aliases": {"unikmer": "/usr/local/bin/unikmer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unikmer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/unikmer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/unikmer:0.19.1--h9ee0642_0
+$ shpc install quay.io/biocontainers/unikmer:0.20.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/unikmer/0.19.1--h9ee0642_0
-$ module help quay.io/biocontainers/unikmer/0.19.1--h9ee0642_0
+$ module load quay.io/biocontainers/unikmer/0.20.0--h9ee0642_0
+$ module help quay.io/biocontainers/unikmer/0.20.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

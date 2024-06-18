@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rsv-typer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rsv-typer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rsv-typer/container.yaml"
-updated_at: "2024-06-17 02:56:02.475348"
-latest: "0.3.0--pyh7cba7a3_1"
+updated_at: "2024-06-18 02:53:56.131741"
+latest: "0.4.0--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/rsv-typer"
 aliases:
  - "align_trim"
@@ -64,8 +64,9 @@ versions:
  - "0.1.0--pyh7cba7a3_0"
  - "0.2.0--pyh7cba7a3_0"
  - "0.3.0--pyh7cba7a3_1"
+ - "0.4.0--pyh7cba7a3_1"
 description: "singularity registry hpc automated addition for rsv-typer"
-config: {"url": "https://biocontainers.pro/tools/rsv-typer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rsv-typer", "latest": {"0.3.0--pyh7cba7a3_1": "sha256:65074868cf30b9e8f8b5f7702b91282aa120dcda787ccb6fec4accb5bc650e44"}, "tags": {"0.1.0--pyh7cba7a3_0": "sha256:c15117607133166c95cef922d7e1d494093f322ae887ff11b1dd86d0c41d202f", "0.2.0--pyh7cba7a3_0": "sha256:4bc3853b1822b4fede7876b6e415a597bf0cf348293cb4892edabdb44033f3e1", "0.3.0--pyh7cba7a3_1": "sha256:65074868cf30b9e8f8b5f7702b91282aa120dcda787ccb6fec4accb5bc650e44"}, "docker": "quay.io/biocontainers/rsv-typer", "aliases": {"align_trim": "/usr/local/bin/align_trim", "align_trim_n": "/usr/local/bin/align_trim_n", "artic": "/usr/local/bin/artic", "artic-tools": "/usr/local/bin/artic-tools", "artic_fasta_header": "/usr/local/bin/artic_fasta_header", "artic_get_stats": "/usr/local/bin/artic_get_stats", "artic_make_depth_mask": "/usr/local/bin/artic_make_depth_mask", "artic_mask": "/usr/local/bin/artic_mask", "artic_vcf_filter": "/usr/local/bin/artic_vcf_filter", "artic_vcf_merge": "/usr/local/bin/artic_vcf_merge", "demux_fast5": "/usr/local/bin/demux_fast5", "longshot": "/usr/local/bin/longshot", "margin_cons": "/usr/local/bin/margin_cons", "margin_cons_medaka": "/usr/local/bin/margin_cons_medaka", "medaka": "/usr/local/bin/medaka", "medaka_consensus": "/usr/local/bin/medaka_consensus", "medaka_counts": "/usr/local/bin/medaka_counts", "medaka_data_path": "/usr/local/bin/medaka_data_path", "medaka_variant": "/usr/local/bin/medaka_variant", "medaka_version_report": "/usr/local/bin/medaka_version_report", "mini_align": "/usr/local/bin/mini_align", "nanopolish": "/usr/local/bin/nanopolish", "nanopolish_makerange.py": "/usr/local/bin/nanopolish_makerange.py", "nanopolish_merge.py": "/usr/local/bin/nanopolish_merge.py", "nextclade": "/usr/local/bin/nextclade", "rsv-typer": "/usr/local/bin/rsv-typer", "vcfextract": "/usr/local/bin/vcfextract", "check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "porechop": "/usr/local/bin/porechop", "fast5_subset": "/usr/local/bin/fast5_subset", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "rich-click": "/usr/local/bin/rich-click", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "whatshap": "/usr/local/bin/whatshap", "multiqc": "/usr/local/bin/multiqc", "minimap2.py": "/usr/local/bin/minimap2.py", "freeze_graph": "/usr/local/bin/freeze_graph", "tar": "/usr/local/bin/tar", "cmark": "/usr/local/bin/cmark", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "muscle": "/usr/local/bin/muscle", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "coloredlogs": "/usr/local/bin/coloredlogs", "tensorboard": "/usr/local/bin/tensorboard"}}
+config: {"url": "https://biocontainers.pro/tools/rsv-typer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rsv-typer", "latest": {"0.4.0--pyh7cba7a3_1": "sha256:0ded3cc1a4d7bf8b700d8555e25191a9d60ee58f6293b49d7b73b0d1df7ab63e"}, "tags": {"0.1.0--pyh7cba7a3_0": "sha256:c15117607133166c95cef922d7e1d494093f322ae887ff11b1dd86d0c41d202f", "0.2.0--pyh7cba7a3_0": "sha256:4bc3853b1822b4fede7876b6e415a597bf0cf348293cb4892edabdb44033f3e1", "0.3.0--pyh7cba7a3_1": "sha256:65074868cf30b9e8f8b5f7702b91282aa120dcda787ccb6fec4accb5bc650e44", "0.4.0--pyh7cba7a3_1": "sha256:0ded3cc1a4d7bf8b700d8555e25191a9d60ee58f6293b49d7b73b0d1df7ab63e"}, "docker": "quay.io/biocontainers/rsv-typer", "aliases": {"align_trim": "/usr/local/bin/align_trim", "align_trim_n": "/usr/local/bin/align_trim_n", "artic": "/usr/local/bin/artic", "artic-tools": "/usr/local/bin/artic-tools", "artic_fasta_header": "/usr/local/bin/artic_fasta_header", "artic_get_stats": "/usr/local/bin/artic_get_stats", "artic_make_depth_mask": "/usr/local/bin/artic_make_depth_mask", "artic_mask": "/usr/local/bin/artic_mask", "artic_vcf_filter": "/usr/local/bin/artic_vcf_filter", "artic_vcf_merge": "/usr/local/bin/artic_vcf_merge", "demux_fast5": "/usr/local/bin/demux_fast5", "longshot": "/usr/local/bin/longshot", "margin_cons": "/usr/local/bin/margin_cons", "margin_cons_medaka": "/usr/local/bin/margin_cons_medaka", "medaka": "/usr/local/bin/medaka", "medaka_consensus": "/usr/local/bin/medaka_consensus", "medaka_counts": "/usr/local/bin/medaka_counts", "medaka_data_path": "/usr/local/bin/medaka_data_path", "medaka_variant": "/usr/local/bin/medaka_variant", "medaka_version_report": "/usr/local/bin/medaka_version_report", "mini_align": "/usr/local/bin/mini_align", "nanopolish": "/usr/local/bin/nanopolish", "nanopolish_makerange.py": "/usr/local/bin/nanopolish_makerange.py", "nanopolish_merge.py": "/usr/local/bin/nanopolish_merge.py", "nextclade": "/usr/local/bin/nextclade", "rsv-typer": "/usr/local/bin/rsv-typer", "vcfextract": "/usr/local/bin/vcfextract", "check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "porechop": "/usr/local/bin/porechop", "fast5_subset": "/usr/local/bin/fast5_subset", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "rich-click": "/usr/local/bin/rich-click", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "whatshap": "/usr/local/bin/whatshap", "multiqc": "/usr/local/bin/multiqc", "minimap2.py": "/usr/local/bin/minimap2.py", "freeze_graph": "/usr/local/bin/freeze_graph", "tar": "/usr/local/bin/tar", "cmark": "/usr/local/bin/cmark", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "muscle": "/usr/local/bin/muscle", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "coloredlogs": "/usr/local/bin/coloredlogs", "tensorboard": "/usr/local/bin/tensorboard"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rsv-typer.
@@ -80,7 +81,7 @@ $ shpc install quay.io/biocontainers/rsv-typer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rsv-typer:0.3.0--pyh7cba7a3_1
+$ shpc install quay.io/biocontainers/rsv-typer:0.4.0--pyh7cba7a3_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -92,8 +93,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rsv-typer/0.3.0--pyh7cba7a3_1
-$ module help quay.io/biocontainers/rsv-typer/0.3.0--pyh7cba7a3_1
+$ module load quay.io/biocontainers/rsv-typer/0.4.0--pyh7cba7a3_1
+$ module help quay.io/biocontainers/rsv-typer/0.4.0--pyh7cba7a3_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-extutils-installpaths"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-extutils-installpaths/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-extutils-installpaths/container.yaml"
-updated_at: "2024-06-17 02:48:52.381203"
+updated_at: "2024-06-18 02:46:41.718059"
 latest: "0.012--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-extutils-installpaths"
 aliases:

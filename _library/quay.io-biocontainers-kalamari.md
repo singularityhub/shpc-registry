@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kalamari"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kalamari/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kalamari/container.yaml"
-updated_at: "2024-06-17 02:58:07.158033"
+updated_at: "2024-06-18 02:55:58.391094"
 latest: "5.6.2--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kalamari"
 aliases:
