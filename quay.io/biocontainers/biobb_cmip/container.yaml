@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/biobb_cmip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biobb_cmip
 latest:
-  4.1.1--pyhdfd78af_0: sha256:057aed2c02188fa50b7ab05e5a44c972828958e5f53a4123d0c63c18cff30c70
+  4.2.0--pyhdfd78af_0: sha256:b73088f5397b746f58fade9b1fc7bad1b9d6ad4bf4e0371e6f9dd83aae628b80
 tags:
   3.7.8--pyhdfd78af_0: sha256:430bae684bf4158af6eb460f0426f336d4432a38004aaca692262f4ad1040cdc
   3.9.0--pyhdfd78af_0: sha256:f7e6babe30ef13a969ca483ac69e69f61ff86204d6436545fe9ba75662f223a2
   4.0.0--pyhdfd78af_0: sha256:a3134922abd70a96bef67cf438b3f782eeb988cc366242f9463c1be5e8709fd6
   4.1.0--pyhdfd78af_0: sha256:1e24f52fe8b277c0533b4d57fd11622ab1e1193fd0355349766a3bc885dc3b2c
   4.1.1--pyhdfd78af_0: sha256:057aed2c02188fa50b7ab05e5a44c972828958e5f53a4123d0c63c18cff30c70
+  4.2.0--pyhdfd78af_0: sha256:b73088f5397b746f58fade9b1fc7bad1b9d6ad4bf4e0371e6f9dd83aae628b80
 docker: quay.io/biocontainers/biobb_cmip
 aliases:
   avgEpsGrid: /usr/local/bin/avgEpsGrid

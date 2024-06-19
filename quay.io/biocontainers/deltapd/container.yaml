@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/deltapd
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for deltapd
 latest:
-  0.1.5--py310hc2b1e32_4: sha256:9651ac4fa673768af2e1f5d099956a55d2950e427dee53eabb1df59e29cd423a
+  0.1.5--py310h1fbdaaf_5: sha256:87354ef510fba0caefcfa8da393e943b176f6e92ef2504335f56982195c1ccc5
 tags:
   0.1.5--py37h466c021_3: sha256:60731202ba2fbf37d31a761371feeadc9f00ee5a1333540d896fa75a78593326
   0.1.5--py310hc2b1e32_4: sha256:9651ac4fa673768af2e1f5d099956a55d2950e427dee53eabb1df59e29cd423a
   0.1.5--py39hf662ef1_4: sha256:0ff349d14bc0b21d4b448ef31554bdb8d23e7f5af625c3813f78b2b0e99a193e
+  0.1.5--py310h1fbdaaf_5: sha256:87354ef510fba0caefcfa8da393e943b176f6e92ef2504335f56982195c1ccc5
 docker: quay.io/biocontainers/deltapd
 aliases:
   attr: /usr/local/bin/attr
