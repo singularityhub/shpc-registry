@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cosi2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cosi2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cosi2/container.yaml"
-updated_at: "2024-06-18 02:58:56.754313"
+updated_at: "2024-06-19 02:58:19.705280"
 latest: "2.3.0rc4--py27h2d50403_1"
 container_url: "https://biocontainers.pro/tools/cosi2"
 aliases:

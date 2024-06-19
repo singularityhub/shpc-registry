@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobb_gromacs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_gromacs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_gromacs/container.yaml"
-updated_at: "2024-06-18 03:07:20.504355"
-latest: "4.1.1--pyhdfd78af_0"
+updated_at: "2024-06-19 03:06:30.335106"
+latest: "4.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_gromacs"
 aliases:
  - "append_ligand"
@@ -52,8 +52,9 @@ versions:
  - "4.0.0--pyhdfd78af_1"
  - "4.1.0--pyhdfd78af_0"
  - "4.1.1--pyhdfd78af_0"
+ - "4.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for biobb_gromacs"
-config: {"url": "https://biocontainers.pro/tools/biobb_gromacs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biobb_gromacs", "latest": {"4.1.1--pyhdfd78af_0": "sha256:6cef4dfb031576df97fa485f54eea21759a638041c9a44226e9be832ecf5bd90"}, "tags": {"3.9.0--pyhdfd78af_0": "sha256:d9247e19a9b29d6e64312c8775d4b4061587cfea87144110eadcd312dfce4538", "4.0.0--pyhdfd78af_1": "sha256:3c01e6a2dc0754bfe2e77f393e280aa504618320e5825b8bbe52f5643e320a7d", "4.1.0--pyhdfd78af_0": "sha256:ecb62fea9b6640325b8363ea7e762f2dd036c66c171841939e914891d958f128", "4.1.1--pyhdfd78af_0": "sha256:6cef4dfb031576df97fa485f54eea21759a638041c9a44226e9be832ecf5bd90"}, "docker": "quay.io/biocontainers/biobb_gromacs", "aliases": {"append_ligand": "/usr/local/bin/append_ligand", "editconf": "/usr/local/bin/editconf", "genion": "/usr/local/bin/genion", "genrestr": "/usr/local/bin/genrestr", "gmx": "/usr/local/bin/gmx", "gmxselect": "/usr/local/bin/gmxselect", "grompp": "/usr/local/bin/grompp", "grompp_mdrun": "/usr/local/bin/grompp_mdrun", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "make_ndx": "/usr/local/bin/make_ndx", "mdrun": "/usr/local/bin/mdrun", "ndx2resttop": "/usr/local/bin/ndx2resttop", "pdb2gmx": "/usr/local/bin/pdb2gmx", "solvate": "/usr/local/bin/solvate", "trjcat": "/usr/local/bin/trjcat", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "normalizer": "/usr/local/bin/normalizer", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_gromacs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biobb_gromacs", "latest": {"4.2.0--pyhdfd78af_0": "sha256:c3abc9551b5d73eb9c31d646c929f1cb1a9917700e0313498cae1e33e8d1ab6b"}, "tags": {"3.9.0--pyhdfd78af_0": "sha256:d9247e19a9b29d6e64312c8775d4b4061587cfea87144110eadcd312dfce4538", "4.0.0--pyhdfd78af_1": "sha256:3c01e6a2dc0754bfe2e77f393e280aa504618320e5825b8bbe52f5643e320a7d", "4.1.0--pyhdfd78af_0": "sha256:ecb62fea9b6640325b8363ea7e762f2dd036c66c171841939e914891d958f128", "4.1.1--pyhdfd78af_0": "sha256:6cef4dfb031576df97fa485f54eea21759a638041c9a44226e9be832ecf5bd90", "4.2.0--pyhdfd78af_0": "sha256:c3abc9551b5d73eb9c31d646c929f1cb1a9917700e0313498cae1e33e8d1ab6b"}, "docker": "quay.io/biocontainers/biobb_gromacs", "aliases": {"append_ligand": "/usr/local/bin/append_ligand", "editconf": "/usr/local/bin/editconf", "genion": "/usr/local/bin/genion", "genrestr": "/usr/local/bin/genrestr", "gmx": "/usr/local/bin/gmx", "gmxselect": "/usr/local/bin/gmxselect", "grompp": "/usr/local/bin/grompp", "grompp_mdrun": "/usr/local/bin/grompp_mdrun", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "make_ndx": "/usr/local/bin/make_ndx", "mdrun": "/usr/local/bin/mdrun", "ndx2resttop": "/usr/local/bin/ndx2resttop", "pdb2gmx": "/usr/local/bin/pdb2gmx", "solvate": "/usr/local/bin/solvate", "trjcat": "/usr/local/bin/trjcat", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "normalizer": "/usr/local/bin/normalizer", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_gromacs.
@@ -68,7 +69,7 @@ $ shpc install quay.io/biocontainers/biobb_gromacs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobb_gromacs:4.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/biobb_gromacs:4.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -80,8 +81,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobb_gromacs/4.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/biobb_gromacs/4.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/biobb_gromacs/4.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/biobb_gromacs/4.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

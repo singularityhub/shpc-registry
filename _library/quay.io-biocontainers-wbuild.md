@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wbuild"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wbuild/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wbuild/container.yaml"
-updated_at: "2024-06-18 03:12:34.258881"
-latest: "1.8.0--pyhdfd78af_1"
+updated_at: "2024-06-19 03:11:37.766462"
+latest: "1.8.0--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/wbuild"
 aliases:
  - "wbuild"
@@ -21,8 +21,9 @@ aliases:
  - "jupyter-troubleshoot"
 versions:
  - "1.8.0--pyhdfd78af_1"
+ - "1.8.0--pyhdfd78af_2"
 description: "shpc-registry automated BioContainers addition for wbuild"
-config: {"url": "https://biocontainers.pro/tools/wbuild", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wbuild", "latest": {"1.8.0--pyhdfd78af_1": "sha256:52b2860b4b52abf59ae4be85990d5ce46b995c40876188f86e36693fd1da471f"}, "tags": {"1.8.0--pyhdfd78af_1": "sha256:52b2860b4b52abf59ae4be85990d5ce46b995c40876188f86e36693fd1da471f"}, "docker": "quay.io/biocontainers/wbuild", "aliases": {"wbuild": "/usr/local/bin/wbuild", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot"}}
+config: {"url": "https://biocontainers.pro/tools/wbuild", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wbuild", "latest": {"1.8.0--pyhdfd78af_2": "sha256:892386cb27a772b7807c266318ff88953c6fc922e2293f65e4bb5519ec4a9cf6"}, "tags": {"1.8.0--pyhdfd78af_1": "sha256:52b2860b4b52abf59ae4be85990d5ce46b995c40876188f86e36693fd1da471f", "1.8.0--pyhdfd78af_2": "sha256:892386cb27a772b7807c266318ff88953c6fc922e2293f65e4bb5519ec4a9cf6"}, "docker": "quay.io/biocontainers/wbuild", "aliases": {"wbuild": "/usr/local/bin/wbuild", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wbuild.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/wbuild
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wbuild:1.8.0--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/wbuild:1.8.0--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wbuild/1.8.0--pyhdfd78af_1
-$ module help quay.io/biocontainers/wbuild/1.8.0--pyhdfd78af_1
+$ module load quay.io/biocontainers/wbuild/1.8.0--pyhdfd78af_2
+$ module help quay.io/biocontainers/wbuild/1.8.0--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

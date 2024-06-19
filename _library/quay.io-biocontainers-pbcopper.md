@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbcopper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbcopper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbcopper/container.yaml"
-updated_at: "2024-06-18 02:53:08.736568"
+updated_at: "2024-06-19 02:52:40.854211"
 latest: "2.3.0--hfce7173_0"
 container_url: "https://biocontainers.pro/tools/pbcopper"
 

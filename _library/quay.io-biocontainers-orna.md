@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/orna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orna/container.yaml"
-updated_at: "2024-06-18 03:09:28.005876"
-latest: "2.0--h385d65c_4"
+updated_at: "2024-06-19 03:08:34.920361"
+latest: "2.0--h56e2c18_5"
 container_url: "https://biocontainers.pro/tools/orna"
 aliases:
  - "ORNA"
@@ -36,8 +36,9 @@ aliases:
 versions:
  - "2.0--hd65806c_2"
  - "2.0--h385d65c_4"
+ - "2.0--h56e2c18_5"
 description: "singularity registry hpc automated addition for orna"
-config: {"url": "https://biocontainers.pro/tools/orna", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for orna", "latest": {"2.0--h385d65c_4": "sha256:5ec93ba3eedcad865d79ee7f53c777a5b6485cc3f314c93c55722cfbe54388db"}, "tags": {"2.0--hd65806c_2": "sha256:0f2806f8faaba4178cd5609b4d1a8ade755ea883c00e911477b29842bbac438b", "2.0--h385d65c_4": "sha256:5ec93ba3eedcad865d79ee7f53c777a5b6485cc3f314c93c55722cfbe54388db"}, "docker": "quay.io/biocontainers/orna", "aliases": {"ORNA": "/usr/local/bin/ORNA", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack", "h5repart": "/usr/local/bin/h5repart", "h5stat": "/usr/local/bin/h5stat", "h5unjam": "/usr/local/bin/h5unjam", "h5dump": "/usr/local/bin/h5dump", "h5cc": "/usr/local/bin/h5cc"}}
+config: {"url": "https://biocontainers.pro/tools/orna", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for orna", "latest": {"2.0--h56e2c18_5": "sha256:1e5076fd57e34783bc1566c81cae857026b00275a3e585c1b1c68d59ab67cea4"}, "tags": {"2.0--hd65806c_2": "sha256:0f2806f8faaba4178cd5609b4d1a8ade755ea883c00e911477b29842bbac438b", "2.0--h385d65c_4": "sha256:5ec93ba3eedcad865d79ee7f53c777a5b6485cc3f314c93c55722cfbe54388db", "2.0--h56e2c18_5": "sha256:1e5076fd57e34783bc1566c81cae857026b00275a3e585c1b1c68d59ab67cea4"}, "docker": "quay.io/biocontainers/orna", "aliases": {"ORNA": "/usr/local/bin/ORNA", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack", "h5repart": "/usr/local/bin/h5repart", "h5stat": "/usr/local/bin/h5stat", "h5unjam": "/usr/local/bin/h5unjam", "h5dump": "/usr/local/bin/h5dump", "h5cc": "/usr/local/bin/h5cc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/orna.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/orna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/orna:2.0--h385d65c_4
+$ shpc install quay.io/biocontainers/orna:2.0--h56e2c18_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/orna/2.0--h385d65c_4
-$ module help quay.io/biocontainers/orna/2.0--h385d65c_4
+$ module load quay.io/biocontainers/orna/2.0--h56e2c18_5
+$ module help quay.io/biocontainers/orna/2.0--h56e2c18_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

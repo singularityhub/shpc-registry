@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sigprofilerplotting"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sigprofilerplotting/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sigprofilerplotting/container.yaml"
-updated_at: "2024-06-18 02:55:18.501314"
-latest: "1.3.22--pyh7cba7a3_0"
+updated_at: "2024-06-19 02:54:47.068397"
+latest: "1.3.23--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/sigprofilerplotting"
 aliases:
  - "SigProfilerPlotting"
@@ -31,8 +31,9 @@ aliases:
 versions:
  - "1.3.21--pyh7cba7a3_0"
  - "1.3.22--pyh7cba7a3_0"
+ - "1.3.23--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for sigprofilerplotting"
-config: {"url": "https://biocontainers.pro/tools/sigprofilerplotting", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sigprofilerplotting", "latest": {"1.3.22--pyh7cba7a3_0": "sha256:7ef9ab3c485a077ab0a645917e3ffc8aee76433bd232702a82e12f7ab53558ca"}, "tags": {"1.3.21--pyh7cba7a3_0": "sha256:6ec878dbef7f0abde400e60507df8a27b034bfe32a9eaf2ed5749c2dddf53f42", "1.3.22--pyh7cba7a3_0": "sha256:7ef9ab3c485a077ab0a645917e3ffc8aee76433bd232702a82e12f7ab53558ca"}, "docker": "quay.io/biocontainers/sigprofilerplotting", "aliases": {"SigProfilerPlotting": "/usr/local/bin/SigProfilerPlotting", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/sigprofilerplotting", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sigprofilerplotting", "latest": {"1.3.23--pyh7cba7a3_0": "sha256:db5d935a0077f7415960767da0daae7f3ef492dffeb769dbf6600480085dcefc"}, "tags": {"1.3.21--pyh7cba7a3_0": "sha256:6ec878dbef7f0abde400e60507df8a27b034bfe32a9eaf2ed5749c2dddf53f42", "1.3.22--pyh7cba7a3_0": "sha256:7ef9ab3c485a077ab0a645917e3ffc8aee76433bd232702a82e12f7ab53558ca", "1.3.23--pyh7cba7a3_0": "sha256:db5d935a0077f7415960767da0daae7f3ef492dffeb769dbf6600480085dcefc"}, "docker": "quay.io/biocontainers/sigprofilerplotting", "aliases": {"SigProfilerPlotting": "/usr/local/bin/SigProfilerPlotting", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sigprofilerplotting.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/sigprofilerplotting
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sigprofilerplotting:1.3.22--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/sigprofilerplotting:1.3.23--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sigprofilerplotting/1.3.22--pyh7cba7a3_0
-$ module help quay.io/biocontainers/sigprofilerplotting/1.3.22--pyh7cba7a3_0
+$ module load quay.io/biocontainers/sigprofilerplotting/1.3.23--pyh7cba7a3_0
+$ module help quay.io/biocontainers/sigprofilerplotting/1.3.23--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
