@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqverify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqverify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqverify/container.yaml"
-updated_at: "2024-06-19 02:55:19.832632"
+updated_at: "2024-06-20 02:34:33.849453"
 latest: "1.2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqverify"
 aliases:

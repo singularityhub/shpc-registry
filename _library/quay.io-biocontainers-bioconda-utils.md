@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconda-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconda-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconda-utils/container.yaml"
-updated_at: "2024-06-19 02:38:21.752088"
+updated_at: "2024-06-20 02:57:40.766608"
 latest: "2.15.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/bioconda-utils"
 aliases:

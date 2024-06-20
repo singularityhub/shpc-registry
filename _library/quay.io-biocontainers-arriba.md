@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/arriba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arriba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arriba/container.yaml"
-updated_at: "2024-06-19 02:51:13.275099"
-latest: "2.4.0--h0033a41_2"
+updated_at: "2024-06-20 03:01:15.620562"
+latest: "2.4.0--hdbdd923_3"
 container_url: "https://biocontainers.pro/tools/arriba"
 aliases:
  - "arriba"
@@ -29,8 +29,9 @@ versions:
  - "2.3.0--ha04fe3b_1"
  - "2.4.0--h6b7c446_1"
  - "2.4.0--h0033a41_2"
+ - "2.4.0--hdbdd923_3"
 description: "shpc-registry automated BioContainers addition for arriba"
-config: {"url": "https://biocontainers.pro/tools/arriba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arriba", "latest": {"2.4.0--h0033a41_2": "sha256:d4632bdaa59ba9619c4c72d897b7551ec993d79cd3acefa475169eba9bfc8d29"}, "tags": {"2.3.0--ha04fe3b_1": "sha256:0b46650c649f24856861dcddb21c1d78fbefaef437ea3619c9304f59b1de1ae5", "2.4.0--h6b7c446_1": "sha256:4e6d33c6d163b2b27185ba08312472e77cfab3d3a745bc2ef1eac90d32c4df9f", "2.4.0--h0033a41_2": "sha256:d4632bdaa59ba9619c4c72d897b7551ec993d79cd3acefa475169eba9bfc8d29"}, "docker": "quay.io/biocontainers/arriba", "aliases": {"arriba": "/usr/local/bin/arriba", "convert_fusions_to_vcf.sh": "/usr/local/bin/convert_fusions_to_vcf.sh", "draw_fusions.R": "/usr/local/bin/draw_fusions.R", "extract_fusion-supporting_alignments.sh": "/usr/local/bin/extract_fusion-supporting_alignments.sh", "quantify_virus_expression.sh": "/usr/local/bin/quantify_virus_expression.sh", "run_arriba.sh": "/usr/local/bin/run_arriba.sh", "run_arriba_on_prealigned_bam.sh": "/usr/local/bin/run_arriba_on_prealigned_bam.sh", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long"}}
+config: {"url": "https://biocontainers.pro/tools/arriba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arriba", "latest": {"2.4.0--hdbdd923_3": "sha256:880af8dfee0d4cc742ce2cc9b64f66a8c09a3b7e1ea4621c03ade12ae6563bc3"}, "tags": {"2.3.0--ha04fe3b_1": "sha256:0b46650c649f24856861dcddb21c1d78fbefaef437ea3619c9304f59b1de1ae5", "2.4.0--h6b7c446_1": "sha256:4e6d33c6d163b2b27185ba08312472e77cfab3d3a745bc2ef1eac90d32c4df9f", "2.4.0--h0033a41_2": "sha256:d4632bdaa59ba9619c4c72d897b7551ec993d79cd3acefa475169eba9bfc8d29", "2.4.0--hdbdd923_3": "sha256:880af8dfee0d4cc742ce2cc9b64f66a8c09a3b7e1ea4621c03ade12ae6563bc3"}, "docker": "quay.io/biocontainers/arriba", "aliases": {"arriba": "/usr/local/bin/arriba", "convert_fusions_to_vcf.sh": "/usr/local/bin/convert_fusions_to_vcf.sh", "draw_fusions.R": "/usr/local/bin/draw_fusions.R", "extract_fusion-supporting_alignments.sh": "/usr/local/bin/extract_fusion-supporting_alignments.sh", "quantify_virus_expression.sh": "/usr/local/bin/quantify_virus_expression.sh", "run_arriba.sh": "/usr/local/bin/run_arriba.sh", "run_arriba_on_prealigned_bam.sh": "/usr/local/bin/run_arriba_on_prealigned_bam.sh", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/arriba.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/arriba
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/arriba:2.4.0--h0033a41_2
+$ shpc install quay.io/biocontainers/arriba:2.4.0--hdbdd923_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/arriba/2.4.0--h0033a41_2
-$ module help quay.io/biocontainers/arriba/2.4.0--h0033a41_2
+$ module load quay.io/biocontainers/arriba/2.4.0--hdbdd923_3
+$ module help quay.io/biocontainers/arriba/2.4.0--hdbdd923_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

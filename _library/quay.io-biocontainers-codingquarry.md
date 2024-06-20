@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/codingquarry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/codingquarry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/codingquarry/container.yaml"
-updated_at: "2024-06-19 02:51:02.441006"
-latest: "2.0--py39h1f90b4d_8"
+updated_at: "2024-06-20 02:56:12.958207"
+latest: "2.0--py312h28adbb1_9"
 container_url: "https://biocontainers.pro/tools/codingquarry"
 aliases:
  - "CodingQuarry"
@@ -23,8 +23,9 @@ versions:
  - "2.0--py38h4a32c8e_6"
  - "2.0--py39h1f90b4d_8"
  - "2.0--py38h2494328_8"
+ - "2.0--py312h28adbb1_9"
 description: "shpc-registry automated BioContainers addition for codingquarry"
-config: {"url": "https://biocontainers.pro/tools/codingquarry", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for codingquarry", "latest": {"2.0--py39h1f90b4d_8": "sha256:6bce13ef87fb22ace96b8653696836ff8fcb124d0419c245a3b7ba7c51c5b24c"}, "tags": {"2.0--py38h4a32c8e_6": "sha256:4efe1b30b34d49ab74fe0791b3f3fd8b596928ace09bd517e82fb59a541ff8fa", "2.0--py39h1f90b4d_8": "sha256:6bce13ef87fb22ace96b8653696836ff8fcb124d0419c245a3b7ba7c51c5b24c", "2.0--py38h2494328_8": "sha256:4e23a724e8f71b92018548e6527b60358f37a34513e403f068068ab4481d31f7"}, "docker": "quay.io/biocontainers/codingquarry", "aliases": {"CodingQuarry": "/usr/local/bin/CodingQuarry", "CufflinksGTF_to_CodingQuarryGFF3.py": "/usr/local/bin/CufflinksGTF_to_CodingQuarryGFF3.py", "run_CQ-PM_mine.sh": "/usr/local/bin/run_CQ-PM_mine.sh", "run_CQ-PM_stranded.sh": "/usr/local/bin/run_CQ-PM_stranded.sh", "run_CQ-PM_unstranded.sh": "/usr/local/bin/run_CQ-PM_unstranded.sh", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/codingquarry", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for codingquarry", "latest": {"2.0--py312h28adbb1_9": "sha256:d2300835e88bf2bd0fcc7c135ae2874ebf262995806001e6c072b09c3fe46cc7"}, "tags": {"2.0--py38h4a32c8e_6": "sha256:4efe1b30b34d49ab74fe0791b3f3fd8b596928ace09bd517e82fb59a541ff8fa", "2.0--py39h1f90b4d_8": "sha256:6bce13ef87fb22ace96b8653696836ff8fcb124d0419c245a3b7ba7c51c5b24c", "2.0--py38h2494328_8": "sha256:4e23a724e8f71b92018548e6527b60358f37a34513e403f068068ab4481d31f7", "2.0--py312h28adbb1_9": "sha256:d2300835e88bf2bd0fcc7c135ae2874ebf262995806001e6c072b09c3fe46cc7"}, "docker": "quay.io/biocontainers/codingquarry", "aliases": {"CodingQuarry": "/usr/local/bin/CodingQuarry", "CufflinksGTF_to_CodingQuarryGFF3.py": "/usr/local/bin/CufflinksGTF_to_CodingQuarryGFF3.py", "run_CQ-PM_mine.sh": "/usr/local/bin/run_CQ-PM_mine.sh", "run_CQ-PM_stranded.sh": "/usr/local/bin/run_CQ-PM_stranded.sh", "run_CQ-PM_unstranded.sh": "/usr/local/bin/run_CQ-PM_unstranded.sh", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/codingquarry.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/codingquarry
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/codingquarry:2.0--py39h1f90b4d_8
+$ shpc install quay.io/biocontainers/codingquarry:2.0--py312h28adbb1_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/codingquarry/2.0--py39h1f90b4d_8
-$ module help quay.io/biocontainers/codingquarry/2.0--py39h1f90b4d_8
+$ module load quay.io/biocontainers/codingquarry/2.0--py312h28adbb1_9
+$ module help quay.io/biocontainers/codingquarry/2.0--py312h28adbb1_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

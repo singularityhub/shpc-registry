@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-jackstraw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-jackstraw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-jackstraw/container.yaml"
-updated_at: "2024-06-19 02:53:39.340848"
+updated_at: "2024-06-20 02:43:33.467592"
 latest: "1.3.9--r43h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-jackstraw"
 aliases:

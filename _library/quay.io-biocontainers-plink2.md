@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plink2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plink2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plink2/container.yaml"
-updated_at: "2024-06-19 03:19:30.397768"
+updated_at: "2024-06-20 02:48:06.869663"
 latest: "2.00a5.10--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/plink2"
 aliases:

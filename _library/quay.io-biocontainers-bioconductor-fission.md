@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fission"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fission/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fission/container.yaml"
-updated_at: "2024-06-19 02:43:02.279009"
+updated_at: "2024-06-20 03:09:53.480851"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fission"
 aliases:

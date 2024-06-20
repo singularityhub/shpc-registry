@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyslow5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyslow5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyslow5/container.yaml"
-updated_at: "2024-06-19 03:08:54.662674"
-latest: "1.1.0--py39h3f6da51_0"
+updated_at: "2024-06-20 02:47:14.450485"
+latest: "1.1.0--py311h591056c_1"
 container_url: "https://biocontainers.pro/tools/pyslow5"
 aliases:
  - "x86_64-conda_cos7-linux-gnu-ld"
@@ -23,8 +23,9 @@ versions:
  - "0.9.0--py27h30f897e_0"
  - "0.8.0--py38h616c765_0"
  - "0.7.0--py27h30f897e_0"
+ - "1.1.0--py311h591056c_1"
 description: "shpc-registry automated BioContainers addition for pyslow5"
-config: {"url": "https://biocontainers.pro/tools/pyslow5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyslow5", "latest": {"1.1.0--py39h3f6da51_0": "sha256:64cee49cbae3bcef9b868eab28801f736bd084a30a7f006c9c5c5da5fdcd58bd"}, "tags": {"0.7.0--py39h6471ffd_0": "sha256:e898c7978c38db51683ec354a8723040cef681c64f6e1f852978963e09eb86e7", "0.8.0--py310hdacdf33_0": "sha256:0a6f5e20e390c6c44c5a43e0668e352d6b0a070be5481cbd9ac8a37c4452525d", "1.1.0--py39h3f6da51_0": "sha256:64cee49cbae3bcef9b868eab28801f736bd084a30a7f006c9c5c5da5fdcd58bd", "1.0.0--py310h1ae98be_3": "sha256:4beeb26b487549e0b1111117f8e16f29f23d2f0f9a5acda9f33df1de9683cc4c", "0.9.0--py27h30f897e_0": "sha256:70eb036119ad79e17bc7dc451016c6e2800882ca3f40f151871ee6fd5f006b08", "0.8.0--py38h616c765_0": "sha256:3f38517c97077c4f1d35ba5dd46ee00c033695f5d7489b016bcbc220400b2090", "0.7.0--py27h30f897e_0": "sha256:6a0819e9ffb8133a72377873cf345be11c259056cf89543f7549d3ca196df163"}, "docker": "quay.io/biocontainers/pyslow5", "aliases": {"x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyslow5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyslow5", "latest": {"1.1.0--py311h591056c_1": "sha256:2c2ff4720b71c4ef7969b0a76302e082f78b81455590a23b2a967d4414cfc113"}, "tags": {"0.7.0--py39h6471ffd_0": "sha256:e898c7978c38db51683ec354a8723040cef681c64f6e1f852978963e09eb86e7", "0.8.0--py310hdacdf33_0": "sha256:0a6f5e20e390c6c44c5a43e0668e352d6b0a070be5481cbd9ac8a37c4452525d", "1.1.0--py39h3f6da51_0": "sha256:64cee49cbae3bcef9b868eab28801f736bd084a30a7f006c9c5c5da5fdcd58bd", "1.0.0--py310h1ae98be_3": "sha256:4beeb26b487549e0b1111117f8e16f29f23d2f0f9a5acda9f33df1de9683cc4c", "0.9.0--py27h30f897e_0": "sha256:70eb036119ad79e17bc7dc451016c6e2800882ca3f40f151871ee6fd5f006b08", "0.8.0--py38h616c765_0": "sha256:3f38517c97077c4f1d35ba5dd46ee00c033695f5d7489b016bcbc220400b2090", "0.7.0--py27h30f897e_0": "sha256:6a0819e9ffb8133a72377873cf345be11c259056cf89543f7549d3ca196df163", "1.1.0--py311h591056c_1": "sha256:2c2ff4720b71c4ef7969b0a76302e082f78b81455590a23b2a967d4414cfc113"}, "docker": "quay.io/biocontainers/pyslow5", "aliases": {"x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyslow5.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/pyslow5
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyslow5:1.1.0--py39h3f6da51_0
+$ shpc install quay.io/biocontainers/pyslow5:1.1.0--py311h591056c_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyslow5/1.1.0--py39h3f6da51_0
-$ module help quay.io/biocontainers/pyslow5/1.1.0--py39h3f6da51_0
+$ module load quay.io/biocontainers/pyslow5/1.1.0--py311h591056c_1
+$ module help quay.io/biocontainers/pyslow5/1.1.0--py311h591056c_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/htslib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/htslib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/htslib/container.yaml"
-updated_at: "2024-06-19 02:40:54.600621"
+updated_at: "2024-06-20 02:59:11.443318"
 latest: "1.20--h5efdd21_1"
 container_url: "https://biocontainers.pro/tools/htslib"
 aliases:

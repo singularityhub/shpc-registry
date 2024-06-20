@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-raceid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-raceid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-raceid/container.yaml"
-updated_at: "2024-06-19 02:52:20.835440"
+updated_at: "2024-06-20 02:53:32.942574"
 latest: "0.2.3"
 container_url: "https://biocontainers.pro/tools/r-raceid"
 aliases:
