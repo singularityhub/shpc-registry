@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pypgx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pypgx
 latest:
-  0.24.0--pyh7cba7a3_0: sha256:954a3729466b920dfbf0a665e85890c6219fa60b4d5c0b9c206b8a6afab8d7b4
+  0.25.0--pyh7e72e81_0: sha256:60f8f0d1adce902b3552b19c74597971375f349c298aa574ac7a420841cbc6ec
 tags:
   0.9.0--pyh5e36f6f_0: sha256:86f03a8935c7c972a8e1823eff4439c472b5cc86daff176929abf6a6f01957e2
   0.19.0--pyh7cba7a3_0: sha256:ec1484fc3e6d3ca332fd18c4750bd53537f4a2c50d484fe8da83822e07f8c4cb
@@ -15,6 +15,7 @@ tags:
   0.22.0--pyh7cba7a3_0: sha256:a282559940934709cb23b9f8cfff81fbf7a99581fb5e88915af065613d6e9945
   0.23.0--pyh7cba7a3_0: sha256:2469b2bf6e62e906b75a0cc87c00ff48f259735b7d10cb1fedcdc0406b59d525
   0.24.0--pyh7cba7a3_0: sha256:954a3729466b920dfbf0a665e85890c6219fa60b4d5c0b9c206b8a6afab8d7b4
+  0.25.0--pyh7e72e81_0: sha256:60f8f0d1adce902b3552b19c74597971375f349c298aa574ac7a420841cbc6ec
 docker: quay.io/biocontainers/pypgx
 aliases:
   fuc: /usr/local/bin/fuc

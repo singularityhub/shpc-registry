@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pairtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pairtools
 latest:
-  1.1.0--py310hb45ccb3_0: sha256:90a57227aa9b805a74659f1d7b724d7feb3cb81dd6a06892176dde17fde0bcd1
+  1.1.0--py312hac03d35_1: sha256:656303c66ab49d3370fec6a76bbc9e6c372c369eedd388d340a0c860039ff4d6
 tags:
   1.0.1--py37h9f12aac_0: sha256:656044fea9e722c2a9189e3134f65949b7ee76644d3b8008bf5dd478c5846408
   1.0.2--py39h2a9f597_0: sha256:ff368da550ad294718350f3b0777da92e0adfd0ec9f7dd71ce6b47c8679e6b7e
@@ -10,6 +10,7 @@ tags:
   1.0.3--py310hb45ccb3_0: sha256:629f96618e0dacbd8c47d1abaaf55d713600f21418a1125fab8230a17645bcc7
   1.0.3--py39h9e08559_0: sha256:538291139f435a707366f4fc78ee969b9c9e0f58b68ef17d79644a2e26588f9c
   1.1.0--py310hb45ccb3_0: sha256:90a57227aa9b805a74659f1d7b724d7feb3cb81dd6a06892176dde17fde0bcd1
+  1.1.0--py312hac03d35_1: sha256:656303c66ab49d3370fec6a76bbc9e6c372c369eedd388d340a0c860039ff4d6
 docker: quay.io/biocontainers/pairtools
 aliases:
   pairtools: /usr/local/bin/pairtools

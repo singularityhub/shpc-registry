@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/meraculous
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for meraculous
 latest:
-  2.2.6--pl5321h376f1d3_6: sha256:7324985fd2f860af2adaf8e7c1da40c497877335de665dd09f89331e3525d2ad
+  2.2.6--pl5321h4ac6f70_7: sha256:4cefde026c3d7bfa80ba7b4700efa5b76ba64da7eebffb9b0f2e6df2480b399d
 tags:
   2.2.6--pl5321h2df963e_4: sha256:d0f31c99504bd4687fb208d71606f6e1b6cd0e60a7faf4d41bd4749b14f9c1a2
   2.2.6--pl5321h376f1d3_6: sha256:7324985fd2f860af2adaf8e7c1da40c497877335de665dd09f89331e3525d2ad
+  2.2.6--pl5321h4ac6f70_7: sha256:4cefde026c3d7bfa80ba7b4700efa5b76ba64da7eebffb9b0f2e6df2480b399d
 docker: quay.io/biocontainers/meraculous
 aliases:
   N50.pl: /usr/local/bin/N50.pl

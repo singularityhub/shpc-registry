@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/handyreadgenotyper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for handyreadgenotyper
 latest:
-  0.1.13--pyhdfd78af_0: sha256:98acf5eb6edb20b9befbc68eea340849db97f0482170c86d377f568c75e748c6
+  0.1.18--pyhdfd78af_0: sha256:b028d37e3aff491d52389002e9d1f1144b6d9bd0ff2293fe759b598df9c29f72
 tags:
   0.1.13--pyhdfd78af_0: sha256:98acf5eb6edb20b9befbc68eea340849db97f0482170c86d377f568c75e748c6
+  0.1.18--pyhdfd78af_0: sha256:b028d37e3aff491d52389002e9d1f1144b6d9bd0ff2293fe759b598df9c29f72
 docker: quay.io/biocontainers/handyreadgenotyper
 aliases:
   classifier_report.py: /usr/local/bin/classifier_report.py

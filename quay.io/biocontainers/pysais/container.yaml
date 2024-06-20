@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/pysais
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pysais
 latest:
-  1.1.0--py310hd6be1da_0: sha256:3111e09770a12d28aa35600356c40baa744caac6b054b53cf8a0027c54908a69
+  1.1.0--py38hf6cf242_1: sha256:5eaa7551a1288ec0f03746efabdec78d49233e671c307b7ccc3338e3155a6325
 tags:
   1.1.0--py310hd6be1da_0: sha256:3111e09770a12d28aa35600356c40baa744caac6b054b53cf8a0027c54908a69
   1.1.0--py38h24c8ff8_0: sha256:84156842d231f928927b325e72490a8447488e503a44b4b58c1738f457cd5af6
+  1.1.0--py38hf6cf242_1: sha256:5eaa7551a1288ec0f03746efabdec78d49233e671c307b7ccc3338e3155a6325
 docker: quay.io/biocontainers/pysais
 aliases:
   cpuinfo: /usr/local/bin/cpuinfo

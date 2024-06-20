@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-genomicalignments
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-genomicalignments
 latest:
-  1.38.0--r43ha9d7317_0: sha256:f94532c792ea5bacffdf559df3753dbd8c748f3220f64c1e5f57940775df7849
+  1.38.0--r43ha9d7317_1: sha256:1bcb9e2b61f5b19e31641cbd2ffe0cea9413ade3d5eb2c6cb39817020a04cbc6
 tags:
   1.6.3--1: sha256:3d1492a9f8edf486e4de19074ecc12256400d71cc6d4ec3479472b1dcdd7333b
   1.34.0--r42hc0cfd56_0: sha256:8bb6ca722c9d9ca038384b9407c6529be5100628b66237627ee1b19707b80c94
@@ -13,6 +13,7 @@ tags:
   1.34.0--r42ha9d7317_1: sha256:32bf5fb27495a788955c99fd9fde982dc66b23511c7d2f438d5e2388d2db9eba
   1.36.0--r43ha9d7317_0: sha256:05a8dcb406c6278c127c1dd46ffd73234cdaed369c509007d01fa883503da71e
   1.38.0--r43ha9d7317_0: sha256:f94532c792ea5bacffdf559df3753dbd8c748f3220f64c1e5f57940775df7849
+  1.38.0--r43ha9d7317_1: sha256:1bcb9e2b61f5b19e31641cbd2ffe0cea9413ade3d5eb2c6cb39817020a04cbc6
 docker: quay.io/biocontainers/bioconductor-genomicalignments
 aliases:
   pngcp: /usr/local/bin/pngcp
