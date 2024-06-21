@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-storage-plugin-gcs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-storage-plugin-gcs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-storage-plugin-gcs/container.yaml"
-updated_at: "2024-06-20 02:53:11.768449"
+updated_at: "2024-06-21 02:54:25.984041"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-storage-plugin-gcs"
 aliases:

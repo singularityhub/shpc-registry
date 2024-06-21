@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/altamisa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/altamisa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/altamisa/container.yaml"
-updated_at: "2024-06-20 02:50:28.765407"
+updated_at: "2024-06-21 02:51:38.332474"
 latest: "0.2.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/altamisa"
 aliases:

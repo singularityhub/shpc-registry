@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pisces"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pisces/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pisces/container.yaml"
-updated_at: "2024-06-20 02:54:31.646884"
+updated_at: "2024-06-21 02:55:46.190917"
 latest: "5.2.10.49--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pisces"
 aliases:

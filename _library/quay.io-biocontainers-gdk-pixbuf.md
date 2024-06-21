@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gdk-pixbuf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gdk-pixbuf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gdk-pixbuf/container.yaml"
-updated_at: "2024-06-20 02:55:33.701306"
+updated_at: "2024-06-21 02:56:48.411727"
 latest: "2.32.2--1"
 container_url: "https://biocontainers.pro/tools/gdk-pixbuf"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prodigal-gv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prodigal-gv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prodigal-gv/container.yaml"
-updated_at: "2024-06-20 02:58:04.102437"
+updated_at: "2024-06-21 02:59:19.626745"
 latest: "2.11.0--he4a0461_2"
 container_url: "https://biocontainers.pro/tools/prodigal-gv"
 aliases:

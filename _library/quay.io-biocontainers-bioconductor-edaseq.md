@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-edaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-edaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-edaseq/container.yaml"
-updated_at: "2024-06-20 02:50:06.747067"
+updated_at: "2024-06-21 02:51:16.582291"
 latest: "2.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-edaseq"
 aliases:

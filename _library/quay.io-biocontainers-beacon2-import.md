@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/beacon2-import"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beacon2-import/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beacon2-import/container.yaml"
-updated_at: "2024-06-20 03:06:31.188625"
+updated_at: "2024-06-21 03:07:52.443812"
 latest: "1.0.8--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/beacon2-import"
 aliases:

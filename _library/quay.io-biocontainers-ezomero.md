@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ezomero"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ezomero/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ezomero/container.yaml"
-updated_at: "2024-06-20 03:19:21.105871"
-latest: "3.0.0--pyhdfd78af_0"
+updated_at: "2024-06-21 03:20:43.416493"
+latest: "3.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ezomero"
 aliases:
  - "omero"
@@ -35,8 +35,9 @@ aliases:
 versions:
  - "2.1.0--pyhdfd78af_0"
  - "3.0.0--pyhdfd78af_0"
+ - "3.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ezomero"
-config: {"url": "https://biocontainers.pro/tools/ezomero", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ezomero", "latest": {"3.0.0--pyhdfd78af_0": "sha256:047a8d598b04933ad9152bd6090eef77880d2e638c6dc802035900fc6edf7fa9"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:9f270a55b84a7c1af963e8d9d262f9da7c49668861a89c2fcc8a44c79141d97e", "3.0.0--pyhdfd78af_0": "sha256:047a8d598b04933ad9152bd6090eef77880d2e638c6dc802035900fc6edf7fa9"}, "docker": "quay.io/biocontainers/ezomero", "aliases": {"omero": "/usr/local/bin/omero", "slice2py": "/usr/local/bin/slice2py", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/ezomero", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ezomero", "latest": {"3.0.1--pyhdfd78af_0": "sha256:ffbf2798a5b3a49fd6877bd75e88f11e1f32cc943c80b1755a3532a354d580cb"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:9f270a55b84a7c1af963e8d9d262f9da7c49668861a89c2fcc8a44c79141d97e", "3.0.0--pyhdfd78af_0": "sha256:047a8d598b04933ad9152bd6090eef77880d2e638c6dc802035900fc6edf7fa9", "3.0.1--pyhdfd78af_0": "sha256:ffbf2798a5b3a49fd6877bd75e88f11e1f32cc943c80b1755a3532a354d580cb"}, "docker": "quay.io/biocontainers/ezomero", "aliases": {"omero": "/usr/local/bin/omero", "slice2py": "/usr/local/bin/slice2py", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ezomero.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/ezomero
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ezomero:3.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ezomero:3.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ezomero/3.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/ezomero/3.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/ezomero/3.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/ezomero/3.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

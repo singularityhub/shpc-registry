@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scepia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scepia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scepia/container.yaml"
-updated_at: "2024-06-20 03:18:03.800103"
+updated_at: "2024-06-21 03:19:25.316170"
 latest: "0.5.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/scepia"
 aliases:

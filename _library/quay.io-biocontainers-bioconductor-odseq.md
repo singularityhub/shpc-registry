@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-odseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-odseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-odseq/container.yaml"
-updated_at: "2024-06-20 03:11:22.665365"
+updated_at: "2024-06-21 03:12:39.245589"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-odseq"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ococo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ococo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ococo/container.yaml"
-updated_at: "2024-06-20 02:51:33.660668"
-latest: "0.1.2.7--h146fbdb_8"
+updated_at: "2024-06-21 02:52:44.238453"
+latest: "0.1.2.7--hdcf5f25_9"
 container_url: "https://biocontainers.pro/tools/ococo"
 aliases:
  - "ococo"
@@ -13,8 +13,9 @@ versions:
  - "0.1.2.7--h867801b_5"
  - "0.1.2.7--hd36ca80_6"
  - "0.1.2.7--h146fbdb_8"
+ - "0.1.2.7--hdcf5f25_9"
 description: "shpc-registry automated BioContainers addition for ococo"
-config: {"url": "https://biocontainers.pro/tools/ococo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ococo", "latest": {"0.1.2.7--h146fbdb_8": "sha256:5488036549fa99caf35f3662f12ee3de8548c1c9888735e859fcac676ebbd542"}, "tags": {"0.1.2.7--h867801b_5": "sha256:0fb9c4047d3a8c055a8a3a1aacdbaaeca934da7467429a460d8031e7f12f1e31", "0.1.2.7--hd36ca80_6": "sha256:4c0b5ed18e5ae9568e642656f0ece0517489d928419740b17a4227fef976e5bc", "0.1.2.7--h146fbdb_8": "sha256:5488036549fa99caf35f3662f12ee3de8548c1c9888735e859fcac676ebbd542"}, "docker": "quay.io/biocontainers/ococo", "aliases": {"ococo": "/usr/local/bin/ococo"}}
+config: {"url": "https://biocontainers.pro/tools/ococo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ococo", "latest": {"0.1.2.7--hdcf5f25_9": "sha256:913d5254c1c1457e503a88e4f0aa69f43a0a46b9ab543195a833de8e7255b7a3"}, "tags": {"0.1.2.7--h867801b_5": "sha256:0fb9c4047d3a8c055a8a3a1aacdbaaeca934da7467429a460d8031e7f12f1e31", "0.1.2.7--hd36ca80_6": "sha256:4c0b5ed18e5ae9568e642656f0ece0517489d928419740b17a4227fef976e5bc", "0.1.2.7--h146fbdb_8": "sha256:5488036549fa99caf35f3662f12ee3de8548c1c9888735e859fcac676ebbd542", "0.1.2.7--hdcf5f25_9": "sha256:913d5254c1c1457e503a88e4f0aa69f43a0a46b9ab543195a833de8e7255b7a3"}, "docker": "quay.io/biocontainers/ococo", "aliases": {"ococo": "/usr/local/bin/ococo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ococo.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/ococo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ococo:0.1.2.7--h146fbdb_8
+$ shpc install quay.io/biocontainers/ococo:0.1.2.7--hdcf5f25_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ococo/0.1.2.7--h146fbdb_8
-$ module help quay.io/biocontainers/ococo/0.1.2.7--h146fbdb_8
+$ module load quay.io/biocontainers/ococo/0.1.2.7--hdcf5f25_9
+$ module help quay.io/biocontainers/ococo/0.1.2.7--hdcf5f25_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

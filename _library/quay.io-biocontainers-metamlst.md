@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metamlst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metamlst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metamlst/container.yaml"
-updated_at: "2024-06-20 02:38:14.195414"
+updated_at: "2024-06-21 02:39:08.762508"
 latest: "1.2.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metamlst"
 aliases:

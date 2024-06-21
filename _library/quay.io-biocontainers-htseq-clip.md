@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/htseq-clip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/htseq-clip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/htseq-clip/container.yaml"
-updated_at: "2024-06-20 02:37:53.859076"
+updated_at: "2024-06-21 02:38:47.230586"
 latest: "2.19.0b0--pyh086e186_0"
 container_url: "https://biocontainers.pro/tools/htseq-clip"
 aliases:

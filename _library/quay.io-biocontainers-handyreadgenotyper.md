@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/handyreadgenotyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/handyreadgenotyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/handyreadgenotyper/container.yaml"
-updated_at: "2024-06-20 03:17:16.834850"
-latest: "0.1.13--pyhdfd78af_0"
+updated_at: "2024-06-21 03:18:38.698775"
+latest: "0.1.18--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/handyreadgenotyper"
 aliases:
  - "classifier_report.py"
@@ -47,8 +47,9 @@ aliases:
  - "soap2sam.pl"
 versions:
  - "0.1.13--pyhdfd78af_0"
+ - "0.1.18--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for handyreadgenotyper"
-config: {"url": "https://biocontainers.pro/tools/handyreadgenotyper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for handyreadgenotyper", "latest": {"0.1.13--pyhdfd78af_0": "sha256:98acf5eb6edb20b9befbc68eea340849db97f0482170c86d377f568c75e748c6"}, "tags": {"0.1.13--pyhdfd78af_0": "sha256:98acf5eb6edb20b9befbc68eea340849db97f0482170c86d377f568c75e748c6"}, "docker": "quay.io/biocontainers/handyreadgenotyper", "aliases": {"classifier_report.py": "/usr/local/bin/classifier_report.py", "classify": "/usr/local/bin/classify", "classify.py": "/usr/local/bin/classify.py", "data_classes.py": "/usr/local/bin/data_classes.py", "genotyper_data_classes.py": "/usr/local/bin/genotyper_data_classes.py", "input_processing.py": "/usr/local/bin/input_processing.py", "inputs_validation.py": "/usr/local/bin/inputs_validation.py", "map.py": "/usr/local/bin/map.py", "model_manager.py": "/usr/local/bin/model_manager.py", "read_classifier.py": "/usr/local/bin/read_classifier.py", "train": "/usr/local/bin/train", "train.py": "/usr/local/bin/train.py", "annot-tsv": "/usr/local/bin/annot-tsv", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "f2py3.8": "/usr/local/bin/f2py3.8", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/handyreadgenotyper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for handyreadgenotyper", "latest": {"0.1.18--pyhdfd78af_0": "sha256:b028d37e3aff491d52389002e9d1f1144b6d9bd0ff2293fe759b598df9c29f72"}, "tags": {"0.1.13--pyhdfd78af_0": "sha256:98acf5eb6edb20b9befbc68eea340849db97f0482170c86d377f568c75e748c6", "0.1.18--pyhdfd78af_0": "sha256:b028d37e3aff491d52389002e9d1f1144b6d9bd0ff2293fe759b598df9c29f72"}, "docker": "quay.io/biocontainers/handyreadgenotyper", "aliases": {"classifier_report.py": "/usr/local/bin/classifier_report.py", "classify": "/usr/local/bin/classify", "classify.py": "/usr/local/bin/classify.py", "data_classes.py": "/usr/local/bin/data_classes.py", "genotyper_data_classes.py": "/usr/local/bin/genotyper_data_classes.py", "input_processing.py": "/usr/local/bin/input_processing.py", "inputs_validation.py": "/usr/local/bin/inputs_validation.py", "map.py": "/usr/local/bin/map.py", "model_manager.py": "/usr/local/bin/model_manager.py", "read_classifier.py": "/usr/local/bin/read_classifier.py", "train": "/usr/local/bin/train", "train.py": "/usr/local/bin/train.py", "annot-tsv": "/usr/local/bin/annot-tsv", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "f2py3.8": "/usr/local/bin/f2py3.8", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/handyreadgenotyper.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/handyreadgenotyper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/handyreadgenotyper:0.1.13--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/handyreadgenotyper:0.1.18--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/handyreadgenotyper/0.1.13--pyhdfd78af_0
-$ module help quay.io/biocontainers/handyreadgenotyper/0.1.13--pyhdfd78af_0
+$ module load quay.io/biocontainers/handyreadgenotyper/0.1.18--pyhdfd78af_0
+$ module help quay.io/biocontainers/handyreadgenotyper/0.1.18--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gplots"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gplots/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gplots/container.yaml"
-updated_at: "2024-06-20 02:47:16.443858"
+updated_at: "2024-06-21 02:48:29.099181"
 latest: "2.17.0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-gplots"
 aliases:

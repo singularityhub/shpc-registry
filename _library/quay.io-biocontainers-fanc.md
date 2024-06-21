@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fanc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fanc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fanc/container.yaml"
-updated_at: "2024-06-20 02:59:42.613889"
+updated_at: "2024-06-21 03:00:58.180941"
 latest: "0.9.23b--py37h8902056_2"
 container_url: "https://biocontainers.pro/tools/fanc"
 aliases:

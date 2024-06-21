@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/networkxgmml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/networkxgmml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/networkxgmml/container.yaml"
-updated_at: "2024-06-20 02:51:11.463178"
+updated_at: "2024-06-21 02:52:21.465090"
 latest: "0.1.6--py_2"
 container_url: "https://biocontainers.pro/tools/networkxgmml"
 aliases:

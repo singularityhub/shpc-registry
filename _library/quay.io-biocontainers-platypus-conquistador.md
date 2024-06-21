@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/platypus-conquistador"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/platypus-conquistador/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/platypus-conquistador/container.yaml"
-updated_at: "2024-06-20 02:33:58.891321"
+updated_at: "2024-06-21 02:34:39.741739"
 latest: "0.9.0--py_3"
 container_url: "https://biocontainers.pro/tools/platypus-conquistador"
 aliases:

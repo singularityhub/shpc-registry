@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mvirs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mvirs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mvirs/container.yaml"
-updated_at: "2024-06-20 02:39:51.848039"
+updated_at: "2024-06-21 02:40:47.092607"
 latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mvirs"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mimodd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mimodd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mimodd/container.yaml"
-updated_at: "2024-06-20 02:57:47.177976"
+updated_at: "2024-06-21 02:59:02.684006"
 latest: "0.1.9--py36_0"
 container_url: "https://biocontainers.pro/tools/mimodd"
 aliases:

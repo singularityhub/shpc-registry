@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rrikindp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rrikindp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rrikindp/container.yaml"
-updated_at: "2024-06-20 03:19:14.402778"
-latest: "0.0.2--py39h68928f9_0"
+updated_at: "2024-06-21 03:20:36.676958"
+latest: "0.0.2--py39h9e0f934_1"
 container_url: "https://biocontainers.pro/tools/rrikindp"
 aliases:
  - "CopomuS.py"
@@ -50,8 +50,9 @@ aliases:
 versions:
  - "0.0.1--py38h820c706_0"
  - "0.0.2--py39h68928f9_0"
+ - "0.0.2--py39h9e0f934_1"
 description: "singularity registry hpc automated addition for rrikindp"
-config: {"url": "https://biocontainers.pro/tools/rrikindp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rrikindp", "latest": {"0.0.2--py39h68928f9_0": "sha256:23a65de161c8d7e7ac92f558a613f3c6b78fccf5aae8e772b678e044627433a4"}, "tags": {"0.0.1--py38h820c706_0": "sha256:3cc6029f8790d0c2ee284f30abfd10a68ba1c72c707b038af90435f41b7f1352", "0.0.2--py39h68928f9_0": "sha256:23a65de161c8d7e7ac92f558a613f3c6b78fccf5aae8e772b678e044627433a4"}, "docker": "quay.io/biocontainers/rrikindp", "aliases": {"CopomuS.py": "/usr/local/bin/CopomuS.py", "IntaRNA": "/usr/local/bin/IntaRNA", "IntaRNA1": "/usr/local/bin/IntaRNA1", "IntaRNA2": "/usr/local/bin/IntaRNA2", "IntaRNA3": "/usr/local/bin/IntaRNA3", "IntaRNA_CSV_p-value.R": "/usr/local/bin/IntaRNA_CSV_p-value.R", "IntaRNA_plotRegions.R": "/usr/local/bin/IntaRNA_plotRegions.R", "IntaRNAduplex": "/usr/local/bin/IntaRNAduplex", "IntaRNAens": "/usr/local/bin/IntaRNAens", "IntaRNAexact": "/usr/local/bin/IntaRNAexact", "IntaRNAhelix": "/usr/local/bin/IntaRNAhelix", "IntaRNAsTar": "/usr/local/bin/IntaRNAsTar", "IntaRNAseed": "/usr/local/bin/IntaRNAseed", "RRIkinDP": "/usr/local/bin/RRIkinDP", "RNAmultifold": "/usr/local/bin/RNAmultifold", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex", "RNAsnoop": "/usr/local/bin/RNAsnoop", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval"}}
+config: {"url": "https://biocontainers.pro/tools/rrikindp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rrikindp", "latest": {"0.0.2--py39h9e0f934_1": "sha256:5f6da0feb270be32fb695c4304ef42fd3817f16cf5992619208afd2aa90b3d90"}, "tags": {"0.0.1--py38h820c706_0": "sha256:3cc6029f8790d0c2ee284f30abfd10a68ba1c72c707b038af90435f41b7f1352", "0.0.2--py39h68928f9_0": "sha256:23a65de161c8d7e7ac92f558a613f3c6b78fccf5aae8e772b678e044627433a4", "0.0.2--py39h9e0f934_1": "sha256:5f6da0feb270be32fb695c4304ef42fd3817f16cf5992619208afd2aa90b3d90"}, "docker": "quay.io/biocontainers/rrikindp", "aliases": {"CopomuS.py": "/usr/local/bin/CopomuS.py", "IntaRNA": "/usr/local/bin/IntaRNA", "IntaRNA1": "/usr/local/bin/IntaRNA1", "IntaRNA2": "/usr/local/bin/IntaRNA2", "IntaRNA3": "/usr/local/bin/IntaRNA3", "IntaRNA_CSV_p-value.R": "/usr/local/bin/IntaRNA_CSV_p-value.R", "IntaRNA_plotRegions.R": "/usr/local/bin/IntaRNA_plotRegions.R", "IntaRNAduplex": "/usr/local/bin/IntaRNAduplex", "IntaRNAens": "/usr/local/bin/IntaRNAens", "IntaRNAexact": "/usr/local/bin/IntaRNAexact", "IntaRNAhelix": "/usr/local/bin/IntaRNAhelix", "IntaRNAsTar": "/usr/local/bin/IntaRNAsTar", "IntaRNAseed": "/usr/local/bin/IntaRNAseed", "RRIkinDP": "/usr/local/bin/RRIkinDP", "RNAmultifold": "/usr/local/bin/RNAmultifold", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex", "RNAsnoop": "/usr/local/bin/RNAsnoop", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rrikindp.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/rrikindp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rrikindp:0.0.2--py39h68928f9_0
+$ shpc install quay.io/biocontainers/rrikindp:0.0.2--py39h9e0f934_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rrikindp/0.0.2--py39h68928f9_0
-$ module help quay.io/biocontainers/rrikindp/0.0.2--py39h68928f9_0
+$ module load quay.io/biocontainers/rrikindp/0.0.2--py39h9e0f934_1
+$ module help quay.io/biocontainers/rrikindp/0.0.2--py39h9e0f934_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
