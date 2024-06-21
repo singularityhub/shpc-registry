@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mtgrasp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mtgrasp
 latest:
-  1.1.3--py310h7cba7a3_0: sha256:0c277d08d9623cd600cdf33ada91a2739030706073074397c912ee76e079f01e
+  1.1.4--py312h7e72e81_1: sha256:6f2ace3a7f9898816342efac6e0d7a56acfbedc0d27e8757ab3ed369128dbfb0
 tags:
   1.1.3--py310h7cba7a3_0: sha256:0c277d08d9623cd600cdf33ada91a2739030706073074397c912ee76e079f01e
+  1.1.4--py312h7e72e81_1: sha256:6f2ace3a7f9898816342efac6e0d7a56acfbedc0d27e8757ab3ed369128dbfb0
 docker: quay.io/biocontainers/mtgrasp
 aliases:
   abyss-rresolver-short: /usr/local/bin/abyss-rresolver-short

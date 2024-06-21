@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/snapatac2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snapatac2
 latest:
-  2.5.3--py38he5da3d1_0: sha256:19f96f0ae0cdf3db1bfd067cdd249776a122db13a8491a34fec2d9e8f6b74355
+  2.6.4--py39h801753a_0: sha256:43a61025c408d3450129196cb17c7a3a1c35f42e536b7b59230dafaeadd4c62f
 tags:
   2.5.1--py38he5da3d1_0: sha256:0ae158188a2251e0951d5d7b4e44b960d05c36df59ba6a9f987d99b3acffc33c
   2.5.3--py38he5da3d1_0: sha256:19f96f0ae0cdf3db1bfd067cdd249776a122db13a8491a34fec2d9e8f6b74355
   2.5.3--py310h4b81fae_0: sha256:a558a70526d6c894ff4355f4cf5c7e2062d06a5053aa423d2f0e59cf49f4f257
+  2.6.4--py39h801753a_0: sha256:43a61025c408d3450129196cb17c7a3a1c35f42e536b7b59230dafaeadd4c62f
 docker: quay.io/biocontainers/snapatac2
 aliases:
   h5tools_test_utils: /usr/local/bin/h5tools_test_utils

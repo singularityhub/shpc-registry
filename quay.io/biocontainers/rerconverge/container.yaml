@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/rerconverge
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rerconverge
 latest:
-  0.3.0--r42h031d066_1: sha256:0920e1694afbe2297e7895ba27c77e3d658ebefb5de2440f4b3304d4cd299fb5
+  0.3.0--r43h031d066_2: sha256:0f372c8253fc1474f5b8bfe76df8d7ff43f067ef749d587faf9bc77d31db7aea
 tags:
   0.3.0--r42hec16e2b_0: sha256:b06238ea9029dd228d01dbe9c535afc8c674d72893b8681ec3af4494f641c790
   0.3.0--r42h031d066_1: sha256:0920e1694afbe2297e7895ba27c77e3d658ebefb5de2440f4b3304d4cd299fb5
+  0.3.0--r43h031d066_2: sha256:0f372c8253fc1474f5b8bfe76df8d7ff43f067ef749d587faf9bc77d31db7aea
 docker: quay.io/biocontainers/rerconverge
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11
