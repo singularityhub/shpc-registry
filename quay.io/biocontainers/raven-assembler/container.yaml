@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/raven-assembler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for raven-assembler
 latest:
-  1.8.3--h43eeafb_0: sha256:9caef723014bf5da898f69bc9847125fb090d069233b0021c7446c87badf7b9c
+  1.8.3--h43eeafb_1: sha256:8895f23e6207bc862a37cb7ce8dcd504c624c64352a47b7da2ef98bd2dc73a34
 tags:
   1.8.1--h5b5514e_1: sha256:1a439066b3b6d95a587984d3225653a785294258ed5fc38c6ab5391a7beba8fe
   1.8.1--h43eeafb_3: sha256:f4fb9dce3e189cdc0e74e5c3fa0d043e532c507e20e96f44a394a89c94438312
   1.8.3--h43eeafb_0: sha256:9caef723014bf5da898f69bc9847125fb090d069233b0021c7446c87badf7b9c
+  1.8.3--h43eeafb_1: sha256:8895f23e6207bc862a37cb7ce8dcd504c624c64352a47b7da2ef98bd2dc73a34
 docker: quay.io/biocontainers/raven-assembler
 aliases:
   raven: /usr/local/bin/raven

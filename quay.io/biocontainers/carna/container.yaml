@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/carna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for carna
 latest:
-  1.3.3--h470a237_2: sha256:136150668910eacc412c2cef8ee7de4ef6732f1bf8b75ecc9cfa63ded2f07089
+  1.3.3--h470a237_2: sha256:3b8fe58df487d63f04a8b4c4b7a227afa61c1c6f39b10831b91afc9112a65f21
 tags:
-  1.3.3--h470a237_2: sha256:136150668910eacc412c2cef8ee7de4ef6732f1bf8b75ecc9cfa63ded2f07089
+  1.3.3--h470a237_2: sha256:3b8fe58df487d63f04a8b4c4b7a227afa61c1c6f39b10831b91afc9112a65f21
 docker: quay.io/biocontainers/carna
 aliases:
   LocARNA_RNAz.pm: /usr/local/bin/LocARNA_RNAz.pm

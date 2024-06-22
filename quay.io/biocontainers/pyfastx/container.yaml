@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pyfastx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyfastx
 latest:
-  2.1.0--py38h7cf9df2_1: sha256:dea21a6a462306831ae9ce6843aae4b2151bc0cabd056db57e33453ceea9fb7e
+  2.1.0--py311h0152c62_2: sha256:122bed71a9d0e92e51c98be3bfa359cb81043680175ee4f0be8ac6453db0cfae
 tags:
   0.8.4--py38h4c6a040_1: sha256:bea6d8242020df2cce630454adc91ff35ae182d9e9e516a9d1f4d64deda73cd7
   2.1.0--py38h7cf9df2_0: sha256:f34d935114cb46ca94f5ed57d0c01d556f6e80f5c051b6740f950464e41c38c1
@@ -11,6 +11,7 @@ tags:
   1.0.1--py310h8472f5a_0: sha256:69f74c404b57677d290236558e92b4a3a15103f615bb2d7b30a55aebb77e0e4b
   0.9.1--py310h8472f5a_0: sha256:c6643f412211a53846117160ae213471cf600282d2440952370d9462f27a1093
   2.1.0--py38h7cf9df2_1: sha256:dea21a6a462306831ae9ce6843aae4b2151bc0cabd056db57e33453ceea9fb7e
+  2.1.0--py311h0152c62_2: sha256:122bed71a9d0e92e51c98be3bfa359cb81043680175ee4f0be8ac6453db0cfae
 docker: quay.io/biocontainers/pyfastx
 aliases:
   pyfastx: /usr/local/bin/pyfastx

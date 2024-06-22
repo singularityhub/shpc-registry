@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/genomeconstellation
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for genomeconstellation
 latest:
-  0.21.1--h21ec9f0_4: sha256:55d1b3de31cf4fd683942e57fd2f5aa94656e7db81ea9dbd66318fda67612a0d
+  0.21.1--hdcf5f25_5: sha256:a14d0e11c57015ecd938c23270c2c999c06af30305792bb620097171838ba1c4
 tags:
   0.21.1--h7ff8a90_2: sha256:9f3d37984a6cce543b5096bb9240e67ed68c467d0d3f5ae3a3377d4728c99578
   0.21.1--h21ec9f0_4: sha256:55d1b3de31cf4fd683942e57fd2f5aa94656e7db81ea9dbd66318fda67612a0d
+  0.21.1--hdcf5f25_5: sha256:a14d0e11c57015ecd938c23270c2c999c06af30305792bb620097171838ba1c4
 docker: quay.io/biocontainers/genomeconstellation
 aliases:
   jgi_gc: /usr/local/bin/jgi_gc

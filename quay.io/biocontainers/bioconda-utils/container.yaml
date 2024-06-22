@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconda-utils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconda-utils
 latest:
-  2.15.1--pyh7cba7a3_0: sha256:000c4fa62125e5be918e90b0e339190a548e2748e065116101c33e896a6996be
+  3.3.1--pyh7cba7a3_0: sha256:f6347a61cf776931d41515cfc6510a242c4d466522d12d2b605efcbe33de39bc
 tags:
   1.1.5--pyhdfd78af_0: sha256:291aa9841d34f183b13b318576edf2a8b01659a96f08c87bc874950fdc05360f
   1.3.0--pyhdfd78af_0: sha256:b545e445c98fcaaccbce57de1c19323a9e60a672df7c966fe1a0df75bd9a6ae3
@@ -18,6 +18,9 @@ tags:
   2.14.0--pyh7cba7a3_0: sha256:dfd823a49457a5cee404b793d43e4c8ed97a5d5ae09c5485b1928d57473253f9
   2.13.2--pyh7cba7a3_0: sha256:f8b30ecf77bde278fef0b17079b9b274edfc57137551be2cacaf69fb52b04026
   2.15.1--pyh7cba7a3_0: sha256:000c4fa62125e5be918e90b0e339190a548e2748e065116101c33e896a6996be
+  3.3.1--pyh7cba7a3_0: sha256:f6347a61cf776931d41515cfc6510a242c4d466522d12d2b605efcbe33de39bc
+  3.2.0--pyh7cba7a3_0: sha256:6f9f64ef2a1e016046981d3e86275ddeb32b566c66e3c7ea75f4f858970c0384
+  3.0.0--pyh7cba7a3_0: sha256:7596492ab65ed8e24714b0a7deb387e72be44c59a3d61ef616784e94e77e0255
 docker: quay.io/biocontainers/bioconda-utils
 aliases:
   anaconda: /usr/local/bin/anaconda

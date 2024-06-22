@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/cage
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cage
 latest:
-  2016.05.13--haebcb10_6: sha256:eda5a8ee2fe05329e21b4d7000803c54d9facd0fa844659758835c277469b313
+  2016.05.13--h20735bd_7: sha256:d1f1178968d820ec1c23fc95b490aa6b4ae166dddf055217d4939dbf3860fa0c
 tags:
   2016.05.13--hb0f8ad4_5: sha256:f4d272f3c563c4ad5f0598f75002f442f4471267e1c25f42ed679ee3ef6249b2
   2016.05.13--haebcb10_6: sha256:eda5a8ee2fe05329e21b4d7000803c54d9facd0fa844659758835c277469b313
+  2016.05.13--h20735bd_7: sha256:d1f1178968d820ec1c23fc95b490aa6b4ae166dddf055217d4939dbf3860fa0c
 docker: quay.io/biocontainers/cage
 aliases:
   bamdump: /usr/local/bin/bamdump
