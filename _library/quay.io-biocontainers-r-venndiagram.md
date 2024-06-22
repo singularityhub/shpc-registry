@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-venndiagram"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-venndiagram/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-venndiagram/container.yaml"
-updated_at: "2024-06-21 02:35:40.291352"
+updated_at: "2024-06-22 02:33:17.412064"
 latest: "1.6.16--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-venndiagram"
 aliases:

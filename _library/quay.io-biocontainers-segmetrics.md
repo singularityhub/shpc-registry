@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/segmetrics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/segmetrics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/segmetrics/container.yaml"
-updated_at: "2024-06-21 02:55:04.302836"
+updated_at: "2024-06-22 02:52:27.114277"
 latest: "1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/segmetrics"
 aliases:

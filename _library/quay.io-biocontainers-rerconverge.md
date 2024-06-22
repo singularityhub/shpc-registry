@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rerconverge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rerconverge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rerconverge/container.yaml"
-updated_at: "2024-06-21 03:09:25.261702"
-latest: "0.3.0--r42h031d066_1"
+updated_at: "2024-06-22 03:07:00.938359"
+latest: "0.3.0--r43h031d066_2"
 container_url: "https://biocontainers.pro/tools/rerconverge"
 aliases:
  - "f2py3.11"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "0.3.0--r42hec16e2b_0"
  - "0.3.0--r42h031d066_1"
+ - "0.3.0--r43h031d066_2"
 description: "singularity registry hpc automated addition for rerconverge"
-config: {"url": "https://biocontainers.pro/tools/rerconverge", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rerconverge", "latest": {"0.3.0--r42h031d066_1": "sha256:0920e1694afbe2297e7895ba27c77e3d658ebefb5de2440f4b3304d4cd299fb5"}, "tags": {"0.3.0--r42hec16e2b_0": "sha256:b06238ea9029dd228d01dbe9c535afc8c674d72893b8681ec3af4494f641c790", "0.3.0--r42h031d066_1": "sha256:0920e1694afbe2297e7895ba27c77e3d658ebefb5de2440f4b3304d4cd299fb5"}, "docker": "quay.io/biocontainers/rerconverge", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "git2_cli": "/usr/local/bin/git2_cli", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/rerconverge", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rerconverge", "latest": {"0.3.0--r43h031d066_2": "sha256:0f372c8253fc1474f5b8bfe76df8d7ff43f067ef749d587faf9bc77d31db7aea"}, "tags": {"0.3.0--r42hec16e2b_0": "sha256:b06238ea9029dd228d01dbe9c535afc8c674d72893b8681ec3af4494f641c790", "0.3.0--r42h031d066_1": "sha256:0920e1694afbe2297e7895ba27c77e3d658ebefb5de2440f4b3304d4cd299fb5", "0.3.0--r43h031d066_2": "sha256:0f372c8253fc1474f5b8bfe76df8d7ff43f067ef749d587faf9bc77d31db7aea"}, "docker": "quay.io/biocontainers/rerconverge", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "git2_cli": "/usr/local/bin/git2_cli", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rerconverge.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/rerconverge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rerconverge:0.3.0--r42h031d066_1
+$ shpc install quay.io/biocontainers/rerconverge:0.3.0--r43h031d066_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rerconverge/0.3.0--r42h031d066_1
-$ module help quay.io/biocontainers/rerconverge/0.3.0--r42h031d066_1
+$ module load quay.io/biocontainers/rerconverge/0.3.0--r43h031d066_2
+$ module help quay.io/biocontainers/rerconverge/0.3.0--r43h031d066_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

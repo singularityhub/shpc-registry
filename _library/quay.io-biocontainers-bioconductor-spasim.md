@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spasim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spasim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spasim/container.yaml"
-updated_at: "2024-06-21 03:03:44.119154"
+updated_at: "2024-06-22 03:01:17.515898"
 latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spasim"
 aliases:

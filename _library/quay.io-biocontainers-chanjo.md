@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chanjo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chanjo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chanjo/container.yaml"
-updated_at: "2024-06-21 02:36:43.639570"
+updated_at: "2024-06-22 02:34:19.147034"
 latest: "3.3.0--py27_0"
 container_url: "https://biocontainers.pro/tools/chanjo"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "3.3.0--py27_0"
 description: "shpc-registry automated BioContainers addition for chanjo"
-config: {"url": "https://biocontainers.pro/tools/chanjo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chanjo", "latest": {"3.3.0--py27_0": "sha256:ae30f610dc903635749d6a5b864b8d79774b27625ed21261d019dc0b6a7baa44"}, "tags": {"3.3.0--py27_0": "sha256:ae30f610dc903635749d6a5b864b8d79774b27625ed21261d019dc0b6a7baa44"}, "docker": "quay.io/biocontainers/chanjo", "aliases": {"chanjo": "/usr/local/bin/chanjo", "varfilter.py": "/usr/local/bin/varfilter.py", "sambamba": "/usr/local/bin/sambamba", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config"}}
+config: {"url": "https://biocontainers.pro/tools/chanjo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chanjo", "latest": {"3.3.0--py27_0": "sha256:3503232656c531ed681782fb640ca2bd4ea4cabc34eb0e1160ec5c3311ecabbb"}, "tags": {"3.3.0--py27_0": "sha256:3503232656c531ed681782fb640ca2bd4ea4cabc34eb0e1160ec5c3311ecabbb"}, "docker": "quay.io/biocontainers/chanjo", "aliases": {"chanjo": "/usr/local/bin/chanjo", "varfilter.py": "/usr/local/bin/varfilter.py", "sambamba": "/usr/local/bin/sambamba", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chanjo.

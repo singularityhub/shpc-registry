@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tloh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tloh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tloh/container.yaml"
-updated_at: "2024-06-21 02:56:18.826420"
+updated_at: "2024-06-22 02:53:43.751258"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tloh"
 

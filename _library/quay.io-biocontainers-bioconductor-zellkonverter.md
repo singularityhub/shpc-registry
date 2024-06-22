@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-zellkonverter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-zellkonverter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-zellkonverter/container.yaml"
-updated_at: "2024-06-21 02:43:46.689205"
+updated_at: "2024-06-22 02:41:13.991057"
 latest: "1.12.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-zellkonverter"
 

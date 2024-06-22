@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-excel-writer-xlsx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-excel-writer-xlsx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-excel-writer-xlsx/container.yaml"
-updated_at: "2024-06-21 03:11:31.112446"
+updated_at: "2024-06-22 03:09:08.892202"
 latest: "1.11--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-excel-writer-xlsx"
 aliases:

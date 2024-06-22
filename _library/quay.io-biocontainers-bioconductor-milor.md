@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-milor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-milor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-milor/container.yaml"
-updated_at: "2024-06-21 03:01:39.915904"
+updated_at: "2024-06-22 02:59:11.684193"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-milor"
 

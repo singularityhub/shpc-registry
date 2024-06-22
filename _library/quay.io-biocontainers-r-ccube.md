@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-ccube"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ccube/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ccube/container.yaml"
-updated_at: "2024-06-21 03:01:17.638799"
-latest: "1.0_beta.1--r43he153687_5"
+updated_at: "2024-06-22 02:58:48.927654"
+latest: "1.0_beta.1--r43hdbdd923_6"
 container_url: "https://biocontainers.pro/tools/r-ccube"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.0_beta.1--r42h46c59ee_2"
  - "1.0_beta.1--r42he153687_4"
  - "1.0_beta.1--r43he153687_5"
+ - "1.0_beta.1--r43hdbdd923_6"
 description: "shpc-registry automated BioContainers addition for r-ccube"
-config: {"url": "https://biocontainers.pro/tools/r-ccube", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ccube", "latest": {"1.0_beta.1--r43he153687_5": "sha256:65cd907820c2594c61d116866b694f4211b810a2ccd7b7391c9de280792237c0"}, "tags": {"1.0_beta.1--r41h46c59ee_1": "sha256:88ef4c800eadf6640eabc8db3502bd241773702f07db48353f5f286dd26110f5", "1.0_beta.1--r42h46c59ee_2": "sha256:04fb357f16795109854eb04600a650f95917609aef29d4a625e95a42d50caa5c", "1.0_beta.1--r42he153687_4": "sha256:0482ff191487ddcd45e6af68bc1d3d13cdbe3d1e970c873ba11def9db6e5a878", "1.0_beta.1--r43he153687_5": "sha256:65cd907820c2594c61d116866b694f4211b810a2ccd7b7391c9de280792237c0"}, "docker": "quay.io/biocontainers/r-ccube"}
+config: {"url": "https://biocontainers.pro/tools/r-ccube", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ccube", "latest": {"1.0_beta.1--r43hdbdd923_6": "sha256:065895dcbbc8ef6327e92ee0ec663504d6e2404e4ae7184c5bb0ebcef915ae41"}, "tags": {"1.0_beta.1--r41h46c59ee_1": "sha256:88ef4c800eadf6640eabc8db3502bd241773702f07db48353f5f286dd26110f5", "1.0_beta.1--r42h46c59ee_2": "sha256:04fb357f16795109854eb04600a650f95917609aef29d4a625e95a42d50caa5c", "1.0_beta.1--r42he153687_4": "sha256:0482ff191487ddcd45e6af68bc1d3d13cdbe3d1e970c873ba11def9db6e5a878", "1.0_beta.1--r43he153687_5": "sha256:65cd907820c2594c61d116866b694f4211b810a2ccd7b7391c9de280792237c0", "1.0_beta.1--r43hdbdd923_6": "sha256:065895dcbbc8ef6327e92ee0ec663504d6e2404e4ae7184c5bb0ebcef915ae41"}, "docker": "quay.io/biocontainers/r-ccube"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ccube.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-ccube
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-ccube:1.0_beta.1--r43he153687_5
+$ shpc install quay.io/biocontainers/r-ccube:1.0_beta.1--r43hdbdd923_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-ccube/1.0_beta.1--r43he153687_5
-$ module help quay.io/biocontainers/r-ccube/1.0_beta.1--r43he153687_5
+$ module load quay.io/biocontainers/r-ccube/1.0_beta.1--r43hdbdd923_6
+$ module help quay.io/biocontainers/r-ccube/1.0_beta.1--r43hdbdd923_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

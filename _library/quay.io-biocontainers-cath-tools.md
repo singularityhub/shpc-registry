@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cath-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cath-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cath-tools/container.yaml"
-updated_at: "2024-06-21 03:17:53.761351"
+updated_at: "2024-06-22 03:15:31.581501"
 latest: "0.16.5--h78a066a_0"
 container_url: "https://biocontainers.pro/tools/cath-tools"
 aliases:

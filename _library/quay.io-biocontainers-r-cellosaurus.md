@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-cellosaurus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cellosaurus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cellosaurus/container.yaml"
-updated_at: "2024-06-21 02:46:51.379066"
+updated_at: "2024-06-22 02:44:14.010939"
 latest: "0.8.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-cellosaurus"
 aliases:

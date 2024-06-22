@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylotoast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylotoast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylotoast/container.yaml"
-updated_at: "2024-06-21 02:54:07.274280"
+updated_at: "2024-06-22 02:51:28.643369"
 latest: "1.4.0rc2--py27_0"
 container_url: "https://biocontainers.pro/tools/phylotoast"
 aliases:

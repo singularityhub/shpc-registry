@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/comebin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/comebin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/comebin/container.yaml"
-updated_at: "2024-06-21 03:15:15.754720"
+updated_at: "2024-06-22 03:12:53.966554"
 latest: "1.0.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/comebin"
 aliases:

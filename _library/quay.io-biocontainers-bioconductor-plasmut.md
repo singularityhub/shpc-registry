@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-plasmut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plasmut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plasmut/container.yaml"
-updated_at: "2024-06-21 03:19:02.292030"
+updated_at: "2024-06-22 03:16:41.211012"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plasmut"
 aliases:
