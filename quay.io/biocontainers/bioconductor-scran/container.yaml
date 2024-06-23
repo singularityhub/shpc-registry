@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-scran
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scran
 latest:
-  1.30.0--r43hf17093f_0: sha256:ac896b32eda1af47f71677e6211999a5254eee2672b734bc7cbdae7c21038b5f
+  1.30.0--r43hf17093f_1: sha256:c4e6336b277a1c48f02ac31f865b600a8f53f2a9a06efbc294d1bf0836ce3257
 tags:
   1.8.4--r351hfc679d8_0: sha256:c8e1836826ec416408dea1ed111010c2b80d20c73bda3c842d4edd6ac9bf96a0
   1.26.0--r42hc247a5b_0: sha256:689b68fe8ef3fe12c97306a921eb2d4eef054f07192337b5e59798fc2fc2e744
@@ -13,6 +13,7 @@ tags:
   1.26.0--r42hf17093f_1: sha256:207fb2aa2fe91b4f31a3eb8c4d168f160861eec06ac605934f3506573c625e0c
   1.28.1--r43hf17093f_0: sha256:aa6fe6e3b43c46c1c1289d990e38834238076c6cc91aa11f6ae6e52a632c6ed7
   1.30.0--r43hf17093f_0: sha256:ac896b32eda1af47f71677e6211999a5254eee2672b734bc7cbdae7c21038b5f
+  1.30.0--r43hf17093f_1: sha256:c4e6336b277a1c48f02ac31f865b600a8f53f2a9a06efbc294d1bf0836ce3257
 docker: quay.io/biocontainers/bioconductor-scran
 aliases:
   wget: /usr/local/bin/wget

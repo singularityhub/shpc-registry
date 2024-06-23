@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/genblastg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for genblastg
 latest:
-  1.39--1: sha256:2f1f5f2632e46840f6e2a05470493e13b52c7a86e3a4b2b218793022162f4d38
+  1.39--1: sha256:18d71781be6e6120b71469f910b197a334075b62d0e28019431692f8aed946cf
 tags:
-  1.39--1: sha256:2f1f5f2632e46840f6e2a05470493e13b52c7a86e3a4b2b218793022162f4d38
+  1.39--1: sha256:18d71781be6e6120b71469f910b197a334075b62d0e28019431692f8aed946cf
 docker: quay.io/biocontainers/genblastg
 aliases:
   genblastG: /usr/local/bin/genblastG

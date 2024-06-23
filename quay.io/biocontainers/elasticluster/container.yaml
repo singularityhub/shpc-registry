@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/elasticluster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for elasticluster
 latest:
-  0.1.3bcbio--py27_12: sha256:994d66438362d28348c41066662623fe870cb6d747db0da67771ccb235ddf955
+  0.1.3bcbio--py27_12: sha256:ba6b826c888a9cb273b2591d115d200a55b5781d14b2b32be08521b10718e6d1
 tags:
-  0.1.3bcbio--py27_12: sha256:994d66438362d28348c41066662623fe870cb6d747db0da67771ccb235ddf955
+  0.1.3bcbio--py27_12: sha256:ba6b826c888a9cb273b2591d115d200a55b5781d14b2b32be08521b10718e6d1
 docker: quay.io/biocontainers/elasticluster
 aliases:
   ansible: /usr/local/bin/ansible

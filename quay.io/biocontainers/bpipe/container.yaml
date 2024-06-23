@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bpipe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bpipe
 latest:
-  0.9.11--hdfd78af_1: sha256:f0b686c4cb5c276fbb4dff1ca60c747353a0c510fbbac9a89912d17fe1eb1b1a
+  0.9.12--hdfd78af_0: sha256:8598a4cb4e59c43753553a604aa1c08f57ce334c1f9e9f06dea198cc46b0043f
 tags:
   0.9.9.9--0: sha256:0fb865041714af50badf982cfd7f27e90404d095cf5aeafe6f1c269745a4680e
   0.9.11--hdfd78af_0: sha256:751c57c5d9fd140d9b3ad44b45be065e6b9bf6202e60bb5572d08f5808a1d660
   0.9.11--hdfd78af_1: sha256:f0b686c4cb5c276fbb4dff1ca60c747353a0c510fbbac9a89912d17fe1eb1b1a
+  0.9.12--hdfd78af_0: sha256:8598a4cb4e59c43753553a604aa1c08f57ce334c1f9e9f06dea198cc46b0043f
 docker: quay.io/biocontainers/bpipe
 aliases:
   bg-bpipe: /usr/local/bin/bg-bpipe
