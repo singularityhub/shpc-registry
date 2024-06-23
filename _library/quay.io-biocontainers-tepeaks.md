@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/tepeaks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tepeaks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tepeaks/container.yaml"
-updated_at: "2024-06-22 03:11:31.076724"
-latest: "0.1--ha503a2d_5"
+updated_at: "2024-06-23 03:15:01.934794"
+latest: "0.1--h264e753_6"
 container_url: "https://biocontainers.pro/tools/tepeaks"
 aliases:
  - "TEpeaks"
 versions:
  - "0.1--h87262cc_3"
  - "0.1--ha503a2d_5"
+ - "0.1--h264e753_6"
 description: "shpc-registry automated BioContainers addition for tepeaks"
-config: {"url": "https://biocontainers.pro/tools/tepeaks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tepeaks", "latest": {"0.1--ha503a2d_5": "sha256:3b112a99935912bb03a4800cf4b58789544d133be963f5a515fd3b52063b8c8b"}, "tags": {"0.1--h87262cc_3": "sha256:fccac70deea34946f3ee5bbf089e575d551c011a3194b703125a4d0aed872eb4", "0.1--ha503a2d_5": "sha256:3b112a99935912bb03a4800cf4b58789544d133be963f5a515fd3b52063b8c8b"}, "docker": "quay.io/biocontainers/tepeaks", "aliases": {"TEpeaks": "/usr/local/bin/TEpeaks"}}
+config: {"url": "https://biocontainers.pro/tools/tepeaks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tepeaks", "latest": {"0.1--h264e753_6": "sha256:03a67f5b8ac0bf4eb2ab5bf7edb99e08ab8cdeba093cdb19c24d4c1738808df5"}, "tags": {"0.1--h87262cc_3": "sha256:fccac70deea34946f3ee5bbf089e575d551c011a3194b703125a4d0aed872eb4", "0.1--ha503a2d_5": "sha256:3b112a99935912bb03a4800cf4b58789544d133be963f5a515fd3b52063b8c8b", "0.1--h264e753_6": "sha256:03a67f5b8ac0bf4eb2ab5bf7edb99e08ab8cdeba093cdb19c24d4c1738808df5"}, "docker": "quay.io/biocontainers/tepeaks", "aliases": {"TEpeaks": "/usr/local/bin/TEpeaks"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tepeaks.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/tepeaks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tepeaks:0.1--ha503a2d_5
+$ shpc install quay.io/biocontainers/tepeaks:0.1--h264e753_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tepeaks/0.1--ha503a2d_5
-$ module help quay.io/biocontainers/tepeaks/0.1--ha503a2d_5
+$ module load quay.io/biocontainers/tepeaks/0.1--h264e753_6
+$ module help quay.io/biocontainers/tepeaks/0.1--h264e753_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

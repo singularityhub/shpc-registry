@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-emtdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-emtdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-emtdata/container.yaml"
-updated_at: "2024-06-22 02:47:22.977200"
+updated_at: "2024-06-23 02:51:10.900519"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-emtdata"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/primerforge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primerforge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/primerforge/container.yaml"
-updated_at: "2024-06-22 02:48:09.056502"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2024-06-23 02:51:56.583367"
+latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/primerforge"
 aliases:
  - "primerForge"
@@ -31,8 +31,9 @@ aliases:
 versions:
  - "0.7.4--pyhdfd78af_0"
  - "1.0.2--pyhdfd78af_0"
+ - "1.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for primerforge"
-config: {"url": "https://biocontainers.pro/tools/primerforge", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for primerforge", "latest": {"1.0.2--pyhdfd78af_0": "sha256:e340efffbba2de5b9094f79c45df90ab593aee9aec27efdaa6dfdb60047b3b0c"}, "tags": {"0.7.4--pyhdfd78af_0": "sha256:f57b1ec77482fef0cc0dc550e3f3951f0a38cf05f452167797e05b9ad8c8f013", "1.0.2--pyhdfd78af_0": "sha256:e340efffbba2de5b9094f79c45df90ab593aee9aec27efdaa6dfdb60047b3b0c"}, "docker": "quay.io/biocontainers/primerforge", "aliases": {"primerForge": "/usr/local/bin/primerForge", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/primerforge", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for primerforge", "latest": {"1.1.1--pyhdfd78af_0": "sha256:b40959ff18973cfeb2fc7a0bc37ab48803b7239543cb0a6735a69dc0b8ca27c6"}, "tags": {"0.7.4--pyhdfd78af_0": "sha256:f57b1ec77482fef0cc0dc550e3f3951f0a38cf05f452167797e05b9ad8c8f013", "1.0.2--pyhdfd78af_0": "sha256:e340efffbba2de5b9094f79c45df90ab593aee9aec27efdaa6dfdb60047b3b0c", "1.1.1--pyhdfd78af_0": "sha256:b40959ff18973cfeb2fc7a0bc37ab48803b7239543cb0a6735a69dc0b8ca27c6"}, "docker": "quay.io/biocontainers/primerforge", "aliases": {"primerForge": "/usr/local/bin/primerForge", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/primerforge.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/primerforge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/primerforge:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/primerforge:1.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/primerforge/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/primerforge/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/primerforge/1.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/primerforge/1.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

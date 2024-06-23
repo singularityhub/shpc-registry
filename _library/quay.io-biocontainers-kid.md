@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kid/container.yaml"
-updated_at: "2024-06-22 03:09:20.285877"
+updated_at: "2024-06-23 03:12:52.631286"
 latest: "0.9.6--py27_2"
 container_url: "https://biocontainers.pro/tools/kid"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.9.6--py27_2"
 description: "shpc-registry automated BioContainers addition for kid"
-config: {"url": "https://biocontainers.pro/tools/kid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kid", "latest": {"0.9.6--py27_2": "sha256:a7a3f15f1ce80251ca5b5619122d405cc5c34b5cf00a662787275b08b2515b69"}, "tags": {"0.9.6--py27_2": "sha256:a7a3f15f1ce80251ca5b5619122d405cc5c34b5cf00a662787275b08b2515b69"}, "docker": "quay.io/biocontainers/kid", "aliases": {"kid": "/usr/local/bin/kid", "kidc": "/usr/local/bin/kidc", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/kid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kid", "latest": {"0.9.6--py27_2": "sha256:8be711338e3e4aaf8ff3ab41c1d0d96d7a0d0819d7a14ea27ad0392639565b97"}, "tags": {"0.9.6--py27_2": "sha256:8be711338e3e4aaf8ff3ab41c1d0d96d7a0d0819d7a14ea27ad0392639565b97"}, "docker": "quay.io/biocontainers/kid", "aliases": {"kid": "/usr/local/bin/kid", "kidc": "/usr/local/bin/kidc", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kid.

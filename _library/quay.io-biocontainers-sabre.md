@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sabre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sabre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sabre/container.yaml"
-updated_at: "2024-06-22 03:10:25.513994"
+updated_at: "2024-06-23 03:13:57.131780"
 latest: "1.000--he4a0461_5"
 container_url: "https://biocontainers.pro/tools/sabre"
 aliases:

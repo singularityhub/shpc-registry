@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tiddit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tiddit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tiddit/container.yaml"
-updated_at: "2024-06-22 02:40:53.542064"
+updated_at: "2024-06-23 02:44:44.665410"
 latest: "3.6.1--py38h24c8ff8_0"
 container_url: "https://biocontainers.pro/tools/tiddit"
 aliases:

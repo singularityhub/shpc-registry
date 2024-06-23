@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/doebase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/doebase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/doebase/container.yaml"
-updated_at: "2024-06-22 02:55:36.364206"
+updated_at: "2024-06-23 02:59:18.175661"
 latest: "2.0.2"
 container_url: "https://biocontainers.pro/tools/doebase"
 

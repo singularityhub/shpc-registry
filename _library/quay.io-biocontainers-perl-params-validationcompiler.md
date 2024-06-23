@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-params-validationcompiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-params-validationcompiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-params-validationcompiler/container.yaml"
-updated_at: "2024-06-22 03:00:19.384890"
+updated_at: "2024-06-23 03:03:59.484984"
 latest: "0.31--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-params-validationcompiler"
 aliases:

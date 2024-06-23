@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zgtf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zgtf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zgtf/container.yaml"
-updated_at: "2024-06-22 02:48:18.144442"
+updated_at: "2024-06-23 02:52:05.618549"
 latest: "0.1.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/zgtf"
 aliases:

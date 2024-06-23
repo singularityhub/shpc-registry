@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-executor-plugin-googlebatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-executor-plugin-googlebatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-executor-plugin-googlebatch/container.yaml"
-updated_at: "2024-06-22 02:40:50.708255"
+updated_at: "2024-06-23 02:44:41.862391"
 latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-executor-plugin-googlebatch"
 aliases:

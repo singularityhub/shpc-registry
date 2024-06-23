@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mousefm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mousefm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mousefm/container.yaml"
-updated_at: "2024-06-22 03:01:44.624468"
+updated_at: "2024-06-23 03:05:24.101552"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mousefm"
 aliases:

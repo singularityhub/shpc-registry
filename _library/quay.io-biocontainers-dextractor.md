@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dextractor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dextractor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dextractor/container.yaml"
-updated_at: "2024-06-22 03:16:30.081446"
-latest: "1.0p2--he47dfe4_7"
+updated_at: "2024-06-23 03:19:57.893477"
+latest: "1.0p2--h41d5b99_8"
 container_url: "https://biocontainers.pro/tools/dextractor"
 aliases:
  - "dex2DB"
@@ -29,8 +29,9 @@ aliases:
 versions:
  - "1.0p2--h7a6849f_5"
  - "1.0p2--he47dfe4_7"
+ - "1.0p2--h41d5b99_8"
 description: "shpc-registry automated BioContainers addition for dextractor"
-config: {"url": "https://biocontainers.pro/tools/dextractor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dextractor", "latest": {"1.0p2--he47dfe4_7": "sha256:c7adcf3436eafc1e01401a986789f49b349f08b29585cd790aaeb0cb49549fe4"}, "tags": {"1.0p2--h7a6849f_5": "sha256:6ce12cec2c4d2e2ff88acb7d37b7566e33200f6ad4ad846209555826e754ec96", "1.0p2--he47dfe4_7": "sha256:c7adcf3436eafc1e01401a986789f49b349f08b29585cd790aaeb0cb49549fe4"}, "docker": "quay.io/biocontainers/dextractor", "aliases": {"dex2DB": "/usr/local/bin/dex2DB", "dexar": "/usr/local/bin/dexar", "dexqv": "/usr/local/bin/dexqv", "dexta": "/usr/local/bin/dexta", "dextract": "/usr/local/bin/dextract", "undexar": "/usr/local/bin/undexar", "undexqv": "/usr/local/bin/undexqv", "undexta": "/usr/local/bin/undexta", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/dextractor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dextractor", "latest": {"1.0p2--h41d5b99_8": "sha256:0e2b3a8438d610cc335fa0fdab03a6edd7155cba935b196a9f49b0abb62e5d26"}, "tags": {"1.0p2--h7a6849f_5": "sha256:6ce12cec2c4d2e2ff88acb7d37b7566e33200f6ad4ad846209555826e754ec96", "1.0p2--he47dfe4_7": "sha256:c7adcf3436eafc1e01401a986789f49b349f08b29585cd790aaeb0cb49549fe4", "1.0p2--h41d5b99_8": "sha256:0e2b3a8438d610cc335fa0fdab03a6edd7155cba935b196a9f49b0abb62e5d26"}, "docker": "quay.io/biocontainers/dextractor", "aliases": {"dex2DB": "/usr/local/bin/dex2DB", "dexar": "/usr/local/bin/dexar", "dexqv": "/usr/local/bin/dexqv", "dexta": "/usr/local/bin/dexta", "dextract": "/usr/local/bin/dextract", "undexar": "/usr/local/bin/undexar", "undexqv": "/usr/local/bin/undexqv", "undexta": "/usr/local/bin/undexta", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dextractor.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/dextractor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dextractor:1.0p2--he47dfe4_7
+$ shpc install quay.io/biocontainers/dextractor:1.0p2--h41d5b99_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dextractor/1.0p2--he47dfe4_7
-$ module help quay.io/biocontainers/dextractor/1.0p2--he47dfe4_7
+$ module load quay.io/biocontainers/dextractor/1.0p2--h41d5b99_8
+$ module help quay.io/biocontainers/dextractor/1.0p2--h41d5b99_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

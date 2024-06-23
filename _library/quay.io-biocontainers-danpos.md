@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/danpos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/danpos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/danpos/container.yaml"
-updated_at: "2024-06-22 03:15:05.577232"
+updated_at: "2024-06-23 03:18:34.465322"
 latest: "2.2.2--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/danpos"
 aliases:
