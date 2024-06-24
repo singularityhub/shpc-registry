@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/ete2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ete2
 latest:
-  2.3.10--py_4: sha256:eb1498e07f228fe78fa3a18143e1d085e37eae0bd78a559aed84a504a86816b0
+  2.3.10--py_4: sha256:e14ec2294b170fc6f34e7ce5c36c3cc4698d206b623457eb91f0474275ba16e0
 tags:
-  2.3.10--py_4: sha256:eb1498e07f228fe78fa3a18143e1d085e37eae0bd78a559aed84a504a86816b0
+  2.3.10--py_4: sha256:e14ec2294b170fc6f34e7ce5c36c3cc4698d206b623457eb91f0474275ba16e0
 docker: quay.io/biocontainers/ete2
 aliases:
   ete: /usr/local/bin/ete

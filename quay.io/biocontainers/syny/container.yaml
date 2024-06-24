@@ -5,6 +5,7 @@ latest:
   1.1a--py310pl5321h7cba7a3_0: sha256:c027b916c244e091035032d6a44c4ad34f76252e6c4dcef8ac4551d002d4668b
 tags:
   1.1a--py310pl5321h7cba7a3_0: sha256:c027b916c244e091035032d6a44c4ad34f76252e6c4dcef8ac4551d002d4668b
+  1.1b--py310pl5321h7cba7a3_0: sha256:99fd4a791f77618ebfcd9cdf4a9a2d1c65972c449848adb0732e0be42029990c
 docker: quay.io/biocontainers/syny
 aliases:
   Arabidopsis.sh: /usr/local/bin/Arabidopsis.sh

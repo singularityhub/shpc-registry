@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-plotrix
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-plotrix
 latest:
-  3.6_4--r3.3.2_0: sha256:70eb79284dd03d9a7bc5fd718e627692492bc867b326ec6cb2b905424c4bda79
+  3.6_4--r3.3.2_0: sha256:3a563f2578847a19825e74855b001ad1ca353a5732e801fca6665ee92de3dfe9
 tags:
-  3.6_4--r3.3.2_0: sha256:70eb79284dd03d9a7bc5fd718e627692492bc867b326ec6cb2b905424c4bda79
+  3.6_4--r3.3.2_0: sha256:3a563f2578847a19825e74855b001ad1ca353a5732e801fca6665ee92de3dfe9
+  3.6_4--r3.3.1_0: sha256:6dc0e4d86ba00b4ebd044c128e98c498b36b472541f10a4e02eb93f87d286779
 docker: quay.io/biocontainers/r-plotrix
 aliases:
   uconv: /usr/local/bin/uconv

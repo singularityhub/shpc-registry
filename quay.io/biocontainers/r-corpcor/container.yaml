@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-corpcor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-corpcor
 latest:
-  1.6.8--r3.2.2_0: sha256:4a785d8583bc6b013af813e8b51d6d952c3e1ec32b5853d5433741be201961bb
+  1.6.8--r3.2.2_0: sha256:2e9f1d309d4a32078ddf05fb3c22e2ccecd0a84db378a575cf29da8847235656
 tags:
-  1.6.8--r3.2.2_0: sha256:4a785d8583bc6b013af813e8b51d6d952c3e1ec32b5853d5433741be201961bb
-  1.6.8--r3.3.2_0: sha256:a9d285df9ea1cb0ad68237576fd3291b54bf2b361dc4a9a53820a6be26c78a32
+  1.6.8--r3.2.2_0: sha256:2e9f1d309d4a32078ddf05fb3c22e2ccecd0a84db378a575cf29da8847235656
+  1.6.8--r3.3.2_0: sha256:64e0c7ca016da37ab2a1f788b734cad2120372529889e3fb162acc3327b616a4
 docker: quay.io/biocontainers/r-corpcor
 aliases:
   pngcp: /usr/local/bin/pngcp

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/amplisim
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for amplisim
 latest:
-  0.2.1--h77de753_0: sha256:f598183be49b0f5787c8df70a06585acb551f7582a28d203822a502311b46ba7
+  0.2.1--h3e2e0a8_1: sha256:be7360f5c890f595dd88bad58e2d95a0123cd8bfb4595c24830bba626fcbadd6
 tags:
   0.2.1--h77de753_0: sha256:f598183be49b0f5787c8df70a06585acb551f7582a28d203822a502311b46ba7
+  0.2.1--h3e2e0a8_1: sha256:be7360f5c890f595dd88bad58e2d95a0123cd8bfb4595c24830bba626fcbadd6
 docker: quay.io/biocontainers/amplisim
 aliases:
   amplisim: /usr/local/bin/amplisim

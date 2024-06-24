@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/flask-bootstrap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for flask-bootstrap
 latest:
-  3.3.5.7--py36_0: sha256:da3175c019a334a61e28080c996388930aead26cd43443f3ff476f0618fdf7f4
+  3.3.5.7--py36_0: sha256:f5ad9c381eae77c065858778dd6d09208e42cb0ea6a69ed0d40758d12b07f03b
 tags:
-  3.3.5.7--py36_0: sha256:da3175c019a334a61e28080c996388930aead26cd43443f3ff476f0618fdf7f4
+  3.3.5.7--py36_0: sha256:f5ad9c381eae77c065858778dd6d09208e42cb0ea6a69ed0d40758d12b07f03b
 docker: quay.io/biocontainers/flask-bootstrap
 aliases:
   flask: /usr/local/bin/flask

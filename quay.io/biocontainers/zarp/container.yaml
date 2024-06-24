@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/zarp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for zarp
 latest:
-  0.1.1--pyhdfd78af_0: sha256:838bd19281967f7ef1a11c90a58ecae18ea82f507e092bd0529bb6e2a4dff87d
+  1.0.0--pyhdfd78af_0: sha256:9b5e39b1187ec701caaad58366cb881bb0f002ec8a68b3ed9ce20c4461b86d8f
 tags:
   0.1.1--pyhdfd78af_0: sha256:838bd19281967f7ef1a11c90a58ecae18ea82f507e092bd0529bb6e2a4dff87d
+  1.0.0--pyhdfd78af_0: sha256:9b5e39b1187ec701caaad58366cb881bb0f002ec8a68b3ed9ce20c4461b86d8f
 docker: quay.io/biocontainers/zarp
 aliases:
   email_validator: /usr/local/bin/email_validator

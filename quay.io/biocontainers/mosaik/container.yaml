@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/mosaik
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mosaik
 latest:
-  2.2.26--he941832_4: sha256:4bd7cb403e8ca7f8db422dd9c4381902b3a2053f503b62396306e88ecba3e65d
+  2.2.26--he941832_4: sha256:e507b94ffde4180fe9af6a361393a3e88c6a1dd127b98f984ca887882a8a6279
 tags:
-  2.2.26--he941832_4: sha256:4bd7cb403e8ca7f8db422dd9c4381902b3a2053f503b62396306e88ecba3e65d
+  2.2.26--he941832_4: sha256:e507b94ffde4180fe9af6a361393a3e88c6a1dd127b98f984ca887882a8a6279
 docker: quay.io/biocontainers/mosaik
 aliases:
   MosaikAligner: /usr/local/bin/MosaikAligner

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/dropbox
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dropbox
 latest:
-  5.2.1--py36_0: sha256:07ab25fed932e25e1afba6ffbfd770fbf2b07c5bfcd1203f3ff1fd52bcca5b36
+  5.2.1--py36_0: sha256:0a7685d76fd5972f29445f85d8db988a8ac8d7712d5e23f2651a6d6612495c16
 tags:
-  5.2.1--py36_0: sha256:07ab25fed932e25e1afba6ffbfd770fbf2b07c5bfcd1203f3ff1fd52bcca5b36
+  5.2.1--py36_0: sha256:0a7685d76fd5972f29445f85d8db988a8ac8d7712d5e23f2651a6d6612495c16
+  5.2.1--py35_0: sha256:e800a339520e57b5d9b181fbd024bdf44403b7c640aba338efc4aa6a1648d707
 docker: quay.io/biocontainers/dropbox
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

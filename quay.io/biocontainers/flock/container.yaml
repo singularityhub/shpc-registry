@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/flock
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for flock
 latest:
-  1.0--h470a237_2: sha256:ec41076e80b9d6da5cc1e83aa7fca3358f0e53451729a48f03cb9a85b277e44c
+  1.0--h470a237_2: sha256:13a9138efa512c2936d34eb5f5a5b191302e45a25892c8a89a5ce5c828908cf4
 tags:
-  1.0--h470a237_2: sha256:ec41076e80b9d6da5cc1e83aa7fca3358f0e53451729a48f03cb9a85b277e44c
+  1.0--h470a237_2: sha256:13a9138efa512c2936d34eb5f5a5b191302e45a25892c8a89a5ce5c828908cf4
 docker: quay.io/biocontainers/flock
 aliases:
   cent_adjust: /usr/local/bin/cent_adjust

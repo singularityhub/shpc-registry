@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-snowfall
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-snowfall
 latest:
-  1.84_6.1--r3.2.2_0: sha256:591209580ca6312c672bf06c4976caa263382fbe315295a3f5ee8dded6dea810
+  1.84_6.1--r3.2.2_0: sha256:dc28a1243b72b5e090f47c9eb0efceef03bbb847f8aa1ab5050f83431893fcdb
 tags:
-  1.84_6.1--r3.2.2_0: sha256:591209580ca6312c672bf06c4976caa263382fbe315295a3f5ee8dded6dea810
-  1.84_6.1--r3.3.2_0: sha256:d99af429ae22f3e4ea27715e4568c23f057c36cbf1f06f1dc2aeaa21e6aa9f8d
+  1.84_6.1--r3.2.2_0: sha256:dc28a1243b72b5e090f47c9eb0efceef03bbb847f8aa1ab5050f83431893fcdb
+  1.84_6.1--r3.3.2_0: sha256:d51e36814fc40b6da03cd637e754f2bd19631f54587a62f71c9a452f5942aec7
 docker: quay.io/biocontainers/r-snowfall
 aliases:
   pngcp: /usr/local/bin/pngcp

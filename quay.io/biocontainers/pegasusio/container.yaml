@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pegasusio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pegasusio
 latest:
-  0.9.0--py38he5da3d1_0: sha256:ea762655eb2cb9ce7312f9e93850a13ca59611c290533b7223529c25374c401b
+  0.9.1--py38h0020b31_1: sha256:73c552938e580b02b398c3c9775194aed133fdc9338daf7509b6d6a9f3756244
 tags:
   0.5.0--py39h38f01e4_0: sha256:661d999a3ff8fc343d8d85e8313be7ead9827680d4a2918202b013bc4f55a5b8
   0.9.0--py38he5da3d1_0: sha256:ea762655eb2cb9ce7312f9e93850a13ca59611c290533b7223529c25374c401b
@@ -10,6 +10,7 @@ tags:
   0.7.1--py39hbf8eff0_1: sha256:adb47c6a71e07cd4084940b948e881f297663b240e3c1419ac698655b7df2b78
   0.6.2--py37h8902056_0: sha256:ddc9de5399ca514b325ff279881d4789ca465fbaf8630eef76fe6c5e9e3c424f
   0.5.1.post1--py37h8902056_2: sha256:2151a33f562faf35a3460018851c2a4a6638817071b0dc62f8aac9120188987d
+  0.9.1--py38h0020b31_1: sha256:73c552938e580b02b398c3c9775194aed133fdc9338daf7509b6d6a9f3756244
 docker: quay.io/biocontainers/pegasusio
 aliases:
   pegasusio: /usr/local/bin/pegasusio

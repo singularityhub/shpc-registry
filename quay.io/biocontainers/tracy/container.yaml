@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/tracy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tracy
 latest:
-  0.7.6--h0d5efe1_0: sha256:1b60328ced3e2d39852e889cdf6601f3426d0a1dc8210795ab386b7ea3b91ac4
+  0.7.6--hf9970c3_2: sha256:1df4d720b66b7f13a637df97480eb7eea76420b21327a5a9a907fbb0472f9c99
 tags:
   0.7.2--ha41ced6_1: sha256:4f4dccdf37ed2df042da3430f7dbb498e297b729639677664b1edd35bf3f1397
   0.7.3--ha41ced6_0: sha256:13a92e0cb86e47111184ff4972c0c36bee44f37107bfc2df6e49529662dd2bd7
@@ -10,6 +10,7 @@ tags:
   0.7.5--h96c1cfd_0: sha256:bed27c2858af936f270160da09c797f0102a7c300a11caa97fabe11abd6368d5
   0.7.5--hd8a7f93_2: sha256:9c87038966bef37d84a3bc74218973d4e7ae7d056cab265731181bd479060a97
   0.7.6--h0d5efe1_0: sha256:1b60328ced3e2d39852e889cdf6601f3426d0a1dc8210795ab386b7ea3b91ac4
+  0.7.6--hf9970c3_2: sha256:1df4d720b66b7f13a637df97480eb7eea76420b21327a5a9a907fbb0472f9c99
 docker: quay.io/biocontainers/tracy
 aliases:
   tracy: /usr/local/bin/tracy
