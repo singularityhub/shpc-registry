@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/pygcap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pygcap
+latest:
+  0.0.5--pyhdfd78af_0: sha256:316873d0a638714d891f912348ecb4deff9bcde217f4fc5e7ef13ad5f0bb88cf
+tags:
+  0.0.5--pyhdfd78af_0: sha256:316873d0a638714d891f912348ecb4deff9bcde217f4fc5e7ef13ad5f0bb88cf
+docker: quay.io/biocontainers/pygcap
+aliases:
+  pygcap: /usr/local/bin/pygcap
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

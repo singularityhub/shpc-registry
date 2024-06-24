@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/pydna_repeatfinder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pydna_repeatfinder
+latest:
+  0.2.9--py310h84f13bb_1: sha256:98429700526e08da2409406cee03c58f1ad95b7f3c85446da2c0b454a1fc0962
+tags:
+  0.2.9--py310h84f13bb_1: sha256:98429700526e08da2409406cee03c58f1ad95b7f3c85446da2c0b454a1fc0962
+docker: quay.io/biocontainers/pydna_repeatfinder
+aliases:
+  pydna_repeatfinder: /usr/local/bin/pydna_repeatfinder
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

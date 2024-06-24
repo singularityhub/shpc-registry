@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/pgscatalog-utils
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pgscatalog-utils
+latest:
+  1.1.2--pyhdfd78af_0: sha256:237a44157750d4641b61bcfec3efa12fa97b3f0e2e97252f125e604b3fbd4c3f
+tags:
+  1.1.2--pyhdfd78af_0: sha256:237a44157750d4641b61bcfec3efa12fa97b3f0e2e97252f125e604b3fbd4c3f
+docker: quay.io/biocontainers/pgscatalog-utils
+aliases:
+  pgscatalog-aggregate: /usr/local/bin/pgscatalog-aggregate
+  pgscatalog-ancestry-adjust: /usr/local/bin/pgscatalog-ancestry-adjust
+  pgscatalog-combine: /usr/local/bin/pgscatalog-combine
+  pgscatalog-download: /usr/local/bin/pgscatalog-download
+  pgscatalog-intersect: /usr/local/bin/pgscatalog-intersect
+  pgscatalog-match: /usr/local/bin/pgscatalog-match
+  pgscatalog-matchmerge: /usr/local/bin/pgscatalog-matchmerge
+  pgscatalog-relabel: /usr/local/bin/pgscatalog-relabel
+  protoc-25.3.0: /usr/local/bin/protoc-25.3.0
+  genl-ctrl-list: /usr/local/bin/genl-ctrl-list
+  idiag-socket-details: /usr/local/bin/idiag-socket-details
+  nf-ct-add: /usr/local/bin/nf-ct-add
+  nf-ct-events: /usr/local/bin/nf-ct-events
+  nf-ct-list: /usr/local/bin/nf-ct-list
+  nf-exp-add: /usr/local/bin/nf-exp-add
+  nf-exp-delete: /usr/local/bin/nf-exp-delete
+  nf-exp-list: /usr/local/bin/nf-exp-list
+  nf-log: /usr/local/bin/nf-log
+  nf-monitor: /usr/local/bin/nf-monitor
+  nf-queue: /usr/local/bin/nf-queue
+  nl-addr-add: /usr/local/bin/nl-addr-add
+  nl-addr-delete: /usr/local/bin/nl-addr-delete
+  nl-addr-list: /usr/local/bin/nl-addr-list
+  nl-class-add: /usr/local/bin/nl-class-add
+  nl-class-delete: /usr/local/bin/nl-class-delete
+  nl-class-list: /usr/local/bin/nl-class-list
+  nl-classid-lookup: /usr/local/bin/nl-classid-lookup
+  nl-cls-add: /usr/local/bin/nl-cls-add
+  nl-cls-delete: /usr/local/bin/nl-cls-delete
+  nl-cls-list: /usr/local/bin/nl-cls-list
+  nl-fib-lookup: /usr/local/bin/nl-fib-lookup
+  nl-link-enslave: /usr/local/bin/nl-link-enslave
+  nl-link-ifindex2name: /usr/local/bin/nl-link-ifindex2name
+  nl-link-list: /usr/local/bin/nl-link-list

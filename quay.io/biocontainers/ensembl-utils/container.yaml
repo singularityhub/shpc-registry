@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/ensembl-utils
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ensembl-utils
+latest:
+  0.2.0--pyhdfd78af_0: sha256:8a151186d3db4185724f3105b54765ea10438d459c9b3341ce37e4bbd8183176
+tags:
+  0.2.0--pyhdfd78af_0: sha256:8a151186d3db4185724f3105b54765ea10438d459c9b3341ce37e4bbd8183176
+docker: quay.io/biocontainers/ensembl-utils
+aliases:
+  dotenv: /usr/local/bin/dotenv
+  extract_file: /usr/local/bin/extract_file
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  normalizer: /usr/local/bin/normalizer

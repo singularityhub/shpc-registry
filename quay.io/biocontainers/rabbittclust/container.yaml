@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/rabbittclust
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rabbittclust
+latest:
+  2.3.0--h43eeafb_0: sha256:feeaa2726438a1397e73513c99469d77a09eb55a7b97612f0f599e1c4763c145
+tags:
+  2.3.0--h43eeafb_0: sha256:feeaa2726438a1397e73513c99469d77a09eb55a7b97612f0f599e1c4763c145
+docker: quay.io/biocontainers/rabbittclust
+aliases:
+  clust-greedy: /usr/local/bin/clust-greedy
+  clust-mst: /usr/local/bin/clust-mst

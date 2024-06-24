@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/venndata
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for venndata
+latest:
+  0.1.0--pyhdfd78af_0: sha256:95299efc89b2e91f3ead6ed36b2457618855baf11be6dc9ca269d0cc67557385
+tags:
+  0.1.0--pyhdfd78af_0: sha256:95299efc89b2e91f3ead6ed36b2457618855baf11be6dc9ca269d0cc67557385
+docker: quay.io/biocontainers/venndata
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

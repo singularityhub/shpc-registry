@@ -1,0 +1,66 @@
+url: https://biocontainers.pro/tools/quantms-utils
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for quantms-utils
+latest:
+  0.0.2--pyhdfd78af_0: sha256:d45077ff4f3164613020a4c57658c5118337b1efc4a105f07972179f31b7a54b
+tags:
+  0.0.2--pyhdfd78af_0: sha256:d45077ff4f3164613020a4c57658c5118337b1efc4a105f07972179f31b7a54b
+docker: quay.io/biocontainers/quantms-utils
+aliases:
+  deeplc: /usr/local/bin/deeplc
+  deeplc-gui: /usr/local/bin/deeplc-gui
+  fasta2speclib: /usr/local/bin/fasta2speclib
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  helpviewer: /usr/local/bin/helpviewer
+  img2png: /usr/local/bin/img2png
+  img2py: /usr/local/bin/img2py
+  img2xpm: /usr/local/bin/img2xpm
+  mokapot: /usr/local/bin/mokapot
+  ms2pip: /usr/local/bin/ms2pip
+  ms2rescore: /usr/local/bin/ms2rescore
+  ms2rescore-gui: /usr/local/bin/ms2rescore-gui
+  ms2rescore-report: /usr/local/bin/ms2rescore-report
+  parse_sdrf: /usr/local/bin/parse_sdrf
+  progressbar: /usr/local/bin/progressbar
+  psm_utils: /usr/local/bin/psm_utils
+  pyaml: /usr/local/bin/pyaml
+  pycrust: /usr/local/bin/pycrust
+  pyshell: /usr/local/bin/pyshell
+  pyslices: /usr/local/bin/pyslices
+  pyslicesshell: /usr/local/bin/pyslicesshell
+  pywxrc: /usr/local/bin/pywxrc
+  quantmsutilsc: /usr/local/bin/quantmsutilsc
+  triqler: /usr/local/bin/triqler
+  wx-config: /usr/local/bin/wx-config
+  wxdemo: /usr/local/bin/wxdemo
+  wxdocs: /usr/local/bin/wxdocs
+  wxget: /usr/local/bin/wxget
+  wxrc: /usr/local/bin/wxrc
+  wxrc-3.1: /usr/local/bin/wxrc-3.1
+  cpuinfo: /usr/local/bin/cpuinfo
+  svm-predict: /usr/local/bin/svm-predict
+  svm-scale: /usr/local/bin/svm-scale
+  svm-train: /usr/local/bin/svm-train
+  xgboost: /usr/local/bin/xgboost
+  plasma-store-server: /usr/local/bin/plasma-store-server
+  plasma_store: /usr/local/bin/plasma_store
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
+  markdown-it: /usr/local/bin/markdown-it
+  CreateDOMDocument: /usr/local/bin/CreateDOMDocument
+  DOMCount: /usr/local/bin/DOMCount
+  DOMPrint: /usr/local/bin/DOMPrint
+  EnumVal: /usr/local/bin/EnumVal
+  MemParse: /usr/local/bin/MemParse
+  PParse: /usr/local/bin/PParse
+  PSVIWriter: /usr/local/bin/PSVIWriter
+  Redirect: /usr/local/bin/Redirect
+  SAX2Count: /usr/local/bin/SAX2Count
+  SAX2Print: /usr/local/bin/SAX2Print
+  SAXCount: /usr/local/bin/SAXCount
+  SAXPrint: /usr/local/bin/SAXPrint
+  SCMPrint: /usr/local/bin/SCMPrint
+  SEnumVal: /usr/local/bin/SEnumVal
+  StdInParse: /usr/local/bin/StdInParse
+  XInclude: /usr/local/bin/XInclude

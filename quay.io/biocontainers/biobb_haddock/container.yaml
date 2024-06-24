@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/biobb_haddock
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for biobb_haddock
+latest:
+  4.2.1--pyhdfd78af_0: sha256:f7e0fa46658ff87f63569da48104cd10a83b0ba453a950be1c6473e0ba8ab335
+tags:
+  4.2.1--pyhdfd78af_0: sha256:f7e0fa46658ff87f63569da48104cd10a83b0ba453a950be1c6473e0ba8ab335
+docker: quay.io/biocontainers/biobb_haddock
+aliases:
+  capri_eval: /usr/local/bin/capri_eval
+  clust_fcc: /usr/local/bin/clust_fcc
+  em_ref: /usr/local/bin/em_ref
+  flex_ref: /usr/local/bin/flex_ref
+  rigid_body: /usr/local/bin/rigid_body
+  sele_top: /usr/local/bin/sele_top
+  topology: /usr/local/bin/topology
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  normalizer: /usr/local/bin/normalizer

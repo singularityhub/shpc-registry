@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/psirc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for psirc
+latest:
+  1.0.0--he1fd2f9_0: sha256:a698301d6f2de7b3fdb659609b0cf0cd9b5408764145915b7ee6e46106e76aee
+tags:
+  1.0.0--he1fd2f9_0: sha256:a698301d6f2de7b3fdb659609b0cf0cd9b5408764145915b7ee6e46106e76aee
+docker: quay.io/biocontainers/psirc
+aliases:
+  create_custom_transcriptome_fa.pl: /usr/local/bin/create_custom_transcriptome_fa.pl
+  psirc: /usr/local/bin/psirc
+  psirc-quant: /usr/local/bin/psirc-quant
+  psirc_v1.0.pl: /usr/local/bin/psirc_v1.0.pl
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  annot-tsv: /usr/local/bin/annot-tsv
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  h5delete: /usr/local/bin/h5delete
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5fc: /usr/local/bin/h5fc
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam
+  h5ls: /usr/local/bin/h5ls
+  h5mkgrp: /usr/local/bin/h5mkgrp
+  h5perf_serial: /usr/local/bin/h5perf_serial
+  h5redeploy: /usr/local/bin/h5redeploy
+  h5repack: /usr/local/bin/h5repack
+  h5repart: /usr/local/bin/h5repart
+  h5stat: /usr/local/bin/h5stat
+  h5unjam: /usr/local/bin/h5unjam
+  h5dump: /usr/local/bin/h5dump
