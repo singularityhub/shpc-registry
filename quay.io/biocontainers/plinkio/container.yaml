@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/plinkio
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for plinkio
+latest:
+  0.9.8--py310h7c593f9_1: sha256:fd926dd2abb801b69bc758923bcbb1ca18ef265cfcced8208c6840d8b5293a3e
+tags:
+  0.9.8--py310h7c593f9_1: sha256:fd926dd2abb801b69bc758923bcbb1ca18ef265cfcced8208c6840d8b5293a3e
+docker: quay.io/biocontainers/plinkio
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

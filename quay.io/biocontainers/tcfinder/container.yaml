@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/tcfinder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tcfinder
+latest:
+  1.0.0--h4349ce8_0: sha256:b2c86fed4cb58b0107f6ec564cf00e29ce194d9165d06a24a62df0416552f7cb
+tags:
+  1.0.0--h4349ce8_0: sha256:b2c86fed4cb58b0107f6ec564cf00e29ce194d9165d06a24a62df0416552f7cb
+docker: quay.io/biocontainers/tcfinder
+aliases:
+  tcfinder: /usr/local/bin/tcfinder

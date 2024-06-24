@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/pathogen-embed
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pathogen-embed
+latest:
+  2.0.0--pyhdfd78af_0: sha256:90f9f9d885a4ed8f5264831337650e0ac1ee12521adb16751ee0f77b8ff7817e
+tags:
+  2.0.0--pyhdfd78af_0: sha256:90f9f9d885a4ed8f5264831337650e0ac1ee12521adb16751ee0f77b8ff7817e
+docker: quay.io/biocontainers/pathogen-embed
+aliases:
+  pathogen-cluster: /usr/local/bin/pathogen-cluster
+  pathogen-distance: /usr/local/bin/pathogen-distance
+  pathogen-embed: /usr/local/bin/pathogen-embed
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  numba: /usr/local/bin/numba
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  tqdm: /usr/local/bin/tqdm
+  tjbench: /usr/local/bin/tjbench

@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/bamsurgeon
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bamsurgeon
+latest:
+  1.4.1--pyhdfd78af_0: sha256:b7b9d222ba998d44b4c726f7196ecfdc92a49e21d5a3e8729b2904aaf88c8b77
+tags:
+  1.4.1--pyhdfd78af_0: sha256:b7b9d222ba998d44b4c726f7196ecfdc92a49e21d5a3e8729b2904aaf88c8b77
+docker: quay.io/biocontainers/bamsurgeon
+aliases:
+  addindel.py: /usr/local/bin/addindel.py
+  addsnv.py: /usr/local/bin/addsnv.py
+  addsv.py: /usr/local/bin/addsv.py
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  esd2esi: /usr/local/bin/esd2esi
+  exonerate: /usr/local/bin/exonerate
+  exonerate-server: /usr/local/bin/exonerate-server
+  fasta2esd: /usr/local/bin/fasta2esd
+  fastaannotatecdna: /usr/local/bin/fastaannotatecdna
+  fastachecksum: /usr/local/bin/fastachecksum
+  fastaclip: /usr/local/bin/fastaclip
+  fastacomposition: /usr/local/bin/fastacomposition
+  fastadiff: /usr/local/bin/fastadiff
+  fastaexplode: /usr/local/bin/fastaexplode
+  fastafetch: /usr/local/bin/fastafetch
+  fastahardmask: /usr/local/bin/fastahardmask
+  fastaindex: /usr/local/bin/fastaindex
+  fastalength: /usr/local/bin/fastalength
+  fastanrdb: /usr/local/bin/fastanrdb
+  fastaoverlap: /usr/local/bin/fastaoverlap
+  fastareformat: /usr/local/bin/fastareformat
+  fastaremove: /usr/local/bin/fastaremove
+  fastarevcomp: /usr/local/bin/fastarevcomp
+  fastasoftmask: /usr/local/bin/fastasoftmask
+  fastasort: /usr/local/bin/fastasort
+  fastasubseq: /usr/local/bin/fastasubseq
+  fastatranslate: /usr/local/bin/fastatranslate
+  fastavalidcds: /usr/local/bin/fastavalidcds
+  ipcress: /usr/local/bin/ipcress

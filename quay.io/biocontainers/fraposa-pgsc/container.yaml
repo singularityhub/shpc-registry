@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/fraposa-pgsc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fraposa-pgsc
+latest:
+  0.1.1--pyhdfd78af_0: sha256:39481737495b15844c9257747f0f1c7dd2c58b9aeb81a7e1e540a948923d486b
+tags:
+  0.1.1--pyhdfd78af_0: sha256:39481737495b15844c9257747f0f1c7dd2c58b9aeb81a7e1e540a948923d486b
+docker: quay.io/biocontainers/fraposa-pgsc
+aliases:
+  fraposa: /usr/local/bin/fraposa
+  fraposa_plot: /usr/local/bin/fraposa_plot
+  fraposa_pred: /usr/local/bin/fraposa_pred
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  tjbench: /usr/local/bin/tjbench
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  jpgicc: /usr/local/bin/jpgicc
+  linkicc: /usr/local/bin/linkicc
+  psicc: /usr/local/bin/psicc
+  tificc: /usr/local/bin/tificc
+  transicc: /usr/local/bin/transicc

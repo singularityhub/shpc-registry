@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/pangwes
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pangwes
+latest:
+  0.2.0_alpha--h4ac6f70_0: sha256:b2d7d39eeee3e12ba9e52606c40cb76e884a44f0dc8a89051a8e00fbe3c85908
+tags:
+  0.2.0_alpha--h4ac6f70_0: sha256:b2d7d39eeee3e12ba9e52606c40cb76e884a44f0dc8a89051a8e00fbe3c85908
+docker: quay.io/biocontainers/pangwes
+aliases:
+  SpydrPick: /usr/local/bin/SpydrPick
+  cuttlefish: /usr/local/bin/cuttlefish
+  gfa1_parser: /usr/local/bin/gfa1_parser
+  gwes_plot.r: /usr/local/bin/gwes_plot.r
+  unitig_distance: /usr/local/bin/unitig_distance
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

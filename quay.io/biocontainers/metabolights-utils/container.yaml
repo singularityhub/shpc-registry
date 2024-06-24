@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/metabolights-utils
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metabolights-utils
+latest:
+  1.1.2--pyhdfd78af_0: sha256:6917710a11466c8a328166e6c89406ec9b9bc80a90285a3f04f9dedbd8e41d88
+tags:
+  1.1.2--pyhdfd78af_0: sha256:6917710a11466c8a328166e6c89406ec9b9bc80a90285a3f04f9dedbd8e41d88
+docker: quay.io/biocontainers/metabolights-utils
+aliases:
+  dotenv: /usr/local/bin/dotenv
+  jsonpath.py: /usr/local/bin/jsonpath.py
+  jsonpath_ng: /usr/local/bin/jsonpath_ng
+  mtbls: /usr/local/bin/mtbls
+  unidecode: /usr/local/bin/unidecode
+  httpx: /usr/local/bin/httpx
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  jsonschema: /usr/local/bin/jsonschema

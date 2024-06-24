@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/ciri-full
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ciri-full
+latest:
+  2.1.2--hdfd78af_0: sha256:c1fdd1ba64d5783893adb3341fb065e8f6f5979a5d58f4548dc5cbeef3e2f403
+tags:
+  2.1.2--hdfd78af_0: sha256:c1fdd1ba64d5783893adb3341fb065e8f6f5979a5d58f4548dc5cbeef3e2f403
+docker: quay.io/biocontainers/ciri-full
+aliases:
+  CIRI: /usr/local/bin/CIRI
+  CIRI-AS: /usr/local/bin/CIRI-AS
+  CIRI-AS.pl: /usr/local/bin/CIRI-AS.pl
+  CIRI-full: /usr/local/bin/CIRI-full
+  CIRI-full.jar: /usr/local/bin/CIRI-full.jar
+  CIRI.pl: /usr/local/bin/CIRI.pl
+  jwebserver: /usr/local/bin/jwebserver
+  jpackage: /usr/local/bin/jpackage
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  bwa: /usr/local/bin/bwa
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  hb-info: /usr/local/bin/hb-info
+  jfr: /usr/local/bin/jfr
+  tjbench: /usr/local/bin/tjbench
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap

@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/reads2graph
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for reads2graph
+latest:
+  1.0.0--hdbdd923_0: sha256:30e548eabb240900d5ba8562107968e890dc68dc01b504b2e20e710891263d97
+tags:
+  1.0.0--hdbdd923_0: sha256:30e548eabb240900d5ba8562107968e890dc68dc01b504b2e20e710891263d97
+docker: quay.io/biocontainers/reads2graph
+aliases:
+  reads2graph: /usr/local/bin/reads2graph
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
