@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metanovo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metanovo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metanovo/container.yaml"
-updated_at: "2024-06-23 02:59:53.739956"
-latest: "1.9.4--py39h9ee0642_5"
+updated_at: "2024-06-24 02:59:37.591279"
+latest: "1.9.4"
 container_url: "https://biocontainers.pro/tools/metanovo"
 aliases:
  - "bp_export_proteins.py"
@@ -47,8 +47,9 @@ versions:
  - "1.9.4--py39h9ee0642_5"
  - "1.9.4"
  - "1.9.4--py39h9ee0642_8"
+ - "1.9.4--py39h9ee0642_9"
 description: "singularity registry hpc automated addition for metanovo"
-config: {"url": "https://biocontainers.pro/tools/metanovo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metanovo", "latest": {"1.9.4--py39h9ee0642_5": "sha256:fe8c5c651660faf9b3bdeb4265c0c76d7429607d0df9919086351d0c5eadbad6"}, "tags": {"1.9.4--py39h9ee0642_5": "sha256:fe8c5c651660faf9b3bdeb4265c0c76d7429607d0df9919086351d0c5eadbad6", "1.9.4": "sha256:83ef7e4898dd776f3930ca7671ed1c6ec6a5befb03e798dedcda5b946f88e7ed", "1.9.4--py39h9ee0642_8": "sha256:74a13887172a475ac4f9fe92f39c7f41fa0fb59e2fe87d031ac292ea93387874"}, "docker": "quay.io/biocontainers/metanovo", "aliases": {"bp_export_proteins.py": "/usr/local/bin/bp_export_proteins.py", "bp_export_tags.py": "/usr/local/bin/bp_export_tags.py", "bp_fasta_prepare.py": "/usr/local/bin/bp_fasta_prepare.py", "bp_mapped_tags.py": "/usr/local/bin/bp_mapped_tags.py", "bp_parse_tags.py": "/usr/local/bin/bp_parse_tags.py", "compomics.sh": "/usr/local/bin/compomics.sh", "flex": "/usr/local/bin/flex", "flex++": "/usr/local/bin/flex++", "m4": "/usr/local/bin/m4", "metanovo.sh": "/usr/local/bin/metanovo.sh", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh", "env_parallel.sh": "/usr/local/bin/env_parallel.sh", "env_parallel.tcsh": "/usr/local/bin/env_parallel.tcsh", "env_parallel.zsh": "/usr/local/bin/env_parallel.zsh", "niceload": "/usr/local/bin/niceload", "parcat": "/usr/local/bin/parcat", "parset": "/usr/local/bin/parset", "sem": "/usr/local/bin/sem", "sql": "/usr/local/bin/sql", "parallel": "/usr/local/bin/parallel", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi"}}
+config: {"url": "https://biocontainers.pro/tools/metanovo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metanovo", "latest": {"1.9.4": "sha256:83ef7e4898dd776f3930ca7671ed1c6ec6a5befb03e798dedcda5b946f88e7ed"}, "tags": {"1.9.4--py39h9ee0642_5": "sha256:fe8c5c651660faf9b3bdeb4265c0c76d7429607d0df9919086351d0c5eadbad6", "1.9.4": "sha256:83ef7e4898dd776f3930ca7671ed1c6ec6a5befb03e798dedcda5b946f88e7ed", "1.9.4--py39h9ee0642_8": "sha256:74a13887172a475ac4f9fe92f39c7f41fa0fb59e2fe87d031ac292ea93387874", "1.9.4--py39h9ee0642_9": "sha256:39ba8ee745964b067027ec43c60df32b73e0e819ab7e09f097b3123c7ad3054d"}, "docker": "quay.io/biocontainers/metanovo", "aliases": {"bp_export_proteins.py": "/usr/local/bin/bp_export_proteins.py", "bp_export_tags.py": "/usr/local/bin/bp_export_tags.py", "bp_fasta_prepare.py": "/usr/local/bin/bp_fasta_prepare.py", "bp_mapped_tags.py": "/usr/local/bin/bp_mapped_tags.py", "bp_parse_tags.py": "/usr/local/bin/bp_parse_tags.py", "compomics.sh": "/usr/local/bin/compomics.sh", "flex": "/usr/local/bin/flex", "flex++": "/usr/local/bin/flex++", "m4": "/usr/local/bin/m4", "metanovo.sh": "/usr/local/bin/metanovo.sh", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh", "env_parallel.sh": "/usr/local/bin/env_parallel.sh", "env_parallel.tcsh": "/usr/local/bin/env_parallel.tcsh", "env_parallel.zsh": "/usr/local/bin/env_parallel.zsh", "niceload": "/usr/local/bin/niceload", "parcat": "/usr/local/bin/parcat", "parset": "/usr/local/bin/parset", "sem": "/usr/local/bin/sem", "sql": "/usr/local/bin/sql", "parallel": "/usr/local/bin/parallel", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metanovo.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/metanovo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metanovo:1.9.4--py39h9ee0642_5
+$ shpc install quay.io/biocontainers/metanovo:1.9.4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metanovo/1.9.4--py39h9ee0642_5
-$ module help quay.io/biocontainers/metanovo/1.9.4--py39h9ee0642_5
+$ module load quay.io/biocontainers/metanovo/1.9.4
+$ module help quay.io/biocontainers/metanovo/1.9.4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/glob2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/glob2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/glob2/container.yaml"
-updated_at: "2024-06-23 03:02:14.891898"
+updated_at: "2024-06-24 03:02:01.774121"
 latest: "0.4.1--py35_0"
 container_url: "https://biocontainers.pro/tools/glob2"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.4.1--py35_0"
 description: "shpc-registry automated BioContainers addition for glob2"
-config: {"url": "https://biocontainers.pro/tools/glob2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glob2", "latest": {"0.4.1--py35_0": "sha256:289cba62b182cda0392bec447e2efdf59d0dcedc607235a7e0b88be6950c792c"}, "tags": {"0.4.1--py35_0": "sha256:289cba62b182cda0392bec447e2efdf59d0dcedc607235a7e0b88be6950c792c"}, "docker": "quay.io/biocontainers/glob2", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/glob2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glob2", "latest": {"0.4.1--py35_0": "sha256:985717faeb1da810473c5f1192a4a1709c5516e1f6d39c11c54bcf9d5a45beda"}, "tags": {"0.4.1--py35_0": "sha256:985717faeb1da810473c5f1192a4a1709c5516e1f6d39c11c54bcf9d5a45beda"}, "docker": "quay.io/biocontainers/glob2", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/glob2.

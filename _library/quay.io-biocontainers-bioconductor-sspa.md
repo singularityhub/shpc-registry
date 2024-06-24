@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sspa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sspa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sspa/container.yaml"
-updated_at: "2024-06-23 03:09:06.247989"
+updated_at: "2024-06-24 03:08:48.838267"
 latest: "2.30.0--r40hd029910_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-sspa"
 aliases:

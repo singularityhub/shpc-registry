@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genblastg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genblastg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genblastg/container.yaml"
-updated_at: "2024-06-23 03:08:52.999635"
+updated_at: "2024-06-24 03:08:35.674513"
 latest: "1.39--1"
 container_url: "https://biocontainers.pro/tools/genblastg"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.39--1"
 description: "shpc-registry automated BioContainers addition for genblastg"
-config: {"url": "https://biocontainers.pro/tools/genblastg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genblastg", "latest": {"1.39--1": "sha256:2f1f5f2632e46840f6e2a05470493e13b52c7a86e3a4b2b218793022162f4d38"}, "tags": {"1.39--1": "sha256:2f1f5f2632e46840f6e2a05470493e13b52c7a86e3a4b2b218793022162f4d38"}, "docker": "quay.io/biocontainers/genblastg", "aliases": {"genblastG": "/usr/local/bin/genblastG", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd"}}
+config: {"url": "https://biocontainers.pro/tools/genblastg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genblastg", "latest": {"1.39--1": "sha256:18d71781be6e6120b71469f910b197a334075b62d0e28019431692f8aed946cf"}, "tags": {"1.39--1": "sha256:18d71781be6e6120b71469f910b197a334075b62d0e28019431692f8aed946cf"}, "docker": "quay.io/biocontainers/genblastg", "aliases": {"genblastG": "/usr/local/bin/genblastG", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genblastg.

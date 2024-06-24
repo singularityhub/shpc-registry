@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seqhax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqhax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqhax/container.yaml"
-updated_at: "2024-06-23 02:53:22.552250"
-latest: "0.8.6--h6ab5fc9_0"
+updated_at: "2024-06-24 02:52:57.654877"
+latest: "0.8.6--h43eeafb_1"
 container_url: "https://biocontainers.pro/tools/seqhax"
 aliases:
  - "pecheck-wrapper.py"
@@ -14,8 +14,9 @@ versions:
  - "0.7.2--h5b5514e_3"
  - "0.7.2--h43eeafb_5"
  - "0.8.6--h6ab5fc9_0"
+ - "0.8.6--h43eeafb_1"
 description: "shpc-registry automated BioContainers addition for seqhax"
-config: {"url": "https://biocontainers.pro/tools/seqhax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqhax", "latest": {"0.8.6--h6ab5fc9_0": "sha256:6ef645eefa76dcdda425402b0bd4715b32dd9c7fabd51f2efa20b641287b44ac"}, "tags": {"0.7.2--h5b5514e_3": "sha256:9ff07f67ae32efe67dbdcfc5db9960f971f491372648dacabf1d5c703cb07f51", "0.7.2--h43eeafb_5": "sha256:d9e7807c273f509194dfa59c51aff9e03aea1875e5f47598e49acf0c51f80ebb", "0.8.6--h6ab5fc9_0": "sha256:6ef645eefa76dcdda425402b0bd4715b32dd9c7fabd51f2efa20b641287b44ac"}, "docker": "quay.io/biocontainers/seqhax", "aliases": {"pecheck-wrapper.py": "/usr/local/bin/pecheck-wrapper.py", "seqhax": "/usr/local/bin/seqhax"}}
+config: {"url": "https://biocontainers.pro/tools/seqhax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqhax", "latest": {"0.8.6--h43eeafb_1": "sha256:7f5a67b939ea04db4b26661c8f877ccce6425130dbf9850aab19a5e7b02bfb01"}, "tags": {"0.7.2--h5b5514e_3": "sha256:9ff07f67ae32efe67dbdcfc5db9960f971f491372648dacabf1d5c703cb07f51", "0.7.2--h43eeafb_5": "sha256:d9e7807c273f509194dfa59c51aff9e03aea1875e5f47598e49acf0c51f80ebb", "0.8.6--h6ab5fc9_0": "sha256:6ef645eefa76dcdda425402b0bd4715b32dd9c7fabd51f2efa20b641287b44ac", "0.8.6--h43eeafb_1": "sha256:7f5a67b939ea04db4b26661c8f877ccce6425130dbf9850aab19a5e7b02bfb01"}, "docker": "quay.io/biocontainers/seqhax", "aliases": {"pecheck-wrapper.py": "/usr/local/bin/pecheck-wrapper.py", "seqhax": "/usr/local/bin/seqhax"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqhax.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/seqhax
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqhax:0.8.6--h6ab5fc9_0
+$ shpc install quay.io/biocontainers/seqhax:0.8.6--h43eeafb_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqhax/0.8.6--h6ab5fc9_0
-$ module help quay.io/biocontainers/seqhax/0.8.6--h6ab5fc9_0
+$ module load quay.io/biocontainers/seqhax/0.8.6--h43eeafb_1
+$ module help quay.io/biocontainers/seqhax/0.8.6--h43eeafb_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

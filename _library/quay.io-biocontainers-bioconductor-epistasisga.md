@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epistasisga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epistasisga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epistasisga/container.yaml"
-updated_at: "2024-06-23 03:06:03.817990"
+updated_at: "2024-06-24 03:05:48.237144"
 latest: "1.4.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epistasisga"
 aliases:

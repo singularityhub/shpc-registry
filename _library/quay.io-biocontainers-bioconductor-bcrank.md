@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bcrank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bcrank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bcrank/container.yaml"
-updated_at: "2024-06-23 03:02:49.426822"
+updated_at: "2024-06-24 03:02:35.945535"
 latest: "1.64.0--r43ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-bcrank"
 

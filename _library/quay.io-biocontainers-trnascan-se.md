@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trnascan-se"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trnascan-se/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trnascan-se/container.yaml"
-updated_at: "2024-06-23 02:46:55.158900"
+updated_at: "2024-06-24 02:46:35.610100"
 latest: "2.0.12--pl5321h031d066_0"
 container_url: "https://biocontainers.pro/tools/trnascan-se"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-http-negotiate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-http-negotiate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-http-negotiate/container.yaml"
-updated_at: "2024-06-23 03:20:23.606610"
+updated_at: "2024-06-24 03:20:22.964233"
 latest: "6.01--pl526_3"
 container_url: "https://biocontainers.pro/tools/perl-http-negotiate"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "6.01--pl526_3"
 description: "shpc-registry automated BioContainers addition for perl-http-negotiate"
-config: {"url": "https://biocontainers.pro/tools/perl-http-negotiate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-http-negotiate", "latest": {"6.01--pl526_3": "sha256:027f29875f10b9f8ba85c1614bebbff7402fa95fb53ecb1b3129dfaf98183612"}, "tags": {"6.01--pl526_3": "sha256:027f29875f10b9f8ba85c1614bebbff7402fa95fb53ecb1b3129dfaf98183612"}, "docker": "quay.io/biocontainers/perl-http-negotiate", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-http-negotiate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-http-negotiate", "latest": {"6.01--pl526_3": "sha256:94e65bd2d618fd3aa83c4ad214a636fd9418ea61074b4e4900268e8670338ce0"}, "tags": {"6.01--pl526_3": "sha256:94e65bd2d618fd3aa83c4ad214a636fd9418ea61074b4e4900268e8670338ce0"}, "docker": "quay.io/biocontainers/perl-http-negotiate", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-http-negotiate.

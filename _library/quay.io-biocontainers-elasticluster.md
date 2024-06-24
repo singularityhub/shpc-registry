@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/elasticluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/elasticluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/elasticluster/container.yaml"
-updated_at: "2024-06-23 02:57:18.981692"
+updated_at: "2024-06-24 02:56:59.564858"
 latest: "0.1.3bcbio--py27_12"
 container_url: "https://biocontainers.pro/tools/elasticluster"
 aliases:
@@ -29,7 +29,7 @@ aliases:
 versions:
  - "0.1.3bcbio--py27_12"
 description: "shpc-registry automated BioContainers addition for elasticluster"
-config: {"url": "https://biocontainers.pro/tools/elasticluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for elasticluster", "latest": {"0.1.3bcbio--py27_12": "sha256:994d66438362d28348c41066662623fe870cb6d747db0da67771ccb235ddf955"}, "tags": {"0.1.3bcbio--py27_12": "sha256:994d66438362d28348c41066662623fe870cb6d747db0da67771ccb235ddf955"}, "docker": "quay.io/biocontainers/elasticluster", "aliases": {"ansible": "/usr/local/bin/ansible", "ansible-doc": "/usr/local/bin/ansible-doc", "ansible-galaxy": "/usr/local/bin/ansible-galaxy", "ansible-playbook": "/usr/local/bin/ansible-playbook", "ansible-pull": "/usr/local/bin/ansible-pull", "ansible-vault": "/usr/local/bin/ansible-vault", "elasticluster": "/usr/local/bin/elasticluster", "gflags2man.py": "/usr/local/bin/gflags2man.py", "pyrsa-decrypt-bigfile": "/usr/local/bin/pyrsa-decrypt-bigfile", "pyrsa-encrypt-bigfile": "/usr/local/bin/pyrsa-encrypt-bigfile", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin"}}
+config: {"url": "https://biocontainers.pro/tools/elasticluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for elasticluster", "latest": {"0.1.3bcbio--py27_12": "sha256:ba6b826c888a9cb273b2591d115d200a55b5781d14b2b32be08521b10718e6d1"}, "tags": {"0.1.3bcbio--py27_12": "sha256:ba6b826c888a9cb273b2591d115d200a55b5781d14b2b32be08521b10718e6d1"}, "docker": "quay.io/biocontainers/elasticluster", "aliases": {"ansible": "/usr/local/bin/ansible", "ansible-doc": "/usr/local/bin/ansible-doc", "ansible-galaxy": "/usr/local/bin/ansible-galaxy", "ansible-playbook": "/usr/local/bin/ansible-playbook", "ansible-pull": "/usr/local/bin/ansible-pull", "ansible-vault": "/usr/local/bin/ansible-vault", "elasticluster": "/usr/local/bin/elasticluster", "gflags2man.py": "/usr/local/bin/gflags2man.py", "pyrsa-decrypt-bigfile": "/usr/local/bin/pyrsa-decrypt-bigfile", "pyrsa-encrypt-bigfile": "/usr/local/bin/pyrsa-encrypt-bigfile", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/elasticluster.

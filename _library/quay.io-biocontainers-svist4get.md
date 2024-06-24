@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svist4get"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svist4get/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svist4get/container.yaml"
-updated_at: "2024-06-23 03:05:07.391247"
+updated_at: "2024-06-24 03:04:52.676335"
 latest: "1.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/svist4get"
 aliases:
