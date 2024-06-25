@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-pscl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-pscl
 latest:
-  1.4.9--r3.3.1_0: sha256:b12dd2df7999ad700c7d42d1d031224b81c64972f515dafc63b57f7b71b3a2ba
+  1.4.9--r3.3.1_0: sha256:1f6adc2c1b19122ff3b578ca0eb07de9d00dbe7c511c93b705bbbbb657b25f78
 tags:
-  1.4.9--r3.3.1_0: sha256:b12dd2df7999ad700c7d42d1d031224b81c64972f515dafc63b57f7b71b3a2ba
-  1.4.9--r3.3.2_0: sha256:48b1ff30e6b3e9f50106930a310ee431b88f2c2ce1a608a4924fa8e6a4ebcdd5
+  1.4.9--r3.3.1_0: sha256:1f6adc2c1b19122ff3b578ca0eb07de9d00dbe7c511c93b705bbbbb657b25f78
+  1.4.9--r3.3.2_0: sha256:bb114e9c0954d4740dc6832e21be255990b162f06d989c1c4fffde4082bb3f6d
 docker: quay.io/biocontainers/r-pscl
 aliases:
   pango-querymodules: /usr/local/bin/pango-querymodules

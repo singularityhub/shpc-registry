@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-klar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-klar
 latest:
-  0.6_12--r3.3.2_0: sha256:404c6a20c8056c1c215640b28f76e6b5601baa2f8fc5c299db2f070a3d41421f
+  0.6_12--r3.3.2_0: sha256:0207ae7f107760ddf2c7b79b3bc312dcf19da7f946a33089070a8e6d3023366d
 tags:
-  0.6_12--r3.3.2_0: sha256:404c6a20c8056c1c215640b28f76e6b5601baa2f8fc5c299db2f070a3d41421f
+  0.6_12--r3.3.2_0: sha256:0207ae7f107760ddf2c7b79b3bc312dcf19da7f946a33089070a8e6d3023366d
+  0.6_12--r3.3.1_0: sha256:d0bed89a448e40d024a01b5a906f68f43d1ec7b66e35c72659039a523a50e31f
 docker: quay.io/biocontainers/r-klar
 aliases:
   uconv: /usr/local/bin/uconv

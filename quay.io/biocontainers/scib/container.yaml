@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/scib
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scib
 latest:
-  1.1.5--py39h1f90b4d_0: sha256:c4d33fa1c625fa061ba8e8d7eae97f22e951ab2daf56d8f48b4b337f4af92077
+  1.1.5--py311h2a4ad6c_1: sha256:452a033af284710a9084aea1d03de5f01cabfe595de079440e0202d9a52eac75
 tags:
   1.1.4--py38h2494328_0: sha256:91a487df92fc00c6a50bd23ac8b07ee58e1195c801a3ebe014bb4dfaeaa5951a
   1.1.4--py310h0dbaff4_0: sha256:5525b76a5f38462f692ceccf88121cfccff3cdd1abf4d8fc3b4d5a6d1288e3a7
   1.1.5--py39h1f90b4d_0: sha256:c4d33fa1c625fa061ba8e8d7eae97f22e951ab2daf56d8f48b4b337f4af92077
+  1.1.5--py311h2a4ad6c_1: sha256:452a033af284710a9084aea1d03de5f01cabfe595de079440e0202d9a52eac75
 docker: quay.io/biocontainers/scib
 aliases:
   h5tools_test_utils: /usr/local/bin/h5tools_test_utils

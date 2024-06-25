@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-progress
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-progress
 latest:
-  1.0.2--r3.3.1_0: sha256:bfd973cdc5e3b611e9a9a9a77b0f2c76a328ea552399e308927fffe96688216f
+  1.0.2--r3.3.1_0: sha256:88c13955916724160b30224fbb2b84106b7c2ae6dbe280580723c9f63ea2fe04
 tags:
-  1.0.2--r3.3.1_0: sha256:bfd973cdc5e3b611e9a9a9a77b0f2c76a328ea552399e308927fffe96688216f
-  1.0.2--r3.3.2_0: sha256:eafbcfd8ce22ae6f5e783c793ee1564061fded750c88abd5dfe6890ac3d8dcc2
+  1.0.2--r3.3.1_0: sha256:88c13955916724160b30224fbb2b84106b7c2ae6dbe280580723c9f63ea2fe04
+  1.0.2--r3.3.2_0: sha256:e2ca6c14696646e01ad3f5f0a37eb1f42bff9870c18dbe87d7fef79f71905648
 docker: quay.io/biocontainers/r-progress
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

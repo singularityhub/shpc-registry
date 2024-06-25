@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/manormfast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for manormfast
 latest:
-  0.1.2--py36_1: sha256:ffc4a0b6926311eb4892f9937e6475b83eaac3ce55eb285c0acd0b2ec3f0f1b1
+  0.1.2--py36_1: sha256:e262c65793eb65aeedde64a11dc13755de147c2859fe0f36ac827b851c693415
 tags:
-  0.1.2--py36_1: sha256:ffc4a0b6926311eb4892f9937e6475b83eaac3ce55eb285c0acd0b2ec3f0f1b1
+  0.1.2--py36_1: sha256:e262c65793eb65aeedde64a11dc13755de147c2859fe0f36ac827b851c693415
+  0.1.2--py27_1: sha256:78c782d9891933810fa7a4daf16d935a7323cfb7337302dd4cf042a85bbd8a3c
 docker: quay.io/biocontainers/manormfast
 aliases:
   MAnormFast: /usr/local/bin/MAnormFast

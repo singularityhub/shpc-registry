@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/myriad
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for myriad
 latest:
-  0.1.4--py27_0: sha256:b7af5c52a2c304e7c7b7506c5ec80ebf083faaceff05b20a852e347098bd89eb
+  0.1.4--py27_0: sha256:0c825006c9869cbfe40ad627e9848de98e3ca3f8ad8f15c8461795a4c3430761
 tags:
-  0.1.4--py27_0: sha256:b7af5c52a2c304e7c7b7506c5ec80ebf083faaceff05b20a852e347098bd89eb
+  0.1.4--py27_0: sha256:0c825006c9869cbfe40ad627e9848de98e3ca3f8ad8f15c8461795a4c3430761
 docker: quay.io/biocontainers/myriad
 aliases:
   myriad: /usr/local/bin/myriad

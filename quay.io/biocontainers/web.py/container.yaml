@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/web.py
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for web.py
 latest:
-  0.37--py27_1: sha256:6ea2c11e55cdb3c79ebd0976d0cd6ebd1d1e5682a29dfe552c5fd2999b4f4b84
+  0.37--py27_1: sha256:fb897f237e03805affb2411c20769f8ee9d345857a593d16fbdab5719f0c96ab
 tags:
-  0.37--py27_1: sha256:6ea2c11e55cdb3c79ebd0976d0cd6ebd1d1e5682a29dfe552c5fd2999b4f4b84
+  0.37--py27_1: sha256:fb897f237e03805affb2411c20769f8ee9d345857a593d16fbdab5719f0c96ab
 docker: quay.io/biocontainers/web.py
 aliases:
   smtpd.pyc: /usr/local/bin/smtpd.pyc

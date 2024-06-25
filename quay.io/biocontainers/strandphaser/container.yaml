@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/strandphaser
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for strandphaser
 latest:
-  1.0.2--r42hdfd78af_0: sha256:d8386c1b75329bd1a0aced6f8628905e3431b49afa6f40c23158b0f22271e78e
+  1.0.2--r43hdfd78af_1: sha256:a0b8212f4e8d73765f1c8b76ef590ed5501d82b19f5938f00430d33849b7e473
 tags:
   1.0.0--r41hdfd78af_0: sha256:494a35b6be5692ae789f7cd36c1752e246a2eb77d2472d3cd5427de62b1b8398
   1.0.0--r42hdfd78af_1: sha256:eb180559c14d3019fcf53f60997a5203379463e267b73dcb70c09f4b764ae571
   1.0.2--r42hdfd78af_0: sha256:d8386c1b75329bd1a0aced6f8628905e3431b49afa6f40c23158b0f22271e78e
+  1.0.2--r43hdfd78af_1: sha256:a0b8212f4e8d73765f1c8b76ef590ed5501d82b19f5938f00430d33849b7e473
 docker: quay.io/biocontainers/strandphaser

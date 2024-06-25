@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-readbrukerflexdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-readbrukerflexdata
 latest:
-  1.8.5--r3.4.1_0: sha256:419f9e5869e52f5f56b9512e8405be13262d0fb4636b373a379c3e6b73a2a9d4
+  1.8.5--r3.4.1_0: sha256:36a228bff3507f1eae612616b4d60b2899ab10b8c5bdf628e9c3e7d499ef15c2
 tags:
-  1.8.5--r3.4.1_0: sha256:419f9e5869e52f5f56b9512e8405be13262d0fb4636b373a379c3e6b73a2a9d4
+  1.8.5--r3.4.1_0: sha256:36a228bff3507f1eae612616b4d60b2899ab10b8c5bdf628e9c3e7d499ef15c2
 docker: quay.io/biocontainers/r-readbrukerflexdata
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

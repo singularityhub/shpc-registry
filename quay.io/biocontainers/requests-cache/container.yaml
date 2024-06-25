@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/requests-cache
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for requests-cache
 latest:
-  0.4.10--py35_0: sha256:22add512238bc474ec8ce6ed9ed35628bfc17beb80c3f586ae6e3543092c0220
+  0.4.10--py35_0: sha256:60a57684ada0ca87c127225407eea3bea692b376f376fe15dad8b62055ca63a8
 tags:
-  0.4.10--py35_0: sha256:22add512238bc474ec8ce6ed9ed35628bfc17beb80c3f586ae6e3543092c0220
-  0.4.10--py36_0: sha256:d1765625c4975bb8b83a647de6f534e07e0b57da9f72052091ce9cbad88e3e4c
+  0.4.10--py35_0: sha256:60a57684ada0ca87c127225407eea3bea692b376f376fe15dad8b62055ca63a8
+  0.4.10--py36_0: sha256:99180a63deb2ae1177bd8d30c8c150cad3bca55f3cabdd8fa536f00c19fd9b46
 docker: quay.io/biocontainers/requests-cache
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

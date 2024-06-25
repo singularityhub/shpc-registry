@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/ms2rescore-rs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ms2rescore-rs
 latest:
-  0.2.0--py39h801753a_0: sha256:9661fda435b0ca52dbe051f4fc93fae40520a1fd65df38122707a84c8655f68b
+  0.2.0--py311hff4e47f_1: sha256:150ad35c27170c3b85a76cc98d2af0c0f6f83479f7df6b60fc7d4a3126d26478
 tags:
   0.2.0--py39h801753a_0: sha256:9661fda435b0ca52dbe051f4fc93fae40520a1fd65df38122707a84c8655f68b
   0.2.0--py310h28e8315_0: sha256:5adfcdbe5ac9233a1643ad6d95686f0309f5d78b32769cd2d6658fd3bfc108ad
+  0.2.0--py311hff4e47f_1: sha256:150ad35c27170c3b85a76cc98d2af0c0f6f83479f7df6b60fc7d4a3126d26478
 docker: quay.io/biocontainers/ms2rescore-rs
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9
