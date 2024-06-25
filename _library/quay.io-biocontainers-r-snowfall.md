@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-snowfall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-snowfall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-snowfall/container.yaml"
-updated_at: "2024-06-24 03:16:27.662258"
+updated_at: "2024-06-25 02:49:27.884849"
 latest: "1.84_6.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-snowfall"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.84_6.1--r3.2.2_0"
  - "1.84_6.1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-snowfall"
-config: {"url": "https://biocontainers.pro/tools/r-snowfall", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-snowfall", "latest": {"1.84_6.1--r3.2.2_0": "sha256:591209580ca6312c672bf06c4976caa263382fbe315295a3f5ee8dded6dea810"}, "tags": {"1.84_6.1--r3.2.2_0": "sha256:591209580ca6312c672bf06c4976caa263382fbe315295a3f5ee8dded6dea810", "1.84_6.1--r3.3.2_0": "sha256:d99af429ae22f3e4ea27715e4568c23f057c36cbf1f06f1dc2aeaa21e6aa9f8d"}, "docker": "quay.io/biocontainers/r-snowfall", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-snowfall", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-snowfall", "latest": {"1.84_6.1--r3.2.2_0": "sha256:dc28a1243b72b5e090f47c9eb0efceef03bbb847f8aa1ab5050f83431893fcdb"}, "tags": {"1.84_6.1--r3.2.2_0": "sha256:dc28a1243b72b5e090f47c9eb0efceef03bbb847f8aa1ab5050f83431893fcdb", "1.84_6.1--r3.3.2_0": "sha256:d51e36814fc40b6da03cd637e754f2bd19631f54587a62f71c9a452f5942aec7"}, "docker": "quay.io/biocontainers/r-snowfall", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-snowfall.

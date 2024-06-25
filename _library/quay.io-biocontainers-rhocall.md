@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rhocall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rhocall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rhocall/container.yaml"
-updated_at: "2024-06-24 03:01:58.116454"
-latest: "0.5.1--py38he5da3d1_2"
+updated_at: "2024-06-25 02:34:55.216050"
+latest: "0.5.1--py311hdad781d_3"
 container_url: "https://biocontainers.pro/tools/rhocall"
 aliases:
  - "rhocall"
@@ -23,8 +23,9 @@ versions:
  - "0.5.1--py39hbf8eff0_1"
  - "0.5.1--py38he5da3d1_2"
  - "0.5.1--py310h4b81fae_2"
+ - "0.5.1--py311hdad781d_3"
 description: "shpc-registry automated BioContainers addition for rhocall"
-config: {"url": "https://biocontainers.pro/tools/rhocall", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rhocall", "latest": {"0.5.1--py38he5da3d1_2": "sha256:49ed6c73dc108c696e3a9596c7ec0cc711cb5287ab933302cc9f9e24fdd44df8"}, "tags": {"0.5.1--py39hbf8eff0_1": "sha256:38c8deb8e5c0c6c043e9d542ff8bfa3ce0d339c7a9258d7c5c0c4d4f6b508665", "0.5.1--py38he5da3d1_2": "sha256:49ed6c73dc108c696e3a9596c7ec0cc711cb5287ab933302cc9f9e24fdd44df8", "0.5.1--py310h4b81fae_2": "sha256:2611017e49484defe6b9d35fcd86c4cb9705b1c8267da1a7e1f193fe58aed2c4"}, "docker": "quay.io/biocontainers/rhocall", "aliases": {"rhocall": "/usr/local/bin/rhocall", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress"}}
+config: {"url": "https://biocontainers.pro/tools/rhocall", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rhocall", "latest": {"0.5.1--py311hdad781d_3": "sha256:d8924b137f5a25caaac10fa45fdec4e8665d4d67fcc14c19b05621de54a10fb9"}, "tags": {"0.5.1--py39hbf8eff0_1": "sha256:38c8deb8e5c0c6c043e9d542ff8bfa3ce0d339c7a9258d7c5c0c4d4f6b508665", "0.5.1--py38he5da3d1_2": "sha256:49ed6c73dc108c696e3a9596c7ec0cc711cb5287ab933302cc9f9e24fdd44df8", "0.5.1--py310h4b81fae_2": "sha256:2611017e49484defe6b9d35fcd86c4cb9705b1c8267da1a7e1f193fe58aed2c4", "0.5.1--py311hdad781d_3": "sha256:d8924b137f5a25caaac10fa45fdec4e8665d4d67fcc14c19b05621de54a10fb9"}, "docker": "quay.io/biocontainers/rhocall", "aliases": {"rhocall": "/usr/local/bin/rhocall", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rhocall.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/rhocall
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rhocall:0.5.1--py38he5da3d1_2
+$ shpc install quay.io/biocontainers/rhocall:0.5.1--py311hdad781d_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rhocall/0.5.1--py38he5da3d1_2
-$ module help quay.io/biocontainers/rhocall/0.5.1--py38he5da3d1_2
+$ module load quay.io/biocontainers/rhocall/0.5.1--py311hdad781d_3
+$ module help quay.io/biocontainers/rhocall/0.5.1--py311hdad781d_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fisher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fisher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fisher/container.yaml"
-updated_at: "2024-06-24 03:19:25.265489"
+updated_at: "2024-06-25 02:52:28.651137"
 latest: "0.1.4--py27h24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/fisher"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.1.4--py27h24bf2e0_1"
 description: "shpc-registry automated BioContainers addition for fisher"
-config: {"url": "https://biocontainers.pro/tools/fisher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fisher", "latest": {"0.1.4--py27h24bf2e0_1": "sha256:8ee37209ce112161a7a48c90928dd948d6a9ed1ffedeb20c2b8f074308e939ae"}, "tags": {"0.1.4--py27h24bf2e0_1": "sha256:8ee37209ce112161a7a48c90928dd948d6a9ed1ffedeb20c2b8f074308e939ae"}, "docker": "quay.io/biocontainers/fisher", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/fisher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fisher", "latest": {"0.1.4--py27h24bf2e0_1": "sha256:7dd3eb6bf2e8fb2ce80bcc33d1c2cd5aed058b7c393307b3760aa8ffcf0b6397"}, "tags": {"0.1.4--py27h24bf2e0_1": "sha256:7dd3eb6bf2e8fb2ce80bcc33d1c2cd5aed058b7c393307b3760aa8ffcf0b6397"}, "docker": "quay.io/biocontainers/fisher", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fisher.

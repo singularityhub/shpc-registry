@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ete2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ete2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ete2/container.yaml"
-updated_at: "2024-06-24 03:11:56.691986"
+updated_at: "2024-06-25 02:44:55.314665"
 latest: "2.3.10--py_4"
 container_url: "https://biocontainers.pro/tools/ete2"
 aliases:
@@ -30,7 +30,7 @@ aliases:
 versions:
  - "2.3.10--py_4"
 description: "shpc-registry automated BioContainers addition for ete2"
-config: {"url": "https://biocontainers.pro/tools/ete2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ete2", "latest": {"2.3.10--py_4": "sha256:eb1498e07f228fe78fa3a18143e1d085e37eae0bd78a559aed84a504a86816b0"}, "tags": {"2.3.10--py_4": "sha256:eb1498e07f228fe78fa3a18143e1d085e37eae0bd78a559aed84a504a86816b0"}, "docker": "quay.io/biocontainers/ete2", "aliases": {"ete": "/usr/local/bin/ete", "pylupdate4": "/usr/local/bin/pylupdate4", "pyrcc4": "/usr/local/bin/pyrcc4", "pyuic4": "/usr/local/bin/pyuic4", "qdoc3": "/usr/local/bin/qdoc3", "qmlviewer": "/usr/local/bin/qmlviewer", "qt3to4": "/usr/local/bin/qt3to4", "qtconfig": "/usr/local/bin/qtconfig", "qttracereplay": "/usr/local/bin/qttracereplay", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "sip": "/usr/local/bin/sip", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "assistant": "/usr/local/bin/assistant"}}
+config: {"url": "https://biocontainers.pro/tools/ete2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ete2", "latest": {"2.3.10--py_4": "sha256:e14ec2294b170fc6f34e7ce5c36c3cc4698d206b623457eb91f0474275ba16e0"}, "tags": {"2.3.10--py_4": "sha256:e14ec2294b170fc6f34e7ce5c36c3cc4698d206b623457eb91f0474275ba16e0"}, "docker": "quay.io/biocontainers/ete2", "aliases": {"ete": "/usr/local/bin/ete", "pylupdate4": "/usr/local/bin/pylupdate4", "pyrcc4": "/usr/local/bin/pyrcc4", "pyuic4": "/usr/local/bin/pyuic4", "qdoc3": "/usr/local/bin/qdoc3", "qmlviewer": "/usr/local/bin/qmlviewer", "qt3to4": "/usr/local/bin/qt3to4", "qtconfig": "/usr/local/bin/qtconfig", "qttracereplay": "/usr/local/bin/qttracereplay", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "sip": "/usr/local/bin/sip", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "assistant": "/usr/local/bin/assistant"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ete2.

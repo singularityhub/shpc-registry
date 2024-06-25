@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/amplisim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amplisim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amplisim/container.yaml"
-updated_at: "2024-06-24 03:29:32.098038"
-latest: "0.2.1--h77de753_0"
+updated_at: "2024-06-25 03:02:37.219017"
+latest: "0.2.1--h3e2e0a8_1"
 container_url: "https://biocontainers.pro/tools/amplisim"
 aliases:
  - "amplisim"
 versions:
  - "0.2.1--h77de753_0"
+ - "0.2.1--h3e2e0a8_1"
 description: "singularity registry hpc automated addition for amplisim"
-config: {"url": "https://biocontainers.pro/tools/amplisim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amplisim", "latest": {"0.2.1--h77de753_0": "sha256:f598183be49b0f5787c8df70a06585acb551f7582a28d203822a502311b46ba7"}, "tags": {"0.2.1--h77de753_0": "sha256:f598183be49b0f5787c8df70a06585acb551f7582a28d203822a502311b46ba7"}, "docker": "quay.io/biocontainers/amplisim", "aliases": {"amplisim": "/usr/local/bin/amplisim"}}
+config: {"url": "https://biocontainers.pro/tools/amplisim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amplisim", "latest": {"0.2.1--h3e2e0a8_1": "sha256:be7360f5c890f595dd88bad58e2d95a0123cd8bfb4595c24830bba626fcbadd6"}, "tags": {"0.2.1--h77de753_0": "sha256:f598183be49b0f5787c8df70a06585acb551f7582a28d203822a502311b46ba7", "0.2.1--h3e2e0a8_1": "sha256:be7360f5c890f595dd88bad58e2d95a0123cd8bfb4595c24830bba626fcbadd6"}, "docker": "quay.io/biocontainers/amplisim", "aliases": {"amplisim": "/usr/local/bin/amplisim"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/amplisim.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/amplisim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/amplisim:0.2.1--h77de753_0
+$ shpc install quay.io/biocontainers/amplisim:0.2.1--h3e2e0a8_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/amplisim/0.2.1--h77de753_0
-$ module help quay.io/biocontainers/amplisim/0.2.1--h77de753_0
+$ module load quay.io/biocontainers/amplisim/0.2.1--h3e2e0a8_1
+$ module help quay.io/biocontainers/amplisim/0.2.1--h3e2e0a8_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

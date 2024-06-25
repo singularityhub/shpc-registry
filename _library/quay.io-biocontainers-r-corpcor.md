@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-corpcor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-corpcor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-corpcor/container.yaml"
-updated_at: "2024-06-24 03:36:19.088445"
+updated_at: "2024-06-25 03:09:39.706293"
 latest: "1.6.8--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-corpcor"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.6.8--r3.2.2_0"
  - "1.6.8--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-corpcor"
-config: {"url": "https://biocontainers.pro/tools/r-corpcor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-corpcor", "latest": {"1.6.8--r3.2.2_0": "sha256:4a785d8583bc6b013af813e8b51d6d952c3e1ec32b5853d5433741be201961bb"}, "tags": {"1.6.8--r3.2.2_0": "sha256:4a785d8583bc6b013af813e8b51d6d952c3e1ec32b5853d5433741be201961bb", "1.6.8--r3.3.2_0": "sha256:a9d285df9ea1cb0ad68237576fd3291b54bf2b361dc4a9a53820a6be26c78a32"}, "docker": "quay.io/biocontainers/r-corpcor", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-corpcor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-corpcor", "latest": {"1.6.8--r3.2.2_0": "sha256:2e9f1d309d4a32078ddf05fb3c22e2ccecd0a84db378a575cf29da8847235656"}, "tags": {"1.6.8--r3.2.2_0": "sha256:2e9f1d309d4a32078ddf05fb3c22e2ccecd0a84db378a575cf29da8847235656", "1.6.8--r3.3.2_0": "sha256:64e0c7ca016da37ab2a1f788b734cad2120372529889e3fb162acc3327b616a4"}, "docker": "quay.io/biocontainers/r-corpcor", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-corpcor.

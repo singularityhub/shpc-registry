@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-recount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-recount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-recount/container.yaml"
-updated_at: "2024-06-24 03:24:18.208635"
+updated_at: "2024-06-25 02:57:21.708713"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-recount"
 

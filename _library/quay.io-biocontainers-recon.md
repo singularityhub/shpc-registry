@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/recon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recon/container.yaml"
-updated_at: "2024-06-24 03:29:02.341485"
+updated_at: "2024-06-25 03:02:06.988674"
 latest: "1.08--h031d066_7"
 container_url: "https://biocontainers.pro/tools/recon"
 aliases:
@@ -17,8 +17,9 @@ versions:
  - "1.08--hec16e2b_4"
  - "1.08--h031d066_6"
  - "1.08--h031d066_7"
+ - "1.08--h8a409c4_7"
 description: "shpc-registry automated BioContainers addition for recon"
-config: {"url": "https://biocontainers.pro/tools/recon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for recon", "latest": {"1.08--h031d066_7": "sha256:7df67c477f3fa9b4f81ba57b2461bd73fc4cf07bb99d9a06b4aabf61900022f9"}, "tags": {"1.08--hec16e2b_4": "sha256:574ca009a2637d0ca0b94c8d27b14ee43ad5fd8c3504e68d69b4e8cc0e21ddcb", "1.08--h031d066_6": "sha256:e1be8ca1d58394331349516ff8f7e1ccb3295e284666d946f53b7bdeb41335e2", "1.08--h031d066_7": "sha256:7df67c477f3fa9b4f81ba57b2461bd73fc4cf07bb99d9a06b4aabf61900022f9"}, "docker": "quay.io/biocontainers/recon", "aliases": {"edgeredef": "/usr/local/bin/edgeredef", "eledef": "/usr/local/bin/eledef", "eleredef": "/usr/local/bin/eleredef", "famdef": "/usr/local/bin/famdef", "imagespread": "/usr/local/bin/imagespread"}}
+config: {"url": "https://biocontainers.pro/tools/recon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for recon", "latest": {"1.08--h031d066_7": "sha256:7df67c477f3fa9b4f81ba57b2461bd73fc4cf07bb99d9a06b4aabf61900022f9"}, "tags": {"1.08--hec16e2b_4": "sha256:574ca009a2637d0ca0b94c8d27b14ee43ad5fd8c3504e68d69b4e8cc0e21ddcb", "1.08--h031d066_6": "sha256:e1be8ca1d58394331349516ff8f7e1ccb3295e284666d946f53b7bdeb41335e2", "1.08--h031d066_7": "sha256:7df67c477f3fa9b4f81ba57b2461bd73fc4cf07bb99d9a06b4aabf61900022f9", "1.08--h8a409c4_7": "sha256:4d7e17e7e6bf6ff6a6d4736c7d39bbea8af3cacd9d033f72a9757804d365a7c0"}, "docker": "quay.io/biocontainers/recon", "aliases": {"edgeredef": "/usr/local/bin/edgeredef", "eledef": "/usr/local/bin/eledef", "eleredef": "/usr/local/bin/eleredef", "famdef": "/usr/local/bin/famdef", "imagespread": "/usr/local/bin/imagespread"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/recon.

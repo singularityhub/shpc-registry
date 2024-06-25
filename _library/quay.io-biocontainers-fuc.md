@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fuc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fuc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fuc/container.yaml"
-updated_at: "2024-06-24 03:33:32.128306"
-latest: "0.37.0--pyh7cba7a3_0"
+updated_at: "2024-06-25 03:06:45.591593"
+latest: "0.38.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/fuc"
 aliases:
  - "fuc"
@@ -27,8 +27,9 @@ versions:
  - "0.33.1--pyh5e36f6f_0"
  - "0.32.0--pyh5e36f6f_0"
  - "0.37.0--pyh7cba7a3_0"
+ - "0.38.0--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for fuc"
-config: {"url": "https://biocontainers.pro/tools/fuc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fuc", "latest": {"0.37.0--pyh7cba7a3_0": "sha256:f056c0b0db67e1e714b3129545c44ce5c9355ec97b2923322fc2ebef151503ce"}, "tags": {"0.9.0--pyh5e36f6f_0": "sha256:483a1c3e35eb1653ef635d93fca4c17ab9bd787302967177c5bd176a48a190af", "0.36.0--pyh5e36f6f_0": "sha256:26ed9446f1bbe96fb72f0e05c378a0cb76eb7f35ae15ac091f7e8af7576857d3", "0.35.0--pyh5e36f6f_0": "sha256:9113b4a6bcf6e404e5907b373f7188c22a8db1e95c354ce487d83c91c2e0562a", "0.34.0--pyh5e36f6f_0": "sha256:943592f2da83decdcec4df86d3f31cabfd0839749c60f782676564199179ed09", "0.33.1--pyh5e36f6f_0": "sha256:aa7dbe054bc0a250daee81328a8841af3d5bf8dd9cec990b813ff756db590750", "0.32.0--pyh5e36f6f_0": "sha256:be45359dbbb969b18b55dd895971f1c31a928e05c0b74de6fb43d72a82d8ff6c", "0.37.0--pyh7cba7a3_0": "sha256:f056c0b0db67e1e714b3129545c44ce5c9355ec97b2923322fc2ebef151503ce"}, "docker": "quay.io/biocontainers/fuc", "aliases": {"fuc": "/usr/local/bin/fuc", "tabulate": "/usr/local/bin/tabulate", "natsort": "/usr/local/bin/natsort", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9"}}
+config: {"url": "https://biocontainers.pro/tools/fuc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fuc", "latest": {"0.38.0--pyh7e72e81_0": "sha256:3c01bfaf6e8200f1dd7ed0a610a985aee6e074f4dda2714ad57ca156f8d27408"}, "tags": {"0.9.0--pyh5e36f6f_0": "sha256:483a1c3e35eb1653ef635d93fca4c17ab9bd787302967177c5bd176a48a190af", "0.36.0--pyh5e36f6f_0": "sha256:26ed9446f1bbe96fb72f0e05c378a0cb76eb7f35ae15ac091f7e8af7576857d3", "0.35.0--pyh5e36f6f_0": "sha256:9113b4a6bcf6e404e5907b373f7188c22a8db1e95c354ce487d83c91c2e0562a", "0.34.0--pyh5e36f6f_0": "sha256:943592f2da83decdcec4df86d3f31cabfd0839749c60f782676564199179ed09", "0.33.1--pyh5e36f6f_0": "sha256:aa7dbe054bc0a250daee81328a8841af3d5bf8dd9cec990b813ff756db590750", "0.32.0--pyh5e36f6f_0": "sha256:be45359dbbb969b18b55dd895971f1c31a928e05c0b74de6fb43d72a82d8ff6c", "0.37.0--pyh7cba7a3_0": "sha256:f056c0b0db67e1e714b3129545c44ce5c9355ec97b2923322fc2ebef151503ce", "0.38.0--pyh7e72e81_0": "sha256:3c01bfaf6e8200f1dd7ed0a610a985aee6e074f4dda2714ad57ca156f8d27408"}, "docker": "quay.io/biocontainers/fuc", "aliases": {"fuc": "/usr/local/bin/fuc", "tabulate": "/usr/local/bin/tabulate", "natsort": "/usr/local/bin/natsort", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fuc.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/fuc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fuc:0.37.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/fuc:0.38.0--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fuc/0.37.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/fuc/0.37.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/fuc/0.38.0--pyh7e72e81_0
+$ module help quay.io/biocontainers/fuc/0.38.0--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

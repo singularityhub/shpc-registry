@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cghnormaliter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cghnormaliter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cghnormaliter/container.yaml"
-updated_at: "2024-06-24 03:03:32.655060"
+updated_at: "2024-06-25 02:36:33.341128"
 latest: "1.56.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cghnormaliter"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ceas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ceas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ceas/container.yaml"
-updated_at: "2024-06-24 03:36:42.566425"
+updated_at: "2024-06-25 03:10:04.712095"
 latest: "1.0.2--py_2"
 container_url: "https://biocontainers.pro/tools/ceas"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "1.0.2--py_2"
 description: "shpc-registry automated BioContainers addition for ceas"
-config: {"url": "https://biocontainers.pro/tools/ceas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ceas", "latest": {"1.0.2--py_2": "sha256:79304f3273a34733415b22e465a12179288883b8c717c0eb1ca3e425342dbe7c"}, "tags": {"1.0.2--py_2": "sha256:79304f3273a34733415b22e465a12179288883b8c717c0eb1ca3e425342dbe7c"}, "docker": "quay.io/biocontainers/ceas", "aliases": {"build_genomeBG": "/usr/local/bin/build_genomeBG", "ceas": "/usr/local/bin/ceas", "gca": "/usr/local/bin/gca", "sitepro": "/usr/local/bin/sitepro", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/ceas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ceas", "latest": {"1.0.2--py_2": "sha256:17e8efafafdd764303eebe3011f257e5afaec4090512f1c8c33b3a68fcebbdcc"}, "tags": {"1.0.2--py_2": "sha256:17e8efafafdd764303eebe3011f257e5afaec4090512f1c8c33b3a68fcebbdcc"}, "docker": "quay.io/biocontainers/ceas", "aliases": {"build_genomeBG": "/usr/local/bin/build_genomeBG", "ceas": "/usr/local/bin/ceas", "gca": "/usr/local/bin/gca", "sitepro": "/usr/local/bin/sitepro", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ceas.

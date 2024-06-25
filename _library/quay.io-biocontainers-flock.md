@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flock/container.yaml"
-updated_at: "2024-06-24 03:37:13.335621"
+updated_at: "2024-06-25 03:10:37.273356"
 latest: "1.0--h470a237_2"
 container_url: "https://biocontainers.pro/tools/flock"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.0--h470a237_2"
 description: "shpc-registry automated BioContainers addition for flock"
-config: {"url": "https://biocontainers.pro/tools/flock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flock", "latest": {"1.0--h470a237_2": "sha256:ec41076e80b9d6da5cc1e83aa7fca3358f0e53451729a48f03cb9a85b277e44c"}, "tags": {"1.0--h470a237_2": "sha256:ec41076e80b9d6da5cc1e83aa7fca3358f0e53451729a48f03cb9a85b277e44c"}, "docker": "quay.io/biocontainers/flock", "aliases": {"cent_adjust": "/usr/local/bin/cent_adjust", "flock1": "/usr/local/bin/flock1", "flock2": "/usr/local/bin/flock2"}}
+config: {"url": "https://biocontainers.pro/tools/flock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flock", "latest": {"1.0--h470a237_2": "sha256:13a9138efa512c2936d34eb5f5a5b191302e45a25892c8a89a5ce5c828908cf4"}, "tags": {"1.0--h470a237_2": "sha256:13a9138efa512c2936d34eb5f5a5b191302e45a25892c8a89a5ce5c828908cf4"}, "docker": "quay.io/biocontainers/flock", "aliases": {"cent_adjust": "/usr/local/bin/cent_adjust", "flock1": "/usr/local/bin/flock1", "flock2": "/usr/local/bin/flock2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flock.

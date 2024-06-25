@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/sciphi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sciphi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sciphi/container.yaml"
-updated_at: "2024-06-24 03:14:09.039778"
-latest: "0.1.7--h21ec9f0_4"
+updated_at: "2024-06-25 02:47:07.267728"
+latest: "0.1.7--hdcf5f25_5"
 container_url: "https://biocontainers.pro/tools/sciphi"
 aliases:
  - "sciphi"
 versions:
  - "0.1.7--h7ff8a90_2"
  - "0.1.7--h21ec9f0_4"
+ - "0.1.7--hdcf5f25_5"
 description: "shpc-registry automated BioContainers addition for sciphi"
-config: {"url": "https://biocontainers.pro/tools/sciphi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sciphi", "latest": {"0.1.7--h21ec9f0_4": "sha256:069942c49e0b97b2234fc8d8e8482903e9d3fae51395c697cfe3e437abf2cd26"}, "tags": {"0.1.7--h7ff8a90_2": "sha256:3d8b40615a2df11ce4bed696f2d4b3f98c31a706c4dbfda37f42db5b508a72b6", "0.1.7--h21ec9f0_4": "sha256:069942c49e0b97b2234fc8d8e8482903e9d3fae51395c697cfe3e437abf2cd26"}, "docker": "quay.io/biocontainers/sciphi", "aliases": {"sciphi": "/usr/local/bin/sciphi"}}
+config: {"url": "https://biocontainers.pro/tools/sciphi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sciphi", "latest": {"0.1.7--hdcf5f25_5": "sha256:373da7947d9e926af836afd8e48f703632cb9d41dd00cbac9e6168e756c8ca95"}, "tags": {"0.1.7--h7ff8a90_2": "sha256:3d8b40615a2df11ce4bed696f2d4b3f98c31a706c4dbfda37f42db5b508a72b6", "0.1.7--h21ec9f0_4": "sha256:069942c49e0b97b2234fc8d8e8482903e9d3fae51395c697cfe3e437abf2cd26", "0.1.7--hdcf5f25_5": "sha256:373da7947d9e926af836afd8e48f703632cb9d41dd00cbac9e6168e756c8ca95"}, "docker": "quay.io/biocontainers/sciphi", "aliases": {"sciphi": "/usr/local/bin/sciphi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sciphi.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/sciphi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sciphi:0.1.7--h21ec9f0_4
+$ shpc install quay.io/biocontainers/sciphi:0.1.7--hdcf5f25_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sciphi/0.1.7--h21ec9f0_4
-$ module help quay.io/biocontainers/sciphi/0.1.7--h21ec9f0_4
+$ module load quay.io/biocontainers/sciphi/0.1.7--hdcf5f25_5
+$ module help quay.io/biocontainers/sciphi/0.1.7--hdcf5f25_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

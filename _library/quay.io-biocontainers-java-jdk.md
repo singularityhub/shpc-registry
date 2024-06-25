@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/java-jdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/java-jdk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/java-jdk/container.yaml"
-updated_at: "2024-06-24 03:16:52.901146"
+updated_at: "2024-06-25 02:49:53.941793"
 latest: "8.0.112--1"
 container_url: "https://biocontainers.pro/tools/java-jdk"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "8.0.92--1"
  - "8.0.112--1"
 description: "shpc-registry automated BioContainers addition for java-jdk"
-config: {"url": "https://biocontainers.pro/tools/java-jdk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for java-jdk", "latest": {"8.0.112--1": "sha256:cecfa7a650eec0a368f3e1a36f21f98be7c353fcf66df9d90345a2313e865a4b"}, "tags": {"8.0.92--1": "sha256:ddcd5b420aa4b30e1b555d663513851dd4c5b2e0b900611daa8e3b499387d8d8", "8.0.112--1": "sha256:cecfa7a650eec0a368f3e1a36f21f98be7c353fcf66df9d90345a2313e865a4b"}, "docker": "quay.io/biocontainers/java-jdk", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/java-jdk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for java-jdk", "latest": {"8.0.112--1": "sha256:d79596dda8994962d34c47316733b8f429473fd06bdae535059fe0d516cea947"}, "tags": {"8.0.92--1": "sha256:24f7225e13652b23386be58094778e55629f3aa813ad37e6d99372252d191ced", "8.0.112--1": "sha256:d79596dda8994962d34c47316733b8f429473fd06bdae535059fe0d516cea947"}, "docker": "quay.io/biocontainers/java-jdk", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/java-jdk.

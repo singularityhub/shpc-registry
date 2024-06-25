@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwa/container.yaml"
-updated_at: "2024-06-24 03:12:35.199888"
+updated_at: "2024-06-25 02:45:33.523497"
 latest: "0.7.18--he4a0461_0"
 container_url: "https://biocontainers.pro/tools/bwa"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "0.7.17--he4a0461_11"
  - "0.7.18--he4a0461_0"
 description: "shpc-registry automated BioContainers addition for bwa"
-config: {"url": "https://biocontainers.pro/tools/bwa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwa", "latest": {"0.7.18--he4a0461_0": "sha256:32091c3b428ea7576fb03606207303d68e462134f31a9e4bb2689c381ea239a0"}, "tags": {"0.7.17--h7132678_9": "sha256:07822e4293a8c59755b295c448b9541db6c9bdbfdedb010bdbdcc1e1e935370f", "0.7.17--h7132678_10": "sha256:f9063141d8c5da87da76392b3a152b927b2913d47373f1874d76f14634b3f684", "0.7.17--he4a0461_11": "sha256:652ca694adcb54ca799c22b843c086d570875ef14334a90ffeab0e1beb5f5741", "0.7.18--he4a0461_0": "sha256:32091c3b428ea7576fb03606207303d68e462134f31a9e4bb2689c381ea239a0"}, "docker": "quay.io/biocontainers/bwa", "aliases": {"bwa": "/usr/local/bin/bwa"}}
+config: {"url": "https://biocontainers.pro/tools/bwa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwa", "latest": {"0.7.18--he4a0461_0": "sha256:a8ea7d74457b55395e35f1e4200e3ac4a44e3f7c4b361d7628da86cec2133e03"}, "tags": {"0.7.17--h7132678_9": "sha256:07822e4293a8c59755b295c448b9541db6c9bdbfdedb010bdbdcc1e1e935370f", "0.7.17--h7132678_10": "sha256:f9063141d8c5da87da76392b3a152b927b2913d47373f1874d76f14634b3f684", "0.7.17--he4a0461_11": "sha256:652ca694adcb54ca799c22b843c086d570875ef14334a90ffeab0e1beb5f5741", "0.7.18--he4a0461_0": "sha256:a8ea7d74457b55395e35f1e4200e3ac4a44e3f7c4b361d7628da86cec2133e03"}, "docker": "quay.io/biocontainers/bwa", "aliases": {"bwa": "/usr/local/bin/bwa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwa.

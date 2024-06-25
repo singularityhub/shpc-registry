@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/moca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/moca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/moca/container.yaml"
-updated_at: "2024-06-24 03:14:30.864583"
+updated_at: "2024-06-25 02:47:28.726101"
 latest: "0.4.3--py_1"
 container_url: "https://biocontainers.pro/tools/moca"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.4.3--py_1"
 description: "shpc-registry automated BioContainers addition for moca"
-config: {"url": "https://biocontainers.pro/tools/moca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for moca", "latest": {"0.4.3--py_1": "sha256:4586b3bb217892dda8a0a64726bf9d757f7ef67c282a5b85c6cf2796833b953f"}, "tags": {"0.4.3--py_1": "sha256:4586b3bb217892dda8a0a64726bf9d757f7ef67c282a5b85c6cf2796833b953f"}, "docker": "quay.io/biocontainers/moca", "aliases": {"moca": "/usr/local/bin/moca", "coverage": "/usr/local/bin/coverage", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "nosetests": "/usr/local/bin/nosetests", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py"}}
+config: {"url": "https://biocontainers.pro/tools/moca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for moca", "latest": {"0.4.3--py_1": "sha256:1c525838c975f9ce34a4c768c3dd4cec720fd5671b9868b0479bed88b7f0ceac"}, "tags": {"0.4.3--py_1": "sha256:1c525838c975f9ce34a4c768c3dd4cec720fd5671b9868b0479bed88b7f0ceac"}, "docker": "quay.io/biocontainers/moca", "aliases": {"moca": "/usr/local/bin/moca", "coverage": "/usr/local/bin/coverage", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "nosetests": "/usr/local/bin/nosetests", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/moca.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cortexpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cortexpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cortexpy/container.yaml"
-updated_at: "2024-06-24 03:20:29.684383"
-latest: "0.46.5--py38h2494328_4"
+updated_at: "2024-06-25 02:53:34.976285"
+latest: "0.46.5--py38h2123bcc_5"
 container_url: "https://biocontainers.pro/tools/cortexpy"
 aliases:
  - "cortexpy"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "0.46.5--py37h96cfd12_3"
  - "0.46.5--py38h2494328_4"
+ - "0.46.5--py38h2123bcc_5"
 description: "shpc-registry automated BioContainers addition for cortexpy"
-config: {"url": "https://biocontainers.pro/tools/cortexpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cortexpy", "latest": {"0.46.5--py38h2494328_4": "sha256:f1a9c80a8b3b792f5268f7acfdfdb63e5db15dab7df821e42e4e7c977174948d"}, "tags": {"0.46.5--py37h96cfd12_3": "sha256:f336a1ba1a233fdfc2e7a2975e0ef18ad94b6b4b9d09ef8b1b2f97fdf3e16698", "0.46.5--py38h2494328_4": "sha256:f1a9c80a8b3b792f5268f7acfdfdb63e5db15dab7df821e42e4e7c977174948d"}, "docker": "quay.io/biocontainers/cortexpy", "aliases": {"cortexpy": "/usr/local/bin/cortexpy", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/cortexpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cortexpy", "latest": {"0.46.5--py38h2123bcc_5": "sha256:de280176b8ed0103fe2a487bb76ff8d45cce67bb6448023131ae0b58631df114"}, "tags": {"0.46.5--py37h96cfd12_3": "sha256:f336a1ba1a233fdfc2e7a2975e0ef18ad94b6b4b9d09ef8b1b2f97fdf3e16698", "0.46.5--py38h2494328_4": "sha256:f1a9c80a8b3b792f5268f7acfdfdb63e5db15dab7df821e42e4e7c977174948d", "0.46.5--py38h2123bcc_5": "sha256:de280176b8ed0103fe2a487bb76ff8d45cce67bb6448023131ae0b58631df114"}, "docker": "quay.io/biocontainers/cortexpy", "aliases": {"cortexpy": "/usr/local/bin/cortexpy", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cortexpy.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/cortexpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cortexpy:0.46.5--py38h2494328_4
+$ shpc install quay.io/biocontainers/cortexpy:0.46.5--py38h2123bcc_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cortexpy/0.46.5--py38h2494328_4
-$ module help quay.io/biocontainers/cortexpy/0.46.5--py38h2494328_4
+$ module load quay.io/biocontainers/cortexpy/0.46.5--py38h2123bcc_5
+$ module help quay.io/biocontainers/cortexpy/0.46.5--py38h2123bcc_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

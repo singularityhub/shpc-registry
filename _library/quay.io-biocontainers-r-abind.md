@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-abind"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-abind/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-abind/container.yaml"
-updated_at: "2024-06-24 03:20:29.114146"
+updated_at: "2024-06-25 02:53:34.380415"
 latest: "1.4.3--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-abind"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.4.3--r3.3.2_0"
+ - "1.4.3--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-abind"
-config: {"url": "https://biocontainers.pro/tools/r-abind", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-abind", "latest": {"1.4.3--r3.3.2_0": "sha256:bd1861ff53e4b7d25b085cf8a1803bda1a26b9bbf4ee05fad6e3eacb95906d87"}, "tags": {"1.4.3--r3.3.2_0": "sha256:bd1861ff53e4b7d25b085cf8a1803bda1a26b9bbf4ee05fad6e3eacb95906d87"}, "docker": "quay.io/biocontainers/r-abind", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-abind", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-abind", "latest": {"1.4.3--r3.3.2_0": "sha256:28fab643cf745ede5d59a8d8cfbd8547f21eab56f056ff5ea52af12624a3004f"}, "tags": {"1.4.3--r3.3.2_0": "sha256:28fab643cf745ede5d59a8d8cfbd8547f21eab56f056ff5ea52af12624a3004f", "1.4.3--r3.2.2_0": "sha256:58605854e5c5e737ec89e6cf556d589575494840d4c4977dcb06ebed58df8ada"}, "docker": "quay.io/biocontainers/r-abind", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-abind.

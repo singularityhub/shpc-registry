@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mosaik"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mosaik/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mosaik/container.yaml"
-updated_at: "2024-06-24 03:38:34.058032"
+updated_at: "2024-06-25 03:12:02.285629"
 latest: "2.2.26--he941832_4"
 container_url: "https://biocontainers.pro/tools/mosaik"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "2.2.26--he941832_4"
 description: "shpc-registry automated BioContainers addition for mosaik"
-config: {"url": "https://biocontainers.pro/tools/mosaik", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mosaik", "latest": {"2.2.26--he941832_4": "sha256:4bd7cb403e8ca7f8db422dd9c4381902b3a2053f503b62396306e88ecba3e65d"}, "tags": {"2.2.26--he941832_4": "sha256:4bd7cb403e8ca7f8db422dd9c4381902b3a2053f503b62396306e88ecba3e65d"}, "docker": "quay.io/biocontainers/mosaik", "aliases": {"MosaikAligner": "/usr/local/bin/MosaikAligner", "MosaikBuild": "/usr/local/bin/MosaikBuild", "MosaikJump": "/usr/local/bin/MosaikJump", "MosaikText": "/usr/local/bin/MosaikText"}}
+config: {"url": "https://biocontainers.pro/tools/mosaik", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mosaik", "latest": {"2.2.26--he941832_4": "sha256:e507b94ffde4180fe9af6a361393a3e88c6a1dd127b98f984ca887882a8a6279"}, "tags": {"2.2.26--he941832_4": "sha256:e507b94ffde4180fe9af6a361393a3e88c6a1dd127b98f984ca887882a8a6279"}, "docker": "quay.io/biocontainers/mosaik", "aliases": {"MosaikAligner": "/usr/local/bin/MosaikAligner", "MosaikBuild": "/usr/local/bin/MosaikBuild", "MosaikJump": "/usr/local/bin/MosaikJump", "MosaikText": "/usr/local/bin/MosaikText"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mosaik.

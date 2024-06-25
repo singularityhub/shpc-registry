@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bugsigdbr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bugsigdbr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bugsigdbr/container.yaml"
-updated_at: "2024-06-24 03:16:06.294907"
+updated_at: "2024-06-25 02:49:05.611994"
 latest: "1.8.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bugsigdbr"
 

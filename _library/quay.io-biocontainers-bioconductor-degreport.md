@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-degreport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-degreport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-degreport/container.yaml"
-updated_at: "2024-06-24 03:45:29.868201"
+updated_at: "2024-06-25 03:19:24.122036"
 latest: "1.38.4--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-degreport"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "1.36.0--r43hdfd78af_0"
  - "1.38.4--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-degreport"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-degreport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-degreport", "latest": {"1.38.4--r43hdfd78af_0": "sha256:205ce9eb852f7617e876e4110e5c7db156f69008d1c271cebe3b766b01c7caad"}, "tags": {"1.8.2--r3.3.2_1": "sha256:efaa5471c1aa1125c846918990743ae5eb9cf58bd3529c1e089a7c334f973d9a", "1.34.0--r42hdfd78af_0": "sha256:f3d975058eeaf494defa7c5cd88e255f19024e10e88824167ce27cb8a8ecc2d6", "1.30.0--r41hdfd78af_0": "sha256:7f1fb2067d7e7f1d9f76b6e2a4aae53f7e1c8d72d389fefadad7f4b8ff78932b", "1.28.0--r41hdfd78af_0": "sha256:ccc2ff88820b4de4d8cbb58ee75995cb715c1116861e1a0afd242652053804de", "1.26.0--r40hdfd78af_1": "sha256:02dc6772f954f39af4d7aae0edf9a1fc57317013cfd735cf8fa34470e529eb28", "1.24.0--r40_0": "sha256:42d36c682e795fac0f3e49809352ed7ffa3b51fe36c2966315c051a7d69b9fbc", "1.36.0--r43hdfd78af_0": "sha256:24127aa5e7ab7501a95615998fbb69e3bf6f17bea1ec34f74024145d751e6363", "1.38.4--r43hdfd78af_0": "sha256:205ce9eb852f7617e876e4110e5c7db156f69008d1c271cebe3b766b01c7caad"}, "docker": "quay.io/biocontainers/bioconductor-degreport", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-degreport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-degreport", "latest": {"1.38.4--r43hdfd78af_0": "sha256:37046fddbadf2a19cf99b9c5db1573fb4c72ed7e3be2d62bce4ec4750e6a70d2"}, "tags": {"1.8.2--r3.3.2_1": "sha256:1afdbc17d49517e7df056430cf9d6ec6f893e745e7de3907a706ea68ddb3fb64", "1.34.0--r42hdfd78af_0": "sha256:f3d975058eeaf494defa7c5cd88e255f19024e10e88824167ce27cb8a8ecc2d6", "1.30.0--r41hdfd78af_0": "sha256:7f1fb2067d7e7f1d9f76b6e2a4aae53f7e1c8d72d389fefadad7f4b8ff78932b", "1.28.0--r41hdfd78af_0": "sha256:ccc2ff88820b4de4d8cbb58ee75995cb715c1116861e1a0afd242652053804de", "1.26.0--r40hdfd78af_1": "sha256:02dc6772f954f39af4d7aae0edf9a1fc57317013cfd735cf8fa34470e529eb28", "1.24.0--r40_0": "sha256:42d36c682e795fac0f3e49809352ed7ffa3b51fe36c2966315c051a7d69b9fbc", "1.36.0--r43hdfd78af_0": "sha256:24127aa5e7ab7501a95615998fbb69e3bf6f17bea1ec34f74024145d751e6363", "1.38.4--r43hdfd78af_0": "sha256:37046fddbadf2a19cf99b9c5db1573fb4c72ed7e3be2d62bce4ec4750e6a70d2"}, "docker": "quay.io/biocontainers/bioconductor-degreport", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-degreport.

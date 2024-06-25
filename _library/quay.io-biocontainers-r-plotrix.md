@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-plotrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-plotrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-plotrix/container.yaml"
-updated_at: "2024-06-24 03:44:43.358126"
+updated_at: "2024-06-25 03:18:36.101275"
 latest: "3.6_4--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-plotrix"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "3.6_4--r3.3.2_0"
+ - "3.6_4--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-plotrix"
-config: {"url": "https://biocontainers.pro/tools/r-plotrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-plotrix", "latest": {"3.6_4--r3.3.2_0": "sha256:70eb79284dd03d9a7bc5fd718e627692492bc867b326ec6cb2b905424c4bda79"}, "tags": {"3.6_4--r3.3.2_0": "sha256:70eb79284dd03d9a7bc5fd718e627692492bc867b326ec6cb2b905424c4bda79"}, "docker": "quay.io/biocontainers/r-plotrix", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-plotrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-plotrix", "latest": {"3.6_4--r3.3.2_0": "sha256:3a563f2578847a19825e74855b001ad1ca353a5732e801fca6665ee92de3dfe9"}, "tags": {"3.6_4--r3.3.2_0": "sha256:3a563f2578847a19825e74855b001ad1ca353a5732e801fca6665ee92de3dfe9", "3.6_4--r3.3.1_0": "sha256:6dc0e4d86ba00b4ebd044c128e98c498b36b472541f10a4e02eb93f87d286779"}, "docker": "quay.io/biocontainers/r-plotrix", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-plotrix.

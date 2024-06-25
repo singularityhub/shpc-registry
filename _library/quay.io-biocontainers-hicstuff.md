@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hicstuff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hicstuff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hicstuff/container.yaml"
-updated_at: "2024-06-24 03:16:14.634811"
-latest: "3.2.2--pyhdfd78af_0"
+updated_at: "2024-06-25 02:49:14.281823"
+latest: "3.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hicstuff"
 aliases:
  - "hicstuff"
@@ -28,8 +28,9 @@ versions:
  - "3.2.1--pyhdfd78af_0"
  - "3.1.7--pyhdfd78af_0"
  - "3.2.2--pyhdfd78af_0"
+ - "3.2.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hicstuff"
-config: {"url": "https://biocontainers.pro/tools/hicstuff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hicstuff", "latest": {"3.2.2--pyhdfd78af_0": "sha256:40bb6e86d53d933b7b4429618842284731eae36b7a6c8c55db72b4a1095da880"}, "tags": {"3.1.5--pyhdfd78af_0": "sha256:fed76d89a1c0460bbb9066c99383e14e67068f89a908879e2cc9bd6fb955c9d9", "3.1.5--pyhdfd78af_1": "sha256:24f8ad66cfe0679fa8d4300c0f8c3b6f24faef3aa97df754f09f6813e3373625", "3.1.5--pyhdfd78af_2": "sha256:a170bdb255bae23b4401f8a9be5510577e7ee6c3e39c02eec1ee891fba5cb1df", "3.1.6--pyhdfd78af_0": "sha256:86ddd2ea672babe791ee5223e18220183aae3e2abe06dac627669ed38d36a78b", "3.2.1--pyhdfd78af_0": "sha256:b223cb32805a11e6b89eaee9d23e4e922a13ad79e837390f22deaf35941ab0df", "3.1.7--pyhdfd78af_0": "sha256:955a3f13e34a565e868b5095b327f7c7403cd1acef63127e7370583b9e9494c8", "3.2.2--pyhdfd78af_0": "sha256:40bb6e86d53d933b7b4429618842284731eae36b7a6c8c55db72b4a1095da880"}, "docker": "quay.io/biocontainers/hicstuff", "aliases": {"hicstuff": "/usr/local/bin/hicstuff", "pyfastx": "/usr/local/bin/pyfastx", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s"}}
+config: {"url": "https://biocontainers.pro/tools/hicstuff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hicstuff", "latest": {"3.2.3--pyhdfd78af_0": "sha256:120950adc6919fddda95b673ef27039f8bbd7e9a5f5a72d15afa47c57325cd27"}, "tags": {"3.1.5--pyhdfd78af_0": "sha256:fed76d89a1c0460bbb9066c99383e14e67068f89a908879e2cc9bd6fb955c9d9", "3.1.5--pyhdfd78af_1": "sha256:24f8ad66cfe0679fa8d4300c0f8c3b6f24faef3aa97df754f09f6813e3373625", "3.1.5--pyhdfd78af_2": "sha256:a170bdb255bae23b4401f8a9be5510577e7ee6c3e39c02eec1ee891fba5cb1df", "3.1.6--pyhdfd78af_0": "sha256:86ddd2ea672babe791ee5223e18220183aae3e2abe06dac627669ed38d36a78b", "3.2.1--pyhdfd78af_0": "sha256:b223cb32805a11e6b89eaee9d23e4e922a13ad79e837390f22deaf35941ab0df", "3.1.7--pyhdfd78af_0": "sha256:955a3f13e34a565e868b5095b327f7c7403cd1acef63127e7370583b9e9494c8", "3.2.2--pyhdfd78af_0": "sha256:40bb6e86d53d933b7b4429618842284731eae36b7a6c8c55db72b4a1095da880", "3.2.3--pyhdfd78af_0": "sha256:120950adc6919fddda95b673ef27039f8bbd7e9a5f5a72d15afa47c57325cd27"}, "docker": "quay.io/biocontainers/hicstuff", "aliases": {"hicstuff": "/usr/local/bin/hicstuff", "pyfastx": "/usr/local/bin/pyfastx", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hicstuff.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/hicstuff
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hicstuff:3.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/hicstuff:3.2.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hicstuff/3.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/hicstuff/3.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/hicstuff/3.2.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/hicstuff/3.2.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/zarp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zarp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zarp/container.yaml"
-updated_at: "2024-06-24 03:41:11.343453"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2024-06-25 03:14:49.483631"
+latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/zarp"
 aliases:
  - "email_validator"
@@ -38,8 +38,9 @@ aliases:
  - "tabulate"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "1.0.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for zarp"
-config: {"url": "https://biocontainers.pro/tools/zarp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for zarp", "latest": {"0.1.1--pyhdfd78af_0": "sha256:838bd19281967f7ef1a11c90a58ecae18ea82f507e092bd0529bb6e2a4dff87d"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:838bd19281967f7ef1a11c90a58ecae18ea82f507e092bd0529bb6e2a4dff87d"}, "docker": "quay.io/biocontainers/zarp", "aliases": {"email_validator": "/usr/local/bin/email_validator", "markdown-it": "/usr/local/bin/markdown-it", "zarp": "/usr/local/bin/zarp", "stone": "/usr/local/bin/stone", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "f2py3.11": "/usr/local/bin/f2py3.11", "pulptest": "/usr/local/bin/pulptest", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "cbc": "/usr/local/bin/cbc", "humanfriendly": "/usr/local/bin/humanfriendly", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tabulate": "/usr/local/bin/tabulate"}}
+config: {"url": "https://biocontainers.pro/tools/zarp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for zarp", "latest": {"1.0.0--pyhdfd78af_0": "sha256:9b5e39b1187ec701caaad58366cb881bb0f002ec8a68b3ed9ce20c4461b86d8f"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:838bd19281967f7ef1a11c90a58ecae18ea82f507e092bd0529bb6e2a4dff87d", "1.0.0--pyhdfd78af_0": "sha256:9b5e39b1187ec701caaad58366cb881bb0f002ec8a68b3ed9ce20c4461b86d8f"}, "docker": "quay.io/biocontainers/zarp", "aliases": {"email_validator": "/usr/local/bin/email_validator", "markdown-it": "/usr/local/bin/markdown-it", "zarp": "/usr/local/bin/zarp", "stone": "/usr/local/bin/stone", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "f2py3.11": "/usr/local/bin/f2py3.11", "pulptest": "/usr/local/bin/pulptest", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "cbc": "/usr/local/bin/cbc", "humanfriendly": "/usr/local/bin/humanfriendly", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tabulate": "/usr/local/bin/tabulate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/zarp.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/zarp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/zarp:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/zarp:1.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/zarp/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/zarp/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/zarp/1.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/zarp/1.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

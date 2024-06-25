@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dropbox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dropbox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dropbox/container.yaml"
-updated_at: "2024-06-24 03:44:02.995832"
+updated_at: "2024-06-25 03:17:53.140753"
 latest: "5.2.1--py36_0"
 container_url: "https://biocontainers.pro/tools/dropbox"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "5.2.1--py36_0"
+ - "5.2.1--py35_0"
 description: "shpc-registry automated BioContainers addition for dropbox"
-config: {"url": "https://biocontainers.pro/tools/dropbox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dropbox", "latest": {"5.2.1--py36_0": "sha256:07ab25fed932e25e1afba6ffbfd770fbf2b07c5bfcd1203f3ff1fd52bcca5b36"}, "tags": {"5.2.1--py36_0": "sha256:07ab25fed932e25e1afba6ffbfd770fbf2b07c5bfcd1203f3ff1fd52bcca5b36"}, "docker": "quay.io/biocontainers/dropbox", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/dropbox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dropbox", "latest": {"5.2.1--py36_0": "sha256:0a7685d76fd5972f29445f85d8db988a8ac8d7712d5e23f2651a6d6612495c16"}, "tags": {"5.2.1--py36_0": "sha256:0a7685d76fd5972f29445f85d8db988a8ac8d7712d5e23f2651a6d6612495c16", "5.2.1--py35_0": "sha256:e800a339520e57b5d9b181fbd024bdf44403b7c640aba338efc4aa6a1648d707"}, "docker": "quay.io/biocontainers/dropbox", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dropbox.
