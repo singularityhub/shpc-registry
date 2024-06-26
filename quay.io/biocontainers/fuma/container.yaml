@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/fuma
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fuma
 latest:
-  4.0.0--pyhb7b1952_0: sha256:22364182ddd1108b9e37a72ad9f87c99a93b786459ada1235554741c375433a2
+  4.0.0--pyhb7b1952_0: sha256:49e62ca133824cf53d1932746127b59c8c6ccdcc3717c84d0387c95cc4385b30
 tags:
-  4.0.0--pyhb7b1952_0: sha256:22364182ddd1108b9e37a72ad9f87c99a93b786459ada1235554741c375433a2
+  4.0.0--pyhb7b1952_0: sha256:49e62ca133824cf53d1932746127b59c8c6ccdcc3717c84d0387c95cc4385b30
 docker: quay.io/biocontainers/fuma
 aliases:
   chimerascan-exclude-transcriptome-events: /usr/local/bin/chimerascan-exclude-transcriptome-events

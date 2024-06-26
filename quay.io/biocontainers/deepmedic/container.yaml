@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/deepmedic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for deepmedic
 latest:
-  0.6.1--py_1: sha256:55a808db7aeac123986cd1624bacfe4dd25442aa71302965e32d14cef8138e64
+  0.6.1--py_1: sha256:f8722032fa9071c90551b2db8217d0bbed090146226a164f35802a82ad117ca4
 tags:
-  0.6.1--py_1: sha256:55a808db7aeac123986cd1624bacfe4dd25442aa71302965e32d14cef8138e64
+  0.6.1--py_1: sha256:f8722032fa9071c90551b2db8217d0bbed090146226a164f35802a82ad117ca4
 docker: quay.io/biocontainers/deepmedic
 aliases:
   deepMedicRun: /usr/local/bin/deepMedicRun

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/pyfastaq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyfastaq
 latest:
-  3.17.0--py_2: sha256:6dfb170ce54d7795fca8ed6610f510667f8e3c8249a6edfc8ef2b8cbcad47a24
+  3.17.0--py_2: sha256:840e63ee11d439f61ec93002323adb44042355df777eb84df1ae5da58c697496
 tags:
-  3.17.0--py_2: sha256:6dfb170ce54d7795fca8ed6610f510667f8e3c8249a6edfc8ef2b8cbcad47a24
+  3.17.0--py_2: sha256:840e63ee11d439f61ec93002323adb44042355df777eb84df1ae5da58c697496
 docker: quay.io/biocontainers/pyfastaq
 aliases:
   fastaq: /usr/local/bin/fastaq

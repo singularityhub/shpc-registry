@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/ocrad
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ocrad
 latest:
-  0.21--h470a237_1: sha256:01f099c2bb4c87d487fcd2d18167d64fe8b55f0939d276933ca5be5be2e68314
+  0.21--h470a237_1: sha256:242c9afd23c14a7b59a525cd95a811255558e0187c63b44dfb98eb7061c187fc
 tags:
-  0.21--h470a237_1: sha256:01f099c2bb4c87d487fcd2d18167d64fe8b55f0939d276933ca5be5be2e68314
+  0.21--h470a237_1: sha256:242c9afd23c14a7b59a525cd95a811255558e0187c63b44dfb98eb7061c187fc
 docker: quay.io/biocontainers/ocrad
 aliases:
   ocrad: /usr/local/bin/ocrad

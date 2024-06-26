@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/ppanini
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ppanini
 latest:
-  0.7.4--py_0: sha256:73a5656fe0b2c7203454ae729052cf0154f6c17f10086770c4d3413aa8ac3976
+  0.7.4--py_0: sha256:e87579b5610e61e6301e1824dd95b4fad9571249d82ce6b2494f1be7b835e666
 tags:
-  0.7.4--py_0: sha256:73a5656fe0b2c7203454ae729052cf0154f6c17f10086770c4d3413aa8ac3976
+  0.7.4--py_0: sha256:e87579b5610e61e6301e1824dd95b4fad9571249d82ce6b2494f1be7b835e666
 docker: quay.io/biocontainers/ppanini
 aliases:
   ppanini: /usr/local/bin/ppanini

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/metavelvet-sl-pipeline
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metavelvet-sl-pipeline
 latest:
-  1.0--pl5.22.0_0: sha256:ff4bbe216a58af3ab40afd13f3dd62c95bb0ad704443be1201d0671ff5ab7be9
+  1.0--pl5.22.0_0: sha256:07fcb41ed85e07d275cc06ee21dcd3925d0696a4a1730fef351d9748198cbf87
 tags:
-  1.0--pl5.22.0_0: sha256:ff4bbe216a58af3ab40afd13f3dd62c95bb0ad704443be1201d0671ff5ab7be9
+  1.0--pl5.22.0_0: sha256:07fcb41ed85e07d275cc06ee21dcd3925d0696a4a1730fef351d9748198cbf87
 docker: quay.io/biocontainers/metavelvet-sl-pipeline
 aliases:
   FeatureExtract.pl: /usr/local/bin/FeatureExtract.pl

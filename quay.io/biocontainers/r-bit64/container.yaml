@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-bit64
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-bit64
 latest:
-  0.9_5--r3.3.1_0: sha256:8ef0a960efc1351fe54e28346afac07397c94e7cd94bd758acee50c3c8ad1fa9
+  0.9_5--r3.3.1_0: sha256:2f7ef38359d26c73db5cacb7309b81b9cb34cb6a7d22eb9eac22bfb5c3c5039c
 tags:
-  0.9_5--r3.3.1_0: sha256:8ef0a960efc1351fe54e28346afac07397c94e7cd94bd758acee50c3c8ad1fa9
-  0.9_5--r3.3.2_0: sha256:3a342b3fff3622781b5d56ada939861b97d3e3f40a477b48768ab882724a3e09
+  0.9_5--r3.3.1_0: sha256:2f7ef38359d26c73db5cacb7309b81b9cb34cb6a7d22eb9eac22bfb5c3c5039c
+  0.9_5--r3.3.2_0: sha256:1d8fdcb205b1052e8bdb2eef1f1a62794b999ad5fd167656c617db92c4b4fe88
+  0.9_5--r3.2.2_0: sha256:1336ab547a4aba781796b70f4d6510411238cc5b672734bbf4007b5a8399cdcf
 docker: quay.io/biocontainers/r-bit64
 aliases:
   pango-querymodules: /usr/local/bin/pango-querymodules

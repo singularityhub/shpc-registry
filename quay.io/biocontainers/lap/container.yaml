@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/lap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for lap
 latest:
-  1.1.r186--py27_0: sha256:aee327206a3bc0aece939a7d063ee1b6c423561648706900855518a52b183536
+  1.1.r186--py27_0: sha256:a9c7a56fb1407777f19f01d792e0dcd920ef20f98f3340841a41b2ac968b3a14
 tags:
-  1.1.r186--py27_0: sha256:aee327206a3bc0aece939a7d063ee1b6c423561648706900855518a52b183536
+  1.1.r186--py27_0: sha256:a9c7a56fb1407777f19f01d792e0dcd920ef20f98f3340841a41b2ac968b3a14
 docker: quay.io/biocontainers/lap
 aliases:
   SeqIO.py: /usr/local/bin/SeqIO.py

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/hhsuite
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hhsuite
 latest:
-  3.3.0--py38pl5321hcbe9525_10: sha256:fd5624f9a7a88e9bce7879a6e93836e205cf707289abb4e5347d28abf2036a95
+  3.3.0--py310pl5321hc31ed2c_11: sha256:fa1a56e52cbd0b3b5d1352ccbd7ec4383e5b799d5861f021e442de49bd3fd677
 tags:
   v3.2.0--py36pl526hf484d3e_0: sha256:44283c395ebf9638682caad75b400773e5052ef25a45b53209be8e88ced2f48f
   3.3.0--py36pl5321h4aaaa08_5: sha256:d800473a8174edfa2cff06f8a2374182967d66802e9533da394d564f87ae5506
@@ -11,6 +11,7 @@ tags:
   3.3.0--py310pl5321h068649b_9: sha256:45286ca412e9a3636db116cb9837f7a5069b98eab722fc01c5ef6b3272710911
   3.3.0--py38pl5321hcbe9525_10: sha256:fd5624f9a7a88e9bce7879a6e93836e205cf707289abb4e5347d28abf2036a95
   3.2.0--py27pl526h877ad6c_2: sha256:06124877aa800fa3a10c13aefb609c0d148374d629cb82ab06b6c603f0ab9cce
+  3.3.0--py310pl5321hc31ed2c_11: sha256:fa1a56e52cbd0b3b5d1352ccbd7ec4383e5b799d5861f021e442de49bd3fd677
 docker: quay.io/biocontainers/hhsuite
 aliases:
   a3m_database_extract: /usr/local/bin/a3m_database_extract

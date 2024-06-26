@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for strelka
 latest:
   2.9.10--h9ee0642_1: sha256:e6133fa935d444aaf3aa04b57256a580d9b3498298fc17cb5f4a9818116105ec
 tags:
-  2.9.7--0: sha256:ba0d975925ce7d277b2e6886bd98fe0e9c9e70172d2784350605ef74b547fef3
+  2.9.7--0: sha256:df0f33b6e8b39ab1542ce16a5c71936b584162b58e10454a5d53d1161551668e
   2.9.10--h9ee0642_1: sha256:e6133fa935d444aaf3aa04b57256a580d9b3498298fc17cb5f4a9818116105ec
 docker: quay.io/biocontainers/strelka
 aliases:

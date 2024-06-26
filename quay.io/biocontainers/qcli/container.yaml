@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/qcli
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for qcli
 latest:
-  0.1.1--py_3: sha256:b2f1b1f4091576604c683c1a2ede7fbb16dd069307ed50e6dbd888d999176da4
+  0.1.1--py_3: sha256:31413e0dfd449ed45715f5133dd6cfb2002a8ddee0d32426c8b19daba1bdee87
 tags:
-  0.1.1--py_3: sha256:b2f1b1f4091576604c683c1a2ede7fbb16dd069307ed50e6dbd888d999176da4
+  0.1.1--py_3: sha256:31413e0dfd449ed45715f5133dd6cfb2002a8ddee0d32426c8b19daba1bdee87
 docker: quay.io/biocontainers/qcli
 aliases:
   qcli_make_rst: /usr/local/bin/qcli_make_rst

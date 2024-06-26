@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/batch_brb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for batch_brb
 latest:
-  1.0.1--hdfd78af_1: sha256:20d4acd2727188ad223929fd69f168b0169c0bc6c9d831aa225bc786b43fae33
+  1.1.1--hdfd78af_0: sha256:11837069f49f188abb6d65b967f10f345e3a835d21e39bd4f9039fa5f89edb2f
 tags:
   1.0.1--hdfd78af_1: sha256:20d4acd2727188ad223929fd69f168b0169c0bc6c9d831aa225bc786b43fae33
+  1.1.1--hdfd78af_0: sha256:11837069f49f188abb6d65b967f10f345e3a835d21e39bd4f9039fa5f89edb2f
 docker: quay.io/biocontainers/batch_brb
 aliases:
   accession_retrieve: /usr/local/bin/accession_retrieve

@@ -6,7 +6,7 @@ latest:
 tags:
   0.8.0--py37h8902056_4: sha256:5f7ab5a66822393ae7ad5798c623ed65d152131c65278acf32bc8db302ad1519
   0.8.0--py310h4b81fae_5: sha256:5102c8ccc9235d55afe8277a64adbcc8ff87db5672d35393ccf33b03e9286adc
-  0.8.0--py39hf95cd2a_5: sha256:a6a6e44d7c8c5927477e81c4bb8794a467dc19df570b09a37076251617ab5f2e
+  0.8.0--py39hf95cd2a_5: sha256:075e98fa853fa7ce83405d5c2253b74294540f6abd261ca963cf30870cad037b
 docker: quay.io/biocontainers/sqt
 aliases:
   attr: /usr/local/bin/attr
