@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/epic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epic/container.yaml"
-updated_at: "2024-06-25 02:45:54.453262"
+updated_at: "2024-06-26 02:44:48.423836"
 latest: "0.2.12--py36h40b2fa4_7"
 container_url: "https://biocontainers.pro/tools/epic"
 
@@ -13,7 +13,7 @@ versions:
  - "0.2.12--py36h785e9b2_3"
  - "0.2.12--py36h40b2fa4_7"
 description: "shpc-registry automated BioContainers addition for epic"
-config: {"url": "https://biocontainers.pro/tools/epic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epic", "latest": {"0.2.12--py36h40b2fa4_7": "sha256:5d020a4a2698198cd17349944f1b8fe9188a5affcfea738084e39f8f6f7bc41b"}, "tags": {"0.2.9--pyh24bf2e0_1": "sha256:17c5ad416be4e34da39eba6f2d0f354a5202a4bd3ad44a69491d24cd082c8368", "0.2.12--py36h785e9b2_3": "sha256:622323cdd5771c01b8eda17709eaf608f368a44a63cea02167b0a15068046ede", "0.2.12--py36h40b2fa4_7": "sha256:5d020a4a2698198cd17349944f1b8fe9188a5affcfea738084e39f8f6f7bc41b"}, "docker": "quay.io/biocontainers/epic"}
+config: {"url": "https://biocontainers.pro/tools/epic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epic", "latest": {"0.2.12--py36h40b2fa4_7": "sha256:5d020a4a2698198cd17349944f1b8fe9188a5affcfea738084e39f8f6f7bc41b"}, "tags": {"0.2.9--pyh24bf2e0_1": "sha256:d86d445458905d27186949ab8b0588017e1a57afacfd858f4ae40ce35b6aae90", "0.2.12--py36h785e9b2_3": "sha256:622323cdd5771c01b8eda17709eaf608f368a44a63cea02167b0a15068046ede", "0.2.12--py36h40b2fa4_7": "sha256:5d020a4a2698198cd17349944f1b8fe9188a5affcfea738084e39f8f6f7bc41b"}, "docker": "quay.io/biocontainers/epic"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/epic.

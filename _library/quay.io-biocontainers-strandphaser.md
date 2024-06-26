@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/strandphaser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strandphaser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strandphaser/container.yaml"
-updated_at: "2024-06-25 03:11:38.708995"
-latest: "1.0.2--r42hdfd78af_0"
+updated_at: "2024-06-26 03:09:38.663608"
+latest: "1.0.2--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/strandphaser"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
  - "1.0.0--r42hdfd78af_1"
  - "1.0.2--r42hdfd78af_0"
+ - "1.0.2--r43hdfd78af_1"
 description: "singularity registry hpc automated addition for strandphaser"
-config: {"url": "https://biocontainers.pro/tools/strandphaser", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strandphaser", "latest": {"1.0.2--r42hdfd78af_0": "sha256:d8386c1b75329bd1a0aced6f8628905e3431b49afa6f40c23158b0f22271e78e"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:494a35b6be5692ae789f7cd36c1752e246a2eb77d2472d3cd5427de62b1b8398", "1.0.0--r42hdfd78af_1": "sha256:eb180559c14d3019fcf53f60997a5203379463e267b73dcb70c09f4b764ae571", "1.0.2--r42hdfd78af_0": "sha256:d8386c1b75329bd1a0aced6f8628905e3431b49afa6f40c23158b0f22271e78e"}, "docker": "quay.io/biocontainers/strandphaser"}
+config: {"url": "https://biocontainers.pro/tools/strandphaser", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strandphaser", "latest": {"1.0.2--r43hdfd78af_1": "sha256:a0b8212f4e8d73765f1c8b76ef590ed5501d82b19f5938f00430d33849b7e473"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:494a35b6be5692ae789f7cd36c1752e246a2eb77d2472d3cd5427de62b1b8398", "1.0.0--r42hdfd78af_1": "sha256:eb180559c14d3019fcf53f60997a5203379463e267b73dcb70c09f4b764ae571", "1.0.2--r42hdfd78af_0": "sha256:d8386c1b75329bd1a0aced6f8628905e3431b49afa6f40c23158b0f22271e78e", "1.0.2--r43hdfd78af_1": "sha256:a0b8212f4e8d73765f1c8b76ef590ed5501d82b19f5938f00430d33849b7e473"}, "docker": "quay.io/biocontainers/strandphaser"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strandphaser.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/strandphaser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strandphaser:1.0.2--r42hdfd78af_0
+$ shpc install quay.io/biocontainers/strandphaser:1.0.2--r43hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strandphaser/1.0.2--r42hdfd78af_0
-$ module help quay.io/biocontainers/strandphaser/1.0.2--r42hdfd78af_0
+$ module load quay.io/biocontainers/strandphaser/1.0.2--r43hdfd78af_1
+$ module help quay.io/biocontainers/strandphaser/1.0.2--r43hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

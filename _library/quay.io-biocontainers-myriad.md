@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/myriad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/myriad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/myriad/container.yaml"
-updated_at: "2024-06-25 02:53:08.394212"
+updated_at: "2024-06-26 02:51:49.483933"
 latest: "0.1.4--py27_0"
 container_url: "https://biocontainers.pro/tools/myriad"
 aliases:
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "0.1.4--py27_0"
 description: "shpc-registry automated BioContainers addition for myriad"
-config: {"url": "https://biocontainers.pro/tools/myriad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for myriad", "latest": {"0.1.4--py27_0": "sha256:b7af5c52a2c304e7c7b7506c5ec80ebf083faaceff05b20a852e347098bd89eb"}, "tags": {"0.1.4--py27_0": "sha256:b7af5c52a2c304e7c7b7506c5ec80ebf083faaceff05b20a852e347098bd89eb"}, "docker": "quay.io/biocontainers/myriad", "aliases": {"myriad": "/usr/local/bin/myriad", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/myriad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for myriad", "latest": {"0.1.4--py27_0": "sha256:0c825006c9869cbfe40ad627e9848de98e3ca3f8ad8f15c8461795a4c3430761"}, "tags": {"0.1.4--py27_0": "sha256:0c825006c9869cbfe40ad627e9848de98e3ca3f8ad8f15c8461795a4c3430761"}, "docker": "quay.io/biocontainers/myriad", "aliases": {"myriad": "/usr/local/bin/myriad", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/myriad.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-oligo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oligo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oligo/container.yaml"
-updated_at: "2024-06-25 03:09:48.630293"
+updated_at: "2024-06-26 03:07:56.757322"
 latest: "1.66.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-oligo"
 

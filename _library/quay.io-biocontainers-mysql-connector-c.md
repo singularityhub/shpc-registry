@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mysql-connector-c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mysql-connector-c/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mysql-connector-c/container.yaml"
-updated_at: "2024-06-25 02:40:11.917664"
+updated_at: "2024-06-26 02:39:14.371711"
 latest: "6.1.6--2"
 container_url: "https://biocontainers.pro/tools/mysql-connector-c"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "6.1.6--2"
 description: "shpc-registry automated BioContainers addition for mysql-connector-c"
-config: {"url": "https://biocontainers.pro/tools/mysql-connector-c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mysql-connector-c", "latest": {"6.1.6--2": "sha256:48c7eef63472057baccd8d6f0ae72733d171adc14df5c835244f7cca36b8d5e1"}, "tags": {"6.1.6--2": "sha256:48c7eef63472057baccd8d6f0ae72733d171adc14df5c835244f7cca36b8d5e1"}, "docker": "quay.io/biocontainers/mysql-connector-c", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror"}}
+config: {"url": "https://biocontainers.pro/tools/mysql-connector-c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mysql-connector-c", "latest": {"6.1.6--2": "sha256:52e9eba2e9ce93f2b06d3f50a2059432ea70df66ad38e71b4f06b890e9a57293"}, "tags": {"6.1.6--2": "sha256:52e9eba2e9ce93f2b06d3f50a2059432ea70df66ad38e71b4f06b890e9a57293"}, "docker": "quay.io/biocontainers/mysql-connector-c", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mysql-connector-c.

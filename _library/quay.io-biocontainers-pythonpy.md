@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pythonpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pythonpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pythonpy/container.yaml"
-updated_at: "2024-06-25 03:18:56.092969"
+updated_at: "2024-06-26 03:16:27.789273"
 latest: "0.4.11--py_0"
 container_url: "https://biocontainers.pro/tools/pythonpy"
 aliases:
@@ -28,7 +28,7 @@ versions:
  - "0.4.2--py_1"
  - "0.4.11--py_0"
 description: "shpc-registry automated BioContainers addition for pythonpy"
-config: {"url": "https://biocontainers.pro/tools/pythonpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pythonpy", "latest": {"0.4.11--py_0": "sha256:ccb74ae91c6aaa501d4d0993ce16cb2ace8d5ffe81decd03e0aaef51f8d48a2d"}, "tags": {"0.4.2--py_1": "sha256:3d74305dbb8b105bcb3bb40d6e70821e32534816efd1e43e50f3fc36b4780a1d", "0.4.11--py_0": "sha256:ccb74ae91c6aaa501d4d0993ce16cb2ace8d5ffe81decd03e0aaef51f8d48a2d"}, "docker": "quay.io/biocontainers/pythonpy", "aliases": {"py": "/usr/local/bin/py", "py2": "/usr/local/bin/py2", "py2.7": "/usr/local/bin/py2.7", "pycompleter": "/usr/local/bin/pycompleter", "pycompleter2": "/usr/local/bin/pycompleter2", "pycompleter2.7": "/usr/local/bin/pycompleter2.7", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/pythonpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pythonpy", "latest": {"0.4.11--py_0": "sha256:c18ab1d292b53333e5bc69edab5ac25ea4b9f928cfb3f5a9617f941cfb8522ac"}, "tags": {"0.4.2--py_1": "sha256:dc99cab5258e8cf251c8fedc1e1353ba3dd37ca0d56b784cea1e1ddb82f4fc7d", "0.4.11--py_0": "sha256:c18ab1d292b53333e5bc69edab5ac25ea4b9f928cfb3f5a9617f941cfb8522ac"}, "docker": "quay.io/biocontainers/pythonpy", "aliases": {"py": "/usr/local/bin/py", "py2": "/usr/local/bin/py2", "py2.7": "/usr/local/bin/py2.7", "pycompleter": "/usr/local/bin/pycompleter", "pycompleter2": "/usr/local/bin/pycompleter2", "pycompleter2.7": "/usr/local/bin/pycompleter2.7", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pythonpy.

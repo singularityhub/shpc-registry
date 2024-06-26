@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-twig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-twig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-twig/container.yaml"
-updated_at: "2024-06-25 02:49:31.071487"
+updated_at: "2024-06-26 02:48:19.089666"
 latest: "3.52--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-xml-twig"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "3.52--pl526_2"
 description: "shpc-registry automated BioContainers addition for perl-xml-twig"
-config: {"url": "https://biocontainers.pro/tools/perl-xml-twig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-xml-twig", "latest": {"3.52--pl526_2": "sha256:f0c6b482fa8ac5bed5c8e0ed25378c392429dbcb191c332582c2dd8c458679eb"}, "tags": {"3.52--pl526_2": "sha256:f0c6b482fa8ac5bed5c8e0ed25378c392429dbcb191c332582c2dd8c458679eb"}, "docker": "quay.io/biocontainers/perl-xml-twig", "aliases": {"xml_grep": "/usr/local/bin/xml_grep", "xml_merge": "/usr/local/bin/xml_merge", "xml_pp": "/usr/local/bin/xml_pp", "xml_spellcheck": "/usr/local/bin/xml_spellcheck", "xml_split": "/usr/local/bin/xml_split", "webtidy": "/usr/local/bin/webtidy", "tidyp": "/usr/local/bin/tidyp", "htmltree": "/usr/local/bin/htmltree", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-xml-twig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-xml-twig", "latest": {"3.52--pl526_2": "sha256:fab3906b17a25ba79ac389e6dff6375bb7d77b8c43f1e2b1714fd18cda4800cf"}, "tags": {"3.52--pl526_2": "sha256:fab3906b17a25ba79ac389e6dff6375bb7d77b8c43f1e2b1714fd18cda4800cf"}, "docker": "quay.io/biocontainers/perl-xml-twig", "aliases": {"xml_grep": "/usr/local/bin/xml_grep", "xml_merge": "/usr/local/bin/xml_merge", "xml_pp": "/usr/local/bin/xml_pp", "xml_spellcheck": "/usr/local/bin/xml_spellcheck", "xml_split": "/usr/local/bin/xml_split", "webtidy": "/usr/local/bin/webtidy", "tidyp": "/usr/local/bin/tidyp", "htmltree": "/usr/local/bin/htmltree", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-xml-twig.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dunn.test"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dunn.test/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dunn.test/container.yaml"
-updated_at: "2024-06-25 02:45:44.694725"
+updated_at: "2024-06-26 02:44:38.955034"
 latest: "1.3.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-dunn.test"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.3.1--r3.2.2_0"
  - "1.3.1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-dunn.test"
-config: {"url": "https://biocontainers.pro/tools/r-dunn.test", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dunn.test", "latest": {"1.3.1--r3.2.2_0": "sha256:c9728af2d0a76e91dd1f817a3ad0be3e2f4fde01f76adb81f63888a8a7861912"}, "tags": {"1.3.1--r3.2.2_0": "sha256:c9728af2d0a76e91dd1f817a3ad0be3e2f4fde01f76adb81f63888a8a7861912", "1.3.1--r3.3.2_0": "sha256:2ea25e90e544bfc43ef069ec5f9959226a878baf8056a589f583090ebc65e64f"}, "docker": "quay.io/biocontainers/r-dunn.test", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-dunn.test", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dunn.test", "latest": {"1.3.1--r3.2.2_0": "sha256:b108925a463eed07b40819eccf3c11f728f1148d41bda0d92047bccfeda3f99f"}, "tags": {"1.3.1--r3.2.2_0": "sha256:b108925a463eed07b40819eccf3c11f728f1148d41bda0d92047bccfeda3f99f", "1.3.1--r3.3.2_0": "sha256:adce6a889acbd3508d1a90efbb4c6a0f5aa476ded60ad564d85a60fbf180b45d"}, "docker": "quay.io/biocontainers/r-dunn.test", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dunn.test.

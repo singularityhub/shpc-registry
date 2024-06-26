@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-email-date-format"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-email-date-format/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-email-date-format/container.yaml"
-updated_at: "2024-06-25 02:37:09.480282"
+updated_at: "2024-06-26 02:36:15.370228"
 latest: "1.005--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-email-date-format"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.005--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for perl-email-date-format"
-config: {"url": "https://biocontainers.pro/tools/perl-email-date-format", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-email-date-format", "latest": {"1.005--pl5321hdfd78af_3": "sha256:5d50d9690afeb25c5948555868498ee258f84b62c2fae8dd195d139b3b71eb3c"}, "tags": {"1.005--pl5321hdfd78af_3": "sha256:5d50d9690afeb25c5948555868498ee258f84b62c2fae8dd195d139b3b71eb3c"}, "docker": "quay.io/biocontainers/perl-email-date-format", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-email-date-format", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-email-date-format", "latest": {"1.005--pl5321hdfd78af_3": "sha256:d9ae0b2c8e67cbd4d395c05975e63eff7be92e8ab4cfd875c7c5cea4d70a114d"}, "tags": {"1.005--pl5321hdfd78af_3": "sha256:d9ae0b2c8e67cbd4d395c05975e63eff7be92e8ab4cfd875c7c5cea4d70a114d"}, "docker": "quay.io/biocontainers/perl-email-date-format", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-email-date-format.

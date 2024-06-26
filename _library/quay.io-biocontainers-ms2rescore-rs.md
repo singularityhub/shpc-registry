@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ms2rescore-rs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ms2rescore-rs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ms2rescore-rs/container.yaml"
-updated_at: "2024-06-25 02:47:59.354200"
-latest: "0.2.0--py39h801753a_0"
+updated_at: "2024-06-26 02:46:50.576555"
+latest: "0.2.0--py311hff4e47f_1"
 container_url: "https://biocontainers.pro/tools/ms2rescore-rs"
 aliases:
  - "2to3-3.9"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.2.0--py39h801753a_0"
  - "0.2.0--py310h28e8315_0"
+ - "0.2.0--py311hff4e47f_1"
 description: "singularity registry hpc automated addition for ms2rescore-rs"
-config: {"url": "https://biocontainers.pro/tools/ms2rescore-rs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ms2rescore-rs", "latest": {"0.2.0--py39h801753a_0": "sha256:9661fda435b0ca52dbe051f4fc93fae40520a1fd65df38122707a84c8655f68b"}, "tags": {"0.2.0--py39h801753a_0": "sha256:9661fda435b0ca52dbe051f4fc93fae40520a1fd65df38122707a84c8655f68b", "0.2.0--py310h28e8315_0": "sha256:5adfcdbe5ac9233a1643ad6d95686f0309f5d78b32769cd2d6658fd3bfc108ad"}, "docker": "quay.io/biocontainers/ms2rescore-rs", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/ms2rescore-rs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ms2rescore-rs", "latest": {"0.2.0--py311hff4e47f_1": "sha256:150ad35c27170c3b85a76cc98d2af0c0f6f83479f7df6b60fc7d4a3126d26478"}, "tags": {"0.2.0--py39h801753a_0": "sha256:9661fda435b0ca52dbe051f4fc93fae40520a1fd65df38122707a84c8655f68b", "0.2.0--py310h28e8315_0": "sha256:5adfcdbe5ac9233a1643ad6d95686f0309f5d78b32769cd2d6658fd3bfc108ad", "0.2.0--py311hff4e47f_1": "sha256:150ad35c27170c3b85a76cc98d2af0c0f6f83479f7df6b60fc7d4a3126d26478"}, "docker": "quay.io/biocontainers/ms2rescore-rs", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ms2rescore-rs.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/ms2rescore-rs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ms2rescore-rs:0.2.0--py39h801753a_0
+$ shpc install quay.io/biocontainers/ms2rescore-rs:0.2.0--py311hff4e47f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ms2rescore-rs/0.2.0--py39h801753a_0
-$ module help quay.io/biocontainers/ms2rescore-rs/0.2.0--py39h801753a_0
+$ module load quay.io/biocontainers/ms2rescore-rs/0.2.0--py311hff4e47f_1
+$ module help quay.io/biocontainers/ms2rescore-rs/0.2.0--py311hff4e47f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mupbwt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mupbwt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mupbwt/container.yaml"
-updated_at: "2024-06-25 02:42:28.591763"
-latest: "0.1.2--h6ab5fc9_2"
+updated_at: "2024-06-26 02:41:27.188075"
+latest: "0.1.2--h43eeafb_3"
 container_url: "https://biocontainers.pro/tools/mupbwt"
 aliases:
  - "mupbwt"
@@ -16,8 +16,9 @@ versions:
  - "0.1.2--hea94271_0"
  - "0.1.2--hff880f7_1"
  - "0.1.2--h6ab5fc9_2"
+ - "0.1.2--h43eeafb_3"
 description: "singularity registry hpc automated addition for mupbwt"
-config: {"url": "https://biocontainers.pro/tools/mupbwt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mupbwt", "latest": {"0.1.2--h6ab5fc9_2": "sha256:6b55a46ce664618e4f3aa36937ba853f948642da69f239ae34aa41e65536a302"}, "tags": {"0.1.2--hea94271_0": "sha256:d24e35d23ed0799552d3486c95eff7b98541f0e44fc3d07390ae897eea94297d", "0.1.2--hff880f7_1": "sha256:e266a336002e603a0eab8c39a5f8a800c85b257d407c0db6441ee5963e570a32", "0.1.2--h6ab5fc9_2": "sha256:6b55a46ce664618e4f3aa36937ba853f948642da69f239ae34aa41e65536a302"}, "docker": "quay.io/biocontainers/mupbwt", "aliases": {"mupbwt": "/usr/local/bin/mupbwt", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/mupbwt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mupbwt", "latest": {"0.1.2--h43eeafb_3": "sha256:a95653b27e6fd0f215cff4076018d9479fa0093b2818bb760fc72968afec89b6"}, "tags": {"0.1.2--hea94271_0": "sha256:d24e35d23ed0799552d3486c95eff7b98541f0e44fc3d07390ae897eea94297d", "0.1.2--hff880f7_1": "sha256:e266a336002e603a0eab8c39a5f8a800c85b257d407c0db6441ee5963e570a32", "0.1.2--h6ab5fc9_2": "sha256:6b55a46ce664618e4f3aa36937ba853f948642da69f239ae34aa41e65536a302", "0.1.2--h43eeafb_3": "sha256:a95653b27e6fd0f215cff4076018d9479fa0093b2818bb760fc72968afec89b6"}, "docker": "quay.io/biocontainers/mupbwt", "aliases": {"mupbwt": "/usr/local/bin/mupbwt", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mupbwt.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/mupbwt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mupbwt:0.1.2--h6ab5fc9_2
+$ shpc install quay.io/biocontainers/mupbwt:0.1.2--h43eeafb_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mupbwt/0.1.2--h6ab5fc9_2
-$ module help quay.io/biocontainers/mupbwt/0.1.2--h6ab5fc9_2
+$ module load quay.io/biocontainers/mupbwt/0.1.2--h43eeafb_3
+$ module help quay.io/biocontainers/mupbwt/0.1.2--h43eeafb_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

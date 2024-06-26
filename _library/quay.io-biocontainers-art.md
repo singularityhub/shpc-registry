@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/art"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/art/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/art/container.yaml"
-updated_at: "2024-06-25 02:37:01.503861"
+updated_at: "2024-06-26 02:36:07.822060"
 latest: "2016.06.05--h589041f_9"
 container_url: "https://biocontainers.pro/tools/art"
 aliases:

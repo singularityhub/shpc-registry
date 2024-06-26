@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/py_fasta_validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/py_fasta_validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/py_fasta_validator/container.yaml"
-updated_at: "2024-06-25 02:45:19.503740"
-latest: "0.6--py39hd65a603_3"
+updated_at: "2024-06-26 02:44:14.313103"
+latest: "0.6--py38hd638cd3_4"
 container_url: "https://biocontainers.pro/tools/py_fasta_validator"
 aliases:
  - "py_fasta_validator"
@@ -20,8 +20,9 @@ versions:
  - "0.6--py39hd65a603_3"
  - "0.6--py310h2b6aa90_3"
  - "0.5--py310h30d9df9_3"
+ - "0.6--py38hd638cd3_4"
 description: "singularity registry hpc automated addition for py_fasta_validator"
-config: {"url": "https://biocontainers.pro/tools/py_fasta_validator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for py_fasta_validator", "latest": {"0.6--py39hd65a603_3": "sha256:941dd9f0469a53304c376faa1eb9672b77dddb0334d8033414e1742d08926264"}, "tags": {"0.5--py38h4a32c8e_3": "sha256:a9e80e766f3cb5917faec86d426463017d36ab566451ef5c437a2570ee25d582", "0.6--py39h6935b12_0": "sha256:f5274a5bf7b3e8c1a7b8e47a2e62333daa04cd33e163399755802da3ffbb23d1", "0.6--py39hd65a603_3": "sha256:941dd9f0469a53304c376faa1eb9672b77dddb0334d8033414e1742d08926264", "0.6--py310h2b6aa90_3": "sha256:ed3f428e981ed6b5ab1dd27c36482718c6912193eba95c224c105a4da01fec90", "0.5--py310h30d9df9_3": "sha256:6b049e34905949d5f91575b17e3ef190072a4874a5856daac9168e11d9999847"}, "docker": "quay.io/biocontainers/py_fasta_validator", "aliases": {"py_fasta_validator": "/usr/local/bin/py_fasta_validator", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/py_fasta_validator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for py_fasta_validator", "latest": {"0.6--py38hd638cd3_4": "sha256:b5538c5320a6d0dc562696f4720b906b2b3b1762fea7131c631357d999323358"}, "tags": {"0.5--py38h4a32c8e_3": "sha256:a9e80e766f3cb5917faec86d426463017d36ab566451ef5c437a2570ee25d582", "0.6--py39h6935b12_0": "sha256:f5274a5bf7b3e8c1a7b8e47a2e62333daa04cd33e163399755802da3ffbb23d1", "0.6--py39hd65a603_3": "sha256:941dd9f0469a53304c376faa1eb9672b77dddb0334d8033414e1742d08926264", "0.6--py310h2b6aa90_3": "sha256:ed3f428e981ed6b5ab1dd27c36482718c6912193eba95c224c105a4da01fec90", "0.5--py310h30d9df9_3": "sha256:6b049e34905949d5f91575b17e3ef190072a4874a5856daac9168e11d9999847", "0.6--py38hd638cd3_4": "sha256:b5538c5320a6d0dc562696f4720b906b2b3b1762fea7131c631357d999323358"}, "docker": "quay.io/biocontainers/py_fasta_validator", "aliases": {"py_fasta_validator": "/usr/local/bin/py_fasta_validator", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/py_fasta_validator.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/py_fasta_validator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/py_fasta_validator:0.6--py39hd65a603_3
+$ shpc install quay.io/biocontainers/py_fasta_validator:0.6--py38hd638cd3_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/py_fasta_validator/0.6--py39hd65a603_3
-$ module help quay.io/biocontainers/py_fasta_validator/0.6--py39hd65a603_3
+$ module load quay.io/biocontainers/py_fasta_validator/0.6--py38hd638cd3_4
+$ module help quay.io/biocontainers/py_fasta_validator/0.6--py38hd638cd3_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

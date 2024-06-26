@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastindep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastindep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastindep/container.yaml"
-updated_at: "2024-06-25 02:42:06.075981"
+updated_at: "2024-06-26 02:41:05.616480"
 latest: "1.0.0--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/fastindep"
 aliases:

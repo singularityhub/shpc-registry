@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-slinky"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-slinky/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-slinky/container.yaml"
-updated_at: "2024-06-25 03:15:09.453754"
+updated_at: "2024-06-26 03:12:54.664973"
 latest: "1.12.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-slinky"
 aliases:

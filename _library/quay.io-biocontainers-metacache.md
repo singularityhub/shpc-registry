@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metacache"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacache/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacache/container.yaml"
-updated_at: "2024-06-25 03:11:55.560969"
+updated_at: "2024-06-26 03:09:54.600884"
 latest: "2.4.2--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/metacache"
 aliases:

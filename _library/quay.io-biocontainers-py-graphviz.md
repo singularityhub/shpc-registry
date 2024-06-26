@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/py-graphviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/py-graphviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/py-graphviz/container.yaml"
-updated_at: "2024-06-25 02:57:38.907586"
+updated_at: "2024-06-26 02:56:12.927547"
 latest: "0.4.10--py_1"
 container_url: "https://biocontainers.pro/tools/py-graphviz"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.4.10--py_1"
 description: "shpc-registry automated BioContainers addition for py-graphviz"
-config: {"url": "https://biocontainers.pro/tools/py-graphviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for py-graphviz", "latest": {"0.4.10--py_1": "sha256:45766e4bafec78bb5d400d90f9abecd4443ab7a5db934ffd39361beae37e8b2d"}, "tags": {"0.4.10--py_1": "sha256:45766e4bafec78bb5d400d90f9abecd4443ab7a5db934ffd39361beae37e8b2d"}, "docker": "quay.io/biocontainers/py-graphviz", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/py-graphviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for py-graphviz", "latest": {"0.4.10--py_1": "sha256:3e9463e7bb6d28b3ff0ae8b40c8daf36a273ab2b04df304c42fa834bdaf46a41"}, "tags": {"0.4.10--py_1": "sha256:3e9463e7bb6d28b3ff0ae8b40c8daf36a273ab2b04df304c42fa834bdaf46a41"}, "docker": "quay.io/biocontainers/py-graphviz", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/py-graphviz.

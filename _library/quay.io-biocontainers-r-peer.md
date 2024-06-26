@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-peer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-peer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-peer/container.yaml"
-updated_at: "2024-06-25 03:22:22.918694"
+updated_at: "2024-06-26 03:19:47.137092"
 latest: "1.3--r341h470a237_1"
 container_url: "https://biocontainers.pro/tools/r-peer"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.3--r341h470a237_1"
 description: "shpc-registry automated BioContainers addition for r-peer"
-config: {"url": "https://biocontainers.pro/tools/r-peer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-peer", "latest": {"1.3--r341h470a237_1": "sha256:a1f701ccf7a278805b51ad8cc1eeb8df532fda2553a5daf4cc2baf6fbd3feb02"}, "tags": {"1.3--r341h470a237_1": "sha256:a1f701ccf7a278805b51ad8cc1eeb8df532fda2553a5daf4cc2baf6fbd3feb02"}, "docker": "quay.io/biocontainers/r-peer", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-peer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-peer", "latest": {"1.3--r341h470a237_1": "sha256:3ea7faf37d9cb93960e37c45825b42ec5bed4800a5797ce9e1003edee8d69c2e"}, "tags": {"1.3--r341h470a237_1": "sha256:3ea7faf37d9cb93960e37c45825b42ec5bed4800a5797ce9e1003edee8d69c2e"}, "docker": "quay.io/biocontainers/r-peer", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-peer.

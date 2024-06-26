@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gfinisher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfinisher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfinisher/container.yaml"
-updated_at: "2024-06-25 02:38:15.438272"
+updated_at: "2024-06-26 02:37:20.308907"
 latest: "1.4--py27_0"
 container_url: "https://biocontainers.pro/tools/gfinisher"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "1.4--py27_0"
  - "1.4--py36_0"
 description: "shpc-registry automated BioContainers addition for gfinisher"
-config: {"url": "https://biocontainers.pro/tools/gfinisher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gfinisher", "latest": {"1.4--py27_0": "sha256:a32fffd445e119efc977573ef56eb8a49984dff124c422fbbb15d55c2ef44642"}, "tags": {"1.4--py27_0": "sha256:a32fffd445e119efc977573ef56eb8a49984dff124c422fbbb15d55c2ef44642", "1.4--py36_0": "sha256:127c24773013551cf38ed02e9bb3d810375af3ecba8e03c7006f0b04fac4154c"}, "docker": "quay.io/biocontainers/gfinisher", "aliases": {"gfinisher": "/usr/local/bin/gfinisher", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj"}}
+config: {"url": "https://biocontainers.pro/tools/gfinisher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gfinisher", "latest": {"1.4--py27_0": "sha256:ca6550004c6a844267342e86fccdf064c9376b963dfe09a261e87daf38a631b3"}, "tags": {"1.4--py27_0": "sha256:ca6550004c6a844267342e86fccdf064c9376b963dfe09a261e87daf38a631b3", "1.4--py36_0": "sha256:716ebdeaa5835cf9660266a1a83bb5f90e944463410b4b75be68f21a8c4d20c7"}, "docker": "quay.io/biocontainers/gfinisher", "aliases": {"gfinisher": "/usr/local/bin/gfinisher", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gfinisher.

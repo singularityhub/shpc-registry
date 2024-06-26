@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smartdenovo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smartdenovo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smartdenovo/container.yaml"
-updated_at: "2024-06-25 02:48:36.770678"
+updated_at: "2024-06-26 02:47:26.730692"
 latest: "1.0.0--h031d066_7"
 container_url: "https://biocontainers.pro/tools/smartdenovo"
 aliases:
@@ -27,7 +27,7 @@ versions:
  - "1.0.0--hec16e2b_5"
  - "1.0.0--h031d066_7"
 description: "shpc-registry automated BioContainers addition for smartdenovo"
-config: {"url": "https://biocontainers.pro/tools/smartdenovo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smartdenovo", "latest": {"1.0.0--h031d066_7": "sha256:e98d67ff989b2707d04247395a800d8e18178e56689ef315f333872ca82bddc4"}, "tags": {"1.0.0--hec16e2b_5": "sha256:0d45291b3ba458ea76b2a8aaa0f2b94b2a064721ac62e47ac053c80d55e4b13b", "1.0.0--h031d066_7": "sha256:e98d67ff989b2707d04247395a800d8e18178e56689ef315f333872ca82bddc4"}, "docker": "quay.io/biocontainers/smartdenovo", "aliases": {"pairaln": "/usr/local/bin/pairaln", "smartdenovo.pl": "/usr/local/bin/smartdenovo.pl", "wtclp": "/usr/local/bin/wtclp", "wtcns": "/usr/local/bin/wtcns", "wtcyc": "/usr/local/bin/wtcyc", "wtext": "/usr/local/bin/wtext", "wtgbo": "/usr/local/bin/wtgbo", "wtlay": "/usr/local/bin/wtlay", "wtmer": "/usr/local/bin/wtmer", "wtmsa": "/usr/local/bin/wtmsa", "wtobt": "/usr/local/bin/wtobt", "wtpre": "/usr/local/bin/wtpre", "wtzmo": "/usr/local/bin/wtzmo", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/smartdenovo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smartdenovo", "latest": {"1.0.0--h031d066_7": "sha256:dd1a2eae73379ea7503c99d4ebd6ec4de7e6416903b335f8606bb1b027a9ac0b"}, "tags": {"1.0.0--hec16e2b_5": "sha256:0d45291b3ba458ea76b2a8aaa0f2b94b2a064721ac62e47ac053c80d55e4b13b", "1.0.0--h031d066_7": "sha256:dd1a2eae73379ea7503c99d4ebd6ec4de7e6416903b335f8606bb1b027a9ac0b"}, "docker": "quay.io/biocontainers/smartdenovo", "aliases": {"pairaln": "/usr/local/bin/pairaln", "smartdenovo.pl": "/usr/local/bin/smartdenovo.pl", "wtclp": "/usr/local/bin/wtclp", "wtcns": "/usr/local/bin/wtcns", "wtcyc": "/usr/local/bin/wtcyc", "wtext": "/usr/local/bin/wtext", "wtgbo": "/usr/local/bin/wtgbo", "wtlay": "/usr/local/bin/wtlay", "wtmer": "/usr/local/bin/wtmer", "wtmsa": "/usr/local/bin/wtmsa", "wtobt": "/usr/local/bin/wtobt", "wtpre": "/usr/local/bin/wtpre", "wtzmo": "/usr/local/bin/wtzmo", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smartdenovo.

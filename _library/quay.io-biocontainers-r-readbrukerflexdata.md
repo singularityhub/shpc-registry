@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-readbrukerflexdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-readbrukerflexdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-readbrukerflexdata/container.yaml"
-updated_at: "2024-06-25 03:06:28.309797"
+updated_at: "2024-06-26 03:04:43.349429"
 latest: "1.8.5--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-readbrukerflexdata"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.8.5--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-readbrukerflexdata"
-config: {"url": "https://biocontainers.pro/tools/r-readbrukerflexdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-readbrukerflexdata", "latest": {"1.8.5--r3.4.1_0": "sha256:419f9e5869e52f5f56b9512e8405be13262d0fb4636b373a379c3e6b73a2a9d4"}, "tags": {"1.8.5--r3.4.1_0": "sha256:419f9e5869e52f5f56b9512e8405be13262d0fb4636b373a379c3e6b73a2a9d4"}, "docker": "quay.io/biocontainers/r-readbrukerflexdata", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-readbrukerflexdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-readbrukerflexdata", "latest": {"1.8.5--r3.4.1_0": "sha256:36a228bff3507f1eae612616b4d60b2899ab10b8c5bdf628e9c3e7d499ef15c2"}, "tags": {"1.8.5--r3.4.1_0": "sha256:36a228bff3507f1eae612616b4d60b2899ab10b8c5bdf628e9c3e7d499ef15c2"}, "docker": "quay.io/biocontainers/r-readbrukerflexdata", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-readbrukerflexdata.

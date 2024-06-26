@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sbt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sbt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sbt/container.yaml"
-updated_at: "2024-06-25 03:05:37.882464"
+updated_at: "2024-06-26 03:03:54.130342"
 latest: "0.13.12--1"
 container_url: "https://biocontainers.pro/tools/sbt"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.13.12--1"
 description: "shpc-registry automated BioContainers addition for sbt"
-config: {"url": "https://biocontainers.pro/tools/sbt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sbt", "latest": {"0.13.12--1": "sha256:0a7e5bdb3f6da90b5c97ce8e2d21e4d3d37dafef080ccfd681441145cefd5af0"}, "tags": {"0.13.12--1": "sha256:0a7e5bdb3f6da90b5c97ce8e2d21e4d3d37dafef080ccfd681441145cefd5af0"}, "docker": "quay.io/biocontainers/sbt", "aliases": {"sbt": "/usr/local/bin/sbt", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/sbt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sbt", "latest": {"0.13.12--1": "sha256:d30e5176a4a04ca9aba913f96c1e13ded84662137477152c6e4fb14b285fb52d"}, "tags": {"0.13.12--1": "sha256:d30e5176a4a04ca9aba913f96c1e13ded84662137477152c6e4fb14b285fb52d"}, "docker": "quay.io/biocontainers/sbt", "aliases": {"sbt": "/usr/local/bin/sbt", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sbt.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pma/container.yaml"
-updated_at: "2024-06-25 02:48:02.801231"
+updated_at: "2024-06-26 02:46:53.926721"
 latest: "1.2.1--r40h0357c0b_2"
 container_url: "https://biocontainers.pro/tools/r-pma"
 aliases:

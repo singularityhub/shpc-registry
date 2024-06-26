@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pfam.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pfam.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pfam.db/container.yaml"
-updated_at: "2024-06-25 03:16:38.167089"
+updated_at: "2024-06-26 03:14:16.940827"
 latest: "3.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pfam.db"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-runit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-runit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-runit/container.yaml"
-updated_at: "2024-06-25 03:15:16.608808"
+updated_at: "2024-06-26 03:13:01.108641"
 latest: "0.4.31--r3.2.2_1"
 container_url: "https://biocontainers.pro/tools/r-runit"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "0.4.31--r3.2.2_1"
  - "0.4.31--r3.3.2_1"
 description: "shpc-registry automated BioContainers addition for r-runit"
-config: {"url": "https://biocontainers.pro/tools/r-runit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-runit", "latest": {"0.4.31--r3.2.2_1": "sha256:41e1d81179ffe2a19bb4f4cb8fb773cbb202135b03b4d5d32e64a7f1b1ae2200"}, "tags": {"0.4.31--r3.2.2_1": "sha256:41e1d81179ffe2a19bb4f4cb8fb773cbb202135b03b4d5d32e64a7f1b1ae2200", "0.4.31--r3.3.2_1": "sha256:c477fcb7a0c47ff7b596a40f317658ea392871915edc63031e085439ef788e66"}, "docker": "quay.io/biocontainers/r-runit", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-runit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-runit", "latest": {"0.4.31--r3.2.2_1": "sha256:73f4f38445503a68c661caa4839810c2f2bd12738e7d5f714ee38366a98acd40"}, "tags": {"0.4.31--r3.2.2_1": "sha256:73f4f38445503a68c661caa4839810c2f2bd12738e7d5f714ee38366a98acd40", "0.4.31--r3.3.2_1": "sha256:fa4cae8c89ffe29b9a12a7e11fd71caa17b291fea24369fb39d76285ab5ad761"}, "docker": "quay.io/biocontainers/r-runit", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-runit.

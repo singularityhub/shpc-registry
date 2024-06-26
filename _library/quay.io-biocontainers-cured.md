@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cured"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cured/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cured/container.yaml"
-updated_at: "2024-06-25 02:52:00.594081"
+updated_at: "2024-06-26 02:50:43.933185"
 latest: "1.05--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cured"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/web.py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/web.py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/web.py/container.yaml"
-updated_at: "2024-06-25 02:39:56.750910"
+updated_at: "2024-06-26 02:38:59.568066"
 latest: "0.37--py27_1"
 container_url: "https://biocontainers.pro/tools/web.py"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.37--py27_1"
 description: "shpc-registry automated BioContainers addition for web.py"
-config: {"url": "https://biocontainers.pro/tools/web.py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for web.py", "latest": {"0.37--py27_1": "sha256:6ea2c11e55cdb3c79ebd0976d0cd6ebd1d1e5682a29dfe552c5fd2999b4f4b84"}, "tags": {"0.37--py27_1": "sha256:6ea2c11e55cdb3c79ebd0976d0cd6ebd1d1e5682a29dfe552c5fd2999b4f4b84"}, "docker": "quay.io/biocontainers/web.py", "aliases": {"smtpd.pyc": "/usr/local/bin/smtpd.pyc", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/web.py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for web.py", "latest": {"0.37--py27_1": "sha256:fb897f237e03805affb2411c20769f8ee9d345857a593d16fbdab5719f0c96ab"}, "tags": {"0.37--py27_1": "sha256:fb897f237e03805affb2411c20769f8ee9d345857a593d16fbdab5719f0c96ab"}, "docker": "quay.io/biocontainers/web.py", "aliases": {"smtpd.pyc": "/usr/local/bin/smtpd.pyc", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/web.py.

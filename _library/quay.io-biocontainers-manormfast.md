@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/manormfast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/manormfast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/manormfast/container.yaml"
-updated_at: "2024-06-25 02:47:19.507374"
+updated_at: "2024-06-26 02:46:11.676306"
 latest: "0.1.2--py36_1"
 container_url: "https://biocontainers.pro/tools/manormfast"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "gst-play-1.0"
 versions:
  - "0.1.2--py36_1"
+ - "0.1.2--py27_1"
 description: "shpc-registry automated BioContainers addition for manormfast"
-config: {"url": "https://biocontainers.pro/tools/manormfast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for manormfast", "latest": {"0.1.2--py36_1": "sha256:ffc4a0b6926311eb4892f9937e6475b83eaac3ce55eb285c0acd0b2ec3f0f1b1"}, "tags": {"0.1.2--py36_1": "sha256:ffc4a0b6926311eb4892f9937e6475b83eaac3ce55eb285c0acd0b2ec3f0f1b1"}, "docker": "quay.io/biocontainers/manormfast", "aliases": {"MAnormFast": "/usr/local/bin/MAnormFast", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0", "gst-discoverer-1.0": "/usr/local/bin/gst-discoverer-1.0", "gst-play-1.0": "/usr/local/bin/gst-play-1.0"}}
+config: {"url": "https://biocontainers.pro/tools/manormfast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for manormfast", "latest": {"0.1.2--py36_1": "sha256:e262c65793eb65aeedde64a11dc13755de147c2859fe0f36ac827b851c693415"}, "tags": {"0.1.2--py36_1": "sha256:e262c65793eb65aeedde64a11dc13755de147c2859fe0f36ac827b851c693415", "0.1.2--py27_1": "sha256:78c782d9891933810fa7a4daf16d935a7323cfb7337302dd4cf042a85bbd8a3c"}, "docker": "quay.io/biocontainers/manormfast", "aliases": {"MAnormFast": "/usr/local/bin/MAnormFast", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0", "gst-discoverer-1.0": "/usr/local/bin/gst-discoverer-1.0", "gst-play-1.0": "/usr/local/bin/gst-play-1.0"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/manormfast.

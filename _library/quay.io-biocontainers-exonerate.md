@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/exonerate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/exonerate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/exonerate/container.yaml"
-updated_at: "2024-06-25 02:53:35.826862"
+updated_at: "2024-06-26 02:52:16.071544"
 latest: "2.4.0--h09da616_8"
 container_url: "https://biocontainers.pro/tools/exonerate"
 aliases:
