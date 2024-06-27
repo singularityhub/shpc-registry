@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/scg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scg
 latest:
-  0.3.1--py_2: sha256:aafbd676f47f413c44b4fbaee3f4221b917d3eed1f5f69630f722a6c4895398e
+  0.3.1--py_2: sha256:7dcd4ec7513e5d12a2ff8a8cd79792f3f543694e388ff1a642a0eac49c2862af
 tags:
-  0.3.1--py_2: sha256:aafbd676f47f413c44b4fbaee3f4221b917d3eed1f5f69630f722a6c4895398e
+  0.3.1--py_2: sha256:7dcd4ec7513e5d12a2ff8a8cd79792f3f543694e388ff1a642a0eac49c2862af
 docker: quay.io/biocontainers/scg
 aliases:
   scg: /usr/local/bin/scg

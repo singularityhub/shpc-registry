@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/pash
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pash
 latest:
-  3.0.6.2--0: sha256:0755075a8b5078a21e0be5edddf1dbf30b2f911ce1eeb1690cdc14f653594c94
+  3.0.6.2--0: sha256:6b96e1bcdd7a51e709525bf08eccdf6402075292bc0ca87fea0e118688486b25
 tags:
-  3.0.6.2--0: sha256:0755075a8b5078a21e0be5edddf1dbf30b2f911ce1eeb1690cdc14f653594c94
+  3.0.6.2--0: sha256:6b96e1bcdd7a51e709525bf08eccdf6402075292bc0ca87fea0e118688486b25
 docker: quay.io/biocontainers/pash
 aliases:
   buildFastaIndex.rb: /usr/local/bin/buildFastaIndex.rb

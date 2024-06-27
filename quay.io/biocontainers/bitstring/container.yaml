@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/bitstring
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bitstring
 latest:
-  3.1.5--py35_1: sha256:4b0ae51210b5ca8227cb5caffa472f20c0967991816fc26825933532e71e3004
+  3.1.5--py35_1: sha256:f3fe357b0a33ac872a54363cb8314a297338f1f1e5522089182aecccbcaaf520
 tags:
-  3.1.5--py35_1: sha256:4b0ae51210b5ca8227cb5caffa472f20c0967991816fc26825933532e71e3004
-  3.1.5--py36_1: sha256:4973ac025ce948a9854e6ec167421d0b9ddd367db99c1b447a85ec940dd76391
+  3.1.5--py35_1: sha256:f3fe357b0a33ac872a54363cb8314a297338f1f1e5522089182aecccbcaaf520
+  3.1.5--py36_1: sha256:150cb35b0a8387be6b62639144e1ea814f8397a576e1aa7d590129ab495d62fc
 docker: quay.io/biocontainers/bitstring
 aliases:
   2to3-3.5: /usr/local/bin/2to3-3.5

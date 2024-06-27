@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/smncopynumbercaller
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for smncopynumbercaller
 latest:
-  1.1.2--py310h7cba7a3_0: sha256:77467ff8b974e40ad8bacde54d2a00657b02a80f023fd563808d7038e0513b13
+  1.1.2--py312h7e72e81_1: sha256:366ae36e1ef4abed438a8562c9580c2ccb4a4c2a499271a54e1e6904090e2a28
 tags:
   1.1.2--py310h7cba7a3_0: sha256:77467ff8b974e40ad8bacde54d2a00657b02a80f023fd563808d7038e0513b13
+  1.1.2--py312h7e72e81_1: sha256:366ae36e1ef4abed438a8562c9580c2ccb4a4c2a499271a54e1e6904090e2a28
 docker: quay.io/biocontainers/smncopynumbercaller
 aliases:
   COPYRIGHT.txt: /usr/local/bin/COPYRIGHT.txt

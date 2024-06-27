@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/ftputil
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ftputil
 latest:
-  3.2--py35_0: sha256:45a621372452bffe9c3afd495b56e6b0dfff027a263965dfe613fb9f0b276a50
+  3.2--py35_0: sha256:6bb711f04030f4bc655bf04d66fdb4382ac40cc4b31e24c1a54f0e9043bcf56d
 tags:
-  3.2--py35_0: sha256:45a621372452bffe9c3afd495b56e6b0dfff027a263965dfe613fb9f0b276a50
-  3.2--py36_0: sha256:7de5de1ca354fb4cdd40b5ce998523ca419941be40b1de9d3bbffd28e8c7093d
+  3.2--py35_0: sha256:6bb711f04030f4bc655bf04d66fdb4382ac40cc4b31e24c1a54f0e9043bcf56d
+  3.2--py36_0: sha256:77a1a22f22f1eda4f04d394d4e78b9b0a136862caab5753bc6d8f71b1808b3a1
 docker: quay.io/biocontainers/ftputil
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/samsum
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for samsum
 latest:
-  0.1.4--py39hf662ef1_4: sha256:c473f472ebc551d2f0826fbf1d40953ce8daff2ba1239fc1cd932b31d8a0dc1d
+  0.1.4--py39h1ebeb1a_5: sha256:c8d3beaf961a1abbd49b1efc9db32c9535ce38a90ad5cbe3648373d1edd887ca
 tags:
   0.1.4--py36hffcf100_2: sha256:8d94f17326d703d462d1281076b78eacdcd1883de203ebc508eabbc3551b42ec
   0.1.4--py39hf662ef1_3: sha256:46e847336dd07a9cb31590c3c7f1b3c0bcf115ae5215e64386ccec56b145726f
   0.1.4--py310hc2b1e32_3: sha256:7964df8891b17d24de5477261b01ed918fc357470834922f6e8351b33c08bffe
   0.1.4--py39hf662ef1_4: sha256:c473f472ebc551d2f0826fbf1d40953ce8daff2ba1239fc1cd932b31d8a0dc1d
+  0.1.4--py39h1ebeb1a_5: sha256:c8d3beaf961a1abbd49b1efc9db32c9535ce38a90ad5cbe3648373d1edd887ca
 docker: quay.io/biocontainers/samsum
 aliases:
   pyfastx: /usr/local/bin/pyfastx

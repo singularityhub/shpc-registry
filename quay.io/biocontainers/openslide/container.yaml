@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/openslide
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for openslide
 latest:
-  3.4.1--2: sha256:5b9c4456eeca74ab4b7fd0b6984ab23cca109abb06f55e8474b63ac7c0b020de
+  3.4.1--2: sha256:3ac32a87d874eb4c003b6b87a54b94a20979defd53b97d9445625d9105f55db3
 tags:
-  3.4.1--2: sha256:5b9c4456eeca74ab4b7fd0b6984ab23cca109abb06f55e8474b63ac7c0b020de
+  3.4.1--2: sha256:3ac32a87d874eb4c003b6b87a54b94a20979defd53b97d9445625d9105f55db3
 docker: quay.io/biocontainers/openslide

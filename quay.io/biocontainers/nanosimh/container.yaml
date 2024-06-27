@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/nanosimh
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nanosimh
 latest:
-  v1.0.1.8--py35r3.3.1_1: sha256:535870e69f8d18ca8062b3b960845ba077c41ffd6d831d739ea14ea0cc074449
+  v1.0.1.8--py35r3.3.1_1: sha256:e5294861a1c75387221c83c29bed8db165fc00c5ab1379a572542f84952f39f9
 tags:
-  v1.0.1.8--py35r3.3.1_1: sha256:535870e69f8d18ca8062b3b960845ba077c41ffd6d831d739ea14ea0cc074449
+  v1.0.1.8--py35r3.3.1_1: sha256:e5294861a1c75387221c83c29bed8db165fc00c5ab1379a572542f84952f39f9
+  v1.0.1.8--py34r3.3.1_1: sha256:60b701eb82f9cd0f6a329ce9c741552d5e132f0422e52e265e8ea9ff22b6f374
 docker: quay.io/biocontainers/nanosimh
 aliases:
   fastq-interleave: /usr/local/bin/fastq-interleave

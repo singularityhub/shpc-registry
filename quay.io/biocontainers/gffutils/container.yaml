@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for gffutils
 latest:
   0.13--pyh7cba7a3_0: sha256:f056c7dce8cc7eae80186f5a0499355a39a973c4025b5f45f08217bbd6d22abd
 tags:
-  0.9--py_1: sha256:dc769d1465c11ff16fc8e925ab192c9dd23c6908b9c89329e4b1e4abae641f8e
+  0.9--py_1: sha256:37ff0c1c2fb8b08dda8ae64f0b5662bdcd8afcdbe971709e9dbe912ddd200ab1
   0.11.1--pyh7cba7a3_0: sha256:70f89e26735489d1929fc0e3a1341bc17ee737652cc1c3b783f6023120ae2a46
   0.10.1--pyh864c0ab_1: sha256:d6136ad91a84406a16109cc180f900c3c500c59cf693d738bf5bc2aa38f65e51
   0.12--pyh7cba7a3_0: sha256:05ab1a518d14d60b6d14b4fba0c968026a32e7eb3c4066f72c797c684e3ee372

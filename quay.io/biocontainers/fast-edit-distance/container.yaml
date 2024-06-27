@@ -5,6 +5,7 @@ latest:
   1.2.1--py310h7c593f9_1: sha256:3d02efb64342a646935859a8b9deb6b5c629e890252ad35d15dd697a4c2f19a5
 tags:
   1.2.1--py310h7c593f9_1: sha256:3d02efb64342a646935859a8b9deb6b5c629e890252ad35d15dd697a4c2f19a5
+  1.2.1--py311hdad781d_1: sha256:098301cdb18da9f5c5ee05342fe17690f44d142aa31d2bb07e2aeffcbc30da0b
 docker: quay.io/biocontainers/fast-edit-distance
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

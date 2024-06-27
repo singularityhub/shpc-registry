@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for nanoget
 latest:
   1.19.3--pyhdfd78af_0: sha256:6a355ee32c5c45428cf785a569c3901a530c6931a84452ad0a999b7ce77e7a95
 tags:
-  1.9.1--py_0: sha256:af5c195a9db2b32319a9413d7c5682073aa839cc50928c97bb0d03a64ccf7993
+  1.9.1--py_0: sha256:99f3aca169ce5c2abb869ce0661ebc6af3279da2cbb340347df38609bacdbc94
   1.18.1--pyhdfd78af_0: sha256:c67b8ebc80aa83cdd8e84ab1fd4337c39c3ed9ab8eb82123075f553fa3efbfb9
   1.17.0--pyhdfd78af_0: sha256:15cdc20082be71bf770727b28718544eba87ccfc62f0071eebe35f8ea52760a6
   1.16.1--py_0: sha256:b4a009499d518713f2591052177bcf9968551bf5f0b652fb89ba6fec2097e565

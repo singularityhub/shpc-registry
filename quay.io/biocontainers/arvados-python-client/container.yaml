@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/arvados-python-client
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for arvados-python-client
 latest:
-  2.7.2--pyhdfd78af_0: sha256:89a774483cc23bd2d19e795e838601e035f8e34fc71492b282d400044e6d5111
+  2.7.3--pyhdfd78af_0: sha256:1910b63708e4f2c1f1a3d566038cc70812a646336ceca6915cfc8dee0195355a
 tags:
   2.0.2--py_0: sha256:f3f6a04e4a465fa9d6510bb8baab41d435622a7d95415a79fe94dac907658345
   2.7.1--pyhdfd78af_0: sha256:ffeefaf89f0053adfee3c9dc4fa28feafb6cb980b2c5bfc4bd9a1114222e92cf
@@ -11,6 +11,7 @@ tags:
   2.4.4--pyhdfd78af_0: sha256:8388571ea1f8a011dfba97de460562b242a40aa15c5ab1d4334613334602e1c7
   2.3.3--pyhdfd78af_0: sha256:2b2764f005bb98190409ffa0c463df3854e13a6b3784bfb8783c6c1717c6e017
   2.7.2--pyhdfd78af_0: sha256:89a774483cc23bd2d19e795e838601e035f8e34fc71492b282d400044e6d5111
+  2.7.3--pyhdfd78af_0: sha256:1910b63708e4f2c1f1a3d566038cc70812a646336ceca6915cfc8dee0195355a
 docker: quay.io/biocontainers/arvados-python-client
 aliases:
   arv-copy: /usr/local/bin/arv-copy

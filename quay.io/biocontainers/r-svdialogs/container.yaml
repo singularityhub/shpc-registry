@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-svdialogs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-svdialogs
 latest:
-  0.9_57--r3.3.2_0: sha256:9fb183f7658ac3ae8499b4fde0431e4891052fce65c8acdafebefa165b8b22db
+  0.9_57--r3.3.2_0: sha256:b9cf3b0cb67f0c9ecbfd311782f997d4dffaa0204f07f03b84252d22052fa74f
 tags:
-  0.9_57--r3.3.2_0: sha256:9fb183f7658ac3ae8499b4fde0431e4891052fce65c8acdafebefa165b8b22db
+  0.9_57--r3.3.2_0: sha256:b9cf3b0cb67f0c9ecbfd311782f997d4dffaa0204f07f03b84252d22052fa74f
+  0.9_57--r3.2.2_0: sha256:4338b4a22618df08ebda43a06a2444d76276b9f9af011c7013cf164d8170f673
 docker: quay.io/biocontainers/r-svdialogs
 aliases:
   uconv: /usr/local/bin/uconv

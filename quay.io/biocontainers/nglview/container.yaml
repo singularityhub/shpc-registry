@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/nglview
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nglview
 latest:
-  1.1.7--py_0: sha256:6a655f22bb3f4cadfa3fe26daf20e535470ceff3df6c2875e2576bfd63c1aee9
+  1.1.7--py_0: sha256:1f525c664f256ae44a8098d7509325862f3ef32bc7310557b60c70219fc36151
 tags:
-  1.1.7--py_0: sha256:6a655f22bb3f4cadfa3fe26daf20e535470ceff3df6c2875e2576bfd63c1aee9
+  1.1.7--py_0: sha256:1f525c664f256ae44a8098d7509325862f3ef32bc7310557b60c70219fc36151
 docker: quay.io/biocontainers/nglview
 aliases:
   nglview: /usr/local/bin/nglview

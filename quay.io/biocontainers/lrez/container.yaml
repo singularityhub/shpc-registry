@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/lrez
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for lrez
 latest:
-  2.2.4--h21ec9f0_2: sha256:94813d961203baa8ebd4a67e11f8cd0ded7d6a60c0f70d5cc8926b6a19472fda
+  2.2.4--hdcf5f25_3: sha256:531b3e16ecfbf470690fc78abacee79c7a4b99c706c08191af0952fcd51af795
 tags:
   2.2.3--h7ff8a90_2: sha256:64eb52f1c13a3597de8753975c7cacd3de74868c680a5fb9f790d014232c1a95
   2.2.4--h7ff8a90_0: sha256:f7f555a4f606b1fea2270522cb7c7cd66c847ff376141e97fb3c17ced77ba9fa
   2.2.4--h21ec9f0_2: sha256:94813d961203baa8ebd4a67e11f8cd0ded7d6a60c0f70d5cc8926b6a19472fda
+  2.2.4--hdcf5f25_3: sha256:531b3e16ecfbf470690fc78abacee79c7a4b99c706c08191af0952fcd51af795
 docker: quay.io/biocontainers/lrez
 aliases:
   LRez: /usr/local/bin/LRez

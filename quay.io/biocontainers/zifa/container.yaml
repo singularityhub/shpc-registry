@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/zifa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for zifa
 latest:
-  0.1.0--py35_0: sha256:9c8ce0258e201106f319164e325201b4d12668694273dcc0c7cc0f1413f93ff8
+  0.1.0--py35_0: sha256:40302b6916e294e61b4944982fc43c4dfcd5d59db8995e676716ae46c86490d0
 tags:
-  0.1.0--py35_0: sha256:9c8ce0258e201106f319164e325201b4d12668694273dcc0c7cc0f1413f93ff8
-  0.1.0--py36_0: sha256:87024bd96fcda7b2ab7469c7f74b4708d58815f900ccb406e69e18a84f864059
+  0.1.0--py35_0: sha256:40302b6916e294e61b4944982fc43c4dfcd5d59db8995e676716ae46c86490d0
+  0.1.0--py36_0: sha256:06c08e1b2dc31e06329927220a11b83ad779e71f41af701d292e0286c021a32a
+  0.1.0--py27_0: sha256:69c6bdb4f984a2e3844db8d2b83b4d51f2795a65da16410719f335b1880ec24c
 docker: quay.io/biocontainers/zifa
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

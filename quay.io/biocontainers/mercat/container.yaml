@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/mercat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mercat
 latest:
-  0.2--py_1: sha256:bd0e18c7445a9e73f38a855339fccda2946c8a634db6c631b90f9cfaf91f63ae
+  0.2--py_1: sha256:9096895a3c9eb90b318af1e65f2033771990cd18343cf0e020f00bddd1db1da6
 tags:
-  0.2--py_1: sha256:bd0e18c7445a9e73f38a855339fccda2946c8a634db6c631b90f9cfaf91f63ae
+  0.2--py_1: sha256:9096895a3c9eb90b318af1e65f2033771990cd18343cf0e020f00bddd1db1da6
 docker: quay.io/biocontainers/mercat

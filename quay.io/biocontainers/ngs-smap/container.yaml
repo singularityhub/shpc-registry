@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ngs-smap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ngs-smap
 latest:
-  4.6.5--pyhdfd78af_0: sha256:a400e5c5e3b302f1f4dd7076812298937749a018d5ae3f6bf0f719649f5e24a1
+  5.0.1--pyhdfd78af_0: sha256:759b9ffcb0903fac04358c02539c5c21fa6f818b36cc6547f6eb0036229596fb
 tags:
   4.6.5--pyhdfd78af_0: sha256:a400e5c5e3b302f1f4dd7076812298937749a018d5ae3f6bf0f719649f5e24a1
+  5.0.1--pyhdfd78af_0: sha256:759b9ffcb0903fac04358c02539c5c21fa6f818b36cc6547f6eb0036229596fb
 docker: quay.io/biocontainers/ngs-smap
 aliases:
   smap: /usr/local/bin/smap

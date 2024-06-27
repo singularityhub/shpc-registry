@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/cwltool
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cwltool
 latest:
-  1.0.20180225105849--py_1: sha256:36261cc468c88fad8167fa02207c79b0d57d3736969d012bbcf8773c5a2ba8ba
+  1.0.20180225105849--py_1: sha256:5b585537cc8423d176bb4382d134468c33be4758d67ba4bcc1b24e9990f9cf64
 tags:
-  1.0.20180225105849--py_1: sha256:36261cc468c88fad8167fa02207c79b0d57d3736969d012bbcf8773c5a2ba8ba
+  1.0.20180225105849--py_1: sha256:5b585537cc8423d176bb4382d134468c33be4758d67ba4bcc1b24e9990f9cf64
 docker: quay.io/biocontainers/cwltool
 aliases:
   cwltest: /usr/local/bin/cwltest
