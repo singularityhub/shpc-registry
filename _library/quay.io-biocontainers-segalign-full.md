@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/segalign-full"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/segalign-full/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/segalign-full/container.yaml"
-updated_at: "2024-06-27 03:16:07.386002"
+updated_at: "2024-06-27 03:47:47.823705"
 latest: "0.1.2.7--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/segalign-full"
 aliases:

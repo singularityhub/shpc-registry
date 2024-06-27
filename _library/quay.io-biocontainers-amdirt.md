@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amdirt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amdirt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amdirt/container.yaml"
-updated_at: "2024-06-27 02:45:18.556889"
+updated_at: "2024-06-27 03:17:10.524431"
 latest: "1.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/amdirt"
 aliases:

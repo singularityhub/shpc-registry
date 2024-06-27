@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tolkein"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tolkein/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tolkein/container.yaml"
-updated_at: "2024-06-27 03:10:23.659174"
+updated_at: "2024-06-27 03:42:14.958224"
 latest: "0.5.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/tolkein"
 aliases:

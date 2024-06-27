@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biofluff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biofluff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biofluff/container.yaml"
-updated_at: "2024-06-27 02:57:15.463194"
+updated_at: "2024-06-27 03:29:06.884984"
 latest: "3.0.4--py_0"
 container_url: "https://biocontainers.pro/tools/biofluff"
 aliases:

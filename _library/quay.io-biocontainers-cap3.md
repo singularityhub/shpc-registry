@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cap3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cap3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cap3/container.yaml"
-updated_at: "2024-06-27 03:01:39.906906"
+updated_at: "2024-06-27 03:33:34.565775"
 latest: "10.2011--h779adbc_3"
 container_url: "https://biocontainers.pro/tools/cap3"
 aliases:

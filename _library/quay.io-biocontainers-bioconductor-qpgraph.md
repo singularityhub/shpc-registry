@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-qpgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qpgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qpgraph/container.yaml"
-updated_at: "2024-06-27 03:08:11.153151"
+updated_at: "2024-06-27 03:40:01.709160"
 latest: "2.36.0--r43ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-qpgraph"
 

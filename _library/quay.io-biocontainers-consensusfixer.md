@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/consensusfixer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/consensusfixer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/consensusfixer/container.yaml"
-updated_at: "2024-06-27 02:51:29.558480"
+updated_at: "2024-06-27 03:23:18.426291"
 latest: "0.4--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/consensusfixer"
 aliases:

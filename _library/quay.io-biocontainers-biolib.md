@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biolib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biolib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biolib/container.yaml"
-updated_at: "2024-06-27 02:51:15.422124"
+updated_at: "2024-06-27 03:23:04.643895"
 latest: "0.1.9--py_0"
 container_url: "https://biocontainers.pro/tools/biolib"
 aliases:

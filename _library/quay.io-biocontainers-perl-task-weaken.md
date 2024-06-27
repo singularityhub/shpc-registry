@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-task-weaken"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-task-weaken/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-task-weaken/container.yaml"
-updated_at: "2024-06-27 02:57:57.912364"
+updated_at: "2024-06-27 03:29:49.773658"
 latest: "1.06--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-task-weaken"
 aliases:

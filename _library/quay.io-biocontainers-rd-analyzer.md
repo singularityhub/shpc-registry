@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rd-analyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rd-analyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rd-analyzer/container.yaml"
-updated_at: "2024-06-27 02:41:45.117236"
+updated_at: "2024-06-27 03:13:36.389888"
 latest: "1.01--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rd-analyzer"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scikits-datasmooth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scikits-datasmooth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scikits-datasmooth/container.yaml"
-updated_at: "2024-06-27 03:00:21.143334"
+updated_at: "2024-06-27 03:32:14.553893"
 latest: "0.7.1--pyh145b6a8_2"
 container_url: "https://biocontainers.pro/tools/scikits-datasmooth"
 aliases:
