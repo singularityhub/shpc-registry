@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-spp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-spp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-spp/container.yaml"
-updated_at: "2024-06-26 02:52:27.278051"
-latest: "1.16.0--r43h21a89ab_9"
+updated_at: "2024-06-27 02:53:00.069235"
+latest: "1.16.0--r43h21a89ab_10"
 container_url: "https://biocontainers.pro/tools/r-spp"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.16.0--r42hecf12ef_7"
  - "1.16.0--r42h21a89ab_8"
  - "1.16.0--r43h21a89ab_9"
+ - "1.16.0--r43h21a89ab_10"
 description: "shpc-registry automated BioContainers addition for r-spp"
-config: {"url": "https://biocontainers.pro/tools/r-spp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-spp", "latest": {"1.16.0--r43h21a89ab_9": "sha256:3bf7e48337aa98beb9f5f5164b6f38efaca955e7b5906a5283d7a0355e48cf26"}, "tags": {"1.16.0--r41hecf12ef_6": "sha256:95447507e939d7ac532ab7958cddcc2d5b19d4c69931058961251a91cc38821a", "1.16.0--r42hecf12ef_7": "sha256:6681fcc17c0a6308163d96359af9e2aedf2e64cd7772edb4f709e446ea043781", "1.16.0--r42h21a89ab_8": "sha256:ced9a8d5b0beea4b10e18f3572aff948701dce3443696014d6c4cdc24a9cf383", "1.16.0--r43h21a89ab_9": "sha256:3bf7e48337aa98beb9f5f5164b6f38efaca955e7b5906a5283d7a0355e48cf26"}, "docker": "quay.io/biocontainers/r-spp"}
+config: {"url": "https://biocontainers.pro/tools/r-spp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-spp", "latest": {"1.16.0--r43h21a89ab_10": "sha256:0fbd2b0f0bd0c00856c4b60af50b33cd9d7fee7b69ec63a639b6dfe8a101307f"}, "tags": {"1.16.0--r41hecf12ef_6": "sha256:95447507e939d7ac532ab7958cddcc2d5b19d4c69931058961251a91cc38821a", "1.16.0--r42hecf12ef_7": "sha256:6681fcc17c0a6308163d96359af9e2aedf2e64cd7772edb4f709e446ea043781", "1.16.0--r42h21a89ab_8": "sha256:ced9a8d5b0beea4b10e18f3572aff948701dce3443696014d6c4cdc24a9cf383", "1.16.0--r43h21a89ab_9": "sha256:3bf7e48337aa98beb9f5f5164b6f38efaca955e7b5906a5283d7a0355e48cf26", "1.16.0--r43h21a89ab_10": "sha256:0fbd2b0f0bd0c00856c4b60af50b33cd9d7fee7b69ec63a639b6dfe8a101307f"}, "docker": "quay.io/biocontainers/r-spp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-spp.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-spp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-spp:1.16.0--r43h21a89ab_9
+$ shpc install quay.io/biocontainers/r-spp:1.16.0--r43h21a89ab_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-spp/1.16.0--r43h21a89ab_9
-$ module help quay.io/biocontainers/r-spp/1.16.0--r43h21a89ab_9
+$ module load quay.io/biocontainers/r-spp/1.16.0--r43h21a89ab_10
+$ module help quay.io/biocontainers/r-spp/1.16.0--r43h21a89ab_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

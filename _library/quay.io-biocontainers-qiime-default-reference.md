@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qiime-default-reference"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qiime-default-reference/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qiime-default-reference/container.yaml"
-updated_at: "2024-06-26 03:18:51.268524"
+updated_at: "2024-06-27 03:19:59.673978"
 latest: "0.1.3--py_1"
 container_url: "https://biocontainers.pro/tools/qiime-default-reference"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.1.3--py_1"
 description: "shpc-registry automated BioContainers addition for qiime-default-reference"
-config: {"url": "https://biocontainers.pro/tools/qiime-default-reference", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qiime-default-reference", "latest": {"0.1.3--py_1": "sha256:d827e3031406af3b366cbe789344a88f27ac58506185c987144479382922f8ff"}, "tags": {"0.1.3--py_1": "sha256:d827e3031406af3b366cbe789344a88f27ac58506185c987144479382922f8ff"}, "docker": "quay.io/biocontainers/qiime-default-reference", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/qiime-default-reference", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qiime-default-reference", "latest": {"0.1.3--py_1": "sha256:ace1dc65149f1fa9d3486e2ec19fb03672886bb461f36ef5f9a50e75ad18f65c"}, "tags": {"0.1.3--py_1": "sha256:ace1dc65149f1fa9d3486e2ec19fb03672886bb461f36ef5f9a50e75ad18f65c"}, "docker": "quay.io/biocontainers/qiime-default-reference", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/qiime-default-reference.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ocrad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ocrad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ocrad/container.yaml"
-updated_at: "2024-06-26 02:59:49.238550"
+updated_at: "2024-06-27 03:00:23.130512"
 latest: "0.21--h470a237_1"
 container_url: "https://biocontainers.pro/tools/ocrad"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "0.21--h470a237_1"
 description: "shpc-registry automated BioContainers addition for ocrad"
-config: {"url": "https://biocontainers.pro/tools/ocrad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ocrad", "latest": {"0.21--h470a237_1": "sha256:01f099c2bb4c87d487fcd2d18167d64fe8b55f0939d276933ca5be5be2e68314"}, "tags": {"0.21--h470a237_1": "sha256:01f099c2bb4c87d487fcd2d18167d64fe8b55f0939d276933ca5be5be2e68314"}, "docker": "quay.io/biocontainers/ocrad", "aliases": {"ocrad": "/usr/local/bin/ocrad"}}
+config: {"url": "https://biocontainers.pro/tools/ocrad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ocrad", "latest": {"0.21--h470a237_1": "sha256:242c9afd23c14a7b59a525cd95a811255558e0187c63b44dfb98eb7061c187fc"}, "tags": {"0.21--h470a237_1": "sha256:242c9afd23c14a7b59a525cd95a811255558e0187c63b44dfb98eb7061c187fc"}, "docker": "quay.io/biocontainers/ocrad", "aliases": {"ocrad": "/usr/local/bin/ocrad"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ocrad.

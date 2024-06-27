@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/canvas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/canvas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/canvas/container.yaml"
-updated_at: "2024-06-26 02:40:46.604786"
+updated_at: "2024-06-27 02:41:09.069211"
 latest: "1.35.1.1316--0"
 container_url: "https://biocontainers.pro/tools/canvas"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.35.1.1316--0"
 description: "shpc-registry automated BioContainers addition for canvas"
-config: {"url": "https://biocontainers.pro/tools/canvas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for canvas", "latest": {"1.35.1.1316--0": "sha256:451402da5627cab049012dbe0134679a6c0067e3140efd1f91e492dfdf61d940"}, "tags": {"1.35.1.1316--0": "sha256:451402da5627cab049012dbe0134679a6c0067e3140efd1f91e492dfdf61d940"}, "docker": "quay.io/biocontainers/canvas", "aliases": {"Canvas": "/usr/local/bin/Canvas", "EvaluateCNV": "/usr/local/bin/EvaluateCNV"}}
+config: {"url": "https://biocontainers.pro/tools/canvas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for canvas", "latest": {"1.35.1.1316--0": "sha256:c8ea0599ab1772293e515125c795beecc405909187f1e7ecb3da5350a738593a"}, "tags": {"1.35.1.1316--0": "sha256:c8ea0599ab1772293e515125c795beecc405909187f1e7ecb3da5350a738593a"}, "docker": "quay.io/biocontainers/canvas", "aliases": {"Canvas": "/usr/local/bin/Canvas", "EvaluateCNV": "/usr/local/bin/EvaluateCNV"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/canvas.

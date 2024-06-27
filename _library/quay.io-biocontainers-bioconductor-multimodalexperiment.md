@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-multimodalexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multimodalexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multimodalexperiment/container.yaml"
-updated_at: "2024-06-26 03:17:35.625645"
+updated_at: "2024-06-27 03:18:42.035726"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-multimodalexperiment"
 aliases:

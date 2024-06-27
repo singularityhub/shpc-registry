@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepmedic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepmedic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepmedic/container.yaml"
-updated_at: "2024-06-26 02:49:39.241726"
+updated_at: "2024-06-27 02:50:10.131585"
 latest: "0.6.1--py_1"
 container_url: "https://biocontainers.pro/tools/deepmedic"
 aliases:
@@ -30,7 +30,7 @@ aliases:
 versions:
  - "0.6.1--py_1"
 description: "shpc-registry automated BioContainers addition for deepmedic"
-config: {"url": "https://biocontainers.pro/tools/deepmedic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepmedic", "latest": {"0.6.1--py_1": "sha256:55a808db7aeac123986cd1624bacfe4dd25442aa71302965e32d14cef8138e64"}, "tags": {"0.6.1--py_1": "sha256:55a808db7aeac123986cd1624bacfe4dd25442aa71302965e32d14cef8138e64"}, "docker": "quay.io/biocontainers/deepmedic", "aliases": {"deepMedicRun": "/usr/local/bin/deepMedicRun", "nib-dicomfs": "/usr/local/bin/nib-dicomfs", "nib-diff": "/usr/local/bin/nib-diff", "nib-ls": "/usr/local/bin/nib-ls", "nib-nifti-dx": "/usr/local/bin/nib-nifti-dx", "nib-tck2trk": "/usr/local/bin/nib-tck2trk", "nib-trk2tck": "/usr/local/bin/nib-trk2tck", "parrec2nii": "/usr/local/bin/parrec2nii", "ppserver.py": "/usr/local/bin/ppserver.py", "unit2": "/usr/local/bin/unit2", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "mako-render": "/usr/local/bin/mako-render", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7"}}
+config: {"url": "https://biocontainers.pro/tools/deepmedic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepmedic", "latest": {"0.6.1--py_1": "sha256:f8722032fa9071c90551b2db8217d0bbed090146226a164f35802a82ad117ca4"}, "tags": {"0.6.1--py_1": "sha256:f8722032fa9071c90551b2db8217d0bbed090146226a164f35802a82ad117ca4"}, "docker": "quay.io/biocontainers/deepmedic", "aliases": {"deepMedicRun": "/usr/local/bin/deepMedicRun", "nib-dicomfs": "/usr/local/bin/nib-dicomfs", "nib-diff": "/usr/local/bin/nib-diff", "nib-ls": "/usr/local/bin/nib-ls", "nib-nifti-dx": "/usr/local/bin/nib-nifti-dx", "nib-tck2trk": "/usr/local/bin/nib-tck2trk", "nib-trk2tck": "/usr/local/bin/nib-trk2tck", "parrec2nii": "/usr/local/bin/parrec2nii", "ppserver.py": "/usr/local/bin/ppserver.py", "unit2": "/usr/local/bin/unit2", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "mako-render": "/usr/local/bin/mako-render", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepmedic.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nthits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nthits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nthits/container.yaml"
-updated_at: "2024-06-26 03:02:24.467216"
+updated_at: "2024-06-27 03:02:59.796794"
 latest: "1.0.3--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/nthits"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/squid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/squid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/squid/container.yaml"
-updated_at: "2024-06-26 03:16:14.911391"
-latest: "1.5--h422817f_7"
+updated_at: "2024-06-27 03:17:17.655012"
+latest: "1.5--h0b19ca7_8"
 container_url: "https://biocontainers.pro/tools/squid"
 aliases:
  - "squid"
@@ -13,8 +13,9 @@ versions:
  - "1.5--h30ed3be_5"
  - "1.5--h82967d4_6"
  - "1.5--h422817f_7"
+ - "1.5--h0b19ca7_8"
 description: "shpc-registry automated BioContainers addition for squid"
-config: {"url": "https://biocontainers.pro/tools/squid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for squid", "latest": {"1.5--h422817f_7": "sha256:69c44ab400e1053b3e2b43de2b3454cb77a10e87abf993853842e62e60b55271"}, "tags": {"1.5--h30ed3be_5": "sha256:1e7d7a7b2424c5b912514471646aca6146f02b113645f78b97ee2a91d2bfae25", "1.5--h82967d4_6": "sha256:5d0823e0720cdc9b515516d8330a4612b9823901c3a35fc4371d65e0bb661cc4", "1.5--h422817f_7": "sha256:69c44ab400e1053b3e2b43de2b3454cb77a10e87abf993853842e62e60b55271"}, "docker": "quay.io/biocontainers/squid", "aliases": {"squid": "/usr/local/bin/squid"}}
+config: {"url": "https://biocontainers.pro/tools/squid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for squid", "latest": {"1.5--h0b19ca7_8": "sha256:5b2fcea9e139003f76b6eebc9e0ec6a986c02b4b3f54b93d2d0e3080e5284bed"}, "tags": {"1.5--h30ed3be_5": "sha256:1e7d7a7b2424c5b912514471646aca6146f02b113645f78b97ee2a91d2bfae25", "1.5--h82967d4_6": "sha256:5d0823e0720cdc9b515516d8330a4612b9823901c3a35fc4371d65e0bb661cc4", "1.5--h422817f_7": "sha256:69c44ab400e1053b3e2b43de2b3454cb77a10e87abf993853842e62e60b55271", "1.5--h0b19ca7_8": "sha256:5b2fcea9e139003f76b6eebc9e0ec6a986c02b4b3f54b93d2d0e3080e5284bed"}, "docker": "quay.io/biocontainers/squid", "aliases": {"squid": "/usr/local/bin/squid"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/squid.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/squid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/squid:1.5--h422817f_7
+$ shpc install quay.io/biocontainers/squid:1.5--h0b19ca7_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/squid/1.5--h422817f_7
-$ module help quay.io/biocontainers/squid/1.5--h422817f_7
+$ module load quay.io/biocontainers/squid/1.5--h0b19ca7_8
+$ module help quay.io/biocontainers/squid/1.5--h0b19ca7_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

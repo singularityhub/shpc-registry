@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-splitstackshape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-splitstackshape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-splitstackshape/container.yaml"
-updated_at: "2024-06-26 02:33:58.352993"
+updated_at: "2024-06-27 02:34:14.592405"
 latest: "1.4.2--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-splitstackshape"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.4.2--r3.3.1_0"
  - "1.4.2--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-splitstackshape"
-config: {"url": "https://biocontainers.pro/tools/r-splitstackshape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-splitstackshape", "latest": {"1.4.2--r3.3.1_0": "sha256:17cc0be3bcdcd9f6862b9379bef5626dce6367e8cdcfe207db18f00b4c6c6ec1"}, "tags": {"1.4.2--r3.3.1_0": "sha256:17cc0be3bcdcd9f6862b9379bef5626dce6367e8cdcfe207db18f00b4c6c6ec1", "1.4.2--r3.3.2_0": "sha256:86eccbb0a3ba36b26fe0d5c5ed4061fc4aadc548ad6d0a08d99de6d718557a93"}, "docker": "quay.io/biocontainers/r-splitstackshape", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-splitstackshape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-splitstackshape", "latest": {"1.4.2--r3.3.1_0": "sha256:2b891ac26e09e7cc3f8c55fc28a704990187554adf51e144e994fd8509842ff3"}, "tags": {"1.4.2--r3.3.1_0": "sha256:2b891ac26e09e7cc3f8c55fc28a704990187554adf51e144e994fd8509842ff3", "1.4.2--r3.3.2_0": "sha256:9f9e8a524dfe02575164dd7d0738de2b971c8abcd0e344611c402139d47dd348"}, "docker": "quay.io/biocontainers/r-splitstackshape", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-splitstackshape.

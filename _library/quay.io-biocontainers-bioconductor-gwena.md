@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gwena"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gwena/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gwena/container.yaml"
-updated_at: "2024-06-26 02:44:34.763212"
+updated_at: "2024-06-27 02:44:59.857936"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gwena"
 

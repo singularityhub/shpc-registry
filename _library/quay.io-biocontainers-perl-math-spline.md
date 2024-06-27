@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-math-spline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-spline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-spline/container.yaml"
-updated_at: "2024-06-26 03:02:26.148454"
+updated_at: "2024-06-27 03:03:01.563759"
 latest: "0.02--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-math-spline"
 aliases:

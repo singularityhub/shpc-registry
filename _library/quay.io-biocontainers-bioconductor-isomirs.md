@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-isomirs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-isomirs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-isomirs/container.yaml"
-updated_at: "2024-06-26 02:52:32.583841"
+updated_at: "2024-06-27 02:53:05.408906"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-isomirs"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-isomirs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-isomirs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-isomirs", "latest": {"1.30.0--r43hdfd78af_0": "sha256:351367e1ecb33b3e6cddf5e9b40cb4c6197628ad5cbb7bda5bc97fa310f62c96"}, "tags": {"1.8.0--r341_0": "sha256:fb4cddf8f3350e118dd1005c53d22ddd0d1cdfeddd9676b3307a9246ead47487", "1.26.0--r42hdfd78af_0": "sha256:b60a14faeb298f34e987c0811df6c163a60121469793271221ae034fe5237dc9", "1.22.0--r41hdfd78af_0": "sha256:c636315357650362f16fd1f2468d69197db2233448f618c9ad18e87697b8898f", "1.20.0--r41hdfd78af_0": "sha256:e02d2984d9fbbd46392c0cf03a3bec44bea18be8dac8f9c37aee1d2256d0aaea", "1.18.1--r40hdfd78af_0": "sha256:458a7a523ccdbcf9bd5be997fd0c87c9561a111dd6371de68152f4fb96f5c58b", "1.16.0--r40_0": "sha256:623435a757494e761ac71d84d98354033f8ceeb809362a1b72754d75faa3086f", "1.28.0--r43hdfd78af_0": "sha256:c90453feda86498b879c69356afc0382e9f8adaace8cceaae45952c99f01fd78", "1.30.0--r43hdfd78af_0": "sha256:351367e1ecb33b3e6cddf5e9b40cb4c6197628ad5cbb7bda5bc97fa310f62c96"}, "docker": "quay.io/biocontainers/bioconductor-isomirs", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-isomirs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-isomirs", "latest": {"1.30.0--r43hdfd78af_0": "sha256:351367e1ecb33b3e6cddf5e9b40cb4c6197628ad5cbb7bda5bc97fa310f62c96"}, "tags": {"1.8.0--r341_0": "sha256:6ea718b36d4e66b07a9be7eef0838a38ddfdaa10be6265974c9a50309ac78cb6", "1.26.0--r42hdfd78af_0": "sha256:b60a14faeb298f34e987c0811df6c163a60121469793271221ae034fe5237dc9", "1.22.0--r41hdfd78af_0": "sha256:c636315357650362f16fd1f2468d69197db2233448f618c9ad18e87697b8898f", "1.20.0--r41hdfd78af_0": "sha256:e02d2984d9fbbd46392c0cf03a3bec44bea18be8dac8f9c37aee1d2256d0aaea", "1.18.1--r40hdfd78af_0": "sha256:458a7a523ccdbcf9bd5be997fd0c87c9561a111dd6371de68152f4fb96f5c58b", "1.16.0--r40_0": "sha256:623435a757494e761ac71d84d98354033f8ceeb809362a1b72754d75faa3086f", "1.28.0--r43hdfd78af_0": "sha256:c90453feda86498b879c69356afc0382e9f8adaace8cceaae45952c99f01fd78", "1.30.0--r43hdfd78af_0": "sha256:351367e1ecb33b3e6cddf5e9b40cb4c6197628ad5cbb7bda5bc97fa310f62c96"}, "docker": "quay.io/biocontainers/bioconductor-isomirs", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-isomirs.

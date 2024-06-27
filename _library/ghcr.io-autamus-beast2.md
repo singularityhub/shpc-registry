@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/beast2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/beast2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/beast2/container.yaml"
-updated_at: "2024-06-26 02:32:48.979369"
+updated_at: "2024-06-27 02:33:04.377028"
 latest: "2.6.6"
 container_url: "https://github.com/orgs/autamus/packages/container/package/beast2"
 aliases:

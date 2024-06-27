@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cramtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cramtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cramtools/container.yaml"
-updated_at: "2024-06-26 02:52:42.370597"
+updated_at: "2024-06-27 02:53:15.271291"
 latest: "3.0.b127--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/cramtools"
 aliases:

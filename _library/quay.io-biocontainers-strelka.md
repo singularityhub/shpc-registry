@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strelka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strelka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strelka/container.yaml"
-updated_at: "2024-06-26 02:35:51.027442"
+updated_at: "2024-06-27 02:36:08.446517"
 latest: "2.9.10--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/strelka"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "2.9.7--0"
  - "2.9.10--h9ee0642_1"
 description: "shpc-registry automated BioContainers addition for strelka"
-config: {"url": "https://biocontainers.pro/tools/strelka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strelka", "latest": {"2.9.10--h9ee0642_1": "sha256:e6133fa935d444aaf3aa04b57256a580d9b3498298fc17cb5f4a9818116105ec"}, "tags": {"2.9.7--0": "sha256:ba0d975925ce7d277b2e6886bd98fe0e9c9e70172d2784350605ef74b547fef3", "2.9.10--h9ee0642_1": "sha256:e6133fa935d444aaf3aa04b57256a580d9b3498298fc17cb5f4a9818116105ec"}, "docker": "quay.io/biocontainers/strelka", "aliases": {"configureStrelkaGermlineWorkflow.py": "/usr/local/bin/configureStrelkaGermlineWorkflow.py", "configureStrelkaSomaticWorkflow.py": "/usr/local/bin/configureStrelkaSomaticWorkflow.py", "runStrelkaGermlineWorkflowDemo.bash": "/usr/local/bin/runStrelkaGermlineWorkflowDemo.bash", "runStrelkaSomaticWorkflowDemo.bash": "/usr/local/bin/runStrelkaSomaticWorkflowDemo.bash", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/strelka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strelka", "latest": {"2.9.10--h9ee0642_1": "sha256:e6133fa935d444aaf3aa04b57256a580d9b3498298fc17cb5f4a9818116105ec"}, "tags": {"2.9.7--0": "sha256:df0f33b6e8b39ab1542ce16a5c71936b584162b58e10454a5d53d1161551668e", "2.9.10--h9ee0642_1": "sha256:e6133fa935d444aaf3aa04b57256a580d9b3498298fc17cb5f4a9818116105ec"}, "docker": "quay.io/biocontainers/strelka", "aliases": {"configureStrelkaGermlineWorkflow.py": "/usr/local/bin/configureStrelkaGermlineWorkflow.py", "configureStrelkaSomaticWorkflow.py": "/usr/local/bin/configureStrelkaSomaticWorkflow.py", "runStrelkaGermlineWorkflowDemo.bash": "/usr/local/bin/runStrelkaGermlineWorkflowDemo.bash", "runStrelkaSomaticWorkflowDemo.bash": "/usr/local/bin/runStrelkaSomaticWorkflowDemo.bash", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strelka.

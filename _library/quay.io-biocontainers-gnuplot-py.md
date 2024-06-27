@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gnuplot-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gnuplot-py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gnuplot-py/container.yaml"
-updated_at: "2024-06-26 02:56:59.488117"
+updated_at: "2024-06-27 02:57:32.785738"
 latest: "1.8--py27h24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/gnuplot-py"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.8--py27h24bf2e0_1"
 description: "shpc-registry automated BioContainers addition for gnuplot-py"
-config: {"url": "https://biocontainers.pro/tools/gnuplot-py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gnuplot-py", "latest": {"1.8--py27h24bf2e0_1": "sha256:12adbe3193b363781e5ff308059dcca81d1bf85e5121dce131a5162e86cc0e4e"}, "tags": {"1.8--py27h24bf2e0_1": "sha256:12adbe3193b363781e5ff308059dcca81d1bf85e5121dce131a5162e86cc0e4e"}, "docker": "quay.io/biocontainers/gnuplot-py", "aliases": {"gnuplot": "/usr/local/bin/gnuplot", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/gnuplot-py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gnuplot-py", "latest": {"1.8--py27h24bf2e0_1": "sha256:9757a3f481408514c5cebf6e81384f84af3ff3d886fc201c0f572eb8861b8b15"}, "tags": {"1.8--py27h24bf2e0_1": "sha256:9757a3f481408514c5cebf6e81384f84af3ff3d886fc201c0f572eb8861b8b15"}, "docker": "quay.io/biocontainers/gnuplot-py", "aliases": {"gnuplot": "/usr/local/bin/gnuplot", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gnuplot-py.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bit64"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bit64/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bit64/container.yaml"
-updated_at: "2024-06-26 02:55:45.435873"
+updated_at: "2024-06-27 02:56:19.001701"
 latest: "0.9_5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-bit64"
 aliases:
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "0.9_5--r3.3.1_0"
  - "0.9_5--r3.3.2_0"
+ - "0.9_5--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-bit64"
-config: {"url": "https://biocontainers.pro/tools/r-bit64", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bit64", "latest": {"0.9_5--r3.3.1_0": "sha256:8ef0a960efc1351fe54e28346afac07397c94e7cd94bd758acee50c3c8ad1fa9"}, "tags": {"0.9_5--r3.3.1_0": "sha256:8ef0a960efc1351fe54e28346afac07397c94e7cd94bd758acee50c3c8ad1fa9", "0.9_5--r3.3.2_0": "sha256:3a342b3fff3622781b5d56ada939861b97d3e3f40a477b48768ab882724a3e09"}, "docker": "quay.io/biocontainers/r-bit64", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-bit64", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bit64", "latest": {"0.9_5--r3.3.1_0": "sha256:2f7ef38359d26c73db5cacb7309b81b9cb34cb6a7d22eb9eac22bfb5c3c5039c"}, "tags": {"0.9_5--r3.3.1_0": "sha256:2f7ef38359d26c73db5cacb7309b81b9cb34cb6a7d22eb9eac22bfb5c3c5039c", "0.9_5--r3.3.2_0": "sha256:1d8fdcb205b1052e8bdb2eef1f1a62794b999ad5fd167656c617db92c4b4fe88", "0.9_5--r3.2.2_0": "sha256:1336ab547a4aba781796b70f4d6510411238cc5b672734bbf4007b5a8399cdcf"}, "docker": "quay.io/biocontainers/r-bit64", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bit64.

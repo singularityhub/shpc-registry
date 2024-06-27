@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lap/container.yaml"
-updated_at: "2024-06-26 03:12:06.722748"
+updated_at: "2024-06-27 03:12:55.083044"
 latest: "1.1.r186--py27_0"
 container_url: "https://biocontainers.pro/tools/lap"
 aliases:
@@ -29,7 +29,7 @@ aliases:
 versions:
  - "1.1.r186--py27_0"
 description: "shpc-registry automated BioContainers addition for lap"
-config: {"url": "https://biocontainers.pro/tools/lap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lap", "latest": {"1.1.r186--py27_0": "sha256:aee327206a3bc0aece939a7d063ee1b6c423561648706900855518a52b183536"}, "tags": {"1.1.r186--py27_0": "sha256:aee327206a3bc0aece939a7d063ee1b6c423561648706900855518a52b183536"}, "docker": "quay.io/biocontainers/lap", "aliases": {"SeqIO.py": "/usr/local/bin/SeqIO.py", "calc_prob.py": "/usr/local/bin/calc_prob.py", "gen_rand_samp.py": "/usr/local/bin/gen_rand_samp.py", "mean": "/usr/local/bin/mean", "mprobability": "/usr/local/bin/mprobability", "probability": "/usr/local/bin/probability", "stitch": "/usr/local/bin/stitch", "sum_prob.py": "/usr/local/bin/sum_prob.py", "sample": "/usr/local/bin/sample", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l"}}
+config: {"url": "https://biocontainers.pro/tools/lap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lap", "latest": {"1.1.r186--py27_0": "sha256:a9c7a56fb1407777f19f01d792e0dcd920ef20f98f3340841a41b2ac968b3a14"}, "tags": {"1.1.r186--py27_0": "sha256:a9c7a56fb1407777f19f01d792e0dcd920ef20f98f3340841a41b2ac968b3a14"}, "docker": "quay.io/biocontainers/lap", "aliases": {"SeqIO.py": "/usr/local/bin/SeqIO.py", "calc_prob.py": "/usr/local/bin/calc_prob.py", "gen_rand_samp.py": "/usr/local/bin/gen_rand_samp.py", "mean": "/usr/local/bin/mean", "mprobability": "/usr/local/bin/mprobability", "probability": "/usr/local/bin/probability", "stitch": "/usr/local/bin/stitch", "sum_prob.py": "/usr/local/bin/sum_prob.py", "sample": "/usr/local/bin/sample", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lap.

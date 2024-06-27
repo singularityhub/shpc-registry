@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-matrixqcvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-matrixqcvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-matrixqcvis/container.yaml"
-updated_at: "2024-06-26 03:16:11.562555"
+updated_at: "2024-06-27 03:17:14.078166"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-matrixqcvis"
 aliases:

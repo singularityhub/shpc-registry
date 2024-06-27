@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pilon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pilon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pilon/container.yaml"
-updated_at: "2024-06-26 02:52:56.708919"
+updated_at: "2024-06-27 02:53:29.654619"
 latest: "1.24--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pilon"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xsloader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xsloader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xsloader/container.yaml"
-updated_at: "2024-06-26 03:15:54.198003"
+updated_at: "2024-06-27 03:16:55.969762"
 latest: "0.24--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-xsloader"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.24--pl526_0"
 description: "shpc-registry automated BioContainers addition for perl-xsloader"
-config: {"url": "https://biocontainers.pro/tools/perl-xsloader", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-xsloader", "latest": {"0.24--pl526_0": "sha256:bca2656c1b2ba010c89ab6fc870acf4f65ae82543157ece4770e984604fb6404"}, "tags": {"0.24--pl526_0": "sha256:bca2656c1b2ba010c89ab6fc870acf4f65ae82543157ece4770e984604fb6404"}, "docker": "quay.io/biocontainers/perl-xsloader", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-xsloader", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-xsloader", "latest": {"0.24--pl526_0": "sha256:eb1fd87d3f31eabdd8eb8e4a5116a28ec07c8c06f18a290fda60781223cf6ec7"}, "tags": {"0.24--pl526_0": "sha256:eb1fd87d3f31eabdd8eb8e4a5116a28ec07c8c06f18a290fda60781223cf6ec7"}, "docker": "quay.io/biocontainers/perl-xsloader", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-xsloader.

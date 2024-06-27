@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genericrepeatfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genericrepeatfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genericrepeatfinder/container.yaml"
-updated_at: "2024-06-26 03:15:19.478764"
+updated_at: "2024-06-27 03:16:19.377304"
 latest: "1.0--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/genericrepeatfinder"
 aliases:

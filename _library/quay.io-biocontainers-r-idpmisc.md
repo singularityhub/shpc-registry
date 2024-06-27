@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-idpmisc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-idpmisc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-idpmisc/container.yaml"
-updated_at: "2024-06-26 02:42:57.223656"
+updated_at: "2024-06-27 02:43:21.048375"
 latest: "1.1.17--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-idpmisc"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.1.17--r3.3.1_0"
  - "1.1.17--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-idpmisc"
-config: {"url": "https://biocontainers.pro/tools/r-idpmisc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-idpmisc", "latest": {"1.1.17--r3.3.1_0": "sha256:650d705a39621ee44bb7e18546ce2ae433f60834a62990ccaeafbc08a23bac74"}, "tags": {"1.1.17--r3.3.1_0": "sha256:650d705a39621ee44bb7e18546ce2ae433f60834a62990ccaeafbc08a23bac74", "1.1.17--r3.4.1_0": "sha256:8943da364d0de283d066ebb0da80982438e3854c6cb63a31b46f6d0b6bee88fb"}, "docker": "quay.io/biocontainers/r-idpmisc", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-idpmisc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-idpmisc", "latest": {"1.1.17--r3.3.1_0": "sha256:8b76bce1bfbb146ea92832669f343068a1fd100cc6bfedfff8430d8c13ba6845"}, "tags": {"1.1.17--r3.3.1_0": "sha256:8b76bce1bfbb146ea92832669f343068a1fd100cc6bfedfff8430d8c13ba6845", "1.1.17--r3.4.1_0": "sha256:5a3d8f267e0e04eedb63964a4fabcc8784bd30eae7e50ffb97ca13a4439a80e8"}, "docker": "quay.io/biocontainers/r-idpmisc", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-idpmisc.

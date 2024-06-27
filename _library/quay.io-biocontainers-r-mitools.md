@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mitools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mitools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mitools/container.yaml"
-updated_at: "2024-06-26 02:48:25.838365"
+updated_at: "2024-06-27 02:48:54.807971"
 latest: "2.3--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-mitools"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "2.3--r3.3.1_0"
  - "2.3--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-mitools"
-config: {"url": "https://biocontainers.pro/tools/r-mitools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mitools", "latest": {"2.3--r3.3.1_0": "sha256:b82c2fe09f716148e9443ef5446471ed318162b07e5d56e8dd88f02aa1ef72ce"}, "tags": {"2.3--r3.3.1_0": "sha256:b82c2fe09f716148e9443ef5446471ed318162b07e5d56e8dd88f02aa1ef72ce", "2.3--r3.3.2_0": "sha256:3f245b879d164e1610d14c0bbfc9b07d4d52536c764a98e76d185609f2e93b03"}, "docker": "quay.io/biocontainers/r-mitools", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-mitools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mitools", "latest": {"2.3--r3.3.1_0": "sha256:87f5e00e3fcc33bc50103320ea279a3c0dd593f2242ee88bf5446b3b2f07cf23"}, "tags": {"2.3--r3.3.1_0": "sha256:87f5e00e3fcc33bc50103320ea279a3c0dd593f2242ee88bf5446b3b2f07cf23", "2.3--r3.3.2_0": "sha256:70124e6d2a167274e8bd17a150d71b77ce2076240b4bb633659e0a6bce620dcc"}, "docker": "quay.io/biocontainers/r-mitools", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mitools.

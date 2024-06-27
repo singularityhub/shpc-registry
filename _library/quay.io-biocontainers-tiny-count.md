@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tiny-count"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tiny-count/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tiny-count/container.yaml"
-updated_at: "2024-06-26 02:48:36.504591"
+updated_at: "2024-06-27 02:49:05.858069"
 latest: "1.5.0--py39h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/tiny-count"
 aliases:

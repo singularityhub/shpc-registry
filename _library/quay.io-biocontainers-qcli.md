@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qcli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qcli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qcli/container.yaml"
-updated_at: "2024-06-26 03:03:28.784159"
+updated_at: "2024-06-27 03:04:07.093441"
 latest: "0.1.1--py_3"
 container_url: "https://biocontainers.pro/tools/qcli"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.1.1--py_3"
 description: "shpc-registry automated BioContainers addition for qcli"
-config: {"url": "https://biocontainers.pro/tools/qcli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qcli", "latest": {"0.1.1--py_3": "sha256:b2f1b1f4091576604c683c1a2ede7fbb16dd069307ed50e6dbd888d999176da4"}, "tags": {"0.1.1--py_3": "sha256:b2f1b1f4091576604c683c1a2ede7fbb16dd069307ed50e6dbd888d999176da4"}, "docker": "quay.io/biocontainers/qcli", "aliases": {"qcli_make_rst": "/usr/local/bin/qcli_make_rst", "qcli_make_script": "/usr/local/bin/qcli_make_script", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/qcli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qcli", "latest": {"0.1.1--py_3": "sha256:31413e0dfd449ed45715f5133dd6cfb2002a8ddee0d32426c8b19daba1bdee87"}, "tags": {"0.1.1--py_3": "sha256:31413e0dfd449ed45715f5133dd6cfb2002a8ddee0d32426c8b19daba1bdee87"}, "docker": "quay.io/biocontainers/qcli", "aliases": {"qcli_make_rst": "/usr/local/bin/qcli_make_rst", "qcli_make_script": "/usr/local/bin/qcli_make_script", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/qcli.

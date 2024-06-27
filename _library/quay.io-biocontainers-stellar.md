@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stellar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stellar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stellar/container.yaml"
-updated_at: "2024-06-26 02:44:20.227975"
+updated_at: "2024-06-27 02:44:45.189284"
 latest: "1.4.9--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/stellar"
 aliases:

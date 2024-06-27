@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyfastaq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfastaq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfastaq/container.yaml"
-updated_at: "2024-06-26 02:44:47.584662"
+updated_at: "2024-06-27 02:45:12.870118"
 latest: "3.17.0--py_2"
 container_url: "https://biocontainers.pro/tools/pyfastaq"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "3.17.0--py_2"
 description: "shpc-registry automated BioContainers addition for pyfastaq"
-config: {"url": "https://biocontainers.pro/tools/pyfastaq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyfastaq", "latest": {"3.17.0--py_2": "sha256:6dfb170ce54d7795fca8ed6610f510667f8e3c8249a6edfc8ef2b8cbcad47a24"}, "tags": {"3.17.0--py_2": "sha256:6dfb170ce54d7795fca8ed6610f510667f8e3c8249a6edfc8ef2b8cbcad47a24"}, "docker": "quay.io/biocontainers/pyfastaq", "aliases": {"fastaq": "/usr/local/bin/fastaq", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pyfastaq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyfastaq", "latest": {"3.17.0--py_2": "sha256:840e63ee11d439f61ec93002323adb44042355df777eb84df1ae5da58c697496"}, "tags": {"3.17.0--py_2": "sha256:840e63ee11d439f61ec93002323adb44042355df777eb84df1ae5da58c697496"}, "docker": "quay.io/biocontainers/pyfastaq", "aliases": {"fastaq": "/usr/local/bin/fastaq", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyfastaq.

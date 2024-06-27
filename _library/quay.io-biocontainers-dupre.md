@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dupre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dupre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dupre/container.yaml"
-updated_at: "2024-06-26 03:15:07.720534"
+updated_at: "2024-06-27 03:16:07.093483"
 latest: "0.1--py_2"
 container_url: "https://biocontainers.pro/tools/dupre"
 aliases:

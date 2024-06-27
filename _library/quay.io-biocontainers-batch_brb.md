@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/batch_brb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/batch_brb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/batch_brb/container.yaml"
-updated_at: "2024-06-26 02:38:55.663787"
-latest: "1.0.1--hdfd78af_1"
+updated_at: "2024-06-27 02:39:16.299418"
+latest: "1.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/batch_brb"
 aliases:
  - "accession_retrieve"
@@ -65,8 +65,9 @@ aliases:
  - "fetch-extras"
 versions:
  - "1.0.1--hdfd78af_1"
+ - "1.1.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for batch_brb"
-config: {"url": "https://biocontainers.pro/tools/batch_brb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for batch_brb", "latest": {"1.0.1--hdfd78af_1": "sha256:20d4acd2727188ad223929fd69f168b0169c0bc6c9d831aa225bc786b43fae33"}, "tags": {"1.0.1--hdfd78af_1": "sha256:20d4acd2727188ad223929fd69f168b0169c0bc6c9d831aa225bc786b43fae33"}, "docker": "quay.io/biocontainers/batch_brb", "aliases": {"accession_retrieve": "/usr/local/bin/accession_retrieve", "adb01_check_db.py": "/usr/local/bin/adb01_check_db.py", "adb02_add_alias_to_db.py": "/usr/local/bin/adb02_add_alias_to_db.py", "aliasdb_pipeline": "/usr/local/bin/aliasdb_pipeline", "alncut": "/usr/local/bin/alncut", "alnpi": "/usr/local/bin/alnpi", "ar01_accret.py": "/usr/local/bin/ar01_accret.py", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "batch_brb_functions.py": "/usr/local/bin/batch_brb_functions.py", "batch_brb_setup": "/usr/local/bin/batch_brb_setup", "batch_makeblastdb": "/usr/local/bin/batch_makeblastdb", "del01_delete_db_entries.py": "/usr/local/bin/del01_delete_db_entries.py", "delete_db": "/usr/local/bin/delete_db", "fascodon": "/usr/local/bin/fascodon", "fascomp": "/usr/local/bin/fascomp", "fasconvert": "/usr/local/bin/fasconvert", "fascut": "/usr/local/bin/fascut", "fasfilter": "/usr/local/bin/fasfilter", "fasgrep": "/usr/local/bin/fasgrep", "fashead": "/usr/local/bin/fashead", "faslen": "/usr/local/bin/faslen", "faspaste": "/usr/local/bin/faspaste", "fasrc": "/usr/local/bin/fasrc", "fassort": "/usr/local/bin/fassort", "fassub": "/usr/local/bin/fassub", "fastail": "/usr/local/bin/fastail", "fastax": "/usr/local/bin/fastax", "fastaxsort": "/usr/local/bin/fastaxsort", "fastr": "/usr/local/bin/fastr", "fasttree_pipeline": "/usr/local/bin/fasttree_pipeline", "fasuniq": "/usr/local/bin/fasuniq", "faswc": "/usr/local/bin/faswc", "fasxl": "/usr/local/bin/fasxl", "ft01_extract_accessions.py": "/usr/local/bin/ft01_extract_accessions.py", "gbfalncut": "/usr/local/bin/gbfalncut", "gbfcut": "/usr/local/bin/gbfcut", "mdb01_makeblastdb.sh": "/usr/local/bin/mdb01_makeblastdb.sh", "mdb02_convert_headers.py": "/usr/local/bin/mdb02_convert_headers.py", "mdb03_add_to_db.py": "/usr/local/bin/mdb03_add_to_db.py", "merge_results": "/usr/local/bin/merge_results", "or01_filter_hits.py": "/usr/local/bin/or01_filter_hits.py", "or02_find_orthologs.py": "/usr/local/bin/or02_find_orthologs.py", "orthology_pipeline": "/usr/local/bin/orthology_pipeline", "show": "/usr/local/bin/show", "seqkit": "/usr/local/bin/seqkit", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "FastTreeMP": "/usr/local/bin/FastTreeMP", "muscle": "/usr/local/bin/muscle", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras"}}
+config: {"url": "https://biocontainers.pro/tools/batch_brb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for batch_brb", "latest": {"1.1.1--hdfd78af_0": "sha256:11837069f49f188abb6d65b967f10f345e3a835d21e39bd4f9039fa5f89edb2f"}, "tags": {"1.0.1--hdfd78af_1": "sha256:20d4acd2727188ad223929fd69f168b0169c0bc6c9d831aa225bc786b43fae33", "1.1.1--hdfd78af_0": "sha256:11837069f49f188abb6d65b967f10f345e3a835d21e39bd4f9039fa5f89edb2f"}, "docker": "quay.io/biocontainers/batch_brb", "aliases": {"accession_retrieve": "/usr/local/bin/accession_retrieve", "adb01_check_db.py": "/usr/local/bin/adb01_check_db.py", "adb02_add_alias_to_db.py": "/usr/local/bin/adb02_add_alias_to_db.py", "aliasdb_pipeline": "/usr/local/bin/aliasdb_pipeline", "alncut": "/usr/local/bin/alncut", "alnpi": "/usr/local/bin/alnpi", "ar01_accret.py": "/usr/local/bin/ar01_accret.py", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "batch_brb_functions.py": "/usr/local/bin/batch_brb_functions.py", "batch_brb_setup": "/usr/local/bin/batch_brb_setup", "batch_makeblastdb": "/usr/local/bin/batch_makeblastdb", "del01_delete_db_entries.py": "/usr/local/bin/del01_delete_db_entries.py", "delete_db": "/usr/local/bin/delete_db", "fascodon": "/usr/local/bin/fascodon", "fascomp": "/usr/local/bin/fascomp", "fasconvert": "/usr/local/bin/fasconvert", "fascut": "/usr/local/bin/fascut", "fasfilter": "/usr/local/bin/fasfilter", "fasgrep": "/usr/local/bin/fasgrep", "fashead": "/usr/local/bin/fashead", "faslen": "/usr/local/bin/faslen", "faspaste": "/usr/local/bin/faspaste", "fasrc": "/usr/local/bin/fasrc", "fassort": "/usr/local/bin/fassort", "fassub": "/usr/local/bin/fassub", "fastail": "/usr/local/bin/fastail", "fastax": "/usr/local/bin/fastax", "fastaxsort": "/usr/local/bin/fastaxsort", "fastr": "/usr/local/bin/fastr", "fasttree_pipeline": "/usr/local/bin/fasttree_pipeline", "fasuniq": "/usr/local/bin/fasuniq", "faswc": "/usr/local/bin/faswc", "fasxl": "/usr/local/bin/fasxl", "ft01_extract_accessions.py": "/usr/local/bin/ft01_extract_accessions.py", "gbfalncut": "/usr/local/bin/gbfalncut", "gbfcut": "/usr/local/bin/gbfcut", "mdb01_makeblastdb.sh": "/usr/local/bin/mdb01_makeblastdb.sh", "mdb02_convert_headers.py": "/usr/local/bin/mdb02_convert_headers.py", "mdb03_add_to_db.py": "/usr/local/bin/mdb03_add_to_db.py", "merge_results": "/usr/local/bin/merge_results", "or01_filter_hits.py": "/usr/local/bin/or01_filter_hits.py", "or02_find_orthologs.py": "/usr/local/bin/or02_find_orthologs.py", "orthology_pipeline": "/usr/local/bin/orthology_pipeline", "show": "/usr/local/bin/show", "seqkit": "/usr/local/bin/seqkit", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "FastTreeMP": "/usr/local/bin/FastTreeMP", "muscle": "/usr/local/bin/muscle", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/batch_brb.
@@ -81,7 +82,7 @@ $ shpc install quay.io/biocontainers/batch_brb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/batch_brb:1.0.1--hdfd78af_1
+$ shpc install quay.io/biocontainers/batch_brb:1.1.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -93,8 +94,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/batch_brb/1.0.1--hdfd78af_1
-$ module help quay.io/biocontainers/batch_brb/1.0.1--hdfd78af_1
+$ module load quay.io/biocontainers/batch_brb/1.1.1--hdfd78af_0
+$ module help quay.io/biocontainers/batch_brb/1.1.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

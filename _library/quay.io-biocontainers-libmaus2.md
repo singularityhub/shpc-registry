@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/libmaus2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libmaus2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libmaus2/container.yaml"
-updated_at: "2024-06-26 03:01:27.630808"
-latest: "2.0.810--h05617a9_5"
+updated_at: "2024-06-27 03:02:01.688571"
+latest: "2.0.810--h7226ae7_6"
 container_url: "https://biocontainers.pro/tools/libmaus2"
 aliases:
  - "append_sff"
@@ -49,8 +49,9 @@ versions:
  - "2.0.810--hdd7f113_3"
  - "2.0.810--h05617a9_4"
  - "2.0.810--h05617a9_5"
+ - "2.0.810--h7226ae7_6"
 description: "shpc-registry automated BioContainers addition for libmaus2"
-config: {"url": "https://biocontainers.pro/tools/libmaus2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libmaus2", "latest": {"2.0.810--h05617a9_5": "sha256:101151fa99223435b2f8312501c23c799833d7784c9708b3faa2c3ea5e1e57b7"}, "tags": {"2.0.810--hdd7f113_3": "sha256:fe4df1b9a3a1c62ff14aa64c3906a6a858075c1a60f3a1d4d3f67cb9ecdd7db2", "2.0.810--h05617a9_4": "sha256:4e5219541df75555cc781ef1096cb82e94a92ac4de4e017f73fe8c9aa21e2fac", "2.0.810--h05617a9_5": "sha256:101151fa99223435b2f8312501c23c799833d7784c9708b3faa2c3ea5e1e57b7"}, "docker": "quay.io/biocontainers/libmaus2", "aliases": {"append_sff": "/usr/local/bin/append_sff", "convert_trace": "/usr/local/bin/convert_trace", "cram_dump": "/usr/local/bin/cram_dump", "cram_filter": "/usr/local/bin/cram_filter", "cram_index": "/usr/local/bin/cram_index", "cram_size": "/usr/local/bin/cram_size", "extract_fastq": "/usr/local/bin/extract_fastq", "extract_qual": "/usr/local/bin/extract_qual", "extract_seq": "/usr/local/bin/extract_seq", "get_comment": "/usr/local/bin/get_comment", "hash_exp": "/usr/local/bin/hash_exp", "hash_extract": "/usr/local/bin/hash_extract", "hash_list": "/usr/local/bin/hash_list", "hash_sff": "/usr/local/bin/hash_sff", "hash_tar": "/usr/local/bin/hash_tar", "index_tar": "/usr/local/bin/index_tar", "io_lib-config": "/usr/local/bin/io_lib-config", "makeSCF": "/usr/local/bin/makeSCF", "scf_dump": "/usr/local/bin/scf_dump", "scf_info": "/usr/local/bin/scf_info", "scf_update": "/usr/local/bin/scf_update", "scram_flagstat": "/usr/local/bin/scram_flagstat", "scram_merge": "/usr/local/bin/scram_merge", "scram_pileup": "/usr/local/bin/scram_pileup", "scram_test": "/usr/local/bin/scram_test", "scramble": "/usr/local/bin/scramble", "srf2fasta": "/usr/local/bin/srf2fasta", "srf2fastq": "/usr/local/bin/srf2fastq", "srf_dump_all": "/usr/local/bin/srf_dump_all", "srf_extract_hash": "/usr/local/bin/srf_extract_hash", "srf_extract_linear": "/usr/local/bin/srf_extract_linear", "srf_filter": "/usr/local/bin/srf_filter", "srf_index_hash": "/usr/local/bin/srf_index_hash", "srf_info": "/usr/local/bin/srf_info", "srf_list": "/usr/local/bin/srf_list", "trace_dump": "/usr/local/bin/trace_dump", "ztr_dump": "/usr/local/bin/ztr_dump"}}
+config: {"url": "https://biocontainers.pro/tools/libmaus2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libmaus2", "latest": {"2.0.810--h7226ae7_6": "sha256:94f3c938c57239d150bfad95b7527351958341d54cefef78e16802f769bbcb52"}, "tags": {"2.0.810--hdd7f113_3": "sha256:fe4df1b9a3a1c62ff14aa64c3906a6a858075c1a60f3a1d4d3f67cb9ecdd7db2", "2.0.810--h05617a9_4": "sha256:4e5219541df75555cc781ef1096cb82e94a92ac4de4e017f73fe8c9aa21e2fac", "2.0.810--h05617a9_5": "sha256:101151fa99223435b2f8312501c23c799833d7784c9708b3faa2c3ea5e1e57b7", "2.0.810--h7226ae7_6": "sha256:94f3c938c57239d150bfad95b7527351958341d54cefef78e16802f769bbcb52"}, "docker": "quay.io/biocontainers/libmaus2", "aliases": {"append_sff": "/usr/local/bin/append_sff", "convert_trace": "/usr/local/bin/convert_trace", "cram_dump": "/usr/local/bin/cram_dump", "cram_filter": "/usr/local/bin/cram_filter", "cram_index": "/usr/local/bin/cram_index", "cram_size": "/usr/local/bin/cram_size", "extract_fastq": "/usr/local/bin/extract_fastq", "extract_qual": "/usr/local/bin/extract_qual", "extract_seq": "/usr/local/bin/extract_seq", "get_comment": "/usr/local/bin/get_comment", "hash_exp": "/usr/local/bin/hash_exp", "hash_extract": "/usr/local/bin/hash_extract", "hash_list": "/usr/local/bin/hash_list", "hash_sff": "/usr/local/bin/hash_sff", "hash_tar": "/usr/local/bin/hash_tar", "index_tar": "/usr/local/bin/index_tar", "io_lib-config": "/usr/local/bin/io_lib-config", "makeSCF": "/usr/local/bin/makeSCF", "scf_dump": "/usr/local/bin/scf_dump", "scf_info": "/usr/local/bin/scf_info", "scf_update": "/usr/local/bin/scf_update", "scram_flagstat": "/usr/local/bin/scram_flagstat", "scram_merge": "/usr/local/bin/scram_merge", "scram_pileup": "/usr/local/bin/scram_pileup", "scram_test": "/usr/local/bin/scram_test", "scramble": "/usr/local/bin/scramble", "srf2fasta": "/usr/local/bin/srf2fasta", "srf2fastq": "/usr/local/bin/srf2fastq", "srf_dump_all": "/usr/local/bin/srf_dump_all", "srf_extract_hash": "/usr/local/bin/srf_extract_hash", "srf_extract_linear": "/usr/local/bin/srf_extract_linear", "srf_filter": "/usr/local/bin/srf_filter", "srf_index_hash": "/usr/local/bin/srf_index_hash", "srf_info": "/usr/local/bin/srf_info", "srf_list": "/usr/local/bin/srf_list", "trace_dump": "/usr/local/bin/trace_dump", "ztr_dump": "/usr/local/bin/ztr_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libmaus2.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/libmaus2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libmaus2:2.0.810--h05617a9_5
+$ shpc install quay.io/biocontainers/libmaus2:2.0.810--h7226ae7_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libmaus2/2.0.810--h05617a9_5
-$ module help quay.io/biocontainers/libmaus2/2.0.810--h05617a9_5
+$ module load quay.io/biocontainers/libmaus2/2.0.810--h7226ae7_6
+$ module help quay.io/biocontainers/libmaus2/2.0.810--h7226ae7_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

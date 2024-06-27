@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ac/container.yaml"
-updated_at: "2024-06-26 03:04:51.036036"
+updated_at: "2024-06-27 03:05:31.218784"
 latest: "1.1--hdbdd923_5"
 container_url: "https://biocontainers.pro/tools/ac"
 aliases:
@@ -13,8 +13,9 @@ versions:
  - "1.1--h87f3376_2"
  - "1.1--hdbdd923_4"
  - "1.1--hdbdd923_5"
+ - "1.1--h7021222_5"
 description: "shpc-registry automated BioContainers addition for ac"
-config: {"url": "https://biocontainers.pro/tools/ac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ac", "latest": {"1.1--hdbdd923_5": "sha256:f78773a249fd7221f3fb7b0866b14d34c722ffbd308c6273e24b0537213ea86f"}, "tags": {"1.1--h87f3376_2": "sha256:c38f2916e02283c67ad86f8a0083d77da97447272877191f09dced17f5159bc9", "1.1--hdbdd923_4": "sha256:d7934ca00653cdb016aa09c4d10212f6b2d04645f089f333640bc9e4811b696e", "1.1--hdbdd923_5": "sha256:f78773a249fd7221f3fb7b0866b14d34c722ffbd308c6273e24b0537213ea86f"}, "docker": "quay.io/biocontainers/ac", "aliases": {"AC": "/usr/local/bin/AC"}}
+config: {"url": "https://biocontainers.pro/tools/ac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ac", "latest": {"1.1--hdbdd923_5": "sha256:f78773a249fd7221f3fb7b0866b14d34c722ffbd308c6273e24b0537213ea86f"}, "tags": {"1.1--h87f3376_2": "sha256:c38f2916e02283c67ad86f8a0083d77da97447272877191f09dced17f5159bc9", "1.1--hdbdd923_4": "sha256:d7934ca00653cdb016aa09c4d10212f6b2d04645f089f333640bc9e4811b696e", "1.1--hdbdd923_5": "sha256:f78773a249fd7221f3fb7b0866b14d34c722ffbd308c6273e24b0537213ea86f", "1.1--h7021222_5": "sha256:74629b4fe7c121f3a220f1e0933bf96e354c99e63bf1c98e0d8e4e56d64c9ef2"}, "docker": "quay.io/biocontainers/ac", "aliases": {"AC": "/usr/local/bin/AC"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ac.

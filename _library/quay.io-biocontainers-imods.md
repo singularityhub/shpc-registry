@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/imods"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/imods/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/imods/container.yaml"
-updated_at: "2024-06-26 02:58:55.691039"
+updated_at: "2024-06-27 02:59:29.339696"
 latest: "1.0.4--h9ee0642_3"
 container_url: "https://biocontainers.pro/tools/imods"
 aliases:

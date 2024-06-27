@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fuma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fuma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fuma/container.yaml"
-updated_at: "2024-06-26 03:16:58.368415"
+updated_at: "2024-06-27 03:18:02.910267"
 latest: "4.0.0--pyhb7b1952_0"
 container_url: "https://biocontainers.pro/tools/fuma"
 aliases:
@@ -29,7 +29,7 @@ aliases:
 versions:
  - "4.0.0--pyhb7b1952_0"
 description: "shpc-registry automated BioContainers addition for fuma"
-config: {"url": "https://biocontainers.pro/tools/fuma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fuma", "latest": {"4.0.0--pyhb7b1952_0": "sha256:22364182ddd1108b9e37a72ad9f87c99a93b786459ada1235554741c375433a2"}, "tags": {"4.0.0--pyhb7b1952_0": "sha256:22364182ddd1108b9e37a72ad9f87c99a93b786459ada1235554741c375433a2"}, "docker": "quay.io/biocontainers/fuma", "aliases": {"chimerascan-exclude-transcriptome-events": "/usr/local/bin/chimerascan-exclude-transcriptome-events", "chimerascan-relative-bedpe-to-CG": "/usr/local/bin/chimerascan-relative-bedpe-to-CG", "defuse-clusters-to-CG": "/usr/local/bin/defuse-clusters-to-CG", "fuma": "/usr/local/bin/fuma", "fuma-gencode-gtf-to-bed": "/usr/local/bin/fuma-gencode-gtf-to-bed", "fuma-list-to-boolean-list": "/usr/local/bin/fuma-list-to-boolean-list", "fusioncatcher-to-CG": "/usr/local/bin/fusioncatcher-to-CG", "htseq-count-barcodes": "/usr/local/bin/htseq-count-barcodes", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9"}}
+config: {"url": "https://biocontainers.pro/tools/fuma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fuma", "latest": {"4.0.0--pyhb7b1952_0": "sha256:49e62ca133824cf53d1932746127b59c8c6ccdcc3717c84d0387c95cc4385b30"}, "tags": {"4.0.0--pyhb7b1952_0": "sha256:49e62ca133824cf53d1932746127b59c8c6ccdcc3717c84d0387c95cc4385b30"}, "docker": "quay.io/biocontainers/fuma", "aliases": {"chimerascan-exclude-transcriptome-events": "/usr/local/bin/chimerascan-exclude-transcriptome-events", "chimerascan-relative-bedpe-to-CG": "/usr/local/bin/chimerascan-relative-bedpe-to-CG", "defuse-clusters-to-CG": "/usr/local/bin/defuse-clusters-to-CG", "fuma": "/usr/local/bin/fuma", "fuma-gencode-gtf-to-bed": "/usr/local/bin/fuma-gencode-gtf-to-bed", "fuma-list-to-boolean-list": "/usr/local/bin/fuma-list-to-boolean-list", "fusioncatcher-to-CG": "/usr/local/bin/fusioncatcher-to-CG", "htseq-count-barcodes": "/usr/local/bin/htseq-count-barcodes", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fuma.

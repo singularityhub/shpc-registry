@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/krbalancing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krbalancing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/krbalancing/container.yaml"
-updated_at: "2024-06-26 02:36:27.971297"
-latest: "0.0.5--py310h0dbaff4_7"
+updated_at: "2024-06-27 02:36:45.731237"
+latest: "0.0.5--py38h2123bcc_8"
 container_url: "https://biocontainers.pro/tools/krbalancing"
 aliases:
  - "pybind11-config"
@@ -18,8 +18,9 @@ versions:
  - "0.0.5--py38h4a32c8e_4"
  - "0.0.5--py310h0dbaff4_7"
  - "0.0.5--py39h1f90b4d_7"
+ - "0.0.5--py38h2123bcc_8"
 description: "shpc-registry automated BioContainers addition for krbalancing"
-config: {"url": "https://biocontainers.pro/tools/krbalancing", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krbalancing", "latest": {"0.0.5--py310h0dbaff4_7": "sha256:70286ab6375e18726ecb5e80e208ae53562d6aa68623abb27f3c247614e674f3"}, "tags": {"0.0.5--py38h4a32c8e_4": "sha256:c393b80dd6376008d76af8256e9cc9a3e6c1cf6815bd30f4f5319b456032e34d", "0.0.5--py310h0dbaff4_7": "sha256:70286ab6375e18726ecb5e80e208ae53562d6aa68623abb27f3c247614e674f3", "0.0.5--py39h1f90b4d_7": "sha256:e17d943246724f86ec10c6dbbb68a2d39944bc585379febfda5b06b86f294d76"}, "docker": "quay.io/biocontainers/krbalancing", "aliases": {"pybind11-config": "/usr/local/bin/pybind11-config", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/krbalancing", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krbalancing", "latest": {"0.0.5--py38h2123bcc_8": "sha256:bbbd1212a470dbc1bcc7e9034df6736dd0f832344a00268e820545828bced1bf"}, "tags": {"0.0.5--py38h4a32c8e_4": "sha256:c393b80dd6376008d76af8256e9cc9a3e6c1cf6815bd30f4f5319b456032e34d", "0.0.5--py310h0dbaff4_7": "sha256:70286ab6375e18726ecb5e80e208ae53562d6aa68623abb27f3c247614e674f3", "0.0.5--py39h1f90b4d_7": "sha256:e17d943246724f86ec10c6dbbb68a2d39944bc585379febfda5b06b86f294d76", "0.0.5--py38h2123bcc_8": "sha256:bbbd1212a470dbc1bcc7e9034df6736dd0f832344a00268e820545828bced1bf"}, "docker": "quay.io/biocontainers/krbalancing", "aliases": {"pybind11-config": "/usr/local/bin/pybind11-config", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/krbalancing.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/krbalancing
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/krbalancing:0.0.5--py310h0dbaff4_7
+$ shpc install quay.io/biocontainers/krbalancing:0.0.5--py38h2123bcc_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/krbalancing/0.0.5--py310h0dbaff4_7
-$ module help quay.io/biocontainers/krbalancing/0.0.5--py310h0dbaff4_7
+$ module load quay.io/biocontainers/krbalancing/0.0.5--py38h2123bcc_8
+$ module help quay.io/biocontainers/krbalancing/0.0.5--py38h2123bcc_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

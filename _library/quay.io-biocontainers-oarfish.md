@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oarfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oarfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oarfish/container.yaml"
-updated_at: "2024-06-26 02:36:20.130405"
+updated_at: "2024-06-27 02:36:37.833947"
 latest: "0.4.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/oarfish"
 aliases:

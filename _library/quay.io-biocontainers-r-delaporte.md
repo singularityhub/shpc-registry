@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-delaporte"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-delaporte/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-delaporte/container.yaml"
-updated_at: "2024-06-26 02:56:00.299223"
+updated_at: "2024-06-27 02:56:33.832153"
 latest: "3.0.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-delaporte"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "3.0.0--r3.3.1_0"
  - "3.0.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-delaporte"
-config: {"url": "https://biocontainers.pro/tools/r-delaporte", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-delaporte", "latest": {"3.0.0--r3.3.1_0": "sha256:f65551434b702b0db7a2559aa9c208d055b0a5f6e5f02a19ef8b6f6f0776b451"}, "tags": {"3.0.0--r3.3.1_0": "sha256:f65551434b702b0db7a2559aa9c208d055b0a5f6e5f02a19ef8b6f6f0776b451", "3.0.0--r3.3.2_0": "sha256:5a37e8292ea818710a30981345b153a67ae1676b47f827a09f275f719d611612"}, "docker": "quay.io/biocontainers/r-delaporte", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-delaporte", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-delaporte", "latest": {"3.0.0--r3.3.1_0": "sha256:dc3ebf2b7e3b8df624ffb9f2ee0580361161cc26c9ba7eab364c105b5da8f161"}, "tags": {"3.0.0--r3.3.1_0": "sha256:dc3ebf2b7e3b8df624ffb9f2ee0580361161cc26c9ba7eab364c105b5da8f161", "3.0.0--r3.3.2_0": "sha256:cafb220945f23ae99dabe0199fbd05bdf92a3b959761c7c6965be633bcc09c3f"}, "docker": "quay.io/biocontainers/r-delaporte", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-delaporte.

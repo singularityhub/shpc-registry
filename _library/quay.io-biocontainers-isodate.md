@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isodate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isodate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isodate/container.yaml"
-updated_at: "2024-06-26 03:10:34.950634"
+updated_at: "2024-06-27 03:11:18.400739"
 latest: "0.5.4--py36_0"
 container_url: "https://biocontainers.pro/tools/isodate"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.5.4--py36_0"
+ - "0.5.4--py35_0"
 description: "shpc-registry automated BioContainers addition for isodate"
-config: {"url": "https://biocontainers.pro/tools/isodate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isodate", "latest": {"0.5.4--py36_0": "sha256:5d9c7bbabc860af94fc0b2ccb9739e8840467db3a6208a7e1846bcd37ebbf299"}, "tags": {"0.5.4--py36_0": "sha256:5d9c7bbabc860af94fc0b2ccb9739e8840467db3a6208a7e1846bcd37ebbf299"}, "docker": "quay.io/biocontainers/isodate", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/isodate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isodate", "latest": {"0.5.4--py36_0": "sha256:c0a239d74db18cc7c2ebe0f57c8b785915ba5190f93326f771910f7600340d52"}, "tags": {"0.5.4--py36_0": "sha256:c0a239d74db18cc7c2ebe0f57c8b785915ba5190f93326f771910f7600340d52", "0.5.4--py35_0": "sha256:22e51961150197be8887f9a904c21995e6507990228d83f6ab868240094d5068"}, "docker": "quay.io/biocontainers/isodate", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/isodate.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biocantor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biocantor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biocantor/container.yaml"
-updated_at: "2024-06-26 02:42:44.891169"
+updated_at: "2024-06-27 02:43:08.586595"
 latest: "1.1.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/biocantor"
 aliases:

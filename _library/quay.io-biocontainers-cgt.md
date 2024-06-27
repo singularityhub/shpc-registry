@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgt/container.yaml"
-updated_at: "2024-06-26 02:59:50.924454"
+updated_at: "2024-06-27 03:00:24.812578"
 latest: "1.0.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/cgt"
 aliases:
