@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/r-cleangeostreamr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-cleangeostreamr
+latest:
+  1.0.0--r43hdfd78af_0: sha256:f7490a7d0dbba3746327c781ca879c22c1b684eccaa9b4411261f0def183e08e
+tags:
+  1.0.0--r43hdfd78af_0: sha256:f7490a7d0dbba3746327c781ca879c22c1b684eccaa9b4411261f0def183e08e
+docker: quay.io/biocontainers/r-cleangeostreamr
+aliases:
+  bsdunzip: /usr/local/bin/bsdunzip
+  curate_chemical_data: /usr/local/bin/curate_chemical_data
+  curate_spatial_data: /usr/local/bin/curate_spatial_data
+  fitsverify: /usr/local/bin/fitsverify
+  gdal_footprint: /usr/local/bin/gdal_footprint
+  minigzip: /usr/local/bin/minigzip
+  minizip: /usr/local/bin/minizip
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  protoc-25.3.0: /usr/local/bin/protoc-25.3.0
+  sozip: /usr/local/bin/sozip
+  git2: /usr/local/bin/git2
+  pg_amcheck: /usr/local/bin/pg_amcheck
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  gdal_create: /usr/local/bin/gdal_create
+  gdal_viewshed: /usr/local/bin/gdal_viewshed
+  gdalmdiminfo: /usr/local/bin/gdalmdiminfo
+  gdalmdimtranslate: /usr/local/bin/gdalmdimtranslate
+  pdfsig: /usr/local/bin/pdfsig
+  pandoc-server: /usr/local/bin/pandoc-server
+  applygeo: /usr/local/bin/applygeo
+  bsdcat: /usr/local/bin/bsdcat
+  bsdcpio: /usr/local/bin/bsdcpio
+  bsdtar: /usr/local/bin/bsdtar
+  geotifcp: /usr/local/bin/geotifcp
+  gnmanalyse: /usr/local/bin/gnmanalyse
+  gnmmanage: /usr/local/bin/gnmmanage
+  kea-config: /usr/local/bin/kea-config
+  listgeo: /usr/local/bin/listgeo
+  makegeo: /usr/local/bin/makegeo
+  pg_verifybackup: /usr/local/bin/pg_verifybackup
+  projsync: /usr/local/bin/projsync
+  gdal-config: /usr/local/bin/gdal-config
+  gdal_contour: /usr/local/bin/gdal_contour
+  gdal_grid: /usr/local/bin/gdal_grid
+  gdal_rasterize: /usr/local/bin/gdal_rasterize
