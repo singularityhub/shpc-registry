@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/onto2nx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for onto2nx
 latest:
-  0.1.1--py_0: sha256:c5c3202a1bbfdaf30d935886353c4539f147718250efaed2955b5852bda3c2c5
+  0.1.1--py_0: sha256:4b2b6e5d3d136ca1a55b57fdf02ab3a2a23ea3493904d4526a055be9a2dc2e27
 tags:
-  0.1.1--py_0: sha256:c5c3202a1bbfdaf30d935886353c4539f147718250efaed2955b5852bda3c2c5
+  0.1.1--py_0: sha256:4b2b6e5d3d136ca1a55b57fdf02ab3a2a23ea3493904d4526a055be9a2dc2e27
 docker: quay.io/biocontainers/onto2nx
 aliases:
   csv2rdf: /usr/local/bin/csv2rdf

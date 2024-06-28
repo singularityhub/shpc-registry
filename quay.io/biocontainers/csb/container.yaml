@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/csb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for csb
 latest:
-  1.2.5--pyh24bf2e0_2: sha256:78eb0352517ed26a0055570aa2e1f900b7086084b42e92b13ad76c2774101f5e
+  1.2.5--pyh24bf2e0_2: sha256:a3f2b6c10090e9ec8b1ce3598b82cf8f22bf650771f244c0689228363dafd16e
 tags:
-  1.2.5--pyh24bf2e0_2: sha256:78eb0352517ed26a0055570aa2e1f900b7086084b42e92b13ad76c2774101f5e
+  1.2.5--pyh24bf2e0_2: sha256:a3f2b6c10090e9ec8b1ce3598b82cf8f22bf650771f244c0689228363dafd16e
 docker: quay.io/biocontainers/csb
 aliases:
   csb-bfit: /usr/local/bin/csb-bfit

@@ -2,16 +2,17 @@ url: https://biocontainers.pro/tools/sourmash
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sourmash
 latest:
-  4.8.8--hdfd78af_0: sha256:d3d9c65202b3c980c89a75976363d59502dbd2cb964ee987530ed75ccb4a2dd0
+  4.8.9--hdfd78af_0: sha256:45949b85cb6e558458bd8bf01589bdf7ea0fc07e9f2aae480d76e34ffe29e142
 tags:
-  2.0.0a9--py35hfc679d8_0: sha256:3b1431a5ef4d7a71ecb85bde2147c400dfc89529a8b06fc8e59a8c8073e11874
-  2.0.0a11--py35hfc679d8_0: sha256:61531a5f0f7aabc4bf0807ccd4899d1b66d718e63ae5db378670d68b369f39d0
+  2.0.0a9--py35hfc679d8_0: sha256:215d557b61de173de83ebb47b43248c1a564a5e2e5a01bbf2c98e9885b56a5f0
+  2.0.0a11--py35hfc679d8_0: sha256:604da7a56c5344033e6dd4406a7a93426cef5b8ea2ad03f36b744182592f3e00
   4.8.7--hdfd78af_0: sha256:8dcfbaacc82ed7d00c30253d2358ee1859b2110c37a6937b924327988225c13e
   4.6.1--hdfd78af_0: sha256:d1e6c629a61bd275ec6f5c63e171cbde485edb8582c5baa4a5b9a2fbe206bae6
   4.5.0--hdfd78af_0: sha256:98a7010e7f780e5132279d6f9cd3ea7607c55266f9dd4bc71b5375ff47e8c44d
   4.4.3--hdfd78af_0: sha256:6073bad2c289d2e44a3cdaf0a5ded2dd9974d6d7a6a894ff82cc15ca728d7964
   4.3.0--hdfd78af_1: sha256:411c17d10fd2c5e31de13c6c19bbe1bd7cca909e7673e832a4cd65b76716a6f1
   4.8.8--hdfd78af_0: sha256:d3d9c65202b3c980c89a75976363d59502dbd2cb964ee987530ed75ccb4a2dd0
+  4.8.9--hdfd78af_0: sha256:45949b85cb6e558458bd8bf01589bdf7ea0fc07e9f2aae480d76e34ffe29e142
 docker: quay.io/biocontainers/sourmash
 aliases:
   abundance-dist-single.py: /usr/local/bin/abundance-dist-single.py

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/fraggenescan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fraggenescan
 latest:
-  1.31--h031d066_6: sha256:3f526607afa5c14ac82543d109ebf9e411fb2e7f742b874de3bb789911965abb
+  1.31--h031d066_7: sha256:d379f795280e88354b3f531405a008d4fb41c50e31a57b161b329d584edae7e7
 tags:
   1.31--hec16e2b_4: sha256:aa423a24228d6ea9b6916e4e48aa9d2c000c8786ddcbd9de3194474c5b4ce00b
   1.31--h031d066_6: sha256:3f526607afa5c14ac82543d109ebf9e411fb2e7f742b874de3bb789911965abb
+  1.31--h031d066_7: sha256:d379f795280e88354b3f531405a008d4fb41c50e31a57b161b329d584edae7e7
 docker: quay.io/biocontainers/fraggenescan
 aliases:
   FragGeneScan: /usr/local/bin/FragGeneScan

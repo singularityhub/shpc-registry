@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-ptw
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ptw
 latest:
-  1.9_11--r3.3.1_0: sha256:39e2a657d61518aec5aa24147c22c92c0d6a07faf74b1dde08861c40ede628ce
+  1.9_11--r3.3.1_0: sha256:a27fd06bc547babc273df39d9fa0971722de5c26c664b387ed51d965456fb412
 tags:
-  1.9_11--r3.3.1_0: sha256:39e2a657d61518aec5aa24147c22c92c0d6a07faf74b1dde08861c40ede628ce
-  1.9_11--r3.3.2_0: sha256:2eedaed6dc44daa7e9f714abea71867a3ca618ecb63b62f6f98933718d60b60c
+  1.9_11--r3.3.1_0: sha256:a27fd06bc547babc273df39d9fa0971722de5c26c664b387ed51d965456fb412
+  1.9_11--r3.3.2_0: sha256:940d846dff7276fc5aa0b05f3cdbd8676d8434af1fc1f657014d9c2271b71b74
 docker: quay.io/biocontainers/r-ptw
 aliases:
   uconv: /usr/local/bin/uconv

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-flashclust
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-flashclust
 latest:
-  1.01_2--r3.3.2_0: sha256:3b52243a0533f4036a65d07aa4ffce99c6dfabcad35f51656dcde74967f8a76c
+  1.01_2--r3.3.2_0: sha256:faa862cf341e774d13783990fe01c06ea9cc5857b6214764888c7f4756f6bdc9
 tags:
-  1.01_2--r3.3.2_0: sha256:3b52243a0533f4036a65d07aa4ffce99c6dfabcad35f51656dcde74967f8a76c
+  1.01_2--r3.3.2_0: sha256:faa862cf341e774d13783990fe01c06ea9cc5857b6214764888c7f4756f6bdc9
 docker: quay.io/biocontainers/r-flashclust
 aliases:
   uconv: /usr/local/bin/uconv

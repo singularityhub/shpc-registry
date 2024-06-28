@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-date-format
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-date-format
 latest:
-  2.30--pl526_2: sha256:7cfd4041022269e8995b4bd4b392b9dfd2f192cadfa114cfe95cef4bf6261324
+  2.30--pl526_2: sha256:42872f9e786041c2ccfd8c9cdb9185ceb8f97d5df712218b43d1ad0d50207883
 tags:
-  2.30--pl526_2: sha256:7cfd4041022269e8995b4bd4b392b9dfd2f192cadfa114cfe95cef4bf6261324
+  2.30--pl526_2: sha256:42872f9e786041c2ccfd8c9cdb9185ceb8f97d5df712218b43d1ad0d50207883
 docker: quay.io/biocontainers/perl-date-format
 aliases:
   perl5.26.2: /usr/local/bin/perl5.26.2

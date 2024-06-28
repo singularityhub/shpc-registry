@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/metaphor
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metaphor
 latest:
-  1.7.11--pyhdfd78af_0: sha256:a69e8527edccc26559efa807d5a7c63b762bbc5b93594d03ecf8e4e6dd581be3
+  1.7.13--pyhdfd78af_0: sha256:21f474af4b7ede393518318414e2a748d9e01339c0db614e36cedb30cbf972b8
 tags:
   1.6.1--pyhdfd78af_0: sha256:d932c3b0822baa37a8b2f8e0c577b3823b20b6da8f3b605e8f5cb8efd75e9ff9
   1.6.2--pyhdfd78af_0: sha256:7e1634296b428829643aeb345fe7944ebb07b5c45349cf1318a6ad4fa30c6fd8
@@ -14,6 +14,7 @@ tags:
   1.7.9--pyhdfd78af_1: sha256:e98f8fcce7d323d67ad7252ba284a7f980f36a3766ab13f1b9359eee2470cb41
   1.7.10--pyhdfd78af_0: sha256:d46ebc6bc53f25859c77c20ed4f8c26ae94ea4240161b0b5333928ae662ad11f
   1.7.11--pyhdfd78af_0: sha256:a69e8527edccc26559efa807d5a7c63b762bbc5b93594d03ecf8e4e6dd581be3
+  1.7.13--pyhdfd78af_0: sha256:21f474af4b7ede393518318414e2a748d9e01339c0db614e36cedb30cbf972b8
 docker: quay.io/biocontainers/metaphor
 aliases:
   metaphor: /usr/local/bin/metaphor

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/python-igraph
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for python-igraph
 latest:
-  0.7.1.post6--py35_2: sha256:89d264cc57398bac41d71f28d56312050ac89ec7c702a8720791510e68bccba1
+  0.7.1.post6--py35_2: sha256:10f87d974ce99d40f829dc56a2f56d690dc12ff0d7f9b232d58ac5fd0949ae64
 tags:
-  0.7.1.post6--py35_2: sha256:89d264cc57398bac41d71f28d56312050ac89ec7c702a8720791510e68bccba1
+  0.7.1.post6--py35_2: sha256:10f87d974ce99d40f829dc56a2f56d690dc12ff0d7f9b232d58ac5fd0949ae64
+  0.7.1.post6--py36_2: sha256:00a8e8d91b20347b9300693553271480e98ff323f3b6dfcd52a14626672cdb40
 docker: quay.io/biocontainers/python-igraph
 aliases:
   igraph: /usr/local/bin/igraph

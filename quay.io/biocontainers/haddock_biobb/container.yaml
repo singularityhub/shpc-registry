@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/haddock_biobb
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for haddock_biobb
 latest:
-  3.0.6--he10ea66_0: sha256:ac73b9c4eff992416352c5dc515cf0c4edc352009d51fd7fbe33bea2300098fe
+  3.0.6--hc31ed2c_1: sha256:933dd68997fc2a75cd3d9407492e9a4f373fa55d4565686cce06353840ae9cff
 tags:
   3.0.2--py312he153687_0: sha256:11f8ef03361c9f51669475edd782e48902e3aacc15229932d9283dff766505be
   3.0.4--py312he153687_0: sha256:e9c27f7456d95e6deaea7e31cf6877f0211e9e0573790e59516bd98d2deb4547
   3.0.6--he10ea66_0: sha256:ac73b9c4eff992416352c5dc515cf0c4edc352009d51fd7fbe33bea2300098fe
+  3.0.6--hc31ed2c_1: sha256:933dd68997fc2a75cd3d9407492e9a4f373fa55d4565686cce06353840ae9cff
 docker: quay.io/biocontainers/haddock_biobb
 aliases:
   addr2line: /usr/local/bin/addr2line

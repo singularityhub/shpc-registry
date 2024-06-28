@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-fdrtool
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-fdrtool
 latest:
-  1.2.15--r3.2.2_0: sha256:43a8280f455b8087ce1425f8adb5eafe2b08fab6bee3ab06f6b67e0c2056d31a
+  1.2.15--r3.2.2_0: sha256:c10b4a2aefb5d6983e7fa6ce8a0a5ae9d373708e1461051d6d573149725fcffb
 tags:
-  1.2.15--r3.2.2_0: sha256:43a8280f455b8087ce1425f8adb5eafe2b08fab6bee3ab06f6b67e0c2056d31a
-  1.2.15--r3.3.2_0: sha256:c9f76e042c9e6cd19ab845c9559d0d0811a30cbbff855413b098df5421c40673
+  1.2.15--r3.2.2_0: sha256:c10b4a2aefb5d6983e7fa6ce8a0a5ae9d373708e1461051d6d573149725fcffb
+  1.2.15--r3.3.2_0: sha256:cccae0d32f63e776d000375530612cc8dfc4bbee3f5aed8e2145fded4d1e268e
 docker: quay.io/biocontainers/r-fdrtool
 aliases:
   pngcp: /usr/local/bin/pngcp

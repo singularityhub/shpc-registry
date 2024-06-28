@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/dicey
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dicey
 latest:
-  0.2.8--h0d5efe1_0: sha256:5c1693ebef023aac5f9894daa2312cce9edc8d57698fd7f2ce702ccf22b5f082
+  0.3.1--h0d5efe1_0: sha256:85c14d759b54cd1cb1736d10092d962686e68625f6fb48678049d348cca79dfc
 tags:
   0.1.8--ha41ced6_3: sha256:93bbc25eca8732e7290c48c91e427d19df351dd25897d7bafc3ca9e6d5af4048
   0.2.1--ha41ced6_0: sha256:40b09f5b1f7022d537796283d773629d23f51f677a244308238cbddff8ce8f25
@@ -11,6 +11,7 @@ tags:
   0.2.3--h6b1aa3f_2: sha256:d0f202304755e2aa3fd38c5477baacabd3eba089b1f653847d8113c2faf6d0a8
   0.2.6--h6b1aa3f_0: sha256:910a405314ecb81744d069c6446524e99a53754a26ba5d50a70a16003f2ccbbe
   0.2.8--h0d5efe1_0: sha256:5c1693ebef023aac5f9894daa2312cce9edc8d57698fd7f2ce702ccf22b5f082
+  0.3.1--h0d5efe1_0: sha256:85c14d759b54cd1cb1736d10092d962686e68625f6fb48678049d348cca79dfc
 docker: quay.io/biocontainers/dicey
 aliases:
   dicey: /usr/local/bin/dicey

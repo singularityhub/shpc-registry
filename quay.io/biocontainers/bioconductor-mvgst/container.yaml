@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-mvgst
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mvgst
 latest:
-  1.12.0--r3.4.1_0: sha256:edcd5f6a9bcaeb45b84ff1a84c4e861efce30d383f5de05f429516b92c0f1e57
+  1.12.0--r3.4.1_0: sha256:3c61757c48a65052ca58f3fddee4f3de9cbbe77fd086bab3cb954a6f5cd44d9a
 tags:
-  1.12.0--r3.4.1_0: sha256:edcd5f6a9bcaeb45b84ff1a84c4e861efce30d383f5de05f429516b92c0f1e57
+  1.12.0--r3.4.1_0: sha256:3c61757c48a65052ca58f3fddee4f3de9cbbe77fd086bab3cb954a6f5cd44d9a
 docker: quay.io/biocontainers/bioconductor-mvgst
 aliases:
   wget: /usr/local/bin/wget

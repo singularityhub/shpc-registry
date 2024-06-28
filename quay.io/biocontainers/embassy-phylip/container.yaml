@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/embassy-phylip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for embassy-phylip
 latest:
-  3.69.650--ha92aebf_2: sha256:657d71a17af2b3d8885e2bf3b4ac303a756dc2329df17818353b64fd03783bc1
+  3.69.650--ha92aebf_2: sha256:77c61fd4499a7d61dc1b72a2e167bca48b92c1f9e49f6b7e5aab6a78c04f72d7
 tags:
-  3.69.650--ha92aebf_2: sha256:657d71a17af2b3d8885e2bf3b4ac303a756dc2329df17818353b64fd03783bc1
+  3.69.650--ha92aebf_2: sha256:77c61fd4499a7d61dc1b72a2e167bca48b92c1f9e49f6b7e5aab6a78c04f72d7
 docker: quay.io/biocontainers/embassy-phylip
 aliases:
   _fclique: /usr/local/bin/_fclique

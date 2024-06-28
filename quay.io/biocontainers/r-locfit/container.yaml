@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-locfit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-locfit
 latest:
-  1.5_9.1--r3.3.1_2: sha256:1d8682d3b2a7e10feb7405f67f231c276f35eb4372e9f9bc32e5e0d74d96c21d
+  1.5_9.1--r3.3.1_2: sha256:c9263b8eaf06cc96171044765678a1268cc6fba158ffa5b89b4d9dc1c55f9d27
 tags:
-  1.5_9.1--r3.3.1_2: sha256:1d8682d3b2a7e10feb7405f67f231c276f35eb4372e9f9bc32e5e0d74d96c21d
-  1.5_9.1--r3.3.2_2: sha256:7addd4e9df7a106c3fee41ba306f001dfa04b21acf3fd74f1ab537b67d00a781
+  1.5_9.1--r3.3.1_2: sha256:c9263b8eaf06cc96171044765678a1268cc6fba158ffa5b89b4d9dc1c55f9d27
+  1.5_9.1--r3.3.2_2: sha256:76ae7a33cc04614eea16815e88dd10d52375a882f5e004d7f2e7d57d104588d4
 docker: quay.io/biocontainers/r-locfit
 aliases:
   uconv: /usr/local/bin/uconv

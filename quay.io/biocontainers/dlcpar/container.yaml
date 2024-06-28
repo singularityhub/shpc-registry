@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/dlcpar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dlcpar
 latest:
-  1.0--py_2: sha256:24307b12431b1ff59625e67ebc27942c12472b0abb8b1d703b3b630e070d43cf
+  1.0--py_2: sha256:622eada8e2961e7aca1801b908b93f31c7f78314bdb4394df5d620f5301fcc2b
 tags:
-  1.0--py_2: sha256:24307b12431b1ff59625e67ebc27942c12472b0abb8b1d703b3b630e070d43cf
+  1.0--py_2: sha256:622eada8e2961e7aca1801b908b93f31c7f78314bdb4394df5d620f5301fcc2b
 docker: quay.io/biocontainers/dlcpar
 aliases:
   dlcoal_to_dlcpar: /usr/local/bin/dlcoal_to_dlcpar

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/gdal
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gdal
 latest:
-  2.4.0: sha256:12a36761fa9708d74dfcee068178618d7c13bd8979145f9d478018c8cc1dc3b0
+  2.4.0: sha256:4da95e462b0590f841b69d2d559e5101a8bd4027e8ead13df9597529a84e3984
 tags:
-  2.4.0: sha256:12a36761fa9708d74dfcee068178618d7c13bd8979145f9d478018c8cc1dc3b0
+  2.4.0: sha256:4da95e462b0590f841b69d2d559e5101a8bd4027e8ead13df9597529a84e3984
 docker: quay.io/biocontainers/gdal
 aliases:
   epsg_tr.py: /usr/local/bin/epsg_tr.py

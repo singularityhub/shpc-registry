@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pynacl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pynacl
 latest:
-  0.3.0--py36_0: sha256:367294da009be84f019164eca327c17ca042b21959c9089b1905ce0d13ec7010
+  0.3.0--py36_0: sha256:7742cccd99555683cc5c6090bd78ea1cd5248e8eb53059c240b5d7ea7b63a866
 tags:
-  0.3.0--py36_0: sha256:367294da009be84f019164eca327c17ca042b21959c9089b1905ce0d13ec7010
+  0.3.0--py36_0: sha256:7742cccd99555683cc5c6090bd78ea1cd5248e8eb53059c240b5d7ea7b63a866
+  0.3.0--py27_0: sha256:69aaa8113ea608fac37b392ed508e3ade6fe02696d1ab1c94c46b5735f84e747
 docker: quay.io/biocontainers/pynacl
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6
