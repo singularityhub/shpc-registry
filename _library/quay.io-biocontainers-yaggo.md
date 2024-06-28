@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yaggo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yaggo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yaggo/container.yaml"
-updated_at: "2024-06-27 03:35:03.607900"
+updated_at: "2024-06-28 03:04:27.271277"
 latest: "1.5.10--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/yaggo"
 aliases:
@@ -24,7 +24,7 @@ versions:
  - "1.5.10--0"
  - "1.5.10--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for yaggo"
-config: {"url": "https://biocontainers.pro/tools/yaggo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yaggo", "latest": {"1.5.10--hdfd78af_1": "sha256:71bf2787f79ebaed64012806d42756a59b194bd54371a4ebf3c50a192854a555"}, "tags": {"1.5.9--0": "sha256:a51367f9d77246dfc82e3a042b9d4ad9345f1c3332dcaa3962b832219babc640", "1.5.10--0": "sha256:2c6026bf4c6dabaf5bff62b8fea06b24c2f0620ddb3b93b2807bc3694e40e552", "1.5.10--hdfd78af_1": "sha256:71bf2787f79ebaed64012806d42756a59b194bd54371a4ebf3c50a192854a555"}, "docker": "quay.io/biocontainers/yaggo", "aliases": {"yaggo": "/usr/local/bin/yaggo", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5"}}
+config: {"url": "https://biocontainers.pro/tools/yaggo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yaggo", "latest": {"1.5.10--hdfd78af_1": "sha256:71bf2787f79ebaed64012806d42756a59b194bd54371a4ebf3c50a192854a555"}, "tags": {"1.5.9--0": "sha256:da0ea9605e55413dd8c0f85570dd609e326ad68c654bade55f69fd7999510c9e", "1.5.10--0": "sha256:e20df86a9e3e432acc58d3bf37b5e35f01c7f3a1929a7513d6e4fdb03d2f61b2", "1.5.10--hdfd78af_1": "sha256:71bf2787f79ebaed64012806d42756a59b194bd54371a4ebf3c50a192854a555"}, "docker": "quay.io/biocontainers/yaggo", "aliases": {"yaggo": "/usr/local/bin/yaggo", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/yaggo.

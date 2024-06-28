@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-trap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-trap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-trap/container.yaml"
-updated_at: "2024-06-27 03:21:12.614356"
+updated_at: "2024-06-28 02:50:48.288942"
 latest: "0.3.3--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-test-trap"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.3.3--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-test-trap"
-config: {"url": "https://biocontainers.pro/tools/perl-test-trap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-trap", "latest": {"0.3.3--pl5321hdfd78af_1": "sha256:fee90265a3b43918d456598f08da390093551509097654e912f0271df90c14e6"}, "tags": {"0.3.3--pl5321hdfd78af_1": "sha256:fee90265a3b43918d456598f08da390093551509097654e912f0271df90c14e6"}, "docker": "quay.io/biocontainers/perl-test-trap", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-test-trap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-trap", "latest": {"0.3.3--pl5321hdfd78af_1": "sha256:d4a08f2c9e4f0a5c669bcb4b05589e1a6f8265f7be2102cbd30cd237363ca080"}, "tags": {"0.3.3--pl5321hdfd78af_1": "sha256:d4a08f2c9e4f0a5c669bcb4b05589e1a6f8265f7be2102cbd30cd237363ca080"}, "docker": "quay.io/biocontainers/perl-test-trap", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-test-trap.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/srprism"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/srprism/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/srprism/container.yaml"
-updated_at: "2024-06-27 03:06:22.042543"
+updated_at: "2024-06-28 02:36:17.692526"
 latest: "2.4.24--h96824bc_3"
 container_url: "https://biocontainers.pro/tools/srprism"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "2.4.24--h96824bc_3"
 description: "shpc-registry automated BioContainers addition for srprism"
-config: {"url": "https://biocontainers.pro/tools/srprism", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for srprism", "latest": {"2.4.24--h96824bc_3": "sha256:9d7ea3b9088ef3edf397328aafcfe7098094874d08d062333d45a735aa83955d"}, "tags": {"2.4.24--h96824bc_3": "sha256:9d7ea3b9088ef3edf397328aafcfe7098094874d08d062333d45a735aa83955d"}, "docker": "quay.io/biocontainers/srprism", "aliases": {"srprism": "/usr/local/bin/srprism"}}
+config: {"url": "https://biocontainers.pro/tools/srprism", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for srprism", "latest": {"2.4.24--h96824bc_3": "sha256:8606a5b78cc3c35a4e940caa1e26c96b717d4298fd15278c911fb15b43881e90"}, "tags": {"2.4.24--h96824bc_3": "sha256:8606a5b78cc3c35a4e940caa1e26c96b717d4298fd15278c911fb15b43881e90"}, "docker": "quay.io/biocontainers/srprism", "aliases": {"srprism": "/usr/local/bin/srprism"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/srprism.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scg/container.yaml"
-updated_at: "2024-06-27 03:29:04.915229"
+updated_at: "2024-06-28 02:58:34.131090"
 latest: "0.3.1--py_2"
 container_url: "https://biocontainers.pro/tools/scg"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.3.1--py_2"
 description: "shpc-registry automated BioContainers addition for scg"
-config: {"url": "https://biocontainers.pro/tools/scg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scg", "latest": {"0.3.1--py_2": "sha256:aafbd676f47f413c44b4fbaee3f4221b917d3eed1f5f69630f722a6c4895398e"}, "tags": {"0.3.1--py_2": "sha256:aafbd676f47f413c44b4fbaee3f4221b917d3eed1f5f69630f722a6c4895398e"}, "docker": "quay.io/biocontainers/scg", "aliases": {"scg": "/usr/local/bin/scg", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/scg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scg", "latest": {"0.3.1--py_2": "sha256:7dcd4ec7513e5d12a2ff8a8cd79792f3f543694e388ff1a642a0eac49c2862af"}, "tags": {"0.3.1--py_2": "sha256:7dcd4ec7513e5d12a2ff8a8cd79792f3f543694e388ff1a642a0eac49c2862af"}, "docker": "quay.io/biocontainers/scg", "aliases": {"scg": "/usr/local/bin/scg", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scg.

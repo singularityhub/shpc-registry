@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/repdenovo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repdenovo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/repdenovo/container.yaml"
-updated_at: "2024-06-27 03:12:03.749722"
-latest: "0.0.1--h0dced8c_3"
+updated_at: "2024-06-28 02:41:47.662271"
+latest: "0.0.1--hb0b4c81_4"
 container_url: "https://biocontainers.pro/tools/repdenovo"
 aliases:
  - "Assembly.py"
@@ -33,8 +33,9 @@ aliases:
 versions:
  - "0.0.1--h4dc6686_2"
  - "0.0.1--h0dced8c_3"
+ - "0.0.1--hb0b4c81_4"
 description: "shpc-registry automated BioContainers addition for repdenovo"
-config: {"url": "https://biocontainers.pro/tools/repdenovo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for repdenovo", "latest": {"0.0.1--h0dced8c_3": "sha256:5da6b571210594fe23bc19441cee715daa5b664c578116f263ca9e02c4cf1272"}, "tags": {"0.0.1--h4dc6686_2": "sha256:9fc82e46f70a77c0cec86668399750bbf0d30c2026013b6c95f8844c3e4b8336", "0.0.1--h0dced8c_3": "sha256:5da6b571210594fe23bc19441cee715daa5b664c578116f263ca9e02c4cf1272"}, "docker": "quay.io/biocontainers/repdenovo", "aliases": {"Assembly.py": "/usr/local/bin/Assembly.py", "BasicInfoPaser.py": "/usr/local/bin/BasicInfoPaser.py", "ClassifyContigs.py": "/usr/local/bin/ClassifyContigs.py", "ContigsMerger": "/usr/local/bin/ContigsMerger", "ExtractKmers.py": "/usr/local/bin/ExtractKmers.py", "FilterAndScaffold.py": "/usr/local/bin/FilterAndScaffold.py", "FilterPEReads.py": "/usr/local/bin/FilterPEReads.py", "KmerCount.py": "/usr/local/bin/KmerCount.py", "MergeContigs.py": "/usr/local/bin/MergeContigs.py", "TERefiner_1": "/usr/local/bin/TERefiner_1", "Utility.py": "/usr/local/bin/Utility.py", "main.py": "/usr/local/bin/main.py", "velvetg": "/usr/local/bin/velvetg", "velveth": "/usr/local/bin/velveth", "bamtools": "/usr/local/bin/bamtools", "jellyfish": "/usr/local/bin/jellyfish", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
+config: {"url": "https://biocontainers.pro/tools/repdenovo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for repdenovo", "latest": {"0.0.1--hb0b4c81_4": "sha256:d013adc271ec091f1466dc87179dad184542504a0030b554ef07eeb3c27b3630"}, "tags": {"0.0.1--h4dc6686_2": "sha256:9fc82e46f70a77c0cec86668399750bbf0d30c2026013b6c95f8844c3e4b8336", "0.0.1--h0dced8c_3": "sha256:5da6b571210594fe23bc19441cee715daa5b664c578116f263ca9e02c4cf1272", "0.0.1--hb0b4c81_4": "sha256:d013adc271ec091f1466dc87179dad184542504a0030b554ef07eeb3c27b3630"}, "docker": "quay.io/biocontainers/repdenovo", "aliases": {"Assembly.py": "/usr/local/bin/Assembly.py", "BasicInfoPaser.py": "/usr/local/bin/BasicInfoPaser.py", "ClassifyContigs.py": "/usr/local/bin/ClassifyContigs.py", "ContigsMerger": "/usr/local/bin/ContigsMerger", "ExtractKmers.py": "/usr/local/bin/ExtractKmers.py", "FilterAndScaffold.py": "/usr/local/bin/FilterAndScaffold.py", "FilterPEReads.py": "/usr/local/bin/FilterPEReads.py", "KmerCount.py": "/usr/local/bin/KmerCount.py", "MergeContigs.py": "/usr/local/bin/MergeContigs.py", "TERefiner_1": "/usr/local/bin/TERefiner_1", "Utility.py": "/usr/local/bin/Utility.py", "main.py": "/usr/local/bin/main.py", "velvetg": "/usr/local/bin/velvetg", "velveth": "/usr/local/bin/velveth", "bamtools": "/usr/local/bin/bamtools", "jellyfish": "/usr/local/bin/jellyfish", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/repdenovo.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/repdenovo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/repdenovo:0.0.1--h0dced8c_3
+$ shpc install quay.io/biocontainers/repdenovo:0.0.1--hb0b4c81_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/repdenovo/0.0.1--h0dced8c_3
-$ module help quay.io/biocontainers/repdenovo/0.0.1--h0dced8c_3
+$ module load quay.io/biocontainers/repdenovo/0.0.1--hb0b4c81_4
+$ module help quay.io/biocontainers/repdenovo/0.0.1--hb0b4c81_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

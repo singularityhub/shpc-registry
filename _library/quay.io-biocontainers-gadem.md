@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/gadem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gadem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gadem/container.yaml"
-updated_at: "2024-06-27 03:49:42.706120"
-latest: "1.3.1--h031d066_6"
+updated_at: "2024-06-28 03:18:44.540180"
+latest: "1.3.1--h031d066_7"
 container_url: "https://biocontainers.pro/tools/gadem"
 aliases:
  - "gadem"
 versions:
  - "1.3.1--hec16e2b_4"
  - "1.3.1--h031d066_6"
+ - "1.3.1--h031d066_7"
 description: "shpc-registry automated BioContainers addition for gadem"
-config: {"url": "https://biocontainers.pro/tools/gadem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gadem", "latest": {"1.3.1--h031d066_6": "sha256:8d8cf76d2d51e0224cecd7fe2e26bade84e49767ec171ceb48cdc23968f556bd"}, "tags": {"1.3.1--hec16e2b_4": "sha256:de5c2d16302c3e35b4ffb032421a1a6d9ac2cd9e272111a45fb8b7d91ec2786e", "1.3.1--h031d066_6": "sha256:8d8cf76d2d51e0224cecd7fe2e26bade84e49767ec171ceb48cdc23968f556bd"}, "docker": "quay.io/biocontainers/gadem", "aliases": {"gadem": "/usr/local/bin/gadem"}}
+config: {"url": "https://biocontainers.pro/tools/gadem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gadem", "latest": {"1.3.1--h031d066_7": "sha256:9034d2da5739a807add3b41366e52fe31a6499894e3786502c0d0eb3b888f646"}, "tags": {"1.3.1--hec16e2b_4": "sha256:de5c2d16302c3e35b4ffb032421a1a6d9ac2cd9e272111a45fb8b7d91ec2786e", "1.3.1--h031d066_6": "sha256:8d8cf76d2d51e0224cecd7fe2e26bade84e49767ec171ceb48cdc23968f556bd", "1.3.1--h031d066_7": "sha256:9034d2da5739a807add3b41366e52fe31a6499894e3786502c0d0eb3b888f646"}, "docker": "quay.io/biocontainers/gadem", "aliases": {"gadem": "/usr/local/bin/gadem"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gadem.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/gadem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gadem:1.3.1--h031d066_6
+$ shpc install quay.io/biocontainers/gadem:1.3.1--h031d066_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gadem/1.3.1--h031d066_6
-$ module help quay.io/biocontainers/gadem/1.3.1--h031d066_6
+$ module load quay.io/biocontainers/gadem/1.3.1--h031d066_7
+$ module help quay.io/biocontainers/gadem/1.3.1--h031d066_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

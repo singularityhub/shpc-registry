@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bigmemory.sri"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bigmemory.sri/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bigmemory.sri/container.yaml"
-updated_at: "2024-06-27 03:18:46.526579"
+updated_at: "2024-06-28 02:48:24.450912"
 latest: "0.1.3--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-bigmemory.sri"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.1.3--r3.3.2_0"
+ - "0.1.3--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-bigmemory.sri"
-config: {"url": "https://biocontainers.pro/tools/r-bigmemory.sri", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bigmemory.sri", "latest": {"0.1.3--r3.3.2_0": "sha256:7c039657acc9c00cdf49d90818f5fae77a830e347e2583fafa128a195c3ea380"}, "tags": {"0.1.3--r3.3.2_0": "sha256:7c039657acc9c00cdf49d90818f5fae77a830e347e2583fafa128a195c3ea380"}, "docker": "quay.io/biocontainers/r-bigmemory.sri", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-bigmemory.sri", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bigmemory.sri", "latest": {"0.1.3--r3.3.2_0": "sha256:bf26005bd8079557e712fed9b80b2c8dd0fd8d4d4e6234e7b6ec1d822bf81021"}, "tags": {"0.1.3--r3.3.2_0": "sha256:bf26005bd8079557e712fed9b80b2c8dd0fd8d4d4e6234e7b6ec1d822bf81021", "0.1.3--r3.2.2_0": "sha256:2bac15747a7c49aba2b4cc4a93d1e2ffe1e6c859d53442ed322cd7b0ba07fd94"}, "docker": "quay.io/biocontainers/r-bigmemory.sri", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bigmemory.sri.

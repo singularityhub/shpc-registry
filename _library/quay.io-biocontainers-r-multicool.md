@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-multicool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-multicool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-multicool/container.yaml"
-updated_at: "2024-06-27 03:10:54.299513"
+updated_at: "2024-06-28 02:40:38.903691"
 latest: "0.1_10--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-multicool"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "0.1_9--r3.3.1_2"
  - "0.1_10--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-multicool"
-config: {"url": "https://biocontainers.pro/tools/r-multicool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-multicool", "latest": {"0.1_10--r3.3.2_0": "sha256:ef1fabb445d6e93cdcae268a71c36a1914aa5d6ae5c38d7a5d410cb58a60caa5"}, "tags": {"0.1_9--r3.3.1_2": "sha256:fcfc7d969888af6b3a1867ba91d38bfd325a6be0c98547c9f5f30fa7c2277abd", "0.1_10--r3.3.2_0": "sha256:ef1fabb445d6e93cdcae268a71c36a1914aa5d6ae5c38d7a5d410cb58a60caa5"}, "docker": "quay.io/biocontainers/r-multicool", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-multicool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-multicool", "latest": {"0.1_10--r3.3.2_0": "sha256:fa4d5f2a700b971490a06a8c40a245cf494dc9168b978efdd72b0cdb648031af"}, "tags": {"0.1_9--r3.3.1_2": "sha256:05789391e3c5be983239a3b0d659291ee93bf9dff8abc95b47838e74df847b32", "0.1_10--r3.3.2_0": "sha256:fa4d5f2a700b971490a06a8c40a245cf494dc9168b978efdd72b0cdb648031af"}, "docker": "quay.io/biocontainers/r-multicool", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-multicool.

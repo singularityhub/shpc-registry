@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/musicc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/musicc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/musicc/container.yaml"
-updated_at: "2024-06-27 03:21:45.824315"
+updated_at: "2024-06-28 02:51:20.941642"
 latest: "1.0.4--py_0"
 container_url: "https://biocontainers.pro/tools/musicc"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.0.4--py_0"
 description: "shpc-registry automated BioContainers addition for musicc"
-config: {"url": "https://biocontainers.pro/tools/musicc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for musicc", "latest": {"1.0.4--py_0": "sha256:c07da06d20cf9efc3c7687c7d7b791e94c184159dd26afb6cbc4152b04ea58e2"}, "tags": {"1.0.4--py_0": "sha256:c07da06d20cf9efc3c7687c7d7b791e94c184159dd26afb6cbc4152b04ea58e2"}, "docker": "quay.io/biocontainers/musicc", "aliases": {"run_musicc.py": "/usr/local/bin/run_musicc.py", "test_musicc.py": "/usr/local/bin/test_musicc.py", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/musicc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for musicc", "latest": {"1.0.4--py_0": "sha256:9026f67f23e05d8a7bfddbb1faa013a2691ce39d3ea2e405aa885b7c248f166a"}, "tags": {"1.0.4--py_0": "sha256:9026f67f23e05d8a7bfddbb1faa013a2691ce39d3ea2e405aa885b7c248f166a"}, "docker": "quay.io/biocontainers/musicc", "aliases": {"run_musicc.py": "/usr/local/bin/run_musicc.py", "test_musicc.py": "/usr/local/bin/test_musicc.py", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/musicc.

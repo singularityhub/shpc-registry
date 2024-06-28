@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cmv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cmv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cmv/container.yaml"
-updated_at: "2024-06-27 03:10:24.374966"
+updated_at: "2024-06-28 02:40:09.572285"
 latest: "1.0.8--1"
 container_url: "https://biocontainers.pro/tools/cmv"
 aliases:
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "1.0.8--1"
 description: "shpc-registry automated BioContainers addition for cmv"
-config: {"url": "https://biocontainers.pro/tools/cmv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cmv", "latest": {"1.0.8--1": "sha256:ed32fe1d4399560176fe846747850541dabab2c53a14bc0da88a1481f41ccaf2"}, "tags": {"1.0.8--1": "sha256:ed32fe1d4399560176fe846747850541dabab2c53a14bc0da88a1481f41ccaf2"}, "docker": "quay.io/biocontainers/cmv", "aliases": {"CMCV": "/usr/local/bin/CMCV", "CMCWStoCMCV": "/usr/local/bin/CMCWStoCMCV", "CMCtoHMMC": "/usr/local/bin/CMCtoHMMC", "CMV": "/usr/local/bin/CMV", "CMVJson": "/usr/local/bin/CMVJson", "HMMCV": "/usr/local/bin/HMMCV", "HMMCtoCMC": "/usr/local/bin/HMMCtoCMC", "HMMV": "/usr/local/bin/HMMV"}}
+config: {"url": "https://biocontainers.pro/tools/cmv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cmv", "latest": {"1.0.8--1": "sha256:26b2788fc738903aa21dc8c57e3fbbee9be1238ec7cf51b1f3a168718b8e8d13"}, "tags": {"1.0.8--1": "sha256:26b2788fc738903aa21dc8c57e3fbbee9be1238ec7cf51b1f3a168718b8e8d13"}, "docker": "quay.io/biocontainers/cmv", "aliases": {"CMCV": "/usr/local/bin/CMCV", "CMCWStoCMCV": "/usr/local/bin/CMCWStoCMCV", "CMCtoHMMC": "/usr/local/bin/CMCtoHMMC", "CMV": "/usr/local/bin/CMV", "CMVJson": "/usr/local/bin/CMVJson", "HMMCV": "/usr/local/bin/HMMCV", "HMMCtoCMC": "/usr/local/bin/HMMCtoCMC", "HMMV": "/usr/local/bin/HMMV"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cmv.

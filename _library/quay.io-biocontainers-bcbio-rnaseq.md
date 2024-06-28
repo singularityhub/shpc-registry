@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcbio-rnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcbio-rnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcbio-rnaseq/container.yaml"
-updated_at: "2024-06-27 03:37:03.852617"
+updated_at: "2024-06-28 03:06:24.546894"
 latest: "1.2.0--r3.4.1_3"
 container_url: "https://biocontainers.pro/tools/bcbio-rnaseq"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "idlj"
 versions:
  - "1.2.0--r3.4.1_3"
+ - "1.2.0--r3.3.2_3"
 description: "shpc-registry automated BioContainers addition for bcbio-rnaseq"
-config: {"url": "https://biocontainers.pro/tools/bcbio-rnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcbio-rnaseq", "latest": {"1.2.0--r3.4.1_3": "sha256:1b63d9dad99ac80f3f6c157bb00c520a024f30675242c9a6474b1fca58a0a950"}, "tags": {"1.2.0--r3.4.1_3": "sha256:1b63d9dad99ac80f3f6c157bb00c520a024f30675242c9a6474b1fca58a0a950"}, "docker": "quay.io/biocontainers/bcbio-rnaseq", "aliases": {"bcbio-rnaseq": "/usr/local/bin/bcbio-rnaseq", "pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj"}}
+config: {"url": "https://biocontainers.pro/tools/bcbio-rnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcbio-rnaseq", "latest": {"1.2.0--r3.4.1_3": "sha256:64a8c0170ff1a1c36f3a69de51e24c5bb50acf44159f9bf7e1e3cb35c3ccffa0"}, "tags": {"1.2.0--r3.4.1_3": "sha256:64a8c0170ff1a1c36f3a69de51e24c5bb50acf44159f9bf7e1e3cb35c3ccffa0", "1.2.0--r3.3.2_3": "sha256:49bacb81aeee30160e91844e66b70422017155951ed68aee858920f1a20130e8"}, "docker": "quay.io/biocontainers/bcbio-rnaseq", "aliases": {"bcbio-rnaseq": "/usr/local/bin/bcbio-rnaseq", "pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bcbio-rnaseq.

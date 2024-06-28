@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scalpel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scalpel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scalpel/container.yaml"
-updated_at: "2024-06-27 03:35:13.991076"
-latest: "0.5.4--h2df6261_6"
+updated_at: "2024-06-28 03:04:37.583026"
+latest: "0.5.4--h674ebbe_7"
 container_url: "https://biocontainers.pro/tools/scalpel"
 aliases:
  - "scalpel-discovery"
@@ -24,8 +24,9 @@ versions:
  - "0.5.4--h9a52abd_4"
  - "0.5.4--h2df6261_5"
  - "0.5.4--h2df6261_6"
+ - "0.5.4--h674ebbe_7"
 description: "shpc-registry automated BioContainers addition for scalpel"
-config: {"url": "https://biocontainers.pro/tools/scalpel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scalpel", "latest": {"0.5.4--h2df6261_6": "sha256:8802ca9ec30f3e0bd0f81a099c851a503f67698f27ff61822bddb5ac36cfdc5f"}, "tags": {"0.5.4--h9a52abd_4": "sha256:18fc7f5410282728c88da09f23406b5ae0d1e883439b579f55bd0e221e5c6052", "0.5.4--h2df6261_5": "sha256:78e293b1c70024e0c1f817679c5ea237564452b6ad86939ac07f69910c8e7255", "0.5.4--h2df6261_6": "sha256:8802ca9ec30f3e0bd0f81a099c851a503f67698f27ff61822bddb5ac36cfdc5f"}, "docker": "quay.io/biocontainers/scalpel", "aliases": {"scalpel-discovery": "/usr/local/bin/scalpel-discovery", "scalpel-export": "/usr/local/bin/scalpel-export", "gff2gff.py": "/usr/local/bin/gff2gff.py", "bamtools": "/usr/local/bin/bamtools", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl"}}
+config: {"url": "https://biocontainers.pro/tools/scalpel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scalpel", "latest": {"0.5.4--h674ebbe_7": "sha256:f7b1d773166ad40ebb4b08be3b60d49648693186a0b748660efeb3e8af05c0ea"}, "tags": {"0.5.4--h9a52abd_4": "sha256:18fc7f5410282728c88da09f23406b5ae0d1e883439b579f55bd0e221e5c6052", "0.5.4--h2df6261_5": "sha256:f4ae648341bd574fddeab02a37dccfe7049f1c328d16eb19624cd6a5d77d9553", "0.5.4--h2df6261_6": "sha256:8802ca9ec30f3e0bd0f81a099c851a503f67698f27ff61822bddb5ac36cfdc5f", "0.5.4--h674ebbe_7": "sha256:f7b1d773166ad40ebb4b08be3b60d49648693186a0b748660efeb3e8af05c0ea"}, "docker": "quay.io/biocontainers/scalpel", "aliases": {"scalpel-discovery": "/usr/local/bin/scalpel-discovery", "scalpel-export": "/usr/local/bin/scalpel-export", "gff2gff.py": "/usr/local/bin/gff2gff.py", "bamtools": "/usr/local/bin/bamtools", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scalpel.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/scalpel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scalpel:0.5.4--h2df6261_6
+$ shpc install quay.io/biocontainers/scalpel:0.5.4--h674ebbe_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scalpel/0.5.4--h2df6261_6
-$ module help quay.io/biocontainers/scalpel/0.5.4--h2df6261_6
+$ module load quay.io/biocontainers/scalpel/0.5.4--h674ebbe_7
+$ module help quay.io/biocontainers/scalpel/0.5.4--h674ebbe_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

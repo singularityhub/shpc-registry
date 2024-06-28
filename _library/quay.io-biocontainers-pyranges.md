@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyranges/container.yaml"
-updated_at: "2024-06-27 03:24:01.196472"
-latest: "0.0.129--pyh7cba7a3_0"
+updated_at: "2024-06-28 02:53:34.195856"
+latest: "0.1.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pyranges"
 aliases:
  - "tabulate"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "0.0.88--pyh3252c3a_0"
  - "0.0.129--pyh7cba7a3_0"
+ - "0.1.2--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for pyranges"
-config: {"url": "https://biocontainers.pro/tools/pyranges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyranges", "latest": {"0.0.129--pyh7cba7a3_0": "sha256:7edfe9dfada73b3da8b9b920b08e9d568b2045f932a88aa5f64972dfc6b7501c"}, "tags": {"0.0.88--pyh3252c3a_0": "sha256:ac1d15f9cd5d4cf13ecd09b27b7c10099b563e37aea1df3ed58b21fe3390f0e9", "0.0.129--pyh7cba7a3_0": "sha256:7edfe9dfada73b3da8b9b920b08e9d568b2045f932a88aa5f64972dfc6b7501c"}, "docker": "quay.io/biocontainers/pyranges", "aliases": {"tabulate": "/usr/local/bin/tabulate", "natsort": "/usr/local/bin/natsort", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyranges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyranges", "latest": {"0.1.2--pyhdfd78af_1": "sha256:cb78b1d3f88e54f3d7823a9e5ec1199a015ed117bfee41240d6b429821bd5c48"}, "tags": {"0.0.88--pyh3252c3a_0": "sha256:ac1d15f9cd5d4cf13ecd09b27b7c10099b563e37aea1df3ed58b21fe3390f0e9", "0.0.129--pyh7cba7a3_0": "sha256:7edfe9dfada73b3da8b9b920b08e9d568b2045f932a88aa5f64972dfc6b7501c", "0.1.2--pyhdfd78af_1": "sha256:cb78b1d3f88e54f3d7823a9e5ec1199a015ed117bfee41240d6b429821bd5c48"}, "docker": "quay.io/biocontainers/pyranges", "aliases": {"tabulate": "/usr/local/bin/tabulate", "natsort": "/usr/local/bin/natsort", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyranges.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/pyranges
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyranges:0.0.129--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/pyranges:0.1.2--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyranges/0.0.129--pyh7cba7a3_0
-$ module help quay.io/biocontainers/pyranges/0.0.129--pyh7cba7a3_0
+$ module load quay.io/biocontainers/pyranges/0.1.2--pyhdfd78af_1
+$ module help quay.io/biocontainers/pyranges/0.1.2--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

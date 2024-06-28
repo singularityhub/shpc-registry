@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pash/container.yaml"
-updated_at: "2024-06-27 03:47:45.819131"
+updated_at: "2024-06-28 03:16:49.749783"
 latest: "3.0.6.2--0"
 container_url: "https://biocontainers.pro/tools/pash"
 aliases:
@@ -33,7 +33,7 @@ aliases:
 versions:
  - "3.0.6.2--0"
 description: "shpc-registry automated BioContainers addition for pash"
-config: {"url": "https://biocontainers.pro/tools/pash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pash", "latest": {"3.0.6.2--0": "sha256:0755075a8b5078a21e0be5edddf1dbf30b2f911ce1eeb1690cdc14f653594c94"}, "tags": {"3.0.6.2--0": "sha256:0755075a8b5078a21e0be5edddf1dbf30b2f911ce1eeb1690cdc14f653594c94"}, "docker": "quay.io/biocontainers/pash", "aliases": {"buildFastaIndex.rb": "/usr/local/bin/buildFastaIndex.rb", "convertFastaQualToFastQ.rb": "/usr/local/bin/convertFastaQualToFastQ.rb", "extractChromLengths.rb": "/usr/local/bin/extractChromLengths.rb", "getRCChrom.rb": "/usr/local/bin/getRCChrom.rb", "keyFreq": "/usr/local/bin/keyFreq", "makeIgnoreList": "/usr/local/bin/makeIgnoreList", "pash-3.0lx": "/usr/local/bin/pash-3.0lx", "pash2SAM": "/usr/local/bin/pash2SAM", "pash3.0.rb": "/usr/local/bin/pash3.0.rb", "pashToLff.rb": "/usr/local/bin/pashToLff.rb", "pprof": "/usr/local/bin/pprof", "splitFastq.rb": "/usr/local/bin/splitFastq.rb", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/pash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pash", "latest": {"3.0.6.2--0": "sha256:6b96e1bcdd7a51e709525bf08eccdf6402075292bc0ca87fea0e118688486b25"}, "tags": {"3.0.6.2--0": "sha256:6b96e1bcdd7a51e709525bf08eccdf6402075292bc0ca87fea0e118688486b25"}, "docker": "quay.io/biocontainers/pash", "aliases": {"buildFastaIndex.rb": "/usr/local/bin/buildFastaIndex.rb", "convertFastaQualToFastQ.rb": "/usr/local/bin/convertFastaQualToFastQ.rb", "extractChromLengths.rb": "/usr/local/bin/extractChromLengths.rb", "getRCChrom.rb": "/usr/local/bin/getRCChrom.rb", "keyFreq": "/usr/local/bin/keyFreq", "makeIgnoreList": "/usr/local/bin/makeIgnoreList", "pash-3.0lx": "/usr/local/bin/pash-3.0lx", "pash2SAM": "/usr/local/bin/pash2SAM", "pash3.0.rb": "/usr/local/bin/pash3.0.rb", "pashToLff.rb": "/usr/local/bin/pashToLff.rb", "pprof": "/usr/local/bin/pprof", "splitFastq.rb": "/usr/local/bin/splitFastq.rb", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pash.

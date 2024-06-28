@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/mercat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mercat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mercat/container.yaml"
-updated_at: "2024-06-27 03:24:45.555632"
+updated_at: "2024-06-28 02:54:17.324809"
 latest: "0.2--py_1"
 container_url: "https://biocontainers.pro/tools/mercat"
 
 versions:
  - "0.2--py_1"
 description: "shpc-registry automated BioContainers addition for mercat"
-config: {"url": "https://biocontainers.pro/tools/mercat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mercat", "latest": {"0.2--py_1": "sha256:bd0e18c7445a9e73f38a855339fccda2946c8a634db6c631b90f9cfaf91f63ae"}, "tags": {"0.2--py_1": "sha256:bd0e18c7445a9e73f38a855339fccda2946c8a634db6c631b90f9cfaf91f63ae"}, "docker": "quay.io/biocontainers/mercat"}
+config: {"url": "https://biocontainers.pro/tools/mercat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mercat", "latest": {"0.2--py_1": "sha256:9096895a3c9eb90b318af1e65f2033771990cd18343cf0e020f00bddd1db1da6"}, "tags": {"0.2--py_1": "sha256:9096895a3c9eb90b318af1e65f2033771990cd18343cf0e020f00bddd1db1da6"}, "docker": "quay.io/biocontainers/mercat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mercat.

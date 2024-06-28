@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gprofiler-official"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gprofiler-official/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gprofiler-official/container.yaml"
-updated_at: "2024-06-27 03:34:36.548410"
+updated_at: "2024-06-28 03:04:00.494214"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/gprofiler-official"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.0.0--py_0"
 description: "shpc-registry automated BioContainers addition for gprofiler-official"
-config: {"url": "https://biocontainers.pro/tools/gprofiler-official", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gprofiler-official", "latest": {"1.0.0--py_0": "sha256:d555af68a791bfd63e54a7348c26048df437a4f7a577a3784e00f99b66df2c88"}, "tags": {"1.0.0--py_0": "sha256:d555af68a791bfd63e54a7348c26048df437a4f7a577a3784e00f99b66df2c88"}, "docker": "quay.io/biocontainers/gprofiler-official", "aliases": {"chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/gprofiler-official", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gprofiler-official", "latest": {"1.0.0--py_0": "sha256:37d7eb4aead547652bd52e2e63ff9437051301ba4c4c933152570a7dcd3adca5"}, "tags": {"1.0.0--py_0": "sha256:37d7eb4aead547652bd52e2e63ff9437051301ba4c4c933152570a7dcd3adca5"}, "docker": "quay.io/biocontainers/gprofiler-official", "aliases": {"chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gprofiler-official.

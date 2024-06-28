@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/avro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/avro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/avro/container.yaml"
-updated_at: "2024-06-27 03:22:06.581183"
+updated_at: "2024-06-28 02:51:41.299157"
 latest: "1.8.0--py35_0"
 container_url: "https://biocontainers.pro/tools/avro"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.8.0--py35_0"
 description: "shpc-registry automated BioContainers addition for avro"
-config: {"url": "https://biocontainers.pro/tools/avro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for avro", "latest": {"1.8.0--py35_0": "sha256:fe7efee24290245817e19eac6d806bdedae1fce056ffdd55abb8b83d6243b389"}, "tags": {"1.8.0--py35_0": "sha256:fe7efee24290245817e19eac6d806bdedae1fce056ffdd55abb8b83d6243b389"}, "docker": "quay.io/biocontainers/avro", "aliases": {"avro": "/usr/local/bin/avro", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/avro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for avro", "latest": {"1.8.0--py35_0": "sha256:70d1f1c23e0327eadce4dd08e07e309195d07f5201e854e9359feaf9804fb1f3"}, "tags": {"1.8.0--py35_0": "sha256:70d1f1c23e0327eadce4dd08e07e309195d07f5201e854e9359feaf9804fb1f3"}, "docker": "quay.io/biocontainers/avro", "aliases": {"avro": "/usr/local/bin/avro", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/avro.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/smncopynumbercaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smncopynumbercaller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smncopynumbercaller/container.yaml"
-updated_at: "2024-06-27 03:21:16.898516"
-latest: "1.1.2--py310h7cba7a3_0"
+updated_at: "2024-06-28 02:50:52.468369"
+latest: "1.1.2--py312h7e72e81_1"
 container_url: "https://biocontainers.pro/tools/smncopynumbercaller"
 aliases:
  - "COPYRIGHT.txt"
@@ -33,8 +33,9 @@ aliases:
  - "transicc"
 versions:
  - "1.1.2--py310h7cba7a3_0"
+ - "1.1.2--py312h7e72e81_1"
 description: "singularity registry hpc automated addition for smncopynumbercaller"
-config: {"url": "https://biocontainers.pro/tools/smncopynumbercaller", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for smncopynumbercaller", "latest": {"1.1.2--py310h7cba7a3_0": "sha256:77467ff8b974e40ad8bacde54d2a00657b02a80f023fd563808d7038e0513b13"}, "tags": {"1.1.2--py310h7cba7a3_0": "sha256:77467ff8b974e40ad8bacde54d2a00657b02a80f023fd563808d7038e0513b13"}, "docker": "quay.io/biocontainers/smncopynumbercaller", "aliases": {"COPYRIGHT.txt": "/usr/local/bin/COPYRIGHT.txt", "LICENSE.txt": "/usr/local/bin/LICENSE.txt", "requirements.txt": "/usr/local/bin/requirements.txt", "smn_caller.py": "/usr/local/bin/smn_caller.py", "smn_charts.py": "/usr/local/bin/smn_charts.py", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/smncopynumbercaller", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for smncopynumbercaller", "latest": {"1.1.2--py312h7e72e81_1": "sha256:366ae36e1ef4abed438a8562c9580c2ccb4a4c2a499271a54e1e6904090e2a28"}, "tags": {"1.1.2--py310h7cba7a3_0": "sha256:77467ff8b974e40ad8bacde54d2a00657b02a80f023fd563808d7038e0513b13", "1.1.2--py312h7e72e81_1": "sha256:366ae36e1ef4abed438a8562c9580c2ccb4a4c2a499271a54e1e6904090e2a28"}, "docker": "quay.io/biocontainers/smncopynumbercaller", "aliases": {"COPYRIGHT.txt": "/usr/local/bin/COPYRIGHT.txt", "LICENSE.txt": "/usr/local/bin/LICENSE.txt", "requirements.txt": "/usr/local/bin/requirements.txt", "smn_caller.py": "/usr/local/bin/smn_caller.py", "smn_charts.py": "/usr/local/bin/smn_charts.py", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smncopynumbercaller.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/smncopynumbercaller
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/smncopynumbercaller:1.1.2--py310h7cba7a3_0
+$ shpc install quay.io/biocontainers/smncopynumbercaller:1.1.2--py312h7e72e81_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/smncopynumbercaller/1.1.2--py310h7cba7a3_0
-$ module help quay.io/biocontainers/smncopynumbercaller/1.1.2--py310h7cba7a3_0
+$ module load quay.io/biocontainers/smncopynumbercaller/1.1.2--py312h7e72e81_1
+$ module help quay.io/biocontainers/smncopynumbercaller/1.1.2--py312h7e72e81_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

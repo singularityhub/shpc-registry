@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dxua"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dxua/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dxua/container.yaml"
-updated_at: "2024-06-27 03:26:05.850550"
+updated_at: "2024-06-28 02:55:36.869129"
 latest: "1.5.31--0"
 container_url: "https://biocontainers.pro/tools/dxua"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.5.31--0"
 description: "shpc-registry automated BioContainers addition for dxua"
-config: {"url": "https://biocontainers.pro/tools/dxua", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dxua", "latest": {"1.5.31--0": "sha256:b8ca030a113e14b8710905c3fb49507d7f901b8e5d70b7545f796ac23158f522"}, "tags": {"1.5.31--0": "sha256:b8ca030a113e14b8710905c3fb49507d7f901b8e5d70b7545f796ac23158f522"}, "docker": "quay.io/biocontainers/dxua", "aliases": {"dxua": "/usr/local/bin/dxua"}}
+config: {"url": "https://biocontainers.pro/tools/dxua", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dxua", "latest": {"1.5.31--0": "sha256:eb73fbf3ab4f5a483fda476a56ce71891e7f11adfc91abd08f4005376b3b4887"}, "tags": {"1.5.31--0": "sha256:eb73fbf3ab4f5a483fda476a56ce71891e7f11adfc91abd08f4005376b3b4887"}, "docker": "quay.io/biocontainers/dxua", "aliases": {"dxua": "/usr/local/bin/dxua"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dxua.

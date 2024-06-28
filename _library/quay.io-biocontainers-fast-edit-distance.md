@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fast-edit-distance"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fast-edit-distance/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fast-edit-distance/container.yaml"
-updated_at: "2024-06-27 03:48:39.820981"
+updated_at: "2024-06-28 03:17:42.681814"
 latest: "1.2.1--py310h7c593f9_1"
 container_url: "https://biocontainers.pro/tools/fast-edit-distance"
 aliases:
@@ -15,8 +15,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.2.1--py310h7c593f9_1"
+ - "1.2.1--py311hdad781d_1"
 description: "singularity registry hpc automated addition for fast-edit-distance"
-config: {"url": "https://biocontainers.pro/tools/fast-edit-distance", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fast-edit-distance", "latest": {"1.2.1--py310h7c593f9_1": "sha256:3d02efb64342a646935859a8b9deb6b5c629e890252ad35d15dd697a4c2f19a5"}, "tags": {"1.2.1--py310h7c593f9_1": "sha256:3d02efb64342a646935859a8b9deb6b5c629e890252ad35d15dd697a4c2f19a5"}, "docker": "quay.io/biocontainers/fast-edit-distance", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/fast-edit-distance", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fast-edit-distance", "latest": {"1.2.1--py310h7c593f9_1": "sha256:3d02efb64342a646935859a8b9deb6b5c629e890252ad35d15dd697a4c2f19a5"}, "tags": {"1.2.1--py310h7c593f9_1": "sha256:3d02efb64342a646935859a8b9deb6b5c629e890252ad35d15dd697a4c2f19a5", "1.2.1--py311hdad781d_1": "sha256:098301cdb18da9f5c5ee05342fe17690f44d142aa31d2bb07e2aeffcbc30da0b"}, "docker": "quay.io/biocontainers/fast-edit-distance", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fast-edit-distance.

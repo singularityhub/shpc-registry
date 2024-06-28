@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/treemix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treemix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treemix/container.yaml"
-updated_at: "2024-06-27 03:34:51.157187"
-latest: "1.13--hf961e7c_8"
+updated_at: "2024-06-28 03:04:15.038790"
+latest: "1.13--h125836d_9"
 container_url: "https://biocontainers.pro/tools/treemix"
 aliases:
  - "f4ratio"
@@ -27,8 +27,9 @@ versions:
  - "1.13--boost1.64_gsl2.2_0"
  - "1.13--hc564dbc_6"
  - "1.13--hf961e7c_8"
+ - "1.13--h125836d_9"
 description: "shpc-registry automated BioContainers addition for treemix"
-config: {"url": "https://biocontainers.pro/tools/treemix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treemix", "latest": {"1.13--hf961e7c_8": "sha256:eae67acfb6bd3099c6125b7d94296e796b3274a6b03432014cdccbc2ca70b059"}, "tags": {"1.13--boost1.64_gsl2.2_0": "sha256:49b7b2234549b331adf8c1af85707b99c4c902b521799052ef60c1c0e4e78779", "1.13--hc564dbc_6": "sha256:d8b1c1fa1b228e52ed4feb9e96b044d5ff3f776e9b0951affc1ae71fe8849129", "1.13--hf961e7c_8": "sha256:eae67acfb6bd3099c6125b7d94296e796b3274a6b03432014cdccbc2ca70b059"}, "docker": "quay.io/biocontainers/treemix", "aliases": {"f4ratio": "/usr/local/bin/f4ratio", "fourpop": "/usr/local/bin/fourpop", "plotting_funcs.R": "/usr/local/bin/plotting_funcs.R", "threepop": "/usr/local/bin/threepop", "treemix": "/usr/local/bin/treemix", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/treemix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treemix", "latest": {"1.13--h125836d_9": "sha256:92135c99905a7e2104d83a85c13fca8734166bbc495cb4f32b8ed2d38d08ec87"}, "tags": {"1.13--boost1.64_gsl2.2_0": "sha256:df5a45a59ec3dc6730a0f83a88b9701b14a2290300c66b580fe055033a6c0740", "1.13--hc564dbc_6": "sha256:980a7595b2944259e62926e3e4167f619d1b3c7b8cf3848b3ae98fbfce4ef262", "1.13--hf961e7c_8": "sha256:eae67acfb6bd3099c6125b7d94296e796b3274a6b03432014cdccbc2ca70b059", "1.13--h125836d_9": "sha256:92135c99905a7e2104d83a85c13fca8734166bbc495cb4f32b8ed2d38d08ec87"}, "docker": "quay.io/biocontainers/treemix", "aliases": {"f4ratio": "/usr/local/bin/f4ratio", "fourpop": "/usr/local/bin/fourpop", "plotting_funcs.R": "/usr/local/bin/plotting_funcs.R", "threepop": "/usr/local/bin/threepop", "treemix": "/usr/local/bin/treemix", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/treemix.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/treemix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/treemix:1.13--hf961e7c_8
+$ shpc install quay.io/biocontainers/treemix:1.13--h125836d_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/treemix/1.13--hf961e7c_8
-$ module help quay.io/biocontainers/treemix/1.13--hf961e7c_8
+$ module load quay.io/biocontainers/treemix/1.13--h125836d_9
+$ module help quay.io/biocontainers/treemix/1.13--h125836d_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

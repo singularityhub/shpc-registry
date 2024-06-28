@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clustcomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clustcomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clustcomp/container.yaml"
-updated_at: "2024-06-27 03:40:28.060587"
+updated_at: "2024-06-28 03:09:45.605353"
 latest: "1.30.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-clustcomp"
 

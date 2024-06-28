@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svim-asm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svim-asm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svim-asm/container.yaml"
-updated_at: "2024-06-27 03:06:24.643514"
+updated_at: "2024-06-28 02:36:20.202855"
 latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/svim-asm"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/npinv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/npinv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/npinv/container.yaml"
-updated_at: "2024-06-27 03:50:41.947561"
-latest: "1.24--py310h7cba7a3_5"
+updated_at: "2024-06-28 03:19:42.790120"
+latest: "1.24--py312h7e72e81_6"
 container_url: "https://biocontainers.pro/tools/npinv"
 aliases:
  - "npinv"
@@ -21,8 +21,9 @@ aliases:
  - "appletviewer"
 versions:
  - "1.24--py310h7cba7a3_5"
+ - "1.24--py312h7e72e81_6"
 description: "shpc-registry automated BioContainers addition for npinv"
-config: {"url": "https://biocontainers.pro/tools/npinv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for npinv", "latest": {"1.24--py310h7cba7a3_5": "sha256:f084e1ade1f22ebc0d7b3e13bd2f79c71bed46f803813c322358132d964fbcbc"}, "tags": {"1.24--py310h7cba7a3_5": "sha256:f084e1ade1f22ebc0d7b3e13bd2f79c71bed46f803813c322358132d964fbcbc"}, "docker": "quay.io/biocontainers/npinv", "aliases": {"npinv": "/usr/local/bin/npinv", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer"}}
+config: {"url": "https://biocontainers.pro/tools/npinv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for npinv", "latest": {"1.24--py312h7e72e81_6": "sha256:3e273e46ce9575d2a2cf1f40bdaa21e015488b6f50d574d2c24b560e73811e29"}, "tags": {"1.24--py310h7cba7a3_5": "sha256:f084e1ade1f22ebc0d7b3e13bd2f79c71bed46f803813c322358132d964fbcbc", "1.24--py312h7e72e81_6": "sha256:3e273e46ce9575d2a2cf1f40bdaa21e015488b6f50d574d2c24b560e73811e29"}, "docker": "quay.io/biocontainers/npinv", "aliases": {"npinv": "/usr/local/bin/npinv", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/npinv.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/npinv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/npinv:1.24--py310h7cba7a3_5
+$ shpc install quay.io/biocontainers/npinv:1.24--py312h7e72e81_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/npinv/1.24--py310h7cba7a3_5
-$ module help quay.io/biocontainers/npinv/1.24--py310h7cba7a3_5
+$ module load quay.io/biocontainers/npinv/1.24--py312h7e72e81_6
+$ module help quay.io/biocontainers/npinv/1.24--py312h7e72e81_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

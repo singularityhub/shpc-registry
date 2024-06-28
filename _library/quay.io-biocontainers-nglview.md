@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nglview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nglview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nglview/container.yaml"
-updated_at: "2024-06-27 03:09:12.774186"
+updated_at: "2024-06-28 02:39:00.252248"
 latest: "1.1.7--py_0"
 container_url: "https://biocontainers.pro/tools/nglview"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.1.7--py_0"
 description: "shpc-registry automated BioContainers addition for nglview"
-config: {"url": "https://biocontainers.pro/tools/nglview", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nglview", "latest": {"1.1.7--py_0": "sha256:6a655f22bb3f4cadfa3fe26daf20e535470ceff3df6c2875e2576bfd63c1aee9"}, "tags": {"1.1.7--py_0": "sha256:6a655f22bb3f4cadfa3fe26daf20e535470ceff3df6c2875e2576bfd63c1aee9"}, "docker": "quay.io/biocontainers/nglview", "aliases": {"nglview": "/usr/local/bin/nglview", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run"}}
+config: {"url": "https://biocontainers.pro/tools/nglview", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nglview", "latest": {"1.1.7--py_0": "sha256:1f525c664f256ae44a8098d7509325862f3ef32bc7310557b60c70219fc36151"}, "tags": {"1.1.7--py_0": "sha256:1f525c664f256ae44a8098d7509325862f3ef32bc7310557b60c70219fc36151"}, "docker": "quay.io/biocontainers/nglview", "aliases": {"nglview": "/usr/local/bin/nglview", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nglview.

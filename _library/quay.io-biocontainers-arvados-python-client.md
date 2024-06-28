@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/arvados-python-client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arvados-python-client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arvados-python-client/container.yaml"
-updated_at: "2024-06-27 03:32:17.103411"
-latest: "2.7.2--pyhdfd78af_0"
+updated_at: "2024-06-28 03:01:43.495865"
+latest: "2.7.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/arvados-python-client"
 aliases:
  - "arv-copy"
@@ -35,8 +35,9 @@ versions:
  - "2.4.4--pyhdfd78af_0"
  - "2.3.3--pyhdfd78af_0"
  - "2.7.2--pyhdfd78af_0"
+ - "2.7.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for arvados-python-client"
-config: {"url": "https://biocontainers.pro/tools/arvados-python-client", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arvados-python-client", "latest": {"2.7.2--pyhdfd78af_0": "sha256:89a774483cc23bd2d19e795e838601e035f8e34fc71492b282d400044e6d5111"}, "tags": {"2.0.2--py_0": "sha256:f3f6a04e4a465fa9d6510bb8baab41d435622a7d95415a79fe94dac907658345", "2.7.1--pyhdfd78af_0": "sha256:ffeefaf89f0053adfee3c9dc4fa28feafb6cb980b2c5bfc4bd9a1114222e92cf", "2.6.3--pyhdfd78af_1": "sha256:38bfb5288de70759c4bb4680d27c1ae96ebe42c8660750be68467f026455749c", "2.5.0--pyhdfd78af_0": "sha256:4b584a8ee11943ef15ff360a5ab1328daeb8e13eb75bd9d02fdacefb1a9d80a6", "2.4.4--pyhdfd78af_0": "sha256:8388571ea1f8a011dfba97de460562b242a40aa15c5ab1d4334613334602e1c7", "2.3.3--pyhdfd78af_0": "sha256:2b2764f005bb98190409ffa0c463df3854e13a6b3784bfb8783c6c1717c6e017", "2.7.2--pyhdfd78af_0": "sha256:89a774483cc23bd2d19e795e838601e035f8e34fc71492b282d400044e6d5111"}, "docker": "quay.io/biocontainers/arvados-python-client", "aliases": {"arv-copy": "/usr/local/bin/arv-copy", "arv-federation-migrate": "/usr/local/bin/arv-federation-migrate", "arv-get": "/usr/local/bin/arv-get", "arv-keepdocker": "/usr/local/bin/arv-keepdocker", "arv-ls": "/usr/local/bin/arv-ls", "arv-migrate-docker19": "/usr/local/bin/arv-migrate-docker19", "arv-normalize": "/usr/local/bin/arv-normalize", "arv-put": "/usr/local/bin/arv-put", "arv-ws": "/usr/local/bin/arv-ws", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8"}}
+config: {"url": "https://biocontainers.pro/tools/arvados-python-client", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arvados-python-client", "latest": {"2.7.3--pyhdfd78af_0": "sha256:1910b63708e4f2c1f1a3d566038cc70812a646336ceca6915cfc8dee0195355a"}, "tags": {"2.0.2--py_0": "sha256:f3f6a04e4a465fa9d6510bb8baab41d435622a7d95415a79fe94dac907658345", "2.7.1--pyhdfd78af_0": "sha256:ffeefaf89f0053adfee3c9dc4fa28feafb6cb980b2c5bfc4bd9a1114222e92cf", "2.6.3--pyhdfd78af_1": "sha256:38bfb5288de70759c4bb4680d27c1ae96ebe42c8660750be68467f026455749c", "2.5.0--pyhdfd78af_0": "sha256:4b584a8ee11943ef15ff360a5ab1328daeb8e13eb75bd9d02fdacefb1a9d80a6", "2.4.4--pyhdfd78af_0": "sha256:8388571ea1f8a011dfba97de460562b242a40aa15c5ab1d4334613334602e1c7", "2.3.3--pyhdfd78af_0": "sha256:2b2764f005bb98190409ffa0c463df3854e13a6b3784bfb8783c6c1717c6e017", "2.7.2--pyhdfd78af_0": "sha256:89a774483cc23bd2d19e795e838601e035f8e34fc71492b282d400044e6d5111", "2.7.3--pyhdfd78af_0": "sha256:1910b63708e4f2c1f1a3d566038cc70812a646336ceca6915cfc8dee0195355a"}, "docker": "quay.io/biocontainers/arvados-python-client", "aliases": {"arv-copy": "/usr/local/bin/arv-copy", "arv-federation-migrate": "/usr/local/bin/arv-federation-migrate", "arv-get": "/usr/local/bin/arv-get", "arv-keepdocker": "/usr/local/bin/arv-keepdocker", "arv-ls": "/usr/local/bin/arv-ls", "arv-migrate-docker19": "/usr/local/bin/arv-migrate-docker19", "arv-normalize": "/usr/local/bin/arv-normalize", "arv-put": "/usr/local/bin/arv-put", "arv-ws": "/usr/local/bin/arv-ws", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/arvados-python-client.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/arvados-python-client
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/arvados-python-client:2.7.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/arvados-python-client:2.7.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/arvados-python-client/2.7.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/arvados-python-client/2.7.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/arvados-python-client/2.7.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/arvados-python-client/2.7.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

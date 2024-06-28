@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ftputil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ftputil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ftputil/container.yaml"
-updated_at: "2024-06-27 03:17:41.581078"
+updated_at: "2024-06-28 02:47:19.990179"
 latest: "3.2--py35_0"
 container_url: "https://biocontainers.pro/tools/ftputil"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "3.2--py35_0"
  - "3.2--py36_0"
 description: "shpc-registry automated BioContainers addition for ftputil"
-config: {"url": "https://biocontainers.pro/tools/ftputil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ftputil", "latest": {"3.2--py35_0": "sha256:45a621372452bffe9c3afd495b56e6b0dfff027a263965dfe613fb9f0b276a50"}, "tags": {"3.2--py35_0": "sha256:45a621372452bffe9c3afd495b56e6b0dfff027a263965dfe613fb9f0b276a50", "3.2--py36_0": "sha256:7de5de1ca354fb4cdd40b5ce998523ca419941be40b1de9d3bbffd28e8c7093d"}, "docker": "quay.io/biocontainers/ftputil", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/ftputil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ftputil", "latest": {"3.2--py35_0": "sha256:6bb711f04030f4bc655bf04d66fdb4382ac40cc4b31e24c1a54f0e9043bcf56d"}, "tags": {"3.2--py35_0": "sha256:6bb711f04030f4bc655bf04d66fdb4382ac40cc4b31e24c1a54f0e9043bcf56d", "3.2--py36_0": "sha256:77a1a22f22f1eda4f04d394d4e78b9b0a136862caab5753bc6d8f71b1808b3a1"}, "docker": "quay.io/biocontainers/ftputil", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ftputil.

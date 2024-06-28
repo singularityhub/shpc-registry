@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ngs-smap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngs-smap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngs-smap/container.yaml"
-updated_at: "2024-06-27 03:39:46.318240"
-latest: "4.6.5--pyhdfd78af_0"
+updated_at: "2024-06-28 03:09:04.181136"
+latest: "5.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ngs-smap"
 aliases:
  - "smap"
@@ -36,8 +36,9 @@ aliases:
  - "intersectBed"
 versions:
  - "4.6.5--pyhdfd78af_0"
+ - "5.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ngs-smap"
-config: {"url": "https://biocontainers.pro/tools/ngs-smap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ngs-smap", "latest": {"4.6.5--pyhdfd78af_0": "sha256:a400e5c5e3b302f1f4dd7076812298937749a018d5ae3f6bf0f719649f5e24a1"}, "tags": {"4.6.5--pyhdfd78af_0": "sha256:a400e5c5e3b302f1f4dd7076812298937749a018d5ae3f6bf0f719649f5e24a1"}, "docker": "quay.io/biocontainers/ngs-smap", "aliases": {"smap": "/usr/local/bin/smap", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed"}}
+config: {"url": "https://biocontainers.pro/tools/ngs-smap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ngs-smap", "latest": {"5.0.1--pyhdfd78af_0": "sha256:759b9ffcb0903fac04358c02539c5c21fa6f818b36cc6547f6eb0036229596fb"}, "tags": {"4.6.5--pyhdfd78af_0": "sha256:a400e5c5e3b302f1f4dd7076812298937749a018d5ae3f6bf0f719649f5e24a1", "5.0.1--pyhdfd78af_0": "sha256:759b9ffcb0903fac04358c02539c5c21fa6f818b36cc6547f6eb0036229596fb"}, "docker": "quay.io/biocontainers/ngs-smap", "aliases": {"smap": "/usr/local/bin/smap", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngs-smap.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/ngs-smap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ngs-smap:4.6.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ngs-smap:5.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ngs-smap/4.6.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/ngs-smap/4.6.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/ngs-smap/5.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/ngs-smap/5.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

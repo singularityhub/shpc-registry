@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-amap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-amap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-amap/container.yaml"
-updated_at: "2024-06-27 03:26:22.519141"
+updated_at: "2024-06-28 02:55:53.305380"
 latest: "0.8_14--r3.3.2_1"
 container_url: "https://biocontainers.pro/tools/r-amap"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.8_14--r3.3.2_1"
+ - "0.8_14--r3.3.1_1"
 description: "shpc-registry automated BioContainers addition for r-amap"
-config: {"url": "https://biocontainers.pro/tools/r-amap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-amap", "latest": {"0.8_14--r3.3.2_1": "sha256:7ba9675375f41b24f0835c201ce86d54bf283ea32cdc097b3d2f4ad8a57edae1"}, "tags": {"0.8_14--r3.3.2_1": "sha256:7ba9675375f41b24f0835c201ce86d54bf283ea32cdc097b3d2f4ad8a57edae1"}, "docker": "quay.io/biocontainers/r-amap", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-amap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-amap", "latest": {"0.8_14--r3.3.2_1": "sha256:ad7ecc081412e8329de9ce9ca216e8f9e6f176bfe8e28e3af35d96e93d60726c"}, "tags": {"0.8_14--r3.3.2_1": "sha256:ad7ecc081412e8329de9ce9ca216e8f9e6f176bfe8e28e3af35d96e93d60726c", "0.8_14--r3.3.1_1": "sha256:861a4bb24127429e461f77364bc3c24e3eda2e0581dbd72fc6103eaaa5b9e54f"}, "docker": "quay.io/biocontainers/r-amap", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-amap.

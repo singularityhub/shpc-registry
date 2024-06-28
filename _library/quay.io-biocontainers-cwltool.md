@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cwltool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cwltool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cwltool/container.yaml"
-updated_at: "2024-06-27 03:19:43.461434"
+updated_at: "2024-06-28 02:49:21.094881"
 latest: "1.0.20180225105849--py_1"
 container_url: "https://biocontainers.pro/tools/cwltool"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.0.20180225105849--py_1"
 description: "shpc-registry automated BioContainers addition for cwltool"
-config: {"url": "https://biocontainers.pro/tools/cwltool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cwltool", "latest": {"1.0.20180225105849--py_1": "sha256:36261cc468c88fad8167fa02207c79b0d57d3736969d012bbcf8773c5a2ba8ba"}, "tags": {"1.0.20180225105849--py_1": "sha256:36261cc468c88fad8167fa02207c79b0d57d3736969d012bbcf8773c5a2ba8ba"}, "docker": "quay.io/biocontainers/cwltool", "aliases": {"cwltest": "/usr/local/bin/cwltest", "cwltool": "/usr/local/bin/cwltool", "avro": "/usr/local/bin/avro", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "doesitcache": "/usr/local/bin/doesitcache", "futurize": "/usr/local/bin/futurize"}}
+config: {"url": "https://biocontainers.pro/tools/cwltool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cwltool", "latest": {"1.0.20180225105849--py_1": "sha256:5b585537cc8423d176bb4382d134468c33be4758d67ba4bcc1b24e9990f9cf64"}, "tags": {"1.0.20180225105849--py_1": "sha256:5b585537cc8423d176bb4382d134468c33be4758d67ba4bcc1b24e9990f9cf64"}, "docker": "quay.io/biocontainers/cwltool", "aliases": {"cwltest": "/usr/local/bin/cwltest", "cwltool": "/usr/local/bin/cwltool", "avro": "/usr/local/bin/avro", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "doesitcache": "/usr/local/bin/doesitcache", "futurize": "/usr/local/bin/futurize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cwltool.

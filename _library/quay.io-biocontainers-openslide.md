@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/openslide"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openslide/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openslide/container.yaml"
-updated_at: "2024-06-27 03:07:11.014361"
+updated_at: "2024-06-28 02:37:04.440770"
 latest: "3.4.1--2"
 container_url: "https://biocontainers.pro/tools/openslide"
 
 versions:
  - "3.4.1--2"
 description: "shpc-registry automated BioContainers addition for openslide"
-config: {"url": "https://biocontainers.pro/tools/openslide", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for openslide", "latest": {"3.4.1--2": "sha256:5b9c4456eeca74ab4b7fd0b6984ab23cca109abb06f55e8474b63ac7c0b020de"}, "tags": {"3.4.1--2": "sha256:5b9c4456eeca74ab4b7fd0b6984ab23cca109abb06f55e8474b63ac7c0b020de"}, "docker": "quay.io/biocontainers/openslide"}
+config: {"url": "https://biocontainers.pro/tools/openslide", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for openslide", "latest": {"3.4.1--2": "sha256:3ac32a87d874eb4c003b6b87a54b94a20979defd53b97d9445625d9105f55db3"}, "tags": {"3.4.1--2": "sha256:3ac32a87d874eb4c003b6b87a54b94a20979defd53b97d9445625d9105f55db3"}, "docker": "quay.io/biocontainers/openslide"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/openslide.
