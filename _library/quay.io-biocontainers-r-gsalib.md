@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gsalib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gsalib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gsalib/container.yaml"
-updated_at: "2024-06-28 02:47:18.598777"
+updated_at: "2024-06-29 02:44:51.157238"
 latest: "2.1--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-gsalib"
 aliases:
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "2.1--r3.3.2_0"
  - "2.1--r3.4.1_0"
+ - "2.1--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-gsalib"
-config: {"url": "https://biocontainers.pro/tools/r-gsalib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gsalib", "latest": {"2.1--r3.3.2_0": "sha256:a816641eaa00c75629fba5abd62df968dcab1822eb93eae30778165f57d119cc"}, "tags": {"2.1--r3.3.2_0": "sha256:a816641eaa00c75629fba5abd62df968dcab1822eb93eae30778165f57d119cc", "2.1--r3.4.1_0": "sha256:b0edae27430f22f01f6fb94b536e20cfc1cb33768b1694bcd955277e15abf52a"}, "docker": "quay.io/biocontainers/r-gsalib", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-gsalib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gsalib", "latest": {"2.1--r3.3.2_0": "sha256:c28e3d76123fa4454604f68640e3b3cf963cc1a891022a9562e4b4e484f28f4f"}, "tags": {"2.1--r3.3.2_0": "sha256:c28e3d76123fa4454604f68640e3b3cf963cc1a891022a9562e4b4e484f28f4f", "2.1--r3.4.1_0": "sha256:5c85a2b6e072b15815afa79c4e4ee9aeacf5bef89c687e04509fa9038c5461f8", "2.1--r3.2.2_0": "sha256:3d95ab4884fb0068e05bc46ea52c4ae6aa92cc9dbde61a4cfc77e1ab3580f4f2"}, "docker": "quay.io/biocontainers/r-gsalib", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gsalib.

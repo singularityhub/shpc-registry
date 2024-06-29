@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/csb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/csb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/csb/container.yaml"
-updated_at: "2024-06-28 02:40:05.947826"
+updated_at: "2024-06-29 02:37:30.848016"
 latest: "1.2.5--pyh24bf2e0_2"
 container_url: "https://biocontainers.pro/tools/csb"
 aliases:
@@ -31,7 +31,7 @@ aliases:
 versions:
  - "1.2.5--pyh24bf2e0_2"
 description: "shpc-registry automated BioContainers addition for csb"
-config: {"url": "https://biocontainers.pro/tools/csb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for csb", "latest": {"1.2.5--pyh24bf2e0_2": "sha256:78eb0352517ed26a0055570aa2e1f900b7086084b42e92b13ad76c2774101f5e"}, "tags": {"1.2.5--pyh24bf2e0_2": "sha256:78eb0352517ed26a0055570aa2e1f900b7086084b42e92b13ad76c2774101f5e"}, "docker": "quay.io/biocontainers/csb", "aliases": {"csb-bfit": "/usr/local/bin/csb-bfit", "csb-bfite": "/usr/local/bin/csb-bfite", "csb-buildhmm": "/usr/local/bin/csb-buildhmm", "csb-csfrag": "/usr/local/bin/csb-csfrag", "csb-embd": "/usr/local/bin/csb-embd", "csb-hhfrag": "/usr/local/bin/csb-hhfrag", "csb-hhsearch": "/usr/local/bin/csb-hhsearch", "csb-precision": "/usr/local/bin/csb-precision", "csb-promix": "/usr/local/bin/csb-promix", "csb-test": "/usr/local/bin/csb-test", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0", "gst-discoverer-1.0": "/usr/local/bin/gst-discoverer-1.0", "gst-play-1.0": "/usr/local/bin/gst-play-1.0", "fixqt4headers.pl": "/usr/local/bin/fixqt4headers.pl"}}
+config: {"url": "https://biocontainers.pro/tools/csb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for csb", "latest": {"1.2.5--pyh24bf2e0_2": "sha256:a3f2b6c10090e9ec8b1ce3598b82cf8f22bf650771f244c0689228363dafd16e"}, "tags": {"1.2.5--pyh24bf2e0_2": "sha256:a3f2b6c10090e9ec8b1ce3598b82cf8f22bf650771f244c0689228363dafd16e"}, "docker": "quay.io/biocontainers/csb", "aliases": {"csb-bfit": "/usr/local/bin/csb-bfit", "csb-bfite": "/usr/local/bin/csb-bfite", "csb-buildhmm": "/usr/local/bin/csb-buildhmm", "csb-csfrag": "/usr/local/bin/csb-csfrag", "csb-embd": "/usr/local/bin/csb-embd", "csb-hhfrag": "/usr/local/bin/csb-hhfrag", "csb-hhsearch": "/usr/local/bin/csb-hhsearch", "csb-precision": "/usr/local/bin/csb-precision", "csb-promix": "/usr/local/bin/csb-promix", "csb-test": "/usr/local/bin/csb-test", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0", "gst-discoverer-1.0": "/usr/local/bin/gst-discoverer-1.0", "gst-play-1.0": "/usr/local/bin/gst-play-1.0", "fixqt4headers.pl": "/usr/local/bin/fixqt4headers.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/csb.

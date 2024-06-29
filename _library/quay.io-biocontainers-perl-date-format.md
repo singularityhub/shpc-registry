@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-date-format"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-date-format/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-date-format/container.yaml"
-updated_at: "2024-06-28 03:09:41.422227"
+updated_at: "2024-06-29 03:07:42.488356"
 latest: "2.30--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-date-format"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "2.30--pl526_2"
 description: "shpc-registry automated BioContainers addition for perl-date-format"
-config: {"url": "https://biocontainers.pro/tools/perl-date-format", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-date-format", "latest": {"2.30--pl526_2": "sha256:7cfd4041022269e8995b4bd4b392b9dfd2f192cadfa114cfe95cef4bf6261324"}, "tags": {"2.30--pl526_2": "sha256:7cfd4041022269e8995b4bd4b392b9dfd2f192cadfa114cfe95cef4bf6261324"}, "docker": "quay.io/biocontainers/perl-date-format", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-date-format", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-date-format", "latest": {"2.30--pl526_2": "sha256:42872f9e786041c2ccfd8c9cdb9185ceb8f97d5df712218b43d1ad0d50207883"}, "tags": {"2.30--pl526_2": "sha256:42872f9e786041c2ccfd8c9cdb9185ceb8f97d5df712218b43d1ad0d50207883"}, "docker": "quay.io/biocontainers/perl-date-format", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-date-format.

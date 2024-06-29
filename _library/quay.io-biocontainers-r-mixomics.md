@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/r-mixomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mixomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mixomics/container.yaml"
-updated_at: "2024-06-28 03:12:21.384899"
+updated_at: "2024-06-29 03:10:25.283295"
 latest: "6.3.1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-mixomics"
 
 versions:
  - "6.3.1--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-mixomics"
-config: {"url": "https://biocontainers.pro/tools/r-mixomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mixomics", "latest": {"6.3.1--r3.4.1_0": "sha256:121980c68e9a060fc3a093e67ea8b81fe024ffd901282ebb4c547ceb352becef"}, "tags": {"6.3.1--r3.4.1_0": "sha256:121980c68e9a060fc3a093e67ea8b81fe024ffd901282ebb4c547ceb352becef"}, "docker": "quay.io/biocontainers/r-mixomics"}
+config: {"url": "https://biocontainers.pro/tools/r-mixomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mixomics", "latest": {"6.3.1--r3.4.1_0": "sha256:9b2f9847c26f049838b03acfcc7e7db6162852c17dc6ce28a085fab55506de5a"}, "tags": {"6.3.1--r3.4.1_0": "sha256:9b2f9847c26f049838b03acfcc7e7db6162852c17dc6ce28a085fab55506de5a"}, "docker": "quay.io/biocontainers/r-mixomics"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mixomics.

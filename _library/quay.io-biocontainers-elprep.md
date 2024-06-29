@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/elprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/elprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/elprep/container.yaml"
-updated_at: "2024-06-28 02:46:05.606696"
-latest: "5.1.3--he881be0_0"
+updated_at: "2024-06-29 02:43:36.345687"
+latest: "5.1.3--he881be0_1"
 container_url: "https://biocontainers.pro/tools/elprep"
 aliases:
  - "elprep"
 versions:
  - "5.1.3--he881be0_0"
+ - "5.1.3--he881be0_1"
 description: "shpc-registry automated BioContainers addition for elprep"
-config: {"url": "https://biocontainers.pro/tools/elprep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for elprep", "latest": {"5.1.3--he881be0_0": "sha256:fbd786098aedf03a86128f7e91789b20edff85f5724eac5db982482de0b4813d"}, "tags": {"5.1.3--he881be0_0": "sha256:fbd786098aedf03a86128f7e91789b20edff85f5724eac5db982482de0b4813d"}, "docker": "quay.io/biocontainers/elprep", "aliases": {"elprep": "/usr/local/bin/elprep"}}
+config: {"url": "https://biocontainers.pro/tools/elprep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for elprep", "latest": {"5.1.3--he881be0_1": "sha256:b6e0cad891a295ce6ed1db6e5af736a2d041a6468110a3e4c15de17b3466841c"}, "tags": {"5.1.3--he881be0_0": "sha256:fbd786098aedf03a86128f7e91789b20edff85f5724eac5db982482de0b4813d", "5.1.3--he881be0_1": "sha256:b6e0cad891a295ce6ed1db6e5af736a2d041a6468110a3e4c15de17b3466841c"}, "docker": "quay.io/biocontainers/elprep", "aliases": {"elprep": "/usr/local/bin/elprep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/elprep.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/elprep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/elprep:5.1.3--he881be0_0
+$ shpc install quay.io/biocontainers/elprep:5.1.3--he881be0_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/elprep/5.1.3--he881be0_0
-$ module help quay.io/biocontainers/elprep/5.1.3--he881be0_0
+$ module load quay.io/biocontainers/elprep/5.1.3--he881be0_1
+$ module help quay.io/biocontainers/elprep/5.1.3--he881be0_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

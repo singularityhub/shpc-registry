@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-e1071"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-e1071/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-e1071/container.yaml"
-updated_at: "2024-06-28 03:21:17.614069"
+updated_at: "2024-06-29 03:19:28.372982"
 latest: "1.6_8--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-e1071"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "1.6_8--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-e1071"
-config: {"url": "https://biocontainers.pro/tools/r-e1071", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-e1071", "latest": {"1.6_8--r3.3.2_0": "sha256:443e92284085e1b40c74d08a4f1b2e255411c00065742a6e67e243fdf0792370"}, "tags": {"1.6_8--r3.3.2_0": "sha256:443e92284085e1b40c74d08a4f1b2e255411c00065742a6e67e243fdf0792370"}, "docker": "quay.io/biocontainers/r-e1071", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-e1071", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-e1071", "latest": {"1.6_8--r3.3.2_0": "sha256:fcdb2e3a7599f31955ae2a7904bce6fcccfb9417c943758e77dbafda55c425e1"}, "tags": {"1.6_8--r3.3.2_0": "sha256:fcdb2e3a7599f31955ae2a7904bce6fcccfb9417c943758e77dbafda55c425e1"}, "docker": "quay.io/biocontainers/r-e1071", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-e1071.

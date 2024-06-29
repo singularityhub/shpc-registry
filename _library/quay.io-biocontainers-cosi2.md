@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cosi2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cosi2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cosi2/container.yaml"
-updated_at: "2024-06-28 03:01:39.512992"
+updated_at: "2024-06-29 02:59:33.696107"
 latest: "2.3.0rc4--py27h2d50403_1"
 container_url: "https://biocontainers.pro/tools/cosi2"
 aliases:
@@ -26,7 +26,7 @@ versions:
  - "2.3.0rc4--py27h2d50403_1"
  - "2.3.0rc4--py36h2d50403_1"
 description: "shpc-registry automated BioContainers addition for cosi2"
-config: {"url": "https://biocontainers.pro/tools/cosi2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cosi2", "latest": {"2.3.0rc4--py27h2d50403_1": "sha256:b8372c183135e0549f4f17aa2f7f546b58493236f0ac6352d6f7cfe57b4a9779"}, "tags": {"2.3.0rc4--py27h2d50403_1": "sha256:b8372c183135e0549f4f17aa2f7f546b58493236f0ac6352d6f7cfe57b4a9779", "2.3.0rc4--py36h2d50403_1": "sha256:0257bc17b12d0523ca9635f0da9ccf170df6eecc92054f9eec617e28cf1d1a50"}, "docker": "quay.io/biocontainers/cosi2", "aliases": {"coalescent": "/usr/local/bin/coalescent", "get_recomap": "/usr/local/bin/get_recomap", "recomap_hapmap2": "/usr/local/bin/recomap_hapmap2", "recosimulate": "/usr/local/bin/recosimulate", "sample_stats_extra": "/usr/local/bin/sample_stats_extra", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/cosi2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cosi2", "latest": {"2.3.0rc4--py27h2d50403_1": "sha256:7860351189b6dccc0ccc3a89c4a2f8159e0604a0a93fcbf8a86d6a8209c8d376"}, "tags": {"2.3.0rc4--py27h2d50403_1": "sha256:7860351189b6dccc0ccc3a89c4a2f8159e0604a0a93fcbf8a86d6a8209c8d376", "2.3.0rc4--py36h2d50403_1": "sha256:8c777997517d925dc4c6ebcd766f72e89c912bd9eda416d1886a3f440818d982"}, "docker": "quay.io/biocontainers/cosi2", "aliases": {"coalescent": "/usr/local/bin/coalescent", "get_recomap": "/usr/local/bin/get_recomap", "recomap_hapmap2": "/usr/local/bin/recomap_hapmap2", "recosimulate": "/usr/local/bin/recosimulate", "sample_stats_extra": "/usr/local/bin/sample_stats_extra", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cosi2.

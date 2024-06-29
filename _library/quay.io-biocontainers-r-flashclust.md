@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-flashclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-flashclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-flashclust/container.yaml"
-updated_at: "2024-06-28 02:41:37.619509"
+updated_at: "2024-06-29 02:39:03.848347"
 latest: "1.01_2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-flashclust"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.01_2--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-flashclust"
-config: {"url": "https://biocontainers.pro/tools/r-flashclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-flashclust", "latest": {"1.01_2--r3.3.2_0": "sha256:3b52243a0533f4036a65d07aa4ffce99c6dfabcad35f51656dcde74967f8a76c"}, "tags": {"1.01_2--r3.3.2_0": "sha256:3b52243a0533f4036a65d07aa4ffce99c6dfabcad35f51656dcde74967f8a76c"}, "docker": "quay.io/biocontainers/r-flashclust", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-flashclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-flashclust", "latest": {"1.01_2--r3.3.2_0": "sha256:faa862cf341e774d13783990fe01c06ea9cc5857b6214764888c7f4756f6bdc9"}, "tags": {"1.01_2--r3.3.2_0": "sha256:faa862cf341e774d13783990fe01c06ea9cc5857b6214764888c7f4756f6bdc9"}, "docker": "quay.io/biocontainers/r-flashclust", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-flashclust.

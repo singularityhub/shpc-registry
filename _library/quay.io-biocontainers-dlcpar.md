@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dlcpar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dlcpar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dlcpar/container.yaml"
-updated_at: "2024-06-28 03:17:52.968959"
+updated_at: "2024-06-29 03:16:01.459237"
 latest: "1.0--py_2"
 container_url: "https://biocontainers.pro/tools/dlcpar"
 aliases:
@@ -26,7 +26,7 @@ aliases:
 versions:
  - "1.0--py_2"
 description: "shpc-registry automated BioContainers addition for dlcpar"
-config: {"url": "https://biocontainers.pro/tools/dlcpar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dlcpar", "latest": {"1.0--py_2": "sha256:24307b12431b1ff59625e67ebc27942c12472b0abb8b1d703b3b630e070d43cf"}, "tags": {"1.0--py_2": "sha256:24307b12431b1ff59625e67ebc27942c12472b0abb8b1d703b3b630e070d43cf"}, "docker": "quay.io/biocontainers/dlcpar", "aliases": {"dlcoal_to_dlcpar": "/usr/local/bin/dlcoal_to_dlcpar", "dlcpar": "/usr/local/bin/dlcpar", "dlcpar_search": "/usr/local/bin/dlcpar_search", "dlcpar_to_dlcoal": "/usr/local/bin/dlcpar_to_dlcoal", "tree-events-dlc": "/usr/local/bin/tree-events-dlc", "tree-events-dlcpar": "/usr/local/bin/tree-events-dlcpar", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/dlcpar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dlcpar", "latest": {"1.0--py_2": "sha256:622eada8e2961e7aca1801b908b93f31c7f78314bdb4394df5d620f5301fcc2b"}, "tags": {"1.0--py_2": "sha256:622eada8e2961e7aca1801b908b93f31c7f78314bdb4394df5d620f5301fcc2b"}, "docker": "quay.io/biocontainers/dlcpar", "aliases": {"dlcoal_to_dlcpar": "/usr/local/bin/dlcoal_to_dlcpar", "dlcpar": "/usr/local/bin/dlcpar", "dlcpar_search": "/usr/local/bin/dlcpar_search", "dlcpar_to_dlcoal": "/usr/local/bin/dlcpar_to_dlcoal", "tree-events-dlc": "/usr/local/bin/tree-events-dlc", "tree-events-dlcpar": "/usr/local/bin/tree-events-dlcpar", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dlcpar.

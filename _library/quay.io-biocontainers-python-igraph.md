@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-igraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-igraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-igraph/container.yaml"
-updated_at: "2024-06-28 03:08:48.012818"
+updated_at: "2024-06-29 03:06:47.906138"
 latest: "0.7.1.post6--py35_2"
 container_url: "https://biocontainers.pro/tools/python-igraph"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "pyvenv-3.5"
 versions:
  - "0.7.1.post6--py35_2"
+ - "0.7.1.post6--py36_2"
 description: "shpc-registry automated BioContainers addition for python-igraph"
-config: {"url": "https://biocontainers.pro/tools/python-igraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-igraph", "latest": {"0.7.1.post6--py35_2": "sha256:89d264cc57398bac41d71f28d56312050ac89ec7c702a8720791510e68bccba1"}, "tags": {"0.7.1.post6--py35_2": "sha256:89d264cc57398bac41d71f28d56312050ac89ec7c702a8720791510e68bccba1"}, "docker": "quay.io/biocontainers/python-igraph", "aliases": {"igraph": "/usr/local/bin/igraph", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5"}}
+config: {"url": "https://biocontainers.pro/tools/python-igraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-igraph", "latest": {"0.7.1.post6--py35_2": "sha256:10f87d974ce99d40f829dc56a2f56d690dc12ff0d7f9b232d58ac5fd0949ae64"}, "tags": {"0.7.1.post6--py35_2": "sha256:10f87d974ce99d40f829dc56a2f56d690dc12ff0d7f9b232d58ac5fd0949ae64", "0.7.1.post6--py36_2": "sha256:00a8e8d91b20347b9300693553271480e98ff323f3b6dfcd52a14626672cdb40"}, "docker": "quay.io/biocontainers/python-igraph", "aliases": {"igraph": "/usr/local/bin/igraph", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-igraph.

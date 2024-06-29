@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-html-formatter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-formatter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-formatter/container.yaml"
-updated_at: "2024-06-28 03:20:58.098493"
+updated_at: "2024-06-29 03:19:08.629065"
 latest: "2.16--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-html-formatter"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "2.16--pl526_0"
 description: "shpc-registry automated BioContainers addition for perl-html-formatter"
-config: {"url": "https://biocontainers.pro/tools/perl-html-formatter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-formatter", "latest": {"2.16--pl526_0": "sha256:1a970878708fb8cfd34b94d6cfa429a12f51e5c9072d6106eff151f1ebbb0311"}, "tags": {"2.16--pl526_0": "sha256:1a970878708fb8cfd34b94d6cfa429a12f51e5c9072d6106eff151f1ebbb0311"}, "docker": "quay.io/biocontainers/perl-html-formatter", "aliases": {"htmltree": "/usr/local/bin/htmltree", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-html-formatter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-formatter", "latest": {"2.16--pl526_0": "sha256:5cab90a015db06909e3e710a7cdbc057671719de72a2b61dfcd0fc6dc35c95e1"}, "tags": {"2.16--pl526_0": "sha256:5cab90a015db06909e3e710a7cdbc057671719de72a2b61dfcd0fc6dc35c95e1"}, "docker": "quay.io/biocontainers/perl-html-formatter", "aliases": {"htmltree": "/usr/local/bin/htmltree", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-html-formatter.

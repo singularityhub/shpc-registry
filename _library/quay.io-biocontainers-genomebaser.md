@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomebaser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomebaser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomebaser/container.yaml"
-updated_at: "2024-06-28 03:20:59.487457"
+updated_at: "2024-06-29 03:19:10.029626"
 latest: "0.1.2--py27_1"
 container_url: "https://biocontainers.pro/tools/genomebaser"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.1.2--py27_1"
 description: "shpc-registry automated BioContainers addition for genomebaser"
-config: {"url": "https://biocontainers.pro/tools/genomebaser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomebaser", "latest": {"0.1.2--py27_1": "sha256:1f1a02c87e66dfd5d35cc65e5cfc702eb1df69606f60e3decff322c453d16e15"}, "tags": {"0.1.2--py27_1": "sha256:1f1a02c87e66dfd5d35cc65e5cfc702eb1df69606f60e3decff322c453d16e15"}, "docker": "quay.io/biocontainers/genomebaser", "aliases": {"GenomeBaser": "/usr/local/bin/GenomeBaser", "sample": "/usr/local/bin/sample", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/genomebaser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomebaser", "latest": {"0.1.2--py27_1": "sha256:0d3041f0750b0673c363dfcb9e6bfb76b6b297e114805144b1242fe8d4761313"}, "tags": {"0.1.2--py27_1": "sha256:0d3041f0750b0673c363dfcb9e6bfb76b6b297e114805144b1242fe8d4761313"}, "docker": "quay.io/biocontainers/genomebaser", "aliases": {"GenomeBaser": "/usr/local/bin/GenomeBaser", "sample": "/usr/local/bin/sample", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genomebaser.

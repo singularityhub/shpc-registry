@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/koeken"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/koeken/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/koeken/container.yaml"
-updated_at: "2024-06-28 03:02:45.277950"
+updated_at: "2024-06-29 03:00:41.424528"
 latest: "0.2.6--py27h24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/koeken"
 aliases:

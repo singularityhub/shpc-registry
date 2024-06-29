@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abismal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abismal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abismal/container.yaml"
-updated_at: "2024-06-28 02:44:17.221266"
+updated_at: "2024-06-29 02:41:45.988058"
 latest: "3.2.3--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/abismal"
 aliases:

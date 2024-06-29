@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rtg-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rtg-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rtg-tools/container.yaml"
-updated_at: "2024-06-28 02:36:25.284409"
+updated_at: "2024-06-29 02:33:46.435666"
 latest: "3.12--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/rtg-tools"
 aliases:
@@ -26,7 +26,7 @@ versions:
  - "3.10.1--0"
  - "3.12.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for rtg-tools"
-config: {"url": "https://biocontainers.pro/tools/rtg-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rtg-tools", "latest": {"3.12--hdfd78af_1": "sha256:84ad738e6d981bb4dc98be0a2acf23a0aa77333c8905468472265cc5bf06a285"}, "tags": {"3.9.1--1": "sha256:01888a19bb14e0379c6c255e03dfdf58cc7dd0fe3a9ca6f774bbb3da9845efb4", "3.12--hdfd78af_1": "sha256:84ad738e6d981bb4dc98be0a2acf23a0aa77333c8905468472265cc5bf06a285", "3.11--0": "sha256:818636262163d94119c10e1d25ca4eff9d83da7abd856a502fc8454fc64e337d", "3.10.1--0": "sha256:329cce119f03df5163c3d1e0625e89502edfb2e689a7224911cc63721968bca3", "3.12.1--hdfd78af_0": "sha256:c738f95858f0e5fcb98d8997e8f95a588dca5e63a4503f6cd488a7e035930b59"}, "docker": "quay.io/biocontainers/rtg-tools", "aliases": {"rtg": "/usr/local/bin/rtg", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/rtg-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rtg-tools", "latest": {"3.12--hdfd78af_1": "sha256:84ad738e6d981bb4dc98be0a2acf23a0aa77333c8905468472265cc5bf06a285"}, "tags": {"3.9.1--1": "sha256:1547e62df5596f7e68811f975de9847db5e8a25c1e6484af9b53c6792902bd16", "3.12--hdfd78af_1": "sha256:84ad738e6d981bb4dc98be0a2acf23a0aa77333c8905468472265cc5bf06a285", "3.11--0": "sha256:818636262163d94119c10e1d25ca4eff9d83da7abd856a502fc8454fc64e337d", "3.10.1--0": "sha256:1c542f08b0732983f3eb2374ae3377a0d95b0baf39fc6983093eee1c48de23d7", "3.12.1--hdfd78af_0": "sha256:c738f95858f0e5fcb98d8997e8f95a588dca5e63a4503f6cd488a7e035930b59"}, "docker": "quay.io/biocontainers/rtg-tools", "aliases": {"rtg": "/usr/local/bin/rtg", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rtg-tools.

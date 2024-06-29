@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanosv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanosv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanosv/container.yaml"
-updated_at: "2024-06-28 03:09:02.510908"
+updated_at: "2024-06-29 03:07:02.608455"
 latest: "1.2.4--py_0"
 container_url: "https://biocontainers.pro/tools/nanosv"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.2.4--py_0"
 description: "shpc-registry automated BioContainers addition for nanosv"
-config: {"url": "https://biocontainers.pro/tools/nanosv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanosv", "latest": {"1.2.4--py_0": "sha256:f1ebe015816151c89fc302a5719075f7703e466eb789d1961944b14198f47c2e"}, "tags": {"1.2.4--py_0": "sha256:f1ebe015816151c89fc302a5719075f7703e466eb789d1961944b14198f47c2e"}, "docker": "quay.io/biocontainers/nanosv", "aliases": {"NanoSV": "/usr/local/bin/NanoSV", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
+config: {"url": "https://biocontainers.pro/tools/nanosv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanosv", "latest": {"1.2.4--py_0": "sha256:4d3ea2d883de559038a132a59034091f0bbcc43fe03f803bdc893819be9d33c9"}, "tags": {"1.2.4--py_0": "sha256:4d3ea2d883de559038a132a59034091f0bbcc43fe03f803bdc893819be9d33c9"}, "docker": "quay.io/biocontainers/nanosv", "aliases": {"NanoSV": "/usr/local/bin/NanoSV", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanosv.

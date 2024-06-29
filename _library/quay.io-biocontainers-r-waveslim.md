@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-waveslim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-waveslim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-waveslim/container.yaml"
-updated_at: "2024-06-28 02:48:30.872350"
+updated_at: "2024-06-29 02:46:05.873794"
 latest: "1.7.5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-waveslim"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.7.5--r3.3.1_0"
  - "1.7.5--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-waveslim"
-config: {"url": "https://biocontainers.pro/tools/r-waveslim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-waveslim", "latest": {"1.7.5--r3.3.1_0": "sha256:c5ba4aa2115bebaef8b6f5fb10dfabfad2f3cafc2a7d538ca8372f1b6571a64c"}, "tags": {"1.7.5--r3.3.1_0": "sha256:c5ba4aa2115bebaef8b6f5fb10dfabfad2f3cafc2a7d538ca8372f1b6571a64c", "1.7.5--r3.3.2_0": "sha256:894c0e5ae05a8fe7e9b08eba9ab2cbc3ad67b187c736a887bb60e36d27909e3f"}, "docker": "quay.io/biocontainers/r-waveslim", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-waveslim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-waveslim", "latest": {"1.7.5--r3.3.1_0": "sha256:98f9491f51e5f565b1b48120e3d048090b0be8ee885557b25ff0e06a9c1d4789"}, "tags": {"1.7.5--r3.3.1_0": "sha256:98f9491f51e5f565b1b48120e3d048090b0be8ee885557b25ff0e06a9c1d4789", "1.7.5--r3.3.2_0": "sha256:59a29aea77b46b3955b0d57a2968145fd8885e58520f0f3be8951c625543c8b9"}, "docker": "quay.io/biocontainers/r-waveslim", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-waveslim.

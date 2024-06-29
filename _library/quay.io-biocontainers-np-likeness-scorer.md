@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/np-likeness-scorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/np-likeness-scorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/np-likeness-scorer/container.yaml"
-updated_at: "2024-06-28 03:00:53.358066"
+updated_at: "2024-06-29 02:58:46.901502"
 latest: "2.1--py35_0"
 container_url: "https://biocontainers.pro/tools/np-likeness-scorer"
 aliases:
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "2.1--py35_0"
  - "2.1--py36_0"
+ - "2.1--py27_0"
 description: "shpc-registry automated BioContainers addition for np-likeness-scorer"
-config: {"url": "https://biocontainers.pro/tools/np-likeness-scorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for np-likeness-scorer", "latest": {"2.1--py35_0": "sha256:5f763c7077a033626c390ab3f33efbf6f43c28170bb87e8fc7ab052bb69f8a5d"}, "tags": {"2.1--py35_0": "sha256:5f763c7077a033626c390ab3f33efbf6f43c28170bb87e8fc7ab052bb69f8a5d", "2.1--py36_0": "sha256:f0669d48ad59ece6105189cafa14a04b025ea164f0afb8dbb04fefa7cf3a9c7f"}, "docker": "quay.io/biocontainers/np-likeness-scorer", "aliases": {"np-likeness": "/usr/local/bin/np-likeness", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "extcheck": "/usr/local/bin/extcheck"}}
+config: {"url": "https://biocontainers.pro/tools/np-likeness-scorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for np-likeness-scorer", "latest": {"2.1--py35_0": "sha256:47f1cf79f269204a372854b2e7ebf27e1600716e8ea93459a8f48e67feed503f"}, "tags": {"2.1--py35_0": "sha256:47f1cf79f269204a372854b2e7ebf27e1600716e8ea93459a8f48e67feed503f", "2.1--py36_0": "sha256:58209cdfbdc821d90a23974751e9a9642514ce8cba2a041a9696e4e027e19210", "2.1--py27_0": "sha256:855a046d35c2196ef9e05859556e2d80e2b5bf1a9b7c1b462c28638b6ef9d0ea"}, "docker": "quay.io/biocontainers/np-likeness-scorer", "aliases": {"np-likeness": "/usr/local/bin/np-likeness", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "extcheck": "/usr/local/bin/extcheck"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/np-likeness-scorer.

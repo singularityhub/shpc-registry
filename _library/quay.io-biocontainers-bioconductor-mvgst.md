@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mvgst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mvgst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mvgst/container.yaml"
-updated_at: "2024-06-28 03:20:41.141124"
+updated_at: "2024-06-29 03:18:51.456360"
 latest: "1.12.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mvgst"
 aliases:
@@ -16,7 +16,7 @@ aliases:
 versions:
  - "1.12.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mvgst"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mvgst", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mvgst", "latest": {"1.12.0--r3.4.1_0": "sha256:edcd5f6a9bcaeb45b84ff1a84c4e861efce30d383f5de05f429516b92c0f1e57"}, "tags": {"1.12.0--r3.4.1_0": "sha256:edcd5f6a9bcaeb45b84ff1a84c4e861efce30d383f5de05f429516b92c0f1e57"}, "docker": "quay.io/biocontainers/bioconductor-mvgst", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mvgst", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mvgst", "latest": {"1.12.0--r3.4.1_0": "sha256:3c61757c48a65052ca58f3fddee4f3de9cbbe77fd086bab3cb954a6f5cd44d9a"}, "tags": {"1.12.0--r3.4.1_0": "sha256:3c61757c48a65052ca58f3fddee4f3de9cbbe77fd086bab3cb954a6f5cd44d9a"}, "docker": "quay.io/biocontainers/bioconductor-mvgst", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mvgst.

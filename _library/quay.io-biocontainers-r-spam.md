@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-spam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-spam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-spam/container.yaml"
-updated_at: "2024-06-28 02:53:39.481684"
+updated_at: "2024-06-29 02:51:24.744770"
 latest: "1.4_0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-spam"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.4_0--r3.3.2_0"
+ - "1.4_0--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-spam"
-config: {"url": "https://biocontainers.pro/tools/r-spam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-spam", "latest": {"1.4_0--r3.3.2_0": "sha256:f6b49c74d46eb8ccb1d1319e9ecc755ae06512cb33ebddf490df1cf059f2fa89"}, "tags": {"1.4_0--r3.3.2_0": "sha256:f6b49c74d46eb8ccb1d1319e9ecc755ae06512cb33ebddf490df1cf059f2fa89"}, "docker": "quay.io/biocontainers/r-spam", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-spam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-spam", "latest": {"1.4_0--r3.3.2_0": "sha256:3aa95a016578c1321ad8acd1fc900842b15e1ae686b7b2da9612e21b615982ab"}, "tags": {"1.4_0--r3.3.2_0": "sha256:3aa95a016578c1321ad8acd1fc900842b15e1ae686b7b2da9612e21b615982ab", "1.4_0--r3.3.1_0": "sha256:d78496946ee54f6e842c52551f66cfed71d497a1a98843a424a2e4bf7450ab91"}, "docker": "quay.io/biocontainers/r-spam", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-spam.

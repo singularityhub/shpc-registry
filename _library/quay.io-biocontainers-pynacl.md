@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pynacl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pynacl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pynacl/container.yaml"
-updated_at: "2024-06-28 02:44:02.993479"
+updated_at: "2024-06-29 02:41:31.619031"
 latest: "0.3.0--py36_0"
 container_url: "https://biocontainers.pro/tools/pynacl"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.3.0--py36_0"
+ - "0.3.0--py27_0"
 description: "shpc-registry automated BioContainers addition for pynacl"
-config: {"url": "https://biocontainers.pro/tools/pynacl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pynacl", "latest": {"0.3.0--py36_0": "sha256:367294da009be84f019164eca327c17ca042b21959c9089b1905ce0d13ec7010"}, "tags": {"0.3.0--py36_0": "sha256:367294da009be84f019164eca327c17ca042b21959c9089b1905ce0d13ec7010"}, "docker": "quay.io/biocontainers/pynacl", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/pynacl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pynacl", "latest": {"0.3.0--py36_0": "sha256:7742cccd99555683cc5c6090bd78ea1cd5248e8eb53059c240b5d7ea7b63a866"}, "tags": {"0.3.0--py36_0": "sha256:7742cccd99555683cc5c6090bd78ea1cd5248e8eb53059c240b5d7ea7b63a866", "0.3.0--py27_0": "sha256:69aaa8113ea608fac37b392ed508e3ade6fe02696d1ab1c94c46b5735f84e747"}, "docker": "quay.io/biocontainers/pynacl", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pynacl.

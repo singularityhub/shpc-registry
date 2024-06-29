@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rmarkdown"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rmarkdown/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rmarkdown/container.yaml"
-updated_at: "2024-06-28 03:03:47.728088"
+updated_at: "2024-06-29 03:01:44.528603"
 latest: "0.9.5--0"
 container_url: "https://biocontainers.pro/tools/r-rmarkdown"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "0.9.5--0"
  - "0.9.5--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-rmarkdown"
-config: {"url": "https://biocontainers.pro/tools/r-rmarkdown", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rmarkdown", "latest": {"0.9.5--0": "sha256:82d79903b730c3494da469b412459184a4f799dd9c552ad85e7ec78fdf85189a"}, "tags": {"0.9.5--0": "sha256:82d79903b730c3494da469b412459184a4f799dd9c552ad85e7ec78fdf85189a", "0.9.5--r3.3.2_0": "sha256:ccf8745d8ce852c56009b7a20326db5ed8aba2b6a65023a5dc70f475da3ca9f3"}, "docker": "quay.io/biocontainers/r-rmarkdown", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rmarkdown", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rmarkdown", "latest": {"0.9.5--0": "sha256:79627ee9bbd184409ac56a5db116c72a3a699466dacdc92aa5448c73941d0041"}, "tags": {"0.9.5--0": "sha256:79627ee9bbd184409ac56a5db116c72a3a699466dacdc92aa5448c73941d0041", "0.9.5--r3.3.2_0": "sha256:483e1ddeba91f39ee3f011f0728b2098a25704be60255f3ab87e90d2adcf90bd"}, "docker": "quay.io/biocontainers/r-rmarkdown", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rmarkdown.

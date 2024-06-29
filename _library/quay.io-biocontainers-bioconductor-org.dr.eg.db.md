@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-org.dr.eg.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.dr.eg.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.dr.eg.db/container.yaml"
-updated_at: "2024-06-28 02:50:24.798558"
+updated_at: "2024-06-29 02:48:04.391432"
 latest: "3.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.dr.eg.db"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "3.17.0--r43hdfd78af_0"
  - "3.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-org.dr.eg.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-org.dr.eg.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.dr.eg.db", "latest": {"3.18.0--r43hdfd78af_0": "sha256:a26d5424b76fb61761f7b2b71b588f8a0ec341511e4b42e84aa924af384ae998"}, "tags": {"3.8.2--r36_1": "sha256:efb98191c7b999c4097fe4da2b97e8404063165e1373223fc79ca7245c9f0998", "3.16.0--r42hdfd78af_0": "sha256:16632659c1182b865c1c3af3aa590faf0e8b60558e9c54364432bb95161e326f", "3.14.0--r41hdfd78af_1": "sha256:e16a8f58c472795bef3f063620e740b51e398bf9929cba0cf050390c00e7a807", "3.13.0--r41hdfd78af_0": "sha256:63104d4badcacf8ab2f2713366c9a94a2ea6e0e8b0cd3f8d692f721da9d7a57a", "3.12.0--r40hdfd78af_1": "sha256:a629e3207e426484cf9e3d924e7082e39535fb38279baf38d9404b797ee70d57", "3.11.1--r40_0": "sha256:8382f366e3388ed57b96083b4da5a4332cb6e1419e09b2f7913249a2fa52df2a", "3.17.0--r43hdfd78af_0": "sha256:7aa603e25ab455dae385f6def1736b733a2dca2a8e1a376ce93b6a76fca04220", "3.18.0--r43hdfd78af_0": "sha256:a26d5424b76fb61761f7b2b71b588f8a0ec341511e4b42e84aa924af384ae998"}, "docker": "quay.io/biocontainers/bioconductor-org.dr.eg.db", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-org.dr.eg.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.dr.eg.db", "latest": {"3.18.0--r43hdfd78af_0": "sha256:a26d5424b76fb61761f7b2b71b588f8a0ec341511e4b42e84aa924af384ae998"}, "tags": {"3.8.2--r36_1": "sha256:bcab75c9610779fb97be5a69758278887de6a2855b51112b19c18afe54edb66c", "3.16.0--r42hdfd78af_0": "sha256:16632659c1182b865c1c3af3aa590faf0e8b60558e9c54364432bb95161e326f", "3.14.0--r41hdfd78af_1": "sha256:e16a8f58c472795bef3f063620e740b51e398bf9929cba0cf050390c00e7a807", "3.13.0--r41hdfd78af_0": "sha256:63104d4badcacf8ab2f2713366c9a94a2ea6e0e8b0cd3f8d692f721da9d7a57a", "3.12.0--r40hdfd78af_1": "sha256:a629e3207e426484cf9e3d924e7082e39535fb38279baf38d9404b797ee70d57", "3.11.1--r40_0": "sha256:8382f366e3388ed57b96083b4da5a4332cb6e1419e09b2f7913249a2fa52df2a", "3.17.0--r43hdfd78af_0": "sha256:7aa603e25ab455dae385f6def1736b733a2dca2a8e1a376ce93b6a76fca04220", "3.18.0--r43hdfd78af_0": "sha256:a26d5424b76fb61761f7b2b71b588f8a0ec341511e4b42e84aa924af384ae998"}, "docker": "quay.io/biocontainers/bioconductor-org.dr.eg.db", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-org.dr.eg.db.

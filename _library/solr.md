@@ -4,7 +4,7 @@ name:  "solr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/solr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/solr/container.yaml"
-updated_at: "2024-06-28 02:35:38.815194"
+updated_at: "2024-06-29 02:32:59.455890"
 latest: "9.6"
 container_url: "https://hub.docker.com/_/solr"
 aliases:

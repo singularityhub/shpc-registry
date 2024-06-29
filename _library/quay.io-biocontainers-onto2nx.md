@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/onto2nx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/onto2nx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/onto2nx/container.yaml"
-updated_at: "2024-06-28 03:06:16.717700"
+updated_at: "2024-06-29 03:04:14.789593"
 latest: "0.1.1--py_0"
 container_url: "https://biocontainers.pro/tools/onto2nx"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.1.1--py_0"
 description: "shpc-registry automated BioContainers addition for onto2nx"
-config: {"url": "https://biocontainers.pro/tools/onto2nx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for onto2nx", "latest": {"0.1.1--py_0": "sha256:c5c3202a1bbfdaf30d935886353c4539f147718250efaed2955b5852bda3c2c5"}, "tags": {"0.1.1--py_0": "sha256:c5c3202a1bbfdaf30d935886353c4539f147718250efaed2955b5852bda3c2c5"}, "docker": "quay.io/biocontainers/onto2nx", "aliases": {"csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "chardetect": "/usr/local/bin/chardetect", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
+config: {"url": "https://biocontainers.pro/tools/onto2nx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for onto2nx", "latest": {"0.1.1--py_0": "sha256:4b2b6e5d3d136ca1a55b57fdf02ab3a2a23ea3493904d4526a055be9a2dc2e27"}, "tags": {"0.1.1--py_0": "sha256:4b2b6e5d3d136ca1a55b57fdf02ab3a2a23ea3493904d4526a055be9a2dc2e27"}, "docker": "quay.io/biocontainers/onto2nx", "aliases": {"csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "chardetect": "/usr/local/bin/chardetect", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/onto2nx.
