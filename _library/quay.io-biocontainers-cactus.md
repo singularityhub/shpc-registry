@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cactus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cactus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cactus/container.yaml"
-updated_at: "2024-06-29 03:16:26.108077"
+updated_at: "2024-06-30 03:20:17.139909"
 latest: "2019.03.01--py27hdbcaa40_1"
 container_url: "https://biocontainers.pro/tools/cactus"
 aliases:

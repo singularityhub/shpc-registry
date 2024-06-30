@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-pod-plaintext"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pod-plaintext/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pod-plaintext/container.yaml"
-updated_at: "2024-06-29 02:43:56.794424"
+updated_at: "2024-06-30 02:48:22.256889"
 latest: "2.07--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-pod-plaintext"
 aliases:

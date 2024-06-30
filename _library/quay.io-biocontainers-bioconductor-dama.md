@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dama"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dama/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dama/container.yaml"
-updated_at: "2024-06-29 02:50:35.787941"
+updated_at: "2024-06-30 02:54:48.603316"
 latest: "1.74.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dama"
 

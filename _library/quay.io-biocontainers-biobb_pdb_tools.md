@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobb_pdb_tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_pdb_tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_pdb_tools/container.yaml"
-updated_at: "2024-06-29 03:00:16.612109"
+updated_at: "2024-06-30 03:04:18.539238"
 latest: "4.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_pdb_tools"
 aliases:

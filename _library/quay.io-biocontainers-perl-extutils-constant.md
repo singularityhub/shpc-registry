@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-extutils-constant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-extutils-constant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-extutils-constant/container.yaml"
-updated_at: "2024-06-29 03:09:59.678277"
+updated_at: "2024-06-30 03:13:53.640407"
 latest: "0.25--pl5321hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/perl-extutils-constant"
 aliases:

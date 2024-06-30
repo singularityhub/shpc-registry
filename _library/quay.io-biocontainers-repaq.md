@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/repaq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repaq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/repaq/container.yaml"
-updated_at: "2024-06-29 03:05:59.545538"
+updated_at: "2024-06-30 03:09:57.312016"
 latest: "0.3.0--h43eeafb_4"
 container_url: "https://biocontainers.pro/tools/repaq"
 aliases:

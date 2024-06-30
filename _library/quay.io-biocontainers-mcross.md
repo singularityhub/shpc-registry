@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mcross"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mcross/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mcross/container.yaml"
-updated_at: "2024-06-29 02:42:08.380655"
+updated_at: "2024-06-30 02:46:35.728814"
 latest: "0.9.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mcross"
 aliases:

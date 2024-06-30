@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transrate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transrate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transrate/container.yaml"
-updated_at: "2024-06-29 02:56:28.981648"
+updated_at: "2024-06-30 03:00:34.877350"
 latest: "1.0.3--h031d066_5"
 container_url: "https://biocontainers.pro/tools/transrate"
 

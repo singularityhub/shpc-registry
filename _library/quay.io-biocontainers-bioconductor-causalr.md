@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-causalr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-causalr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-causalr/container.yaml"
-updated_at: "2024-06-29 03:04:55.824103"
+updated_at: "2024-06-30 03:08:54.310451"
 latest: "1.34.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-causalr"
 aliases:

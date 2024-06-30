@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dropletutils-scripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dropletutils-scripts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dropletutils-scripts/container.yaml"
-updated_at: "2024-06-29 02:48:13.094632"
+updated_at: "2024-06-30 02:52:29.839647"
 latest: "0.0.5--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/dropletutils-scripts"
 aliases:

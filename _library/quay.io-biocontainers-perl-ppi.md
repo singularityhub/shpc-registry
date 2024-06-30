@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-ppi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-ppi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-ppi/container.yaml"
-updated_at: "2024-06-29 02:38:35.334528"
+updated_at: "2024-06-30 02:43:05.552799"
 latest: "1.236--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-ppi"
 aliases:

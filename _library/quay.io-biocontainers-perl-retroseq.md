@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-retroseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-retroseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-retroseq/container.yaml"
-updated_at: "2024-06-29 02:58:41.210829"
+updated_at: "2024-06-30 03:02:44.920368"
 latest: "1.5--pl5321h4847cac_2"
 container_url: "https://biocontainers.pro/tools/perl-retroseq"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-iseepathways"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iseepathways/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iseepathways/container.yaml"
-updated_at: "2024-06-29 02:36:07.243349"
+updated_at: "2024-06-30 02:40:39.842694"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-iseepathways"
 aliases:

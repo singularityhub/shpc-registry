@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/comut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/comut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/comut/container.yaml"
-updated_at: "2024-06-29 03:13:26.894380"
+updated_at: "2024-06-30 03:17:18.726739"
 latest: "0.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/comut"
 aliases:

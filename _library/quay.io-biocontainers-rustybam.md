@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rustybam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rustybam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rustybam/container.yaml"
-updated_at: "2024-06-29 02:34:45.200426"
+updated_at: "2024-06-30 02:39:19.239265"
 latest: "0.1.33--h756b843_0"
 container_url: "https://biocontainers.pro/tools/rustybam"
 aliases:

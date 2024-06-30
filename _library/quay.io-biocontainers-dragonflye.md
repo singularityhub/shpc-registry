@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dragonflye"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dragonflye/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dragonflye/container.yaml"
-updated_at: "2024-06-29 03:14:15.844533"
+updated_at: "2024-06-30 03:18:06.955607"
 latest: "1.2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dragonflye"
 aliases:

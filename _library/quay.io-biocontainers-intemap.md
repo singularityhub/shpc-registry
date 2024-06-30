@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/intemap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/intemap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/intemap/container.yaml"
-updated_at: "2024-06-29 03:03:11.462664"
+updated_at: "2024-06-30 03:07:11.652627"
 latest: "1.0--py27_1"
 container_url: "https://biocontainers.pro/tools/intemap"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gprofiler-official"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gprofiler-official/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gprofiler-official/container.yaml"
-updated_at: "2024-06-29 03:01:57.446822"
+updated_at: "2024-06-30 03:05:58.192636"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/gprofiler-official"
 aliases:
