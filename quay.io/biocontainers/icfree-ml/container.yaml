@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/icfree-ml
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for icfree-ml
+latest:
+  2.3.0--pyhdfd78af_0: sha256:cbd335ef90b487d40e07e055268b4c17e4923394c1cf0b066d9c43e01e7a71ba
+tags:
+  2.3.0--pyhdfd78af_0: sha256:cbd335ef90b487d40e07e055268b4c17e4923394c1cf0b066d9c43e01e7a71ba
+docker: quay.io/biocontainers/icfree-ml
+aliases:
+  numpy-config: /usr/local/bin/numpy-config
+  csv2rdf: /usr/local/bin/csv2rdf
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
+  rdfpipe: /usr/local/bin/rdfpipe
+  rdfs2dot: /usr/local/bin/rdfs2dot
+  blastdbcp: /usr/local/bin/blastdbcp
+  gene_info_reader: /usr/local/bin/gene_info_reader
+  seqdb_demo: /usr/local/bin/seqdb_demo
+  seqdb_perf: /usr/local/bin/seqdb_perf
+  seedtop: /usr/local/bin/seedtop
+  test_pcre: /usr/local/bin/test_pcre
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  run_with_lock: /usr/local/bin/run_with_lock
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastn: /usr/local/bin/blastn
+  blastp: /usr/local/bin/blastp
