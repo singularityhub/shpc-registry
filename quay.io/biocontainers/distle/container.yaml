@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/distle
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for distle
+latest:
+  0.1.1--h715e4b3_0: sha256:fce3265ad2cf19ab763f7977fee346f00773be059a2a39ce92fab41c5e7b6609
+tags:
+  0.1.1--h715e4b3_0: sha256:fce3265ad2cf19ab763f7977fee346f00773be059a2a39ce92fab41c5e7b6609
+docker: quay.io/biocontainers/distle
+aliases:
+  distle: /usr/local/bin/distle

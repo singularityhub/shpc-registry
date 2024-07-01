@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/telometer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for telometer
+latest:
+  0.81--pyhdfd78af_0: sha256:85941dcaef00b646283adaeaf29bda719dcc32343fa66b0d4aa78a7d2e296671
+tags:
+  0.81--pyhdfd78af_0: sha256:85941dcaef00b646283adaeaf29bda719dcc32343fa66b0d4aa78a7d2e296671
+docker: quay.io/biocontainers/telometer
+aliases:
+  numpy-config: /usr/local/bin/numpy-config
+  telometer: /usr/local/bin/telometer
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
