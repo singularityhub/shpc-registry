@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-statmod
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-statmod
 latest:
-  1.4.29--r3.3.1_0: sha256:2ba9284b4b367c662229ded5147fd3551c960db640cfe8c726caee0632a042ca
+  1.4.29--r3.3.1_0: sha256:89bd0bd96b4108e93cc1445879038f084f1f6904230ece23eb28e9174f3294df
 tags:
-  1.4.29--r3.3.1_0: sha256:2ba9284b4b367c662229ded5147fd3551c960db640cfe8c726caee0632a042ca
-  1.4.29--r3.3.2_0: sha256:720e0cb766bafd0801346df5f1701c88d001606862624e59f5625994217bfe4c
+  1.4.29--r3.3.1_0: sha256:89bd0bd96b4108e93cc1445879038f084f1f6904230ece23eb28e9174f3294df
+  1.4.29--r3.3.2_0: sha256:0618ac055b7e6e1697fef9e92d62f987f95d8085618c0fa3f31bece0cf8bd058
 docker: quay.io/biocontainers/r-statmod
 aliases:
   uconv: /usr/local/bin/uconv

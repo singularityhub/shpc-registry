@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/biogridpy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biogridpy
 latest:
-  0.1.1--py_2: sha256:34e4a9bb493496d8ac9f637e3d576c813f4c52e3e6b10610bef00424d47fa31c
+  0.1.1--py_2: sha256:7ac453437b9f9c76b409090a28fc2f9417504bdf40b2c33bd7840fd3289360d3
 tags:
-  0.1.1--py_2: sha256:34e4a9bb493496d8ac9f637e3d576c813f4c52e3e6b10610bef00424d47fa31c
+  0.1.1--py_2: sha256:7ac453437b9f9c76b409090a28fc2f9417504bdf40b2c33bd7840fd3289360d3
 docker: quay.io/biocontainers/biogridpy
 aliases:
   2to3-3.7: /usr/local/bin/2to3-3.7

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/paraview
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for paraview
 latest:
-  5.2.0--py27_2: sha256:80aed1913bf4b3a20916f8b3289d2d603d02d0e8c734ed483f10a24d04e20fb5
+  5.2.0--py27_2: sha256:07e78a38d3a7f23b82ecf1fa824a97d345e9d2b9334198a0b19bf57083bb0996
 tags:
-  5.2.0--py27_2: sha256:80aed1913bf4b3a20916f8b3289d2d603d02d0e8c734ed483f10a24d04e20fb5
+  5.2.0--py27_2: sha256:07e78a38d3a7f23b82ecf1fa824a97d345e9d2b9334198a0b19bf57083bb0996
 docker: quay.io/biocontainers/paraview
 aliases:
   bugpoint: /usr/local/bin/bugpoint

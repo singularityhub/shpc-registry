@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/circlator
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for circlator
 latest:
-  1.5.5--py_3: sha256:e1fb7edcd5323e82c765bd2cc30085e6af51d397d555037d8d3948f1dd33af84
+  1.5.5--py_3: sha256:b578b6d2e448a61f2e51663b122080bde69aa7a8807ab9390bc49e0afbe1cd13
 tags:
-  1.5.5--py_3: sha256:e1fb7edcd5323e82c765bd2cc30085e6af51d397d555037d8d3948f1dd33af84
+  1.5.5--py_3: sha256:b578b6d2e448a61f2e51663b122080bde69aa7a8807ab9390bc49e0afbe1cd13
 docker: quay.io/biocontainers/circlator
 aliases:
   AMOScmp: /usr/local/bin/AMOScmp

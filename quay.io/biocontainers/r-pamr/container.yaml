@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-pamr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-pamr
 latest:
-  1.55--r3.4.1_0: sha256:3df8b1015a4a9875b54dbe00936dac712f06af99aebfa769d421081446db0909
+  1.55--r3.4.1_0: sha256:e8193064647d7ae7261e72fa09d2761fa71b46304923e9722bb7ec0067d4316b
 tags:
-  1.55--r3.4.1_0: sha256:3df8b1015a4a9875b54dbe00936dac712f06af99aebfa769d421081446db0909
+  1.55--r3.4.1_0: sha256:e8193064647d7ae7261e72fa09d2761fa71b46304923e9722bb7ec0067d4316b
 docker: quay.io/biocontainers/r-pamr
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

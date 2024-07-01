@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gatb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gatb
 latest:
-  1.4.2--h221a0a2_3: sha256:96f412f42ed242af66ea5080d7a94c01577ccd4093ed7319d44730d204cb0e07
+  1.4.2--h56e2c18_4: sha256:23ed7a577de796fc34b55ebd3faf2f6d4d8b7bbf2861962efb1ef398e320a190
 tags:
   1.4.2--hbeba21e_1: sha256:460a7c23cad7716d6b5f717dda0d342f1affc3caa231242300e51c24dc160a0a
   1.4.2--h221a0a2_3: sha256:96f412f42ed242af66ea5080d7a94c01577ccd4093ed7319d44730d204cb0e07
+  1.4.2--h56e2c18_4: sha256:23ed7a577de796fc34b55ebd3faf2f6d4d8b7bbf2861962efb1ef398e320a190
 docker: quay.io/biocontainers/gatb
 aliases:
   dbgh5: /usr/local/bin/dbgh5

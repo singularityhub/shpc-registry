@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/xsv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for xsv
 latest:
-  0.10.3--0: sha256:3531553a778de8d442a25136a0a579f6bda4d61f8e1140a99bf4a3f2fd40d639
+  0.10.3--0: sha256:440d42159e8eb1045358fcbdc107f1dffb3bea3781f3e016c310127609814fc4
 tags:
-  0.9.8--0: sha256:2570fab538bce6762431f3abfd27e99b9f3de61b0e279bc4d1fbff53ecb8dbcb
-  0.10.3--0: sha256:3531553a778de8d442a25136a0a579f6bda4d61f8e1140a99bf4a3f2fd40d639
+  0.9.8--0: sha256:243f6747e3c5e3605227a400ed47fcf7231bbcba62c40f46858919a5a280a76c
+  0.10.3--0: sha256:440d42159e8eb1045358fcbdc107f1dffb3bea3781f3e016c310127609814fc4
 docker: quay.io/biocontainers/xsv
 aliases:
   xsv: /usr/local/bin/xsv

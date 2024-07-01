@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-gam
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-gam
 latest:
-  1.14_4--r3.4.1_0: sha256:54828c4175cfcc3a4838eacb319d1e370329cf992eecbe8557e7071a22ab1bea
+  1.14_4--r3.4.1_0: sha256:4ba24b34610d920936ab03f48d240b0d442e8647da0e312d412518f89f218fcf
 tags:
-  1.14_4--r3.4.1_0: sha256:54828c4175cfcc3a4838eacb319d1e370329cf992eecbe8557e7071a22ab1bea
+  1.14_4--r3.4.1_0: sha256:4ba24b34610d920936ab03f48d240b0d442e8647da0e312d412518f89f218fcf
 docker: quay.io/biocontainers/r-gam
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

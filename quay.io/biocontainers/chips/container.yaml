@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/chips
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for chips
 latest:
-  2.4--h6ab5fc9_6: sha256:3270a8092e44f226cb8537a30d32dad90fec7e002b14d5c6ddf8d26502059ce0
+  2.4--h43eeafb_7: sha256:927b61e8e7c1c90878aa9b41485e23a116355cf096e985126461378591d4d859
 tags:
   2.4--hea94271_4: sha256:d72b484a2ed1cd8228eb7a576446bc4a4060e95abea6964e03929dbb71e9b163
   2.4--hff880f7_5: sha256:ca16cc23f9c75fa3d524e60e9178acca9e3d3065c59004ec94432adddd677322
   2.4--h6ab5fc9_6: sha256:3270a8092e44f226cb8537a30d32dad90fec7e002b14d5c6ddf8d26502059ce0
+  2.4--h43eeafb_7: sha256:927b61e8e7c1c90878aa9b41485e23a116355cf096e985126461378591d4d859
 docker: quay.io/biocontainers/chips
 aliases:
   chips: /usr/local/bin/chips

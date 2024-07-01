@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/flask-admin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for flask-admin
 latest:
-  1.4.0--py36_0: sha256:d0a4cccafe7f1d9223ed9cdd7b64c56236d078ee88b4437d329c11bca324a3a9
+  1.4.0--py36_0: sha256:149af9720bc07f9b10cc7e001ae009059f3e80dd2d5d8b72ee2ec3232377afea
 tags:
-  1.4.0--py36_0: sha256:d0a4cccafe7f1d9223ed9cdd7b64c56236d078ee88b4437d329c11bca324a3a9
+  1.4.0--py36_0: sha256:149af9720bc07f9b10cc7e001ae009059f3e80dd2d5d8b72ee2ec3232377afea
+  1.4.0--py35_0: sha256:aad32715db26e1a33b9be104e2dac93683f5a4273e9b0abd4ce36835687b8780
 docker: quay.io/biocontainers/flask-admin
 aliases:
   flask: /usr/local/bin/flask

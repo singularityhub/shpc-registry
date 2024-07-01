@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/fseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fseq
 latest:
-  1.84--py36pl5.22.0_0: sha256:521bc849fbef9eec4a457087f1f6a7c33ae1cc8a8293a1d63231b573544b3231
+  1.84--py36pl5.22.0_0: sha256:4fe68b86231a2440be4adfee1e5de81671f8562fb059a21ebe9316baf913ed8f
 tags:
-  1.84--py36pl5.22.0_0: sha256:521bc849fbef9eec4a457087f1f6a7c33ae1cc8a8293a1d63231b573544b3231
-  1.84--py35pl5.22.0_0: sha256:cca936ca640136d7aaf60a2249a7248e76c8261e87abed43d432f815f71f4c48
+  1.84--py36pl5.22.0_0: sha256:4fe68b86231a2440be4adfee1e5de81671f8562fb059a21ebe9316baf913ed8f
+  1.84--py35pl5.22.0_0: sha256:3f980b1affc5f5d825fca400f3bcf2c1668044ecd47ed945ec6fb84ac69eb3dc
 docker: quay.io/biocontainers/fseq
 aliases:
   fseq: /usr/local/bin/fseq

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-grass
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-grass
 latest:
-  1.1.6--2: sha256:98ea23c1ab595cf5ebcb52da21ee76328a288b1b048dca31878eb75458104603
+  1.1.6--2: sha256:bfa9d2be95eae84482e92a1aa6dfae1d42e4a2eeb960e6e22c8fd9c97fd4df42
 tags:
-  1.1.6--2: sha256:98ea23c1ab595cf5ebcb52da21ee76328a288b1b048dca31878eb75458104603
+  1.1.6--2: sha256:bfa9d2be95eae84482e92a1aa6dfae1d42e4a2eeb960e6e22c8fd9c97fd4df42
 docker: quay.io/biocontainers/perl-grass
 aliases:
   bdf2gdfont.PLS: /usr/local/bin/bdf2gdfont.PLS

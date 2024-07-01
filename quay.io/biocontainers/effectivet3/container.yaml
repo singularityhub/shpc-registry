@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/effectivet3
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for effectivet3
 latest:
-  1.0.1--py35_0: sha256:b516f07ffee3469afa4e67f0f7576e31ed3bff326ca7758f9d94e6e152aeb2db
+  1.0.1--py35_0: sha256:3b56e7c43ea9dfe2c86fdbfae527bba41d1000050271425b4615ca44990664f7
 tags:
-  1.0.1--py35_0: sha256:b516f07ffee3469afa4e67f0f7576e31ed3bff326ca7758f9d94e6e152aeb2db
-  1.0.1--py36_0: sha256:79ab366ea919e8626afaa88253c883dbda4cd1b4661a877f2c6cd52f8d8a7cad
+  1.0.1--py35_0: sha256:3b56e7c43ea9dfe2c86fdbfae527bba41d1000050271425b4615ca44990664f7
+  1.0.1--py36_0: sha256:1773618d2e7c11f62e9b6cf389a888ef237bcc3d82397ae654bc57ea2ab61b3d
+  1.0.1--py27_0: sha256:781b5799ce96e706122149c2fab872db1ffc9a7241d8481bcda57ecea5c199bb
 docker: quay.io/biocontainers/effectivet3
 aliases:
   effectivet3: /usr/local/bin/effectivet3

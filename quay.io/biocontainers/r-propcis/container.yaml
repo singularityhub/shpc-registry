@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-propcis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-propcis
 latest:
-  0.3_0--r3.4.1_0: sha256:9aa4555b068b35d83aa56ba7b9b5e1bf11020e318abdd6bb3a0b6543c4d407ec
+  0.3_0--r3.4.1_0: sha256:ccf09452a39d2b63d9fce5d94173f81c4fb4e1284bd01d3155f33e53237d46f5
 tags:
-  0.3_0--r3.4.1_0: sha256:9aa4555b068b35d83aa56ba7b9b5e1bf11020e318abdd6bb3a0b6543c4d407ec
+  0.3_0--r3.4.1_0: sha256:ccf09452a39d2b63d9fce5d94173f81c4fb4e1284bd01d3155f33e53237d46f5
 docker: quay.io/biocontainers/r-propcis
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

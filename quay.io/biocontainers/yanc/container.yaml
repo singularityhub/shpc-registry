@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/yanc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for yanc
 latest:
-  0.3.3--py36_1: sha256:8165d42e5e6a171b33f5a5fd68ce9ec464b3c2283de2cd93e235a7da5c536e52
+  0.3.3--py36_1: sha256:00c1d12f0d2704182eea34933c7a7331ee68735a1360821913c89ce2e7e54f3b
 tags:
-  0.3.3--py36_1: sha256:8165d42e5e6a171b33f5a5fd68ce9ec464b3c2283de2cd93e235a7da5c536e52
+  0.3.3--py36_1: sha256:00c1d12f0d2704182eea34933c7a7331ee68735a1360821913c89ce2e7e54f3b
+  0.3.3--py35_1: sha256:5f2d7a22f2a7294317bc130aa60122581db5e74d38b478008957bc41d8c20674
 docker: quay.io/biocontainers/yanc
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-zerone
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-zerone
 latest:
-  1.0--r341h470a237_1: sha256:7f18f1c64914a05cf4238d5c7d78fef72f3b207293a28dbbffa3c2647397c88d
+  1.0--r341h470a237_1: sha256:7bfa4e716c557bc23652f10a62220628d433b6fff4971b5cd6c255e8499fca0a
 tags:
-  1.0--r341h470a237_1: sha256:7f18f1c64914a05cf4238d5c7d78fef72f3b207293a28dbbffa3c2647397c88d
+  1.0--r341h470a237_1: sha256:7bfa4e716c557bc23652f10a62220628d433b6fff4971b5cd6c255e8499fca0a
 docker: quay.io/biocontainers/r-zerone
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config
