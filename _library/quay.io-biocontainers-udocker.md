@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/udocker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/udocker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/udocker/container.yaml"
-updated_at: "2024-07-01 02:42:15.712330"
+updated_at: "2024-07-01 03:38:17.614698"
 latest: "1.1.1--py27_0"
 container_url: "https://biocontainers.pro/tools/udocker"
 aliases:

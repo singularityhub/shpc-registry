@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ecopcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ecopcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ecopcr/container.yaml"
-updated_at: "2024-07-01 03:25:46.736266"
+updated_at: "2024-07-01 04:21:08.489878"
 latest: "0.5.0--py27_1"
 container_url: "https://biocontainers.pro/tools/ecopcr"
 aliases:

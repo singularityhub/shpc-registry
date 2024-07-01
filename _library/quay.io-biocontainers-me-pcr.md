@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/me-pcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/me-pcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/me-pcr/container.yaml"
-updated_at: "2024-07-01 02:58:48.301561"
+updated_at: "2024-07-01 03:54:34.010584"
 latest: "1.0.6--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/me-pcr"
 aliases:

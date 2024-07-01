@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sparcc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sparcc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sparcc/container.yaml"
-updated_at: "2024-07-01 02:52:14.391078"
+updated_at: "2024-07-01 03:48:04.442092"
 latest: "0.1.0--0"
 container_url: "https://biocontainers.pro/tools/sparcc"
 aliases:

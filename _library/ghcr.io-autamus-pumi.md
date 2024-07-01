@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/pumi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/pumi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/pumi/container.yaml"
-updated_at: "2024-07-01 02:39:54.064344"
+updated_at: "2024-07-01 03:36:00.631934"
 latest: "2.2.6"
 container_url: "https://github.com/orgs/autamus/packages/container/package/pumi"
 aliases:

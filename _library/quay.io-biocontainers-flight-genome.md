@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flight-genome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flight-genome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flight-genome/container.yaml"
-updated_at: "2024-07-01 03:15:27.703291"
+updated_at: "2024-07-01 04:10:55.542082"
 latest: "1.6.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/flight-genome"
 aliases:

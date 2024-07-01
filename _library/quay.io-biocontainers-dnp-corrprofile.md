@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnp-corrprofile"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnp-corrprofile/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnp-corrprofile/container.yaml"
-updated_at: "2024-07-01 03:13:22.328869"
+updated_at: "2024-07-01 04:08:51.614795"
 latest: "1.0--h6a68c12_5"
 container_url: "https://biocontainers.pro/tools/dnp-corrprofile"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-htseqgenie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-htseqgenie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htseqgenie/container.yaml"
-updated_at: "2024-07-01 02:49:48.132807"
+updated_at: "2024-07-01 03:45:40.172966"
 latest: "4.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-htseqgenie"
 

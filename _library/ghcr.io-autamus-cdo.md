@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/cdo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cdo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/cdo/container.yaml"
-updated_at: "2024-07-01 02:39:55.217399"
+updated_at: "2024-07-01 03:36:01.758566"
 latest: "2.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cdo"
 aliases:

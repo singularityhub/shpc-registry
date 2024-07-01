@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/data_hacks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/data_hacks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/data_hacks/container.yaml"
-updated_at: "2024-07-01 03:14:39.722817"
+updated_at: "2024-07-01 04:10:08.046351"
 latest: "0.3.1--py_2"
 container_url: "https://biocontainers.pro/tools/data_hacks"
 aliases:
