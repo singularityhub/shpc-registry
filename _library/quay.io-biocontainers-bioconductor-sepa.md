@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sepa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sepa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sepa/container.yaml"
-updated_at: "2024-06-30 03:08:08.507159"
+updated_at: "2024-07-01 03:11:45.286321"
 latest: "1.13.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-sepa"
 aliases:

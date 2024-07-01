@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ffgc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ffgc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ffgc/container.yaml"
-updated_at: "2024-06-30 02:40:50.760923"
+updated_at: "2024-07-01 02:43:42.638552"
 latest: "2.4.2--py311hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ffgc"
 aliases:

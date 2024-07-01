@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/knot-asm-analysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/knot-asm-analysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/knot-asm-analysis/container.yaml"
-updated_at: "2024-06-30 02:50:11.621870"
+updated_at: "2024-07-01 02:53:18.842135"
 latest: "1.3.0--py_0"
 container_url: "https://biocontainers.pro/tools/knot-asm-analysis"
 aliases:

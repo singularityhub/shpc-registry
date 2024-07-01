@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hpannot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hpannot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hpannot/container.yaml"
-updated_at: "2024-06-30 03:17:21.803015"
+updated_at: "2024-07-01 03:21:10.686656"
 latest: "1.1.0--r43hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/bioconductor-hpannot"
 

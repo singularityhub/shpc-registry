@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/geco3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/geco3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/geco3/container.yaml"
-updated_at: "2024-06-30 03:20:21.425770"
+updated_at: "2024-07-01 03:24:11.680173"
 latest: "1.0--h031d066_4"
 container_url: "https://biocontainers.pro/tools/geco3"
 aliases:

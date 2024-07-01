@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncbi-vdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-vdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-vdb/container.yaml"
-updated_at: "2024-06-30 03:07:53.715971"
+updated_at: "2024-07-01 03:11:30.130277"
 latest: "3.1.1--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/ncbi-vdb"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-pcap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pcap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pcap/container.yaml"
-updated_at: "2024-06-30 03:20:32.634970"
+updated_at: "2024-07-01 03:24:22.720517"
 latest: "3.5.2--pl5321hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/perl-pcap"
 aliases:
