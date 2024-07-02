@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-grass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-grass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-grass/container.yaml"
-updated_at: "2024-07-01 03:52:04.493896"
+updated_at: "2024-07-02 02:49:51.200378"
 latest: "1.1.6--2"
 container_url: "https://biocontainers.pro/tools/perl-grass"
 aliases:
@@ -32,7 +32,7 @@ aliases:
 versions:
  - "1.1.6--2"
 description: "shpc-registry automated BioContainers addition for perl-grass"
-config: {"url": "https://biocontainers.pro/tools/perl-grass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-grass", "latest": {"1.1.6--2": "sha256:98ea23c1ab595cf5ebcb52da21ee76328a288b1b048dca31878eb75458104603"}, "tags": {"1.1.6--2": "sha256:98ea23c1ab595cf5ebcb52da21ee76328a288b1b048dca31878eb75458104603"}, "docker": "quay.io/biocontainers/perl-grass", "aliases": {"bdf2gdfont.PLS": "/usr/local/bin/bdf2gdfont.PLS", "brass_bedpe2vcf.pl": "/usr/local/bin/brass_bedpe2vcf.pl", "cgpAppendIdsToVcf.pl": "/usr/local/bin/cgpAppendIdsToVcf.pl", "cgpVCFSplit.pl": "/usr/local/bin/cgpVCFSplit.pl", "cover": "/usr/local/bin/cover", "cpancover": "/usr/local/bin/cpancover", "cvtbdf.pl": "/usr/local/bin/cvtbdf.pl", "dotty": "/usr/local/bin/dotty", "gcov2perl": "/usr/local/bin/gcov2perl", "grass.pl": "/usr/local/bin/grass.pl", "lneato": "/usr/local/bin/lneato", "pod_cover": "/usr/local/bin/pod_cover", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "gdlib-config": "/usr/local/bin/gdlib-config", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "perl5.22.0": "/usr/local/bin/perl5.22.0", "ace.pl": "/usr/local/bin/ace.pl", "ccconfig": "/usr/local/bin/ccconfig", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "map": "/usr/local/bin/map"}}
+config: {"url": "https://biocontainers.pro/tools/perl-grass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-grass", "latest": {"1.1.6--2": "sha256:bfa9d2be95eae84482e92a1aa6dfae1d42e4a2eeb960e6e22c8fd9c97fd4df42"}, "tags": {"1.1.6--2": "sha256:bfa9d2be95eae84482e92a1aa6dfae1d42e4a2eeb960e6e22c8fd9c97fd4df42"}, "docker": "quay.io/biocontainers/perl-grass", "aliases": {"bdf2gdfont.PLS": "/usr/local/bin/bdf2gdfont.PLS", "brass_bedpe2vcf.pl": "/usr/local/bin/brass_bedpe2vcf.pl", "cgpAppendIdsToVcf.pl": "/usr/local/bin/cgpAppendIdsToVcf.pl", "cgpVCFSplit.pl": "/usr/local/bin/cgpVCFSplit.pl", "cover": "/usr/local/bin/cover", "cpancover": "/usr/local/bin/cpancover", "cvtbdf.pl": "/usr/local/bin/cvtbdf.pl", "dotty": "/usr/local/bin/dotty", "gcov2perl": "/usr/local/bin/gcov2perl", "grass.pl": "/usr/local/bin/grass.pl", "lneato": "/usr/local/bin/lneato", "pod_cover": "/usr/local/bin/pod_cover", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "gdlib-config": "/usr/local/bin/gdlib-config", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "perl5.22.0": "/usr/local/bin/perl5.22.0", "ace.pl": "/usr/local/bin/ace.pl", "ccconfig": "/usr/local/bin/ccconfig", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "map": "/usr/local/bin/map"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-grass.

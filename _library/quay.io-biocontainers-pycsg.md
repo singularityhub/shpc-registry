@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pycsg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycsg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycsg/container.yaml"
-updated_at: "2024-07-01 04:08:13.110566"
+updated_at: "2024-07-02 03:05:39.246211"
 latest: "0.3.12--py_1"
 container_url: "https://biocontainers.pro/tools/pycsg"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.3.12--py_1"
 description: "shpc-registry automated BioContainers addition for pycsg"
-config: {"url": "https://biocontainers.pro/tools/pycsg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pycsg", "latest": {"0.3.12--py_1": "sha256:8db5a25c9eb90c30348f539062b9ce37f039742dbb05899735b4a12e74bd27c6"}, "tags": {"0.3.12--py_1": "sha256:8db5a25c9eb90c30348f539062b9ce37f039742dbb05899735b4a12e74bd27c6"}, "docker": "quay.io/biocontainers/pycsg", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/pycsg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pycsg", "latest": {"0.3.12--py_1": "sha256:44947d2fe125c7fdd49528e86c4ed010d3438b88fcf49b07c7d3ae6721de9c4a"}, "tags": {"0.3.12--py_1": "sha256:44947d2fe125c7fdd49528e86c4ed010d3438b88fcf49b07c7d3ae6721de9c4a"}, "docker": "quay.io/biocontainers/pycsg", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pycsg.

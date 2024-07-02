@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fourcseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fourcseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fourcseq/container.yaml"
-updated_at: "2024-07-01 03:42:07.196305"
+updated_at: "2024-07-02 02:40:06.185741"
 latest: "1.24.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-fourcseq"
 aliases:
@@ -24,7 +24,7 @@ versions:
  - "1.18.0--r36_1"
  - "1.16.0--r351_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-fourcseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fourcseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fourcseq", "latest": {"1.24.0--r40hdfd78af_1": "sha256:497419e0ef4d39aad95163babc704900ddefe8848ce61af697db8906b2a9a5a2"}, "tags": {"1.4.0--r3.3.1_1": "sha256:c8c5386080fc7e971bbe7f305620890aff49239e6c85c200f7756bd76e842d7d", "1.24.0--r40hdfd78af_1": "sha256:497419e0ef4d39aad95163babc704900ddefe8848ce61af697db8906b2a9a5a2", "1.21.0--r40_0": "sha256:0005207c842f090c23015c50296e4e2af1e1c3d6712d6af8e26ddb2d0754aaad", "1.20.0--r36_0": "sha256:8b2c4c6846684a40e6dcbdf0e363713f0b466ca9ac0ecc1a26c4489c8e26cb93", "1.18.0--r36_1": "sha256:f4ac194659f5d34389bbeeba5f28f74d9df7ccdfeb8f73e19917b050ee43267d", "1.16.0--r351_1": "sha256:470fc455cdd1d3090985a2eebf4c42d344fc7d5987f896789e068e4b422f9b0a"}, "docker": "quay.io/biocontainers/bioconductor-fourcseq", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fourcseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fourcseq", "latest": {"1.24.0--r40hdfd78af_1": "sha256:497419e0ef4d39aad95163babc704900ddefe8848ce61af697db8906b2a9a5a2"}, "tags": {"1.4.0--r3.3.1_1": "sha256:d7c431dff288eed6db242dca0e98b7c0444e330c12f6cf7b5d18d09dc037cc3c", "1.24.0--r40hdfd78af_1": "sha256:497419e0ef4d39aad95163babc704900ddefe8848ce61af697db8906b2a9a5a2", "1.21.0--r40_0": "sha256:0005207c842f090c23015c50296e4e2af1e1c3d6712d6af8e26ddb2d0754aaad", "1.20.0--r36_0": "sha256:d795c0239c9212ce82f8029c690562187723c9a3a09b37651f7bc645c9eaab4a", "1.18.0--r36_1": "sha256:d79a3aaf1c60f2760ca2bfaf83e76f473be6e806cd514642e9598a5a1939c841", "1.16.0--r351_1": "sha256:5cdc2ce9f568700d8fee368cc5575a79c1137c0bb0c0967d4f61c7ca1c7bce59"}, "docker": "quay.io/biocontainers/bioconductor-fourcseq", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fourcseq.

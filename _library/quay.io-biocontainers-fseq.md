@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fseq/container.yaml"
-updated_at: "2024-07-01 03:54:23.903302"
+updated_at: "2024-07-02 02:52:07.886866"
 latest: "1.84--py36pl5.22.0_0"
 container_url: "https://biocontainers.pro/tools/fseq"
 aliases:
@@ -24,7 +24,7 @@ versions:
  - "1.84--py36pl5.22.0_0"
  - "1.84--py35pl5.22.0_0"
 description: "shpc-registry automated BioContainers addition for fseq"
-config: {"url": "https://biocontainers.pro/tools/fseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fseq", "latest": {"1.84--py36pl5.22.0_0": "sha256:521bc849fbef9eec4a457087f1f6a7c33ae1cc8a8293a1d63231b573544b3231"}, "tags": {"1.84--py36pl5.22.0_0": "sha256:521bc849fbef9eec4a457087f1f6a7c33ae1cc8a8293a1d63231b573544b3231", "1.84--py35pl5.22.0_0": "sha256:cca936ca640136d7aaf60a2249a7248e76c8261e87abed43d432f815f71f4c48"}, "docker": "quay.io/biocontainers/fseq", "aliases": {"fseq": "/usr/local/bin/fseq", "mapviewToBed.pl": "/usr/local/bin/mapviewToBed.pl", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool"}}
+config: {"url": "https://biocontainers.pro/tools/fseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fseq", "latest": {"1.84--py36pl5.22.0_0": "sha256:4fe68b86231a2440be4adfee1e5de81671f8562fb059a21ebe9316baf913ed8f"}, "tags": {"1.84--py36pl5.22.0_0": "sha256:4fe68b86231a2440be4adfee1e5de81671f8562fb059a21ebe9316baf913ed8f", "1.84--py35pl5.22.0_0": "sha256:3f980b1affc5f5d825fca400f3bcf2c1668044ecd47ed945ec6fb84ac69eb3dc"}, "docker": "quay.io/biocontainers/fseq", "aliases": {"fseq": "/usr/local/bin/fseq", "mapviewToBed.pl": "/usr/local/bin/mapviewToBed.pl", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fseq.

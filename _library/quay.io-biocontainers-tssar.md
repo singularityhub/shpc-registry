@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tssar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tssar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tssar/container.yaml"
-updated_at: "2024-07-01 03:45:51.426602"
-latest: "1.0.1--r42h031d066_7"
+updated_at: "2024-07-02 02:43:45.612180"
+latest: "1.0.1--r43h031d066_8"
 container_url: "https://biocontainers.pro/tools/tssar"
 aliases:
  - "TSSAR"
@@ -16,8 +16,9 @@ versions:
  - "1.0.1--r41hec16e2b_4"
  - "1.0.1--r42hec16e2b_5"
  - "1.0.1--r42h031d066_7"
+ - "1.0.1--r43h031d066_8"
 description: "shpc-registry automated BioContainers addition for tssar"
-config: {"url": "https://biocontainers.pro/tools/tssar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tssar", "latest": {"1.0.1--r42h031d066_7": "sha256:643de6fe5484f7ba66b91ad3031b0ceed2fb3176e84e6d9bd1015e5f73fe7857"}, "tags": {"1.0.1--r41hec16e2b_4": "sha256:57c20ce056beb17bae4200b20fd596885faf5674102e6d52fc429cc939dae191", "1.0.1--r42hec16e2b_5": "sha256:d21503a49ea1d486a43a3e4455a52aac1d6c71efb3aded30e7b045e8f68146e2", "1.0.1--r42h031d066_7": "sha256:643de6fe5484f7ba66b91ad3031b0ceed2fb3176e84e6d9bd1015e5f73fe7857"}, "docker": "quay.io/biocontainers/tssar", "aliases": {"TSSAR": "/usr/local/bin/TSSAR", "TSSAR.bak": "/usr/local/bin/TSSAR.bak", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/tssar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tssar", "latest": {"1.0.1--r43h031d066_8": "sha256:41254e9bbf607a9fe2b5832da6ec5980e8f70f588ca3d69cdd2eb216b4273a8e"}, "tags": {"1.0.1--r41hec16e2b_4": "sha256:57c20ce056beb17bae4200b20fd596885faf5674102e6d52fc429cc939dae191", "1.0.1--r42hec16e2b_5": "sha256:d21503a49ea1d486a43a3e4455a52aac1d6c71efb3aded30e7b045e8f68146e2", "1.0.1--r42h031d066_7": "sha256:643de6fe5484f7ba66b91ad3031b0ceed2fb3176e84e6d9bd1015e5f73fe7857", "1.0.1--r43h031d066_8": "sha256:41254e9bbf607a9fe2b5832da6ec5980e8f70f588ca3d69cdd2eb216b4273a8e"}, "docker": "quay.io/biocontainers/tssar", "aliases": {"TSSAR": "/usr/local/bin/TSSAR", "TSSAR.bak": "/usr/local/bin/TSSAR.bak", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tssar.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/tssar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tssar:1.0.1--r42h031d066_7
+$ shpc install quay.io/biocontainers/tssar:1.0.1--r43h031d066_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tssar/1.0.1--r42h031d066_7
-$ module help quay.io/biocontainers/tssar/1.0.1--r42h031d066_7
+$ module load quay.io/biocontainers/tssar/1.0.1--r43h031d066_8
+$ module help quay.io/biocontainers/tssar/1.0.1--r43h031d066_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

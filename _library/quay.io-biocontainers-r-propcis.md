@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-propcis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-propcis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-propcis/container.yaml"
-updated_at: "2024-07-01 04:17:57.621367"
+updated_at: "2024-07-02 03:15:11.411219"
 latest: "0.3_0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-propcis"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.3_0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-propcis"
-config: {"url": "https://biocontainers.pro/tools/r-propcis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-propcis", "latest": {"0.3_0--r3.4.1_0": "sha256:9aa4555b068b35d83aa56ba7b9b5e1bf11020e318abdd6bb3a0b6543c4d407ec"}, "tags": {"0.3_0--r3.4.1_0": "sha256:9aa4555b068b35d83aa56ba7b9b5e1bf11020e318abdd6bb3a0b6543c4d407ec"}, "docker": "quay.io/biocontainers/r-propcis", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-propcis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-propcis", "latest": {"0.3_0--r3.4.1_0": "sha256:ccf09452a39d2b63d9fce5d94173f81c4fb4e1284bd01d3155f33e53237d46f5"}, "tags": {"0.3_0--r3.4.1_0": "sha256:ccf09452a39d2b63d9fce5d94173f81c4fb4e1284bd01d3155f33e53237d46f5"}, "docker": "quay.io/biocontainers/r-propcis", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-propcis.

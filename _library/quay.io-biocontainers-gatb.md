@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gatb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gatb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gatb/container.yaml"
-updated_at: "2024-07-01 03:52:32.692080"
-latest: "1.4.2--h221a0a2_3"
+updated_at: "2024-07-02 02:50:18.778576"
+latest: "1.4.2--h56e2c18_4"
 container_url: "https://biocontainers.pro/tools/gatb"
 aliases:
  - "dbgh5"
@@ -24,8 +24,9 @@ aliases:
 versions:
  - "1.4.2--hbeba21e_1"
  - "1.4.2--h221a0a2_3"
+ - "1.4.2--h56e2c18_4"
 description: "shpc-registry automated BioContainers addition for gatb"
-config: {"url": "https://biocontainers.pro/tools/gatb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gatb", "latest": {"1.4.2--h221a0a2_3": "sha256:96f412f42ed242af66ea5080d7a94c01577ccd4093ed7319d44730d204cb0e07"}, "tags": {"1.4.2--hbeba21e_1": "sha256:460a7c23cad7716d6b5f717dda0d342f1affc3caa231242300e51c24dc160a0a", "1.4.2--h221a0a2_3": "sha256:96f412f42ed242af66ea5080d7a94c01577ccd4093ed7319d44730d204cb0e07"}, "docker": "quay.io/biocontainers/gatb", "aliases": {"dbgh5": "/usr/local/bin/dbgh5", "dbginfo": "/usr/local/bin/dbginfo", "leon": "/usr/local/bin/leon", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "f2py3.10": "/usr/local/bin/f2py3.10", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
+config: {"url": "https://biocontainers.pro/tools/gatb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gatb", "latest": {"1.4.2--h56e2c18_4": "sha256:23ed7a577de796fc34b55ebd3faf2f6d4d8b7bbf2861962efb1ef398e320a190"}, "tags": {"1.4.2--hbeba21e_1": "sha256:460a7c23cad7716d6b5f717dda0d342f1affc3caa231242300e51c24dc160a0a", "1.4.2--h221a0a2_3": "sha256:96f412f42ed242af66ea5080d7a94c01577ccd4093ed7319d44730d204cb0e07", "1.4.2--h56e2c18_4": "sha256:23ed7a577de796fc34b55ebd3faf2f6d4d8b7bbf2861962efb1ef398e320a190"}, "docker": "quay.io/biocontainers/gatb", "aliases": {"dbgh5": "/usr/local/bin/dbgh5", "dbginfo": "/usr/local/bin/dbginfo", "leon": "/usr/local/bin/leon", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "f2py3.10": "/usr/local/bin/f2py3.10", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gatb.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/gatb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gatb:1.4.2--h221a0a2_3
+$ shpc install quay.io/biocontainers/gatb:1.4.2--h56e2c18_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gatb/1.4.2--h221a0a2_3
-$ module help quay.io/biocontainers/gatb/1.4.2--h221a0a2_3
+$ module load quay.io/biocontainers/gatb/1.4.2--h56e2c18_4
+$ module help quay.io/biocontainers/gatb/1.4.2--h56e2c18_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

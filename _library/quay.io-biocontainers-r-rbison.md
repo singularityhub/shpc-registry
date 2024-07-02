@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rbison"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rbison/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rbison/container.yaml"
-updated_at: "2024-07-01 03:58:55.465870"
+updated_at: "2024-07-02 02:56:33.801064"
 latest: "0.6.0--r351h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-rbison"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.6.0--r351h6115d3f_3"
 description: "shpc-registry automated BioContainers addition for r-rbison"
-config: {"url": "https://biocontainers.pro/tools/r-rbison", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rbison", "latest": {"0.6.0--r351h6115d3f_3": "sha256:00fa7ac411b96f04e4c2403089856f631fa9b0428b7e092f975c3e28cea3ca46"}, "tags": {"0.6.0--r351h6115d3f_3": "sha256:00fa7ac411b96f04e4c2403089856f631fa9b0428b7e092f975c3e28cea3ca46"}, "docker": "quay.io/biocontainers/r-rbison", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-rbison", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rbison", "latest": {"0.6.0--r351h6115d3f_3": "sha256:9be828191b592b2fb0d62c8631ce51618f9dfc8bee53a023db6f96b29e74222b"}, "tags": {"0.6.0--r351h6115d3f_3": "sha256:9be828191b592b2fb0d62c8631ce51618f9dfc8bee53a023db6f96b29e74222b"}, "docker": "quay.io/biocontainers/r-rbison", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rbison.

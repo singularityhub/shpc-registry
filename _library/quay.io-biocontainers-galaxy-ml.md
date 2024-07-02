@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/galaxy-ml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-ml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-ml/container.yaml"
-updated_at: "2024-07-01 03:49:41.766622"
-latest: "0.10.0--py39he10ea66_1"
+updated_at: "2024-07-02 02:47:31.438941"
+latest: "0.10.0--py39h0dd7abe_2"
 container_url: "https://biocontainers.pro/tools/galaxy-ml"
 aliases:
  - "flatc"
@@ -24,8 +24,9 @@ versions:
  - "0.9.1--py38h8ded8fe_2"
  - "0.10.0--py39he10ea66_1"
  - "0.9.1--py37h675a0cb_2"
+ - "0.10.0--py39h0dd7abe_2"
 description: "shpc-registry automated BioContainers addition for galaxy-ml"
-config: {"url": "https://biocontainers.pro/tools/galaxy-ml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-ml", "latest": {"0.10.0--py39he10ea66_1": "sha256:da85e982de0f560eaa09d3170258a25be6db6c097ac486de888f495ecd0033f2"}, "tags": {"0.9.1--py38h8ded8fe_2": "sha256:4603cd68f16f798d78a93638ca40a1a4e9c3e47179be8ba4bb88f1ce8dc5cf2a", "0.10.0--py39he10ea66_1": "sha256:da85e982de0f560eaa09d3170258a25be6db6c097ac486de888f495ecd0033f2", "0.9.1--py37h675a0cb_2": "sha256:47bc4ee1480bf8bd546a9ee5b876f306c67b3d47618b52340d892f7a5660d744"}, "docker": "quay.io/biocontainers/galaxy-ml", "aliases": {"flatc": "/usr/local/bin/flatc", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "xgboost": "/usr/local/bin/xgboost", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt"}}
+config: {"url": "https://biocontainers.pro/tools/galaxy-ml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-ml", "latest": {"0.10.0--py39h0dd7abe_2": "sha256:5b085bf817a90c8c1bfd6cd9b7a9ca6709e9b0496758ef4c5c022c45e049c461"}, "tags": {"0.9.1--py38h8ded8fe_2": "sha256:4603cd68f16f798d78a93638ca40a1a4e9c3e47179be8ba4bb88f1ce8dc5cf2a", "0.10.0--py39he10ea66_1": "sha256:da85e982de0f560eaa09d3170258a25be6db6c097ac486de888f495ecd0033f2", "0.9.1--py37h675a0cb_2": "sha256:47bc4ee1480bf8bd546a9ee5b876f306c67b3d47618b52340d892f7a5660d744", "0.10.0--py39h0dd7abe_2": "sha256:5b085bf817a90c8c1bfd6cd9b7a9ca6709e9b0496758ef4c5c022c45e049c461"}, "docker": "quay.io/biocontainers/galaxy-ml", "aliases": {"flatc": "/usr/local/bin/flatc", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "xgboost": "/usr/local/bin/xgboost", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy-ml.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/galaxy-ml
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/galaxy-ml:0.10.0--py39he10ea66_1
+$ shpc install quay.io/biocontainers/galaxy-ml:0.10.0--py39h0dd7abe_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/galaxy-ml/0.10.0--py39he10ea66_1
-$ module help quay.io/biocontainers/galaxy-ml/0.10.0--py39he10ea66_1
+$ module load quay.io/biocontainers/galaxy-ml/0.10.0--py39h0dd7abe_2
+$ module help quay.io/biocontainers/galaxy-ml/0.10.0--py39h0dd7abe_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

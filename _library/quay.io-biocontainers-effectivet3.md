@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/effectivet3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/effectivet3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/effectivet3/container.yaml"
-updated_at: "2024-07-01 03:50:35.188172"
+updated_at: "2024-07-02 02:48:23.613110"
 latest: "1.0.1--py35_0"
 container_url: "https://biocontainers.pro/tools/effectivet3"
 aliases:
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "1.0.1--py35_0"
  - "1.0.1--py36_0"
+ - "1.0.1--py27_0"
 description: "shpc-registry automated BioContainers addition for effectivet3"
-config: {"url": "https://biocontainers.pro/tools/effectivet3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for effectivet3", "latest": {"1.0.1--py35_0": "sha256:b516f07ffee3469afa4e67f0f7576e31ed3bff326ca7758f9d94e6e152aeb2db"}, "tags": {"1.0.1--py35_0": "sha256:b516f07ffee3469afa4e67f0f7576e31ed3bff326ca7758f9d94e6e152aeb2db", "1.0.1--py36_0": "sha256:79ab366ea919e8626afaa88253c883dbda4cd1b4661a877f2c6cd52f8d8a7cad"}, "docker": "quay.io/biocontainers/effectivet3", "aliases": {"effectivet3": "/usr/local/bin/effectivet3", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "extcheck": "/usr/local/bin/extcheck"}}
+config: {"url": "https://biocontainers.pro/tools/effectivet3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for effectivet3", "latest": {"1.0.1--py35_0": "sha256:3b56e7c43ea9dfe2c86fdbfae527bba41d1000050271425b4615ca44990664f7"}, "tags": {"1.0.1--py35_0": "sha256:3b56e7c43ea9dfe2c86fdbfae527bba41d1000050271425b4615ca44990664f7", "1.0.1--py36_0": "sha256:1773618d2e7c11f62e9b6cf389a888ef237bcc3d82397ae654bc57ea2ab61b3d", "1.0.1--py27_0": "sha256:781b5799ce96e706122149c2fab872db1ffc9a7241d8481bcda57ecea5c199bb"}, "docker": "quay.io/biocontainers/effectivet3", "aliases": {"effectivet3": "/usr/local/bin/effectivet3", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "extcheck": "/usr/local/bin/extcheck"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/effectivet3.

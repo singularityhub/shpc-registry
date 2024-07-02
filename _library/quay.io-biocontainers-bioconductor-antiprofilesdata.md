@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-antiprofilesdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-antiprofilesdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-antiprofilesdata/container.yaml"
-updated_at: "2024-07-01 03:48:19.641435"
+updated_at: "2024-07-02 02:46:10.980087"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-antiprofilesdata"
 

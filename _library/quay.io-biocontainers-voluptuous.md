@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/voluptuous"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/voluptuous/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/voluptuous/container.yaml"
-updated_at: "2024-07-01 04:08:37.275390"
+updated_at: "2024-07-02 03:06:02.976272"
 latest: "0.8.8--py35_0"
 container_url: "https://biocontainers.pro/tools/voluptuous"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "0.8.8--py35_0"
  - "0.8.8--py36_0"
 description: "shpc-registry automated BioContainers addition for voluptuous"
-config: {"url": "https://biocontainers.pro/tools/voluptuous", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for voluptuous", "latest": {"0.8.8--py35_0": "sha256:d619c7b33a733424a438454da87727cdc355b1287f1e288dc166560e7de97288"}, "tags": {"0.8.8--py35_0": "sha256:d619c7b33a733424a438454da87727cdc355b1287f1e288dc166560e7de97288", "0.8.8--py36_0": "sha256:b4fc6802f0f9774643b667363c9a0e3fc09a1066184eb0a519f2962d73e7a14b"}, "docker": "quay.io/biocontainers/voluptuous", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/voluptuous", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for voluptuous", "latest": {"0.8.8--py35_0": "sha256:458ec416636990383f909ab26de352f942b067a364a898d6dac32f13693b70bb"}, "tags": {"0.8.8--py35_0": "sha256:458ec416636990383f909ab26de352f942b067a364a898d6dac32f13693b70bb", "0.8.8--py36_0": "sha256:e526b18575d30120ad887ebcd1bc0fc39731ac228810369de952e7e8941dea57"}, "docker": "quay.io/biocontainers/voluptuous", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/voluptuous.

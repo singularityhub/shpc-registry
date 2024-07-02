@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yanc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yanc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yanc/container.yaml"
-updated_at: "2024-07-01 04:10:11.148479"
+updated_at: "2024-07-02 03:07:34.797000"
 latest: "0.3.3--py36_1"
 container_url: "https://biocontainers.pro/tools/yanc"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.3.3--py36_1"
+ - "0.3.3--py35_1"
 description: "shpc-registry automated BioContainers addition for yanc"
-config: {"url": "https://biocontainers.pro/tools/yanc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yanc", "latest": {"0.3.3--py36_1": "sha256:8165d42e5e6a171b33f5a5fd68ce9ec464b3c2283de2cd93e235a7da5c536e52"}, "tags": {"0.3.3--py36_1": "sha256:8165d42e5e6a171b33f5a5fd68ce9ec464b3c2283de2cd93e235a7da5c536e52"}, "docker": "quay.io/biocontainers/yanc", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/yanc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yanc", "latest": {"0.3.3--py36_1": "sha256:00c1d12f0d2704182eea34933c7a7331ee68735a1360821913c89ce2e7e54f3b"}, "tags": {"0.3.3--py36_1": "sha256:00c1d12f0d2704182eea34933c7a7331ee68735a1360821913c89ce2e7e54f3b", "0.3.3--py35_1": "sha256:5f2d7a22f2a7294317bc130aa60122581db5e74d38b478008957bc41d8c20674"}, "docker": "quay.io/biocontainers/yanc", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/yanc.

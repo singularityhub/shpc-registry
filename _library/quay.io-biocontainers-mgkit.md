@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mgkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgkit/container.yaml"
-updated_at: "2024-07-01 04:15:26.939512"
-latest: "0.5.8--py39hf95cd2a_1"
+updated_at: "2024-07-02 03:12:43.857660"
+latest: "0.5.8--py39hff71179_3"
 container_url: "https://biocontainers.pro/tools/mgkit"
 aliases:
  - "add-gff-info"
@@ -42,8 +42,9 @@ versions:
  - "0.5.8--py39hbf8eff0_0"
  - "0.5.8--py39hf95cd2a_1"
  - "0.5.8--py38he5da3d1_1"
+ - "0.5.8--py39hff71179_3"
 description: "shpc-registry automated BioContainers addition for mgkit"
-config: {"url": "https://biocontainers.pro/tools/mgkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mgkit", "latest": {"0.5.8--py39hf95cd2a_1": "sha256:a54236bd3b43752338db429cdee724de71e14bfde65d3e0d61d6859b5974b37f"}, "tags": {"0.5.6--py36h91eb985_1": "sha256:48ba88f8625cb52ac37fcfe25caf643d4ffb29ef5998357b109a545cefc4a5fd", "0.5.8--py39hbf8eff0_0": "sha256:987920948efaab1690076606ad11f7390e160e49c1d48d4ff415ceb61f94e63e", "0.5.8--py39hf95cd2a_1": "sha256:a54236bd3b43752338db429cdee724de71e14bfde65d3e0d61d6859b5974b37f", "0.5.8--py38he5da3d1_1": "sha256:55d8f336ebc3d543ca2a217cb60d79994ac5fa9bd5299e71cb8030dc6ea36aea"}, "docker": "quay.io/biocontainers/mgkit", "aliases": {"add-gff-info": "/usr/local/bin/add-gff-info", "blast2gff": "/usr/local/bin/blast2gff", "download-ncbi-taxa.sh": "/usr/local/bin/download-ncbi-taxa.sh", "download-taxonomy.sh": "/usr/local/bin/download-taxonomy.sh", "download-uniprot-taxa.sh": "/usr/local/bin/download-uniprot-taxa.sh", "edit-gff": "/usr/local/bin/edit-gff", "extract-gff-info": "/usr/local/bin/extract-gff-info", "fasta-utils": "/usr/local/bin/fasta-utils", "fastq-utils": "/usr/local/bin/fastq-utils", "filter-gff": "/usr/local/bin/filter-gff", "get-gff-info": "/usr/local/bin/get-gff-info", "hmmer2gff": "/usr/local/bin/hmmer2gff", "htseq-count-barcodes": "/usr/local/bin/htseq-count-barcodes", "json2gff": "/usr/local/bin/json2gff", "pnps-gen": "/usr/local/bin/pnps-gen", "sampling-utils": "/usr/local/bin/sampling-utils", "snp_parser": "/usr/local/bin/snp_parser", "sort-gff.sh": "/usr/local/bin/sort-gff.sh", "taxon-utils": "/usr/local/bin/taxon-utils", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "f2py3.6": "/usr/local/bin/f2py3.6", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/mgkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mgkit", "latest": {"0.5.8--py39hff71179_3": "sha256:32451e53aeb5663a14a19a1e07287146ae9acea0df05c236aae669b1893f3f1b"}, "tags": {"0.5.6--py36h91eb985_1": "sha256:48ba88f8625cb52ac37fcfe25caf643d4ffb29ef5998357b109a545cefc4a5fd", "0.5.8--py39hbf8eff0_0": "sha256:987920948efaab1690076606ad11f7390e160e49c1d48d4ff415ceb61f94e63e", "0.5.8--py39hf95cd2a_1": "sha256:a54236bd3b43752338db429cdee724de71e14bfde65d3e0d61d6859b5974b37f", "0.5.8--py38he5da3d1_1": "sha256:55d8f336ebc3d543ca2a217cb60d79994ac5fa9bd5299e71cb8030dc6ea36aea", "0.5.8--py39hff71179_3": "sha256:32451e53aeb5663a14a19a1e07287146ae9acea0df05c236aae669b1893f3f1b"}, "docker": "quay.io/biocontainers/mgkit", "aliases": {"add-gff-info": "/usr/local/bin/add-gff-info", "blast2gff": "/usr/local/bin/blast2gff", "download-ncbi-taxa.sh": "/usr/local/bin/download-ncbi-taxa.sh", "download-taxonomy.sh": "/usr/local/bin/download-taxonomy.sh", "download-uniprot-taxa.sh": "/usr/local/bin/download-uniprot-taxa.sh", "edit-gff": "/usr/local/bin/edit-gff", "extract-gff-info": "/usr/local/bin/extract-gff-info", "fasta-utils": "/usr/local/bin/fasta-utils", "fastq-utils": "/usr/local/bin/fastq-utils", "filter-gff": "/usr/local/bin/filter-gff", "get-gff-info": "/usr/local/bin/get-gff-info", "hmmer2gff": "/usr/local/bin/hmmer2gff", "htseq-count-barcodes": "/usr/local/bin/htseq-count-barcodes", "json2gff": "/usr/local/bin/json2gff", "pnps-gen": "/usr/local/bin/pnps-gen", "sampling-utils": "/usr/local/bin/sampling-utils", "snp_parser": "/usr/local/bin/snp_parser", "sort-gff.sh": "/usr/local/bin/sort-gff.sh", "taxon-utils": "/usr/local/bin/taxon-utils", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "f2py3.6": "/usr/local/bin/f2py3.6", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mgkit.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/mgkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mgkit:0.5.8--py39hf95cd2a_1
+$ shpc install quay.io/biocontainers/mgkit:0.5.8--py39hff71179_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mgkit/0.5.8--py39hf95cd2a_1
-$ module help quay.io/biocontainers/mgkit/0.5.8--py39hf95cd2a_1
+$ module load quay.io/biocontainers/mgkit/0.5.8--py39hff71179_3
+$ module help quay.io/biocontainers/mgkit/0.5.8--py39hff71179_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

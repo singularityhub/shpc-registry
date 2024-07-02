@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minimock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minimock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minimock/container.yaml"
-updated_at: "2024-07-01 03:51:31.593528"
+updated_at: "2024-07-02 02:49:18.905011"
 latest: "1.2.8--py27_1"
 container_url: "https://biocontainers.pro/tools/minimock"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.2.8--py27_1"
  - "1.2.8--py35_1"
 description: "shpc-registry automated BioContainers addition for minimock"
-config: {"url": "https://biocontainers.pro/tools/minimock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minimock", "latest": {"1.2.8--py27_1": "sha256:e1595412a216f360608b39abfd84521b3475bf7f61a17bf7f4845a1642a9f40e"}, "tags": {"1.2.8--py27_1": "sha256:e1595412a216f360608b39abfd84521b3475bf7f61a17bf7f4845a1642a9f40e", "1.2.8--py35_1": "sha256:f34c235c396b9bfce798f5d5d75976f4941743ea4477188f28a09cc445c4035f"}, "docker": "quay.io/biocontainers/minimock", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/minimock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minimock", "latest": {"1.2.8--py27_1": "sha256:73849f0c57499217c1b3e9d1a626ebd38a0c4b7443b6cd020ac2115c35aecd4f"}, "tags": {"1.2.8--py27_1": "sha256:73849f0c57499217c1b3e9d1a626ebd38a0c4b7443b6cd020ac2115c35aecd4f", "1.2.8--py35_1": "sha256:c00f122394b8950f28e51d8dd1872f041d4437398feb3d74f4d6615d5930fd7e"}, "docker": "quay.io/biocontainers/minimock", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/minimock.

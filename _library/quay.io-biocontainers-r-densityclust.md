@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-densityclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-densityclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-densityclust/container.yaml"
-updated_at: "2024-07-01 04:19:08.877200"
+updated_at: "2024-07-02 03:16:21.218460"
 latest: "0.2.1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-densityclust"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "0.2.1--r3.3.1_0"
  - "0.2.1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-densityclust"
-config: {"url": "https://biocontainers.pro/tools/r-densityclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-densityclust", "latest": {"0.2.1--r3.3.1_0": "sha256:1e56708d791274eee509423f917f84054129555bb8c0c07e50591a07b70bba4a"}, "tags": {"0.2.1--r3.3.1_0": "sha256:1e56708d791274eee509423f917f84054129555bb8c0c07e50591a07b70bba4a", "0.2.1--r3.3.2_0": "sha256:c33e3ee1060d54977d652e7164a17dafa79531f5a562d096f2deb6594e805195"}, "docker": "quay.io/biocontainers/r-densityclust", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-densityclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-densityclust", "latest": {"0.2.1--r3.3.1_0": "sha256:6a1451987255257e739ed6f9453a0bc265cd4d48730481838280f0c14d2b3f76"}, "tags": {"0.2.1--r3.3.1_0": "sha256:6a1451987255257e739ed6f9453a0bc265cd4d48730481838280f0c14d2b3f76", "0.2.1--r3.3.2_0": "sha256:ab36073784f635a5ebbbc72631e36fec98ed900479cccad319a8ca3a87ac6163"}, "docker": "quay.io/biocontainers/r-densityclust", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-densityclust.

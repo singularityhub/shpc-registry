@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/je-suite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/je-suite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/je-suite/container.yaml"
-updated_at: "2024-07-01 03:56:28.653620"
+updated_at: "2024-07-02 02:54:10.130138"
 latest: "2.0.RC--0"
 container_url: "https://biocontainers.pro/tools/je-suite"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "2.0.RC--0"
 description: "shpc-registry automated BioContainers addition for je-suite"
-config: {"url": "https://biocontainers.pro/tools/je-suite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for je-suite", "latest": {"2.0.RC--0": "sha256:85b39d0c82192d39396d8ae1626c3a03a3de3c77522aa00f0b4b3d9a57ad9b8d"}, "tags": {"2.0.RC--0": "sha256:85b39d0c82192d39396d8ae1626c3a03a3de3c77522aa00f0b4b3d9a57ad9b8d"}, "docker": "quay.io/biocontainers/je-suite", "aliases": {"je": "/usr/local/bin/je", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/je-suite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for je-suite", "latest": {"2.0.RC--0": "sha256:2251d0ce7c8243aca0e09ed2d8fd6a16d129ba3360cf518596dd913a7c2f8a29"}, "tags": {"2.0.RC--0": "sha256:2251d0ce7c8243aca0e09ed2d8fd6a16d129ba3360cf518596dd913a7c2f8a29"}, "docker": "quay.io/biocontainers/je-suite", "aliases": {"je": "/usr/local/bin/je", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/je-suite.

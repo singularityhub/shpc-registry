@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-affypdnn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-affypdnn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-affypdnn/container.yaml"
-updated_at: "2024-07-01 03:49:08.299212"
+updated_at: "2024-07-02 02:46:58.683235"
 latest: "1.60.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-affypdnn"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.60.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-affypdnn"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-affypdnn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-affypdnn", "latest": {"1.60.0--r36_0": "sha256:b8f5537c726953a852c330dfb49c3269c1b7120bcae6636f6498300e9b743588"}, "tags": {"1.60.0--r36_0": "sha256:b8f5537c726953a852c330dfb49c3269c1b7120bcae6636f6498300e9b743588"}, "docker": "quay.io/biocontainers/bioconductor-affypdnn", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-affypdnn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-affypdnn", "latest": {"1.60.0--r36_0": "sha256:e7a5de645549539c03aab5dfcfc7fb26a49e1242b28e89c3600ca73b76e387e9"}, "tags": {"1.60.0--r36_0": "sha256:e7a5de645549539c03aab5dfcfc7fb26a49e1242b28e89c3600ca73b76e387e9"}, "docker": "quay.io/biocontainers/bioconductor-affypdnn", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-affypdnn.

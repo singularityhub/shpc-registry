@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-exomepeak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-exomepeak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-exomepeak/container.yaml"
-updated_at: "2024-07-01 03:57:01.978919"
+updated_at: "2024-07-02 02:54:42.719036"
 latest: "2.17.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-exomepeak"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "2.17.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-exomepeak"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-exomepeak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-exomepeak", "latest": {"2.17.0--r36_1": "sha256:c1d50e1954a023b07daf6a9dfb6ab4ef1555da37442564633d429f0d69469c6f"}, "tags": {"2.17.0--r36_1": "sha256:c1d50e1954a023b07daf6a9dfb6ab4ef1555da37442564633d429f0d69469c6f"}, "docker": "quay.io/biocontainers/bioconductor-exomepeak", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-exomepeak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-exomepeak", "latest": {"2.17.0--r36_1": "sha256:49e358c48096241d5c21df5b75dda97624729d42be1a9d56e6cbb8cd07e1f690"}, "tags": {"2.17.0--r36_1": "sha256:49e358c48096241d5c21df5b75dda97624729d42be1a9d56e6cbb8cd07e1f690"}, "docker": "quay.io/biocontainers/bioconductor-exomepeak", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-exomepeak.

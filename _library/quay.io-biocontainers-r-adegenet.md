@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-adegenet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-adegenet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-adegenet/container.yaml"
-updated_at: "2024-07-01 03:45:57.906486"
+updated_at: "2024-07-02 02:43:51.946166"
 latest: "2.1.1--r351h96ca727_1"
 container_url: "https://biocontainers.pro/tools/r-adegenet"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "2.1.1--r351h96ca727_1"
 description: "shpc-registry automated BioContainers addition for r-adegenet"
-config: {"url": "https://biocontainers.pro/tools/r-adegenet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-adegenet", "latest": {"2.1.1--r351h96ca727_1": "sha256:877d8d05700b40bac716da5afc18579f599ad33da027059bbda39f9641452b32"}, "tags": {"2.1.1--r351h96ca727_1": "sha256:877d8d05700b40bac716da5afc18579f599ad33da027059bbda39f9641452b32"}, "docker": "quay.io/biocontainers/r-adegenet", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-adegenet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-adegenet", "latest": {"2.1.1--r351h96ca727_1": "sha256:04269a84dcb307685fdd7af94fde2d0492bb6339537ef998df22692ca8e3787a"}, "tags": {"2.1.1--r351h96ca727_1": "sha256:04269a84dcb307685fdd7af94fde2d0492bb6339537ef998df22692ca8e3787a"}, "docker": "quay.io/biocontainers/r-adegenet", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-adegenet.

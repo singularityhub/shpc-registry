@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/libsequence"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libsequence/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libsequence/container.yaml"
-updated_at: "2024-07-01 03:36:30.771208"
-latest: "1.9.8--h9f5acd7_4"
+updated_at: "2024-07-02 02:34:36.709275"
+latest: "1.9.8--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/libsequence"
 aliases:
  - "libsequenceConfig"
 versions:
  - "1.9.8--h9f5acd7_4"
+ - "1.9.8--h4ac6f70_6"
 description: "shpc-registry automated BioContainers addition for libsequence"
-config: {"url": "https://biocontainers.pro/tools/libsequence", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libsequence", "latest": {"1.9.8--h9f5acd7_4": "sha256:3073690ddad9f7be0d7c7af5cbf365460b5dcc6a2c167987716c3dc7ac2ac8de"}, "tags": {"1.9.8--h9f5acd7_4": "sha256:3073690ddad9f7be0d7c7af5cbf365460b5dcc6a2c167987716c3dc7ac2ac8de"}, "docker": "quay.io/biocontainers/libsequence", "aliases": {"libsequenceConfig": "/usr/local/bin/libsequenceConfig"}}
+config: {"url": "https://biocontainers.pro/tools/libsequence", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libsequence", "latest": {"1.9.8--h4ac6f70_6": "sha256:f34e1fa5903718a99b6ee1023d704eece89d19761414cd93d5675cd8c74ea214"}, "tags": {"1.9.8--h9f5acd7_4": "sha256:3073690ddad9f7be0d7c7af5cbf365460b5dcc6a2c167987716c3dc7ac2ac8de", "1.9.8--h4ac6f70_6": "sha256:f34e1fa5903718a99b6ee1023d704eece89d19761414cd93d5675cd8c74ea214"}, "docker": "quay.io/biocontainers/libsequence", "aliases": {"libsequenceConfig": "/usr/local/bin/libsequenceConfig"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libsequence.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/libsequence
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libsequence:1.9.8--h9f5acd7_4
+$ shpc install quay.io/biocontainers/libsequence:1.9.8--h4ac6f70_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libsequence/1.9.8--h9f5acd7_4
-$ module help quay.io/biocontainers/libsequence/1.9.8--h9f5acd7_4
+$ module load quay.io/biocontainers/libsequence/1.9.8--h4ac6f70_6
+$ module help quay.io/biocontainers/libsequence/1.9.8--h4ac6f70_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

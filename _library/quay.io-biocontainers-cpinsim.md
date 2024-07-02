@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cpinsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cpinsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cpinsim/container.yaml"
-updated_at: "2024-07-01 04:18:07.742263"
+updated_at: "2024-07-02 03:15:21.343896"
 latest: "0.5.2--py_2"
 container_url: "https://biocontainers.pro/tools/cpinsim"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.5.2--py_2"
 description: "shpc-registry automated BioContainers addition for cpinsim"
-config: {"url": "https://biocontainers.pro/tools/cpinsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cpinsim", "latest": {"0.5.2--py_2": "sha256:ce61043401f83e0b0ad79d35809a78ce0c2454173980de3b49e79a6541b8cd83"}, "tags": {"0.5.2--py_2": "sha256:ce61043401f83e0b0ad79d35809a78ce0c2454173980de3b49e79a6541b8cd83"}, "docker": "quay.io/biocontainers/cpinsim", "aliases": {"cpinsim": "/usr/local/bin/cpinsim", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/cpinsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cpinsim", "latest": {"0.5.2--py_2": "sha256:38df5d6b80cd3449bba04519557794a9b6f4aa8a2542d5bbeb4847eb1bdfa570"}, "tags": {"0.5.2--py_2": "sha256:38df5d6b80cd3449bba04519557794a9b6f4aa8a2542d5bbeb4847eb1bdfa570"}, "docker": "quay.io/biocontainers/cpinsim", "aliases": {"cpinsim": "/usr/local/bin/cpinsim", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cpinsim.

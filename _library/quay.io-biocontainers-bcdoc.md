@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcdoc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcdoc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcdoc/container.yaml"
-updated_at: "2024-07-01 03:44:40.951517"
+updated_at: "2024-07-02 02:42:36.644839"
 latest: "0.16.0--py35_0"
 container_url: "https://biocontainers.pro/tools/bcdoc"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "0.16.0--py35_0"
  - "0.16.0--py36_0"
 description: "shpc-registry automated BioContainers addition for bcdoc"
-config: {"url": "https://biocontainers.pro/tools/bcdoc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcdoc", "latest": {"0.16.0--py35_0": "sha256:84b262c5b3e79b98d26086fa721be9d54f8403f7c676107bc745643549ccabdf"}, "tags": {"0.16.0--py35_0": "sha256:84b262c5b3e79b98d26086fa721be9d54f8403f7c676107bc745643549ccabdf", "0.16.0--py36_0": "sha256:0bf5a891b96803dc40a22e1a386c6994586059c0a2ca166e2f3dfbe91c66fea3"}, "docker": "quay.io/biocontainers/bcdoc", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "rst2html.py": "/usr/local/bin/rst2html.py"}}
+config: {"url": "https://biocontainers.pro/tools/bcdoc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcdoc", "latest": {"0.16.0--py35_0": "sha256:5fa30d1fad15c76339cf1dab2afa400d1b6946ca9d3d323e89d9a94037559e61"}, "tags": {"0.16.0--py35_0": "sha256:5fa30d1fad15c76339cf1dab2afa400d1b6946ca9d3d323e89d9a94037559e61", "0.16.0--py36_0": "sha256:8fa34179432c0e2c9d690cd14dd8f5bfb5cd0dba1e45a9140a8d8ca26eec2d48"}, "docker": "quay.io/biocontainers/bcdoc", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "rst2html.py": "/usr/local/bin/rst2html.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bcdoc.

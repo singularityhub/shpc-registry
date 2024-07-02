@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gdrtestdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gdrtestdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gdrtestdata/container.yaml"
-updated_at: "2024-07-01 04:15:35.380570"
+updated_at: "2024-07-02 03:12:52.112347"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gdrtestdata"
 aliases:

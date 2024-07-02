@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biogridpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biogridpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biogridpy/container.yaml"
-updated_at: "2024-07-01 03:43:15.800952"
+updated_at: "2024-07-02 02:41:13.094639"
 latest: "0.1.1--py_2"
 container_url: "https://biocontainers.pro/tools/biogridpy"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.1.1--py_2"
 description: "shpc-registry automated BioContainers addition for biogridpy"
-config: {"url": "https://biocontainers.pro/tools/biogridpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biogridpy", "latest": {"0.1.1--py_2": "sha256:34e4a9bb493496d8ac9f637e3d576c813f4c52e3e6b10610bef00424d47fa31c"}, "tags": {"0.1.1--py_2": "sha256:34e4a9bb493496d8ac9f637e3d576c813f4c52e3e6b10610bef00424d47fa31c"}, "docker": "quay.io/biocontainers/biogridpy", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/biogridpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biogridpy", "latest": {"0.1.1--py_2": "sha256:7ac453437b9f9c76b409090a28fc2f9417504bdf40b2c33bd7840fd3289360d3"}, "tags": {"0.1.1--py_2": "sha256:7ac453437b9f9c76b409090a28fc2f9417504bdf40b2c33bd7840fd3289360d3"}, "docker": "quay.io/biocontainers/biogridpy", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biogridpy.

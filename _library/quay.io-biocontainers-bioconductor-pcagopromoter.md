@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/bioconductor-pcagopromoter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pcagopromoter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pcagopromoter/container.yaml"
-updated_at: "2024-07-01 04:08:56.693555"
+updated_at: "2024-07-02 03:06:22.010627"
 latest: "1.30.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pcagopromoter"
 
 versions:
  - "1.30.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pcagopromoter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pcagopromoter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcagopromoter", "latest": {"1.30.0--r36_0": "sha256:3a2c78d1e1736b786993fb7887c7515cfc1829e8c90bd144c2b592073749e3ef"}, "tags": {"1.30.0--r36_0": "sha256:3a2c78d1e1736b786993fb7887c7515cfc1829e8c90bd144c2b592073749e3ef"}, "docker": "quay.io/biocontainers/bioconductor-pcagopromoter"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pcagopromoter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcagopromoter", "latest": {"1.30.0--r36_0": "sha256:c1691f24c2ccf88ef8e713799f827e6edcffd51637d5bd6f55032fa82cd107a2"}, "tags": {"1.30.0--r36_0": "sha256:c1691f24c2ccf88ef8e713799f827e6edcffd51637d5bd6f55032fa82cd107a2"}, "docker": "quay.io/biocontainers/bioconductor-pcagopromoter"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pcagopromoter.

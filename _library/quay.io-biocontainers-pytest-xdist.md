@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytest-xdist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytest-xdist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytest-xdist/container.yaml"
-updated_at: "2024-07-01 03:59:15.480540"
+updated_at: "2024-07-02 02:56:53.396662"
 latest: "1.14--py36_0"
 container_url: "https://biocontainers.pro/tools/pytest-xdist"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "python3.6m-config"
 versions:
  - "1.14--py36_0"
+ - "1.14--py35_0"
 description: "shpc-registry automated BioContainers addition for pytest-xdist"
-config: {"url": "https://biocontainers.pro/tools/pytest-xdist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytest-xdist", "latest": {"1.14--py36_0": "sha256:6f77512ac6f205f1d2f568a405d7cdee0b1bb2c979572e10f92c6da2e50e8c40"}, "tags": {"1.14--py36_0": "sha256:6f77512ac6f205f1d2f568a405d7cdee0b1bb2c979572e10f92c6da2e50e8c40"}, "docker": "quay.io/biocontainers/pytest-xdist", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
+config: {"url": "https://biocontainers.pro/tools/pytest-xdist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytest-xdist", "latest": {"1.14--py36_0": "sha256:f37ced33460f45ec43ec8138eaa99aee36842027d06a27d8806a431459f8ab90"}, "tags": {"1.14--py36_0": "sha256:f37ced33460f45ec43ec8138eaa99aee36842027d06a27d8806a431459f8ab90", "1.14--py35_0": "sha256:6d96e1396d4cfb2bec5658147176bf616de09cf623c1576bc5d47e28e6d5291b"}, "docker": "quay.io/biocontainers/pytest-xdist", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytest-xdist.

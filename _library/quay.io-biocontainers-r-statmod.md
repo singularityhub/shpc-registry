@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-statmod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-statmod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-statmod/container.yaml"
-updated_at: "2024-07-01 03:40:50.094493"
+updated_at: "2024-07-02 02:38:50.637872"
 latest: "1.4.29--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-statmod"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.4.29--r3.3.1_0"
  - "1.4.29--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-statmod"
-config: {"url": "https://biocontainers.pro/tools/r-statmod", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-statmod", "latest": {"1.4.29--r3.3.1_0": "sha256:2ba9284b4b367c662229ded5147fd3551c960db640cfe8c726caee0632a042ca"}, "tags": {"1.4.29--r3.3.1_0": "sha256:2ba9284b4b367c662229ded5147fd3551c960db640cfe8c726caee0632a042ca", "1.4.29--r3.3.2_0": "sha256:720e0cb766bafd0801346df5f1701c88d001606862624e59f5625994217bfe4c"}, "docker": "quay.io/biocontainers/r-statmod", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-statmod", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-statmod", "latest": {"1.4.29--r3.3.1_0": "sha256:89bd0bd96b4108e93cc1445879038f084f1f6904230ece23eb28e9174f3294df"}, "tags": {"1.4.29--r3.3.1_0": "sha256:89bd0bd96b4108e93cc1445879038f084f1f6904230ece23eb28e9174f3294df", "1.4.29--r3.3.2_0": "sha256:0618ac055b7e6e1697fef9e92d62f987f95d8085618c0fa3f31bece0cf8bd058"}, "docker": "quay.io/biocontainers/r-statmod", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-statmod.

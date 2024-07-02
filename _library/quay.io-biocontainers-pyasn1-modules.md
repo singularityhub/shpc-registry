@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyasn1-modules"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyasn1-modules/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyasn1-modules/container.yaml"
-updated_at: "2024-07-01 04:00:27.219218"
+updated_at: "2024-07-02 02:58:03.606986"
 latest: "0.0.8--py35_0"
 container_url: "https://biocontainers.pro/tools/pyasn1-modules"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.0.8--py35_0"
 description: "shpc-registry automated BioContainers addition for pyasn1-modules"
-config: {"url": "https://biocontainers.pro/tools/pyasn1-modules", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyasn1-modules", "latest": {"0.0.8--py35_0": "sha256:7a95aa7608570629a5c02fb922533494c8abf089e379dc4ab495a6e996cea7f7"}, "tags": {"0.0.8--py35_0": "sha256:7a95aa7608570629a5c02fb922533494c8abf089e379dc4ab495a6e996cea7f7"}, "docker": "quay.io/biocontainers/pyasn1-modules", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/pyasn1-modules", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyasn1-modules", "latest": {"0.0.8--py35_0": "sha256:6d5743093280c31cc51c94438d8dcf3a4e332d04dd9b5e706c6f87284ccfd77f"}, "tags": {"0.0.8--py35_0": "sha256:6d5743093280c31cc51c94438d8dcf3a4e332d04dd9b5e706c6f87284ccfd77f"}, "docker": "quay.io/biocontainers/pyasn1-modules", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyasn1-modules.

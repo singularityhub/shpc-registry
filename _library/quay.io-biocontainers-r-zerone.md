@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-zerone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-zerone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-zerone/container.yaml"
-updated_at: "2024-07-01 04:14:05.714727"
+updated_at: "2024-07-02 03:11:24.391172"
 latest: "1.0--r341h470a237_1"
 container_url: "https://biocontainers.pro/tools/r-zerone"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.0--r341h470a237_1"
 description: "shpc-registry automated BioContainers addition for r-zerone"
-config: {"url": "https://biocontainers.pro/tools/r-zerone", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-zerone", "latest": {"1.0--r341h470a237_1": "sha256:7f18f1c64914a05cf4238d5c7d78fef72f3b207293a28dbbffa3c2647397c88d"}, "tags": {"1.0--r341h470a237_1": "sha256:7f18f1c64914a05cf4238d5c7d78fef72f3b207293a28dbbffa3c2647397c88d"}, "docker": "quay.io/biocontainers/r-zerone", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-zerone", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-zerone", "latest": {"1.0--r341h470a237_1": "sha256:7bfa4e716c557bc23652f10a62220628d433b6fff4971b5cd6c255e8499fca0a"}, "tags": {"1.0--r341h470a237_1": "sha256:7bfa4e716c557bc23652f10a62220628d433b6fff4971b5cd6c255e8499fca0a"}, "docker": "quay.io/biocontainers/r-zerone", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-zerone.

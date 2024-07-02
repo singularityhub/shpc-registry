@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-lsd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-lsd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-lsd/container.yaml"
-updated_at: "2024-07-01 04:09:54.404884"
+updated_at: "2024-07-02 03:07:18.502472"
 latest: "3.0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-lsd"
 aliases:
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "3.0--r3.3.2_0"
  - "3.0--r3.4.1_0"
+ - "3.0--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-lsd"
-config: {"url": "https://biocontainers.pro/tools/r-lsd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-lsd", "latest": {"3.0--r3.3.2_0": "sha256:c7cfa2c8baa2f433a6f4e6908bf169fe42d06bc846ed6d3336acb5fa2ff21a22"}, "tags": {"3.0--r3.3.2_0": "sha256:c7cfa2c8baa2f433a6f4e6908bf169fe42d06bc846ed6d3336acb5fa2ff21a22", "3.0--r3.4.1_0": "sha256:77caca64995bf524685b7635d6fcb7a13541f56bfad1eac383e355824aada91f"}, "docker": "quay.io/biocontainers/r-lsd", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-lsd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-lsd", "latest": {"3.0--r3.3.2_0": "sha256:493bd5bc857a7b6d4be0a8eb98c627b511e0a2c695b246bf6ea08f3a2dbdcfa4"}, "tags": {"3.0--r3.3.2_0": "sha256:493bd5bc857a7b6d4be0a8eb98c627b511e0a2c695b246bf6ea08f3a2dbdcfa4", "3.0--r3.4.1_0": "sha256:0473682d5814c47f34ea9b4edfd59959e4a5e46c5adf855407c2015559a9daec", "3.0--r3.2.2_0": "sha256:f306bb4a2b1c707207fea5decf3e1c632b2fa07d7f1d15d92545bb6bcb87f418"}, "docker": "quay.io/biocontainers/r-lsd", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-lsd.

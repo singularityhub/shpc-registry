@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/porechop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/porechop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/porechop/container.yaml"
-updated_at: "2024-07-01 04:16:55.376737"
-latest: "0.2.4--py310h0dbaff4_6"
+updated_at: "2024-07-02 03:14:10.388500"
+latest: "0.2.4--py310h84f13bb_8"
 container_url: "https://biocontainers.pro/tools/porechop"
 aliases:
  - "porechop"
@@ -22,8 +22,9 @@ versions:
  - "0.2.4--py36h2ad2d48_3"
  - "0.2.4--py310h0dbaff4_6"
  - "0.2.4--py39h1f90b4d_6"
+ - "0.2.4--py310h84f13bb_8"
 description: "shpc-registry automated BioContainers addition for porechop"
-config: {"url": "https://biocontainers.pro/tools/porechop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for porechop", "latest": {"0.2.4--py310h0dbaff4_6": "sha256:bdebfe1504004cd4aba2426ce9e80fe508827880eef2c3cd544886a54791d1a0"}, "tags": {"0.2.4--py36h2ad2d48_3": "sha256:35800da592ada9572f5a5afaa11f4f0c6256f60380d861bc87ed18150efe429b", "0.2.4--py310h0dbaff4_6": "sha256:bdebfe1504004cd4aba2426ce9e80fe508827880eef2c3cd544886a54791d1a0", "0.2.4--py39h1f90b4d_6": "sha256:b992e750069fadd3bcd1cd130a9471f6fb3c86e8d4607c39dbbb3f96890a341b"}, "docker": "quay.io/biocontainers/porechop", "aliases": {"porechop": "/usr/local/bin/porechop", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/porechop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for porechop", "latest": {"0.2.4--py310h84f13bb_8": "sha256:9c85bd4a39ce00b4cc06b265f8a3d294f370ad2e8da7122124cf7229ebffd6a4"}, "tags": {"0.2.4--py36h2ad2d48_3": "sha256:35800da592ada9572f5a5afaa11f4f0c6256f60380d861bc87ed18150efe429b", "0.2.4--py310h0dbaff4_6": "sha256:bdebfe1504004cd4aba2426ce9e80fe508827880eef2c3cd544886a54791d1a0", "0.2.4--py39h1f90b4d_6": "sha256:b992e750069fadd3bcd1cd130a9471f6fb3c86e8d4607c39dbbb3f96890a341b", "0.2.4--py310h84f13bb_8": "sha256:9c85bd4a39ce00b4cc06b265f8a3d294f370ad2e8da7122124cf7229ebffd6a4"}, "docker": "quay.io/biocontainers/porechop", "aliases": {"porechop": "/usr/local/bin/porechop", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/porechop.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/porechop
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/porechop:0.2.4--py310h0dbaff4_6
+$ shpc install quay.io/biocontainers/porechop:0.2.4--py310h84f13bb_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/porechop/0.2.4--py310h0dbaff4_6
-$ module help quay.io/biocontainers/porechop/0.2.4--py310h0dbaff4_6
+$ module load quay.io/biocontainers/porechop/0.2.4--py310h84f13bb_8
+$ module help quay.io/biocontainers/porechop/0.2.4--py310h84f13bb_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

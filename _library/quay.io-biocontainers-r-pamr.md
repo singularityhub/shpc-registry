@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pamr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pamr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pamr/container.yaml"
-updated_at: "2024-07-01 04:07:50.301806"
+updated_at: "2024-07-02 03:05:16.845606"
 latest: "1.55--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-pamr"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.55--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-pamr"
-config: {"url": "https://biocontainers.pro/tools/r-pamr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pamr", "latest": {"1.55--r3.4.1_0": "sha256:3df8b1015a4a9875b54dbe00936dac712f06af99aebfa769d421081446db0909"}, "tags": {"1.55--r3.4.1_0": "sha256:3df8b1015a4a9875b54dbe00936dac712f06af99aebfa769d421081446db0909"}, "docker": "quay.io/biocontainers/r-pamr", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-pamr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pamr", "latest": {"1.55--r3.4.1_0": "sha256:e8193064647d7ae7261e72fa09d2761fa71b46304923e9722bb7ec0067d4316b"}, "tags": {"1.55--r3.4.1_0": "sha256:e8193064647d7ae7261e72fa09d2761fa71b46304923e9722bb7ec0067d4316b"}, "docker": "quay.io/biocontainers/r-pamr", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pamr.

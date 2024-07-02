@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyx/container.yaml"
-updated_at: "2024-07-01 03:38:58.533966"
+updated_at: "2024-07-02 02:37:01.228369"
 latest: "0.14.1--py36_1"
 container_url: "https://biocontainers.pro/tools/pyx"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "0.14.1--py36_1"
  - "0.14.1--py37_1"
 description: "shpc-registry automated BioContainers addition for pyx"
-config: {"url": "https://biocontainers.pro/tools/pyx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyx", "latest": {"0.14.1--py36_1": "sha256:bd2e3666a023025fd759f9e3dc9361e303e58cbde1ac580b4dad056647c4ddb0"}, "tags": {"0.14.1--py36_1": "sha256:bd2e3666a023025fd759f9e3dc9361e303e58cbde1ac580b4dad056647c4ddb0", "0.14.1--py37_1": "sha256:9d13aaadb612c1516ca2c4941d89e2f49fb94cbce71533b27b4c032c5376c2f7"}, "docker": "quay.io/biocontainers/pyx", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pyx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyx", "latest": {"0.14.1--py36_1": "sha256:c8784d565c3ae417acbebbd5a9e1733a1d995301ce59b3c097abeee5714f6fd0"}, "tags": {"0.14.1--py36_1": "sha256:c8784d565c3ae417acbebbd5a9e1733a1d995301ce59b3c097abeee5714f6fd0", "0.14.1--py37_1": "sha256:3ac431d93959a694e81f4e68be9e958e29dddabbeb56842afd90fed8bb796b28"}, "docker": "quay.io/biocontainers/pyx", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyx.
