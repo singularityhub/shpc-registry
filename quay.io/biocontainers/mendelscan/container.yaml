@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/mendelscan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mendelscan
 latest:
-  v1.2.2--1: sha256:b08e46838eff9846fdc1d41074f71687a33a52c9995672a1bc881aaccf19e437
+  v1.2.2--1: sha256:6271bd06e87444505fb6d3f5cbcb3af01163849052ed429bdb3f8fc806808fe4
 tags:
-  v1.2.2--1: sha256:b08e46838eff9846fdc1d41074f71687a33a52c9995672a1bc881aaccf19e437
+  v1.2.2--1: sha256:6271bd06e87444505fb6d3f5cbcb3af01163849052ed429bdb3f8fc806808fe4
   1.2.2--hdfd78af_1: sha256:e99ee0df9641dc53fdf87286b6794f8df0b5e925f21014469be41c3005d3bec0
 docker: quay.io/biocontainers/mendelscan
 aliases:

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-signal
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-signal
 latest:
-  0.7_6--r3.3.2_0: sha256:7c37340f70b9a2ecf9cbefa637d828e8de15af1fbddc486f4bb33972aea470ca
+  0.7_6--r3.3.2_0: sha256:71723ca94ca2d1925d1fa9109c7bdc40313efca723e4e8fd1bcbd4e538d4b3be
 tags:
-  0.7_6--r3.3.2_0: sha256:7c37340f70b9a2ecf9cbefa637d828e8de15af1fbddc486f4bb33972aea470ca
+  0.7_6--r3.3.2_0: sha256:71723ca94ca2d1925d1fa9109c7bdc40313efca723e4e8fd1bcbd4e538d4b3be
+  0.7_6--r3.2.2_0: sha256:4716f4bc85d7c1735ebaf290177a79d2b44894c19e4f78518a6aeb74aa0fac49
 docker: quay.io/biocontainers/r-signal
 aliases:
   uconv: /usr/local/bin/uconv

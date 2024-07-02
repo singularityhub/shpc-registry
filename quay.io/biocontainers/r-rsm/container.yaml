@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-rsm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rsm
 latest:
-  2.7_4--r3.2.2_0: sha256:656c6e69c499a3d84b8dc9b30ab7ea1a3a3e142ade127218f8b5ce6b82f5f170
+  2.7_4--r3.2.2_0: sha256:41565aa37a38f91c144bef820f65b283987e1ef6656816edc47558d2532aa055
 tags:
-  2.7_4--r3.2.2_0: sha256:656c6e69c499a3d84b8dc9b30ab7ea1a3a3e142ade127218f8b5ce6b82f5f170
-  2.7_4--r3.3.2_0: sha256:eab8a65c2f212d0ae1aa1ab7b9c68c90daaa8146dc6a5234f9c72b12f124fac3
+  2.7_4--r3.2.2_0: sha256:41565aa37a38f91c144bef820f65b283987e1ef6656816edc47558d2532aa055
+  2.7_4--r3.3.2_0: sha256:fd3270b34691fdd261eba88395b6f95f0b0a99a4cb37d3707c3dffa4ce081e02
 docker: quay.io/biocontainers/r-rsm
 aliases:
   pngcp: /usr/local/bin/pngcp

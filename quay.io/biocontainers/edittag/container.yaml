@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/edittag
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for edittag
 latest:
-  1.1--py_2: sha256:fcbd4abbaa4dab6383a517cc3a36a0032bc0f0e3245d3b920a1457f805da94c1
+  1.1--py_2: sha256:688054a4c89e5efde751f054a9d941fa674f9f0535b9cd387d2ba9984d33a616
 tags:
-  1.1--py_2: sha256:fcbd4abbaa4dab6383a517cc3a36a0032bc0f0e3245d3b920a1457f805da94c1
+  1.1--py_2: sha256:688054a4c89e5efde751f054a9d941fa674f9f0535b9cd387d2ba9984d33a616
 docker: quay.io/biocontainers/edittag
 aliases:
   add_tags_to_adapters.py: /usr/local/bin/add_tags_to_adapters.py

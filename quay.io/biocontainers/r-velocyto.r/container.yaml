@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/r-velocyto.r
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-velocyto.r
 latest:
-  0.6--r43he153687_7: sha256:7ab8256d6f807908beaaa220be4e540b7dbb0d689753e97addc0a7ae5bc1f58b
+  0.6--r43hdbdd923_8: sha256:25f21165986870590fa60adb103f601248cdec229efcca0db46b6918ce285b05
 tags:
   0.6--r41h46c59ee_4: sha256:035375e26022e0f01f6c46c53c956bfb8e7f20672ce50a41dca3602f8f2ab58d
   0.6--r42h46c59ee_5: sha256:3de209926c985c5136bba1814b86c9bbdc6818491c1113ef784d58d09acea757
   0.6--r42he153687_6: sha256:4d1c469e2e1aa7baae99ee2e92ae7211ca0b915e4112448531b1be98a066d1d5
   0.6--r43he153687_7: sha256:7ab8256d6f807908beaaa220be4e540b7dbb0d689753e97addc0a7ae5bc1f58b
+  0.6--r43hdbdd923_8: sha256:25f21165986870590fa60adb103f601248cdec229efcca0db46b6918ce285b05
 docker: quay.io/biocontainers/r-velocyto.r
 aliases:
   mirror_server: /usr/local/bin/mirror_server

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/hatchet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hatchet
 latest:
-  2.0.1--py310h0dbaff4_0: sha256:1b81a4fbee9db03c4e370b55b70479233e0f788ccb63d46f74bac2788a89aebf
+  2.0.1--py39h9e0f934_1: sha256:a7a962b8bb2464e05b00bca07da89f45c522db0d22b06c00454499f075f98238
 tags:
   0.4.9--py37h22450f8_0: sha256:eda1508a16eed310a7fba5e2ecf8b101338f7f0cb5bc793e81fbbbe16b2ea194
   0.4.10--py38h8c62d01_0: sha256:912ac7d7943c6297667329264ff961ae884c41957c62fc1e5ba596c84dc47362
@@ -10,6 +10,7 @@ tags:
   1.1.1--py38h4a32c8e_0: sha256:9e360a9a32e05582e302b2c3c1f0424a2f6c3ea4c774dcfd81478818cdba7278
   1.0.3--py37h96cfd12_0: sha256:b8c8e22d78498e3bc6966831feb87914a2bd5a8fc7c9c642a27bce7950b43f14
   0.4.14--py37h96cfd12_0: sha256:efb42c77c0e5e6f23907c1d95fe67c572c8d691d72baec7216fba0ebd696be8f
+  2.0.1--py39h9e0f934_1: sha256:a7a962b8bb2464e05b00bca07da89f45c522db0d22b06c00454499f075f98238
 docker: quay.io/biocontainers/hatchet
 aliases:
   hatchet: /usr/local/bin/hatchet

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/schema-salad
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for schema-salad
 latest:
-  2.7.20180809223002--py_0: sha256:30b092bba2f1edac1cd7bbe46d0f89d706a6cfa6ecf2a327fce6ebe91953d8e6
+  2.7.20180809223002--py_0: sha256:662ac8316cbc143fb43cfc9038a54d645400ed0fe13e54240256eec9271943f3
 tags:
-  2.7.20180809223002--py_0: sha256:30b092bba2f1edac1cd7bbe46d0f89d706a6cfa6ecf2a327fce6ebe91953d8e6
+  2.7.20180809223002--py_0: sha256:662ac8316cbc143fb43cfc9038a54d645400ed0fe13e54240256eec9271943f3
 docker: quay.io/biocontainers/schema-salad
 aliases:
   schema-salad-doc: /usr/local/bin/schema-salad-doc

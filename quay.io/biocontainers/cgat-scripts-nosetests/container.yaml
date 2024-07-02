@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/cgat-scripts-nosetests
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cgat-scripts-nosetests
 latest:
-  0.0.4--py35r3.3.1_0: sha256:8e2712379781fe7ed58fe0032cd8d94d941c90f79b58b57abb7c30ee2b6cbd68
+  0.0.4--py35r3.3.1_0: sha256:3a599cd83d6a4a535a6d83f4c35d2ea5db2a02242f9ae65983c435f9b999bdd2
 tags:
-  0.0.4--py35r3.3.1_0: sha256:8e2712379781fe7ed58fe0032cd8d94d941c90f79b58b57abb7c30ee2b6cbd68
-  0.0.4--py35r3.4.1_0: sha256:3493cf0b973e4b703ef0f573ee8c389bf5988e8fa98924f61cc28551cba63757
+  0.0.4--py35r3.3.1_0: sha256:3a599cd83d6a4a535a6d83f4c35d2ea5db2a02242f9ae65983c435f9b999bdd2
+  0.0.4--py35r3.4.1_0: sha256:bacf2be0d7d6e0b590d1b45fb99e3e9b09162a42987de339f4657a581bf655f2
+  0.0.4--py27r3.3.1_0: sha256:c11d9e324b5458d3b02e72524414fd34a2596f0b15ed2aeaf76afd05373f644e
 docker: quay.io/biocontainers/cgat-scripts-nosetests
 aliases:
   innochecksum: /usr/local/bin/innochecksum

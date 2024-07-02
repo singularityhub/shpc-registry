@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-future
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-future
 latest:
-  1.2.0--r3.3.2_0: sha256:aa9cf183d5fd844ad2be321a5ee7428f7dd9aa4bc65999ecfd89c7364754b144
+  1.2.0--r3.3.2_0: sha256:aac453f51e35f8f4f7427ce0ab8d991bfe321065b91f7fb7d4c34eae54344a7f
 tags:
-  1.2.0--r3.3.2_0: sha256:aa9cf183d5fd844ad2be321a5ee7428f7dd9aa4bc65999ecfd89c7364754b144
+  1.2.0--r3.3.2_0: sha256:aac453f51e35f8f4f7427ce0ab8d991bfe321065b91f7fb7d4c34eae54344a7f
+  1.2.0--r3.3.1_0: sha256:6412abcde4dae0113e7dfb191dcda46152a74ee84a7810280ec9277302b5a6b9
 docker: quay.io/biocontainers/r-future
 aliases:
   uconv: /usr/local/bin/uconv

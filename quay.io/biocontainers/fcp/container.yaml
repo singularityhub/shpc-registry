@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/fcp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fcp
 latest:
-  1.0.7--py27_0: sha256:9b2e7f524979dc45c4633fc6bab8471af925fb234d859c8b0037367064f90132
+  1.0.7--py27_0: sha256:a2f5ca54f4d2e6ff3894baa9f8aca1302033e7b296e7424c6af55f34b76645af
 tags:
-  1.0.7--py27_0: sha256:9b2e7f524979dc45c4633fc6bab8471af925fb234d859c8b0037367064f90132
+  1.0.7--py27_0: sha256:a2f5ca54f4d2e6ff3894baa9f8aca1302033e7b296e7424c6af55f34b76645af
 docker: quay.io/biocontainers/fcp
 aliases:
   AddModel.py: /usr/local/bin/AddModel.py

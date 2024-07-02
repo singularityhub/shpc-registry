@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-bio-viennangs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-bio-viennangs
 latest:
-  v0.19.2--pl526_5: sha256:de43ecda3071ccd279a0b9ae7a4355696f77cf453a1789e3e3b2588dd7e165fa
+  v0.19.2--pl526_5: sha256:9ff500cfbddb00b96283039f34f5733abe20247b593bcf4ba0c01f8547848686
 tags:
-  v0.19.2--pl526_5: sha256:de43ecda3071ccd279a0b9ae7a4355696f77cf453a1789e3e3b2588dd7e165fa
+  v0.19.2--pl526_5: sha256:9ff500cfbddb00b96283039f34f5733abe20247b593bcf4ba0c01f8547848686
 docker: quay.io/biocontainers/perl-bio-viennangs
 aliases:
   Tutorial_pipeline03.pl: /usr/local/bin/Tutorial_pipeline03.pl

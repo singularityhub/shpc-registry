@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-splicegear
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-splicegear
 latest:
-  1.58.0--r36_0: sha256:0250b66196097524545d58432b664acb759bf12d76347b47c1557e038695db96
+  1.58.0--r36_0: sha256:bd38dee888c7b8fe63f0975eddd38d257ba3cc374e20c9d8cc9be2c68dcc72e6
 tags:
-  1.58.0--r36_0: sha256:0250b66196097524545d58432b664acb759bf12d76347b47c1557e038695db96
+  1.58.0--r36_0: sha256:bd38dee888c7b8fe63f0975eddd38d257ba3cc374e20c9d8cc9be2c68dcc72e6
 docker: quay.io/biocontainers/bioconductor-splicegear
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

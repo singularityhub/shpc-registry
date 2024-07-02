@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/phables
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phables
 latest:
-  1.3.2--pyhdfd78af_0: sha256:5348cc1f06c7d9d53d5452987b9a4eeaceca339299c5ceacd8656ffb306db82b
+  1.4.0--pyhdfd78af_0: sha256:87b133c8c9fd94a4f0df81607d16d7f143660fc58bafe058f0585e42cc9fb18c
 tags:
   0.1.1--pyh7cba7a3_0: sha256:c30018443a584035d223038712cd15f39f5205f5d3c85f8636af34eb12b18aba
   0.2.0--pyh7cba7a3_0: sha256:f797103ba061e07a716e5821a775995d7546bb277977c3b441243b48648bd43c
@@ -13,6 +13,8 @@ tags:
   1.2.2--pyhdfd78af_0: sha256:26169f377bcc4d4d5b5524ed9a918423d5e45e1e15356192e1e3c5cb7e06ddd0
   1.3.0--pyhdfd78af_0: sha256:75492f88dec4d34be38636a438d91e1dcea0f96a4167223f281cfbb808432a1d
   1.3.2--pyhdfd78af_0: sha256:5348cc1f06c7d9d53d5452987b9a4eeaceca339299c5ceacd8656ffb306db82b
+  1.4.0--pyhdfd78af_0: sha256:87b133c8c9fd94a4f0df81607d16d7f143660fc58bafe058f0585e42cc9fb18c
+  1.3.3--pyhdfd78af_0: sha256:f7e7792c78417bc2805aa691b18395cbc1c0ab88ca74b4c46fba80390c35c10e
 docker: quay.io/biocontainers/phables
 aliases:
   bsdcat: /usr/local/bin/bsdcat

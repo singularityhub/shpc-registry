@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/orthofisher
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for orthofisher
 latest:
-  1.1.0--pyhdfd78af_0: sha256:1cdafeb1daa995bef7fefe926e8f7b9f96aaf6b034b2ae89a7fb3b834bbb2831
+  1.1.1--pyhdfd78af_0: sha256:426a055b02b667afa46417a4d51819dac862361dc53962ce114de9f36a33fc85
 tags:
   1.1.0--pyhdfd78af_0: sha256:1cdafeb1daa995bef7fefe926e8f7b9f96aaf6b034b2ae89a7fb3b834bbb2831
+  1.1.1--pyhdfd78af_0: sha256:426a055b02b667afa46417a4d51819dac862361dc53962ce114de9f36a33fc85
 docker: quay.io/biocontainers/orthofisher
 aliases:
   orthofisher: /usr/local/bin/orthofisher

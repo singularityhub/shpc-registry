@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/swiftlink
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for swiftlink
 latest:
-  1.0--h20b91ae_2: sha256:733891f703642403133d20902a0ef3658e9c913bd47003532a488cd23460dbbf
+  1.0--h20b91ae_2: sha256:00e698baf16702d4cf0b2c4a3cea38a1e9922b87497b72fe4c1586ceb36b14d2
 tags:
-  1.0--h20b91ae_2: sha256:733891f703642403133d20902a0ef3658e9c913bd47003532a488cd23460dbbf
+  1.0--h20b91ae_2: sha256:00e698baf16702d4cf0b2c4a3cea38a1e9922b87497b72fe4c1586ceb36b14d2
 docker: quay.io/biocontainers/swiftlink
 aliases:
   swiftlink: /usr/local/bin/swiftlink

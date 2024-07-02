@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-robustbase
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-robustbase
 latest:
-  0.92_6--r3.3.1_1: sha256:63f14cee839f434349c6021740e8dde686933812487e25be2d43e5e77ec1065d
+  0.92_6--r3.3.1_1: sha256:e7f160855f5766add917dc136b913f43cd6cabafddc19e1748e558af51c61455
 tags:
-  0.92_6--r3.3.1_1: sha256:63f14cee839f434349c6021740e8dde686933812487e25be2d43e5e77ec1065d
+  0.92_6--r3.3.1_1: sha256:e7f160855f5766add917dc136b913f43cd6cabafddc19e1748e558af51c61455
 docker: quay.io/biocontainers/r-robustbase
 aliases:
   uconv: /usr/local/bin/uconv

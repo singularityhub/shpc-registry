@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-asics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-asics
 latest:
-  1.0.1--r3.4.1_0: sha256:26f1b690cdbb595bfeb8519541a57295934a0d5bb353637a9b1170b27dcdd087
+  1.0.1--r3.4.1_0: sha256:8c8de59db28aea9507b0a9fac63c390a7c71de95420bb1db45c5f9ac1e417f4d
 tags:
-  1.0.1--r3.4.1_0: sha256:26f1b690cdbb595bfeb8519541a57295934a0d5bb353637a9b1170b27dcdd087
+  1.0.1--r3.4.1_0: sha256:8c8de59db28aea9507b0a9fac63c390a7c71de95420bb1db45c5f9ac1e417f4d
 docker: quay.io/biocontainers/r-asics
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

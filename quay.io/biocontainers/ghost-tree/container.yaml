@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/ghost-tree
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ghost-tree
 latest:
-  0.2.2--py_1: sha256:a59499f5b3275189a0238ea5752bc523de00846c140a524ca60e2d5ed2e69250
+  0.2.2--py_1: sha256:c490af82b43c3090e908134bd9cc9cabc18a4f055f9e575b3f06364652356bf8
 tags:
-  0.2.2--py_1: sha256:a59499f5b3275189a0238ea5752bc523de00846c140a524ca60e2d5ed2e69250
+  0.2.2--py_1: sha256:c490af82b43c3090e908134bd9cc9cabc18a4f055f9e575b3f06364652356bf8
 docker: quay.io/biocontainers/ghost-tree

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/slang
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for slang
 latest:
-  2.3.0--hd3527cb_3: sha256:8a2353f709f20e9310ca7587d399907287de2df144d637efd95255ddbba446a1
+  2.3.0--hd3527cb_3: sha256:fbe70303bc629250d75f5a887abb39458565bfb18ec2412331361c454bae0bf0
 tags:
-  2.3.0--hd3527cb_3: sha256:8a2353f709f20e9310ca7587d399907287de2df144d637efd95255ddbba446a1
+  2.3.0--hd3527cb_3: sha256:fbe70303bc629250d75f5a887abb39458565bfb18ec2412331361c454bae0bf0
 docker: quay.io/biocontainers/slang
 aliases:
   slsh: /usr/local/bin/slsh
