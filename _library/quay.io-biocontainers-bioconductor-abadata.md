@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-abadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-abadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-abadata/container.yaml"
-updated_at: "2024-07-02 02:57:43.731066"
+updated_at: "2024-07-03 02:57:34.609948"
 latest: "1.24.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-abadata"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "1.18.0--r40_0"
  - "1.16.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-abadata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-abadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-abadata", "latest": {"1.24.0--r41hdfd78af_1": "sha256:f21285659cdddb9dea3befb7b70ab690a6cd3092671a79fc570c7dd1937d5959"}, "tags": {"1.8.0--r3.4.1_0": "sha256:30264efb6a99ec8d2f2620fbe5095c874228a0481ea1a0efbec17ab77e81f032", "1.24.0--r41hdfd78af_1": "sha256:f21285659cdddb9dea3befb7b70ab690a6cd3092671a79fc570c7dd1937d5959", "1.22.0--r41hdfd78af_0": "sha256:29d3559dbb3b5c60935d44b572fab5c20c080f6cb01dd0f5d38d20c4e407b266", "1.20.0--r40hdfd78af_1": "sha256:aa0d86a123047445b2d3724d3598f4197c9cfa60be16e82c1031fdc026d62e0e", "1.18.0--r40_0": "sha256:db6f067e2f060a5a70f1e8f7753f96bca828744f94ad70798d181aaf39558d02", "1.16.0--r36_0": "sha256:5ed5562dc5f7ee4183939460c34e9802693a7b44d48838dcd76b2a8773051fb9"}, "docker": "quay.io/biocontainers/bioconductor-abadata", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-abadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-abadata", "latest": {"1.24.0--r41hdfd78af_1": "sha256:f21285659cdddb9dea3befb7b70ab690a6cd3092671a79fc570c7dd1937d5959"}, "tags": {"1.8.0--r3.4.1_0": "sha256:6c1eaa0e9f7aec58f8f8dbb3c069fce7a0aee544f4674c569493e26a51009015", "1.24.0--r41hdfd78af_1": "sha256:f21285659cdddb9dea3befb7b70ab690a6cd3092671a79fc570c7dd1937d5959", "1.22.0--r41hdfd78af_0": "sha256:29d3559dbb3b5c60935d44b572fab5c20c080f6cb01dd0f5d38d20c4e407b266", "1.20.0--r40hdfd78af_1": "sha256:aa0d86a123047445b2d3724d3598f4197c9cfa60be16e82c1031fdc026d62e0e", "1.18.0--r40_0": "sha256:db6f067e2f060a5a70f1e8f7753f96bca828744f94ad70798d181aaf39558d02", "1.16.0--r36_0": "sha256:94b69bdccd3472c71359b11c6f8c4dc2980bd0dbd510780d3bdfe5b9bad76f1f"}, "docker": "quay.io/biocontainers/bioconductor-abadata", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-abadata.

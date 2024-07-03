@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mmnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mmnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mmnet/container.yaml"
-updated_at: "2024-07-02 03:01:44.345932"
+updated_at: "2024-07-03 03:01:40.568824"
 latest: "1.13.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mmnet"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.13.0--r3.4.1_0"
+ - "1.13.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mmnet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mmnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mmnet", "latest": {"1.13.0--r3.4.1_0": "sha256:00cb92df93f125ceeeaa187978540b177b6617003f7faf68b434a2bb483873d2"}, "tags": {"1.13.0--r3.4.1_0": "sha256:00cb92df93f125ceeeaa187978540b177b6617003f7faf68b434a2bb483873d2"}, "docker": "quay.io/biocontainers/bioconductor-mmnet", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mmnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mmnet", "latest": {"1.13.0--r3.4.1_0": "sha256:6a2e66975fdc6b91d9cd25d816ff04cee162dcf70262a4b15d90190bffa49bbe"}, "tags": {"1.13.0--r3.4.1_0": "sha256:6a2e66975fdc6b91d9cd25d816ff04cee162dcf70262a4b15d90190bffa49bbe", "1.13.0--r3.3.2_0": "sha256:658ab6860d13c176de02554861e78319e5be4077f50338e7eb263cbdaa888e14"}, "docker": "quay.io/biocontainers/bioconductor-mmnet", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mmnet.

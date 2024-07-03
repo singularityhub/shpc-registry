@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/cromwell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cromwell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cromwell/container.yaml"
-updated_at: "2024-07-02 03:10:20.754699"
+updated_at: "2024-07-03 03:10:28.999816"
 latest: "0.40--1"
 container_url: "https://biocontainers.pro/tools/cromwell"
 
 versions:
  - "0.40--1"
 description: "shpc-registry automated BioContainers addition for cromwell"
-config: {"url": "https://biocontainers.pro/tools/cromwell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cromwell", "latest": {"0.40--1": "sha256:08863f3ea35e48f11a6e6dfc8b62ec8cd6309b371c8edf261599b2d2f7e45274"}, "tags": {"0.40--1": "sha256:08863f3ea35e48f11a6e6dfc8b62ec8cd6309b371c8edf261599b2d2f7e45274"}, "docker": "quay.io/biocontainers/cromwell"}
+config: {"url": "https://biocontainers.pro/tools/cromwell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cromwell", "latest": {"0.40--1": "sha256:4d37f7fc3f0242b7e2939400e0c24a0aad9c23281b63d30ed60f6452b4e60218"}, "tags": {"0.40--1": "sha256:4d37f7fc3f0242b7e2939400e0c24a0aad9c23281b63d30ed60f6452b4e60218"}, "docker": "quay.io/biocontainers/cromwell"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cromwell.

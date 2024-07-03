@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cassiopee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cassiopee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cassiopee/container.yaml"
-updated_at: "2024-07-02 02:43:22.985703"
-latest: "1.0.9--h52dea56_6"
+updated_at: "2024-07-03 02:42:54.878694"
+latest: "1.0.9--h685630e_7"
 container_url: "https://biocontainers.pro/tools/cassiopee"
 aliases:
  - "cassiopee"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.0.9--hc0e6a75_4"
  - "1.0.9--h52dea56_6"
+ - "1.0.9--h685630e_7"
 description: "shpc-registry automated BioContainers addition for cassiopee"
-config: {"url": "https://biocontainers.pro/tools/cassiopee", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cassiopee", "latest": {"1.0.9--h52dea56_6": "sha256:269e50f1203d7b68e84241b70333e591b76340783578dedf7a3f217fdbf93ac2"}, "tags": {"1.0.9--hc0e6a75_4": "sha256:d9384f2ade32f8bfb536557fd5908b1e48317b42a94923bcf8d7915d53916647", "1.0.9--h52dea56_6": "sha256:269e50f1203d7b68e84241b70333e591b76340783578dedf7a3f217fdbf93ac2"}, "docker": "quay.io/biocontainers/cassiopee", "aliases": {"cassiopee": "/usr/local/bin/cassiopee", "cassiopeeknife": "/usr/local/bin/cassiopeeknife", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/cassiopee", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cassiopee", "latest": {"1.0.9--h685630e_7": "sha256:77b9b82399154e43ead49981142d8a891523af3f9ac94c0a5bdc2612dc0b84c0"}, "tags": {"1.0.9--hc0e6a75_4": "sha256:d9384f2ade32f8bfb536557fd5908b1e48317b42a94923bcf8d7915d53916647", "1.0.9--h52dea56_6": "sha256:269e50f1203d7b68e84241b70333e591b76340783578dedf7a3f217fdbf93ac2", "1.0.9--h685630e_7": "sha256:77b9b82399154e43ead49981142d8a891523af3f9ac94c0a5bdc2612dc0b84c0"}, "docker": "quay.io/biocontainers/cassiopee", "aliases": {"cassiopee": "/usr/local/bin/cassiopee", "cassiopeeknife": "/usr/local/bin/cassiopeeknife", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cassiopee.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/cassiopee
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cassiopee:1.0.9--h52dea56_6
+$ shpc install quay.io/biocontainers/cassiopee:1.0.9--h685630e_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cassiopee/1.0.9--h52dea56_6
-$ module help quay.io/biocontainers/cassiopee/1.0.9--h52dea56_6
+$ module load quay.io/biocontainers/cassiopee/1.0.9--h685630e_7
+$ module help quay.io/biocontainers/cassiopee/1.0.9--h685630e_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

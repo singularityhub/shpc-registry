@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-signal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-signal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-signal/container.yaml"
-updated_at: "2024-07-02 02:48:26.093867"
+updated_at: "2024-07-03 02:48:04.849328"
 latest: "0.7_6--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-signal"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.7_6--r3.3.2_0"
+ - "0.7_6--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-signal"
-config: {"url": "https://biocontainers.pro/tools/r-signal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-signal", "latest": {"0.7_6--r3.3.2_0": "sha256:7c37340f70b9a2ecf9cbefa637d828e8de15af1fbddc486f4bb33972aea470ca"}, "tags": {"0.7_6--r3.3.2_0": "sha256:7c37340f70b9a2ecf9cbefa637d828e8de15af1fbddc486f4bb33972aea470ca"}, "docker": "quay.io/biocontainers/r-signal", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-signal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-signal", "latest": {"0.7_6--r3.3.2_0": "sha256:71723ca94ca2d1925d1fa9109c7bdc40313efca723e4e8fd1bcbd4e538d4b3be"}, "tags": {"0.7_6--r3.3.2_0": "sha256:71723ca94ca2d1925d1fa9109c7bdc40313efca723e4e8fd1bcbd4e538d4b3be", "0.7_6--r3.2.2_0": "sha256:4716f4bc85d7c1735ebaf290177a79d2b44894c19e4f78518a6aeb74aa0fac49"}, "docker": "quay.io/biocontainers/r-signal", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-signal.

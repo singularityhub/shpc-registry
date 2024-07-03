@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-cghflasso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cghflasso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cghflasso/container.yaml"
-updated_at: "2024-07-02 03:06:43.528197"
+updated_at: "2024-07-03 03:06:46.642434"
 latest: "0.2_1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-cghflasso"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "0.2_1--r3.2.2_0"
  - "0.2_1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-cghflasso"
-config: {"url": "https://biocontainers.pro/tools/r-cghflasso", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-cghflasso", "latest": {"0.2_1--r3.2.2_0": "sha256:6da422afdcdb5c9e16d6c97b1a0b70d263bf0e9c7513a3e40681935c8e4a2b41"}, "tags": {"0.2_1--r3.2.2_0": "sha256:6da422afdcdb5c9e16d6c97b1a0b70d263bf0e9c7513a3e40681935c8e4a2b41", "0.2_1--r3.3.2_0": "sha256:1bd80942d4ffb7d1ddb57e416631e93b06293bd01446c9a920bf3f8af036d6d2"}, "docker": "quay.io/biocontainers/r-cghflasso", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-cghflasso", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-cghflasso", "latest": {"0.2_1--r3.2.2_0": "sha256:4caa6a2e6ba6851eda8b9d305230b5a11a4c36745f12e4a566767f4c7e7e5301"}, "tags": {"0.2_1--r3.2.2_0": "sha256:4caa6a2e6ba6851eda8b9d305230b5a11a4c36745f12e4a566767f4c7e7e5301", "0.2_1--r3.3.2_0": "sha256:e841a17c54b80d9eff3c5c46b65ac3f37039918f543de8b6e3e6e60086968b1d"}, "docker": "quay.io/biocontainers/r-cghflasso", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-cghflasso.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rmat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rmat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rmat/container.yaml"
-updated_at: "2024-07-02 02:36:17.061561"
+updated_at: "2024-07-03 02:35:39.840020"
 latest: "3.33.0--r36he1b5a44_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rmat"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "3.33.0--r36he1b5a44_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rmat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rmat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rmat", "latest": {"3.33.0--r36he1b5a44_1": "sha256:d3cdf57e781c84d95a8672f905e377824695a7a42266ce409a2ff28ae94351e9"}, "tags": {"3.33.0--r36he1b5a44_1": "sha256:d3cdf57e781c84d95a8672f905e377824695a7a42266ce409a2ff28ae94351e9"}, "docker": "quay.io/biocontainers/bioconductor-rmat", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rmat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rmat", "latest": {"3.33.0--r36he1b5a44_1": "sha256:f57e16b1787ddcff786e96e77245e7b7721c24157a0c517cad15da5fb47243f9"}, "tags": {"3.33.0--r36he1b5a44_1": "sha256:f57e16b1787ddcff786e96e77245e7b7721c24157a0c517cad15da5fb47243f9"}, "docker": "quay.io/biocontainers/bioconductor-rmat", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rmat.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ffpeexampledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ffpeexampledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ffpeexampledata/container.yaml"
-updated_at: "2024-07-02 02:56:58.087820"
+updated_at: "2024-07-03 02:56:47.996128"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ffpeexampledata"
 

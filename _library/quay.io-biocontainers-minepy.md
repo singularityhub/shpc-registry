@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minepy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minepy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minepy/container.yaml"
-updated_at: "2024-07-02 02:49:45.137867"
+updated_at: "2024-07-03 02:49:25.628702"
 latest: "1.2.3--py36h14c3975_0"
 container_url: "https://biocontainers.pro/tools/minepy"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "1.2.3--py36h14c3975_0"
  - "1.2.3--py27h14c3975_0"
 description: "shpc-registry automated BioContainers addition for minepy"
-config: {"url": "https://biocontainers.pro/tools/minepy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minepy", "latest": {"1.2.3--py36h14c3975_0": "sha256:98e7c4aa37a1ba803585fbba883c38db215bc655cf18f65051b355d3281d793f"}, "tags": {"1.2.3--py36h14c3975_0": "sha256:98e7c4aa37a1ba803585fbba883c38db215bc655cf18f65051b355d3281d793f", "1.2.3--py27h14c3975_0": "sha256:e9cd92642be0e55068dd424ce8cde480bf3dfc0fb47400f8f08a2128ad933834"}, "docker": "quay.io/biocontainers/minepy", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/minepy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minepy", "latest": {"1.2.3--py36h14c3975_0": "sha256:1a42f8a8e6bbfd6b632ebcee48a5fb11a02a54b9c8d62ad7f584637820d7e146"}, "tags": {"1.2.3--py36h14c3975_0": "sha256:1a42f8a8e6bbfd6b632ebcee48a5fb11a02a54b9c8d62ad7f584637820d7e146", "1.2.3--py27h14c3975_0": "sha256:0b46a5904ef00526e7edc1f28302c19697035e73b268eb835e467c014c4d7d2e"}, "docker": "quay.io/biocontainers/minepy", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/minepy.

@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/genometools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genometools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genometools/container.yaml"
-updated_at: "2024-07-02 03:13:35.376883"
+updated_at: "2024-07-03 03:13:47.973810"
 latest: "1.2.1--py27_0"
 container_url: "https://biocontainers.pro/tools/genometools"
 
 versions:
  - "1.2.1--py27_0"
 description: "shpc-registry automated BioContainers addition for genometools"
-config: {"url": "https://biocontainers.pro/tools/genometools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genometools", "latest": {"1.2.1--py27_0": "sha256:59a28d8a230f7a503ad13680b118da06ce7d9d6425723af3a9a4ce45ab80ea75"}, "tags": {"1.2.1--py27_0": "sha256:59a28d8a230f7a503ad13680b118da06ce7d9d6425723af3a9a4ce45ab80ea75"}, "docker": "quay.io/biocontainers/genometools"}
+config: {"url": "https://biocontainers.pro/tools/genometools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genometools", "latest": {"1.2.1--py27_0": "sha256:8b6bd512efc109abb1b27160c83e6277b6d5866e2df5a526980ea522bebf8bf7"}, "tags": {"1.2.1--py27_0": "sha256:8b6bd512efc109abb1b27160c83e6277b6d5866e2df5a526980ea522bebf8bf7"}, "docker": "quay.io/biocontainers/genometools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genometools.

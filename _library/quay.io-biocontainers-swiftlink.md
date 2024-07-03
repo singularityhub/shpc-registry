@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/swiftlink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/swiftlink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/swiftlink/container.yaml"
-updated_at: "2024-07-02 03:14:41.552029"
+updated_at: "2024-07-03 03:14:55.770622"
 latest: "1.0--h20b91ae_2"
 container_url: "https://biocontainers.pro/tools/swiftlink"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.0--h20b91ae_2"
 description: "shpc-registry automated BioContainers addition for swiftlink"
-config: {"url": "https://biocontainers.pro/tools/swiftlink", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for swiftlink", "latest": {"1.0--h20b91ae_2": "sha256:733891f703642403133d20902a0ef3658e9c913bd47003532a488cd23460dbbf"}, "tags": {"1.0--h20b91ae_2": "sha256:733891f703642403133d20902a0ef3658e9c913bd47003532a488cd23460dbbf"}, "docker": "quay.io/biocontainers/swiftlink", "aliases": {"swiftlink": "/usr/local/bin/swiftlink"}}
+config: {"url": "https://biocontainers.pro/tools/swiftlink", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for swiftlink", "latest": {"1.0--h20b91ae_2": "sha256:00e698baf16702d4cf0b2c4a3cea38a1e9922b87497b72fe4c1586ceb36b14d2"}, "tags": {"1.0--h20b91ae_2": "sha256:00e698baf16702d4cf0b2c4a3cea38a1e9922b87497b72fe4c1586ceb36b14d2"}, "docker": "quay.io/biocontainers/swiftlink", "aliases": {"swiftlink": "/usr/local/bin/swiftlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/swiftlink.

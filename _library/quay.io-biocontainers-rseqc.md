@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rseqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rseqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rseqc/container.yaml"
-updated_at: "2024-07-02 02:58:07.487152"
-latest: "5.0.3--py310h4b81fae_1"
+updated_at: "2024-07-03 02:57:58.907292"
+latest: "5.0.3--py38h0020b31_2"
 container_url: "https://biocontainers.pro/tools/rseqc"
 aliases:
  - "FPKM-UQ.py"
@@ -55,8 +55,9 @@ versions:
  - "5.0.3--py39hf95cd2a_0"
  - "4.0.0--py310h1425a21_2"
  - "5.0.3--py310h4b81fae_1"
+ - "5.0.3--py38h0020b31_2"
 description: "shpc-registry automated BioContainers addition for rseqc"
-config: {"url": "https://biocontainers.pro/tools/rseqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rseqc", "latest": {"5.0.3--py310h4b81fae_1": "sha256:2ffac2c21e9dd82d166280e0bcc822248ef342f2bfa10fa2a2f4fe418739f1e1"}, "tags": {"4.0.0--py36h91eb985_2": "sha256:0b1a0199c5e51b9295ff119038fbc99a24b429388cf8fcb5859032b20a827efd", "5.0.1--py310h1425a21_0": "sha256:828662dbd94153095afc566ca6c388d8d3ffff62231b418b0aa2a380cafd31a5", "5.0.1--py38he5da3d1_1": "sha256:f6f57ed5a3f58211859974ed618ab68402af7e4fc28f228603024aeed413db76", "5.0.3--py310h4b81fae_0": "sha256:6cae3bcdd20f139f71c917aa05b00155de458b978fea5fb87b4dc5658c6675b0", "5.0.3--py39hf95cd2a_0": "sha256:9fc7027efc23a9dd2309ead1d285034da324eae64e6e940cb0760f4525fa28aa", "4.0.0--py310h1425a21_2": "sha256:6141b456fd383af14026616f68b67351d57cdd6e395bbceed10c45fdb7d1fcb5", "5.0.3--py310h4b81fae_1": "sha256:2ffac2c21e9dd82d166280e0bcc822248ef342f2bfa10fa2a2f4fe418739f1e1"}, "docker": "quay.io/biocontainers/rseqc", "aliases": {"FPKM-UQ.py": "/usr/local/bin/FPKM-UQ.py", "FPKM_count.py": "/usr/local/bin/FPKM_count.py", "RNA_fragment_size.py": "/usr/local/bin/RNA_fragment_size.py", "RPKM_saturation.py": "/usr/local/bin/RPKM_saturation.py", "bam2fq.py": "/usr/local/bin/bam2fq.py", "bam2wig.py": "/usr/local/bin/bam2wig.py", "bam_stat.py": "/usr/local/bin/bam_stat.py", "clipping_profile.py": "/usr/local/bin/clipping_profile.py", "deletion_profile.py": "/usr/local/bin/deletion_profile.py", "divide_bam.py": "/usr/local/bin/divide_bam.py", "geneBody_coverage.py": "/usr/local/bin/geneBody_coverage.py", "geneBody_coverage2.py": "/usr/local/bin/geneBody_coverage2.py", "infer_experiment.py": "/usr/local/bin/infer_experiment.py", "inner_distance.py": "/usr/local/bin/inner_distance.py", "insertion_profile.py": "/usr/local/bin/insertion_profile.py", "junction_annotation.py": "/usr/local/bin/junction_annotation.py", "junction_saturation.py": "/usr/local/bin/junction_saturation.py", "mismatch_profile.py": "/usr/local/bin/mismatch_profile.py", "normalize_bigwig.py": "/usr/local/bin/normalize_bigwig.py", "overlay_bigwig.py": "/usr/local/bin/overlay_bigwig.py", "read_GC.py": "/usr/local/bin/read_GC.py", "read_NVC.py": "/usr/local/bin/read_NVC.py", "read_distribution.py": "/usr/local/bin/read_distribution.py", "read_duplication.py": "/usr/local/bin/read_duplication.py", "read_hexamer.py": "/usr/local/bin/read_hexamer.py", "read_quality.py": "/usr/local/bin/read_quality.py", "split_bam.py": "/usr/local/bin/split_bam.py", "split_paired_bam.py": "/usr/local/bin/split_paired_bam.py", "tin.py": "/usr/local/bin/tin.py", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
+config: {"url": "https://biocontainers.pro/tools/rseqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rseqc", "latest": {"5.0.3--py38h0020b31_2": "sha256:974e8da3655366e4a05ead8bade082668c7b686016d9f58c6c22480fd740d0f0"}, "tags": {"4.0.0--py36h91eb985_2": "sha256:0b1a0199c5e51b9295ff119038fbc99a24b429388cf8fcb5859032b20a827efd", "5.0.1--py310h1425a21_0": "sha256:828662dbd94153095afc566ca6c388d8d3ffff62231b418b0aa2a380cafd31a5", "5.0.1--py38he5da3d1_1": "sha256:f6f57ed5a3f58211859974ed618ab68402af7e4fc28f228603024aeed413db76", "5.0.3--py310h4b81fae_0": "sha256:6cae3bcdd20f139f71c917aa05b00155de458b978fea5fb87b4dc5658c6675b0", "5.0.3--py39hf95cd2a_0": "sha256:9fc7027efc23a9dd2309ead1d285034da324eae64e6e940cb0760f4525fa28aa", "4.0.0--py310h1425a21_2": "sha256:6141b456fd383af14026616f68b67351d57cdd6e395bbceed10c45fdb7d1fcb5", "5.0.3--py310h4b81fae_1": "sha256:2ffac2c21e9dd82d166280e0bcc822248ef342f2bfa10fa2a2f4fe418739f1e1", "5.0.3--py38h0020b31_2": "sha256:974e8da3655366e4a05ead8bade082668c7b686016d9f58c6c22480fd740d0f0"}, "docker": "quay.io/biocontainers/rseqc", "aliases": {"FPKM-UQ.py": "/usr/local/bin/FPKM-UQ.py", "FPKM_count.py": "/usr/local/bin/FPKM_count.py", "RNA_fragment_size.py": "/usr/local/bin/RNA_fragment_size.py", "RPKM_saturation.py": "/usr/local/bin/RPKM_saturation.py", "bam2fq.py": "/usr/local/bin/bam2fq.py", "bam2wig.py": "/usr/local/bin/bam2wig.py", "bam_stat.py": "/usr/local/bin/bam_stat.py", "clipping_profile.py": "/usr/local/bin/clipping_profile.py", "deletion_profile.py": "/usr/local/bin/deletion_profile.py", "divide_bam.py": "/usr/local/bin/divide_bam.py", "geneBody_coverage.py": "/usr/local/bin/geneBody_coverage.py", "geneBody_coverage2.py": "/usr/local/bin/geneBody_coverage2.py", "infer_experiment.py": "/usr/local/bin/infer_experiment.py", "inner_distance.py": "/usr/local/bin/inner_distance.py", "insertion_profile.py": "/usr/local/bin/insertion_profile.py", "junction_annotation.py": "/usr/local/bin/junction_annotation.py", "junction_saturation.py": "/usr/local/bin/junction_saturation.py", "mismatch_profile.py": "/usr/local/bin/mismatch_profile.py", "normalize_bigwig.py": "/usr/local/bin/normalize_bigwig.py", "overlay_bigwig.py": "/usr/local/bin/overlay_bigwig.py", "read_GC.py": "/usr/local/bin/read_GC.py", "read_NVC.py": "/usr/local/bin/read_NVC.py", "read_distribution.py": "/usr/local/bin/read_distribution.py", "read_duplication.py": "/usr/local/bin/read_duplication.py", "read_hexamer.py": "/usr/local/bin/read_hexamer.py", "read_quality.py": "/usr/local/bin/read_quality.py", "split_bam.py": "/usr/local/bin/split_bam.py", "split_paired_bam.py": "/usr/local/bin/split_paired_bam.py", "tin.py": "/usr/local/bin/tin.py", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rseqc.
@@ -71,7 +72,7 @@ $ shpc install quay.io/biocontainers/rseqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rseqc:5.0.3--py310h4b81fae_1
+$ shpc install quay.io/biocontainers/rseqc:5.0.3--py38h0020b31_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -83,8 +84,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rseqc/5.0.3--py310h4b81fae_1
-$ module help quay.io/biocontainers/rseqc/5.0.3--py310h4b81fae_1
+$ module load quay.io/biocontainers/rseqc/5.0.3--py38h0020b31_2
+$ module help quay.io/biocontainers/rseqc/5.0.3--py38h0020b31_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

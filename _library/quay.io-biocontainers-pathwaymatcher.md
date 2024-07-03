@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pathwaymatcher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathwaymatcher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathwaymatcher/container.yaml"
-updated_at: "2024-07-02 02:47:49.377996"
+updated_at: "2024-07-03 02:47:27.266002"
 latest: "1.9.1--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/pathwaymatcher"
 aliases:

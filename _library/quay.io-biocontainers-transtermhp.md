@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transtermhp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transtermhp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transtermhp/container.yaml"
-updated_at: "2024-07-02 03:12:01.056042"
+updated_at: "2024-07-03 03:12:11.564083"
 latest: "2.09--h2d50403_1"
 container_url: "https://biocontainers.pro/tools/transtermhp"
 aliases:
@@ -16,7 +16,7 @@ aliases:
 versions:
  - "2.09--h2d50403_1"
 description: "shpc-registry automated BioContainers addition for transtermhp"
-config: {"url": "https://biocontainers.pro/tools/transtermhp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transtermhp", "latest": {"2.09--h2d50403_1": "sha256:4d3782067071be44e533b58ccb8f3e5af7190633645f84ffcad32b12ce4680a4"}, "tags": {"2.09--h2d50403_1": "sha256:4d3782067071be44e533b58ccb8f3e5af7190633645f84ffcad32b12ce4680a4"}, "docker": "quay.io/biocontainers/transtermhp", "aliases": {"2ndscore": "/usr/local/bin/2ndscore", "calibrate.sh": "/usr/local/bin/calibrate.sh", "make_expterm.py": "/usr/local/bin/make_expterm.py", "mfold_rna.sh": "/usr/local/bin/mfold_rna.sh", "transterm": "/usr/local/bin/transterm"}}
+config: {"url": "https://biocontainers.pro/tools/transtermhp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transtermhp", "latest": {"2.09--h2d50403_1": "sha256:310af5ac72c3c29d3872a87e42fdc0fef95e52eab045d8cd4b7f31efb80f4916"}, "tags": {"2.09--h2d50403_1": "sha256:310af5ac72c3c29d3872a87e42fdc0fef95e52eab045d8cd4b7f31efb80f4916"}, "docker": "quay.io/biocontainers/transtermhp", "aliases": {"2ndscore": "/usr/local/bin/2ndscore", "calibrate.sh": "/usr/local/bin/calibrate.sh", "make_expterm.py": "/usr/local/bin/make_expterm.py", "mfold_rna.sh": "/usr/local/bin/mfold_rna.sh", "transterm": "/usr/local/bin/transterm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/transtermhp.

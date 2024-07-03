@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/schema-salad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/schema-salad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/schema-salad/container.yaml"
-updated_at: "2024-07-02 02:51:06.265269"
+updated_at: "2024-07-03 02:50:48.419160"
 latest: "2.7.20180809223002--py_0"
 container_url: "https://biocontainers.pro/tools/schema-salad"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "2.7.20180809223002--py_0"
 description: "shpc-registry automated BioContainers addition for schema-salad"
-config: {"url": "https://biocontainers.pro/tools/schema-salad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for schema-salad", "latest": {"2.7.20180809223002--py_0": "sha256:30b092bba2f1edac1cd7bbe46d0f89d706a6cfa6ecf2a327fce6ebe91953d8e6"}, "tags": {"2.7.20180809223002--py_0": "sha256:30b092bba2f1edac1cd7bbe46d0f89d706a6cfa6ecf2a327fce6ebe91953d8e6"}, "docker": "quay.io/biocontainers/schema-salad", "aliases": {"schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "avro": "/usr/local/bin/avro", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "doesitcache": "/usr/local/bin/doesitcache", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "chardetect": "/usr/local/bin/chardetect"}}
+config: {"url": "https://biocontainers.pro/tools/schema-salad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for schema-salad", "latest": {"2.7.20180809223002--py_0": "sha256:662ac8316cbc143fb43cfc9038a54d645400ed0fe13e54240256eec9271943f3"}, "tags": {"2.7.20180809223002--py_0": "sha256:662ac8316cbc143fb43cfc9038a54d645400ed0fe13e54240256eec9271943f3"}, "docker": "quay.io/biocontainers/schema-salad", "aliases": {"schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "avro": "/usr/local/bin/avro", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "doesitcache": "/usr/local/bin/doesitcache", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "chardetect": "/usr/local/bin/chardetect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/schema-salad.

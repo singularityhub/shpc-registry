@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ipyrad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ipyrad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ipyrad/container.yaml"
-updated_at: "2024-07-02 02:58:53.610822"
-latest: "0.9.95--pyh7cba7a3_0"
+updated_at: "2024-07-03 02:58:46.046174"
+latest: "0.9.96--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/ipyrad"
 aliases:
  - "ipcluster"
@@ -27,8 +27,9 @@ versions:
  - "0.9.66--pyh3252c3a_0"
  - "0.9.94--pyh7cba7a3_0"
  - "0.9.95--pyh7cba7a3_0"
+ - "0.9.96--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for ipyrad"
-config: {"url": "https://biocontainers.pro/tools/ipyrad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ipyrad", "latest": {"0.9.95--pyh7cba7a3_0": "sha256:ef6d8d8ad0302b1555b3a25745ebf14db8d36bb08f174c7a5c48dbbb4210a104"}, "tags": {"0.9.8--py_0": "sha256:ef4c19a2e963d9862cec2639a71404738d83e0352b61c0c6ed270516ec34479c", "0.9.66--pyh3252c3a_0": "sha256:47646e1b0c74073a16d3033a9176ea6e651dad555aae4e7fe102eef81e4f29c2", "0.9.94--pyh7cba7a3_0": "sha256:eac5aae085a8a8ebc91cba55ca8ef00f0b3bd0561040df970a9093f8fef34ed6", "0.9.95--pyh7cba7a3_0": "sha256:ef6d8d8ad0302b1555b3a25745ebf14db8d36bb08f174c7a5c48dbbb4210a104"}, "docker": "quay.io/biocontainers/ipyrad", "aliases": {"ipcluster": "/usr/local/bin/ipcluster", "ipcontroller": "/usr/local/bin/ipcontroller", "ipengine": "/usr/local/bin/ipengine", "ipyrad": "/usr/local/bin/ipyrad", "mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "cutadapt": "/usr/local/bin/cutadapt", "vsearch": "/usr/local/bin/vsearch", "jupyter-kernel": "/usr/local/bin/jupyter-kernel"}}
+config: {"url": "https://biocontainers.pro/tools/ipyrad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ipyrad", "latest": {"0.9.96--pyh7e72e81_0": "sha256:36df38ee1502f3ced29f44e207484b66d59f60880082942a039bbb3f8f7c9717"}, "tags": {"0.9.8--py_0": "sha256:ef4c19a2e963d9862cec2639a71404738d83e0352b61c0c6ed270516ec34479c", "0.9.66--pyh3252c3a_0": "sha256:47646e1b0c74073a16d3033a9176ea6e651dad555aae4e7fe102eef81e4f29c2", "0.9.94--pyh7cba7a3_0": "sha256:eac5aae085a8a8ebc91cba55ca8ef00f0b3bd0561040df970a9093f8fef34ed6", "0.9.95--pyh7cba7a3_0": "sha256:ef6d8d8ad0302b1555b3a25745ebf14db8d36bb08f174c7a5c48dbbb4210a104", "0.9.96--pyh7e72e81_0": "sha256:36df38ee1502f3ced29f44e207484b66d59f60880082942a039bbb3f8f7c9717"}, "docker": "quay.io/biocontainers/ipyrad", "aliases": {"ipcluster": "/usr/local/bin/ipcluster", "ipcontroller": "/usr/local/bin/ipcontroller", "ipengine": "/usr/local/bin/ipengine", "ipyrad": "/usr/local/bin/ipyrad", "mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "cutadapt": "/usr/local/bin/cutadapt", "vsearch": "/usr/local/bin/vsearch", "jupyter-kernel": "/usr/local/bin/jupyter-kernel"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ipyrad.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/ipyrad
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ipyrad:0.9.95--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/ipyrad:0.9.96--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ipyrad/0.9.95--pyh7cba7a3_0
-$ module help quay.io/biocontainers/ipyrad/0.9.95--pyh7cba7a3_0
+$ module load quay.io/biocontainers/ipyrad/0.9.96--pyh7e72e81_0
+$ module help quay.io/biocontainers/ipyrad/0.9.96--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

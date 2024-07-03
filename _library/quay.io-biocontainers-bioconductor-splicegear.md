@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-splicegear"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-splicegear/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-splicegear/container.yaml"
-updated_at: "2024-07-02 03:03:57.401758"
+updated_at: "2024-07-03 03:03:56.736115"
 latest: "1.58.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-splicegear"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.58.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-splicegear"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-splicegear", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-splicegear", "latest": {"1.58.0--r36_0": "sha256:0250b66196097524545d58432b664acb759bf12d76347b47c1557e038695db96"}, "tags": {"1.58.0--r36_0": "sha256:0250b66196097524545d58432b664acb759bf12d76347b47c1557e038695db96"}, "docker": "quay.io/biocontainers/bioconductor-splicegear", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-splicegear", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-splicegear", "latest": {"1.58.0--r36_0": "sha256:bd38dee888c7b8fe63f0975eddd38d257ba3cc374e20c9d8cc9be2c68dcc72e6"}, "tags": {"1.58.0--r36_0": "sha256:bd38dee888c7b8fe63f0975eddd38d257ba3cc374e20c9d8cc9be2c68dcc72e6"}, "docker": "quay.io/biocontainers/bioconductor-splicegear", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-splicegear.

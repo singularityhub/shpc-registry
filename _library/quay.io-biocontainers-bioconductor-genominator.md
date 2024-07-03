@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genominator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genominator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genominator/container.yaml"
-updated_at: "2024-07-02 02:56:01.402642"
+updated_at: "2024-07-03 02:55:50.059009"
 latest: "1.40.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genominator"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.40.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genominator"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genominator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genominator", "latest": {"1.40.0--r36_0": "sha256:9f4d62944c8424bcdcd8521d7f1fbca2c0be32ca3e360c28b248b6a898b7f54a"}, "tags": {"1.40.0--r36_0": "sha256:9f4d62944c8424bcdcd8521d7f1fbca2c0be32ca3e360c28b248b6a898b7f54a"}, "docker": "quay.io/biocontainers/bioconductor-genominator", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genominator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genominator", "latest": {"1.40.0--r36_0": "sha256:1e8f9174017876712767f62a34abc17e79ff91474c45e902df7032f7c738bf32"}, "tags": {"1.40.0--r36_0": "sha256:1e8f9174017876712767f62a34abc17e79ff91474c45e902df7032f7c738bf32"}, "docker": "quay.io/biocontainers/bioconductor-genominator", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genominator.

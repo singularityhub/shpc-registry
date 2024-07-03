@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sga/container.yaml"
-updated_at: "2024-07-02 03:15:10.029936"
-latest: "0.10.15--h0dced8c_8"
+updated_at: "2024-07-03 03:15:24.831118"
+latest: "0.10.15--hb0b4c81_9"
 container_url: "https://biocontainers.pro/tools/sga"
 aliases:
  - "sga"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.10.15--h4dc6686_7"
  - "0.10.15--h0dced8c_8"
+ - "0.10.15--hb0b4c81_9"
 description: "shpc-registry automated BioContainers addition for sga"
-config: {"url": "https://biocontainers.pro/tools/sga", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sga", "latest": {"0.10.15--h0dced8c_8": "sha256:896570c168865ffd12d38a674a1989b80763d132aec8725dc8c0c62846a5b6e6"}, "tags": {"0.10.15--h4dc6686_7": "sha256:f490091d6ff477a3e47caa623526f3877a9e9ccf23a062e642ffaf9c2d502b35", "0.10.15--h0dced8c_8": "sha256:896570c168865ffd12d38a674a1989b80763d132aec8725dc8c0c62846a5b6e6"}, "docker": "quay.io/biocontainers/sga", "aliases": {"sga": "/usr/local/bin/sga", "sga-astat.py": "/usr/local/bin/sga-astat.py", "sga-bam2de.pl": "/usr/local/bin/sga-bam2de.pl", "sga-mergeDriver.pl": "/usr/local/bin/sga-mergeDriver.pl", "bamtools": "/usr/local/bin/bamtools"}}
+config: {"url": "https://biocontainers.pro/tools/sga", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sga", "latest": {"0.10.15--hb0b4c81_9": "sha256:2f677d6ee96d0aec147f4e4442863118b550899bb65832a6f1894af00b2c39a8"}, "tags": {"0.10.15--h4dc6686_7": "sha256:f490091d6ff477a3e47caa623526f3877a9e9ccf23a062e642ffaf9c2d502b35", "0.10.15--h0dced8c_8": "sha256:896570c168865ffd12d38a674a1989b80763d132aec8725dc8c0c62846a5b6e6", "0.10.15--hb0b4c81_9": "sha256:2f677d6ee96d0aec147f4e4442863118b550899bb65832a6f1894af00b2c39a8"}, "docker": "quay.io/biocontainers/sga", "aliases": {"sga": "/usr/local/bin/sga", "sga-astat.py": "/usr/local/bin/sga-astat.py", "sga-bam2de.pl": "/usr/local/bin/sga-bam2de.pl", "sga-mergeDriver.pl": "/usr/local/bin/sga-mergeDriver.pl", "bamtools": "/usr/local/bin/bamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sga.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/sga
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sga:0.10.15--h0dced8c_8
+$ shpc install quay.io/biocontainers/sga:0.10.15--hb0b4c81_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sga/0.10.15--h0dced8c_8
-$ module help quay.io/biocontainers/sga/0.10.15--h0dced8c_8
+$ module load quay.io/biocontainers/sga/0.10.15--hb0b4c81_9
+$ module help quay.io/biocontainers/sga/0.10.15--hb0b4c81_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

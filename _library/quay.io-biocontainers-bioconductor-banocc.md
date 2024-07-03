@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-banocc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-banocc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-banocc/container.yaml"
-updated_at: "2024-07-02 02:36:54.607196"
+updated_at: "2024-07-03 02:36:18.241076"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-banocc"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-banocc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-banocc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-banocc", "latest": {"1.26.0--r43hdfd78af_0": "sha256:8615693d182d0bff3edb098024b6d5d1b78edb07ce5e5b644ec5a941d2ab8991"}, "tags": {"1.8.0--r36_1": "sha256:194db4135dfbaa296f68d27b071cec6e8f532cc644d994b8341f5d35f900ebdd", "1.18.0--r41hdfd78af_0": "sha256:238ef251f0aeabb4d9afd65bf2683dd7db14d928e3e86922434a9fd4f4beaec1", "1.16.0--r41hdfd78af_0": "sha256:01010ab2e2bc5d2eda408278ce9981f157e0bca2af1c2574ea17ed5b66ab2764", "1.14.0--r40hdfd78af_1": "sha256:64d61c7acaf961d1f55b3994b16f03d387c5a06d9db9345e98e725aac3120d38", "1.12.0--r40_0": "sha256:a6d49cd5f71efaea434139a40bcfd13d758658145c68a132a643cf1f61954039", "1.10.0--r36_0": "sha256:265b4f66ee25c230e07fa4ae20f39291f47c246fbd64e8b54a5c3103100e08ef", "1.22.0--r42hdfd78af_0": "sha256:fa85ed1c2660bb32a658c29267e0808fd61a1fc73ad11d164108422ce3d7306c", "1.24.0--r43hdfd78af_0": "sha256:51c4cbf470915e8013697765ad0d2f7bec3819e25d5aba197fd172f885b5b777", "1.26.0--r43hdfd78af_0": "sha256:8615693d182d0bff3edb098024b6d5d1b78edb07ce5e5b644ec5a941d2ab8991"}, "docker": "quay.io/biocontainers/bioconductor-banocc", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-banocc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-banocc", "latest": {"1.26.0--r43hdfd78af_0": "sha256:8615693d182d0bff3edb098024b6d5d1b78edb07ce5e5b644ec5a941d2ab8991"}, "tags": {"1.8.0--r36_1": "sha256:ab6cbba4ab0c42f4911149d4aa0b2c0f92f69a2b7a6891f0f6b348384ddbc49e", "1.18.0--r41hdfd78af_0": "sha256:238ef251f0aeabb4d9afd65bf2683dd7db14d928e3e86922434a9fd4f4beaec1", "1.16.0--r41hdfd78af_0": "sha256:01010ab2e2bc5d2eda408278ce9981f157e0bca2af1c2574ea17ed5b66ab2764", "1.14.0--r40hdfd78af_1": "sha256:64d61c7acaf961d1f55b3994b16f03d387c5a06d9db9345e98e725aac3120d38", "1.12.0--r40_0": "sha256:a6d49cd5f71efaea434139a40bcfd13d758658145c68a132a643cf1f61954039", "1.10.0--r36_0": "sha256:f399200f135e51e987cbfdc478f282ecd83768d8dc11eb2b1656ff4db36c1d65", "1.22.0--r42hdfd78af_0": "sha256:fa85ed1c2660bb32a658c29267e0808fd61a1fc73ad11d164108422ce3d7306c", "1.24.0--r43hdfd78af_0": "sha256:51c4cbf470915e8013697765ad0d2f7bec3819e25d5aba197fd172f885b5b777", "1.26.0--r43hdfd78af_0": "sha256:8615693d182d0bff3edb098024b6d5d1b78edb07ce5e5b644ec5a941d2ab8991"}, "docker": "quay.io/biocontainers/bioconductor-banocc", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-banocc.

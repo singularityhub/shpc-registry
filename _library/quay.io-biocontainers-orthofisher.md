@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/orthofisher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orthofisher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orthofisher/container.yaml"
-updated_at: "2024-07-02 03:15:51.970338"
-latest: "1.1.0--pyhdfd78af_0"
+updated_at: "2024-07-03 03:16:07.624506"
+latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/orthofisher"
 aliases:
  - "orthofisher"
@@ -17,8 +17,9 @@ aliases:
  - "tqdm"
 versions:
  - "1.1.0--pyhdfd78af_0"
+ - "1.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for orthofisher"
-config: {"url": "https://biocontainers.pro/tools/orthofisher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for orthofisher", "latest": {"1.1.0--pyhdfd78af_0": "sha256:1cdafeb1daa995bef7fefe926e8f7b9f96aaf6b034b2ae89a7fb3b834bbb2831"}, "tags": {"1.1.0--pyhdfd78af_0": "sha256:1cdafeb1daa995bef7fefe926e8f7b9f96aaf6b034b2ae89a7fb3b834bbb2831"}, "docker": "quay.io/biocontainers/orthofisher", "aliases": {"orthofisher": "/usr/local/bin/orthofisher", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/orthofisher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for orthofisher", "latest": {"1.1.1--pyhdfd78af_0": "sha256:426a055b02b667afa46417a4d51819dac862361dc53962ce114de9f36a33fc85"}, "tags": {"1.1.0--pyhdfd78af_0": "sha256:1cdafeb1daa995bef7fefe926e8f7b9f96aaf6b034b2ae89a7fb3b834bbb2831", "1.1.1--pyhdfd78af_0": "sha256:426a055b02b667afa46417a4d51819dac862361dc53962ce114de9f36a33fc85"}, "docker": "quay.io/biocontainers/orthofisher", "aliases": {"orthofisher": "/usr/local/bin/orthofisher", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/orthofisher.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/orthofisher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/orthofisher:1.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/orthofisher:1.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/orthofisher/1.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/orthofisher/1.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/orthofisher/1.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/orthofisher/1.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyaml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyaml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyaml/container.yaml"
-updated_at: "2024-07-02 02:56:24.944028"
+updated_at: "2024-07-03 02:56:14.108440"
 latest: "15.8.2--py36_0"
 container_url: "https://biocontainers.pro/tools/pyaml"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "15.8.2--py36_0"
+ - "15.8.2--py35_0"
 description: "shpc-registry automated BioContainers addition for pyaml"
-config: {"url": "https://biocontainers.pro/tools/pyaml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyaml", "latest": {"15.8.2--py36_0": "sha256:f83fecb3e5fcc6733b39294855ccd2f05628faab9bb761ef98f8c460d0fd5d7c"}, "tags": {"15.8.2--py36_0": "sha256:f83fecb3e5fcc6733b39294855ccd2f05628faab9bb761ef98f8c460d0fd5d7c"}, "docker": "quay.io/biocontainers/pyaml", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/pyaml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyaml", "latest": {"15.8.2--py36_0": "sha256:1d419440500e237634729f462174cc02f6c3ce0d1b4738eeae60dcaebab6ea32"}, "tags": {"15.8.2--py36_0": "sha256:1d419440500e237634729f462174cc02f6c3ce0d1b4738eeae60dcaebab6ea32", "15.8.2--py35_0": "sha256:106889e2ca7dd240f9531a8d0d63ce8caf989274ce804271300630da645beaba"}, "docker": "quay.io/biocontainers/pyaml", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyaml.

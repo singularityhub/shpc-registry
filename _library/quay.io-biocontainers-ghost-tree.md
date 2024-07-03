@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/ghost-tree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ghost-tree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ghost-tree/container.yaml"
-updated_at: "2024-07-02 02:56:44.850887"
+updated_at: "2024-07-03 02:56:34.433801"
 latest: "0.2.2--py_1"
 container_url: "https://biocontainers.pro/tools/ghost-tree"
 
 versions:
  - "0.2.2--py_1"
 description: "shpc-registry automated BioContainers addition for ghost-tree"
-config: {"url": "https://biocontainers.pro/tools/ghost-tree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ghost-tree", "latest": {"0.2.2--py_1": "sha256:a59499f5b3275189a0238ea5752bc523de00846c140a524ca60e2d5ed2e69250"}, "tags": {"0.2.2--py_1": "sha256:a59499f5b3275189a0238ea5752bc523de00846c140a524ca60e2d5ed2e69250"}, "docker": "quay.io/biocontainers/ghost-tree"}
+config: {"url": "https://biocontainers.pro/tools/ghost-tree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ghost-tree", "latest": {"0.2.2--py_1": "sha256:c490af82b43c3090e908134bd9cc9cabc18a4f055f9e575b3f06364652356bf8"}, "tags": {"0.2.2--py_1": "sha256:c490af82b43c3090e908134bd9cc9cabc18a4f055f9e575b3f06364652356bf8"}, "docker": "quay.io/biocontainers/ghost-tree"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ghost-tree.

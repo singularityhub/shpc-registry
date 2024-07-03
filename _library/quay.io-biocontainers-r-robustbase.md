@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-robustbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-robustbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-robustbase/container.yaml"
-updated_at: "2024-07-02 03:04:41.786828"
+updated_at: "2024-07-03 03:04:42.168622"
 latest: "0.92_6--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-robustbase"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "0.92_6--r3.3.1_1"
 description: "shpc-registry automated BioContainers addition for r-robustbase"
-config: {"url": "https://biocontainers.pro/tools/r-robustbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-robustbase", "latest": {"0.92_6--r3.3.1_1": "sha256:63f14cee839f434349c6021740e8dde686933812487e25be2d43e5e77ec1065d"}, "tags": {"0.92_6--r3.3.1_1": "sha256:63f14cee839f434349c6021740e8dde686933812487e25be2d43e5e77ec1065d"}, "docker": "quay.io/biocontainers/r-robustbase", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-robustbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-robustbase", "latest": {"0.92_6--r3.3.1_1": "sha256:e7f160855f5766add917dc136b913f43cd6cabafddc19e1748e558af51c61455"}, "tags": {"0.92_6--r3.3.1_1": "sha256:e7f160855f5766add917dc136b913f43cd6cabafddc19e1748e558af51c61455"}, "docker": "quay.io/biocontainers/r-robustbase", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-robustbase.

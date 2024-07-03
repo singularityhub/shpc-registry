@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-a4reporting"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-a4reporting/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-a4reporting/container.yaml"
-updated_at: "2024-07-02 02:41:24.949755"
+updated_at: "2024-07-03 02:40:54.462186"
 latest: "1.50.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-a4reporting"
 
@@ -14,7 +14,7 @@ versions:
  - "1.48.0--r43hdfd78af_0"
  - "1.50.0--r43hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-a4reporting"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-a4reporting", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-a4reporting", "latest": {"1.50.0--r43hdfd78af_1": "sha256:e1069cadb59bfa0a77e9030ed37ce677ceca5d005f0568f8feec6ab033e2d34d"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:9ceac085084893736e383f45959e9483c5d278f16bd797c7189d26ebae73a491", "1.46.0--r42hdfd78af_0": "sha256:308d8ad5c13aa978ad8248fe5ecac7368f7832f8ab801ded45f49afa446e61d2", "1.48.0--r43hdfd78af_0": "sha256:312f9502bcd80f49513adc973946e6818a05cee946cf09de021cbcb3adbc41dc", "1.50.0--r43hdfd78af_1": "sha256:e1069cadb59bfa0a77e9030ed37ce677ceca5d005f0568f8feec6ab033e2d34d"}, "docker": "quay.io/biocontainers/bioconductor-a4reporting"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-a4reporting", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-a4reporting", "latest": {"1.50.0--r43hdfd78af_1": "sha256:e1069cadb59bfa0a77e9030ed37ce677ceca5d005f0568f8feec6ab033e2d34d"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:9ceac085084893736e383f45959e9483c5d278f16bd797c7189d26ebae73a491", "1.46.0--r42hdfd78af_0": "sha256:308d8ad5c13aa978ad8248fe5ecac7368f7832f8ab801ded45f49afa446e61d2", "1.48.0--r43hdfd78af_0": "sha256:ab4f937286db3c6800bb82cdf4204cba38e0cacfbe5b705908767dd021db1683", "1.50.0--r43hdfd78af_1": "sha256:e1069cadb59bfa0a77e9030ed37ce677ceca5d005f0568f8feec6ab033e2d34d"}, "docker": "quay.io/biocontainers/bioconductor-a4reporting"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-a4reporting.

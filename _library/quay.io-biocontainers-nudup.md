@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nudup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nudup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nudup/container.yaml"
-updated_at: "2024-07-02 02:37:52.816235"
+updated_at: "2024-07-03 02:37:17.771247"
 latest: "2.3.3--py_2"
 container_url: "https://biocontainers.pro/tools/nudup"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "2.3.3--py_2"
 description: "shpc-registry automated BioContainers addition for nudup"
-config: {"url": "https://biocontainers.pro/tools/nudup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nudup", "latest": {"2.3.3--py_2": "sha256:33d15014310fe929682c7b24ee9c938b32e1965ee2e32d92613ed08f80afefe7"}, "tags": {"2.3.3--py_2": "sha256:33d15014310fe929682c7b24ee9c938b32e1965ee2e32d92613ed08f80afefe7"}, "docker": "quay.io/biocontainers/nudup", "aliases": {"nudup.py": "/usr/local/bin/nudup.py", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon"}}
+config: {"url": "https://biocontainers.pro/tools/nudup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nudup", "latest": {"2.3.3--py_2": "sha256:30553bb668d4dcfc28f30ddf91a79186139b92d4d57662b73ef06013c8dd8ee2"}, "tags": {"2.3.3--py_2": "sha256:30553bb668d4dcfc28f30ddf91a79186139b92d4d57662b73ef06013c8dd8ee2"}, "docker": "quay.io/biocontainers/nudup", "aliases": {"nudup.py": "/usr/local/bin/nudup.py", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nudup.

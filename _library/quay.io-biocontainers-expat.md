@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/expat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/expat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/expat/container.yaml"
-updated_at: "2024-07-02 03:15:55.265634"
+updated_at: "2024-07-03 03:16:11.010292"
 latest: "2.1.0--0"
 container_url: "https://biocontainers.pro/tools/expat"
 
 versions:
  - "2.1.0--0"
 description: "shpc-registry automated BioContainers addition for expat"
-config: {"url": "https://biocontainers.pro/tools/expat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for expat", "latest": {"2.1.0--0": "sha256:66b31c6f6e2771418f024b60a5582907dc792971b25cd72ce7718967b568523f"}, "tags": {"2.1.0--0": "sha256:66b31c6f6e2771418f024b60a5582907dc792971b25cd72ce7718967b568523f"}, "docker": "quay.io/biocontainers/expat"}
+config: {"url": "https://biocontainers.pro/tools/expat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for expat", "latest": {"2.1.0--0": "sha256:b3b14f342a85ba6ed9b146a886a2d61b051567e62f2a514569d79affb3c996c9"}, "tags": {"2.1.0--0": "sha256:b3b14f342a85ba6ed9b146a886a2d61b051567e62f2a514569d79affb3c996c9"}, "docker": "quay.io/biocontainers/expat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/expat.

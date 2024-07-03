@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/slang"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slang/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slang/container.yaml"
-updated_at: "2024-07-02 03:15:45.893462"
+updated_at: "2024-07-03 03:16:01.444973"
 latest: "2.3.0--hd3527cb_3"
 container_url: "https://biocontainers.pro/tools/slang"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "2.3.0--hd3527cb_3"
 description: "shpc-registry automated BioContainers addition for slang"
-config: {"url": "https://biocontainers.pro/tools/slang", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for slang", "latest": {"2.3.0--hd3527cb_3": "sha256:8a2353f709f20e9310ca7587d399907287de2df144d637efd95255ddbba446a1"}, "tags": {"2.3.0--hd3527cb_3": "sha256:8a2353f709f20e9310ca7587d399907287de2df144d637efd95255ddbba446a1"}, "docker": "quay.io/biocontainers/slang", "aliases": {"slsh": "/usr/local/bin/slsh", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/slang", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for slang", "latest": {"2.3.0--hd3527cb_3": "sha256:fbe70303bc629250d75f5a887abb39458565bfb18ec2412331361c454bae0bf0"}, "tags": {"2.3.0--hd3527cb_3": "sha256:fbe70303bc629250d75f5a887abb39458565bfb18ec2412331361c454bae0bf0"}, "docker": "quay.io/biocontainers/slang", "aliases": {"slsh": "/usr/local/bin/slsh", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/slang.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/digestiflow-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/digestiflow-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/digestiflow-cli/container.yaml"
-updated_at: "2024-07-02 03:12:53.767558"
-latest: "0.5.8--h5076881_5"
+updated_at: "2024-07-03 03:13:05.440995"
+latest: "0.5.8--h5076881_6"
 container_url: "https://biocontainers.pro/tools/digestiflow-cli"
 aliases:
  - "digestiflow-cli"
 versions:
  - "0.5.8--h1f4ba0c_3"
  - "0.5.8--h5076881_5"
+ - "0.5.8--h5076881_6"
 description: "shpc-registry automated BioContainers addition for digestiflow-cli"
-config: {"url": "https://biocontainers.pro/tools/digestiflow-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for digestiflow-cli", "latest": {"0.5.8--h5076881_5": "sha256:f5fc07cfd49ee4d83259df6bc848c731fd0d384023c109cdc4537dfb1e7fc514"}, "tags": {"0.5.8--h1f4ba0c_3": "sha256:ef54a57a006785c13f8c45a5fa0851ef22dd4a01d051182fde086c2a4e51af59", "0.5.8--h5076881_5": "sha256:f5fc07cfd49ee4d83259df6bc848c731fd0d384023c109cdc4537dfb1e7fc514"}, "docker": "quay.io/biocontainers/digestiflow-cli", "aliases": {"digestiflow-cli": "/usr/local/bin/digestiflow-cli"}}
+config: {"url": "https://biocontainers.pro/tools/digestiflow-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for digestiflow-cli", "latest": {"0.5.8--h5076881_6": "sha256:fcf20ef67d459788e7dcddf90d1747c34d8cf75fdfa4f569b8198a1ac8a74936"}, "tags": {"0.5.8--h1f4ba0c_3": "sha256:ef54a57a006785c13f8c45a5fa0851ef22dd4a01d051182fde086c2a4e51af59", "0.5.8--h5076881_5": "sha256:f5fc07cfd49ee4d83259df6bc848c731fd0d384023c109cdc4537dfb1e7fc514", "0.5.8--h5076881_6": "sha256:fcf20ef67d459788e7dcddf90d1747c34d8cf75fdfa4f569b8198a1ac8a74936"}, "docker": "quay.io/biocontainers/digestiflow-cli", "aliases": {"digestiflow-cli": "/usr/local/bin/digestiflow-cli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/digestiflow-cli.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/digestiflow-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/digestiflow-cli:0.5.8--h5076881_5
+$ shpc install quay.io/biocontainers/digestiflow-cli:0.5.8--h5076881_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/digestiflow-cli/0.5.8--h5076881_5
-$ module help quay.io/biocontainers/digestiflow-cli/0.5.8--h5076881_5
+$ module load quay.io/biocontainers/digestiflow-cli/0.5.8--h5076881_6
+$ module help quay.io/biocontainers/digestiflow-cli/0.5.8--h5076881_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

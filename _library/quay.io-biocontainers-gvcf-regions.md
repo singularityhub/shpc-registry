@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gvcf-regions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gvcf-regions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gvcf-regions/container.yaml"
-updated_at: "2024-07-02 03:04:42.337236"
+updated_at: "2024-07-03 03:04:42.734537"
 latest: "2016.06.23--py_1"
 container_url: "https://biocontainers.pro/tools/gvcf-regions"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "2016.06.23--py_1"
 description: "shpc-registry automated BioContainers addition for gvcf-regions"
-config: {"url": "https://biocontainers.pro/tools/gvcf-regions", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gvcf-regions", "latest": {"2016.06.23--py_1": "sha256:66cc2f47f1d2fe24c848c35fb95d0ab822995d6715ee27240603f89c2ea9ca97"}, "tags": {"2016.06.23--py_1": "sha256:66cc2f47f1d2fe24c848c35fb95d0ab822995d6715ee27240603f89c2ea9ca97"}, "docker": "quay.io/biocontainers/gvcf-regions", "aliases": {"gvcf_regions.py": "/usr/local/bin/gvcf_regions.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/gvcf-regions", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gvcf-regions", "latest": {"2016.06.23--py_1": "sha256:a1ac959f1a074acf9566d8e56e4824e7890f33dcec70a7338e8e39f0f2687836"}, "tags": {"2016.06.23--py_1": "sha256:a1ac959f1a074acf9566d8e56e4824e7890f33dcec70a7338e8e39f0f2687836"}, "docker": "quay.io/biocontainers/gvcf-regions", "aliases": {"gvcf_regions.py": "/usr/local/bin/gvcf_regions.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gvcf-regions.

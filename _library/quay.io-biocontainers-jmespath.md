@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jmespath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jmespath/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jmespath/container.yaml"
-updated_at: "2024-07-02 02:56:26.043686"
+updated_at: "2024-07-03 02:56:15.232576"
 latest: "0.9.0--py36_0"
 container_url: "https://biocontainers.pro/tools/jmespath"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "pyvenv-3.6"
 versions:
  - "0.9.0--py36_0"
+ - "0.9.0--py35_0"
 description: "shpc-registry automated BioContainers addition for jmespath"
-config: {"url": "https://biocontainers.pro/tools/jmespath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jmespath", "latest": {"0.9.0--py36_0": "sha256:958cdd61028e97f2efbf489feee625e4ee66bf2a25b91a06356b7c7e3266f53e"}, "tags": {"0.9.0--py36_0": "sha256:958cdd61028e97f2efbf489feee625e4ee66bf2a25b91a06356b7c7e3266f53e"}, "docker": "quay.io/biocontainers/jmespath", "aliases": {"jp.py": "/usr/local/bin/jp.py", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/jmespath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jmespath", "latest": {"0.9.0--py36_0": "sha256:fc947a02d2de166f4978366a10c23d7758785ab27181d3c25aa237f82604312b"}, "tags": {"0.9.0--py36_0": "sha256:fc947a02d2de166f4978366a10c23d7758785ab27181d3c25aa237f82604312b", "0.9.0--py35_0": "sha256:50db9f21df697114bda9a31f2de17827d8ed7d73b7c8e177bd818970145b6e90"}, "docker": "quay.io/biocontainers/jmespath", "aliases": {"jp.py": "/usr/local/bin/jp.py", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jmespath.

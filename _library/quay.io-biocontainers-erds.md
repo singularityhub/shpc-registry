@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/erds"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/erds/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/erds/container.yaml"
-updated_at: "2024-07-02 03:12:44.954236"
+updated_at: "2024-07-03 03:12:56.417506"
 latest: "1.1--pl5.22.0_1"
 container_url: "https://biocontainers.pro/tools/erds"
 aliases:
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "1.1--pl5.22.0_1"
 description: "shpc-registry automated BioContainers addition for erds"
-config: {"url": "https://biocontainers.pro/tools/erds", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for erds", "latest": {"1.1--pl5.22.0_1": "sha256:435894eb748ddc68e85b328f5f24fc595730949411792df20f5afc7a434289ef"}, "tags": {"1.1--pl5.22.0_1": "sha256:435894eb748ddc68e85b328f5f24fc595730949411792df20f5afc7a434289ef"}, "docker": "quay.io/biocontainers/erds", "aliases": {"erds_pipeline": "/usr/local/bin/erds_pipeline", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "samtools": "/usr/local/bin/samtools", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/erds", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for erds", "latest": {"1.1--pl5.22.0_1": "sha256:ac9120aaa3653e5f51b5109efbd9bfbd57b4c029ac7c0f79f2cfe06f351321c2"}, "tags": {"1.1--pl5.22.0_1": "sha256:ac9120aaa3653e5f51b5109efbd9bfbd57b4c029ac7c0f79f2cfe06f351321c2"}, "docker": "quay.io/biocontainers/erds", "aliases": {"erds_pipeline": "/usr/local/bin/erds_pipeline", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "samtools": "/usr/local/bin/samtools", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/erds.

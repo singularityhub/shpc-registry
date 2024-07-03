@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-future"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-future/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-future/container.yaml"
-updated_at: "2024-07-02 02:45:47.772994"
+updated_at: "2024-07-03 02:45:22.956560"
 latest: "1.2.0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-future"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.2.0--r3.3.2_0"
+ - "1.2.0--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-future"
-config: {"url": "https://biocontainers.pro/tools/r-future", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-future", "latest": {"1.2.0--r3.3.2_0": "sha256:aa9cf183d5fd844ad2be321a5ee7428f7dd9aa4bc65999ecfd89c7364754b144"}, "tags": {"1.2.0--r3.3.2_0": "sha256:aa9cf183d5fd844ad2be321a5ee7428f7dd9aa4bc65999ecfd89c7364754b144"}, "docker": "quay.io/biocontainers/r-future", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-future", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-future", "latest": {"1.2.0--r3.3.2_0": "sha256:aac453f51e35f8f4f7427ce0ab8d991bfe321065b91f7fb7d4c34eae54344a7f"}, "tags": {"1.2.0--r3.3.2_0": "sha256:aac453f51e35f8f4f7427ce0ab8d991bfe321065b91f7fb7d4c34eae54344a7f", "1.2.0--r3.3.1_0": "sha256:6412abcde4dae0113e7dfb191dcda46152a74ee84a7810280ec9277302b5a6b9"}, "docker": "quay.io/biocontainers/r-future", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-future.

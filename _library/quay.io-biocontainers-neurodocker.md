@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/neurodocker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/neurodocker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/neurodocker/container.yaml"
-updated_at: "2024-07-02 02:40:56.569460"
+updated_at: "2024-07-03 02:40:25.470049"
 latest: "0.5.0--py_0"
 container_url: "https://biocontainers.pro/tools/neurodocker"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.5.0--py_0"
 description: "shpc-registry automated BioContainers addition for neurodocker"
-config: {"url": "https://biocontainers.pro/tools/neurodocker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for neurodocker", "latest": {"0.5.0--py_0": "sha256:15da860a99eaf1efc8792af833d1e9258525410f9e0859e0bd0ac69e58331a3a"}, "tags": {"0.5.0--py_0": "sha256:15da860a99eaf1efc8792af833d1e9258525410f9e0859e0bd0ac69e58331a3a"}, "docker": "quay.io/biocontainers/neurodocker", "aliases": {"neurodocker": "/usr/local/bin/neurodocker", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/neurodocker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for neurodocker", "latest": {"0.5.0--py_0": "sha256:a33365914e305ba69232179bb94c79205ad6e36c4b26a575464d80e5e34b7291"}, "tags": {"0.5.0--py_0": "sha256:a33365914e305ba69232179bb94c79205ad6e36c4b26a575464d80e5e34b7291"}, "docker": "quay.io/biocontainers/neurodocker", "aliases": {"neurodocker": "/usr/local/bin/neurodocker", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/neurodocker.
