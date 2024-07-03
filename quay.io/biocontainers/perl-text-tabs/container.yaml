@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/perl-text-tabs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-text-tabs
 latest:
-  2013.0523--pl526_1: sha256:67237fa3f96e037df27874d504bc6a25fc0c33c99f793b5113afa874f164b3b8
+  2013.0523--pl526_1: sha256:3ca3b2176301bee289bef1f3c42c17fa6287abf58e037642e87bb05ea84fc122
 tags:
-  2013.0523--pl526_1: sha256:67237fa3f96e037df27874d504bc6a25fc0c33c99f793b5113afa874f164b3b8
+  2013.0523--pl526_1: sha256:3ca3b2176301bee289bef1f3c42c17fa6287abf58e037642e87bb05ea84fc122
 docker: quay.io/biocontainers/perl-text-tabs

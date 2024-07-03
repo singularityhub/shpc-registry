@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/rdfextras
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rdfextras
 latest:
-  0.4--py27_3: sha256:9df9783037770790d839ffe13df026cf23ca034ffcdf9587bac659f10518c4ee
+  0.4--py27_3: sha256:96338ec5128085a9b55059b6911228a3a9abc274f2ebbe41e87752c1d4c3f754
 tags:
-  0.4--py27_3: sha256:9df9783037770790d839ffe13df026cf23ca034ffcdf9587bac659f10518c4ee
+  0.4--py27_3: sha256:96338ec5128085a9b55059b6911228a3a9abc274f2ebbe41e87752c1d4c3f754
 docker: quay.io/biocontainers/rdfextras
 aliases:
   csv2rdf: /usr/local/bin/csv2rdf

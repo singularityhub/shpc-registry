@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/enasearch
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for enasearch
 latest:
-  0.2.2--py_2: sha256:e577f6ab6508162f7e81f0fc03168c4165b0ac182694a160dd3cff055fbfac5f
+  0.2.2--py_2: sha256:787524ba32e8e658e1df8dd7c36a99ea126e8cc1bf6a5758ddfd5feee4c004e5
 tags:
-  0.2.2--py_2: sha256:e577f6ab6508162f7e81f0fc03168c4165b0ac182694a160dd3cff055fbfac5f
+  0.2.2--py_2: sha256:787524ba32e8e658e1df8dd7c36a99ea126e8cc1bf6a5758ddfd5feee4c004e5
 docker: quay.io/biocontainers/enasearch
 aliases:
   enasearch: /usr/local/bin/enasearch

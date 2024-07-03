@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gargammel-slim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gargammel-slim
 latest:
-  1.1.2--he905c8f_4: sha256:75225bbf40f945dd85a0f8f0f19b17e860711de4d198363f964f1bd7cd957c78
+  1.1.2--h06294c5_5: sha256:406a4e761043d95c4b241c51bb95e807d01e361cc780d99e1196c94d7f7d87c4
 tags:
   1.1.2--h51667aa_3: sha256:5c50f53b654e87eda75e90e1158ee2b8f53fefe2e7f145c3f444f45466abf5e1
   1.1.2--he905c8f_4: sha256:75225bbf40f945dd85a0f8f0f19b17e860711de4d198363f964f1bd7cd957c78
+  1.1.2--h06294c5_5: sha256:406a4e761043d95c4b241c51bb95e807d01e361cc780d99e1196c94d7f7d87c4
 docker: quay.io/biocontainers/gargammel-slim
 aliases:
   adptSim: /usr/local/bin/adptSim

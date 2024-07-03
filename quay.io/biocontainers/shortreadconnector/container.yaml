@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/shortreadconnector
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for shortreadconnector
 latest:
-  1.1.3--1: sha256:faf7d5f1ad475070c38c9994f3a8698e4711f46d5e6a22894047926408cb3109
+  1.1.3--1: sha256:c80e485cb6833a1d5f6cf263d6220e68e95296b167fb0e7648d74ef55d41a817
 tags:
-  1.1.3--1: sha256:faf7d5f1ad475070c38c9994f3a8698e4711f46d5e6a22894047926408cb3109
+  1.1.3--1: sha256:c80e485cb6833a1d5f6cf263d6220e68e95296b167fb0e7648d74ef55d41a817
 docker: quay.io/biocontainers/shortreadconnector
 aliases:
   SRC_counter: /usr/local/bin/SRC_counter

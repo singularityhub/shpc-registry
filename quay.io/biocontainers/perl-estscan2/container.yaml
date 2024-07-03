@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-estscan2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-estscan2
 latest:
-  2.1--pl526_2: sha256:5f79d2ef4d97d67a0fe3f2902dc6375a54d5a25111feca2e874e37255a85f019
+  2.1--pl526_2: sha256:d9c8b91885a537e9f7ebc7491a6fccd229fb1bba95cffbaa8fdcce6e5d8585af
 tags:
-  2.1--pl526_2: sha256:5f79d2ef4d97d67a0fe3f2902dc6375a54d5a25111feca2e874e37255a85f019
+  2.1--pl526_2: sha256:d9c8b91885a537e9f7ebc7491a6fccd229fb1bba95cffbaa8fdcce6e5d8585af
 docker: quay.io/biocontainers/perl-estscan2
 aliases:
   ESTScan: /usr/local/bin/ESTScan

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/superstr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for superstr
 latest:
-  1.0.1--h42b275d_3: sha256:ef42df2af6549be7bfb4d20de8f463ce5ab6f769700eb23ad3b2d3bd57316f5f
+  1.0.1--h39c91e6_4: sha256:163c954bb69b6520c5df55ee8ba204eba18f164982c14c00a9e7bccd74573b14
 tags:
   1.0.1--hb8809f8_1: sha256:29e787cd718ddb6258bdfc7755491b26bc99eb9e4b7559e501eb3fa8b41e42d8
   1.0.1--hfe8e0ed_2: sha256:93923ef0392233677b623edd5db59e64496515a6e4af3e4194664a192e6460d9
   1.0.1--h42b275d_3: sha256:ef42df2af6549be7bfb4d20de8f463ce5ab6f769700eb23ad3b2d3bd57316f5f
+  1.0.1--h39c91e6_4: sha256:163c954bb69b6520c5df55ee8ba204eba18f164982c14c00a9e7bccd74573b14
 docker: quay.io/biocontainers/superstr
 aliases:
   superstr: /usr/local/bin/superstr

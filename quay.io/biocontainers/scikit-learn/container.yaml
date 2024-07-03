@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/scikit-learn
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scikit-learn
 latest:
-  0.20.2: sha256:a69a470e71d5823bf38b454b44743eceba694e6c38bab59d21ef38ccc53e20ed
+  0.20.2: sha256:63bd34f6b4178f08c9890401bf37a24c16806c9dc516a8b5b783ffe54a15d85e
 tags:
-  0.20.2: sha256:a69a470e71d5823bf38b454b44743eceba694e6c38bab59d21ef38ccc53e20ed
+  0.20.2: sha256:63bd34f6b4178f08c9890401bf37a24c16806c9dc516a8b5b783ffe54a15d85e
 docker: quay.io/biocontainers/scikit-learn
 aliases:
   2to3-3.7: /usr/local/bin/2to3-3.7

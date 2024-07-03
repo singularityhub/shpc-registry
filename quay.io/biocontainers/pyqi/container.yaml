@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/pyqi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyqi
 latest:
-  0.3.2--py27_1: sha256:2eb252a6ca4792a86c936d833f2f38d98d965779050451b4a07ffb2370d3b4a9
+  0.3.2--py27_1: sha256:1e3fb214fdb279848fea7722c8c904c414c2cdc9d2f0427200d91358c563ccae
 tags:
-  0.3.2--py27_1: sha256:2eb252a6ca4792a86c936d833f2f38d98d965779050451b4a07ffb2370d3b4a9
+  0.3.2--py27_1: sha256:1e3fb214fdb279848fea7722c8c904c414c2cdc9d2f0427200d91358c563ccae
 docker: quay.io/biocontainers/pyqi
 aliases:
   pyqi: /usr/local/bin/pyqi

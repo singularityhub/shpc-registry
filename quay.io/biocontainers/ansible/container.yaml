@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/ansible
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ansible
 latest:
-  1.9.4--py27_0: sha256:37a18bea8ceb6152bc16d08666146067ae8a6012214d5d45b3e4f6344df6ceef
+  1.9.4--py27_0: sha256:cce04ca212631fbc8c37bea2bfbba36d0078561806cef2a29cb3d9b259dea8bd
 tags:
-  1.9.4--py27_0: sha256:37a18bea8ceb6152bc16d08666146067ae8a6012214d5d45b3e4f6344df6ceef
+  1.9.4--py27_0: sha256:cce04ca212631fbc8c37bea2bfbba36d0078561806cef2a29cb3d9b259dea8bd
 docker: quay.io/biocontainers/ansible
 aliases:
   ansible: /usr/local/bin/ansible

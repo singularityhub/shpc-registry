@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/ffgc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ffgc
 latest:
-  2.4.2--py311hdfd78af_0: sha256:9765171469e3127be8e73b0edf9d9ef2c709fc63c0a3d36f6630077492b86cac
+  2.4.2--py312h7e72e81_1: sha256:51e1d163dbaa10bb2669c1ef41d54f1a805dd253d9a5c7d6d7e431eff84a0fa0
 tags:
   2.4.1--py311hdfd78af_0: sha256:d6a078648a229e559c1e3dafa33abce087409240e8ee1d5c32d141f2968fd385
   2.4.2--py311hdfd78af_0: sha256:9765171469e3127be8e73b0edf9d9ef2c709fc63c0a3d36f6630077492b86cac
+  2.4.2--py312h7e72e81_1: sha256:51e1d163dbaa10bb2669c1ef41d54f1a805dd253d9a5c7d6d7e431eff84a0fa0
 docker: quay.io/biocontainers/ffgc
 aliases:
   ffgc_create_project.py: /usr/local/bin/ffgc_create_project.py

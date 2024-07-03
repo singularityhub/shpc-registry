@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/nanomath
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nanomath
 latest:
-  1.3.0--pyhdfd78af_0: sha256:8532c9dcc119bb3d07344804a04fef8d9db2e093d8369a064b42c8f58ff1415e
+  1.4.0--pyhdfd78af_0: sha256:5e940d9208e11e2767a55017288705eb29ebecc7399b938a748275bcc7ef2dd9
 tags:
   1.2.1--pyhdfd78af_0: sha256:a768a517d2a217db0c27f9e5312e3a6874800d65fe1e135887bfcf04fda3cfac
   1.3.0--pyhdfd78af_0: sha256:8532c9dcc119bb3d07344804a04fef8d9db2e093d8369a064b42c8f58ff1415e
+  1.4.0--pyhdfd78af_0: sha256:5e940d9208e11e2767a55017288705eb29ebecc7399b938a748275bcc7ef2dd9
 docker: quay.io/biocontainers/nanomath
 aliases:
   f2py3.9: /usr/local/bin/f2py3.9

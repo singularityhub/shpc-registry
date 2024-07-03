@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-tfmpvalue
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-tfmpvalue
 latest:
-  0.0.6--r3.3.1_0: sha256:2cdf5b52b75f8d3fa118fde9bac469bf0c39cc0c9dca2ef072785d6568f141fe
+  0.0.6--r3.3.1_0: sha256:65e872f7c1a88c567f8da62f98104eae4422b24f9228a28de2bfab9743b262c2
 tags:
-  0.0.6--r3.3.1_0: sha256:2cdf5b52b75f8d3fa118fde9bac469bf0c39cc0c9dca2ef072785d6568f141fe
-  0.0.6--r3.4.1_0: sha256:713b3ebc4091b838b7e919a23bfa285c9bb5d6909abba72df383af80caf32468
+  0.0.6--r3.3.1_0: sha256:65e872f7c1a88c567f8da62f98104eae4422b24f9228a28de2bfab9743b262c2
+  0.0.6--r3.4.1_0: sha256:12080e22f4e7e0cae5bef4805e04e6aae8b896481df96e46d38978290073f1c1
 docker: quay.io/biocontainers/r-tfmpvalue
 aliases:
   uconv: /usr/local/bin/uconv

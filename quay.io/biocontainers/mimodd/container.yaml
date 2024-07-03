@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/mimodd
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mimodd
 latest:
-  0.1.9--py36_0: sha256:891054c4a37eadca5433989561a2b31842e7e21f828d50a164afab4e1bd65804
+  0.1.9--py36_0: sha256:11be6ff59b04bc661a0140dd14e23cdb549c37000c228966a94614e225ca4f3d
 tags:
-  0.1.9--py36_0: sha256:891054c4a37eadca5433989561a2b31842e7e21f828d50a164afab4e1bd65804
-  0.1.9--py35_0: sha256:f2e503d22dd74c7e827b59c067d1ad91fada0bdd159c4a3727e818cbf7caac43
+  0.1.9--py36_0: sha256:11be6ff59b04bc661a0140dd14e23cdb549c37000c228966a94614e225ca4f3d
+  0.1.9--py35_0: sha256:e8deb2475da2e040235d580f999d6244cdf74cfb104afc2761525fe3b1b13a16
 docker: quay.io/biocontainers/mimodd
 aliases:
   BATCH: /usr/local/bin/BATCH

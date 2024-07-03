@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/intarna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for intarna
 latest:
-  3.4.0--pl5321h21ec9f0_1: sha256:b665cc3ea88bc74a9bf01ae8ff5b6f65e140acf89957e91f40091e71cbe73e76
+  3.4.0--pl5321hdcf5f25_2: sha256:056fa7e40f4038af398906ec1b4d6d6596e44741d3711d74616424c384b25163
 tags:
   3.3.2--pl5321h7ff8a90_0: sha256:eb5a581eca80ab15ad27e6abd2dc60d20425b563acc101ca5049951630094fc3
   3.3.2--pl5321h21ec9f0_1: sha256:72e67827518817a5ed15cf77c2c541c9c25824dbb6dc7ce4564541b1ca024e2b
   3.4.0--pl5321h21ec9f0_0: sha256:0f4ec4ced039013172ae1cc89a637195840a823d5e8b8d50e93e573758ea0103
   3.4.0--pl5321h21ec9f0_1: sha256:b665cc3ea88bc74a9bf01ae8ff5b6f65e140acf89957e91f40091e71cbe73e76
+  3.4.0--pl5321hdcf5f25_2: sha256:056fa7e40f4038af398906ec1b4d6d6596e44741d3711d74616424c384b25163
 docker: quay.io/biocontainers/intarna
 aliases:
   CopomuS.py: /usr/local/bin/CopomuS.py

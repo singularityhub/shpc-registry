@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-survey
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-survey
 latest:
-  3.31_5--r3.3.1_0: sha256:9276ccc66b46f1b7d5ecf515bc78a82c4a60ec14c2bed0c6133ab47c82c0fbed
+  3.31_5--r3.3.1_0: sha256:4cc1d97b9af47f2bd3bd94e51104a3c3d9e0d8b36686063c32ebd9c8c600f5fe
 tags:
-  3.31_5--r3.3.1_0: sha256:9276ccc66b46f1b7d5ecf515bc78a82c4a60ec14c2bed0c6133ab47c82c0fbed
-  3.31_5--r3.3.2_0: sha256:455f9af1d76ba2909af8c1addcc1cd2311967e4607aff9e61a793648a817eeb4
+  3.31_5--r3.3.1_0: sha256:4cc1d97b9af47f2bd3bd94e51104a3c3d9e0d8b36686063c32ebd9c8c600f5fe
+  3.31_5--r3.3.2_0: sha256:d7f63f805d394f09b2f637f0e376a530d52bca3ad801ab7beb50bf538bd67588
 docker: quay.io/biocontainers/r-survey
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

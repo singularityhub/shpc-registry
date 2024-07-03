@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-venndiagram
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-venndiagram
 latest:
-  1.6.16--r3.2.2_0: sha256:8881535b48bd317e32555b453aafd148ddffcecd8a088274af277e83dc428fa6
+  1.6.16--r3.2.2_0: sha256:a564dc6cc8e9bcc06caed6b856765c676ecb812db7be1c5712e48138671470fe
 tags:
-  1.6.16--r3.2.2_0: sha256:8881535b48bd317e32555b453aafd148ddffcecd8a088274af277e83dc428fa6
-  1.6.16--r3.3.2_0: sha256:e34b52c494463f6b65c729ee818d23a5e187313d4f1675d6c6c2ddc4fb8153bd
+  1.6.16--r3.2.2_0: sha256:a564dc6cc8e9bcc06caed6b856765c676ecb812db7be1c5712e48138671470fe
+  1.6.16--r3.3.2_0: sha256:dc62b5e33b51990afff8e0fb87fded615b28fcbd99167de6825e6adabc06c007
 docker: quay.io/biocontainers/r-venndiagram
 aliases:
   pngcp: /usr/local/bin/pngcp

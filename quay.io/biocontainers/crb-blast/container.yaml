@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for crb-blast
 latest:
   0.6.9--hdfd78af_0: sha256:8398d7ad34176c13e93fc852354f6da91fa30aad2faa029729b428b8f62e6a33
 tags:
-  0.6.6--2: sha256:db9c0129f5a0066fc39faf8eac646c29c5fdafad56c35fac7e3bcb7c4a616827
+  0.6.6--2: sha256:51a165d99e4ba6cec2179137711ac253f4a3409381e24aab1a6b26bbc68563e9
   0.6.9--hdfd78af_0: sha256:8398d7ad34176c13e93fc852354f6da91fa30aad2faa029729b428b8f62e6a33
 docker: quay.io/biocontainers/crb-blast
 aliases:

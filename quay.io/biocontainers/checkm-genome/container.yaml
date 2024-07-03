@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/checkm-genome
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for checkm-genome
 latest:
-  1.2.2--pyhdfd78af_1: sha256:c746d0ef763a97d920c1e0019ad4c50fd0d622ab5ee14f52d7f641a306205917
+  1.2.3--pyhdfd78af_0: sha256:5066c4de041e8c7d853f6b1687e73fea1af25475960d79c31271e76d652fbba8
 tags:
   1.2.1--pyhdfd78af_0: sha256:17878d360b193a74c71b35a0f3d1dd979c833d6e49e67eb9c2d7001f4b6d3eeb
   1.2.2--pyhdfd78af_0: sha256:d4c33d67b4f93df58b8237583d39b1c9219240fab54a8c1679bd5c281e70f715
   1.2.2--pyhdfd78af_1: sha256:c746d0ef763a97d920c1e0019ad4c50fd0d622ab5ee14f52d7f641a306205917
+  1.2.3--pyhdfd78af_0: sha256:5066c4de041e8c7d853f6b1687e73fea1af25475960d79c31271e76d652fbba8
 docker: quay.io/biocontainers/checkm-genome
 aliases:
   checkm: /usr/local/bin/checkm

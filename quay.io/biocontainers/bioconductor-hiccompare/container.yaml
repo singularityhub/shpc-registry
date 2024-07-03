@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for bioconductor-hic
 latest:
   1.24.0--r43hdfd78af_0: sha256:9448311979e38e0629d5d2b1bdd54baeadcb7a3038e9e9d566e03f41e194cd3b
 tags:
-  1.8.0--r36_0: sha256:6c993acbfa82672650843918e120e023a9f5ce2037dd58dd8ce09848da92541e
+  1.8.0--r36_0: sha256:089fade6a1cd33a5c5c7e1d4ca66a95d91c7e777aa15ca14c2818b0bc51926ee
   1.16.0--r41hdfd78af_0: sha256:24521c52588d7d49af326821df5931e22535e4710e95dceae9c9d621edfc4207
   1.14.0--r41hdfd78af_0: sha256:3726e872f94cf5cb164ed2d3327bec00a6632afa308a65becf5cee8fc0d6836d
   1.12.0--r40hdfd78af_1: sha256:6dfa720756eb163ddb8b6ad8d6667957edb2d8112ac51ff905298f1077f200ed

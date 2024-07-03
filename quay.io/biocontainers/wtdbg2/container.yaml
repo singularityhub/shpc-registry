@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/wtdbg2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for wtdbg2
 latest:
-  2.0--h470a237_0: sha256:d8ab2e3294912dff22a8eee51030696757c0eabac05cd9ba779d303c728b91e6
+  2.0--h470a237_0: sha256:acf11e19c6c431ca2ccb0270554e5a76087b5b650c150bf67dcd5f25f782bdfa
 tags:
-  2.0--h470a237_0: sha256:d8ab2e3294912dff22a8eee51030696757c0eabac05cd9ba779d303c728b91e6
+  2.0--h470a237_0: sha256:acf11e19c6c431ca2ccb0270554e5a76087b5b650c150bf67dcd5f25f782bdfa
 docker: quay.io/biocontainers/wtdbg2
 aliases:
   wtdbg-cns: /usr/local/bin/wtdbg-cns

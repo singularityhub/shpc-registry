@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/oncocnv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for oncocnv
 latest:
-  7.0--pl5321r42hdfd78af_0: sha256:28d5a8e4be4235c71df1f2f8e79c9fbff3cf313eccbc6682998de4bb8a6c4d25
+  7.0--pl5321r43hdfd78af_1: sha256:c307e21bb4952153f29dff06cbe5320cda43f28c9dbe49a6223567a0f29534ee
 tags:
   7.0--pl5321r42hdfd78af_0: sha256:28d5a8e4be4235c71df1f2f8e79c9fbff3cf313eccbc6682998de4bb8a6c4d25
+  7.0--pl5321r43hdfd78af_1: sha256:c307e21bb4952153f29dff06cbe5320cda43f28c9dbe49a6223567a0f29534ee
 docker: quay.io/biocontainers/oncocnv
 aliases:
   ONCOCNV_getCounts.pl: /usr/local/bin/ONCOCNV_getCounts.pl

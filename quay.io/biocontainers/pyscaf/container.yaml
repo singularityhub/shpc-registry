@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/pyscaf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyscaf
 latest:
-  0.12a4--py_3: sha256:0c2e029d77d7f01f8cc758fb2687c31852dce7e0288166b82ca8c6b565b0c91e
+  0.12a4--py_3: sha256:2021f83248ce2bda7b0415aaca28612c81d386f980dd4d70cf3f0c7942cc790e
 tags:
-  0.12a4--py_3: sha256:0c2e029d77d7f01f8cc758fb2687c31852dce7e0288166b82ca8c6b565b0c91e
+  0.12a4--py_3: sha256:2021f83248ce2bda7b0415aaca28612c81d386f980dd4d70cf3f0c7942cc790e
 docker: quay.io/biocontainers/pyscaf
 aliases:
   FastaIndex: /usr/local/bin/FastaIndex

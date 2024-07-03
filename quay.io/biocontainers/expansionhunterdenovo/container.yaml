@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/expansionhunterdenovo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for expansionhunterdenovo
 latest:
-  0.9.0--h3d7bc1b_7: sha256:373947bd0b025e91d0f2e3268ef6992625e6e83df325dbfaea790c8d2748caca
+  0.9.0--h6a68c12_8: sha256:aacf879ace7782bd8227244b4624a1cbb90328699f9ce4c7eeab099ddab956fb
 tags:
   0.9.0--h2369a32_5: sha256:3a9c318138bb85cdf0fa115c074ca45fe1d9f81e687df6bfd36e795ad6f7d664
   0.9.0--h705a5a4_6: sha256:d8770636202c1ae261af5a2f70422b232cf115bd0c87b22fe0ff606ddbde1c0d
   0.9.0--h3d7bc1b_7: sha256:373947bd0b025e91d0f2e3268ef6992625e6e83df325dbfaea790c8d2748caca
+  0.9.0--h6a68c12_8: sha256:aacf879ace7782bd8227244b4624a1cbb90328699f9ce4c7eeab099ddab956fb
 docker: quay.io/biocontainers/expansionhunterdenovo
 aliases:
   ExpansionHunterDenovo: /usr/local/bin/ExpansionHunterDenovo

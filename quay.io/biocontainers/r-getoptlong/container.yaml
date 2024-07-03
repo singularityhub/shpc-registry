@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-getoptlong
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-getoptlong
 latest:
-  0.1.0--r3.2.2_0: sha256:77f8b52d570ac07a1238459920e25105f043f823c0132aa0a53c1f0460b05bed
+  0.1.0--r3.2.2_0: sha256:676de65e6aea02ef2381300a6149aba2517e8118b64d68fde65468c1e15139ed
 tags:
-  0.1.0--r3.2.2_0: sha256:77f8b52d570ac07a1238459920e25105f043f823c0132aa0a53c1f0460b05bed
-  0.1.0--r3.3.2_0: sha256:6d6a731dd7486f5165633fc0dc23f6b8ad9dd429666d4a5f45ba32d71ee4b2c9
+  0.1.0--r3.2.2_0: sha256:676de65e6aea02ef2381300a6149aba2517e8118b64d68fde65468c1e15139ed
+  0.1.0--r3.3.2_0: sha256:104a90a3953540225dc0e3ed8d4e88a637cbfbe644375518a4efc5baaf0ecc5e
 docker: quay.io/biocontainers/r-getoptlong
 aliases:
   pngcp: /usr/local/bin/pngcp

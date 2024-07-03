@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/metavelvet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metavelvet
 latest:
-  1.2.02--pl5.22.0_2: sha256:566e07717adc92d58d83db8367c196a28641ac0553af3384a37553566b6037aa
+  1.2.02--pl5.22.0_2: sha256:624aac2ce6dc33987e53ad115746b303d8377a5a0df08d5eebf0be7f6f5928e0
 tags:
-  1.2.02--pl5.22.0_2: sha256:566e07717adc92d58d83db8367c196a28641ac0553af3384a37553566b6037aa
+  1.2.02--pl5.22.0_2: sha256:624aac2ce6dc33987e53ad115746b303d8377a5a0df08d5eebf0be7f6f5928e0
 docker: quay.io/biocontainers/metavelvet

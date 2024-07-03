@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/tombo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tombo
 latest:
-  1.0--py27_0: sha256:6f93d035e4d3bdd641e0b7e3070dcbce909ea115befa72af6f9c0b47d34fabdb
+  1.0--py27_0: sha256:44f25a3fc0800ddbe4d815aa127dfcb5841b7092c0e5fb2ce6aaa7325e607760
 tags:
-  1.0--py27_0: sha256:6f93d035e4d3bdd641e0b7e3070dcbce909ea115befa72af6f9c0b47d34fabdb
+  1.0--py27_0: sha256:44f25a3fc0800ddbe4d815aa127dfcb5841b7092c0e5fb2ce6aaa7325e607760
 docker: quay.io/biocontainers/tombo
 aliases:
   graphmap: /usr/local/bin/graphmap

@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-rocr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rocr
 latest:
-  1.0_7--r3.3.1_0: sha256:24475db61ebc41e63d41da5b366f4a3a8acde28c8ed460b3fa1567947038cc7f
+  1.0_7--r3.3.1_0: sha256:ca68276d28063c3a6470386ca8ce703085f58e53fe1fa4748297d1dc05ba2152
 tags:
-  1.0_7--r3.3.1_0: sha256:24475db61ebc41e63d41da5b366f4a3a8acde28c8ed460b3fa1567947038cc7f
-  1.0_7--r3.3.2_0: sha256:23948fcc40c3b95fa520369775fde1613c4fdc640c769408f78fb0b49314682c
+  1.0_7--r3.3.1_0: sha256:ca68276d28063c3a6470386ca8ce703085f58e53fe1fa4748297d1dc05ba2152
+  1.0_7--r3.3.2_0: sha256:c990e6283ba76fd858c214cbb157edb5d6495c3f0255a379b7f21722befe3c66
 docker: quay.io/biocontainers/r-rocr
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-scales
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-scales
 latest:
-  0.4.1--r3.3.1_1: sha256:33fb39cda142b837425d5b159e4d6102ab64ca759ea99fbef1f0e3540d4fadbf
+  0.4.1--r3.3.1_1: sha256:665e52355d4478dcaf85effff19e1211946950d684dc2b12c987c25a9db599b3
 tags:
-  0.4.1--r3.3.1_1: sha256:33fb39cda142b837425d5b159e4d6102ab64ca759ea99fbef1f0e3540d4fadbf
-  0.4.1--r3.3.2_1: sha256:723e7be40313113d1c3a00ffac5bb27e60b5accfcb1fd85ddb4d7d9fe6a87d3f
+  0.4.1--r3.3.1_1: sha256:665e52355d4478dcaf85effff19e1211946950d684dc2b12c987c25a9db599b3
+  0.4.1--r3.3.2_1: sha256:459a22150c2c1bf9861cffe7ef791caf393ea59954a8f535bc6d01f0ccf05b80
 docker: quay.io/biocontainers/r-scales
 aliases:
   uconv: /usr/local/bin/uconv
