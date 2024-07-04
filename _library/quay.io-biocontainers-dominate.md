@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dominate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dominate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dominate/container.yaml"
-updated_at: "2024-07-03 02:53:54.813792"
+updated_at: "2024-07-04 02:55:28.241444"
 latest: "2.1.16--py36_0"
 container_url: "https://biocontainers.pro/tools/dominate"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "2.1.16--py36_0"
 description: "shpc-registry automated BioContainers addition for dominate"
-config: {"url": "https://biocontainers.pro/tools/dominate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dominate", "latest": {"2.1.16--py36_0": "sha256:7db440e90ee2085da8b14a42fcc606c09d7153964b5673a2e1ad781809012277"}, "tags": {"2.1.16--py36_0": "sha256:7db440e90ee2085da8b14a42fcc606c09d7153964b5673a2e1ad781809012277"}, "docker": "quay.io/biocontainers/dominate", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/dominate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dominate", "latest": {"2.1.16--py36_0": "sha256:9d55f90aac228c0c40ebde60092e7639b5a2b277726ed2f6f772a7a8a2917032"}, "tags": {"2.1.16--py36_0": "sha256:9d55f90aac228c0c40ebde60092e7639b5a2b277726ed2f6f772a7a8a2917032"}, "docker": "quay.io/biocontainers/dominate", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dominate.

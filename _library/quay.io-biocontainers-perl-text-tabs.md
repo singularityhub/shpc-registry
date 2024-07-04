@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/perl-text-tabs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-tabs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-tabs/container.yaml"
-updated_at: "2024-07-03 03:19:35.253235"
+updated_at: "2024-07-04 03:21:13.616374"
 latest: "2013.0523--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-text-tabs"
 
 versions:
  - "2013.0523--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-text-tabs"
-config: {"url": "https://biocontainers.pro/tools/perl-text-tabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-text-tabs", "latest": {"2013.0523--pl526_1": "sha256:67237fa3f96e037df27874d504bc6a25fc0c33c99f793b5113afa874f164b3b8"}, "tags": {"2013.0523--pl526_1": "sha256:67237fa3f96e037df27874d504bc6a25fc0c33c99f793b5113afa874f164b3b8"}, "docker": "quay.io/biocontainers/perl-text-tabs"}
+config: {"url": "https://biocontainers.pro/tools/perl-text-tabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-text-tabs", "latest": {"2013.0523--pl526_1": "sha256:3ca3b2176301bee289bef1f3c42c17fa6287abf58e037642e87bb05ea84fc122"}, "tags": {"2013.0523--pl526_1": "sha256:3ca3b2176301bee289bef1f3c42c17fa6287abf58e037642e87bb05ea84fc122"}, "docker": "quay.io/biocontainers/perl-text-tabs"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-text-tabs.

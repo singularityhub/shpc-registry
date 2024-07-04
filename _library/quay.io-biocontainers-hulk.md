@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hulk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hulk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hulk/container.yaml"
-updated_at: "2024-07-03 02:46:38.508151"
+updated_at: "2024-07-04 02:48:10.526751"
 latest: "1.0.0--h375a9b1_0"
 container_url: "https://biocontainers.pro/tools/hulk"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.0.0--h375a9b1_0"
 description: "shpc-registry automated BioContainers addition for hulk"
-config: {"url": "https://biocontainers.pro/tools/hulk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hulk", "latest": {"1.0.0--h375a9b1_0": "sha256:fd1bdff3d3665950265028498e27ea8f2966dcfb1463031bac89623075cd0589"}, "tags": {"1.0.0--h375a9b1_0": "sha256:fd1bdff3d3665950265028498e27ea8f2966dcfb1463031bac89623075cd0589"}, "docker": "quay.io/biocontainers/hulk", "aliases": {"hulk": "/usr/local/bin/hulk"}}
+config: {"url": "https://biocontainers.pro/tools/hulk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hulk", "latest": {"1.0.0--h375a9b1_0": "sha256:881cdd3cd332e83353baa78fdd11a4d95e5dd0a1da599993552bdf6bfac2fa77"}, "tags": {"1.0.0--h375a9b1_0": "sha256:881cdd3cd332e83353baa78fdd11a4d95e5dd0a1da599993552bdf6bfac2fa77"}, "docker": "quay.io/biocontainers/hulk", "aliases": {"hulk": "/usr/local/bin/hulk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hulk.

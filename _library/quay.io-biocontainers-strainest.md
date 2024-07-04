@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strainest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strainest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strainest/container.yaml"
-updated_at: "2024-07-03 02:59:00.431810"
+updated_at: "2024-07-04 03:00:35.398544"
 latest: "1.2.4--py36h6bb024c_3"
 container_url: "https://biocontainers.pro/tools/strainest"
 
@@ -12,7 +12,7 @@ versions:
  - "1.2.4--py36h6bb024c_3"
  - "1.2.4--py27h6bb024c_3"
 description: "shpc-registry automated BioContainers addition for strainest"
-config: {"url": "https://biocontainers.pro/tools/strainest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strainest", "latest": {"1.2.4--py36h6bb024c_3": "sha256:979a9c47cc6639cd602f624b36c4fb34f96b2fc0f74a0b988f6b907719d81e5b"}, "tags": {"1.2.4--py36h6bb024c_3": "sha256:979a9c47cc6639cd602f624b36c4fb34f96b2fc0f74a0b988f6b907719d81e5b", "1.2.4--py27h6bb024c_3": "sha256:c1f77694bb3b574142ff6465671b8f39e97c86a11e141d586f6beb5fd93d10bf"}, "docker": "quay.io/biocontainers/strainest"}
+config: {"url": "https://biocontainers.pro/tools/strainest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strainest", "latest": {"1.2.4--py36h6bb024c_3": "sha256:fecd370d6e02146ecda8c9ad0424b50448406a6f07de760e88b87e9298faf3ef"}, "tags": {"1.2.4--py36h6bb024c_3": "sha256:fecd370d6e02146ecda8c9ad0424b50448406a6f07de760e88b87e9298faf3ef", "1.2.4--py27h6bb024c_3": "sha256:907a25699a413512ea839a27f143b48dbeef40c71a293866d7e45628c24529fe"}, "docker": "quay.io/biocontainers/strainest"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strainest.

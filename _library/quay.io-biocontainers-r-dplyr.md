@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dplyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dplyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dplyr/container.yaml"
-updated_at: "2024-07-03 02:37:12.402642"
+updated_at: "2024-07-04 02:38:43.168419"
 latest: "0.5.0--r3.3.2_1"
 container_url: "https://biocontainers.pro/tools/r-dplyr"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.5.0--r3.3.2_1"
+ - "0.5.0--r3.3.1_1"
 description: "shpc-registry automated BioContainers addition for r-dplyr"
-config: {"url": "https://biocontainers.pro/tools/r-dplyr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dplyr", "latest": {"0.5.0--r3.3.2_1": "sha256:e27192f41cf384ebd694d3efff198f75c0fdba191d16f4f35c28b15edfdcf9a7"}, "tags": {"0.5.0--r3.3.2_1": "sha256:e27192f41cf384ebd694d3efff198f75c0fdba191d16f4f35c28b15edfdcf9a7"}, "docker": "quay.io/biocontainers/r-dplyr", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-dplyr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dplyr", "latest": {"0.5.0--r3.3.2_1": "sha256:67e14394949e844ce344daabb4d8e2d123b50ed5ef12273351d989830d87b62a"}, "tags": {"0.5.0--r3.3.2_1": "sha256:67e14394949e844ce344daabb4d8e2d123b50ed5ef12273351d989830d87b62a", "0.5.0--r3.3.1_1": "sha256:fc0aaf58361eb2e2c2589dc7ae1b57ac1db1a5961deb2ce9588804ec84aca32c"}, "docker": "quay.io/biocontainers/r-dplyr", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dplyr.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dchiprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dchiprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dchiprep/container.yaml"
-updated_at: "2024-07-03 03:08:54.773386"
+updated_at: "2024-07-04 03:10:30.775066"
 latest: "1.18.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dchiprep"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "1.12.0--r351_0"
  - "1.10.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dchiprep"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dchiprep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dchiprep", "latest": {"1.18.0--r40_0": "sha256:fb638c8280c1123d0d232cc6a8a40998a74553789bbde3fdf8ecfaf0c9f30194"}, "tags": {"1.8.0--r3.4.1_0": "sha256:e6e21322dceca279d29dbd292fcaefbca1257821ef4e46c972a2c8e21ca83c0b", "1.18.0--r40_0": "sha256:fb638c8280c1123d0d232cc6a8a40998a74553789bbde3fdf8ecfaf0c9f30194", "1.16.0--r36_0": "sha256:a5a0a8394ccb40b3b3ce1edc6e8f561de4646a55ba06d00c7ca9b28809deb65b", "1.14.0--r36_1": "sha256:d2a7c25df437e3b644ea6a116627e7c82994877b8e75246b958951e6b9477559", "1.12.0--r351_0": "sha256:114c37fd7718ba499c427d6115e2b5ca86962ab7dbf5a9706f219388fcc2fb8e", "1.10.0--r351_0": "sha256:002700cb731b7b8e5432b2c4faa071f0a5dd04b566df2cd6f66c9627b9cd2ab6"}, "docker": "quay.io/biocontainers/bioconductor-dchiprep", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dchiprep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dchiprep", "latest": {"1.18.0--r40_0": "sha256:fb638c8280c1123d0d232cc6a8a40998a74553789bbde3fdf8ecfaf0c9f30194"}, "tags": {"1.8.0--r3.4.1_0": "sha256:15f7626cf6647b11f8aec85c9416df1de13d5d94089a4401e3afe15902aa7297", "1.18.0--r40_0": "sha256:fb638c8280c1123d0d232cc6a8a40998a74553789bbde3fdf8ecfaf0c9f30194", "1.16.0--r36_0": "sha256:b8b2a974f42effcc7be56ea48923dfcdb5e5cd9746f8ee7c51dc26c847c7a419", "1.14.0--r36_1": "sha256:a12aff2a9c926d506fba846359b0f0e3e391f9a3ae8ae2fd40b463516fb050c6", "1.12.0--r351_0": "sha256:aceebb9613bd3477eeda3b2ce4b1149ae9a3c819534dfc81e4380b155bf69ee7", "1.10.0--r351_0": "sha256:08399e360ec24e1003927802b539b5bad5f99a38f1d853def24ce4278bbe717d"}, "docker": "quay.io/biocontainers/bioconductor-dchiprep", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dchiprep.

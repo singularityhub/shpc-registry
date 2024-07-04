@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hoodscanr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hoodscanr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hoodscanr/container.yaml"
-updated_at: "2024-07-03 02:59:49.845319"
+updated_at: "2024-07-04 03:01:24.966399"
 latest: "1.0.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hoodscanr"
 aliases:

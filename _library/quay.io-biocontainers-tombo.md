@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tombo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tombo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tombo/container.yaml"
-updated_at: "2024-07-03 03:04:03.486063"
+updated_at: "2024-07-04 03:05:39.007801"
 latest: "1.0--py27_0"
 container_url: "https://biocontainers.pro/tools/tombo"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.0--py27_0"
 description: "shpc-registry automated BioContainers addition for tombo"
-config: {"url": "https://biocontainers.pro/tools/tombo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tombo", "latest": {"1.0--py27_0": "sha256:6f93d035e4d3bdd641e0b7e3070dcbce909ea115befa72af6f9c0b47d34fabdb"}, "tags": {"1.0--py27_0": "sha256:6f93d035e4d3bdd641e0b7e3070dcbce909ea115befa72af6f9c0b47d34fabdb"}, "docker": "quay.io/biocontainers/tombo", "aliases": {"graphmap": "/usr/local/bin/graphmap", "tombo": "/usr/local/bin/tombo", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "minimap2": "/usr/local/bin/minimap2", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa"}}
+config: {"url": "https://biocontainers.pro/tools/tombo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tombo", "latest": {"1.0--py27_0": "sha256:44f25a3fc0800ddbe4d815aa127dfcb5841b7092c0e5fb2ce6aaa7325e607760"}, "tags": {"1.0--py27_0": "sha256:44f25a3fc0800ddbe4d815aa127dfcb5841b7092c0e5fb2ce6aaa7325e607760"}, "docker": "quay.io/biocontainers/tombo", "aliases": {"graphmap": "/usr/local/bin/graphmap", "tombo": "/usr/local/bin/tombo", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "minimap2": "/usr/local/bin/minimap2", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tombo.

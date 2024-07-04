@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/intervaltree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/intervaltree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/intervaltree/container.yaml"
-updated_at: "2024-07-03 03:17:25.165093"
+updated_at: "2024-07-04 03:19:03.159182"
 latest: "2.1.0--py36_0"
 container_url: "https://biocontainers.pro/tools/intervaltree"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "2.1.0--py36_0"
+ - "2.1.0--py27_0"
 description: "shpc-registry automated BioContainers addition for intervaltree"
-config: {"url": "https://biocontainers.pro/tools/intervaltree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for intervaltree", "latest": {"2.1.0--py36_0": "sha256:ff136f42bdc068f9a9e3765e826920a7539c141a6a2c78b448e55b9e9c0b16da"}, "tags": {"2.1.0--py36_0": "sha256:ff136f42bdc068f9a9e3765e826920a7539c141a6a2c78b448e55b9e9c0b16da"}, "docker": "quay.io/biocontainers/intervaltree", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/intervaltree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for intervaltree", "latest": {"2.1.0--py36_0": "sha256:3d91d85bd0d9f11e527cd8c233c92a86ec56309aee7269530e55656ae10e09a6"}, "tags": {"2.1.0--py36_0": "sha256:3d91d85bd0d9f11e527cd8c233c92a86ec56309aee7269530e55656ae10e09a6", "2.1.0--py27_0": "sha256:861954ca5e284c84e5d53d06504627931b929bee43248540e0304879d9416566"}, "docker": "quay.io/biocontainers/intervaltree", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/intervaltree.

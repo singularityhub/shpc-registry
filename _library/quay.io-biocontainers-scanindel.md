@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scanindel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scanindel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scanindel/container.yaml"
-updated_at: "2024-07-03 02:57:14.274914"
+updated_at: "2024-07-04 02:58:48.090214"
 latest: "1.3--1"
 container_url: "https://biocontainers.pro/tools/scanindel"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "1.3--1"
 description: "shpc-registry automated BioContainers addition for scanindel"
-config: {"url": "https://biocontainers.pro/tools/scanindel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scanindel", "latest": {"1.3--1": "sha256:c60df4825e351dd87945e687319c5cc6708cc92afb47a2f33e8521c815dfcea0"}, "tags": {"1.3--1": "sha256:c60df4825e351dd87945e687319c5cc6708cc92afb47a2f33e8521c815dfcea0"}, "docker": "quay.io/biocontainers/scanindel", "aliases": {"ScanIndel.py": "/usr/local/bin/ScanIndel.py", "inchworm": "/usr/local/bin/inchworm", "vcf-combine.py": "/usr/local/bin/vcf-combine.py", "blat": "/usr/local/bin/blat", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "fasta_generate_regions.py": "/usr/local/bin/fasta_generate_regions.py", "freebayes-parallel": "/usr/local/bin/freebayes-parallel", "generate_freebayes_region_scripts.sh": "/usr/local/bin/generate_freebayes_region_scripts.sh", "freebayes": "/usr/local/bin/freebayes", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "bwa": "/usr/local/bin/bwa", "bcftools": "/usr/local/bin/bcftools"}}
+config: {"url": "https://biocontainers.pro/tools/scanindel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scanindel", "latest": {"1.3--1": "sha256:31f02efb226b107c66533ce3df02d2941df50cb66383b70935dd19f4d295d300"}, "tags": {"1.3--1": "sha256:31f02efb226b107c66533ce3df02d2941df50cb66383b70935dd19f4d295d300"}, "docker": "quay.io/biocontainers/scanindel", "aliases": {"ScanIndel.py": "/usr/local/bin/ScanIndel.py", "inchworm": "/usr/local/bin/inchworm", "vcf-combine.py": "/usr/local/bin/vcf-combine.py", "blat": "/usr/local/bin/blat", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "fasta_generate_regions.py": "/usr/local/bin/fasta_generate_regions.py", "freebayes-parallel": "/usr/local/bin/freebayes-parallel", "generate_freebayes_region_scripts.sh": "/usr/local/bin/generate_freebayes_region_scripts.sh", "freebayes": "/usr/local/bin/freebayes", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "bwa": "/usr/local/bin/bwa", "bcftools": "/usr/local/bin/bcftools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scanindel.

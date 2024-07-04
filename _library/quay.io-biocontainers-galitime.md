@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/galitime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galitime/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galitime/container.yaml"
-updated_at: "2024-07-03 03:20:18.059205"
-latest: "0.1.3--pyhdfd78af_0"
+updated_at: "2024-07-04 03:21:56.611878"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galitime"
 aliases:
  - "galitime"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.1.2--pyhdfd78af_0"
  - "0.1.3--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for galitime"
-config: {"url": "https://biocontainers.pro/tools/galitime", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for galitime", "latest": {"0.1.3--pyhdfd78af_0": "sha256:48646928a33970d28fdbcdaa1e4f2403a77a971f3d087d461af1077c449562d8"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:c8d00cd6b18c562510a666cf783f75d5985269f4994b3d1ebe9f471bb1e0caae", "0.1.3--pyhdfd78af_0": "sha256:48646928a33970d28fdbcdaa1e4f2403a77a971f3d087d461af1077c449562d8"}, "docker": "quay.io/biocontainers/galitime", "aliases": {"galitime": "/usr/local/bin/galitime", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/galitime", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for galitime", "latest": {"0.2.0--pyhdfd78af_0": "sha256:1f59f4a663bfc272057dd9ea5c1f29f545c0feb57fd5e220b978dbb5f9d8e32f"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:c8d00cd6b18c562510a666cf783f75d5985269f4994b3d1ebe9f471bb1e0caae", "0.1.3--pyhdfd78af_0": "sha256:48646928a33970d28fdbcdaa1e4f2403a77a971f3d087d461af1077c449562d8", "0.2.0--pyhdfd78af_0": "sha256:1f59f4a663bfc272057dd9ea5c1f29f545c0feb57fd5e220b978dbb5f9d8e32f"}, "docker": "quay.io/biocontainers/galitime", "aliases": {"galitime": "/usr/local/bin/galitime", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galitime.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/galitime
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/galitime:0.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/galitime:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/galitime/0.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/galitime/0.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/galitime/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/galitime/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

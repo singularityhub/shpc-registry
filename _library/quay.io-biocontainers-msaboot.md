@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msaboot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msaboot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msaboot/container.yaml"
-updated_at: "2024-07-03 02:49:14.321416"
+updated_at: "2024-07-04 02:50:46.831292"
 latest: "0.1.2--py_1"
 container_url: "https://biocontainers.pro/tools/msaboot"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.1.2--py_1"
 description: "shpc-registry automated BioContainers addition for msaboot"
-config: {"url": "https://biocontainers.pro/tools/msaboot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msaboot", "latest": {"0.1.2--py_1": "sha256:3696caab395bd3ebb94c9d8d9747687d154b2499b091f66def8eafe8b8d95f2d"}, "tags": {"0.1.2--py_1": "sha256:3696caab395bd3ebb94c9d8d9747687d154b2499b091f66def8eafe8b8d95f2d"}, "docker": "quay.io/biocontainers/msaboot", "aliases": {"msaboot": "/usr/local/bin/msaboot", "sample": "/usr/local/bin/sample", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
+config: {"url": "https://biocontainers.pro/tools/msaboot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msaboot", "latest": {"0.1.2--py_1": "sha256:ebb73d502488e0db75cd886d92080174e8d4dc7e4f460400ed8e1efae16b825f"}, "tags": {"0.1.2--py_1": "sha256:ebb73d502488e0db75cd886d92080174e8d4dc7e4f460400ed8e1efae16b825f"}, "docker": "quay.io/biocontainers/msaboot", "aliases": {"msaboot": "/usr/local/bin/msaboot", "sample": "/usr/local/bin/sample", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msaboot.

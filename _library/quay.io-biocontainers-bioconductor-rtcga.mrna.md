@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.mrna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.mrna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.mrna/container.yaml"
-updated_at: "2024-07-03 03:05:28.229919"
+updated_at: "2024-07-04 03:07:03.835951"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.mrna"
 aliases:

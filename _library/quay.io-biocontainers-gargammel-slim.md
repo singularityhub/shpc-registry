@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gargammel-slim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gargammel-slim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gargammel-slim/container.yaml"
-updated_at: "2024-07-03 02:58:24.602796"
-latest: "1.1.2--he905c8f_4"
+updated_at: "2024-07-04 02:59:59.477991"
+latest: "1.1.2--h06294c5_5"
 container_url: "https://biocontainers.pro/tools/gargammel-slim"
 aliases:
  - "adptSim"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "1.1.2--h51667aa_3"
  - "1.1.2--he905c8f_4"
+ - "1.1.2--h06294c5_5"
 description: "shpc-registry automated BioContainers addition for gargammel-slim"
-config: {"url": "https://biocontainers.pro/tools/gargammel-slim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gargammel-slim", "latest": {"1.1.2--he905c8f_4": "sha256:75225bbf40f945dd85a0f8f0f19b17e860711de4d198363f964f1bd7cd957c78"}, "tags": {"1.1.2--h51667aa_3": "sha256:5c50f53b654e87eda75e90e1158ee2b8f53fefe2e7f145c3f444f45466abf5e1", "1.1.2--he905c8f_4": "sha256:75225bbf40f945dd85a0f8f0f19b17e860711de4d198363f964f1bd7cd957c78"}, "docker": "quay.io/biocontainers/gargammel-slim", "aliases": {"adptSim": "/usr/local/bin/adptSim", "deamSim": "/usr/local/bin/deamSim", "fragSim": "/usr/local/bin/fragSim"}}
+config: {"url": "https://biocontainers.pro/tools/gargammel-slim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gargammel-slim", "latest": {"1.1.2--h06294c5_5": "sha256:406a4e761043d95c4b241c51bb95e807d01e361cc780d99e1196c94d7f7d87c4"}, "tags": {"1.1.2--h51667aa_3": "sha256:5c50f53b654e87eda75e90e1158ee2b8f53fefe2e7f145c3f444f45466abf5e1", "1.1.2--he905c8f_4": "sha256:75225bbf40f945dd85a0f8f0f19b17e860711de4d198363f964f1bd7cd957c78", "1.1.2--h06294c5_5": "sha256:406a4e761043d95c4b241c51bb95e807d01e361cc780d99e1196c94d7f7d87c4"}, "docker": "quay.io/biocontainers/gargammel-slim", "aliases": {"adptSim": "/usr/local/bin/adptSim", "deamSim": "/usr/local/bin/deamSim", "fragSim": "/usr/local/bin/fragSim"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gargammel-slim.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/gargammel-slim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gargammel-slim:1.1.2--he905c8f_4
+$ shpc install quay.io/biocontainers/gargammel-slim:1.1.2--h06294c5_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gargammel-slim/1.1.2--he905c8f_4
-$ module help quay.io/biocontainers/gargammel-slim/1.1.2--he905c8f_4
+$ module load quay.io/biocontainers/gargammel-slim/1.1.2--h06294c5_5
+$ module help quay.io/biocontainers/gargammel-slim/1.1.2--h06294c5_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

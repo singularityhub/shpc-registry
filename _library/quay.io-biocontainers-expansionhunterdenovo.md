@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/expansionhunterdenovo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/expansionhunterdenovo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/expansionhunterdenovo/container.yaml"
-updated_at: "2024-07-03 03:15:42.567747"
-latest: "0.9.0--h3d7bc1b_7"
+updated_at: "2024-07-04 03:17:20.135482"
+latest: "0.9.0--h6a68c12_8"
 container_url: "https://biocontainers.pro/tools/expansionhunterdenovo"
 aliases:
  - "ExpansionHunterDenovo"
@@ -37,8 +37,9 @@ versions:
  - "0.9.0--h2369a32_5"
  - "0.9.0--h705a5a4_6"
  - "0.9.0--h3d7bc1b_7"
+ - "0.9.0--h6a68c12_8"
 description: "shpc-registry automated BioContainers addition for expansionhunterdenovo"
-config: {"url": "https://biocontainers.pro/tools/expansionhunterdenovo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for expansionhunterdenovo", "latest": {"0.9.0--h3d7bc1b_7": "sha256:373947bd0b025e91d0f2e3268ef6992625e6e83df325dbfaea790c8d2748caca"}, "tags": {"0.9.0--h2369a32_5": "sha256:3a9c318138bb85cdf0fa115c074ca45fe1d9f81e687df6bfd36e795ad6f7d664", "0.9.0--h705a5a4_6": "sha256:d8770636202c1ae261af5a2f70422b232cf115bd0c87b22fe0ff606ddbde1c0d", "0.9.0--h3d7bc1b_7": "sha256:373947bd0b025e91d0f2e3268ef6992625e6e83df325dbfaea790c8d2748caca"}, "docker": "quay.io/biocontainers/expansionhunterdenovo", "aliases": {"ExpansionHunterDenovo": "/usr/local/bin/ExpansionHunterDenovo", "ccmake": "/usr/local/bin/ccmake", "cmake": "/usr/local/bin/cmake", "cpack": "/usr/local/bin/cpack", "ctest": "/usr/local/bin/ctest", "ed2k-link": "/usr/local/bin/ed2k-link", "edonr256-hash": "/usr/local/bin/edonr256-hash", "edonr512-hash": "/usr/local/bin/edonr512-hash", "gost12-256-hash": "/usr/local/bin/gost12-256-hash", "gost12-512-hash": "/usr/local/bin/gost12-512-hash", "has160-hash": "/usr/local/bin/has160-hash", "magnet-link": "/usr/local/bin/magnet-link", "rhash": "/usr/local/bin/rhash", "sfv-hash": "/usr/local/bin/sfv-hash", "tiger-hash": "/usr/local/bin/tiger-hash", "tth-hash": "/usr/local/bin/tth-hash", "whirlpool-hash": "/usr/local/bin/whirlpool-hash", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/expansionhunterdenovo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for expansionhunterdenovo", "latest": {"0.9.0--h6a68c12_8": "sha256:aacf879ace7782bd8227244b4624a1cbb90328699f9ce4c7eeab099ddab956fb"}, "tags": {"0.9.0--h2369a32_5": "sha256:3a9c318138bb85cdf0fa115c074ca45fe1d9f81e687df6bfd36e795ad6f7d664", "0.9.0--h705a5a4_6": "sha256:d8770636202c1ae261af5a2f70422b232cf115bd0c87b22fe0ff606ddbde1c0d", "0.9.0--h3d7bc1b_7": "sha256:373947bd0b025e91d0f2e3268ef6992625e6e83df325dbfaea790c8d2748caca", "0.9.0--h6a68c12_8": "sha256:aacf879ace7782bd8227244b4624a1cbb90328699f9ce4c7eeab099ddab956fb"}, "docker": "quay.io/biocontainers/expansionhunterdenovo", "aliases": {"ExpansionHunterDenovo": "/usr/local/bin/ExpansionHunterDenovo", "ccmake": "/usr/local/bin/ccmake", "cmake": "/usr/local/bin/cmake", "cpack": "/usr/local/bin/cpack", "ctest": "/usr/local/bin/ctest", "ed2k-link": "/usr/local/bin/ed2k-link", "edonr256-hash": "/usr/local/bin/edonr256-hash", "edonr512-hash": "/usr/local/bin/edonr512-hash", "gost12-256-hash": "/usr/local/bin/gost12-256-hash", "gost12-512-hash": "/usr/local/bin/gost12-512-hash", "has160-hash": "/usr/local/bin/has160-hash", "magnet-link": "/usr/local/bin/magnet-link", "rhash": "/usr/local/bin/rhash", "sfv-hash": "/usr/local/bin/sfv-hash", "tiger-hash": "/usr/local/bin/tiger-hash", "tth-hash": "/usr/local/bin/tth-hash", "whirlpool-hash": "/usr/local/bin/whirlpool-hash", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/expansionhunterdenovo.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/expansionhunterdenovo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/expansionhunterdenovo:0.9.0--h3d7bc1b_7
+$ shpc install quay.io/biocontainers/expansionhunterdenovo:0.9.0--h6a68c12_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/expansionhunterdenovo/0.9.0--h3d7bc1b_7
-$ module help quay.io/biocontainers/expansionhunterdenovo/0.9.0--h3d7bc1b_7
+$ module load quay.io/biocontainers/expansionhunterdenovo/0.9.0--h6a68c12_8
+$ module help quay.io/biocontainers/expansionhunterdenovo/0.9.0--h6a68c12_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

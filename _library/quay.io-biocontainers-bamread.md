@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bamread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamread/container.yaml"
-updated_at: "2024-07-03 02:57:58.339082"
-latest: "0.0.16--py310h4b81fae_1"
+updated_at: "2024-07-04 02:59:32.284442"
+latest: "0.0.16--py38h0020b31_4"
 container_url: "https://biocontainers.pro/tools/bamread"
 aliases:
  - "bamread"
@@ -25,8 +25,9 @@ versions:
  - "0.0.16--py39hbf8eff0_0"
  - "0.0.16--py310h4b81fae_1"
  - "0.0.16--py38he5da3d1_1"
+ - "0.0.16--py38h0020b31_4"
 description: "shpc-registry automated BioContainers addition for bamread"
-config: {"url": "https://biocontainers.pro/tools/bamread", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamread", "latest": {"0.0.16--py310h4b81fae_1": "sha256:00486a0a5ab8ac86bbd11714a6abd08310076ebc9861fe578f56dacb67494304"}, "tags": {"0.0.9--py37h8902056_1": "sha256:7db5d33af2662c58a388b809d6ea5748b3c25dd1d6891f43e9e5100f95534fe0", "0.0.11--py39hbf8eff0_1": "sha256:fc4d683c215e9e345de818b4b8a708c8c16b775920ef200fbd7ad91c85aa3782", "0.0.16--py39hbf8eff0_0": "sha256:98ae45a13a83e1c1788ee3f9a24a2d249f09dd749be8d9ed9275c9e097a61bf8", "0.0.16--py310h4b81fae_1": "sha256:00486a0a5ab8ac86bbd11714a6abd08310076ebc9861fe578f56dacb67494304", "0.0.16--py38he5da3d1_1": "sha256:0622c4613d9be0bd3effc0209b519113114d8bdfb3af77919c280c0d8cc2c1b0"}, "docker": "quay.io/biocontainers/bamread", "aliases": {"bamread": "/usr/local/bin/bamread", "natsort": "/usr/local/bin/natsort", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/bamread", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamread", "latest": {"0.0.16--py38h0020b31_4": "sha256:c98b0ae4ec35b5ec9dbe74c032f6b7719466c704c7847fb10607425c8bd7d6c2"}, "tags": {"0.0.9--py37h8902056_1": "sha256:7db5d33af2662c58a388b809d6ea5748b3c25dd1d6891f43e9e5100f95534fe0", "0.0.11--py39hbf8eff0_1": "sha256:fc4d683c215e9e345de818b4b8a708c8c16b775920ef200fbd7ad91c85aa3782", "0.0.16--py39hbf8eff0_0": "sha256:98ae45a13a83e1c1788ee3f9a24a2d249f09dd749be8d9ed9275c9e097a61bf8", "0.0.16--py310h4b81fae_1": "sha256:00486a0a5ab8ac86bbd11714a6abd08310076ebc9861fe578f56dacb67494304", "0.0.16--py38he5da3d1_1": "sha256:0622c4613d9be0bd3effc0209b519113114d8bdfb3af77919c280c0d8cc2c1b0", "0.0.16--py38h0020b31_4": "sha256:c98b0ae4ec35b5ec9dbe74c032f6b7719466c704c7847fb10607425c8bd7d6c2"}, "docker": "quay.io/biocontainers/bamread", "aliases": {"bamread": "/usr/local/bin/bamread", "natsort": "/usr/local/bin/natsort", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamread.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/bamread
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bamread:0.0.16--py310h4b81fae_1
+$ shpc install quay.io/biocontainers/bamread:0.0.16--py38h0020b31_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bamread/0.0.16--py310h4b81fae_1
-$ module help quay.io/biocontainers/bamread/0.0.16--py310h4b81fae_1
+$ module load quay.io/biocontainers/bamread/0.0.16--py38h0020b31_4
+$ module help quay.io/biocontainers/bamread/0.0.16--py38h0020b31_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

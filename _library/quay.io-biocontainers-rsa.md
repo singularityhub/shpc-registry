@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rsa/container.yaml"
-updated_at: "2024-07-03 03:19:38.646486"
+updated_at: "2024-07-04 03:21:17.028602"
 latest: "3.1.4--py36_0"
 container_url: "https://biocontainers.pro/tools/rsa"
 aliases:
@@ -28,8 +28,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "3.1.4--py36_0"
+ - "3.1.4--py35_0"
 description: "shpc-registry automated BioContainers addition for rsa"
-config: {"url": "https://biocontainers.pro/tools/rsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rsa", "latest": {"3.1.4--py36_0": "sha256:3cfab80bfeea545fa6ed094d1bc45fe48f2a54ca15d60f822bac5c49bd3c6896"}, "tags": {"3.1.4--py36_0": "sha256:3cfab80bfeea545fa6ed094d1bc45fe48f2a54ca15d60f822bac5c49bd3c6896"}, "docker": "quay.io/biocontainers/rsa", "aliases": {"pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-decrypt-bigfile": "/usr/local/bin/pyrsa-decrypt-bigfile", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-encrypt-bigfile": "/usr/local/bin/pyrsa-encrypt-bigfile", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/rsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rsa", "latest": {"3.1.4--py36_0": "sha256:2222097d55161aff151d1cbaadce89c91a596b83294f2fc699a12c25a78e8a1f"}, "tags": {"3.1.4--py36_0": "sha256:2222097d55161aff151d1cbaadce89c91a596b83294f2fc699a12c25a78e8a1f", "3.1.4--py35_0": "sha256:c422de4f23cb2806a90e62688a71f0f1dcaa3e4af9d8afa7b1237c5d7a2b193e"}, "docker": "quay.io/biocontainers/rsa", "aliases": {"pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-decrypt-bigfile": "/usr/local/bin/pyrsa-decrypt-bigfile", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-encrypt-bigfile": "/usr/local/bin/pyrsa-encrypt-bigfile", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rsa.

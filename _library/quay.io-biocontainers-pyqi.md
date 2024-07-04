@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyqi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyqi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyqi/container.yaml"
-updated_at: "2024-07-03 03:06:13.981204"
+updated_at: "2024-07-04 03:07:49.664112"
 latest: "0.3.2--py27_1"
 container_url: "https://biocontainers.pro/tools/pyqi"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.3.2--py27_1"
 description: "shpc-registry automated BioContainers addition for pyqi"
-config: {"url": "https://biocontainers.pro/tools/pyqi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyqi", "latest": {"0.3.2--py27_1": "sha256:2eb252a6ca4792a86c936d833f2f38d98d965779050451b4a07ffb2370d3b4a9"}, "tags": {"0.3.2--py27_1": "sha256:2eb252a6ca4792a86c936d833f2f38d98d965779050451b4a07ffb2370d3b4a9"}, "docker": "quay.io/biocontainers/pyqi", "aliases": {"pyqi": "/usr/local/bin/pyqi", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyqi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyqi", "latest": {"0.3.2--py27_1": "sha256:1e3fb214fdb279848fea7722c8c904c414c2cdc9d2f0427200d91358c563ccae"}, "tags": {"0.3.2--py27_1": "sha256:1e3fb214fdb279848fea7722c8c904c414c2cdc9d2f0427200d91358c563ccae"}, "docker": "quay.io/biocontainers/pyqi", "aliases": {"pyqi": "/usr/local/bin/pyqi", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyqi.

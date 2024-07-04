@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbalign/container.yaml"
-updated_at: "2024-07-03 02:47:57.503548"
+updated_at: "2024-07-04 02:49:29.772952"
 latest: "0.3.2--py_1"
 container_url: "https://biocontainers.pro/tools/pbalign"
 aliases:
@@ -34,7 +34,7 @@ aliases:
 versions:
  - "0.3.2--py_1"
 description: "shpc-registry automated BioContainers addition for pbalign"
-config: {"url": "https://biocontainers.pro/tools/pbalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbalign", "latest": {"0.3.2--py_1": "sha256:6e8d293a71ce8cb39567f167cd979191f8c456df6b723355fc55ccd8d9016f6e"}, "tags": {"0.3.2--py_1": "sha256:6e8d293a71ce8cb39567f167cd979191f8c456df6b723355fc55ccd8d9016f6e"}, "docker": "quay.io/biocontainers/pbalign", "aliases": {"bam2sam": "/usr/local/bin/bam2sam", "blasr": "/usr/local/bin/blasr", "createChemistryHeader.py": "/usr/local/bin/createChemistryHeader.py", "extractUnmappedSubreads.py": "/usr/local/bin/extractUnmappedSubreads.py", "loadChemistry.py": "/usr/local/bin/loadChemistry.py", "maskAlignedReads.py": "/usr/local/bin/maskAlignedReads.py", "pbalign": "/usr/local/bin/pbalign", "pbbamify": "/usr/local/bin/pbbamify", "pbindex": "/usr/local/bin/pbindex", "pbindexdump": "/usr/local/bin/pbindexdump", "pbmerge": "/usr/local/bin/pbmerge", "pbservice": "/usr/local/bin/pbservice", "sawriter": "/usr/local/bin/sawriter", "unit2": "/usr/local/bin/unit2", "avro": "/usr/local/bin/avro", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "chardetect": "/usr/local/bin/chardetect", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config"}}
+config: {"url": "https://biocontainers.pro/tools/pbalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbalign", "latest": {"0.3.2--py_1": "sha256:cbc27c65ee2d1e023a95c54d1cd5299a80de06d2f25bcca1a72b73ed72b3078e"}, "tags": {"0.3.2--py_1": "sha256:cbc27c65ee2d1e023a95c54d1cd5299a80de06d2f25bcca1a72b73ed72b3078e"}, "docker": "quay.io/biocontainers/pbalign", "aliases": {"bam2sam": "/usr/local/bin/bam2sam", "blasr": "/usr/local/bin/blasr", "createChemistryHeader.py": "/usr/local/bin/createChemistryHeader.py", "extractUnmappedSubreads.py": "/usr/local/bin/extractUnmappedSubreads.py", "loadChemistry.py": "/usr/local/bin/loadChemistry.py", "maskAlignedReads.py": "/usr/local/bin/maskAlignedReads.py", "pbalign": "/usr/local/bin/pbalign", "pbbamify": "/usr/local/bin/pbbamify", "pbindex": "/usr/local/bin/pbindex", "pbindexdump": "/usr/local/bin/pbindexdump", "pbmerge": "/usr/local/bin/pbmerge", "pbservice": "/usr/local/bin/pbservice", "sawriter": "/usr/local/bin/sawriter", "unit2": "/usr/local/bin/unit2", "avro": "/usr/local/bin/avro", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "chardetect": "/usr/local/bin/chardetect", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbalign.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shortreadconnector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shortreadconnector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shortreadconnector/container.yaml"
-updated_at: "2024-07-03 02:45:29.702349"
+updated_at: "2024-07-04 02:47:01.591881"
 latest: "1.1.3--1"
 container_url: "https://biocontainers.pro/tools/shortreadconnector"
 aliases:
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "1.1.3--1"
 description: "shpc-registry automated BioContainers addition for shortreadconnector"
-config: {"url": "https://biocontainers.pro/tools/shortreadconnector", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shortreadconnector", "latest": {"1.1.3--1": "sha256:faf7d5f1ad475070c38c9994f3a8698e4711f46d5e6a22894047926408cb3109"}, "tags": {"1.1.3--1": "sha256:faf7d5f1ad475070c38c9994f3a8698e4711f46d5e6a22894047926408cb3109"}, "docker": "quay.io/biocontainers/shortreadconnector", "aliases": {"SRC_counter": "/usr/local/bin/SRC_counter", "SRC_linker_ram": "/usr/local/bin/SRC_linker_ram", "dsk": "/usr/local/bin/dsk", "dsk2ascii": "/usr/local/bin/dsk2ascii", "extract_reads_from_bv": "/usr/local/bin/extract_reads_from_bv", "generate_bv": "/usr/local/bin/generate_bv", "short_read_connector.sh": "/usr/local/bin/short_read_connector.sh", "h5dump": "/usr/local/bin/h5dump"}}
+config: {"url": "https://biocontainers.pro/tools/shortreadconnector", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shortreadconnector", "latest": {"1.1.3--1": "sha256:c80e485cb6833a1d5f6cf263d6220e68e95296b167fb0e7648d74ef55d41a817"}, "tags": {"1.1.3--1": "sha256:c80e485cb6833a1d5f6cf263d6220e68e95296b167fb0e7648d74ef55d41a817"}, "docker": "quay.io/biocontainers/shortreadconnector", "aliases": {"SRC_counter": "/usr/local/bin/SRC_counter", "SRC_linker_ram": "/usr/local/bin/SRC_linker_ram", "dsk": "/usr/local/bin/dsk", "dsk2ascii": "/usr/local/bin/dsk2ascii", "extract_reads_from_bv": "/usr/local/bin/extract_reads_from_bv", "generate_bv": "/usr/local/bin/generate_bv", "short_read_connector.sh": "/usr/local/bin/short_read_connector.sh", "h5dump": "/usr/local/bin/h5dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shortreadconnector.

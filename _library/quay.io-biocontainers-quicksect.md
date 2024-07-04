@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/quicksect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quicksect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quicksect/container.yaml"
-updated_at: "2024-07-03 02:37:43.897805"
-latest: "0.2.2--py310h4b81fae_8"
+updated_at: "2024-07-04 02:39:14.726270"
+latest: "0.2.2--py312hf67a6ed_9"
 container_url: "https://biocontainers.pro/tools/quicksect"
 aliases:
  - "2to3-3.9"
@@ -17,8 +17,9 @@ versions:
  - "0.2.2--py39hbf8eff0_5"
  - "0.2.2--py310h4b81fae_8"
  - "0.2.2--py38he5da3d1_8"
+ - "0.2.2--py312hf67a6ed_9"
 description: "shpc-registry automated BioContainers addition for quicksect"
-config: {"url": "https://biocontainers.pro/tools/quicksect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quicksect", "latest": {"0.2.2--py310h4b81fae_8": "sha256:fec00afad177f7400f45c560636a3191603a327873727420a0402ff223edb0f2"}, "tags": {"0.2.2--py39hbf8eff0_5": "sha256:6a4ff9123a5e59195c23e198516c7ccd330ebfd7e1e41c8b3dab19d2a7588a38", "0.2.2--py310h4b81fae_8": "sha256:fec00afad177f7400f45c560636a3191603a327873727420a0402ff223edb0f2", "0.2.2--py38he5da3d1_8": "sha256:5f117fc8f24e7050a1ee03c8b73f03bcd3960410b6b789f6757dec7fab76d4f4"}, "docker": "quay.io/biocontainers/quicksect", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/quicksect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quicksect", "latest": {"0.2.2--py312hf67a6ed_9": "sha256:278753d1b5b179ab6f35adf7d18a50334f13fec165fea1117c3a3ab4f338252c"}, "tags": {"0.2.2--py39hbf8eff0_5": "sha256:6a4ff9123a5e59195c23e198516c7ccd330ebfd7e1e41c8b3dab19d2a7588a38", "0.2.2--py310h4b81fae_8": "sha256:fec00afad177f7400f45c560636a3191603a327873727420a0402ff223edb0f2", "0.2.2--py38he5da3d1_8": "sha256:5f117fc8f24e7050a1ee03c8b73f03bcd3960410b6b789f6757dec7fab76d4f4", "0.2.2--py312hf67a6ed_9": "sha256:278753d1b5b179ab6f35adf7d18a50334f13fec165fea1117c3a3ab4f338252c"}, "docker": "quay.io/biocontainers/quicksect", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/quicksect.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/quicksect
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/quicksect:0.2.2--py310h4b81fae_8
+$ shpc install quay.io/biocontainers/quicksect:0.2.2--py312hf67a6ed_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/quicksect/0.2.2--py310h4b81fae_8
-$ module help quay.io/biocontainers/quicksect/0.2.2--py310h4b81fae_8
+$ module load quay.io/biocontainers/quicksect/0.2.2--py312hf67a6ed_9
+$ module help quay.io/biocontainers/quicksect/0.2.2--py312hf67a6ed_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

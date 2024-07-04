@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-risa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-risa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-risa/container.yaml"
-updated_at: "2024-07-03 02:44:53.030750"
+updated_at: "2024-07-04 02:46:24.848495"
 latest: "1.44.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-risa"
 aliases:
@@ -25,7 +25,7 @@ versions:
  - "1.42.0--r43hf17093f_0"
  - "1.44.0--r43hf17093f_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-risa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-risa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-risa", "latest": {"1.44.0--r43hf17093f_0": "sha256:dba488af87f63e6d42e902da78443375596217b25ddc7c018d86e8273174fe01"}, "tags": {"1.36.0--r41hc247a5b_2": "sha256:f83c1875c1d3789508e06bff3cdef2ca85462423d7bd14a6a18f6d1126d3c872", "1.40.0--r42hc247a5b_0": "sha256:98ae4c2bf1f1f72bbccbe906638c8a6d8396b64c92069b2f6940f53d54e7130f", "1.40.0--r42hf17093f_1": "sha256:9e68a31af7c3369a2cc2f295547b6e4b287a93beae66fa8b2136f469bda89ed9", "1.42.0--r43hf17093f_0": "sha256:d940d8d8b69da88933bc292a3a94f669a9f3c0aa31f50ae6cefc51286d69ccd3", "1.44.0--r43hf17093f_0": "sha256:dba488af87f63e6d42e902da78443375596217b25ddc7c018d86e8273174fe01"}, "docker": "quay.io/biocontainers/bioconductor-risa", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-risa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-risa", "latest": {"1.44.0--r43hf17093f_0": "sha256:dba488af87f63e6d42e902da78443375596217b25ddc7c018d86e8273174fe01"}, "tags": {"1.36.0--r41hc247a5b_2": "sha256:f83c1875c1d3789508e06bff3cdef2ca85462423d7bd14a6a18f6d1126d3c872", "1.40.0--r42hc247a5b_0": "sha256:98ae4c2bf1f1f72bbccbe906638c8a6d8396b64c92069b2f6940f53d54e7130f", "1.40.0--r42hf17093f_1": "sha256:9e68a31af7c3369a2cc2f295547b6e4b287a93beae66fa8b2136f469bda89ed9", "1.42.0--r43hf17093f_0": "sha256:357aa78e21281182131133b9a3074f0a2a14fde6a1b7c67429abce5e1d07bb7f", "1.44.0--r43hf17093f_0": "sha256:dba488af87f63e6d42e902da78443375596217b25ddc7c018d86e8273174fe01"}, "docker": "quay.io/biocontainers/bioconductor-risa", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-risa.

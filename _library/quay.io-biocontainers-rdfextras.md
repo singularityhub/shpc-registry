@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rdfextras"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdfextras/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdfextras/container.yaml"
-updated_at: "2024-07-03 02:42:50.887566"
+updated_at: "2024-07-04 02:44:22.555405"
 latest: "0.4--py27_3"
 container_url: "https://biocontainers.pro/tools/rdfextras"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.4--py27_3"
 description: "shpc-registry automated BioContainers addition for rdfextras"
-config: {"url": "https://biocontainers.pro/tools/rdfextras", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rdfextras", "latest": {"0.4--py27_3": "sha256:9df9783037770790d839ffe13df026cf23ca034ffcdf9587bac659f10518c4ee"}, "tags": {"0.4--py27_3": "sha256:9df9783037770790d839ffe13df026cf23ca034ffcdf9587bac659f10518c4ee"}, "docker": "quay.io/biocontainers/rdfextras", "aliases": {"csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle"}}
+config: {"url": "https://biocontainers.pro/tools/rdfextras", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rdfextras", "latest": {"0.4--py27_3": "sha256:96338ec5128085a9b55059b6911228a3a9abc274f2ebbe41e87752c1d4c3f754"}, "tags": {"0.4--py27_3": "sha256:96338ec5128085a9b55059b6911228a3a9abc274f2ebbe41e87752c1d4c3f754"}, "docker": "quay.io/biocontainers/rdfextras", "aliases": {"csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rdfextras.

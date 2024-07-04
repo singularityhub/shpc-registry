@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioepic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioepic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioepic/container.yaml"
-updated_at: "2024-07-03 02:58:14.163544"
+updated_at: "2024-07-04 02:59:48.810378"
 latest: "0.1.6--py35_0"
 container_url: "https://biocontainers.pro/tools/bioepic"
 aliases:
@@ -22,8 +22,9 @@ aliases:
  - "python3.5m-config"
 versions:
  - "0.1.6--py35_0"
+ - "0.1.6--py27_0"
 description: "shpc-registry automated BioContainers addition for bioepic"
-config: {"url": "https://biocontainers.pro/tools/bioepic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioepic", "latest": {"0.1.6--py35_0": "sha256:0bc9cac1c28062cb6e5727b1c4f66660b6f9fd2fb678b6131191c35eca28606a"}, "tags": {"0.1.6--py35_0": "sha256:0bc9cac1c28062cb6e5727b1c4f66660b6f9fd2fb678b6131191c35eca28606a"}, "docker": "quay.io/biocontainers/bioepic", "aliases": {"epic": "/usr/local/bin/epic", "epic-effective": "/usr/local/bin/epic-effective", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "natsort": "/usr/local/bin/natsort", "faidx": "/usr/local/bin/faidx", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioepic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioepic", "latest": {"0.1.6--py35_0": "sha256:17849ec2491381e9b30108e4ebbcf27ee812865eca9b9a7d8e2577ebb3de73ea"}, "tags": {"0.1.6--py35_0": "sha256:17849ec2491381e9b30108e4ebbcf27ee812865eca9b9a7d8e2577ebb3de73ea", "0.1.6--py27_0": "sha256:0dae4800505c364bc18cf751e94ffa49ba4d69fdc0131b9a66f715a3cb24cb45"}, "docker": "quay.io/biocontainers/bioepic", "aliases": {"epic": "/usr/local/bin/epic", "epic-effective": "/usr/local/bin/epic-effective", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "natsort": "/usr/local/bin/natsort", "faidx": "/usr/local/bin/faidx", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioepic.

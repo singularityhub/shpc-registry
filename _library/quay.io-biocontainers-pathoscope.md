@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pathoscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathoscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathoscope/container.yaml"
-updated_at: "2024-07-03 03:10:02.501605"
+updated_at: "2024-07-04 03:11:38.635260"
 latest: "2.0.7--py_1"
 container_url: "https://biocontainers.pro/tools/pathoscope"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "2.0.7--py_1"
 description: "shpc-registry automated BioContainers addition for pathoscope"
-config: {"url": "https://biocontainers.pro/tools/pathoscope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pathoscope", "latest": {"2.0.7--py_1": "sha256:2768a98e8714e8ac5d5b8c6566b6d0c121e9ce35794dd8eebe9607dd636f8f31"}, "tags": {"2.0.7--py_1": "sha256:2768a98e8714e8ac5d5b8c6566b6d0c121e9ce35794dd8eebe9607dd636f8f31"}, "docker": "quay.io/biocontainers/pathoscope", "aliases": {"pathoscope": "/usr/local/bin/pathoscope", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "bcftools": "/usr/local/bin/bcftools"}}
+config: {"url": "https://biocontainers.pro/tools/pathoscope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pathoscope", "latest": {"2.0.7--py_1": "sha256:ead0f842655fbd9e6134ca1a35e145b169505c0b000f0bfaaa39685e0bd6552c"}, "tags": {"2.0.7--py_1": "sha256:ead0f842655fbd9e6134ca1a35e145b169505c0b000f0bfaaa39685e0bd6552c"}, "docker": "quay.io/biocontainers/pathoscope", "aliases": {"pathoscope": "/usr/local/bin/pathoscope", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "bcftools": "/usr/local/bin/bcftools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pathoscope.

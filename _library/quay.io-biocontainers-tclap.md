@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/tclap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tclap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tclap/container.yaml"
-updated_at: "2024-07-03 02:43:34.411271"
+updated_at: "2024-07-04 02:45:06.117261"
 latest: "1.2.1--h470a237_1"
 container_url: "https://biocontainers.pro/tools/tclap"
 
 versions:
  - "1.2.1--h470a237_1"
 description: "shpc-registry automated BioContainers addition for tclap"
-config: {"url": "https://biocontainers.pro/tools/tclap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tclap", "latest": {"1.2.1--h470a237_1": "sha256:a70df844302ac4c91f90cedd6bd0f3115a021705dbebf744b888b4144f837dea"}, "tags": {"1.2.1--h470a237_1": "sha256:a70df844302ac4c91f90cedd6bd0f3115a021705dbebf744b888b4144f837dea"}, "docker": "quay.io/biocontainers/tclap"}
+config: {"url": "https://biocontainers.pro/tools/tclap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tclap", "latest": {"1.2.1--h470a237_1": "sha256:62ed94ebc57b8b6c9184fa4a3988ca8142c5d755f53d873d56a7e52020b7167a"}, "tags": {"1.2.1--h470a237_1": "sha256:62ed94ebc57b8b6c9184fa4a3988ca8142c5d755f53d873d56a7e52020b7167a"}, "docker": "quay.io/biocontainers/tclap"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tclap.

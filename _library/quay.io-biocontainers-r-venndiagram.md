@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-venndiagram"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-venndiagram/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-venndiagram/container.yaml"
-updated_at: "2024-07-03 02:35:41.531054"
+updated_at: "2024-07-04 02:37:12.141533"
 latest: "1.6.16--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-venndiagram"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.6.16--r3.2.2_0"
  - "1.6.16--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-venndiagram"
-config: {"url": "https://biocontainers.pro/tools/r-venndiagram", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-venndiagram", "latest": {"1.6.16--r3.2.2_0": "sha256:8881535b48bd317e32555b453aafd148ddffcecd8a088274af277e83dc428fa6"}, "tags": {"1.6.16--r3.2.2_0": "sha256:8881535b48bd317e32555b453aafd148ddffcecd8a088274af277e83dc428fa6", "1.6.16--r3.3.2_0": "sha256:e34b52c494463f6b65c729ee818d23a5e187313d4f1675d6c6c2ddc4fb8153bd"}, "docker": "quay.io/biocontainers/r-venndiagram", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-venndiagram", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-venndiagram", "latest": {"1.6.16--r3.2.2_0": "sha256:a564dc6cc8e9bcc06caed6b856765c676ecb812db7be1c5712e48138671470fe"}, "tags": {"1.6.16--r3.2.2_0": "sha256:a564dc6cc8e9bcc06caed6b856765c676ecb812db7be1c5712e48138671470fe", "1.6.16--r3.3.2_0": "sha256:dc62b5e33b51990afff8e0fb87fded615b28fcbd99167de6825e6adabc06c007"}, "docker": "quay.io/biocontainers/r-venndiagram", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-venndiagram.

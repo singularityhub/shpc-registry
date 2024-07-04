@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-demuxmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-demuxmix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-demuxmix/container.yaml"
-updated_at: "2024-07-03 03:17:52.316716"
+updated_at: "2024-07-04 03:19:30.307261"
 latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-demuxmix"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-agricolae"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-agricolae/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-agricolae/container.yaml"
-updated_at: "2024-07-03 03:02:22.664362"
+updated_at: "2024-07-04 03:03:58.076439"
 latest: "1.2_4--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-agricolae"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.2_4--r3.3.2_0"
+ - "1.2_4--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-agricolae"
-config: {"url": "https://biocontainers.pro/tools/r-agricolae", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-agricolae", "latest": {"1.2_4--r3.3.2_0": "sha256:96bd686ee2c9263d846e4b1983a709ed7425e9716ae2d3ace262d75043061f35"}, "tags": {"1.2_4--r3.3.2_0": "sha256:96bd686ee2c9263d846e4b1983a709ed7425e9716ae2d3ace262d75043061f35"}, "docker": "quay.io/biocontainers/r-agricolae", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-agricolae", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-agricolae", "latest": {"1.2_4--r3.3.2_0": "sha256:37fc05accd39f46306091302da2d98596697da49f2763f39ff88645cd3bc86c0"}, "tags": {"1.2_4--r3.3.2_0": "sha256:37fc05accd39f46306091302da2d98596697da49f2763f39ff88645cd3bc86c0", "1.2_4--r3.3.1_0": "sha256:0df040bb93c49d248e5048c52fe1e14f4c44339a19db4a59edadb13e62dbfadd"}, "docker": "quay.io/biocontainers/r-agricolae", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-agricolae.

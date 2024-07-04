@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-module-load-conditional"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-module-load-conditional/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-module-load-conditional/container.yaml"
-updated_at: "2024-07-03 02:58:08.516194"
+updated_at: "2024-07-04 02:59:42.882739"
 latest: "0.68--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-module-load-conditional"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.68--pl526_2"
 description: "shpc-registry automated BioContainers addition for perl-module-load-conditional"
-config: {"url": "https://biocontainers.pro/tools/perl-module-load-conditional", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-module-load-conditional", "latest": {"0.68--pl526_2": "sha256:6a656a361a527b2c1a8605fd7996e436af429df90a382103e5e7ea55f44f6ec5"}, "tags": {"0.68--pl526_2": "sha256:6a656a361a527b2c1a8605fd7996e436af429df90a382103e5e7ea55f44f6ec5"}, "docker": "quay.io/biocontainers/perl-module-load-conditional", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-module-load-conditional", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-module-load-conditional", "latest": {"0.68--pl526_2": "sha256:74e96134d7dfa25b5055dfa5e38b4cb0f01c9fe41b52c644770460cb6b4d8fa0"}, "tags": {"0.68--pl526_2": "sha256:74e96134d7dfa25b5055dfa5e38b4cb0f01c9fe41b52c644770460cb6b4d8fa0"}, "docker": "quay.io/biocontainers/perl-module-load-conditional", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-module-load-conditional.

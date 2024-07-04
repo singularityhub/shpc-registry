@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ffgc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ffgc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ffgc/container.yaml"
-updated_at: "2024-07-03 02:37:08.194679"
-latest: "2.4.2--py311hdfd78af_0"
+updated_at: "2024-07-04 02:38:38.959862"
+latest: "2.4.2--py312h7e72e81_1"
 container_url: "https://biocontainers.pro/tools/ffgc"
 aliases:
  - "ffgc_create_project.py"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "2.4.1--py311hdfd78af_0"
  - "2.4.2--py311hdfd78af_0"
+ - "2.4.2--py312h7e72e81_1"
 description: "singularity registry hpc automated addition for ffgc"
-config: {"url": "https://biocontainers.pro/tools/ffgc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ffgc", "latest": {"2.4.2--py311hdfd78af_0": "sha256:9765171469e3127be8e73b0edf9d9ef2c709fc63c0a3d36f6630077492b86cac"}, "tags": {"2.4.1--py311hdfd78af_0": "sha256:d6a078648a229e559c1e3dafa33abce087409240e8ee1d5c32d141f2968fd385", "2.4.2--py311hdfd78af_0": "sha256:9765171469e3127be8e73b0edf9d9ef2c709fc63c0a3d36f6630077492b86cac"}, "docker": "quay.io/biocontainers/ffgc", "aliases": {"ffgc_create_project.py": "/usr/local/bin/ffgc_create_project.py", "markdown-it": "/usr/local/bin/markdown-it", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble", "mcxdeblast": "/usr/local/bin/mcxdeblast", "mcxdump": "/usr/local/bin/mcxdump", "mcxi": "/usr/local/bin/mcxi", "mcxload": "/usr/local/bin/mcxload", "mcxmap": "/usr/local/bin/mcxmap", "mcxrand": "/usr/local/bin/mcxrand", "mcxsubs": "/usr/local/bin/mcxsubs", "stone": "/usr/local/bin/stone", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "f2py3.11": "/usr/local/bin/f2py3.11", "pulptest": "/usr/local/bin/pulptest", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/ffgc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ffgc", "latest": {"2.4.2--py312h7e72e81_1": "sha256:51e1d163dbaa10bb2669c1ef41d54f1a805dd253d9a5c7d6d7e431eff84a0fa0"}, "tags": {"2.4.1--py311hdfd78af_0": "sha256:d6a078648a229e559c1e3dafa33abce087409240e8ee1d5c32d141f2968fd385", "2.4.2--py311hdfd78af_0": "sha256:9765171469e3127be8e73b0edf9d9ef2c709fc63c0a3d36f6630077492b86cac", "2.4.2--py312h7e72e81_1": "sha256:51e1d163dbaa10bb2669c1ef41d54f1a805dd253d9a5c7d6d7e431eff84a0fa0"}, "docker": "quay.io/biocontainers/ffgc", "aliases": {"ffgc_create_project.py": "/usr/local/bin/ffgc_create_project.py", "markdown-it": "/usr/local/bin/markdown-it", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble", "mcxdeblast": "/usr/local/bin/mcxdeblast", "mcxdump": "/usr/local/bin/mcxdump", "mcxi": "/usr/local/bin/mcxi", "mcxload": "/usr/local/bin/mcxload", "mcxmap": "/usr/local/bin/mcxmap", "mcxrand": "/usr/local/bin/mcxrand", "mcxsubs": "/usr/local/bin/mcxsubs", "stone": "/usr/local/bin/stone", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "f2py3.11": "/usr/local/bin/f2py3.11", "pulptest": "/usr/local/bin/pulptest", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ffgc.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/ffgc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ffgc:2.4.2--py311hdfd78af_0
+$ shpc install quay.io/biocontainers/ffgc:2.4.2--py312h7e72e81_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ffgc/2.4.2--py311hdfd78af_0
-$ module help quay.io/biocontainers/ffgc/2.4.2--py311hdfd78af_0
+$ module load quay.io/biocontainers/ffgc/2.4.2--py312h7e72e81_1
+$ module help quay.io/biocontainers/ffgc/2.4.2--py312h7e72e81_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

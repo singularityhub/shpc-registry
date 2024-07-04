@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tfmpvalue"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tfmpvalue/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tfmpvalue/container.yaml"
-updated_at: "2024-07-03 03:11:29.304041"
+updated_at: "2024-07-04 03:13:05.829698"
 latest: "0.0.6--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-tfmpvalue"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "0.0.6--r3.3.1_0"
  - "0.0.6--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-tfmpvalue"
-config: {"url": "https://biocontainers.pro/tools/r-tfmpvalue", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tfmpvalue", "latest": {"0.0.6--r3.3.1_0": "sha256:2cdf5b52b75f8d3fa118fde9bac469bf0c39cc0c9dca2ef072785d6568f141fe"}, "tags": {"0.0.6--r3.3.1_0": "sha256:2cdf5b52b75f8d3fa118fde9bac469bf0c39cc0c9dca2ef072785d6568f141fe", "0.0.6--r3.4.1_0": "sha256:713b3ebc4091b838b7e919a23bfa285c9bb5d6909abba72df383af80caf32468"}, "docker": "quay.io/biocontainers/r-tfmpvalue", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-tfmpvalue", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tfmpvalue", "latest": {"0.0.6--r3.3.1_0": "sha256:65e872f7c1a88c567f8da62f98104eae4422b24f9228a28de2bfab9743b262c2"}, "tags": {"0.0.6--r3.3.1_0": "sha256:65e872f7c1a88c567f8da62f98104eae4422b24f9228a28de2bfab9743b262c2", "0.0.6--r3.4.1_0": "sha256:12080e22f4e7e0cae5bef4805e04e6aae8b896481df96e46d38978290073f1c1"}, "docker": "quay.io/biocontainers/r-tfmpvalue", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-tfmpvalue.

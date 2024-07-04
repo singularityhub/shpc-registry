@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pygresql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygresql/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygresql/container.yaml"
-updated_at: "2024-07-03 03:02:16.988879"
+updated_at: "2024-07-04 03:03:52.424932"
 latest: "5.0.1--py36_1"
 container_url: "https://biocontainers.pro/tools/pygresql"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "5.0.1--py36_1"
  - "5.0.1--py35_1"
 description: "shpc-registry automated BioContainers addition for pygresql"
-config: {"url": "https://biocontainers.pro/tools/pygresql", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pygresql", "latest": {"5.0.1--py36_1": "sha256:cd80b3cbd6a025f61da39d2f58373f3687d72dcdb6ae6774d255aefa31e5d38f"}, "tags": {"5.0.1--py36_1": "sha256:cd80b3cbd6a025f61da39d2f58373f3687d72dcdb6ae6774d255aefa31e5d38f", "5.0.1--py35_1": "sha256:6e3d09bfcb6458f35f49b2e96616694af7fcb521c5eac5608be32d5d3076cf75"}, "docker": "quay.io/biocontainers/pygresql", "aliases": {"pg_standby": "/usr/local/bin/pg_standby", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal", "pg_resetwal": "/usr/local/bin/pg_resetwal", "pg_waldump": "/usr/local/bin/pg_waldump", "vacuumlo": "/usr/local/bin/vacuumlo", "clusterdb": "/usr/local/bin/clusterdb", "createdb": "/usr/local/bin/createdb", "createuser": "/usr/local/bin/createuser", "dropdb": "/usr/local/bin/dropdb"}}
+config: {"url": "https://biocontainers.pro/tools/pygresql", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pygresql", "latest": {"5.0.1--py36_1": "sha256:9fec0c99a9c13d50ccd9cf237936a34cf5108a6531f53562d61524aadbbfd8bf"}, "tags": {"5.0.1--py36_1": "sha256:9fec0c99a9c13d50ccd9cf237936a34cf5108a6531f53562d61524aadbbfd8bf", "5.0.1--py35_1": "sha256:f6fba373de378bd6af39bbc84fbc30d52d7efb15b283799495c64787a749dcc0"}, "docker": "quay.io/biocontainers/pygresql", "aliases": {"pg_standby": "/usr/local/bin/pg_standby", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal", "pg_resetwal": "/usr/local/bin/pg_resetwal", "pg_waldump": "/usr/local/bin/pg_waldump", "vacuumlo": "/usr/local/bin/vacuumlo", "clusterdb": "/usr/local/bin/clusterdb", "createdb": "/usr/local/bin/createdb", "createuser": "/usr/local/bin/createuser", "dropdb": "/usr/local/bin/dropdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pygresql.

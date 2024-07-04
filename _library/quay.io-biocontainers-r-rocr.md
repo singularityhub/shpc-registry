@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rocr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rocr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rocr/container.yaml"
-updated_at: "2024-07-03 03:20:29.331592"
+updated_at: "2024-07-04 03:22:07.940634"
 latest: "1.0_7--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-rocr"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.0_7--r3.3.1_0"
  - "1.0_7--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-rocr"
-config: {"url": "https://biocontainers.pro/tools/r-rocr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rocr", "latest": {"1.0_7--r3.3.1_0": "sha256:24475db61ebc41e63d41da5b366f4a3a8acde28c8ed460b3fa1567947038cc7f"}, "tags": {"1.0_7--r3.3.1_0": "sha256:24475db61ebc41e63d41da5b366f4a3a8acde28c8ed460b3fa1567947038cc7f", "1.0_7--r3.3.2_0": "sha256:23948fcc40c3b95fa520369775fde1613c4fdc640c769408f78fb0b49314682c"}, "docker": "quay.io/biocontainers/r-rocr", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rocr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rocr", "latest": {"1.0_7--r3.3.1_0": "sha256:ca68276d28063c3a6470386ca8ce703085f58e53fe1fa4748297d1dc05ba2152"}, "tags": {"1.0_7--r3.3.1_0": "sha256:ca68276d28063c3a6470386ca8ce703085f58e53fe1fa4748297d1dc05ba2152", "1.0_7--r3.3.2_0": "sha256:c990e6283ba76fd858c214cbb157edb5d6495c3f0255a379b7f21722befe3c66"}, "docker": "quay.io/biocontainers/r-rocr", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rocr.

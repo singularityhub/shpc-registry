@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ansible"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ansible/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ansible/container.yaml"
-updated_at: "2024-07-03 02:45:51.678755"
+updated_at: "2024-07-04 02:47:23.645544"
 latest: "1.9.4--py27_0"
 container_url: "https://biocontainers.pro/tools/ansible"
 aliases:
@@ -28,7 +28,7 @@ aliases:
 versions:
  - "1.9.4--py27_0"
 description: "shpc-registry automated BioContainers addition for ansible"
-config: {"url": "https://biocontainers.pro/tools/ansible", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ansible", "latest": {"1.9.4--py27_0": "sha256:37a18bea8ceb6152bc16d08666146067ae8a6012214d5d45b3e4f6344df6ceef"}, "tags": {"1.9.4--py27_0": "sha256:37a18bea8ceb6152bc16d08666146067ae8a6012214d5d45b3e4f6344df6ceef"}, "docker": "quay.io/biocontainers/ansible", "aliases": {"ansible": "/usr/local/bin/ansible", "ansible-doc": "/usr/local/bin/ansible-doc", "ansible-galaxy": "/usr/local/bin/ansible-galaxy", "ansible-playbook": "/usr/local/bin/ansible-playbook", "ansible-pull": "/usr/local/bin/ansible-pull", "ansible-vault": "/usr/local/bin/ansible-vault", "smtpd.pyc": "/usr/local/bin/smtpd.pyc", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/ansible", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ansible", "latest": {"1.9.4--py27_0": "sha256:cce04ca212631fbc8c37bea2bfbba36d0078561806cef2a29cb3d9b259dea8bd"}, "tags": {"1.9.4--py27_0": "sha256:cce04ca212631fbc8c37bea2bfbba36d0078561806cef2a29cb3d9b259dea8bd"}, "docker": "quay.io/biocontainers/ansible", "aliases": {"ansible": "/usr/local/bin/ansible", "ansible-doc": "/usr/local/bin/ansible-doc", "ansible-galaxy": "/usr/local/bin/ansible-galaxy", "ansible-playbook": "/usr/local/bin/ansible-playbook", "ansible-pull": "/usr/local/bin/ansible-pull", "ansible-vault": "/usr/local/bin/ansible-vault", "smtpd.pyc": "/usr/local/bin/smtpd.pyc", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ansible.

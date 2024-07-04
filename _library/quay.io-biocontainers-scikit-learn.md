@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scikit-learn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scikit-learn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scikit-learn/container.yaml"
-updated_at: "2024-07-03 03:19:25.962309"
+updated_at: "2024-07-04 03:21:04.294776"
 latest: "0.20.2"
 container_url: "https://biocontainers.pro/tools/scikit-learn"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.20.2"
 description: "shpc-registry automated BioContainers addition for scikit-learn"
-config: {"url": "https://biocontainers.pro/tools/scikit-learn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scikit-learn", "latest": {"0.20.2": "sha256:a69a470e71d5823bf38b454b44743eceba694e6c38bab59d21ef38ccc53e20ed"}, "tags": {"0.20.2": "sha256:a69a470e71d5823bf38b454b44743eceba694e6c38bab59d21ef38ccc53e20ed"}, "docker": "quay.io/biocontainers/scikit-learn", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/scikit-learn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scikit-learn", "latest": {"0.20.2": "sha256:63bd34f6b4178f08c9890401bf37a24c16806c9dc516a8b5b783ffe54a15d85e"}, "tags": {"0.20.2": "sha256:63bd34f6b4178f08c9890401bf37a24c16806c9dc516a8b5b783ffe54a15d85e"}, "docker": "quay.io/biocontainers/scikit-learn", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scikit-learn.

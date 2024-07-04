@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-survey"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-survey/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-survey/container.yaml"
-updated_at: "2024-07-03 02:37:46.409089"
+updated_at: "2024-07-04 02:39:17.274592"
 latest: "3.31_5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-survey"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "3.31_5--r3.3.1_0"
  - "3.31_5--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-survey"
-config: {"url": "https://biocontainers.pro/tools/r-survey", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-survey", "latest": {"3.31_5--r3.3.1_0": "sha256:9276ccc66b46f1b7d5ecf515bc78a82c4a60ec14c2bed0c6133ab47c82c0fbed"}, "tags": {"3.31_5--r3.3.1_0": "sha256:9276ccc66b46f1b7d5ecf515bc78a82c4a60ec14c2bed0c6133ab47c82c0fbed", "3.31_5--r3.3.2_0": "sha256:455f9af1d76ba2909af8c1addcc1cd2311967e4607aff9e61a793648a817eeb4"}, "docker": "quay.io/biocontainers/r-survey", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-survey", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-survey", "latest": {"3.31_5--r3.3.1_0": "sha256:4cc1d97b9af47f2bd3bd94e51104a3c3d9e0d8b36686063c32ebd9c8c600f5fe"}, "tags": {"3.31_5--r3.3.1_0": "sha256:4cc1d97b9af47f2bd3bd94e51104a3c3d9e0d8b36686063c32ebd9c8c600f5fe", "3.31_5--r3.3.2_0": "sha256:d7f63f805d394f09b2f637f0e376a530d52bca3ad801ab7beb50bf538bd67588"}, "docker": "quay.io/biocontainers/r-survey", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-survey.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crb-blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crb-blast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crb-blast/container.yaml"
-updated_at: "2024-07-03 03:03:40.588287"
+updated_at: "2024-07-04 03:05:16.107046"
 latest: "0.6.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crb-blast"
 aliases:
@@ -30,7 +30,7 @@ versions:
  - "0.6.6--2"
  - "0.6.9--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for crb-blast"
-config: {"url": "https://biocontainers.pro/tools/crb-blast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crb-blast", "latest": {"0.6.9--hdfd78af_0": "sha256:8398d7ad34176c13e93fc852354f6da91fa30aad2faa029729b428b8f62e6a33"}, "tags": {"0.6.6--2": "sha256:db9c0129f5a0066fc39faf8eac646c29c5fdafad56c35fac7e3bcb7c4a616827", "0.6.9--hdfd78af_0": "sha256:8398d7ad34176c13e93fc852354f6da91fa30aad2faa029729b428b8f62e6a33"}, "docker": "quay.io/biocontainers/crb-blast", "aliases": {"bioruby": "/usr/local/bin/bioruby", "br_biofetch.rb": "/usr/local/bin/br_biofetch.rb", "br_bioflat.rb": "/usr/local/bin/br_bioflat.rb", "br_biogetseq.rb": "/usr/local/bin/br_biogetseq.rb", "br_pmfetch.rb": "/usr/local/bin/br_pmfetch.rb", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "crb-blast": "/usr/local/bin/crb-blast", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "build.sh": "/usr/local/bin/build.sh", "common.go": "/usr/local/bin/common.go", "rchive.go": "/usr/local/bin/rchive.go", "setup-deps.log": "/usr/local/bin/setup-deps.log", "setup.sh": "/usr/local/bin/setup.sh", "xtract.go": "/usr/local/bin/xtract.go", "erb": "/usr/local/bin/erb"}}
+config: {"url": "https://biocontainers.pro/tools/crb-blast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crb-blast", "latest": {"0.6.9--hdfd78af_0": "sha256:8398d7ad34176c13e93fc852354f6da91fa30aad2faa029729b428b8f62e6a33"}, "tags": {"0.6.6--2": "sha256:51a165d99e4ba6cec2179137711ac253f4a3409381e24aab1a6b26bbc68563e9", "0.6.9--hdfd78af_0": "sha256:8398d7ad34176c13e93fc852354f6da91fa30aad2faa029729b428b8f62e6a33"}, "docker": "quay.io/biocontainers/crb-blast", "aliases": {"bioruby": "/usr/local/bin/bioruby", "br_biofetch.rb": "/usr/local/bin/br_biofetch.rb", "br_bioflat.rb": "/usr/local/bin/br_bioflat.rb", "br_biogetseq.rb": "/usr/local/bin/br_biogetseq.rb", "br_pmfetch.rb": "/usr/local/bin/br_pmfetch.rb", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "crb-blast": "/usr/local/bin/crb-blast", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "build.sh": "/usr/local/bin/build.sh", "common.go": "/usr/local/bin/common.go", "rchive.go": "/usr/local/bin/rchive.go", "setup-deps.log": "/usr/local/bin/setup-deps.log", "setup.sh": "/usr/local/bin/setup.sh", "xtract.go": "/usr/local/bin/xtract.go", "erb": "/usr/local/bin/erb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crb-blast.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mysqlclient"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mysqlclient/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mysqlclient/container.yaml"
-updated_at: "2024-07-03 02:48:18.723057"
+updated_at: "2024-07-04 02:49:51.022050"
 latest: "1.3.10--py36_0"
 container_url: "https://biocontainers.pro/tools/mysqlclient"
 aliases:
@@ -22,8 +22,9 @@ versions:
  - "1.3.9--py27_0"
  - "1.3.10--py36_0"
  - "1.3.10--py35_0"
+ - "1.3.10--py27_0"
 description: "shpc-registry automated BioContainers addition for mysqlclient"
-config: {"url": "https://biocontainers.pro/tools/mysqlclient", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mysqlclient", "latest": {"1.3.10--py36_0": "sha256:c491371db47b1eb925db64f01d57abdcafe45d7213e23e6e300afe2133a8eaed"}, "tags": {"1.3.9--py27_0": "sha256:02245055f0576434dc080344832bdda981b4fbc4db4c67f9c61e65a963015dd9", "1.3.10--py36_0": "sha256:c491371db47b1eb925db64f01d57abdcafe45d7213e23e6e300afe2133a8eaed", "1.3.10--py35_0": "sha256:4296740477b273e257a66761d90ca9e9347fc7266fb41b0df847f6d9cf33f3ba"}, "docker": "quay.io/biocontainers/mysqlclient", "aliases": {"easy_install-2.7": "/usr/local/bin/easy_install-2.7", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/mysqlclient", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mysqlclient", "latest": {"1.3.10--py36_0": "sha256:b403de72221dd75c97ef599f2a7c6a86d52acf8ea5345c32bc58dde91304d96a"}, "tags": {"1.3.9--py27_0": "sha256:e2d37fdc71063cc3abdef3f6d0086995625ae5d1bb5ea632795dd3e24d1d209c", "1.3.10--py36_0": "sha256:b403de72221dd75c97ef599f2a7c6a86d52acf8ea5345c32bc58dde91304d96a", "1.3.10--py35_0": "sha256:073040ee3b3dbfb17c2b90e110fc83b359f039338c1f0e6e1671b149bd64b152", "1.3.10--py27_0": "sha256:d1eda8d065a32cf29cf4f1902b04e1875a6696102fef46a1e0837965fd73c9ec"}, "docker": "quay.io/biocontainers/mysqlclient", "aliases": {"easy_install-2.7": "/usr/local/bin/easy_install-2.7", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mysqlclient.

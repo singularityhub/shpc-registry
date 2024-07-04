@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/metavelvet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metavelvet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metavelvet/container.yaml"
-updated_at: "2024-07-03 03:00:19.300028"
+updated_at: "2024-07-04 03:01:54.350425"
 latest: "1.2.02--pl5.22.0_2"
 container_url: "https://biocontainers.pro/tools/metavelvet"
 
 versions:
  - "1.2.02--pl5.22.0_2"
 description: "shpc-registry automated BioContainers addition for metavelvet"
-config: {"url": "https://biocontainers.pro/tools/metavelvet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metavelvet", "latest": {"1.2.02--pl5.22.0_2": "sha256:566e07717adc92d58d83db8367c196a28641ac0553af3384a37553566b6037aa"}, "tags": {"1.2.02--pl5.22.0_2": "sha256:566e07717adc92d58d83db8367c196a28641ac0553af3384a37553566b6037aa"}, "docker": "quay.io/biocontainers/metavelvet"}
+config: {"url": "https://biocontainers.pro/tools/metavelvet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metavelvet", "latest": {"1.2.02--pl5.22.0_2": "sha256:624aac2ce6dc33987e53ad115746b303d8377a5a0df08d5eebf0be7f6f5928e0"}, "tags": {"1.2.02--pl5.22.0_2": "sha256:624aac2ce6dc33987e53ad115746b303d8377a5a0df08d5eebf0be7f6f5928e0"}, "docker": "quay.io/biocontainers/metavelvet"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metavelvet.

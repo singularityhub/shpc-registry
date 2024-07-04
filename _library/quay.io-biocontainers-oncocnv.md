@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/oncocnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oncocnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oncocnv/container.yaml"
-updated_at: "2024-07-03 03:09:58.562702"
-latest: "7.0--pl5321r42hdfd78af_0"
+updated_at: "2024-07-04 03:11:34.693334"
+latest: "7.0--pl5321r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/oncocnv"
 aliases:
  - "ONCOCNV_getCounts.pl"
@@ -40,8 +40,9 @@ aliases:
  - "maskFastaFromBed"
 versions:
  - "7.0--pl5321r42hdfd78af_0"
+ - "7.0--pl5321r43hdfd78af_1"
 description: "singularity registry hpc automated addition for oncocnv"
-config: {"url": "https://biocontainers.pro/tools/oncocnv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oncocnv", "latest": {"7.0--pl5321r42hdfd78af_0": "sha256:28d5a8e4be4235c71df1f2f8e79c9fbff3cf313eccbc6682998de4bb8a6c4d25"}, "tags": {"7.0--pl5321r42hdfd78af_0": "sha256:28d5a8e4be4235c71df1f2f8e79c9fbff3cf313eccbc6682998de4bb8a6c4d25"}, "docker": "quay.io/biocontainers/oncocnv", "aliases": {"ONCOCNV_getCounts.pl": "/usr/local/bin/ONCOCNV_getCounts.pl", "createTargetGC.pl": "/usr/local/bin/createTargetGC.pl", "perChrVisualization.R": "/usr/local/bin/perChrVisualization.R", "processControl.R": "/usr/local/bin/processControl.R", "processSamples.R": "/usr/local/bin/processSamples.R", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed", "linksBed": "/usr/local/bin/linksBed", "mapBed": "/usr/local/bin/mapBed", "maskFastaFromBed": "/usr/local/bin/maskFastaFromBed"}}
+config: {"url": "https://biocontainers.pro/tools/oncocnv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oncocnv", "latest": {"7.0--pl5321r43hdfd78af_1": "sha256:c307e21bb4952153f29dff06cbe5320cda43f28c9dbe49a6223567a0f29534ee"}, "tags": {"7.0--pl5321r42hdfd78af_0": "sha256:28d5a8e4be4235c71df1f2f8e79c9fbff3cf313eccbc6682998de4bb8a6c4d25", "7.0--pl5321r43hdfd78af_1": "sha256:c307e21bb4952153f29dff06cbe5320cda43f28c9dbe49a6223567a0f29534ee"}, "docker": "quay.io/biocontainers/oncocnv", "aliases": {"ONCOCNV_getCounts.pl": "/usr/local/bin/ONCOCNV_getCounts.pl", "createTargetGC.pl": "/usr/local/bin/createTargetGC.pl", "perChrVisualization.R": "/usr/local/bin/perChrVisualization.R", "processControl.R": "/usr/local/bin/processControl.R", "processSamples.R": "/usr/local/bin/processSamples.R", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed", "linksBed": "/usr/local/bin/linksBed", "mapBed": "/usr/local/bin/mapBed", "maskFastaFromBed": "/usr/local/bin/maskFastaFromBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oncocnv.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/oncocnv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/oncocnv:7.0--pl5321r42hdfd78af_0
+$ shpc install quay.io/biocontainers/oncocnv:7.0--pl5321r43hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/oncocnv/7.0--pl5321r42hdfd78af_0
-$ module help quay.io/biocontainers/oncocnv/7.0--pl5321r42hdfd78af_0
+$ module load quay.io/biocontainers/oncocnv/7.0--pl5321r43hdfd78af_1
+$ module help quay.io/biocontainers/oncocnv/7.0--pl5321r43hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

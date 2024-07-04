@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-itertools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-itertools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-itertools/container.yaml"
-updated_at: "2024-07-03 02:59:13.977819"
+updated_at: "2024-07-04 03:00:48.968246"
 latest: "0.1_3--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-itertools"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "0.1_3--r3.3.1_0"
  - "0.1_3--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-itertools"
-config: {"url": "https://biocontainers.pro/tools/r-itertools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-itertools", "latest": {"0.1_3--r3.3.1_0": "sha256:2d3ce25fe96a0c39b73fd6b6659a36a8fae93e31d81eddd4e1ee31665327e296"}, "tags": {"0.1_3--r3.3.1_0": "sha256:2d3ce25fe96a0c39b73fd6b6659a36a8fae93e31d81eddd4e1ee31665327e296", "0.1_3--r3.3.2_0": "sha256:0857377d7a20017b6c6294b2edaf87d0a339aef3e3cbbeb25b0fecad069934c1"}, "docker": "quay.io/biocontainers/r-itertools", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-itertools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-itertools", "latest": {"0.1_3--r3.3.1_0": "sha256:31ddd5b547cbe0900c6747060a97dc9153cc285e850631621b77d4e310f868c3"}, "tags": {"0.1_3--r3.3.1_0": "sha256:31ddd5b547cbe0900c6747060a97dc9153cc285e850631621b77d4e310f868c3", "0.1_3--r3.3.2_0": "sha256:f87d38cae5201ce86620ddd1cb91e27d244bd26fc772a40372eb97f57d4601d5"}, "docker": "quay.io/biocontainers/r-itertools", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-itertools.
