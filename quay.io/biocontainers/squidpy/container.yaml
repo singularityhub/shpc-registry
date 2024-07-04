@@ -1,0 +1,66 @@
+url: https://biocontainers.pro/tools/squidpy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for squidpy
+latest:
+  1.5.0: sha256:870e7f80a110ed79f0b7c4922f88a6d671246abfcc06d852603c28988b53a01c
+tags:
+  1.5.0: sha256:870e7f80a110ed79f0b7c4922f88a6d671246abfcc06d852603c28988b53a01c
+docker: quay.io/biocontainers/squidpy
+aliases:
+  datashader: /usr/local/bin/datashader
+  fio: /usr/local/bin/fio
+  gdal2tiles.py: /usr/local/bin/gdal2tiles.py
+  gdal2xyz.py: /usr/local/bin/gdal2xyz.py
+  gdal_calc.py: /usr/local/bin/gdal_calc.py
+  gdal_edit.py: /usr/local/bin/gdal_edit.py
+  gdal_fillnodata.py: /usr/local/bin/gdal_fillnodata.py
+  gdal_merge.py: /usr/local/bin/gdal_merge.py
+  gdal_pansharpen.py: /usr/local/bin/gdal_pansharpen.py
+  gdal_polygonize.py: /usr/local/bin/gdal_polygonize.py
+  gdal_proximity.py: /usr/local/bin/gdal_proximity.py
+  gdal_retile.py: /usr/local/bin/gdal_retile.py
+  gdal_sieve.py: /usr/local/bin/gdal_sieve.py
+  gdalattachpct.py: /usr/local/bin/gdalattachpct.py
+  gdalcompare.py: /usr/local/bin/gdalcompare.py
+  gdalmove.py: /usr/local/bin/gdalmove.py
+  ogr_layer_algebra.py: /usr/local/bin/ogr_layer_algebra.py
+  ogrmerge.py: /usr/local/bin/ogrmerge.py
+  ome_zarr: /usr/local/bin/ome_zarr
+  pct2rgb.py: /usr/local/bin/pct2rgb.py
+  pyct: /usr/local/bin/pyct
+  pyproj: /usr/local/bin/pyproj
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rav1e: /usr/local/bin/rav1e
+  rbox: /usr/local/bin/rbox
+  rgb2pct.py: /usr/local/bin/rgb2pct.py
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  xrspatial: /usr/local/bin/xrspatial
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  genl-ctrl-list: /usr/local/bin/genl-ctrl-list
+  idiag-socket-details: /usr/local/bin/idiag-socket-details
+  nf-ct-add: /usr/local/bin/nf-ct-add
+  nf-ct-events: /usr/local/bin/nf-ct-events
+  nf-ct-list: /usr/local/bin/nf-ct-list
+  nf-exp-add: /usr/local/bin/nf-exp-add
+  nf-exp-delete: /usr/local/bin/nf-exp-delete
+  nf-exp-list: /usr/local/bin/nf-exp-list
+  nf-log: /usr/local/bin/nf-log
+  nf-monitor: /usr/local/bin/nf-monitor
+  nf-queue: /usr/local/bin/nf-queue
+  nl-addr-add: /usr/local/bin/nl-addr-add
+  nl-addr-delete: /usr/local/bin/nl-addr-delete
+  nl-addr-list: /usr/local/bin/nl-addr-list
+  nl-class-add: /usr/local/bin/nl-class-add
+  nl-class-delete: /usr/local/bin/nl-class-delete
+  nl-class-list: /usr/local/bin/nl-class-list
+  nl-classid-lookup: /usr/local/bin/nl-classid-lookup
+  nl-cls-add: /usr/local/bin/nl-cls-add
+  nl-cls-delete: /usr/local/bin/nl-cls-delete
+  nl-cls-list: /usr/local/bin/nl-cls-list
+  nl-fib-lookup: /usr/local/bin/nl-fib-lookup
+  nl-link-enslave: /usr/local/bin/nl-link-enslave
+  nl-link-ifindex2name: /usr/local/bin/nl-link-ifindex2name
