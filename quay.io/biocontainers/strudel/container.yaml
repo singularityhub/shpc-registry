@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/strudel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for strudel
 latest:
-  1.15.08.25--1: sha256:2779a69ceecd13a9a430d6f791c1f9fad4eabfba31c66ffd553b4dcf66f16d0b
+  1.15.08.25--1: sha256:e9f20ae607ce8e5bea6789cf8ee8dcc89270584604a5df55ed67d12f065aded0
 tags:
-  1.15.08.25--1: sha256:2779a69ceecd13a9a430d6f791c1f9fad4eabfba31c66ffd553b4dcf66f16d0b
+  1.15.08.25--1: sha256:e9f20ae607ce8e5bea6789cf8ee8dcc89270584604a5df55ed67d12f065aded0
 docker: quay.io/biocontainers/strudel
 aliases:
   strudel: /usr/local/bin/strudel

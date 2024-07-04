@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/paragone
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for paragone
 latest:
-  1.0.0--pl5321h031d066_0: sha256:57658404b73f1373b6bf540a066699b4a06483da8f01f3f3e155b8b477bc931a
+  1.1.1--py39h9ee0642_0: sha256:d543343b9e9fde7080153d088cdc387c6adae847f9b2abb2f4cfb5d8a6f70204
 tags:
   1.0.0--pl5321h031d066_0: sha256:57658404b73f1373b6bf540a066699b4a06483da8f01f3f3e155b8b477bc931a
+  1.1.1--py39h9ee0642_0: sha256:d543343b9e9fde7080153d088cdc387c6adae847f9b2abb2f4cfb5d8a6f70204
 docker: quay.io/biocontainers/paragone
 aliases:
   HmmCleaner.pl: /usr/local/bin/HmmCleaner.pl

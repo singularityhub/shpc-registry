@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/barrnap-python
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for barrnap-python
 latest:
-  0.0.5--py_2: sha256:0bd239f12169a2d8167681fa3f6cfb46d41282ff11423a304091e21967187b13
+  0.0.5--py_2: sha256:ed089b5ad9bbb7e5bf0c3d6fe2d18fa0c29e3a411d022b62a95e1e7e3c377324
 tags:
-  0.0.5--py_2: sha256:0bd239f12169a2d8167681fa3f6cfb46d41282ff11423a304091e21967187b13
+  0.0.5--py_2: sha256:ed089b5ad9bbb7e5bf0c3d6fe2d18fa0c29e3a411d022b62a95e1e7e3c377324
 docker: quay.io/biocontainers/barrnap-python
 aliases:
   barrnap.py: /usr/local/bin/barrnap.py

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/pyopt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyopt
 latest:
-  1.2.0--py27_1: sha256:68a81d6e10bc3827a4ab2bccff07adfa6252637a1a8cf955fbb25c56218df1b0
+  1.2.0--py27_1: sha256:31af00852e4457c23a1a3949575ef5b981b12cf86d6a1c2c101b2da559db8106
 tags:
-  1.2.0--py27_1: sha256:68a81d6e10bc3827a4ab2bccff07adfa6252637a1a8cf955fbb25c56218df1b0
+  1.2.0--py27_1: sha256:31af00852e4457c23a1a3949575ef5b981b12cf86d6a1c2c101b2da559db8106
 docker: quay.io/biocontainers/pyopt
 aliases:
   mpichversion: /usr/local/bin/mpichversion

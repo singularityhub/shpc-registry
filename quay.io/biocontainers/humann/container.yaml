@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/humann
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for humann
 latest:
-  3.8--pyh7cba7a3_0: sha256:a8338668a9e62e8cbddb6d70ed4aaea939d5e7aea2cf479cdb208bbf40452fad
+  3.9--py312hdfd78af_0: sha256:5d4ad5983b133477b1738c0cc3505f60245836c3790db39361fa7a2c0fa84abf
 tags:
   3.6--pyh7cba7a3_0: sha256:7b9093898aa115471daf054d4baf0aa4ab4d1af39d077812f7445d5b3fd766f0
   3.6--pyh7cba7a3_1: sha256:8475bb77f9eeeb272819f4ce97e92db56c0be6d98fde5be0b8631d8908b1f553
@@ -10,4 +10,5 @@ tags:
   3.7--pyh7cba7a3_0: sha256:afb42d2804535caada5c8edc0344dceb0777e94ae5b0680cacddd628441a6079
   3.7--pyh7cba7a3_1: sha256:577a71dbd24530f0905bc01f4a715d47a684a4feb237e4e5a3927fcb7ade473a
   3.8--pyh7cba7a3_0: sha256:a8338668a9e62e8cbddb6d70ed4aaea939d5e7aea2cf479cdb208bbf40452fad
+  3.9--py312hdfd78af_0: sha256:5d4ad5983b133477b1738c0cc3505f60245836c3790db39361fa7a2c0fa84abf
 docker: quay.io/biocontainers/humann

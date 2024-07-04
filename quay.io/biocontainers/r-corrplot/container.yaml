@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-corrplot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-corrplot
 latest:
-  0.77--r3.3.1_0: sha256:4d2604dcb5825f059bb94bee4c26e626eec560249d5451a4fc368029350ced14
+  0.77--r3.3.1_0: sha256:858c927cdc0af5de74ac9048671697b67c08cb538fb96e7cd726067a350fdb29
 tags:
-  0.77--r3.3.1_0: sha256:4d2604dcb5825f059bb94bee4c26e626eec560249d5451a4fc368029350ced14
-  0.77--r3.3.2_0: sha256:5943f9069c1fbd775d88e12f32a9394926fc2f662d5dd0fe8559e5548c2fa349
+  0.77--r3.3.1_0: sha256:858c927cdc0af5de74ac9048671697b67c08cb538fb96e7cd726067a350fdb29
+  0.77--r3.3.2_0: sha256:32fdcc87bcbaed5f2fdb3fd932d43a42c876b4a3858200b13142e173c08f09f0
 docker: quay.io/biocontainers/r-corrplot
 aliases:
   uconv: /usr/local/bin/uconv

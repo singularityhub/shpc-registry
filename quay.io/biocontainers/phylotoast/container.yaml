@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/phylotoast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phylotoast
 latest:
-  1.4.0rc2--py27_0: sha256:0d808c42b7f807e444ef8003766914c5b8c7765099a4037d2f1e0d56ec9c5a00
+  1.4.0rc2--py27_0: sha256:07809e3cb2d992a1338a71f506067f80880f56067274d0c9a93f9b7467c60114
 tags:
-  1.4.0rc2--py27_0: sha256:0d808c42b7f807e444ef8003766914c5b8c7765099a4037d2f1e0d56ec9c5a00
+  1.4.0rc2--py27_0: sha256:07809e3cb2d992a1338a71f506067f80880f56067274d0c9a93f9b7467c60114
 docker: quay.io/biocontainers/phylotoast
 aliases:
   LDA.py: /usr/local/bin/LDA.py

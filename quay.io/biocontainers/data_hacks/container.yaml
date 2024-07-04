@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/data_hacks
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for data_hacks
 latest:
-  0.3.1--py_2: sha256:2dc735dded644c36e3c8087d73375570f8b73de903ca9a6b017ee98aaca55dbc
+  0.3.1--py_2: sha256:32fbadac111510253bd40407435121a109ff480aa0871a8c6ac3f8550de05f7d
 tags:
-  0.3.1--py_2: sha256:2dc735dded644c36e3c8087d73375570f8b73de903ca9a6b017ee98aaca55dbc
+  0.3.1--py_2: sha256:32fbadac111510253bd40407435121a109ff480aa0871a8c6ac3f8550de05f7d
 docker: quay.io/biocontainers/data_hacks
 aliases:
   bar_chart.py: /usr/local/bin/bar_chart.py

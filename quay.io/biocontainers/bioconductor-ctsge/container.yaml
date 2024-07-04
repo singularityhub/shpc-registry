@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for bioconductor-cts
 latest:
   1.28.0--r43hdfd78af_0: sha256:829e3669777b4cd28d88235a4414883f993efeb7d1c4371d1dd2b5ecb040fc0d
 tags:
-  1.8.1--r351_0: sha256:922cb052040a85cd034674ad221ad5ba351f00f7a697030e7cfad225719d7d35
+  1.8.1--r351_0: sha256:2da997a9fbecc6915fb1610235ba733cb7038fab43bb3fecc7257b831477497d
   1.24.0--r42hdfd78af_0: sha256:9fdcbd93b80b65786ef7f8067a8ad3e2c4b94f2b1c4b189a7444de4f77440db8
   1.20.0--r41hdfd78af_0: sha256:e5edbdfce7acb5e5ce0ca214d4c1d29559d5c05c33c394028d753b81059e0d2c
   1.18.0--r41hdfd78af_0: sha256:70b6d04911bd140a92be1cedf60fa6f8d6c92aab6e67e025e4344d115e71ace4

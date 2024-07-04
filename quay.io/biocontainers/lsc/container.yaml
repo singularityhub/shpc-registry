@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/lsc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for lsc
 latest:
-  2.0--2: sha256:df78b2f0f3eaa400f7e7e7faa43de902f2995894c110b318cef0d38f8da248ab
+  2.0--2: sha256:55c8a75e3b094c7afce8dc49c26a951e43e893ab08b3492e1e1087aa47ec7194
 tags:
-  2.0--2: sha256:df78b2f0f3eaa400f7e7e7faa43de902f2995894c110b318cef0d38f8da248ab
+  2.0--2: sha256:55c8a75e3b094c7afce8dc49c26a951e43e893ab08b3492e1e1087aa47ec7194
 docker: quay.io/biocontainers/lsc
 aliases:
   AlignmentBasics.py: /usr/local/bin/AlignmentBasics.py

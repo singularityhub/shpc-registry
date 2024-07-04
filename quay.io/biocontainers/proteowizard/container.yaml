@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/proteowizard
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for proteowizard
 latest:
-  3_0_9992--h2d50403_2: sha256:3b1753654e2d825d6ee34192cdf0d08b886565fb7ed1fd01c4f4c713968c304f
+  3_0_9992--h2d50403_2: sha256:545dfae1435f88ae1f68c855860d56c7e784492fc0d0eff7563822e5222d4141
 tags:
-  3_0_9992--h2d50403_2: sha256:3b1753654e2d825d6ee34192cdf0d08b886565fb7ed1fd01c4f4c713968c304f
+  3_0_9992--h2d50403_2: sha256:545dfae1435f88ae1f68c855860d56c7e784492fc0d0eff7563822e5222d4141
   3.0.9992: sha256:eaf9f7b9a1129c954cd3eaa7a079c8a7d51898a8b87578eaf77093f75a12659c
 docker: quay.io/biocontainers/proteowizard
 aliases:

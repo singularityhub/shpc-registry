@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/marge
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for marge
 latest:
-  1.0--py_2: sha256:7940ebe4ff8820e19cb1e18b4c36f098eadbd38dc8ad7d157d04d1d0533da105
+  1.0--py_2: sha256:10636dbc08cea413c7320684a1ee7b6e9ae80107715b7fe745d7ab5b2c85ff08
 tags:
-  1.0--py_2: sha256:7940ebe4ff8820e19cb1e18b4c36f098eadbd38dc8ad7d157d04d1d0533da105
+  1.0--py_2: sha256:10636dbc08cea413c7320684a1ee7b6e9ae80107715b7fe745d7ab5b2c85ff08
 docker: quay.io/biocontainers/marge
 aliases:
   bedClip: /usr/local/bin/bedClip

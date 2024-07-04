@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/phyluce
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phyluce
 latest:
-  1.6.8--py_0: sha256:0368503f7b57cd1beb988d97d5549751bff0cf9f470e7ddb84e942930f39fbc4
+  1.6.8--py_0: sha256:5336ea720c16c9f23dfd04ce58a5ce803b8f10b78e8edb6a9cfefe8d4f762c5b
 tags:
-  1.6.8--py_0: sha256:0368503f7b57cd1beb988d97d5549751bff0cf9f470e7ddb84e942930f39fbc4
+  1.6.8--py_0: sha256:5336ea720c16c9f23dfd04ce58a5ce803b8f10b78e8edb6a9cfefe8d4f762c5b
 docker: quay.io/biocontainers/phyluce
 aliases:
   Gblocks: /usr/local/bin/Gblocks

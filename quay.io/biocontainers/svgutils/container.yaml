@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/svgutils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for svgutils
 latest:
-  0.1.0--py36_0: sha256:524ab7bb56f5ec9a04d220c401d27076701b00ada90719b8e3ba866fad1812b3
+  0.1.0--py36_0: sha256:46385acd6dd91ac422f50e3a5590171d19d33a866afbfc560f739e1dfa400c79
 tags:
-  0.1.0--py36_0: sha256:524ab7bb56f5ec9a04d220c401d27076701b00ada90719b8e3ba866fad1812b3
+  0.1.0--py36_0: sha256:46385acd6dd91ac422f50e3a5590171d19d33a866afbfc560f739e1dfa400c79
 docker: quay.io/biocontainers/svgutils
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

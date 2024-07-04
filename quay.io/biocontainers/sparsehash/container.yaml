@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/sparsehash
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sparsehash
 latest:
-  2.0.3--0: sha256:8f410856e4b0df343263fecc7d5c8b239f640cdf7f0f0357f218188679a5f812
+  2.0.3--0: sha256:d2f107bb37e5ac5eac4aed1f2bdd90053bbdd2d1cc2f18c0846d29c45eced04b
 tags:
-  2.0.3--0: sha256:8f410856e4b0df343263fecc7d5c8b239f640cdf7f0f0357f218188679a5f812
+  2.0.3--0: sha256:d2f107bb37e5ac5eac4aed1f2bdd90053bbdd2d1cc2f18c0846d29c45eced04b
 docker: quay.io/biocontainers/sparsehash

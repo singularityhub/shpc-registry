@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/logol
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for logol
 latest:
-  1.7.8--2: sha256:e9bbe6c9bb2fb5bdb5d33afc48cd917b40776b8acfc99af496a3f4ab07d851d5
+  1.7.8--2: sha256:7ba1bc0c3f2eeda6c43b34d37beddf6bddc6b0d49c400abc94324d0c4127f671
 tags:
-  1.7.8--2: sha256:e9bbe6c9bb2fb5bdb5d33afc48cd917b40776b8acfc99af496a3f4ab07d851d5
+  1.7.8--2: sha256:7ba1bc0c3f2eeda6c43b34d37beddf6bddc6b0d49c400abc94324d0c4127f671
 docker: quay.io/biocontainers/logol
 aliases:
   LogolExec.sh: /usr/local/bin/LogolExec.sh

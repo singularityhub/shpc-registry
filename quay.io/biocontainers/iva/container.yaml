@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for iva
 latest:
   1.0.11--py_0: sha256:141db6cbbf8882f044139cedf9262dc78ad9d8d3a552835315d1cf780bcf8dee
 tags:
-  1.0.9--py_2: sha256:60681684ef330b1cbd291639c91c013ab3ef157840c0f8d978cbc487e2029be2
+  1.0.9--py_2: sha256:d94786c5b5abbadb078ff3a59c5c8775f7d100888c3f7254d5130bafad9d74a2
   1.0.11--py_0: sha256:141db6cbbf8882f044139cedf9262dc78ad9d8d3a552835315d1cf780bcf8dee
 docker: quay.io/biocontainers/iva
 aliases:
