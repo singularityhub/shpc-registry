@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mageck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mageck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mageck/container.yaml"
-updated_at: "2024-07-04 02:46:17.782072"
+updated_at: "2024-07-04 03:51:33.795820"
 latest: "0.5.9.5--py311h2a4ad6c_5"
 container_url: "https://biocontainers.pro/tools/mageck"
 

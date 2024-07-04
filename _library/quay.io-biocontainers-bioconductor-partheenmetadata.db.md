@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-partheenmetadata.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-partheenmetadata.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-partheenmetadata.db/container.yaml"
-updated_at: "2024-07-04 03:17:15.891005"
+updated_at: "2024-07-04 04:22:52.402102"
 latest: "3.2.3--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-partheenmetadata.db"
 

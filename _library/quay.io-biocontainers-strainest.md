@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strainest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strainest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strainest/container.yaml"
-updated_at: "2024-07-04 03:00:35.398544"
+updated_at: "2024-07-04 04:05:48.807124"
 latest: "1.2.4--py36h6bb024c_3"
 container_url: "https://biocontainers.pro/tools/strainest"
 
