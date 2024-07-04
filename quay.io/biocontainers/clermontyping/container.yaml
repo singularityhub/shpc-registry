@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/clermontyping
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for clermontyping
+latest:
+  1.0.2--py312hdfd78af_0: sha256:0e2fa4621b5e49cc70162298f2e3fd96107100fe88083fa9f8b0b4189a4571c2
+tags:
+  1.0.2--py312hdfd78af_0: sha256:0e2fa4621b5e49cc70162298f2e3fd96107100fe88083fa9f8b0b4189a4571c2
+docker: quay.io/biocontainers/clermontyping
+aliases:
+  clermonTyping.sh: /usr/local/bin/clermonTyping.sh
+  numpy-config: /usr/local/bin/numpy-config
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  blastdbcp: /usr/local/bin/blastdbcp
+  gene_info_reader: /usr/local/bin/gene_info_reader
+  seqdb_demo: /usr/local/bin/seqdb_demo
+  seqdb_perf: /usr/local/bin/seqdb_perf
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  mash: /usr/local/bin/mash
+  seedtop: /usr/local/bin/seedtop
+  test_pcre: /usr/local/bin/test_pcre
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  hb-info: /usr/local/bin/hb-info
+  run_with_lock: /usr/local/bin/run_with_lock
+  pandoc: /usr/local/bin/pandoc
+  blast_formatter: /usr/local/bin/blast_formatter
+  blastdb_aliastool: /usr/local/bin/blastdb_aliastool
+  blastdbcheck: /usr/local/bin/blastdbcheck
+  blastdbcmd: /usr/local/bin/blastdbcmd
+  blastn: /usr/local/bin/blastn

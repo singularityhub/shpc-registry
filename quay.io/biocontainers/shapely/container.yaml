@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/shapely
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for shapely
+latest:
+  2.0.4: sha256:4377d430f2aaf598fa7583d88afa1d95e5016d13362ba0f0d04cc6064c247535
+tags:
+  2.0.4: sha256:4377d430f2aaf598fa7583d88afa1d95e5016d13362ba0f0d04cc6064c247535
+docker: quay.io/biocontainers/shapely
+aliases:
+  numpy-config: /usr/local/bin/numpy-config
+  geosop: /usr/local/bin/geosop
+  geos-config: /usr/local/bin/geos-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
