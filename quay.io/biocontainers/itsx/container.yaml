@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for itsx
 latest:
   1.1.3--hdfd78af_1: sha256:67381c0e17caf31fa6b8a1c4a1e58c7f58eefd6cd2579b9988cf235305238794
 tags:
-  1.1b--2: sha256:460ad79eea1aebb5be6a640c7c9103833e4d2df1596f3471fd78f79c95ad1429
+  1.1b--2: sha256:4bdb934cdeb2d479434444dcdd1ce5598271e883a5a3d6d1413a706e1b7c3ba4
   1.1.3--hdfd78af_1: sha256:67381c0e17caf31fa6b8a1c4a1e58c7f58eefd6cd2579b9988cf235305238794
 docker: quay.io/biocontainers/itsx
 aliases:

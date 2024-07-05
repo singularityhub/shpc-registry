@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/sibelia
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sibelia
 latest:
-  3.0.7--he1b5a44_2: sha256:6865f8d184f7bf9046e9b67786a7c2452846f2b2aaf92953c806188202fab7a4
+  3.0.7--he1b5a44_2: sha256:98599ed0b20ff26aa59a76d685d0609f13ccbbb017f3920dc69b3b667115cfd9
 tags:
-  3.0.7--he1b5a44_2: sha256:6865f8d184f7bf9046e9b67786a7c2452846f2b2aaf92953c806188202fab7a4
+  3.0.7--he1b5a44_2: sha256:98599ed0b20ff26aa59a76d685d0609f13ccbbb017f3920dc69b3b667115cfd9
 docker: quay.io/biocontainers/sibelia
 aliases:
   C-Sibelia.py: /usr/local/bin/C-Sibelia.py

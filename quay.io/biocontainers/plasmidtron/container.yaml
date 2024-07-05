@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/plasmidtron
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for plasmidtron
 latest:
-  0.4.1--py_2: sha256:b5754dd6600d8d908ca70a64c400b63747026c23dac69f40db567d2a94fae548
+  0.4.1--py_2: sha256:48cd3e972916adb9f3847eb6a78831c58199547940ad729349cdde2ef34c47cc
 tags:
-  0.4.1--py_2: sha256:b5754dd6600d8d908ca70a64c400b63747026c23dac69f40db567d2a94fae548
+  0.4.1--py_2: sha256:48cd3e972916adb9f3847eb6a78831c58199547940ad729349cdde2ef34c47cc
 docker: quay.io/biocontainers/plasmidtron
 aliases:
   plasmidtron: /usr/local/bin/plasmidtron

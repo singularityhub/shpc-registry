@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/cas-offinder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cas-offinder
 latest:
-  2.4--0: sha256:534e74c1f795e5e7da9b96d2887b03ce2c397ced53df679fda2bf7b6f3ff43bc
+  2.4--0: sha256:df7fcced443b86c36c023e0136470cddfb8e6a8e28e1f9ed7399ad406bf1be59
 tags:
-  2.4--0: sha256:534e74c1f795e5e7da9b96d2887b03ce2c397ced53df679fda2bf7b6f3ff43bc
+  2.4--0: sha256:df7fcced443b86c36c023e0136470cddfb8e6a8e28e1f9ed7399ad406bf1be59
 docker: quay.io/biocontainers/cas-offinder
 aliases:
   bugpoint: /usr/local/bin/bugpoint

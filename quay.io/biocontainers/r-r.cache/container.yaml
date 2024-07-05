@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-r.cache
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-r.cache
 latest:
-  0.12.0--r3.2.2_0: sha256:60e116a182b54bfff3908f27181fef787b1c82a0428d28ef4f75f837b689956e
+  0.12.0--r3.2.2_0: sha256:237efb29503f6b9f363033d7f9965661651474cdf6b323b6e3d2c0fb9d073db0
 tags:
-  0.12.0--r3.2.2_0: sha256:60e116a182b54bfff3908f27181fef787b1c82a0428d28ef4f75f837b689956e
-  0.12.0--r3.3.2_0: sha256:67d6b3bc0c7566e9986b54119073cd4c3df6d742120447495690182578e361b7
+  0.12.0--r3.2.2_0: sha256:237efb29503f6b9f363033d7f9965661651474cdf6b323b6e3d2c0fb9d073db0
+  0.12.0--r3.3.2_0: sha256:8a462c88ee424e55c42ca21d56a53417a6e518e7ea984250c41d143ea32f24b7
 docker: quay.io/biocontainers/r-r.cache
 aliases:
   pngcp: /usr/local/bin/pngcp

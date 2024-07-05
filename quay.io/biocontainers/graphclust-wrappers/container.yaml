@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/graphclust-wrappers
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for graphclust-wrappers
 latest:
-  0.6.0--2: sha256:0104aa7c734d5f49bd7368f459ec38e97176af369d70f888ea9e00b5c6dfa8e8
+  0.6.0--2: sha256:85c7ad438d9a16cd45f11b2ec583bc79b660608f23680663b7b5101f55979079
 tags:
-  0.6.0--2: sha256:0104aa7c734d5f49bd7368f459ec38e97176af369d70f888ea9e00b5c6dfa8e8
+  0.6.0--2: sha256:85c7ad438d9a16cd45f11b2ec583bc79b660608f23680663b7b5101f55979079
 docker: quay.io/biocontainers/graphclust-wrappers
 aliases:
   NSPDK_candidateClusters.pl: /usr/local/bin/NSPDK_candidateClusters.pl

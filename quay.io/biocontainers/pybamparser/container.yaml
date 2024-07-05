@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/pybamparser
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pybamparser
 latest:
-  0.0.3--py_2: sha256:e563b45f6b8f5f91196a207ed67db0208674f5ee462310c4bb88def0710e7c7e
+  0.0.3--py_2: sha256:e5d098be4c35283cddeb8ee60bb5596cf470a4c4989605478d3282aff3471841
 tags:
-  0.0.3--py_2: sha256:e563b45f6b8f5f91196a207ed67db0208674f5ee462310c4bb88def0710e7c7e
+  0.0.3--py_2: sha256:e5d098be4c35283cddeb8ee60bb5596cf470a4c4989605478d3282aff3471841
 docker: quay.io/biocontainers/pybamparser
 aliases:
   python2-config: /usr/local/bin/python2-config

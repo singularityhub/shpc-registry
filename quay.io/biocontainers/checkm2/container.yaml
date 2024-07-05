@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/checkm2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for checkm2
 latest:
-  1.0.1--pyh7cba7a3_0: sha256:f4adc81bff88ab5a27a2a7c4e7af2cdb0943a7b89e76ef9d2f7ec680a3b95111
+  1.0.2--pyh7cba7a3_0: sha256:256436980cda25fb46b731dadefc65c9992dc7d2924db1f5c8b43909a1fcfec6
 tags:
   1.0.1--pyh7cba7a3_0: sha256:f4adc81bff88ab5a27a2a7c4e7af2cdb0943a7b89e76ef9d2f7ec680a3b95111
+  1.0.2--pyh7cba7a3_0: sha256:256436980cda25fb46b731dadefc65c9992dc7d2924db1f5c8b43909a1fcfec6
 docker: quay.io/biocontainers/checkm2
 aliases:
   checkm2: /usr/local/bin/checkm2

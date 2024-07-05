@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/justbackoff
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for justbackoff
 latest:
-  0.4.0--py_1: sha256:b276f75b4db605e396f7db2595378ed685dce29596beab56622506c4a236fa29
+  0.4.0--py_1: sha256:060e06aa4fceff991c272db258a5d82c5d92b7ac5c2e6ce4f2c6ee16b96c1198
 tags:
-  0.4.0--py_1: sha256:b276f75b4db605e396f7db2595378ed685dce29596beab56622506c4a236fa29
+  0.4.0--py_1: sha256:060e06aa4fceff991c272db258a5d82c5d92b7ac5c2e6ce4f2c6ee16b96c1198
 docker: quay.io/biocontainers/justbackoff
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

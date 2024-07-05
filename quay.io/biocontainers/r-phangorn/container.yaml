@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-phangorn
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-phangorn
 latest:
-  2.4.0--r341h9d2a408_0: sha256:66b9f896c91ab26403d2823a5354cfa9a2fae92d7f31e1d8f972cb91f7303191
+  2.4.0--r341h9d2a408_0: sha256:09f992d85dea899e836430d234979ef4ce660c01c5a1928db9bd9e1dc4673deb
 tags:
-  2.4.0--r341h9d2a408_0: sha256:66b9f896c91ab26403d2823a5354cfa9a2fae92d7f31e1d8f972cb91f7303191
-  2.4.0--r351h9d2a408_0: sha256:da4c732d0fd3c2e81997ae3d8ac915629fd13f84c191fee525872698ec523056
+  2.4.0--r341h9d2a408_0: sha256:09f992d85dea899e836430d234979ef4ce660c01c5a1928db9bd9e1dc4673deb
+  2.4.0--r351h9d2a408_0: sha256:35d25e43ffe194e56b25b411f8073412e49264e05a730bd3d8175329ceca2b23
 docker: quay.io/biocontainers/r-phangorn
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

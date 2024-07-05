@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-caroline
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-caroline
 latest:
-  0.7.6--r3.3.1_0: sha256:3d31ee5bea7703196771768644c4a3bced601417a1161381203e0657065d4f10
+  0.7.6--r3.3.1_0: sha256:9e13c260707d2c39e92c86b58c0ad7d8c6317c6eea58b2cf7e4d3fd168beeec2
 tags:
-  0.7.6--r3.3.1_0: sha256:3d31ee5bea7703196771768644c4a3bced601417a1161381203e0657065d4f10
-  0.7.6--r3.3.2_0: sha256:4194c82916a49e349301cdfaaa59d898cf627c189e5098e0e6c7c34cf36b1dbd
+  0.7.6--r3.3.1_0: sha256:9e13c260707d2c39e92c86b58c0ad7d8c6317c6eea58b2cf7e4d3fd168beeec2
+  0.7.6--r3.3.2_0: sha256:395f111ddc61c1fc6c2c19ac3569527a6682bf0284fc582031798883ba6ad1ee
 docker: quay.io/biocontainers/r-caroline
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

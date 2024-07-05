@@ -2,12 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-fastseg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fastseg
 latest:
-  1.48.0--r43hf17093f_1: sha256:859cdb7167900d506e002be763b8d1f556f85ccc90aca4fbfa796157daa7f4d8
+  1.48.0--r43hf17093f_1: sha256:e8bf3f4ba90f94960ff543d826fd11bca509bc080d3e344292c1c49939825972
 tags:
   1.40.0--r41hc247a5b_2: sha256:9c87eef8aa54836cccd6086645028ea6feb4ff2fe216133ae068472e95e65381
   1.44.0--r42hc247a5b_0: sha256:6bb7aabd3e04fac6c642ab382a3ab7fd4d2b0c409e6a9c1ed7c9dc55d3560ff4
   1.44.0--r42hf17093f_1: sha256:c6ea0ba447507071fbb02432a458f3f981b8a7fc82effea0059813454c9a29da
   1.46.0--r43hf17093f_0: sha256:32d38f350987ddeea12e2af12223d78044b872d323157ed2c8c7c09a70905034
-  1.48.0--r43hf17093f_0: sha256:603e125cdcaad0e2bd2c735966013086c6e0850c8c1b79febb283c12b8be9aa7
-  1.48.0--r43hf17093f_1: sha256:859cdb7167900d506e002be763b8d1f556f85ccc90aca4fbfa796157daa7f4d8
+  1.48.0--r43hf17093f_0: sha256:1bdc85cd90ff123d7b70e86dce353ba66d81ba2991804b0b85670cbc55486720
+  1.48.0--r43hf17093f_1: sha256:e8bf3f4ba90f94960ff543d826fd11bca509bc080d3e344292c1c49939825972
 docker: quay.io/biocontainers/bioconductor-fastseg

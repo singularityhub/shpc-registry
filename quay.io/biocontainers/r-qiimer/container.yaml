@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-qiimer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-qiimer
 latest:
-  0.9.4--r3.4.1_0: sha256:4c2702d6fbffc7b5c0286963a5521de92a7671af185931e38a0b0b8ad322c722
+  0.9.4--r3.4.1_0: sha256:a7a9e39944f4066f2165d1db7fea2b86fcffae2f68b83d5f85c31cc9271e81f1
 tags:
-  0.9.4--r3.4.1_0: sha256:4c2702d6fbffc7b5c0286963a5521de92a7671af185931e38a0b0b8ad322c722
+  0.9.4--r3.4.1_0: sha256:a7a9e39944f4066f2165d1db7fea2b86fcffae2f68b83d5f85c31cc9271e81f1
+  0.9.4--r3.3.1_0: sha256:09bbe79118971247b2d21abf12bef2554410269966b21c29da3babd3b5ec0f3f
 docker: quay.io/biocontainers/r-qiimer
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

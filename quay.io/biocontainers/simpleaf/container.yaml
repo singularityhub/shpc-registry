@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/simpleaf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for simpleaf
 latest:
-  0.16.2--h4ac6f70_0: sha256:7e0b8095b5b847572aa9a2fdd6496feea136d19f14addb0694d15715dd3cb9e9
+  0.17.0--h919a2d8_1: sha256:d39b3760de41e785391e6fa0ed75d5040673ca3cc98c087fba09f9fd37363347
 tags:
   0.5.3--h9f5acd7_0: sha256:e3d091171880db081708f097fab967b6d6bfd517087b8da1ded720727356d032
   0.6.0--h9f5acd7_0: sha256:fc9f851428207eb47fc4421c8e5c3bc7d3d0cd13a871d563a7342597da178ffe
@@ -17,6 +17,7 @@ tags:
   0.14.1--h4ac6f70_0: sha256:cb166780c2fd8b93e93350c630ed13ab2399d5fc28dfd9ce73e7814cfad61dc8
   0.15.1--h4ac6f70_0: sha256:b3d071f8f68f1d3e0bbf43af60e9091d12d12db688c33263a6205d6c3e288082
   0.16.2--h4ac6f70_0: sha256:7e0b8095b5b847572aa9a2fdd6496feea136d19f14addb0694d15715dd3cb9e9
+  0.17.0--h919a2d8_1: sha256:d39b3760de41e785391e6fa0ed75d5040673ca3cc98c087fba09f9fd37363347
 docker: quay.io/biocontainers/simpleaf
 aliases:
   alevin-fry: /usr/local/bin/alevin-fry

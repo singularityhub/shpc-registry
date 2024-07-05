@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/scipy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scipy
 latest:
-  1.1.0: sha256:702f639302f6f2858fecb3321f5977d253f30942b11ce755985f9669b5778e40
+  1.1.0: sha256:aa15afe70f0f69e6a3fdc7df95e7eef3d31b9ceae5d84448dd157b067e2438f5
 tags:
-  1.1.0: sha256:702f639302f6f2858fecb3321f5977d253f30942b11ce755985f9669b5778e40
+  1.1.0: sha256:aa15afe70f0f69e6a3fdc7df95e7eef3d31b9ceae5d84448dd157b067e2438f5
 docker: quay.io/biocontainers/scipy
 aliases:
   2to3-3.7: /usr/local/bin/2to3-3.7
