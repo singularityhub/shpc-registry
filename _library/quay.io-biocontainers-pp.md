@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/pp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pp/container.yaml"
-updated_at: "2024-07-04 03:55:43.835506"
+updated_at: "2024-07-05 02:50:59.347632"
 latest: "1.6.5--py_2"
 container_url: "https://biocontainers.pro/tools/pp"
 
 versions:
  - "1.6.5--py_2"
 description: "shpc-registry automated BioContainers addition for pp"
-config: {"url": "https://biocontainers.pro/tools/pp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pp", "latest": {"1.6.5--py_2": "sha256:38d77ea9504239cd97e9f26d864db46c5dc0ff684c6afc5dd74cce1d0ba3fc21"}, "tags": {"1.6.5--py_2": "sha256:38d77ea9504239cd97e9f26d864db46c5dc0ff684c6afc5dd74cce1d0ba3fc21"}, "docker": "quay.io/biocontainers/pp"}
+config: {"url": "https://biocontainers.pro/tools/pp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pp", "latest": {"1.6.5--py_2": "sha256:6c34bfcaf49fb115a983714ed3355e911c97850e81fd2df2f56f14801de621d5"}, "tags": {"1.6.5--py_2": "sha256:6c34bfcaf49fb115a983714ed3355e911c97850e81fd2df2f56f14801de621d5"}, "docker": "quay.io/biocontainers/pp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pp.

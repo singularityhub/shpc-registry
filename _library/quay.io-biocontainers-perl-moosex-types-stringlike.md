@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moosex-types-stringlike"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-types-stringlike/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-types-stringlike/container.yaml"
-updated_at: "2024-07-04 04:26:23.958074"
+updated_at: "2024-07-05 03:21:37.260740"
 latest: "0.003--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-moosex-types-stringlike"
 aliases:
@@ -16,7 +16,7 @@ aliases:
 versions:
  - "0.003--pl526_0"
 description: "shpc-registry automated BioContainers addition for perl-moosex-types-stringlike"
-config: {"url": "https://biocontainers.pro/tools/perl-moosex-types-stringlike", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-moosex-types-stringlike", "latest": {"0.003--pl526_0": "sha256:99a28d277e28590d94f652eee75f426e868fef6c8ff1974bf068fde22460137e"}, "tags": {"0.003--pl526_0": "sha256:99a28d277e28590d94f652eee75f426e868fef6c8ff1974bf068fde22460137e"}, "docker": "quay.io/biocontainers/perl-moosex-types-stringlike", "aliases": {"moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-moosex-types-stringlike", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-moosex-types-stringlike", "latest": {"0.003--pl526_0": "sha256:8bddbaf51be3765cc96e4c5b140ddecbb58f5f8ac54381c79e2405517945f11a"}, "tags": {"0.003--pl526_0": "sha256:8bddbaf51be3765cc96e4c5b140ddecbb58f5f8ac54381c79e2405517945f11a"}, "docker": "quay.io/biocontainers/perl-moosex-types-stringlike", "aliases": {"moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-moosex-types-stringlike.

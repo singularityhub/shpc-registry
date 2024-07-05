@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-getopt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-getopt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-getopt/container.yaml"
-updated_at: "2024-07-04 04:15:19.872547"
+updated_at: "2024-07-05 03:10:24.664531"
 latest: "1.20.0--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-getopt"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.20.0--r3.2.2_0"
  - "1.20.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-getopt"
-config: {"url": "https://biocontainers.pro/tools/r-getopt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-getopt", "latest": {"1.20.0--r3.2.2_0": "sha256:c48a0f945fee3bec2447b1d41e516dd7468f898a96656f421ba9f4901c666524"}, "tags": {"1.20.0--r3.2.2_0": "sha256:c48a0f945fee3bec2447b1d41e516dd7468f898a96656f421ba9f4901c666524", "1.20.0--r3.3.2_0": "sha256:15935a60f93347c6e89749c9f2b5024938068d001322edcc2900e05db741d31f"}, "docker": "quay.io/biocontainers/r-getopt", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-getopt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-getopt", "latest": {"1.20.0--r3.2.2_0": "sha256:8a1518ec121305087debb2273f8fc36efbe277fa2f6904867a0ea78d79479384"}, "tags": {"1.20.0--r3.2.2_0": "sha256:8a1518ec121305087debb2273f8fc36efbe277fa2f6904867a0ea78d79479384", "1.20.0--r3.3.2_0": "sha256:680792f1456bd27cfcf34c2cd84911f5552af7e2df534d4a1d5444ce20ce40d1"}, "docker": "quay.io/biocontainers/r-getopt", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-getopt.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phonenumbers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phonenumbers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phonenumbers/container.yaml"
-updated_at: "2024-07-04 04:10:16.687931"
+updated_at: "2024-07-05 03:05:27.150882"
 latest: "7.2.4--py35_0"
 container_url: "https://biocontainers.pro/tools/phonenumbers"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "7.2.4--py35_0"
 description: "shpc-registry automated BioContainers addition for phonenumbers"
-config: {"url": "https://biocontainers.pro/tools/phonenumbers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phonenumbers", "latest": {"7.2.4--py35_0": "sha256:20f3b6ec85a8f37258f05ee76aef9891a2baa80603c302a5ebd2773fc413b247"}, "tags": {"7.2.4--py35_0": "sha256:20f3b6ec85a8f37258f05ee76aef9891a2baa80603c302a5ebd2773fc413b247"}, "docker": "quay.io/biocontainers/phonenumbers", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/phonenumbers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phonenumbers", "latest": {"7.2.4--py35_0": "sha256:3935214f5e01237fb0706a411a4ce453217bf6fecf5d4163155574979f0cd8f9"}, "tags": {"7.2.4--py35_0": "sha256:3935214f5e01237fb0706a411a4ce453217bf6fecf5d4163155574979f0cd8f9"}, "docker": "quay.io/biocontainers/phonenumbers", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phonenumbers.

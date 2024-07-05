@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nucleosim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nucleosim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nucleosim/container.yaml"
-updated_at: "2024-07-04 04:19:32.946129"
+updated_at: "2024-07-05 03:14:41.772476"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nucleosim"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nucleosim"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nucleosim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nucleosim", "latest": {"1.30.0--r43hdfd78af_0": "sha256:0e0f690109c3e7dd0bc6114812a0206df79c99f04efa607ba6f60e539235d11c"}, "tags": {"1.8.0--r341_0": "sha256:685a84c3e33a46e48e632d2d14df119dec66e5fb00f0b00c6bf193295239582e", "1.26.0--r42hdfd78af_0": "sha256:683b0d2af42ea69be57b2ab9c5a3c61c7eacef67e7fba550e1af7ce7b0fde04d", "1.22.0--r41hdfd78af_0": "sha256:8e7da37c2a6103c4707150a1982311fe7416ece148d65cd2c51d41eeef7a3dc5", "1.20.0--r41hdfd78af_0": "sha256:98ee89b97a9470f5f09f54f0a0833750780586d9e464e4699c3c3d8d150faebe", "1.18.0--r40hdfd78af_1": "sha256:cc80ae1fa474b24b7c830ba38f00ba7dc09c3bf85f077cbad3ae1350ce766959", "1.16.0--r40_0": "sha256:c49d733e3a02367911ea08c02436d5b721ceb98981cf34da324dee2e27bee8b1", "1.28.0--r43hdfd78af_0": "sha256:5990d7e6dfac798111ae6ebfad20d23afb183e993ca4a4f7d2afa2825338948f", "1.30.0--r43hdfd78af_0": "sha256:0e0f690109c3e7dd0bc6114812a0206df79c99f04efa607ba6f60e539235d11c"}, "docker": "quay.io/biocontainers/bioconductor-nucleosim", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nucleosim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nucleosim", "latest": {"1.30.0--r43hdfd78af_0": "sha256:0e0f690109c3e7dd0bc6114812a0206df79c99f04efa607ba6f60e539235d11c"}, "tags": {"1.8.0--r341_0": "sha256:e4f0240940d118db8ecb60bceb160823f0ca6b06b7f9460203e5e4e095fe33c2", "1.26.0--r42hdfd78af_0": "sha256:683b0d2af42ea69be57b2ab9c5a3c61c7eacef67e7fba550e1af7ce7b0fde04d", "1.22.0--r41hdfd78af_0": "sha256:8e7da37c2a6103c4707150a1982311fe7416ece148d65cd2c51d41eeef7a3dc5", "1.20.0--r41hdfd78af_0": "sha256:98ee89b97a9470f5f09f54f0a0833750780586d9e464e4699c3c3d8d150faebe", "1.18.0--r40hdfd78af_1": "sha256:cc80ae1fa474b24b7c830ba38f00ba7dc09c3bf85f077cbad3ae1350ce766959", "1.16.0--r40_0": "sha256:c49d733e3a02367911ea08c02436d5b721ceb98981cf34da324dee2e27bee8b1", "1.28.0--r43hdfd78af_0": "sha256:5990d7e6dfac798111ae6ebfad20d23afb183e993ca4a4f7d2afa2825338948f", "1.30.0--r43hdfd78af_0": "sha256:0e0f690109c3e7dd0bc6114812a0206df79c99f04efa607ba6f60e539235d11c"}, "docker": "quay.io/biocontainers/bioconductor-nucleosim", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nucleosim.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ore/container.yaml"
-updated_at: "2024-07-04 04:15:31.104599"
+updated_at: "2024-07-05 03:10:35.786895"
 latest: "1.3.0--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-ore"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.3.0--r3.2.2_0"
  - "1.3.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-ore"
-config: {"url": "https://biocontainers.pro/tools/r-ore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ore", "latest": {"1.3.0--r3.2.2_0": "sha256:414c4e72c13afdd4c495fccafa4ce1360c65d496e8bd3a8901cd08ccb9923c7f"}, "tags": {"1.3.0--r3.2.2_0": "sha256:414c4e72c13afdd4c495fccafa4ce1360c65d496e8bd3a8901cd08ccb9923c7f", "1.3.0--r3.3.2_0": "sha256:db83fe9263721a1d1c007ca9d04d2ea774e5ba6627c5a63e9f28e54dc6573504"}, "docker": "quay.io/biocontainers/r-ore", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-ore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ore", "latest": {"1.3.0--r3.2.2_0": "sha256:e22a812a834f2ebbf3d30256a580139085abc3e982fb86cda39a954988e25ba9"}, "tags": {"1.3.0--r3.2.2_0": "sha256:e22a812a834f2ebbf3d30256a580139085abc3e982fb86cda39a954988e25ba9", "1.3.0--r3.3.2_0": "sha256:bb815c04484d02b85d8bc9b18fc36ab1e0cea07d672b83f51ea9bbc6229d8fe9"}, "docker": "quay.io/biocontainers/r-ore", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ore.

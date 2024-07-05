@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tadarida-c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tadarida-c/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tadarida-c/container.yaml"
-updated_at: "2024-07-04 04:18:37.490126"
+updated_at: "2024-07-05 03:13:45.414608"
 latest: "1.2--r351_1"
 container_url: "https://biocontainers.pro/tools/tadarida-c"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.2--r351_1"
 description: "shpc-registry automated BioContainers addition for tadarida-c"
-config: {"url": "https://biocontainers.pro/tools/tadarida-c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tadarida-c", "latest": {"1.2--r351_1": "sha256:b514ad98526e802cd8b1fb834f43385999c51b55edb28de43c6a9a9e70373cd6"}, "tags": {"1.2--r351_1": "sha256:b514ad98526e802cd8b1fb834f43385999c51b55edb28de43c6a9a9e70373cd6"}, "docker": "quay.io/biocontainers/tadarida-c", "aliases": {"tadaridaC.r": "/usr/local/bin/tadaridaC.r"}}
+config: {"url": "https://biocontainers.pro/tools/tadarida-c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tadarida-c", "latest": {"1.2--r351_1": "sha256:c42931f045b99a4e912adb48b0392425535737a488e6dc324041db70311dc329"}, "tags": {"1.2--r351_1": "sha256:c42931f045b99a4e912adb48b0392425535737a488e6dc324041db70311dc329"}, "docker": "quay.io/biocontainers/tadarida-c", "aliases": {"tadaridaC.r": "/usr/local/bin/tadaridaC.r"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tadarida-c.

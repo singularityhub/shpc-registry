@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/barrnap-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/barrnap-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/barrnap-python/container.yaml"
-updated_at: "2024-07-04 03:44:10.761010"
+updated_at: "2024-07-05 02:39:26.691321"
 latest: "0.0.5--py_2"
 container_url: "https://biocontainers.pro/tools/barrnap-python"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.0.5--py_2"
 description: "shpc-registry automated BioContainers addition for barrnap-python"
-config: {"url": "https://biocontainers.pro/tools/barrnap-python", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for barrnap-python", "latest": {"0.0.5--py_2": "sha256:0bd239f12169a2d8167681fa3f6cfb46d41282ff11423a304091e21967187b13"}, "tags": {"0.0.5--py_2": "sha256:0bd239f12169a2d8167681fa3f6cfb46d41282ff11423a304091e21967187b13"}, "docker": "quay.io/biocontainers/barrnap-python", "aliases": {"barrnap.py": "/usr/local/bin/barrnap.py", "barrnap": "/usr/local/bin/barrnap", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct"}}
+config: {"url": "https://biocontainers.pro/tools/barrnap-python", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for barrnap-python", "latest": {"0.0.5--py_2": "sha256:ed089b5ad9bbb7e5bf0c3d6fe2d18fa0c29e3a411d022b62a95e1e7e3c377324"}, "tags": {"0.0.5--py_2": "sha256:ed089b5ad9bbb7e5bf0c3d6fe2d18fa0c29e3a411d022b62a95e1e7e3c377324"}, "docker": "quay.io/biocontainers/barrnap-python", "aliases": {"barrnap.py": "/usr/local/bin/barrnap.py", "barrnap": "/usr/local/bin/barrnap", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/barrnap-python.

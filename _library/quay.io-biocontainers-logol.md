@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/logol"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/logol/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/logol/container.yaml"
-updated_at: "2024-07-04 03:41:35.351151"
+updated_at: "2024-07-05 02:36:52.404872"
 latest: "1.7.8--2"
 container_url: "https://biocontainers.pro/tools/logol"
 aliases:
@@ -29,7 +29,7 @@ aliases:
 versions:
  - "1.7.8--2"
 description: "shpc-registry automated BioContainers addition for logol"
-config: {"url": "https://biocontainers.pro/tools/logol", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for logol", "latest": {"1.7.8--2": "sha256:e9bbe6c9bb2fb5bdb5d33afc48cd917b40776b8acfc99af496a3f4ab07d851d5"}, "tags": {"1.7.8--2": "sha256:e9bbe6c9bb2fb5bdb5d33afc48cd917b40776b8acfc99af496a3f4ab07d851d5"}, "docker": "quay.io/biocontainers/logol", "aliases": {"LogolExec.sh": "/usr/local/bin/LogolExec.sh", "LogolMultiExec.sh": "/usr/local/bin/LogolMultiExec.sh", "cassiopee": "/usr/local/bin/cassiopee", "cassiopeeknife": "/usr/local/bin/cassiopeeknife", "latex2html": "/usr/local/bin/latex2html", "swipl": "/usr/local/bin/swipl", "swipl-ld": "/usr/local/bin/swipl-ld", "swipl-rc": "/usr/local/bin/swipl-rc", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah"}}
+config: {"url": "https://biocontainers.pro/tools/logol", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for logol", "latest": {"1.7.8--2": "sha256:7ba1bc0c3f2eeda6c43b34d37beddf6bddc6b0d49c400abc94324d0c4127f671"}, "tags": {"1.7.8--2": "sha256:7ba1bc0c3f2eeda6c43b34d37beddf6bddc6b0d49c400abc94324d0c4127f671"}, "docker": "quay.io/biocontainers/logol", "aliases": {"LogolExec.sh": "/usr/local/bin/LogolExec.sh", "LogolMultiExec.sh": "/usr/local/bin/LogolMultiExec.sh", "cassiopee": "/usr/local/bin/cassiopee", "cassiopeeknife": "/usr/local/bin/cassiopeeknife", "latex2html": "/usr/local/bin/latex2html", "swipl": "/usr/local/bin/swipl", "swipl-ld": "/usr/local/bin/swipl-ld", "swipl-rc": "/usr/local/bin/swipl-rc", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/logol.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deploid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deploid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deploid/container.yaml"
-updated_at: "2024-07-04 03:47:04.160914"
+updated_at: "2024-07-05 02:42:19.207494"
 latest: "0.5--h43eeafb_4"
 container_url: "https://biocontainers.pro/tools/deploid"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "0.5--h5b5514e_2"
  - "0.5--h43eeafb_4"
 description: "shpc-registry automated BioContainers addition for deploid"
-config: {"url": "https://biocontainers.pro/tools/deploid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deploid", "latest": {"0.5--h43eeafb_4": "sha256:dff0a77f8c807ffce566a8aecaa5e3b645755d6e4f77b30836b0db6952b81b16"}, "tags": {"v0.5--h1341992_1": "sha256:a58bf17768f7c24873794f964ce3ca4eba8a81baef3eac71961bbb4457fca439", "0.5--h5b5514e_2": "sha256:d2f4f07ded58dddb85835db0d2cec93c42e5189d260e4293b74c51ebb1786beb", "0.5--h43eeafb_4": "sha256:dff0a77f8c807ffce566a8aecaa5e3b645755d6e4f77b30836b0db6952b81b16"}, "docker": "quay.io/biocontainers/deploid", "aliases": {"dEploid": "/usr/local/bin/dEploid", "dEploid_dbg": "/usr/local/bin/dEploid_dbg"}}
+config: {"url": "https://biocontainers.pro/tools/deploid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deploid", "latest": {"0.5--h43eeafb_4": "sha256:dff0a77f8c807ffce566a8aecaa5e3b645755d6e4f77b30836b0db6952b81b16"}, "tags": {"v0.5--h1341992_1": "sha256:0f0cbbbecc13e8b748d903b4736c6a34212b46b2c90e03b9f2448623bd6393cb", "0.5--h5b5514e_2": "sha256:d2f4f07ded58dddb85835db0d2cec93c42e5189d260e4293b74c51ebb1786beb", "0.5--h43eeafb_4": "sha256:dff0a77f8c807ffce566a8aecaa5e3b645755d6e4f77b30836b0db6952b81b16"}, "docker": "quay.io/biocontainers/deploid", "aliases": {"dEploid": "/usr/local/bin/dEploid", "dEploid_dbg": "/usr/local/bin/dEploid_dbg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deploid.

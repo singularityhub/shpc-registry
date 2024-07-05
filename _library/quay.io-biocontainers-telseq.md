@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/telseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/telseq/container.yaml"
-updated_at: "2024-07-04 04:18:17.808643"
-latest: "0.0.2--hf393df8_6"
+updated_at: "2024-07-05 03:13:25.601365"
+latest: "0.0.2--h7a259b3_7"
 container_url: "https://biocontainers.pro/tools/telseq"
 aliases:
  - "telseq"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.0.2--ha7703dc_5"
  - "0.0.2--hf393df8_6"
+ - "0.0.2--h7a259b3_7"
 description: "shpc-registry automated BioContainers addition for telseq"
-config: {"url": "https://biocontainers.pro/tools/telseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for telseq", "latest": {"0.0.2--hf393df8_6": "sha256:3fcca0e197ceeee478b616b1adc12d0fbe8e0bba42b5562638bccf5c33865f26"}, "tags": {"0.0.2--ha7703dc_5": "sha256:9a8b8628f4e1d8d80ab890b49764269d70a32de89eead7e8cd517055133d07f0", "0.0.2--hf393df8_6": "sha256:3fcca0e197ceeee478b616b1adc12d0fbe8e0bba42b5562638bccf5c33865f26"}, "docker": "quay.io/biocontainers/telseq", "aliases": {"telseq": "/usr/local/bin/telseq", "bamtools": "/usr/local/bin/bamtools"}}
+config: {"url": "https://biocontainers.pro/tools/telseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for telseq", "latest": {"0.0.2--h7a259b3_7": "sha256:3ac3e4fe6cbfb997229038bdde6c549fb394a41cfd55f121abc89911d4b66f7c"}, "tags": {"0.0.2--ha7703dc_5": "sha256:9a8b8628f4e1d8d80ab890b49764269d70a32de89eead7e8cd517055133d07f0", "0.0.2--hf393df8_6": "sha256:3fcca0e197ceeee478b616b1adc12d0fbe8e0bba42b5562638bccf5c33865f26", "0.0.2--h7a259b3_7": "sha256:3ac3e4fe6cbfb997229038bdde6c549fb394a41cfd55f121abc89911d4b66f7c"}, "docker": "quay.io/biocontainers/telseq", "aliases": {"telseq": "/usr/local/bin/telseq", "bamtools": "/usr/local/bin/bamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/telseq.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/telseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/telseq:0.0.2--hf393df8_6
+$ shpc install quay.io/biocontainers/telseq:0.0.2--h7a259b3_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/telseq/0.0.2--hf393df8_6
-$ module help quay.io/biocontainers/telseq/0.0.2--hf393df8_6
+$ module load quay.io/biocontainers/telseq/0.0.2--h7a259b3_7
+$ module help quay.io/biocontainers/telseq/0.0.2--h7a259b3_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

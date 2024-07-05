@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tagger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tagger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tagger/container.yaml"
-updated_at: "2024-07-04 04:26:15.515283"
+updated_at: "2024-07-05 03:21:28.687604"
 latest: "1.1--py27h02d93b8_0"
 container_url: "https://biocontainers.pro/tools/tagger"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "1.1--py27h02d93b8_0"
  - "1.1--py35h02d93b8_0"
 description: "shpc-registry automated BioContainers addition for tagger"
-config: {"url": "https://biocontainers.pro/tools/tagger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tagger", "latest": {"1.1--py27h02d93b8_0": "sha256:08d7677148a186594fe521471d8c0304b6c6f76afb25a8295696603c509086a9"}, "tags": {"1.1--py27h02d93b8_0": "sha256:08d7677148a186594fe521471d8c0304b6c6f76afb25a8295696603c509086a9", "1.1--py35h02d93b8_0": "sha256:343090dcb19fc0c67fb5d236e2d53d92fe421cdf99229c95f6e5a02b11b25366"}, "docker": "quay.io/biocontainers/tagger", "aliases": {"ccache-swig": "/usr/local/bin/ccache-swig", "swig": "/usr/local/bin/swig", "tagcorpus": "/usr/local/bin/tagcorpus", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/tagger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tagger", "latest": {"1.1--py27h02d93b8_0": "sha256:55d5f26996946a8584c591e7c27e5e22e73f3bd6e535945f94759837342f5b3d"}, "tags": {"1.1--py27h02d93b8_0": "sha256:55d5f26996946a8584c591e7c27e5e22e73f3bd6e535945f94759837342f5b3d", "1.1--py35h02d93b8_0": "sha256:ee425ba56ee868d773084cf0d7859d61d75adf930c3589ae517e3dc799fcb87d"}, "docker": "quay.io/biocontainers/tagger", "aliases": {"ccache-swig": "/usr/local/bin/ccache-swig", "swig": "/usr/local/bin/swig", "tagcorpus": "/usr/local/bin/tagcorpus", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tagger.

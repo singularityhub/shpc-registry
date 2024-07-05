@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strudel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strudel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strudel/container.yaml"
-updated_at: "2024-07-04 03:45:55.229052"
+updated_at: "2024-07-05 02:41:10.616058"
 latest: "1.15.08.25--1"
 container_url: "https://biocontainers.pro/tools/strudel"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.15.08.25--1"
 description: "shpc-registry automated BioContainers addition for strudel"
-config: {"url": "https://biocontainers.pro/tools/strudel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strudel", "latest": {"1.15.08.25--1": "sha256:2779a69ceecd13a9a430d6f791c1f9fad4eabfba31c66ffd553b4dcf66f16d0b"}, "tags": {"1.15.08.25--1": "sha256:2779a69ceecd13a9a430d6f791c1f9fad4eabfba31c66ffd553b4dcf66f16d0b"}, "docker": "quay.io/biocontainers/strudel", "aliases": {"strudel": "/usr/local/bin/strudel", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/strudel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strudel", "latest": {"1.15.08.25--1": "sha256:e9f20ae607ce8e5bea6789cf8ee8dcc89270584604a5df55ed67d12f065aded0"}, "tags": {"1.15.08.25--1": "sha256:e9f20ae607ce8e5bea6789cf8ee8dcc89270584604a5df55ed67d12f065aded0"}, "docker": "quay.io/biocontainers/strudel", "aliases": {"strudel": "/usr/local/bin/strudel", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strudel.

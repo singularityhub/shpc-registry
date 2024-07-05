@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cityhash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cityhash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cityhash/container.yaml"
-updated_at: "2024-07-04 03:46:24.355205"
+updated_at: "2024-07-05 02:41:39.589315"
 latest: "0.2.3.post9--py27_0"
 container_url: "https://biocontainers.pro/tools/cityhash"
 aliases:
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "0.2.3.post9--py27_0"
 description: "shpc-registry automated BioContainers addition for cityhash"
-config: {"url": "https://biocontainers.pro/tools/cityhash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cityhash", "latest": {"0.2.3.post9--py27_0": "sha256:60b4e58ff40b7c5520acfe548dfd5018a6d369d1b6a833612b2746d232d26ff1"}, "tags": {"0.2.3.post9--py27_0": "sha256:60b4e58ff40b7c5520acfe548dfd5018a6d369d1b6a833612b2746d232d26ff1"}, "docker": "quay.io/biocontainers/cityhash", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/cityhash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cityhash", "latest": {"0.2.3.post9--py27_0": "sha256:ba669674c0d54507a22b5e45397c18d0f784d5d88b2e80f10b6d78283fd2e482"}, "tags": {"0.2.3.post9--py27_0": "sha256:ba669674c0d54507a22b5e45397c18d0f784d5d88b2e80f10b6d78283fd2e482"}, "docker": "quay.io/biocontainers/cityhash", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cityhash.

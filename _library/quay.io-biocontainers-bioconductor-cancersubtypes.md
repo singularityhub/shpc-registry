@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cancersubtypes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cancersubtypes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cancersubtypes/container.yaml"
-updated_at: "2024-07-04 03:56:11.011297"
+updated_at: "2024-07-05 02:51:26.493859"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cancersubtypes"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.24.0--r42hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cancersubtypes"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cancersubtypes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cancersubtypes", "latest": {"1.26.0--r43hdfd78af_0": "sha256:011ab821972307b5f9520d48f4a515aed4a4efbf13e0ba1ba272f6b9344b5a75"}, "tags": {"1.8.0--r351_0": "sha256:8f16bd53130d837cdd0192c0f7d3db8b525050370ec5ed063382a9a53ea02cb5", "1.20.0--r41hdfd78af_0": "sha256:45174a210f2e8dafc01ba79746b40dff7e75b24323e1e3e8c779c7bcbcb47956", "1.18.0--r41hdfd78af_0": "sha256:c48a1683544319515a79a314c95b89cc3af442a6e514f7c57ccf770e32d39218", "1.16.0--r40hdfd78af_1": "sha256:a05dda5ebc019deae18dcebd3d83ae1ce4c597d2f2e516ad70b87d27e515b4f2", "1.14.0--r40_0": "sha256:1f3106dd6b5440f26e9f9bb977ea15fcdcad42d152218ef8f6cacb2c037b87e2", "1.12.0--r36_0": "sha256:137018ddd8f205d369740e29a45ee768a978d697664c3b8ef61f30745f1ce317", "1.24.0--r42hdfd78af_0": "sha256:39c3a325e2b2985815b2ecbb129887b3fdd3636b9a42fa6bad87286ffbee1385", "1.26.0--r43hdfd78af_0": "sha256:011ab821972307b5f9520d48f4a515aed4a4efbf13e0ba1ba272f6b9344b5a75"}, "docker": "quay.io/biocontainers/bioconductor-cancersubtypes", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cancersubtypes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cancersubtypes", "latest": {"1.26.0--r43hdfd78af_0": "sha256:011ab821972307b5f9520d48f4a515aed4a4efbf13e0ba1ba272f6b9344b5a75"}, "tags": {"1.8.0--r351_0": "sha256:bab0472f6b91a9d93b99e122fa9cad9e9df4a7fb0cab7571a9995a4d7e2bcc4a", "1.20.0--r41hdfd78af_0": "sha256:45174a210f2e8dafc01ba79746b40dff7e75b24323e1e3e8c779c7bcbcb47956", "1.18.0--r41hdfd78af_0": "sha256:c48a1683544319515a79a314c95b89cc3af442a6e514f7c57ccf770e32d39218", "1.16.0--r40hdfd78af_1": "sha256:a05dda5ebc019deae18dcebd3d83ae1ce4c597d2f2e516ad70b87d27e515b4f2", "1.14.0--r40_0": "sha256:1f3106dd6b5440f26e9f9bb977ea15fcdcad42d152218ef8f6cacb2c037b87e2", "1.12.0--r36_0": "sha256:d02b5b6c3eb1a371b4360f6993359166af42a587f5506eeec71b89073cb0326d", "1.24.0--r42hdfd78af_0": "sha256:39c3a325e2b2985815b2ecbb129887b3fdd3636b9a42fa6bad87286ffbee1385", "1.26.0--r43hdfd78af_0": "sha256:011ab821972307b5f9520d48f4a515aed4a4efbf13e0ba1ba272f6b9344b5a75"}, "docker": "quay.io/biocontainers/bioconductor-cancersubtypes", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cancersubtypes.

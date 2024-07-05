@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-jsonlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-jsonlite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-jsonlite/container.yaml"
-updated_at: "2024-07-04 04:15:01.429293"
+updated_at: "2024-07-05 03:10:06.559370"
 latest: "0.9.19--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-jsonlite"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "0.9.19--r3.3.1_1"
  - "0.9.19--r3.3.2_1"
 description: "shpc-registry automated BioContainers addition for r-jsonlite"
-config: {"url": "https://biocontainers.pro/tools/r-jsonlite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-jsonlite", "latest": {"0.9.19--r3.3.1_1": "sha256:47f1d9f319e2f735cbdb56afc695e313eb6d460a229e7edb433c3debe7bb347e"}, "tags": {"0.9.19--r3.3.1_1": "sha256:47f1d9f319e2f735cbdb56afc695e313eb6d460a229e7edb433c3debe7bb347e", "0.9.19--r3.3.2_1": "sha256:d9dc979c0c5f17cd87d6c85cb7e9cb24230f9918765d43027b8a75b59045eea1"}, "docker": "quay.io/biocontainers/r-jsonlite", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-jsonlite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-jsonlite", "latest": {"0.9.19--r3.3.1_1": "sha256:ebc9acc87b20b260ae1e0e41f1a1c1f017ced3dad17203ca9c03315249087342"}, "tags": {"0.9.19--r3.3.1_1": "sha256:ebc9acc87b20b260ae1e0e41f1a1c1f017ced3dad17203ca9c03315249087342", "0.9.19--r3.3.2_1": "sha256:b99c86a99aeb209805b41eb225e78bd6b37e7f3c23bce8b2e7dd8514fea6546e"}, "docker": "quay.io/biocontainers/r-jsonlite", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-jsonlite.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyvcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyvcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyvcf/container.yaml"
-updated_at: "2024-07-04 04:10:30.043382"
+updated_at: "2024-07-05 03:05:39.940516"
 latest: "0.6.8.dev0--py35_0"
 container_url: "https://biocontainers.pro/tools/pyvcf"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "0.6.8.dev0--py35_0"
  - "0.6.8--py36_0"
 description: "shpc-registry automated BioContainers addition for pyvcf"
-config: {"url": "https://biocontainers.pro/tools/pyvcf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyvcf", "latest": {"0.6.8.dev0--py35_0": "sha256:632a908d02326b38f4d04a656105c9866f0ba57052514ed9cb7288dde06a9fe7"}, "tags": {"0.6.8.dev0--py35_0": "sha256:632a908d02326b38f4d04a656105c9866f0ba57052514ed9cb7288dde06a9fe7", "0.6.8--py36_0": "sha256:d8c502f5c3fa2c2ad1feeba2c8811307434a3d1e09bf24bc0dcc7ee58fff7e9c"}, "docker": "quay.io/biocontainers/pyvcf", "aliases": {"vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m"}}
+config: {"url": "https://biocontainers.pro/tools/pyvcf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyvcf", "latest": {"0.6.8.dev0--py35_0": "sha256:a3f2dcc5e88f680eb97c8902457ecf73849624f9f55ac3b5ac151a3243520d71"}, "tags": {"0.6.8.dev0--py35_0": "sha256:a3f2dcc5e88f680eb97c8902457ecf73849624f9f55ac3b5ac151a3243520d71", "0.6.8--py36_0": "sha256:b52b7394552fd31e5d43127bebe46ae53d5b51e53badfc7d7d711b3e63d5f220"}, "docker": "quay.io/biocontainers/pyvcf", "aliases": {"vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyvcf.

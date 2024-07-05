@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pegas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pegas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pegas/container.yaml"
-updated_at: "2024-07-04 04:18:14.327428"
+updated_at: "2024-07-05 03:13:22.098587"
 latest: "0.11--r351h96ca727_2"
 container_url: "https://biocontainers.pro/tools/r-pegas"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.11--r351h96ca727_2"
 description: "shpc-registry automated BioContainers addition for r-pegas"
-config: {"url": "https://biocontainers.pro/tools/r-pegas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pegas", "latest": {"0.11--r351h96ca727_2": "sha256:6a6232f68f8f0bdd9c6d697c815bd2f458f79ce7c478060e02df397e38011e65"}, "tags": {"0.11--r351h96ca727_2": "sha256:6a6232f68f8f0bdd9c6d697c815bd2f458f79ce7c478060e02df397e38011e65"}, "docker": "quay.io/biocontainers/r-pegas", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-pegas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pegas", "latest": {"0.11--r351h96ca727_2": "sha256:d3e27fd0e00d39ee35753836ee333b44e5c34913e0bfaae0d4478de743a9a37c"}, "tags": {"0.11--r351h96ca727_2": "sha256:d3e27fd0e00d39ee35753836ee333b44e5c34913e0bfaae0d4478de743a9a37c"}, "docker": "quay.io/biocontainers/r-pegas", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pegas.

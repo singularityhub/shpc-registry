@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svgutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svgutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svgutils/container.yaml"
-updated_at: "2024-07-04 03:56:42.925456"
+updated_at: "2024-07-05 02:51:58.084710"
 latest: "0.1.0--py36_0"
 container_url: "https://biocontainers.pro/tools/svgutils"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.1.0--py36_0"
 description: "shpc-registry automated BioContainers addition for svgutils"
-config: {"url": "https://biocontainers.pro/tools/svgutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svgutils", "latest": {"0.1.0--py36_0": "sha256:524ab7bb56f5ec9a04d220c401d27076701b00ada90719b8e3ba866fad1812b3"}, "tags": {"0.1.0--py36_0": "sha256:524ab7bb56f5ec9a04d220c401d27076701b00ada90719b8e3ba866fad1812b3"}, "docker": "quay.io/biocontainers/svgutils", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
+config: {"url": "https://biocontainers.pro/tools/svgutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svgutils", "latest": {"0.1.0--py36_0": "sha256:46385acd6dd91ac422f50e3a5590171d19d33a866afbfc560f739e1dfa400c79"}, "tags": {"0.1.0--py36_0": "sha256:46385acd6dd91ac422f50e3a5590171d19d33a866afbfc560f739e1dfa400c79"}, "docker": "quay.io/biocontainers/svgutils", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svgutils.

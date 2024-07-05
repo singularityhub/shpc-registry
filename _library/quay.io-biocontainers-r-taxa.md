@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/r-taxa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-taxa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-taxa/container.yaml"
-updated_at: "2024-07-04 03:58:11.329820"
+updated_at: "2024-07-05 02:53:26.753088"
 latest: "0.3.2--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-taxa"
 
 versions:
  - "0.3.2--r351h6115d3f_0"
 description: "shpc-registry automated BioContainers addition for r-taxa"
-config: {"url": "https://biocontainers.pro/tools/r-taxa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-taxa", "latest": {"0.3.2--r351h6115d3f_0": "sha256:360337b67f9c19ae34a6a37e882bb53936d287c4cb02174d51017a9299395b87"}, "tags": {"0.3.2--r351h6115d3f_0": "sha256:360337b67f9c19ae34a6a37e882bb53936d287c4cb02174d51017a9299395b87"}, "docker": "quay.io/biocontainers/r-taxa"}
+config: {"url": "https://biocontainers.pro/tools/r-taxa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-taxa", "latest": {"0.3.2--r351h6115d3f_0": "sha256:35aceef758cab5815d5521d45cb5ae32c78c63f978fcd5ba0c08b20ece2786a5"}, "tags": {"0.3.2--r351h6115d3f_0": "sha256:35aceef758cab5815d5521d45cb5ae32c78c63f978fcd5ba0c08b20ece2786a5"}, "docker": "quay.io/biocontainers/r-taxa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-taxa.

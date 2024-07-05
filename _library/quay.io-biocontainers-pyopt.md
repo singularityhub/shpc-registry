@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyopt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyopt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyopt/container.yaml"
-updated_at: "2024-07-04 03:59:09.518927"
+updated_at: "2024-07-05 02:54:25.358723"
 latest: "1.2.0--py27_1"
 container_url: "https://biocontainers.pro/tools/pyopt"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.2.0--py27_1"
 description: "shpc-registry automated BioContainers addition for pyopt"
-config: {"url": "https://biocontainers.pro/tools/pyopt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyopt", "latest": {"1.2.0--py27_1": "sha256:68a81d6e10bc3827a4ab2bccff07adfa6252637a1a8cf955fbb25c56218df1b0"}, "tags": {"1.2.0--py27_1": "sha256:68a81d6e10bc3827a4ab2bccff07adfa6252637a1a8cf955fbb25c56218df1b0"}, "docker": "quay.io/biocontainers/pyopt", "aliases": {"mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "mpifort": "/usr/local/bin/mpifort", "mpic++": "/usr/local/bin/mpic++", "mpicc": "/usr/local/bin/mpicc"}}
+config: {"url": "https://biocontainers.pro/tools/pyopt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyopt", "latest": {"1.2.0--py27_1": "sha256:31af00852e4457c23a1a3949575ef5b981b12cf86d6a1c2c101b2da559db8106"}, "tags": {"1.2.0--py27_1": "sha256:31af00852e4457c23a1a3949575ef5b981b12cf86d6a1c2c101b2da559db8106"}, "docker": "quay.io/biocontainers/pyopt", "aliases": {"mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "mpifort": "/usr/local/bin/mpifort", "mpic++": "/usr/local/bin/mpic++", "mpicc": "/usr/local/bin/mpicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyopt.

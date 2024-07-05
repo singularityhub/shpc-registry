@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/tophat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tophat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tophat/container.yaml"
-updated_at: "2024-07-04 03:52:06.044026"
+updated_at: "2024-07-05 02:47:19.949508"
 latest: "2.1.1--py27_3"
 container_url: "https://biocontainers.pro/tools/tophat"
 
 versions:
  - "2.1.1--py27_3"
 description: "shpc-registry automated BioContainers addition for tophat"
-config: {"url": "https://biocontainers.pro/tools/tophat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tophat", "latest": {"2.1.1--py27_3": "sha256:2765a207bcfa3bdb2cdde91bb673fddd6def19da6431f31ec84fd19df9106edd"}, "tags": {"2.1.1--py27_3": "sha256:2765a207bcfa3bdb2cdde91bb673fddd6def19da6431f31ec84fd19df9106edd"}, "docker": "quay.io/biocontainers/tophat"}
+config: {"url": "https://biocontainers.pro/tools/tophat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tophat", "latest": {"2.1.1--py27_3": "sha256:15e907a6d9c63847f3a786522f1e6351f02cdf90faef8defa09b88f6fc58b7ff"}, "tags": {"2.1.1--py27_3": "sha256:15e907a6d9c63847f3a786522f1e6351f02cdf90faef8defa09b88f6fc58b7ff"}, "docker": "quay.io/biocontainers/tophat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tophat.

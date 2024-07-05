@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cialign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cialign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cialign/container.yaml"
-updated_at: "2024-07-04 04:19:05.375737"
-latest: "1.1.0--pyhca03a8a_2"
+updated_at: "2024-07-05 03:14:13.687384"
+latest: "1.1.4--pyhca03a8a_0"
 container_url: "https://biocontainers.pro/tools/cialign"
 aliases:
  - "CIAlign"
@@ -39,8 +39,9 @@ versions:
  - "1.1.0--pyhca03a8a_0"
  - "1.1.0--pyhca03a8a_1"
  - "1.1.0--pyhca03a8a_2"
+ - "1.1.4--pyhca03a8a_0"
 description: "singularity registry hpc automated addition for cialign"
-config: {"url": "https://biocontainers.pro/tools/cialign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cialign", "latest": {"1.1.0--pyhca03a8a_2": "sha256:9a33f49e7336600ae63ca3af2413f529ac351c8da0241ac40f1e4b30d18e7904"}, "tags": {"1.0.18--pyhb7b1952_0": "sha256:3d296ea4302144e2f8c2161efaf37f8dd84e3da7bd273412df81ea7588524109", "1.1.0--pyhca03a8a_0": "sha256:d5f45a74b6aea1a3fce4dc9c83d9a92e96c48c453019ba76f7514ec8f5b2e58d", "1.1.0--pyhca03a8a_1": "sha256:88a3fc11db60774f548d19ac9d2651bf5d7e701155bfc9c4d68b8010da52a309", "1.1.0--pyhca03a8a_2": "sha256:9a33f49e7336600ae63ca3af2413f529ac351c8da0241ac40f1e4b30d18e7904"}, "docker": "quay.io/biocontainers/cialign", "aliases": {"CIAlign": "/usr/local/bin/CIAlign", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool"}}
+config: {"url": "https://biocontainers.pro/tools/cialign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cialign", "latest": {"1.1.4--pyhca03a8a_0": "sha256:935e0d5cbc15d4bc1734147934dce5d655be0da4e22eeba1b74571603bdf58b2"}, "tags": {"1.0.18--pyhb7b1952_0": "sha256:3d296ea4302144e2f8c2161efaf37f8dd84e3da7bd273412df81ea7588524109", "1.1.0--pyhca03a8a_0": "sha256:d5f45a74b6aea1a3fce4dc9c83d9a92e96c48c453019ba76f7514ec8f5b2e58d", "1.1.0--pyhca03a8a_1": "sha256:88a3fc11db60774f548d19ac9d2651bf5d7e701155bfc9c4d68b8010da52a309", "1.1.0--pyhca03a8a_2": "sha256:9a33f49e7336600ae63ca3af2413f529ac351c8da0241ac40f1e4b30d18e7904", "1.1.4--pyhca03a8a_0": "sha256:935e0d5cbc15d4bc1734147934dce5d655be0da4e22eeba1b74571603bdf58b2"}, "docker": "quay.io/biocontainers/cialign", "aliases": {"CIAlign": "/usr/local/bin/CIAlign", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cialign.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/cialign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cialign:1.1.0--pyhca03a8a_2
+$ shpc install quay.io/biocontainers/cialign:1.1.4--pyhca03a8a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cialign/1.1.0--pyhca03a8a_2
-$ module help quay.io/biocontainers/cialign/1.1.0--pyhca03a8a_2
+$ module load quay.io/biocontainers/cialign/1.1.4--pyhca03a8a_0
+$ module help quay.io/biocontainers/cialign/1.1.4--pyhca03a8a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/data_hacks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/data_hacks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/data_hacks/container.yaml"
-updated_at: "2024-07-04 04:14:41.942194"
+updated_at: "2024-07-05 03:09:47.582359"
 latest: "0.3.1--py_2"
 container_url: "https://biocontainers.pro/tools/data_hacks"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.3.1--py_2"
 description: "shpc-registry automated BioContainers addition for data_hacks"
-config: {"url": "https://biocontainers.pro/tools/data_hacks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for data_hacks", "latest": {"0.3.1--py_2": "sha256:2dc735dded644c36e3c8087d73375570f8b73de903ca9a6b017ee98aaca55dbc"}, "tags": {"0.3.1--py_2": "sha256:2dc735dded644c36e3c8087d73375570f8b73de903ca9a6b017ee98aaca55dbc"}, "docker": "quay.io/biocontainers/data_hacks", "aliases": {"bar_chart.py": "/usr/local/bin/bar_chart.py", "histogram.py": "/usr/local/bin/histogram.py", "ninety_five_percent.py": "/usr/local/bin/ninety_five_percent.py", "run_for.py": "/usr/local/bin/run_for.py", "sample.py": "/usr/local/bin/sample.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/data_hacks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for data_hacks", "latest": {"0.3.1--py_2": "sha256:32fbadac111510253bd40407435121a109ff480aa0871a8c6ac3f8550de05f7d"}, "tags": {"0.3.1--py_2": "sha256:32fbadac111510253bd40407435121a109ff480aa0871a8c6ac3f8550de05f7d"}, "docker": "quay.io/biocontainers/data_hacks", "aliases": {"bar_chart.py": "/usr/local/bin/bar_chart.py", "histogram.py": "/usr/local/bin/histogram.py", "ninety_five_percent.py": "/usr/local/bin/ninety_five_percent.py", "run_for.py": "/usr/local/bin/run_for.py", "sample.py": "/usr/local/bin/sample.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/data_hacks.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/anndata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anndata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anndata/container.yaml"
-updated_at: "2024-07-04 03:58:22.581774"
+updated_at: "2024-07-05 02:53:38.067295"
 latest: "0.6.22.post1--py_0"
 container_url: "https://biocontainers.pro/tools/anndata"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "0.6.9--py_0"
  - "0.6.22.post1--py_0"
 description: "shpc-registry automated BioContainers addition for anndata"
-config: {"url": "https://biocontainers.pro/tools/anndata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anndata", "latest": {"0.6.22.post1--py_0": "sha256:1f27f4af53214e9a1291739e398ce0f3861f44941525a87e8f91c1157fb5d511"}, "tags": {"0.6.9--py_0": "sha256:76436ac95bc757f6f06c64831e42e9187a6c3a2416d9465e732e3e730745bf1e", "0.6.22.post1--py_0": "sha256:1f27f4af53214e9a1291739e398ce0f3861f44941525a87e8f91c1157fb5d511"}, "docker": "quay.io/biocontainers/anndata", "aliases": {"natsort": "/usr/local/bin/natsort", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "h5clear": "/usr/local/bin/h5clear"}}
+config: {"url": "https://biocontainers.pro/tools/anndata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anndata", "latest": {"0.6.22.post1--py_0": "sha256:898c59e5be05cfba229440753bde992bbc94c6d42c57f284842af96c070db161"}, "tags": {"0.6.9--py_0": "sha256:f5594f6c24afe77dfb2e448775792751e34d7154c8fc843426925ca9a1e7da79", "0.6.22.post1--py_0": "sha256:898c59e5be05cfba229440753bde992bbc94c6d42c57f284842af96c070db161"}, "docker": "quay.io/biocontainers/anndata", "aliases": {"natsort": "/usr/local/bin/natsort", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "h5clear": "/usr/local/bin/h5clear"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/anndata.

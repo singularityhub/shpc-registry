@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/abyss-k128"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abyss-k128/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abyss-k128/container.yaml"
-updated_at: "2024-07-04 04:23:52.595386"
+updated_at: "2024-07-05 03:19:04.293937"
 latest: "2.0.2--boost1.64_2"
 container_url: "https://biocontainers.pro/tools/abyss-k128"
 
 versions:
  - "2.0.2--boost1.64_2"
 description: "shpc-registry automated BioContainers addition for abyss-k128"
-config: {"url": "https://biocontainers.pro/tools/abyss-k128", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abyss-k128", "latest": {"2.0.2--boost1.64_2": "sha256:d9f6fbc0d0bfb1a90839b84a440758fa6dd83e150672eb99b5cab945980b15ab"}, "tags": {"2.0.2--boost1.64_2": "sha256:d9f6fbc0d0bfb1a90839b84a440758fa6dd83e150672eb99b5cab945980b15ab"}, "docker": "quay.io/biocontainers/abyss-k128"}
+config: {"url": "https://biocontainers.pro/tools/abyss-k128", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abyss-k128", "latest": {"2.0.2--boost1.64_2": "sha256:be504c587d8ea9e04fb89829eda2b2ce0999535cc2a9d2e5a5a5b9912f5cc0e5"}, "tags": {"2.0.2--boost1.64_2": "sha256:be504c587d8ea9e04fb89829eda2b2ce0999535cc2a9d2e5a5a5b9912f5cc0e5"}, "docker": "quay.io/biocontainers/abyss-k128"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abyss-k128.

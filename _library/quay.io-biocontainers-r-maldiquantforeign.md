@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-maldiquantforeign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-maldiquantforeign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-maldiquantforeign/container.yaml"
-updated_at: "2024-07-04 04:14:53.583918"
+updated_at: "2024-07-05 03:09:59.010045"
 latest: "0.12--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-maldiquantforeign"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "0.12--r351h6115d3f_0"
 description: "shpc-registry automated BioContainers addition for r-maldiquantforeign"
-config: {"url": "https://biocontainers.pro/tools/r-maldiquantforeign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-maldiquantforeign", "latest": {"0.12--r351h6115d3f_0": "sha256:e7d249ab14bb7961d64cebb1421fa6e020d567508da992e077714ae06dc89464"}, "tags": {"0.12--r351h6115d3f_0": "sha256:e7d249ab14bb7961d64cebb1421fa6e020d567508da992e077714ae06dc89464"}, "docker": "quay.io/biocontainers/r-maldiquantforeign", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-maldiquantforeign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-maldiquantforeign", "latest": {"0.12--r351h6115d3f_0": "sha256:120f82e6b4a72887db51cfda4dba0957a0f91f07eee9036555da0820cc1f219c"}, "tags": {"0.12--r351h6115d3f_0": "sha256:120f82e6b4a72887db51cfda4dba0957a0f91f07eee9036555da0820cc1f219c"}, "docker": "quay.io/biocontainers/r-maldiquantforeign", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-maldiquantforeign.

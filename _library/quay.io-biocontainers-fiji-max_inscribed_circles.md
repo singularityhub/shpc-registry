@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fiji-max_inscribed_circles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fiji-max_inscribed_circles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fiji-max_inscribed_circles/container.yaml"
-updated_at: "2024-07-04 03:41:47.138332"
+updated_at: "2024-07-05 02:37:04.201287"
 latest: "2.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fiji-max_inscribed_circles"
 aliases:

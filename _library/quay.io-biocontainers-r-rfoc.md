@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rfoc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rfoc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rfoc/container.yaml"
-updated_at: "2024-07-04 04:08:33.030058"
+updated_at: "2024-07-05 03:03:44.654448"
 latest: "3.3_3--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-rfoc"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "3.3_3--r3.2.2_0"
  - "3.3_3--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-rfoc"
-config: {"url": "https://biocontainers.pro/tools/r-rfoc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rfoc", "latest": {"3.3_3--r3.2.2_0": "sha256:8b814821d5010bc6c501c871b54c9de94af208a1cf64a390f43e6685407a65b5"}, "tags": {"3.3_3--r3.2.2_0": "sha256:8b814821d5010bc6c501c871b54c9de94af208a1cf64a390f43e6685407a65b5", "3.3_3--r3.3.2_0": "sha256:78c5ca5e850a887c7dcb53016a40f453a3c8d4137dea6d12a85bd18261f707f9"}, "docker": "quay.io/biocontainers/r-rfoc", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rfoc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rfoc", "latest": {"3.3_3--r3.2.2_0": "sha256:a35126a8b8da5a7a9b968e7eb4b2b04c6dd31a7a8a2b8f540a7e9758db2d28bc"}, "tags": {"3.3_3--r3.2.2_0": "sha256:a35126a8b8da5a7a9b968e7eb4b2b04c6dd31a7a8a2b8f540a7e9758db2d28bc", "3.3_3--r3.3.2_0": "sha256:9952f82a1d438f083667503a3828694591a50aeeb1331ba9d48e632549df3804"}, "docker": "quay.io/biocontainers/r-rfoc", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rfoc.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/marge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/marge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/marge/container.yaml"
-updated_at: "2024-07-04 03:43:01.540614"
+updated_at: "2024-07-05 02:38:18.214804"
 latest: "1.0--py_2"
 container_url: "https://biocontainers.pro/tools/marge"
 aliases:
@@ -26,7 +26,7 @@ aliases:
 versions:
  - "1.0--py_2"
 description: "shpc-registry automated BioContainers addition for marge"
-config: {"url": "https://biocontainers.pro/tools/marge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for marge", "latest": {"1.0--py_2": "sha256:7940ebe4ff8820e19cb1e18b4c36f098eadbd38dc8ad7d157d04d1d0533da105"}, "tags": {"1.0--py_2": "sha256:7940ebe4ff8820e19cb1e18b4c36f098eadbd38dc8ad7d157d04d1d0533da105"}, "docker": "quay.io/biocontainers/marge", "aliases": {"bedClip": "/usr/local/bin/bedClip", "bigWigAverageOverBed": "/usr/local/bin/bigWigAverageOverBed", "bigWigSummary": "/usr/local/bin/bigWigSummary", "bigWigToBedGraph": "/usr/local/bin/bigWigToBedGraph", "marge": "/usr/local/bin/marge", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "rst2html4.py": "/usr/local/bin/rst2html4.py"}}
+config: {"url": "https://biocontainers.pro/tools/marge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for marge", "latest": {"1.0--py_2": "sha256:10636dbc08cea413c7320684a1ee7b6e9ae80107715b7fe745d7ab5b2c85ff08"}, "tags": {"1.0--py_2": "sha256:10636dbc08cea413c7320684a1ee7b6e9ae80107715b7fe745d7ab5b2c85ff08"}, "docker": "quay.io/biocontainers/marge", "aliases": {"bedClip": "/usr/local/bin/bedClip", "bigWigAverageOverBed": "/usr/local/bin/bigWigAverageOverBed", "bigWigSummary": "/usr/local/bin/bigWigSummary", "bigWigToBedGraph": "/usr/local/bin/bigWigToBedGraph", "marge": "/usr/local/bin/marge", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "rst2html4.py": "/usr/local/bin/rst2html4.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/marge.

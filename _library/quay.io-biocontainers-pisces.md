@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pisces"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pisces/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pisces/container.yaml"
-updated_at: "2024-07-04 04:02:16.279916"
+updated_at: "2024-07-05 02:57:32.942955"
 latest: "5.2.10.49--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pisces"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "5.2.9.122--0"
  - "5.2.10.49--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for pisces"
-config: {"url": "https://biocontainers.pro/tools/pisces", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pisces", "latest": {"5.2.10.49--hdfd78af_1": "sha256:8bd6fe6f09a4c0acaac06d8058fd1715c1d91a235148028e84fcabfbb9407fbb"}, "tags": {"5.2.9.122--0": "sha256:0b9d31da5df60ad8d75accd80b66664a8ce08e9c2a470baddbc003e7fac1c498", "5.2.10.49--hdfd78af_1": "sha256:8bd6fe6f09a4c0acaac06d8058fd1715c1d91a235148028e84fcabfbb9407fbb"}, "docker": "quay.io/biocontainers/pisces", "aliases": {"pisces": "/usr/local/bin/pisces", "pisces_vqr": "/usr/local/bin/pisces_vqr"}}
+config: {"url": "https://biocontainers.pro/tools/pisces", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pisces", "latest": {"5.2.10.49--hdfd78af_1": "sha256:8bd6fe6f09a4c0acaac06d8058fd1715c1d91a235148028e84fcabfbb9407fbb"}, "tags": {"5.2.9.122--0": "sha256:cb89baea9a1c2ba7a3ac03412b36f64a53fd447592703c5f6dc6994f6876c350", "5.2.10.49--hdfd78af_1": "sha256:8bd6fe6f09a4c0acaac06d8058fd1715c1d91a235148028e84fcabfbb9407fbb"}, "docker": "quay.io/biocontainers/pisces", "aliases": {"pisces": "/usr/local/bin/pisces", "pisces_vqr": "/usr/local/bin/pisces_vqr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pisces.

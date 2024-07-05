@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/sparsehash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sparsehash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sparsehash/container.yaml"
-updated_at: "2024-07-04 03:58:52.974206"
+updated_at: "2024-07-05 02:54:08.700737"
 latest: "2.0.3--0"
 container_url: "https://biocontainers.pro/tools/sparsehash"
 
 versions:
  - "2.0.3--0"
 description: "shpc-registry automated BioContainers addition for sparsehash"
-config: {"url": "https://biocontainers.pro/tools/sparsehash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sparsehash", "latest": {"2.0.3--0": "sha256:8f410856e4b0df343263fecc7d5c8b239f640cdf7f0f0357f218188679a5f812"}, "tags": {"2.0.3--0": "sha256:8f410856e4b0df343263fecc7d5c8b239f640cdf7f0f0357f218188679a5f812"}, "docker": "quay.io/biocontainers/sparsehash"}
+config: {"url": "https://biocontainers.pro/tools/sparsehash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sparsehash", "latest": {"2.0.3--0": "sha256:d2f107bb37e5ac5eac4aed1f2bdd90053bbdd2d1cc2f18c0846d29c45eced04b"}, "tags": {"2.0.3--0": "sha256:d2f107bb37e5ac5eac4aed1f2bdd90053bbdd2d1cc2f18c0846d29c45eced04b"}, "docker": "quay.io/biocontainers/sparsehash"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sparsehash.

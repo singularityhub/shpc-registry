@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/humann"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/humann/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/humann/container.yaml"
-updated_at: "2024-07-04 03:44:18.920694"
-latest: "3.8--pyh7cba7a3_0"
+updated_at: "2024-07-05 02:39:34.868975"
+latest: "3.9--py312hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/humann"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "3.7--pyh7cba7a3_0"
  - "3.7--pyh7cba7a3_1"
  - "3.8--pyh7cba7a3_0"
+ - "3.9--py312hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for humann"
-config: {"url": "https://biocontainers.pro/tools/humann", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for humann", "latest": {"3.8--pyh7cba7a3_0": "sha256:a8338668a9e62e8cbddb6d70ed4aaea939d5e7aea2cf479cdb208bbf40452fad"}, "tags": {"3.6--pyh7cba7a3_0": "sha256:7b9093898aa115471daf054d4baf0aa4ab4d1af39d077812f7445d5b3fd766f0", "3.6--pyh7cba7a3_1": "sha256:8475bb77f9eeeb272819f4ce97e92db56c0be6d98fde5be0b8631d8908b1f553", "3.6--pyh7cba7a3_2": "sha256:ff4ec1968d8e8b29b85d146cbf3486e601a6e63f7e3cf5d8fef954bf61a2f09d", "3.7--pyh7cba7a3_0": "sha256:afb42d2804535caada5c8edc0344dceb0777e94ae5b0680cacddd628441a6079", "3.7--pyh7cba7a3_1": "sha256:577a71dbd24530f0905bc01f4a715d47a684a4feb237e4e5a3927fcb7ade473a", "3.8--pyh7cba7a3_0": "sha256:a8338668a9e62e8cbddb6d70ed4aaea939d5e7aea2cf479cdb208bbf40452fad"}, "docker": "quay.io/biocontainers/humann"}
+config: {"url": "https://biocontainers.pro/tools/humann", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for humann", "latest": {"3.9--py312hdfd78af_0": "sha256:5d4ad5983b133477b1738c0cc3505f60245836c3790db39361fa7a2c0fa84abf"}, "tags": {"3.6--pyh7cba7a3_0": "sha256:7b9093898aa115471daf054d4baf0aa4ab4d1af39d077812f7445d5b3fd766f0", "3.6--pyh7cba7a3_1": "sha256:8475bb77f9eeeb272819f4ce97e92db56c0be6d98fde5be0b8631d8908b1f553", "3.6--pyh7cba7a3_2": "sha256:ff4ec1968d8e8b29b85d146cbf3486e601a6e63f7e3cf5d8fef954bf61a2f09d", "3.7--pyh7cba7a3_0": "sha256:afb42d2804535caada5c8edc0344dceb0777e94ae5b0680cacddd628441a6079", "3.7--pyh7cba7a3_1": "sha256:577a71dbd24530f0905bc01f4a715d47a684a4feb237e4e5a3927fcb7ade473a", "3.8--pyh7cba7a3_0": "sha256:a8338668a9e62e8cbddb6d70ed4aaea939d5e7aea2cf479cdb208bbf40452fad", "3.9--py312hdfd78af_0": "sha256:5d4ad5983b133477b1738c0cc3505f60245836c3790db39361fa7a2c0fa84abf"}, "docker": "quay.io/biocontainers/humann"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/humann.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/humann
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/humann:3.8--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/humann:3.9--py312hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/humann/3.8--pyh7cba7a3_0
-$ module help quay.io/biocontainers/humann/3.8--pyh7cba7a3_0
+$ module load quay.io/biocontainers/humann/3.9--py312hdfd78af_0
+$ module help quay.io/biocontainers/humann/3.9--py312hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

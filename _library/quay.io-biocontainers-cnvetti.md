@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cnvetti"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnvetti/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cnvetti/container.yaml"
-updated_at: "2024-07-04 04:17:18.608852"
+updated_at: "2024-07-05 03:12:25.091900"
 latest: "0.2.0--he4cf2ce_0"
 container_url: "https://biocontainers.pro/tools/cnvetti"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "0.2.0--he4cf2ce_0"
 description: "shpc-registry automated BioContainers addition for cnvetti"
-config: {"url": "https://biocontainers.pro/tools/cnvetti", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cnvetti", "latest": {"0.2.0--he4cf2ce_0": "sha256:e3ed89e21c80a3001f7660dea4d0ff587b930c0469e41ae75eb615e2fdc94539"}, "tags": {"0.2.0--he4cf2ce_0": "sha256:e3ed89e21c80a3001f7660dea4d0ff587b930c0469e41ae75eb615e2fdc94539"}, "docker": "quay.io/biocontainers/cnvetti", "aliases": {"cnvetti": "/usr/local/bin/cnvetti"}}
+config: {"url": "https://biocontainers.pro/tools/cnvetti", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cnvetti", "latest": {"0.2.0--he4cf2ce_0": "sha256:442a26e94809d83b12027d95c24668dfe2c9daa6b95bc3052f0c6f116cfe953d"}, "tags": {"0.2.0--he4cf2ce_0": "sha256:442a26e94809d83b12027d95c24668dfe2c9daa6b95bc3052f0c6f116cfe953d"}, "docker": "quay.io/biocontainers/cnvetti", "aliases": {"cnvetti": "/usr/local/bin/cnvetti"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cnvetti.
