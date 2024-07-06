@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/autolog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autolog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autolog/container.yaml"
-updated_at: "2024-07-05 03:17:56.286159"
+updated_at: "2024-07-06 03:13:41.983720"
 latest: "0.2--py_0"
 container_url: "https://biocontainers.pro/tools/autolog"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.2--py_0"
 description: "shpc-registry automated BioContainers addition for autolog"
-config: {"url": "https://biocontainers.pro/tools/autolog", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for autolog", "latest": {"0.2--py_0": "sha256:0b7ce1163d2e0d873bd537093cb70c2f7d242f0042ae472cabd79bc094f060ad"}, "tags": {"0.2--py_0": "sha256:0b7ce1163d2e0d873bd537093cb70c2f7d242f0042ae472cabd79bc094f060ad"}, "docker": "quay.io/biocontainers/autolog", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/autolog", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for autolog", "latest": {"0.2--py_0": "sha256:f9ad3eeb0c09585fe1670451ed7304d6f2fccbb39c042d09f77a4c517e225005"}, "tags": {"0.2--py_0": "sha256:f9ad3eeb0c09585fe1670451ed7304d6f2fccbb39c042d09f77a4c517e225005"}, "docker": "quay.io/biocontainers/autolog", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/autolog.

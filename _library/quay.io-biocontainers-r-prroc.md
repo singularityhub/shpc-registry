@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-prroc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-prroc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-prroc/container.yaml"
-updated_at: "2024-07-05 03:18:47.290937"
+updated_at: "2024-07-06 03:14:32.579056"
 latest: "1.1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-prroc"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.1--r3.3.1_0"
  - "1.1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-prroc"
-config: {"url": "https://biocontainers.pro/tools/r-prroc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-prroc", "latest": {"1.1--r3.3.1_0": "sha256:e509f5473b6f04059355679f210c105302d6dd2dbaf1b3b0cb3804134b47a77a"}, "tags": {"1.1--r3.3.1_0": "sha256:e509f5473b6f04059355679f210c105302d6dd2dbaf1b3b0cb3804134b47a77a", "1.1--r3.3.2_0": "sha256:a3b063ad4823a9333813ee95a1dda05ff9889ec1914015cc8660eb370d0a18e8"}, "docker": "quay.io/biocontainers/r-prroc", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-prroc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-prroc", "latest": {"1.1--r3.3.1_0": "sha256:067e128806b19b632d02127483c29e1606fe98d8cf46855edc9c402a2963d3a4"}, "tags": {"1.1--r3.3.1_0": "sha256:067e128806b19b632d02127483c29e1606fe98d8cf46855edc9c402a2963d3a4", "1.1--r3.3.2_0": "sha256:7794ce526a64b72cd89c20e009ab574c5b2e36282a801409fa38ce79bbd5d90a"}, "docker": "quay.io/biocontainers/r-prroc", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-prroc.

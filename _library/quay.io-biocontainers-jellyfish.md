@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jellyfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jellyfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jellyfish/container.yaml"
-updated_at: "2024-07-05 02:49:13.677142"
+updated_at: "2024-07-06 02:45:26.934436"
 latest: "2.2.10--h6bb024c_1"
 container_url: "https://biocontainers.pro/tools/jellyfish"
 aliases:
@@ -13,7 +13,7 @@ versions:
  - "2.2.6--0"
  - "2.2.10--h6bb024c_1"
 description: "shpc-registry automated BioContainers addition for jellyfish"
-config: {"url": "https://biocontainers.pro/tools/jellyfish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jellyfish", "latest": {"2.2.10--h6bb024c_1": "sha256:2f55a16d4c96f366f9287e1d4fe6d10ae63974afee1e2e0627b90dab651c35f4"}, "tags": {"2.2.6--0": "sha256:2fa06e6c6afe001df9a96b14617c5faa4e43e3d6c5df094b21be3052c7496f2d", "2.2.10--h6bb024c_1": "sha256:2f55a16d4c96f366f9287e1d4fe6d10ae63974afee1e2e0627b90dab651c35f4"}, "docker": "quay.io/biocontainers/jellyfish", "aliases": {"jellyfish": "/usr/local/bin/jellyfish"}}
+config: {"url": "https://biocontainers.pro/tools/jellyfish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jellyfish", "latest": {"2.2.10--h6bb024c_1": "sha256:e385805d4bf54e2c8c61016155d3bc28837ff0081102c21029d0a7ff1ebc12f3"}, "tags": {"2.2.6--0": "sha256:3840bcf6baa8c7a6d31a8ad102fdb33032e2af031d90591736ce208fdcff9287", "2.2.10--h6bb024c_1": "sha256:e385805d4bf54e2c8c61016155d3bc28837ff0081102c21029d0a7ff1ebc12f3"}, "docker": "quay.io/biocontainers/jellyfish", "aliases": {"jellyfish": "/usr/local/bin/jellyfish"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jellyfish.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-qiimer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-qiimer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-qiimer/container.yaml"
-updated_at: "2024-07-05 02:51:27.902456"
+updated_at: "2024-07-06 02:47:39.837767"
 latest: "0.9.4--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-qiimer"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.9.4--r3.4.1_0"
+ - "0.9.4--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-qiimer"
-config: {"url": "https://biocontainers.pro/tools/r-qiimer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-qiimer", "latest": {"0.9.4--r3.4.1_0": "sha256:4c2702d6fbffc7b5c0286963a5521de92a7671af185931e38a0b0b8ad322c722"}, "tags": {"0.9.4--r3.4.1_0": "sha256:4c2702d6fbffc7b5c0286963a5521de92a7671af185931e38a0b0b8ad322c722"}, "docker": "quay.io/biocontainers/r-qiimer", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-qiimer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-qiimer", "latest": {"0.9.4--r3.4.1_0": "sha256:a7a9e39944f4066f2165d1db7fea2b86fcffae2f68b83d5f85c31cc9271e81f1"}, "tags": {"0.9.4--r3.4.1_0": "sha256:a7a9e39944f4066f2165d1db7fea2b86fcffae2f68b83d5f85c31cc9271e81f1", "0.9.4--r3.3.1_0": "sha256:09bbe79118971247b2d21abf12bef2554410269966b21c29da3babd3b5ec0f3f"}, "docker": "quay.io/biocontainers/r-qiimer", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-qiimer.

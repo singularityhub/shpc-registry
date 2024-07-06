@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/itsx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itsx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itsx/container.yaml"
-updated_at: "2024-07-05 03:20:07.040084"
+updated_at: "2024-07-06 03:15:51.569940"
 latest: "1.1.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/itsx"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "1.1b--2"
  - "1.1.3--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for itsx"
-config: {"url": "https://biocontainers.pro/tools/itsx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for itsx", "latest": {"1.1.3--hdfd78af_1": "sha256:67381c0e17caf31fa6b8a1c4a1e58c7f58eefd6cd2579b9988cf235305238794"}, "tags": {"1.1b--2": "sha256:460ad79eea1aebb5be6a640c7c9103833e4d2df1596f3471fd78f79c95ad1429", "1.1.3--hdfd78af_1": "sha256:67381c0e17caf31fa6b8a1c4a1e58c7f58eefd6cd2579b9988cf235305238794"}, "docker": "quay.io/biocontainers/itsx", "aliases": {"ITSx": "/usr/local/bin/ITSx", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct"}}
+config: {"url": "https://biocontainers.pro/tools/itsx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for itsx", "latest": {"1.1.3--hdfd78af_1": "sha256:67381c0e17caf31fa6b8a1c4a1e58c7f58eefd6cd2579b9988cf235305238794"}, "tags": {"1.1b--2": "sha256:4bdb934cdeb2d479434444dcdd1ce5598271e883a5a3d6d1413a706e1b7c3ba4", "1.1.3--hdfd78af_1": "sha256:67381c0e17caf31fa6b8a1c4a1e58c7f58eefd6cd2579b9988cf235305238794"}, "docker": "quay.io/biocontainers/itsx", "aliases": {"ITSx": "/usr/local/bin/ITSx", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/itsx.

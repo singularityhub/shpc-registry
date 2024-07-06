@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybamparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybamparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybamparser/container.yaml"
-updated_at: "2024-07-05 03:15:21.651778"
+updated_at: "2024-07-06 03:11:09.324171"
 latest: "0.0.3--py_2"
 container_url: "https://biocontainers.pro/tools/pybamparser"
 aliases:
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "0.0.3--py_2"
 description: "shpc-registry automated BioContainers addition for pybamparser"
-config: {"url": "https://biocontainers.pro/tools/pybamparser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybamparser", "latest": {"0.0.3--py_2": "sha256:e563b45f6b8f5f91196a207ed67db0208674f5ee462310c4bb88def0710e7c7e"}, "tags": {"0.0.3--py_2": "sha256:e563b45f6b8f5f91196a207ed67db0208674f5ee462310c4bb88def0710e7c7e"}, "docker": "quay.io/biocontainers/pybamparser", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/pybamparser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybamparser", "latest": {"0.0.3--py_2": "sha256:e5d098be4c35283cddeb8ee60bb5596cf470a4c4989605478d3282aff3471841"}, "tags": {"0.0.3--py_2": "sha256:e5d098be4c35283cddeb8ee60bb5596cf470a4c4989605478d3282aff3471841"}, "docker": "quay.io/biocontainers/pybamparser", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybamparser.

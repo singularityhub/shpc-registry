@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/irida-sistr-results"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irida-sistr-results/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/irida-sistr-results/container.yaml"
-updated_at: "2024-07-05 03:22:15.220743"
+updated_at: "2024-07-06 03:17:57.611099"
 latest: "0.6.0--py_1"
 container_url: "https://biocontainers.pro/tools/irida-sistr-results"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.6.0--py_1"
 description: "shpc-registry automated BioContainers addition for irida-sistr-results"
-config: {"url": "https://biocontainers.pro/tools/irida-sistr-results", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irida-sistr-results", "latest": {"0.6.0--py_1": "sha256:1a4ab2f36aa3b449803acca2d50aea9040b15332fc987b4197ef22faaca6fa20"}, "tags": {"0.6.0--py_1": "sha256:1a4ab2f36aa3b449803acca2d50aea9040b15332fc987b4197ef22faaca6fa20"}, "docker": "quay.io/biocontainers/irida-sistr-results", "aliases": {"irida-sistr-results": "/usr/local/bin/irida-sistr-results", "vba_extract.py": "/usr/local/bin/vba_extract.py", "f2py3.7": "/usr/local/bin/f2py3.7", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
+config: {"url": "https://biocontainers.pro/tools/irida-sistr-results", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irida-sistr-results", "latest": {"0.6.0--py_1": "sha256:52a4c80b3bf51a2a835629e27a1e48c085f71d70db7315ddf1739a261d899afc"}, "tags": {"0.6.0--py_1": "sha256:52a4c80b3bf51a2a835629e27a1e48c085f71d70db7315ddf1739a261d899afc"}, "docker": "quay.io/biocontainers/irida-sistr-results", "aliases": {"irida-sistr-results": "/usr/local/bin/irida-sistr-results", "vba_extract.py": "/usr/local/bin/vba_extract.py", "f2py3.7": "/usr/local/bin/f2py3.7", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/irida-sistr-results.

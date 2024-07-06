@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mbttest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mbttest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mbttest/container.yaml"
-updated_at: "2024-07-05 03:03:33.358220"
+updated_at: "2024-07-06 02:59:42.255525"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mbttest"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mbttest"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mbttest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mbttest", "latest": {"1.30.0--r43hdfd78af_0": "sha256:d0203626a2001c7d7a73eefbbbf9376f677a197b80c1eece630db5bdf06354fa"}, "tags": {"1.8.1--r341_0": "sha256:e0ed3521f7cc010fa1b99aedc6e2ef41c675f1a325f9df8442a0a2beb1ab8b83", "1.26.0--r42hdfd78af_0": "sha256:bd1618b9b95215f687974ce3142e4eb308fe2516982f4920208d27026f10d18a", "1.22.0--r41hdfd78af_0": "sha256:778dd5c6ec26e735bcb07e19e3782527785a5b66a8249feed72564b695edb37e", "1.20.0--r41hdfd78af_0": "sha256:c4654fde0e783a55061ec52c3bc7da5719afb2814ab296c8fba433440ac94e12", "1.18.0--r40hdfd78af_1": "sha256:2ed3528024cee28ce84b664648911234f7129bf5735957b614089d50f45e6b8d", "1.16.0--r40_0": "sha256:3676ba61703515dc0dc4759ee810eaecd799cd523e5a29e541fcf8a5b98e092f", "1.28.0--r43hdfd78af_0": "sha256:42a5312fc553b749ff431586f00dd95f9169981d480554882a3c87f6d5d19848", "1.30.0--r43hdfd78af_0": "sha256:d0203626a2001c7d7a73eefbbbf9376f677a197b80c1eece630db5bdf06354fa"}, "docker": "quay.io/biocontainers/bioconductor-mbttest", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mbttest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mbttest", "latest": {"1.30.0--r43hdfd78af_0": "sha256:d0203626a2001c7d7a73eefbbbf9376f677a197b80c1eece630db5bdf06354fa"}, "tags": {"1.8.1--r341_0": "sha256:4b53074fd66ec647cb8159caf201ed978f6d21918e6c7b54b909383a86623a59", "1.26.0--r42hdfd78af_0": "sha256:bd1618b9b95215f687974ce3142e4eb308fe2516982f4920208d27026f10d18a", "1.22.0--r41hdfd78af_0": "sha256:778dd5c6ec26e735bcb07e19e3782527785a5b66a8249feed72564b695edb37e", "1.20.0--r41hdfd78af_0": "sha256:c4654fde0e783a55061ec52c3bc7da5719afb2814ab296c8fba433440ac94e12", "1.18.0--r40hdfd78af_1": "sha256:2ed3528024cee28ce84b664648911234f7129bf5735957b614089d50f45e6b8d", "1.16.0--r40_0": "sha256:3676ba61703515dc0dc4759ee810eaecd799cd523e5a29e541fcf8a5b98e092f", "1.28.0--r43hdfd78af_0": "sha256:42a5312fc553b749ff431586f00dd95f9169981d480554882a3c87f6d5d19848", "1.30.0--r43hdfd78af_0": "sha256:d0203626a2001c7d7a73eefbbbf9376f677a197b80c1eece630db5bdf06354fa"}, "docker": "quay.io/biocontainers/bioconductor-mbttest", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mbttest.

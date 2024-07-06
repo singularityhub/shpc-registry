@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-maxcontrastprojection"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maxcontrastprojection/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maxcontrastprojection/container.yaml"
-updated_at: "2024-07-05 02:48:24.598694"
+updated_at: "2024-07-06 02:44:37.934801"
 latest: "1.11.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-maxcontrastprojection"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "1.11.0--r40_0"
  - "1.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-maxcontrastprojection"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-maxcontrastprojection", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-maxcontrastprojection", "latest": {"1.11.0--r40_0": "sha256:9451ffc4db8e05c1ee2a6fca11805104a3400f69e2173b7a3e81ea615f2fff44"}, "tags": {"1.8.0--r36_1": "sha256:b7c8973d3f8354deb5fd01162b8f56c2b1542ecbf9362ff5df967c07266aacf3", "1.11.0--r40_0": "sha256:9451ffc4db8e05c1ee2a6fca11805104a3400f69e2173b7a3e81ea615f2fff44", "1.10.0--r36_0": "sha256:134ad997c2aa2ed73689634862c246338041fc8eeb776a0677415384aa698735"}, "docker": "quay.io/biocontainers/bioconductor-maxcontrastprojection", "aliases": {"mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "mpifort": "/usr/local/bin/mpifort", "mpic++": "/usr/local/bin/mpic++", "mpicc": "/usr/local/bin/mpicc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-maxcontrastprojection", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-maxcontrastprojection", "latest": {"1.11.0--r40_0": "sha256:9451ffc4db8e05c1ee2a6fca11805104a3400f69e2173b7a3e81ea615f2fff44"}, "tags": {"1.8.0--r36_1": "sha256:4d6f964efd92bdfa522aec1a0d5488b1661aeebe14d06a7e0cb9665bc6d4cc0b", "1.11.0--r40_0": "sha256:9451ffc4db8e05c1ee2a6fca11805104a3400f69e2173b7a3e81ea615f2fff44", "1.10.0--r36_0": "sha256:4979c84eed6c633d5b0d1bb426482d84b02672271bf7b60fd387dad1153deeb8"}, "docker": "quay.io/biocontainers/bioconductor-maxcontrastprojection", "aliases": {"mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "mpifort": "/usr/local/bin/mpifort", "mpic++": "/usr/local/bin/mpic++", "mpicc": "/usr/local/bin/mpicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-maxcontrastprojection.

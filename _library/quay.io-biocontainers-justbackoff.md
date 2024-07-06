@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/justbackoff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/justbackoff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/justbackoff/container.yaml"
-updated_at: "2024-07-05 02:36:58.031936"
+updated_at: "2024-07-06 02:33:06.062963"
 latest: "0.4.0--py_1"
 container_url: "https://biocontainers.pro/tools/justbackoff"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.4.0--py_1"
 description: "shpc-registry automated BioContainers addition for justbackoff"
-config: {"url": "https://biocontainers.pro/tools/justbackoff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for justbackoff", "latest": {"0.4.0--py_1": "sha256:b276f75b4db605e396f7db2595378ed685dce29596beab56622506c4a236fa29"}, "tags": {"0.4.0--py_1": "sha256:b276f75b4db605e396f7db2595378ed685dce29596beab56622506c4a236fa29"}, "docker": "quay.io/biocontainers/justbackoff", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/justbackoff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for justbackoff", "latest": {"0.4.0--py_1": "sha256:060e06aa4fceff991c272db258a5d82c5d92b7ac5c2e6ce4f2c6ee16b96c1198"}, "tags": {"0.4.0--py_1": "sha256:060e06aa4fceff991c272db258a5d82c5d92b7ac5c2e6ce4f2c6ee16b96c1198"}, "docker": "quay.io/biocontainers/justbackoff", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/justbackoff.

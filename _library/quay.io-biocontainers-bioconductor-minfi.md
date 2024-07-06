@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-minfi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-minfi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-minfi/container.yaml"
-updated_at: "2024-07-05 03:14:06.340822"
+updated_at: "2024-07-06 03:09:56.818933"
 latest: "1.48.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-minfi"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rambo-k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rambo-k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rambo-k/container.yaml"
-updated_at: "2024-07-05 03:16:15.802255"
+updated_at: "2024-07-06 03:12:02.593352"
 latest: "1.21--1"
 container_url: "https://biocontainers.pro/tools/rambo-k"
 aliases:
@@ -26,7 +26,7 @@ aliases:
 versions:
  - "1.21--1"
 description: "shpc-registry automated BioContainers addition for rambo-k"
-config: {"url": "https://biocontainers.pro/tools/rambo-k", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rambo-k", "latest": {"1.21--1": "sha256:1ae0c6f3c394c43d6cdc92a67fcb681d0d860d8862431379516746db7d1135ae"}, "tags": {"1.21--1": "sha256:1ae0c6f3c394c43d6cdc92a67fcb681d0d860d8862431379516746db7d1135ae"}, "docker": "quay.io/biocontainers/rambo-k", "aliases": {"RAMBOK.py": "/usr/local/bin/RAMBOK.py", "classifier.jar": "/usr/local/bin/classifier.jar", "plot.py": "/usr/local/bin/plot.py", "simulate_reads.py": "/usr/local/bin/simulate_reads.py", "trainer.jar": "/usr/local/bin/trainer.jar", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/rambo-k", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rambo-k", "latest": {"1.21--1": "sha256:4592e4933e413c4bb9fb362a563762c177f6b443875d55e072d8762b67306db8"}, "tags": {"1.21--1": "sha256:4592e4933e413c4bb9fb362a563762c177f6b443875d55e072d8762b67306db8"}, "docker": "quay.io/biocontainers/rambo-k", "aliases": {"RAMBOK.py": "/usr/local/bin/RAMBOK.py", "classifier.jar": "/usr/local/bin/classifier.jar", "plot.py": "/usr/local/bin/plot.py", "simulate_reads.py": "/usr/local/bin/simulate_reads.py", "trainer.jar": "/usr/local/bin/trainer.jar", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rambo-k.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-cpan-meta-validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-cpan-meta-validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-cpan-meta-validator/container.yaml"
-updated_at: "2024-07-05 02:47:49.494540"
+updated_at: "2024-07-06 02:44:02.791987"
 latest: "2.140640--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-cpan-meta-validator"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "2.140640--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-cpan-meta-validator"
-config: {"url": "https://biocontainers.pro/tools/perl-cpan-meta-validator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-cpan-meta-validator", "latest": {"2.140640--pl526_1": "sha256:7ca185053767bc5a8f11a7aa7e5c6a10596a1e03c995fc5ee928540d04c0b8c6"}, "tags": {"2.140640--pl526_1": "sha256:7ca185053767bc5a8f11a7aa7e5c6a10596a1e03c995fc5ee928540d04c0b8c6"}, "docker": "quay.io/biocontainers/perl-cpan-meta-validator", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-cpan-meta-validator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-cpan-meta-validator", "latest": {"2.140640--pl526_1": "sha256:aa4ff9da6532df2f6ab3e3b86cfbf30a90c83d11e46647432fb379106ede60cb"}, "tags": {"2.140640--pl526_1": "sha256:aa4ff9da6532df2f6ab3e3b86cfbf30a90c83d11e46647432fb379106ede60cb"}, "docker": "quay.io/biocontainers/perl-cpan-meta-validator", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-cpan-meta-validator.

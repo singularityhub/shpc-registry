@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tabview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tabview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tabview/container.yaml"
-updated_at: "2024-07-05 02:47:26.088531"
+updated_at: "2024-07-06 02:43:39.086519"
 latest: "1.4.3--pyh4bbf42b_0"
 container_url: "https://biocontainers.pro/tools/tabview"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.4.3--pyh4bbf42b_0"
 description: "shpc-registry automated BioContainers addition for tabview"
-config: {"url": "https://biocontainers.pro/tools/tabview", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tabview", "latest": {"1.4.3--pyh4bbf42b_0": "sha256:245d79e814e96d50cf32b0e60478bd66286b343417edf98023955916e3ee1a0f"}, "tags": {"1.4.3--pyh4bbf42b_0": "sha256:245d79e814e96d50cf32b0e60478bd66286b343417edf98023955916e3ee1a0f"}, "docker": "quay.io/biocontainers/tabview", "aliases": {"tabview": "/usr/local/bin/tabview", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/tabview", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tabview", "latest": {"1.4.3--pyh4bbf42b_0": "sha256:9df67e26bd124c9aec1fc40dbd252978258f062d55a9dab5234ca38d46f4f084"}, "tags": {"1.4.3--pyh4bbf42b_0": "sha256:9df67e26bd124c9aec1fc40dbd252978258f062d55a9dab5234ca38d46f4f084"}, "docker": "quay.io/biocontainers/tabview", "aliases": {"tabview": "/usr/local/bin/tabview", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tabview.

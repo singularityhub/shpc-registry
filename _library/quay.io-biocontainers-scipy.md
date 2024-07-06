@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scipy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scipy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scipy/container.yaml"
-updated_at: "2024-07-05 03:03:14.747217"
+updated_at: "2024-07-06 02:59:23.701780"
 latest: "1.1.0"
 container_url: "https://biocontainers.pro/tools/scipy"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "1.1.0"
 description: "shpc-registry automated BioContainers addition for scipy"
-config: {"url": "https://biocontainers.pro/tools/scipy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scipy", "latest": {"1.1.0": "sha256:702f639302f6f2858fecb3321f5977d253f30942b11ce755985f9669b5778e40"}, "tags": {"1.1.0": "sha256:702f639302f6f2858fecb3321f5977d253f30942b11ce755985f9669b5778e40"}, "docker": "quay.io/biocontainers/scipy", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/scipy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scipy", "latest": {"1.1.0": "sha256:aa15afe70f0f69e6a3fdc7df95e7eef3d31b9ceae5d84448dd157b067e2438f5"}, "tags": {"1.1.0": "sha256:aa15afe70f0f69e6a3fdc7df95e7eef3d31b9ceae5d84448dd157b067e2438f5"}, "docker": "quay.io/biocontainers/scipy", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scipy.

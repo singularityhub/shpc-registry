@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sibelia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sibelia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sibelia/container.yaml"
-updated_at: "2024-07-05 02:57:06.949169"
+updated_at: "2024-07-06 02:53:17.472965"
 latest: "3.0.7--he1b5a44_2"
 container_url: "https://biocontainers.pro/tools/sibelia"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "3.0.7--he1b5a44_2"
 description: "shpc-registry automated BioContainers addition for sibelia"
-config: {"url": "https://biocontainers.pro/tools/sibelia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sibelia", "latest": {"3.0.7--he1b5a44_2": "sha256:6865f8d184f7bf9046e9b67786a7c2452846f2b2aaf92953c806188202fab7a4"}, "tags": {"3.0.7--he1b5a44_2": "sha256:6865f8d184f7bf9046e9b67786a7c2452846f2b2aaf92953c806188202fab7a4"}, "docker": "quay.io/biocontainers/sibelia", "aliases": {"C-Sibelia.py": "/usr/local/bin/C-Sibelia.py", "Sibelia": "/usr/local/bin/Sibelia", "snpEffAnnotate.py": "/usr/local/bin/snpEffAnnotate.py"}}
+config: {"url": "https://biocontainers.pro/tools/sibelia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sibelia", "latest": {"3.0.7--he1b5a44_2": "sha256:98599ed0b20ff26aa59a76d685d0609f13ccbbb017f3920dc69b3b667115cfd9"}, "tags": {"3.0.7--he1b5a44_2": "sha256:98599ed0b20ff26aa59a76d685d0609f13ccbbb017f3920dc69b3b667115cfd9"}, "docker": "quay.io/biocontainers/sibelia", "aliases": {"C-Sibelia.py": "/usr/local/bin/C-Sibelia.py", "Sibelia": "/usr/local/bin/Sibelia", "snpEffAnnotate.py": "/usr/local/bin/snpEffAnnotate.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sibelia.

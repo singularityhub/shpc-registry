@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rseis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rseis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rseis/container.yaml"
-updated_at: "2024-07-05 03:20:50.951365"
+updated_at: "2024-07-06 03:16:34.681025"
 latest: "3.5_2--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-rseis"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "3.5_2--r3.2.2_0"
  - "3.5_2--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-rseis"
-config: {"url": "https://biocontainers.pro/tools/r-rseis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rseis", "latest": {"3.5_2--r3.2.2_0": "sha256:5f0ecb0e77b541c6adbf20fb79bfc20267cf3414e05f0923733e7d80e10bafa5"}, "tags": {"3.5_2--r3.2.2_0": "sha256:5f0ecb0e77b541c6adbf20fb79bfc20267cf3414e05f0923733e7d80e10bafa5", "3.5_2--r3.3.2_0": "sha256:303f4df91d4201d524974dfb2738331184e6becfc0589ccfc9b5ef80bab1b043"}, "docker": "quay.io/biocontainers/r-rseis", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rseis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rseis", "latest": {"3.5_2--r3.2.2_0": "sha256:17e9f162f13cbd1be0adae66a8f804e90dcd02192c7eb71be821afd2e5dcb4d4"}, "tags": {"3.5_2--r3.2.2_0": "sha256:17e9f162f13cbd1be0adae66a8f804e90dcd02192c7eb71be821afd2e5dcb4d4", "3.5_2--r3.3.2_0": "sha256:aff6ef48ea81aa201d6498f6ea91d0bde9e9697180cb6410a56496ff3d459fce"}, "docker": "quay.io/biocontainers/r-rseis", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rseis.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-interminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-interminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-interminer/container.yaml"
-updated_at: "2024-07-05 03:22:40.485041"
+updated_at: "2024-07-06 03:18:22.135160"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-interminer"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-interminer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-interminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-interminer", "latest": {"1.24.0--r43hdfd78af_0": "sha256:9e1232333aa86f2df73a72eeeef042d16f1af4b889014e89d2bade86dcf2b0f5"}, "tags": {"1.8.0--r36_0": "sha256:4cc6ed718c683a1643f1f80db43b76a8147b0ece23b63edbb56d1f66e0175d81", "1.16.0--r41hdfd78af_0": "sha256:e8f3f4b59f0b116f7205470a5e5d4cb99ef6e47b0ad61a5569efaa7e1681402a", "1.14.1--r41hdfd78af_0": "sha256:64ff76e456529378cfbe420eefad538e07a11539f6e3faa19df428ce2728bf24", "1.12.0--r40hdfd78af_1": "sha256:d967bff24ed93871d8796a6d02b0a10362e34cb923cd2ba6b4e90a99cb9004d8", "1.10.0--r40_0": "sha256:6d6d63bea3554e1ce66dad5318edd8b0446130b47ec1acde4963201b13fb5796", "1.20.0--r42hdfd78af_0": "sha256:6588165d68c1d68c0446823c59e2e6ca5c7ba8e1ac4d17e5054e97360cc54eba", "1.22.0--r43hdfd78af_0": "sha256:bcec89e21cb14637a74cb637102dc6da84770542f68cf3561c2bc30df617f347", "1.24.0--r43hdfd78af_0": "sha256:9e1232333aa86f2df73a72eeeef042d16f1af4b889014e89d2bade86dcf2b0f5"}, "docker": "quay.io/biocontainers/bioconductor-interminer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-interminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-interminer", "latest": {"1.24.0--r43hdfd78af_0": "sha256:9e1232333aa86f2df73a72eeeef042d16f1af4b889014e89d2bade86dcf2b0f5"}, "tags": {"1.8.0--r36_0": "sha256:90064baed44050a0e545ab938ab614b9a02f913c24673474bd577d9190f6e8e0", "1.16.0--r41hdfd78af_0": "sha256:e8f3f4b59f0b116f7205470a5e5d4cb99ef6e47b0ad61a5569efaa7e1681402a", "1.14.1--r41hdfd78af_0": "sha256:64ff76e456529378cfbe420eefad538e07a11539f6e3faa19df428ce2728bf24", "1.12.0--r40hdfd78af_1": "sha256:d967bff24ed93871d8796a6d02b0a10362e34cb923cd2ba6b4e90a99cb9004d8", "1.10.0--r40_0": "sha256:6d6d63bea3554e1ce66dad5318edd8b0446130b47ec1acde4963201b13fb5796", "1.20.0--r42hdfd78af_0": "sha256:6588165d68c1d68c0446823c59e2e6ca5c7ba8e1ac4d17e5054e97360cc54eba", "1.22.0--r43hdfd78af_0": "sha256:bcec89e21cb14637a74cb637102dc6da84770542f68cf3561c2bc30df617f347", "1.24.0--r43hdfd78af_0": "sha256:9e1232333aa86f2df73a72eeeef042d16f1af4b889014e89d2bade86dcf2b0f5"}, "docker": "quay.io/biocontainers/bioconductor-interminer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-interminer.

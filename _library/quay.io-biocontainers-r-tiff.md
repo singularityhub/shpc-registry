@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tiff/container.yaml"
-updated_at: "2024-07-05 03:02:08.364598"
+updated_at: "2024-07-06 02:58:17.708995"
 latest: "0.1.5--r3.3.2_2"
 container_url: "https://biocontainers.pro/tools/r-tiff"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "0.1.5--r3.3.2_2"
 description: "shpc-registry automated BioContainers addition for r-tiff"
-config: {"url": "https://biocontainers.pro/tools/r-tiff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tiff", "latest": {"0.1.5--r3.3.2_2": "sha256:f9e89d9358ff512dc7ae5f6d23a801be0b587d02a18ff4b8b5d75cfa34b17fc4"}, "tags": {"0.1.5--r3.3.2_2": "sha256:f9e89d9358ff512dc7ae5f6d23a801be0b587d02a18ff4b8b5d75cfa34b17fc4"}, "docker": "quay.io/biocontainers/r-tiff", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-tiff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tiff", "latest": {"0.1.5--r3.3.2_2": "sha256:68b005633b2a8f6568e44595e448e25715324483f521bc5f9ce14c7de64945c5"}, "tags": {"0.1.5--r3.3.2_2": "sha256:68b005633b2a8f6568e44595e448e25715324483f521bc5f9ce14c7de64945c5"}, "docker": "quay.io/biocontainers/r-tiff", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-tiff.

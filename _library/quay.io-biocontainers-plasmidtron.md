@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plasmidtron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasmidtron/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasmidtron/container.yaml"
-updated_at: "2024-07-05 03:20:42.069965"
+updated_at: "2024-07-06 03:16:25.971427"
 latest: "0.4.1--py_2"
 container_url: "https://biocontainers.pro/tools/plasmidtron"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.4.1--py_2"
 description: "shpc-registry automated BioContainers addition for plasmidtron"
-config: {"url": "https://biocontainers.pro/tools/plasmidtron", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plasmidtron", "latest": {"0.4.1--py_2": "sha256:b5754dd6600d8d908ca70a64c400b63747026c23dac69f40db567d2a94fae548"}, "tags": {"0.4.1--py_2": "sha256:b5754dd6600d8d908ca70a64c400b63747026c23dac69f40db567d2a94fae548"}, "docker": "quay.io/biocontainers/plasmidtron", "aliases": {"plasmidtron": "/usr/local/bin/plasmidtron", "plotkmers": "/usr/local/bin/plotkmers", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "fastaq": "/usr/local/bin/fastaq", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-hammer": "/usr/local/bin/spades-hammer"}}
+config: {"url": "https://biocontainers.pro/tools/plasmidtron", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plasmidtron", "latest": {"0.4.1--py_2": "sha256:48cd3e972916adb9f3847eb6a78831c58199547940ad729349cdde2ef34c47cc"}, "tags": {"0.4.1--py_2": "sha256:48cd3e972916adb9f3847eb6a78831c58199547940ad729349cdde2ef34c47cc"}, "docker": "quay.io/biocontainers/plasmidtron", "aliases": {"plasmidtron": "/usr/local/bin/plasmidtron", "plotkmers": "/usr/local/bin/plotkmers", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "fastaq": "/usr/local/bin/fastaq", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-hammer": "/usr/local/bin/spades-hammer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plasmidtron.

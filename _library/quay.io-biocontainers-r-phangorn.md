@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-phangorn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-phangorn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-phangorn/container.yaml"
-updated_at: "2024-07-05 03:15:54.761121"
+updated_at: "2024-07-06 03:11:41.859536"
 latest: "2.4.0--r341h9d2a408_0"
 container_url: "https://biocontainers.pro/tools/r-phangorn"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "2.4.0--r341h9d2a408_0"
  - "2.4.0--r351h9d2a408_0"
 description: "shpc-registry automated BioContainers addition for r-phangorn"
-config: {"url": "https://biocontainers.pro/tools/r-phangorn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-phangorn", "latest": {"2.4.0--r341h9d2a408_0": "sha256:66b9f896c91ab26403d2823a5354cfa9a2fae92d7f31e1d8f972cb91f7303191"}, "tags": {"2.4.0--r341h9d2a408_0": "sha256:66b9f896c91ab26403d2823a5354cfa9a2fae92d7f31e1d8f972cb91f7303191", "2.4.0--r351h9d2a408_0": "sha256:da4c732d0fd3c2e81997ae3d8ac915629fd13f84c191fee525872698ec523056"}, "docker": "quay.io/biocontainers/r-phangorn", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-phangorn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-phangorn", "latest": {"2.4.0--r341h9d2a408_0": "sha256:09f992d85dea899e836430d234979ef4ce660c01c5a1928db9bd9e1dc4673deb"}, "tags": {"2.4.0--r341h9d2a408_0": "sha256:09f992d85dea899e836430d234979ef4ce660c01c5a1928db9bd9e1dc4673deb", "2.4.0--r351h9d2a408_0": "sha256:35d25e43ffe194e56b25b411f8073412e49264e05a730bd3d8175329ceca2b23"}, "docker": "quay.io/biocontainers/r-phangorn", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-phangorn.

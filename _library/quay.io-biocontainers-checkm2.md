@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/checkm2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/checkm2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/checkm2/container.yaml"
-updated_at: "2024-07-05 02:46:11.495336"
-latest: "1.0.1--pyh7cba7a3_0"
+updated_at: "2024-07-06 02:42:23.950216"
+latest: "1.0.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/checkm2"
 aliases:
  - "checkm2"
@@ -37,8 +37,9 @@ aliases:
  - "protoc"
 versions:
  - "1.0.1--pyh7cba7a3_0"
+ - "1.0.2--pyh7cba7a3_0"
 description: "singularity registry hpc automated addition for checkm2"
-config: {"url": "https://biocontainers.pro/tools/checkm2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for checkm2", "latest": {"1.0.1--pyh7cba7a3_0": "sha256:f4adc81bff88ab5a27a2a7c4e7af2cdb0943a7b89e76ef9d2f7ec680a3b95111"}, "tags": {"1.0.1--pyh7cba7a3_0": "sha256:f4adc81bff88ab5a27a2a7c4e7af2cdb0943a7b89e76ef9d2f7ec680a3b95111"}, "docker": "quay.io/biocontainers/checkm2", "aliases": {"checkm2": "/usr/local/bin/checkm2", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "diamond": "/usr/local/bin/diamond", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "markdown_py": "/usr/local/bin/markdown_py", "prodigal": "/usr/local/bin/prodigal", "protoc": "/usr/local/bin/protoc"}}
+config: {"url": "https://biocontainers.pro/tools/checkm2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for checkm2", "latest": {"1.0.2--pyh7cba7a3_0": "sha256:256436980cda25fb46b731dadefc65c9992dc7d2924db1f5c8b43909a1fcfec6"}, "tags": {"1.0.1--pyh7cba7a3_0": "sha256:f4adc81bff88ab5a27a2a7c4e7af2cdb0943a7b89e76ef9d2f7ec680a3b95111", "1.0.2--pyh7cba7a3_0": "sha256:256436980cda25fb46b731dadefc65c9992dc7d2924db1f5c8b43909a1fcfec6"}, "docker": "quay.io/biocontainers/checkm2", "aliases": {"checkm2": "/usr/local/bin/checkm2", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "diamond": "/usr/local/bin/diamond", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "markdown_py": "/usr/local/bin/markdown_py", "prodigal": "/usr/local/bin/prodigal", "protoc": "/usr/local/bin/protoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/checkm2.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/checkm2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/checkm2:1.0.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/checkm2:1.0.2--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/checkm2/1.0.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/checkm2/1.0.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/checkm2/1.0.2--pyh7cba7a3_0
+$ module help quay.io/biocontainers/checkm2/1.0.2--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ema"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ema/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ema/container.yaml"
-updated_at: "2024-07-05 03:22:02.894560"
+updated_at: "2024-07-06 03:17:45.440119"
 latest: "0.7.0--h43eeafb_0"
 container_url: "https://biocontainers.pro/tools/ema"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "0.6.2--h43eeafb_6"
  - "0.7.0--h43eeafb_0"
 description: "shpc-registry automated BioContainers addition for ema"
-config: {"url": "https://biocontainers.pro/tools/ema", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ema", "latest": {"0.7.0--h43eeafb_0": "sha256:e531801356a0b342fd88b3913216ddd7bcc9069e9df1645937cde90fcb88abe9"}, "tags": {"v0.6.2--hd28b015_1": "sha256:538157206506c51fe9dab97d4787f43b1217164a24282d1381be119a05d72bad", "0.6.2--h5b5514e_4": "sha256:6fc471216c51fe15f4266fd787c0fbf31dd267ef83cfa1f953cb723982bb99f9", "0.6.2--h43eeafb_6": "sha256:e5eae3e3a74d3d34ed8ba4a93ef68a41428185b05d0b8ff9c727cbc59813f248", "0.7.0--h43eeafb_0": "sha256:e531801356a0b342fd88b3913216ddd7bcc9069e9df1645937cde90fcb88abe9"}, "docker": "quay.io/biocontainers/ema", "aliases": {"ema": "/usr/local/bin/ema"}}
+config: {"url": "https://biocontainers.pro/tools/ema", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ema", "latest": {"0.7.0--h43eeafb_0": "sha256:e531801356a0b342fd88b3913216ddd7bcc9069e9df1645937cde90fcb88abe9"}, "tags": {"v0.6.2--hd28b015_1": "sha256:cbddfad4a5f9910eccc510e1fabb05d22a27f0315f3d17fe377c9d4ec20fb501", "0.6.2--h5b5514e_4": "sha256:6fc471216c51fe15f4266fd787c0fbf31dd267ef83cfa1f953cb723982bb99f9", "0.6.2--h43eeafb_6": "sha256:e5eae3e3a74d3d34ed8ba4a93ef68a41428185b05d0b8ff9c727cbc59813f248", "0.7.0--h43eeafb_0": "sha256:e531801356a0b342fd88b3913216ddd7bcc9069e9df1645937cde90fcb88abe9"}, "docker": "quay.io/biocontainers/ema", "aliases": {"ema": "/usr/local/bin/ema"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ema.

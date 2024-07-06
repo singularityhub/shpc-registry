@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blinker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blinker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blinker/container.yaml"
-updated_at: "2024-07-05 02:52:27.719504"
+updated_at: "2024-07-06 02:48:39.707041"
 latest: "1.4--py35_0"
 container_url: "https://biocontainers.pro/tools/blinker"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "1.4--py35_0"
  - "1.4--py36_0"
 description: "shpc-registry automated BioContainers addition for blinker"
-config: {"url": "https://biocontainers.pro/tools/blinker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blinker", "latest": {"1.4--py35_0": "sha256:94dcbb61ba49fad3bbf13a571062c618d3da66b460cb2b7d01a5cb62f9e82328"}, "tags": {"1.4--py35_0": "sha256:94dcbb61ba49fad3bbf13a571062c618d3da66b460cb2b7d01a5cb62f9e82328", "1.4--py36_0": "sha256:67b79de9d87e32460ba7dde3bc7a4960fb1cd1a1ae5ec17404926e9b51e37620"}, "docker": "quay.io/biocontainers/blinker", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/blinker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blinker", "latest": {"1.4--py35_0": "sha256:5ca036ec022d028828ce29409a0ce1e868e0c6f6e5e1f02d08f9546a86edd368"}, "tags": {"1.4--py35_0": "sha256:5ca036ec022d028828ce29409a0ce1e868e0c6f6e5e1f02d08f9546a86edd368", "1.4--py36_0": "sha256:af917c9e231dabe8987da1f5af3c5bf8fa9b7dc92162abe67a033abc13a51a5e"}, "docker": "quay.io/biocontainers/blinker", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blinker.

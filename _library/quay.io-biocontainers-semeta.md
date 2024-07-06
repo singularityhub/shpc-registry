@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/semeta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/semeta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/semeta/container.yaml"
-updated_at: "2024-07-05 02:40:52.384596"
+updated_at: "2024-07-06 02:37:03.800118"
 latest: "1.0--0"
 container_url: "https://biocontainers.pro/tools/semeta"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "1.0--0"
 description: "shpc-registry automated BioContainers addition for semeta"
-config: {"url": "https://biocontainers.pro/tools/semeta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for semeta", "latest": {"1.0--0": "sha256:1a6859d197e0898c4364ddb2463e97426d8c631376ac23010dd3032409d8c240"}, "tags": {"1.0--0": "sha256:1a6859d197e0898c4364ddb2463e97426d8c631376ac23010dd3032409d8c240"}, "docker": "quay.io/biocontainers/semeta", "aliases": {"SeMeta_Assign": "/usr/local/bin/SeMeta_Assign", "SeMeta_Cluster": "/usr/local/bin/SeMeta_Cluster", "config.conf": "/usr/local/bin/config.conf", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd"}}
+config: {"url": "https://biocontainers.pro/tools/semeta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for semeta", "latest": {"1.0--0": "sha256:390fbccfa4593fab07a6539c50e7bb349aa1668278bcfea88aab0bd31cd9de45"}, "tags": {"1.0--0": "sha256:390fbccfa4593fab07a6539c50e7bb349aa1668278bcfea88aab0bd31cd9de45"}, "docker": "quay.io/biocontainers/semeta", "aliases": {"SeMeta_Assign": "/usr/local/bin/SeMeta_Assign", "SeMeta_Cluster": "/usr/local/bin/SeMeta_Cluster", "config.conf": "/usr/local/bin/config.conf", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/semeta.

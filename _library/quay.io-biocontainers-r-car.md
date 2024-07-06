@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-car"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-car/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-car/container.yaml"
-updated_at: "2024-07-05 02:55:54.884747"
+updated_at: "2024-07-06 02:52:05.893671"
 latest: "2.1_4--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-car"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "2.1_4--r3.3.1_0"
  - "2.1_4--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-car"
-config: {"url": "https://biocontainers.pro/tools/r-car", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-car", "latest": {"2.1_4--r3.3.1_0": "sha256:78d01142dc2b4e0a9dbd577fafbcfb123a3e5708e1a626e7ba9e5e954851a811"}, "tags": {"2.1_4--r3.3.1_0": "sha256:78d01142dc2b4e0a9dbd577fafbcfb123a3e5708e1a626e7ba9e5e954851a811", "2.1_4--r3.3.2_0": "sha256:d866a261097c8eabdce92296b1f6b33b634fb945721f751f3efbfc337d95a93b"}, "docker": "quay.io/biocontainers/r-car", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-car", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-car", "latest": {"2.1_4--r3.3.1_0": "sha256:107f603c2c524d851050055b52529d3a5c8d29deea2def0431241cbffabba16e"}, "tags": {"2.1_4--r3.3.1_0": "sha256:107f603c2c524d851050055b52529d3a5c8d29deea2def0431241cbffabba16e", "2.1_4--r3.3.2_0": "sha256:d1d823df0482d1c64eb150cf70e770351451e1c7b83530a7ec7ea68442c4069b"}, "docker": "quay.io/biocontainers/r-car", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-car.

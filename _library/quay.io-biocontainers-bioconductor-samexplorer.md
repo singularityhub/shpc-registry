@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-samexplorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-samexplorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-samexplorer/container.yaml"
-updated_at: "2024-07-05 03:17:01.057810"
+updated_at: "2024-07-06 03:12:47.294968"
 latest: "1.13.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-samexplorer"
 aliases:
@@ -17,7 +17,7 @@ versions:
  - "1.12.0--r40_0"
  - "1.10.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-samexplorer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-samexplorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-samexplorer", "latest": {"1.13.0--r40hdfd78af_1": "sha256:a0e9892ff281a5370055e355fd61f0ccd530ffd5c69a709f1f484d6f9be40309"}, "tags": {"1.8.0--r36_1": "sha256:a59dd311147a30b9c34bbd98ce142fdd909b703954c5078b0fc3d2f25699e9b3", "1.13.0--r40hdfd78af_1": "sha256:a0e9892ff281a5370055e355fd61f0ccd530ffd5c69a709f1f484d6f9be40309", "1.12.0--r40_0": "sha256:dff440c6caec8b3f690d5190208c6de0ebdce36a9233465e1cd24a2700ea3a6e", "1.10.0--r36_1": "sha256:55946c467617b035d41157bb9380cd079780bf870c535831c51604c4df963415"}, "docker": "quay.io/biocontainers/bioconductor-samexplorer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-samexplorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-samexplorer", "latest": {"1.13.0--r40hdfd78af_1": "sha256:a0e9892ff281a5370055e355fd61f0ccd530ffd5c69a709f1f484d6f9be40309"}, "tags": {"1.8.0--r36_1": "sha256:4f097ae4894273a897b58b0006eaa0ab5bc5aad7a655840488c61660f8777960", "1.13.0--r40hdfd78af_1": "sha256:a0e9892ff281a5370055e355fd61f0ccd530ffd5c69a709f1f484d6f9be40309", "1.12.0--r40_0": "sha256:dff440c6caec8b3f690d5190208c6de0ebdce36a9233465e1cd24a2700ea3a6e", "1.10.0--r36_1": "sha256:00495d9e577ea0b74f8330fd78edb3e90080cc8bd690342a1b4eace6c8ce836d"}, "docker": "quay.io/biocontainers/bioconductor-samexplorer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-samexplorer.

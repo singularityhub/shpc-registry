@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mgca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgca/container.yaml"
-updated_at: "2024-07-05 03:09:16.199114"
+updated_at: "2024-07-06 03:05:18.105286"
 latest: "0.0.0--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mgca"
 aliases:

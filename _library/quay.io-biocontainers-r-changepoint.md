@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-changepoint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-changepoint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-changepoint/container.yaml"
-updated_at: "2024-07-05 03:21:10.313540"
+updated_at: "2024-07-06 03:16:53.809123"
 latest: "2.2.2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-changepoint"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "2.2.2--r3.3.2_0"
+ - "2.2.2--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-changepoint"
-config: {"url": "https://biocontainers.pro/tools/r-changepoint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-changepoint", "latest": {"2.2.2--r3.3.2_0": "sha256:d8caf5174db70685304bbf84b8a37a800d0ca8eac082c640c91b3f0f572c72ea"}, "tags": {"2.2.2--r3.3.2_0": "sha256:d8caf5174db70685304bbf84b8a37a800d0ca8eac082c640c91b3f0f572c72ea"}, "docker": "quay.io/biocontainers/r-changepoint", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-changepoint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-changepoint", "latest": {"2.2.2--r3.3.2_0": "sha256:0d28830adf1c371dc6735e2a34d552606aed170a61af68e7926d5ff760a918d1"}, "tags": {"2.2.2--r3.3.2_0": "sha256:0d28830adf1c371dc6735e2a34d552606aed170a61af68e7926d5ff760a918d1", "2.2.2--r3.3.1_0": "sha256:9a665c0950ec8a6f0f9a2232464370966e4bac1ef21ebe235e9aa4877389f2ce"}, "docker": "quay.io/biocontainers/r-changepoint", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-changepoint.

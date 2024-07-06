@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genesplicer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genesplicer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genesplicer/container.yaml"
-updated_at: "2024-07-05 02:36:01.228424"
+updated_at: "2024-07-06 02:32:08.946489"
 latest: "1.0--1"
 container_url: "https://biocontainers.pro/tools/genesplicer"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.0--1"
 description: "shpc-registry automated BioContainers addition for genesplicer"
-config: {"url": "https://biocontainers.pro/tools/genesplicer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genesplicer", "latest": {"1.0--1": "sha256:99c3b5f60d2e4d05bde27e9c8d92ef30ba0a1d322b37c984dd5d16832c2ff3bd"}, "tags": {"1.0--1": "sha256:99c3b5f60d2e4d05bde27e9c8d92ef30ba0a1d322b37c984dd5d16832c2ff3bd"}, "docker": "quay.io/biocontainers/genesplicer", "aliases": {"genesplicer": "/usr/local/bin/genesplicer"}}
+config: {"url": "https://biocontainers.pro/tools/genesplicer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genesplicer", "latest": {"1.0--1": "sha256:bcccde967f89034cbf9d6cbe906fa7bc54c0ebe3f035212c14c0fa538b0974f6"}, "tags": {"1.0--1": "sha256:bcccde967f89034cbf9d6cbe906fa7bc54c0ebe3f035212c14c0fa538b0974f6"}, "docker": "quay.io/biocontainers/genesplicer", "aliases": {"genesplicer": "/usr/local/bin/genesplicer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genesplicer.

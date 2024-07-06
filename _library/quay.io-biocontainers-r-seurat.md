@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/r-seurat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-seurat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-seurat/container.yaml"
-updated_at: "2024-07-05 03:06:01.672195"
+updated_at: "2024-07-06 03:02:09.318655"
 latest: "3.0.2--r36h0357c0b_1"
 container_url: "https://biocontainers.pro/tools/r-seurat"
 
 versions:
  - "3.0.2--r36h0357c0b_1"
 description: "shpc-registry automated BioContainers addition for r-seurat"
-config: {"url": "https://biocontainers.pro/tools/r-seurat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-seurat", "latest": {"3.0.2--r36h0357c0b_1": "sha256:eb1985787e3f7839a0727c680bcd383e68c8ed8da26e04a53ec0ab05a1d17720"}, "tags": {"3.0.2--r36h0357c0b_1": "sha256:eb1985787e3f7839a0727c680bcd383e68c8ed8da26e04a53ec0ab05a1d17720"}, "docker": "quay.io/biocontainers/r-seurat"}
+config: {"url": "https://biocontainers.pro/tools/r-seurat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-seurat", "latest": {"3.0.2--r36h0357c0b_1": "sha256:c20902a16664a6fab284e6df8d5f8f3799eeede9b3a97f7b88be0f751a44540e"}, "tags": {"3.0.2--r36h0357c0b_1": "sha256:c20902a16664a6fab284e6df8d5f8f3799eeede9b3a97f7b88be0f751a44540e"}, "docker": "quay.io/biocontainers/r-seurat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-seurat.
