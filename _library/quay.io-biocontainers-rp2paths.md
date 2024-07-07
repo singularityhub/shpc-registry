@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rp2paths"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rp2paths/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rp2paths/container.yaml"
-updated_at: "2024-07-06 02:43:15.148643"
+updated_at: "2024-07-07 02:49:00.075260"
 latest: "1.5.1"
 container_url: "https://biocontainers.pro/tools/rp2paths"
 aliases:

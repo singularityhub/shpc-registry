@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haplotaglr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haplotaglr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haplotaglr/container.yaml"
-updated_at: "2024-07-06 03:02:46.650809"
+updated_at: "2024-07-07 03:09:01.695753"
 latest: "1.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/haplotaglr"
 aliases:

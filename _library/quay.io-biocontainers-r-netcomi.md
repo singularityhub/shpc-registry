@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-netcomi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-netcomi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-netcomi/container.yaml"
-updated_at: "2024-07-06 02:45:21.550281"
+updated_at: "2024-07-07 02:51:06.498806"
 latest: "1.1.0--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-netcomi"
 aliases:

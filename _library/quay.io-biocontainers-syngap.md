@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/syngap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/syngap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/syngap/container.yaml"
-updated_at: "2024-07-06 03:04:18.395488"
+updated_at: "2024-07-07 03:10:35.059750"
 latest: "1.2.3--py312hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/syngap"
 aliases:

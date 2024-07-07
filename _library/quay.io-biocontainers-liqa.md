@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/liqa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/liqa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/liqa/container.yaml"
-updated_at: "2024-07-06 02:44:17.181959"
+updated_at: "2024-07-07 02:50:01.854889"
 latest: "1.3.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/liqa"
 aliases:
