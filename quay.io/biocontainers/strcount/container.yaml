@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/strcount
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for strcount
 latest:
-  0.1.1--py310h7cba7a3_1: sha256:82cd8d8d9ce1f49bfe58bee2eead716e442f62156ddf29ceff66f442feb26840
+  0.1.1--py312h7e72e81_2: sha256:e0cb84f2b7de7583e3e0b8fa558ef993e9d26e199cef004062b4e25f3bbd40dd
 tags:
   0.1.1--py310h7cba7a3_1: sha256:82cd8d8d9ce1f49bfe58bee2eead716e442f62156ddf29ceff66f442feb26840
+  0.1.1--py312h7e72e81_2: sha256:e0cb84f2b7de7583e3e0b8fa558ef993e9d26e199cef004062b4e25f3bbd40dd
 docker: quay.io/biocontainers/strcount
 aliases:
   STRcount: /usr/local/bin/STRcount

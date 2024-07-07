@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-rlist
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rlist
 latest:
-  0.4.6.1--r3.2.2_0: sha256:3f640d9b653cc48fdb00a54da70e1ca5b2df289748c8821fd6d61efad90c6610
+  0.4.6.1--r3.2.2_0: sha256:ee3dc4fc760528a70691e5250581ce986e2066cf8dc27801bd1619a2f90a3780
 tags:
-  0.4.6.1--r3.2.2_0: sha256:3f640d9b653cc48fdb00a54da70e1ca5b2df289748c8821fd6d61efad90c6610
-  0.4.6.1--r3.3.2_0: sha256:f3dab7646d2a203f4ce8ee82d93b810a38f9183ef2f3cb9e4accf7451cd858e3
+  0.4.6.1--r3.2.2_0: sha256:ee3dc4fc760528a70691e5250581ce986e2066cf8dc27801bd1619a2f90a3780
+  0.4.6.1--r3.3.2_0: sha256:fc3b6e852c71857c235462612e59a38c9246dc7ec98e2ba1f6781d4fda8795d6
 docker: quay.io/biocontainers/r-rlist
 aliases:
   pngcp: /usr/local/bin/pngcp

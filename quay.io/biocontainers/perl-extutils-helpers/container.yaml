@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-extutils-helpers
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-extutils-helpers
 latest:
-  0.026--pl526_0: sha256:016726e813d2e3e3eafa7a107c283403169015a3aceca40f59670d5685cc1722
+  0.026--pl526_0: sha256:c2307b6b557f6793532c78bd29490e27c8ffcf2db004cd398ba4bc55ffb8a1d2
 tags:
-  0.026--pl526_0: sha256:016726e813d2e3e3eafa7a107c283403169015a3aceca40f59670d5685cc1722
+  0.026--pl526_0: sha256:c2307b6b557f6793532c78bd29490e27c8ffcf2db004cd398ba4bc55ffb8a1d2
 docker: quay.io/biocontainers/perl-extutils-helpers
 aliases:
   perl5.26.2: /usr/local/bin/perl5.26.2

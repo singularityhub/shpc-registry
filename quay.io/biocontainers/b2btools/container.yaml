@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/b2btools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for b2btools
 latest:
-  3.0.6--pyhdfd78af_0: sha256:08bfa804fe25b268b68d05fece871a609d829f929eac58124f067c0a0e18792f
+  3.0.7--py310hdbdd923_0: sha256:137b6ddf38e9769ec740da4f26e9856ca337bfae74d146ef118b48518fd0335a
 tags:
   3.0.5--pyhdfd78af_0: sha256:c2f59efa246253073c3752eeb61c6506359f33a67619c9121739dad7ce46cc15
   3.0.6--pyhdfd78af_0: sha256:08bfa804fe25b268b68d05fece871a609d829f929eac58124f067c0a0e18792f
+  3.0.7--py310hdbdd923_0: sha256:137b6ddf38e9769ec740da4f26e9856ca337bfae74d146ef118b48518fd0335a
 docker: quay.io/biocontainers/b2btools
 aliases:
   torchrun: /usr/local/bin/torchrun

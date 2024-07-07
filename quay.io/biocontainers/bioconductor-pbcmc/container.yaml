@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-pbcmc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pbcmc
 latest:
-  1.8.0--r341_0: sha256:fc72449a4ed29a0cb471d2d63c30d91026cfcba3cce18bf5ce79001788872fff
+  1.8.0--r341_0: sha256:cdc764fe9ba05729670fe9f2aa60e85e215b1160bc04f6f66f47954ca30f360f
 tags:
-  1.8.0--r341_0: sha256:fc72449a4ed29a0cb471d2d63c30d91026cfcba3cce18bf5ce79001788872fff
-  1.8.0--r351_0: sha256:e27ea160bc8f1dee576d41ce6db757b6e74205af565a75670d3be3fdb1bdc7e1
+  1.8.0--r341_0: sha256:cdc764fe9ba05729670fe9f2aa60e85e215b1160bc04f6f66f47954ca30f360f
+  1.8.0--r351_0: sha256:9b7b63f06367d261fbf53c3469fbab5305d7107f8fa42bd582605e0ede557d59
 docker: quay.io/biocontainers/bioconductor-pbcmc
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

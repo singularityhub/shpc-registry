@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/blockclust
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for blockclust
 latest:
-  1.1.1--py39r43h1f90b4d_0: sha256:70c3271a0c60e4df91ea7232ae23918f594dc2cf76f94b2fa7dd284eca7382f4
+  1.1.1--py311r43h2a4ad6c_1: sha256:a848bf48f0eb35bd383b8d9344d43fb586de675ee34322f23d6520984fa224e0
 tags:
   1.1.0--py36r41h2ad2d48_7: sha256:2216d30f270c5e8df9ff3e8d17f2581e5814e69ce1039033c46411093f67e7e4
   1.1.0--py37r42h96cfd12_8: sha256:9fab3b8bd584a044d5c9a40d9181852af1ffeefebcc50ba81a3dbec68c19cc0e
   1.1.0--py38r42h2494328_9: sha256:e9e8c742fa3cc348b4f1eece4679760f6844f8cf3d2b79447402144ee624fe9e
   1.1.1--py39r43h1f90b4d_0: sha256:70c3271a0c60e4df91ea7232ae23918f594dc2cf76f94b2fa7dd284eca7382f4
   1.1.1--py310r43h0dbaff4_0: sha256:7581d2fee96f7fb67fef7fc6e4146cd6b42c6953a0b22024fa21d2e97d33820a
+  1.1.1--py311r43h2a4ad6c_1: sha256:a848bf48f0eb35bd383b8d9344d43fb586de675ee34322f23d6520984fa224e0
 docker: quay.io/biocontainers/blockclust
 aliases:
   EDeN: /usr/local/bin/EDeN

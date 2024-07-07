@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/pyhashxx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyhashxx
 latest:
-  0.1.3--py36_1: sha256:541580e6188b6a78a702d014476735c014c6cf66e34198585d8445359d134987
+  0.1.3--py36_1: sha256:9599a08aeeb7744b766676fd129b019465663bc3829595bef7e73e9a22a2d127
 tags:
-  0.1.3--py36_1: sha256:541580e6188b6a78a702d014476735c014c6cf66e34198585d8445359d134987
-  0.1.3--py35_1: sha256:3de82225d3044e0f3717e20ee71043e277017d2df8a6e208119bd43dcde34490
+  0.1.3--py36_1: sha256:9599a08aeeb7744b766676fd129b019465663bc3829595bef7e73e9a22a2d127
+  0.1.3--py35_1: sha256:82cbe6e8ea61dbb0ea512580208beac85a23e15db77e9c70c70bdf3d14b3644c
 docker: quay.io/biocontainers/pyhashxx
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

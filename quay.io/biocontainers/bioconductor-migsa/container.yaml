@@ -4,12 +4,12 @@ description: shpc-registry automated BioContainers addition for bioconductor-mig
 latest:
   1.21.0--r42hdfd78af_0: sha256:77e9b26b21f7ae516ea6ab6a326bed2dea38791e85231ca8ee0c0d31f7ad3bc1
 tags:
-  1.8.1--r36_0: sha256:89161df0f68a6975039407ee2a8909d6c2a4e57c4b0a0731a5ac7a186bd03f3d
+  1.8.1--r36_0: sha256:cc3f02fa84b8aa3403a2e27651ad95b02d23c848e74c1248d00140174f867e4b
   1.18.0--r41hdfd78af_0: sha256:8c5d5dbde924de917a439a1c7e49f80620f7bf01fcd209e03be152b3eac7de5c
   1.16.0--r41hdfd78af_0: sha256:b79b132721ea1c44246e721d6f1ea107be26be55017477eab90bbee98905faa2
   1.14.1--r40hdfd78af_1: sha256:5d374308f2735e1f91de1b15b61300fb0899af31dd468ba9a45d2df63619282e
   1.12.0--r40_0: sha256:6c94371eea2fd9f04d3209d3f695ee2b6a541ca928bc878cf54c6378460edcdc
-  1.10.0--r36_0: sha256:b258f2e2ce0d3198153913d6ba971c8266cade403837df71f5ac30dce54ba836
+  1.10.0--r36_0: sha256:ea4e8bb1c4aaaa2a75768a4c3853faf6c8ad4df18c939b577446ffeb581296b0
   1.21.0--r42hdfd78af_0: sha256:77e9b26b21f7ae516ea6ab6a326bed2dea38791e85231ca8ee0c0d31f7ad3bc1
 docker: quay.io/biocontainers/bioconductor-migsa
 aliases:

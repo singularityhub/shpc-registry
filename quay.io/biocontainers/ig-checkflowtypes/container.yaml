@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/ig-checkflowtypes
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ig-checkflowtypes
 latest:
-  1.0.0--r36h4333106_3: sha256:0dbe60b2b38b3e4186727714cd61b28065cbd1c74f568197fc6fe361ae327c16
+  1.0.0--r36h4333106_3: sha256:88a20815d18f1d03b0c8d792b1cfc57e4c25cdf8bb0d192683ff63e9cfbbc10f
 tags:
-  1.0.0--r36h4333106_3: sha256:0dbe60b2b38b3e4186727714cd61b28065cbd1c74f568197fc6fe361ae327c16
+  1.0.0--r36h4333106_3: sha256:88a20815d18f1d03b0c8d792b1cfc57e4c25cdf8bb0d192683ff63e9cfbbc10f
 docker: quay.io/biocontainers/ig-checkflowtypes
 aliases:
   checkFCS.R: /usr/local/bin/checkFCS.R

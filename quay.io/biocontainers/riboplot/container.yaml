@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/riboplot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for riboplot
 latest:
-  0.3.1--py27_2: sha256:af7dc3f7cdad4cc0992df85a307a29b17c03897932c908178f41bbe81c954e63
+  0.3.1--py27_2: sha256:b7e813e95cbec8501227994015b1753176c53bed9c68602950b7a8ecf6c7e6f0
 tags:
-  0.3.1--py27_2: sha256:af7dc3f7cdad4cc0992df85a307a29b17c03897932c908178f41bbe81c954e63
+  0.3.1--py27_2: sha256:b7e813e95cbec8501227994015b1753176c53bed9c68602950b7a8ecf6c7e6f0
 docker: quay.io/biocontainers/riboplot
 aliases:
   assistant-qt4: /usr/local/bin/assistant-qt4

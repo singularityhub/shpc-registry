@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/networkxgmml
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for networkxgmml
 latest:
-  0.1.6--py_2: sha256:5c39dfcdb5471c648a8d157988452b330f873f99dcdc24c247dc292f0cdfbf11
+  0.1.6--py_2: sha256:e7d3c88728a27575545206ef7ae73694afaad761a3e8fbbf20227501c57c7177
 tags:
-  0.1.6--py_2: sha256:5c39dfcdb5471c648a8d157988452b330f873f99dcdc24c247dc292f0cdfbf11
+  0.1.6--py_2: sha256:e7d3c88728a27575545206ef7ae73694afaad761a3e8fbbf20227501c57c7177
 docker: quay.io/biocontainers/networkxgmml
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-rgraphics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rgraphics
 latest:
-  2.0_14--r3.3.2_0: sha256:f613ab36ba83aa2f88255aa8dcc02d7bfdfd9b43cc4280ef8a048a26a887ee52
+  2.0_14--r3.3.2_0: sha256:62fde07dfc0a01914ff5549052fbbf1507281a58b79d378890e3b7ba7c0b654c
 tags:
-  2.0_14--r3.3.2_0: sha256:f613ab36ba83aa2f88255aa8dcc02d7bfdfd9b43cc4280ef8a048a26a887ee52
+  2.0_14--r3.3.2_0: sha256:62fde07dfc0a01914ff5549052fbbf1507281a58b79d378890e3b7ba7c0b654c
 docker: quay.io/biocontainers/r-rgraphics
 aliases:
   uconv: /usr/local/bin/uconv

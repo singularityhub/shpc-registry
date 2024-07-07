@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/cyordereddict
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cyordereddict
 latest:
-  0.2.2--py35_0: sha256:c573a46a409077f00869586e3a917ba6c2e9327deeac65b1da83712d778b7bcc
+  0.2.2--py35_0: sha256:9805fe6f24c2d4071c8c1e1610e7d3120b4f70fe58c445d3193880fa6e39fee7
 tags:
-  0.2.2--py35_0: sha256:c573a46a409077f00869586e3a917ba6c2e9327deeac65b1da83712d778b7bcc
-  0.2.2--py36_0: sha256:43ff551719de0ee09b82d08c9b033ff7cc7fd5051e5b552a7ffb7f88e8162bdf
+  0.2.2--py35_0: sha256:9805fe6f24c2d4071c8c1e1610e7d3120b4f70fe58c445d3193880fa6e39fee7
+  0.2.2--py36_0: sha256:1d7e6eceee6cf221a1aab78eae17bf885d45eb7fd3608cdab030fb1678b33c02
 docker: quay.io/biocontainers/cyordereddict
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

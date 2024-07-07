@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pbdagcon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pbdagcon
 latest:
-  0.1--boost1.64_0: sha256:fbd203850410140f2512deeed50a6626ceac3dd182d6c251e3e0ad0474df62bb
+  0.1--boost1.64_0: sha256:8e8b27fd3a6384754a634368747fdc85b6af5a0eacca3d215bf9a09fc50c8ac2
 tags:
-  0.1--boost1.64_0: sha256:fbd203850410140f2512deeed50a6626ceac3dd182d6c251e3e0ad0474df62bb
+  0.1--boost1.64_0: sha256:8e8b27fd3a6384754a634368747fdc85b6af5a0eacca3d215bf9a09fc50c8ac2
+  0.1--boost1.60_0: sha256:fa3c4359142cd23fa5dacf5196c39f09e6da11d20f35a8fdc0f6c121718e9ce2
 docker: quay.io/biocontainers/pbdagcon
 aliases:
   Catrack: /usr/local/bin/Catrack

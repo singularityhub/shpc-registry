@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/pyexcelerator
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyexcelerator
 latest:
-  0.6.4a--py27_2: sha256:6aefd63ebc49fd1838edb214c0e2025152dcc74e2d07ef958a0d5ec2c9d5f5ec
+  0.6.4a--py27_2: sha256:52a575cf53a974f20a70f1d1c9086169334061527d66a3e26a3645c0a507feee
 tags:
-  0.6.4a--py27_2: sha256:6aefd63ebc49fd1838edb214c0e2025152dcc74e2d07ef958a0d5ec2c9d5f5ec
+  0.6.4a--py27_2: sha256:52a575cf53a974f20a70f1d1c9086169334061527d66a3e26a3645c0a507feee
 docker: quay.io/biocontainers/pyexcelerator
 aliases:
   python2-config: /usr/local/bin/python2-config

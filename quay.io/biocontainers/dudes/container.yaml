@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for dudes
 latest:
   0.10.0--pyhdfd78af_0: sha256:26c2d0dcca113a5aad9e38036a4744bd8c2f08120fa9a844b9928445505c5330
 tags:
-  0.08--py_2: sha256:641a9d969ea283bc8b6c6dabdb26b846eac2dbfeb39a80f4ea9c3e568e6bbdfc
+  0.08--py_2: sha256:c10d740fe428b8ee93c433292dbeb8663810063226510b04b86045deaf1cc21e
   0.10.0--pyhdfd78af_0: sha256:26c2d0dcca113a5aad9e38036a4744bd8c2f08120fa9a844b9928445505c5330
 docker: quay.io/biocontainers/dudes
 aliases:

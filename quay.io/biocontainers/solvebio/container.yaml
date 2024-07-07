@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for solvebio
 latest:
   2.27.0--pyh7cba7a3_0: sha256:b0df0b45ca1df474d3063ec0599e2918dae646631277cdf0dbbf18d06321dbc7
 tags:
-  2.9.0--py_0: sha256:259ebad4ec983aeb94bb0f009e12bbfb61aa30370238862a362db1e1214edad4
+  2.9.0--py_0: sha256:f59a68d3bb236283281c5ade5c16e993d9670808b5a6d6cd34a58cce1db3d34b
   2.19.0--pyh5e36f6f_0: sha256:284eae07e559bd2b55702fea73240658fc433a3adaf8526877c301bc589e2614
   2.18.1--pyh5e36f6f_0: sha256:7f6755cbdbe23a6da9614fb9bcd0a90d2d35637f4a4125f0bc1a692b2e2e5cce
   2.17.1--pyh5e36f6f_0: sha256:f5573df4f5deeb476496d73e1873c506c8ed8b16ed7348c3d7f03ce33c039c1b

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/sis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sis
 latest:
-  0.1.2--py_3: sha256:6db3656db5e8d810254f9b05c69069ede3e5c5aab1f20ed3c7e61b0928388d8e
+  0.1.2--py_3: sha256:390da0c91548e12a4aef93782f1ea442a6867b429344eece9cd8f42795a20017
 tags:
-  0.1.2--py_3: sha256:6db3656db5e8d810254f9b05c69069ede3e5c5aab1f20ed3c7e61b0928388d8e
+  0.1.2--py_3: sha256:390da0c91548e12a4aef93782f1ea442a6867b429344eece9cd8f42795a20017
 docker: quay.io/biocontainers/sis
 aliases:
   multifasta.py: /usr/local/bin/multifasta.py

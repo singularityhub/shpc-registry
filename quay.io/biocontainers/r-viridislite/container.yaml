@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-viridislite
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-viridislite
 latest:
-  0.1.3--r3.3.2_0: sha256:fb074901efe8da11fd6561e1c2c9bf9a4bacbfc402c31f5378d802fb3639f6f9
+  0.1.3--r3.3.2_0: sha256:6be30d130eb6aa94c57b0f08fe44b338fa286028837e1318b72e4a28669fa349
 tags:
-  0.1.3--r3.3.2_0: sha256:fb074901efe8da11fd6561e1c2c9bf9a4bacbfc402c31f5378d802fb3639f6f9
+  0.1.3--r3.3.2_0: sha256:6be30d130eb6aa94c57b0f08fe44b338fa286028837e1318b72e4a28669fa349
 docker: quay.io/biocontainers/r-viridislite
 aliases:
   uconv: /usr/local/bin/uconv

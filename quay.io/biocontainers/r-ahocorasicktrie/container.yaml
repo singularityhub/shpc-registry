@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-ahocorasicktrie
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ahocorasicktrie
 latest:
-  0.1.0--r3.3.1_1: sha256:99114bf0d81a45e71b2a7b83de623103b2d7a1c7518ec2bdede5ec2adb37cec5
+  0.1.0--r3.3.1_1: sha256:aa124db6c48bc52ba7a6ab2e51bc4ee4476e89666fe974740c0a90fa0f8cae3f
 tags:
-  0.1.0--r3.3.1_1: sha256:99114bf0d81a45e71b2a7b83de623103b2d7a1c7518ec2bdede5ec2adb37cec5
-  0.1.0--r3.3.2_1: sha256:2f299e66ad3e382f63f7e5ac13ee90b45df20c409aa5aa41dd48a4cc69f7aea7
+  0.1.0--r3.3.1_1: sha256:aa124db6c48bc52ba7a6ab2e51bc4ee4476e89666fe974740c0a90fa0f8cae3f
+  0.1.0--r3.3.2_1: sha256:5dc7a539de465f9e075dd66b33ca02aa39ab28bf3acc5996da439f171aa58aa6
 docker: quay.io/biocontainers/r-ahocorasicktrie
 aliases:
   uconv: /usr/local/bin/uconv

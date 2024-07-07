@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/mapsplice
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mapsplice
 latest:
-  2.2.1--py27h07887db_0: sha256:3811acd7cea650cabfd8856460aa9cd7b811cd4752123c3634dd0972a8217bda
+  2.2.1--py27h07887db_0: sha256:a473414a6429a137524b84acdf52fae67e186d0d382a67fe433b63f0ac6e28a7
 tags:
-  2.2.1--py27h07887db_0: sha256:3811acd7cea650cabfd8856460aa9cd7b811cd4752123c3634dd0972a8217bda
-  2.2.1--py37h07887db_0: sha256:02b48c93f7c02c9d57e229cc00a02287bac95971a944aed6d13ebd7db4469371
+  2.2.1--py27h07887db_0: sha256:a473414a6429a137524b84acdf52fae67e186d0d382a67fe433b63f0ac6e28a7
+  2.2.1--py37h07887db_0: sha256:a16cb8b49a735c27421f660505dfa015bbe39784ae72eaaabbf966ec7f29eaca
 docker: quay.io/biocontainers/mapsplice
 aliases:
   AddFusionStrandConsistent: /usr/local/bin/AddFusionStrandConsistent

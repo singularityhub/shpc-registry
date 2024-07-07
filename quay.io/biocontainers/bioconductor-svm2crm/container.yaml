@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-svm2crm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-svm2crm
 latest:
-  1.16.0--r36_0: sha256:1cd46f4dd9a124eeafc6971494c801faf0415e0f41e0c9c8d0ed04f683d30f49
+  1.16.0--r36_0: sha256:02340db852aa940c51bd6e0b20fcf6250fdc36918a73e87a9d613bb83d0941cd
 tags:
-  1.16.0--r36_0: sha256:1cd46f4dd9a124eeafc6971494c801faf0415e0f41e0c9c8d0ed04f683d30f49
+  1.16.0--r36_0: sha256:02340db852aa940c51bd6e0b20fcf6250fdc36918a73e87a9d613bb83d0941cd
 docker: quay.io/biocontainers/bioconductor-svm2crm
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

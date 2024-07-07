@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/flask-nav
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for flask-nav
 latest:
-  0.5--py36_0: sha256:4fd28ac189764a99ab39d44a8083fe97a99a9f5ad7ea9ba23c0ba6f91711b426
+  0.5--py36_0: sha256:00e2f290c4aa4584ec79661aeaf60b457a52b9d8092c2ccb0985e09b3bb1002c
 tags:
-  0.5--py36_0: sha256:4fd28ac189764a99ab39d44a8083fe97a99a9f5ad7ea9ba23c0ba6f91711b426
+  0.5--py36_0: sha256:00e2f290c4aa4584ec79661aeaf60b457a52b9d8092c2ccb0985e09b3bb1002c
+  0.5--py35_0: sha256:de0b6b0671f867f10d39be624e2c22d52b0dfe1b119cd48b28fe895e30069268
 docker: quay.io/biocontainers/flask-nav
 aliases:
   flask: /usr/local/bin/flask

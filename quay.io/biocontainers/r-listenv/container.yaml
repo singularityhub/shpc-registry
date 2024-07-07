@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-listenv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-listenv
 latest:
-  0.6.0--r3.3.1_0: sha256:5fdf1b7d1aa1b24b7b051477282d4ae764ad6edc7e33561ad20e5c8d5b552a48
+  0.6.0--r3.3.1_0: sha256:489d95935e6e90cd42fc19466cc3cafd1af7c8d9cdb6a679a74a431e7ec3cd58
 tags:
-  0.6.0--r3.3.1_0: sha256:5fdf1b7d1aa1b24b7b051477282d4ae764ad6edc7e33561ad20e5c8d5b552a48
-  0.6.0--r3.3.2_0: sha256:3253d17084e2525b54d961debad7fe493229b1af47a32544d59d74b46efc9146
+  0.6.0--r3.3.1_0: sha256:489d95935e6e90cd42fc19466cc3cafd1af7c8d9cdb6a679a74a431e7ec3cd58
+  0.6.0--r3.3.2_0: sha256:03aa156a7f66fa9c44f816a89e210890df2b1a3f6af2fc32ef5a3ba416dc345d
 docker: quay.io/biocontainers/r-listenv
 aliases:
   uconv: /usr/local/bin/uconv
