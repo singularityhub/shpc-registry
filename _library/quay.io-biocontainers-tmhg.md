@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tmhg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tmhg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tmhg/container.yaml"
-updated_at: "2024-07-08 03:17:07.124511"
+updated_at: "2024-07-08 03:48:53.196419"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tmhg"
 aliases:

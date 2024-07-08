@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/csvtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/csvtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/csvtk/container.yaml"
-updated_at: "2024-07-08 02:52:53.845311"
+updated_at: "2024-07-08 03:24:56.023120"
 latest: "0.30.0--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/csvtk"
 aliases:

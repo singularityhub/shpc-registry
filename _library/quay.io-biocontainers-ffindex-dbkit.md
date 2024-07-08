@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ffindex-dbkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ffindex-dbkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ffindex-dbkit/container.yaml"
-updated_at: "2024-07-08 02:47:35.263278"
+updated_at: "2024-07-08 03:19:28.878546"
 latest: "0.2--pyh5e36f6f_2"
 container_url: "https://biocontainers.pro/tools/ffindex-dbkit"
 aliases:

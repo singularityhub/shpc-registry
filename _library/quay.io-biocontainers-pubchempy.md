@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pubchempy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pubchempy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pubchempy/container.yaml"
-updated_at: "2024-07-08 02:49:17.023431"
+updated_at: "2024-07-08 03:21:13.698164"
 latest: "1.0.4--pyh864c0ab_2"
 container_url: "https://biocontainers.pro/tools/pubchempy"
 aliases:

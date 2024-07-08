@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snikt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snikt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snikt/container.yaml"
-updated_at: "2024-07-08 02:40:35.761536"
+updated_at: "2024-07-08 03:12:19.992441"
 latest: "0.5.0--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/snikt"
 aliases:

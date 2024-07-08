@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sortmerna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sortmerna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sortmerna/container.yaml"
-updated_at: "2024-07-08 03:03:41.039772"
+updated_at: "2024-07-08 03:35:33.113342"
 latest: "4.3.7--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/sortmerna"
 aliases:
