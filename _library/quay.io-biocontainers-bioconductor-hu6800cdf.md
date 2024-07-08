@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hu6800cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hu6800cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hu6800cdf/container.yaml"
-updated_at: "2024-07-07 03:10:11.515168"
+updated_at: "2024-07-08 03:09:12.411444"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-hu6800cdf"
 
@@ -14,7 +14,7 @@ versions:
  - "2.18.0--r43hdfd78af_11"
  - "2.18.0--r43hdfd78af_12"
 description: "shpc-registry automated BioContainers addition for bioconductor-hu6800cdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hu6800cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hu6800cdf", "latest": {"2.18.0--r43hdfd78af_12": "sha256:a7a596fc0b20e32b4bada1302dd39e1d7404d8ef9453fd36092549108f1c26c1"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:92deda7eef304eea5501e23cc5e89976e96a3764d107a3057644008747e319b5", "2.18.0--r42hdfd78af_10": "sha256:9a86b7f0b730937e34985617c05dc081a9a505523715356ba1700c6d51cbb5b0", "2.18.0--r43hdfd78af_11": "sha256:3a1e6ea1d01498e7699cbfc64cf6378125901ac34a7d730ca22dcbafb6321580", "2.18.0--r43hdfd78af_12": "sha256:a7a596fc0b20e32b4bada1302dd39e1d7404d8ef9453fd36092549108f1c26c1"}, "docker": "quay.io/biocontainers/bioconductor-hu6800cdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hu6800cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hu6800cdf", "latest": {"2.18.0--r43hdfd78af_12": "sha256:d78f33c51f24dc73bec3f2fcff96037b8fb5a4e43c1bdc1748ae1e3837b14757"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:92deda7eef304eea5501e23cc5e89976e96a3764d107a3057644008747e319b5", "2.18.0--r42hdfd78af_10": "sha256:9a86b7f0b730937e34985617c05dc081a9a505523715356ba1700c6d51cbb5b0", "2.18.0--r43hdfd78af_11": "sha256:3a1e6ea1d01498e7699cbfc64cf6378125901ac34a7d730ca22dcbafb6321580", "2.18.0--r43hdfd78af_12": "sha256:d78f33c51f24dc73bec3f2fcff96037b8fb5a4e43c1bdc1748ae1e3837b14757"}, "docker": "quay.io/biocontainers/bioconductor-hu6800cdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hu6800cdf.

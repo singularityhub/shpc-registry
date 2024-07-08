@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pysvg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pysvg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pysvg/container.yaml"
-updated_at: "2024-07-07 03:16:35.657077"
+updated_at: "2024-07-08 03:15:40.118820"
 latest: "0.2.2--py27_0"
 container_url: "https://biocontainers.pro/tools/pysvg"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.2.2--py27_0"
 description: "shpc-registry automated BioContainers addition for pysvg"
-config: {"url": "https://biocontainers.pro/tools/pysvg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pysvg", "latest": {"0.2.2--py27_0": "sha256:b44376ed8aca3c51136278e1025e97d439a41e440124ef9d0c5cb422971b3f48"}, "tags": {"0.2.2--py27_0": "sha256:b44376ed8aca3c51136278e1025e97d439a41e440124ef9d0c5cb422971b3f48"}, "docker": "quay.io/biocontainers/pysvg", "aliases": {"easy_install-2.7": "/usr/local/bin/easy_install-2.7", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/pysvg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pysvg", "latest": {"0.2.2--py27_0": "sha256:72005012f638c47d39a67c95c70482e3be87445440543af70240d065f65f492f"}, "tags": {"0.2.2--py27_0": "sha256:72005012f638c47d39a67c95c70482e3be87445440543af70240d065f65f492f"}, "docker": "quay.io/biocontainers/pysvg", "aliases": {"easy_install-2.7": "/usr/local/bin/easy_install-2.7", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pysvg.

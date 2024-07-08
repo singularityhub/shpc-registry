@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/google-sparsehash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/google-sparsehash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/google-sparsehash/container.yaml"
-updated_at: "2024-07-07 03:04:39.776523"
+updated_at: "2024-07-08 03:03:37.332530"
 latest: "2.0.3--1"
 container_url: "https://biocontainers.pro/tools/google-sparsehash"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "2.0.3--1"
 description: "shpc-registry automated BioContainers addition for google-sparsehash"
-config: {"url": "https://biocontainers.pro/tools/google-sparsehash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for google-sparsehash", "latest": {"2.0.3--1": "sha256:b5eabd7ede74ceaebe0395d65a9794f4b95ce2db835f75b199bb1d6b37e3b363"}, "tags": {"2.0.3--1": "sha256:b5eabd7ede74ceaebe0395d65a9794f4b95ce2db835f75b199bb1d6b37e3b363"}, "docker": "quay.io/biocontainers/google-sparsehash", "aliases": {"sparsetable_unittest": "/usr/local/bin/sparsetable_unittest"}}
+config: {"url": "https://biocontainers.pro/tools/google-sparsehash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for google-sparsehash", "latest": {"2.0.3--1": "sha256:d76a1bd36dea5965a9ac2b3f77ec2c311865f01563403eb1ccf668a3b92a016b"}, "tags": {"2.0.3--1": "sha256:d76a1bd36dea5965a9ac2b3f77ec2c311865f01563403eb1ccf668a3b92a016b"}, "docker": "quay.io/biocontainers/google-sparsehash", "aliases": {"sparsetable_unittest": "/usr/local/bin/sparsetable_unittest"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/google-sparsehash.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-prize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prize/container.yaml"
-updated_at: "2024-07-07 03:22:11.589874"
+updated_at: "2024-07-08 03:21:19.045403"
 latest: "1.17.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prize"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "1.10.0--r351_0"
  - "1.10.0--r341_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-prize"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-prize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prize", "latest": {"1.17.0--r40_0": "sha256:32f357c04d9fe964624c36b7497f0a259e0816d9eb5aae7f39957b6c704c1204"}, "tags": {"1.8.0--r3.4.1_0": "sha256:8e83bfe5341d06c3fd4702536a3527b4544729f2efc2e0d2cf96c291803f92a9", "1.17.0--r40_0": "sha256:32f357c04d9fe964624c36b7497f0a259e0816d9eb5aae7f39957b6c704c1204", "1.16.0--r36_0": "sha256:12871e18e68932beff2dca1d38a2cef5990d9a893e3580c96e1cd5fc5b19f5c9", "1.14.0--r36_1": "sha256:6b195a8687e7948d9bc9129bba3b61c9ed59315b77215f6662abc8b791317330", "1.12.1--r351_0": "sha256:e1f3df7e0c4227b7fcbee7bfe65d104ba4c9bc20c3917e14c5b1993a9eef542a", "1.10.0--r351_0": "sha256:cd160816d52572c6eb9bf6a2ae344e91df2f476653076072b38aa3d0628e350e", "1.10.0--r341_0": "sha256:0debaa20393333b98e8d8f70e8cf1d3d34f16d0412888f46ddc0453fe735529b"}, "docker": "quay.io/biocontainers/bioconductor-prize", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-prize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prize", "latest": {"1.17.0--r40_0": "sha256:32f357c04d9fe964624c36b7497f0a259e0816d9eb5aae7f39957b6c704c1204"}, "tags": {"1.8.0--r3.4.1_0": "sha256:0180089760669bfa964218374eddbd0cc677bf539cbc8c83c127b6582f8b7ee1", "1.17.0--r40_0": "sha256:32f357c04d9fe964624c36b7497f0a259e0816d9eb5aae7f39957b6c704c1204", "1.16.0--r36_0": "sha256:70ad5695d7b69ed6d1435004ccee4998a6d856c4b7ebb932ac43ab503d96830a", "1.14.0--r36_1": "sha256:ea938e371dc8c1c7f707ae48e184c2f63334991034ccc8d6111f65ec6bbb8e1a", "1.12.1--r351_0": "sha256:dd16e02b4bad81b5a775d876c3bc788eca233ff99f359a61b85d147aa29d84df", "1.10.0--r351_0": "sha256:3e3cd1f8d1e025fe68c5af4f6305be4e495c3b2afbf0401b8871bdc1eaf7ef81", "1.10.0--r341_0": "sha256:9f167ccb021bbe9e924c98f4effb5e098b9eda5b49d7881977b6ab0ce9753a86"}, "docker": "quay.io/biocontainers/bioconductor-prize", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-prize.

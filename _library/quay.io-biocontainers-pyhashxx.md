@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyhashxx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyhashxx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyhashxx/container.yaml"
-updated_at: "2024-07-07 02:42:46.346971"
+updated_at: "2024-07-08 02:41:45.228988"
 latest: "0.1.3--py36_1"
 container_url: "https://biocontainers.pro/tools/pyhashxx"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "0.1.3--py36_1"
  - "0.1.3--py35_1"
 description: "shpc-registry automated BioContainers addition for pyhashxx"
-config: {"url": "https://biocontainers.pro/tools/pyhashxx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyhashxx", "latest": {"0.1.3--py36_1": "sha256:541580e6188b6a78a702d014476735c014c6cf66e34198585d8445359d134987"}, "tags": {"0.1.3--py36_1": "sha256:541580e6188b6a78a702d014476735c014c6cf66e34198585d8445359d134987", "0.1.3--py35_1": "sha256:3de82225d3044e0f3717e20ee71043e277017d2df8a6e208119bd43dcde34490"}, "docker": "quay.io/biocontainers/pyhashxx", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyhashxx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyhashxx", "latest": {"0.1.3--py36_1": "sha256:9599a08aeeb7744b766676fd129b019465663bc3829595bef7e73e9a22a2d127"}, "tags": {"0.1.3--py36_1": "sha256:9599a08aeeb7744b766676fd129b019465663bc3829595bef7e73e9a22a2d127", "0.1.3--py35_1": "sha256:82cbe6e8ea61dbb0ea512580208beac85a23e15db77e9c70c70bdf3d14b3644c"}, "docker": "quay.io/biocontainers/pyhashxx", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyhashxx.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanopore_simulation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanopore_simulation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanopore_simulation/container.yaml"
-updated_at: "2024-07-07 03:02:16.260115"
+updated_at: "2024-07-08 03:01:12.457807"
 latest: "0.3--py_2"
 container_url: "https://biocontainers.pro/tools/nanopore_simulation"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.3--py_2"
 description: "shpc-registry automated BioContainers addition for nanopore_simulation"
-config: {"url": "https://biocontainers.pro/tools/nanopore_simulation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanopore_simulation", "latest": {"0.3--py_2": "sha256:ef8d3204821b2b68160448f907f15d21d81fa743f4088fc21d6bca489fc73503"}, "tags": {"0.3--py_2": "sha256:ef8d3204821b2b68160448f907f15d21d81fa743f4088fc21d6bca489fc73503"}, "docker": "quay.io/biocontainers/nanopore_simulation", "aliases": {"simulatION": "/usr/local/bin/simulatION", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
+config: {"url": "https://biocontainers.pro/tools/nanopore_simulation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanopore_simulation", "latest": {"0.3--py_2": "sha256:040743fe0fa88799e347ff0d032cf74c542252559fb5a62b0666187b6b8a4ea3"}, "tags": {"0.3--py_2": "sha256:040743fe0fa88799e347ff0d032cf74c542252559fb5a62b0666187b6b8a4ea3"}, "docker": "quay.io/biocontainers/nanopore_simulation", "aliases": {"simulatION": "/usr/local/bin/simulatION", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanopore_simulation.

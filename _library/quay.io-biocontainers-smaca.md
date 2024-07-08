@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/smaca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smaca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smaca/container.yaml"
-updated_at: "2024-07-07 03:11:09.968863"
-latest: "1.2.3--py310h5aa3a86_4"
+updated_at: "2024-07-08 03:10:10.940123"
+latest: "1.2.3--py312h8cd533b_5"
 container_url: "https://biocontainers.pro/tools/smaca"
 aliases:
  - "smaca"
@@ -19,8 +19,9 @@ versions:
  - "1.2.3--py39h919a90d_3"
  - "1.2.3--py310h5aa3a86_4"
  - "1.2.3--py38h8c35140_4"
+ - "1.2.3--py312h8cd533b_5"
 description: "shpc-registry automated BioContainers addition for smaca"
-config: {"url": "https://biocontainers.pro/tools/smaca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smaca", "latest": {"1.2.3--py310h5aa3a86_4": "sha256:5d2c050e435e511c0c26a842e9583f56e6ab2abb9c27bdac284e5ee10bd6f160"}, "tags": {"1.2.3--py39h919a90d_3": "sha256:9f18b52c26a11a73033cb6f7db83bad13b926ca47ed6109b4d0b28a91f35ebcf", "1.2.3--py310h5aa3a86_4": "sha256:5d2c050e435e511c0c26a842e9583f56e6ab2abb9c27bdac284e5ee10bd6f160", "1.2.3--py38h8c35140_4": "sha256:c83b365e70a65cd01a43e6f1895b38f1b8eaed5f140ba9eed8cf6edc7771a15e"}, "docker": "quay.io/biocontainers/smaca", "aliases": {"smaca": "/usr/local/bin/smaca", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/smaca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smaca", "latest": {"1.2.3--py312h8cd533b_5": "sha256:1974d187cac1d5ba88d9accdc98dadf25af7bbe1d50ecf78b9c7515594632986"}, "tags": {"1.2.3--py39h919a90d_3": "sha256:9f18b52c26a11a73033cb6f7db83bad13b926ca47ed6109b4d0b28a91f35ebcf", "1.2.3--py310h5aa3a86_4": "sha256:5d2c050e435e511c0c26a842e9583f56e6ab2abb9c27bdac284e5ee10bd6f160", "1.2.3--py38h8c35140_4": "sha256:c83b365e70a65cd01a43e6f1895b38f1b8eaed5f140ba9eed8cf6edc7771a15e", "1.2.3--py312h8cd533b_5": "sha256:1974d187cac1d5ba88d9accdc98dadf25af7bbe1d50ecf78b9c7515594632986"}, "docker": "quay.io/biocontainers/smaca", "aliases": {"smaca": "/usr/local/bin/smaca", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smaca.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/smaca
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/smaca:1.2.3--py310h5aa3a86_4
+$ shpc install quay.io/biocontainers/smaca:1.2.3--py312h8cd533b_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/smaca/1.2.3--py310h5aa3a86_4
-$ module help quay.io/biocontainers/smaca/1.2.3--py310h5aa3a86_4
+$ module load quay.io/biocontainers/smaca/1.2.3--py312h8cd533b_5
+$ module help quay.io/biocontainers/smaca/1.2.3--py312h8cd533b_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

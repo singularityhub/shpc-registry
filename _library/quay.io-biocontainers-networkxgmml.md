@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/networkxgmml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/networkxgmml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/networkxgmml/container.yaml"
-updated_at: "2024-07-07 02:56:15.193027"
+updated_at: "2024-07-08 02:55:16.239181"
 latest: "0.1.6--py_2"
 container_url: "https://biocontainers.pro/tools/networkxgmml"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.1.6--py_2"
 description: "shpc-registry automated BioContainers addition for networkxgmml"
-config: {"url": "https://biocontainers.pro/tools/networkxgmml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for networkxgmml", "latest": {"0.1.6--py_2": "sha256:5c39dfcdb5471c648a8d157988452b330f873f99dcdc24c247dc292f0cdfbf11"}, "tags": {"0.1.6--py_2": "sha256:5c39dfcdb5471c648a8d157988452b330f873f99dcdc24c247dc292f0cdfbf11"}, "docker": "quay.io/biocontainers/networkxgmml", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/networkxgmml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for networkxgmml", "latest": {"0.1.6--py_2": "sha256:e7d3c88728a27575545206ef7ae73694afaad761a3e8fbbf20227501c57c7177"}, "tags": {"0.1.6--py_2": "sha256:e7d3c88728a27575545206ef7ae73694afaad761a3e8fbbf20227501c57c7177"}, "docker": "quay.io/biocontainers/networkxgmml", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/networkxgmml.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r/container.yaml"
-updated_at: "2024-07-07 03:20:48.408072"
-latest: "3.3.1--r3.3.1_0"
+updated_at: "2024-07-08 03:19:54.919653"
+latest: "4.1.0"
 container_url: "https://biocontainers.pro/tools/r"
 
 versions:
  - "3.3.1--r3.3.1_0"
+ - "4.1.0"
 description: "shpc-registry automated BioContainers addition for r"
-config: {"url": "https://biocontainers.pro/tools/r", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r", "latest": {"3.3.1--r3.3.1_0": "sha256:a57b8da26f7a0b378111c0bc491097524311c36631e380e7459d6b44c50581b1"}, "tags": {"3.3.1--r3.3.1_0": "sha256:a57b8da26f7a0b378111c0bc491097524311c36631e380e7459d6b44c50581b1"}, "docker": "quay.io/biocontainers/r"}
+config: {"url": "https://biocontainers.pro/tools/r", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r", "latest": {"4.1.0": "sha256:b0491113482247dbbb3394febdb82af04fabf8b08b705f6e2532e86cd002d551"}, "tags": {"3.3.1--r3.3.1_0": "sha256:47362897d355157d0de160af7f48434d15b71c7114cb6bfc92f2438d324f8259", "4.1.0": "sha256:b0491113482247dbbb3394febdb82af04fabf8b08b705f6e2532e86cd002d551"}, "docker": "quay.io/biocontainers/r"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r:3.3.1--r3.3.1_0
+$ shpc install quay.io/biocontainers/r:4.1.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r/3.3.1--r3.3.1_0
-$ module help quay.io/biocontainers/r/3.3.1--r3.3.1_0
+$ module load quay.io/biocontainers/r/4.1.0
+$ module help quay.io/biocontainers/r/4.1.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

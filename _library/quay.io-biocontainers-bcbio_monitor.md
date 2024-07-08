@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcbio_monitor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcbio_monitor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcbio_monitor/container.yaml"
-updated_at: "2024-07-07 03:10:45.618926"
+updated_at: "2024-07-08 03:09:46.556212"
 latest: "1.0.6--py_4"
 container_url: "https://biocontainers.pro/tools/bcbio_monitor"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.0.6--py_4"
 description: "shpc-registry automated BioContainers addition for bcbio_monitor"
-config: {"url": "https://biocontainers.pro/tools/bcbio_monitor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcbio_monitor", "latest": {"1.0.6--py_4": "sha256:a30e77bae8ebfbc3b1a3c964dd9eba6c080cb0fe9f8bedb81f9053f3d92c739c"}, "tags": {"1.0.6--py_4": "sha256:a30e77bae8ebfbc3b1a3c964dd9eba6c080cb0fe9f8bedb81f9053f3d92c739c"}, "docker": "quay.io/biocontainers/bcbio_monitor", "aliases": {"bcbio_monitor": "/usr/local/bin/bcbio_monitor", "flask": "/usr/local/bin/flask", "cxpm": "/usr/local/bin/cxpm", "sxpm": "/usr/local/bin/sxpm", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot", "dot2gxl": "/usr/local/bin/dot2gxl"}}
+config: {"url": "https://biocontainers.pro/tools/bcbio_monitor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcbio_monitor", "latest": {"1.0.6--py_4": "sha256:0fd543640a4e9f4bcfc24b56e2219910ae37ac0170fa64c69fd37118fa830979"}, "tags": {"1.0.6--py_4": "sha256:0fd543640a4e9f4bcfc24b56e2219910ae37ac0170fa64c69fd37118fa830979"}, "docker": "quay.io/biocontainers/bcbio_monitor", "aliases": {"bcbio_monitor": "/usr/local/bin/bcbio_monitor", "flask": "/usr/local/bin/flask", "cxpm": "/usr/local/bin/cxpm", "sxpm": "/usr/local/bin/sxpm", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot", "dot2gxl": "/usr/local/bin/dot2gxl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bcbio_monitor.

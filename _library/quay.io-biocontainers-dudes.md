@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dudes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dudes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dudes/container.yaml"
-updated_at: "2024-07-07 03:23:03.716425"
+updated_at: "2024-07-08 03:22:11.304116"
 latest: "0.10.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dudes"
 aliases:
@@ -24,7 +24,7 @@ versions:
  - "0.08--py_2"
  - "0.10.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for dudes"
-config: {"url": "https://biocontainers.pro/tools/dudes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dudes", "latest": {"0.10.0--pyhdfd78af_0": "sha256:26c2d0dcca113a5aad9e38036a4744bd8c2f08120fa9a844b9928445505c5330"}, "tags": {"0.08--py_2": "sha256:641a9d969ea283bc8b6c6dabdb26b846eac2dbfeb39a80f4ea9c3e568e6bbdfc", "0.10.0--pyhdfd78af_0": "sha256:26c2d0dcca113a5aad9e38036a4744bd8c2f08120fa9a844b9928445505c5330"}, "docker": "quay.io/biocontainers/dudes", "aliases": {"DUDes.py": "/usr/local/bin/DUDes.py", "DUDesDB.py": "/usr/local/bin/DUDesDB.py", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/dudes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dudes", "latest": {"0.10.0--pyhdfd78af_0": "sha256:26c2d0dcca113a5aad9e38036a4744bd8c2f08120fa9a844b9928445505c5330"}, "tags": {"0.08--py_2": "sha256:c10d740fe428b8ee93c433292dbeb8663810063226510b04b86045deaf1cc21e", "0.10.0--pyhdfd78af_0": "sha256:26c2d0dcca113a5aad9e38036a4744bd8c2f08120fa9a844b9928445505c5330"}, "docker": "quay.io/biocontainers/dudes", "aliases": {"DUDes.py": "/usr/local/bin/DUDes.py", "DUDesDB.py": "/usr/local/bin/DUDesDB.py", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dudes.

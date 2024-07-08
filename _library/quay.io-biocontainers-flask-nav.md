@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flask-nav"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-nav/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flask-nav/container.yaml"
-updated_at: "2024-07-07 03:01:01.528485"
+updated_at: "2024-07-08 02:59:56.311875"
 latest: "0.5--py36_0"
 container_url: "https://biocontainers.pro/tools/flask-nav"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "pyvenv-3.6"
 versions:
  - "0.5--py36_0"
+ - "0.5--py35_0"
 description: "shpc-registry automated BioContainers addition for flask-nav"
-config: {"url": "https://biocontainers.pro/tools/flask-nav", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flask-nav", "latest": {"0.5--py36_0": "sha256:4fd28ac189764a99ab39d44a8083fe97a99a9f5ad7ea9ba23c0ba6f91711b426"}, "tags": {"0.5--py36_0": "sha256:4fd28ac189764a99ab39d44a8083fe97a99a9f5ad7ea9ba23c0ba6f91711b426"}, "docker": "quay.io/biocontainers/flask-nav", "aliases": {"flask": "/usr/local/bin/flask", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/flask-nav", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flask-nav", "latest": {"0.5--py36_0": "sha256:00e2f290c4aa4584ec79661aeaf60b457a52b9d8092c2ccb0985e09b3bb1002c"}, "tags": {"0.5--py36_0": "sha256:00e2f290c4aa4584ec79661aeaf60b457a52b9d8092c2ccb0985e09b3bb1002c", "0.5--py35_0": "sha256:de0b6b0671f867f10d39be624e2c22d52b0dfe1b119cd48b28fe895e30069268"}, "docker": "quay.io/biocontainers/flask-nav", "aliases": {"flask": "/usr/local/bin/flask", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flask-nav.

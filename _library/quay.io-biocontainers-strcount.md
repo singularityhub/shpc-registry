@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/strcount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strcount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strcount/container.yaml"
-updated_at: "2024-07-07 03:05:28.342384"
-latest: "0.1.1--py310h7cba7a3_1"
+updated_at: "2024-07-08 03:04:26.585784"
+latest: "0.1.1--py312h7e72e81_2"
 container_url: "https://biocontainers.pro/tools/strcount"
 aliases:
  - "STRcount"
@@ -20,8 +20,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.1.1--py310h7cba7a3_1"
+ - "0.1.1--py312h7e72e81_2"
 description: "singularity registry hpc automated addition for strcount"
-config: {"url": "https://biocontainers.pro/tools/strcount", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strcount", "latest": {"0.1.1--py310h7cba7a3_1": "sha256:82cd8d8d9ce1f49bfe58bee2eead716e442f62156ddf29ceff66f442feb26840"}, "tags": {"0.1.1--py310h7cba7a3_1": "sha256:82cd8d8d9ce1f49bfe58bee2eead716e442f62156ddf29ceff66f442feb26840"}, "docker": "quay.io/biocontainers/strcount", "aliases": {"STRcount": "/usr/local/bin/STRcount", "STRcount.py": "/usr/local/bin/STRcount.py", "genome_str_graph_generator.py": "/usr/local/bin/genome_str_graph_generator.py", "parse_gaf.py": "/usr/local/bin/parse_gaf.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/strcount", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strcount", "latest": {"0.1.1--py312h7e72e81_2": "sha256:e0cb84f2b7de7583e3e0b8fa558ef993e9d26e199cef004062b4e25f3bbd40dd"}, "tags": {"0.1.1--py310h7cba7a3_1": "sha256:82cd8d8d9ce1f49bfe58bee2eead716e442f62156ddf29ceff66f442feb26840", "0.1.1--py312h7e72e81_2": "sha256:e0cb84f2b7de7583e3e0b8fa558ef993e9d26e199cef004062b4e25f3bbd40dd"}, "docker": "quay.io/biocontainers/strcount", "aliases": {"STRcount": "/usr/local/bin/STRcount", "STRcount.py": "/usr/local/bin/STRcount.py", "genome_str_graph_generator.py": "/usr/local/bin/genome_str_graph_generator.py", "parse_gaf.py": "/usr/local/bin/parse_gaf.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strcount.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/strcount
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strcount:0.1.1--py310h7cba7a3_1
+$ shpc install quay.io/biocontainers/strcount:0.1.1--py312h7e72e81_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strcount/0.1.1--py310h7cba7a3_1
-$ module help quay.io/biocontainers/strcount/0.1.1--py310h7cba7a3_1
+$ module load quay.io/biocontainers/strcount/0.1.1--py312h7e72e81_2
+$ module help quay.io/biocontainers/strcount/0.1.1--py312h7e72e81_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

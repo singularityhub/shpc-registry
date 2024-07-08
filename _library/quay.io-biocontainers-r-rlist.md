@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rlist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rlist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rlist/container.yaml"
-updated_at: "2024-07-07 03:17:35.354301"
+updated_at: "2024-07-08 03:16:40.855699"
 latest: "0.4.6.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-rlist"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "0.4.6.1--r3.2.2_0"
  - "0.4.6.1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-rlist"
-config: {"url": "https://biocontainers.pro/tools/r-rlist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rlist", "latest": {"0.4.6.1--r3.2.2_0": "sha256:3f640d9b653cc48fdb00a54da70e1ca5b2df289748c8821fd6d61efad90c6610"}, "tags": {"0.4.6.1--r3.2.2_0": "sha256:3f640d9b653cc48fdb00a54da70e1ca5b2df289748c8821fd6d61efad90c6610", "0.4.6.1--r3.3.2_0": "sha256:f3dab7646d2a203f4ce8ee82d93b810a38f9183ef2f3cb9e4accf7451cd858e3"}, "docker": "quay.io/biocontainers/r-rlist", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rlist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rlist", "latest": {"0.4.6.1--r3.2.2_0": "sha256:ee3dc4fc760528a70691e5250581ce986e2066cf8dc27801bd1619a2f90a3780"}, "tags": {"0.4.6.1--r3.2.2_0": "sha256:ee3dc4fc760528a70691e5250581ce986e2066cf8dc27801bd1619a2f90a3780", "0.4.6.1--r3.3.2_0": "sha256:fc3b6e852c71857c235462612e59a38c9246dc7ec98e2ba1f6781d4fda8795d6"}, "docker": "quay.io/biocontainers/r-rlist", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rlist.

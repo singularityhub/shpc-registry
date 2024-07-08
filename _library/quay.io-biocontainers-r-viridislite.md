@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-viridislite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-viridislite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-viridislite/container.yaml"
-updated_at: "2024-07-07 03:09:49.262411"
+updated_at: "2024-07-08 03:08:49.976108"
 latest: "0.1.3--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-viridislite"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "0.1.3--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-viridislite"
-config: {"url": "https://biocontainers.pro/tools/r-viridislite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-viridislite", "latest": {"0.1.3--r3.3.2_0": "sha256:fb074901efe8da11fd6561e1c2c9bf9a4bacbfc402c31f5378d802fb3639f6f9"}, "tags": {"0.1.3--r3.3.2_0": "sha256:fb074901efe8da11fd6561e1c2c9bf9a4bacbfc402c31f5378d802fb3639f6f9"}, "docker": "quay.io/biocontainers/r-viridislite", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-viridislite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-viridislite", "latest": {"0.1.3--r3.3.2_0": "sha256:6be30d130eb6aa94c57b0f08fe44b338fa286028837e1318b72e4a28669fa349"}, "tags": {"0.1.3--r3.3.2_0": "sha256:6be30d130eb6aa94c57b0f08fe44b338fa286028837e1318b72e4a28669fa349"}, "docker": "quay.io/biocontainers/r-viridislite", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-viridislite.

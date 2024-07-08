@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/somatic-sniper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/somatic-sniper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/somatic-sniper/container.yaml"
-updated_at: "2024-07-07 03:24:36.738424"
+updated_at: "2024-07-08 03:23:45.440055"
 latest: "1.0.5.0--0"
 container_url: "https://biocontainers.pro/tools/somatic-sniper"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.0.5.0--0"
 description: "shpc-registry automated BioContainers addition for somatic-sniper"
-config: {"url": "https://biocontainers.pro/tools/somatic-sniper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for somatic-sniper", "latest": {"1.0.5.0--0": "sha256:e82aacba18ec9b4d803f8081580c51ea896070a223f645923cfc6f4335df3465"}, "tags": {"1.0.5.0--0": "sha256:e82aacba18ec9b4d803f8081580c51ea896070a223f645923cfc6f4335df3465"}, "docker": "quay.io/biocontainers/somatic-sniper", "aliases": {"bam-somaticsniper": "/usr/local/bin/bam-somaticsniper"}}
+config: {"url": "https://biocontainers.pro/tools/somatic-sniper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for somatic-sniper", "latest": {"1.0.5.0--0": "sha256:b6daa77742e40e6a28c7172f952e26e7d41d913cec32c140bb74f215f65f0b4f"}, "tags": {"1.0.5.0--0": "sha256:b6daa77742e40e6a28c7172f952e26e7d41d913cec32c140bb74f215f65f0b4f"}, "docker": "quay.io/biocontainers/somatic-sniper", "aliases": {"bam-somaticsniper": "/usr/local/bin/bam-somaticsniper"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/somatic-sniper.

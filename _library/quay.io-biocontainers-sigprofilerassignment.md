@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sigprofilerassignment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sigprofilerassignment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sigprofilerassignment/container.yaml"
-updated_at: "2024-07-07 02:49:41.717415"
-latest: "0.1.6--pyhdfd78af_0"
+updated_at: "2024-07-08 02:48:44.928430"
+latest: "0.1.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sigprofilerassignment"
 aliases:
  - "SigProfilerAssignment"
@@ -57,8 +57,9 @@ aliases:
  - "python3.11-config"
 versions:
  - "0.1.6--pyhdfd78af_0"
+ - "0.1.7--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for sigprofilerassignment"
-config: {"url": "https://biocontainers.pro/tools/sigprofilerassignment", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sigprofilerassignment", "latest": {"0.1.6--pyhdfd78af_0": "sha256:62a0a947a34cc109e472cffb74840f0303995aaaa784a24ca38321b278034f4a"}, "tags": {"0.1.6--pyhdfd78af_0": "sha256:62a0a947a34cc109e472cffb74840f0303995aaaa784a24ca38321b278034f4a"}, "docker": "quay.io/biocontainers/sigprofilerassignment", "aliases": {"SigProfilerAssignment": "/usr/local/bin/SigProfilerAssignment", "SigProfilerMatrixGenerator": "/usr/local/bin/SigProfilerMatrixGenerator", "SigProfilerPlotting": "/usr/local/bin/SigProfilerPlotting", "bsdunzip": "/usr/local/bin/bsdunzip", "convertfilestopdf": "/usr/local/bin/convertfilestopdf", "convertfilestops": "/usr/local/bin/convertfilestops", "convertformat": "/usr/local/bin/convertformat", "convertsegfilestopdf": "/usr/local/bin/convertsegfilestopdf", "convertsegfilestops": "/usr/local/bin/convertsegfilestops", "converttopdf": "/usr/local/bin/converttopdf", "converttops": "/usr/local/bin/converttops", "fileinfo": "/usr/local/bin/fileinfo", "imagetops": "/usr/local/bin/imagetops", "jbig2dec": "/usr/local/bin/jbig2dec", "mupdf-gl": "/usr/local/bin/mupdf-gl", "mupdf-x11": "/usr/local/bin/mupdf-x11", "mupdf-x11-curl": "/usr/local/bin/mupdf-x11-curl", "muraster": "/usr/local/bin/muraster", "mutool": "/usr/local/bin/mutool", "pymupdf": "/usr/local/bin/pymupdf", "tesseract": "/usr/local/bin/tesseract", "xtractprotos": "/usr/local/bin/xtractprotos", "pdfsig": "/usr/local/bin/pdfsig", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "pdfattach": "/usr/local/bin/pdfattach", "pdfdetach": "/usr/local/bin/pdfdetach", "pdffonts": "/usr/local/bin/pdffonts", "pdfimages": "/usr/local/bin/pdfimages", "pdfinfo": "/usr/local/bin/pdfinfo", "pdfseparate": "/usr/local/bin/pdfseparate", "pdftocairo": "/usr/local/bin/pdftocairo", "pdftohtml": "/usr/local/bin/pdftohtml", "pdftoppm": "/usr/local/bin/pdftoppm", "pdftops": "/usr/local/bin/pdftops", "pdftotext": "/usr/local/bin/pdftotext", "pdfunite": "/usr/local/bin/pdfunite", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
+config: {"url": "https://biocontainers.pro/tools/sigprofilerassignment", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sigprofilerassignment", "latest": {"0.1.7--pyhdfd78af_0": "sha256:ad1ff72282ca377b5cd3260e76e2437c0af6ae7c8f46e1026e8db51c6944866b"}, "tags": {"0.1.6--pyhdfd78af_0": "sha256:62a0a947a34cc109e472cffb74840f0303995aaaa784a24ca38321b278034f4a", "0.1.7--pyhdfd78af_0": "sha256:ad1ff72282ca377b5cd3260e76e2437c0af6ae7c8f46e1026e8db51c6944866b"}, "docker": "quay.io/biocontainers/sigprofilerassignment", "aliases": {"SigProfilerAssignment": "/usr/local/bin/SigProfilerAssignment", "SigProfilerMatrixGenerator": "/usr/local/bin/SigProfilerMatrixGenerator", "SigProfilerPlotting": "/usr/local/bin/SigProfilerPlotting", "bsdunzip": "/usr/local/bin/bsdunzip", "convertfilestopdf": "/usr/local/bin/convertfilestopdf", "convertfilestops": "/usr/local/bin/convertfilestops", "convertformat": "/usr/local/bin/convertformat", "convertsegfilestopdf": "/usr/local/bin/convertsegfilestopdf", "convertsegfilestops": "/usr/local/bin/convertsegfilestops", "converttopdf": "/usr/local/bin/converttopdf", "converttops": "/usr/local/bin/converttops", "fileinfo": "/usr/local/bin/fileinfo", "imagetops": "/usr/local/bin/imagetops", "jbig2dec": "/usr/local/bin/jbig2dec", "mupdf-gl": "/usr/local/bin/mupdf-gl", "mupdf-x11": "/usr/local/bin/mupdf-x11", "mupdf-x11-curl": "/usr/local/bin/mupdf-x11-curl", "muraster": "/usr/local/bin/muraster", "mutool": "/usr/local/bin/mutool", "pymupdf": "/usr/local/bin/pymupdf", "tesseract": "/usr/local/bin/tesseract", "xtractprotos": "/usr/local/bin/xtractprotos", "pdfsig": "/usr/local/bin/pdfsig", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "pdfattach": "/usr/local/bin/pdfattach", "pdfdetach": "/usr/local/bin/pdfdetach", "pdffonts": "/usr/local/bin/pdffonts", "pdfimages": "/usr/local/bin/pdfimages", "pdfinfo": "/usr/local/bin/pdfinfo", "pdfseparate": "/usr/local/bin/pdfseparate", "pdftocairo": "/usr/local/bin/pdftocairo", "pdftohtml": "/usr/local/bin/pdftohtml", "pdftoppm": "/usr/local/bin/pdftoppm", "pdftops": "/usr/local/bin/pdftops", "pdftotext": "/usr/local/bin/pdftotext", "pdfunite": "/usr/local/bin/pdfunite", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sigprofilerassignment.
@@ -73,7 +74,7 @@ $ shpc install quay.io/biocontainers/sigprofilerassignment
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sigprofilerassignment:0.1.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sigprofilerassignment:0.1.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -85,8 +86,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sigprofilerassignment/0.1.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/sigprofilerassignment/0.1.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/sigprofilerassignment/0.1.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/sigprofilerassignment/0.1.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

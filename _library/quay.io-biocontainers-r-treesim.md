@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-treesim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-treesim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-treesim/container.yaml"
-updated_at: "2024-07-07 03:25:04.603226"
+updated_at: "2024-07-08 03:24:13.523513"
 latest: "2.4--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-treesim"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "2.4--r351h6115d3f_0"
 description: "shpc-registry automated BioContainers addition for r-treesim"
-config: {"url": "https://biocontainers.pro/tools/r-treesim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-treesim", "latest": {"2.4--r351h6115d3f_0": "sha256:e37a54fb0f6d622d8c4498b6a2daa7fde31d4c4252ed7842327b844523bbf7ed"}, "tags": {"2.4--r351h6115d3f_0": "sha256:e37a54fb0f6d622d8c4498b6a2daa7fde31d4c4252ed7842327b844523bbf7ed"}, "docker": "quay.io/biocontainers/r-treesim", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-treesim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-treesim", "latest": {"2.4--r351h6115d3f_0": "sha256:ef18220981a8008040d099ce7a17c46688747456141ff0ae38bb9c0028eea570"}, "tags": {"2.4--r351h6115d3f_0": "sha256:ef18220981a8008040d099ce7a17c46688747456141ff0ae38bb9c0028eea570"}, "docker": "quay.io/biocontainers/r-treesim", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-treesim.

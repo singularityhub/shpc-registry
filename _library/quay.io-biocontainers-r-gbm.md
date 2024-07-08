@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gbm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gbm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gbm/container.yaml"
-updated_at: "2024-07-07 03:22:25.304376"
+updated_at: "2024-07-08 03:21:32.831592"
 latest: "2.1.3--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-gbm"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "2.1.3--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-gbm"
-config: {"url": "https://biocontainers.pro/tools/r-gbm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gbm", "latest": {"2.1.3--r3.4.1_0": "sha256:066d22d22de80aa82ef3a5aafa00e832456b086e08b4f83da2770b5a9247d475"}, "tags": {"2.1.3--r3.4.1_0": "sha256:066d22d22de80aa82ef3a5aafa00e832456b086e08b4f83da2770b5a9247d475"}, "docker": "quay.io/biocontainers/r-gbm", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-gbm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gbm", "latest": {"2.1.3--r3.4.1_0": "sha256:87fe3d9bbd894298e099a1e24010e7d8afd9126c180370a93b123e712fc74c1f"}, "tags": {"2.1.3--r3.4.1_0": "sha256:87fe3d9bbd894298e099a1e24010e7d8afd9126c180370a93b123e712fc74c1f"}, "docker": "quay.io/biocontainers/r-gbm", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gbm.

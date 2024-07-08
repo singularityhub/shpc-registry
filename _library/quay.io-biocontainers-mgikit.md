@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mgikit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgikit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgikit/container.yaml"
-updated_at: "2024-07-07 03:09:10.015259"
+updated_at: "2024-07-08 03:08:09.926057"
 latest: "0.1.5--h4c94732_1"
 container_url: "https://biocontainers.pro/tools/mgikit"
 aliases:

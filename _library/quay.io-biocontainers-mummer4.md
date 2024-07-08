@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mummer4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mummer4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mummer4/container.yaml"
-updated_at: "2024-07-07 03:07:49.151855"
+updated_at: "2024-07-08 03:06:49.199028"
 latest: "4.0.0beta2--pl526he1b5a44_5"
 container_url: "https://biocontainers.pro/tools/mummer4"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "4.0.0rc1--pl5321h87f3376_3"
  - "4.0.0beta2--pl526he1b5a44_5"
 description: "shpc-registry automated BioContainers addition for mummer4"
-config: {"url": "https://biocontainers.pro/tools/mummer4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mummer4", "latest": {"4.0.0beta2--pl526he1b5a44_5": "sha256:b529f56756f730a3f12b772a4d9b3b3da1c2c251056e504c1b3df8567b28bfe3"}, "tags": {"4.0.0rc1--pl5321h87f3376_3": "sha256:e9b44d62ae397a36ea380cd83a86b701be2ad18907be207c552f7d8b07f6d7d1", "4.0.0beta2--pl526he1b5a44_5": "sha256:b529f56756f730a3f12b772a4d9b3b3da1c2c251056e504c1b3df8567b28bfe3"}, "docker": "quay.io/biocontainers/mummer4", "aliases": {"delta2vcf": "/usr/local/bin/delta2vcf", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot", "nucmer": "/usr/local/bin/nucmer", "promer": "/usr/local/bin/promer", "repeat-match": "/usr/local/bin/repeat-match", "show-aligns": "/usr/local/bin/show-aligns"}}
+config: {"url": "https://biocontainers.pro/tools/mummer4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mummer4", "latest": {"4.0.0beta2--pl526he1b5a44_5": "sha256:c7c9dae75dc77acf1852b6e29f1c10f502281e801f12035ec1ec924fd8596449"}, "tags": {"4.0.0rc1--pl5321h87f3376_3": "sha256:e9b44d62ae397a36ea380cd83a86b701be2ad18907be207c552f7d8b07f6d7d1", "4.0.0beta2--pl526he1b5a44_5": "sha256:c7c9dae75dc77acf1852b6e29f1c10f502281e801f12035ec1ec924fd8596449"}, "docker": "quay.io/biocontainers/mummer4", "aliases": {"delta2vcf": "/usr/local/bin/delta2vcf", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot", "nucmer": "/usr/local/bin/nucmer", "promer": "/usr/local/bin/promer", "repeat-match": "/usr/local/bin/repeat-match", "show-aligns": "/usr/local/bin/show-aligns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mummer4.

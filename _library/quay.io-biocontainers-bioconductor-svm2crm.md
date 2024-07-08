@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-svm2crm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-svm2crm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-svm2crm/container.yaml"
-updated_at: "2024-07-07 02:41:16.341537"
+updated_at: "2024-07-08 02:40:14.249146"
 latest: "1.16.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-svm2crm"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.16.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-svm2crm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-svm2crm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-svm2crm", "latest": {"1.16.0--r36_0": "sha256:1cd46f4dd9a124eeafc6971494c801faf0415e0f41e0c9c8d0ed04f683d30f49"}, "tags": {"1.16.0--r36_0": "sha256:1cd46f4dd9a124eeafc6971494c801faf0415e0f41e0c9c8d0ed04f683d30f49"}, "docker": "quay.io/biocontainers/bioconductor-svm2crm", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-svm2crm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-svm2crm", "latest": {"1.16.0--r36_0": "sha256:02340db852aa940c51bd6e0b20fcf6250fdc36918a73e87a9d613bb83d0941cd"}, "tags": {"1.16.0--r36_0": "sha256:02340db852aa940c51bd6e0b20fcf6250fdc36918a73e87a9d613bb83d0941cd"}, "docker": "quay.io/biocontainers/bioconductor-svm2crm", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-svm2crm.

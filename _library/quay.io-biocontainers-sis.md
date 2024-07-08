@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sis/container.yaml"
-updated_at: "2024-07-07 03:03:40.486831"
+updated_at: "2024-07-08 03:02:37.490630"
 latest: "0.1.2--py_3"
 container_url: "https://biocontainers.pro/tools/sis"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.1.2--py_3"
 description: "shpc-registry automated BioContainers addition for sis"
-config: {"url": "https://biocontainers.pro/tools/sis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sis", "latest": {"0.1.2--py_3": "sha256:6db3656db5e8d810254f9b05c69069ede3e5c5aab1f20ed3c7e61b0928388d8e"}, "tags": {"0.1.2--py_3": "sha256:6db3656db5e8d810254f9b05c69069ede3e5c5aab1f20ed3c7e61b0928388d8e"}, "docker": "quay.io/biocontainers/sis", "aliases": {"multifasta.py": "/usr/local/bin/multifasta.py", "sis.py": "/usr/local/bin/sis.py", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
+config: {"url": "https://biocontainers.pro/tools/sis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sis", "latest": {"0.1.2--py_3": "sha256:390da0c91548e12a4aef93782f1ea442a6867b429344eece9cd8f42795a20017"}, "tags": {"0.1.2--py_3": "sha256:390da0c91548e12a4aef93782f1ea442a6867b429344eece9cd8f42795a20017"}, "docker": "quay.io/biocontainers/sis", "aliases": {"multifasta.py": "/usr/local/bin/multifasta.py", "sis.py": "/usr/local/bin/sis.py", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sis.

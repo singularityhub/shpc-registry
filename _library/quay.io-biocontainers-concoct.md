@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/concoct"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/concoct/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/concoct/container.yaml"
-updated_at: "2024-07-07 03:13:22.735665"
-latest: "1.1.0--py311h245ed52_4"
+updated_at: "2024-07-08 03:12:24.700802"
+latest: "1.1.0--py312h245ed52_6"
 container_url: "https://biocontainers.pro/tools/concoct"
 aliases:
  - "concoct"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "1.1.0--py310h74abf4b_3"
  - "1.1.0--py311h245ed52_4"
+ - "1.1.0--py312h245ed52_6"
 description: "shpc-registry automated BioContainers addition for concoct"
-config: {"url": "https://biocontainers.pro/tools/concoct", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for concoct", "latest": {"1.1.0--py311h245ed52_4": "sha256:ca54fa0e5365a7676307befad617fbd646b3fb61fa7e686bd604a91eeec361b9"}, "tags": {"1.1.0--py310h74abf4b_3": "sha256:109756b95a510daac9a52b9bb54520c065694eccbaff5a1ff8a502747ec297f5", "1.1.0--py311h245ed52_4": "sha256:ca54fa0e5365a7676307befad617fbd646b3fb61fa7e686bd604a91eeec361b9"}, "docker": "quay.io/biocontainers/concoct", "aliases": {"concoct": "/usr/local/bin/concoct", "concoct_coverage_table.py": "/usr/local/bin/concoct_coverage_table.py", "concoct_refine": "/usr/local/bin/concoct_refine", "cut_up_fasta.py": "/usr/local/bin/cut_up_fasta.py", "extract_fasta_bins.py": "/usr/local/bin/extract_fasta_bins.py", "merge_cutup_clustering.py": "/usr/local/bin/merge_cutup_clustering.py", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info"}}
+config: {"url": "https://biocontainers.pro/tools/concoct", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for concoct", "latest": {"1.1.0--py312h245ed52_6": "sha256:740d179e3ffc55778c2d06c04d1f56fd9f651708e8377e531e5a72b8e6f5794b"}, "tags": {"1.1.0--py310h74abf4b_3": "sha256:109756b95a510daac9a52b9bb54520c065694eccbaff5a1ff8a502747ec297f5", "1.1.0--py311h245ed52_4": "sha256:ca54fa0e5365a7676307befad617fbd646b3fb61fa7e686bd604a91eeec361b9", "1.1.0--py312h245ed52_6": "sha256:740d179e3ffc55778c2d06c04d1f56fd9f651708e8377e531e5a72b8e6f5794b"}, "docker": "quay.io/biocontainers/concoct", "aliases": {"concoct": "/usr/local/bin/concoct", "concoct_coverage_table.py": "/usr/local/bin/concoct_coverage_table.py", "concoct_refine": "/usr/local/bin/concoct_refine", "cut_up_fasta.py": "/usr/local/bin/cut_up_fasta.py", "extract_fasta_bins.py": "/usr/local/bin/extract_fasta_bins.py", "merge_cutup_clustering.py": "/usr/local/bin/merge_cutup_clustering.py", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/concoct.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/concoct
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/concoct:1.1.0--py311h245ed52_4
+$ shpc install quay.io/biocontainers/concoct:1.1.0--py312h245ed52_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/concoct/1.1.0--py311h245ed52_4
-$ module help quay.io/biocontainers/concoct/1.1.0--py311h245ed52_4
+$ module load quay.io/biocontainers/concoct/1.1.0--py312h245ed52_6
+$ module help quay.io/biocontainers/concoct/1.1.0--py312h245ed52_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

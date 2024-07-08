@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-arabidopsis.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-arabidopsis.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-arabidopsis.db0/container.yaml"
-updated_at: "2024-07-07 03:07:21.033801"
+updated_at: "2024-07-08 03:06:20.940656"
 latest: "3.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-arabidopsis.db0"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "3.17.0--r43hdfd78af_0"
  - "3.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-arabidopsis.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-arabidopsis.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-arabidopsis.db0", "latest": {"3.18.0--r43hdfd78af_0": "sha256:373d69a17698b92bbf8c6ffaa4e042d8149bbdf5f6bd0a2e4e96bd8623643e79"}, "tags": {"3.8.2--r36_1": "sha256:2374b9481e328e2f39d0691a62d7642d5fd395067d270dc7df6caf5b1129d7ed", "3.16.0--r42hdfd78af_0": "sha256:9148533900346c853ac0c5b193b2fd30855c00b96918d66a65e2da9818444ca1", "3.14.0--r41hdfd78af_1": "sha256:ac25886096c75ea625e59da226e44da4703e391d56cd5b4045ed691660cea32a", "3.13.0--r41hdfd78af_0": "sha256:d4012a22367305c36c03c83ff8b2fced1f4fe781635c372ad4d7164a80a78450", "3.12.0--r40hdfd78af_1": "sha256:1c2690fbc1523617c774eec74a5b2ced1000cb334e2f4c61d6cb1e4c8123257e", "3.11.3--r40_0": "sha256:bce2e406e5acf1d132e9a79e12777799ab49567ca95816d1c0d65889d5e23330", "3.17.0--r43hdfd78af_0": "sha256:971367269b8ab5f536ec8acfae23418ccd71692e4a513bc029d3017cd0008ea8", "3.18.0--r43hdfd78af_0": "sha256:373d69a17698b92bbf8c6ffaa4e042d8149bbdf5f6bd0a2e4e96bd8623643e79"}, "docker": "quay.io/biocontainers/bioconductor-arabidopsis.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-arabidopsis.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-arabidopsis.db0", "latest": {"3.18.0--r43hdfd78af_0": "sha256:373d69a17698b92bbf8c6ffaa4e042d8149bbdf5f6bd0a2e4e96bd8623643e79"}, "tags": {"3.8.2--r36_1": "sha256:9f19e15c54bbb35b5569d08a05a69f6b3320649e647828961c959d70ea610bd2", "3.16.0--r42hdfd78af_0": "sha256:9148533900346c853ac0c5b193b2fd30855c00b96918d66a65e2da9818444ca1", "3.14.0--r41hdfd78af_1": "sha256:ac25886096c75ea625e59da226e44da4703e391d56cd5b4045ed691660cea32a", "3.13.0--r41hdfd78af_0": "sha256:d4012a22367305c36c03c83ff8b2fced1f4fe781635c372ad4d7164a80a78450", "3.12.0--r40hdfd78af_1": "sha256:1c2690fbc1523617c774eec74a5b2ced1000cb334e2f4c61d6cb1e4c8123257e", "3.11.3--r40_0": "sha256:bce2e406e5acf1d132e9a79e12777799ab49567ca95816d1c0d65889d5e23330", "3.17.0--r43hdfd78af_0": "sha256:971367269b8ab5f536ec8acfae23418ccd71692e4a513bc029d3017cd0008ea8", "3.18.0--r43hdfd78af_0": "sha256:373d69a17698b92bbf8c6ffaa4e042d8149bbdf5f6bd0a2e4e96bd8623643e79"}, "docker": "quay.io/biocontainers/bioconductor-arabidopsis.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-arabidopsis.db0.

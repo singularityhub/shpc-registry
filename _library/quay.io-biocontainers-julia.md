@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/julia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/julia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/julia/container.yaml"
-updated_at: "2024-07-07 03:04:30.097811"
+updated_at: "2024-07-08 03:03:27.560187"
 latest: "1.0.3"
 container_url: "https://biocontainers.pro/tools/julia"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.0.3"
 description: "shpc-registry automated BioContainers addition for julia"
-config: {"url": "https://biocontainers.pro/tools/julia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for julia", "latest": {"1.0.3": "sha256:ce8c35f93fdacfe7582436ec5d55d16026417b14f19357e513046c6a00fb0833"}, "tags": {"1.0.3": "sha256:ce8c35f93fdacfe7582436ec5d55d16026417b14f19357e513046c6a00fb0833"}, "docker": "quay.io/biocontainers/julia", "aliases": {"julia": "/usr/local/bin/julia", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/julia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for julia", "latest": {"1.0.3": "sha256:237b63daad4b41130409419b785e8867f5434a649bfa15bbf860aff3080bc2c4"}, "tags": {"1.0.3": "sha256:237b63daad4b41130409419b785e8867f5434a649bfa15bbf860aff3080bc2c4"}, "docker": "quay.io/biocontainers/julia", "aliases": {"julia": "/usr/local/bin/julia", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/julia.

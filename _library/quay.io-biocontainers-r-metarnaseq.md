@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-metarnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metarnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metarnaseq/container.yaml"
-updated_at: "2024-07-07 02:48:55.249737"
+updated_at: "2024-07-08 02:47:57.807847"
 latest: "1.0.2--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-metarnaseq"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.0.2--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-metarnaseq"
-config: {"url": "https://biocontainers.pro/tools/r-metarnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metarnaseq", "latest": {"1.0.2--r3.4.1_0": "sha256:d7e30f273046238d6deb1624983b7f09c5e8bc8d90672534d6f43ea6679e0955"}, "tags": {"1.0.2--r3.4.1_0": "sha256:d7e30f273046238d6deb1624983b7f09c5e8bc8d90672534d6f43ea6679e0955"}, "docker": "quay.io/biocontainers/r-metarnaseq", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-metarnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metarnaseq", "latest": {"1.0.2--r3.4.1_0": "sha256:6ee31dcea5c0985e44a9251052bd717675e8c7e4694eaf1b110825a1a2cd850f"}, "tags": {"1.0.2--r3.4.1_0": "sha256:6ee31dcea5c0985e44a9251052bd717675e8c7e4694eaf1b110825a1a2cd850f"}, "docker": "quay.io/biocontainers/r-metarnaseq", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-metarnaseq.

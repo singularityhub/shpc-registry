@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rgraphics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rgraphics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rgraphics/container.yaml"
-updated_at: "2024-07-07 03:15:33.328803"
+updated_at: "2024-07-08 03:14:37.146979"
 latest: "2.0_14--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-rgraphics"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "2.0_14--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-rgraphics"
-config: {"url": "https://biocontainers.pro/tools/r-rgraphics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rgraphics", "latest": {"2.0_14--r3.3.2_0": "sha256:f613ab36ba83aa2f88255aa8dcc02d7bfdfd9b43cc4280ef8a048a26a887ee52"}, "tags": {"2.0_14--r3.3.2_0": "sha256:f613ab36ba83aa2f88255aa8dcc02d7bfdfd9b43cc4280ef8a048a26a887ee52"}, "docker": "quay.io/biocontainers/r-rgraphics", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rgraphics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rgraphics", "latest": {"2.0_14--r3.3.2_0": "sha256:62fde07dfc0a01914ff5549052fbbf1507281a58b79d378890e3b7ba7c0b654c"}, "tags": {"2.0_14--r3.3.2_0": "sha256:62fde07dfc0a01914ff5549052fbbf1507281a58b79d378890e3b7ba7c0b654c"}, "docker": "quay.io/biocontainers/r-rgraphics", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rgraphics.

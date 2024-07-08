@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/udocker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/udocker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/udocker/container.yaml"
-updated_at: "2024-07-07 02:39:34.042431"
+updated_at: "2024-07-08 02:38:32.526963"
 latest: "1.1.1--py27_0"
 container_url: "https://biocontainers.pro/tools/udocker"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.1.1--py27_0"
 description: "shpc-registry automated BioContainers addition for udocker"
-config: {"url": "https://biocontainers.pro/tools/udocker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for udocker", "latest": {"1.1.1--py27_0": "sha256:2dd0f7705765de299f1acf4c7e72de7c808c69016835d64852fe2c879b0a51fa"}, "tags": {"1.1.1--py27_0": "sha256:2dd0f7705765de299f1acf4c7e72de7c808c69016835d64852fe2c879b0a51fa"}, "docker": "quay.io/biocontainers/udocker", "aliases": {"proot": "/usr/local/bin/proot", "udocker": "/usr/local/bin/udocker", "udocker.py": "/usr/local/bin/udocker.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/udocker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for udocker", "latest": {"1.1.1--py27_0": "sha256:605a58f8116dc11b2505003be30cebb033d6b3be1d4993e4197aedd0ca1e67cf"}, "tags": {"1.1.1--py27_0": "sha256:605a58f8116dc11b2505003be30cebb033d6b3be1d4993e4197aedd0ca1e67cf"}, "docker": "quay.io/biocontainers/udocker", "aliases": {"proot": "/usr/local/bin/proot", "udocker": "/usr/local/bin/udocker", "udocker.py": "/usr/local/bin/udocker.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/udocker.

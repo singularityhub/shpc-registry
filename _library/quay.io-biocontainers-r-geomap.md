@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-geomap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-geomap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-geomap/container.yaml"
-updated_at: "2024-07-07 02:54:28.007963"
+updated_at: "2024-07-08 02:53:33.604559"
 latest: "2.3_8--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-geomap"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "2.3_8--r3.2.2_0"
  - "2.3_8--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-geomap"
-config: {"url": "https://biocontainers.pro/tools/r-geomap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-geomap", "latest": {"2.3_8--r3.2.2_0": "sha256:eab208e08e3b0197391f73508d12e25386365f11507753c04d5e91c01f04935f"}, "tags": {"2.3_8--r3.2.2_0": "sha256:eab208e08e3b0197391f73508d12e25386365f11507753c04d5e91c01f04935f", "2.3_8--r3.3.2_0": "sha256:a41734698e9086bdff7a429633ae1eec329f829e683e5751377ade162a26fde1"}, "docker": "quay.io/biocontainers/r-geomap", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-geomap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-geomap", "latest": {"2.3_8--r3.2.2_0": "sha256:598fb4b088fd15684baf2c227c5fabe3e3b6a4748c7450497a07955b5ac083a3"}, "tags": {"2.3_8--r3.2.2_0": "sha256:598fb4b088fd15684baf2c227c5fabe3e3b6a4748c7450497a07955b5ac083a3", "2.3_8--r3.3.2_0": "sha256:7e447d0719252144969daea5c7f7494c6b59fbedfd1d11191605ceddcbce6125"}, "docker": "quay.io/biocontainers/r-geomap", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-geomap.

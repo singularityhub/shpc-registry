@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pygraphviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygraphviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygraphviz/container.yaml"
-updated_at: "2024-07-07 03:24:04.114777"
+updated_at: "2024-07-08 03:23:12.278581"
 latest: "1.3.1--py36_0"
 container_url: "https://biocontainers.pro/tools/pygraphviz"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.3.1--py36_0"
 description: "shpc-registry automated BioContainers addition for pygraphviz"
-config: {"url": "https://biocontainers.pro/tools/pygraphviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pygraphviz", "latest": {"1.3.1--py36_0": "sha256:d71ccfa84bbd93a9e0832c0874e94d41b05c13863be3ab1a3cd248de310fbc44"}, "tags": {"1.3.1--py36_0": "sha256:d71ccfa84bbd93a9e0832c0874e94d41b05c13863be3ab1a3cd248de310fbc44"}, "docker": "quay.io/biocontainers/pygraphviz", "aliases": {"dotty": "/usr/local/bin/dotty", "lneato": "/usr/local/bin/lneato", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot", "dot2gxl": "/usr/local/bin/dot2gxl", "dot_builtins": "/usr/local/bin/dot_builtins", "edgepaint": "/usr/local/bin/edgepaint"}}
+config: {"url": "https://biocontainers.pro/tools/pygraphviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pygraphviz", "latest": {"1.3.1--py36_0": "sha256:5fac17d32f7ad12ea6ca32189ef754f6c6b1c10a48cf5a4721ef30398d8fee8c"}, "tags": {"1.3.1--py36_0": "sha256:5fac17d32f7ad12ea6ca32189ef754f6c6b1c10a48cf5a4721ef30398d8fee8c"}, "docker": "quay.io/biocontainers/pygraphviz", "aliases": {"dotty": "/usr/local/bin/dotty", "lneato": "/usr/local/bin/lneato", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot", "dot2gxl": "/usr/local/bin/dot2gxl", "dot_builtins": "/usr/local/bin/dot_builtins", "edgepaint": "/usr/local/bin/edgepaint"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pygraphviz.

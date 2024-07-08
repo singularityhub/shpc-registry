@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-digest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-digest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-digest/container.yaml"
-updated_at: "2024-07-07 02:41:31.823796"
+updated_at: "2024-07-08 02:40:29.782168"
 latest: "0.6.12--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-digest"
 aliases:
@@ -17,7 +17,7 @@ versions:
  - "0.6.12--r3.3.1_0"
  - "0.6.12--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-digest"
-config: {"url": "https://biocontainers.pro/tools/r-digest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-digest", "latest": {"0.6.12--r3.3.1_0": "sha256:7c2bc626726f403d86c68e7464bbd47a35dcfa7da3aba46f06b46712b12755a0"}, "tags": {"0.6.9--r3.3.1_1": "sha256:9e963354cf354cc6ca06ff24f2e7ce22ae368a569190f5d6028a896db04d2c84", "0.6.12--r3.3.1_0": "sha256:7c2bc626726f403d86c68e7464bbd47a35dcfa7da3aba46f06b46712b12755a0", "0.6.12--r3.3.2_0": "sha256:2487d07b4c1ea83bf96bc90b288a2326411a75dd462a78f26ead9ff54edda7da"}, "docker": "quay.io/biocontainers/r-digest", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-digest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-digest", "latest": {"0.6.12--r3.3.1_0": "sha256:e11878040506212eb1e1f20a819a5a5dbb2bf5959ad23f1ead84c681f8c9e2bc"}, "tags": {"0.6.9--r3.3.1_1": "sha256:5782aff589cac3e724a44458e3b937ebbc14b746acb3a3075a5913e797693be2", "0.6.12--r3.3.1_0": "sha256:e11878040506212eb1e1f20a819a5a5dbb2bf5959ad23f1ead84c681f8c9e2bc", "0.6.12--r3.3.2_0": "sha256:f4a2ef033b4e51815598454971abea49363ff972e35b34b910ab6954d4cab101"}, "docker": "quay.io/biocontainers/r-digest", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-digest.

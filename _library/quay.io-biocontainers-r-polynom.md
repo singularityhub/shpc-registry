@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-polynom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-polynom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-polynom/container.yaml"
-updated_at: "2024-07-07 02:42:41.999174"
+updated_at: "2024-07-08 02:41:40.868927"
 latest: "1.3_8--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-polynom"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.3_8--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-polynom"
-config: {"url": "https://biocontainers.pro/tools/r-polynom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-polynom", "latest": {"1.3_8--r3.3.2_0": "sha256:859f6fe231094ff94d39625d4600cbce9e320ce4096ecef2b11ec84825b60bc8"}, "tags": {"1.3_8--r3.3.2_0": "sha256:859f6fe231094ff94d39625d4600cbce9e320ce4096ecef2b11ec84825b60bc8"}, "docker": "quay.io/biocontainers/r-polynom", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-polynom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-polynom", "latest": {"1.3_8--r3.3.2_0": "sha256:adfbcf8a8d8434acf505ac6169766a138d3a16f5ed0b6b61d880490022f3f52d"}, "tags": {"1.3_8--r3.3.2_0": "sha256:adfbcf8a8d8434acf505ac6169766a138d3a16f5ed0b6b61d880490022f3f52d"}, "docker": "quay.io/biocontainers/r-polynom", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-polynom.

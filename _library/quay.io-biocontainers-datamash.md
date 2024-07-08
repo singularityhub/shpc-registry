@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/datamash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/datamash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/datamash/container.yaml"
-updated_at: "2024-07-07 02:54:12.539333"
+updated_at: "2024-07-08 02:53:18.269568"
 latest: "1.8"
 container_url: "https://biocontainers.pro/tools/datamash"
 aliases:
@@ -13,7 +13,7 @@ versions:
  - "1.1.0--0"
  - "1.8"
 description: "shpc-registry automated BioContainers addition for datamash"
-config: {"url": "https://biocontainers.pro/tools/datamash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for datamash", "latest": {"1.8": "sha256:a0a824963a9de3493c3629b7ca664b7bd3c5bad90547636616f4af33575a9214"}, "tags": {"1.1.0--0": "sha256:17955e3ff741f6da7c7bb6dbf19125ba708a81a8ba6887fa0821c66908c5962a", "1.8": "sha256:a0a824963a9de3493c3629b7ca664b7bd3c5bad90547636616f4af33575a9214"}, "docker": "quay.io/biocontainers/datamash", "aliases": {"datamash": "/usr/local/bin/datamash"}}
+config: {"url": "https://biocontainers.pro/tools/datamash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for datamash", "latest": {"1.8": "sha256:a0a824963a9de3493c3629b7ca664b7bd3c5bad90547636616f4af33575a9214"}, "tags": {"1.1.0--0": "sha256:1084e31ef6c77957777ed214bca83b7fdb9f68c1d9cc368d96582bd003cb652b", "1.8": "sha256:a0a824963a9de3493c3629b7ca664b7bd3c5bad90547636616f4af33575a9214"}, "docker": "quay.io/biocontainers/datamash", "aliases": {"datamash": "/usr/local/bin/datamash"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/datamash.

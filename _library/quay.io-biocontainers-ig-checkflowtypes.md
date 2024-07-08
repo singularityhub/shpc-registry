@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ig-checkflowtypes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ig-checkflowtypes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ig-checkflowtypes/container.yaml"
-updated_at: "2024-07-07 02:49:17.079497"
+updated_at: "2024-07-08 02:48:19.898741"
 latest: "1.0.0--r36h4333106_3"
 container_url: "https://biocontainers.pro/tools/ig-checkflowtypes"
 aliases:
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "1.0.0--r36h4333106_3"
 description: "shpc-registry automated BioContainers addition for ig-checkflowtypes"
-config: {"url": "https://biocontainers.pro/tools/ig-checkflowtypes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ig-checkflowtypes", "latest": {"1.0.0--r36h4333106_3": "sha256:0dbe60b2b38b3e4186727714cd61b28065cbd1c74f568197fc6fe361ae327c16"}, "tags": {"1.0.0--r36h4333106_3": "sha256:0dbe60b2b38b3e4186727714cd61b28065cbd1c74f568197fc6fe361ae327c16"}, "docker": "quay.io/biocontainers/ig-checkflowtypes", "aliases": {"checkFCS.R": "/usr/local/bin/checkFCS.R", "checkFlowSOM.R": "/usr/local/bin/checkFlowSOM.R", "checkFlowSet.R": "/usr/local/bin/checkFlowSet.R", "checkFlowframe.R": "/usr/local/bin/checkFlowframe.R", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/ig-checkflowtypes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ig-checkflowtypes", "latest": {"1.0.0--r36h4333106_3": "sha256:88a20815d18f1d03b0c8d792b1cfc57e4c25cdf8bb0d192683ff63e9cfbbc10f"}, "tags": {"1.0.0--r36h4333106_3": "sha256:88a20815d18f1d03b0c8d792b1cfc57e4c25cdf8bb0d192683ff63e9cfbbc10f"}, "docker": "quay.io/biocontainers/ig-checkflowtypes", "aliases": {"checkFCS.R": "/usr/local/bin/checkFCS.R", "checkFlowSOM.R": "/usr/local/bin/checkFlowSOM.R", "checkFlowSet.R": "/usr/local/bin/checkFlowSet.R", "checkFlowframe.R": "/usr/local/bin/checkFlowframe.R", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ig-checkflowtypes.

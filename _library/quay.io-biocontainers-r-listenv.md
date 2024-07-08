@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-listenv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-listenv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-listenv/container.yaml"
-updated_at: "2024-07-07 02:41:31.242951"
+updated_at: "2024-07-08 02:40:29.210365"
 latest: "0.6.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-listenv"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "0.6.0--r3.3.1_0"
  - "0.6.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-listenv"
-config: {"url": "https://biocontainers.pro/tools/r-listenv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-listenv", "latest": {"0.6.0--r3.3.1_0": "sha256:5fdf1b7d1aa1b24b7b051477282d4ae764ad6edc7e33561ad20e5c8d5b552a48"}, "tags": {"0.6.0--r3.3.1_0": "sha256:5fdf1b7d1aa1b24b7b051477282d4ae764ad6edc7e33561ad20e5c8d5b552a48", "0.6.0--r3.3.2_0": "sha256:3253d17084e2525b54d961debad7fe493229b1af47a32544d59d74b46efc9146"}, "docker": "quay.io/biocontainers/r-listenv", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-listenv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-listenv", "latest": {"0.6.0--r3.3.1_0": "sha256:489d95935e6e90cd42fc19466cc3cafd1af7c8d9cdb6a679a74a431e7ec3cd58"}, "tags": {"0.6.0--r3.3.1_0": "sha256:489d95935e6e90cd42fc19466cc3cafd1af7c8d9cdb6a679a74a431e7ec3cd58", "0.6.0--r3.3.2_0": "sha256:03aa156a7f66fa9c44f816a89e210890df2b1a3f6af2fc32ef5a3ba416dc345d"}, "docker": "quay.io/biocontainers/r-listenv", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-listenv.

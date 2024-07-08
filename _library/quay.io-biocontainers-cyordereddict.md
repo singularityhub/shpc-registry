@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cyordereddict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cyordereddict/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cyordereddict/container.yaml"
-updated_at: "2024-07-07 03:07:01.625293"
+updated_at: "2024-07-08 03:06:01.314580"
 latest: "0.2.2--py35_0"
 container_url: "https://biocontainers.pro/tools/cyordereddict"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "0.2.2--py35_0"
  - "0.2.2--py36_0"
 description: "shpc-registry automated BioContainers addition for cyordereddict"
-config: {"url": "https://biocontainers.pro/tools/cyordereddict", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cyordereddict", "latest": {"0.2.2--py35_0": "sha256:c573a46a409077f00869586e3a917ba6c2e9327deeac65b1da83712d778b7bcc"}, "tags": {"0.2.2--py35_0": "sha256:c573a46a409077f00869586e3a917ba6c2e9327deeac65b1da83712d778b7bcc", "0.2.2--py36_0": "sha256:43ff551719de0ee09b82d08c9b033ff7cc7fd5051e5b552a7ffb7f88e8162bdf"}, "docker": "quay.io/biocontainers/cyordereddict", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/cyordereddict", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cyordereddict", "latest": {"0.2.2--py35_0": "sha256:9805fe6f24c2d4071c8c1e1610e7d3120b4f70fe58c445d3193880fa6e39fee7"}, "tags": {"0.2.2--py35_0": "sha256:9805fe6f24c2d4071c8c1e1610e7d3120b4f70fe58c445d3193880fa6e39fee7", "0.2.2--py36_0": "sha256:1d7e6eceee6cf221a1aab78eae17bf885d45eb7fd3608cdab030fb1678b33c02"}, "docker": "quay.io/biocontainers/cyordereddict", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cyordereddict.

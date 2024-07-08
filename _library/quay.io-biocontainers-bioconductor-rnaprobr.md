@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnaprobr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaprobr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaprobr/container.yaml"
-updated_at: "2024-07-07 02:51:04.508439"
+updated_at: "2024-07-08 02:50:08.674087"
 latest: "1.22.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaprobr"
 aliases:
@@ -24,7 +24,7 @@ versions:
  - "1.16.0--r36_1"
  - "1.14.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnaprobr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaprobr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaprobr", "latest": {"1.22.0--r40hdfd78af_1": "sha256:ae5152eb5dfc321821b0b324e4310a66d978a475106a8e972d624e83bee0992b"}, "tags": {"1.9.0--r3.4.1_0": "sha256:073f66507a73bf5cf820a0ab77b7103768049541b43ed00696252a973584d77f", "1.22.0--r40hdfd78af_1": "sha256:ae5152eb5dfc321821b0b324e4310a66d978a475106a8e972d624e83bee0992b", "1.20.0--r40_0": "sha256:4d7d49064bfbfc63eb3538b13efadef061d675489995e3c4ccb64a92ceefe02b", "1.18.0--r36_0": "sha256:93926ddd290cb60c07f8640e7fdd6e0c2d2272ca31e2c7d5e9c300fc6f5744c4", "1.16.0--r36_1": "sha256:049f59f0023bf74048038c47b170c1d0c56886776eed70190e3d5cc18049e3a3", "1.14.0--r351_0": "sha256:fc139b55beed0ed81e2bdaa262a71e946bb402a7fcec4ea6cf84e4ac66437a24"}, "docker": "quay.io/biocontainers/bioconductor-rnaprobr", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaprobr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaprobr", "latest": {"1.22.0--r40hdfd78af_1": "sha256:ae5152eb5dfc321821b0b324e4310a66d978a475106a8e972d624e83bee0992b"}, "tags": {"1.9.0--r3.4.1_0": "sha256:5ad68f58d3e83752e48fefc8e818cab805019566410def04e82caa5bfefe189a", "1.22.0--r40hdfd78af_1": "sha256:ae5152eb5dfc321821b0b324e4310a66d978a475106a8e972d624e83bee0992b", "1.20.0--r40_0": "sha256:4d7d49064bfbfc63eb3538b13efadef061d675489995e3c4ccb64a92ceefe02b", "1.18.0--r36_0": "sha256:b16174230cf8cea8f17e6fc762f15a2103428ba64b49ae77d4d09ccedeafa3c2", "1.16.0--r36_1": "sha256:9a0418740f2db8ed2193b58123d3f177e2b807560860f83bcc3f830b0b97fdb3", "1.14.0--r351_0": "sha256:37782195d8117664bce90625773802dbddeba5f29f7726047add496c34cef070"}, "docker": "quay.io/biocontainers/bioconductor-rnaprobr", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnaprobr.

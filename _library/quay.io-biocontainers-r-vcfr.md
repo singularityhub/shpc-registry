@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-vcfr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-vcfr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-vcfr/container.yaml"
-updated_at: "2024-07-07 03:11:20.069540"
+updated_at: "2024-07-08 03:10:21.049658"
 latest: "1.8.0--r36h0357c0b_3"
 container_url: "https://biocontainers.pro/tools/r-vcfr"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.8.0--r36h0357c0b_3"
 description: "shpc-registry automated BioContainers addition for r-vcfr"
-config: {"url": "https://biocontainers.pro/tools/r-vcfr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-vcfr", "latest": {"1.8.0--r36h0357c0b_3": "sha256:6cf26aa9e1d437c3ea90a436ef281bef96d51184011ec3edd87e0f0f2a9851fa"}, "tags": {"1.8.0--r36h0357c0b_3": "sha256:6cf26aa9e1d437c3ea90a436ef281bef96d51184011ec3edd87e0f0f2a9851fa"}, "docker": "quay.io/biocontainers/r-vcfr", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-vcfr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-vcfr", "latest": {"1.8.0--r36h0357c0b_3": "sha256:6be1acf7a37d14aff0127e3937777d9b7b941814397129c21d1b84c3c82225c9"}, "tags": {"1.8.0--r36h0357c0b_3": "sha256:6be1acf7a37d14aff0127e3937777d9b7b941814397129c21d1b84c3c82225c9"}, "docker": "quay.io/biocontainers/r-vcfr", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-vcfr.

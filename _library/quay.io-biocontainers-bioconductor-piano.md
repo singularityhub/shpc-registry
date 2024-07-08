@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-piano"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-piano/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-piano/container.yaml"
-updated_at: "2024-07-07 02:45:45.631825"
+updated_at: "2024-07-08 02:44:45.905077"
 latest: "2.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-piano"
 aliases:

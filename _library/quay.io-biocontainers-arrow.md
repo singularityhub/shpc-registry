@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arrow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arrow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arrow/container.yaml"
-updated_at: "2024-07-07 02:38:47.902866"
+updated_at: "2024-07-08 02:37:46.294006"
 latest: "0.7.0--py36_0"
 container_url: "https://biocontainers.pro/tools/arrow"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.7.0--py36_0"
+ - "0.7.0--py35_0"
 description: "shpc-registry automated BioContainers addition for arrow"
-config: {"url": "https://biocontainers.pro/tools/arrow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arrow", "latest": {"0.7.0--py36_0": "sha256:577b99dee130a0949f19d1fa5f37375089d78574e38072fd1b195d8f4d1108be"}, "tags": {"0.7.0--py36_0": "sha256:577b99dee130a0949f19d1fa5f37375089d78574e38072fd1b195d8f4d1108be"}, "docker": "quay.io/biocontainers/arrow", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/arrow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arrow", "latest": {"0.7.0--py36_0": "sha256:4391f4a676b76702ad336970fbde12c69cc0b0906b5eddc560c486efc7ef0dce"}, "tags": {"0.7.0--py36_0": "sha256:4391f4a676b76702ad336970fbde12c69cc0b0906b5eddc560c486efc7ef0dce", "0.7.0--py35_0": "sha256:10fa0555c4c0bdacd2e2e7b1c32a395bc03c062f0ce2dd6c949dbccc18ecd5e1"}, "docker": "quay.io/biocontainers/arrow", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/arrow.

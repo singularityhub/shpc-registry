@@ -4,8 +4,8 @@ name:  "mysql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/mysql/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/mysql/container.yaml"
-updated_at: "2024-07-07 03:25:26.118376"
-latest: "8-oraclelinux9"
+updated_at: "2024-07-08 03:24:35.039844"
+latest: "9-oraclelinux9"
 container_url: "https://hub.docker.com/r/_/mysql"
 aliases:
  - "mysql"
@@ -41,8 +41,11 @@ versions:
  - "8.4"
  - "8.4-oracle"
  - "8.3-oracle"
+ - "9"
+ - "9-oraclelinux9"
+ - "9.0"
 description: "MySQL is the world's most popular open source database."
-config: {"docker": "mysql", "url": "https://hub.docker.com/r/_/mysql", "maintainer": "@vsoch", "description": "MySQL is the world's most popular open source database.", "latest": {"8-oraclelinux9": "sha256:aa021e164da6aacbefc59ed0b933427e4835636be380f3b6523f4a6c9564e1f0"}, "tags": {"8.0.25": "sha256:52b8406e4c32b8cf0557f1b74517e14c5393aff5cf0384eff62d9e81f4985d4b", "8.0.26": "sha256:5d52dc010398db422949f079c76e98f6b62230e5b59c0bf7582409d2c85abacb", "8.0.27": "sha256:e9027fe4d91c0153429607251656806cc784e914937271037f7738bd5b8e7709", "8.0.28": "sha256:fc77d54cacef90ad3d75964837fad0f2a9a368b69e7d799665a3f4e90e600c2d", "latest": "sha256:aa021e164da6aacbefc59ed0b933427e4835636be380f3b6523f4a6c9564e1f0", "8": "sha256:aa021e164da6aacbefc59ed0b933427e4835636be380f3b6523f4a6c9564e1f0", "8.0": "sha256:7cf8a10b3c17273a47c5cd876cdb790c551012b40b36909b8ca0d9ab5721ed2c", "8.1": "sha256:f61944ff3f2961363a4d22913b2ac581523273679d7e14dd26e8db8c9f571a7e", "8.2": "sha256:212fe73edca5df6ff14826d5eb975c914bfb91f82a2e923f9050568f99525da1", "8-oraclelinux8": "sha256:f7a8e140a7d6d1e6e0c99eeb0489c50a186ee4ac44ff55323a176529b9a43d33", "8.3": "sha256:9de9d54fecee6253130e65154b930978b1fcc336bcc86dfd06e89b72a2588ebe", "8-oraclelinux9": "sha256:aa021e164da6aacbefc59ed0b933427e4835636be380f3b6523f4a6c9564e1f0", "8.4": "sha256:aa021e164da6aacbefc59ed0b933427e4835636be380f3b6523f4a6c9564e1f0", "8.4-oracle": "sha256:aa021e164da6aacbefc59ed0b933427e4835636be380f3b6523f4a6c9564e1f0", "8.3-oracle": "sha256:9de9d54fecee6253130e65154b930978b1fcc336bcc86dfd06e89b72a2588ebe"}, "aliases": {"mysql": "/usr/bin/mysql", "mysql_config_editor": "/usr/bin/mysql_config_editor", "mysql_secure_installation": "/usr/bin/mysql_secure_installation", "mysql_ssl_rsa_setup": "/usr/bin/mysql_ssl_rsa_setup", "mysql_tzinfo_to_sql": "/usr/bin/mysql_tzinfo_to_sql", "mysql_upgrade": "/usr/bin/mysql_upgrade", "mysqladmin": "/usr/bin/mysqladmin", "mysqlbinlog": "/usr/bin/mysqlbinlog", "mysqlcheck": "/usr/bin/mysqlcheck", "mysqld_multi": "/usr/bin/mysqld_multi", "mysqld_safe": "/usr/bin/mysqld_safe", "mysqldump": "/usr/bin/mysqldump", "mysqldumpslow": "/usr/bin/mysqldumpslow", "mysqlimport": "/usr/bin/mysqlimport", "mysqlpump": "/usr/bin/mysqlpump", "mysqlshow": "/usr/bin/mysqlshow", "mysqlslap": "/usr/bin/mysqlslap"}}
+config: {"docker": "mysql", "url": "https://hub.docker.com/r/_/mysql", "maintainer": "@vsoch", "description": "MySQL is the world's most popular open source database.", "latest": {"9-oraclelinux9": "sha256:8b879a3959bc59adcb7281a41950d39cf8c9b3fb23b87b9b62318ce884a7c383"}, "tags": {"8.0.25": "sha256:52b8406e4c32b8cf0557f1b74517e14c5393aff5cf0384eff62d9e81f4985d4b", "8.0.26": "sha256:5d52dc010398db422949f079c76e98f6b62230e5b59c0bf7582409d2c85abacb", "8.0.27": "sha256:e9027fe4d91c0153429607251656806cc784e914937271037f7738bd5b8e7709", "8.0.28": "sha256:fc77d54cacef90ad3d75964837fad0f2a9a368b69e7d799665a3f4e90e600c2d", "latest": "sha256:8b879a3959bc59adcb7281a41950d39cf8c9b3fb23b87b9b62318ce884a7c383", "8": "sha256:d26a69e1ef146c77ecfddf3128134e3a0f4c6123133725835818107037649827", "8.0": "sha256:134e2d1c7c517d05e5328a77aa5a165a314dc4c4116503e7e089494f4e398ab1", "8.1": "sha256:f61944ff3f2961363a4d22913b2ac581523273679d7e14dd26e8db8c9f571a7e", "8.2": "sha256:212fe73edca5df6ff14826d5eb975c914bfb91f82a2e923f9050568f99525da1", "8-oraclelinux8": "sha256:f7a8e140a7d6d1e6e0c99eeb0489c50a186ee4ac44ff55323a176529b9a43d33", "8.3": "sha256:9de9d54fecee6253130e65154b930978b1fcc336bcc86dfd06e89b72a2588ebe", "8-oraclelinux9": "sha256:d26a69e1ef146c77ecfddf3128134e3a0f4c6123133725835818107037649827", "8.4": "sha256:d26a69e1ef146c77ecfddf3128134e3a0f4c6123133725835818107037649827", "8.4-oracle": "sha256:d26a69e1ef146c77ecfddf3128134e3a0f4c6123133725835818107037649827", "8.3-oracle": "sha256:9de9d54fecee6253130e65154b930978b1fcc336bcc86dfd06e89b72a2588ebe", "9": "sha256:8b879a3959bc59adcb7281a41950d39cf8c9b3fb23b87b9b62318ce884a7c383", "9-oraclelinux9": "sha256:8b879a3959bc59adcb7281a41950d39cf8c9b3fb23b87b9b62318ce884a7c383", "9.0": "sha256:8b879a3959bc59adcb7281a41950d39cf8c9b3fb23b87b9b62318ce884a7c383"}, "aliases": {"mysql": "/usr/bin/mysql", "mysql_config_editor": "/usr/bin/mysql_config_editor", "mysql_secure_installation": "/usr/bin/mysql_secure_installation", "mysql_ssl_rsa_setup": "/usr/bin/mysql_ssl_rsa_setup", "mysql_tzinfo_to_sql": "/usr/bin/mysql_tzinfo_to_sql", "mysql_upgrade": "/usr/bin/mysql_upgrade", "mysqladmin": "/usr/bin/mysqladmin", "mysqlbinlog": "/usr/bin/mysqlbinlog", "mysqlcheck": "/usr/bin/mysqlcheck", "mysqld_multi": "/usr/bin/mysqld_multi", "mysqld_safe": "/usr/bin/mysqld_safe", "mysqldump": "/usr/bin/mysqldump", "mysqldumpslow": "/usr/bin/mysqldumpslow", "mysqlimport": "/usr/bin/mysqlimport", "mysqlpump": "/usr/bin/mysqlpump", "mysqlshow": "/usr/bin/mysqlshow", "mysqlslap": "/usr/bin/mysqlslap"}}
 ---
 
 This module is a singularity container wrapper for mysql.
@@ -57,7 +60,7 @@ $ shpc install mysql
 Or a specific version:
 
 ```bash
-$ shpc install mysql:8-oraclelinux9
+$ shpc install mysql:9-oraclelinux9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load mysql/8-oraclelinux9
-$ module help mysql/8-oraclelinux9
+$ module load mysql/9-oraclelinux9
+$ module help mysql/9-oraclelinux9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

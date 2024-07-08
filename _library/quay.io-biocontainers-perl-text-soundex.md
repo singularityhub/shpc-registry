@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-soundex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-soundex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-soundex/container.yaml"
-updated_at: "2024-07-07 03:15:44.976949"
+updated_at: "2024-07-08 03:14:48.958944"
 latest: "3.05--0"
 container_url: "https://biocontainers.pro/tools/perl-text-soundex"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "3.05--0"
 description: "shpc-registry automated BioContainers addition for perl-text-soundex"
-config: {"url": "https://biocontainers.pro/tools/perl-text-soundex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-text-soundex", "latest": {"3.05--0": "sha256:ca50c95aaaade5d205720a1a4b205ec99e1bfd1f4e23567ac190f25d56d81e6b"}, "tags": {"3.05--0": "sha256:ca50c95aaaade5d205720a1a4b205ec99e1bfd1f4e23567ac190f25d56d81e6b"}, "docker": "quay.io/biocontainers/perl-text-soundex", "aliases": {"perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-text-soundex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-text-soundex", "latest": {"3.05--0": "sha256:8856dc265d584e92d16082cb3b6bb6978453e797d528645a1eaa1ab9eb2c0cc0"}, "tags": {"3.05--0": "sha256:8856dc265d584e92d16082cb3b6bb6978453e797d528645a1eaa1ab9eb2c0cc0"}, "docker": "quay.io/biocontainers/perl-text-soundex", "aliases": {"perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-text-soundex.

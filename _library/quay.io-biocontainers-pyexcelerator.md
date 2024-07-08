@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyexcelerator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyexcelerator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyexcelerator/container.yaml"
-updated_at: "2024-07-07 02:40:37.190895"
+updated_at: "2024-07-08 02:39:35.356432"
 latest: "0.6.4a--py27_2"
 container_url: "https://biocontainers.pro/tools/pyexcelerator"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.6.4a--py27_2"
 description: "shpc-registry automated BioContainers addition for pyexcelerator"
-config: {"url": "https://biocontainers.pro/tools/pyexcelerator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyexcelerator", "latest": {"0.6.4a--py27_2": "sha256:6aefd63ebc49fd1838edb214c0e2025152dcc74e2d07ef958a0d5ec2c9d5f5ec"}, "tags": {"0.6.4a--py27_2": "sha256:6aefd63ebc49fd1838edb214c0e2025152dcc74e2d07ef958a0d5ec2c9d5f5ec"}, "docker": "quay.io/biocontainers/pyexcelerator", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyexcelerator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyexcelerator", "latest": {"0.6.4a--py27_2": "sha256:52a575cf53a974f20a70f1d1c9086169334061527d66a3e26a3645c0a507feee"}, "tags": {"0.6.4a--py27_2": "sha256:52a575cf53a974f20a70f1d1c9086169334061527d66a3e26a3645c0a507feee"}, "docker": "quay.io/biocontainers/pyexcelerator", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyexcelerator.
