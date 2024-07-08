@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/oauth2client
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for oauth2client
 latest:
-  1.5.2--py36_0: sha256:1e79da7fe2a2fb5672670f5b2427b91a74f3166c6b8fa6fce824588e62fccb16
+  1.5.2--py36_0: sha256:8cc067c1d8ddad911f38369f27ce02cd245bc9eeac528c71a4e0a399560cfd03
 tags:
-  1.5.2--py36_0: sha256:1e79da7fe2a2fb5672670f5b2427b91a74f3166c6b8fa6fce824588e62fccb16
+  1.5.2--py36_0: sha256:8cc067c1d8ddad911f38369f27ce02cd245bc9eeac528c71a4e0a399560cfd03
+  1.5.2--py35_0: sha256:b762f201981ab0632c8f17b4be3a9730294ae62bb2f4293d68690a3f99cdef77
 docker: quay.io/biocontainers/oauth2client
 aliases:
   pyrsa-decrypt-bigfile: /usr/local/bin/pyrsa-decrypt-bigfile

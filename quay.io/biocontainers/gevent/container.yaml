@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/gevent
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gevent
 latest:
-  1.1rc4--py35_0: sha256:04adeb5bd580a2b600a5c271129f5253f922100e42fed2e2861799d87016f5de
+  1.1rc4--py35_0: sha256:47737c5cb72ba5dc8d29d03def813708141ed08ad1dd4206104de56e93e869c0
 tags:
-  1.1rc4--py35_0: sha256:04adeb5bd580a2b600a5c271129f5253f922100e42fed2e2861799d87016f5de
-  1.1rc4--py36_0: sha256:f1ea53ec45ffc8262d775195a5f74daf2446273694c9d3e9059cdd25dd1a4bbf
+  1.1rc4--py35_0: sha256:47737c5cb72ba5dc8d29d03def813708141ed08ad1dd4206104de56e93e869c0
+  1.1rc4--py36_0: sha256:e7ea309e608e62793af75e1484312acee8caf0094dddfbef819955a8a8c9df3e
 docker: quay.io/biocontainers/gevent
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

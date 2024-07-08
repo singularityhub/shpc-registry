@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/irep
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for irep
 latest:
-  1.1.7--pyh24bf2e0_1: sha256:b77c59abfb6b36891d609147246b17639b750ceddbadc54913f868e4dd524f59
+  1.1.7--pyh24bf2e0_1: sha256:51b73bfd3bd73962bc6adccdeb9ad9f12663f8c2fd0486cdb147f4626eee08e8
 tags:
-  1.1.7--pyh24bf2e0_1: sha256:b77c59abfb6b36891d609147246b17639b750ceddbadc54913f868e4dd524f59
+  1.1.7--pyh24bf2e0_1: sha256:51b73bfd3bd73962bc6adccdeb9ad9f12663f8c2fd0486cdb147f4626eee08e8
 docker: quay.io/biocontainers/irep
 aliases:
   bPTR: /usr/local/bin/bPTR

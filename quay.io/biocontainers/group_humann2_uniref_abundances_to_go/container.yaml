@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/group_humann2_uniref_abundances_to_go
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for group_humann2_uniref_abundances_to_go
 latest:
-  1.3.0--0: sha256:fb4bf29ac2192195177fb8e82607d2d340b33cddfc680fc527f1afe7736b72ac
+  1.3.0--0: sha256:7e882835baa57d01b4c883ab2e247e19589f8ae1706c509c717447d5ef89fc8c
 tags:
-  1.3.0--0: sha256:fb4bf29ac2192195177fb8e82607d2d340b33cddfc680fc527f1afe7736b72ac
+  1.3.0--0: sha256:7e882835baa57d01b4c883ab2e247e19589f8ae1706c509c717447d5ef89fc8c
 docker: quay.io/biocontainers/group_humann2_uniref_abundances_to_go
 aliases:
   compare_gos.py: /usr/local/bin/compare_gos.py

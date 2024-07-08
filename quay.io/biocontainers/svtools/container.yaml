@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/svtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for svtools
 latest:
-  0.5.1--py_0: sha256:6cb8fb48af0948c08d66375ff2a6bdb10eeaf88f2627a34bb32f59d041baf346
+  0.5.1--py_0: sha256:681956bff4bf15f68aa1b004c622410cc4dbbf2c67e8ff6b38f23ce05dd122a0
 tags:
-  0.5.1--py_0: sha256:6cb8fb48af0948c08d66375ff2a6bdb10eeaf88f2627a34bb32f59d041baf346
+  0.5.1--py_0: sha256:681956bff4bf15f68aa1b004c622410cc4dbbf2c67e8ff6b38f23ce05dd122a0
 docker: quay.io/biocontainers/svtools
 aliases:
   create_coordinates: /usr/local/bin/create_coordinates

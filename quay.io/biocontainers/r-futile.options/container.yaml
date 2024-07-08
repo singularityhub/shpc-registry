@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-futile.options
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-futile.options
 latest:
-  1.0.0--r3.2.2_0: sha256:4ef42550b47399ba1cf845d071cee3496502c84a507eac44440d2fae6404dd7f
+  1.0.0--r3.2.2_0: sha256:d306d16d321ca79045ef22be376d74cb511c4fda260e44817cbccfef3ce02153
 tags:
-  1.0.0--r3.2.2_0: sha256:4ef42550b47399ba1cf845d071cee3496502c84a507eac44440d2fae6404dd7f
-  1.0.0--r3.3.2_0: sha256:28b7020fd32ce114ac4b1a4984ed49491716b254ec022f1ed6fb912b8231174a
+  1.0.0--r3.2.2_0: sha256:d306d16d321ca79045ef22be376d74cb511c4fda260e44817cbccfef3ce02153
+  1.0.0--r3.3.2_0: sha256:71165c6c81d5e4e8d65d3f55cb14b5b5073b7e46cb96590490a6539ba56cbbc9
 docker: quay.io/biocontainers/r-futile.options
 aliases:
   pngcp: /usr/local/bin/pngcp

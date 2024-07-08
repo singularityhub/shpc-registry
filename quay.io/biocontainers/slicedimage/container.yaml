@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/slicedimage
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for slicedimage
 latest:
-  3.1.2--py_0: sha256:24525591a9648ee4ed2b04ff402cb5c334c877f37268a5ffa2fe6015b064362f
+  3.1.2--py_0: sha256:eb2ec9877f54ebda2e5d1f7a9bfa3f4de1e0bef629fc3ab469a0983e329a2a5d
 tags:
-  3.1.2--py_0: sha256:24525591a9648ee4ed2b04ff402cb5c334c877f37268a5ffa2fe6015b064362f
+  3.1.2--py_0: sha256:eb2ec9877f54ebda2e5d1f7a9bfa3f4de1e0bef629fc3ab469a0983e329a2a5d
 docker: quay.io/biocontainers/slicedimage
 aliases:
   slicedimage: /usr/local/bin/slicedimage

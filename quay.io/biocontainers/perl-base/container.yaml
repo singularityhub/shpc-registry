@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-base
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-base
 latest:
-  2.23--pl526_1: sha256:54706287f2e110ae6e8ce2421bcbdf4f737c4f2defc1e1fec653a1b7daedc7a3
+  2.23--pl526_1: sha256:92758e93d95af828161f6e751734a955c17d70661297a2de50a3a86370036c4e
 tags:
-  2.23--pl526_1: sha256:54706287f2e110ae6e8ce2421bcbdf4f737c4f2defc1e1fec653a1b7daedc7a3
+  2.23--pl526_1: sha256:92758e93d95af828161f6e751734a955c17d70661297a2de50a3a86370036c4e
 docker: quay.io/biocontainers/perl-base
 aliases:
   perl5.26.2: /usr/local/bin/perl5.26.2

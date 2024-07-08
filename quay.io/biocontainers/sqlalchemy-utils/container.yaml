@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/sqlalchemy-utils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sqlalchemy-utils
 latest:
-  0.31.6--py36_0: sha256:ca9cbfa766a68a3deda81992349b9340d0a7f605c6a26e8694794793450d64d5
+  0.31.6--py36_0: sha256:69a991be7396e2fff9262dd8fc4df2de526424f71eafb01f3331470ddc343e01
 tags:
-  0.31.6--py36_0: sha256:ca9cbfa766a68a3deda81992349b9340d0a7f605c6a26e8694794793450d64d5
+  0.31.6--py36_0: sha256:69a991be7396e2fff9262dd8fc4df2de526424f71eafb01f3331470ddc343e01
 docker: quay.io/biocontainers/sqlalchemy-utils
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

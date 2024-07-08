@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/aniso8601
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for aniso8601
 latest:
-  1.1.0--py36_0: sha256:8e77c34820fc37252850602f660c1c2974db101ea011677f90839b7f5697fd8b
+  1.1.0--py36_0: sha256:668ad7b6f99765a37dcb0bf3e4684152f890992e8b96ca204af8228540949c36
 tags:
-  1.1.0--py36_0: sha256:8e77c34820fc37252850602f660c1c2974db101ea011677f90839b7f5697fd8b
+  1.1.0--py36_0: sha256:668ad7b6f99765a37dcb0bf3e4684152f890992e8b96ca204af8228540949c36
+  1.1.0--py35_0: sha256:11accb940603777fc87dc6dcf5e27b46effc906b82c6fc7fcd9ae419557a8a01
 docker: quay.io/biocontainers/aniso8601
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

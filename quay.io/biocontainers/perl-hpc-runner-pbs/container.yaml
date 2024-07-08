@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-hpc-runner-pbs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-hpc-runner-pbs
 latest:
-  0.12--0: sha256:ebe8cdeddd845bef8d94a212cc60e553494267055a1144461758012f3ec2b65d
+  0.12--0: sha256:b2aa90066b9398fa342e0fef3d756b720a15c1aeaadf7cb89d8de70b7e1b2935
 tags:
-  0.12--0: sha256:ebe8cdeddd845bef8d94a212cc60e553494267055a1144461758012f3ec2b65d
+  0.12--0: sha256:b2aa90066b9398fa342e0fef3d756b720a15c1aeaadf7cb89d8de70b7e1b2935
 docker: quay.io/biocontainers/perl-hpc-runner-pbs
 aliases:
   cpus.in: /usr/local/bin/cpus.in
