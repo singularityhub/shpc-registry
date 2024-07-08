@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/cpstools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cpstools
+latest:
+  1.0.0--pyhdfd78af_0: sha256:65268e0b5137b99eaf798e9ad45296cfd01e9275f3c86d732167b41549b99806
+tags:
+  1.0.0--pyhdfd78af_0: sha256:65268e0b5137b99eaf798e9ad45296cfd01e9275f3c86d732167b41549b99806
+docker: quay.io/biocontainers/cpstools
+aliases:
+  cpstools: /usr/local/bin/cpstools
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
