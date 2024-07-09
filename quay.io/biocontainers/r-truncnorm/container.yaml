@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-truncnorm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-truncnorm
 latest:
-  1.0_7--r3.3.1_0: sha256:d2f1121493387806f9e58007125f8fdf7175f875e2acb6a5a7f00b71b205f7b2
+  1.0_7--r3.3.1_0: sha256:c0f5016549e126f9015ea029762c6d2bc010b55025835f15ca7dd94f123c5746
 tags:
-  1.0_7--r3.3.1_0: sha256:d2f1121493387806f9e58007125f8fdf7175f875e2acb6a5a7f00b71b205f7b2
-  1.0_7--r3.3.2_0: sha256:ef79eafd5ec51feefb513f42ee948b202324dbf2a84afccbd8982f3a0dc91582
+  1.0_7--r3.3.1_0: sha256:c0f5016549e126f9015ea029762c6d2bc010b55025835f15ca7dd94f123c5746
+  1.0_7--r3.3.2_0: sha256:dc58c52386c79b8dfecc03234e0603e21186cafbc25c25d84a4215bbbf4f1ba9
 docker: quay.io/biocontainers/r-truncnorm
 aliases:
   uconv: /usr/local/bin/uconv

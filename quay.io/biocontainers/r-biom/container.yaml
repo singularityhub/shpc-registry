@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-biom
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-biom
 latest:
-  0.3.12--r3.2.2_0: sha256:30dfb9c241562990e0bece6ed3b11323b576865991dd492dc95eaccab1292755
+  0.3.12--r3.2.2_0: sha256:85d887e96e4c398dcf2ef77f0a65198d23c5985cf175773c7486e3c847eb4e07
 tags:
-  0.3.12--r3.2.2_0: sha256:30dfb9c241562990e0bece6ed3b11323b576865991dd492dc95eaccab1292755
-  0.3.12--r3.4.1_0: sha256:ee9902868054a55ed5b04a9a17d270a05b62a8e489acd8bdb191aa2111eec93a
+  0.3.12--r3.2.2_0: sha256:85d887e96e4c398dcf2ef77f0a65198d23c5985cf175773c7486e3c847eb4e07
+  0.3.12--r3.4.1_0: sha256:462728919ea2a8525cb85284e7a2aacc7e71dfc8c8072b37adb87ef4f1b0f4ed
 docker: quay.io/biocontainers/r-biom
 aliases:
   pngcp: /usr/local/bin/pngcp

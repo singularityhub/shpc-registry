@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/tetoolkit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tetoolkit
 latest:
-  2.0.3--py_1: sha256:13035591e530c3b924bc8e83b979ca519140be38b6b904ffc42a4eb560a8f74a
+  2.0.3--py_1: sha256:006b28cfbb314b06c8b1c4c4864b7b5369bbd135ffb8e741615e0b61fce665a4
 tags:
-  2.0.3--py_1: sha256:13035591e530c3b924bc8e83b979ca519140be38b6b904ffc42a4eb560a8f74a
+  2.0.3--py_1: sha256:006b28cfbb314b06c8b1c4c4864b7b5369bbd135ffb8e741615e0b61fce665a4
 docker: quay.io/biocontainers/tetoolkit
 aliases:
   TEcount: /usr/local/bin/TEcount

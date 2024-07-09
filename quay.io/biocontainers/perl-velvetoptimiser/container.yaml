@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-velvetoptimiser
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-velvetoptimiser
 latest:
-  2.2.6--pl526_0: sha256:172b538aeeb671df7918d6f7db02f9782b4c39c7571c09a536d32098d022b231
+  2.2.6--pl526_0: sha256:3ffddcf31743bfdde480dd92d7c160bda6332fc6cdefdd840cafdf573d473516
 tags:
-  2.2.6--pl526_0: sha256:172b538aeeb671df7918d6f7db02f9782b4c39c7571c09a536d32098d022b231
+  2.2.6--pl526_0: sha256:3ffddcf31743bfdde480dd92d7c160bda6332fc6cdefdd840cafdf573d473516
 docker: quay.io/biocontainers/perl-velvetoptimiser
 aliases:
   VelvetOptimiser.pl: /usr/local/bin/VelvetOptimiser.pl

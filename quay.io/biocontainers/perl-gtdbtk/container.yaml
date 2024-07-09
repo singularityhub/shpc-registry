@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-gtdbtk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-gtdbtk
 latest:
-  0.1.5--pl526_1: sha256:65c36921a03a83bec7428e687e767ebccd4b044d91cb3a36bfe9d44eafd8da85
+  0.1.5--pl526_1: sha256:10bce87d9800b42566e0bae4139a4851ed47a4ced98db11155050920bdea04f3
 tags:
-  0.1.5--pl526_1: sha256:65c36921a03a83bec7428e687e767ebccd4b044d91cb3a36bfe9d44eafd8da85
+  0.1.5--pl526_1: sha256:10bce87d9800b42566e0bae4139a4851ed47a4ced98db11155050920bdea04f3
 docker: quay.io/biocontainers/perl-gtdbtk
 aliases:
   pfam_search.pl: /usr/local/bin/pfam_search.pl

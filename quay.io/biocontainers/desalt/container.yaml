@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/desalt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for desalt
 latest:
-  1.5.6--he4a0461_4: sha256:ec5ed90bc132529b9ef45facdb0020ebbc950a67b966e6636f5615df12c0b6d4
+  1.5.6--he4a0461_5: sha256:bb67908be995417a2ae758d4bcebedff1bb5266642608fa049055382064d2598
 tags:
   1.5.6--h7132678_2: sha256:3cbc60eb1eab0c4a1c57effb5093578593047e296847b147dcbb2250b341c286
   1.5.6--he4a0461_4: sha256:ec5ed90bc132529b9ef45facdb0020ebbc950a67b966e6636f5615df12c0b6d4
+  1.5.6--he4a0461_5: sha256:bb67908be995417a2ae758d4bcebedff1bb5266642608fa049055382064d2598
 docker: quay.io/biocontainers/desalt
 aliases:
   Annotation_Load.py: /usr/local/bin/Annotation_Load.py

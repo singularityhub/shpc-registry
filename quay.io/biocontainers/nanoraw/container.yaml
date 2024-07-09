@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/nanoraw
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nanoraw
 latest:
-  0.5--py_3: sha256:db7ed0855361274788e57ba99a506944c622a5c9f286a446ac19a055506b5f49
+  0.5--py_3: sha256:495f5f997513d6ddda71255c099e6735808d02b57633087cbdcd5942f95100c2
 tags:
-  0.5--py_3: sha256:db7ed0855361274788e57ba99a506944c622a5c9f286a446ac19a055506b5f49
+  0.5--py_3: sha256:495f5f997513d6ddda71255c099e6735808d02b57633087cbdcd5942f95100c2
 docker: quay.io/biocontainers/nanoraw
 aliases:
   graphmap: /usr/local/bin/graphmap

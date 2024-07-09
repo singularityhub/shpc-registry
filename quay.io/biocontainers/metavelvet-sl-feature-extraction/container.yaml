@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/metavelvet-sl-feature-extraction
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metavelvet-sl-feature-extraction
 latest:
-  1.0--pl526_3: sha256:bc42275b009c84d2272a6db13e6dd65b147677baf4bfb8c593b8f34ef8c465df
+  1.0--pl526_3: sha256:74066152c9ceea62c81bc4c90c18ee3bb0290e763ffcfe4d95d10de634a7047c
 tags:
-  1.0--pl526_3: sha256:bc42275b009c84d2272a6db13e6dd65b147677baf4bfb8c593b8f34ef8c465df
+  1.0--pl526_3: sha256:74066152c9ceea62c81bc4c90c18ee3bb0290e763ffcfe4d95d10de634a7047c
 docker: quay.io/biocontainers/metavelvet-sl-feature-extraction
 aliases:
   FeatureExtract.pl: /usr/local/bin/FeatureExtract.pl

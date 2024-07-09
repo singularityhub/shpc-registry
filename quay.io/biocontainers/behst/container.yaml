@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/behst
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for behst
 latest:
-  3.8--0: sha256:791db8320ead98944298ed1ee8b91be17b916f0819b26356fcddc786b077a367
+  3.8--0: sha256:a34870a64dd19ab3e9061a156709a7a6f44909797e309b86663dbd14c192cda2
 tags:
-  3.8--0: sha256:791db8320ead98944298ed1ee8b91be17b916f0819b26356fcddc786b077a367
+  3.8--0: sha256:a34870a64dd19ab3e9061a156709a7a6f44909797e309b86663dbd14c192cda2
 docker: quay.io/biocontainers/behst
 aliases:
   behst: /usr/local/bin/behst

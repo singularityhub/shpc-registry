@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-downloader
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-downloader
 latest:
-  0.0.4--r3.3.2_0: sha256:a2f8f12a625d651a064ef1aa6a5ac41d86349872d27884a4f1260990626be347
+  0.0.4--r3.3.2_0: sha256:ec4b25b13a0a1943905fe9d012453aeef213ee024982dedf9db5a0ef9705f4c7
 tags:
-  0.0.4--r3.3.2_0: sha256:a2f8f12a625d651a064ef1aa6a5ac41d86349872d27884a4f1260990626be347
+  0.0.4--r3.3.2_0: sha256:ec4b25b13a0a1943905fe9d012453aeef213ee024982dedf9db5a0ef9705f4c7
 docker: quay.io/biocontainers/r-downloader
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

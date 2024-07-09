@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/boltons
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for boltons
 latest:
-  16.4.1--py35_0: sha256:87ae76c735ff42c04acfb27432868d9b43af75c2420d1067332c575a0a8287e5
+  16.4.1--py35_0: sha256:1b3900e66201dd4daac354275f61fef4608eff9ca92735366822856b76a14982
 tags:
-  16.4.1--py35_0: sha256:87ae76c735ff42c04acfb27432868d9b43af75c2420d1067332c575a0a8287e5
-  16.4.1--py36_0: sha256:d94b954346dd2f514db1dda8656571661ec70f378fc9923d44b865dd9096359a
+  16.4.1--py35_0: sha256:1b3900e66201dd4daac354275f61fef4608eff9ca92735366822856b76a14982
+  16.4.1--py36_0: sha256:c4f817bc97bcf3bbf3ac45c0c8ba8f43b4d140504f94051ddcc140a3a13837f7
 docker: quay.io/biocontainers/boltons
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

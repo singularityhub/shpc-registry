@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/rnaclust
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rnaclust
 latest:
-  1.3--pl5.22.0_0: sha256:2e0d96cb5f04645abb7bf7cfe7e03a2bec36a3a99ca41e9343981651b818f7e9
+  1.3--pl5.22.0_0: sha256:47e2ccfd74f7d49409d15d74efe4dbff954dad93f4075d8599ea7b380fc7d7b1
 tags:
-  1.3--pl5.22.0_0: sha256:2e0d96cb5f04645abb7bf7cfe7e03a2bec36a3a99ca41e9343981651b818f7e9
+  1.3--pl5.22.0_0: sha256:47e2ccfd74f7d49409d15d74efe4dbff954dad93f4075d8599ea7b380fc7d7b1
 docker: quay.io/biocontainers/rnaclust
 aliases:
   LocARNA_RNAz.pm: /usr/local/bin/LocARNA_RNAz.pm

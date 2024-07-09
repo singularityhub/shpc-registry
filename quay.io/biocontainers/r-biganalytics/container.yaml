@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-biganalytics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-biganalytics
 latest:
-  1.1.14--r3.3.1_0: sha256:f11c38f795d0f9be4dd825f5daad90c4f85a85f617356f913e5d1548a17c43ea
+  1.1.14--r3.3.1_0: sha256:d675d7a86f466cfe845f27cae0db42b49a14c10d5bd54d41144a34cb881c37a8
 tags:
-  1.1.14--r3.3.1_0: sha256:f11c38f795d0f9be4dd825f5daad90c4f85a85f617356f913e5d1548a17c43ea
+  1.1.14--r3.3.1_0: sha256:d675d7a86f466cfe845f27cae0db42b49a14c10d5bd54d41144a34cb881c37a8
 docker: quay.io/biocontainers/r-biganalytics
 aliases:
   uconv: /usr/local/bin/uconv

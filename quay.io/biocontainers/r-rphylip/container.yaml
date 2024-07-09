@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-rphylip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rphylip
 latest:
-  0.1_23--r3.4.1_1: sha256:c1b8a0c3ae62dc6a7cae1632c25ce6d301d0a19832666e1c95770197d663ec3f
+  0.1_23--r3.4.1_1: sha256:6a1c90527ea83e6ad140f4c9577b1a4f1bfde27fec597d4aa1248d0a23449f7e
 tags:
-  0.1_23--r3.4.1_1: sha256:c1b8a0c3ae62dc6a7cae1632c25ce6d301d0a19832666e1c95770197d663ec3f
+  0.1_23--r3.4.1_1: sha256:6a1c90527ea83e6ad140f4c9577b1a4f1bfde27fec597d4aa1248d0a23449f7e
+  0.1_23--r3.3.2_1: sha256:88ecbd5e1aec1e74b8b2ab72d7ad573669fcef695a52c851f3114dcf84faad48
 docker: quay.io/biocontainers/r-rphylip
 aliases:
   DrawGram.jar: /usr/local/bin/DrawGram.jar

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/r-argparse
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-argparse
 latest:
-  1.0.1--py36r3.3.1_0: sha256:8e85652f83b25a0ce210c2513b7c6a0a120636116a2822eced411c1aa75d3ee8
+  1.0.1--py36r3.3.1_0: sha256:1705d778540a0d67058ef2fb63572569bbb6086ddf027c488d6f556e3b39867e
 tags:
-  1.0.1--py36r3.3.1_0: sha256:8e85652f83b25a0ce210c2513b7c6a0a120636116a2822eced411c1aa75d3ee8
-  1.0.1--py36r3.3.2_0: sha256:7cb0024d2d0e0f005bf1464e60ee0eda2480b5d75a19e479998269d4c49e4dc0
+  1.0.1--py36r3.3.1_0: sha256:1705d778540a0d67058ef2fb63572569bbb6086ddf027c488d6f556e3b39867e
+  1.0.1--py36r3.3.2_0: sha256:b60f9024bb47080e265262ae7cfaff2ee99e578f3b500e014958e4721120a519
+  1.0.1--py35r3.2.2_0: sha256:f6221d46202f86d6d51f66e1147b8ee98ee03ec99bb733896c41d2f1576d9f8f
 docker: quay.io/biocontainers/r-argparse
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

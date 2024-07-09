@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/hlama
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hlama
 latest:
-  3.0.1--py35_0: sha256:252ba196da8cd798bfde329a0232c63565c6a22957436f9f4ae62296db1b91e3
+  3.0.1--py35_0: sha256:8ad6c80ba02bd38da8d9ddf80cf9741b807a47f84137fbd5814a518fe9c5ba53
 tags:
-  3.0.1--py35_0: sha256:252ba196da8cd798bfde329a0232c63565c6a22957436f9f4ae62296db1b91e3
+  3.0.1--py35_0: sha256:8ad6c80ba02bd38da8d9ddf80cf9741b807a47f84137fbd5814a518fe9c5ba53
 docker: quay.io/biocontainers/hlama
 aliases:
   OSSolverService: /usr/local/bin/OSSolverService
