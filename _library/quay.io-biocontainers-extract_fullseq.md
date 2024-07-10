@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/extract_fullseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extract_fullseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/extract_fullseq/container.yaml"
-updated_at: "2024-07-08 03:19:08.521147"
-latest: "3.101--3"
+updated_at: "2024-07-10 03:07:29.748669"
+latest: "3.101--h4ac6f70_5"
 container_url: "https://biocontainers.pro/tools/extract_fullseq"
 aliases:
  - "extract_fullseq"
 versions:
  - "3.101--3"
+ - "3.101--h4ac6f70_5"
 description: "shpc-registry automated BioContainers addition for extract_fullseq"
-config: {"url": "https://biocontainers.pro/tools/extract_fullseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extract_fullseq", "latest": {"3.101--3": "sha256:9c4fb0f1c50aaf454e68b619cfea21b5fae8afca0e38d2e64c77380f5af8221c"}, "tags": {"3.101--3": "sha256:9c4fb0f1c50aaf454e68b619cfea21b5fae8afca0e38d2e64c77380f5af8221c"}, "docker": "quay.io/biocontainers/extract_fullseq", "aliases": {"extract_fullseq": "/usr/local/bin/extract_fullseq"}}
+config: {"url": "https://biocontainers.pro/tools/extract_fullseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extract_fullseq", "latest": {"3.101--h4ac6f70_5": "sha256:c1ded14e66944e361bb4524e9389aaa2f32f9e700a11ca0b5780376a1a14467f"}, "tags": {"3.101--3": "sha256:4003112c241ce08242ad38555093666cc01158987595502ea03f733c00c1da0d", "3.101--h4ac6f70_5": "sha256:c1ded14e66944e361bb4524e9389aaa2f32f9e700a11ca0b5780376a1a14467f"}, "docker": "quay.io/biocontainers/extract_fullseq", "aliases": {"extract_fullseq": "/usr/local/bin/extract_fullseq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/extract_fullseq.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/extract_fullseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/extract_fullseq:3.101--3
+$ shpc install quay.io/biocontainers/extract_fullseq:3.101--h4ac6f70_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/extract_fullseq/3.101--3
-$ module help quay.io/biocontainers/extract_fullseq/3.101--3
+$ module load quay.io/biocontainers/extract_fullseq/3.101--h4ac6f70_5
+$ module help quay.io/biocontainers/extract_fullseq/3.101--h4ac6f70_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

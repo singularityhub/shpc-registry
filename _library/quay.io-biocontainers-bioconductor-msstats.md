@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msstats/container.yaml"
-updated_at: "2024-07-08 03:31:05.325522"
+updated_at: "2024-07-10 02:39:17.404007"
 latest: "4.10.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-msstats"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "4.10.0--r43hf17093f_0"
  - "4.10.0--r43hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-msstats"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msstats", "latest": {"4.10.0--r43hf17093f_1": "sha256:83b2203730b2bd3a88a9399946e81acede4c768e0714f3b655223f423db5fdb2"}, "tags": {"4.2.0--r41hc247a5b_2": "sha256:30fff28de8ae26535478b877095c7c5094da752d41bdc9af42b1f56de5fe7f57", "4.6.0--r42hc247a5b_0": "sha256:37794e41771f4b8d2ac5b9323548510d751c99e8b784e7adba5bb909f983f70e", "4.6.0--r42hf17093f_1": "sha256:2871b8eceb0e35f879129887732450b14e3a7e3beb8f0380b450550e5b57e5ed", "4.8.3--r43hf17093f_0": "sha256:f618f88104eed8f06322b61462a46a6f9b1731700a62ed8369647ec61a5e0e06", "4.10.0--r43hf17093f_0": "sha256:56d495ba81e40507869524b4090f399d41f62562be1ae1e052f51d96856858e8", "4.10.0--r43hf17093f_1": "sha256:83b2203730b2bd3a88a9399946e81acede4c768e0714f3b655223f423db5fdb2"}, "docker": "quay.io/biocontainers/bioconductor-msstats", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msstats", "latest": {"4.10.0--r43hf17093f_1": "sha256:83b2203730b2bd3a88a9399946e81acede4c768e0714f3b655223f423db5fdb2"}, "tags": {"4.2.0--r41hc247a5b_2": "sha256:30fff28de8ae26535478b877095c7c5094da752d41bdc9af42b1f56de5fe7f57", "4.6.0--r42hc247a5b_0": "sha256:cccc582a1fe1287e8ed6541b8ef38cde6992aaf06f599464c83b74c81547fd2f", "4.6.0--r42hf17093f_1": "sha256:2871b8eceb0e35f879129887732450b14e3a7e3beb8f0380b450550e5b57e5ed", "4.8.3--r43hf17093f_0": "sha256:f618f88104eed8f06322b61462a46a6f9b1731700a62ed8369647ec61a5e0e06", "4.10.0--r43hf17093f_0": "sha256:56d495ba81e40507869524b4090f399d41f62562be1ae1e052f51d96856858e8", "4.10.0--r43hf17093f_1": "sha256:83b2203730b2bd3a88a9399946e81acede4c768e0714f3b655223f423db5fdb2"}, "docker": "quay.io/biocontainers/bioconductor-msstats", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msstats.

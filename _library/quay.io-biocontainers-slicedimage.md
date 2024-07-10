@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/slicedimage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slicedimage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slicedimage/container.yaml"
-updated_at: "2024-07-08 03:45:12.265064"
+updated_at: "2024-07-10 03:17:48.837582"
 latest: "3.1.2--py_0"
 container_url: "https://biocontainers.pro/tools/slicedimage"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "3.1.2--py_0"
 description: "shpc-registry automated BioContainers addition for slicedimage"
-config: {"url": "https://biocontainers.pro/tools/slicedimage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for slicedimage", "latest": {"3.1.2--py_0": "sha256:24525591a9648ee4ed2b04ff402cb5c334c877f37268a5ffa2fe6015b064362f"}, "tags": {"3.1.2--py_0": "sha256:24525591a9648ee4ed2b04ff402cb5c334c877f37268a5ffa2fe6015b064362f"}, "docker": "quay.io/biocontainers/slicedimage", "aliases": {"slicedimage": "/usr/local/bin/slicedimage", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "f2py3.7": "/usr/local/bin/f2py3.7", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config"}}
+config: {"url": "https://biocontainers.pro/tools/slicedimage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for slicedimage", "latest": {"3.1.2--py_0": "sha256:eb2ec9877f54ebda2e5d1f7a9bfa3f4de1e0bef629fc3ab469a0983e329a2a5d"}, "tags": {"3.1.2--py_0": "sha256:eb2ec9877f54ebda2e5d1f7a9bfa3f4de1e0bef629fc3ab469a0983e329a2a5d"}, "docker": "quay.io/biocontainers/slicedimage", "aliases": {"slicedimage": "/usr/local/bin/slicedimage", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "f2py3.7": "/usr/local/bin/f2py3.7", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/slicedimage.

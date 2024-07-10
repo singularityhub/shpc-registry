@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/t_coffee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/t_coffee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/t_coffee/container.yaml"
-updated_at: "2024-07-08 03:38:20.075876"
+updated_at: "2024-07-10 02:51:26.889455"
 latest: "11.0.8--py37hea885bf_8"
 container_url: "https://biocontainers.pro/tools/t_coffee"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "11.0.8--py37hea885bf_8"
  - "11.0.8--py27hea885bf_8"
 description: "shpc-registry automated BioContainers addition for t_coffee"
-config: {"url": "https://biocontainers.pro/tools/t_coffee", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for t_coffee", "latest": {"11.0.8--py37hea885bf_8": "sha256:01f6245b193d856e861a80511a5d59a68660ac4cb295519988141c4c087f8de4"}, "tags": {"11.0.8--py37hea885bf_8": "sha256:01f6245b193d856e861a80511a5d59a68660ac4cb295519988141c4c087f8de4", "11.0.8--py27hea885bf_8": "sha256:5dbb8c961ceabbc9bdd02a4bafc60dfa5d4079ff7b8e95d522979d46372823d1"}, "docker": "quay.io/biocontainers/t_coffee", "aliases": {"t_coffee": "/usr/local/bin/t_coffee", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/t_coffee", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for t_coffee", "latest": {"11.0.8--py37hea885bf_8": "sha256:010dfd9642bac7cdbbeb777b882e8f5dbeda3675b86932ca29292b49d52557fb"}, "tags": {"11.0.8--py37hea885bf_8": "sha256:010dfd9642bac7cdbbeb777b882e8f5dbeda3675b86932ca29292b49d52557fb", "11.0.8--py27hea885bf_8": "sha256:90fd19b761d03dfdb7c0d2dc252f94b64695ccf3e1245f12683248e0433a9e9c"}, "docker": "quay.io/biocontainers/t_coffee", "aliases": {"t_coffee": "/usr/local/bin/t_coffee", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/t_coffee.

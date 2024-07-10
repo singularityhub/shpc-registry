@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-base"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-base/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-base/container.yaml"
-updated_at: "2024-07-08 03:30:53.114459"
+updated_at: "2024-07-10 03:21:21.782250"
 latest: "2.23--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-base"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "2.23--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-base"
-config: {"url": "https://biocontainers.pro/tools/perl-base", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-base", "latest": {"2.23--pl526_1": "sha256:54706287f2e110ae6e8ce2421bcbdf4f737c4f2defc1e1fec653a1b7daedc7a3"}, "tags": {"2.23--pl526_1": "sha256:54706287f2e110ae6e8ce2421bcbdf4f737c4f2defc1e1fec653a1b7daedc7a3"}, "docker": "quay.io/biocontainers/perl-base", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-base", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-base", "latest": {"2.23--pl526_1": "sha256:92758e93d95af828161f6e751734a955c17d70661297a2de50a3a86370036c4e"}, "tags": {"2.23--pl526_1": "sha256:92758e93d95af828161f6e751734a955c17d70661297a2de50a3a86370036c4e"}, "docker": "quay.io/biocontainers/perl-base", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-base.

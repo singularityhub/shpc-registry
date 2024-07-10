@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-acidcli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidcli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidcli/container.yaml"
-updated_at: "2024-07-08 03:40:56.636713"
+updated_at: "2024-07-10 03:03:30.496963"
 latest: "0.3.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-acidcli"
 

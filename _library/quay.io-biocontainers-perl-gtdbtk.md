@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-gtdbtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-gtdbtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-gtdbtk/container.yaml"
-updated_at: "2024-07-08 03:20:07.964081"
+updated_at: "2024-07-10 02:44:29.485220"
 latest: "0.1.5--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-gtdbtk"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.1.5--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-gtdbtk"
-config: {"url": "https://biocontainers.pro/tools/perl-gtdbtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-gtdbtk", "latest": {"0.1.5--pl526_1": "sha256:65c36921a03a83bec7428e687e767ebccd4b044d91cb3a36bfe9d44eafd8da85"}, "tags": {"0.1.5--pl526_1": "sha256:65c36921a03a83bec7428e687e767ebccd4b044d91cb3a36bfe9d44eafd8da85"}, "docker": "quay.io/biocontainers/perl-gtdbtk", "aliases": {"pfam_search.pl": "/usr/local/bin/pfam_search.pl", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "gdlib-config": "/usr/local/bin/gdlib-config", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "chi2": "/usr/local/bin/chi2"}}
+config: {"url": "https://biocontainers.pro/tools/perl-gtdbtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-gtdbtk", "latest": {"0.1.5--pl526_1": "sha256:10bce87d9800b42566e0bae4139a4851ed47a4ced98db11155050920bdea04f3"}, "tags": {"0.1.5--pl526_1": "sha256:10bce87d9800b42566e0bae4139a4851ed47a4ced98db11155050920bdea04f3"}, "docker": "quay.io/biocontainers/perl-gtdbtk", "aliases": {"pfam_search.pl": "/usr/local/bin/pfam_search.pl", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "gdlib-config": "/usr/local/bin/gdlib-config", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "chi2": "/usr/local/bin/chi2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-gtdbtk.

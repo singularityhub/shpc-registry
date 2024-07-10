@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scalign/container.yaml"
-updated_at: "2024-07-08 03:29:00.132938"
+updated_at: "2024-07-10 03:05:28.135928"
 latest: "1.11.0--py36r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scalign"
 aliases:

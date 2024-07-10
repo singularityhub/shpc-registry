@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gangstr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gangstr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gangstr/container.yaml"
-updated_at: "2024-07-08 03:11:42.769290"
-latest: "2.5.0--hf87bf9f_6"
+updated_at: "2024-07-10 03:01:15.440299"
+latest: "2.5.0--hc98e603_8"
 container_url: "https://biocontainers.pro/tools/gangstr"
 aliases:
  - "GangSTR"
@@ -23,8 +23,9 @@ versions:
  - "2.5.0--h48cf4b7_4"
  - "2.5.0--he5db1cc_5"
  - "2.5.0--hf87bf9f_6"
+ - "2.5.0--hc98e603_8"
 description: "shpc-registry automated BioContainers addition for gangstr"
-config: {"url": "https://biocontainers.pro/tools/gangstr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gangstr", "latest": {"2.5.0--hf87bf9f_6": "sha256:bf28da36021a23af517d08c43b76e6a32e81f152147e5b157c164a35e38c0b8a"}, "tags": {"2.5.0--h48cf4b7_4": "sha256:5a4fe8417fbf8de57adf7cf92be0d131b418c613213dab26b8ac018b8077ee81", "2.5.0--he5db1cc_5": "sha256:88cf68e842d9a812dacf0d0542ecf88a2cd4614f880bc5a175b07340c6d4e1fa", "2.5.0--hf87bf9f_6": "sha256:bf28da36021a23af517d08c43b76e6a32e81f152147e5b157c164a35e38c0b8a"}, "docker": "quay.io/biocontainers/gangstr", "aliases": {"GangSTR": "/usr/local/bin/GangSTR", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/gangstr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gangstr", "latest": {"2.5.0--hc98e603_8": "sha256:1cf2f101d326ef52bfd347e612619ff24d345f312c0af0f7f6e7bb250f144daf"}, "tags": {"2.5.0--h48cf4b7_4": "sha256:5a4fe8417fbf8de57adf7cf92be0d131b418c613213dab26b8ac018b8077ee81", "2.5.0--he5db1cc_5": "sha256:88cf68e842d9a812dacf0d0542ecf88a2cd4614f880bc5a175b07340c6d4e1fa", "2.5.0--hf87bf9f_6": "sha256:bf28da36021a23af517d08c43b76e6a32e81f152147e5b157c164a35e38c0b8a", "2.5.0--hc98e603_8": "sha256:1cf2f101d326ef52bfd347e612619ff24d345f312c0af0f7f6e7bb250f144daf"}, "docker": "quay.io/biocontainers/gangstr", "aliases": {"GangSTR": "/usr/local/bin/GangSTR", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gangstr.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/gangstr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gangstr:2.5.0--hf87bf9f_6
+$ shpc install quay.io/biocontainers/gangstr:2.5.0--hc98e603_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gangstr/2.5.0--hf87bf9f_6
-$ module help quay.io/biocontainers/gangstr/2.5.0--hf87bf9f_6
+$ module load quay.io/biocontainers/gangstr/2.5.0--hc98e603_8
+$ module help quay.io/biocontainers/gangstr/2.5.0--hc98e603_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

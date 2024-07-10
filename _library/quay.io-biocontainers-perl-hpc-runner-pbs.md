@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-hpc-runner-pbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hpc-runner-pbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hpc-runner-pbs/container.yaml"
-updated_at: "2024-07-08 03:50:38.092516"
+updated_at: "2024-07-10 02:40:12.931948"
 latest: "0.12--0"
 container_url: "https://biocontainers.pro/tools/perl-hpc-runner-pbs"
 aliases:
@@ -28,7 +28,7 @@ aliases:
 versions:
  - "0.12--0"
 description: "shpc-registry automated BioContainers addition for perl-hpc-runner-pbs"
-config: {"url": "https://biocontainers.pro/tools/perl-hpc-runner-pbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hpc-runner-pbs", "latest": {"0.12--0": "sha256:ebe8cdeddd845bef8d94a212cc60e553494267055a1144461758012f3ec2b65d"}, "tags": {"0.12--0": "sha256:ebe8cdeddd845bef8d94a212cc60e553494267055a1144461758012f3ec2b65d"}, "docker": "quay.io/biocontainers/perl-hpc-runner-pbs", "aliases": {"cpus.in": "/usr/local/bin/cpus.in", "cpus.pl": "/usr/local/bin/cpus.pl", "pbsrunner.pl": "/usr/local/bin/pbsrunner.pl", "slurmrunner.pl": "/usr/local/bin/slurmrunner.pl", "slurmrunnerbasic.pl": "/usr/local/bin/slurmrunnerbasic.pl", "slurmrunnerrsyslog.pl": "/usr/local/bin/slurmrunnerrsyslog.pl", "testnodes.pl": "/usr/local/bin/testnodes.pl", "findrule": "/usr/local/bin/findrule", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "tpage": "/usr/local/bin/tpage", "ttree": "/usr/local/bin/ttree", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-hpc-runner-pbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hpc-runner-pbs", "latest": {"0.12--0": "sha256:b2aa90066b9398fa342e0fef3d756b720a15c1aeaadf7cb89d8de70b7e1b2935"}, "tags": {"0.12--0": "sha256:b2aa90066b9398fa342e0fef3d756b720a15c1aeaadf7cb89d8de70b7e1b2935"}, "docker": "quay.io/biocontainers/perl-hpc-runner-pbs", "aliases": {"cpus.in": "/usr/local/bin/cpus.in", "cpus.pl": "/usr/local/bin/cpus.pl", "pbsrunner.pl": "/usr/local/bin/pbsrunner.pl", "slurmrunner.pl": "/usr/local/bin/slurmrunner.pl", "slurmrunnerbasic.pl": "/usr/local/bin/slurmrunnerbasic.pl", "slurmrunnerrsyslog.pl": "/usr/local/bin/slurmrunnerrsyslog.pl", "testnodes.pl": "/usr/local/bin/testnodes.pl", "findrule": "/usr/local/bin/findrule", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "tpage": "/usr/local/bin/tpage", "ttree": "/usr/local/bin/ttree", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-hpc-runner-pbs.

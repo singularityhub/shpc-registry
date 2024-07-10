@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ripseekerdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ripseekerdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ripseekerdata/container.yaml"
-updated_at: "2024-07-08 03:42:46.409612"
+updated_at: "2024-07-10 02:37:24.064690"
 latest: "1.22.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ripseekerdata"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.22.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ripseekerdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ripseekerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ripseekerdata", "latest": {"1.22.0--r36_0": "sha256:9f3bc452e4b62c3ecf93b5cd5debd109d8b1c6a0cc59f9b713e7ced09be5deaa"}, "tags": {"1.22.0--r36_0": "sha256:9f3bc452e4b62c3ecf93b5cd5debd109d8b1c6a0cc59f9b713e7ced09be5deaa"}, "docker": "quay.io/biocontainers/bioconductor-ripseekerdata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ripseekerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ripseekerdata", "latest": {"1.22.0--r36_0": "sha256:8c627016317d72d0a0d7ac6d4ff7f13584ad66a6e237c56c93cede2a981e9497"}, "tags": {"1.22.0--r36_0": "sha256:8c627016317d72d0a0d7ac6d4ff7f13584ad66a6e237c56c93cede2a981e9497"}, "docker": "quay.io/biocontainers/bioconductor-ripseekerdata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ripseekerdata.

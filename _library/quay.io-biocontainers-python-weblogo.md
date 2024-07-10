@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-weblogo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-weblogo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-weblogo/container.yaml"
-updated_at: "2024-07-08 03:37:31.321677"
+updated_at: "2024-07-10 02:49:38.671180"
 latest: "3.4--py35_0"
 container_url: "https://biocontainers.pro/tools/python-weblogo"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "3.4--py35_0"
  - "3.4--py36_0"
 description: "shpc-registry automated BioContainers addition for python-weblogo"
-config: {"url": "https://biocontainers.pro/tools/python-weblogo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-weblogo", "latest": {"3.4--py35_0": "sha256:2abc08d93f2c2fb75e574a09dcd44ae98436d64438c660aa0f5a5414dbc8daba"}, "tags": {"3.4--py35_0": "sha256:2abc08d93f2c2fb75e574a09dcd44ae98436d64438c660aa0f5a5414dbc8daba", "3.4--py36_0": "sha256:8afe6ffa774ef8e1d0e0c70a19cf7369b9567a0553998381fa9fb7c676a82643"}, "docker": "quay.io/biocontainers/python-weblogo", "aliases": {"transformseq": "/usr/local/bin/transformseq", "weblogo": "/usr/local/bin/weblogo", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config"}}
+config: {"url": "https://biocontainers.pro/tools/python-weblogo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-weblogo", "latest": {"3.4--py35_0": "sha256:c5fcc028bcd244f6ac29e101283b515866933a91b78c3ba46b90e9613ff9283b"}, "tags": {"3.4--py35_0": "sha256:c5fcc028bcd244f6ac29e101283b515866933a91b78c3ba46b90e9613ff9283b", "3.4--py36_0": "sha256:d54d168abdbb9f07f825131fa4cfdbd95244cfe1fee961ff57fa94655f667575"}, "docker": "quay.io/biocontainers/python-weblogo", "aliases": {"transformseq": "/usr/local/bin/transformseq", "weblogo": "/usr/local/bin/weblogo", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-weblogo.

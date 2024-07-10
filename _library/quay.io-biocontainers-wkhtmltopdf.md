@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wkhtmltopdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wkhtmltopdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wkhtmltopdf/container.yaml"
-updated_at: "2024-07-08 03:14:35.693276"
+updated_at: "2024-07-10 02:46:53.877695"
 latest: "0.12.3--0"
 container_url: "https://biocontainers.pro/tools/wkhtmltopdf"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.12.3--0"
 description: "shpc-registry automated BioContainers addition for wkhtmltopdf"
-config: {"url": "https://biocontainers.pro/tools/wkhtmltopdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wkhtmltopdf", "latest": {"0.12.3--0": "sha256:f61cd4881d7bead97fc674f7a11b653b7066add46598c8e7fc446f81d95daebd"}, "tags": {"0.12.3--0": "sha256:f61cd4881d7bead97fc674f7a11b653b7066add46598c8e7fc446f81d95daebd"}, "docker": "quay.io/biocontainers/wkhtmltopdf", "aliases": {"wkhtmltoimage": "/usr/local/bin/wkhtmltoimage", "wkhtmltopdf": "/usr/local/bin/wkhtmltopdf"}}
+config: {"url": "https://biocontainers.pro/tools/wkhtmltopdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wkhtmltopdf", "latest": {"0.12.3--0": "sha256:42a13e7d8b312d6c863321ad084e49d1d80b72566a271e3e970b59ab6eb5b6b9"}, "tags": {"0.12.3--0": "sha256:42a13e7d8b312d6c863321ad084e49d1d80b72566a271e3e970b59ab6eb5b6b9"}, "docker": "quay.io/biocontainers/wkhtmltopdf", "aliases": {"wkhtmltoimage": "/usr/local/bin/wkhtmltoimage", "wkhtmltopdf": "/usr/local/bin/wkhtmltopdf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wkhtmltopdf.

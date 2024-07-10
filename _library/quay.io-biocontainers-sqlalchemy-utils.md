@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sqlalchemy-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sqlalchemy-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sqlalchemy-utils/container.yaml"
-updated_at: "2024-07-08 03:33:56.777714"
+updated_at: "2024-07-10 02:52:20.838985"
 latest: "0.31.6--py36_0"
 container_url: "https://biocontainers.pro/tools/sqlalchemy-utils"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.31.6--py36_0"
 description: "shpc-registry automated BioContainers addition for sqlalchemy-utils"
-config: {"url": "https://biocontainers.pro/tools/sqlalchemy-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sqlalchemy-utils", "latest": {"0.31.6--py36_0": "sha256:ca9cbfa766a68a3deda81992349b9340d0a7f605c6a26e8694794793450d64d5"}, "tags": {"0.31.6--py36_0": "sha256:ca9cbfa766a68a3deda81992349b9340d0a7f605c6a26e8694794793450d64d5"}, "docker": "quay.io/biocontainers/sqlalchemy-utils", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/sqlalchemy-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sqlalchemy-utils", "latest": {"0.31.6--py36_0": "sha256:69a991be7396e2fff9262dd8fc4df2de526424f71eafb01f3331470ddc343e01"}, "tags": {"0.31.6--py36_0": "sha256:69a991be7396e2fff9262dd8fc4df2de526424f71eafb01f3331470ddc343e01"}, "docker": "quay.io/biocontainers/sqlalchemy-utils", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sqlalchemy-utils.

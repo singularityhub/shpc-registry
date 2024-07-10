@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-qlcmatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-qlcmatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-qlcmatrix/container.yaml"
-updated_at: "2024-07-08 03:32:53.273223"
+updated_at: "2024-07-10 02:56:38.733374"
 latest: "0.9.5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-qlcmatrix"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "0.9.5--r3.3.1_0"
  - "0.9.5--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-qlcmatrix"
-config: {"url": "https://biocontainers.pro/tools/r-qlcmatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-qlcmatrix", "latest": {"0.9.5--r3.3.1_0": "sha256:899d4b742bdb051802e879eabf4435297482714eb4e72b1be86c4af4b6741e1b"}, "tags": {"0.9.5--r3.3.1_0": "sha256:899d4b742bdb051802e879eabf4435297482714eb4e72b1be86c4af4b6741e1b", "0.9.5--r3.3.2_0": "sha256:8fdf28d0170586e17a64a375056e2fa955ce69bd58ebc57e421cbde1c074b8bb"}, "docker": "quay.io/biocontainers/r-qlcmatrix", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-qlcmatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-qlcmatrix", "latest": {"0.9.5--r3.3.1_0": "sha256:55ae3fac32e1d1525b14411e41dda4993fc5956da801415822fec09c2977a55c"}, "tags": {"0.9.5--r3.3.1_0": "sha256:55ae3fac32e1d1525b14411e41dda4993fc5956da801415822fec09c2977a55c", "0.9.5--r3.3.2_0": "sha256:301bb8796c4410a006c60b7a07e2281426d7683d5a04a6bfa1c6a7f6141f6a43"}, "docker": "quay.io/biocontainers/r-qlcmatrix", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-qlcmatrix.

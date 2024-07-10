@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rhvdm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rhvdm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rhvdm/container.yaml"
-updated_at: "2024-07-08 03:40:13.178796"
+updated_at: "2024-07-10 03:02:48.043936"
 latest: "1.49.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rhvdm"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.49.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rhvdm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rhvdm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rhvdm", "latest": {"1.49.0--r36_1": "sha256:dac73c6636818b522679660fce06fdf0ac0f5a4e5777709d6f35c601fdbf7b6f"}, "tags": {"1.49.0--r36_1": "sha256:dac73c6636818b522679660fce06fdf0ac0f5a4e5777709d6f35c601fdbf7b6f"}, "docker": "quay.io/biocontainers/bioconductor-rhvdm", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rhvdm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rhvdm", "latest": {"1.49.0--r36_1": "sha256:64b7968adecc5393baa2d45b9c964aa0fc3fc3e379dc4f3bfc9057b377a90ed7"}, "tags": {"1.49.0--r36_1": "sha256:64b7968adecc5393baa2d45b9c964aa0fc3fc3e379dc4f3bfc9057b377a90ed7"}, "docker": "quay.io/biocontainers/bioconductor-rhvdm", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rhvdm.

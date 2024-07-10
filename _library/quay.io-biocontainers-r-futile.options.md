@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-futile.options"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-futile.options/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-futile.options/container.yaml"
-updated_at: "2024-07-08 03:46:37.662067"
+updated_at: "2024-07-10 02:47:55.880053"
 latest: "1.0.0--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-futile.options"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.0.0--r3.2.2_0"
  - "1.0.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-futile.options"
-config: {"url": "https://biocontainers.pro/tools/r-futile.options", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-futile.options", "latest": {"1.0.0--r3.2.2_0": "sha256:4ef42550b47399ba1cf845d071cee3496502c84a507eac44440d2fae6404dd7f"}, "tags": {"1.0.0--r3.2.2_0": "sha256:4ef42550b47399ba1cf845d071cee3496502c84a507eac44440d2fae6404dd7f", "1.0.0--r3.3.2_0": "sha256:28b7020fd32ce114ac4b1a4984ed49491716b254ec022f1ed6fb912b8231174a"}, "docker": "quay.io/biocontainers/r-futile.options", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-futile.options", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-futile.options", "latest": {"1.0.0--r3.2.2_0": "sha256:d306d16d321ca79045ef22be376d74cb511c4fda260e44817cbccfef3ce02153"}, "tags": {"1.0.0--r3.2.2_0": "sha256:d306d16d321ca79045ef22be376d74cb511c4fda260e44817cbccfef3ce02153", "1.0.0--r3.3.2_0": "sha256:71165c6c81d5e4e8d65d3f55cb14b5b5073b7e46cb96590490a6539ba56cbbc9"}, "docker": "quay.io/biocontainers/r-futile.options", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-futile.options.

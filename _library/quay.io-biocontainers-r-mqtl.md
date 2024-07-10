@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mqtl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mqtl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mqtl/container.yaml"
-updated_at: "2024-07-08 03:44:12.338831"
+updated_at: "2024-07-10 03:16:14.149426"
 latest: "1.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-mqtl"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-mqtl"
-config: {"url": "https://biocontainers.pro/tools/r-mqtl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mqtl", "latest": {"1.0--r3.4.1_0": "sha256:662f0f7292f3011c78f66ef9cb1b60a8e9be2fe18c2b5d3aac9f81b96889d20c"}, "tags": {"1.0--r3.4.1_0": "sha256:662f0f7292f3011c78f66ef9cb1b60a8e9be2fe18c2b5d3aac9f81b96889d20c"}, "docker": "quay.io/biocontainers/r-mqtl", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-mqtl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mqtl", "latest": {"1.0--r3.4.1_0": "sha256:816f161891b8d65da06ffe295b9de6675f86a97a8015318384c6375d8fbbe822"}, "tags": {"1.0--r3.4.1_0": "sha256:816f161891b8d65da06ffe295b9de6675f86a97a8015318384c6375d8fbbe822"}, "docker": "quay.io/biocontainers/r-mqtl", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mqtl.

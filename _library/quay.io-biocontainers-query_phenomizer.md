@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/query_phenomizer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/query_phenomizer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/query_phenomizer/container.yaml"
-updated_at: "2024-07-08 03:11:05.186661"
+updated_at: "2024-07-10 03:01:23.258987"
 latest: "1.2.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/query_phenomizer"
 
@@ -12,7 +12,7 @@ versions:
  - "1.2--py_0"
  - "1.2.1--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for query_phenomizer"
-config: {"url": "https://biocontainers.pro/tools/query_phenomizer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for query_phenomizer", "latest": {"1.2.1--pyh7cba7a3_0": "sha256:1b6c024e801886c110b871798c40376977e05b4536b4b4d6d0761501f0269684"}, "tags": {"1.2--py_0": "sha256:0cc7d4dd094b950d36b3ac2162e628e20fa44ad2610eaa861b652a04ee32e38f", "1.2.1--pyh7cba7a3_0": "sha256:1b6c024e801886c110b871798c40376977e05b4536b4b4d6d0761501f0269684"}, "docker": "quay.io/biocontainers/query_phenomizer"}
+config: {"url": "https://biocontainers.pro/tools/query_phenomizer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for query_phenomizer", "latest": {"1.2.1--pyh7cba7a3_0": "sha256:1b6c024e801886c110b871798c40376977e05b4536b4b4d6d0761501f0269684"}, "tags": {"1.2--py_0": "sha256:8619882e3c391a88b0f42d9a265a2a3645797f1b73a2628e2435e72a1f525bdb", "1.2.1--pyh7cba7a3_0": "sha256:1b6c024e801886c110b871798c40376977e05b4536b4b4d6d0761501f0269684"}, "docker": "quay.io/biocontainers/query_phenomizer"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/query_phenomizer.

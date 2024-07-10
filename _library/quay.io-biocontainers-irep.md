@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/irep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/irep/container.yaml"
-updated_at: "2024-07-08 03:23:38.751715"
+updated_at: "2024-07-10 02:35:48.932517"
 latest: "1.1.7--pyh24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/irep"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "1.1.7--pyh24bf2e0_1"
 description: "shpc-registry automated BioContainers addition for irep"
-config: {"url": "https://biocontainers.pro/tools/irep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irep", "latest": {"1.1.7--pyh24bf2e0_1": "sha256:b77c59abfb6b36891d609147246b17639b750ceddbadc54913f868e4dd524f59"}, "tags": {"1.1.7--pyh24bf2e0_1": "sha256:b77c59abfb6b36891d609147246b17639b750ceddbadc54913f868e4dd524f59"}, "docker": "quay.io/biocontainers/irep", "aliases": {"bPTR": "/usr/local/bin/bPTR", "gc_skew": "/usr/local/bin/gc_skew", "iRep": "/usr/local/bin/iRep", "iRep_filter.py": "/usr/local/bin/iRep_filter.py", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0", "gst-discoverer-1.0": "/usr/local/bin/gst-discoverer-1.0", "gst-play-1.0": "/usr/local/bin/gst-play-1.0", "fixqt4headers.pl": "/usr/local/bin/fixqt4headers.pl"}}
+config: {"url": "https://biocontainers.pro/tools/irep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irep", "latest": {"1.1.7--pyh24bf2e0_1": "sha256:51b73bfd3bd73962bc6adccdeb9ad9f12663f8c2fd0486cdb147f4626eee08e8"}, "tags": {"1.1.7--pyh24bf2e0_1": "sha256:51b73bfd3bd73962bc6adccdeb9ad9f12663f8c2fd0486cdb147f4626eee08e8"}, "docker": "quay.io/biocontainers/irep", "aliases": {"bPTR": "/usr/local/bin/bPTR", "gc_skew": "/usr/local/bin/gc_skew", "iRep": "/usr/local/bin/iRep", "iRep_filter.py": "/usr/local/bin/iRep_filter.py", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0", "gst-discoverer-1.0": "/usr/local/bin/gst-discoverer-1.0", "gst-play-1.0": "/usr/local/bin/gst-play-1.0", "fixqt4headers.pl": "/usr/local/bin/fixqt4headers.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/irep.

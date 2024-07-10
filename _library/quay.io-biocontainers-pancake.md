@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pancake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pancake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pancake/container.yaml"
-updated_at: "2024-07-08 03:34:33.301246"
+updated_at: "2024-07-10 02:55:16.549310"
 latest: "1.1.2--py_2"
 container_url: "https://biocontainers.pro/tools/pancake"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.1.2--py_2"
 description: "shpc-registry automated BioContainers addition for pancake"
-config: {"url": "https://biocontainers.pro/tools/pancake", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pancake", "latest": {"1.1.2--py_2": "sha256:8b9a9dc96da6c978637c4bde352416d52f84986fdd28f47971d4d5f440707421"}, "tags": {"1.1.2--py_2": "sha256:8b9a9dc96da6c978637c4bde352416d52f84986fdd28f47971d4d5f440707421"}, "docker": "quay.io/biocontainers/pancake", "aliases": {"pancake": "/usr/local/bin/pancake", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pancake", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pancake", "latest": {"1.1.2--py_2": "sha256:13a381c2ec3ec74174f627f252bf778c104fd93eabe8b4fd4e966b76576fda0f"}, "tags": {"1.1.2--py_2": "sha256:13a381c2ec3ec74174f627f252bf778c104fd93eabe8b4fd4e966b76576fda0f"}, "docker": "quay.io/biocontainers/pancake", "aliases": {"pancake": "/usr/local/bin/pancake", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pancake.

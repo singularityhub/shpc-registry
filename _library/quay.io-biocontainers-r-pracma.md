@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pracma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pracma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pracma/container.yaml"
-updated_at: "2024-07-08 03:08:42.783859"
+updated_at: "2024-07-10 03:16:46.689450"
 latest: "1.8.8--r3.3.2_1"
 container_url: "https://biocontainers.pro/tools/r-pracma"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8.8--r3.3.2_1"
+ - "1.8.8--r3.3.1_1"
 description: "shpc-registry automated BioContainers addition for r-pracma"
-config: {"url": "https://biocontainers.pro/tools/r-pracma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pracma", "latest": {"1.8.8--r3.3.2_1": "sha256:9b9490be6786b607496e4b9adbcc1d7417be5861d702391a80b69526b8974496"}, "tags": {"1.8.8--r3.3.2_1": "sha256:9b9490be6786b607496e4b9adbcc1d7417be5861d702391a80b69526b8974496"}, "docker": "quay.io/biocontainers/r-pracma", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-pracma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pracma", "latest": {"1.8.8--r3.3.2_1": "sha256:7430312f1aaed678f240cdbff831a97153b6bdb74ad3ac77022f0a607ae5af61"}, "tags": {"1.8.8--r3.3.2_1": "sha256:7430312f1aaed678f240cdbff831a97153b6bdb74ad3ac77022f0a607ae5af61", "1.8.8--r3.3.1_1": "sha256:9b270b2cf3dbbc4b60051efcbf2119ab5344aae5f74ac0a6ef4a143e460b7ca5"}, "docker": "quay.io/biocontainers/r-pracma", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pracma.

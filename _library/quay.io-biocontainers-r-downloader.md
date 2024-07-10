@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-downloader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-downloader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-downloader/container.yaml"
-updated_at: "2024-07-08 03:19:15.288605"
+updated_at: "2024-07-10 03:17:17.933115"
 latest: "0.0.4--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-downloader"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.0.4--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-downloader"
-config: {"url": "https://biocontainers.pro/tools/r-downloader", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-downloader", "latest": {"0.0.4--r3.3.2_0": "sha256:a2f8f12a625d651a064ef1aa6a5ac41d86349872d27884a4f1260990626be347"}, "tags": {"0.0.4--r3.3.2_0": "sha256:a2f8f12a625d651a064ef1aa6a5ac41d86349872d27884a4f1260990626be347"}, "docker": "quay.io/biocontainers/r-downloader", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-downloader", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-downloader", "latest": {"0.0.4--r3.3.2_0": "sha256:ec4b25b13a0a1943905fe9d012453aeef213ee024982dedf9db5a0ef9705f4c7"}, "tags": {"0.0.4--r3.3.2_0": "sha256:ec4b25b13a0a1943905fe9d012453aeef213ee024982dedf9db5a0ef9705f4c7"}, "docker": "quay.io/biocontainers/r-downloader", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-downloader.

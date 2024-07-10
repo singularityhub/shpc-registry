@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metavelvet-sl-feature-extraction"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metavelvet-sl-feature-extraction/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metavelvet-sl-feature-extraction/container.yaml"
-updated_at: "2024-07-08 03:54:25.293948"
+updated_at: "2024-07-10 02:53:31.014616"
 latest: "1.0--pl526_3"
 container_url: "https://biocontainers.pro/tools/metavelvet-sl-feature-extraction"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.0--pl526_3"
 description: "shpc-registry automated BioContainers addition for metavelvet-sl-feature-extraction"
-config: {"url": "https://biocontainers.pro/tools/metavelvet-sl-feature-extraction", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metavelvet-sl-feature-extraction", "latest": {"1.0--pl526_3": "sha256:bc42275b009c84d2272a6db13e6dd65b147677baf4bfb8c593b8f34ef8c465df"}, "tags": {"1.0--pl526_3": "sha256:bc42275b009c84d2272a6db13e6dd65b147677baf4bfb8c593b8f34ef8c465df"}, "docker": "quay.io/biocontainers/metavelvet-sl-feature-extraction", "aliases": {"FeatureExtract.pl": "/usr/local/bin/FeatureExtract.pl", "FeatureExtractPredict.pl": "/usr/local/bin/FeatureExtractPredict.pl", "eval.pl": "/usr/local/bin/eval.pl", "config_data": "/usr/local/bin/config_data", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/metavelvet-sl-feature-extraction", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metavelvet-sl-feature-extraction", "latest": {"1.0--pl526_3": "sha256:74066152c9ceea62c81bc4c90c18ee3bb0290e763ffcfe4d95d10de634a7047c"}, "tags": {"1.0--pl526_3": "sha256:74066152c9ceea62c81bc4c90c18ee3bb0290e763ffcfe4d95d10de634a7047c"}, "docker": "quay.io/biocontainers/metavelvet-sl-feature-extraction", "aliases": {"FeatureExtract.pl": "/usr/local/bin/FeatureExtract.pl", "FeatureExtractPredict.pl": "/usr/local/bin/FeatureExtractPredict.pl", "eval.pl": "/usr/local/bin/eval.pl", "config_data": "/usr/local/bin/config_data", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metavelvet-sl-feature-extraction.

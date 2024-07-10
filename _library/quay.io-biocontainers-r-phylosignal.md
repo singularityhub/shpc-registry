@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-phylosignal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-phylosignal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-phylosignal/container.yaml"
-updated_at: "2024-07-08 03:55:18.927715"
+updated_at: "2024-07-10 02:54:57.835687"
 latest: "1.2--r351h29659fb_3"
 container_url: "https://biocontainers.pro/tools/r-phylosignal"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.2--r351h29659fb_3"
 description: "shpc-registry automated BioContainers addition for r-phylosignal"
-config: {"url": "https://biocontainers.pro/tools/r-phylosignal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-phylosignal", "latest": {"1.2--r351h29659fb_3": "sha256:8b23af953144954369e9b0de460c689ebc75594f0c0682fefbb2c22510c128f0"}, "tags": {"1.2--r351h29659fb_3": "sha256:8b23af953144954369e9b0de460c689ebc75594f0c0682fefbb2c22510c128f0"}, "docker": "quay.io/biocontainers/r-phylosignal", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-phylosignal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-phylosignal", "latest": {"1.2--r351h29659fb_3": "sha256:063169c26b71477802a64755fd6d7e8e53b1728454a4cc5d5a929adc9c8980c5"}, "tags": {"1.2--r351h29659fb_3": "sha256:063169c26b71477802a64755fd6d7e8e53b1728454a4cc5d5a929adc9c8980c5"}, "docker": "quay.io/biocontainers/r-phylosignal", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-phylosignal.

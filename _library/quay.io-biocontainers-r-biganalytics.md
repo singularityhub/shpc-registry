@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-biganalytics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-biganalytics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-biganalytics/container.yaml"
-updated_at: "2024-07-08 03:24:50.154298"
+updated_at: "2024-07-10 02:39:33.707266"
 latest: "1.1.14--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-biganalytics"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.1.14--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-biganalytics"
-config: {"url": "https://biocontainers.pro/tools/r-biganalytics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-biganalytics", "latest": {"1.1.14--r3.3.1_0": "sha256:f11c38f795d0f9be4dd825f5daad90c4f85a85f617356f913e5d1548a17c43ea"}, "tags": {"1.1.14--r3.3.1_0": "sha256:f11c38f795d0f9be4dd825f5daad90c4f85a85f617356f913e5d1548a17c43ea"}, "docker": "quay.io/biocontainers/r-biganalytics", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-biganalytics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-biganalytics", "latest": {"1.1.14--r3.3.1_0": "sha256:d675d7a86f466cfe845f27cae0db42b49a14c10d5bd54d41144a34cb881c37a8"}, "tags": {"1.1.14--r3.3.1_0": "sha256:d675d7a86f466cfe845f27cae0db42b49a14c10d5bd54d41144a34cb881c37a8"}, "docker": "quay.io/biocontainers/r-biganalytics", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-biganalytics.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastaindex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastaindex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastaindex/container.yaml"
-updated_at: "2024-07-08 03:45:32.420980"
+updated_at: "2024-07-10 03:05:42.913838"
 latest: "0.11c--py_3"
 container_url: "https://biocontainers.pro/tools/fastaindex"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.11c--py_3"
 description: "shpc-registry automated BioContainers addition for fastaindex"
-config: {"url": "https://biocontainers.pro/tools/fastaindex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastaindex", "latest": {"0.11c--py_3": "sha256:8a5217da9358136db3dd08d4697a0cf6bdc32d6eab0a6fe0a0871e6566a7a241"}, "tags": {"0.11c--py_3": "sha256:8a5217da9358136db3dd08d4697a0cf6bdc32d6eab0a6fe0a0871e6566a7a241"}, "docker": "quay.io/biocontainers/fastaindex", "aliases": {"FastaIndex": "/usr/local/bin/FastaIndex", "fasta_stats": "/usr/local/bin/fasta_stats", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/fastaindex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastaindex", "latest": {"0.11c--py_3": "sha256:4c706398b5c8959a87687c88cfb7b3ccc11cc14bf341bdb02ad0818536b09fa2"}, "tags": {"0.11c--py_3": "sha256:4c706398b5c8959a87687c88cfb7b3ccc11cc14bf341bdb02ad0818536b09fa2"}, "docker": "quay.io/biocontainers/fastaindex", "aliases": {"FastaIndex": "/usr/local/bin/FastaIndex", "fasta_stats": "/usr/local/bin/fasta_stats", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastaindex.

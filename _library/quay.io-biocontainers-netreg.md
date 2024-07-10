@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/netreg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/netreg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/netreg/container.yaml"
-updated_at: "2024-07-08 03:15:33.736886"
+updated_at: "2024-07-10 03:08:21.921743"
 latest: "1.8.0--h9fd3d4c_0"
 container_url: "https://biocontainers.pro/tools/netreg"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.8.0--h9fd3d4c_0"
 description: "shpc-registry automated BioContainers addition for netreg"
-config: {"url": "https://biocontainers.pro/tools/netreg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for netreg", "latest": {"1.8.0--h9fd3d4c_0": "sha256:aa2891c45b31bc1421a2e6cad6f89e0d5347ac122137ca0accc9d883ea089646"}, "tags": {"1.8.0--h9fd3d4c_0": "sha256:aa2891c45b31bc1421a2e6cad6f89e0d5347ac122137ca0accc9d883ea089646"}, "docker": "quay.io/biocontainers/netreg", "aliases": {"netReg": "/usr/local/bin/netReg", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
+config: {"url": "https://biocontainers.pro/tools/netreg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for netreg", "latest": {"1.8.0--h9fd3d4c_0": "sha256:59579429da3452b7862832dc256c3c60b10f53399f3391eecdff3e14c786b70a"}, "tags": {"1.8.0--h9fd3d4c_0": "sha256:59579429da3452b7862832dc256c3c60b10f53399f3391eecdff3e14c786b70a"}, "docker": "quay.io/biocontainers/netreg", "aliases": {"netReg": "/usr/local/bin/netReg", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/netreg.

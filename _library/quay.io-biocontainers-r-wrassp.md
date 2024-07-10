@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-wrassp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-wrassp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-wrassp/container.yaml"
-updated_at: "2024-07-08 03:51:52.308077"
+updated_at: "2024-07-10 03:05:05.474418"
 latest: "0.1.4--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-wrassp"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.1.4--r3.3.2_0"
+ - "0.1.4--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-wrassp"
-config: {"url": "https://biocontainers.pro/tools/r-wrassp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-wrassp", "latest": {"0.1.4--r3.3.2_0": "sha256:5ad0ff8fadb46cc6f25f1d90b3cad3d2cd20ed291b13e3d713d0e79a4802df8f"}, "tags": {"0.1.4--r3.3.2_0": "sha256:5ad0ff8fadb46cc6f25f1d90b3cad3d2cd20ed291b13e3d713d0e79a4802df8f"}, "docker": "quay.io/biocontainers/r-wrassp", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-wrassp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-wrassp", "latest": {"0.1.4--r3.3.2_0": "sha256:e149cc7c06ff883de7a155736df1eea557f179a06d950f25f263a46a8865e6d3"}, "tags": {"0.1.4--r3.3.2_0": "sha256:e149cc7c06ff883de7a155736df1eea557f179a06d950f25f263a46a8865e6d3", "0.1.4--r3.3.1_0": "sha256:f35b070c81074c0b7b65c53ee10b88ef5e7c38abc61dd806914c5823430cde94"}, "docker": "quay.io/biocontainers/r-wrassp", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-wrassp.

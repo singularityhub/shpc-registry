@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fishtaco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fishtaco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fishtaco/container.yaml"
-updated_at: "2024-07-08 03:40:33.823379"
+updated_at: "2024-07-10 03:00:52.040514"
 latest: "1.1.1--py36_0"
 container_url: "https://biocontainers.pro/tools/fishtaco"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "1.1.1--py36_0"
 description: "shpc-registry automated BioContainers addition for fishtaco"
-config: {"url": "https://biocontainers.pro/tools/fishtaco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fishtaco", "latest": {"1.1.1--py36_0": "sha256:af39906ad758f5a989aab57913df3976cc9a7d04bd9907a0b4f6031ad9145fca"}, "tags": {"1.1.1--py36_0": "sha256:af39906ad758f5a989aab57913df3976cc9a7d04bd9907a0b4f6031ad9145fca"}, "docker": "quay.io/biocontainers/fishtaco", "aliases": {"run_fishtaco.py": "/usr/local/bin/run_fishtaco.py", "run_musicc.py": "/usr/local/bin/run_musicc.py", "test_fishtaco.py": "/usr/local/bin/test_fishtaco.py", "test_musicc.py": "/usr/local/bin/test_musicc.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/fishtaco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fishtaco", "latest": {"1.1.1--py36_0": "sha256:f73f49b62f10ff3f12ae998e3ee336fe1069be8f26400248067b58d16892fa9c"}, "tags": {"1.1.1--py36_0": "sha256:f73f49b62f10ff3f12ae998e3ee336fe1069be8f26400248067b58d16892fa9c"}, "docker": "quay.io/biocontainers/fishtaco", "aliases": {"run_fishtaco.py": "/usr/local/bin/run_fishtaco.py", "run_musicc.py": "/usr/local/bin/run_musicc.py", "test_fishtaco.py": "/usr/local/bin/test_fishtaco.py", "test_musicc.py": "/usr/local/bin/test_musicc.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fishtaco.

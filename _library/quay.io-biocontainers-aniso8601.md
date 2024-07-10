@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aniso8601"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aniso8601/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aniso8601/container.yaml"
-updated_at: "2024-07-08 03:22:01.871171"
+updated_at: "2024-07-10 03:02:49.178031"
 latest: "1.1.0--py36_0"
 container_url: "https://biocontainers.pro/tools/aniso8601"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "1.1.0--py36_0"
+ - "1.1.0--py35_0"
 description: "shpc-registry automated BioContainers addition for aniso8601"
-config: {"url": "https://biocontainers.pro/tools/aniso8601", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aniso8601", "latest": {"1.1.0--py36_0": "sha256:8e77c34820fc37252850602f660c1c2974db101ea011677f90839b7f5697fd8b"}, "tags": {"1.1.0--py36_0": "sha256:8e77c34820fc37252850602f660c1c2974db101ea011677f90839b7f5697fd8b"}, "docker": "quay.io/biocontainers/aniso8601", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/aniso8601", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aniso8601", "latest": {"1.1.0--py36_0": "sha256:668ad7b6f99765a37dcb0bf3e4684152f890992e8b96ca204af8228540949c36"}, "tags": {"1.1.0--py36_0": "sha256:668ad7b6f99765a37dcb0bf3e4684152f890992e8b96ca204af8228540949c36", "1.1.0--py35_0": "sha256:11accb940603777fc87dc6dcf5e27b46effc906b82c6fc7fcd9ae419557a8a01"}, "docker": "quay.io/biocontainers/aniso8601", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aniso8601.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oases"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oases/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oases/container.yaml"
-updated_at: "2024-07-08 03:41:55.615258"
+updated_at: "2024-07-10 03:13:29.223931"
 latest: "0.2.09--h470a237_1"
 container_url: "https://biocontainers.pro/tools/oases"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "0.2.09--h470a237_1"
 description: "shpc-registry automated BioContainers addition for oases"
-config: {"url": "https://biocontainers.pro/tools/oases", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oases", "latest": {"0.2.09--h470a237_1": "sha256:e8317fa87375bb07cca81447fc9160322e1f3b14f9aef5511500e60cdf009af2"}, "tags": {"0.2.09--h470a237_1": "sha256:e8317fa87375bb07cca81447fc9160322e1f3b14f9aef5511500e60cdf009af2"}, "docker": "quay.io/biocontainers/oases", "aliases": {"oases": "/usr/local/bin/oases", "oases_pipeline.py": "/usr/local/bin/oases_pipeline.py", "velvetg": "/usr/local/bin/velvetg", "velveth": "/usr/local/bin/velveth"}}
+config: {"url": "https://biocontainers.pro/tools/oases", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oases", "latest": {"0.2.09--h470a237_1": "sha256:96e796304daf5b4f5c9a6d66468df1ea1bea3023d9363e5859fcc988164932eb"}, "tags": {"0.2.09--h470a237_1": "sha256:96e796304daf5b4f5c9a6d66468df1ea1bea3023d9363e5859fcc988164932eb"}, "docker": "quay.io/biocontainers/oases", "aliases": {"oases": "/usr/local/bin/oases", "oases_pipeline.py": "/usr/local/bin/oases_pipeline.py", "velvetg": "/usr/local/bin/velvetg", "velveth": "/usr/local/bin/velveth"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oases.

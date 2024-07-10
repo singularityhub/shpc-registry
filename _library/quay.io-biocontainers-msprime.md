@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msprime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msprime/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msprime/container.yaml"
-updated_at: "2024-07-08 03:24:42.792236"
+updated_at: "2024-07-10 02:54:30.685969"
 latest: "0.4.0--py34_gsl1.16_2"
 container_url: "https://biocontainers.pro/tools/msprime"
 aliases:
@@ -33,7 +33,7 @@ versions:
  - "0.4.0--py34_gsl1.16_2"
  - "0.4.0--py36_gsl1.16_2"
 description: "shpc-registry automated BioContainers addition for msprime"
-config: {"url": "https://biocontainers.pro/tools/msprime", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msprime", "latest": {"0.4.0--py34_gsl1.16_2": "sha256:12b8da552f7dcb575c5855738a4b0029eacf78efa47f6ec60f00c133f6c1d8f6"}, "tags": {"0.4.0--py34_gsl1.16_2": "sha256:12b8da552f7dcb575c5855738a4b0029eacf78efa47f6ec60f00c133f6c1d8f6", "0.4.0--py36_gsl1.16_2": "sha256:8fd70fd76169fb6c9b96ca86627f7aec251f52d3e229df93a51c4ad6ee1488f8"}, "docker": "quay.io/biocontainers/msprime", "aliases": {"2to3-3.4": "/usr/local/bin/2to3-3.4", "easy_install-3.4": "/usr/local/bin/easy_install-3.4", "idle3.4": "/usr/local/bin/idle3.4", "msp": "/usr/local/bin/msp", "mspms": "/usr/local/bin/mspms", "pydoc3.4": "/usr/local/bin/pydoc3.4", "python3.4": "/usr/local/bin/python3.4", "python3.4-config": "/usr/local/bin/python3.4-config", "python3.4m": "/usr/local/bin/python3.4m", "python3.4m-config": "/usr/local/bin/python3.4m-config", "pyvenv-3.4": "/usr/local/bin/pyvenv-3.4", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp"}}
+config: {"url": "https://biocontainers.pro/tools/msprime", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msprime", "latest": {"0.4.0--py34_gsl1.16_2": "sha256:ad9a10d874403901ae4af09f1b1c49ea010ba5da628f61f959a147b4c4899561"}, "tags": {"0.4.0--py34_gsl1.16_2": "sha256:ad9a10d874403901ae4af09f1b1c49ea010ba5da628f61f959a147b4c4899561", "0.4.0--py36_gsl1.16_2": "sha256:f0fce659a9e7bc4ad768ce878471521f80338d798d853fc061af12010e604dc9"}, "docker": "quay.io/biocontainers/msprime", "aliases": {"2to3-3.4": "/usr/local/bin/2to3-3.4", "easy_install-3.4": "/usr/local/bin/easy_install-3.4", "idle3.4": "/usr/local/bin/idle3.4", "msp": "/usr/local/bin/msp", "mspms": "/usr/local/bin/mspms", "pydoc3.4": "/usr/local/bin/pydoc3.4", "python3.4": "/usr/local/bin/python3.4", "python3.4-config": "/usr/local/bin/python3.4-config", "python3.4m": "/usr/local/bin/python3.4m", "python3.4m-config": "/usr/local/bin/python3.4m-config", "pyvenv-3.4": "/usr/local/bin/pyvenv-3.4", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msprime.

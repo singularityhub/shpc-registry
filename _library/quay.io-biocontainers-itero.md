@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/itero"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itero/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itero/container.yaml"
-updated_at: "2024-07-08 03:10:06.216963"
+updated_at: "2024-07-10 02:35:45.244279"
 latest: "1.1.2--py_1"
 container_url: "https://biocontainers.pro/tools/itero"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "1.1.2--py_1"
 description: "shpc-registry automated BioContainers addition for itero"
-config: {"url": "https://biocontainers.pro/tools/itero", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for itero", "latest": {"1.1.2--py_1": "sha256:a1f00e2670ec270fe4dea51820396de3a90da5ef836fc5e29ce18f499cb74fc5"}, "tags": {"1.1.2--py_1": "sha256:a1f00e2670ec270fe4dea51820396de3a90da5ef836fc5e29ce18f499cb74fc5"}, "docker": "quay.io/biocontainers/itero", "aliases": {"dipspades.py": "/usr/local/bin/dipspades.py", "gawk-5.0.1": "/usr/local/bin/gawk-5.0.1", "itero": "/usr/local/bin/itero", "spades-dipspades-core": "/usr/local/bin/spades-dipspades-core", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-hammer": "/usr/local/bin/spades-hammer", "spades-ionhammer": "/usr/local/bin/spades-ionhammer"}}
+config: {"url": "https://biocontainers.pro/tools/itero", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for itero", "latest": {"1.1.2--py_1": "sha256:85adb7bbb6b12311fe6f8fade54f2a78b2cb2d7b9aef223ef2c4c12e9c10ce72"}, "tags": {"1.1.2--py_1": "sha256:85adb7bbb6b12311fe6f8fade54f2a78b2cb2d7b9aef223ef2c4c12e9c10ce72"}, "docker": "quay.io/biocontainers/itero", "aliases": {"dipspades.py": "/usr/local/bin/dipspades.py", "gawk-5.0.1": "/usr/local/bin/gawk-5.0.1", "itero": "/usr/local/bin/itero", "spades-dipspades-core": "/usr/local/bin/spades-dipspades-core", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-hammer": "/usr/local/bin/spades-hammer", "spades-ionhammer": "/usr/local/bin/spades-ionhammer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/itero.

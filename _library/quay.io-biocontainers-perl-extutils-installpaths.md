@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-extutils-installpaths"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-extutils-installpaths/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-extutils-installpaths/container.yaml"
-updated_at: "2024-07-08 03:40:38.394411"
+updated_at: "2024-07-10 03:00:53.158120"
 latest: "0.012--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-extutils-installpaths"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.012--pl526_0"
 description: "shpc-registry automated BioContainers addition for perl-extutils-installpaths"
-config: {"url": "https://biocontainers.pro/tools/perl-extutils-installpaths", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-extutils-installpaths", "latest": {"0.012--pl526_0": "sha256:aa5eb382b1e3c26a6904ddb43562dc35c4b6969ad5dc1cf4c031a8cf9e3b9a7d"}, "tags": {"0.012--pl526_0": "sha256:aa5eb382b1e3c26a6904ddb43562dc35c4b6969ad5dc1cf4c031a8cf9e3b9a7d"}, "docker": "quay.io/biocontainers/perl-extutils-installpaths", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-extutils-installpaths", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-extutils-installpaths", "latest": {"0.012--pl526_0": "sha256:765bf631fd634360df7c189b98f08092a78aca298ddb5df96cbfa272363ac488"}, "tags": {"0.012--pl526_0": "sha256:765bf631fd634360df7c189b98f08092a78aca298ddb5df96cbfa272363ac488"}, "docker": "quay.io/biocontainers/perl-extutils-installpaths", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-extutils-installpaths.

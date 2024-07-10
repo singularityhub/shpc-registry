@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-impulsede2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-impulsede2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-impulsede2/container.yaml"
-updated_at: "2024-07-08 03:08:58.646805"
+updated_at: "2024-07-10 02:47:01.382826"
 latest: "1.11.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-impulsede2"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.11.0--r40_0"
  - "1.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-impulsede2"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-impulsede2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-impulsede2", "latest": {"1.11.0--r40_0": "sha256:06a000c0380739a8e607ff92c853e80f290c2ca55242f54c8a3a0fc813f5cf87"}, "tags": {"1.8.0--r36_1": "sha256:156cc5c9d1615d846ad01625f9225c011d5980ca41e30966e6a3abe5bba23df0", "1.11.0--r40_0": "sha256:06a000c0380739a8e607ff92c853e80f290c2ca55242f54c8a3a0fc813f5cf87", "1.10.0--r36_0": "sha256:6b45ae1f747d3a096ed2b7c682d57275b0d3efd55ffd556ab5fcb5c8195e97c1"}, "docker": "quay.io/biocontainers/bioconductor-impulsede2", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-impulsede2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-impulsede2", "latest": {"1.11.0--r40_0": "sha256:06a000c0380739a8e607ff92c853e80f290c2ca55242f54c8a3a0fc813f5cf87"}, "tags": {"1.8.0--r36_1": "sha256:730fe0baeed3db1f69983e2138c3c96e17b15daf56b37edcc45cdd2744b5f2e9", "1.11.0--r40_0": "sha256:06a000c0380739a8e607ff92c853e80f290c2ca55242f54c8a3a0fc813f5cf87", "1.10.0--r36_0": "sha256:a2fa29a456e68aef587023ccc3bfb2ed4c4e8362f8d167937aac25434645a843"}, "docker": "quay.io/biocontainers/bioconductor-impulsede2", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-impulsede2.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/json_collect_data_source"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/json_collect_data_source/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/json_collect_data_source/container.yaml"
-updated_at: "2024-07-08 03:34:03.700187"
+updated_at: "2024-07-10 02:37:28.295148"
 latest: "1.0.1--2"
 container_url: "https://biocontainers.pro/tools/json_collect_data_source"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.0.1--2"
 description: "shpc-registry automated BioContainers addition for json_collect_data_source"
-config: {"url": "https://biocontainers.pro/tools/json_collect_data_source", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for json_collect_data_source", "latest": {"1.0.1--2": "sha256:dc70d7de289200c3732cec1add821ae3bfecf1fae9030db6c74e9fc7e91d6281"}, "tags": {"1.0.1--2": "sha256:dc70d7de289200c3732cec1add821ae3bfecf1fae9030db6c74e9fc7e91d6281"}, "docker": "quay.io/biocontainers/json_collect_data_source", "aliases": {"json_collect_data_source.py": "/usr/local/bin/json_collect_data_source.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/json_collect_data_source", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for json_collect_data_source", "latest": {"1.0.1--2": "sha256:b08d37121f7211238ead705c582f1153b87d6305a9dcf89e70af9230cfbd930c"}, "tags": {"1.0.1--2": "sha256:b08d37121f7211238ead705c582f1153b87d6305a9dcf89e70af9230cfbd930c"}, "docker": "quay.io/biocontainers/json_collect_data_source", "aliases": {"json_collect_data_source.py": "/usr/local/bin/json_collect_data_source.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/json_collect_data_source.

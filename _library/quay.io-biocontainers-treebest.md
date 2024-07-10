@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/treebest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treebest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treebest/container.yaml"
-updated_at: "2024-07-08 03:28:21.365985"
+updated_at: "2024-07-10 03:06:53.189865"
 latest: "1.9.2_ep78--hfc679d8_2"
 container_url: "https://biocontainers.pro/tools/treebest"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.9.2_ep78--hfc679d8_2"
 description: "shpc-registry automated BioContainers addition for treebest"
-config: {"url": "https://biocontainers.pro/tools/treebest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treebest", "latest": {"1.9.2_ep78--hfc679d8_2": "sha256:389ea3f74d804ea432cac6f7152b80a4f9c72c4d4c405136427c0689c987c197"}, "tags": {"1.9.2_ep78--hfc679d8_2": "sha256:389ea3f74d804ea432cac6f7152b80a4f9c72c4d4c405136427c0689c987c197"}, "docker": "quay.io/biocontainers/treebest", "aliases": {"treebest": "/usr/local/bin/treebest"}}
+config: {"url": "https://biocontainers.pro/tools/treebest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treebest", "latest": {"1.9.2_ep78--hfc679d8_2": "sha256:68724b727feccb966331f3de753259c9fabdafaea31f9c861c2e0490e393ab4e"}, "tags": {"1.9.2_ep78--hfc679d8_2": "sha256:68724b727feccb966331f3de753259c9fabdafaea31f9c861c2e0490e393ab4e"}, "docker": "quay.io/biocontainers/treebest", "aliases": {"treebest": "/usr/local/bin/treebest"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/treebest.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-guilds"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-guilds/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-guilds/container.yaml"
-updated_at: "2024-07-08 03:53:48.280574"
+updated_at: "2024-07-10 03:07:08.446021"
 latest: "1.3--r351h80f5a37_1"
 container_url: "https://biocontainers.pro/tools/r-guilds"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.3--r351h80f5a37_1"
 description: "shpc-registry automated BioContainers addition for r-guilds"
-config: {"url": "https://biocontainers.pro/tools/r-guilds", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-guilds", "latest": {"1.3--r351h80f5a37_1": "sha256:dec4040e20e58fd57fe48cf649c6e6983bb628b1f6893698494d06115ea50f99"}, "tags": {"1.3--r351h80f5a37_1": "sha256:dec4040e20e58fd57fe48cf649c6e6983bb628b1f6893698494d06115ea50f99"}, "docker": "quay.io/biocontainers/r-guilds", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-guilds", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-guilds", "latest": {"1.3--r351h80f5a37_1": "sha256:f306808a830c12823a2daf657d19102ae40d404e3855d4354b2d765845ff073c"}, "tags": {"1.3--r351h80f5a37_1": "sha256:f306808a830c12823a2daf657d19102ae40d404e3855d4354b2d765845ff073c"}, "docker": "quay.io/biocontainers/r-guilds", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-guilds.

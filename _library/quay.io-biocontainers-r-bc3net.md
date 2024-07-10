@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bc3net"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bc3net/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bc3net/container.yaml"
-updated_at: "2024-07-08 03:14:48.584654"
+updated_at: "2024-07-10 02:51:28.879154"
 latest: "1.0.4--r36h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-bc3net"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.0.4--r36h6115d3f_1"
 description: "shpc-registry automated BioContainers addition for r-bc3net"
-config: {"url": "https://biocontainers.pro/tools/r-bc3net", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bc3net", "latest": {"1.0.4--r36h6115d3f_1": "sha256:63a880f7da65a14edaff0c7db4b5c498e4cf91c5ab6e50c25404cc777ac6b0ca"}, "tags": {"1.0.4--r36h6115d3f_1": "sha256:63a880f7da65a14edaff0c7db4b5c498e4cf91c5ab6e50c25404cc777ac6b0ca"}, "docker": "quay.io/biocontainers/r-bc3net", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-bc3net", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bc3net", "latest": {"1.0.4--r36h6115d3f_1": "sha256:bfe9269b7f66ee0e00d1e2184b8efd2ff3d26d80a71bf9696db2450193d75a81"}, "tags": {"1.0.4--r36h6115d3f_1": "sha256:bfe9269b7f66ee0e00d1e2184b8efd2ff3d26d80a71bf9696db2450193d75a81"}, "docker": "quay.io/biocontainers/r-bc3net", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bc3net.

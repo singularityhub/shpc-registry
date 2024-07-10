@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ped_parser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ped_parser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ped_parser/container.yaml"
-updated_at: "2024-07-08 03:18:18.722369"
+updated_at: "2024-07-10 02:56:36.749283"
 latest: "1.6.6--py_2"
 container_url: "https://biocontainers.pro/tools/ped_parser"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.6.6--py_2"
 description: "shpc-registry automated BioContainers addition for ped_parser"
-config: {"url": "https://biocontainers.pro/tools/ped_parser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ped_parser", "latest": {"1.6.6--py_2": "sha256:0462154a5b51e8539cf23492ce01f8858e03cbf23e803b8931c62fab9d7a2d3b"}, "tags": {"1.6.6--py_2": "sha256:0462154a5b51e8539cf23492ce01f8858e03cbf23e803b8931c62fab9d7a2d3b"}, "docker": "quay.io/biocontainers/ped_parser", "aliases": {"ped_parser": "/usr/local/bin/ped_parser", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/ped_parser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ped_parser", "latest": {"1.6.6--py_2": "sha256:47a444c8b77b393ef5f579033c1f6a86cd0cc169f778de18fc696c0a039ebfd6"}, "tags": {"1.6.6--py_2": "sha256:47a444c8b77b393ef5f579033c1f6a86cd0cc169f778de18fc696c0a039ebfd6"}, "docker": "quay.io/biocontainers/ped_parser", "aliases": {"ped_parser": "/usr/local/bin/ped_parser", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ped_parser.

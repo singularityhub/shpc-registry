@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sqlalchemy-datatables"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sqlalchemy-datatables/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sqlalchemy-datatables/container.yaml"
-updated_at: "2024-07-08 03:09:57.057873"
+updated_at: "2024-07-10 02:47:18.442168"
 latest: "2.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/sqlalchemy-datatables"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "2.0.1--py_0"
 description: "shpc-registry automated BioContainers addition for sqlalchemy-datatables"
-config: {"url": "https://biocontainers.pro/tools/sqlalchemy-datatables", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sqlalchemy-datatables", "latest": {"2.0.1--py_0": "sha256:a14aff673c597f6457946731f8a6acc336e9ba247d9d23fc01804f13e26abfa6"}, "tags": {"2.0.1--py_0": "sha256:a14aff673c597f6457946731f8a6acc336e9ba247d9d23fc01804f13e26abfa6"}, "docker": "quay.io/biocontainers/sqlalchemy-datatables", "aliases": {"2to3-3.4": "/usr/local/bin/2to3-3.4", "easy_install-3.4": "/usr/local/bin/easy_install-3.4", "idle3.4": "/usr/local/bin/idle3.4", "pydoc3.4": "/usr/local/bin/pydoc3.4", "python3.4": "/usr/local/bin/python3.4", "python3.4-config": "/usr/local/bin/python3.4-config", "python3.4m": "/usr/local/bin/python3.4m", "python3.4m-config": "/usr/local/bin/python3.4m-config", "pyvenv-3.4": "/usr/local/bin/pyvenv-3.4", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/sqlalchemy-datatables", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sqlalchemy-datatables", "latest": {"2.0.1--py_0": "sha256:ae662e987a07e5b66424ba1b67de23e17239962d8883e07652f3cb83c28848c0"}, "tags": {"2.0.1--py_0": "sha256:ae662e987a07e5b66424ba1b67de23e17239962d8883e07652f3cb83c28848c0"}, "docker": "quay.io/biocontainers/sqlalchemy-datatables", "aliases": {"2to3-3.4": "/usr/local/bin/2to3-3.4", "easy_install-3.4": "/usr/local/bin/easy_install-3.4", "idle3.4": "/usr/local/bin/idle3.4", "pydoc3.4": "/usr/local/bin/pydoc3.4", "python3.4": "/usr/local/bin/python3.4", "python3.4-config": "/usr/local/bin/python3.4-config", "python3.4m": "/usr/local/bin/python3.4m", "python3.4m-config": "/usr/local/bin/python3.4m-config", "pyvenv-3.4": "/usr/local/bin/pyvenv-3.4", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sqlalchemy-datatables.

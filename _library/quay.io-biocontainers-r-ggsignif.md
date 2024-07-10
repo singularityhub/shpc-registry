@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggsignif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggsignif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggsignif/container.yaml"
-updated_at: "2024-07-08 03:33:30.983574"
+updated_at: "2024-07-10 02:54:53.904932"
 latest: "0.4.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-ggsignif"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "0.4.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-ggsignif"
-config: {"url": "https://biocontainers.pro/tools/r-ggsignif", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggsignif", "latest": {"0.4.0--r3.4.1_0": "sha256:adbe6be11be5ab459a0334e5ffdf1e20ba7f27caddf43825b80f01762ac24dbd"}, "tags": {"0.4.0--r3.4.1_0": "sha256:adbe6be11be5ab459a0334e5ffdf1e20ba7f27caddf43825b80f01762ac24dbd"}, "docker": "quay.io/biocontainers/r-ggsignif", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-ggsignif", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggsignif", "latest": {"0.4.0--r3.4.1_0": "sha256:0ed0e1f0593ef0a95d4a70c1bffb552ff17bf1d3bce7959c202a5d50acc9bb48"}, "tags": {"0.4.0--r3.4.1_0": "sha256:0ed0e1f0593ef0a95d4a70c1bffb552ff17bf1d3bce7959c202a5d50acc9bb48"}, "docker": "quay.io/biocontainers/r-ggsignif", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ggsignif.

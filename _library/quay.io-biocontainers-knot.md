@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/knot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/knot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/knot/container.yaml"
-updated_at: "2024-07-08 03:17:09.862602"
+updated_at: "2024-07-10 03:12:41.749595"
 latest: "1.0.0--1"
 container_url: "https://biocontainers.pro/tools/knot"
 
 versions:
  - "1.0.0--1"
 description: "shpc-registry automated BioContainers addition for knot"
-config: {"url": "https://biocontainers.pro/tools/knot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for knot", "latest": {"1.0.0--1": "sha256:f680b35239cd806eb9c387ed6644088c5f4664a959b7c0fc4a2784822291fb19"}, "tags": {"1.0.0--1": "sha256:f680b35239cd806eb9c387ed6644088c5f4664a959b7c0fc4a2784822291fb19"}, "docker": "quay.io/biocontainers/knot"}
+config: {"url": "https://biocontainers.pro/tools/knot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for knot", "latest": {"1.0.0--1": "sha256:23abcf5e8b3f7c265e2a1b370a84fc97c7a10265feeda1158214e133a6cb3f4f"}, "tags": {"1.0.0--1": "sha256:23abcf5e8b3f7c265e2a1b370a84fc97c7a10265feeda1158214e133a6cb3f4f"}, "docker": "quay.io/biocontainers/knot"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/knot.

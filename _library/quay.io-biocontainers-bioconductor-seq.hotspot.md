@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-seq.hotspot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seq.hotspot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seq.hotspot/container.yaml"
-updated_at: "2024-07-08 03:24:39.547111"
+updated_at: "2024-07-10 03:12:07.511525"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seq.hotspot"
 aliases:

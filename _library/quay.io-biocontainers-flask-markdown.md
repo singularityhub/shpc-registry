@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flask-markdown"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-markdown/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flask-markdown/container.yaml"
-updated_at: "2024-07-08 03:54:33.341961"
+updated_at: "2024-07-10 03:01:04.012683"
 latest: "0.3--py35_0"
 container_url: "https://biocontainers.pro/tools/flask-markdown"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "0.3--py35_0"
  - "0.3--py36_0"
 description: "shpc-registry automated BioContainers addition for flask-markdown"
-config: {"url": "https://biocontainers.pro/tools/flask-markdown", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flask-markdown", "latest": {"0.3--py35_0": "sha256:6de51f977e3c6afe16002f4af41b7376d5a4889e88294d10b03f41f8d051f515"}, "tags": {"0.3--py35_0": "sha256:6de51f977e3c6afe16002f4af41b7376d5a4889e88294d10b03f41f8d051f515", "0.3--py36_0": "sha256:54c86d06fef0a257db0938edc1ba2f46c6a78915176d4dab0eda4f6d66784221"}, "docker": "quay.io/biocontainers/flask-markdown", "aliases": {"flask": "/usr/local/bin/flask", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "markdown_py": "/usr/local/bin/markdown_py", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config"}}
+config: {"url": "https://biocontainers.pro/tools/flask-markdown", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flask-markdown", "latest": {"0.3--py35_0": "sha256:9889894328de9aa0551b1d513b83d9a735d111189bf1d103e5073fb2ff5f30cf"}, "tags": {"0.3--py35_0": "sha256:9889894328de9aa0551b1d513b83d9a735d111189bf1d103e5073fb2ff5f30cf", "0.3--py36_0": "sha256:dfe598bc9ecd5ad6bcec79dbeac0a03c220d08a46b2f07a31d8e142ed6231c21"}, "docker": "quay.io/biocontainers/flask-markdown", "aliases": {"flask": "/usr/local/bin/flask", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "markdown_py": "/usr/local/bin/markdown_py", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flask-markdown.

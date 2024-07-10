@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-atlasrdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-atlasrdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-atlasrdf/container.yaml"
-updated_at: "2024-07-08 03:09:37.461178"
+updated_at: "2024-07-10 02:53:23.326379"
 latest: "1.12.0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-atlasrdf"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.12.0--r3.3.2_0"
  - "1.12.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-atlasrdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-atlasrdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-atlasrdf", "latest": {"1.12.0--r3.3.2_0": "sha256:fe824641064fcb87443df4ab1fb0ada87d551b1fa1cc899faa15b9dd9f4c20ac"}, "tags": {"1.12.0--r3.3.2_0": "sha256:fe824641064fcb87443df4ab1fb0ada87d551b1fa1cc899faa15b9dd9f4c20ac", "1.12.0--r3.4.1_0": "sha256:92ffb9afac05c3d4ef7a49d17c3813711673c49674dd0d6a80127ab1814b890b"}, "docker": "quay.io/biocontainers/bioconductor-atlasrdf", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-atlasrdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-atlasrdf", "latest": {"1.12.0--r3.3.2_0": "sha256:715bbbd30973d16895e8d78dad0e0169bd2612ea684529b102a7b29bc295b237"}, "tags": {"1.12.0--r3.3.2_0": "sha256:715bbbd30973d16895e8d78dad0e0169bd2612ea684529b102a7b29bc295b237", "1.12.0--r3.4.1_0": "sha256:141e4e1b82734efeb94e5e32feb8d94a9bfc72cfc8ab597a3cf319d9727f5645"}, "docker": "quay.io/biocontainers/bioconductor-atlasrdf", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-atlasrdf.

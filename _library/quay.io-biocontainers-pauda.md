@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pauda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pauda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pauda/container.yaml"
-updated_at: "2024-07-08 03:17:18.112974"
+updated_at: "2024-07-10 03:19:48.862337"
 latest: "1.0.1--1"
 container_url: "https://biocontainers.pro/tools/pauda"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.0.1--1"
 description: "shpc-registry automated BioContainers addition for pauda"
-config: {"url": "https://biocontainers.pro/tools/pauda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pauda", "latest": {"1.0.1--1": "sha256:f143524e0bac41eea90cb4bc3eae046489f7f2ec36a02346694a3372cbda4ab8"}, "tags": {"1.0.1--1": "sha256:f143524e0bac41eea90cb4bc3eae046489f7f2ec36a02346694a3372cbda4ab8"}, "docker": "quay.io/biocontainers/pauda", "aliases": {"pauda-build": "/usr/local/bin/pauda-build", "pauda-run": "/usr/local/bin/pauda-run", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "extcheck": "/usr/local/bin/extcheck"}}
+config: {"url": "https://biocontainers.pro/tools/pauda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pauda", "latest": {"1.0.1--1": "sha256:6108574cdbe057e3d35429558e23a71f5055458164fea9b4540e5b980cb8fbaf"}, "tags": {"1.0.1--1": "sha256:6108574cdbe057e3d35429558e23a71f5055458164fea9b4540e5b980cb8fbaf"}, "docker": "quay.io/biocontainers/pauda", "aliases": {"pauda-build": "/usr/local/bin/pauda-build", "pauda-run": "/usr/local/bin/pauda-run", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "extcheck": "/usr/local/bin/extcheck"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pauda.

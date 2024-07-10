@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/glpk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/glpk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/glpk/container.yaml"
-updated_at: "2024-07-08 03:43:06.968582"
+updated_at: "2024-07-10 03:20:13.991242"
 latest: "4.57--0"
 container_url: "https://biocontainers.pro/tools/glpk"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "4.57--0"
 description: "shpc-registry automated BioContainers addition for glpk"
-config: {"url": "https://biocontainers.pro/tools/glpk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glpk", "latest": {"4.57--0": "sha256:c765c0eca79c1f23daea23cace20ff7b708f7247811b812c1e7f334a8373fabf"}, "tags": {"4.57--0": "sha256:c765c0eca79c1f23daea23cace20ff7b708f7247811b812c1e7f334a8373fabf"}, "docker": "quay.io/biocontainers/glpk", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/glpk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glpk", "latest": {"4.57--0": "sha256:79346b2853b46e4d6afc6e2d1282f7078f9200b266f4ee1c7e8bb889da1d6d41"}, "tags": {"4.57--0": "sha256:79346b2853b46e4d6afc6e2d1282f7078f9200b266f4ee1c7e8bb889da1d6d41"}, "docker": "quay.io/biocontainers/glpk", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/glpk.

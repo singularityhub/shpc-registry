@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/riboraptor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riboraptor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riboraptor/container.yaml"
-updated_at: "2024-07-08 03:46:09.215008"
+updated_at: "2024-07-10 03:22:19.187187"
 latest: "0.2.2--py_2"
 container_url: "https://biocontainers.pro/tools/riboraptor"
 
 versions:
  - "0.2.2--py_2"
 description: "shpc-registry automated BioContainers addition for riboraptor"
-config: {"url": "https://biocontainers.pro/tools/riboraptor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for riboraptor", "latest": {"0.2.2--py_2": "sha256:b515dbd3d0f1fd8e782ad2ddf809800bf467ad38b8926ec9148e7be6d417e113"}, "tags": {"0.2.2--py_2": "sha256:b515dbd3d0f1fd8e782ad2ddf809800bf467ad38b8926ec9148e7be6d417e113"}, "docker": "quay.io/biocontainers/riboraptor"}
+config: {"url": "https://biocontainers.pro/tools/riboraptor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for riboraptor", "latest": {"0.2.2--py_2": "sha256:a510463e49f2b2973fbeaa02d086815e8b5d47db151211d7845f82c84cbb4e02"}, "tags": {"0.2.2--py_2": "sha256:a510463e49f2b2973fbeaa02d086815e8b5d47db151211d7845f82c84cbb4e02"}, "docker": "quay.io/biocontainers/riboraptor"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/riboraptor.

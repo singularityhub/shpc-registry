@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/vardict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vardict/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vardict/container.yaml"
-updated_at: "2024-07-08 03:34:20.092753"
+updated_at: "2024-07-10 02:44:43.902036"
 latest: "2019.06.04--pl526_0"
 container_url: "https://biocontainers.pro/tools/vardict"
 
 versions:
  - "2019.06.04--pl526_0"
 description: "shpc-registry automated BioContainers addition for vardict"
-config: {"url": "https://biocontainers.pro/tools/vardict", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vardict", "latest": {"2019.06.04--pl526_0": "sha256:7ce6a6f58f45f3e62f7308675813e95eb215fc30852041f6e90c9dbf7d5f4bac"}, "tags": {"2019.06.04--pl526_0": "sha256:7ce6a6f58f45f3e62f7308675813e95eb215fc30852041f6e90c9dbf7d5f4bac"}, "docker": "quay.io/biocontainers/vardict"}
+config: {"url": "https://biocontainers.pro/tools/vardict", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vardict", "latest": {"2019.06.04--pl526_0": "sha256:a9746d4c7e9764b0c232dfb7ac1fd82fbdaca51ff326ae82a7da07a6f58d4616"}, "tags": {"2019.06.04--pl526_0": "sha256:a9746d4c7e9764b0c232dfb7ac1fd82fbdaca51ff326ae82a7da07a6f58d4616"}, "docker": "quay.io/biocontainers/vardict"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vardict.

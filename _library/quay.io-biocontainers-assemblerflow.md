@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/assemblerflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/assemblerflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/assemblerflow/container.yaml"
-updated_at: "2024-07-08 03:26:25.192856"
+updated_at: "2024-07-10 02:40:08.735888"
 latest: "1.1.0.post3--py_2"
 container_url: "https://biocontainers.pro/tools/assemblerflow"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "1.1.0.post3--py_2"
 description: "shpc-registry automated BioContainers addition for assemblerflow"
-config: {"url": "https://biocontainers.pro/tools/assemblerflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for assemblerflow", "latest": {"1.1.0.post3--py_2": "sha256:9dabb05c13c64ebe77abed3445458ccc92caecbe97295eb56d2c48188181246b"}, "tags": {"1.1.0.post3--py_2": "sha256:9dabb05c13c64ebe77abed3445458ccc92caecbe97295eb56d2c48188181246b"}, "docker": "quay.io/biocontainers/assemblerflow", "aliases": {"assemblerflow": "/usr/local/bin/assemblerflow", "nextflow": "/usr/local/bin/nextflow", "nextflow.bak": "/usr/local/bin/nextflow.bak", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat"}}
+config: {"url": "https://biocontainers.pro/tools/assemblerflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for assemblerflow", "latest": {"1.1.0.post3--py_2": "sha256:4f30e05a531accd875343d8c07aa9af571c5e4996b0fe87a3d2e3a12cde1c8bb"}, "tags": {"1.1.0.post3--py_2": "sha256:4f30e05a531accd875343d8c07aa9af571c5e4996b0fe87a3d2e3a12cde1c8bb"}, "docker": "quay.io/biocontainers/assemblerflow", "aliases": {"assemblerflow": "/usr/local/bin/assemblerflow", "nextflow": "/usr/local/bin/nextflow", "nextflow.bak": "/usr/local/bin/nextflow.bak", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/assemblerflow.

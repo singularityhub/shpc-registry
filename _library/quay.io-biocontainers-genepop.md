@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/genepop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genepop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genepop/container.yaml"
-updated_at: "2024-07-08 03:35:44.334480"
-latest: "4.6--0"
+updated_at: "2024-07-10 03:13:53.794364"
+latest: "4.8.2--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/genepop"
 aliases:
  - "Genepop"
 versions:
  - "4.6--0"
+ - "4.8.2--h4ac6f70_0"
 description: "shpc-registry automated BioContainers addition for genepop"
-config: {"url": "https://biocontainers.pro/tools/genepop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genepop", "latest": {"4.6--0": "sha256:9dee578651fa195029ccff712e8fb63835bdfd20e3135dd3125e21b662082cb4"}, "tags": {"4.6--0": "sha256:9dee578651fa195029ccff712e8fb63835bdfd20e3135dd3125e21b662082cb4"}, "docker": "quay.io/biocontainers/genepop", "aliases": {"Genepop": "/usr/local/bin/Genepop"}}
+config: {"url": "https://biocontainers.pro/tools/genepop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genepop", "latest": {"4.8.2--h4ac6f70_0": "sha256:573a07924c3e5335b1fea0b3301b7c8455a05e92d5cfe743634e9034037cf07c"}, "tags": {"4.6--0": "sha256:90ac36bfcb0882aadc7e365fb540549208fa094e0d23c401ded112c59c5a89bc", "4.8.2--h4ac6f70_0": "sha256:573a07924c3e5335b1fea0b3301b7c8455a05e92d5cfe743634e9034037cf07c"}, "docker": "quay.io/biocontainers/genepop", "aliases": {"Genepop": "/usr/local/bin/Genepop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genepop.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/genepop
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genepop:4.6--0
+$ shpc install quay.io/biocontainers/genepop:4.8.2--h4ac6f70_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genepop/4.6--0
-$ module help quay.io/biocontainers/genepop/4.6--0
+$ module load quay.io/biocontainers/genepop/4.8.2--h4ac6f70_0
+$ module help quay.io/biocontainers/genepop/4.8.2--h4ac6f70_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

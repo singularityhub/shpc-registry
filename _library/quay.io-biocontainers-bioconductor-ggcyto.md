@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ggcyto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggcyto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggcyto/container.yaml"
-updated_at: "2024-07-08 03:46:16.103929"
+updated_at: "2024-07-10 03:08:57.732024"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggcyto"
 
@@ -18,7 +18,7 @@ versions:
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ggcyto"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ggcyto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ggcyto", "latest": {"1.30.0--r43hdfd78af_0": "sha256:7182467ecdde8c02879f21072c02023c596261fbfa064a8bfc7c799bb97755c0"}, "tags": {"1.8.2--r351_0": "sha256:eeb19f86d21dfddf29982993f3346c89883a325e5e5c923a29c75230ecbfe64b", "1.26.0--r42hdfd78af_0": "sha256:d0066f66e8f0005338c55876ee14456c3bbdc7916e1ef787cf71830932ec6165", "1.22.0--r41hdfd78af_0": "sha256:65f987da1fc57a70364d6e4a4ad2299012d07a91f47252722a340ac408a1daac", "1.20.0--r41hdfd78af_0": "sha256:357e45b7fc73e9230482b61ebcd131d30ed407cfbe1e130bcc16af00f3d2d926", "1.18.0--r40hdfd78af_1": "sha256:06ab331fe0308c9c012cacd896e5541446e3072c324406f7e83e0957a9b17673", "1.16.0--r40_0": "sha256:224ec8d998637f72f63de9b4ab60b1f8bcad340153f70a02cb8331be3cb470ad", "1.28.0--r43hdfd78af_0": "sha256:bade921444d11fed2ca0b2a242c19515b385daec297c6f7726450d9b3752935c", "1.30.0--r43hdfd78af_0": "sha256:7182467ecdde8c02879f21072c02023c596261fbfa064a8bfc7c799bb97755c0"}, "docker": "quay.io/biocontainers/bioconductor-ggcyto"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ggcyto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ggcyto", "latest": {"1.30.0--r43hdfd78af_0": "sha256:7182467ecdde8c02879f21072c02023c596261fbfa064a8bfc7c799bb97755c0"}, "tags": {"1.8.2--r351_0": "sha256:4633715e0953a21bc2ce3aa822674cfe71e2572f9370314ad919b69e8ef5de2a", "1.26.0--r42hdfd78af_0": "sha256:d0066f66e8f0005338c55876ee14456c3bbdc7916e1ef787cf71830932ec6165", "1.22.0--r41hdfd78af_0": "sha256:65f987da1fc57a70364d6e4a4ad2299012d07a91f47252722a340ac408a1daac", "1.20.0--r41hdfd78af_0": "sha256:357e45b7fc73e9230482b61ebcd131d30ed407cfbe1e130bcc16af00f3d2d926", "1.18.0--r40hdfd78af_1": "sha256:06ab331fe0308c9c012cacd896e5541446e3072c324406f7e83e0957a9b17673", "1.16.0--r40_0": "sha256:224ec8d998637f72f63de9b4ab60b1f8bcad340153f70a02cb8331be3cb470ad", "1.28.0--r43hdfd78af_0": "sha256:bade921444d11fed2ca0b2a242c19515b385daec297c6f7726450d9b3752935c", "1.30.0--r43hdfd78af_0": "sha256:7182467ecdde8c02879f21072c02023c596261fbfa064a8bfc7c799bb97755c0"}, "docker": "quay.io/biocontainers/bioconductor-ggcyto"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ggcyto.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nvc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nvc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nvc/container.yaml"
-updated_at: "2024-07-08 03:53:14.643328"
+updated_at: "2024-07-10 03:00:02.871173"
 latest: "0.0.4--py_2"
 container_url: "https://biocontainers.pro/tools/nvc"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.0.4--py_2"
 description: "shpc-registry automated BioContainers addition for nvc"
-config: {"url": "https://biocontainers.pro/tools/nvc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nvc", "latest": {"0.0.4--py_2": "sha256:77fa42fa26860e7e2c7502788296f2c96bdb914aa8ced1e14827d28706b38a3d"}, "tags": {"0.0.4--py_2": "sha256:77fa42fa26860e7e2c7502788296f2c96bdb914aa8ced1e14827d28706b38a3d"}, "docker": "quay.io/biocontainers/nvc", "aliases": {"naive_variant_caller.py": "/usr/local/bin/naive_variant_caller.py", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/nvc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nvc", "latest": {"0.0.4--py_2": "sha256:5123758845d4b9f057fe6395707e92890c44157dc17809523292662014f1616d"}, "tags": {"0.0.4--py_2": "sha256:5123758845d4b9f057fe6395707e92890c44157dc17809523292662014f1616d"}, "docker": "quay.io/biocontainers/nvc", "aliases": {"naive_variant_caller.py": "/usr/local/bin/naive_variant_caller.py", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nvc.

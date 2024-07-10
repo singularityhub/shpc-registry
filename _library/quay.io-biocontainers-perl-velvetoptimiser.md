@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-velvetoptimiser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-velvetoptimiser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-velvetoptimiser/container.yaml"
-updated_at: "2024-07-08 03:26:15.604902"
+updated_at: "2024-07-10 03:03:40.394380"
 latest: "2.2.6--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-velvetoptimiser"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "2.2.6--pl526_0"
 description: "shpc-registry automated BioContainers addition for perl-velvetoptimiser"
-config: {"url": "https://biocontainers.pro/tools/perl-velvetoptimiser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-velvetoptimiser", "latest": {"2.2.6--pl526_0": "sha256:172b538aeeb671df7918d6f7db02f9782b4c39c7571c09a536d32098d022b231"}, "tags": {"2.2.6--pl526_0": "sha256:172b538aeeb671df7918d6f7db02f9782b4c39c7571c09a536d32098d022b231"}, "docker": "quay.io/biocontainers/perl-velvetoptimiser", "aliases": {"VelvetOptimiser.pl": "/usr/local/bin/VelvetOptimiser.pl", "velvetg": "/usr/local/bin/velvetg", "velveth": "/usr/local/bin/velveth", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "gdlib-config": "/usr/local/bin/gdlib-config", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee", "baseml": "/usr/local/bin/baseml"}}
+config: {"url": "https://biocontainers.pro/tools/perl-velvetoptimiser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-velvetoptimiser", "latest": {"2.2.6--pl526_0": "sha256:3ffddcf31743bfdde480dd92d7c160bda6332fc6cdefdd840cafdf573d473516"}, "tags": {"2.2.6--pl526_0": "sha256:3ffddcf31743bfdde480dd92d7c160bda6332fc6cdefdd840cafdf573d473516"}, "docker": "quay.io/biocontainers/perl-velvetoptimiser", "aliases": {"VelvetOptimiser.pl": "/usr/local/bin/VelvetOptimiser.pl", "velvetg": "/usr/local/bin/velvetg", "velveth": "/usr/local/bin/velveth", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "gdlib-config": "/usr/local/bin/gdlib-config", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee", "baseml": "/usr/local/bin/baseml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-velvetoptimiser.

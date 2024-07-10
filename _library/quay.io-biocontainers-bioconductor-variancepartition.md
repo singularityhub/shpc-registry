@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-variancepartition"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-variancepartition/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-variancepartition/container.yaml"
-updated_at: "2024-07-08 03:45:52.262410"
+updated_at: "2024-07-10 02:42:30.387909"
 latest: "1.32.2--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-variancepartition"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.30.2--r43hdfd78af_0"
  - "1.32.2--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-variancepartition"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-variancepartition", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-variancepartition", "latest": {"1.32.2--r43hdfd78af_0": "sha256:95c5c2f1d6229be81dd30fcb6a4fe745872fbe2d0494e2e294dc85054a77a9d5"}, "tags": {"1.8.1--r3.4.1_0": "sha256:21a528b07a13d6e0a9f59f967bac45eac9adfcdbfa55c63723f091b0fedd0ef4", "1.28.0--r42hdfd78af_0": "sha256:ba9f64ba8fb73c88c433672c6b0a8cb76a54f4411c18841dcdf87b1453f40829", "1.24.0--r41hdfd78af_0": "sha256:96087dab7d8ebe09c66c1e7c532839285731939923388ebd4b4f900e1cd4324d", "1.22.0--r41hdfd78af_0": "sha256:fd3b843151eb534889323dec2a9c387ec172a6fb9861696a1f8883c2179f7c3d", "1.20.0--r40hdfd78af_1": "sha256:02df9ecda0a2282d38877a12381bd9e96e2870cd04a090c3f0e1e1b3bd2dddaa", "1.18.0--r40_0": "sha256:a93409035516a2d785174dc194060b08d3c148b2ef20fcdce56e4d24f7f806d1", "1.30.2--r43hdfd78af_0": "sha256:a9a8a7be36161b07920326c3769889c627a13f6df50ea61ba36025a3fc88a08f", "1.32.2--r43hdfd78af_0": "sha256:95c5c2f1d6229be81dd30fcb6a4fe745872fbe2d0494e2e294dc85054a77a9d5"}, "docker": "quay.io/biocontainers/bioconductor-variancepartition", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-variancepartition", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-variancepartition", "latest": {"1.32.2--r43hdfd78af_0": "sha256:95c5c2f1d6229be81dd30fcb6a4fe745872fbe2d0494e2e294dc85054a77a9d5"}, "tags": {"1.8.1--r3.4.1_0": "sha256:ed9a4f0082e31bf0e7d5234f7dd38cc2404024e5a867fc7663e87dafa09341db", "1.28.0--r42hdfd78af_0": "sha256:ba9f64ba8fb73c88c433672c6b0a8cb76a54f4411c18841dcdf87b1453f40829", "1.24.0--r41hdfd78af_0": "sha256:96087dab7d8ebe09c66c1e7c532839285731939923388ebd4b4f900e1cd4324d", "1.22.0--r41hdfd78af_0": "sha256:fd3b843151eb534889323dec2a9c387ec172a6fb9861696a1f8883c2179f7c3d", "1.20.0--r40hdfd78af_1": "sha256:02df9ecda0a2282d38877a12381bd9e96e2870cd04a090c3f0e1e1b3bd2dddaa", "1.18.0--r40_0": "sha256:a93409035516a2d785174dc194060b08d3c148b2ef20fcdce56e4d24f7f806d1", "1.30.2--r43hdfd78af_0": "sha256:a9a8a7be36161b07920326c3769889c627a13f6df50ea61ba36025a3fc88a08f", "1.32.2--r43hdfd78af_0": "sha256:95c5c2f1d6229be81dd30fcb6a4fe745872fbe2d0494e2e294dc85054a77a9d5"}, "docker": "quay.io/biocontainers/bioconductor-variancepartition", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-variancepartition.

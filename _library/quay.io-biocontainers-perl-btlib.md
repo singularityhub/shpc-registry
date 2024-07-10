@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-btlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-btlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-btlib/container.yaml"
-updated_at: "2024-07-08 03:30:19.327139"
+updated_at: "2024-07-10 03:10:00.842684"
 latest: "0.19--0"
 container_url: "https://biocontainers.pro/tools/perl-btlib"
 aliases:
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "0.19--0"
 description: "shpc-registry automated BioContainers addition for perl-btlib"
-config: {"url": "https://biocontainers.pro/tools/perl-btlib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-btlib", "latest": {"0.19--0": "sha256:0c456f14cc22781b2b1b098ac1c29adb63b0a7feecc50504a5083fd052e5162c"}, "tags": {"0.19--0": "sha256:0c456f14cc22781b2b1b098ac1c29adb63b0a7feecc50504a5083fd052e5162c"}, "docker": "quay.io/biocontainers/perl-btlib", "aliases": {"fetch": "/usr/local/bin/fetch", "indexer": "/usr/local/bin/indexer", "netfetch": "/usr/local/bin/netfetch", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-btlib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-btlib", "latest": {"0.19--0": "sha256:43a01fe79d549316e49ed40b6c69a91bd0c650d086c992ff36eb20542a33f7f7"}, "tags": {"0.19--0": "sha256:43a01fe79d549316e49ed40b6c69a91bd0c650d086c992ff36eb20542a33f7f7"}, "docker": "quay.io/biocontainers/perl-btlib", "aliases": {"fetch": "/usr/local/bin/fetch", "indexer": "/usr/local/bin/indexer", "netfetch": "/usr/local/bin/netfetch", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-btlib.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gwasexacthw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gwasexacthw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gwasexacthw/container.yaml"
-updated_at: "2024-07-08 03:45:09.979179"
+updated_at: "2024-07-10 02:50:24.437431"
 latest: "1.01--r36hcdcec82_1"
 container_url: "https://biocontainers.pro/tools/r-gwasexacthw"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.01--r36hcdcec82_1"
 description: "shpc-registry automated BioContainers addition for r-gwasexacthw"
-config: {"url": "https://biocontainers.pro/tools/r-gwasexacthw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gwasexacthw", "latest": {"1.01--r36hcdcec82_1": "sha256:a76281574534ffa9e1b73b021d43bf0701a5e87b5a7231bde2f06b56a301c082"}, "tags": {"1.01--r36hcdcec82_1": "sha256:a76281574534ffa9e1b73b021d43bf0701a5e87b5a7231bde2f06b56a301c082"}, "docker": "quay.io/biocontainers/r-gwasexacthw", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-gwasexacthw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gwasexacthw", "latest": {"1.01--r36hcdcec82_1": "sha256:b39e6b9254237a195d43ab382a2cd473f49c1a2c68dad205407aaf192475eb98"}, "tags": {"1.01--r36hcdcec82_1": "sha256:b39e6b9254237a195d43ab382a2cd473f49c1a2c68dad205407aaf192475eb98"}, "docker": "quay.io/biocontainers/r-gwasexacthw", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gwasexacthw.

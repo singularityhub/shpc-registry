@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oauth2client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oauth2client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oauth2client/container.yaml"
-updated_at: "2024-07-08 03:41:15.253808"
+updated_at: "2024-07-10 03:20:31.981051"
 latest: "1.5.2--py36_0"
 container_url: "https://biocontainers.pro/tools/oauth2client"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "2to3-3.6"
 versions:
  - "1.5.2--py36_0"
+ - "1.5.2--py35_0"
 description: "shpc-registry automated BioContainers addition for oauth2client"
-config: {"url": "https://biocontainers.pro/tools/oauth2client", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oauth2client", "latest": {"1.5.2--py36_0": "sha256:1e79da7fe2a2fb5672670f5b2427b91a74f3166c6b8fa6fce824588e62fccb16"}, "tags": {"1.5.2--py36_0": "sha256:1e79da7fe2a2fb5672670f5b2427b91a74f3166c6b8fa6fce824588e62fccb16"}, "docker": "quay.io/biocontainers/oauth2client", "aliases": {"pyrsa-decrypt-bigfile": "/usr/local/bin/pyrsa-decrypt-bigfile", "pyrsa-encrypt-bigfile": "/usr/local/bin/pyrsa-encrypt-bigfile", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "2to3-3.6": "/usr/local/bin/2to3-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/oauth2client", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oauth2client", "latest": {"1.5.2--py36_0": "sha256:8cc067c1d8ddad911f38369f27ce02cd245bc9eeac528c71a4e0a399560cfd03"}, "tags": {"1.5.2--py36_0": "sha256:8cc067c1d8ddad911f38369f27ce02cd245bc9eeac528c71a4e0a399560cfd03", "1.5.2--py35_0": "sha256:b762f201981ab0632c8f17b4be3a9730294ae62bb2f4293d68690a3f99cdef77"}, "docker": "quay.io/biocontainers/oauth2client", "aliases": {"pyrsa-decrypt-bigfile": "/usr/local/bin/pyrsa-decrypt-bigfile", "pyrsa-encrypt-bigfile": "/usr/local/bin/pyrsa-encrypt-bigfile", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "2to3-3.6": "/usr/local/bin/2to3-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oauth2client.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lydata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lydata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lydata/container.yaml"
-updated_at: "2024-07-08 03:13:55.096521"
+updated_at: "2024-07-10 02:57:27.365642"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lydata"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-lydata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lydata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lydata", "latest": {"1.28.0--r43hdfd78af_0": "sha256:15ea43d51b8543c5d2ddb56c42bcd8571b9e8b5d8c4f1dbd6a494d121a8d8c68"}, "tags": {"1.8.0--r351_0": "sha256:55812217af81e56f7c995caf6fe94b5ca811f02590f2b4bf90bd85e04159db70", "1.23.0--r42hdfd78af_0": "sha256:16bf04321c08e20859e15b34703cceed7ccc529a48f23a64b2ff1546b3d7da79", "1.20.0--r41hdfd78af_1": "sha256:bde2c29b791b1d9aba6fb5552602249336501eadd0de2d570355c64b130c006b", "1.18.0--r41hdfd78af_0": "sha256:9e867d6475fdc57b23f660e61f79bc300470a2d795e36df49bcc9dd61433a602", "1.16.0--r40hdfd78af_1": "sha256:2366bcfde1d2e4d4d579d4603d6c30bcdff125aed2875376e56efed0e6ccacb7", "1.15.0--r40_0": "sha256:7c666bf6c981793b42e681e4a27ab6535ca55fe8f44b1d0c8a86ec60e322b197", "1.26.0--r43hdfd78af_0": "sha256:e3a0f88f6fdb1e71998a953b9193191eb63c7769278a60edcbcf31c84d12876e", "1.28.0--r43hdfd78af_0": "sha256:15ea43d51b8543c5d2ddb56c42bcd8571b9e8b5d8c4f1dbd6a494d121a8d8c68"}, "docker": "quay.io/biocontainers/bioconductor-lydata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lydata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lydata", "latest": {"1.28.0--r43hdfd78af_0": "sha256:15ea43d51b8543c5d2ddb56c42bcd8571b9e8b5d8c4f1dbd6a494d121a8d8c68"}, "tags": {"1.8.0--r351_0": "sha256:930a880caf30c3523505db3633be0b8d99cfe91de272eb1244a97c82416b5db0", "1.23.0--r42hdfd78af_0": "sha256:16bf04321c08e20859e15b34703cceed7ccc529a48f23a64b2ff1546b3d7da79", "1.20.0--r41hdfd78af_1": "sha256:bde2c29b791b1d9aba6fb5552602249336501eadd0de2d570355c64b130c006b", "1.18.0--r41hdfd78af_0": "sha256:9e867d6475fdc57b23f660e61f79bc300470a2d795e36df49bcc9dd61433a602", "1.16.0--r40hdfd78af_1": "sha256:2366bcfde1d2e4d4d579d4603d6c30bcdff125aed2875376e56efed0e6ccacb7", "1.15.0--r40_0": "sha256:7c666bf6c981793b42e681e4a27ab6535ca55fe8f44b1d0c8a86ec60e322b197", "1.26.0--r43hdfd78af_0": "sha256:e3a0f88f6fdb1e71998a953b9193191eb63c7769278a60edcbcf31c84d12876e", "1.28.0--r43hdfd78af_0": "sha256:15ea43d51b8543c5d2ddb56c42bcd8571b9e8b5d8c4f1dbd6a494d121a8d8c68"}, "docker": "quay.io/biocontainers/bioconductor-lydata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lydata.

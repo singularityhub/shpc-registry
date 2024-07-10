@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phold/container.yaml"
-updated_at: "2024-07-08 03:38:22.381066"
+updated_at: "2024-07-10 03:04:18.661126"
 latest: "0.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phold"
 aliases:

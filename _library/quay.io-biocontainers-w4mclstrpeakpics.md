@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/w4mclstrpeakpics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/w4mclstrpeakpics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/w4mclstrpeakpics/container.yaml"
-updated_at: "2024-07-08 03:41:57.902840"
+updated_at: "2024-07-10 03:06:26.480067"
 latest: "0.98.1--r351_1"
 container_url: "https://biocontainers.pro/tools/w4mclstrpeakpics"
 
 versions:
  - "0.98.1--r351_1"
 description: "shpc-registry automated BioContainers addition for w4mclstrpeakpics"
-config: {"url": "https://biocontainers.pro/tools/w4mclstrpeakpics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for w4mclstrpeakpics", "latest": {"0.98.1--r351_1": "sha256:c474a6bf024776b3fb303c8bc8325ee4dda57ec3efb72b2629d3b55024eb042a"}, "tags": {"0.98.1--r351_1": "sha256:c474a6bf024776b3fb303c8bc8325ee4dda57ec3efb72b2629d3b55024eb042a"}, "docker": "quay.io/biocontainers/w4mclstrpeakpics"}
+config: {"url": "https://biocontainers.pro/tools/w4mclstrpeakpics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for w4mclstrpeakpics", "latest": {"0.98.1--r351_1": "sha256:19edaa318ec501a405373418aa347bd4de0ea44720e5a69e1bfabc63a5704971"}, "tags": {"0.98.1--r351_1": "sha256:19edaa318ec501a405373418aa347bd4de0ea44720e5a69e1bfabc63a5704971"}, "docker": "quay.io/biocontainers/w4mclstrpeakpics"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/w4mclstrpeakpics.

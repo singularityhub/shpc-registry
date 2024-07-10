@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanoraw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoraw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoraw/container.yaml"
-updated_at: "2024-07-08 03:09:24.484300"
+updated_at: "2024-07-10 02:37:21.769502"
 latest: "0.5--py_3"
 container_url: "https://biocontainers.pro/tools/nanoraw"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.5--py_3"
 description: "shpc-registry automated BioContainers addition for nanoraw"
-config: {"url": "https://biocontainers.pro/tools/nanoraw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoraw", "latest": {"0.5--py_3": "sha256:db7ed0855361274788e57ba99a506944c622a5c9f286a446ac19a055506b5f49"}, "tags": {"0.5--py_3": "sha256:db7ed0855361274788e57ba99a506944c622a5c9f286a446ac19a055506b5f49"}, "docker": "quay.io/biocontainers/nanoraw", "aliases": {"graphmap": "/usr/local/bin/graphmap", "nanoraw": "/usr/local/bin/nanoraw", "unit2": "/usr/local/bin/unit2", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7"}}
+config: {"url": "https://biocontainers.pro/tools/nanoraw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoraw", "latest": {"0.5--py_3": "sha256:495f5f997513d6ddda71255c099e6735808d02b57633087cbdcd5942f95100c2"}, "tags": {"0.5--py_3": "sha256:495f5f997513d6ddda71255c099e6735808d02b57633087cbdcd5942f95100c2"}, "docker": "quay.io/biocontainers/nanoraw", "aliases": {"graphmap": "/usr/local/bin/graphmap", "nanoraw": "/usr/local/bin/nanoraw", "unit2": "/usr/local/bin/unit2", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanoraw.

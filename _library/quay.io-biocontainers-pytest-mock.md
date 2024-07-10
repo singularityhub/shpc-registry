@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytest-mock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytest-mock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytest-mock/container.yaml"
-updated_at: "2024-07-08 03:54:47.687185"
+updated_at: "2024-07-10 03:09:17.054197"
 latest: "1.1--py36_0"
 container_url: "https://biocontainers.pro/tools/pytest-mock"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "python3.6m"
 versions:
  - "1.1--py36_0"
+ - "1.1--py35_0"
 description: "shpc-registry automated BioContainers addition for pytest-mock"
-config: {"url": "https://biocontainers.pro/tools/pytest-mock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytest-mock", "latest": {"1.1--py36_0": "sha256:4c861e9bf3ba68b231c732f7b3b407796725321e5cd81d1a867a281bece828af"}, "tags": {"1.1--py36_0": "sha256:4c861e9bf3ba68b231c732f7b3b407796725321e5cd81d1a867a281bece828af"}, "docker": "quay.io/biocontainers/pytest-mock", "aliases": {"pbr": "/usr/local/bin/pbr", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m"}}
+config: {"url": "https://biocontainers.pro/tools/pytest-mock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytest-mock", "latest": {"1.1--py36_0": "sha256:e95a61158b4e2d793fb05b344e506a33215dafc96628f618a4c8521ebb97f67a"}, "tags": {"1.1--py36_0": "sha256:e95a61158b4e2d793fb05b344e506a33215dafc96628f618a4c8521ebb97f67a", "1.1--py35_0": "sha256:f683d62e35545642a8b5b78241a8f167785514da90d1340884552edc3390bd6f"}, "docker": "quay.io/biocontainers/pytest-mock", "aliases": {"pbr": "/usr/local/bin/pbr", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytest-mock.

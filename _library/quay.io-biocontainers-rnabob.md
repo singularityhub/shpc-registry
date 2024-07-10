@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnabob"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnabob/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnabob/container.yaml"
-updated_at: "2024-07-08 03:30:48.347452"
+updated_at: "2024-07-10 02:42:35.107121"
 latest: "2.2.1--h470a237_1"
 container_url: "https://biocontainers.pro/tools/rnabob"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "2.2.1--h470a237_1"
 description: "shpc-registry automated BioContainers addition for rnabob"
-config: {"url": "https://biocontainers.pro/tools/rnabob", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnabob", "latest": {"2.2.1--h470a237_1": "sha256:08f5562582fbad7bf3cdc5d6407870116b7d1bc9bc8a59e9de74511c7b3e4d6a"}, "tags": {"2.2.1--h470a237_1": "sha256:08f5562582fbad7bf3cdc5d6407870116b7d1bc9bc8a59e9de74511c7b3e4d6a"}, "docker": "quay.io/biocontainers/rnabob", "aliases": {"rnabob": "/usr/local/bin/rnabob"}}
+config: {"url": "https://biocontainers.pro/tools/rnabob", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnabob", "latest": {"2.2.1--h470a237_1": "sha256:5263f2bc5cc39767251be81b2045b2fb4f97aaa6ed14d52fdd8fedcda48052a7"}, "tags": {"2.2.1--h470a237_1": "sha256:5263f2bc5cc39767251be81b2045b2fb4f97aaa6ed14d52fdd8fedcda48052a7"}, "docker": "quay.io/biocontainers/rnabob", "aliases": {"rnabob": "/usr/local/bin/rnabob"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnabob.

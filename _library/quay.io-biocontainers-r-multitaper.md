@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-multitaper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-multitaper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-multitaper/container.yaml"
-updated_at: "2024-07-08 03:35:10.628305"
+updated_at: "2024-07-10 02:52:13.842888"
 latest: "1.0.11--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-multitaper"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.0.11--r3.3.2_0"
+ - "1.0.11--0"
 description: "shpc-registry automated BioContainers addition for r-multitaper"
-config: {"url": "https://biocontainers.pro/tools/r-multitaper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-multitaper", "latest": {"1.0.11--r3.3.2_0": "sha256:f2ea1bf676b4cf6a7bf23d3c6a8a9bd353e9de7b62f7a5156d3ddbdb923ca945"}, "tags": {"1.0.11--r3.3.2_0": "sha256:f2ea1bf676b4cf6a7bf23d3c6a8a9bd353e9de7b62f7a5156d3ddbdb923ca945"}, "docker": "quay.io/biocontainers/r-multitaper", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-multitaper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-multitaper", "latest": {"1.0.11--r3.3.2_0": "sha256:abad2fba04e5af47afd8cc29854b3d770814aa14aefc3cc62869521c7abb240e"}, "tags": {"1.0.11--r3.3.2_0": "sha256:abad2fba04e5af47afd8cc29854b3d770814aa14aefc3cc62869521c7abb240e", "1.0.11--0": "sha256:e25a4b7e9c52dfc7536bfe56cb848366d5037c45aee0ff35b97dbbf3bf4aad91"}, "docker": "quay.io/biocontainers/r-multitaper", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-multitaper.

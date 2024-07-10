@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellgrowth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellgrowth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellgrowth/container.yaml"
-updated_at: "2024-07-08 03:24:03.458216"
+updated_at: "2024-07-10 02:54:01.125334"
 latest: "1.30.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellgrowth"
 aliases:

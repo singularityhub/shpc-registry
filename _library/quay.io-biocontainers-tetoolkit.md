@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tetoolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tetoolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tetoolkit/container.yaml"
-updated_at: "2024-07-08 03:52:13.588328"
+updated_at: "2024-07-10 02:48:49.574531"
 latest: "2.0.3--py_1"
 container_url: "https://biocontainers.pro/tools/tetoolkit"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "2.0.3--py_1"
 description: "shpc-registry automated BioContainers addition for tetoolkit"
-config: {"url": "https://biocontainers.pro/tools/tetoolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tetoolkit", "latest": {"2.0.3--py_1": "sha256:13035591e530c3b924bc8e83b979ca519140be38b6b904ffc42a4eb560a8f74a"}, "tags": {"2.0.3--py_1": "sha256:13035591e530c3b924bc8e83b979ca519140be38b6b904ffc42a4eb560a8f74a"}, "docker": "quay.io/biocontainers/tetoolkit", "aliases": {"TEcount": "/usr/local/bin/TEcount", "TEtranscripts": "/usr/local/bin/TEtranscripts", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2"}}
+config: {"url": "https://biocontainers.pro/tools/tetoolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tetoolkit", "latest": {"2.0.3--py_1": "sha256:006b28cfbb314b06c8b1c4c4864b7b5369bbd135ffb8e741615e0b61fce665a4"}, "tags": {"2.0.3--py_1": "sha256:006b28cfbb314b06c8b1c4c4864b7b5369bbd135ffb8e741615e0b61fce665a4"}, "docker": "quay.io/biocontainers/tetoolkit", "aliases": {"TEcount": "/usr/local/bin/TEcount", "TEtranscripts": "/usr/local/bin/TEtranscripts", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tetoolkit.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pileometh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pileometh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pileometh/container.yaml"
-updated_at: "2024-07-08 03:22:27.845902"
+updated_at: "2024-07-10 03:06:16.152362"
 latest: "0.1.13--1"
 container_url: "https://biocontainers.pro/tools/pileometh"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "0.1.13--1"
 description: "shpc-registry automated BioContainers addition for pileometh"
-config: {"url": "https://biocontainers.pro/tools/pileometh", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pileometh", "latest": {"0.1.13--1": "sha256:0ab9b66219ea88cd8ed68f75c0a1db93e6037902216f0e4e21312454ac71457f"}, "tags": {"0.1.13--1": "sha256:0ab9b66219ea88cd8ed68f75c0a1db93e6037902216f0e4e21312454ac71457f"}, "docker": "quay.io/biocontainers/pileometh", "aliases": {"PileOMeth": "/usr/local/bin/PileOMeth"}}
+config: {"url": "https://biocontainers.pro/tools/pileometh", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pileometh", "latest": {"0.1.13--1": "sha256:f9fa605d8a8b41d389fbba7f8d963e273e58d9b3959424e37f8e367935e8ecbc"}, "tags": {"0.1.13--1": "sha256:f9fa605d8a8b41d389fbba7f8d963e273e58d9b3959424e37f8e367935e8ecbc"}, "docker": "quay.io/biocontainers/pileometh", "aliases": {"PileOMeth": "/usr/local/bin/PileOMeth"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pileometh.

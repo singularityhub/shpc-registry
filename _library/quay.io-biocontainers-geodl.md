@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/geodl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/geodl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/geodl/container.yaml"
-updated_at: "2024-07-08 03:49:20.457770"
+updated_at: "2024-07-10 03:13:46.246636"
 latest: "1.0b5.1--py_1"
 container_url: "https://biocontainers.pro/tools/geodl"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.0b5.1--py_1"
 description: "shpc-registry automated BioContainers addition for geodl"
-config: {"url": "https://biocontainers.pro/tools/geodl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for geodl", "latest": {"1.0b5.1--py_1": "sha256:b9e06fb8125b41c091135a16b40893eba0567cf5507216606a250e91b850704d"}, "tags": {"1.0b5.1--py_1": "sha256:b9e06fb8125b41c091135a16b40893eba0567cf5507216606a250e91b850704d"}, "docker": "quay.io/biocontainers/geodl", "aliases": {"geoDL": "/usr/local/bin/geoDL", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/geodl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for geodl", "latest": {"1.0b5.1--py_1": "sha256:3021e3bf933f0ab13f02e5c0b726d87f62a9a465ff6679fefb37971039038ddb"}, "tags": {"1.0b5.1--py_1": "sha256:3021e3bf933f0ab13f02e5c0b726d87f62a9a465ff6679fefb37971039038ddb"}, "docker": "quay.io/biocontainers/geodl", "aliases": {"geoDL": "/usr/local/bin/geoDL", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/geodl.
