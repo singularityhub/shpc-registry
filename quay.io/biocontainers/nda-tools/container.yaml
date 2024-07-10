@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/nda-tools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nda-tools
 latest:
-  0.2.26--pyh7cba7a3_0: sha256:0cfe8c14d9e649e0c4517043b25a00d1c8de12eb7424f442efe1940b7b6a8858
+  0.2.27--pyh7cba7a3_0: sha256:485affc104db3237b87aef467139229cab0e8a11536a9d49cb9a55e12857861f
 tags:
   0.2.23--pyh7cba7a3_0: sha256:fd0c43e10bf116b3d6ced7db781c4d2235f62c0182230608cf2346b31515e784
   0.2.24--pyh7cba7a3_0: sha256:e4c2de910fe7f473ee7717e93cf3b07af437635501a515da97972055327388b3
   0.2.25--pyh7cba7a3_0: sha256:9622ceec0622da71868ce0b5d643d03fa77de0b1723ee1d4de24bdf26c4d104b
   0.2.26--pyh7cba7a3_0: sha256:0cfe8c14d9e649e0c4517043b25a00d1c8de12eb7424f442efe1940b7b6a8858
+  0.2.27--pyh7cba7a3_0: sha256:485affc104db3237b87aef467139229cab0e8a11536a9d49cb9a55e12857861f
 docker: quay.io/biocontainers/nda-tools
 aliases:
   downloadcmd: /usr/local/bin/downloadcmd

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-assign
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-assign
 latest:
-  1.36.0--r43hdfd78af_0: sha256:c0dda534195618e2534ca7a22cc6199aade203cb469a438faaf010e87309fa12
+  1.38.0--r43hdfd78af_0: sha256:6e4f83c0ce37e8fc1280b5a0393c9494511e9d12c45f7e61ff3b73a93d327b86
 tags:
   1.30.0--r41hdfd78af_0: sha256:e2f04a9ffbe243aeae66852971ff4678ee5107148b8a60b72185b037793ca37a
   1.34.0--r42hdfd78af_0: sha256:dfff90002e0809b523dc72572befdc916d544395e2ac45f6ebc8d20b67dac424
   1.36.0--r43hdfd78af_0: sha256:c0dda534195618e2534ca7a22cc6199aade203cb469a438faaf010e87309fa12
+  1.38.0--r43hdfd78af_0: sha256:6e4f83c0ce37e8fc1280b5a0393c9494511e9d12c45f7e61ff3b73a93d327b86
 docker: quay.io/biocontainers/bioconductor-assign

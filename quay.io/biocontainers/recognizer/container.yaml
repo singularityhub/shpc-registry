@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/recognizer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for recognizer
 latest:
-  1.9.4--hdfd78af_0: sha256:d1594a0d98211fe5d784cd217e8710081e0688656f6b88ac78f721d2888a3bc8
+  1.10.1--hdfd78af_0: sha256:4cbc7d88b3d55e3d46e2673b0d0e5ce0d2fb5d85702f3ec6f327d823538871c3
 tags:
   1.8.3--hdfd78af_0: sha256:60847fe452ed6e4f4c30a677c8ecea0b4f788acbcc8ab44514a6355c0b4e5275
   1.9.1--hdfd78af_0: sha256:c23814888a82c8d5c321087a6838e93b50a4a5d24413ef5842b8f9cb6a7e15d5
   1.9.2--hdfd78af_0: sha256:c91e813ad7aa67f7ccbdc6b148c5777a00f620f30f9cc6057dd9bca6b57f842f
   1.9.3--hdfd78af_0: sha256:b0c58cd7a37c6666daeb67575d51544fef58e5c33e714d8e9f5fb96a6fb94f16
   1.9.4--hdfd78af_0: sha256:d1594a0d98211fe5d784cd217e8710081e0688656f6b88ac78f721d2888a3bc8
+  1.10.1--hdfd78af_0: sha256:4cbc7d88b3d55e3d46e2673b0d0e5ce0d2fb5d85702f3ec6f327d823538871c3
 docker: quay.io/biocontainers/recognizer
 aliases:
   ktClassifyHits: /usr/local/bin/ktClassifyHits

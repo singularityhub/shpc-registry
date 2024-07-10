@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-extutils-cbuilder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-extutils-cbuilder
 latest:
-  0.280230--pl526_1: sha256:b5fc964e9f53560ad00b5c2a4930cecaabdf27ba7714e73c3cbffed86b8277a0
+  0.280230--pl526_1: sha256:e0d6ec134e1b5098e94c31661f74a5a2068c429cadbe40fe41338ba3abb0f285
 tags:
-  0.280230--pl526_1: sha256:b5fc964e9f53560ad00b5c2a4930cecaabdf27ba7714e73c3cbffed86b8277a0
+  0.280230--pl526_1: sha256:e0d6ec134e1b5098e94c31661f74a5a2068c429cadbe40fe41338ba3abb0f285
 docker: quay.io/biocontainers/perl-extutils-cbuilder
 aliases:
   cpanm: /usr/local/bin/cpanm

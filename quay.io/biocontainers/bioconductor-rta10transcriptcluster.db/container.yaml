@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rta10transcriptcluster.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rta10transcriptcluster.db
 latest:
-  8.8.0--r43hdfd78af_3: sha256:efb2ac7af374b43671cae828741f887c167e9614149c1ff3b33fdfeb5b433f4d
+  8.8.0--r43hdfd78af_4: sha256:db59aade7920ae30c32d1fa390889a75c7f6e3a1660c2744aa75085b144281f6
 tags:
   8.8.0--r41hdfd78af_1: sha256:e3b7786f213ea6d7b9eecf66cd543eb69795aaf85d51f08ab7690be254f01c7f
   8.8.0--r42hdfd78af_2: sha256:6b430f3ff33f3bcd5b5794833ae6f913de30abb6163bd3dbecdfc62c3e93fff8
   8.8.0--r43hdfd78af_3: sha256:efb2ac7af374b43671cae828741f887c167e9614149c1ff3b33fdfeb5b433f4d
+  8.8.0--r43hdfd78af_4: sha256:db59aade7920ae30c32d1fa390889a75c7f6e3a1660c2744aa75085b144281f6
 docker: quay.io/biocontainers/bioconductor-rta10transcriptcluster.db

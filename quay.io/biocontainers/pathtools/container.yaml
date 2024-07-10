@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/pathtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pathtools
 latest:
-  0.1.2--py35_0: sha256:2a1b45729fb7f462cc402e2aa7d7c0baa6cbfa6ddda7b2466e18cf7fcc1c0c54
+  0.1.2--py35_0: sha256:b31db65a61e35ac19c6e6f2b1aa3ca3586fa96da2422da7c54b498ec96b4ce9d
 tags:
-  0.1.2--py35_0: sha256:2a1b45729fb7f462cc402e2aa7d7c0baa6cbfa6ddda7b2466e18cf7fcc1c0c54
+  0.1.2--py35_0: sha256:b31db65a61e35ac19c6e6f2b1aa3ca3586fa96da2422da7c54b498ec96b4ce9d
 docker: quay.io/biocontainers/pathtools
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

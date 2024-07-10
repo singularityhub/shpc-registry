@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/megagta
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for megagta
 latest:
-  0.1_alpha--0: sha256:f3f14565d01c4c836f2da609a418f35c1e2f14c9fbcf88e7c9e14a54dbdd639b
+  0.1_alpha--0: sha256:84a661778d0ec1b55b2bb16d963cb6d2160047f7531036e31d7520bf45f47d85
 tags:
-  0.1_alpha--0: sha256:f3f14565d01c4c836f2da609a418f35c1e2f14c9fbcf88e7c9e14a54dbdd639b
+  0.1_alpha--0: sha256:84a661778d0ec1b55b2bb16d963cb6d2160047f7531036e31d7520bf45f47d85
 docker: quay.io/biocontainers/megagta
 aliases:
   hmmc2: /usr/local/bin/hmmc2

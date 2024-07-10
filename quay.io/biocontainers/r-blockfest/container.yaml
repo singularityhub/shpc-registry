@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-blockfest
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-blockfest
 latest:
-  1.6--r351h96ca727_2: sha256:e783d77972c5e36c7af0a8a7e6dada373516c9b8ea75f79da1d45bb059a0517e
+  1.6--r351h96ca727_2: sha256:a0103b32c0fd59617fbf146392e1d0fd52e4a4b1cad0f3f9177d6adcd5176132
 tags:
-  1.6--r351h96ca727_2: sha256:e783d77972c5e36c7af0a8a7e6dada373516c9b8ea75f79da1d45bb059a0517e
+  1.6--r351h96ca727_2: sha256:a0103b32c0fd59617fbf146392e1d0fd52e4a4b1cad0f3f9177d6adcd5176132
 docker: quay.io/biocontainers/r-blockfest
 aliases:
   c89: /usr/local/bin/c89

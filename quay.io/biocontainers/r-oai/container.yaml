@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-oai
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-oai
 latest:
-  0.2.2--r351h29659fb_3: sha256:ac2f83cd28f70bf5135799229f93c6106cfe593106de96f7e500ea1097e3f916
+  0.2.2--r351h29659fb_3: sha256:b3a8e85566dfd13ab3244156334ac23cee20c9995f7318780616b8472217a031
 tags:
-  0.2.2--r351h29659fb_3: sha256:ac2f83cd28f70bf5135799229f93c6106cfe593106de96f7e500ea1097e3f916
+  0.2.2--r351h29659fb_3: sha256:b3a8e85566dfd13ab3244156334ac23cee20c9995f7318780616b8472217a031
 docker: quay.io/biocontainers/r-oai
 aliases:
   c89: /usr/local/bin/c89

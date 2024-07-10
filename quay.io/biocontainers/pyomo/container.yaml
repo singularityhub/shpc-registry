@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/pyomo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyomo
 latest:
-  4.1.10527--py34_0: sha256:8b83739f4216ebadb1f720eb773a079c9a7ceb12763783268472e4502dc87d28
+  4.1.10527--py34_0: sha256:f4d2ed6b32a68e686e73168c55ec8d05b2a2834eeb72b3dcc759a2da15ea8bc7
 tags:
-  4.1.10527--py34_0: sha256:8b83739f4216ebadb1f720eb773a079c9a7ceb12763783268472e4502dc87d28
+  4.1.10527--py34_0: sha256:f4d2ed6b32a68e686e73168c55ec8d05b2a2834eeb72b3dcc759a2da15ea8bc7
 docker: quay.io/biocontainers/pyomo
 aliases:
   2to3-3.4: /usr/local/bin/2to3-3.4

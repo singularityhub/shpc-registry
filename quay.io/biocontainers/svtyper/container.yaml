@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/svtyper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for svtyper
 latest:
-  0.7.1--py_0: sha256:fecad6872f9ba0760a422856c24ab05b693c495a65b174d7f7e438c7329d384b
+  0.7.1--py_0: sha256:1d88bf43b7d8084042074a059ef87694e554accd49896ca77b799d0134bc76e5
 tags:
-  0.7.1--py_0: sha256:fecad6872f9ba0760a422856c24ab05b693c495a65b174d7f7e438c7329d384b
+  0.7.1--py_0: sha256:1d88bf43b7d8084042074a059ef87694e554accd49896ca77b799d0134bc76e5
 docker: quay.io/biocontainers/svtyper
 aliases:
   lib_stats.R: /usr/local/bin/lib_stats.R

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-hd2013sgi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hd2013sgi
 latest:
-  1.40.0--r43hdfd78af_0: sha256:1d43985a841a19880f5d2b438d13da6aa9290a6ab1ac1465c3927cb093914c07
+  1.42.0--r43hdfd78af_0: sha256:ecca54f8b60e1e414724e832c7b452d311a06f926a731f493448df29bad1b732
 tags:
   1.34.0--r41hdfd78af_1: sha256:0f8bab43e27ed890a64d8d7f8287c9c3ab828fa102d6b09a7c44a78643ca4a4b
   1.38.0--r42hdfd78af_0: sha256:d31a6b64091dc6eb91caca8520676b9e68ca93f1c3b6b2959a95470cbfd96930
   1.40.0--r43hdfd78af_0: sha256:1d43985a841a19880f5d2b438d13da6aa9290a6ab1ac1465c3927cb093914c07
+  1.42.0--r43hdfd78af_0: sha256:ecca54f8b60e1e414724e832c7b452d311a06f926a731f493448df29bad1b732
 docker: quay.io/biocontainers/bioconductor-hd2013sgi
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom

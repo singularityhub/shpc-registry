@@ -5,6 +5,7 @@ latest:
   1.1--py39hec7c8de_0: sha256:a119197f0e84cf48a70a5131678390578d0dbc86a7c31ecda05d1fd9051af8d3
 tags:
   1.1--py39hec7c8de_0: sha256:a119197f0e84cf48a70a5131678390578d0dbc86a7c31ecda05d1fd9051af8d3
+  1.1--py38h24c8ff8_0: sha256:68199aefd40123533c76d3d3106869af0b00bcfa31b66e875f44ff4da16f566b
 docker: quay.io/biocontainers/tf-comb
 aliases:
   TOBIAS: /usr/local/bin/TOBIAS

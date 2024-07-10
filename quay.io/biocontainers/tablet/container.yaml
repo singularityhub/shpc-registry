@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/tablet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tablet
 latest:
-  1.17.08.17--1: sha256:fb1c7cc8693315b9b057051e81bd7e6a74c3d8fe4b040d4d94d513d2cf57b89f
+  1.17.08.17--1: sha256:7208861cd489f174a4bf1e9fabc19bb18f50bb461b45b1ae097c8b96cb68bfc0
 tags:
-  1.17.08.17--1: sha256:fb1c7cc8693315b9b057051e81bd7e6a74c3d8fe4b040d4d94d513d2cf57b89f
+  1.17.08.17--1: sha256:7208861cd489f174a4bf1e9fabc19bb18f50bb461b45b1ae097c8b96cb68bfc0
 docker: quay.io/biocontainers/tablet
 aliases:
   tablet: /usr/local/bin/tablet

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/prestor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for prestor
 latest:
-  07f9c7caeb60--1: sha256:1ef1ed3207d2d06289930742be23870940e5480580ebeddc70490bd05b2540b6
+  07f9c7caeb60--1: sha256:2a68f0aa5dc72cd540eb41b0714a768f84dea29ebf04b14d595bbc3db852b08d
 tags:
-  07f9c7caeb60--1: sha256:1ef1ed3207d2d06289930742be23870940e5480580ebeddc70490bd05b2540b6
+  07f9c7caeb60--1: sha256:2a68f0aa5dc72cd540eb41b0714a768f84dea29ebf04b14d595bbc3db852b08d
 docker: quay.io/biocontainers/prestor
 aliases:
   a2ping: /usr/local/bin/a2ping

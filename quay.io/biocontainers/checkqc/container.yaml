@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/checkqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for checkqc
 latest:
-  3.8.2--pyhdfd78af_1: sha256:eb2896860bed6c4f9401a28e0c0be51816a85139825230c00358dcd413b469be
+  4.0.1--pyhdfd78af_0: sha256:324d321bcb9e27cdb79e6d018a00312411164b3098be83048edc4b14361a0185
 tags:
   3.6.6--pyhdfd78af_0: sha256:fc4178f83f08068d1f4cc56d93918b4da6b760d85d7d9505381020104e13a8d8
   3.7.0--pyhdfd78af_0: sha256:0ed4e0db46a8dd04045115b5712621808b54b8fc69e14588fa6285cd5656f5b4
   3.8.0--pyhdfd78af_0: sha256:83df53b1083188ef1bf7c831b5589756bb9fdeab3ce5513960d1b760f4d78d81
   3.8.1--pyhdfd78af_0: sha256:d878c0559b193809bb5b285f16f95e8c9f22a01b348e2bddf008a483debcf451
   3.8.2--pyhdfd78af_1: sha256:eb2896860bed6c4f9401a28e0c0be51816a85139825230c00358dcd413b469be
+  4.0.1--pyhdfd78af_0: sha256:324d321bcb9e27cdb79e6d018a00312411164b3098be83048edc4b14361a0185
 docker: quay.io/biocontainers/checkqc
 aliases:
   checkqc: /usr/local/bin/checkqc

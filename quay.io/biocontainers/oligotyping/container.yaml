@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/oligotyping
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for oligotyping
 latest:
-  2.1--py27_0: sha256:966f6a8c85340781122687f89cd992c61604faeff87fef1bf9fd67bf7139d5a9
+  2.1--py27_0: sha256:0cbdbee1cfb8a30a8d854f97b6f701e2dae287c76746321e6d1727984b9c1647
 tags:
-  2.1--py27_0: sha256:966f6a8c85340781122687f89cd992c61604faeff87fef1bf9fd67bf7139d5a9
+  2.1--py27_0: sha256:0cbdbee1cfb8a30a8d854f97b6f701e2dae287c76746321e6d1727984b9c1647
 docker: quay.io/biocontainers/oligotyping
 aliases:
   createlang: /usr/local/bin/createlang

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/tn93
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tn93
 latest:
-  1.0.12--hdbdd923_0: sha256:83bf531c82c6a87647085f2c222b0452ab3ea0de71e0fff9cd127580249706d9
+  1.0.14--hdbdd923_0: sha256:86102850a759b10746c9db19fa9acdac97791f920b1decaf1115ec99e15aaa0b
 tags:
   1.0.9--h87f3376_0: sha256:424dbe9f31de15de37e3b5b91daa8770450eae97c241fc9a1197d4b410f7b9e9
   1.0.9--hdbdd923_2: sha256:a975935402c6a7a1d51e58df242f8aa03adc864ba8b55db5e37d7de0dc339217
   1.0.12--hdbdd923_0: sha256:83bf531c82c6a87647085f2c222b0452ab3ea0de71e0fff9cd127580249706d9
+  1.0.14--hdbdd923_0: sha256:86102850a759b10746c9db19fa9acdac97791f920b1decaf1115ec99e15aaa0b
 docker: quay.io/biocontainers/tn93
 aliases:
   ShortestPathTN93: /usr/local/bin/ShortestPathTN93

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/nose-capturestderr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nose-capturestderr
 latest:
-  1.2--py27_0: sha256:ce2bc4ed754ceb6362d78de1f81e95fbbeff58243f1496e86c67398413669007
+  1.2--py27_0: sha256:acebbff232e482794bc3ace42cc60a69d27f6bfa76cff9e7a8d36a47d8162732
 tags:
-  1.2--py27_0: sha256:ce2bc4ed754ceb6362d78de1f81e95fbbeff58243f1496e86c67398413669007
+  1.2--py27_0: sha256:acebbff232e482794bc3ace42cc60a69d27f6bfa76cff9e7a8d36a47d8162732
 docker: quay.io/biocontainers/nose-capturestderr
 aliases:
   nosetests-2.7: /usr/local/bin/nosetests-2.7

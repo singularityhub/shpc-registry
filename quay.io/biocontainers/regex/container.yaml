@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/regex
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for regex
 latest:
-  2016.06.24--py35_1: sha256:c5e4f4c85d2ea937db03838095672bcfe1fa453965e11cec53565f3a38763d1b
+  2016.06.24--py35_1: sha256:415a067c68c561d450b5a0b7e11e014aedf4ad6cf76c66297e7b15201ebac25c
 tags:
-  2016.06.24--py35_1: sha256:c5e4f4c85d2ea937db03838095672bcfe1fa453965e11cec53565f3a38763d1b
+  2016.06.24--py35_1: sha256:415a067c68c561d450b5a0b7e11e014aedf4ad6cf76c66297e7b15201ebac25c
 docker: quay.io/biocontainers/regex
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

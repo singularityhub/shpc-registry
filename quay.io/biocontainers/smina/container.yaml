@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/smina
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for smina
 latest:
-  2017.11.9--0: sha256:502e7be073c9ec35b996656a48e9560e05746ad6d98649c56f98af9a724875b4
+  2017.11.9--0: sha256:73be95f49e56122868fa914fbe8f9f61e337b2cae351fd238489e88b9e0dd56f
 tags:
-  2017.11.9--0: sha256:502e7be073c9ec35b996656a48e9560e05746ad6d98649c56f98af9a724875b4
+  2017.11.9--0: sha256:73be95f49e56122868fa914fbe8f9f61e337b2cae351fd238489e88b9e0dd56f
 docker: quay.io/biocontainers/smina
 aliases:
   smina: /usr/local/bin/smina

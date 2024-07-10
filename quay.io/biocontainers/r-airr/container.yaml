@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-airr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-airr
 latest:
-  1.2.0--r351h6115d3f_1: sha256:50976c3b9987503fc4818aad19eec1d70a044a97754b66ec8b8ed7722b65149d
+  1.2.0--r351h6115d3f_1: sha256:b58d50d9b9084fa68d5de97095d104cce93f886c2991ec6135ec1facc165ac57
 tags:
-  1.2.0--r351h6115d3f_1: sha256:50976c3b9987503fc4818aad19eec1d70a044a97754b66ec8b8ed7722b65149d
+  1.2.0--r351h6115d3f_1: sha256:b58d50d9b9084fa68d5de97095d104cce93f886c2991ec6135ec1facc165ac57
 docker: quay.io/biocontainers/r-airr
 aliases:
   c89: /usr/local/bin/c89

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/dechat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dechat
 latest:
-  1.0.0--h500492e_0: sha256:2d9a00d874b942a03def943e5936567ca5d6d69efc258b7a066d4e5961a930e0
+  1.0.1--h56e2c18_1: sha256:6edcf8fae94d526300117cc70347e12d476bb00035c8044d55d7f08fdf90dd60
 tags:
   1.0.0--h500492e_0: sha256:2d9a00d874b942a03def943e5936567ca5d6d69efc258b7a066d4e5961a930e0
+  1.0.1--h56e2c18_1: sha256:6edcf8fae94d526300117cc70347e12d476bb00035c8044d55d7f08fdf90dd60
 docker: quay.io/biocontainers/dechat
 aliases:
   dechat: /usr/local/bin/dechat

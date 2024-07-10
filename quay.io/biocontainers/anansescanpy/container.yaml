@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/anansescanpy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for anansescanpy
 latest:
-  1.0.0--pyhdfd78af_0: sha256:7a6cbca18256f3ae6df0af02ba4466f12d853b4c5b4b3b0f6d055514b6d5c77a
+  1.0.0--pyhdfd78af_1: sha256:d00cfa92bb41a88a25d475ce499e6b9febc6c173de5b3d11092a3a58c0b2f25d
 tags:
   1.0.0--pyhdfd78af_0: sha256:7a6cbca18256f3ae6df0af02ba4466f12d853b4c5b4b3b0f6d055514b6d5c77a
+  1.0.0--pyhdfd78af_1: sha256:d00cfa92bb41a88a25d475ce499e6b9febc6c173de5b3d11092a3a58c0b2f25d
 docker: quay.io/biocontainers/anansescanpy
 aliases:
   hwloc-annotate: /usr/local/bin/hwloc-annotate

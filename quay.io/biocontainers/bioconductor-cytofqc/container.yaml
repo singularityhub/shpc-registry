@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-cytofqc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-cytofqc
 latest:
-  1.0.0--r43hdfd78af_0: sha256:d99d9ba02032ae1ca63daa8fffa939d1856d80a1c2ef511c78ae7a84d7bf9afd
+  1.2.0--r43hdfd78af_0: sha256:a9d2863405201ee79e54f5f1f9cb40ff32809a82d8f71369e88d91eb67122810
 tags:
   1.0.0--r43hdfd78af_0: sha256:d99d9ba02032ae1ca63daa8fffa939d1856d80a1c2ef511c78ae7a84d7bf9afd
+  1.2.0--r43hdfd78af_0: sha256:a9d2863405201ee79e54f5f1f9cb40ff32809a82d8f71369e88d91eb67122810
 docker: quay.io/biocontainers/bioconductor-cytofqc
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11

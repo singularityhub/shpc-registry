@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/detonate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for detonate
 latest:
-  1.11--hae1ec2f_3: sha256:709d2a47767694eadf9e19dd278e57d5f1fd23dcaf6f0889a015570ea892475f
+  1.11--hae1ec2f_3: sha256:d50401b1b6a4a2a88f82624c8b58b2e6512caaed8aec4f9e84b514e1f1659514
 tags:
-  1.11--hae1ec2f_3: sha256:709d2a47767694eadf9e19dd278e57d5f1fd23dcaf6f0889a015570ea892475f
+  1.11--hae1ec2f_3: sha256:d50401b1b6a4a2a88f82624c8b58b2e6512caaed8aec4f9e84b514e1f1659514
 docker: quay.io/biocontainers/detonate
 aliases:
   ref-eval: /usr/local/bin/ref-eval

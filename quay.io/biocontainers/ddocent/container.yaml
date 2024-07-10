@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/ddocent
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ddocent
 latest:
-  2.9.4--hdfd78af_1: sha256:64ef7f812b2756f211718eea882c039d109286874f8d029aab64bbf9619de8e8
+  2.9.8--hdfd78af_0: sha256:5e12a371455875b06aaf472d8768d68402cf5e48ff48c0de7351dd4e16911c18
 tags:
   2.9.4--hdfd78af_0: sha256:ca1589c8586e16baff5f4751b5eb2ab033a710f89837422ffbcde66b58dd7225
   2.9.4--hdfd78af_1: sha256:64ef7f812b2756f211718eea882c039d109286874f8d029aab64bbf9619de8e8
+  2.9.8--hdfd78af_0: sha256:5e12a371455875b06aaf472d8768d68402cf5e48ff48c0de7351dd4e16911c18
 docker: quay.io/biocontainers/ddocent
 aliases:
   ErrorCount.sh: /usr/local/bin/ErrorCount.sh

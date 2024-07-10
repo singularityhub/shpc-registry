@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/tides-ml
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tides-ml
 latest:
-  1.1.2--pyhdfd78af_0: sha256:bd90d3f5aab31bdd465d954577d2454e1f47c5a49c22216ba2105fc03476b73e
+  1.3.0--pyhdfd78af_0: sha256:3fcc5546db1d12c17017cbe9f16a2a3d2c8db49cdd3d59b2d02b23f7a6e7623d
 tags:
   1.1.2--pyhdfd78af_0: sha256:bd90d3f5aab31bdd465d954577d2454e1f47c5a49c22216ba2105fc03476b73e
+  1.3.0--pyhdfd78af_0: sha256:3fcc5546db1d12c17017cbe9f16a2a3d2c8db49cdd3d59b2d02b23f7a6e7623d
+  1.2.0--pyhdfd78af_0: sha256:6118af3a33e43d1d9b8f41b73613b5f756ea49ca3d4678c1f100c2a4f4214ae2
+  1.1.4--pyhdfd78af_0: sha256:7995afcee3818416687f4208f8c6f024bbc61acb5566f9514445e37257da54f7
 docker: quay.io/biocontainers/tides-ml
 aliases:
   alembic: /usr/local/bin/alembic

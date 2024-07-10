@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mira-multiome
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mira-multiome
 latest:
-  2.1.0--pyhdfd78af_0: sha256:6f9524b1f8abb35837df012d70ad099e978dd3f154a5067a80f27d97c216084b
+  2.1.1--pyhdfd78af_0: sha256:4dbb10ed67ba9353491235ba58a0f465a5c680a8800068e967198b6cc9f3b976
 tags:
   2.1.0--pyhdfd78af_0: sha256:6f9524b1f8abb35837df012d70ad099e978dd3f154a5067a80f27d97c216084b
+  2.1.1--pyhdfd78af_0: sha256:4dbb10ed67ba9353491235ba58a0f465a5c680a8800068e967198b6cc9f3b976
 docker: quay.io/biocontainers/mira-multiome
 aliases:
   alembic: /usr/local/bin/alembic

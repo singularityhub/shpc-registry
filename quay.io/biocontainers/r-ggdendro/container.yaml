@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-ggdendro
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ggdendro
 latest:
-  0.1_17--r3.3.1_0: sha256:1ad4462512a5b6fcd287cf29cd9d6d7a91602a1f35f641a8258cd6b769bfc5e5
+  0.1_17--r3.3.1_0: sha256:12aa3e128fbaa1297ca7b2e1f602ea0f4862252ef893148bf6c6eca71130c90a
 tags:
-  0.1_17--r3.3.1_0: sha256:1ad4462512a5b6fcd287cf29cd9d6d7a91602a1f35f641a8258cd6b769bfc5e5
+  0.1_17--r3.3.1_0: sha256:12aa3e128fbaa1297ca7b2e1f602ea0f4862252ef893148bf6c6eca71130c90a
+  0.1_17--r3.2.2_0: sha256:2ecaf1a295b42cbc51e0087c457ac0b7e6b5c4951e2956217b481183c009150f
 docker: quay.io/biocontainers/r-ggdendro
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

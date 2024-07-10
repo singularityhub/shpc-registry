@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/psims
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for psims
 latest:
-  1.3.2--pyhdfd78af_0: sha256:8c0b737a5705c63f357230940620fbce42dc0d1b3579e2221fe3749b365e5df2
+  1.3.3--pyhdfd78af_0: sha256:cf344b73edc51bb9d1b4bac2ca973d3fa981a8f14e04e384763f074bd11a2b9a
 tags:
   1.2.3--pyh7cba7a3_0: sha256:55aa3ccf2998d9f5c0130878db5a583e2a15506453244120992b512b1dcb54cf
   1.2.5--pyh7cba7a3_0: sha256:bd620d64d25183408150c1abc89c6241fc374b2d6b446b18f1e168fd18930e19
@@ -11,6 +11,7 @@ tags:
   1.3.1--pyhdfd78af_0: sha256:5c3eb42146c13f593f988e72cf3cbac967654cb137d58732426ea52b8675440e
   1.2.9--pyhdfd78af_0: sha256:a8bbc795e94e178a20882b267f34098f24894cc760d376bbd426e56bf61433ce
   1.3.2--pyhdfd78af_0: sha256:8c0b737a5705c63f357230940620fbce42dc0d1b3579e2221fe3749b365e5df2
+  1.3.3--pyhdfd78af_0: sha256:cf344b73edc51bb9d1b4bac2ca973d3fa981a8f14e04e384763f074bd11a2b9a
 docker: quay.io/biocontainers/psims
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11

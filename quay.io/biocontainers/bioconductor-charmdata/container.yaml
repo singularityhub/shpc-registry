@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-charmdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-charmdata
 latest:
-  1.18.0--r351_0: sha256:14601a1043c263f8776b49a839cc5438dba6daa480e65324eab263d7e2c4fee3
+  1.18.0--r351_0: sha256:f2748572272c374b1a6b24d0358f922524157c561492fc0e938d533fc57ad6fe
 tags:
-  1.18.0--r351_0: sha256:14601a1043c263f8776b49a839cc5438dba6daa480e65324eab263d7e2c4fee3
+  1.18.0--r351_0: sha256:f2748572272c374b1a6b24d0358f922524157c561492fc0e938d533fc57ad6fe
 docker: quay.io/biocontainers/bioconductor-charmdata
 aliases:
   wget: /usr/local/bin/wget

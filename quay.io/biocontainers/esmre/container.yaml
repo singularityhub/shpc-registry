@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/esmre
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for esmre
 latest:
-  0.3.1--py27_1: sha256:a957af0f26b104f9258fb04319505303d2ee5d1e0d182136d8b6bd8376b97820
+  0.3.1--py27_1: sha256:e69a0b40f854b668748ed725e51ceb3ba8d716977b7f62dda5c4b7cacf1a85e4
 tags:
-  0.3.1--py27_1: sha256:a957af0f26b104f9258fb04319505303d2ee5d1e0d182136d8b6bd8376b97820
+  0.3.1--py27_1: sha256:e69a0b40f854b668748ed725e51ceb3ba8d716977b7f62dda5c4b7cacf1a85e4
 docker: quay.io/biocontainers/esmre
 aliases:
   python2-config: /usr/local/bin/python2-config

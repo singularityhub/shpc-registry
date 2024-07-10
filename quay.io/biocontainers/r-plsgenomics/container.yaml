@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-plsgenomics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-plsgenomics
 latest:
-  1.5_2--r36h6115d3f_1: sha256:1a59e33dde7f428309957fda6987098f27a47053b502abee94982c455c9c833d
+  1.5_2--r36h6115d3f_1: sha256:60bceaa6360897b5faf69128eccbaa011b82e3eef50f9143943e733ece96b287
 tags:
-  1.5_2--r36h6115d3f_1: sha256:1a59e33dde7f428309957fda6987098f27a47053b502abee94982c455c9c833d
+  1.5_2--r36h6115d3f_1: sha256:60bceaa6360897b5faf69128eccbaa011b82e3eef50f9143943e733ece96b287
 docker: quay.io/biocontainers/r-plsgenomics
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
