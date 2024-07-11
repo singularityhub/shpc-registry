@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-list-util
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-list-util
 latest:
-  1.38--pl526_1: sha256:cb89dc4bc97f7daad3af6bd7b6ed1b4a074f2e040fdb19edfb4e34bfd530d6f7
+  1.38--pl526_1: sha256:21e391e74cce4477404b1c7ee06e667a6fba595d5c8080c9d53792a3b9d47d37
 tags:
-  1.38--pl526_1: sha256:cb89dc4bc97f7daad3af6bd7b6ed1b4a074f2e040fdb19edfb4e34bfd530d6f7
+  1.38--pl526_1: sha256:21e391e74cce4477404b1c7ee06e667a6fba595d5c8080c9d53792a3b9d47d37
 docker: quay.io/biocontainers/perl-list-util
 aliases:
   perl5.26.2: /usr/local/bin/perl5.26.2

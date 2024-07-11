@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/happer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for happer
 latest:
-  0.1.1--py_0: sha256:7f0a590458648d94057ab24d7e1765e5f7982a5fa486488c777a417ebf735faf
+  0.1.1--py_0: sha256:d2214be3e50ace02e50dfc76b6d7b61339b7c027ae1d4ec5dcd93059b632df12
 tags:
-  0.1.1--py_0: sha256:7f0a590458648d94057ab24d7e1765e5f7982a5fa486488c777a417ebf735faf
+  0.1.1--py_0: sha256:d2214be3e50ace02e50dfc76b6d7b61339b7c027ae1d4ec5dcd93059b632df12
 docker: quay.io/biocontainers/happer
 aliases:
   happer: /usr/local/bin/happer

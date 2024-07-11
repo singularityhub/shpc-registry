@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-htseqtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-htseqtools
 latest:
-  1.31.0--r36_1: sha256:84a0ccc1b2b6c0c8d27e2e37aa71b48f712670d268e281f848d052881bbb4e94
+  1.31.0--r36_1: sha256:ef406069a517e905778f27d70e4a58f08f62813c99daf8b360f4b023622f4f3f
 tags:
-  1.31.0--r36_1: sha256:84a0ccc1b2b6c0c8d27e2e37aa71b48f712670d268e281f848d052881bbb4e94
+  1.31.0--r36_1: sha256:ef406069a517e905778f27d70e4a58f08f62813c99daf8b360f4b023622f4f3f
 docker: quay.io/biocontainers/bioconductor-htseqtools
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

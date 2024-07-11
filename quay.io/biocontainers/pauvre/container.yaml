@@ -6,7 +6,7 @@ latest:
 tags:
   0.2.2--py_0: sha256:40c4eef83acf599bd70e565d063439f5c5ded93654dab676e4635da48d8b0602
   0.1924--py_0: sha256:513370fb611eb88780fdae76ca22d2e85f6705b9921da67e52231be9ef15eed3
-  0.1923--py_1: sha256:944e44c1ea543586e7aa65d74e79ca0646f86a55200032dc3fa10b7818ccf55d
+  0.1923--py_1: sha256:1dbcd50cbd305f4b0ac75f9656210573d09ed197bf0260576fa357e208988521
 docker: quay.io/biocontainers/pauvre
 aliases:
   pauvre: /usr/local/bin/pauvre

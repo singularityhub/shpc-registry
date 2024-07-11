@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-corbi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-corbi
 latest:
-  0.4_2--r351he0ffe0d_0: sha256:e84e524aefa3879c63f44072ee18856066382201fd92772ab0b0258aaf6945c3
+  0.4_2--r351he0ffe0d_0: sha256:4b272f96f40deace9c2d49a73362ab62b8aa1063667d9f29399aa40d155da427
 tags:
-  0.4_2--r351he0ffe0d_0: sha256:e84e524aefa3879c63f44072ee18856066382201fd92772ab0b0258aaf6945c3
+  0.4_2--r351he0ffe0d_0: sha256:4b272f96f40deace9c2d49a73362ab62b8aa1063667d9f29399aa40d155da427
 docker: quay.io/biocontainers/r-corbi

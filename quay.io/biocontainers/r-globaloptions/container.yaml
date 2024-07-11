@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-globaloptions
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-globaloptions
 latest:
-  0.0.8--r3.2.2_0: sha256:ba0570e95591f946611fe544be1f92532a3fde550c6f0deb889d9dd17637ea96
+  0.0.8--r3.2.2_0: sha256:e6722f34db25f3a002d761347243092f8cda632f769b9dd5d0604c476538bbab
 tags:
-  0.0.8--r3.2.2_0: sha256:ba0570e95591f946611fe544be1f92532a3fde550c6f0deb889d9dd17637ea96
-  0.0.8--r3.3.2_0: sha256:7552df233747340b2c679d378974fe4e5f95d0e085f407e71ad5c7f39bf30eef
+  0.0.8--r3.2.2_0: sha256:e6722f34db25f3a002d761347243092f8cda632f769b9dd5d0604c476538bbab
+  0.0.8--r3.3.2_0: sha256:41a91a51aac41496c023e3947dfe5004b854eddf5cfadbdb3881ddc34039c02a
 docker: quay.io/biocontainers/r-globaloptions
 aliases:
   pngcp: /usr/local/bin/pngcp

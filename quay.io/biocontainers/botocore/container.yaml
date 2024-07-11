@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/botocore
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for botocore
 latest:
-  1.3.6--py36_0: sha256:180e59fa74b3218e6705110c579f2f1e1226f77ccf3dd7f317522bec79a45682
+  1.3.6--py36_0: sha256:1bfb020dc8b2d74fbcf73552f2cc2382f6b4c9691057856882ccdc1facc4fde1
 tags:
-  1.3.6--py36_0: sha256:180e59fa74b3218e6705110c579f2f1e1226f77ccf3dd7f317522bec79a45682
+  1.3.6--py36_0: sha256:1bfb020dc8b2d74fbcf73552f2cc2382f6b4c9691057856882ccdc1facc4fde1
+  1.3.6--py35_0: sha256:527cdc9af5e9bb561aca612ddea55892764e949996efa15d22c3e545df47afb8
 docker: quay.io/biocontainers/botocore
 aliases:
   jp.py: /usr/local/bin/jp.py

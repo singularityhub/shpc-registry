@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/taco
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for taco
 latest:
-  0.7.3--py27_0: sha256:6f83695531aa2b6fbb07d56e53b139ab41883631892426c3efdbd6ab5ba3ee7f
+  0.7.3--py27_0: sha256:43a040de694f5cb1bbd7e1637dbf35692ebba3cc4df17baecbec54dea95da5f2
 tags:
-  v0.7.0--py27_0: sha256:413c880fd6d29f84293cca1d4f3e0f7ecb883d700445ee31d319da078df09820
-  0.7.3--py27_0: sha256:6f83695531aa2b6fbb07d56e53b139ab41883631892426c3efdbd6ab5ba3ee7f
+  v0.7.0--py27_0: sha256:5738535c37e92a807ba740ad6b0e4f5ba5eda12de5bedfbf79a1d80263b2a3cd
+  0.7.3--py27_0: sha256:43a040de694f5cb1bbd7e1637dbf35692ebba3cc4df17baecbec54dea95da5f2
 docker: quay.io/biocontainers/taco
 aliases:
   pyi-archive_viewer: /usr/local/bin/pyi-archive_viewer

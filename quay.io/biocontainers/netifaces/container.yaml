@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/netifaces
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for netifaces
 latest:
-  0.10.4--py36_1: sha256:21fea9b548924a2b5a59049a09fb7c93f90426ee80689f2dc0fe08c8e3aaf019
+  0.10.4--py36_1: sha256:8bd047ca486b8807a6c438a630ce74d54ede29a49695f3f08ee7a8febdd308ac
 tags:
-  0.10.4--py36_1: sha256:21fea9b548924a2b5a59049a09fb7c93f90426ee80689f2dc0fe08c8e3aaf019
+  0.10.4--py36_1: sha256:8bd047ca486b8807a6c438a630ce74d54ede29a49695f3f08ee7a8febdd308ac
+  0.10.4--py35_1: sha256:b35836986f0923bcfd068238b3c2e7b8e53bad3d01e3e4caa97560117f0e9b3b
 docker: quay.io/biocontainers/netifaces
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

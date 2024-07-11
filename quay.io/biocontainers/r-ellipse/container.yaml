@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-ellipse
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ellipse
 latest:
-  0.3_8--r3.3.2_0: sha256:5e5639f8bd7e1d7079009be077561f641ae57061b2b886c124b76b088b65c348
+  0.3_8--r3.3.2_0: sha256:f247a706916a47df1607e2066934a9722aa971d422a56a622a1cccdadf7f3634
 tags:
-  0.3_8--r3.3.2_0: sha256:5e5639f8bd7e1d7079009be077561f641ae57061b2b886c124b76b088b65c348
+  0.3_8--r3.3.2_0: sha256:f247a706916a47df1607e2066934a9722aa971d422a56a622a1cccdadf7f3634
+  0.3_8--r3.2.2_0: sha256:679041bcd0a1f9d17756df67fade1c5abcc4df08980b0e63b19bcf875a8b0208
 docker: quay.io/biocontainers/r-ellipse
 aliases:
   uconv: /usr/local/bin/uconv

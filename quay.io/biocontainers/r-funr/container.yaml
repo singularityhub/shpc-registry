@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-funr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-funr
 latest:
-  0.2.0--r3.2.2_0: sha256:f735896a56fec784a727085b05bce3135cf1a3d9f55831af2ec45c4ca6f6f04b
+  0.2.0--r3.2.2_0: sha256:4bbd560eb8abe75fd213e3211821333584ca2945b5d34e74b7d2de39e2000ea6
 tags:
-  0.2.0--r3.2.2_0: sha256:f735896a56fec784a727085b05bce3135cf1a3d9f55831af2ec45c4ca6f6f04b
-  0.2.0--r3.3.2_0: sha256:5eacb0938e3b5f6cfeaeedae746e249a43f307b4039a7b84175ac99312cfe564
+  0.2.0--r3.2.2_0: sha256:4bbd560eb8abe75fd213e3211821333584ca2945b5d34e74b7d2de39e2000ea6
+  0.2.0--r3.3.2_0: sha256:7ef972ee809e632c00b973de422359b10400c204f24170e385c2783dc9627390
 docker: quay.io/biocontainers/r-funr
 aliases:
   funr: /usr/local/bin/funr

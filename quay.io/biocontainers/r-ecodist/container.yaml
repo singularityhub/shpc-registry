@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-ecodist
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ecodist
 latest:
-  2.0.1--r351h96ca727_3: sha256:41c1234ae1035ff1c9c5ba80975960a109a29afa8f026f0e3175b6e666040575
+  2.0.1--r351h96ca727_3: sha256:088ee9cc23b9f1a0c85a459727117f6458a855e362a43fbd891a0cf51df7a40b
 tags:
-  2.0.1--r351h96ca727_3: sha256:41c1234ae1035ff1c9c5ba80975960a109a29afa8f026f0e3175b6e666040575
+  2.0.1--r351h96ca727_3: sha256:088ee9cc23b9f1a0c85a459727117f6458a855e362a43fbd891a0cf51df7a40b
 docker: quay.io/biocontainers/r-ecodist
 aliases:
   c89: /usr/local/bin/c89

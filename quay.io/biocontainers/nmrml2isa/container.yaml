@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for nmrml2isa
 latest:
   0.3.3--pyhdfd78af_0: sha256:dc2ad9da4335889f879b02dee97e14f75e821d7e4cfb6505ea525f753d81d3d6
 tags:
-  0.3.1--py_0: sha256:8c4413cbb08e8517524bfa2737782701f80e903d7d22331d915075efcacccd04
+  0.3.1--py_0: sha256:e048dc73a0b576066956f8b8c70a1b54b3ef2909528863bf97bc278866e213c0
   0.3.3--pyhdfd78af_0: sha256:dc2ad9da4335889f879b02dee97e14f75e821d7e4cfb6505ea525f753d81d3d6
 docker: quay.io/biocontainers/nmrml2isa
 aliases:

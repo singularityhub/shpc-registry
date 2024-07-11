@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/omamer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for omamer
 latest:
-  2.0.3--pyhdfd78af_0: sha256:036ea7961045526cb0536b4e3deca273022a34fd54e4b89077dc65af2836ecb6
+  2.0.4--pyhdfd78af_0: sha256:b401516310aed150ceb8487b55ae6cd618807acfae116ce8618a7ad2027e7ee6
 tags:
   2.0.1--pyhdfd78af_0: sha256:e91900997f8b1962bc886bb237655f7a906e43e1a36c81329631dd92f961eb44
   2.0.2--pyhdfd78af_0: sha256:04459955ce65ec9a02a4a56a61f70952e46f12faa8374a63fe0a774aa27f6b33
   2.0.3--pyhdfd78af_0: sha256:036ea7961045526cb0536b4e3deca273022a34fd54e4b89077dc65af2836ecb6
+  2.0.4--pyhdfd78af_0: sha256:b401516310aed150ceb8487b55ae6cd618807acfae116ce8618a7ad2027e7ee6
 docker: quay.io/biocontainers/omamer
 aliases:
   omamer: /usr/local/bin/omamer

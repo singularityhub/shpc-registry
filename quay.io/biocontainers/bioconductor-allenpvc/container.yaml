@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-allenpvc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-allenpvc
 latest:
-  1.4.0--r36_0: sha256:5543eb79d44b2f044fc5ed7693ca0977284bd6aa9a1b94e686c437bb65b93e03
+  1.4.0--r36_0: sha256:f9ee658997fbe326f02ac5fedc010e83d14f8f168640ab2f51ccd3f01d1802e8
 tags:
-  1.4.0--r36_0: sha256:5543eb79d44b2f044fc5ed7693ca0977284bd6aa9a1b94e686c437bb65b93e03
+  1.4.0--r36_0: sha256:f9ee658997fbe326f02ac5fedc010e83d14f8f168640ab2f51ccd3f01d1802e8
 docker: quay.io/biocontainers/bioconductor-allenpvc
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

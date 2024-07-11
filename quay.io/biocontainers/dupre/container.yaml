@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/dupre
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dupre
 latest:
-  0.1--py_2: sha256:623953bad67114de529e46d55f768e4c718bd10ebfe20f5a7c545ddfd0714f50
+  0.1--py_2: sha256:59b7727d1848d3441b25c63656d19d0a736c51fefdf58cfcb8eb8d83eacb6a58
 tags:
-  0.1--py_2: sha256:623953bad67114de529e46d55f768e4c718bd10ebfe20f5a7c545ddfd0714f50
+  0.1--py_2: sha256:59b7727d1848d3441b25c63656d19d0a736c51fefdf58cfcb8eb8d83eacb6a58
 docker: quay.io/biocontainers/dupre
 aliases:
   bam2occupancy: /usr/local/bin/bam2occupancy

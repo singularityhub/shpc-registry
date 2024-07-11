@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-leaps
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-leaps
 latest:
-  2.9--r3.2.2_0: sha256:18373292817564ccd6a40a893fe13053c4ddcdab37957fdb2b99cc9b79e95a82
+  2.9--r3.2.2_0: sha256:875b7a1ef751569b7819391925c7e1e1ef0068ef6b54855cc7229eaec9904c6e
 tags:
-  2.9--r3.2.2_0: sha256:18373292817564ccd6a40a893fe13053c4ddcdab37957fdb2b99cc9b79e95a82
-  2.9--r3.3.2_0: sha256:2f9a7533fcdb92e51ab5eac7b48f0434030b90e6671e4ae0d14d4284759957a5
+  2.9--r3.2.2_0: sha256:875b7a1ef751569b7819391925c7e1e1ef0068ef6b54855cc7229eaec9904c6e
+  2.9--r3.3.2_0: sha256:02382bbeca6a75262ece37fd873c33606a855dcf6cac5d778be0357d01c2b6bf
 docker: quay.io/biocontainers/r-leaps
 aliases:
   pngcp: /usr/local/bin/pngcp

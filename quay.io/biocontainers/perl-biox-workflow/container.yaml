@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/perl-biox-workflow
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-biox-workflow
 latest:
-  1.10--1: sha256:21160d9691a3b22a883b3aaa981552e72dfb836cf8b47b53088f66f370451240
+  1.10--1: sha256:62559c1886304e9515abe6a30f548d3d76fa3b7b28d8423961838b94e9648bfb
 tags:
-  1.10--1: sha256:21160d9691a3b22a883b3aaa981552e72dfb836cf8b47b53088f66f370451240
+  1.10--1: sha256:62559c1886304e9515abe6a30f548d3d76fa3b7b28d8423961838b94e9648bfb
 docker: quay.io/biocontainers/perl-biox-workflow

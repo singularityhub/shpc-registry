@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/rnaz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rnaz
 latest:
-  2.1--pl526h6bb024c_4: sha256:333447efad1871fbf3f1dab7a870162cd3ea515236512df8cb20ce5cf6ecfacd
+  2.1--pl526h6bb024c_4: sha256:551ad2f80dd05ef794139d7df61cc25cd3dc795d8e184e88828d4a138dd43e12
 tags:
-  2.1--pl526h6bb024c_4: sha256:333447efad1871fbf3f1dab7a870162cd3ea515236512df8cb20ce5cf6ecfacd
+  2.1--pl526h6bb024c_4: sha256:551ad2f80dd05ef794139d7df61cc25cd3dc795d8e184e88828d4a138dd43e12
 docker: quay.io/biocontainers/rnaz
 aliases:
   RNAz: /usr/local/bin/RNAz

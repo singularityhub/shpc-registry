@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-doqtl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-doqtl
 latest:
-  1.19.0--r36h516909a_1: sha256:da65121fd6782840c96a39bcafa50b5f18edf2af291f4bc1174b16de04b498ae
+  1.19.0--r36h516909a_1: sha256:d67a1e8c7def758ba4a40ac8611ad60f1758a5a2f866e28d565d1c1b1ca29993
 tags:
-  1.19.0--r36h516909a_1: sha256:da65121fd6782840c96a39bcafa50b5f18edf2af291f4bc1174b16de04b498ae
+  1.19.0--r36h516909a_1: sha256:d67a1e8c7def758ba4a40ac8611ad60f1758a5a2f866e28d565d1c1b1ca29993
 docker: quay.io/biocontainers/bioconductor-doqtl
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

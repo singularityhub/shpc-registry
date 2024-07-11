@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for bioconductor-flo
 latest:
   1.28.0--r43hdfd78af_0: sha256:fd0237de02487da3a760081624207be7ddf97eda1662d633be61968e34d0da0a
 tags:
-  1.8.0--r351_0: sha256:bec36b6640bc91bf66d4c2c6e9a2171400fd6fe04e84a0145ccab00edad21745
+  1.8.0--r351_0: sha256:d147ec7ab6e1e26fd2b6fd822e4908eb14417fbd42387fdb19f068a038259eec
   1.23.0--r42hdfd78af_0: sha256:e3eb4b6f5bc70a4cd3269b4047c5cb3d97ea3ee5746075adce2e35596c10080b
   1.20.0--r41hdfd78af_1: sha256:e23dff443e04071b1ed308f8574db5c68137bd3d665b58f17edd91f52bd09a2f
   1.18.0--r41hdfd78af_0: sha256:1aa01bfdcbc41d26b46e630499e55468d096fab6da3ace9d77d45073e59a96dc

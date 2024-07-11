@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-qqman
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-qqman
 latest:
-  0.1.4--r36h6115d3f_4: sha256:fee1e9c3afeceea8cdc44d94d4f1296be75da6f8c5b87e268887dae9529ba9b6
+  0.1.4--r36h6115d3f_4: sha256:9f7e859710aa0db48c201d438938cc49d0a6143ba68098cde4fa5163de33959b
 tags:
-  0.1.4--r36h6115d3f_4: sha256:fee1e9c3afeceea8cdc44d94d4f1296be75da6f8c5b87e268887dae9529ba9b6
+  0.1.4--r36h6115d3f_4: sha256:9f7e859710aa0db48c201d438938cc49d0a6143ba68098cde4fa5163de33959b
 docker: quay.io/biocontainers/r-qqman
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

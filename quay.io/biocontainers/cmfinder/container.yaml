@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/cmfinder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cmfinder
 latest:
-  0.4.1.9--h470a237_2: sha256:ada3bd095628a1dfe42895e0e3f67218947d97cd4d6ed60bec40802236b956c9
+  0.4.1.9--h470a237_2: sha256:c303ed56c35390238a4325d380c1485c3d82e26f563a0962c631f74364439d73
 tags:
-  0.4.1.9--h470a237_2: sha256:ada3bd095628a1dfe42895e0e3f67218947d97cd4d6ed60bec40802236b956c9
+  0.4.1.9--h470a237_2: sha256:c303ed56c35390238a4325d380c1485c3d82e26f563a0962c631f74364439d73
 docker: quay.io/biocontainers/cmfinder
 aliases:
   COPYRIGHT: /usr/local/bin/COPYRIGHT

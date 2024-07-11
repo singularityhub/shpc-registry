@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/pytest-timeout
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pytest-timeout
 latest:
-  1.0.0--py35_0: sha256:65867035aeb99a070839cf65ca519374b3dd19f33660671dce592b9a9c833e71
+  1.0.0--py35_0: sha256:8770c0c675af87a0550806897c939c25164adc53772c598e626e77273f45d30d
 tags:
-  1.0.0--py35_0: sha256:65867035aeb99a070839cf65ca519374b3dd19f33660671dce592b9a9c833e71
-  1.0.0--py36_0: sha256:f34b9229543e411855a9c8796dc8d8090b1ad83ac37ad8427378cef5b5b4d77c
+  1.0.0--py35_0: sha256:8770c0c675af87a0550806897c939c25164adc53772c598e626e77273f45d30d
+  1.0.0--py36_0: sha256:015a5388045635d29b6a4f5dd7f124e226043811a2d75c582cf4dbf98bb4a9a0
 docker: quay.io/biocontainers/pytest-timeout
 aliases:
   py.test-3.5: /usr/local/bin/py.test-3.5

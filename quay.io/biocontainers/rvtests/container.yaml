@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/rvtests
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rvtests
 latest:
-  2.0.7--h3d151dd_2: sha256:1ec0c28520172dee852ce6c1c7c1fd18d6a09af580499af97f868f71b757e3bf
+  2.0.7--h3d151dd_2: sha256:b32d40e720b0ab3c01bdb9823a21556eac6458fa0e0839c4ece73c603e1a3cc9
 tags:
-  2.0.7--h3d151dd_2: sha256:1ec0c28520172dee852ce6c1c7c1fd18d6a09af580499af97f868f71b757e3bf
+  2.0.7--h3d151dd_2: sha256:b32d40e720b0ab3c01bdb9823a21556eac6458fa0e0839c4ece73c603e1a3cc9
 docker: quay.io/biocontainers/rvtests
 aliases:
   bgen2vcf: /usr/local/bin/bgen2vcf
