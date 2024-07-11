@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bcbiosinglecell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bcbiosinglecell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bcbiosinglecell/container.yaml"
-updated_at: "2024-07-11 03:22:04.373865"
+updated_at: "2024-07-11 03:42:23.967671"
 latest: "0.7.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-bcbiosinglecell"
 aliases:
