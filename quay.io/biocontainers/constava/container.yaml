@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/constava
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for constava
+latest:
+  1.1.0--pyhdfd78af_0: sha256:4d3b613e655efdd23b7421cf365f3ae002f5a5d2cde92098089459d03efa7733
+tags:
+  1.1.0--pyhdfd78af_0: sha256:4d3b613e655efdd23b7421cf365f3ae002f5a5d2cde92098089459d03efa7733
+docker: quay.io/biocontainers/constava
+aliases:
+  constava: /usr/local/bin/constava
+  gsd: /usr/local/bin/gsd
+  mrcfile-header: /usr/local/bin/mrcfile-header
+  mrcfile-validate: /usr/local/bin/mrcfile-validate
+  nc3tonc4: /usr/local/bin/nc3tonc4
+  nc4tonc3: /usr/local/bin/nc4tonc3
+  ncinfo: /usr/local/bin/ncinfo
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  h5delete: /usr/local/bin/h5delete
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif
+  hdf2jpeg: /usr/local/bin/hdf2jpeg
+  hdf8to24: /usr/local/bin/hdf8to24
+  hdfcomp: /usr/local/bin/hdfcomp
+  hdfed: /usr/local/bin/hdfed
+  hdfimport: /usr/local/bin/hdfimport
+  hdfls: /usr/local/bin/hdfls
+  hdfpack: /usr/local/bin/hdfpack
+  hdftopal: /usr/local/bin/hdftopal
+  hdftor8: /usr/local/bin/hdftor8
+  hdfunpac: /usr/local/bin/hdfunpac
+  hdiff: /usr/local/bin/hdiff
+  hdp: /usr/local/bin/hdp
