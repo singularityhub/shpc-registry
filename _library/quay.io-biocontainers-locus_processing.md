@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/locus_processing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/locus_processing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/locus_processing/container.yaml"
-updated_at: "2024-07-10 02:49:44.447198"
+updated_at: "2024-07-11 02:51:46.724786"
 latest: "0.0.4--py_0"
 container_url: "https://biocontainers.pro/tools/locus_processing"
 
 versions:
  - "0.0.4--py_0"
 description: "shpc-registry automated BioContainers addition for locus_processing"
-config: {"url": "https://biocontainers.pro/tools/locus_processing", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for locus_processing", "latest": {"0.0.4--py_0": "sha256:36e8219003ce0a26ff8ef4e0b16c1feac4d76e2d5717ea63ff04efc9809a8832"}, "tags": {"0.0.4--py_0": "sha256:36e8219003ce0a26ff8ef4e0b16c1feac4d76e2d5717ea63ff04efc9809a8832"}, "docker": "quay.io/biocontainers/locus_processing"}
+config: {"url": "https://biocontainers.pro/tools/locus_processing", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for locus_processing", "latest": {"0.0.4--py_0": "sha256:597d01078267ce94de4045ee985689799f3e42837e460a9721df97c248a24085"}, "tags": {"0.0.4--py_0": "sha256:597d01078267ce94de4045ee985689799f3e42837e460a9721df97c248a24085"}, "docker": "quay.io/biocontainers/locus_processing"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/locus_processing.

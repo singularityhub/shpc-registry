@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyfiglet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfiglet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfiglet/container.yaml"
-updated_at: "2024-07-10 03:00:13.933138"
+updated_at: "2024-07-11 03:02:20.494919"
 latest: "0.7.5--py35_0"
 container_url: "https://biocontainers.pro/tools/pyfiglet"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.7.5--py35_0"
+ - "0.7.5--py34_0"
 description: "shpc-registry automated BioContainers addition for pyfiglet"
-config: {"url": "https://biocontainers.pro/tools/pyfiglet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyfiglet", "latest": {"0.7.5--py35_0": "sha256:5e113fe754d8145a0f6163be62482a557ea31cf49fb08deef432fa28db884bde"}, "tags": {"0.7.5--py35_0": "sha256:5e113fe754d8145a0f6163be62482a557ea31cf49fb08deef432fa28db884bde"}, "docker": "quay.io/biocontainers/pyfiglet", "aliases": {"pyfiglet": "/usr/local/bin/pyfiglet", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/pyfiglet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyfiglet", "latest": {"0.7.5--py35_0": "sha256:0d10f156b33e674055cbf801b01f73d1abae027a8b312b8ab5a0e056bbb20a9e"}, "tags": {"0.7.5--py35_0": "sha256:0d10f156b33e674055cbf801b01f73d1abae027a8b312b8ab5a0e056bbb20a9e", "0.7.5--py34_0": "sha256:724e019724a90c6ee1c7c5d1211e2d667bb4011887ec5e8053eebf09cec93a0a"}, "docker": "quay.io/biocontainers/pyfiglet", "aliases": {"pyfiglet": "/usr/local/bin/pyfiglet", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyfiglet.

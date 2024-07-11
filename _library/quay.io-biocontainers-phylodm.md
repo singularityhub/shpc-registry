@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phylodm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylodm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylodm/container.yaml"
-updated_at: "2024-07-10 03:05:00.437185"
-latest: "2.2.1--py39h6a678da_0"
+updated_at: "2024-07-11 03:07:13.411472"
+latest: "3.0.0--py311h362c646_1"
 container_url: "https://biocontainers.pro/tools/phylodm"
 aliases:
  - "f2py3.7"
@@ -21,8 +21,11 @@ aliases:
 versions:
  - "2.1.3--py37he4bd417_1"
  - "2.2.1--py39h6a678da_0"
+ - "3.0.0--py311h362c646_1"
+ - "2.2.1--py39h6a678da_1"
+ - "2.1.3--py310h079770c_1"
 description: "shpc-registry automated BioContainers addition for phylodm"
-config: {"url": "https://biocontainers.pro/tools/phylodm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylodm", "latest": {"2.2.1--py39h6a678da_0": "sha256:141ab4a7e6995bfbe40415a8eb1442ae3650d7003faec75e078e25d92f5bc10e"}, "tags": {"2.1.3--py37he4bd417_1": "sha256:4ea54aa7d2fdd149413efd99132a9942a7f2b935a9d10637425145db3d1b4ad2", "2.2.1--py39h6a678da_0": "sha256:141ab4a7e6995bfbe40415a8eb1442ae3650d7003faec75e078e25d92f5bc10e"}, "docker": "quay.io/biocontainers/phylodm", "aliases": {"f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/phylodm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylodm", "latest": {"3.0.0--py311h362c646_1": "sha256:9d1e76e00234f11d3332f232d42c1c7f6d60354e90842db15c8a528024b2bb8f"}, "tags": {"2.1.3--py37he4bd417_1": "sha256:4ea54aa7d2fdd149413efd99132a9942a7f2b935a9d10637425145db3d1b4ad2", "2.2.1--py39h6a678da_0": "sha256:141ab4a7e6995bfbe40415a8eb1442ae3650d7003faec75e078e25d92f5bc10e", "3.0.0--py311h362c646_1": "sha256:9d1e76e00234f11d3332f232d42c1c7f6d60354e90842db15c8a528024b2bb8f", "2.2.1--py39h6a678da_1": "sha256:c460596fed633941b5ee36ee1d508682c6ea742d1cfe1a492989f1a41c4bda0f", "2.1.3--py310h079770c_1": "sha256:e73def279ea1a9db1f369d2767168b01ee67ac20950bbaceb616111b2288d087"}, "docker": "quay.io/biocontainers/phylodm", "aliases": {"f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylodm.
@@ -37,7 +40,7 @@ $ shpc install quay.io/biocontainers/phylodm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phylodm:2.2.1--py39h6a678da_0
+$ shpc install quay.io/biocontainers/phylodm:3.0.0--py311h362c646_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phylodm/2.2.1--py39h6a678da_0
-$ module help quay.io/biocontainers/phylodm/2.2.1--py39h6a678da_0
+$ module load quay.io/biocontainers/phylodm/3.0.0--py311h362c646_1
+$ module help quay.io/biocontainers/phylodm/3.0.0--py311h362c646_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

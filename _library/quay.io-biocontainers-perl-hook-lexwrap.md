@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-hook-lexwrap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hook-lexwrap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hook-lexwrap/container.yaml"
-updated_at: "2024-07-10 03:19:45.516610"
+updated_at: "2024-07-11 03:21:59.469122"
 latest: "0.26--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-hook-lexwrap"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.26--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-hook-lexwrap"
-config: {"url": "https://biocontainers.pro/tools/perl-hook-lexwrap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hook-lexwrap", "latest": {"0.26--pl526_1": "sha256:999fe5f33ba9b1922e058f4cf4b7f84e729379670efc248e8e4c79bdfd98157f"}, "tags": {"0.26--pl526_1": "sha256:999fe5f33ba9b1922e058f4cf4b7f84e729379670efc248e8e4c79bdfd98157f"}, "docker": "quay.io/biocontainers/perl-hook-lexwrap", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-hook-lexwrap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hook-lexwrap", "latest": {"0.26--pl526_1": "sha256:a39f1febd17753a2a040abda42620961c2165e310cef2311b180d6688f43001f"}, "tags": {"0.26--pl526_1": "sha256:a39f1febd17753a2a040abda42620961c2165e310cef2311b180d6688f43001f"}, "docker": "quay.io/biocontainers/perl-hook-lexwrap", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-hook-lexwrap.

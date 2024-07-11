@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-blockfest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-blockfest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-blockfest/container.yaml"
-updated_at: "2024-07-10 02:58:14.881045"
+updated_at: "2024-07-11 03:00:21.741560"
 latest: "1.6--r351h96ca727_2"
 container_url: "https://biocontainers.pro/tools/r-blockfest"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.6--r351h96ca727_2"
 description: "shpc-registry automated BioContainers addition for r-blockfest"
-config: {"url": "https://biocontainers.pro/tools/r-blockfest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-blockfest", "latest": {"1.6--r351h96ca727_2": "sha256:e783d77972c5e36c7af0a8a7e6dada373516c9b8ea75f79da1d45bb059a0517e"}, "tags": {"1.6--r351h96ca727_2": "sha256:e783d77972c5e36c7af0a8a7e6dada373516c9b8ea75f79da1d45bb059a0517e"}, "docker": "quay.io/biocontainers/r-blockfest", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-blockfest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-blockfest", "latest": {"1.6--r351h96ca727_2": "sha256:a0103b32c0fd59617fbf146392e1d0fd52e4a4b1cad0f3f9177d6adcd5176132"}, "tags": {"1.6--r351h96ca727_2": "sha256:a0103b32c0fd59617fbf146392e1d0fd52e4a4b1cad0f3f9177d6adcd5176132"}, "docker": "quay.io/biocontainers/r-blockfest", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-blockfest.

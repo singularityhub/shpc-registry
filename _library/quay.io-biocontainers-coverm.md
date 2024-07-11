@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/coverm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coverm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coverm/container.yaml"
-updated_at: "2024-07-10 03:13:02.831858"
-latest: "0.6.1--h07ea13f_6"
+updated_at: "2024-07-11 03:15:19.878616"
+latest: "0.7.0--h07ea13f_1"
 container_url: "https://biocontainers.pro/tools/coverm"
 aliases:
  - "coverm"
@@ -25,8 +25,9 @@ aliases:
 versions:
  - "0.6.1--h1535e20_5"
  - "0.6.1--h07ea13f_6"
+ - "0.7.0--h07ea13f_1"
 description: "shpc-registry automated BioContainers addition for coverm"
-config: {"url": "https://biocontainers.pro/tools/coverm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coverm", "latest": {"0.6.1--h07ea13f_6": "sha256:24e24dd7e50146ef997d5e3e9e6fd6b3f473a53c11c30532b263cd97d90bc494"}, "tags": {"0.6.1--h1535e20_5": "sha256:852de57f3f00862cd7524eb979fca849e887699d33af53661c4faf72aaef53bb", "0.6.1--h07ea13f_6": "sha256:24e24dd7e50146ef997d5e3e9e6fd6b3f473a53c11c30532b263cd97d90bc494"}, "docker": "quay.io/biocontainers/coverm", "aliases": {"coverm": "/usr/local/bin/coverm", "dashing": "/usr/local/bin/dashing", "remove_minimap2_duplicated_headers": "/usr/local/bin/remove_minimap2_duplicated_headers", "starcode": "/usr/local/bin/starcode", "fastANI": "/usr/local/bin/fastANI", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats"}}
+config: {"url": "https://biocontainers.pro/tools/coverm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coverm", "latest": {"0.7.0--h07ea13f_1": "sha256:2c1f5a05cf2cf7e8371b94fcb73b30eaedaf486a44cf1f53f66548f34bbccb9d"}, "tags": {"0.6.1--h1535e20_5": "sha256:852de57f3f00862cd7524eb979fca849e887699d33af53661c4faf72aaef53bb", "0.6.1--h07ea13f_6": "sha256:24e24dd7e50146ef997d5e3e9e6fd6b3f473a53c11c30532b263cd97d90bc494", "0.7.0--h07ea13f_1": "sha256:2c1f5a05cf2cf7e8371b94fcb73b30eaedaf486a44cf1f53f66548f34bbccb9d"}, "docker": "quay.io/biocontainers/coverm", "aliases": {"coverm": "/usr/local/bin/coverm", "dashing": "/usr/local/bin/dashing", "remove_minimap2_duplicated_headers": "/usr/local/bin/remove_minimap2_duplicated_headers", "starcode": "/usr/local/bin/starcode", "fastANI": "/usr/local/bin/fastANI", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/coverm.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/coverm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/coverm:0.6.1--h07ea13f_6
+$ shpc install quay.io/biocontainers/coverm:0.7.0--h07ea13f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/coverm/0.6.1--h07ea13f_6
-$ module help quay.io/biocontainers/coverm/0.6.1--h07ea13f_6
+$ module load quay.io/biocontainers/coverm/0.7.0--h07ea13f_1
+$ module help quay.io/biocontainers/coverm/0.7.0--h07ea13f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

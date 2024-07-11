@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/megagta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/megagta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/megagta/container.yaml"
-updated_at: "2024-07-10 03:10:52.015023"
+updated_at: "2024-07-11 03:13:08.697383"
 latest: "0.1_alpha--0"
 container_url: "https://biocontainers.pro/tools/megagta"
 aliases:
@@ -28,7 +28,7 @@ aliases:
 versions:
  - "0.1_alpha--0"
 description: "shpc-registry automated BioContainers addition for megagta"
-config: {"url": "https://biocontainers.pro/tools/megagta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for megagta", "latest": {"0.1_alpha--0": "sha256:f3f14565d01c4c836f2da609a418f35c1e2f14c9fbcf88e7c9e14a54dbdd639b"}, "tags": {"0.1_alpha--0": "sha256:f3f14565d01c4c836f2da609a418f35c1e2f14c9fbcf88e7c9e14a54dbdd639b"}, "docker": "quay.io/biocontainers/megagta", "aliases": {"hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "megagta": "/usr/local/bin/megagta", "megagta.py": "/usr/local/bin/megagta.py", "post_proc.sh": "/usr/local/bin/post_proc.sh", "prepare_gene_ref.sh": "/usr/local/bin/prepare_gene_ref.sh", "xander_customized_hmmer_version_for_prepare_gene.sh": "/usr/local/bin/xander_customized_hmmer_version_for_prepare_gene.sh", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "alimask": "/usr/local/bin/alimask", "hmmconvert": "/usr/local/bin/hmmconvert", "hmmemit": "/usr/local/bin/hmmemit", "hmmfetch": "/usr/local/bin/hmmfetch", "hmmlogo": "/usr/local/bin/hmmlogo", "hmmpgmd": "/usr/local/bin/hmmpgmd", "hmmpress": "/usr/local/bin/hmmpress", "hmmscan": "/usr/local/bin/hmmscan", "hmmsearch": "/usr/local/bin/hmmsearch"}}
+config: {"url": "https://biocontainers.pro/tools/megagta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for megagta", "latest": {"0.1_alpha--0": "sha256:84a661778d0ec1b55b2bb16d963cb6d2160047f7531036e31d7520bf45f47d85"}, "tags": {"0.1_alpha--0": "sha256:84a661778d0ec1b55b2bb16d963cb6d2160047f7531036e31d7520bf45f47d85"}, "docker": "quay.io/biocontainers/megagta", "aliases": {"hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "megagta": "/usr/local/bin/megagta", "megagta.py": "/usr/local/bin/megagta.py", "post_proc.sh": "/usr/local/bin/post_proc.sh", "prepare_gene_ref.sh": "/usr/local/bin/prepare_gene_ref.sh", "xander_customized_hmmer_version_for_prepare_gene.sh": "/usr/local/bin/xander_customized_hmmer_version_for_prepare_gene.sh", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "alimask": "/usr/local/bin/alimask", "hmmconvert": "/usr/local/bin/hmmconvert", "hmmemit": "/usr/local/bin/hmmemit", "hmmfetch": "/usr/local/bin/hmmfetch", "hmmlogo": "/usr/local/bin/hmmlogo", "hmmpgmd": "/usr/local/bin/hmmpgmd", "hmmpress": "/usr/local/bin/hmmpress", "hmmscan": "/usr/local/bin/hmmscan", "hmmsearch": "/usr/local/bin/hmmsearch"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/megagta.

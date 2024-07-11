@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mouse.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mouse.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mouse.db0/container.yaml"
-updated_at: "2024-07-10 02:42:21.734548"
+updated_at: "2024-07-11 02:44:20.434251"
 latest: "3.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mouse.db0"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "3.17.0--r43hdfd78af_0"
  - "3.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mouse.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mouse.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mouse.db0", "latest": {"3.18.0--r43hdfd78af_0": "sha256:d97fd94ab8469d53fa1f0322938ac5694be8d5e9c716ad2ee15b0d1605ead830"}, "tags": {"3.8.2--r36_1": "sha256:a15a687a2d0cfc320a80ade32f2499ee45efcbb76e1598cfbaa5e9b11d6cbc9d", "3.16.0--r42hdfd78af_0": "sha256:08184ca7fd2d20a75b6995176840b892ec40a3e945ee3d7547e32bad52116bab", "3.14.0--r41hdfd78af_1": "sha256:3dadc0c8a61f82477e62ef020998b0e2a3785f446698810ca596333755c4e41c", "3.13.0--r41hdfd78af_0": "sha256:0063772069f0fa9e6c78650d310498b8d8e174618a88d0c9579721d9a08982bb", "3.12.0--r40hdfd78af_1": "sha256:9c0c4013bb723404202dffeeb21b28304d92c8d82e5e29220e9915598f003e34", "3.11.2--r40_0": "sha256:09ec348f2149c434d5e7a37b60ccaa2100fd7ed518b56b0292cec3cce4cc32c4", "3.17.0--r43hdfd78af_0": "sha256:9c9d4b87c608afe6edcce2a84f55ceaf817007265ece4960ae0acff42d057ccc", "3.18.0--r43hdfd78af_0": "sha256:d97fd94ab8469d53fa1f0322938ac5694be8d5e9c716ad2ee15b0d1605ead830"}, "docker": "quay.io/biocontainers/bioconductor-mouse.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mouse.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mouse.db0", "latest": {"3.18.0--r43hdfd78af_0": "sha256:d97fd94ab8469d53fa1f0322938ac5694be8d5e9c716ad2ee15b0d1605ead830"}, "tags": {"3.8.2--r36_1": "sha256:8c3d9e41f00972fbe445475500de6ed9df55f3ea7535d6a28312cfab37bc4c42", "3.16.0--r42hdfd78af_0": "sha256:08184ca7fd2d20a75b6995176840b892ec40a3e945ee3d7547e32bad52116bab", "3.14.0--r41hdfd78af_1": "sha256:3dadc0c8a61f82477e62ef020998b0e2a3785f446698810ca596333755c4e41c", "3.13.0--r41hdfd78af_0": "sha256:0063772069f0fa9e6c78650d310498b8d8e174618a88d0c9579721d9a08982bb", "3.12.0--r40hdfd78af_1": "sha256:9c0c4013bb723404202dffeeb21b28304d92c8d82e5e29220e9915598f003e34", "3.11.2--r40_0": "sha256:09ec348f2149c434d5e7a37b60ccaa2100fd7ed518b56b0292cec3cce4cc32c4", "3.17.0--r43hdfd78af_0": "sha256:9c9d4b87c608afe6edcce2a84f55ceaf817007265ece4960ae0acff42d057ccc", "3.18.0--r43hdfd78af_0": "sha256:d97fd94ab8469d53fa1f0322938ac5694be8d5e9c716ad2ee15b0d1605ead830"}, "docker": "quay.io/biocontainers/bioconductor-mouse.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mouse.db0.

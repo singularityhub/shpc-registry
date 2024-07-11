@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/p7zip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/p7zip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/p7zip/container.yaml"
-updated_at: "2024-07-10 03:05:35.678638"
+updated_at: "2024-07-11 03:07:49.503573"
 latest: "16.02"
 container_url: "https://biocontainers.pro/tools/p7zip"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "15.09--h2d50403_4"
  - "16.02"
 description: "shpc-registry automated BioContainers addition for p7zip"
-config: {"url": "https://biocontainers.pro/tools/p7zip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for p7zip", "latest": {"16.02": "sha256:731aaeef376a95510b4f99d2f0f04be8ec6c737809f09a74438cbebf6cca02d8"}, "tags": {"15.09--h2d50403_4": "sha256:f28085ce2216fa7656306d2d3dc7db9c4071d16260c84292206d672d93fcba22", "16.02": "sha256:731aaeef376a95510b4f99d2f0f04be8ec6c737809f09a74438cbebf6cca02d8"}, "docker": "quay.io/biocontainers/p7zip", "aliases": {"7z": "/usr/local/bin/7z", "7za": "/usr/local/bin/7za", "7zr": "/usr/local/bin/7zr"}}
+config: {"url": "https://biocontainers.pro/tools/p7zip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for p7zip", "latest": {"16.02": "sha256:731aaeef376a95510b4f99d2f0f04be8ec6c737809f09a74438cbebf6cca02d8"}, "tags": {"15.09--h2d50403_4": "sha256:5021131f4c3832d27b62c847e927c745730b0ac355caddec7b9fe8b35d75e632", "16.02": "sha256:731aaeef376a95510b4f99d2f0f04be8ec6c737809f09a74438cbebf6cca02d8"}, "docker": "quay.io/biocontainers/p7zip", "aliases": {"7z": "/usr/local/bin/7z", "7za": "/usr/local/bin/7za", "7zr": "/usr/local/bin/7zr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/p7zip.

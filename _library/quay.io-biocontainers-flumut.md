@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flumut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flumut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flumut/container.yaml"
-updated_at: "2024-07-10 02:52:03.690093"
-latest: "0.6.0--pyhdfd78af_0"
+updated_at: "2024-07-11 02:54:06.220881"
+latest: "0.6.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flumut"
 aliases:
  - "flumut"
@@ -17,8 +17,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "0.6.0--pyhdfd78af_0"
+ - "0.6.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for flumut"
-config: {"url": "https://biocontainers.pro/tools/flumut", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flumut", "latest": {"0.6.0--pyhdfd78af_0": "sha256:ba45a07214d993e9a92a42cf57fdee0a006dc2aa7b8788765ea2c3ebf10417f6"}, "tags": {"0.6.0--pyhdfd78af_0": "sha256:ba45a07214d993e9a92a42cf57fdee0a006dc2aa7b8788765ea2c3ebf10417f6"}, "docker": "quay.io/biocontainers/flumut", "aliases": {"flumut": "/usr/local/bin/flumut", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/flumut", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flumut", "latest": {"0.6.2--pyhdfd78af_0": "sha256:528bb50d17d5562e0bce2ef1fbeb843a0838027cccdfe339b948409c5cdbb49c"}, "tags": {"0.6.0--pyhdfd78af_0": "sha256:ba45a07214d993e9a92a42cf57fdee0a006dc2aa7b8788765ea2c3ebf10417f6", "0.6.2--pyhdfd78af_0": "sha256:528bb50d17d5562e0bce2ef1fbeb843a0838027cccdfe339b948409c5cdbb49c"}, "docker": "quay.io/biocontainers/flumut", "aliases": {"flumut": "/usr/local/bin/flumut", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flumut.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/flumut
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flumut:0.6.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/flumut:0.6.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flumut/0.6.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/flumut/0.6.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/flumut/0.6.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/flumut/0.6.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

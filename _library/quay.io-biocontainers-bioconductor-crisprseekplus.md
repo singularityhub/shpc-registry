@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-crisprseekplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crisprseekplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crisprseekplus/container.yaml"
-updated_at: "2024-07-10 03:20:19.613474"
+updated_at: "2024-07-11 03:22:35.037194"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crisprseekplus"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.14.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-crisprseekplus"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-crisprseekplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-crisprseekplus", "latest": {"1.26.0--r43hdfd78af_0": "sha256:422aa87ba6895072f18e2cd0bb04ca74d911dae1ad59553fefd941ac9c082d9e"}, "tags": {"1.8.0--r351_0": "sha256:1f24c032c470e04446b591cad6c1fb8fbbb2386cb9f01e173721979f05d6c9ae", "1.24.0--r42hdfd78af_0": "sha256:d4a227824e4398b492888684a1e6bdfd2162b10350abca1b64a6fd1e30d135c1", "1.20.0--r41hdfd78af_0": "sha256:477b1be38964e3941a22579ac1bef2cc2dbb4768d9ac0a73a623214375c00dd4", "1.18.0--r41hdfd78af_0": "sha256:a564d606ffd418a76d655f1412e5ee1c4d36243a813a04950212e3efa6bca13c", "1.16.0--r40hdfd78af_1": "sha256:14e5ed83b549e76ccb4ee34258901bd8610b62bb5be965b253369c6a0d69d746", "1.14.0--r40_0": "sha256:c98a9657a39ce5d882a6263c9175808c4c23dd3bf2086d54dbfb2fa17f0633a0", "1.26.0--r43hdfd78af_0": "sha256:422aa87ba6895072f18e2cd0bb04ca74d911dae1ad59553fefd941ac9c082d9e"}, "docker": "quay.io/biocontainers/bioconductor-crisprseekplus", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-crisprseekplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-crisprseekplus", "latest": {"1.26.0--r43hdfd78af_0": "sha256:422aa87ba6895072f18e2cd0bb04ca74d911dae1ad59553fefd941ac9c082d9e"}, "tags": {"1.8.0--r351_0": "sha256:a5cd90ae7a761d760e84c07ee07121bb42e1e90e507ad17e4b2c1fb905a5db96", "1.24.0--r42hdfd78af_0": "sha256:d4a227824e4398b492888684a1e6bdfd2162b10350abca1b64a6fd1e30d135c1", "1.20.0--r41hdfd78af_0": "sha256:477b1be38964e3941a22579ac1bef2cc2dbb4768d9ac0a73a623214375c00dd4", "1.18.0--r41hdfd78af_0": "sha256:a564d606ffd418a76d655f1412e5ee1c4d36243a813a04950212e3efa6bca13c", "1.16.0--r40hdfd78af_1": "sha256:14e5ed83b549e76ccb4ee34258901bd8610b62bb5be965b253369c6a0d69d746", "1.14.0--r40_0": "sha256:c98a9657a39ce5d882a6263c9175808c4c23dd3bf2086d54dbfb2fa17f0633a0", "1.26.0--r43hdfd78af_0": "sha256:422aa87ba6895072f18e2cd0bb04ca74d911dae1ad59553fefd941ac9c082d9e"}, "docker": "quay.io/biocontainers/bioconductor-crisprseekplus", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-crisprseekplus.

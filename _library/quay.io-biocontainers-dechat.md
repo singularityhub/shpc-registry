@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dechat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dechat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dechat/container.yaml"
-updated_at: "2024-07-10 02:39:43.559784"
-latest: "1.0.0--h500492e_0"
+updated_at: "2024-07-11 02:41:40.936212"
+latest: "1.0.1--h56e2c18_1"
 container_url: "https://biocontainers.pro/tools/dechat"
 aliases:
  - "dechat"
@@ -33,8 +33,9 @@ aliases:
  - "h5cc"
 versions:
  - "1.0.0--h500492e_0"
+ - "1.0.1--h56e2c18_1"
 description: "singularity registry hpc automated addition for dechat"
-config: {"url": "https://biocontainers.pro/tools/dechat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dechat", "latest": {"1.0.0--h500492e_0": "sha256:2d9a00d874b942a03def943e5936567ca5d6d69efc258b7a066d4e5961a930e0"}, "tags": {"1.0.0--h500492e_0": "sha256:2d9a00d874b942a03def943e5936567ca5d6d69efc258b7a066d4e5961a930e0"}, "docker": "quay.io/biocontainers/dechat", "aliases": {"dechat": "/usr/local/bin/dechat", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack", "h5repart": "/usr/local/bin/h5repart", "h5stat": "/usr/local/bin/h5stat", "h5unjam": "/usr/local/bin/h5unjam", "h5dump": "/usr/local/bin/h5dump", "h5cc": "/usr/local/bin/h5cc"}}
+config: {"url": "https://biocontainers.pro/tools/dechat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dechat", "latest": {"1.0.1--h56e2c18_1": "sha256:6edcf8fae94d526300117cc70347e12d476bb00035c8044d55d7f08fdf90dd60"}, "tags": {"1.0.0--h500492e_0": "sha256:2d9a00d874b942a03def943e5936567ca5d6d69efc258b7a066d4e5961a930e0", "1.0.1--h56e2c18_1": "sha256:6edcf8fae94d526300117cc70347e12d476bb00035c8044d55d7f08fdf90dd60"}, "docker": "quay.io/biocontainers/dechat", "aliases": {"dechat": "/usr/local/bin/dechat", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack", "h5repart": "/usr/local/bin/h5repart", "h5stat": "/usr/local/bin/h5stat", "h5unjam": "/usr/local/bin/h5unjam", "h5dump": "/usr/local/bin/h5dump", "h5cc": "/usr/local/bin/h5cc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dechat.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/dechat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dechat:1.0.0--h500492e_0
+$ shpc install quay.io/biocontainers/dechat:1.0.1--h56e2c18_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dechat/1.0.0--h500492e_0
-$ module help quay.io/biocontainers/dechat/1.0.0--h500492e_0
+$ module load quay.io/biocontainers/dechat/1.0.1--h56e2c18_1
+$ module help quay.io/biocontainers/dechat/1.0.1--h56e2c18_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

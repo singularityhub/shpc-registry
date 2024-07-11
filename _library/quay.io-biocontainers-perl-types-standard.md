@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-types-standard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-types-standard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-types-standard/container.yaml"
-updated_at: "2024-07-10 02:40:52.722617"
+updated_at: "2024-07-11 02:42:50.811201"
 latest: "1.002001--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-types-standard"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.002001--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-types-standard"
-config: {"url": "https://biocontainers.pro/tools/perl-types-standard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-types-standard", "latest": {"1.002001--pl526_1": "sha256:d57fbeba19ecfd0c4bcfc19ef600fa4edb2d27cf8257f4e09d57046681fc63db"}, "tags": {"1.002001--pl526_1": "sha256:d57fbeba19ecfd0c4bcfc19ef600fa4edb2d27cf8257f4e09d57046681fc63db"}, "docker": "quay.io/biocontainers/perl-types-standard", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-types-standard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-types-standard", "latest": {"1.002001--pl526_1": "sha256:8bdf41b7e8913076a4fbf746604776a67e3622d4568417c6d54e72df174c76ae"}, "tags": {"1.002001--pl526_1": "sha256:8bdf41b7e8913076a4fbf746604776a67e3622d4568417c6d54e72df174c76ae"}, "docker": "quay.io/biocontainers/perl-types-standard", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-types-standard.

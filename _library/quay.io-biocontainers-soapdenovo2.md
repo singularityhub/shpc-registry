@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/soapdenovo2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soapdenovo2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soapdenovo2/container.yaml"
-updated_at: "2024-07-10 02:42:36.504051"
+updated_at: "2024-07-11 02:44:35.462614"
 latest: "2.40--1"
 container_url: "https://biocontainers.pro/tools/soapdenovo2"
 
 versions:
  - "2.40--1"
 description: "shpc-registry automated BioContainers addition for soapdenovo2"
-config: {"url": "https://biocontainers.pro/tools/soapdenovo2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soapdenovo2", "latest": {"2.40--1": "sha256:07f6f28132589eaa707aaad2f087aa0389d709ab7af758ca0fbac23e1be939a0"}, "tags": {"2.40--1": "sha256:07f6f28132589eaa707aaad2f087aa0389d709ab7af758ca0fbac23e1be939a0"}, "docker": "quay.io/biocontainers/soapdenovo2"}
+config: {"url": "https://biocontainers.pro/tools/soapdenovo2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soapdenovo2", "latest": {"2.40--1": "sha256:87443c96b7c2a6ff4255a525c4f092e0b662f6fdc4c69d6838fff30d83b0ddc3"}, "tags": {"2.40--1": "sha256:87443c96b7c2a6ff4255a525c4f092e0b662f6fdc4c69d6838fff30d83b0ddc3"}, "docker": "quay.io/biocontainers/soapdenovo2"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/soapdenovo2.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/regex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/regex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/regex/container.yaml"
-updated_at: "2024-07-10 02:57:57.564360"
+updated_at: "2024-07-11 03:00:04.499955"
 latest: "2016.06.24--py35_1"
 container_url: "https://biocontainers.pro/tools/regex"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "2016.06.24--py35_1"
 description: "shpc-registry automated BioContainers addition for regex"
-config: {"url": "https://biocontainers.pro/tools/regex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for regex", "latest": {"2016.06.24--py35_1": "sha256:c5e4f4c85d2ea937db03838095672bcfe1fa453965e11cec53565f3a38763d1b"}, "tags": {"2016.06.24--py35_1": "sha256:c5e4f4c85d2ea937db03838095672bcfe1fa453965e11cec53565f3a38763d1b"}, "docker": "quay.io/biocontainers/regex", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/regex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for regex", "latest": {"2016.06.24--py35_1": "sha256:415a067c68c561d450b5a0b7e11e014aedf4ad6cf76c66297e7b15201ebac25c"}, "tags": {"2016.06.24--py35_1": "sha256:415a067c68c561d450b5a0b7e11e014aedf4ad6cf76c66297e7b15201ebac25c"}, "docker": "quay.io/biocontainers/regex", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/regex.

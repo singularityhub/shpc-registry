@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fmsb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fmsb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fmsb/container.yaml"
-updated_at: "2024-07-10 02:38:33.898313"
+updated_at: "2024-07-11 02:40:30.953316"
 latest: "0.6.3--r36h6115d3f_4"
 container_url: "https://biocontainers.pro/tools/r-fmsb"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "0.6.3--r36h6115d3f_4"
 description: "shpc-registry automated BioContainers addition for r-fmsb"
-config: {"url": "https://biocontainers.pro/tools/r-fmsb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fmsb", "latest": {"0.6.3--r36h6115d3f_4": "sha256:70928b64a6b3ad706e8175400d8027c0e44d96476ec7e029d92f640dcc010807"}, "tags": {"0.6.3--r36h6115d3f_4": "sha256:70928b64a6b3ad706e8175400d8027c0e44d96476ec7e029d92f640dcc010807"}, "docker": "quay.io/biocontainers/r-fmsb", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-fmsb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fmsb", "latest": {"0.6.3--r36h6115d3f_4": "sha256:75500b17ddaacdc61867fd092f38ba3789acd4521dce7e062872338651ced0a3"}, "tags": {"0.6.3--r36h6115d3f_4": "sha256:75500b17ddaacdc61867fd092f38ba3789acd4521dce7e062872338651ced0a3"}, "docker": "quay.io/biocontainers/r-fmsb", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-fmsb.

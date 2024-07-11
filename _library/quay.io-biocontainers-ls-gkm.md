@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ls-gkm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ls-gkm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ls-gkm/container.yaml"
-updated_at: "2024-07-10 02:48:24.396578"
+updated_at: "2024-07-11 02:50:27.906494"
 latest: "0.0.1--h2d50403_1"
 container_url: "https://biocontainers.pro/tools/ls-gkm"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.0.1--h2d50403_1"
 description: "shpc-registry automated BioContainers addition for ls-gkm"
-config: {"url": "https://biocontainers.pro/tools/ls-gkm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ls-gkm", "latest": {"0.0.1--h2d50403_1": "sha256:044a0a5f9de3c2ca0756f8a88b51474320d55c13b5d84695a629a235dcf7e6f7"}, "tags": {"0.0.1--h2d50403_1": "sha256:044a0a5f9de3c2ca0756f8a88b51474320d55c13b5d84695a629a235dcf7e6f7"}, "docker": "quay.io/biocontainers/ls-gkm", "aliases": {"gkmpredict": "/usr/local/bin/gkmpredict", "gkmtrain": "/usr/local/bin/gkmtrain"}}
+config: {"url": "https://biocontainers.pro/tools/ls-gkm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ls-gkm", "latest": {"0.0.1--h2d50403_1": "sha256:ee52581fbbc1e953e565c341c3210072ccf44b1f9989eb59536e4a71b4bbfa90"}, "tags": {"0.0.1--h2d50403_1": "sha256:ee52581fbbc1e953e565c341c3210072ccf44b1f9989eb59536e4a71b4bbfa90"}, "docker": "quay.io/biocontainers/ls-gkm", "aliases": {"gkmpredict": "/usr/local/bin/gkmpredict", "gkmtrain": "/usr/local/bin/gkmtrain"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ls-gkm.

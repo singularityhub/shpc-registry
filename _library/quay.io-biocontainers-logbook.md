@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/logbook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/logbook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/logbook/container.yaml"
-updated_at: "2024-07-10 02:58:05.825400"
+updated_at: "2024-07-11 03:00:12.696563"
 latest: "1.4.3--py37h14c3975_0"
 container_url: "https://biocontainers.pro/tools/logbook"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "1.4.3--py37h14c3975_0"
 description: "shpc-registry automated BioContainers addition for logbook"
-config: {"url": "https://biocontainers.pro/tools/logbook", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for logbook", "latest": {"1.4.3--py37h14c3975_0": "sha256:7bd8c68dde8888cb4da83be21a2e4e0d9b4ab20963afaab29c93eca1dc5aecda"}, "tags": {"1.4.3--py37h14c3975_0": "sha256:7bd8c68dde8888cb4da83be21a2e4e0d9b4ab20963afaab29c93eca1dc5aecda"}, "docker": "quay.io/biocontainers/logbook", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/logbook", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for logbook", "latest": {"1.4.3--py37h14c3975_0": "sha256:f4a2d840b7b9d83fea4569b12a22f31de5167f8131a3180e9bfdadb3fe9f01d7"}, "tags": {"1.4.3--py37h14c3975_0": "sha256:f4a2d840b7b9d83fea4569b12a22f31de5167f8131a3180e9bfdadb3fe9f01d7"}, "docker": "quay.io/biocontainers/logbook", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/logbook.

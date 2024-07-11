@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-extutils-cbuilder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-extutils-cbuilder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-extutils-cbuilder/container.yaml"
-updated_at: "2024-07-10 02:55:48.831701"
+updated_at: "2024-07-11 02:57:56.400414"
 latest: "0.280230--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-extutils-cbuilder"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "0.280230--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-extutils-cbuilder"
-config: {"url": "https://biocontainers.pro/tools/perl-extutils-cbuilder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-extutils-cbuilder", "latest": {"0.280230--pl526_1": "sha256:b5fc964e9f53560ad00b5c2a4930cecaabdf27ba7714e73c3cbffed86b8277a0"}, "tags": {"0.280230--pl526_1": "sha256:b5fc964e9f53560ad00b5c2a4930cecaabdf27ba7714e73c3cbffed86b8277a0"}, "docker": "quay.io/biocontainers/perl-extutils-cbuilder", "aliases": {"cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-extutils-cbuilder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-extutils-cbuilder", "latest": {"0.280230--pl526_1": "sha256:e0d6ec134e1b5098e94c31661f74a5a2068c429cadbe40fe41338ba3abb0f285"}, "tags": {"0.280230--pl526_1": "sha256:e0d6ec134e1b5098e94c31661f74a5a2068c429cadbe40fe41338ba3abb0f285"}, "docker": "quay.io/biocontainers/perl-extutils-cbuilder", "aliases": {"cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-extutils-cbuilder.

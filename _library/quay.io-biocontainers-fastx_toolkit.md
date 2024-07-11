@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastx_toolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastx_toolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastx_toolkit/container.yaml"
-updated_at: "2024-07-10 02:55:25.809146"
+updated_at: "2024-07-11 02:57:32.855417"
 latest: "0.0.14--hdbdd923_11"
 container_url: "https://biocontainers.pro/tools/fastx_toolkit"
 
@@ -13,7 +13,7 @@ versions:
  - "0.0.14--h87f3376_10"
  - "0.0.14--hdbdd923_11"
 description: "shpc-registry automated BioContainers addition for fastx_toolkit"
-config: {"url": "https://biocontainers.pro/tools/fastx_toolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastx_toolkit", "latest": {"0.0.14--hdbdd923_11": "sha256:da06a6b2e5984f34d2686c7399d37102859a393eadf65bc701aca9a025089742"}, "tags": {"0.0.14--he1b5a44_8": "sha256:8ac88163b78821a449c1fec672e9b9cf9c4993c18d067a9afa0a8769a5e3f607", "0.0.14--h87f3376_10": "sha256:ce4316e55413966f2dd1993936b86dbd488ba6f17c9044eefd2fa2e41f220a70", "0.0.14--hdbdd923_11": "sha256:da06a6b2e5984f34d2686c7399d37102859a393eadf65bc701aca9a025089742"}, "docker": "quay.io/biocontainers/fastx_toolkit"}
+config: {"url": "https://biocontainers.pro/tools/fastx_toolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastx_toolkit", "latest": {"0.0.14--hdbdd923_11": "sha256:da06a6b2e5984f34d2686c7399d37102859a393eadf65bc701aca9a025089742"}, "tags": {"0.0.14--he1b5a44_8": "sha256:5bcaaf32774ab17dcd0da00d1f0298487c2ed0079302ff4a3a94fcc14e995e91", "0.0.14--h87f3376_10": "sha256:ce4316e55413966f2dd1993936b86dbd488ba6f17c9044eefd2fa2e41f220a70", "0.0.14--hdbdd923_11": "sha256:da06a6b2e5984f34d2686c7399d37102859a393eadf65bc701aca9a025089742"}, "docker": "quay.io/biocontainers/fastx_toolkit"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastx_toolkit.

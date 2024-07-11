@@ -4,7 +4,7 @@ name:  "quay.io/pawsey/hpc-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/hpc-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/hpc-python/container.yaml"
-updated_at: "2024-07-10 02:35:33.409399"
+updated_at: "2024-07-11 02:37:30.139370"
 latest: "3.11-ubuntu23.04"
 container_url: "https://quay.io/repository/pawsey/hpc-python"
 aliases:
@@ -12,8 +12,9 @@ aliases:
  - "python3"
 versions:
  - "3.11-ubuntu23.04"
+ - "3.11-ubuntu23.04-hdf5mpi"
 description: "Base Python images with popular packages for HPC workflows."
-config: {"docker": "quay.io/pawsey/hpc-python", "url": "https://quay.io/repository/pawsey/hpc-python", "maintainer": "@marcodelapierre", "description": "Base Python images with popular packages for HPC workflows.", "latest": {"3.11-ubuntu23.04": "sha256:09ffa5a5a2b477f11827b4ea2e60e367e2ee0b5da8829b5bd31c833b76a20570"}, "tags": {"3.11-ubuntu23.04": "sha256:09ffa5a5a2b477f11827b4ea2e60e367e2ee0b5da8829b5bd31c833b76a20570"}, "aliases": {"python": "/usr/local/bin/python", "python3": "/usr/local/bin/python3"}, "env": {"PYTHONSTARTUP": "", "PYTHONUSERBASE": ""}, "features": {"home": true}}
+config: {"docker": "quay.io/pawsey/hpc-python", "url": "https://quay.io/repository/pawsey/hpc-python", "maintainer": "@marcodelapierre", "description": "Base Python images with popular packages for HPC workflows.", "latest": {"3.11-ubuntu23.04": "sha256:09ffa5a5a2b477f11827b4ea2e60e367e2ee0b5da8829b5bd31c833b76a20570"}, "tags": {"3.11-ubuntu23.04": "sha256:09ffa5a5a2b477f11827b4ea2e60e367e2ee0b5da8829b5bd31c833b76a20570", "3.11-ubuntu23.04-hdf5mpi": "sha256:b42b65b2d49bf24c595e23ac0e1b11ac2bccf36d716356493f7b32ef12e35b48"}, "aliases": {"python": "/usr/local/bin/python", "python3": "/usr/local/bin/python3"}, "env": {"PYTHONSTARTUP": "", "PYTHONUSERBASE": ""}, "features": {"home": true}}
 ---
 
 This module is a singularity container wrapper for quay.io/pawsey/hpc-python.

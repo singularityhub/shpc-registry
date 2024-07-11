@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-bam-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-bam-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-bam-tools/container.yaml"
-updated_at: "2024-07-10 03:22:05.799574"
-latest: "1.2--hdfd78af_0"
+updated_at: "2024-07-11 03:24:23.434333"
+latest: "1.2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-bam-tools"
 aliases:
  - "jwebserver"
@@ -35,8 +35,9 @@ aliases:
  - "jcmd"
 versions:
  - "1.2--hdfd78af_0"
+ - "1.2.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for hmftools-bam-tools"
-config: {"url": "https://biocontainers.pro/tools/hmftools-bam-tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-bam-tools", "latest": {"1.2--hdfd78af_0": "sha256:67db5eb1951e9600321855476c0d3d60b4c6db1f7929b722068dec63657e0c76"}, "tags": {"1.2--hdfd78af_0": "sha256:67db5eb1951e9600321855476c0d3d60b4c6db1f7929b722068dec63657e0c76"}, "docker": "quay.io/biocontainers/hmftools-bam-tools", "aliases": {"jwebserver": "/usr/local/bin/jwebserver", "bamtools": "/usr/local/bin/bamtools", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-bam-tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-bam-tools", "latest": {"1.2.1--hdfd78af_0": "sha256:95aed7c44e46478902eef630ab8f31c92094abe9d7680a32d837c24e8627711a"}, "tags": {"1.2--hdfd78af_0": "sha256:67db5eb1951e9600321855476c0d3d60b4c6db1f7929b722068dec63657e0c76", "1.2.1--hdfd78af_0": "sha256:95aed7c44e46478902eef630ab8f31c92094abe9d7680a32d837c24e8627711a"}, "docker": "quay.io/biocontainers/hmftools-bam-tools", "aliases": {"jwebserver": "/usr/local/bin/jwebserver", "bamtools": "/usr/local/bin/bamtools", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-bam-tools.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/hmftools-bam-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-bam-tools:1.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-bam-tools:1.2.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-bam-tools/1.2--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-bam-tools/1.2--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-bam-tools/1.2.1--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-bam-tools/1.2.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

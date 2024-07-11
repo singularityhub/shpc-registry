@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nose-capturestderr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nose-capturestderr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nose-capturestderr/container.yaml"
-updated_at: "2024-07-10 02:39:39.053891"
+updated_at: "2024-07-11 02:41:36.430565"
 latest: "1.2--py27_0"
 container_url: "https://biocontainers.pro/tools/nose-capturestderr"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "1.2--py27_0"
 description: "shpc-registry automated BioContainers addition for nose-capturestderr"
-config: {"url": "https://biocontainers.pro/tools/nose-capturestderr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nose-capturestderr", "latest": {"1.2--py27_0": "sha256:ce2bc4ed754ceb6362d78de1f81e95fbbeff58243f1496e86c67398413669007"}, "tags": {"1.2--py27_0": "sha256:ce2bc4ed754ceb6362d78de1f81e95fbbeff58243f1496e86c67398413669007"}, "docker": "quay.io/biocontainers/nose-capturestderr", "aliases": {"nosetests-2.7": "/usr/local/bin/nosetests-2.7", "nosetests": "/usr/local/bin/nosetests", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/nose-capturestderr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nose-capturestderr", "latest": {"1.2--py27_0": "sha256:acebbff232e482794bc3ace42cc60a69d27f6bfa76cff9e7a8d36a47d8162732"}, "tags": {"1.2--py27_0": "sha256:acebbff232e482794bc3ace42cc60a69d27f6bfa76cff9e7a8d36a47d8162732"}, "docker": "quay.io/biocontainers/nose-capturestderr", "aliases": {"nosetests-2.7": "/usr/local/bin/nosetests-2.7", "nosetests": "/usr/local/bin/nosetests", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nose-capturestderr.

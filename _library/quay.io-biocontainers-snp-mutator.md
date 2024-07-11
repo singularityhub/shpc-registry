@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snp-mutator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snp-mutator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snp-mutator/container.yaml"
-updated_at: "2024-07-10 03:03:26.542032"
+updated_at: "2024-07-11 03:05:36.097399"
 latest: "1.2.0--pyh24bf2e0_0"
 container_url: "https://biocontainers.pro/tools/snp-mutator"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.2.0--pyh24bf2e0_0"
 description: "shpc-registry automated BioContainers addition for snp-mutator"
-config: {"url": "https://biocontainers.pro/tools/snp-mutator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snp-mutator", "latest": {"1.2.0--pyh24bf2e0_0": "sha256:feb43598e794c1723b3869f1719070bc6b8fc23df44574772123eaba8e7849cd"}, "tags": {"1.2.0--pyh24bf2e0_0": "sha256:feb43598e794c1723b3869f1719070bc6b8fc23df44574772123eaba8e7849cd"}, "docker": "quay.io/biocontainers/snp-mutator", "aliases": {"snpmutator": "/usr/local/bin/snpmutator", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/snp-mutator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snp-mutator", "latest": {"1.2.0--pyh24bf2e0_0": "sha256:ddc335b20ddb2788717ef66c23f4300019852387a565061ab5c420957f580d7c"}, "tags": {"1.2.0--pyh24bf2e0_0": "sha256:ddc335b20ddb2788717ef66c23f4300019852387a565061ab5c420957f580d7c"}, "docker": "quay.io/biocontainers/snp-mutator", "aliases": {"snpmutator": "/usr/local/bin/snpmutator", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snp-mutator.

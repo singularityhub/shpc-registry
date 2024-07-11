@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ensembl-vep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ensembl-vep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ensembl-vep/container.yaml"
-updated_at: "2024-07-10 03:19:35.469018"
-latest: "98.1--pl526hecc5488_0"
+updated_at: "2024-07-11 03:21:48.945646"
+latest: "112.0--pl5321h2a3209d_0"
 container_url: "https://biocontainers.pro/tools/ensembl-vep"
 aliases:
  - "filter_vep"
@@ -26,8 +26,13 @@ aliases:
  - "t_coffee"
 versions:
  - "98.1--pl526hecc5488_0"
+ - "112.0--pl5321h2a3209d_0"
+ - "111.0--pl5321h2a3209d_0"
+ - "110.1--pl5321h2a3209d_0"
+ - "110.0--pl5321h2a3209d_0"
+ - "109.3--pl5321h2a3209d_1"
 description: "shpc-registry automated BioContainers addition for ensembl-vep"
-config: {"url": "https://biocontainers.pro/tools/ensembl-vep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ensembl-vep", "latest": {"98.1--pl526hecc5488_0": "sha256:d0c7e20d65a0c58d49589c4fccc6fed5f379001ad4e3f05fe85a727baf2713ad"}, "tags": {"98.1--pl526hecc5488_0": "sha256:d0c7e20d65a0c58d49589c4fccc6fed5f379001ad4e3f05fe85a727baf2713ad"}, "docker": "quay.io/biocontainers/ensembl-vep", "aliases": {"filter_vep": "/usr/local/bin/filter_vep", "haplo": "/usr/local/bin/haplo", "variant_recoder": "/usr/local/bin/variant_recoder", "vep": "/usr/local/bin/vep", "vep_convert_cache": "/usr/local/bin/vep_convert_cache", "vep_install": "/usr/local/bin/vep_install", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "unzip": "/usr/local/bin/unzip", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "gdlib-config": "/usr/local/bin/gdlib-config", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee"}}
+config: {"url": "https://biocontainers.pro/tools/ensembl-vep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ensembl-vep", "latest": {"112.0--pl5321h2a3209d_0": "sha256:ae08eb972c5a4280ce6457b93db2e9fdc4e39e5760d0e10a991de44ed01c9d20"}, "tags": {"98.1--pl526hecc5488_0": "sha256:a5fb98373509dab9ad59d363b3ce5da77a9bd8a2c7578a2f64e63e8d0f80afe0", "112.0--pl5321h2a3209d_0": "sha256:ae08eb972c5a4280ce6457b93db2e9fdc4e39e5760d0e10a991de44ed01c9d20", "111.0--pl5321h2a3209d_0": "sha256:18b618045bdde6d766fd5ce3d4a43337b39e03e1e78477ccb323081fa99dea30", "110.1--pl5321h2a3209d_0": "sha256:bf2dba86687cc291035ff8dee550abb87f835b0c83550eaa9c547dc743e30ced", "110.0--pl5321h2a3209d_0": "sha256:fa8127d8fd570a7506f273a3b9ea0764f383da75f6a975b0ede3a22dc53f3b47", "109.3--pl5321h2a3209d_1": "sha256:6c583cd4ccf7faa306f31c0265f6c2d82612e7b7945d8311cbbe116419a06360"}, "docker": "quay.io/biocontainers/ensembl-vep", "aliases": {"filter_vep": "/usr/local/bin/filter_vep", "haplo": "/usr/local/bin/haplo", "variant_recoder": "/usr/local/bin/variant_recoder", "vep": "/usr/local/bin/vep", "vep_convert_cache": "/usr/local/bin/vep_convert_cache", "vep_install": "/usr/local/bin/vep_install", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "unzip": "/usr/local/bin/unzip", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "gdlib-config": "/usr/local/bin/gdlib-config", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ensembl-vep.
@@ -42,7 +47,7 @@ $ shpc install quay.io/biocontainers/ensembl-vep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ensembl-vep:98.1--pl526hecc5488_0
+$ shpc install quay.io/biocontainers/ensembl-vep:112.0--pl5321h2a3209d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ensembl-vep/98.1--pl526hecc5488_0
-$ module help quay.io/biocontainers/ensembl-vep/98.1--pl526hecc5488_0
+$ module load quay.io/biocontainers/ensembl-vep/112.0--pl5321h2a3209d_0
+$ module help quay.io/biocontainers/ensembl-vep/112.0--pl5321h2a3209d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

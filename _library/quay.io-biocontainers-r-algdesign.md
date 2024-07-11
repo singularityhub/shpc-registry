@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-algdesign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-algdesign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-algdesign/container.yaml"
-updated_at: "2024-07-10 03:16:24.558111"
+updated_at: "2024-07-11 03:18:38.945090"
 latest: "1.1_7.3--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-algdesign"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.1_7.3--r3.3.2_0"
+ - "1.1_7.3--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-algdesign"
-config: {"url": "https://biocontainers.pro/tools/r-algdesign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-algdesign", "latest": {"1.1_7.3--r3.3.2_0": "sha256:af8fc7a9abd0f7e5364a43474ad0ff5c2f77c60e2bd91ca5a203d985da411525"}, "tags": {"1.1_7.3--r3.3.2_0": "sha256:af8fc7a9abd0f7e5364a43474ad0ff5c2f77c60e2bd91ca5a203d985da411525"}, "docker": "quay.io/biocontainers/r-algdesign", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-algdesign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-algdesign", "latest": {"1.1_7.3--r3.3.2_0": "sha256:1ca5d3fdc531f0acb6e64fa871013c1d2d83741df5393829f49fd4aa937bfa19"}, "tags": {"1.1_7.3--r3.3.2_0": "sha256:1ca5d3fdc531f0acb6e64fa871013c1d2d83741df5393829f49fd4aa937bfa19", "1.1_7.3--r3.3.1_0": "sha256:38fa723fcce1ab3907b9f583c775bed10bbeb9506713075c9ec75c4171b4129f"}, "docker": "quay.io/biocontainers/r-algdesign", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-algdesign.

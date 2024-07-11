@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/esmre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esmre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esmre/container.yaml"
-updated_at: "2024-07-10 02:36:30.954076"
+updated_at: "2024-07-11 02:38:27.979453"
 latest: "0.3.1--py27_1"
 container_url: "https://biocontainers.pro/tools/esmre"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.3.1--py27_1"
 description: "shpc-registry automated BioContainers addition for esmre"
-config: {"url": "https://biocontainers.pro/tools/esmre", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for esmre", "latest": {"0.3.1--py27_1": "sha256:a957af0f26b104f9258fb04319505303d2ee5d1e0d182136d8b6bd8376b97820"}, "tags": {"0.3.1--py27_1": "sha256:a957af0f26b104f9258fb04319505303d2ee5d1e0d182136d8b6bd8376b97820"}, "docker": "quay.io/biocontainers/esmre", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/esmre", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for esmre", "latest": {"0.3.1--py27_1": "sha256:e69a0b40f854b668748ed725e51ceb3ba8d716977b7f62dda5c4b7cacf1a85e4"}, "tags": {"0.3.1--py27_1": "sha256:e69a0b40f854b668748ed725e51ceb3ba8d716977b7f62dda5c4b7cacf1a85e4"}, "docker": "quay.io/biocontainers/esmre", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/esmre.

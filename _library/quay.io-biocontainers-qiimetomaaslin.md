@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qiimetomaaslin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qiimetomaaslin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qiimetomaaslin/container.yaml"
-updated_at: "2024-07-10 03:02:07.481965"
+updated_at: "2024-07-11 03:04:15.867584"
 latest: "1.1.0--py27_1"
 container_url: "https://biocontainers.pro/tools/qiimetomaaslin"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.1.0--py27_1"
 description: "shpc-registry automated BioContainers addition for qiimetomaaslin"
-config: {"url": "https://biocontainers.pro/tools/qiimetomaaslin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qiimetomaaslin", "latest": {"1.1.0--py27_1": "sha256:f9bc4329924b01809cf2ebce7eb45b335a48a4033ad046d45925394f41972e96"}, "tags": {"1.1.0--py27_1": "sha256:f9bc4329924b01809cf2ebce7eb45b335a48a4033ad046d45925394f41972e96"}, "docker": "quay.io/biocontainers/qiimetomaaslin", "aliases": {"qiimeToMaaslin.py": "/usr/local/bin/qiimeToMaaslin.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/qiimetomaaslin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qiimetomaaslin", "latest": {"1.1.0--py27_1": "sha256:45ff7432b3124ce67af363d4f78bfb616f91c4164cffb39011b48e8d14b0fa3e"}, "tags": {"1.1.0--py27_1": "sha256:45ff7432b3124ce67af363d4f78bfb616f91c4164cffb39011b48e8d14b0fa3e"}, "docker": "quay.io/biocontainers/qiimetomaaslin", "aliases": {"qiimeToMaaslin.py": "/usr/local/bin/qiimeToMaaslin.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/qiimetomaaslin.

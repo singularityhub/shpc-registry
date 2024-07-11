@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gwascat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gwascat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gwascat/container.yaml"
-updated_at: "2024-07-10 02:39:07.278008"
+updated_at: "2024-07-11 02:41:04.491763"
 latest: "2.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gwascat"
 
@@ -14,7 +14,7 @@ versions:
  - "2.32.0--r43hdfd78af_0"
  - "2.34.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gwascat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gwascat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gwascat", "latest": {"2.34.0--r43hdfd78af_0": "sha256:a48a97ca9e32e868d9a0713b0f1a623b0d6c6050798cf6e8a12234c2d830d3f8"}, "tags": {"2.26.0--r41hdfd78af_0": "sha256:8e41b2299d783021f0f4b1154580aecf34624358644c2ec50ba5085b6a1c4724", "2.30.0--r42hdfd78af_0": "sha256:c6522167541242cdf087237b420be6ee10c52d4b829bcd9649858336af866a14", "2.32.0--r43hdfd78af_0": "sha256:fb4b120ca6371d669a0b93c08a518928dcf964d3b146adc2a26ff965272cee1e", "2.34.0--r43hdfd78af_0": "sha256:a48a97ca9e32e868d9a0713b0f1a623b0d6c6050798cf6e8a12234c2d830d3f8"}, "docker": "quay.io/biocontainers/bioconductor-gwascat"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gwascat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gwascat", "latest": {"2.34.0--r43hdfd78af_0": "sha256:a48a97ca9e32e868d9a0713b0f1a623b0d6c6050798cf6e8a12234c2d830d3f8"}, "tags": {"2.26.0--r41hdfd78af_0": "sha256:8e41b2299d783021f0f4b1154580aecf34624358644c2ec50ba5085b6a1c4724", "2.30.0--r42hdfd78af_0": "sha256:3758b2b32f4027ba6f4ccdeb51d0a0f15d6133d7711d2e7ba2420e68e0f5012d", "2.32.0--r43hdfd78af_0": "sha256:fb4b120ca6371d669a0b93c08a518928dcf964d3b146adc2a26ff965272cee1e", "2.34.0--r43hdfd78af_0": "sha256:a48a97ca9e32e868d9a0713b0f1a623b0d6c6050798cf6e8a12234c2d830d3f8"}, "docker": "quay.io/biocontainers/bioconductor-gwascat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gwascat.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smina"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smina/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smina/container.yaml"
-updated_at: "2024-07-10 02:38:44.455056"
+updated_at: "2024-07-11 02:40:41.528579"
 latest: "2017.11.9--0"
 container_url: "https://biocontainers.pro/tools/smina"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "2017.11.9--0"
 description: "shpc-registry automated BioContainers addition for smina"
-config: {"url": "https://biocontainers.pro/tools/smina", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smina", "latest": {"2017.11.9--0": "sha256:502e7be073c9ec35b996656a48e9560e05746ad6d98649c56f98af9a724875b4"}, "tags": {"2017.11.9--0": "sha256:502e7be073c9ec35b996656a48e9560e05746ad6d98649c56f98af9a724875b4"}, "docker": "quay.io/biocontainers/smina", "aliases": {"smina": "/usr/local/bin/smina"}}
+config: {"url": "https://biocontainers.pro/tools/smina", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smina", "latest": {"2017.11.9--0": "sha256:73be95f49e56122868fa914fbe8f9f61e337b2cae351fd238489e88b9e0dd56f"}, "tags": {"2017.11.9--0": "sha256:73be95f49e56122868fa914fbe8f9f61e337b2cae351fd238489e88b9e0dd56f"}, "docker": "quay.io/biocontainers/smina", "aliases": {"smina": "/usr/local/bin/smina"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smina.

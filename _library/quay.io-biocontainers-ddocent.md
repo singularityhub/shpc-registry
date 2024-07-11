@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ddocent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ddocent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ddocent/container.yaml"
-updated_at: "2024-07-10 02:50:39.491555"
-latest: "2.9.4--hdfd78af_1"
+updated_at: "2024-07-11 02:52:42.275006"
+latest: "2.9.8--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ddocent"
 aliases:
  - "ErrorCount.sh"
@@ -48,8 +48,9 @@ aliases:
 versions:
  - "2.9.4--hdfd78af_0"
  - "2.9.4--hdfd78af_1"
+ - "2.9.8--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ddocent"
-config: {"url": "https://biocontainers.pro/tools/ddocent", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ddocent", "latest": {"2.9.4--hdfd78af_1": "sha256:64ef7f812b2756f211718eea882c039d109286874f8d029aab64bbf9619de8e8"}, "tags": {"2.9.4--hdfd78af_0": "sha256:ca1589c8586e16baff5f4751b5eb2ab033a710f89837422ffbcde66b58dd7225", "2.9.4--hdfd78af_1": "sha256:64ef7f812b2756f211718eea882c039d109286874f8d029aab64bbf9619de8e8"}, "docker": "quay.io/biocontainers/ddocent", "aliases": {"ErrorCount.sh": "/usr/local/bin/ErrorCount.sh", "RefMapOpt.sh": "/usr/local/bin/RefMapOpt.sh", "ReferenceOpt.sh": "/usr/local/bin/ReferenceOpt.sh", "Rename_SequenceFiles.sh": "/usr/local/bin/Rename_SequenceFiles.sh", "dDocent": "/usr/local/bin/dDocent", "dDocent_filters": "/usr/local/bin/dDocent_filters", "filter_hwe_by_pop.pl": "/usr/local/bin/filter_hwe_by_pop.pl", "filter_missing_ind.sh": "/usr/local/bin/filter_missing_ind.sh", "mawk": "/usr/local/bin/mawk", "pear": "/usr/local/bin/pear", "pearRM": "/usr/local/bin/pearRM", "pop_missing_filter.sh": "/usr/local/bin/pop_missing_filter.sh", "rainbow": "/usr/local/bin/rainbow", "remake_reference.sh": "/usr/local/bin/remake_reference.sh", "remove.bad.hap.loci.sh": "/usr/local/bin/remove.bad.hap.loci.sh", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "select_all_rbcontig.pl": "/usr/local/bin/select_all_rbcontig.pl", "select_all_rbcontig.pl.bak": "/usr/local/bin/select_all_rbcontig.pl.bak", "select_best_rbcontig.pl": "/usr/local/bin/select_best_rbcontig.pl", "select_best_rbcontig.pl.bak": "/usr/local/bin/select_best_rbcontig.pl.bak", "select_best_rbcontig_plus_read1.pl": "/usr/local/bin/select_best_rbcontig_plus_read1.pl", "select_best_rbcontig_plus_read1.pl.bak": "/usr/local/bin/select_best_rbcontig_plus_read1.pl.bak", "select_sec_rbcontig.pl": "/usr/local/bin/select_sec_rbcontig.pl", "select_sec_rbcontig.pl.bak": "/usr/local/bin/select_sec_rbcontig.pl.bak", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "update_version.sh": "/usr/local/bin/update_version.sh", "vcftools": "/usr/local/bin/vcftools", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert"}}
+config: {"url": "https://biocontainers.pro/tools/ddocent", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ddocent", "latest": {"2.9.8--hdfd78af_0": "sha256:5e12a371455875b06aaf472d8768d68402cf5e48ff48c0de7351dd4e16911c18"}, "tags": {"2.9.4--hdfd78af_0": "sha256:ca1589c8586e16baff5f4751b5eb2ab033a710f89837422ffbcde66b58dd7225", "2.9.4--hdfd78af_1": "sha256:64ef7f812b2756f211718eea882c039d109286874f8d029aab64bbf9619de8e8", "2.9.8--hdfd78af_0": "sha256:5e12a371455875b06aaf472d8768d68402cf5e48ff48c0de7351dd4e16911c18"}, "docker": "quay.io/biocontainers/ddocent", "aliases": {"ErrorCount.sh": "/usr/local/bin/ErrorCount.sh", "RefMapOpt.sh": "/usr/local/bin/RefMapOpt.sh", "ReferenceOpt.sh": "/usr/local/bin/ReferenceOpt.sh", "Rename_SequenceFiles.sh": "/usr/local/bin/Rename_SequenceFiles.sh", "dDocent": "/usr/local/bin/dDocent", "dDocent_filters": "/usr/local/bin/dDocent_filters", "filter_hwe_by_pop.pl": "/usr/local/bin/filter_hwe_by_pop.pl", "filter_missing_ind.sh": "/usr/local/bin/filter_missing_ind.sh", "mawk": "/usr/local/bin/mawk", "pear": "/usr/local/bin/pear", "pearRM": "/usr/local/bin/pearRM", "pop_missing_filter.sh": "/usr/local/bin/pop_missing_filter.sh", "rainbow": "/usr/local/bin/rainbow", "remake_reference.sh": "/usr/local/bin/remake_reference.sh", "remove.bad.hap.loci.sh": "/usr/local/bin/remove.bad.hap.loci.sh", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "select_all_rbcontig.pl": "/usr/local/bin/select_all_rbcontig.pl", "select_all_rbcontig.pl.bak": "/usr/local/bin/select_all_rbcontig.pl.bak", "select_best_rbcontig.pl": "/usr/local/bin/select_best_rbcontig.pl", "select_best_rbcontig.pl.bak": "/usr/local/bin/select_best_rbcontig.pl.bak", "select_best_rbcontig_plus_read1.pl": "/usr/local/bin/select_best_rbcontig_plus_read1.pl", "select_best_rbcontig_plus_read1.pl.bak": "/usr/local/bin/select_best_rbcontig_plus_read1.pl.bak", "select_sec_rbcontig.pl": "/usr/local/bin/select_sec_rbcontig.pl", "select_sec_rbcontig.pl.bak": "/usr/local/bin/select_sec_rbcontig.pl.bak", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "update_version.sh": "/usr/local/bin/update_version.sh", "vcftools": "/usr/local/bin/vcftools", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ddocent.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/ddocent
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ddocent:2.9.4--hdfd78af_1
+$ shpc install quay.io/biocontainers/ddocent:2.9.8--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ddocent/2.9.4--hdfd78af_1
-$ module help quay.io/biocontainers/ddocent/2.9.4--hdfd78af_1
+$ module load quay.io/biocontainers/ddocent/2.9.8--hdfd78af_0
+$ module help quay.io/biocontainers/ddocent/2.9.8--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

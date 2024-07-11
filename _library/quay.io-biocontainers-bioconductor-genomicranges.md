@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genomicranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicranges/container.yaml"
-updated_at: "2024-07-10 03:03:01.441938"
-latest: "1.54.1--r43ha9d7317_1"
+updated_at: "2024-07-11 03:05:10.706074"
+latest: "1.54.1--r43ha9d7317_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicranges"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.50.0--r42ha9d7317_1"
  - "1.52.0--r43ha9d7317_0"
  - "1.54.1--r43ha9d7317_1"
+ - "1.54.1--r43ha9d7317_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomicranges"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicranges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicranges", "latest": {"1.54.1--r43ha9d7317_1": "sha256:2652736eefedb22d00d8fe6efd9d4f1df91df781ee28b402e3a80419d034f1ee"}, "tags": {"1.46.1--r41hc0cfd56_1": "sha256:8d8da7fb85a221e37b90faacdc11ae7a8c8c01decc9d0d2c1cb05dbc1583cf08", "1.50.0--r42hc0cfd56_0": "sha256:93201e43ecc91803249436d1e67428700e8c280bfc528292653affe3f98f40a5", "1.50.0--r42ha9d7317_1": "sha256:dbc61a9e68ea04585ae718771f5f210be296aaf3a55c316ab5354dd51204f58a", "1.52.0--r43ha9d7317_0": "sha256:3ba59e5d54dbc9c848b4db7f7bcdc0d089edd7b23f28fe70faf0d982919b3334", "1.54.1--r43ha9d7317_1": "sha256:2652736eefedb22d00d8fe6efd9d4f1df91df781ee28b402e3a80419d034f1ee"}, "docker": "quay.io/biocontainers/bioconductor-genomicranges"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicranges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicranges", "latest": {"1.54.1--r43ha9d7317_2": "sha256:cfbf498833b942b298ecae541e871dbb4539e6af5b64f8a07269fdf9059e2e3e"}, "tags": {"1.46.1--r41hc0cfd56_1": "sha256:8d8da7fb85a221e37b90faacdc11ae7a8c8c01decc9d0d2c1cb05dbc1583cf08", "1.50.0--r42hc0cfd56_0": "sha256:93201e43ecc91803249436d1e67428700e8c280bfc528292653affe3f98f40a5", "1.50.0--r42ha9d7317_1": "sha256:dbc61a9e68ea04585ae718771f5f210be296aaf3a55c316ab5354dd51204f58a", "1.52.0--r43ha9d7317_0": "sha256:3ba59e5d54dbc9c848b4db7f7bcdc0d089edd7b23f28fe70faf0d982919b3334", "1.54.1--r43ha9d7317_1": "sha256:2652736eefedb22d00d8fe6efd9d4f1df91df781ee28b402e3a80419d034f1ee", "1.54.1--r43ha9d7317_2": "sha256:cfbf498833b942b298ecae541e871dbb4539e6af5b64f8a07269fdf9059e2e3e"}, "docker": "quay.io/biocontainers/bioconductor-genomicranges"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomicranges.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genomicranges
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genomicranges:1.54.1--r43ha9d7317_1
+$ shpc install quay.io/biocontainers/bioconductor-genomicranges:1.54.1--r43ha9d7317_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genomicranges/1.54.1--r43ha9d7317_1
-$ module help quay.io/biocontainers/bioconductor-genomicranges/1.54.1--r43ha9d7317_1
+$ module load quay.io/biocontainers/bioconductor-genomicranges/1.54.1--r43ha9d7317_2
+$ module help quay.io/biocontainers/bioconductor-genomicranges/1.54.1--r43ha9d7317_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pydotplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydotplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydotplus/container.yaml"
-updated_at: "2024-07-10 02:44:05.307736"
+updated_at: "2024-07-11 02:46:05.647901"
 latest: "2.0.2--py36_0"
 container_url: "https://biocontainers.pro/tools/pydotplus"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "2.0.2--py36_0"
 description: "shpc-registry automated BioContainers addition for pydotplus"
-config: {"url": "https://biocontainers.pro/tools/pydotplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pydotplus", "latest": {"2.0.2--py36_0": "sha256:f0f7b42ed369c94bd13c4fefe29d373840618c08a52f74f7cb0e54ddf716b425"}, "tags": {"2.0.2--py36_0": "sha256:f0f7b42ed369c94bd13c4fefe29d373840618c08a52f74f7cb0e54ddf716b425"}, "docker": "quay.io/biocontainers/pydotplus", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/pydotplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pydotplus", "latest": {"2.0.2--py36_0": "sha256:b972749d42056a808eafba9aa132674f3e422575be1287548adc880d7ae117c7"}, "tags": {"2.0.2--py36_0": "sha256:b972749d42056a808eafba9aa132674f3e422575be1287548adc880d7ae117c7"}, "docker": "quay.io/biocontainers/pydotplus", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pydotplus.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tablet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tablet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tablet/container.yaml"
-updated_at: "2024-07-10 03:06:10.579627"
+updated_at: "2024-07-11 03:08:24.851878"
 latest: "1.17.08.17--1"
 container_url: "https://biocontainers.pro/tools/tablet"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.17.08.17--1"
 description: "shpc-registry automated BioContainers addition for tablet"
-config: {"url": "https://biocontainers.pro/tools/tablet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tablet", "latest": {"1.17.08.17--1": "sha256:fb1c7cc8693315b9b057051e81bd7e6a74c3d8fe4b040d4d94d513d2cf57b89f"}, "tags": {"1.17.08.17--1": "sha256:fb1c7cc8693315b9b057051e81bd7e6a74c3d8fe4b040d4d94d513d2cf57b89f"}, "docker": "quay.io/biocontainers/tablet", "aliases": {"tablet": "/usr/local/bin/tablet", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/tablet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tablet", "latest": {"1.17.08.17--1": "sha256:7208861cd489f174a4bf1e9fabc19bb18f50bb461b45b1ae097c8b96cb68bfc0"}, "tags": {"1.17.08.17--1": "sha256:7208861cd489f174a4bf1e9fabc19bb18f50bb461b45b1ae097c8b96cb68bfc0"}, "docker": "quay.io/biocontainers/tablet", "aliases": {"tablet": "/usr/local/bin/tablet", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tablet.

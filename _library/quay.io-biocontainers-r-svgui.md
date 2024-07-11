@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-svgui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-svgui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-svgui/container.yaml"
-updated_at: "2024-07-10 03:01:05.121461"
+updated_at: "2024-07-11 03:03:12.535170"
 latest: "0.9_55--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-svgui"
 aliases:
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "0.9_55--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-svgui"
-config: {"url": "https://biocontainers.pro/tools/r-svgui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-svgui", "latest": {"0.9_55--r3.2.2_0": "sha256:4a9db60e31f3214eff64fddbf90f19788a345feb05db824bb76f1f24538fd61c"}, "tags": {"0.9_55--r3.2.2_0": "sha256:4a9db60e31f3214eff64fddbf90f19788a345feb05db824bb76f1f24538fd61c"}, "docker": "quay.io/biocontainers/r-svgui", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-svgui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-svgui", "latest": {"0.9_55--r3.2.2_0": "sha256:ef8d8949de17f20629fdeebef65f18b9466722370d6f92bfbe6bbd6d5300055c"}, "tags": {"0.9_55--r3.2.2_0": "sha256:ef8d8949de17f20629fdeebef65f18b9466722370d6f92bfbe6bbd6d5300055c"}, "docker": "quay.io/biocontainers/r-svgui", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-svgui.

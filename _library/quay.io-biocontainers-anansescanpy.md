@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/anansescanpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anansescanpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anansescanpy/container.yaml"
-updated_at: "2024-07-10 02:41:29.890843"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2024-07-11 02:43:27.843047"
+latest: "1.0.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/anansescanpy"
 aliases:
  - "hwloc-annotate"
@@ -50,8 +50,9 @@ aliases:
  - "h5debug"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.0.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for anansescanpy"
-config: {"url": "https://biocontainers.pro/tools/anansescanpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for anansescanpy", "latest": {"1.0.0--pyhdfd78af_0": "sha256:7a6cbca18256f3ae6df0af02ba4466f12d853b4c5b4b3b0f6d055514b6d5c77a"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:7a6cbca18256f3ae6df0af02ba4466f12d853b4c5b4b3b0f6d055514b6d5c77a"}, "docker": "quay.io/biocontainers/anansescanpy", "aliases": {"hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "tjbench": "/usr/local/bin/tjbench", "aec": "/usr/local/bin/aec", "scanpy": "/usr/local/bin/scanpy", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
+config: {"url": "https://biocontainers.pro/tools/anansescanpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for anansescanpy", "latest": {"1.0.0--pyhdfd78af_1": "sha256:d00cfa92bb41a88a25d475ce499e6b9febc6c173de5b3d11092a3a58c0b2f25d"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:7a6cbca18256f3ae6df0af02ba4466f12d853b4c5b4b3b0f6d055514b6d5c77a", "1.0.0--pyhdfd78af_1": "sha256:d00cfa92bb41a88a25d475ce499e6b9febc6c173de5b3d11092a3a58c0b2f25d"}, "docker": "quay.io/biocontainers/anansescanpy", "aliases": {"hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "tjbench": "/usr/local/bin/tjbench", "aec": "/usr/local/bin/aec", "scanpy": "/usr/local/bin/scanpy", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/anansescanpy.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/anansescanpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/anansescanpy:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/anansescanpy:1.0.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/anansescanpy/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/anansescanpy/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/anansescanpy/1.0.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/anansescanpy/1.0.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

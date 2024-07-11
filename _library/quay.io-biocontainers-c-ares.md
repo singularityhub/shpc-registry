@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/c-ares"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/c-ares/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/c-ares/container.yaml"
-updated_at: "2024-07-10 02:43:03.773473"
+updated_at: "2024-07-11 02:45:03.327256"
 latest: "1.11.0--h470a237_1"
 container_url: "https://biocontainers.pro/tools/c-ares"
 
 versions:
  - "1.11.0--h470a237_1"
 description: "shpc-registry automated BioContainers addition for c-ares"
-config: {"url": "https://biocontainers.pro/tools/c-ares", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for c-ares", "latest": {"1.11.0--h470a237_1": "sha256:006bbe729179eed0a33b1b98e9178a95a5fcd619c16ebb72503996cd6b2d529e"}, "tags": {"1.11.0--h470a237_1": "sha256:006bbe729179eed0a33b1b98e9178a95a5fcd619c16ebb72503996cd6b2d529e"}, "docker": "quay.io/biocontainers/c-ares"}
+config: {"url": "https://biocontainers.pro/tools/c-ares", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for c-ares", "latest": {"1.11.0--h470a237_1": "sha256:72f1c2c73fde9f6593dab21fb8d133d7d43204c10f38998f7ea64d3915cab515"}, "tags": {"1.11.0--h470a237_1": "sha256:72f1c2c73fde9f6593dab21fb8d133d7d43204c10f38998f7ea64d3915cab515"}, "docker": "quay.io/biocontainers/c-ares"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/c-ares.

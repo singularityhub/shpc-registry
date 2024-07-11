@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clust/container.yaml"
-updated_at: "2024-07-10 03:09:32.985794"
+updated_at: "2024-07-11 03:11:48.891504"
 latest: "1.18.0--pyh086e186_0"
 container_url: "https://biocontainers.pro/tools/clust"
 aliases:
@@ -27,7 +27,7 @@ versions:
  - "1.8.10--py27h24bf2e0_0"
  - "1.18.0--pyh086e186_0"
 description: "shpc-registry automated BioContainers addition for clust"
-config: {"url": "https://biocontainers.pro/tools/clust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clust", "latest": {"1.18.0--pyh086e186_0": "sha256:6ee79d7c6236cbbdae110b5db65f0ca2cb8f4174b1b30af6ac795fd1ab2427de"}, "tags": {"1.8.9--py27h24bf2e0_0": "sha256:696a24422dac338ca3a8f94c062c60bfe52b7020e905d6abf8bc88345096cc80", "1.17.0--pyhfa5458b_0": "sha256:82600f1b98749730ec19c120b9f27f55a8961779d912b3ff3fff8b4d4c760921", "1.12.0--pyh145b6a8_0": "sha256:8018bd8dc805f94054bc37e7a60086303d476a67c7438156e910f87b8be3d0df", "1.10.12--pyh145b6a8_0": "sha256:bf89164a103e1b344ac24c1c0586e8699147a4a97aee36001e82112b37011647", "1.8.10--py27h24bf2e0_0": "sha256:f7af42ddf476f6f63c72d837c1821024b349591c2379cb0cf49ee917f68e2962", "1.18.0--pyh086e186_0": "sha256:6ee79d7c6236cbbdae110b5db65f0ca2cb8f4174b1b30af6ac795fd1ab2427de"}, "docker": "quay.io/biocontainers/clust", "aliases": {"clust": "/usr/local/bin/clust", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0", "gst-discoverer-1.0": "/usr/local/bin/gst-discoverer-1.0"}}
+config: {"url": "https://biocontainers.pro/tools/clust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clust", "latest": {"1.18.0--pyh086e186_0": "sha256:6ee79d7c6236cbbdae110b5db65f0ca2cb8f4174b1b30af6ac795fd1ab2427de"}, "tags": {"1.8.9--py27h24bf2e0_0": "sha256:7a225c4dac8c501e9b58f6f6c914ba21d6501cd430464189ca1df9be2faf6507", "1.17.0--pyhfa5458b_0": "sha256:82600f1b98749730ec19c120b9f27f55a8961779d912b3ff3fff8b4d4c760921", "1.12.0--pyh145b6a8_0": "sha256:8018bd8dc805f94054bc37e7a60086303d476a67c7438156e910f87b8be3d0df", "1.10.12--pyh145b6a8_0": "sha256:bf89164a103e1b344ac24c1c0586e8699147a4a97aee36001e82112b37011647", "1.8.10--py27h24bf2e0_0": "sha256:ede3e3fd0afa93a2f553d6158ad5d885f66524389673e82db0765c2517fb286b", "1.18.0--pyh086e186_0": "sha256:6ee79d7c6236cbbdae110b5db65f0ca2cb8f4174b1b30af6ac795fd1ab2427de"}, "docker": "quay.io/biocontainers/clust", "aliases": {"clust": "/usr/local/bin/clust", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0", "gst-discoverer-1.0": "/usr/local/bin/gst-discoverer-1.0"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clust.

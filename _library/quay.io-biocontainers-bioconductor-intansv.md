@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-intansv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-intansv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-intansv/container.yaml"
-updated_at: "2024-07-10 02:50:42.438754"
+updated_at: "2024-07-11 02:52:45.127453"
 latest: "1.42.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-intansv"
 

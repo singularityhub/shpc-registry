@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svtyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svtyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svtyper/container.yaml"
-updated_at: "2024-07-10 02:59:21.435776"
+updated_at: "2024-07-11 03:01:27.479065"
 latest: "0.7.1--py_0"
 container_url: "https://biocontainers.pro/tools/svtyper"
 aliases:
@@ -29,7 +29,7 @@ aliases:
 versions:
  - "0.7.1--py_0"
 description: "shpc-registry automated BioContainers addition for svtyper"
-config: {"url": "https://biocontainers.pro/tools/svtyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svtyper", "latest": {"0.7.1--py_0": "sha256:fecad6872f9ba0760a422856c24ab05b693c495a65b174d7f7e438c7329d384b"}, "tags": {"0.7.1--py_0": "sha256:fecad6872f9ba0760a422856c24ab05b693c495a65b174d7f7e438c7329d384b"}, "docker": "quay.io/biocontainers/svtyper", "aliases": {"lib_stats.R": "/usr/local/bin/lib_stats.R", "sv_classifier.py": "/usr/local/bin/sv_classifier.py", "svtyper": "/usr/local/bin/svtyper", "svtyper-sso": "/usr/local/bin/svtyper-sso", "update_info.py": "/usr/local/bin/update_info.py", "vcf_allele_freq.py": "/usr/local/bin/vcf_allele_freq.py", "vcf_group_multiline.py": "/usr/local/bin/vcf_group_multiline.py", "vcf_modify_header.py": "/usr/local/bin/vcf_modify_header.py", "vcf_paste.py": "/usr/local/bin/vcf_paste.py", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/svtyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svtyper", "latest": {"0.7.1--py_0": "sha256:1d88bf43b7d8084042074a059ef87694e554accd49896ca77b799d0134bc76e5"}, "tags": {"0.7.1--py_0": "sha256:1d88bf43b7d8084042074a059ef87694e554accd49896ca77b799d0134bc76e5"}, "docker": "quay.io/biocontainers/svtyper", "aliases": {"lib_stats.R": "/usr/local/bin/lib_stats.R", "sv_classifier.py": "/usr/local/bin/sv_classifier.py", "svtyper": "/usr/local/bin/svtyper", "svtyper-sso": "/usr/local/bin/svtyper-sso", "update_info.py": "/usr/local/bin/update_info.py", "vcf_allele_freq.py": "/usr/local/bin/vcf_allele_freq.py", "vcf_group_multiline.py": "/usr/local/bin/vcf_group_multiline.py", "vcf_modify_header.py": "/usr/local/bin/vcf_modify_header.py", "vcf_paste.py": "/usr/local/bin/vcf_paste.py", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svtyper.

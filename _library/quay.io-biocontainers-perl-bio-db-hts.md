@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-bio-db-hts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-db-hts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-db-hts/container.yaml"
-updated_at: "2024-07-10 02:41:55.193089"
-latest: "3.01--pl5321h6141fd1_8"
+updated_at: "2024-07-11 02:43:53.365995"
+latest: "3.01--pl5321he4a0461_9"
 container_url: "https://biocontainers.pro/tools/perl-bio-db-hts"
 aliases:
  - "bp_aacomp"
@@ -22,8 +22,9 @@ versions:
  - "3.01--pl5321hb0d9459_6"
  - "3.01--pl5321hc88714e_7"
  - "3.01--pl5321h6141fd1_8"
+ - "3.01--pl5321he4a0461_9"
 description: "shpc-registry automated BioContainers addition for perl-bio-db-hts"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-db-hts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-db-hts", "latest": {"3.01--pl5321h6141fd1_8": "sha256:f37960cb5373d372f157e5680d6c81c8d63e00ce537930855fb34a859b0e1bcf"}, "tags": {"3.01--pl5321hb0d9459_6": "sha256:63873f385e6c5723bb76e111d340945046ef25b2957a6bf5a2ea11c5dd8cebd9", "3.01--pl5321hc88714e_7": "sha256:49dcbbec9742117680512140e836fe7057a1a87add8405b31420857007b723a5", "3.01--pl5321h6141fd1_8": "sha256:f37960cb5373d372f157e5680d6c81c8d63e00ce537930855fb34a859b0e1bcf"}, "docker": "quay.io/biocontainers/perl-bio-db-hts", "aliases": {"bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches", "bp_gccalc": "/usr/local/bin/bp_gccalc"}}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-db-hts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-db-hts", "latest": {"3.01--pl5321he4a0461_9": "sha256:60c4cf62eee88946866e97f555f6207c08bb91d8fe1df33e25d5ba0e6c862c8e"}, "tags": {"3.01--pl5321hb0d9459_6": "sha256:63873f385e6c5723bb76e111d340945046ef25b2957a6bf5a2ea11c5dd8cebd9", "3.01--pl5321hc88714e_7": "sha256:49dcbbec9742117680512140e836fe7057a1a87add8405b31420857007b723a5", "3.01--pl5321h6141fd1_8": "sha256:f37960cb5373d372f157e5680d6c81c8d63e00ce537930855fb34a859b0e1bcf", "3.01--pl5321he4a0461_9": "sha256:60c4cf62eee88946866e97f555f6207c08bb91d8fe1df33e25d5ba0e6c862c8e"}, "docker": "quay.io/biocontainers/perl-bio-db-hts", "aliases": {"bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches", "bp_gccalc": "/usr/local/bin/bp_gccalc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-db-hts.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/perl-bio-db-hts
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-bio-db-hts:3.01--pl5321h6141fd1_8
+$ shpc install quay.io/biocontainers/perl-bio-db-hts:3.01--pl5321he4a0461_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-bio-db-hts/3.01--pl5321h6141fd1_8
-$ module help quay.io/biocontainers/perl-bio-db-hts/3.01--pl5321h6141fd1_8
+$ module load quay.io/biocontainers/perl-bio-db-hts/3.01--pl5321he4a0461_9
+$ module help quay.io/biocontainers/perl-bio-db-hts/3.01--pl5321he4a0461_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

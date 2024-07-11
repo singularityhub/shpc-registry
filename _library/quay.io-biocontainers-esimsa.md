@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/esimsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esimsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esimsa/container.yaml"
-updated_at: "2024-07-10 03:18:26.855561"
+updated_at: "2024-07-11 03:20:38.811523"
 latest: "1.0--h470a237_1"
 container_url: "https://biocontainers.pro/tools/esimsa"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.0--h470a237_1"
 description: "shpc-registry automated BioContainers addition for esimsa"
-config: {"url": "https://biocontainers.pro/tools/esimsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for esimsa", "latest": {"1.0--h470a237_1": "sha256:21f1bc79e5c89c82edaf939cae515b962d5f3670e29191abfc5991e34428cb5e"}, "tags": {"1.0--h470a237_1": "sha256:21f1bc79e5c89c82edaf939cae515b962d5f3670e29191abfc5991e34428cb5e"}, "docker": "quay.io/biocontainers/esimsa", "aliases": {"esimsa": "/usr/local/bin/esimsa"}}
+config: {"url": "https://biocontainers.pro/tools/esimsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for esimsa", "latest": {"1.0--h470a237_1": "sha256:40276f2659d9b314168fd5864aba08360347f07308c3bec6d090876921170be2"}, "tags": {"1.0--h470a237_1": "sha256:40276f2659d9b314168fd5864aba08360347f07308c3bec6d090876921170be2"}, "docker": "quay.io/biocontainers/esimsa", "aliases": {"esimsa": "/usr/local/bin/esimsa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/esimsa.

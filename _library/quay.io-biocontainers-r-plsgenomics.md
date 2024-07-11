@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-plsgenomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-plsgenomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-plsgenomics/container.yaml"
-updated_at: "2024-07-10 02:56:30.199557"
+updated_at: "2024-07-11 02:58:37.990439"
 latest: "1.5_2--r36h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-plsgenomics"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.5_2--r36h6115d3f_1"
 description: "shpc-registry automated BioContainers addition for r-plsgenomics"
-config: {"url": "https://biocontainers.pro/tools/r-plsgenomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-plsgenomics", "latest": {"1.5_2--r36h6115d3f_1": "sha256:1a59e33dde7f428309957fda6987098f27a47053b502abee94982c455c9c833d"}, "tags": {"1.5_2--r36h6115d3f_1": "sha256:1a59e33dde7f428309957fda6987098f27a47053b502abee94982c455c9c833d"}, "docker": "quay.io/biocontainers/r-plsgenomics", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-plsgenomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-plsgenomics", "latest": {"1.5_2--r36h6115d3f_1": "sha256:60bceaa6360897b5faf69128eccbaa011b82e3eef50f9143943e733ece96b287"}, "tags": {"1.5_2--r36h6115d3f_1": "sha256:60bceaa6360897b5faf69128eccbaa011b82e3eef50f9143943e733ece96b287"}, "docker": "quay.io/biocontainers/r-plsgenomics", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-plsgenomics.

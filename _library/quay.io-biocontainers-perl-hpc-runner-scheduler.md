@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-hpc-runner-scheduler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hpc-runner-scheduler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hpc-runner-scheduler/container.yaml"
-updated_at: "2024-07-10 03:18:00.217494"
+updated_at: "2024-07-11 03:20:11.957328"
 latest: "0.09--0"
 container_url: "https://biocontainers.pro/tools/perl-hpc-runner-scheduler"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.09--0"
 description: "shpc-registry automated BioContainers addition for perl-hpc-runner-scheduler"
-config: {"url": "https://biocontainers.pro/tools/perl-hpc-runner-scheduler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hpc-runner-scheduler", "latest": {"0.09--0": "sha256:7fcf15ef48990cfc94fa1902a1a71fcb3acda73d10a5c0afb4cfe423b68742fc"}, "tags": {"0.09--0": "sha256:7fcf15ef48990cfc94fa1902a1a71fcb3acda73d10a5c0afb4cfe423b68742fc"}, "docker": "quay.io/biocontainers/perl-hpc-runner-scheduler", "aliases": {"l4p-tmpl": "/usr/local/bin/l4p-tmpl", "config_data": "/usr/local/bin/config_data", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "imgsize": "/usr/local/bin/imgsize", "tpage": "/usr/local/bin/tpage", "ttree": "/usr/local/bin/ttree", "dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof"}}
+config: {"url": "https://biocontainers.pro/tools/perl-hpc-runner-scheduler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hpc-runner-scheduler", "latest": {"0.09--0": "sha256:4026a6829b45a9ef7f26401f8846a5ed9776a6bce08acc7fcfa4c00c4c471b64"}, "tags": {"0.09--0": "sha256:4026a6829b45a9ef7f26401f8846a5ed9776a6bce08acc7fcfa4c00c4c471b64"}, "docker": "quay.io/biocontainers/perl-hpc-runner-scheduler", "aliases": {"l4p-tmpl": "/usr/local/bin/l4p-tmpl", "config_data": "/usr/local/bin/config_data", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "imgsize": "/usr/local/bin/imgsize", "tpage": "/usr/local/bin/tpage", "ttree": "/usr/local/bin/ttree", "dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-hpc-runner-scheduler.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pneumocat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pneumocat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pneumocat/container.yaml"
-updated_at: "2024-07-10 02:35:38.764520"
+updated_at: "2024-07-11 02:37:35.531844"
 latest: "1.2--3"
 container_url: "https://biocontainers.pro/tools/pneumocat"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.2--3"
 description: "shpc-registry automated BioContainers addition for pneumocat"
-config: {"url": "https://biocontainers.pro/tools/pneumocat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pneumocat", "latest": {"1.2--3": "sha256:e1326a69924ac1efbf3d747963a40755f69e3482ba1455c9e88d78468840ae13"}, "tags": {"1.2--3": "sha256:e1326a69924ac1efbf3d747963a40755f69e3482ba1455c9e88d78468840ae13"}, "docker": "quay.io/biocontainers/pneumocat", "aliases": {"PneumoCaT.py": "/usr/local/bin/PneumoCaT.py", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py"}}
+config: {"url": "https://biocontainers.pro/tools/pneumocat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pneumocat", "latest": {"1.2--3": "sha256:06c33827956a6c6dd913b5aaa6990824df606fce27bac29d2513cf179aba8478"}, "tags": {"1.2--3": "sha256:06c33827956a6c6dd913b5aaa6990824df606fce27bac29d2513cf179aba8478"}, "docker": "quay.io/biocontainers/pneumocat", "aliases": {"PneumoCaT.py": "/usr/local/bin/PneumoCaT.py", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pneumocat.

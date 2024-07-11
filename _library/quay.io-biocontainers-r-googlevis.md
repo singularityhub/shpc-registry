@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-googlevis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-googlevis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-googlevis/container.yaml"
-updated_at: "2024-07-10 03:05:04.921679"
+updated_at: "2024-07-11 03:07:18.047422"
 latest: "0.5.10--r3.2.2_1"
 container_url: "https://biocontainers.pro/tools/r-googlevis"
 aliases:

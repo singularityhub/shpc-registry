@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/embl-api-validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/embl-api-validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/embl-api-validator/container.yaml"
-updated_at: "2024-07-10 03:06:22.019654"
+updated_at: "2024-07-11 03:08:36.413835"
 latest: "1.1.180--1"
 container_url: "https://biocontainers.pro/tools/embl-api-validator"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.1.180--1"
 description: "shpc-registry automated BioContainers addition for embl-api-validator"
-config: {"url": "https://biocontainers.pro/tools/embl-api-validator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for embl-api-validator", "latest": {"1.1.180--1": "sha256:7adbc0e6613f0458da603d087dc99a375dd138aae2b7bef1e7b37f7b66132f5e"}, "tags": {"1.1.180--1": "sha256:7adbc0e6613f0458da603d087dc99a375dd138aae2b7bef1e7b37f7b66132f5e"}, "docker": "quay.io/biocontainers/embl-api-validator", "aliases": {"embl-api-validator": "/usr/local/bin/embl-api-validator", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/embl-api-validator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for embl-api-validator", "latest": {"1.1.180--1": "sha256:9ee34f09f685ef328205f89241675d79ec1655c8173580c29430f73fe475a77a"}, "tags": {"1.1.180--1": "sha256:9ee34f09f685ef328205f89241675d79ec1655c8173580c29430f73fe475a77a"}, "docker": "quay.io/biocontainers/embl-api-validator", "aliases": {"embl-api-validator": "/usr/local/bin/embl-api-validator", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/embl-api-validator.

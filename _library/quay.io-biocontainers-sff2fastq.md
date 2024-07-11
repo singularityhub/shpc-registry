@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sff2fastq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sff2fastq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sff2fastq/container.yaml"
-updated_at: "2024-07-10 02:43:53.851600"
+updated_at: "2024-07-11 02:45:54.019314"
 latest: "0.9.2--h470a237_1"
 container_url: "https://biocontainers.pro/tools/sff2fastq"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "0.9.2--h470a237_1"
 description: "shpc-registry automated BioContainers addition for sff2fastq"
-config: {"url": "https://biocontainers.pro/tools/sff2fastq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sff2fastq", "latest": {"0.9.2--h470a237_1": "sha256:d5b5ba733b9e615faf720b5562c5c9fe450c69ce5869e722c4cd7e0e693b8960"}, "tags": {"0.9.2--h470a237_1": "sha256:d5b5ba733b9e615faf720b5562c5c9fe450c69ce5869e722c4cd7e0e693b8960"}, "docker": "quay.io/biocontainers/sff2fastq", "aliases": {"sff2fastq": "/usr/local/bin/sff2fastq"}}
+config: {"url": "https://biocontainers.pro/tools/sff2fastq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sff2fastq", "latest": {"0.9.2--h470a237_1": "sha256:7074e1df806d0e0ec36186dfebb8949dc81dbf023afe9184460c40a4a12c3a9f"}, "tags": {"0.9.2--h470a237_1": "sha256:7074e1df806d0e0ec36186dfebb8949dc81dbf023afe9184460c40a4a12c3a9f"}, "docker": "quay.io/biocontainers/sff2fastq", "aliases": {"sff2fastq": "/usr/local/bin/sff2fastq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sff2fastq.

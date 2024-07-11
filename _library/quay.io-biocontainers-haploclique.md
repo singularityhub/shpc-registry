@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haploclique"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haploclique/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haploclique/container.yaml"
-updated_at: "2024-07-10 02:39:01.872658"
+updated_at: "2024-07-11 02:40:59.109977"
 latest: "1.3.1--h48762f8_2"
 container_url: "https://biocontainers.pro/tools/haploclique"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.3.1--h48762f8_2"
 description: "shpc-registry automated BioContainers addition for haploclique"
-config: {"url": "https://biocontainers.pro/tools/haploclique", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haploclique", "latest": {"1.3.1--h48762f8_2": "sha256:4c63af0f8a5685ba1663adeece510ea845cdd193b5983deb73d5c6d3546b818c"}, "tags": {"1.3.1--h48762f8_2": "sha256:4c63af0f8a5685ba1663adeece510ea845cdd193b5983deb73d5c6d3546b818c"}, "docker": "quay.io/biocontainers/haploclique", "aliases": {"bamtools-2.4.1": "/usr/local/bin/bamtools-2.4.1", "haploclique": "/usr/local/bin/haploclique", "bamtools": "/usr/local/bin/bamtools", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
+config: {"url": "https://biocontainers.pro/tools/haploclique", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haploclique", "latest": {"1.3.1--h48762f8_2": "sha256:47323cb0fe52f41da532572b92056d7cc18daa26256fb56917e76cb42801b571"}, "tags": {"1.3.1--h48762f8_2": "sha256:47323cb0fe52f41da532572b92056d7cc18daa26256fb56917e76cb42801b571"}, "docker": "quay.io/biocontainers/haploclique", "aliases": {"bamtools-2.4.1": "/usr/local/bin/bamtools-2.4.1", "haploclique": "/usr/local/bin/haploclique", "bamtools": "/usr/local/bin/bamtools", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/haploclique.

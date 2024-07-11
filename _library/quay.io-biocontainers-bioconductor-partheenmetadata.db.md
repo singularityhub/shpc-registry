@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-partheenmetadata.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-partheenmetadata.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-partheenmetadata.db/container.yaml"
-updated_at: "2024-07-10 03:18:00.498321"
-latest: "3.2.3--r43hdfd78af_11"
+updated_at: "2024-07-11 03:20:12.239172"
+latest: "3.2.3--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-partheenmetadata.db"
 
 versions:
  - "3.2.3--r41hdfd78af_9"
  - "3.2.3--r42hdfd78af_10"
  - "3.2.3--r43hdfd78af_11"
+ - "3.2.3--r43hdfd78af_12"
 description: "shpc-registry automated BioContainers addition for bioconductor-partheenmetadata.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-partheenmetadata.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-partheenmetadata.db", "latest": {"3.2.3--r43hdfd78af_11": "sha256:784090b7305f9af02c1714389bae03de2524ee2eb4766c0bfb6056409f5310c6"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:e6d527bde9685d32ce6d25284dff028529e7331018fee306a8341458f93f50c5", "3.2.3--r42hdfd78af_10": "sha256:0e30d705a764fde184e4bb2008e6ef32b5c4d613406fea320a0bdce0a12cefd7", "3.2.3--r43hdfd78af_11": "sha256:784090b7305f9af02c1714389bae03de2524ee2eb4766c0bfb6056409f5310c6"}, "docker": "quay.io/biocontainers/bioconductor-partheenmetadata.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-partheenmetadata.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-partheenmetadata.db", "latest": {"3.2.3--r43hdfd78af_12": "sha256:973acccb76f6cdbf620f6137a5a883f867e126911c7675c0868bfd216ec27cca"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:e6d527bde9685d32ce6d25284dff028529e7331018fee306a8341458f93f50c5", "3.2.3--r42hdfd78af_10": "sha256:0e30d705a764fde184e4bb2008e6ef32b5c4d613406fea320a0bdce0a12cefd7", "3.2.3--r43hdfd78af_11": "sha256:784090b7305f9af02c1714389bae03de2524ee2eb4766c0bfb6056409f5310c6", "3.2.3--r43hdfd78af_12": "sha256:973acccb76f6cdbf620f6137a5a883f867e126911c7675c0868bfd216ec27cca"}, "docker": "quay.io/biocontainers/bioconductor-partheenmetadata.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-partheenmetadata.db.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-partheenmetadata.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-partheenmetadata.db:3.2.3--r43hdfd78af_11
+$ shpc install quay.io/biocontainers/bioconductor-partheenmetadata.db:3.2.3--r43hdfd78af_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-partheenmetadata.db/3.2.3--r43hdfd78af_11
-$ module help quay.io/biocontainers/bioconductor-partheenmetadata.db/3.2.3--r43hdfd78af_11
+$ module load quay.io/biocontainers/bioconductor-partheenmetadata.db/3.2.3--r43hdfd78af_12
+$ module help quay.io/biocontainers/bioconductor-partheenmetadata.db/3.2.3--r43hdfd78af_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

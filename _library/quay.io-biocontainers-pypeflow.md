@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pypeflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypeflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pypeflow/container.yaml"
-updated_at: "2024-07-10 02:55:12.089285"
+updated_at: "2024-07-11 02:57:18.393527"
 latest: "2.2.0--py27_0"
 container_url: "https://biocontainers.pro/tools/pypeflow"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "2.2.0--py27_0"
 description: "shpc-registry automated BioContainers addition for pypeflow"
-config: {"url": "https://biocontainers.pro/tools/pypeflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pypeflow", "latest": {"2.2.0--py27_0": "sha256:49166946e9490479b8d22b52cbbfb44476a49244c166fa91dd0ce74028958c15"}, "tags": {"2.2.0--py27_0": "sha256:49166946e9490479b8d22b52cbbfb44476a49244c166fa91dd0ce74028958c15"}, "docker": "quay.io/biocontainers/pypeflow", "aliases": {"heartbeat-wrapper": "/usr/local/bin/heartbeat-wrapper", "pwatcher-main": "/usr/local/bin/pwatcher-main", "pwatcher-pypeflow-example": "/usr/local/bin/pwatcher-pypeflow-example", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/pypeflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pypeflow", "latest": {"2.2.0--py27_0": "sha256:2921cb66b6549186bb27cb16c5156457391726613f1e8024090a09841e89bea3"}, "tags": {"2.2.0--py27_0": "sha256:2921cb66b6549186bb27cb16c5156457391726613f1e8024090a09841e89bea3"}, "docker": "quay.io/biocontainers/pypeflow", "aliases": {"heartbeat-wrapper": "/usr/local/bin/heartbeat-wrapper", "pwatcher-main": "/usr/local/bin/pwatcher-main", "pwatcher-pypeflow-example": "/usr/local/bin/pwatcher-pypeflow-example", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pypeflow.

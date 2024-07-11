@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cytofqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytofqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytofqc/container.yaml"
-updated_at: "2024-07-10 02:51:37.951742"
-latest: "1.0.0--r43hdfd78af_0"
+updated_at: "2024-07-11 02:53:40.342359"
+latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytofqc"
 aliases:
  - "f2py3.11"
@@ -30,8 +30,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.0--r43hdfd78af_0"
+ - "1.2.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-cytofqc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cytofqc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cytofqc", "latest": {"1.0.0--r43hdfd78af_0": "sha256:d99d9ba02032ae1ca63daa8fffa939d1856d80a1c2ef511c78ae7a84d7bf9afd"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:d99d9ba02032ae1ca63daa8fffa939d1856d80a1c2ef511c78ae7a84d7bf9afd"}, "docker": "quay.io/biocontainers/bioconductor-cytofqc", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cytofqc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cytofqc", "latest": {"1.2.0--r43hdfd78af_0": "sha256:a9d2863405201ee79e54f5f1f9cb40ff32809a82d8f71369e88d91eb67122810"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:d99d9ba02032ae1ca63daa8fffa939d1856d80a1c2ef511c78ae7a84d7bf9afd", "1.2.0--r43hdfd78af_0": "sha256:a9d2863405201ee79e54f5f1f9cb40ff32809a82d8f71369e88d91eb67122810"}, "docker": "quay.io/biocontainers/bioconductor-cytofqc", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cytofqc.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cytofqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cytofqc:1.0.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cytofqc:1.2.0--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cytofqc/1.0.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cytofqc/1.0.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cytofqc/1.2.0--r43hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cytofqc/1.2.0--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

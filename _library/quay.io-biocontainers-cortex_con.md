@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cortex_con"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cortex_con/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cortex_con/container.yaml"
-updated_at: "2024-07-10 02:56:05.945077"
+updated_at: "2024-07-11 02:58:13.832924"
 latest: "0.04c--h470a237_1"
 container_url: "https://biocontainers.pro/tools/cortex_con"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "0.04c--h470a237_1"
 description: "shpc-registry automated BioContainers addition for cortex_con"
-config: {"url": "https://biocontainers.pro/tools/cortex_con", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cortex_con", "latest": {"0.04c--h470a237_1": "sha256:238e0342749feffebbce811a69fc555000d52d8a0a32dfe2da9b9dec24517d65"}, "tags": {"0.04c--h470a237_1": "sha256:238e0342749feffebbce811a69fc555000d52d8a0a32dfe2da9b9dec24517d65"}, "docker": "quay.io/biocontainers/cortex_con", "aliases": {"cortex_con_31": "/usr/local/bin/cortex_con_31"}}
+config: {"url": "https://biocontainers.pro/tools/cortex_con", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cortex_con", "latest": {"0.04c--h470a237_1": "sha256:012d20a5e31bfee37b62444c50bc092376560d1efc2001564fee5206651fe9ff"}, "tags": {"0.04c--h470a237_1": "sha256:012d20a5e31bfee37b62444c50bc092376560d1efc2001564fee5206651fe9ff"}, "docker": "quay.io/biocontainers/cortex_con", "aliases": {"cortex_con_31": "/usr/local/bin/cortex_con_31"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cortex_con.

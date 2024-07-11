@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pblaa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pblaa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pblaa/container.yaml"
-updated_at: "2024-07-10 03:14:48.746617"
+updated_at: "2024-07-11 03:17:07.543519"
 latest: "2.4.2--2"
 container_url: "https://biocontainers.pro/tools/pblaa"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "2.4.2--2"
 description: "shpc-registry automated BioContainers addition for pblaa"
-config: {"url": "https://biocontainers.pro/tools/pblaa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pblaa", "latest": {"2.4.2--2": "sha256:91ad9abe4418e268d6dee7ac2c70eebc7d927d1c4537ba37fd464d1fe9242893"}, "tags": {"2.4.2--2": "sha256:91ad9abe4418e268d6dee7ac2c70eebc7d927d1c4537ba37fd464d1fe9242893"}, "docker": "quay.io/biocontainers/pblaa", "aliases": {"laa": "/usr/local/bin/laa", "laagc": "/usr/local/bin/laagc"}}
+config: {"url": "https://biocontainers.pro/tools/pblaa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pblaa", "latest": {"2.4.2--2": "sha256:85e71423e11282443d723ab2a16279f1639fe32f982ea876e1f05790c5f53079"}, "tags": {"2.4.2--2": "sha256:85e71423e11282443d723ab2a16279f1639fe32f982ea876e1f05790c5f53079"}, "docker": "quay.io/biocontainers/pblaa", "aliases": {"laa": "/usr/local/bin/laa", "laagc": "/usr/local/bin/laagc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pblaa.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mira-multiome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mira-multiome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mira-multiome/container.yaml"
-updated_at: "2024-07-10 03:18:29.656271"
-latest: "2.1.0--pyhdfd78af_0"
+updated_at: "2024-07-11 03:20:41.653700"
+latest: "2.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mira-multiome"
 aliases:
  - "alembic"
@@ -39,8 +39,9 @@ aliases:
  - "tensorboard"
 versions:
  - "2.1.0--pyhdfd78af_0"
+ - "2.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mira-multiome"
-config: {"url": "https://biocontainers.pro/tools/mira-multiome", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mira-multiome", "latest": {"2.1.0--pyhdfd78af_0": "sha256:6f9524b1f8abb35837df012d70ad099e978dd3f154a5067a80f27d97c216084b"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:6f9524b1f8abb35837df012d70ad099e978dd3f154a5067a80f27d97c216084b"}, "docker": "quay.io/biocontainers/mira-multiome", "aliases": {"alembic": "/usr/local/bin/alembic", "lisa": "/usr/local/bin/lisa", "moods-dna.py": "/usr/local/bin/moods-dna.py", "optuna": "/usr/local/bin/optuna", "ccache-swig": "/usr/local/bin/ccache-swig", "swig": "/usr/local/bin/swig", "pbr": "/usr/local/bin/pbr", "torchrun": "/usr/local/bin/torchrun", "h5delete": "/usr/local/bin/h5delete", "mako-render": "/usr/local/bin/mako-render", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "aec": "/usr/local/bin/aec", "tensorboard": "/usr/local/bin/tensorboard"}}
+config: {"url": "https://biocontainers.pro/tools/mira-multiome", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mira-multiome", "latest": {"2.1.1--pyhdfd78af_0": "sha256:4dbb10ed67ba9353491235ba58a0f465a5c680a8800068e967198b6cc9f3b976"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:6f9524b1f8abb35837df012d70ad099e978dd3f154a5067a80f27d97c216084b", "2.1.1--pyhdfd78af_0": "sha256:4dbb10ed67ba9353491235ba58a0f465a5c680a8800068e967198b6cc9f3b976"}, "docker": "quay.io/biocontainers/mira-multiome", "aliases": {"alembic": "/usr/local/bin/alembic", "lisa": "/usr/local/bin/lisa", "moods-dna.py": "/usr/local/bin/moods-dna.py", "optuna": "/usr/local/bin/optuna", "ccache-swig": "/usr/local/bin/ccache-swig", "swig": "/usr/local/bin/swig", "pbr": "/usr/local/bin/pbr", "torchrun": "/usr/local/bin/torchrun", "h5delete": "/usr/local/bin/h5delete", "mako-render": "/usr/local/bin/mako-render", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "aec": "/usr/local/bin/aec", "tensorboard": "/usr/local/bin/tensorboard"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mira-multiome.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/mira-multiome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mira-multiome:2.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mira-multiome:2.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mira-multiome/2.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/mira-multiome/2.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/mira-multiome/2.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/mira-multiome/2.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

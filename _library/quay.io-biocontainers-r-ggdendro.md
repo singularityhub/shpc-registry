@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggdendro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggdendro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggdendro/container.yaml"
-updated_at: "2024-07-10 03:15:57.236535"
+updated_at: "2024-07-11 03:18:13.800902"
 latest: "0.1_17--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ggdendro"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.1_17--r3.3.1_0"
+ - "0.1_17--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-ggdendro"
-config: {"url": "https://biocontainers.pro/tools/r-ggdendro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggdendro", "latest": {"0.1_17--r3.3.1_0": "sha256:1ad4462512a5b6fcd287cf29cd9d6d7a91602a1f35f641a8258cd6b769bfc5e5"}, "tags": {"0.1_17--r3.3.1_0": "sha256:1ad4462512a5b6fcd287cf29cd9d6d7a91602a1f35f641a8258cd6b769bfc5e5"}, "docker": "quay.io/biocontainers/r-ggdendro", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-ggdendro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggdendro", "latest": {"0.1_17--r3.3.1_0": "sha256:12aa3e128fbaa1297ca7b2e1f602ea0f4862252ef893148bf6c6eca71130c90a"}, "tags": {"0.1_17--r3.3.1_0": "sha256:12aa3e128fbaa1297ca7b2e1f602ea0f4862252ef893148bf6c6eca71130c90a", "0.1_17--r3.2.2_0": "sha256:2ecaf1a295b42cbc51e0087c457ac0b7e6b5c4951e2956217b481183c009150f"}, "docker": "quay.io/biocontainers/r-ggdendro", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ggdendro.

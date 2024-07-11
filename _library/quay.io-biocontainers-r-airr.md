@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-airr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-airr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-airr/container.yaml"
-updated_at: "2024-07-10 02:56:45.808373"
+updated_at: "2024-07-11 02:58:53.689148"
 latest: "1.2.0--r351h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-airr"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.2.0--r351h6115d3f_1"
 description: "shpc-registry automated BioContainers addition for r-airr"
-config: {"url": "https://biocontainers.pro/tools/r-airr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-airr", "latest": {"1.2.0--r351h6115d3f_1": "sha256:50976c3b9987503fc4818aad19eec1d70a044a97754b66ec8b8ed7722b65149d"}, "tags": {"1.2.0--r351h6115d3f_1": "sha256:50976c3b9987503fc4818aad19eec1d70a044a97754b66ec8b8ed7722b65149d"}, "docker": "quay.io/biocontainers/r-airr", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-airr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-airr", "latest": {"1.2.0--r351h6115d3f_1": "sha256:b58d50d9b9084fa68d5de97095d104cce93f886c2991ec6135ec1facc165ac57"}, "tags": {"1.2.0--r351h6115d3f_1": "sha256:b58d50d9b9084fa68d5de97095d104cce93f886c2991ec6135ec1facc165ac57"}, "docker": "quay.io/biocontainers/r-airr", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-airr.

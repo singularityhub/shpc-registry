@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pbase/container.yaml"
-updated_at: "2024-07-10 03:12:11.215694"
+updated_at: "2024-07-11 03:14:28.286401"
 latest: "0.26.0--r36he1b5a44_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pbase"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.26.0--r36he1b5a44_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pbase"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pbase", "latest": {"0.26.0--r36he1b5a44_0": "sha256:1f7d12aea9287f438b9d2250517712aadc4c8394465f89913faa434a862a3854"}, "tags": {"0.26.0--r36he1b5a44_0": "sha256:1f7d12aea9287f438b9d2250517712aadc4c8394465f89913faa434a862a3854"}, "docker": "quay.io/biocontainers/bioconductor-pbase", "aliases": {"gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pbase", "latest": {"0.26.0--r36he1b5a44_0": "sha256:5c6cb13da70e117cbe7d3dd515ec712beb4f6bc8792b74d211e451fddac84cad"}, "tags": {"0.26.0--r36he1b5a44_0": "sha256:5c6cb13da70e117cbe7d3dd515ec712beb4f6bc8792b74d211e451fddac84cad"}, "docker": "quay.io/biocontainers/bioconductor-pbase", "aliases": {"gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pbase.

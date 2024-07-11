@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pathtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathtools/container.yaml"
-updated_at: "2024-07-10 03:09:35.769555"
+updated_at: "2024-07-11 03:11:51.704408"
 latest: "0.1.2--py35_0"
 container_url: "https://biocontainers.pro/tools/pathtools"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.1.2--py35_0"
 description: "shpc-registry automated BioContainers addition for pathtools"
-config: {"url": "https://biocontainers.pro/tools/pathtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pathtools", "latest": {"0.1.2--py35_0": "sha256:2a1b45729fb7f462cc402e2aa7d7c0baa6cbfa6ddda7b2466e18cf7fcc1c0c54"}, "tags": {"0.1.2--py35_0": "sha256:2a1b45729fb7f462cc402e2aa7d7c0baa6cbfa6ddda7b2466e18cf7fcc1c0c54"}, "docker": "quay.io/biocontainers/pathtools", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/pathtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pathtools", "latest": {"0.1.2--py35_0": "sha256:b31db65a61e35ac19c6e6f2b1aa3ca3586fa96da2422da7c54b498ec96b4ce9d"}, "tags": {"0.1.2--py35_0": "sha256:b31db65a61e35ac19c6e6f2b1aa3ca3586fa96da2422da7c54b498ec96b4ce9d"}, "docker": "quay.io/biocontainers/pathtools", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pathtools.

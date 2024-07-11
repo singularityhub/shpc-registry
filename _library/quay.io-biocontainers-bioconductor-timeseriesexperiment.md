@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-timeseriesexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-timeseriesexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-timeseriesexperiment/container.yaml"
-updated_at: "2024-07-10 02:59:54.363240"
+updated_at: "2024-07-11 03:02:00.860707"
 latest: "1.12.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-timeseriesexperiment"
 aliases:

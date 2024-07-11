@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hivprtplus2cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hivprtplus2cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hivprtplus2cdf/container.yaml"
-updated_at: "2024-07-10 02:38:43.058110"
+updated_at: "2024-07-11 02:40:40.105265"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-hivprtplus2cdf"
 
@@ -14,7 +14,7 @@ versions:
  - "2.18.0--r43hdfd78af_11"
  - "2.18.0--r43hdfd78af_12"
 description: "shpc-registry automated BioContainers addition for bioconductor-hivprtplus2cdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hivprtplus2cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hivprtplus2cdf", "latest": {"2.18.0--r43hdfd78af_12": "sha256:a461b0d50842bbad7769fc75fcce7002cd15128c794df2b012f5ea0057cfa04d"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:6baaa8d350900db571a0eceae5a526119d6d94640a217a440507948e20c0ea0d", "2.18.0--r42hdfd78af_10": "sha256:3fae1ea83f30944fcd6713e2ab273b6a7fd7f93cfc1bd66087a0c9a859387d49", "2.18.0--r43hdfd78af_11": "sha256:168164194b4155ce138c87d19b735b102b8007f593c002556995fc5b6e3db9c4", "2.18.0--r43hdfd78af_12": "sha256:a461b0d50842bbad7769fc75fcce7002cd15128c794df2b012f5ea0057cfa04d"}, "docker": "quay.io/biocontainers/bioconductor-hivprtplus2cdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hivprtplus2cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hivprtplus2cdf", "latest": {"2.18.0--r43hdfd78af_12": "sha256:b27e40d365d02913814898ea8a42f0539b731dfa0feb45d7f44f9d586b648e0f"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:6baaa8d350900db571a0eceae5a526119d6d94640a217a440507948e20c0ea0d", "2.18.0--r42hdfd78af_10": "sha256:3fae1ea83f30944fcd6713e2ab273b6a7fd7f93cfc1bd66087a0c9a859387d49", "2.18.0--r43hdfd78af_11": "sha256:168164194b4155ce138c87d19b735b102b8007f593c002556995fc5b6e3db9c4", "2.18.0--r43hdfd78af_12": "sha256:b27e40d365d02913814898ea8a42f0539b731dfa0feb45d7f44f9d586b648e0f"}, "docker": "quay.io/biocontainers/bioconductor-hivprtplus2cdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hivprtplus2cdf.

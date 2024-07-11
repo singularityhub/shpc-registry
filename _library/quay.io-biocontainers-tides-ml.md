@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tides-ml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tides-ml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tides-ml/container.yaml"
-updated_at: "2024-07-10 03:03:14.942316"
-latest: "1.1.2--pyhdfd78af_0"
+updated_at: "2024-07-11 03:05:24.477720"
+latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tides-ml"
 aliases:
  - "alembic"
@@ -38,8 +38,11 @@ aliases:
  - "sip-distinfo"
 versions:
  - "1.1.2--pyhdfd78af_0"
+ - "1.3.0--pyhdfd78af_0"
+ - "1.2.0--pyhdfd78af_0"
+ - "1.1.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for tides-ml"
-config: {"url": "https://biocontainers.pro/tools/tides-ml", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tides-ml", "latest": {"1.1.2--pyhdfd78af_0": "sha256:bd90d3f5aab31bdd465d954577d2454e1f47c5a49c22216ba2105fc03476b73e"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:bd90d3f5aab31bdd465d954577d2454e1f47c5a49c22216ba2105fc03476b73e"}, "docker": "quay.io/biocontainers/tides-ml", "aliases": {"alembic": "/usr/local/bin/alembic", "optuna": "/usr/local/bin/optuna", "tides": "/usr/local/bin/tides", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "blastn_vdb": "/usr/local/bin/blastn_vdb", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "mako-render": "/usr/local/bin/mako-render", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo"}}
+config: {"url": "https://biocontainers.pro/tools/tides-ml", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tides-ml", "latest": {"1.3.0--pyhdfd78af_0": "sha256:3fcc5546db1d12c17017cbe9f16a2a3d2c8db49cdd3d59b2d02b23f7a6e7623d"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:bd90d3f5aab31bdd465d954577d2454e1f47c5a49c22216ba2105fc03476b73e", "1.3.0--pyhdfd78af_0": "sha256:3fcc5546db1d12c17017cbe9f16a2a3d2c8db49cdd3d59b2d02b23f7a6e7623d", "1.2.0--pyhdfd78af_0": "sha256:6118af3a33e43d1d9b8f41b73613b5f756ea49ca3d4678c1f100c2a4f4214ae2", "1.1.4--pyhdfd78af_0": "sha256:7995afcee3818416687f4208f8c6f024bbc61acb5566f9514445e37257da54f7"}, "docker": "quay.io/biocontainers/tides-ml", "aliases": {"alembic": "/usr/local/bin/alembic", "optuna": "/usr/local/bin/optuna", "tides": "/usr/local/bin/tides", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "blastn_vdb": "/usr/local/bin/blastn_vdb", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "mako-render": "/usr/local/bin/mako-render", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tides-ml.
@@ -54,7 +57,7 @@ $ shpc install quay.io/biocontainers/tides-ml
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tides-ml:1.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/tides-ml:1.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tides-ml/1.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/tides-ml/1.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/tides-ml/1.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/tides-ml/1.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/verkko"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/verkko/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/verkko/container.yaml"
-updated_at: "2024-07-10 03:06:48.956172"
-latest: "1.4.1--h48217b1_0"
+updated_at: "2024-07-11 03:09:03.508935"
+latest: "2.1--h45dadce_0"
 container_url: "https://biocontainers.pro/tools/verkko"
 
 versions:
@@ -15,8 +15,10 @@ versions:
  - "1.3.1--h64afbab_0"
  - "1.4--h48217b1_0"
  - "1.4.1--h48217b1_0"
+ - "2.1--h45dadce_0"
+ - "2.0--h45dadce_0"
 description: "shpc-registry automated BioContainers addition for verkko"
-config: {"url": "https://biocontainers.pro/tools/verkko", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for verkko", "latest": {"1.4.1--h48217b1_0": "sha256:31294e26380b8bbc774f9d070f62d8e325195e7d91f6d20e6a69aa7a55928560"}, "tags": {"1.1--h64afbab_0": "sha256:7f5e46ea6b03f3d1873c4a06b681f24a9db1bda10a03d4b0e59f0a4d881d6d4a", "1.2--h64afbab_0": "sha256:d4f8db736d1df768b5afc2b5d8e4f29634356f6f51f0a6eb8c411a4835fbfb4f", "1.1--h64afbab_1": "sha256:d88c307bac8a0dfed25ec704fe2a48ccb9fd306ff7f82e35797d9411765eada4", "1.3.1--h64afbab_0": "sha256:8926929ff7a981038908e25a3712c26044084b059c71b2578a6883d0043d55a8", "1.4--h48217b1_0": "sha256:84b01d7fa81b2b21989115eac69a3e8f8130ff53087aa82ac21abc34ba15277f", "1.4.1--h48217b1_0": "sha256:31294e26380b8bbc774f9d070f62d8e325195e7d91f6d20e6a69aa7a55928560"}, "docker": "quay.io/biocontainers/verkko"}
+config: {"url": "https://biocontainers.pro/tools/verkko", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for verkko", "latest": {"2.1--h45dadce_0": "sha256:456ac5d6b08916d2f347783617d699b6418ae1c026e44873f8b54eda0ca4f141"}, "tags": {"1.1--h64afbab_0": "sha256:7f5e46ea6b03f3d1873c4a06b681f24a9db1bda10a03d4b0e59f0a4d881d6d4a", "1.2--h64afbab_0": "sha256:d4f8db736d1df768b5afc2b5d8e4f29634356f6f51f0a6eb8c411a4835fbfb4f", "1.1--h64afbab_1": "sha256:d88c307bac8a0dfed25ec704fe2a48ccb9fd306ff7f82e35797d9411765eada4", "1.3.1--h64afbab_0": "sha256:8926929ff7a981038908e25a3712c26044084b059c71b2578a6883d0043d55a8", "1.4--h48217b1_0": "sha256:84b01d7fa81b2b21989115eac69a3e8f8130ff53087aa82ac21abc34ba15277f", "1.4.1--h48217b1_0": "sha256:31294e26380b8bbc774f9d070f62d8e325195e7d91f6d20e6a69aa7a55928560", "2.1--h45dadce_0": "sha256:456ac5d6b08916d2f347783617d699b6418ae1c026e44873f8b54eda0ca4f141", "2.0--h45dadce_0": "sha256:433f9ae6888c4ffa0eeab8697a01adb156e4f97326c9e331f06e4eb5837655a6"}, "docker": "quay.io/biocontainers/verkko"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/verkko.
@@ -31,7 +33,7 @@ $ shpc install quay.io/biocontainers/verkko
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/verkko:1.4.1--h48217b1_0
+$ shpc install quay.io/biocontainers/verkko:2.1--h45dadce_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/verkko/1.4.1--h48217b1_0
-$ module help quay.io/biocontainers/verkko/1.4.1--h48217b1_0
+$ module load quay.io/biocontainers/verkko/2.1--h45dadce_0
+$ module help quay.io/biocontainers/verkko/2.1--h45dadce_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

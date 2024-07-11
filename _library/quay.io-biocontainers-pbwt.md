@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pbwt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbwt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbwt/container.yaml"
-updated_at: "2024-07-10 03:13:28.111914"
-latest: "3.0--h6141fd1_9"
+updated_at: "2024-07-11 03:15:45.305732"
+latest: "3.0--he4a0461_10"
 container_url: "https://biocontainers.pro/tools/pbwt"
 aliases:
  - "pbwt"
@@ -16,8 +16,9 @@ versions:
  - "3.0--hb0d9459_7"
  - "3.0--hc88714e_8"
  - "3.0--h6141fd1_9"
+ - "3.0--he4a0461_10"
 description: "shpc-registry automated BioContainers addition for pbwt"
-config: {"url": "https://biocontainers.pro/tools/pbwt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbwt", "latest": {"3.0--h6141fd1_9": "sha256:9d3ac9ea8f38d6b755a052f38cc6450c8342ebdd1fff42b9e65b2c094f156ca9"}, "tags": {"3.0--hb0d9459_7": "sha256:7bb9e6d57c8010f3f6c654f0f67aad48f43db3e1dcdb2cf71f3414f67126ef75", "3.0--hc88714e_8": "sha256:0da5d9e94130efdc90cd02ecaca856a0d9ed9cf4ae02d268c60bfce65d663a6a", "3.0--h6141fd1_9": "sha256:9d3ac9ea8f38d6b755a052f38cc6450c8342ebdd1fff42b9e65b2c094f156ca9"}, "docker": "quay.io/biocontainers/pbwt", "aliases": {"pbwt": "/usr/local/bin/pbwt", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/pbwt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbwt", "latest": {"3.0--he4a0461_10": "sha256:034eb1fcacae865cb7d773c34913bba716930db6fa850f066e06af91ea0b22a0"}, "tags": {"3.0--hb0d9459_7": "sha256:7bb9e6d57c8010f3f6c654f0f67aad48f43db3e1dcdb2cf71f3414f67126ef75", "3.0--hc88714e_8": "sha256:0da5d9e94130efdc90cd02ecaca856a0d9ed9cf4ae02d268c60bfce65d663a6a", "3.0--h6141fd1_9": "sha256:9d3ac9ea8f38d6b755a052f38cc6450c8342ebdd1fff42b9e65b2c094f156ca9", "3.0--he4a0461_10": "sha256:034eb1fcacae865cb7d773c34913bba716930db6fa850f066e06af91ea0b22a0"}, "docker": "quay.io/biocontainers/pbwt", "aliases": {"pbwt": "/usr/local/bin/pbwt", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbwt.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/pbwt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbwt:3.0--h6141fd1_9
+$ shpc install quay.io/biocontainers/pbwt:3.0--he4a0461_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbwt/3.0--h6141fd1_9
-$ module help quay.io/biocontainers/pbwt/3.0--h6141fd1_9
+$ module load quay.io/biocontainers/pbwt/3.0--he4a0461_10
+$ module help quay.io/biocontainers/pbwt/3.0--he4a0461_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

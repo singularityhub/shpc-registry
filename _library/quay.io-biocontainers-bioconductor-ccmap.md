@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ccmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ccmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ccmap/container.yaml"
-updated_at: "2024-07-10 02:37:22.926284"
+updated_at: "2024-07-11 02:39:20.376578"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ccmap"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.14.0--r40_0"
  - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ccmap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ccmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ccmap", "latest": {"1.28.0--r43hdfd78af_0": "sha256:7b20d0f38cb7801d4c96cf5b68e722345b007568c5485d3bbcf906402e5a416c"}, "tags": {"1.8.0--r351_0": "sha256:61d80e33375347b1bdc5352c969f0e14b66e5f14365ee27d12bf522dd63e9ba3", "1.24.0--r42hdfd78af_0": "sha256:9d08c47c68686fd6fb97a92418f52e6c5f691d313f9da8f5a6dbd7e5f055300f", "1.20.0--r41hdfd78af_0": "sha256:ee276f515331c4d5e772e972ba8c75f31f72aca1f1c549615027ca4813875f4d", "1.18.0--r41hdfd78af_0": "sha256:9ae35af46bf72cdae7ee75fe8ecdaca561fa8c404f790e93a70ebc2cf3c6a4fe", "1.16.0--r40hdfd78af_1": "sha256:27fa27081fcaa9261de55e7e6d0a5811bbc616aa8c5197baf7ba03c35d719cbf", "1.14.0--r40_0": "sha256:f89e6db26222b7d77d69521d70e037ea350d8075d0a7a4a2a3a77692fb2818a0", "1.28.0--r43hdfd78af_0": "sha256:7b20d0f38cb7801d4c96cf5b68e722345b007568c5485d3bbcf906402e5a416c"}, "docker": "quay.io/biocontainers/bioconductor-ccmap", "aliases": {"xgboost": "/usr/local/bin/xgboost", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ccmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ccmap", "latest": {"1.28.0--r43hdfd78af_0": "sha256:7b20d0f38cb7801d4c96cf5b68e722345b007568c5485d3bbcf906402e5a416c"}, "tags": {"1.8.0--r351_0": "sha256:84596690dd98dfe496ce011556f2a96e291af928f6b90c5562a6470aac051b46", "1.24.0--r42hdfd78af_0": "sha256:9d08c47c68686fd6fb97a92418f52e6c5f691d313f9da8f5a6dbd7e5f055300f", "1.20.0--r41hdfd78af_0": "sha256:ee276f515331c4d5e772e972ba8c75f31f72aca1f1c549615027ca4813875f4d", "1.18.0--r41hdfd78af_0": "sha256:9ae35af46bf72cdae7ee75fe8ecdaca561fa8c404f790e93a70ebc2cf3c6a4fe", "1.16.0--r40hdfd78af_1": "sha256:27fa27081fcaa9261de55e7e6d0a5811bbc616aa8c5197baf7ba03c35d719cbf", "1.14.0--r40_0": "sha256:f89e6db26222b7d77d69521d70e037ea350d8075d0a7a4a2a3a77692fb2818a0", "1.28.0--r43hdfd78af_0": "sha256:7b20d0f38cb7801d4c96cf5b68e722345b007568c5485d3bbcf906402e5a416c"}, "docker": "quay.io/biocontainers/bioconductor-ccmap", "aliases": {"xgboost": "/usr/local/bin/xgboost", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ccmap.

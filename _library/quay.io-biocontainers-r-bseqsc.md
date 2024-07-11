@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bseqsc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bseqsc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bseqsc/container.yaml"
-updated_at: "2024-07-10 02:50:28.480366"
+updated_at: "2024-07-11 02:52:31.176558"
 latest: "1.0--r43hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-bseqsc"
 

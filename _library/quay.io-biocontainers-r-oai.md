@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-oai"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-oai/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-oai/container.yaml"
-updated_at: "2024-07-10 03:19:18.741170"
+updated_at: "2024-07-11 03:21:31.769787"
 latest: "0.2.2--r351h29659fb_3"
 container_url: "https://biocontainers.pro/tools/r-oai"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.2.2--r351h29659fb_3"
 description: "shpc-registry automated BioContainers addition for r-oai"
-config: {"url": "https://biocontainers.pro/tools/r-oai", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-oai", "latest": {"0.2.2--r351h29659fb_3": "sha256:ac2f83cd28f70bf5135799229f93c6106cfe593106de96f7e500ea1097e3f916"}, "tags": {"0.2.2--r351h29659fb_3": "sha256:ac2f83cd28f70bf5135799229f93c6106cfe593106de96f7e500ea1097e3f916"}, "docker": "quay.io/biocontainers/r-oai", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-oai", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-oai", "latest": {"0.2.2--r351h29659fb_3": "sha256:b3a8e85566dfd13ab3244156334ac23cee20c9995f7318780616b8472217a031"}, "tags": {"0.2.2--r351h29659fb_3": "sha256:b3a8e85566dfd13ab3244156334ac23cee20c9995f7318780616b8472217a031"}, "docker": "quay.io/biocontainers/r-oai", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-oai.
