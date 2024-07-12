@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-stringr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-stringr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-stringr/container.yaml"
-updated_at: "2024-07-11 03:16:39.661583"
+updated_at: "2024-07-12 02:55:19.072573"
 latest: "1.1.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-stringr"
 aliases:
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "1.1.0--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-stringr"
-config: {"url": "https://biocontainers.pro/tools/r-stringr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-stringr", "latest": {"1.1.0--r3.3.1_0": "sha256:5db64bdb1d7fd9831285414d446a517a3b62c1bf5ce1ee62f9015f489fbadd1b"}, "tags": {"1.1.0--r3.3.1_0": "sha256:5db64bdb1d7fd9831285414d446a517a3b62c1bf5ce1ee62f9015f489fbadd1b"}, "docker": "quay.io/biocontainers/r-stringr", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-stringr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-stringr", "latest": {"1.1.0--r3.3.1_0": "sha256:16cd56c3fcdc6818f72c81158c10906a7d093c80c5001aa4467e92588389d7b6"}, "tags": {"1.1.0--r3.3.1_0": "sha256:16cd56c3fcdc6818f72c81158c10906a7d093c80c5001aa4467e92588389d7b6"}, "docker": "quay.io/biocontainers/r-stringr", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-stringr.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-allenpvc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-allenpvc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-allenpvc/container.yaml"
-updated_at: "2024-07-11 03:40:11.188904"
+updated_at: "2024-07-12 03:19:41.106565"
 latest: "1.4.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-allenpvc"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.4.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-allenpvc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-allenpvc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-allenpvc", "latest": {"1.4.0--r36_0": "sha256:5543eb79d44b2f044fc5ed7693ca0977284bd6aa9a1b94e686c437bb65b93e03"}, "tags": {"1.4.0--r36_0": "sha256:5543eb79d44b2f044fc5ed7693ca0977284bd6aa9a1b94e686c437bb65b93e03"}, "docker": "quay.io/biocontainers/bioconductor-allenpvc", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-allenpvc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-allenpvc", "latest": {"1.4.0--r36_0": "sha256:f9ee658997fbe326f02ac5fedc010e83d14f8f168640ab2f51ccd3f01d1802e8"}, "tags": {"1.4.0--r36_0": "sha256:f9ee658997fbe326f02ac5fedc010e83d14f8f168640ab2f51ccd3f01d1802e8"}, "docker": "quay.io/biocontainers/bioconductor-allenpvc", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-allenpvc.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-icluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-icluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-icluster/container.yaml"
-updated_at: "2024-07-11 03:42:54.818703"
+updated_at: "2024-07-12 03:22:24.222997"
 latest: "2.1.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-icluster"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "2.1.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-icluster"
-config: {"url": "https://biocontainers.pro/tools/r-icluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-icluster", "latest": {"2.1.0--r3.4.1_0": "sha256:0295474ba46606c76ed3af977d898ecb8fb061b27c7dbaa68f7cdb3e5194b5b4"}, "tags": {"2.1.0--r3.4.1_0": "sha256:0295474ba46606c76ed3af977d898ecb8fb061b27c7dbaa68f7cdb3e5194b5b4"}, "docker": "quay.io/biocontainers/r-icluster", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-icluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-icluster", "latest": {"2.1.0--r3.4.1_0": "sha256:c59d75010323182d1e20929677f1d913ce24c048ed15d275649fdde58425bca3"}, "tags": {"2.1.0--r3.4.1_0": "sha256:c59d75010323182d1e20929677f1d913ce24c048ed15d275649fdde58425bca3"}, "docker": "quay.io/biocontainers/r-icluster", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-icluster.

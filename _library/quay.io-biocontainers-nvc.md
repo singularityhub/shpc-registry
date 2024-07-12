@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nvc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nvc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nvc/container.yaml"
-updated_at: "2024-07-11 03:22:24.147307"
+updated_at: "2024-07-12 03:01:20.173878"
 latest: "0.0.4--py_2"
 container_url: "https://biocontainers.pro/tools/nvc"
 aliases:

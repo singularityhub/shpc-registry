@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-humanaffydata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-humanaffydata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-humanaffydata/container.yaml"
-updated_at: "2024-07-11 03:21:11.475321"
+updated_at: "2024-07-12 03:00:02.686348"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-humanaffydata"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-humanaffydata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-humanaffydata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-humanaffydata", "latest": {"1.28.0--r43hdfd78af_0": "sha256:8cb25b8d1e71d7c6f6cbf0d77651ddb85a648ac4267a169c256661f5aa724cd7"}, "tags": {"1.8.0--r351_0": "sha256:1ba79b3dc661daf357d765003cb7bbaf768c5d697f07758eb4a1926f940ce970", "1.24.0--r42hdfd78af_0": "sha256:01a15e5467e4a359b0c93336c9f422bde8393bccf9d5bb9f0bc0be3497d20584", "1.20.0--r41hdfd78af_1": "sha256:b8a727dee3d32268d7b55823634d0da7bbdc73bfda196aef551c38d08946694f", "1.18.0--r41hdfd78af_0": "sha256:731f5f4253491beb2e0cc37aebc41f44acb8c93f6c1359823c2e43a90c5d881f", "1.16.0--r40hdfd78af_1": "sha256:a6f100d44bfec10c16be47316e3d27d6c3a2e0f495d3eba7524e9b80b0fb8dd8", "1.14.0--r40_0": "sha256:407288f6f7ea1ff3f1cba11b90a89be376a16c4424f792a39c0fa2707aaf1bad", "1.26.0--r43hdfd78af_0": "sha256:2cfb6d69df01690dd6a24ff7869636ab35b1a3f9e29882b50e1393247c7aabcb", "1.28.0--r43hdfd78af_0": "sha256:8cb25b8d1e71d7c6f6cbf0d77651ddb85a648ac4267a169c256661f5aa724cd7"}, "docker": "quay.io/biocontainers/bioconductor-humanaffydata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-humanaffydata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-humanaffydata", "latest": {"1.28.0--r43hdfd78af_0": "sha256:8cb25b8d1e71d7c6f6cbf0d77651ddb85a648ac4267a169c256661f5aa724cd7"}, "tags": {"1.8.0--r351_0": "sha256:7a4f7a00d4d11d50d21c4336162710f351eb6d1f09fae885edfc6cc30de474d2", "1.24.0--r42hdfd78af_0": "sha256:01a15e5467e4a359b0c93336c9f422bde8393bccf9d5bb9f0bc0be3497d20584", "1.20.0--r41hdfd78af_1": "sha256:b8a727dee3d32268d7b55823634d0da7bbdc73bfda196aef551c38d08946694f", "1.18.0--r41hdfd78af_0": "sha256:731f5f4253491beb2e0cc37aebc41f44acb8c93f6c1359823c2e43a90c5d881f", "1.16.0--r40hdfd78af_1": "sha256:a6f100d44bfec10c16be47316e3d27d6c3a2e0f495d3eba7524e9b80b0fb8dd8", "1.14.0--r40_0": "sha256:407288f6f7ea1ff3f1cba11b90a89be376a16c4424f792a39c0fa2707aaf1bad", "1.26.0--r43hdfd78af_0": "sha256:2cfb6d69df01690dd6a24ff7869636ab35b1a3f9e29882b50e1393247c7aabcb", "1.28.0--r43hdfd78af_0": "sha256:8cb25b8d1e71d7c6f6cbf0d77651ddb85a648ac4267a169c256661f5aa724cd7"}, "docker": "quay.io/biocontainers/bioconductor-humanaffydata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-humanaffydata.

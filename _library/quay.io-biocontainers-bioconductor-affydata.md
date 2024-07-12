@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-affydata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-affydata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-affydata/container.yaml"
-updated_at: "2024-07-11 03:35:58.142438"
+updated_at: "2024-07-12 03:15:25.083519"
 latest: "1.50.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-affydata"
 
@@ -15,7 +15,7 @@ versions:
  - "1.48.1--r43hdfd78af_0"
  - "1.50.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-affydata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-affydata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-affydata", "latest": {"1.50.0--r43hdfd78af_0": "sha256:dcf8fc4180fedb67c633b547218407becb2ba226d948b9156a64e0ff32216dbf"}, "tags": {"1.42.0--r41hdfd78af_1": "sha256:8d220eb8a24a7a943bb27e30c66b18f6c5e566b32cc4b32960272a4c86789b37", "1.46.0--r42hdfd78af_0": "sha256:79f1df927469bb141b518735b9ee2fb44fb5dfe16b1ae4a67370b1dc5d2cd7bc", "1.48.0--r43hdfd78af_0": "sha256:34b1f1a3d66ecfbf972fe3a4464c88584e5942ae717253bebf000c1279ac47e2", "1.48.1--r43hdfd78af_0": "sha256:e48e398b22f40468e551c10b50b7274ddab75d12f50a6a0484834b6db1ef2c10", "1.50.0--r43hdfd78af_0": "sha256:dcf8fc4180fedb67c633b547218407becb2ba226d948b9156a64e0ff32216dbf"}, "docker": "quay.io/biocontainers/bioconductor-affydata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-affydata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-affydata", "latest": {"1.50.0--r43hdfd78af_0": "sha256:df418017cfea7a9ab8d78195f98a48f12c123cd3810a8a21ce20bfd4276fe996"}, "tags": {"1.42.0--r41hdfd78af_1": "sha256:8d220eb8a24a7a943bb27e30c66b18f6c5e566b32cc4b32960272a4c86789b37", "1.46.0--r42hdfd78af_0": "sha256:79f1df927469bb141b518735b9ee2fb44fb5dfe16b1ae4a67370b1dc5d2cd7bc", "1.48.0--r43hdfd78af_0": "sha256:34b1f1a3d66ecfbf972fe3a4464c88584e5942ae717253bebf000c1279ac47e2", "1.48.1--r43hdfd78af_0": "sha256:e48e398b22f40468e551c10b50b7274ddab75d12f50a6a0484834b6db1ef2c10", "1.50.0--r43hdfd78af_0": "sha256:df418017cfea7a9ab8d78195f98a48f12c123cd3810a8a21ce20bfd4276fe996"}, "docker": "quay.io/biocontainers/bioconductor-affydata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-affydata.

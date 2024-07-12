@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/requests-toolbelt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/requests-toolbelt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/requests-toolbelt/container.yaml"
-updated_at: "2024-07-11 03:11:49.991031"
+updated_at: "2024-07-12 02:50:15.761965"
 latest: "0.5.0--py35_0"
 container_url: "https://biocontainers.pro/tools/requests-toolbelt"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "0.5.0--py35_0"
  - "0.5.0--py36_0"
 description: "shpc-registry automated BioContainers addition for requests-toolbelt"
-config: {"url": "https://biocontainers.pro/tools/requests-toolbelt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for requests-toolbelt", "latest": {"0.5.0--py35_0": "sha256:3b636534c2e4391a13db9b131f7764b1ddf5eca812ab3675257ea46061801efc"}, "tags": {"0.5.0--py35_0": "sha256:3b636534c2e4391a13db9b131f7764b1ddf5eca812ab3675257ea46061801efc", "0.5.0--py36_0": "sha256:0d5919e901a5a3e55b04661730a9014e762b64d7ec7b3cd10fb602d019eaf1dd"}, "docker": "quay.io/biocontainers/requests-toolbelt", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/requests-toolbelt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for requests-toolbelt", "latest": {"0.5.0--py35_0": "sha256:ca64bcfbbb059cd60e23f3cfff802a927b7fdd1c4f1a11ed63b59a1511c9a90b"}, "tags": {"0.5.0--py35_0": "sha256:ca64bcfbbb059cd60e23f3cfff802a927b7fdd1c4f1a11ed63b59a1511c9a90b", "0.5.0--py36_0": "sha256:9743c45385d78128848f8a98392201f2bdef525c2667c6e47d10d928fdfe5906"}, "docker": "quay.io/biocontainers/requests-toolbelt", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/requests-toolbelt.

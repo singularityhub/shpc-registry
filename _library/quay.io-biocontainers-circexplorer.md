@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/circexplorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circexplorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circexplorer/container.yaml"
-updated_at: "2024-07-11 03:41:40.080894"
+updated_at: "2024-07-12 03:21:09.579479"
 latest: "1.1.10--py_4"
 container_url: "https://biocontainers.pro/tools/circexplorer"
 
@@ -12,7 +12,7 @@ versions:
  - "1.1.9--py35_0"
  - "1.1.10--py_4"
 description: "shpc-registry automated BioContainers addition for circexplorer"
-config: {"url": "https://biocontainers.pro/tools/circexplorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for circexplorer", "latest": {"1.1.10--py_4": "sha256:875ecc3d98def975849ac65a35103bf1b113f6e3b026dde849f74701f2803b85"}, "tags": {"1.1.9--py35_0": "sha256:9380fe88974fbe9c3cc589741b6eaec33d91f01e038f34f4c3afdd006895cada", "1.1.10--py_4": "sha256:875ecc3d98def975849ac65a35103bf1b113f6e3b026dde849f74701f2803b85"}, "docker": "quay.io/biocontainers/circexplorer"}
+config: {"url": "https://biocontainers.pro/tools/circexplorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for circexplorer", "latest": {"1.1.10--py_4": "sha256:a8c76cb7df3fc346c144ac7b58a823a9e46a3a3f2858261a07ce55cc783d7ce8"}, "tags": {"1.1.9--py35_0": "sha256:5a9486acf9eae51939d1802e143d686d8a77b8ca56c7b9ee678aca5a7d4e146a", "1.1.10--py_4": "sha256:a8c76cb7df3fc346c144ac7b58a823a9e46a3a3f2858261a07ce55cc783d7ce8"}, "docker": "quay.io/biocontainers/circexplorer"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/circexplorer.

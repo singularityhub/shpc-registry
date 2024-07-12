@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fwdpy11"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fwdpy11/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fwdpy11/container.yaml"
-updated_at: "2024-07-11 03:25:40.968155"
-latest: "0.22.2--py311ha4df4d3_1"
+updated_at: "2024-07-12 03:04:46.343615"
+latest: "0.23.0--py310h590d5fe_0"
 container_url: "https://biocontainers.pro/tools/fwdpy11"
 aliases:
  - "tskit"
@@ -27,8 +27,9 @@ versions:
  - "0.19.10--py39h8c02b11_0"
  - "0.18.3--py39h8c02b11_0"
  - "0.22.2--py311ha4df4d3_1"
+ - "0.23.0--py310h590d5fe_0"
 description: "shpc-registry automated BioContainers addition for fwdpy11"
-config: {"url": "https://biocontainers.pro/tools/fwdpy11", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fwdpy11", "latest": {"0.22.2--py311ha4df4d3_1": "sha256:f19dce142aae256f378f12a3ea1ce39b5900c8b6f2b9e5fcd7898e2110e3e613"}, "tags": {"0.6.3--py36h7d13203_0": "sha256:cbffbbec5c22c11bb9895a922aa215b028abe9b76140c68f2e308ec87c289a2e", "0.22.2--py39h58a975e_0": "sha256:729c1c0fb0b038749d79124e0362119137f306d4ebeab07fa0a3c5a7bd83f1aa", "0.21.0--py38h15ccf8d_0": "sha256:d85472e85fde7ccb479fcfd4a385d77e580ddaae3ac98da7850ed4c4984b62a1", "0.20.1--py310h7677ecb_0": "sha256:e5cae637e4871e1bc396656faef6230c5b14be93c7a2aabcdc5b3adf49539d85", "0.19.10--py39h8c02b11_0": "sha256:6d597672b1eac4d399a88a85a8740ccf64caefe2c975b4b8cda2c40e56ad09d1", "0.18.3--py39h8c02b11_0": "sha256:307bcc550cfb6c6b3447d76b33041b2fef62661edc0899ba3cd8d8d2a29368bd", "0.22.2--py311ha4df4d3_1": "sha256:f19dce142aae256f378f12a3ea1ce39b5900c8b6f2b9e5fcd7898e2110e3e613"}, "docker": "quay.io/biocontainers/fwdpy11", "aliases": {"tskit": "/usr/local/bin/tskit", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "f2py3.6": "/usr/local/bin/f2py3.6", "jsonschema": "/usr/local/bin/jsonschema", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m"}}
+config: {"url": "https://biocontainers.pro/tools/fwdpy11", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fwdpy11", "latest": {"0.23.0--py310h590d5fe_0": "sha256:43a6bf31c2698c2fbd5d5127d29688b88bca0d07f12d8286d8648ce61b80453d"}, "tags": {"0.6.3--py36h7d13203_0": "sha256:cbffbbec5c22c11bb9895a922aa215b028abe9b76140c68f2e308ec87c289a2e", "0.22.2--py39h58a975e_0": "sha256:729c1c0fb0b038749d79124e0362119137f306d4ebeab07fa0a3c5a7bd83f1aa", "0.21.0--py38h15ccf8d_0": "sha256:d85472e85fde7ccb479fcfd4a385d77e580ddaae3ac98da7850ed4c4984b62a1", "0.20.1--py310h7677ecb_0": "sha256:e5cae637e4871e1bc396656faef6230c5b14be93c7a2aabcdc5b3adf49539d85", "0.19.10--py39h8c02b11_0": "sha256:6d597672b1eac4d399a88a85a8740ccf64caefe2c975b4b8cda2c40e56ad09d1", "0.18.3--py39h8c02b11_0": "sha256:307bcc550cfb6c6b3447d76b33041b2fef62661edc0899ba3cd8d8d2a29368bd", "0.22.2--py311ha4df4d3_1": "sha256:f19dce142aae256f378f12a3ea1ce39b5900c8b6f2b9e5fcd7898e2110e3e613", "0.23.0--py310h590d5fe_0": "sha256:43a6bf31c2698c2fbd5d5127d29688b88bca0d07f12d8286d8648ce61b80453d"}, "docker": "quay.io/biocontainers/fwdpy11", "aliases": {"tskit": "/usr/local/bin/tskit", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "f2py3.6": "/usr/local/bin/f2py3.6", "jsonschema": "/usr/local/bin/jsonschema", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fwdpy11.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/fwdpy11
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fwdpy11:0.22.2--py311ha4df4d3_1
+$ shpc install quay.io/biocontainers/fwdpy11:0.23.0--py310h590d5fe_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fwdpy11/0.22.2--py311ha4df4d3_1
-$ module help quay.io/biocontainers/fwdpy11/0.22.2--py311ha4df4d3_1
+$ module load quay.io/biocontainers/fwdpy11/0.23.0--py310h590d5fe_0
+$ module help quay.io/biocontainers/fwdpy11/0.23.0--py310h590d5fe_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rdgidb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rdgidb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rdgidb/container.yaml"
-updated_at: "2024-07-11 03:22:39.533676"
+updated_at: "2024-07-12 03:01:36.513028"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rdgidb"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rdgidb"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rdgidb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rdgidb", "latest": {"1.28.0--r43hdfd78af_0": "sha256:b9d73352113e6205373c5d211b0d95afbd44392b735059bcccd49a04dcef75ca"}, "tags": {"1.8.0--r351_0": "sha256:03d4a258693bb5a22c87be151e96c7f872e168f5f1bec93f29bc80ab439ea056", "1.24.0--r42hdfd78af_0": "sha256:a7645123876dfb1cd987bfe196e6d861b7ba3cf65011ee702143923984750ab3", "1.20.0--r41hdfd78af_0": "sha256:6e25c02c051d5b3c1179cd035723ab13db6b0936c2002ce7e727d9808a9256b2", "1.18.0--r41hdfd78af_0": "sha256:323b6ad64f6b3ac64e611290a4897ed4435573fa17e7a729648446616170eac7", "1.16.0--r40hdfd78af_1": "sha256:4dcbfa7cf01d7e4c86c9b3d9415a89596412c85148c97d91b8e77a18c094625a", "1.14.0--r40_0": "sha256:2eedba1f3df26532034236d2d717801ba324650b02d32b998bf96d208af1fe18", "1.26.0--r43hdfd78af_0": "sha256:50d3efd8ed8a9d7d46402d31e6f37c89d97338d0769cc83884ae2ce73654ebdf", "1.28.0--r43hdfd78af_0": "sha256:b9d73352113e6205373c5d211b0d95afbd44392b735059bcccd49a04dcef75ca"}, "docker": "quay.io/biocontainers/bioconductor-rdgidb", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rdgidb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rdgidb", "latest": {"1.28.0--r43hdfd78af_0": "sha256:b9d73352113e6205373c5d211b0d95afbd44392b735059bcccd49a04dcef75ca"}, "tags": {"1.8.0--r351_0": "sha256:424e5430bd23821e9501a423c961a796a5a49979cb23c09cd4de89752752a71f", "1.24.0--r42hdfd78af_0": "sha256:a7645123876dfb1cd987bfe196e6d861b7ba3cf65011ee702143923984750ab3", "1.20.0--r41hdfd78af_0": "sha256:6e25c02c051d5b3c1179cd035723ab13db6b0936c2002ce7e727d9808a9256b2", "1.18.0--r41hdfd78af_0": "sha256:323b6ad64f6b3ac64e611290a4897ed4435573fa17e7a729648446616170eac7", "1.16.0--r40hdfd78af_1": "sha256:4dcbfa7cf01d7e4c86c9b3d9415a89596412c85148c97d91b8e77a18c094625a", "1.14.0--r40_0": "sha256:2eedba1f3df26532034236d2d717801ba324650b02d32b998bf96d208af1fe18", "1.26.0--r43hdfd78af_0": "sha256:50d3efd8ed8a9d7d46402d31e6f37c89d97338d0769cc83884ae2ce73654ebdf", "1.28.0--r43hdfd78af_0": "sha256:b9d73352113e6205373c5d211b0d95afbd44392b735059bcccd49a04dcef75ca"}, "docker": "quay.io/biocontainers/bioconductor-rdgidb", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rdgidb.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ellipse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ellipse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ellipse/container.yaml"
-updated_at: "2024-07-11 03:34:45.453064"
+updated_at: "2024-07-12 03:14:10.872928"
 latest: "0.3_8--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-ellipse"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.3_8--r3.3.2_0"
+ - "0.3_8--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-ellipse"
-config: {"url": "https://biocontainers.pro/tools/r-ellipse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ellipse", "latest": {"0.3_8--r3.3.2_0": "sha256:5e5639f8bd7e1d7079009be077561f641ae57061b2b886c124b76b088b65c348"}, "tags": {"0.3_8--r3.3.2_0": "sha256:5e5639f8bd7e1d7079009be077561f641ae57061b2b886c124b76b088b65c348"}, "docker": "quay.io/biocontainers/r-ellipse", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-ellipse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ellipse", "latest": {"0.3_8--r3.3.2_0": "sha256:f247a706916a47df1607e2066934a9722aa971d422a56a622a1cccdadf7f3634"}, "tags": {"0.3_8--r3.3.2_0": "sha256:f247a706916a47df1607e2066934a9722aa971d422a56a622a1cccdadf7f3634", "0.3_8--r3.2.2_0": "sha256:679041bcd0a1f9d17756df67fade1c5abcc4df08980b0e63b19bcf875a8b0208"}, "docker": "quay.io/biocontainers/r-ellipse", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ellipse.

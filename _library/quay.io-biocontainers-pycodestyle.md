@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pycodestyle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycodestyle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycodestyle/container.yaml"
-updated_at: "2024-07-11 03:31:49.536014"
+updated_at: "2024-07-12 03:11:12.409168"
 latest: "2.0.0--py36_0"
 container_url: "https://biocontainers.pro/tools/pycodestyle"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "2.0.0--py36_0"
+ - "2.0.0--py35_0"
 description: "shpc-registry automated BioContainers addition for pycodestyle"
-config: {"url": "https://biocontainers.pro/tools/pycodestyle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pycodestyle", "latest": {"2.0.0--py36_0": "sha256:16d619d0b13afbc5489b989a524b6cebe79bbe8e6674cb622717f7e551a65798"}, "tags": {"2.0.0--py36_0": "sha256:16d619d0b13afbc5489b989a524b6cebe79bbe8e6674cb622717f7e551a65798"}, "docker": "quay.io/biocontainers/pycodestyle", "aliases": {"pycodestyle": "/usr/local/bin/pycodestyle", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/pycodestyle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pycodestyle", "latest": {"2.0.0--py36_0": "sha256:1a5a54d29ca20374958568a183515244d2b0ffdba8f7742fdf61111ce9d5215b"}, "tags": {"2.0.0--py36_0": "sha256:1a5a54d29ca20374958568a183515244d2b0ffdba8f7742fdf61111ce9d5215b", "2.0.0--py35_0": "sha256:6b7dd79b06d05b12a5d309f7e0ac3c2dea1c62e985e732d76e790781ffe84634"}, "docker": "quay.io/biocontainers/pycodestyle", "aliases": {"pycodestyle": "/usr/local/bin/pycodestyle", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pycodestyle.

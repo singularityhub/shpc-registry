@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/netifaces"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/netifaces/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/netifaces/container.yaml"
-updated_at: "2024-07-11 03:30:09.599154"
+updated_at: "2024-07-12 03:09:28.152324"
 latest: "0.10.4--py36_1"
 container_url: "https://biocontainers.pro/tools/netifaces"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.10.4--py36_1"
+ - "0.10.4--py35_1"
 description: "shpc-registry automated BioContainers addition for netifaces"
-config: {"url": "https://biocontainers.pro/tools/netifaces", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for netifaces", "latest": {"0.10.4--py36_1": "sha256:21fea9b548924a2b5a59049a09fb7c93f90426ee80689f2dc0fe08c8e3aaf019"}, "tags": {"0.10.4--py36_1": "sha256:21fea9b548924a2b5a59049a09fb7c93f90426ee80689f2dc0fe08c8e3aaf019"}, "docker": "quay.io/biocontainers/netifaces", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/netifaces", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for netifaces", "latest": {"0.10.4--py36_1": "sha256:8bd047ca486b8807a6c438a630ce74d54ede29a49695f3f08ee7a8febdd308ac"}, "tags": {"0.10.4--py36_1": "sha256:8bd047ca486b8807a6c438a630ce74d54ede29a49695f3f08ee7a8febdd308ac", "0.10.4--py35_1": "sha256:b35836986f0923bcfd068238b3c2e7b8e53bad3d01e3e4caa97560117f0e9b3b"}, "docker": "quay.io/biocontainers/netifaces", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/netifaces.

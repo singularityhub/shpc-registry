@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-findmyfriends"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-findmyfriends/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-findmyfriends/container.yaml"
-updated_at: "2024-07-11 03:28:18.437445"
+updated_at: "2024-07-12 03:07:31.962895"
 latest: "1.23.0--r41h619a076_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-findmyfriends"
 aliases:
@@ -18,7 +18,7 @@ versions:
  - "1.18.0--r40h5f743cb_0"
  - "1.16.0--r36he1b5a44_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-findmyfriends"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-findmyfriends", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-findmyfriends", "latest": {"1.23.0--r41h619a076_1": "sha256:a0f32fcd88acee95e4192a4bd439ce5b0998ff96ec25694989f405258268d06a"}, "tags": {"1.8.0--r3.4.1_0": "sha256:41821e76a87cb3f8e34a1af676478aa8f10ea0a43773d1db72bda4b927b2a6a5", "1.23.0--r41h619a076_1": "sha256:a0f32fcd88acee95e4192a4bd439ce5b0998ff96ec25694989f405258268d06a", "1.22.0--r41h399db7b_0": "sha256:da7aaf7165e192111746e7265a9d5500fb57b4cbc8e32342abc11345853152ab", "1.20.0--r40h399db7b_1": "sha256:ea79f63a1b828488cd3142026813f082b3ad8850c1a77975236f2c15839cdf9c", "1.18.0--r40h5f743cb_0": "sha256:d8887d82a696ac551811ccf848d04e13634303e8370c6ad051b7928429f3923c", "1.16.0--r36he1b5a44_0": "sha256:a6dd524ce5546e278cf09bf24f3fa85e041b19621df4273be04aa9eab0b461e5"}, "docker": "quay.io/biocontainers/bioconductor-findmyfriends", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-findmyfriends", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-findmyfriends", "latest": {"1.23.0--r41h619a076_1": "sha256:a0f32fcd88acee95e4192a4bd439ce5b0998ff96ec25694989f405258268d06a"}, "tags": {"1.8.0--r3.4.1_0": "sha256:baaddc69030c4e81f64f7fbd85832b83807a7d6275f1891917ddd86eff89e453", "1.23.0--r41h619a076_1": "sha256:a0f32fcd88acee95e4192a4bd439ce5b0998ff96ec25694989f405258268d06a", "1.22.0--r41h399db7b_0": "sha256:da7aaf7165e192111746e7265a9d5500fb57b4cbc8e32342abc11345853152ab", "1.20.0--r40h399db7b_1": "sha256:ea79f63a1b828488cd3142026813f082b3ad8850c1a77975236f2c15839cdf9c", "1.18.0--r40h5f743cb_0": "sha256:d8887d82a696ac551811ccf848d04e13634303e8370c6ad051b7928429f3923c", "1.16.0--r36he1b5a44_0": "sha256:bc856d76e84862ac7ebca0329509f48492a2fb2795762df57ccc98614ab7b926"}, "docker": "quay.io/biocontainers/bioconductor-findmyfriends", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-findmyfriends.

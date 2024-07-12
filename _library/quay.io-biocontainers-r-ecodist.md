@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ecodist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ecodist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ecodist/container.yaml"
-updated_at: "2024-07-11 03:08:07.064449"
+updated_at: "2024-07-12 02:46:19.863111"
 latest: "2.0.1--r351h96ca727_3"
 container_url: "https://biocontainers.pro/tools/r-ecodist"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "2.0.1--r351h96ca727_3"
 description: "shpc-registry automated BioContainers addition for r-ecodist"
-config: {"url": "https://biocontainers.pro/tools/r-ecodist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ecodist", "latest": {"2.0.1--r351h96ca727_3": "sha256:41c1234ae1035ff1c9c5ba80975960a109a29afa8f026f0e3175b6e666040575"}, "tags": {"2.0.1--r351h96ca727_3": "sha256:41c1234ae1035ff1c9c5ba80975960a109a29afa8f026f0e3175b6e666040575"}, "docker": "quay.io/biocontainers/r-ecodist", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-ecodist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ecodist", "latest": {"2.0.1--r351h96ca727_3": "sha256:088ee9cc23b9f1a0c85a459727117f6458a855e362a43fbd891a0cf51df7a40b"}, "tags": {"2.0.1--r351h96ca727_3": "sha256:088ee9cc23b9f1a0c85a459727117f6458a855e362a43fbd891a0cf51df7a40b"}, "docker": "quay.io/biocontainers/r-ecodist", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ecodist.

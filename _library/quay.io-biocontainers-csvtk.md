@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/csvtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/csvtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/csvtk/container.yaml"
-updated_at: "2024-07-11 03:23:54.502300"
-latest: "0.30.0--h9ee0642_1"
+updated_at: "2024-07-12 03:02:55.837856"
+latest: "0.30.0--h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/csvtk"
 aliases:
  - "csvtk"
@@ -21,8 +21,9 @@ versions:
  - "0.28.0--h9ee0642_0"
  - "0.29.0--h9ee0642_0"
  - "0.30.0--h9ee0642_1"
+ - "0.30.0--h9ee0642_2"
 description: "shpc-registry automated BioContainers addition for csvtk"
-config: {"url": "https://biocontainers.pro/tools/csvtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for csvtk", "latest": {"0.30.0--h9ee0642_1": "sha256:4a854c8968a07dd908a8c640d31662e98ea2dadab89bb0a5050a0ad6e071abe2"}, "tags": {"0.9.1--0": "sha256:4d8e2983a10ddadb8d674ab14b9b3410acc470a5503db510f6fef0cf2021c0ff", "0.25.0--h9ee0642_0": "sha256:f07592f60d3749bfb3df81a23f57d5e709cda30b3c818ac0be699e586bff01b2", "0.24.0--h9ee0642_0": "sha256:80cddaa213cf1d67362394b41cbba51e9b9b31afeafe2383bfa8bc9c3dfa4217", "0.23.0--h9ee0642_0": "sha256:3250fe7bad2d661c1ad6a40983383ae98d29548f9df75f0830ecf1686647d2c6", "0.22.0--h9ee0642_1": "sha256:da9ce8ebf0e9f88c29317de4ce56ccc31c5845887d5ac7f7037354e2c92c25c4", "0.21.0--0": "sha256:72c9b7f9f9c17bb758dd28eb25d033d46fa0d0cbfd085ae6df28c1e3c3fa0d61", "0.26.0--h9ee0642_0": "sha256:689199471f4d63aa671a7307266ce2b75e8dc1f5a70078f6caded8d5fc5ed42d", "0.27.2--h9ee0642_0": "sha256:f90dd399ff459b1de53f4ffb43f19891ffb8f30d52ae3f40ac65a5a2a6629bae", "0.28.0--h9ee0642_0": "sha256:2bba5a84515e6242407fbb6cdd571b8a62711dfe87325dc913de11cfd3881998", "0.29.0--h9ee0642_0": "sha256:ffe51fde60ad717d1709324259c962499e2641bf35b2c0a7e09dac53f8aa9ffd", "0.30.0--h9ee0642_1": "sha256:4a854c8968a07dd908a8c640d31662e98ea2dadab89bb0a5050a0ad6e071abe2"}, "docker": "quay.io/biocontainers/csvtk", "aliases": {"csvtk": "/usr/local/bin/csvtk"}}
+config: {"url": "https://biocontainers.pro/tools/csvtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for csvtk", "latest": {"0.30.0--h9ee0642_2": "sha256:823983bb6611770d91f053c1dff42e4213d7ec3e345187af96220510b5c53bc3"}, "tags": {"0.9.1--0": "sha256:f65b8de8066c7356a969fa878bc1d7594ed4a25fbf8ee8d2fd2da18d60b93271", "0.25.0--h9ee0642_0": "sha256:f07592f60d3749bfb3df81a23f57d5e709cda30b3c818ac0be699e586bff01b2", "0.24.0--h9ee0642_0": "sha256:80cddaa213cf1d67362394b41cbba51e9b9b31afeafe2383bfa8bc9c3dfa4217", "0.23.0--h9ee0642_0": "sha256:3250fe7bad2d661c1ad6a40983383ae98d29548f9df75f0830ecf1686647d2c6", "0.22.0--h9ee0642_1": "sha256:da9ce8ebf0e9f88c29317de4ce56ccc31c5845887d5ac7f7037354e2c92c25c4", "0.21.0--0": "sha256:72c9b7f9f9c17bb758dd28eb25d033d46fa0d0cbfd085ae6df28c1e3c3fa0d61", "0.26.0--h9ee0642_0": "sha256:689199471f4d63aa671a7307266ce2b75e8dc1f5a70078f6caded8d5fc5ed42d", "0.27.2--h9ee0642_0": "sha256:f90dd399ff459b1de53f4ffb43f19891ffb8f30d52ae3f40ac65a5a2a6629bae", "0.28.0--h9ee0642_0": "sha256:2bba5a84515e6242407fbb6cdd571b8a62711dfe87325dc913de11cfd3881998", "0.29.0--h9ee0642_0": "sha256:ffe51fde60ad717d1709324259c962499e2641bf35b2c0a7e09dac53f8aa9ffd", "0.30.0--h9ee0642_1": "sha256:4a854c8968a07dd908a8c640d31662e98ea2dadab89bb0a5050a0ad6e071abe2", "0.30.0--h9ee0642_2": "sha256:823983bb6611770d91f053c1dff42e4213d7ec3e345187af96220510b5c53bc3"}, "docker": "quay.io/biocontainers/csvtk", "aliases": {"csvtk": "/usr/local/bin/csvtk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/csvtk.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/csvtk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/csvtk:0.30.0--h9ee0642_1
+$ shpc install quay.io/biocontainers/csvtk:0.30.0--h9ee0642_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/csvtk/0.30.0--h9ee0642_1
-$ module help quay.io/biocontainers/csvtk/0.30.0--h9ee0642_1
+$ module load quay.io/biocontainers/csvtk/0.30.0--h9ee0642_2
+$ module help quay.io/biocontainers/csvtk/0.30.0--h9ee0642_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

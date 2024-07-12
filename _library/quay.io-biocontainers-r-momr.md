@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-momr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-momr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-momr/container.yaml"
-updated_at: "2024-07-11 03:14:10.927683"
+updated_at: "2024-07-12 02:52:44.454677"
 latest: "1.1--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-momr"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.1--r351h6115d3f_0"
 description: "shpc-registry automated BioContainers addition for r-momr"
-config: {"url": "https://biocontainers.pro/tools/r-momr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-momr", "latest": {"1.1--r351h6115d3f_0": "sha256:0b53224b77e7ce2228499258ba526b3919c1bc9d27ce7b2cc9dcfb4ddb45a594"}, "tags": {"1.1--r351h6115d3f_0": "sha256:0b53224b77e7ce2228499258ba526b3919c1bc9d27ce7b2cc9dcfb4ddb45a594"}, "docker": "quay.io/biocontainers/r-momr", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-momr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-momr", "latest": {"1.1--r351h6115d3f_0": "sha256:b76d87e4e34a8b4923392e77c6b960131edcb418e9e18d05572475f5e1d5ff31"}, "tags": {"1.1--r351h6115d3f_0": "sha256:b76d87e4e34a8b4923392e77c6b960131edcb418e9e18d05572475f5e1d5ff31"}, "docker": "quay.io/biocontainers/r-momr", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-momr.

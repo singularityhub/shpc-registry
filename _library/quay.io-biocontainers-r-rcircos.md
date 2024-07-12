@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rcircos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rcircos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rcircos/container.yaml"
-updated_at: "2024-07-11 03:44:09.734780"
+updated_at: "2024-07-12 03:23:38.597579"
 latest: "1.2.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-rcircos"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.2.0--r3.3.1_0"
  - "1.2.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-rcircos"
-config: {"url": "https://biocontainers.pro/tools/r-rcircos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rcircos", "latest": {"1.2.0--r3.3.1_0": "sha256:cbd51b9b0cfd22d38f52036d1db573102cc36ed47800334dc3f413d431af0911"}, "tags": {"1.2.0--r3.3.1_0": "sha256:cbd51b9b0cfd22d38f52036d1db573102cc36ed47800334dc3f413d431af0911", "1.2.0--r3.4.1_0": "sha256:0ca15eed4f37ec2e2afd0bc96e51036b5bd823a1cb7f43ccba96399dc21ef8b5"}, "docker": "quay.io/biocontainers/r-rcircos", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rcircos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rcircos", "latest": {"1.2.0--r3.3.1_0": "sha256:ab844dc4d765d2dbd6b0ba9ca11af06e04b97f6c36713f55be11dc0d651e1b1a"}, "tags": {"1.2.0--r3.3.1_0": "sha256:ab844dc4d765d2dbd6b0ba9ca11af06e04b97f6c36713f55be11dc0d651e1b1a", "1.2.0--r3.4.1_0": "sha256:9a02218a04f875d245e2a0f63bc30bfb4eb7a100749af992f97a3fd009bb24c5"}, "docker": "quay.io/biocontainers/r-rcircos", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rcircos.

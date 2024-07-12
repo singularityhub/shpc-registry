@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-qqman"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-qqman/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-qqman/container.yaml"
-updated_at: "2024-07-11 03:43:37.470239"
+updated_at: "2024-07-12 03:23:06.480725"
 latest: "0.1.4--r36h6115d3f_4"
 container_url: "https://biocontainers.pro/tools/r-qqman"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "0.1.4--r36h6115d3f_4"
 description: "shpc-registry automated BioContainers addition for r-qqman"
-config: {"url": "https://biocontainers.pro/tools/r-qqman", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-qqman", "latest": {"0.1.4--r36h6115d3f_4": "sha256:fee1e9c3afeceea8cdc44d94d4f1296be75da6f8c5b87e268887dae9529ba9b6"}, "tags": {"0.1.4--r36h6115d3f_4": "sha256:fee1e9c3afeceea8cdc44d94d4f1296be75da6f8c5b87e268887dae9529ba9b6"}, "docker": "quay.io/biocontainers/r-qqman", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-qqman", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-qqman", "latest": {"0.1.4--r36h6115d3f_4": "sha256:9f7e859710aa0db48c201d438938cc49d0a6143ba68098cde4fa5163de33959b"}, "tags": {"0.1.4--r36h6115d3f_4": "sha256:9f7e859710aa0db48c201d438938cc49d0a6143ba68098cde4fa5163de33959b"}, "docker": "quay.io/biocontainers/r-qqman", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-qqman.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/breakseq2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/breakseq2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/breakseq2/container.yaml"
-updated_at: "2024-07-11 03:11:01.838253"
+updated_at: "2024-07-12 02:49:24.815937"
 latest: "2.2--py27_2"
 container_url: "https://biocontainers.pro/tools/breakseq2"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "2.2--py27_2"
 description: "shpc-registry automated BioContainers addition for breakseq2"
-config: {"url": "https://biocontainers.pro/tools/breakseq2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for breakseq2", "latest": {"2.2--py27_2": "sha256:9999ff086fcf05f5c484ce6fa635ed02e5918da6fbb0e60f606aaaf05c1f7fb5"}, "tags": {"2.2--py27_2": "sha256:9999ff086fcf05f5c484ce6fa635ed02e5918da6fbb0e60f606aaaf05c1f7fb5"}, "docker": "quay.io/biocontainers/breakseq2", "aliases": {"breakseq2_gen_bplib.py": "/usr/local/bin/breakseq2_gen_bplib.py", "run_breakseq2.py": "/usr/local/bin/run_breakseq2.py", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
+config: {"url": "https://biocontainers.pro/tools/breakseq2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for breakseq2", "latest": {"2.2--py27_2": "sha256:2a01bd49def6919a81f34d00e0b359373a5d11c378776773b20cc967e52b29a8"}, "tags": {"2.2--py27_2": "sha256:2a01bd49def6919a81f34d00e0b359373a5d11c378776773b20cc967e52b29a8"}, "docker": "quay.io/biocontainers/breakseq2", "aliases": {"breakseq2_gen_bplib.py": "/usr/local/bin/breakseq2_gen_bplib.py", "run_breakseq2.py": "/usr/local/bin/run_breakseq2.py", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/breakseq2.

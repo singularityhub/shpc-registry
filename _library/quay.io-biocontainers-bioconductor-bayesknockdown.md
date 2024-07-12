@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bayesknockdown"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bayesknockdown/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bayesknockdown/container.yaml"
-updated_at: "2024-07-11 03:17:57.271835"
+updated_at: "2024-07-12 02:56:39.680228"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bayesknockdown"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bayesknockdown"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bayesknockdown", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bayesknockdown", "latest": {"1.28.0--r43hdfd78af_0": "sha256:c62b584f28fbc450525ccd13f3d77213d6c8bcd3153826fcdda0f01aedcb52d0"}, "tags": {"1.8.0--r351_0": "sha256:1264e30117124866ac45bbf6c71e1423b03c80be5103a38ee4a5f5bbc0018a0f", "1.24.0--r42hdfd78af_0": "sha256:a7a263fd970fa05bdd2bb8e816c9887a60ee8dd05e69c2c2731e2f88c5c09594", "1.20.0--r41hdfd78af_0": "sha256:65b079f28689dc0908108120a5e469fd10ce5793df3b7b7b6b92e6e15d86b1b4", "1.18.0--r41hdfd78af_0": "sha256:1c4f857fe4255a75ddfbf28366db154436d3890c36a6661bdab137048974e679", "1.16.0--r40hdfd78af_1": "sha256:83749b8d89359b704dd06d6b0ad0cb0b5c6b1add6b1e892619bf62a20a43b448", "1.14.0--r40_0": "sha256:06232ee75e4e345c3d2ee79f135d8bfd1cba85a3fc6e193e2e6bb0f248f4f824", "1.26.0--r43hdfd78af_0": "sha256:f540c86cc98b563f82c978e46735f9fc59ffc7bfff46e09e0b9b5908c4d6b12f", "1.28.0--r43hdfd78af_0": "sha256:c62b584f28fbc450525ccd13f3d77213d6c8bcd3153826fcdda0f01aedcb52d0"}, "docker": "quay.io/biocontainers/bioconductor-bayesknockdown", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bayesknockdown", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bayesknockdown", "latest": {"1.28.0--r43hdfd78af_0": "sha256:c62b584f28fbc450525ccd13f3d77213d6c8bcd3153826fcdda0f01aedcb52d0"}, "tags": {"1.8.0--r351_0": "sha256:5f4a55061ccf1fc43f93dbc34bbf886dd9d4fd6cef7e35159e4fb32cf9c993ab", "1.24.0--r42hdfd78af_0": "sha256:a7a263fd970fa05bdd2bb8e816c9887a60ee8dd05e69c2c2731e2f88c5c09594", "1.20.0--r41hdfd78af_0": "sha256:65b079f28689dc0908108120a5e469fd10ce5793df3b7b7b6b92e6e15d86b1b4", "1.18.0--r41hdfd78af_0": "sha256:1c4f857fe4255a75ddfbf28366db154436d3890c36a6661bdab137048974e679", "1.16.0--r40hdfd78af_1": "sha256:83749b8d89359b704dd06d6b0ad0cb0b5c6b1add6b1e892619bf62a20a43b448", "1.14.0--r40_0": "sha256:06232ee75e4e345c3d2ee79f135d8bfd1cba85a3fc6e193e2e6bb0f248f4f824", "1.26.0--r43hdfd78af_0": "sha256:f540c86cc98b563f82c978e46735f9fc59ffc7bfff46e09e0b9b5908c4d6b12f", "1.28.0--r43hdfd78af_0": "sha256:c62b584f28fbc450525ccd13f3d77213d6c8bcd3153826fcdda0f01aedcb52d0"}, "docker": "quay.io/biocontainers/bioconductor-bayesknockdown", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bayesknockdown.

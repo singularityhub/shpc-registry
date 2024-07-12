@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sprinkles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sprinkles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sprinkles/container.yaml"
-updated_at: "2024-07-11 03:24:30.696877"
+updated_at: "2024-07-12 03:03:33.667694"
 latest: "0.4.6--py35_1"
 container_url: "https://biocontainers.pro/tools/sprinkles"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "0.4.6--py35_1"
  - "0.4.6--py36_1"
 description: "shpc-registry automated BioContainers addition for sprinkles"
-config: {"url": "https://biocontainers.pro/tools/sprinkles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sprinkles", "latest": {"0.4.6--py35_1": "sha256:1810bd7e70f679ae9c225e8590e4ac5c86296dab93dc83a90704acbc67c6a159"}, "tags": {"0.4.6--py35_1": "sha256:1810bd7e70f679ae9c225e8590e4ac5c86296dab93dc83a90704acbc67c6a159", "0.4.6--py36_1": "sha256:98548249aecd4a7169f482619df69afcdeaded9564e69fb0892ec6123767ee46"}, "docker": "quay.io/biocontainers/sprinkles", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/sprinkles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sprinkles", "latest": {"0.4.6--py35_1": "sha256:aa9b9f417bb7804ae81bea8175186b3a371acea5b7fe344a562a184f8878cd16"}, "tags": {"0.4.6--py35_1": "sha256:aa9b9f417bb7804ae81bea8175186b3a371acea5b7fe344a562a184f8878cd16", "0.4.6--py36_1": "sha256:bc7089ecf6c1bf34c7f5ac2e82fdd484f3f14808be8c889231745204705b6494"}, "docker": "quay.io/biocontainers/sprinkles", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sprinkles.

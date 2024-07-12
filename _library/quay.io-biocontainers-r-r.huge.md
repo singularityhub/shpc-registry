@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-r.huge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-r.huge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-r.huge/container.yaml"
-updated_at: "2024-07-11 03:11:04.407980"
+updated_at: "2024-07-12 02:49:27.538584"
 latest: "0.9.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-r.huge"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "0.9.0--r3.3.1_0"
  - "0.9.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-r.huge"
-config: {"url": "https://biocontainers.pro/tools/r-r.huge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-r.huge", "latest": {"0.9.0--r3.3.1_0": "sha256:4589057690276c65d210d3372a21474928e861cc7e1870e346733433682ff4fc"}, "tags": {"0.9.0--r3.3.1_0": "sha256:4589057690276c65d210d3372a21474928e861cc7e1870e346733433682ff4fc", "0.9.0--r3.3.2_0": "sha256:7720fccda1da4f71a397fd71adaa7a70fae3e64bfb2944815a5f715c7f5e075d"}, "docker": "quay.io/biocontainers/r-r.huge", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-r.huge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-r.huge", "latest": {"0.9.0--r3.3.1_0": "sha256:2956c4f44e502a3109884a87ce1e3fd9ae1ba7f12976bf443a25b72f18536bf9"}, "tags": {"0.9.0--r3.3.1_0": "sha256:2956c4f44e502a3109884a87ce1e3fd9ae1ba7f12976bf443a25b72f18536bf9", "0.9.0--r3.3.2_0": "sha256:bdf91307112f37e9b190f56ba325010a4dbf113c2430e056ec6423bd09a70a1a"}, "docker": "quay.io/biocontainers/r-r.huge", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-r.huge.

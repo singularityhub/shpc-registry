@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rvtests"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rvtests/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rvtests/container.yaml"
-updated_at: "2024-07-11 03:07:05.798214"
+updated_at: "2024-07-12 02:45:14.733443"
 latest: "2.0.7--h3d151dd_2"
 container_url: "https://biocontainers.pro/tools/rvtests"
 aliases:
@@ -32,7 +32,7 @@ aliases:
 versions:
  - "2.0.7--h3d151dd_2"
 description: "shpc-registry automated BioContainers addition for rvtests"
-config: {"url": "https://biocontainers.pro/tools/rvtests", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rvtests", "latest": {"2.0.7--h3d151dd_2": "sha256:1ec0c28520172dee852ce6c1c7c1fd18d6a09af580499af97f868f71b757e3bf"}, "tags": {"2.0.7--h3d151dd_2": "sha256:1ec0c28520172dee852ce6c1c7c1fd18d6a09af580499af97f868f71b757e3bf"}, "docker": "quay.io/biocontainers/rvtests", "aliases": {"bgen2vcf": "/usr/local/bin/bgen2vcf", "bgenFileInfo": "/usr/local/bin/bgenFileInfo", "combineKinship": "/usr/local/bin/combineKinship", "kinshipDecompose": "/usr/local/bin/kinshipDecompose", "plink2vcf": "/usr/local/bin/plink2vcf", "rvtest": "/usr/local/bin/rvtest", "vcf2geno": "/usr/local/bin/vcf2geno", "vcf2kinship": "/usr/local/bin/vcf2kinship", "vcf2ld_gene": "/usr/local/bin/vcf2ld_gene", "vcf2ld_neighbor": "/usr/local/bin/vcf2ld_neighbor", "vcf2ld_window": "/usr/local/bin/vcf2ld_window", "vcf2plink": "/usr/local/bin/vcf2plink", "vcfAnnoSummaryLite": "/usr/local/bin/vcfAnnoSummaryLite", "vcfConcordance": "/usr/local/bin/vcfConcordance", "vcfExtractSite": "/usr/local/bin/vcfExtractSite", "vcfIndvSummary": "/usr/local/bin/vcfIndvSummary", "vcfPair": "/usr/local/bin/vcfPair", "vcfPeek": "/usr/local/bin/vcfPeek", "vcfSummary": "/usr/local/bin/vcfSummary", "vcfSummaryLite": "/usr/local/bin/vcfSummaryLite", "vcfVariantSummaryLite": "/usr/local/bin/vcfVariantSummaryLite"}}
+config: {"url": "https://biocontainers.pro/tools/rvtests", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rvtests", "latest": {"2.0.7--h3d151dd_2": "sha256:b32d40e720b0ab3c01bdb9823a21556eac6458fa0e0839c4ece73c603e1a3cc9"}, "tags": {"2.0.7--h3d151dd_2": "sha256:b32d40e720b0ab3c01bdb9823a21556eac6458fa0e0839c4ece73c603e1a3cc9"}, "docker": "quay.io/biocontainers/rvtests", "aliases": {"bgen2vcf": "/usr/local/bin/bgen2vcf", "bgenFileInfo": "/usr/local/bin/bgenFileInfo", "combineKinship": "/usr/local/bin/combineKinship", "kinshipDecompose": "/usr/local/bin/kinshipDecompose", "plink2vcf": "/usr/local/bin/plink2vcf", "rvtest": "/usr/local/bin/rvtest", "vcf2geno": "/usr/local/bin/vcf2geno", "vcf2kinship": "/usr/local/bin/vcf2kinship", "vcf2ld_gene": "/usr/local/bin/vcf2ld_gene", "vcf2ld_neighbor": "/usr/local/bin/vcf2ld_neighbor", "vcf2ld_window": "/usr/local/bin/vcf2ld_window", "vcf2plink": "/usr/local/bin/vcf2plink", "vcfAnnoSummaryLite": "/usr/local/bin/vcfAnnoSummaryLite", "vcfConcordance": "/usr/local/bin/vcfConcordance", "vcfExtractSite": "/usr/local/bin/vcfExtractSite", "vcfIndvSummary": "/usr/local/bin/vcfIndvSummary", "vcfPair": "/usr/local/bin/vcfPair", "vcfPeek": "/usr/local/bin/vcfPeek", "vcfSummary": "/usr/local/bin/vcfSummary", "vcfSummaryLite": "/usr/local/bin/vcfSummaryLite", "vcfVariantSummaryLite": "/usr/local/bin/vcfVariantSummaryLite"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rvtests.

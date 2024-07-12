@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/r-corbi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-corbi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-corbi/container.yaml"
-updated_at: "2024-07-11 03:36:29.195520"
+updated_at: "2024-07-12 03:15:56.752429"
 latest: "0.4_2--r351he0ffe0d_0"
 container_url: "https://biocontainers.pro/tools/r-corbi"
 
 versions:
  - "0.4_2--r351he0ffe0d_0"
 description: "shpc-registry automated BioContainers addition for r-corbi"
-config: {"url": "https://biocontainers.pro/tools/r-corbi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-corbi", "latest": {"0.4_2--r351he0ffe0d_0": "sha256:e84e524aefa3879c63f44072ee18856066382201fd92772ab0b0258aaf6945c3"}, "tags": {"0.4_2--r351he0ffe0d_0": "sha256:e84e524aefa3879c63f44072ee18856066382201fd92772ab0b0258aaf6945c3"}, "docker": "quay.io/biocontainers/r-corbi"}
+config: {"url": "https://biocontainers.pro/tools/r-corbi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-corbi", "latest": {"0.4_2--r351he0ffe0d_0": "sha256:4b272f96f40deace9c2d49a73362ab62b8aa1063667d9f29399aa40d155da427"}, "tags": {"0.4_2--r351he0ffe0d_0": "sha256:4b272f96f40deace9c2d49a73362ab62b8aa1063667d9f29399aa40d155da427"}, "docker": "quay.io/biocontainers/r-corbi"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-corbi.

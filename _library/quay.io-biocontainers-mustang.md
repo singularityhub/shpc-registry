@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mustang"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mustang/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mustang/container.yaml"
-updated_at: "2024-07-11 03:36:09.739962"
+updated_at: "2024-07-12 03:15:36.780313"
 latest: "3.2.3--h2d50403_1"
 container_url: "https://biocontainers.pro/tools/mustang"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "3.2.3--h2d50403_1"
 description: "shpc-registry automated BioContainers addition for mustang"
-config: {"url": "https://biocontainers.pro/tools/mustang", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mustang", "latest": {"3.2.3--h2d50403_1": "sha256:3af4616105496cfb71fb8bc740914f2e73ccd937180c6a8946d9d906f63f587d"}, "tags": {"3.2.3--h2d50403_1": "sha256:3af4616105496cfb71fb8bc740914f2e73ccd937180c6a8946d9d906f63f587d"}, "docker": "quay.io/biocontainers/mustang", "aliases": {"mustang": "/usr/local/bin/mustang"}}
+config: {"url": "https://biocontainers.pro/tools/mustang", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mustang", "latest": {"3.2.3--h2d50403_1": "sha256:4fbba2819080b1a13ec836b413b6241b1c06fdca792d98b2d9b4ea499ce74455"}, "tags": {"3.2.3--h2d50403_1": "sha256:4fbba2819080b1a13ec836b413b6241b1c06fdca792d98b2d9b4ea499ce74455"}, "docker": "quay.io/biocontainers/mustang", "aliases": {"mustang": "/usr/local/bin/mustang"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mustang.

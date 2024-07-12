@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tracknado"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tracknado/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tracknado/container.yaml"
-updated_at: "2024-07-11 03:21:19.210596"
+updated_at: "2024-07-12 03:00:10.874703"
 latest: "0.2.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tracknado"
 aliases:

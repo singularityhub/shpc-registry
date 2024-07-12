@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/happer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/happer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/happer/container.yaml"
-updated_at: "2024-07-11 03:25:14.729000"
+updated_at: "2024-07-12 03:04:18.692900"
 latest: "0.1.1--py_0"
 container_url: "https://biocontainers.pro/tools/happer"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.1.1--py_0"
 description: "shpc-registry automated BioContainers addition for happer"
-config: {"url": "https://biocontainers.pro/tools/happer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for happer", "latest": {"0.1.1--py_0": "sha256:7f0a590458648d94057ab24d7e1765e5f7982a5fa486488c777a417ebf735faf"}, "tags": {"0.1.1--py_0": "sha256:7f0a590458648d94057ab24d7e1765e5f7982a5fa486488c777a417ebf735faf"}, "docker": "quay.io/biocontainers/happer", "aliases": {"happer": "/usr/local/bin/happer", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/happer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for happer", "latest": {"0.1.1--py_0": "sha256:d2214be3e50ace02e50dfc76b6d7b61339b7c027ae1d4ec5dcd93059b632df12"}, "tags": {"0.1.1--py_0": "sha256:d2214be3e50ace02e50dfc76b6d7b61339b7c027ae1d4ec5dcd93059b632df12"}, "docker": "quay.io/biocontainers/happer", "aliases": {"happer": "/usr/local/bin/happer", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/happer.

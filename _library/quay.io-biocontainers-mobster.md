@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mobster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mobster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mobster/container.yaml"
-updated_at: "2024-07-11 03:31:06.707756"
+updated_at: "2024-07-12 03:10:27.664110"
 latest: "0.2.4.1--1"
 container_url: "https://biocontainers.pro/tools/mobster"
 aliases:

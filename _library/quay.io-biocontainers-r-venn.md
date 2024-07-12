@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-venn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-venn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-venn/container.yaml"
-updated_at: "2024-07-11 03:44:38.199429"
+updated_at: "2024-07-12 03:24:07.134399"
 latest: "1.2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-venn"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.2--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-venn"
-config: {"url": "https://biocontainers.pro/tools/r-venn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-venn", "latest": {"1.2--r3.3.2_0": "sha256:5a842003fb8447ec1a7b552178a225c9df202c16da64bf05de0ebb0aca4692ac"}, "tags": {"1.2--r3.3.2_0": "sha256:5a842003fb8447ec1a7b552178a225c9df202c16da64bf05de0ebb0aca4692ac"}, "docker": "quay.io/biocontainers/r-venn", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-venn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-venn", "latest": {"1.2--r3.3.2_0": "sha256:59b4a87c9c6576f78e1b5af4bbe2a87ece6e0935eb0dc8348976622608e3eae9"}, "tags": {"1.2--r3.3.2_0": "sha256:59b4a87c9c6576f78e1b5af4bbe2a87ece6e0935eb0dc8348976622608e3eae9"}, "docker": "quay.io/biocontainers/r-venn", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-venn.

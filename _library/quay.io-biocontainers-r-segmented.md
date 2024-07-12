@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-segmented"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-segmented/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-segmented/container.yaml"
-updated_at: "2024-07-11 03:29:30.680142"
+updated_at: "2024-07-12 03:08:47.418686"
 latest: "0.5_1.4--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-segmented"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "0.5_1.4--r3.3.1_0"
  - "0.5_1.4--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-segmented"
-config: {"url": "https://biocontainers.pro/tools/r-segmented", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-segmented", "latest": {"0.5_1.4--r3.3.1_0": "sha256:6c2fd5688371a87050fac2cc710e099df6a6efd0b71209e4e97582a85533b15b"}, "tags": {"0.5_1.4--r3.3.1_0": "sha256:6c2fd5688371a87050fac2cc710e099df6a6efd0b71209e4e97582a85533b15b", "0.5_1.4--r3.3.2_0": "sha256:0ae3ea24463a58dfdb25c5aac400195286af38cb470b65d42cce33a710d75b25"}, "docker": "quay.io/biocontainers/r-segmented", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-segmented", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-segmented", "latest": {"0.5_1.4--r3.3.1_0": "sha256:25786630b6b9301be5d95501eef5dd4048d4e6a06b97194bb435b8315974a27f"}, "tags": {"0.5_1.4--r3.3.1_0": "sha256:25786630b6b9301be5d95501eef5dd4048d4e6a06b97194bb435b8315974a27f", "0.5_1.4--r3.3.2_0": "sha256:d3bfeaf1622021174ec570ff36b2f4303747cdc9361a9aa78c0364246879efa6"}, "docker": "quay.io/biocontainers/r-segmented", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-segmented.

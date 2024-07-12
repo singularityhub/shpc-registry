@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mageck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mageck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mageck/container.yaml"
-updated_at: "2024-07-11 03:42:59.460607"
+updated_at: "2024-07-12 03:22:28.777182"
 latest: "0.5.9.5--py311h2a4ad6c_5"
 container_url: "https://biocontainers.pro/tools/mageck"
 
@@ -14,7 +14,7 @@ versions:
  - "0.5.9.5--py38h2494328_4"
  - "0.5.9.5--py311h2a4ad6c_5"
 description: "shpc-registry automated BioContainers addition for mageck"
-config: {"url": "https://biocontainers.pro/tools/mageck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mageck", "latest": {"0.5.9.5--py311h2a4ad6c_5": "sha256:d04109a6ea7ef95157d36fc311c7a455d4254514295c133b173f1fe46abc1a6b"}, "tags": {"0.5.9--py27h6bb024c_0": "sha256:1c0057e80ebaa7f2185d8bc643201967df4fab848905b550803ede5b7a0888e8", "0.5.9.5--py39h1f90b4d_3": "sha256:46311eda123fa8c2f4cac44921407a11962f7c65d73028f0babd89b709b4dcb9", "0.5.9.5--py38h2494328_4": "sha256:c0a0dc2f99da12af4c9dee2b3dd56918efab6240549b7f5b10c08ec5635f86b3", "0.5.9.5--py311h2a4ad6c_5": "sha256:d04109a6ea7ef95157d36fc311c7a455d4254514295c133b173f1fe46abc1a6b"}, "docker": "quay.io/biocontainers/mageck"}
+config: {"url": "https://biocontainers.pro/tools/mageck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mageck", "latest": {"0.5.9.5--py311h2a4ad6c_5": "sha256:d04109a6ea7ef95157d36fc311c7a455d4254514295c133b173f1fe46abc1a6b"}, "tags": {"0.5.9--py27h6bb024c_0": "sha256:a48b9632470df5d854c43fb986f95df8e1b3749265a6f4de81dcd06db9bb3537", "0.5.9.5--py39h1f90b4d_3": "sha256:46311eda123fa8c2f4cac44921407a11962f7c65d73028f0babd89b709b4dcb9", "0.5.9.5--py38h2494328_4": "sha256:c0a0dc2f99da12af4c9dee2b3dd56918efab6240549b7f5b10c08ec5635f86b3", "0.5.9.5--py311h2a4ad6c_5": "sha256:d04109a6ea7ef95157d36fc311c7a455d4254514295c133b173f1fe46abc1a6b"}, "docker": "quay.io/biocontainers/mageck"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mageck.

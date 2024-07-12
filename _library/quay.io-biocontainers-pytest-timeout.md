@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytest-timeout"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytest-timeout/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytest-timeout/container.yaml"
-updated_at: "2024-07-11 03:40:35.263522"
+updated_at: "2024-07-12 03:20:04.668643"
 latest: "1.0.0--py35_0"
 container_url: "https://biocontainers.pro/tools/pytest-timeout"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "1.0.0--py35_0"
  - "1.0.0--py36_0"
 description: "shpc-registry automated BioContainers addition for pytest-timeout"
-config: {"url": "https://biocontainers.pro/tools/pytest-timeout", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytest-timeout", "latest": {"1.0.0--py35_0": "sha256:65867035aeb99a070839cf65ca519374b3dd19f33660671dce592b9a9c833e71"}, "tags": {"1.0.0--py35_0": "sha256:65867035aeb99a070839cf65ca519374b3dd19f33660671dce592b9a9c833e71", "1.0.0--py36_0": "sha256:f34b9229543e411855a9c8796dc8d8090b1ad83ac37ad8427378cef5b5b4d77c"}, "docker": "quay.io/biocontainers/pytest-timeout", "aliases": {"py.test-3.5": "/usr/local/bin/py.test-3.5", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config"}}
+config: {"url": "https://biocontainers.pro/tools/pytest-timeout", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytest-timeout", "latest": {"1.0.0--py35_0": "sha256:8770c0c675af87a0550806897c939c25164adc53772c598e626e77273f45d30d"}, "tags": {"1.0.0--py35_0": "sha256:8770c0c675af87a0550806897c939c25164adc53772c598e626e77273f45d30d", "1.0.0--py36_0": "sha256:015a5388045635d29b6a4f5dd7f124e226043811a2d75c582cf4dbf98bb4a9a0"}, "docker": "quay.io/biocontainers/pytest-timeout", "aliases": {"py.test-3.5": "/usr/local/bin/py.test-3.5", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytest-timeout.

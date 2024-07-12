@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tesseract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tesseract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tesseract/container.yaml"
-updated_at: "2024-07-11 03:37:09.507044"
+updated_at: "2024-07-12 03:16:38.205112"
 latest: "3.04.01--1"
 container_url: "https://biocontainers.pro/tools/tesseract"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "3.04.01--1"
 description: "shpc-registry automated BioContainers addition for tesseract"
-config: {"url": "https://biocontainers.pro/tools/tesseract", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tesseract", "latest": {"3.04.01--1": "sha256:8d66e16006825133fa6fdedf0a907f897d38e4749eec3572f30d2c3dda448ef6"}, "tags": {"3.04.01--1": "sha256:8d66e16006825133fa6fdedf0a907f897d38e4749eec3572f30d2c3dda448ef6"}, "docker": "quay.io/biocontainers/tesseract", "aliases": {"convertfilestopdf": "/usr/local/bin/convertfilestopdf", "convertfilestops": "/usr/local/bin/convertfilestops", "convertformat": "/usr/local/bin/convertformat", "convertsegfilestopdf": "/usr/local/bin/convertsegfilestopdf", "convertsegfilestops": "/usr/local/bin/convertsegfilestops", "converttopdf": "/usr/local/bin/converttopdf", "converttops": "/usr/local/bin/converttops", "fileinfo": "/usr/local/bin/fileinfo", "printimage": "/usr/local/bin/printimage", "printsplitimage": "/usr/local/bin/printsplitimage", "printtiff": "/usr/local/bin/printtiff", "splitimage2pdf": "/usr/local/bin/splitimage2pdf", "tesseract": "/usr/local/bin/tesseract", "xtractprotos": "/usr/local/bin/xtractprotos"}}
+config: {"url": "https://biocontainers.pro/tools/tesseract", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tesseract", "latest": {"3.04.01--1": "sha256:a81b46ff2fb50a8986f90fa36bb7661f059be1cefa18788e0f4be5cfa78bcb2a"}, "tags": {"3.04.01--1": "sha256:a81b46ff2fb50a8986f90fa36bb7661f059be1cefa18788e0f4be5cfa78bcb2a"}, "docker": "quay.io/biocontainers/tesseract", "aliases": {"convertfilestopdf": "/usr/local/bin/convertfilestopdf", "convertfilestops": "/usr/local/bin/convertfilestops", "convertformat": "/usr/local/bin/convertformat", "convertsegfilestopdf": "/usr/local/bin/convertsegfilestopdf", "convertsegfilestops": "/usr/local/bin/convertsegfilestops", "converttopdf": "/usr/local/bin/converttopdf", "converttops": "/usr/local/bin/converttops", "fileinfo": "/usr/local/bin/fileinfo", "printimage": "/usr/local/bin/printimage", "printsplitimage": "/usr/local/bin/printsplitimage", "printtiff": "/usr/local/bin/printtiff", "splitimage2pdf": "/usr/local/bin/splitimage2pdf", "tesseract": "/usr/local/bin/tesseract", "xtractprotos": "/usr/local/bin/xtractprotos"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tesseract.

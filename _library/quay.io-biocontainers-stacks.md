@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stacks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stacks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stacks/container.yaml"
-updated_at: "2024-07-11 02:59:46.773430"
+updated_at: "2024-07-12 02:37:25.689102"
 latest: "2.65--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/stacks"
 aliases:

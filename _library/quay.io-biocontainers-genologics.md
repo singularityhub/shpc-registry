@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genologics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genologics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genologics/container.yaml"
-updated_at: "2024-07-11 03:26:15.193249"
+updated_at: "2024-07-12 03:05:22.343543"
 latest: "0.4.1--py_0"
 container_url: "https://biocontainers.pro/tools/genologics"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.4.1--py_0"
 description: "shpc-registry automated BioContainers addition for genologics"
-config: {"url": "https://biocontainers.pro/tools/genologics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genologics", "latest": {"0.4.1--py_0": "sha256:6142bf204ad0bacb9194f3b3457c5e63fc4250a915f1468b90c2fcf2b265f995"}, "tags": {"0.4.1--py_0": "sha256:6142bf204ad0bacb9194f3b3457c5e63fc4250a915f1468b90c2fcf2b265f995"}, "docker": "quay.io/biocontainers/genologics", "aliases": {"chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/genologics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genologics", "latest": {"0.4.1--py_0": "sha256:a65c9e5751c84df9935699294bff65816764f388d42d8040e394918256c4d00f"}, "tags": {"0.4.1--py_0": "sha256:a65c9e5751c84df9935699294bff65816764f388d42d8040e394918256c4d00f"}, "docker": "quay.io/biocontainers/genologics", "aliases": {"chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genologics.

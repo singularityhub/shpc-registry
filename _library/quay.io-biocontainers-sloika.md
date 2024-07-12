@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sloika"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sloika/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sloika/container.yaml"
-updated_at: "2024-07-11 03:25:34.383580"
+updated_at: "2024-07-12 03:04:39.452466"
 latest: "2.0.1--np112_0"
 container_url: "https://biocontainers.pro/tools/sloika"
 aliases:
@@ -29,7 +29,7 @@ aliases:
 versions:
  - "2.0.1--np112_0"
 description: "shpc-registry automated BioContainers addition for sloika"
-config: {"url": "https://biocontainers.pro/tools/sloika", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sloika", "latest": {"2.0.1--np112_0": "sha256:d1a30f58f3e61c1e10eb4262102f01b18cd4db83e1953b148bbd9241d7188545"}, "tags": {"2.0.1--np112_0": "sha256:d1a30f58f3e61c1e10eb4262102f01b18cd4db83e1953b148bbd9241d7188545"}, "docker": "quay.io/biocontainers/sloika", "aliases": {"basecall_network.py": "/usr/local/bin/basecall_network.py", "chunkify.py": "/usr/local/bin/chunkify.py", "dump_json.py": "/usr/local/bin/dump_json.py", "extract_reference.py": "/usr/local/bin/extract_reference.py", "theano-test": "/usr/local/bin/theano-test", "train_network.py": "/usr/local/bin/train_network.py", "validate_network.py": "/usr/local/bin/validate_network.py", "verify_network.py": "/usr/local/bin/verify_network.py", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py"}}
+config: {"url": "https://biocontainers.pro/tools/sloika", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sloika", "latest": {"2.0.1--np112_0": "sha256:2dbf4edaf53453616f363122138c948fae45b3ac471df21355bbcef39a90d037"}, "tags": {"2.0.1--np112_0": "sha256:2dbf4edaf53453616f363122138c948fae45b3ac471df21355bbcef39a90d037"}, "docker": "quay.io/biocontainers/sloika", "aliases": {"basecall_network.py": "/usr/local/bin/basecall_network.py", "chunkify.py": "/usr/local/bin/chunkify.py", "dump_json.py": "/usr/local/bin/dump_json.py", "extract_reference.py": "/usr/local/bin/extract_reference.py", "theano-test": "/usr/local/bin/theano-test", "train_network.py": "/usr/local/bin/train_network.py", "validate_network.py": "/usr/local/bin/validate_network.py", "verify_network.py": "/usr/local/bin/verify_network.py", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sloika.

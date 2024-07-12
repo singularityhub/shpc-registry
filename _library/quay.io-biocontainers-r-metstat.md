@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-metstat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metstat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metstat/container.yaml"
-updated_at: "2024-07-11 02:58:22.747216"
+updated_at: "2024-07-12 02:36:01.616049"
 latest: "1.0--r351h6115d3f_2"
 container_url: "https://biocontainers.pro/tools/r-metstat"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.0--r351h6115d3f_2"
 description: "shpc-registry automated BioContainers addition for r-metstat"
-config: {"url": "https://biocontainers.pro/tools/r-metstat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metstat", "latest": {"1.0--r351h6115d3f_2": "sha256:46ffaac64b671c3c9d631397e5bd4aec1754dcaf72e9c5fdf18305e43ff20b04"}, "tags": {"1.0--r351h6115d3f_2": "sha256:46ffaac64b671c3c9d631397e5bd4aec1754dcaf72e9c5fdf18305e43ff20b04"}, "docker": "quay.io/biocontainers/r-metstat", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-metstat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metstat", "latest": {"1.0--r351h6115d3f_2": "sha256:088a65ff32f7823081a314b16c6143685b888f9533be0bc8cb61911c53b3c35c"}, "tags": {"1.0--r351h6115d3f_2": "sha256:088a65ff32f7823081a314b16c6143685b888f9533be0bc8cb61911c53b3c35c"}, "docker": "quay.io/biocontainers/r-metstat", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-metstat.

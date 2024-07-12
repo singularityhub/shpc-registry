@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-maldirppa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-maldirppa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-maldirppa/container.yaml"
-updated_at: "2024-07-11 03:12:34.078776"
+updated_at: "2024-07-12 02:51:02.202049"
 latest: "1.0.1--r351h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-maldirppa"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.0.1--r351h6115d3f_3"
 description: "shpc-registry automated BioContainers addition for r-maldirppa"
-config: {"url": "https://biocontainers.pro/tools/r-maldirppa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-maldirppa", "latest": {"1.0.1--r351h6115d3f_3": "sha256:8ef13ec53d940f574cb488a3074c4dce083bb51e7350db02697d42172f0d9226"}, "tags": {"1.0.1--r351h6115d3f_3": "sha256:8ef13ec53d940f574cb488a3074c4dce083bb51e7350db02697d42172f0d9226"}, "docker": "quay.io/biocontainers/r-maldirppa", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-maldirppa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-maldirppa", "latest": {"1.0.1--r351h6115d3f_3": "sha256:6811c69ecd793da23ba2d2f1ba2b8bdf0d9a27eda7e4db1119c34be524ccde9a"}, "tags": {"1.0.1--r351h6115d3f_3": "sha256:6811c69ecd793da23ba2d2f1ba2b8bdf0d9a27eda7e4db1119c34be524ccde9a"}, "docker": "quay.io/biocontainers/r-maldirppa", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-maldirppa.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwameth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwameth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwameth/container.yaml"
-updated_at: "2024-07-11 03:27:57.939293"
+updated_at: "2024-07-12 03:07:10.438666"
 latest: "0.20--py35_0"
 container_url: "https://biocontainers.pro/tools/bwameth"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.20--py35_0"
 description: "shpc-registry automated BioContainers addition for bwameth"
-config: {"url": "https://biocontainers.pro/tools/bwameth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwameth", "latest": {"0.20--py35_0": "sha256:40c49bc433c6fc78211d27b1f7d2a977a87532a3654ca6dcccb2c52157ad9225"}, "tags": {"0.20--py35_0": "sha256:40c49bc433c6fc78211d27b1f7d2a977a87532a3654ca6dcccb2c52157ad9225"}, "docker": "quay.io/biocontainers/bwameth", "aliases": {"bwameth.py": "/usr/local/bin/bwameth.py", "toolshed": "/usr/local/bin/toolshed", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "bwa": "/usr/local/bin/bwa"}}
+config: {"url": "https://biocontainers.pro/tools/bwameth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwameth", "latest": {"0.20--py35_0": "sha256:7a33d0613c8aa2b78e472d7ceae01b980b2b6f2ce632cc2c423ee88bf040fe92"}, "tags": {"0.20--py35_0": "sha256:7a33d0613c8aa2b78e472d7ceae01b980b2b6f2ce632cc2c423ee88bf040fe92"}, "docker": "quay.io/biocontainers/bwameth", "aliases": {"bwameth.py": "/usr/local/bin/bwameth.py", "toolshed": "/usr/local/bin/toolshed", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "bwa": "/usr/local/bin/bwa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwameth.

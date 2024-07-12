@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/bioconductor-ampliqueso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ampliqueso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ampliqueso/container.yaml"
-updated_at: "2024-07-11 03:22:34.705307"
+updated_at: "2024-07-12 03:01:31.373211"
 latest: "1.20.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ampliqueso"
 
 versions:
  - "1.20.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ampliqueso"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ampliqueso", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ampliqueso", "latest": {"1.20.0--r351_0": "sha256:6eb52a2fd64cead8499e889eb830be790be55bea0912d00f19eb682ad15f9228"}, "tags": {"1.20.0--r351_0": "sha256:6eb52a2fd64cead8499e889eb830be790be55bea0912d00f19eb682ad15f9228"}, "docker": "quay.io/biocontainers/bioconductor-ampliqueso"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ampliqueso", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ampliqueso", "latest": {"1.20.0--r351_0": "sha256:69e69cbd220a8ed1f74f4a29b82daca090f55899532574389e14f2615a6aed69"}, "tags": {"1.20.0--r351_0": "sha256:69e69cbd220a8ed1f74f4a29b82daca090f55899532574389e14f2615a6aed69"}, "docker": "quay.io/biocontainers/bioconductor-ampliqueso"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ampliqueso.

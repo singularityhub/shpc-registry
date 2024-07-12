@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graph_embed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graph_embed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graph_embed/container.yaml"
-updated_at: "2024-07-11 03:42:30.016344"
+updated_at: "2024-07-12 03:21:59.726155"
 latest: "2.4--py_0"
 container_url: "https://biocontainers.pro/tools/graph_embed"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "2.4--py_0"
 description: "shpc-registry automated BioContainers addition for graph_embed"
-config: {"url": "https://biocontainers.pro/tools/graph_embed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graph_embed", "latest": {"2.4--py_0": "sha256:c97303dcfe3f0c8caaa8ee7b119370b606062ae6304186983100e78fbd919dc9"}, "tags": {"2.4--py_0": "sha256:c97303dcfe3f0c8caaa8ee7b119370b606062ae6304186983100e78fbd919dc9"}, "docker": "quay.io/biocontainers/graph_embed", "aliases": {"graphembed": "/usr/local/bin/graphembed", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "cxpm": "/usr/local/bin/cxpm", "sxpm": "/usr/local/bin/sxpm", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config"}}
+config: {"url": "https://biocontainers.pro/tools/graph_embed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graph_embed", "latest": {"2.4--py_0": "sha256:39632cc05ba72d0b44879c40d4cf4a8ceb12d2dd41c090a27e0b2a1b0d8cca82"}, "tags": {"2.4--py_0": "sha256:39632cc05ba72d0b44879c40d4cf4a8ceb12d2dd41c090a27e0b2a1b0d8cca82"}, "docker": "quay.io/biocontainers/graph_embed", "aliases": {"graphembed": "/usr/local/bin/graphembed", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "cxpm": "/usr/local/bin/cxpm", "sxpm": "/usr/local/bin/sxpm", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/graph_embed.

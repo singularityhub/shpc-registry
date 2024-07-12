@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/connor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/connor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/connor/container.yaml"
-updated_at: "2024-07-11 03:02:20.980140"
+updated_at: "2024-07-12 02:40:09.154144"
 latest: "0.6--py27_2"
 container_url: "https://biocontainers.pro/tools/connor"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "0.6--py27_2"
  - "0.6--py36_2"
 description: "shpc-registry automated BioContainers addition for connor"
-config: {"url": "https://biocontainers.pro/tools/connor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for connor", "latest": {"0.6--py27_2": "sha256:ffb6b321dd2e4e5e736ec4a85b771485d11142d9c98907e873c51e02d77c7878"}, "tags": {"0.6--py27_2": "sha256:ffb6b321dd2e4e5e736ec4a85b771485d11142d9c98907e873c51e02d77c7878", "0.6--py36_2": "sha256:23acd29714f659260ea4e59698b24373afd7ac9be9c264567f5871538994e2ca"}, "docker": "quay.io/biocontainers/connor", "aliases": {"connor": "/usr/local/bin/connor", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
+config: {"url": "https://biocontainers.pro/tools/connor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for connor", "latest": {"0.6--py27_2": "sha256:6f33c7db1fda52dfa885b0db9989c50163b70726ea46d2c8c29e6503e5cdf6fa"}, "tags": {"0.6--py27_2": "sha256:6f33c7db1fda52dfa885b0db9989c50163b70726ea46d2c8c29e6503e5cdf6fa", "0.6--py36_2": "sha256:3a995b2bb13e1f410ce364efa653d75efe611c4444aa46c5b414398a2b52aeb7"}, "docker": "quay.io/biocontainers/connor", "aliases": {"connor": "/usr/local/bin/connor", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/connor.

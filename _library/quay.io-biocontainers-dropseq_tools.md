@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dropseq_tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dropseq_tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dropseq_tools/container.yaml"
-updated_at: "2024-07-11 03:21:37.955786"
-latest: "2.5.1--hdfd78af_0"
+updated_at: "2024-07-12 03:00:30.983067"
+latest: "3.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dropseq_tools"
 aliases:
  - "BamTagHistogram"
@@ -54,8 +54,9 @@ aliases:
  - "jjs"
 versions:
  - "2.5.1--hdfd78af_0"
+ - "3.0.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for dropseq_tools"
-config: {"url": "https://biocontainers.pro/tools/dropseq_tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dropseq_tools", "latest": {"2.5.1--hdfd78af_0": "sha256:94965785a64a13f5c2fe57d538df3dfc24ae206be35998d54676ae38941a2e89"}, "tags": {"2.5.1--hdfd78af_0": "sha256:94965785a64a13f5c2fe57d538df3dfc24ae206be35998d54676ae38941a2e89"}, "docker": "quay.io/biocontainers/dropseq_tools", "aliases": {"BamTagHistogram": "/usr/local/bin/BamTagHistogram", "BamTagOfTagCounts": "/usr/local/bin/BamTagOfTagCounts", "BaseDistributionAtReadPosition": "/usr/local/bin/BaseDistributionAtReadPosition", "CensusSeq": "/usr/local/bin/CensusSeq", "CollapseBarcodesInPlace": "/usr/local/bin/CollapseBarcodesInPlace", "CollapseTagWithContext": "/usr/local/bin/CollapseTagWithContext", "CompareDropSeqAlignments": "/usr/local/bin/CompareDropSeqAlignments", "ConvertToRefFlat": "/usr/local/bin/ConvertToRefFlat", "CountUnmatchedSampleIndices": "/usr/local/bin/CountUnmatchedSampleIndices", "CreateIntervalsFiles": "/usr/local/bin/CreateIntervalsFiles", "CsiAnalysis": "/usr/local/bin/CsiAnalysis", "DetectBeadSubstitutionErrors": "/usr/local/bin/DetectBeadSubstitutionErrors", "DetectBeadSynthesisErrors": "/usr/local/bin/DetectBeadSynthesisErrors", "DigitalExpression": "/usr/local/bin/DigitalExpression", "FilterBam": "/usr/local/bin/FilterBam", "FilterBamByTag": "/usr/local/bin/FilterBamByTag", "FilterGtf": "/usr/local/bin/FilterGtf", "GatherGeneGCLength": "/usr/local/bin/GatherGeneGCLength", "GatherMolecularBarcodeDistributionByGene": "/usr/local/bin/GatherMolecularBarcodeDistributionByGene", "GatherReadQualityMetrics": "/usr/local/bin/GatherReadQualityMetrics", "MaskReferenceSequence": "/usr/local/bin/MaskReferenceSequence", "MergeDgeSparse": "/usr/local/bin/MergeDgeSparse", "PolyATrimmer": "/usr/local/bin/PolyATrimmer", "ReduceGtf": "/usr/local/bin/ReduceGtf", "RollCall": "/usr/local/bin/RollCall", "SelectCellsByNumTranscripts": "/usr/local/bin/SelectCellsByNumTranscripts", "SingleCellRnaSeqMetricsCollector": "/usr/local/bin/SingleCellRnaSeqMetricsCollector", "SplitBamByCell": "/usr/local/bin/SplitBamByCell", "TagBamWithReadSequenceExtended": "/usr/local/bin/TagBamWithReadSequenceExtended", "TagReadWithGeneExonFunction": "/usr/local/bin/TagReadWithGeneExonFunction", "TagReadWithGeneFunction": "/usr/local/bin/TagReadWithGeneFunction", "TagReadWithInterval": "/usr/local/bin/TagReadWithInterval", "TrimStartingSequence": "/usr/local/bin/TrimStartingSequence", "ValidateReference": "/usr/local/bin/ValidateReference", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/dropseq_tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dropseq_tools", "latest": {"3.0.1--hdfd78af_0": "sha256:d3c2105e3b8b3664245e997a3c6e71403325d38779c310fb788667157f7a2c16"}, "tags": {"2.5.1--hdfd78af_0": "sha256:94965785a64a13f5c2fe57d538df3dfc24ae206be35998d54676ae38941a2e89", "3.0.1--hdfd78af_0": "sha256:d3c2105e3b8b3664245e997a3c6e71403325d38779c310fb788667157f7a2c16"}, "docker": "quay.io/biocontainers/dropseq_tools", "aliases": {"BamTagHistogram": "/usr/local/bin/BamTagHistogram", "BamTagOfTagCounts": "/usr/local/bin/BamTagOfTagCounts", "BaseDistributionAtReadPosition": "/usr/local/bin/BaseDistributionAtReadPosition", "CensusSeq": "/usr/local/bin/CensusSeq", "CollapseBarcodesInPlace": "/usr/local/bin/CollapseBarcodesInPlace", "CollapseTagWithContext": "/usr/local/bin/CollapseTagWithContext", "CompareDropSeqAlignments": "/usr/local/bin/CompareDropSeqAlignments", "ConvertToRefFlat": "/usr/local/bin/ConvertToRefFlat", "CountUnmatchedSampleIndices": "/usr/local/bin/CountUnmatchedSampleIndices", "CreateIntervalsFiles": "/usr/local/bin/CreateIntervalsFiles", "CsiAnalysis": "/usr/local/bin/CsiAnalysis", "DetectBeadSubstitutionErrors": "/usr/local/bin/DetectBeadSubstitutionErrors", "DetectBeadSynthesisErrors": "/usr/local/bin/DetectBeadSynthesisErrors", "DigitalExpression": "/usr/local/bin/DigitalExpression", "FilterBam": "/usr/local/bin/FilterBam", "FilterBamByTag": "/usr/local/bin/FilterBamByTag", "FilterGtf": "/usr/local/bin/FilterGtf", "GatherGeneGCLength": "/usr/local/bin/GatherGeneGCLength", "GatherMolecularBarcodeDistributionByGene": "/usr/local/bin/GatherMolecularBarcodeDistributionByGene", "GatherReadQualityMetrics": "/usr/local/bin/GatherReadQualityMetrics", "MaskReferenceSequence": "/usr/local/bin/MaskReferenceSequence", "MergeDgeSparse": "/usr/local/bin/MergeDgeSparse", "PolyATrimmer": "/usr/local/bin/PolyATrimmer", "ReduceGtf": "/usr/local/bin/ReduceGtf", "RollCall": "/usr/local/bin/RollCall", "SelectCellsByNumTranscripts": "/usr/local/bin/SelectCellsByNumTranscripts", "SingleCellRnaSeqMetricsCollector": "/usr/local/bin/SingleCellRnaSeqMetricsCollector", "SplitBamByCell": "/usr/local/bin/SplitBamByCell", "TagBamWithReadSequenceExtended": "/usr/local/bin/TagBamWithReadSequenceExtended", "TagReadWithGeneExonFunction": "/usr/local/bin/TagReadWithGeneExonFunction", "TagReadWithGeneFunction": "/usr/local/bin/TagReadWithGeneFunction", "TagReadWithInterval": "/usr/local/bin/TagReadWithInterval", "TrimStartingSequence": "/usr/local/bin/TrimStartingSequence", "ValidateReference": "/usr/local/bin/ValidateReference", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dropseq_tools.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/dropseq_tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dropseq_tools:2.5.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/dropseq_tools:3.0.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dropseq_tools/2.5.1--hdfd78af_0
-$ module help quay.io/biocontainers/dropseq_tools/2.5.1--hdfd78af_0
+$ module load quay.io/biocontainers/dropseq_tools/3.0.1--hdfd78af_0
+$ module help quay.io/biocontainers/dropseq_tools/3.0.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

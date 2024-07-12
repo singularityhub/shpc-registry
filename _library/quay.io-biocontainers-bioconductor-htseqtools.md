@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-htseqtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-htseqtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htseqtools/container.yaml"
-updated_at: "2024-07-11 03:10:55.243686"
+updated_at: "2024-07-12 02:49:17.807534"
 latest: "1.31.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-htseqtools"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.31.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-htseqtools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-htseqtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-htseqtools", "latest": {"1.31.0--r36_1": "sha256:84a0ccc1b2b6c0c8d27e2e37aa71b48f712670d268e281f848d052881bbb4e94"}, "tags": {"1.31.0--r36_1": "sha256:84a0ccc1b2b6c0c8d27e2e37aa71b48f712670d268e281f848d052881bbb4e94"}, "docker": "quay.io/biocontainers/bioconductor-htseqtools", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-htseqtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-htseqtools", "latest": {"1.31.0--r36_1": "sha256:ef406069a517e905778f27d70e4a58f08f62813c99daf8b360f4b023622f4f3f"}, "tags": {"1.31.0--r36_1": "sha256:ef406069a517e905778f27d70e4a58f08f62813c99daf8b360f4b023622f4f3f"}, "docker": "quay.io/biocontainers/bioconductor-htseqtools", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-htseqtools.

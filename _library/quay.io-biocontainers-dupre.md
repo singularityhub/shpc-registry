@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dupre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dupre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dupre/container.yaml"
-updated_at: "2024-07-11 03:30:13.869352"
+updated_at: "2024-07-12 03:09:32.491850"
 latest: "0.1--py_2"
 container_url: "https://biocontainers.pro/tools/dupre"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "0.1--py_2"
 description: "shpc-registry automated BioContainers addition for dupre"
-config: {"url": "https://biocontainers.pro/tools/dupre", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dupre", "latest": {"0.1--py_2": "sha256:623953bad67114de529e46d55f768e4c718bd10ebfe20f5a7c545ddfd0714f50"}, "tags": {"0.1--py_2": "sha256:623953bad67114de529e46d55f768e4c718bd10ebfe20f5a7c545ddfd0714f50"}, "docker": "quay.io/biocontainers/dupre", "aliases": {"bam2occupancy": "/usr/local/bin/bam2occupancy", "dupre": "/usr/local/bin/dupre", "pulpdoctest": "/usr/local/bin/pulpdoctest", "pulptest": "/usr/local/bin/pulptest", "f2py3.6": "/usr/local/bin/f2py3.6", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/dupre", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dupre", "latest": {"0.1--py_2": "sha256:59b7727d1848d3441b25c63656d19d0a736c51fefdf58cfcb8eb8d83eacb6a58"}, "tags": {"0.1--py_2": "sha256:59b7727d1848d3441b25c63656d19d0a736c51fefdf58cfcb8eb8d83eacb6a58"}, "docker": "quay.io/biocontainers/dupre", "aliases": {"bam2occupancy": "/usr/local/bin/bam2occupancy", "dupre": "/usr/local/bin/dupre", "pulpdoctest": "/usr/local/bin/pulpdoctest", "pulptest": "/usr/local/bin/pulptest", "f2py3.6": "/usr/local/bin/f2py3.6", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dupre.

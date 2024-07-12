@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pinfsc50"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pinfsc50/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pinfsc50/container.yaml"
-updated_at: "2024-07-11 03:12:16.304105"
+updated_at: "2024-07-12 02:50:43.542015"
 latest: "1.1.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-pinfsc50"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.1.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-pinfsc50"
-config: {"url": "https://biocontainers.pro/tools/r-pinfsc50", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pinfsc50", "latest": {"1.1.0--r3.4.1_0": "sha256:63864806de5a9f4708b3e887c37186dcd5ea41f58da5fd0d15f8e94faaff4439"}, "tags": {"1.1.0--r3.4.1_0": "sha256:63864806de5a9f4708b3e887c37186dcd5ea41f58da5fd0d15f8e94faaff4439"}, "docker": "quay.io/biocontainers/r-pinfsc50", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-pinfsc50", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pinfsc50", "latest": {"1.1.0--r3.4.1_0": "sha256:ddb27ed7d181729d890c1869bfdfa33f86cf8065e8bdccb8cc5a454e6a21293c"}, "tags": {"1.1.0--r3.4.1_0": "sha256:ddb27ed7d181729d890c1869bfdfa33f86cf8065e8bdccb8cc5a454e6a21293c"}, "docker": "quay.io/biocontainers/r-pinfsc50", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pinfsc50.

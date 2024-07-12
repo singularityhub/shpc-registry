@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alv/container.yaml"
-updated_at: "2024-07-11 03:07:41.109954"
+updated_at: "2024-07-12 02:45:52.149710"
 latest: "1.7.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/alv"
 aliases:

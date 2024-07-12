@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-doqtl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-doqtl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-doqtl/container.yaml"
-updated_at: "2024-07-11 03:26:14.909663"
+updated_at: "2024-07-12 03:05:22.046397"
 latest: "1.19.0--r36h516909a_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-doqtl"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.19.0--r36h516909a_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-doqtl"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-doqtl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-doqtl", "latest": {"1.19.0--r36h516909a_1": "sha256:da65121fd6782840c96a39bcafa50b5f18edf2af291f4bc1174b16de04b498ae"}, "tags": {"1.19.0--r36h516909a_1": "sha256:da65121fd6782840c96a39bcafa50b5f18edf2af291f4bc1174b16de04b498ae"}, "docker": "quay.io/biocontainers/bioconductor-doqtl", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-doqtl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-doqtl", "latest": {"1.19.0--r36h516909a_1": "sha256:d67a1e8c7def758ba4a40ac8611ad60f1758a5a2f866e28d565d1c1b1ca29993"}, "tags": {"1.19.0--r36h516909a_1": "sha256:d67a1e8c7def758ba4a40ac8611ad60f1758a5a2f866e28d565d1c1b1ca29993"}, "docker": "quay.io/biocontainers/bioconductor-doqtl", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-doqtl.

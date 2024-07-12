@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smalt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smalt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smalt/container.yaml"
-updated_at: "2024-07-11 03:01:30.894752"
+updated_at: "2024-07-12 02:39:14.909139"
 latest: "0.7.6--1"
 container_url: "https://biocontainers.pro/tools/smalt"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.7.6--1"
 description: "shpc-registry automated BioContainers addition for smalt"
-config: {"url": "https://biocontainers.pro/tools/smalt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smalt", "latest": {"0.7.6--1": "sha256:bcd3a3e6a44796caf366d6ce558928d03a2cba3275c2197b0b8dffc0eae4d665"}, "tags": {"0.7.6--1": "sha256:bcd3a3e6a44796caf366d6ce558928d03a2cba3275c2197b0b8dffc0eae4d665"}, "docker": "quay.io/biocontainers/smalt", "aliases": {"basqcol": "/usr/local/bin/basqcol", "fetchseq": "/usr/local/bin/fetchseq", "mixreads": "/usr/local/bin/mixreads", "readstats": "/usr/local/bin/readstats", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "trunkreads": "/usr/local/bin/trunkreads"}}
+config: {"url": "https://biocontainers.pro/tools/smalt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smalt", "latest": {"0.7.6--1": "sha256:beae74229d777b2f7db02d9ae2dd13ab757067895b49c20e11de882f1e8a63a7"}, "tags": {"0.7.6--1": "sha256:beae74229d777b2f7db02d9ae2dd13ab757067895b49c20e11de882f1e8a63a7"}, "docker": "quay.io/biocontainers/smalt", "aliases": {"basqcol": "/usr/local/bin/basqcol", "fetchseq": "/usr/local/bin/fetchseq", "mixreads": "/usr/local/bin/mixreads", "readstats": "/usr/local/bin/readstats", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "trunkreads": "/usr/local/bin/trunkreads"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smalt.

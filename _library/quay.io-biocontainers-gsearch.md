@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gsearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gsearch/container.yaml"
-updated_at: "2024-07-11 03:12:28.045239"
+updated_at: "2024-07-12 02:50:55.909074"
 latest: "0.1.9--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/gsearch"
 aliases:
@@ -18,7 +18,7 @@ versions:
  - "0.1.7--hdbdd923_0"
  - "0.1.9--hdbdd923_0"
 description: "singularity registry hpc automated addition for gsearch"
-config: {"url": "https://biocontainers.pro/tools/gsearch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gsearch", "latest": {"0.1.9--hdbdd923_0": "sha256:444caee3f2707119b03f2bcfdf12e5a7c231d063bd519d1f0ad8d0892fa6aa1c"}, "tags": {"0.0.12--h87f3376_0": "sha256:f84d5cb4c00788fe4166ae40cc5caf9bc23550ea9cd655a0e830ba23583fec43", "0.1.2--h43eeafb_6": "sha256:dd9e7d11197dc1519906f745c7bd520c9d3302832113eab879deba0a3ae553fd", "0.1.4--hdbdd923_0": "sha256:eaf550307c5090808e7628310a5a23670e15bf2d633e758fb02964c2bc04504e", "0.1.6--hdbdd923_0": "sha256:3ea1e9ed7d25baf83df39cd3de67d086337f7e5915f5b2e24a1b71f9b9528233", "0.1.7--hdbdd923_0": "sha256:815df99ef963dfbfaf59bd715f701a8d77e22b601177720fba697813590bff5a", "0.1.9--hdbdd923_0": "sha256:444caee3f2707119b03f2bcfdf12e5a7c231d063bd519d1f0ad8d0892fa6aa1c"}, "docker": "quay.io/biocontainers/gsearch", "aliases": {"request": "/usr/local/bin/request", "tohnsw": "/usr/local/bin/tohnsw"}}
+config: {"url": "https://biocontainers.pro/tools/gsearch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gsearch", "latest": {"0.1.9--hdbdd923_0": "sha256:444caee3f2707119b03f2bcfdf12e5a7c231d063bd519d1f0ad8d0892fa6aa1c"}, "tags": {"0.0.12--h87f3376_0": "sha256:f84d5cb4c00788fe4166ae40cc5caf9bc23550ea9cd655a0e830ba23583fec43", "0.1.2--h43eeafb_6": "sha256:dd9e7d11197dc1519906f745c7bd520c9d3302832113eab879deba0a3ae553fd", "0.1.4--hdbdd923_0": "sha256:eaf550307c5090808e7628310a5a23670e15bf2d633e758fb02964c2bc04504e", "0.1.6--hdbdd923_0": "sha256:d670a0da215b8be14705823bc137540e7489f55d80f6071097414f3842b8d3d8", "0.1.7--hdbdd923_0": "sha256:815df99ef963dfbfaf59bd715f701a8d77e22b601177720fba697813590bff5a", "0.1.9--hdbdd923_0": "sha256:444caee3f2707119b03f2bcfdf12e5a7c231d063bd519d1f0ad8d0892fa6aa1c"}, "docker": "quay.io/biocontainers/gsearch", "aliases": {"request": "/usr/local/bin/request", "tohnsw": "/usr/local/bin/tohnsw"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gsearch.

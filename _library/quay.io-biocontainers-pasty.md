@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pasty"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pasty/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pasty/container.yaml"
-updated_at: "2024-07-11 03:07:37.685201"
+updated_at: "2024-07-12 02:45:48.528138"
 latest: "1.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pasty"
 aliases:
@@ -26,7 +26,7 @@ versions:
  - "1.0.2--hdfd78af_0"
  - "1.0.3--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pasty"
-config: {"url": "https://biocontainers.pro/tools/pasty", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pasty", "latest": {"1.0.3--hdfd78af_0": "sha256:55fb1629cc3a2939fca1024033d4ae7ed430939c09ee9727f5fb475b851939cb"}, "tags": {"1.0.0--hdfd78af_0": "sha256:8bfb41cd6285c342bc63462a7395af3f8426cf919dd13fa76e27bdddfd876926", "1.0.2--hdfd78af_0": "sha256:92b431108cc274c3935dc76a1b36c4d516aa704be8fa23852b0ea03b778d79fb", "1.0.3--hdfd78af_0": "sha256:55fb1629cc3a2939fca1024033d4ae7ed430939c09ee9727f5fb475b851939cb"}, "docker": "quay.io/biocontainers/pasty", "aliases": {"executor": "/usr/local/bin/executor", "pasty": "/usr/local/bin/pasty", "rich-click": "/usr/local/bin/rich-click", "cmark": "/usr/local/bin/cmark", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns"}}
+config: {"url": "https://biocontainers.pro/tools/pasty", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pasty", "latest": {"1.0.3--hdfd78af_0": "sha256:55fb1629cc3a2939fca1024033d4ae7ed430939c09ee9727f5fb475b851939cb"}, "tags": {"1.0.0--hdfd78af_0": "sha256:8bfb41cd6285c342bc63462a7395af3f8426cf919dd13fa76e27bdddfd876926", "1.0.2--hdfd78af_0": "sha256:ee6395b9e95f881a37c0087417af97aece538fe13b884afc5397a679f19cf827", "1.0.3--hdfd78af_0": "sha256:55fb1629cc3a2939fca1024033d4ae7ed430939c09ee9727f5fb475b851939cb"}, "docker": "quay.io/biocontainers/pasty", "aliases": {"executor": "/usr/local/bin/executor", "pasty": "/usr/local/bin/pasty", "rich-click": "/usr/local/bin/rich-click", "cmark": "/usr/local/bin/cmark", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pasty.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-list-util"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-list-util/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-list-util/container.yaml"
-updated_at: "2024-07-11 03:38:48.983200"
+updated_at: "2024-07-12 03:18:19.936818"
 latest: "1.38--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-list-util"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.38--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-list-util"
-config: {"url": "https://biocontainers.pro/tools/perl-list-util", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-list-util", "latest": {"1.38--pl526_1": "sha256:cb89dc4bc97f7daad3af6bd7b6ed1b4a074f2e040fdb19edfb4e34bfd530d6f7"}, "tags": {"1.38--pl526_1": "sha256:cb89dc4bc97f7daad3af6bd7b6ed1b4a074f2e040fdb19edfb4e34bfd530d6f7"}, "docker": "quay.io/biocontainers/perl-list-util", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-list-util", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-list-util", "latest": {"1.38--pl526_1": "sha256:21e391e74cce4477404b1c7ee06e667a6fba595d5c8080c9d53792a3b9d47d37"}, "tags": {"1.38--pl526_1": "sha256:21e391e74cce4477404b1c7ee06e667a6fba595d5c8080c9d53792a3b9d47d37"}, "docker": "quay.io/biocontainers/perl-list-util", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-list-util.

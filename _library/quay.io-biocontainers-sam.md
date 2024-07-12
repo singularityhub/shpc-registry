@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/sam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sam/container.yaml"
-updated_at: "2024-07-11 03:36:09.452602"
+updated_at: "2024-07-12 03:15:36.485884"
 latest: "3.5--1"
 container_url: "https://biocontainers.pro/tools/sam"
 
 versions:
  - "3.5--1"
 description: "shpc-registry automated BioContainers addition for sam"
-config: {"url": "https://biocontainers.pro/tools/sam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sam", "latest": {"3.5--1": "sha256:a14041ebedab5db21783ac3877f4d192e43ccb3c149c6d1f134ad3c333ca39d5"}, "tags": {"3.5--1": "sha256:a14041ebedab5db21783ac3877f4d192e43ccb3c149c6d1f134ad3c333ca39d5"}, "docker": "quay.io/biocontainers/sam"}
+config: {"url": "https://biocontainers.pro/tools/sam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sam", "latest": {"3.5--1": "sha256:38a2314e27c251bc5069eaf6042edbc2a6b829d708357fd21ffd4d94a6c324ed"}, "tags": {"3.5--1": "sha256:38a2314e27c251bc5069eaf6042edbc2a6b829d708357fd21ffd4d94a6c324ed"}, "docker": "quay.io/biocontainers/sam"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sam.
