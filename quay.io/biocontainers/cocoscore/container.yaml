@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/cocoscore
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cocoscore
 latest:
-  1.0.0--py_0: sha256:933fb672bec523c1ec83e647770295f042fe7b48e8615f777811f97a7a3b6dd9
+  1.0.0--py_0: sha256:21027e006cf4c4d407327e9c29881a0dd5bc193d988da03a4846caef06ff5569
 tags:
-  1.0.0--py_0: sha256:933fb672bec523c1ec83e647770295f042fe7b48e8615f777811f97a7a3b6dd9
+  1.0.0--py_0: sha256:21027e006cf4c4d407327e9c29881a0dd5bc193d988da03a4846caef06ff5569
 docker: quay.io/biocontainers/cocoscore
 aliases:
   fasttext: /usr/local/bin/fasttext

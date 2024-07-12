@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/eden
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for eden
 latest:
-  2.0--pyhd1c1de3_3: sha256:7712b82c3a4b8e88e29038028da5609fac8216e1f2fa7743bb329059da30ff63
+  2.0--pyhd1c1de3_3: sha256:0a346416af6aa79b0ea638c7d648d9716d4170b2b675ee12794d0da266dcaa98
 tags:
-  2.0--pyhd1c1de3_3: sha256:7712b82c3a4b8e88e29038028da5609fac8216e1f2fa7743bb329059da30ff63
+  2.0--pyhd1c1de3_3: sha256:0a346416af6aa79b0ea638c7d648d9716d4170b2b675ee12794d0da266dcaa98
 docker: quay.io/biocontainers/eden
 aliases:
   RNAshapes: /usr/local/bin/RNAshapes

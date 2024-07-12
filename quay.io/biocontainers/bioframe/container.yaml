@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioframe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioframe
 latest:
-  0.7.0--pyhdfd78af_0: sha256:130488f93b559682bc5672cac8ab7e54542fd8a78b9e25c137cc1280b89f14c4
+  0.7.2--pyhdfd78af_0: sha256:ae5722c265c43523fee1d146c67da982742947aa964d385ec3d03059a356e0f8
 tags:
   0.3.3--pyhdfd78af_0: sha256:d0d4f6e99abcbc4b5b94225ead9eb539b58749e58da0bf1387dbac36281355ab
   0.4.0--pyhdfd78af_0: sha256:8a816ed8508812fd6757548f0d9daf6a9064f349e512c1b1274a08c25fcdb37e
@@ -13,6 +13,7 @@ tags:
   0.6.3--pyhdfd78af_0: sha256:bb662792e94b18ee2990a202bcf683b5e6e054c74fcacbaf9890c2881095cd8a
   0.6.4--pyhdfd78af_0: sha256:a3c37d2762af64ad831b1528587f040fbb675ddbc425f7da9ea6e7051b9e73fd
   0.7.0--pyhdfd78af_0: sha256:130488f93b559682bc5672cac8ab7e54542fd8a78b9e25c137cc1280b89f14c4
+  0.7.2--pyhdfd78af_0: sha256:ae5722c265c43523fee1d146c67da982742947aa964d385ec3d03059a356e0f8
 docker: quay.io/biocontainers/bioframe
 aliases:
   bam2pairs: /usr/local/bin/bam2pairs

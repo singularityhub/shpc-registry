@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/icount
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for icount
 latest:
-  2.0.0--py_1: sha256:3ea8df72e04087bbab743f075bafd3214b61d1cef9d32a30d3a4588e7538779b
+  2.0.0--py_1: sha256:50d5f3cbcd7d7196c5be555ff59c973bfcd6edc8bac2d23a25e690773a54646e
 tags:
-  2.0.0--py_1: sha256:3ea8df72e04087bbab743f075bafd3214b61d1cef9d32a30d3a4588e7538779b
+  2.0.0--py_1: sha256:50d5f3cbcd7d7196c5be555ff59c973bfcd6edc8bac2d23a25e690773a54646e
 docker: quay.io/biocontainers/icount

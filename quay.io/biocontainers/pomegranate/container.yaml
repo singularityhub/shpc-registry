@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/pomegranate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pomegranate
 latest:
-  0.3.7--py36_2: sha256:b7d7ce15261108c4efbb5889ac5d94a539e19f3a510282ab609c3d2c321679b4
+  0.3.7--py36_2: sha256:aa8957285c0a9ac7bfeb3ba4ab4c28ba559ef7f88bfafa9fe95e5ed80a30bb77
 tags:
-  0.3.7--py36_2: sha256:b7d7ce15261108c4efbb5889ac5d94a539e19f3a510282ab609c3d2c321679b4
-  0.3.7--py35_2: sha256:71296a0a5abb596c34fff016b4fb338342a09ca1acabeefe846eab06e1c095ee
+  0.3.7--py36_2: sha256:aa8957285c0a9ac7bfeb3ba4ab4c28ba559ef7f88bfafa9fe95e5ed80a30bb77
+  0.3.7--py35_2: sha256:f413d0844b06503f2bb72c3a7273338b564b803ad602dcd645e9fde691cd794d
 docker: quay.io/biocontainers/pomegranate
 aliases:
   cygdb: /usr/local/bin/cygdb

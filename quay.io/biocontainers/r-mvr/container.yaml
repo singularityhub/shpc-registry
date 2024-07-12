@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-mvr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-mvr
 latest:
-  1.33.0--r351h29659fb_1: sha256:f7821cb1a9d7ce15a2c57e9399530eca62ef8e3712f1a46b6dad8f986813e2b5
+  1.33.0--r351h29659fb_1: sha256:cdab88d86d4acc5d30494435197c7518a619c371983cc7799fc740a24ed04e4e
 tags:
-  1.33.0--r351h29659fb_1: sha256:f7821cb1a9d7ce15a2c57e9399530eca62ef8e3712f1a46b6dad8f986813e2b5
+  1.33.0--r351h29659fb_1: sha256:cdab88d86d4acc5d30494435197c7518a619c371983cc7799fc740a24ed04e4e
 docker: quay.io/biocontainers/r-mvr
 aliases:
   c89: /usr/local/bin/c89

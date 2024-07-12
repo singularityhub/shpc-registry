@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-qualifier
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-qualifier
 latest:
-  1.29.1--r36_0: sha256:5dde2569b1b6e67b7e205f727a931520fe4f015fa3b9de3fd57e10d87a921f4c
+  1.29.1--r36_0: sha256:ab81c26b9437429a0da415e5c6e26935eec2145dac3eeccbb14acbe370589ef3
 tags:
-  1.29.1--r36_0: sha256:5dde2569b1b6e67b7e205f727a931520fe4f015fa3b9de3fd57e10d87a921f4c
+  1.29.1--r36_0: sha256:ab81c26b9437429a0da415e5c6e26935eec2145dac3eeccbb14acbe370589ef3
 docker: quay.io/biocontainers/bioconductor-qualifier
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

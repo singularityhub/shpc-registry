@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/prodigal
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for prodigal
 latest:
-  2.60--1: sha256:7a5993ac64925613deda1b927219d5569fcdee9535f868067800a923485b489b
+  2.60--1: sha256:edf9f767a028c79674ab18edcf554267af4426655d3368641f304b0f67eb8bfc
 tags:
-  2.60--1: sha256:7a5993ac64925613deda1b927219d5569fcdee9535f868067800a923485b489b
+  2.60--1: sha256:edf9f767a028c79674ab18edcf554267af4426655d3368641f304b0f67eb8bfc
 docker: quay.io/biocontainers/prodigal
 aliases:
   prodigal: /usr/local/bin/prodigal

@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-rwave
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rwave
 latest:
-  2.4--r3.2.2_0: sha256:17e0847334d5bbf7fdd2e8431893de353415ee1d37a75b104d5aac76ce637ad9
+  2.4--r3.2.2_0: sha256:5302fcb1b0bd65a2128d8484577146c0a279bcfedcfbafb5680c493fa95bbc4d
 tags:
-  2.4--r3.2.2_0: sha256:17e0847334d5bbf7fdd2e8431893de353415ee1d37a75b104d5aac76ce637ad9
-  2.4--r3.3.2_0: sha256:e1395d3e37d6f2a56b66cb3e5aaafad78fb9f9b4c1529f8989cf0537c9badd5e
+  2.4--r3.2.2_0: sha256:5302fcb1b0bd65a2128d8484577146c0a279bcfedcfbafb5680c493fa95bbc4d
+  2.4--r3.3.2_0: sha256:2fedd2d20211a6517ed7f17439e24f30350ca734de9889108eb3b8dcc3392ca4
 docker: quay.io/biocontainers/r-rwave
 aliases:
   pngcp: /usr/local/bin/pngcp

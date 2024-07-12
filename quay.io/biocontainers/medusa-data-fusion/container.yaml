@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/medusa-data-fusion
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for medusa-data-fusion
 latest:
-  0.1--pyh5ca1d4c_3: sha256:8bee5762bb4972426f6ad99e314aa4981369e1f4c66fce23fd2eb0586747a00d
+  0.1--pyh5ca1d4c_3: sha256:a24db75bcbe9a7d4696499c28bd67c65be4bd885413703de2d9b13045017429c
 tags:
-  0.1--pyh5ca1d4c_3: sha256:8bee5762bb4972426f6ad99e314aa4981369e1f4c66fce23fd2eb0586747a00d
+  0.1--pyh5ca1d4c_3: sha256:a24db75bcbe9a7d4696499c28bd67c65be4bd885413703de2d9b13045017429c
 docker: quay.io/biocontainers/medusa-data-fusion
 aliases:
   f2py2: /usr/local/bin/f2py2

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/sneakernet-qc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sneakernet-qc
 latest:
-  0.26.0--pl5321hdfd78af_0: sha256:8a3f518991f9665e897be087071cf981080d1572f2ab3dfdb0fa47d6108ff724
+  0.27.0--pl5321hdfd78af_1: sha256:758e2404b2c817c457b0698a5bbf1cb3544bb7c4b4060b38c51ec6dc22cfc375
 tags:
   0.25.0--pl5321hdfd78af_0: sha256:9dada7767430f3b4eb06d66cf2ffb8e7ec78ec6f8302743c145a82077ab4b3a4
   0.26.0--pl5321hdfd78af_0: sha256:8a3f518991f9665e897be087071cf981080d1572f2ab3dfdb0fa47d6108ff724
+  0.27.0--pl5321hdfd78af_1: sha256:758e2404b2c817c457b0698a5bbf1cb3544bb7c4b4060b38c51ec6dc22cfc375
 docker: quay.io/biocontainers/sneakernet-qc
 aliases:
   SalmID.py: /usr/local/bin/SalmID.py

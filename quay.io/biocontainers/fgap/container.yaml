@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/fgap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fgap
 latest:
-  1.8.1--0: sha256:89d4f3d30391da72a2a4f15c4d85ed244b3ae25a4678c5acac1e7454824a660f
+  1.8.1--0: sha256:162fe3d47c71c8684d788c12d8b37532ea433efd4880e8e514e26d36af67eb3d
 tags:
-  1.8.1--0: sha256:89d4f3d30391da72a2a4f15c4d85ed244b3ae25a4678c5acac1e7454824a660f
+  1.8.1--0: sha256:162fe3d47c71c8684d788c12d8b37532ea433efd4880e8e514e26d36af67eb3d
 docker: quay.io/biocontainers/fgap
 aliases:
   FGAP: /usr/local/bin/FGAP

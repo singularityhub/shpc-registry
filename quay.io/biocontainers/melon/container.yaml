@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/melon
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for melon
 latest:
-  0.1.6--pyhdfd78af_0: sha256:f3d5bf48f05ce2df3af3b19c90fa5c50b7f1be90b5b2c2bef6cbe7aa4f5d7252
+  0.2.0--pyhdfd78af_0: sha256:3dd6427a14924f96059444f6fc0ae087b0ed51486c05ccbbc0533a4dc1eba0b1
 tags:
   0.0.1--pyhdfd78af_0: sha256:e78f4a3115c42e2b5c529849214956cc9891ea86aac81cf6af4afc5995ae66f4
   0.1.0--pyhdfd78af_0: sha256:44f7c3a40269c10a1fee9aff6acf174104c5174ca3ad701fee6bf85810146a96
@@ -10,6 +10,7 @@ tags:
   0.1.3--pyhdfd78af_0: sha256:c964d31dd9e1ca1efa4953c438fc08eb3b77a4440e22f50b978d91c3bfa4c42b
   0.1.5--pyhdfd78af_0: sha256:548cd5dc1c901bcfe9857021f52f3951dd841f01ddbd52e377cc23dd4c24005b
   0.1.6--pyhdfd78af_0: sha256:f3d5bf48f05ce2df3af3b19c90fa5c50b7f1be90b5b2c2bef6cbe7aa4f5d7252
+  0.2.0--pyhdfd78af_0: sha256:3dd6427a14924f96059444f6fc0ae087b0ed51486c05ccbbc0533a4dc1eba0b1
 docker: quay.io/biocontainers/melon
 aliases:
   blastn_vdb: /usr/local/bin/blastn_vdb

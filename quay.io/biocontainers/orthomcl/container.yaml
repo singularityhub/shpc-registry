@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/orthomcl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for orthomcl
 latest:
-  2.0.9--hdfd78af_5: sha256:b27b8ffcc4652fd885fd532afc4317bd18abb371814aa437bd61fbd6ca1e93c4
+  2.0.9--hdfd78af_5: sha256:0b0da14e45a6098b12dcf51b8246f782f27bd6834e8cf76bbb9a0f941d1099d0
 tags:
-  2.0.9--hdfd78af_5: sha256:b27b8ffcc4652fd885fd532afc4317bd18abb371814aa437bd61fbd6ca1e93c4
+  2.0.9--hdfd78af_5: sha256:0b0da14e45a6098b12dcf51b8246f782f27bd6834e8cf76bbb9a0f941d1099d0
 docker: quay.io/biocontainers/orthomcl
 aliases:
   orthomclAdjustFasta: /usr/local/bin/orthomclAdjustFasta

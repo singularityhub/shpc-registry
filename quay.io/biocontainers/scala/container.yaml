@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/scala
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scala
 latest:
-  2.11.8--1: sha256:a46b119996c44fcbb3dcfa6c4dffdf3f17e05d167124f255760a3b54f87a4453
+  2.11.8--1: sha256:5b12260ca528a4929c4bbfc9b4169a5c397bb3bd88f5592e9fbef1f32653ffc2
 tags:
-  2.11.8--1: sha256:a46b119996c44fcbb3dcfa6c4dffdf3f17e05d167124f255760a3b54f87a4453
+  2.11.8--1: sha256:5b12260ca528a4929c4bbfc9b4169a5c397bb3bd88f5592e9fbef1f32653ffc2
 docker: quay.io/biocontainers/scala
 aliases:
   fsc: /usr/local/bin/fsc

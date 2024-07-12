@@ -5,7 +5,7 @@ latest:
   1.4.0--r43hdfd78af_0: sha256:c748864324ea1bda0384368f58b1a46e27bbe144f13df020da44da07727f95be
 tags:
   1.0.0--r42hdfd78af_0: sha256:21c588d30f27b4f7853012a982b1fd99b61aa1a55614227b3f59ad200756fe8a
-  1.2.0--r43hdfd78af_0: sha256:0bd779bed68e5b9d0b9fe8f7c7da2c81d475933cabd97f5b8ce0e1c3be34aba7
+  1.2.0--r43hdfd78af_0: sha256:79873891dc196f62f57c6c71b87daabdf4701a4a5d558383c06e5e491a287e95
   1.4.0--r43hdfd78af_0: sha256:c748864324ea1bda0384368f58b1a46e27bbe144f13df020da44da07727f95be
 docker: quay.io/biocontainers/bioconductor-crisprverse
 aliases:

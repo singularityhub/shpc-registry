@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-ks
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ks
 latest:
-  1.10.6--r3.3.2_0: sha256:27d2c2ecebd0b226f79353399d38553dc624eed28dbd62dd51cbfe7ea0802883
+  1.10.6--r3.3.2_0: sha256:2e4957f4d01b7449458f29fecaa27ba6ab4a3c531318bc8ea97127afa1c2ea84
 tags:
-  1.10.6--r3.3.2_0: sha256:27d2c2ecebd0b226f79353399d38553dc624eed28dbd62dd51cbfe7ea0802883
+  1.10.6--r3.3.2_0: sha256:2e4957f4d01b7449458f29fecaa27ba6ab4a3c531318bc8ea97127afa1c2ea84
 docker: quay.io/biocontainers/r-ks
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-proj4
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-proj4
 latest:
-  1.0_8--r3.3.2_0: sha256:17dd4a9946ac11e1bbd45385350fb7e9ac457327009a51596c8084bc55585c1a
+  1.0_8--r3.3.2_0: sha256:ae1e658992836fa56bdfb547e1f1d876211dd357b9ff9a65bc0a13b77d9adef8
 tags:
-  1.0_8--r3.3.2_0: sha256:17dd4a9946ac11e1bbd45385350fb7e9ac457327009a51596c8084bc55585c1a
+  1.0_8--r3.3.2_0: sha256:ae1e658992836fa56bdfb547e1f1d876211dd357b9ff9a65bc0a13b77d9adef8
+  1.0_8--r3.2.2_0: sha256:768219187dffe60e1a7e745520b9f184db3f99b9c1eabf773ac4e3bef18fca0c
 docker: quay.io/biocontainers/r-proj4
 aliases:
   nad2bin: /usr/local/bin/nad2bin

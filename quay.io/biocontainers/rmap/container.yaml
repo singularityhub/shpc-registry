@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/rmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rmap
 latest:
-  2.1--h2d50403_1: sha256:b4370a95f8169026ad015036a4a618b61d10c03e2e75aa2e0226bdd229f20769
+  2.1--h2d50403_1: sha256:42953f59f6f9fa137ae402da4842c2be733fe268a131ac2bf706a8afb27647a8
 tags:
-  2.1--h2d50403_1: sha256:b4370a95f8169026ad015036a4a618b61d10c03e2e75aa2e0226bdd229f20769
+  2.1--h2d50403_1: sha256:42953f59f6f9fa137ae402da4842c2be733fe268a131ac2bf706a8afb27647a8
 docker: quay.io/biocontainers/rmap
 aliases:
   bedoverlap: /usr/local/bin/bedoverlap
