@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scala"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scala/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scala/container.yaml"
-updated_at: "2024-07-12 02:59:08.582297"
+updated_at: "2024-07-13 02:56:29.081619"
 latest: "2.11.8--1"
 container_url: "https://biocontainers.pro/tools/scala"
 aliases:
@@ -31,7 +31,7 @@ aliases:
 versions:
  - "2.11.8--1"
 description: "shpc-registry automated BioContainers addition for scala"
-config: {"url": "https://biocontainers.pro/tools/scala", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scala", "latest": {"2.11.8--1": "sha256:a46b119996c44fcbb3dcfa6c4dffdf3f17e05d167124f255760a3b54f87a4453"}, "tags": {"2.11.8--1": "sha256:a46b119996c44fcbb3dcfa6c4dffdf3f17e05d167124f255760a3b54f87a4453"}, "docker": "quay.io/biocontainers/scala", "aliases": {"fsc": "/usr/local/bin/fsc", "fsc.bat": "/usr/local/bin/fsc.bat", "scala": "/usr/local/bin/scala", "scala.bat": "/usr/local/bin/scala.bat", "scalac": "/usr/local/bin/scalac", "scalac.bat": "/usr/local/bin/scalac.bat", "scaladoc": "/usr/local/bin/scaladoc", "scaladoc.bat": "/usr/local/bin/scaladoc.bat", "scalap": "/usr/local/bin/scalap", "scalap.bat": "/usr/local/bin/scalap.bat", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/scala", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scala", "latest": {"2.11.8--1": "sha256:5b12260ca528a4929c4bbfc9b4169a5c397bb3bd88f5592e9fbef1f32653ffc2"}, "tags": {"2.11.8--1": "sha256:5b12260ca528a4929c4bbfc9b4169a5c397bb3bd88f5592e9fbef1f32653ffc2"}, "docker": "quay.io/biocontainers/scala", "aliases": {"fsc": "/usr/local/bin/fsc", "fsc.bat": "/usr/local/bin/fsc.bat", "scala": "/usr/local/bin/scala", "scala.bat": "/usr/local/bin/scala.bat", "scalac": "/usr/local/bin/scalac", "scalac.bat": "/usr/local/bin/scalac.bat", "scaladoc": "/usr/local/bin/scaladoc", "scaladoc.bat": "/usr/local/bin/scaladoc.bat", "scalap": "/usr/local/bin/scalap", "scalap.bat": "/usr/local/bin/scalap.bat", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scala.

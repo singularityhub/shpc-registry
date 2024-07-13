@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ga4ghclient"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ga4ghclient/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ga4ghclient/container.yaml"
-updated_at: "2024-07-12 02:51:44.760863"
+updated_at: "2024-07-13 02:49:37.805618"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ga4ghclient"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ga4ghclient"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ga4ghclient", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ga4ghclient", "latest": {"1.26.0--r43hdfd78af_0": "sha256:d4c744f79995d06b7eccb2c0d9818a6faca89c1448f7a35621d6e4b0dc07f197"}, "tags": {"1.8.0--r36_1": "sha256:d22f5f2d10b074c7fd4f95c4642e8264678ec2743d20809caf96bf695f50cd53", "1.22.0--r42hdfd78af_0": "sha256:2914199482004f1bdd0b370629b61d5585be1418abe2abbb1f9ae714bc2e7ade", "1.18.0--r41hdfd78af_0": "sha256:e5e9e0405701e7eeb8dcd939ce04b90e4916c5a5f97a8ca8dba086776c56e78d", "1.16.0--r41hdfd78af_0": "sha256:60596c867f15aa7c33c2139dc4aaeefd1ba77d94196ee5ea04b3112305e550cf", "1.14.0--r40hdfd78af_1": "sha256:39130b59e6fe43fd75af4c6dc659d9dbd518d993da7d227c5c39d5332733cf25", "1.12.0--r40_0": "sha256:57dcde0c948ecb0311186f5ed0c05f3ae05a95b4c94665a09428b2d06ec84eee", "1.24.0--r43hdfd78af_0": "sha256:9aeca4e08893a13e21c76df5a290fb9f9720a35cc4a898c7433c02c127069a0e", "1.26.0--r43hdfd78af_0": "sha256:d4c744f79995d06b7eccb2c0d9818a6faca89c1448f7a35621d6e4b0dc07f197"}, "docker": "quay.io/biocontainers/bioconductor-ga4ghclient", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ga4ghclient", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ga4ghclient", "latest": {"1.26.0--r43hdfd78af_0": "sha256:d4c744f79995d06b7eccb2c0d9818a6faca89c1448f7a35621d6e4b0dc07f197"}, "tags": {"1.8.0--r36_1": "sha256:590d237eb6213a8f175d161731f17b1a800ecd66defb4ed5c52e4ff002642e83", "1.22.0--r42hdfd78af_0": "sha256:2914199482004f1bdd0b370629b61d5585be1418abe2abbb1f9ae714bc2e7ade", "1.18.0--r41hdfd78af_0": "sha256:e5e9e0405701e7eeb8dcd939ce04b90e4916c5a5f97a8ca8dba086776c56e78d", "1.16.0--r41hdfd78af_0": "sha256:60596c867f15aa7c33c2139dc4aaeefd1ba77d94196ee5ea04b3112305e550cf", "1.14.0--r40hdfd78af_1": "sha256:39130b59e6fe43fd75af4c6dc659d9dbd518d993da7d227c5c39d5332733cf25", "1.12.0--r40_0": "sha256:57dcde0c948ecb0311186f5ed0c05f3ae05a95b4c94665a09428b2d06ec84eee", "1.24.0--r43hdfd78af_0": "sha256:9aeca4e08893a13e21c76df5a290fb9f9720a35cc4a898c7433c02c127069a0e", "1.26.0--r43hdfd78af_0": "sha256:d4c744f79995d06b7eccb2c0d9818a6faca89c1448f7a35621d6e4b0dc07f197"}, "docker": "quay.io/biocontainers/bioconductor-ga4ghclient", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ga4ghclient.

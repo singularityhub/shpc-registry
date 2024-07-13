@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ghostx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ghostx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ghostx/container.yaml"
-updated_at: "2024-07-12 03:02:31.467543"
+updated_at: "2024-07-13 02:59:38.435768"
 latest: "1.3.7--hfc679d8_1"
 container_url: "https://biocontainers.pro/tools/ghostx"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.3.7--hfc679d8_1"
 description: "shpc-registry automated BioContainers addition for ghostx"
-config: {"url": "https://biocontainers.pro/tools/ghostx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ghostx", "latest": {"1.3.7--hfc679d8_1": "sha256:b5f25d1ed3bc4bde68f6070a670ebca359853226c7fd89e81741d2c2fb7d335d"}, "tags": {"1.3.7--hfc679d8_1": "sha256:b5f25d1ed3bc4bde68f6070a670ebca359853226c7fd89e81741d2c2fb7d335d"}, "docker": "quay.io/biocontainers/ghostx", "aliases": {"ghostx": "/usr/local/bin/ghostx"}}
+config: {"url": "https://biocontainers.pro/tools/ghostx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ghostx", "latest": {"1.3.7--hfc679d8_1": "sha256:09bfb839933e99f504d909df09467e88cd733c54f7a55ff2e4876b818091f83a"}, "tags": {"1.3.7--hfc679d8_1": "sha256:09bfb839933e99f504d909df09467e88cd733c54f7a55ff2e4876b818091f83a"}, "docker": "quay.io/biocontainers/ghostx", "aliases": {"ghostx": "/usr/local/bin/ghostx"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ghostx.

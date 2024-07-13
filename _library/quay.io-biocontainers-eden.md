@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eden"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eden/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eden/container.yaml"
-updated_at: "2024-07-12 02:51:42.621646"
+updated_at: "2024-07-13 02:49:35.870246"
 latest: "2.0--pyhd1c1de3_3"
 container_url: "https://biocontainers.pro/tools/eden"
 aliases:
@@ -29,7 +29,7 @@ aliases:
 versions:
  - "2.0--pyhd1c1de3_3"
 description: "shpc-registry automated BioContainers addition for eden"
-config: {"url": "https://biocontainers.pro/tools/eden", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eden", "latest": {"2.0--pyhd1c1de3_3": "sha256:7712b82c3a4b8e88e29038028da5609fac8216e1f2fa7743bb329059da30ff63"}, "tags": {"2.0--pyhd1c1de3_3": "sha256:7712b82c3a4b8e88e29038028da5609fac8216e1f2fa7743bb329059da30ff63"}, "docker": "quay.io/biocontainers/eden", "aliases": {"RNAshapes": "/usr/local/bin/RNAshapes", "dsdp5": "/usr/local/bin/dsdp5", "location_predictor": "/usr/local/bin/location_predictor", "model": "/usr/local/bin/model", "motif": "/usr/local/bin/motif", "motif_display.py": "/usr/local/bin/motif_display.py", "obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "transformseq": "/usr/local/bin/transformseq", "weblogo": "/usr/local/bin/weblogo", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize"}}
+config: {"url": "https://biocontainers.pro/tools/eden", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eden", "latest": {"2.0--pyhd1c1de3_3": "sha256:0a346416af6aa79b0ea638c7d648d9716d4170b2b675ee12794d0da266dcaa98"}, "tags": {"2.0--pyhd1c1de3_3": "sha256:0a346416af6aa79b0ea638c7d648d9716d4170b2b675ee12794d0da266dcaa98"}, "docker": "quay.io/biocontainers/eden", "aliases": {"RNAshapes": "/usr/local/bin/RNAshapes", "dsdp5": "/usr/local/bin/dsdp5", "location_predictor": "/usr/local/bin/location_predictor", "model": "/usr/local/bin/model", "motif": "/usr/local/bin/motif", "motif_display.py": "/usr/local/bin/motif_display.py", "obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "transformseq": "/usr/local/bin/transformseq", "weblogo": "/usr/local/bin/weblogo", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eden.

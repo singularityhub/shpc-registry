@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cocoscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cocoscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cocoscore/container.yaml"
-updated_at: "2024-07-12 02:57:47.063962"
+updated_at: "2024-07-13 02:55:13.546938"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/cocoscore"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.0.0--py_0"
 description: "shpc-registry automated BioContainers addition for cocoscore"
-config: {"url": "https://biocontainers.pro/tools/cocoscore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cocoscore", "latest": {"1.0.0--py_0": "sha256:933fb672bec523c1ec83e647770295f042fe7b48e8615f777811f97a7a3b6dd9"}, "tags": {"1.0.0--py_0": "sha256:933fb672bec523c1ec83e647770295f042fe7b48e8615f777811f97a7a3b6dd9"}, "docker": "quay.io/biocontainers/cocoscore", "aliases": {"fasttext": "/usr/local/bin/fasttext", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
+config: {"url": "https://biocontainers.pro/tools/cocoscore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cocoscore", "latest": {"1.0.0--py_0": "sha256:21027e006cf4c4d407327e9c29881a0dd5bc193d988da03a4846caef06ff5569"}, "tags": {"1.0.0--py_0": "sha256:21027e006cf4c4d407327e9c29881a0dd5bc193d988da03a4846caef06ff5569"}, "docker": "quay.io/biocontainers/cocoscore", "aliases": {"fasttext": "/usr/local/bin/fasttext", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cocoscore.

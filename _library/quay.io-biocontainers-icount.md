@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/icount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/icount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/icount/container.yaml"
-updated_at: "2024-07-12 03:14:00.044595"
+updated_at: "2024-07-13 03:10:33.091532"
 latest: "2.0.0--py_1"
 container_url: "https://biocontainers.pro/tools/icount"
 
 versions:
  - "2.0.0--py_1"
 description: "shpc-registry automated BioContainers addition for icount"
-config: {"url": "https://biocontainers.pro/tools/icount", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for icount", "latest": {"2.0.0--py_1": "sha256:3ea8df72e04087bbab743f075bafd3214b61d1cef9d32a30d3a4588e7538779b"}, "tags": {"2.0.0--py_1": "sha256:3ea8df72e04087bbab743f075bafd3214b61d1cef9d32a30d3a4588e7538779b"}, "docker": "quay.io/biocontainers/icount"}
+config: {"url": "https://biocontainers.pro/tools/icount", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for icount", "latest": {"2.0.0--py_1": "sha256:50d5f3cbcd7d7196c5be555ff59c973bfcd6edc8bac2d23a25e690773a54646e"}, "tags": {"2.0.0--py_1": "sha256:50d5f3cbcd7d7196c5be555ff59c973bfcd6edc8bac2d23a25e690773a54646e"}, "docker": "quay.io/biocontainers/icount"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/icount.

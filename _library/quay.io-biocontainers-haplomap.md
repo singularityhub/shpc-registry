@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/haplomap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haplomap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haplomap/container.yaml"
-updated_at: "2024-07-12 03:19:02.465266"
-latest: "0.1.0--h8cec121_2"
+updated_at: "2024-07-13 03:15:26.307625"
+latest: "0.1.1--h8cec121_0"
 container_url: "https://biocontainers.pro/tools/haplomap"
 aliases:
  - "haplomap"
 versions:
  - "0.1.0--hb5289fc_0"
  - "0.1.0--h8cec121_2"
+ - "0.1.1--h8cec121_0"
 description: "singularity registry hpc automated addition for haplomap"
-config: {"url": "https://biocontainers.pro/tools/haplomap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for haplomap", "latest": {"0.1.0--h8cec121_2": "sha256:66d41ba8edb455fbb1851328025c285b16ffe460caba74cdbf178fd83776b968"}, "tags": {"0.1.0--hb5289fc_0": "sha256:b9e6e7325db8b1abd95c2ce0235ff282477ab154292b35e95dfeffcaf102e05b", "0.1.0--h8cec121_2": "sha256:66d41ba8edb455fbb1851328025c285b16ffe460caba74cdbf178fd83776b968"}, "docker": "quay.io/biocontainers/haplomap", "aliases": {"haplomap": "/usr/local/bin/haplomap"}}
+config: {"url": "https://biocontainers.pro/tools/haplomap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for haplomap", "latest": {"0.1.1--h8cec121_0": "sha256:98d6ff8df596f7d5b569134e520e892e28337410513b2953b0f64808ff43452b"}, "tags": {"0.1.0--hb5289fc_0": "sha256:b9e6e7325db8b1abd95c2ce0235ff282477ab154292b35e95dfeffcaf102e05b", "0.1.0--h8cec121_2": "sha256:66d41ba8edb455fbb1851328025c285b16ffe460caba74cdbf178fd83776b968", "0.1.1--h8cec121_0": "sha256:98d6ff8df596f7d5b569134e520e892e28337410513b2953b0f64808ff43452b"}, "docker": "quay.io/biocontainers/haplomap", "aliases": {"haplomap": "/usr/local/bin/haplomap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/haplomap.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/haplomap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/haplomap:0.1.0--h8cec121_2
+$ shpc install quay.io/biocontainers/haplomap:0.1.1--h8cec121_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/haplomap/0.1.0--h8cec121_2
-$ module help quay.io/biocontainers/haplomap/0.1.0--h8cec121_2
+$ module load quay.io/biocontainers/haplomap/0.1.1--h8cec121_0
+$ module help quay.io/biocontainers/haplomap/0.1.1--h8cec121_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

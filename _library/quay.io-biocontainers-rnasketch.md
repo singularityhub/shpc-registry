@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnasketch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnasketch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnasketch/container.yaml"
-updated_at: "2024-07-12 02:39:29.913678"
+updated_at: "2024-07-13 02:38:29.169734"
 latest: "1.5--py_2"
 container_url: "https://biocontainers.pro/tools/rnasketch"
 aliases:
@@ -30,7 +30,7 @@ aliases:
 versions:
  - "1.5--py_2"
 description: "shpc-registry automated BioContainers addition for rnasketch"
-config: {"url": "https://biocontainers.pro/tools/rnasketch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnasketch", "latest": {"1.5--py_2": "sha256:4c1422044a4faa3bbc239967fd17c7421624c21ecb7be4cbebcd83c90905e9e6"}, "tags": {"1.5--py_2": "sha256:4c1422044a4faa3bbc239967fd17c7421624c21ecb7be4cbebcd83c90905e9e6"}, "docker": "quay.io/biocontainers/rnasketch", "aliases": {"RNAblueprint": "/usr/local/bin/RNAblueprint", "design-cofold.py": "/usr/local/bin/design-cofold.py", "design-energyshift.py": "/usr/local/bin/design-energyshift.py", "design-generategraphml.py": "/usr/local/bin/design-generategraphml.py", "design-ligandswitch.py": "/usr/local/bin/design-ligandswitch.py", "design-multistate.py": "/usr/local/bin/design-multistate.py", "design-printgraphml.py": "/usr/local/bin/design-printgraphml.py", "design-redprint-multistate.py": "/usr/local/bin/design-redprint-multistate.py", "design-thermoswitch.py": "/usr/local/bin/design-thermoswitch.py", "RNAdos": "/usr/local/bin/RNAdos", "igraph": "/usr/local/bin/igraph", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt"}}
+config: {"url": "https://biocontainers.pro/tools/rnasketch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnasketch", "latest": {"1.5--py_2": "sha256:acbcda0c22ad36f353f166b1f0c7ee669613c30e6750b3d1c2937f5a40854ba2"}, "tags": {"1.5--py_2": "sha256:acbcda0c22ad36f353f166b1f0c7ee669613c30e6750b3d1c2937f5a40854ba2"}, "docker": "quay.io/biocontainers/rnasketch", "aliases": {"RNAblueprint": "/usr/local/bin/RNAblueprint", "design-cofold.py": "/usr/local/bin/design-cofold.py", "design-energyshift.py": "/usr/local/bin/design-energyshift.py", "design-generategraphml.py": "/usr/local/bin/design-generategraphml.py", "design-ligandswitch.py": "/usr/local/bin/design-ligandswitch.py", "design-multistate.py": "/usr/local/bin/design-multistate.py", "design-printgraphml.py": "/usr/local/bin/design-printgraphml.py", "design-redprint-multistate.py": "/usr/local/bin/design-redprint-multistate.py", "design-thermoswitch.py": "/usr/local/bin/design-thermoswitch.py", "RNAdos": "/usr/local/bin/RNAdos", "igraph": "/usr/local/bin/igraph", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnasketch.

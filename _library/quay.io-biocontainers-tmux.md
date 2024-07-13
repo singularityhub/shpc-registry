@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tmux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tmux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tmux/container.yaml"
-updated_at: "2024-07-12 02:48:07.012826"
+updated_at: "2024-07-13 02:46:18.819144"
 latest: "2.1--1"
 container_url: "https://biocontainers.pro/tools/tmux"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "2.1--1"
 description: "shpc-registry automated BioContainers addition for tmux"
-config: {"url": "https://biocontainers.pro/tools/tmux", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tmux", "latest": {"2.1--1": "sha256:d913306f28590231f4972249bcaebadbcb7408c500601a8e5aef64bde00add4a"}, "tags": {"2.1--1": "sha256:d913306f28590231f4972249bcaebadbcb7408c500601a8e5aef64bde00add4a"}, "docker": "quay.io/biocontainers/tmux", "aliases": {"event_rpcgen.py": "/usr/local/bin/event_rpcgen.py", "tmux": "/usr/local/bin/tmux", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
+config: {"url": "https://biocontainers.pro/tools/tmux", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tmux", "latest": {"2.1--1": "sha256:c4918fc886a88a03a433726a35dd915e0ba25c4e42061e71603413d44ebbf282"}, "tags": {"2.1--1": "sha256:c4918fc886a88a03a433726a35dd915e0ba25c4e42061e71603413d44ebbf282"}, "docker": "quay.io/biocontainers/tmux", "aliases": {"event_rpcgen.py": "/usr/local/bin/event_rpcgen.py", "tmux": "/usr/local/bin/tmux", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tmux.

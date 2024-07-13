@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biocinstaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocinstaller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocinstaller/container.yaml"
-updated_at: "2024-07-12 03:16:08.444186"
+updated_at: "2024-07-13 03:12:37.306747"
 latest: "1.32.1--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocinstaller"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.32.1--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-biocinstaller"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biocinstaller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocinstaller", "latest": {"1.32.1--r351_0": "sha256:303d8c1f174ae78c32a1c30a2efdddd9b3a2aa7b47e49bddd67961afa7d8ede8"}, "tags": {"1.32.1--r351_0": "sha256:303d8c1f174ae78c32a1c30a2efdddd9b3a2aa7b47e49bddd67961afa7d8ede8"}, "docker": "quay.io/biocontainers/bioconductor-biocinstaller", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biocinstaller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocinstaller", "latest": {"1.32.1--r351_0": "sha256:aef6351481587105bc7d12a43add920f01ba88cd797f17389b7136a84bb5ce1b"}, "tags": {"1.32.1--r351_0": "sha256:aef6351481587105bc7d12a43add920f01ba88cd797f17389b7136a84bb5ce1b"}, "docker": "quay.io/biocontainers/bioconductor-biocinstaller", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biocinstaller.

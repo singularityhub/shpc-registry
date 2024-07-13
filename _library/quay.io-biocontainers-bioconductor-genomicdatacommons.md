@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomicdatacommons"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicdatacommons/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicdatacommons/container.yaml"
-updated_at: "2024-07-12 03:24:06.561046"
+updated_at: "2024-07-13 03:20:27.164630"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicdatacommons"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.24.2--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomicdatacommons"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicdatacommons", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicdatacommons", "latest": {"1.26.0--r43hdfd78af_0": "sha256:f86602768e3cbecf34c5e15445ff0db702b5b6ba3af79c1c26323fc132d576b6"}, "tags": {"1.8.0--r36_1": "sha256:79917c059f5e3476fc05277e3e547e3c492f4abba408c19ee482c84f77d35948", "1.22.0--r42hdfd78af_0": "sha256:917274470ce0934fa4ef67d8ec48a59c88717fdfa03a27bafae478326a50e8f1", "1.18.0--r41hdfd78af_0": "sha256:f8cd6a409a9099322bf63607f97c0b163ea4ba39ed78cc39e96e9f0fb7c7ffdd", "1.16.0--r41hdfd78af_0": "sha256:fa481d114a03eb0b05b569e68c398a86dc0bf0e249b909e96568d8be27acf3e5", "1.14.0--r40hdfd78af_1": "sha256:ecaf57e141df50aa1f45fd4738280ced0d8e2a52bfeccd9eaee0be357a7af192", "1.12.0--r40_0": "sha256:834e0bedeaf408bb6d35ccb6181d6e1993e58021256e2dae400cfe728c57207d", "1.24.2--r43hdfd78af_0": "sha256:734836fa67310dfb3b692281c6f5aed728a4c7243f8171868e793d7b770b0487", "1.26.0--r43hdfd78af_0": "sha256:f86602768e3cbecf34c5e15445ff0db702b5b6ba3af79c1c26323fc132d576b6"}, "docker": "quay.io/biocontainers/bioconductor-genomicdatacommons", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicdatacommons", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicdatacommons", "latest": {"1.26.0--r43hdfd78af_0": "sha256:f86602768e3cbecf34c5e15445ff0db702b5b6ba3af79c1c26323fc132d576b6"}, "tags": {"1.8.0--r36_1": "sha256:f640311607c59d5a03e7e7f94b9eaea90a5d48449e1511a8ca76f7f7dfeab0be", "1.22.0--r42hdfd78af_0": "sha256:917274470ce0934fa4ef67d8ec48a59c88717fdfa03a27bafae478326a50e8f1", "1.18.0--r41hdfd78af_0": "sha256:f8cd6a409a9099322bf63607f97c0b163ea4ba39ed78cc39e96e9f0fb7c7ffdd", "1.16.0--r41hdfd78af_0": "sha256:fa481d114a03eb0b05b569e68c398a86dc0bf0e249b909e96568d8be27acf3e5", "1.14.0--r40hdfd78af_1": "sha256:ecaf57e141df50aa1f45fd4738280ced0d8e2a52bfeccd9eaee0be357a7af192", "1.12.0--r40_0": "sha256:834e0bedeaf408bb6d35ccb6181d6e1993e58021256e2dae400cfe728c57207d", "1.24.2--r43hdfd78af_0": "sha256:734836fa67310dfb3b692281c6f5aed728a4c7243f8171868e793d7b770b0487", "1.26.0--r43hdfd78af_0": "sha256:f86602768e3cbecf34c5e15445ff0db702b5b6ba3af79c1c26323fc132d576b6"}, "docker": "quay.io/biocontainers/bioconductor-genomicdatacommons", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomicdatacommons.

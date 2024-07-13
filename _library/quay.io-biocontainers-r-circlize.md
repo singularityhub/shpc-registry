@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-circlize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-circlize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-circlize/container.yaml"
-updated_at: "2024-07-12 03:16:14.045722"
+updated_at: "2024-07-13 03:12:42.629810"
 latest: "0.3.3--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-circlize"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "0.3.3--r3.2.2_0"
  - "0.3.3--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-circlize"
-config: {"url": "https://biocontainers.pro/tools/r-circlize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-circlize", "latest": {"0.3.3--r3.2.2_0": "sha256:f5f693ad62aec8b8eec2382238551512ea42243fe10c59b854ce8f0d5f148b47"}, "tags": {"0.3.3--r3.2.2_0": "sha256:f5f693ad62aec8b8eec2382238551512ea42243fe10c59b854ce8f0d5f148b47", "0.3.3--r3.3.2_0": "sha256:cfe0f37d527d43ebe6eb286094f772cbb232486c7b5b0a35a94c2683156ecb0b"}, "docker": "quay.io/biocontainers/r-circlize", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-circlize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-circlize", "latest": {"0.3.3--r3.2.2_0": "sha256:ede9b4ab95098b07d85937fae9a728ec22ea75d05062e531c2ee906337385cd1"}, "tags": {"0.3.3--r3.2.2_0": "sha256:ede9b4ab95098b07d85937fae9a728ec22ea75d05062e531c2ee906337385cd1", "0.3.3--r3.3.2_0": "sha256:51971cc71f1443585d9730280bf91a314cda8937770e5b30c07e11f651fa06bb"}, "docker": "quay.io/biocontainers/r-circlize", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-circlize.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/medusa-data-fusion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/medusa-data-fusion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/medusa-data-fusion/container.yaml"
-updated_at: "2024-07-12 03:19:22.271417"
+updated_at: "2024-07-13 03:15:46.186656"
 latest: "0.1--pyh5ca1d4c_3"
 container_url: "https://biocontainers.pro/tools/medusa-data-fusion"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.1--pyh5ca1d4c_3"
 description: "shpc-registry automated BioContainers addition for medusa-data-fusion"
-config: {"url": "https://biocontainers.pro/tools/medusa-data-fusion", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for medusa-data-fusion", "latest": {"0.1--pyh5ca1d4c_3": "sha256:8bee5762bb4972426f6ad99e314aa4981369e1f4c66fce23fd2eb0586747a00d"}, "tags": {"0.1--pyh5ca1d4c_3": "sha256:8bee5762bb4972426f6ad99e314aa4981369e1f4c66fce23fd2eb0586747a00d"}, "docker": "quay.io/biocontainers/medusa-data-fusion", "aliases": {"f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/medusa-data-fusion", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for medusa-data-fusion", "latest": {"0.1--pyh5ca1d4c_3": "sha256:a24db75bcbe9a7d4696499c28bd67c65be4bd885413703de2d9b13045017429c"}, "tags": {"0.1--pyh5ca1d4c_3": "sha256:a24db75bcbe9a7d4696499c28bd67c65be4bd885413703de2d9b13045017429c"}, "docker": "quay.io/biocontainers/medusa-data-fusion", "aliases": {"f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/medusa-data-fusion.

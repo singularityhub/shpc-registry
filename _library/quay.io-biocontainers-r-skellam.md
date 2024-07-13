@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-skellam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-skellam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-skellam/container.yaml"
-updated_at: "2024-07-12 03:19:50.923607"
+updated_at: "2024-07-13 03:16:14.954002"
 latest: "0.2.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-skellam"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "0.2.0--r3.3.1_0"
  - "0.2.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-skellam"
-config: {"url": "https://biocontainers.pro/tools/r-skellam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-skellam", "latest": {"0.2.0--r3.3.1_0": "sha256:1494fc483e7bddcaceca16e19849be6da8ba6b35f6987aa54f3675dec9ca46cb"}, "tags": {"0.2.0--r3.3.1_0": "sha256:1494fc483e7bddcaceca16e19849be6da8ba6b35f6987aa54f3675dec9ca46cb", "0.2.0--r3.3.2_0": "sha256:d88dde97ed266a3c73ba00d1f20b2db20160f1630dab3bee1bf5b578de8fb16d"}, "docker": "quay.io/biocontainers/r-skellam", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-skellam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-skellam", "latest": {"0.2.0--r3.3.1_0": "sha256:73f9be93bec08f8343cb0fb1d0fc25d24c5e013698df8e293e8b859f71009365"}, "tags": {"0.2.0--r3.3.1_0": "sha256:73f9be93bec08f8343cb0fb1d0fc25d24c5e013698df8e293e8b859f71009365", "0.2.0--r3.3.2_0": "sha256:e93229d39a57d61f220c4480ecd1cc71d27b1d968caaaa1fc71279e6597cef4c"}, "docker": "quay.io/biocontainers/r-skellam", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-skellam.

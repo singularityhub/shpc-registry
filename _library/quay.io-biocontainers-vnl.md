@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/vnl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vnl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vnl/container.yaml"
-updated_at: "2024-07-12 02:40:21.539644"
+updated_at: "2024-07-13 02:39:15.439552"
 latest: "1.17.0--0"
 container_url: "https://biocontainers.pro/tools/vnl"
 
 versions:
  - "1.17.0--0"
 description: "shpc-registry automated BioContainers addition for vnl"
-config: {"url": "https://biocontainers.pro/tools/vnl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vnl", "latest": {"1.17.0--0": "sha256:c815800e7c93c164a2e7dc46793b011e03083873c505809adfe11382ca7e88b0"}, "tags": {"1.17.0--0": "sha256:c815800e7c93c164a2e7dc46793b011e03083873c505809adfe11382ca7e88b0"}, "docker": "quay.io/biocontainers/vnl"}
+config: {"url": "https://biocontainers.pro/tools/vnl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vnl", "latest": {"1.17.0--0": "sha256:4929d51c7035e5d19cf94ef7212b47657d2db1cf962f17e88db75225b393dd8a"}, "tags": {"1.17.0--0": "sha256:4929d51c7035e5d19cf94ef7212b47657d2db1cf962f17e88db75225b393dd8a"}, "docker": "quay.io/biocontainers/vnl"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vnl.

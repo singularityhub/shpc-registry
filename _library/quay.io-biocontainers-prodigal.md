@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prodigal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prodigal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prodigal/container.yaml"
-updated_at: "2024-07-12 03:19:59.904606"
+updated_at: "2024-07-13 03:16:23.962059"
 latest: "2.60--1"
 container_url: "https://biocontainers.pro/tools/prodigal"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "2.60--1"
 description: "shpc-registry automated BioContainers addition for prodigal"
-config: {"url": "https://biocontainers.pro/tools/prodigal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prodigal", "latest": {"2.60--1": "sha256:7a5993ac64925613deda1b927219d5569fcdee9535f868067800a923485b489b"}, "tags": {"2.60--1": "sha256:7a5993ac64925613deda1b927219d5569fcdee9535f868067800a923485b489b"}, "docker": "quay.io/biocontainers/prodigal", "aliases": {"prodigal": "/usr/local/bin/prodigal"}}
+config: {"url": "https://biocontainers.pro/tools/prodigal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prodigal", "latest": {"2.60--1": "sha256:edf9f767a028c79674ab18edcf554267af4426655d3368641f304b0f67eb8bfc"}, "tags": {"2.60--1": "sha256:edf9f767a028c79674ab18edcf554267af4426655d3368641f304b0f67eb8bfc"}, "docker": "quay.io/biocontainers/prodigal", "aliases": {"prodigal": "/usr/local/bin/prodigal"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prodigal.

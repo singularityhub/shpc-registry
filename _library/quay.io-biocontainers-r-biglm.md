@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-biglm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-biglm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-biglm/container.yaml"
-updated_at: "2024-07-12 02:46:17.110393"
+updated_at: "2024-07-13 02:44:38.428678"
 latest: "0.9_1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-biglm"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "0.9_1--r3.3.1_0"
  - "0.9_1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-biglm"
-config: {"url": "https://biocontainers.pro/tools/r-biglm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-biglm", "latest": {"0.9_1--r3.3.1_0": "sha256:4e96c2fe7caee8f9d688efe9853ea404276dc351a5ee8b1184fe1f5f36d3c61b"}, "tags": {"0.9_1--r3.3.1_0": "sha256:4e96c2fe7caee8f9d688efe9853ea404276dc351a5ee8b1184fe1f5f36d3c61b", "0.9_1--r3.3.2_0": "sha256:38c5b3f549273dbe4060b5522475d75a7aefb9ba44cccf3e65e147c20e2bc709"}, "docker": "quay.io/biocontainers/r-biglm", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-biglm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-biglm", "latest": {"0.9_1--r3.3.1_0": "sha256:f2e6c2688ff3a003c2c1064166a6147ecc04090daca1b8119adc775d1bf51657"}, "tags": {"0.9_1--r3.3.1_0": "sha256:f2e6c2688ff3a003c2c1064166a6147ecc04090daca1b8119adc775d1bf51657", "0.9_1--r3.3.2_0": "sha256:f699fe175e5de5ee92292bd46e548afb350b45907e88078fce9f8f5417546126"}, "docker": "quay.io/biocontainers/r-biglm", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-biglm.

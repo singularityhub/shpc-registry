@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-anopheles.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anopheles.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anopheles.db0/container.yaml"
-updated_at: "2024-07-12 02:55:47.812809"
+updated_at: "2024-07-13 02:53:22.727365"
 latest: "3.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-anopheles.db0"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "3.17.0--r43hdfd78af_0"
  - "3.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-anopheles.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-anopheles.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-anopheles.db0", "latest": {"3.18.0--r43hdfd78af_0": "sha256:6ba52bac3ed242f2e304ccf774ca654cb9b04959ee9b7d3dc892b65d87ad3827"}, "tags": {"3.8.2--r36_1": "sha256:598ddcb5c6bffdca564b5a58082e648075183c09f1c7101f8f7b4c85fac023e4", "3.16.0--r42hdfd78af_0": "sha256:c545973d839814b0b9af09a1fcafbb1359bea0ba2155886290bf81da1f48f1fb", "3.14.0--r41hdfd78af_1": "sha256:b2a034ca5afdbc1d76d055ffbd24364b825c569431031eff3e428edac8304917", "3.13.0--r41hdfd78af_0": "sha256:c68df037f5151face9fce9c3f1464bdc97308aa7edfb2cfe95d3bffe74013344", "3.12.0--r40hdfd78af_1": "sha256:d384877709364d5625dc822cf5b8e9360a4f5471594ee938430a9594622e330c", "3.11.2--r40_0": "sha256:8bc79228e66960d951ce42c13daaecc86dfde57e31739f35c0e3ab917f0839d9", "3.17.0--r43hdfd78af_0": "sha256:c1c388baca3811d7d3c4e5dcb884c380c7470dc54925cfd0b1d58cc645902e09", "3.18.0--r43hdfd78af_0": "sha256:6ba52bac3ed242f2e304ccf774ca654cb9b04959ee9b7d3dc892b65d87ad3827"}, "docker": "quay.io/biocontainers/bioconductor-anopheles.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-anopheles.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-anopheles.db0", "latest": {"3.18.0--r43hdfd78af_0": "sha256:6ba52bac3ed242f2e304ccf774ca654cb9b04959ee9b7d3dc892b65d87ad3827"}, "tags": {"3.8.2--r36_1": "sha256:5369b49c5564c74777ad616f7db8c953a10270d631b26cbea0b1b9feae858f63", "3.16.0--r42hdfd78af_0": "sha256:c545973d839814b0b9af09a1fcafbb1359bea0ba2155886290bf81da1f48f1fb", "3.14.0--r41hdfd78af_1": "sha256:b2a034ca5afdbc1d76d055ffbd24364b825c569431031eff3e428edac8304917", "3.13.0--r41hdfd78af_0": "sha256:c68df037f5151face9fce9c3f1464bdc97308aa7edfb2cfe95d3bffe74013344", "3.12.0--r40hdfd78af_1": "sha256:d384877709364d5625dc822cf5b8e9360a4f5471594ee938430a9594622e330c", "3.11.2--r40_0": "sha256:8bc79228e66960d951ce42c13daaecc86dfde57e31739f35c0e3ab917f0839d9", "3.17.0--r43hdfd78af_0": "sha256:c1c388baca3811d7d3c4e5dcb884c380c7470dc54925cfd0b1d58cc645902e09", "3.18.0--r43hdfd78af_0": "sha256:6ba52bac3ed242f2e304ccf774ca654cb9b04959ee9b7d3dc892b65d87ad3827"}, "docker": "quay.io/biocontainers/bioconductor-anopheles.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-anopheles.db0.

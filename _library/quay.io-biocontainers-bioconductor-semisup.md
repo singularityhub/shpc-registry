@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-semisup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-semisup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-semisup/container.yaml"
-updated_at: "2024-07-12 03:05:36.268601"
+updated_at: "2024-07-13 03:02:33.735935"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-semisup"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-semisup"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-semisup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-semisup", "latest": {"1.26.0--r43hdfd78af_0": "sha256:2da6265fd89f26d22b66eb3f5426b297286ef5b9728800e4a4f3685caca029c1"}, "tags": {"1.8.0--r36_1": "sha256:96afb6b3fc4257cd13314b7a980e2c2f7b2c87d40478286254f0ed2039897915", "1.22.0--r42hdfd78af_0": "sha256:93089f6e87aec9f642a7586143e4f1919c8f672fc1cd7cb777cf9d0f7b4ecdbe", "1.18.0--r41hdfd78af_0": "sha256:d565d5890612bad3d1794c03f7664bc64cf77723a6e8a20142565d11e8a91ef9", "1.16.0--r41hdfd78af_0": "sha256:a837313bd5ae0ed3bfbfa37c8b7e268c1a0ad00a12946f871bc03dd65fd1b881", "1.14.0--r40hdfd78af_1": "sha256:b24d6497c902434eb7bb3b4f3a6b5cb076377e7048dcb4affae7b6bebb994cc0", "1.12.3--r40_0": "sha256:418ad264741f624b8d25bcff68314910257b8675801b0118bf1ef3201be4f6f5", "1.24.0--r43hdfd78af_0": "sha256:726e5325942708a3435caa64e2a8e33ec59153f2ccd796d4b0471f1b9cedbfe4", "1.26.0--r43hdfd78af_0": "sha256:2da6265fd89f26d22b66eb3f5426b297286ef5b9728800e4a4f3685caca029c1"}, "docker": "quay.io/biocontainers/bioconductor-semisup", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-semisup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-semisup", "latest": {"1.26.0--r43hdfd78af_0": "sha256:2da6265fd89f26d22b66eb3f5426b297286ef5b9728800e4a4f3685caca029c1"}, "tags": {"1.8.0--r36_1": "sha256:908e6aa7d0972558ea83ee5f04484c4bb8407cff3762071d7cd27774a5699a0c", "1.22.0--r42hdfd78af_0": "sha256:93089f6e87aec9f642a7586143e4f1919c8f672fc1cd7cb777cf9d0f7b4ecdbe", "1.18.0--r41hdfd78af_0": "sha256:d565d5890612bad3d1794c03f7664bc64cf77723a6e8a20142565d11e8a91ef9", "1.16.0--r41hdfd78af_0": "sha256:a837313bd5ae0ed3bfbfa37c8b7e268c1a0ad00a12946f871bc03dd65fd1b881", "1.14.0--r40hdfd78af_1": "sha256:b24d6497c902434eb7bb3b4f3a6b5cb076377e7048dcb4affae7b6bebb994cc0", "1.12.3--r40_0": "sha256:418ad264741f624b8d25bcff68314910257b8675801b0118bf1ef3201be4f6f5", "1.24.0--r43hdfd78af_0": "sha256:726e5325942708a3435caa64e2a8e33ec59153f2ccd796d4b0471f1b9cedbfe4", "1.26.0--r43hdfd78af_0": "sha256:2da6265fd89f26d22b66eb3f5426b297286ef5b9728800e4a4f3685caca029c1"}, "docker": "quay.io/biocontainers/bioconductor-semisup", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-semisup.

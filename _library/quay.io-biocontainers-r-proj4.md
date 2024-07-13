@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-proj4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-proj4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-proj4/container.yaml"
-updated_at: "2024-07-12 03:14:14.382779"
+updated_at: "2024-07-13 03:10:46.918258"
 latest: "1.0_8--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-proj4"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.0_8--r3.3.2_0"
+ - "1.0_8--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-proj4"
-config: {"url": "https://biocontainers.pro/tools/r-proj4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-proj4", "latest": {"1.0_8--r3.3.2_0": "sha256:17dd4a9946ac11e1bbd45385350fb7e9ac457327009a51596c8084bc55585c1a"}, "tags": {"1.0_8--r3.3.2_0": "sha256:17dd4a9946ac11e1bbd45385350fb7e9ac457327009a51596c8084bc55585c1a"}, "docker": "quay.io/biocontainers/r-proj4", "aliases": {"nad2bin": "/usr/local/bin/nad2bin", "invgeod": "/usr/local/bin/invgeod", "invproj": "/usr/local/bin/invproj", "cs2cs": "/usr/local/bin/cs2cs", "geod": "/usr/local/bin/geod", "proj": "/usr/local/bin/proj", "uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-proj4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-proj4", "latest": {"1.0_8--r3.3.2_0": "sha256:ae1e658992836fa56bdfb547e1f1d876211dd357b9ff9a65bc0a13b77d9adef8"}, "tags": {"1.0_8--r3.3.2_0": "sha256:ae1e658992836fa56bdfb547e1f1d876211dd357b9ff9a65bc0a13b77d9adef8", "1.0_8--r3.2.2_0": "sha256:768219187dffe60e1a7e745520b9f184db3f99b9c1eabf773ac4e3bef18fca0c"}, "docker": "quay.io/biocontainers/r-proj4", "aliases": {"nad2bin": "/usr/local/bin/nad2bin", "invgeod": "/usr/local/bin/invgeod", "invproj": "/usr/local/bin/invproj", "cs2cs": "/usr/local/bin/cs2cs", "geod": "/usr/local/bin/geod", "proj": "/usr/local/bin/proj", "uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-proj4.

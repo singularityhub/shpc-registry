@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fgap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fgap/container.yaml"
-updated_at: "2024-07-12 02:57:00.935309"
+updated_at: "2024-07-13 02:54:30.915889"
 latest: "1.8.1--0"
 container_url: "https://biocontainers.pro/tools/fgap"
 aliases:
@@ -32,7 +32,7 @@ aliases:
 versions:
  - "1.8.1--0"
 description: "shpc-registry automated BioContainers addition for fgap"
-config: {"url": "https://biocontainers.pro/tools/fgap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fgap", "latest": {"1.8.1--0": "sha256:89d4f3d30391da72a2a4f15c4d85ed244b3ae25a4678c5acac1e7454824a660f"}, "tags": {"1.8.1--0": "sha256:89d4f3d30391da72a2a4f15c4d85ed244b3ae25a4678c5acac1e7454824a660f"}, "docker": "quay.io/biocontainers/fgap", "aliases": {"FGAP": "/usr/local/bin/FGAP", "fgap.m": "/usr/local/bin/fgap.m", "mkoctfile": "/usr/local/bin/mkoctfile", "mkoctfile-4.2.1": "/usr/local/bin/mkoctfile-4.2.1", "octave": "/usr/local/bin/octave", "octave-4.2.1": "/usr/local/bin/octave-4.2.1", "octave-cli": "/usr/local/bin/octave-cli", "octave-cli-4.2.1": "/usr/local/bin/octave-cli-4.2.1", "octave-config": "/usr/local/bin/octave-config", "octave-config-4.2.1": "/usr/local/bin/octave-config-4.2.1", "sndfile-regtest": "/usr/local/bin/sndfile-regtest", "flac": "/usr/local/bin/flac", "metaflac": "/usr/local/bin/metaflac", "sndfile-cmp": "/usr/local/bin/sndfile-cmp", "sndfile-concat": "/usr/local/bin/sndfile-concat", "sndfile-convert": "/usr/local/bin/sndfile-convert", "sndfile-deinterleave": "/usr/local/bin/sndfile-deinterleave", "sndfile-info": "/usr/local/bin/sndfile-info", "sndfile-interleave": "/usr/local/bin/sndfile-interleave", "sndfile-metadata-get": "/usr/local/bin/sndfile-metadata-get", "sndfile-metadata-set": "/usr/local/bin/sndfile-metadata-set"}}
+config: {"url": "https://biocontainers.pro/tools/fgap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fgap", "latest": {"1.8.1--0": "sha256:162fe3d47c71c8684d788c12d8b37532ea433efd4880e8e514e26d36af67eb3d"}, "tags": {"1.8.1--0": "sha256:162fe3d47c71c8684d788c12d8b37532ea433efd4880e8e514e26d36af67eb3d"}, "docker": "quay.io/biocontainers/fgap", "aliases": {"FGAP": "/usr/local/bin/FGAP", "fgap.m": "/usr/local/bin/fgap.m", "mkoctfile": "/usr/local/bin/mkoctfile", "mkoctfile-4.2.1": "/usr/local/bin/mkoctfile-4.2.1", "octave": "/usr/local/bin/octave", "octave-4.2.1": "/usr/local/bin/octave-4.2.1", "octave-cli": "/usr/local/bin/octave-cli", "octave-cli-4.2.1": "/usr/local/bin/octave-cli-4.2.1", "octave-config": "/usr/local/bin/octave-config", "octave-config-4.2.1": "/usr/local/bin/octave-config-4.2.1", "sndfile-regtest": "/usr/local/bin/sndfile-regtest", "flac": "/usr/local/bin/flac", "metaflac": "/usr/local/bin/metaflac", "sndfile-cmp": "/usr/local/bin/sndfile-cmp", "sndfile-concat": "/usr/local/bin/sndfile-concat", "sndfile-convert": "/usr/local/bin/sndfile-convert", "sndfile-deinterleave": "/usr/local/bin/sndfile-deinterleave", "sndfile-info": "/usr/local/bin/sndfile-info", "sndfile-interleave": "/usr/local/bin/sndfile-interleave", "sndfile-metadata-get": "/usr/local/bin/sndfile-metadata-get", "sndfile-metadata-set": "/usr/local/bin/sndfile-metadata-set"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fgap.

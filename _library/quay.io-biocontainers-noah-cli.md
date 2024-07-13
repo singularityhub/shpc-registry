@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/noah-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/noah-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/noah-cli/container.yaml"
-updated_at: "2024-07-12 02:40:04.821898"
+updated_at: "2024-07-13 02:39:00.452444"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/noah-cli"
 aliases:

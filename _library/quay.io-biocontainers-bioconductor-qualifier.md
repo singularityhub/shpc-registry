@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-qualifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qualifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qualifier/container.yaml"
-updated_at: "2024-07-12 03:18:19.073383"
+updated_at: "2024-07-13 03:14:43.205751"
 latest: "1.29.1--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qualifier"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.29.1--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-qualifier"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-qualifier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-qualifier", "latest": {"1.29.1--r36_0": "sha256:5dde2569b1b6e67b7e205f727a931520fe4f015fa3b9de3fd57e10d87a921f4c"}, "tags": {"1.29.1--r36_0": "sha256:5dde2569b1b6e67b7e205f727a931520fe4f015fa3b9de3fd57e10d87a921f4c"}, "docker": "quay.io/biocontainers/bioconductor-qualifier", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-qualifier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-qualifier", "latest": {"1.29.1--r36_0": "sha256:ab81c26b9437429a0da415e5c6e26935eec2145dac3eeccbb14acbe370589ef3"}, "tags": {"1.29.1--r36_0": "sha256:ab81c26b9437429a0da415e5c6e26935eec2145dac3eeccbb14acbe370589ef3"}, "docker": "quay.io/biocontainers/bioconductor-qualifier", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-qualifier.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/backports.unittest_mock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/backports.unittest_mock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/backports.unittest_mock/container.yaml"
-updated_at: "2024-07-12 02:51:39.867240"
+updated_at: "2024-07-13 02:49:33.390355"
 latest: "1.3--py_2"
 container_url: "https://biocontainers.pro/tools/backports.unittest_mock"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.3--py_2"
 description: "shpc-registry automated BioContainers addition for backports.unittest_mock"
-config: {"url": "https://biocontainers.pro/tools/backports.unittest_mock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for backports.unittest_mock", "latest": {"1.3--py_2": "sha256:7ce0065f924f9e22e8487e3696a78fe043317f21f0d0567d2bd327dc059f3108"}, "tags": {"1.3--py_2": "sha256:7ce0065f924f9e22e8487e3696a78fe043317f21f0d0567d2bd327dc059f3108"}, "docker": "quay.io/biocontainers/backports.unittest_mock", "aliases": {"pbr": "/usr/local/bin/pbr", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
+config: {"url": "https://biocontainers.pro/tools/backports.unittest_mock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for backports.unittest_mock", "latest": {"1.3--py_2": "sha256:bf7c523ddee20c2f7f02d1dea4fcf1dd6a22257076d35bd355ed98ca6a170c6e"}, "tags": {"1.3--py_2": "sha256:bf7c523ddee20c2f7f02d1dea4fcf1dd6a22257076d35bd355ed98ca6a170c6e"}, "docker": "quay.io/biocontainers/backports.unittest_mock", "aliases": {"pbr": "/usr/local/bin/pbr", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/backports.unittest_mock.

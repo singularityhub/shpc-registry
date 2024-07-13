@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/editdistance"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/editdistance/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/editdistance/container.yaml"
-updated_at: "2024-07-12 02:48:19.088750"
+updated_at: "2024-07-13 02:46:29.851063"
 latest: "0.4--py35_0"
 container_url: "https://biocontainers.pro/tools/editdistance"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "0.4--py35_0"
  - "0.4--py36_0"
 description: "shpc-registry automated BioContainers addition for editdistance"
-config: {"url": "https://biocontainers.pro/tools/editdistance", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for editdistance", "latest": {"0.4--py35_0": "sha256:e56b5eac4e31f43c6f9b7b5fa076a990258bde1657c2e49f43479ec4e122d69f"}, "tags": {"0.4--py35_0": "sha256:e56b5eac4e31f43c6f9b7b5fa076a990258bde1657c2e49f43479ec4e122d69f", "0.4--py36_0": "sha256:6604eac9a4cf1a910cbce56de3f82faaba6f5bb3d4e2376bc9640d2dc90fcfab"}, "docker": "quay.io/biocontainers/editdistance", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/editdistance", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for editdistance", "latest": {"0.4--py35_0": "sha256:32d096d2d0c505c31599f90f3129d8f4e415a2f88f992c575e340a5dc3af4039"}, "tags": {"0.4--py35_0": "sha256:32d096d2d0c505c31599f90f3129d8f4e415a2f88f992c575e340a5dc3af4039", "0.4--py36_0": "sha256:ab197d599f2bf9362f56b7d9c6b20c8cae538fd4178d9f21fa7eafbe9f74de3c"}, "docker": "quay.io/biocontainers/editdistance", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/editdistance.

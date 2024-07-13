@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sompy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sompy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sompy/container.yaml"
-updated_at: "2024-07-12 03:04:56.265418"
+updated_at: "2024-07-13 03:01:56.657736"
 latest: "0.1.1--pyh24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/sompy"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.1.1--pyh24bf2e0_1"
 description: "shpc-registry automated BioContainers addition for sompy"
-config: {"url": "https://biocontainers.pro/tools/sompy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sompy", "latest": {"0.1.1--pyh24bf2e0_1": "sha256:f7d7819c225379354f0e62384f8161f5b61cbc215161c929efed8a8d2ff8a71e"}, "tags": {"0.1.1--pyh24bf2e0_1": "sha256:f7d7819c225379354f0e62384f8161f5b61cbc215161c929efed8a8d2ff8a71e"}, "docker": "quay.io/biocontainers/sompy", "aliases": {"g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo"}}
+config: {"url": "https://biocontainers.pro/tools/sompy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sompy", "latest": {"0.1.1--pyh24bf2e0_1": "sha256:75080ec832f173141fa9bfe160d6d9bcb1c7d72635c5d69043b0b097e970e52e"}, "tags": {"0.1.1--pyh24bf2e0_1": "sha256:75080ec832f173141fa9bfe160d6d9bcb1c7d72635c5d69043b0b097e970e52e"}, "docker": "quay.io/biocontainers/sompy", "aliases": {"g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sompy.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dbgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dbgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dbgraph/container.yaml"
-updated_at: "2024-07-12 02:46:46.548219"
+updated_at: "2024-07-13 02:45:05.227156"
 latest: "v1.0.0--h6bb024c_1"
 container_url: "https://biocontainers.pro/tools/dbgraph"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "v1.0.0--h6bb024c_1"
 description: "shpc-registry automated BioContainers addition for dbgraph"
-config: {"url": "https://biocontainers.pro/tools/dbgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dbgraph", "latest": {"v1.0.0--h6bb024c_1": "sha256:d95c5d33e8af82ef9df865e3196ca1da968cdd4c523877c54ca6c6930d1aa6f5"}, "tags": {"v1.0.0--h6bb024c_1": "sha256:d95c5d33e8af82ef9df865e3196ca1da968cdd4c523877c54ca6c6930d1aa6f5"}, "docker": "quay.io/biocontainers/dbgraph", "aliases": {"DBGraph2Pro": "/usr/local/bin/DBGraph2Pro", "DBGraphPep2Pro": "/usr/local/bin/DBGraphPep2Pro"}}
+config: {"url": "https://biocontainers.pro/tools/dbgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dbgraph", "latest": {"v1.0.0--h6bb024c_1": "sha256:790328a5fef33094f1e01d6b02aec144d4a617877c118362c3fb3c8bd1ad8a0b"}, "tags": {"v1.0.0--h6bb024c_1": "sha256:790328a5fef33094f1e01d6b02aec144d4a617877c118362c3fb3c8bd1ad8a0b"}, "docker": "quay.io/biocontainers/dbgraph", "aliases": {"DBGraph2Pro": "/usr/local/bin/DBGraph2Pro", "DBGraphPep2Pro": "/usr/local/bin/DBGraphPep2Pro"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dbgraph.

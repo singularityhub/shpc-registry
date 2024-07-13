@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-spocc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-spocc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-spocc/container.yaml"
-updated_at: "2024-07-12 02:53:56.079142"
+updated_at: "2024-07-13 02:51:38.610027"
 latest: "1.2.2"
 container_url: "https://biocontainers.pro/tools/r-spocc"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "0.9.0--r351h6115d3f_1"
  - "1.2.2"
 description: "shpc-registry automated BioContainers addition for r-spocc"
-config: {"url": "https://biocontainers.pro/tools/r-spocc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-spocc", "latest": {"1.2.2": "sha256:0c07649f480c056f8fc648a69c88403ce9f23bfc32cc5eab9212d7f8675cc2c0"}, "tags": {"0.9.0--r351h6115d3f_1": "sha256:d24449edb2c6160e026a6613489ee28901d62cb84968f6d9578aef9d467c444f", "1.2.2": "sha256:0c07649f480c056f8fc648a69c88403ce9f23bfc32cc5eab9212d7f8675cc2c0"}, "docker": "quay.io/biocontainers/r-spocc", "aliases": {"geos-config": "/usr/local/bin/geos-config", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-spocc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-spocc", "latest": {"1.2.2": "sha256:0c07649f480c056f8fc648a69c88403ce9f23bfc32cc5eab9212d7f8675cc2c0"}, "tags": {"0.9.0--r351h6115d3f_1": "sha256:2fdbce7c8739e0851ef0e74cb2e9ab2506e5e7cce10ed822e2daba99bed0aa0d", "1.2.2": "sha256:0c07649f480c056f8fc648a69c88403ce9f23bfc32cc5eab9212d7f8675cc2c0"}, "docker": "quay.io/biocontainers/r-spocc", "aliases": {"geos-config": "/usr/local/bin/geos-config", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-spocc.

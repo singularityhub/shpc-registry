@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-nodiv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nodiv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nodiv/container.yaml"
-updated_at: "2024-07-12 02:59:01.317340"
+updated_at: "2024-07-13 02:56:22.457307"
 latest: "1.3.0--r351h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-nodiv"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.3.0--r351h6115d3f_1"
 description: "shpc-registry automated BioContainers addition for r-nodiv"
-config: {"url": "https://biocontainers.pro/tools/r-nodiv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nodiv", "latest": {"1.3.0--r351h6115d3f_1": "sha256:4d03514f5b92d8240b370565062abd92fe71b4a7a0efb1d6af5e9f7464028c4c"}, "tags": {"1.3.0--r351h6115d3f_1": "sha256:4d03514f5b92d8240b370565062abd92fe71b4a7a0efb1d6af5e9f7464028c4c"}, "docker": "quay.io/biocontainers/r-nodiv", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-nodiv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nodiv", "latest": {"1.3.0--r351h6115d3f_1": "sha256:2ba942c957fec69e26eee15213eb1beb69573f32fe01157b03b48a880dff98b0"}, "tags": {"1.3.0--r351h6115d3f_1": "sha256:2ba942c957fec69e26eee15213eb1beb69573f32fe01157b03b48a880dff98b0"}, "docker": "quay.io/biocontainers/r-nodiv", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-nodiv.

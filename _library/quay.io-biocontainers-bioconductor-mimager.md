@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mimager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mimager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mimager/container.yaml"
-updated_at: "2024-07-12 02:53:11.817098"
+updated_at: "2024-07-13 02:50:57.786665"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mimager"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mimager"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mimager", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mimager", "latest": {"1.26.0--r43hdfd78af_0": "sha256:bd54ea439be0daf79ccd9df57b84c74f3f660a31ab6a3adb68ab079a9665b19b"}, "tags": {"1.8.0--r36_1": "sha256:b9fe4a0e8e36df50a50af04b82afa7fe2aada1d9f7b162a5ec1116bb8d5410e0", "1.22.0--r42hdfd78af_0": "sha256:04229fe8084bc75a9e8720c79c916a652df5122583d36eda5b136101cbfac867", "1.18.0--r41hdfd78af_0": "sha256:2f4e19a44e6c24a2a393a0f2788342d77779b62ad7181f40c18ea5192dc77735", "1.16.0--r41hdfd78af_0": "sha256:42ce940470fe14262e92462e96680e41546305db14270005daf4f5c7a9465997", "1.14.0--r40hdfd78af_1": "sha256:7dbf86e987b2ddeb7d789a80f9ae8daf1e88bd766046981150097c50c3498c41", "1.12.0--r40_0": "sha256:ea71a7f9fe9804b2158b25e916321c57294b421a67f2a9fe8bedf8549a1cb9c6", "1.24.0--r43hdfd78af_0": "sha256:928905b85f17608c626d8fabe3703ef87ab608e7d9ffe6f87795e7245d746ff8", "1.26.0--r43hdfd78af_0": "sha256:bd54ea439be0daf79ccd9df57b84c74f3f660a31ab6a3adb68ab079a9665b19b"}, "docker": "quay.io/biocontainers/bioconductor-mimager", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mimager", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mimager", "latest": {"1.26.0--r43hdfd78af_0": "sha256:bd54ea439be0daf79ccd9df57b84c74f3f660a31ab6a3adb68ab079a9665b19b"}, "tags": {"1.8.0--r36_1": "sha256:3827c21fffe6fda5af54efc53567e21a15ecf30b67869551eb1668006c75039c", "1.22.0--r42hdfd78af_0": "sha256:04229fe8084bc75a9e8720c79c916a652df5122583d36eda5b136101cbfac867", "1.18.0--r41hdfd78af_0": "sha256:2f4e19a44e6c24a2a393a0f2788342d77779b62ad7181f40c18ea5192dc77735", "1.16.0--r41hdfd78af_0": "sha256:42ce940470fe14262e92462e96680e41546305db14270005daf4f5c7a9465997", "1.14.0--r40hdfd78af_1": "sha256:7dbf86e987b2ddeb7d789a80f9ae8daf1e88bd766046981150097c50c3498c41", "1.12.0--r40_0": "sha256:ea71a7f9fe9804b2158b25e916321c57294b421a67f2a9fe8bedf8549a1cb9c6", "1.24.0--r43hdfd78af_0": "sha256:928905b85f17608c626d8fabe3703ef87ab608e7d9ffe6f87795e7245d746ff8", "1.26.0--r43hdfd78af_0": "sha256:bd54ea439be0daf79ccd9df57b84c74f3f660a31ab6a3adb68ab079a9665b19b"}, "docker": "quay.io/biocontainers/bioconductor-mimager", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mimager.

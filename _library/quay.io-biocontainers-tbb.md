@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/tbb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tbb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tbb/container.yaml"
-updated_at: "2024-07-12 03:05:47.423143"
+updated_at: "2024-07-13 03:02:43.999096"
 latest: "4.4_20150728--0"
 container_url: "https://biocontainers.pro/tools/tbb"
 
 versions:
  - "4.4_20150728--0"
 description: "shpc-registry automated BioContainers addition for tbb"
-config: {"url": "https://biocontainers.pro/tools/tbb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tbb", "latest": {"4.4_20150728--0": "sha256:ddf897ca939f561a5a0565cc1ad9b6540d6791486e2cec51900d4f259b57fe01"}, "tags": {"4.4_20150728--0": "sha256:ddf897ca939f561a5a0565cc1ad9b6540d6791486e2cec51900d4f259b57fe01"}, "docker": "quay.io/biocontainers/tbb"}
+config: {"url": "https://biocontainers.pro/tools/tbb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tbb", "latest": {"4.4_20150728--0": "sha256:7a7ffc1fbcfd0d86b5a496cf54795331e5d957b480406810685b73d4fd6cca92"}, "tags": {"4.4_20150728--0": "sha256:7a7ffc1fbcfd0d86b5a496cf54795331e5d957b480406810685b73d4fd6cca92"}, "docker": "quay.io/biocontainers/tbb"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tbb.

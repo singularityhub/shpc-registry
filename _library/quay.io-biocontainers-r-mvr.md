@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mvr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mvr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mvr/container.yaml"
-updated_at: "2024-07-12 03:13:11.936670"
+updated_at: "2024-07-13 03:09:46.764016"
 latest: "1.33.0--r351h29659fb_1"
 container_url: "https://biocontainers.pro/tools/r-mvr"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.33.0--r351h29659fb_1"
 description: "shpc-registry automated BioContainers addition for r-mvr"
-config: {"url": "https://biocontainers.pro/tools/r-mvr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mvr", "latest": {"1.33.0--r351h29659fb_1": "sha256:f7821cb1a9d7ce15a2c57e9399530eca62ef8e3712f1a46b6dad8f986813e2b5"}, "tags": {"1.33.0--r351h29659fb_1": "sha256:f7821cb1a9d7ce15a2c57e9399530eca62ef8e3712f1a46b6dad8f986813e2b5"}, "docker": "quay.io/biocontainers/r-mvr", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-mvr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mvr", "latest": {"1.33.0--r351h29659fb_1": "sha256:cdab88d86d4acc5d30494435197c7518a619c371983cc7799fc740a24ed04e4e"}, "tags": {"1.33.0--r351h29659fb_1": "sha256:cdab88d86d4acc5d30494435197c7518a619c371983cc7799fc740a24ed04e4e"}, "docker": "quay.io/biocontainers/r-mvr", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mvr.

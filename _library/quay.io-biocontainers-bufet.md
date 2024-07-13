@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bufet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bufet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bufet/container.yaml"
-updated_at: "2024-07-12 03:03:37.490704"
+updated_at: "2024-07-13 03:00:41.494444"
 latest: "1.0--py27h470a237_0"
 container_url: "https://biocontainers.pro/tools/bufet"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.0--py27h470a237_0"
  - "1.0--py36h470a237_0"
 description: "shpc-registry automated BioContainers addition for bufet"
-config: {"url": "https://biocontainers.pro/tools/bufet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bufet", "latest": {"1.0--py27h470a237_0": "sha256:94f7939a273bc688d28fd0257890e2fbf1b90b703df9682de9e18b29b82c08d0"}, "tags": {"1.0--py27h470a237_0": "sha256:94f7939a273bc688d28fd0257890e2fbf1b90b703df9682de9e18b29b82c08d0", "1.0--py36h470a237_0": "sha256:f0543732c1c578476e6f077f6bd16c9135618c9f83437b1f5d4b9d873bff70d7"}, "docker": "quay.io/biocontainers/bufet", "aliases": {"bufet.bin": "/usr/local/bin/bufet.bin", "bufet.py": "/usr/local/bin/bufet.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/bufet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bufet", "latest": {"1.0--py27h470a237_0": "sha256:baa9c116b6cfe1c3f151eb8e1a10608c54ed17d7f53ef73a40b74fdd4b9af970"}, "tags": {"1.0--py27h470a237_0": "sha256:baa9c116b6cfe1c3f151eb8e1a10608c54ed17d7f53ef73a40b74fdd4b9af970", "1.0--py36h470a237_0": "sha256:17b6ae8920096e8ff34472721444bde90c8a568eaaaa28ecbd06ba8e961a0f4e"}, "docker": "quay.io/biocontainers/bufet", "aliases": {"bufet.bin": "/usr/local/bin/bufet.bin", "bufet.py": "/usr/local/bin/bufet.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bufet.

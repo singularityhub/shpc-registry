@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rmap/container.yaml"
-updated_at: "2024-07-12 02:56:37.317573"
+updated_at: "2024-07-13 02:54:08.855068"
 latest: "2.1--h2d50403_1"
 container_url: "https://biocontainers.pro/tools/rmap"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "2.1--h2d50403_1"
 description: "shpc-registry automated BioContainers addition for rmap"
-config: {"url": "https://biocontainers.pro/tools/rmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rmap", "latest": {"2.1--h2d50403_1": "sha256:b4370a95f8169026ad015036a4a618b61d10c03e2e75aa2e0226bdd229f20769"}, "tags": {"2.1--h2d50403_1": "sha256:b4370a95f8169026ad015036a4a618b61d10c03e2e75aa2e0226bdd229f20769"}, "docker": "quay.io/biocontainers/rmap", "aliases": {"bedoverlap": "/usr/local/bin/bedoverlap", "binreads": "/usr/local/bin/binreads", "deadzones": "/usr/local/bin/deadzones", "mapsifter": "/usr/local/bin/mapsifter", "rmap": "/usr/local/bin/rmap", "rmap-pe": "/usr/local/bin/rmap-pe", "rmapbs": "/usr/local/bin/rmapbs", "rmapbs-pe": "/usr/local/bin/rmapbs-pe", "sigoverlap": "/usr/local/bin/sigoverlap", "simreads": "/usr/local/bin/simreads", "simreadsbs": "/usr/local/bin/simreadsbs", "simreadspe": "/usr/local/bin/simreadspe", "extractseq": "/usr/local/bin/extractseq"}}
+config: {"url": "https://biocontainers.pro/tools/rmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rmap", "latest": {"2.1--h2d50403_1": "sha256:42953f59f6f9fa137ae402da4842c2be733fe268a131ac2bf706a8afb27647a8"}, "tags": {"2.1--h2d50403_1": "sha256:42953f59f6f9fa137ae402da4842c2be733fe268a131ac2bf706a8afb27647a8"}, "docker": "quay.io/biocontainers/rmap", "aliases": {"bedoverlap": "/usr/local/bin/bedoverlap", "binreads": "/usr/local/bin/binreads", "deadzones": "/usr/local/bin/deadzones", "mapsifter": "/usr/local/bin/mapsifter", "rmap": "/usr/local/bin/rmap", "rmap-pe": "/usr/local/bin/rmap-pe", "rmapbs": "/usr/local/bin/rmapbs", "rmapbs-pe": "/usr/local/bin/rmapbs-pe", "sigoverlap": "/usr/local/bin/sigoverlap", "simreads": "/usr/local/bin/simreads", "simreadsbs": "/usr/local/bin/simreadsbs", "simreadspe": "/usr/local/bin/simreadspe", "extractseq": "/usr/local/bin/extractseq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rmap.
