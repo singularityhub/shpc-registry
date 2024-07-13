@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/connectome-workbench
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for connectome-workbench
 latest:
-  1.3.2--h1b11a2a_0: sha256:696ba4d4c6b91410e3e8ae0890c9ca058d62de6178213584bb2af66f645fb95c
+  1.3.2--h1b11a2a_0: sha256:399e9061585d36fa03888a4945f769aa1e5a61264b4a65849e02bc8512922cac
 tags:
-  1.3.2--h1b11a2a_0: sha256:696ba4d4c6b91410e3e8ae0890c9ca058d62de6178213584bb2af66f645fb95c
+  1.3.2--h1b11a2a_0: sha256:399e9061585d36fa03888a4945f769aa1e5a61264b4a65849e02bc8512922cac
 docker: quay.io/biocontainers/connectome-workbench

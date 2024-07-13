@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-flowr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-flowr
 latest:
-  0.9.10--r3.3.2_0: sha256:0ed54307477c3ea5a63e27c0ca4ee027a41b6eb261d1325a7072b3be32e18922
+  0.9.10--r3.3.2_0: sha256:91d508f53a1fd390493c8a33f60c9771a3d3c4de510dd889aeaaac940975c6ac
 tags:
-  0.9.10--r3.3.2_0: sha256:0ed54307477c3ea5a63e27c0ca4ee027a41b6eb261d1325a7072b3be32e18922
+  0.9.10--r3.3.2_0: sha256:91d508f53a1fd390493c8a33f60c9771a3d3c4de510dd889aeaaac940975c6ac
 docker: quay.io/biocontainers/r-flowr
 aliases:
   flowr: /usr/local/bin/flowr

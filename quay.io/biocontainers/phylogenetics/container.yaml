@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/phylogenetics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phylogenetics
 latest:
-  0.5.0--py_0: sha256:8da5a4fb774d18712985b5db0fc86fab6d381bb850b2001660dc1abb762dbe6a
+  0.5.0--py_0: sha256:0821ce1fd140c5aac9c93a66ba76a20d60f19a07fa5c0827b9ccbfed45249dfa
 tags:
-  0.5.0--py_0: sha256:8da5a4fb774d18712985b5db0fc86fab6d381bb850b2001660dc1abb762dbe6a
+  0.5.0--py_0: sha256:0821ce1fd140c5aac9c93a66ba76a20d60f19a07fa5c0827b9ccbfed45249dfa
 docker: quay.io/biocontainers/phylogenetics
 aliases:
   jupyter-console: /usr/local/bin/jupyter-console

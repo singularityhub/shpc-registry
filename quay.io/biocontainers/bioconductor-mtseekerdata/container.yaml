@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-mtseekerdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mtseekerdata
 latest:
-  1.2.0--r36_1: sha256:73433d39eefb0b020097a69f7063a802c96c29566303daf148795b4923b14131
+  1.2.0--r36_1: sha256:662f8b4a3f694f87d00ee389fe94489af572aaec159898864245a440cc8d89e4
 tags:
-  1.2.0--r36_1: sha256:73433d39eefb0b020097a69f7063a802c96c29566303daf148795b4923b14131
+  1.2.0--r36_1: sha256:662f8b4a3f694f87d00ee389fe94489af572aaec159898864245a440cc8d89e4
 docker: quay.io/biocontainers/bioconductor-mtseekerdata
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/osra
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for osra
 latest:
-  2.1.0--0: sha256:87a443d532e175201dc4e69a6e9cedb1cd80f24287e4e4eabe4bfef99535c5f8
+  2.1.0--0: sha256:625eead26506e20b4645c94249b554f1a81bb7bccaa90732ff3f20989279b754
 tags:
-  2.1.0--0: sha256:87a443d532e175201dc4e69a6e9cedb1cd80f24287e4e4eabe4bfef99535c5f8
+  2.1.0--0: sha256:625eead26506e20b4645c94249b554f1a81bb7bccaa90732ff3f20989279b754
 docker: quay.io/biocontainers/osra
 aliases:
   GraphicsMagick++-config: /usr/local/bin/GraphicsMagick++-config

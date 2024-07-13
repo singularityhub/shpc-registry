@@ -2,12 +2,14 @@ url: https://biocontainers.pro/tools/submission-excel2xml
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for submission-excel2xml
 latest:
-  2.8.1--hdfd78af_0: sha256:8c7fdb33f0b9af705a3c3745085d768075af427feca29531059383ff4f416690
+  3.0--hdfd78af_0: sha256:6886eb434b57155b344e86fe20e62df3f4c2ead5370f72b7cc8ea5765cb9ad59
 tags:
   2.0.0--hf0b54c8_0: sha256:8ffffb5c7df8e42f9b2ae583325e0e7619a7b8354f7434d4624560c10dd3bd07
   2.5--hdfd78af_0: sha256:418c528cb8800476abc553ab808c8c424cb6df41fe6cce2cb30f033423f0d777
   2.6--hdfd78af_0: sha256:340df444ab3b004d61f568c6210f3636ce01c839da2abce91f6d0e185b8209fd
   2.8.1--hdfd78af_0: sha256:8c7fdb33f0b9af705a3c3745085d768075af427feca29531059383ff4f416690
+  3.0--hdfd78af_0: sha256:6886eb434b57155b344e86fe20e62df3f4c2ead5370f72b7cc8ea5765cb9ad59
+  2.9.1--hdfd78af_0: sha256:200ac5fc9e6262357a0940fc947118753be82c919c911e9239ca54436281afc7
 docker: quay.io/biocontainers/submission-excel2xml
 aliases:
   addr2line: /usr/local/bin/addr2line

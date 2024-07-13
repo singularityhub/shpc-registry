@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/phizz
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phizz
 latest:
-  0.2.3--py_0: sha256:ad0e24138c90797fbbbb923270e3ba6dce877588f7551aa0535f31cfb0ec59d8
+  0.2.3--py_0: sha256:d200e6d99304da90bd8d88e53083307f408c5fb7a8046f7f5c70713976159cad
 tags:
-  0.2.3--py_0: sha256:ad0e24138c90797fbbbb923270e3ba6dce877588f7551aa0535f31cfb0ec59d8
+  0.2.3--py_0: sha256:d200e6d99304da90bd8d88e53083307f408c5fb7a8046f7f5c70713976159cad
 docker: quay.io/biocontainers/phizz
 aliases:
   phizz: /usr/local/bin/phizz

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-rjson
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rjson
 latest:
-  0.2.15--r3.3.2_0: sha256:5e946558733f86231f1333da4602aee4207c745f2805cc620bc704453d1e11f9
+  0.2.15--r3.3.2_0: sha256:15892563221f5cd5d4cc1673ef9c104fd969a018601f4d2a9c7d2c1dd397c980
 tags:
-  0.2.15--r3.3.2_0: sha256:5e946558733f86231f1333da4602aee4207c745f2805cc620bc704453d1e11f9
+  0.2.15--r3.3.2_0: sha256:15892563221f5cd5d4cc1673ef9c104fd969a018601f4d2a9c7d2c1dd397c980
 docker: quay.io/biocontainers/r-rjson
 aliases:
   uconv: /usr/local/bin/uconv

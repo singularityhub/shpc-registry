@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/spyder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for spyder
 latest:
-  3.3.1--py35_1: sha256:afc560b443bc794dac6ab6e1c41d4f5038ba0f7ee989c69abdcca72cae0eb538
+  3.3.1--py35_1: sha256:50f16e248e7724ac315b398e8a845b44e13252d8dd129a7e770b1d9fac2b56fc
 tags:
-  3.3.1--py35_1: sha256:afc560b443bc794dac6ab6e1c41d4f5038ba0f7ee989c69abdcca72cae0eb538
+  3.3.1--py35_1: sha256:50f16e248e7724ac315b398e8a845b44e13252d8dd129a7e770b1d9fac2b56fc
 docker: quay.io/biocontainers/spyder
 aliases:
   epylint: /usr/local/bin/epylint

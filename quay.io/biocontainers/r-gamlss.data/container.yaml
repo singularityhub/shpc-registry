@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-gamlss.data
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-gamlss.data
 latest:
-  5.0_0--r3.3.2_0: sha256:6e555e5ddb5c7ff537915a5044ca908e4fd1ef390f9e60ae29b93388142fca3a
+  5.0_0--r3.3.2_0: sha256:f99a66e1bb6e63c81290e088bc3e0312ac61de85fc5fb17305a0e0cebedb491c
 tags:
-  5.0_0--r3.3.2_0: sha256:6e555e5ddb5c7ff537915a5044ca908e4fd1ef390f9e60ae29b93388142fca3a
+  5.0_0--r3.3.2_0: sha256:f99a66e1bb6e63c81290e088bc3e0312ac61de85fc5fb17305a0e0cebedb491c
+  5.0_0--r3.3.1_0: sha256:97c89ff6b2783144e79e392efa5369ae0511760bfccb6be1ed7e7aeca7687c07
 docker: quay.io/biocontainers/r-gamlss.data
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

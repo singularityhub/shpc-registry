@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for beast
 latest:
   1.10.4--hdfd78af_2: sha256:35fb15bd76191d8b6ecef2691b69a18b43019cb7c52f4c8df2e50f610853d802
 tags:
-  1.8.4--0: sha256:d84f6fe2fe5eb2ea703425045a5d5ab6aa7cb169398407176149ec26d1297645
+  1.8.4--0: sha256:48a25f5332d26aaab3c83e45331a08bcd3085ecc54c0dc5a313e6da87226673e
   1.10.4--hdfd78af_2: sha256:35fb15bd76191d8b6ecef2691b69a18b43019cb7c52f4c8df2e50f610853d802
 docker: quay.io/biocontainers/beast
 aliases:

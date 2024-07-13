@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/genomicconsensus
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for genomicconsensus
 latest:
-  3.0.2--py27h470a237_2: sha256:9528dd0b3f664cb438e4cfb8217171a7e932081047b874d8e473267899e66e16
+  3.0.2--py27h470a237_2: sha256:4aeebca0a47e8902f39b95b8b57f39cd6a9bb201d04c11131baeb4ccea79c3ae
 tags:
-  3.0.2--py27h470a237_2: sha256:9528dd0b3f664cb438e4cfb8217171a7e932081047b874d8e473267899e66e16
+  3.0.2--py27h470a237_2: sha256:4aeebca0a47e8902f39b95b8b57f39cd6a9bb201d04c11131baeb4ccea79c3ae
 docker: quay.io/biocontainers/genomicconsensus
 aliases:
   ccache-swig: /usr/local/bin/ccache-swig

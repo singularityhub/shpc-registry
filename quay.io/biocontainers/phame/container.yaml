@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/phame
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phame
 latest:
-  1.0.3--1: sha256:d0ae5668a110eb4682329369f8b93f7cb692af7d64ab16e4e1de22274ec7a258
+  1.0.3--1: sha256:96bed72a499aeb080cc8686df017298ae1ec0b823cf7a842bffdddbad5ff7455
 tags:
-  1.0.3--1: sha256:d0ae5668a110eb4682329369f8b93f7cb692af7d64ab16e4e1de22274ec7a258
+  1.0.3--1: sha256:96bed72a499aeb080cc8686df017298ae1ec0b823cf7a842bffdddbad5ff7455
 docker: quay.io/biocontainers/phame
 aliases:
   CanSNPs.pl: /usr/local/bin/CanSNPs.pl

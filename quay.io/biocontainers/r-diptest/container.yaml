@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-diptest
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-diptest
 latest:
-  0.75_7--r3.4.1_0: sha256:228f4e91f2a1ccf9afeca6aaab0c733244509baac94dbf093e3a393007cf9883
+  0.75_7--r3.4.1_0: sha256:82cae6ee7c54ee28485df047f6108e682423d163a9294ed6be8c938ddb3417b3
 tags:
-  0.75_7--r3.4.1_0: sha256:228f4e91f2a1ccf9afeca6aaab0c733244509baac94dbf093e3a393007cf9883
+  0.75_7--r3.4.1_0: sha256:82cae6ee7c54ee28485df047f6108e682423d163a9294ed6be8c938ddb3417b3
+  0.75_7--r3.3.2_0: sha256:84355f7bc362d071bf822eb15a2e89c88e7b601b81c1c5e70a7185698d8d187d
 docker: quay.io/biocontainers/r-diptest
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

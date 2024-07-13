@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-wicket
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-wicket
 latest:
-  0.4.0--r351h29659fb_3: sha256:a62950b63a2e2871d43a14ca58fce61792a222567da403f16eca8b28f9bcf21f
+  0.4.0--r351h29659fb_3: sha256:a74b6bce686a618e7d8d2eeac02dfa42deb221a6df8fd40b07b2df9b68ad9737
 tags:
-  0.4.0--r351h29659fb_3: sha256:a62950b63a2e2871d43a14ca58fce61792a222567da403f16eca8b28f9bcf21f
+  0.4.0--r351h29659fb_3: sha256:a74b6bce686a618e7d8d2eeac02dfa42deb221a6df8fd40b07b2df9b68ad9737
 docker: quay.io/biocontainers/r-wicket
 aliases:
   c89: /usr/local/bin/c89

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/git-lfs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for git-lfs
 latest:
-  1.5.2--0: sha256:d906fd2d59a81179942cce1a5c6add2b6b9844a1ffb738cc9f74553d04978b2c
+  1.5.2--0: sha256:568571679219bd38d502e8c66371771c232095611d40018673d50617b93492ce
 tags:
-  1.5.2--0: sha256:d906fd2d59a81179942cce1a5c6add2b6b9844a1ffb738cc9f74553d04978b2c
+  1.5.2--0: sha256:568571679219bd38d502e8c66371771c232095611d40018673d50617b93492ce
 docker: quay.io/biocontainers/git-lfs
 aliases:
   git-lfs: /usr/local/bin/git-lfs

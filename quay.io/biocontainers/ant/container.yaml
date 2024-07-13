@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/ant
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ant
 latest:
-  1.10.0--0: sha256:9d522f1feea0c33e19ec8c1b9f9d8f42dbcbe1e5c57998c53a651b2727c1cf91
+  1.10.0--0: sha256:42f829c7c1eadabb8ee6672e507cc7c54e3258ad7dd1124d749e05e529a5a3ca
 tags:
-  1.9.6--1: sha256:fdb45cdd113bb3e5c395f85811afe44b457d2af7babba8a2e24333620a84cb81
-  1.10.0--0: sha256:9d522f1feea0c33e19ec8c1b9f9d8f42dbcbe1e5c57998c53a651b2727c1cf91
+  1.9.6--1: sha256:892a04a32d64ea4a4bfcbf51fc71af02a6143f55a2dc1783c18667bf5421914e
+  1.10.0--0: sha256:42f829c7c1eadabb8ee6672e507cc7c54e3258ad7dd1124d749e05e529a5a3ca
 docker: quay.io/biocontainers/ant
 aliases:
   ant: /usr/local/bin/ant

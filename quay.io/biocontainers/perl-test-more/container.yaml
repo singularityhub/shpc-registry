@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-test-more
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-test-more
 latest:
-  1.001002--pl526_1: sha256:669ee7cbef4970e08af7a86ebd47b4be6dabd8a5175ed665fe2c1e6bbf90f4e7
+  1.001002--pl526_1: sha256:0070dce67c50b71e8966b57943869e9e6087535c83428cf0ad2b5f72a63ea9e3
 tags:
-  1.001002--pl526_1: sha256:669ee7cbef4970e08af7a86ebd47b4be6dabd8a5175ed665fe2c1e6bbf90f4e7
+  1.001002--pl526_1: sha256:0070dce67c50b71e8966b57943869e9e6087535c83428cf0ad2b5f72a63ea9e3
 docker: quay.io/biocontainers/perl-test-more
 aliases:
   perl5.26.2: /usr/local/bin/perl5.26.2

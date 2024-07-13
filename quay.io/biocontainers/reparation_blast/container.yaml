@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for reparation_blast
 latest:
   1.0.9--pl5321hdfd78af_3: sha256:6852b3b69b532039a5d674115b9cbfd2953f6479cf187bcc769e2d899fcbc288
 tags:
-  v1.0.7--pl526_1: sha256:1b24f4b95d9ddd8d1e4f9888493d05a2ba9d0b100955dd31fff00707d4a605bd
+  v1.0.7--pl526_1: sha256:554f57c3c55f8a594cca24a5915b3f88ec06a137b8c2f400ddbdce4740123b49
   1.0.9--pl5321hdfd78af_3: sha256:6852b3b69b532039a5d674115b9cbfd2953f6479cf187bcc769e2d899fcbc288
 docker: quay.io/biocontainers/reparation_blast
 aliases:

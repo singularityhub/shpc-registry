@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-facopy.annot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-facopy.annot
 latest:
-  1.6.0--r36_0: sha256:4999141e3d64b8fae4f153d91653c25a73b42089f403acc1adc08cea49fe6009
+  1.6.0--r36_0: sha256:2f2ae7a2f7c5fa9aa0d408e21ef932fb34faea12dbd448f88e053b8eeaf51b0d
 tags:
-  1.6.0--r36_0: sha256:4999141e3d64b8fae4f153d91653c25a73b42089f403acc1adc08cea49fe6009
+  1.6.0--r36_0: sha256:2f2ae7a2f7c5fa9aa0d408e21ef932fb34faea12dbd448f88e053b8eeaf51b0d
 docker: quay.io/biocontainers/bioconductor-facopy.annot
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-ff
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ff
 latest:
-  2.2_13--r3.3.1_0: sha256:6c7d51e3d5776ba08b8e19e46fe852c7cbd0a956348bf40868a77b3edd3a66ef
+  2.2_13--r3.3.1_0: sha256:375d6cf43462c600fa533e86f82217eeb0670537314565aef235d3170c19a425
 tags:
-  2.2_13--r3.3.1_0: sha256:6c7d51e3d5776ba08b8e19e46fe852c7cbd0a956348bf40868a77b3edd3a66ef
-  2.2_13--r3.3.2_0: sha256:cf2d8ed3a2cd96adc20ad2aa3f49f0e0ac82a01c57d622c4374ca5e9ba6af880
+  2.2_13--r3.3.1_0: sha256:375d6cf43462c600fa533e86f82217eeb0670537314565aef235d3170c19a425
+  2.2_13--r3.3.2_0: sha256:dbb85df05d2c40009a23fca64d1429fc9557c91b3f7883de4bafa8aa2bbcbbaf
 docker: quay.io/biocontainers/r-ff
 aliases:
   uconv: /usr/local/bin/uconv

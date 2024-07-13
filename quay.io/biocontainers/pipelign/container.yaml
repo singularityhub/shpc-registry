@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/pipelign
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pipelign
 latest:
-  0.2--py_2: sha256:2cd5d54114c6fcaad221e955d439da300aee7838bf7c0e5775f9e56a5c665d7a
+  0.2--py_2: sha256:4fa65741e7d1cf319d6715940984d0dc5692b6e663cd74259297aa221fda6311
 tags:
-  0.2--py_2: sha256:2cd5d54114c6fcaad221e955d439da300aee7838bf7c0e5775f9e56a5c665d7a
+  0.2--py_2: sha256:4fa65741e7d1cf319d6715940984d0dc5692b6e663cd74259297aa221fda6311
 docker: quay.io/biocontainers/pipelign
 aliases:
   gb2fas: /usr/local/bin/gb2fas

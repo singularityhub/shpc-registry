@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-nem
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-nem
 latest:
-  2.60.0--r36h516909a_0: sha256:aa9857ebf9898d011d0933f853b71ad58f0e810bc0813524072a927157598a09
+  2.60.0--r36h516909a_0: sha256:e04565580e5b4e7715553f26f527ffc5ef8233059447df7152e1ce281c58f86b
 tags:
-  2.60.0--r36h516909a_0: sha256:aa9857ebf9898d011d0933f853b71ad58f0e810bc0813524072a927157598a09
+  2.60.0--r36h516909a_0: sha256:e04565580e5b4e7715553f26f527ffc5ef8233059447df7152e1ce281c58f86b
 docker: quay.io/biocontainers/bioconductor-nem
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

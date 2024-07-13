@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/svist4get
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for svist4get
 latest:
-  1.3.1--pyhdfd78af_0: sha256:e65fe58212741e88b990a9785e532832e301a207bd6841c7d41364d6a4368473
+  1.3.1.1--pyhdfd78af_0: sha256:97c8fb95d753883db9f0555015cad00e196affb9561a401fc68d5426c34c1bf5
 tags:
   1.3.1--pyhdfd78af_0: sha256:e65fe58212741e88b990a9785e532832e301a207bd6841c7d41364d6a4368473
+  1.3.1.1--pyhdfd78af_0: sha256:97c8fb95d753883db9f0555015cad00e196affb9561a401fc68d5426c34c1bf5
 docker: quay.io/biocontainers/svist4get
 aliases:
   svist4get: /usr/local/bin/svist4get

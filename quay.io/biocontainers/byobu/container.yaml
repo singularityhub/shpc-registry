@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/byobu
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for byobu
 latest:
-  5.98--hb42da9c_2: sha256:b8a86367cb8190354d5d3fd2e2ef496d062917c6908f84ba58abe6966b142908
+  5.98--hb42da9c_2: sha256:7037203cac6bd78e0f080872e3573c1311f1c47086e7c6a0301330443bc84176
 tags:
-  5.98--hb42da9c_2: sha256:b8a86367cb8190354d5d3fd2e2ef496d062917c6908f84ba58abe6966b142908
+  5.98--hb42da9c_2: sha256:7037203cac6bd78e0f080872e3573c1311f1c47086e7c6a0301330443bc84176
 docker: quay.io/biocontainers/byobu

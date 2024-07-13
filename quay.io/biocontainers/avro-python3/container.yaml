@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/avro-python3
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for avro-python3
 latest:
-  1.9.0--py37_0: sha256:cc5595e461580d1297f475dba1fc0cefcc12aa2ed62ec5284cd01ad5648beeca
+  1.9.0--py37_0: sha256:b18e8dd8c3134229b8e06f71266923cddb8ee171b5aa22d9d1e3464d3c01616f
 tags:
-  1.9.0--py37_0: sha256:cc5595e461580d1297f475dba1fc0cefcc12aa2ed62ec5284cd01ad5648beeca
+  1.9.0--py37_0: sha256:b18e8dd8c3134229b8e06f71266923cddb8ee171b5aa22d9d1e3464d3c01616f
 docker: quay.io/biocontainers/avro-python3
 aliases:
   avro: /usr/local/bin/avro

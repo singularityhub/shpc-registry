@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-misc3d
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-misc3d
 latest:
-  0.8_4--r3.3.2_1: sha256:47fddf0afd5b89552e1153574eb54bf846c9a0e80b74635efcf2f6e50f555dc4
+  0.8_4--r3.3.2_1: sha256:5f43305be51a5c12308f04c304999ce1ad4b480344e714f1fd54def6842a2eff
 tags:
-  0.8_4--r3.3.2_1: sha256:47fddf0afd5b89552e1153574eb54bf846c9a0e80b74635efcf2f6e50f555dc4
+  0.8_4--r3.3.2_1: sha256:5f43305be51a5c12308f04c304999ce1ad4b480344e714f1fd54def6842a2eff
+  0.8_4--r3.3.1_1: sha256:75dc18fc452e2f2c80ec427e1781876d06d846a3449db865200e8e9026edb74b
 docker: quay.io/biocontainers/r-misc3d
 aliases:
   uconv: /usr/local/bin/uconv
