@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/meneco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meneco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/meneco/container.yaml"
-updated_at: "2024-07-13 02:50:49.263269"
+updated_at: "2024-07-14 02:58:40.323032"
 latest: "1.5.2--py36_0"
 container_url: "https://biocontainers.pro/tools/meneco"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "wish8.5"
 versions:
  - "1.5.2--py36_0"
+ - "1.5.2--py35_0"
 description: "shpc-registry automated BioContainers addition for meneco"
-config: {"url": "https://biocontainers.pro/tools/meneco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for meneco", "latest": {"1.5.2--py36_0": "sha256:d546b7def276ffca37733ab6513afe246d4c15767906788b221a7d624d5f0db0"}, "tags": {"1.5.2--py36_0": "sha256:d546b7def276ffca37733ab6513afe246d4c15767906788b221a7d624d5f0db0"}, "docker": "quay.io/biocontainers/meneco", "aliases": {"meneco.py": "/usr/local/bin/meneco.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/meneco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for meneco", "latest": {"1.5.2--py36_0": "sha256:f17fd0215d88d3320e41c04d095f76982ccdfb4f288af68d426390826a10b458"}, "tags": {"1.5.2--py36_0": "sha256:f17fd0215d88d3320e41c04d095f76982ccdfb4f288af68d426390826a10b458", "1.5.2--py35_0": "sha256:2829dd7c76225a48456e2d851c1c174c407b3594d9fe43679acfcdef1075e576"}, "docker": "quay.io/biocontainers/meneco", "aliases": {"meneco.py": "/usr/local/bin/meneco.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/meneco.

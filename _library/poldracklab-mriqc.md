@@ -4,7 +4,7 @@ name:  "poldracklab/mriqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/poldracklab/mriqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/poldracklab/mriqc/container.yaml"
-updated_at: "2024-07-13 02:33:28.203862"
+updated_at: "2024-07-14 02:41:02.998965"
 latest: "0.16.1"
 container_url: "https://hub.docker.com/r/poldracklab/mriqc"
 aliases:

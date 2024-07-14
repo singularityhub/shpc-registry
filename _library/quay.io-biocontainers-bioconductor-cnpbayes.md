@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cnpbayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnpbayes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnpbayes/container.yaml"
-updated_at: "2024-07-13 02:59:34.224708"
+updated_at: "2024-07-14 03:07:32.495239"
 latest: "1.13.5--r36he1b5a44_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnpbayes"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.13.5--r36he1b5a44_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-cnpbayes"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cnpbayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnpbayes", "latest": {"1.13.5--r36he1b5a44_1": "sha256:76b7b171767c63c334d9fe673291f345bd58ba2b6afb84544d751537c5d65b48"}, "tags": {"1.13.5--r36he1b5a44_1": "sha256:76b7b171767c63c334d9fe673291f345bd58ba2b6afb84544d751537c5d65b48"}, "docker": "quay.io/biocontainers/bioconductor-cnpbayes", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cnpbayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnpbayes", "latest": {"1.13.5--r36he1b5a44_1": "sha256:e65f6bf31c75ee78e0243f1d2217a36567df2676ed3b789b241a0f22f42d66a7"}, "tags": {"1.13.5--r36he1b5a44_1": "sha256:e65f6bf31c75ee78e0243f1d2217a36567df2676ed3b789b241a0f22f42d66a7"}, "docker": "quay.io/biocontainers/bioconductor-cnpbayes", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cnpbayes.

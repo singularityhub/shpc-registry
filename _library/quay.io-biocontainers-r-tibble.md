@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tibble"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tibble/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tibble/container.yaml"
-updated_at: "2024-07-13 03:06:42.719653"
+updated_at: "2024-07-14 03:14:42.080731"
 latest: "1.2--r3.3.2_1"
 container_url: "https://biocontainers.pro/tools/r-tibble"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.2--r3.3.2_1"
+ - "1.2--r3.3.1_1"
 description: "shpc-registry automated BioContainers addition for r-tibble"
-config: {"url": "https://biocontainers.pro/tools/r-tibble", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tibble", "latest": {"1.2--r3.3.2_1": "sha256:ab7d61bb14c70493245ca0e986d10fdebfffd54d8300d27a85d2ffca03ccb7bc"}, "tags": {"1.2--r3.3.2_1": "sha256:ab7d61bb14c70493245ca0e986d10fdebfffd54d8300d27a85d2ffca03ccb7bc"}, "docker": "quay.io/biocontainers/r-tibble", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-tibble", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tibble", "latest": {"1.2--r3.3.2_1": "sha256:28837a431de6a8f56078ac47db924887c258d8043ea72d1d74c0be0380c79569"}, "tags": {"1.2--r3.3.2_1": "sha256:28837a431de6a8f56078ac47db924887c258d8043ea72d1d74c0be0380c79569", "1.2--r3.3.1_1": "sha256:25b03a92c3f842cf62ae13a894a3f072462dc3e8b8670b3f6fcd5538cd9ed1c6"}, "docker": "quay.io/biocontainers/r-tibble", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-tibble.

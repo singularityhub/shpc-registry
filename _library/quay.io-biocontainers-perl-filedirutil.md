@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-filedirutil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-filedirutil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-filedirutil/container.yaml"
-updated_at: "2024-07-13 02:50:31.032895"
+updated_at: "2024-07-14 02:58:21.705421"
 latest: "v0.04--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-filedirutil"
 aliases:
@@ -17,7 +17,7 @@ versions:
  - "v0.04--pl526_0"
  - "0.04--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-filedirutil"
-config: {"url": "https://biocontainers.pro/tools/perl-filedirutil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-filedirutil", "latest": {"v0.04--pl526_0": "sha256:5f6c2cd978cbdfe564b7d898189c5d0a1034f9a017c5e344da4351b1dab27cb3"}, "tags": {"v0.04--pl526_0": "sha256:5f6c2cd978cbdfe564b7d898189c5d0a1034f9a017c5e344da4351b1dab27cb3", "0.04--pl5321hdfd78af_0": "sha256:5c44a5df59a57572f7e29212182b214a06ecad069b93098cfe29efe2bfd3ef54"}, "docker": "quay.io/biocontainers/perl-filedirutil", "aliases": {"moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-filedirutil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-filedirutil", "latest": {"v0.04--pl526_0": "sha256:3faf0974e67e6d752feda8b2619ba9022733eca43cf15515630578869b9f486b"}, "tags": {"v0.04--pl526_0": "sha256:3faf0974e67e6d752feda8b2619ba9022733eca43cf15515630578869b9f486b", "0.04--pl5321hdfd78af_0": "sha256:5c44a5df59a57572f7e29212182b214a06ecad069b93098cfe29efe2bfd3ef54"}, "docker": "quay.io/biocontainers/perl-filedirutil", "aliases": {"moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-filedirutil.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rgccacmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rgccacmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rgccacmd/container.yaml"
-updated_at: "2024-07-13 02:51:01.127329"
+updated_at: "2024-07-14 02:58:52.432442"
 latest: "3.0.3--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rgccacmd"
 aliases:

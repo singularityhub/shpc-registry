@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-more"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-more/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-more/container.yaml"
-updated_at: "2024-07-13 02:34:52.481755"
+updated_at: "2024-07-14 02:42:28.785543"
 latest: "1.001002--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-test-more"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.001002--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-test-more"
-config: {"url": "https://biocontainers.pro/tools/perl-test-more", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-more", "latest": {"1.001002--pl526_1": "sha256:669ee7cbef4970e08af7a86ebd47b4be6dabd8a5175ed665fe2c1e6bbf90f4e7"}, "tags": {"1.001002--pl526_1": "sha256:669ee7cbef4970e08af7a86ebd47b4be6dabd8a5175ed665fe2c1e6bbf90f4e7"}, "docker": "quay.io/biocontainers/perl-test-more", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-test-more", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-more", "latest": {"1.001002--pl526_1": "sha256:0070dce67c50b71e8966b57943869e9e6087535c83428cf0ad2b5f72a63ea9e3"}, "tags": {"1.001002--pl526_1": "sha256:0070dce67c50b71e8966b57943869e9e6087535c83428cf0ad2b5f72a63ea9e3"}, "docker": "quay.io/biocontainers/perl-test-more", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-test-more.

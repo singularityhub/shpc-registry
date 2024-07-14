@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spyder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spyder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spyder/container.yaml"
-updated_at: "2024-07-13 02:47:47.141812"
+updated_at: "2024-07-14 02:55:34.767176"
 latest: "3.3.1--py35_1"
 container_url: "https://biocontainers.pro/tools/spyder"
 aliases:
@@ -31,7 +31,7 @@ aliases:
 versions:
  - "3.3.1--py35_1"
 description: "shpc-registry automated BioContainers addition for spyder"
-config: {"url": "https://biocontainers.pro/tools/spyder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spyder", "latest": {"3.3.1--py35_1": "sha256:afc560b443bc794dac6ab6e1c41d4f5038ba0f7ee989c69abdcca72cae0eb538"}, "tags": {"3.3.1--py35_1": "sha256:afc560b443bc794dac6ab6e1c41d4f5038ba0f7ee989c69abdcca72cae0eb538"}, "docker": "quay.io/biocontainers/spyder", "aliases": {"epylint": "/usr/local/bin/epylint", "isort": "/usr/local/bin/isort", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "keyring": "/usr/local/bin/keyring", "pycodestyle": "/usr/local/bin/pycodestyle", "pyflakes": "/usr/local/bin/pyflakes", "pylint": "/usr/local/bin/pylint", "pyreverse": "/usr/local/bin/pyreverse", "spyder": "/usr/local/bin/spyder", "symilar": "/usr/local/bin/symilar", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "pybabel": "/usr/local/bin/pybabel", "iptest3": "/usr/local/bin/iptest3"}}
+config: {"url": "https://biocontainers.pro/tools/spyder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spyder", "latest": {"3.3.1--py35_1": "sha256:50f16e248e7724ac315b398e8a845b44e13252d8dd129a7e770b1d9fac2b56fc"}, "tags": {"3.3.1--py35_1": "sha256:50f16e248e7724ac315b398e8a845b44e13252d8dd129a7e770b1d9fac2b56fc"}, "docker": "quay.io/biocontainers/spyder", "aliases": {"epylint": "/usr/local/bin/epylint", "isort": "/usr/local/bin/isort", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "keyring": "/usr/local/bin/keyring", "pycodestyle": "/usr/local/bin/pycodestyle", "pyflakes": "/usr/local/bin/pyflakes", "pylint": "/usr/local/bin/pylint", "pyreverse": "/usr/local/bin/pyreverse", "spyder": "/usr/local/bin/spyder", "symilar": "/usr/local/bin/symilar", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "pybabel": "/usr/local/bin/pybabel", "iptest3": "/usr/local/bin/iptest3"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spyder.

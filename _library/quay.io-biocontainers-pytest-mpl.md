@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytest-mpl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytest-mpl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytest-mpl/container.yaml"
-updated_at: "2024-07-13 02:41:37.991929"
+updated_at: "2024-07-14 02:49:20.000354"
 latest: "0.5--py36_0"
 container_url: "https://biocontainers.pro/tools/pytest-mpl"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.5--py36_0"
+ - "0.5--py35_0"
 description: "shpc-registry automated BioContainers addition for pytest-mpl"
-config: {"url": "https://biocontainers.pro/tools/pytest-mpl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytest-mpl", "latest": {"0.5--py36_0": "sha256:6864f9f472963c65d07e255834ffa61c1ab1cd4ddb12c5957a69cac81ce316f3"}, "tags": {"0.5--py36_0": "sha256:6864f9f472963c65d07e255834ffa61c1ab1cd4ddb12c5957a69cac81ce316f3"}, "docker": "quay.io/biocontainers/pytest-mpl", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/pytest-mpl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytest-mpl", "latest": {"0.5--py36_0": "sha256:f47a40b4a2d22e22c0e0f095ec2f89b8d3e0fa02017b425c1d64c8c0b6468d24"}, "tags": {"0.5--py36_0": "sha256:f47a40b4a2d22e22c0e0f095ec2f89b8d3e0fa02017b425c1d64c8c0b6468d24", "0.5--py35_0": "sha256:f6a202938ab48a28e7008b4999f8b27c494f3b40585ff9aeef88921acd27ec0f"}, "docker": "quay.io/biocontainers/pytest-mpl", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytest-mpl.

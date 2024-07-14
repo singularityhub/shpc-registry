@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomicconsensus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomicconsensus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomicconsensus/container.yaml"
-updated_at: "2024-07-13 03:10:03.394922"
+updated_at: "2024-07-14 03:18:01.745695"
 latest: "3.0.2--py27h470a237_2"
 container_url: "https://biocontainers.pro/tools/genomicconsensus"
 aliases:
@@ -31,7 +31,7 @@ aliases:
 versions:
  - "3.0.2--py27h470a237_2"
 description: "shpc-registry automated BioContainers addition for genomicconsensus"
-config: {"url": "https://biocontainers.pro/tools/genomicconsensus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomicconsensus", "latest": {"3.0.2--py27h470a237_2": "sha256:9528dd0b3f664cb438e4cfb8217171a7e932081047b874d8e473267899e66e16"}, "tags": {"3.0.2--py27h470a237_2": "sha256:9528dd0b3f664cb438e4cfb8217171a7e932081047b874d8e473267899e66e16"}, "docker": "quay.io/biocontainers/genomicconsensus", "aliases": {"ccache-swig": "/usr/local/bin/ccache-swig", "dataset.py": "/usr/local/bin/dataset.py", "gffToBed": "/usr/local/bin/gffToBed", "gffToVcf": "/usr/local/bin/gffToVcf", "pbservice": "/usr/local/bin/pbservice", "plurality": "/usr/local/bin/plurality", "quiver": "/usr/local/bin/quiver", "summarizeConsensus": "/usr/local/bin/summarizeConsensus", "swig": "/usr/local/bin/swig", "variantCaller": "/usr/local/bin/variantCaller", "unit2": "/usr/local/bin/unit2", "avro": "/usr/local/bin/avro", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "jsonschema": "/usr/local/bin/jsonschema", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl"}}
+config: {"url": "https://biocontainers.pro/tools/genomicconsensus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomicconsensus", "latest": {"3.0.2--py27h470a237_2": "sha256:4aeebca0a47e8902f39b95b8b57f39cd6a9bb201d04c11131baeb4ccea79c3ae"}, "tags": {"3.0.2--py27h470a237_2": "sha256:4aeebca0a47e8902f39b95b8b57f39cd6a9bb201d04c11131baeb4ccea79c3ae"}, "docker": "quay.io/biocontainers/genomicconsensus", "aliases": {"ccache-swig": "/usr/local/bin/ccache-swig", "dataset.py": "/usr/local/bin/dataset.py", "gffToBed": "/usr/local/bin/gffToBed", "gffToVcf": "/usr/local/bin/gffToVcf", "pbservice": "/usr/local/bin/pbservice", "plurality": "/usr/local/bin/plurality", "quiver": "/usr/local/bin/quiver", "summarizeConsensus": "/usr/local/bin/summarizeConsensus", "swig": "/usr/local/bin/swig", "variantCaller": "/usr/local/bin/variantCaller", "unit2": "/usr/local/bin/unit2", "avro": "/usr/local/bin/avro", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "jsonschema": "/usr/local/bin/jsonschema", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genomicconsensus.

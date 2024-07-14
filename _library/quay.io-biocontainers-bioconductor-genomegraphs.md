@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomegraphs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomegraphs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomegraphs/container.yaml"
-updated_at: "2024-07-13 03:20:04.803732"
+updated_at: "2024-07-14 03:28:01.878208"
 latest: "1.46.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomegraphs"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.46.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomegraphs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomegraphs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomegraphs", "latest": {"1.46.0--r36_0": "sha256:5b2ced05568ef0ce29167fab622ef225fe5cf41ed216d2d27419bba3a31e9b28"}, "tags": {"1.46.0--r36_0": "sha256:5b2ced05568ef0ce29167fab622ef225fe5cf41ed216d2d27419bba3a31e9b28"}, "docker": "quay.io/biocontainers/bioconductor-genomegraphs", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomegraphs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomegraphs", "latest": {"1.46.0--r36_0": "sha256:c5bc0f27c3ad18eb3b8f915a4f363d69dc7702bcbc70d074a9b874b593e8c8cb"}, "tags": {"1.46.0--r36_0": "sha256:c5bc0f27c3ad18eb3b8f915a4f363d69dc7702bcbc70d074a9b874b593e8c8cb"}, "docker": "quay.io/biocontainers/bioconductor-genomegraphs", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomegraphs.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/svist4get"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svist4get/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svist4get/container.yaml"
-updated_at: "2024-07-13 02:50:31.863723"
-latest: "1.3.1--pyhdfd78af_0"
+updated_at: "2024-07-14 02:58:22.549664"
+latest: "1.3.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/svist4get"
 aliases:
  - "svist4get"
@@ -22,8 +22,9 @@ aliases:
  - "identify"
 versions:
  - "1.3.1--pyhdfd78af_0"
+ - "1.3.1.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for svist4get"
-config: {"url": "https://biocontainers.pro/tools/svist4get", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svist4get", "latest": {"1.3.1--pyhdfd78af_0": "sha256:e65fe58212741e88b990a9785e532832e301a207bd6841c7d41364d6a4368473"}, "tags": {"1.3.1--pyhdfd78af_0": "sha256:e65fe58212741e88b990a9785e532832e301a207bd6841c7d41364d6a4368473"}, "docker": "quay.io/biocontainers/svist4get", "aliases": {"svist4get": "/usr/local/bin/svist4get", "svist4get_copier": "/usr/local/bin/svist4get_copier", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
+config: {"url": "https://biocontainers.pro/tools/svist4get", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svist4get", "latest": {"1.3.1.1--pyhdfd78af_0": "sha256:97c8fb95d753883db9f0555015cad00e196affb9561a401fc68d5426c34c1bf5"}, "tags": {"1.3.1--pyhdfd78af_0": "sha256:e65fe58212741e88b990a9785e532832e301a207bd6841c7d41364d6a4368473", "1.3.1.1--pyhdfd78af_0": "sha256:97c8fb95d753883db9f0555015cad00e196affb9561a401fc68d5426c34c1bf5"}, "docker": "quay.io/biocontainers/svist4get", "aliases": {"svist4get": "/usr/local/bin/svist4get", "svist4get_copier": "/usr/local/bin/svist4get_copier", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svist4get.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/svist4get
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/svist4get:1.3.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/svist4get:1.3.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/svist4get/1.3.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/svist4get/1.3.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/svist4get/1.3.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/svist4get/1.3.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

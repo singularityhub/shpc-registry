@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-facopy.annot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-facopy.annot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-facopy.annot/container.yaml"
-updated_at: "2024-07-13 03:17:08.730820"
+updated_at: "2024-07-14 03:25:06.417902"
 latest: "1.6.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-facopy.annot"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.6.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-facopy.annot"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-facopy.annot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-facopy.annot", "latest": {"1.6.0--r36_0": "sha256:4999141e3d64b8fae4f153d91653c25a73b42089f403acc1adc08cea49fe6009"}, "tags": {"1.6.0--r36_0": "sha256:4999141e3d64b8fae4f153d91653c25a73b42089f403acc1adc08cea49fe6009"}, "docker": "quay.io/biocontainers/bioconductor-facopy.annot", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-facopy.annot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-facopy.annot", "latest": {"1.6.0--r36_0": "sha256:2f2ae7a2f7c5fa9aa0d408e21ef932fb34faea12dbd448f88e053b8eeaf51b0d"}, "tags": {"1.6.0--r36_0": "sha256:2f2ae7a2f7c5fa9aa0d408e21ef932fb34faea12dbd448f88e053b8eeaf51b0d"}, "docker": "quay.io/biocontainers/bioconductor-facopy.annot", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-facopy.annot.

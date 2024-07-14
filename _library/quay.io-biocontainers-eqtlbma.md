@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eqtlbma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eqtlbma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eqtlbma/container.yaml"
-updated_at: "2024-07-13 02:51:35.300922"
+updated_at: "2024-07-14 02:59:27.466030"
 latest: "1.3.3--hcf8db43_3"
 container_url: "https://biocontainers.pro/tools/eqtlbma"
 aliases:

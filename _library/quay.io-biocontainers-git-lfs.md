@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/git-lfs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/git-lfs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/git-lfs/container.yaml"
-updated_at: "2024-07-13 03:04:54.747598"
+updated_at: "2024-07-14 03:12:53.124135"
 latest: "1.5.2--0"
 container_url: "https://biocontainers.pro/tools/git-lfs"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.5.2--0"
 description: "shpc-registry automated BioContainers addition for git-lfs"
-config: {"url": "https://biocontainers.pro/tools/git-lfs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for git-lfs", "latest": {"1.5.2--0": "sha256:d906fd2d59a81179942cce1a5c6add2b6b9844a1ffb738cc9f74553d04978b2c"}, "tags": {"1.5.2--0": "sha256:d906fd2d59a81179942cce1a5c6add2b6b9844a1ffb738cc9f74553d04978b2c"}, "docker": "quay.io/biocontainers/git-lfs", "aliases": {"git-lfs": "/usr/local/bin/git-lfs"}}
+config: {"url": "https://biocontainers.pro/tools/git-lfs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for git-lfs", "latest": {"1.5.2--0": "sha256:568571679219bd38d502e8c66371771c232095611d40018673d50617b93492ce"}, "tags": {"1.5.2--0": "sha256:568571679219bd38d502e8c66371771c232095611d40018673d50617b93492ce"}, "docker": "quay.io/biocontainers/git-lfs", "aliases": {"git-lfs": "/usr/local/bin/git-lfs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/git-lfs.

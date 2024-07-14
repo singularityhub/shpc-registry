@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-preseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-preseqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-preseqr/container.yaml"
-updated_at: "2024-07-13 03:14:14.827745"
+updated_at: "2024-07-14 03:22:12.698315"
 latest: "2.0.0--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-preseqr"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "2.0.0--r3.2.2_0"
  - "2.0.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-preseqr"
-config: {"url": "https://biocontainers.pro/tools/r-preseqr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-preseqr", "latest": {"2.0.0--r3.2.2_0": "sha256:02e19d57a42f12f8fb96be005222fa5de8147e59c0cf316e3523510d3c993cf3"}, "tags": {"2.0.0--r3.2.2_0": "sha256:02e19d57a42f12f8fb96be005222fa5de8147e59c0cf316e3523510d3c993cf3", "2.0.0--r3.3.2_0": "sha256:fbb37bb50c3626024ca095690cd999b6bb455e59f1f3f1a64df1800caa044104"}, "docker": "quay.io/biocontainers/r-preseqr", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-preseqr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-preseqr", "latest": {"2.0.0--r3.2.2_0": "sha256:2bf5486215fcb31354ce9bd52ecf071345200861254ea3e49fe91e0e7ba5ea88"}, "tags": {"2.0.0--r3.2.2_0": "sha256:2bf5486215fcb31354ce9bd52ecf071345200861254ea3e49fe91e0e7ba5ea88", "2.0.0--r3.3.2_0": "sha256:760e18f27b11e960f1104a0fc98fb822834905e8546a8903061344c595319552"}, "docker": "quay.io/biocontainers/r-preseqr", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-preseqr.

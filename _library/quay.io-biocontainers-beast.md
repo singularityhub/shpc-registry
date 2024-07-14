@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/beast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beast/container.yaml"
-updated_at: "2024-07-13 02:45:37.653067"
+updated_at: "2024-07-14 02:53:22.999345"
 latest: "1.10.4--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/beast"
 aliases:
@@ -28,7 +28,7 @@ versions:
  - "1.8.4--0"
  - "1.10.4--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for beast"
-config: {"url": "https://biocontainers.pro/tools/beast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for beast", "latest": {"1.10.4--hdfd78af_2": "sha256:35fb15bd76191d8b6ecef2691b69a18b43019cb7c52f4c8df2e50f610853d802"}, "tags": {"1.8.4--0": "sha256:d84f6fe2fe5eb2ea703425045a5d5ab6aa7cb169398407176149ec26d1297645", "1.10.4--hdfd78af_2": "sha256:35fb15bd76191d8b6ecef2691b69a18b43019cb7c52f4c8df2e50f610853d802"}, "docker": "quay.io/biocontainers/beast", "aliases": {"beast": "/usr/local/bin/beast", "beauti": "/usr/local/bin/beauti", "loganalyser": "/usr/local/bin/loganalyser", "logcombiner": "/usr/local/bin/logcombiner", "treeannotator": "/usr/local/bin/treeannotator", "treestat": "/usr/local/bin/treestat", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/beast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for beast", "latest": {"1.10.4--hdfd78af_2": "sha256:35fb15bd76191d8b6ecef2691b69a18b43019cb7c52f4c8df2e50f610853d802"}, "tags": {"1.8.4--0": "sha256:48a25f5332d26aaab3c83e45331a08bcd3085ecc54c0dc5a313e6da87226673e", "1.10.4--hdfd78af_2": "sha256:35fb15bd76191d8b6ecef2691b69a18b43019cb7c52f4c8df2e50f610853d802"}, "docker": "quay.io/biocontainers/beast", "aliases": {"beast": "/usr/local/bin/beast", "beauti": "/usr/local/bin/beauti", "loganalyser": "/usr/local/bin/loganalyser", "logcombiner": "/usr/local/bin/logcombiner", "treeannotator": "/usr/local/bin/treeannotator", "treestat": "/usr/local/bin/treestat", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/beast.

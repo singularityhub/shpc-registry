@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pipelign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pipelign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pipelign/container.yaml"
-updated_at: "2024-07-13 02:49:11.496966"
+updated_at: "2024-07-14 02:57:00.628931"
 latest: "0.2--py_2"
 container_url: "https://biocontainers.pro/tools/pipelign"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.2--py_2"
 description: "shpc-registry automated BioContainers addition for pipelign"
-config: {"url": "https://biocontainers.pro/tools/pipelign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pipelign", "latest": {"0.2--py_2": "sha256:2cd5d54114c6fcaad221e955d439da300aee7838bf7c0e5775f9e56a5c665d7a"}, "tags": {"0.2--py_2": "sha256:2cd5d54114c6fcaad221e955d439da300aee7838bf7c0e5775f9e56a5c665d7a"}, "docker": "quay.io/biocontainers/pipelign", "aliases": {"gb2fas": "/usr/local/bin/gb2fas", "pipelign": "/usr/local/bin/pipelign", "iqtree": "/usr/local/bin/iqtree", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "cd-hit": "/usr/local/bin/cd-hit", "cd-hit-2d": "/usr/local/bin/cd-hit-2d", "cd-hit-2d-para.pl": "/usr/local/bin/cd-hit-2d-para.pl", "cd-hit-454": "/usr/local/bin/cd-hit-454", "cd-hit-div": "/usr/local/bin/cd-hit-div"}}
+config: {"url": "https://biocontainers.pro/tools/pipelign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pipelign", "latest": {"0.2--py_2": "sha256:4fa65741e7d1cf319d6715940984d0dc5692b6e663cd74259297aa221fda6311"}, "tags": {"0.2--py_2": "sha256:4fa65741e7d1cf319d6715940984d0dc5692b6e663cd74259297aa221fda6311"}, "docker": "quay.io/biocontainers/pipelign", "aliases": {"gb2fas": "/usr/local/bin/gb2fas", "pipelign": "/usr/local/bin/pipelign", "iqtree": "/usr/local/bin/iqtree", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "cd-hit": "/usr/local/bin/cd-hit", "cd-hit-2d": "/usr/local/bin/cd-hit-2d", "cd-hit-2d-para.pl": "/usr/local/bin/cd-hit-2d-para.pl", "cd-hit-454": "/usr/local/bin/cd-hit-454", "cd-hit-div": "/usr/local/bin/cd-hit-div"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pipelign.

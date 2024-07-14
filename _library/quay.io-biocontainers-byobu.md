@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/byobu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/byobu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/byobu/container.yaml"
-updated_at: "2024-07-13 02:59:37.311522"
+updated_at: "2024-07-14 03:07:35.583368"
 latest: "5.98--hb42da9c_2"
 container_url: "https://biocontainers.pro/tools/byobu"
 
 versions:
  - "5.98--hb42da9c_2"
 description: "shpc-registry automated BioContainers addition for byobu"
-config: {"url": "https://biocontainers.pro/tools/byobu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for byobu", "latest": {"5.98--hb42da9c_2": "sha256:b8a86367cb8190354d5d3fd2e2ef496d062917c6908f84ba58abe6966b142908"}, "tags": {"5.98--hb42da9c_2": "sha256:b8a86367cb8190354d5d3fd2e2ef496d062917c6908f84ba58abe6966b142908"}, "docker": "quay.io/biocontainers/byobu"}
+config: {"url": "https://biocontainers.pro/tools/byobu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for byobu", "latest": {"5.98--hb42da9c_2": "sha256:7037203cac6bd78e0f080872e3573c1311f1c47086e7c6a0301330443bc84176"}, "tags": {"5.98--hb42da9c_2": "sha256:7037203cac6bd78e0f080872e3573c1311f1c47086e7c6a0301330443bc84176"}, "docker": "quay.io/biocontainers/byobu"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/byobu.

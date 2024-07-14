@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-flowr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-flowr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-flowr/container.yaml"
-updated_at: "2024-07-13 02:50:56.132440"
+updated_at: "2024-07-14 02:58:47.362208"
 latest: "0.9.10--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-flowr"
 aliases:
@@ -16,7 +16,7 @@ aliases:
 versions:
  - "0.9.10--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-flowr"
-config: {"url": "https://biocontainers.pro/tools/r-flowr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-flowr", "latest": {"0.9.10--r3.3.2_0": "sha256:0ed54307477c3ea5a63e27c0ca4ee027a41b6eb261d1325a7072b3be32e18922"}, "tags": {"0.9.10--r3.3.2_0": "sha256:0ed54307477c3ea5a63e27c0ca4ee027a41b6eb261d1325a7072b3be32e18922"}, "docker": "quay.io/biocontainers/r-flowr", "aliases": {"flowr": "/usr/local/bin/flowr", "uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-flowr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-flowr", "latest": {"0.9.10--r3.3.2_0": "sha256:91d508f53a1fd390493c8a33f60c9771a3d3c4de510dd889aeaaac940975c6ac"}, "tags": {"0.9.10--r3.3.2_0": "sha256:91d508f53a1fd390493c8a33f60c9771a3d3c4de510dd889aeaaac940975c6ac"}, "docker": "quay.io/biocontainers/r-flowr", "aliases": {"flowr": "/usr/local/bin/flowr", "uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-flowr.

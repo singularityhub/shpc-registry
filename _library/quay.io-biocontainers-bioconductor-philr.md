@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-philr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-philr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-philr/container.yaml"
-updated_at: "2024-07-13 02:47:15.076752"
+updated_at: "2024-07-14 02:55:02.193553"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-philr"
 aliases:

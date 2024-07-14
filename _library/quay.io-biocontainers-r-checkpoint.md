@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-checkpoint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-checkpoint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-checkpoint/container.yaml"
-updated_at: "2024-07-13 02:52:20.497012"
+updated_at: "2024-07-14 03:00:13.289012"
 latest: "0.4.0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-checkpoint"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.4.0--r3.3.2_0"
+ - "0.4.0--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-checkpoint"
-config: {"url": "https://biocontainers.pro/tools/r-checkpoint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-checkpoint", "latest": {"0.4.0--r3.3.2_0": "sha256:0ab5a2dc2d4807ac2ffabee0852ef4f8e50799a7a25d87d8c9bed31e416c7aa4"}, "tags": {"0.4.0--r3.3.2_0": "sha256:0ab5a2dc2d4807ac2ffabee0852ef4f8e50799a7a25d87d8c9bed31e416c7aa4"}, "docker": "quay.io/biocontainers/r-checkpoint", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-checkpoint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-checkpoint", "latest": {"0.4.0--r3.3.2_0": "sha256:66be625f109b5380716f4506844cadd2d9b0f50bdfb612a01077858aa98e489d"}, "tags": {"0.4.0--r3.3.2_0": "sha256:66be625f109b5380716f4506844cadd2d9b0f50bdfb612a01077858aa98e489d", "0.4.0--r3.3.1_0": "sha256:9f73fa548403192695c88f5f8a214b8f4be5c65287b68a9073f7dfb93393388c"}, "docker": "quay.io/biocontainers/r-checkpoint", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-checkpoint.

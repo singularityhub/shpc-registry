@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dscr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dscr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dscr/container.yaml"
-updated_at: "2024-07-13 02:42:22.499641"
+updated_at: "2024-07-14 02:50:04.943680"
 latest: "2014.12.17--boost1.60_1"
 container_url: "https://biocontainers.pro/tools/dscr"
 aliases:

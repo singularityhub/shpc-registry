@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-matlab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-matlab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-matlab/container.yaml"
-updated_at: "2024-07-13 02:42:00.536868"
+updated_at: "2024-07-14 02:49:42.737552"
 latest: "1.0.2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-matlab"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "1.0.2--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-matlab"
-config: {"url": "https://biocontainers.pro/tools/r-matlab", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-matlab", "latest": {"1.0.2--r3.3.2_0": "sha256:7d7211689481d64e02ffd88d361c5a32dc7836b89f48ea03732a9c6270d0c2e7"}, "tags": {"1.0.2--r3.3.2_0": "sha256:7d7211689481d64e02ffd88d361c5a32dc7836b89f48ea03732a9c6270d0c2e7"}, "docker": "quay.io/biocontainers/r-matlab", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-matlab", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-matlab", "latest": {"1.0.2--r3.3.2_0": "sha256:b726439cc2ac62261fa6dcc1dba973c63cf35080e2af3f0bfd6b2060948e6893"}, "tags": {"1.0.2--r3.3.2_0": "sha256:b726439cc2ac62261fa6dcc1dba973c63cf35080e2af3f0bfd6b2060948e6893"}, "docker": "quay.io/biocontainers/r-matlab", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-matlab.

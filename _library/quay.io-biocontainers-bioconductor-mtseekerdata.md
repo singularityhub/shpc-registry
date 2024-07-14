@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mtseekerdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mtseekerdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mtseekerdata/container.yaml"
-updated_at: "2024-07-13 02:50:28.823266"
+updated_at: "2024-07-14 02:58:19.456647"
 latest: "1.2.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mtseekerdata"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.2.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-mtseekerdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mtseekerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mtseekerdata", "latest": {"1.2.0--r36_1": "sha256:73433d39eefb0b020097a69f7063a802c96c29566303daf148795b4923b14131"}, "tags": {"1.2.0--r36_1": "sha256:73433d39eefb0b020097a69f7063a802c96c29566303daf148795b4923b14131"}, "docker": "quay.io/biocontainers/bioconductor-mtseekerdata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mtseekerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mtseekerdata", "latest": {"1.2.0--r36_1": "sha256:662f8b4a3f694f87d00ee389fe94489af572aaec159898864245a440cc8d89e4"}, "tags": {"1.2.0--r36_1": "sha256:662f8b4a3f694f87d00ee389fe94489af572aaec159898864245a440cc8d89e4"}, "docker": "quay.io/biocontainers/bioconductor-mtseekerdata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mtseekerdata.

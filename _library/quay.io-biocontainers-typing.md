@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/typing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/typing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/typing/container.yaml"
-updated_at: "2024-07-13 02:53:30.772566"
+updated_at: "2024-07-14 03:01:25.145988"
 latest: "3.5.2.2--py36_0"
 container_url: "https://biocontainers.pro/tools/typing"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "3.5.2.2--py36_0"
 description: "shpc-registry automated BioContainers addition for typing"
-config: {"url": "https://biocontainers.pro/tools/typing", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for typing", "latest": {"3.5.2.2--py36_0": "sha256:211cdcc9ef4c951de06ca83122abb38f990fd7f7228f32d5446d615a2873b63c"}, "tags": {"3.5.2.2--py36_0": "sha256:211cdcc9ef4c951de06ca83122abb38f990fd7f7228f32d5446d615a2873b63c"}, "docker": "quay.io/biocontainers/typing", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/typing", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for typing", "latest": {"3.5.2.2--py36_0": "sha256:5ed7be0491651605000b85ef5844696e3cd0de8451fdcd2ba39c92b5ad72b928"}, "tags": {"3.5.2.2--py36_0": "sha256:5ed7be0491651605000b85ef5844696e3cd0de8451fdcd2ba39c92b5ad72b928"}, "docker": "quay.io/biocontainers/typing", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/typing.

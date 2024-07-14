@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rjson"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rjson/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rjson/container.yaml"
-updated_at: "2024-07-13 03:18:48.570233"
+updated_at: "2024-07-14 03:26:46.159150"
 latest: "0.2.15--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-rjson"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "0.2.15--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-rjson"
-config: {"url": "https://biocontainers.pro/tools/r-rjson", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rjson", "latest": {"0.2.15--r3.3.2_0": "sha256:5e946558733f86231f1333da4602aee4207c745f2805cc620bc704453d1e11f9"}, "tags": {"0.2.15--r3.3.2_0": "sha256:5e946558733f86231f1333da4602aee4207c745f2805cc620bc704453d1e11f9"}, "docker": "quay.io/biocontainers/r-rjson", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rjson", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rjson", "latest": {"0.2.15--r3.3.2_0": "sha256:15892563221f5cd5d4cc1673ef9c104fd969a018601f4d2a9c7d2c1dd397c980"}, "tags": {"0.2.15--r3.3.2_0": "sha256:15892563221f5cd5d4cc1673ef9c104fd969a018601f4d2a9c7d2c1dd397c980"}, "docker": "quay.io/biocontainers/r-rjson", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rjson.

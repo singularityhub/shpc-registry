@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylogenetics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylogenetics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylogenetics/container.yaml"
-updated_at: "2024-07-13 03:10:41.817544"
+updated_at: "2024-07-14 03:18:40.136382"
 latest: "0.5.0--py_0"
 container_url: "https://biocontainers.pro/tools/phylogenetics"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.5.0--py_0"
 description: "shpc-registry automated BioContainers addition for phylogenetics"
-config: {"url": "https://biocontainers.pro/tools/phylogenetics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylogenetics", "latest": {"0.5.0--py_0": "sha256:8da5a4fb774d18712985b5db0fc86fab6d381bb850b2001660dc1abb762dbe6a"}, "tags": {"0.5.0--py_0": "sha256:8da5a4fb774d18712985b5db0fc86fab6d381bb850b2001660dc1abb762dbe6a"}, "docker": "quay.io/biocontainers/phylogenetics", "aliases": {"jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect"}}
+config: {"url": "https://biocontainers.pro/tools/phylogenetics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylogenetics", "latest": {"0.5.0--py_0": "sha256:0821ce1fd140c5aac9c93a66ba76a20d60f19a07fa5c0827b9ccbfed45249dfa"}, "tags": {"0.5.0--py_0": "sha256:0821ce1fd140c5aac9c93a66ba76a20d60f19a07fa5c0827b9ccbfed45249dfa"}, "docker": "quay.io/biocontainers/phylogenetics", "aliases": {"jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylogenetics.

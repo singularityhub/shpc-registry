@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pizzly"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pizzly/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pizzly/container.yaml"
-updated_at: "2024-07-13 03:03:54.311568"
+updated_at: "2024-07-14 03:11:52.177890"
 latest: "0.37.3--h470a237_3"
 container_url: "https://biocontainers.pro/tools/pizzly"
 aliases:
@@ -26,7 +26,7 @@ aliases:
 versions:
  - "0.37.3--h470a237_3"
 description: "shpc-registry automated BioContainers addition for pizzly"
-config: {"url": "https://biocontainers.pro/tools/pizzly", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pizzly", "latest": {"0.37.3--h470a237_3": "sha256:ead1dc712bec8e196aeeea9f1312603de07579b33814fa301a6cdc56e3619631"}, "tags": {"0.37.3--h470a237_3": "sha256:ead1dc712bec8e196aeeea9f1312603de07579b33814fa301a6cdc56e3619631"}, "docker": "quay.io/biocontainers/pizzly", "aliases": {"pizzly": "/usr/local/bin/pizzly", "pizzly_flatten_json.py": "/usr/local/bin/pizzly_flatten_json.py", "pizzly_flatten_json.py.bak": "/usr/local/bin/pizzly_flatten_json.py.bak", "pizzly_get_fragment_length.py": "/usr/local/bin/pizzly_get_fragment_length.py", "pizzly_get_fragment_length.py.bak": "/usr/local/bin/pizzly_get_fragment_length.py.bak", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert"}}
+config: {"url": "https://biocontainers.pro/tools/pizzly", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pizzly", "latest": {"0.37.3--h470a237_3": "sha256:956aea8294d608ae583f81a2a4ac48bdab74d23052e1fe7a6d86560c741fe789"}, "tags": {"0.37.3--h470a237_3": "sha256:956aea8294d608ae583f81a2a4ac48bdab74d23052e1fe7a6d86560c741fe789"}, "docker": "quay.io/biocontainers/pizzly", "aliases": {"pizzly": "/usr/local/bin/pizzly", "pizzly_flatten_json.py": "/usr/local/bin/pizzly_flatten_json.py", "pizzly_flatten_json.py.bak": "/usr/local/bin/pizzly_flatten_json.py.bak", "pizzly_get_fragment_length.py": "/usr/local/bin/pizzly_get_fragment_length.py", "pizzly_get_fragment_length.py.bak": "/usr/local/bin/pizzly_get_fragment_length.py.bak", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pizzly.

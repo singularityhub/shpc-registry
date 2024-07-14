@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tendo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tendo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tendo/container.yaml"
-updated_at: "2024-07-13 02:57:07.181474"
+updated_at: "2024-07-14 03:05:05.036122"
 latest: "0.3.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/tendo"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/avro-python3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/avro-python3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/avro-python3/container.yaml"
-updated_at: "2024-07-13 02:53:10.925543"
+updated_at: "2024-07-14 03:01:04.823769"
 latest: "1.9.0--py37_0"
 container_url: "https://biocontainers.pro/tools/avro-python3"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.9.0--py37_0"
 description: "shpc-registry automated BioContainers addition for avro-python3"
-config: {"url": "https://biocontainers.pro/tools/avro-python3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for avro-python3", "latest": {"1.9.0--py37_0": "sha256:cc5595e461580d1297f475dba1fc0cefcc12aa2ed62ec5284cd01ad5648beeca"}, "tags": {"1.9.0--py37_0": "sha256:cc5595e461580d1297f475dba1fc0cefcc12aa2ed62ec5284cd01ad5648beeca"}, "docker": "quay.io/biocontainers/avro-python3", "aliases": {"avro": "/usr/local/bin/avro", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/avro-python3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for avro-python3", "latest": {"1.9.0--py37_0": "sha256:b18e8dd8c3134229b8e06f71266923cddb8ee171b5aa22d9d1e3464d3c01616f"}, "tags": {"1.9.0--py37_0": "sha256:b18e8dd8c3134229b8e06f71266923cddb8ee171b5aa22d9d1e3464d3c01616f"}, "docker": "quay.io/biocontainers/avro-python3", "aliases": {"avro": "/usr/local/bin/avro", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/avro-python3.

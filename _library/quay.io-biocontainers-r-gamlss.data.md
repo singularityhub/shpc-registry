@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gamlss.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gamlss.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gamlss.data/container.yaml"
-updated_at: "2024-07-13 03:00:13.614431"
+updated_at: "2024-07-14 03:08:11.414952"
 latest: "5.0_0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-gamlss.data"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "5.0_0--r3.3.2_0"
+ - "5.0_0--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-gamlss.data"
-config: {"url": "https://biocontainers.pro/tools/r-gamlss.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gamlss.data", "latest": {"5.0_0--r3.3.2_0": "sha256:6e555e5ddb5c7ff537915a5044ca908e4fd1ef390f9e60ae29b93388142fca3a"}, "tags": {"5.0_0--r3.3.2_0": "sha256:6e555e5ddb5c7ff537915a5044ca908e4fd1ef390f9e60ae29b93388142fca3a"}, "docker": "quay.io/biocontainers/r-gamlss.data", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-gamlss.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gamlss.data", "latest": {"5.0_0--r3.3.2_0": "sha256:f99a66e1bb6e63c81290e088bc3e0312ac61de85fc5fb17305a0e0cebedb491c"}, "tags": {"5.0_0--r3.3.2_0": "sha256:f99a66e1bb6e63c81290e088bc3e0312ac61de85fc5fb17305a0e0cebedb491c", "5.0_0--r3.3.1_0": "sha256:97c89ff6b2783144e79e392efa5369ae0511760bfccb6be1ed7e7aeca7687c07"}, "docker": "quay.io/biocontainers/r-gamlss.data", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gamlss.data.

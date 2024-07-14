@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wtforms-alchemy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wtforms-alchemy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wtforms-alchemy/container.yaml"
-updated_at: "2024-07-13 02:47:43.255806"
+updated_at: "2024-07-14 02:55:30.837244"
 latest: "0.16.9--py_0"
 container_url: "https://biocontainers.pro/tools/wtforms-alchemy"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.16.9--py_0"
 description: "shpc-registry automated BioContainers addition for wtforms-alchemy"
-config: {"url": "https://biocontainers.pro/tools/wtforms-alchemy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wtforms-alchemy", "latest": {"0.16.9--py_0": "sha256:579af0fc46df6f310566c5632771e77ffb54ffb9e6737d40da5ef35576e524bb"}, "tags": {"0.16.9--py_0": "sha256:579af0fc46df6f310566c5632771e77ffb54ffb9e6737d40da5ef35576e524bb"}, "docker": "quay.io/biocontainers/wtforms-alchemy", "aliases": {"pybabel": "/usr/local/bin/pybabel", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/wtforms-alchemy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wtforms-alchemy", "latest": {"0.16.9--py_0": "sha256:cc094406ef8f3b114fde2403ee4aef16c38bd88982dad8669bae463bfdfa58ca"}, "tags": {"0.16.9--py_0": "sha256:cc094406ef8f3b114fde2403ee4aef16c38bd88982dad8669bae463bfdfa58ca"}, "docker": "quay.io/biocontainers/wtforms-alchemy", "aliases": {"pybabel": "/usr/local/bin/pybabel", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wtforms-alchemy.

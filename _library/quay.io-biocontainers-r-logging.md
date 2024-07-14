@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-logging"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-logging/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-logging/container.yaml"
-updated_at: "2024-07-13 02:36:26.951258"
+updated_at: "2024-07-14 02:44:04.752734"
 latest: "0.7_103--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-logging"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "0.7_103--r3.3.1_0"
  - "0.7_103--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-logging"
-config: {"url": "https://biocontainers.pro/tools/r-logging", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-logging", "latest": {"0.7_103--r3.3.1_0": "sha256:0bfbfb389eea3d66d7a9733471b44d7d1e706f4eeb7fc905951fc4d0403ff740"}, "tags": {"0.7_103--r3.3.1_0": "sha256:0bfbfb389eea3d66d7a9733471b44d7d1e706f4eeb7fc905951fc4d0403ff740", "0.7_103--r3.3.2_0": "sha256:5bdcdbf95165b2ce07d14221568489d5bfe7b8f86117e6d9393d7aac75fd13f3"}, "docker": "quay.io/biocontainers/r-logging", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-logging", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-logging", "latest": {"0.7_103--r3.3.1_0": "sha256:de95a7ecb9e825fb6f99ffd1d2ffc288028684cdf3f298b84060bad7fa09dc99"}, "tags": {"0.7_103--r3.3.1_0": "sha256:de95a7ecb9e825fb6f99ffd1d2ffc288028684cdf3f298b84060bad7fa09dc99", "0.7_103--r3.3.2_0": "sha256:e4bf8b58d67665d679ef54e095e0998f84d707db6bdd262350d97ed30f475347"}, "docker": "quay.io/biocontainers/r-logging", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-logging.

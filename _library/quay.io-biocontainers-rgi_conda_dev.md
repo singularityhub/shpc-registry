@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rgi_conda_dev"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rgi_conda_dev/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rgi_conda_dev/container.yaml"
-updated_at: "2024-07-13 03:01:50.515518"
+updated_at: "2024-07-14 03:09:47.720115"
 latest: "3.1.2--py27_1"
 container_url: "https://biocontainers.pro/tools/rgi_conda_dev"
 aliases:
@@ -26,7 +26,7 @@ aliases:
 versions:
  - "3.1.2--py27_1"
 description: "shpc-registry automated BioContainers addition for rgi_conda_dev"
-config: {"url": "https://biocontainers.pro/tools/rgi_conda_dev", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rgi_conda_dev", "latest": {"3.1.2--py27_1": "sha256:a8ad5c6a105f9b5b730b4608255cfe3d3eba0c2f4cf6c9fc47784a6468c11e12"}, "tags": {"3.1.2--py27_1": "sha256:a8ad5c6a105f9b5b730b4608255cfe3d3eba0c2f4cf6c9fc47784a6468c11e12"}, "docker": "quay.io/biocontainers/rgi_conda_dev", "aliases": {"rgi": "/usr/local/bin/rgi", "rgi_clean": "/usr/local/bin/rgi_clean", "rgi_jsonformat": "/usr/local/bin/rgi_jsonformat", "rgi_jsontab": "/usr/local/bin/rgi_jsontab", "rgi_load": "/usr/local/bin/rgi_load", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py"}}
+config: {"url": "https://biocontainers.pro/tools/rgi_conda_dev", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rgi_conda_dev", "latest": {"3.1.2--py27_1": "sha256:1c5fc246773867c14c7e73e0b7b89389841126956e87fe609f5a99cc7a9ce9f0"}, "tags": {"3.1.2--py27_1": "sha256:1c5fc246773867c14c7e73e0b7b89389841126956e87fe609f5a99cc7a9ce9f0"}, "docker": "quay.io/biocontainers/rgi_conda_dev", "aliases": {"rgi": "/usr/local/bin/rgi", "rgi_clean": "/usr/local/bin/rgi_clean", "rgi_jsonformat": "/usr/local/bin/rgi_jsonformat", "rgi_jsontab": "/usr/local/bin/rgi_jsontab", "rgi_load": "/usr/local/bin/rgi_load", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rgi_conda_dev.

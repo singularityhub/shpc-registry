@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-misc3d"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-misc3d/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-misc3d/container.yaml"
-updated_at: "2024-07-13 03:01:09.386177"
+updated_at: "2024-07-14 03:09:06.676455"
 latest: "0.8_4--r3.3.2_1"
 container_url: "https://biocontainers.pro/tools/r-misc3d"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.8_4--r3.3.2_1"
+ - "0.8_4--r3.3.1_1"
 description: "shpc-registry automated BioContainers addition for r-misc3d"
-config: {"url": "https://biocontainers.pro/tools/r-misc3d", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-misc3d", "latest": {"0.8_4--r3.3.2_1": "sha256:47fddf0afd5b89552e1153574eb54bf846c9a0e80b74635efcf2f6e50f555dc4"}, "tags": {"0.8_4--r3.3.2_1": "sha256:47fddf0afd5b89552e1153574eb54bf846c9a0e80b74635efcf2f6e50f555dc4"}, "docker": "quay.io/biocontainers/r-misc3d", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-misc3d", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-misc3d", "latest": {"0.8_4--r3.3.2_1": "sha256:5f43305be51a5c12308f04c304999ce1ad4b480344e714f1fd54def6842a2eff"}, "tags": {"0.8_4--r3.3.2_1": "sha256:5f43305be51a5c12308f04c304999ce1ad4b480344e714f1fd54def6842a2eff", "0.8_4--r3.3.1_1": "sha256:75dc18fc452e2f2c80ec427e1781876d06d846a3449db865200e8e9026edb74b"}, "docker": "quay.io/biocontainers/r-misc3d", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-misc3d.

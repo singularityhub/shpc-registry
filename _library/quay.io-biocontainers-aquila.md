@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aquila"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aquila/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aquila/container.yaml"
-updated_at: "2024-07-13 03:20:07.938991"
+updated_at: "2024-07-14 03:28:04.984620"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/aquila"
 aliases:
@@ -29,7 +29,7 @@ aliases:
 versions:
  - "1.0.0--py_0"
 description: "shpc-registry automated BioContainers addition for aquila"
-config: {"url": "https://biocontainers.pro/tools/aquila", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aquila", "latest": {"1.0.0--py_0": "sha256:f774c52e37a4022c2129fa3a27e530934a614c9f75cffa75bad3fcb63734b8fb"}, "tags": {"1.0.0--py_0": "sha256:f774c52e37a4022c2129fa3a27e530934a614c9f75cffa75bad3fcb63734b8fb"}, "docker": "quay.io/biocontainers/aquila", "aliases": {"Aquila_assembly_based_variants_call": "/usr/local/bin/Aquila_assembly_based_variants_call", "Aquila_clean": "/usr/local/bin/Aquila_clean", "Aquila_phasing_all_variants": "/usr/local/bin/Aquila_phasing_all_variants", "Aquila_step0_sortbam": "/usr/local/bin/Aquila_step0_sortbam", "Aquila_step0_sortbam_multilibs": "/usr/local/bin/Aquila_step0_sortbam_multilibs", "Aquila_step1": "/usr/local/bin/Aquila_step1", "Aquila_step1_multilibs": "/usr/local/bin/Aquila_step1_multilibs", "Aquila_step2": "/usr/local/bin/Aquila_step2", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
+config: {"url": "https://biocontainers.pro/tools/aquila", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aquila", "latest": {"1.0.0--py_0": "sha256:dfe74525dc96abf41f4574aa6559a521412d96a767da01dc8dabac26312c9876"}, "tags": {"1.0.0--py_0": "sha256:dfe74525dc96abf41f4574aa6559a521412d96a767da01dc8dabac26312c9876"}, "docker": "quay.io/biocontainers/aquila", "aliases": {"Aquila_assembly_based_variants_call": "/usr/local/bin/Aquila_assembly_based_variants_call", "Aquila_clean": "/usr/local/bin/Aquila_clean", "Aquila_phasing_all_variants": "/usr/local/bin/Aquila_phasing_all_variants", "Aquila_step0_sortbam": "/usr/local/bin/Aquila_step0_sortbam", "Aquila_step0_sortbam_multilibs": "/usr/local/bin/Aquila_step0_sortbam_multilibs", "Aquila_step1": "/usr/local/bin/Aquila_step1", "Aquila_step1_multilibs": "/usr/local/bin/Aquila_step1_multilibs", "Aquila_step2": "/usr/local/bin/Aquila_step2", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aquila.

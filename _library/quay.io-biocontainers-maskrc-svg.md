@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/maskrc-svg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maskrc-svg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maskrc-svg/container.yaml"
-updated_at: "2024-07-13 02:49:58.066210"
+updated_at: "2024-07-14 02:57:48.055959"
 latest: "0.5--1"
 container_url: "https://biocontainers.pro/tools/maskrc-svg"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.5--1"
 description: "shpc-registry automated BioContainers addition for maskrc-svg"
-config: {"url": "https://biocontainers.pro/tools/maskrc-svg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for maskrc-svg", "latest": {"0.5--1": "sha256:f14601960406602426bd2a66183e8cdb8a25552c43a7f55349af6b51479c2b00"}, "tags": {"0.5--1": "sha256:f14601960406602426bd2a66183e8cdb8a25552c43a7f55349af6b51479c2b00"}, "docker": "quay.io/biocontainers/maskrc-svg", "aliases": {"maskrc-svg.py": "/usr/local/bin/maskrc-svg.py", "ete3": "/usr/local/bin/ete3", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py"}}
+config: {"url": "https://biocontainers.pro/tools/maskrc-svg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for maskrc-svg", "latest": {"0.5--1": "sha256:c01019ac406ef83d2e9e88bd10c6dccab9071a50e65d7a9eda40063bf2c7d12f"}, "tags": {"0.5--1": "sha256:c01019ac406ef83d2e9e88bd10c6dccab9071a50e65d7a9eda40063bf2c7d12f"}, "docker": "quay.io/biocontainers/maskrc-svg", "aliases": {"maskrc-svg.py": "/usr/local/bin/maskrc-svg.py", "ete3": "/usr/local/bin/ete3", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/maskrc-svg.

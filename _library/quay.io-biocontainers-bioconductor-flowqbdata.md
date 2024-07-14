@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowqbdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowqbdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowqbdata/container.yaml"
-updated_at: "2024-07-13 02:54:21.256099"
+updated_at: "2024-07-14 03:02:16.589996"
 latest: "1.10.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowqbdata"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "1.8.0--r351_0"
  - "1.10.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowqbdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowqbdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowqbdata", "latest": {"1.10.0--r36_1": "sha256:9e6106f9c0dcca7d24a5028ea9aa53f99ecf6c38d952fe3503dbe6bf5b5d1c99"}, "tags": {"1.8.0--r351_0": "sha256:71ed461dcc49c00cf675e19a75c827aa20e49bfa6928ab9fe939a1a1413aa712", "1.10.0--r36_1": "sha256:9e6106f9c0dcca7d24a5028ea9aa53f99ecf6c38d952fe3503dbe6bf5b5d1c99"}, "docker": "quay.io/biocontainers/bioconductor-flowqbdata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowqbdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowqbdata", "latest": {"1.10.0--r36_1": "sha256:f1c9872e2c30eee74710377f405f9a06a3ccb5fb65c3bb19f5d2a5fd0b0cdcca"}, "tags": {"1.8.0--r351_0": "sha256:21ba5446edca5b9e66499fff734ce4dd585fc0c9e867b578ae98ec9a34c8dd13", "1.10.0--r36_1": "sha256:f1c9872e2c30eee74710377f405f9a06a3ccb5fb65c3bb19f5d2a5fd0b0cdcca"}, "docker": "quay.io/biocontainers/bioconductor-flowqbdata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowqbdata.

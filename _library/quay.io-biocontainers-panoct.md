@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panoct"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panoct/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panoct/container.yaml"
-updated_at: "2024-07-13 03:20:16.172192"
+updated_at: "2024-07-14 03:28:13.167317"
 latest: "3.23--pl526_1"
 container_url: "https://biocontainers.pro/tools/panoct"
 aliases:
@@ -16,7 +16,7 @@ aliases:
 versions:
  - "3.23--pl526_1"
 description: "shpc-registry automated BioContainers addition for panoct"
-config: {"url": "https://biocontainers.pro/tools/panoct", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for panoct", "latest": {"3.23--pl526_1": "sha256:5e69b3242f2ee4ef28d1ae3ea3e437e3a9e0ff392ecc4f2388cb161e96073803"}, "tags": {"3.23--pl526_1": "sha256:5e69b3242f2ee4ef28d1ae3ea3e437e3a9e0ff392ecc4f2388cb161e96073803"}, "docker": "quay.io/biocontainers/panoct", "aliases": {"gene_order.pl": "/usr/local/bin/gene_order.pl", "panoct.pl": "/usr/local/bin/panoct.pl", "paralog_matchtable.pl": "/usr/local/bin/paralog_matchtable.pl", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/panoct", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for panoct", "latest": {"3.23--pl526_1": "sha256:59d3247af6d291e9deef7fac51fd3823cb98ff514744033e945a26d08ed535bc"}, "tags": {"3.23--pl526_1": "sha256:59d3247af6d291e9deef7fac51fd3823cb98ff514744033e945a26d08ed535bc"}, "docker": "quay.io/biocontainers/panoct", "aliases": {"gene_order.pl": "/usr/local/bin/gene_order.pl", "panoct.pl": "/usr/local/bin/panoct.pl", "paralog_matchtable.pl": "/usr/local/bin/paralog_matchtable.pl", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/panoct.

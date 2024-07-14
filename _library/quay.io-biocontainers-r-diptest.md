@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-diptest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-diptest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-diptest/container.yaml"
-updated_at: "2024-07-13 03:11:47.944479"
+updated_at: "2024-07-14 03:19:45.848337"
 latest: "0.75_7--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-diptest"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.75_7--r3.4.1_0"
+ - "0.75_7--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-diptest"
-config: {"url": "https://biocontainers.pro/tools/r-diptest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-diptest", "latest": {"0.75_7--r3.4.1_0": "sha256:228f4e91f2a1ccf9afeca6aaab0c733244509baac94dbf093e3a393007cf9883"}, "tags": {"0.75_7--r3.4.1_0": "sha256:228f4e91f2a1ccf9afeca6aaab0c733244509baac94dbf093e3a393007cf9883"}, "docker": "quay.io/biocontainers/r-diptest", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-diptest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-diptest", "latest": {"0.75_7--r3.4.1_0": "sha256:82cae6ee7c54ee28485df047f6108e682423d163a9294ed6be8c938ddb3417b3"}, "tags": {"0.75_7--r3.4.1_0": "sha256:82cae6ee7c54ee28485df047f6108e682423d163a9294ed6be8c938ddb3417b3", "0.75_7--r3.3.2_0": "sha256:84355f7bc362d071bf822eb15a2e89c88e7b601b81c1c5e70a7185698d8d187d"}, "docker": "quay.io/biocontainers/r-diptest", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-diptest.

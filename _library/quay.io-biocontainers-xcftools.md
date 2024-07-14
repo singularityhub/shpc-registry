@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xcftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xcftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xcftools/container.yaml"
-updated_at: "2024-07-13 03:08:36.193054"
+updated_at: "2024-07-14 03:16:34.726425"
 latest: "1.0.7--1"
 container_url: "https://biocontainers.pro/tools/xcftools"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.0.7--1"
 description: "shpc-registry automated BioContainers addition for xcftools"
-config: {"url": "https://biocontainers.pro/tools/xcftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xcftools", "latest": {"1.0.7--1": "sha256:3388ffe4ae48929ef39f97b34c76114c5db6049902c893016a4285a442130577"}, "tags": {"1.0.7--1": "sha256:3388ffe4ae48929ef39f97b34c76114c5db6049902c893016a4285a442130577"}, "docker": "quay.io/biocontainers/xcftools", "aliases": {"xcf2png": "/usr/local/bin/xcf2png", "xcf2pnm": "/usr/local/bin/xcf2pnm", "xcfinfo": "/usr/local/bin/xcfinfo", "xcfview": "/usr/local/bin/xcfview"}}
+config: {"url": "https://biocontainers.pro/tools/xcftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xcftools", "latest": {"1.0.7--1": "sha256:19cc4958f00b135b777b544b33a2229a453ccedf1ae551021933db780be49ca0"}, "tags": {"1.0.7--1": "sha256:19cc4958f00b135b777b544b33a2229a453ccedf1ae551021933db780be49ca0"}, "docker": "quay.io/biocontainers/xcftools", "aliases": {"xcf2png": "/usr/local/bin/xcf2png", "xcf2pnm": "/usr/local/bin/xcf2pnm", "xcfinfo": "/usr/local/bin/xcfinfo", "xcfview": "/usr/local/bin/xcfview"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xcftools.

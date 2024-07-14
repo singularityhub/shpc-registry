@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/connectome-workbench"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/connectome-workbench/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/connectome-workbench/container.yaml"
-updated_at: "2024-07-13 02:52:54.476071"
+updated_at: "2024-07-14 03:00:47.897831"
 latest: "1.3.2--h1b11a2a_0"
 container_url: "https://biocontainers.pro/tools/connectome-workbench"
 
 versions:
  - "1.3.2--h1b11a2a_0"
 description: "shpc-registry automated BioContainers addition for connectome-workbench"
-config: {"url": "https://biocontainers.pro/tools/connectome-workbench", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for connectome-workbench", "latest": {"1.3.2--h1b11a2a_0": "sha256:696ba4d4c6b91410e3e8ae0890c9ca058d62de6178213584bb2af66f645fb95c"}, "tags": {"1.3.2--h1b11a2a_0": "sha256:696ba4d4c6b91410e3e8ae0890c9ca058d62de6178213584bb2af66f645fb95c"}, "docker": "quay.io/biocontainers/connectome-workbench"}
+config: {"url": "https://biocontainers.pro/tools/connectome-workbench", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for connectome-workbench", "latest": {"1.3.2--h1b11a2a_0": "sha256:399e9061585d36fa03888a4945f769aa1e5a61264b4a65849e02bc8512922cac"}, "tags": {"1.3.2--h1b11a2a_0": "sha256:399e9061585d36fa03888a4945f769aa1e5a61264b4a65849e02bc8512922cac"}, "docker": "quay.io/biocontainers/connectome-workbench"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/connectome-workbench.

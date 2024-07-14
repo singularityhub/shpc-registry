@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/progressivemauve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/progressivemauve/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/progressivemauve/container.yaml"
-updated_at: "2024-07-13 02:44:09.248391"
+updated_at: "2024-07-14 02:51:53.210611"
 latest: "snapshot_2015_02_13--h9ee0642_3"
 container_url: "https://biocontainers.pro/tools/progressivemauve"
 aliases:

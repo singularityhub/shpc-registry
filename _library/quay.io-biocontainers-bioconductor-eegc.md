@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-eegc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eegc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eegc/container.yaml"
-updated_at: "2024-07-13 02:37:11.255348"
+updated_at: "2024-07-14 02:44:49.723308"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-eegc"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.14.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-eegc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-eegc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-eegc", "latest": {"1.26.0--r43hdfd78af_0": "sha256:2f02845e2bdcf0031d8e00c41289b9fe26d25f5134f708005059f2862f24450b"}, "tags": {"1.8.1--r351_0": "sha256:ad37d47986fa924558c8f9d74186e5908664984a7fdcb521dfa2f0c1feddad54", "1.24.0--r42hdfd78af_0": "sha256:32b6efbe36f751fa0eb64271549340ae5491c66762830256599767b97a681ad7", "1.20.0--r41hdfd78af_0": "sha256:55cc179181fd31e92bd1d5e6d2de36da4d272ea2581efee57e7a73a4c1a47391", "1.18.0--r41hdfd78af_0": "sha256:e6a57c2c422223a193c3c002115bf8838368f2d4210628a2e9d7659570b77d71", "1.16.0--r40hdfd78af_1": "sha256:db23a04893d003a5e243f5adf72d763edc858614b93463132766460d62e254ac", "1.14.0--r40_0": "sha256:5d0fb48d1db3d6f39bb61c8d62ab5001e8cb501970eefa195ca4534200a73f2a", "1.26.0--r43hdfd78af_0": "sha256:2f02845e2bdcf0031d8e00c41289b9fe26d25f5134f708005059f2862f24450b"}, "docker": "quay.io/biocontainers/bioconductor-eegc", "aliases": {"udunits2": "/usr/local/bin/udunits2", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-eegc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-eegc", "latest": {"1.26.0--r43hdfd78af_0": "sha256:2f02845e2bdcf0031d8e00c41289b9fe26d25f5134f708005059f2862f24450b"}, "tags": {"1.8.1--r351_0": "sha256:dc5872f012dc532facc6c2508fad5a99c42cfde64f7cda3dfb2e40c394f690e4", "1.24.0--r42hdfd78af_0": "sha256:32b6efbe36f751fa0eb64271549340ae5491c66762830256599767b97a681ad7", "1.20.0--r41hdfd78af_0": "sha256:55cc179181fd31e92bd1d5e6d2de36da4d272ea2581efee57e7a73a4c1a47391", "1.18.0--r41hdfd78af_0": "sha256:e6a57c2c422223a193c3c002115bf8838368f2d4210628a2e9d7659570b77d71", "1.16.0--r40hdfd78af_1": "sha256:db23a04893d003a5e243f5adf72d763edc858614b93463132766460d62e254ac", "1.14.0--r40_0": "sha256:5d0fb48d1db3d6f39bb61c8d62ab5001e8cb501970eefa195ca4534200a73f2a", "1.26.0--r43hdfd78af_0": "sha256:2f02845e2bdcf0031d8e00c41289b9fe26d25f5134f708005059f2862f24450b"}, "docker": "quay.io/biocontainers/bioconductor-eegc", "aliases": {"udunits2": "/usr/local/bin/udunits2", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-eegc.

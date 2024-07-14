@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastml/container.yaml"
-updated_at: "2024-07-13 03:07:41.596519"
+updated_at: "2024-07-14 03:15:40.925679"
 latest: "3.11--hc9558a2_0"
 container_url: "https://biocontainers.pro/tools/fastml"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "3.11--hc9558a2_0"
 description: "shpc-registry automated BioContainers addition for fastml"
-config: {"url": "https://biocontainers.pro/tools/fastml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastml", "latest": {"3.11--hc9558a2_0": "sha256:3a1cf697f1a2b83d1d2f63f5e6d98ce2cd12dea18d1f53896ebc5fcba1010e3d"}, "tags": {"3.11--hc9558a2_0": "sha256:3a1cf697f1a2b83d1d2f63f5e6d98ce2cd12dea18d1f53896ebc5fcba1010e3d"}, "docker": "quay.io/biocontainers/fastml", "aliases": {"FastML_Wrapper.pl": "/usr/local/bin/FastML_Wrapper.pl", "fastml": "/usr/local/bin/fastml", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl"}}
+config: {"url": "https://biocontainers.pro/tools/fastml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastml", "latest": {"3.11--hc9558a2_0": "sha256:4cac21c11ee2113726c950d044136288215d910bdebfc2ef2361fde47f61a4bd"}, "tags": {"3.11--hc9558a2_0": "sha256:4cac21c11ee2113726c950d044136288215d910bdebfc2ef2361fde47f61a4bd"}, "docker": "quay.io/biocontainers/fastml", "aliases": {"FastML_Wrapper.pl": "/usr/local/bin/FastML_Wrapper.pl", "fastml": "/usr/local/bin/fastml", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastml.

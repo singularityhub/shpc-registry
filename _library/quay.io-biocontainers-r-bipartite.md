@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bipartite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bipartite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bipartite/container.yaml"
-updated_at: "2024-07-13 03:08:44.385979"
+updated_at: "2024-07-14 03:16:42.879298"
 latest: "2.11--r351h29659fb_2"
 container_url: "https://biocontainers.pro/tools/r-bipartite"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "2.11--r351h29659fb_2"
 description: "shpc-registry automated BioContainers addition for r-bipartite"
-config: {"url": "https://biocontainers.pro/tools/r-bipartite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bipartite", "latest": {"2.11--r351h29659fb_2": "sha256:60ee2ce4a7cdf2c5437b1a74b021f9cb0dd9dfa7f85e5730ff82e1a4645bc3e3"}, "tags": {"2.11--r351h29659fb_2": "sha256:60ee2ce4a7cdf2c5437b1a74b021f9cb0dd9dfa7f85e5730ff82e1a4645bc3e3"}, "docker": "quay.io/biocontainers/r-bipartite", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-bipartite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bipartite", "latest": {"2.11--r351h29659fb_2": "sha256:a74dba90904769dc73e33d99506116cfc3b43a1edf32972aa57cd8997e94e464"}, "tags": {"2.11--r351h29659fb_2": "sha256:a74dba90904769dc73e33d99506116cfc3b43a1edf32972aa57cd8997e94e464"}, "docker": "quay.io/biocontainers/r-bipartite", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bipartite.

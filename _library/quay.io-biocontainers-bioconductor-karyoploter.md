@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-karyoploter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-karyoploter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-karyoploter/container.yaml"
-updated_at: "2024-07-13 03:13:14.912163"
+updated_at: "2024-07-14 03:21:12.819963"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-karyoploter"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-karyoploter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-karyoploter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-karyoploter", "latest": {"1.28.0--r43hdfd78af_0": "sha256:c2e7c5bcfd97af3891503afa43bba8bf756a749a1aa1c8238eb63af31e4b2ec2"}, "tags": {"1.8.5--r351_0": "sha256:6b0ed6c296372f0055337ea4f552b8b02f3c8f79ac80f9e87f74292dd0778155", "1.24.0--r42hdfd78af_0": "sha256:047018e8a209cd3517f7005d3e2fe68751f6e92ac1dd81486c3d78407aff67c0", "1.20.0--r41hdfd78af_0": "sha256:e5b286fd0eeee3f6c6432ddc701b6d1d070c2b73b75b5a3ab15be4c29c03411b", "1.18.0--r41hdfd78af_0": "sha256:602b7e2432a33676a8cf3cb894213e84f7fa492b3f534c3b43fc3259a156a89c", "1.16.0--r40hdfd78af_1": "sha256:576ecf98c43719009d7ee6cd9dea93ede99317a0abf05fb43b6ac62f2eb790b6", "1.14.0--r40_0": "sha256:04e1463fc5f978237aef8fb1920547f79fcced20b0a1ea9476dc097bff91c7ee", "1.26.0--r43hdfd78af_0": "sha256:e8ef8f436efadc9b2a4f4769222f2ea97c4eb969583b5960288fadb16774929c", "1.28.0--r43hdfd78af_0": "sha256:c2e7c5bcfd97af3891503afa43bba8bf756a749a1aa1c8238eb63af31e4b2ec2"}, "docker": "quay.io/biocontainers/bioconductor-karyoploter", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-karyoploter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-karyoploter", "latest": {"1.28.0--r43hdfd78af_0": "sha256:c2e7c5bcfd97af3891503afa43bba8bf756a749a1aa1c8238eb63af31e4b2ec2"}, "tags": {"1.8.5--r351_0": "sha256:8f70dcc11b6f51debd3e19aa751b3323ad6259b7bf60dc1597c94e8dc27a864c", "1.24.0--r42hdfd78af_0": "sha256:047018e8a209cd3517f7005d3e2fe68751f6e92ac1dd81486c3d78407aff67c0", "1.20.0--r41hdfd78af_0": "sha256:e5b286fd0eeee3f6c6432ddc701b6d1d070c2b73b75b5a3ab15be4c29c03411b", "1.18.0--r41hdfd78af_0": "sha256:602b7e2432a33676a8cf3cb894213e84f7fa492b3f534c3b43fc3259a156a89c", "1.16.0--r40hdfd78af_1": "sha256:576ecf98c43719009d7ee6cd9dea93ede99317a0abf05fb43b6ac62f2eb790b6", "1.14.0--r40_0": "sha256:04e1463fc5f978237aef8fb1920547f79fcced20b0a1ea9476dc097bff91c7ee", "1.26.0--r43hdfd78af_0": "sha256:e8ef8f436efadc9b2a4f4769222f2ea97c4eb969583b5960288fadb16774929c", "1.28.0--r43hdfd78af_0": "sha256:c2e7c5bcfd97af3891503afa43bba8bf756a749a1aa1c8238eb63af31e4b2ec2"}, "docker": "quay.io/biocontainers/bioconductor-karyoploter", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-karyoploter.

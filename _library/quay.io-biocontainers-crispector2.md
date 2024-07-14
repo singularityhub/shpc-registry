@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/crispector2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crispector2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crispector2/container.yaml"
-updated_at: "2024-07-13 02:50:13.573606"
-latest: "2.0.8--pyhdfd78af_0"
+updated_at: "2024-07-14 02:58:03.912044"
+latest: "2.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crispector2"
 aliases:
  - "crispector"
@@ -39,8 +39,9 @@ versions:
  - "2.0.6--pyhdfd78af_0"
  - "2.0.7--pyhdfd78af_0"
  - "2.0.8--pyhdfd78af_0"
+ - "2.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for crispector2"
-config: {"url": "https://biocontainers.pro/tools/crispector2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for crispector2", "latest": {"2.0.8--pyhdfd78af_0": "sha256:984cf6c1dc9c5063e4a1efd58bc73305eab1907fdd444be22f768bc2a048f92b"}, "tags": {"2.0.4--pyhdfd78af_0": "sha256:a2df260fea604ad1a1f9757e6202c45931e3f1069346d7376fe571ef68cf0bd5", "2.0.6--pyhdfd78af_0": "sha256:3ca29bf4fe57557c11d4b3f4217a77d8bb87636a1fa1ec31287dc9a4c4fd203b", "2.0.7--pyhdfd78af_0": "sha256:352fb4c757d127269fa76f70990db4e91ce8d53899b44f250d0e1f1c756e99da", "2.0.8--pyhdfd78af_0": "sha256:984cf6c1dc9c5063e4a1efd58bc73305eab1907fdd444be22f768bc2a048f92b"}, "docker": "quay.io/biocontainers/crispector2", "aliases": {"crispector": "/usr/local/bin/crispector", "fastp": "/usr/local/bin/fastp", "igzip": "/usr/local/bin/igzip", "f2py3.7": "/usr/local/bin/f2py3.7", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "python3.7": "/usr/local/bin/python3.7", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "pyvenv": "/usr/local/bin/pyvenv", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
+config: {"url": "https://biocontainers.pro/tools/crispector2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for crispector2", "latest": {"2.1.2--pyhdfd78af_0": "sha256:56838e449893b70bd8359695efca2f6abb90f8533e1bcad25cf42b5b051731b5"}, "tags": {"2.0.4--pyhdfd78af_0": "sha256:a2df260fea604ad1a1f9757e6202c45931e3f1069346d7376fe571ef68cf0bd5", "2.0.6--pyhdfd78af_0": "sha256:3ca29bf4fe57557c11d4b3f4217a77d8bb87636a1fa1ec31287dc9a4c4fd203b", "2.0.7--pyhdfd78af_0": "sha256:352fb4c757d127269fa76f70990db4e91ce8d53899b44f250d0e1f1c756e99da", "2.0.8--pyhdfd78af_0": "sha256:984cf6c1dc9c5063e4a1efd58bc73305eab1907fdd444be22f768bc2a048f92b", "2.1.2--pyhdfd78af_0": "sha256:56838e449893b70bd8359695efca2f6abb90f8533e1bcad25cf42b5b051731b5"}, "docker": "quay.io/biocontainers/crispector2", "aliases": {"crispector": "/usr/local/bin/crispector", "fastp": "/usr/local/bin/fastp", "igzip": "/usr/local/bin/igzip", "f2py3.7": "/usr/local/bin/f2py3.7", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "python3.7": "/usr/local/bin/python3.7", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "pyvenv": "/usr/local/bin/pyvenv", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crispector2.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/crispector2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crispector2:2.0.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/crispector2:2.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crispector2/2.0.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/crispector2/2.0.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/crispector2/2.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/crispector2/2.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

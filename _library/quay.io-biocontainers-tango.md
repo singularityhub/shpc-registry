@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tango"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tango/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tango/container.yaml"
-updated_at: "2024-07-13 03:01:52.197858"
+updated_at: "2024-07-14 03:09:49.403906"
 latest: "0.5.7--py_0"
 container_url: "https://biocontainers.pro/tools/tango"
 aliases:

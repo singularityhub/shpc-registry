@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phizz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phizz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phizz/container.yaml"
-updated_at: "2024-07-13 03:12:49.419418"
+updated_at: "2024-07-14 03:20:47.427738"
 latest: "0.2.3--py_0"
 container_url: "https://biocontainers.pro/tools/phizz"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.2.3--py_0"
 description: "shpc-registry automated BioContainers addition for phizz"
-config: {"url": "https://biocontainers.pro/tools/phizz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phizz", "latest": {"0.2.3--py_0": "sha256:ad0e24138c90797fbbbb923270e3ba6dce877588f7551aa0535f31cfb0ec59d8"}, "tags": {"0.2.3--py_0": "sha256:ad0e24138c90797fbbbb923270e3ba6dce877588f7551aa0535f31cfb0ec59d8"}, "docker": "quay.io/biocontainers/phizz", "aliases": {"phizz": "/usr/local/bin/phizz", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/phizz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phizz", "latest": {"0.2.3--py_0": "sha256:d200e6d99304da90bd8d88e53083307f408c5fb7a8046f7f5c70713976159cad"}, "tags": {"0.2.3--py_0": "sha256:d200e6d99304da90bd8d88e53083307f408c5fb7a8046f7f5c70713976159cad"}, "docker": "quay.io/biocontainers/phizz", "aliases": {"phizz": "/usr/local/bin/phizz", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phizz.

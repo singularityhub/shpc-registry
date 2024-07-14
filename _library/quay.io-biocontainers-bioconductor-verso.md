@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-verso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-verso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-verso/container.yaml"
-updated_at: "2024-07-13 02:57:20.839466"
+updated_at: "2024-07-14 03:05:18.601031"
 latest: "1.12.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-verso"
 

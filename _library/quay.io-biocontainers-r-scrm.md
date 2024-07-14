@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-scrm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scrm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scrm/container.yaml"
-updated_at: "2024-07-13 02:51:37.501796"
+updated_at: "2024-07-14 02:59:29.730452"
 latest: "1.7.2_4--r351h29659fb_1"
 container_url: "https://biocontainers.pro/tools/r-scrm"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.7.2_4--r351h29659fb_1"
 description: "shpc-registry automated BioContainers addition for r-scrm"
-config: {"url": "https://biocontainers.pro/tools/r-scrm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-scrm", "latest": {"1.7.2_4--r351h29659fb_1": "sha256:a848edc658d8c8b2d907b2b0ad9a77e29c53df6e2e6f9fb7f807336099a1aa93"}, "tags": {"1.7.2_4--r351h29659fb_1": "sha256:a848edc658d8c8b2d907b2b0ad9a77e29c53df6e2e6f9fb7f807336099a1aa93"}, "docker": "quay.io/biocontainers/r-scrm", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-scrm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-scrm", "latest": {"1.7.2_4--r351h29659fb_1": "sha256:f679cd355d7210adf823d2045d4eeb5bdbef368bf2bbb291de4eddbc6876cd8a"}, "tags": {"1.7.2_4--r351h29659fb_1": "sha256:f679cd355d7210adf823d2045d4eeb5bdbef368bf2bbb291de4eddbc6876cd8a"}, "docker": "quay.io/biocontainers/r-scrm", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-scrm.

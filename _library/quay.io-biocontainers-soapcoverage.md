@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/soapcoverage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soapcoverage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soapcoverage/container.yaml"
-updated_at: "2024-07-13 03:01:50.232472"
+updated_at: "2024-07-14 03:09:47.440289"
 latest: "2.7.7--0"
 container_url: "https://biocontainers.pro/tools/soapcoverage"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "2.7.7--0"
 description: "shpc-registry automated BioContainers addition for soapcoverage"
-config: {"url": "https://biocontainers.pro/tools/soapcoverage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soapcoverage", "latest": {"2.7.7--0": "sha256:d03e4a6c70e8802ee3ce0f628eaec153acd65d7b6c610f51b116634233643350"}, "tags": {"2.7.7--0": "sha256:d03e4a6c70e8802ee3ce0f628eaec153acd65d7b6c610f51b116634233643350"}, "docker": "quay.io/biocontainers/soapcoverage", "aliases": {"soap.coverage": "/usr/local/bin/soap.coverage"}}
+config: {"url": "https://biocontainers.pro/tools/soapcoverage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soapcoverage", "latest": {"2.7.7--0": "sha256:2e0b6d5a11c7db8fa877d9fc855aea379e5ae59596b6ace6273f19afccb82638"}, "tags": {"2.7.7--0": "sha256:2e0b6d5a11c7db8fa877d9fc855aea379e5ae59596b6ace6273f19afccb82638"}, "docker": "quay.io/biocontainers/soapcoverage", "aliases": {"soap.coverage": "/usr/local/bin/soap.coverage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/soapcoverage.

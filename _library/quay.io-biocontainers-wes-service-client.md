@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wes-service-client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wes-service-client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wes-service-client/container.yaml"
-updated_at: "2024-07-13 02:40:19.491686"
+updated_at: "2024-07-14 02:48:00.315404"
 latest: "2.7--py_1"
 container_url: "https://biocontainers.pro/tools/wes-service-client"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "2.7--py_1"
 description: "shpc-registry automated BioContainers addition for wes-service-client"
-config: {"url": "https://biocontainers.pro/tools/wes-service-client", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wes-service-client", "latest": {"2.7--py_1": "sha256:b351bbc8a29b7ce06cca86fdc7aa4c04a9e2b33efde3c8184746a038c6b0d928"}, "tags": {"2.7--py_1": "sha256:b351bbc8a29b7ce06cca86fdc7aa4c04a9e2b33efde3c8184746a038c6b0d928"}, "docker": "quay.io/biocontainers/wes-service-client", "aliases": {"wes-client": "/usr/local/bin/wes-client", "wes-server": "/usr/local/bin/wes-server", "avro": "/usr/local/bin/avro", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "doesitcache": "/usr/local/bin/doesitcache", "futurize": "/usr/local/bin/futurize"}}
+config: {"url": "https://biocontainers.pro/tools/wes-service-client", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wes-service-client", "latest": {"2.7--py_1": "sha256:c09f71e647eae75646e45a029527a31e9699b1e95241f27893465e25ea4369b8"}, "tags": {"2.7--py_1": "sha256:c09f71e647eae75646e45a029527a31e9699b1e95241f27893465e25ea4369b8"}, "docker": "quay.io/biocontainers/wes-service-client", "aliases": {"wes-client": "/usr/local/bin/wes-client", "wes-server": "/usr/local/bin/wes-server", "avro": "/usr/local/bin/avro", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "doesitcache": "/usr/local/bin/doesitcache", "futurize": "/usr/local/bin/futurize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wes-service-client.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-role-tiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-role-tiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-role-tiny/container.yaml"
-updated_at: "2024-07-13 03:03:29.393057"
+updated_at: "2024-07-14 03:11:27.081466"
 latest: "2.002004--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-role-tiny"
 

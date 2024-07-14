@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-wicket"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-wicket/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-wicket/container.yaml"
-updated_at: "2024-07-13 02:35:19.443150"
+updated_at: "2024-07-14 02:42:56.338490"
 latest: "0.4.0--r351h29659fb_3"
 container_url: "https://biocontainers.pro/tools/r-wicket"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.4.0--r351h29659fb_3"
 description: "shpc-registry automated BioContainers addition for r-wicket"
-config: {"url": "https://biocontainers.pro/tools/r-wicket", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-wicket", "latest": {"0.4.0--r351h29659fb_3": "sha256:a62950b63a2e2871d43a14ca58fce61792a222567da403f16eca8b28f9bcf21f"}, "tags": {"0.4.0--r351h29659fb_3": "sha256:a62950b63a2e2871d43a14ca58fce61792a222567da403f16eca8b28f9bcf21f"}, "docker": "quay.io/biocontainers/r-wicket", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-wicket", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-wicket", "latest": {"0.4.0--r351h29659fb_3": "sha256:a74b6bce686a618e7d8d2eeac02dfa42deb221a6df8fd40b07b2df9b68ad9737"}, "tags": {"0.4.0--r351h29659fb_3": "sha256:a74b6bce686a618e7d8d2eeac02dfa42deb221a6df8fd40b07b2df9b68ad9737"}, "docker": "quay.io/biocontainers/r-wicket", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-wicket.

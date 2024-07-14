@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ff/container.yaml"
-updated_at: "2024-07-13 02:57:51.031520"
+updated_at: "2024-07-14 03:05:48.785559"
 latest: "2.2_13--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ff"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "2.2_13--r3.3.1_0"
  - "2.2_13--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-ff"
-config: {"url": "https://biocontainers.pro/tools/r-ff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ff", "latest": {"2.2_13--r3.3.1_0": "sha256:6c7d51e3d5776ba08b8e19e46fe852c7cbd0a956348bf40868a77b3edd3a66ef"}, "tags": {"2.2_13--r3.3.1_0": "sha256:6c7d51e3d5776ba08b8e19e46fe852c7cbd0a956348bf40868a77b3edd3a66ef", "2.2_13--r3.3.2_0": "sha256:cf2d8ed3a2cd96adc20ad2aa3f49f0e0ac82a01c57d622c4374ca5e9ba6af880"}, "docker": "quay.io/biocontainers/r-ff", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-ff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ff", "latest": {"2.2_13--r3.3.1_0": "sha256:375d6cf43462c600fa533e86f82217eeb0670537314565aef235d3170c19a425"}, "tags": {"2.2_13--r3.3.1_0": "sha256:375d6cf43462c600fa533e86f82217eeb0670537314565aef235d3170c19a425", "2.2_13--r3.3.2_0": "sha256:dbb85df05d2c40009a23fca64d1429fc9557c91b3f7883de4bafa8aa2bbcbbaf"}, "docker": "quay.io/biocontainers/r-ff", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ff.
