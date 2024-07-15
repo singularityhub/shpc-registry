@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/segul
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for segul
+latest:
+  0.21.3--h715e4b3_0: sha256:84e5ccd7a6bccc02c48feab836a459c85ece8caa5ae5c5afb7c961c7bfc63bb5
+tags:
+  0.21.3--h715e4b3_0: sha256:84e5ccd7a6bccc02c48feab836a459c85ece8caa5ae5c5afb7c961c7bfc63bb5
+docker: quay.io/biocontainers/segul
+aliases:
+  segul: /usr/local/bin/segul
