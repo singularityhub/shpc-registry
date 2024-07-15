@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-ggalt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ggalt
 latest:
-  0.4.0--r3.3.2_0: sha256:ba5d65b6b7d84dffb463c95f26692f13c9cb9a4a7781846160f153b09e724515
+  0.4.0--r3.3.2_0: sha256:0b8826f195f7ea5cfad9e2d3eb0205d5ccb178cdcfe856278ad45b72036858ae
 tags:
-  0.4.0--r3.3.2_0: sha256:ba5d65b6b7d84dffb463c95f26692f13c9cb9a4a7781846160f153b09e724515
+  0.4.0--r3.3.2_0: sha256:0b8826f195f7ea5cfad9e2d3eb0205d5ccb178cdcfe856278ad45b72036858ae
 docker: quay.io/biocontainers/r-ggalt
 aliases:
   nad2bin: /usr/local/bin/nad2bin

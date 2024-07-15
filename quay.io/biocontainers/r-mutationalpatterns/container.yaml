@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-mutationalpatterns
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-mutationalpatterns
 latest:
-  0.2b--r3.4.1_0: sha256:d4b35b1011f9b41d1cc177b87b543a37fe1d112fa20100cf94f9b6b4ed3bb863
+  0.2b--r3.4.1_0: sha256:afc4cdea43102363103d6fb7ad14a1c6da77e6dd88bae7e84f35f24576866a29
 tags:
-  0.2b--r3.4.1_0: sha256:d4b35b1011f9b41d1cc177b87b543a37fe1d112fa20100cf94f9b6b4ed3bb863
+  0.2b--r3.4.1_0: sha256:afc4cdea43102363103d6fb7ad14a1c6da77e6dd88bae7e84f35f24576866a29
+  0.2b--0: sha256:fc6dbdf38522dc8a141e5d9c19760e437983bc90534bba816e611315105aa5c2
 docker: quay.io/biocontainers/r-mutationalpatterns
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

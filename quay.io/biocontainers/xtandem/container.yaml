@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/xtandem
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for xtandem
 latest:
-  15.12.15.2--h7e02a51_8: sha256:2f0afe420396eb3289afabcc5ab7d5c90c14c784ff8e81f880f503092b5967d3
+  15.12.15.2--h7e02a51_9: sha256:c6c1a35ef5ec87c6168f5601be56e5ec40adad538f59033d91aa5f5280f0172a
 tags:
   15.12.15.2--h072c6ed_6: sha256:881ed790dc6ea4dcc09c0a30d57645624e5a67b737d2e025e9a3e3cab99ee431
   15.12.15.2--h7e02a51_8: sha256:2f0afe420396eb3289afabcc5ab7d5c90c14c784ff8e81f880f503092b5967d3
+  15.12.15.2--h7e02a51_9: sha256:c6c1a35ef5ec87c6168f5601be56e5ec40adad538f59033d91aa5f5280f0172a
 docker: quay.io/biocontainers/xtandem
 aliases:
   xtandem: /usr/local/bin/xtandem

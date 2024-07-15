@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/tedna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tedna
 latest:
-  1.2.2--hfc679d8_2: sha256:7cba28109e205df3da02e9e5cfcbb2ef71d95622789c587fdeb8a7e1923daf4c
+  1.2.2--hfc679d8_2: sha256:8acadbc22abb9937a9ba83bce0d4a0e5743b3f243e28a7d4eb7c3222ab3cce7d
 tags:
-  1.2.2--hfc679d8_2: sha256:7cba28109e205df3da02e9e5cfcbb2ef71d95622789c587fdeb8a7e1923daf4c
+  1.2.2--hfc679d8_2: sha256:8acadbc22abb9937a9ba83bce0d4a0e5743b3f243e28a7d4eb7c3222ab3cce7d
 docker: quay.io/biocontainers/tedna
 aliases:
   tedna: /usr/local/bin/tedna

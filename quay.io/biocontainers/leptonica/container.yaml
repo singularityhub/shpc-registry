@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/leptonica
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for leptonica
 latest:
-  1.73--1: sha256:693619a9cefd6fc87876f80627e29a14fa05f0e35f3b6912aeac3287f8899dc9
+  1.73--1: sha256:45909c3d01fc0fec702c17616ea7d605f970943b25030c73ffecc4a9687df866
 tags:
-  1.73--1: sha256:693619a9cefd6fc87876f80627e29a14fa05f0e35f3b6912aeac3287f8899dc9
+  1.73--1: sha256:45909c3d01fc0fec702c17616ea7d605f970943b25030c73ffecc4a9687df866
 docker: quay.io/biocontainers/leptonica
 aliases:
   convertfilestopdf: /usr/local/bin/convertfilestopdf

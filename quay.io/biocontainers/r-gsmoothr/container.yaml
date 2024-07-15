@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-gsmoothr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-gsmoothr
 latest:
-  0.1.7--r3.3.1_0: sha256:1fc99803a525008b2a47a85046ff3b2382ab39042118a0aa3bc211974bf87393
+  0.1.7--r3.3.1_0: sha256:0b71036a698b5258d2a554f16bcd9aa2ff919332ab386b13353e46c15aab2bf1
 tags:
-  0.1.7--r3.3.1_0: sha256:1fc99803a525008b2a47a85046ff3b2382ab39042118a0aa3bc211974bf87393
-  0.1.7--r3.4.1_0: sha256:76655b4591da9e71c9fd44ae095e850d0058e27a956dc5f5869071ef005b256f
+  0.1.7--r3.3.1_0: sha256:0b71036a698b5258d2a554f16bcd9aa2ff919332ab386b13353e46c15aab2bf1
+  0.1.7--r3.4.1_0: sha256:b235636b75b05143e623fe20c58e3d8ef9a7d474dc38684264267c20f37d4b7e
 docker: quay.io/biocontainers/r-gsmoothr
 aliases:
   uconv: /usr/local/bin/uconv

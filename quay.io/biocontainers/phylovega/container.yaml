@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/phylovega
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phylovega
 latest:
-  0.3--py_0: sha256:5ce2084fc3dfcfff0d51961bdfe41d0295b7af57926834080bb8f3156105d7d8
+  0.3--py_0: sha256:196cb175e70816cc17bf7603de006eedd93384c46897b964b7bb7db70f216054
 tags:
-  0.3--py_0: sha256:5ce2084fc3dfcfff0d51961bdfe41d0295b7af57926834080bb8f3156105d7d8
+  0.3--py_0: sha256:196cb175e70816cc17bf7603de006eedd93384c46897b964b7bb7db70f216054
 docker: quay.io/biocontainers/phylovega
 aliases:
   jupyter-console: /usr/local/bin/jupyter-console

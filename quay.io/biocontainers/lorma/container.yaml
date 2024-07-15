@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/lorma
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for lorma
 latest:
-  0.4--2: sha256:d0717e94ffcb507faa9bd3867f17e5c0e0739e1a80640b69162d99021dc253de
+  0.4--2: sha256:7adb25f7f2eca90f8d7037f7c33991e4aa6b995e844c0a91d653c40fe9318ca7
 tags:
-  0.4--2: sha256:d0717e94ffcb507faa9bd3867f17e5c0e0739e1a80640b69162d99021dc253de
+  0.4--2: sha256:7adb25f7f2eca90f8d7037f7c33991e4aa6b995e844c0a91d653c40fe9318ca7
 docker: quay.io/biocontainers/lorma
 aliases:
   LoRMA: /usr/local/bin/LoRMA

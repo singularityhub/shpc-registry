@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-aptreeshape
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-aptreeshape
 latest:
-  1.5_0--r351h6115d3f_3: sha256:e30d8dd2399aace4f76c5d4d451581ab27c11e8b17efebe0a7ebafb96bc391ba
+  1.5_0--r351h6115d3f_3: sha256:a274e7dc7ef2cad27989cb02556120c77be97bab1b61a1faf957b6e3aaba006b
 tags:
-  1.5_0--r351h6115d3f_3: sha256:e30d8dd2399aace4f76c5d4d451581ab27c11e8b17efebe0a7ebafb96bc391ba
+  1.5_0--r351h6115d3f_3: sha256:a274e7dc7ef2cad27989cb02556120c77be97bab1b61a1faf957b6e3aaba006b
 docker: quay.io/biocontainers/r-aptreeshape
 aliases:
   c89: /usr/local/bin/c89

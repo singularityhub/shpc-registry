@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/burrito-fillings
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for burrito-fillings
 latest:
-  0.1.1--py_3: sha256:4004352a019a4a0ed6fcc1970fba8adf2d46884f0396ac5883c2272f3ff4a8ee
+  0.1.1--py_3: sha256:0dc7e53cdbc2c63e7151343305c7495fed722e85465059413c9c6f8fd422255f
 tags:
-  0.1.1--py_3: sha256:4004352a019a4a0ed6fcc1970fba8adf2d46884f0396ac5883c2272f3ff4a8ee
+  0.1.1--py_3: sha256:0dc7e53cdbc2c63e7151343305c7495fed722e85465059413c9c6f8fd422255f
 docker: quay.io/biocontainers/burrito-fillings
 aliases:
   iptest3: /usr/local/bin/iptest3

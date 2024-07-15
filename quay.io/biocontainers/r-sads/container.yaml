@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-sads
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-sads
 latest:
-  0.4.2--r351ha65eedd_1: sha256:1de5b835885530c73a5b1119a153ae6045361f9a8aa06eb582d05ef5083e68f5
+  0.4.2--r351ha65eedd_1: sha256:ed2f9a84d163736ec75ed31bc7c6531257796bf3a1bbfd5a90f8c5f4a03d418b
 tags:
-  0.4.2--r351ha65eedd_1: sha256:1de5b835885530c73a5b1119a153ae6045361f9a8aa06eb582d05ef5083e68f5
+  0.4.2--r351ha65eedd_1: sha256:ed2f9a84d163736ec75ed31bc7c6531257796bf3a1bbfd5a90f8c5f4a03d418b
 docker: quay.io/biocontainers/r-sads
 aliases:
   c89: /usr/local/bin/c89

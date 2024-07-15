@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/chopin2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for chopin2
 latest:
-  1.0.8.post1: sha256:18d868ba2240b2b7ef50a9c3f759c37e05c2bb199ddd6b2dde6cecebdf2ea4ed
+  1.0.9.post1: sha256:ec72dd22237e942e99ee4bc3063bc875ea9b31d6a81ce7119fe16a9aad41e5fd
 tags:
   1.0.7: sha256:80094aabd19610d1302e645ac057973ee998426421c4e00a9112b89b0539d0e5
   1.0.8.post1: sha256:18d868ba2240b2b7ef50a9c3f759c37e05c2bb199ddd6b2dde6cecebdf2ea4ed
+  1.0.9.post1: sha256:ec72dd22237e942e99ee4bc3063bc875ea9b31d6a81ce7119fe16a9aad41e5fd
 docker: quay.io/biocontainers/chopin2
 aliases:
   beeline: /usr/local/bin/beeline

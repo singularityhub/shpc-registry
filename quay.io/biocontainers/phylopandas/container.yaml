@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/phylopandas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phylopandas
 latest:
-  0.8.0--py_0: sha256:b363e1ee18806db6cb229572576840850ccc801b5ced8bb33c40d666d8c0a4d1
+  0.8.0--py_0: sha256:f1ab0ff3626ecd132bf0c358ef83b01ea49432b738eb24fc737ada5bb4671b01
 tags:
-  0.8.0--py_0: sha256:b363e1ee18806db6cb229572576840850ccc801b5ced8bb33c40d666d8c0a4d1
+  0.8.0--py_0: sha256:f1ab0ff3626ecd132bf0c358ef83b01ea49432b738eb24fc737ada5bb4671b01
 docker: quay.io/biocontainers/phylopandas
 aliases:
   sumlabels.py: /usr/local/bin/sumlabels.py

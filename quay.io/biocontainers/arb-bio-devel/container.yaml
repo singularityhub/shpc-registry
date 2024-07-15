@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/arb-bio-devel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for arb-bio-devel
 latest:
-  6.0.6--h6bb024c_8: sha256:457abf21c651ab3c6914037e3cf60adecf9d9dbe78c3656abb025fee8b541073
+  6.0.6--h6bb024c_8: sha256:5f88fd56c5c9cf25fd72ca043c46081d65493459f6cea853f4eb41473ebf77f8
 tags:
-  6.0.6--h6bb024c_8: sha256:457abf21c651ab3c6914037e3cf60adecf9d9dbe78c3656abb025fee8b541073
+  6.0.6--h6bb024c_8: sha256:5f88fd56c5c9cf25fd72ca043c46081d65493459f6cea853f4eb41473ebf77f8
 docker: quay.io/biocontainers/arb-bio-devel
 aliases:
   DrawGram.jar: /usr/local/bin/DrawGram.jar

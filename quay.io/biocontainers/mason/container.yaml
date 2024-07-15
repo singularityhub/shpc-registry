@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mason
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mason
 latest:
-  2.0.9--h9ee0642_1: sha256:5dab77b259bc4f6757616a83242eceaec141348048497fe18a30a24a85950d63
+  2.0.9--hdcf5f25_3: sha256:7ebf4ddd29dac9638159c279c79b25bbcee978214420632bbd213d2a93c70cd1
 tags:
   2.0.9--h9ee0642_1: sha256:5dab77b259bc4f6757616a83242eceaec141348048497fe18a30a24a85950d63
+  2.0.9--hdcf5f25_3: sha256:7ebf4ddd29dac9638159c279c79b25bbcee978214420632bbd213d2a93c70cd1
 docker: quay.io/biocontainers/mason
 aliases:
   mason_frag_sequencing: /usr/local/bin/mason_frag_sequencing

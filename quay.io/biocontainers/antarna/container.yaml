@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/antarna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for antarna
 latest:
-  2.0.1.2--py27_0: sha256:fe5e4c16e3859fdc8260159949fc1773938aaac912ad654a5bc88fc235eee090
+  2.0.1.2--py27_0: sha256:249dbc4cee770427286d5d521f7bda3f47b0ec996864ee63324b32e65028e926
 tags:
-  2.0.1.2--py27_0: sha256:fe5e4c16e3859fdc8260159949fc1773938aaac912ad654a5bc88fc235eee090
+  2.0.1.2--py27_0: sha256:249dbc4cee770427286d5d521f7bda3f47b0ec996864ee63324b32e65028e926
 docker: quay.io/biocontainers/antarna
 aliases:
   antarna.py: /usr/local/bin/antarna.py

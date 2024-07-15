@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-fnn
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-fnn
 latest:
-  1.1--r3.4.1_0: sha256:cdfa6a7d21e2a0416190c33cf2c1a59124d6fddd5a230c359adb4d0d941feacd
+  1.1--r3.4.1_0: sha256:72f79d3cbb21cd58aca6465096c2af4b3d3cb896971c48f4d707823eec6a556e
 tags:
-  1.1--r3.4.1_0: sha256:cdfa6a7d21e2a0416190c33cf2c1a59124d6fddd5a230c359adb4d0d941feacd
+  1.1--r3.4.1_0: sha256:72f79d3cbb21cd58aca6465096c2af4b3d3cb896971c48f4d707823eec6a556e
+  1.1--r3.3.1_0: sha256:db49cfa4cd57ed86355b01d478ec665cbf872b670e9ee9d31f44ebeb37ae00dc
 docker: quay.io/biocontainers/r-fnn
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

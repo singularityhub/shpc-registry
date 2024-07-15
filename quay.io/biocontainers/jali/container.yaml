@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/jali
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for jali
 latest:
-  1.3--0: sha256:cf04cf7e161c3a83e8366770c54049ae529a6097e23bd112f0f53bb294ad0430
+  1.3--0: sha256:7608f17e651ab738b35bf618b4e411bc26f3d81aa3a4b69be55817489bb747b6
 tags:
-  1.3--0: sha256:cf04cf7e161c3a83e8366770c54049ae529a6097e23bd112f0f53bb294ad0430
+  1.3--0: sha256:7608f17e651ab738b35bf618b4e411bc26f3d81aa3a4b69be55817489bb747b6
 docker: quay.io/biocontainers/jali
 aliases:
   jali: /usr/local/bin/jali

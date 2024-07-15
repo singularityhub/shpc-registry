@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/phylip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phylip
 latest:
-  3.697--h470a237_0: sha256:2cc601d6ec626d6f5bb9da16d3bffd735f5acc84189424bfb96aad72e6d63796
+  3.697--h470a237_0: sha256:2ae16be51b934670c61978706ff18b35202834c03c74a88c7f0fe0028ad796be
 tags:
-  3.697--h470a237_0: sha256:2cc601d6ec626d6f5bb9da16d3bffd735f5acc84189424bfb96aad72e6d63796
+  3.697--h470a237_0: sha256:2ae16be51b934670c61978706ff18b35202834c03c74a88c7f0fe0028ad796be
 docker: quay.io/biocontainers/phylip
 aliases:
   DrawGram.jar: /usr/local/bin/DrawGram.jar
