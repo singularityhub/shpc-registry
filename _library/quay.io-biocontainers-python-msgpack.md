@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-msgpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-msgpack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-msgpack/container.yaml"
-updated_at: "2024-07-15 02:53:15.857210"
+updated_at: "2024-07-15 03:32:04.011472"
 latest: "0.6.1--py312h28adbb1_10"
 container_url: "https://biocontainers.pro/tools/python-msgpack"
 aliases:
