@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-drc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-drc
 latest:
-  3.0_1--r3.4.1_0: sha256:65548768daa4aa57e8c70caa19a31384ad1c9087c7be9858ae5815851bb4d378
+  3.0_1--r3.4.1_0: sha256:d51c756648be186eac3d7431f516b5983329220245104e99adc01f6a79f3bfda
 tags:
-  3.0_1--r3.4.1_0: sha256:65548768daa4aa57e8c70caa19a31384ad1c9087c7be9858ae5815851bb4d378
+  3.0_1--r3.4.1_0: sha256:d51c756648be186eac3d7431f516b5983329220245104e99adc01f6a79f3bfda
+  3.0_1--r3.3.1_0: sha256:60cd09897bbfc1762e6740fa4fe660b966c5cb6f151fb977e1538301dfc709ac
 docker: quay.io/biocontainers/r-drc
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

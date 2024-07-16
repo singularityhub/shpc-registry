@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/riboseq-rust
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for riboseq-rust
 latest:
-  1.2--1: sha256:3a9e734199068aac1756ce7764f3787a47f3e0a9d46e157621c05013914b98ba
+  1.2--1: sha256:ccc204ef982af289eeafa18e025601e015d9e8a08b1701f9863ec3c3d4029ce2
 tags:
-  1.2--1: sha256:3a9e734199068aac1756ce7764f3787a47f3e0a9d46e157621c05013914b98ba
+  1.2--1: sha256:ccc204ef982af289eeafa18e025601e015d9e8a08b1701f9863ec3c3d4029ce2
 docker: quay.io/biocontainers/riboseq-rust
 aliases:
   rust_amino: /usr/local/bin/rust_amino

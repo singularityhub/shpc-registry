@@ -4,10 +4,10 @@ description: shpc-registry automated BioContainers addition for bioconductor-sva
 latest:
   1.13.0--r40_0: sha256:277ff84918a5b45bc650cec5b77c655e3aab47b8983aca7bab4fad24da0e3fb8
 tags:
-  1.8.1--r351_0: sha256:e401f5dcf3927326f5dd2dd336e8ddbdc1f166d76d91906d11e6d07c2374fc3f
+  1.8.1--r351_0: sha256:0e76cae26ebea71b26e85acf2bd8bd9a88341ef299b51a13d4ba9ce10dbdbd76
   1.13.0--r40_0: sha256:277ff84918a5b45bc650cec5b77c655e3aab47b8983aca7bab4fad24da0e3fb8
-  1.12.0--r36_0: sha256:77239871ab071d2582e1fbc9d298013e3f0715ffd8320f43c3048f6b5ba9643c
-  1.10.0--r36_1: sha256:16b06b741c4fe7cd2b2da53c3e3a186a01891aecbac1207b87ea7cb56174f0b9
+  1.12.0--r36_0: sha256:1d45ab4d5dce11101fa4108c72bfc103c60606d502a2683f454ad79cb6f258ae
+  1.10.0--r36_1: sha256:3198a0467f8532ba5a38077f782a8e639064091d37e4e1d28b751569b7f60d52
 docker: quay.io/biocontainers/bioconductor-svaplsseq
 aliases:
   idn2: /usr/local/bin/idn2

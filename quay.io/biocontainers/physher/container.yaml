@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/physher
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for physher
 latest:
-  2.0.0--h8cec121_0: sha256:10bcf7640dfed877c2172e0c2657e52bc3b4291243555b58afc1de7fa6311c26
+  2.0.1--h8cec121_1: sha256:afae2d66cf4b0e3ec47a1859896176b6216bc5bddffed1902f1d2f45166b1013
 tags:
   2.0.0--h8cec121_0: sha256:10bcf7640dfed877c2172e0c2657e52bc3b4291243555b58afc1de7fa6311c26
+  2.0.1--h8cec121_1: sha256:afae2d66cf4b0e3ec47a1859896176b6216bc5bddffed1902f1d2f45166b1013
 docker: quay.io/biocontainers/physher
 aliases:
   physher: /usr/local/bin/physher

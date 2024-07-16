@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-app-cpanminus
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-app-cpanminus
 latest:
-  1.7044--pl526_1: sha256:fc6cc5018a6ad73acbc611da89e352ec39c7f22b3c04c48f9df307240a957d39
+  1.7044--pl526_1: sha256:e8d41b44243760c73d43f231c2b8b93ac00714ca542a21bece2b20ffbbdd0fa1
 tags:
-  1.7044--pl526_1: sha256:fc6cc5018a6ad73acbc611da89e352ec39c7f22b3c04c48f9df307240a957d39
+  1.7044--pl526_1: sha256:e8d41b44243760c73d43f231c2b8b93ac00714ca542a21bece2b20ffbbdd0fa1
 docker: quay.io/biocontainers/perl-app-cpanminus
 aliases:
   cpanm: /usr/local/bin/cpanm

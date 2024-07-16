@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/revtrans
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for revtrans
 latest:
-  1.4--py_1: sha256:baa7decf317a6d483a830c38349379a4c95061b73af7f7a5b0166c0ade7cf90c
+  1.4--py_1: sha256:99479d8528ee225a296ef7ea503e937bb9d99e2a5bf8a6ee132759ce536f64e9
 tags:
-  1.4--py_1: sha256:baa7decf317a6d483a830c38349379a4c95061b73af7f7a5b0166c0ade7cf90c
+  1.4--py_1: sha256:99479d8528ee225a296ef7ea503e937bb9d99e2a5bf8a6ee132759ce536f64e9
 docker: quay.io/biocontainers/revtrans
 aliases:
   mod_seqfiles.py: /usr/local/bin/mod_seqfiles.py

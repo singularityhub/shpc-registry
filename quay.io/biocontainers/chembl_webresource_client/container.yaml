@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for chembl_webresour
 latest:
   0.10.1: sha256:d60f1846d22ef9cd24b4092ef1e2999ebf1b8c0d811ab285b0558b815e72c77f
 tags:
-  0.9.31: sha256:15e969d3600d910c4637809b6c3f6fa8ee69f9b0d85b8cb4ed56d8032c86c1e0
+  0.9.31: sha256:5e99109759b67c5f00803d7dc59a7677a6e6545a831343ecc68d06dda5d2c2f9
   0.10.1: sha256:d60f1846d22ef9cd24b4092ef1e2999ebf1b8c0d811ab285b0558b815e72c77f
 docker: quay.io/biocontainers/chembl_webresource_client
 aliases:

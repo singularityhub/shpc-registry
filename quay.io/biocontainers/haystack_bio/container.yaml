@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for haystack_bio
 latest:
   0.5.5--py_1: sha256:a8b31e06623ab414a223672727140951a1ad22d6a9c34c7c52c9ef7731917e60
 tags:
-  v0.5.0--0: sha256:65b010177a7b945fef60ba38251f70d7e40402274982fd90310929fd62396ae3
+  v0.5.0--0: sha256:0471aecf0de00b13fce75f24a20588c276e1fdef6266a869d45577a19d285e02
   0.5.5--py_1: sha256:a8b31e06623ab414a223672727140951a1ad22d6a9c34c7c52c9ef7731917e60
 docker: quay.io/biocontainers/haystack_bio
 aliases:

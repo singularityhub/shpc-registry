@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/smcounter2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for smcounter2
 latest:
-  0.1.2018.08.28--2: sha256:ebd4f6babb6734fc5c53f35d2a93c8a2d790f64b27f32d337604faaa2677b1a0
+  0.1.2018.08.28--2: sha256:131852928dcdf8e833957592ac48d273ca094907ca6612faefe1d8deb32f1288
 tags:
-  0.1.2018.08.28--2: sha256:ebd4f6babb6734fc5c53f35d2a93c8a2d790f64b27f32d337604faaa2677b1a0
+  0.1.2018.08.28--2: sha256:131852928dcdf8e833957592ac48d273ca094907ca6612faefe1d8deb32f1288
 docker: quay.io/biocontainers/smcounter2
 aliases:
   smCounter2: /usr/local/bin/smCounter2

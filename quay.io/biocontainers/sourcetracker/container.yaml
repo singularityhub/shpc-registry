@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/sourcetracker
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sourcetracker
 latest:
-  2.0.1--pyh24bf2e0_0: sha256:9f0afea3555054bcf0bc58fed7270265e5f3b2c9b4a919f232cb5f4b227ce0e8
+  2.0.1--pyh24bf2e0_0: sha256:c1c6403041b2a7c0c02101a36618180b55211427ec98ea5efaef1777f86d6d15
 tags:
-  2.0.1--pyh24bf2e0_0: sha256:9f0afea3555054bcf0bc58fed7270265e5f3b2c9b4a919f232cb5f4b227ce0e8
+  2.0.1--pyh24bf2e0_0: sha256:c1c6403041b2a7c0c02101a36618180b55211427ec98ea5efaef1777f86d6d15
 docker: quay.io/biocontainers/sourcetracker

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/reneo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for reneo
 latest:
-  0.3.1--pyhdfd78af_0: sha256:465af02a4c5f1e62a8bf98ba017d6d273ae0bb5bb2f22f98899ae2b67f36cd1a
+  0.4.0--pyhdfd78af_0: sha256:91f4717e66781941f0a33dfe238dbf4693c2dedf102bbd91bafd98cbe5c2e1de
 tags:
   0.2.0--pyhdfd78af_0: sha256:8f50e79a07a3e900019e8979fb70b2a9c44a85f7704a77aee02543f3addfee78
   0.3.1--pyhdfd78af_0: sha256:465af02a4c5f1e62a8bf98ba017d6d273ae0bb5bb2f22f98899ae2b67f36cd1a
+  0.4.0--pyhdfd78af_0: sha256:91f4717e66781941f0a33dfe238dbf4693c2dedf102bbd91bafd98cbe5c2e1de
 docker: quay.io/biocontainers/reneo
 aliases:
   jsondiff: /usr/local/bin/jsondiff

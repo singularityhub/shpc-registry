@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-mcrestimate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mcrestimate
 latest:
-  2.42.0--r36_1: sha256:0bdd103c6733eae42b8964116a0ca57d6bab7b9a32320d38cff3e0a1e4b060e4
+  2.42.0--r36_1: sha256:f60c99c5d22056636c8c4a00da1dc0e10f89cc443263540b4b590346cb2d8d0c
 tags:
-  2.42.0--r36_1: sha256:0bdd103c6733eae42b8964116a0ca57d6bab7b9a32320d38cff3e0a1e4b060e4
+  2.42.0--r36_1: sha256:f60c99c5d22056636c8c4a00da1dc0e10f89cc443263540b4b590346cb2d8d0c
 docker: quay.io/biocontainers/bioconductor-mcrestimate
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

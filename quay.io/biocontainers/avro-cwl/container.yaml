@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/avro-cwl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for avro-cwl
 latest:
-  1.8.9--py_0: sha256:1aefa7bada20f15697b7dddf6068d6369e15f5dcabf742f853e7be92d89591e7
+  1.8.9--py_0: sha256:b3abf6351a838cf5a888e791505ac7274f7b3dd9c7614fc89db85f40b3f06437
 tags:
-  1.8.9--py_0: sha256:1aefa7bada20f15697b7dddf6068d6369e15f5dcabf742f853e7be92d89591e7
+  1.8.9--py_0: sha256:b3abf6351a838cf5a888e791505ac7274f7b3dd9c7614fc89db85f40b3f06437
 docker: quay.io/biocontainers/avro-cwl
 aliases:
   avro: /usr/local/bin/avro

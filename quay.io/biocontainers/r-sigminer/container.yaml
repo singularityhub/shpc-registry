@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-sigminer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-sigminer
 latest:
-  2.3.1--r43h21a89ab_0: sha256:4986a0266b8ccb3f03a54da628ccd84ae9f1974e9c16ca3a5b2392f1e5780c77
+  2.3.1--r43h21a89ab_1: sha256:f32a2d8d475ac95f672bfa46fb4ee1f6495a1ea8bce3e85181c9b52347d8a65a
 tags:
   2.1.7--r41hecf12ef_1: sha256:d1b85332c383412d0c463b0ce4459fa6078b504299bcdfadf4536f7ca318c366
   2.1.9--r42hecf12ef_1: sha256:b9f51c2a7726724e4d7f15d7e1002b31a402e89cba537c5b10c3d269d4dc862b
@@ -11,6 +11,7 @@ tags:
   2.2.2--r43h21a89ab_0: sha256:184cdc81a9c81248aa7f6dc323148dc9825078c6a0c68d3135ddbcae78a63125
   2.3.0--r43h21a89ab_0: sha256:6fa4ac6d95429a371acc886b7a7c2ef4a42e8ab8c67a43610c27723990186835
   2.3.1--r43h21a89ab_0: sha256:4986a0266b8ccb3f03a54da628ccd84ae9f1974e9c16ca3a5b2392f1e5780c77
+  2.3.1--r43h21a89ab_1: sha256:f32a2d8d475ac95f672bfa46fb4ee1f6495a1ea8bce3e85181c9b52347d8a65a
 docker: quay.io/biocontainers/r-sigminer
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

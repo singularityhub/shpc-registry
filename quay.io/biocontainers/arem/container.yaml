@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/arem
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for arem
 latest:
-  1.0.1--py_2: sha256:5ece1f39bf600242edaa5245363e30e09649e41126bbc48a1082112eb14e3686
+  1.0.1--py_2: sha256:2a945b6318a259704c843d44240b10f3fc771a0baff79d90eefc1f0c8504dbc8
 tags:
-  1.0.1--py_2: sha256:5ece1f39bf600242edaa5245363e30e09649e41126bbc48a1082112eb14e3686
+  1.0.1--py_2: sha256:2a945b6318a259704c843d44240b10f3fc771a0baff79d90eefc1f0c8504dbc8
 docker: quay.io/biocontainers/arem
 aliases:
   arem: /usr/local/bin/arem

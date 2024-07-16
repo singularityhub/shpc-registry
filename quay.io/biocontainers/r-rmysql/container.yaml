@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-rmysql
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rmysql
 latest:
-  0.10.11--r3.3.1_0: sha256:17d303fe092819749431b8044e714a004495625d9f6b5c3f341b866ea8bc61c8
+  0.10.11--r3.3.1_0: sha256:25c3735219e9a5b85ef40acb5c6ba240af5505a184f78ffa1efbd2292f7d6e3b
 tags:
-  0.10.11--r3.3.1_0: sha256:17d303fe092819749431b8044e714a004495625d9f6b5c3f341b866ea8bc61c8
-  0.10.11--r3.3.2_0: sha256:589a556f6da66b2cafd195e4a1413ed8826c66bb2310bbd4d1a34b46d08cab77
+  0.10.11--r3.3.1_0: sha256:25c3735219e9a5b85ef40acb5c6ba240af5505a184f78ffa1efbd2292f7d6e3b
+  0.10.11--r3.3.2_0: sha256:371e260113a850e975097744cc5d221876fcc7dfa13439fbfa4f394ed2cb3d75
 docker: quay.io/biocontainers/r-rmysql
 aliases:
   my_print_defaults: /usr/local/bin/my_print_defaults

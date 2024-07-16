@@ -5,6 +5,7 @@ latest:
   0.9.8--py310h7c593f9_1: sha256:fd926dd2abb801b69bc758923bcbb1ca18ef265cfcced8208c6840d8b5293a3e
 tags:
   0.9.8--py310h7c593f9_1: sha256:fd926dd2abb801b69bc758923bcbb1ca18ef265cfcced8208c6840d8b5293a3e
+  0.9.8--py312hf67a6ed_1: sha256:95729c454c2dfd55a3578b2f052285774970db71c7cecdb3e845da64d64aee97
 docker: quay.io/biocontainers/plinkio
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

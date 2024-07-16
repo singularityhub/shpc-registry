@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for microbecensus
 latest:
   1.1.1--pyhca03a8a_2: sha256:bea35e01c5678e71bd2baa6f2e0307248988f2a24d89ee7d3ab991b4ef1885f1
 tags:
-  1.1.1--0: sha256:d1e21bc500e2898c6e9f713c45a5f278ff949b9e8aa53d84e60ddc8369499a56
+  1.1.1--0: sha256:450d35be7f3fbc7cdc0363ff9707be5188d9018188cdc3ac13dd34ae88e5fd26
   1.1.1--pyhca03a8a_2: sha256:bea35e01c5678e71bd2baa6f2e0307248988f2a24d89ee7d3ab991b4ef1885f1
 docker: quay.io/biocontainers/microbecensus
 aliases:

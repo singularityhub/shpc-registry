@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for bioconductor-maf
 latest:
   3.10.0--r40_1: sha256:4de2a51e9601480dbe6466830af814c880097034a6c8764e88d6018980d55934
 tags:
-  3.7.0--r36_2: sha256:24b8345c4612caab3a70ced22ab10e5dd14cf01aa3f7b13b5c7c5d1b39e88b2a
+  3.7.0--r36_2: sha256:02192e5f3423f9cd60a0cd1d50fc77521d17ac825ee0e61c1fb9005c7135a521
   3.10.0--r40_1: sha256:4de2a51e9601480dbe6466830af814c880097034a6c8764e88d6018980d55934
 docker: quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5
 aliases:

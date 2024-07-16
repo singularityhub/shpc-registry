@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/pycli
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pycli
 latest:
-  2.0.3--py_1: sha256:32724f626f712d247fdd6de03561cdc92a66b033e9073fb284b620ad53debb68
+  2.0.3--py_1: sha256:12cd03d82672d9c30b5701a4d2e7c7a0b9674c891aa9d7e5596befea3db5d2a4
 tags:
-  2.0.3--py_1: sha256:32724f626f712d247fdd6de03561cdc92a66b033e9073fb284b620ad53debb68
+  2.0.3--py_1: sha256:12cd03d82672d9c30b5701a4d2e7c7a0b9674c891aa9d7e5596befea3db5d2a4
 docker: quay.io/biocontainers/pycli
 aliases:
   python2-config: /usr/local/bin/python2-config

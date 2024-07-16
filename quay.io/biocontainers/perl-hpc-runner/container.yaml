@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/perl-hpc-runner
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-hpc-runner
 latest:
-  2.48--0: sha256:4b4b2778c8c9043c645ae79e78be1a584ef7928bee22cda96ba8cc3ccbdf7f37
+  2.48--0: sha256:3a4d188d5a584f25a5a80fa88fdbd4152ce8934dc5a6bdaf323ebc40ab820207
 tags:
-  2.48--0: sha256:4b4b2778c8c9043c645ae79e78be1a584ef7928bee22cda96ba8cc3ccbdf7f37
+  2.48--0: sha256:3a4d188d5a584f25a5a80fa88fdbd4152ce8934dc5a6bdaf323ebc40ab820207
 docker: quay.io/biocontainers/perl-hpc-runner

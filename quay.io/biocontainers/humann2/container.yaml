@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/humann2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for humann2
 latest:
-  2.8.1--py27_0: sha256:d983382a608ed92eea6717018c052c17ecd7578a032f9d9d64548db56e358a12
+  2.8.1--py27_0: sha256:a0443ec98cc59b615d6e0c02b24bd6dd6e3b691a2b5b7fc4475684015db04c93
 tags:
-  2.8.1--py27_0: sha256:d983382a608ed92eea6717018c052c17ecd7578a032f9d9d64548db56e358a12
+  2.8.1--py27_0: sha256:a0443ec98cc59b615d6e0c02b24bd6dd6e3b691a2b5b7fc4475684015db04c93
 docker: quay.io/biocontainers/humann2
 aliases:
   add_metadata_tree.py: /usr/local/bin/add_metadata_tree.py

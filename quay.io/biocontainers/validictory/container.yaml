@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/validictory
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for validictory
 latest:
-  1.0.1--py36_0: sha256:dd33a79173b8057a920ca9dbfdb0b907cb00422cb239182106a401471a2366ae
+  1.0.1--py36_0: sha256:72f9b354cc3007d9d64e758c858a2d3be93e9f834097277b00cf444b1ed5c921
 tags:
-  1.0.1--py36_0: sha256:dd33a79173b8057a920ca9dbfdb0b907cb00422cb239182106a401471a2366ae
+  1.0.1--py36_0: sha256:72f9b354cc3007d9d64e758c858a2d3be93e9f834097277b00cf444b1ed5c921
+  1.0.1--py35_0: sha256:cde7635f21976d2ce047990c78354f6946b94ab6fcc710928881d20ee3393efa
 docker: quay.io/biocontainers/validictory
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

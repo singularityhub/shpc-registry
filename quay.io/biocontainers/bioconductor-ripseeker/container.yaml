@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-ripseeker
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ripseeker
 latest:
-  1.26.0--r36_0: sha256:365c0ad3bb3f84ac2f204bc63c46a194287327ae4b59fb0a1785194c3da9adfe
+  1.26.0--r36_0: sha256:5afc8724489da8615daf03c0f5e217156476a6a62ec314a4e2d00118382b820a
 tags:
-  1.26.0--r36_0: sha256:365c0ad3bb3f84ac2f204bc63c46a194287327ae4b59fb0a1785194c3da9adfe
+  1.26.0--r36_0: sha256:5afc8724489da8615daf03c0f5e217156476a6a62ec314a4e2d00118382b820a
 docker: quay.io/biocontainers/bioconductor-ripseeker
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

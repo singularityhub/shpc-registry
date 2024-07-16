@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-mlm4omics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mlm4omics
 latest:
-  1.2.0--r351hf484d3e_0: sha256:e5f233767451206ba965fd483a5c316e3813c71bf52e8fe1121652d5f3725abe
+  1.2.0--r351hf484d3e_0: sha256:fa721f4a5c90a8d697d9d07a2ce41651a267bda991ec6bea31e76b9623be6b29
 tags:
-  1.2.0--r351hf484d3e_0: sha256:e5f233767451206ba965fd483a5c316e3813c71bf52e8fe1121652d5f3725abe
+  1.2.0--r351hf484d3e_0: sha256:fa721f4a5c90a8d697d9d07a2ce41651a267bda991ec6bea31e76b9623be6b29
 docker: quay.io/biocontainers/bioconductor-mlm4omics
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
