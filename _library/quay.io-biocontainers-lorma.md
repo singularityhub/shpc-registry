@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lorma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lorma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lorma/container.yaml"
-updated_at: "2024-07-15 04:04:54.630736"
+updated_at: "2024-07-16 03:24:02.306694"
 latest: "0.4--2"
 container_url: "https://biocontainers.pro/tools/lorma"
 aliases:
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "0.4--2"
 description: "shpc-registry automated BioContainers addition for lorma"
-config: {"url": "https://biocontainers.pro/tools/lorma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lorma", "latest": {"0.4--2": "sha256:d0717e94ffcb507faa9bd3867f17e5c0e0739e1a80640b69162d99021dc253de"}, "tags": {"0.4--2": "sha256:d0717e94ffcb507faa9bd3867f17e5c0e0739e1a80640b69162d99021dc253de"}, "docker": "quay.io/biocontainers/lorma", "aliases": {"LoRMA": "/usr/local/bin/LoRMA", "lordec-build-SR-graph": "/usr/local/bin/lordec-build-SR-graph", "lordec-correct": "/usr/local/bin/lordec-correct", "lordec-stat": "/usr/local/bin/lordec-stat", "lordec-trim": "/usr/local/bin/lordec-trim", "lordec-trim-split": "/usr/local/bin/lordec-trim-split", "lorma.sh": "/usr/local/bin/lorma.sh"}}
+config: {"url": "https://biocontainers.pro/tools/lorma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lorma", "latest": {"0.4--2": "sha256:7adb25f7f2eca90f8d7037f7c33991e4aa6b995e844c0a91d653c40fe9318ca7"}, "tags": {"0.4--2": "sha256:7adb25f7f2eca90f8d7037f7c33991e4aa6b995e844c0a91d653c40fe9318ca7"}, "docker": "quay.io/biocontainers/lorma", "aliases": {"LoRMA": "/usr/local/bin/LoRMA", "lordec-build-SR-graph": "/usr/local/bin/lordec-build-SR-graph", "lordec-correct": "/usr/local/bin/lordec-correct", "lordec-stat": "/usr/local/bin/lordec-stat", "lordec-trim": "/usr/local/bin/lordec-trim", "lordec-trim-split": "/usr/local/bin/lordec-trim-split", "lorma.sh": "/usr/local/bin/lorma.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lorma.

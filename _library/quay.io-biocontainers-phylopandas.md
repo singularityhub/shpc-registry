@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylopandas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylopandas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylopandas/container.yaml"
-updated_at: "2024-07-15 03:18:54.659542"
+updated_at: "2024-07-16 02:37:55.576727"
 latest: "0.8.0--py_0"
 container_url: "https://biocontainers.pro/tools/phylopandas"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.8.0--py_0"
 description: "shpc-registry automated BioContainers addition for phylopandas"
-config: {"url": "https://biocontainers.pro/tools/phylopandas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylopandas", "latest": {"0.8.0--py_0": "sha256:b363e1ee18806db6cb229572576840850ccc801b5ced8bb33c40d666d8c0a4d1"}, "tags": {"0.8.0--py_0": "sha256:b363e1ee18806db6cb229572576840850ccc801b5ced8bb33c40d666d8c0a4d1"}, "docker": "quay.io/biocontainers/phylopandas", "aliases": {"sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
+config: {"url": "https://biocontainers.pro/tools/phylopandas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylopandas", "latest": {"0.8.0--py_0": "sha256:f1ab0ff3626ecd132bf0c358ef83b01ea49432b738eb24fc737ada5bb4671b01"}, "tags": {"0.8.0--py_0": "sha256:f1ab0ff3626ecd132bf0c358ef83b01ea49432b738eb24fc737ada5bb4671b01"}, "docker": "quay.io/biocontainers/phylopandas", "aliases": {"sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylopandas.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mutationalpatterns"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mutationalpatterns/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mutationalpatterns/container.yaml"
-updated_at: "2024-07-15 04:02:04.427339"
+updated_at: "2024-07-16 03:21:11.751731"
 latest: "0.2b--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-mutationalpatterns"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.2b--r3.4.1_0"
+ - "0.2b--0"
 description: "shpc-registry automated BioContainers addition for r-mutationalpatterns"
-config: {"url": "https://biocontainers.pro/tools/r-mutationalpatterns", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mutationalpatterns", "latest": {"0.2b--r3.4.1_0": "sha256:d4b35b1011f9b41d1cc177b87b543a37fe1d112fa20100cf94f9b6b4ed3bb863"}, "tags": {"0.2b--r3.4.1_0": "sha256:d4b35b1011f9b41d1cc177b87b543a37fe1d112fa20100cf94f9b6b4ed3bb863"}, "docker": "quay.io/biocontainers/r-mutationalpatterns", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-mutationalpatterns", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mutationalpatterns", "latest": {"0.2b--r3.4.1_0": "sha256:afc4cdea43102363103d6fb7ad14a1c6da77e6dd88bae7e84f35f24576866a29"}, "tags": {"0.2b--r3.4.1_0": "sha256:afc4cdea43102363103d6fb7ad14a1c6da77e6dd88bae7e84f35f24576866a29", "0.2b--0": "sha256:fc6dbdf38522dc8a141e5d9c19760e437983bc90534bba816e611315105aa5c2"}, "docker": "quay.io/biocontainers/r-mutationalpatterns", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mutationalpatterns.

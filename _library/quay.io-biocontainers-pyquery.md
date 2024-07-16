@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyquery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyquery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyquery/container.yaml"
-updated_at: "2024-07-15 03:49:50.910070"
+updated_at: "2024-07-16 03:08:46.569279"
 latest: "1.2.9--py27_0"
 container_url: "https://biocontainers.pro/tools/pyquery"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.2.9--py27_0"
 description: "shpc-registry automated BioContainers addition for pyquery"
-config: {"url": "https://biocontainers.pro/tools/pyquery", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyquery", "latest": {"1.2.9--py27_0": "sha256:8006a99d8b1d8b84f90367f556906b55593ca55e5feb4889ee116284d251f76b"}, "tags": {"1.2.9--py27_0": "sha256:8006a99d8b1d8b84f90367f556906b55593ca55e5feb4889ee116284d251f76b"}, "docker": "quay.io/biocontainers/pyquery", "aliases": {"easy_install-2.7": "/usr/local/bin/easy_install-2.7", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/pyquery", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyquery", "latest": {"1.2.9--py27_0": "sha256:ebf0802009f9661e232a92081294e108172f8889c45e6488e6c7c15790337cae"}, "tags": {"1.2.9--py27_0": "sha256:ebf0802009f9661e232a92081294e108172f8889c45e6488e6c7c15790337cae"}, "docker": "quay.io/biocontainers/pyquery", "aliases": {"easy_install-2.7": "/usr/local/bin/easy_install-2.7", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyquery.

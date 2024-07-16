@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lrzip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lrzip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lrzip/container.yaml"
-updated_at: "2024-07-15 03:27:42.361196"
-latest: "0.621--hedc9cd1_7"
+updated_at: "2024-07-16 02:46:45.599026"
+latest: "0.651--h5753e1d_0"
 container_url: "https://biocontainers.pro/tools/lrzip"
 aliases:
  - "lrunzip"
@@ -17,8 +17,9 @@ versions:
  - "0.621--h159dde0_5"
  - "0.621--h159dde0_6"
  - "0.621--hedc9cd1_7"
+ - "0.651--h5753e1d_0"
 description: "shpc-registry automated BioContainers addition for lrzip"
-config: {"url": "https://biocontainers.pro/tools/lrzip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lrzip", "latest": {"0.621--hedc9cd1_7": "sha256:ed6da06f488a1f811839153e500478947618da05d6b5f4b2051afb780f117f5e"}, "tags": {"0.621--h159dde0_5": "sha256:5e6c6973f0575878373c440924b432fe856f6e3896d467f525d41cd5f2f3a9b5", "0.621--h159dde0_6": "sha256:9fd08d86ac5359ab3769e4f6d58e7d04478aaaaa46a318a23751d4618899b76a", "0.621--hedc9cd1_7": "sha256:ed6da06f488a1f811839153e500478947618da05d6b5f4b2051afb780f117f5e"}, "docker": "quay.io/biocontainers/lrzip", "aliases": {"lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar"}}
+config: {"url": "https://biocontainers.pro/tools/lrzip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lrzip", "latest": {"0.651--h5753e1d_0": "sha256:5349858d767af8b2866b01ee7d1246a7c2642ace69799f91216b64c72292f8d5"}, "tags": {"0.621--h159dde0_5": "sha256:5e6c6973f0575878373c440924b432fe856f6e3896d467f525d41cd5f2f3a9b5", "0.621--h159dde0_6": "sha256:9fd08d86ac5359ab3769e4f6d58e7d04478aaaaa46a318a23751d4618899b76a", "0.621--hedc9cd1_7": "sha256:ed6da06f488a1f811839153e500478947618da05d6b5f4b2051afb780f117f5e", "0.651--h5753e1d_0": "sha256:5349858d767af8b2866b01ee7d1246a7c2642ace69799f91216b64c72292f8d5"}, "docker": "quay.io/biocontainers/lrzip", "aliases": {"lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lrzip.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/lrzip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lrzip:0.621--hedc9cd1_7
+$ shpc install quay.io/biocontainers/lrzip:0.651--h5753e1d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lrzip/0.621--hedc9cd1_7
-$ module help quay.io/biocontainers/lrzip/0.621--hedc9cd1_7
+$ module load quay.io/biocontainers/lrzip/0.651--h5753e1d_0
+$ module help quay.io/biocontainers/lrzip/0.651--h5753e1d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

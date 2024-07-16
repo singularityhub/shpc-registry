@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/leptonica"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/leptonica/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/leptonica/container.yaml"
-updated_at: "2024-07-15 03:27:54.604494"
+updated_at: "2024-07-16 02:46:57.925406"
 latest: "1.73--1"
 container_url: "https://biocontainers.pro/tools/leptonica"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "1.73--1"
 description: "shpc-registry automated BioContainers addition for leptonica"
-config: {"url": "https://biocontainers.pro/tools/leptonica", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for leptonica", "latest": {"1.73--1": "sha256:693619a9cefd6fc87876f80627e29a14fa05f0e35f3b6912aeac3287f8899dc9"}, "tags": {"1.73--1": "sha256:693619a9cefd6fc87876f80627e29a14fa05f0e35f3b6912aeac3287f8899dc9"}, "docker": "quay.io/biocontainers/leptonica", "aliases": {"convertfilestopdf": "/usr/local/bin/convertfilestopdf", "convertfilestops": "/usr/local/bin/convertfilestops", "convertformat": "/usr/local/bin/convertformat", "convertsegfilestopdf": "/usr/local/bin/convertsegfilestopdf", "convertsegfilestops": "/usr/local/bin/convertsegfilestops", "converttopdf": "/usr/local/bin/converttopdf", "converttops": "/usr/local/bin/converttops", "fileinfo": "/usr/local/bin/fileinfo", "printimage": "/usr/local/bin/printimage", "printsplitimage": "/usr/local/bin/printsplitimage", "printtiff": "/usr/local/bin/printtiff", "splitimage2pdf": "/usr/local/bin/splitimage2pdf", "xtractprotos": "/usr/local/bin/xtractprotos"}}
+config: {"url": "https://biocontainers.pro/tools/leptonica", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for leptonica", "latest": {"1.73--1": "sha256:45909c3d01fc0fec702c17616ea7d605f970943b25030c73ffecc4a9687df866"}, "tags": {"1.73--1": "sha256:45909c3d01fc0fec702c17616ea7d605f970943b25030c73ffecc4a9687df866"}, "docker": "quay.io/biocontainers/leptonica", "aliases": {"convertfilestopdf": "/usr/local/bin/convertfilestopdf", "convertfilestops": "/usr/local/bin/convertfilestops", "convertformat": "/usr/local/bin/convertformat", "convertsegfilestopdf": "/usr/local/bin/convertsegfilestopdf", "convertsegfilestops": "/usr/local/bin/convertsegfilestops", "converttopdf": "/usr/local/bin/converttopdf", "converttops": "/usr/local/bin/converttops", "fileinfo": "/usr/local/bin/fileinfo", "printimage": "/usr/local/bin/printimage", "printsplitimage": "/usr/local/bin/printsplitimage", "printtiff": "/usr/local/bin/printtiff", "splitimage2pdf": "/usr/local/bin/splitimage2pdf", "xtractprotos": "/usr/local/bin/xtractprotos"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/leptonica.

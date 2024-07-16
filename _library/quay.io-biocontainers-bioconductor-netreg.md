@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-netreg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netreg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netreg/container.yaml"
-updated_at: "2024-07-15 03:28:11.339026"
+updated_at: "2024-07-16 02:47:14.841766"
 latest: "1.13.1--r40h399db7b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-netreg"
 aliases:
@@ -17,7 +17,7 @@ versions:
  - "1.11.0--r40h5f743cb_0"
  - "1.10.0--r36he1b5a44_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-netreg"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-netreg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netreg", "latest": {"1.13.1--r40h399db7b_1": "sha256:32d7b9d62c7c74c58802f18ac833d4bc8ba4adfe95b1c96298e6f85a807e9aaa"}, "tags": {"1.8.0--r36he1b5a44_1": "sha256:cf644b26060abff59f3e70fc467fdfb6942c19fd9d828e8371d19af8ab7e1dc0", "1.13.1--r40h399db7b_1": "sha256:32d7b9d62c7c74c58802f18ac833d4bc8ba4adfe95b1c96298e6f85a807e9aaa", "1.11.0--r40h5f743cb_0": "sha256:eac09d99ced2357a0fa3c1b8e3d0a275c225e004c5b5a59563281cbc9feb725f", "1.10.0--r36he1b5a44_0": "sha256:ac001058439e6878ae932c2c810a015ec00bc35cf46e0db2c02051f27f639434"}, "docker": "quay.io/biocontainers/bioconductor-netreg", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-netreg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netreg", "latest": {"1.13.1--r40h399db7b_1": "sha256:32d7b9d62c7c74c58802f18ac833d4bc8ba4adfe95b1c96298e6f85a807e9aaa"}, "tags": {"1.8.0--r36he1b5a44_1": "sha256:36920b999f654b396fbf898abef41eeefb962391099e19a2cde471994aa02bc9", "1.13.1--r40h399db7b_1": "sha256:32d7b9d62c7c74c58802f18ac833d4bc8ba4adfe95b1c96298e6f85a807e9aaa", "1.11.0--r40h5f743cb_0": "sha256:eac09d99ced2357a0fa3c1b8e3d0a275c225e004c5b5a59563281cbc9feb725f", "1.10.0--r36he1b5a44_0": "sha256:00fef331efeeb88ff68c3b11ee4da134c39e90e7cd58dc5bda63b65b6ee6024d"}, "docker": "quay.io/biocontainers/bioconductor-netreg", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-netreg.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mmcpcounter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mmcpcounter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mmcpcounter/container.yaml"
-updated_at: "2024-07-15 03:32:41.637362"
+updated_at: "2024-07-16 02:51:45.713379"
 latest: "1.1.0--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-mmcpcounter"
 
@@ -13,7 +13,7 @@ versions:
  - "1.1.0--r42hdfd78af_1"
  - "1.1.0--r43hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for r-mmcpcounter"
-config: {"url": "https://biocontainers.pro/tools/r-mmcpcounter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mmcpcounter", "latest": {"1.1.0--r43hdfd78af_2": "sha256:a15e3910375e8f1cef5ca00b6d90d2abee4e8f487ead031ca12bb7aa3e135fc8"}, "tags": {"1.1.0--r41hdfd78af_0": "sha256:a14b894273cc7155b83d92a419005dd6a6916487a05b02e1a2fbc209e81ede55", "1.1.0--r42hdfd78af_1": "sha256:dda72dda1ffa8b6da60d8b3adbfc2ce6e8541491adef91996538371773ac62b0", "1.1.0--r43hdfd78af_2": "sha256:a15e3910375e8f1cef5ca00b6d90d2abee4e8f487ead031ca12bb7aa3e135fc8"}, "docker": "quay.io/biocontainers/r-mmcpcounter"}
+config: {"url": "https://biocontainers.pro/tools/r-mmcpcounter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mmcpcounter", "latest": {"1.1.0--r43hdfd78af_2": "sha256:a15e3910375e8f1cef5ca00b6d90d2abee4e8f487ead031ca12bb7aa3e135fc8"}, "tags": {"1.1.0--r41hdfd78af_0": "sha256:a14b894273cc7155b83d92a419005dd6a6916487a05b02e1a2fbc209e81ede55", "1.1.0--r42hdfd78af_1": "sha256:8b66341afccc9db0e5eb099d1fa654a94ec0b466aedaf4ba1b9805fe1220e832", "1.1.0--r43hdfd78af_2": "sha256:a15e3910375e8f1cef5ca00b6d90d2abee4e8f487ead031ca12bb7aa3e135fc8"}, "docker": "quay.io/biocontainers/r-mmcpcounter"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mmcpcounter.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grequests"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grequests/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grequests/container.yaml"
-updated_at: "2024-07-15 03:29:41.392112"
+updated_at: "2024-07-16 02:48:45.239262"
 latest: "0.3.0--py36_1"
 container_url: "https://biocontainers.pro/tools/grequests"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.3.0--py36_1"
+ - "0.3.0--py35_1"
 description: "shpc-registry automated BioContainers addition for grequests"
-config: {"url": "https://biocontainers.pro/tools/grequests", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grequests", "latest": {"0.3.0--py36_1": "sha256:8bf16f745d59efe408d4e06b02e609e466aee775770ecf84682db76a4a99fb46"}, "tags": {"0.3.0--py36_1": "sha256:8bf16f745d59efe408d4e06b02e609e466aee775770ecf84682db76a4a99fb46"}, "docker": "quay.io/biocontainers/grequests", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/grequests", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grequests", "latest": {"0.3.0--py36_1": "sha256:c6b30a9e0d90c21258ff34c8c847850217182e429d0ad6a0484e545d5372d1da"}, "tags": {"0.3.0--py36_1": "sha256:c6b30a9e0d90c21258ff34c8c847850217182e429d0ad6a0484e545d5372d1da", "0.3.0--py35_1": "sha256:f6fa04cd29fc2cae358ca6daf97ecd98dd54f8f26dc882f4b15263ce2f0390c3"}, "docker": "quay.io/biocontainers/grequests", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grequests.

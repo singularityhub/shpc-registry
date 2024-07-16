@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fqzcomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fqzcomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fqzcomp/container.yaml"
-updated_at: "2024-07-15 03:27:07.515812"
+updated_at: "2024-07-16 02:46:10.537894"
 latest: "4.6--hdcf5f25_5"
 container_url: "https://biocontainers.pro/tools/fqzcomp"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "4.6--hd03093a_4"
  - "4.6--hdcf5f25_5"
 description: "shpc-registry automated BioContainers addition for fqzcomp"
-config: {"url": "https://biocontainers.pro/tools/fqzcomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fqzcomp", "latest": {"4.6--hdcf5f25_5": "sha256:e98818d8a5f5207c5c1fbc59b898016f2377e66330e73ff1be2ca80409e1da39"}, "tags": {"4.6--hd03093a_3": "sha256:94f34b44472d749e0832eeaaa24cd1e2d6a358d6a8406d6e0adbb94bff9db8a3", "4.6--hd03093a_4": "sha256:af97e7af72a0a858c7bc9e820051e95af87f55564a15e478e674b8235b7411fe", "4.6--hdcf5f25_5": "sha256:e98818d8a5f5207c5c1fbc59b898016f2377e66330e73ff1be2ca80409e1da39"}, "docker": "quay.io/biocontainers/fqzcomp", "aliases": {"fqz_comp": "/usr/local/bin/fqz_comp"}}
+config: {"url": "https://biocontainers.pro/tools/fqzcomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fqzcomp", "latest": {"4.6--hdcf5f25_5": "sha256:e98818d8a5f5207c5c1fbc59b898016f2377e66330e73ff1be2ca80409e1da39"}, "tags": {"4.6--hd03093a_3": "sha256:d29d9e3242d75e7497e51e17d1a7967ace0da4efd5874a96c568eec56c499367", "4.6--hd03093a_4": "sha256:af97e7af72a0a858c7bc9e820051e95af87f55564a15e478e674b8235b7411fe", "4.6--hdcf5f25_5": "sha256:e98818d8a5f5207c5c1fbc59b898016f2377e66330e73ff1be2ca80409e1da39"}, "docker": "quay.io/biocontainers/fqzcomp", "aliases": {"fqz_comp": "/usr/local/bin/fqz_comp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fqzcomp.

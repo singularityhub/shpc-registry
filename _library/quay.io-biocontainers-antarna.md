@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/antarna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/antarna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/antarna/container.yaml"
-updated_at: "2024-07-15 03:54:08.438783"
+updated_at: "2024-07-16 03:13:04.955409"
 latest: "2.0.1.2--py27_0"
 container_url: "https://biocontainers.pro/tools/antarna"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "2.0.1.2--py27_0"
 description: "shpc-registry automated BioContainers addition for antarna"
-config: {"url": "https://biocontainers.pro/tools/antarna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for antarna", "latest": {"2.0.1.2--py27_0": "sha256:fe5e4c16e3859fdc8260159949fc1773938aaac912ad654a5bc88fc235eee090"}, "tags": {"2.0.1.2--py27_0": "sha256:fe5e4c16e3859fdc8260159949fc1773938aaac912ad654a5bc88fc235eee090"}, "docker": "quay.io/biocontainers/antarna", "aliases": {"antarna.py": "/usr/local/bin/antarna.py", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex"}}
+config: {"url": "https://biocontainers.pro/tools/antarna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for antarna", "latest": {"2.0.1.2--py27_0": "sha256:249dbc4cee770427286d5d521f7bda3f47b0ec996864ee63324b32e65028e926"}, "tags": {"2.0.1.2--py27_0": "sha256:249dbc4cee770427286d5d521f7bda3f47b0ec996864ee63324b32e65028e926"}, "docker": "quay.io/biocontainers/antarna", "aliases": {"antarna.py": "/usr/local/bin/antarna.py", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/antarna.

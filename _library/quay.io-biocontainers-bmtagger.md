@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bmtagger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bmtagger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bmtagger/container.yaml"
-updated_at: "2024-07-15 03:19:31.321123"
+updated_at: "2024-07-16 02:38:32.610033"
 latest: "3.101--h470a237_4"
 container_url: "https://biocontainers.pro/tools/bmtagger"
 aliases:
@@ -26,7 +26,7 @@ aliases:
 versions:
  - "3.101--h470a237_4"
 description: "shpc-registry automated BioContainers addition for bmtagger"
-config: {"url": "https://biocontainers.pro/tools/bmtagger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bmtagger", "latest": {"3.101--h470a237_4": "sha256:12d6761b05b473971e38cf4ff438e6614c7e39128a51bec3073f7158c2d3ef97"}, "tags": {"3.101--h470a237_4": "sha256:12d6761b05b473971e38cf4ff438e6614c7e39128a51bec3073f7158c2d3ef97"}, "docker": "quay.io/biocontainers/bmtagger", "aliases": {"bmfilter": "/usr/local/bin/bmfilter", "bmtagger.sh": "/usr/local/bin/bmtagger.sh", "bmtool": "/usr/local/bin/bmtool", "extract_fullseq": "/usr/local/bin/extract_fullseq", "srprism": "/usr/local/bin/srprism", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "run_with_lock": "/usr/local/bin/run_with_lock", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck"}}
+config: {"url": "https://biocontainers.pro/tools/bmtagger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bmtagger", "latest": {"3.101--h470a237_4": "sha256:e836ced6978a0a5d2192e878c3643de96027d68add069370a161284c7f8e98d0"}, "tags": {"3.101--h470a237_4": "sha256:e836ced6978a0a5d2192e878c3643de96027d68add069370a161284c7f8e98d0"}, "docker": "quay.io/biocontainers/bmtagger", "aliases": {"bmfilter": "/usr/local/bin/bmfilter", "bmtagger.sh": "/usr/local/bin/bmtagger.sh", "bmtool": "/usr/local/bin/bmtool", "extract_fullseq": "/usr/local/bin/extract_fullseq", "srprism": "/usr/local/bin/srprism", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "run_with_lock": "/usr/local/bin/run_with_lock", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bmtagger.

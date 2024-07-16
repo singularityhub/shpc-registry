@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyasp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyasp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyasp/container.yaml"
-updated_at: "2024-07-15 03:29:04.507843"
+updated_at: "2024-07-16 02:48:08.139849"
 latest: "1.4.3--py35_1"
 container_url: "https://biocontainers.pro/tools/pyasp"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "1.4.3--py35_1"
  - "1.4.3--py36_1"
 description: "shpc-registry automated BioContainers addition for pyasp"
-config: {"url": "https://biocontainers.pro/tools/pyasp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyasp", "latest": {"1.4.3--py35_1": "sha256:ebebfc901da3ca0d934f3461763346c44a32a16c1edeafe5bf67caa57cdf8081"}, "tags": {"1.4.3--py35_1": "sha256:ebebfc901da3ca0d934f3461763346c44a32a16c1edeafe5bf67caa57cdf8081", "1.4.3--py36_1": "sha256:f3cfff547a5fa62ce196d5ebc52ba81e9a63a475a0f6b47aff63d8a17497f49e"}, "docker": "quay.io/biocontainers/pyasp", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyasp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyasp", "latest": {"1.4.3--py35_1": "sha256:42f45f91355bd300384355e790dfd3877354d3e67280bbf65d0463e0882c6c33"}, "tags": {"1.4.3--py35_1": "sha256:42f45f91355bd300384355e790dfd3877354d3e67280bbf65d0463e0882c6c33", "1.4.3--py36_1": "sha256:13885922513945c94aab7456579ed03f33e9dc1ac575cc4c23400923e680cc45"}, "docker": "quay.io/biocontainers/pyasp", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyasp.

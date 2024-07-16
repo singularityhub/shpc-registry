@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/uniprot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uniprot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uniprot/container.yaml"
-updated_at: "2024-07-15 03:29:27.979085"
+updated_at: "2024-07-16 02:48:31.707887"
 latest: "1.3--py36_0"
 container_url: "https://biocontainers.pro/tools/uniprot"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "1.3--py36_0"
+ - "1.3--py34_0"
 description: "shpc-registry automated BioContainers addition for uniprot"
-config: {"url": "https://biocontainers.pro/tools/uniprot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for uniprot", "latest": {"1.3--py36_0": "sha256:4ac793b51e4ed326aeac60ba1c9aa9524a3f320525e3938b83fe8c1d49b91f22"}, "tags": {"1.3--py36_0": "sha256:4ac793b51e4ed326aeac60ba1c9aa9524a3f320525e3938b83fe8c1d49b91f22"}, "docker": "quay.io/biocontainers/uniprot", "aliases": {"seqidtype": "/usr/local/bin/seqidtype", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/uniprot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for uniprot", "latest": {"1.3--py36_0": "sha256:fc5c4b06a09a9abcaff7b8ab83a2c641f19a2433dd3ad58d73a374bde82ba772"}, "tags": {"1.3--py36_0": "sha256:fc5c4b06a09a9abcaff7b8ab83a2c641f19a2433dd3ad58d73a374bde82ba772", "1.3--py34_0": "sha256:3e20a6f6e6ad486372e6efe2483b0979b17150df683a96c4b84ad004b0d9d7fe"}, "docker": "quay.io/biocontainers/uniprot", "aliases": {"seqidtype": "/usr/local/bin/seqidtype", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/uniprot.

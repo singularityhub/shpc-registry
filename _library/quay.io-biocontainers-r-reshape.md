@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/r-reshape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-reshape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-reshape/container.yaml"
-updated_at: "2024-07-15 03:22:41.288867"
+updated_at: "2024-07-16 02:41:43.428259"
 latest: "0.8.6--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-reshape"
 
 versions:
  - "0.8.6--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-reshape"
-config: {"url": "https://biocontainers.pro/tools/r-reshape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-reshape", "latest": {"0.8.6--r3.3.2_0": "sha256:303088784fef688cd5f2976f99b76aa96f430a7bd9ff072f665148ced288070f"}, "tags": {"0.8.6--r3.3.2_0": "sha256:303088784fef688cd5f2976f99b76aa96f430a7bd9ff072f665148ced288070f"}, "docker": "quay.io/biocontainers/r-reshape"}
+config: {"url": "https://biocontainers.pro/tools/r-reshape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-reshape", "latest": {"0.8.6--r3.3.2_0": "sha256:40332e6bd577e30b0a0574e899f54999eaae33fddfef8a618442fbe2498b926b"}, "tags": {"0.8.6--r3.3.2_0": "sha256:40332e6bd577e30b0a0574e899f54999eaae33fddfef8a618442fbe2498b926b"}, "docker": "quay.io/biocontainers/r-reshape"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-reshape.

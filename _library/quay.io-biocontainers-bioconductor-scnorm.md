@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scnorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scnorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scnorm/container.yaml"
-updated_at: "2024-07-15 03:56:57.018506"
+updated_at: "2024-07-16 03:15:54.839749"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scnorm"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scnorm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scnorm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scnorm", "latest": {"1.24.0--r43hdfd78af_0": "sha256:e41d4dc68f9c4ec206c2e657e09d90afa2a8183279b39cfba67b919f34780789"}, "tags": {"1.8.0--r36_0": "sha256:8d345ad1d9d887350efc09c60eab03bc37ed331316e3ef041b78e1c8af9e925f", "1.20.0--r42hdfd78af_0": "sha256:6de0d9021db31522ae61b783924c744a4f8388aea1210661e959c5cc8c0b15de", "1.16.0--r41hdfd78af_0": "sha256:9c0c916b8d0d8dc744e06bff74214472af5043acbd8ec96d2a2011a14bdbcb19", "1.14.0--r41hdfd78af_0": "sha256:6104cb06e3105337e2cc85bdc7b054bc03ce3c0214c7970506632bb364046950", "1.12.0--r40hdfd78af_1": "sha256:99fd4f79421cc72c4bd965b564e850b95887c4a1d41b319fa31d3e232959f6c7", "1.10.0--r40_0": "sha256:eedfd1c16ac2e25e1774fd99d48bfa001294431c5ab69ca93bbbb44cfc5fa4a5", "1.22.0--r43hdfd78af_0": "sha256:ec67777b78d7300bd9f920650a0522805d834f5fd8971d33d775fa9796fec621", "1.24.0--r43hdfd78af_0": "sha256:e41d4dc68f9c4ec206c2e657e09d90afa2a8183279b39cfba67b919f34780789"}, "docker": "quay.io/biocontainers/bioconductor-scnorm", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scnorm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scnorm", "latest": {"1.24.0--r43hdfd78af_0": "sha256:e41d4dc68f9c4ec206c2e657e09d90afa2a8183279b39cfba67b919f34780789"}, "tags": {"1.8.0--r36_0": "sha256:74e8fa0c6b1a38b1c413e741800ba1bdaca5e2943928753adbbad8e89e63b208", "1.20.0--r42hdfd78af_0": "sha256:6de0d9021db31522ae61b783924c744a4f8388aea1210661e959c5cc8c0b15de", "1.16.0--r41hdfd78af_0": "sha256:9c0c916b8d0d8dc744e06bff74214472af5043acbd8ec96d2a2011a14bdbcb19", "1.14.0--r41hdfd78af_0": "sha256:6104cb06e3105337e2cc85bdc7b054bc03ce3c0214c7970506632bb364046950", "1.12.0--r40hdfd78af_1": "sha256:99fd4f79421cc72c4bd965b564e850b95887c4a1d41b319fa31d3e232959f6c7", "1.10.0--r40_0": "sha256:eedfd1c16ac2e25e1774fd99d48bfa001294431c5ab69ca93bbbb44cfc5fa4a5", "1.22.0--r43hdfd78af_0": "sha256:ec67777b78d7300bd9f920650a0522805d834f5fd8971d33d775fa9796fec621", "1.24.0--r43hdfd78af_0": "sha256:e41d4dc68f9c4ec206c2e657e09d90afa2a8183279b39cfba67b919f34780789"}, "docker": "quay.io/biocontainers/bioconductor-scnorm", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scnorm.

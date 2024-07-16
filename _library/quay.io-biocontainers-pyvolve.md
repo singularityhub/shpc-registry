@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyvolve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyvolve/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyvolve/container.yaml"
-updated_at: "2024-07-15 03:19:57.435759"
+updated_at: "2024-07-16 02:38:59.018894"
 latest: "0.9.0--py_0"
 container_url: "https://biocontainers.pro/tools/pyvolve"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.9.0--py_0"
 description: "shpc-registry automated BioContainers addition for pyvolve"
-config: {"url": "https://biocontainers.pro/tools/pyvolve", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyvolve", "latest": {"0.9.0--py_0": "sha256:9816f2cafd651ed9a6ac02e884f2dbf1482a9d5051cc7ee9e15035553c2158e5"}, "tags": {"0.9.0--py_0": "sha256:9816f2cafd651ed9a6ac02e884f2dbf1482a9d5051cc7ee9e15035553c2158e5"}, "docker": "quay.io/biocontainers/pyvolve", "aliases": {"conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/pyvolve", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyvolve", "latest": {"0.9.0--py_0": "sha256:564c68138b2649c422a5ba8bccbfcc8265bd243d0370d3eafcd864036dba95da"}, "tags": {"0.9.0--py_0": "sha256:564c68138b2649c422a5ba8bccbfcc8265bd243d0370d3eafcd864036dba95da"}, "docker": "quay.io/biocontainers/pyvolve", "aliases": {"conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyvolve.

@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/r-goeveg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-goeveg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-goeveg/container.yaml"
-updated_at: "2024-07-15 03:58:47.261042"
+updated_at: "2024-07-16 03:17:49.102823"
 latest: "0.4.2--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-goeveg"
 
 versions:
  - "0.4.2--r351h6115d3f_0"
 description: "shpc-registry automated BioContainers addition for r-goeveg"
-config: {"url": "https://biocontainers.pro/tools/r-goeveg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-goeveg", "latest": {"0.4.2--r351h6115d3f_0": "sha256:b28f1acdc29752a5814294d215ee12675bb87c5f4d07ccf1761fe4b904fe220a"}, "tags": {"0.4.2--r351h6115d3f_0": "sha256:b28f1acdc29752a5814294d215ee12675bb87c5f4d07ccf1761fe4b904fe220a"}, "docker": "quay.io/biocontainers/r-goeveg"}
+config: {"url": "https://biocontainers.pro/tools/r-goeveg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-goeveg", "latest": {"0.4.2--r351h6115d3f_0": "sha256:bb229f010dcfc1b15246213325b642b85e031a4a2a4fac7e45c0b34ea7e7db6c"}, "tags": {"0.4.2--r351h6115d3f_0": "sha256:bb229f010dcfc1b15246213325b642b85e031a4a2a4fac7e45c0b34ea7e7db6c"}, "docker": "quay.io/biocontainers/r-goeveg"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-goeveg.

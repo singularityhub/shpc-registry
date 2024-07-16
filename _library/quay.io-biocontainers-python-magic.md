@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-magic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-magic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-magic/container.yaml"
-updated_at: "2024-07-15 03:22:21.409368"
+updated_at: "2024-07-16 02:41:23.206858"
 latest: "0.4.10--py35_1"
 container_url: "https://biocontainers.pro/tools/python-magic"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "0.4.6--py36_0"
  - "0.4.10--py35_1"
 description: "shpc-registry automated BioContainers addition for python-magic"
-config: {"url": "https://biocontainers.pro/tools/python-magic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-magic", "latest": {"0.4.10--py35_1": "sha256:92b7a8c6e737c81eb759ed828487ac4bb5b8af6d47bf9314f125ccde023f48c9"}, "tags": {"0.4.6--py36_0": "sha256:2a00435f21a6089649300d9af29e4de5489c1c259f169a9a417cb7e3248a9ab2", "0.4.10--py35_1": "sha256:92b7a8c6e737c81eb759ed828487ac4bb5b8af6d47bf9314f125ccde023f48c9"}, "docker": "quay.io/biocontainers/python-magic", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/python-magic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-magic", "latest": {"0.4.10--py35_1": "sha256:b23d59c1f98e3e2a1694088394da3a84182aafcce519df8900169f50dcc6e920"}, "tags": {"0.4.6--py36_0": "sha256:387d72b9d81e0b9a0bf263a16606a0f3a2d2ae219cccc08623f3d683009c68e2", "0.4.10--py35_1": "sha256:b23d59c1f98e3e2a1694088394da3a84182aafcce519df8900169f50dcc6e920"}, "docker": "quay.io/biocontainers/python-magic", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-magic.

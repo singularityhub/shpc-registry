@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tpmcalculator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tpmcalculator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tpmcalculator/container.yaml"
-updated_at: "2024-07-15 03:43:13.278023"
+updated_at: "2024-07-16 03:02:03.544046"
 latest: "0.0.4--h7a259b3_4"
 container_url: "https://biocontainers.pro/tools/tpmcalculator"
 aliases:

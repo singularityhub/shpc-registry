@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qhull"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qhull/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qhull/container.yaml"
-updated_at: "2024-07-15 03:40:50.509905"
+updated_at: "2024-07-16 02:59:45.764171"
 latest: "2015.2--h2d50403_0"
 container_url: "https://biocontainers.pro/tools/qhull"
 aliases:
@@ -17,7 +17,7 @@ aliases:
 versions:
  - "2015.2--h2d50403_0"
 description: "shpc-registry automated BioContainers addition for qhull"
-config: {"url": "https://biocontainers.pro/tools/qhull", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qhull", "latest": {"2015.2--h2d50403_0": "sha256:748ece7ba2740ae20394fee0935a217c2f9ae598073f39112477594f615ebf4b"}, "tags": {"2015.2--h2d50403_0": "sha256:748ece7ba2740ae20394fee0935a217c2f9ae598073f39112477594f615ebf4b"}, "docker": "quay.io/biocontainers/qhull", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox"}}
+config: {"url": "https://biocontainers.pro/tools/qhull", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qhull", "latest": {"2015.2--h2d50403_0": "sha256:4a964ab9d19db85199b0ca81e73d2589c6d032485ae09543b01eeefdffccdff0"}, "tags": {"2015.2--h2d50403_0": "sha256:4a964ab9d19db85199b0ca81e73d2589c6d032485ae09543b01eeefdffccdff0"}, "docker": "quay.io/biocontainers/qhull", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/qhull.

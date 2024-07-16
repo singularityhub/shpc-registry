@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sads"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sads/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sads/container.yaml"
-updated_at: "2024-07-15 03:19:05.446527"
+updated_at: "2024-07-16 02:38:06.381635"
 latest: "0.4.2--r351ha65eedd_1"
 container_url: "https://biocontainers.pro/tools/r-sads"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.4.2--r351ha65eedd_1"
 description: "shpc-registry automated BioContainers addition for r-sads"
-config: {"url": "https://biocontainers.pro/tools/r-sads", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sads", "latest": {"0.4.2--r351ha65eedd_1": "sha256:1de5b835885530c73a5b1119a153ae6045361f9a8aa06eb582d05ef5083e68f5"}, "tags": {"0.4.2--r351ha65eedd_1": "sha256:1de5b835885530c73a5b1119a153ae6045361f9a8aa06eb582d05ef5083e68f5"}, "docker": "quay.io/biocontainers/r-sads", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-sads", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sads", "latest": {"0.4.2--r351ha65eedd_1": "sha256:ed2f9a84d163736ec75ed31bc7c6531257796bf3a1bbfd5a90f8c5f4a03d418b"}, "tags": {"0.4.2--r351ha65eedd_1": "sha256:ed2f9a84d163736ec75ed31bc7c6531257796bf3a1bbfd5a90f8c5f4a03d418b"}, "docker": "quay.io/biocontainers/r-sads", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sads.

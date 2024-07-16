@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-aptreeshape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-aptreeshape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-aptreeshape/container.yaml"
-updated_at: "2024-07-15 03:25:02.827581"
+updated_at: "2024-07-16 02:44:05.708832"
 latest: "1.5_0--r351h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-aptreeshape"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.5_0--r351h6115d3f_3"
 description: "shpc-registry automated BioContainers addition for r-aptreeshape"
-config: {"url": "https://biocontainers.pro/tools/r-aptreeshape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-aptreeshape", "latest": {"1.5_0--r351h6115d3f_3": "sha256:e30d8dd2399aace4f76c5d4d451581ab27c11e8b17efebe0a7ebafb96bc391ba"}, "tags": {"1.5_0--r351h6115d3f_3": "sha256:e30d8dd2399aace4f76c5d4d451581ab27c11e8b17efebe0a7ebafb96bc391ba"}, "docker": "quay.io/biocontainers/r-aptreeshape", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-aptreeshape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-aptreeshape", "latest": {"1.5_0--r351h6115d3f_3": "sha256:a274e7dc7ef2cad27989cb02556120c77be97bab1b61a1faf957b6e3aaba006b"}, "tags": {"1.5_0--r351h6115d3f_3": "sha256:a274e7dc7ef2cad27989cb02556120c77be97bab1b61a1faf957b6e3aaba006b"}, "docker": "quay.io/biocontainers/r-aptreeshape", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-aptreeshape.

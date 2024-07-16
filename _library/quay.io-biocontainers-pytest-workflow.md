@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytest-workflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytest-workflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytest-workflow/container.yaml"
-updated_at: "2024-07-15 03:19:44.955328"
+updated_at: "2024-07-16 02:38:46.411767"
 latest: "1.2.0--py_0"
 container_url: "https://biocontainers.pro/tools/pytest-workflow"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.2.0--py_0"
 description: "shpc-registry automated BioContainers addition for pytest-workflow"
-config: {"url": "https://biocontainers.pro/tools/pytest-workflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytest-workflow", "latest": {"1.2.0--py_0": "sha256:52948aab76284ccfbae6b35b9f5027f977e6f40093e37e1f07b8d838b80d2d2c"}, "tags": {"1.2.0--py_0": "sha256:52948aab76284ccfbae6b35b9f5027f977e6f40093e37e1f07b8d838b80d2d2c"}, "docker": "quay.io/biocontainers/pytest-workflow", "aliases": {"py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jsonschema": "/usr/local/bin/jsonschema", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
+config: {"url": "https://biocontainers.pro/tools/pytest-workflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytest-workflow", "latest": {"1.2.0--py_0": "sha256:e63281a4c280489377dabbae7c070cd66b6e33de7a89d13fbd47f21bca9aa939"}, "tags": {"1.2.0--py_0": "sha256:e63281a4c280489377dabbae7c070cd66b6e33de7a89d13fbd47f21bca9aa939"}, "docker": "quay.io/biocontainers/pytest-workflow", "aliases": {"py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jsonschema": "/usr/local/bin/jsonschema", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytest-workflow.

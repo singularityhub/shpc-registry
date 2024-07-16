@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metawatt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metawatt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metawatt/container.yaml"
-updated_at: "2024-07-15 04:00:53.596280"
+updated_at: "2024-07-16 03:20:00.417878"
 latest: "3.5.3--2"
 container_url: "https://biocontainers.pro/tools/metawatt"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "3.5.3--2"
 description: "shpc-registry automated BioContainers addition for metawatt"
-config: {"url": "https://biocontainers.pro/tools/metawatt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metawatt", "latest": {"3.5.3--2": "sha256:da159d423a4fd5965bd007be7dd2626f3ef7a5363ba01958cb1c99a081e3b37f"}, "tags": {"3.5.3--2": "sha256:da159d423a4fd5965bd007be7dd2626f3ef7a5363ba01958cb1c99a081e3b37f"}, "docker": "quay.io/biocontainers/metawatt", "aliases": {"demuxbyname2.sh": "/usr/local/bin/demuxbyname2.sh", "metawatt": "/usr/local/bin/metawatt", "build.sh": "/usr/local/bin/build.sh", "common.go": "/usr/local/bin/common.go", "rchive.go": "/usr/local/bin/rchive.go", "setup-deps.log": "/usr/local/bin/setup-deps.log", "setup.sh": "/usr/local/bin/setup.sh", "xtract.go": "/usr/local/bin/xtract.go", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh"}}
+config: {"url": "https://biocontainers.pro/tools/metawatt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metawatt", "latest": {"3.5.3--2": "sha256:98a28031b5a825ac20a39680265da471a25b3a8c26676d16401d5f392a940310"}, "tags": {"3.5.3--2": "sha256:98a28031b5a825ac20a39680265da471a25b3a8c26676d16401d5f392a940310"}, "docker": "quay.io/biocontainers/metawatt", "aliases": {"demuxbyname2.sh": "/usr/local/bin/demuxbyname2.sh", "metawatt": "/usr/local/bin/metawatt", "build.sh": "/usr/local/bin/build.sh", "common.go": "/usr/local/bin/common.go", "rchive.go": "/usr/local/bin/rchive.go", "setup-deps.log": "/usr/local/bin/setup-deps.log", "setup.sh": "/usr/local/bin/setup.sh", "xtract.go": "/usr/local/bin/xtract.go", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metawatt.

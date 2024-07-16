@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pypiper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypiper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pypiper/container.yaml"
-updated_at: "2024-07-15 03:55:07.368328"
+updated_at: "2024-07-16 03:14:04.246250"
 latest: "0.8--py_0"
 container_url: "https://biocontainers.pro/tools/pypiper"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.8--py_0"
 description: "shpc-registry automated BioContainers addition for pypiper"
-config: {"url": "https://biocontainers.pro/tools/pypiper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pypiper", "latest": {"0.8--py_0": "sha256:96db8c2c88b5a875fe9fff8dec0bbc8c1c9561f4db76a9fdae2f9ebddb49e871"}, "tags": {"0.8--py_0": "sha256:96db8c2c88b5a875fe9fff8dec0bbc8c1c9561f4db76a9fdae2f9ebddb49e871"}, "docker": "quay.io/biocontainers/pypiper", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/pypiper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pypiper", "latest": {"0.8--py_0": "sha256:49e9f9eca16b5d32d48cf6eb9a924f1037d587cc56f0c244a9f436d98de5dd2e"}, "tags": {"0.8--py_0": "sha256:49e9f9eca16b5d32d48cf6eb9a924f1037d587cc56f0c244a9f436d98de5dd2e"}, "docker": "quay.io/biocontainers/pypiper", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pypiper.

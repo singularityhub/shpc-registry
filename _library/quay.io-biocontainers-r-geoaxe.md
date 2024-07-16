@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-geoaxe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-geoaxe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-geoaxe/container.yaml"
-updated_at: "2024-07-15 03:32:02.298870"
+updated_at: "2024-07-16 02:51:06.137651"
 latest: "0.1.0--r351h6115d3f_4"
 container_url: "https://biocontainers.pro/tools/r-geoaxe"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "0.1.0--r351h6115d3f_4"
 description: "shpc-registry automated BioContainers addition for r-geoaxe"
-config: {"url": "https://biocontainers.pro/tools/r-geoaxe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-geoaxe", "latest": {"0.1.0--r351h6115d3f_4": "sha256:8d00bd7d195b909409dfb8d10c4353c9742c0f43da8353f5ea911d82a9e4a486"}, "tags": {"0.1.0--r351h6115d3f_4": "sha256:8d00bd7d195b909409dfb8d10c4353c9742c0f43da8353f5ea911d82a9e4a486"}, "docker": "quay.io/biocontainers/r-geoaxe", "aliases": {"geos-config": "/usr/local/bin/geos-config", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-geoaxe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-geoaxe", "latest": {"0.1.0--r351h6115d3f_4": "sha256:c277b766437dd8490c8d879e635d23569a27533d0fbd41763e1561124026ca40"}, "tags": {"0.1.0--r351h6115d3f_4": "sha256:c277b766437dd8490c8d879e635d23569a27533d0fbd41763e1561124026ca40"}, "docker": "quay.io/biocontainers/r-geoaxe", "aliases": {"geos-config": "/usr/local/bin/geos-config", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-geoaxe.

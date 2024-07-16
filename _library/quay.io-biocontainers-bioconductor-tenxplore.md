@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tenxplore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tenxplore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tenxplore/container.yaml"
-updated_at: "2024-07-15 03:36:27.580950"
+updated_at: "2024-07-16 02:55:31.839519"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tenxplore"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tenxplore"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tenxplore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tenxplore", "latest": {"1.24.0--r43hdfd78af_0": "sha256:28eaa04436b1e7db8fd43c0356ffb0576264178dd9b0c2d0ce400bbad2c72635"}, "tags": {"1.8.0--r36_0": "sha256:b6c2f522bef9013dae5eec4a11a4eac4d5f2fd11195ae4a0b79fe5108ef92673", "1.20.0--r42hdfd78af_0": "sha256:a0acd7ec4597dc35dbca98af48363392b743f700c609ad243e37a916411fae9e", "1.16.0--r41hdfd78af_0": "sha256:58b6d661d9a61e7edaac507763d973df3fac55e058eba947bfb62dc8799b32df", "1.14.0--r41hdfd78af_0": "sha256:e2e1ae686117ee292a024402d78fb5855ff1d833f79dea18c196618430ba4b84", "1.12.0--r40hdfd78af_1": "sha256:e4950d77c564f9dc5e30286ab2fcb440ace0cbbbbe82fa1d8cdd7228a97763ef", "1.10.0--r40_0": "sha256:d80cc066117c96c9ba0e1312abdf890fb5e82a737ef4d10b16be0febbf9281e3", "1.22.0--r43hdfd78af_0": "sha256:2458222a19e04fb2a20571483193cf4b3b362ce20e90d4ecf5650c896fce5ca4", "1.24.0--r43hdfd78af_0": "sha256:28eaa04436b1e7db8fd43c0356ffb0576264178dd9b0c2d0ce400bbad2c72635"}, "docker": "quay.io/biocontainers/bioconductor-tenxplore", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tenxplore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tenxplore", "latest": {"1.24.0--r43hdfd78af_0": "sha256:28eaa04436b1e7db8fd43c0356ffb0576264178dd9b0c2d0ce400bbad2c72635"}, "tags": {"1.8.0--r36_0": "sha256:35bde2429b4d8cbc46cc28df0ac6519fc9686d72712c2f1b7702162601cd9898", "1.20.0--r42hdfd78af_0": "sha256:a0acd7ec4597dc35dbca98af48363392b743f700c609ad243e37a916411fae9e", "1.16.0--r41hdfd78af_0": "sha256:58b6d661d9a61e7edaac507763d973df3fac55e058eba947bfb62dc8799b32df", "1.14.0--r41hdfd78af_0": "sha256:e2e1ae686117ee292a024402d78fb5855ff1d833f79dea18c196618430ba4b84", "1.12.0--r40hdfd78af_1": "sha256:e4950d77c564f9dc5e30286ab2fcb440ace0cbbbbe82fa1d8cdd7228a97763ef", "1.10.0--r40_0": "sha256:d80cc066117c96c9ba0e1312abdf890fb5e82a737ef4d10b16be0febbf9281e3", "1.22.0--r43hdfd78af_0": "sha256:2458222a19e04fb2a20571483193cf4b3b362ce20e90d4ecf5650c896fce5ca4", "1.24.0--r43hdfd78af_0": "sha256:28eaa04436b1e7db8fd43c0356ffb0576264178dd9b0c2d0ce400bbad2c72635"}, "docker": "quay.io/biocontainers/bioconductor-tenxplore", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tenxplore.

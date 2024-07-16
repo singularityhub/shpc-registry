@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/uritemplate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uritemplate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uritemplate/container.yaml"
-updated_at: "2024-07-15 03:46:53.194800"
+updated_at: "2024-07-16 03:05:47.466301"
 latest: "0.6--py36_0"
 container_url: "https://biocontainers.pro/tools/uritemplate"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.6--py36_0"
+ - "0.6--py35_0"
 description: "shpc-registry automated BioContainers addition for uritemplate"
-config: {"url": "https://biocontainers.pro/tools/uritemplate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for uritemplate", "latest": {"0.6--py36_0": "sha256:c95df5d3859ada96708b1523d1adb9053ca02a23fe58f3106417bb17d0e724a6"}, "tags": {"0.6--py36_0": "sha256:c95df5d3859ada96708b1523d1adb9053ca02a23fe58f3106417bb17d0e724a6"}, "docker": "quay.io/biocontainers/uritemplate", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/uritemplate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for uritemplate", "latest": {"0.6--py36_0": "sha256:7a937d456530c55cb151ac210ed5acdc4a4a1c10752abe0fe0a998e306e628fa"}, "tags": {"0.6--py36_0": "sha256:7a937d456530c55cb151ac210ed5acdc4a4a1c10752abe0fe0a998e306e628fa", "0.6--py35_0": "sha256:449aeedc99dbb5d968a4dd538e8b06c5d7650ceb938ce2b374275a1af39bce15"}, "docker": "quay.io/biocontainers/uritemplate", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/uritemplate.

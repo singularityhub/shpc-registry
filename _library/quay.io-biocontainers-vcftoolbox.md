@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcftoolbox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcftoolbox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcftoolbox/container.yaml"
-updated_at: "2024-07-15 03:34:21.956605"
+updated_at: "2024-07-16 02:53:25.806718"
 latest: "1.5.1--py_0"
 container_url: "https://biocontainers.pro/tools/vcftoolbox"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.5.1--py_0"
 description: "shpc-registry automated BioContainers addition for vcftoolbox"
-config: {"url": "https://biocontainers.pro/tools/vcftoolbox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcftoolbox", "latest": {"1.5.1--py_0": "sha256:19d02030a8946c3b6019ab72c592e9660224d9adf1bbc78b5f22def11a42d053"}, "tags": {"1.5.1--py_0": "sha256:19d02030a8946c3b6019ab72c592e9660224d9adf1bbc78b5f22def11a42d053"}, "docker": "quay.io/biocontainers/vcftoolbox", "aliases": {"vcftoolbox": "/usr/local/bin/vcftoolbox", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/vcftoolbox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcftoolbox", "latest": {"1.5.1--py_0": "sha256:e26c1c8efdd2a07c21e073994cfbed8d1425720c5163802ef77b4b8eab03b894"}, "tags": {"1.5.1--py_0": "sha256:e26c1c8efdd2a07c21e073994cfbed8d1425720c5163802ef77b4b8eab03b894"}, "docker": "quay.io/biocontainers/vcftoolbox", "aliases": {"vcftoolbox": "/usr/local/bin/vcftoolbox", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcftoolbox.

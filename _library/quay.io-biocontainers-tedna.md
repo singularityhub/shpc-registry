@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tedna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tedna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tedna/container.yaml"
-updated_at: "2024-07-15 03:49:34.532778"
+updated_at: "2024-07-16 03:08:30.123806"
 latest: "1.2.2--hfc679d8_2"
 container_url: "https://biocontainers.pro/tools/tedna"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.2.2--hfc679d8_2"
 description: "shpc-registry automated BioContainers addition for tedna"
-config: {"url": "https://biocontainers.pro/tools/tedna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tedna", "latest": {"1.2.2--hfc679d8_2": "sha256:7cba28109e205df3da02e9e5cfcbb2ef71d95622789c587fdeb8a7e1923daf4c"}, "tags": {"1.2.2--hfc679d8_2": "sha256:7cba28109e205df3da02e9e5cfcbb2ef71d95622789c587fdeb8a7e1923daf4c"}, "docker": "quay.io/biocontainers/tedna", "aliases": {"tedna": "/usr/local/bin/tedna"}}
+config: {"url": "https://biocontainers.pro/tools/tedna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tedna", "latest": {"1.2.2--hfc679d8_2": "sha256:8acadbc22abb9937a9ba83bce0d4a0e5743b3f243e28a7d4eb7c3222ab3cce7d"}, "tags": {"1.2.2--hfc679d8_2": "sha256:8acadbc22abb9937a9ba83bce0d4a0e5743b3f243e28a7d4eb7c3222ab3cce7d"}, "docker": "quay.io/biocontainers/tedna", "aliases": {"tedna": "/usr/local/bin/tedna"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tedna.

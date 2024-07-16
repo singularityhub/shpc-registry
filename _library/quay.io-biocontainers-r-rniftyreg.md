@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rniftyreg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rniftyreg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rniftyreg/container.yaml"
-updated_at: "2024-07-15 03:51:32.029031"
+updated_at: "2024-07-16 03:10:28.299047"
 latest: "2.2.0--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-rniftyreg"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "2.2.0--r3.2.2_0"
  - "2.2.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-rniftyreg"
-config: {"url": "https://biocontainers.pro/tools/r-rniftyreg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rniftyreg", "latest": {"2.2.0--r3.2.2_0": "sha256:43dd90dd00e09f3bd2c82afd373bc998687fee47bb0e6a501f653e5f46d9a909"}, "tags": {"2.2.0--r3.2.2_0": "sha256:43dd90dd00e09f3bd2c82afd373bc998687fee47bb0e6a501f653e5f46d9a909", "2.2.0--r3.3.2_0": "sha256:c8decd674b08b5f00cdd97ff6055093248bec3e4a81541da22bd5e0a1af8fe7d"}, "docker": "quay.io/biocontainers/r-rniftyreg", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rniftyreg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rniftyreg", "latest": {"2.2.0--r3.2.2_0": "sha256:dc66262694c8ba16fe0fc21dd7f4ac70db2daca4faceeebf24749c36eb80852b"}, "tags": {"2.2.0--r3.2.2_0": "sha256:dc66262694c8ba16fe0fc21dd7f4ac70db2daca4faceeebf24749c36eb80852b", "2.2.0--r3.3.2_0": "sha256:82e648c0983e9d126f521a76ed16cc338d1a35710e6e0319e59de7f263dc2a4e"}, "docker": "quay.io/biocontainers/r-rniftyreg", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rniftyreg.

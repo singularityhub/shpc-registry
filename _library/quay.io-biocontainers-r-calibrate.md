@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-calibrate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-calibrate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-calibrate/container.yaml"
-updated_at: "2024-07-15 03:58:55.203462"
+updated_at: "2024-07-16 03:17:56.914125"
 latest: "1.7.2--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-calibrate"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.7.2--r3.2.2_0"
  - "1.7.2--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-calibrate"
-config: {"url": "https://biocontainers.pro/tools/r-calibrate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-calibrate", "latest": {"1.7.2--r3.2.2_0": "sha256:7594fe05c59cea7cdea9c32d9f3fbd8ac7d35d068ac90717145b3de4f8d94acc"}, "tags": {"1.7.2--r3.2.2_0": "sha256:7594fe05c59cea7cdea9c32d9f3fbd8ac7d35d068ac90717145b3de4f8d94acc", "1.7.2--r3.3.2_0": "sha256:10ed231d1ee3dff7aa8f9923157829ea02ec251eee874cf38a12a2c3bbca623d"}, "docker": "quay.io/biocontainers/r-calibrate", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-calibrate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-calibrate", "latest": {"1.7.2--r3.2.2_0": "sha256:f39e0aec3715e11a54e51bf48b118f43ace99d8f6ba47fd56a81bfd840f8d62b"}, "tags": {"1.7.2--r3.2.2_0": "sha256:f39e0aec3715e11a54e51bf48b118f43ace99d8f6ba47fd56a81bfd840f8d62b", "1.7.2--r3.3.2_0": "sha256:9559aec28337a9e10e68208fc298218c32ed7cc33940d98557904f7844b37070"}, "docker": "quay.io/biocontainers/r-calibrate", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-calibrate.

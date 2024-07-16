@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jali"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jali/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jali/container.yaml"
-updated_at: "2024-07-15 03:48:13.636365"
+updated_at: "2024-07-16 03:07:08.648257"
 latest: "1.3--0"
 container_url: "https://biocontainers.pro/tools/jali"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.3--0"
 description: "shpc-registry automated BioContainers addition for jali"
-config: {"url": "https://biocontainers.pro/tools/jali", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jali", "latest": {"1.3--0": "sha256:cf04cf7e161c3a83e8366770c54049ae529a6097e23bd112f0f53bb294ad0430"}, "tags": {"1.3--0": "sha256:cf04cf7e161c3a83e8366770c54049ae529a6097e23bd112f0f53bb294ad0430"}, "docker": "quay.io/biocontainers/jali", "aliases": {"jali": "/usr/local/bin/jali", "jscan": "/usr/local/bin/jscan", "jsearch": "/usr/local/bin/jsearch"}}
+config: {"url": "https://biocontainers.pro/tools/jali", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jali", "latest": {"1.3--0": "sha256:7608f17e651ab738b35bf618b4e411bc26f3d81aa3a4b69be55817489bb747b6"}, "tags": {"1.3--0": "sha256:7608f17e651ab738b35bf618b4e411bc26f3d81aa3a4b69be55817489bb747b6"}, "docker": "quay.io/biocontainers/jali", "aliases": {"jali": "/usr/local/bin/jali", "jscan": "/usr/local/bin/jscan", "jsearch": "/usr/local/bin/jsearch"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jali.

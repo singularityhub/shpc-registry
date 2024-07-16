@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-msm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-msm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-msm/container.yaml"
-updated_at: "2024-07-15 03:51:58.506874"
+updated_at: "2024-07-16 03:10:55.181936"
 latest: "1.6.7--r351h96ca727_0"
 container_url: "https://biocontainers.pro/tools/r-msm"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.6.7--r351h96ca727_0"
 description: "shpc-registry automated BioContainers addition for r-msm"
-config: {"url": "https://biocontainers.pro/tools/r-msm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-msm", "latest": {"1.6.7--r351h96ca727_0": "sha256:2ec88f16fa4621b191beb1e1407950d9f6d4caa3487b17e357ce806b3f814a73"}, "tags": {"1.6.7--r351h96ca727_0": "sha256:2ec88f16fa4621b191beb1e1407950d9f6d4caa3487b17e357ce806b3f814a73"}, "docker": "quay.io/biocontainers/r-msm", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-msm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-msm", "latest": {"1.6.7--r351h96ca727_0": "sha256:c961f34a82313162c5e49a46f060187d4452ee6d671050225085ec7d32b5e4ed"}, "tags": {"1.6.7--r351h96ca727_0": "sha256:c961f34a82313162c5e49a46f060187d4452ee6d671050225085ec7d32b5e4ed"}, "docker": "quay.io/biocontainers/r-msm", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-msm.

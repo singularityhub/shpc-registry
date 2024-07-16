@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-prot2d"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prot2d/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prot2d/container.yaml"
-updated_at: "2024-07-15 03:28:11.902526"
+updated_at: "2024-07-16 02:47:15.409292"
 latest: "1.20.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prot2d"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.20.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-prot2d"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-prot2d", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prot2d", "latest": {"1.20.0--r351_0": "sha256:b1f34a0dcf2d4852eb4cc0be88639b7c73e0cf0080537a9ba33853c1237ba18e"}, "tags": {"1.20.0--r351_0": "sha256:b1f34a0dcf2d4852eb4cc0be88639b7c73e0cf0080537a9ba33853c1237ba18e"}, "docker": "quay.io/biocontainers/bioconductor-prot2d", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-prot2d", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prot2d", "latest": {"1.20.0--r351_0": "sha256:2434b16d3e054965e2d22d9d1db5870642d17eef8afd8ae63974477f7c367111"}, "tags": {"1.20.0--r351_0": "sha256:2434b16d3e054965e2d22d9d1db5870642d17eef8afd8ae63974477f7c367111"}, "docker": "quay.io/biocontainers/bioconductor-prot2d", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-prot2d.

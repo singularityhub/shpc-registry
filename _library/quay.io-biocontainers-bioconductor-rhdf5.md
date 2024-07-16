@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rhdf5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rhdf5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rhdf5/container.yaml"
-updated_at: "2024-07-15 03:27:37.821990"
+updated_at: "2024-07-16 02:46:40.965031"
 latest: "2.46.1--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rhdf5"
 
@@ -17,7 +17,7 @@ versions:
  - "2.46.1--r43hf17093f_0"
  - "2.46.1--r43hf17093f_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rhdf5"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rhdf5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rhdf5", "latest": {"2.46.1--r43hf17093f_1": "sha256:205d874c69baa8ece580e985bf7073dcacf8d88f7d5622210d780410f40c75c3"}, "tags": {"2.38.1--r41hbe1951d_0": "sha256:b816b7e7580680f2b339ecd4b6ed11927ea778f04f83e43f973e5807751ff549", "2.42.0--r42hbe1951d_1": "sha256:15616a2f0ced1287438c795d4c937c35581f1de9f8284617795eeacb34f3b097", "2.42.0--r42h20ea6f5_2": "sha256:25fe465ae7390d02b11b2bf4b3108555a35ac47824dead33a936da9ed5094598", "2.44.0--r43hf17093f_0": "sha256:49da93fa05baa75d36aa835017a2863f54b05b91b3e3ff5ea0183993b7959fe6", "2.44.0--r43hf17093f_1": "sha256:a434061be1970b8c5110980c38493b97f6b1e3ea494a1009833688b3533129c0", "2.46.1--r43hf17093f_0": "sha256:b5a86f10fd618dee1ada4010944f58fccc104416ca14fc393d49ff92f1d6fb40", "2.46.1--r43hf17093f_1": "sha256:205d874c69baa8ece580e985bf7073dcacf8d88f7d5622210d780410f40c75c3"}, "docker": "quay.io/biocontainers/bioconductor-rhdf5"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rhdf5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rhdf5", "latest": {"2.46.1--r43hf17093f_1": "sha256:205d874c69baa8ece580e985bf7073dcacf8d88f7d5622210d780410f40c75c3"}, "tags": {"2.38.1--r41hbe1951d_0": "sha256:b816b7e7580680f2b339ecd4b6ed11927ea778f04f83e43f973e5807751ff549", "2.42.0--r42hbe1951d_1": "sha256:15616a2f0ced1287438c795d4c937c35581f1de9f8284617795eeacb34f3b097", "2.42.0--r42h20ea6f5_2": "sha256:25fe465ae7390d02b11b2bf4b3108555a35ac47824dead33a936da9ed5094598", "2.44.0--r43hf17093f_0": "sha256:49da93fa05baa75d36aa835017a2863f54b05b91b3e3ff5ea0183993b7959fe6", "2.44.0--r43hf17093f_1": "sha256:e624b92a5a47ac9799a79e08520a2d53d23184d633d30c1cff511f36aa378c9b", "2.46.1--r43hf17093f_0": "sha256:b5a86f10fd618dee1ada4010944f58fccc104416ca14fc393d49ff92f1d6fb40", "2.46.1--r43hf17093f_1": "sha256:205d874c69baa8ece580e985bf7073dcacf8d88f7d5622210d780410f40c75c3"}, "docker": "quay.io/biocontainers/bioconductor-rhdf5"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rhdf5.

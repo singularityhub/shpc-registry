@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/burrito-fillings"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/burrito-fillings/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/burrito-fillings/container.yaml"
-updated_at: "2024-07-15 03:31:42.603698"
+updated_at: "2024-07-16 02:50:46.371189"
 latest: "0.1.1--py_3"
 container_url: "https://biocontainers.pro/tools/burrito-fillings"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.1.1--py_3"
 description: "shpc-registry automated BioContainers addition for burrito-fillings"
-config: {"url": "https://biocontainers.pro/tools/burrito-fillings", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for burrito-fillings", "latest": {"0.1.1--py_3": "sha256:4004352a019a4a0ed6fcc1970fba8adf2d46884f0396ac5883c2272f3ff4a8ee"}, "tags": {"0.1.1--py_3": "sha256:4004352a019a4a0ed6fcc1970fba8adf2d46884f0396ac5883c2272f3ff4a8ee"}, "docker": "quay.io/biocontainers/burrito-fillings", "aliases": {"iptest3": "/usr/local/bin/iptest3", "iptest": "/usr/local/bin/iptest", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "natsort": "/usr/local/bin/natsort", "qhelpconverter": "/usr/local/bin/qhelpconverter", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "pygmentize": "/usr/local/bin/pygmentize", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf"}}
+config: {"url": "https://biocontainers.pro/tools/burrito-fillings", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for burrito-fillings", "latest": {"0.1.1--py_3": "sha256:0dc7e53cdbc2c63e7151343305c7495fed722e85465059413c9c6f8fd422255f"}, "tags": {"0.1.1--py_3": "sha256:0dc7e53cdbc2c63e7151343305c7495fed722e85465059413c9c6f8fd422255f"}, "docker": "quay.io/biocontainers/burrito-fillings", "aliases": {"iptest3": "/usr/local/bin/iptest3", "iptest": "/usr/local/bin/iptest", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "natsort": "/usr/local/bin/natsort", "qhelpconverter": "/usr/local/bin/qhelpconverter", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "pygmentize": "/usr/local/bin/pygmentize", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/burrito-fillings.

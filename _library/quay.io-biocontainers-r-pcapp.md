@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pcapp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pcapp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pcapp/container.yaml"
-updated_at: "2024-07-15 03:39:40.553943"
+updated_at: "2024-07-16 02:58:38.818565"
 latest: "1.9_60--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-pcapp"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.9_60--r3.2.2_0"
  - "1.9_60--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-pcapp"
-config: {"url": "https://biocontainers.pro/tools/r-pcapp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pcapp", "latest": {"1.9_60--r3.2.2_0": "sha256:cb9cc747548303c93b0d1c6fdfa14e2c80b1df752d558c99575462eda8121dfe"}, "tags": {"1.9_60--r3.2.2_0": "sha256:cb9cc747548303c93b0d1c6fdfa14e2c80b1df752d558c99575462eda8121dfe", "1.9_60--r3.3.2_0": "sha256:ed5d9fbe8d1a415864c90c4514f177fe887b8c8f617e4f6a236a3527d551a9db"}, "docker": "quay.io/biocontainers/r-pcapp", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-pcapp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pcapp", "latest": {"1.9_60--r3.2.2_0": "sha256:cce7d22b6332b726f0fe2f74525611131c7a89b062cf9274c3ed6263d36f2520"}, "tags": {"1.9_60--r3.2.2_0": "sha256:cce7d22b6332b726f0fe2f74525611131c7a89b062cf9274c3ed6263d36f2520", "1.9_60--r3.3.2_0": "sha256:227274cf6502f14cff5ec0e4a3cee2d7462c8b92757cc708ed8c4e4c3e8b5898"}, "docker": "quay.io/biocontainers/r-pcapp", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pcapp.

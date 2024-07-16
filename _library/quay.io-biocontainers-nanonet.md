@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanonet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanonet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanonet/container.yaml"
-updated_at: "2024-07-15 03:54:38.028404"
+updated_at: "2024-07-16 03:13:34.833113"
 latest: "2.0.0--boost1.60_0"
 container_url: "https://biocontainers.pro/tools/nanonet"
 aliases:
@@ -27,7 +27,7 @@ versions:
  - "2.0.0--boost1.60_0"
  - "2.0.0--boost1.64_0"
 description: "shpc-registry automated BioContainers addition for nanonet"
-config: {"url": "https://biocontainers.pro/tools/nanonet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanonet", "latest": {"2.0.0--boost1.60_0": "sha256:5ae27ef6f8c05dbda852b0fe1594265c35669e331e8fce46b7ba7c504b88b682"}, "tags": {"2.0.0--boost1.60_0": "sha256:5ae27ef6f8c05dbda852b0fe1594265c35669e331e8fce46b7ba7c504b88b682", "2.0.0--boost1.64_0": "sha256:af6a52c1aa97b0023610d74e30f0a8af8925de3cc55d10b9fe78d0df6f763154"}, "docker": "quay.io/biocontainers/nanonet", "aliases": {"myriad": "/usr/local/bin/myriad", "nanonet2d": "/usr/local/bin/nanonet2d", "nanonetcall": "/usr/local/bin/nanonetcall", "nanonettrain": "/usr/local/bin/nanonettrain", "watchmedo": "/usr/local/bin/watchmedo", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config"}}
+config: {"url": "https://biocontainers.pro/tools/nanonet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanonet", "latest": {"2.0.0--boost1.60_0": "sha256:e02c841945ad3464c5c90b311177fa04e14cc5df7eb5141248d2d4a023432a1b"}, "tags": {"2.0.0--boost1.60_0": "sha256:e02c841945ad3464c5c90b311177fa04e14cc5df7eb5141248d2d4a023432a1b", "2.0.0--boost1.64_0": "sha256:e105a1669d546514f57bd8f4bc6e676faf05349049b42c4fdb53a90749a8d7f4"}, "docker": "quay.io/biocontainers/nanonet", "aliases": {"myriad": "/usr/local/bin/myriad", "nanonet2d": "/usr/local/bin/nanonet2d", "nanonetcall": "/usr/local/bin/nanonetcall", "nanonettrain": "/usr/local/bin/nanonettrain", "watchmedo": "/usr/local/bin/watchmedo", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanonet.

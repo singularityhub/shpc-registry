@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cwl2wdl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cwl2wdl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cwl2wdl/container.yaml"
-updated_at: "2024-07-15 03:58:46.644963"
+updated_at: "2024-07-16 03:17:48.530403"
 latest: "0.1dev44--py_2"
 container_url: "https://biocontainers.pro/tools/cwl2wdl"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.1dev44--py_2"
 description: "shpc-registry automated BioContainers addition for cwl2wdl"
-config: {"url": "https://biocontainers.pro/tools/cwl2wdl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cwl2wdl", "latest": {"0.1dev44--py_2": "sha256:f26bd61d97f52d92413857ac65a5bddfd189bd8ff8f891020831a3b1408d5f99"}, "tags": {"0.1dev44--py_2": "sha256:f26bd61d97f52d92413857ac65a5bddfd189bd8ff8f891020831a3b1408d5f99"}, "docker": "quay.io/biocontainers/cwl2wdl", "aliases": {"cwl2wdl": "/usr/local/bin/cwl2wdl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/cwl2wdl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cwl2wdl", "latest": {"0.1dev44--py_2": "sha256:4f593e03ecf515c65eee487c706231e0c3e2a6f5ff2461e25faa3eda2caacf97"}, "tags": {"0.1dev44--py_2": "sha256:4f593e03ecf515c65eee487c706231e0c3e2a6f5ff2461e25faa3eda2caacf97"}, "docker": "quay.io/biocontainers/cwl2wdl", "aliases": {"cwl2wdl": "/usr/local/bin/cwl2wdl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cwl2wdl.

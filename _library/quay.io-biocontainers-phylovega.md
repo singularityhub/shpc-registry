@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylovega"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylovega/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylovega/container.yaml"
-updated_at: "2024-07-15 03:29:55.304411"
+updated_at: "2024-07-16 02:48:59.317870"
 latest: "0.3--py_0"
 container_url: "https://biocontainers.pro/tools/phylovega"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "0.3--py_0"
 description: "shpc-registry automated BioContainers addition for phylovega"
-config: {"url": "https://biocontainers.pro/tools/phylovega", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylovega", "latest": {"0.3--py_0": "sha256:5ce2084fc3dfcfff0d51961bdfe41d0295b7af57926834080bb8f3156105d7d8"}, "tags": {"0.3--py_0": "sha256:5ce2084fc3dfcfff0d51961bdfe41d0295b7af57926834080bb8f3156105d7d8"}, "docker": "quay.io/biocontainers/phylovega", "aliases": {"jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "phylovega": "/usr/local/bin/phylovega", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "iptest3": "/usr/local/bin/iptest3", "sumlabels.py": "/usr/local/bin/sumlabels.py"}}
+config: {"url": "https://biocontainers.pro/tools/phylovega", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylovega", "latest": {"0.3--py_0": "sha256:196cb175e70816cc17bf7603de006eedd93384c46897b964b7bb7db70f216054"}, "tags": {"0.3--py_0": "sha256:196cb175e70816cc17bf7603de006eedd93384c46897b964b7bb7db70f216054"}, "docker": "quay.io/biocontainers/phylovega", "aliases": {"jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "phylovega": "/usr/local/bin/phylovega", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "iptest3": "/usr/local/bin/iptest3", "sumlabels.py": "/usr/local/bin/sumlabels.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylovega.

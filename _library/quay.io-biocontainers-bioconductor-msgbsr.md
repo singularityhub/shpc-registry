@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msgbsr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msgbsr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msgbsr/container.yaml"
-updated_at: "2024-07-15 03:29:27.697119"
+updated_at: "2024-07-16 02:48:31.412924"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msgbsr"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msgbsr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msgbsr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msgbsr", "latest": {"1.26.0--r43hdfd78af_0": "sha256:e3e68a82ff6653bca8c449f40b9ddf59301c2ac7b54daa82c4b5738b7cd70271"}, "tags": {"1.8.0--r36_1": "sha256:8f30b00b31b4d310358c900640845a175b0bbe4885ef71dd497998157af9ae27", "1.22.0--r42hdfd78af_0": "sha256:e4b156e530911c72dc782e2d50bad0cf99bbdcdbdbf1744e9940248475ac5a8a", "1.18.0--r41hdfd78af_0": "sha256:c49653df11c7a04694465acb3a32530cf5c5bdae3386c77e54624242c70ce814", "1.16.0--r41hdfd78af_0": "sha256:3482905bb59f96c9af05f7fc635cada68743c37af424d229c9a7b8fdca7cf6b3", "1.12.0--r40_0": "sha256:669345d7ce3d9a995f5dcd07de5b8a9777db6578332e2355ca9803b569b10d7e", "1.10.0--r36_0": "sha256:ab6d527a9d1d3dd2b6b5e9439b97d928c333036ab9c7555da4a0a0dae7997ed9", "1.24.0--r43hdfd78af_0": "sha256:c425cdbff409e374d90420a6843b80401817b0dde445818ed354d0934e9b94ce", "1.26.0--r43hdfd78af_0": "sha256:e3e68a82ff6653bca8c449f40b9ddf59301c2ac7b54daa82c4b5738b7cd70271"}, "docker": "quay.io/biocontainers/bioconductor-msgbsr", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msgbsr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msgbsr", "latest": {"1.26.0--r43hdfd78af_0": "sha256:e3e68a82ff6653bca8c449f40b9ddf59301c2ac7b54daa82c4b5738b7cd70271"}, "tags": {"1.8.0--r36_1": "sha256:8d79d72f040e7cc9228d8fff98b2fdc62cc4c9e98e014526d64176695089db4c", "1.22.0--r42hdfd78af_0": "sha256:e4b156e530911c72dc782e2d50bad0cf99bbdcdbdbf1744e9940248475ac5a8a", "1.18.0--r41hdfd78af_0": "sha256:c49653df11c7a04694465acb3a32530cf5c5bdae3386c77e54624242c70ce814", "1.16.0--r41hdfd78af_0": "sha256:3482905bb59f96c9af05f7fc635cada68743c37af424d229c9a7b8fdca7cf6b3", "1.12.0--r40_0": "sha256:669345d7ce3d9a995f5dcd07de5b8a9777db6578332e2355ca9803b569b10d7e", "1.10.0--r36_0": "sha256:d03a0f16a6a3a850b7dc41c2ab2d3c0ce9d6c26942800211ca5efa89e8b2b4bc", "1.24.0--r43hdfd78af_0": "sha256:c425cdbff409e374d90420a6843b80401817b0dde445818ed354d0934e9b94ce", "1.26.0--r43hdfd78af_0": "sha256:e3e68a82ff6653bca8c449f40b9ddf59301c2ac7b54daa82c4b5738b7cd70271"}, "docker": "quay.io/biocontainers/bioconductor-msgbsr", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msgbsr.

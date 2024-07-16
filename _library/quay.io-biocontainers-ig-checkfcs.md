@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ig-checkfcs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ig-checkfcs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ig-checkfcs/container.yaml"
-updated_at: "2024-07-15 03:46:31.996132"
+updated_at: "2024-07-16 03:05:26.246036"
 latest: "1.0.0--0"
 container_url: "https://biocontainers.pro/tools/ig-checkfcs"
 aliases:
@@ -16,7 +16,7 @@ aliases:
 versions:
  - "1.0.0--0"
 description: "shpc-registry automated BioContainers addition for ig-checkfcs"
-config: {"url": "https://biocontainers.pro/tools/ig-checkfcs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ig-checkfcs", "latest": {"1.0.0--0": "sha256:1a562d7047e288844e5a2f3d730cee935d9539dc1305b05749bfd82659dfb7e7"}, "tags": {"1.0.0--0": "sha256:1a562d7047e288844e5a2f3d730cee935d9539dc1305b05749bfd82659dfb7e7"}, "docker": "quay.io/biocontainers/ig-checkfcs", "aliases": {"checkFCS.R": "/usr/local/bin/checkFCS.R", "uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/ig-checkfcs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ig-checkfcs", "latest": {"1.0.0--0": "sha256:32975e8241d260c8669775ff8b42563ad9f8b4b3bacebe403906d09cf96267f0"}, "tags": {"1.0.0--0": "sha256:32975e8241d260c8669775ff8b42563ad9f8b4b3bacebe403906d09cf96267f0"}, "docker": "quay.io/biocontainers/ig-checkfcs", "aliases": {"checkFCS.R": "/usr/local/bin/checkFCS.R", "uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ig-checkfcs.

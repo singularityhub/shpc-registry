@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/viroconstrictor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viroconstrictor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viroconstrictor/container.yaml"
-updated_at: "2024-07-15 04:04:15.675519"
-latest: "1.4.2--pyhdfd78af_0"
+updated_at: "2024-07-16 03:23:22.554047"
+latest: "1.4.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/viroconstrictor"
 aliases:
  - "AminoExtract"
@@ -50,8 +50,9 @@ versions:
  - "1.4.0--pyhdfd78af_0"
  - "1.4.0--pyhdfd78af_1"
  - "1.4.2--pyhdfd78af_0"
+ - "1.4.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for viroconstrictor"
-config: {"url": "https://biocontainers.pro/tools/viroconstrictor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for viroconstrictor", "latest": {"1.4.2--pyhdfd78af_0": "sha256:f85294358b757a9e9d80008d196af7728a10c47323e816268aa4d7c09c6d0fe2"}, "tags": {"1.2.6--pyhdfd78af_0": "sha256:ddf08f93f73db8abc301cbe4de578a015d73c3f5e31616f8c9d4d6de1af4e804", "1.3.0--pyhdfd78af_0": "sha256:82359b90e7b7eccc76b46f5d6f9bb86f14fff70fe0ca8bcf0893d3b2f821520d", "1.3.1--pyhdfd78af_0": "sha256:7fc849998cd0e7bf6c4ec0f68b40cc5b9a2f77211afc08f306359750bda3e631", "1.4.0--pyhdfd78af_0": "sha256:bd0aa41398c99b2f4da99791e1d1c2eb24b2eadd5c95afe63272b17de4090a3e", "1.4.0--pyhdfd78af_1": "sha256:83eaedf2c787fb6399a2b3b2b2f84890045b35cb665848233cadd9fdb9202ba2", "1.4.2--pyhdfd78af_0": "sha256:f85294358b757a9e9d80008d196af7728a10c47323e816268aa4d7c09c6d0fe2"}, "docker": "quay.io/biocontainers/viroconstrictor", "aliases": {"AminoExtract": "/usr/local/bin/AminoExtract", "ViroConstrictor": "/usr/local/bin/ViroConstrictor", "Viroconstrictor": "/usr/local/bin/Viroconstrictor", "aminoextract": "/usr/local/bin/aminoextract", "directories.py": "/usr/local/bin/directories.py", "markdown-it": "/usr/local/bin/markdown-it", "presets.py": "/usr/local/bin/presets.py", "viroConstrictor": "/usr/local/bin/viroConstrictor", "viroconstrictor": "/usr/local/bin/viroconstrictor", "workflow.smk": "/usr/local/bin/workflow.smk", "mamba-package": "/usr/local/bin/mamba-package", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "tjbench": "/usr/local/bin/tjbench", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "stone": "/usr/local/bin/stone", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/viroconstrictor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for viroconstrictor", "latest": {"1.4.3--pyhdfd78af_0": "sha256:9a87552b8cea7f2c02f9b075169c757def008fa8166d0548969d5cf521a06df6"}, "tags": {"1.2.6--pyhdfd78af_0": "sha256:ddf08f93f73db8abc301cbe4de578a015d73c3f5e31616f8c9d4d6de1af4e804", "1.3.0--pyhdfd78af_0": "sha256:82359b90e7b7eccc76b46f5d6f9bb86f14fff70fe0ca8bcf0893d3b2f821520d", "1.3.1--pyhdfd78af_0": "sha256:7fc849998cd0e7bf6c4ec0f68b40cc5b9a2f77211afc08f306359750bda3e631", "1.4.0--pyhdfd78af_0": "sha256:bd0aa41398c99b2f4da99791e1d1c2eb24b2eadd5c95afe63272b17de4090a3e", "1.4.0--pyhdfd78af_1": "sha256:83eaedf2c787fb6399a2b3b2b2f84890045b35cb665848233cadd9fdb9202ba2", "1.4.2--pyhdfd78af_0": "sha256:f85294358b757a9e9d80008d196af7728a10c47323e816268aa4d7c09c6d0fe2", "1.4.3--pyhdfd78af_0": "sha256:9a87552b8cea7f2c02f9b075169c757def008fa8166d0548969d5cf521a06df6"}, "docker": "quay.io/biocontainers/viroconstrictor", "aliases": {"AminoExtract": "/usr/local/bin/AminoExtract", "ViroConstrictor": "/usr/local/bin/ViroConstrictor", "Viroconstrictor": "/usr/local/bin/Viroconstrictor", "aminoextract": "/usr/local/bin/aminoextract", "directories.py": "/usr/local/bin/directories.py", "markdown-it": "/usr/local/bin/markdown-it", "presets.py": "/usr/local/bin/presets.py", "viroConstrictor": "/usr/local/bin/viroConstrictor", "viroconstrictor": "/usr/local/bin/viroconstrictor", "workflow.smk": "/usr/local/bin/workflow.smk", "mamba-package": "/usr/local/bin/mamba-package", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "tjbench": "/usr/local/bin/tjbench", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "stone": "/usr/local/bin/stone", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/viroconstrictor.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/viroconstrictor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/viroconstrictor:1.4.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/viroconstrictor:1.4.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/viroconstrictor/1.4.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/viroconstrictor/1.4.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/viroconstrictor/1.4.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/viroconstrictor/1.4.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fnn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fnn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fnn/container.yaml"
-updated_at: "2024-07-15 03:36:53.024860"
+updated_at: "2024-07-16 02:55:56.648329"
 latest: "1.1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-fnn"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.1--r3.4.1_0"
+ - "1.1--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-fnn"
-config: {"url": "https://biocontainers.pro/tools/r-fnn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fnn", "latest": {"1.1--r3.4.1_0": "sha256:cdfa6a7d21e2a0416190c33cf2c1a59124d6fddd5a230c359adb4d0d941feacd"}, "tags": {"1.1--r3.4.1_0": "sha256:cdfa6a7d21e2a0416190c33cf2c1a59124d6fddd5a230c359adb4d0d941feacd"}, "docker": "quay.io/biocontainers/r-fnn", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-fnn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fnn", "latest": {"1.1--r3.4.1_0": "sha256:72f79d3cbb21cd58aca6465096c2af4b3d3cb896971c48f4d707823eec6a556e"}, "tags": {"1.1--r3.4.1_0": "sha256:72f79d3cbb21cd58aca6465096c2af4b3d3cb896971c48f4d707823eec6a556e", "1.1--r3.3.1_0": "sha256:db49cfa4cd57ed86355b01d478ec665cbf872b670e9ee9d31f44ebeb37ae00dc"}, "docker": "quay.io/biocontainers/r-fnn", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-fnn.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-targetscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-targetscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-targetscore/container.yaml"
-updated_at: "2024-07-15 03:32:57.845748"
+updated_at: "2024-07-16 02:52:01.918942"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-targetscore"
 
@@ -14,7 +14,7 @@ versions:
  - "1.38.0--r43hdfd78af_0"
  - "1.40.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-targetscore"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-targetscore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-targetscore", "latest": {"1.40.0--r43hdfd78af_0": "sha256:c8f2ac838f58ac0c24a3395bce5378bf44611c16939e16768008f7f1a291fb56"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:dfb789f2fbdd4f4987275f2950bd52e56718b12c1398fe6d732b0630aaf0f2ef", "1.36.0--r42hdfd78af_0": "sha256:242e291f3868f723729252010c97e41dbd5b0245cf50c733822e1c4fbbc27ee4", "1.38.0--r43hdfd78af_0": "sha256:97b1f6fe9dc0b2febcd62d9220edc4c7a74ae666a99f0cf8cf948c478e192a39", "1.40.0--r43hdfd78af_0": "sha256:c8f2ac838f58ac0c24a3395bce5378bf44611c16939e16768008f7f1a291fb56"}, "docker": "quay.io/biocontainers/bioconductor-targetscore"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-targetscore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-targetscore", "latest": {"1.40.0--r43hdfd78af_0": "sha256:c8f2ac838f58ac0c24a3395bce5378bf44611c16939e16768008f7f1a291fb56"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:43526defda0d2c24f2d3ea9768db8aa2a7b41a41572da96ec7d06b1f26f42f7d", "1.36.0--r42hdfd78af_0": "sha256:242e291f3868f723729252010c97e41dbd5b0245cf50c733822e1c4fbbc27ee4", "1.38.0--r43hdfd78af_0": "sha256:97b1f6fe9dc0b2febcd62d9220edc4c7a74ae666a99f0cf8cf948c478e192a39", "1.40.0--r43hdfd78af_0": "sha256:c8f2ac838f58ac0c24a3395bce5378bf44611c16939e16768008f7f1a291fb56"}, "docker": "quay.io/biocontainers/bioconductor-targetscore"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-targetscore.

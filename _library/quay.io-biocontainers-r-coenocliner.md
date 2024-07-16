@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-coenocliner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-coenocliner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-coenocliner/container.yaml"
-updated_at: "2024-07-15 03:22:32.194934"
+updated_at: "2024-07-16 02:41:34.210906"
 latest: "0.2_2--r351h6115d3f_2"
 container_url: "https://biocontainers.pro/tools/r-coenocliner"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.2_2--r351h6115d3f_2"
 description: "shpc-registry automated BioContainers addition for r-coenocliner"
-config: {"url": "https://biocontainers.pro/tools/r-coenocliner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-coenocliner", "latest": {"0.2_2--r351h6115d3f_2": "sha256:58e0abcc20522c7e070121fd8c433b63914cb55a63123f655b14cc4e85370024"}, "tags": {"0.2_2--r351h6115d3f_2": "sha256:58e0abcc20522c7e070121fd8c433b63914cb55a63123f655b14cc4e85370024"}, "docker": "quay.io/biocontainers/r-coenocliner", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-coenocliner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-coenocliner", "latest": {"0.2_2--r351h6115d3f_2": "sha256:d385b6eba449bcf2ac9ca973b5c081321c87432ab17325d030359772dac28868"}, "tags": {"0.2_2--r351h6115d3f_2": "sha256:d385b6eba449bcf2ac9ca973b5c081321c87432ab17325d030359772dac28868"}, "docker": "quay.io/biocontainers/r-coenocliner", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-coenocliner.

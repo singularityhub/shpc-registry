@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dreamtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dreamtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dreamtools/container.yaml"
-updated_at: "2024-07-15 03:34:53.870619"
+updated_at: "2024-07-16 02:53:58.058345"
 latest: "1.3.0--py36_0"
 container_url: "https://biocontainers.pro/tools/dreamtools"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "1.3.0--py36_0"
 description: "shpc-registry automated BioContainers addition for dreamtools"
-config: {"url": "https://biocontainers.pro/tools/dreamtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dreamtools", "latest": {"1.3.0--py36_0": "sha256:ec181ed37ad7cc688c6695c228ce3443635d30d17877d2bee4183819224fbeba"}, "tags": {"1.3.0--py36_0": "sha256:ec181ed37ad7cc688c6695c228ce3443635d30d17877d2bee4183819224fbeba"}, "docker": "quay.io/biocontainers/dreamtools", "aliases": {"dreamtools": "/usr/local/bin/dreamtools", "dreamtools-layout": "/usr/local/bin/dreamtools-layout", "dreamtools-scoring": "/usr/local/bin/dreamtools-scoring", "synapse": "/usr/local/bin/synapse", "easydev_buildPackage": "/usr/local/bin/easydev_buildPackage", "ibrowse": "/usr/local/bin/ibrowse", "multigit": "/usr/local/bin/multigit", "browse": "/usr/local/bin/browse", "runxlrd.py": "/usr/local/bin/runxlrd.py", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel"}}
+config: {"url": "https://biocontainers.pro/tools/dreamtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dreamtools", "latest": {"1.3.0--py36_0": "sha256:2860f0422115d157ddcb0c155f72e6958f14644845315c553dc6871197dcc075"}, "tags": {"1.3.0--py36_0": "sha256:2860f0422115d157ddcb0c155f72e6958f14644845315c553dc6871197dcc075"}, "docker": "quay.io/biocontainers/dreamtools", "aliases": {"dreamtools": "/usr/local/bin/dreamtools", "dreamtools-layout": "/usr/local/bin/dreamtools-layout", "dreamtools-scoring": "/usr/local/bin/dreamtools-scoring", "synapse": "/usr/local/bin/synapse", "easydev_buildPackage": "/usr/local/bin/easydev_buildPackage", "ibrowse": "/usr/local/bin/ibrowse", "multigit": "/usr/local/bin/multigit", "browse": "/usr/local/bin/browse", "runxlrd.py": "/usr/local/bin/runxlrd.py", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dreamtools.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gsmoothr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gsmoothr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gsmoothr/container.yaml"
-updated_at: "2024-07-15 03:55:33.826008"
+updated_at: "2024-07-16 03:14:30.694935"
 latest: "0.1.7--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-gsmoothr"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "0.1.7--r3.3.1_0"
  - "0.1.7--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-gsmoothr"
-config: {"url": "https://biocontainers.pro/tools/r-gsmoothr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gsmoothr", "latest": {"0.1.7--r3.3.1_0": "sha256:1fc99803a525008b2a47a85046ff3b2382ab39042118a0aa3bc211974bf87393"}, "tags": {"0.1.7--r3.3.1_0": "sha256:1fc99803a525008b2a47a85046ff3b2382ab39042118a0aa3bc211974bf87393", "0.1.7--r3.4.1_0": "sha256:76655b4591da9e71c9fd44ae095e850d0058e27a956dc5f5869071ef005b256f"}, "docker": "quay.io/biocontainers/r-gsmoothr", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-gsmoothr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gsmoothr", "latest": {"0.1.7--r3.3.1_0": "sha256:0b71036a698b5258d2a554f16bcd9aa2ff919332ab386b13353e46c15aab2bf1"}, "tags": {"0.1.7--r3.3.1_0": "sha256:0b71036a698b5258d2a554f16bcd9aa2ff919332ab386b13353e46c15aab2bf1", "0.1.7--r3.4.1_0": "sha256:b235636b75b05143e623fe20c58e3d8ef9a7d474dc38684264267c20f37d4b7e"}, "docker": "quay.io/biocontainers/r-gsmoothr", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gsmoothr.
