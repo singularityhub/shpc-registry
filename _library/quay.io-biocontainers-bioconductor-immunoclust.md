@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-immunoclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-immunoclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-immunoclust/container.yaml"
-updated_at: "2024-07-16 02:43:40.174067"
+updated_at: "2024-07-17 02:43:08.651312"
 latest: "1.34.0--r43h7c4fd5e_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-immunoclust"
 

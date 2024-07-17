@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-maldiquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-maldiquant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-maldiquant/container.yaml"
-updated_at: "2024-07-16 03:06:48.314607"
+updated_at: "2024-07-17 03:07:10.512474"
 latest: "1.18--r341ha44fe06_0"
 container_url: "https://biocontainers.pro/tools/r-maldiquant"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.18--r341ha44fe06_0"
 description: "shpc-registry automated BioContainers addition for r-maldiquant"
-config: {"url": "https://biocontainers.pro/tools/r-maldiquant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-maldiquant", "latest": {"1.18--r341ha44fe06_0": "sha256:bb119d31be7906085022628b2791b5f8fdc2c2ae4e58830969236f74a93c9266"}, "tags": {"1.18--r341ha44fe06_0": "sha256:bb119d31be7906085022628b2791b5f8fdc2c2ae4e58830969236f74a93c9266"}, "docker": "quay.io/biocontainers/r-maldiquant", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-maldiquant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-maldiquant", "latest": {"1.18--r341ha44fe06_0": "sha256:f94abc4e25e20b9f3fb318b827c6b177f97e4ba1c875961a3614ffe6698f2624"}, "tags": {"1.18--r341ha44fe06_0": "sha256:f94abc4e25e20b9f3fb318b827c6b177f97e4ba1c875961a3614ffe6698f2624"}, "docker": "quay.io/biocontainers/r-maldiquant", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-maldiquant.

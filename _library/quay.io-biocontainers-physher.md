@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/physher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/physher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/physher/container.yaml"
-updated_at: "2024-07-16 02:57:42.105526"
-latest: "2.0.0--h8cec121_0"
+updated_at: "2024-07-17 02:57:48.181569"
+latest: "2.0.1--h8cec121_1"
 container_url: "https://biocontainers.pro/tools/physher"
 aliases:
  - "physher"
 versions:
  - "2.0.0--h8cec121_0"
+ - "2.0.1--h8cec121_1"
 description: "singularity registry hpc automated addition for physher"
-config: {"url": "https://biocontainers.pro/tools/physher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for physher", "latest": {"2.0.0--h8cec121_0": "sha256:10bcf7640dfed877c2172e0c2657e52bc3b4291243555b58afc1de7fa6311c26"}, "tags": {"2.0.0--h8cec121_0": "sha256:10bcf7640dfed877c2172e0c2657e52bc3b4291243555b58afc1de7fa6311c26"}, "docker": "quay.io/biocontainers/physher", "aliases": {"physher": "/usr/local/bin/physher"}}
+config: {"url": "https://biocontainers.pro/tools/physher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for physher", "latest": {"2.0.1--h8cec121_1": "sha256:afae2d66cf4b0e3ec47a1859896176b6216bc5bddffed1902f1d2f45166b1013"}, "tags": {"2.0.0--h8cec121_0": "sha256:10bcf7640dfed877c2172e0c2657e52bc3b4291243555b58afc1de7fa6311c26", "2.0.1--h8cec121_1": "sha256:afae2d66cf4b0e3ec47a1859896176b6216bc5bddffed1902f1d2f45166b1013"}, "docker": "quay.io/biocontainers/physher", "aliases": {"physher": "/usr/local/bin/physher"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/physher.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/physher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/physher:2.0.0--h8cec121_0
+$ shpc install quay.io/biocontainers/physher:2.0.1--h8cec121_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/physher/2.0.0--h8cec121_0
-$ module help quay.io/biocontainers/physher/2.0.0--h8cec121_0
+$ module load quay.io/biocontainers/physher/2.0.1--h8cec121_1
+$ module help quay.io/biocontainers/physher/2.0.1--h8cec121_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

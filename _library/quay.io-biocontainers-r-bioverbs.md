@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bioverbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bioverbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bioverbs/container.yaml"
-updated_at: "2024-07-16 02:55:23.540789"
+updated_at: "2024-07-17 02:55:23.635743"
 latest: "0.2.13--r36_0"
 container_url: "https://biocontainers.pro/tools/r-bioverbs"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "0.2.9--r36_0"
  - "0.2.13--r36_0"
 description: "shpc-registry automated BioContainers addition for r-bioverbs"
-config: {"url": "https://biocontainers.pro/tools/r-bioverbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bioverbs", "latest": {"0.2.13--r36_0": "sha256:55e653056816b13123b60266ebcf503384c31ca269d076d8348448208d3063e1"}, "tags": {"0.2.9--r36_0": "sha256:f3797918f483eb5bd7bea247c4c39757380f4f76ec0c9df3034de93123e3cfb9", "0.2.13--r36_0": "sha256:55e653056816b13123b60266ebcf503384c31ca269d076d8348448208d3063e1"}, "docker": "quay.io/biocontainers/r-bioverbs", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-bioverbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bioverbs", "latest": {"0.2.13--r36_0": "sha256:18a7bd0c887f9a94b57f5dffd0f46513f2339b0f7580a6a05d87aa834c759f87"}, "tags": {"0.2.9--r36_0": "sha256:f9e5d9c6cd1f7c17dbf7047b7c9873c80032294ed16dc38131db07a955db8e78", "0.2.13--r36_0": "sha256:18a7bd0c887f9a94b57f5dffd0f46513f2339b0f7580a6a05d87aa834c759f87"}, "docker": "quay.io/biocontainers/r-bioverbs", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bioverbs.

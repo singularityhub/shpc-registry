@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/rapclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rapclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rapclust/container.yaml"
-updated_at: "2024-07-16 02:48:43.230463"
+updated_at: "2024-07-17 02:48:24.944786"
 latest: "0.1.2--pyh24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/rapclust"
 
 versions:
  - "0.1.2--pyh24bf2e0_1"
 description: "shpc-registry automated BioContainers addition for rapclust"
-config: {"url": "https://biocontainers.pro/tools/rapclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rapclust", "latest": {"0.1.2--pyh24bf2e0_1": "sha256:50786ec9b3a53c01be633919a38568f2169e735c2b574ed3315346962cf5235c"}, "tags": {"0.1.2--pyh24bf2e0_1": "sha256:50786ec9b3a53c01be633919a38568f2169e735c2b574ed3315346962cf5235c"}, "docker": "quay.io/biocontainers/rapclust"}
+config: {"url": "https://biocontainers.pro/tools/rapclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rapclust", "latest": {"0.1.2--pyh24bf2e0_1": "sha256:106eed53446d1bd00c4c28398bb8984836545bf440248710c4c6de6ed31d3c83"}, "tags": {"0.1.2--pyh24bf2e0_1": "sha256:106eed53446d1bd00c4c28398bb8984836545bf440248710c4c6de6ed31d3c83"}, "docker": "quay.io/biocontainers/rapclust"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rapclust.

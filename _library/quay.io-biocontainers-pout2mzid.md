@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pout2mzid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pout2mzid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pout2mzid/container.yaml"
-updated_at: "2024-07-16 03:05:50.051259"
+updated_at: "2024-07-17 03:06:10.272420"
 latest: "0.3.03--boost1.62_2"
 container_url: "https://biocontainers.pro/tools/pout2mzid"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.3.03--boost1.62_2"
 description: "shpc-registry automated BioContainers addition for pout2mzid"
-config: {"url": "https://biocontainers.pro/tools/pout2mzid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pout2mzid", "latest": {"0.3.03--boost1.62_2": "sha256:7843a3c3ad9fb9b50919fa8cc873d5c0c2ae110c273febd845e65bf66e663c25"}, "tags": {"0.3.03--boost1.62_2": "sha256:7843a3c3ad9fb9b50919fa8cc873d5c0c2ae110c273febd845e65bf66e663c25"}, "docker": "quay.io/biocontainers/pout2mzid", "aliases": {"pout2mzid": "/usr/local/bin/pout2mzid", "xsd": "/usr/local/bin/xsd", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count"}}
+config: {"url": "https://biocontainers.pro/tools/pout2mzid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pout2mzid", "latest": {"0.3.03--boost1.62_2": "sha256:df145ad8ab3592afde8c3770f070705318192ebea86023083f0d80a7d4ebb7cb"}, "tags": {"0.3.03--boost1.62_2": "sha256:df145ad8ab3592afde8c3770f070705318192ebea86023083f0d80a7d4ebb7cb"}, "docker": "quay.io/biocontainers/pout2mzid", "aliases": {"pout2mzid": "/usr/local/bin/pout2mzid", "xsd": "/usr/local/bin/xsd", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pout2mzid.

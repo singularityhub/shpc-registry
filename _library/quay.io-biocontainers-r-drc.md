@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-drc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-drc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-drc/container.yaml"
-updated_at: "2024-07-16 03:11:46.289477"
+updated_at: "2024-07-17 03:12:16.958669"
 latest: "3.0_1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-drc"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "3.0_1--r3.4.1_0"
+ - "3.0_1--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-drc"
-config: {"url": "https://biocontainers.pro/tools/r-drc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-drc", "latest": {"3.0_1--r3.4.1_0": "sha256:65548768daa4aa57e8c70caa19a31384ad1c9087c7be9858ae5815851bb4d378"}, "tags": {"3.0_1--r3.4.1_0": "sha256:65548768daa4aa57e8c70caa19a31384ad1c9087c7be9858ae5815851bb4d378"}, "docker": "quay.io/biocontainers/r-drc", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-drc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-drc", "latest": {"3.0_1--r3.4.1_0": "sha256:d51c756648be186eac3d7431f516b5983329220245104e99adc01f6a79f3bfda"}, "tags": {"3.0_1--r3.4.1_0": "sha256:d51c756648be186eac3d7431f516b5983329220245104e99adc01f6a79f3bfda", "3.0_1--r3.3.1_0": "sha256:60cd09897bbfc1762e6740fa4fe660b966c5cb6f151fb977e1538301dfc709ac"}, "docker": "quay.io/biocontainers/r-drc", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-drc.

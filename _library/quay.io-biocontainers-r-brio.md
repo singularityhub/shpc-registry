@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-brio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-brio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-brio/container.yaml"
-updated_at: "2024-07-16 03:00:19.593722"
+updated_at: "2024-07-17 03:00:30.214178"
 latest: "0.3.17--r36_0"
 container_url: "https://biocontainers.pro/tools/r-brio"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "0.3.9--r36_0"
  - "0.3.17--r36_0"
 description: "shpc-registry automated BioContainers addition for r-brio"
-config: {"url": "https://biocontainers.pro/tools/r-brio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-brio", "latest": {"0.3.17--r36_0": "sha256:ef62e194d9a221ab026dca091143a225d4659cc4624998145dc06678bf751011"}, "tags": {"0.3.9--r36_0": "sha256:09b828be0f35565a895bef5a84e63bf28e2cdc24673ccddc3e787207290fb8f8", "0.3.17--r36_0": "sha256:ef62e194d9a221ab026dca091143a225d4659cc4624998145dc06678bf751011"}, "docker": "quay.io/biocontainers/r-brio", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-brio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-brio", "latest": {"0.3.17--r36_0": "sha256:1629132d2765b3b301f6bc98f2df0b45e537219ef7e9c64aa2c1eb943352ef05"}, "tags": {"0.3.9--r36_0": "sha256:46055310707543a140f88532335915912c39ffa3fd6f0f970d1368cb61a22bc1", "0.3.17--r36_0": "sha256:1629132d2765b3b301f6bc98f2df0b45e537219ef7e9c64aa2c1eb943352ef05"}, "docker": "quay.io/biocontainers/r-brio", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-brio.

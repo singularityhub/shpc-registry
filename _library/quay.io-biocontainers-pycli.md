@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pycli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycli/container.yaml"
-updated_at: "2024-07-16 02:49:16.635935"
+updated_at: "2024-07-17 02:48:59.819803"
 latest: "2.0.3--py_1"
 container_url: "https://biocontainers.pro/tools/pycli"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "2.0.3--py_1"
 description: "shpc-registry automated BioContainers addition for pycli"
-config: {"url": "https://biocontainers.pro/tools/pycli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pycli", "latest": {"2.0.3--py_1": "sha256:32724f626f712d247fdd6de03561cdc92a66b033e9073fb284b620ad53debb68"}, "tags": {"2.0.3--py_1": "sha256:32724f626f712d247fdd6de03561cdc92a66b033e9073fb284b620ad53debb68"}, "docker": "quay.io/biocontainers/pycli", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/pycli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pycli", "latest": {"2.0.3--py_1": "sha256:12cd03d82672d9c30b5701a4d2e7c7a0b9674c891aa9d7e5596befea3db5d2a4"}, "tags": {"2.0.3--py_1": "sha256:12cd03d82672d9c30b5701a4d2e7c7a0b9674c891aa9d7e5596befea3db5d2a4"}, "docker": "quay.io/biocontainers/pycli", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pycli.

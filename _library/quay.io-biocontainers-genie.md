@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genie/container.yaml"
-updated_at: "2024-07-16 03:05:37.696334"
+updated_at: "2024-07-17 03:05:57.470061"
 latest: "0.7.0--h375a9b1_0"
 container_url: "https://biocontainers.pro/tools/genie"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.7.0--h375a9b1_0"
 description: "shpc-registry automated BioContainers addition for genie"
-config: {"url": "https://biocontainers.pro/tools/genie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genie", "latest": {"0.7.0--h375a9b1_0": "sha256:98097053bf0ba93fc91811705ec6c720fba8fb605f0ba8461c5fa7828e1ad3ae"}, "tags": {"0.7.0--h375a9b1_0": "sha256:98097053bf0ba93fc91811705ec6c720fba8fb605f0ba8461c5fa7828e1ad3ae"}, "docker": "quay.io/biocontainers/genie", "aliases": {"bolt": "/usr/local/bin/bolt", "genie": "/usr/local/bin/genie"}}
+config: {"url": "https://biocontainers.pro/tools/genie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genie", "latest": {"0.7.0--h375a9b1_0": "sha256:29015ca494f823d517ea7b6f5aedb9d803761e07a44c83f292f91962c60f29f8"}, "tags": {"0.7.0--h375a9b1_0": "sha256:29015ca494f823d517ea7b6f5aedb9d803761e07a44c83f292f91962c60f29f8"}, "docker": "quay.io/biocontainers/genie", "aliases": {"bolt": "/usr/local/bin/bolt", "genie": "/usr/local/bin/genie"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genie.

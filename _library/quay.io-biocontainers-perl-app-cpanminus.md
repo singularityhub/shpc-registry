@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-app-cpanminus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-app-cpanminus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-app-cpanminus/container.yaml"
-updated_at: "2024-07-16 02:39:44.304468"
+updated_at: "2024-07-17 02:39:03.498819"
 latest: "1.7044--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-app-cpanminus"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.7044--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-app-cpanminus"
-config: {"url": "https://biocontainers.pro/tools/perl-app-cpanminus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-app-cpanminus", "latest": {"1.7044--pl526_1": "sha256:fc6cc5018a6ad73acbc611da89e352ec39c7f22b3c04c48f9df307240a957d39"}, "tags": {"1.7044--pl526_1": "sha256:fc6cc5018a6ad73acbc611da89e352ec39c7f22b3c04c48f9df307240a957d39"}, "docker": "quay.io/biocontainers/perl-app-cpanminus", "aliases": {"cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-app-cpanminus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-app-cpanminus", "latest": {"1.7044--pl526_1": "sha256:e8d41b44243760c73d43f231c2b8b93ac00714ca542a21bece2b20ffbbdd0fa1"}, "tags": {"1.7044--pl526_1": "sha256:e8d41b44243760c73d43f231c2b8b93ac00714ca542a21bece2b20ffbbdd0fa1"}, "docker": "quay.io/biocontainers/perl-app-cpanminus", "aliases": {"cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-app-cpanminus.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kraken-ea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kraken-ea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kraken-ea/container.yaml"
-updated_at: "2024-07-16 02:53:20.326167"
+updated_at: "2024-07-17 02:53:15.180870"
 latest: "0.10.5ea.3--pl526ha92aebf_3"
 container_url: "https://biocontainers.pro/tools/kraken-ea"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.10.5ea.3--pl526ha92aebf_3"
 description: "shpc-registry automated BioContainers addition for kraken-ea"
-config: {"url": "https://biocontainers.pro/tools/kraken-ea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kraken-ea", "latest": {"0.10.5ea.3--pl526ha92aebf_3": "sha256:da5a7e0b68c8aa4bf1e1b71015f1dd4e47cbd95478e501cd901f92cb1eb3c49d"}, "tags": {"0.10.5ea.3--pl526ha92aebf_3": "sha256:da5a7e0b68c8aa4bf1e1b71015f1dd4e47cbd95478e501cd901f92cb1eb3c49d"}, "docker": "quay.io/biocontainers/kraken-ea", "aliases": {"kraken": "/usr/local/bin/kraken", "kraken-build": "/usr/local/bin/kraken-build", "kraken-filter": "/usr/local/bin/kraken-filter", "kraken-mpa-report": "/usr/local/bin/kraken-mpa-report", "kraken-report": "/usr/local/bin/kraken-report", "kraken-translate": "/usr/local/bin/kraken-translate", "jellyfish": "/usr/local/bin/jellyfish", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/kraken-ea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kraken-ea", "latest": {"0.10.5ea.3--pl526ha92aebf_3": "sha256:1132b67ea0367f52f127c0c1111b09d5672760a964a0ac0ffcd178dffb9633a3"}, "tags": {"0.10.5ea.3--pl526ha92aebf_3": "sha256:1132b67ea0367f52f127c0c1111b09d5672760a964a0ac0ffcd178dffb9633a3"}, "docker": "quay.io/biocontainers/kraken-ea", "aliases": {"kraken": "/usr/local/bin/kraken", "kraken-build": "/usr/local/bin/kraken-build", "kraken-filter": "/usr/local/bin/kraken-filter", "kraken-mpa-report": "/usr/local/bin/kraken-mpa-report", "kraken-report": "/usr/local/bin/kraken-report", "kraken-translate": "/usr/local/bin/kraken-translate", "jellyfish": "/usr/local/bin/jellyfish", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kraken-ea.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-biclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-biclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-biclust/container.yaml"
-updated_at: "2024-07-16 03:16:15.063077"
+updated_at: "2024-07-17 03:16:49.453724"
 latest: "1.2.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-biclust"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.2.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-biclust"
-config: {"url": "https://biocontainers.pro/tools/r-biclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-biclust", "latest": {"1.2.0--r3.4.1_0": "sha256:d42998c72201856cdaf937dcde82abb50b83035e59e160721f4aaf2f618a4b8d"}, "tags": {"1.2.0--r3.4.1_0": "sha256:d42998c72201856cdaf937dcde82abb50b83035e59e160721f4aaf2f618a4b8d"}, "docker": "quay.io/biocontainers/r-biclust", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-biclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-biclust", "latest": {"1.2.0--r3.4.1_0": "sha256:9862ae094e6c75eea8e5c510de7f76fbd174cba07c0edb4a49cc1be6f0431855"}, "tags": {"1.2.0--r3.4.1_0": "sha256:9862ae094e6c75eea8e5c510de7f76fbd174cba07c0edb4a49cc1be6f0431855"}, "docker": "quay.io/biocontainers/r-biclust", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-biclust.

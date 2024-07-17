@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/reneo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reneo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reneo/container.yaml"
-updated_at: "2024-07-16 02:56:25.231808"
-latest: "0.3.1--pyhdfd78af_0"
+updated_at: "2024-07-17 02:56:28.446142"
+latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/reneo"
 aliases:
  - "jsondiff"
@@ -40,8 +40,9 @@ aliases:
 versions:
  - "0.2.0--pyhdfd78af_0"
  - "0.3.1--pyhdfd78af_0"
+ - "0.4.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for reneo"
-config: {"url": "https://biocontainers.pro/tools/reneo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reneo", "latest": {"0.3.1--pyhdfd78af_0": "sha256:465af02a4c5f1e62a8bf98ba017d6d273ae0bb5bb2f22f98899ae2b67f36cd1a"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:8f50e79a07a3e900019e8979fb70b2a9c44a85f7704a77aee02543f3addfee78", "0.3.1--pyhdfd78af_0": "sha256:465af02a4c5f1e62a8bf98ba017d6d273ae0bb5bb2f22f98899ae2b67f36cd1a"}, "docker": "quay.io/biocontainers/reneo", "aliases": {"jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "jsonpointer": "/usr/local/bin/jsonpointer", "reneo": "/usr/local/bin/reneo", "mamba-package": "/usr/local/bin/mamba-package", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter"}}
+config: {"url": "https://biocontainers.pro/tools/reneo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reneo", "latest": {"0.4.0--pyhdfd78af_0": "sha256:91f4717e66781941f0a33dfe238dbf4693c2dedf102bbd91bafd98cbe5c2e1de"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:8f50e79a07a3e900019e8979fb70b2a9c44a85f7704a77aee02543f3addfee78", "0.3.1--pyhdfd78af_0": "sha256:465af02a4c5f1e62a8bf98ba017d6d273ae0bb5bb2f22f98899ae2b67f36cd1a", "0.4.0--pyhdfd78af_0": "sha256:91f4717e66781941f0a33dfe238dbf4693c2dedf102bbd91bafd98cbe5c2e1de"}, "docker": "quay.io/biocontainers/reneo", "aliases": {"jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "jsonpointer": "/usr/local/bin/jsonpointer", "reneo": "/usr/local/bin/reneo", "mamba-package": "/usr/local/bin/mamba-package", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/reneo.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/reneo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/reneo:0.3.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/reneo:0.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/reneo/0.3.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/reneo/0.3.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/reneo/0.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/reneo/0.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

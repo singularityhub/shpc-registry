@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smcounter2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smcounter2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smcounter2/container.yaml"
-updated_at: "2024-07-16 02:51:10.427085"
+updated_at: "2024-07-17 02:50:59.242380"
 latest: "0.1.2018.08.28--2"
 container_url: "https://biocontainers.pro/tools/smcounter2"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.1.2018.08.28--2"
 description: "shpc-registry automated BioContainers addition for smcounter2"
-config: {"url": "https://biocontainers.pro/tools/smcounter2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smcounter2", "latest": {"0.1.2018.08.28--2": "sha256:ebd4f6babb6734fc5c53f35d2a93c8a2d790f64b27f32d337604faaa2677b1a0"}, "tags": {"0.1.2018.08.28--2": "sha256:ebd4f6babb6734fc5c53f35d2a93c8a2d790f64b27f32d337604faaa2677b1a0"}, "docker": "quay.io/biocontainers/smcounter2", "aliases": {"smCounter2": "/usr/local/bin/smCounter2", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py"}}
+config: {"url": "https://biocontainers.pro/tools/smcounter2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smcounter2", "latest": {"0.1.2018.08.28--2": "sha256:131852928dcdf8e833957592ac48d273ca094907ca6612faefe1d8deb32f1288"}, "tags": {"0.1.2018.08.28--2": "sha256:131852928dcdf8e833957592ac48d273ca094907ca6612faefe1d8deb32f1288"}, "docker": "quay.io/biocontainers/smcounter2", "aliases": {"smCounter2": "/usr/local/bin/smCounter2", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smcounter2.

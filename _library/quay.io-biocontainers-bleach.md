@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bleach"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bleach/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bleach/container.yaml"
-updated_at: "2024-07-16 02:40:23.403013"
+updated_at: "2024-07-17 02:39:44.245658"
 latest: "1.4.2--py35_0"
 container_url: "https://biocontainers.pro/tools/bleach"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "1.4.2--py35_0"
  - "1.4.2--py36_0"
 description: "shpc-registry automated BioContainers addition for bleach"
-config: {"url": "https://biocontainers.pro/tools/bleach", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bleach", "latest": {"1.4.2--py35_0": "sha256:b7f71fa5c3a55f778443402bca4baa3d8aac227514fc2e851a41a53693f06849"}, "tags": {"1.4.2--py35_0": "sha256:b7f71fa5c3a55f778443402bca4baa3d8aac227514fc2e851a41a53693f06849", "1.4.2--py36_0": "sha256:2f74d2462138803363752b9794a607e582031e1b52fcc171610a4f70361fae73"}, "docker": "quay.io/biocontainers/bleach", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/bleach", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bleach", "latest": {"1.4.2--py35_0": "sha256:1bde57c0b6ce031eea55986d96931344eaa62f46c2dfc20a01195502c1a6385b"}, "tags": {"1.4.2--py35_0": "sha256:1bde57c0b6ce031eea55986d96931344eaa62f46c2dfc20a01195502c1a6385b", "1.4.2--py36_0": "sha256:62f4aea6347d876c1de4c1193429a969869b10bdb7ac05bdb392d7ef3b00f94b"}, "docker": "quay.io/biocontainers/bleach", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bleach.

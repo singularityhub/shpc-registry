@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metacca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metacca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metacca/container.yaml"
-updated_at: "2024-07-16 03:15:11.536647"
+updated_at: "2024-07-17 03:15:46.269864"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metacca"
 
@@ -18,7 +18,7 @@ versions:
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-metacca"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metacca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metacca", "latest": {"1.30.0--r43hdfd78af_0": "sha256:c9f4dd4459e980e33b57396f3aac5295982f2a2718334e058dd86af4a19fb22a"}, "tags": {"1.8.0--r351_0": "sha256:6273912a92ad87032f3bfd31f2c524db92abc8480e41fb81e992f46bf337f498", "1.26.0--r42hdfd78af_0": "sha256:cbe7e2a05c1f0bb663a9602630eb0aa5f7fd2a337daa56714cf8f4ae5a60f802", "1.22.0--r41hdfd78af_0": "sha256:88391b3865a6695963ddfd47f4175adf441f85bcb6381ca2c86d6af2e5da7175", "1.20.0--r41hdfd78af_0": "sha256:c956b1d216d44aa0443c5b463664791a5c1317dbc903c3b8d3415e314147db6e", "1.18.0--r40hdfd78af_1": "sha256:eff8e114ebb9e62063d8c37976d62fc0ae17f6f6565c2e2d6269af94135fea32", "1.16.0--r40_0": "sha256:51068492e0b2be4de6e4c4011b5af7033a1d50fe491910bc8588398c76a649f0", "1.28.0--r43hdfd78af_0": "sha256:1175549748408ed786d12a89e3c630d87d65f11e2b66d6e280955b889dd7600c", "1.30.0--r43hdfd78af_0": "sha256:c9f4dd4459e980e33b57396f3aac5295982f2a2718334e058dd86af4a19fb22a"}, "docker": "quay.io/biocontainers/bioconductor-metacca"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metacca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metacca", "latest": {"1.30.0--r43hdfd78af_0": "sha256:c9f4dd4459e980e33b57396f3aac5295982f2a2718334e058dd86af4a19fb22a"}, "tags": {"1.8.0--r351_0": "sha256:311a7e0a91f2fd61308cdce212e9f22f342eecb8cacb5a7667d37249b28bcf2e", "1.26.0--r42hdfd78af_0": "sha256:cbe7e2a05c1f0bb663a9602630eb0aa5f7fd2a337daa56714cf8f4ae5a60f802", "1.22.0--r41hdfd78af_0": "sha256:88391b3865a6695963ddfd47f4175adf441f85bcb6381ca2c86d6af2e5da7175", "1.20.0--r41hdfd78af_0": "sha256:c956b1d216d44aa0443c5b463664791a5c1317dbc903c3b8d3415e314147db6e", "1.18.0--r40hdfd78af_1": "sha256:eff8e114ebb9e62063d8c37976d62fc0ae17f6f6565c2e2d6269af94135fea32", "1.16.0--r40_0": "sha256:51068492e0b2be4de6e4c4011b5af7033a1d50fe491910bc8588398c76a649f0", "1.28.0--r43hdfd78af_0": "sha256:1175549748408ed786d12a89e3c630d87d65f11e2b66d6e280955b889dd7600c", "1.30.0--r43hdfd78af_0": "sha256:c9f4dd4459e980e33b57396f3aac5295982f2a2718334e058dd86af4a19fb22a"}, "docker": "quay.io/biocontainers/bioconductor-metacca"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metacca.

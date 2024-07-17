@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arem/container.yaml"
-updated_at: "2024-07-16 03:14:25.250214"
+updated_at: "2024-07-17 03:14:59.149421"
 latest: "1.0.1--py_2"
 container_url: "https://biocontainers.pro/tools/arem"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "1.0.1--py_2"
 description: "shpc-registry automated BioContainers addition for arem"
-config: {"url": "https://biocontainers.pro/tools/arem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arem", "latest": {"1.0.1--py_2": "sha256:5ece1f39bf600242edaa5245363e30e09649e41126bbc48a1082112eb14e3686"}, "tags": {"1.0.1--py_2": "sha256:5ece1f39bf600242edaa5245363e30e09649e41126bbc48a1082112eb14e3686"}, "docker": "quay.io/biocontainers/arem", "aliases": {"arem": "/usr/local/bin/arem", "elandexport2bed": "/usr/local/bin/elandexport2bed", "elandmulti2bed": "/usr/local/bin/elandmulti2bed", "elandresult2bed": "/usr/local/bin/elandresult2bed", "wignorm": "/usr/local/bin/wignorm", "sam2bed": "/usr/local/bin/sam2bed", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/arem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arem", "latest": {"1.0.1--py_2": "sha256:2a945b6318a259704c843d44240b10f3fc771a0baff79d90eefc1f0c8504dbc8"}, "tags": {"1.0.1--py_2": "sha256:2a945b6318a259704c843d44240b10f3fc771a0baff79d90eefc1f0c8504dbc8"}, "docker": "quay.io/biocontainers/arem", "aliases": {"arem": "/usr/local/bin/arem", "elandexport2bed": "/usr/local/bin/elandexport2bed", "elandmulti2bed": "/usr/local/bin/elandmulti2bed", "elandresult2bed": "/usr/local/bin/elandresult2bed", "wignorm": "/usr/local/bin/wignorm", "sam2bed": "/usr/local/bin/sam2bed", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/arem.

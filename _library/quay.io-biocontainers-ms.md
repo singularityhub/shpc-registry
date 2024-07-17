@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/ms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ms/container.yaml"
-updated_at: "2024-07-16 03:15:44.362471"
+updated_at: "2024-07-17 03:16:19.238734"
 latest: "2014_03_04--0"
 container_url: "https://biocontainers.pro/tools/ms"
 
 versions:
  - "2014_03_04--0"
 description: "shpc-registry automated BioContainers addition for ms"
-config: {"url": "https://biocontainers.pro/tools/ms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ms", "latest": {"2014_03_04--0": "sha256:ed853a2155cda24ff7e1862c9fec41c267fa7a52002beddb3af1faca439f2557"}, "tags": {"2014_03_04--0": "sha256:ed853a2155cda24ff7e1862c9fec41c267fa7a52002beddb3af1faca439f2557"}, "docker": "quay.io/biocontainers/ms"}
+config: {"url": "https://biocontainers.pro/tools/ms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ms", "latest": {"2014_03_04--0": "sha256:dd280b6e9175512fc8477b652cae0b2d8220c39519a5a44a5f76a19c4ff942f6"}, "tags": {"2014_03_04--0": "sha256:dd280b6e9175512fc8477b652cae0b2d8220c39519a5a44a5f76a19c4ff942f6"}, "docker": "quay.io/biocontainers/ms"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ms.

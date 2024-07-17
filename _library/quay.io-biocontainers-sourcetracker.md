@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/sourcetracker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sourcetracker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sourcetracker/container.yaml"
-updated_at: "2024-07-16 02:58:53.207132"
+updated_at: "2024-07-17 02:59:01.709844"
 latest: "2.0.1--pyh24bf2e0_0"
 container_url: "https://biocontainers.pro/tools/sourcetracker"
 
 versions:
  - "2.0.1--pyh24bf2e0_0"
 description: "shpc-registry automated BioContainers addition for sourcetracker"
-config: {"url": "https://biocontainers.pro/tools/sourcetracker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sourcetracker", "latest": {"2.0.1--pyh24bf2e0_0": "sha256:9f0afea3555054bcf0bc58fed7270265e5f3b2c9b4a919f232cb5f4b227ce0e8"}, "tags": {"2.0.1--pyh24bf2e0_0": "sha256:9f0afea3555054bcf0bc58fed7270265e5f3b2c9b4a919f232cb5f4b227ce0e8"}, "docker": "quay.io/biocontainers/sourcetracker"}
+config: {"url": "https://biocontainers.pro/tools/sourcetracker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sourcetracker", "latest": {"2.0.1--pyh24bf2e0_0": "sha256:c1c6403041b2a7c0c02101a36618180b55211427ec98ea5efaef1777f86d6d15"}, "tags": {"2.0.1--pyh24bf2e0_0": "sha256:c1c6403041b2a7c0c02101a36618180b55211427ec98ea5efaef1777f86d6d15"}, "docker": "quay.io/biocontainers/sourcetracker"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sourcetracker.

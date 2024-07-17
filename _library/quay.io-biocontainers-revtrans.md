@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/revtrans"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/revtrans/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/revtrans/container.yaml"
-updated_at: "2024-07-16 02:52:08.462072"
+updated_at: "2024-07-17 02:51:59.689104"
 latest: "1.4--py_1"
 container_url: "https://biocontainers.pro/tools/revtrans"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "1.4--py_1"
 description: "shpc-registry automated BioContainers addition for revtrans"
-config: {"url": "https://biocontainers.pro/tools/revtrans", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for revtrans", "latest": {"1.4--py_1": "sha256:baa7decf317a6d483a830c38349379a4c95061b73af7f7a5b0166c0ade7cf90c"}, "tags": {"1.4--py_1": "sha256:baa7decf317a6d483a830c38349379a4c95061b73af7f7a5b0166c0ade7cf90c"}, "docker": "quay.io/biocontainers/revtrans", "aliases": {"mod_seqfiles.py": "/usr/local/bin/mod_seqfiles.py", "mod_translate.py": "/usr/local/bin/mod_translate.py", "ncbi_genetic_codes.py": "/usr/local/bin/ncbi_genetic_codes.py", "revtrans.py": "/usr/local/bin/revtrans.py", "revtrans_jarmo.py": "/usr/local/bin/revtrans_jarmo.py", "translate.py": "/usr/local/bin/translate.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/revtrans", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for revtrans", "latest": {"1.4--py_1": "sha256:99479d8528ee225a296ef7ea503e937bb9d99e2a5bf8a6ee132759ce536f64e9"}, "tags": {"1.4--py_1": "sha256:99479d8528ee225a296ef7ea503e937bb9d99e2a5bf8a6ee132759ce536f64e9"}, "docker": "quay.io/biocontainers/revtrans", "aliases": {"mod_seqfiles.py": "/usr/local/bin/mod_seqfiles.py", "mod_translate.py": "/usr/local/bin/mod_translate.py", "ncbi_genetic_codes.py": "/usr/local/bin/ncbi_genetic_codes.py", "revtrans.py": "/usr/local/bin/revtrans.py", "revtrans_jarmo.py": "/usr/local/bin/revtrans_jarmo.py", "translate.py": "/usr/local/bin/translate.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/revtrans.

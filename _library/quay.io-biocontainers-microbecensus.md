@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/microbecensus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/microbecensus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/microbecensus/container.yaml"
-updated_at: "2024-07-16 02:56:59.367671"
+updated_at: "2024-07-17 02:57:03.907240"
 latest: "1.1.1--pyhca03a8a_2"
 container_url: "https://biocontainers.pro/tools/microbecensus"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "1.1.1--0"
  - "1.1.1--pyhca03a8a_2"
 description: "shpc-registry automated BioContainers addition for microbecensus"
-config: {"url": "https://biocontainers.pro/tools/microbecensus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for microbecensus", "latest": {"1.1.1--pyhca03a8a_2": "sha256:bea35e01c5678e71bd2baa6f2e0307248988f2a24d89ee7d3ab991b4ef1885f1"}, "tags": {"1.1.1--0": "sha256:d1e21bc500e2898c6e9f713c45a5f278ff949b9e8aa53d84e60ddc8369499a56", "1.1.1--pyhca03a8a_2": "sha256:bea35e01c5678e71bd2baa6f2e0307248988f2a24d89ee7d3ab991b4ef1885f1"}, "docker": "quay.io/biocontainers/microbecensus", "aliases": {"run_microbe_census.py": "/usr/local/bin/run_microbe_census.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py", "pilfile.py": "/usr/local/bin/pilfile.py"}}
+config: {"url": "https://biocontainers.pro/tools/microbecensus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for microbecensus", "latest": {"1.1.1--pyhca03a8a_2": "sha256:bea35e01c5678e71bd2baa6f2e0307248988f2a24d89ee7d3ab991b4ef1885f1"}, "tags": {"1.1.1--0": "sha256:450d35be7f3fbc7cdc0363ff9707be5188d9018188cdc3ac13dd34ae88e5fd26", "1.1.1--pyhca03a8a_2": "sha256:bea35e01c5678e71bd2baa6f2e0307248988f2a24d89ee7d3ab991b4ef1885f1"}, "docker": "quay.io/biocontainers/microbecensus", "aliases": {"run_microbe_census.py": "/usr/local/bin/run_microbe_census.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py", "pilfile.py": "/usr/local/bin/pilfile.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/microbecensus.

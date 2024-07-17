@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yasm/container.yaml"
-updated_at: "2024-07-16 03:11:35.294834"
+updated_at: "2024-07-17 03:12:05.855811"
 latest: "1.3.0--0"
 container_url: "https://biocontainers.pro/tools/yasm"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.3.0--0"
 description: "shpc-registry automated BioContainers addition for yasm"
-config: {"url": "https://biocontainers.pro/tools/yasm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yasm", "latest": {"1.3.0--0": "sha256:0900474f5680e9fcdedae68bf3cd818172b046c86ce854bf8ad3bd8bd6e312dc"}, "tags": {"1.3.0--0": "sha256:0900474f5680e9fcdedae68bf3cd818172b046c86ce854bf8ad3bd8bd6e312dc"}, "docker": "quay.io/biocontainers/yasm", "aliases": {"vsyasm": "/usr/local/bin/vsyasm", "yasm": "/usr/local/bin/yasm", "ytasm": "/usr/local/bin/ytasm"}}
+config: {"url": "https://biocontainers.pro/tools/yasm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yasm", "latest": {"1.3.0--0": "sha256:aa764726e0378f74566b7871a997e4d0a488175bde4a1fc9bfe411389c34b25e"}, "tags": {"1.3.0--0": "sha256:aa764726e0378f74566b7871a997e4d0a488175bde4a1fc9bfe411389c34b25e"}, "docker": "quay.io/biocontainers/yasm", "aliases": {"vsyasm": "/usr/local/bin/vsyasm", "yasm": "/usr/local/bin/yasm", "ytasm": "/usr/local/bin/ytasm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/yasm.

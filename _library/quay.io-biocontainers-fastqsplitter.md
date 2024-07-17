@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastqsplitter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastqsplitter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastqsplitter/container.yaml"
-updated_at: "2024-07-16 03:16:16.580340"
+updated_at: "2024-07-17 03:16:50.902220"
 latest: "1.2.0--py312hf67a6ed_6"
 container_url: "https://biocontainers.pro/tools/fastqsplitter"
 aliases:

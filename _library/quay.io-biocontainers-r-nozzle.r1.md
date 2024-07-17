@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-nozzle.r1"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nozzle.r1/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nozzle.r1/container.yaml"
-updated_at: "2024-07-16 02:39:32.818778"
+updated_at: "2024-07-17 02:38:51.645643"
 latest: "1.1_1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-nozzle.r1"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.1_1--r3.2.2_0"
  - "1.1_1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-nozzle.r1"
-config: {"url": "https://biocontainers.pro/tools/r-nozzle.r1", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nozzle.r1", "latest": {"1.1_1--r3.2.2_0": "sha256:e6f821c7a660cdd25d9b5f341360aa1c56f86607a12854fea666808269dde397"}, "tags": {"1.1_1--r3.2.2_0": "sha256:e6f821c7a660cdd25d9b5f341360aa1c56f86607a12854fea666808269dde397", "1.1_1--r3.3.2_0": "sha256:e39bc689ab618a717d6cc095be82183e44778e3908abd4bdcdc454d52e6e6c54"}, "docker": "quay.io/biocontainers/r-nozzle.r1", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-nozzle.r1", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nozzle.r1", "latest": {"1.1_1--r3.2.2_0": "sha256:2c9e15332b0ae4d0264b6aa61e8a95fedfbf2dc3ad1c1fec2a5356dddcf2676b"}, "tags": {"1.1_1--r3.2.2_0": "sha256:2c9e15332b0ae4d0264b6aa61e8a95fedfbf2dc3ad1c1fec2a5356dddcf2676b", "1.1_1--r3.3.2_0": "sha256:31b43ca95536d044efc5777c9f9c7b61d8e7f573a4864c8d390b0bf9007a5e9e"}, "docker": "quay.io/biocontainers/r-nozzle.r1", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-nozzle.r1.

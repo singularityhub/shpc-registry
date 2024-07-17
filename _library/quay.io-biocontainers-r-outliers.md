@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-outliers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-outliers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-outliers/container.yaml"
-updated_at: "2024-07-16 03:12:20.926215"
+updated_at: "2024-07-17 03:12:52.528392"
 latest: "0.14--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-outliers"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "0.14--r3.3.1_0"
  - "0.14--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-outliers"
-config: {"url": "https://biocontainers.pro/tools/r-outliers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-outliers", "latest": {"0.14--r3.3.1_0": "sha256:9c87cac757649a3588a1f8ce0b8c8a77b5a7e1822befbfd46cfde339ed3327ab"}, "tags": {"0.14--r3.3.1_0": "sha256:9c87cac757649a3588a1f8ce0b8c8a77b5a7e1822befbfd46cfde339ed3327ab", "0.14--r3.3.2_0": "sha256:b902282f6ba0f0102af07583442fcc39105ee052e7dad0b5842dad24c7f17cb5"}, "docker": "quay.io/biocontainers/r-outliers", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-outliers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-outliers", "latest": {"0.14--r3.3.1_0": "sha256:9617f9d5dd00e55a6087090a1b38410af03bed383cb67529b3509e6e64c7d519"}, "tags": {"0.14--r3.3.1_0": "sha256:9617f9d5dd00e55a6087090a1b38410af03bed383cb67529b3509e6e64c7d519", "0.14--r3.3.2_0": "sha256:7bb3a9fa38f42266272862099516ec516b83109e618a1675cc65c66a19418cfa"}, "docker": "quay.io/biocontainers/r-outliers", "aliases": {"pango-querymodules": "/usr/local/bin/pango-querymodules", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-outliers.

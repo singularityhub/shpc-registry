@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/wgfast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wgfast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wgfast/container.yaml"
-updated_at: "2024-07-16 02:51:20.120115"
+updated_at: "2024-07-17 02:51:09.376207"
 latest: "1.0.4--py_0"
 container_url: "https://biocontainers.pro/tools/wgfast"
 
 versions:
  - "1.0.4--py_0"
 description: "shpc-registry automated BioContainers addition for wgfast"
-config: {"url": "https://biocontainers.pro/tools/wgfast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wgfast", "latest": {"1.0.4--py_0": "sha256:6dc9a029c7c0a8222fb39963b7c549fd5b30df78ee88d2443465d5f7235bd92b"}, "tags": {"1.0.4--py_0": "sha256:6dc9a029c7c0a8222fb39963b7c549fd5b30df78ee88d2443465d5f7235bd92b"}, "docker": "quay.io/biocontainers/wgfast"}
+config: {"url": "https://biocontainers.pro/tools/wgfast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wgfast", "latest": {"1.0.4--py_0": "sha256:2a44b2d0705dfa1a09c13522c3da918caa3582dac85b29563f1f03aeef8cf7ce"}, "tags": {"1.0.4--py_0": "sha256:2a44b2d0705dfa1a09c13522c3da918caa3582dac85b29563f1f03aeef8cf7ce"}, "docker": "quay.io/biocontainers/wgfast"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wgfast.

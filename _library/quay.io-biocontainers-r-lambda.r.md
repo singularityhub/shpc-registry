@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-lambda.r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-lambda.r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-lambda.r/container.yaml"
-updated_at: "2024-07-16 03:09:50.027060"
+updated_at: "2024-07-17 03:10:18.121681"
 latest: "1.1.7--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-lambda.r"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.1.7--r3.3.2_0"
+ - "1.1.7--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-lambda.r"
-config: {"url": "https://biocontainers.pro/tools/r-lambda.r", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-lambda.r", "latest": {"1.1.7--r3.3.2_0": "sha256:e7d726b861da1baae69780f810cf37307296c740370941648d7f165fcddb656c"}, "tags": {"1.1.7--r3.3.2_0": "sha256:e7d726b861da1baae69780f810cf37307296c740370941648d7f165fcddb656c"}, "docker": "quay.io/biocontainers/r-lambda.r", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-lambda.r", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-lambda.r", "latest": {"1.1.7--r3.3.2_0": "sha256:f44e2b284a5e1487abd275c65369b8b21336cfa4bc6af2f5d70fb623f17073a8"}, "tags": {"1.1.7--r3.3.2_0": "sha256:f44e2b284a5e1487abd275c65369b8b21336cfa4bc6af2f5d70fb623f17073a8", "1.1.7--r3.2.2_0": "sha256:631d6e002a20e5a5833b330ab098f3fae9724e031449e9d281306e87dada161c"}, "docker": "quay.io/biocontainers/r-lambda.r", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-lambda.r.

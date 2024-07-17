@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pydoe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydoe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydoe/container.yaml"
-updated_at: "2024-07-16 02:48:09.583820"
+updated_at: "2024-07-17 02:47:50.202754"
 latest: "0.3.8--py35_0"
 container_url: "https://biocontainers.pro/tools/pydoe"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "0.3.8--py35_0"
  - "0.3.8--py36_0"
 description: "shpc-registry automated BioContainers addition for pydoe"
-config: {"url": "https://biocontainers.pro/tools/pydoe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pydoe", "latest": {"0.3.8--py35_0": "sha256:af82999a2d9f0ad46dd1e3be41847a4322ddd5e7d61c68f717e8de993f5c3b33"}, "tags": {"0.3.8--py35_0": "sha256:af82999a2d9f0ad46dd1e3be41847a4322ddd5e7d61c68f717e8de993f5c3b33", "0.3.8--py36_0": "sha256:62aa1abe3122d78387731650a231dec1f1ca47d09be15ff8de16c76f4609647f"}, "docker": "quay.io/biocontainers/pydoe", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/pydoe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pydoe", "latest": {"0.3.8--py35_0": "sha256:4cd6ac0cd90d90fc7f9127258bed168a1f12cf86730cc05d1fb186c3b84c5baf"}, "tags": {"0.3.8--py35_0": "sha256:4cd6ac0cd90d90fc7f9127258bed168a1f12cf86730cc05d1fb186c3b84c5baf", "0.3.8--py36_0": "sha256:81e1c4145d0f87b9afc32a595624a442dc897841166ce5752055044e86ab9e15"}, "docker": "quay.io/biocontainers/pydoe", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pydoe.

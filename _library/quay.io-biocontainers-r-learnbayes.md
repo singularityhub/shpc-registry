@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-learnbayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-learnbayes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-learnbayes/container.yaml"
-updated_at: "2024-07-16 02:50:45.231778"
+updated_at: "2024-07-17 02:50:32.891082"
 latest: "2.15--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-learnbayes"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "2.15--r3.3.2_0"
+ - "2.15--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-learnbayes"
-config: {"url": "https://biocontainers.pro/tools/r-learnbayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-learnbayes", "latest": {"2.15--r3.3.2_0": "sha256:28d40ecc61d63153ef5efd63049aeb059e3e1d39028efc5df97602bbfdb9fe9a"}, "tags": {"2.15--r3.3.2_0": "sha256:28d40ecc61d63153ef5efd63049aeb059e3e1d39028efc5df97602bbfdb9fe9a"}, "docker": "quay.io/biocontainers/r-learnbayes", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-learnbayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-learnbayes", "latest": {"2.15--r3.3.2_0": "sha256:9a672400344358e603397f42ba5bfc1615119c3f1575de1a3f121d3a634973e2"}, "tags": {"2.15--r3.3.2_0": "sha256:9a672400344358e603397f42ba5bfc1615119c3f1575de1a3f121d3a634973e2", "2.15--r3.3.1_0": "sha256:d549a93a72ced1126d6e23a9f8858a157e97a9b58131969138416729546a8937"}, "docker": "quay.io/biocontainers/r-learnbayes", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-learnbayes.

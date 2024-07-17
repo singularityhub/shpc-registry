@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mlm4omics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mlm4omics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mlm4omics/container.yaml"
-updated_at: "2024-07-16 02:55:45.222147"
+updated_at: "2024-07-17 02:55:46.361740"
 latest: "1.2.0--r351hf484d3e_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mlm4omics"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.2.0--r351hf484d3e_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mlm4omics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mlm4omics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mlm4omics", "latest": {"1.2.0--r351hf484d3e_0": "sha256:e5f233767451206ba965fd483a5c316e3813c71bf52e8fe1121652d5f3725abe"}, "tags": {"1.2.0--r351hf484d3e_0": "sha256:e5f233767451206ba965fd483a5c316e3813c71bf52e8fe1121652d5f3725abe"}, "docker": "quay.io/biocontainers/bioconductor-mlm4omics", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mlm4omics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mlm4omics", "latest": {"1.2.0--r351hf484d3e_0": "sha256:fa721f4a5c90a8d697d9d07a2ce41651a267bda991ec6bea31e76b9623be6b29"}, "tags": {"1.2.0--r351hf484d3e_0": "sha256:fa721f4a5c90a8d697d9d07a2ce41651a267bda991ec6bea31e76b9623be6b29"}, "docker": "quay.io/biocontainers/bioconductor-mlm4omics", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mlm4omics.

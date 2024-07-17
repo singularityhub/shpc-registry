@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kggseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kggseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kggseq/container.yaml"
-updated_at: "2024-07-16 03:21:27.530265"
+updated_at: "2024-07-17 03:21:47.702679"
 latest: "1.1--0"
 container_url: "https://biocontainers.pro/tools/kggseq"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.1--0"
 description: "shpc-registry automated BioContainers addition for kggseq"
-config: {"url": "https://biocontainers.pro/tools/kggseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kggseq", "latest": {"1.1--0": "sha256:0a3721e17acd293a6268bd24c7e6befb74a63f8602cef1e25013307629c34b42"}, "tags": {"1.1--0": "sha256:0a3721e17acd293a6268bd24c7e6befb74a63f8602cef1e25013307629c34b42"}, "docker": "quay.io/biocontainers/kggseq", "aliases": {"kggseq": "/usr/local/bin/kggseq", "kggseq1.log": "/usr/local/bin/kggseq1.log", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/kggseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kggseq", "latest": {"1.1--0": "sha256:57d3a4e1d70e12ca2d8f6e62b972475d25f691305ff7f582245613d8fea9c39a"}, "tags": {"1.1--0": "sha256:57d3a4e1d70e12ca2d8f6e62b972475d25f691305ff7f582245613d8fea9c39a"}, "docker": "quay.io/biocontainers/kggseq", "aliases": {"kggseq": "/usr/local/bin/kggseq", "kggseq1.log": "/usr/local/bin/kggseq1.log", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kggseq.

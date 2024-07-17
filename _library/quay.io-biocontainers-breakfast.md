@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/breakfast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/breakfast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/breakfast/container.yaml"
-updated_at: "2024-07-16 02:48:17.295355"
+updated_at: "2024-07-17 02:47:58.200722"
 latest: "0.4.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/breakfast"
 aliases:

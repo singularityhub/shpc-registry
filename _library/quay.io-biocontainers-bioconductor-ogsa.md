@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ogsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ogsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ogsa/container.yaml"
-updated_at: "2024-07-16 02:40:44.059815"
+updated_at: "2024-07-17 02:40:05.372426"
 latest: "1.17.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ogsa"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.10.0--r341_0"
  - "1.10.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ogsa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ogsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ogsa", "latest": {"1.17.0--r40_0": "sha256:bae98f5d1d2e14dd54f7409c4cf36d44c56a397be326eda1badeafdc39fb691f"}, "tags": {"1.8.0--r3.4.1_0": "sha256:1cae82810a07f295fc57c05194a2a7732b34031160fd89353cba043dbede9dca", "1.17.0--r40_0": "sha256:bae98f5d1d2e14dd54f7409c4cf36d44c56a397be326eda1badeafdc39fb691f", "1.16.0--r36_0": "sha256:ecafe9dbd811e29aeaabcb846501829db191f2efaf0057bb741dd2db8a0cdbb0", "1.14.0--r36_1": "sha256:5644b157e3fc352bd32abafeac1daadc2ac88f53e4ac378f1807771a96483a46", "1.12.0--r351_0": "sha256:3eef15d82808db9d6ee7d94d53b01125b5822fed2df4b994fdbc370d556ae233", "1.10.0--r341_0": "sha256:0686d1da5bb83dcb3ce6bfc15f669873012ea6c238a391d28928694fbacd0f74", "1.10.0--r351_0": "sha256:f0bdd62ed9661746fdb893e95970dc524e0928265221617d459f2b90dfe6e92c"}, "docker": "quay.io/biocontainers/bioconductor-ogsa", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ogsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ogsa", "latest": {"1.17.0--r40_0": "sha256:bae98f5d1d2e14dd54f7409c4cf36d44c56a397be326eda1badeafdc39fb691f"}, "tags": {"1.8.0--r3.4.1_0": "sha256:0b30c897f452c34683787fc83bf2932abc71fb335264e4d60d637f220bc73d92", "1.17.0--r40_0": "sha256:bae98f5d1d2e14dd54f7409c4cf36d44c56a397be326eda1badeafdc39fb691f", "1.16.0--r36_0": "sha256:a41d21915d2d11e57ddd1f304ce3072ef22a924bc7780ba66e5ff5626e042d30", "1.14.0--r36_1": "sha256:d001fc129b4632337dcabe7fbb86c346345038d3841444966e16bf014eb52a6d", "1.12.0--r351_0": "sha256:8bfa5d83bc7cc9f0aad552ce625831235a90b2ea25cbd696e94dab1e4abc596b", "1.10.0--r341_0": "sha256:1af802fe68188f0a45baedbcbb68273a3b8361f1aa3eb48d7ce207695fac49a5", "1.10.0--r351_0": "sha256:33788312b6fb4ec80ff23d15a3de3cc63b30ab51ea1bf509a283588c66197a29"}, "docker": "quay.io/biocontainers/bioconductor-ogsa", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ogsa.

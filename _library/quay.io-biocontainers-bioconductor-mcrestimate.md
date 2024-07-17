@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mcrestimate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mcrestimate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mcrestimate/container.yaml"
-updated_at: "2024-07-16 03:02:04.406475"
+updated_at: "2024-07-17 03:02:19.041221"
 latest: "2.42.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mcrestimate"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "2.42.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-mcrestimate"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mcrestimate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mcrestimate", "latest": {"2.42.0--r36_1": "sha256:0bdd103c6733eae42b8964116a0ca57d6bab7b9a32320d38cff3e0a1e4b060e4"}, "tags": {"2.42.0--r36_1": "sha256:0bdd103c6733eae42b8964116a0ca57d6bab7b9a32320d38cff3e0a1e4b060e4"}, "docker": "quay.io/biocontainers/bioconductor-mcrestimate", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mcrestimate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mcrestimate", "latest": {"2.42.0--r36_1": "sha256:f60c99c5d22056636c8c4a00da1dc0e10f89cc443263540b4b590346cb2d8d0c"}, "tags": {"2.42.0--r36_1": "sha256:f60c99c5d22056636c8c4a00da1dc0e10f89cc443263540b4b590346cb2d8d0c"}, "docker": "quay.io/biocontainers/bioconductor-mcrestimate", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mcrestimate.

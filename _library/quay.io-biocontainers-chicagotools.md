@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chicagotools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chicagotools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chicagotools/container.yaml"
-updated_at: "2024-07-16 02:53:37.961261"
+updated_at: "2024-07-17 02:53:33.483999"
 latest: "1.2.0--2"
 container_url: "https://biocontainers.pro/tools/chicagotools"
 aliases:
@@ -28,7 +28,7 @@ aliases:
 versions:
  - "1.2.0--2"
 description: "shpc-registry automated BioContainers addition for chicagotools"
-config: {"url": "https://biocontainers.pro/tools/chicagotools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chicagotools", "latest": {"1.2.0--2": "sha256:a54128a8fb650b7d92dd95a9062bc032f5c95bda3ccf06ee2296c5b9595b7a08"}, "tags": {"1.2.0--2": "sha256:a54128a8fb650b7d92dd95a9062bc032f5c95bda3ccf06ee2296c5b9595b7a08"}, "docker": "quay.io/biocontainers/chicagotools", "aliases": {"bam2chicago.sh": "/usr/local/bin/bam2chicago.sh", "fitDistCurve.R": "/usr/local/bin/fitDistCurve.R", "makeDesignFiles.py": "/usr/local/bin/makeDesignFiles.py", "makeNBaitsPerBinFile.py": "/usr/local/bin/makeNBaitsPerBinFile.py", "makeNPerBinFile.py": "/usr/local/bin/makeNPerBinFile.py", "makePeakMatrix.R": "/usr/local/bin/makePeakMatrix.R", "makeProxOEFile.py": "/usr/local/bin/makeProxOEFile.py", "runChicago.R": "/usr/local/bin/runChicago.R", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/chicagotools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chicagotools", "latest": {"1.2.0--2": "sha256:31da81e66328187c26e6d103a8c6f01793fc8be731b08567b8dd48f440230cb0"}, "tags": {"1.2.0--2": "sha256:31da81e66328187c26e6d103a8c6f01793fc8be731b08567b8dd48f440230cb0"}, "docker": "quay.io/biocontainers/chicagotools", "aliases": {"bam2chicago.sh": "/usr/local/bin/bam2chicago.sh", "fitDistCurve.R": "/usr/local/bin/fitDistCurve.R", "makeDesignFiles.py": "/usr/local/bin/makeDesignFiles.py", "makeNBaitsPerBinFile.py": "/usr/local/bin/makeNBaitsPerBinFile.py", "makeNPerBinFile.py": "/usr/local/bin/makeNPerBinFile.py", "makePeakMatrix.R": "/usr/local/bin/makePeakMatrix.R", "makeProxOEFile.py": "/usr/local/bin/makeProxOEFile.py", "runChicago.R": "/usr/local/bin/runChicago.R", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chicagotools.

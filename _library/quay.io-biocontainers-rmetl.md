@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rmetl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rmetl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rmetl/container.yaml"
-updated_at: "2024-07-16 03:06:04.396200"
+updated_at: "2024-07-17 03:06:25.025927"
 latest: "1.0.4--py_0"
 container_url: "https://biocontainers.pro/tools/rmetl"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.0.4--py_0"
 description: "shpc-registry automated BioContainers addition for rmetl"
-config: {"url": "https://biocontainers.pro/tools/rmetl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rmetl", "latest": {"1.0.4--py_0": "sha256:12e307e4a90479c8a60478413930e0d48e53b64a9dd033c23a016cdbb1b13efa"}, "tags": {"1.0.4--py_0": "sha256:12e307e4a90479c8a60478413930e0d48e53b64a9dd033c23a016cdbb1b13efa"}, "docker": "quay.io/biocontainers/rmetl", "aliases": {"ngmlr": "/usr/local/bin/ngmlr", "rMETL": "/usr/local/bin/rMETL", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "python2-config": "/usr/local/bin/python2-config"}}
+config: {"url": "https://biocontainers.pro/tools/rmetl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rmetl", "latest": {"1.0.4--py_0": "sha256:5efdaefcc27df8e629c58e6acbf2f6706e93084cab50b02ca92de4f402c0dccb"}, "tags": {"1.0.4--py_0": "sha256:5efdaefcc27df8e629c58e6acbf2f6706e93084cab50b02ca92de4f402c0dccb"}, "docker": "quay.io/biocontainers/rmetl", "aliases": {"ngmlr": "/usr/local/bin/ngmlr", "rMETL": "/usr/local/bin/rMETL", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "python2-config": "/usr/local/bin/python2-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rmetl.

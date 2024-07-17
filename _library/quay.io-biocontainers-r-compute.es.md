@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-compute.es"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-compute.es/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-compute.es/container.yaml"
-updated_at: "2024-07-16 03:06:06.119608"
+updated_at: "2024-07-17 03:06:26.802321"
 latest: "0.2_4--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-compute.es"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "0.2_4--r3.2.2_0"
  - "0.2_4--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-compute.es"
-config: {"url": "https://biocontainers.pro/tools/r-compute.es", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-compute.es", "latest": {"0.2_4--r3.2.2_0": "sha256:3f2d884be516af9e5e3b5f11d5b8c4297ce8b59a456ad0c6317a5957a990bf69"}, "tags": {"0.2_4--r3.2.2_0": "sha256:3f2d884be516af9e5e3b5f11d5b8c4297ce8b59a456ad0c6317a5957a990bf69", "0.2_4--r3.3.2_0": "sha256:9abfb189b6a931fbf60ed0706dcce2d0c537f0bb437323d6b06f30abe39fc213"}, "docker": "quay.io/biocontainers/r-compute.es", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-compute.es", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-compute.es", "latest": {"0.2_4--r3.2.2_0": "sha256:357d8ef63fb6987b3e782973e2afbd0f3b188ecb11da35907015d4a35dd2a524"}, "tags": {"0.2_4--r3.2.2_0": "sha256:357d8ef63fb6987b3e782973e2afbd0f3b188ecb11da35907015d4a35dd2a524", "0.2_4--r3.3.2_0": "sha256:d0905c6330a2c9c3742b2ea3225f572b6dc5942f3c386a7c44d7f23d1c1fa47c"}, "docker": "quay.io/biocontainers/r-compute.es", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-compute.es.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ctat-mutations"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ctat-mutations/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ctat-mutations/container.yaml"
-updated_at: "2024-07-16 03:19:45.122640"
+updated_at: "2024-07-17 03:20:07.662473"
 latest: "2.0.1--py27_5"
 container_url: "https://biocontainers.pro/tools/ctat-mutations"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "2.0.1--py27_5"
 description: "shpc-registry automated BioContainers addition for ctat-mutations"
-config: {"url": "https://biocontainers.pro/tools/ctat-mutations", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ctat-mutations", "latest": {"2.0.1--py27_5": "sha256:3cb88ef5e4ef8e40677f219c090d81f32f601df2e48b9ae37451a836ad85e335"}, "tags": {"2.0.1--py27_5": "sha256:3cb88ef5e4ef8e40677f219c090d81f32f601df2e48b9ae37451a836ad85e335"}, "docker": "quay.io/biocontainers/ctat-mutations", "aliases": {"ctat_mutations": "/usr/local/bin/ctat_mutations", "gatk": "/usr/local/bin/gatk", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "picard": "/usr/local/bin/picard", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii"}}
+config: {"url": "https://biocontainers.pro/tools/ctat-mutations", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ctat-mutations", "latest": {"2.0.1--py27_5": "sha256:8cd0787a90bb6fa64c690b161364a3fa5ebfb77ce719351dc8f327f55510323c"}, "tags": {"2.0.1--py27_5": "sha256:8cd0787a90bb6fa64c690b161364a3fa5ebfb77ce719351dc8f327f55510323c"}, "docker": "quay.io/biocontainers/ctat-mutations", "aliases": {"ctat_mutations": "/usr/local/bin/ctat_mutations", "gatk": "/usr/local/bin/gatk", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "picard": "/usr/local/bin/picard", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ctat-mutations.

@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/libdeflate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libdeflate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libdeflate/container.yaml"
-updated_at: "2024-07-16 03:08:09.405521"
+updated_at: "2024-07-17 03:08:34.823475"
 latest: "1.2--h516909a_1"
 container_url: "https://biocontainers.pro/tools/libdeflate"
 
 versions:
  - "1.2--h516909a_1"
 description: "shpc-registry automated BioContainers addition for libdeflate"
-config: {"url": "https://biocontainers.pro/tools/libdeflate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libdeflate", "latest": {"1.2--h516909a_1": "sha256:0ac556a3197108583719179a5940a6876381feb49b768663d1fbec2f85b43e7d"}, "tags": {"1.2--h516909a_1": "sha256:0ac556a3197108583719179a5940a6876381feb49b768663d1fbec2f85b43e7d"}, "docker": "quay.io/biocontainers/libdeflate"}
+config: {"url": "https://biocontainers.pro/tools/libdeflate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libdeflate", "latest": {"1.2--h516909a_1": "sha256:dd847b0bdc52f80e6f2114b3c2aac61ad23f3c5d91a81762453b9b42c85c422d"}, "tags": {"1.2--h516909a_1": "sha256:dd847b0bdc52f80e6f2114b3c2aac61ad23f3c5d91a81762453b9b42c85c422d"}, "docker": "quay.io/biocontainers/libdeflate"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libdeflate.

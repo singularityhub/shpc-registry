@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5/container.yaml"
-updated_at: "2024-07-16 03:16:04.863160"
+updated_at: "2024-07-17 03:16:39.548386"
 latest: "3.10.0--r40_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "3.7.0--r36_2"
  - "3.10.0--r40_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5", "latest": {"3.10.0--r40_1": "sha256:4de2a51e9601480dbe6466830af814c880097034a6c8764e88d6018980d55934"}, "tags": {"3.7.0--r36_2": "sha256:24b8345c4612caab3a70ced22ab10e5dd14cf01aa3f7b13b5c7c5d1b39e88b2a", "3.10.0--r40_1": "sha256:4de2a51e9601480dbe6466830af814c880097034a6c8764e88d6018980d55934"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5", "latest": {"3.10.0--r40_1": "sha256:4de2a51e9601480dbe6466830af814c880097034a6c8764e88d6018980d55934"}, "tags": {"3.7.0--r36_2": "sha256:02192e5f3423f9cd60a0cd1d50fc77521d17ac825ee0e61c1fb9005c7135a521", "3.10.0--r40_1": "sha256:4de2a51e9601480dbe6466830af814c880097034a6c8764e88d6018980d55934"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5.

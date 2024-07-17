@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-esetvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-esetvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-esetvis/container.yaml"
-updated_at: "2024-07-16 02:58:31.663734"
+updated_at: "2024-07-17 02:58:39.551522"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-esetvis"
 aliases:
