@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-sc3-scripts
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sc3-scripts
 latest:
-  0.0.3--r351_0: sha256:23e6f1d60732834065ef63c598cf687a2db0e538d44f79c6331e0310119cb54a
+  0.0.3--r351_0: sha256:1d18f5cc10ed6914d19be5395f0f97382a6bc819117dd34812de2b7375efdc4a
 tags:
-  0.0.3--r351_0: sha256:23e6f1d60732834065ef63c598cf687a2db0e538d44f79c6331e0310119cb54a
+  0.0.3--r351_0: sha256:1d18f5cc10ed6914d19be5395f0f97382a6bc819117dd34812de2b7375efdc4a
 docker: quay.io/biocontainers/bioconductor-sc3-scripts
 aliases:
   bioconductor-sc3-scripts-post-install-tests.bats: /usr/local/bin/bioconductor-sc3-scripts-post-install-tests.bats

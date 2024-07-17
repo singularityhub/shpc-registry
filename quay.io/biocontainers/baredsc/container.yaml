@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for baredsc
 latest:
   1.1.3--pyhdfd78af_0: sha256:47eb4534c9b41abf8ba7089167c3c55af0ded5f28183db4f8b846e2e485562be
 tags:
-  1.1.1--pyhdfd78af_0: sha256:1b8791cad29c68a421c6fe8ef0df24ba02bd14d871c8e8e2e0576814bc91894e
+  1.1.1--pyhdfd78af_0: sha256:7c68e8bc91e75aab98e1d869807c9940fac36eabede9240b1b33fb5d11345967
   1.1.2--pyhdfd78af_0: sha256:a03c2697b335154c3327fa9cea97acbf17913151e296adbe6cd886695cc23a2f
   1.1.3--pyhdfd78af_0: sha256:47eb4534c9b41abf8ba7089167c3c55af0ded5f28183db4f8b846e2e485562be
 docker: quay.io/biocontainers/baredsc

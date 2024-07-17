@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/abeona
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for abeona
 latest:
-  0.45.0--py_1: sha256:c7d257933b7ee0df7763c50abc32ebf548caa1596a61cd96a34af634054eee5c
+  0.45.0--py_1: sha256:92d871b719db0051914b368484811e2ea2eb47c71a6c16c9a510ae5fc610268a
 tags:
-  0.45.0--py_1: sha256:c7d257933b7ee0df7763c50abc32ebf548caa1596a61cd96a34af634054eee5c
+  0.45.0--py_1: sha256:92d871b719db0051914b368484811e2ea2eb47c71a6c16c9a510ae5fc610268a
 docker: quay.io/biocontainers/abeona
 aliases:
   abeona: /usr/local/bin/abeona

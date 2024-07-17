@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-splancs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-splancs
 latest:
-  2.01_38--r3.3.2_0: sha256:9e4b3d5f1e47b98c977fbc3a5f05855702b7d37ddb908251bc54310c3588c19b
+  2.01_38--r3.3.2_0: sha256:8c62a89f78f9288ccac77ea4227ac7166392d33fd47ac6676273982ffbbeb687
 tags:
-  2.01_38--r3.3.2_0: sha256:9e4b3d5f1e47b98c977fbc3a5f05855702b7d37ddb908251bc54310c3588c19b
+  2.01_38--r3.3.2_0: sha256:8c62a89f78f9288ccac77ea4227ac7166392d33fd47ac6676273982ffbbeb687
+  2.01_38--r3.2.2_0: sha256:cd7bcfb85c4d0fbd7dc744f636dc6e372a680fdc4beeecadfcd8b86b53f2d26e
 docker: quay.io/biocontainers/r-splancs
 aliases:
   uconv: /usr/local/bin/uconv

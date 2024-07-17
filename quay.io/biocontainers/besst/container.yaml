@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/besst
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for besst
 latest:
-  2.2.8--py_3: sha256:8bc0e817847371a7cbc49dcc9780a94476131f659e4e4b30fec5c054dbe23b23
+  2.2.8--py_3: sha256:167b4d70cf83e5a593d68721326924e44bda3a97c4f7e8733f54d9f5ac4f9c16
 tags:
-  2.2.8--py_3: sha256:8bc0e817847371a7cbc49dcc9780a94476131f659e4e4b30fec5c054dbe23b23
+  2.2.8--py_3: sha256:167b4d70cf83e5a593d68721326924e44bda3a97c4f7e8733f54d9f5ac4f9c16
 docker: quay.io/biocontainers/besst
 aliases:
   reads_to_ctg_map.py: /usr/local/bin/reads_to_ctg_map.py

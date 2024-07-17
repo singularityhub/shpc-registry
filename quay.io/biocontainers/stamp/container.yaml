@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/stamp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for stamp
 latest:
-  2.1.3--py_2: sha256:5d810f59eb45a000171bf6894c84774982ddce8f84e094aff1a47c7ab1dc7453
+  2.1.3--py_2: sha256:91fc5d90b408d402c45db986a6c99951623d28843e9a3c6e3153878d019c7b8e
 tags:
-  2.1.3--py_2: sha256:5d810f59eb45a000171bf6894c84774982ddce8f84e094aff1a47c7ab1dc7453
+  2.1.3--py_2: sha256:91fc5d90b408d402c45db986a6c99951623d28843e9a3c6e3153878d019c7b8e
 docker: quay.io/biocontainers/stamp
 aliases:
   STAMP: /usr/local/bin/STAMP

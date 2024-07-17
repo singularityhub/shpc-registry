@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/odgi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for odgi
 latest:
-  0.8.6--py310hdf79db3_1: sha256:804005aa667f63e043587347687358588b6e81c7c221f8d60d6c526e1df1b849
+  0.8.6--py312hc60241a_2: sha256:b8aa75b92ee750d026500f2110dcc677fea5a22bd19645b24f54f7089a562cf3
 tags:
   v0.3--py36h8b12597_0: sha256:1c2f5509378972e116f35ec672feea0cfaf9b940f4feef807235dd91975f9f7d
   0.7.2--py39h2add14b_1: sha256:b5c38e28fb36084a52e311e642cdf6c8c10a515211bb19ceecb17ffb0437ed44
@@ -15,6 +15,7 @@ tags:
   0.4.1--py38h8e3bb3f_1: sha256:c109c4d5c30df735c15a0d45533795f105507af83297e09c03bfda3ee5c194c4
   0.3--py38h8162308_1: sha256:e4d081044909db90bc3c3eacc0e734c415a07469783727bb3a3e09bf822e5550
   0.8.6--py310hdf79db3_1: sha256:804005aa667f63e043587347687358588b6e81c7c221f8d60d6c526e1df1b849
+  0.8.6--py312hc60241a_2: sha256:b8aa75b92ee750d026500f2110dcc677fea5a22bd19645b24f54f7089a562cf3
 docker: quay.io/biocontainers/odgi
 aliases:
   odgi: /usr/local/bin/odgi

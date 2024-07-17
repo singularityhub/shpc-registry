@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/moreutils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for moreutils
 latest:
-  0.5.7--1: sha256:fb0a5a65075ddd9ffc427669c776f3547ee866f47476e99de8a3fa503da49abc
+  0.5.7--1: sha256:ac489c0f88e565d5af6896f556b912155df385d9c949307abb14270201ae0dbf
 tags:
-  0.5.7--1: sha256:fb0a5a65075ddd9ffc427669c776f3547ee866f47476e99de8a3fa503da49abc
+  0.5.7--1: sha256:ac489c0f88e565d5af6896f556b912155df385d9c949307abb14270201ae0dbf
 docker: quay.io/biocontainers/moreutils
 aliases:
   chronic: /usr/local/bin/chronic

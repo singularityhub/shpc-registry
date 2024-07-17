@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/samsift
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for samsift
 latest:
-  0.2.5--py_3: sha256:30cbaad99fcb57d9618bc764e71573dfbf3cd4d431d9622d0aec170ac26f2c54
+  0.2.5--py_3: sha256:8a653062e62faec4b745c1855ac8fd823a5a45714bb8303db8f20455f481e833
 tags:
-  0.2.5--py_3: sha256:30cbaad99fcb57d9618bc764e71573dfbf3cd4d431d9622d0aec170ac26f2c54
+  0.2.5--py_3: sha256:8a653062e62faec4b745c1855ac8fd823a5a45714bb8303db8f20455f481e833
 docker: quay.io/biocontainers/samsift
 aliases:
   samsift: /usr/local/bin/samsift

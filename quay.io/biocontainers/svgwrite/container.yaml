@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/svgwrite
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for svgwrite
 latest:
-  1.1.6--py36_0: sha256:6e28a96918cfbd71b769f78d3eef3d0962b3f17d8bf59c6a8b3c31f0c2d97705
+  1.1.6--py36_0: sha256:d2ebdae3e86288c16674c5d980b22b56e89e98c0d51924a0d0f710ceaa5efad0
 tags:
-  1.1.6--py36_0: sha256:6e28a96918cfbd71b769f78d3eef3d0962b3f17d8bf59c6a8b3c31f0c2d97705
+  1.1.6--py36_0: sha256:d2ebdae3e86288c16674c5d980b22b56e89e98c0d51924a0d0f710ceaa5efad0
+  1.1.6--py35_0: sha256:3f28e4c15469ecb906ce6e9e7ce7fa9b490fc15dbf82da026a4ccb024ac9b8e0
 docker: quay.io/biocontainers/svgwrite
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

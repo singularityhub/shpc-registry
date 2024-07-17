@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/ruamel.ordereddict
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ruamel.ordereddict
 latest:
-  0.4.6--py27_0: sha256:ba9d519b3b331dee0b24842bdab5dc0e41743b815f0d47b877c0a4b2b8b20f5d
+  0.4.6--py27_0: sha256:cfdc715fb002d76543bf49d00ad7a83c85b5497d391786359458e1cf3c0ee0c5
 tags:
-  0.4.6--py27_0: sha256:ba9d519b3b331dee0b24842bdab5dc0e41743b815f0d47b877c0a4b2b8b20f5d
+  0.4.6--py27_0: sha256:cfdc715fb002d76543bf49d00ad7a83c85b5497d391786359458e1cf3c0ee0c5
 docker: quay.io/biocontainers/ruamel.ordereddict
 aliases:
   smtpd.pyc: /usr/local/bin/smtpd.pyc

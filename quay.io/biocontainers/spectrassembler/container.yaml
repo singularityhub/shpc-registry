@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/spectrassembler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for spectrassembler
 latest:
-  0.0.1a1--py_4: sha256:be47b95d8cbd68a41537fbc23b25a216e0b698b3a30482403ad8cd5a7975cdeb
+  0.0.1a1--py_4: sha256:b6a615793090b6654fb3f5b52453f0c8476fba7f672fd287c6de9012807288ca
 tags:
-  0.0.1a1--py_4: sha256:be47b95d8cbd68a41537fbc23b25a216e0b698b3a30482403ad8cd5a7975cdeb
+  0.0.1a1--py_4: sha256:b6a615793090b6654fb3f5b52453f0c8476fba7f672fd287c6de9012807288ca
 docker: quay.io/biocontainers/spectrassembler
 aliases:
   gen_cons_from_poa.py: /usr/local/bin/gen_cons_from_poa.py

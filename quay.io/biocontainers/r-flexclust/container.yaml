@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-flexclust
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-flexclust
 latest:
-  1.3_4--r3.3.2_0: sha256:7d3af70158de17b3a246a0f2c73a3296af8e9a28807b4c8d62c8173e927fdd9d
+  1.3_4--r3.3.2_0: sha256:3ea11b891d300a38e413d1411ffae9740ca445377762ef623b1bb315d6112805
 tags:
-  1.3_4--r3.3.2_0: sha256:7d3af70158de17b3a246a0f2c73a3296af8e9a28807b4c8d62c8173e927fdd9d
+  1.3_4--r3.3.2_0: sha256:3ea11b891d300a38e413d1411ffae9740ca445377762ef623b1bb315d6112805
 docker: quay.io/biocontainers/r-flexclust
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

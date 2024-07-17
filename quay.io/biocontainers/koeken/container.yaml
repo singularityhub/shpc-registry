@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/koeken
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for koeken
 latest:
-  0.2.6--py27h24bf2e0_1: sha256:36c9287e35f534e18a22659185a0c304ffb8609a48c8ddedad5a3669e9566702
+  0.2.6--py27h24bf2e0_1: sha256:8c301df8e169cd16672d24d32f33c9ba6900c2e4cbdfb995012ded0531643f04
 tags:
-  0.2.6--py27h24bf2e0_1: sha256:36c9287e35f534e18a22659185a0c304ffb8609a48c8ddedad5a3669e9566702
+  0.2.6--py27h24bf2e0_1: sha256:8c301df8e169cd16672d24d32f33c9ba6900c2e4cbdfb995012ded0531643f04
 docker: quay.io/biocontainers/koeken
 aliases:
   add_alpha_to_mapping_file.py: /usr/local/bin/add_alpha_to_mapping_file.py

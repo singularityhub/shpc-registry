@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-rnexml
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rnexml
 latest:
-  2.4.0--r36h6115d3f_0: sha256:ea3a94e57d16abd4078e28c44dc2032eb0c66f244bb0abfc1265fd6d397acab1
+  2.4.0--r36h6115d3f_0: sha256:c08cd45389d75278d426431ec5dca87aa01019c841b768e62325a641cd4ae5dc
 tags:
-  2.4.0--r36h6115d3f_0: sha256:ea3a94e57d16abd4078e28c44dc2032eb0c66f244bb0abfc1265fd6d397acab1
+  2.4.0--r36h6115d3f_0: sha256:c08cd45389d75278d426431ec5dca87aa01019c841b768e62325a641cd4ae5dc
 docker: quay.io/biocontainers/r-rnexml
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

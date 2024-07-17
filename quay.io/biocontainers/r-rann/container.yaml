@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-rann
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rann
 latest:
-  2.5--r3.3.2_0: sha256:19aca0eadd02be9388aed948a7facdc6ab5c94b334b1e6dfd24043d99c2f8279
+  2.5--r3.3.2_0: sha256:f36dc8f2241448413d6c4aead5c7dff4099ad18bbf4859dcc5f985218cfec830
 tags:
-  2.5--r3.3.2_0: sha256:19aca0eadd02be9388aed948a7facdc6ab5c94b334b1e6dfd24043d99c2f8279
+  2.5--r3.3.2_0: sha256:f36dc8f2241448413d6c4aead5c7dff4099ad18bbf4859dcc5f985218cfec830
+  2.5--r3.3.1_0: sha256:f989224ad915fa93190bebaf017dbc23d76e4239ad6e8fa1b3aca72b7b381daa
 docker: quay.io/biocontainers/r-rann
 aliases:
   uconv: /usr/local/bin/uconv

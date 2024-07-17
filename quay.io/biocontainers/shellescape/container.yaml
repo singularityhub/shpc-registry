@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/shellescape
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for shellescape
 latest:
-  3.4.1--py_1: sha256:efc7043d0bc8bdd2712e2b56231cc45479fe97230e612b134254861a1bb7ef19
+  3.4.1--py_1: sha256:e6bd98bb664492d6185e74660363274a51b793f5af1f41b90c29ba12ef99b29f
 tags:
-  3.4.1--py_1: sha256:efc7043d0bc8bdd2712e2b56231cc45479fe97230e612b134254861a1bb7ef19
+  3.4.1--py_1: sha256:e6bd98bb664492d6185e74660363274a51b793f5af1f41b90c29ba12ef99b29f
 docker: quay.io/biocontainers/shellescape
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

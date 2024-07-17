@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-solarius
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-solarius
 latest:
-  0.3.0.2--r3.4.1_0: sha256:073085b83265a2e18d391d1b2ca3a8abf491e62f1dd1a6f70ae3d7da12fe794e
+  0.3.0.2--r3.4.1_0: sha256:73868fe725dd688245220a6d6e20c87f4e9f4a77f31d0e36c500c0afe8557025
 tags:
-  0.3.0.2--r3.4.1_0: sha256:073085b83265a2e18d391d1b2ca3a8abf491e62f1dd1a6f70ae3d7da12fe794e
+  0.3.0.2--r3.4.1_0: sha256:73868fe725dd688245220a6d6e20c87f4e9f4a77f31d0e36c500c0afe8557025
+  0.3.0.2--r3.2.2_0: sha256:d59006c3da0b2dc542517b3558b4962c875498b9d11c34b6de78fa37ce24c3b6
 docker: quay.io/biocontainers/r-solarius
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

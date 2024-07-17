@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/abruijn
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for abruijn
 latest:
-  2.1b--py27_0: sha256:dc49e7814ef55343174c488386507f786d79670b4257b08d1fa66c0c8157b262
+  2.1b--py27_0: sha256:e26125041cfec0320c5207d0b1e533f979f03f1733840ce1ace93de12bed9612
 tags:
-  2.1b--py27_0: sha256:dc49e7814ef55343174c488386507f786d79670b4257b08d1fa66c0c8157b262
+  2.1b--py27_0: sha256:e26125041cfec0320c5207d0b1e533f979f03f1733840ce1ace93de12bed9612
 docker: quay.io/biocontainers/abruijn
 aliases:
   abruijn: /usr/local/bin/abruijn

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-locfdr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-locfdr
 latest:
-  1.1_8--r3.3.1_0: sha256:796398bddf68722ddaba0c9084f10f2185832f873b2b34edfc15aa049ee90e20
+  1.1_8--r3.3.1_0: sha256:006c4461b5a0648970d8b48eb8b10bd0f637a014de5942ba7923014fee98efca
 tags:
-  1.1_8--r3.3.1_0: sha256:796398bddf68722ddaba0c9084f10f2185832f873b2b34edfc15aa049ee90e20
+  1.1_8--r3.3.1_0: sha256:006c4461b5a0648970d8b48eb8b10bd0f637a014de5942ba7923014fee98efca
 docker: quay.io/biocontainers/r-locfdr
 aliases:
   uconv: /usr/local/bin/uconv

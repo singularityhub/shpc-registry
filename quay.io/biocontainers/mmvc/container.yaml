@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/mmvc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mmvc
 latest:
-  1.0.2--1: sha256:147e94ea6a711dbf28ceb9d197f3de4e767fc64ad51daa3358400c90e510b8fd
+  1.0.2--1: sha256:20f3a9e8337413c2eaeb2c129b6a007711a0e83ffb1e45c37a9c70134470d4ea
 tags:
-  1.0.2--1: sha256:147e94ea6a711dbf28ceb9d197f3de4e767fc64ad51daa3358400c90e510b8fd
+  1.0.2--1: sha256:20f3a9e8337413c2eaeb2c129b6a007711a0e83ffb1e45c37a9c70134470d4ea
 docker: quay.io/biocontainers/mmvc
 aliases:
   julia: /usr/local/bin/julia

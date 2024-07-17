@@ -4,10 +4,10 @@ description: shpc-registry automated BioContainers addition for bioconductor-txd
 latest:
   3.12.0--r43hdfd78af_7: sha256:f1c0997620230d4d9a1f0be66ec7dd0675e31fed42a498827e97bab1df76981f
 tags:
-  3.4.6--r36_1: sha256:002682ecf9565d754b22f577b5afd56fbcc98678addadd1b3fff232250a4149e
+  3.4.6--r36_1: sha256:650d3fda1744e55bca3a8935c8ef337d10d1b134f55d1f9c5fae629258a229c2
   3.12.0--r42hdfd78af_5: sha256:b6c6e600c69b309d5ad60ed26c732424788abea5566d4011db9675876bac1926
   3.11.0--r40_0: sha256:2df266683df2d8d766d0d36bcd96a4e77a228934d7e616e55aba6204b0c8eb7d
-  3.10.0--r36_0: sha256:30e7f834f6d024fbbae90e90882853bd08e107318c38d4ed37342caf10d7239f
+  3.10.0--r36_0: sha256:ab83ac097c184f7689cb08bafbeba8205fb1f41992b9287e84f8636d5390afab
   3.12.0--r43hdfd78af_6: sha256:c5e72a60e9e31aff05f2f74f588af4c8927914a0bc21659596e9e929045e9a9b
   3.12.0--r43hdfd78af_7: sha256:f1c0997620230d4d9a1f0be66ec7dd0675e31fed42a498827e97bab1df76981f
 docker: quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau8.refgene

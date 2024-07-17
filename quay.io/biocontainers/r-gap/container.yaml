@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-gap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-gap
 latest:
-  1.2.1--r36h9bbef5b_1: sha256:eda3a79987adac132d7a4214bddf6a00eab5bfe8285e26a7fdd8928acd0649e8
+  1.2.1--r36h9bbef5b_1: sha256:87fdbb1556ceb3023c4511f346408fdb33060506d8192ebf67fc8ca20a564c13
 tags:
-  1.2.1--r36h9bbef5b_1: sha256:eda3a79987adac132d7a4214bddf6a00eab5bfe8285e26a7fdd8928acd0649e8
+  1.2.1--r36h9bbef5b_1: sha256:87fdbb1556ceb3023c4511f346408fdb33060506d8192ebf67fc8ca20a564c13
 docker: quay.io/biocontainers/r-gap
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

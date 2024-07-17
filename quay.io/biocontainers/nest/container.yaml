@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/nest
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nest
 latest:
-  2.14.0--py35h060fc9d_3: sha256:bae81c155f6a149235785483fbd9b25a699958dec71dee65b234fb59cd3759a2
+  2.14.0--py35h060fc9d_3: sha256:2060e95b6445bb726e8828482f04f74f6b0e2646ebd5998e26df55552f8f9a9a
 tags:
-  2.14.0--py35h060fc9d_3: sha256:bae81c155f6a149235785483fbd9b25a699958dec71dee65b234fb59cd3759a2
-  2.14.0--py27h060fc9d_3: sha256:f895a7721504fadbf612f5f8622c0e8fd04b16077bd67916cdef53d3784bed58
+  2.14.0--py35h060fc9d_3: sha256:2060e95b6445bb726e8828482f04f74f6b0e2646ebd5998e26df55552f8f9a9a
+  2.14.0--py27h060fc9d_3: sha256:dbdab9cd07feb4e90458a306182e3412877ba2d588ac94e7f2fd998c698a52b3
 docker: quay.io/biocontainers/nest

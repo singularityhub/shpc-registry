@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/functools32
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for functools32
 latest:
-  3.2.3.2--py27_0: sha256:da32a976c2fea6685e2fe8126fc94c6501cb1c241ad6d094f79663994da76fec
+  3.2.3.2--py27_0: sha256:f70394daa3d61914d510821a8410baeb33ad5112db2e896b41bd738e58ab2f2b
 tags:
-  3.2.3.2--py27_0: sha256:da32a976c2fea6685e2fe8126fc94c6501cb1c241ad6d094f79663994da76fec
+  3.2.3.2--py27_0: sha256:f70394daa3d61914d510821a8410baeb33ad5112db2e896b41bd738e58ab2f2b
 docker: quay.io/biocontainers/functools32
 aliases:
   smtpd.pyc: /usr/local/bin/smtpd.pyc

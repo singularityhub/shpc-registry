@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for libstatgen
 latest:
   1.0.15--hdcf5f25_5: sha256:4dd8cba1cb201d5e8a4db186d9188a744bb238760b9693fec602d6e866a10302
 tags:
-  1.0.5--he941832_0: sha256:545f1c5acc46fcde107494c96fa1f2b25e678ab3a5183d97167810c225fe609a
+  1.0.5--he941832_0: sha256:b8991bec0376d04e468da4cdcc916c39b580bf621cc3a3d68a1199a481c62004
   1.0.15--hd03093a_3: sha256:c7edf3325763c7a5171120fe6179a7e3316eaf16836a1ac5c7ba8d1451dcb7e4
   1.0.15--hdcf5f25_5: sha256:4dd8cba1cb201d5e8a4db186d9188a744bb238760b9693fec602d6e866a10302
 docker: quay.io/biocontainers/libstatgen

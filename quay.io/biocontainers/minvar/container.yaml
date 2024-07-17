@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/minvar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for minvar
 latest:
-  2.2.2--py_1: sha256:7f4f5a62c61849700a6e8c4cd81964f8ec7c5192cd649b3e905f362218c3e1b9
+  2.2.2--py_1: sha256:4eb9856486128a4e3f9006a76789121489636ad44542c1bfc22df7a9db6ba525
 tags:
-  2.2.2--py_1: sha256:7f4f5a62c61849700a6e8c4cd81964f8ec7c5192cd649b3e905f362218c3e1b9
+  2.2.2--py_1: sha256:4eb9856486128a4e3f9006a76789121489636ad44542c1bfc22df7a9db6ba525
 docker: quay.io/biocontainers/minvar
 aliases:
   _gdlib-config: /usr/local/bin/_gdlib-config

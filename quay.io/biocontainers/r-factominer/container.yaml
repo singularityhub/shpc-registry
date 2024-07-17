@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-factominer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-factominer
 latest:
-  1.38--r3.4.1_0: sha256:ede134ec5ad35a1d310ba4a4743bc01432728072fdf389b3a5eb1aaa7905f706
+  1.38--r3.4.1_0: sha256:0336eab740614bc96d1986007f244172c67e9b5b713cf42afc0f4707b732a63d
 tags:
-  1.38--r3.4.1_0: sha256:ede134ec5ad35a1d310ba4a4743bc01432728072fdf389b3a5eb1aaa7905f706
+  1.38--r3.4.1_0: sha256:0336eab740614bc96d1986007f244172c67e9b5b713cf42afc0f4707b732a63d
 docker: quay.io/biocontainers/r-factominer
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

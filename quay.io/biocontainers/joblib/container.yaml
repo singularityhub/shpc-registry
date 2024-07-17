@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/joblib
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for joblib
 latest:
-  0.9.3--py36_0: sha256:84ad4b4a67c45e5ef0f07c8dc18cd46db7bcac137fbc8563908dd33c05faaa17
+  0.9.3--py36_0: sha256:86477667c102e0f45808e7800e66c9f511bcff7bb6d667d43aa520da38999c92
 tags:
-  0.9.3--py36_0: sha256:84ad4b4a67c45e5ef0f07c8dc18cd46db7bcac137fbc8563908dd33c05faaa17
+  0.9.3--py36_0: sha256:86477667c102e0f45808e7800e66c9f511bcff7bb6d667d43aa520da38999c92
 docker: quay.io/biocontainers/joblib
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

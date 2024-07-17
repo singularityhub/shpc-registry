@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-shinybs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-shinybs
 latest:
-  0.25.0--r341h470a237_0: sha256:7696c5e0d7d7e7c29589104c2975fc81bd966f327d8199537ff98616fc7dd6ba
+  0.25.0--r341h470a237_0: sha256:030ee12b7da696b4fda2056e8e8dd9723af3f0bf8fb6779defa43832be52faa0
 tags:
-  0.25.0--r341h470a237_0: sha256:7696c5e0d7d7e7c29589104c2975fc81bd966f327d8199537ff98616fc7dd6ba
-  0.25.0--r351h470a237_0: sha256:10f4be2fa62de1e0664357f9ef44fbfb7994d0b7513e5320945e8adbb3e209dc
+  0.25.0--r341h470a237_0: sha256:030ee12b7da696b4fda2056e8e8dd9723af3f0bf8fb6779defa43832be52faa0
+  0.25.0--r351h470a237_0: sha256:622bdfc737d6634d0ac3595eee0c7c2b690cc26c3410e89eafe5cd85f9e3ea18
 docker: quay.io/biocontainers/r-shinybs
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

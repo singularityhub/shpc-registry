@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-trimcluster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-trimcluster
 latest:
-  0.1_2--r3.3.2_0: sha256:5aa89368aad53fc6cc8095379b2c8c67887eddd5c0d38359be08643f7c6e300c
+  0.1_2--r3.3.2_0: sha256:bc4915324c266dd03b8558f714d5503948b4458af2929acf685af59d64514d7f
 tags:
-  0.1_2--r3.3.2_0: sha256:5aa89368aad53fc6cc8095379b2c8c67887eddd5c0d38359be08643f7c6e300c
+  0.1_2--r3.3.2_0: sha256:bc4915324c266dd03b8558f714d5503948b4458af2929acf685af59d64514d7f
 docker: quay.io/biocontainers/r-trimcluster
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff
