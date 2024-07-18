@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/catfasta2phyml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/catfasta2phyml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/catfasta2phyml/container.yaml"
-updated_at: "2024-07-18 02:58:20.309502"
+updated_at: "2024-07-18 04:23:48.673462"
 latest: "1.2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/catfasta2phyml"
 aliases:

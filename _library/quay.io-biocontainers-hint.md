@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hint/container.yaml"
-updated_at: "2024-07-18 03:06:37.302815"
+updated_at: "2024-07-18 04:31:59.549044"
 latest: "2.2.8--py_1"
 container_url: "https://biocontainers.pro/tools/hint"
 

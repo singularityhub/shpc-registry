@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/czlab_perl_lib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/czlab_perl_lib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/czlab_perl_lib/container.yaml"
-updated_at: "2024-07-18 02:37:50.883562"
+updated_at: "2024-07-18 04:03:33.241734"
 latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/czlab_perl_lib"
 aliases:

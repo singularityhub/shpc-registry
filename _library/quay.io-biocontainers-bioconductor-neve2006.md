@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-neve2006"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-neve2006/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-neve2006/container.yaml"
-updated_at: "2024-07-18 03:10:23.605100"
+updated_at: "2024-07-18 04:35:38.165487"
 latest: "0.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-neve2006"
 

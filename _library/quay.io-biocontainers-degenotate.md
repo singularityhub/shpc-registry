@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/degenotate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/degenotate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/degenotate/container.yaml"
-updated_at: "2024-07-18 02:39:05.262314"
+updated_at: "2024-07-18 04:04:46.861620"
 latest: "1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/degenotate"
 aliases:

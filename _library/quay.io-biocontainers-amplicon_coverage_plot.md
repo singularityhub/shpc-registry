@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amplicon_coverage_plot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amplicon_coverage_plot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amplicon_coverage_plot/container.yaml"
-updated_at: "2024-07-18 02:59:52.020530"
+updated_at: "2024-07-18 04:25:19.113633"
 latest: "0.3.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/amplicon_coverage_plot"
 aliases:

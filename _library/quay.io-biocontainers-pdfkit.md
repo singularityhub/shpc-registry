@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pdfkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pdfkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pdfkit/container.yaml"
-updated_at: "2024-07-18 03:10:33.599428"
+updated_at: "2024-07-18 04:35:47.970880"
 latest: "0.6.1--py36_0"
 container_url: "https://biocontainers.pro/tools/pdfkit"
 aliases:

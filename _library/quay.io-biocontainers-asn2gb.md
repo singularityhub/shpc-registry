@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/asn2gb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/asn2gb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/asn2gb/container.yaml"
-updated_at: "2024-07-18 03:15:33.312430"
+updated_at: "2024-07-18 04:40:43.157496"
 latest: "18.2--h9ee0642_3"
 container_url: "https://biocontainers.pro/tools/asn2gb"
 aliases:
