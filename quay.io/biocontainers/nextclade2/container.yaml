@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/nextclade2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nextclade2
 latest:
-  2.14.0--h9ee0642_0: sha256:b5d55973974b19bf991e450d49459538af8007a8051e1016b7f07c99731aff1c
+  2.14.0--h9ee0642_2: sha256:749e40e73d21fb994db551a49bfe1954844325f9acf61e7c78e3160308d7cee5
 tags:
   2.14.0--h9ee0642_0: sha256:b5d55973974b19bf991e450d49459538af8007a8051e1016b7f07c99731aff1c
+  2.14.0--h9ee0642_2: sha256:749e40e73d21fb994db551a49bfe1954844325f9acf61e7c78e3160308d7cee5
 docker: quay.io/biocontainers/nextclade2
 aliases:
   nextclade2: /usr/local/bin/nextclade2

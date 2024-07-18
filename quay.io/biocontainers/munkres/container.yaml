@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/munkres
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for munkres
 latest:
-  1.0.7--py_1: sha256:20e0559b6ac94e005a09ff9a384ee74859bd7f0f590568a033b9f79407811c18
+  1.0.7--py_1: sha256:1af68b4614b6467e5ad5ca9a8d551f2d5574e38f22b2a94448b9b4e6e8549758
 tags:
-  1.0.7--py_1: sha256:20e0559b6ac94e005a09ff9a384ee74859bd7f0f590568a033b9f79407811c18
+  1.0.7--py_1: sha256:1af68b4614b6467e5ad5ca9a8d551f2d5574e38f22b2a94448b9b4e6e8549758
 docker: quay.io/biocontainers/munkres
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

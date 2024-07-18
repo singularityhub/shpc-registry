@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/shapemapper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for shapemapper
 latest:
-  1.2--py27h470a237_1: sha256:32365eeed2cc737efe8b8ea51ca59f4ce28d665b76f9d9cc685c14088a4a4d8f
+  1.2--py27h470a237_1: sha256:86c0197bc76dbea2821d0b3b75735d91975fb4276a9331a9be376f6907cc3763
 tags:
-  1.2--py27h470a237_1: sha256:32365eeed2cc737efe8b8ea51ca59f4ce28d665b76f9d9cc685c14088a4a4d8f
+  1.2--py27h470a237_1: sha256:86c0197bc76dbea2821d0b3b75735d91975fb4276a9331a9be376f6907cc3763
 docker: quay.io/biocontainers/shapemapper
 aliases:
   AccessFold: /usr/local/bin/AccessFold

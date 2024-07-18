@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-hash-util-fieldhash-compat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-hash-util-fieldhash-compat
 latest:
-  0.11--pl526_2: sha256:9d631e1cf5f97def17a1ad0e3aecbfc6a26c1cf9cf960ff0a16007bb51029c0c
+  0.11--pl526_2: sha256:983b232569c1ab4544fa2b510f252803cea6e23b3ade1bd05f72667225806ad0
 tags:
-  0.11--pl526_2: sha256:9d631e1cf5f97def17a1ad0e3aecbfc6a26c1cf9cf960ff0a16007bb51029c0c
+  0.11--pl526_2: sha256:983b232569c1ab4544fa2b510f252803cea6e23b3ade1bd05f72667225806ad0
 docker: quay.io/biocontainers/perl-hash-util-fieldhash-compat
 aliases:
   perl5.26.2: /usr/local/bin/perl5.26.2

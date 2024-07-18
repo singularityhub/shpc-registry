@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-precrec
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-precrec
 latest:
-  0.9.1--r3.4.1_0: sha256:cc1ffa47b8ce49be33767eba141a5294e76305ce20f324560ebee94ffdb7375c
+  0.9.1--r3.4.1_0: sha256:f96a8843abc9d8c59db189caca31dbb44e8109021d3aadc43ccf81b0c0d1755b
 tags:
-  0.9.1--r3.4.1_0: sha256:cc1ffa47b8ce49be33767eba141a5294e76305ce20f324560ebee94ffdb7375c
+  0.9.1--r3.4.1_0: sha256:f96a8843abc9d8c59db189caca31dbb44e8109021d3aadc43ccf81b0c0d1755b
 docker: quay.io/biocontainers/r-precrec
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

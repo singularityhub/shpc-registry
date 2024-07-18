@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/escher
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for escher
 latest:
-  1.7.3--py_0: sha256:cb2eb2367c819563bbb1e4942bfd14fde7bd13a4172f43f3b47f9aa685829fa2
+  1.7.3--py_0: sha256:2801d97e6f584fac19bdbaf109e9aea1187a8f33415f1147ab53bf58ada62c77
 tags:
-  1.7.3--py_0: sha256:cb2eb2367c819563bbb1e4942bfd14fde7bd13a4172f43f3b47f9aa685829fa2
+  1.7.3--py_0: sha256:2801d97e6f584fac19bdbaf109e9aea1187a8f33415f1147ab53bf58ada62c77
 docker: quay.io/biocontainers/escher
 aliases:
   ccache-swig: /usr/local/bin/ccache-swig

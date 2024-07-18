@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/colombo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for colombo
 latest:
-  v4.0--1: sha256:b09d49ad4fd507b68d998dd0a3e26759d816bfed69476a5760c888aa933ac698
+  v4.0--1: sha256:460733f347424caf305aa3e99f30a23f91c3786b8bfca0ebce4d89e51a73a097
 tags:
-  v4.0--1: sha256:b09d49ad4fd507b68d998dd0a3e26759d816bfed69476a5760c888aa933ac698
+  v4.0--1: sha256:460733f347424caf305aa3e99f30a23f91c3786b8bfca0ebce4d89e51a73a097
   4.0--hdfd78af_1: sha256:ba2bb61711d7a5e79f6a5fb98b69e815e6b0d5d097b3b17fcd1545ddaad9c293
 docker: quay.io/biocontainers/colombo
 aliases:

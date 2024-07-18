@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/sprai
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sprai
 latest:
-  0.9.9.23--py27pl5.22.0_0: sha256:88a77ad8f9d7d7b2873ea7a811a02cbbd00a10c4827bdf86da5b21c38401cd08
+  0.9.9.23--py27pl5.22.0_0: sha256:a8ba1a5665cb21608cd814c63e68f8893f12709d5f602b91f4f49ac82dce8082
 tags:
-  0.9.9.23--py27pl5.22.0_0: sha256:88a77ad8f9d7d7b2873ea7a811a02cbbd00a10c4827bdf86da5b21c38401cd08
+  0.9.9.23--py27pl5.22.0_0: sha256:a8ba1a5665cb21608cd814c63e68f8893f12709d5f602b91f4f49ac82dce8082
 docker: quay.io/biocontainers/sprai
 aliases:
   AtacDriver.py: /usr/local/bin/AtacDriver.py

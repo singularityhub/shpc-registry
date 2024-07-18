@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/jpredapi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for jpredapi
 latest:
-  1.5.6--py_0: sha256:13425d2e4f21a7421d086aee7dd75a7e9d4fdd0b32dd86362e7d73410f843ebe
+  1.5.6--py_0: sha256:9f439f785baa97071bbc9539a5de5f55b0f27c75eed73aeb894c2beefcee8256
 tags:
-  1.5.6--py_0: sha256:13425d2e4f21a7421d086aee7dd75a7e9d4fdd0b32dd86362e7d73410f843ebe
+  1.5.6--py_0: sha256:9f439f785baa97071bbc9539a5de5f55b0f27c75eed73aeb894c2beefcee8256
 docker: quay.io/biocontainers/jpredapi
 aliases:
   jpredapi: /usr/local/bin/jpredapi

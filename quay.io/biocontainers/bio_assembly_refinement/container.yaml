@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bio_assembly_refinement
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bio_assembly_refinement
 latest:
-  0.5.1--py_2: sha256:cecdd5aadb12c2c7f41a84e3fab2a34321989249ac303b7917b52f56124524dc
+  0.5.1--py_2: sha256:39175ca1fabbca7bcb3370e4e29a88fffc944954adfba137bbd6b02885a2f9c7
 tags:
-  0.5.1--py_2: sha256:cecdd5aadb12c2c7f41a84e3fab2a34321989249ac303b7917b52f56124524dc
+  0.5.1--py_2: sha256:39175ca1fabbca7bcb3370e4e29a88fffc944954adfba137bbd6b02885a2f9c7
 docker: quay.io/biocontainers/bio_assembly_refinement
 aliases:
   contig_break_finder: /usr/local/bin/contig_break_finder

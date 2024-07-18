@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/rdflib
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rdflib
 latest:
-  4.2.2--py36_0: sha256:81c10a629ea681cd88a3cfa08639f8ad0dc6b8cdbdb5c8705c018ce49be9bf55
+  4.2.2--py36_0: sha256:d960f7d82c6a75e2bb5e77cbbb796487ec99123af820c28cf9eb42063a4cd5a9
 tags:
-  4.2.2--py36_0: sha256:81c10a629ea681cd88a3cfa08639f8ad0dc6b8cdbdb5c8705c018ce49be9bf55
+  4.2.2--py36_0: sha256:d960f7d82c6a75e2bb5e77cbbb796487ec99123af820c28cf9eb42063a4cd5a9
+  4.2.2--py34_0: sha256:4e4c871e70a3e03ffecb739438a785c7224fd12e58032e63e99b2ea37055cfec
 docker: quay.io/biocontainers/rdflib

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/kiwidist
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kiwidist
 latest:
-  0.3.6--py_3: sha256:6519f0cbe8f73f5583a201f0bde3f173fb48362d8809506b2633de15b2b47fc2
+  0.3.6--py_3: sha256:51f4b5d1f04a1b5f488826966b198c99de043e01491bfc9205cda9dc4f49b478
 tags:
-  0.3.6--py_3: sha256:6519f0cbe8f73f5583a201f0bde3f173fb48362d8809506b2633de15b2b47fc2
+  0.3.6--py_3: sha256:51f4b5d1f04a1b5f488826966b198c99de043e01491bfc9205cda9dc4f49b478
 docker: quay.io/biocontainers/kiwidist
 aliases:
   assistant-qt4: /usr/local/bin/assistant-qt4

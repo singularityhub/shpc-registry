@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/argutils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for argutils
 latest:
-  0.3.2--py35_1: sha256:163143dc1e963f3981999d140cea30483ece91de7bf5a45eeb984625ca1ef762
+  0.3.2--py35_1: sha256:512049760069e0208055bf7689b3ce51a799ca06c819b8bb6b6688a75632f259
 tags:
-  0.3.2--py35_1: sha256:163143dc1e963f3981999d140cea30483ece91de7bf5a45eeb984625ca1ef762
-  0.3.2--py36_1: sha256:9a126ada6111307c7045885f4afd0e80f2060966bbe3269e5cba1d0ac7313abe
+  0.3.2--py35_1: sha256:512049760069e0208055bf7689b3ce51a799ca06c819b8bb6b6688a75632f259
+  0.3.2--py36_1: sha256:b017c06d4a5ad68aa7d0cc3dc66b1bf5c3e3ff1cbbf3a1dcd4b8d3bece9924a1
 docker: quay.io/biocontainers/argutils
 aliases:
   2to3-3.5: /usr/local/bin/2to3-3.5

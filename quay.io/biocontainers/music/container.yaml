@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/music
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for music
 latest:
-  1.0.0--h2d50403_2: sha256:2d027510d85133a2c36cf0a244e5fa6e8fe1ac610c789a24e032bdae6ba22560
+  1.0.0--h2d50403_2: sha256:ecaee7ea932081bde5284884138986d97b2c060eb015829c2449c6886663f5a4
 tags:
-  1.0.0--h2d50403_2: sha256:2d027510d85133a2c36cf0a244e5fa6e8fe1ac610c789a24e032bdae6ba22560
+  1.0.0--h2d50403_2: sha256:ecaee7ea932081bde5284884138986d97b2c060eb015829c2449c6886663f5a4
 docker: quay.io/biocontainers/music

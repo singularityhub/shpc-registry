@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-hpc-runner-mce
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-hpc-runner-mce
 latest:
-  2.41--0: sha256:30f8ea539c039ba13fef2c845de2c1f76a6d93ed5bf3f57149ee6483d08390d3
+  2.41--0: sha256:9f3647c6112ee69187c03cc18cf17d6a62756e1637686aa4540c2af7dfc0f2d4
 tags:
-  2.41--0: sha256:30f8ea539c039ba13fef2c845de2c1f76a6d93ed5bf3f57149ee6483d08390d3
+  2.41--0: sha256:9f3647c6112ee69187c03cc18cf17d6a62756e1637686aa4540c2af7dfc0f2d4
 docker: quay.io/biocontainers/perl-hpc-runner-mce
 aliases:
   mcerunner.pl: /usr/local/bin/mcerunner.pl

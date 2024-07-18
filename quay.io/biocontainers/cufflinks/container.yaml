@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/cufflinks
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cufflinks
 latest:
-  2.2.1--py36_2: sha256:28c24c8bc79ad89d7426dd724f0e317b306467656ad7e18a6e7c29d8f7d72dcd
+  2.2.1--py36_2: sha256:be910bfb779d48e4fdcad6a63885787c84a98db53df71b5fb9a281b9f968a055
 tags:
-  2.2.1--py36_2: sha256:28c24c8bc79ad89d7426dd724f0e317b306467656ad7e18a6e7c29d8f7d72dcd
-  2.2.1--py27_2: sha256:e3f7493b64c199020be27e76988985d999650b32b99b429cd613a9b3d44a3d9b
+  2.2.1--py36_2: sha256:be910bfb779d48e4fdcad6a63885787c84a98db53df71b5fb9a281b9f968a055
+  2.2.1--py27_2: sha256:1aa3f262e175a02be21c7d334e9e1a95302426ef98c835595d682da197503cc8
 docker: quay.io/biocontainers/cufflinks
 aliases:
   cuffcompare: /usr/local/bin/cuffcompare

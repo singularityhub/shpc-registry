@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-mafdb.gnomad.r2.0.1.grch38
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mafdb.gnomad.r2.0.1.grch38
 latest:
-  3.9.0--r36_1: sha256:7adf03f9a68207f161ae5f3b93eba6d9dba4bdc23fc178db630cbbc9ddfd67c3
+  3.9.0--r36_1: sha256:cf7c38dba848c8095728e06f150f3e4ae91c75d20eef36365ca098f9d3159003
 tags:
-  3.9.0--r36_1: sha256:7adf03f9a68207f161ae5f3b93eba6d9dba4bdc23fc178db630cbbc9ddfd67c3
+  3.9.0--r36_1: sha256:cf7c38dba848c8095728e06f150f3e4ae91c75d20eef36365ca098f9d3159003
 docker: quay.io/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.grch38
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

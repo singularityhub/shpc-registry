@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/t1k
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for t1k
 latest:
-  1.0.5--h43eeafb_0: sha256:bbb177e9057ca18f9c11e08ee12084dcfced0e57961df9a8033591f6331e67f4
+  1.0.6--h43eeafb_1: sha256:bbf59c9c43bf5edc19820b14c54eb3d298bf76cbb10e65a2627c24abca4f6232
 tags:
   1.0.1--h5b5514e_0: sha256:f93393f7a52b5149490a870137e8b37c33a9b17bb825efc58ac7168b88abc1f9
   1.0.2--h5b5514e_0: sha256:0567979515f974ec2849b5876e7c0b0163ff9863ea014e246c120ab321220207
   1.0.2--h43eeafb_1: sha256:b9fffbce4d0368236758fe0cdddff16b5767c8e1b55e7e743e26cccd7ada8e0a
   1.0.4--h43eeafb_0: sha256:46c681ee1ea68d8b3576e1efb03d4f7d3279292b5d4b28c59033492e125a3569
   1.0.5--h43eeafb_0: sha256:bbb177e9057ca18f9c11e08ee12084dcfced0e57961df9a8033591f6331e67f4
+  1.0.6--h43eeafb_1: sha256:bbf59c9c43bf5edc19820b14c54eb3d298bf76cbb10e65a2627c24abca4f6232
 docker: quay.io/biocontainers/t1k
 aliases:
   AddGeneCoord.pl: /usr/local/bin/AddGeneCoord.pl
