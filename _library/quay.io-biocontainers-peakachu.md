@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peakachu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peakachu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peakachu/container.yaml"
-updated_at: "2024-07-17 03:01:04.905706"
+updated_at: "2024-07-18 02:59:29.025758"
 latest: "0.2.0--py38he5da3d1_3"
 container_url: "https://biocontainers.pro/tools/peakachu"
 aliases:

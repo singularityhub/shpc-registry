@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-canine2probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-canine2probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-canine2probe/container.yaml"
-updated_at: "2024-07-17 03:02:22.323541"
+updated_at: "2024-07-18 03:00:43.253492"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-canine2probe"
 
@@ -14,7 +14,7 @@ versions:
  - "2.18.0--r43hdfd78af_11"
  - "2.18.0--r43hdfd78af_12"
 description: "shpc-registry automated BioContainers addition for bioconductor-canine2probe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-canine2probe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-canine2probe", "latest": {"2.18.0--r43hdfd78af_12": "sha256:c83f0bd4ac00242c8c2522957df6c226a49cc2dd703ec37f336dc1463baca676"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:55a66039c401b8402ec75b6033ed2f2a43789f1c8533e2dab78e2f67423c350f", "2.18.0--r42hdfd78af_10": "sha256:9cf7ccfe58ebaee402a9f213918f9af515f7e25bcfeba8ea69a31538d080c270", "2.18.0--r43hdfd78af_11": "sha256:8068125529ccfe8a68ae9418e0cf404847ed5e569711ee1c67ba722054c2c22c", "2.18.0--r43hdfd78af_12": "sha256:c83f0bd4ac00242c8c2522957df6c226a49cc2dd703ec37f336dc1463baca676"}, "docker": "quay.io/biocontainers/bioconductor-canine2probe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-canine2probe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-canine2probe", "latest": {"2.18.0--r43hdfd78af_12": "sha256:c83f0bd4ac00242c8c2522957df6c226a49cc2dd703ec37f336dc1463baca676"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:55a66039c401b8402ec75b6033ed2f2a43789f1c8533e2dab78e2f67423c350f", "2.18.0--r42hdfd78af_10": "sha256:7647c686063efeca2c159b67de5f4110eaa9b09097c7cd477df5a80c6e1935c9", "2.18.0--r43hdfd78af_11": "sha256:8068125529ccfe8a68ae9418e0cf404847ed5e569711ee1c67ba722054c2c22c", "2.18.0--r43hdfd78af_12": "sha256:c83f0bd4ac00242c8c2522957df6c226a49cc2dd703ec37f336dc1463baca676"}, "docker": "quay.io/biocontainers/bioconductor-canine2probe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-canine2probe.

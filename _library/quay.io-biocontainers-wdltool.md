@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wdltool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wdltool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wdltool/container.yaml"
-updated_at: "2024-07-17 03:24:00.696594"
+updated_at: "2024-07-18 03:22:07.864019"
 latest: "0.14--1"
 container_url: "https://biocontainers.pro/tools/wdltool"
 aliases:
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "0.9--py36_0"
  - "0.14--1"
+ - "0.9--py27_0"
 description: "shpc-registry automated BioContainers addition for wdltool"
-config: {"url": "https://biocontainers.pro/tools/wdltool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wdltool", "latest": {"0.14--1": "sha256:d6206ae9c55565fc9c08149e3cc08c5188378aaab8f28ca3cf2d264d8ef9ae71"}, "tags": {"0.9--py36_0": "sha256:3970de1150546d251a457fd101dd2ad5545a02b2bfea7b19769ca1f95068bfe6", "0.14--1": "sha256:d6206ae9c55565fc9c08149e3cc08c5188378aaab8f28ca3cf2d264d8ef9ae71"}, "docker": "quay.io/biocontainers/wdltool", "aliases": {"wdltool": "/usr/local/bin/wdltool", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj"}}
+config: {"url": "https://biocontainers.pro/tools/wdltool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wdltool", "latest": {"0.14--1": "sha256:f668e7083e49db0f2e9b2488f8b72ca4c45aa98fd73381975bb8d1d59d5252e2"}, "tags": {"0.9--py36_0": "sha256:abb2a6188d77910ce9704886a8d53ec198cb4755d5f8c378d2b27c8c85f25610", "0.14--1": "sha256:f668e7083e49db0f2e9b2488f8b72ca4c45aa98fd73381975bb8d1d59d5252e2", "0.9--py27_0": "sha256:67fbc7e2247c83c1355881cfe6f2e84a9f49875ffc9d9fa2dc4bab46e9eeb08b"}, "docker": "quay.io/biocontainers/wdltool", "aliases": {"wdltool": "/usr/local/bin/wdltool", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wdltool.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ecolisakai.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecolisakai.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecolisakai.db0/container.yaml"
-updated_at: "2024-07-17 03:11:39.248336"
+updated_at: "2024-07-18 03:09:46.385798"
 latest: "3.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecolisakai.db0"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "3.17.0--r43hdfd78af_0"
  - "3.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ecolisakai.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ecolisakai.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecolisakai.db0", "latest": {"3.18.0--r43hdfd78af_0": "sha256:61afe00db5ed9bb829492a4e2fcdf12d688706742731a449445e9cd9a40906fc"}, "tags": {"3.8.2--r36_1": "sha256:7218fc34ce39b6f92e51f4692252c763c2b8e7a9a47e1e1dcd996d67f174751f", "3.16.0--r42hdfd78af_0": "sha256:118d41229c49fff12610a979f708eead94005d72d023409302f6820857a1df5d", "3.14.0--r41hdfd78af_1": "sha256:79d4126e107ac80e35d00d14330141704f72b8311a9e17fbc58e953eb118a908", "3.13.0--r41hdfd78af_0": "sha256:cb071b966ab78df67ea647e21fa60c1d6d8d19dbc19104938c10d9b9fc094dbd", "3.12.0--r40hdfd78af_1": "sha256:1610cca8682f3c8ce99c16e30bd5ea34dd90be5fd59e9ecb0aa092d90898a24c", "3.11.2--r40_0": "sha256:d1f7e0e00bf7728df247584b022d34689b3b6b9efa60410e4c655f4dc3832c6a", "3.17.0--r43hdfd78af_0": "sha256:67182944abd8331df6a7eebd0ae5c30decf4d2a6b630ce951a99385bd0f44dc3", "3.18.0--r43hdfd78af_0": "sha256:61afe00db5ed9bb829492a4e2fcdf12d688706742731a449445e9cd9a40906fc"}, "docker": "quay.io/biocontainers/bioconductor-ecolisakai.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ecolisakai.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecolisakai.db0", "latest": {"3.18.0--r43hdfd78af_0": "sha256:61afe00db5ed9bb829492a4e2fcdf12d688706742731a449445e9cd9a40906fc"}, "tags": {"3.8.2--r36_1": "sha256:bc19545bf527a6de04f8aa30c0a907d467fa5effd09ac27cac9991086afb840e", "3.16.0--r42hdfd78af_0": "sha256:118d41229c49fff12610a979f708eead94005d72d023409302f6820857a1df5d", "3.14.0--r41hdfd78af_1": "sha256:79d4126e107ac80e35d00d14330141704f72b8311a9e17fbc58e953eb118a908", "3.13.0--r41hdfd78af_0": "sha256:cb071b966ab78df67ea647e21fa60c1d6d8d19dbc19104938c10d9b9fc094dbd", "3.12.0--r40hdfd78af_1": "sha256:1610cca8682f3c8ce99c16e30bd5ea34dd90be5fd59e9ecb0aa092d90898a24c", "3.11.2--r40_0": "sha256:d1f7e0e00bf7728df247584b022d34689b3b6b9efa60410e4c655f4dc3832c6a", "3.17.0--r43hdfd78af_0": "sha256:67182944abd8331df6a7eebd0ae5c30decf4d2a6b630ce951a99385bd0f44dc3", "3.18.0--r43hdfd78af_0": "sha256:61afe00db5ed9bb829492a4e2fcdf12d688706742731a449445e9cd9a40906fc"}, "docker": "quay.io/biocontainers/bioconductor-ecolisakai.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ecolisakai.db0.

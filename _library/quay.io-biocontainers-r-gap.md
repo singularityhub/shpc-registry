@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gap/container.yaml"
-updated_at: "2024-07-17 03:16:30.259285"
+updated_at: "2024-07-18 03:14:31.716077"
 latest: "1.2.1--r36h9bbef5b_1"
 container_url: "https://biocontainers.pro/tools/r-gap"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.2.1--r36h9bbef5b_1"
 description: "shpc-registry automated BioContainers addition for r-gap"
-config: {"url": "https://biocontainers.pro/tools/r-gap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gap", "latest": {"1.2.1--r36h9bbef5b_1": "sha256:eda3a79987adac132d7a4214bddf6a00eab5bfe8285e26a7fdd8928acd0649e8"}, "tags": {"1.2.1--r36h9bbef5b_1": "sha256:eda3a79987adac132d7a4214bddf6a00eab5bfe8285e26a7fdd8928acd0649e8"}, "docker": "quay.io/biocontainers/r-gap", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-gap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gap", "latest": {"1.2.1--r36h9bbef5b_1": "sha256:87fdbb1556ceb3023c4511f346408fdb33060506d8192ebf67fc8ca20a564c13"}, "tags": {"1.2.1--r36h9bbef5b_1": "sha256:87fdbb1556ceb3023c4511f346408fdb33060506d8192ebf67fc8ca20a564c13"}, "docker": "quay.io/biocontainers/r-gap", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gap.

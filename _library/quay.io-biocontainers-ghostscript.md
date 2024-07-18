@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ghostscript"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ghostscript/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ghostscript/container.yaml"
-updated_at: "2024-07-17 02:45:37.196471"
+updated_at: "2024-07-18 02:44:39.425186"
 latest: "9.18--1"
 container_url: "https://biocontainers.pro/tools/ghostscript"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "9.18--1"
 description: "shpc-registry automated BioContainers addition for ghostscript"
-config: {"url": "https://biocontainers.pro/tools/ghostscript", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ghostscript", "latest": {"9.18--1": "sha256:df842762499bed8c87943cd7f1b957cdb4b9e9381ab0a8feee1103c21309a888"}, "tags": {"9.18--1": "sha256:df842762499bed8c87943cd7f1b957cdb4b9e9381ab0a8feee1103c21309a888"}, "docker": "quay.io/biocontainers/ghostscript", "aliases": {"font2c": "/usr/local/bin/font2c", "wftopfa": "/usr/local/bin/wftopfa", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500", "gslj": "/usr/local/bin/gslj", "gslp": "/usr/local/bin/gslp", "gsnd": "/usr/local/bin/gsnd", "lprsetup.sh": "/usr/local/bin/lprsetup.sh"}}
+config: {"url": "https://biocontainers.pro/tools/ghostscript", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ghostscript", "latest": {"9.18--1": "sha256:ec45f7798b321a677c57b73523d67dccf8428007cb8fb39de80ae5b76915a80c"}, "tags": {"9.18--1": "sha256:ec45f7798b321a677c57b73523d67dccf8428007cb8fb39de80ae5b76915a80c"}, "docker": "quay.io/biocontainers/ghostscript", "aliases": {"font2c": "/usr/local/bin/font2c", "wftopfa": "/usr/local/bin/wftopfa", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500", "gslj": "/usr/local/bin/gslj", "gslp": "/usr/local/bin/gslp", "gsnd": "/usr/local/bin/gsnd", "lprsetup.sh": "/usr/local/bin/lprsetup.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ghostscript.

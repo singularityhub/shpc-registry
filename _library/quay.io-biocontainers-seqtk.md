@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqtk/container.yaml"
-updated_at: "2024-07-17 02:42:51.967109"
+updated_at: "2024-07-18 02:42:02.077212"
 latest: "r93--0"
 container_url: "https://biocontainers.pro/tools/seqtk"
 aliases:
@@ -17,7 +17,7 @@ versions:
  - "1.4--he4a0461_1"
  - "1.4--he4a0461_2"
 description: "shpc-registry automated BioContainers addition for seqtk"
-config: {"url": "https://biocontainers.pro/tools/seqtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqtk", "latest": {"r93--0": "sha256:91ca70e54ebf744d9e6b8a8320c86558bcf20b72a9ab881b1499c3a36e2a6711"}, "tags": {"1.3--h7132678_4": "sha256:93e4f7c1a202e3ebfa1c3b692c733b6d520b41c4e12eeb6f099a7ca3871fd1a9", "r93--0": "sha256:91ca70e54ebf744d9e6b8a8320c86558bcf20b72a9ab881b1499c3a36e2a6711", "r82--1": "sha256:c1d3ee29e5f3249281f37f78d53244cc2b3e881cbd8ddc6a49abd80d40fc1648", "1.3--he4a0461_6": "sha256:bb9bce3228bd88d06cbcbfbf6628a59ed1a8920655ddd3159091b7a4b358912e", "1.4--he4a0461_1": "sha256:24a4a7ebb63af178822c166befb4fcafc77d1b6754fe52fb085f0835cc274496", "1.4--he4a0461_2": "sha256:90e886efc9e10feb9cbe9f5112f2356a0dd8d8f32b0c2d40e075816ddfde519b"}, "docker": "quay.io/biocontainers/seqtk", "aliases": {"seqtk": "/usr/local/bin/seqtk"}}
+config: {"url": "https://biocontainers.pro/tools/seqtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqtk", "latest": {"r93--0": "sha256:27341afe2cde846258a76378b1fce7a0177a2865375c6f5014731c883cea95e7"}, "tags": {"1.3--h7132678_4": "sha256:93e4f7c1a202e3ebfa1c3b692c733b6d520b41c4e12eeb6f099a7ca3871fd1a9", "r93--0": "sha256:27341afe2cde846258a76378b1fce7a0177a2865375c6f5014731c883cea95e7", "r82--1": "sha256:236de7d97156142b50b2f9b218baa4cb0c93f478385be4a1c910e9211bff586d", "1.3--he4a0461_6": "sha256:bb9bce3228bd88d06cbcbfbf6628a59ed1a8920655ddd3159091b7a4b358912e", "1.4--he4a0461_1": "sha256:24a4a7ebb63af178822c166befb4fcafc77d1b6754fe52fb085f0835cc274496", "1.4--he4a0461_2": "sha256:90e886efc9e10feb9cbe9f5112f2356a0dd8d8f32b0c2d40e075816ddfde519b"}, "docker": "quay.io/biocontainers/seqtk", "aliases": {"seqtk": "/usr/local/bin/seqtk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqtk.

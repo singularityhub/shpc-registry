@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/functools32"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/functools32/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/functools32/container.yaml"
-updated_at: "2024-07-17 03:12:36.670510"
+updated_at: "2024-07-18 03:10:42.121166"
 latest: "3.2.3.2--py27_0"
 container_url: "https://biocontainers.pro/tools/functools32"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "3.2.3.2--py27_0"
 description: "shpc-registry automated BioContainers addition for functools32"
-config: {"url": "https://biocontainers.pro/tools/functools32", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for functools32", "latest": {"3.2.3.2--py27_0": "sha256:da32a976c2fea6685e2fe8126fc94c6501cb1c241ad6d094f79663994da76fec"}, "tags": {"3.2.3.2--py27_0": "sha256:da32a976c2fea6685e2fe8126fc94c6501cb1c241ad6d094f79663994da76fec"}, "docker": "quay.io/biocontainers/functools32", "aliases": {"smtpd.pyc": "/usr/local/bin/smtpd.pyc", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/functools32", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for functools32", "latest": {"3.2.3.2--py27_0": "sha256:f70394daa3d61914d510821a8410baeb33ad5112db2e896b41bd738e58ab2f2b"}, "tags": {"3.2.3.2--py27_0": "sha256:f70394daa3d61914d510821a8410baeb33ad5112db2e896b41bd738e58ab2f2b"}, "docker": "quay.io/biocontainers/functools32", "aliases": {"smtpd.pyc": "/usr/local/bin/smtpd.pyc", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/functools32.

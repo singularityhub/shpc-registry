@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyrad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyrad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyrad/container.yaml"
-updated_at: "2024-07-17 02:41:52.909459"
+updated_at: "2024-07-18 02:41:06.428851"
 latest: "3.0.66--py_3"
 container_url: "https://biocontainers.pro/tools/pyrad"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "3.0.66--py_3"
 description: "shpc-registry automated BioContainers addition for pyrad"
-config: {"url": "https://biocontainers.pro/tools/pyrad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyrad", "latest": {"3.0.66--py_3": "sha256:8ca6b425d1bb17ff93ba400c34e2d4cb2d9d748c6aba7c5e231d9fe4fb89b4c7"}, "tags": {"3.0.66--py_3": "sha256:8ca6b425d1bb17ff93ba400c34e2d4cb2d9d748c6aba7c5e231d9fe4fb89b4c7"}, "docker": "quay.io/biocontainers/pyrad", "aliases": {"pyrad": "/usr/local/bin/pyrad", "vsearch": "/usr/local/bin/vsearch", "muscle": "/usr/local/bin/muscle", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyrad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyrad", "latest": {"3.0.66--py_3": "sha256:eedc12b23faf17298d380b9385cc76d7e1acfa16f53e330ae927bfec59b3f4ec"}, "tags": {"3.0.66--py_3": "sha256:eedc12b23faf17298d380b9385cc76d7e1acfa16f53e330ae927bfec59b3f4ec"}, "docker": "quay.io/biocontainers/pyrad", "aliases": {"pyrad": "/usr/local/bin/pyrad", "vsearch": "/usr/local/bin/vsearch", "muscle": "/usr/local/bin/muscle", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyrad.

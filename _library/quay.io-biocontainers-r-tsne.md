@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tsne"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tsne/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tsne/container.yaml"
-updated_at: "2024-07-17 03:04:02.139669"
+updated_at: "2024-07-18 03:02:19.266186"
 latest: "0.1_3--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-tsne"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "0.1_3--r3.3.1_0"
  - "0.1_3--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-tsne"
-config: {"url": "https://biocontainers.pro/tools/r-tsne", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tsne", "latest": {"0.1_3--r3.3.1_0": "sha256:d84b31672615a6683a04883f5755ba7e7078a9161f324e512df0489fffbdd929"}, "tags": {"0.1_3--r3.3.1_0": "sha256:d84b31672615a6683a04883f5755ba7e7078a9161f324e512df0489fffbdd929", "0.1_3--r3.3.2_0": "sha256:6fa453afca6a98147d07365f8bb4320af9c4a6978c14a03f28eb3d6225527388"}, "docker": "quay.io/biocontainers/r-tsne", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-tsne", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tsne", "latest": {"0.1_3--r3.3.1_0": "sha256:a12aed27b86fca7fb011aaf13f31f86243f43a413005329e046eec4bad00c37e"}, "tags": {"0.1_3--r3.3.1_0": "sha256:a12aed27b86fca7fb011aaf13f31f86243f43a413005329e046eec4bad00c37e", "0.1_3--r3.3.2_0": "sha256:7eab6613a360b4f8751abf788a55058b6fd35455b81d003102a5870a9b7341bf"}, "docker": "quay.io/biocontainers/r-tsne", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-tsne.

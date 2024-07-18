@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/any2fasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/any2fasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/any2fasta/container.yaml"
-updated_at: "2024-07-17 03:16:59.345210"
+updated_at: "2024-07-18 03:15:00.448322"
 latest: "0.4.2--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/any2fasta"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "0.4.2--hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for any2fasta"
-config: {"url": "https://biocontainers.pro/tools/any2fasta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for any2fasta", "latest": {"0.4.2--hdfd78af_3": "sha256:c12232efc334f451077b6c3f968d0b8e6519ebd8a53dbfb83bd8a109adf24b1c"}, "tags": {"0.4.2--hdfd78af_3": "sha256:c12232efc334f451077b6c3f968d0b8e6519ebd8a53dbfb83bd8a109adf24b1c"}, "docker": "quay.io/biocontainers/any2fasta", "aliases": {"any2fasta": "/usr/local/bin/any2fasta", "perl5.32.0": "/usr/local/bin/perl5.32.0", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/any2fasta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for any2fasta", "latest": {"0.4.2--hdfd78af_3": "sha256:50441698f1f483b4139562d3d5a47ad7e67f926737c265e3bf5b31211ffe1620"}, "tags": {"0.4.2--hdfd78af_3": "sha256:50441698f1f483b4139562d3d5a47ad7e67f926737c265e3bf5b31211ffe1620"}, "docker": "quay.io/biocontainers/any2fasta", "aliases": {"any2fasta": "/usr/local/bin/any2fasta", "perl5.32.0": "/usr/local/bin/perl5.32.0", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/any2fasta.

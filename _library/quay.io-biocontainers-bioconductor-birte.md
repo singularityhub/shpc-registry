@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-birte"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-birte/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-birte/container.yaml"
-updated_at: "2024-07-17 03:14:30.593339"
+updated_at: "2024-07-18 03:12:33.971104"
 latest: "1.18.0--r351h60f5b57_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-birte"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.18.0--r351h60f5b57_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-birte"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-birte", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-birte", "latest": {"1.18.0--r351h60f5b57_0": "sha256:7bb932c986f9506346105700e3cc3407e700e015433938e28729164ea672d1ed"}, "tags": {"1.18.0--r351h60f5b57_0": "sha256:7bb932c986f9506346105700e3cc3407e700e015433938e28729164ea672d1ed"}, "docker": "quay.io/biocontainers/bioconductor-birte", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-birte", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-birte", "latest": {"1.18.0--r351h60f5b57_0": "sha256:a37d6cd304fd4af7a92527587cd57d301b88c288d732c38d4719cc8a9a0f5c82"}, "tags": {"1.18.0--r351h60f5b57_0": "sha256:a37d6cd304fd4af7a92527587cd57d301b88c288d732c38d4719cc8a9a0f5c82"}, "docker": "quay.io/biocontainers/bioconductor-birte", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-birte.

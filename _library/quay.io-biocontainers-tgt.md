@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tgt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tgt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tgt/container.yaml"
-updated_at: "2024-07-17 03:15:08.552606"
+updated_at: "2024-07-18 03:13:11.209774"
 latest: "1.4.3--py27_2"
 container_url: "https://biocontainers.pro/tools/tgt"
 aliases:
@@ -25,7 +25,7 @@ versions:
  - "1.4.3--py27_2"
  - "1.4.3--py36_2"
 description: "shpc-registry automated BioContainers addition for tgt"
-config: {"url": "https://biocontainers.pro/tools/tgt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tgt", "latest": {"1.4.3--py27_2": "sha256:886917caa6a34a3a559090f5c626b108b03b24582b7914309cd00bed6f08879f"}, "tags": {"1.4.3--py27_2": "sha256:886917caa6a34a3a559090f5c626b108b03b24582b7914309cd00bed6f08879f", "1.4.3--py36_2": "sha256:5c00c1a0798cb7191d3ed4d5bf899e73c0229e02695bc4c92760445555ee4988"}, "docker": "quay.io/biocontainers/tgt", "aliases": {"tgt-concatenate-textgrids.py": "/usr/local/bin/tgt-concatenate-textgrids.py", "tgt-extract-part.py": "/usr/local/bin/tgt-extract-part.py", "tgt-print-tiernames.py": "/usr/local/bin/tgt-print-tiernames.py", "tgt-shift-boundaries.py": "/usr/local/bin/tgt-shift-boundaries.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/tgt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tgt", "latest": {"1.4.3--py27_2": "sha256:f0cde97d61e96cb997075345b960ad08517a67a673fc6bef2ba90a5a2a13ddce"}, "tags": {"1.4.3--py27_2": "sha256:f0cde97d61e96cb997075345b960ad08517a67a673fc6bef2ba90a5a2a13ddce", "1.4.3--py36_2": "sha256:563c38b2ea433895e8a00d1bdafcd00d167a82299098e5b81137f8b4912875f0"}, "docker": "quay.io/biocontainers/tgt", "aliases": {"tgt-concatenate-textgrids.py": "/usr/local/bin/tgt-concatenate-textgrids.py", "tgt-extract-part.py": "/usr/local/bin/tgt-extract-part.py", "tgt-print-tiernames.py": "/usr/local/bin/tgt-print-tiernames.py", "tgt-shift-boundaries.py": "/usr/local/bin/tgt-shift-boundaries.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tgt.

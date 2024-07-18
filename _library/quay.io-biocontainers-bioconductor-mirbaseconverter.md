@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mirbaseconverter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirbaseconverter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirbaseconverter/container.yaml"
-updated_at: "2024-07-17 03:22:31.899460"
+updated_at: "2024-07-18 03:20:37.907827"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirbaseconverter"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.12.0--r40_0"
  - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mirbaseconverter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mirbaseconverter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirbaseconverter", "latest": {"1.24.0--r43hdfd78af_0": "sha256:a6a1cb98f83be20b145dab71ca72ec2115510bb3055e5cb9534ecd33b49a1137"}, "tags": {"1.8.0--r36_1": "sha256:156a194e76cc38a258fe798040efa8898413a4ab3380951f26d0e3d40f376739", "1.22.0--r42hdfd78af_0": "sha256:2ba2f859835a3e73100308c62fb18e66b640efbea6a627c3f7a265a9467047f4", "1.18.0--r41hdfd78af_0": "sha256:9943f007ab43b3a4061f3a27500ed2417a78994b67043e6d2c94482bb274d01e", "1.16.0--r41hdfd78af_0": "sha256:5e549a90d89bba47e394d4404a1c70e8e93e9c9af2154a37bd5316270125726d", "1.14.0--r40hdfd78af_1": "sha256:12bdef3306b1a97208e50595e6a113371a5a75bc26f5415db8482c9e6d85e911", "1.12.0--r40_0": "sha256:647b49fc76d1b5c10cfe6cf336810a7bb95d94bc8751e9b1006689e52de63125", "1.24.0--r43hdfd78af_0": "sha256:a6a1cb98f83be20b145dab71ca72ec2115510bb3055e5cb9534ecd33b49a1137"}, "docker": "quay.io/biocontainers/bioconductor-mirbaseconverter", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mirbaseconverter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirbaseconverter", "latest": {"1.24.0--r43hdfd78af_0": "sha256:a6a1cb98f83be20b145dab71ca72ec2115510bb3055e5cb9534ecd33b49a1137"}, "tags": {"1.8.0--r36_1": "sha256:f12dbec51e4827a70077820ebd49070bbd2af88cb18476c18acd456545a3aa48", "1.22.0--r42hdfd78af_0": "sha256:2ba2f859835a3e73100308c62fb18e66b640efbea6a627c3f7a265a9467047f4", "1.18.0--r41hdfd78af_0": "sha256:9943f007ab43b3a4061f3a27500ed2417a78994b67043e6d2c94482bb274d01e", "1.16.0--r41hdfd78af_0": "sha256:5e549a90d89bba47e394d4404a1c70e8e93e9c9af2154a37bd5316270125726d", "1.14.0--r40hdfd78af_1": "sha256:12bdef3306b1a97208e50595e6a113371a5a75bc26f5415db8482c9e6d85e911", "1.12.0--r40_0": "sha256:647b49fc76d1b5c10cfe6cf336810a7bb95d94bc8751e9b1006689e52de63125", "1.24.0--r43hdfd78af_0": "sha256:a6a1cb98f83be20b145dab71ca72ec2115510bb3055e5cb9534ecd33b49a1137"}, "docker": "quay.io/biocontainers/bioconductor-mirbaseconverter", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mirbaseconverter.

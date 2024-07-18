@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/baredsc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/baredsc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/baredsc/container.yaml"
-updated_at: "2024-07-17 02:40:14.711279"
+updated_at: "2024-07-18 02:39:32.616335"
 latest: "1.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/baredsc"
 aliases:
@@ -30,7 +30,7 @@ versions:
  - "1.1.2--pyhdfd78af_0"
  - "1.1.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for baredsc"
-config: {"url": "https://biocontainers.pro/tools/baredsc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for baredsc", "latest": {"1.1.3--pyhdfd78af_0": "sha256:47eb4534c9b41abf8ba7089167c3c55af0ded5f28183db4f8b846e2e485562be"}, "tags": {"1.1.1--pyhdfd78af_0": "sha256:1b8791cad29c68a421c6fe8ef0df24ba02bd14d871c8e8e2e0576814bc91894e", "1.1.2--pyhdfd78af_0": "sha256:a03c2697b335154c3327fa9cea97acbf17913151e296adbe6cd886695cc23a2f", "1.1.3--pyhdfd78af_0": "sha256:47eb4534c9b41abf8ba7089167c3c55af0ded5f28183db4f8b846e2e485562be"}, "docker": "quay.io/biocontainers/baredsc", "aliases": {"baredSC_1d": "/usr/local/bin/baredSC_1d", "baredSC_2d": "/usr/local/bin/baredSC_2d", "combineMultipleModels_1d": "/usr/local/bin/combineMultipleModels_1d", "combineMultipleModels_2d": "/usr/local/bin/combineMultipleModels_2d", "nc3tonc4": "/usr/local/bin/nc3tonc4", "nc4tonc3": "/usr/local/bin/nc4tonc3", "ncinfo": "/usr/local/bin/ncinfo", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "natsort": "/usr/local/bin/natsort", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8"}}
+config: {"url": "https://biocontainers.pro/tools/baredsc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for baredsc", "latest": {"1.1.3--pyhdfd78af_0": "sha256:47eb4534c9b41abf8ba7089167c3c55af0ded5f28183db4f8b846e2e485562be"}, "tags": {"1.1.1--pyhdfd78af_0": "sha256:7c68e8bc91e75aab98e1d869807c9940fac36eabede9240b1b33fb5d11345967", "1.1.2--pyhdfd78af_0": "sha256:a03c2697b335154c3327fa9cea97acbf17913151e296adbe6cd886695cc23a2f", "1.1.3--pyhdfd78af_0": "sha256:47eb4534c9b41abf8ba7089167c3c55af0ded5f28183db4f8b846e2e485562be"}, "docker": "quay.io/biocontainers/baredsc", "aliases": {"baredSC_1d": "/usr/local/bin/baredSC_1d", "baredSC_2d": "/usr/local/bin/baredSC_2d", "combineMultipleModels_1d": "/usr/local/bin/combineMultipleModels_1d", "combineMultipleModels_2d": "/usr/local/bin/combineMultipleModels_2d", "nc3tonc4": "/usr/local/bin/nc3tonc4", "nc4tonc3": "/usr/local/bin/nc4tonc3", "ncinfo": "/usr/local/bin/ncinfo", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "natsort": "/usr/local/bin/natsort", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/baredsc.

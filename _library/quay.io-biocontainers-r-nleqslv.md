@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-nleqslv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nleqslv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nleqslv/container.yaml"
-updated_at: "2024-07-17 02:42:35.701469"
+updated_at: "2024-07-18 02:41:46.763946"
 latest: "3.2--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-nleqslv"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "3.2--r3.3.1_0"
  - "3.2--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-nleqslv"
-config: {"url": "https://biocontainers.pro/tools/r-nleqslv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nleqslv", "latest": {"3.2--r3.3.1_0": "sha256:740be1a0dc7d3d37ac07e0cf9eb2aa127cfb99c7638c0105eafe6330e6d0b578"}, "tags": {"3.2--r3.3.1_0": "sha256:740be1a0dc7d3d37ac07e0cf9eb2aa127cfb99c7638c0105eafe6330e6d0b578", "3.2--r3.3.2_0": "sha256:db44ae04f89c5987cdc67a63ac41ad67ebfb00d3fc0a0e78a1f8d1ab612f0a5a"}, "docker": "quay.io/biocontainers/r-nleqslv", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-nleqslv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nleqslv", "latest": {"3.2--r3.3.1_0": "sha256:6acbeb7b979362947bded786db26982b3ae36349d44d49987c439c396035a8cc"}, "tags": {"3.2--r3.3.1_0": "sha256:6acbeb7b979362947bded786db26982b3ae36349d44d49987c439c396035a8cc", "3.2--r3.3.2_0": "sha256:0904b383eac678a3ef900d5cba48088f0f3c778326e1864ac4caaa7487a55111"}, "docker": "quay.io/biocontainers/r-nleqslv", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-nleqslv.

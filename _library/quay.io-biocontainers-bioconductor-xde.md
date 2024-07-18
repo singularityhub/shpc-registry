@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xde/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xde/container.yaml"
-updated_at: "2024-07-17 03:21:05.791917"
+updated_at: "2024-07-18 03:19:10.632159"
 latest: "2.48.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xde"
 

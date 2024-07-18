@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/represent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/represent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/represent/container.yaml"
-updated_at: "2024-07-17 03:24:02.402315"
+updated_at: "2024-07-18 03:22:09.628755"
 latest: "1.5.1--py_2"
 container_url: "https://biocontainers.pro/tools/represent"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.5.1--py_2"
 description: "shpc-registry automated BioContainers addition for represent"
-config: {"url": "https://biocontainers.pro/tools/represent", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for represent", "latest": {"1.5.1--py_2": "sha256:dbba902001a1a5b00de211564cf2701b809b1bf64534fa4c766f887e56012588"}, "tags": {"1.5.1--py_2": "sha256:dbba902001a1a5b00de211564cf2701b809b1bf64534fa4c766f887e56012588"}, "docker": "quay.io/biocontainers/represent", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/represent", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for represent", "latest": {"1.5.1--py_2": "sha256:c49615538397d42a72007fcc081db5e2f270b0dcea4f444eb8f46d9f3ae05013"}, "tags": {"1.5.1--py_2": "sha256:c49615538397d42a72007fcc081db5e2f270b0dcea4f444eb8f46d9f3ae05013"}, "docker": "quay.io/biocontainers/represent", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/represent.

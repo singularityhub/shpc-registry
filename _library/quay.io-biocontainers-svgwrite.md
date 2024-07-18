@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svgwrite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svgwrite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svgwrite/container.yaml"
-updated_at: "2024-07-17 03:08:43.488899"
+updated_at: "2024-07-18 03:06:51.195681"
 latest: "1.1.6--py36_0"
 container_url: "https://biocontainers.pro/tools/svgwrite"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "1.1.6--py36_0"
+ - "1.1.6--py35_0"
 description: "shpc-registry automated BioContainers addition for svgwrite"
-config: {"url": "https://biocontainers.pro/tools/svgwrite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svgwrite", "latest": {"1.1.6--py36_0": "sha256:6e28a96918cfbd71b769f78d3eef3d0962b3f17d8bf59c6a8b3c31f0c2d97705"}, "tags": {"1.1.6--py36_0": "sha256:6e28a96918cfbd71b769f78d3eef3d0962b3f17d8bf59c6a8b3c31f0c2d97705"}, "docker": "quay.io/biocontainers/svgwrite", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/svgwrite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svgwrite", "latest": {"1.1.6--py36_0": "sha256:d2ebdae3e86288c16674c5d980b22b56e89e98c0d51924a0d0f710ceaa5efad0"}, "tags": {"1.1.6--py36_0": "sha256:d2ebdae3e86288c16674c5d980b22b56e89e98c0d51924a0d0f710ceaa5efad0", "1.1.6--py35_0": "sha256:3f28e4c15469ecb906ce6e9e7ce7fa9b490fc15dbf82da026a4ccb024ac9b8e0"}, "docker": "quay.io/biocontainers/svgwrite", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svgwrite.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stamp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stamp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stamp/container.yaml"
-updated_at: "2024-07-17 02:48:21.654600"
+updated_at: "2024-07-18 02:47:14.970516"
 latest: "2.1.3--py_2"
 container_url: "https://biocontainers.pro/tools/stamp"
 aliases:
@@ -32,7 +32,7 @@ aliases:
 versions:
  - "2.1.3--py_2"
 description: "shpc-registry automated BioContainers addition for stamp"
-config: {"url": "https://biocontainers.pro/tools/stamp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stamp", "latest": {"2.1.3--py_2": "sha256:5d810f59eb45a000171bf6894c84774982ddce8f84e094aff1a47c7ab1dc7453"}, "tags": {"2.1.3--py_2": "sha256:5d810f59eb45a000171bf6894c84774982ddce8f84e094aff1a47c7ab1dc7453"}, "docker": "quay.io/biocontainers/stamp", "aliases": {"STAMP": "/usr/local/bin/STAMP", "checkHierarchy.py": "/usr/local/bin/checkHierarchy.py", "pylupdate4": "/usr/local/bin/pylupdate4", "pyqi": "/usr/local/bin/pyqi", "pyrcc4": "/usr/local/bin/pyrcc4", "pyuic4": "/usr/local/bin/pyuic4", "qdoc3": "/usr/local/bin/qdoc3", "qmlviewer": "/usr/local/bin/qmlviewer", "qt3to4": "/usr/local/bin/qt3to4", "qtconfig": "/usr/local/bin/qtconfig", "qttracereplay": "/usr/local/bin/qttracereplay", "biom": "/usr/local/bin/biom", "qhelpconverter": "/usr/local/bin/qhelpconverter", "sip": "/usr/local/bin/sip", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "qdbus": "/usr/local/bin/qdbus", "qdbuscpp2xml": "/usr/local/bin/qdbuscpp2xml", "qdbusviewer": "/usr/local/bin/qdbusviewer", "qdbusxml2cpp": "/usr/local/bin/qdbusxml2cpp", "xmlpatterns": "/usr/local/bin/xmlpatterns"}}
+config: {"url": "https://biocontainers.pro/tools/stamp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stamp", "latest": {"2.1.3--py_2": "sha256:91fc5d90b408d402c45db986a6c99951623d28843e9a3c6e3153878d019c7b8e"}, "tags": {"2.1.3--py_2": "sha256:91fc5d90b408d402c45db986a6c99951623d28843e9a3c6e3153878d019c7b8e"}, "docker": "quay.io/biocontainers/stamp", "aliases": {"STAMP": "/usr/local/bin/STAMP", "checkHierarchy.py": "/usr/local/bin/checkHierarchy.py", "pylupdate4": "/usr/local/bin/pylupdate4", "pyqi": "/usr/local/bin/pyqi", "pyrcc4": "/usr/local/bin/pyrcc4", "pyuic4": "/usr/local/bin/pyuic4", "qdoc3": "/usr/local/bin/qdoc3", "qmlviewer": "/usr/local/bin/qmlviewer", "qt3to4": "/usr/local/bin/qt3to4", "qtconfig": "/usr/local/bin/qtconfig", "qttracereplay": "/usr/local/bin/qttracereplay", "biom": "/usr/local/bin/biom", "qhelpconverter": "/usr/local/bin/qhelpconverter", "sip": "/usr/local/bin/sip", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "qdbus": "/usr/local/bin/qdbus", "qdbuscpp2xml": "/usr/local/bin/qdbuscpp2xml", "qdbusviewer": "/usr/local/bin/qdbusviewer", "qdbusxml2cpp": "/usr/local/bin/qdbusxml2cpp", "xmlpatterns": "/usr/local/bin/xmlpatterns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/stamp.

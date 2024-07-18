@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-badregionfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-badregionfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-badregionfinder/container.yaml"
-updated_at: "2024-07-17 03:22:09.829338"
+updated_at: "2024-07-18 03:20:15.490514"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-badregionfinder"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-badregionfinder"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-badregionfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-badregionfinder", "latest": {"1.30.0--r43hdfd78af_0": "sha256:e95a9b0f7307c542a4f82f6a9ff6dea7e9094208072598eb9ca0b3257314f9a5"}, "tags": {"1.8.0--r341_0": "sha256:cd16612fbac41881de06c8b36aca2c60dc69e9eff93e0070553f52b1e52756e1", "1.26.0--r42hdfd78af_0": "sha256:82d5b28aaf0cb6c42378384d9054f4cf4c092eb0eb16341de565270de6b60b3a", "1.22.0--r41hdfd78af_0": "sha256:304a4be258784b24b74efc048bb8b315eda4a604d68fdf71505ae27b5602350b", "1.20.0--r41hdfd78af_0": "sha256:03cd56dc1ffe278f5038a1cbb74280b574b2ed8eace78278b9a49c3189c7603f", "1.18.0--r40hdfd78af_1": "sha256:ece4f27899cd90075a26fde576b33a3c3887eb5e0c8e51f4207fa0d9dea1fb83", "1.16.0--r40_0": "sha256:8865b21097369e1598daa08f2f5417070adf45fbe06abbb542c000290a964303", "1.28.0--r43hdfd78af_0": "sha256:af25869fed3320d32a1b72525e31dac6fe712bd371af9c0080ea87cf46fcb723", "1.30.0--r43hdfd78af_0": "sha256:e95a9b0f7307c542a4f82f6a9ff6dea7e9094208072598eb9ca0b3257314f9a5"}, "docker": "quay.io/biocontainers/bioconductor-badregionfinder", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-badregionfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-badregionfinder", "latest": {"1.30.0--r43hdfd78af_0": "sha256:e95a9b0f7307c542a4f82f6a9ff6dea7e9094208072598eb9ca0b3257314f9a5"}, "tags": {"1.8.0--r341_0": "sha256:7faf9c21aedd4b8f0b08c5da2d1a80fe8b6f1990281d8b99fa30b89fafabbdae", "1.26.0--r42hdfd78af_0": "sha256:82d5b28aaf0cb6c42378384d9054f4cf4c092eb0eb16341de565270de6b60b3a", "1.22.0--r41hdfd78af_0": "sha256:304a4be258784b24b74efc048bb8b315eda4a604d68fdf71505ae27b5602350b", "1.20.0--r41hdfd78af_0": "sha256:03cd56dc1ffe278f5038a1cbb74280b574b2ed8eace78278b9a49c3189c7603f", "1.18.0--r40hdfd78af_1": "sha256:ece4f27899cd90075a26fde576b33a3c3887eb5e0c8e51f4207fa0d9dea1fb83", "1.16.0--r40_0": "sha256:8865b21097369e1598daa08f2f5417070adf45fbe06abbb542c000290a964303", "1.28.0--r43hdfd78af_0": "sha256:af25869fed3320d32a1b72525e31dac6fe712bd371af9c0080ea87cf46fcb723", "1.30.0--r43hdfd78af_0": "sha256:e95a9b0f7307c542a4f82f6a9ff6dea7e9094208072598eb9ca0b3257314f9a5"}, "docker": "quay.io/biocontainers/bioconductor-badregionfinder", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-badregionfinder.

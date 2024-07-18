@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/locityper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/locityper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/locityper/container.yaml"
-updated_at: "2024-07-17 02:58:11.337961"
-latest: "0.15.3--h919a2d8_0"
+updated_at: "2024-07-18 02:56:40.858744"
+latest: "0.16.0--h919a2d8_0"
 container_url: "https://biocontainers.pro/tools/locityper"
 aliases:
  - "locityper"
@@ -39,8 +39,9 @@ versions:
  - "0.13.4--h919a2d8_0"
  - "0.14.5--h919a2d8_0"
  - "0.15.3--h919a2d8_0"
+ - "0.16.0--h919a2d8_0"
 description: "singularity registry hpc automated addition for locityper"
-config: {"url": "https://biocontainers.pro/tools/locityper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for locityper", "latest": {"0.15.3--h919a2d8_0": "sha256:d9aa45c5e43e53be177db690be868137b539fb10b5a81cf78a1c51ec8e039574"}, "tags": {"0.13.4--h919a2d8_0": "sha256:3b6d6735d168f151a5e756c026b9441a2408a52bf06e852f8846ce9dfebd766e", "0.14.5--h919a2d8_0": "sha256:ce427fc5d3cf0f38a385db6e740f3b81660e8ec77abe8fd2676916c185902ea7", "0.15.3--h919a2d8_0": "sha256:d9aa45c5e43e53be177db690be868137b539fb10b5a81cf78a1c51ec8e039574"}, "docker": "quay.io/biocontainers/locityper", "aliases": {"locityper": "/usr/local/bin/locityper", "strobealign": "/usr/local/bin/strobealign", "annot-tsv": "/usr/local/bin/annot-tsv", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "wgsim": "/usr/local/bin/wgsim"}}
+config: {"url": "https://biocontainers.pro/tools/locityper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for locityper", "latest": {"0.16.0--h919a2d8_0": "sha256:772e92373e34344834848d7161f4f1e39a22e0aae3ffbd83376fa6e74ae56287"}, "tags": {"0.13.4--h919a2d8_0": "sha256:3b6d6735d168f151a5e756c026b9441a2408a52bf06e852f8846ce9dfebd766e", "0.14.5--h919a2d8_0": "sha256:ce427fc5d3cf0f38a385db6e740f3b81660e8ec77abe8fd2676916c185902ea7", "0.15.3--h919a2d8_0": "sha256:d9aa45c5e43e53be177db690be868137b539fb10b5a81cf78a1c51ec8e039574", "0.16.0--h919a2d8_0": "sha256:772e92373e34344834848d7161f4f1e39a22e0aae3ffbd83376fa6e74ae56287"}, "docker": "quay.io/biocontainers/locityper", "aliases": {"locityper": "/usr/local/bin/locityper", "strobealign": "/usr/local/bin/strobealign", "annot-tsv": "/usr/local/bin/annot-tsv", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "wgsim": "/usr/local/bin/wgsim"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/locityper.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/locityper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/locityper:0.15.3--h919a2d8_0
+$ shpc install quay.io/biocontainers/locityper:0.16.0--h919a2d8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/locityper/0.15.3--h919a2d8_0
-$ module help quay.io/biocontainers/locityper/0.15.3--h919a2d8_0
+$ module load quay.io/biocontainers/locityper/0.16.0--h919a2d8_0
+$ module help quay.io/biocontainers/locityper/0.16.0--h919a2d8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

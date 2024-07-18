@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abeona"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abeona/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abeona/container.yaml"
-updated_at: "2024-07-17 03:15:43.965308"
+updated_at: "2024-07-18 03:13:45.978961"
 latest: "0.45.0--py_1"
 container_url: "https://biocontainers.pro/tools/abeona"
 aliases:
@@ -31,7 +31,7 @@ aliases:
 versions:
  - "0.45.0--py_1"
 description: "shpc-registry automated BioContainers addition for abeona"
-config: {"url": "https://biocontainers.pro/tools/abeona", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abeona", "latest": {"0.45.0--py_1": "sha256:c7d257933b7ee0df7763c50abc32ebf548caa1596a61cd96a34af634054eee5c"}, "tags": {"0.45.0--py_1": "sha256:c7d257933b7ee0df7763c50abc32ebf548caa1596a61cd96a34af634054eee5c"}, "docker": "quay.io/biocontainers/abeona", "aliases": {"abeona": "/usr/local/bin/abeona", "cortexpy": "/usr/local/bin/cortexpy", "kallisto": "/usr/local/bin/kallisto", "mccortex": "/usr/local/bin/mccortex", "mccortex127": "/usr/local/bin/mccortex127", "mccortex31": "/usr/local/bin/mccortex31", "mccortex63": "/usr/local/bin/mccortex63", "mccortex95": "/usr/local/bin/mccortex95", "nextflow": "/usr/local/bin/nextflow", "nextflow.bak": "/usr/local/bin/nextflow.bak", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
+config: {"url": "https://biocontainers.pro/tools/abeona", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abeona", "latest": {"0.45.0--py_1": "sha256:92d871b719db0051914b368484811e2ea2eb47c71a6c16c9a510ae5fc610268a"}, "tags": {"0.45.0--py_1": "sha256:92d871b719db0051914b368484811e2ea2eb47c71a6c16c9a510ae5fc610268a"}, "docker": "quay.io/biocontainers/abeona", "aliases": {"abeona": "/usr/local/bin/abeona", "cortexpy": "/usr/local/bin/cortexpy", "kallisto": "/usr/local/bin/kallisto", "mccortex": "/usr/local/bin/mccortex", "mccortex127": "/usr/local/bin/mccortex127", "mccortex31": "/usr/local/bin/mccortex31", "mccortex63": "/usr/local/bin/mccortex63", "mccortex95": "/usr/local/bin/mccortex95", "nextflow": "/usr/local/bin/nextflow", "nextflow.bak": "/usr/local/bin/nextflow.bak", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abeona.

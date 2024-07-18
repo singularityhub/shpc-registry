@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lightning"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lightning/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lightning/container.yaml"
-updated_at: "2024-07-17 03:04:57.836074"
+updated_at: "2024-07-18 03:03:12.937400"
 latest: "0.2.dev0--py36_0"
 container_url: "https://biocontainers.pro/tools/lightning"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.2.dev0--py36_0"
 description: "shpc-registry automated BioContainers addition for lightning"
-config: {"url": "https://biocontainers.pro/tools/lightning", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lightning", "latest": {"0.2.dev0--py36_0": "sha256:37b1cab09b1561e6839b19d0215f5fa827d899ce6fddaaa8bbff6c23e0f69cac"}, "tags": {"0.2.dev0--py36_0": "sha256:37b1cab09b1561e6839b19d0215f5fa827d899ce6fddaaa8bbff6c23e0f69cac"}, "docker": "quay.io/biocontainers/lightning", "aliases": {"lightning_predict": "/usr/local/bin/lightning_predict", "lightning_train": "/usr/local/bin/lightning_train", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/lightning", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lightning", "latest": {"0.2.dev0--py36_0": "sha256:eb27fe26cb73f09b150a800eaad9a1acfc0835c82ca680b785845d3359d7287a"}, "tags": {"0.2.dev0--py36_0": "sha256:eb27fe26cb73f09b150a800eaad9a1acfc0835c82ca680b785845d3359d7287a"}, "docker": "quay.io/biocontainers/lightning", "aliases": {"lightning_predict": "/usr/local/bin/lightning_predict", "lightning_train": "/usr/local/bin/lightning_train", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lightning.

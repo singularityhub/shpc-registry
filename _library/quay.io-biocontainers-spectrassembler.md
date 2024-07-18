@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spectrassembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spectrassembler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spectrassembler/container.yaml"
-updated_at: "2024-07-17 02:44:35.433029"
+updated_at: "2024-07-18 02:43:41.288567"
 latest: "0.0.1a1--py_4"
 container_url: "https://biocontainers.pro/tools/spectrassembler"
 aliases:
@@ -28,7 +28,7 @@ aliases:
 versions:
  - "0.0.1a1--py_4"
 description: "shpc-registry automated BioContainers addition for spectrassembler"
-config: {"url": "https://biocontainers.pro/tools/spectrassembler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spectrassembler", "latest": {"0.0.1a1--py_4": "sha256:be47b95d8cbd68a41537fbc23b25a216e0b698b3a30482403ad8cd5a7975cdeb"}, "tags": {"0.0.1a1--py_4": "sha256:be47b95d8cbd68a41537fbc23b25a216e0b698b3a30482403ad8cd5a7975cdeb"}, "docker": "quay.io/biocontainers/spectrassembler", "aliases": {"gen_cons_from_poa.py": "/usr/local/bin/gen_cons_from_poa.py", "get_position_from_sam.py": "/usr/local/bin/get_position_from_sam.py", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "minimap": "/usr/local/bin/minimap", "minimap-lite": "/usr/local/bin/minimap-lite", "poa": "/usr/local/bin/poa", "spectral_layout_from_minimap.py": "/usr/local/bin/spectral_layout_from_minimap.py", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
+config: {"url": "https://biocontainers.pro/tools/spectrassembler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spectrassembler", "latest": {"0.0.1a1--py_4": "sha256:b6a615793090b6654fb3f5b52453f0c8476fba7f672fd287c6de9012807288ca"}, "tags": {"0.0.1a1--py_4": "sha256:b6a615793090b6654fb3f5b52453f0c8476fba7f672fd287c6de9012807288ca"}, "docker": "quay.io/biocontainers/spectrassembler", "aliases": {"gen_cons_from_poa.py": "/usr/local/bin/gen_cons_from_poa.py", "get_position_from_sam.py": "/usr/local/bin/get_position_from_sam.py", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "minimap": "/usr/local/bin/minimap", "minimap-lite": "/usr/local/bin/minimap-lite", "poa": "/usr/local/bin/poa", "spectral_layout_from_minimap.py": "/usr/local/bin/spectral_layout_from_minimap.py", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spectrassembler.

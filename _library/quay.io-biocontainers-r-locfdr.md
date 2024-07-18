@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-locfdr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-locfdr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-locfdr/container.yaml"
-updated_at: "2024-07-17 03:09:24.600531"
+updated_at: "2024-07-18 03:07:33.352343"
 latest: "1.1_8--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-locfdr"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.1_8--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-locfdr"
-config: {"url": "https://biocontainers.pro/tools/r-locfdr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-locfdr", "latest": {"1.1_8--r3.3.1_0": "sha256:796398bddf68722ddaba0c9084f10f2185832f873b2b34edfc15aa049ee90e20"}, "tags": {"1.1_8--r3.3.1_0": "sha256:796398bddf68722ddaba0c9084f10f2185832f873b2b34edfc15aa049ee90e20"}, "docker": "quay.io/biocontainers/r-locfdr", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-locfdr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-locfdr", "latest": {"1.1_8--r3.3.1_0": "sha256:006c4461b5a0648970d8b48eb8b10bd0f637a014de5942ba7923014fee98efca"}, "tags": {"1.1_8--r3.3.1_0": "sha256:006c4461b5a0648970d8b48eb8b10bd0f637a014de5942ba7923014fee98efca"}, "docker": "quay.io/biocontainers/r-locfdr", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-locfdr.

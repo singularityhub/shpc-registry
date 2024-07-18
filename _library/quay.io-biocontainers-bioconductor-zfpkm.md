@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-zfpkm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-zfpkm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-zfpkm/container.yaml"
-updated_at: "2024-07-17 02:36:43.964031"
+updated_at: "2024-07-18 02:36:07.542718"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-zfpkm"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-zfpkm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-zfpkm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-zfpkm", "latest": {"1.24.0--r43hdfd78af_0": "sha256:96d351b523f04afc5f97f4851b09e35106a4efbd3638890e10c914e5d6171464"}, "tags": {"1.8.0--r36_0": "sha256:af4ad1c895a96d86107ad5e8837b0273de6ee31e77ec62a79253804d22122a92", "1.20.0--r42hdfd78af_0": "sha256:adb1220009f98915c5b53c95dfa853d1ea5f8a88fb721129a5903db0b6f4d8b0", "1.16.0--r41hdfd78af_0": "sha256:9aa335bf89d380b31422aae1fc96f9aaef58685b027e20fec8dec22b67fd8cc9", "1.14.0--r41hdfd78af_0": "sha256:86b132fdcbb4bcff4fe2fd905babccfdd037bb3244512eda86fe238ec659cc4d", "1.12.0--r40hdfd78af_1": "sha256:db43b29059712b9402069227451ddb345d5e6c95f4743252cae7b031f783d594", "1.10.0--r40_0": "sha256:8e6968ba32f10c02335127dd2c5d1af8a250c94cb19f24bcf2722941b174cb76", "1.22.0--r43hdfd78af_0": "sha256:152979958702c3a9392e95e6ddf29b3b688b394419b873166e0da9fbe5456876", "1.24.0--r43hdfd78af_0": "sha256:96d351b523f04afc5f97f4851b09e35106a4efbd3638890e10c914e5d6171464"}, "docker": "quay.io/biocontainers/bioconductor-zfpkm", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-zfpkm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-zfpkm", "latest": {"1.24.0--r43hdfd78af_0": "sha256:96d351b523f04afc5f97f4851b09e35106a4efbd3638890e10c914e5d6171464"}, "tags": {"1.8.0--r36_0": "sha256:debbab980d418a8303768bf7246da86c30dd649ae99bf1ad0e24229d0f90ed71", "1.20.0--r42hdfd78af_0": "sha256:adb1220009f98915c5b53c95dfa853d1ea5f8a88fb721129a5903db0b6f4d8b0", "1.16.0--r41hdfd78af_0": "sha256:9aa335bf89d380b31422aae1fc96f9aaef58685b027e20fec8dec22b67fd8cc9", "1.14.0--r41hdfd78af_0": "sha256:86b132fdcbb4bcff4fe2fd905babccfdd037bb3244512eda86fe238ec659cc4d", "1.12.0--r40hdfd78af_1": "sha256:db43b29059712b9402069227451ddb345d5e6c95f4743252cae7b031f783d594", "1.10.0--r40_0": "sha256:8e6968ba32f10c02335127dd2c5d1af8a250c94cb19f24bcf2722941b174cb76", "1.22.0--r43hdfd78af_0": "sha256:152979958702c3a9392e95e6ddf29b3b688b394419b873166e0da9fbe5456876", "1.24.0--r43hdfd78af_0": "sha256:96d351b523f04afc5f97f4851b09e35106a4efbd3638890e10c914e5d6171464"}, "docker": "quay.io/biocontainers/bioconductor-zfpkm", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-zfpkm.

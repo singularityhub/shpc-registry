@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samsift"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samsift/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samsift/container.yaml"
-updated_at: "2024-07-17 03:14:29.136588"
+updated_at: "2024-07-18 03:12:32.517130"
 latest: "0.2.5--py_3"
 container_url: "https://biocontainers.pro/tools/samsift"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.2.5--py_3"
 description: "shpc-registry automated BioContainers addition for samsift"
-config: {"url": "https://biocontainers.pro/tools/samsift", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samsift", "latest": {"0.2.5--py_3": "sha256:30cbaad99fcb57d9618bc764e71573dfbf3cd4d431d9622d0aec170ac26f2c54"}, "tags": {"0.2.5--py_3": "sha256:30cbaad99fcb57d9618bc764e71573dfbf3cd4d431d9622d0aec170ac26f2c54"}, "docker": "quay.io/biocontainers/samsift", "aliases": {"samsift": "/usr/local/bin/samsift", "samsift-norm-sam": "/usr/local/bin/samsift-norm-sam", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6"}}
+config: {"url": "https://biocontainers.pro/tools/samsift", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samsift", "latest": {"0.2.5--py_3": "sha256:8a653062e62faec4b745c1855ac8fd823a5a45714bb8303db8f20455f481e833"}, "tags": {"0.2.5--py_3": "sha256:8a653062e62faec4b745c1855ac8fd823a5a45714bb8303db8f20455f481e833"}, "docker": "quay.io/biocontainers/samsift", "aliases": {"samsift": "/usr/local/bin/samsift", "samsift-norm-sam": "/usr/local/bin/samsift-norm-sam", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samsift.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xxmotif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xxmotif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xxmotif/container.yaml"
-updated_at: "2024-07-17 02:51:24.935905"
+updated_at: "2024-07-18 02:50:08.498328"
 latest: "1.6--h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/xxmotif"
 aliases:
@@ -13,7 +13,7 @@ versions:
  - "1.6--h2d50403_2"
  - "1.6--h9f5acd7_4"
 description: "shpc-registry automated BioContainers addition for xxmotif"
-config: {"url": "https://biocontainers.pro/tools/xxmotif", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xxmotif", "latest": {"1.6--h9f5acd7_4": "sha256:9808ac633c97cfb8b72b301b3793eec306c6638bb2f1e16f368fe7756c80b420"}, "tags": {"1.6--h2d50403_2": "sha256:55f62289c34138832c85eaf3d5b9a832f912ae0e7a47c4a492c33dc8923a0e84", "1.6--h9f5acd7_4": "sha256:9808ac633c97cfb8b72b301b3793eec306c6638bb2f1e16f368fe7756c80b420"}, "docker": "quay.io/biocontainers/xxmotif", "aliases": {"XXmotif": "/usr/local/bin/XXmotif"}}
+config: {"url": "https://biocontainers.pro/tools/xxmotif", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xxmotif", "latest": {"1.6--h9f5acd7_4": "sha256:9808ac633c97cfb8b72b301b3793eec306c6638bb2f1e16f368fe7756c80b420"}, "tags": {"1.6--h2d50403_2": "sha256:7bc01cae2dde50784481c04307362f1c9bb46ed8c2e79462642d7a5ea662e378", "1.6--h9f5acd7_4": "sha256:9808ac633c97cfb8b72b301b3793eec306c6638bb2f1e16f368fe7756c80b420"}, "docker": "quay.io/biocontainers/xxmotif", "aliases": {"XXmotif": "/usr/local/bin/XXmotif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xxmotif.

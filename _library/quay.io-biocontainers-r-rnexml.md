@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rnexml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rnexml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rnexml/container.yaml"
-updated_at: "2024-07-17 03:22:41.214099"
+updated_at: "2024-07-18 03:20:47.393826"
 latest: "2.4.0--r36h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-rnexml"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "2.4.0--r36h6115d3f_0"
 description: "shpc-registry automated BioContainers addition for r-rnexml"
-config: {"url": "https://biocontainers.pro/tools/r-rnexml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rnexml", "latest": {"2.4.0--r36h6115d3f_0": "sha256:ea3a94e57d16abd4078e28c44dc2032eb0c66f244bb0abfc1265fd6d397acab1"}, "tags": {"2.4.0--r36h6115d3f_0": "sha256:ea3a94e57d16abd4078e28c44dc2032eb0c66f244bb0abfc1265fd6d397acab1"}, "docker": "quay.io/biocontainers/r-rnexml", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-rnexml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rnexml", "latest": {"2.4.0--r36h6115d3f_0": "sha256:c08cd45389d75278d426431ec5dca87aa01019c841b768e62325a641cd4ae5dc"}, "tags": {"2.4.0--r36h6115d3f_0": "sha256:c08cd45389d75278d426431ec5dca87aa01019c841b768e62325a641cd4ae5dc"}, "docker": "quay.io/biocontainers/r-rnexml", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rnexml.

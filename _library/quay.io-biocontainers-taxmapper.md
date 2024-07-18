@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxmapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxmapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxmapper/container.yaml"
-updated_at: "2024-07-17 03:22:57.306405"
+updated_at: "2024-07-18 03:21:03.668099"
 latest: "1.0.2--py_3"
 container_url: "https://biocontainers.pro/tools/taxmapper"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.0.2--py_3"
 description: "shpc-registry automated BioContainers addition for taxmapper"
-config: {"url": "https://biocontainers.pro/tools/taxmapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taxmapper", "latest": {"1.0.2--py_3": "sha256:080f59425c21689eba6561f7ac7602b0950d75eca67b8f8da268e033da281eee"}, "tags": {"1.0.2--py_3": "sha256:080f59425c21689eba6561f7ac7602b0950d75eca67b8f8da268e033da281eee"}, "docker": "quay.io/biocontainers/taxmapper", "aliases": {"ddls": "/usr/local/bin/ddls", "taxmapper": "/usr/local/bin/taxmapper", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil"}}
+config: {"url": "https://biocontainers.pro/tools/taxmapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taxmapper", "latest": {"1.0.2--py_3": "sha256:7f3bec659eab7ecda8fd3d95f3841170dc70b1046450bccd5811ab8058ee0949"}, "tags": {"1.0.2--py_3": "sha256:7f3bec659eab7ecda8fd3d95f3841170dc70b1046450bccd5811ab8058ee0949"}, "docker": "quay.io/biocontainers/taxmapper", "aliases": {"ddls": "/usr/local/bin/ddls", "taxmapper": "/usr/local/bin/taxmapper", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/taxmapper.

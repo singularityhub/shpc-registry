@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/funnel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/funnel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/funnel/container.yaml"
-updated_at: "2024-07-17 02:38:23.791010"
+updated_at: "2024-07-18 02:37:45.341297"
 latest: "0.9.0--0"
 container_url: "https://biocontainers.pro/tools/funnel"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "0.9.0--0"
 description: "shpc-registry automated BioContainers addition for funnel"
-config: {"url": "https://biocontainers.pro/tools/funnel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for funnel", "latest": {"0.9.0--0": "sha256:2223e578f813e945f3c488f0fb36c938e7c05fbfea763a185aabfeba2521e4c1"}, "tags": {"0.9.0--0": "sha256:2223e578f813e945f3c488f0fb36c938e7c05fbfea763a185aabfeba2521e4c1"}, "docker": "quay.io/biocontainers/funnel", "aliases": {"funnel": "/usr/local/bin/funnel"}}
+config: {"url": "https://biocontainers.pro/tools/funnel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for funnel", "latest": {"0.9.0--0": "sha256:35c0536dd2283e197b83163a8518d0ffb7851f1c198790d14556f39f239cbe54"}, "tags": {"0.9.0--0": "sha256:35c0536dd2283e197b83163a8518d0ffb7851f1c198790d14556f39f239cbe54"}, "docker": "quay.io/biocontainers/funnel", "aliases": {"funnel": "/usr/local/bin/funnel"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/funnel.

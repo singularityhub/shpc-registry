@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-factominer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-factominer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-factominer/container.yaml"
-updated_at: "2024-07-17 02:57:23.782036"
+updated_at: "2024-07-18 02:55:55.113270"
 latest: "1.38--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-factominer"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.38--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-factominer"
-config: {"url": "https://biocontainers.pro/tools/r-factominer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-factominer", "latest": {"1.38--r3.4.1_0": "sha256:ede134ec5ad35a1d310ba4a4743bc01432728072fdf389b3a5eb1aaa7905f706"}, "tags": {"1.38--r3.4.1_0": "sha256:ede134ec5ad35a1d310ba4a4743bc01432728072fdf389b3a5eb1aaa7905f706"}, "docker": "quay.io/biocontainers/r-factominer", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-factominer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-factominer", "latest": {"1.38--r3.4.1_0": "sha256:0336eab740614bc96d1986007f244172c67e9b5b713cf42afc0f4707b732a63d"}, "tags": {"1.38--r3.4.1_0": "sha256:0336eab740614bc96d1986007f244172c67e9b5b713cf42afc0f4707b732a63d"}, "docker": "quay.io/biocontainers/r-factominer", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-factominer.

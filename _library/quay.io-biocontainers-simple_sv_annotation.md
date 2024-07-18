@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/simple_sv_annotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simple_sv_annotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simple_sv_annotation/container.yaml"
-updated_at: "2024-07-17 02:56:47.258503"
+updated_at: "2024-07-18 02:55:20.050937"
 latest: "2019.02.18--py_0"
 container_url: "https://biocontainers.pro/tools/simple_sv_annotation"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "2019.02.18--py_0"
 description: "shpc-registry automated BioContainers addition for simple_sv_annotation"
-config: {"url": "https://biocontainers.pro/tools/simple_sv_annotation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simple_sv_annotation", "latest": {"2019.02.18--py_0": "sha256:11927af54b29a9945e3e0cc9d58775d2dc8fd9c6df551d791b53d118628a3985"}, "tags": {"2019.02.18--py_0": "sha256:11927af54b29a9945e3e0cc9d58775d2dc8fd9c6df551d791b53d118628a3985"}, "docker": "quay.io/biocontainers/simple_sv_annotation", "aliases": {"simple_sv_annotation.py": "/usr/local/bin/simple_sv_annotation.py", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
+config: {"url": "https://biocontainers.pro/tools/simple_sv_annotation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simple_sv_annotation", "latest": {"2019.02.18--py_0": "sha256:fd3235bb40a863c662c17209c6801bb608f6638edbcc3403c0e281c56ed158e6"}, "tags": {"2019.02.18--py_0": "sha256:fd3235bb40a863c662c17209c6801bb608f6638edbcc3403c0e281c56ed158e6"}, "docker": "quay.io/biocontainers/simple_sv_annotation", "aliases": {"simple_sv_annotation.py": "/usr/local/bin/simple_sv_annotation.py", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/simple_sv_annotation.

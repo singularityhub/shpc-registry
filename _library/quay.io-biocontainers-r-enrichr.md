@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-enrichr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-enrichr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-enrichr/container.yaml"
-updated_at: "2024-07-17 02:38:56.381560"
+updated_at: "2024-07-18 02:38:17.171346"
 latest: "1.0--r36h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-enrichr"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.0--r36h6115d3f_1"
 description: "shpc-registry automated BioContainers addition for r-enrichr"
-config: {"url": "https://biocontainers.pro/tools/r-enrichr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-enrichr", "latest": {"1.0--r36h6115d3f_1": "sha256:304e260c72d1d10059080eb3a97cf1368146bf6b406eb4407b45c79e49cc0f94"}, "tags": {"1.0--r36h6115d3f_1": "sha256:304e260c72d1d10059080eb3a97cf1368146bf6b406eb4407b45c79e49cc0f94"}, "docker": "quay.io/biocontainers/r-enrichr", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-enrichr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-enrichr", "latest": {"1.0--r36h6115d3f_1": "sha256:77837819b677d8fa87722d9a75cd768cbc47306dae2128fb4392e5558c029f83"}, "tags": {"1.0--r36h6115d3f_1": "sha256:77837819b677d8fa87722d9a75cd768cbc47306dae2128fb4392e5558c029f83"}, "docker": "quay.io/biocontainers/r-enrichr", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-enrichr.

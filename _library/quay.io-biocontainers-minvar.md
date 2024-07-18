@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minvar/container.yaml"
-updated_at: "2024-07-17 02:41:17.597481"
+updated_at: "2024-07-18 02:40:32.788050"
 latest: "2.2.2--py_1"
 container_url: "https://biocontainers.pro/tools/minvar"
 aliases:
@@ -28,7 +28,7 @@ aliases:
 versions:
  - "2.2.2--py_1"
 description: "shpc-registry automated BioContainers addition for minvar"
-config: {"url": "https://biocontainers.pro/tools/minvar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minvar", "latest": {"2.2.2--py_1": "sha256:7f4f5a62c61849700a6e8c4cd81964f8ec7c5192cd649b3e905f362218c3e1b9"}, "tags": {"2.2.2--py_1": "sha256:7f4f5a62c61849700a6e8c4cd81964f8ec7c5192cd649b3e905f362218c3e1b9"}, "docker": "quay.io/biocontainers/minvar", "aliases": {"_gdlib-config": "/usr/local/bin/_gdlib-config", "blast2sam": "/usr/local/bin/blast2sam", "lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "minvar": "/usr/local/bin/minvar", "sierrapy": "/usr/local/bin/sierrapy", "_bdftogd": "/usr/local/bin/_bdftogd", "_gd2copypal": "/usr/local/bin/_gd2copypal", "_gd2togif": "/usr/local/bin/_gd2togif", "_gd2topng": "/usr/local/bin/_gd2topng", "_gdcmpgif": "/usr/local/bin/_gdcmpgif", "_gdparttopng": "/usr/local/bin/_gdparttopng", "_gdtopng": "/usr/local/bin/_gdtopng", "_giftogd2": "/usr/local/bin/_giftogd2", "_pngtogd": "/usr/local/bin/_pngtogd", "_pngtogd2": "/usr/local/bin/_pngtogd2"}}
+config: {"url": "https://biocontainers.pro/tools/minvar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minvar", "latest": {"2.2.2--py_1": "sha256:4eb9856486128a4e3f9006a76789121489636ad44542c1bfc22df7a9db6ba525"}, "tags": {"2.2.2--py_1": "sha256:4eb9856486128a4e3f9006a76789121489636ad44542c1bfc22df7a9db6ba525"}, "docker": "quay.io/biocontainers/minvar", "aliases": {"_gdlib-config": "/usr/local/bin/_gdlib-config", "blast2sam": "/usr/local/bin/blast2sam", "lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "minvar": "/usr/local/bin/minvar", "sierrapy": "/usr/local/bin/sierrapy", "_bdftogd": "/usr/local/bin/_bdftogd", "_gd2copypal": "/usr/local/bin/_gd2copypal", "_gd2togif": "/usr/local/bin/_gd2togif", "_gd2topng": "/usr/local/bin/_gd2topng", "_gdcmpgif": "/usr/local/bin/_gdcmpgif", "_gdparttopng": "/usr/local/bin/_gdparttopng", "_gdtopng": "/usr/local/bin/_gdtopng", "_giftogd2": "/usr/local/bin/_giftogd2", "_pngtogd": "/usr/local/bin/_pngtogd", "_pngtogd2": "/usr/local/bin/_pngtogd2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/minvar.

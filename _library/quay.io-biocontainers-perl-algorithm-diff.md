@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-algorithm-diff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-algorithm-diff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-algorithm-diff/container.yaml"
-updated_at: "2024-07-17 03:24:25.516752"
+updated_at: "2024-07-18 03:22:32.811526"
 latest: "1.1903--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-algorithm-diff"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.1903--pl526_2"
 description: "shpc-registry automated BioContainers addition for perl-algorithm-diff"
-config: {"url": "https://biocontainers.pro/tools/perl-algorithm-diff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-algorithm-diff", "latest": {"1.1903--pl526_2": "sha256:f66747b7cd48504250af7bc627aed142f97983e1ea122663f3a3e3f82bb3e844"}, "tags": {"1.1903--pl526_2": "sha256:f66747b7cd48504250af7bc627aed142f97983e1ea122663f3a3e3f82bb3e844"}, "docker": "quay.io/biocontainers/perl-algorithm-diff", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-algorithm-diff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-algorithm-diff", "latest": {"1.1903--pl526_2": "sha256:ac9f4f9cf2b17fbe4bc84415cb3541729fc34eb25ea0a365fc3aa0372cd69786"}, "tags": {"1.1903--pl526_2": "sha256:ac9f4f9cf2b17fbe4bc84415cb3541729fc34eb25ea0a365fc3aa0372cd69786"}, "docker": "quay.io/biocontainers/perl-algorithm-diff", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-algorithm-diff.

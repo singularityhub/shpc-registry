@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-consensuscore2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-consensuscore2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-consensuscore2/container.yaml"
-updated_at: "2024-07-17 02:40:05.667019"
+updated_at: "2024-07-18 02:39:23.986825"
 latest: "3.4.1--py27_0"
 container_url: "https://biocontainers.pro/tools/python-consensuscore2"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "3.4.1--py27_0"
 description: "shpc-registry automated BioContainers addition for python-consensuscore2"
-config: {"url": "https://biocontainers.pro/tools/python-consensuscore2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-consensuscore2", "latest": {"3.4.1--py27_0": "sha256:4f3ca83c66bb9cc4ca77cf56dd40988c44d6caa8f7da8c65c8f2aa4b4f08100e"}, "tags": {"3.4.1--py27_0": "sha256:4f3ca83c66bb9cc4ca77cf56dd40988c44d6caa8f7da8c65c8f2aa4b4f08100e"}, "docker": "quay.io/biocontainers/python-consensuscore2", "aliases": {"f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/python-consensuscore2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-consensuscore2", "latest": {"3.4.1--py27_0": "sha256:4c3530422be9a91e34415062af34b803eceadfb48e3ad7c34c4b949789d3178b"}, "tags": {"3.4.1--py27_0": "sha256:4c3530422be9a91e34415062af34b803eceadfb48e3ad7c34c4b949789d3178b"}, "docker": "quay.io/biocontainers/python-consensuscore2", "aliases": {"f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-consensuscore2.

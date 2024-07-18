@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aenum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aenum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aenum/container.yaml"
-updated_at: "2024-07-17 02:51:38.694248"
+updated_at: "2024-07-18 02:50:21.464349"
 latest: "2.0.8--py35_0"
 container_url: "https://biocontainers.pro/tools/aenum"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "2.0.8--py35_0"
  - "2.0.8--py36_0"
 description: "shpc-registry automated BioContainers addition for aenum"
-config: {"url": "https://biocontainers.pro/tools/aenum", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aenum", "latest": {"2.0.8--py35_0": "sha256:0f87b552d190b86526073b5e2da525f1a4d107403cf1d939d642306c575d5484"}, "tags": {"2.0.8--py35_0": "sha256:0f87b552d190b86526073b5e2da525f1a4d107403cf1d939d642306c575d5484", "2.0.8--py36_0": "sha256:23852883a400af73c424cf5ac864ba9b41883c5767445f637def6f201b101129"}, "docker": "quay.io/biocontainers/aenum", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/aenum", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aenum", "latest": {"2.0.8--py35_0": "sha256:fb277d201353a71c2a7812c7f4073d6efbf0e09568c4a26dd085235236488d81"}, "tags": {"2.0.8--py35_0": "sha256:fb277d201353a71c2a7812c7f4073d6efbf0e09568c4a26dd085235236488d81", "2.0.8--py36_0": "sha256:94bf633952cdde0760bafe7356ba447c2daf8658a7b67fad0acfaa0d2a7ac9fe"}, "docker": "quay.io/biocontainers/aenum", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aenum.

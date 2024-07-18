@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/requests-mock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/requests-mock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/requests-mock/container.yaml"
-updated_at: "2024-07-17 02:37:29.199773"
+updated_at: "2024-07-18 02:36:51.841270"
 latest: "1.0.0--py27_1"
 container_url: "https://biocontainers.pro/tools/requests-mock"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "1.0.0--py27_1"
  - "1.0.0--py36_1"
 description: "shpc-registry automated BioContainers addition for requests-mock"
-config: {"url": "https://biocontainers.pro/tools/requests-mock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for requests-mock", "latest": {"1.0.0--py27_1": "sha256:e2734501a87e60615c245f9b5c3508ecb19e7708adf63512431897f76229e01f"}, "tags": {"1.0.0--py27_1": "sha256:e2734501a87e60615c245f9b5c3508ecb19e7708adf63512431897f76229e01f", "1.0.0--py36_1": "sha256:20396748fe6a189a6c6a6e79a66da01a33735b138dc780cee95aff6132c40f16"}, "docker": "quay.io/biocontainers/requests-mock", "aliases": {"pbr": "/usr/local/bin/pbr", "chardetect": "/usr/local/bin/chardetect", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
+config: {"url": "https://biocontainers.pro/tools/requests-mock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for requests-mock", "latest": {"1.0.0--py27_1": "sha256:990a2e16c706dfa89398ff496dc62f5f00bc543a2a28f947da3529db7c35272a"}, "tags": {"1.0.0--py27_1": "sha256:990a2e16c706dfa89398ff496dc62f5f00bc543a2a28f947da3529db7c35272a", "1.0.0--py36_1": "sha256:c796346b1ac4cad1c3ff7c129705a8a10ef5927a64d975e2648e941a4df91cf2"}, "docker": "quay.io/biocontainers/requests-mock", "aliases": {"pbr": "/usr/local/bin/pbr", "chardetect": "/usr/local/bin/chardetect", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/requests-mock.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-sharedir-install"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-sharedir-install/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-sharedir-install/container.yaml"
-updated_at: "2024-07-17 03:18:18.678247"
+updated_at: "2024-07-18 03:16:20.788589"
 latest: "0.13--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-file-sharedir-install"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.13--pl526_0"
 description: "shpc-registry automated BioContainers addition for perl-file-sharedir-install"
-config: {"url": "https://biocontainers.pro/tools/perl-file-sharedir-install", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-sharedir-install", "latest": {"0.13--pl526_0": "sha256:78b966a8af8b4f633e8571085f3369c5e3cfa0b153ad04730716e553d8373fbb"}, "tags": {"0.13--pl526_0": "sha256:78b966a8af8b4f633e8571085f3369c5e3cfa0b153ad04730716e553d8373fbb"}, "docker": "quay.io/biocontainers/perl-file-sharedir-install", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-file-sharedir-install", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-sharedir-install", "latest": {"0.13--pl526_0": "sha256:8bbd73190eb1483715caf4a7f3c03cc39b32586050f9c0f7033cef94cc76cff1"}, "tags": {"0.13--pl526_0": "sha256:8bbd73190eb1483715caf4a7f3c03cc39b32586050f9c0f7033cef94cc76cff1"}, "docker": "quay.io/biocontainers/perl-file-sharedir-install", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-file-sharedir-install.

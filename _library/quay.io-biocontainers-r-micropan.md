@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-micropan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-micropan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-micropan/container.yaml"
-updated_at: "2024-07-17 03:14:17.408865"
+updated_at: "2024-07-18 03:12:21.011639"
 latest: "1.2--r351h29659fb_1"
 container_url: "https://biocontainers.pro/tools/r-micropan"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.2--r351h29659fb_1"
 description: "shpc-registry automated BioContainers addition for r-micropan"
-config: {"url": "https://biocontainers.pro/tools/r-micropan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-micropan", "latest": {"1.2--r351h29659fb_1": "sha256:ce72f0cb3798863e05bf1d4d255780f4d5e77750103c35276a63055d1b91fc59"}, "tags": {"1.2--r351h29659fb_1": "sha256:ce72f0cb3798863e05bf1d4d255780f4d5e77750103c35276a63055d1b91fc59"}, "docker": "quay.io/biocontainers/r-micropan", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-micropan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-micropan", "latest": {"1.2--r351h29659fb_1": "sha256:70153611b64ffe64e8d69cfd44d8f8cbddda91e725afc5b8faf94aafb8e54128"}, "tags": {"1.2--r351h29659fb_1": "sha256:70153611b64ffe64e8d69cfd44d8f8cbddda91e725afc5b8faf94aafb8e54128"}, "docker": "quay.io/biocontainers/r-micropan", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-micropan.

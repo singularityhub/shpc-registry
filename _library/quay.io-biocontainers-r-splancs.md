@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-splancs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-splancs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-splancs/container.yaml"
-updated_at: "2024-07-17 03:02:46.163505"
+updated_at: "2024-07-18 03:01:06.084155"
 latest: "2.01_38--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-splancs"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "2.01_38--r3.3.2_0"
+ - "2.01_38--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-splancs"
-config: {"url": "https://biocontainers.pro/tools/r-splancs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-splancs", "latest": {"2.01_38--r3.3.2_0": "sha256:9e4b3d5f1e47b98c977fbc3a5f05855702b7d37ddb908251bc54310c3588c19b"}, "tags": {"2.01_38--r3.3.2_0": "sha256:9e4b3d5f1e47b98c977fbc3a5f05855702b7d37ddb908251bc54310c3588c19b"}, "docker": "quay.io/biocontainers/r-splancs", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-splancs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-splancs", "latest": {"2.01_38--r3.3.2_0": "sha256:8c62a89f78f9288ccac77ea4227ac7166392d33fd47ac6676273982ffbbeb687"}, "tags": {"2.01_38--r3.3.2_0": "sha256:8c62a89f78f9288ccac77ea4227ac7166392d33fd47ac6676273982ffbbeb687", "2.01_38--r3.2.2_0": "sha256:cd7bcfb85c4d0fbd7dc744f636dc6e372a680fdc4beeecadfcd8b86b53f2d26e"}, "docker": "quay.io/biocontainers/r-splancs", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-splancs.

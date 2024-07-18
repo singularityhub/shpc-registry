@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gcs-oauth2-boto-plugin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gcs-oauth2-boto-plugin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gcs-oauth2-boto-plugin/container.yaml"
-updated_at: "2024-07-17 03:17:51.276692"
+updated_at: "2024-07-18 03:15:52.475729"
 latest: "1.9--py27_1"
 container_url: "https://biocontainers.pro/tools/gcs-oauth2-boto-plugin"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.9--py27_1"
 description: "shpc-registry automated BioContainers addition for gcs-oauth2-boto-plugin"
-config: {"url": "https://biocontainers.pro/tools/gcs-oauth2-boto-plugin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gcs-oauth2-boto-plugin", "latest": {"1.9--py27_1": "sha256:9cdca061449225c40d6296fbd3d992c4517104996d6c2f88dbc2f7ddb0254791"}, "tags": {"1.9--py27_1": "sha256:9cdca061449225c40d6296fbd3d992c4517104996d6c2f88dbc2f7ddb0254791"}, "docker": "quay.io/biocontainers/gcs-oauth2-boto-plugin", "aliases": {"pyrsa-decrypt-bigfile": "/usr/local/bin/pyrsa-decrypt-bigfile", "pyrsa-encrypt-bigfile": "/usr/local/bin/pyrsa-encrypt-bigfile", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin"}}
+config: {"url": "https://biocontainers.pro/tools/gcs-oauth2-boto-plugin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gcs-oauth2-boto-plugin", "latest": {"1.9--py27_1": "sha256:f0c3d36964a1fc557fd88d346eabd218a404ba4d2153403e2075fa8b7f779f10"}, "tags": {"1.9--py27_1": "sha256:f0c3d36964a1fc557fd88d346eabd218a404ba4d2153403e2075fa8b7f779f10"}, "docker": "quay.io/biocontainers/gcs-oauth2-boto-plugin", "aliases": {"pyrsa-decrypt-bigfile": "/usr/local/bin/pyrsa-decrypt-bigfile", "pyrsa-encrypt-bigfile": "/usr/local/bin/pyrsa-encrypt-bigfile", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gcs-oauth2-boto-plugin.

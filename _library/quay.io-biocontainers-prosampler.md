@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prosampler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prosampler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prosampler/container.yaml"
-updated_at: "2024-07-17 02:37:39.692983"
+updated_at: "2024-07-18 02:37:02.064846"
 latest: "1.5--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/prosampler"
 aliases:
@@ -13,7 +13,7 @@ versions:
  - "1.0--hc9558a2_0"
  - "1.5--h4ac6f70_0"
 description: "shpc-registry automated BioContainers addition for prosampler"
-config: {"url": "https://biocontainers.pro/tools/prosampler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prosampler", "latest": {"1.5--h4ac6f70_0": "sha256:a2b4b7efd7cb5cec154f7fe5dedbfa9f9caf10eb36e94a77d32d93d19b2690bd"}, "tags": {"1.0--hc9558a2_0": "sha256:ba843787293490ba6ddfd410cb51331966095f4013ce845bdc308fb4183b1a0a", "1.5--h4ac6f70_0": "sha256:a2b4b7efd7cb5cec154f7fe5dedbfa9f9caf10eb36e94a77d32d93d19b2690bd"}, "docker": "quay.io/biocontainers/prosampler", "aliases": {"ProSampler": "/usr/local/bin/ProSampler"}}
+config: {"url": "https://biocontainers.pro/tools/prosampler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prosampler", "latest": {"1.5--h4ac6f70_0": "sha256:a1ede1254c03e8890c4135aad7a0ea69277ad25b0e5b15c97fbab217d37b1be4"}, "tags": {"1.0--hc9558a2_0": "sha256:7245a22307d9a301f2a94e262fb374bf70f71e99b1eb17045a25630a61e3cf26", "1.5--h4ac6f70_0": "sha256:a1ede1254c03e8890c4135aad7a0ea69277ad25b0e5b15c97fbab217d37b1be4"}, "docker": "quay.io/biocontainers/prosampler", "aliases": {"ProSampler": "/usr/local/bin/ProSampler"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prosampler.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nasm/container.yaml"
-updated_at: "2024-07-17 02:43:02.656737"
+updated_at: "2024-07-18 02:42:12.164401"
 latest: "2.11.08--0"
 container_url: "https://biocontainers.pro/tools/nasm"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "2.11.08--0"
 description: "shpc-registry automated BioContainers addition for nasm"
-config: {"url": "https://biocontainers.pro/tools/nasm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nasm", "latest": {"2.11.08--0": "sha256:3ab599f56c500d09698c2f6bd54b460a62c8acd870edb0fa07acf38b3627aa18"}, "tags": {"2.11.08--0": "sha256:3ab599f56c500d09698c2f6bd54b460a62c8acd870edb0fa07acf38b3627aa18"}, "docker": "quay.io/biocontainers/nasm", "aliases": {"nasm": "/usr/local/bin/nasm", "ndisasm": "/usr/local/bin/ndisasm"}}
+config: {"url": "https://biocontainers.pro/tools/nasm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nasm", "latest": {"2.11.08--0": "sha256:116be882abb207a68aab933453bc48883779d02a8ac07067ecff7033dd8d8e70"}, "tags": {"2.11.08--0": "sha256:116be882abb207a68aab933453bc48883779d02a8ac07067ecff7033dd8d8e70"}, "docker": "quay.io/biocontainers/nasm", "aliases": {"nasm": "/usr/local/bin/nasm", "ndisasm": "/usr/local/bin/ndisasm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nasm.

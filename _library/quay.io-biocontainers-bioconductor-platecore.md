@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-platecore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-platecore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-platecore/container.yaml"
-updated_at: "2024-07-17 03:18:16.993502"
+updated_at: "2024-07-18 03:16:19.069543"
 latest: "1.40.1--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-platecore"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.40.1--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-platecore"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-platecore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-platecore", "latest": {"1.40.1--r351_0": "sha256:893df8bdfa82f41498bbc56eca262ff534f49175c7f88237ec87f35f11f35ee9"}, "tags": {"1.40.1--r351_0": "sha256:893df8bdfa82f41498bbc56eca262ff534f49175c7f88237ec87f35f11f35ee9"}, "docker": "quay.io/biocontainers/bioconductor-platecore", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-platecore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-platecore", "latest": {"1.40.1--r351_0": "sha256:485ee8609923e118c8259e7d64fbbacf2abb56be39d6adc85deb71196597dd70"}, "tags": {"1.40.1--r351_0": "sha256:485ee8609923e118c8259e7d64fbbacf2abb56be39d6adc85deb71196597dd70"}, "docker": "quay.io/biocontainers/bioconductor-platecore", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-platecore.

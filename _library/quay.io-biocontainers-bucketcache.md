@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bucketcache"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bucketcache/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bucketcache/container.yaml"
-updated_at: "2024-07-17 03:18:05.371066"
+updated_at: "2024-07-18 03:16:07.136203"
 latest: "0.12.0--py27_0"
 container_url: "https://biocontainers.pro/tools/bucketcache"
 aliases:
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "0.12.0--py27_0"
  - "0.12.0--py36_0"
+ - "0.12.0--py35_0"
 description: "shpc-registry automated BioContainers addition for bucketcache"
-config: {"url": "https://biocontainers.pro/tools/bucketcache", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bucketcache", "latest": {"0.12.0--py27_0": "sha256:e30fcc9dcabae8e7a0084110d4fceb42b4bf04bbdc9dd854d76ea8bc537b7943"}, "tags": {"0.12.0--py27_0": "sha256:e30fcc9dcabae8e7a0084110d4fceb42b4bf04bbdc9dd854d76ea8bc537b7943", "0.12.0--py36_0": "sha256:2a5e946dbaea57a77faede2a0c756bd6d7c6733ee869bb4b4423f2d72cabbd61"}, "docker": "quay.io/biocontainers/bucketcache", "aliases": {"easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/bucketcache", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bucketcache", "latest": {"0.12.0--py27_0": "sha256:fc6055f37111b98a13e4b3df9ea05f807fd3b692e2ce7babedf78e6220287e18"}, "tags": {"0.12.0--py27_0": "sha256:fc6055f37111b98a13e4b3df9ea05f807fd3b692e2ce7babedf78e6220287e18", "0.12.0--py36_0": "sha256:b8d71824b695b5071cdf02ef81fbb8d8bc3ee85c45c0b90e0adc2b63a0ff83f1", "0.12.0--py35_0": "sha256:36121493f5705475bd51e22c9e9c46070fd9287a5bdd7a81418e5a72b16dbfc8"}, "docker": "quay.io/biocontainers/bucketcache", "aliases": {"easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bucketcache.

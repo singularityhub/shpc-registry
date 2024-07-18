@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/besst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/besst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/besst/container.yaml"
-updated_at: "2024-07-17 02:55:12.554317"
+updated_at: "2024-07-18 02:53:47.266406"
 latest: "2.2.8--py_3"
 container_url: "https://biocontainers.pro/tools/besst"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "2.2.8--py_3"
 description: "shpc-registry automated BioContainers addition for besst"
-config: {"url": "https://biocontainers.pro/tools/besst", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for besst", "latest": {"2.2.8--py_3": "sha256:8bc0e817847371a7cbc49dcc9780a94476131f659e4e4b30fec5c054dbe23b23"}, "tags": {"2.2.8--py_3": "sha256:8bc0e817847371a7cbc49dcc9780a94476131f659e4e4b30fec5c054dbe23b23"}, "docker": "quay.io/biocontainers/besst", "aliases": {"reads_to_ctg_map.py": "/usr/local/bin/reads_to_ctg_map.py", "runBESST": "/usr/local/bin/runBESST", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/besst", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for besst", "latest": {"2.2.8--py_3": "sha256:167b4d70cf83e5a593d68721326924e44bda3a97c4f7e8733f54d9f5ac4f9c16"}, "tags": {"2.2.8--py_3": "sha256:167b4d70cf83e5a593d68721326924e44bda3a97c4f7e8733f54d9f5ac4f9c16"}, "docker": "quay.io/biocontainers/besst", "aliases": {"reads_to_ctg_map.py": "/usr/local/bin/reads_to_ctg_map.py", "runBESST": "/usr/local/bin/runBESST", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/besst.

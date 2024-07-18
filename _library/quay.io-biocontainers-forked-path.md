@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/forked-path"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/forked-path/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/forked-path/container.yaml"
-updated_at: "2024-07-17 03:18:52.384019"
+updated_at: "2024-07-18 03:16:55.103907"
 latest: "0.2.3--py27_2"
 container_url: "https://biocontainers.pro/tools/forked-path"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.2.3--py27_2"
 description: "shpc-registry automated BioContainers addition for forked-path"
-config: {"url": "https://biocontainers.pro/tools/forked-path", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for forked-path", "latest": {"0.2.3--py27_2": "sha256:b4668e6180497f84d0222911a0953e705ab572b1d5d6d69cedc84f4f8be5f5ba"}, "tags": {"0.2.3--py27_2": "sha256:b4668e6180497f84d0222911a0953e705ab572b1d5d6d69cedc84f4f8be5f5ba"}, "docker": "quay.io/biocontainers/forked-path", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/forked-path", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for forked-path", "latest": {"0.2.3--py27_2": "sha256:f75589a521ed7c157911f6b136947c05895a1b2d0037dc2b5348769c83dfc4fb"}, "tags": {"0.2.3--py27_2": "sha256:f75589a521ed7c157911f6b136947c05895a1b2d0037dc2b5348769c83dfc4fb"}, "docker": "quay.io/biocontainers/forked-path", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/forked-path.

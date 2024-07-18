@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fastica"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fastica/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fastica/container.yaml"
-updated_at: "2024-07-17 02:46:55.476933"
+updated_at: "2024-07-18 02:45:53.243511"
 latest: "1.2_0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-fastica"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.2_0--r3.3.1_0"
  - "1.2_0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-fastica"
-config: {"url": "https://biocontainers.pro/tools/r-fastica", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fastica", "latest": {"1.2_0--r3.3.1_0": "sha256:aa02073838cab77fd586ebf037a7e0d99ea54165dfd8eb861080b39921dd582b"}, "tags": {"1.2_0--r3.3.1_0": "sha256:aa02073838cab77fd586ebf037a7e0d99ea54165dfd8eb861080b39921dd582b", "1.2_0--r3.3.2_0": "sha256:0363770990640ac159c0b11d09dc33ed47d1005f3a9f1c099274eb2fc63529fb"}, "docker": "quay.io/biocontainers/r-fastica", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-fastica", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fastica", "latest": {"1.2_0--r3.3.1_0": "sha256:c8dabe0d2a7943e3da21aa5245c783c7b2f9d6bde2f0620bd90dc393c155ac15"}, "tags": {"1.2_0--r3.3.1_0": "sha256:c8dabe0d2a7943e3da21aa5245c783c7b2f9d6bde2f0620bd90dc393c155ac15", "1.2_0--r3.3.2_0": "sha256:b7d937731688aecd3868932afb6541d413a2f29b2dcb7313fb5d236d6128cc0f"}, "docker": "quay.io/biocontainers/r-fastica", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-fastica.

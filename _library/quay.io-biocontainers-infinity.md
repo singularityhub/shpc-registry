@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/infinity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/infinity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/infinity/container.yaml"
-updated_at: "2024-07-17 03:04:17.053429"
+updated_at: "2024-07-18 03:02:33.473192"
 latest: "1.4--py35_0"
 container_url: "https://biocontainers.pro/tools/infinity"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "1.4--py35_0"
  - "1.4--py36_0"
 description: "shpc-registry automated BioContainers addition for infinity"
-config: {"url": "https://biocontainers.pro/tools/infinity", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for infinity", "latest": {"1.4--py35_0": "sha256:92ef4813a813497ccb176fd44cd0959e2c36029079f59e1c5fcb9cba0908360b"}, "tags": {"1.4--py35_0": "sha256:92ef4813a813497ccb176fd44cd0959e2c36029079f59e1c5fcb9cba0908360b", "1.4--py36_0": "sha256:564010ee21451f29a7f91b15fd00c4cc5c07b05b2973673fc0c18ab194bd74e3"}, "docker": "quay.io/biocontainers/infinity", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/infinity", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for infinity", "latest": {"1.4--py35_0": "sha256:0d2e2c329604527f86a9f922921164570df54324fb5a1892cfa8a8034be91557"}, "tags": {"1.4--py35_0": "sha256:0d2e2c329604527f86a9f922921164570df54324fb5a1892cfa8a8034be91557", "1.4--py36_0": "sha256:3ecb9bc9864d3885f4ba490aab493ac46386c19860a67c8b573a6bc709383972"}, "docker": "quay.io/biocontainers/infinity", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/infinity.

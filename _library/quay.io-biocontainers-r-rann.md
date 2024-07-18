@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rann"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rann/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rann/container.yaml"
-updated_at: "2024-07-17 02:51:31.197303"
+updated_at: "2024-07-18 02:50:14.437910"
 latest: "2.5--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-rann"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "2.5--r3.3.2_0"
+ - "2.5--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-rann"
-config: {"url": "https://biocontainers.pro/tools/r-rann", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rann", "latest": {"2.5--r3.3.2_0": "sha256:19aca0eadd02be9388aed948a7facdc6ab5c94b334b1e6dfd24043d99c2f8279"}, "tags": {"2.5--r3.3.2_0": "sha256:19aca0eadd02be9388aed948a7facdc6ab5c94b334b1e6dfd24043d99c2f8279"}, "docker": "quay.io/biocontainers/r-rann", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rann", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rann", "latest": {"2.5--r3.3.2_0": "sha256:f36dc8f2241448413d6c4aead5c7dff4099ad18bbf4859dcc5f985218cfec830"}, "tags": {"2.5--r3.3.2_0": "sha256:f36dc8f2241448413d6c4aead5c7dff4099ad18bbf4859dcc5f985218cfec830", "2.5--r3.3.1_0": "sha256:f989224ad915fa93190bebaf017dbc23d76e4239ad6e8fa1b3aca72b7b381daa"}, "docker": "quay.io/biocontainers/r-rann", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rann.

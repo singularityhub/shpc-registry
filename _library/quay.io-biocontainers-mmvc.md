@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mmvc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmvc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmvc/container.yaml"
-updated_at: "2024-07-17 02:41:26.554582"
+updated_at: "2024-07-18 02:40:41.357524"
 latest: "1.0.2--1"
 container_url: "https://biocontainers.pro/tools/mmvc"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "1.0.2--1"
 description: "shpc-registry automated BioContainers addition for mmvc"
-config: {"url": "https://biocontainers.pro/tools/mmvc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mmvc", "latest": {"1.0.2--1": "sha256:147e94ea6a711dbf28ceb9d197f3de4e767fc64ad51daa3358400c90e510b8fd"}, "tags": {"1.0.2--1": "sha256:147e94ea6a711dbf28ceb9d197f3de4e767fc64ad51daa3358400c90e510b8fd"}, "docker": "quay.io/biocontainers/mmvc", "aliases": {"julia": "/usr/local/bin/julia", "julia-debug": "/usr/local/bin/julia-debug", "mmvc": "/usr/local/bin/mmvc", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/mmvc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mmvc", "latest": {"1.0.2--1": "sha256:20f3a9e8337413c2eaeb2c129b6a007711a0e83ffb1e45c37a9c70134470d4ea"}, "tags": {"1.0.2--1": "sha256:20f3a9e8337413c2eaeb2c129b6a007711a0e83ffb1e45c37a9c70134470d4ea"}, "docker": "quay.io/biocontainers/mmvc", "aliases": {"julia": "/usr/local/bin/julia", "julia-debug": "/usr/local/bin/julia-debug", "mmvc": "/usr/local/bin/mmvc", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mmvc.

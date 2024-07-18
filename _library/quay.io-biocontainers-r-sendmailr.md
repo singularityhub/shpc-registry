@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sendmailr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sendmailr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sendmailr/container.yaml"
-updated_at: "2024-07-17 03:15:35.542760"
+updated_at: "2024-07-18 03:13:37.716851"
 latest: "1.2_1--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-sendmailr"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.2_1--r3.3.2_0"
+ - "1.2_1--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-sendmailr"
-config: {"url": "https://biocontainers.pro/tools/r-sendmailr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sendmailr", "latest": {"1.2_1--r3.3.2_0": "sha256:247c230b897de912932d4a1780b0cd0a7c486008c89ef4aa39f4f10ac6bceaf1"}, "tags": {"1.2_1--r3.3.2_0": "sha256:247c230b897de912932d4a1780b0cd0a7c486008c89ef4aa39f4f10ac6bceaf1"}, "docker": "quay.io/biocontainers/r-sendmailr", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-sendmailr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sendmailr", "latest": {"1.2_1--r3.3.2_0": "sha256:4e03c25b69856a9663075863e9b04dc4b79f13add2651fc4666f771daa3ca45b"}, "tags": {"1.2_1--r3.3.2_0": "sha256:4e03c25b69856a9663075863e9b04dc4b79f13add2651fc4666f771daa3ca45b", "1.2_1--r3.2.2_0": "sha256:3fdc191340ab9b95c441034583ce5876ccca58211a060b6388b884a9246ff7e8"}, "docker": "quay.io/biocontainers/r-sendmailr", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sendmailr.

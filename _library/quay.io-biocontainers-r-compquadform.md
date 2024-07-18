@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-compquadform"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-compquadform/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-compquadform/container.yaml"
-updated_at: "2024-07-17 03:13:33.722103"
+updated_at: "2024-07-18 03:11:38.121064"
 latest: "1.4.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-compquadform"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.4.1--r3.2.2_0"
  - "1.4.1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-compquadform"
-config: {"url": "https://biocontainers.pro/tools/r-compquadform", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-compquadform", "latest": {"1.4.1--r3.2.2_0": "sha256:18945928ac0702af1ad0a91ffcdcd80d4f22487236f4c009ce9d7e097d918441"}, "tags": {"1.4.1--r3.2.2_0": "sha256:18945928ac0702af1ad0a91ffcdcd80d4f22487236f4c009ce9d7e097d918441", "1.4.1--r3.3.2_0": "sha256:dbe8b71e2e9a77c99d6a9b9b84227ef012ee2bba1c5515643982cea36b2d27e2"}, "docker": "quay.io/biocontainers/r-compquadform", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-compquadform", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-compquadform", "latest": {"1.4.1--r3.2.2_0": "sha256:c14d86f80f0f54d02699df13846bbb55e3ce7c4c0502c82c0f5ea70f8d769eac"}, "tags": {"1.4.1--r3.2.2_0": "sha256:c14d86f80f0f54d02699df13846bbb55e3ce7c4c0502c82c0f5ea70f8d769eac", "1.4.1--r3.3.2_0": "sha256:c6402f5c115a35350e27936e9a8484df3b787229c857f88caf9df720f872b161"}, "docker": "quay.io/biocontainers/r-compquadform", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-compquadform.

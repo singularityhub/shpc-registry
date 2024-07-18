@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chromstardata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromstardata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromstardata/container.yaml"
-updated_at: "2024-07-17 03:00:37.893597"
+updated_at: "2024-07-18 02:59:02.696827"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromstardata"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chromstardata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chromstardata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromstardata", "latest": {"1.28.0--r43hdfd78af_0": "sha256:903dffab3f71cb914ce36900984fa1d005a57ae845f66e29239fa1fd1bd0bc6d"}, "tags": {"1.8.0--r351_0": "sha256:d258529ad83415c1962e88f254819ab9d7710b80342cfb9409751ef3f0cc166e", "1.24.0--r42hdfd78af_0": "sha256:e17fe4a374682b75f3a25aa43c5f81ff5d3ec21d181c43aabf19cd0f5e41583a", "1.23.0--r42hdfd78af_0": "sha256:4015de1c3e230439c67f16ec5435d76302eec9e4e9fd8883a03dfdf9d07d8245", "1.20.0--r41hdfd78af_1": "sha256:5983aba2b1d0c6b5c43fd395f23dfcd30583f65dd8ef1b39a0522906ac5e9884", "1.18.0--r41hdfd78af_0": "sha256:0b6a4c142212135b331cbf7a2a9acacc55dce18898cbc3ebaf96dac28fce523a", "1.16.0--r40hdfd78af_1": "sha256:6dedfb417158d387d1e6e139ad55848632112e741baf9ae7eb75ad1510ac5082", "1.26.0--r43hdfd78af_0": "sha256:43e29765282a3d75bbe8f4ad8ebffe6175a446e4d84839daa7e0307449a0ac6a", "1.28.0--r43hdfd78af_0": "sha256:903dffab3f71cb914ce36900984fa1d005a57ae845f66e29239fa1fd1bd0bc6d"}, "docker": "quay.io/biocontainers/bioconductor-chromstardata", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chromstardata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromstardata", "latest": {"1.28.0--r43hdfd78af_0": "sha256:903dffab3f71cb914ce36900984fa1d005a57ae845f66e29239fa1fd1bd0bc6d"}, "tags": {"1.8.0--r351_0": "sha256:0f50633e0469a1169940f69de16cd9f754492ade6d195f9eac883acb87839bfb", "1.24.0--r42hdfd78af_0": "sha256:e17fe4a374682b75f3a25aa43c5f81ff5d3ec21d181c43aabf19cd0f5e41583a", "1.23.0--r42hdfd78af_0": "sha256:4015de1c3e230439c67f16ec5435d76302eec9e4e9fd8883a03dfdf9d07d8245", "1.20.0--r41hdfd78af_1": "sha256:5983aba2b1d0c6b5c43fd395f23dfcd30583f65dd8ef1b39a0522906ac5e9884", "1.18.0--r41hdfd78af_0": "sha256:0b6a4c142212135b331cbf7a2a9acacc55dce18898cbc3ebaf96dac28fce523a", "1.16.0--r40hdfd78af_1": "sha256:6dedfb417158d387d1e6e139ad55848632112e741baf9ae7eb75ad1510ac5082", "1.26.0--r43hdfd78af_0": "sha256:43e29765282a3d75bbe8f4ad8ebffe6175a446e4d84839daa7e0307449a0ac6a", "1.28.0--r43hdfd78af_0": "sha256:903dffab3f71cb914ce36900984fa1d005a57ae845f66e29239fa1fd1bd0bc6d"}, "docker": "quay.io/biocontainers/bioconductor-chromstardata", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chromstardata.

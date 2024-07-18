@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parafly"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parafly/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parafly/container.yaml"
-updated_at: "2024-07-17 02:49:36.531890"
+updated_at: "2024-07-18 02:48:25.766599"
 latest: "r2013_01_21--1"
 container_url: "https://biocontainers.pro/tools/parafly"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "r2013_01_21--1"
 description: "shpc-registry automated BioContainers addition for parafly"
-config: {"url": "https://biocontainers.pro/tools/parafly", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for parafly", "latest": {"r2013_01_21--1": "sha256:847dfde25fc5aaca81d2fa5a69276dc1df6d206166469d7f5ae10ff98278fb29"}, "tags": {"r2013_01_21--1": "sha256:847dfde25fc5aaca81d2fa5a69276dc1df6d206166469d7f5ae10ff98278fb29"}, "docker": "quay.io/biocontainers/parafly", "aliases": {"ParaFly": "/usr/local/bin/ParaFly"}}
+config: {"url": "https://biocontainers.pro/tools/parafly", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for parafly", "latest": {"r2013_01_21--1": "sha256:67937a7856b0b804776c77f132e29e46322376206fa9973395e9b713595aadd7"}, "tags": {"r2013_01_21--1": "sha256:67937a7856b0b804776c77f132e29e46322376206fa9973395e9b713595aadd7"}, "docker": "quay.io/biocontainers/parafly", "aliases": {"ParaFly": "/usr/local/bin/ParaFly"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/parafly.

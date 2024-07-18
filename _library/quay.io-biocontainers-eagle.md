@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eagle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eagle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eagle/container.yaml"
-updated_at: "2024-07-17 03:19:51.248924"
+updated_at: "2024-07-18 03:17:54.668418"
 latest: "0.9.4.6--pyh5ca1d4c_0"
 container_url: "https://biocontainers.pro/tools/eagle"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.9.4.6--pyh5ca1d4c_0"
 description: "shpc-registry automated BioContainers addition for eagle"
-config: {"url": "https://biocontainers.pro/tools/eagle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eagle", "latest": {"0.9.4.6--pyh5ca1d4c_0": "sha256:4fa74d66cc6dc1274361a3e8e85a0e1c6182766e038994b48eab05e0d0a19220"}, "tags": {"0.9.4.6--pyh5ca1d4c_0": "sha256:4fa74d66cc6dc1274361a3e8e85a0e1c6182766e038994b48eab05e0d0a19220"}, "docker": "quay.io/biocontainers/eagle", "aliases": {"eagle": "/usr/local/bin/eagle", "sqt": "/usr/local/bin/sqt", "cyvcf2": "/usr/local/bin/cyvcf2", "cutadapt": "/usr/local/bin/cutadapt", "flask": "/usr/local/bin/flask", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py"}}
+config: {"url": "https://biocontainers.pro/tools/eagle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eagle", "latest": {"0.9.4.6--pyh5ca1d4c_0": "sha256:dd099b1c54460cf25bfc0f67d17f643a329785368faa69e4abb42ef00164bad2"}, "tags": {"0.9.4.6--pyh5ca1d4c_0": "sha256:dd099b1c54460cf25bfc0f67d17f643a329785368faa69e4abb42ef00164bad2"}, "docker": "quay.io/biocontainers/eagle", "aliases": {"eagle": "/usr/local/bin/eagle", "sqt": "/usr/local/bin/sqt", "cyvcf2": "/usr/local/bin/cyvcf2", "cutadapt": "/usr/local/bin/cutadapt", "flask": "/usr/local/bin/flask", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eagle.

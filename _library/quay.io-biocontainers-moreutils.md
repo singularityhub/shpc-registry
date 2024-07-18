@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/moreutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/moreutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/moreutils/container.yaml"
-updated_at: "2024-07-17 02:37:19.397096"
+updated_at: "2024-07-18 02:36:42.161800"
 latest: "0.5.7--1"
 container_url: "https://biocontainers.pro/tools/moreutils"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "0.5.7--1"
 description: "shpc-registry automated BioContainers addition for moreutils"
-config: {"url": "https://biocontainers.pro/tools/moreutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for moreutils", "latest": {"0.5.7--1": "sha256:fb0a5a65075ddd9ffc427669c776f3547ee866f47476e99de8a3fa503da49abc"}, "tags": {"0.5.7--1": "sha256:fb0a5a65075ddd9ffc427669c776f3547ee866f47476e99de8a3fa503da49abc"}, "docker": "quay.io/biocontainers/moreutils", "aliases": {"chronic": "/usr/local/bin/chronic", "combine": "/usr/local/bin/combine", "errno": "/usr/local/bin/errno", "ifdata": "/usr/local/bin/ifdata", "ifne": "/usr/local/bin/ifne", "isutf8": "/usr/local/bin/isutf8", "lckdo": "/usr/local/bin/lckdo", "mispipe": "/usr/local/bin/mispipe", "pee": "/usr/local/bin/pee", "sponge": "/usr/local/bin/sponge", "ts": "/usr/local/bin/ts", "vidir": "/usr/local/bin/vidir", "vipe": "/usr/local/bin/vipe", "zrun": "/usr/local/bin/zrun"}}
+config: {"url": "https://biocontainers.pro/tools/moreutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for moreutils", "latest": {"0.5.7--1": "sha256:ac489c0f88e565d5af6896f556b912155df385d9c949307abb14270201ae0dbf"}, "tags": {"0.5.7--1": "sha256:ac489c0f88e565d5af6896f556b912155df385d9c949307abb14270201ae0dbf"}, "docker": "quay.io/biocontainers/moreutils", "aliases": {"chronic": "/usr/local/bin/chronic", "combine": "/usr/local/bin/combine", "errno": "/usr/local/bin/errno", "ifdata": "/usr/local/bin/ifdata", "ifne": "/usr/local/bin/ifne", "isutf8": "/usr/local/bin/isutf8", "lckdo": "/usr/local/bin/lckdo", "mispipe": "/usr/local/bin/mispipe", "pee": "/usr/local/bin/pee", "sponge": "/usr/local/bin/sponge", "ts": "/usr/local/bin/ts", "vidir": "/usr/local/bin/vidir", "vipe": "/usr/local/bin/vipe", "zrun": "/usr/local/bin/zrun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/moreutils.

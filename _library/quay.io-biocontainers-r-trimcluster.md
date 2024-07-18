@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-trimcluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-trimcluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-trimcluster/container.yaml"
-updated_at: "2024-07-17 02:56:17.056409"
+updated_at: "2024-07-18 02:54:50.676596"
 latest: "0.1_2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-trimcluster"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.1_2--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-trimcluster"
-config: {"url": "https://biocontainers.pro/tools/r-trimcluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-trimcluster", "latest": {"0.1_2--r3.3.2_0": "sha256:5aa89368aad53fc6cc8095379b2c8c67887eddd5c0d38359be08643f7c6e300c"}, "tags": {"0.1_2--r3.3.2_0": "sha256:5aa89368aad53fc6cc8095379b2c8c67887eddd5c0d38359be08643f7c6e300c"}, "docker": "quay.io/biocontainers/r-trimcluster", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-trimcluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-trimcluster", "latest": {"0.1_2--r3.3.2_0": "sha256:bc4915324c266dd03b8558f714d5503948b4458af2929acf685af59d64514d7f"}, "tags": {"0.1_2--r3.3.2_0": "sha256:bc4915324c266dd03b8558f714d5503948b4458af2929acf685af59d64514d7f"}, "docker": "quay.io/biocontainers/r-trimcluster", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-trimcluster.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/colormap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/colormap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/colormap/container.yaml"
-updated_at: "2024-07-17 02:59:40.516134"
+updated_at: "2024-07-18 02:58:07.198236"
 latest: "0.9.8--py36_0"
 container_url: "https://biocontainers.pro/tools/colormap"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "sip"
 versions:
  - "0.9.8--py36_0"
+ - "0.9.8--py35_0"
 description: "shpc-registry automated BioContainers addition for colormap"
-config: {"url": "https://biocontainers.pro/tools/colormap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for colormap", "latest": {"0.9.8--py36_0": "sha256:7e87f07f959c206b6c3572aa992e833aab21e39e26c33ffcc4f4edf127c173c7"}, "tags": {"0.9.8--py36_0": "sha256:7e87f07f959c206b6c3572aa992e833aab21e39e26c33ffcc4f4edf127c173c7"}, "docker": "quay.io/biocontainers/colormap", "aliases": {"easydev_buildPackage": "/usr/local/bin/easydev_buildPackage", "ibrowse": "/usr/local/bin/ibrowse", "multigit": "/usr/local/bin/multigit", "browse": "/usr/local/bin/browse", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip"}}
+config: {"url": "https://biocontainers.pro/tools/colormap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for colormap", "latest": {"0.9.8--py36_0": "sha256:6bc7b06f3f091e75974d41288f677d9e00e41aedd687683ea041fc77c51994e9"}, "tags": {"0.9.8--py36_0": "sha256:6bc7b06f3f091e75974d41288f677d9e00e41aedd687683ea041fc77c51994e9", "0.9.8--py35_0": "sha256:21db7d10aeacfc55b7700353496286561cc0a71a98ccb6d551baba3a6889bf38"}, "docker": "quay.io/biocontainers/colormap", "aliases": {"easydev_buildPackage": "/usr/local/bin/easydev_buildPackage", "ibrowse": "/usr/local/bin/ibrowse", "multigit": "/usr/local/bin/multigit", "browse": "/usr/local/bin/browse", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/colormap.

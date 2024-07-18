@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abruijn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abruijn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abruijn/container.yaml"
-updated_at: "2024-07-17 03:16:15.760055"
+updated_at: "2024-07-18 03:14:17.406721"
 latest: "2.1b--py27_0"
 container_url: "https://biocontainers.pro/tools/abruijn"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "2.1b--py27_0"
 description: "shpc-registry automated BioContainers addition for abruijn"
-config: {"url": "https://biocontainers.pro/tools/abruijn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abruijn", "latest": {"2.1b--py27_0": "sha256:dc49e7814ef55343174c488386507f786d79670b4257b08d1fa66c0c8157b262"}, "tags": {"2.1b--py27_0": "sha256:dc49e7814ef55343174c488386507f786d79670b4257b08d1fa66c0c8157b262"}, "docker": "quay.io/biocontainers/abruijn", "aliases": {"abruijn": "/usr/local/bin/abruijn", "abruijn-assemble": "/usr/local/bin/abruijn-assemble", "abruijn-polish": "/usr/local/bin/abruijn-polish", "abruijn-repeat": "/usr/local/bin/abruijn-repeat", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/abruijn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abruijn", "latest": {"2.1b--py27_0": "sha256:e26125041cfec0320c5207d0b1e533f979f03f1733840ce1ace93de12bed9612"}, "tags": {"2.1b--py27_0": "sha256:e26125041cfec0320c5207d0b1e533f979f03f1733840ce1ace93de12bed9612"}, "docker": "quay.io/biocontainers/abruijn", "aliases": {"abruijn": "/usr/local/bin/abruijn", "abruijn-assemble": "/usr/local/bin/abruijn-assemble", "abruijn-polish": "/usr/local/bin/abruijn-polish", "abruijn-repeat": "/usr/local/bin/abruijn-repeat", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abruijn.

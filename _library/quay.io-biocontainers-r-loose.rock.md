@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-loose.rock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-loose.rock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-loose.rock/container.yaml"
-updated_at: "2024-07-17 03:19:50.402366"
+updated_at: "2024-07-18 03:17:53.818775"
 latest: "1.0.13--r36h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-loose.rock"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "1.0.9--r351h6115d3f_0"
  - "1.0.13--r36h6115d3f_1"
 description: "shpc-registry automated BioContainers addition for r-loose.rock"
-config: {"url": "https://biocontainers.pro/tools/r-loose.rock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-loose.rock", "latest": {"1.0.13--r36h6115d3f_1": "sha256:591e930d1660697761ec661b72930ad4798747bd6a9497dbe1d03d667d63d6dc"}, "tags": {"1.0.9--r351h6115d3f_0": "sha256:73867ac98610dfa9e61adee54d32b78f09178adc5ca3daa18738ae9e0e2e41d9", "1.0.13--r36h6115d3f_1": "sha256:591e930d1660697761ec661b72930ad4798747bd6a9497dbe1d03d667d63d6dc"}, "docker": "quay.io/biocontainers/r-loose.rock", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-loose.rock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-loose.rock", "latest": {"1.0.13--r36h6115d3f_1": "sha256:63605d1de3838d3df10ecef6fee2ea49d7bb1603fd845e10bdf58bfe4ff58827"}, "tags": {"1.0.9--r351h6115d3f_0": "sha256:0f9b4fa07e5952c817def0f5927bf9184ff0797ac0deab914cbcc0f989b2d05b", "1.0.13--r36h6115d3f_1": "sha256:63605d1de3838d3df10ecef6fee2ea49d7bb1603fd845e10bdf58bfe4ff58827"}, "docker": "quay.io/biocontainers/r-loose.rock", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-loose.rock.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/onehot2seq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/onehot2seq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/onehot2seq/container.yaml"
-updated_at: "2024-07-17 03:02:30.066928"
+updated_at: "2024-07-18 03:00:50.646114"
 latest: "0.0.2--pyh086e186_1"
 container_url: "https://biocontainers.pro/tools/onehot2seq"
 aliases:
