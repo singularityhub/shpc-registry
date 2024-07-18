@@ -1,0 +1,46 @@
+url: https://biocontainers.pro/tools/metacerberus-lite
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metacerberus-lite
+latest:
+  1.3.1--pyhdfd78af_0: sha256:28a6a07c4e287545f4caeea45454ebdee9dfa3340a97b7b71cd718e51c2f526a
+tags:
+  1.3.1--pyhdfd78af_0: sha256:28a6a07c4e287545f4caeea45454ebdee9dfa3340a97b7b71cd718e51c2f526a
+docker: quay.io/biocontainers/metacerberus-lite
+aliases:
+  archspec: /usr/local/bin/archspec
+  countAssembly.py: /usr/local/bin/countAssembly.py
+  flash2: /usr/local/bin/flash2
+  gpustat: /usr/local/bin/gpustat
+  metacerberus.py: /usr/local/bin/metacerberus.py
+  pathview-metacerberus.R: /usr/local/bin/pathview-metacerberus.R
+  py-spy: /usr/local/bin/py-spy
+  pyrodigal-gv: /usr/local/bin/pyrodigal-gv
+  ray: /usr/local/bin/ray
+  ray-slurm-metacerberus.sh: /usr/local/bin/ray-slurm-metacerberus.sh
+  tune: /usr/local/bin/tune
+  virtualenv: /usr/local/bin/virtualenv
+  protoc-25.3.0: /usr/local/bin/protoc-25.3.0
+  corepack: /usr/local/bin/corepack
+  kaleido: /usr/local/bin/kaleido
+  mathjax-path: /usr/local/bin/mathjax-path
+  numpy-config: /usr/local/bin/numpy-config
+  pyrodigal: /usr/local/bin/pyrodigal
+  npx: /usr/local/bin/npx
+  node: /usr/local/bin/node
+  npm: /usr/local/bin/npm
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  csv-import: /usr/local/bin/csv-import
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin

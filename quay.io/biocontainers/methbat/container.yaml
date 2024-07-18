@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/methbat
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for methbat
+latest:
+  0.13.0--h9ee0642_0: sha256:e8407f90e58ccad8deffed54d164c696e058e84233a61ef5abde3d9ff654ebbf
+tags:
+  0.13.0--h9ee0642_0: sha256:e8407f90e58ccad8deffed54d164c696e058e84233a61ef5abde3d9ff654ebbf
+docker: quay.io/biocontainers/methbat
+aliases:
+  methbat: /usr/local/bin/methbat

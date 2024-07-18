@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/gtdb_to_taxdump
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gtdb_to_taxdump
+latest:
+  0.1.9--pyhcf36b3e_0: sha256:9fd2151297d582ed8fdf14ed1e50f4863f835f10c7082b7af5d7fad40a122123
+tags:
+  0.1.9--pyhcf36b3e_0: sha256:9fd2151297d582ed8fdf14ed1e50f4863f835f10c7082b7af5d7fad40a122123
+docker: quay.io/biocontainers/gtdb_to_taxdump
+aliases:
+  acc2gtdb_tax.py: /usr/local/bin/acc2gtdb_tax.py
+  gtdb_to_diamond.py: /usr/local/bin/gtdb_to_diamond.py
+  gtdb_to_taxdump.py: /usr/local/bin/gtdb_to_taxdump.py
+  lineage2taxid.py: /usr/local/bin/lineage2taxid.py
+  ncbi-gtdb_map.py: /usr/local/bin/ncbi-gtdb_map.py
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm
