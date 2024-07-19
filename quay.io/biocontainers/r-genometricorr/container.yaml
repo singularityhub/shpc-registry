@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-genometricorr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-genometricorr
 latest:
-  1.1.17--0: sha256:9a1c06aac2010c69be998465d1cdb9dcb9acbebc5dfd9804f6232bc942b3a010
+  1.1.17--0: sha256:e85147694ddd00f59ae27f1a68252cfdeb3ae3b61eb7ad39e3be01daa2a67be2
 tags:
-  1.1.17--0: sha256:9a1c06aac2010c69be998465d1cdb9dcb9acbebc5dfd9804f6232bc942b3a010
+  1.1.17--0: sha256:e85147694ddd00f59ae27f1a68252cfdeb3ae3b61eb7ad39e3be01daa2a67be2
 docker: quay.io/biocontainers/r-genometricorr
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

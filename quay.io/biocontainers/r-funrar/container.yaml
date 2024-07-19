@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-funrar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-funrar
 latest:
-  1.2.2--r351h6115d3f_3: sha256:c08008cee0490813cf6806ad06aaf8569326c8d71e1f6619f8d50eae5dea4e1c
+  1.2.2--r351h6115d3f_3: sha256:03c91b2cc13d49f9dac1f15474bfa6541c28c8f033feda9cab011b4791a568f1
 tags:
-  1.2.2--r351h6115d3f_3: sha256:c08008cee0490813cf6806ad06aaf8569326c8d71e1f6619f8d50eae5dea4e1c
+  1.2.2--r351h6115d3f_3: sha256:03c91b2cc13d49f9dac1f15474bfa6541c28c8f033feda9cab011b4791a568f1
 docker: quay.io/biocontainers/r-funrar
 aliases:
   c89: /usr/local/bin/c89

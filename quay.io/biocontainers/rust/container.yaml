@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/rust
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rust
 latest:
-  1.14.0--0: sha256:4298179a0a294c77ea2f244f3015bdd02811f61deb8441b65ca8fb88f5a09230
+  1.14.0--0: sha256:3a45f0b41af427e6d0be19b183f1969c292e47d27becdc1b72ca7801c58d139c
 tags:
-  1.14.0--0: sha256:4298179a0a294c77ea2f244f3015bdd02811f61deb8441b65ca8fb88f5a09230
+  1.14.0--0: sha256:3a45f0b41af427e6d0be19b183f1969c292e47d27becdc1b72ca7801c58d139c
 docker: quay.io/biocontainers/rust

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/junit-xml
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for junit-xml
 latest:
-  1.8--py_0: sha256:6d315a2a1361de7803f1d90f0d9e01fe4502ab4714a9d4e237ac10cf979dfff5
+  1.8--py_0: sha256:a06338db19501f8793c175af9385ac9f11a9ab867ab296fba9d1f7055d0807ec
 tags:
-  1.8--py_0: sha256:6d315a2a1361de7803f1d90f0d9e01fe4502ab4714a9d4e237ac10cf979dfff5
+  1.8--py_0: sha256:a06338db19501f8793c175af9385ac9f11a9ab867ab296fba9d1f7055d0807ec
 docker: quay.io/biocontainers/junit-xml
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

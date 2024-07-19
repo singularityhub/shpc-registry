@@ -4,6 +4,6 @@ description: shpc-registry automated BioContainers addition for gargammel
 latest:
   1.1.2--he905c8f_6: sha256:1c24122fa44fed0f0daaac738df1eff97386d64c0c26dd04bfcaf650aec93d49
 tags:
-  1.1.2--h51667aa_5: sha256:0a3eb34310f40eaa95849036a5d38dfd1f3369db1ef5f637e28cc1a049f2bc0f
+  1.1.2--h51667aa_5: sha256:84dc92dc17243162063fc7b48d3ca13778c6b8a7b1670f6de824283baf646b4c
   1.1.2--he905c8f_6: sha256:1c24122fa44fed0f0daaac738df1eff97386d64c0c26dd04bfcaf650aec93d49
 docker: quay.io/biocontainers/gargammel

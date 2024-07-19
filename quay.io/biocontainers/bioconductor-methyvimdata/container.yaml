@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for bioconductor-met
 latest:
   1.12.0--r40hdfd78af_1: sha256:066922365743f4444da053d444c569f8d4df692abec3456569f4fca9930104bc
 tags:
-  1.8.0--r36_0: sha256:62d45d9aa165b623bbe2f182159f079cfc3f67a56d61d639d7b8013fb1da3634
+  1.8.0--r36_0: sha256:9d7d1122e7fb5f327405fcb4c1490a08bc1e941e3dbf77e992bb6c55887b9ca6
   1.12.0--r40hdfd78af_1: sha256:066922365743f4444da053d444c569f8d4df692abec3456569f4fca9930104bc
   1.10.0--r40_0: sha256:f7f333943d265f64c33d8067c43843f3c57f8e780b1251aaee9f571cdcb2747d
 docker: quay.io/biocontainers/bioconductor-methyvimdata

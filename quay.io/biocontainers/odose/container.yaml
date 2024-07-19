@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/odose
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for odose
 latest:
-  1.0--py27_0: sha256:68f0e0f84d6ba7cdcc7868540ef7720099bd004317f24716ccf54e2639c562da
+  1.0--py27_0: sha256:b91b305b0c50279fb612dace9e57d5bbb8638ae0d06e5ee51a550be748f19b9c
 tags:
-  1.0--py27_0: sha256:68f0e0f84d6ba7cdcc7868540ef7720099bd004317f24716ccf54e2639c562da
+  1.0--py27_0: sha256:b91b305b0c50279fb612dace9e57d5bbb8638ae0d06e5ee51a550be748f19b9c
 docker: quay.io/biocontainers/odose
 aliases:
   align_trim_orthologs: /usr/local/bin/align_trim_orthologs

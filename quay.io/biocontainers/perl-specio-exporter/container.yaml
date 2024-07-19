@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-specio-exporter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-specio-exporter
 latest:
-  0.36--pl526_3: sha256:8f91a6f993a9e2896566f9e5aa342497c412b47f88ba2c112943363ed2efcae7
+  0.36--pl526_3: sha256:9fd7101a771dd9dce6e1a190b03f02dc7c5b4a6c8dbd7a18e8a7885adba47695
 tags:
-  0.36--pl526_3: sha256:8f91a6f993a9e2896566f9e5aa342497c412b47f88ba2c112943363ed2efcae7
+  0.36--pl526_3: sha256:9fd7101a771dd9dce6e1a190b03f02dc7c5b4a6c8dbd7a18e8a7885adba47695
 docker: quay.io/biocontainers/perl-specio-exporter
 aliases:
   config_data: /usr/local/bin/config_data

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ciso8601
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ciso8601
 latest:
-  1.0.5--py35_0: sha256:3f9849f1a289d8eba60a8acb12feb6a157202c1834e326f4928112a7918e2435
+  1.0.5--py35_0: sha256:3146dd1a4bede0d2ae7316f652b8cd2514271980658c2fd2190e76cef9a253c7
 tags:
-  1.0.5--py35_0: sha256:3f9849f1a289d8eba60a8acb12feb6a157202c1834e326f4928112a7918e2435
+  1.0.5--py35_0: sha256:3146dd1a4bede0d2ae7316f652b8cd2514271980658c2fd2190e76cef9a253c7
+  1.0.5--py27_0: sha256:08df0ede282fa443d2da758d6af905f3eccfe5074e9f6a573d08a326c48e1c2f
 docker: quay.io/biocontainers/ciso8601
 aliases:
   2to3-3.5: /usr/local/bin/2to3-3.5

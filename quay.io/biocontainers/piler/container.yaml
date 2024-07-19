@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/piler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for piler
 latest:
-  0.1--0: sha256:6baab1293d0af8d029a78efab7eb4aeffb59ed0462e69e78bec5963c89627c25
+  0.1--0: sha256:a36d0cbe7c1f2e17be5195ad1d6e75cc4c8fc8c78afa1196d04c708f4c20e8d2
 tags:
-  0.1--0: sha256:6baab1293d0af8d029a78efab7eb4aeffb59ed0462e69e78bec5963c89627c25
+  0.1--0: sha256:a36d0cbe7c1f2e17be5195ad1d6e75cc4c8fc8c78afa1196d04c708f4c20e8d2
 docker: quay.io/biocontainers/piler

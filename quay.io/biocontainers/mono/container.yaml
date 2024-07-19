@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/mono
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mono
 latest:
-  4.6.2.6--0: sha256:23f820b58776a14ef6fdb1f1d21eb9353757b09574860f6ec758ce482e514c9a
+  4.6.2.6--0: sha256:dae25b65ef1a1b6bdfd442b085d34cf16a8fd65610f73d60ab3b879cc6a20122
 tags:
-  4.6.2.6--0: sha256:23f820b58776a14ef6fdb1f1d21eb9353757b09574860f6ec758ce482e514c9a
+  4.6.2.6--0: sha256:dae25b65ef1a1b6bdfd442b085d34cf16a8fd65610f73d60ab3b879cc6a20122
 docker: quay.io/biocontainers/mono
 aliases:
   mono: /usr/local/bin/mono

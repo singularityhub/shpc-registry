@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/ndg-httpsclient
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ndg-httpsclient
 latest:
-  0.4.2--py36_0: sha256:c7c1035ad6c28db0e520bd153aa6cf51a765ea65f03bdefc2b765dba8f267690
+  0.4.2--py36_0: sha256:043d02bec2632e8a5154eb8d0ee0ebaec6fdc11c074fe17cd9441b98420bb173
 tags:
-  0.4.2--py36_0: sha256:c7c1035ad6c28db0e520bd153aa6cf51a765ea65f03bdefc2b765dba8f267690
+  0.4.2--py36_0: sha256:043d02bec2632e8a5154eb8d0ee0ebaec6fdc11c074fe17cd9441b98420bb173
 docker: quay.io/biocontainers/ndg-httpsclient
 aliases:
   ndg_httpclient: /usr/local/bin/ndg_httpclient

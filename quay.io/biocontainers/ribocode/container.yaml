@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for ribocode
 latest:
   1.2.15--pyhfa5458b_0: sha256:639d557367b237bd2bfac63f94fed0a47bb952e0de9068140583651fa8d1b195
 tags:
-  1.2.9--py36_0: sha256:3b319abf8e7e774c1eb51a423834f5abd099704f56e94d02acb8e8b89e4bd3dc
+  1.2.9--py36_0: sha256:9c51c9626ea7b8b1159cdb9ec88d252565a02eda28318636e4bdec848f0d761d
   1.2.15--pyhfa5458b_0: sha256:639d557367b237bd2bfac63f94fed0a47bb952e0de9068140583651fa8d1b195
 docker: quay.io/biocontainers/ribocode
 aliases:

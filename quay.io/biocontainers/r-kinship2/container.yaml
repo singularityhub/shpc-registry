@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-kinship2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-kinship2
 latest:
-  1.6.4--r351h6115d3f_3: sha256:455e6403dacfcc259ee1a2bd0647d74079ec58f614f25c0c3a739c3f381bd80b
+  1.6.4--r351h6115d3f_3: sha256:debbe24f436b992662ef8cd259efb2f66107d95ef9716f141f5eb6d6eeeffecc
 tags:
-  1.6.4--r351h6115d3f_3: sha256:455e6403dacfcc259ee1a2bd0647d74079ec58f614f25c0c3a739c3f381bd80b
+  1.6.4--r351h6115d3f_3: sha256:debbe24f436b992662ef8cd259efb2f66107d95ef9716f141f5eb6d6eeeffecc
 docker: quay.io/biocontainers/r-kinship2
 aliases:
   c89: /usr/local/bin/c89

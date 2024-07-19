@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for meta-sparse
 latest:
   0.1.12--py27h9801fc8_4: sha256:171be7d3853e9d22eabb034cb5c3cf95b98cc40ef2e16a9eaf4983d113e99e59
 tags:
-  0.1.2--py27h24bf2e0_2: sha256:08be3eaa3087092270629b92f393b3573f2afaa8063db42187421a4703fd3f2d
+  0.1.2--py27h24bf2e0_2: sha256:e5dc8a468205653b6e2ef31505d1d9ddf5c201fb60ccef9cb656386b119373dc
   0.1.12--py27h9801fc8_4: sha256:171be7d3853e9d22eabb034cb5c3cf95b98cc40ef2e16a9eaf4983d113e99e59
 docker: quay.io/biocontainers/meta-sparse
 aliases:

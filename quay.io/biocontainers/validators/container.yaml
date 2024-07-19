@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/validators
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for validators
 latest:
-  0.14.0--py_0: sha256:57ffa809faea229905cec36763d59528cd41921c1fee675baa5ed3e02df63244
+  0.14.0--py_0: sha256:14c1bf619c1611f3ee5e0853d3e46e7f1a3c115d6a8ea7a03baec10e551d1e5d
 tags:
-  0.14.0--py_0: sha256:57ffa809faea229905cec36763d59528cd41921c1fee675baa5ed3e02df63244
+  0.14.0--py_0: sha256:14c1bf619c1611f3ee5e0853d3e46e7f1a3c115d6a8ea7a03baec10e551d1e5d
 docker: quay.io/biocontainers/validators
 aliases:
   2to3-3.7: /usr/local/bin/2to3-3.7

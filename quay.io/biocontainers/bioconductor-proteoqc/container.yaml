@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-proteoqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-proteoqc
 latest:
-  1.21.0--r36_0: sha256:fa82e48c00b54ee6328bc0fd529295faf14e7b578ea54cb4da58f9080149f08b
+  1.21.0--r36_0: sha256:e17da286a59103c0e74ff95f7556d7357ac63332759840f862354e76dcf28457
 tags:
-  1.21.0--r36_0: sha256:fa82e48c00b54ee6328bc0fd529295faf14e7b578ea54cb4da58f9080149f08b
+  1.21.0--r36_0: sha256:e17da286a59103c0e74ff95f7556d7357ac63332759840f862354e76dcf28457
 docker: quay.io/biocontainers/bioconductor-proteoqc
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/lcfit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for lcfit
 latest:
-  0.5--h20b91ae_3: sha256:47d81919a48a286dc9c1080992a06af8aab126d97ad400de3fa5653179539de6
+  0.5--h20b91ae_3: sha256:d485ec1c8df11f9b9376a146b5f0ed6571aa62d4a4f0d79394d5105e198d82a9
 tags:
-  0.5--h20b91ae_3: sha256:47d81919a48a286dc9c1080992a06af8aab126d97ad400de3fa5653179539de6
+  0.5--h20b91ae_3: sha256:d485ec1c8df11f9b9376a146b5f0ed6571aa62d4a4f0d79394d5105e198d82a9
 docker: quay.io/biocontainers/lcfit
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

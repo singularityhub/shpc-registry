@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/vcf2circos
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vcf2circos
 latest:
-  1.1.1--pyhdfd78af_0: sha256:01954fd5db35af2ddc0d4d4deb82e190f5b35a126a769616aaecd19b4cdef2b2
+  1.2.0--pyhdfd78af_0: sha256:ddb710ef50834cb9e26b5a9122a09242376184a816e393a0e0e475341c0bc19c
 tags:
   1.1--pyhdfd78af_0: sha256:5173d4e762b3a88713dc40a2d70d0d44bd6198d6e63b84710927ce31df60bc37
   1.1.1--pyhdfd78af_0: sha256:01954fd5db35af2ddc0d4d4deb82e190f5b35a126a769616aaecd19b4cdef2b2
+  1.2.0--pyhdfd78af_0: sha256:ddb710ef50834cb9e26b5a9122a09242376184a816e393a0e0e475341c0bc19c
 docker: quay.io/biocontainers/vcf2circos
 aliases:
   kaleido: /usr/local/bin/kaleido

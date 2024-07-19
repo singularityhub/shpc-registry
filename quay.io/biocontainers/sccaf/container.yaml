@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for sccaf
 latest:
   0.0.10--py_0: sha256:58624ca90983224f2400b0885ee8bc0a38725f418a9cd29ec79a9739a9fb135b
 tags:
-  0.0.9--py_0: sha256:a414e19efb731079c3d3e1b671a941b57ebe58f21179fc3a54b1acf9abc33d56
+  0.0.9--py_0: sha256:138cd1426b422a59d50fc3e8df73c52b80e6a8f41b19a6f318cb7c5642911379
   0.0.10--py_0: sha256:58624ca90983224f2400b0885ee8bc0a38725f418a9cd29ec79a9739a9fb135b
 docker: quay.io/biocontainers/sccaf
 aliases:

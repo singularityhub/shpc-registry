@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/nspdk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nspdk
 latest:
-  9.2--1: sha256:441c872af894e01a3f5a241d1b550bf3e85c1e79c672411586d365df37f321cf
+  9.2--1: sha256:48ab7446323f5d84913a0b2e1ca28f13b984429e5f99ea013be1613a97797bc2
 tags:
-  9.2--1: sha256:441c872af894e01a3f5a241d1b550bf3e85c1e79c672411586d365df37f321cf
+  9.2--1: sha256:48ab7446323f5d84913a0b2e1ca28f13b984429e5f99ea013be1613a97797bc2
 docker: quay.io/biocontainers/nspdk
 aliases:
   NSPDK: /usr/local/bin/NSPDK

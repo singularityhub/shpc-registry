@@ -9,6 +9,7 @@ tags:
   1.0.0--py39r42h235072b_2: sha256:ce8bc5d6f163b7548583474672f5f24e0b863d950fcdb54071f40053ea972eea
   1.0.0--py38r42h4ef9e6b_2: sha256:e756cdebc02d2a807d257ce29ebab2967f3f118d47251bf276db432c36b3dfea
   1.0.0--py311r43h1a4d1c9_3: sha256:7d54b7199aca380c81e060904ac4d6c63c29a376fd93c23911d20572f4ee8e50
+  1.0.0--py38r43h598b33d_3: sha256:1cf66d55a83f0fd6705a86ec8254181745d4be28d8f9da697ef1eeb82fd8ef05
 docker: quay.io/biocontainers/contatester
 aliases:
   calculAllelicBalance.sh: /usr/local/bin/calculAllelicBalance.sh
