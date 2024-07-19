@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mavis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mavis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mavis/container.yaml"
-updated_at: "2024-07-18 04:10:32.258785"
+updated_at: "2024-07-19 02:45:46.359412"
 latest: "2.2.6--py_0"
 container_url: "https://biocontainers.pro/tools/mavis"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "2.2.6--py_0"
 description: "shpc-registry automated BioContainers addition for mavis"
-config: {"url": "https://biocontainers.pro/tools/mavis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mavis", "latest": {"2.2.6--py_0": "sha256:bc167f8e1103cafce8986f29596d40e6212b3ab0ef7d139886c3c2ae2eb59d50"}, "tags": {"2.2.6--py_0": "sha256:bc167f8e1103cafce8986f29596d40e6212b3ab0ef7d139886c3c2ae2eb59d50"}, "docker": "quay.io/biocontainers/mavis", "aliases": {"calculate_ref_alt_counts": "/usr/local/bin/calculate_ref_alt_counts", "mavis": "/usr/local/bin/mavis", "blat": "/usr/local/bin/blat", "geos-config": "/usr/local/bin/geos-config", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "f2py3.6": "/usr/local/bin/f2py3.6", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py"}}
+config: {"url": "https://biocontainers.pro/tools/mavis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mavis", "latest": {"2.2.6--py_0": "sha256:6930ab6bef52a43794eb81ad7523882512612f7236e5a8ca456fc48c1aae4171"}, "tags": {"2.2.6--py_0": "sha256:6930ab6bef52a43794eb81ad7523882512612f7236e5a8ca456fc48c1aae4171"}, "docker": "quay.io/biocontainers/mavis", "aliases": {"calculate_ref_alt_counts": "/usr/local/bin/calculate_ref_alt_counts", "mavis": "/usr/local/bin/mavis", "blat": "/usr/local/bin/blat", "geos-config": "/usr/local/bin/geos-config", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "f2py3.6": "/usr/local/bin/f2py3.6", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mavis.

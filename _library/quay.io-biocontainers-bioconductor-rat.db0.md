@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rat.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rat.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rat.db0/container.yaml"
-updated_at: "2024-07-18 04:40:51.330388"
+updated_at: "2024-07-19 03:16:19.423298"
 latest: "3.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rat.db0"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "3.17.0--r43hdfd78af_0"
  - "3.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rat.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rat.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rat.db0", "latest": {"3.18.0--r43hdfd78af_0": "sha256:9994de4312d1a3ee735f3215c1b733f19099177204355998d1047c38bf0dee23"}, "tags": {"3.8.2--r36_1": "sha256:afb677e77047221a91bfa3ed47bd4089140b61ab63f544f9768e8476d31b93f9", "3.16.0--r42hdfd78af_0": "sha256:8e408fa36e875a6c6202ac5de0d8fa2e1d9796c1f68aaed65b319e12f7a0bc8a", "3.14.0--r41hdfd78af_1": "sha256:0a7502f92c67771951714c05d62c14adb589006c2080d61ba2104076a10dec75", "3.13.0--r41hdfd78af_0": "sha256:abd467155b32cf15f2f2ab4f769014a5f5aeece62087fc29f64b7e29fb5161cc", "3.12.0--r40hdfd78af_1": "sha256:da9399c0afce1c59a14e52f6d31a090a9314cd6a2a600621ab63dacfc9b4845a", "3.11.2--r40_0": "sha256:26bdd16523069ed539f3dff1aa58c54366c9bc378f1afc423629aab1475c9540", "3.17.0--r43hdfd78af_0": "sha256:ff531241077c50bf2768006d13022942fabf30d658bc1e96f3f262be73aa10aa", "3.18.0--r43hdfd78af_0": "sha256:9994de4312d1a3ee735f3215c1b733f19099177204355998d1047c38bf0dee23"}, "docker": "quay.io/biocontainers/bioconductor-rat.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rat.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rat.db0", "latest": {"3.18.0--r43hdfd78af_0": "sha256:9994de4312d1a3ee735f3215c1b733f19099177204355998d1047c38bf0dee23"}, "tags": {"3.8.2--r36_1": "sha256:18706af56ca6d7775787d41974153be464433195a888973d23587cfc7bb7e0e3", "3.16.0--r42hdfd78af_0": "sha256:8e408fa36e875a6c6202ac5de0d8fa2e1d9796c1f68aaed65b319e12f7a0bc8a", "3.14.0--r41hdfd78af_1": "sha256:0a7502f92c67771951714c05d62c14adb589006c2080d61ba2104076a10dec75", "3.13.0--r41hdfd78af_0": "sha256:abd467155b32cf15f2f2ab4f769014a5f5aeece62087fc29f64b7e29fb5161cc", "3.12.0--r40hdfd78af_1": "sha256:da9399c0afce1c59a14e52f6d31a090a9314cd6a2a600621ab63dacfc9b4845a", "3.11.2--r40_0": "sha256:26bdd16523069ed539f3dff1aa58c54366c9bc378f1afc423629aab1475c9540", "3.17.0--r43hdfd78af_0": "sha256:ff531241077c50bf2768006d13022942fabf30d658bc1e96f3f262be73aa10aa", "3.18.0--r43hdfd78af_0": "sha256:9994de4312d1a3ee735f3215c1b733f19099177204355998d1047c38bf0dee23"}, "docker": "quay.io/biocontainers/bioconductor-rat.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rat.db0.

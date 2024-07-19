@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-precrec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-precrec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-precrec/container.yaml"
-updated_at: "2024-07-18 04:46:04.123866"
+updated_at: "2024-07-19 03:21:34.531821"
 latest: "0.9.1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-precrec"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "0.9.1--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-precrec"
-config: {"url": "https://biocontainers.pro/tools/r-precrec", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-precrec", "latest": {"0.9.1--r3.4.1_0": "sha256:cc1ffa47b8ce49be33767eba141a5294e76305ce20f324560ebee94ffdb7375c"}, "tags": {"0.9.1--r3.4.1_0": "sha256:cc1ffa47b8ce49be33767eba141a5294e76305ce20f324560ebee94ffdb7375c"}, "docker": "quay.io/biocontainers/r-precrec", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-precrec", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-precrec", "latest": {"0.9.1--r3.4.1_0": "sha256:f96a8843abc9d8c59db189caca31dbb44e8109021d3aadc43ccf81b0c0d1755b"}, "tags": {"0.9.1--r3.4.1_0": "sha256:f96a8843abc9d8c59db189caca31dbb44e8109021d3aadc43ccf81b0c0d1755b"}, "docker": "quay.io/biocontainers/r-precrec", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-precrec.

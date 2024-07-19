@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmerinshort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmerinshort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmerinshort/container.yaml"
-updated_at: "2024-07-18 04:42:57.841343"
+updated_at: "2024-07-19 03:18:26.729846"
 latest: "1.0.1--0"
 container_url: "https://biocontainers.pro/tools/kmerinshort"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.0.1--0"
 description: "shpc-registry automated BioContainers addition for kmerinshort"
-config: {"url": "https://biocontainers.pro/tools/kmerinshort", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kmerinshort", "latest": {"1.0.1--0": "sha256:056e3de6174c48a7b342c8f91541896c39d2e30a64e62d62e51ae43227c36278"}, "tags": {"1.0.1--0": "sha256:056e3de6174c48a7b342c8f91541896c39d2e30a64e62d62e51ae43227c36278"}, "docker": "quay.io/biocontainers/kmerinshort", "aliases": {"KmerInShort": "/usr/local/bin/KmerInShort"}}
+config: {"url": "https://biocontainers.pro/tools/kmerinshort", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kmerinshort", "latest": {"1.0.1--0": "sha256:62dfe09196764041c0ee956ff4a9e4f3492dfc3d1e19eedd909c57f755700aa6"}, "tags": {"1.0.1--0": "sha256:62dfe09196764041c0ee956ff4a9e4f3492dfc3d1e19eedd909c57f755700aa6"}, "docker": "quay.io/biocontainers/kmerinshort", "aliases": {"KmerInShort": "/usr/local/bin/KmerInShort"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kmerinshort.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-tie-refhash-weak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-tie-refhash-weak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-tie-refhash-weak/container.yaml"
-updated_at: "2024-07-18 04:29:40.633838"
+updated_at: "2024-07-19 03:05:05.376630"
 latest: "0.09--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-tie-refhash-weak"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.09--pl526_2"
 description: "shpc-registry automated BioContainers addition for perl-tie-refhash-weak"
-config: {"url": "https://biocontainers.pro/tools/perl-tie-refhash-weak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-tie-refhash-weak", "latest": {"0.09--pl526_2": "sha256:8f6d6b109fe34ec5e26d90c2081af3d13818c2b79b4076d74ec4d90d61055a5a"}, "tags": {"0.09--pl526_2": "sha256:8f6d6b109fe34ec5e26d90c2081af3d13818c2b79b4076d74ec4d90d61055a5a"}, "docker": "quay.io/biocontainers/perl-tie-refhash-weak", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-tie-refhash-weak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-tie-refhash-weak", "latest": {"0.09--pl526_2": "sha256:e1e9e3aefe6a12e7382c5a9e3f172235d7cf3363bfc2139476c6095561f329e8"}, "tags": {"0.09--pl526_2": "sha256:e1e9e3aefe6a12e7382c5a9e3f172235d7cf3363bfc2139476c6095561f329e8"}, "docker": "quay.io/biocontainers/perl-tie-refhash-weak", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-tie-refhash-weak.

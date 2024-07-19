@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-class-trigger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-trigger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-trigger/container.yaml"
-updated_at: "2024-07-18 04:11:55.593589"
+updated_at: "2024-07-19 02:47:10.301464"
 latest: "0.15--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-class-trigger"
 aliases:

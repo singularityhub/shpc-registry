@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metaphor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metaphor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metaphor/container.yaml"
-updated_at: "2024-07-18 04:08:18.642486"
+updated_at: "2024-07-19 02:43:30.993938"
 latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metaphor"
 aliases:

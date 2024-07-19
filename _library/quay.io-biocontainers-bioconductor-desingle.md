@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-desingle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-desingle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-desingle/container.yaml"
-updated_at: "2024-07-18 04:18:42.565839"
+updated_at: "2024-07-19 02:54:01.750108"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-desingle"
 aliases:

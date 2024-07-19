@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vcftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcftools/container.yaml"
-updated_at: "2024-07-18 04:18:57.016871"
-latest: "0.1.16--pl5321hdcf5f25_10"
+updated_at: "2024-07-19 02:54:16.344521"
+latest: "0.1.16--pl5321hdcf5f25_11"
 container_url: "https://biocontainers.pro/tools/vcftools"
 aliases:
  - "vcftools"
@@ -24,8 +24,9 @@ versions:
  - "0.1.16--pl5321hd03093a_7"
  - "0.1.16--pl5321hdcf5f25_9"
  - "0.1.16--pl5321hdcf5f25_10"
+ - "0.1.16--pl5321hdcf5f25_11"
 description: "shpc-registry automated BioContainers addition for vcftools"
-config: {"url": "https://biocontainers.pro/tools/vcftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcftools", "latest": {"0.1.16--pl5321hdcf5f25_10": "sha256:85d85bbc4219564d4ea59ee6c48c20d651b6b8971383775ae53fe6eac61fd361"}, "tags": {"0.1.15--he941832_2": "sha256:8af7cefca50bfdcf184f8a4faff336ae436e04f7a16dcd9b18fa0687b0ae975e", "0.1.16--pl5321hd03093a_7": "sha256:bd6df7b77ae7b49710f58e536edc6672989a951d1dda8f7fbc01be6f02243a5b", "0.1.16--pl5321hdcf5f25_9": "sha256:5230b16c7623b45b790a70dddf8fe8f0f4fef5f8d7e25dfa570b1ca43d9f4c33", "0.1.16--pl5321hdcf5f25_10": "sha256:85d85bbc4219564d4ea59ee6c48c20d651b6b8971383775ae53fe6eac61fd361"}, "docker": "quay.io/biocontainers/vcftools", "aliases": {"vcftools": "/usr/local/bin/vcftools", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert"}}
+config: {"url": "https://biocontainers.pro/tools/vcftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcftools", "latest": {"0.1.16--pl5321hdcf5f25_11": "sha256:40c31b7fb63f53a12c249bef59cee8044969f885918f857da4e9ae0cd43f94ae"}, "tags": {"0.1.15--he941832_2": "sha256:cf8d53415e0011bc4f44b5eb04b15607f3a738cbe5a49379ac28d9a2bbd23948", "0.1.16--pl5321hd03093a_7": "sha256:bd6df7b77ae7b49710f58e536edc6672989a951d1dda8f7fbc01be6f02243a5b", "0.1.16--pl5321hdcf5f25_9": "sha256:5230b16c7623b45b790a70dddf8fe8f0f4fef5f8d7e25dfa570b1ca43d9f4c33", "0.1.16--pl5321hdcf5f25_10": "sha256:85d85bbc4219564d4ea59ee6c48c20d651b6b8971383775ae53fe6eac61fd361", "0.1.16--pl5321hdcf5f25_11": "sha256:40c31b7fb63f53a12c249bef59cee8044969f885918f857da4e9ae0cd43f94ae"}, "docker": "quay.io/biocontainers/vcftools", "aliases": {"vcftools": "/usr/local/bin/vcftools", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcftools.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/vcftools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcftools:0.1.16--pl5321hdcf5f25_10
+$ shpc install quay.io/biocontainers/vcftools:0.1.16--pl5321hdcf5f25_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcftools/0.1.16--pl5321hdcf5f25_10
-$ module help quay.io/biocontainers/vcftools/0.1.16--pl5321hdcf5f25_10
+$ module load quay.io/biocontainers/vcftools/0.1.16--pl5321hdcf5f25_11
+$ module help quay.io/biocontainers/vcftools/0.1.16--pl5321hdcf5f25_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sispa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sispa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sispa/container.yaml"
-updated_at: "2024-07-18 04:38:43.320627"
+updated_at: "2024-07-19 03:14:10.703868"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sispa"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.18.0--r40_0"
  - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sispa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sispa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sispa", "latest": {"1.30.0--r43hdfd78af_0": "sha256:2f3997b8b9e1cc1ba583aabd02d5c8c9a0773e6927dafa9fb25c691ac2240845"}, "tags": {"1.8.0--r3.4.1_0": "sha256:502aae767cde6e9022d5655d27ac9e2e375dbf73c287dd31ea89cf00bece3fda", "1.28.0--r42hdfd78af_0": "sha256:3c06dc5a327ae3d45020e277665ff9d949d60c39590cd5e6ea52cb94fd15f3b2", "1.24.0--r41hdfd78af_0": "sha256:6038cf072c01fd20c497f16ae445f23fb42ceba7cceceb43b2a6aaeda47dc013", "1.22.0--r41hdfd78af_0": "sha256:dfc05aebf0915f115b843629f59350d308aa1b09b7ac5b323338a5133d012fc1", "1.20.0--r40hdfd78af_1": "sha256:86580e327642c94848ab7ad8b21bfd31807e3ea55d4708419d76fde5f3385cc2", "1.18.0--r40_0": "sha256:83e303c20c5e09bbad37002043d573b45a12468e6435c0366f14092564494aa4", "1.30.0--r43hdfd78af_0": "sha256:2f3997b8b9e1cc1ba583aabd02d5c8c9a0773e6927dafa9fb25c691ac2240845"}, "docker": "quay.io/biocontainers/bioconductor-sispa", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sispa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sispa", "latest": {"1.30.0--r43hdfd78af_0": "sha256:2f3997b8b9e1cc1ba583aabd02d5c8c9a0773e6927dafa9fb25c691ac2240845"}, "tags": {"1.8.0--r3.4.1_0": "sha256:7dfacb844361c2d4f1f005ba0b5d232a0c259f69dba43c250a73fe1b90712be5", "1.28.0--r42hdfd78af_0": "sha256:3c06dc5a327ae3d45020e277665ff9d949d60c39590cd5e6ea52cb94fd15f3b2", "1.24.0--r41hdfd78af_0": "sha256:6038cf072c01fd20c497f16ae445f23fb42ceba7cceceb43b2a6aaeda47dc013", "1.22.0--r41hdfd78af_0": "sha256:dfc05aebf0915f115b843629f59350d308aa1b09b7ac5b323338a5133d012fc1", "1.20.0--r40hdfd78af_1": "sha256:86580e327642c94848ab7ad8b21bfd31807e3ea55d4708419d76fde5f3385cc2", "1.18.0--r40_0": "sha256:83e303c20c5e09bbad37002043d573b45a12468e6435c0366f14092564494aa4", "1.30.0--r43hdfd78af_0": "sha256:2f3997b8b9e1cc1ba583aabd02d5c8c9a0773e6927dafa9fb25c691ac2240845"}, "docker": "quay.io/biocontainers/bioconductor-sispa", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sispa.

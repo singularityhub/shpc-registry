@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/divvier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/divvier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/divvier/container.yaml"
-updated_at: "2024-07-18 04:24:25.103747"
+updated_at: "2024-07-19 02:59:47.211200"
 latest: "1.01--h5b5514e_3"
 container_url: "https://biocontainers.pro/tools/divvier"
 aliases:

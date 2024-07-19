@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ebi-eva-common-pyutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ebi-eva-common-pyutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ebi-eva-common-pyutils/container.yaml"
-updated_at: "2024-07-18 04:32:09.352865"
-latest: "0.6.7--pyh7cba7a3_0"
+updated_at: "2024-07-19 03:07:33.806799"
+latest: "0.6.8--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/ebi-eva-common-pyutils"
 aliases:
  - "archive_directory.py"
@@ -21,8 +21,9 @@ versions:
  - "0.6.3--pyh7cba7a3_0"
  - "0.6.6--pyh7cba7a3_0"
  - "0.6.7--pyh7cba7a3_0"
+ - "0.6.8--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for ebi-eva-common-pyutils"
-config: {"url": "https://biocontainers.pro/tools/ebi-eva-common-pyutils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ebi-eva-common-pyutils", "latest": {"0.6.7--pyh7cba7a3_0": "sha256:31ed4eec9142b77bd0be9a4928971a54f7a2ee56ec0a867b63b369e745b272df"}, "tags": {"0.6.3--pyh7cba7a3_0": "sha256:db31057a9bfd43ad420626b42fa383c137baa3d964f1a16d84a7f6aef89ddf18", "0.6.6--pyh7cba7a3_0": "sha256:0491789dfef5a02db12ab18e8eff263a99f902e5f92d52ea5495faf6d5bed282", "0.6.7--pyh7cba7a3_0": "sha256:31ed4eec9142b77bd0be9a4928971a54f7a2ee56ec0a867b63b369e745b272df"}, "docker": "quay.io/biocontainers/ebi-eva-common-pyutils", "aliases": {"archive_directory.py": "/usr/local/bin/archive_directory.py", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/ebi-eva-common-pyutils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ebi-eva-common-pyutils", "latest": {"0.6.8--pyh7e72e81_0": "sha256:d7d587a89b266bf6890a7de2b9ab37964e3b12dec614771ee803cd0951d078c5"}, "tags": {"0.6.3--pyh7cba7a3_0": "sha256:db31057a9bfd43ad420626b42fa383c137baa3d964f1a16d84a7f6aef89ddf18", "0.6.6--pyh7cba7a3_0": "sha256:0491789dfef5a02db12ab18e8eff263a99f902e5f92d52ea5495faf6d5bed282", "0.6.7--pyh7cba7a3_0": "sha256:31ed4eec9142b77bd0be9a4928971a54f7a2ee56ec0a867b63b369e745b272df", "0.6.8--pyh7e72e81_0": "sha256:d7d587a89b266bf6890a7de2b9ab37964e3b12dec614771ee803cd0951d078c5"}, "docker": "quay.io/biocontainers/ebi-eva-common-pyutils", "aliases": {"archive_directory.py": "/usr/local/bin/archive_directory.py", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ebi-eva-common-pyutils.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/ebi-eva-common-pyutils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ebi-eva-common-pyutils:0.6.7--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/ebi-eva-common-pyutils:0.6.8--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ebi-eva-common-pyutils/0.6.7--pyh7cba7a3_0
-$ module help quay.io/biocontainers/ebi-eva-common-pyutils/0.6.7--pyh7cba7a3_0
+$ module load quay.io/biocontainers/ebi-eva-common-pyutils/0.6.8--pyh7e72e81_0
+$ module help quay.io/biocontainers/ebi-eva-common-pyutils/0.6.8--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bio_assembly_refinement"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bio_assembly_refinement/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bio_assembly_refinement/container.yaml"
-updated_at: "2024-07-18 04:06:25.189745"
+updated_at: "2024-07-19 02:41:36.322917"
 latest: "0.5.1--py_2"
 container_url: "https://biocontainers.pro/tools/bio_assembly_refinement"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "0.5.1--py_2"
 description: "shpc-registry automated BioContainers addition for bio_assembly_refinement"
-config: {"url": "https://biocontainers.pro/tools/bio_assembly_refinement", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bio_assembly_refinement", "latest": {"0.5.1--py_2": "sha256:cecdd5aadb12c2c7f41a84e3fab2a34321989249ac303b7917b52f56124524dc"}, "tags": {"0.5.1--py_2": "sha256:cecdd5aadb12c2c7f41a84e3fab2a34321989249ac303b7917b52f56124524dc"}, "docker": "quay.io/biocontainers/bio_assembly_refinement", "aliases": {"contig_break_finder": "/usr/local/bin/contig_break_finder", "contig_cleaner": "/usr/local/bin/contig_cleaner", "contig_overlap_trimmer": "/usr/local/bin/contig_overlap_trimmer", "pacbio_post_process": "/usr/local/bin/pacbio_post_process", "fastaq": "/usr/local/bin/fastaq", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer"}}
+config: {"url": "https://biocontainers.pro/tools/bio_assembly_refinement", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bio_assembly_refinement", "latest": {"0.5.1--py_2": "sha256:39175ca1fabbca7bcb3370e4e29a88fffc944954adfba137bbd6b02885a2f9c7"}, "tags": {"0.5.1--py_2": "sha256:39175ca1fabbca7bcb3370e4e29a88fffc944954adfba137bbd6b02885a2f9c7"}, "docker": "quay.io/biocontainers/bio_assembly_refinement", "aliases": {"contig_break_finder": "/usr/local/bin/contig_break_finder", "contig_cleaner": "/usr/local/bin/contig_cleaner", "contig_overlap_trimmer": "/usr/local/bin/contig_overlap_trimmer", "pacbio_post_process": "/usr/local/bin/pacbio_post_process", "fastaq": "/usr/local/bin/fastaq", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bio_assembly_refinement.

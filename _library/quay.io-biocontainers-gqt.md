@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gqt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gqt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gqt/container.yaml"
-updated_at: "2024-07-18 04:10:36.755858"
+updated_at: "2024-07-19 02:45:50.928003"
 latest: "1.1.3--h0263287_3"
 container_url: "https://biocontainers.pro/tools/gqt"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.1.3--h0263287_3"
 description: "shpc-registry automated BioContainers addition for gqt"
-config: {"url": "https://biocontainers.pro/tools/gqt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gqt", "latest": {"1.1.3--h0263287_3": "sha256:c2ce0de0a3c59238a2483949af81e67a4d794717361a15fc807850cef69249dc"}, "tags": {"1.1.3--h0263287_3": "sha256:c2ce0de0a3c59238a2483949af81e67a4d794717361a15fc807850cef69249dc"}, "docker": "quay.io/biocontainers/gqt", "aliases": {"gqt": "/usr/local/bin/gqt", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/gqt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gqt", "latest": {"1.1.3--h0263287_3": "sha256:816222ba0d7d65c670a00130c094ed651e007c0eb041b64a7e5bf5f69ca86714"}, "tags": {"1.1.3--h0263287_3": "sha256:816222ba0d7d65c670a00130c094ed651e007c0eb041b64a7e5bf5f69ca86714"}, "docker": "quay.io/biocontainers/gqt", "aliases": {"gqt": "/usr/local/bin/gqt", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gqt.

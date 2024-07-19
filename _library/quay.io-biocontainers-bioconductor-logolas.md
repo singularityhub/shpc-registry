@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-logolas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-logolas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-logolas/container.yaml"
-updated_at: "2024-07-18 04:23:37.387279"
+updated_at: "2024-07-19 02:58:59.064482"
 latest: "1.11.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-logolas"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.11.0--r40_0"
  - "1.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-logolas"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-logolas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-logolas", "latest": {"1.11.0--r40_0": "sha256:2516db9cdfb84cb003247593708a15338acb8ab9724c70373c07b551ee845370"}, "tags": {"1.8.0--r36_1": "sha256:0fb3a54cbbef12ed9adbf6b8d86f09bc10a3c33398f314044a7e7d7871fbbd69", "1.11.0--r40_0": "sha256:2516db9cdfb84cb003247593708a15338acb8ab9724c70373c07b551ee845370", "1.10.0--r36_0": "sha256:83c1f314ff173bfbaf2d6f418d952cc7bc0e82282ee2d2d01d6512254ecabfa6"}, "docker": "quay.io/biocontainers/bioconductor-logolas", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-logolas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-logolas", "latest": {"1.11.0--r40_0": "sha256:2516db9cdfb84cb003247593708a15338acb8ab9724c70373c07b551ee845370"}, "tags": {"1.8.0--r36_1": "sha256:7f152ff25dbc51e4c72284b2197bb5837ec96a31badb59295ec8c72f224c70e8", "1.11.0--r40_0": "sha256:2516db9cdfb84cb003247593708a15338acb8ab9724c70373c07b551ee845370", "1.10.0--r36_0": "sha256:f6685b9bf5d828f8fae223f9ab1fc5ff0fca08862db625e4a7642ccdbb5027e5"}, "docker": "quay.io/biocontainers/bioconductor-logolas", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-logolas.

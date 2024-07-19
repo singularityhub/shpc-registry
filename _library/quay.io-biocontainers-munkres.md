@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/munkres"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/munkres/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/munkres/container.yaml"
-updated_at: "2024-07-18 04:19:50.701568"
+updated_at: "2024-07-19 02:55:10.556673"
 latest: "1.0.7--py_1"
 container_url: "https://biocontainers.pro/tools/munkres"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.0.7--py_1"
 description: "shpc-registry automated BioContainers addition for munkres"
-config: {"url": "https://biocontainers.pro/tools/munkres", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for munkres", "latest": {"1.0.7--py_1": "sha256:20e0559b6ac94e005a09ff9a384ee74859bd7f0f590568a033b9f79407811c18"}, "tags": {"1.0.7--py_1": "sha256:20e0559b6ac94e005a09ff9a384ee74859bd7f0f590568a033b9f79407811c18"}, "docker": "quay.io/biocontainers/munkres", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/munkres", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for munkres", "latest": {"1.0.7--py_1": "sha256:1af68b4614b6467e5ad5ca9a8d551f2d5574e38f22b2a94448b9b4e6e8549758"}, "tags": {"1.0.7--py_1": "sha256:1af68b4614b6467e5ad5ca9a8d551f2d5574e38f22b2a94448b9b4e6e8549758"}, "docker": "quay.io/biocontainers/munkres", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/munkres.

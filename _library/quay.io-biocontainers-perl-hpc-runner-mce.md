@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-hpc-runner-mce"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hpc-runner-mce/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hpc-runner-mce/container.yaml"
-updated_at: "2024-07-18 04:25:41.306020"
+updated_at: "2024-07-19 03:01:03.802641"
 latest: "2.41--0"
 container_url: "https://biocontainers.pro/tools/perl-hpc-runner-mce"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "2.41--0"
 description: "shpc-registry automated BioContainers addition for perl-hpc-runner-mce"
-config: {"url": "https://biocontainers.pro/tools/perl-hpc-runner-mce", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hpc-runner-mce", "latest": {"2.41--0": "sha256:30f8ea539c039ba13fef2c845de2c1f76a6d93ed5bf3f57149ee6483d08390d3"}, "tags": {"2.41--0": "sha256:30f8ea539c039ba13fef2c845de2c1f76a6d93ed5bf3f57149ee6483d08390d3"}, "docker": "quay.io/biocontainers/perl-hpc-runner-mce", "aliases": {"mcerunner.pl": "/usr/local/bin/mcerunner.pl", "findrule": "/usr/local/bin/findrule", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-hpc-runner-mce", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hpc-runner-mce", "latest": {"2.41--0": "sha256:9f3647c6112ee69187c03cc18cf17d6a62756e1637686aa4540c2af7dfc0f2d4"}, "tags": {"2.41--0": "sha256:9f3647c6112ee69187c03cc18cf17d6a62756e1637686aa4540c2af7dfc0f2d4"}, "docker": "quay.io/biocontainers/perl-hpc-runner-mce", "aliases": {"mcerunner.pl": "/usr/local/bin/mcerunner.pl", "findrule": "/usr/local/bin/findrule", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-hpc-runner-mce.

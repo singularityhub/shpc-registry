@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/escher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/escher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/escher/container.yaml"
-updated_at: "2024-07-18 04:11:49.125422"
+updated_at: "2024-07-19 02:47:03.775103"
 latest: "1.7.3--py_0"
 container_url: "https://biocontainers.pro/tools/escher"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "1.7.3--py_0"
 description: "shpc-registry automated BioContainers addition for escher"
-config: {"url": "https://biocontainers.pro/tools/escher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for escher", "latest": {"1.7.3--py_0": "sha256:cb2eb2367c819563bbb1e4942bfd14fde7bd13a4172f43f3b47f9aa685829fa2"}, "tags": {"1.7.3--py_0": "sha256:cb2eb2367c819563bbb1e4942bfd14fde7bd13a4172f43f3b47f9aa685829fa2"}, "docker": "quay.io/biocontainers/escher", "aliases": {"ccache-swig": "/usr/local/bin/ccache-swig", "isympy": "/usr/local/bin/isympy", "pipdeptree": "/usr/local/bin/pipdeptree", "swig": "/usr/local/bin/swig", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "iptest3": "/usr/local/bin/iptest3", "curve_keygen": "/usr/local/bin/curve_keygen"}}
+config: {"url": "https://biocontainers.pro/tools/escher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for escher", "latest": {"1.7.3--py_0": "sha256:2801d97e6f584fac19bdbaf109e9aea1187a8f33415f1147ab53bf58ada62c77"}, "tags": {"1.7.3--py_0": "sha256:2801d97e6f584fac19bdbaf109e9aea1187a8f33415f1147ab53bf58ada62c77"}, "docker": "quay.io/biocontainers/escher", "aliases": {"ccache-swig": "/usr/local/bin/ccache-swig", "isympy": "/usr/local/bin/isympy", "pipdeptree": "/usr/local/bin/pipdeptree", "swig": "/usr/local/bin/swig", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "iptest3": "/usr/local/bin/iptest3", "curve_keygen": "/usr/local/bin/curve_keygen"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/escher.

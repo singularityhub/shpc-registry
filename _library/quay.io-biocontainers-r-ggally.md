@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggally"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggally/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggally/container.yaml"
-updated_at: "2024-07-18 04:14:20.309164"
+updated_at: "2024-07-19 02:49:36.999782"
 latest: "1.3.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ggally"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.3.0--r3.3.1_0"
  - "1.3.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-ggally"
-config: {"url": "https://biocontainers.pro/tools/r-ggally", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggally", "latest": {"1.3.0--r3.3.1_0": "sha256:9cdd6266528c2bc9a1908cf9591967f32bb0583ba3443ab484252138d8b60347"}, "tags": {"1.3.0--r3.3.1_0": "sha256:9cdd6266528c2bc9a1908cf9591967f32bb0583ba3443ab484252138d8b60347", "1.3.0--r3.3.2_0": "sha256:3c9aee9c5065ffa516e09b3aa460bccd668628e1a10e620bb3205bd0ca50db08"}, "docker": "quay.io/biocontainers/r-ggally", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-ggally", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggally", "latest": {"1.3.0--r3.3.1_0": "sha256:fb04e789fc088a51b1fabbb3f5ff9ba300382a611c05c0933ffd3eee2bf425db"}, "tags": {"1.3.0--r3.3.1_0": "sha256:fb04e789fc088a51b1fabbb3f5ff9ba300382a611c05c0933ffd3eee2bf425db", "1.3.0--r3.3.2_0": "sha256:a0d5a54bfcdf18173bc9c1ece398c80903798979b17591ea3494fc2f3c874d31"}, "docker": "quay.io/biocontainers/r-ggally", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ggally.

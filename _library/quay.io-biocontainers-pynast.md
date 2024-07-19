@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pynast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pynast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pynast/container.yaml"
-updated_at: "2024-07-18 04:09:32.954022"
+updated_at: "2024-07-19 02:44:45.974200"
 latest: "1.2.2--py_2"
 container_url: "https://biocontainers.pro/tools/pynast"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.2.2--py_2"
 description: "shpc-registry automated BioContainers addition for pynast"
-config: {"url": "https://biocontainers.pro/tools/pynast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pynast", "latest": {"1.2.2--py_2": "sha256:f37a0932d07dd33286e49504a97dd1c339f8c3e62f6a6dc65ea1ec4e6569f8a9"}, "tags": {"1.2.2--py_2": "sha256:f37a0932d07dd33286e49504a97dd1c339f8c3e62f6a6dc65ea1ec4e6569f8a9"}, "docker": "quay.io/biocontainers/pynast", "aliases": {"pynast": "/usr/local/bin/pynast", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server"}}
+config: {"url": "https://biocontainers.pro/tools/pynast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pynast", "latest": {"1.2.2--py_2": "sha256:13fb7fea5e5a1faa4433d4b61e3c60cc7492e31d695126e9d62eed99ef5adf83"}, "tags": {"1.2.2--py_2": "sha256:13fb7fea5e5a1faa4433d4b61e3c60cc7492e31d695126e9d62eed99ef5adf83"}, "docker": "quay.io/biocontainers/pynast", "aliases": {"pynast": "/usr/local/bin/pynast", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pynast.

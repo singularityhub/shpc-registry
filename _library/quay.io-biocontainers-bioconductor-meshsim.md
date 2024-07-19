@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-meshsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-meshsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-meshsim/container.yaml"
-updated_at: "2024-07-18 04:25:21.082794"
+updated_at: "2024-07-19 03:00:43.626238"
 latest: "1.7.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-meshsim"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.7.0--r3.4.1_0"
+ - "1.7.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-meshsim"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-meshsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-meshsim", "latest": {"1.7.0--r3.4.1_0": "sha256:138556d4dc1d44f6642df1068149c247a61ac2d277227a41faa91b28da900351"}, "tags": {"1.7.0--r3.4.1_0": "sha256:138556d4dc1d44f6642df1068149c247a61ac2d277227a41faa91b28da900351"}, "docker": "quay.io/biocontainers/bioconductor-meshsim", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-meshsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-meshsim", "latest": {"1.7.0--r3.4.1_0": "sha256:2a5eae99a0f104c06f3f3e12d6cf10f2bc869036cd48ff28d9ff57e69bb2024c"}, "tags": {"1.7.0--r3.4.1_0": "sha256:2a5eae99a0f104c06f3f3e12d6cf10f2bc869036cd48ff28d9ff57e69bb2024c", "1.7.0--r3.3.2_0": "sha256:1bf0f05f42dc3a1370585a4e6cc69ed4e87d2c8ef31a14503e4758e0f6d07b63"}, "docker": "quay.io/biocontainers/bioconductor-meshsim", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-meshsim.

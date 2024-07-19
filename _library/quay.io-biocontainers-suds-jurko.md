@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/suds-jurko"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/suds-jurko/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/suds-jurko/container.yaml"
-updated_at: "2024-07-18 04:16:19.681599"
+updated_at: "2024-07-19 02:51:37.458785"
 latest: "0.6--py36_1"
 container_url: "https://biocontainers.pro/tools/suds-jurko"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.6--py36_1"
+ - "0.6--py35_1"
 description: "shpc-registry automated BioContainers addition for suds-jurko"
-config: {"url": "https://biocontainers.pro/tools/suds-jurko", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for suds-jurko", "latest": {"0.6--py36_1": "sha256:781bb55d21e068ff8ab9a249fe3a96ab3c162848bc43ca1b7e6af228aade2c44"}, "tags": {"0.6--py36_1": "sha256:781bb55d21e068ff8ab9a249fe3a96ab3c162848bc43ca1b7e6af228aade2c44"}, "docker": "quay.io/biocontainers/suds-jurko", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/suds-jurko", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for suds-jurko", "latest": {"0.6--py36_1": "sha256:8a2024de37e51cfb980597a03ead09f2f131a3bc804b3fcd0fb194dded9a5e76"}, "tags": {"0.6--py36_1": "sha256:8a2024de37e51cfb980597a03ead09f2f131a3bc804b3fcd0fb194dded9a5e76", "0.6--py35_1": "sha256:bd8ee9a0868ea9d0a03209d9466f50d8f19c94bb371145c584913880a70038ee"}, "docker": "quay.io/biocontainers/suds-jurko", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/suds-jurko.

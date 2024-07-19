@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-hash-util-fieldhash-compat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hash-util-fieldhash-compat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hash-util-fieldhash-compat/container.yaml"
-updated_at: "2024-07-18 04:15:00.595475"
+updated_at: "2024-07-19 02:50:17.616235"
 latest: "0.11--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-hash-util-fieldhash-compat"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.11--pl526_2"
 description: "shpc-registry automated BioContainers addition for perl-hash-util-fieldhash-compat"
-config: {"url": "https://biocontainers.pro/tools/perl-hash-util-fieldhash-compat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hash-util-fieldhash-compat", "latest": {"0.11--pl526_2": "sha256:9d631e1cf5f97def17a1ad0e3aecbfc6a26c1cf9cf960ff0a16007bb51029c0c"}, "tags": {"0.11--pl526_2": "sha256:9d631e1cf5f97def17a1ad0e3aecbfc6a26c1cf9cf960ff0a16007bb51029c0c"}, "docker": "quay.io/biocontainers/perl-hash-util-fieldhash-compat", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-hash-util-fieldhash-compat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hash-util-fieldhash-compat", "latest": {"0.11--pl526_2": "sha256:983b232569c1ab4544fa2b510f252803cea6e23b3ade1bd05f72667225806ad0"}, "tags": {"0.11--pl526_2": "sha256:983b232569c1ab4544fa2b510f252803cea6e23b3ade1bd05f72667225806ad0"}, "docker": "quay.io/biocontainers/perl-hash-util-fieldhash-compat", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-hash-util-fieldhash-compat.

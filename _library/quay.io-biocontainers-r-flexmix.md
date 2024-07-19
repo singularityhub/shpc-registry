@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-flexmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-flexmix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-flexmix/container.yaml"
-updated_at: "2024-07-18 04:32:19.195780"
+updated_at: "2024-07-19 03:07:43.546965"
 latest: "2.3_14--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-flexmix"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "2.3_14--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-flexmix"
-config: {"url": "https://biocontainers.pro/tools/r-flexmix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-flexmix", "latest": {"2.3_14--r3.3.2_0": "sha256:d1966702a708ec37eb664f48b07f0710270cb4711e694a8ca039f740c925530f"}, "tags": {"2.3_14--r3.3.2_0": "sha256:d1966702a708ec37eb664f48b07f0710270cb4711e694a8ca039f740c925530f"}, "docker": "quay.io/biocontainers/r-flexmix", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-flexmix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-flexmix", "latest": {"2.3_14--r3.3.2_0": "sha256:0bd306c71205657d999cc6fa37421090d461e9e5cfa849f71e2006e95ec474f5"}, "tags": {"2.3_14--r3.3.2_0": "sha256:0bd306c71205657d999cc6fa37421090d461e9e5cfa849f71e2006e95ec474f5"}, "docker": "quay.io/biocontainers/r-flexmix", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-flexmix.

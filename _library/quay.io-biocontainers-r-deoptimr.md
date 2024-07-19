@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-deoptimr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-deoptimr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-deoptimr/container.yaml"
-updated_at: "2024-07-18 04:02:08.801798"
+updated_at: "2024-07-19 02:37:17.480634"
 latest: "1.0_8--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-deoptimr"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.0_8--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-deoptimr"
-config: {"url": "https://biocontainers.pro/tools/r-deoptimr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-deoptimr", "latest": {"1.0_8--r3.4.1_0": "sha256:cccc5365be0785692aec59298964b9ff585e33127447363c1c0b70b61366788e"}, "tags": {"1.0_8--r3.4.1_0": "sha256:cccc5365be0785692aec59298964b9ff585e33127447363c1c0b70b61366788e"}, "docker": "quay.io/biocontainers/r-deoptimr", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-deoptimr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-deoptimr", "latest": {"1.0_8--r3.4.1_0": "sha256:e52f8fa997b7d0eb0a39439d9382df4627e03c0d49c76720385dc5c5739f84d5"}, "tags": {"1.0_8--r3.4.1_0": "sha256:e52f8fa997b7d0eb0a39439d9382df4627e03c0d49c76720385dc5c5739f84d5"}, "docker": "quay.io/biocontainers/r-deoptimr", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-deoptimr.

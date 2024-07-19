@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/brewer2mpl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/brewer2mpl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/brewer2mpl/container.yaml"
-updated_at: "2024-07-18 04:41:52.411181"
+updated_at: "2024-07-19 03:17:20.962731"
 latest: "1.4.1--py35_0"
 container_url: "https://biocontainers.pro/tools/brewer2mpl"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "1.4.1--py35_0"
  - "1.4.1--py36_0"
 description: "shpc-registry automated BioContainers addition for brewer2mpl"
-config: {"url": "https://biocontainers.pro/tools/brewer2mpl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for brewer2mpl", "latest": {"1.4.1--py35_0": "sha256:7a6f132863afb0a283aa3f8cef6451437fa61e341e23dcbe9dc0bb6402b7f74d"}, "tags": {"1.4.1--py35_0": "sha256:7a6f132863afb0a283aa3f8cef6451437fa61e341e23dcbe9dc0bb6402b7f74d", "1.4.1--py36_0": "sha256:45870a42df4aca64e6f48e94f8c22b0b3385d4a864ac36e1dae9a96dae548714"}, "docker": "quay.io/biocontainers/brewer2mpl", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/brewer2mpl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for brewer2mpl", "latest": {"1.4.1--py35_0": "sha256:3dd7b7e064b7344383097a55239a43a05ebcbbef277e6f557f1a685e72b53bb3"}, "tags": {"1.4.1--py35_0": "sha256:3dd7b7e064b7344383097a55239a43a05ebcbbef277e6f557f1a685e72b53bb3", "1.4.1--py36_0": "sha256:2fccb293a5a27eb71c73bf31d95b5b771d903fa7a1e40696ef44eaa682534ace"}, "docker": "quay.io/biocontainers/brewer2mpl", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/brewer2mpl.

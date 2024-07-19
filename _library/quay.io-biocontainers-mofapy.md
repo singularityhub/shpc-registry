@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mofapy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mofapy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mofapy/container.yaml"
-updated_at: "2024-07-18 04:48:11.280726"
+updated_at: "2024-07-19 03:23:42.740573"
 latest: "1.2--py_1"
 container_url: "https://biocontainers.pro/tools/mofapy"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.2--py_1"
 description: "shpc-registry automated BioContainers addition for mofapy"
-config: {"url": "https://biocontainers.pro/tools/mofapy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mofapy", "latest": {"1.2--py_1": "sha256:74695ffcfcee3996643f02c7372f6820d38e551234fac9adc6fc5e8b0af1eeea"}, "tags": {"1.2--py_1": "sha256:74695ffcfcee3996643f02c7372f6820d38e551234fac9adc6fc5e8b0af1eeea"}, "docker": "quay.io/biocontainers/mofapy", "aliases": {"f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "h5clear": "/usr/local/bin/h5clear"}}
+config: {"url": "https://biocontainers.pro/tools/mofapy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mofapy", "latest": {"1.2--py_1": "sha256:f03e1b56f84320f6f24651625a94a415c0d3302fcd71f1c19ccf4e97763488fb"}, "tags": {"1.2--py_1": "sha256:f03e1b56f84320f6f24651625a94a415c0d3302fcd71f1c19ccf4e97763488fb"}, "docker": "quay.io/biocontainers/mofapy", "aliases": {"f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "h5clear": "/usr/local/bin/h5clear"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mofapy.

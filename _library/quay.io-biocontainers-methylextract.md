@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/methylextract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methylextract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methylextract/container.yaml"
-updated_at: "2024-07-18 04:32:29.683365"
+updated_at: "2024-07-19 03:07:54.077618"
 latest: "1.9.1--1"
 container_url: "https://biocontainers.pro/tools/methylextract"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "1.9.1--1"
 description: "shpc-registry automated BioContainers addition for methylextract"
-config: {"url": "https://biocontainers.pro/tools/methylextract", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for methylextract", "latest": {"1.9.1--1": "sha256:e53dca4fdba04b3f989fed47f98c43cbf87427c635c6140e90a801470f01bac2"}, "tags": {"1.9.1--1": "sha256:e53dca4fdba04b3f989fed47f98c43cbf87427c635c6140e90a801470f01bac2"}, "docker": "quay.io/biocontainers/methylextract", "aliases": {"MethylExtract.pl": "/usr/local/bin/MethylExtract.pl", "MethylExtractBSCR.pl": "/usr/local/bin/MethylExtractBSCR.pl", "MethylExtractBSPvalue.pl": "/usr/local/bin/MethylExtractBSPvalue.pl", "perl5.26.2": "/usr/local/bin/perl5.26.2", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite"}}
+config: {"url": "https://biocontainers.pro/tools/methylextract", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for methylextract", "latest": {"1.9.1--1": "sha256:dad9f28a39b1672217b5ea8fd148dc33b02cc6b99ab8405899c2c533e62b8172"}, "tags": {"1.9.1--1": "sha256:dad9f28a39b1672217b5ea8fd148dc33b02cc6b99ab8405899c2c533e62b8172"}, "docker": "quay.io/biocontainers/methylextract", "aliases": {"MethylExtract.pl": "/usr/local/bin/MethylExtract.pl", "MethylExtractBSCR.pl": "/usr/local/bin/MethylExtractBSCR.pl", "MethylExtractBSPvalue.pl": "/usr/local/bin/MethylExtractBSPvalue.pl", "perl5.26.2": "/usr/local/bin/perl5.26.2", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/methylextract.

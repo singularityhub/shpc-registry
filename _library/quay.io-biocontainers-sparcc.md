@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sparcc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sparcc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sparcc/container.yaml"
-updated_at: "2024-07-18 04:26:01.384445"
+updated_at: "2024-07-19 03:01:24.067670"
 latest: "0.1.0--0"
 container_url: "https://biocontainers.pro/tools/sparcc"
 aliases:
@@ -30,7 +30,7 @@ aliases:
 versions:
  - "0.1.0--0"
 description: "shpc-registry automated BioContainers addition for sparcc"
-config: {"url": "https://biocontainers.pro/tools/sparcc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sparcc", "latest": {"0.1.0--0": "sha256:903a25a57b8360a0293601350420c8f13fcb043eacf5b3ecc7d9d25a9be05804"}, "tags": {"0.1.0--0": "sha256:903a25a57b8360a0293601350420c8f13fcb043eacf5b3ecc7d9d25a9be05804"}, "docker": "quay.io/biocontainers/sparcc", "aliases": {"Lineages.py": "/usr/local/bin/Lineages.py", "MakeBootstraps.py": "/usr/local/bin/MakeBootstraps.py", "PseudoPvals.py": "/usr/local/bin/PseudoPvals.py", "SampleDist.py": "/usr/local/bin/SampleDist.py", "SparCC.py": "/usr/local/bin/SparCC.py", "__init__.py": "/usr/local/bin/__init__.py", "analysis_methods.py": "/usr/local/bin/analysis_methods.py", "compositional_methods.py": "/usr/local/bin/compositional_methods.py", "core_methods.py": "/usr/local/bin/core_methods.py", "io_methods.py": "/usr/local/bin/io_methods.py", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/sparcc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sparcc", "latest": {"0.1.0--0": "sha256:57bb72c6b87ad91e86a96322014c4355eb0dc86f36539b81beccd8859e78f758"}, "tags": {"0.1.0--0": "sha256:57bb72c6b87ad91e86a96322014c4355eb0dc86f36539b81beccd8859e78f758"}, "docker": "quay.io/biocontainers/sparcc", "aliases": {"Lineages.py": "/usr/local/bin/Lineages.py", "MakeBootstraps.py": "/usr/local/bin/MakeBootstraps.py", "PseudoPvals.py": "/usr/local/bin/PseudoPvals.py", "SampleDist.py": "/usr/local/bin/SampleDist.py", "SparCC.py": "/usr/local/bin/SparCC.py", "__init__.py": "/usr/local/bin/__init__.py", "analysis_methods.py": "/usr/local/bin/analysis_methods.py", "compositional_methods.py": "/usr/local/bin/compositional_methods.py", "core_methods.py": "/usr/local/bin/core_methods.py", "io_methods.py": "/usr/local/bin/io_methods.py", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sparcc.

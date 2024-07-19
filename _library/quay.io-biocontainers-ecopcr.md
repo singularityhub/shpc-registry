@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ecopcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ecopcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ecopcr/container.yaml"
-updated_at: "2024-07-18 04:12:34.485409"
+updated_at: "2024-07-19 02:47:49.656667"
 latest: "0.5.0--py27_1"
 container_url: "https://biocontainers.pro/tools/ecopcr"
 aliases:
@@ -27,7 +27,7 @@ aliases:
 versions:
  - "0.5.0--py27_1"
 description: "shpc-registry automated BioContainers addition for ecopcr"
-config: {"url": "https://biocontainers.pro/tools/ecopcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ecopcr", "latest": {"0.5.0--py27_1": "sha256:c9b4e6a807855ed593fde9a7d40586279e7eff1e101139310790261f9bd189c1"}, "tags": {"0.5.0--py27_1": "sha256:c9b4e6a807855ed593fde9a7d40586279e7eff1e101139310790261f9bd189c1"}, "docker": "quay.io/biocontainers/ecopcr", "aliases": {"ecoPCR": "/usr/local/bin/ecoPCR", "ecoPCRFilter.py": "/usr/local/bin/ecoPCRFilter.py", "ecoPCRFormat.py": "/usr/local/bin/ecoPCRFormat.py", "ecoSort.py": "/usr/local/bin/ecoSort.py", "ecofind": "/usr/local/bin/ecofind", "ecogrep": "/usr/local/bin/ecogrep", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py"}}
+config: {"url": "https://biocontainers.pro/tools/ecopcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ecopcr", "latest": {"0.5.0--py27_1": "sha256:a07aa996b16457916b856ab68525ba5011d69b891d546d0cca462a1061fa0930"}, "tags": {"0.5.0--py27_1": "sha256:a07aa996b16457916b856ab68525ba5011d69b891d546d0cca462a1061fa0930"}, "docker": "quay.io/biocontainers/ecopcr", "aliases": {"ecoPCR": "/usr/local/bin/ecoPCR", "ecoPCRFilter.py": "/usr/local/bin/ecoPCRFilter.py", "ecoPCRFormat.py": "/usr/local/bin/ecoPCRFormat.py", "ecoSort.py": "/usr/local/bin/ecoSort.py", "ecofind": "/usr/local/bin/ecofind", "ecogrep": "/usr/local/bin/ecogrep", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ecopcr.

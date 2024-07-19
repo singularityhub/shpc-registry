@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-osat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-osat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-osat/container.yaml"
-updated_at: "2024-07-18 04:23:37.668817"
+updated_at: "2024-07-19 02:58:59.348754"
 latest: "1.50.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-osat"
 

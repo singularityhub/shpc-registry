@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rebird"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rebird/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rebird/container.yaml"
-updated_at: "2024-07-18 04:02:39.991203"
+updated_at: "2024-07-19 02:37:49.061635"
 latest: "1.0.0--r351h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-rebird"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.0.0--r351h6115d3f_1"
 description: "shpc-registry automated BioContainers addition for r-rebird"
-config: {"url": "https://biocontainers.pro/tools/r-rebird", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rebird", "latest": {"1.0.0--r351h6115d3f_1": "sha256:e57e52784359ae3db47f2065c8253c3c485b7f2f37cc3ebb88a4722ef180dd58"}, "tags": {"1.0.0--r351h6115d3f_1": "sha256:e57e52784359ae3db47f2065c8253c3c485b7f2f37cc3ebb88a4722ef180dd58"}, "docker": "quay.io/biocontainers/r-rebird", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-rebird", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rebird", "latest": {"1.0.0--r351h6115d3f_1": "sha256:25e6edaca5f75604a9bb8e099de09266ff7a09618b2d8ab1ef08fb2a6056e803"}, "tags": {"1.0.0--r351h6115d3f_1": "sha256:25e6edaca5f75604a9bb8e099de09266ff7a09618b2d8ab1ef08fb2a6056e803"}, "docker": "quay.io/biocontainers/r-rebird", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rebird.

@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/music"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/music/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/music/container.yaml"
-updated_at: "2024-07-18 04:21:59.192071"
+updated_at: "2024-07-19 02:57:20.119890"
 latest: "1.0.0--h2d50403_2"
 container_url: "https://biocontainers.pro/tools/music"
 
 versions:
  - "1.0.0--h2d50403_2"
 description: "shpc-registry automated BioContainers addition for music"
-config: {"url": "https://biocontainers.pro/tools/music", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for music", "latest": {"1.0.0--h2d50403_2": "sha256:2d027510d85133a2c36cf0a244e5fa6e8fe1ac610c789a24e032bdae6ba22560"}, "tags": {"1.0.0--h2d50403_2": "sha256:2d027510d85133a2c36cf0a244e5fa6e8fe1ac610c789a24e032bdae6ba22560"}, "docker": "quay.io/biocontainers/music"}
+config: {"url": "https://biocontainers.pro/tools/music", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for music", "latest": {"1.0.0--h2d50403_2": "sha256:ecaee7ea932081bde5284884138986d97b2c060eb015829c2449c6886663f5a4"}, "tags": {"1.0.0--h2d50403_2": "sha256:ecaee7ea932081bde5284884138986d97b2c060eb015829c2449c6886663f5a4"}, "docker": "quay.io/biocontainers/music"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/music.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jpredapi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jpredapi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jpredapi/container.yaml"
-updated_at: "2024-07-18 04:32:22.604868"
+updated_at: "2024-07-19 03:07:46.945822"
 latest: "1.5.6--py_0"
 container_url: "https://biocontainers.pro/tools/jpredapi"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.5.6--py_0"
 description: "shpc-registry automated BioContainers addition for jpredapi"
-config: {"url": "https://biocontainers.pro/tools/jpredapi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jpredapi", "latest": {"1.5.6--py_0": "sha256:13425d2e4f21a7421d086aee7dd75a7e9d4fdd0b32dd86362e7d73410f843ebe"}, "tags": {"1.5.6--py_0": "sha256:13425d2e4f21a7421d086aee7dd75a7e9d4fdd0b32dd86362e7d73410f843ebe"}, "docker": "quay.io/biocontainers/jpredapi", "aliases": {"jpredapi": "/usr/local/bin/jpredapi", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/jpredapi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jpredapi", "latest": {"1.5.6--py_0": "sha256:9f439f785baa97071bbc9539a5de5f55b0f27c75eed73aeb894c2beefcee8256"}, "tags": {"1.5.6--py_0": "sha256:9f439f785baa97071bbc9539a5de5f55b0f27c75eed73aeb894c2beefcee8256"}, "docker": "quay.io/biocontainers/jpredapi", "aliases": {"jpredapi": "/usr/local/bin/jpredapi", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jpredapi.

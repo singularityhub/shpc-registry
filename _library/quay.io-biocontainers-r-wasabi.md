@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-wasabi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-wasabi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-wasabi/container.yaml"
-updated_at: "2024-07-18 04:22:56.233921"
+updated_at: "2024-07-19 02:58:17.577934"
 latest: "1.0.1--r43hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/r-wasabi"
 aliases:

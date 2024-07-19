@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galaxy-ops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-ops/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-ops/container.yaml"
-updated_at: "2024-07-18 04:45:21.054645"
+updated_at: "2024-07-19 03:20:51.256644"
 latest: "1.1.0--py_2"
 container_url: "https://biocontainers.pro/tools/galaxy-ops"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.1.0--py_2"
 description: "shpc-registry automated BioContainers addition for galaxy-ops"
-config: {"url": "https://biocontainers.pro/tools/galaxy-ops", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-ops", "latest": {"1.1.0--py_2": "sha256:202ff10518b7d8c00695f27bc13b282cdd89865140397560b7c1ab117a634760"}, "tags": {"1.1.0--py_2": "sha256:202ff10518b7d8c00695f27bc13b282cdd89865140397560b7c1ab117a634760"}, "docker": "quay.io/biocontainers/galaxy-ops", "aliases": {"aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
+config: {"url": "https://biocontainers.pro/tools/galaxy-ops", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-ops", "latest": {"1.1.0--py_2": "sha256:d5553e6538cc863797843461f71b6c171d82c6ede8533b5513f9c77ac2650241"}, "tags": {"1.1.0--py_2": "sha256:d5553e6538cc863797843461f71b6c171d82c6ede8533b5513f9c77ac2650241"}, "docker": "quay.io/biocontainers/galaxy-ops", "aliases": {"aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy-ops.

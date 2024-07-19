@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gamlss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gamlss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gamlss/container.yaml"
-updated_at: "2024-07-18 04:21:54.118357"
+updated_at: "2024-07-19 02:57:15.003425"
 latest: "5.0_0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-gamlss"
 
@@ -12,7 +12,7 @@ versions:
  - "5.0_0--r3.3.1_0"
  - "5.0_0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-gamlss"
-config: {"url": "https://biocontainers.pro/tools/r-gamlss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gamlss", "latest": {"5.0_0--r3.3.1_0": "sha256:75fa9abd6bd8c4a5487a991fa55af633ff1e59bbfadb7447decd583f16722131"}, "tags": {"5.0_0--r3.3.1_0": "sha256:75fa9abd6bd8c4a5487a991fa55af633ff1e59bbfadb7447decd583f16722131", "5.0_0--r3.3.2_0": "sha256:7432306fb4b6543a28ab3db151f6d683e77acae9870faebf7d4192e0d11a47ef"}, "docker": "quay.io/biocontainers/r-gamlss"}
+config: {"url": "https://biocontainers.pro/tools/r-gamlss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gamlss", "latest": {"5.0_0--r3.3.1_0": "sha256:acf70e1d48b24171d725e1e7e699190a7873cc9a33608eaf89a9d020fc2b5246"}, "tags": {"5.0_0--r3.3.1_0": "sha256:acf70e1d48b24171d725e1e7e699190a7873cc9a33608eaf89a9d020fc2b5246", "5.0_0--r3.3.2_0": "sha256:0467ad46c8bc365a1e664f0add6eb4f954f11d1825c4ac7223460751ce8fbe5e"}, "docker": "quay.io/biocontainers/r-gamlss"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gamlss.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/socksipy-branch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/socksipy-branch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/socksipy-branch/container.yaml"
-updated_at: "2024-07-18 04:46:19.403092"
+updated_at: "2024-07-19 03:21:49.952799"
 latest: "1.01--py_1"
 container_url: "https://biocontainers.pro/tools/socksipy-branch"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.01--py_1"
 description: "shpc-registry automated BioContainers addition for socksipy-branch"
-config: {"url": "https://biocontainers.pro/tools/socksipy-branch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for socksipy-branch", "latest": {"1.01--py_1": "sha256:0de6ad0ebc73953c19a0f5831f9390c9acd9c9f1d75a87132b2eb38a46d95898"}, "tags": {"1.01--py_1": "sha256:0de6ad0ebc73953c19a0f5831f9390c9acd9c9f1d75a87132b2eb38a46d95898"}, "docker": "quay.io/biocontainers/socksipy-branch", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/socksipy-branch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for socksipy-branch", "latest": {"1.01--py_1": "sha256:130687e68461054d41acf8eaa09b69796b0643247d1847580d2b6268ae153356"}, "tags": {"1.01--py_1": "sha256:130687e68461054d41acf8eaa09b69796b0643247d1847580d2b6268ae153356"}, "docker": "quay.io/biocontainers/socksipy-branch", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/socksipy-branch.

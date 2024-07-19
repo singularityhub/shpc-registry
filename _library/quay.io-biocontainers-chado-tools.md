@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chado-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chado-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chado-tools/container.yaml"
-updated_at: "2024-07-18 04:33:09.453291"
+updated_at: "2024-07-19 03:08:34.225469"
 latest: "0.2.15--py_0"
 container_url: "https://biocontainers.pro/tools/chado-tools"
 aliases:
@@ -24,7 +24,7 @@ versions:
  - "0.2.8--py_0"
  - "0.2.15--py_0"
 description: "shpc-registry automated BioContainers addition for chado-tools"
-config: {"url": "https://biocontainers.pro/tools/chado-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chado-tools", "latest": {"0.2.15--py_0": "sha256:05ddf1c7f51f5b2f0f180e69766714b5d66178dd6f044be4dfab2306100b8983"}, "tags": {"0.2.8--py_0": "sha256:1d061eabf655fde26f2043d18f1274271252d8d67f1613db0ec7cd2fd122d9da", "0.2.15--py_0": "sha256:05ddf1c7f51f5b2f0f180e69766714b5d66178dd6f044be4dfab2306100b8983"}, "docker": "quay.io/biocontainers/chado-tools", "aliases": {"chado": "/usr/local/bin/chado", "pronto": "/usr/local/bin/pronto", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "pybabel": "/usr/local/bin/pybabel", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "faidx": "/usr/local/bin/faidx", "pg_config": "/usr/local/bin/pg_config", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6"}}
+config: {"url": "https://biocontainers.pro/tools/chado-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chado-tools", "latest": {"0.2.15--py_0": "sha256:7f157e528a3d2902bbbd0c94bbe018d7467dff6d22ae64a00ea35f0233a37ed5"}, "tags": {"0.2.8--py_0": "sha256:743862c49d3bb2561e6772922f4c2773857a48fc625e803f0cd32d283dc95662", "0.2.15--py_0": "sha256:7f157e528a3d2902bbbd0c94bbe018d7467dff6d22ae64a00ea35f0233a37ed5"}, "docker": "quay.io/biocontainers/chado-tools", "aliases": {"chado": "/usr/local/bin/chado", "pronto": "/usr/local/bin/pronto", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "pybabel": "/usr/local/bin/pybabel", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "faidx": "/usr/local/bin/faidx", "pg_config": "/usr/local/bin/pg_config", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chado-tools.

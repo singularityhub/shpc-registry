@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methyvim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methyvim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methyvim/container.yaml"
-updated_at: "2024-07-18 04:31:57.543381"
+updated_at: "2024-07-19 03:07:22.167098"
 latest: "1.11.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-methyvim"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.11.0--r40hdfd78af_1"
  - "1.10.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-methyvim"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methyvim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methyvim", "latest": {"1.11.0--r40hdfd78af_1": "sha256:a29250b05a1dc284366c810e5107fc4240ff27c1572401ec6f79ff974f42564b"}, "tags": {"1.8.0--r36_0": "sha256:77830173a8538eee9e9ae866b8c80c9e7b2529ffc9974f5762b6ca128e833411", "1.11.0--r40hdfd78af_1": "sha256:a29250b05a1dc284366c810e5107fc4240ff27c1572401ec6f79ff974f42564b", "1.10.0--r40_0": "sha256:642fa6aab491f92e98b7f0f88295fce5eec647f62a912bc8c03499c83855092a"}, "docker": "quay.io/biocontainers/bioconductor-methyvim", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methyvim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methyvim", "latest": {"1.11.0--r40hdfd78af_1": "sha256:a29250b05a1dc284366c810e5107fc4240ff27c1572401ec6f79ff974f42564b"}, "tags": {"1.8.0--r36_0": "sha256:40d658f3b61cf925de837f5978cf9cf76c217c571695bb002617cf786f4b664a", "1.11.0--r40hdfd78af_1": "sha256:a29250b05a1dc284366c810e5107fc4240ff27c1572401ec6f79ff974f42564b", "1.10.0--r40_0": "sha256:642fa6aab491f92e98b7f0f88295fce5eec647f62a912bc8c03499c83855092a"}, "docker": "quay.io/biocontainers/bioconductor-methyvim", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methyvim.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chainmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chainmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chainmap/container.yaml"
-updated_at: "2024-07-18 04:14:31.379227"
+updated_at: "2024-07-19 02:49:48.167388"
 latest: "1.0.3--py_0"
 container_url: "https://biocontainers.pro/tools/chainmap"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "1.0.3--py_0"
 description: "shpc-registry automated BioContainers addition for chainmap"
-config: {"url": "https://biocontainers.pro/tools/chainmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chainmap", "latest": {"1.0.3--py_0": "sha256:3d20c4782da027954118ddd051c98adf0f3e24236289ad5ed1b588da05ff579f"}, "tags": {"1.0.3--py_0": "sha256:3d20c4782da027954118ddd051c98adf0f3e24236289ad5ed1b588da05ff579f"}, "docker": "quay.io/biocontainers/chainmap", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/chainmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chainmap", "latest": {"1.0.3--py_0": "sha256:191259308f334e53a22560d48d5fea03f7b959ad17d7be313c99c5e7ac2e18f2"}, "tags": {"1.0.3--py_0": "sha256:191259308f334e53a22560d48d5fea03f7b959ad17d7be313c99c5e7ac2e18f2"}, "docker": "quay.io/biocontainers/chainmap", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chainmap.

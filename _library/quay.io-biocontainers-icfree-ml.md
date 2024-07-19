@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/icfree-ml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/icfree-ml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/icfree-ml/container.yaml"
-updated_at: "2024-07-18 04:45:20.491841"
-latest: "2.3.0--pyhdfd78af_0"
+updated_at: "2024-07-19 03:20:50.691428"
+latest: "2.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/icfree-ml"
 aliases:
  - "numpy-config"
@@ -36,8 +36,10 @@ aliases:
  - "blastp"
 versions:
  - "2.3.0--pyhdfd78af_0"
+ - "2.4.0--pyhdfd78af_0"
+ - "2.3.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for icfree-ml"
-config: {"url": "https://biocontainers.pro/tools/icfree-ml", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for icfree-ml", "latest": {"2.3.0--pyhdfd78af_0": "sha256:cbd335ef90b487d40e07e055268b4c17e4923394c1cf0b066d9c43e01e7a71ba"}, "tags": {"2.3.0--pyhdfd78af_0": "sha256:cbd335ef90b487d40e07e055268b4c17e4923394c1cf0b066d9c43e01e7a71ba"}, "docker": "quay.io/biocontainers/icfree-ml", "aliases": {"numpy-config": "/usr/local/bin/numpy-config", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "test_pcre": "/usr/local/bin/test_pcre", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "run_with_lock": "/usr/local/bin/run_with_lock", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastn": "/usr/local/bin/blastn", "blastp": "/usr/local/bin/blastp"}}
+config: {"url": "https://biocontainers.pro/tools/icfree-ml", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for icfree-ml", "latest": {"2.4.0--pyhdfd78af_0": "sha256:8746f12cea65be6e3fa2107af5a543d1357ebf027bec3e6aa1f16c2ae85b5659"}, "tags": {"2.3.0--pyhdfd78af_0": "sha256:cbd335ef90b487d40e07e055268b4c17e4923394c1cf0b066d9c43e01e7a71ba", "2.4.0--pyhdfd78af_0": "sha256:8746f12cea65be6e3fa2107af5a543d1357ebf027bec3e6aa1f16c2ae85b5659", "2.3.3--pyhdfd78af_0": "sha256:30c9985ee33ba1aebac506dfd4848978f3ca469c5f0e6633260af640881ca1f8"}, "docker": "quay.io/biocontainers/icfree-ml", "aliases": {"numpy-config": "/usr/local/bin/numpy-config", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "test_pcre": "/usr/local/bin/test_pcre", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "run_with_lock": "/usr/local/bin/run_with_lock", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastn": "/usr/local/bin/blastn", "blastp": "/usr/local/bin/blastp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/icfree-ml.
@@ -52,7 +54,7 @@ $ shpc install quay.io/biocontainers/icfree-ml
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/icfree-ml:2.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/icfree-ml:2.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/icfree-ml/2.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/icfree-ml/2.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/icfree-ml/2.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/icfree-ml/2.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

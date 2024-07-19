@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biocstyle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocstyle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocstyle/container.yaml"
-updated_at: "2024-07-18 04:03:07.069173"
+updated_at: "2024-07-19 02:38:16.492656"
 latest: "2.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocstyle"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "2.28.0--r43hdfd78af_0"
  - "2.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-biocstyle"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biocstyle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocstyle", "latest": {"2.30.0--r43hdfd78af_0": "sha256:0aff3d7bf80819b484aacb1fedc67e4cb77466e2a79b610b3df2a755e7bb3442"}, "tags": {"2.8.2--r351_0": "sha256:91de1ad44045dd5e3dbe52072f58f544f58ae6c2eacda2a148b7360e22ff0d28", "2.26.0--r42hdfd78af_0": "sha256:ed999a43963363b739f0eadb763ba42b7326d56c5302f424aada5d7513f07d11", "2.22.0--r41hdfd78af_0": "sha256:27281d0b23a6c35e976e2b0d2bb250550103a7589c0a1cba4621252f950a7d3e", "2.20.0--r41hdfd78af_0": "sha256:d6ea9af5a166cc41268fdbb7da4af36eced63268be58408a81c89649e5e1d67d", "2.18.1--r40hdfd78af_0": "sha256:0ca9ad198e5b1c18e96fbfcd980f9301df1592570c4b58159f3f9f791fd3faf9", "2.16.0--r40_0": "sha256:5e21ce186f94a445931f8cc5ac474dc684ec7b10963a1da00f8a700107d0eb20", "2.28.0--r43hdfd78af_0": "sha256:d95602e6e8a7c4e1b6a010c05a13dcab8ee887bed52736138d23f76400d97b0a", "2.30.0--r43hdfd78af_0": "sha256:0aff3d7bf80819b484aacb1fedc67e4cb77466e2a79b610b3df2a755e7bb3442"}, "docker": "quay.io/biocontainers/bioconductor-biocstyle", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biocstyle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocstyle", "latest": {"2.30.0--r43hdfd78af_0": "sha256:0aff3d7bf80819b484aacb1fedc67e4cb77466e2a79b610b3df2a755e7bb3442"}, "tags": {"2.8.2--r351_0": "sha256:74faf82e5477a3b996d8aba6d2d557b483871c002e64ffea851dffa22c9e8636", "2.26.0--r42hdfd78af_0": "sha256:ed999a43963363b739f0eadb763ba42b7326d56c5302f424aada5d7513f07d11", "2.22.0--r41hdfd78af_0": "sha256:27281d0b23a6c35e976e2b0d2bb250550103a7589c0a1cba4621252f950a7d3e", "2.20.0--r41hdfd78af_0": "sha256:d6ea9af5a166cc41268fdbb7da4af36eced63268be58408a81c89649e5e1d67d", "2.18.1--r40hdfd78af_0": "sha256:0ca9ad198e5b1c18e96fbfcd980f9301df1592570c4b58159f3f9f791fd3faf9", "2.16.0--r40_0": "sha256:5e21ce186f94a445931f8cc5ac474dc684ec7b10963a1da00f8a700107d0eb20", "2.28.0--r43hdfd78af_0": "sha256:d95602e6e8a7c4e1b6a010c05a13dcab8ee887bed52736138d23f76400d97b0a", "2.30.0--r43hdfd78af_0": "sha256:0aff3d7bf80819b484aacb1fedc67e4cb77466e2a79b610b3df2a755e7bb3442"}, "docker": "quay.io/biocontainers/bioconductor-biocstyle", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biocstyle.

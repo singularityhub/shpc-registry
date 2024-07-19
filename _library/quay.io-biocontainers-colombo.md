@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/colombo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/colombo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/colombo/container.yaml"
-updated_at: "2024-07-18 04:24:01.660297"
+updated_at: "2024-07-19 02:59:23.537161"
 latest: "v4.0--1"
 container_url: "https://biocontainers.pro/tools/colombo"
 aliases:
@@ -26,7 +26,7 @@ versions:
  - "v4.0--1"
  - "4.0--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for colombo"
-config: {"url": "https://biocontainers.pro/tools/colombo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for colombo", "latest": {"v4.0--1": "sha256:b09d49ad4fd507b68d998dd0a3e26759d816bfed69476a5760c888aa933ac698"}, "tags": {"v4.0--1": "sha256:b09d49ad4fd507b68d998dd0a3e26759d816bfed69476a5760c888aa933ac698", "4.0--hdfd78af_1": "sha256:ba2bb61711d7a5e79f6a5fb98b69e815e6b0d5d097b3b17fcd1545ddaad9c293"}, "docker": "quay.io/biocontainers/colombo", "aliases": {"Colombo": "/usr/local/bin/Colombo", "SigiCRF": "/usr/local/bin/SigiCRF", "SigiHMM": "/usr/local/bin/SigiHMM", "mSigiHMM": "/usr/local/bin/mSigiHMM", "jaotc": "/usr/local/bin/jaotc", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic"}}
+config: {"url": "https://biocontainers.pro/tools/colombo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for colombo", "latest": {"v4.0--1": "sha256:460733f347424caf305aa3e99f30a23f91c3786b8bfca0ebce4d89e51a73a097"}, "tags": {"v4.0--1": "sha256:460733f347424caf305aa3e99f30a23f91c3786b8bfca0ebce4d89e51a73a097", "4.0--hdfd78af_1": "sha256:ba2bb61711d7a5e79f6a5fb98b69e815e6b0d5d097b3b17fcd1545ddaad9c293"}, "docker": "quay.io/biocontainers/colombo", "aliases": {"Colombo": "/usr/local/bin/Colombo", "SigiCRF": "/usr/local/bin/SigiCRF", "SigiHMM": "/usr/local/bin/SigiHMM", "mSigiHMM": "/usr/local/bin/mSigiHMM", "jaotc": "/usr/local/bin/jaotc", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/colombo.
