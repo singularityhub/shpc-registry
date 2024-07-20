@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-matter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-matter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-matter/container.yaml"
-updated_at: "2024-07-19 03:04:08.191022"
+updated_at: "2024-07-20 03:00:33.907127"
 latest: "2.4.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-matter"
 aliases:

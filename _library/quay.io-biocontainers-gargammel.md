@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gargammel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gargammel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gargammel/container.yaml"
-updated_at: "2024-07-19 02:49:43.863812"
+updated_at: "2024-07-20 02:46:22.772743"
 latest: "1.1.2--he905c8f_6"
 container_url: "https://biocontainers.pro/tools/gargammel"
 
@@ -12,7 +12,7 @@ versions:
  - "1.1.2--h51667aa_5"
  - "1.1.2--he905c8f_6"
 description: "shpc-registry automated BioContainers addition for gargammel"
-config: {"url": "https://biocontainers.pro/tools/gargammel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gargammel", "latest": {"1.1.2--he905c8f_6": "sha256:1c24122fa44fed0f0daaac738df1eff97386d64c0c26dd04bfcaf650aec93d49"}, "tags": {"1.1.2--h51667aa_5": "sha256:0a3eb34310f40eaa95849036a5d38dfd1f3369db1ef5f637e28cc1a049f2bc0f", "1.1.2--he905c8f_6": "sha256:1c24122fa44fed0f0daaac738df1eff97386d64c0c26dd04bfcaf650aec93d49"}, "docker": "quay.io/biocontainers/gargammel"}
+config: {"url": "https://biocontainers.pro/tools/gargammel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gargammel", "latest": {"1.1.2--he905c8f_6": "sha256:1c24122fa44fed0f0daaac738df1eff97386d64c0c26dd04bfcaf650aec93d49"}, "tags": {"1.1.2--h51667aa_5": "sha256:84dc92dc17243162063fc7b48d3ca13778c6b8a7b1670f6de824283baf646b4c", "1.1.2--he905c8f_6": "sha256:1c24122fa44fed0f0daaac738df1eff97386d64c0c26dd04bfcaf650aec93d49"}, "docker": "quay.io/biocontainers/gargammel"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gargammel.

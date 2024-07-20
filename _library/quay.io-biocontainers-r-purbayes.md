@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-purbayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-purbayes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-purbayes/container.yaml"
-updated_at: "2024-07-19 03:09:56.976979"
+updated_at: "2024-07-20 03:06:16.883770"
 latest: "1.3--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-purbayes"
 aliases:
@@ -16,7 +16,7 @@ aliases:
 versions:
  - "1.3--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-purbayes"
-config: {"url": "https://biocontainers.pro/tools/r-purbayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-purbayes", "latest": {"1.3--r3.4.1_0": "sha256:c71825f0b850853b56fd09cc24d8aca5013617045e43e98848a715b6faa0c115"}, "tags": {"1.3--r3.4.1_0": "sha256:c71825f0b850853b56fd09cc24d8aca5013617045e43e98848a715b6faa0c115"}, "docker": "quay.io/biocontainers/r-purbayes", "aliases": {"jags": "/usr/local/bin/jags", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-purbayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-purbayes", "latest": {"1.3--r3.4.1_0": "sha256:c47bff6bad3e5bafdfe975225ef0f0ad6372dc98f15b3f4914e467d0969f912a"}, "tags": {"1.3--r3.4.1_0": "sha256:c47bff6bad3e5bafdfe975225ef0f0ad6372dc98f15b3f4914e467d0969f912a"}, "docker": "quay.io/biocontainers/r-purbayes", "aliases": {"jags": "/usr/local/bin/jags", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-purbayes.

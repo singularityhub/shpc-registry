@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dmrforpairs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dmrforpairs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dmrforpairs/container.yaml"
-updated_at: "2024-07-19 02:41:49.169630"
+updated_at: "2024-07-20 02:38:32.585237"
 latest: "1.35.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dmrforpairs"
 

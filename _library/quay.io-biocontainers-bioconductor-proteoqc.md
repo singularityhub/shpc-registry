@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-proteoqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-proteoqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-proteoqc/container.yaml"
-updated_at: "2024-07-19 02:55:50.406016"
+updated_at: "2024-07-20 02:52:23.576304"
 latest: "1.21.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-proteoqc"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.21.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-proteoqc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-proteoqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-proteoqc", "latest": {"1.21.0--r36_0": "sha256:fa82e48c00b54ee6328bc0fd529295faf14e7b578ea54cb4da58f9080149f08b"}, "tags": {"1.21.0--r36_0": "sha256:fa82e48c00b54ee6328bc0fd529295faf14e7b578ea54cb4da58f9080149f08b"}, "docker": "quay.io/biocontainers/bioconductor-proteoqc", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-proteoqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-proteoqc", "latest": {"1.21.0--r36_0": "sha256:e17da286a59103c0e74ff95f7556d7357ac63332759840f862354e76dcf28457"}, "tags": {"1.21.0--r36_0": "sha256:e17da286a59103c0e74ff95f7556d7357ac63332759840f862354e76dcf28457"}, "docker": "quay.io/biocontainers/bioconductor-proteoqc", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-proteoqc.

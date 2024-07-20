@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-adephylo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-adephylo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-adephylo/container.yaml"
-updated_at: "2024-07-19 02:43:17.263065"
+updated_at: "2024-07-20 02:39:59.321432"
 latest: "1.1_11--r351h96ca727_3"
 container_url: "https://biocontainers.pro/tools/r-adephylo"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.1_11--r351h96ca727_3"
 description: "shpc-registry automated BioContainers addition for r-adephylo"
-config: {"url": "https://biocontainers.pro/tools/r-adephylo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-adephylo", "latest": {"1.1_11--r351h96ca727_3": "sha256:e4f3954a792ce0cf17909a1818dd443f95c0b519377eb80b4ab1aed01a63e7ea"}, "tags": {"1.1_11--r351h96ca727_3": "sha256:e4f3954a792ce0cf17909a1818dd443f95c0b519377eb80b4ab1aed01a63e7ea"}, "docker": "quay.io/biocontainers/r-adephylo", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-adephylo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-adephylo", "latest": {"1.1_11--r351h96ca727_3": "sha256:8c7d8979e520412e9388c3d6de651d52e32e8ceb1ab3a8ccf023be7688e52611"}, "tags": {"1.1_11--r351h96ca727_3": "sha256:8c7d8979e520412e9388c3d6de651d52e32e8ceb1ab3a8ccf023be7688e52611"}, "docker": "quay.io/biocontainers/r-adephylo", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-adephylo.

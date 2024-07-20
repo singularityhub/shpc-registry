@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mclust/container.yaml"
-updated_at: "2024-07-19 02:56:12.003992"
+updated_at: "2024-07-20 02:52:44.895726"
 latest: "5.2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-mclust"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "5.2--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-mclust"
-config: {"url": "https://biocontainers.pro/tools/r-mclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mclust", "latest": {"5.2--r3.3.2_0": "sha256:5bb451f3389a10dce832c4e3cd167233c8d925598b4595ccf9dcb7f959fa7b58"}, "tags": {"5.2--r3.3.2_0": "sha256:5bb451f3389a10dce832c4e3cd167233c8d925598b4595ccf9dcb7f959fa7b58"}, "docker": "quay.io/biocontainers/r-mclust", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-mclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mclust", "latest": {"5.2--r3.3.2_0": "sha256:2a2fc1b48260299f114c0ce813ca8e8012eaaea81323d2749702db9044422092"}, "tags": {"5.2--r3.3.2_0": "sha256:2a2fc1b48260299f114c0ce813ca8e8012eaaea81323d2749702db9044422092"}, "docker": "quay.io/biocontainers/r-mclust", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mclust.

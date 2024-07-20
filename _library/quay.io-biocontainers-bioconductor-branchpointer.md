@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-branchpointer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-branchpointer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-branchpointer/container.yaml"
-updated_at: "2024-07-19 02:54:54.055212"
+updated_at: "2024-07-20 02:51:28.196569"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-branchpointer"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-branchpointer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-branchpointer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-branchpointer", "latest": {"1.28.0--r43hdfd78af_0": "sha256:70c3c2f70d7a7c6504c86e4dbd4dd8b2461bd5f607d7e626d91d5683d1afb418"}, "tags": {"1.8.0--r351_0": "sha256:44a0bd4c349c2b752b6ee08b1b8fd93da8dbd9019bc555634757a305f271d2fc", "1.24.0--r42hdfd78af_0": "sha256:025b01459a99d873e81c40e7b03df3702ca185183264e91ae88e7c7450896e8d", "1.20.0--r41hdfd78af_0": "sha256:21849d2c9a177576c1d181acb413e40c7c215e6550c2cfc086b8bbd05ddf9629", "1.18.0--r41hdfd78af_0": "sha256:ec4b5e39fe253b513c3cebc5675d69defa459b4aad91e541ce19ce0e9c34b66d", "1.16.0--r40hdfd78af_1": "sha256:d0dbeab8bfb67f09b30fb2ad7b5c57982b774bddfd8689841ea6517816333444", "1.14.0--r40_0": "sha256:aed629920cf27b29d24629f1ebb92f8610ef71704d3a58bd5bebf14ed0be2eb8", "1.26.0--r43hdfd78af_0": "sha256:7556ce5fd2651743ee7037c3fcf66c6db44a83adac6c31bc4e72d6b12de53975", "1.28.0--r43hdfd78af_0": "sha256:70c3c2f70d7a7c6504c86e4dbd4dd8b2461bd5f607d7e626d91d5683d1afb418"}, "docker": "quay.io/biocontainers/bioconductor-branchpointer", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-branchpointer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-branchpointer", "latest": {"1.28.0--r43hdfd78af_0": "sha256:70c3c2f70d7a7c6504c86e4dbd4dd8b2461bd5f607d7e626d91d5683d1afb418"}, "tags": {"1.8.0--r351_0": "sha256:b9eefb3af2c253000073d772a024a90ae59a1de6b800cb61fb568bd47b396eec", "1.24.0--r42hdfd78af_0": "sha256:025b01459a99d873e81c40e7b03df3702ca185183264e91ae88e7c7450896e8d", "1.20.0--r41hdfd78af_0": "sha256:21849d2c9a177576c1d181acb413e40c7c215e6550c2cfc086b8bbd05ddf9629", "1.18.0--r41hdfd78af_0": "sha256:ec4b5e39fe253b513c3cebc5675d69defa459b4aad91e541ce19ce0e9c34b66d", "1.16.0--r40hdfd78af_1": "sha256:d0dbeab8bfb67f09b30fb2ad7b5c57982b774bddfd8689841ea6517816333444", "1.14.0--r40_0": "sha256:aed629920cf27b29d24629f1ebb92f8610ef71704d3a58bd5bebf14ed0be2eb8", "1.26.0--r43hdfd78af_0": "sha256:7556ce5fd2651743ee7037c3fcf66c6db44a83adac6c31bc4e72d6b12de53975", "1.28.0--r43hdfd78af_0": "sha256:70c3c2f70d7a7c6504c86e4dbd4dd8b2461bd5f607d7e626d91d5683d1afb418"}, "docker": "quay.io/biocontainers/bioconductor-branchpointer", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-branchpointer.

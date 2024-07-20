@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/perl-xml-parser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-parser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-parser/container.yaml"
-updated_at: "2024-07-19 03:05:59.237577"
+updated_at: "2024-07-20 03:02:23.153365"
 latest: "2.44--pl526h4e0c4b3_7"
 container_url: "https://biocontainers.pro/tools/perl-xml-parser"
 
 versions:
  - "2.44--pl526h4e0c4b3_7"
 description: "shpc-registry automated BioContainers addition for perl-xml-parser"
-config: {"url": "https://biocontainers.pro/tools/perl-xml-parser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-xml-parser", "latest": {"2.44--pl526h4e0c4b3_7": "sha256:e6fee8bc471f63ac1fa9a4a5c898ffdf0be3333ebb2e01534ffbb13258ed54c3"}, "tags": {"2.44--pl526h4e0c4b3_7": "sha256:e6fee8bc471f63ac1fa9a4a5c898ffdf0be3333ebb2e01534ffbb13258ed54c3"}, "docker": "quay.io/biocontainers/perl-xml-parser"}
+config: {"url": "https://biocontainers.pro/tools/perl-xml-parser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-xml-parser", "latest": {"2.44--pl526h4e0c4b3_7": "sha256:79b9a9d42da45897ae4903fa1ea325335319e0d7eec11f656015501afcb88675"}, "tags": {"2.44--pl526h4e0c4b3_7": "sha256:79b9a9d42da45897ae4903fa1ea325335319e0d7eec11f656015501afcb88675"}, "docker": "quay.io/biocontainers/perl-xml-parser"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-xml-parser.

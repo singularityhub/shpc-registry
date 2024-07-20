@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parebrick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parebrick/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parebrick/container.yaml"
-updated_at: "2024-07-19 02:41:38.621569"
+updated_at: "2024-07-20 02:38:22.279584"
 latest: "0.5.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/parebrick"
 aliases:

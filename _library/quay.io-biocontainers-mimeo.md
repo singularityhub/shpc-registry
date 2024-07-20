@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mimeo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mimeo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mimeo/container.yaml"
-updated_at: "2024-07-19 03:21:51.090352"
+updated_at: "2024-07-20 03:17:57.794917"
 latest: "1.1.1--py_2"
 container_url: "https://biocontainers.pro/tools/mimeo"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "1.1.1--py_2"
 description: "shpc-registry automated BioContainers addition for mimeo"
-config: {"url": "https://biocontainers.pro/tools/mimeo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mimeo", "latest": {"1.1.1--py_2": "sha256:4776e95a6b2610efb94a1bafb21ec75b8e02ecc726404116b1130fe80a8a666e"}, "tags": {"1.1.1--py_2": "sha256:4776e95a6b2610efb94a1bafb21ec75b8e02ecc726404116b1130fe80a8a666e"}, "docker": "quay.io/biocontainers/mimeo", "aliases": {"mimeo-filter": "/usr/local/bin/mimeo-filter", "mimeo-map": "/usr/local/bin/mimeo-map", "mimeo-self": "/usr/local/bin/mimeo-self", "mimeo-x": "/usr/local/bin/mimeo-x", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/mimeo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mimeo", "latest": {"1.1.1--py_2": "sha256:d00db443efbc3613769c0216db75d254dddcdcb83f85491a829d5fbcdf388dc7"}, "tags": {"1.1.1--py_2": "sha256:d00db443efbc3613769c0216db75d254dddcdcb83f85491a829d5fbcdf388dc7"}, "docker": "quay.io/biocontainers/mimeo", "aliases": {"mimeo-filter": "/usr/local/bin/mimeo-filter", "mimeo-map": "/usr/local/bin/mimeo-map", "mimeo-self": "/usr/local/bin/mimeo-self", "mimeo-x": "/usr/local/bin/mimeo-x", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mimeo.

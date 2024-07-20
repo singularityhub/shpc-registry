@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vcf2circos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf2circos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf2circos/container.yaml"
-updated_at: "2024-07-19 03:21:04.347000"
-latest: "1.1.1--pyhdfd78af_0"
+updated_at: "2024-07-20 03:17:11.858165"
+latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vcf2circos"
 aliases:
  - "kaleido"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "1.1--pyhdfd78af_0"
  - "1.1.1--pyhdfd78af_0"
+ - "1.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for vcf2circos"
-config: {"url": "https://biocontainers.pro/tools/vcf2circos", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcf2circos", "latest": {"1.1.1--pyhdfd78af_0": "sha256:01954fd5db35af2ddc0d4d4deb82e190f5b35a126a769616aaecd19b4cdef2b2"}, "tags": {"1.1--pyhdfd78af_0": "sha256:5173d4e762b3a88713dc40a2d70d0d44bd6198d6e63b84710927ce31df60bc37", "1.1.1--pyhdfd78af_0": "sha256:01954fd5db35af2ddc0d4d4deb82e190f5b35a126a769616aaecd19b4cdef2b2"}, "docker": "quay.io/biocontainers/vcf2circos", "aliases": {"kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "pyfiglet": "/usr/local/bin/pyfiglet", "vcf2circos": "/usr/local/bin/vcf2circos", "dash-generate-components": "/usr/local/bin/dash-generate-components", "flask": "/usr/local/bin/flask", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "f2py3.11": "/usr/local/bin/f2py3.11", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "pygmentize": "/usr/local/bin/pygmentize", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/vcf2circos", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcf2circos", "latest": {"1.2.0--pyhdfd78af_0": "sha256:ddb710ef50834cb9e26b5a9122a09242376184a816e393a0e0e475341c0bc19c"}, "tags": {"1.1--pyhdfd78af_0": "sha256:5173d4e762b3a88713dc40a2d70d0d44bd6198d6e63b84710927ce31df60bc37", "1.1.1--pyhdfd78af_0": "sha256:01954fd5db35af2ddc0d4d4deb82e190f5b35a126a769616aaecd19b4cdef2b2", "1.2.0--pyhdfd78af_0": "sha256:ddb710ef50834cb9e26b5a9122a09242376184a816e393a0e0e475341c0bc19c"}, "docker": "quay.io/biocontainers/vcf2circos", "aliases": {"kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "pyfiglet": "/usr/local/bin/pyfiglet", "vcf2circos": "/usr/local/bin/vcf2circos", "dash-generate-components": "/usr/local/bin/dash-generate-components", "flask": "/usr/local/bin/flask", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "f2py3.11": "/usr/local/bin/f2py3.11", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "pygmentize": "/usr/local/bin/pygmentize", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcf2circos.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/vcf2circos
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcf2circos:1.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/vcf2circos:1.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcf2circos/1.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/vcf2circos/1.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/vcf2circos/1.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/vcf2circos/1.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

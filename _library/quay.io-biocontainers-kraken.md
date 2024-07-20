@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/kraken"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kraken/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kraken/container.yaml"
-updated_at: "2024-07-19 02:48:53.919346"
+updated_at: "2024-07-20 02:45:32.117218"
 latest: "1.1--h470a237_2"
 container_url: "https://biocontainers.pro/tools/kraken"
 
 versions:
  - "1.1--h470a237_2"
 description: "shpc-registry automated BioContainers addition for kraken"
-config: {"url": "https://biocontainers.pro/tools/kraken", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kraken", "latest": {"1.1--h470a237_2": "sha256:3d6f6dad97467e4beec629c132057f619e588d5e84153c43bc4225a4d905afef"}, "tags": {"1.1--h470a237_2": "sha256:3d6f6dad97467e4beec629c132057f619e588d5e84153c43bc4225a4d905afef"}, "docker": "quay.io/biocontainers/kraken"}
+config: {"url": "https://biocontainers.pro/tools/kraken", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kraken", "latest": {"1.1--h470a237_2": "sha256:4b414bcf4434c0f9a04b73dce6917965aeac0806542624b40910fae02fefb0e1"}, "tags": {"1.1--h470a237_2": "sha256:4b414bcf4434c0f9a04b73dce6917965aeac0806542624b40910fae02fefb0e1"}, "docker": "quay.io/biocontainers/kraken"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kraken.

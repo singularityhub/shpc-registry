@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sccaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sccaf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sccaf/container.yaml"
-updated_at: "2024-07-19 03:06:44.579022"
+updated_at: "2024-07-20 03:03:07.814377"
 latest: "0.0.10--py_0"
 container_url: "https://biocontainers.pro/tools/sccaf"
 aliases:
@@ -26,7 +26,7 @@ versions:
  - "0.0.9--py_0"
  - "0.0.10--py_0"
 description: "shpc-registry automated BioContainers addition for sccaf"
-config: {"url": "https://biocontainers.pro/tools/sccaf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sccaf", "latest": {"0.0.10--py_0": "sha256:58624ca90983224f2400b0885ee8bc0a38725f418a9cd29ec79a9739a9fb135b"}, "tags": {"0.0.9--py_0": "sha256:a414e19efb731079c3d3e1b671a941b57ebe58f21179fc3a54b1acf9abc33d56", "0.0.10--py_0": "sha256:58624ca90983224f2400b0885ee8bc0a38725f418a9cd29ec79a9739a9fb135b"}, "docker": "quay.io/biocontainers/sccaf", "aliases": {"sccaf": "/usr/local/bin/sccaf", "sccaf-assess": "/usr/local/bin/sccaf-assess", "sccaf-assess-merger": "/usr/local/bin/sccaf-assess-merger", "sccaf-regress-out": "/usr/local/bin/sccaf-regress-out", "scanpy": "/usr/local/bin/scanpy", "igraph": "/usr/local/bin/igraph", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc"}}
+config: {"url": "https://biocontainers.pro/tools/sccaf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sccaf", "latest": {"0.0.10--py_0": "sha256:58624ca90983224f2400b0885ee8bc0a38725f418a9cd29ec79a9739a9fb135b"}, "tags": {"0.0.9--py_0": "sha256:138cd1426b422a59d50fc3e8df73c52b80e6a8f41b19a6f318cb7c5642911379", "0.0.10--py_0": "sha256:58624ca90983224f2400b0885ee8bc0a38725f418a9cd29ec79a9739a9fb135b"}, "docker": "quay.io/biocontainers/sccaf", "aliases": {"sccaf": "/usr/local/bin/sccaf", "sccaf-assess": "/usr/local/bin/sccaf-assess", "sccaf-assess-merger": "/usr/local/bin/sccaf-assess-merger", "sccaf-regress-out": "/usr/local/bin/sccaf-regress-out", "scanpy": "/usr/local/bin/scanpy", "igraph": "/usr/local/bin/igraph", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sccaf.

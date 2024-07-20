@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rpf-count-cds"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rpf-count-cds/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rpf-count-cds/container.yaml"
-updated_at: "2024-07-19 02:47:28.249334"
+updated_at: "2024-07-20 02:44:06.725032"
 latest: "0.0.1--py_1"
 container_url: "https://biocontainers.pro/tools/rpf-count-cds"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.0.1--py_1"
 description: "shpc-registry automated BioContainers addition for rpf-count-cds"
-config: {"url": "https://biocontainers.pro/tools/rpf-count-cds", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rpf-count-cds", "latest": {"0.0.1--py_1": "sha256:3b397775181005e0ec2784811d9437efd68a72c805d6d861983b0294a61b76fd"}, "tags": {"0.0.1--py_1": "sha256:3b397775181005e0ec2784811d9437efd68a72c805d6d861983b0294a61b76fd"}, "docker": "quay.io/biocontainers/rpf-count-cds", "aliases": {"RPF_count_CDS.py": "/usr/local/bin/RPF_count_CDS.py", "RPF_count_CDS_nonStranded.py": "/usr/local/bin/RPF_count_CDS_nonStranded.py", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "qhelpconverter": "/usr/local/bin/qhelpconverter", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats"}}
+config: {"url": "https://biocontainers.pro/tools/rpf-count-cds", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rpf-count-cds", "latest": {"0.0.1--py_1": "sha256:8e2e12943d96ff411cac61410183d1a34a8182f85e411633bf59d85beb3a8c17"}, "tags": {"0.0.1--py_1": "sha256:8e2e12943d96ff411cac61410183d1a34a8182f85e411633bf59d85beb3a8c17"}, "docker": "quay.io/biocontainers/rpf-count-cds", "aliases": {"RPF_count_CDS.py": "/usr/local/bin/RPF_count_CDS.py", "RPF_count_CDS_nonStranded.py": "/usr/local/bin/RPF_count_CDS_nonStranded.py", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "qhelpconverter": "/usr/local/bin/qhelpconverter", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rpf-count-cds.

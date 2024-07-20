@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ebimetagenomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ebimetagenomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ebimetagenomics/container.yaml"
-updated_at: "2024-07-19 02:48:06.391563"
+updated_at: "2024-07-20 02:44:44.901495"
 latest: "0.6--r351h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-ebimetagenomics"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.6--r351h6115d3f_1"
 description: "shpc-registry automated BioContainers addition for r-ebimetagenomics"
-config: {"url": "https://biocontainers.pro/tools/r-ebimetagenomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ebimetagenomics", "latest": {"0.6--r351h6115d3f_1": "sha256:f1ca4a1488545067fd8c72ad0d8d7054e967a045f98490720910d72c3adbdc0b"}, "tags": {"0.6--r351h6115d3f_1": "sha256:f1ca4a1488545067fd8c72ad0d8d7054e967a045f98490720910d72c3adbdc0b"}, "docker": "quay.io/biocontainers/r-ebimetagenomics", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-ebimetagenomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ebimetagenomics", "latest": {"0.6--r351h6115d3f_1": "sha256:108281f9086929bdb3a357e09c562ddac76b08ed845bf10be8ac5cf03bf6e15a"}, "tags": {"0.6--r351h6115d3f_1": "sha256:108281f9086929bdb3a357e09c562ddac76b08ed845bf10be8ac5cf03bf6e15a"}, "docker": "quay.io/biocontainers/r-ebimetagenomics", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ebimetagenomics.

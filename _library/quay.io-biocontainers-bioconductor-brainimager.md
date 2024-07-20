@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-brainimager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-brainimager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-brainimager/container.yaml"
-updated_at: "2024-07-19 03:19:23.515493"
+updated_at: "2024-07-20 03:15:32.773876"
 latest: "1.1.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-brainimager"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.1.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-brainimager"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-brainimager", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-brainimager", "latest": {"1.1.0--r36_1": "sha256:f49eb126ecf413e68ff6e0f75e4a5912275060fff41d57424a12f1c8d5d38a30"}, "tags": {"1.1.0--r36_1": "sha256:f49eb126ecf413e68ff6e0f75e4a5912275060fff41d57424a12f1c8d5d38a30"}, "docker": "quay.io/biocontainers/bioconductor-brainimager", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-brainimager", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-brainimager", "latest": {"1.1.0--r36_1": "sha256:bc388e77721a26519d77dbca7dcc206827a0a091a668ddeabc555f4aa3fe9c59"}, "tags": {"1.1.0--r36_1": "sha256:bc388e77721a26519d77dbca7dcc206827a0a091a668ddeabc555f4aa3fe9c59"}, "docker": "quay.io/biocontainers/bioconductor-brainimager", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-brainimager.

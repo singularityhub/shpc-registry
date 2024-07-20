@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-robustrankaggreg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-robustrankaggreg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-robustrankaggreg/container.yaml"
-updated_at: "2024-07-19 03:17:35.739187"
+updated_at: "2024-07-20 03:13:46.973481"
 latest: "1.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-robustrankaggreg"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.1--r3.2.2_0"
  - "1.1--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-robustrankaggreg"
-config: {"url": "https://biocontainers.pro/tools/r-robustrankaggreg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-robustrankaggreg", "latest": {"1.1--r3.2.2_0": "sha256:3c7055a3966a421eaf4248ac0a0cf79beb70bec5805e42ec4b32a7c2808661ba"}, "tags": {"1.1--r3.2.2_0": "sha256:3c7055a3966a421eaf4248ac0a0cf79beb70bec5805e42ec4b32a7c2808661ba", "1.1--r3.4.1_0": "sha256:c044dcd945438e5c5e41507ab04df6706dcde5e5dc51ee3c090def224f163087"}, "docker": "quay.io/biocontainers/r-robustrankaggreg", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-robustrankaggreg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-robustrankaggreg", "latest": {"1.1--r3.2.2_0": "sha256:a64d04d513d03ee499d05717dbe0ecebe413c8ba8ae25cf887cb8280791d175f"}, "tags": {"1.1--r3.2.2_0": "sha256:a64d04d513d03ee499d05717dbe0ecebe413c8ba8ae25cf887cb8280791d175f", "1.1--r3.4.1_0": "sha256:4a697deba7df65f8c97e5c810dffc2c818e84612deb0786ae34d277415b80f7e"}, "docker": "quay.io/biocontainers/r-robustrankaggreg", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-robustrankaggreg.

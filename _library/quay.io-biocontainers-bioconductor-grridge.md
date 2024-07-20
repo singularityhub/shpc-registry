@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-grridge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-grridge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-grridge/container.yaml"
-updated_at: "2024-07-19 03:02:50.500799"
+updated_at: "2024-07-20 02:59:17.503993"
 latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-grridge"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "1.14.0--r40hdfd78af_1"
  - "1.12.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-grridge"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-grridge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-grridge", "latest": {"1.22.0--r42hdfd78af_0": "sha256:1269f4fdd9f81c222cbd69decc3a4389d9487918ed78689e3664a1d9c9b37920"}, "tags": {"1.8.0--r36_1": "sha256:b0af9194a9dbb239c9697ffc90529e5c3874f47145c80664c4b7a982cd35af28", "1.22.0--r42hdfd78af_0": "sha256:1269f4fdd9f81c222cbd69decc3a4389d9487918ed78689e3664a1d9c9b37920", "1.18.0--r41hdfd78af_0": "sha256:89d3cccf4363158030c628d954572a7961434133cb82f395f9969d1afbb5c4d1", "1.16.0--r41hdfd78af_0": "sha256:c1dfe813ea40c05980c3c2aaa018375561f762c82843714c0906c2d0195b7bfd", "1.14.0--r40hdfd78af_1": "sha256:896a4e55b08771c4ef47439adb4032d94bae616ee21c7e04670a4389415ab000", "1.12.0--r40_0": "sha256:6479ad4e2ac6b1918d94b81d3adda9bf51bf897a76fca37ef291afc807d44b3b"}, "docker": "quay.io/biocontainers/bioconductor-grridge", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-grridge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-grridge", "latest": {"1.22.0--r42hdfd78af_0": "sha256:1269f4fdd9f81c222cbd69decc3a4389d9487918ed78689e3664a1d9c9b37920"}, "tags": {"1.8.0--r36_1": "sha256:0bd607f57ab47a182dc1fdd3f7afc96541f1b78ee5a4c56d2dd6afd5860dd879", "1.22.0--r42hdfd78af_0": "sha256:1269f4fdd9f81c222cbd69decc3a4389d9487918ed78689e3664a1d9c9b37920", "1.18.0--r41hdfd78af_0": "sha256:89d3cccf4363158030c628d954572a7961434133cb82f395f9969d1afbb5c4d1", "1.16.0--r41hdfd78af_0": "sha256:c1dfe813ea40c05980c3c2aaa018375561f762c82843714c0906c2d0195b7bfd", "1.14.0--r40hdfd78af_1": "sha256:896a4e55b08771c4ef47439adb4032d94bae616ee21c7e04670a4389415ab000", "1.12.0--r40_0": "sha256:6479ad4e2ac6b1918d94b81d3adda9bf51bf897a76fca37ef291afc807d44b3b"}, "docker": "quay.io/biocontainers/bioconductor-grridge", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-grridge.

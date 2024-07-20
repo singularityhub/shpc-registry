@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ribosomeprofilingqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ribosomeprofilingqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ribosomeprofilingqc/container.yaml"
-updated_at: "2024-07-19 02:47:53.668509"
+updated_at: "2024-07-20 02:44:32.202808"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ribosomeprofilingqc"
 

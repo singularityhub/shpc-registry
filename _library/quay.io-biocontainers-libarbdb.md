@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libarbdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libarbdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libarbdb/container.yaml"
-updated_at: "2024-07-19 03:03:10.994724"
+updated_at: "2024-07-20 02:59:37.652481"
 latest: "6.0.6--haa8b8d8_8"
 container_url: "https://biocontainers.pro/tools/libarbdb"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "6.0.6--haa8b8d8_8"
 description: "shpc-registry automated BioContainers addition for libarbdb"
-config: {"url": "https://biocontainers.pro/tools/libarbdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libarbdb", "latest": {"6.0.6--haa8b8d8_8": "sha256:53c522440f64bb2a9388ca2712f683e30b9b9d6885743aafdbcf656d9f0bfc9c"}, "tags": {"6.0.6--haa8b8d8_8": "sha256:53c522440f64bb2a9388ca2712f683e30b9b9d6885743aafdbcf656d9f0bfc9c"}, "docker": "quay.io/biocontainers/libarbdb", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
+config: {"url": "https://biocontainers.pro/tools/libarbdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libarbdb", "latest": {"6.0.6--haa8b8d8_8": "sha256:62af2b094b57cfac80c186b2b18df7f5b74d0202a023a39db6b97c3ee3fd2c14"}, "tags": {"6.0.6--haa8b8d8_8": "sha256:62af2b094b57cfac80c186b2b18df7f5b74d0202a023a39db6b97c3ee3fd2c14"}, "docker": "quay.io/biocontainers/libarbdb", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libarbdb.

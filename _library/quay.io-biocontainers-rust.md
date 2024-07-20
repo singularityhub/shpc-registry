@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/rust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rust/container.yaml"
-updated_at: "2024-07-19 02:52:47.917132"
+updated_at: "2024-07-20 02:49:24.140838"
 latest: "1.14.0--0"
 container_url: "https://biocontainers.pro/tools/rust"
 
 versions:
  - "1.14.0--0"
 description: "shpc-registry automated BioContainers addition for rust"
-config: {"url": "https://biocontainers.pro/tools/rust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rust", "latest": {"1.14.0--0": "sha256:4298179a0a294c77ea2f244f3015bdd02811f61deb8441b65ca8fb88f5a09230"}, "tags": {"1.14.0--0": "sha256:4298179a0a294c77ea2f244f3015bdd02811f61deb8441b65ca8fb88f5a09230"}, "docker": "quay.io/biocontainers/rust"}
+config: {"url": "https://biocontainers.pro/tools/rust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rust", "latest": {"1.14.0--0": "sha256:3a45f0b41af427e6d0be19b183f1969c292e47d27becdc1b72ca7801c58d139c"}, "tags": {"1.14.0--0": "sha256:3a45f0b41af427e6d0be19b183f1969c292e47d27becdc1b72ca7801c58d139c"}, "docker": "quay.io/biocontainers/rust"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rust.

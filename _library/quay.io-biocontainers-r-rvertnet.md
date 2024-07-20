@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rvertnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rvertnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rvertnet/container.yaml"
-updated_at: "2024-07-19 03:04:51.440991"
+updated_at: "2024-07-20 03:01:16.479872"
 latest: "0.7.0--r351h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-rvertnet"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.7.0--r351h6115d3f_3"
 description: "shpc-registry automated BioContainers addition for r-rvertnet"
-config: {"url": "https://biocontainers.pro/tools/r-rvertnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rvertnet", "latest": {"0.7.0--r351h6115d3f_3": "sha256:80c565d5bbf9e3d6d3fef121afaaba7d4c2feb2ee1678698a1caea3a18e4d661"}, "tags": {"0.7.0--r351h6115d3f_3": "sha256:80c565d5bbf9e3d6d3fef121afaaba7d4c2feb2ee1678698a1caea3a18e4d661"}, "docker": "quay.io/biocontainers/r-rvertnet", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-rvertnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rvertnet", "latest": {"0.7.0--r351h6115d3f_3": "sha256:a0c40abc1e051e5834b730b3a5d20fc4bbed3c134e7d3552dce764bde652d27f"}, "tags": {"0.7.0--r351h6115d3f_3": "sha256:a0c40abc1e051e5834b730b3a5d20fc4bbed3c134e7d3552dce764bde652d27f"}, "docker": "quay.io/biocontainers/r-rvertnet", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rvertnet.

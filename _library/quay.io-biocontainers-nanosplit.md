@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanosplit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanosplit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanosplit/container.yaml"
-updated_at: "2024-07-19 02:42:21.831022"
+updated_at: "2024-07-20 02:39:04.414936"
 latest: "0.1.4--py36_0"
 container_url: "https://biocontainers.pro/tools/nanosplit"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "pildriver.py"
 versions:
  - "0.1.4--py36_0"
+ - "0.1.4--py35_0"
 description: "shpc-registry automated BioContainers addition for nanosplit"
-config: {"url": "https://biocontainers.pro/tools/nanosplit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanosplit", "latest": {"0.1.4--py36_0": "sha256:de0bbc59f18f3fd1d724e6c092c407a8b0a1e051c09c5fffead2b90ddd525781"}, "tags": {"0.1.4--py36_0": "sha256:de0bbc59f18f3fd1d724e6c092c407a8b0a1e051c09c5fffead2b90ddd525781"}, "docker": "quay.io/biocontainers/nanosplit", "aliases": {"NanoSplit": "/usr/local/bin/NanoSplit", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py"}}
+config: {"url": "https://biocontainers.pro/tools/nanosplit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanosplit", "latest": {"0.1.4--py36_0": "sha256:52eea69c4ad6f54da0f3c3359959fb9dde7dddb66274ce463d013465b9ea5df5"}, "tags": {"0.1.4--py36_0": "sha256:52eea69c4ad6f54da0f3c3359959fb9dde7dddb66274ce463d013465b9ea5df5", "0.1.4--py35_0": "sha256:fd3e126bdbbfac139e037d8c034b8ed89d0fb7c7c72dd69612f478c9a10058ab"}, "docker": "quay.io/biocontainers/nanosplit", "aliases": {"NanoSplit": "/usr/local/bin/NanoSplit", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanosplit.

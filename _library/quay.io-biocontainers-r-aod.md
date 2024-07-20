@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-aod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-aod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-aod/container.yaml"
-updated_at: "2024-07-19 03:23:19.862494"
+updated_at: "2024-07-20 03:19:24.714818"
 latest: "1.3--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-aod"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.3--r3.3.1_0"
  - "1.3--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-aod"
-config: {"url": "https://biocontainers.pro/tools/r-aod", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-aod", "latest": {"1.3--r3.3.1_0": "sha256:a5972a1012f1b5244d75ad5ce66665f35d7a992b1cc4e6b5e4bff788a773fb64"}, "tags": {"1.3--r3.3.1_0": "sha256:a5972a1012f1b5244d75ad5ce66665f35d7a992b1cc4e6b5e4bff788a773fb64", "1.3--r3.3.2_0": "sha256:ed25fd0634889a7156b2e8edc67baa8dfd428efe0a0e1e66ce613c687ecbac94"}, "docker": "quay.io/biocontainers/r-aod", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-aod", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-aod", "latest": {"1.3--r3.3.1_0": "sha256:49423788eaca44fb63a95bcf8ae6dc8b9bcac2270fa26d55dd62ed8683ecaa8d"}, "tags": {"1.3--r3.3.1_0": "sha256:49423788eaca44fb63a95bcf8ae6dc8b9bcac2270fa26d55dd62ed8683ecaa8d", "1.3--r3.3.2_0": "sha256:2f5b82c3e3be35e9b0bed63aa0c5743761a9089bc4cf2dcc2f31cb78b486c465"}, "docker": "quay.io/biocontainers/r-aod", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-aod.

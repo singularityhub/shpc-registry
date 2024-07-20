@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-countsimqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-countsimqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-countsimqc/container.yaml"
-updated_at: "2024-07-19 03:18:51.846172"
+updated_at: "2024-07-20 03:15:01.705669"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-countsimqc"
 aliases:
@@ -18,7 +18,7 @@ versions:
  - "1.18.0--r43hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-countsimqc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-countsimqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-countsimqc", "latest": {"1.20.0--r43hdfd78af_0": "sha256:6c5bcf9e1daaf1370730ee438dc89e8d1d7157f3ccb968ad9ba2f5a20de7aa5a"}, "tags": {"1.8.1--r40hdfd78af_0": "sha256:fdcbc1421ec94f767d3669b2d977d74f17a2e1c24db8b33634ec3e74a6128778", "1.16.0--r42hdfd78af_0": "sha256:be0174f0fe6567cf83a13091c7c1623cfbad378b2dc4415ae686db30060cf7b0", "1.12.0--r41hdfd78af_0": "sha256:10262635279eff373648109d47090e8d769bc0d9d6dae707b29c2e8d20ad74bf", "1.10.0--r41hdfd78af_0": "sha256:6af30686029c3c0b9e0e688b215b6c4874de863970a6d90fb551fb2771bed673", "1.18.0--r43hdfd78af_0": "sha256:8a031d8dca4126e86a02aa2d9f411face459d6f37e819f08d9cc91d7e26fe660", "1.20.0--r43hdfd78af_0": "sha256:6c5bcf9e1daaf1370730ee438dc89e8d1d7157f3ccb968ad9ba2f5a20de7aa5a"}, "docker": "quay.io/biocontainers/bioconductor-countsimqc", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-countsimqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-countsimqc", "latest": {"1.20.0--r43hdfd78af_0": "sha256:6c5bcf9e1daaf1370730ee438dc89e8d1d7157f3ccb968ad9ba2f5a20de7aa5a"}, "tags": {"1.8.1--r40hdfd78af_0": "sha256:fdcbc1421ec94f767d3669b2d977d74f17a2e1c24db8b33634ec3e74a6128778", "1.16.0--r42hdfd78af_0": "sha256:be0174f0fe6567cf83a13091c7c1623cfbad378b2dc4415ae686db30060cf7b0", "1.12.0--r41hdfd78af_0": "sha256:ed0bf980adffa3138d657b503beef1b0edc1701f9220396adc3041ea6a970d6c", "1.10.0--r41hdfd78af_0": "sha256:6af30686029c3c0b9e0e688b215b6c4874de863970a6d90fb551fb2771bed673", "1.18.0--r43hdfd78af_0": "sha256:8a031d8dca4126e86a02aa2d9f411face459d6f37e819f08d9cc91d7e26fe660", "1.20.0--r43hdfd78af_0": "sha256:6c5bcf9e1daaf1370730ee438dc89e8d1d7157f3ccb968ad9ba2f5a20de7aa5a"}, "docker": "quay.io/biocontainers/bioconductor-countsimqc", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-countsimqc.

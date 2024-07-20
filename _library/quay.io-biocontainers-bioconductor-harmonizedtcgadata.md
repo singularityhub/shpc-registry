@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-harmonizedtcgadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-harmonizedtcgadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-harmonizedtcgadata/container.yaml"
-updated_at: "2024-07-19 02:45:54.893969"
+updated_at: "2024-07-20 02:42:33.997862"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-harmonizedtcgadata"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-harmonizedtcgadata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-harmonizedtcgadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-harmonizedtcgadata", "latest": {"1.24.0--r43hdfd78af_0": "sha256:8c6129a8e5b44186c6ee4320294a1131762d32906aeba28198828d73ae472a9c"}, "tags": {"1.8.0--r36_0": "sha256:b74adf29f129752959f2a20b62e7d17c7f836be131b2932deb2e45678501dfa5", "1.20.0--r42hdfd78af_0": "sha256:3cf91349914dc00e0bb1a7f427c11d85bfdb96413854cd3deadfa46f0695701d", "1.16.0--r41hdfd78af_1": "sha256:35fd3a772f26afc54a75db122f47443bcdf7c088022c2e3b92793c685656923c", "1.14.0--r41hdfd78af_0": "sha256:c10fb228fe58f6ac7d20739fc6e5a1db795f565298ae7f5b682be6fe9d81a9e6", "1.12.0--r40hdfd78af_1": "sha256:8331b98a148d651f762c7f8b3c81b944ac937317b5462b19e568591c710aeaac", "1.10.0--r40_0": "sha256:9a01116c7fc83c175a44318d6fe11ae9f32e77dc56acb542ab1bf6f181e8d380", "1.22.0--r43hdfd78af_0": "sha256:20d143cebbe314b2bea8c8efdc00ee4ab6f51549a5f6eb18d5fc303cf35e56e9", "1.24.0--r43hdfd78af_0": "sha256:8c6129a8e5b44186c6ee4320294a1131762d32906aeba28198828d73ae472a9c"}, "docker": "quay.io/biocontainers/bioconductor-harmonizedtcgadata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-harmonizedtcgadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-harmonizedtcgadata", "latest": {"1.24.0--r43hdfd78af_0": "sha256:8c6129a8e5b44186c6ee4320294a1131762d32906aeba28198828d73ae472a9c"}, "tags": {"1.8.0--r36_0": "sha256:f919287ec4e667e459a95cc46e91826cd8ae2e9f298c2fbc4908931bdf6f5ccb", "1.20.0--r42hdfd78af_0": "sha256:3cf91349914dc00e0bb1a7f427c11d85bfdb96413854cd3deadfa46f0695701d", "1.16.0--r41hdfd78af_1": "sha256:35fd3a772f26afc54a75db122f47443bcdf7c088022c2e3b92793c685656923c", "1.14.0--r41hdfd78af_0": "sha256:c10fb228fe58f6ac7d20739fc6e5a1db795f565298ae7f5b682be6fe9d81a9e6", "1.12.0--r40hdfd78af_1": "sha256:8331b98a148d651f762c7f8b3c81b944ac937317b5462b19e568591c710aeaac", "1.10.0--r40_0": "sha256:9a01116c7fc83c175a44318d6fe11ae9f32e77dc56acb542ab1bf6f181e8d380", "1.22.0--r43hdfd78af_0": "sha256:20d143cebbe314b2bea8c8efdc00ee4ab6f51549a5f6eb18d5fc303cf35e56e9", "1.24.0--r43hdfd78af_0": "sha256:8c6129a8e5b44186c6ee4320294a1131762d32906aeba28198828d73ae472a9c"}, "docker": "quay.io/biocontainers/bioconductor-harmonizedtcgadata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-harmonizedtcgadata.

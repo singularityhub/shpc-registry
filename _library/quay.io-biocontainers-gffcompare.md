@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gffcompare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gffcompare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gffcompare/container.yaml"
-updated_at: "2024-07-19 03:05:20.235910"
-latest: "0.12.6--h4ac6f70_2"
+updated_at: "2024-07-20 03:01:44.795363"
+latest: "0.12.6--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/gffcompare"
 aliases:
  - "gffcompare"
@@ -17,8 +17,9 @@ versions:
  - "0.10.6--h2d50403_0"
  - "0.12.6--h9f5acd7_0"
  - "0.12.6--h4ac6f70_2"
+ - "0.12.6--h4ac6f70_3"
 description: "shpc-registry automated BioContainers addition for gffcompare"
-config: {"url": "https://biocontainers.pro/tools/gffcompare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gffcompare", "latest": {"0.12.6--h4ac6f70_2": "sha256:efa1f3228c6df51473f9d2b16289fc4acb8f4355e3de5530fd149165212b85b7"}, "tags": {"0.9.8--0": "sha256:52eaf3065657c4105197fb8b5e62fd4211ec160c1004f9619c3e0bb2feb87749", "0.11.2--h9f5acd7_3": "sha256:ca2d1a6c3f3aee5e98f8f768bccba01fc84d94f3880d361ca1420f3a1845929b", "0.10.6--h2d50403_0": "sha256:9e3a7a0f3bd2a928b28ae9fc31cc1da028908b567c178e8d5a3197df0d91a729", "0.12.6--h9f5acd7_0": "sha256:2bfdd5acf41876fd3d26809c5af7a5e4bd704699c92508409db821c7441475e0", "0.12.6--h4ac6f70_2": "sha256:efa1f3228c6df51473f9d2b16289fc4acb8f4355e3de5530fd149165212b85b7"}, "docker": "quay.io/biocontainers/gffcompare", "aliases": {"gffcompare": "/usr/local/bin/gffcompare", "gtest": "/usr/local/bin/gtest", "threads": "/usr/local/bin/threads"}}
+config: {"url": "https://biocontainers.pro/tools/gffcompare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gffcompare", "latest": {"0.12.6--h4ac6f70_3": "sha256:4caa8eccf22c993fcba7751ebf663ca6dee51d312ad4d07157e384e046226813"}, "tags": {"0.9.8--0": "sha256:a6a18b3c730d6cf35c771bd06de1c9d03948ae0c94aa8c65635defb88bb41e80", "0.11.2--h9f5acd7_3": "sha256:ca2d1a6c3f3aee5e98f8f768bccba01fc84d94f3880d361ca1420f3a1845929b", "0.10.6--h2d50403_0": "sha256:c7597381b4526fe3ab92a161b50b04685904963b45b0ae0a5b697c064b5586bb", "0.12.6--h9f5acd7_0": "sha256:2bfdd5acf41876fd3d26809c5af7a5e4bd704699c92508409db821c7441475e0", "0.12.6--h4ac6f70_2": "sha256:efa1f3228c6df51473f9d2b16289fc4acb8f4355e3de5530fd149165212b85b7", "0.12.6--h4ac6f70_3": "sha256:4caa8eccf22c993fcba7751ebf663ca6dee51d312ad4d07157e384e046226813"}, "docker": "quay.io/biocontainers/gffcompare", "aliases": {"gffcompare": "/usr/local/bin/gffcompare", "gtest": "/usr/local/bin/gtest", "threads": "/usr/local/bin/threads"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gffcompare.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/gffcompare
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gffcompare:0.12.6--h4ac6f70_2
+$ shpc install quay.io/biocontainers/gffcompare:0.12.6--h4ac6f70_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gffcompare/0.12.6--h4ac6f70_2
-$ module help quay.io/biocontainers/gffcompare/0.12.6--h4ac6f70_2
+$ module load quay.io/biocontainers/gffcompare/0.12.6--h4ac6f70_3
+$ module help quay.io/biocontainers/gffcompare/0.12.6--h4ac6f70_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

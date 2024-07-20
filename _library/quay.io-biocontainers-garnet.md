@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/garnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/garnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/garnet/container.yaml"
-updated_at: "2024-07-19 03:10:18.550189"
+updated_at: "2024-07-20 03:06:38.121053"
 latest: "0.4.5--py36_0"
 container_url: "https://biocontainers.pro/tools/garnet"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "0.4.5--py36_0"
  - "0.4.5--py35_0"
 description: "shpc-registry automated BioContainers addition for garnet"
-config: {"url": "https://biocontainers.pro/tools/garnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for garnet", "latest": {"0.4.5--py36_0": "sha256:1c662efd6a6620f2c60239b9d2ae7287fd9d41e589addc5ca4b758fb904d46ee"}, "tags": {"0.4.5--py36_0": "sha256:1c662efd6a6620f2c60239b9d2ae7287fd9d41e589addc5ca4b758fb904d46ee", "0.4.5--py35_0": "sha256:69a4e91d84744640d85f6583b4b528e6ea7180724690df3ffa24461d5a6bea9d"}, "docker": "quay.io/biocontainers/garnet", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0", "gst-discoverer-1.0": "/usr/local/bin/gst-discoverer-1.0", "gst-play-1.0": "/usr/local/bin/gst-play-1.0"}}
+config: {"url": "https://biocontainers.pro/tools/garnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for garnet", "latest": {"0.4.5--py36_0": "sha256:bac3aaa0bd007c56bb9ab5c8ca93d9d13ee8122aec55091ce8c08c4f989f838a"}, "tags": {"0.4.5--py36_0": "sha256:bac3aaa0bd007c56bb9ab5c8ca93d9d13ee8122aec55091ce8c08c4f989f838a", "0.4.5--py35_0": "sha256:727030c2342310195b3abf52d5b4278a44e5a1cab68d10fc09e4e04eda38b259"}, "docker": "quay.io/biocontainers/garnet", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0", "gst-discoverer-1.0": "/usr/local/bin/gst-discoverer-1.0", "gst-play-1.0": "/usr/local/bin/gst-play-1.0"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/garnet.

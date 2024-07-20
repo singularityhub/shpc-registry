@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-matrixeqtl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-matrixeqtl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-matrixeqtl/container.yaml"
-updated_at: "2024-07-19 02:43:56.552893"
+updated_at: "2024-07-20 02:40:38.031035"
 latest: "2.1.1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-matrixeqtl"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "2.1.1--r3.3.1_0"
  - "2.1.1--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-matrixeqtl"
-config: {"url": "https://biocontainers.pro/tools/r-matrixeqtl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-matrixeqtl", "latest": {"2.1.1--r3.3.1_0": "sha256:f1440dec26eea57a1056e5cb218f22b3c3f3e533ca2e734bfcca76b336bb9375"}, "tags": {"2.1.1--r3.3.1_0": "sha256:f1440dec26eea57a1056e5cb218f22b3c3f3e533ca2e734bfcca76b336bb9375", "2.1.1--r3.4.1_0": "sha256:cb0c5d981c8f653105a75962ee67fc865892ce69b023b2875937af9b61e2b47c"}, "docker": "quay.io/biocontainers/r-matrixeqtl", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-matrixeqtl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-matrixeqtl", "latest": {"2.1.1--r3.3.1_0": "sha256:793fa09f4954b8d614b10ad0cf940e34a92dccd589cd3e121d567326b917445a"}, "tags": {"2.1.1--r3.3.1_0": "sha256:793fa09f4954b8d614b10ad0cf940e34a92dccd589cd3e121d567326b917445a", "2.1.1--r3.4.1_0": "sha256:8c380999661833964d8286b268d0b5f0e95fcbeaace83743c8e71b3a758822e6"}, "docker": "quay.io/biocontainers/r-matrixeqtl", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-matrixeqtl.

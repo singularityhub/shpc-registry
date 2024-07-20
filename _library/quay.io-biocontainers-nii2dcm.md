@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nii2dcm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nii2dcm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nii2dcm/container.yaml"
-updated_at: "2024-07-19 03:13:32.433268"
+updated_at: "2024-07-20 03:09:48.160164"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nii2dcm"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/e-pcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/e-pcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/e-pcr/container.yaml"
-updated_at: "2024-07-19 02:59:18.147194"
+updated_at: "2024-07-20 02:55:49.260905"
 latest: "2.3.12--0"
 container_url: "https://biocontainers.pro/tools/e-pcr"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "2.3.12--0"
 description: "shpc-registry automated BioContainers addition for e-pcr"
-config: {"url": "https://biocontainers.pro/tools/e-pcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for e-pcr", "latest": {"2.3.12--0": "sha256:1ede8c5761798dd47e22e2908c7ce67e184941246ede48f565b608a2274d8576"}, "tags": {"2.3.12--0": "sha256:1ede8c5761798dd47e22e2908c7ce67e184941246ede48f565b608a2274d8576"}, "docker": "quay.io/biocontainers/e-pcr", "aliases": {"e-PCR": "/usr/local/bin/e-PCR", "fahash": "/usr/local/bin/fahash", "famap": "/usr/local/bin/famap", "re-PCR": "/usr/local/bin/re-PCR"}}
+config: {"url": "https://biocontainers.pro/tools/e-pcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for e-pcr", "latest": {"2.3.12--0": "sha256:cd16829c131a04b09e29198f0184f6629e44753e14012daf6c7539a9daca57b9"}, "tags": {"2.3.12--0": "sha256:cd16829c131a04b09e29198f0184f6629e44753e14012daf6c7539a9daca57b9"}, "docker": "quay.io/biocontainers/e-pcr", "aliases": {"e-PCR": "/usr/local/bin/e-PCR", "fahash": "/usr/local/bin/fahash", "famap": "/usr/local/bin/famap", "re-PCR": "/usr/local/bin/re-PCR"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/e-pcr.

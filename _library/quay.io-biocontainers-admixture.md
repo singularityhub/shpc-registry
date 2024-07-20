@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/admixture"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/admixture/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/admixture/container.yaml"
-updated_at: "2024-07-19 02:40:54.590428"
+updated_at: "2024-07-20 02:37:39.153481"
 latest: "1.3.0--0"
 container_url: "https://biocontainers.pro/tools/admixture"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.3.0--0"
 description: "shpc-registry automated BioContainers addition for admixture"
-config: {"url": "https://biocontainers.pro/tools/admixture", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for admixture", "latest": {"1.3.0--0": "sha256:8c4586c34712cf98eb24f1ff8c9752f3ffae14633f4fa496cf42334dfeea8ea7"}, "tags": {"1.3.0--0": "sha256:8c4586c34712cf98eb24f1ff8c9752f3ffae14633f4fa496cf42334dfeea8ea7"}, "docker": "quay.io/biocontainers/admixture", "aliases": {"admixture": "/usr/local/bin/admixture"}}
+config: {"url": "https://biocontainers.pro/tools/admixture", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for admixture", "latest": {"1.3.0--0": "sha256:645a7158dd202d6374b243b9278efa777ba5f1ea26678261af71d41c6b3f5d45"}, "tags": {"1.3.0--0": "sha256:645a7158dd202d6374b243b9278efa777ba5f1ea26678261af71d41c6b3f5d45"}, "docker": "quay.io/biocontainers/admixture", "aliases": {"admixture": "/usr/local/bin/admixture"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/admixture.

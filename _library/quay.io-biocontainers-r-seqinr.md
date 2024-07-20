@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-seqinr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-seqinr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-seqinr/container.yaml"
-updated_at: "2024-07-19 03:17:48.238306"
+updated_at: "2024-07-20 03:13:59.263107"
 latest: "3.4_5--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-seqinr"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "3.4_5--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-seqinr"
-config: {"url": "https://biocontainers.pro/tools/r-seqinr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-seqinr", "latest": {"3.4_5--r3.4.1_0": "sha256:173676d9e13b2bae2880fd18728f1f4ad38c9b92e5f30089335cd5a48e26fc46"}, "tags": {"3.4_5--r3.4.1_0": "sha256:173676d9e13b2bae2880fd18728f1f4ad38c9b92e5f30089335cd5a48e26fc46"}, "docker": "quay.io/biocontainers/r-seqinr", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-seqinr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-seqinr", "latest": {"3.4_5--r3.4.1_0": "sha256:6f43ceb17d35983e38b5858a7fc42d29494ebdf12548dfc55fe5fa84a3a97a41"}, "tags": {"3.4_5--r3.4.1_0": "sha256:6f43ceb17d35983e38b5858a7fc42d29494ebdf12548dfc55fe5fa84a3a97a41"}, "docker": "quay.io/biocontainers/r-seqinr", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-seqinr.

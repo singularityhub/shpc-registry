@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-waddr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-waddr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-waddr/container.yaml"
-updated_at: "2024-07-19 03:08:16.540293"
+updated_at: "2024-07-20 03:04:38.053600"
 latest: "1.16.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-waddr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-specio-exporter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-specio-exporter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-specio-exporter/container.yaml"
-updated_at: "2024-07-19 03:13:26.742994"
+updated_at: "2024-07-20 03:09:42.569353"
 latest: "0.36--pl526_3"
 container_url: "https://biocontainers.pro/tools/perl-specio-exporter"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "0.36--pl526_3"
 description: "shpc-registry automated BioContainers addition for perl-specio-exporter"
-config: {"url": "https://biocontainers.pro/tools/perl-specio-exporter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-specio-exporter", "latest": {"0.36--pl526_3": "sha256:8f91a6f993a9e2896566f9e5aa342497c412b47f88ba2c112943363ed2efcae7"}, "tags": {"0.36--pl526_3": "sha256:8f91a6f993a9e2896566f9e5aa342497c412b47f88ba2c112943363ed2efcae7"}, "docker": "quay.io/biocontainers/perl-specio-exporter", "aliases": {"config_data": "/usr/local/bin/config_data", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-specio-exporter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-specio-exporter", "latest": {"0.36--pl526_3": "sha256:9fd7101a771dd9dce6e1a190b03f02dc7c5b4a6c8dbd7a18e8a7885adba47695"}, "tags": {"0.36--pl526_3": "sha256:9fd7101a771dd9dce6e1a190b03f02dc7c5b4a6c8dbd7a18e8a7885adba47695"}, "docker": "quay.io/biocontainers/perl-specio-exporter", "aliases": {"config_data": "/usr/local/bin/config_data", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-specio-exporter.

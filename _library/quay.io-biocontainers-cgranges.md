@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgranges/container.yaml"
-updated_at: "2024-07-19 03:12:29.424533"
+updated_at: "2024-07-20 03:08:46.414783"
 latest: "0.1--py38he5da3d1_2"
 container_url: "https://biocontainers.pro/tools/cgranges"
 aliases:

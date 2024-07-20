@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-longitudinal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-longitudinal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-longitudinal/container.yaml"
-updated_at: "2024-07-19 03:01:42.904670"
+updated_at: "2024-07-20 02:58:11.212463"
 latest: "1.1.12--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-longitudinal"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.1.12--r3.2.2_0"
  - "1.1.12--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-longitudinal"
-config: {"url": "https://biocontainers.pro/tools/r-longitudinal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-longitudinal", "latest": {"1.1.12--r3.2.2_0": "sha256:4b7bab4bf256d4135564110f5c88c624dcb0fac6dcbcd3227a1ed167fddbcc4a"}, "tags": {"1.1.12--r3.2.2_0": "sha256:4b7bab4bf256d4135564110f5c88c624dcb0fac6dcbcd3227a1ed167fddbcc4a", "1.1.12--r3.3.2_0": "sha256:f4a2efabc633d7639f03e94983814adc5676e8042cdef23ee9b028c5ac01a9a8"}, "docker": "quay.io/biocontainers/r-longitudinal", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-longitudinal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-longitudinal", "latest": {"1.1.12--r3.2.2_0": "sha256:28d83a39df75a25aaaad0e3f2c5f4c638564438ade6627256f1ee8f826ac49b6"}, "tags": {"1.1.12--r3.2.2_0": "sha256:28d83a39df75a25aaaad0e3f2c5f4c638564438ade6627256f1ee8f826ac49b6", "1.1.12--r3.3.2_0": "sha256:d524949baa274ae6001951be2f84523fba3992f474f4752aea3309498a83a025"}, "docker": "quay.io/biocontainers/r-longitudinal", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-longitudinal.

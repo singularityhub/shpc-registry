@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lordfast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lordfast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lordfast/container.yaml"
-updated_at: "2024-07-19 02:41:22.326594"
+updated_at: "2024-07-20 02:38:06.344681"
 latest: "0.0.10--h43eeafb_5"
 container_url: "https://biocontainers.pro/tools/lordfast"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "0.0.10--h5b5514e_3"
  - "0.0.10--h43eeafb_5"
 description: "shpc-registry automated BioContainers addition for lordfast"
-config: {"url": "https://biocontainers.pro/tools/lordfast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lordfast", "latest": {"0.0.10--h43eeafb_5": "sha256:8e0036bfafb534dd6e2229beff286f8a5b1681be3aed42f8a60a86f7018c8cbb"}, "tags": {"0.0.9--hd28b015_0": "sha256:0606f94cd3021b6721ad9224b952a4c403087f03a90044b1641d77b6970cc478", "0.0.10--h5b5514e_3": "sha256:e1b28b25719bb5592bfa8d5918bb12729f9e8b368d94079c03ec27976bedb4dd", "0.0.10--h43eeafb_5": "sha256:8e0036bfafb534dd6e2229beff286f8a5b1681be3aed42f8a60a86f7018c8cbb"}, "docker": "quay.io/biocontainers/lordfast", "aliases": {"lordfast": "/usr/local/bin/lordfast"}}
+config: {"url": "https://biocontainers.pro/tools/lordfast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lordfast", "latest": {"0.0.10--h43eeafb_5": "sha256:8e0036bfafb534dd6e2229beff286f8a5b1681be3aed42f8a60a86f7018c8cbb"}, "tags": {"0.0.9--hd28b015_0": "sha256:b8244dd1a9c2d103ad16d570e3f19aea0fab209f56b3ca3b14d64f4c1f3a0443", "0.0.10--h5b5514e_3": "sha256:e1b28b25719bb5592bfa8d5918bb12729f9e8b368d94079c03ec27976bedb4dd", "0.0.10--h43eeafb_5": "sha256:8e0036bfafb534dd6e2229beff286f8a5b1681be3aed42f8a60a86f7018c8cbb"}, "docker": "quay.io/biocontainers/lordfast", "aliases": {"lordfast": "/usr/local/bin/lordfast"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lordfast.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/suppa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/suppa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/suppa/container.yaml"
-updated_at: "2024-07-19 03:21:00.647932"
+updated_at: "2024-07-20 03:17:08.221502"
 latest: "2.3--py_2"
 container_url: "https://biocontainers.pro/tools/suppa"
 aliases:
@@ -29,7 +29,7 @@ aliases:
 versions:
  - "2.3--py_2"
 description: "shpc-registry automated BioContainers addition for suppa"
-config: {"url": "https://biocontainers.pro/tools/suppa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for suppa", "latest": {"2.3--py_2": "sha256:3dadbfa11b5ca40d1980c31ccc56139be261fc614b83954ae4086a7cb70454a0"}, "tags": {"2.3--py_2": "sha256:3dadbfa11b5ca40d1980c31ccc56139be261fc614b83954ae4086a7cb70454a0"}, "docker": "quay.io/biocontainers/suppa", "aliases": {"eventClusterer.py": "/usr/local/bin/eventClusterer.py", "eventGenerator.py": "/usr/local/bin/eventGenerator.py", "fileMerger.py": "/usr/local/bin/fileMerger.py", "multipleFieldSelection.py": "/usr/local/bin/multipleFieldSelection.py", "psiCalculator.py": "/usr/local/bin/psiCalculator.py", "psiPerGene.py": "/usr/local/bin/psiPerGene.py", "significanceCalculator.py": "/usr/local/bin/significanceCalculator.py", "suppa.py": "/usr/local/bin/suppa.py", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/suppa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for suppa", "latest": {"2.3--py_2": "sha256:caed21dee20f0851dd51ef4e5a0b992c914c00d547e2c1bf89980c14d8cc7fe8"}, "tags": {"2.3--py_2": "sha256:caed21dee20f0851dd51ef4e5a0b992c914c00d547e2c1bf89980c14d8cc7fe8"}, "docker": "quay.io/biocontainers/suppa", "aliases": {"eventClusterer.py": "/usr/local/bin/eventClusterer.py", "eventGenerator.py": "/usr/local/bin/eventGenerator.py", "fileMerger.py": "/usr/local/bin/fileMerger.py", "multipleFieldSelection.py": "/usr/local/bin/multipleFieldSelection.py", "psiCalculator.py": "/usr/local/bin/psiCalculator.py", "psiPerGene.py": "/usr/local/bin/psiPerGene.py", "significanceCalculator.py": "/usr/local/bin/significanceCalculator.py", "suppa.py": "/usr/local/bin/suppa.py", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/suppa.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/illuminate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/illuminate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/illuminate/container.yaml"
-updated_at: "2024-07-19 03:15:58.620804"
+updated_at: "2024-07-20 03:12:11.677788"
 latest: "0.6.3--py35_0"
 container_url: "https://biocontainers.pro/tools/illuminate"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.6.3--py35_0"
 description: "shpc-registry automated BioContainers addition for illuminate"
-config: {"url": "https://biocontainers.pro/tools/illuminate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for illuminate", "latest": {"0.6.3--py35_0": "sha256:a004c9285f5d0d817bf51f79d6ea435eb0f634e5d66b8f02b7ffb7ed02d4b9ea"}, "tags": {"0.6.3--py35_0": "sha256:a004c9285f5d0d817bf51f79d6ea435eb0f634e5d66b8f02b7ffb7ed02d4b9ea"}, "docker": "quay.io/biocontainers/illuminate", "aliases": {"illuminate": "/usr/local/bin/illuminate", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/illuminate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for illuminate", "latest": {"0.6.3--py35_0": "sha256:06baf25987c8fbc1e1a0563acd2d40e73f7241ba8d39dfce4a131205fab77299"}, "tags": {"0.6.3--py35_0": "sha256:06baf25987c8fbc1e1a0563acd2d40e73f7241ba8d39dfce4a131205fab77299"}, "docker": "quay.io/biocontainers/illuminate", "aliases": {"illuminate": "/usr/local/bin/illuminate", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/illuminate.

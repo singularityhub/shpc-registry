@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rfplasmid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rfplasmid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rfplasmid/container.yaml"
-updated_at: "2024-07-19 02:47:57.680764"
+updated_at: "2024-07-20 02:44:36.307849"
 latest: "0.0.18--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rfplasmid"
 aliases:

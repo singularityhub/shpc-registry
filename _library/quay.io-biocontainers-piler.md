@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/piler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piler/container.yaml"
-updated_at: "2024-07-19 02:57:11.297256"
+updated_at: "2024-07-20 02:53:43.937661"
 latest: "0.1--0"
 container_url: "https://biocontainers.pro/tools/piler"
 
 versions:
  - "0.1--0"
 description: "shpc-registry automated BioContainers addition for piler"
-config: {"url": "https://biocontainers.pro/tools/piler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for piler", "latest": {"0.1--0": "sha256:6baab1293d0af8d029a78efab7eb4aeffb59ed0462e69e78bec5963c89627c25"}, "tags": {"0.1--0": "sha256:6baab1293d0af8d029a78efab7eb4aeffb59ed0462e69e78bec5963c89627c25"}, "docker": "quay.io/biocontainers/piler"}
+config: {"url": "https://biocontainers.pro/tools/piler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for piler", "latest": {"0.1--0": "sha256:a36d0cbe7c1f2e17be5195ad1d6e75cc4c8fc8c78afa1196d04c708f4c20e8d2"}, "tags": {"0.1--0": "sha256:a36d0cbe7c1f2e17be5195ad1d6e75cc4c8fc8c78afa1196d04c708f4c20e8d2"}, "docker": "quay.io/biocontainers/piler"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/piler.

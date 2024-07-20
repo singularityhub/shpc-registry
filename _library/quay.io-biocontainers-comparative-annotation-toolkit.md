@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/comparative-annotation-toolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/comparative-annotation-toolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/comparative-annotation-toolkit/container.yaml"
-updated_at: "2024-07-19 02:40:42.866046"
+updated_at: "2024-07-20 02:37:27.633546"
 latest: "0.1--py_2"
 container_url: "https://biocontainers.pro/tools/comparative-annotation-toolkit"
 aliases:

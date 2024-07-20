@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blksheep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blksheep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blksheep/container.yaml"
-updated_at: "2024-07-19 02:42:51.441667"
+updated_at: "2024-07-20 02:39:33.776305"
 latest: "0.0.7--py_0"
 container_url: "https://biocontainers.pro/tools/blksheep"
 aliases:

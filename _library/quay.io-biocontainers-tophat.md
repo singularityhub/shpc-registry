@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tophat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tophat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tophat/container.yaml"
-updated_at: "2024-07-19 02:48:27.216801"
+updated_at: "2024-07-20 02:45:05.720446"
 latest: "2.1.1--py27_3"
 container_url: "https://biocontainers.pro/tools/tophat"
 

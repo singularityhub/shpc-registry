@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-granie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-granie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-granie/container.yaml"
-updated_at: "2024-07-19 03:21:18.037008"
+updated_at: "2024-07-20 03:17:25.303379"
 latest: "1.6.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-granie"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scikit-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scikit-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scikit-bio/container.yaml"
-updated_at: "2024-07-19 03:16:29.070658"
+updated_at: "2024-07-20 03:12:41.639696"
 latest: "0.4.2--np112py35_0"
 container_url: "https://biocontainers.pro/tools/scikit-bio"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "0.4.2--np112py35_0"
  - "0.4.2--np112py27_0"
 description: "shpc-registry automated BioContainers addition for scikit-bio"
-config: {"url": "https://biocontainers.pro/tools/scikit-bio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scikit-bio", "latest": {"0.4.2--np112py35_0": "sha256:b374dc7700762fa375847657559b2899baf65f105ce31bf76765c5dfd2c95191"}, "tags": {"0.4.2--np112py35_0": "sha256:b374dc7700762fa375847657559b2899baf65f105ce31bf76765c5dfd2c95191", "0.4.2--np112py27_0": "sha256:574f6471851f29adadfe2206bd6ec14352145da48a82acd4c65b5c3d37fe214f"}, "docker": "quay.io/biocontainers/scikit-bio", "aliases": {"nosetests-3.5": "/usr/local/bin/nosetests-3.5", "doesitcache": "/usr/local/bin/doesitcache", "nosetests": "/usr/local/bin/nosetests", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "natsort": "/usr/local/bin/natsort", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5"}}
+config: {"url": "https://biocontainers.pro/tools/scikit-bio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scikit-bio", "latest": {"0.4.2--np112py35_0": "sha256:2de9a810eae3376978e739c60e1c01c3d2fc53727967dbc7f74ce33838d70ec6"}, "tags": {"0.4.2--np112py35_0": "sha256:2de9a810eae3376978e739c60e1c01c3d2fc53727967dbc7f74ce33838d70ec6", "0.4.2--np112py27_0": "sha256:6c70893a8f601abbcda5dfdef34ef4644d1545ea785ebc3e8fba700454a861f1"}, "docker": "quay.io/biocontainers/scikit-bio", "aliases": {"nosetests-3.5": "/usr/local/bin/nosetests-3.5", "doesitcache": "/usr/local/bin/doesitcache", "nosetests": "/usr/local/bin/nosetests", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "natsort": "/usr/local/bin/natsort", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scikit-bio.

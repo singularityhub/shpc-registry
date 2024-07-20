@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ndg-httpsclient"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ndg-httpsclient/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ndg-httpsclient/container.yaml"
-updated_at: "2024-07-19 02:40:55.164941"
+updated_at: "2024-07-20 02:37:39.719850"
 latest: "0.4.2--py36_0"
 container_url: "https://biocontainers.pro/tools/ndg-httpsclient"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.4.2--py36_0"
 description: "shpc-registry automated BioContainers addition for ndg-httpsclient"
-config: {"url": "https://biocontainers.pro/tools/ndg-httpsclient", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ndg-httpsclient", "latest": {"0.4.2--py36_0": "sha256:c7c1035ad6c28db0e520bd153aa6cf51a765ea65f03bdefc2b765dba8f267690"}, "tags": {"0.4.2--py36_0": "sha256:c7c1035ad6c28db0e520bd153aa6cf51a765ea65f03bdefc2b765dba8f267690"}, "docker": "quay.io/biocontainers/ndg-httpsclient", "aliases": {"ndg_httpclient": "/usr/local/bin/ndg_httpclient", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/ndg-httpsclient", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ndg-httpsclient", "latest": {"0.4.2--py36_0": "sha256:043d02bec2632e8a5154eb8d0ee0ebaec6fdc11c074fe17cd9441b98420bb173"}, "tags": {"0.4.2--py36_0": "sha256:043d02bec2632e8a5154eb8d0ee0ebaec6fdc11c074fe17cd9441b98420bb173"}, "docker": "quay.io/biocontainers/ndg-httpsclient", "aliases": {"ndg_httpclient": "/usr/local/bin/ndg_httpclient", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ndg-httpsclient.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gappa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gappa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gappa/container.yaml"
-updated_at: "2024-07-19 02:40:41.428919"
-latest: "0.8.4--hdcf5f25_1"
+updated_at: "2024-07-20 02:37:26.218398"
+latest: "0.8.5--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/gappa"
 aliases:
  - "gappa"
@@ -14,8 +14,9 @@ versions:
  - "0.8.0--hdcf5f25_3"
  - "0.8.4--hdcf5f25_0"
  - "0.8.4--hdcf5f25_1"
+ - "0.8.5--hdcf5f25_0"
 description: "shpc-registry automated BioContainers addition for gappa"
-config: {"url": "https://biocontainers.pro/tools/gappa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gappa", "latest": {"0.8.4--hdcf5f25_1": "sha256:896abccfcd64330c98cd85a2e376a2cae01675994fb212eec077072655debd92"}, "tags": {"0.8.0--hd03093a_1": "sha256:de63bd594a237f8afd1ec2d0e3c9be70938a03b70491b2ff645a41cebcaed0f6", "0.8.0--hdcf5f25_3": "sha256:c9aaf12447e4c74d5aca027b26cb430842680b7ab3f0cb823fc4e40cbf680088", "0.8.4--hdcf5f25_0": "sha256:46aa7fbd8bb9e3c4eca381a0faa45e3c8c4fd09e8127364b9c9cde2c65d75467", "0.8.4--hdcf5f25_1": "sha256:896abccfcd64330c98cd85a2e376a2cae01675994fb212eec077072655debd92"}, "docker": "quay.io/biocontainers/gappa", "aliases": {"gappa": "/usr/local/bin/gappa"}}
+config: {"url": "https://biocontainers.pro/tools/gappa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gappa", "latest": {"0.8.5--hdcf5f25_0": "sha256:8072a1cc624ec17b3079a443ca1be2f6b3f68c2c62b1d97a64c68a5f139a54fe"}, "tags": {"0.8.0--hd03093a_1": "sha256:de63bd594a237f8afd1ec2d0e3c9be70938a03b70491b2ff645a41cebcaed0f6", "0.8.0--hdcf5f25_3": "sha256:c9aaf12447e4c74d5aca027b26cb430842680b7ab3f0cb823fc4e40cbf680088", "0.8.4--hdcf5f25_0": "sha256:46aa7fbd8bb9e3c4eca381a0faa45e3c8c4fd09e8127364b9c9cde2c65d75467", "0.8.4--hdcf5f25_1": "sha256:896abccfcd64330c98cd85a2e376a2cae01675994fb212eec077072655debd92", "0.8.5--hdcf5f25_0": "sha256:8072a1cc624ec17b3079a443ca1be2f6b3f68c2c62b1d97a64c68a5f139a54fe"}, "docker": "quay.io/biocontainers/gappa", "aliases": {"gappa": "/usr/local/bin/gappa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gappa.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/gappa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gappa:0.8.4--hdcf5f25_1
+$ shpc install quay.io/biocontainers/gappa:0.8.5--hdcf5f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gappa/0.8.4--hdcf5f25_1
-$ module help quay.io/biocontainers/gappa/0.8.4--hdcf5f25_1
+$ module load quay.io/biocontainers/gappa/0.8.5--hdcf5f25_0
+$ module help quay.io/biocontainers/gappa/0.8.5--hdcf5f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

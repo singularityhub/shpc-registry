@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pdbfixer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pdbfixer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pdbfixer/container.yaml"
-updated_at: "2024-07-19 02:37:35.974231"
+updated_at: "2024-07-20 02:34:23.698597"
 latest: "1.8.1"
 container_url: "https://biocontainers.pro/tools/pdbfixer"
 aliases:

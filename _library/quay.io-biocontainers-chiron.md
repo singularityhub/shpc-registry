@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chiron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chiron/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chiron/container.yaml"
-updated_at: "2024-07-19 03:07:32.389124"
+updated_at: "2024-07-20 03:03:54.784359"
 latest: "0.6.1.1--py_0"
 container_url: "https://biocontainers.pro/tools/chiron"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.6.1.1--py_0"
 description: "shpc-registry automated BioContainers addition for chiron"
-config: {"url": "https://biocontainers.pro/tools/chiron", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chiron", "latest": {"0.6.1.1--py_0": "sha256:84bb15be72fb143b4465ff240b488ff43f398b756ad436324a26a1f79a186072"}, "tags": {"0.6.1.1--py_0": "sha256:84bb15be72fb143b4465ff240b488ff43f398b756ad436324a26a1f79a186072"}, "docker": "quay.io/biocontainers/chiron", "aliases": {"chiron": "/usr/local/bin/chiron", "unit2": "/usr/local/bin/unit2", "minimap2.py": "/usr/local/bin/minimap2.py", "freeze_graph": "/usr/local/bin/freeze_graph", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "markdown_py": "/usr/local/bin/markdown_py", "protoc": "/usr/local/bin/protoc"}}
+config: {"url": "https://biocontainers.pro/tools/chiron", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chiron", "latest": {"0.6.1.1--py_0": "sha256:ad907b448cc112822867965b8821cb68a0d495f12823140afe13214111b9bace"}, "tags": {"0.6.1.1--py_0": "sha256:ad907b448cc112822867965b8821cb68a0d495f12823140afe13214111b9bace"}, "docker": "quay.io/biocontainers/chiron", "aliases": {"chiron": "/usr/local/bin/chiron", "unit2": "/usr/local/bin/unit2", "minimap2.py": "/usr/local/bin/minimap2.py", "freeze_graph": "/usr/local/bin/freeze_graph", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "markdown_py": "/usr/local/bin/markdown_py", "protoc": "/usr/local/bin/protoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chiron.

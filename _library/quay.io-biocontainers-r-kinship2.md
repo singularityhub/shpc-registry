@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-kinship2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-kinship2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-kinship2/container.yaml"
-updated_at: "2024-07-19 02:54:00.328660"
+updated_at: "2024-07-20 02:50:35.219117"
 latest: "1.6.4--r351h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-kinship2"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.6.4--r351h6115d3f_3"
 description: "shpc-registry automated BioContainers addition for r-kinship2"
-config: {"url": "https://biocontainers.pro/tools/r-kinship2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-kinship2", "latest": {"1.6.4--r351h6115d3f_3": "sha256:455e6403dacfcc259ee1a2bd0647d74079ec58f614f25c0c3a739c3f381bd80b"}, "tags": {"1.6.4--r351h6115d3f_3": "sha256:455e6403dacfcc259ee1a2bd0647d74079ec58f614f25c0c3a739c3f381bd80b"}, "docker": "quay.io/biocontainers/r-kinship2", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-kinship2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-kinship2", "latest": {"1.6.4--r351h6115d3f_3": "sha256:debbe24f436b992662ef8cd259efb2f66107d95ef9716f141f5eb6d6eeeffecc"}, "tags": {"1.6.4--r351h6115d3f_3": "sha256:debbe24f436b992662ef8cd259efb2f66107d95ef9716f141f5eb6d6eeeffecc"}, "docker": "quay.io/biocontainers/r-kinship2", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-kinship2.

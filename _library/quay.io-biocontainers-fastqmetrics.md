@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastqmetrics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastqmetrics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastqmetrics/container.yaml"
-updated_at: "2024-07-19 03:14:05.778830"
+updated_at: "2024-07-20 03:10:20.945530"
 latest: "0.1.0--py_2"
 container_url: "https://biocontainers.pro/tools/fastqmetrics"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.1.0--py_2"
 description: "shpc-registry automated BioContainers addition for fastqmetrics"
-config: {"url": "https://biocontainers.pro/tools/fastqmetrics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqmetrics", "latest": {"0.1.0--py_2": "sha256:b1ad691736481e7e15d2cd5fde59c2601f109a0715d70343a87fe2f01fbc5e4f"}, "tags": {"0.1.0--py_2": "sha256:b1ad691736481e7e15d2cd5fde59c2601f109a0715d70343a87fe2f01fbc5e4f"}, "docker": "quay.io/biocontainers/fastqmetrics", "aliases": {"fastqmetrics": "/usr/local/bin/fastqmetrics", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/fastqmetrics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqmetrics", "latest": {"0.1.0--py_2": "sha256:895783f94bbbd0f9caf636ba18eed99471e84e68f18592a98abf3e471137c54b"}, "tags": {"0.1.0--py_2": "sha256:895783f94bbbd0f9caf636ba18eed99471e84e68f18592a98abf3e471137c54b"}, "docker": "quay.io/biocontainers/fastqmetrics", "aliases": {"fastqmetrics": "/usr/local/bin/fastqmetrics", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastqmetrics.

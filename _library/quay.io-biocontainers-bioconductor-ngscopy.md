@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ngscopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ngscopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ngscopy/container.yaml"
-updated_at: "2024-07-19 02:38:10.761293"
+updated_at: "2024-07-20 02:34:58.021290"
 latest: "1.17.1--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ngscopy"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.17.1--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-ngscopy"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ngscopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ngscopy", "latest": {"1.17.1--r36_1": "sha256:be8689fcdbabf1cfd25dc717f4b1d61bf121598e93d55809a463c1477d179660"}, "tags": {"1.17.1--r36_1": "sha256:be8689fcdbabf1cfd25dc717f4b1d61bf121598e93d55809a463c1477d179660"}, "docker": "quay.io/biocontainers/bioconductor-ngscopy", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ngscopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ngscopy", "latest": {"1.17.1--r36_1": "sha256:51ca3d2565f609f8bee794ae0cdb70c912f6ffa5f3dec9cd751170d14aa772a8"}, "tags": {"1.17.1--r36_1": "sha256:51ca3d2565f609f8bee794ae0cdb70c912f6ffa5f3dec9cd751170d14aa772a8"}, "docker": "quay.io/biocontainers/bioconductor-ngscopy", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ngscopy.

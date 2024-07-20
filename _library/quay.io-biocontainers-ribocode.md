@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ribocode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribocode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribocode/container.yaml"
-updated_at: "2024-07-19 03:02:41.661618"
+updated_at: "2024-07-20 02:59:08.823876"
 latest: "1.2.15--pyhfa5458b_0"
 container_url: "https://biocontainers.pro/tools/ribocode"
 aliases:
@@ -30,7 +30,7 @@ versions:
  - "1.2.9--py36_0"
  - "1.2.15--pyhfa5458b_0"
 description: "shpc-registry automated BioContainers addition for ribocode"
-config: {"url": "https://biocontainers.pro/tools/ribocode", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ribocode", "latest": {"1.2.15--pyhfa5458b_0": "sha256:639d557367b237bd2bfac63f94fed0a47bb952e0de9068140583651fa8d1b195"}, "tags": {"1.2.9--py36_0": "sha256:3b319abf8e7e774c1eb51a423834f5abd099704f56e94d02acb8e8b89e4bd3dc", "1.2.15--pyhfa5458b_0": "sha256:639d557367b237bd2bfac63f94fed0a47bb952e0de9068140583651fa8d1b195"}, "docker": "quay.io/biocontainers/ribocode", "aliases": {"GTFupdate": "/usr/local/bin/GTFupdate", "ORFcount": "/usr/local/bin/ORFcount", "RiboCode": "/usr/local/bin/RiboCode", "RiboCode_onestep": "/usr/local/bin/RiboCode_onestep", "metaplots": "/usr/local/bin/metaplots", "plot_orf_density": "/usr/local/bin/plot_orf_density", "prepare_transcripts": "/usr/local/bin/prepare_transcripts", "pyfasta": "/usr/local/bin/pyfasta", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py"}}
+config: {"url": "https://biocontainers.pro/tools/ribocode", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ribocode", "latest": {"1.2.15--pyhfa5458b_0": "sha256:639d557367b237bd2bfac63f94fed0a47bb952e0de9068140583651fa8d1b195"}, "tags": {"1.2.9--py36_0": "sha256:9c51c9626ea7b8b1159cdb9ec88d252565a02eda28318636e4bdec848f0d761d", "1.2.15--pyhfa5458b_0": "sha256:639d557367b237bd2bfac63f94fed0a47bb952e0de9068140583651fa8d1b195"}, "docker": "quay.io/biocontainers/ribocode", "aliases": {"GTFupdate": "/usr/local/bin/GTFupdate", "ORFcount": "/usr/local/bin/ORFcount", "RiboCode": "/usr/local/bin/RiboCode", "RiboCode_onestep": "/usr/local/bin/RiboCode_onestep", "metaplots": "/usr/local/bin/metaplots", "plot_orf_density": "/usr/local/bin/plot_orf_density", "prepare_transcripts": "/usr/local/bin/prepare_transcripts", "pyfasta": "/usr/local/bin/pyfasta", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ribocode.

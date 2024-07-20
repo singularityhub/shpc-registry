@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nspdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nspdk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nspdk/container.yaml"
-updated_at: "2024-07-19 02:41:58.435996"
+updated_at: "2024-07-20 02:38:41.528543"
 latest: "9.2--1"
 container_url: "https://biocontainers.pro/tools/nspdk"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "9.2--1"
 description: "shpc-registry automated BioContainers addition for nspdk"
-config: {"url": "https://biocontainers.pro/tools/nspdk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nspdk", "latest": {"9.2--1": "sha256:441c872af894e01a3f5a241d1b550bf3e85c1e79c672411586d365df37f321cf"}, "tags": {"9.2--1": "sha256:441c872af894e01a3f5a241d1b550bf3e85c1e79c672411586d365df37f321cf"}, "docker": "quay.io/biocontainers/nspdk", "aliases": {"NSPDK": "/usr/local/bin/NSPDK"}}
+config: {"url": "https://biocontainers.pro/tools/nspdk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nspdk", "latest": {"9.2--1": "sha256:48ab7446323f5d84913a0b2e1ca28f13b984429e5f99ea013be1613a97797bc2"}, "tags": {"9.2--1": "sha256:48ab7446323f5d84913a0b2e1ca28f13b984429e5f99ea013be1613a97797bc2"}, "docker": "quay.io/biocontainers/nspdk", "aliases": {"NSPDK": "/usr/local/bin/NSPDK"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nspdk.

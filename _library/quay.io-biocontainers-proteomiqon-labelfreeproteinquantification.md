@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proteomiqon-labelfreeproteinquantification"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-labelfreeproteinquantification/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-labelfreeproteinquantification/container.yaml"
-updated_at: "2024-07-19 02:55:45.318245"
+updated_at: "2024-07-20 02:52:18.517416"
 latest: "0.0.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/proteomiqon-labelfreeproteinquantification"
 aliases:

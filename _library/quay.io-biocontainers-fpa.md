@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fpa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fpa/container.yaml"
-updated_at: "2024-07-19 02:58:24.388485"
+updated_at: "2024-07-20 02:54:56.253552"
 latest: "0.5--hbcae180_2"
 container_url: "https://biocontainers.pro/tools/fpa"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "0.5--hbcae180_2"
 description: "shpc-registry automated BioContainers addition for fpa"
-config: {"url": "https://biocontainers.pro/tools/fpa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fpa", "latest": {"0.5--hbcae180_2": "sha256:b216fc65991a5553c9b9ad100ef66d9fa0f75ec038bad01f5f3010b318aedc43"}, "tags": {"0.5--hbcae180_2": "sha256:b216fc65991a5553c9b9ad100ef66d9fa0f75ec038bad01f5f3010b318aedc43"}, "docker": "quay.io/biocontainers/fpa", "aliases": {"fpa": "/usr/local/bin/fpa"}}
+config: {"url": "https://biocontainers.pro/tools/fpa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fpa", "latest": {"0.5--hbcae180_2": "sha256:fa594c5d1e4eb92cb5419f4bb152a18246ca0f150b54f83be77ea2b37ea0ac66"}, "tags": {"0.5--hbcae180_2": "sha256:fa594c5d1e4eb92cb5419f4bb152a18246ca0f150b54f83be77ea2b37ea0ac66"}, "docker": "quay.io/biocontainers/fpa", "aliases": {"fpa": "/usr/local/bin/fpa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fpa.

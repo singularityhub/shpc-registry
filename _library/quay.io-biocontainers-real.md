@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/real"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/real/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/real/container.yaml"
-updated_at: "2024-07-19 03:19:03.277121"
+updated_at: "2024-07-20 03:15:12.913644"
 latest: "1.0--he941832_1"
 container_url: "https://biocontainers.pro/tools/real"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.0--he941832_1"
 description: "shpc-registry automated BioContainers addition for real"
-config: {"url": "https://biocontainers.pro/tools/real", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for real", "latest": {"1.0--he941832_1": "sha256:c920674b2d4585707b038124415b46b0c535eedbc5fe75b23df3693ad7bf5e1f"}, "tags": {"1.0--he941832_1": "sha256:c920674b2d4585707b038124415b46b0c535eedbc5fe75b23df3693ad7bf5e1f"}, "docker": "quay.io/biocontainers/real", "aliases": {"real": "/usr/local/bin/real"}}
+config: {"url": "https://biocontainers.pro/tools/real", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for real", "latest": {"1.0--he941832_1": "sha256:1b75f7ca99ec67f75b81813a1299c069dccd0836df06d905f933299ff8d061ad"}, "tags": {"1.0--he941832_1": "sha256:1b75f7ca99ec67f75b81813a1299c069dccd0836df06d905f933299ff8d061ad"}, "docker": "quay.io/biocontainers/real", "aliases": {"real": "/usr/local/bin/real"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/real.

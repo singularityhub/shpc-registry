@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/autometa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autometa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autometa/container.yaml"
-updated_at: "2024-07-19 02:37:01.233958"
+updated_at: "2024-07-20 02:33:49.275536"
 latest: "2.2.3--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/autometa"
 aliases:

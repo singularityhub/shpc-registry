@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncbi-amr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-amr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-amr/container.yaml"
-updated_at: "2024-07-19 02:43:32.398907"
+updated_at: "2024-07-20 02:40:14.168304"
 latest: "1.04--h6bb024c_0"
 container_url: "https://biocontainers.pro/tools/ncbi-amr"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "1.04--h6bb024c_0"
 description: "shpc-registry automated BioContainers addition for ncbi-amr"
-config: {"url": "https://biocontainers.pro/tools/ncbi-amr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-amr", "latest": {"1.04--h6bb024c_0": "sha256:eb29efa68cad2a265644df477e68774ff04f8bc497e2476ca640a16c36a82cb2"}, "tags": {"1.04--h6bb024c_0": "sha256:eb29efa68cad2a265644df477e68774ff04f8bc497e2476ca640a16c36a82cb2"}, "docker": "quay.io/biocontainers/ncbi-amr", "aliases": {"amr_report": "/usr/local/bin/amr_report", "amrfinder.pl": "/usr/local/bin/amrfinder.pl", "fasta_check": "/usr/local/bin/fasta_check", "gff_check": "/usr/local/bin/gff_check", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2"}}
+config: {"url": "https://biocontainers.pro/tools/ncbi-amr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-amr", "latest": {"1.04--h6bb024c_0": "sha256:97af4eb18094876b572bee08da0e4a5e49d558ad6476973066a22f030c07e8cb"}, "tags": {"1.04--h6bb024c_0": "sha256:97af4eb18094876b572bee08da0e4a5e49d558ad6476973066a22f030c07e8cb"}, "docker": "quay.io/biocontainers/ncbi-amr", "aliases": {"amr_report": "/usr/local/bin/amr_report", "amrfinder.pl": "/usr/local/bin/amrfinder.pl", "fasta_check": "/usr/local/bin/fasta_check", "gff_check": "/usr/local/bin/gff_check", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncbi-amr.

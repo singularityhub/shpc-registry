@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-funrar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-funrar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-funrar/container.yaml"
-updated_at: "2024-07-19 03:16:48.769838"
+updated_at: "2024-07-20 03:13:00.915990"
 latest: "1.2.2--r351h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-funrar"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.2.2--r351h6115d3f_3"
 description: "shpc-registry automated BioContainers addition for r-funrar"
-config: {"url": "https://biocontainers.pro/tools/r-funrar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-funrar", "latest": {"1.2.2--r351h6115d3f_3": "sha256:c08008cee0490813cf6806ad06aaf8569326c8d71e1f6619f8d50eae5dea4e1c"}, "tags": {"1.2.2--r351h6115d3f_3": "sha256:c08008cee0490813cf6806ad06aaf8569326c8d71e1f6619f8d50eae5dea4e1c"}, "docker": "quay.io/biocontainers/r-funrar", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-funrar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-funrar", "latest": {"1.2.2--r351h6115d3f_3": "sha256:03c91b2cc13d49f9dac1f15474bfa6541c28c8f033feda9cab011b4791a568f1"}, "tags": {"1.2.2--r351h6115d3f_3": "sha256:03c91b2cc13d49f9dac1f15474bfa6541c28c8f033feda9cab011b4791a568f1"}, "docker": "quay.io/biocontainers/r-funrar", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-funrar.

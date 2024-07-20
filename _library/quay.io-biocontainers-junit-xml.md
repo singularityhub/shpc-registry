@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/junit-xml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/junit-xml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/junit-xml/container.yaml"
-updated_at: "2024-07-19 03:23:50.445428"
+updated_at: "2024-07-20 03:19:54.608537"
 latest: "1.8--py_0"
 container_url: "https://biocontainers.pro/tools/junit-xml"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "1.8--py_0"
 description: "shpc-registry automated BioContainers addition for junit-xml"
-config: {"url": "https://biocontainers.pro/tools/junit-xml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for junit-xml", "latest": {"1.8--py_0": "sha256:6d315a2a1361de7803f1d90f0d9e01fe4502ab4714a9d4e237ac10cf979dfff5"}, "tags": {"1.8--py_0": "sha256:6d315a2a1361de7803f1d90f0d9e01fe4502ab4714a9d4e237ac10cf979dfff5"}, "docker": "quay.io/biocontainers/junit-xml", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/junit-xml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for junit-xml", "latest": {"1.8--py_0": "sha256:a06338db19501f8793c175af9385ac9f11a9ab867ab296fba9d1f7055d0807ec"}, "tags": {"1.8--py_0": "sha256:a06338db19501f8793c175af9385ac9f11a9ab867ab296fba9d1f7055d0807ec"}, "docker": "quay.io/biocontainers/junit-xml", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/junit-xml.

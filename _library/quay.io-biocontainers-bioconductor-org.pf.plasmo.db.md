@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-org.pf.plasmo.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.pf.plasmo.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.pf.plasmo.db/container.yaml"
-updated_at: "2024-07-19 02:51:14.053600"
+updated_at: "2024-07-20 02:47:51.824991"
 latest: "3.14.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.pf.plasmo.db"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "3.11.1--r40_0"
  - "3.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-org.pf.plasmo.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-org.pf.plasmo.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.pf.plasmo.db", "latest": {"3.14.0--r41hdfd78af_1": "sha256:e73fecb3adbe00af78d794277613d0069fdcf9ede35ab1f7333ae5f537ce7220"}, "tags": {"3.8.2--r36_1": "sha256:ad3f8d9448b28fe3b141a81205c1a5a44cfeebf2ad493c299d17923394012b01", "3.14.0--r41hdfd78af_1": "sha256:e73fecb3adbe00af78d794277613d0069fdcf9ede35ab1f7333ae5f537ce7220", "3.13.0--r41hdfd78af_0": "sha256:af2c9118506ce5d92e234631538fc3dad4c1da6b5b0d5daff517aaf5cab35d47", "3.12.0--r40hdfd78af_1": "sha256:3bac465b709bfde97540b89cd72440359dd65308464a5dd41ef5041e8bda8168", "3.11.1--r40_0": "sha256:4f6b77ea067bec00ae6ec913f339710f1fd0c92e6b8387e1dcfba8c44337561b", "3.10.0--r36_0": "sha256:5a29bba06d3588679bb248252a28895f48b82f57578953db516f0e816de688ba"}, "docker": "quay.io/biocontainers/bioconductor-org.pf.plasmo.db", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-org.pf.plasmo.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.pf.plasmo.db", "latest": {"3.14.0--r41hdfd78af_1": "sha256:e73fecb3adbe00af78d794277613d0069fdcf9ede35ab1f7333ae5f537ce7220"}, "tags": {"3.8.2--r36_1": "sha256:96a3e5e65de8620263b527c69860de2c102a410e909f52e4564c7031e011c599", "3.14.0--r41hdfd78af_1": "sha256:e73fecb3adbe00af78d794277613d0069fdcf9ede35ab1f7333ae5f537ce7220", "3.13.0--r41hdfd78af_0": "sha256:af2c9118506ce5d92e234631538fc3dad4c1da6b5b0d5daff517aaf5cab35d47", "3.12.0--r40hdfd78af_1": "sha256:3bac465b709bfde97540b89cd72440359dd65308464a5dd41ef5041e8bda8168", "3.11.1--r40_0": "sha256:4f6b77ea067bec00ae6ec913f339710f1fd0c92e6b8387e1dcfba8c44337561b", "3.10.0--r36_0": "sha256:cfb5324b4a36eda916f8ae64753989d384f8daa536b4c919d7588794125ef6da"}, "docker": "quay.io/biocontainers/bioconductor-org.pf.plasmo.db", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-org.pf.plasmo.db.

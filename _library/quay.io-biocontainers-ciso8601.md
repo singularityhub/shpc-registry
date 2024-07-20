@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ciso8601"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ciso8601/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ciso8601/container.yaml"
-updated_at: "2024-07-19 02:51:19.189546"
+updated_at: "2024-07-20 02:47:56.997596"
 latest: "1.0.5--py35_0"
 container_url: "https://biocontainers.pro/tools/ciso8601"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "wish8.5"
 versions:
  - "1.0.5--py35_0"
+ - "1.0.5--py27_0"
 description: "shpc-registry automated BioContainers addition for ciso8601"
-config: {"url": "https://biocontainers.pro/tools/ciso8601", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ciso8601", "latest": {"1.0.5--py35_0": "sha256:3f9849f1a289d8eba60a8acb12feb6a157202c1834e326f4928112a7918e2435"}, "tags": {"1.0.5--py35_0": "sha256:3f9849f1a289d8eba60a8acb12feb6a157202c1834e326f4928112a7918e2435"}, "docker": "quay.io/biocontainers/ciso8601", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/ciso8601", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ciso8601", "latest": {"1.0.5--py35_0": "sha256:3146dd1a4bede0d2ae7316f652b8cd2514271980658c2fd2190e76cef9a253c7"}, "tags": {"1.0.5--py35_0": "sha256:3146dd1a4bede0d2ae7316f652b8cd2514271980658c2fd2190e76cef9a253c7", "1.0.5--py27_0": "sha256:08df0ede282fa443d2da758d6af905f3eccfe5074e9f6a573d08a326c48e1c2f"}, "docker": "quay.io/biocontainers/ciso8601", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ciso8601.

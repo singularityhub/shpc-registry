@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-genometricorr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-genometricorr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-genometricorr/container.yaml"
-updated_at: "2024-07-19 03:06:22.889916"
+updated_at: "2024-07-20 03:02:46.461097"
 latest: "1.1.17--0"
 container_url: "https://biocontainers.pro/tools/r-genometricorr"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.1.17--0"
 description: "shpc-registry automated BioContainers addition for r-genometricorr"
-config: {"url": "https://biocontainers.pro/tools/r-genometricorr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-genometricorr", "latest": {"1.1.17--0": "sha256:9a1c06aac2010c69be998465d1cdb9dcb9acbebc5dfd9804f6232bc942b3a010"}, "tags": {"1.1.17--0": "sha256:9a1c06aac2010c69be998465d1cdb9dcb9acbebc5dfd9804f6232bc942b3a010"}, "docker": "quay.io/biocontainers/r-genometricorr", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-genometricorr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-genometricorr", "latest": {"1.1.17--0": "sha256:e85147694ddd00f59ae27f1a68252cfdeb3ae3b61eb7ad39e3be01daa2a67be2"}, "tags": {"1.1.17--0": "sha256:e85147694ddd00f59ae27f1a68252cfdeb3ae3b61eb7ad39e3be01daa2a67be2"}, "docker": "quay.io/biocontainers/r-genometricorr", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-genometricorr.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clustalo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clustalo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clustalo/container.yaml"
-updated_at: "2024-07-19 03:19:53.432584"
+updated_at: "2024-07-20 03:16:02.104829"
 latest: "1.2.4--hdbdd923_8"
 container_url: "https://biocontainers.pro/tools/clustalo"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "1.2.4--hdbdd923_7"
  - "1.2.4--hdbdd923_8"
 description: "shpc-registry automated BioContainers addition for clustalo"
-config: {"url": "https://biocontainers.pro/tools/clustalo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clustalo", "latest": {"1.2.4--hdbdd923_8": "sha256:e473e2b54a658cb0541f1afd46d4e5e736cfbf2ebdbb4eeb280fe0b2d8459b02"}, "tags": {"1.2.4--h87f3376_5": "sha256:7e636b5b9836aa37d704a4d5e593843ca77221741c333b5a225357c93d75b6a0", "1.2.4--hdbdd923_7": "sha256:9c256e51803324aec3227e7bbe000eddef872a09882b3bd6de6c49124c04e6af", "1.2.4--hdbdd923_8": "sha256:e473e2b54a658cb0541f1afd46d4e5e736cfbf2ebdbb4eeb280fe0b2d8459b02"}, "docker": "quay.io/biocontainers/clustalo", "aliases": {"clustalo": "/usr/local/bin/clustalo"}}
+config: {"url": "https://biocontainers.pro/tools/clustalo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clustalo", "latest": {"1.2.4--hdbdd923_8": "sha256:3531c4b578fff853f8907274ca872e0cf5be4f42fda1496fafd27eaa65a83778"}, "tags": {"1.2.4--h87f3376_5": "sha256:7e636b5b9836aa37d704a4d5e593843ca77221741c333b5a225357c93d75b6a0", "1.2.4--hdbdd923_7": "sha256:9c256e51803324aec3227e7bbe000eddef872a09882b3bd6de6c49124c04e6af", "1.2.4--hdbdd923_8": "sha256:3531c4b578fff853f8907274ca872e0cf5be4f42fda1496fafd27eaa65a83778"}, "docker": "quay.io/biocontainers/clustalo", "aliases": {"clustalo": "/usr/local/bin/clustalo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clustalo.

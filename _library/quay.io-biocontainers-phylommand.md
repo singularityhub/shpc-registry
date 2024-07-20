@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylommand"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylommand/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylommand/container.yaml"
-updated_at: "2024-07-19 03:12:41.948179"
+updated_at: "2024-07-20 03:08:58.691661"
 latest: "1.1.0--hddb7d5f_5"
 container_url: "https://biocontainers.pro/tools/phylommand"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tadrep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tadrep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tadrep/container.yaml"
-updated_at: "2024-07-19 02:52:27.125780"
+updated_at: "2024-07-20 02:49:03.762222"
 latest: "0.9.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tadrep"
 aliases:

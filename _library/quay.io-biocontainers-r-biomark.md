@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-biomark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-biomark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-biomark/container.yaml"
-updated_at: "2024-07-19 02:45:16.742670"
+updated_at: "2024-07-20 02:41:56.609047"
 latest: "0.4.5--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-biomark"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.4.5--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-biomark"
-config: {"url": "https://biocontainers.pro/tools/r-biomark", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-biomark", "latest": {"0.4.5--r3.4.1_0": "sha256:c7219a1e7f590b28fa0b6e916fcf9f38f0fc6c56796ef712b19ab01ad1505a0a"}, "tags": {"0.4.5--r3.4.1_0": "sha256:c7219a1e7f590b28fa0b6e916fcf9f38f0fc6c56796ef712b19ab01ad1505a0a"}, "docker": "quay.io/biocontainers/r-biomark", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-biomark", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-biomark", "latest": {"0.4.5--r3.4.1_0": "sha256:a4c9733430dba7d0f6d34bcf9dffd39e43ef268bdeed3c6b6b54d84ba0744c2d"}, "tags": {"0.4.5--r3.4.1_0": "sha256:a4c9733430dba7d0f6d34bcf9dffd39e43ef268bdeed3c6b6b54d84ba0744c2d"}, "docker": "quay.io/biocontainers/r-biomark", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-biomark.

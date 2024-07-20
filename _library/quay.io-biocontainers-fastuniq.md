@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastuniq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastuniq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastuniq/container.yaml"
-updated_at: "2024-07-19 02:42:28.405656"
+updated_at: "2024-07-20 02:39:11.142404"
 latest: "1.1--h470a237_1"
 container_url: "https://biocontainers.pro/tools/fastuniq"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.1--h470a237_1"
 description: "shpc-registry automated BioContainers addition for fastuniq"
-config: {"url": "https://biocontainers.pro/tools/fastuniq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastuniq", "latest": {"1.1--h470a237_1": "sha256:ce3811629bfb966cd510db0d78f5e8c8db4b467418db3ed1c4732036c91c4510"}, "tags": {"1.1--h470a237_1": "sha256:ce3811629bfb966cd510db0d78f5e8c8db4b467418db3ed1c4732036c91c4510"}, "docker": "quay.io/biocontainers/fastuniq", "aliases": {"fastuniq": "/usr/local/bin/fastuniq"}}
+config: {"url": "https://biocontainers.pro/tools/fastuniq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastuniq", "latest": {"1.1--h470a237_1": "sha256:3d06297bcbeda64b43a071aed440c4693b09ee9355012dc90378be593458d574"}, "tags": {"1.1--h470a237_1": "sha256:3d06297bcbeda64b43a071aed440c4693b09ee9355012dc90378be593458d574"}, "docker": "quay.io/biocontainers/fastuniq", "aliases": {"fastuniq": "/usr/local/bin/fastuniq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastuniq.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/meta-sparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meta-sparse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/meta-sparse/container.yaml"
-updated_at: "2024-07-19 02:37:03.522166"
+updated_at: "2024-07-20 02:33:51.561701"
 latest: "0.1.12--py27h9801fc8_4"
 container_url: "https://biocontainers.pro/tools/meta-sparse"
 aliases:
@@ -24,7 +24,7 @@ versions:
  - "0.1.2--py27h24bf2e0_2"
  - "0.1.12--py27h9801fc8_4"
 description: "shpc-registry automated BioContainers addition for meta-sparse"
-config: {"url": "https://biocontainers.pro/tools/meta-sparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for meta-sparse", "latest": {"0.1.12--py27h9801fc8_4": "sha256:171be7d3853e9d22eabb034cb5c3cf95b98cc40ef2e16a9eaf4983d113e99e59"}, "tags": {"0.1.2--py27h24bf2e0_2": "sha256:08be3eaa3087092270629b92f393b3573f2afaa8063db42187421a4703fd3f2d", "0.1.12--py27h9801fc8_4": "sha256:171be7d3853e9d22eabb034cb5c3cf95b98cc40ef2e16a9eaf4983d113e99e59"}, "docker": "quay.io/biocontainers/meta-sparse", "aliases": {"capnpc-cython": "/usr/local/bin/capnpc-cython", "sparse": "/usr/local/bin/sparse", "mash": "/usr/local/bin/mash", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s"}}
+config: {"url": "https://biocontainers.pro/tools/meta-sparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for meta-sparse", "latest": {"0.1.12--py27h9801fc8_4": "sha256:171be7d3853e9d22eabb034cb5c3cf95b98cc40ef2e16a9eaf4983d113e99e59"}, "tags": {"0.1.2--py27h24bf2e0_2": "sha256:e5dc8a468205653b6e2ef31505d1d9ddf5c201fb60ccef9cb656386b119373dc", "0.1.12--py27h9801fc8_4": "sha256:171be7d3853e9d22eabb034cb5c3cf95b98cc40ef2e16a9eaf4983d113e99e59"}, "docker": "quay.io/biocontainers/meta-sparse", "aliases": {"capnpc-cython": "/usr/local/bin/capnpc-cython", "sparse": "/usr/local/bin/sparse", "mash": "/usr/local/bin/mash", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/meta-sparse.
