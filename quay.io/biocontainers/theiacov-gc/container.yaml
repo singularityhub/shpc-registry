@@ -4,7 +4,7 @@ description: singularity registry hpc automated addition for theiacov-gc
 latest:
   2.3.2--hdfd78af_0: sha256:5411172840db6b2b565bc156fabfbc9b3063b37d8cdaa6cedfa00031b0a6a8f9
 tags:
-  2.3.0--hdfd78af_0: sha256:225956af480f87f28ce47331107616b4d99b57382e00bd58453a26605339be5c
+  2.3.0--hdfd78af_0: sha256:df3e316e5703a55f2a14ea14a995bc1c68b2be6d863b4d48705120f33b27e5a9
   2.3.1--hdfd78af_0: sha256:12eaeed815ba61dcd3cbcf0f893d0bbcc158731437a92ac90fa117bb4ee563a3
   2.3.2--hdfd78af_0: sha256:5411172840db6b2b565bc156fabfbc9b3063b37d8cdaa6cedfa00031b0a6a8f9
 docker: quay.io/biocontainers/theiacov-gc

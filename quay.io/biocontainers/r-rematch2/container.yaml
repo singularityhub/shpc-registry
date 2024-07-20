@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-rematch2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rematch2
 latest:
-  2.0.1--r3.3.2_0: sha256:f10d407f7baf9d1793b71aa5e3300c89d9b1514afe587aec539c323da19a2dc5
+  2.0.1--r3.3.2_0: sha256:83c0bfbb77ad79b09e0a1a4fc4398b107795df173ec9b8b0e189c595173d4023
 tags:
-  2.0.1--r3.3.2_0: sha256:f10d407f7baf9d1793b71aa5e3300c89d9b1514afe587aec539c323da19a2dc5
-  2.0.1--r3.4.1_0: sha256:8278a14fec06631e81e4df28dfa1ec27337e813ccc3a9131c73fb6540b5b3569
+  2.0.1--r3.3.2_0: sha256:83c0bfbb77ad79b09e0a1a4fc4398b107795df173ec9b8b0e189c595173d4023
+  2.0.1--r3.4.1_0: sha256:ffc155dec97a55bfb467df05621f43bb739f3893eda326312345850cfd24e341
 docker: quay.io/biocontainers/r-rematch2
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

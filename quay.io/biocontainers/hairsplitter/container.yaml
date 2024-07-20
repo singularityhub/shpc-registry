@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/hairsplitter
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hairsplitter
 latest:
-  1.8.0--h8b7377a_0: sha256:b4eb1f2c3ae5cfa6dd149c3ad787499a04a91de5b52ba77752b3da45d9bdca76
+  1.9.5--h8b7377a_0: sha256:2e1148cf748d6d37f5cca58165beefbc6198d8838d9aba38e6f921a8c2ae3f2c
 tags:
   1.7.13--h8b7377a_0: sha256:87ddff83e68e0f9d16b3d5a26d7dd7699f0d96fadb03963928fb3e18227acfa1
   1.7.15--h8b7377a_0: sha256:3ac883964064e67a8a7adc2a70c1b6acdee25f7e58fb74abfb88ef9fdb58728b
   1.8.0--h8b7377a_0: sha256:b4eb1f2c3ae5cfa6dd149c3ad787499a04a91de5b52ba77752b3da45d9bdca76
+  1.9.5--h8b7377a_0: sha256:2e1148cf748d6d37f5cca58165beefbc6198d8838d9aba38e6f921a8c2ae3f2c
 docker: quay.io/biocontainers/hairsplitter
 aliases:
   HS_GenomeTailor: /usr/local/bin/HS_GenomeTailor

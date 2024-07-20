@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/borf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for borf
 latest:
-  1.2--py_0: sha256:a5f946e2897c7d3e813673b93cb0c15811b2e5d8472af24c4a1798b8930ed593
+  1.2--py_0: sha256:3fed861874de16cfabd7b07a1f321408fa28d2d92258cdda2673e348165bbe15
 tags:
-  1.2--py_0: sha256:a5f946e2897c7d3e813673b93cb0c15811b2e5d8472af24c4a1798b8930ed593
+  1.2--py_0: sha256:3fed861874de16cfabd7b07a1f321408fa28d2d92258cdda2673e348165bbe15
 docker: quay.io/biocontainers/borf
 aliases:
   borf: /usr/local/bin/borf

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-htsanalyzer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-htsanalyzer
 latest:
-  2.38.0--r36_0: sha256:16b231e6e683e4598bdf400f57c02e64739fbc8a4a76e1eb0958dbce2f9cf0f8
+  2.38.0--r36_0: sha256:ee36f96d871b04999c89fbbece3e4deb554213589777b73a899a0bc06a9a3be2
 tags:
-  2.38.0--r36_0: sha256:16b231e6e683e4598bdf400f57c02e64739fbc8a4a76e1eb0958dbce2f9cf0f8
+  2.38.0--r36_0: sha256:ee36f96d871b04999c89fbbece3e4deb554213589777b73a899a0bc06a9a3be2
 docker: quay.io/biocontainers/bioconductor-htsanalyzer
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bcftools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bcftools
 latest:
-  1.20--h8b25389_0: sha256:badc3a0c7af72a83e5761ab0e881aa84204694bdead003b47552cb283958f78d
+  1.20--h8b25389_1: sha256:9b2203c6bc5a3effb41555e66dbc1ad727827706db3fa8aa60134e9cf84f4763
 tags:
   1.12--h45bccc9_1: sha256:46e9e8527167c0394a99a5f0f964c8af771f8349140062a3a2d32b1e348a9bf0
   1.13--h3a49de5_0: sha256:4eba5e6d3083a3e5c858bedb98d2148b0b27b3182c2462e82905721065bf4962
@@ -14,6 +14,7 @@ tags:
   1.16--haef29d1_2: sha256:9977e777f94473f9dd47339b138b155abe21f1f019ef525214f13186fafbf65d
   1.15--h0ea216a_2: sha256:bdb29cbb48040c6832e066244721026fd72f87875198685b89041e90f568f78e
   1.20--h8b25389_0: sha256:badc3a0c7af72a83e5761ab0e881aa84204694bdead003b47552cb283958f78d
+  1.20--h8b25389_1: sha256:9b2203c6bc5a3effb41555e66dbc1ad727827706db3fa8aa60134e9cf84f4763
 docker: quay.io/biocontainers/bcftools
 aliases:
   bcftools: /usr/local/bin/bcftools

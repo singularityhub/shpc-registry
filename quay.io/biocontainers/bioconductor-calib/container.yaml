@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-calib
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-calib
 latest:
-  1.52.0--r36he1b5a44_0: sha256:9ac14809dcafff371d9f0ac4a7137b2ad8dd9864bf937d7d68ae1d72703c06ed
+  1.52.0--r36he1b5a44_0: sha256:82e040459dca09ff404cfe79274ca91e813443ef86bdcd2d2c960ae3e2827f15
 tags:
-  1.52.0--r36he1b5a44_0: sha256:9ac14809dcafff371d9f0ac4a7137b2ad8dd9864bf937d7d68ae1d72703c06ed
+  1.52.0--r36he1b5a44_0: sha256:82e040459dca09ff404cfe79274ca91e813443ef86bdcd2d2c960ae3e2827f15
 docker: quay.io/biocontainers/bioconductor-calib
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

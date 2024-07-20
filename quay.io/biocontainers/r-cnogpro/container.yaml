@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-cnogpro
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-cnogpro
 latest:
-  1.1--r3.3.2_0: sha256:72b2bde3706caa2ae00846185286a45dc299931452689cddff8075bc5c646be4
+  1.1--r3.3.2_0: sha256:d9c196a1386a353f6702a949d79677efa830c56c9177540c65846075aa734580
 tags:
-  1.1--r3.3.2_0: sha256:72b2bde3706caa2ae00846185286a45dc299931452689cddff8075bc5c646be4
-  1.1--r3.4.1_0: sha256:2f1ac8b89c999d4ae876656892f52274a6c9ee23aaaaa8311dd4c1f3eca29b47
+  1.1--r3.3.2_0: sha256:d9c196a1386a353f6702a949d79677efa830c56c9177540c65846075aa734580
+  1.1--r3.4.1_0: sha256:f5c99d8f0db040cd1ea03146fbb0925c103660f02b24c26d6cdcdfc87ee0416c
 docker: quay.io/biocontainers/r-cnogpro
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

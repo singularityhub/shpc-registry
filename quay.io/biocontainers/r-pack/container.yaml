@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-pack
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-pack
 latest:
-  0.1_1--r3.3.2_0: sha256:37639996d4be434d72792273d10c9f55ea6127ff4e1bec46ea5a5f470e5827dd
+  0.1_1--r3.3.2_0: sha256:9293f26914f02f55f2c4f0a6a66c5d72d7420093998ccf397c7763639103e3c7
 tags:
-  0.1_1--r3.3.2_0: sha256:37639996d4be434d72792273d10c9f55ea6127ff4e1bec46ea5a5f470e5827dd
+  0.1_1--r3.3.2_0: sha256:9293f26914f02f55f2c4f0a6a66c5d72d7420093998ccf397c7763639103e3c7
+  0.1_1--r3.3.1_0: sha256:9630249e0663e373b2fee3f24eb72187475b8fb17d40f82e7f16ca50a5d34830
 docker: quay.io/biocontainers/r-pack
 aliases:
   uconv: /usr/local/bin/uconv

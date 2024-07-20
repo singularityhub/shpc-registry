@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/google-cloud-sdk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for google-cloud-sdk
 latest:
-  166.0.0--py27_0: sha256:6369087cfb8bcf26a69a4ccab1d286f39ad990fe1353f3b86b5e7e0c118189aa
+  166.0.0--py27_0: sha256:933a8470870f63fa58fa075a03e98c33530988bf98a120dce1533594a1a2c6f9
 tags:
-  166.0.0--py27_0: sha256:6369087cfb8bcf26a69a4ccab1d286f39ad990fe1353f3b86b5e7e0c118189aa
+  166.0.0--py27_0: sha256:933a8470870f63fa58fa075a03e98c33530988bf98a120dce1533594a1a2c6f9
 docker: quay.io/biocontainers/google-cloud-sdk
 aliases:
   bq: /usr/local/bin/bq

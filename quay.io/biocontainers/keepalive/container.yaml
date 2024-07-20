@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/keepalive
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for keepalive
 latest:
-  0.5--py35_0: sha256:858aefd9de83d21dd9d3d9f8973be2adc3a9a8a7d2e779b098a855bb371bf60c
+  0.5--py35_0: sha256:4f1726e91bd3d9459134489e45818ea484cb75fdeafdaf2ee026e9e1ae927a8b
 tags:
-  0.5--py35_0: sha256:858aefd9de83d21dd9d3d9f8973be2adc3a9a8a7d2e779b098a855bb371bf60c
-  0.5--py36_0: sha256:5cd41cd3b5627f31adfe533a8fcab19dc439999395cfb2ac8db8c1276110c1c8
+  0.5--py35_0: sha256:4f1726e91bd3d9459134489e45818ea484cb75fdeafdaf2ee026e9e1ae927a8b
+  0.5--py36_0: sha256:6d6faf8fc0907c9d726f1a73fb86b5a78fd9fc1ae3be777c984d41ac011f18a5
+  0.5--py27_0: sha256:61c23fa0e6e557523a0cbc61fa76d266a2665c2e0bbeffa5c69f1e8f86f77cb6
 docker: quay.io/biocontainers/keepalive
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

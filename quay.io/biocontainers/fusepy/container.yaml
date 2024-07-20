@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fusepy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fusepy
 latest:
-  2.0.4--py36_0: sha256:43d2125e8dce252a6feb192fb41c281d895e063c772a0b695dfe3bfdf3612e8f
+  2.0.4--py36_0: sha256:d6d8dc844a912101893635eaa980caa309ea4c28511d53d86778fad70512aa22
 tags:
-  2.0.4--py36_0: sha256:43d2125e8dce252a6feb192fb41c281d895e063c772a0b695dfe3bfdf3612e8f
+  2.0.4--py36_0: sha256:d6d8dc844a912101893635eaa980caa309ea4c28511d53d86778fad70512aa22
+  2.0.4--py27_0: sha256:7b27f912b4fb8bc3530a6d9450def7c83c1a892508864ec6947e5ecba3baadda
 docker: quay.io/biocontainers/fusepy
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

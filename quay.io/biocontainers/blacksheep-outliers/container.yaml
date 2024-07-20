@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/blacksheep-outliers
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for blacksheep-outliers
 latest:
-  0.0.8--py_0: sha256:1d1ab4a311e06cd02aa9fbb856dc396bd9970fef233e54445e1339c791531618
+  0.0.8--py_0: sha256:5998cfd3b2c0479be7668da1dbef98960aeb0ae8c5bd45db2f02c4b008fd22ed
 tags:
-  0.0.8--py_0: sha256:1d1ab4a311e06cd02aa9fbb856dc396bd9970fef233e54445e1339c791531618
+  0.0.8--py_0: sha256:5998cfd3b2c0479be7668da1dbef98960aeb0ae8c5bd45db2f02c4b008fd22ed
 docker: quay.io/biocontainers/blacksheep-outliers
 aliases:
   deva: /usr/local/bin/deva

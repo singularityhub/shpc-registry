@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/ggplot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ggplot
 latest:
-  0.6.8--py36_0: sha256:85578bc81a0da9fa430dcb831090b2e2ef06fd9f323b510665f93aab3527b99b
+  0.6.8--py36_0: sha256:62f0fec438c21e10d7556799e7a54a60d7d3d4fa05455beeb69db11d88528342
 tags:
-  0.6.8--py36_0: sha256:85578bc81a0da9fa430dcb831090b2e2ef06fd9f323b510665f93aab3527b99b
+  0.6.8--py36_0: sha256:62f0fec438c21e10d7556799e7a54a60d7d3d4fa05455beeb69db11d88528342
 docker: quay.io/biocontainers/ggplot
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

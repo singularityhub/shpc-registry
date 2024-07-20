@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/deepsvr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for deepsvr
 latest:
-  0.1.0--py_0: sha256:a0839a2eb25209de8edb5d2579d44629c68d3bf7f129c54454d647618600045b
+  0.1.0--py_0: sha256:2d1394d03b1aad83163774a5952f8383b5c9bd72c78312b84fbe2b61e8840060
 tags:
-  0.1.0--py_0: sha256:a0839a2eb25209de8edb5d2579d44629c68d3bf7f129c54454d647618600045b
+  0.1.0--py_0: sha256:2d1394d03b1aad83163774a5952f8383b5c9bd72c78312b84fbe2b61e8840060
 docker: quay.io/biocontainers/deepsvr
 aliases:
   bam-readcount: /usr/local/bin/bam-readcount

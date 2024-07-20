@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-fastqcr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-fastqcr
 latest:
-  0.1.2--r351h6115d3f_0: sha256:f3a8cb98276f8f4d2e434f1b3be7fe503d1fdb6a4461d0fff85eabc70ddd1550
+  0.1.2--r351h6115d3f_0: sha256:9c1a7e9a05f6038c257af4c1afdacc0820310ee5e1a0c23c983686f025978713
 tags:
-  0.1.2--r351h6115d3f_0: sha256:f3a8cb98276f8f4d2e434f1b3be7fe503d1fdb6a4461d0fff85eabc70ddd1550
+  0.1.2--r351h6115d3f_0: sha256:9c1a7e9a05f6038c257af4c1afdacc0820310ee5e1a0c23c983686f025978713
 docker: quay.io/biocontainers/r-fastqcr
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

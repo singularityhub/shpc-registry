@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/trust4
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for trust4
 latest:
-  1.1.1--h43eeafb_0: sha256:ae39bb9fcd83e67582fd83225854703c4c1316082d4d08c57cffb3265d653d97
+  1.1.2--h43eeafb_1: sha256:3eaf3c0666d154255a85690b761de19b18ac611b292c53ced942c8646a4def87
 tags:
   1.0.7--h5b5514e_0: sha256:c2ebbe6ff6cc24630eb0aa6ea17295e9138e5d0612993b41fddd60398082836e
   1.0.8--h5b5514e_0: sha256:86c7b2b07f9fdd7f87f1ee9fccabacdfd3fdc8222bc5276582910bae9a389697
@@ -13,6 +13,7 @@ tags:
   1.0.14--h43eeafb_0: sha256:d045e80cad6e7b22ad480b09f6c994478de4f26a01629844b4a4c6b796da152d
   1.1.0--h43eeafb_0: sha256:b3fa0455fcbe83b5a204f1a9f34112c582111babf770854344a89af8578f0540
   1.1.1--h43eeafb_0: sha256:ae39bb9fcd83e67582fd83225854703c4c1316082d4d08c57cffb3265d653d97
+  1.1.2--h43eeafb_1: sha256:3eaf3c0666d154255a85690b761de19b18ac611b292c53ced942c8646a4def87
 docker: quay.io/biocontainers/trust4
 aliases:
   BuildDatabaseFa.pl: /usr/local/bin/BuildDatabaseFa.pl

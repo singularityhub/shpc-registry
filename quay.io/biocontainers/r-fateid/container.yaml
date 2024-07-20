@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-fateid
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-fateid
 latest:
-  0.1.8--r36h6115d3f_0: sha256:bf9bc6a0d9dc03e1fbcb27689019d2ecb72bfc46e9879aa9dc7a381a143e0d99
+  0.1.8--r36h6115d3f_0: sha256:f3edac4a544e6a42e36441679510956ec104896baaa870869e65dff2ba5d8616
 tags:
-  0.1.8--r36h6115d3f_0: sha256:bf9bc6a0d9dc03e1fbcb27689019d2ecb72bfc46e9879aa9dc7a381a143e0d99
+  0.1.8--r36h6115d3f_0: sha256:f3edac4a544e6a42e36441679510956ec104896baaa870869e65dff2ba5d8616
 docker: quay.io/biocontainers/r-fateid

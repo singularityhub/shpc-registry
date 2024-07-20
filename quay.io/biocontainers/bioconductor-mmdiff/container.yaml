@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/bioconductor-mmdiff
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mmdiff
 latest:
-  1.10.0--r36_1: sha256:2e2368cebab4253fb267bede0556df3330ee683ba68c743c3ab4c25b810ec7bc
+  1.10.0--r36_1: sha256:710729ecd8cebbeab687995f06972d38c0b5ed1e6aa6a071d992f88ca27b4e7e
 tags:
-  1.10.0--r36_1: sha256:2e2368cebab4253fb267bede0556df3330ee683ba68c743c3ab4c25b810ec7bc
+  1.10.0--r36_1: sha256:710729ecd8cebbeab687995f06972d38c0b5ed1e6aa6a071d992f88ca27b4e7e
 docker: quay.io/biocontainers/bioconductor-mmdiff

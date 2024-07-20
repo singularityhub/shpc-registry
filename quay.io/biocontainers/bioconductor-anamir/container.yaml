@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-anamir
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-anamir
 latest:
-  1.13.0--r36_0: sha256:8c208f2bcf7d5734ef78a84e3b7b8373dfc861cfc3fabff11dffbff7d2368f57
+  1.13.0--r36_0: sha256:b8cdd4a84025626485c039dd0461480ac720835f30e824ed6187f98d111e015f
 tags:
-  1.13.0--r36_0: sha256:8c208f2bcf7d5734ef78a84e3b7b8373dfc861cfc3fabff11dffbff7d2368f57
+  1.13.0--r36_0: sha256:b8cdd4a84025626485c039dd0461480ac720835f30e824ed6187f98d111e015f
 docker: quay.io/biocontainers/bioconductor-anamir
 aliases:
   gdalserver: /usr/local/bin/gdalserver

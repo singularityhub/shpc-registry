@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/tir-learner
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tir-learner
 latest:
-  3.0.1--hdfd78af_0: sha256:ecaaf1d2bd5733b3cd8e9f99a765aafa65471899ce333231cbf754c1af78caf2
+  3.0.2--hdfd78af_1: sha256:f49558b3e2a822bcf42e82cd8eb91f1b1c0844373f112a90fc1ab93bc45a542d
 tags:
   3.0.1--hdfd78af_0: sha256:ecaaf1d2bd5733b3cd8e9f99a765aafa65471899ce333231cbf754c1af78caf2
+  3.0.2--hdfd78af_1: sha256:f49558b3e2a822bcf42e82cd8eb91f1b1c0844373f112a90fc1ab93bc45a542d
 docker: quay.io/biocontainers/tir-learner
 aliases:
   TIR-Learner: /usr/local/bin/TIR-Learner

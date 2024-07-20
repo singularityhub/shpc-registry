@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/awscli
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for awscli
 latest:
-  1.8.3--py35_0: sha256:b14dc0ce0dabf0005dab03d15c717f2a33e6f36516836595d17fb439e2ee9c73
+  1.8.3--py35_0: sha256:7c21f89a91b86c420cd34e80176d54ca7aef917ea699ab2e627015031fa3593c
 tags:
-  1.8.3--py35_0: sha256:b14dc0ce0dabf0005dab03d15c717f2a33e6f36516836595d17fb439e2ee9c73
+  1.8.3--py35_0: sha256:7c21f89a91b86c420cd34e80176d54ca7aef917ea699ab2e627015031fa3593c
 docker: quay.io/biocontainers/awscli
 aliases:
   aws: /usr/local/bin/aws

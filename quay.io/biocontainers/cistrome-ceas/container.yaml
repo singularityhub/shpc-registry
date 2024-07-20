@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/cistrome-ceas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cistrome-ceas
 latest:
-  1.0.2b1--py_2: sha256:896e86d8944f61f0bc90a356bf0efda21ea08625a9de1bec7fa0d42e39e4a17e
+  1.0.2b1--py_2: sha256:7bd4c1d4d1c6ffbf615e44be89630b4d00fce52fda2c4b4095cc71b773c46327
 tags:
-  1.0.2b1--py_2: sha256:896e86d8944f61f0bc90a356bf0efda21ea08625a9de1bec7fa0d42e39e4a17e
+  1.0.2b1--py_2: sha256:7bd4c1d4d1c6ffbf615e44be89630b4d00fce52fda2c4b4095cc71b773c46327
 docker: quay.io/biocontainers/cistrome-ceas
 aliases:
   ChIPAssoc: /usr/local/bin/ChIPAssoc
