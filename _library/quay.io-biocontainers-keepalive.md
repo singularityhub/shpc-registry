@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/keepalive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/keepalive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/keepalive/container.yaml"
-updated_at: "2024-07-20 02:42:59.949352"
+updated_at: "2024-07-21 02:46:52.659641"
 latest: "0.5--py35_0"
 container_url: "https://biocontainers.pro/tools/keepalive"
 aliases:
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "0.5--py35_0"
  - "0.5--py36_0"
+ - "0.5--py27_0"
 description: "shpc-registry automated BioContainers addition for keepalive"
-config: {"url": "https://biocontainers.pro/tools/keepalive", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for keepalive", "latest": {"0.5--py35_0": "sha256:858aefd9de83d21dd9d3d9f8973be2adc3a9a8a7d2e779b098a855bb371bf60c"}, "tags": {"0.5--py35_0": "sha256:858aefd9de83d21dd9d3d9f8973be2adc3a9a8a7d2e779b098a855bb371bf60c", "0.5--py36_0": "sha256:5cd41cd3b5627f31adfe533a8fcab19dc439999395cfb2ac8db8c1276110c1c8"}, "docker": "quay.io/biocontainers/keepalive", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/keepalive", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for keepalive", "latest": {"0.5--py35_0": "sha256:4f1726e91bd3d9459134489e45818ea484cb75fdeafdaf2ee026e9e1ae927a8b"}, "tags": {"0.5--py35_0": "sha256:4f1726e91bd3d9459134489e45818ea484cb75fdeafdaf2ee026e9e1ae927a8b", "0.5--py36_0": "sha256:6d6faf8fc0907c9d726f1a73fb86b5a78fd9fc1ae3be777c984d41ac011f18a5", "0.5--py27_0": "sha256:61c23fa0e6e557523a0cbc61fa76d266a2665c2e0bbeffa5c69f1e8f86f77cb6"}, "docker": "quay.io/biocontainers/keepalive", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/keepalive.

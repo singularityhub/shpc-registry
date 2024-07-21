@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/khipu-metabolomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/khipu-metabolomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/khipu-metabolomics/container.yaml"
-updated_at: "2024-07-20 02:42:35.667203"
-latest: "0.7.5--pyhdfd78af_0"
+updated_at: "2024-07-21 02:46:28.270037"
+latest: "2.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/khipu-metabolomics"
 aliases:
  - "2to3-3.12"
@@ -17,8 +17,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.7.5--pyhdfd78af_0"
+ - "2.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for khipu-metabolomics"
-config: {"url": "https://biocontainers.pro/tools/khipu-metabolomics", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for khipu-metabolomics", "latest": {"0.7.5--pyhdfd78af_0": "sha256:bd7b7d241795c9eb53d898cc40a50743fc9793b25f8a26650ac9a2b8a00b033e"}, "tags": {"0.7.5--pyhdfd78af_0": "sha256:bd7b7d241795c9eb53d898cc40a50743fc9793b25f8a26650ac9a2b8a00b033e"}, "docker": "quay.io/biocontainers/khipu-metabolomics", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "khipu": "/usr/local/bin/khipu", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/khipu-metabolomics", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for khipu-metabolomics", "latest": {"2.0.2--pyhdfd78af_0": "sha256:38ae3c734341e5e36cd0494e9ce16718b26a9ed6db10c63b0c7b183d09cb0de3"}, "tags": {"0.7.5--pyhdfd78af_0": "sha256:bd7b7d241795c9eb53d898cc40a50743fc9793b25f8a26650ac9a2b8a00b033e", "2.0.2--pyhdfd78af_0": "sha256:38ae3c734341e5e36cd0494e9ce16718b26a9ed6db10c63b0c7b183d09cb0de3"}, "docker": "quay.io/biocontainers/khipu-metabolomics", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "khipu": "/usr/local/bin/khipu", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/khipu-metabolomics.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/khipu-metabolomics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/khipu-metabolomics:0.7.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/khipu-metabolomics:2.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/khipu-metabolomics/0.7.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/khipu-metabolomics/0.7.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/khipu-metabolomics/2.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/khipu-metabolomics/2.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

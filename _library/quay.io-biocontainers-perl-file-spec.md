@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-spec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-spec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-spec/container.yaml"
-updated_at: "2024-07-20 02:50:35.501288"
+updated_at: "2024-07-21 02:54:28.529765"
 latest: "3.48_01--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-file-spec"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "3.48_01--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-file-spec"
-config: {"url": "https://biocontainers.pro/tools/perl-file-spec", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-spec", "latest": {"3.48_01--pl526_1": "sha256:562419d4268a73ba8499e763394c26e6e6cfb115b1eda24d81099c56995eda92"}, "tags": {"3.48_01--pl526_1": "sha256:562419d4268a73ba8499e763394c26e6e6cfb115b1eda24d81099c56995eda92"}, "docker": "quay.io/biocontainers/perl-file-spec", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-file-spec", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-spec", "latest": {"3.48_01--pl526_1": "sha256:87a8e85f378ae7a2f5c2c382f6f6719d94bbda86a58341e884075d399d403ff3"}, "tags": {"3.48_01--pl526_1": "sha256:87a8e85f378ae7a2f5c2c382f6f6719d94bbda86a58341e884075d399d403ff3"}, "docker": "quay.io/biocontainers/perl-file-spec", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-file-spec.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sharedobject"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sharedobject/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sharedobject/container.yaml"
-updated_at: "2024-07-20 02:59:02.403798"
+updated_at: "2024-07-21 03:03:00.436605"
 latest: "1.16.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sharedobject"
 

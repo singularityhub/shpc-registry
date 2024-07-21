@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-wavetiling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wavetiling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wavetiling/container.yaml"
-updated_at: "2024-07-20 02:54:25.685953"
+updated_at: "2024-07-21 02:58:20.317102"
 latest: "1.28.0--r36h516909a_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-wavetiling"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.28.0--r36h516909a_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-wavetiling"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-wavetiling", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wavetiling", "latest": {"1.28.0--r36h516909a_0": "sha256:e82f8145f6d5d3ba627058b6c2104063778ebccb26915d455136422c96b35332"}, "tags": {"1.28.0--r36h516909a_0": "sha256:e82f8145f6d5d3ba627058b6c2104063778ebccb26915d455136422c96b35332"}, "docker": "quay.io/biocontainers/bioconductor-wavetiling", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-wavetiling", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wavetiling", "latest": {"1.28.0--r36h516909a_0": "sha256:e7f580dfffdac39fcc312dc914d1f27281430940854e3b77c17ab5a0642cf766"}, "tags": {"1.28.0--r36h516909a_0": "sha256:e7f580dfffdac39fcc312dc914d1f27281430940854e3b77c17ab5a0642cf766"}, "docker": "quay.io/biocontainers/bioconductor-wavetiling", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-wavetiling.

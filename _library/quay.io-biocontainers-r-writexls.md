@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-writexls"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-writexls/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-writexls/container.yaml"
-updated_at: "2024-07-20 03:03:27.075249"
+updated_at: "2024-07-21 03:07:28.503320"
 latest: "4.0.0--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-writexls"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "4.0.0--r3.2.2_0"
  - "4.0.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-writexls"
-config: {"url": "https://biocontainers.pro/tools/r-writexls", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-writexls", "latest": {"4.0.0--r3.2.2_0": "sha256:c62012adaaf79c8ffb7320d3e755e2b472b4c2fa1c12851db82d98a37b4ca24f"}, "tags": {"4.0.0--r3.2.2_0": "sha256:c62012adaaf79c8ffb7320d3e755e2b472b4c2fa1c12851db82d98a37b4ca24f", "4.0.0--r3.3.2_0": "sha256:4c24ed8119cda893bb16e648c07760ae3a17f4d63a044a4eb86482d2ba18551a"}, "docker": "quay.io/biocontainers/r-writexls", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-writexls", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-writexls", "latest": {"4.0.0--r3.2.2_0": "sha256:737e9b8d486199e2c2c893eb0a0742b71a70a903bb6bb1bc1e454de2b4a00761"}, "tags": {"4.0.0--r3.2.2_0": "sha256:737e9b8d486199e2c2c893eb0a0742b71a70a903bb6bb1bc1e454de2b4a00761", "4.0.0--r3.3.2_0": "sha256:517f1ed359bb3a714bcb00821be132c7d119f0c3107463370a5c4f7da71253c8"}, "docker": "quay.io/biocontainers/r-writexls", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-writexls.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-vgam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-vgam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-vgam/container.yaml"
-updated_at: "2024-07-20 03:15:50.093220"
+updated_at: "2024-07-21 03:20:01.736293"
 latest: "1.0_2--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-vgam"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.0_2--r3.3.1_0"
  - "1.0_2--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-vgam"
-config: {"url": "https://biocontainers.pro/tools/r-vgam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-vgam", "latest": {"1.0_2--r3.3.1_0": "sha256:4879d702562f4192b1d1c89205ba7b12319c3bb593dd618298b935efaa239a30"}, "tags": {"1.0_2--r3.3.1_0": "sha256:4879d702562f4192b1d1c89205ba7b12319c3bb593dd618298b935efaa239a30", "1.0_2--r3.3.2_0": "sha256:14425019d37aa3f3c760ef41084d6e8baf48439481b681aae61f6d4a76db8fbb"}, "docker": "quay.io/biocontainers/r-vgam", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-vgam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-vgam", "latest": {"1.0_2--r3.3.1_0": "sha256:9c450edff99960985814fbf031f22cf63f212b10d349e3dd69d3a08b301d9832"}, "tags": {"1.0_2--r3.3.1_0": "sha256:9c450edff99960985814fbf031f22cf63f212b10d349e3dd69d3a08b301d9832", "1.0_2--r3.3.2_0": "sha256:6812bb5fd0322ca05e31338ad0ae1b79a221e2ae4d4a74d6c3f08da2eec903a3"}, "docker": "quay.io/biocontainers/r-vgam", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-vgam.

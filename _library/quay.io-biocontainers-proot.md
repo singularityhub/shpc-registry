@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proot/container.yaml"
-updated_at: "2024-07-20 02:54:30.192560"
+updated_at: "2024-07-21 02:58:24.858524"
 latest: "5.1.0--0"
 container_url: "https://biocontainers.pro/tools/proot"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "5.1.0--0"
 description: "shpc-registry automated BioContainers addition for proot"
-config: {"url": "https://biocontainers.pro/tools/proot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proot", "latest": {"5.1.0--0": "sha256:a8f0c7c6857fef7f54dc1abdc5558230f99ddbb008464b26c018ef2d6ae8c497"}, "tags": {"5.1.0--0": "sha256:a8f0c7c6857fef7f54dc1abdc5558230f99ddbb008464b26c018ef2d6ae8c497"}, "docker": "quay.io/biocontainers/proot", "aliases": {"proot": "/usr/local/bin/proot"}}
+config: {"url": "https://biocontainers.pro/tools/proot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proot", "latest": {"5.1.0--0": "sha256:be6b72ab8b91fb6c9ddd37b38ac81f0f531726a5282af54a9e9f28df93016bc6"}, "tags": {"5.1.0--0": "sha256:be6b72ab8b91fb6c9ddd37b38ac81f0f531726a5282af54a9e9f28df93016bc6"}, "docker": "quay.io/biocontainers/proot", "aliases": {"proot": "/usr/local/bin/proot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proot.

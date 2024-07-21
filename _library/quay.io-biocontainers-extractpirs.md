@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/extractpirs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extractpirs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/extractpirs/container.yaml"
-updated_at: "2024-07-20 02:43:15.933866"
+updated_at: "2024-07-21 02:47:08.747426"
 latest: "1.0--he941832_2"
 container_url: "https://biocontainers.pro/tools/extractpirs"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.0--he941832_2"
 description: "shpc-registry automated BioContainers addition for extractpirs"
-config: {"url": "https://biocontainers.pro/tools/extractpirs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extractpirs", "latest": {"1.0--he941832_2": "sha256:64519ecd1f36869457b777295a64e315a4a91890194f3924269f16f41e7bbae9"}, "tags": {"1.0--he941832_2": "sha256:64519ecd1f36869457b777295a64e315a4a91890194f3924269f16f41e7bbae9"}, "docker": "quay.io/biocontainers/extractpirs", "aliases": {"extractPIRs": "/usr/local/bin/extractPIRs"}}
+config: {"url": "https://biocontainers.pro/tools/extractpirs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extractpirs", "latest": {"1.0--he941832_2": "sha256:452c858fcfbf32530ec4dfa98350f4db9cac4ec1b799cfd98f168383260eb22e"}, "tags": {"1.0--he941832_2": "sha256:452c858fcfbf32530ec4dfa98350f4db9cac4ec1b799cfd98f168383260eb22e"}, "docker": "quay.io/biocontainers/extractpirs", "aliases": {"extractPIRs": "/usr/local/bin/extractPIRs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/extractpirs.

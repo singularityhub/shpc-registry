@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-class-accessor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-accessor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-accessor/container.yaml"
-updated_at: "2024-07-20 02:46:05.857076"
+updated_at: "2024-07-21 02:49:56.977123"
 latest: "0.51--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-class-accessor"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.51--pl526_0"
 description: "shpc-registry automated BioContainers addition for perl-class-accessor"
-config: {"url": "https://biocontainers.pro/tools/perl-class-accessor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-class-accessor", "latest": {"0.51--pl526_0": "sha256:f24b10d3acd7879b3d9c4fd061b451cd070a4c46e308d07c048989535a15bac7"}, "tags": {"0.51--pl526_0": "sha256:f24b10d3acd7879b3d9c4fd061b451cd070a4c46e308d07c048989535a15bac7"}, "docker": "quay.io/biocontainers/perl-class-accessor", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-class-accessor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-class-accessor", "latest": {"0.51--pl526_0": "sha256:11af62410e11787bf8beda36b7da2724388d3d22ac498d39ffb8a0ceda129eaa"}, "tags": {"0.51--pl526_0": "sha256:11af62410e11787bf8beda36b7da2724388d3d22ac498d39ffb8a0ceda129eaa"}, "docker": "quay.io/biocontainers/perl-class-accessor", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-class-accessor.

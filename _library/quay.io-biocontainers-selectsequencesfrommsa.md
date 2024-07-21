@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/selectsequencesfrommsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/selectsequencesfrommsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/selectsequencesfrommsa/container.yaml"
-updated_at: "2024-07-20 02:37:50.379444"
+updated_at: "2024-07-21 02:41:40.348052"
 latest: "1.0.5--pl526h9ebf644_0"
 container_url: "https://biocontainers.pro/tools/selectsequencesfrommsa"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.0.5--pl526h9ebf644_0"
 description: "shpc-registry automated BioContainers addition for selectsequencesfrommsa"
-config: {"url": "https://biocontainers.pro/tools/selectsequencesfrommsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for selectsequencesfrommsa", "latest": {"1.0.5--pl526h9ebf644_0": "sha256:1bcab6c04adbfc83aa1134b66b458a2acc039001eace61068ca843437fd92d13"}, "tags": {"1.0.5--pl526h9ebf644_0": "sha256:1bcab6c04adbfc83aa1134b66b458a2acc039001eace61068ca843437fd92d13"}, "docker": "quay.io/biocontainers/selectsequencesfrommsa", "aliases": {"SelectSequencesFromMSA": "/usr/local/bin/SelectSequencesFromMSA", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/selectsequencesfrommsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for selectsequencesfrommsa", "latest": {"1.0.5--pl526h9ebf644_0": "sha256:8d09f81a25cd310d8ef377626381beb701cd0c996a2d6d11b5e7b8c51a7da86a"}, "tags": {"1.0.5--pl526h9ebf644_0": "sha256:8d09f81a25cd310d8ef377626381beb701cd0c996a2d6d11b5e7b8c51a7da86a"}, "docker": "quay.io/biocontainers/selectsequencesfrommsa", "aliases": {"SelectSequencesFromMSA": "/usr/local/bin/SelectSequencesFromMSA", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/selectsequencesfrommsa.

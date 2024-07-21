@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgcloud-lib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgcloud-lib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgcloud-lib/container.yaml"
-updated_at: "2024-07-20 03:08:42.243786"
+updated_at: "2024-07-21 03:12:47.969929"
 latest: "1.6.0--py_4"
 container_url: "https://biocontainers.pro/tools/cgcloud-lib"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.6.0--py_4"
 description: "shpc-registry automated BioContainers addition for cgcloud-lib"
-config: {"url": "https://biocontainers.pro/tools/cgcloud-lib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgcloud-lib", "latest": {"1.6.0--py_4": "sha256:e1d7dadf1dc7c60836c39c5b1eeb60ddea1a2b4ac05850a7aa16f789889294c6"}, "tags": {"1.6.0--py_4": "sha256:e1d7dadf1dc7c60836c39c5b1eeb60ddea1a2b4ac05850a7aa16f789889294c6"}, "docker": "quay.io/biocontainers/cgcloud-lib", "aliases": {"asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
+config: {"url": "https://biocontainers.pro/tools/cgcloud-lib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgcloud-lib", "latest": {"1.6.0--py_4": "sha256:02a7c16c1887487bfafd4a4cc23f5b0582f9ca77a61a8be21d5e265721603a30"}, "tags": {"1.6.0--py_4": "sha256:02a7c16c1887487bfafd4a4cc23f5b0582f9ca77a61a8be21d5e265721603a30"}, "docker": "quay.io/biocontainers/cgcloud-lib", "aliases": {"asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgcloud-lib.

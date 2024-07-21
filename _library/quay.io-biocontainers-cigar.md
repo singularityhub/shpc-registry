@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cigar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cigar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cigar/container.yaml"
-updated_at: "2024-07-20 02:36:53.589579"
+updated_at: "2024-07-21 02:40:43.225560"
 latest: "0.1.3--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/cigar"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cistrome-ceas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cistrome-ceas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cistrome-ceas/container.yaml"
-updated_at: "2024-07-20 03:15:31.099022"
+updated_at: "2024-07-21 03:19:42.491391"
 latest: "1.0.2b1--py_2"
 container_url: "https://biocontainers.pro/tools/cistrome-ceas"
 aliases:
@@ -28,7 +28,7 @@ aliases:
 versions:
  - "1.0.2b1--py_2"
 description: "shpc-registry automated BioContainers addition for cistrome-ceas"
-config: {"url": "https://biocontainers.pro/tools/cistrome-ceas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cistrome-ceas", "latest": {"1.0.2b1--py_2": "sha256:896e86d8944f61f0bc90a356bf0efda21ea08625a9de1bec7fa0d42e39e4a17e"}, "tags": {"1.0.2b1--py_2": "sha256:896e86d8944f61f0bc90a356bf0efda21ea08625a9de1bec7fa0d42e39e4a17e"}, "docker": "quay.io/biocontainers/cistrome-ceas", "aliases": {"ChIPAssoc": "/usr/local/bin/ChIPAssoc", "build_genomeBG": "/usr/local/bin/build_genomeBG", "ceas": "/usr/local/bin/ceas", "ceasBW": "/usr/local/bin/ceasBW", "gca": "/usr/local/bin/gca", "sitepro": "/usr/local/bin/sitepro", "siteproBW": "/usr/local/bin/siteproBW", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
+config: {"url": "https://biocontainers.pro/tools/cistrome-ceas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cistrome-ceas", "latest": {"1.0.2b1--py_2": "sha256:7bd4c1d4d1c6ffbf615e44be89630b4d00fce52fda2c4b4095cc71b773c46327"}, "tags": {"1.0.2b1--py_2": "sha256:7bd4c1d4d1c6ffbf615e44be89630b4d00fce52fda2c4b4095cc71b773c46327"}, "docker": "quay.io/biocontainers/cistrome-ceas", "aliases": {"ChIPAssoc": "/usr/local/bin/ChIPAssoc", "build_genomeBG": "/usr/local/bin/build_genomeBG", "ceas": "/usr/local/bin/ceas", "ceasBW": "/usr/local/bin/ceasBW", "gca": "/usr/local/bin/gca", "sitepro": "/usr/local/bin/sitepro", "siteproBW": "/usr/local/bin/siteproBW", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cistrome-ceas.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stream"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stream/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stream/container.yaml"
-updated_at: "2024-07-20 03:11:09.354539"
+updated_at: "2024-07-21 03:15:17.075728"
 latest: "1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/stream"
 aliases:
@@ -27,8 +27,9 @@ versions:
  - "1.1--pyhdfd78af_0"
  - "1.0--py_0"
  - "0.4.1--py37r36hc99cbb1_0"
+ - "0.4.1--py36r36hc99cbb1_0"
 description: "shpc-registry automated BioContainers addition for stream"
-config: {"url": "https://biocontainers.pro/tools/stream", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stream", "latest": {"1.1--pyhdfd78af_0": "sha256:ac0e13a1b0236d701388da73437d8a81d4a28664651d5d9557af172e770f686f"}, "tags": {"0.4.0--py37r36hc99cbb1_0": "sha256:59ebb094505a21d0fe38825be15c968aeda821dc94bc924080cf799e3a420f0a", "1.1--pyhdfd78af_0": "sha256:ac0e13a1b0236d701388da73437d8a81d4a28664651d5d9557af172e770f686f", "1.0--py_0": "sha256:25e99229fd19df62b5e56341f97ec09f2d7abb240fe5b7871e9118152b470d75", "0.4.1--py37r36hc99cbb1_0": "sha256:615b4a7ecd202d9ad9ca882a7b788bc53f0eba597f334a69d3a7af94817310a7"}, "docker": "quay.io/biocontainers/stream", "aliases": {"gunicorn": "/usr/local/bin/gunicorn", "slugify": "/usr/local/bin/slugify", "stream": "/usr/local/bin/stream", "stream_run_test": "/usr/local/bin/stream_run_test", "zip": "/usr/local/bin/zip", "unidecode": "/usr/local/bin/unidecode", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "unzip": "/usr/local/bin/unzip", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec"}}
+config: {"url": "https://biocontainers.pro/tools/stream", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stream", "latest": {"1.1--pyhdfd78af_0": "sha256:ac0e13a1b0236d701388da73437d8a81d4a28664651d5d9557af172e770f686f"}, "tags": {"0.4.0--py37r36hc99cbb1_0": "sha256:6c14f468d3d136e446287dedc022559f6643ac40061316a5ee654d8da4d1628e", "1.1--pyhdfd78af_0": "sha256:ac0e13a1b0236d701388da73437d8a81d4a28664651d5d9557af172e770f686f", "1.0--py_0": "sha256:25e99229fd19df62b5e56341f97ec09f2d7abb240fe5b7871e9118152b470d75", "0.4.1--py37r36hc99cbb1_0": "sha256:2cec0a37a49773d6eaf0543937029de9d37137af61800633c49b7e97d57c0930", "0.4.1--py36r36hc99cbb1_0": "sha256:862763172da296aeeb56c050762926b866188fb298408dc6c3eb5b8f4c018a00"}, "docker": "quay.io/biocontainers/stream", "aliases": {"gunicorn": "/usr/local/bin/gunicorn", "slugify": "/usr/local/bin/slugify", "stream": "/usr/local/bin/stream", "stream_run_test": "/usr/local/bin/stream_run_test", "zip": "/usr/local/bin/zip", "unidecode": "/usr/local/bin/unidecode", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "unzip": "/usr/local/bin/unzip", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/stream.

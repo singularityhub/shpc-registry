@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ggplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ggplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ggplot/container.yaml"
-updated_at: "2024-07-20 02:51:27.916757"
+updated_at: "2024-07-21 02:55:21.330283"
 latest: "0.6.8--py36_0"
 container_url: "https://biocontainers.pro/tools/ggplot"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.6.8--py36_0"
 description: "shpc-registry automated BioContainers addition for ggplot"
-config: {"url": "https://biocontainers.pro/tools/ggplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ggplot", "latest": {"0.6.8--py36_0": "sha256:85578bc81a0da9fa430dcb831090b2e2ef06fd9f323b510665f93aab3527b99b"}, "tags": {"0.6.8--py36_0": "sha256:85578bc81a0da9fa430dcb831090b2e2ef06fd9f323b510665f93aab3527b99b"}, "docker": "quay.io/biocontainers/ggplot", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0", "gst-discoverer-1.0": "/usr/local/bin/gst-discoverer-1.0", "gst-play-1.0": "/usr/local/bin/gst-play-1.0"}}
+config: {"url": "https://biocontainers.pro/tools/ggplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ggplot", "latest": {"0.6.8--py36_0": "sha256:62f0fec438c21e10d7556799e7a54a60d7d3d4fa05455beeb69db11d88528342"}, "tags": {"0.6.8--py36_0": "sha256:62f0fec438c21e10d7556799e7a54a60d7d3d4fa05455beeb69db11d88528342"}, "docker": "quay.io/biocontainers/ggplot", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0", "gst-discoverer-1.0": "/usr/local/bin/gst-discoverer-1.0", "gst-play-1.0": "/usr/local/bin/gst-play-1.0"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ggplot.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mglex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mglex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mglex/container.yaml"
-updated_at: "2024-07-20 03:01:06.093212"
+updated_at: "2024-07-21 03:05:05.786914"
 latest: "0.2.1--py_0"
 container_url: "https://biocontainers.pro/tools/mglex"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.2.1--py_0"
 description: "shpc-registry automated BioContainers addition for mglex"
-config: {"url": "https://biocontainers.pro/tools/mglex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mglex", "latest": {"0.2.1--py_0": "sha256:66ed866fb5e5b4d7e1ba42278c302f2c48b55577153641e64dd477cfb474f7dd"}, "tags": {"0.2.1--py_0": "sha256:66ed866fb5e5b4d7e1ba42278c302f2c48b55577153641e64dd477cfb474f7dd"}, "docker": "quay.io/biocontainers/mglex", "aliases": {"mglex-cli": "/usr/local/bin/mglex-cli", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/mglex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mglex", "latest": {"0.2.1--py_0": "sha256:acf2432220330745d5e514cf2e34d7248d51911fac5efe678f94f1cdf15a625c"}, "tags": {"0.2.1--py_0": "sha256:acf2432220330745d5e514cf2e34d7248d51911fac5efe678f94f1cdf15a625c"}, "docker": "quay.io/biocontainers/mglex", "aliases": {"mglex-cli": "/usr/local/bin/mglex-cli", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mglex.

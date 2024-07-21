@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blacksheep-outliers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blacksheep-outliers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blacksheep-outliers/container.yaml"
-updated_at: "2024-07-20 02:59:29.522579"
+updated_at: "2024-07-21 03:03:27.902249"
 latest: "0.0.8--py_0"
 container_url: "https://biocontainers.pro/tools/blacksheep-outliers"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.0.8--py_0"
 description: "shpc-registry automated BioContainers addition for blacksheep-outliers"
-config: {"url": "https://biocontainers.pro/tools/blacksheep-outliers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blacksheep-outliers", "latest": {"0.0.8--py_0": "sha256:1d1ab4a311e06cd02aa9fbb856dc396bd9970fef233e54445e1339c791531618"}, "tags": {"0.0.8--py_0": "sha256:1d1ab4a311e06cd02aa9fbb856dc396bd9970fef233e54445e1339c791531618"}, "docker": "quay.io/biocontainers/blacksheep-outliers", "aliases": {"deva": "/usr/local/bin/deva", "qhelpconverter": "/usr/local/bin/qhelpconverter", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen", "qscxmlc": "/usr/local/bin/qscxmlc", "qtattributionsscanner": "/usr/local/bin/qtattributionsscanner", "repc": "/usr/local/bin/repc", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5"}}
+config: {"url": "https://biocontainers.pro/tools/blacksheep-outliers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blacksheep-outliers", "latest": {"0.0.8--py_0": "sha256:5998cfd3b2c0479be7668da1dbef98960aeb0ae8c5bd45db2f02c4b008fd22ed"}, "tags": {"0.0.8--py_0": "sha256:5998cfd3b2c0479be7668da1dbef98960aeb0ae8c5bd45db2f02c4b008fd22ed"}, "docker": "quay.io/biocontainers/blacksheep-outliers", "aliases": {"deva": "/usr/local/bin/deva", "qhelpconverter": "/usr/local/bin/qhelpconverter", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen", "qscxmlc": "/usr/local/bin/qscxmlc", "qtattributionsscanner": "/usr/local/bin/qtattributionsscanner", "repc": "/usr/local/bin/repc", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blacksheep-outliers.

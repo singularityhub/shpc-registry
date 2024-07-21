@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-htsanalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-htsanalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htsanalyzer/container.yaml"
-updated_at: "2024-07-20 02:58:43.380207"
+updated_at: "2024-07-21 03:02:41.193933"
 latest: "2.38.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-htsanalyzer"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "2.38.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-htsanalyzer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-htsanalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-htsanalyzer", "latest": {"2.38.0--r36_0": "sha256:16b231e6e683e4598bdf400f57c02e64739fbc8a4a76e1eb0958dbce2f9cf0f8"}, "tags": {"2.38.0--r36_0": "sha256:16b231e6e683e4598bdf400f57c02e64739fbc8a4a76e1eb0958dbce2f9cf0f8"}, "docker": "quay.io/biocontainers/bioconductor-htsanalyzer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-htsanalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-htsanalyzer", "latest": {"2.38.0--r36_0": "sha256:ee36f96d871b04999c89fbbece3e4deb554213589777b73a899a0bc06a9a3be2"}, "tags": {"2.38.0--r36_0": "sha256:ee36f96d871b04999c89fbbece3e4deb554213589777b73a899a0bc06a9a3be2"}, "docker": "quay.io/biocontainers/bioconductor-htsanalyzer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-htsanalyzer.

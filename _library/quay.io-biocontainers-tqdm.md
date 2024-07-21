@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tqdm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tqdm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tqdm/container.yaml"
-updated_at: "2024-07-20 03:14:31.729051"
+updated_at: "2024-07-21 03:18:42.363052"
 latest: "4.7.2--py36_0"
 container_url: "https://biocontainers.pro/tools/tqdm"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "4.7.2--py36_0"
+ - "4.7.2--py35_0"
 description: "shpc-registry automated BioContainers addition for tqdm"
-config: {"url": "https://biocontainers.pro/tools/tqdm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tqdm", "latest": {"4.7.2--py36_0": "sha256:6ca79b39216dbb379eb97f612f5a6fc00e50ea9b29569348e16d2d6ced287604"}, "tags": {"4.7.2--py36_0": "sha256:6ca79b39216dbb379eb97f612f5a6fc00e50ea9b29569348e16d2d6ced287604"}, "docker": "quay.io/biocontainers/tqdm", "aliases": {"tqdm": "/usr/local/bin/tqdm", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/tqdm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tqdm", "latest": {"4.7.2--py36_0": "sha256:420b29d5b1e16a3d6a590ffc41c2b79b84189d6a117f35acfcfd050685149081"}, "tags": {"4.7.2--py36_0": "sha256:420b29d5b1e16a3d6a590ffc41c2b79b84189d6a117f35acfcfd050685149081", "4.7.2--py35_0": "sha256:f53274020cc00f47a2ffc117d19490433a08f8e416b759f955e8dd5b8b6d1d62"}, "docker": "quay.io/biocontainers/tqdm", "aliases": {"tqdm": "/usr/local/bin/tqdm", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tqdm.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fusepy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fusepy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fusepy/container.yaml"
-updated_at: "2024-07-20 02:40:03.790415"
+updated_at: "2024-07-21 02:43:54.858397"
 latest: "2.0.4--py36_0"
 container_url: "https://biocontainers.pro/tools/fusepy"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "2.0.4--py36_0"
+ - "2.0.4--py27_0"
 description: "shpc-registry automated BioContainers addition for fusepy"
-config: {"url": "https://biocontainers.pro/tools/fusepy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fusepy", "latest": {"2.0.4--py36_0": "sha256:43d2125e8dce252a6feb192fb41c281d895e063c772a0b695dfe3bfdf3612e8f"}, "tags": {"2.0.4--py36_0": "sha256:43d2125e8dce252a6feb192fb41c281d895e063c772a0b695dfe3bfdf3612e8f"}, "docker": "quay.io/biocontainers/fusepy", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/fusepy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fusepy", "latest": {"2.0.4--py36_0": "sha256:d6d8dc844a912101893635eaa980caa309ea4c28511d53d86778fad70512aa22"}, "tags": {"2.0.4--py36_0": "sha256:d6d8dc844a912101893635eaa980caa309ea4c28511d53d86778fad70512aa22", "2.0.4--py27_0": "sha256:7b27f912b4fb8bc3530a6d9450def7c83c1a892508864ec6947e5ecba3baadda"}, "docker": "quay.io/biocontainers/fusepy", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fusepy.

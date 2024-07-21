@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/borf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/borf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/borf/container.yaml"
-updated_at: "2024-07-20 02:46:08.692656"
+updated_at: "2024-07-21 02:49:59.811509"
 latest: "1.2--py_0"
 container_url: "https://biocontainers.pro/tools/borf"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.2--py_0"
 description: "shpc-registry automated BioContainers addition for borf"
-config: {"url": "https://biocontainers.pro/tools/borf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for borf", "latest": {"1.2--py_0": "sha256:a5f946e2897c7d3e813673b93cb0c15811b2e5d8472af24c4a1798b8930ed593"}, "tags": {"1.2--py_0": "sha256:a5f946e2897c7d3e813673b93cb0c15811b2e5d8472af24c4a1798b8930ed593"}, "docker": "quay.io/biocontainers/borf", "aliases": {"borf": "/usr/local/bin/borf", "doesitcache": "/usr/local/bin/doesitcache", "compile-et.pl": "/usr/local/bin/compile-et.pl", "iptest3": "/usr/local/bin/iptest3", "prerr.properties": "/usr/local/bin/prerr.properties", "iptest": "/usr/local/bin/iptest", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize"}}
+config: {"url": "https://biocontainers.pro/tools/borf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for borf", "latest": {"1.2--py_0": "sha256:3fed861874de16cfabd7b07a1f321408fa28d2d92258cdda2673e348165bbe15"}, "tags": {"1.2--py_0": "sha256:3fed861874de16cfabd7b07a1f321408fa28d2d92258cdda2673e348165bbe15"}, "docker": "quay.io/biocontainers/borf", "aliases": {"borf": "/usr/local/bin/borf", "doesitcache": "/usr/local/bin/doesitcache", "compile-et.pl": "/usr/local/bin/compile-et.pl", "iptest3": "/usr/local/bin/iptest3", "prerr.properties": "/usr/local/bin/prerr.properties", "iptest": "/usr/local/bin/iptest", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/borf.

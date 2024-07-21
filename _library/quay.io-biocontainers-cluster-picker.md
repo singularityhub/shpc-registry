@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cluster-picker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cluster-picker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cluster-picker/container.yaml"
-updated_at: "2024-07-20 02:54:32.146014"
+updated_at: "2024-07-21 02:58:26.838768"
 latest: "1.2.3--1"
 container_url: "https://biocontainers.pro/tools/cluster-picker"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.2.3--1"
 description: "shpc-registry automated BioContainers addition for cluster-picker"
-config: {"url": "https://biocontainers.pro/tools/cluster-picker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cluster-picker", "latest": {"1.2.3--1": "sha256:65c852437e13f89c5277e2903e101c6999f05e8e267dbfd03bf57bc803b57b28"}, "tags": {"1.2.3--1": "sha256:65c852437e13f89c5277e2903e101c6999f05e8e267dbfd03bf57bc803b57b28"}, "docker": "quay.io/biocontainers/cluster-picker", "aliases": {"cluster-picker": "/usr/local/bin/cluster-picker", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/cluster-picker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cluster-picker", "latest": {"1.2.3--1": "sha256:dff1cb5206aa4d4c787f0d51adb303061d58a3d1e0bf22357064d0f2d5a0e5e8"}, "tags": {"1.2.3--1": "sha256:dff1cb5206aa4d4c787f0d51adb303061d58a3d1e0bf22357064d0f2d5a0e5e8"}, "docker": "quay.io/biocontainers/cluster-picker", "aliases": {"cluster-picker": "/usr/local/bin/cluster-picker", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cluster-picker.

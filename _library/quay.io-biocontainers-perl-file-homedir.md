@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-homedir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-homedir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-homedir/container.yaml"
-updated_at: "2024-07-20 02:39:14.217464"
+updated_at: "2024-07-21 02:43:04.760264"
 latest: "1.004--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-file-homedir"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.004--pl526_2"
 description: "shpc-registry automated BioContainers addition for perl-file-homedir"
-config: {"url": "https://biocontainers.pro/tools/perl-file-homedir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-homedir", "latest": {"1.004--pl526_2": "sha256:d6cceb0f9251348bf15dba09f6f89dfb7b3a72684a376146cb79732858937172"}, "tags": {"1.004--pl526_2": "sha256:d6cceb0f9251348bf15dba09f6f89dfb7b3a72684a376146cb79732858937172"}, "docker": "quay.io/biocontainers/perl-file-homedir", "aliases": {"cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-file-homedir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-homedir", "latest": {"1.004--pl526_2": "sha256:30dbf4caeddfbaac49832788933a5df98db3f42505410ff987f82ad78bef5486"}, "tags": {"1.004--pl526_2": "sha256:30dbf4caeddfbaac49832788933a5df98db3f42505410ff987f82ad78bef5486"}, "docker": "quay.io/biocontainers/perl-file-homedir", "aliases": {"cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-file-homedir.

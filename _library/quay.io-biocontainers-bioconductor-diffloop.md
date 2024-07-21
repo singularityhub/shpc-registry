@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-diffloop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diffloop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diffloop/container.yaml"
-updated_at: "2024-07-20 03:12:51.666586"
+updated_at: "2024-07-21 03:17:00.716083"
 latest: "1.22.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-diffloop"
 aliases:
@@ -17,7 +17,7 @@ versions:
  - "1.16.0--r40_0"
  - "1.14.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-diffloop"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-diffloop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diffloop", "latest": {"1.22.0--r41hdfd78af_0": "sha256:801c8d4f61c75a3dcb50d72700149ce706659a0111e6431978e9c2d868a47338"}, "tags": {"1.8.0--r351_0": "sha256:a190e8be8ea936f4f5a567695526edfafd7b3bbea0d2c07b281a56469a173966", "1.22.0--r41hdfd78af_0": "sha256:801c8d4f61c75a3dcb50d72700149ce706659a0111e6431978e9c2d868a47338", "1.20.0--r41hdfd78af_0": "sha256:194a62b87b92ffbc69aaf46147c6ca78b317b39ae335ae41dc25223426374850", "1.18.0--r40hdfd78af_1": "sha256:1bf7dd711ce6129d77963933f344f594dbfac560f36d24b668fa0a07abb56a90", "1.16.0--r40_0": "sha256:568efd23e36a173bc3bf6521abe97d8a853b01dc8bcc3f2621282618da2dbddc", "1.14.0--r36_0": "sha256:a9ac8e48190a88e6cac7a7ceaa238a8a2b82809641159926fae55924f760de6d"}, "docker": "quay.io/biocontainers/bioconductor-diffloop", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-diffloop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diffloop", "latest": {"1.22.0--r41hdfd78af_0": "sha256:801c8d4f61c75a3dcb50d72700149ce706659a0111e6431978e9c2d868a47338"}, "tags": {"1.8.0--r351_0": "sha256:49aa957669fad4c189e6b538c6fd6ac0a219f135a679ea10466f276de71b7e84", "1.22.0--r41hdfd78af_0": "sha256:801c8d4f61c75a3dcb50d72700149ce706659a0111e6431978e9c2d868a47338", "1.20.0--r41hdfd78af_0": "sha256:194a62b87b92ffbc69aaf46147c6ca78b317b39ae335ae41dc25223426374850", "1.18.0--r40hdfd78af_1": "sha256:1bf7dd711ce6129d77963933f344f594dbfac560f36d24b668fa0a07abb56a90", "1.16.0--r40_0": "sha256:568efd23e36a173bc3bf6521abe97d8a853b01dc8bcc3f2621282618da2dbddc", "1.14.0--r36_0": "sha256:35a372080d75a226352984c0ec97faae425e69588906d7fde24b69a306dcff6a"}, "docker": "quay.io/biocontainers/bioconductor-diffloop", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-diffloop.

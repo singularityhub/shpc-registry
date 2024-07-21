@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rcppparallel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rcppparallel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rcppparallel/container.yaml"
-updated_at: "2024-07-20 03:14:18.024889"
+updated_at: "2024-07-21 03:18:28.326885"
 latest: "4.3.20--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-rcppparallel"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "4.3.20--r3.3.1_1"
  - "4.3.20--r3.3.2_1"
 description: "shpc-registry automated BioContainers addition for r-rcppparallel"
-config: {"url": "https://biocontainers.pro/tools/r-rcppparallel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rcppparallel", "latest": {"4.3.20--r3.3.1_1": "sha256:0b06b12d5cd926a5299f24a835f6b7ba14d615161fd2a0efdf17b448964de9ef"}, "tags": {"4.3.20--r3.3.1_1": "sha256:0b06b12d5cd926a5299f24a835f6b7ba14d615161fd2a0efdf17b448964de9ef", "4.3.20--r3.3.2_1": "sha256:b6f9977aed0e83c700f356fd44d32cb2768bdb07af606d4674b406a5dde8f982"}, "docker": "quay.io/biocontainers/r-rcppparallel", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rcppparallel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rcppparallel", "latest": {"4.3.20--r3.3.1_1": "sha256:d377d9922cde921126614220d52d7c0885c4a178e4385f880f422b251deae6fe"}, "tags": {"4.3.20--r3.3.1_1": "sha256:d377d9922cde921126614220d52d7c0885c4a178e4385f880f422b251deae6fe", "4.3.20--r3.3.2_1": "sha256:bcc7f244f734b86d33286c55e59c27515112e2b98dace81b53e595a8ae04f766"}, "docker": "quay.io/biocontainers/r-rcppparallel", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rcppparallel.

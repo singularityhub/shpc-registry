@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/besst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/besst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/besst/container.yaml"
-updated_at: "2024-07-20 02:51:14.987225"
+updated_at: "2024-07-21 02:55:08.255930"
 latest: "2.2.8--py_3"
 container_url: "https://biocontainers.pro/tools/besst"
 aliases:

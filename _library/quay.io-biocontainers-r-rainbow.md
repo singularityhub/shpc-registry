@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/r-rainbow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rainbow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rainbow/container.yaml"
-updated_at: "2024-07-20 02:41:09.258196"
+updated_at: "2024-07-21 02:45:00.835624"
 latest: "3.3--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-rainbow"
 
 versions:
  - "3.3--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-rainbow"
-config: {"url": "https://biocontainers.pro/tools/r-rainbow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rainbow", "latest": {"3.3--r3.3.2_0": "sha256:4c5923f77fd8be5b26a1d8b051f72d8227fbbaf36b40ef75d420e70a1c690b2f"}, "tags": {"3.3--r3.3.2_0": "sha256:4c5923f77fd8be5b26a1d8b051f72d8227fbbaf36b40ef75d420e70a1c690b2f"}, "docker": "quay.io/biocontainers/r-rainbow"}
+config: {"url": "https://biocontainers.pro/tools/r-rainbow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rainbow", "latest": {"3.3--r3.3.2_0": "sha256:70d4ab687d10217a9a94d596585eedfd82997bbcc8047ff829e90da86bc9b88b"}, "tags": {"3.3--r3.3.2_0": "sha256:70d4ab687d10217a9a94d596585eedfd82997bbcc8047ff829e90da86bc9b88b"}, "docker": "quay.io/biocontainers/r-rainbow"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rainbow.

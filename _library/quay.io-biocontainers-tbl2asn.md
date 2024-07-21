@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/tbl2asn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tbl2asn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tbl2asn/container.yaml"
-updated_at: "2024-07-20 03:15:57.617218"
+updated_at: "2024-07-21 03:20:09.376661"
 latest: "25.8--0"
 container_url: "https://biocontainers.pro/tools/tbl2asn"
 
 versions:
  - "25.8--0"
 description: "shpc-registry automated BioContainers addition for tbl2asn"
-config: {"url": "https://biocontainers.pro/tools/tbl2asn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tbl2asn", "latest": {"25.8--0": "sha256:ba475b277cc11c6e355d36490ddaa32a6a06fb35bd813c815e790ad54111e5b6"}, "tags": {"25.8--0": "sha256:ba475b277cc11c6e355d36490ddaa32a6a06fb35bd813c815e790ad54111e5b6"}, "docker": "quay.io/biocontainers/tbl2asn"}
+config: {"url": "https://biocontainers.pro/tools/tbl2asn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tbl2asn", "latest": {"25.8--0": "sha256:b224d687ce93b44c6a176e5395ab339921f8fd8c7cd9d2f2b91192fc96fca139"}, "tags": {"25.8--0": "sha256:b224d687ce93b44c6a176e5395ab339921f8fd8c7cd9d2f2b91192fc96fca139"}, "docker": "quay.io/biocontainers/tbl2asn"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tbl2asn.

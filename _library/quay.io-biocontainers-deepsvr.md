@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepsvr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepsvr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepsvr/container.yaml"
-updated_at: "2024-07-20 02:55:24.005642"
+updated_at: "2024-07-21 02:59:19.359938"
 latest: "0.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/deepsvr"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "0.1.0--py_0"
 description: "shpc-registry automated BioContainers addition for deepsvr"
-config: {"url": "https://biocontainers.pro/tools/deepsvr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepsvr", "latest": {"0.1.0--py_0": "sha256:a0839a2eb25209de8edb5d2579d44629c68d3bf7f129c54454d647618600045b"}, "tags": {"0.1.0--py_0": "sha256:a0839a2eb25209de8edb5d2579d44629c68d3bf7f129c54454d647618600045b"}, "docker": "quay.io/biocontainers/deepsvr", "aliases": {"bam-readcount": "/usr/local/bin/bam-readcount", "convert_zero_one_based": "/usr/local/bin/convert_zero_one_based", "deepsvr": "/usr/local/bin/deepsvr", "pbr": "/usr/local/bin/pbr", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "mako-render": "/usr/local/bin/mako-render", "perl5.22.0": "/usr/local/bin/perl5.22.0", "tensorboard": "/usr/local/bin/tensorboard", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "qhelpconverter": "/usr/local/bin/qhelpconverter", "protoc": "/usr/local/bin/protoc"}}
+config: {"url": "https://biocontainers.pro/tools/deepsvr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepsvr", "latest": {"0.1.0--py_0": "sha256:2d1394d03b1aad83163774a5952f8383b5c9bd72c78312b84fbe2b61e8840060"}, "tags": {"0.1.0--py_0": "sha256:2d1394d03b1aad83163774a5952f8383b5c9bd72c78312b84fbe2b61e8840060"}, "docker": "quay.io/biocontainers/deepsvr", "aliases": {"bam-readcount": "/usr/local/bin/bam-readcount", "convert_zero_one_based": "/usr/local/bin/convert_zero_one_based", "deepsvr": "/usr/local/bin/deepsvr", "pbr": "/usr/local/bin/pbr", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "mako-render": "/usr/local/bin/mako-render", "perl5.22.0": "/usr/local/bin/perl5.22.0", "tensorboard": "/usr/local/bin/tensorboard", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "qhelpconverter": "/usr/local/bin/qhelpconverter", "protoc": "/usr/local/bin/protoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepsvr.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ccpromise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ccpromise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ccpromise/container.yaml"
-updated_at: "2024-07-20 02:40:48.369209"
+updated_at: "2024-07-21 02:44:39.865857"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ccpromise"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "1.14.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ccpromise"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ccpromise", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ccpromise", "latest": {"1.26.0--r43hdfd78af_0": "sha256:589cdb1d177b2fdb885a7d92c32881a461843442cdae1d5c9a4b7b45f62eae08"}, "tags": {"1.8.0--r351_0": "sha256:2862d9a8eb224bac5940041bb8c992d43e4de9efdbb0603e3332bd6e183bc6e7", "1.24.0--r42hdfd78af_0": "sha256:b941f43c6de49a03320d1f17547404ee505d26639c50c5bd8835939b431334b1", "1.20.0--r41hdfd78af_0": "sha256:69811ee5a1711e66756a296edd3901a0b4d2ae7d26bc374813b1e0da69fe3719", "1.18.0--r41hdfd78af_0": "sha256:1be2dbb19f181af528e5d9609794a0ff749f4fc4d24eb53d19f349aa784a39ef", "1.16.0--r40hdfd78af_1": "sha256:ed7c18739aa6147676cc1477b69f0b92c947939fc52ff1402ef7ac54b323a7d0", "1.14.0--r40_0": "sha256:852876f638d5c5e40468aeacdce3e4ea684eeff259f4d600a81d763610632d3f", "1.26.0--r43hdfd78af_0": "sha256:589cdb1d177b2fdb885a7d92c32881a461843442cdae1d5c9a4b7b45f62eae08"}, "docker": "quay.io/biocontainers/bioconductor-ccpromise", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ccpromise", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ccpromise", "latest": {"1.26.0--r43hdfd78af_0": "sha256:589cdb1d177b2fdb885a7d92c32881a461843442cdae1d5c9a4b7b45f62eae08"}, "tags": {"1.8.0--r351_0": "sha256:be49e3fdf780e625ddc004d11d81d69e54587277d8e08ad19b102556c62143ef", "1.24.0--r42hdfd78af_0": "sha256:b941f43c6de49a03320d1f17547404ee505d26639c50c5bd8835939b431334b1", "1.20.0--r41hdfd78af_0": "sha256:69811ee5a1711e66756a296edd3901a0b4d2ae7d26bc374813b1e0da69fe3719", "1.18.0--r41hdfd78af_0": "sha256:1be2dbb19f181af528e5d9609794a0ff749f4fc4d24eb53d19f349aa784a39ef", "1.16.0--r40hdfd78af_1": "sha256:ed7c18739aa6147676cc1477b69f0b92c947939fc52ff1402ef7ac54b323a7d0", "1.14.0--r40_0": "sha256:852876f638d5c5e40468aeacdce3e4ea684eeff259f4d600a81d763610632d3f", "1.26.0--r43hdfd78af_0": "sha256:589cdb1d177b2fdb885a7d92c32881a461843442cdae1d5c9a4b7b45f62eae08"}, "docker": "quay.io/biocontainers/bioconductor-ccpromise", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ccpromise.

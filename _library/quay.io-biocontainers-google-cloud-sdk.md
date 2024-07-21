@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/google-cloud-sdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/google-cloud-sdk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/google-cloud-sdk/container.yaml"
-updated_at: "2024-07-20 02:34:56.352902"
+updated_at: "2024-07-21 02:38:45.187541"
 latest: "166.0.0--py27_0"
 container_url: "https://biocontainers.pro/tools/google-cloud-sdk"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "166.0.0--py27_0"
 description: "shpc-registry automated BioContainers addition for google-cloud-sdk"
-config: {"url": "https://biocontainers.pro/tools/google-cloud-sdk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for google-cloud-sdk", "latest": {"166.0.0--py27_0": "sha256:6369087cfb8bcf26a69a4ccab1d286f39ad990fe1353f3b86b5e7e0c118189aa"}, "tags": {"166.0.0--py27_0": "sha256:6369087cfb8bcf26a69a4ccab1d286f39ad990fe1353f3b86b5e7e0c118189aa"}, "docker": "quay.io/biocontainers/google-cloud-sdk", "aliases": {"bq": "/usr/local/bin/bq", "gcloud": "/usr/local/bin/gcloud", "gsutil": "/usr/local/bin/gsutil", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/google-cloud-sdk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for google-cloud-sdk", "latest": {"166.0.0--py27_0": "sha256:933a8470870f63fa58fa075a03e98c33530988bf98a120dce1533594a1a2c6f9"}, "tags": {"166.0.0--py27_0": "sha256:933a8470870f63fa58fa075a03e98c33530988bf98a120dce1533594a1a2c6f9"}, "docker": "quay.io/biocontainers/google-cloud-sdk", "aliases": {"bq": "/usr/local/bin/bq", "gcloud": "/usr/local/bin/gcloud", "gsutil": "/usr/local/bin/gsutil", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/google-cloud-sdk.

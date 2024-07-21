@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/awscli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/awscli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/awscli/container.yaml"
-updated_at: "2024-07-20 03:15:47.028490"
+updated_at: "2024-07-21 03:19:58.627213"
 latest: "1.8.3--py35_0"
 container_url: "https://biocontainers.pro/tools/awscli"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "1.8.3--py35_0"
 description: "shpc-registry automated BioContainers addition for awscli"
-config: {"url": "https://biocontainers.pro/tools/awscli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for awscli", "latest": {"1.8.3--py35_0": "sha256:b14dc0ce0dabf0005dab03d15c717f2a33e6f36516836595d17fb439e2ee9c73"}, "tags": {"1.8.3--py35_0": "sha256:b14dc0ce0dabf0005dab03d15c717f2a33e6f36516836595d17fb439e2ee9c73"}, "docker": "quay.io/biocontainers/awscli", "aliases": {"aws": "/usr/local/bin/aws", "aws.cmd": "/usr/local/bin/aws.cmd", "aws_completer": "/usr/local/bin/aws_completer", "aws_zsh_completer.sh": "/usr/local/bin/aws_zsh_completer.sh", "pyrsa-decrypt-bigfile": "/usr/local/bin/pyrsa-decrypt-bigfile", "pyrsa-encrypt-bigfile": "/usr/local/bin/pyrsa-encrypt-bigfile", "jp.py": "/usr/local/bin/jp.py", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify"}}
+config: {"url": "https://biocontainers.pro/tools/awscli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for awscli", "latest": {"1.8.3--py35_0": "sha256:7c21f89a91b86c420cd34e80176d54ca7aef917ea699ab2e627015031fa3593c"}, "tags": {"1.8.3--py35_0": "sha256:7c21f89a91b86c420cd34e80176d54ca7aef917ea699ab2e627015031fa3593c"}, "docker": "quay.io/biocontainers/awscli", "aliases": {"aws": "/usr/local/bin/aws", "aws.cmd": "/usr/local/bin/aws.cmd", "aws_completer": "/usr/local/bin/aws_completer", "aws_zsh_completer.sh": "/usr/local/bin/aws_zsh_completer.sh", "pyrsa-decrypt-bigfile": "/usr/local/bin/pyrsa-decrypt-bigfile", "pyrsa-encrypt-bigfile": "/usr/local/bin/pyrsa-encrypt-bigfile", "jp.py": "/usr/local/bin/jp.py", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/awscli.

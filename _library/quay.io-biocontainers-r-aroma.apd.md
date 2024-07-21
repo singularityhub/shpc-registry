@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-aroma.apd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-aroma.apd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-aroma.apd/container.yaml"
-updated_at: "2024-07-20 03:01:43.958164"
+updated_at: "2024-07-21 03:05:44.073948"
 latest: "0.6.0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-aroma.apd"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.6.0--r3.3.2_0"
+ - "0.6.0--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-aroma.apd"
-config: {"url": "https://biocontainers.pro/tools/r-aroma.apd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-aroma.apd", "latest": {"0.6.0--r3.3.2_0": "sha256:afcc03c355766228155e8a2c7de117021be73b4b44c767880571dcea23b698e1"}, "tags": {"0.6.0--r3.3.2_0": "sha256:afcc03c355766228155e8a2c7de117021be73b4b44c767880571dcea23b698e1"}, "docker": "quay.io/biocontainers/r-aroma.apd", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-aroma.apd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-aroma.apd", "latest": {"0.6.0--r3.3.2_0": "sha256:f63a403564f8ee344ad183ae49b61955272fb98062a765e6c35dffbee7096da8"}, "tags": {"0.6.0--r3.3.2_0": "sha256:f63a403564f8ee344ad183ae49b61955272fb98062a765e6c35dffbee7096da8", "0.6.0--r3.3.1_0": "sha256:93c6af27609df02b3cd9f579a213f2e024a8927f210d279cd19195fb66e140d6"}, "docker": "quay.io/biocontainers/r-aroma.apd", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-aroma.apd.

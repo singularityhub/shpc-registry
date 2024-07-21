@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bibliospec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bibliospec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bibliospec/container.yaml"
-updated_at: "2024-07-20 03:09:24.118888"
+updated_at: "2024-07-21 03:13:30.468415"
 latest: "1.0--h2d50403_1"
 container_url: "https://biocontainers.pro/tools/bibliospec"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.0--h2d50403_1"
 description: "shpc-registry automated BioContainers addition for bibliospec"
-config: {"url": "https://biocontainers.pro/tools/bibliospec", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bibliospec", "latest": {"1.0--h2d50403_1": "sha256:cda5a11f0102d6b0a2a14733aa933ab66831bb877eccd7826ef889a37dd34078"}, "tags": {"1.0--h2d50403_1": "sha256:cda5a11f0102d6b0a2a14733aa933ab66831bb877eccd7826ef889a37dd34078"}, "docker": "quay.io/biocontainers/bibliospec", "aliases": {"BlibBuild": "/usr/local/bin/BlibBuild", "BlibFilter": "/usr/local/bin/BlibFilter", "BlibSearch": "/usr/local/bin/BlibSearch", "BlibToMs2": "/usr/local/bin/BlibToMs2"}}
+config: {"url": "https://biocontainers.pro/tools/bibliospec", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bibliospec", "latest": {"1.0--h2d50403_1": "sha256:5155abd320daa29bb3e50957c93f5f6ebcc3094173d14dd0a80eda2e896f2759"}, "tags": {"1.0--h2d50403_1": "sha256:5155abd320daa29bb3e50957c93f5f6ebcc3094173d14dd0a80eda2e896f2759"}, "docker": "quay.io/biocontainers/bibliospec", "aliases": {"BlibBuild": "/usr/local/bin/BlibBuild", "BlibFilter": "/usr/local/bin/BlibFilter", "BlibSearch": "/usr/local/bin/BlibSearch", "BlibToMs2": "/usr/local/bin/BlibToMs2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bibliospec.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-anamir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anamir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anamir/container.yaml"
-updated_at: "2024-07-20 02:54:05.431810"
+updated_at: "2024-07-21 02:57:59.889270"
 latest: "1.13.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-anamir"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.13.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-anamir"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-anamir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-anamir", "latest": {"1.13.0--r36_0": "sha256:8c208f2bcf7d5734ef78a84e3b7b8373dfc861cfc3fabff11dffbff7d2368f57"}, "tags": {"1.13.0--r36_0": "sha256:8c208f2bcf7d5734ef78a84e3b7b8373dfc861cfc3fabff11dffbff7d2368f57"}, "docker": "quay.io/biocontainers/bioconductor-anamir", "aliases": {"gdalserver": "/usr/local/bin/gdalserver", "pg_verify_checksums": "/usr/local/bin/pg_verify_checksums", "testepsg": "/usr/local/bin/testepsg", "pg_standby": "/usr/local/bin/pg_standby", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "dap-config": "/usr/local/bin/dap-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-anamir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-anamir", "latest": {"1.13.0--r36_0": "sha256:b8cdd4a84025626485c039dd0461480ac720835f30e824ed6187f98d111e015f"}, "tags": {"1.13.0--r36_0": "sha256:b8cdd4a84025626485c039dd0461480ac720835f30e824ed6187f98d111e015f"}, "docker": "quay.io/biocontainers/bioconductor-anamir", "aliases": {"gdalserver": "/usr/local/bin/gdalserver", "pg_verify_checksums": "/usr/local/bin/pg_verify_checksums", "testepsg": "/usr/local/bin/testepsg", "pg_standby": "/usr/local/bin/pg_standby", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "dap-config": "/usr/local/bin/dap-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-anamir.

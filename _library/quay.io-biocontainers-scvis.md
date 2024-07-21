@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scvis/container.yaml"
-updated_at: "2024-07-20 02:53:12.250025"
+updated_at: "2024-07-21 02:57:06.587545"
 latest: "0.1.0--scvis_0"
 container_url: "https://biocontainers.pro/tools/scvis"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.1.0--scvis_0"
 description: "shpc-registry automated BioContainers addition for scvis"
-config: {"url": "https://biocontainers.pro/tools/scvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scvis", "latest": {"0.1.0--scvis_0": "sha256:8480ed863db56e475879e139e667422bfd029eb906d15cf1bf33a8c4ae9a7ea6"}, "tags": {"0.1.0--scvis_0": "sha256:8480ed863db56e475879e139e667422bfd029eb906d15cf1bf33a8c4ae9a7ea6"}, "docker": "quay.io/biocontainers/scvis", "aliases": {"scvis": "/usr/local/bin/scvis", "pbr": "/usr/local/bin/pbr", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect"}}
+config: {"url": "https://biocontainers.pro/tools/scvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scvis", "latest": {"0.1.0--scvis_0": "sha256:fbdfda8182a0a46e3194052b974dbfd252817948fa2e3ccda256329d574e8038"}, "tags": {"0.1.0--scvis_0": "sha256:fbdfda8182a0a46e3194052b974dbfd252817948fa2e3ccda256329d574e8038"}, "docker": "quay.io/biocontainers/scvis", "aliases": {"scvis": "/usr/local/bin/scvis", "pbr": "/usr/local/bin/pbr", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scvis.

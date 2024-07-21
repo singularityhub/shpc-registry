@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sqlitebrowser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sqlitebrowser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sqlitebrowser/container.yaml"
-updated_at: "2024-07-20 02:59:53.045813"
+updated_at: "2024-07-21 03:03:51.922275"
 latest: "3.8.0--0"
 container_url: "https://biocontainers.pro/tools/sqlitebrowser"
 aliases:
@@ -27,7 +27,7 @@ aliases:
 versions:
  - "3.8.0--0"
 description: "shpc-registry automated BioContainers addition for sqlitebrowser"
-config: {"url": "https://biocontainers.pro/tools/sqlitebrowser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sqlitebrowser", "latest": {"3.8.0--0": "sha256:39e283319207b78e1721934a52c70a929f3bd2070fcd1f7900b920477ca3fd08"}, "tags": {"3.8.0--0": "sha256:39e283319207b78e1721934a52c70a929f3bd2070fcd1f7900b920477ca3fd08"}, "docker": "quay.io/biocontainers/sqlitebrowser", "aliases": {"qdoc3": "/usr/local/bin/qdoc3", "qmlviewer": "/usr/local/bin/qmlviewer", "qt3to4": "/usr/local/bin/qt3to4", "qtconfig": "/usr/local/bin/qtconfig", "qttracereplay": "/usr/local/bin/qttracereplay", "sqlitebrowser": "/usr/local/bin/sqlitebrowser", "pngcp": "/usr/local/bin/pngcp", "qhelpconverter": "/usr/local/bin/qhelpconverter", "qdbus": "/usr/local/bin/qdbus", "qdbuscpp2xml": "/usr/local/bin/qdbuscpp2xml", "qdbusviewer": "/usr/local/bin/qdbusviewer", "qdbusxml2cpp": "/usr/local/bin/qdbusxml2cpp", "xmlpatterns": "/usr/local/bin/xmlpatterns", "xmlpatternsvalidator": "/usr/local/bin/xmlpatternsvalidator", "assistant": "/usr/local/bin/assistant", "designer": "/usr/local/bin/designer"}}
+config: {"url": "https://biocontainers.pro/tools/sqlitebrowser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sqlitebrowser", "latest": {"3.8.0--0": "sha256:1953061558ca30a13145d469fcca76f7b5bd6eb87bd34a9269581ba5599f39a7"}, "tags": {"3.8.0--0": "sha256:1953061558ca30a13145d469fcca76f7b5bd6eb87bd34a9269581ba5599f39a7"}, "docker": "quay.io/biocontainers/sqlitebrowser", "aliases": {"qdoc3": "/usr/local/bin/qdoc3", "qmlviewer": "/usr/local/bin/qmlviewer", "qt3to4": "/usr/local/bin/qt3to4", "qtconfig": "/usr/local/bin/qtconfig", "qttracereplay": "/usr/local/bin/qttracereplay", "sqlitebrowser": "/usr/local/bin/sqlitebrowser", "pngcp": "/usr/local/bin/pngcp", "qhelpconverter": "/usr/local/bin/qhelpconverter", "qdbus": "/usr/local/bin/qdbus", "qdbuscpp2xml": "/usr/local/bin/qdbuscpp2xml", "qdbusviewer": "/usr/local/bin/qdbusviewer", "qdbusxml2cpp": "/usr/local/bin/qdbusxml2cpp", "xmlpatterns": "/usr/local/bin/xmlpatterns", "xmlpatternsvalidator": "/usr/local/bin/xmlpatternsvalidator", "assistant": "/usr/local/bin/assistant", "designer": "/usr/local/bin/designer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sqlitebrowser.

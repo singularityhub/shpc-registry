@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jq/container.yaml"
-updated_at: "2024-07-20 02:36:07.012800"
+updated_at: "2024-07-21 02:39:56.269356"
 latest: "1.6"
 container_url: "https://biocontainers.pro/tools/jq"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "1.5--4"
  - "1.6"
 description: "shpc-registry automated BioContainers addition for jq"
-config: {"url": "https://biocontainers.pro/tools/jq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jq", "latest": {"1.6": "sha256:8ead3d706ddf3c848a4ec6e5740fb4bdcd5454a97e7c533b7417acede1de4c74"}, "tags": {"1.5--4": "sha256:231dd2321ff3470fd14c5e2a59d5fc5ecb21d91cd62a62e1110efc19138c23fe", "1.6": "sha256:8ead3d706ddf3c848a4ec6e5740fb4bdcd5454a97e7c533b7417acede1de4c74"}, "docker": "quay.io/biocontainers/jq", "aliases": {"jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config"}}
+config: {"url": "https://biocontainers.pro/tools/jq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jq", "latest": {"1.6": "sha256:8ead3d706ddf3c848a4ec6e5740fb4bdcd5454a97e7c533b7417acede1de4c74"}, "tags": {"1.5--4": "sha256:34df76157c22c213f00838fbb1775e58cc9f318be34ec38a8a9fce17b2826040", "1.6": "sha256:8ead3d706ddf3c848a4ec6e5740fb4bdcd5454a97e7c533b7417acede1de4c74"}, "docker": "quay.io/biocontainers/jq", "aliases": {"jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jq.

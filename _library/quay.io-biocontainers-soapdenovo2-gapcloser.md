@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/soapdenovo2-gapcloser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soapdenovo2-gapcloser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soapdenovo2-gapcloser/container.yaml"
-updated_at: "2024-07-20 02:48:31.575160"
+updated_at: "2024-07-21 02:52:23.271917"
 latest: "1.12--he941832_2"
 container_url: "https://biocontainers.pro/tools/soapdenovo2-gapcloser"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.12--he941832_2"
 description: "shpc-registry automated BioContainers addition for soapdenovo2-gapcloser"
-config: {"url": "https://biocontainers.pro/tools/soapdenovo2-gapcloser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soapdenovo2-gapcloser", "latest": {"1.12--he941832_2": "sha256:5da1369181a0ae7f0a2f40ed22f8ca5278eeda0e00565927f932bf3a7bf1604b"}, "tags": {"1.12--he941832_2": "sha256:5da1369181a0ae7f0a2f40ed22f8ca5278eeda0e00565927f932bf3a7bf1604b"}, "docker": "quay.io/biocontainers/soapdenovo2-gapcloser", "aliases": {"GapCloser": "/usr/local/bin/GapCloser"}}
+config: {"url": "https://biocontainers.pro/tools/soapdenovo2-gapcloser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soapdenovo2-gapcloser", "latest": {"1.12--he941832_2": "sha256:ed772f45baaf3c9e6ea200b0675cac115601e3a6c00a4a7cf0a2db70829b26a9"}, "tags": {"1.12--he941832_2": "sha256:ed772f45baaf3c9e6ea200b0675cac115601e3a6c00a4a7cf0a2db70829b26a9"}, "docker": "quay.io/biocontainers/soapdenovo2-gapcloser", "aliases": {"GapCloser": "/usr/local/bin/GapCloser"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/soapdenovo2-gapcloser.

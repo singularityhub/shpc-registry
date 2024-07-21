@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/r-fateid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fateid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fateid/container.yaml"
-updated_at: "2024-07-20 02:58:06.167262"
+updated_at: "2024-07-21 03:02:03.526586"
 latest: "0.1.8--r36h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-fateid"
 
 versions:
  - "0.1.8--r36h6115d3f_0"
 description: "shpc-registry automated BioContainers addition for r-fateid"
-config: {"url": "https://biocontainers.pro/tools/r-fateid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fateid", "latest": {"0.1.8--r36h6115d3f_0": "sha256:bf9bc6a0d9dc03e1fbcb27689019d2ecb72bfc46e9879aa9dc7a381a143e0d99"}, "tags": {"0.1.8--r36h6115d3f_0": "sha256:bf9bc6a0d9dc03e1fbcb27689019d2ecb72bfc46e9879aa9dc7a381a143e0d99"}, "docker": "quay.io/biocontainers/r-fateid"}
+config: {"url": "https://biocontainers.pro/tools/r-fateid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fateid", "latest": {"0.1.8--r36h6115d3f_0": "sha256:f3edac4a544e6a42e36441679510956ec104896baaa870869e65dff2ba5d8616"}, "tags": {"0.1.8--r36h6115d3f_0": "sha256:f3edac4a544e6a42e36441679510956ec104896baaa870869e65dff2ba5d8616"}, "docker": "quay.io/biocontainers/r-fateid"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-fateid.

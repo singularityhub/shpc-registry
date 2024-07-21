@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/emperor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emperor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emperor/container.yaml"
-updated_at: "2024-07-20 02:39:00.204449"
+updated_at: "2024-07-21 02:42:50.962160"
 latest: "0.9.3--py27_1"
 container_url: "https://biocontainers.pro/tools/emperor"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.9.3--py27_1"
 description: "shpc-registry automated BioContainers addition for emperor"
-config: {"url": "https://biocontainers.pro/tools/emperor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for emperor", "latest": {"0.9.3--py27_1": "sha256:009a7499aaa3a407cbbf0b11b5f04432377ec4f5c6baee54fa491be43d9b1040"}, "tags": {"0.9.3--py27_1": "sha256:009a7499aaa3a407cbbf0b11b5f04432377ec4f5c6baee54fa491be43d9b1040"}, "docker": "quay.io/biocontainers/emperor", "aliases": {"make_emperor.py": "/usr/local/bin/make_emperor.py", "qcli_make_rst": "/usr/local/bin/qcli_make_rst", "qcli_make_script": "/usr/local/bin/qcli_make_script", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/emperor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for emperor", "latest": {"0.9.3--py27_1": "sha256:c6b96c5a702332c82a877842fcd34c6d518aeb39c8325e34fbbe8af932f6a801"}, "tags": {"0.9.3--py27_1": "sha256:c6b96c5a702332c82a877842fcd34c6d518aeb39c8325e34fbbe8af932f6a801"}, "docker": "quay.io/biocontainers/emperor", "aliases": {"make_emperor.py": "/usr/local/bin/make_emperor.py", "qcli_make_rst": "/usr/local/bin/qcli_make_rst", "qcli_make_script": "/usr/local/bin/qcli_make_script", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/emperor.

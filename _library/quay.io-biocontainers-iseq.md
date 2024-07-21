@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iseq/container.yaml"
-updated_at: "2024-07-20 03:03:22.059916"
+updated_at: "2024-07-21 03:07:23.406483"
 latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/iseq"
 aliases:

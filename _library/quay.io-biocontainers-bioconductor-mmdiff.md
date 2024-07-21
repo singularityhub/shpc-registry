@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/bioconductor-mmdiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mmdiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mmdiff/container.yaml"
-updated_at: "2024-07-20 03:05:18.953463"
+updated_at: "2024-07-21 03:09:21.888875"
 latest: "1.10.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mmdiff"
 
 versions:
  - "1.10.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-mmdiff"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mmdiff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mmdiff", "latest": {"1.10.0--r36_1": "sha256:2e2368cebab4253fb267bede0556df3330ee683ba68c743c3ab4c25b810ec7bc"}, "tags": {"1.10.0--r36_1": "sha256:2e2368cebab4253fb267bede0556df3330ee683ba68c743c3ab4c25b810ec7bc"}, "docker": "quay.io/biocontainers/bioconductor-mmdiff"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mmdiff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mmdiff", "latest": {"1.10.0--r36_1": "sha256:710729ecd8cebbeab687995f06972d38c0b5ed1e6aa6a071d992f88ca27b4e7e"}, "tags": {"1.10.0--r36_1": "sha256:710729ecd8cebbeab687995f06972d38c0b5ed1e6aa6a071d992f88ca27b4e7e"}, "docker": "quay.io/biocontainers/bioconductor-mmdiff"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mmdiff.

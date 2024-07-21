@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gogstools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gogstools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gogstools/container.yaml"
-updated_at: "2024-07-20 02:40:17.792264"
+updated_at: "2024-07-21 02:44:09.042303"
 latest: "0.1.2--py310hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gogstools"
 aliases:

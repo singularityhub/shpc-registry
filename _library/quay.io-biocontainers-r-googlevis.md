@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-googlevis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-googlevis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-googlevis/container.yaml"
-updated_at: "2024-07-20 03:03:01.603464"
+updated_at: "2024-07-21 03:07:02.663014"
 latest: "0.5.10--r3.2.2_1"
 container_url: "https://biocontainers.pro/tools/r-googlevis"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "0.5.10--r3.2.2_1"
  - "0.5.10--r3.3.2_1"
 description: "shpc-registry automated BioContainers addition for r-googlevis"
-config: {"url": "https://biocontainers.pro/tools/r-googlevis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-googlevis", "latest": {"0.5.10--r3.2.2_1": "sha256:f58e58fc924832e4bef82ebc5f7946aee81ef176a051586a2fbbfa9b22c9b421"}, "tags": {"0.5.10--r3.2.2_1": "sha256:f58e58fc924832e4bef82ebc5f7946aee81ef176a051586a2fbbfa9b22c9b421", "0.5.10--r3.3.2_1": "sha256:943550dfd22251d38e4be6843190d5c4dc608e28a4ee83cc375a33cdf85c8a6e"}, "docker": "quay.io/biocontainers/r-googlevis", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-googlevis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-googlevis", "latest": {"0.5.10--r3.2.2_1": "sha256:a4f5ed82d481876bd8d57bedbd44dac83ae554a3efb8e2a6a7338c317ec6c7fa"}, "tags": {"0.5.10--r3.2.2_1": "sha256:a4f5ed82d481876bd8d57bedbd44dac83ae554a3efb8e2a6a7338c317ec6c7fa", "0.5.10--r3.3.2_1": "sha256:59b6193edc18ea42aafa2fc6ed3f32ab82fb15506ec57e6f7d86714c504a1f88"}, "docker": "quay.io/biocontainers/r-googlevis", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-googlevis.

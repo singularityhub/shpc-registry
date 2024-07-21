@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pycomo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycomo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycomo/container.yaml"
-updated_at: "2024-07-20 03:12:02.976009"
-latest: "0.1.3--pyhdfd78af_0"
+updated_at: "2024-07-21 03:16:11.462258"
+latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pycomo"
 aliases:
  - "depinfo"
@@ -24,8 +24,9 @@ aliases:
  - "pygmentize"
 versions:
  - "0.1.3--pyhdfd78af_0"
+ - "0.2.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pycomo"
-config: {"url": "https://biocontainers.pro/tools/pycomo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pycomo", "latest": {"0.1.3--pyhdfd78af_0": "sha256:a68079badaf138cb255457842f8d2185e1aadeb8691403c405ce0e904eb365b3"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:a68079badaf138cb255457842f8d2185e1aadeb8691403c405ce0e904eb365b3"}, "docker": "quay.io/biocontainers/pycomo", "aliases": {"depinfo": "/usr/local/bin/depinfo", "pycomo": "/usr/local/bin/pycomo", "httpx": "/usr/local/bin/httpx", "isympy": "/usr/local/bin/isympy", "markdown-it": "/usr/local/bin/markdown-it", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "glpsol": "/usr/local/bin/glpsol", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "pygmentize": "/usr/local/bin/pygmentize"}}
+config: {"url": "https://biocontainers.pro/tools/pycomo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pycomo", "latest": {"0.2.2--pyhdfd78af_0": "sha256:2f4fb0f39a781e9e3837b1e6ed5048fa334b0de72182a55d4e70989a866d9604"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:a68079badaf138cb255457842f8d2185e1aadeb8691403c405ce0e904eb365b3", "0.2.2--pyhdfd78af_0": "sha256:2f4fb0f39a781e9e3837b1e6ed5048fa334b0de72182a55d4e70989a866d9604"}, "docker": "quay.io/biocontainers/pycomo", "aliases": {"depinfo": "/usr/local/bin/depinfo", "pycomo": "/usr/local/bin/pycomo", "httpx": "/usr/local/bin/httpx", "isympy": "/usr/local/bin/isympy", "markdown-it": "/usr/local/bin/markdown-it", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "glpsol": "/usr/local/bin/glpsol", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "pygmentize": "/usr/local/bin/pygmentize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pycomo.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/pycomo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pycomo:0.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pycomo:0.2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pycomo/0.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/pycomo/0.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/pycomo/0.2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/pycomo/0.2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rseg/container.yaml"
-updated_at: "2024-07-20 02:59:15.257493"
+updated_at: "2024-07-21 03:03:13.427845"
 latest: "0.4.9--he941832_1"
 container_url: "https://biocontainers.pro/tools/rseg"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "0.4.9--he941832_1"
 description: "shpc-registry automated BioContainers addition for rseg"
-config: {"url": "https://biocontainers.pro/tools/rseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rseg", "latest": {"0.4.9--he941832_1": "sha256:0504a5b5a8c568f75113e552734714f9ac0d3eb3d27c0752c94b0941488c588d"}, "tags": {"0.4.9--he941832_1": "sha256:0504a5b5a8c568f75113e552734714f9ac0d3eb3d27c0752c94b0941488c588d"}, "docker": "quay.io/biocontainers/rseg", "aliases": {"deadzones": "/usr/local/bin/deadzones", "rseg": "/usr/local/bin/rseg", "rseg-diff": "/usr/local/bin/rseg-diff"}}
+config: {"url": "https://biocontainers.pro/tools/rseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rseg", "latest": {"0.4.9--he941832_1": "sha256:54ce2be873594c2513e0d805fba6701992646506e3fec5fb1221a6e1a9fbd8f2"}, "tags": {"0.4.9--he941832_1": "sha256:54ce2be873594c2513e0d805fba6701992646506e3fec5fb1221a6e1a9fbd8f2"}, "docker": "quay.io/biocontainers/rseg", "aliases": {"deadzones": "/usr/local/bin/deadzones", "rseg": "/usr/local/bin/rseg", "rseg-diff": "/usr/local/bin/rseg-diff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rseg.
