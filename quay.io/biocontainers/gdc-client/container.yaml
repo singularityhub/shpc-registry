@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gdc-client
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gdc-client
 latest:
-  1.6.1--pyhdfd78af_0: sha256:15159ad380451800cbd90ad137b56b9f27e807f450313187890fc22f94221639
+  2.0--pyhdfd78af_0: sha256:b71adde36d19903c5797c30690a71a5164333c9260e815e6b287b5a3d13e9593
 tags:
   1.6.1--pyhdfd78af_0: sha256:15159ad380451800cbd90ad137b56b9f27e807f450313187890fc22f94221639
+  2.0--pyhdfd78af_0: sha256:b71adde36d19903c5797c30690a71a5164333c9260e815e6b287b5a3d13e9593
 docker: quay.io/biocontainers/gdc-client
 aliases:
   gdc-client: /usr/local/bin/gdc-client

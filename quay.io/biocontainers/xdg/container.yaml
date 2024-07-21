@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/xdg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for xdg
 latest:
-  1.0.5--py36_0: sha256:a0b484501295d9133c115e861c3bbe4cb954ad3fb7789563142829313277577d
+  1.0.5--py36_0: sha256:9a61675bb836bdfea88702f573aad8120c9607a8715783da19ec65f04e904002
 tags:
-  1.0.5--py36_0: sha256:a0b484501295d9133c115e861c3bbe4cb954ad3fb7789563142829313277577d
+  1.0.5--py36_0: sha256:9a61675bb836bdfea88702f573aad8120c9607a8715783da19ec65f04e904002
+  1.0.5--py35_0: sha256:8f60887011754b6de0599c35be55c791df8a8d0b6ab4815d3e07fed5d23d6535
 docker: quay.io/biocontainers/xdg
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-inline
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-inline
 latest:
-  0.3.14--r3.2.2_0: sha256:d94aee3df5a16bff1cbc307ee37de586982093766567a9c66c92843b357268f6
+  0.3.14--r3.2.2_0: sha256:8b849b239b0c0e7b5a04a1ae2c5a55d3893c89332aa8212c001e39ed1f0ee9d6
 tags:
-  0.3.14--r3.2.2_0: sha256:d94aee3df5a16bff1cbc307ee37de586982093766567a9c66c92843b357268f6
+  0.3.14--r3.2.2_0: sha256:8b849b239b0c0e7b5a04a1ae2c5a55d3893c89332aa8212c001e39ed1f0ee9d6
 docker: quay.io/biocontainers/r-inline
 aliases:
   pngcp: /usr/local/bin/pngcp

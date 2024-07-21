@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/genepender
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for genepender
 latest:
-  v2.6--h470a237_1: sha256:5796152d7ed6e316942b444943fd52c25198c202fff403b648bae20c9c91844e
+  v2.6--h470a237_1: sha256:638b717069cb8f1914f4462b76a1a9b6843e8a6c3bf53fa4e7aab507f1740a1f
 tags:
-  v2.6--h470a237_1: sha256:5796152d7ed6e316942b444943fd52c25198c202fff403b648bae20c9c91844e
+  v2.6--h470a237_1: sha256:638b717069cb8f1914f4462b76a1a9b6843e8a6c3bf53fa4e7aab507f1740a1f
 docker: quay.io/biocontainers/genepender
 aliases:
   genepender: /usr/local/bin/genepender

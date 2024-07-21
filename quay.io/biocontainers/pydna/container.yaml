@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pydna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pydna
 latest:
-  3.1.0--py_0: sha256:aa6d39a8ee0ff2c218c7ba2904df8e15e76e9953301308883d7acf351e315492
+  5.2.0--pyhdfd78af_0: sha256:5974d904bca99aeac49000d1a6d01addf5fe82dcf26dd3a94a3056e302959ba2
 tags:
   3.1.0--py_0: sha256:aa6d39a8ee0ff2c218c7ba2904df8e15e76e9953301308883d7acf351e315492
+  5.2.0--pyhdfd78af_0: sha256:5974d904bca99aeac49000d1a6d01addf5fe82dcf26dd3a94a3056e302959ba2
 docker: quay.io/biocontainers/pydna
 aliases:
   f2py3.8: /usr/local/bin/f2py3.8

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-fastcluster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-fastcluster
 latest:
-  1.1.20--r3.3.2_1: sha256:0706165eb3b1b421a3e039597d1a367081beb7f1b79a760a82b1dcf72b603772
+  1.1.20--r3.3.2_1: sha256:85e4285e0344f4bf6a6880c3abfb15d2bfa590000ca041395a9cd6a5084b9a29
 tags:
-  1.1.20--r3.3.2_1: sha256:0706165eb3b1b421a3e039597d1a367081beb7f1b79a760a82b1dcf72b603772
+  1.1.20--r3.3.2_1: sha256:85e4285e0344f4bf6a6880c3abfb15d2bfa590000ca041395a9cd6a5084b9a29
+  1.1.20--r3.3.1_1: sha256:4848075f52c42b61292753e225f04cac9e9b48686184abd3c882af769f10a07d
 docker: quay.io/biocontainers/r-fastcluster
 aliases:
   uconv: /usr/local/bin/uconv

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/astalavista
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for astalavista
 latest:
-  4.0--1: sha256:dfa4c9e45b03f14e5a7439a92027351ae90c8664166807d8715fa47ef0fcd67e
+  4.0--1: sha256:32136a7718e15170e760a32b0ed69a0db3d95ce47ab47fe2f94b37d58aafd6e2
 tags:
-  4.0--1: sha256:dfa4c9e45b03f14e5a7439a92027351ae90c8664166807d8715fa47ef0fcd67e
+  4.0--1: sha256:32136a7718e15170e760a32b0ed69a0db3d95ce47ab47fe2f94b37d58aafd6e2
 docker: quay.io/biocontainers/astalavista
 aliases:
   astalavista: /usr/local/bin/astalavista

@@ -5,6 +5,7 @@ latest:
   1.0--py310h581d4b6_1: sha256:fa78041d8e23d2d0b5a3fac6235bf3f62ddab1f24763c31a19e7251dc3d49376
 tags:
   1.0--py310h581d4b6_1: sha256:fa78041d8e23d2d0b5a3fac6235bf3f62ddab1f24763c31a19e7251dc3d49376
+  1.0--py312h1f1cfbb_1: sha256:1e48f2f9058bedb8bffee7f8b9b8798ffe31f6c05a26ac39fc60af84ddb47504
 docker: quay.io/biocontainers/emu-pca
 aliases:
   emu: /usr/local/bin/emu

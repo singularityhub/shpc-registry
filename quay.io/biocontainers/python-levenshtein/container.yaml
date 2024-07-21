@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/python-levenshtein
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for python-levenshtein
 latest:
-  0.12.0--py36_1: sha256:4d0534b9e3b438298667d1faf8b7be3abfc6748bf2c5a5cc752901555ece397b
+  0.12.0--py36_1: sha256:6d7354dc73276cb8328dbe604bc7c48167732b48aba38331fc3b1eb0d7b5b2a8
 tags:
-  0.12.0--py36_1: sha256:4d0534b9e3b438298667d1faf8b7be3abfc6748bf2c5a5cc752901555ece397b
+  0.12.0--py36_1: sha256:6d7354dc73276cb8328dbe604bc7c48167732b48aba38331fc3b1eb0d7b5b2a8
+  0.12.0--py35_1: sha256:f79f4a2d4c3a5f9dcf8d42e0f64da54b604131a5bd7c936c418c8804e7d6040b
 docker: quay.io/biocontainers/python-levenshtein
 aliases:
   nosetests: /usr/local/bin/nosetests

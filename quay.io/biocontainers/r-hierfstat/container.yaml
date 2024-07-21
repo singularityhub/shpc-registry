@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-hierfstat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-hierfstat
 latest:
-  0.04_22--r351h6115d3f_0: sha256:2247c2857856dbbf36a8a1ca9e788aecc76a251e911b7f9bd1065e9fd87c62d4
+  0.04_22--r351h6115d3f_0: sha256:409173d73b077c98a8a66830f607638b04e63c336ca89f2bb4c093e3cff4f157
 tags:
-  0.04_22--r351h6115d3f_0: sha256:2247c2857856dbbf36a8a1ca9e788aecc76a251e911b7f9bd1065e9fd87c62d4
+  0.04_22--r351h6115d3f_0: sha256:409173d73b077c98a8a66830f607638b04e63c336ca89f2bb4c093e3cff4f157
 docker: quay.io/biocontainers/r-hierfstat
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

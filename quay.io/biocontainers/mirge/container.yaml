@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/mirge
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mirge
 latest:
-  2.0.6--pyh5ca1d4c_6: sha256:92a9ecdf2ab946d0288dc1771c60ce62a8879001e76b604c8ab5a3fcbd9a6326
+  2.0.6--pyh5ca1d4c_6: sha256:dc4f88b128e99e875de52b5b56e86df8bc94fd5c87eccd21618e3a4039200d12
 tags:
-  2.0.6--pyh5ca1d4c_6: sha256:92a9ecdf2ab946d0288dc1771c60ce62a8879001e76b604c8ab5a3fcbd9a6326
+  2.0.6--pyh5ca1d4c_6: sha256:dc4f88b128e99e875de52b5b56e86df8bc94fd5c87eccd21618e3a4039200d12
 docker: quay.io/biocontainers/mirge

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/srst2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for srst2
 latest:
-  0.2.0--py_4: sha256:fe718ac09280536f128186832cec3a724f3b2c1c2c478ee9873ad0ae59e2829f
+  0.2.0--py_4: sha256:9f457396f32c93168e0f0dd7548d1d0dfb624006d0548268c408fa7f1db17e3c
 tags:
-  0.2.0--py_4: sha256:fe718ac09280536f128186832cec3a724f3b2c1c2c478ee9873ad0ae59e2829f
+  0.2.0--py_4: sha256:9f457396f32c93168e0f0dd7548d1d0dfb624006d0548268c408fa7f1db17e3c
 docker: quay.io/biocontainers/srst2
 aliases:
   getmlst.py: /usr/local/bin/getmlst.py

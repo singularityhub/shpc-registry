@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/argh
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for argh
 latest:
-  0.26.2--py36_0: sha256:e5c55a844d98f8cf2de26c2cd71f6e0fdba33cfb2cbbdff4e82c8fbfe07ff81e
+  0.26.2--py36_0: sha256:0a45345f7462bc489f1c737228ac8a0382adcd5227598236f49a8851a78edcbe
 tags:
-  0.26.2--py36_0: sha256:e5c55a844d98f8cf2de26c2cd71f6e0fdba33cfb2cbbdff4e82c8fbfe07ff81e
+  0.26.2--py36_0: sha256:0a45345f7462bc489f1c737228ac8a0382adcd5227598236f49a8851a78edcbe
 docker: quay.io/biocontainers/argh
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

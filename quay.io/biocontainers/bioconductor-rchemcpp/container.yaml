@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-rchemcpp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rchemcpp
 latest:
-  2.21.1--r36he1b5a44_1: sha256:e02c93c7489e1f074ea45cdd37e6b2f48c604bd597de7b19c10f694abc142ad0
+  2.21.1--r36he1b5a44_1: sha256:c144fb96c37a94ad233be44df5008cb519e9cb9ff7f07efb3acbfaf7732e4c7b
 tags:
-  2.21.1--r36he1b5a44_1: sha256:e02c93c7489e1f074ea45cdd37e6b2f48c604bd597de7b19c10f694abc142ad0
+  2.21.1--r36he1b5a44_1: sha256:c144fb96c37a94ad233be44df5008cb519e9cb9ff7f07efb3acbfaf7732e4c7b
 docker: quay.io/biocontainers/bioconductor-rchemcpp
 aliases:
   croco-0.6-config: /usr/local/bin/croco-0.6-config

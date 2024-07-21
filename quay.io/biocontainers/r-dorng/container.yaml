@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-dorng
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-dorng
 latest:
-  1.6--r3.3.2_0: sha256:a22ee5b74683f8163cf895ba7e5ddb802863e5955df2388a0a7e72090de9bbbe
+  1.6--r3.3.2_0: sha256:af8e998f359fee7b93b58560695289f06f24d7fcb829100fb21d2dc82d77070d
 tags:
-  1.6--r3.3.2_0: sha256:a22ee5b74683f8163cf895ba7e5ddb802863e5955df2388a0a7e72090de9bbbe
+  1.6--r3.3.2_0: sha256:af8e998f359fee7b93b58560695289f06f24d7fcb829100fb21d2dc82d77070d
+  1.6--r3.2.2_0: sha256:cf5ac308b9fa0a8799d5c4ef2e164f78b9a286d40208b3ac4a1058d842d00924
 docker: quay.io/biocontainers/r-dorng
 aliases:
   uconv: /usr/local/bin/uconv

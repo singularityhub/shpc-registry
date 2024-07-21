@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/hubward
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hubward
 latest:
-  0.2.2--py27_1: sha256:d88b301d815cdeb431d628553656c466fbc744f90b4fd28461fba3ecc629727c
+  0.2.2--py27_1: sha256:cd0bf802e0a5584b59c835c08653f78ea0671f9564d9c2d3c427dd0f10de3b4f
 tags:
-  0.2.2--py27_1: sha256:d88b301d815cdeb431d628553656c466fbc744f90b4fd28461fba3ecc629727c
+  0.2.2--py27_1: sha256:cd0bf802e0a5584b59c835c08653f78ea0671f9564d9c2d3c427dd0f10de3b4f
 docker: quay.io/biocontainers/hubward

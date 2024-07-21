@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-combinat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-combinat
 latest:
-  0.0_8--r3.3.2_0: sha256:e8cdadad3b9e8657a133e52639a244e5448a88fa21b905e9b955b6d892e5a305
+  0.0_8--r3.3.2_0: sha256:28876fbd0b8d2ca5d92b6481dc1153baa2421eb5141de318988afd7464ace759
 tags:
-  0.0_8--r3.3.2_0: sha256:e8cdadad3b9e8657a133e52639a244e5448a88fa21b905e9b955b6d892e5a305
+  0.0_8--r3.3.2_0: sha256:28876fbd0b8d2ca5d92b6481dc1153baa2421eb5141de318988afd7464ace759
+  0.0_8--r3.3.1_0: sha256:18d36bfff313cd0a8adc15ecadc7551d8f9b57369bfeaf5bbc2bcf4ac30ef822
 docker: quay.io/biocontainers/r-combinat
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for digestiflow-demu
 latest:
   0.5.3--pyhdfd78af_0: sha256:7df3b2c170ff4b1d51a09633ca27ecb757ba1984bf86143dde4cb37d6cac490c
 tags:
-  0.5.2--py_0: sha256:9ff7c24380e4ab456d3651f13ce15af623c794b66f386378e529119c63480ee5
+  0.5.2--py_0: sha256:83efdedd5b491f2d35824b14fff5c9b9fb48456a27be450458b24cbcc4bef0ca
   0.5.3--pyhdfd78af_0: sha256:7df3b2c170ff4b1d51a09633ca27ecb757ba1984bf86143dde4cb37d6cac490c
 docker: quay.io/biocontainers/digestiflow-demux
 aliases:

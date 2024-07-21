@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-iontreedata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-iontreedata
 latest:
-  1.18.0--r351_0: sha256:a4413b46cdaa47fc58538e6798ba80ac1884f41d5f3719659b5e96626623965f
+  1.18.0--r351_0: sha256:6d86ef0fc6380252737f4c2dd01b7d6970b4ddf4b3b279c5f34150ac105cb87d
 tags:
-  1.18.0--r351_0: sha256:a4413b46cdaa47fc58538e6798ba80ac1884f41d5f3719659b5e96626623965f
+  1.18.0--r351_0: sha256:6d86ef0fc6380252737f4c2dd01b7d6970b4ddf4b3b279c5f34150ac105cb87d
 docker: quay.io/biocontainers/bioconductor-iontreedata
 aliases:
   wget: /usr/local/bin/wget

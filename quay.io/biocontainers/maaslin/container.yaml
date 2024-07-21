@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/maaslin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for maaslin
 latest:
-  0.05--r351_0: sha256:6a2448683d5899b8e521f49f99372407d3decaf73c2d0d13305b27bec10375fe
+  0.05--r351_0: sha256:20f403bf60cfbef747efea6a40abc71febb1990adaa37b37abeb8a738d4a2ec6
 tags:
-  0.05--r351_0: sha256:6a2448683d5899b8e521f49f99372407d3decaf73c2d0d13305b27bec10375fe
+  0.05--r351_0: sha256:20f403bf60cfbef747efea6a40abc71febb1990adaa37b37abeb8a738d4a2ec6
 docker: quay.io/biocontainers/maaslin

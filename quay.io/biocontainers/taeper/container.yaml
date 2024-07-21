@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/taeper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for taeper
 latest:
-  0.1.0--py_2: sha256:d14c520efa78c4b126a08e926dc097a39e8e57da517f0177431ce11a12fea939
+  0.1.0--py_2: sha256:8047294eeca0f085124ed8521c1976fe1764dcfd51f8b04cb44be26bce12b8f8
 tags:
-  0.1.0--py_2: sha256:d14c520efa78c4b126a08e926dc097a39e8e57da517f0177431ce11a12fea939
+  0.1.0--py_2: sha256:8047294eeca0f085124ed8521c1976fe1764dcfd51f8b04cb44be26bce12b8f8
 docker: quay.io/biocontainers/taeper
 aliases:
   fast5_subset: /usr/local/bin/fast5_subset

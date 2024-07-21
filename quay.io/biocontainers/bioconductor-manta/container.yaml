@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-manta
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-manta
 latest:
-  1.32.0--r36_0: sha256:460acb3e6c5797cc0e95c67c80927c79ecf60d1b70ef9bae147c86537f5a1c9c
+  1.32.0--r36_0: sha256:5aaa4932885d9fdb14e31b81de37d75a2379d7d7210f78f43e9910bbbf470eb1
 tags:
-  1.32.0--r36_0: sha256:460acb3e6c5797cc0e95c67c80927c79ecf60d1b70ef9bae147c86537f5a1c9c
+  1.32.0--r36_0: sha256:5aaa4932885d9fdb14e31b81de37d75a2379d7d7210f78f43e9910bbbf470eb1
 docker: quay.io/biocontainers/bioconductor-manta
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

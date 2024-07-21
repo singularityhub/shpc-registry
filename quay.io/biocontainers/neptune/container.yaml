@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/neptune
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for neptune
 latest:
-  1.2.5--py_3: sha256:55720f01c26422bc1218b46f4d99e3ac46f3d5569545da3ed32b0ff900f7c0c2
+  1.2.5--py_3: sha256:371b54f063408666effc57002e581fc5303b1f8c4ccfefc1014d971239e46e04
 tags:
-  1.2.5--py_3: sha256:55720f01c26422bc1218b46f4d99e3ac46f3d5569545da3ed32b0ff900f7c0c2
+  1.2.5--py_3: sha256:371b54f063408666effc57002e581fc5303b1f8c4ccfefc1014d971239e46e04
 docker: quay.io/biocontainers/neptune
 aliases:
   neptune: /usr/local/bin/neptune

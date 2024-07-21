@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-viridis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-viridis
 latest:
-  0.3.1--r3.2.2_0: sha256:6eca7359eb55fc39e553e9dcb18ab584a02bbf49a64af4854a17e9add06ef32d
+  0.3.1--r3.2.2_0: sha256:f3490d28a38c4addf1f0c30e86c754772f1e5b1eb1434cd42d2e74f05ddb3065
 tags:
-  0.3.1--r3.2.2_0: sha256:6eca7359eb55fc39e553e9dcb18ab584a02bbf49a64af4854a17e9add06ef32d
-  0.3.1--r3.3.2_0: sha256:d10b7c2f0ed10f61faf3381d1306eed40a71f4a37b1c2db5779f58c2a0f880d6
+  0.3.1--r3.2.2_0: sha256:f3490d28a38c4addf1f0c30e86c754772f1e5b1eb1434cd42d2e74f05ddb3065
+  0.3.1--r3.3.2_0: sha256:e0aa9847c5ce45fa74b73f1171e19e692a9d0eaedfd0394551564ba11d747403
 docker: quay.io/biocontainers/r-viridis
 aliases:
   pngcp: /usr/local/bin/pngcp

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/primerprospector
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for primerprospector
 latest:
-  1.0.1--py27_0: sha256:d1e321082d0be8bc58889296f06fda1b6558e8180413c76c3c171764f9405083
+  1.0.1--py27_0: sha256:0d0576152f1e88110ba59e0d4b1b23b8b3e5687d581c288f5ea86a9693890ca3
 tags:
-  1.0.1--py27_0: sha256:d1e321082d0be8bc58889296f06fda1b6558e8180413c76c3c171764f9405083
+  1.0.1--py27_0: sha256:0d0576152f1e88110ba59e0d4b1b23b8b3e5687d581c288f5ea86a9693890ca3
 docker: quay.io/biocontainers/primerprospector
 aliases:
   amplicons_histograms.py: /usr/local/bin/amplicons_histograms.py
