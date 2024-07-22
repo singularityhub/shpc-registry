@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/hmftools-esvee
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hmftools-esvee
+latest:
+  1.0_beta--hdfd78af_0: sha256:c4040b163c7b18e30e36e3f5a6d05157b19d51450fbe42f70bd99599c061be54
+tags:
+  1.0_beta--hdfd78af_0: sha256:c4040b163c7b18e30e36e3f5a6d05157b19d51450fbe42f70bd99599c061be54
+docker: quay.io/biocontainers/hmftools-esvee
+aliases:
+  esvee: /usr/local/bin/esvee
+  ldc-build-runtime: /usr/local/bin/ldc-build-runtime
+  ldc-profdata: /usr/local/bin/ldc-profdata
+  ldc-prune-cache: /usr/local/bin/ldc-prune-cache
+  ldc2: /usr/local/bin/ldc2
+  ldmd2: /usr/local/bin/ldmd2
+  sambamba: /usr/local/bin/sambamba
+  jwebserver: /usr/local/bin/jwebserver
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  hb-info: /usr/local/bin/hb-info
+  jfr: /usr/local/bin/jfr
+  tjbench: /usr/local/bin/tjbench
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java

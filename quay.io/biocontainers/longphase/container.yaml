@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/longphase
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for longphase
+latest:
+  1.7.3--hf5e1c6e_0: sha256:4a4f9fbd14ea325b9d7d4310d1df8fe7940b80cc8daed1907355919e15e6e457
+tags:
+  1.7.3--hf5e1c6e_0: sha256:4a4f9fbd14ea325b9d7d4310d1df8fe7940b80cc8daed1907355919e15e6e457
+docker: quay.io/biocontainers/longphase
+aliases:
+  longphase: /usr/local/bin/longphase
