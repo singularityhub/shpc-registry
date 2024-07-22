@@ -1,0 +1,79 @@
+url: https://biocontainers.pro/tools/rnaalishapes
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rnaalishapes
+latest:
+  2.5.0--pl5321h4ac6f70_0: sha256:8e5d586d85db641713abf171a19923bfc473e4b7aa00b2e2a05127e829ee0fb0
+tags:
+  2.5.0--pl5321h4ac6f70_0: sha256:8e5d586d85db641713abf171a19923bfc473e4b7aa00b2e2a05127e829ee0fb0
+docker: quay.io/biocontainers/rnaalishapes
+aliases:
+  RNAalishapes: /usr/local/bin/RNAalishapes
+  RNAalishapes_eval_macrostate: /usr/local/bin/RNAalishapes_eval_macrostate
+  RNAalishapes_eval_microstate: /usr/local/bin/RNAalishapes_eval_microstate
+  RNAalishapes_eval_nodangle: /usr/local/bin/RNAalishapes_eval_nodangle
+  RNAalishapes_eval_overdangle: /usr/local/bin/RNAalishapes_eval_overdangle
+  RNAalishapes_mea_microstate: /usr/local/bin/RNAalishapes_mea_microstate
+  RNAalishapes_mea_microstate_window: /usr/local/bin/RNAalishapes_mea_microstate_window
+  RNAalishapes_mea_nodangle: /usr/local/bin/RNAalishapes_mea_nodangle
+  RNAalishapes_mea_nodangle_window: /usr/local/bin/RNAalishapes_mea_nodangle_window
+  RNAalishapes_mea_overdangle: /usr/local/bin/RNAalishapes_mea_overdangle
+  RNAalishapes_mea_overdangle_window: /usr/local/bin/RNAalishapes_mea_overdangle_window
+  RNAalishapes_mfe_macrostate: /usr/local/bin/RNAalishapes_mfe_macrostate
+  RNAalishapes_mfe_macrostate_window: /usr/local/bin/RNAalishapes_mfe_macrostate_window
+  RNAalishapes_mfe_microstate: /usr/local/bin/RNAalishapes_mfe_microstate
+  RNAalishapes_mfe_microstate_window: /usr/local/bin/RNAalishapes_mfe_microstate_window
+  RNAalishapes_mfe_nodangle: /usr/local/bin/RNAalishapes_mfe_nodangle
+  RNAalishapes_mfe_nodangle_window: /usr/local/bin/RNAalishapes_mfe_nodangle_window
+  RNAalishapes_mfe_overdangle: /usr/local/bin/RNAalishapes_mfe_overdangle
+  RNAalishapes_mfe_overdangle_window: /usr/local/bin/RNAalishapes_mfe_overdangle_window
+  RNAalishapes_outside_microstate: /usr/local/bin/RNAalishapes_outside_microstate
+  RNAalishapes_outside_nodangle: /usr/local/bin/RNAalishapes_outside_nodangle
+  RNAalishapes_outside_overdangle: /usr/local/bin/RNAalishapes_outside_overdangle
+  RNAalishapes_pfall_macrostate: /usr/local/bin/RNAalishapes_pfall_macrostate
+  RNAalishapes_pfall_macrostate_window: /usr/local/bin/RNAalishapes_pfall_macrostate_window
+  RNAalishapes_pfall_microstate: /usr/local/bin/RNAalishapes_pfall_microstate
+  RNAalishapes_pfall_microstate_window: /usr/local/bin/RNAalishapes_pfall_microstate_window
+  RNAalishapes_pfall_nodangle: /usr/local/bin/RNAalishapes_pfall_nodangle
+  RNAalishapes_pfall_nodangle_window: /usr/local/bin/RNAalishapes_pfall_nodangle_window
+  RNAalishapes_pfall_overdangle: /usr/local/bin/RNAalishapes_pfall_overdangle
+  RNAalishapes_pfall_overdangle_window: /usr/local/bin/RNAalishapes_pfall_overdangle_window
+  RNAalishapes_probs_macrostate: /usr/local/bin/RNAalishapes_probs_macrostate
+  RNAalishapes_probs_macrostate_window: /usr/local/bin/RNAalishapes_probs_macrostate_window
+  RNAalishapes_probs_microstate: /usr/local/bin/RNAalishapes_probs_microstate
+  RNAalishapes_probs_microstate_window: /usr/local/bin/RNAalishapes_probs_microstate_window
+  RNAalishapes_probs_nodangle: /usr/local/bin/RNAalishapes_probs_nodangle
+  RNAalishapes_probs_nodangle_window: /usr/local/bin/RNAalishapes_probs_nodangle_window
+  RNAalishapes_probs_overdangle: /usr/local/bin/RNAalishapes_probs_overdangle
+  RNAalishapes_probs_overdangle_window: /usr/local/bin/RNAalishapes_probs_overdangle_window
+  RNAalishapes_rep_consensus: /usr/local/bin/RNAalishapes_rep_consensus
+  RNAalishapes_rep_mis: /usr/local/bin/RNAalishapes_rep_mis
+  RNAalishapes_sample_macrostate: /usr/local/bin/RNAalishapes_sample_macrostate
+  RNAalishapes_sample_macrostate_window: /usr/local/bin/RNAalishapes_sample_macrostate_window
+  RNAalishapes_sample_microstate: /usr/local/bin/RNAalishapes_sample_microstate
+  RNAalishapes_sample_microstate_window: /usr/local/bin/RNAalishapes_sample_microstate_window
+  RNAalishapes_sample_nodangle: /usr/local/bin/RNAalishapes_sample_nodangle
+  RNAalishapes_sample_nodangle_window: /usr/local/bin/RNAalishapes_sample_nodangle_window
+  RNAalishapes_sample_overdangle: /usr/local/bin/RNAalishapes_sample_overdangle
+  RNAalishapes_sample_overdangle_window: /usr/local/bin/RNAalishapes_sample_overdangle_window
+  RNAalishapes_sci_macrostate: /usr/local/bin/RNAalishapes_sci_macrostate
+  RNAalishapes_sci_microstate: /usr/local/bin/RNAalishapes_sci_microstate
+  RNAalishapes_sci_nodangle: /usr/local/bin/RNAalishapes_sci_nodangle
+  RNAalishapes_sci_overdangle: /usr/local/bin/RNAalishapes_sci_overdangle
+  RNAalishapes_shapes_macrostate: /usr/local/bin/RNAalishapes_shapes_macrostate
+  RNAalishapes_shapes_macrostate_window: /usr/local/bin/RNAalishapes_shapes_macrostate_window
+  RNAalishapes_shapes_microstate: /usr/local/bin/RNAalishapes_shapes_microstate
+  RNAalishapes_shapes_microstate_window: /usr/local/bin/RNAalishapes_shapes_microstate_window
+  RNAalishapes_shapes_nodangle: /usr/local/bin/RNAalishapes_shapes_nodangle
+  RNAalishapes_shapes_nodangle_window: /usr/local/bin/RNAalishapes_shapes_nodangle_window
+  RNAalishapes_shapes_overdangle: /usr/local/bin/RNAalishapes_shapes_overdangle
+  RNAalishapes_shapes_overdangle_window: /usr/local/bin/RNAalishapes_shapes_overdangle_window
+  RNAalishapes_subopt_macrostate: /usr/local/bin/RNAalishapes_subopt_macrostate
+  RNAalishapes_subopt_macrostate_window: /usr/local/bin/RNAalishapes_subopt_macrostate_window
+  RNAalishapes_subopt_microstate: /usr/local/bin/RNAalishapes_subopt_microstate
+  RNAalishapes_subopt_microstate_window: /usr/local/bin/RNAalishapes_subopt_microstate_window
+  RNAalishapes_subopt_nodangle: /usr/local/bin/RNAalishapes_subopt_nodangle
+  RNAalishapes_subopt_nodangle_window: /usr/local/bin/RNAalishapes_subopt_nodangle_window
+  RNAalishapes_subopt_overdangle: /usr/local/bin/RNAalishapes_subopt_overdangle
+  RNAalishapes_subopt_overdangle_window: /usr/local/bin/RNAalishapes_subopt_overdangle_window
+  addRNAoptions.pl: /usr/local/bin/addRNAoptions.pl
+  gapc: /usr/local/bin/gapc

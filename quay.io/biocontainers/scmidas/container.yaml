@@ -1,0 +1,50 @@
+url: https://biocontainers.pro/tools/scmidas
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scmidas
+latest:
+  0.0.17--pyhdfd78af_0: sha256:c9754604125e8b7ba22a0f2070712a6f71c72e7363f6c9b4399160886228cdae
+tags:
+  0.0.17--pyhdfd78af_0: sha256:c9754604125e8b7ba22a0f2070712a6f71c72e7363f6c9b4399160886228cdae
+docker: quay.io/biocontainers/scmidas
+aliases:
+  jlpm: /usr/local/bin/jlpm
+  jupyter-events: /usr/local/bin/jupyter-events
+  jupyter-lab: /usr/local/bin/jupyter-lab
+  jupyter-labextension: /usr/local/bin/jupyter-labextension
+  jupyter-labhub: /usr/local/bin/jupyter-labhub
+  jupyter-server: /usr/local/bin/jupyter-server
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pyjson5: /usr/local/bin/pyjson5
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qtpy: /usr/local/bin/qtpy
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  jsonpointer: /usr/local/bin/jsonpointer
+  dunamai: /usr/local/bin/dunamai
+  jupyter-console: /usr/local/bin/jupyter-console
+  protoc-25.3.0: /usr/local/bin/protoc-25.3.0
+  scalar: /usr/local/bin/scalar
+  wsdump: /usr/local/bin/wsdump
+  jupyter-qtconsole: /usr/local/bin/jupyter-qtconsole
+  numpy-config: /usr/local/bin/numpy-config
+  httpx: /usr/local/bin/httpx
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  send2trash: /usr/local/bin/send2trash
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  git: /usr/local/bin/git
+  git-cvsserver: /usr/local/bin/git-cvsserver
+  git-receive-pack: /usr/local/bin/git-receive-pack
+  git-shell: /usr/local/bin/git-shell
+  git-upload-archive: /usr/local/bin/git-upload-archive
+  git-upload-pack: /usr/local/bin/git-upload-pack
+  gitk: /usr/local/bin/gitk
+  torchrun: /usr/local/bin/torchrun
+  isympy: /usr/local/bin/isympy
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  pandoc-server: /usr/local/bin/pandoc-server
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  igraph: /usr/local/bin/igraph

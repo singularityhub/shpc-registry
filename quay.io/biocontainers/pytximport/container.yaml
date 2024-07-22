@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/pytximport
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pytximport
+latest:
+  0.6.0--pyhdfd78af_0: sha256:0218ce68841d9b3d44bc9e20600a6ec8e3689878c63f4f3131291c040ee7e8d5
+tags:
+  0.6.0--pyhdfd78af_0: sha256:0218ce68841d9b3d44bc9e20600a6ec8e3689878c63f4f3131291c040ee7e8d5
+docker: quay.io/biocontainers/pytximport
+aliases:
+  pytximport: /usr/local/bin/pytximport
+  protoc-25.3.0: /usr/local/bin/protoc-25.3.0
+  numpy-config: /usr/local/bin/numpy-config
+  dask: /usr/local/bin/dask
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  dask-scheduler: /usr/local/bin/dask-scheduler
+  dask-ssh: /usr/local/bin/dask-ssh
+  dask-worker: /usr/local/bin/dask-worker
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  csv-import: /usr/local/bin/csv-import
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  bokeh: /usr/local/bin/bokeh
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
+  h5delete: /usr/local/bin/h5delete

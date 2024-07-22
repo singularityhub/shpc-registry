@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/palikiss
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for palikiss
+latest:
+  1.1.0--pl5321h4ac6f70_0: sha256:136f308f3bb9662125d16c4c03aea04946e0a78a4d08fe34b2e2b91507524c45
+tags:
+  1.1.0--pl5321h4ac6f70_0: sha256:136f308f3bb9662125d16c4c03aea04946e0a78a4d08fe34b2e2b91507524c45
+docker: quay.io/biocontainers/palikiss
+aliases:
+  addRNAoptions.pl: /usr/local/bin/addRNAoptions.pl
+  gapc: /usr/local/bin/gapc
+  pAliKiss: /usr/local/bin/pAliKiss
+  pAliKiss_enforce: /usr/local/bin/pAliKiss_enforce
+  pAliKiss_enforce_window: /usr/local/bin/pAliKiss_enforce_window
+  pAliKiss_eval: /usr/local/bin/pAliKiss_eval
+  pAliKiss_local: /usr/local/bin/pAliKiss_local
+  pAliKiss_local_window: /usr/local/bin/pAliKiss_local_window
+  pAliKiss_mfe: /usr/local/bin/pAliKiss_mfe
+  pAliKiss_mfe_window: /usr/local/bin/pAliKiss_mfe_window
+  pAliKiss_probs: /usr/local/bin/pAliKiss_probs
+  pAliKiss_probs_window: /usr/local/bin/pAliKiss_probs_window
+  pAliKiss_rep_consensus: /usr/local/bin/pAliKiss_rep_consensus
+  pAliKiss_rep_mis: /usr/local/bin/pAliKiss_rep_mis
+  pAliKiss_sci: /usr/local/bin/pAliKiss_sci
+  pAliKiss_shapes: /usr/local/bin/pAliKiss_shapes
+  pAliKiss_shapes_window: /usr/local/bin/pAliKiss_shapes_window
+  pAliKiss_subopt: /usr/local/bin/pAliKiss_subopt
+  pAliKiss_subopt_window: /usr/local/bin/pAliKiss_subopt_window

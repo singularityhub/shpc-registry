@@ -1,0 +1,56 @@
+url: https://biocontainers.pro/tools/jupiterplot
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for jupiterplot
+latest:
+  1.1--hdfd78af_0: sha256:20274079981bdd332f7d8ad252a4a81621df5b61fe7c1c74beb62b0c347168a4
+tags:
+  1.1--hdfd78af_0: sha256:20274079981bdd332f7d8ad252a4a81621df5b61fe7c1c74beb62b0c347168a4
+docker: quay.io/biocontainers/jupiterplot
+aliases:
+  binlinks: /usr/local/bin/binlinks
+  bsmp2info: /usr/local/bin/bsmp2info
+  bundlelinks: /usr/local/bin/bundlelinks
+  calcdatarange: /usr/local/bin/calcdatarange
+  clustal2link: /usr/local/bin/clustal2link
+  colorinterpolate: /usr/local/bin/colorinterpolate
+  convertlinks: /usr/local/bin/convertlinks
+  filterlinks: /usr/local/bin/filterlinks
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  jupiter: /usr/local/bin/jupiter
+  just-top-hits: /usr/local/bin/just-top-hits
+  make-conf: /usr/local/bin/make-conf
+  make-table: /usr/local/bin/make-table
+  orderchr: /usr/local/bin/orderchr
+  parse-category: /usr/local/bin/parse-category
+  parse-table: /usr/local/bin/parse-table
+  pl2bat.pl: /usr/local/bin/pl2bat.pl
+  randomdata: /usr/local/bin/randomdata
+  randomlinks: /usr/local/bin/randomlinks
+  resample: /usr/local/bin/resample
+  systematic-mutations: /usr/local/bin/systematic-mutations
+  TMalign: /usr/local/bin/TMalign
+  make_pscores.pl: /usr/local/bin/make_pscores.pl
+  poa: /usr/local/bin/poa
+  circos: /usr/local/bin/circos
+  circos.exe: /usr/local/bin/circos.exe
+  compile.bat: /usr/local/bin/compile.bat
+  compile.make: /usr/local/bin/compile.make
+  gddiag: /usr/local/bin/gddiag
+  list.modules: /usr/local/bin/list.modules
+  test.modules: /usr/local/bin/test.modules
+  gawk-5.3.0: /usr/local/bin/gawk-5.3.0
+  gawkbug: /usr/local/bin/gawkbug
+  RNAmultifold: /usr/local/bin/RNAmultifold
+  archive-ncbinlp: /usr/local/bin/archive-ncbinlp
+  archive-nihocc: /usr/local/bin/archive-nihocc
+  archive-nmcds: /usr/local/bin/archive-nmcds
+  archive-pmc: /usr/local/bin/archive-pmc
+  archive-taxonomy: /usr/local/bin/archive-taxonomy
+  args2slice: /usr/local/bin/args2slice
+  asn2ref: /usr/local/bin/asn2ref
+  blst2gm: /usr/local/bin/blst2gm
+  cit2pmid: /usr/local/bin/cit2pmid
+  combine-uid-lists: /usr/local/bin/combine-uid-lists
+  difference-uid-lists: /usr/local/bin/difference-uid-lists
+  download-pmc: /usr/local/bin/download-pmc
