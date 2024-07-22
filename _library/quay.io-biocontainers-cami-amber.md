@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cami-amber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cami-amber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cami-amber/container.yaml"
-updated_at: "2024-07-22 02:47:02.965243"
+updated_at: "2024-07-22 03:23:48.106068"
 latest: "2.0.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/cami-amber"
 aliases:
