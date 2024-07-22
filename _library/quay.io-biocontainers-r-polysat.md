@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-polysat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-polysat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-polysat/container.yaml"
-updated_at: "2024-07-21 03:11:04.683431"
+updated_at: "2024-07-22 03:13:20.846199"
 latest: "1.7_4--r351h14c3975_0"
 container_url: "https://biocontainers.pro/tools/r-polysat"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.7_4--r351h14c3975_0"
 description: "shpc-registry automated BioContainers addition for r-polysat"
-config: {"url": "https://biocontainers.pro/tools/r-polysat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-polysat", "latest": {"1.7_4--r351h14c3975_0": "sha256:ce4b7a2a8ec1c3d6883f3c7cf9f234abbb9830d8225374abd99f8fea127b3d4b"}, "tags": {"1.7_4--r351h14c3975_0": "sha256:ce4b7a2a8ec1c3d6883f3c7cf9f234abbb9830d8225374abd99f8fea127b3d4b"}, "docker": "quay.io/biocontainers/r-polysat", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-polysat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-polysat", "latest": {"1.7_4--r351h14c3975_0": "sha256:cafae81bd56a991375d39c952c0362ae5fe48020cdeb6c52d68ba479fc67bcdb"}, "tags": {"1.7_4--r351h14c3975_0": "sha256:cafae81bd56a991375d39c952c0362ae5fe48020cdeb6c52d68ba479fc67bcdb"}, "docker": "quay.io/biocontainers/r-polysat", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-polysat.

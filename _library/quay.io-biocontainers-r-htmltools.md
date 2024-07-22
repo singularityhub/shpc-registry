@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-htmltools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-htmltools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-htmltools/container.yaml"
-updated_at: "2024-07-21 02:43:07.895111"
+updated_at: "2024-07-22 02:44:48.394906"
 latest: "0.3--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-htmltools"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "0.3--r3.2.2_0"
  - "0.3--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-htmltools"
-config: {"url": "https://biocontainers.pro/tools/r-htmltools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-htmltools", "latest": {"0.3--r3.2.2_0": "sha256:f34b92782659ca868de203c1767986fb4e7c7e156e0ad4b31528ed30697cf6c4"}, "tags": {"0.3--r3.2.2_0": "sha256:f34b92782659ca868de203c1767986fb4e7c7e156e0ad4b31528ed30697cf6c4", "0.3--r3.3.2_0": "sha256:92aec45b55cae0601816092619e5c4127339470a1eca55c1d39a561d33e46ee2"}, "docker": "quay.io/biocontainers/r-htmltools", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-htmltools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-htmltools", "latest": {"0.3--r3.2.2_0": "sha256:98bb2cb0a1d6e355b6211e622d88189b4b1595d5d9709bcfc2850b987222487a"}, "tags": {"0.3--r3.2.2_0": "sha256:98bb2cb0a1d6e355b6211e622d88189b4b1595d5d9709bcfc2850b987222487a", "0.3--r3.3.2_0": "sha256:1977bb1940de2af153a6bf179d535ca547cae885c2d5a9997361f72ddfb6b514"}, "docker": "quay.io/biocontainers/r-htmltools", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-htmltools.

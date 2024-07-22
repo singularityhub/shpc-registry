@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-onesense"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-onesense/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-onesense/container.yaml"
-updated_at: "2024-07-21 02:39:37.850496"
+updated_at: "2024-07-22 02:41:18.257261"
 latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-onesense"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "1.12.0--r40hdfd78af_1"
  - "1.10.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-onesense"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-onesense", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-onesense", "latest": {"1.20.0--r42hdfd78af_0": "sha256:58ebfd3f39b199da539beff085acbfca7299e350a0317dfee59fc86adf1d4364"}, "tags": {"1.8.0--r36_0": "sha256:f7a84a1a9a4ca27acd970d30fd70ffc891017603aa03c077b059f12296973fd7", "1.20.0--r42hdfd78af_0": "sha256:58ebfd3f39b199da539beff085acbfca7299e350a0317dfee59fc86adf1d4364", "1.16.0--r41hdfd78af_0": "sha256:3e70bec389ac893693c12ab9f6ea71a4a2eda0cc8f7caf4e1db916b474957996", "1.14.0--r41hdfd78af_0": "sha256:34edb9d560243d3e025ae66429f84b9bf61e7f26ae03978a40fc14cfe6ea72aa", "1.12.0--r40hdfd78af_1": "sha256:2696c09ca6ebf74049e5c12dec486d596b3ffb0186df6100a50b58805c816c72", "1.10.0--r40_0": "sha256:c67f4af66b9af996671006234fa9926d7d40e27730005443c410de2972fc6c6a"}, "docker": "quay.io/biocontainers/bioconductor-onesense", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-onesense", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-onesense", "latest": {"1.20.0--r42hdfd78af_0": "sha256:58ebfd3f39b199da539beff085acbfca7299e350a0317dfee59fc86adf1d4364"}, "tags": {"1.8.0--r36_0": "sha256:da34cec04d9a964ff9934662ae361ba5a018abe9008ddd74bc378062532c71c0", "1.20.0--r42hdfd78af_0": "sha256:58ebfd3f39b199da539beff085acbfca7299e350a0317dfee59fc86adf1d4364", "1.16.0--r41hdfd78af_0": "sha256:3e70bec389ac893693c12ab9f6ea71a4a2eda0cc8f7caf4e1db916b474957996", "1.14.0--r41hdfd78af_0": "sha256:34edb9d560243d3e025ae66429f84b9bf61e7f26ae03978a40fc14cfe6ea72aa", "1.12.0--r40hdfd78af_1": "sha256:2696c09ca6ebf74049e5c12dec486d596b3ffb0186df6100a50b58805c816c72", "1.10.0--r40_0": "sha256:c67f4af66b9af996671006234fa9926d7d40e27730005443c410de2972fc6c6a"}, "docker": "quay.io/biocontainers/bioconductor-onesense", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-onesense.

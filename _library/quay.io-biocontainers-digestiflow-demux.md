@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/digestiflow-demux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/digestiflow-demux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/digestiflow-demux/container.yaml"
-updated_at: "2024-07-21 03:01:21.901300"
+updated_at: "2024-07-22 03:03:24.073796"
 latest: "0.5.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/digestiflow-demux"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "0.5.2--py_0"
  - "0.5.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for digestiflow-demux"
-config: {"url": "https://biocontainers.pro/tools/digestiflow-demux", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for digestiflow-demux", "latest": {"0.5.3--pyhdfd78af_0": "sha256:7df3b2c170ff4b1d51a09633ca27ecb757ba1984bf86143dde4cb37d6cac490c"}, "tags": {"0.5.2--py_0": "sha256:9ff7c24380e4ab456d3651f13ce15af623c794b66f386378e529119c63480ee5", "0.5.3--pyhdfd78af_0": "sha256:7df3b2c170ff4b1d51a09633ca27ecb757ba1984bf86143dde4cb37d6cac490c"}, "docker": "quay.io/biocontainers/digestiflow-demux", "aliases": {"digestiflow-demux": "/usr/local/bin/digestiflow-demux", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "snakemake": "/usr/local/bin/snakemake"}}
+config: {"url": "https://biocontainers.pro/tools/digestiflow-demux", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for digestiflow-demux", "latest": {"0.5.3--pyhdfd78af_0": "sha256:7df3b2c170ff4b1d51a09633ca27ecb757ba1984bf86143dde4cb37d6cac490c"}, "tags": {"0.5.2--py_0": "sha256:83efdedd5b491f2d35824b14fff5c9b9fb48456a27be450458b24cbcc4bef0ca", "0.5.3--pyhdfd78af_0": "sha256:7df3b2c170ff4b1d51a09633ca27ecb757ba1984bf86143dde4cb37d6cac490c"}, "docker": "quay.io/biocontainers/digestiflow-demux", "aliases": {"digestiflow-demux": "/usr/local/bin/digestiflow-demux", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "snakemake": "/usr/local/bin/snakemake"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/digestiflow-demux.

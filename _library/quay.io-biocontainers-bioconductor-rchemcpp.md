@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rchemcpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rchemcpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rchemcpp/container.yaml"
-updated_at: "2024-07-21 03:14:30.053414"
+updated_at: "2024-07-22 03:16:46.897384"
 latest: "2.21.1--r36he1b5a44_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rchemcpp"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "2.21.1--r36he1b5a44_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rchemcpp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rchemcpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rchemcpp", "latest": {"2.21.1--r36he1b5a44_1": "sha256:e02c93c7489e1f074ea45cdd37e6b2f48c604bd597de7b19c10f694abc142ad0"}, "tags": {"2.21.1--r36he1b5a44_1": "sha256:e02c93c7489e1f074ea45cdd37e6b2f48c604bd597de7b19c10f694abc142ad0"}, "docker": "quay.io/biocontainers/bioconductor-rchemcpp", "aliases": {"croco-0.6-config": "/usr/local/bin/croco-0.6-config", "csslint-0.6": "/usr/local/bin/csslint-0.6", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rchemcpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rchemcpp", "latest": {"2.21.1--r36he1b5a44_1": "sha256:c144fb96c37a94ad233be44df5008cb519e9cb9ff7f07efb3acbfaf7732e4c7b"}, "tags": {"2.21.1--r36he1b5a44_1": "sha256:c144fb96c37a94ad233be44df5008cb519e9cb9ff7f07efb3acbfaf7732e4c7b"}, "docker": "quay.io/biocontainers/bioconductor-rchemcpp", "aliases": {"croco-0.6-config": "/usr/local/bin/croco-0.6-config", "csslint-0.6": "/usr/local/bin/csslint-0.6", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rchemcpp.

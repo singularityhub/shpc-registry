@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/music-deconvolution"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/music-deconvolution/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/music-deconvolution/container.yaml"
-updated_at: "2024-07-21 03:07:42.100749"
+updated_at: "2024-07-22 03:09:55.031846"
 latest: "0.1.1--r351_0"
 container_url: "https://biocontainers.pro/tools/music-deconvolution"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "0.1.1--r351_0"
 description: "shpc-registry automated BioContainers addition for music-deconvolution"
-config: {"url": "https://biocontainers.pro/tools/music-deconvolution", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for music-deconvolution", "latest": {"0.1.1--r351_0": "sha256:b56c20e835049df83ecb21e599b611d6d835cfc7e1afa0771fa99403eda36576"}, "tags": {"0.1.1--r351_0": "sha256:b56c20e835049df83ecb21e599b611d6d835cfc7e1afa0771fa99403eda36576"}, "docker": "quay.io/biocontainers/music-deconvolution", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/music-deconvolution", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for music-deconvolution", "latest": {"0.1.1--r351_0": "sha256:51cb7a647dda3515c89895918aacf731473a5070311f9be78a44cdaad7d27a65"}, "tags": {"0.1.1--r351_0": "sha256:51cb7a647dda3515c89895918aacf731473a5070311f9be78a44cdaad7d27a65"}, "docker": "quay.io/biocontainers/music-deconvolution", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/music-deconvolution.

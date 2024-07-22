@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ramigo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ramigo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ramigo/container.yaml"
-updated_at: "2024-07-21 03:03:39.726301"
+updated_at: "2024-07-22 03:05:44.398804"
 latest: "1.28.0--r341_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ramigo"
 aliases:
@@ -12,8 +12,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.28.0--r341_0"
+ - "1.28.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ramigo"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ramigo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ramigo", "latest": {"1.28.0--r341_0": "sha256:ca6149d0f101a6dd6bef862062e7115c44fe72cc0d1cb5341c6bbd4e73f795e0"}, "tags": {"1.28.0--r341_0": "sha256:ca6149d0f101a6dd6bef862062e7115c44fe72cc0d1cb5341c6bbd4e73f795e0"}, "docker": "quay.io/biocontainers/bioconductor-ramigo", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ramigo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ramigo", "latest": {"1.28.0--r341_0": "sha256:1e1a18506ebc4db4bc65fecd30c2a9d77f4eafd35de647052609ae11b8df3d0b"}, "tags": {"1.28.0--r341_0": "sha256:1e1a18506ebc4db4bc65fecd30c2a9d77f4eafd35de647052609ae11b8df3d0b", "1.28.0--r351_0": "sha256:b84c6d33184dcdb33ec6b1d7c17ad910b52f876f76bc86002f62d22f36b9b423"}, "docker": "quay.io/biocontainers/bioconductor-ramigo", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ramigo.

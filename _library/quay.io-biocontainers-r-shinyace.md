@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-shinyace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-shinyace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-shinyace/container.yaml"
-updated_at: "2024-07-21 02:57:18.267442"
+updated_at: "2024-07-22 02:59:16.310635"
 latest: "0.2.1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-shinyace"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "0.2.1--r3.3.1_0"
  - "0.2.1--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-shinyace"
-config: {"url": "https://biocontainers.pro/tools/r-shinyace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-shinyace", "latest": {"0.2.1--r3.3.1_0": "sha256:d59b1165f0a8507757bb08ca937f762eda645b0009d7163274684eae98464599"}, "tags": {"0.2.1--r3.3.1_0": "sha256:d59b1165f0a8507757bb08ca937f762eda645b0009d7163274684eae98464599", "0.2.1--r3.3.2_0": "sha256:55e93fe8d02b33141c9f4e1d81b573f6975aa5c6d4fa92afeb2d752e18b45141"}, "docker": "quay.io/biocontainers/r-shinyace", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-shinyace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-shinyace", "latest": {"0.2.1--r3.3.1_0": "sha256:79b76a7043cfd59df293643b879364f323e54f540db07d143cc2364e96c884db"}, "tags": {"0.2.1--r3.3.1_0": "sha256:79b76a7043cfd59df293643b879364f323e54f540db07d143cc2364e96c884db", "0.2.1--r3.3.2_0": "sha256:42cf4843834fb91b7666607a0524fe0d8d4448b73ad21a3851952011389fdee2"}, "docker": "quay.io/biocontainers/r-shinyace", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-shinyace.

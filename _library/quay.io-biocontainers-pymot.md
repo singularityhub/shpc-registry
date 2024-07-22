@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pymot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pymot/container.yaml"
-updated_at: "2024-07-21 03:18:21.200134"
+updated_at: "2024-07-22 03:20:39.564065"
 latest: "13.09.2016--py_2"
 container_url: "https://biocontainers.pro/tools/pymot"
 aliases:
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "13.09.2016--py_2"
 description: "shpc-registry automated BioContainers addition for pymot"
-config: {"url": "https://biocontainers.pro/tools/pymot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pymot", "latest": {"13.09.2016--py_2": "sha256:194428ee88abb987838a1db0b47f03d9fc114131384f921518395261973027ea"}, "tags": {"13.09.2016--py_2": "sha256:194428ee88abb987838a1db0b47f03d9fc114131384f921518395261973027ea"}, "docker": "quay.io/biocontainers/pymot", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/pymot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pymot", "latest": {"13.09.2016--py_2": "sha256:5b5081a0bdc4405040ce56bb41d2d6469605f97304eb1069e7aa2c7cc6b2e3db"}, "tags": {"13.09.2016--py_2": "sha256:5b5081a0bdc4405040ce56bb41d2d6469605f97304eb1069e7aa2c7cc6b2e3db"}, "docker": "quay.io/biocontainers/pymot", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pymot.

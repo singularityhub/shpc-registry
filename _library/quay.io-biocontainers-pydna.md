@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pydna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydna/container.yaml"
-updated_at: "2024-07-21 03:01:02.976592"
-latest: "3.1.0--py_0"
+updated_at: "2024-07-22 03:03:04.809150"
+latest: "5.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pydna"
 aliases:
  - "f2py3.8"
@@ -17,8 +17,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "3.1.0--py_0"
+ - "5.2.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pydna"
-config: {"url": "https://biocontainers.pro/tools/pydna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pydna", "latest": {"3.1.0--py_0": "sha256:aa6d39a8ee0ff2c218c7ba2904df8e15e76e9953301308883d7acf351e315492"}, "tags": {"3.1.0--py_0": "sha256:aa6d39a8ee0ff2c218c7ba2904df8e15e76e9953301308883d7acf351e315492"}, "docker": "quay.io/biocontainers/pydna", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/pydna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pydna", "latest": {"5.2.0--pyhdfd78af_0": "sha256:5974d904bca99aeac49000d1a6d01addf5fe82dcf26dd3a94a3056e302959ba2"}, "tags": {"3.1.0--py_0": "sha256:aa6d39a8ee0ff2c218c7ba2904df8e15e76e9953301308883d7acf351e315492", "5.2.0--pyhdfd78af_0": "sha256:5974d904bca99aeac49000d1a6d01addf5fe82dcf26dd3a94a3056e302959ba2"}, "docker": "quay.io/biocontainers/pydna", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pydna.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/pydna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pydna:3.1.0--py_0
+$ shpc install quay.io/biocontainers/pydna:5.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pydna/3.1.0--py_0
-$ module help quay.io/biocontainers/pydna/3.1.0--py_0
+$ module load quay.io/biocontainers/pydna/5.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/pydna/5.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

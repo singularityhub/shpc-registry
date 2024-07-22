@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-iontreedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iontreedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iontreedata/container.yaml"
-updated_at: "2024-07-21 03:11:58.491130"
+updated_at: "2024-07-22 03:14:15.199279"
 latest: "1.18.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-iontreedata"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.18.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-iontreedata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-iontreedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-iontreedata", "latest": {"1.18.0--r351_0": "sha256:a4413b46cdaa47fc58538e6798ba80ac1884f41d5f3719659b5e96626623965f"}, "tags": {"1.18.0--r351_0": "sha256:a4413b46cdaa47fc58538e6798ba80ac1884f41d5f3719659b5e96626623965f"}, "docker": "quay.io/biocontainers/bioconductor-iontreedata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-iontreedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-iontreedata", "latest": {"1.18.0--r351_0": "sha256:6d86ef0fc6380252737f4c2dd01b7d6970b4ddf4b3b279c5f34150ac105cb87d"}, "tags": {"1.18.0--r351_0": "sha256:6d86ef0fc6380252737f4c2dd01b7d6970b4ddf4b3b279c5f34150ac105cb87d"}, "docker": "quay.io/biocontainers/bioconductor-iontreedata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-iontreedata.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bedr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bedr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bedr/container.yaml"
-updated_at: "2024-07-21 02:54:51.275714"
+updated_at: "2024-07-22 02:56:44.296284"
 latest: "1.0.4--r351h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-bedr"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.0.4--r351h6115d3f_1"
 description: "shpc-registry automated BioContainers addition for r-bedr"
-config: {"url": "https://biocontainers.pro/tools/r-bedr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bedr", "latest": {"1.0.4--r351h6115d3f_1": "sha256:1fa66362f6cb4495162369f7ebbd8458fb5b20ca59cd0c7eb231ab80ba47e2c4"}, "tags": {"1.0.4--r351h6115d3f_1": "sha256:1fa66362f6cb4495162369f7ebbd8458fb5b20ca59cd0c7eb231ab80ba47e2c4"}, "docker": "quay.io/biocontainers/r-bedr", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-bedr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bedr", "latest": {"1.0.4--r351h6115d3f_1": "sha256:c4172edee11d786f398c33cd3d86780c9067354f37ccbb2ca67c17f71b5179d5"}, "tags": {"1.0.4--r351h6115d3f_1": "sha256:c4172edee11d786f398c33cd3d86780c9067354f37ccbb2ca67c17f71b5179d5"}, "docker": "quay.io/biocontainers/r-bedr", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bedr.

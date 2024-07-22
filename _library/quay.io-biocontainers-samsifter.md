@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/samsifter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samsifter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samsifter/container.yaml"
-updated_at: "2024-07-21 03:04:51.337505"
+updated_at: "2024-07-22 03:06:58.976187"
 latest: "1.0.0--py35h3978dc7_3"
 container_url: "https://biocontainers.pro/tools/samsifter"
 
 versions:
  - "1.0.0--py35h3978dc7_3"
+ - "1.0.0--py36h3978dc7_3"
 description: "shpc-registry automated BioContainers addition for samsifter"
-config: {"url": "https://biocontainers.pro/tools/samsifter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samsifter", "latest": {"1.0.0--py35h3978dc7_3": "sha256:a04156bee0343841b85488d91ba5461b14214a5ad17c92086541523b7315e925"}, "tags": {"1.0.0--py35h3978dc7_3": "sha256:a04156bee0343841b85488d91ba5461b14214a5ad17c92086541523b7315e925"}, "docker": "quay.io/biocontainers/samsifter"}
+config: {"url": "https://biocontainers.pro/tools/samsifter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samsifter", "latest": {"1.0.0--py35h3978dc7_3": "sha256:2c3bd0ceb557050993c1be433bc1795366e06d4ac7b09d9c984a75fb92b5fcbd"}, "tags": {"1.0.0--py35h3978dc7_3": "sha256:2c3bd0ceb557050993c1be433bc1795366e06d4ac7b09d9c984a75fb92b5fcbd", "1.0.0--py36h3978dc7_3": "sha256:3ae30293dd48607c5e8f39ae3d3e0f959e5294006caf2777e066ba1f2d1d8fdd"}, "docker": "quay.io/biocontainers/samsifter"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samsifter.

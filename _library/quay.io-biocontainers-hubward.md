@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/hubward"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hubward/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hubward/container.yaml"
-updated_at: "2024-07-21 02:38:18.294571"
+updated_at: "2024-07-22 02:39:58.260058"
 latest: "0.2.2--py27_1"
 container_url: "https://biocontainers.pro/tools/hubward"
 
 versions:
  - "0.2.2--py27_1"
 description: "shpc-registry automated BioContainers addition for hubward"
-config: {"url": "https://biocontainers.pro/tools/hubward", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hubward", "latest": {"0.2.2--py27_1": "sha256:d88b301d815cdeb431d628553656c466fbc744f90b4fd28461fba3ecc629727c"}, "tags": {"0.2.2--py27_1": "sha256:d88b301d815cdeb431d628553656c466fbc744f90b4fd28461fba3ecc629727c"}, "docker": "quay.io/biocontainers/hubward"}
+config: {"url": "https://biocontainers.pro/tools/hubward", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hubward", "latest": {"0.2.2--py27_1": "sha256:cd0bf802e0a5584b59c835c08653f78ea0671f9564d9c2d3c427dd0f10de3b4f"}, "tags": {"0.2.2--py27_1": "sha256:cd0bf802e0a5584b59c835c08653f78ea0671f9564d9c2d3c427dd0f10de3b4f"}, "docker": "quay.io/biocontainers/hubward"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hubward.

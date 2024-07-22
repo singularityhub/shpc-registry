@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gdc-client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gdc-client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gdc-client/container.yaml"
-updated_at: "2024-07-21 03:21:52.110868"
-latest: "1.6.1--pyhdfd78af_0"
+updated_at: "2024-07-22 03:24:11.471776"
+latest: "2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gdc-client"
 aliases:
  - "gdc-client"
@@ -22,8 +22,9 @@ aliases:
  - "python3.7m"
 versions:
  - "1.6.1--pyhdfd78af_0"
+ - "2.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gdc-client"
-config: {"url": "https://biocontainers.pro/tools/gdc-client", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gdc-client", "latest": {"1.6.1--pyhdfd78af_0": "sha256:15159ad380451800cbd90ad137b56b9f27e807f450313187890fc22f94221639"}, "tags": {"1.6.1--pyhdfd78af_0": "sha256:15159ad380451800cbd90ad137b56b9f27e807f450313187890fc22f94221639"}, "docker": "quay.io/biocontainers/gdc-client", "aliases": {"gdc-client": "/usr/local/bin/gdc-client", "ndg_httpclient": "/usr/local/bin/ndg_httpclient", "jsonschema": "/usr/local/bin/jsonschema", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
+config: {"url": "https://biocontainers.pro/tools/gdc-client", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gdc-client", "latest": {"2.0--pyhdfd78af_0": "sha256:b71adde36d19903c5797c30690a71a5164333c9260e815e6b287b5a3d13e9593"}, "tags": {"1.6.1--pyhdfd78af_0": "sha256:15159ad380451800cbd90ad137b56b9f27e807f450313187890fc22f94221639", "2.0--pyhdfd78af_0": "sha256:b71adde36d19903c5797c30690a71a5164333c9260e815e6b287b5a3d13e9593"}, "docker": "quay.io/biocontainers/gdc-client", "aliases": {"gdc-client": "/usr/local/bin/gdc-client", "ndg_httpclient": "/usr/local/bin/ndg_httpclient", "jsonschema": "/usr/local/bin/jsonschema", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gdc-client.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/gdc-client
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gdc-client:1.6.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gdc-client:2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gdc-client/1.6.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/gdc-client/1.6.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/gdc-client/2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/gdc-client/2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

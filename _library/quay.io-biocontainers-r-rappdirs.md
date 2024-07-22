@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rappdirs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rappdirs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rappdirs/container.yaml"
-updated_at: "2024-07-21 03:19:32.584873"
+updated_at: "2024-07-22 03:21:51.062837"
 latest: "0.3--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-rappdirs"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.3--r3.3.2_0"
+ - "0.3--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-rappdirs"
-config: {"url": "https://biocontainers.pro/tools/r-rappdirs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rappdirs", "latest": {"0.3--r3.3.2_0": "sha256:6422f52a52d3b226ed17feea10748aad358b86d640b777facb94de9240c8e2e7"}, "tags": {"0.3--r3.3.2_0": "sha256:6422f52a52d3b226ed17feea10748aad358b86d640b777facb94de9240c8e2e7"}, "docker": "quay.io/biocontainers/r-rappdirs", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rappdirs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rappdirs", "latest": {"0.3--r3.3.2_0": "sha256:0c5a0b97645f9a7d00e0b447f5f39dea54ca4ad04dae32213e13de0e1c55c8ec"}, "tags": {"0.3--r3.3.2_0": "sha256:0c5a0b97645f9a7d00e0b447f5f39dea54ca4ad04dae32213e13de0e1c55c8ec", "0.3--r3.2.2_0": "sha256:10eb023aae65d0b9a7871de0b2bda59ba2cadbb4bfa235dc294015ac4bc69a42"}, "docker": "quay.io/biocontainers/r-rappdirs", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rappdirs.

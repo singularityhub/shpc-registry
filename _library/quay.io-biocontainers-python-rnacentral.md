@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-rnacentral"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-rnacentral/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-rnacentral/container.yaml"
-updated_at: "2024-07-21 03:21:48.696183"
+updated_at: "2024-07-22 03:24:08.093918"
 latest: "1.0.0--0"
 container_url: "https://biocontainers.pro/tools/python-rnacentral"
 aliases:
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "1.0.0--0"
 description: "shpc-registry automated BioContainers addition for python-rnacentral"
-config: {"url": "https://biocontainers.pro/tools/python-rnacentral", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-rnacentral", "latest": {"1.0.0--0": "sha256:45c6a65d549ef14be840956865911ef5ca5f039b191a0dc81bce142d5c146b7e"}, "tags": {"1.0.0--0": "sha256:45c6a65d549ef14be840956865911ef5ca5f039b191a0dc81bce142d5c146b7e"}, "docker": "quay.io/biocontainers/python-rnacentral", "aliases": {"rnacentral.py": "/usr/local/bin/rnacentral.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/python-rnacentral", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-rnacentral", "latest": {"1.0.0--0": "sha256:d46bce0e4703d9cd6d31899d7fa1fdfa2d5fed83b4581a440ca98ce9b3c410a9"}, "tags": {"1.0.0--0": "sha256:d46bce0e4703d9cd6d31899d7fa1fdfa2d5fed83b4581a440ca98ce9b3c410a9"}, "docker": "quay.io/biocontainers/python-rnacentral", "aliases": {"rnacentral.py": "/usr/local/bin/rnacentral.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-rnacentral.

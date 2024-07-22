@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metametamerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metametamerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metametamerge/container.yaml"
-updated_at: "2024-07-21 03:07:58.558701"
+updated_at: "2024-07-22 03:10:11.834929"
 latest: "1.1--py_2"
 container_url: "https://biocontainers.pro/tools/metametamerge"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.1--py_2"
 description: "shpc-registry automated BioContainers addition for metametamerge"
-config: {"url": "https://biocontainers.pro/tools/metametamerge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metametamerge", "latest": {"1.1--py_2": "sha256:1cfa89b4c160fedcd9b961c19e3ca9980d1e01eea9164b29c9333f318e3bc266"}, "tags": {"1.1--py_2": "sha256:1cfa89b4c160fedcd9b961c19e3ca9980d1e01eea9164b29c9333f318e3bc266"}, "docker": "quay.io/biocontainers/metametamerge", "aliases": {"MetaMetaMerge.py": "/usr/local/bin/MetaMetaMerge.py", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/metametamerge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metametamerge", "latest": {"1.1--py_2": "sha256:9dc03b927a4b5e0cb950261f52f57b2efb99b9935fbe7e3f8f220516936dbbcd"}, "tags": {"1.1--py_2": "sha256:9dc03b927a4b5e0cb950261f52f57b2efb99b9935fbe7e3f8f220516936dbbcd"}, "docker": "quay.io/biocontainers/metametamerge", "aliases": {"MetaMetaMerge.py": "/usr/local/bin/MetaMetaMerge.py", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metametamerge.

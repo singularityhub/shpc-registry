@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fq/container.yaml"
-updated_at: "2024-07-21 03:10:10.618539"
-latest: "0.11.0--h9ee0642_1"
+updated_at: "2024-07-22 03:12:25.390535"
+latest: "0.12.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/fq"
 aliases:
  - "fq"
@@ -14,8 +14,9 @@ versions:
  - "0.10.0--h9ee0642_0"
  - "0.11.0--h9ee0642_0"
  - "0.11.0--h9ee0642_1"
+ - "0.12.0--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for fq"
-config: {"url": "https://biocontainers.pro/tools/fq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fq", "latest": {"0.11.0--h9ee0642_1": "sha256:c84c103d52c60102595f3a6927bd6b418b7772f7851d4531a012d69c273cf60a"}, "tags": {"0.9.1--h9ee0642_0": "sha256:4018a43410a1c364043daca1acf792b1516bdc68c416bc7e73ce3395e770e913", "0.10.0--h9ee0642_0": "sha256:dd565b9463020d46207a68312310c2bcb62e367c69a3195f1c2a06acf72a0c92", "0.11.0--h9ee0642_0": "sha256:27ed2cc8998659e3a4261d6484d7e173805936733d7a1a80fc00f871c62c2156", "0.11.0--h9ee0642_1": "sha256:c84c103d52c60102595f3a6927bd6b418b7772f7851d4531a012d69c273cf60a"}, "docker": "quay.io/biocontainers/fq", "aliases": {"fq": "/usr/local/bin/fq"}}
+config: {"url": "https://biocontainers.pro/tools/fq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fq", "latest": {"0.12.0--h9ee0642_0": "sha256:74b59572f1d05b4829b45b599ee04311c8b3acec510f3cfb879f23b4bbd2090b"}, "tags": {"0.9.1--h9ee0642_0": "sha256:4018a43410a1c364043daca1acf792b1516bdc68c416bc7e73ce3395e770e913", "0.10.0--h9ee0642_0": "sha256:dd565b9463020d46207a68312310c2bcb62e367c69a3195f1c2a06acf72a0c92", "0.11.0--h9ee0642_0": "sha256:27ed2cc8998659e3a4261d6484d7e173805936733d7a1a80fc00f871c62c2156", "0.11.0--h9ee0642_1": "sha256:c84c103d52c60102595f3a6927bd6b418b7772f7851d4531a012d69c273cf60a", "0.12.0--h9ee0642_0": "sha256:74b59572f1d05b4829b45b599ee04311c8b3acec510f3cfb879f23b4bbd2090b"}, "docker": "quay.io/biocontainers/fq", "aliases": {"fq": "/usr/local/bin/fq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fq.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/fq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fq:0.11.0--h9ee0642_1
+$ shpc install quay.io/biocontainers/fq:0.12.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fq/0.11.0--h9ee0642_1
-$ module help quay.io/biocontainers/fq/0.11.0--h9ee0642_1
+$ module load quay.io/biocontainers/fq/0.12.0--h9ee0642_0
+$ module help quay.io/biocontainers/fq/0.12.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

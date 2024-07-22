@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rdp-readseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdp-readseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdp-readseq/container.yaml"
-updated_at: "2024-07-21 02:42:10.573426"
+updated_at: "2024-07-22 02:43:51.275722"
 latest: "2.0.2--1"
 container_url: "https://biocontainers.pro/tools/rdp-readseq"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "2.0.2--1"
 description: "shpc-registry automated BioContainers addition for rdp-readseq"
-config: {"url": "https://biocontainers.pro/tools/rdp-readseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rdp-readseq", "latest": {"2.0.2--1": "sha256:b0bd08c2989538f20a60f134b622ad6dcac4d762d9696daf6dcb03b7970823c1"}, "tags": {"2.0.2--1": "sha256:b0bd08c2989538f20a60f134b622ad6dcac4d762d9696daf6dcb03b7970823c1"}, "docker": "quay.io/biocontainers/rdp-readseq", "aliases": {"ReadSeq": "/usr/local/bin/ReadSeq", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/rdp-readseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rdp-readseq", "latest": {"2.0.2--1": "sha256:56b096f00ab7e7cd2189fc4387721e5786ac8592c34341c3988146424c3bcdd8"}, "tags": {"2.0.2--1": "sha256:56b096f00ab7e7cd2189fc4387721e5786ac8592c34341c3988146424c3bcdd8"}, "docker": "quay.io/biocontainers/rdp-readseq", "aliases": {"ReadSeq": "/usr/local/bin/ReadSeq", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rdp-readseq.

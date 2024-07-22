@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-googlegenomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-googlegenomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-googlegenomics/container.yaml"
-updated_at: "2024-07-21 03:01:19.922395"
+updated_at: "2024-07-22 03:03:22.070730"
 latest: "2.4.0--r351hf484d3e_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-googlegenomics"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "2.4.0--r351hf484d3e_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-googlegenomics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-googlegenomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-googlegenomics", "latest": {"2.4.0--r351hf484d3e_0": "sha256:548bff9db9b6a99006ddd90ae7dc4efd3da7c3b45a280aea4c368ea3fb646216"}, "tags": {"2.4.0--r351hf484d3e_0": "sha256:548bff9db9b6a99006ddd90ae7dc4efd3da7c3b45a280aea4c368ea3fb646216"}, "docker": "quay.io/biocontainers/bioconductor-googlegenomics", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-googlegenomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-googlegenomics", "latest": {"2.4.0--r351hf484d3e_0": "sha256:7dc138a5c52379a17e13d09799da9bb23ffb395cc2df5a233cc8123f611cea80"}, "tags": {"2.4.0--r351hf484d3e_0": "sha256:7dc138a5c52379a17e13d09799da9bb23ffb395cc2df5a233cc8123f611cea80"}, "docker": "quay.io/biocontainers/bioconductor-googlegenomics", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-googlegenomics.

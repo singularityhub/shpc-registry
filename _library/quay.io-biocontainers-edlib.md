@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/edlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/edlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/edlib/container.yaml"
-updated_at: "2024-07-21 02:37:26.333550"
+updated_at: "2024-07-22 02:39:06.050794"
 latest: "1.2.3--h2d50403_1"
 container_url: "https://biocontainers.pro/tools/edlib"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.2.3--h2d50403_1"
 description: "shpc-registry automated BioContainers addition for edlib"
-config: {"url": "https://biocontainers.pro/tools/edlib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for edlib", "latest": {"1.2.3--h2d50403_1": "sha256:acf2aa7794085e1864f67424a4369bdfbfad0f544cc15a132f3ac1cdb9518208"}, "tags": {"1.2.3--h2d50403_1": "sha256:acf2aa7794085e1864f67424a4369bdfbfad0f544cc15a132f3ac1cdb9518208"}, "docker": "quay.io/biocontainers/edlib", "aliases": {"edlib-aligner": "/usr/local/bin/edlib-aligner"}}
+config: {"url": "https://biocontainers.pro/tools/edlib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for edlib", "latest": {"1.2.3--h2d50403_1": "sha256:ca8c6c71a2b740aacfa34121b24d325200ffe2e6b1962e3350681d32632eefb2"}, "tags": {"1.2.3--h2d50403_1": "sha256:ca8c6c71a2b740aacfa34121b24d325200ffe2e6b1962e3350681d32632eefb2"}, "docker": "quay.io/biocontainers/edlib", "aliases": {"edlib-aligner": "/usr/local/bin/edlib-aligner"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/edlib.

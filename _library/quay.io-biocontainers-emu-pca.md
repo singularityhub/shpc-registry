@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/emu-pca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emu-pca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emu-pca/container.yaml"
-updated_at: "2024-07-21 02:43:32.504817"
+updated_at: "2024-07-22 02:45:12.971958"
 latest: "1.0--py310h581d4b6_1"
 container_url: "https://biocontainers.pro/tools/emu-pca"
 aliases:
@@ -16,8 +16,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.0--py310h581d4b6_1"
+ - "1.0--py312h1f1cfbb_1"
 description: "singularity registry hpc automated addition for emu-pca"
-config: {"url": "https://biocontainers.pro/tools/emu-pca", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for emu-pca", "latest": {"1.0--py310h581d4b6_1": "sha256:fa78041d8e23d2d0b5a3fac6235bf3f62ddab1f24763c31a19e7251dc3d49376"}, "tags": {"1.0--py310h581d4b6_1": "sha256:fa78041d8e23d2d0b5a3fac6235bf3f62ddab1f24763c31a19e7251dc3d49376"}, "docker": "quay.io/biocontainers/emu-pca", "aliases": {"emu": "/usr/local/bin/emu", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/emu-pca", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for emu-pca", "latest": {"1.0--py310h581d4b6_1": "sha256:fa78041d8e23d2d0b5a3fac6235bf3f62ddab1f24763c31a19e7251dc3d49376"}, "tags": {"1.0--py310h581d4b6_1": "sha256:fa78041d8e23d2d0b5a3fac6235bf3f62ddab1f24763c31a19e7251dc3d49376", "1.0--py312h1f1cfbb_1": "sha256:1e48f2f9058bedb8bffee7f8b9b8798ffe31f6c05a26ac39fc60af84ddb47504"}, "docker": "quay.io/biocontainers/emu-pca", "aliases": {"emu": "/usr/local/bin/emu", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/emu-pca.

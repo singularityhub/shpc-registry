@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/astalavista"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/astalavista/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/astalavista/container.yaml"
-updated_at: "2024-07-21 03:11:08.919028"
+updated_at: "2024-07-22 03:13:25.204975"
 latest: "4.0--1"
 container_url: "https://biocontainers.pro/tools/astalavista"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "4.0--1"
 description: "shpc-registry automated BioContainers addition for astalavista"
-config: {"url": "https://biocontainers.pro/tools/astalavista", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for astalavista", "latest": {"4.0--1": "sha256:dfa4c9e45b03f14e5a7439a92027351ae90c8664166807d8715fa47ef0fcd67e"}, "tags": {"4.0--1": "sha256:dfa4c9e45b03f14e5a7439a92027351ae90c8664166807d8715fa47ef0fcd67e"}, "docker": "quay.io/biocontainers/astalavista", "aliases": {"astalavista": "/usr/local/bin/astalavista", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/astalavista", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for astalavista", "latest": {"4.0--1": "sha256:32136a7718e15170e760a32b0ed69a0db3d95ce47ab47fe2f94b37d58aafd6e2"}, "tags": {"4.0--1": "sha256:32136a7718e15170e760a32b0ed69a0db3d95ce47ab47fe2f94b37d58aafd6e2"}, "docker": "quay.io/biocontainers/astalavista", "aliases": {"astalavista": "/usr/local/bin/astalavista", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/astalavista.

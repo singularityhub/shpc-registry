@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/colorid_bv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/colorid_bv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/colorid_bv/container.yaml"
-updated_at: "2024-07-21 03:16:20.514461"
-latest: "0.1.0--h4c94732_0"
+updated_at: "2024-07-22 03:18:37.786623"
+latest: "0.1.0--h4c94732_1"
 container_url: "https://biocontainers.pro/tools/colorid_bv"
 aliases:
  - "colorid_bv"
 versions:
  - "0.1.0--h4c94732_0"
+ - "0.1.0--h4c94732_1"
 description: "singularity registry hpc automated addition for colorid_bv"
-config: {"url": "https://biocontainers.pro/tools/colorid_bv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for colorid_bv", "latest": {"0.1.0--h4c94732_0": "sha256:e96b937564b1f40ae5b834163d6737ba95bbb6b0e2b996d34fd385429271fdaa"}, "tags": {"0.1.0--h4c94732_0": "sha256:e96b937564b1f40ae5b834163d6737ba95bbb6b0e2b996d34fd385429271fdaa"}, "docker": "quay.io/biocontainers/colorid_bv", "aliases": {"colorid_bv": "/usr/local/bin/colorid_bv"}}
+config: {"url": "https://biocontainers.pro/tools/colorid_bv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for colorid_bv", "latest": {"0.1.0--h4c94732_1": "sha256:1a808527472f8d37acad643b4f9847683222aaddeb6fdc694437472468fdfc5d"}, "tags": {"0.1.0--h4c94732_0": "sha256:e96b937564b1f40ae5b834163d6737ba95bbb6b0e2b996d34fd385429271fdaa", "0.1.0--h4c94732_1": "sha256:1a808527472f8d37acad643b4f9847683222aaddeb6fdc694437472468fdfc5d"}, "docker": "quay.io/biocontainers/colorid_bv", "aliases": {"colorid_bv": "/usr/local/bin/colorid_bv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/colorid_bv.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/colorid_bv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/colorid_bv:0.1.0--h4c94732_0
+$ shpc install quay.io/biocontainers/colorid_bv:0.1.0--h4c94732_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/colorid_bv/0.1.0--h4c94732_0
-$ module help quay.io/biocontainers/colorid_bv/0.1.0--h4c94732_0
+$ module load quay.io/biocontainers/colorid_bv/0.1.0--h4c94732_1
+$ module help quay.io/biocontainers/colorid_bv/0.1.0--h4c94732_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/srst2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/srst2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/srst2/container.yaml"
-updated_at: "2024-07-21 03:06:44.763944"
+updated_at: "2024-07-22 03:08:56.646644"
 latest: "0.2.0--py_4"
 container_url: "https://biocontainers.pro/tools/srst2"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "0.2.0--py_4"
 description: "shpc-registry automated BioContainers addition for srst2"
-config: {"url": "https://biocontainers.pro/tools/srst2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for srst2", "latest": {"0.2.0--py_4": "sha256:fe718ac09280536f128186832cec3a724f3b2c1c2c478ee9873ad0ae59e2829f"}, "tags": {"0.2.0--py_4": "sha256:fe718ac09280536f128186832cec3a724f3b2c1c2c478ee9873ad0ae59e2829f"}, "docker": "quay.io/biocontainers/srst2", "aliases": {"getmlst.py": "/usr/local/bin/getmlst.py", "slurm_srst2.py": "/usr/local/bin/slurm_srst2.py", "srst2": "/usr/local/bin/srst2", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "f2py2": "/usr/local/bin/f2py2"}}
+config: {"url": "https://biocontainers.pro/tools/srst2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for srst2", "latest": {"0.2.0--py_4": "sha256:9f457396f32c93168e0f0dd7548d1d0dfb624006d0548268c408fa7f1db17e3c"}, "tags": {"0.2.0--py_4": "sha256:9f457396f32c93168e0f0dd7548d1d0dfb624006d0548268c408fa7f1db17e3c"}, "docker": "quay.io/biocontainers/srst2", "aliases": {"getmlst.py": "/usr/local/bin/getmlst.py", "slurm_srst2.py": "/usr/local/bin/slurm_srst2.py", "srst2": "/usr/local/bin/srst2", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "f2py2": "/usr/local/bin/f2py2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/srst2.

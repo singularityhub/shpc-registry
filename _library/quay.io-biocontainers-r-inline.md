@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-inline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-inline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-inline/container.yaml"
-updated_at: "2024-07-21 03:15:34.283150"
+updated_at: "2024-07-22 03:17:51.486291"
 latest: "0.3.14--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-inline"
 aliases:
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "0.3.14--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-inline"
-config: {"url": "https://biocontainers.pro/tools/r-inline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-inline", "latest": {"0.3.14--r3.2.2_0": "sha256:d94aee3df5a16bff1cbc307ee37de586982093766567a9c66c92843b357268f6"}, "tags": {"0.3.14--r3.2.2_0": "sha256:d94aee3df5a16bff1cbc307ee37de586982093766567a9c66c92843b357268f6"}, "docker": "quay.io/biocontainers/r-inline", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-inline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-inline", "latest": {"0.3.14--r3.2.2_0": "sha256:8b849b239b0c0e7b5a04a1ae2c5a55d3893c89332aa8212c001e39ed1f0ee9d6"}, "tags": {"0.3.14--r3.2.2_0": "sha256:8b849b239b0c0e7b5a04a1ae2c5a55d3893c89332aa8212c001e39ed1f0ee9d6"}, "docker": "quay.io/biocontainers/r-inline", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-inline.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fastcluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fastcluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fastcluster/container.yaml"
-updated_at: "2024-07-21 03:20:37.468898"
+updated_at: "2024-07-22 03:22:56.405341"
 latest: "1.1.20--r3.3.2_1"
 container_url: "https://biocontainers.pro/tools/r-fastcluster"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.1.20--r3.3.2_1"
+ - "1.1.20--r3.3.1_1"
 description: "shpc-registry automated BioContainers addition for r-fastcluster"
-config: {"url": "https://biocontainers.pro/tools/r-fastcluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fastcluster", "latest": {"1.1.20--r3.3.2_1": "sha256:0706165eb3b1b421a3e039597d1a367081beb7f1b79a760a82b1dcf72b603772"}, "tags": {"1.1.20--r3.3.2_1": "sha256:0706165eb3b1b421a3e039597d1a367081beb7f1b79a760a82b1dcf72b603772"}, "docker": "quay.io/biocontainers/r-fastcluster", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-fastcluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fastcluster", "latest": {"1.1.20--r3.3.2_1": "sha256:85e4285e0344f4bf6a6880c3abfb15d2bfa590000ca041395a9cd6a5084b9a29"}, "tags": {"1.1.20--r3.3.2_1": "sha256:85e4285e0344f4bf6a6880c3abfb15d2bfa590000ca041395a9cd6a5084b9a29", "1.1.20--r3.3.1_1": "sha256:4848075f52c42b61292753e225f04cac9e9b48686184abd3c882af769f10a07d"}, "docker": "quay.io/biocontainers/r-fastcluster", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-fastcluster.

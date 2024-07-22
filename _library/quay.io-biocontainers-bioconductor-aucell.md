@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-aucell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-aucell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-aucell/container.yaml"
-updated_at: "2024-07-21 03:11:57.922055"
+updated_at: "2024-07-22 03:14:14.634910"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-aucell"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-aucell"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-aucell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-aucell", "latest": {"1.24.0--r43hdfd78af_0": "sha256:eab321105a3a56b0b22be4f3ca77779c9649ecd600d15a6013ea886cbe4e5433"}, "tags": {"1.8.0--r36_0": "sha256:9a32f14b0efb499dd6dfe9450282d9a756922c7079a087a1dcafb110b7dd5273", "1.20.1--r42hdfd78af_0": "sha256:c17fda89801092955ea75432b5855862f56137f80a1600861b5b64da122947e7", "1.16.0--r41hdfd78af_0": "sha256:7877257a4c0c464675c65982b6ee215ef20cd6557b7924e927251f861b60d2d1", "1.14.0--r41hdfd78af_0": "sha256:8360f73001a192012b7b68dbcee3e2491fb6b90fd0e85d07931e4ad82e0cec89", "1.12.0--r40hdfd78af_1": "sha256:8b9dfde9ed4785d44097ae59e4a6a1fb492076d0e189e732a94c7c2f5d449109", "1.10.0--r40_0": "sha256:fb0e10c7e339656f0d22e18c29c69c5cc483ef2ca14b7e81772e25695257a381", "1.22.0--r43hdfd78af_0": "sha256:51a3dd45053ee16ff2581a19053ba51bdaa833f79bfdfc9e40854d6b35bd7972", "1.24.0--r43hdfd78af_0": "sha256:eab321105a3a56b0b22be4f3ca77779c9649ecd600d15a6013ea886cbe4e5433"}, "docker": "quay.io/biocontainers/bioconductor-aucell", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-aucell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-aucell", "latest": {"1.24.0--r43hdfd78af_0": "sha256:eab321105a3a56b0b22be4f3ca77779c9649ecd600d15a6013ea886cbe4e5433"}, "tags": {"1.8.0--r36_0": "sha256:0c65fef4f861d2e3d816948d816e43acada5a81a807d0d8030bb6892afda4431", "1.20.1--r42hdfd78af_0": "sha256:c17fda89801092955ea75432b5855862f56137f80a1600861b5b64da122947e7", "1.16.0--r41hdfd78af_0": "sha256:7877257a4c0c464675c65982b6ee215ef20cd6557b7924e927251f861b60d2d1", "1.14.0--r41hdfd78af_0": "sha256:8360f73001a192012b7b68dbcee3e2491fb6b90fd0e85d07931e4ad82e0cec89", "1.12.0--r40hdfd78af_1": "sha256:8b9dfde9ed4785d44097ae59e4a6a1fb492076d0e189e732a94c7c2f5d449109", "1.10.0--r40_0": "sha256:fb0e10c7e339656f0d22e18c29c69c5cc483ef2ca14b7e81772e25695257a381", "1.22.0--r43hdfd78af_0": "sha256:51a3dd45053ee16ff2581a19053ba51bdaa833f79bfdfc9e40854d6b35bd7972", "1.24.0--r43hdfd78af_0": "sha256:eab321105a3a56b0b22be4f3ca77779c9649ecd600d15a6013ea886cbe4e5433"}, "docker": "quay.io/biocontainers/bioconductor-aucell", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-aucell.

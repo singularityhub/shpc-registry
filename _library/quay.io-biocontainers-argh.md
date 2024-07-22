@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/argh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/argh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/argh/container.yaml"
-updated_at: "2024-07-21 03:21:53.518139"
+updated_at: "2024-07-22 03:24:12.883012"
 latest: "0.26.2--py36_0"
 container_url: "https://biocontainers.pro/tools/argh"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.26.2--py36_0"
 description: "shpc-registry automated BioContainers addition for argh"
-config: {"url": "https://biocontainers.pro/tools/argh", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for argh", "latest": {"0.26.2--py36_0": "sha256:e5c55a844d98f8cf2de26c2cd71f6e0fdba33cfb2cbbdff4e82c8fbfe07ff81e"}, "tags": {"0.26.2--py36_0": "sha256:e5c55a844d98f8cf2de26c2cd71f6e0fdba33cfb2cbbdff4e82c8fbfe07ff81e"}, "docker": "quay.io/biocontainers/argh", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/argh", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for argh", "latest": {"0.26.2--py36_0": "sha256:0a45345f7462bc489f1c737228ac8a0382adcd5227598236f49a8851a78edcbe"}, "tags": {"0.26.2--py36_0": "sha256:0a45345f7462bc489f1c737228ac8a0382adcd5227598236f49a8851a78edcbe"}, "docker": "quay.io/biocontainers/argh", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/argh.

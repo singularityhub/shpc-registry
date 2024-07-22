@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hellorangesdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hellorangesdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hellorangesdata/container.yaml"
-updated_at: "2024-07-21 03:22:25.341216"
+updated_at: "2024-07-22 03:24:44.722631"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hellorangesdata"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hellorangesdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hellorangesdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hellorangesdata", "latest": {"1.28.0--r43hdfd78af_0": "sha256:ed5d6329b6a9aff1b46abc9481b5e93fe9c62a47a3215d328c532fd321c466aa"}, "tags": {"1.8.0--r351_0": "sha256:ce9c6ea22607667af39d161134fbaa07f5a2f1bde3345b77e9a7081b31971bb5", "1.23.0--r42hdfd78af_0": "sha256:76729a7c2a2bb3d1abe2742edd4d7dd2f001e02574fad508c22b8b7343fbfb28", "1.20.0--r41hdfd78af_1": "sha256:68559b92c6d6e353d649af1a290bebfe60575c5991e3ad3f4bacb5b94ac92667", "1.18.0--r41hdfd78af_0": "sha256:4c9b78af50d7a66914d3f96c11f15242622628f53ecb8f4f98b369eae6b70593", "1.16.0--r40hdfd78af_1": "sha256:d58a505f655fc18aaf03beef2cd93be150464f432d3234c94be1aea05f12b987", "1.15.0--r40_0": "sha256:1f7ee6c8671a7c1ef3d189d8ea063428fc61eed84a79ad5dbffb3b6e7f652051", "1.26.0--r43hdfd78af_0": "sha256:40d864bf62aceba3303c05e4c24d4ee5e1b6dc4ef9591213dc2013f2098bec44", "1.28.0--r43hdfd78af_0": "sha256:ed5d6329b6a9aff1b46abc9481b5e93fe9c62a47a3215d328c532fd321c466aa"}, "docker": "quay.io/biocontainers/bioconductor-hellorangesdata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hellorangesdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hellorangesdata", "latest": {"1.28.0--r43hdfd78af_0": "sha256:ed5d6329b6a9aff1b46abc9481b5e93fe9c62a47a3215d328c532fd321c466aa"}, "tags": {"1.8.0--r351_0": "sha256:5fba14268ca27dd2f2d947ce9246b3b9682487e11068b0dae394173725b35759", "1.23.0--r42hdfd78af_0": "sha256:76729a7c2a2bb3d1abe2742edd4d7dd2f001e02574fad508c22b8b7343fbfb28", "1.20.0--r41hdfd78af_1": "sha256:68559b92c6d6e353d649af1a290bebfe60575c5991e3ad3f4bacb5b94ac92667", "1.18.0--r41hdfd78af_0": "sha256:4c9b78af50d7a66914d3f96c11f15242622628f53ecb8f4f98b369eae6b70593", "1.16.0--r40hdfd78af_1": "sha256:d58a505f655fc18aaf03beef2cd93be150464f432d3234c94be1aea05f12b987", "1.15.0--r40_0": "sha256:1f7ee6c8671a7c1ef3d189d8ea063428fc61eed84a79ad5dbffb3b6e7f652051", "1.26.0--r43hdfd78af_0": "sha256:40d864bf62aceba3303c05e4c24d4ee5e1b6dc4ef9591213dc2013f2098bec44", "1.28.0--r43hdfd78af_0": "sha256:ed5d6329b6a9aff1b46abc9481b5e93fe9c62a47a3215d328c532fd321c466aa"}, "docker": "quay.io/biocontainers/bioconductor-hellorangesdata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hellorangesdata.

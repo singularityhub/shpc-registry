@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/umitools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/umitools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/umitools/container.yaml"
-updated_at: "2024-07-21 02:59:08.492646"
+updated_at: "2024-07-22 03:01:08.910433"
 latest: "0.3.4--py_2"
 container_url: "https://biocontainers.pro/tools/umitools"
 aliases:
@@ -26,7 +26,7 @@ aliases:
 versions:
  - "0.3.4--py_2"
 description: "shpc-registry automated BioContainers addition for umitools"
-config: {"url": "https://biocontainers.pro/tools/umitools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for umitools", "latest": {"0.3.4--py_2": "sha256:d9ed262fbf17569c141266e5ca4a5a97b36824f225afd237b82b69a595540417"}, "tags": {"0.3.4--py_2": "sha256:d9ed262fbf17569c141266e5ca4a5a97b36824f225afd237b82b69a595540417"}, "docker": "quay.io/biocontainers/umitools", "aliases": {"umi_mark_duplicates": "/usr/local/bin/umi_mark_duplicates", "umi_reformat_fastq": "/usr/local/bin/umi_reformat_fastq", "umi_reformat_sra_fastq": "/usr/local/bin/umi_reformat_sra_fastq", "umi_simulator": "/usr/local/bin/umi_simulator", "umitools": "/usr/local/bin/umitools", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6"}}
+config: {"url": "https://biocontainers.pro/tools/umitools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for umitools", "latest": {"0.3.4--py_2": "sha256:41dad67e8ffeffff7f5b1e93fdaed47f3c5bd56b8c90a6d519c7d169660fd8bf"}, "tags": {"0.3.4--py_2": "sha256:41dad67e8ffeffff7f5b1e93fdaed47f3c5bd56b8c90a6d519c7d169660fd8bf"}, "docker": "quay.io/biocontainers/umitools", "aliases": {"umi_mark_duplicates": "/usr/local/bin/umi_mark_duplicates", "umi_reformat_fastq": "/usr/local/bin/umi_reformat_fastq", "umi_reformat_sra_fastq": "/usr/local/bin/umi_reformat_sra_fastq", "umi_simulator": "/usr/local/bin/umi_simulator", "umitools": "/usr/local/bin/umitools", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/umitools.

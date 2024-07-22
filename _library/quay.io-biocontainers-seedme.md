@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seedme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seedme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seedme/container.yaml"
-updated_at: "2024-07-21 03:09:49.955412"
+updated_at: "2024-07-22 03:12:03.885135"
 latest: "1.2.4--py_2"
 container_url: "https://biocontainers.pro/tools/seedme"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "1.2.4--py_2"
 description: "shpc-registry automated BioContainers addition for seedme"
-config: {"url": "https://biocontainers.pro/tools/seedme", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seedme", "latest": {"1.2.4--py_2": "sha256:48e334b879abf041a18c9f0277bdcb1cea686ff2678c0fca48cd8c6196ce2ca2"}, "tags": {"1.2.4--py_2": "sha256:48e334b879abf041a18c9f0277bdcb1cea686ff2678c0fca48cd8c6196ce2ca2"}, "docker": "quay.io/biocontainers/seedme", "aliases": {"seedme": "/usr/local/bin/seedme", "seedme.py": "/usr/local/bin/seedme.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/seedme", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seedme", "latest": {"1.2.4--py_2": "sha256:932611ad6ecbf655cfc8cbd0cb5c42d229702ccc466f2f9f191d6e869c353cfb"}, "tags": {"1.2.4--py_2": "sha256:932611ad6ecbf655cfc8cbd0cb5c42d229702ccc466f2f9f191d6e869c353cfb"}, "docker": "quay.io/biocontainers/seedme", "aliases": {"seedme": "/usr/local/bin/seedme", "seedme.py": "/usr/local/bin/seedme.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seedme.

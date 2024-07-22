@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/neptune"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/neptune/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/neptune/container.yaml"
-updated_at: "2024-07-21 02:49:19.262968"
+updated_at: "2024-07-22 02:51:03.322716"
 latest: "1.2.5--py_3"
 container_url: "https://biocontainers.pro/tools/neptune"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.2.5--py_3"
 description: "shpc-registry automated BioContainers addition for neptune"
-config: {"url": "https://biocontainers.pro/tools/neptune", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for neptune", "latest": {"1.2.5--py_3": "sha256:55720f01c26422bc1218b46f4d99e3ac46f3d5569545da3ed32b0ff900f7c0c2"}, "tags": {"1.2.5--py_3": "sha256:55720f01c26422bc1218b46f4d99e3ac46f3d5569545da3ed32b0ff900f7c0c2"}, "docker": "quay.io/biocontainers/neptune", "aliases": {"neptune": "/usr/local/bin/neptune", "neptune-conda": "/usr/local/bin/neptune-conda", "build.sh": "/usr/local/bin/build.sh", "common.go": "/usr/local/bin/common.go", "rchive.go": "/usr/local/bin/rchive.go", "setup-deps.log": "/usr/local/bin/setup-deps.log", "setup.sh": "/usr/local/bin/setup.sh", "xtract.go": "/usr/local/bin/xtract.go", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "bt-context.txt": "/usr/local/bin/bt-context.txt", "bt-link": "/usr/local/bin/bt-link", "bt-load": "/usr/local/bin/bt-load"}}
+config: {"url": "https://biocontainers.pro/tools/neptune", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for neptune", "latest": {"1.2.5--py_3": "sha256:371b54f063408666effc57002e581fc5303b1f8c4ccfefc1014d971239e46e04"}, "tags": {"1.2.5--py_3": "sha256:371b54f063408666effc57002e581fc5303b1f8c4ccfefc1014d971239e46e04"}, "docker": "quay.io/biocontainers/neptune", "aliases": {"neptune": "/usr/local/bin/neptune", "neptune-conda": "/usr/local/bin/neptune-conda", "build.sh": "/usr/local/bin/build.sh", "common.go": "/usr/local/bin/common.go", "rchive.go": "/usr/local/bin/rchive.go", "setup-deps.log": "/usr/local/bin/setup-deps.log", "setup.sh": "/usr/local/bin/setup.sh", "xtract.go": "/usr/local/bin/xtract.go", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "bt-context.txt": "/usr/local/bin/bt-context.txt", "bt-link": "/usr/local/bin/bt-link", "bt-load": "/usr/local/bin/bt-load"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/neptune.

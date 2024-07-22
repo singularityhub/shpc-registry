@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jobtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jobtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jobtree/container.yaml"
-updated_at: "2024-07-21 03:07:26.808351"
+updated_at: "2024-07-22 03:09:39.306726"
 latest: "09.04.2017--py_2"
 container_url: "https://biocontainers.pro/tools/jobtree"
 aliases:
@@ -24,7 +24,7 @@ versions:
  - "3.0.3--py_1"
  - "09.04.2017--py_2"
 description: "shpc-registry automated BioContainers addition for jobtree"
-config: {"url": "https://biocontainers.pro/tools/jobtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jobtree", "latest": {"09.04.2017--py_2": "sha256:677e9b91813920c5f4800a71a66a883df62fd991994f3a0ea6b37631a0cb8ab8"}, "tags": {"3.0.3--py_1": "sha256:24f864da7a79fc9c78e1ef134623878e05452242ae81ff8813fb8d683790e6b2", "09.04.2017--py_2": "sha256:677e9b91813920c5f4800a71a66a883df62fd991994f3a0ea6b37631a0cb8ab8"}, "docker": "quay.io/biocontainers/jobtree", "aliases": {"jobTreeKill": "/usr/local/bin/jobTreeKill", "jobTreeRestarts": "/usr/local/bin/jobTreeRestarts", "jobTreeStats": "/usr/local/bin/jobTreeStats", "jobTreeStatus": "/usr/local/bin/jobTreeStatus", "multijob": "/usr/local/bin/multijob", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/jobtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jobtree", "latest": {"09.04.2017--py_2": "sha256:83d2517ac434e6c4a87cea254972e0e6566c8b3bdbd660adcf458685b2a8814f"}, "tags": {"3.0.3--py_1": "sha256:586f2dbfcd3d5233ac297ade0135c6a59eb714151ad9a2ec4fb9633adec4869c", "09.04.2017--py_2": "sha256:83d2517ac434e6c4a87cea254972e0e6566c8b3bdbd660adcf458685b2a8814f"}, "docker": "quay.io/biocontainers/jobtree", "aliases": {"jobTreeKill": "/usr/local/bin/jobTreeKill", "jobTreeRestarts": "/usr/local/bin/jobTreeRestarts", "jobTreeStats": "/usr/local/bin/jobTreeStats", "jobTreeStatus": "/usr/local/bin/jobTreeStatus", "multijob": "/usr/local/bin/multijob", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jobtree.

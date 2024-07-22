@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-levenshtein"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-levenshtein/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-levenshtein/container.yaml"
-updated_at: "2024-07-21 02:55:32.356434"
+updated_at: "2024-07-22 02:57:27.096797"
 latest: "0.12.0--py36_1"
 container_url: "https://biocontainers.pro/tools/python-levenshtein"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "python3.6-config"
 versions:
  - "0.12.0--py36_1"
+ - "0.12.0--py35_1"
 description: "shpc-registry automated BioContainers addition for python-levenshtein"
-config: {"url": "https://biocontainers.pro/tools/python-levenshtein", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-levenshtein", "latest": {"0.12.0--py36_1": "sha256:4d0534b9e3b438298667d1faf8b7be3abfc6748bf2c5a5cc752901555ece397b"}, "tags": {"0.12.0--py36_1": "sha256:4d0534b9e3b438298667d1faf8b7be3abfc6748bf2c5a5cc752901555ece397b"}, "docker": "quay.io/biocontainers/python-levenshtein", "aliases": {"nosetests": "/usr/local/bin/nosetests", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config"}}
+config: {"url": "https://biocontainers.pro/tools/python-levenshtein", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-levenshtein", "latest": {"0.12.0--py36_1": "sha256:6d7354dc73276cb8328dbe604bc7c48167732b48aba38331fc3b1eb0d7b5b2a8"}, "tags": {"0.12.0--py36_1": "sha256:6d7354dc73276cb8328dbe604bc7c48167732b48aba38331fc3b1eb0d7b5b2a8", "0.12.0--py35_1": "sha256:f79f4a2d4c3a5f9dcf8d42e0f64da54b604131a5bd7c936c418c8804e7d6040b"}, "docker": "quay.io/biocontainers/python-levenshtein", "aliases": {"nosetests": "/usr/local/bin/nosetests", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-levenshtein.

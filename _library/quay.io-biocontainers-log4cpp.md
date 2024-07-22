@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/log4cpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/log4cpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/log4cpp/container.yaml"
-updated_at: "2024-07-21 03:08:22.042954"
+updated_at: "2024-07-22 03:10:35.488692"
 latest: "1.1--0"
 container_url: "https://biocontainers.pro/tools/log4cpp"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.1--0"
 description: "shpc-registry automated BioContainers addition for log4cpp"
-config: {"url": "https://biocontainers.pro/tools/log4cpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for log4cpp", "latest": {"1.1--0": "sha256:1d69b44d13138fd226e365a7e82f4876f9cf2cc299075844a02d59473e28d51b"}, "tags": {"1.1--0": "sha256:1d69b44d13138fd226e365a7e82f4876f9cf2cc299075844a02d59473e28d51b"}, "docker": "quay.io/biocontainers/log4cpp", "aliases": {"log4cpp-config": "/usr/local/bin/log4cpp-config"}}
+config: {"url": "https://biocontainers.pro/tools/log4cpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for log4cpp", "latest": {"1.1--0": "sha256:e638509f2a73fa98160560c1aefa9b6bb908744878ea05af2a7bd84e5028de2c"}, "tags": {"1.1--0": "sha256:e638509f2a73fa98160560c1aefa9b6bb908744878ea05af2a7bd84e5028de2c"}, "docker": "quay.io/biocontainers/log4cpp", "aliases": {"log4cpp-config": "/usr/local/bin/log4cpp-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/log4cpp.

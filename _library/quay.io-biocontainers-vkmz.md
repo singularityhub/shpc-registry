@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vkmz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vkmz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vkmz/container.yaml"
-updated_at: "2024-07-21 03:03:09.760053"
+updated_at: "2024-07-22 03:05:13.834678"
 latest: "1.4.6--py_0"
 container_url: "https://biocontainers.pro/tools/vkmz"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "v1.4dev1--py_0"
  - "1.4.6--py_0"
 description: "shpc-registry automated BioContainers addition for vkmz"
-config: {"url": "https://biocontainers.pro/tools/vkmz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vkmz", "latest": {"1.4.6--py_0": "sha256:640577c3028124142811e331af8b0f6aec6da0752482b90bee465593b9decc9e"}, "tags": {"v1.4dev1--py_0": "sha256:28e106ed3ef6f4696b635afb086486db64d02eef4f3ce9aef92d716d70bc30fd", "1.4.6--py_0": "sha256:640577c3028124142811e331af8b0f6aec6da0752482b90bee465593b9decc9e"}, "docker": "quay.io/biocontainers/vkmz", "aliases": {"vkmz": "/usr/local/bin/vkmz", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/vkmz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vkmz", "latest": {"1.4.6--py_0": "sha256:640577c3028124142811e331af8b0f6aec6da0752482b90bee465593b9decc9e"}, "tags": {"v1.4dev1--py_0": "sha256:29fa5c80607bd3d81283aac5694297f1806d29bf26547e04864e164abde87e2a", "1.4.6--py_0": "sha256:640577c3028124142811e331af8b0f6aec6da0752482b90bee465593b9decc9e"}, "docker": "quay.io/biocontainers/vkmz", "aliases": {"vkmz": "/usr/local/bin/vkmz", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vkmz.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spectral_hk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spectral_hk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spectral_hk/container.yaml"
-updated_at: "2024-07-21 02:55:00.610217"
+updated_at: "2024-07-22 02:56:53.974053"
 latest: "0.1--0"
 container_url: "https://biocontainers.pro/tools/spectral_hk"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "0.1--0"
 description: "shpc-registry automated BioContainers addition for spectral_hk"
-config: {"url": "https://biocontainers.pro/tools/spectral_hk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spectral_hk", "latest": {"0.1--0": "sha256:984f2b75bdbdfc00be04e8e2c75b8780d112d2fb12e53b935678156c39605d1f"}, "tags": {"0.1--0": "sha256:984f2b75bdbdfc00be04e8e2c75b8780d112d2fb12e53b935678156c39605d1f"}, "docker": "quay.io/biocontainers/spectral_hk", "aliases": {"spectral_hk": "/usr/local/bin/spectral_hk"}}
+config: {"url": "https://biocontainers.pro/tools/spectral_hk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spectral_hk", "latest": {"0.1--0": "sha256:ab29b787b0636b92892fa93b3481b0f2b6f23d70889a5f17da381345b0b8adb3"}, "tags": {"0.1--0": "sha256:ab29b787b0636b92892fa93b3481b0f2b6f23d70889a5f17da381345b0b8adb3"}, "docker": "quay.io/biocontainers/spectral_hk", "aliases": {"spectral_hk": "/usr/local/bin/spectral_hk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spectral_hk.

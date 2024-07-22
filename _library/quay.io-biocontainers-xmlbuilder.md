@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xmlbuilder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xmlbuilder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xmlbuilder/container.yaml"
-updated_at: "2024-07-21 03:03:53.629544"
+updated_at: "2024-07-22 03:05:58.487901"
 latest: "1.0--py27_1"
 container_url: "https://biocontainers.pro/tools/xmlbuilder"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.0--py27_1"
+ - "1.0--py35_1"
 description: "shpc-registry automated BioContainers addition for xmlbuilder"
-config: {"url": "https://biocontainers.pro/tools/xmlbuilder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xmlbuilder", "latest": {"1.0--py27_1": "sha256:393bc1df64bc47a991cbbbbb9d697521afe4e14f15cf6cfe7dbcdd37d586b827"}, "tags": {"1.0--py27_1": "sha256:393bc1df64bc47a991cbbbbb9d697521afe4e14f15cf6cfe7dbcdd37d586b827"}, "docker": "quay.io/biocontainers/xmlbuilder", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/xmlbuilder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xmlbuilder", "latest": {"1.0--py27_1": "sha256:b3f7b47faa05d85ce2077866eaf8d93dad0f3c3d706c9fd2635895120ffed14b"}, "tags": {"1.0--py27_1": "sha256:b3f7b47faa05d85ce2077866eaf8d93dad0f3c3d706c9fd2635895120ffed14b", "1.0--py35_1": "sha256:06bb72c2f53b5674b547155e5a5dc3c3988eccad5808727fc8fa37bca82195dc"}, "docker": "quay.io/biocontainers/xmlbuilder", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xmlbuilder.

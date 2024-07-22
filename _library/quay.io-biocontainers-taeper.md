@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taeper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taeper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taeper/container.yaml"
-updated_at: "2024-07-21 02:44:22.619427"
+updated_at: "2024-07-22 02:46:03.329482"
 latest: "0.1.0--py_2"
 container_url: "https://biocontainers.pro/tools/taeper"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "0.1.0--py_2"
 description: "shpc-registry automated BioContainers addition for taeper"
-config: {"url": "https://biocontainers.pro/tools/taeper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taeper", "latest": {"0.1.0--py_2": "sha256:d14c520efa78c4b126a08e926dc097a39e8e57da517f0177431ce11a12fea939"}, "tags": {"0.1.0--py_2": "sha256:d14c520efa78c4b126a08e926dc097a39e8e57da517f0177431ce11a12fea939"}, "docker": "quay.io/biocontainers/taeper", "aliases": {"fast5_subset": "/usr/local/bin/fast5_subset", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "taeper": "/usr/local/bin/taeper", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "h5clear": "/usr/local/bin/h5clear"}}
+config: {"url": "https://biocontainers.pro/tools/taeper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taeper", "latest": {"0.1.0--py_2": "sha256:8047294eeca0f085124ed8521c1976fe1764dcfd51f8b04cb44be26bce12b8f8"}, "tags": {"0.1.0--py_2": "sha256:8047294eeca0f085124ed8521c1976fe1764dcfd51f8b04cb44be26bce12b8f8"}, "docker": "quay.io/biocontainers/taeper", "aliases": {"fast5_subset": "/usr/local/bin/fast5_subset", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "taeper": "/usr/local/bin/taeper", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "h5clear": "/usr/local/bin/h5clear"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/taeper.

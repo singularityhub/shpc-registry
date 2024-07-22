@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-vcftools-vcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-vcftools-vcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-vcftools-vcf/container.yaml"
-updated_at: "2024-07-21 02:57:11.123688"
+updated_at: "2024-07-22 02:59:09.124849"
 latest: "0.953--pl5.22.0_1"
 container_url: "https://biocontainers.pro/tools/perl-vcftools-vcf"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "0.953--pl5.22.0_1"
 description: "shpc-registry automated BioContainers addition for perl-vcftools-vcf"
-config: {"url": "https://biocontainers.pro/tools/perl-vcftools-vcf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-vcftools-vcf", "latest": {"0.953--pl5.22.0_1": "sha256:361993d964b97011543e55c59d2f1c6f8f6ac37524e7af7922fcaea5a4622bc3"}, "tags": {"0.953--pl5.22.0_1": "sha256:361993d964b97011543e55c59d2f1c6f8f6ac37524e7af7922fcaea5a4622bc3"}, "docker": "quay.io/biocontainers/perl-vcftools-vcf", "aliases": {"perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-vcftools-vcf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-vcftools-vcf", "latest": {"0.953--pl5.22.0_1": "sha256:26c0046cf6bb67aea9105e8071bf84a6d7b128ee31a7a3f49a508010d7c0903b"}, "tags": {"0.953--pl5.22.0_1": "sha256:26c0046cf6bb67aea9105e8071bf84a6d7b128ee31a7a3f49a508010d7c0903b"}, "docker": "quay.io/biocontainers/perl-vcftools-vcf", "aliases": {"perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-vcftools-vcf.

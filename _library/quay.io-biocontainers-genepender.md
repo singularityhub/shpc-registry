@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genepender"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genepender/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genepender/container.yaml"
-updated_at: "2024-07-21 03:01:45.404246"
+updated_at: "2024-07-22 03:03:48.043657"
 latest: "v2.6--h470a237_1"
 container_url: "https://biocontainers.pro/tools/genepender"
 aliases:
@@ -27,7 +27,7 @@ aliases:
 versions:
  - "v2.6--h470a237_1"
 description: "shpc-registry automated BioContainers addition for genepender"
-config: {"url": "https://biocontainers.pro/tools/genepender", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genepender", "latest": {"v2.6--h470a237_1": "sha256:5796152d7ed6e316942b444943fd52c25198c202fff403b648bae20c9c91844e"}, "tags": {"v2.6--h470a237_1": "sha256:5796152d7ed6e316942b444943fd52c25198c202fff403b648bae20c9c91844e"}, "docker": "quay.io/biocontainers/genepender", "aliases": {"genepender": "/usr/local/bin/genepender", "qdoc3": "/usr/local/bin/qdoc3", "qmlviewer": "/usr/local/bin/qmlviewer", "qt3to4": "/usr/local/bin/qt3to4", "qtconfig": "/usr/local/bin/qtconfig", "qttracereplay": "/usr/local/bin/qttracereplay", "qhelpconverter": "/usr/local/bin/qhelpconverter", "qdbus": "/usr/local/bin/qdbus", "qdbuscpp2xml": "/usr/local/bin/qdbuscpp2xml", "qdbusviewer": "/usr/local/bin/qdbusviewer", "qdbusxml2cpp": "/usr/local/bin/qdbusxml2cpp", "xmlpatterns": "/usr/local/bin/xmlpatterns", "xmlpatternsvalidator": "/usr/local/bin/xmlpatternsvalidator", "assistant": "/usr/local/bin/assistant", "designer": "/usr/local/bin/designer", "lconvert": "/usr/local/bin/lconvert"}}
+config: {"url": "https://biocontainers.pro/tools/genepender", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genepender", "latest": {"v2.6--h470a237_1": "sha256:638b717069cb8f1914f4462b76a1a9b6843e8a6c3bf53fa4e7aab507f1740a1f"}, "tags": {"v2.6--h470a237_1": "sha256:638b717069cb8f1914f4462b76a1a9b6843e8a6c3bf53fa4e7aab507f1740a1f"}, "docker": "quay.io/biocontainers/genepender", "aliases": {"genepender": "/usr/local/bin/genepender", "qdoc3": "/usr/local/bin/qdoc3", "qmlviewer": "/usr/local/bin/qmlviewer", "qt3to4": "/usr/local/bin/qt3to4", "qtconfig": "/usr/local/bin/qtconfig", "qttracereplay": "/usr/local/bin/qttracereplay", "qhelpconverter": "/usr/local/bin/qhelpconverter", "qdbus": "/usr/local/bin/qdbus", "qdbuscpp2xml": "/usr/local/bin/qdbuscpp2xml", "qdbusviewer": "/usr/local/bin/qdbusviewer", "qdbusxml2cpp": "/usr/local/bin/qdbusxml2cpp", "xmlpatterns": "/usr/local/bin/xmlpatterns", "xmlpatternsvalidator": "/usr/local/bin/xmlpatternsvalidator", "assistant": "/usr/local/bin/assistant", "designer": "/usr/local/bin/designer", "lconvert": "/usr/local/bin/lconvert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genepender.

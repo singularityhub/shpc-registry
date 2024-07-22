@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-hierfstat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hierfstat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hierfstat/container.yaml"
-updated_at: "2024-07-21 02:52:16.473207"
+updated_at: "2024-07-22 02:54:03.337610"
 latest: "0.04_22--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-hierfstat"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "0.04_22--r351h6115d3f_0"
 description: "shpc-registry automated BioContainers addition for r-hierfstat"
-config: {"url": "https://biocontainers.pro/tools/r-hierfstat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-hierfstat", "latest": {"0.04_22--r351h6115d3f_0": "sha256:2247c2857856dbbf36a8a1ca9e788aecc76a251e911b7f9bd1065e9fd87c62d4"}, "tags": {"0.04_22--r351h6115d3f_0": "sha256:2247c2857856dbbf36a8a1ca9e788aecc76a251e911b7f9bd1065e9fd87c62d4"}, "docker": "quay.io/biocontainers/r-hierfstat", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-hierfstat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-hierfstat", "latest": {"0.04_22--r351h6115d3f_0": "sha256:409173d73b077c98a8a66830f607638b04e63c336ca89f2bb4c093e3cff4f157"}, "tags": {"0.04_22--r351h6115d3f_0": "sha256:409173d73b077c98a8a66830f607638b04e63c336ca89f2bb4c093e3cff4f157"}, "docker": "quay.io/biocontainers/r-hierfstat", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-hierfstat.

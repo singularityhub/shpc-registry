@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/openpyxl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openpyxl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openpyxl/container.yaml"
-updated_at: "2024-07-21 03:18:05.032650"
+updated_at: "2024-07-22 03:20:23.338852"
 latest: "2.4.0--py35_0"
 container_url: "https://biocontainers.pro/tools/openpyxl"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "2.4.0--py35_0"
  - "2.4.0--py36_0"
 description: "shpc-registry automated BioContainers addition for openpyxl"
-config: {"url": "https://biocontainers.pro/tools/openpyxl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for openpyxl", "latest": {"2.4.0--py35_0": "sha256:967be08c59edde8e49b31f9d0810bb6c0e4d86626a43fbdf063838999642643a"}, "tags": {"2.4.0--py35_0": "sha256:967be08c59edde8e49b31f9d0810bb6c0e4d86626a43fbdf063838999642643a", "2.4.0--py36_0": "sha256:db0a3ee559b53ef52512015c8cb6dccfbc9e9e0b1dd4d45fa3843b5c668cd265"}, "docker": "quay.io/biocontainers/openpyxl", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/openpyxl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for openpyxl", "latest": {"2.4.0--py35_0": "sha256:a98336ba49a985c8aac3e478a67505df513b43fd051599199e4a2ece85e9ebf0"}, "tags": {"2.4.0--py35_0": "sha256:a98336ba49a985c8aac3e478a67505df513b43fd051599199e4a2ece85e9ebf0", "2.4.0--py36_0": "sha256:9628d5a803e8056e3c809830db134ca89fae18700f926a7650226d03905f85b8"}, "docker": "quay.io/biocontainers/openpyxl", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/openpyxl.

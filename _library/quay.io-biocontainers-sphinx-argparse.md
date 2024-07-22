@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sphinx-argparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sphinx-argparse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sphinx-argparse/container.yaml"
-updated_at: "2024-07-21 03:16:15.705443"
+updated_at: "2024-07-22 03:18:32.970754"
 latest: "0.1.15--py36_0"
 container_url: "https://biocontainers.pro/tools/sphinx-argparse"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.1.15--py36_0"
 description: "shpc-registry automated BioContainers addition for sphinx-argparse"
-config: {"url": "https://biocontainers.pro/tools/sphinx-argparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sphinx-argparse", "latest": {"0.1.15--py36_0": "sha256:d67e0097073d911513c0d3e966a07c206c581fac94e9a43687bb1462c6903dc5"}, "tags": {"0.1.15--py36_0": "sha256:d67e0097073d911513c0d3e966a07c206c581fac94e9a43687bb1462c6903dc5"}, "docker": "quay.io/biocontainers/sphinx-argparse", "aliases": {"sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py"}}
+config: {"url": "https://biocontainers.pro/tools/sphinx-argparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sphinx-argparse", "latest": {"0.1.15--py36_0": "sha256:36903f4da7e012d2935e63efb1dde745b10a2e4e42c67d0d914891ccb3aa0431"}, "tags": {"0.1.15--py36_0": "sha256:36903f4da7e012d2935e63efb1dde745b10a2e4e42c67d0d914891ccb3aa0431"}, "docker": "quay.io/biocontainers/sphinx-argparse", "aliases": {"sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sphinx-argparse.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/erne"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/erne/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/erne/container.yaml"
-updated_at: "2024-07-21 02:55:41.388766"
+updated_at: "2024-07-22 02:57:36.641030"
 latest: "2.1.1--heaa942f_2"
 container_url: "https://biocontainers.pro/tools/erne"
 aliases:
@@ -26,7 +26,7 @@ aliases:
 versions:
  - "2.1.1--heaa942f_2"
 description: "shpc-registry automated BioContainers addition for erne"
-config: {"url": "https://biocontainers.pro/tools/erne", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for erne", "latest": {"2.1.1--heaa942f_2": "sha256:4a80722607959e1ad8a4b4dba69828b2a06f785c4212622fb542af2b13b4b35d"}, "tags": {"2.1.1--heaa942f_2": "sha256:4a80722607959e1ad8a4b4dba69828b2a06f785c4212622fb542af2b13b4b35d"}, "docker": "quay.io/biocontainers/erne", "aliases": {"erne-bs5": "/usr/local/bin/erne-bs5", "erne-create": "/usr/local/bin/erne-create", "erne-filter": "/usr/local/bin/erne-filter", "erne-map": "/usr/local/bin/erne-map", "erne-meth": "/usr/local/bin/erne-meth", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/erne", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for erne", "latest": {"2.1.1--heaa942f_2": "sha256:488e69900dca880a865a72c8d3ab79acb308dac1ff8b4ad825a6edd9599027e2"}, "tags": {"2.1.1--heaa942f_2": "sha256:488e69900dca880a865a72c8d3ab79acb308dac1ff8b4ad825a6edd9599027e2"}, "docker": "quay.io/biocontainers/erne", "aliases": {"erne-bs5": "/usr/local/bin/erne-bs5", "erne-create": "/usr/local/bin/erne-create", "erne-filter": "/usr/local/bin/erne-filter", "erne-map": "/usr/local/bin/erne-map", "erne-meth": "/usr/local/bin/erne-meth", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/erne.

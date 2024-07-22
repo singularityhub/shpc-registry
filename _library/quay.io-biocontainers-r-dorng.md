@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dorng"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dorng/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dorng/container.yaml"
-updated_at: "2024-07-21 02:53:04.328183"
+updated_at: "2024-07-22 02:54:51.774829"
 latest: "1.6--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-dorng"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.6--r3.3.2_0"
+ - "1.6--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-dorng"
-config: {"url": "https://biocontainers.pro/tools/r-dorng", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dorng", "latest": {"1.6--r3.3.2_0": "sha256:a22ee5b74683f8163cf895ba7e5ddb802863e5955df2388a0a7e72090de9bbbe"}, "tags": {"1.6--r3.3.2_0": "sha256:a22ee5b74683f8163cf895ba7e5ddb802863e5955df2388a0a7e72090de9bbbe"}, "docker": "quay.io/biocontainers/r-dorng", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-dorng", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dorng", "latest": {"1.6--r3.3.2_0": "sha256:af8e998f359fee7b93b58560695289f06f24d7fcb829100fb21d2dc82d77070d"}, "tags": {"1.6--r3.3.2_0": "sha256:af8e998f359fee7b93b58560695289f06f24d7fcb829100fb21d2dc82d77070d", "1.6--r3.2.2_0": "sha256:cf5ac308b9fa0a8799d5c4ef2e164f78b9a286d40208b3ac4a1058d842d00924"}, "docker": "quay.io/biocontainers/r-dorng", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dorng.

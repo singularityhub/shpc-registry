@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/ruby"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ruby/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ruby/container.yaml"
-updated_at: "2024-07-21 03:10:15.417163"
+updated_at: "2024-07-22 03:12:30.352091"
 latest: "2.2.3--1"
 container_url: "https://biocontainers.pro/tools/ruby"
 
 versions:
  - "2.2.3--1"
 description: "shpc-registry automated BioContainers addition for ruby"
-config: {"url": "https://biocontainers.pro/tools/ruby", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ruby", "latest": {"2.2.3--1": "sha256:c7015376a384281c15601d1224703b6c986d5bb318fddc3b8eb938969a04e44a"}, "tags": {"2.2.3--1": "sha256:c7015376a384281c15601d1224703b6c986d5bb318fddc3b8eb938969a04e44a"}, "docker": "quay.io/biocontainers/ruby"}
+config: {"url": "https://biocontainers.pro/tools/ruby", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ruby", "latest": {"2.2.3--1": "sha256:f58e0dfaaeb2378c90e696d8230d36f8bbe44b42e196de311b6e865289eb3846"}, "tags": {"2.2.3--1": "sha256:f58e0dfaaeb2378c90e696d8230d36f8bbe44b42e196de311b6e865289eb3846"}, "docker": "quay.io/biocontainers/ruby"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ruby.

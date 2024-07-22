@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/maaslin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maaslin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maaslin/container.yaml"
-updated_at: "2024-07-21 02:46:57.731496"
+updated_at: "2024-07-22 02:48:38.458639"
 latest: "0.05--r351_0"
 container_url: "https://biocontainers.pro/tools/maaslin"
 
 versions:
  - "0.05--r351_0"
 description: "shpc-registry automated BioContainers addition for maaslin"
-config: {"url": "https://biocontainers.pro/tools/maaslin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for maaslin", "latest": {"0.05--r351_0": "sha256:6a2448683d5899b8e521f49f99372407d3decaf73c2d0d13305b27bec10375fe"}, "tags": {"0.05--r351_0": "sha256:6a2448683d5899b8e521f49f99372407d3decaf73c2d0d13305b27bec10375fe"}, "docker": "quay.io/biocontainers/maaslin"}
+config: {"url": "https://biocontainers.pro/tools/maaslin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for maaslin", "latest": {"0.05--r351_0": "sha256:20f403bf60cfbef747efea6a40abc71febb1990adaa37b37abeb8a738d4a2ec6"}, "tags": {"0.05--r351_0": "sha256:20f403bf60cfbef747efea6a40abc71febb1990adaa37b37abeb8a738d4a2ec6"}, "docker": "quay.io/biocontainers/maaslin"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/maaslin.
