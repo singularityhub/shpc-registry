@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/sphinxcontrib-programoutput
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sphinxcontrib-programoutput
 latest:
-  0.8--py36_0: sha256:45fb407ad81899a23e0da9c91972b2fc0a9f3cb042823fb6ca6d1739a9c91e39
+  0.8--py36_0: sha256:0a0141e933c74851079fc2fb9b1322bc5124e40883317f6483dbc08216030938
 tags:
-  0.8--py36_0: sha256:45fb407ad81899a23e0da9c91972b2fc0a9f3cb042823fb6ca6d1739a9c91e39
+  0.8--py36_0: sha256:0a0141e933c74851079fc2fb9b1322bc5124e40883317f6483dbc08216030938
+  0.8--py35_0: sha256:d2edd6ba0b6a1ffe3e5343802b8ca865f21da20ba72514213fbc88542b7cf731
 docker: quay.io/biocontainers/sphinxcontrib-programoutput
 aliases:
   sphinx-apidoc: /usr/local/bin/sphinx-apidoc

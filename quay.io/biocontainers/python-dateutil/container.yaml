@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/python-dateutil
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for python-dateutil
 latest:
-  2.6.0--py34_0: sha256:405fbdf4d1624658cdb24203b4f1051e7e0271b939fb9873d389733018c74a30
+  2.6.0--py34_0: sha256:00cd899f913f9d47a0c8805ae9e4adf6b977c05780d915c9ea9bfa5db2def091
 tags:
-  2.6.0--py34_0: sha256:405fbdf4d1624658cdb24203b4f1051e7e0271b939fb9873d389733018c74a30
-  2.6.0--py36_0: sha256:c1b819faa5586e58c0e46970ed64de3e19bcc9a8ef7b6e3fc7db2d2091a070f4
+  2.6.0--py34_0: sha256:00cd899f913f9d47a0c8805ae9e4adf6b977c05780d915c9ea9bfa5db2def091
+  2.6.0--py36_0: sha256:b4eabb9ef99e58ab08ff0ea89cc4aaf409af44dd3ea0d7a5308552c9cccd83ee
 docker: quay.io/biocontainers/python-dateutil
 aliases:
   2to3-3.4: /usr/local/bin/2to3-3.4

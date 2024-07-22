@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/simplejson
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for simplejson
 latest:
-  3.8.1--py36_0: sha256:b581b86fd3d90e6c25bfe170573b3f5e032cf300a73e2030d02d7b6935740ba7
+  3.8.1--py36_0: sha256:d03eca63f3e3335a557b5e2423d39ef2715badc996710e600fc9822d1d4b1e73
 tags:
-  3.8.1--py36_0: sha256:b581b86fd3d90e6c25bfe170573b3f5e032cf300a73e2030d02d7b6935740ba7
+  3.8.1--py36_0: sha256:d03eca63f3e3335a557b5e2423d39ef2715badc996710e600fc9822d1d4b1e73
+  3.8.1--py35_0: sha256:22152b403140296fb231ede4d182dded89c37199f8b66aaef569fb6d073b7781
 docker: quay.io/biocontainers/simplejson
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

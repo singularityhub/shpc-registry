@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-plasmidprofiler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-plasmidprofiler
 latest:
-  0.1.6--r3.3.1_3: sha256:5639ee92462caba214410e094b63f2034e61f76410afe6af3916e5f2c80fd0e1
+  0.1.6--r3.3.1_3: sha256:f4830895a48db85012d3997d2e06f6e9d806b338757269122a96c540e2f17c51
 tags:
-  0.1.6--r3.3.1_3: sha256:5639ee92462caba214410e094b63f2034e61f76410afe6af3916e5f2c80fd0e1
-  0.1.6--r3.4.1_3: sha256:9796156eb25addefa637fc3aa8c2eca022abc6a716a6a2d7e55521942cad7b8f
+  0.1.6--r3.3.1_3: sha256:f4830895a48db85012d3997d2e06f6e9d806b338757269122a96c540e2f17c51
+  0.1.6--r3.4.1_3: sha256:c75d6dd7b3929fe971085c8f8f653eef34bab8637ea2365bea7b4cf1f2ff0107
 docker: quay.io/biocontainers/r-plasmidprofiler
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

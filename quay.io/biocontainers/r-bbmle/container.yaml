@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-bbmle
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-bbmle
 latest:
-  1.0.18--r3.3.1_0: sha256:0da58cd0b1b3ab81d3e33689ac59aacd73a1a843f8f5b092b33543893742852f
+  1.0.18--r3.3.1_0: sha256:15022c37dd02b06c68cec868876bfd7c46ff554f32932fc71f5e0d3e841a9fc8
 tags:
-  1.0.18--r3.3.1_0: sha256:0da58cd0b1b3ab81d3e33689ac59aacd73a1a843f8f5b092b33543893742852f
-  1.0.18--r3.3.2_0: sha256:e0b2c60b9eba6128615f2bff6097c2e71dd0169949324d99b5852d58f29904f3
+  1.0.18--r3.3.1_0: sha256:15022c37dd02b06c68cec868876bfd7c46ff554f32932fc71f5e0d3e841a9fc8
+  1.0.18--r3.3.2_0: sha256:8098382016338c99e2b65d643e0a0f9ba3aa21fba2a0e9b37988b2711a1e9454
 docker: quay.io/biocontainers/r-bbmle
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

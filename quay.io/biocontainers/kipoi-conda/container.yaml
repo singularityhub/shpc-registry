@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/kipoi-conda
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kipoi-conda
 latest:
-  0.1.6--py_0: sha256:f2f3e8f852e2d29f7cab02c550bf7482e235bcaeebe48048eef0d8dc12ff0a39
+  0.1.6--py_0: sha256:6f60bb80c561ed3bb1705c895c055eac760f60f727e39e41714a59cc36928902
 tags:
-  0.1.6--py_0: sha256:f2f3e8f852e2d29f7cab02c550bf7482e235bcaeebe48048eef0d8dc12ff0a39
+  0.1.6--py_0: sha256:6f60bb80c561ed3bb1705c895c055eac760f60f727e39e41714a59cc36928902
 docker: quay.io/biocontainers/kipoi-conda
 aliases:
   tqdm: /usr/local/bin/tqdm

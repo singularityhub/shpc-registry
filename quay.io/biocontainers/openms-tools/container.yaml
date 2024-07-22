@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/openms-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for openms-tools
 latest:
-  2.4.0--hc9558a2_3: sha256:6ee198784c494405ed4d3aba7b1a32719c8d304f835269905eba5d65001176d1
+  2.4.0--hc9558a2_3: sha256:0004b5e2d4c57ac56d8fc8741e32d38fe3dd45e2b8cc850fbe6f826636d9df48
 tags:
-  2.4.0--hc9558a2_3: sha256:6ee198784c494405ed4d3aba7b1a32719c8d304f835269905eba5d65001176d1
+  2.4.0--hc9558a2_3: sha256:0004b5e2d4c57ac56d8fc8741e32d38fe3dd45e2b8cc850fbe6f826636d9df48
 docker: quay.io/biocontainers/openms-tools
 aliases:
   AccurateMassSearch: /usr/local/bin/AccurateMassSearch

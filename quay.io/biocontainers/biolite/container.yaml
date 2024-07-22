@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/biolite
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biolite
 latest:
-  1.2.0--py27_0: sha256:17c0d9b5f4490122f7a910290af275f3ad87050ca5b2077b6a9933e410e706e0
+  1.2.0--py27_0: sha256:ed66e1db621a86b3fe289f53d9a0081d80120dcd2fa2707237386d1c80b3e498
 tags:
-  1.2.0--py27_0: sha256:17c0d9b5f4490122f7a910290af275f3ad87050ca5b2077b6a9933e410e706e0
+  1.2.0--py27_0: sha256:ed66e1db621a86b3fe289f53d9a0081d80120dcd2fa2707237386d1c80b3e498
 docker: quay.io/biocontainers/biolite

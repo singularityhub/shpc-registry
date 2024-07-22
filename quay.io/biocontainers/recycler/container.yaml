@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/recycler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for recycler
 latest:
-  0.7--py_3: sha256:621012a608ea1467a1dd8e4d21f7a2daa19f4e82b1b7b30452de9a3150e84123
+  0.7--py_3: sha256:ebe8815e2326e372f50c08db22878424e2f07b443c8ffe71300dd85215d53bfb
 tags:
-  0.7--py_3: sha256:621012a608ea1467a1dd8e4d21f7a2daa19f4e82b1b7b30452de9a3150e84123
+  0.7--py_3: sha256:ebe8815e2326e372f50c08db22878424e2f07b443c8ffe71300dd85215d53bfb
 docker: quay.io/biocontainers/recycler
 aliases:
   get_simple_cycs.py: /usr/local/bin/get_simple_cycs.py

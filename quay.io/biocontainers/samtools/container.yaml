@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/samtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for samtools
 latest:
-  1.20--h50ea8bc_0: sha256:d0ebd10e887e3ddd02d071f1ca7b649dc90dc6fb99a5ffd0f5ebf8611a1f92cc
+  1.20--h50ea8bc_1: sha256:bf80e07e650becfd084db1abde0fe932b50f990a07fa56421ea647b552b5a406
 tags:
   1.10--h2e538c0_3: sha256:84a8d0c0acec87448a47cefa60c4f4a545887239fcd7984a58b48e7a6ac86390
   1.11--h6270b1f_0: sha256:141120f19f849b79e05ae2fac981383988445c373b8b5db7f3dd221179af382b
@@ -16,6 +16,7 @@ tags:
   1.16.1--h00cdaf9_2: sha256:85f48a5a15fa523ba0edf3797f9e127f56e1ee4ef1d6dc90a757a53498a27c3e
   1.15.1--h6899075_1: sha256:7b9def45ac8a25153935ca53118c8dbed2ea92a99001c83508fec3f0f6f26802
   1.20--h50ea8bc_0: sha256:d0ebd10e887e3ddd02d071f1ca7b649dc90dc6fb99a5ffd0f5ebf8611a1f92cc
+  1.20--h50ea8bc_1: sha256:bf80e07e650becfd084db1abde0fe932b50f990a07fa56421ea647b552b5a406
 docker: quay.io/biocontainers/samtools
 aliases:
   ace2sam: /usr/local/bin/ace2sam

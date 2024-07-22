@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/gvcftools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gvcftools
 latest:
-  0.17.0--he941832_3: sha256:e3b1839aa423dd288ac415c948650374e9ac8c4ae40e71090887fb6daf548365
+  0.17.0--he941832_3: sha256:1f10cda45882f09c9d1436196c3a76f8a8943f980857a301dfd327b29b00f1d3
 tags:
-  0.17.0--he941832_3: sha256:e3b1839aa423dd288ac415c948650374e9ac8c4ae40e71090887fb6daf548365
+  0.17.0--he941832_3: sha256:1f10cda45882f09c9d1436196c3a76f8a8943f980857a301dfd327b29b00f1d3
 docker: quay.io/biocontainers/gvcftools
 aliases:
   break_blocks: /usr/local/bin/break_blocks

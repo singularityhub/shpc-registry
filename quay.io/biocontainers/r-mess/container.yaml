@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-mess
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-mess
 latest:
-  0.5.5--r351h29659fb_0: sha256:24c4e46f17a2c89b1d8508faf119ecdf83991d65386533148e5d5647530c6b8f
+  0.5.5--r351h29659fb_0: sha256:a3b62faab25f6bd9d053ae909fbace01929251195663b2ecde9652ef4bef5813
 tags:
-  0.5.5--r351h29659fb_0: sha256:24c4e46f17a2c89b1d8508faf119ecdf83991d65386533148e5d5647530c6b8f
+  0.5.5--r351h29659fb_0: sha256:a3b62faab25f6bd9d053ae909fbace01929251195663b2ecde9652ef4bef5813
 docker: quay.io/biocontainers/r-mess
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

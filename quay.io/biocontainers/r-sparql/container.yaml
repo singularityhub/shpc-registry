@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-sparql
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-sparql
 latest:
-  1.16--r3.3.2_0: sha256:c652d4f22fbc7a5d00fb314d0c3035afb4db0d5b89b7ece5bb053e185d8f8e99
+  1.16--r3.3.2_0: sha256:2024abd13569bd005578f051dc8aacfb5e1ce392dc4d58bbbb8780220ecf65c2
 tags:
-  1.16--r3.3.2_0: sha256:c652d4f22fbc7a5d00fb314d0c3035afb4db0d5b89b7ece5bb053e185d8f8e99
+  1.16--r3.3.2_0: sha256:2024abd13569bd005578f051dc8aacfb5e1ce392dc4d58bbbb8780220ecf65c2
+  1.16--r3.2.2_0: sha256:7e1b2b76db33721ae3c196e9438d1fefbb8825cf1cfd0c36489afe68ac579294
 docker: quay.io/biocontainers/r-sparql
 aliases:
   uconv: /usr/local/bin/uconv

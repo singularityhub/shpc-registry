@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/krakenhll
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for krakenhll
 latest:
-  0.4.8--pl526ha92aebf_1: sha256:00f1c37d4e35555ec7936081d77346707fd2d54aec15941f4d35480dc72b60ec
+  0.4.8--pl526ha92aebf_1: sha256:a2803c4f8e4f8ad5f31054748c08f88630dbb5e8994a27495c6b9d870946a6c4
 tags:
-  0.4.8--pl526ha92aebf_1: sha256:00f1c37d4e35555ec7936081d77346707fd2d54aec15941f4d35480dc72b60ec
+  0.4.8--pl526ha92aebf_1: sha256:a2803c4f8e4f8ad5f31054748c08f88630dbb5e8994a27495c6b9d870946a6c4
 docker: quay.io/biocontainers/krakenhll
 aliases:
   build_taxdb: /usr/local/bin/build_taxdb

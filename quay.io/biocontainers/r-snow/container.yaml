@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-snow
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-snow
 latest:
-  0.4_1--r3.3.2_0: sha256:e5013094ac7091eeb426d0581b0818601bff7ff4134fa4f99fa2643b95572f43
+  0.4_1--r3.3.2_0: sha256:be33beba612945944468a87c84fbe06f51656e10cdf96193f9b266c5e429c75d
 tags:
-  0.4_1--r3.3.2_0: sha256:e5013094ac7091eeb426d0581b0818601bff7ff4134fa4f99fa2643b95572f43
+  0.4_1--r3.3.2_0: sha256:be33beba612945944468a87c84fbe06f51656e10cdf96193f9b266c5e429c75d
+  0.4_1--r3.2.2_0: sha256:3fa6cca7f603500463d8a27a1b250d3e554a72126cd8cfeed5efd10cb7b2c054
 docker: quay.io/biocontainers/r-snow
 aliases:
   uconv: /usr/local/bin/uconv

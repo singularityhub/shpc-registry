@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-ade4
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ade4
 latest:
-  1.7_11--r3.4.1_0: sha256:0c8e0888d275b739885dda6357952a73a75d2d1254c2ec345b60405aac328a94
+  1.7_11--r3.4.1_0: sha256:8c96c24ccfe4acc4208aacd673d92aedd761a582f259b5f73f05716809935c3c
 tags:
-  1.7_2--r3.2.2_0: sha256:4fd856b7fa42fcd41639cbcb55567e38880cf49e12653c83dfe86a119206c295
-  1.7_11--r3.4.1_0: sha256:0c8e0888d275b739885dda6357952a73a75d2d1254c2ec345b60405aac328a94
+  1.7_2--r3.2.2_0: sha256:38e24b3ad91eda627e96ed08137fb3f32fe708f63a66e017b23397a0175ac6f7
+  1.7_11--r3.4.1_0: sha256:8c96c24ccfe4acc4208aacd673d92aedd761a582f259b5f73f05716809935c3c
 docker: quay.io/biocontainers/r-ade4
 aliases:
   pngcp: /usr/local/bin/pngcp

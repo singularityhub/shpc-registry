@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-geneselector
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-geneselector
 latest:
-  2.32.0--r351h14c3975_0: sha256:9dab442d8442ea8dab05d995d62d08269d01e011d58827b6d5e3ff404d0e35a3
+  2.32.0--r351h14c3975_0: sha256:23e3c6872fe96d419f3af37eecb67b341032cdbbf0413e0b96ae13fc24286e27
 tags:
-  2.32.0--r351h14c3975_0: sha256:9dab442d8442ea8dab05d995d62d08269d01e011d58827b6d5e3ff404d0e35a3
+  2.32.0--r351h14c3975_0: sha256:23e3c6872fe96d419f3af37eecb67b341032cdbbf0413e0b96ae13fc24286e27
 docker: quay.io/biocontainers/bioconductor-geneselector
 aliases:
   c89: /usr/local/bin/c89

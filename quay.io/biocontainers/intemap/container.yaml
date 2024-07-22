@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/intemap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for intemap
 latest:
-  1.0--py27_1: sha256:b411669a4b1289fc95833aae0cfdab2764cc9b0be9ae512837485fb93470b4e2
+  1.0--py27_1: sha256:35f78f2ee81c0e640a19440308acbcd0e88c8a895cd97e14a0f848e0da3c831f
 tags:
-  1.0--py27_1: sha256:b411669a4b1289fc95833aae0cfdab2764cc9b0be9ae512837485fb93470b4e2
+  1.0--py27_1: sha256:35f78f2ee81c0e640a19440308acbcd0e88c8a895cd97e14a0f848e0da3c831f
 docker: quay.io/biocontainers/intemap
 aliases:
   AtacDriver.py: /usr/local/bin/AtacDriver.py

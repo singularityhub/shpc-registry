@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/phylocsf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phylocsf
 latest:
-  1.0.1--h3eba124_1: sha256:f7ce1298f62e47a2e0ba3ee0c3a63ff7f728f56ec63a7f8040cfd8a715475530
+  1.0.1--h3eba124_1: sha256:416bb1f7e1fade714091dfea775f7a9d4f4a4c1bada91d0747ae4e3caa3bcd91
 tags:
-  1.0.1--h3eba124_1: sha256:f7ce1298f62e47a2e0ba3ee0c3a63ff7f728f56ec63a7f8040cfd8a715475530
+  1.0.1--h3eba124_1: sha256:416bb1f7e1fade714091dfea775f7a9d4f4a4c1bada91d0747ae4e3caa3bcd91
 docker: quay.io/biocontainers/phylocsf
 aliases:
   PhyloCSF: /usr/local/bin/PhyloCSF

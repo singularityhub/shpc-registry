@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/eval
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for eval
 latest:
-  2.2.8--pl526_1: sha256:8fc80165439a7328b8332e38f4063047bf60204244a6dcac9e499abff5bec2d9
+  2.2.8--pl526_1: sha256:2d04279fb7e2f39610bdbfc2d9b38a9725ad3d32fc8c6a1e767e444a8ca7a0a6
 tags:
-  2.2.8--pl526_1: sha256:8fc80165439a7328b8332e38f4063047bf60204244a6dcac9e499abff5bec2d9
+  2.2.8--pl526_1: sha256:2d04279fb7e2f39610bdbfc2d9b38a9725ad3d32fc8c6a1e767e444a8ca7a0a6
 docker: quay.io/biocontainers/eval
 aliases:
   RangeFinder.py: /usr/local/bin/RangeFinder.py

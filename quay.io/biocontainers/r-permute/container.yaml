@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-permute
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-permute
 latest:
-  0.8_4--r3.3.2_0: sha256:316aef925cf04ecbea654d9bc37ce627787320c9b669ca0bb8958e50456112e8
+  0.8_4--r3.3.2_0: sha256:03b981c094d46ca6168b75c739c4650625dacb3236e15a9c1b082e65fa628663
 tags:
-  0.8_4--r3.3.2_0: sha256:316aef925cf04ecbea654d9bc37ce627787320c9b669ca0bb8958e50456112e8
+  0.8_4--r3.3.2_0: sha256:03b981c094d46ca6168b75c739c4650625dacb3236e15a9c1b082e65fa628663
+  0.8_4--r3.2.2_0: sha256:1246b84c20726c5e61ba59afeb83ded0013614ee563c4d4f12b5565092e3a68e
 docker: quay.io/biocontainers/r-permute
 aliases:
   uconv: /usr/local/bin/uconv

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/shannon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for shannon
 latest:
-  0.0.2--py_1: sha256:f726492df1c5e8580e76cc2aec5194247b0fca28ed7085086f14c0c3274d7b37
+  0.0.2--py_1: sha256:fd12d4cc13e569e24a479ce8e4d422f635c7fce06cc4f807f5029704fdc55046
 tags:
-  0.0.2--py_1: sha256:f726492df1c5e8580e76cc2aec5194247b0fca28ed7085086f14c0c3274d7b37
+  0.0.2--py_1: sha256:fd12d4cc13e569e24a479ce8e4d422f635c7fce06cc4f807f5029704fdc55046
 docker: quay.io/biocontainers/shannon
 aliases:
   algorithm_SF.py: /usr/local/bin/algorithm_SF.py

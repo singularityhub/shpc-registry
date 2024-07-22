@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/screamingbackpack
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for screamingbackpack
 latest:
-  0.2.333--py_1: sha256:1f6e978fdfd4295157d6b641cd5fec0747d45bc526520465553b47632d94ca0e
+  0.2.333--py_1: sha256:2084f14a8792bca1f7c130a3667c7405701b5ffe0aa32e35a4b84bacbd7db2a5
 tags:
-  0.2.333--py_1: sha256:1f6e978fdfd4295157d6b641cd5fec0747d45bc526520465553b47632d94ca0e
+  0.2.333--py_1: sha256:2084f14a8792bca1f7c130a3667c7405701b5ffe0aa32e35a4b84bacbd7db2a5
 docker: quay.io/biocontainers/screamingbackpack
 aliases:
   screamingBackpack: /usr/local/bin/screamingBackpack

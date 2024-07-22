@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/fftw
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fftw
 latest:
-  3.3.4--0: sha256:819bd01645316c33951ea5474a02e3c02d26ef9a544ad366a783d645411cf1bf
+  3.3.4--0: sha256:a8a486cb2b03cb216340909af01996d242ae5a39c35728e98445f72c014082cc
 tags:
-  3.3.4--0: sha256:819bd01645316c33951ea5474a02e3c02d26ef9a544ad366a783d645411cf1bf
+  3.3.4--0: sha256:a8a486cb2b03cb216340909af01996d242ae5a39c35728e98445f72c014082cc
 docker: quay.io/biocontainers/fftw
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom

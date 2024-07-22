@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/watchdog
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for watchdog
 latest:
-  0.8.3--py36_0: sha256:6ec079adf9b3bc38e95444438e2ff24ffc6e5f7ed40817f77863223837451f14
+  0.8.3--py36_0: sha256:1e33b8ae6b970d3719d552a4242a750bfa3d0ecdd21999542980d90fcdaa2b1a
 tags:
-  0.8.3--py36_0: sha256:6ec079adf9b3bc38e95444438e2ff24ffc6e5f7ed40817f77863223837451f14
+  0.8.3--py36_0: sha256:1e33b8ae6b970d3719d552a4242a750bfa3d0ecdd21999542980d90fcdaa2b1a
+  0.8.3--py35_0: sha256:0370da3d796083ce5c30de8a6e8ef5ba08d220ef7f15c7aa640c5af4fb0040f2
 docker: quay.io/biocontainers/watchdog
