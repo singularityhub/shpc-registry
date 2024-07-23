@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sparql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sparql/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sparql/container.yaml"
-updated_at: "2024-07-22 03:41:18.558219"
+updated_at: "2024-07-23 03:03:02.014665"
 latest: "1.16--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-sparql"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.16--r3.3.2_0"
+ - "1.16--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-sparql"
-config: {"url": "https://biocontainers.pro/tools/r-sparql", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sparql", "latest": {"1.16--r3.3.2_0": "sha256:c652d4f22fbc7a5d00fb314d0c3035afb4db0d5b89b7ece5bb053e185d8f8e99"}, "tags": {"1.16--r3.3.2_0": "sha256:c652d4f22fbc7a5d00fb314d0c3035afb4db0d5b89b7ece5bb053e185d8f8e99"}, "docker": "quay.io/biocontainers/r-sparql", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-sparql", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sparql", "latest": {"1.16--r3.3.2_0": "sha256:2024abd13569bd005578f051dc8aacfb5e1ce392dc4d58bbbb8780220ecf65c2"}, "tags": {"1.16--r3.3.2_0": "sha256:2024abd13569bd005578f051dc8aacfb5e1ce392dc4d58bbbb8780220ecf65c2", "1.16--r3.2.2_0": "sha256:7e1b2b76db33721ae3c196e9438d1fefbb8825cf1cfd0c36489afe68ac579294"}, "docker": "quay.io/biocontainers/r-sparql", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sparql.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kobas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kobas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kobas/container.yaml"
-updated_at: "2024-07-22 03:26:37.970225"
+updated_at: "2024-07-23 02:47:49.554297"
 latest: "3.0.3--py_3"
 container_url: "https://biocontainers.pro/tools/kobas"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "3.0.3--py_3"
 description: "shpc-registry automated BioContainers addition for kobas"
-config: {"url": "https://biocontainers.pro/tools/kobas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kobas", "latest": {"3.0.3--py_3": "sha256:430b30f6141a51f581f301e8b66bbb8db401d730673acb9eb6ef28ace78a9c66"}, "tags": {"3.0.3--py_3": "sha256:430b30f6141a51f581f301e8b66bbb8db401d730673acb9eb6ef28ace78a9c66"}, "docker": "quay.io/biocontainers/kobas", "aliases": {"kobas-annotate": "/usr/local/bin/kobas-annotate", "kobas-identify": "/usr/local/bin/kobas-identify", "kobas-run": "/usr/local/bin/kobas-run", "build.sh": "/usr/local/bin/build.sh", "common.go": "/usr/local/bin/common.go", "rchive.go": "/usr/local/bin/rchive.go", "setup-deps.log": "/usr/local/bin/setup-deps.log", "setup.sh": "/usr/local/bin/setup.sh", "xtract.go": "/usr/local/bin/xtract.go", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "bt-context.txt": "/usr/local/bin/bt-context.txt", "bt-link": "/usr/local/bin/bt-link", "bt-load": "/usr/local/bin/bt-load"}}
+config: {"url": "https://biocontainers.pro/tools/kobas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kobas", "latest": {"3.0.3--py_3": "sha256:d804014564f6ee2eb046a63cdfd06f8224613c1a6bb83264baaae5c201de0cb3"}, "tags": {"3.0.3--py_3": "sha256:d804014564f6ee2eb046a63cdfd06f8224613c1a6bb83264baaae5c201de0cb3"}, "docker": "quay.io/biocontainers/kobas", "aliases": {"kobas-annotate": "/usr/local/bin/kobas-annotate", "kobas-identify": "/usr/local/bin/kobas-identify", "kobas-run": "/usr/local/bin/kobas-run", "build.sh": "/usr/local/bin/build.sh", "common.go": "/usr/local/bin/common.go", "rchive.go": "/usr/local/bin/rchive.go", "setup-deps.log": "/usr/local/bin/setup-deps.log", "setup.sh": "/usr/local/bin/setup.sh", "xtract.go": "/usr/local/bin/xtract.go", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "bt-context.txt": "/usr/local/bin/bt-context.txt", "bt-link": "/usr/local/bin/bt-link", "bt-load": "/usr/local/bin/bt-load"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kobas.

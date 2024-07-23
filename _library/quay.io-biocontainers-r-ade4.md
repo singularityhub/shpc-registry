@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ade4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ade4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ade4/container.yaml"
-updated_at: "2024-07-22 03:39:10.636444"
+updated_at: "2024-07-23 03:00:48.427879"
 latest: "1.7_11--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-ade4"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.7_2--r3.2.2_0"
  - "1.7_11--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-ade4"
-config: {"url": "https://biocontainers.pro/tools/r-ade4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ade4", "latest": {"1.7_11--r3.4.1_0": "sha256:0c8e0888d275b739885dda6357952a73a75d2d1254c2ec345b60405aac328a94"}, "tags": {"1.7_2--r3.2.2_0": "sha256:4fd856b7fa42fcd41639cbcb55567e38880cf49e12653c83dfe86a119206c295", "1.7_11--r3.4.1_0": "sha256:0c8e0888d275b739885dda6357952a73a75d2d1254c2ec345b60405aac328a94"}, "docker": "quay.io/biocontainers/r-ade4", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-ade4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ade4", "latest": {"1.7_11--r3.4.1_0": "sha256:8c96c24ccfe4acc4208aacd673d92aedd761a582f259b5f73f05716809935c3c"}, "tags": {"1.7_2--r3.2.2_0": "sha256:38e24b3ad91eda627e96ed08137fb3f32fe708f63a66e017b23397a0175ac6f7", "1.7_11--r3.4.1_0": "sha256:8c96c24ccfe4acc4208aacd673d92aedd761a582f259b5f73f05716809935c3c"}, "docker": "quay.io/biocontainers/r-ade4", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ade4.

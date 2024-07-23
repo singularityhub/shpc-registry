@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/simplejson"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simplejson/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simplejson/container.yaml"
-updated_at: "2024-07-22 03:16:33.607000"
+updated_at: "2024-07-23 02:37:25.493193"
 latest: "3.8.1--py36_0"
 container_url: "https://biocontainers.pro/tools/simplejson"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "3.8.1--py36_0"
+ - "3.8.1--py35_0"
 description: "shpc-registry automated BioContainers addition for simplejson"
-config: {"url": "https://biocontainers.pro/tools/simplejson", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simplejson", "latest": {"3.8.1--py36_0": "sha256:b581b86fd3d90e6c25bfe170573b3f5e032cf300a73e2030d02d7b6935740ba7"}, "tags": {"3.8.1--py36_0": "sha256:b581b86fd3d90e6c25bfe170573b3f5e032cf300a73e2030d02d7b6935740ba7"}, "docker": "quay.io/biocontainers/simplejson", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/simplejson", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simplejson", "latest": {"3.8.1--py36_0": "sha256:d03eca63f3e3335a557b5e2423d39ef2715badc996710e600fc9822d1d4b1e73"}, "tags": {"3.8.1--py36_0": "sha256:d03eca63f3e3335a557b5e2423d39ef2715badc996710e600fc9822d1d4b1e73", "3.8.1--py35_0": "sha256:22152b403140296fb231ede4d182dded89c37199f8b66aaef569fb6d073b7781"}, "docker": "quay.io/biocontainers/simplejson", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/simplejson.

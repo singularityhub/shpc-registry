@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ipo-meta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ipo-meta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ipo-meta/container.yaml"
-updated_at: "2024-07-22 04:01:50.576496"
+updated_at: "2024-07-23 03:24:15.400442"
 latest: "1.7.5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ipo-meta"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.7.5--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-ipo-meta"
-config: {"url": "https://biocontainers.pro/tools/r-ipo-meta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ipo-meta", "latest": {"1.7.5--r3.3.1_0": "sha256:ba27e8bb91d72ece683fd1ae3212ec9e5fd9a23c7987235704e20c392ef0b752"}, "tags": {"1.7.5--r3.3.1_0": "sha256:ba27e8bb91d72ece683fd1ae3212ec9e5fd9a23c7987235704e20c392ef0b752"}, "docker": "quay.io/biocontainers/r-ipo-meta", "aliases": {"nc-config": "/usr/local/bin/nc-config", "nccopy": "/usr/local/bin/nccopy", "ncdump": "/usr/local/bin/ncdump", "ncgen": "/usr/local/bin/ncgen", "ncgen3": "/usr/local/bin/ncgen3", "uconv": "/usr/local/bin/uconv", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/r-ipo-meta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ipo-meta", "latest": {"1.7.5--r3.3.1_0": "sha256:e5e3093ce030cb4d4016e441226a03de433140af1214dd3022dc6cb33c87d51b"}, "tags": {"1.7.5--r3.3.1_0": "sha256:e5e3093ce030cb4d4016e441226a03de433140af1214dd3022dc6cb33c87d51b"}, "docker": "quay.io/biocontainers/r-ipo-meta", "aliases": {"nc-config": "/usr/local/bin/nc-config", "nccopy": "/usr/local/bin/nccopy", "ncdump": "/usr/local/bin/ncdump", "ncgen": "/usr/local/bin/ncgen", "ncgen3": "/usr/local/bin/ncgen3", "uconv": "/usr/local/bin/uconv", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ipo-meta.

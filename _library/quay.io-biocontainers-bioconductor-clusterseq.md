@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clusterseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clusterseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clusterseq/container.yaml"
-updated_at: "2024-07-22 03:59:42.243649"
+updated_at: "2024-07-23 03:22:02.456372"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clusterseq"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.12.0--r40_0"
  - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-clusterseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-clusterseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clusterseq", "latest": {"1.26.0--r43hdfd78af_0": "sha256:c624208d3ee9a79896be7c2c08ddcb99721c85e3e748de8bd0c981a1c4b80d06"}, "tags": {"1.8.0--r36_1": "sha256:ea4b5d40c0fccda1fa329780a556f2411c062702cb2140f59cd274a3ce1c7d75", "1.22.0--r42hdfd78af_0": "sha256:55541cfc3de629aa929604a37daf2a83a09047198cebc411e028e35dd4972135", "1.18.0--r41hdfd78af_0": "sha256:f54c4fa2cbbef5de2fdcab4da90e08dbd3eace034ea2d8c2ecda32dac9e10349", "1.16.0--r41hdfd78af_0": "sha256:000c6472a1f03e668dcc6608469cac1bcd7792e7ebe90e8121b39220561dc399", "1.14.0--r40hdfd78af_1": "sha256:32f6d44329aa187ada5c0b9e01cfae7e80fc84fe77c9a64a417ea2413e44ae1f", "1.12.0--r40_0": "sha256:b0774a1eb34b99dca952d6410cde233e602cd74075d8e7acff3da437ed20f9e1", "1.26.0--r43hdfd78af_0": "sha256:c624208d3ee9a79896be7c2c08ddcb99721c85e3e748de8bd0c981a1c4b80d06"}, "docker": "quay.io/biocontainers/bioconductor-clusterseq", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-clusterseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clusterseq", "latest": {"1.26.0--r43hdfd78af_0": "sha256:c624208d3ee9a79896be7c2c08ddcb99721c85e3e748de8bd0c981a1c4b80d06"}, "tags": {"1.8.0--r36_1": "sha256:030cfabe5c27d78d8c89f074ffa0e23ccb97ba02a1e9faf7746aef3d4356e3ae", "1.22.0--r42hdfd78af_0": "sha256:55541cfc3de629aa929604a37daf2a83a09047198cebc411e028e35dd4972135", "1.18.0--r41hdfd78af_0": "sha256:f54c4fa2cbbef5de2fdcab4da90e08dbd3eace034ea2d8c2ecda32dac9e10349", "1.16.0--r41hdfd78af_0": "sha256:000c6472a1f03e668dcc6608469cac1bcd7792e7ebe90e8121b39220561dc399", "1.14.0--r40hdfd78af_1": "sha256:32f6d44329aa187ada5c0b9e01cfae7e80fc84fe77c9a64a417ea2413e44ae1f", "1.12.0--r40_0": "sha256:b0774a1eb34b99dca952d6410cde233e602cd74075d8e7acff3da437ed20f9e1", "1.26.0--r43hdfd78af_0": "sha256:c624208d3ee9a79896be7c2c08ddcb99721c85e3e748de8bd0c981a1c4b80d06"}, "docker": "quay.io/biocontainers/bioconductor-clusterseq", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-clusterseq.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-annotationfilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-annotationfilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-annotationfilter/container.yaml"
-updated_at: "2024-07-22 03:26:10.988565"
+updated_at: "2024-07-23 02:47:21.734255"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-annotationfilter"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-annotationfilter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-annotationfilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annotationfilter", "latest": {"1.26.0--r43hdfd78af_0": "sha256:412d55e1074340cb5dc8dafd237e4b64e4683d882673586410543290432b7cf3"}, "tags": {"1.8.0--r36_1": "sha256:60902f3ca3ca936238033978957d4c579fc4a2d1ee7669752efab9bf6c3e8c5b", "1.22.0--r42hdfd78af_0": "sha256:99aa0f2334803c8ee3f8a459560817c3d15c096d2314529954e736d00ae09be3", "1.18.0--r41hdfd78af_0": "sha256:c0bf5695a813999e61488594616dee63357c4759301a4b0603fa105ca37b759c", "1.16.0--r41hdfd78af_0": "sha256:692f331601b69c8ba09e7def0f8bbc68f6c0d5b825539c49a95736d3093e31a3", "1.14.0--r40hdfd78af_1": "sha256:bb9b0eb36882a787c410b4a13ba9736fe74356bc2e1c049d4d45231ad2269b7c", "1.12.0--r40_0": "sha256:28add3b1bef84f99278a91494ead6beb5a0b37dde973474db8ac2f2eba78e454", "1.24.0--r43hdfd78af_0": "sha256:bc00c3478eac233ae21c60240974eea52ccc06d7fe6d1445c925588b94c4411b", "1.26.0--r43hdfd78af_0": "sha256:412d55e1074340cb5dc8dafd237e4b64e4683d882673586410543290432b7cf3"}, "docker": "quay.io/biocontainers/bioconductor-annotationfilter", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-annotationfilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annotationfilter", "latest": {"1.26.0--r43hdfd78af_0": "sha256:412d55e1074340cb5dc8dafd237e4b64e4683d882673586410543290432b7cf3"}, "tags": {"1.8.0--r36_1": "sha256:83cd6c69d6d5e5174d2a2d4d01b5702d6103c253946600769a4e9003b1eac9bc", "1.22.0--r42hdfd78af_0": "sha256:99aa0f2334803c8ee3f8a459560817c3d15c096d2314529954e736d00ae09be3", "1.18.0--r41hdfd78af_0": "sha256:c0bf5695a813999e61488594616dee63357c4759301a4b0603fa105ca37b759c", "1.16.0--r41hdfd78af_0": "sha256:692f331601b69c8ba09e7def0f8bbc68f6c0d5b825539c49a95736d3093e31a3", "1.14.0--r40hdfd78af_1": "sha256:bb9b0eb36882a787c410b4a13ba9736fe74356bc2e1c049d4d45231ad2269b7c", "1.12.0--r40_0": "sha256:28add3b1bef84f99278a91494ead6beb5a0b37dde973474db8ac2f2eba78e454", "1.24.0--r43hdfd78af_0": "sha256:bc00c3478eac233ae21c60240974eea52ccc06d7fe6d1445c925588b94c4411b", "1.26.0--r43hdfd78af_0": "sha256:412d55e1074340cb5dc8dafd237e4b64e4683d882673586410543290432b7cf3"}, "docker": "quay.io/biocontainers/bioconductor-annotationfilter", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-annotationfilter.

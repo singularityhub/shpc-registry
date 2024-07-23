@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kipoi-conda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kipoi-conda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kipoi-conda/container.yaml"
-updated_at: "2024-07-22 03:20:06.479148"
+updated_at: "2024-07-23 02:41:05.804788"
 latest: "0.1.6--py_0"
 container_url: "https://biocontainers.pro/tools/kipoi-conda"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.1.6--py_0"
 description: "shpc-registry automated BioContainers addition for kipoi-conda"
-config: {"url": "https://biocontainers.pro/tools/kipoi-conda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kipoi-conda", "latest": {"0.1.6--py_0": "sha256:f2f3e8f852e2d29f7cab02c550bf7482e235bcaeebe48048eef0d8dc12ff0a39"}, "tags": {"0.1.6--py_0": "sha256:f2f3e8f852e2d29f7cab02c550bf7482e235bcaeebe48048eef0d8dc12ff0a39"}, "docker": "quay.io/biocontainers/kipoi-conda", "aliases": {"tqdm": "/usr/local/bin/tqdm", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
+config: {"url": "https://biocontainers.pro/tools/kipoi-conda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kipoi-conda", "latest": {"0.1.6--py_0": "sha256:6f60bb80c561ed3bb1705c895c055eac760f60f727e39e41714a59cc36928902"}, "tags": {"0.1.6--py_0": "sha256:6f60bb80c561ed3bb1705c895c055eac760f60f727e39e41714a59cc36928902"}, "docker": "quay.io/biocontainers/kipoi-conda", "aliases": {"tqdm": "/usr/local/bin/tqdm", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kipoi-conda.

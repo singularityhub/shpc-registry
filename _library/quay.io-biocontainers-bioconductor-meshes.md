@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-meshes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-meshes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-meshes/container.yaml"
-updated_at: "2024-07-22 03:50:36.578714"
+updated_at: "2024-07-23 03:12:39.649145"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-meshes"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-meshes"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-meshes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-meshes", "latest": {"1.28.0--r43hdfd78af_0": "sha256:f610f420e806f6eb8618f370b62a5e8af253d53d423f1e03921a2a063278a496"}, "tags": {"1.8.0--r351_0": "sha256:4052fcdbf57a02a068208fc6bc09c5b44f4fe5e3c47986b785eb0907883ae2b9", "1.24.0--r42hdfd78af_0": "sha256:d1cc7e0425a67e4fb3af714996990c26f447902989dde9a78d320145c5ac3907", "1.20.0--r41hdfd78af_0": "sha256:d578e43b7454c97531c18891535af1efc69aaf3f825830427451ee0556397cd0", "1.18.0--r41hdfd78af_0": "sha256:2fa6e07adc4d4968f7653ae0a53de0d184c83a67600dff4b6ffcbf2aa8c94b01", "1.16.0--r40hdfd78af_1": "sha256:5cddcb07b9048ce982506addd2e91bb6210cc7c21c27525624699dd7bd94f432", "1.14.0--r40_0": "sha256:ace673c517d0db72c105be4a779ac83b99b4f5953b382e4b0f8ac33cd596bdee", "1.26.0--r43hdfd78af_0": "sha256:2b3c5de109f6cdbcf8f87fefd7841626db8a4286c0e5799405d9de51cc1190f1", "1.28.0--r43hdfd78af_0": "sha256:f610f420e806f6eb8618f370b62a5e8af253d53d423f1e03921a2a063278a496"}, "docker": "quay.io/biocontainers/bioconductor-meshes", "aliases": {"udunits2": "/usr/local/bin/udunits2", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-meshes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-meshes", "latest": {"1.28.0--r43hdfd78af_0": "sha256:f610f420e806f6eb8618f370b62a5e8af253d53d423f1e03921a2a063278a496"}, "tags": {"1.8.0--r351_0": "sha256:e42d8af7e04dcfa07c104d11e9cd95aaa9953b43dd3ffd03389b02b862dcb072", "1.24.0--r42hdfd78af_0": "sha256:d1cc7e0425a67e4fb3af714996990c26f447902989dde9a78d320145c5ac3907", "1.20.0--r41hdfd78af_0": "sha256:d578e43b7454c97531c18891535af1efc69aaf3f825830427451ee0556397cd0", "1.18.0--r41hdfd78af_0": "sha256:2fa6e07adc4d4968f7653ae0a53de0d184c83a67600dff4b6ffcbf2aa8c94b01", "1.16.0--r40hdfd78af_1": "sha256:5cddcb07b9048ce982506addd2e91bb6210cc7c21c27525624699dd7bd94f432", "1.14.0--r40_0": "sha256:ace673c517d0db72c105be4a779ac83b99b4f5953b382e4b0f8ac33cd596bdee", "1.26.0--r43hdfd78af_0": "sha256:2b3c5de109f6cdbcf8f87fefd7841626db8a4286c0e5799405d9de51cc1190f1", "1.28.0--r43hdfd78af_0": "sha256:f610f420e806f6eb8618f370b62a5e8af253d53d423f1e03921a2a063278a496"}, "docker": "quay.io/biocontainers/bioconductor-meshes", "aliases": {"udunits2": "/usr/local/bin/udunits2", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-meshes.

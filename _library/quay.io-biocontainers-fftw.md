@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fftw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fftw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fftw/container.yaml"
-updated_at: "2024-07-22 03:50:06.823160"
+updated_at: "2024-07-23 03:12:08.828014"
 latest: "3.3.4--0"
 container_url: "https://biocontainers.pro/tools/fftw"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "3.3.4--0"
 description: "shpc-registry automated BioContainers addition for fftw"
-config: {"url": "https://biocontainers.pro/tools/fftw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fftw", "latest": {"3.3.4--0": "sha256:819bd01645316c33951ea5474a02e3c02d26ef9a544ad366a783d645411cf1bf"}, "tags": {"3.3.4--0": "sha256:819bd01645316c33951ea5474a02e3c02d26ef9a544ad366a783d645411cf1bf"}, "docker": "quay.io/biocontainers/fftw", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/fftw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fftw", "latest": {"3.3.4--0": "sha256:a8a486cb2b03cb216340909af01996d242ae5a39c35728e98445f72c014082cc"}, "tags": {"3.3.4--0": "sha256:a8a486cb2b03cb216340909af01996d242ae5a39c35728e98445f72c014082cc"}, "docker": "quay.io/biocontainers/fftw", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fftw.

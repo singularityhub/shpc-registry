@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/recycler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recycler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recycler/container.yaml"
-updated_at: "2024-07-22 03:45:30.628686"
+updated_at: "2024-07-23 03:07:22.416114"
 latest: "0.7--py_3"
 container_url: "https://biocontainers.pro/tools/recycler"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "0.7--py_3"
 description: "shpc-registry automated BioContainers addition for recycler"
-config: {"url": "https://biocontainers.pro/tools/recycler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for recycler", "latest": {"0.7--py_3": "sha256:621012a608ea1467a1dd8e4d21f7a2daa19f4e82b1b7b30452de9a3150e84123"}, "tags": {"0.7--py_3": "sha256:621012a608ea1467a1dd8e4d21f7a2daa19f4e82b1b7b30452de9a3150e84123"}, "docker": "quay.io/biocontainers/recycler", "aliases": {"get_simple_cycs.py": "/usr/local/bin/get_simple_cycs.py", "make_fasta_from_fastg.py": "/usr/local/bin/make_fasta_from_fastg.py", "recycle.py": "/usr/local/bin/recycle.py", "nosetests": "/usr/local/bin/nosetests", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
+config: {"url": "https://biocontainers.pro/tools/recycler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for recycler", "latest": {"0.7--py_3": "sha256:ebe8815e2326e372f50c08db22878424e2f07b443c8ffe71300dd85215d53bfb"}, "tags": {"0.7--py_3": "sha256:ebe8815e2326e372f50c08db22878424e2f07b443c8ffe71300dd85215d53bfb"}, "docker": "quay.io/biocontainers/recycler", "aliases": {"get_simple_cycs.py": "/usr/local/bin/get_simple_cycs.py", "make_fasta_from_fastg.py": "/usr/local/bin/make_fasta_from_fastg.py", "recycle.py": "/usr/local/bin/recycle.py", "nosetests": "/usr/local/bin/nosetests", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/recycler.

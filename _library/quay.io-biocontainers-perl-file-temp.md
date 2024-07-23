@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-temp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-temp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-temp/container.yaml"
-updated_at: "2024-07-22 03:42:57.208947"
+updated_at: "2024-07-23 03:04:43.762840"
 latest: "0.2304--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-file-temp"
 aliases:
@@ -17,7 +17,7 @@ aliases:
 versions:
  - "0.2304--pl526_2"
 description: "shpc-registry automated BioContainers addition for perl-file-temp"
-config: {"url": "https://biocontainers.pro/tools/perl-file-temp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-temp", "latest": {"0.2304--pl526_2": "sha256:17434289fb770acf66b8a4a53b3df9433b1cf0c1ddfb452966d165cd8842e9f8"}, "tags": {"0.2304--pl526_2": "sha256:17434289fb770acf66b8a4a53b3df9433b1cf0c1ddfb452966d165cd8842e9f8"}, "docker": "quay.io/biocontainers/perl-file-temp", "aliases": {"perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-file-temp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-temp", "latest": {"0.2304--pl526_2": "sha256:baddddbf4e89421b97ebc5ef74b82d52e8474ea0ca2f94435af4c091fbd89723"}, "tags": {"0.2304--pl526_2": "sha256:baddddbf4e89421b97ebc5ef74b82d52e8474ea0ca2f94435af4c091fbd89723"}, "docker": "quay.io/biocontainers/perl-file-temp", "aliases": {"perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-file-temp.

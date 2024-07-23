@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pal_finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pal_finder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pal_finder/container.yaml"
-updated_at: "2024-07-22 04:02:01.695786"
+updated_at: "2024-07-23 03:24:26.857861"
 latest: "0.02.04--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/pal_finder"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-snow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-snow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-snow/container.yaml"
-updated_at: "2024-07-22 03:57:42.441022"
+updated_at: "2024-07-23 03:19:58.176130"
 latest: "0.4_1--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-snow"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.4_1--r3.3.2_0"
+ - "0.4_1--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-snow"
-config: {"url": "https://biocontainers.pro/tools/r-snow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-snow", "latest": {"0.4_1--r3.3.2_0": "sha256:e5013094ac7091eeb426d0581b0818601bff7ff4134fa4f99fa2643b95572f43"}, "tags": {"0.4_1--r3.3.2_0": "sha256:e5013094ac7091eeb426d0581b0818601bff7ff4134fa4f99fa2643b95572f43"}, "docker": "quay.io/biocontainers/r-snow", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-snow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-snow", "latest": {"0.4_1--r3.3.2_0": "sha256:be33beba612945944468a87c84fbe06f51656e10cdf96193f9b266c5e429c75d"}, "tags": {"0.4_1--r3.3.2_0": "sha256:be33beba612945944468a87c84fbe06f51656e10cdf96193f9b266c5e429c75d", "0.4_1--r3.2.2_0": "sha256:3fa6cca7f603500463d8a27a1b250d3e554a72126cd8cfeed5efd10cb7b2c054"}, "docker": "quay.io/biocontainers/r-snow", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-snow.

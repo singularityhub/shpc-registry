@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pglite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pglite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pglite/container.yaml"
-updated_at: "2024-07-22 03:57:01.701345"
+updated_at: "2024-07-23 03:19:16.334912"
 latest: "0.1--0"
 container_url: "https://biocontainers.pro/tools/pglite"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "0.1--0"
 description: "shpc-registry automated BioContainers addition for pglite"
-config: {"url": "https://biocontainers.pro/tools/pglite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pglite", "latest": {"0.1--0": "sha256:9b1d0361d5a5ec3b131d1f1d3301ddf56f23c3ab9d3667a1cde37a3c6176c853"}, "tags": {"0.1--0": "sha256:9b1d0361d5a5ec3b131d1f1d3301ddf56f23c3ab9d3667a1cde37a3c6176c853"}, "docker": "quay.io/biocontainers/pglite", "aliases": {"pglite": "/usr/local/bin/pglite"}}
+config: {"url": "https://biocontainers.pro/tools/pglite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pglite", "latest": {"0.1--0": "sha256:9634f270433b06bf92897800ab282977fd98f7a561bebffd2499c9b3624a5fc3"}, "tags": {"0.1--0": "sha256:9634f270433b06bf92897800ab282977fd98f7a561bebffd2499c9b3624a5fc3"}, "docker": "quay.io/biocontainers/pglite", "aliases": {"pglite": "/usr/local/bin/pglite"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pglite.

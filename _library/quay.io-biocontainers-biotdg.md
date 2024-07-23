@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biotdg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biotdg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biotdg/container.yaml"
-updated_at: "2024-07-22 04:02:28.497299"
+updated_at: "2024-07-23 03:24:54.502466"
 latest: "0.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/biotdg"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "0.1.0--py_0"
 description: "shpc-registry automated BioContainers addition for biotdg"
-config: {"url": "https://biocontainers.pro/tools/biotdg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biotdg", "latest": {"0.1.0--py_0": "sha256:c46f134747201d3c6670d1bda679b562c84c56efa9016652adddb08cce7c042b"}, "tags": {"0.1.0--py_0": "sha256:c46f134747201d3c6670d1bda679b562c84c56efa9016652adddb08cce7c042b"}, "docker": "quay.io/biocontainers/biotdg", "aliases": {"biotdg": "/usr/local/bin/biotdg", "dwgsim": "/usr/local/bin/dwgsim", "dwgsim_eval": "/usr/local/bin/dwgsim_eval", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
+config: {"url": "https://biocontainers.pro/tools/biotdg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biotdg", "latest": {"0.1.0--py_0": "sha256:5344de064313c3697282c20a4aeec94e6d82aa9a4e7a992605703ef68d0f868a"}, "tags": {"0.1.0--py_0": "sha256:5344de064313c3697282c20a4aeec94e6d82aa9a4e7a992605703ef68d0f868a"}, "docker": "quay.io/biocontainers/biotdg", "aliases": {"biotdg": "/usr/local/bin/biotdg", "dwgsim": "/usr/local/bin/dwgsim", "dwgsim_eval": "/usr/local/bin/dwgsim_eval", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biotdg.

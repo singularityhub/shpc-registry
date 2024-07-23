@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-imp4p"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-imp4p/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-imp4p/container.yaml"
-updated_at: "2024-07-22 04:00:03.883213"
+updated_at: "2024-07-23 03:22:24.781504"
 latest: "0.7--r36h0357c0b_1"
 container_url: "https://biocontainers.pro/tools/r-imp4p"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "0.7--r36h0357c0b_1"
 description: "shpc-registry automated BioContainers addition for r-imp4p"
-config: {"url": "https://biocontainers.pro/tools/r-imp4p", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-imp4p", "latest": {"0.7--r36h0357c0b_1": "sha256:87f919d2bb851888b0da453c466091309292c820b32a4d8be50d7c0df368949b"}, "tags": {"0.7--r36h0357c0b_1": "sha256:87f919d2bb851888b0da453c466091309292c820b32a4d8be50d7c0df368949b"}, "docker": "quay.io/biocontainers/r-imp4p", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-imp4p", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-imp4p", "latest": {"0.7--r36h0357c0b_1": "sha256:40c0431ee5e0ef265969dec1b99a9d45f938fc40c41cf4ae5bbbd807e7fb85ef"}, "tags": {"0.7--r36h0357c0b_1": "sha256:40c0431ee5e0ef265969dec1b99a9d45f938fc40c41cf4ae5bbbd807e7fb85ef"}, "docker": "quay.io/biocontainers/r-imp4p", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-imp4p.

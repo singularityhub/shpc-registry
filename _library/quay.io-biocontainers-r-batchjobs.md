@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-batchjobs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-batchjobs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-batchjobs/container.yaml"
-updated_at: "2024-07-22 03:38:05.844683"
+updated_at: "2024-07-23 02:59:41.122796"
 latest: "1.6--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-batchjobs"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.6--r3.2.2_0"
  - "1.6--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-batchjobs"
-config: {"url": "https://biocontainers.pro/tools/r-batchjobs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-batchjobs", "latest": {"1.6--r3.2.2_0": "sha256:69a13146a2ced92dafa778cbd9623189b4a288b653e19309493db569742fc629"}, "tags": {"1.6--r3.2.2_0": "sha256:69a13146a2ced92dafa778cbd9623189b4a288b653e19309493db569742fc629", "1.6--r3.3.2_0": "sha256:31878ce10f9c3695e1b50cd9eafe955adde510af3c6d06e0b519c19921f96aed"}, "docker": "quay.io/biocontainers/r-batchjobs", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-batchjobs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-batchjobs", "latest": {"1.6--r3.2.2_0": "sha256:4d46831ab25722b1ef191cc4e8e788a0a55599ed2bcf081b82d3a3c6673c257e"}, "tags": {"1.6--r3.2.2_0": "sha256:4d46831ab25722b1ef191cc4e8e788a0a55599ed2bcf081b82d3a3c6673c257e", "1.6--r3.3.2_0": "sha256:f9ce3ce825e13d552c8055d0e63cb555a519fc8d1059afe47838af9f3b8362d6"}, "docker": "quay.io/biocontainers/r-batchjobs", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-batchjobs.

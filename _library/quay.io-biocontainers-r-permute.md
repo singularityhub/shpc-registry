@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-permute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-permute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-permute/container.yaml"
-updated_at: "2024-07-22 03:24:42.606747"
+updated_at: "2024-07-23 02:45:50.373755"
 latest: "0.8_4--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-permute"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.8_4--r3.3.2_0"
+ - "0.8_4--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-permute"
-config: {"url": "https://biocontainers.pro/tools/r-permute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-permute", "latest": {"0.8_4--r3.3.2_0": "sha256:316aef925cf04ecbea654d9bc37ce627787320c9b669ca0bb8958e50456112e8"}, "tags": {"0.8_4--r3.3.2_0": "sha256:316aef925cf04ecbea654d9bc37ce627787320c9b669ca0bb8958e50456112e8"}, "docker": "quay.io/biocontainers/r-permute", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-permute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-permute", "latest": {"0.8_4--r3.3.2_0": "sha256:03b981c094d46ca6168b75c739c4650625dacb3236e15a9c1b082e65fa628663"}, "tags": {"0.8_4--r3.3.2_0": "sha256:03b981c094d46ca6168b75c739c4650625dacb3236e15a9c1b082e65fa628663", "0.8_4--r3.2.2_0": "sha256:1246b84c20726c5e61ba59afeb83ded0013614ee563c4d4f12b5565092e3a68e"}, "docker": "quay.io/biocontainers/r-permute", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-permute.

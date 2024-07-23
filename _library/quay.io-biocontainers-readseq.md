@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/readseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/readseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/readseq/container.yaml"
-updated_at: "2024-07-22 03:57:32.790823"
+updated_at: "2024-07-23 03:19:48.200944"
 latest: "2.1.30--1"
 container_url: "https://biocontainers.pro/tools/readseq"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "2.1.30--1"
 description: "shpc-registry automated BioContainers addition for readseq"
-config: {"url": "https://biocontainers.pro/tools/readseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for readseq", "latest": {"2.1.30--1": "sha256:06ba1d01962307746c4d9b65cb0be16e91a0dcbdc0e25ae6a88e56e85d070f50"}, "tags": {"2.1.30--1": "sha256:06ba1d01962307746c4d9b65cb0be16e91a0dcbdc0e25ae6a88e56e85d070f50"}, "docker": "quay.io/biocontainers/readseq", "aliases": {"readseq": "/usr/local/bin/readseq", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/readseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for readseq", "latest": {"2.1.30--1": "sha256:de3896ea7bd484b24a06a5f2e7ac1edab28bd39c1f1f8e9add82fd01fd68b532"}, "tags": {"2.1.30--1": "sha256:de3896ea7bd484b24a06a5f2e7ac1edab28bd39c1f1f8e9add82fd01fd68b532"}, "docker": "quay.io/biocontainers/readseq", "aliases": {"readseq": "/usr/local/bin/readseq", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/readseq.

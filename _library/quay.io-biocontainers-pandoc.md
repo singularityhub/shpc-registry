@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pandoc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pandoc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pandoc/container.yaml"
-updated_at: "2024-07-22 03:27:45.217955"
+updated_at: "2024-07-23 02:48:59.056704"
 latest: "2.1.3--0"
 container_url: "https://biocontainers.pro/tools/pandoc"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "2.1.3--0"
 description: "shpc-registry automated BioContainers addition for pandoc"
-config: {"url": "https://biocontainers.pro/tools/pandoc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pandoc", "latest": {"2.1.3--0": "sha256:e3782e6f3099ff22f49f18504727bbeea8dcc4b82bc94598184377e096c5af68"}, "tags": {"2.1.3--0": "sha256:e3782e6f3099ff22f49f18504727bbeea8dcc4b82bc94598184377e096c5af68"}, "docker": "quay.io/biocontainers/pandoc", "aliases": {"pandoc": "/usr/local/bin/pandoc", "pandoc-citeproc": "/usr/local/bin/pandoc-citeproc"}}
+config: {"url": "https://biocontainers.pro/tools/pandoc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pandoc", "latest": {"2.1.3--0": "sha256:76e3f7303731fc87f37e47cf0f38fcf5aec199e340d20ba12b65504711afbbfe"}, "tags": {"2.1.3--0": "sha256:76e3f7303731fc87f37e47cf0f38fcf5aec199e340d20ba12b65504711afbbfe"}, "docker": "quay.io/biocontainers/pandoc", "aliases": {"pandoc": "/usr/local/bin/pandoc", "pandoc-citeproc": "/usr/local/bin/pandoc-citeproc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pandoc.

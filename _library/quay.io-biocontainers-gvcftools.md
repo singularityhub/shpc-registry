@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gvcftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gvcftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gvcftools/container.yaml"
-updated_at: "2024-07-22 03:37:46.530359"
+updated_at: "2024-07-23 02:59:21.171163"
 latest: "0.17.0--he941832_3"
 container_url: "https://biocontainers.pro/tools/gvcftools"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "0.17.0--he941832_3"
 description: "shpc-registry automated BioContainers addition for gvcftools"
-config: {"url": "https://biocontainers.pro/tools/gvcftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gvcftools", "latest": {"0.17.0--he941832_3": "sha256:e3b1839aa423dd288ac415c948650374e9ac8c4ae40e71090887fb6daf548365"}, "tags": {"0.17.0--he941832_3": "sha256:e3b1839aa423dd288ac415c948650374e9ac8c4ae40e71090887fb6daf548365"}, "docker": "quay.io/biocontainers/gvcftools", "aliases": {"break_blocks": "/usr/local/bin/break_blocks", "check_reference": "/usr/local/bin/check_reference", "extract_variants": "/usr/local/bin/extract_variants", "gatk_to_gvcf": "/usr/local/bin/gatk_to_gvcf", "getBamAvgChromDepth.pl": "/usr/local/bin/getBamAvgChromDepth.pl", "get_called_regions": "/usr/local/bin/get_called_regions", "merge_variants": "/usr/local/bin/merge_variants", "remove_region": "/usr/local/bin/remove_region", "set_haploid_region": "/usr/local/bin/set_haploid_region", "trio": "/usr/local/bin/trio", "twins": "/usr/local/bin/twins", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/gvcftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gvcftools", "latest": {"0.17.0--he941832_3": "sha256:1f10cda45882f09c9d1436196c3a76f8a8943f980857a301dfd327b29b00f1d3"}, "tags": {"0.17.0--he941832_3": "sha256:1f10cda45882f09c9d1436196c3a76f8a8943f980857a301dfd327b29b00f1d3"}, "docker": "quay.io/biocontainers/gvcftools", "aliases": {"break_blocks": "/usr/local/bin/break_blocks", "check_reference": "/usr/local/bin/check_reference", "extract_variants": "/usr/local/bin/extract_variants", "gatk_to_gvcf": "/usr/local/bin/gatk_to_gvcf", "getBamAvgChromDepth.pl": "/usr/local/bin/getBamAvgChromDepth.pl", "get_called_regions": "/usr/local/bin/get_called_regions", "merge_variants": "/usr/local/bin/merge_variants", "remove_region": "/usr/local/bin/remove_region", "set_haploid_region": "/usr/local/bin/set_haploid_region", "trio": "/usr/local/bin/trio", "twins": "/usr/local/bin/twins", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gvcftools.

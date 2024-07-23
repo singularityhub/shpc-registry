@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-differences"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-differences/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-differences/container.yaml"
-updated_at: "2024-07-22 03:38:30.567000"
+updated_at: "2024-07-23 03:00:06.819072"
 latest: "0.67--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-test-differences"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.67--pl526_0"
 description: "shpc-registry automated BioContainers addition for perl-test-differences"
-config: {"url": "https://biocontainers.pro/tools/perl-test-differences", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-differences", "latest": {"0.67--pl526_0": "sha256:3b83f3203f4ca155ec4b6ab242e11ad9b9f73b2e372f26909243ec8371d04d81"}, "tags": {"0.67--pl526_0": "sha256:3b83f3203f4ca155ec4b6ab242e11ad9b9f73b2e372f26909243ec8371d04d81"}, "docker": "quay.io/biocontainers/perl-test-differences", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-test-differences", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-differences", "latest": {"0.67--pl526_0": "sha256:e9507bf508986be87f67b8b8c365235359a53b66fcbc6bd03ee9be7033c786ed"}, "tags": {"0.67--pl526_0": "sha256:e9507bf508986be87f67b8b8c365235359a53b66fcbc6bd03ee9be7033c786ed"}, "docker": "quay.io/biocontainers/perl-test-differences", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-test-differences.

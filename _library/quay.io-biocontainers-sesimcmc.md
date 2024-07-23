@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sesimcmc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sesimcmc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sesimcmc/container.yaml"
-updated_at: "2024-07-22 03:50:59.875700"
+updated_at: "2024-07-23 03:13:03.626084"
 latest: "4.36--h87f3376_4"
 container_url: "https://biocontainers.pro/tools/sesimcmc"
 aliases:

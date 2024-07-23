@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/idr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/idr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/idr/container.yaml"
-updated_at: "2024-07-22 03:37:17.574545"
-latest: "2.0.4.2--py39hec16e2b_10"
+updated_at: "2024-07-23 02:58:51.214568"
+latest: "2.0.4.2--py39h031d066_12"
 container_url: "https://biocontainers.pro/tools/idr"
 
 versions:
  - "2.0.4.2--py310h79ef01b_7"
  - "2.0.4.2--py310hd6be1da_9"
  - "2.0.4.2--py39hec16e2b_10"
+ - "2.0.4.2--py39h031d066_12"
 description: "shpc-registry automated BioContainers addition for idr"
-config: {"url": "https://biocontainers.pro/tools/idr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for idr", "latest": {"2.0.4.2--py39hec16e2b_10": "sha256:dda3970b287259f6de70d18b6c24f11eab3efdf0207175334e0c19b0f5df374f"}, "tags": {"2.0.4.2--py310h79ef01b_7": "sha256:da07c884c7b8debefb1422a91c63a45647a029dd8e7b0674578d36bc5f03f5f9", "2.0.4.2--py310hd6be1da_9": "sha256:06d16c46e2ffb311eadb4ec7b6dd572a472b61ff0d7e851cfb00a5d124d4d306", "2.0.4.2--py39hec16e2b_10": "sha256:dda3970b287259f6de70d18b6c24f11eab3efdf0207175334e0c19b0f5df374f"}, "docker": "quay.io/biocontainers/idr"}
+config: {"url": "https://biocontainers.pro/tools/idr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for idr", "latest": {"2.0.4.2--py39h031d066_12": "sha256:d6fb2a7eb69bb236278562d08fcd0b62bfbe2e887d330111c6aea1e42cb26caa"}, "tags": {"2.0.4.2--py310h79ef01b_7": "sha256:da07c884c7b8debefb1422a91c63a45647a029dd8e7b0674578d36bc5f03f5f9", "2.0.4.2--py310hd6be1da_9": "sha256:06d16c46e2ffb311eadb4ec7b6dd572a472b61ff0d7e851cfb00a5d124d4d306", "2.0.4.2--py39hec16e2b_10": "sha256:dda3970b287259f6de70d18b6c24f11eab3efdf0207175334e0c19b0f5df374f", "2.0.4.2--py39h031d066_12": "sha256:d6fb2a7eb69bb236278562d08fcd0b62bfbe2e887d330111c6aea1e42cb26caa"}, "docker": "quay.io/biocontainers/idr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/idr.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/idr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/idr:2.0.4.2--py39hec16e2b_10
+$ shpc install quay.io/biocontainers/idr:2.0.4.2--py39h031d066_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/idr/2.0.4.2--py39hec16e2b_10
-$ module help quay.io/biocontainers/idr/2.0.4.2--py39hec16e2b_10
+$ module load quay.io/biocontainers/idr/2.0.4.2--py39h031d066_12
+$ module help quay.io/biocontainers/idr/2.0.4.2--py39h031d066_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

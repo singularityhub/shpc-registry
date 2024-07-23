@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/krakenhll"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krakenhll/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/krakenhll/container.yaml"
-updated_at: "2024-07-22 03:48:57.496406"
+updated_at: "2024-07-23 03:10:57.155086"
 latest: "0.4.8--pl526ha92aebf_1"
 container_url: "https://biocontainers.pro/tools/krakenhll"
 aliases:
@@ -31,7 +31,7 @@ aliases:
 versions:
  - "0.4.8--pl526ha92aebf_1"
 description: "shpc-registry automated BioContainers addition for krakenhll"
-config: {"url": "https://biocontainers.pro/tools/krakenhll", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krakenhll", "latest": {"0.4.8--pl526ha92aebf_1": "sha256:00f1c37d4e35555ec7936081d77346707fd2d54aec15941f4d35480dc72b60ec"}, "tags": {"0.4.8--pl526ha92aebf_1": "sha256:00f1c37d4e35555ec7936081d77346707fd2d54aec15941f4d35480dc72b60ec"}, "docker": "quay.io/biocontainers/krakenhll", "aliases": {"build_taxdb": "/usr/local/bin/build_taxdb", "krakenhll": "/usr/local/bin/krakenhll", "krakenhll-build": "/usr/local/bin/krakenhll-build", "krakenhll-download": "/usr/local/bin/krakenhll-download", "krakenhll-extract-reads": "/usr/local/bin/krakenhll-extract-reads", "krakenhll-filter": "/usr/local/bin/krakenhll-filter", "krakenhll-mpa-report": "/usr/local/bin/krakenhll-mpa-report", "krakenhll-report": "/usr/local/bin/krakenhll-report", "krakenhll-translate": "/usr/local/bin/krakenhll-translate", "read_merger.pl": "/usr/local/bin/read_merger.pl", "jellyfish": "/usr/local/bin/jellyfish", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/krakenhll", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krakenhll", "latest": {"0.4.8--pl526ha92aebf_1": "sha256:a2803c4f8e4f8ad5f31054748c08f88630dbb5e8994a27495c6b9d870946a6c4"}, "tags": {"0.4.8--pl526ha92aebf_1": "sha256:a2803c4f8e4f8ad5f31054748c08f88630dbb5e8994a27495c6b9d870946a6c4"}, "docker": "quay.io/biocontainers/krakenhll", "aliases": {"build_taxdb": "/usr/local/bin/build_taxdb", "krakenhll": "/usr/local/bin/krakenhll", "krakenhll-build": "/usr/local/bin/krakenhll-build", "krakenhll-download": "/usr/local/bin/krakenhll-download", "krakenhll-extract-reads": "/usr/local/bin/krakenhll-extract-reads", "krakenhll-filter": "/usr/local/bin/krakenhll-filter", "krakenhll-mpa-report": "/usr/local/bin/krakenhll-mpa-report", "krakenhll-report": "/usr/local/bin/krakenhll-report", "krakenhll-translate": "/usr/local/bin/krakenhll-translate", "read_merger.pl": "/usr/local/bin/read_merger.pl", "jellyfish": "/usr/local/bin/jellyfish", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/krakenhll.

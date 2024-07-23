@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcfsamplecompare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcfsamplecompare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcfsamplecompare/container.yaml"
-updated_at: "2024-07-22 03:17:43.559412"
+updated_at: "2024-07-23 02:38:38.084071"
 latest: "2.013--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/vcfsamplecompare"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "v2.008--pl526_1"
  - "2.013--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for vcfsamplecompare"
-config: {"url": "https://biocontainers.pro/tools/vcfsamplecompare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcfsamplecompare", "latest": {"2.013--pl5321hdfd78af_2": "sha256:c754c694c91834e4970c106e93f3b8e5d422dd08ca2be615a785aeff903b86f7"}, "tags": {"v2.008--pl526_1": "sha256:5118fbf7ed291e9b58be33f7cc2f023348ffc2607d63b1107060e56369fcc547", "2.013--pl5321hdfd78af_2": "sha256:c754c694c91834e4970c106e93f3b8e5d422dd08ca2be615a785aeff903b86f7"}, "docker": "quay.io/biocontainers/vcfsamplecompare", "aliases": {"vcfSampleCompare.pl": "/usr/local/bin/vcfSampleCompare.pl", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/vcfsamplecompare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcfsamplecompare", "latest": {"2.013--pl5321hdfd78af_2": "sha256:c754c694c91834e4970c106e93f3b8e5d422dd08ca2be615a785aeff903b86f7"}, "tags": {"v2.008--pl526_1": "sha256:770a6a9ad21ab4f6de9c590fd1945a7521bbef28b32d48aa0d98b5dd9103a43c", "2.013--pl5321hdfd78af_2": "sha256:c754c694c91834e4970c106e93f3b8e5d422dd08ca2be615a785aeff903b86f7"}, "docker": "quay.io/biocontainers/vcfsamplecompare", "aliases": {"vcfSampleCompare.pl": "/usr/local/bin/vcfSampleCompare.pl", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcfsamplecompare.

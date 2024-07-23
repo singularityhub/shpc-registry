@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geneselector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geneselector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geneselector/container.yaml"
-updated_at: "2024-07-22 03:28:21.998960"
+updated_at: "2024-07-23 02:49:37.108011"
 latest: "2.32.0--r351h14c3975_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geneselector"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "2.32.0--r351h14c3975_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-geneselector"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geneselector", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geneselector", "latest": {"2.32.0--r351h14c3975_0": "sha256:9dab442d8442ea8dab05d995d62d08269d01e011d58827b6d5e3ff404d0e35a3"}, "tags": {"2.32.0--r351h14c3975_0": "sha256:9dab442d8442ea8dab05d995d62d08269d01e011d58827b6d5e3ff404d0e35a3"}, "docker": "quay.io/biocontainers/bioconductor-geneselector", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geneselector", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geneselector", "latest": {"2.32.0--r351h14c3975_0": "sha256:23e3c6872fe96d419f3af37eecb67b341032cdbbf0413e0b96ae13fc24286e27"}, "tags": {"2.32.0--r351h14c3975_0": "sha256:23e3c6872fe96d419f3af37eecb67b341032cdbbf0413e0b96ae13fc24286e27"}, "docker": "quay.io/biocontainers/bioconductor-geneselector", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geneselector.

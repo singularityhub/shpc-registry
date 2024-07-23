@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnaseqcomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaseqcomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaseqcomp/container.yaml"
-updated_at: "2024-07-22 04:01:08.167502"
+updated_at: "2024-07-23 03:23:31.671930"
 latest: "1.32.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaseqcomp"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "1.30.0--r43hdfd78af_0"
  - "1.32.0--r43hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnaseqcomp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaseqcomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaseqcomp", "latest": {"1.32.0--r43hdfd78af_1": "sha256:06885cdddb258c6ad2b9ef86011fcf9d63963a74ef063d4af4f9f8acd6bf5d09"}, "tags": {"1.8.0--r3.4.1_0": "sha256:d797e7f1b2d7237cf48d66ff1d56143bec549ed55d5d51ec69e447212c83e644", "1.28.0--r42hdfd78af_0": "sha256:de73ca508e5295ad7c0711e738967b64623792ab30a025b811371c43409cdbfe", "1.24.0--r41hdfd78af_0": "sha256:e68f4743581a1006004a5e9bf5778d5488a6118d0087a96aa3a1ad414745ac6d", "1.22.0--r41hdfd78af_0": "sha256:4a5a5a44752fa01205f4c4eec2447dfb6a741fd4ee84273135668ccb6b6644bd", "1.20.0--r40hdfd78af_1": "sha256:b48604a6c518923c430f460f68c012ae112313527728a99fc73c52b780da4e6f", "1.18.0--r40_0": "sha256:d9e2b8db2255ad6e678071065f46c5625b071c578e2dd223e5148935d98e8982", "1.30.0--r43hdfd78af_0": "sha256:26c18a523a6510e5d6f157eedb73856efe2ad24a7a3c4468434d7616c9d2d712", "1.32.0--r43hdfd78af_1": "sha256:06885cdddb258c6ad2b9ef86011fcf9d63963a74ef063d4af4f9f8acd6bf5d09"}, "docker": "quay.io/biocontainers/bioconductor-rnaseqcomp", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaseqcomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaseqcomp", "latest": {"1.32.0--r43hdfd78af_1": "sha256:06885cdddb258c6ad2b9ef86011fcf9d63963a74ef063d4af4f9f8acd6bf5d09"}, "tags": {"1.8.0--r3.4.1_0": "sha256:16404b2183ebc9bd8edecea6dbe81b9d6863f0912302d691a8c052a4a2bc4894", "1.28.0--r42hdfd78af_0": "sha256:de73ca508e5295ad7c0711e738967b64623792ab30a025b811371c43409cdbfe", "1.24.0--r41hdfd78af_0": "sha256:e68f4743581a1006004a5e9bf5778d5488a6118d0087a96aa3a1ad414745ac6d", "1.22.0--r41hdfd78af_0": "sha256:4a5a5a44752fa01205f4c4eec2447dfb6a741fd4ee84273135668ccb6b6644bd", "1.20.0--r40hdfd78af_1": "sha256:b48604a6c518923c430f460f68c012ae112313527728a99fc73c52b780da4e6f", "1.18.0--r40_0": "sha256:d9e2b8db2255ad6e678071065f46c5625b071c578e2dd223e5148935d98e8982", "1.30.0--r43hdfd78af_0": "sha256:26c18a523a6510e5d6f157eedb73856efe2ad24a7a3c4468434d7616c9d2d712", "1.32.0--r43hdfd78af_1": "sha256:06885cdddb258c6ad2b9ef86011fcf9d63963a74ef063d4af4f9f8acd6bf5d09"}, "docker": "quay.io/biocontainers/bioconductor-rnaseqcomp", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnaseqcomp.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mess"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mess/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mess/container.yaml"
-updated_at: "2024-07-22 03:35:18.959537"
+updated_at: "2024-07-23 02:56:48.399577"
 latest: "0.5.5--r351h29659fb_0"
 container_url: "https://biocontainers.pro/tools/r-mess"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "0.5.5--r351h29659fb_0"
 description: "shpc-registry automated BioContainers addition for r-mess"
-config: {"url": "https://biocontainers.pro/tools/r-mess", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mess", "latest": {"0.5.5--r351h29659fb_0": "sha256:24c4e46f17a2c89b1d8508faf119ecdf83991d65386533148e5d5647530c6b8f"}, "tags": {"0.5.5--r351h29659fb_0": "sha256:24c4e46f17a2c89b1d8508faf119ecdf83991d65386533148e5d5647530c6b8f"}, "docker": "quay.io/biocontainers/r-mess", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-mess", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mess", "latest": {"0.5.5--r351h29659fb_0": "sha256:a3b62faab25f6bd9d053ae909fbace01929251195663b2ecde9652ef4bef5813"}, "tags": {"0.5.5--r351h29659fb_0": "sha256:a3b62faab25f6bd9d053ae909fbace01929251195663b2ecde9652ef4bef5813"}, "docker": "quay.io/biocontainers/r-mess", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mess.

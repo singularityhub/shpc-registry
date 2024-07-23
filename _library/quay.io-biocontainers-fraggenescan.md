@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fraggenescan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fraggenescan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fraggenescan/container.yaml"
-updated_at: "2024-07-22 03:36:14.185504"
+updated_at: "2024-07-23 02:57:45.551032"
 latest: "1.31--h031d066_7"
 container_url: "https://biocontainers.pro/tools/fraggenescan"
 aliases:

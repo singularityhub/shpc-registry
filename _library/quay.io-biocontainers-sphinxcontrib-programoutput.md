@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sphinxcontrib-programoutput"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sphinxcontrib-programoutput/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sphinxcontrib-programoutput/container.yaml"
-updated_at: "2024-07-22 03:48:17.696583"
+updated_at: "2024-07-23 03:10:15.852842"
 latest: "0.8--py36_0"
 container_url: "https://biocontainers.pro/tools/sphinxcontrib-programoutput"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "rst2man.py"
 versions:
  - "0.8--py36_0"
+ - "0.8--py35_0"
 description: "shpc-registry automated BioContainers addition for sphinxcontrib-programoutput"
-config: {"url": "https://biocontainers.pro/tools/sphinxcontrib-programoutput", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sphinxcontrib-programoutput", "latest": {"0.8--py36_0": "sha256:45fb407ad81899a23e0da9c91972b2fc0a9f3cb042823fb6ca6d1739a9c91e39"}, "tags": {"0.8--py36_0": "sha256:45fb407ad81899a23e0da9c91972b2fc0a9f3cb042823fb6ca6d1739a9c91e39"}, "docker": "quay.io/biocontainers/sphinxcontrib-programoutput", "aliases": {"sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py"}}
+config: {"url": "https://biocontainers.pro/tools/sphinxcontrib-programoutput", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sphinxcontrib-programoutput", "latest": {"0.8--py36_0": "sha256:0a0141e933c74851079fc2fb9b1322bc5124e40883317f6483dbc08216030938"}, "tags": {"0.8--py36_0": "sha256:0a0141e933c74851079fc2fb9b1322bc5124e40883317f6483dbc08216030938", "0.8--py35_0": "sha256:d2edd6ba0b6a1ffe3e5343802b8ca865f21da20ba72514213fbc88542b7cf731"}, "docker": "quay.io/biocontainers/sphinxcontrib-programoutput", "aliases": {"sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sphinxcontrib-programoutput.

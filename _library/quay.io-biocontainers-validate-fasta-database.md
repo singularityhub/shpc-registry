@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/validate-fasta-database"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/validate-fasta-database/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/validate-fasta-database/container.yaml"
-updated_at: "2024-07-22 03:20:05.330817"
+updated_at: "2024-07-23 02:41:04.626715"
 latest: "1.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/validate-fasta-database"
 aliases:

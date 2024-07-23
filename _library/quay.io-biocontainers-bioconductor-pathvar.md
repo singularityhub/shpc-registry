@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pathvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathvar/container.yaml"
-updated_at: "2024-07-22 03:41:31.866591"
+updated_at: "2024-07-23 03:03:15.822174"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathvar"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "1.18.0--r40_0"
  - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pathvar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pathvar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pathvar", "latest": {"1.30.0--r43hdfd78af_0": "sha256:462a87386c0f039d21931f69297ce23514c97fae73c47cfa6003757a04cfc75a"}, "tags": {"1.8.0--r3.4.1_0": "sha256:b653598cda227bfadefb08033b7906928132409ac3c725b776d5aeed7027672c", "1.28.0--r42hdfd78af_0": "sha256:e65c1abcbdeb9c5f297c09f36dc3ab281b6c2625a0854bd677040610db80baf2", "1.24.0--r41hdfd78af_0": "sha256:c6ddd02316920a3aa26be115213d76e22cceaa250695a4ac1f366066b8c28693", "1.22.0--r41hdfd78af_0": "sha256:b7e90cbca2452e6db09c40cae74b04eda6b10f8faa641ff0caed485f0ffa262f", "1.20.0--r40hdfd78af_1": "sha256:e7922bcbf4c872b10b05a94a278680e1f46df3956e24c31c4e7d84d799787aac", "1.18.0--r40_0": "sha256:a257e82dbb9f1116ec1fc19edd6b624f9bcef598d7a2abb01711e9a397f0b5be", "1.30.0--r43hdfd78af_0": "sha256:462a87386c0f039d21931f69297ce23514c97fae73c47cfa6003757a04cfc75a"}, "docker": "quay.io/biocontainers/bioconductor-pathvar", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pathvar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pathvar", "latest": {"1.30.0--r43hdfd78af_0": "sha256:462a87386c0f039d21931f69297ce23514c97fae73c47cfa6003757a04cfc75a"}, "tags": {"1.8.0--r3.4.1_0": "sha256:c9ab068fcbdcc084d26f41960598452f56c27eca09705916a1e6e565dae2d8a3", "1.28.0--r42hdfd78af_0": "sha256:907d52ee4d54f49950a3732698297f57de7440ff5dd4a16487612654af65d91f", "1.24.0--r41hdfd78af_0": "sha256:c6ddd02316920a3aa26be115213d76e22cceaa250695a4ac1f366066b8c28693", "1.22.0--r41hdfd78af_0": "sha256:b7e90cbca2452e6db09c40cae74b04eda6b10f8faa641ff0caed485f0ffa262f", "1.20.0--r40hdfd78af_1": "sha256:e7922bcbf4c872b10b05a94a278680e1f46df3956e24c31c4e7d84d799787aac", "1.18.0--r40_0": "sha256:a257e82dbb9f1116ec1fc19edd6b624f9bcef598d7a2abb01711e9a397f0b5be", "1.30.0--r43hdfd78af_0": "sha256:462a87386c0f039d21931f69297ce23514c97fae73c47cfa6003757a04cfc75a"}, "docker": "quay.io/biocontainers/bioconductor-pathvar", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pathvar.

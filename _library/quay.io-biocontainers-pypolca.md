@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pypolca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypolca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pypolca/container.yaml"
-updated_at: "2024-07-22 04:02:54.630851"
+updated_at: "2024-07-23 03:25:21.530214"
 latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pypolca"
 aliases:

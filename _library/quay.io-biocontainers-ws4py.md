@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ws4py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ws4py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ws4py/container.yaml"
-updated_at: "2024-07-22 04:01:09.016840"
+updated_at: "2024-07-23 03:23:32.553812"
 latest: "0.3.2--py36_0"
 container_url: "https://biocontainers.pro/tools/ws4py"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.3.2--py36_0"
+ - "0.3.2--py35_0"
 description: "shpc-registry automated BioContainers addition for ws4py"
-config: {"url": "https://biocontainers.pro/tools/ws4py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ws4py", "latest": {"0.3.2--py36_0": "sha256:9ff82c0f761b590cf09fb6d3ac96546e8a9834329458b7f3bb10d1d16d3b0846"}, "tags": {"0.3.2--py36_0": "sha256:9ff82c0f761b590cf09fb6d3ac96546e8a9834329458b7f3bb10d1d16d3b0846"}, "docker": "quay.io/biocontainers/ws4py", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/ws4py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ws4py", "latest": {"0.3.2--py36_0": "sha256:adfbda1b4c146896204983e052abf3537fe407ed9990be451bbcf96c0a987bfc"}, "tags": {"0.3.2--py36_0": "sha256:adfbda1b4c146896204983e052abf3537fe407ed9990be451bbcf96c0a987bfc", "0.3.2--py35_0": "sha256:8374c274ac43c4ea0ec5b9f0f590b94da72cbbb012b1ca2502791ac02e0a63b3"}, "docker": "quay.io/biocontainers/ws4py", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ws4py.

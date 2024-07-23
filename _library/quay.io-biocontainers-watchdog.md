@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/watchdog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/watchdog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/watchdog/container.yaml"
-updated_at: "2024-07-22 03:50:42.539007"
+updated_at: "2024-07-23 03:12:45.806944"
 latest: "0.8.3--py36_0"
 container_url: "https://biocontainers.pro/tools/watchdog"
 
 versions:
  - "0.8.3--py36_0"
+ - "0.8.3--py35_0"
 description: "shpc-registry automated BioContainers addition for watchdog"
-config: {"url": "https://biocontainers.pro/tools/watchdog", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for watchdog", "latest": {"0.8.3--py36_0": "sha256:6ec079adf9b3bc38e95444438e2ff24ffc6e5f7ed40817f77863223837451f14"}, "tags": {"0.8.3--py36_0": "sha256:6ec079adf9b3bc38e95444438e2ff24ffc6e5f7ed40817f77863223837451f14"}, "docker": "quay.io/biocontainers/watchdog"}
+config: {"url": "https://biocontainers.pro/tools/watchdog", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for watchdog", "latest": {"0.8.3--py36_0": "sha256:1e33b8ae6b970d3719d552a4242a750bfa3d0ecdd21999542980d90fcdaa2b1a"}, "tags": {"0.8.3--py36_0": "sha256:1e33b8ae6b970d3719d552a4242a750bfa3d0ecdd21999542980d90fcdaa2b1a", "0.8.3--py35_0": "sha256:0370da3d796083ce5c30de8a6e8ef5ba08d220ef7f15c7aa640c5af4fb0040f2"}, "docker": "quay.io/biocontainers/watchdog"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/watchdog.

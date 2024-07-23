@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mlgenotype"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mlgenotype/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mlgenotype/container.yaml"
-updated_at: "2024-07-22 03:59:29.415101"
+updated_at: "2024-07-23 03:21:49.155629"
 latest: "0.1.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mlgenotype"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-clvalid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-clvalid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-clvalid/container.yaml"
-updated_at: "2024-07-22 03:48:03.269759"
+updated_at: "2024-07-23 03:10:00.889311"
 latest: "0.6_6--r36h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-clvalid"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "0.6_6--r36h6115d3f_1"
 description: "shpc-registry automated BioContainers addition for r-clvalid"
-config: {"url": "https://biocontainers.pro/tools/r-clvalid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-clvalid", "latest": {"0.6_6--r36h6115d3f_1": "sha256:f1143dbfb08f1b7056e5203ddb04609756442baf834164364744fe480527502e"}, "tags": {"0.6_6--r36h6115d3f_1": "sha256:f1143dbfb08f1b7056e5203ddb04609756442baf834164364744fe480527502e"}, "docker": "quay.io/biocontainers/r-clvalid", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-clvalid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-clvalid", "latest": {"0.6_6--r36h6115d3f_1": "sha256:f86dc765e66d0dccce09a838012a7ae483dd6b744500f593d0143c8f5ec40f27"}, "tags": {"0.6_6--r36h6115d3f_1": "sha256:f86dc765e66d0dccce09a838012a7ae483dd6b744500f593d0143c8f5ec40f27"}, "docker": "quay.io/biocontainers/r-clvalid", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-clvalid.

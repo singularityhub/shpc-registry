@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/screamingbackpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/screamingbackpack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/screamingbackpack/container.yaml"
-updated_at: "2024-07-22 03:38:43.620455"
+updated_at: "2024-07-23 03:00:20.364501"
 latest: "0.2.333--py_1"
 container_url: "https://biocontainers.pro/tools/screamingbackpack"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.2.333--py_1"
 description: "shpc-registry automated BioContainers addition for screamingbackpack"
-config: {"url": "https://biocontainers.pro/tools/screamingbackpack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for screamingbackpack", "latest": {"0.2.333--py_1": "sha256:1f6e978fdfd4295157d6b641cd5fec0747d45bc526520465553b47632d94ca0e"}, "tags": {"0.2.333--py_1": "sha256:1f6e978fdfd4295157d6b641cd5fec0747d45bc526520465553b47632d94ca0e"}, "docker": "quay.io/biocontainers/screamingbackpack", "aliases": {"screamingBackpack": "/usr/local/bin/screamingBackpack", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/screamingbackpack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for screamingbackpack", "latest": {"0.2.333--py_1": "sha256:2084f14a8792bca1f7c130a3667c7405701b5ffe0aa32e35a4b84bacbd7db2a5"}, "tags": {"0.2.333--py_1": "sha256:2084f14a8792bca1f7c130a3667c7405701b5ffe0aa32e35a4b84bacbd7db2a5"}, "docker": "quay.io/biocontainers/screamingbackpack", "aliases": {"screamingBackpack": "/usr/local/bin/screamingBackpack", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/screamingbackpack.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-dateutil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-dateutil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-dateutil/container.yaml"
-updated_at: "2024-07-22 03:17:53.556561"
+updated_at: "2024-07-23 02:38:48.343946"
 latest: "2.6.0--py34_0"
 container_url: "https://biocontainers.pro/tools/python-dateutil"
 aliases:
@@ -24,7 +24,7 @@ versions:
  - "2.6.0--py34_0"
  - "2.6.0--py36_0"
 description: "shpc-registry automated BioContainers addition for python-dateutil"
-config: {"url": "https://biocontainers.pro/tools/python-dateutil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-dateutil", "latest": {"2.6.0--py34_0": "sha256:405fbdf4d1624658cdb24203b4f1051e7e0271b939fb9873d389733018c74a30"}, "tags": {"2.6.0--py34_0": "sha256:405fbdf4d1624658cdb24203b4f1051e7e0271b939fb9873d389733018c74a30", "2.6.0--py36_0": "sha256:c1b819faa5586e58c0e46970ed64de3e19bcc9a8ef7b6e3fc7db2d2091a070f4"}, "docker": "quay.io/biocontainers/python-dateutil", "aliases": {"2to3-3.4": "/usr/local/bin/2to3-3.4", "easy_install-3.4": "/usr/local/bin/easy_install-3.4", "idle3.4": "/usr/local/bin/idle3.4", "pydoc3.4": "/usr/local/bin/pydoc3.4", "python3.4": "/usr/local/bin/python3.4", "python3.4-config": "/usr/local/bin/python3.4-config", "python3.4m": "/usr/local/bin/python3.4m", "python3.4m-config": "/usr/local/bin/python3.4m-config", "pyvenv-3.4": "/usr/local/bin/pyvenv-3.4", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/python-dateutil", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-dateutil", "latest": {"2.6.0--py34_0": "sha256:00cd899f913f9d47a0c8805ae9e4adf6b977c05780d915c9ea9bfa5db2def091"}, "tags": {"2.6.0--py34_0": "sha256:00cd899f913f9d47a0c8805ae9e4adf6b977c05780d915c9ea9bfa5db2def091", "2.6.0--py36_0": "sha256:b4eabb9ef99e58ab08ff0ea89cc4aaf409af44dd3ea0d7a5308552c9cccd83ee"}, "docker": "quay.io/biocontainers/python-dateutil", "aliases": {"2to3-3.4": "/usr/local/bin/2to3-3.4", "easy_install-3.4": "/usr/local/bin/easy_install-3.4", "idle3.4": "/usr/local/bin/idle3.4", "pydoc3.4": "/usr/local/bin/pydoc3.4", "python3.4": "/usr/local/bin/python3.4", "python3.4-config": "/usr/local/bin/python3.4-config", "python3.4m": "/usr/local/bin/python3.4m", "python3.4m-config": "/usr/local/bin/python3.4m-config", "pyvenv-3.4": "/usr/local/bin/pyvenv-3.4", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-dateutil.

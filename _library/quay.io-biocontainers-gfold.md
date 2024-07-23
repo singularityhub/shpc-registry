@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gfold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfold/container.yaml"
-updated_at: "2024-07-22 03:17:07.485548"
+updated_at: "2024-07-23 02:38:00.688901"
 latest: "1.1.4--gsl2.2_2"
 container_url: "https://biocontainers.pro/tools/gfold"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.1.4--gsl2.2_2"
 description: "shpc-registry automated BioContainers addition for gfold"
-config: {"url": "https://biocontainers.pro/tools/gfold", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gfold", "latest": {"1.1.4--gsl2.2_2": "sha256:45631bb47bd1213148e147edab18b2413b8bb9da1c17358a0b743313fbc3c962"}, "tags": {"1.1.4--gsl2.2_2": "sha256:45631bb47bd1213148e147edab18b2413b8bb9da1c17358a0b743313fbc3c962"}, "docker": "quay.io/biocontainers/gfold", "aliases": {"gfold": "/usr/local/bin/gfold"}}
+config: {"url": "https://biocontainers.pro/tools/gfold", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gfold", "latest": {"1.1.4--gsl2.2_2": "sha256:f4e4bad65cac3610e61da10d7a54373e1bfbd344dc054100ea401f9bfcaf20b4"}, "tags": {"1.1.4--gsl2.2_2": "sha256:f4e4bad65cac3610e61da10d7a54373e1bfbd344dc054100ea401f9bfcaf20b4"}, "docker": "quay.io/biocontainers/gfold", "aliases": {"gfold": "/usr/local/bin/gfold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gfold.

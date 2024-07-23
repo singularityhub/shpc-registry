@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pvacseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pvacseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pvacseq/container.yaml"
-updated_at: "2024-07-22 03:57:22.591005"
+updated_at: "2024-07-23 03:19:37.698861"
 latest: "4.0.10--py_3"
 container_url: "https://biocontainers.pro/tools/pvacseq"
 aliases:
@@ -25,7 +25,7 @@ versions:
  - "4.0.9--py36_0"
  - "4.0.10--py_3"
 description: "shpc-registry automated BioContainers addition for pvacseq"
-config: {"url": "https://biocontainers.pro/tools/pvacseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pvacseq", "latest": {"4.0.10--py_3": "sha256:74d914e23eebaf638bc1db01a4ce46cba848b3b64e0c62687845a91d54546d6e"}, "tags": {"4.0.9--py36_0": "sha256:0df33929e60a64b918e7b72a6f403264ca1355aa853780e41688e90d201abbd7", "4.0.10--py_3": "sha256:74d914e23eebaf638bc1db01a4ce46cba848b3b64e0c62687845a91d54546d6e"}, "docker": "quay.io/biocontainers/pvacseq", "aliases": {"connexion": "/usr/local/bin/connexion", "pvacseq": "/usr/local/bin/pvacseq", "pvacseq-ui": "/usr/local/bin/pvacseq-ui", "flask": "/usr/local/bin/flask", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "jsonschema": "/usr/local/bin/jsonschema", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
+config: {"url": "https://biocontainers.pro/tools/pvacseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pvacseq", "latest": {"4.0.10--py_3": "sha256:ad53b7fa48e8aeff20a29aa1ff1ba2ed09dbb0a64036de5f72aef6b8a74089a0"}, "tags": {"4.0.9--py36_0": "sha256:bfceacd377b62657e553058254549ece53ff505193fabdcdd8fee40fb3978bd5", "4.0.10--py_3": "sha256:ad53b7fa48e8aeff20a29aa1ff1ba2ed09dbb0a64036de5f72aef6b8a74089a0"}, "docker": "quay.io/biocontainers/pvacseq", "aliases": {"connexion": "/usr/local/bin/connexion", "pvacseq": "/usr/local/bin/pvacseq", "pvacseq-ui": "/usr/local/bin/pvacseq-ui", "flask": "/usr/local/bin/flask", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "jsonschema": "/usr/local/bin/jsonschema", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pvacseq.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epivizrserver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epivizrserver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epivizrserver/container.yaml"
-updated_at: "2024-07-22 03:38:08.402726"
+updated_at: "2024-07-23 02:59:43.767671"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epivizrserver"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-epivizrserver"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-epivizrserver", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epivizrserver", "latest": {"1.30.0--r43hdfd78af_0": "sha256:8dd4c78e0337f26d486a55f28ee24f4a945bdf97f87da6542b91dd64009dfa29"}, "tags": {"1.8.1--r341_0": "sha256:0470c691b998fad83d66821d101cf7be98226879b99a9e348e22b571ebf2c42d", "1.26.0--r42hdfd78af_0": "sha256:710e37e35ddaee5912db7e8f11fd144f47e854ae6bca41187c31d59d46d094e6", "1.22.0--r41hdfd78af_0": "sha256:281e98a9381c361a228a6b94e1b7d5133a2ffa453ec3f9d92e7f26335201b6c6", "1.20.0--r41hdfd78af_0": "sha256:5807b6485c913d67228ca706c35bd0d83849f8e6d256b1ce1a27f47bf8b7879d", "1.18.0--r40hdfd78af_1": "sha256:1c17284e70a2f3b16708b4c9acf3930bb45e85159d85a26ace1b29f1183bd295", "1.16.0--r40_0": "sha256:08c79c940741b0b62392db224a8efa1f75de5f6f4891695c27179b615867f448", "1.28.0--r43hdfd78af_0": "sha256:c0e7a03313ca24f9d416fb4c91a80cd6264d05d1bf2579e2a5717d4ee000d95f", "1.30.0--r43hdfd78af_0": "sha256:8dd4c78e0337f26d486a55f28ee24f4a945bdf97f87da6542b91dd64009dfa29"}, "docker": "quay.io/biocontainers/bioconductor-epivizrserver", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-epivizrserver", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epivizrserver", "latest": {"1.30.0--r43hdfd78af_0": "sha256:8dd4c78e0337f26d486a55f28ee24f4a945bdf97f87da6542b91dd64009dfa29"}, "tags": {"1.8.1--r341_0": "sha256:11cf2df2b1ade0fd102bed690e860de1e9d3a7c58b7a9a99f6f4577ca82bcdae", "1.26.0--r42hdfd78af_0": "sha256:710e37e35ddaee5912db7e8f11fd144f47e854ae6bca41187c31d59d46d094e6", "1.22.0--r41hdfd78af_0": "sha256:281e98a9381c361a228a6b94e1b7d5133a2ffa453ec3f9d92e7f26335201b6c6", "1.20.0--r41hdfd78af_0": "sha256:5807b6485c913d67228ca706c35bd0d83849f8e6d256b1ce1a27f47bf8b7879d", "1.18.0--r40hdfd78af_1": "sha256:1c17284e70a2f3b16708b4c9acf3930bb45e85159d85a26ace1b29f1183bd295", "1.16.0--r40_0": "sha256:08c79c940741b0b62392db224a8efa1f75de5f6f4891695c27179b615867f448", "1.28.0--r43hdfd78af_0": "sha256:c0e7a03313ca24f9d416fb4c91a80cd6264d05d1bf2579e2a5717d4ee000d95f", "1.30.0--r43hdfd78af_0": "sha256:8dd4c78e0337f26d486a55f28ee24f4a945bdf97f87da6542b91dd64009dfa29"}, "docker": "quay.io/biocontainers/bioconductor-epivizrserver", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-epivizrserver.

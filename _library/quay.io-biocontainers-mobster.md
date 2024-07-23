@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mobster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mobster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mobster/container.yaml"
-updated_at: "2024-07-22 03:49:08.319364"
+updated_at: "2024-07-23 03:11:08.330143"
 latest: "0.2.4.1--1"
 container_url: "https://biocontainers.pro/tools/mobster"
 aliases:
@@ -27,7 +27,7 @@ aliases:
 versions:
  - "0.2.4.1--1"
 description: "shpc-registry automated BioContainers addition for mobster"
-config: {"url": "https://biocontainers.pro/tools/mobster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mobster", "latest": {"0.2.4.1--1": "sha256:ca3657866765cadf80910b6d0e6701086fbce8b4a76e2b34af985b0d7076183c"}, "tags": {"0.2.4.1--1": "sha256:ca3657866765cadf80910b6d0e6701086fbce8b4a76e2b34af985b0d7076183c"}, "docker": "quay.io/biocontainers/mobster", "aliases": {"MosaikAligner": "/usr/local/bin/MosaikAligner", "MosaikBuild": "/usr/local/bin/MosaikBuild", "MosaikJump": "/usr/local/bin/MosaikJump", "MosaikText": "/usr/local/bin/MosaikText", "mobster": "/usr/local/bin/mobster", "mobster-to-vcf": "/usr/local/bin/mobster-to-vcf", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/mobster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mobster", "latest": {"0.2.4.1--1": "sha256:752c26c4ef40c29866bfc6bfbf23b35cd30a3c2ce6714c753c6c39016fb3820f"}, "tags": {"0.2.4.1--1": "sha256:752c26c4ef40c29866bfc6bfbf23b35cd30a3c2ce6714c753c6c39016fb3820f"}, "docker": "quay.io/biocontainers/mobster", "aliases": {"MosaikAligner": "/usr/local/bin/MosaikAligner", "MosaikBuild": "/usr/local/bin/MosaikBuild", "MosaikJump": "/usr/local/bin/MosaikJump", "MosaikText": "/usr/local/bin/MosaikText", "mobster": "/usr/local/bin/mobster", "mobster-to-vcf": "/usr/local/bin/mobster-to-vcf", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mobster.

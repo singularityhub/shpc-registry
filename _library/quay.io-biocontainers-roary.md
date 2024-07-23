@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/roary"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/roary/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/roary/container.yaml"
-updated_at: "2024-07-22 03:40:21.554103"
+updated_at: "2024-07-23 03:02:03.100849"
 latest: "3.13.0--pl526h516909a_0"
 container_url: "https://biocontainers.pro/tools/roary"
 
@@ -14,7 +14,7 @@ versions:
  - "3.12.0--pl526h516909a_2"
  - "3.10.2--pl5.22.0_0"
 description: "shpc-registry automated BioContainers addition for roary"
-config: {"url": "https://biocontainers.pro/tools/roary", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for roary", "latest": {"3.13.0--pl526h516909a_0": "sha256:bff7bde69fe0015cf9673fd7657d81c33a4035882d270019f42250e903f51a5d"}, "tags": {"3.9.1--pl5.22.0_0": "sha256:2b149b0c13975b729d1d8cc9e11fdb6613b7de8b49ee5c58c06ff05d16d3c40d", "3.13.0--pl526h516909a_0": "sha256:bff7bde69fe0015cf9673fd7657d81c33a4035882d270019f42250e903f51a5d", "3.12.0--pl526h516909a_2": "sha256:316cfe907b21c10f78ecd4e8b074ab28083fb994a83479f01b1b7c7fc9b655c0", "3.10.2--pl5.22.0_0": "sha256:1ec4554d34e07276f6c1396beaec3d5f5f5c2654edcb8e7d435563142c62035e"}, "docker": "quay.io/biocontainers/roary"}
+config: {"url": "https://biocontainers.pro/tools/roary", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for roary", "latest": {"3.13.0--pl526h516909a_0": "sha256:c188ba49c32c1a7204c64d5d3a14d4861c3b75741796b72dd4951e1d6af76bfd"}, "tags": {"3.9.1--pl5.22.0_0": "sha256:ea408e4cdd1600497f80ec78eb0c5729eb91636925a9655546c59dcf280d1925", "3.13.0--pl526h516909a_0": "sha256:c188ba49c32c1a7204c64d5d3a14d4861c3b75741796b72dd4951e1d6af76bfd", "3.12.0--pl526h516909a_2": "sha256:823b280039aa3ef08f4fcad24f494c5192e7cd3df7f743619be5d2c43c52b300", "3.10.2--pl5.22.0_0": "sha256:1b2f870dbcb698179f4d586d6db7729f0ff11f55952659c46f7e2f7280a537e3"}, "docker": "quay.io/biocontainers/roary"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/roary.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tandem-genotypes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tandem-genotypes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tandem-genotypes/container.yaml"
-updated_at: "2024-07-22 03:43:37.374436"
-latest: "1.9.1--pyh7cba7a3_0"
+updated_at: "2024-07-23 03:05:25.040819"
+latest: "1.9.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/tandem-genotypes"
 aliases:
  - "tandem-genotypes"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "1.9.0--pyh5e36f6f_0"
  - "1.9.1--pyh7cba7a3_0"
+ - "1.9.2--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for tandem-genotypes"
-config: {"url": "https://biocontainers.pro/tools/tandem-genotypes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tandem-genotypes", "latest": {"1.9.1--pyh7cba7a3_0": "sha256:08a23fec5aabf0d38bbb1aa1a7cf9ded74fd4d612aca5bbdf14edf387d779bbd"}, "tags": {"1.9.0--pyh5e36f6f_0": "sha256:b19f29fbaafa20ad5dcbb7982ad21ea387f489c31fa11eee17879664411ec26c", "1.9.1--pyh7cba7a3_0": "sha256:08a23fec5aabf0d38bbb1aa1a7cf9ded74fd4d612aca5bbdf14edf387d779bbd"}, "docker": "quay.io/biocontainers/tandem-genotypes", "aliases": {"tandem-genotypes": "/usr/local/bin/tandem-genotypes", "tandem-genotypes-join": "/usr/local/bin/tandem-genotypes-join", "tandem-genotypes-merge": "/usr/local/bin/tandem-genotypes-merge", "tandem-genotypes-plot": "/usr/local/bin/tandem-genotypes-plot", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/tandem-genotypes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tandem-genotypes", "latest": {"1.9.2--pyh7e72e81_0": "sha256:8203a2669d9b80ed192b4af2eb09f05d9f10f084753b6ac48e3cb6ae1bf386ce"}, "tags": {"1.9.0--pyh5e36f6f_0": "sha256:b19f29fbaafa20ad5dcbb7982ad21ea387f489c31fa11eee17879664411ec26c", "1.9.1--pyh7cba7a3_0": "sha256:08a23fec5aabf0d38bbb1aa1a7cf9ded74fd4d612aca5bbdf14edf387d779bbd", "1.9.2--pyh7e72e81_0": "sha256:8203a2669d9b80ed192b4af2eb09f05d9f10f084753b6ac48e3cb6ae1bf386ce"}, "docker": "quay.io/biocontainers/tandem-genotypes", "aliases": {"tandem-genotypes": "/usr/local/bin/tandem-genotypes", "tandem-genotypes-join": "/usr/local/bin/tandem-genotypes-join", "tandem-genotypes-merge": "/usr/local/bin/tandem-genotypes-merge", "tandem-genotypes-plot": "/usr/local/bin/tandem-genotypes-plot", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tandem-genotypes.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/tandem-genotypes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tandem-genotypes:1.9.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/tandem-genotypes:1.9.2--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tandem-genotypes/1.9.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/tandem-genotypes/1.9.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/tandem-genotypes/1.9.2--pyh7e72e81_0
+$ module help quay.io/biocontainers/tandem-genotypes/1.9.2--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

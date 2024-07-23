@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/denovogear"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/denovogear/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/denovogear/container.yaml"
-updated_at: "2024-07-22 03:39:41.513601"
+updated_at: "2024-07-23 03:01:21.315697"
 latest: "1.1.1--boost1.60_0"
 container_url: "https://biocontainers.pro/tools/denovogear"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.1.1--boost1.60_0"
 description: "shpc-registry automated BioContainers addition for denovogear"
-config: {"url": "https://biocontainers.pro/tools/denovogear", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for denovogear", "latest": {"1.1.1--boost1.60_0": "sha256:7e2f79d3922eb70614c8e6d585f47fa22f8c910e27f29d6f9d24f65999178255"}, "tags": {"1.1.1--boost1.60_0": "sha256:7e2f79d3922eb70614c8e6d585f47fa22f8c910e27f29d6f9d24f65999178255"}, "docker": "quay.io/biocontainers/denovogear", "aliases": {"dng": "/usr/local/bin/dng", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/denovogear", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for denovogear", "latest": {"1.1.1--boost1.60_0": "sha256:43ea1438d202b1f180aca1e6f1f29eebd67503430b973f456ed92c9a9bcf0487"}, "tags": {"1.1.1--boost1.60_0": "sha256:43ea1438d202b1f180aca1e6f1f29eebd67503430b973f456ed92c9a9bcf0487"}, "docker": "quay.io/biocontainers/denovogear", "aliases": {"dng": "/usr/local/bin/dng", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/denovogear.

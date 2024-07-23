@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gatktool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gatktool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gatktool/container.yaml"
-updated_at: "2024-07-22 04:01:21.281497"
+updated_at: "2024-07-23 03:23:45.150908"
 latest: "0.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/gatktool"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.0.1--py_0"
 description: "shpc-registry automated BioContainers addition for gatktool"
-config: {"url": "https://biocontainers.pro/tools/gatktool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gatktool", "latest": {"0.0.1--py_0": "sha256:2d82b27d1f324315c048bc31c0eb93df67f36437f29b58ba65409ea758d2f6c7"}, "tags": {"0.0.1--py_0": "sha256:2d82b27d1f324315c048bc31c0eb93df67f36437f29b58ba65409ea758d2f6c7"}, "docker": "quay.io/biocontainers/gatktool", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/gatktool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gatktool", "latest": {"0.0.1--py_0": "sha256:cd764e3d4cfb509dbca556a83c9c6ae2b6f27704c695e677afd3b901a855c41c"}, "tags": {"0.0.1--py_0": "sha256:cd764e3d4cfb509dbca556a83c9c6ae2b6f27704c695e677afd3b901a855c41c"}, "docker": "quay.io/biocontainers/gatktool", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gatktool.

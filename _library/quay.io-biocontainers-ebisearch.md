@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ebisearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ebisearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ebisearch/container.yaml"
-updated_at: "2024-07-22 03:16:41.839372"
+updated_at: "2024-07-23 02:37:34.205992"
 latest: "0.0.3--py_2"
 container_url: "https://biocontainers.pro/tools/ebisearch"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "0.0.3--py_2"
 description: "shpc-registry automated BioContainers addition for ebisearch"
-config: {"url": "https://biocontainers.pro/tools/ebisearch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ebisearch", "latest": {"0.0.3--py_2": "sha256:a525bf0301e81e0134d6d46356db1f2bd976805673598618994c52e8fa41f987"}, "tags": {"0.0.3--py_2": "sha256:a525bf0301e81e0134d6d46356db1f2bd976805673598618994c52e8fa41f987"}, "docker": "quay.io/biocontainers/ebisearch", "aliases": {"ebi_metagenomics": "/usr/local/bin/ebi_metagenomics", "ebisearch": "/usr/local/bin/ebisearch", "flake8": "/usr/local/bin/flake8", "pycodestyle": "/usr/local/bin/pycodestyle", "pyflakes": "/usr/local/bin/pyflakes", "chardetect": "/usr/local/bin/chardetect", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/ebisearch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ebisearch", "latest": {"0.0.3--py_2": "sha256:2be35d17ebd133d6a850d42c299639160dace7200ff6dc509d3fc1bfa48087f5"}, "tags": {"0.0.3--py_2": "sha256:2be35d17ebd133d6a850d42c299639160dace7200ff6dc509d3fc1bfa48087f5"}, "docker": "quay.io/biocontainers/ebisearch", "aliases": {"ebi_metagenomics": "/usr/local/bin/ebi_metagenomics", "ebisearch": "/usr/local/bin/ebisearch", "flake8": "/usr/local/bin/flake8", "pycodestyle": "/usr/local/bin/pycodestyle", "pyflakes": "/usr/local/bin/pyflakes", "chardetect": "/usr/local/bin/chardetect", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ebisearch.

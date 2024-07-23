@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/shapeit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shapeit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shapeit/container.yaml"
-updated_at: "2024-07-22 03:37:32.357348"
+updated_at: "2024-07-23 02:59:06.528992"
 latest: "2.r837--h09b0a5c_1"
 container_url: "https://biocontainers.pro/tools/shapeit"
 
 versions:
  - "2.r837--h09b0a5c_1"
 description: "shpc-registry automated BioContainers addition for shapeit"
-config: {"url": "https://biocontainers.pro/tools/shapeit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shapeit", "latest": {"2.r837--h09b0a5c_1": "sha256:dbf015f1ad8fbbc54652ae26270f079bf787a780ae7dee9da49ac7538422abe5"}, "tags": {"2.r837--h09b0a5c_1": "sha256:dbf015f1ad8fbbc54652ae26270f079bf787a780ae7dee9da49ac7538422abe5"}, "docker": "quay.io/biocontainers/shapeit"}
+config: {"url": "https://biocontainers.pro/tools/shapeit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shapeit", "latest": {"2.r837--h09b0a5c_1": "sha256:704f95bffd481f4733d115811a98873f1b9950919180e260709d77073bbfd642"}, "tags": {"2.r837--h09b0a5c_1": "sha256:704f95bffd481f4733d115811a98873f1b9950919180e260709d77073bbfd642"}, "docker": "quay.io/biocontainers/shapeit"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shapeit.

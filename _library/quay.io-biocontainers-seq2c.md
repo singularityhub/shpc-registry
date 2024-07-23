@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seq2c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seq2c/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seq2c/container.yaml"
-updated_at: "2024-07-22 03:59:45.077474"
+updated_at: "2024-07-23 03:22:05.398443"
 latest: "2019.05.30--pl526_0"
 container_url: "https://biocontainers.pro/tools/seq2c"
 aliases:
@@ -16,7 +16,7 @@ aliases:
 versions:
  - "2019.05.30--pl526_0"
 description: "shpc-registry automated BioContainers addition for seq2c"
-config: {"url": "https://biocontainers.pro/tools/seq2c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seq2c", "latest": {"2019.05.30--pl526_0": "sha256:9e7d371ad8851eedf2f499dc48ca9c98c60bfebfff49ea359c4883266acd71f3"}, "tags": {"2019.05.30--pl526_0": "sha256:9e7d371ad8851eedf2f499dc48ca9c98c60bfebfff49ea359c4883266acd71f3"}, "docker": "quay.io/biocontainers/seq2c", "aliases": {"cov2lr.pl": "/usr/local/bin/cov2lr.pl", "lr2gene.pl": "/usr/local/bin/lr2gene.pl", "seq2cov.pl": "/usr/local/bin/seq2cov.pl", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/seq2c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seq2c", "latest": {"2019.05.30--pl526_0": "sha256:b6af254e7b6caf197e5cdaf3f383fd7fd7d0a06023f07fe058acfeb3198732eb"}, "tags": {"2019.05.30--pl526_0": "sha256:b6af254e7b6caf197e5cdaf3f383fd7fd7d0a06023f07fe058acfeb3198732eb"}, "docker": "quay.io/biocontainers/seq2c", "aliases": {"cov2lr.pl": "/usr/local/bin/cov2lr.pl", "lr2gene.pl": "/usr/local/bin/lr2gene.pl", "seq2cov.pl": "/usr/local/bin/seq2cov.pl", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seq2c.

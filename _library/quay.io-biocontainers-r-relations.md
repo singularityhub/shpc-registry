@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-relations"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-relations/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-relations/container.yaml"
-updated_at: "2024-07-22 03:47:08.389649"
+updated_at: "2024-07-23 03:09:04.006011"
 latest: "0.6_6--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-relations"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "0.6_6--r3.3.1_0"
  - "0.6_6--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-relations"
-config: {"url": "https://biocontainers.pro/tools/r-relations", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-relations", "latest": {"0.6_6--r3.3.1_0": "sha256:f7f3d8f82ed87b720f08184a5d9defff3ad98afb2fdcf67c1cae98ed9335c315"}, "tags": {"0.6_6--r3.3.1_0": "sha256:f7f3d8f82ed87b720f08184a5d9defff3ad98afb2fdcf67c1cae98ed9335c315", "0.6_6--r3.3.2_0": "sha256:1f573ab47b21f10836a32c18c565f45b2da6ac33f6d0c2bcab3522701d28b95e"}, "docker": "quay.io/biocontainers/r-relations", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-relations", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-relations", "latest": {"0.6_6--r3.3.1_0": "sha256:c4ac0cc2a2d78e13dcba52851dc8579594fc977abf67816223a7b9d32a3eda63"}, "tags": {"0.6_6--r3.3.1_0": "sha256:c4ac0cc2a2d78e13dcba52851dc8579594fc977abf67816223a7b9d32a3eda63", "0.6_6--r3.3.2_0": "sha256:600e31645c4faceff569dd7439d20a223871a8b60170837fa800bcd896bbc2a1"}, "docker": "quay.io/biocontainers/r-relations", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-relations.
