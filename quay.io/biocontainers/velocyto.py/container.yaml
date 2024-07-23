@@ -8,6 +8,7 @@ tags:
   0.17.17--py310hd6be1da_6: sha256:9f2f080dc7b7853d33641d717fb4831b0d70f255b067384d523896c85ec8edc3
   0.17.17--py38h24c8ff8_6: sha256:0420ef590add647e6fb272998626d980eb59c2054ed2083b8237e650a8bae0d5
   0.17.17--py311h1abe8b6_7: sha256:1130c88e6011963e3bdb84dedb14d2b3ce95e4ad20ae6319d7eac0be13014e3e
+  0.17.17--py310h581d4b6_7: sha256:58ba0f4caededddb42bbdca2299bce99694b716e22df334ae48ea80369fadd72
 docker: quay.io/biocontainers/velocyto.py
 aliases:
   loompy: /usr/local/bin/loompy

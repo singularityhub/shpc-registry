@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/ribodiff
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ribodiff
 latest:
-  0.2.2--py_2: sha256:9ada6e94089ca5790c608f6543c4fd1673c4a79676b9046b4986aab2e8848cc3
+  0.2.2--py_2: sha256:c793b7b823c7a1465ba9fd6c59699b9e0eaf5a9dab6d1af27cbe33f25ce6db20
 tags:
-  0.2.2--py_2: sha256:9ada6e94089ca5790c608f6543c4fd1673c4a79676b9046b4986aab2e8848cc3
+  0.2.2--py_2: sha256:c793b7b823c7a1465ba9fd6c59699b9e0eaf5a9dab6d1af27cbe33f25ce6db20
 docker: quay.io/biocontainers/ribodiff
 aliases:
   TE.py: /usr/local/bin/TE.py

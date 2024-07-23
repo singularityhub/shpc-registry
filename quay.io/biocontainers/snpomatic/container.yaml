@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/snpomatic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for snpomatic
 latest:
-  1.0--h2d50403_1: sha256:67e92ac07f1adeb6b0f0b7562bdcb4e0eae778a0a3df3f6899f8851708d56e2d
+  1.0--h2d50403_1: sha256:25118a57af5272dbb5f857f5f8fc73bd62f3870badffc9621675e8c2a9ffbbc7
 tags:
-  1.0--h2d50403_1: sha256:67e92ac07f1adeb6b0f0b7562bdcb4e0eae778a0a3df3f6899f8851708d56e2d
+  1.0--h2d50403_1: sha256:25118a57af5272dbb5f857f5f8fc73bd62f3870badffc9621675e8c2a9ffbbc7
 docker: quay.io/biocontainers/snpomatic
 aliases:
   findknownsnps: /usr/local/bin/findknownsnps

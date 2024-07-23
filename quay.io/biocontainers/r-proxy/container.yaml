@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-proxy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-proxy
 latest:
-  0.4_16--r3.3.1_0: sha256:49a84da3cfac744b57769c8318ba7e3faebd9ad11ae3f9cce0416d130d04c2e0
+  0.4_16--r3.3.1_0: sha256:2c0077187edc8373ac5e52a8d80582307c12675a68fc1c7648c5e22072b9f823
 tags:
-  0.4_16--r3.3.1_0: sha256:49a84da3cfac744b57769c8318ba7e3faebd9ad11ae3f9cce0416d130d04c2e0
-  0.4_16--r3.3.2_0: sha256:c04dc9039972052f71df7008257e5818ff56cb9ffce1814c8e54a4528497f824
+  0.4_16--r3.3.1_0: sha256:2c0077187edc8373ac5e52a8d80582307c12675a68fc1c7648c5e22072b9f823
+  0.4_16--r3.3.2_0: sha256:514b8c89ebc16955ef69237a1b4224ad943fe8c3eaf5ed4f323daceacc9de93f
 docker: quay.io/biocontainers/r-proxy
 aliases:
   uconv: /usr/local/bin/uconv

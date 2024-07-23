@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/virmet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for virmet
 latest:
-  v1.1--py35_2: sha256:3716d4ed9fdd34e303d6ca4c484e6e2cd4df03966e8013e530fbf436dcade216
+  v1.1--py35_2: sha256:7afdf48cffa07e46fefe0e09916223a74aabff481ddd43da93633f03b43e9dab
 tags:
-  v1.1--py35_2: sha256:3716d4ed9fdd34e303d6ca4c484e6e2cd4df03966e8013e530fbf436dcade216
+  v1.1--py35_2: sha256:7afdf48cffa07e46fefe0e09916223a74aabff481ddd43da93633f03b43e9dab
+  v1.1--py36_2: sha256:c9df98e1c0417d0b7c9139606d613c02f8d47d35dfc3d3ae8cbf9a0bd95ca68f
 docker: quay.io/biocontainers/virmet
 aliases:
   aalookup_unit_test: /usr/local/bin/aalookup_unit_test

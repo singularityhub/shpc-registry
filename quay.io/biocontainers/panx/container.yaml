@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/panx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for panx
 latest:
-  1.6.0--py27_0: sha256:07c58714d624590440defb27a33e0472ae3fda841f7afb4af0510c281b594ee4
+  1.6.0--py27_0: sha256:667527b5f5fd3a2c3631a062e65d1eedd050af4982ca2e4cabee9aa8987d5a41
 tags:
-  1.6.0--py27_0: sha256:07c58714d624590440defb27a33e0472ae3fda841f7afb4af0510c281b594ee4
+  1.6.0--py27_0: sha256:667527b5f5fd3a2c3631a062e65d1eedd050af4982ca2e4cabee9aa8987d5a41
 docker: quay.io/biocontainers/panx
 aliases:
   FastTree.c: /usr/local/bin/FastTree.c

@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for bioconductor-gis
 latest:
   1.26.0--r43hdfd78af_0: sha256:6b5f3e9066bb05c1d36d8e2d35730cd5d713b29ce0ad30704756ce9076dbae31
 tags:
-  1.8.0--r36_1: sha256:c39cb2413aadf39e45934f8183e27e4a40fe83d098482c9e9bfa9928f8aa429e
+  1.8.0--r36_1: sha256:52d7ae5203f82615673f63fa43298ceead9654139310eeb89a2191683dd3e369
   1.22.0--r42hdfd78af_0: sha256:bf95ea75833edeacf277924acf3be70d45ba17561ddeef5dfdd828e1aeeb33b3
   1.18.0--r41hdfd78af_0: sha256:4cafc5b71b182c10f0750f81797fe4c2ecefe019fd86ce54d46ce58adb5d679f
   1.16.0--r41hdfd78af_0: sha256:ab12f116db3e74136b12d70b039b5c7cbd28422e1d8d8f8fdace3ac30f80b69d

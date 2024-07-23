@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-dynamictreecut
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-dynamictreecut
 latest:
-  1.63_1--r3.4.1_0: sha256:351628b4196c0d1954f32924167b119464cd6aa8cc552607f00b9384c7652401
+  1.63_1--r3.4.1_0: sha256:e3955b62e7d2b524e3d823a80b42bf3e7cc4d3ed3034123a58fa11c62517a08e
 tags:
-  1.63_1--r3.4.1_0: sha256:351628b4196c0d1954f32924167b119464cd6aa8cc552607f00b9384c7652401
+  1.63_1--r3.4.1_0: sha256:e3955b62e7d2b524e3d823a80b42bf3e7cc4d3ed3034123a58fa11c62517a08e
+  1.63_1--r3.3.1_0: sha256:dbe536b0b90bb40bc9852105f9645fac4b8a3979e0061531ce1b5f77b90b5385
 docker: quay.io/biocontainers/r-dynamictreecut
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

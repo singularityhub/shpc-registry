@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-phenodist
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-phenodist
 latest:
-  1.27.0--r351_0: sha256:87d895a8348c4944942163ff16ec8bb5a8b9e64c73ec4fa5ac2904c3b7c711f4
+  1.27.0--r351_0: sha256:5c4a4770032b34072a6a5b9f18ee8e27a5e2f5ce483cbc063b7c46dd3f5c805f
 tags:
-  1.27.0--r351_0: sha256:87d895a8348c4944942163ff16ec8bb5a8b9e64c73ec4fa5ac2904c3b7c711f4
+  1.27.0--r351_0: sha256:5c4a4770032b34072a6a5b9f18ee8e27a5e2f5ce483cbc063b7c46dd3f5c805f
 docker: quay.io/biocontainers/bioconductor-phenodist
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom

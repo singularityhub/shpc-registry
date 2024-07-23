@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/schema
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for schema
 latest:
-  0.7.0--py_0: sha256:f161eca367d38fef9c3977d14da0fd9e15f78c146703ed60205dcdad5ef47973
+  0.7.0--py_0: sha256:095051d8f2a0ae118b10a20ee788f8ff93db6ac758ecafc800661aeb2ac2a41e
 tags:
-  0.7.0--py_0: sha256:f161eca367d38fef9c3977d14da0fd9e15f78c146703ed60205dcdad5ef47973
+  0.7.0--py_0: sha256:095051d8f2a0ae118b10a20ee788f8ff93db6ac758ecafc800661aeb2ac2a41e
 docker: quay.io/biocontainers/schema

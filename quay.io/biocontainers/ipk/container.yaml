@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/ipk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ipk
 latest:
-  0.5.1--hdcf5f25_0: sha256:bd17de5540f03275b2b4d69c8757d04822791d5e9e82a74fe5124b755b80580a
+  0.5.1--hdcf5f25_2: sha256:cda0c82182b78da0c4830605897c4d4444f2bd0e646dbb5ab3679725897473fb
 tags:
   0.5.1--hdcf5f25_0: sha256:bd17de5540f03275b2b4d69c8757d04822791d5e9e82a74fe5124b755b80580a
+  0.5.1--hdcf5f25_2: sha256:cda0c82182b78da0c4830605897c4d4444f2bd0e646dbb5ab3679725897473fb
 docker: quay.io/biocontainers/ipk
 aliases:
   ipk-aa: /usr/local/bin/ipk-aa

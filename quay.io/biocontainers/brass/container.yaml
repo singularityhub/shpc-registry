@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/brass
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for brass
 latest:
-  5.1.6--7: sha256:771f1290a7bd6d666c5c3e49d1e3ea9e67f1bc6560a901a04c91102035bcd169
+  5.1.6--7: sha256:0fea4c65f91b124d983db67a4c7b484c227d518295eacdbdfc015b2a439d2582
 tags:
-  5.1.6--7: sha256:771f1290a7bd6d666c5c3e49d1e3ea9e67f1bc6560a901a04c91102035bcd169
+  5.1.6--7: sha256:0fea4c65f91b124d983db67a4c7b484c227d518295eacdbdfc015b2a439d2582
 docker: quay.io/biocontainers/brass
 aliases:
   augment-bam: /usr/local/bin/augment-bam

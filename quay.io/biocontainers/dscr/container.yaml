@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/dscr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dscr
 latest:
-  2014.12.17--boost1.60_1: sha256:988bee0765e17cb85c3ee1cedb922439e47191fdacd64cb51d7a638e05b8befb
+  2014.12.17--boost1.60_1: sha256:370def0db596414278dae6a5fae66b96bb086f6529603399039a106d5b71c794
 tags:
-  2014.12.17--boost1.60_1: sha256:988bee0765e17cb85c3ee1cedb922439e47191fdacd64cb51d7a638e05b8befb
+  2014.12.17--boost1.60_1: sha256:370def0db596414278dae6a5fae66b96bb086f6529603399039a106d5b71c794
 docker: quay.io/biocontainers/dscr
 aliases:
   dsrc: /usr/local/bin/dsrc

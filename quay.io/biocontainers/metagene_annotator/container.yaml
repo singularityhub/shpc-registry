@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/metagene_annotator
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metagene_annotator
 latest:
-  1.0--h516909a_3: sha256:172cb46c1943f5ef8d5ac012690d7434604a07db2b68336c3b0823d8f2a6f2b0
+  1.0--h516909a_3: sha256:19fbee92f8bd0918748083d20f4af54a9a6e7393f4d79ab7100cc4386a4f8483
 tags:
-  1.0--h516909a_3: sha256:172cb46c1943f5ef8d5ac012690d7434604a07db2b68336c3b0823d8f2a6f2b0
+  1.0--h516909a_3: sha256:19fbee92f8bd0918748083d20f4af54a9a6e7393f4d79ab7100cc4386a4f8483
 docker: quay.io/biocontainers/metagene_annotator
 aliases:
   mga: /usr/local/bin/mga
