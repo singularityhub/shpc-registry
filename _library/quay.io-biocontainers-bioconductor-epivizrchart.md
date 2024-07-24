@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epivizrchart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epivizrchart/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epivizrchart/container.yaml"
-updated_at: "2024-07-23 02:42:22.276261"
+updated_at: "2024-07-24 02:42:22.617527"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epivizrchart"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-epivizrchart"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-epivizrchart", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epivizrchart", "latest": {"1.24.0--r43hdfd78af_0": "sha256:41096828ac9e93ba7f62a6af72acc3bc75d74a02f492babd6c9b9be6a0b215c6"}, "tags": {"1.8.0--r36_0": "sha256:357732096555a243a49939dc698d49af92476564970fc6fd62f4b617a2f14465", "1.20.0--r42hdfd78af_0": "sha256:c4327dee9509606e59c624bae0d4047aeec60e12d0ce3040735c417973b7f197", "1.16.0--r41hdfd78af_0": "sha256:fcd61033573487f8f9167e989970b883f29bdf2161a53cd336320306c5d11047", "1.14.0--r41hdfd78af_0": "sha256:ccfe607615bc3ca2ef5fb8e350c4d14a5ab5bc1677858cadaa43b9d3cde6eeab", "1.12.0--r40hdfd78af_1": "sha256:e2c7ab74f059c66cbba5a7097a7f63cd17b3c11cbf859546ceb87a38791eb7a7", "1.10.0--r40_0": "sha256:213243b2bd2e448407cbc2ebeff5291a3b532ecf1d4a447b08d84034898c0c78", "1.22.0--r43hdfd78af_0": "sha256:89cce9c294f7433c64d10dc8972c0c3c55ce8922fca94fece8ab8990bea1548b", "1.24.0--r43hdfd78af_0": "sha256:41096828ac9e93ba7f62a6af72acc3bc75d74a02f492babd6c9b9be6a0b215c6"}, "docker": "quay.io/biocontainers/bioconductor-epivizrchart", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-epivizrchart", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epivizrchart", "latest": {"1.24.0--r43hdfd78af_0": "sha256:41096828ac9e93ba7f62a6af72acc3bc75d74a02f492babd6c9b9be6a0b215c6"}, "tags": {"1.8.0--r36_0": "sha256:b89a16352202d096c4f12f05cc7ffceffe15fa6dad75564884aaac6b53a0c89e", "1.20.0--r42hdfd78af_0": "sha256:c4327dee9509606e59c624bae0d4047aeec60e12d0ce3040735c417973b7f197", "1.16.0--r41hdfd78af_0": "sha256:fcd61033573487f8f9167e989970b883f29bdf2161a53cd336320306c5d11047", "1.14.0--r41hdfd78af_0": "sha256:ccfe607615bc3ca2ef5fb8e350c4d14a5ab5bc1677858cadaa43b9d3cde6eeab", "1.12.0--r40hdfd78af_1": "sha256:e2c7ab74f059c66cbba5a7097a7f63cd17b3c11cbf859546ceb87a38791eb7a7", "1.10.0--r40_0": "sha256:213243b2bd2e448407cbc2ebeff5291a3b532ecf1d4a447b08d84034898c0c78", "1.22.0--r43hdfd78af_0": "sha256:89cce9c294f7433c64d10dc8972c0c3c55ce8922fca94fece8ab8990bea1548b", "1.24.0--r43hdfd78af_0": "sha256:41096828ac9e93ba7f62a6af72acc3bc75d74a02f492babd6c9b9be6a0b215c6"}, "docker": "quay.io/biocontainers/bioconductor-epivizrchart", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-epivizrchart.

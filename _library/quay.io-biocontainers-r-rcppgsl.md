@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rcppgsl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rcppgsl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rcppgsl/container.yaml"
-updated_at: "2024-07-23 03:08:03.007216"
+updated_at: "2024-07-24 03:07:58.878260"
 latest: "0.3.1--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-rcppgsl"
 aliases:
@@ -14,8 +14,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.3.1--r3.3.2_0"
+ - "0.3.1--0"
 description: "shpc-registry automated BioContainers addition for r-rcppgsl"
-config: {"url": "https://biocontainers.pro/tools/r-rcppgsl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rcppgsl", "latest": {"0.3.1--r3.3.2_0": "sha256:4fd5f7de3ab8a6cbae3727e5cacc8671374bd3e9152dcaa7fbcd2c0c6237b4a1"}, "tags": {"0.3.1--r3.3.2_0": "sha256:4fd5f7de3ab8a6cbae3727e5cacc8671374bd3e9152dcaa7fbcd2c0c6237b4a1"}, "docker": "quay.io/biocontainers/r-rcppgsl", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rcppgsl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rcppgsl", "latest": {"0.3.1--r3.3.2_0": "sha256:5c662e5ac1f782494478e3a0ff63f33457f1fd762854f13e99012835cd52b684"}, "tags": {"0.3.1--r3.3.2_0": "sha256:5c662e5ac1f782494478e3a0ff63f33457f1fd762854f13e99012835cd52b684", "0.3.1--0": "sha256:29da1f3eafc7746c0067137c557003ddcb9e0ab4bd1d6b51764d232f7dc31edd"}, "docker": "quay.io/biocontainers/r-rcppgsl", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rcppgsl.

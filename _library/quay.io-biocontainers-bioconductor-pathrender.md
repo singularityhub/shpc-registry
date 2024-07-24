@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pathrender"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathrender/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathrender/container.yaml"
-updated_at: "2024-07-23 03:10:11.178734"
+updated_at: "2024-07-24 03:10:05.477124"
 latest: "1.70.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathrender"
 
@@ -14,7 +14,7 @@ versions:
  - "1.68.0--r43hdfd78af_0"
  - "1.70.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pathrender"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pathrender", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pathrender", "latest": {"1.70.0--r43hdfd78af_0": "sha256:d353097567118c16099235ded56a8dcc503279a64c410520066a6dc2a51415f3"}, "tags": {"1.62.0--r41hdfd78af_0": "sha256:612ac39d6d5c49e6d99fbcdaf1afc62ac3dd72a01fe53f504160d4d2adf45ccb", "1.66.0--r42hdfd78af_0": "sha256:a9d9990d2db1ea80cfc3fd7cbfd300cf15f391b61ff229c7a83376682a0c5152", "1.68.0--r43hdfd78af_0": "sha256:03a12751f8c430524178627e681605c190e1771fbb83c3e82a27f24e1e46a406", "1.70.0--r43hdfd78af_0": "sha256:d353097567118c16099235ded56a8dcc503279a64c410520066a6dc2a51415f3"}, "docker": "quay.io/biocontainers/bioconductor-pathrender"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pathrender", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pathrender", "latest": {"1.70.0--r43hdfd78af_0": "sha256:d353097567118c16099235ded56a8dcc503279a64c410520066a6dc2a51415f3"}, "tags": {"1.62.0--r41hdfd78af_0": "sha256:94b94952a2a4410cbaade5e93cd2e0abe670aa406b933019ab5a3b0bca434e9d", "1.66.0--r42hdfd78af_0": "sha256:a9d9990d2db1ea80cfc3fd7cbfd300cf15f391b61ff229c7a83376682a0c5152", "1.68.0--r43hdfd78af_0": "sha256:03a12751f8c430524178627e681605c190e1771fbb83c3e82a27f24e1e46a406", "1.70.0--r43hdfd78af_0": "sha256:d353097567118c16099235ded56a8dcc503279a64c410520066a6dc2a51415f3"}, "docker": "quay.io/biocontainers/bioconductor-pathrender"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pathrender.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ctat-lncrna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ctat-lncrna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ctat-lncrna/container.yaml"
-updated_at: "2024-07-23 02:59:52.288000"
+updated_at: "2024-07-24 02:59:58.852486"
 latest: "1.0.1--2"
 container_url: "https://biocontainers.pro/tools/ctat-lncrna"
 aliases:
@@ -31,7 +31,7 @@ versions:
  - "1.0.1--2"
  - "1.0--py27_1"
 description: "shpc-registry automated BioContainers addition for ctat-lncrna"
-config: {"url": "https://biocontainers.pro/tools/ctat-lncrna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ctat-lncrna", "latest": {"1.0.1--2": "sha256:eb23bce542adcd76944bd8ab170114ec5c87d59f63776f5e61b919a095a088af"}, "tags": {"1.0.1--2": "sha256:eb23bce542adcd76944bd8ab170114ec5c87d59f63776f5e61b919a095a088af", "1.0--py27_1": "sha256:f21e5f391d5f86be42e003acba7e4dc7824125d79ea689fb378fa943750f49f5"}, "docker": "quay.io/biocontainers/ctat-lncrna", "aliases": {"alignTranscripts1.0": "/usr/local/bin/alignTranscripts1.0", "lastz": "/usr/local/bin/lastz", "lastz_D": "/usr/local/bin/lastz_D", "license.txt": "/usr/local/bin/license.txt", "liftOver": "/usr/local/bin/liftOver", "lncrna": "/usr/local/bin/lncrna", "makeWebsite": "/usr/local/bin/makeWebsite", "slncky": "/usr/local/bin/slncky", "slncky.v1.0": "/usr/local/bin/slncky.v1.0", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "conda_build.sh": "/usr/local/bin/conda_build.sh", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv"}}
+config: {"url": "https://biocontainers.pro/tools/ctat-lncrna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ctat-lncrna", "latest": {"1.0.1--2": "sha256:90e0892b65f07acba90f39febe63be58f21a1d3c79cd2ddf690279ebb7296aec"}, "tags": {"1.0.1--2": "sha256:90e0892b65f07acba90f39febe63be58f21a1d3c79cd2ddf690279ebb7296aec", "1.0--py27_1": "sha256:367a9b4f08254ac358b9bd0fec9c98e1abcff814bc6d5d61ba710704437dd3f9"}, "docker": "quay.io/biocontainers/ctat-lncrna", "aliases": {"alignTranscripts1.0": "/usr/local/bin/alignTranscripts1.0", "lastz": "/usr/local/bin/lastz", "lastz_D": "/usr/local/bin/lastz_D", "license.txt": "/usr/local/bin/license.txt", "liftOver": "/usr/local/bin/liftOver", "lncrna": "/usr/local/bin/lncrna", "makeWebsite": "/usr/local/bin/makeWebsite", "slncky": "/usr/local/bin/slncky", "slncky.v1.0": "/usr/local/bin/slncky.v1.0", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "conda_build.sh": "/usr/local/bin/conda_build.sh", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ctat-lncrna.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vegamc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vegamc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vegamc/container.yaml"
-updated_at: "2024-07-23 02:44:01.777413"
+updated_at: "2024-07-24 02:43:59.438113"
 latest: "3.40.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vegamc"
 

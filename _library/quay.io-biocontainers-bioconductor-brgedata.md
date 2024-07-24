@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-brgedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-brgedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-brgedata/container.yaml"
-updated_at: "2024-07-23 03:05:43.490681"
+updated_at: "2024-07-24 03:05:43.574829"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-brgedata"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-brgedata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-brgedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-brgedata", "latest": {"1.24.0--r43hdfd78af_0": "sha256:8328080bccdeb4f19d049348d4d6236d2145b2b84a61480e85441508009e575e"}, "tags": {"1.8.0--r36_0": "sha256:d5f8d6876a50dfd0a72b1758edee58dbf20aa2b626f369f161350da4676aba16", "1.20.0--r42hdfd78af_0": "sha256:445d5063173046bc9502e59ee99770cc9f8f163fb2cbe3bf1dd003ef7139eea8", "1.16.0--r41hdfd78af_1": "sha256:d8622e9f9f0b834fb32881eb39bbc29b0ec48da13d2eafe7cbd19d3ff2ff0beb", "1.14.0--r41hdfd78af_0": "sha256:f2a33daa003b91453090628f806852c633426b4b87195742cb8b7886b9aa0d03", "1.12.0--r40hdfd78af_1": "sha256:027b91d1348404ff8dca8051d63fd05d6465b7ab7f8ae2af2ae19d6e6a691437", "1.10.0--r40_0": "sha256:39634fc4b0e248ce35031e45b28b4ae081f343600a09057d60ed29c9a1ee035f", "1.22.0--r43hdfd78af_0": "sha256:969845c84c9d71c9fb1d511e454f95bba4bfc91e07047969b2d98ef243d299a2", "1.24.0--r43hdfd78af_0": "sha256:8328080bccdeb4f19d049348d4d6236d2145b2b84a61480e85441508009e575e"}, "docker": "quay.io/biocontainers/bioconductor-brgedata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-brgedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-brgedata", "latest": {"1.24.0--r43hdfd78af_0": "sha256:8328080bccdeb4f19d049348d4d6236d2145b2b84a61480e85441508009e575e"}, "tags": {"1.8.0--r36_0": "sha256:fb24f51d01b3c01bb42c7f8bf3e481186fd274c5174349d6a770cc79d55f30bb", "1.20.0--r42hdfd78af_0": "sha256:445d5063173046bc9502e59ee99770cc9f8f163fb2cbe3bf1dd003ef7139eea8", "1.16.0--r41hdfd78af_1": "sha256:d8622e9f9f0b834fb32881eb39bbc29b0ec48da13d2eafe7cbd19d3ff2ff0beb", "1.14.0--r41hdfd78af_0": "sha256:f2a33daa003b91453090628f806852c633426b4b87195742cb8b7886b9aa0d03", "1.12.0--r40hdfd78af_1": "sha256:027b91d1348404ff8dca8051d63fd05d6465b7ab7f8ae2af2ae19d6e6a691437", "1.10.0--r40_0": "sha256:39634fc4b0e248ce35031e45b28b4ae081f343600a09057d60ed29c9a1ee035f", "1.22.0--r43hdfd78af_0": "sha256:969845c84c9d71c9fb1d511e454f95bba4bfc91e07047969b2d98ef243d299a2", "1.24.0--r43hdfd78af_0": "sha256:8328080bccdeb4f19d049348d4d6236d2145b2b84a61480e85441508009e575e"}, "docker": "quay.io/biocontainers/bioconductor-brgedata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-brgedata.

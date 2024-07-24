@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybel/container.yaml"
-updated_at: "2024-07-23 02:58:20.888061"
+updated_at: "2024-07-24 02:58:27.345770"
 latest: "0.13.2--py_0"
 container_url: "https://biocontainers.pro/tools/pybel"
 aliases:
@@ -28,7 +28,7 @@ versions:
  - "0.9.3--py27_1"
  - "0.13.2--py_0"
 description: "shpc-registry automated BioContainers addition for pybel"
-config: {"url": "https://biocontainers.pro/tools/pybel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybel", "latest": {"0.13.2--py_0": "sha256:cc91a480851ed04d1a20d7f2d5ae04fa5ee8e00d9255a018c6cb7f68cf5d74d0"}, "tags": {"0.9.3--py27_1": "sha256:1e47a7882b3f9e6b4163a8ec2da0fc8d785068158c4df24f7b44dfe905d52aa1", "0.13.2--py_0": "sha256:cc91a480851ed04d1a20d7f2d5ae04fa5ee8e00d9255a018c6cb7f68cf5d74d0"}, "docker": "quay.io/biocontainers/pybel", "aliases": {"geoff": "/usr/local/bin/geoff", "neokit": "/usr/local/bin/neokit", "p2n": "/usr/local/bin/p2n", "py2neo": "/usr/local/bin/py2neo", "pybel": "/usr/local/bin/pybel", "pyfiglet": "/usr/local/bin/pyfiglet", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "pygmentize": "/usr/local/bin/pygmentize", "chardetect": "/usr/local/bin/chardetect", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2"}}
+config: {"url": "https://biocontainers.pro/tools/pybel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybel", "latest": {"0.13.2--py_0": "sha256:96aa0170a3933d01b15c33b560ff49962f20e3705eab0346fde8d359e8f65162"}, "tags": {"0.9.3--py27_1": "sha256:07c178e0ea6aa307fa61abea3837145d3d72aec22cbb64f745bbc0593461fb59", "0.13.2--py_0": "sha256:96aa0170a3933d01b15c33b560ff49962f20e3705eab0346fde8d359e8f65162"}, "docker": "quay.io/biocontainers/pybel", "aliases": {"geoff": "/usr/local/bin/geoff", "neokit": "/usr/local/bin/neokit", "p2n": "/usr/local/bin/p2n", "py2neo": "/usr/local/bin/py2neo", "pybel": "/usr/local/bin/pybel", "pyfiglet": "/usr/local/bin/pyfiglet", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "pygmentize": "/usr/local/bin/pygmentize", "chardetect": "/usr/local/bin/chardetect", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybel.

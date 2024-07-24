@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/python-tripal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-tripal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-tripal/container.yaml"
-updated_at: "2024-07-23 02:58:19.086763"
+updated_at: "2024-07-24 02:58:25.593361"
 latest: "3.2.1--py_0"
 container_url: "https://biocontainers.pro/tools/python-tripal"
 
 versions:
  - "3.2.1--py_0"
 description: "shpc-registry automated BioContainers addition for python-tripal"
-config: {"url": "https://biocontainers.pro/tools/python-tripal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-tripal", "latest": {"3.2.1--py_0": "sha256:93a9ef6568e8f41f705729406ec3da0cf9b193a809e6b27389d91bf07ab0cfe4"}, "tags": {"3.2.1--py_0": "sha256:93a9ef6568e8f41f705729406ec3da0cf9b193a809e6b27389d91bf07ab0cfe4"}, "docker": "quay.io/biocontainers/python-tripal"}
+config: {"url": "https://biocontainers.pro/tools/python-tripal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-tripal", "latest": {"3.2.1--py_0": "sha256:6373d42c656cfafa7ad80324bbe02d866875a6b43be40e594a3627ad53aab450"}, "tags": {"3.2.1--py_0": "sha256:6373d42c656cfafa7ad80324bbe02d866875a6b43be40e594a3627ad53aab450"}, "docker": "quay.io/biocontainers/python-tripal"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-tripal.

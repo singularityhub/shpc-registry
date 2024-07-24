@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tsrchitect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tsrchitect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tsrchitect/container.yaml"
-updated_at: "2024-07-23 02:42:28.101577"
+updated_at: "2024-07-24 02:42:28.279349"
 latest: "1.20.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tsrchitect"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "1.14.0--r40_0"
  - "1.12.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tsrchitect"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tsrchitect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tsrchitect", "latest": {"1.20.0--r41hdfd78af_0": "sha256:f3c060104205cfc84e8d8c8f0d1647b20c19c1904abca7377a0cdb73f4cae5b2"}, "tags": {"1.8.9--r351_0": "sha256:1c160bb0ad3c58b5bf36e3b96459b402476cc9c219de9b2981a39db2410decfc", "1.20.0--r41hdfd78af_0": "sha256:f3c060104205cfc84e8d8c8f0d1647b20c19c1904abca7377a0cdb73f4cae5b2", "1.18.0--r41hdfd78af_0": "sha256:822b92d0b7bff889fe66072f665a58fc23a87b442f4bd76cb665fb3561925fd1", "1.16.0--r40hdfd78af_1": "sha256:fb044dd5cf6f86abe3ce8702af91e952dade63619003b72817da17bd66a047dc", "1.14.0--r40_0": "sha256:ace03288d4e015a300df3d84c2f443af287656a478a4e7e42116f849726e8b8a", "1.12.0--r36_0": "sha256:433cc5cdf77e7fd92150b166370b1996fc48c3ca3c2ad4b0254d916e0d9ec180"}, "docker": "quay.io/biocontainers/bioconductor-tsrchitect", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tsrchitect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tsrchitect", "latest": {"1.20.0--r41hdfd78af_0": "sha256:f3c060104205cfc84e8d8c8f0d1647b20c19c1904abca7377a0cdb73f4cae5b2"}, "tags": {"1.8.9--r351_0": "sha256:278f033baf2452044c1a3c9082566eb3df6aa7dc8d08a74b50a88b7a07f17686", "1.20.0--r41hdfd78af_0": "sha256:f3c060104205cfc84e8d8c8f0d1647b20c19c1904abca7377a0cdb73f4cae5b2", "1.18.0--r41hdfd78af_0": "sha256:822b92d0b7bff889fe66072f665a58fc23a87b442f4bd76cb665fb3561925fd1", "1.16.0--r40hdfd78af_1": "sha256:fb044dd5cf6f86abe3ce8702af91e952dade63619003b72817da17bd66a047dc", "1.14.0--r40_0": "sha256:ace03288d4e015a300df3d84c2f443af287656a478a4e7e42116f849726e8b8a", "1.12.0--r36_0": "sha256:75c6838cf28055459811628523d7b876daabbc571c68cd00fe15d980c08e02c6"}, "docker": "quay.io/biocontainers/bioconductor-tsrchitect", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tsrchitect.

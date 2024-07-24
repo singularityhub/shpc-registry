@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biocversion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocversion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocversion/container.yaml"
-updated_at: "2024-07-23 02:47:25.514885"
+updated_at: "2024-07-24 02:47:21.315386"
 latest: "3.18.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocversion"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "3.17.1--r43hdfd78af_0"
  - "3.18.1--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-biocversion"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biocversion", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocversion", "latest": {"3.18.1--r43hdfd78af_0": "sha256:5a08e640952862bc69aedc237d58c7f1f007aa6074a0f5455b97fa550ae63652"}, "tags": {"3.9.0--r36_1": "sha256:fdcaa0698da552cbbd9b00b5e0919489f2d56353609bb8802a8604646fbf0c61", "3.16.0--r42hdfd78af_0": "sha256:9325edeadeeb99f5e8f8104273279187754f140798a8af9faa38bba3c7013c7a", "3.14.0--r41hdfd78af_0": "sha256:f251340bb1c87565f3be082a92c0c488f08e406186c668a4299547ba666f921b", "3.13.1--r41hdfd78af_0": "sha256:70c18d41b951f9627789d7a4f84688103ec207781978091eab7c62f311bc5ee6", "3.12.0--r40hdfd78af_1": "sha256:e4463ec58d876e8080f5760d03d2870f724031cb4956fea54e35bc525dd298fb", "3.11.1--r40_0": "sha256:c901a6d40cc5afbb4f9b4e40878ba084b582e95b637968452d04556cf62419f7", "3.17.1--r43hdfd78af_0": "sha256:8b5f05d8a7d8f1a3796bb7746639ec70457b530c43e9fd857c94aa492047c02c", "3.18.1--r43hdfd78af_0": "sha256:5a08e640952862bc69aedc237d58c7f1f007aa6074a0f5455b97fa550ae63652"}, "docker": "quay.io/biocontainers/bioconductor-biocversion", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biocversion", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocversion", "latest": {"3.18.1--r43hdfd78af_0": "sha256:5a08e640952862bc69aedc237d58c7f1f007aa6074a0f5455b97fa550ae63652"}, "tags": {"3.9.0--r36_1": "sha256:d1168b047961ee67955a35e1eebcbd8202095f2a51e38341baffaa6617f4e969", "3.16.0--r42hdfd78af_0": "sha256:9325edeadeeb99f5e8f8104273279187754f140798a8af9faa38bba3c7013c7a", "3.14.0--r41hdfd78af_0": "sha256:f251340bb1c87565f3be082a92c0c488f08e406186c668a4299547ba666f921b", "3.13.1--r41hdfd78af_0": "sha256:70c18d41b951f9627789d7a4f84688103ec207781978091eab7c62f311bc5ee6", "3.12.0--r40hdfd78af_1": "sha256:e4463ec58d876e8080f5760d03d2870f724031cb4956fea54e35bc525dd298fb", "3.11.1--r40_0": "sha256:c901a6d40cc5afbb4f9b4e40878ba084b582e95b637968452d04556cf62419f7", "3.17.1--r43hdfd78af_0": "sha256:8b5f05d8a7d8f1a3796bb7746639ec70457b530c43e9fd857c94aa492047c02c", "3.18.1--r43hdfd78af_0": "sha256:5a08e640952862bc69aedc237d58c7f1f007aa6074a0f5455b97fa550ae63652"}, "docker": "quay.io/biocontainers/bioconductor-biocversion", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biocversion.

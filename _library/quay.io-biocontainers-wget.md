@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wget/container.yaml"
-updated_at: "2024-07-23 03:18:34.915534"
+updated_at: "2024-07-24 03:18:19.228816"
 latest: "1.21.4"
 container_url: "https://biocontainers.pro/tools/wget"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "1.20.1"
  - "1.21.4"
 description: "shpc-registry automated BioContainers addition for wget"
-config: {"url": "https://biocontainers.pro/tools/wget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wget", "latest": {"1.21.4": "sha256:ff07d6bcfaeb5a906b3a7bad41a00187b7e90a7b271ff982136208191fc1bd52"}, "tags": {"1.20.1": "sha256:e8cecf9a14fbf12ad6beecf461dc80244e5f60f1ac2a91d80e61ee93f7c92881", "1.21.4": "sha256:ff07d6bcfaeb5a906b3a7bad41a00187b7e90a7b271ff982136208191fc1bd52"}, "docker": "quay.io/biocontainers/wget", "aliases": {"wget": "/usr/local/bin/wget", "idn2": "/usr/local/bin/idn2"}}
+config: {"url": "https://biocontainers.pro/tools/wget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wget", "latest": {"1.21.4": "sha256:ff07d6bcfaeb5a906b3a7bad41a00187b7e90a7b271ff982136208191fc1bd52"}, "tags": {"1.20.1": "sha256:7e5ba9e87a25c43cafea117ca3f3a7b4f6126115449b501c77b44d1fbf2c7a18", "1.21.4": "sha256:ff07d6bcfaeb5a906b3a7bad41a00187b7e90a7b271ff982136208191fc1bd52"}, "docker": "quay.io/biocontainers/wget", "aliases": {"wget": "/usr/local/bin/wget", "idn2": "/usr/local/bin/idn2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wget.

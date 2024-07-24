@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/velocyto.py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/velocyto.py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/velocyto.py/container.yaml"
-updated_at: "2024-07-23 02:48:55.487800"
+updated_at: "2024-07-24 02:48:53.663548"
 latest: "0.17.17--py311h1abe8b6_7"
 container_url: "https://biocontainers.pro/tools/velocyto.py"
 aliases:
@@ -25,8 +25,9 @@ versions:
  - "0.17.17--py310hd6be1da_6"
  - "0.17.17--py38h24c8ff8_6"
  - "0.17.17--py311h1abe8b6_7"
+ - "0.17.17--py310h581d4b6_7"
 description: "shpc-registry automated BioContainers addition for velocyto.py"
-config: {"url": "https://biocontainers.pro/tools/velocyto.py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for velocyto.py", "latest": {"0.17.17--py311h1abe8b6_7": "sha256:1130c88e6011963e3bdb84dedb14d2b3ce95e4ad20ae6319d7eac0be13014e3e"}, "tags": {"0.17.17--py38h17adfb0_5": "sha256:04a16c2f7ee50cd0880d04bb1d4982fcf3ee723d9195a38affa9275c13854a6a", "0.17.17--py310hd6be1da_6": "sha256:9f2f080dc7b7853d33641d717fb4831b0d70f255b067384d523896c85ec8edc3", "0.17.17--py38h24c8ff8_6": "sha256:0420ef590add647e6fb272998626d980eb59c2054ed2083b8237e650a8bae0d5", "0.17.17--py311h1abe8b6_7": "sha256:1130c88e6011963e3bdb84dedb14d2b3ce95e4ad20ae6319d7eac0be13014e3e"}, "docker": "quay.io/biocontainers/velocyto.py", "aliases": {"loompy": "/usr/local/bin/loompy", "velocyto": "/usr/local/bin/velocyto", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl"}}
+config: {"url": "https://biocontainers.pro/tools/velocyto.py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for velocyto.py", "latest": {"0.17.17--py311h1abe8b6_7": "sha256:1130c88e6011963e3bdb84dedb14d2b3ce95e4ad20ae6319d7eac0be13014e3e"}, "tags": {"0.17.17--py38h17adfb0_5": "sha256:04a16c2f7ee50cd0880d04bb1d4982fcf3ee723d9195a38affa9275c13854a6a", "0.17.17--py310hd6be1da_6": "sha256:9f2f080dc7b7853d33641d717fb4831b0d70f255b067384d523896c85ec8edc3", "0.17.17--py38h24c8ff8_6": "sha256:0420ef590add647e6fb272998626d980eb59c2054ed2083b8237e650a8bae0d5", "0.17.17--py311h1abe8b6_7": "sha256:1130c88e6011963e3bdb84dedb14d2b3ce95e4ad20ae6319d7eac0be13014e3e", "0.17.17--py310h581d4b6_7": "sha256:58ba0f4caededddb42bbdca2299bce99694b716e22df334ae48ea80369fadd72"}, "docker": "quay.io/biocontainers/velocyto.py", "aliases": {"loompy": "/usr/local/bin/loompy", "velocyto": "/usr/local/bin/velocyto", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/velocyto.py.

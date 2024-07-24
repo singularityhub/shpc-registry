@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/schema"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/schema/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/schema/container.yaml"
-updated_at: "2024-07-23 02:45:30.457882"
+updated_at: "2024-07-24 02:45:26.020007"
 latest: "0.7.0--py_0"
 container_url: "https://biocontainers.pro/tools/schema"
 
 versions:
  - "0.7.0--py_0"
 description: "shpc-registry automated BioContainers addition for schema"
-config: {"url": "https://biocontainers.pro/tools/schema", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for schema", "latest": {"0.7.0--py_0": "sha256:f161eca367d38fef9c3977d14da0fd9e15f78c146703ed60205dcdad5ef47973"}, "tags": {"0.7.0--py_0": "sha256:f161eca367d38fef9c3977d14da0fd9e15f78c146703ed60205dcdad5ef47973"}, "docker": "quay.io/biocontainers/schema"}
+config: {"url": "https://biocontainers.pro/tools/schema", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for schema", "latest": {"0.7.0--py_0": "sha256:095051d8f2a0ae118b10a20ee788f8ff93db6ac758ecafc800661aeb2ac2a41e"}, "tags": {"0.7.0--py_0": "sha256:095051d8f2a0ae118b10a20ee788f8ff93db6ac758ecafc800661aeb2ac2a41e"}, "docker": "quay.io/biocontainers/schema"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/schema.

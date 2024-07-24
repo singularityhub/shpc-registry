@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xopen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xopen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xopen/container.yaml"
-updated_at: "2024-07-23 02:39:17.393165"
+updated_at: "2024-07-24 02:39:24.017310"
 latest: "0.7.3--py_0"
 container_url: "https://biocontainers.pro/tools/xopen"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.7.3--py_0"
 description: "shpc-registry automated BioContainers addition for xopen"
-config: {"url": "https://biocontainers.pro/tools/xopen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xopen", "latest": {"0.7.3--py_0": "sha256:f55e110c751adf0f3aae0905d0ed7a85caf4ef5bff01e718e02c41037c0b1274"}, "tags": {"0.7.3--py_0": "sha256:f55e110c751adf0f3aae0905d0ed7a85caf4ef5bff01e718e02c41037c0b1274"}, "docker": "quay.io/biocontainers/xopen", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/xopen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xopen", "latest": {"0.7.3--py_0": "sha256:0cefab3d55e4418b947516724bb1a28ddd45f6c889108de7d34c0bcd357c9462"}, "tags": {"0.7.3--py_0": "sha256:0cefab3d55e4418b947516724bb1a28ddd45f6c889108de7d34c0bcd357c9462"}, "docker": "quay.io/biocontainers/xopen", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xopen.

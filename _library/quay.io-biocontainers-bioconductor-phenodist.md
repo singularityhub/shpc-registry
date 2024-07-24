@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-phenodist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phenodist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phenodist/container.yaml"
-updated_at: "2024-07-23 03:14:40.954662"
+updated_at: "2024-07-24 03:14:29.013395"
 latest: "1.27.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phenodist"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.27.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-phenodist"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-phenodist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phenodist", "latest": {"1.27.0--r351_0": "sha256:87d895a8348c4944942163ff16ec8bb5a8b9e64c73ec4fa5ac2904c3b7c711f4"}, "tags": {"1.27.0--r351_0": "sha256:87d895a8348c4944942163ff16ec8bb5a8b9e64c73ec4fa5ac2904c3b7c711f4"}, "docker": "quay.io/biocontainers/bioconductor-phenodist", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-phenodist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phenodist", "latest": {"1.27.0--r351_0": "sha256:5c4a4770032b34072a6a5b9f18ee8e27a5e2f5ce483cbc063b7c46dd3f5c805f"}, "tags": {"1.27.0--r351_0": "sha256:5c4a4770032b34072a6a5b9f18ee8e27a5e2f5ce483cbc063b7c46dd3f5c805f"}, "docker": "quay.io/biocontainers/bioconductor-phenodist", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-phenodist.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minialign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minialign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minialign/container.yaml"
-updated_at: "2024-07-23 03:05:47.588255"
+updated_at: "2024-07-24 03:05:47.576351"
 latest: "0.5.3--1"
 container_url: "https://biocontainers.pro/tools/minialign"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "0.5.3--1"
 description: "shpc-registry automated BioContainers addition for minialign"
-config: {"url": "https://biocontainers.pro/tools/minialign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minialign", "latest": {"0.5.3--1": "sha256:80fcc5ff9f4b49cda4e3dfa946a4a6c951382e12155d3e6c09f80ccf255e9f25"}, "tags": {"0.5.3--1": "sha256:80fcc5ff9f4b49cda4e3dfa946a4a6c951382e12155d3e6c09f80ccf255e9f25"}, "docker": "quay.io/biocontainers/minialign", "aliases": {"minialign": "/usr/local/bin/minialign"}}
+config: {"url": "https://biocontainers.pro/tools/minialign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minialign", "latest": {"0.5.3--1": "sha256:86cd5b148280d613debc15c44fdf8657ad3bdad2adbbf3c2535982ce1cec4a49"}, "tags": {"0.5.3--1": "sha256:86cd5b148280d613debc15c44fdf8657ad3bdad2adbbf3c2535982ce1cec4a49"}, "docker": "quay.io/biocontainers/minialign", "aliases": {"minialign": "/usr/local/bin/minialign"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/minialign.

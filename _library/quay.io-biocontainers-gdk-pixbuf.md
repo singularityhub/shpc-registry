@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gdk-pixbuf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gdk-pixbuf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gdk-pixbuf/container.yaml"
-updated_at: "2024-07-23 03:09:38.204021"
+updated_at: "2024-07-24 03:09:32.837383"
 latest: "2.32.2--1"
 container_url: "https://biocontainers.pro/tools/gdk-pixbuf"
 aliases:
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "2.32.2--1"
 description: "shpc-registry automated BioContainers addition for gdk-pixbuf"
-config: {"url": "https://biocontainers.pro/tools/gdk-pixbuf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gdk-pixbuf", "latest": {"2.32.2--1": "sha256:5b90a51114c487ae83bdb683270c012a5de4c5e66f2453eec7708e5551af33b5"}, "tags": {"2.32.2--1": "sha256:5b90a51114c487ae83bdb683270c012a5de4c5e66f2453eec7708e5551af33b5"}, "docker": "quay.io/biocontainers/gdk-pixbuf", "aliases": {"gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner"}}
+config: {"url": "https://biocontainers.pro/tools/gdk-pixbuf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gdk-pixbuf", "latest": {"2.32.2--1": "sha256:ed07d1c72c7e974732ed45715a7ebf73659efb40e6bab13e36f93de66a7b0cea"}, "tags": {"2.32.2--1": "sha256:ed07d1c72c7e974732ed45715a7ebf73659efb40e6bab13e36f93de66a7b0cea"}, "docker": "quay.io/biocontainers/gdk-pixbuf", "aliases": {"gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gdk-pixbuf.

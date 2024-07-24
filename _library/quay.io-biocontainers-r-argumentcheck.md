@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-argumentcheck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-argumentcheck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-argumentcheck/container.yaml"
-updated_at: "2024-07-23 02:44:57.073152"
+updated_at: "2024-07-24 02:44:53.552196"
 latest: "0.10.2--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-argumentcheck"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "0.10.2--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-argumentcheck"
-config: {"url": "https://biocontainers.pro/tools/r-argumentcheck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-argumentcheck", "latest": {"0.10.2--r3.4.1_0": "sha256:e04e51c1d55b74491ca826a41bc5869de40b155564036d28329c122e085f788d"}, "tags": {"0.10.2--r3.4.1_0": "sha256:e04e51c1d55b74491ca826a41bc5869de40b155564036d28329c122e085f788d"}, "docker": "quay.io/biocontainers/r-argumentcheck", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-argumentcheck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-argumentcheck", "latest": {"0.10.2--r3.4.1_0": "sha256:0a95a78e81dbc4abee029a7447dba089fbb193094b126e9e4a11229b664849fe"}, "tags": {"0.10.2--r3.4.1_0": "sha256:0a95a78e81dbc4abee029a7447dba089fbb193094b126e9e4a11229b664849fe"}, "docker": "quay.io/biocontainers/r-argumentcheck", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-argumentcheck.

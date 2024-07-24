@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gispa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gispa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gispa/container.yaml"
-updated_at: "2024-07-23 03:19:55.545073"
+updated_at: "2024-07-24 03:19:38.161767"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gispa"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gispa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gispa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gispa", "latest": {"1.26.0--r43hdfd78af_0": "sha256:6b5f3e9066bb05c1d36d8e2d35730cd5d713b29ce0ad30704756ce9076dbae31"}, "tags": {"1.8.0--r36_1": "sha256:c39cb2413aadf39e45934f8183e27e4a40fe83d098482c9e9bfa9928f8aa429e", "1.22.0--r42hdfd78af_0": "sha256:bf95ea75833edeacf277924acf3be70d45ba17561ddeef5dfdd828e1aeeb33b3", "1.18.0--r41hdfd78af_0": "sha256:4cafc5b71b182c10f0750f81797fe4c2ecefe019fd86ce54d46ce58adb5d679f", "1.16.0--r41hdfd78af_0": "sha256:ab12f116db3e74136b12d70b039b5c7cbd28422e1d8d8f8fdace3ac30f80b69d", "1.14.0--r40hdfd78af_1": "sha256:93d339a274fea6f221b295bce529ec0de744a3a4f2a0744b714bf9bcde03da13", "1.12.0--r40_0": "sha256:631efe5a01bc860bb858a38326da1feefb95a6bc2f860cda7e3329d9f06925cf", "1.24.0--r43hdfd78af_0": "sha256:ddde1f0c0b9b2ff82ae240ae765f3946963dbc151e1569620214eef9d1070e0e", "1.26.0--r43hdfd78af_0": "sha256:6b5f3e9066bb05c1d36d8e2d35730cd5d713b29ce0ad30704756ce9076dbae31"}, "docker": "quay.io/biocontainers/bioconductor-gispa", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gispa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gispa", "latest": {"1.26.0--r43hdfd78af_0": "sha256:6b5f3e9066bb05c1d36d8e2d35730cd5d713b29ce0ad30704756ce9076dbae31"}, "tags": {"1.8.0--r36_1": "sha256:52d7ae5203f82615673f63fa43298ceead9654139310eeb89a2191683dd3e369", "1.22.0--r42hdfd78af_0": "sha256:bf95ea75833edeacf277924acf3be70d45ba17561ddeef5dfdd828e1aeeb33b3", "1.18.0--r41hdfd78af_0": "sha256:4cafc5b71b182c10f0750f81797fe4c2ecefe019fd86ce54d46ce58adb5d679f", "1.16.0--r41hdfd78af_0": "sha256:ab12f116db3e74136b12d70b039b5c7cbd28422e1d8d8f8fdace3ac30f80b69d", "1.14.0--r40hdfd78af_1": "sha256:93d339a274fea6f221b295bce529ec0de744a3a4f2a0744b714bf9bcde03da13", "1.12.0--r40_0": "sha256:631efe5a01bc860bb858a38326da1feefb95a6bc2f860cda7e3329d9f06925cf", "1.24.0--r43hdfd78af_0": "sha256:ddde1f0c0b9b2ff82ae240ae765f3946963dbc151e1569620214eef9d1070e0e", "1.26.0--r43hdfd78af_0": "sha256:6b5f3e9066bb05c1d36d8e2d35730cd5d713b29ce0ad30704756ce9076dbae31"}, "docker": "quay.io/biocontainers/bioconductor-gispa", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gispa.

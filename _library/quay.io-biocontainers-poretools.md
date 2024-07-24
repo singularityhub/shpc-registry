@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/poretools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poretools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poretools/container.yaml"
-updated_at: "2024-07-23 03:01:24.258750"
+updated_at: "2024-07-24 03:01:31.014050"
 latest: "0.6.1a1--py_8"
 container_url: "https://biocontainers.pro/tools/poretools"
 
 versions:
  - "0.6.1a1--py_8"
 description: "shpc-registry automated BioContainers addition for poretools"
-config: {"url": "https://biocontainers.pro/tools/poretools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for poretools", "latest": {"0.6.1a1--py_8": "sha256:3c89ebbb05e8885ad5886437bf4771e0a1c4204a260528742f497e3c9fcb8bc3"}, "tags": {"0.6.1a1--py_8": "sha256:3c89ebbb05e8885ad5886437bf4771e0a1c4204a260528742f497e3c9fcb8bc3"}, "docker": "quay.io/biocontainers/poretools"}
+config: {"url": "https://biocontainers.pro/tools/poretools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for poretools", "latest": {"0.6.1a1--py_8": "sha256:9d6205e51218b9a96bd3fa204ede04eb1df0f11d5288844cc00aa85d085d79e7"}, "tags": {"0.6.1a1--py_8": "sha256:9d6205e51218b9a96bd3fa204ede04eb1df0f11d5288844cc00aa85d085d79e7"}, "docker": "quay.io/biocontainers/poretools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/poretools.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sampleclassifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sampleclassifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sampleclassifier/container.yaml"
-updated_at: "2024-07-23 03:10:22.606878"
+updated_at: "2024-07-24 03:10:16.763984"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sampleclassifier"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sampleclassifier"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sampleclassifier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sampleclassifier", "latest": {"1.26.0--r43hdfd78af_0": "sha256:0dc14f54c054f7a83d73a7489162d0574453c52a26555a9c7696e1c7781ab693"}, "tags": {"1.8.0--r36_1": "sha256:ab1961229dc711f2e71353c1c355d9793411553359a383c39fd180195b6f6c4e", "1.22.0--r42hdfd78af_0": "sha256:a8d7c00b31bbcc1ff69976ba4a6d8579b33df1d4a762af3360fb18153a65e6e5", "1.18.0--r41hdfd78af_0": "sha256:99413830bd0472d9f29ec67bc5c5e1e41781a841d8b769fcccb4ef59daa26529", "1.16.0--r41hdfd78af_0": "sha256:02d2d0d06677d3621b4dc40189afeb326dea717f36edda23efb3e02ca7e4bd09", "1.11.0--r40_0": "sha256:19da9bad68411a2f00f8a8cb2a0eedfb3c9e9dcce021b654eba40824ed450dfd", "1.10.0--r36_0": "sha256:6a35cc8973ee0552bdb736e3e720aa7fd29435079d01f716b831a9dd698625bf", "1.24.0--r43hdfd78af_0": "sha256:81b34ae1237d4aa8a2ad8d2a143402f8162ff7b781c04325bdb8ca33ea1f748a", "1.26.0--r43hdfd78af_0": "sha256:0dc14f54c054f7a83d73a7489162d0574453c52a26555a9c7696e1c7781ab693"}, "docker": "quay.io/biocontainers/bioconductor-sampleclassifier", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sampleclassifier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sampleclassifier", "latest": {"1.26.0--r43hdfd78af_0": "sha256:0dc14f54c054f7a83d73a7489162d0574453c52a26555a9c7696e1c7781ab693"}, "tags": {"1.8.0--r36_1": "sha256:06f9650c7c4b5320a0834e61111f3c35ef9939be08337f92c3e6d2df410c36d4", "1.22.0--r42hdfd78af_0": "sha256:a8d7c00b31bbcc1ff69976ba4a6d8579b33df1d4a762af3360fb18153a65e6e5", "1.18.0--r41hdfd78af_0": "sha256:99413830bd0472d9f29ec67bc5c5e1e41781a841d8b769fcccb4ef59daa26529", "1.16.0--r41hdfd78af_0": "sha256:02d2d0d06677d3621b4dc40189afeb326dea717f36edda23efb3e02ca7e4bd09", "1.11.0--r40_0": "sha256:19da9bad68411a2f00f8a8cb2a0eedfb3c9e9dcce021b654eba40824ed450dfd", "1.10.0--r36_0": "sha256:877a59e3ddf1883615e940b9d4a66d744d062af34de48e19a13dbfc4a7e62962", "1.24.0--r43hdfd78af_0": "sha256:81b34ae1237d4aa8a2ad8d2a143402f8162ff7b781c04325bdb8ca33ea1f748a", "1.26.0--r43hdfd78af_0": "sha256:0dc14f54c054f7a83d73a7489162d0574453c52a26555a9c7696e1c7781ab693"}, "docker": "quay.io/biocontainers/bioconductor-sampleclassifier", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sampleclassifier.

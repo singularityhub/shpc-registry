@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dynamictreecut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dynamictreecut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dynamictreecut/container.yaml"
-updated_at: "2024-07-23 03:23:38.089015"
+updated_at: "2024-07-24 03:23:13.038445"
 latest: "1.63_1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-dynamictreecut"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.63_1--r3.4.1_0"
+ - "1.63_1--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-dynamictreecut"
-config: {"url": "https://biocontainers.pro/tools/r-dynamictreecut", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dynamictreecut", "latest": {"1.63_1--r3.4.1_0": "sha256:351628b4196c0d1954f32924167b119464cd6aa8cc552607f00b9384c7652401"}, "tags": {"1.63_1--r3.4.1_0": "sha256:351628b4196c0d1954f32924167b119464cd6aa8cc552607f00b9384c7652401"}, "docker": "quay.io/biocontainers/r-dynamictreecut", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-dynamictreecut", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dynamictreecut", "latest": {"1.63_1--r3.4.1_0": "sha256:e3955b62e7d2b524e3d823a80b42bf3e7cc4d3ed3034123a58fa11c62517a08e"}, "tags": {"1.63_1--r3.4.1_0": "sha256:e3955b62e7d2b524e3d823a80b42bf3e7cc4d3ed3034123a58fa11c62517a08e", "1.63_1--r3.3.1_0": "sha256:dbe536b0b90bb40bc9852105f9645fac4b8a3979e0061531ce1b5f77b90b5385"}, "docker": "quay.io/biocontainers/r-dynamictreecut", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dynamictreecut.

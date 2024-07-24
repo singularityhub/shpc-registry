@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/perl-symbol"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-symbol/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-symbol/container.yaml"
-updated_at: "2024-07-23 03:11:37.704499"
+updated_at: "2024-07-24 03:11:30.773480"
 latest: "1.07--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-symbol"
 
 versions:
  - "1.07--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-symbol"
-config: {"url": "https://biocontainers.pro/tools/perl-symbol", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-symbol", "latest": {"1.07--pl526_1": "sha256:0bc5b09d8e5be404aa105c0b83b0637200c1465a17747223933d2924c0cfdeba"}, "tags": {"1.07--pl526_1": "sha256:0bc5b09d8e5be404aa105c0b83b0637200c1465a17747223933d2924c0cfdeba"}, "docker": "quay.io/biocontainers/perl-symbol"}
+config: {"url": "https://biocontainers.pro/tools/perl-symbol", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-symbol", "latest": {"1.07--pl526_1": "sha256:288e837e7d32b002e846fc72c41bb39644f3767218397079496d6bf81ca3089e"}, "tags": {"1.07--pl526_1": "sha256:288e837e7d32b002e846fc72c41bb39644f3767218397079496d6bf81ca3089e"}, "docker": "quay.io/biocontainers/perl-symbol"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-symbol.

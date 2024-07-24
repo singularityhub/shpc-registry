@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metagene_annotator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metagene_annotator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metagene_annotator/container.yaml"
-updated_at: "2024-07-23 02:40:21.883951"
+updated_at: "2024-07-24 02:40:25.942741"
 latest: "1.0--h516909a_3"
 container_url: "https://biocontainers.pro/tools/metagene_annotator"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.0--h516909a_3"
 description: "shpc-registry automated BioContainers addition for metagene_annotator"
-config: {"url": "https://biocontainers.pro/tools/metagene_annotator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metagene_annotator", "latest": {"1.0--h516909a_3": "sha256:172cb46c1943f5ef8d5ac012690d7434604a07db2b68336c3b0823d8f2a6f2b0"}, "tags": {"1.0--h516909a_3": "sha256:172cb46c1943f5ef8d5ac012690d7434604a07db2b68336c3b0823d8f2a6f2b0"}, "docker": "quay.io/biocontainers/metagene_annotator", "aliases": {"mga": "/usr/local/bin/mga"}}
+config: {"url": "https://biocontainers.pro/tools/metagene_annotator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metagene_annotator", "latest": {"1.0--h516909a_3": "sha256:19fbee92f8bd0918748083d20f4af54a9a6e7393f4d79ab7100cc4386a4f8483"}, "tags": {"1.0--h516909a_3": "sha256:19fbee92f8bd0918748083d20f4af54a9a6e7393f4d79ab7100cc4386a4f8483"}, "docker": "quay.io/biocontainers/metagene_annotator", "aliases": {"mga": "/usr/local/bin/mga"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metagene_annotator.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dscr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dscr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dscr/container.yaml"
-updated_at: "2024-07-23 02:44:57.652321"
+updated_at: "2024-07-24 02:44:54.127759"
 latest: "2014.12.17--boost1.60_1"
 container_url: "https://biocontainers.pro/tools/dscr"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "2014.12.17--boost1.60_1"
 description: "shpc-registry automated BioContainers addition for dscr"
-config: {"url": "https://biocontainers.pro/tools/dscr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dscr", "latest": {"2014.12.17--boost1.60_1": "sha256:988bee0765e17cb85c3ee1cedb922439e47191fdacd64cb51d7a638e05b8befb"}, "tags": {"2014.12.17--boost1.60_1": "sha256:988bee0765e17cb85c3ee1cedb922439e47191fdacd64cb51d7a638e05b8befb"}, "docker": "quay.io/biocontainers/dscr", "aliases": {"dsrc": "/usr/local/bin/dsrc", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/dscr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dscr", "latest": {"2014.12.17--boost1.60_1": "sha256:370def0db596414278dae6a5fae66b96bb086f6529603399039a106d5b71c794"}, "tags": {"2014.12.17--boost1.60_1": "sha256:370def0db596414278dae6a5fae66b96bb086f6529603399039a106d5b71c794"}, "docker": "quay.io/biocontainers/dscr", "aliases": {"dsrc": "/usr/local/bin/dsrc", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dscr.

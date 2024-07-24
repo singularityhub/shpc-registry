@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/micropita"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/micropita/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/micropita/container.yaml"
-updated_at: "2024-07-23 03:03:06.972894"
+updated_at: "2024-07-24 03:03:10.584982"
 latest: "1.1.0--1"
 container_url: "https://biocontainers.pro/tools/micropita"
 
 versions:
  - "1.1.0--1"
 description: "shpc-registry automated BioContainers addition for micropita"
-config: {"url": "https://biocontainers.pro/tools/micropita", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for micropita", "latest": {"1.1.0--1": "sha256:d77cdd9a2b9967242c4fd1494e9dd1d7b9032622c9dccc26cacbde073b428a9a"}, "tags": {"1.1.0--1": "sha256:d77cdd9a2b9967242c4fd1494e9dd1d7b9032622c9dccc26cacbde073b428a9a"}, "docker": "quay.io/biocontainers/micropita"}
+config: {"url": "https://biocontainers.pro/tools/micropita", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for micropita", "latest": {"1.1.0--1": "sha256:bd2a2c212fd4ddd8f7c4325b57ef8014cb7ab6f24331fcf6bd8289629c176dcc"}, "tags": {"1.1.0--1": "sha256:bd2a2c212fd4ddd8f7c4325b57ef8014cb7ab6f24331fcf6bd8289629c176dcc"}, "docker": "quay.io/biocontainers/micropita"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/micropita.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snpomatic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snpomatic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snpomatic/container.yaml"
-updated_at: "2024-07-23 02:55:00.373510"
+updated_at: "2024-07-24 02:55:07.824210"
 latest: "1.0--h2d50403_1"
 container_url: "https://biocontainers.pro/tools/snpomatic"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.0--h2d50403_1"
 description: "shpc-registry automated BioContainers addition for snpomatic"
-config: {"url": "https://biocontainers.pro/tools/snpomatic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snpomatic", "latest": {"1.0--h2d50403_1": "sha256:67e92ac07f1adeb6b0f0b7562bdcb4e0eae778a0a3df3f6899f8851708d56e2d"}, "tags": {"1.0--h2d50403_1": "sha256:67e92ac07f1adeb6b0f0b7562bdcb4e0eae778a0a3df3f6899f8851708d56e2d"}, "docker": "quay.io/biocontainers/snpomatic", "aliases": {"findknownsnps": "/usr/local/bin/findknownsnps"}}
+config: {"url": "https://biocontainers.pro/tools/snpomatic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snpomatic", "latest": {"1.0--h2d50403_1": "sha256:25118a57af5272dbb5f857f5f8fc73bd62f3870badffc9621675e8c2a9ffbbc7"}, "tags": {"1.0--h2d50403_1": "sha256:25118a57af5272dbb5f857f5f8fc73bd62f3870badffc9621675e8c2a9ffbbc7"}, "docker": "quay.io/biocontainers/snpomatic", "aliases": {"findknownsnps": "/usr/local/bin/findknownsnps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snpomatic.

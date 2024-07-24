@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panx/container.yaml"
-updated_at: "2024-07-23 02:40:16.739557"
+updated_at: "2024-07-24 02:40:21.163814"
 latest: "1.6.0--py27_0"
 container_url: "https://biocontainers.pro/tools/panx"
 aliases:
@@ -27,7 +27,7 @@ aliases:
 versions:
  - "1.6.0--py27_0"
 description: "shpc-registry automated BioContainers addition for panx"
-config: {"url": "https://biocontainers.pro/tools/panx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for panx", "latest": {"1.6.0--py27_0": "sha256:07c58714d624590440defb27a33e0472ae3fda841f7afb4af0510c281b594ee4"}, "tags": {"1.6.0--py27_0": "sha256:07c58714d624590440defb27a33e0472ae3fda841f7afb4af0510c281b594ee4"}, "docker": "quay.io/biocontainers/panx", "aliases": {"FastTree.c": "/usr/local/bin/FastTree.c", "ancestral_reconstruction.py": "/usr/local/bin/ancestral_reconstruction.py", "ete": "/usr/local/bin/ete", "panX.py": "/usr/local/bin/panX.py", "temporal_signal.py": "/usr/local/bin/temporal_signal.py", "timetree_inference.py": "/usr/local/bin/timetree_inference.py", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray"}}
+config: {"url": "https://biocontainers.pro/tools/panx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for panx", "latest": {"1.6.0--py27_0": "sha256:667527b5f5fd3a2c3631a062e65d1eedd050af4982ca2e4cabee9aa8987d5a41"}, "tags": {"1.6.0--py27_0": "sha256:667527b5f5fd3a2c3631a062e65d1eedd050af4982ca2e4cabee9aa8987d5a41"}, "docker": "quay.io/biocontainers/panx", "aliases": {"FastTree.c": "/usr/local/bin/FastTree.c", "ancestral_reconstruction.py": "/usr/local/bin/ancestral_reconstruction.py", "ete": "/usr/local/bin/ete", "panX.py": "/usr/local/bin/panX.py", "temporal_signal.py": "/usr/local/bin/temporal_signal.py", "timetree_inference.py": "/usr/local/bin/timetree_inference.py", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/panx.

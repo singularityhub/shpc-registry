@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-unicode-map"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-unicode-map/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-unicode-map/container.yaml"
-updated_at: "2024-07-23 03:24:10.442737"
+updated_at: "2024-07-24 03:23:44.421514"
 latest: "0.112--pl5321h4ac6f70_7"
 container_url: "https://biocontainers.pro/tools/perl-unicode-map"
 aliases:
@@ -18,7 +18,7 @@ versions:
  - "0.112--pl5321h9f5acd7_5"
  - "0.112--pl5321h4ac6f70_7"
 description: "shpc-registry automated BioContainers addition for perl-unicode-map"
-config: {"url": "https://biocontainers.pro/tools/perl-unicode-map", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-unicode-map", "latest": {"0.112--pl5321h4ac6f70_7": "sha256:64b3413d9a3550408a57aaa2fab6d32b175e548eb597a66829fc423681b8a0fd"}, "tags": {"0.112--pl5321h9f5acd7_5": "sha256:6fb0bda7f3139697e6c6ef1ad63bddb3bb173c588a4145bff4fb068908e6f108", "0.112--pl5321h4ac6f70_7": "sha256:64b3413d9a3550408a57aaa2fab6d32b175e548eb597a66829fc423681b8a0fd"}, "docker": "quay.io/biocontainers/perl-unicode-map", "aliases": {"map": "/usr/local/bin/map", "mirrorMappings": "/usr/local/bin/mirrorMappings", "mkCSGB2312": "/usr/local/bin/mkCSGB2312", "mkmapfile": "/usr/local/bin/mkmapfile", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-unicode-map", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-unicode-map", "latest": {"0.112--pl5321h4ac6f70_7": "sha256:958ee97889023ab4eae14c4afd89c47afaa51fe34fae85a5a1d8dfa136c986fb"}, "tags": {"0.112--pl5321h9f5acd7_5": "sha256:6fb0bda7f3139697e6c6ef1ad63bddb3bb173c588a4145bff4fb068908e6f108", "0.112--pl5321h4ac6f70_7": "sha256:958ee97889023ab4eae14c4afd89c47afaa51fe34fae85a5a1d8dfa136c986fb"}, "docker": "quay.io/biocontainers/perl-unicode-map", "aliases": {"map": "/usr/local/bin/map", "mirrorMappings": "/usr/local/bin/mirrorMappings", "mkCSGB2312": "/usr/local/bin/mkCSGB2312", "mkmapfile": "/usr/local/bin/mkmapfile", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-unicode-map.

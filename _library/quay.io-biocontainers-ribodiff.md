@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ribodiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribodiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribodiff/container.yaml"
-updated_at: "2024-07-23 03:15:03.569498"
+updated_at: "2024-07-24 03:14:50.934635"
 latest: "0.2.2--py_2"
 container_url: "https://biocontainers.pro/tools/ribodiff"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.2.2--py_2"
 description: "shpc-registry automated BioContainers addition for ribodiff"
-config: {"url": "https://biocontainers.pro/tools/ribodiff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ribodiff", "latest": {"0.2.2--py_2": "sha256:9ada6e94089ca5790c608f6543c4fd1673c4a79676b9046b4986aab2e8848cc3"}, "tags": {"0.2.2--py_2": "sha256:9ada6e94089ca5790c608f6543c4fd1673c4a79676b9046b4986aab2e8848cc3"}, "docker": "quay.io/biocontainers/ribodiff", "aliases": {"TE.py": "/usr/local/bin/TE.py", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen", "qscxmlc": "/usr/local/bin/qscxmlc", "qtattributionsscanner": "/usr/local/bin/qtattributionsscanner", "repc": "/usr/local/bin/repc"}}
+config: {"url": "https://biocontainers.pro/tools/ribodiff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ribodiff", "latest": {"0.2.2--py_2": "sha256:c793b7b823c7a1465ba9fd6c59699b9e0eaf5a9dab6d1af27cbe33f25ce6db20"}, "tags": {"0.2.2--py_2": "sha256:c793b7b823c7a1465ba9fd6c59699b9e0eaf5a9dab6d1af27cbe33f25ce6db20"}, "docker": "quay.io/biocontainers/ribodiff", "aliases": {"TE.py": "/usr/local/bin/TE.py", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen", "qscxmlc": "/usr/local/bin/qscxmlc", "qtattributionsscanner": "/usr/local/bin/qtattributionsscanner", "repc": "/usr/local/bin/repc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ribodiff.

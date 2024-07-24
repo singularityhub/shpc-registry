@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-intramirexplorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-intramirexplorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-intramirexplorer/container.yaml"
-updated_at: "2024-07-23 02:36:54.484470"
+updated_at: "2024-07-24 02:37:05.394010"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-intramirexplorer"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-intramirexplorer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-intramirexplorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-intramirexplorer", "latest": {"1.24.0--r43hdfd78af_0": "sha256:fa147862169d4901a6cbbb86062336db4a4d9a8e2d638200f1c0a4013d39385b"}, "tags": {"1.8.0--r36_0": "sha256:75a4204f890dc897c6e4fc76b2a5edaa92c3b699e0153f194bf71abcef910aba", "1.20.0--r42hdfd78af_0": "sha256:316129c5429c796e36e4b59de14b29463279ebd2adaf144764631043f5069118", "1.16.0--r41hdfd78af_0": "sha256:cba9a6685eb0e813136ce52d0272b64bdfe945faa278ae48891253e6a3329e8f", "1.12.0--r40hdfd78af_1": "sha256:5ad974bd511f85be5c933ae5a37e0aeff490238187f8585c43af37d68eda1bf9", "1.10.0--r40_0": "sha256:6c535908a8999195222df4c16c0741a67524036be460eef385bd3aba0eca3d67", "1.22.0--r43hdfd78af_0": "sha256:b904f9b49e59399992d6aba3409f64ca90f8f7b884da54cdb6ed8f0b36c49055", "1.24.0--r43hdfd78af_0": "sha256:fa147862169d4901a6cbbb86062336db4a4d9a8e2d638200f1c0a4013d39385b"}, "docker": "quay.io/biocontainers/bioconductor-intramirexplorer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-intramirexplorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-intramirexplorer", "latest": {"1.24.0--r43hdfd78af_0": "sha256:fa147862169d4901a6cbbb86062336db4a4d9a8e2d638200f1c0a4013d39385b"}, "tags": {"1.8.0--r36_0": "sha256:7b4a19b1754fa80c2cce600c7bb327ea3abe104464eeb0675cf27e2422201adf", "1.20.0--r42hdfd78af_0": "sha256:316129c5429c796e36e4b59de14b29463279ebd2adaf144764631043f5069118", "1.16.0--r41hdfd78af_0": "sha256:cba9a6685eb0e813136ce52d0272b64bdfe945faa278ae48891253e6a3329e8f", "1.12.0--r40hdfd78af_1": "sha256:5ad974bd511f85be5c933ae5a37e0aeff490238187f8585c43af37d68eda1bf9", "1.10.0--r40_0": "sha256:6c535908a8999195222df4c16c0741a67524036be460eef385bd3aba0eca3d67", "1.22.0--r43hdfd78af_0": "sha256:b904f9b49e59399992d6aba3409f64ca90f8f7b884da54cdb6ed8f0b36c49055", "1.24.0--r43hdfd78af_0": "sha256:fa147862169d4901a6cbbb86062336db4a4d9a8e2d638200f1c0a4013d39385b"}, "docker": "quay.io/biocontainers/bioconductor-intramirexplorer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-intramirexplorer.

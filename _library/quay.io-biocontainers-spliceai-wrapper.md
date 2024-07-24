@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spliceai-wrapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spliceai-wrapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spliceai-wrapper/container.yaml"
-updated_at: "2024-07-23 02:50:23.504261"
+updated_at: "2024-07-24 02:50:25.216686"
 latest: "0.1.0--0"
 container_url: "https://biocontainers.pro/tools/spliceai-wrapper"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.1.0--0"
 description: "shpc-registry automated BioContainers addition for spliceai-wrapper"
-config: {"url": "https://biocontainers.pro/tools/spliceai-wrapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spliceai-wrapper", "latest": {"0.1.0--0": "sha256:b223dae229ab4615e45d5d15279a663a8f6802ef82e3e7f08454ff81c1da9bec"}, "tags": {"0.1.0--0": "sha256:b223dae229ab4615e45d5d15279a663a8f6802ef82e3e7f08454ff81c1da9bec"}, "docker": "quay.io/biocontainers/spliceai-wrapper", "aliases": {"spliceai": "/usr/local/bin/spliceai", "spliceai-wrapper": "/usr/local/bin/spliceai-wrapper", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "markdown_py": "/usr/local/bin/markdown_py"}}
+config: {"url": "https://biocontainers.pro/tools/spliceai-wrapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spliceai-wrapper", "latest": {"0.1.0--0": "sha256:916ac2a0319e6988683653a4d3e49b1eb71a9bc5c4c524cb92855aa8dd709ad2"}, "tags": {"0.1.0--0": "sha256:916ac2a0319e6988683653a4d3e49b1eb71a9bc5c4c524cb92855aa8dd709ad2"}, "docker": "quay.io/biocontainers/spliceai-wrapper", "aliases": {"spliceai": "/usr/local/bin/spliceai", "spliceai-wrapper": "/usr/local/bin/spliceai-wrapper", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "markdown_py": "/usr/local/bin/markdown_py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spliceai-wrapper.

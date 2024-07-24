@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/askocli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/askocli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/askocli/container.yaml"
-updated_at: "2024-07-23 02:39:28.818143"
+updated_at: "2024-07-24 02:39:35.068935"
 latest: "0.5--py_0"
 container_url: "https://biocontainers.pro/tools/askocli"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.5--py_0"
 description: "shpc-registry automated BioContainers addition for askocli"
-config: {"url": "https://biocontainers.pro/tools/askocli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for askocli", "latest": {"0.5--py_0": "sha256:3f708e1f25f8df6cb15b5cac94da894335440cb0e14b438bf6adc9c4bdeabbb1"}, "tags": {"0.5--py_0": "sha256:3f708e1f25f8df6cb15b5cac94da894335440cb0e14b438bf6adc9c4bdeabbb1"}, "docker": "quay.io/biocontainers/askocli", "aliases": {"askocli": "/usr/local/bin/askocli", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/askocli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for askocli", "latest": {"0.5--py_0": "sha256:c9911af73b8ec1be96ed60f2c1ecfe45b17b556d34ef3f8f3b3ae3da7438b203"}, "tags": {"0.5--py_0": "sha256:c9911af73b8ec1be96ed60f2c1ecfe45b17b556d34ef3f8f3b3ae3da7438b203"}, "docker": "quay.io/biocontainers/askocli", "aliases": {"askocli": "/usr/local/bin/askocli", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/askocli.
