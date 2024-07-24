@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/ratt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ratt
 latest:
-  1.0.3--0: sha256:35d16252b76add0043d5ed139a8fe49cc666bf662bb34d10333f793f6cc38381
+  1.0.3--0: sha256:82f26727785fd14ba6f515af3ea0f4a4e3116e9ba6d87f8168d60ba3e1c7a5cd
 tags:
-  1.0.3--0: sha256:35d16252b76add0043d5ed139a8fe49cc666bf662bb34d10333f793f6cc38381
+  1.0.3--0: sha256:82f26727785fd14ba6f515af3ea0f4a4e3116e9ba6d87f8168d60ba3e1c7a5cd
 docker: quay.io/biocontainers/ratt
 aliases:
   ratt: /usr/local/bin/ratt

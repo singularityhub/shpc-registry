@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/comparative-annotation-toolkit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for comparative-annotation-toolkit
 latest:
-  0.1--py_2: sha256:eced8ca5b7bb2dd4ad4bb0d2e1a089944f6b6c95ca6126ba1067a93f8075eb63
+  0.1--py_2: sha256:f17d1f9ec21688b972c26a9ca993ceb69126c1e09b53d8f29a15b36ad610b484
 tags:
-  0.1--py_2: sha256:eced8ca5b7bb2dd4ad4bb0d2e1a089944f6b6c95ca6126ba1067a93f8075eb63
+  0.1--py_2: sha256:f17d1f9ec21688b972c26a9ca993ceb69126c1e09b53d8f29a15b36ad610b484
 docker: quay.io/biocontainers/comparative-annotation-toolkit
 aliases:
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm

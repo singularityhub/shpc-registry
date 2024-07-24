@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/rna-cd
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rna-cd
 latest:
-  0.2.0--py_0: sha256:3f708d845e8ecbe4083e57dc87163e83827d77e996d6c674a7eb9caf5ca3a09a
+  0.2.0--py_0: sha256:07bd196ab6e8122155e3a3f407e144e76419840dc24d057b3ca45eecb8fe5e9c
 tags:
-  0.2.0--py_0: sha256:3f708d845e8ecbe4083e57dc87163e83827d77e996d6c674a7eb9caf5ca3a09a
+  0.2.0--py_0: sha256:07bd196ab6e8122155e3a3f407e144e76419840dc24d057b3ca45eecb8fe5e9c
 docker: quay.io/biocontainers/rna-cd
 aliases:
   rna_cd-classify: /usr/local/bin/rna_cd-classify

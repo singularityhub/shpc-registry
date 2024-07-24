@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-microseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-microseq
 latest:
-  1.2--r3.4.1_0: sha256:4d96e84d1bcb73236a47fc2faed19967e80dbd22731f93f14b9e67a6efdb3b1c
+  1.2--r3.4.1_0: sha256:9d63bf58adec37edd6508fe4cd618abe981df21ffec8249ebb6509c699bee2ab
 tags:
-  1.2--r3.4.1_0: sha256:4d96e84d1bcb73236a47fc2faed19967e80dbd22731f93f14b9e67a6efdb3b1c
+  1.2--r3.4.1_0: sha256:9d63bf58adec37edd6508fe4cd618abe981df21ffec8249ebb6509c699bee2ab
+  1.2--r3.3.2_0: sha256:7a5bacd9369c81ed230b3c944067638e69b3d637111f8c4494ef21ab61b449f1
 docker: quay.io/biocontainers/r-microseq
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

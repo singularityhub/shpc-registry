@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for dawg
 latest:
   2.0.beta1--h51a7c23_7: sha256:cd1bad8c40a5f6681ed3d087327a191895c5f76d2e7e073be67d5256f12ab23d
 tags:
-  2.0.beta1--gsl2.2_boost1.64_0: sha256:c9a0e424b18f4ff9a0ff59bf958fc0ae0ed856975f3fb8b71c1ce10737a016e1
+  2.0.beta1--gsl2.2_boost1.64_0: sha256:34d4bd7d44ad8d002f9b3857a0b8fe9bdfa3c6d1fe2a3eafa358bd535845c6f2
   2.0.beta1--h115756c_5: sha256:2725fafd2bd748b8a67ed495e8f801868eb7e06aa4a6c928ed8faac6cad93ad1
   2.0.beta1--h51a7c23_7: sha256:cd1bad8c40a5f6681ed3d087327a191895c5f76d2e7e073be67d5256f12ab23d
 docker: quay.io/biocontainers/dawg

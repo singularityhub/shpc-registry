@@ -2,10 +2,10 @@ url: https://biocontainers.pro/tools/r-transformer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-transformer
 latest:
-  0.2.12--r36_0: sha256:9d57134defcefef74ac30c8c94bdcbd4a2bce8da729d959ebb25f75a696aee1a
+  0.2.12--r36_0: sha256:b7949c074f40d3bf5ce48fda3d7bd26083b499b9df18b9a22f8450ade7df6fe9
 tags:
-  0.2.9--r36_0: sha256:8fcaabd88935aa7e787da3304b885e4bd2f2194c1faa502ccd98ba5481c081be
-  0.2.12--r36_0: sha256:9d57134defcefef74ac30c8c94bdcbd4a2bce8da729d959ebb25f75a696aee1a
+  0.2.9--r36_0: sha256:7401dc553186cb48903bba5df9bf9e0c4c3cbba31f6570a4d4b3bb4694d4e9d5
+  0.2.12--r36_0: sha256:b7949c074f40d3bf5ce48fda3d7bd26083b499b9df18b9a22f8450ade7df6fe9
 docker: quay.io/biocontainers/r-transformer
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

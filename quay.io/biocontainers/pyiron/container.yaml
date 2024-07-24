@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/pyiron
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyiron
 latest:
-  0.2.2: sha256:d996c07806a2dc6091480ecc77fd16beab18c56dbb1154145cca199c06879373
+  0.2.2: sha256:f015c2a333726b35d81077ded5353f46edf137008de1a99d1df92994eccfa8e1
 tags:
-  0.2.2: sha256:d996c07806a2dc6091480ecc77fd16beab18c56dbb1154145cca199c06879373
+  0.2.2: sha256:f015c2a333726b35d81077ded5353f46edf137008de1a99d1df92994eccfa8e1
 docker: quay.io/biocontainers/pyiron
 aliases:
   ase: /usr/local/bin/ase

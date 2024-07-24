@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-cellgrowth
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cellgrowth
 latest:
-  1.30.0--r36_0: sha256:c4aa988283b511af4b580d28a6368977880df2de16f2c6af2a62b998946632db
+  1.30.0--r36_0: sha256:988b105684ca4389f9faab662f6df9e29d1e7fcc60e7552b03b27a561e2d486a
 tags:
-  1.30.0--r36_0: sha256:c4aa988283b511af4b580d28a6368977880df2de16f2c6af2a62b998946632db
+  1.30.0--r36_0: sha256:988b105684ca4389f9faab662f6df9e29d1e7fcc60e7552b03b27a561e2d486a
 docker: quay.io/biocontainers/bioconductor-cellgrowth
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

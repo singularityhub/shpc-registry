@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/dammit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dammit
 latest:
-  1.2--pyh5ca1d4c_0: sha256:bde81c271f61ab186a856ada712efc605f69f78706e3384a70cd84bf2b98b6d2
+  1.2--pyh5ca1d4c_0: sha256:2531811181f0a30f0f1538e9394b601a6aa82d679cd8a8f456cf60656e8547f4
 tags:
-  1.2--pyh5ca1d4c_0: sha256:bde81c271f61ab186a856ada712efc605f69f78706e3384a70cd84bf2b98b6d2
+  1.2--pyh5ca1d4c_0: sha256:2531811181f0a30f0f1538e9394b601a6aa82d679cd8a8f456cf60656e8547f4
 docker: quay.io/biocontainers/dammit
 aliases:
   SplicedAlignment.pm: /usr/local/bin/SplicedAlignment.pm

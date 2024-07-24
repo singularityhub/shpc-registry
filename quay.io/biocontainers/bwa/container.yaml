@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/bwa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bwa
 latest:
-  0.7.18--he4a0461_0: sha256:a8ea7d74457b55395e35f1e4200e3ac4a44e3f7c4b361d7628da86cec2133e03
+  0.7.18--he4a0461_1: sha256:239581ff47177f05f40d82709cf4bb9f0b391a729e1e299b82c6516f04cb69a4
 tags:
   0.7.17--h7132678_9: sha256:07822e4293a8c59755b295c448b9541db6c9bdbfdedb010bdbdcc1e1e935370f
   0.7.17--h7132678_10: sha256:f9063141d8c5da87da76392b3a152b927b2913d47373f1874d76f14634b3f684
   0.7.17--he4a0461_11: sha256:652ca694adcb54ca799c22b843c086d570875ef14334a90ffeab0e1beb5f5741
   0.7.18--he4a0461_0: sha256:a8ea7d74457b55395e35f1e4200e3ac4a44e3f7c4b361d7628da86cec2133e03
+  0.7.18--he4a0461_1: sha256:239581ff47177f05f40d82709cf4bb9f0b391a729e1e299b82c6516f04cb69a4
 docker: quay.io/biocontainers/bwa
 aliases:
   bwa: /usr/local/bin/bwa

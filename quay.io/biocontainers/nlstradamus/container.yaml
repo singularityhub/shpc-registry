@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/nlstradamus
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nlstradamus
 latest:
-  1.8--h2d50403_1: sha256:02b6d6e2a40f1fd17eb64b9db71fa4a0d87a9922ce20987a1c20231a97393274
+  1.8--h2d50403_1: sha256:f612cd558fd8de8df0661873a35cf18a6698a44d266ab410561eb7de594446a8
 tags:
-  1.8--h2d50403_1: sha256:02b6d6e2a40f1fd17eb64b9db71fa4a0d87a9922ce20987a1c20231a97393274
+  1.8--h2d50403_1: sha256:f612cd558fd8de8df0661873a35cf18a6698a44d266ab410561eb7de594446a8
 docker: quay.io/biocontainers/nlstradamus
 aliases:
   NLStradamus: /usr/local/bin/NLStradamus

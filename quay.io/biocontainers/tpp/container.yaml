@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/tpp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tpp
 latest:
-  5.0.0--pl5.22.0_0: sha256:cf670ca462d82f7b8716e569c435b908108c78d72d6df33df3413d3f890e10d5
+  5.0.0--pl5.22.0_0: sha256:443d7995760c1e9f48b61bc753e43e654672d2a7b6b04635d866ee3dcd9f480a
 tags:
-  5.0.0--pl5.22.0_0: sha256:cf670ca462d82f7b8716e569c435b908108c78d72d6df33df3413d3f890e10d5
+  5.0.0--pl5.22.0_0: sha256:443d7995760c1e9f48b61bc753e43e654672d2a7b6b04635d866ee3dcd9f480a
 docker: quay.io/biocontainers/tpp
 aliases:
   ASAPRatioPeptideParser: /usr/local/bin/ASAPRatioPeptideParser

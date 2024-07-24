@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-extutils-config
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-extutils-config
 latest:
-  0.008--pl526_2: sha256:b6c9d71bc891370b293ec21cc0fa6235758d20cb2c63d9f8b4e4e56f4f8cb268
+  0.008--pl526_2: sha256:2ffa4f4aae9287140c4beb001f6094e019a027e8537ab88de8cba91f98203924
 tags:
-  0.008--pl526_2: sha256:b6c9d71bc891370b293ec21cc0fa6235758d20cb2c63d9f8b4e4e56f4f8cb268
+  0.008--pl526_2: sha256:2ffa4f4aae9287140c4beb001f6094e019a027e8537ab88de8cba91f98203924
 docker: quay.io/biocontainers/perl-extutils-config
 aliases:
   perl5.26.2: /usr/local/bin/perl5.26.2
