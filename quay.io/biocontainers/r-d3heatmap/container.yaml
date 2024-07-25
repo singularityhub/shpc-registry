@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-d3heatmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-d3heatmap
 latest:
-  0.6.1.1--r3.3.2_0: sha256:aaabfd55966767666467c9ca286b4bfc103bcd00cfe87a80e4112486fabb4837
+  0.6.1.1--r3.3.2_0: sha256:6fbd570e3284ddd58a566ecd9464578eaccb1cce20ed9f226552757717a03167
 tags:
-  0.6.1.1--r3.3.2_0: sha256:aaabfd55966767666467c9ca286b4bfc103bcd00cfe87a80e4112486fabb4837
+  0.6.1.1--r3.3.2_0: sha256:6fbd570e3284ddd58a566ecd9464578eaccb1cce20ed9f226552757717a03167
+  0.6.1.1--r3.3.1_0: sha256:378d9c19b1fe85c26f62b8b3e1b02d1a2b16ef8aceee63a9555ac6b7490acbfc
 docker: quay.io/biocontainers/r-d3heatmap
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-lol
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lol
 latest:
-  1.34.0--r36_0: sha256:45ad74a97e1fb9e16d8b1fb51776fb635ebe5d4ca5ac28d9fde37c64f9fdde2e
+  1.34.0--r36_0: sha256:c162613b5fdb848a5459e63b2bd46c988c942e15488e091436a207f81664b3a7
 tags:
-  1.34.0--r36_0: sha256:45ad74a97e1fb9e16d8b1fb51776fb635ebe5d4ca5ac28d9fde37c64f9fdde2e
+  1.34.0--r36_0: sha256:c162613b5fdb848a5459e63b2bd46c988c942e15488e091436a207f81664b3a7
 docker: quay.io/biocontainers/bioconductor-lol
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

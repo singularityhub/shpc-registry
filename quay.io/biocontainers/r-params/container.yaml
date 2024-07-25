@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-params
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-params
 latest:
-  0.4--r3.3.2_0: sha256:ff03043bb835d4b9e7a8ada66d27ddea54b6d5ef3bbd2df6b675faa3c6992b5d
+  0.4--r3.3.2_0: sha256:457798d48f5881cd7dda303bd59d6e40922ca64a0a84769a3d05d418af9250d0
 tags:
-  0.4--r3.3.2_0: sha256:ff03043bb835d4b9e7a8ada66d27ddea54b6d5ef3bbd2df6b675faa3c6992b5d
+  0.4--r3.3.2_0: sha256:457798d48f5881cd7dda303bd59d6e40922ca64a0a84769a3d05d418af9250d0
 docker: quay.io/biocontainers/r-params
 aliases:
   uconv: /usr/local/bin/uconv

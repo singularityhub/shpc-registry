@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/mvp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mvp
 latest:
-  0.4.3--1: sha256:c63f2dcc1a8a849ca00884ca57db8f44f3b54a6a873efd3c706eefbb064c141d
+  0.4.3--1: sha256:d7aef71f57e21669891da4f11002137286e01e9fd9cd881b9c3faa0bf8be6cfc
 tags:
-  0.4.3--1: sha256:c63f2dcc1a8a849ca00884ca57db8f44f3b54a6a873efd3c706eefbb064c141d
+  0.4.3--1: sha256:d7aef71f57e21669891da4f11002137286e01e9fd9cd881b9c3faa0bf8be6cfc
 docker: quay.io/biocontainers/mvp
 aliases:
   mvp: /usr/local/bin/mvp

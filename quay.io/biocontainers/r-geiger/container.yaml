@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-geiger
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-geiger
 latest:
-  2.0.6--r351h29659fb_3: sha256:a9f9186cd9f5358c99d3f661b2c5c6e28dcb8b29bbebb68ff9fbcee80023a2c6
+  2.0.6--r351h29659fb_3: sha256:341cf61590848616ace9f7351835463f10996b8f6090d29219edf4321b448e73
 tags:
-  2.0.6--r351h29659fb_3: sha256:a9f9186cd9f5358c99d3f661b2c5c6e28dcb8b29bbebb68ff9fbcee80023a2c6
+  2.0.6--r351h29659fb_3: sha256:341cf61590848616ace9f7351835463f10996b8f6090d29219edf4321b448e73
 docker: quay.io/biocontainers/r-geiger
 aliases:
   c89: /usr/local/bin/c89

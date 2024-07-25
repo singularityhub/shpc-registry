@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-htmlwidgets
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-htmlwidgets
 latest:
-  0.5--r3.3.2_0: sha256:7f0f20376d975615fac94eaacfbcbd9758a2011b0775b06796468c06bcb3c659
+  0.5--r3.3.2_0: sha256:98ae60fdeb213f2636dd0aabf05a95e1bd43ffaf518fe09c05935f7434f47852
 tags:
-  0.5--r3.3.2_0: sha256:7f0f20376d975615fac94eaacfbcbd9758a2011b0775b06796468c06bcb3c659
+  0.5--r3.3.2_0: sha256:98ae60fdeb213f2636dd0aabf05a95e1bd43ffaf518fe09c05935f7434f47852
 docker: quay.io/biocontainers/r-htmlwidgets
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

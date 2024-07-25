@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/rdock
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rdock
 latest:
-  2013.1--pl5.22.0_1: sha256:601dd7a7deb3bd2886b1f0a0b52e0de66267dce163d8128c5252b39d41a7f3c5
+  2013.1--pl5.22.0_1: sha256:15a5e001e6dc0769fe4c4927659cff0553260b1aa65bffcaec3c714a5c7c16f6
 tags:
-  2013.1--pl5.22.0_1: sha256:601dd7a7deb3bd2886b1f0a0b52e0de66267dce163d8128c5252b39d41a7f3c5
+  2013.1--pl5.22.0_1: sha256:15a5e001e6dc0769fe4c4927659cff0553260b1aa65bffcaec3c714a5c7c16f6
 docker: quay.io/biocontainers/rdock
 aliases:
   babel: /usr/local/bin/babel
