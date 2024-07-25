@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gottcha"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gottcha/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gottcha/container.yaml"
-updated_at: "2024-07-24 02:56:44.628106"
+updated_at: "2024-07-25 03:18:44.787549"
 latest: "1.0--pl526_2"
 container_url: "https://biocontainers.pro/tools/gottcha"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "1.0--pl526_2"
 description: "shpc-registry automated BioContainers addition for gottcha"
-config: {"url": "https://biocontainers.pro/tools/gottcha", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gottcha", "latest": {"1.0--pl526_2": "sha256:1fab9581afbc7cb8765364707bb583796ca2436e36355d5b914cab555b6b0c15"}, "tags": {"1.0--pl526_2": "sha256:1fab9581afbc7cb8765364707bb583796ca2436e36355d5b914cab555b6b0c15"}, "docker": "quay.io/biocontainers/gottcha", "aliases": {"convert_abu2list.pl": "/usr/local/bin/convert_abu2list.pl", "filterGottcha.pl": "/usr/local/bin/filterGottcha.pl", "gottcha.pl": "/usr/local/bin/gottcha.pl", "gottcha_db.pl": "/usr/local/bin/gottcha_db.pl", "makeVariantTaxLookups.pl": "/usr/local/bin/makeVariantTaxLookups.pl", "mkGottchaTaxTree.pl": "/usr/local/bin/mkGottchaTaxTree.pl", "mkGottchaXML.pl": "/usr/local/bin/mkGottchaXML.pl", "profileGottcha.pl": "/usr/local/bin/profileGottcha.pl", "splitrim": "/usr/local/bin/splitrim", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/gottcha", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gottcha", "latest": {"1.0--pl526_2": "sha256:b00931596f2307205c6b9e6bb0850be4e9692058462d6d67ace04411c5afd591"}, "tags": {"1.0--pl526_2": "sha256:b00931596f2307205c6b9e6bb0850be4e9692058462d6d67ace04411c5afd591"}, "docker": "quay.io/biocontainers/gottcha", "aliases": {"convert_abu2list.pl": "/usr/local/bin/convert_abu2list.pl", "filterGottcha.pl": "/usr/local/bin/filterGottcha.pl", "gottcha.pl": "/usr/local/bin/gottcha.pl", "gottcha_db.pl": "/usr/local/bin/gottcha_db.pl", "makeVariantTaxLookups.pl": "/usr/local/bin/makeVariantTaxLookups.pl", "mkGottchaTaxTree.pl": "/usr/local/bin/mkGottchaTaxTree.pl", "mkGottchaXML.pl": "/usr/local/bin/mkGottchaXML.pl", "profileGottcha.pl": "/usr/local/bin/profileGottcha.pl", "splitrim": "/usr/local/bin/splitrim", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gottcha.

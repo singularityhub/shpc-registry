@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/frc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/frc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/frc/container.yaml"
-updated_at: "2024-07-24 02:53:21.194696"
+updated_at: "2024-07-25 02:48:27.619838"
 latest: "5b3f53e--boost1.64_0"
 container_url: "https://biocontainers.pro/tools/frc"
 aliases:
@@ -22,8 +22,9 @@ aliases:
  - "pyvenv-3.6"
 versions:
  - "5b3f53e--boost1.64_0"
+ - "5b3f53e--boost1.61_0"
 description: "shpc-registry automated BioContainers addition for frc"
-config: {"url": "https://biocontainers.pro/tools/frc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for frc", "latest": {"5b3f53e--boost1.64_0": "sha256:41ae5f229cb39b54122788ea30e5fc7653c710bcd7e41ce56add99e931ea4050"}, "tags": {"5b3f53e--boost1.64_0": "sha256:41ae5f229cb39b54122788ea30e5fc7653c710bcd7e41ce56add99e931ea4050"}, "docker": "quay.io/biocontainers/frc", "aliases": {"FRC": "/usr/local/bin/FRC", "bamtools-2.4.0": "/usr/local/bin/bamtools-2.4.0", "bamtools": "/usr/local/bin/bamtools", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/frc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for frc", "latest": {"5b3f53e--boost1.64_0": "sha256:61b497a6b459b7aafa6dbee98fb73aa19fd9fbe9d42464d3b5bc29d2f9450ba0"}, "tags": {"5b3f53e--boost1.64_0": "sha256:61b497a6b459b7aafa6dbee98fb73aa19fd9fbe9d42464d3b5bc29d2f9450ba0", "5b3f53e--boost1.61_0": "sha256:54c06c7e1aa0b8a79498fdb6022b33700bdd2b8427398437dad8b0acd7ec3559"}, "docker": "quay.io/biocontainers/frc", "aliases": {"FRC": "/usr/local/bin/FRC", "bamtools-2.4.0": "/usr/local/bin/bamtools-2.4.0", "bamtools": "/usr/local/bin/bamtools", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/frc.

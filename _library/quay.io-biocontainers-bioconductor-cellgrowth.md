@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellgrowth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellgrowth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellgrowth/container.yaml"
-updated_at: "2024-07-24 02:55:58.445372"
+updated_at: "2024-07-25 02:53:44.329849"
 latest: "1.30.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellgrowth"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.30.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cellgrowth"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cellgrowth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellgrowth", "latest": {"1.30.0--r36_0": "sha256:c4aa988283b511af4b580d28a6368977880df2de16f2c6af2a62b998946632db"}, "tags": {"1.30.0--r36_0": "sha256:c4aa988283b511af4b580d28a6368977880df2de16f2c6af2a62b998946632db"}, "docker": "quay.io/biocontainers/bioconductor-cellgrowth", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cellgrowth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellgrowth", "latest": {"1.30.0--r36_0": "sha256:988b105684ca4389f9faab662f6df9e29d1e7fcc60e7552b03b27a561e2d486a"}, "tags": {"1.30.0--r36_0": "sha256:988b105684ca4389f9faab662f6df9e29d1e7fcc60e7552b03b27a561e2d486a"}, "docker": "quay.io/biocontainers/bioconductor-cellgrowth", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cellgrowth.

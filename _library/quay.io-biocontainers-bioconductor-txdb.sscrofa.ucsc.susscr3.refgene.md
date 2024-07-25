@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene/container.yaml"
-updated_at: "2024-07-24 03:24:25.407033"
+updated_at: "2024-07-25 03:05:50.524505"
 latest: "3.12.0--r43hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "3.12.0--r43hdfd78af_6"
  - "3.12.0--r43hdfd78af_7"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.sscrofa.ucsc.susscr3.refgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "latest": {"3.12.0--r43hdfd78af_7": "sha256:fd42a792b232d7e90dc8c49192e2fe51fb2dfe951b21101738864563a285d903"}, "tags": {"3.4.6--r36_1": "sha256:10ab120034febb80f5087c50a84f02f3d58a122003e306d8b013f69eb72197e6", "3.12.0--r42hdfd78af_5": "sha256:8aed5f665cd0ef1d59fb35c99255d444b8060125570f4ede237b3e155275c533", "3.11.0--r40_0": "sha256:cf41d71291f5b01fdbaa987b6ef04f8aabd043bd5e9b1ae0ec7b9ab7a74806ef", "3.10.0--r36_0": "sha256:2d710cb765f091a65e9c990e982fd9b68abb0450e4ab02d58ee711c2cbd47218", "3.12.0--r43hdfd78af_6": "sha256:ed57e0af88fff1cf5b259f52eba5744597ff224c26c96cdedca5aa5b1072098c", "3.12.0--r43hdfd78af_7": "sha256:fd42a792b232d7e90dc8c49192e2fe51fb2dfe951b21101738864563a285d903"}, "docker": "quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "latest": {"3.12.0--r43hdfd78af_7": "sha256:fd42a792b232d7e90dc8c49192e2fe51fb2dfe951b21101738864563a285d903"}, "tags": {"3.4.6--r36_1": "sha256:f3a3977967d80e17addccde2fe4b5e0f3c074556be6d26956ab33c87794b444f", "3.12.0--r42hdfd78af_5": "sha256:8aed5f665cd0ef1d59fb35c99255d444b8060125570f4ede237b3e155275c533", "3.11.0--r40_0": "sha256:cf41d71291f5b01fdbaa987b6ef04f8aabd043bd5e9b1ae0ec7b9ab7a74806ef", "3.10.0--r36_0": "sha256:3a3710e9c7b090d7d5459a9971d516194f3ce39779c9d36e5965ab306637bbce", "3.12.0--r43hdfd78af_6": "sha256:ed57e0af88fff1cf5b259f52eba5744597ff224c26c96cdedca5aa5b1072098c", "3.12.0--r43hdfd78af_7": "sha256:fd42a792b232d7e90dc8c49192e2fe51fb2dfe951b21101738864563a285d903"}, "docker": "quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene.

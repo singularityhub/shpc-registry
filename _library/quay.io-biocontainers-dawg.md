@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dawg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dawg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dawg/container.yaml"
-updated_at: "2024-07-24 03:09:55.604170"
+updated_at: "2024-07-25 03:25:03.528062"
 latest: "2.0.beta1--h51a7c23_7"
 container_url: "https://biocontainers.pro/tools/dawg"
 aliases:
@@ -24,7 +24,7 @@ versions:
  - "2.0.beta1--h115756c_5"
  - "2.0.beta1--h51a7c23_7"
 description: "shpc-registry automated BioContainers addition for dawg"
-config: {"url": "https://biocontainers.pro/tools/dawg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dawg", "latest": {"2.0.beta1--h51a7c23_7": "sha256:cd1bad8c40a5f6681ed3d087327a191895c5f76d2e7e073be67d5256f12ab23d"}, "tags": {"2.0.beta1--gsl2.2_boost1.64_0": "sha256:c9a0e424b18f4ff9a0ff59bf958fc0ae0ed856975f3fb8b71c1ce10737a016e1", "2.0.beta1--h115756c_5": "sha256:2725fafd2bd748b8a67ed495e8f801868eb7e06aa4a6c928ed8faac6cad93ad1", "2.0.beta1--h51a7c23_7": "sha256:cd1bad8c40a5f6681ed3d087327a191895c5f76d2e7e073be67d5256f12ab23d"}, "docker": "quay.io/biocontainers/dawg", "aliases": {"dawg": "/usr/local/bin/dawg", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/dawg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dawg", "latest": {"2.0.beta1--h51a7c23_7": "sha256:cd1bad8c40a5f6681ed3d087327a191895c5f76d2e7e073be67d5256f12ab23d"}, "tags": {"2.0.beta1--gsl2.2_boost1.64_0": "sha256:34d4bd7d44ad8d002f9b3857a0b8fe9bdfa3c6d1fe2a3eafa358bd535845c6f2", "2.0.beta1--h115756c_5": "sha256:2725fafd2bd748b8a67ed495e8f801868eb7e06aa4a6c928ed8faac6cad93ad1", "2.0.beta1--h51a7c23_7": "sha256:cd1bad8c40a5f6681ed3d087327a191895c5f76d2e7e073be67d5256f12ab23d"}, "docker": "quay.io/biocontainers/dawg", "aliases": {"dawg": "/usr/local/bin/dawg", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dawg.

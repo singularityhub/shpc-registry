@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-malaria.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-malaria.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-malaria.db0/container.yaml"
-updated_at: "2024-07-24 02:49:09.802500"
+updated_at: "2024-07-25 03:15:26.870173"
 latest: "3.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-malaria.db0"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "3.17.0--r43hdfd78af_0"
  - "3.18.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-malaria.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-malaria.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-malaria.db0", "latest": {"3.18.0--r43hdfd78af_0": "sha256:623572db386fc50faa2ab92851b312ca3925e7ecadca2f11155a72c01fe960f7"}, "tags": {"3.8.2--r36_1": "sha256:07f2a9e146bad124309efdfb668b15bfe270ebcd376c6e850fab19d7472c9839", "3.16.0--r42hdfd78af_0": "sha256:5007bcbcbd34c74337f3f69cdf536b40f930f4758d83a746872919d333622a7e", "3.14.0--r41hdfd78af_1": "sha256:fb1ed74bba20d911adecf8838085dc43415d591ab65b203a0e232e676a19ab8b", "3.13.0--r41hdfd78af_0": "sha256:77cb2174063f0f8cd484f868483708a73296284b2541f5e6d907225a142096a8", "3.12.0--r40hdfd78af_1": "sha256:0cc48cd05b1879dd233a2c502840f6c942ba07a36f626cb26888c220f7471e37", "3.11.2--r40_0": "sha256:5c1e521bf3f99eeb59f4879bd9f5ac562dea885a749e5696f84d5838c72839e6", "3.17.0--r43hdfd78af_0": "sha256:14dc33ec04413c7976ca000e22a9b9ef720efd30e660d45276e8fe2a16f622bf", "3.18.0--r43hdfd78af_0": "sha256:623572db386fc50faa2ab92851b312ca3925e7ecadca2f11155a72c01fe960f7"}, "docker": "quay.io/biocontainers/bioconductor-malaria.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-malaria.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-malaria.db0", "latest": {"3.18.0--r43hdfd78af_0": "sha256:623572db386fc50faa2ab92851b312ca3925e7ecadca2f11155a72c01fe960f7"}, "tags": {"3.8.2--r36_1": "sha256:7cda55deca06a257594f4f4d6eeb676c83c5754982b2b6f58791e55dd0c90757", "3.16.0--r42hdfd78af_0": "sha256:5007bcbcbd34c74337f3f69cdf536b40f930f4758d83a746872919d333622a7e", "3.14.0--r41hdfd78af_1": "sha256:fb1ed74bba20d911adecf8838085dc43415d591ab65b203a0e232e676a19ab8b", "3.13.0--r41hdfd78af_0": "sha256:77cb2174063f0f8cd484f868483708a73296284b2541f5e6d907225a142096a8", "3.12.0--r40hdfd78af_1": "sha256:0cc48cd05b1879dd233a2c502840f6c942ba07a36f626cb26888c220f7471e37", "3.11.2--r40_0": "sha256:5c1e521bf3f99eeb59f4879bd9f5ac562dea885a749e5696f84d5838c72839e6", "3.17.0--r43hdfd78af_0": "sha256:14dc33ec04413c7976ca000e22a9b9ef720efd30e660d45276e8fe2a16f622bf", "3.18.0--r43hdfd78af_0": "sha256:623572db386fc50faa2ab92851b312ca3925e7ecadca2f11155a72c01fe960f7"}, "docker": "quay.io/biocontainers/bioconductor-malaria.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-malaria.db0.

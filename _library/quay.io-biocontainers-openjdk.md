@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/openjdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openjdk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openjdk/container.yaml"
-updated_at: "2024-07-24 03:12:30.461223"
+updated_at: "2024-07-25 03:19:02.867376"
 latest: "11.0.1"
 container_url: "https://biocontainers.pro/tools/openjdk"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "8.0.121"
  - "11.0.1"
 description: "shpc-registry automated BioContainers addition for openjdk"
-config: {"url": "https://biocontainers.pro/tools/openjdk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for openjdk", "latest": {"11.0.1": "sha256:54db07c51814a7d33c8b5f0a8cecec1a1d7ca08125748a8d3c2679bd23188be0"}, "tags": {"8.0.121": "sha256:3495b08e6ef680ca825102ff7cb4d15078961912fdc631a5367d488996f10dc9", "11.0.1": "sha256:54db07c51814a7d33c8b5f0a8cecec1a1d7ca08125748a8d3c2679bd23188be0"}, "docker": "quay.io/biocontainers/openjdk", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/openjdk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for openjdk", "latest": {"11.0.1": "sha256:1f44a581398bc7f982599b5def2868789cd4557dde2caf58714cf4c8a35a9dc4"}, "tags": {"8.0.121": "sha256:3495b08e6ef680ca825102ff7cb4d15078961912fdc631a5367d488996f10dc9", "11.0.1": "sha256:1f44a581398bc7f982599b5def2868789cd4557dde2caf58714cf4c8a35a9dc4"}, "docker": "quay.io/biocontainers/openjdk", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/openjdk.

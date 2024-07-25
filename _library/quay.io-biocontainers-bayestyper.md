@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bayestyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bayestyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bayestyper/container.yaml"
-updated_at: "2024-07-24 03:20:47.532808"
+updated_at: "2024-07-25 03:21:29.374629"
 latest: "1.5--h176a8bc_0"
 container_url: "https://biocontainers.pro/tools/bayestyper"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.5--h176a8bc_0"
 description: "shpc-registry automated BioContainers addition for bayestyper"
-config: {"url": "https://biocontainers.pro/tools/bayestyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bayestyper", "latest": {"1.5--h176a8bc_0": "sha256:370d1f8a36cbc9ec5114852d834dd60037b74f3b3ab09c58ccecea0197cfd4f0"}, "tags": {"1.5--h176a8bc_0": "sha256:370d1f8a36cbc9ec5114852d834dd60037b74f3b3ab09c58ccecea0197cfd4f0"}, "docker": "quay.io/biocontainers/bayestyper", "aliases": {"bayesTyper": "/usr/local/bin/bayesTyper", "bayesTyperTools": "/usr/local/bin/bayesTyperTools"}}
+config: {"url": "https://biocontainers.pro/tools/bayestyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bayestyper", "latest": {"1.5--h176a8bc_0": "sha256:58ad354ddb59e7706de3676557c35ae5060fb98450a46a13a6995116c4afad7f"}, "tags": {"1.5--h176a8bc_0": "sha256:58ad354ddb59e7706de3676557c35ae5060fb98450a46a13a6995116c4afad7f"}, "docker": "quay.io/biocontainers/bayestyper", "aliases": {"bayesTyper": "/usr/local/bin/bayesTyper", "bayesTyperTools": "/usr/local/bin/bayesTyperTools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bayestyper.

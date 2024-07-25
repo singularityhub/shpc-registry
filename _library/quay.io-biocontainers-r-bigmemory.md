@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bigmemory"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bigmemory/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bigmemory/container.yaml"
-updated_at: "2024-07-24 02:37:33.493113"
+updated_at: "2024-07-25 03:00:42.260382"
 latest: "4.5.19--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-bigmemory"
 
@@ -12,7 +12,7 @@ versions:
  - "4.5.19--r3.2.2_0"
  - "4.5.19--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-bigmemory"
-config: {"url": "https://biocontainers.pro/tools/r-bigmemory", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bigmemory", "latest": {"4.5.19--r3.2.2_0": "sha256:cbcc82d26a59d83c5ac3af295358b556d1497d28c95e6a9ea24d00f79008a2b6"}, "tags": {"4.5.19--r3.2.2_0": "sha256:cbcc82d26a59d83c5ac3af295358b556d1497d28c95e6a9ea24d00f79008a2b6", "4.5.19--r3.3.2_0": "sha256:69968d27ab110fdac253f92180e02182ef6523bec51e2ad1ee2b5397aaaca9e1"}, "docker": "quay.io/biocontainers/r-bigmemory"}
+config: {"url": "https://biocontainers.pro/tools/r-bigmemory", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bigmemory", "latest": {"4.5.19--r3.2.2_0": "sha256:5433a95fc7d3ded05e28c0d08630aeb251c60f317e528794082be60fb7ae8358"}, "tags": {"4.5.19--r3.2.2_0": "sha256:5433a95fc7d3ded05e28c0d08630aeb251c60f317e528794082be60fb7ae8358", "4.5.19--r3.3.2_0": "sha256:80d177c09cf18da0072454de22d0c4c734f93d061df4c16801a976035c3063fd"}, "docker": "quay.io/biocontainers/r-bigmemory"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bigmemory.

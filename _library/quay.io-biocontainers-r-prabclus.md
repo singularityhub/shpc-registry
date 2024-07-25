@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-prabclus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-prabclus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-prabclus/container.yaml"
-updated_at: "2024-07-24 03:18:18.943258"
+updated_at: "2024-07-25 03:05:58.812281"
 latest: "2.2_6--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-prabclus"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "2.2_6--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-prabclus"
-config: {"url": "https://biocontainers.pro/tools/r-prabclus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-prabclus", "latest": {"2.2_6--r3.3.2_0": "sha256:f93e7b10d1cf4458d006daac387038cd17e7c525fef7bc2f5e6bde5c195c34ec"}, "tags": {"2.2_6--r3.3.2_0": "sha256:f93e7b10d1cf4458d006daac387038cd17e7c525fef7bc2f5e6bde5c195c34ec"}, "docker": "quay.io/biocontainers/r-prabclus", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-prabclus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-prabclus", "latest": {"2.2_6--r3.3.2_0": "sha256:1301124aadc9ae812e9c84cea597f59820a1b48c33122d67a58888d134c5c73e"}, "tags": {"2.2_6--r3.3.2_0": "sha256:1301124aadc9ae812e9c84cea597f59820a1b48c33122d67a58888d134c5c73e"}, "docker": "quay.io/biocontainers/r-prabclus", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-prabclus.

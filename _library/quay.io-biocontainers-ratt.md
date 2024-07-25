@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ratt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ratt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ratt/container.yaml"
-updated_at: "2024-07-24 02:39:48.649991"
+updated_at: "2024-07-25 03:20:20.939249"
 latest: "1.0.3--0"
 container_url: "https://biocontainers.pro/tools/ratt"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.0.3--0"
 description: "shpc-registry automated BioContainers addition for ratt"
-config: {"url": "https://biocontainers.pro/tools/ratt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ratt", "latest": {"1.0.3--0": "sha256:35d16252b76add0043d5ed139a8fe49cc666bf662bb34d10333f793f6cc38381"}, "tags": {"1.0.3--0": "sha256:35d16252b76add0043d5ed139a8fe49cc666bf662bb34d10333f793f6cc38381"}, "docker": "quay.io/biocontainers/ratt", "aliases": {"ratt": "/usr/local/bin/ratt", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
+config: {"url": "https://biocontainers.pro/tools/ratt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ratt", "latest": {"1.0.3--0": "sha256:82f26727785fd14ba6f515af3ea0f4a4e3116e9ba6d87f8168d60ba3e1c7a5cd"}, "tags": {"1.0.3--0": "sha256:82f26727785fd14ba6f515af3ea0f4a4e3116e9ba6d87f8168d60ba3e1c7a5cd"}, "docker": "quay.io/biocontainers/ratt", "aliases": {"ratt": "/usr/local/bin/ratt", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ratt.

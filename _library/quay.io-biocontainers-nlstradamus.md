@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nlstradamus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nlstradamus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nlstradamus/container.yaml"
-updated_at: "2024-07-24 03:01:11.121093"
+updated_at: "2024-07-25 02:39:27.545933"
 latest: "1.8--h2d50403_1"
 container_url: "https://biocontainers.pro/tools/nlstradamus"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "1.8--h2d50403_1"
 description: "shpc-registry automated BioContainers addition for nlstradamus"
-config: {"url": "https://biocontainers.pro/tools/nlstradamus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nlstradamus", "latest": {"1.8--h2d50403_1": "sha256:02b6d6e2a40f1fd17eb64b9db71fa4a0d87a9922ce20987a1c20231a97393274"}, "tags": {"1.8--h2d50403_1": "sha256:02b6d6e2a40f1fd17eb64b9db71fa4a0d87a9922ce20987a1c20231a97393274"}, "docker": "quay.io/biocontainers/nlstradamus", "aliases": {"NLStradamus": "/usr/local/bin/NLStradamus"}}
+config: {"url": "https://biocontainers.pro/tools/nlstradamus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nlstradamus", "latest": {"1.8--h2d50403_1": "sha256:f612cd558fd8de8df0661873a35cf18a6698a44d266ab410561eb7de594446a8"}, "tags": {"1.8--h2d50403_1": "sha256:f612cd558fd8de8df0661873a35cf18a6698a44d266ab410561eb7de594446a8"}, "docker": "quay.io/biocontainers/nlstradamus", "aliases": {"NLStradamus": "/usr/local/bin/NLStradamus"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nlstradamus.

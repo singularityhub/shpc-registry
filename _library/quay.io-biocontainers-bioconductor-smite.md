@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-smite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-smite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-smite/container.yaml"
-updated_at: "2024-07-24 03:24:23.425872"
+updated_at: "2024-07-25 03:14:20.950806"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-smite"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-smite"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-smite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-smite", "latest": {"1.30.0--r43hdfd78af_0": "sha256:e9729e0e12c74cb5c9b94cc0c18a29aa2c1f7ce25500ee14abeca1512aea8e37"}, "tags": {"1.8.0--r351_0": "sha256:245491c41b810d33aed198a4705936f1703bebf5689aa6ee1371385d4e83c756", "1.26.0--r42hdfd78af_0": "sha256:64b1fb04342761e6de9934ad6cfebe0d5e1e2bbc04e4ca7e473a73846542cf36", "1.22.0--r41hdfd78af_0": "sha256:d2971b37f67402a668252b32ca093831c2637440c9ad3786e9474d0fafd7527f", "1.20.0--r41hdfd78af_0": "sha256:4d156818abc25486396885a39d4dfa04339e7a2bf6cfe1fce8e270342ba261b1", "1.18.0--r40hdfd78af_1": "sha256:5e3ca6cf7fee8b15bbb60d953905b8f097067f2bb7f5d6649e84d8b356c5c41e", "1.16.0--r40_0": "sha256:3e2f550f64fa172e3671b500ee1ffd4e9dfced0e33ea00d65c200e57b0e74095", "1.28.0--r43hdfd78af_0": "sha256:afb1d72eb20616cf982223d946ef104a9c974f40a6d7aa8fbc08c6ece8e81b34", "1.30.0--r43hdfd78af_0": "sha256:e9729e0e12c74cb5c9b94cc0c18a29aa2c1f7ce25500ee14abeca1512aea8e37"}, "docker": "quay.io/biocontainers/bioconductor-smite", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-smite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-smite", "latest": {"1.30.0--r43hdfd78af_0": "sha256:e9729e0e12c74cb5c9b94cc0c18a29aa2c1f7ce25500ee14abeca1512aea8e37"}, "tags": {"1.8.0--r351_0": "sha256:f94a150d58a21113108654600bec978003a2efd85e57e910713ec5a8c7c2f45e", "1.26.0--r42hdfd78af_0": "sha256:64b1fb04342761e6de9934ad6cfebe0d5e1e2bbc04e4ca7e473a73846542cf36", "1.22.0--r41hdfd78af_0": "sha256:d2971b37f67402a668252b32ca093831c2637440c9ad3786e9474d0fafd7527f", "1.20.0--r41hdfd78af_0": "sha256:4d156818abc25486396885a39d4dfa04339e7a2bf6cfe1fce8e270342ba261b1", "1.18.0--r40hdfd78af_1": "sha256:5e3ca6cf7fee8b15bbb60d953905b8f097067f2bb7f5d6649e84d8b356c5c41e", "1.16.0--r40_0": "sha256:3e2f550f64fa172e3671b500ee1ffd4e9dfced0e33ea00d65c200e57b0e74095", "1.28.0--r43hdfd78af_0": "sha256:afb1d72eb20616cf982223d946ef104a9c974f40a6d7aa8fbc08c6ece8e81b34", "1.30.0--r43hdfd78af_0": "sha256:e9729e0e12c74cb5c9b94cc0c18a29aa2c1f7ce25500ee14abeca1512aea8e37"}, "docker": "quay.io/biocontainers/bioconductor-smite", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-smite.

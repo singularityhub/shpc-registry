@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/syngap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/syngap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/syngap/container.yaml"
-updated_at: "2024-07-24 02:41:08.110396"
-latest: "1.2.3--py312hdfd78af_1"
+updated_at: "2024-07-25 03:22:45.175865"
+latest: "1.2.5--py312hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/syngap"
 aliases:
  - "CrossMap.py"
@@ -69,8 +69,9 @@ versions:
  - "1.1.1--h086e186_0"
  - "1.2.3--py312hdfd78af_1"
  - "1.1.1--hcf36b3e_1"
+ - "1.2.5--py312hdfd78af_0"
 description: "singularity registry hpc automated addition for syngap"
-config: {"url": "https://biocontainers.pro/tools/syngap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for syngap", "latest": {"1.2.3--py312hdfd78af_1": "sha256:9dcdba88448fa54e95bf09094a128910af1451261e40a2b52c55d3ab50dd55ae"}, "tags": {"1.0.1--h086e186_0": "sha256:1d08f9522945947665273d1c2ca0e6c784477e52e1f412006edee50103a67a77", "1.1.0--h086e186_0": "sha256:dcb95a324e00ba4dcb90f09a16f19b32c0b68a6820f3f7acba9ba4cc608c06aa", "1.1.1--h086e186_0": "sha256:5da00ab7444cb1b614099bf70c6188b3f9cc79130b122d4844cf3234c2ef5a17", "1.2.3--py312hdfd78af_1": "sha256:9dcdba88448fa54e95bf09094a128910af1451261e40a2b52c55d3ab50dd55ae", "1.1.1--hcf36b3e_1": "sha256:532f45b1315a68e844af9a4d7608b236da5c1dd763eb779d9b96e8be0a6dd13c"}, "docker": "quay.io/biocontainers/syngap", "aliases": {"CrossMap.py": "/usr/local/bin/CrossMap.py", "SynGAP.py": "/usr/local/bin/SynGAP.py", "compare_gos.py": "/usr/local/bin/compare_gos.py", "coveralls": "/usr/local/bin/coveralls", "custom.py": "/usr/local/bin/custom.py", "dav1d": "/usr/local/bin/dav1d", "dual.py": "/usr/local/bin/dual.py", "evi.py": "/usr/local/bin/evi.py", "eviplot.py": "/usr/local/bin/eviplot.py", "fasta-nr": "/usr/local/bin/fasta-nr", "fetch_associations.py": "/usr/local/bin/fetch_associations.py", "find_enrichment.py": "/usr/local/bin/find_enrichment.py", "genepair.py": "/usr/local/bin/genepair.py", "gffread": "/usr/local/bin/gffread", "go_plot.py": "/usr/local/bin/go_plot.py", "last-split5": "/usr/local/bin/last-split5", "lastal5": "/usr/local/bin/lastal5", "lastdb5": "/usr/local/bin/lastdb5", "liftOver": "/usr/local/bin/liftOver", "maf-cut": "/usr/local/bin/maf-cut", "map_to_slim.py": "/usr/local/bin/map_to_slim.py", "ncbi_gene_results_to_python.py": "/usr/local/bin/ncbi_gene_results_to_python.py", "plot_go_term.py": "/usr/local/bin/plot_go_term.py", "protoc-gen-mypy": "/usr/local/bin/protoc-gen-mypy", "protoc-gen-mypy_grpc": "/usr/local/bin/protoc-gen-mypy_grpc", "prt_terms.py": "/usr/local/bin/prt_terms.py", "syngap": "/usr/local/bin/syngap", "triple.py": "/usr/local/bin/triple.py", "wr_hier.py": "/usr/local/bin/wr_hier.py", "wr_sections.py": "/usr/local/bin/wr_sections.py", "fastq-interleave": "/usr/local/bin/fastq-interleave", "last-dotplot": "/usr/local/bin/last-dotplot", "last-map-probs": "/usr/local/bin/last-map-probs", "last-pair-probs": "/usr/local/bin/last-pair-probs", "last-postmask": "/usr/local/bin/last-postmask", "last-split": "/usr/local/bin/last-split", "last-train": "/usr/local/bin/last-train", "lastal": "/usr/local/bin/lastal", "lastdb": "/usr/local/bin/lastdb", "maf-convert": "/usr/local/bin/maf-convert", "maf-join": "/usr/local/bin/maf-join", "maf-sort": "/usr/local/bin/maf-sort", "maf-swap": "/usr/local/bin/maf-swap", "parallel-fasta": "/usr/local/bin/parallel-fasta", "parallel-fastq": "/usr/local/bin/parallel-fastq", "TMalign": "/usr/local/bin/TMalign", "last-merge-batches": "/usr/local/bin/last-merge-batches", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "blastn_vdb": "/usr/local/bin/blastn_vdb", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "poa": "/usr/local/bin/poa", "tiffcomment": "/usr/local/bin/tiffcomment"}}
+config: {"url": "https://biocontainers.pro/tools/syngap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for syngap", "latest": {"1.2.5--py312hdfd78af_0": "sha256:0ee7b034b5f9f4b4bd41d820c98c06a1ca23e098d28c9917723102928267d2b4"}, "tags": {"1.0.1--h086e186_0": "sha256:1d08f9522945947665273d1c2ca0e6c784477e52e1f412006edee50103a67a77", "1.1.0--h086e186_0": "sha256:dcb95a324e00ba4dcb90f09a16f19b32c0b68a6820f3f7acba9ba4cc608c06aa", "1.1.1--h086e186_0": "sha256:5da00ab7444cb1b614099bf70c6188b3f9cc79130b122d4844cf3234c2ef5a17", "1.2.3--py312hdfd78af_1": "sha256:9dcdba88448fa54e95bf09094a128910af1451261e40a2b52c55d3ab50dd55ae", "1.1.1--hcf36b3e_1": "sha256:532f45b1315a68e844af9a4d7608b236da5c1dd763eb779d9b96e8be0a6dd13c", "1.2.5--py312hdfd78af_0": "sha256:0ee7b034b5f9f4b4bd41d820c98c06a1ca23e098d28c9917723102928267d2b4"}, "docker": "quay.io/biocontainers/syngap", "aliases": {"CrossMap.py": "/usr/local/bin/CrossMap.py", "SynGAP.py": "/usr/local/bin/SynGAP.py", "compare_gos.py": "/usr/local/bin/compare_gos.py", "coveralls": "/usr/local/bin/coveralls", "custom.py": "/usr/local/bin/custom.py", "dav1d": "/usr/local/bin/dav1d", "dual.py": "/usr/local/bin/dual.py", "evi.py": "/usr/local/bin/evi.py", "eviplot.py": "/usr/local/bin/eviplot.py", "fasta-nr": "/usr/local/bin/fasta-nr", "fetch_associations.py": "/usr/local/bin/fetch_associations.py", "find_enrichment.py": "/usr/local/bin/find_enrichment.py", "genepair.py": "/usr/local/bin/genepair.py", "gffread": "/usr/local/bin/gffread", "go_plot.py": "/usr/local/bin/go_plot.py", "last-split5": "/usr/local/bin/last-split5", "lastal5": "/usr/local/bin/lastal5", "lastdb5": "/usr/local/bin/lastdb5", "liftOver": "/usr/local/bin/liftOver", "maf-cut": "/usr/local/bin/maf-cut", "map_to_slim.py": "/usr/local/bin/map_to_slim.py", "ncbi_gene_results_to_python.py": "/usr/local/bin/ncbi_gene_results_to_python.py", "plot_go_term.py": "/usr/local/bin/plot_go_term.py", "protoc-gen-mypy": "/usr/local/bin/protoc-gen-mypy", "protoc-gen-mypy_grpc": "/usr/local/bin/protoc-gen-mypy_grpc", "prt_terms.py": "/usr/local/bin/prt_terms.py", "syngap": "/usr/local/bin/syngap", "triple.py": "/usr/local/bin/triple.py", "wr_hier.py": "/usr/local/bin/wr_hier.py", "wr_sections.py": "/usr/local/bin/wr_sections.py", "fastq-interleave": "/usr/local/bin/fastq-interleave", "last-dotplot": "/usr/local/bin/last-dotplot", "last-map-probs": "/usr/local/bin/last-map-probs", "last-pair-probs": "/usr/local/bin/last-pair-probs", "last-postmask": "/usr/local/bin/last-postmask", "last-split": "/usr/local/bin/last-split", "last-train": "/usr/local/bin/last-train", "lastal": "/usr/local/bin/lastal", "lastdb": "/usr/local/bin/lastdb", "maf-convert": "/usr/local/bin/maf-convert", "maf-join": "/usr/local/bin/maf-join", "maf-sort": "/usr/local/bin/maf-sort", "maf-swap": "/usr/local/bin/maf-swap", "parallel-fasta": "/usr/local/bin/parallel-fasta", "parallel-fastq": "/usr/local/bin/parallel-fastq", "TMalign": "/usr/local/bin/TMalign", "last-merge-batches": "/usr/local/bin/last-merge-batches", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "blastn_vdb": "/usr/local/bin/blastn_vdb", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "poa": "/usr/local/bin/poa", "tiffcomment": "/usr/local/bin/tiffcomment"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/syngap.
@@ -85,7 +86,7 @@ $ shpc install quay.io/biocontainers/syngap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/syngap:1.2.3--py312hdfd78af_1
+$ shpc install quay.io/biocontainers/syngap:1.2.5--py312hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -97,8 +98,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/syngap/1.2.3--py312hdfd78af_1
-$ module help quay.io/biocontainers/syngap/1.2.3--py312hdfd78af_1
+$ module load quay.io/biocontainers/syngap/1.2.5--py312hdfd78af_0
+$ module help quay.io/biocontainers/syngap/1.2.5--py312hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-canopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-canopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-canopy/container.yaml"
-updated_at: "2024-07-24 03:01:18.468469"
+updated_at: "2024-07-25 03:08:57.277747"
 latest: "1.3.0--r351h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-canopy"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "1.3.0--r351h6115d3f_3"
 description: "shpc-registry automated BioContainers addition for r-canopy"
-config: {"url": "https://biocontainers.pro/tools/r-canopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-canopy", "latest": {"1.3.0--r351h6115d3f_3": "sha256:557a8138789f87245ab4b91d810c915c061dd3edb87024dd3031e2be6fae1f8c"}, "tags": {"1.3.0--r351h6115d3f_3": "sha256:557a8138789f87245ab4b91d810c915c061dd3edb87024dd3031e2be6fae1f8c"}, "docker": "quay.io/biocontainers/r-canopy", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-canopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-canopy", "latest": {"1.3.0--r351h6115d3f_3": "sha256:db8d5dd3dfd417be9510989d35e8bb04e51a5b72db6fc8f580181ebfecbf03c9"}, "tags": {"1.3.0--r351h6115d3f_3": "sha256:db8d5dd3dfd417be9510989d35e8bb04e51a5b72db6fc8f580181ebfecbf03c9"}, "docker": "quay.io/biocontainers/r-canopy", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-canopy.

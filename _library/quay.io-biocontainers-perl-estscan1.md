@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-estscan1"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-estscan1/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-estscan1/container.yaml"
-updated_at: "2024-07-24 02:38:18.822751"
+updated_at: "2024-07-25 02:58:23.047190"
 latest: "1.3--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-estscan1"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "1.3--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-estscan1"
-config: {"url": "https://biocontainers.pro/tools/perl-estscan1", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-estscan1", "latest": {"1.3--pl526_1": "sha256:8b8456b333d341a2a872448a25cbf5e80cc2f94f6a9d1fd4de9d6baa35a4c16b"}, "tags": {"1.3--pl526_1": "sha256:8b8456b333d341a2a872448a25cbf5e80cc2f94f6a9d1fd4de9d6baa35a4c16b"}, "docker": "quay.io/biocontainers/perl-estscan1", "aliases": {"ESTScan1": "/usr/local/bin/ESTScan1", "fetch": "/usr/local/bin/fetch", "indexer": "/usr/local/bin/indexer", "netfetch": "/usr/local/bin/netfetch", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-estscan1", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-estscan1", "latest": {"1.3--pl526_1": "sha256:8db3c322e240effd46eab09be67160ba04a5f1194b4550f8c8b0034a40f85205"}, "tags": {"1.3--pl526_1": "sha256:8db3c322e240effd46eab09be67160ba04a5f1194b4550f8c8b0034a40f85205"}, "docker": "quay.io/biocontainers/perl-estscan1", "aliases": {"ESTScan1": "/usr/local/bin/ESTScan1", "fetch": "/usr/local/bin/fetch", "indexer": "/usr/local/bin/indexer", "netfetch": "/usr/local/bin/netfetch", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-estscan1.

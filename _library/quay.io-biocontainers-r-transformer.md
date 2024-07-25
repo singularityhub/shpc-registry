@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-transformer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-transformer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-transformer/container.yaml"
-updated_at: "2024-07-24 02:45:53.227371"
+updated_at: "2024-07-25 02:57:13.003912"
 latest: "0.2.12--r36_0"
 container_url: "https://biocontainers.pro/tools/r-transformer"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "0.2.9--r36_0"
  - "0.2.12--r36_0"
 description: "shpc-registry automated BioContainers addition for r-transformer"
-config: {"url": "https://biocontainers.pro/tools/r-transformer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-transformer", "latest": {"0.2.12--r36_0": "sha256:9d57134defcefef74ac30c8c94bdcbd4a2bce8da729d959ebb25f75a696aee1a"}, "tags": {"0.2.9--r36_0": "sha256:8fcaabd88935aa7e787da3304b885e4bd2f2194c1faa502ccd98ba5481c081be", "0.2.12--r36_0": "sha256:9d57134defcefef74ac30c8c94bdcbd4a2bce8da729d959ebb25f75a696aee1a"}, "docker": "quay.io/biocontainers/r-transformer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-transformer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-transformer", "latest": {"0.2.12--r36_0": "sha256:b7949c074f40d3bf5ce48fda3d7bd26083b499b9df18b9a22f8450ade7df6fe9"}, "tags": {"0.2.9--r36_0": "sha256:7401dc553186cb48903bba5df9bf9e0c4c3cbba31f6570a4d4b3bb4694d4e9d5", "0.2.12--r36_0": "sha256:b7949c074f40d3bf5ce48fda3d7bd26083b499b9df18b9a22f8450ade7df6fe9"}, "docker": "quay.io/biocontainers/r-transformer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-transformer.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gsalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gsalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gsalign/container.yaml"
-updated_at: "2024-07-24 03:06:42.418651"
+updated_at: "2024-07-25 02:49:36.092613"
 latest: "1.0.22--hd175d40_6"
 container_url: "https://biocontainers.pro/tools/gsalign"
 aliases:
@@ -17,7 +17,7 @@ versions:
  - "1.0.22--h8b853e6_5"
  - "1.0.22--hd175d40_6"
 description: "shpc-registry automated BioContainers addition for gsalign"
-config: {"url": "https://biocontainers.pro/tools/gsalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gsalign", "latest": {"1.0.22--hd175d40_6": "sha256:b0c45b090cc1c0dadfe3464e6efc4c7068e3862018bef0034d0d08683803653c"}, "tags": {"1.0.9--hdb83ec4_0": "sha256:16540873bed0cc08b51b7c7284270e4625f1586480be6df0f1c9d76e0ba2d7c2", "1.0.22--hc9193f5_2": "sha256:8d787f216254bcf85e7a0b257cf2a32a2af4fb9da9e60e6675dfcb211cb5615b", "1.0.22--h8b853e6_4": "sha256:36b5a76a23f729f06faa6ba9fff54df4a8e80fba2e4cc4cc4a262b7857eae9fc", "1.0.22--h8b853e6_5": "sha256:501ee5bddceb5db4893f3fe1dfa4911117654bbb799bed34aea524d1ec7cb190", "1.0.22--hd175d40_6": "sha256:b0c45b090cc1c0dadfe3464e6efc4c7068e3862018bef0034d0d08683803653c"}, "docker": "quay.io/biocontainers/gsalign", "aliases": {"GSAlign": "/usr/local/bin/GSAlign", "bwt_index": "/usr/local/bin/bwt_index"}}
+config: {"url": "https://biocontainers.pro/tools/gsalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gsalign", "latest": {"1.0.22--hd175d40_6": "sha256:b0c45b090cc1c0dadfe3464e6efc4c7068e3862018bef0034d0d08683803653c"}, "tags": {"1.0.9--hdb83ec4_0": "sha256:4ee1b07cef62ce3715f3fa4805ec32de2daba325d09c002fe6874e27e91e1fbb", "1.0.22--hc9193f5_2": "sha256:8d787f216254bcf85e7a0b257cf2a32a2af4fb9da9e60e6675dfcb211cb5615b", "1.0.22--h8b853e6_4": "sha256:36b5a76a23f729f06faa6ba9fff54df4a8e80fba2e4cc4cc4a262b7857eae9fc", "1.0.22--h8b853e6_5": "sha256:501ee5bddceb5db4893f3fe1dfa4911117654bbb799bed34aea524d1ec7cb190", "1.0.22--hd175d40_6": "sha256:b0c45b090cc1c0dadfe3464e6efc4c7068e3862018bef0034d0d08683803653c"}, "docker": "quay.io/biocontainers/gsalign", "aliases": {"GSAlign": "/usr/local/bin/GSAlign", "bwt_index": "/usr/local/bin/bwt_index"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gsalign.

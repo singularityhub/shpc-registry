@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mapsembler2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapsembler2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapsembler2/container.yaml"
-updated_at: "2024-07-24 02:42:43.328348"
+updated_at: "2024-07-25 02:40:58.881441"
 latest: "2.2.4--2"
 container_url: "https://biocontainers.pro/tools/mapsembler2"
 aliases:
@@ -16,7 +16,7 @@ aliases:
 versions:
  - "2.2.4--2"
 description: "shpc-registry automated BioContainers addition for mapsembler2"
-config: {"url": "https://biocontainers.pro/tools/mapsembler2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapsembler2", "latest": {"2.2.4--2": "sha256:6c00d13dec280c7250f2c6d44753a075f843a583a1681fc3af10813a6ef8f6a8"}, "tags": {"2.2.4--2": "sha256:6c00d13dec280c7250f2c6d44753a075f843a583a1681fc3af10813a6ef8f6a8"}, "docker": "quay.io/biocontainers/mapsembler2", "aliases": {"kissreads": "/usr/local/bin/kissreads", "kissreads_graph": "/usr/local/bin/kissreads_graph", "mapsembler2_extend": "/usr/local/bin/mapsembler2_extend", "mapsembler2_extremities": "/usr/local/bin/mapsembler2_extremities", "run_mapsembler2_pipeline.sh": "/usr/local/bin/run_mapsembler2_pipeline.sh"}}
+config: {"url": "https://biocontainers.pro/tools/mapsembler2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapsembler2", "latest": {"2.2.4--2": "sha256:e60df090eaffea0562c99d81e111bbafec4542b961dbe3e88570fc15bb629e82"}, "tags": {"2.2.4--2": "sha256:e60df090eaffea0562c99d81e111bbafec4542b961dbe3e88570fc15bb629e82"}, "docker": "quay.io/biocontainers/mapsembler2", "aliases": {"kissreads": "/usr/local/bin/kissreads", "kissreads_graph": "/usr/local/bin/kissreads_graph", "mapsembler2_extend": "/usr/local/bin/mapsembler2_extend", "mapsembler2_extremities": "/usr/local/bin/mapsembler2_extremities", "run_mapsembler2_pipeline.sh": "/usr/local/bin/run_mapsembler2_pipeline.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mapsembler2.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/humid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/humid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/humid/container.yaml"
-updated_at: "2024-07-24 02:45:35.991622"
+updated_at: "2024-07-25 02:44:45.714020"
 latest: "1.0.4--h125f33a_1"
 container_url: "https://biocontainers.pro/tools/humid"
 aliases:

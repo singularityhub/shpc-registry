@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jccirc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jccirc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jccirc/container.yaml"
-updated_at: "2024-07-24 02:43:26.872681"
+updated_at: "2024-07-25 03:19:38.705884"
 latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jccirc"
 aliases:

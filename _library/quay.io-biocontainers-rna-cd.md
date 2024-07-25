@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rna-cd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rna-cd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rna-cd/container.yaml"
-updated_at: "2024-07-24 03:22:14.657305"
+updated_at: "2024-07-25 03:15:42.009448"
 latest: "0.2.0--py_0"
 container_url: "https://biocontainers.pro/tools/rna-cd"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.2.0--py_0"
 description: "shpc-registry automated BioContainers addition for rna-cd"
-config: {"url": "https://biocontainers.pro/tools/rna-cd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rna-cd", "latest": {"0.2.0--py_0": "sha256:3f708d845e8ecbe4083e57dc87163e83827d77e996d6c674a7eb9caf5ca3a09a"}, "tags": {"0.2.0--py_0": "sha256:3f708d845e8ecbe4083e57dc87163e83827d77e996d6c674a7eb9caf5ca3a09a"}, "docker": "quay.io/biocontainers/rna-cd", "aliases": {"rna_cd-classify": "/usr/local/bin/rna_cd-classify", "rna_cd-train": "/usr/local/bin/rna_cd-train", "qhelpconverter": "/usr/local/bin/qhelpconverter", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen"}}
+config: {"url": "https://biocontainers.pro/tools/rna-cd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rna-cd", "latest": {"0.2.0--py_0": "sha256:07bd196ab6e8122155e3a3f407e144e76419840dc24d057b3ca45eecb8fe5e9c"}, "tags": {"0.2.0--py_0": "sha256:07bd196ab6e8122155e3a3f407e144e76419840dc24d057b3ca45eecb8fe5e9c"}, "docker": "quay.io/biocontainers/rna-cd", "aliases": {"rna_cd-classify": "/usr/local/bin/rna_cd-classify", "rna_cd-train": "/usr/local/bin/rna_cd-train", "qhelpconverter": "/usr/local/bin/qhelpconverter", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rna-cd.
