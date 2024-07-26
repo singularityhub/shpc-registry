@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-rttf2pt1
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rttf2pt1
 latest:
-  1.3.4--r3.3.2_0: sha256:ce350fef933543c0807070bc2f8c4329b7f494a55fa3d52677f673df812fa8f5
+  1.3.4--r3.3.2_0: sha256:6d00001f6ff6c595c704e29d69e257954097ed1c6dcb6259a2ef79b4837d2524
 tags:
-  1.3.4--r3.3.2_0: sha256:ce350fef933543c0807070bc2f8c4329b7f494a55fa3d52677f673df812fa8f5
+  1.3.4--r3.3.2_0: sha256:6d00001f6ff6c595c704e29d69e257954097ed1c6dcb6259a2ef79b4837d2524
 docker: quay.io/biocontainers/r-rttf2pt1
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

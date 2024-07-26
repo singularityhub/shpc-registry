@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/domclust
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for domclust
 latest:
-  1.2.8a--h470a237_1: sha256:f6b8af22546c2246253fdfef898e92c21b9c9cd6e74d86f0dddcc77c59495a36
+  1.2.8a--h470a237_1: sha256:46352a9edeed529a600681d566fd7b7025aa8a667d2ca8137a6efe1610487f84
 tags:
-  1.2.8a--h470a237_1: sha256:f6b8af22546c2246253fdfef898e92c21b9c9cd6e74d86f0dddcc77c59495a36
+  1.2.8a--h470a237_1: sha256:46352a9edeed529a600681d566fd7b7025aa8a667d2ca8137a6efe1610487f84
 docker: quay.io/biocontainers/domclust
 aliases:
   addtit.pl: /usr/local/bin/addtit.pl

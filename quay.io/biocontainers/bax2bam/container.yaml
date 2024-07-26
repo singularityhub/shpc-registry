@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for bax2bam
 latest:
   0.0.11--0: sha256:00dab133bf8a2aaec1ca910ba403ad0bd046eb8d83ec24a1421ad8a395f830ae
 tags:
-  0.0.9--h018d624_7: sha256:4464f6126573dfc7bb28e4b1ab75183b6038220784f51f3f5d282868680bcdee
+  0.0.9--h018d624_7: sha256:35568f33224881fb5e0c82f310d5636c9ed1aacbedaa9253eac20ffc50d3b258
   0.0.11--0: sha256:00dab133bf8a2aaec1ca910ba403ad0bd046eb8d83ec24a1421ad8a395f830ae
 docker: quay.io/biocontainers/bax2bam
 aliases:

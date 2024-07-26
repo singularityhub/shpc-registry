@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/r-nam
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-nam
 latest:
-  1.6.4--r351h9d2a408_0: sha256:b73c399a3cce876dc299e0faf44b571b38a88929edbc8ff5fdbcd983991be20f
+  1.6.4--r351h9d2a408_0: sha256:8bc43d2069de16ee6891ed0ef655943039a8218845abc30215a3f4e172c25c09
 tags:
-  1.6.4--r351h9d2a408_0: sha256:b73c399a3cce876dc299e0faf44b571b38a88929edbc8ff5fdbcd983991be20f
+  1.6.4--r351h9d2a408_0: sha256:8bc43d2069de16ee6891ed0ef655943039a8218845abc30215a3f4e172c25c09
 docker: quay.io/biocontainers/r-nam

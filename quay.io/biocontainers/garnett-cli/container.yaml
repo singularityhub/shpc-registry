@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for garnett-cli
 latest:
   0.0.5--hdfd78af_1: sha256:bfa33b0dedcaa5800c6cad483c99697b397eeb9e6fe8ec6a7a80c6f6ba0a001e
 tags:
-  v0.0.1--r36_0: sha256:38e89fa8f323b4abf55bf7304665172b007951f405494b62dad56e1fcccdde76
+  v0.0.1--r36_0: sha256:c0b059234123ae7592838e1b6c0990f75ffb5f18247c027eae3df176d022fe65
   0.0.5--hdfd78af_1: sha256:bfa33b0dedcaa5800c6cad483c99697b397eeb9e6fe8ec6a7a80c6f6ba0a001e
 docker: quay.io/biocontainers/garnett-cli
 aliases:

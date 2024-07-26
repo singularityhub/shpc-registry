@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/influx-si-data-manager
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for influx-si-data-manager
 latest:
-  1.0.2--pyhdfd78af_0: sha256:a298fbddb5f328f986ef2ce801db60867518a9ad3d761b8144ef6a1e8e71ff15
+  1.0.3--pyhdfd78af_0: sha256:98df8b7e7e0a29823beedc41d3242c30a99da178a215731eafdc2e9e88dcfe35
 tags:
   0.1.4--pyhdfd78af_0: sha256:9095dd141c29b87b08fb004d600c50d3c480d126a6815adf4cb67bf419cc51b3
   1.0.0--pyhdfd78af_0: sha256:9fc7dff24f6a41a7be93eb882abcb3ef7e41dcff19a9f5f34fd939ce493e133c
   1.0.2--pyhdfd78af_0: sha256:a298fbddb5f328f986ef2ce801db60867518a9ad3d761b8144ef6a1e8e71ff15
+  1.0.3--pyhdfd78af_0: sha256:98df8b7e7e0a29823beedc41d3242c30a99da178a215731eafdc2e9e88dcfe35
 docker: quay.io/biocontainers/influx-si-data-manager
 aliases:
   influx_si_data_manager: /usr/local/bin/influx_si_data_manager

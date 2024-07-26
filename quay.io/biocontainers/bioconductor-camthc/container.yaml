@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-camthc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-camthc
 latest:
-  1.4.0--r36_0: sha256:75a07d2e05ba223a85c02ca80399781475b84a586ccda2be3a4d9864afb00f84
+  1.4.0--r36_0: sha256:00df6088d7a6cca2231069f2f5556f17e897300e0a8893d55d9791bbdd7affd4
 tags:
-  1.4.0--r36_0: sha256:75a07d2e05ba223a85c02ca80399781475b84a586ccda2be3a4d9864afb00f84
+  1.4.0--r36_0: sha256:00df6088d7a6cca2231069f2f5556f17e897300e0a8893d55d9791bbdd7affd4
 docker: quay.io/biocontainers/bioconductor-camthc
 aliases:
   extcheck: /usr/local/bin/extcheck

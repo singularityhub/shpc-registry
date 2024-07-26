@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/fast5seek
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fast5seek
 latest:
-  0.1.1--py_1: sha256:54d1f835aadd275e297a2e6a6403721dfcf88e26d1d087f60bed0060fc32725c
+  0.1.1--py_1: sha256:20d41b26239f2347a138b95ef351e7c3063e35a4f568e7a9c2f4796a01430e0e
 tags:
-  0.1.1--py_1: sha256:54d1f835aadd275e297a2e6a6403721dfcf88e26d1d087f60bed0060fc32725c
+  0.1.1--py_1: sha256:20d41b26239f2347a138b95ef351e7c3063e35a4f568e7a9c2f4796a01430e0e
 docker: quay.io/biocontainers/fast5seek
 aliases:
   fast5_subset: /usr/local/bin/fast5_subset

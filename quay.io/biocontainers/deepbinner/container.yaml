@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/deepbinner
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for deepbinner
 latest:
-  0.2.0--pyh24bf2e0_1: sha256:ba3b0b553d43de57dedf56e11276213997ed5fa3eb9400675bbe5c4bb670e7b2
+  0.2.0--pyh24bf2e0_1: sha256:8f9088e2228b87f313e48b565f249a173cbe560edf27805e35767e310b8c5db9
 tags:
-  0.2.0--pyh24bf2e0_1: sha256:ba3b0b553d43de57dedf56e11276213997ed5fa3eb9400675bbe5c4bb670e7b2
+  0.2.0--pyh24bf2e0_1: sha256:8f9088e2228b87f313e48b565f249a173cbe560edf27805e35767e310b8c5db9
 docker: quay.io/biocontainers/deepbinner
 aliases:
   deepbinner: /usr/local/bin/deepbinner
