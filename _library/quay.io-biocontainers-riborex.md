@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/riborex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riborex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riborex/container.yaml"
-updated_at: "2024-07-25 02:57:29.308214"
+updated_at: "2024-07-26 02:57:30.826805"
 latest: "2.4.0--r341_0"
 container_url: "https://biocontainers.pro/tools/riborex"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "2.4.0--r341_0"
 description: "shpc-registry automated BioContainers addition for riborex"
-config: {"url": "https://biocontainers.pro/tools/riborex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for riborex", "latest": {"2.4.0--r341_0": "sha256:e89f9c64647baa26403640570ae48cd3e54ae503c336a792685325e567339534"}, "tags": {"2.4.0--r341_0": "sha256:e89f9c64647baa26403640570ae48cd3e54ae503c336a792685325e567339534"}, "docker": "quay.io/biocontainers/riborex", "aliases": {"idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/riborex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for riborex", "latest": {"2.4.0--r341_0": "sha256:ee627d92edc9c57f4eb23c2b661b5973b8eae5612e3934e354f6ecd2b82ba944"}, "tags": {"2.4.0--r341_0": "sha256:ee627d92edc9c57f4eb23c2b661b5973b8eae5612e3934e354f6ecd2b82ba944"}, "docker": "quay.io/biocontainers/riborex", "aliases": {"idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/riborex.

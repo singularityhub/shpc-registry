@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-d3heatmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-d3heatmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-d3heatmap/container.yaml"
-updated_at: "2024-07-25 03:10:01.225150"
+updated_at: "2024-07-26 03:10:05.823246"
 latest: "0.6.1.1--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-d3heatmap"
 aliases:
@@ -19,8 +19,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "0.6.1.1--r3.3.2_0"
+ - "0.6.1.1--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-d3heatmap"
-config: {"url": "https://biocontainers.pro/tools/r-d3heatmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-d3heatmap", "latest": {"0.6.1.1--r3.3.2_0": "sha256:aaabfd55966767666467c9ca286b4bfc103bcd00cfe87a80e4112486fabb4837"}, "tags": {"0.6.1.1--r3.3.2_0": "sha256:aaabfd55966767666467c9ca286b4bfc103bcd00cfe87a80e4112486fabb4837"}, "docker": "quay.io/biocontainers/r-d3heatmap", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-d3heatmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-d3heatmap", "latest": {"0.6.1.1--r3.3.2_0": "sha256:6fbd570e3284ddd58a566ecd9464578eaccb1cce20ed9f226552757717a03167"}, "tags": {"0.6.1.1--r3.3.2_0": "sha256:6fbd570e3284ddd58a566ecd9464578eaccb1cce20ed9f226552757717a03167", "0.6.1.1--r3.3.1_0": "sha256:378d9c19b1fe85c26f62b8b3e1b02d1a2b16ef8aceee63a9555ac6b7490acbfc"}, "docker": "quay.io/biocontainers/r-d3heatmap", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-d3heatmap.

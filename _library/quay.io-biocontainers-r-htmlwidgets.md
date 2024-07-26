@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-htmlwidgets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-htmlwidgets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-htmlwidgets/container.yaml"
-updated_at: "2024-07-25 03:04:23.821916"
+updated_at: "2024-07-26 03:04:26.653816"
 latest: "0.5--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-htmlwidgets"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.5--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-htmlwidgets"
-config: {"url": "https://biocontainers.pro/tools/r-htmlwidgets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-htmlwidgets", "latest": {"0.5--r3.3.2_0": "sha256:7f0f20376d975615fac94eaacfbcbd9758a2011b0775b06796468c06bcb3c659"}, "tags": {"0.5--r3.3.2_0": "sha256:7f0f20376d975615fac94eaacfbcbd9758a2011b0775b06796468c06bcb3c659"}, "docker": "quay.io/biocontainers/r-htmlwidgets", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-htmlwidgets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-htmlwidgets", "latest": {"0.5--r3.3.2_0": "sha256:98ae60fdeb213f2636dd0aabf05a95e1bd43ffaf518fe09c05935f7434f47852"}, "tags": {"0.5--r3.3.2_0": "sha256:98ae60fdeb213f2636dd0aabf05a95e1bd43ffaf518fe09c05935f7434f47852"}, "docker": "quay.io/biocontainers/r-htmlwidgets", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-htmlwidgets.

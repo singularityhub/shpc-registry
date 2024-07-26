@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biskit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biskit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biskit/container.yaml"
-updated_at: "2024-07-25 03:21:51.893596"
+updated_at: "2024-07-26 03:21:58.862031"
 latest: "2.5.1--py_0"
 container_url: "https://biocontainers.pro/tools/biskit"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "2.5.1--py_0"
 description: "shpc-registry automated BioContainers addition for biskit"
-config: {"url": "https://biocontainers.pro/tools/biskit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biskit", "latest": {"2.5.1--py_0": "sha256:7b46cb7bb49d185cb0f95c7fe67fe57111b6446e3f18656653faf3ab16645db6"}, "tags": {"2.5.1--py_0": "sha256:7b46cb7bb49d185cb0f95c7fe67fe57111b6446e3f18656653faf3ab16645db6"}, "docker": "quay.io/biocontainers/biskit", "aliases": {"bis.py": "/usr/local/bin/bis.py", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/biskit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biskit", "latest": {"2.5.1--py_0": "sha256:18241125d090b5a6e31ae310d9affb862c03a9d0107cf300d12ae6270ad482a9"}, "tags": {"2.5.1--py_0": "sha256:18241125d090b5a6e31ae310d9affb862c03a9d0107cf300d12ae6270ad482a9"}, "docker": "quay.io/biocontainers/biskit", "aliases": {"bis.py": "/usr/local/bin/bis.py", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biskit.

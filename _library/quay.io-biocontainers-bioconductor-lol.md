@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lol"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lol/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lol/container.yaml"
-updated_at: "2024-07-25 02:47:03.656558"
+updated_at: "2024-07-26 02:47:01.241687"
 latest: "1.34.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lol"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.34.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-lol"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lol", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lol", "latest": {"1.34.0--r36_0": "sha256:45ad74a97e1fb9e16d8b1fb51776fb635ebe5d4ca5ac28d9fde37c64f9fdde2e"}, "tags": {"1.34.0--r36_0": "sha256:45ad74a97e1fb9e16d8b1fb51776fb635ebe5d4ca5ac28d9fde37c64f9fdde2e"}, "docker": "quay.io/biocontainers/bioconductor-lol", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lol", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lol", "latest": {"1.34.0--r36_0": "sha256:c162613b5fdb848a5459e63b2bd46c988c942e15488e091436a207f81664b3a7"}, "tags": {"1.34.0--r36_0": "sha256:c162613b5fdb848a5459e63b2bd46c988c942e15488e091436a207f81664b3a7"}, "docker": "quay.io/biocontainers/bioconductor-lol", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lol.

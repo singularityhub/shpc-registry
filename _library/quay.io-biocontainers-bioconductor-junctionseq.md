@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-junctionseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-junctionseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-junctionseq/container.yaml"
-updated_at: "2024-07-25 03:19:01.391836"
+updated_at: "2024-07-26 03:19:08.242644"
 latest: "1.17.0--r40h5f743cb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-junctionseq"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.10.0--r351hfc679d8_0"
  - "1.10.0--r341hfc679d8_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-junctionseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-junctionseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-junctionseq", "latest": {"1.17.0--r40h5f743cb_0": "sha256:e5e9d0fdc1771a0846f7bf2cbe477a692115945d0c91011348bfe0136131eaf6"}, "tags": {"1.8.0--r3.4.1_0": "sha256:04106cbd134485b3c4e6d454b392f0b0a8a1942cb816e60acecadd634d5dffb3", "1.17.0--r40h5f743cb_0": "sha256:e5e9d0fdc1771a0846f7bf2cbe477a692115945d0c91011348bfe0136131eaf6", "1.16.0--r36he1b5a44_0": "sha256:4a584a330eac49f41394e1df127a8a2a38e78d248c0e26f2e3bec612f263837b", "1.14.0--r36he1b5a44_1": "sha256:e185436c0f25a0961e77db8a0ad052de3e97ae47d8971356e7760d8136655f3e", "1.12.0--r351hf484d3e_0": "sha256:f8d3f41c4e42a1721099d903efbf835378f3ad94c897d04ea6eae2434dd55ec3", "1.10.0--r351hfc679d8_0": "sha256:357e5d9d9623f51accbe0428b1052ede92f098ecd885a9757ddd7e8d5f52aa35", "1.10.0--r341hfc679d8_0": "sha256:769c29bcae4c9f80bdc8777c73eed44e1d1e41b9f28bc2639c55f80cca3d3dbe"}, "docker": "quay.io/biocontainers/bioconductor-junctionseq", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-junctionseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-junctionseq", "latest": {"1.17.0--r40h5f743cb_0": "sha256:e5e9d0fdc1771a0846f7bf2cbe477a692115945d0c91011348bfe0136131eaf6"}, "tags": {"1.8.0--r3.4.1_0": "sha256:8d93ad30b76ee8f1ca3283bb5ee8daa65e4209204ad19ec2496cd6d2601acba2", "1.17.0--r40h5f743cb_0": "sha256:e5e9d0fdc1771a0846f7bf2cbe477a692115945d0c91011348bfe0136131eaf6", "1.16.0--r36he1b5a44_0": "sha256:bb3a2b3fb51dd2e445529bc16f9041b6264fc19bfecf6b8731435ac825605c30", "1.14.0--r36he1b5a44_1": "sha256:a7ae80391d0150355c779223d353bc15818b736f049bfdb8fded470a327fa076", "1.12.0--r351hf484d3e_0": "sha256:ff69f380fa62534234f423640cd2e0be4c70c1f45a8e67014e3b6965b8d440bc", "1.10.0--r351hfc679d8_0": "sha256:2ef9dd7fe5106bfbe960f57df4c347cdc631fa20cfe6bbf7e502a465c002b75b", "1.10.0--r341hfc679d8_0": "sha256:9d9b5fcfad2b04ced49ba860e8fb36269c1242f02b05d6dbe31f2f59d167c1d9"}, "docker": "quay.io/biocontainers/bioconductor-junctionseq", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-junctionseq.

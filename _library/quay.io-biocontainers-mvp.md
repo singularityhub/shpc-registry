@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mvp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mvp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mvp/container.yaml"
-updated_at: "2024-07-25 02:52:40.959478"
+updated_at: "2024-07-26 02:52:42.170343"
 latest: "0.4.3--1"
 container_url: "https://biocontainers.pro/tools/mvp"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.4.3--1"
 description: "shpc-registry automated BioContainers addition for mvp"
-config: {"url": "https://biocontainers.pro/tools/mvp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mvp", "latest": {"0.4.3--1": "sha256:c63f2dcc1a8a849ca00884ca57db8f44f3b54a6a873efd3c706eefbb064c141d"}, "tags": {"0.4.3--1": "sha256:c63f2dcc1a8a849ca00884ca57db8f44f3b54a6a873efd3c706eefbb064c141d"}, "docker": "quay.io/biocontainers/mvp", "aliases": {"mvp": "/usr/local/bin/mvp", "sample": "/usr/local/bin/sample", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py"}}
+config: {"url": "https://biocontainers.pro/tools/mvp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mvp", "latest": {"0.4.3--1": "sha256:d7aef71f57e21669891da4f11002137286e01e9fd9cd881b9c3faa0bf8be6cfc"}, "tags": {"0.4.3--1": "sha256:d7aef71f57e21669891da4f11002137286e01e9fd9cd881b9c3faa0bf8be6cfc"}, "docker": "quay.io/biocontainers/mvp", "aliases": {"mvp": "/usr/local/bin/mvp", "sample": "/usr/local/bin/sample", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mvp.

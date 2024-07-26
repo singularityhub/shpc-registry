@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/giatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/giatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/giatools/container.yaml"
-updated_at: "2024-07-25 02:48:07.723285"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2024-07-26 02:48:08.179102"
+latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/giatools"
 aliases:
  - "SvtAv1DecApp"
@@ -38,8 +38,9 @@ aliases:
  - "brotli"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for giatools"
-config: {"url": "https://biocontainers.pro/tools/giatools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for giatools", "latest": {"0.1.1--pyhdfd78af_0": "sha256:724daa314753502508037844637a3f3341b1647b0744dd9c58cd97b3e7301fbe"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:724daa314753502508037844637a3f3341b1647b0744dd9c58cd97b3e7301fbe"}, "docker": "quay.io/biocontainers/giatools", "aliases": {"SvtAv1DecApp": "/usr/local/bin/SvtAv1DecApp", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "rav1e": "/usr/local/bin/rav1e", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "brotli": "/usr/local/bin/brotli"}}
+config: {"url": "https://biocontainers.pro/tools/giatools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for giatools", "latest": {"0.1.2--pyhdfd78af_0": "sha256:4dc7ef94e5be20890da9693870c6a86b76c697b4bf9af93d9707a19cc2ca4893"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:724daa314753502508037844637a3f3341b1647b0744dd9c58cd97b3e7301fbe", "0.1.2--pyhdfd78af_0": "sha256:4dc7ef94e5be20890da9693870c6a86b76c697b4bf9af93d9707a19cc2ca4893"}, "docker": "quay.io/biocontainers/giatools", "aliases": {"SvtAv1DecApp": "/usr/local/bin/SvtAv1DecApp", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "rav1e": "/usr/local/bin/rav1e", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "brotli": "/usr/local/bin/brotli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/giatools.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/giatools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/giatools:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/giatools:0.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/giatools/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/giatools/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/giatools/0.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/giatools/0.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

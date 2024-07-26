@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rgraph2js"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgraph2js/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgraph2js/container.yaml"
-updated_at: "2024-07-25 02:49:03.196588"
+updated_at: "2024-07-26 02:49:04.380340"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgraph2js"
 
@@ -18,7 +18,7 @@ versions:
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rgraph2js"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rgraph2js", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgraph2js", "latest": {"1.30.0--r43hdfd78af_0": "sha256:e4d17dde57b379ff7735e662a2ef9aa1483670f5ef0b832662765b7d1ec941a1"}, "tags": {"1.8.0--r351_0": "sha256:3f91db46e2a9c38090b552a20bad405a2e6fc52790389e5df9fcbb62491f1bb0", "1.26.0--r42hdfd78af_0": "sha256:c707162d9acee948ee31432cdb4bc89b7e38fa1537584b9d1fbc231fd09beca3", "1.22.0--r41hdfd78af_0": "sha256:7a900d08b116d09af0f0b53c1579bd12f364c337484a95505024b162087ed742", "1.20.0--r41hdfd78af_0": "sha256:047f383ddfeaf53dca9304a9aacab38248ee07a8c95a2f195a783d52379844fd", "1.18.0--r40hdfd78af_1": "sha256:06be7a061857d86c05f0aed1d3b3253ae27e56e0500a4c2074bc96d24fd9b10e", "1.16.0--r40_0": "sha256:9ae5c4d62d421da4b4c3d170f8cc3b0b6c2ec71cede5edfd129530af93a2f252", "1.28.0--r43hdfd78af_0": "sha256:fcd3c6f477666080d79a31d2c661516fcd88fa6254aabc9756c5ba2e6c5b5bca", "1.30.0--r43hdfd78af_0": "sha256:e4d17dde57b379ff7735e662a2ef9aa1483670f5ef0b832662765b7d1ec941a1"}, "docker": "quay.io/biocontainers/bioconductor-rgraph2js"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rgraph2js", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgraph2js", "latest": {"1.30.0--r43hdfd78af_0": "sha256:e4d17dde57b379ff7735e662a2ef9aa1483670f5ef0b832662765b7d1ec941a1"}, "tags": {"1.8.0--r351_0": "sha256:e82b0bb0a540ace8b945a6c05ce7069e50b0d162448b2b3175f8269d5f867551", "1.26.0--r42hdfd78af_0": "sha256:c707162d9acee948ee31432cdb4bc89b7e38fa1537584b9d1fbc231fd09beca3", "1.22.0--r41hdfd78af_0": "sha256:7a900d08b116d09af0f0b53c1579bd12f364c337484a95505024b162087ed742", "1.20.0--r41hdfd78af_0": "sha256:047f383ddfeaf53dca9304a9aacab38248ee07a8c95a2f195a783d52379844fd", "1.18.0--r40hdfd78af_1": "sha256:06be7a061857d86c05f0aed1d3b3253ae27e56e0500a4c2074bc96d24fd9b10e", "1.16.0--r40_0": "sha256:9ae5c4d62d421da4b4c3d170f8cc3b0b6c2ec71cede5edfd129530af93a2f252", "1.28.0--r43hdfd78af_0": "sha256:fcd3c6f477666080d79a31d2c661516fcd88fa6254aabc9756c5ba2e6c5b5bca", "1.30.0--r43hdfd78af_0": "sha256:e4d17dde57b379ff7735e662a2ef9aa1483670f5ef0b832662765b7d1ec941a1"}, "docker": "quay.io/biocontainers/bioconductor-rgraph2js"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rgraph2js.

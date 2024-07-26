@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rtrmui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtrmui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtrmui/container.yaml"
-updated_at: "2024-07-25 03:25:02.351562"
+updated_at: "2024-07-26 03:25:09.736774"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtrmui"
 

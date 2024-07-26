@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xbseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xbseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xbseq/container.yaml"
-updated_at: "2024-07-25 03:11:07.413982"
+updated_at: "2024-07-26 03:11:12.529554"
 latest: "1.22.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-xbseq"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.16.0--r36_1"
  - "1.14.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-xbseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-xbseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xbseq", "latest": {"1.22.0--r40hdfd78af_1": "sha256:ef9cd4650c945966287fb14e2ea4f069b77181b587a962327122c9a57b5a4d3b"}, "tags": {"1.8.0--r3.4.1_0": "sha256:3ef025c2c68b30c6c51055339f6db52be6f6c119b987a7b26757e1463b085bfe", "1.22.0--r40hdfd78af_1": "sha256:ef9cd4650c945966287fb14e2ea4f069b77181b587a962327122c9a57b5a4d3b", "1.20.0--r40_0": "sha256:64161f9e78cdde38d857c53948305c6f3014dd528477bfe5bd3dce573f6a427f", "1.18.0--r36_0": "sha256:eb72f3b13b8c71e1d9c4f6cbe0651da10b932de00f2c975af5327a83e34307e9", "1.16.0--r36_1": "sha256:e0b0d748a376fd1a4673e87305174a1f52cc70f9c05bd546e1aa1a4c38596278", "1.14.0--r351_0": "sha256:28f8908e21629c1ea942a78d62117335b43f5d39b4fb6c60b608fc7258cfacd0"}, "docker": "quay.io/biocontainers/bioconductor-xbseq", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-xbseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xbseq", "latest": {"1.22.0--r40hdfd78af_1": "sha256:ef9cd4650c945966287fb14e2ea4f069b77181b587a962327122c9a57b5a4d3b"}, "tags": {"1.8.0--r3.4.1_0": "sha256:af1ecbc6202971d012f08b74d4a84cacff4a5c0abe55b799e44cd53071bddb77", "1.22.0--r40hdfd78af_1": "sha256:ef9cd4650c945966287fb14e2ea4f069b77181b587a962327122c9a57b5a4d3b", "1.20.0--r40_0": "sha256:64161f9e78cdde38d857c53948305c6f3014dd528477bfe5bd3dce573f6a427f", "1.18.0--r36_0": "sha256:e63cbd261a6bee76cb71ab7cb811ee5ac457222d8a0b4fbc82bb1836a4277080", "1.16.0--r36_1": "sha256:005afcb4f960da80c486323baaf94770bc874ee6ed22903c4df0bd42b1e9f5d3", "1.14.0--r351_0": "sha256:aa463182f0b85424ea77164ebe2dfae8f02c551c4a087461f7363e8ca4d3a6f3"}, "docker": "quay.io/biocontainers/bioconductor-xbseq", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-xbseq.

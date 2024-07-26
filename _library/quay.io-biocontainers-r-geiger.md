@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-geiger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-geiger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-geiger/container.yaml"
-updated_at: "2024-07-25 03:00:48.820889"
+updated_at: "2024-07-26 03:00:51.256749"
 latest: "2.0.6--r351h29659fb_3"
 container_url: "https://biocontainers.pro/tools/r-geiger"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "2.0.6--r351h29659fb_3"
 description: "shpc-registry automated BioContainers addition for r-geiger"
-config: {"url": "https://biocontainers.pro/tools/r-geiger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-geiger", "latest": {"2.0.6--r351h29659fb_3": "sha256:a9f9186cd9f5358c99d3f661b2c5c6e28dcb8b29bbebb68ff9fbcee80023a2c6"}, "tags": {"2.0.6--r351h29659fb_3": "sha256:a9f9186cd9f5358c99d3f661b2c5c6e28dcb8b29bbebb68ff9fbcee80023a2c6"}, "docker": "quay.io/biocontainers/r-geiger", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-geiger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-geiger", "latest": {"2.0.6--r351h29659fb_3": "sha256:341cf61590848616ace9f7351835463f10996b8f6090d29219edf4321b448e73"}, "tags": {"2.0.6--r351h29659fb_3": "sha256:341cf61590848616ace9f7351835463f10996b8f6090d29219edf4321b448e73"}, "docker": "quay.io/biocontainers/r-geiger", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-geiger.

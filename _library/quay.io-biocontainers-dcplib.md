@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dcplib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dcplib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dcplib/container.yaml"
-updated_at: "2024-07-25 03:12:23.203496"
+updated_at: "2024-07-26 03:12:28.782612"
 latest: "3.12.0--py_0"
 container_url: "https://biocontainers.pro/tools/dcplib"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "3.12.0--py_0"
  - "3.11.0--py_0"
 description: "shpc-registry automated BioContainers addition for dcplib"
-config: {"url": "https://biocontainers.pro/tools/dcplib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dcplib", "latest": {"3.12.0--py_0": "sha256:51660585aeda4886cbd2ae83833646c9075e840bb0edde1b5ef8947b464faa90"}, "tags": {"3.9.0--py_0": "sha256:d921504c7b662ed3f485355d6a578357c7832e539363f42ff5ee28108cd398b2", "3.12.0--py_0": "sha256:51660585aeda4886cbd2ae83833646c9075e840bb0edde1b5ef8947b464faa90", "3.11.0--py_0": "sha256:9c8a8b3e90b71b709e79cc211fdb5fa0892cd72f083da6bcde41e6e51e5ad9a4"}, "docker": "quay.io/biocontainers/dcplib", "aliases": {"jp.py": "/usr/local/bin/jp.py", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py"}}
+config: {"url": "https://biocontainers.pro/tools/dcplib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dcplib", "latest": {"3.12.0--py_0": "sha256:b614db59302a3ebb613517e6add51d31bee6d4cd962f791daf65932c7cad8dd5"}, "tags": {"3.9.0--py_0": "sha256:3338bfe274392e75c21942e382bba3015868a6584be7644d4a6739a395714784", "3.12.0--py_0": "sha256:b614db59302a3ebb613517e6add51d31bee6d4cd962f791daf65932c7cad8dd5", "3.11.0--py_0": "sha256:f58f1a31f7504c4e80b21d0fbead0a31a2436b84ab8117e90209e1318162ade1"}, "docker": "quay.io/biocontainers/dcplib", "aliases": {"jp.py": "/usr/local/bin/jp.py", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dcplib.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-treeio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-treeio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-treeio/container.yaml"
-updated_at: "2024-07-25 03:19:49.096550"
+updated_at: "2024-07-26 03:19:55.854010"
 latest: "1.26.0--r43hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-treeio"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.24.1--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-treeio"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-treeio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-treeio", "latest": {"1.26.0--r43hdfd78af_1": "sha256:ac9a73d75bab882116881e0acc919e6fa075fa3af03adec1a1eb412165ffe106"}, "tags": {"1.8.1--r36_0": "sha256:599583a1ff4d22946d848903d1ff95b0046fef6a898096b0f2313b51ac2cea0a", "1.22.0--r42hdfd78af_0": "sha256:4f8f50aad10962925a8eefdabfccbe53fc78f9151656d0f4b36dc11653b3f0b8", "1.18.0--r41hdfd78af_0": "sha256:7580f1ce01387acd8b9d9721452a577fdabb59ed48210bac0f6e7e2dc1355e15", "1.16.1--r41hdfd78af_0": "sha256:9377ac922392cb895387da17f438897c6cd4b4078f391c24f5c5d9084c411050", "1.14.3--r40hdfd78af_0": "sha256:34f641e313011b3eda91490ede6a113d8bca27469c7ac2325b3109e58f6ae852", "1.12.0--r40_0": "sha256:adcc3c57f0efded0bda7564921d8996bddd4c4919f3430bc5cfd59519b39a7b7", "1.24.1--r43hdfd78af_0": "sha256:976b87b9dd7acd41d41da22c98ba7cc11b548ef280d47726ae8d013657eba186", "1.26.0--r43hdfd78af_1": "sha256:ac9a73d75bab882116881e0acc919e6fa075fa3af03adec1a1eb412165ffe106"}, "docker": "quay.io/biocontainers/bioconductor-treeio", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-treeio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-treeio", "latest": {"1.26.0--r43hdfd78af_1": "sha256:ac9a73d75bab882116881e0acc919e6fa075fa3af03adec1a1eb412165ffe106"}, "tags": {"1.8.1--r36_0": "sha256:6a213517007d24f6c70c6b56a22465f48781dbeed848f81cf9166bac71baec72", "1.22.0--r42hdfd78af_0": "sha256:4f8f50aad10962925a8eefdabfccbe53fc78f9151656d0f4b36dc11653b3f0b8", "1.18.0--r41hdfd78af_0": "sha256:7580f1ce01387acd8b9d9721452a577fdabb59ed48210bac0f6e7e2dc1355e15", "1.16.1--r41hdfd78af_0": "sha256:9377ac922392cb895387da17f438897c6cd4b4078f391c24f5c5d9084c411050", "1.14.3--r40hdfd78af_0": "sha256:34f641e313011b3eda91490ede6a113d8bca27469c7ac2325b3109e58f6ae852", "1.12.0--r40_0": "sha256:adcc3c57f0efded0bda7564921d8996bddd4c4919f3430bc5cfd59519b39a7b7", "1.24.1--r43hdfd78af_0": "sha256:976b87b9dd7acd41d41da22c98ba7cc11b548ef280d47726ae8d013657eba186", "1.26.0--r43hdfd78af_1": "sha256:ac9a73d75bab882116881e0acc919e6fa075fa3af03adec1a1eb412165ffe106"}, "docker": "quay.io/biocontainers/bioconductor-treeio", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-treeio.

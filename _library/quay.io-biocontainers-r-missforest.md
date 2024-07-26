@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-missforest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-missforest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-missforest/container.yaml"
-updated_at: "2024-07-25 02:53:48.794920"
+updated_at: "2024-07-26 02:53:50.097252"
 latest: "1.4--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-missforest"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.4--r3.3.1_0"
  - "1.4--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-missforest"
-config: {"url": "https://biocontainers.pro/tools/r-missforest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-missforest", "latest": {"1.4--r3.3.1_0": "sha256:0a078f410ed41b80fdf60b435f35d6e10da25e2f0aac6cc55c82f33fba4e6e07"}, "tags": {"1.4--r3.3.1_0": "sha256:0a078f410ed41b80fdf60b435f35d6e10da25e2f0aac6cc55c82f33fba4e6e07", "1.4--r3.3.2_0": "sha256:1aa1a4864b35299ee5b37d035cb03d2aa117673503d32a155007d8b142809920"}, "docker": "quay.io/biocontainers/r-missforest", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-missforest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-missforest", "latest": {"1.4--r3.3.1_0": "sha256:db67476935e2b51848f2ba95ec0dd6b39560fc663f95dd34dd24b662568645d5"}, "tags": {"1.4--r3.3.1_0": "sha256:db67476935e2b51848f2ba95ec0dd6b39560fc663f95dd34dd24b662568645d5", "1.4--r3.3.2_0": "sha256:a5e2747ac10e6afc5cf367cbd2dce7557a2610d248ca6d7112e505dfb5673399"}, "docker": "quay.io/biocontainers/r-missforest", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-missforest.

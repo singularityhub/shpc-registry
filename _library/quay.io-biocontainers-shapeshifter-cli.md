@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shapeshifter-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shapeshifter-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shapeshifter-cli/container.yaml"
-updated_at: "2024-07-25 03:23:07.246131"
+updated_at: "2024-07-26 03:23:13.979036"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/shapeshifter-cli"
 aliases:
@@ -28,7 +28,7 @@ aliases:
 versions:
  - "1.0.0--py_0"
 description: "shpc-registry automated BioContainers addition for shapeshifter-cli"
-config: {"url": "https://biocontainers.pro/tools/shapeshifter-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shapeshifter-cli", "latest": {"1.0.0--py_0": "sha256:7367db6f5c4ab92446e8ba58323c13e280d8b5bec5ab1827592a6ddf77e23a10"}, "tags": {"1.0.0--py_0": "sha256:7367db6f5c4ab92446e8ba58323c13e280d8b5bec5ab1827592a6ddf77e23a10"}, "docker": "quay.io/biocontainers/shapeshifter-cli", "aliases": {"plasma_store_server": "/usr/local/bin/plasma_store_server", "pzstd": "/usr/local/bin/pzstd", "shapeshift": "/usr/local/bin/shapeshift", "shapeshiftmerge": "/usr/local/bin/shapeshiftmerge", "ss": "/usr/local/bin/ss", "ssm": "/usr/local/bin/ssm", "thrift": "/usr/local/bin/thrift", "plasma_store": "/usr/local/bin/plasma_store", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "runxlrd.py": "/usr/local/bin/runxlrd.py", "vba_extract.py": "/usr/local/bin/vba_extract.py", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "jsonschema": "/usr/local/bin/jsonschema", "protoc": "/usr/local/bin/protoc"}}
+config: {"url": "https://biocontainers.pro/tools/shapeshifter-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shapeshifter-cli", "latest": {"1.0.0--py_0": "sha256:2905e14347a92394381f69cf7b460054fb5022415eb07666b7bef7c5a396ca51"}, "tags": {"1.0.0--py_0": "sha256:2905e14347a92394381f69cf7b460054fb5022415eb07666b7bef7c5a396ca51"}, "docker": "quay.io/biocontainers/shapeshifter-cli", "aliases": {"plasma_store_server": "/usr/local/bin/plasma_store_server", "pzstd": "/usr/local/bin/pzstd", "shapeshift": "/usr/local/bin/shapeshift", "shapeshiftmerge": "/usr/local/bin/shapeshiftmerge", "ss": "/usr/local/bin/ss", "ssm": "/usr/local/bin/ssm", "thrift": "/usr/local/bin/thrift", "plasma_store": "/usr/local/bin/plasma_store", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "runxlrd.py": "/usr/local/bin/runxlrd.py", "vba_extract.py": "/usr/local/bin/vba_extract.py", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "jsonschema": "/usr/local/bin/jsonschema", "protoc": "/usr/local/bin/protoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shapeshifter-cli.
