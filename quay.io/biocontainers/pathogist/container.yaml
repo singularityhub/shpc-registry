@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/pathogist
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pathogist
 latest:
-  0.3.6--py_1: sha256:fe28d46a35c0c04246c03fb9290b989ae96251c23e83259ac3860002bd171618
+  0.3.6--py_1: sha256:a9cf97a2f044722e57981c79e26405ac2071af0308b113eac756202b80e23a4f
 tags:
-  0.3.6--py_1: sha256:fe28d46a35c0c04246c03fb9290b989ae96251c23e83259ac3860002bd171618
+  0.3.6--py_1: sha256:a9cf97a2f044722e57981c79e26405ac2071af0308b113eac756202b80e23a4f
 docker: quay.io/biocontainers/pathogist
 aliases:
   MentaLiST.jl: /usr/local/bin/MentaLiST.jl

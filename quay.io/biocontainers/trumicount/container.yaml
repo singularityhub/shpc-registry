@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for trumicount
 latest:
   0.9.14--r43hdfd78af_2: sha256:fe95f1478e4fccd59e5b3fecba48da2708e1f74ed3317b622aae47de569a3af7
 tags:
-  0.9.9.3--r3.4.1_0: sha256:dd7763e3cd7953ffab7b72c83299f467d8616cabeb466dfc3e9ad78988cb3d5e
+  0.9.9.3--r3.4.1_0: sha256:4a3c3b312b5623ff9ac8bf739eb3bf82ee81dd9373c4a1dd2b19664e905c0dbb
   0.9.14--r41hdfd78af_0: sha256:e25a7b0191e9df6032236faad48a130595cc3a3ba1d74402e2f69ea7d3046309
   0.9.14--r42hdfd78af_1: sha256:da14ff3a3fd368a08ea48a637b75409a5681858a66a011c4509d09ca4b116e64
   0.9.14--r43hdfd78af_2: sha256:fe95f1478e4fccd59e5b3fecba48da2708e1f74ed3317b622aae47de569a3af7

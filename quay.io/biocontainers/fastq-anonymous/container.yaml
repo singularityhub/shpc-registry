@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/fastq-anonymous
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastq-anonymous
 latest:
-  1.0.1--py_2: sha256:c4d76ab8eb1e2cee558d8c5407d5ad7bbe264bf990bec8b4d84f0c78b4ce34fb
+  1.0.1--py_2: sha256:46755dc2aab8d339236bfa9d862139e916fa402ae326b148a861f2d51c3050a4
 tags:
-  1.0.1--py_2: sha256:c4d76ab8eb1e2cee558d8c5407d5ad7bbe264bf990bec8b4d84f0c78b4ce34fb
+  1.0.1--py_2: sha256:46755dc2aab8d339236bfa9d862139e916fa402ae326b148a861f2d51c3050a4
 docker: quay.io/biocontainers/fastq-anonymous
 aliases:
   fastq-anonymous: /usr/local/bin/fastq-anonymous

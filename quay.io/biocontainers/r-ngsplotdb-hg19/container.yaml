@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-ngsplotdb-hg19
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ngsplotdb-hg19
 latest:
-  3.00--2: sha256:0f878adb3690a5d472afd4532e198dd55239e8ae03aeaad984b8f25f9c88abaf
+  3.00--2: sha256:485f504961d9f90d6fad7a6cc984676a250351ef3748f78c9e79aaac99de9d67
 tags:
-  3.00--2: sha256:0f878adb3690a5d472afd4532e198dd55239e8ae03aeaad984b8f25f9c88abaf
+  3.00--2: sha256:485f504961d9f90d6fad7a6cc984676a250351ef3748f78c9e79aaac99de9d67
 docker: quay.io/biocontainers/r-ngsplotdb-hg19
 aliases:
   ExtractGName.R: /usr/local/bin/ExtractGName.R
