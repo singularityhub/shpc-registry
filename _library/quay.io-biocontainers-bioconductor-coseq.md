@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-coseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-coseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-coseq/container.yaml"
-updated_at: "2024-07-26 02:39:20.320179"
+updated_at: "2024-07-27 02:36:50.219709"
 latest: "1.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-coseq"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-coseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-coseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-coseq", "latest": {"1.26.0--r43hdfd78af_0": "sha256:1e0dbde7fe0d6a947764bdf986c756ac3d734741a0fe4e36d3f87de5f38243de"}, "tags": {"1.8.0--r36_1": "sha256:9118793b02994c069b9709049d4bc500b87a8319bc88afb23a665903b897c39c", "1.22.0--r42hdfd78af_0": "sha256:152d44d709ec60e7f915c5548ba4ecb2828681d9bebfd878e4c515510439bed5", "1.18.0--r41hdfd78af_0": "sha256:626ba2c320f3c6a575c530d4eb73a2fd05fd0dc05cf5aad1cf0c3a930ded2a67", "1.16.0--r41hdfd78af_0": "sha256:529f2fd2df74165905c3a0c12ef9ebe45135bd05238c53fa3b3ecf36b3a5829f", "1.12.0--r40_0": "sha256:d4d6f67019f8df6b09fbb26ddef361a33c10aa88c97d7517ad99b667ec02075b", "1.10.0--r36_0": "sha256:53b4208420dac921e868687de55c6e10449cb5499fceb3d7c76db0bd9f722051", "1.24.0--r43hdfd78af_0": "sha256:25e3dc920044827eafa59acae547b60c3340f42a254ae9818c4828f05d129732", "1.26.0--r43hdfd78af_0": "sha256:1e0dbde7fe0d6a947764bdf986c756ac3d734741a0fe4e36d3f87de5f38243de"}, "docker": "quay.io/biocontainers/bioconductor-coseq", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-coseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-coseq", "latest": {"1.26.0--r43hdfd78af_0": "sha256:1e0dbde7fe0d6a947764bdf986c756ac3d734741a0fe4e36d3f87de5f38243de"}, "tags": {"1.8.0--r36_1": "sha256:8e31bbdbc60a709d4b092d2f1dfc4536da0897f666e2f19ad449a1978cbcbfaa", "1.22.0--r42hdfd78af_0": "sha256:152d44d709ec60e7f915c5548ba4ecb2828681d9bebfd878e4c515510439bed5", "1.18.0--r41hdfd78af_0": "sha256:626ba2c320f3c6a575c530d4eb73a2fd05fd0dc05cf5aad1cf0c3a930ded2a67", "1.16.0--r41hdfd78af_0": "sha256:529f2fd2df74165905c3a0c12ef9ebe45135bd05238c53fa3b3ecf36b3a5829f", "1.12.0--r40_0": "sha256:d4d6f67019f8df6b09fbb26ddef361a33c10aa88c97d7517ad99b667ec02075b", "1.10.0--r36_0": "sha256:95ad70366f0fc2daca55fb5a78ce0b2e2fba035dd9e59396368e9fac8315721f", "1.24.0--r43hdfd78af_0": "sha256:25e3dc920044827eafa59acae547b60c3340f42a254ae9818c4828f05d129732", "1.26.0--r43hdfd78af_0": "sha256:1e0dbde7fe0d6a947764bdf986c756ac3d734741a0fe4e36d3f87de5f38243de"}, "docker": "quay.io/biocontainers/bioconductor-coseq", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-coseq.

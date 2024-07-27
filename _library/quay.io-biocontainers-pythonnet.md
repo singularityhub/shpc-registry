@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pythonnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pythonnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pythonnet/container.yaml"
-updated_at: "2024-07-26 02:45:36.391828"
+updated_at: "2024-07-27 02:42:43.546734"
 latest: "2.3.0--py27_1"
 container_url: "https://biocontainers.pro/tools/pythonnet"
 aliases:
@@ -26,7 +26,7 @@ aliases:
 versions:
  - "2.3.0--py27_1"
 description: "shpc-registry automated BioContainers addition for pythonnet"
-config: {"url": "https://biocontainers.pro/tools/pythonnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pythonnet", "latest": {"2.3.0--py27_1": "sha256:9e7ea74a9c5644a827b7643cc53dc629602947ca172ad142fbde4a8cf92a301a"}, "tags": {"2.3.0--py27_1": "sha256:9e7ea74a9c5644a827b7643cc53dc629602947ca172ad142fbde4a8cf92a301a"}, "docker": "quay.io/biocontainers/pythonnet", "aliases": {"monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "prj2make": "/usr/local/bin/prj2make", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
+config: {"url": "https://biocontainers.pro/tools/pythonnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pythonnet", "latest": {"2.3.0--py27_1": "sha256:a78cc19138c9a35d753f8a2627a217faa57aa6f05ebae1f0168bf602b3c4b03e"}, "tags": {"2.3.0--py27_1": "sha256:a78cc19138c9a35d753f8a2627a217faa57aa6f05ebae1f0168bf602b3c4b03e"}, "docker": "quay.io/biocontainers/pythonnet", "aliases": {"monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "prj2make": "/usr/local/bin/prj2make", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pythonnet.

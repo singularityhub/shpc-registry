@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pathostat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathostat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathostat/container.yaml"
-updated_at: "2024-07-26 02:41:09.438723"
+updated_at: "2024-07-27 02:38:34.052373"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathostat"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pathostat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pathostat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pathostat", "latest": {"1.28.0--r43hdfd78af_0": "sha256:93897649730c1989b3c03485cc01225e4f9260182f3875cea8b41d29c84c1397"}, "tags": {"1.8.4--r351_0": "sha256:347c81c309b1c6dabbb6f238c685d70fb2308ae015b11dc884c1d38496cb05c0", "1.24.0--r42hdfd78af_0": "sha256:ab3781d112636ea98443df98e82fde894e568da6e7fa1ca5f592e01513a3ba90", "1.20.0--r41hdfd78af_0": "sha256:8b837a2b3f55657817706a81c2a5ab599667a108d144a8a98e029bec5d41534c", "1.18.0--r41hdfd78af_0": "sha256:4b903af179df6950b5a306d37aaa3ab9b7c82981f5f08e299d5c4779958a1515", "1.16.0--r40hdfd78af_1": "sha256:8f0dc4ab22823c6941e73aab034301c8c551d72708402771b491b34ac81ba92c", "1.14.0--r40_0": "sha256:3356299f4acf52ca15947147f3df79d4242e609b2fbaedca4e3932a9ee0cbfde", "1.26.0--r43hdfd78af_0": "sha256:5cf70a4184a6467ba571e6759c63b1cbaddeff27e80d3c2ec3e9d85ab791aacf", "1.28.0--r43hdfd78af_0": "sha256:93897649730c1989b3c03485cc01225e4f9260182f3875cea8b41d29c84c1397"}, "docker": "quay.io/biocontainers/bioconductor-pathostat", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pathostat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pathostat", "latest": {"1.28.0--r43hdfd78af_0": "sha256:93897649730c1989b3c03485cc01225e4f9260182f3875cea8b41d29c84c1397"}, "tags": {"1.8.4--r351_0": "sha256:2893be7111619f36d7aedfc6d5efeed65e514b1a7e9cf6e4310379d6d44f739d", "1.24.0--r42hdfd78af_0": "sha256:ab3781d112636ea98443df98e82fde894e568da6e7fa1ca5f592e01513a3ba90", "1.20.0--r41hdfd78af_0": "sha256:8b837a2b3f55657817706a81c2a5ab599667a108d144a8a98e029bec5d41534c", "1.18.0--r41hdfd78af_0": "sha256:4b903af179df6950b5a306d37aaa3ab9b7c82981f5f08e299d5c4779958a1515", "1.16.0--r40hdfd78af_1": "sha256:8f0dc4ab22823c6941e73aab034301c8c551d72708402771b491b34ac81ba92c", "1.14.0--r40_0": "sha256:3356299f4acf52ca15947147f3df79d4242e609b2fbaedca4e3932a9ee0cbfde", "1.26.0--r43hdfd78af_0": "sha256:5cf70a4184a6467ba571e6759c63b1cbaddeff27e80d3c2ec3e9d85ab791aacf", "1.28.0--r43hdfd78af_0": "sha256:93897649730c1989b3c03485cc01225e4f9260182f3875cea8b41d29c84c1397"}, "docker": "quay.io/biocontainers/bioconductor-pathostat", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pathostat.

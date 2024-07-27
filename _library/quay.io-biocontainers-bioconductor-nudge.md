@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nudge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nudge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nudge/container.yaml"
-updated_at: "2024-07-26 03:08:36.025365"
+updated_at: "2024-07-27 03:04:49.947583"
 latest: "1.46.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nudge"
 
@@ -12,7 +12,7 @@ versions:
  - "1.46.0--r351_0"
  - "1.46.0--r341_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nudge"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nudge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nudge", "latest": {"1.46.0--r351_0": "sha256:ec5bf0fb581831d71434f0d5a5a0c0a899002ea2c8a14b18ae745e69bd7ebe19"}, "tags": {"1.46.0--r351_0": "sha256:ec5bf0fb581831d71434f0d5a5a0c0a899002ea2c8a14b18ae745e69bd7ebe19", "1.46.0--r341_0": "sha256:1bd752aaf2eed1ca505897643a14370d14d2612a949982463153516077ebc9da"}, "docker": "quay.io/biocontainers/bioconductor-nudge"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nudge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nudge", "latest": {"1.46.0--r351_0": "sha256:650c22e4a54a71de9ee624abcdbfbaa6f3248254a9181e58ab6419f066747e92"}, "tags": {"1.46.0--r351_0": "sha256:650c22e4a54a71de9ee624abcdbfbaa6f3248254a9181e58ab6419f066747e92", "1.46.0--r341_0": "sha256:b946d83933b0dabf3e18c8348b872bfc7285a33398f85a367bbebb63e0bc4b45"}, "docker": "quay.io/biocontainers/bioconductor-nudge"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nudge.

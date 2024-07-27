@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rapmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rapmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rapmap/container.yaml"
-updated_at: "2024-07-26 02:56:14.194116"
+updated_at: "2024-07-27 02:52:46.726407"
 latest: "0.6.0--h6a68c12_5"
 container_url: "https://biocontainers.pro/tools/rapmap"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "0.5.0--hfc679d8_0"
  - "0.6.0--h6a68c12_5"
 description: "shpc-registry automated BioContainers addition for rapmap"
-config: {"url": "https://biocontainers.pro/tools/rapmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rapmap", "latest": {"0.6.0--h6a68c12_5": "sha256:21023f8d6f723c403237be0812ec8f43cc223c3a00d557ec20e943634071d7d0"}, "tags": {"v0.2.1--hfc679d8_2": "sha256:b17abbee8b67810c8291d09721a3d982edf74800ce5d4879e9d265391a5756c4", "0.6.0--hf1761c0_3": "sha256:863de1f30d00960140a1df9b7ee69672f1afef7e6346805dddb6d4e307d8e58f", "0.5.0--hfc679d8_0": "sha256:a973b5c35e2343084e603fd576e8a2043f655c4b9a93da776f2601b72dfa48c0", "0.6.0--h6a68c12_5": "sha256:21023f8d6f723c403237be0812ec8f43cc223c3a00d557ec20e943634071d7d0"}, "docker": "quay.io/biocontainers/rapmap", "aliases": {"rapmap": "/usr/local/bin/rapmap"}}
+config: {"url": "https://biocontainers.pro/tools/rapmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rapmap", "latest": {"0.6.0--h6a68c12_5": "sha256:21023f8d6f723c403237be0812ec8f43cc223c3a00d557ec20e943634071d7d0"}, "tags": {"v0.2.1--hfc679d8_2": "sha256:c6846dba583697ed579b82108f9533e654ebdf9d23e6383d83eedb8a25fbe1cc", "0.6.0--hf1761c0_3": "sha256:863de1f30d00960140a1df9b7ee69672f1afef7e6346805dddb6d4e307d8e58f", "0.5.0--hfc679d8_0": "sha256:5364278a9257879a481402fd532b7ab92c8b92742d3120147a7293d1cd904b3f", "0.6.0--h6a68c12_5": "sha256:21023f8d6f723c403237be0812ec8f43cc223c3a00d557ec20e943634071d7d0"}, "docker": "quay.io/biocontainers/rapmap", "aliases": {"rapmap": "/usr/local/bin/rapmap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rapmap.

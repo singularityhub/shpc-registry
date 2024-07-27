@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bmtool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bmtool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bmtool/container.yaml"
-updated_at: "2024-07-26 02:56:00.886216"
-latest: "3.101--he1b5a44_3"
+updated_at: "2024-07-27 02:52:33.740518"
+latest: "3.101--hdbdd923_5"
 container_url: "https://biocontainers.pro/tools/bmtool"
 aliases:
  - "bmtool"
 versions:
  - "3.101--he1b5a44_3"
+ - "3.101--hdbdd923_5"
 description: "shpc-registry automated BioContainers addition for bmtool"
-config: {"url": "https://biocontainers.pro/tools/bmtool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bmtool", "latest": {"3.101--he1b5a44_3": "sha256:3a6d1f79775ee79ee4c225176aa37c02b84ede98a6eb4da712d4c8323f8c8689"}, "tags": {"3.101--he1b5a44_3": "sha256:3a6d1f79775ee79ee4c225176aa37c02b84ede98a6eb4da712d4c8323f8c8689"}, "docker": "quay.io/biocontainers/bmtool", "aliases": {"bmtool": "/usr/local/bin/bmtool"}}
+config: {"url": "https://biocontainers.pro/tools/bmtool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bmtool", "latest": {"3.101--hdbdd923_5": "sha256:7ab31b3ca0b9f652eeead87959a30169cc19cfc97f83364d506bbde9b4247963"}, "tags": {"3.101--he1b5a44_3": "sha256:3a6d1f79775ee79ee4c225176aa37c02b84ede98a6eb4da712d4c8323f8c8689", "3.101--hdbdd923_5": "sha256:7ab31b3ca0b9f652eeead87959a30169cc19cfc97f83364d506bbde9b4247963"}, "docker": "quay.io/biocontainers/bmtool", "aliases": {"bmtool": "/usr/local/bin/bmtool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bmtool.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bmtool
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bmtool:3.101--he1b5a44_3
+$ shpc install quay.io/biocontainers/bmtool:3.101--hdbdd923_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bmtool/3.101--he1b5a44_3
-$ module help quay.io/biocontainers/bmtool/3.101--he1b5a44_3
+$ module load quay.io/biocontainers/bmtool/3.101--hdbdd923_5
+$ module help quay.io/biocontainers/bmtool/3.101--hdbdd923_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

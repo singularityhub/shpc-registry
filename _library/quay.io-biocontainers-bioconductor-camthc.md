@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-camthc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-camthc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-camthc/container.yaml"
-updated_at: "2024-07-26 02:35:57.884119"
+updated_at: "2024-07-27 02:33:41.808343"
 latest: "1.4.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-camthc"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.4.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-camthc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-camthc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-camthc", "latest": {"1.4.0--r36_0": "sha256:75a07d2e05ba223a85c02ca80399781475b84a586ccda2be3a4d9864afb00f84"}, "tags": {"1.4.0--r36_0": "sha256:75a07d2e05ba223a85c02ca80399781475b84a586ccda2be3a4d9864afb00f84"}, "docker": "quay.io/biocontainers/bioconductor-camthc", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-camthc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-camthc", "latest": {"1.4.0--r36_0": "sha256:00df6088d7a6cca2231069f2f5556f17e897300e0a8893d55d9791bbdd7affd4"}, "tags": {"1.4.0--r36_0": "sha256:00df6088d7a6cca2231069f2f5556f17e897300e0a8893d55d9791bbdd7affd4"}, "docker": "quay.io/biocontainers/bioconductor-camthc", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-camthc.

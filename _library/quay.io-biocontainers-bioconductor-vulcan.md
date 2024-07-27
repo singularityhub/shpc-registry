@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vulcan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vulcan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vulcan/container.yaml"
-updated_at: "2024-07-26 02:43:26.990356"
+updated_at: "2024-07-27 02:40:43.203369"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vulcan"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-vulcan"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-vulcan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vulcan", "latest": {"1.24.0--r43hdfd78af_0": "sha256:055a3ee58813caa5f880e9a979e1e17e25365521972ecca3012662ce3b42f2e2"}, "tags": {"1.8.0--r36_0": "sha256:dec800733e2d58db8d4888ea9ac8e2ca6dd09001f1d8873475e95f58a9b6e838", "1.20.0--r42hdfd78af_0": "sha256:48e303c264a5fa0416bf43e5e2eba76f86cacaaa0f5b3c4c9d076b594314897f", "1.16.0--r41hdfd78af_0": "sha256:98a2c25ce6312d7a0ea618228b7cea28b614181e6e739bc868205e8390bc529e", "1.14.0--r41hdfd78af_0": "sha256:29ab195df8a1d90cc4a0068cfcf9c331414b150fe08bf08c7355d0d1e6cc8255", "1.10.0--r40_0": "sha256:e316542d5ff5c62b2644ceda1b0af6d805b1158d0e9a7cf8a2f5f9be3ad2a046", "1.22.0--r43hdfd78af_0": "sha256:cc501f3ee3159717630b92826b261197ed1667547f2a261018ac21f3fc4f8a7b", "1.24.0--r43hdfd78af_0": "sha256:055a3ee58813caa5f880e9a979e1e17e25365521972ecca3012662ce3b42f2e2"}, "docker": "quay.io/biocontainers/bioconductor-vulcan", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-vulcan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vulcan", "latest": {"1.24.0--r43hdfd78af_0": "sha256:055a3ee58813caa5f880e9a979e1e17e25365521972ecca3012662ce3b42f2e2"}, "tags": {"1.8.0--r36_0": "sha256:b9d407cede991f5b588e9af23d06b935e05119628c805bf6d52eb2d6af40e7fa", "1.20.0--r42hdfd78af_0": "sha256:48e303c264a5fa0416bf43e5e2eba76f86cacaaa0f5b3c4c9d076b594314897f", "1.16.0--r41hdfd78af_0": "sha256:98a2c25ce6312d7a0ea618228b7cea28b614181e6e739bc868205e8390bc529e", "1.14.0--r41hdfd78af_0": "sha256:29ab195df8a1d90cc4a0068cfcf9c331414b150fe08bf08c7355d0d1e6cc8255", "1.10.0--r40_0": "sha256:e316542d5ff5c62b2644ceda1b0af6d805b1158d0e9a7cf8a2f5f9be3ad2a046", "1.22.0--r43hdfd78af_0": "sha256:cc501f3ee3159717630b92826b261197ed1667547f2a261018ac21f3fc4f8a7b", "1.24.0--r43hdfd78af_0": "sha256:055a3ee58813caa5f880e9a979e1e17e25365521972ecca3012662ce3b42f2e2"}, "docker": "quay.io/biocontainers/bioconductor-vulcan", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-vulcan.

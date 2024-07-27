@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ic10trainingdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ic10trainingdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ic10trainingdata/container.yaml"
-updated_at: "2024-07-26 02:58:24.209227"
+updated_at: "2024-07-27 02:55:00.300061"
 latest: "1.0.1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-ic10trainingdata"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.0.1--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-ic10trainingdata"
-config: {"url": "https://biocontainers.pro/tools/r-ic10trainingdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ic10trainingdata", "latest": {"1.0.1--r3.4.1_0": "sha256:9b321d8babcdf89c5f986fe3b6bc374ba9ceea6a06261319aa94b216a2967510"}, "tags": {"1.0.1--r3.4.1_0": "sha256:9b321d8babcdf89c5f986fe3b6bc374ba9ceea6a06261319aa94b216a2967510"}, "docker": "quay.io/biocontainers/r-ic10trainingdata", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-ic10trainingdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ic10trainingdata", "latest": {"1.0.1--r3.4.1_0": "sha256:62fe9f422851e55e6bd87fae7df51f971d96b989e74af92e902bbb25e437b1c1"}, "tags": {"1.0.1--r3.4.1_0": "sha256:62fe9f422851e55e6bd87fae7df51f971d96b989e74af92e902bbb25e437b1c1"}, "docker": "quay.io/biocontainers/r-ic10trainingdata", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ic10trainingdata.

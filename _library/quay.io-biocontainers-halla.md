@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/halla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/halla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/halla/container.yaml"
-updated_at: "2024-07-26 03:19:31.925563"
+updated_at: "2024-07-27 03:15:10.321870"
 latest: "0.8.17--py36_0"
 container_url: "https://biocontainers.pro/tools/halla"
 aliases:
@@ -26,7 +26,7 @@ versions:
  - "0.8.17--py36_0"
  - "0.8.17--py27_0"
 description: "shpc-registry automated BioContainers addition for halla"
-config: {"url": "https://biocontainers.pro/tools/halla", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for halla", "latest": {"0.8.17--py36_0": "sha256:4c4ae4051f8db1e777892a856a89447478a610d6f9a58858e754ab40637f0848"}, "tags": {"0.8.17--py36_0": "sha256:4c4ae4051f8db1e777892a856a89447478a610d6f9a58858e754ab40637f0848", "0.8.17--py27_0": "sha256:c1c815cc25c764a8870df643a09e735b54343a993a26dc950a1013b1a680ecf6"}, "docker": "quay.io/biocontainers/halla", "aliases": {"halla": "/usr/local/bin/halla", "halladata": "/usr/local/bin/halladata", "hallagram": "/usr/local/bin/hallagram", "hallascatter": "/usr/local/bin/hallascatter", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "f2py3.6": "/usr/local/bin/f2py3.6", "qhelpconverter": "/usr/local/bin/qhelpconverter", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo"}}
+config: {"url": "https://biocontainers.pro/tools/halla", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for halla", "latest": {"0.8.17--py36_0": "sha256:ebd931b2ac3e799d6c9d9334483ddc088538161ea23e146ade37fcb2ae1ec920"}, "tags": {"0.8.17--py36_0": "sha256:ebd931b2ac3e799d6c9d9334483ddc088538161ea23e146ade37fcb2ae1ec920", "0.8.17--py27_0": "sha256:239c35baf60a7ffae46528f7bd1d3c562f473909082287230a7d24a47066108c"}, "docker": "quay.io/biocontainers/halla", "aliases": {"halla": "/usr/local/bin/halla", "halladata": "/usr/local/bin/halladata", "hallagram": "/usr/local/bin/hallagram", "hallascatter": "/usr/local/bin/hallascatter", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "f2py3.6": "/usr/local/bin/f2py3.6", "qhelpconverter": "/usr/local/bin/qhelpconverter", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/halla.

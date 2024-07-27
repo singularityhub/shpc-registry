@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/garnett-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/garnett-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/garnett-cli/container.yaml"
-updated_at: "2024-07-26 03:21:19.028247"
+updated_at: "2024-07-27 03:16:52.140573"
 latest: "0.0.5--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/garnett-cli"
 aliases:
@@ -25,7 +25,7 @@ versions:
  - "v0.0.1--r36_0"
  - "0.0.5--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for garnett-cli"
-config: {"url": "https://biocontainers.pro/tools/garnett-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for garnett-cli", "latest": {"0.0.5--hdfd78af_1": "sha256:bfa33b0dedcaa5800c6cad483c99697b397eeb9e6fe8ec6a7a80c6f6ba0a001e"}, "tags": {"v0.0.1--r36_0": "sha256:38e89fa8f323b4abf55bf7304665172b007951f405494b62dad56e1fcccdde76", "0.0.5--hdfd78af_1": "sha256:bfa33b0dedcaa5800c6cad483c99697b397eeb9e6fe8ec6a7a80c6f6ba0a001e"}, "docker": "quay.io/biocontainers/garnett-cli", "aliases": {"garnett_check_markers.R": "/usr/local/bin/garnett_check_markers.R", "garnett_classify_cells.R": "/usr/local/bin/garnett_classify_cells.R", "garnett_cli_post_install_tests.bats": "/usr/local/bin/garnett_cli_post_install_tests.bats", "garnett_cli_post_install_tests.sh": "/usr/local/bin/garnett_cli_post_install_tests.sh", "garnett_get_feature_genes.R": "/usr/local/bin/garnett_get_feature_genes.R", "garnett_train_classifier.R": "/usr/local/bin/garnett_train_classifier.R", "make_test_data.R": "/usr/local/bin/make_test_data.R", "parse_expr_data.R": "/usr/local/bin/parse_expr_data.R", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/garnett-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for garnett-cli", "latest": {"0.0.5--hdfd78af_1": "sha256:bfa33b0dedcaa5800c6cad483c99697b397eeb9e6fe8ec6a7a80c6f6ba0a001e"}, "tags": {"v0.0.1--r36_0": "sha256:c0b059234123ae7592838e1b6c0990f75ffb5f18247c027eae3df176d022fe65", "0.0.5--hdfd78af_1": "sha256:bfa33b0dedcaa5800c6cad483c99697b397eeb9e6fe8ec6a7a80c6f6ba0a001e"}, "docker": "quay.io/biocontainers/garnett-cli", "aliases": {"garnett_check_markers.R": "/usr/local/bin/garnett_check_markers.R", "garnett_classify_cells.R": "/usr/local/bin/garnett_classify_cells.R", "garnett_cli_post_install_tests.bats": "/usr/local/bin/garnett_cli_post_install_tests.bats", "garnett_cli_post_install_tests.sh": "/usr/local/bin/garnett_cli_post_install_tests.sh", "garnett_get_feature_genes.R": "/usr/local/bin/garnett_get_feature_genes.R", "garnett_train_classifier.R": "/usr/local/bin/garnett_train_classifier.R", "make_test_data.R": "/usr/local/bin/make_test_data.R", "parse_expr_data.R": "/usr/local/bin/parse_expr_data.R", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/garnett-cli.

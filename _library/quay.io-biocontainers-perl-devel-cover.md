@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-devel-cover"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-devel-cover/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-devel-cover/container.yaml"
-updated_at: "2024-07-26 03:12:40.354088"
+updated_at: "2024-07-27 03:08:40.480751"
 latest: "1.33--pl526h14c3975_0"
 container_url: "https://biocontainers.pro/tools/perl-devel-cover"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.33--pl526h14c3975_0"
 description: "shpc-registry automated BioContainers addition for perl-devel-cover"
-config: {"url": "https://biocontainers.pro/tools/perl-devel-cover", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-devel-cover", "latest": {"1.33--pl526h14c3975_0": "sha256:002aba4e9df855891c1defc66a00b2ff19c5112e29045c1821dff714ca7d0fd8"}, "tags": {"1.33--pl526h14c3975_0": "sha256:002aba4e9df855891c1defc66a00b2ff19c5112e29045c1821dff714ca7d0fd8"}, "docker": "quay.io/biocontainers/perl-devel-cover", "aliases": {"cover": "/usr/local/bin/cover", "cpancover": "/usr/local/bin/cpancover", "gcov2perl": "/usr/local/bin/gcov2perl", "pod_cover": "/usr/local/bin/pod_cover", "imgsize": "/usr/local/bin/imgsize", "tpage": "/usr/local/bin/tpage", "ttree": "/usr/local/bin/ttree", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-devel-cover", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-devel-cover", "latest": {"1.33--pl526h14c3975_0": "sha256:b004acf0fa34facd4d4861c1a139e3ae51bb4b430f8f645f8ca8e745b23357cb"}, "tags": {"1.33--pl526h14c3975_0": "sha256:b004acf0fa34facd4d4861c1a139e3ae51bb4b430f8f645f8ca8e745b23357cb"}, "docker": "quay.io/biocontainers/perl-devel-cover", "aliases": {"cover": "/usr/local/bin/cover", "cpancover": "/usr/local/bin/cpancover", "gcov2perl": "/usr/local/bin/gcov2perl", "pod_cover": "/usr/local/bin/pod_cover", "imgsize": "/usr/local/bin/imgsize", "tpage": "/usr/local/bin/tpage", "ttree": "/usr/local/bin/ttree", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-devel-cover.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pathprint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathprint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathprint/container.yaml"
-updated_at: "2024-07-26 03:11:49.480775"
+updated_at: "2024-07-27 03:07:52.311115"
 latest: "1.17.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathprint"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "1.10.4--r351_0"
  - "1.10.4--r341_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pathprint"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pathprint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pathprint", "latest": {"1.17.0--r40_0": "sha256:41ceed7ba37537e4f726a69912de204099c05cf2aa57fa9fff50e7c7ae6b3983"}, "tags": {"1.6.0--r3.4.1_0": "sha256:743dedfdbd34761c26b2fb24f8113d5cd02cb6788ab45c130388b097fefe890d", "1.17.0--r40_0": "sha256:41ceed7ba37537e4f726a69912de204099c05cf2aa57fa9fff50e7c7ae6b3983", "1.16.0--r36_0": "sha256:5cd8f4e9abd39d18639212cfc8ae35e31c678fd8cae44b176424d2ff870b2061", "1.14.0--r36_1": "sha256:c12e96eaaacd2b388c98f0be0826313db527a6e49743544c634f984463540c16", "1.12.0--r351_0": "sha256:0f72e2296499e7136c50c22861e86c977624397285af2ab56d088631710ade7e", "1.10.4--r351_0": "sha256:bea19fae4fab5a4ddc6890e76566b03a0f405e179b1fbfdeef7b77ebe7f17b07", "1.10.4--r341_0": "sha256:32ce6a71fc6ecccddbc8ca986cd0569c621d2456a6d2c885fe872c3ef16b2a1e"}, "docker": "quay.io/biocontainers/bioconductor-pathprint", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pathprint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pathprint", "latest": {"1.17.0--r40_0": "sha256:41ceed7ba37537e4f726a69912de204099c05cf2aa57fa9fff50e7c7ae6b3983"}, "tags": {"1.6.0--r3.4.1_0": "sha256:06b89ae2ebf334403e2e6b7a731d0df72fc6bf979085588780295a2bae4983b7", "1.17.0--r40_0": "sha256:41ceed7ba37537e4f726a69912de204099c05cf2aa57fa9fff50e7c7ae6b3983", "1.16.0--r36_0": "sha256:ec1d5a12a2a58e06ad4ee622ed9b94127e8606dc3f48e6d5f283e424f656a283", "1.14.0--r36_1": "sha256:6ba0f07da78908d4dd8326d4cbe2d19fc5f2761ef4726b932b85ecf93c2d4c25", "1.12.0--r351_0": "sha256:c7b5795ebf7fdf41bbe01f7040a56aeeaac83640fe254e43d7a3f9234853c03e", "1.10.4--r351_0": "sha256:b7c51870653a62026c63ca05f959cb74ac22c8793f3d1a9814f24f56dd0c05be", "1.10.4--r341_0": "sha256:7552a74d1cccb5ce1e1fcb6478dc07ec6a7cbe81d3bdb777f9151eaf3a22fe60"}, "docker": "quay.io/biocontainers/bioconductor-pathprint", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pathprint.

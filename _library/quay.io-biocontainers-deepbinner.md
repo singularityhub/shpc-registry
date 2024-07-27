@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepbinner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepbinner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepbinner/container.yaml"
-updated_at: "2024-07-26 02:55:09.703688"
+updated_at: "2024-07-27 02:51:44.468981"
 latest: "0.2.0--pyh24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/deepbinner"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.2.0--pyh24bf2e0_1"
 description: "shpc-registry automated BioContainers addition for deepbinner"
-config: {"url": "https://biocontainers.pro/tools/deepbinner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepbinner", "latest": {"0.2.0--pyh24bf2e0_1": "sha256:ba3b0b553d43de57dedf56e11276213997ed5fa3eb9400675bbe5c4bb670e7b2"}, "tags": {"0.2.0--pyh24bf2e0_1": "sha256:ba3b0b553d43de57dedf56e11276213997ed5fa3eb9400675bbe5c4bb670e7b2"}, "docker": "quay.io/biocontainers/deepbinner", "aliases": {"deepbinner": "/usr/local/bin/deepbinner", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner"}}
+config: {"url": "https://biocontainers.pro/tools/deepbinner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepbinner", "latest": {"0.2.0--pyh24bf2e0_1": "sha256:8f9088e2228b87f313e48b565f249a173cbe560edf27805e35767e310b8c5db9"}, "tags": {"0.2.0--pyh24bf2e0_1": "sha256:8f9088e2228b87f313e48b565f249a173cbe560edf27805e35767e310b8c5db9"}, "docker": "quay.io/biocontainers/deepbinner", "aliases": {"deepbinner": "/usr/local/bin/deepbinner", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepbinner.

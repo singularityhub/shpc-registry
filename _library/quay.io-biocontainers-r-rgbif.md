@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rgbif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rgbif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rgbif/container.yaml"
-updated_at: "2024-07-26 02:58:09.522631"
+updated_at: "2024-07-27 02:54:45.579924"
 latest: "1.3.0--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-rgbif"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.3.0--r351h6115d3f_0"
 description: "shpc-registry automated BioContainers addition for r-rgbif"
-config: {"url": "https://biocontainers.pro/tools/r-rgbif", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rgbif", "latest": {"1.3.0--r351h6115d3f_0": "sha256:f2b2b58b118b1f922d4b3fbe570e0734b19c0f1b3ea0c52d794f22d7de87a98c"}, "tags": {"1.3.0--r351h6115d3f_0": "sha256:f2b2b58b118b1f922d4b3fbe570e0734b19c0f1b3ea0c52d794f22d7de87a98c"}, "docker": "quay.io/biocontainers/r-rgbif", "aliases": {"geos-config": "/usr/local/bin/geos-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-rgbif", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rgbif", "latest": {"1.3.0--r351h6115d3f_0": "sha256:795dec7e8e7af00058d2d4e98ae5951d4b90afb49d069ccf98c8a34b478dcb8c"}, "tags": {"1.3.0--r351h6115d3f_0": "sha256:795dec7e8e7af00058d2d4e98ae5951d4b90afb49d069ccf98c8a34b478dcb8c"}, "docker": "quay.io/biocontainers/r-rgbif", "aliases": {"geos-config": "/usr/local/bin/geos-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rgbif.

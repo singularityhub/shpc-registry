@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fast5seek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fast5seek/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fast5seek/container.yaml"
-updated_at: "2024-07-26 02:37:16.155554"
+updated_at: "2024-07-27 02:34:54.461435"
 latest: "0.1.1--py_1"
 container_url: "https://biocontainers.pro/tools/fast5seek"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "0.1.1--py_1"
 description: "shpc-registry automated BioContainers addition for fast5seek"
-config: {"url": "https://biocontainers.pro/tools/fast5seek", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fast5seek", "latest": {"0.1.1--py_1": "sha256:54d1f835aadd275e297a2e6a6403721dfcf88e26d1d087f60bed0060fc32725c"}, "tags": {"0.1.1--py_1": "sha256:54d1f835aadd275e297a2e6a6403721dfcf88e26d1d087f60bed0060fc32725c"}, "docker": "quay.io/biocontainers/fast5seek", "aliases": {"fast5_subset": "/usr/local/bin/fast5_subset", "fast5seek": "/usr/local/bin/fast5seek", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "f2py3.6": "/usr/local/bin/f2py3.6", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6"}}
+config: {"url": "https://biocontainers.pro/tools/fast5seek", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fast5seek", "latest": {"0.1.1--py_1": "sha256:20d41b26239f2347a138b95ef351e7c3063e35a4f568e7a9c2f4796a01430e0e"}, "tags": {"0.1.1--py_1": "sha256:20d41b26239f2347a138b95ef351e7c3063e35a4f568e7a9c2f4796a01430e0e"}, "docker": "quay.io/biocontainers/fast5seek", "aliases": {"fast5_subset": "/usr/local/bin/fast5_subset", "fast5seek": "/usr/local/bin/fast5seek", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "f2py3.6": "/usr/local/bin/f2py3.6", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fast5seek.

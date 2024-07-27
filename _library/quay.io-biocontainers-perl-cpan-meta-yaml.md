@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-cpan-meta-yaml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-cpan-meta-yaml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-cpan-meta-yaml/container.yaml"
-updated_at: "2024-07-26 02:38:44.509318"
+updated_at: "2024-07-27 02:36:16.693496"
 latest: "0.018--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-cpan-meta-yaml"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.018--pl526_0"
 description: "shpc-registry automated BioContainers addition for perl-cpan-meta-yaml"
-config: {"url": "https://biocontainers.pro/tools/perl-cpan-meta-yaml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-cpan-meta-yaml", "latest": {"0.018--pl526_0": "sha256:490fc6c0104f9c0b934eb7308552600a41899e2eb9e910d89a254ce67ce1c293"}, "tags": {"0.018--pl526_0": "sha256:490fc6c0104f9c0b934eb7308552600a41899e2eb9e910d89a254ce67ce1c293"}, "docker": "quay.io/biocontainers/perl-cpan-meta-yaml", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-cpan-meta-yaml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-cpan-meta-yaml", "latest": {"0.018--pl526_0": "sha256:add6c7264faeeafe701c64f16bbb4fb128bda66461b80d7a7c70694ff8a85ba5"}, "tags": {"0.018--pl526_0": "sha256:add6c7264faeeafe701c64f16bbb4fb128bda66461b80d7a7c70694ff8a85ba5"}, "docker": "quay.io/biocontainers/perl-cpan-meta-yaml", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-cpan-meta-yaml.

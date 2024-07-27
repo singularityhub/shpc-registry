@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tinyfasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tinyfasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tinyfasta/container.yaml"
-updated_at: "2024-07-26 03:19:51.458865"
+updated_at: "2024-07-27 03:15:29.029829"
 latest: "0.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/tinyfasta"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.1.0--py_0"
 description: "shpc-registry automated BioContainers addition for tinyfasta"
-config: {"url": "https://biocontainers.pro/tools/tinyfasta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tinyfasta", "latest": {"0.1.0--py_0": "sha256:09cd4ba4d54e81732b1bae4912c3303cf6dee0bfa88f8374d3824e43e9bbec7f"}, "tags": {"0.1.0--py_0": "sha256:09cd4ba4d54e81732b1bae4912c3303cf6dee0bfa88f8374d3824e43e9bbec7f"}, "docker": "quay.io/biocontainers/tinyfasta", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/tinyfasta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tinyfasta", "latest": {"0.1.0--py_0": "sha256:cea82e8065585e99b2e8f74c05f183ce1b8b151029ad3b3c3cfda2150c6f20b5"}, "tags": {"0.1.0--py_0": "sha256:cea82e8065585e99b2e8f74c05f183ce1b8b151029ad3b3c3cfda2150c6f20b5"}, "docker": "quay.io/biocontainers/tinyfasta", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tinyfasta.

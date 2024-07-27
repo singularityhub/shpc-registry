@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rbamtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rbamtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rbamtools/container.yaml"
-updated_at: "2024-07-26 03:23:27.950684"
+updated_at: "2024-07-27 03:18:54.588770"
 latest: "2.16.11--r351h29659fb_0"
 container_url: "https://biocontainers.pro/tools/r-rbamtools"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "2.16.11--r351h29659fb_0"
 description: "shpc-registry automated BioContainers addition for r-rbamtools"
-config: {"url": "https://biocontainers.pro/tools/r-rbamtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rbamtools", "latest": {"2.16.11--r351h29659fb_0": "sha256:c992a91c1c31f14b6f55cc293666459b66f2b4bedf977bcb2914c147e5906d86"}, "tags": {"2.16.11--r351h29659fb_0": "sha256:c992a91c1c31f14b6f55cc293666459b66f2b4bedf977bcb2914c147e5906d86"}, "docker": "quay.io/biocontainers/r-rbamtools", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-rbamtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rbamtools", "latest": {"2.16.11--r351h29659fb_0": "sha256:6bb181ae3a730605366ef7f38d41303937f7393045e2c8c58e825a904956c190"}, "tags": {"2.16.11--r351h29659fb_0": "sha256:6bb181ae3a730605366ef7f38d41303937f7393045e2c8c58e825a904956c190"}, "docker": "quay.io/biocontainers/r-rbamtools", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rbamtools.

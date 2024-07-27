@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rtfbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rtfbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rtfbs/container.yaml"
-updated_at: "2024-07-26 02:51:29.718858"
+updated_at: "2024-07-27 02:48:14.892182"
 latest: "0.3.15--r42h56115f1_7"
 container_url: "https://biocontainers.pro/tools/r-rtfbs"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "0.3.15--r42h73dbb54_6"
  - "0.3.15--r42h56115f1_7"
 description: "shpc-registry automated BioContainers addition for r-rtfbs"
-config: {"url": "https://biocontainers.pro/tools/r-rtfbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rtfbs", "latest": {"0.3.15--r42h56115f1_7": "sha256:7073362f88cab5f9deed1faac45dce44148e1eee969188e712cf4caf0ddd5efa"}, "tags": {"0.3.9--r36hcdcec82_3": "sha256:f0298e2aff2b8d34944e5c5582cad819cf72fb1a31c5e8b17a3698ced9a00e1d", "0.3.15--r42h73dbb54_6": "sha256:7e51e9020f2249bbc2a58f7ae9028fe616afcaf0f08c0dd2e24aa10fd071abc9", "0.3.15--r42h56115f1_7": "sha256:7073362f88cab5f9deed1faac45dce44148e1eee969188e712cf4caf0ddd5efa"}, "docker": "quay.io/biocontainers/r-rtfbs", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-rtfbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rtfbs", "latest": {"0.3.15--r42h56115f1_7": "sha256:7073362f88cab5f9deed1faac45dce44148e1eee969188e712cf4caf0ddd5efa"}, "tags": {"0.3.9--r36hcdcec82_3": "sha256:a0016bff01e45416d44e637edc3a5acf475459cc8ca17ed17a42897f0ee41fce", "0.3.15--r42h73dbb54_6": "sha256:7e51e9020f2249bbc2a58f7ae9028fe616afcaf0f08c0dd2e24aa10fd071abc9", "0.3.15--r42h56115f1_7": "sha256:7073362f88cab5f9deed1faac45dce44148e1eee969188e712cf4caf0ddd5efa"}, "docker": "quay.io/biocontainers/r-rtfbs", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rtfbs.

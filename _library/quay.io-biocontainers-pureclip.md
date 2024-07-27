@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pureclip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pureclip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pureclip/container.yaml"
-updated_at: "2024-07-26 03:19:16.263236"
+updated_at: "2024-07-27 03:14:55.411557"
 latest: "1.3.1--0"
 container_url: "https://biocontainers.pro/tools/pureclip"
 aliases:
@@ -31,7 +31,7 @@ aliases:
 versions:
  - "1.3.1--0"
 description: "shpc-registry automated BioContainers addition for pureclip"
-config: {"url": "https://biocontainers.pro/tools/pureclip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pureclip", "latest": {"1.3.1--0": "sha256:57d27499af663ebb697c1f38655afc45d7f299cbd30d6c06607cd9833ae6e06b"}, "tags": {"1.3.1--0": "sha256:57d27499af663ebb697c1f38655afc45d7f299cbd30d6c06607cd9833ae6e06b"}, "docker": "quay.io/biocontainers/pureclip", "aliases": {"compute_CLmotif_scores.sh": "/usr/local/bin/compute_CLmotif_scores.sh", "dreme-py3": "/usr/local/bin/dreme-py3", "fasta-dinucleotide-shuffle-py3": "/usr/local/bin/fasta-dinucleotide-shuffle-py3", "fasta-hamming-enrich-py3": "/usr/local/bin/fasta-hamming-enrich-py3", "fasta-re-match": "/usr/local/bin/fasta-re-match", "meme-chip_html_to_tsv": "/usr/local/bin/meme-chip_html_to_tsv", "momo": "/usr/local/bin/momo", "pureclip": "/usr/local/bin/pureclip", "winextract": "/usr/local/bin/winextract", "xsltproc_lite": "/usr/local/bin/xsltproc_lite", "alphtype": "/usr/local/bin/alphtype", "ama": "/usr/local/bin/ama", "ama-qvalues": "/usr/local/bin/ama-qvalues", "ame": "/usr/local/bin/ame", "beeml2meme": "/usr/local/bin/beeml2meme", "centrimo": "/usr/local/bin/centrimo", "ceqlogo": "/usr/local/bin/ceqlogo", "chen2meme": "/usr/local/bin/chen2meme", "clustalw2fasta": "/usr/local/bin/clustalw2fasta", "clustalw2phylip": "/usr/local/bin/clustalw2phylip"}}
+config: {"url": "https://biocontainers.pro/tools/pureclip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pureclip", "latest": {"1.3.1--0": "sha256:6cb1ced18c68f3304d331bce888f6d1050e60eb325935953d10fcad533673b95"}, "tags": {"1.3.1--0": "sha256:6cb1ced18c68f3304d331bce888f6d1050e60eb325935953d10fcad533673b95"}, "docker": "quay.io/biocontainers/pureclip", "aliases": {"compute_CLmotif_scores.sh": "/usr/local/bin/compute_CLmotif_scores.sh", "dreme-py3": "/usr/local/bin/dreme-py3", "fasta-dinucleotide-shuffle-py3": "/usr/local/bin/fasta-dinucleotide-shuffle-py3", "fasta-hamming-enrich-py3": "/usr/local/bin/fasta-hamming-enrich-py3", "fasta-re-match": "/usr/local/bin/fasta-re-match", "meme-chip_html_to_tsv": "/usr/local/bin/meme-chip_html_to_tsv", "momo": "/usr/local/bin/momo", "pureclip": "/usr/local/bin/pureclip", "winextract": "/usr/local/bin/winextract", "xsltproc_lite": "/usr/local/bin/xsltproc_lite", "alphtype": "/usr/local/bin/alphtype", "ama": "/usr/local/bin/ama", "ama-qvalues": "/usr/local/bin/ama-qvalues", "ame": "/usr/local/bin/ame", "beeml2meme": "/usr/local/bin/beeml2meme", "centrimo": "/usr/local/bin/centrimo", "ceqlogo": "/usr/local/bin/ceqlogo", "chen2meme": "/usr/local/bin/chen2meme", "clustalw2fasta": "/usr/local/bin/clustalw2fasta", "clustalw2phylip": "/usr/local/bin/clustalw2phylip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pureclip.

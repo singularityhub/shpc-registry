@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yanagiba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yanagiba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yanagiba/container.yaml"
-updated_at: "2024-07-26 03:19:47.589867"
+updated_at: "2024-07-27 03:15:25.282780"
 latest: "1.0.0--py_2"
 container_url: "https://biocontainers.pro/tools/yanagiba"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.0.0--py_2"
 description: "shpc-registry automated BioContainers addition for yanagiba"
-config: {"url": "https://biocontainers.pro/tools/yanagiba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yanagiba", "latest": {"1.0.0--py_2": "sha256:ac4e9d40b7e6cb9445db223551c76b684ab7d4802bc31aa008aaeb165d7d4c98"}, "tags": {"1.0.0--py_2": "sha256:ac4e9d40b7e6cb9445db223551c76b684ab7d4802bc31aa008aaeb165d7d4c98"}, "docker": "quay.io/biocontainers/yanagiba", "aliases": {"yanagiba": "/usr/local/bin/yanagiba", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/yanagiba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yanagiba", "latest": {"1.0.0--py_2": "sha256:c7b58353c6ba4203c9483145fba5668b5c87e776f46ff73b3d3bb3f6726744cd"}, "tags": {"1.0.0--py_2": "sha256:c7b58353c6ba4203c9483145fba5668b5c87e776f46ff73b3d3bb3f6726744cd"}, "docker": "quay.io/biocontainers/yanagiba", "aliases": {"yanagiba": "/usr/local/bin/yanagiba", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/yanagiba.

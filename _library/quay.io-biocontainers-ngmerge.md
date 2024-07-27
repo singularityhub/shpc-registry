@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngmerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngmerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngmerge/container.yaml"
-updated_at: "2024-07-26 03:16:53.123414"
+updated_at: "2024-07-27 03:12:40.001648"
 latest: "0.3--ha92aebf_1"
 container_url: "https://biocontainers.pro/tools/ngmerge"
 aliases:
@@ -12,7 +12,7 @@ aliases:
 versions:
  - "0.3--ha92aebf_1"
 description: "shpc-registry automated BioContainers addition for ngmerge"
-config: {"url": "https://biocontainers.pro/tools/ngmerge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngmerge", "latest": {"0.3--ha92aebf_1": "sha256:402ffca1c82b4bdec35135061645988e91193c83cedda6a3a24116362c1294eb"}, "tags": {"0.3--ha92aebf_1": "sha256:402ffca1c82b4bdec35135061645988e91193c83cedda6a3a24116362c1294eb"}, "docker": "quay.io/biocontainers/ngmerge", "aliases": {"NGmerge": "/usr/local/bin/NGmerge"}}
+config: {"url": "https://biocontainers.pro/tools/ngmerge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngmerge", "latest": {"0.3--ha92aebf_1": "sha256:d4adad96fbfba3bedf655f684a0070a2bff5b9ba860c782ac7073bcc029a6414"}, "tags": {"0.3--ha92aebf_1": "sha256:d4adad96fbfba3bedf655f684a0070a2bff5b9ba860c782ac7073bcc029a6414"}, "docker": "quay.io/biocontainers/ngmerge", "aliases": {"NGmerge": "/usr/local/bin/NGmerge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngmerge.

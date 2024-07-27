@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lvsmirna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lvsmirna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lvsmirna/container.yaml"
-updated_at: "2024-07-26 02:36:41.185849"
+updated_at: "2024-07-27 02:34:22.384306"
 latest: "1.36.0--r36h516909a_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lvsmirna"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.36.0--r36h516909a_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-lvsmirna"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lvsmirna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lvsmirna", "latest": {"1.36.0--r36h516909a_0": "sha256:6de008f3084413b53dff3b96ac43c89e2ca402cb91cb8f1b0ea6f4d414f0e29c"}, "tags": {"1.36.0--r36h516909a_0": "sha256:6de008f3084413b53dff3b96ac43c89e2ca402cb91cb8f1b0ea6f4d414f0e29c"}, "docker": "quay.io/biocontainers/bioconductor-lvsmirna", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lvsmirna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lvsmirna", "latest": {"1.36.0--r36h516909a_0": "sha256:39b4f0cf59a7e868d855848434a7a42e5a620235b434cdefdc448d6f7bbd204d"}, "tags": {"1.36.0--r36h516909a_0": "sha256:39b4f0cf59a7e868d855848434a7a42e5a620235b434cdefdc448d6f7bbd204d"}, "docker": "quay.io/biocontainers/bioconductor-lvsmirna", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lvsmirna.

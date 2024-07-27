@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/r-nam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nam/container.yaml"
-updated_at: "2024-07-26 03:06:07.279321"
+updated_at: "2024-07-27 03:02:28.997951"
 latest: "1.6.4--r351h9d2a408_0"
 container_url: "https://biocontainers.pro/tools/r-nam"
 
 versions:
  - "1.6.4--r351h9d2a408_0"
 description: "shpc-registry automated BioContainers addition for r-nam"
-config: {"url": "https://biocontainers.pro/tools/r-nam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nam", "latest": {"1.6.4--r351h9d2a408_0": "sha256:b73c399a3cce876dc299e0faf44b571b38a88929edbc8ff5fdbcd983991be20f"}, "tags": {"1.6.4--r351h9d2a408_0": "sha256:b73c399a3cce876dc299e0faf44b571b38a88929edbc8ff5fdbcd983991be20f"}, "docker": "quay.io/biocontainers/r-nam"}
+config: {"url": "https://biocontainers.pro/tools/r-nam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nam", "latest": {"1.6.4--r351h9d2a408_0": "sha256:8bc43d2069de16ee6891ed0ef655943039a8218845abc30215a3f4e172c25c09"}, "tags": {"1.6.4--r351h9d2a408_0": "sha256:8bc43d2069de16ee6891ed0ef655943039a8218845abc30215a3f4e172c25c09"}, "docker": "quay.io/biocontainers/r-nam"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-nam.

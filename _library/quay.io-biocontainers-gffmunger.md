@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gffmunger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gffmunger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gffmunger/container.yaml"
-updated_at: "2024-07-26 02:41:05.911925"
+updated_at: "2024-07-27 02:38:30.679900"
 latest: "0.1.3--py_1"
 container_url: "https://biocontainers.pro/tools/gffmunger"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "0.1.3--py_1"
 description: "shpc-registry automated BioContainers addition for gffmunger"
-config: {"url": "https://biocontainers.pro/tools/gffmunger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gffmunger", "latest": {"0.1.3--py_1": "sha256:fdec9519dcdf8e153d904e0d9a93ffe5798ab71d04bd17c3bcfbe3a628497ab1"}, "tags": {"0.1.3--py_1": "sha256:fdec9519dcdf8e153d904e0d9a93ffe5798ab71d04bd17c3bcfbe3a628497ab1"}, "docker": "quay.io/biocontainers/gffmunger", "aliases": {"genometools-config": "/usr/local/bin/genometools-config", "gffmunger": "/usr/local/bin/gffmunger", "gt": "/usr/local/bin/gt", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "faidx": "/usr/local/bin/faidx", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7"}}
+config: {"url": "https://biocontainers.pro/tools/gffmunger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gffmunger", "latest": {"0.1.3--py_1": "sha256:7077e6e0b65cae77402f489181c2613c74e7af29a86d6ea3f22505dcda6c4680"}, "tags": {"0.1.3--py_1": "sha256:7077e6e0b65cae77402f489181c2613c74e7af29a86d6ea3f22505dcda6c4680"}, "docker": "quay.io/biocontainers/gffmunger", "aliases": {"genometools-config": "/usr/local/bin/genometools-config", "gffmunger": "/usr/local/bin/gffmunger", "gt": "/usr/local/bin/gt", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "faidx": "/usr/local/bin/faidx", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gffmunger.
