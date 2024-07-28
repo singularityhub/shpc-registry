@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/k-slam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/k-slam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/k-slam/container.yaml"
-updated_at: "2024-07-27 03:15:02.999387"
+updated_at: "2024-07-28 03:20:10.536595"
 latest: "1.0--1"
 container_url: "https://biocontainers.pro/tools/k-slam"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.0--1"
 description: "shpc-registry automated BioContainers addition for k-slam"
-config: {"url": "https://biocontainers.pro/tools/k-slam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for k-slam", "latest": {"1.0--1": "sha256:7f97cc6eafa0a675a7ec9097d10d642600de4a52735f0d9cbfb4372d3dd09a72"}, "tags": {"1.0--1": "sha256:7f97cc6eafa0a675a7ec9097d10d642600de4a52735f0d9cbfb4372d3dd09a72"}, "docker": "quay.io/biocontainers/k-slam", "aliases": {"SLAM": "/usr/local/bin/SLAM", "install_slam.sh": "/usr/local/bin/install_slam.sh", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/k-slam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for k-slam", "latest": {"1.0--1": "sha256:6a95eef11ec9cd46e12dc9da387f96fc811915eb38053733bd8627ff1c846d0c"}, "tags": {"1.0--1": "sha256:6a95eef11ec9cd46e12dc9da387f96fc811915eb38053733bd8627ff1c846d0c"}, "docker": "quay.io/biocontainers/k-slam", "aliases": {"SLAM": "/usr/local/bin/SLAM", "install_slam.sh": "/usr/local/bin/install_slam.sh", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/k-slam.

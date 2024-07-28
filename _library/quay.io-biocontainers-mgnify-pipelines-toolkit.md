@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mgnify-pipelines-toolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgnify-pipelines-toolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgnify-pipelines-toolkit/container.yaml"
-updated_at: "2024-07-27 03:14:59.619120"
-latest: "0.1.3--pyhdfd78af_0"
+updated_at: "2024-07-28 03:20:07.042765"
+latest: "0.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mgnify-pipelines-toolkit"
 aliases:
  - "are_there_primers"
@@ -30,8 +30,9 @@ versions:
  - "0.1.1--pyhdfd78af_0"
  - "0.1.2--pyhdfd78af_0"
  - "0.1.3--pyhdfd78af_0"
+ - "0.1.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mgnify-pipelines-toolkit"
-config: {"url": "https://biocontainers.pro/tools/mgnify-pipelines-toolkit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mgnify-pipelines-toolkit", "latest": {"0.1.3--pyhdfd78af_0": "sha256:cb63fdb3f112c9d7bff5a01142c858d875997aa542d0df84d7b44c3051c4fa18"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:2c88d8620818ec1a05a9943ea7328d1a4c10cbd5557756441e880ea511dbc7e0", "0.1.1--pyhdfd78af_0": "sha256:cff8ea49397260fb96f670e50d5aa1542ebb62d3a58760dee26cdcd9e0fa091f", "0.1.2--pyhdfd78af_0": "sha256:f8940745754cdaa2a5db03c045affdb8cde1573a0be1dade76cb049f8058bcd5", "0.1.3--pyhdfd78af_0": "sha256:cb63fdb3f112c9d7bff5a01142c858d875997aa542d0df84d7b44c3051c4fa18"}, "docker": "quay.io/biocontainers/mgnify-pipelines-toolkit", "aliases": {"are_there_primers": "/usr/local/bin/are_there_primers", "assess_inflection_point_mcp": "/usr/local/bin/assess_inflection_point_mcp", "assess_mcp_proportions": "/usr/local/bin/assess_mcp_proportions", "classify_var_regions": "/usr/local/bin/classify_var_regions", "find_mcp_inflection_points": "/usr/local/bin/find_mcp_inflection_points", "get_subunits": "/usr/local/bin/get_subunits", "get_subunits_coords": "/usr/local/bin/get_subunits_coords", "make_asv_count_table": "/usr/local/bin/make_asv_count_table", "mapseq2biom": "/usr/local/bin/mapseq2biom", "remove_ambiguous_reads": "/usr/local/bin/remove_ambiguous_reads", "rev_comp_se_primers": "/usr/local/bin/rev_comp_se_primers", "standard_primer_matching": "/usr/local/bin/standard_primer_matching", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
+config: {"url": "https://biocontainers.pro/tools/mgnify-pipelines-toolkit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mgnify-pipelines-toolkit", "latest": {"0.1.4--pyhdfd78af_0": "sha256:638693bd695c8543c244e108fbae04b3a74bab06d7c0ace52a00be1b071298a5"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:2c88d8620818ec1a05a9943ea7328d1a4c10cbd5557756441e880ea511dbc7e0", "0.1.1--pyhdfd78af_0": "sha256:cff8ea49397260fb96f670e50d5aa1542ebb62d3a58760dee26cdcd9e0fa091f", "0.1.2--pyhdfd78af_0": "sha256:f8940745754cdaa2a5db03c045affdb8cde1573a0be1dade76cb049f8058bcd5", "0.1.3--pyhdfd78af_0": "sha256:cb63fdb3f112c9d7bff5a01142c858d875997aa542d0df84d7b44c3051c4fa18", "0.1.4--pyhdfd78af_0": "sha256:638693bd695c8543c244e108fbae04b3a74bab06d7c0ace52a00be1b071298a5"}, "docker": "quay.io/biocontainers/mgnify-pipelines-toolkit", "aliases": {"are_there_primers": "/usr/local/bin/are_there_primers", "assess_inflection_point_mcp": "/usr/local/bin/assess_inflection_point_mcp", "assess_mcp_proportions": "/usr/local/bin/assess_mcp_proportions", "classify_var_regions": "/usr/local/bin/classify_var_regions", "find_mcp_inflection_points": "/usr/local/bin/find_mcp_inflection_points", "get_subunits": "/usr/local/bin/get_subunits", "get_subunits_coords": "/usr/local/bin/get_subunits_coords", "make_asv_count_table": "/usr/local/bin/make_asv_count_table", "mapseq2biom": "/usr/local/bin/mapseq2biom", "remove_ambiguous_reads": "/usr/local/bin/remove_ambiguous_reads", "rev_comp_se_primers": "/usr/local/bin/rev_comp_se_primers", "standard_primer_matching": "/usr/local/bin/standard_primer_matching", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mgnify-pipelines-toolkit.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/mgnify-pipelines-toolkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mgnify-pipelines-toolkit:0.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mgnify-pipelines-toolkit:0.1.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mgnify-pipelines-toolkit/0.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/mgnify-pipelines-toolkit/0.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/mgnify-pipelines-toolkit/0.1.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/mgnify-pipelines-toolkit/0.1.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastq-anonymous"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-anonymous/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-anonymous/container.yaml"
-updated_at: "2024-07-27 02:56:34.379447"
+updated_at: "2024-07-28 03:01:17.694200"
 latest: "1.0.1--py_2"
 container_url: "https://biocontainers.pro/tools/fastq-anonymous"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.0.1--py_2"
 description: "shpc-registry automated BioContainers addition for fastq-anonymous"
-config: {"url": "https://biocontainers.pro/tools/fastq-anonymous", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-anonymous", "latest": {"1.0.1--py_2": "sha256:c4d76ab8eb1e2cee558d8c5407d5ad7bbe264bf990bec8b4d84f0c78b4ce34fb"}, "tags": {"1.0.1--py_2": "sha256:c4d76ab8eb1e2cee558d8c5407d5ad7bbe264bf990bec8b4d84f0c78b4ce34fb"}, "docker": "quay.io/biocontainers/fastq-anonymous", "aliases": {"fastq-anonymous": "/usr/local/bin/fastq-anonymous", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/fastq-anonymous", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-anonymous", "latest": {"1.0.1--py_2": "sha256:46755dc2aab8d339236bfa9d862139e916fa402ae326b148a861f2d51c3050a4"}, "tags": {"1.0.1--py_2": "sha256:46755dc2aab8d339236bfa9d862139e916fa402ae326b148a861f2d51c3050a4"}, "docker": "quay.io/biocontainers/fastq-anonymous", "aliases": {"fastq-anonymous": "/usr/local/bin/fastq-anonymous", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastq-anonymous.

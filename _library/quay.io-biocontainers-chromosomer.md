@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chromosomer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromosomer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromosomer/container.yaml"
-updated_at: "2024-07-27 03:07:46.412608"
+updated_at: "2024-07-28 03:12:41.681106"
 latest: "0.1.4a--py_2"
 container_url: "https://biocontainers.pro/tools/chromosomer"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.1.4a--py_2"
 description: "shpc-registry automated BioContainers addition for chromosomer"
-config: {"url": "https://biocontainers.pro/tools/chromosomer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chromosomer", "latest": {"0.1.4a--py_2": "sha256:a306f94fe33dfd5361d5c1a1bf22ca606fe644c77243c23191d4bbf72af389a4"}, "tags": {"0.1.4a--py_2": "sha256:a306f94fe33dfd5361d5c1a1bf22ca606fe644c77243c23191d4bbf72af389a4"}, "docker": "quay.io/biocontainers/chromosomer", "aliases": {"bioformats": "/usr/local/bin/bioformats", "chromosomer": "/usr/local/bin/chromosomer", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7"}}
+config: {"url": "https://biocontainers.pro/tools/chromosomer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chromosomer", "latest": {"0.1.4a--py_2": "sha256:327f38a9e15222bb4ace6df27f195910c433230b6c3c82e5f5ac41d493721520"}, "tags": {"0.1.4a--py_2": "sha256:327f38a9e15222bb4ace6df27f195910c433230b6c3c82e5f5ac41d493721520"}, "docker": "quay.io/biocontainers/chromosomer", "aliases": {"bioformats": "/usr/local/bin/bioformats", "chromosomer": "/usr/local/bin/chromosomer", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chromosomer.

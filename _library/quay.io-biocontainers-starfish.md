@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/starfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/starfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/starfish/container.yaml"
-updated_at: "2024-07-27 03:18:23.224335"
+updated_at: "2024-07-28 03:23:35.292613"
 latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/starfish"
 aliases:

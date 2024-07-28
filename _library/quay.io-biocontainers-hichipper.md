@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hichipper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hichipper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hichipper/container.yaml"
-updated_at: "2024-07-27 02:54:23.063140"
+updated_at: "2024-07-28 02:59:11.512195"
 latest: "0.7.7--py_1"
 container_url: "https://biocontainers.pro/tools/hichipper"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.7.7--py_1"
 description: "shpc-registry automated BioContainers addition for hichipper"
-config: {"url": "https://biocontainers.pro/tools/hichipper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hichipper", "latest": {"0.7.7--py_1": "sha256:07ac65fcb2be21bafe5545694f8a54224d128c52647c3c8e3407e863f3c18249"}, "tags": {"0.7.7--py_1": "sha256:07ac65fcb2be21bafe5545694f8a54224d128c52647c3c8e3407e863f3c18249"}, "docker": "quay.io/biocontainers/hichipper", "aliases": {"hichipper": "/usr/local/bin/hichipper", "macs2": "/usr/local/bin/macs2", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
+config: {"url": "https://biocontainers.pro/tools/hichipper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hichipper", "latest": {"0.7.7--py_1": "sha256:857e479467083e74790ad2b5d6d9f66b3b0f369a831c78d6083a685805d5928f"}, "tags": {"0.7.7--py_1": "sha256:857e479467083e74790ad2b5d6d9f66b3b0f369a831c78d6083a685805d5928f"}, "docker": "quay.io/biocontainers/hichipper", "aliases": {"hichipper": "/usr/local/bin/hichipper", "macs2": "/usr/local/bin/macs2", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hichipper.

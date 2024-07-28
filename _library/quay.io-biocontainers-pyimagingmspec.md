@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyimagingmspec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyimagingmspec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyimagingmspec/container.yaml"
-updated_at: "2024-07-27 03:13:24.362300"
+updated_at: "2024-07-28 03:18:29.401678"
 latest: "0.1.4--py_1"
 container_url: "https://biocontainers.pro/tools/pyimagingmspec"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.1.4--py_1"
 description: "shpc-registry automated BioContainers addition for pyimagingmspec"
-config: {"url": "https://biocontainers.pro/tools/pyimagingmspec", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyimagingmspec", "latest": {"0.1.4--py_1": "sha256:401b56c6c1c9c29e83a1dd623a0854d0efb4a0925fc5c8dd2e89d752f58da0f2"}, "tags": {"0.1.4--py_1": "sha256:401b56c6c1c9c29e83a1dd623a0854d0efb4a0925fc5c8dd2e89d752f58da0f2"}, "docker": "quay.io/biocontainers/pyimagingmspec", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyimagingmspec", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyimagingmspec", "latest": {"0.1.4--py_1": "sha256:72ae38de69b248d9e80f5b4d08fb2c93204d4ca6c513c22d1e6cbf4535d7ba83"}, "tags": {"0.1.4--py_1": "sha256:72ae38de69b248d9e80f5b4d08fb2c93204d4ca6c513c22d1e6cbf4535d7ba83"}, "docker": "quay.io/biocontainers/pyimagingmspec", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyimagingmspec.

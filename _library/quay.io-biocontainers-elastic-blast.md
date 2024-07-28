@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/elastic-blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/elastic-blast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/elastic-blast/container.yaml"
-updated_at: "2024-07-27 02:40:05.322016"
-latest: "1.2.0--py39hdfd78af_0"
+updated_at: "2024-07-28 02:44:40.449334"
+latest: "1.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/elastic-blast"
 aliases:
  - "aws"
@@ -50,8 +50,9 @@ versions:
  - "1.1.0--pyhdfd78af_0"
  - "1.1.0--py311hdfd78af_1"
  - "1.2.0--py39hdfd78af_0"
+ - "1.3.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for elastic-blast"
-config: {"url": "https://biocontainers.pro/tools/elastic-blast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for elastic-blast", "latest": {"1.2.0--py39hdfd78af_0": "sha256:13b7fbf163fc665459deb4dbf29bda3890379a85ab29624781fb635133ab7a78"}, "tags": {"0.2.7--pyhdfd78af_0": "sha256:ea42cbd2ebc5e67f491242aca9806b69e81e59c535785d727a58e29d5f722f80", "1.0.0--pyhdfd78af_0": "sha256:6991c5d12c85052f1365d81fcca48e9f3bf0b823d38226008049f0763a87b4a3", "1.1.0--pyhdfd78af_0": "sha256:0fa9a4e3fb245c32a3aafd415c88dee00ea665b38058751444a4d97f3fdafdbc", "1.1.0--py311hdfd78af_1": "sha256:6c85f0d8fd670951be85b4ccd9b85c6633006a67586b5b55979700f3412bc8c0", "1.2.0--py39hdfd78af_0": "sha256:13b7fbf163fc665459deb4dbf29bda3890379a85ab29624781fb635133ab7a78"}, "docker": "quay.io/biocontainers/elastic-blast", "aliases": {"aws": "/usr/local/bin/aws", "aws-create-elastic-blast-janitor-role.sh": "/usr/local/bin/aws-create-elastic-blast-janitor-role.sh", "aws-delete-elastic-blast-janitor-role.sh": "/usr/local/bin/aws-delete-elastic-blast-janitor-role.sh", "aws-describe-elastic-blast-janitor-role.sh": "/usr/local/bin/aws-describe-elastic-blast-janitor-role.sh", "aws-get-auto-scaling-events.sh": "/usr/local/bin/aws-get-auto-scaling-events.sh", "aws-show-my-undeleted-searches.sh": "/usr/local/bin/aws-show-my-undeleted-searches.sh", "aws.cmd": "/usr/local/bin/aws.cmd", "aws_bash_completer": "/usr/local/bin/aws_bash_completer", "aws_completer": "/usr/local/bin/aws_completer", "aws_zsh_completer.sh": "/usr/local/bin/aws_zsh_completer.sh", "awslimitchecker": "/usr/local/bin/awslimitchecker", "blast-tuner.py": "/usr/local/bin/blast-tuner.py", "bq": "/usr/local/bin/bq", "cleanup-stale-gcp-resources.py": "/usr/local/bin/cleanup-stale-gcp-resources.py", "create-blastdb-metadata.py": "/usr/local/bin/create-blastdb-metadata.py", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "elastic-blast": "/usr/local/bin/elastic-blast", "elb-cost.py": "/usr/local/bin/elb-cost.py", "fasta_split.py": "/usr/local/bin/fasta_split.py", "gcloud": "/usr/local/bin/gcloud", "gcp-setup-elastic-blast-janitor.sh": "/usr/local/bin/gcp-setup-elastic-blast-janitor.sh", "gcp-show-my-undeleted-searches.sh": "/usr/local/bin/gcp-show-my-undeleted-searches.sh", "gcp_ram_size.py": "/usr/local/bin/gcp_ram_size.py", "kubectl": "/usr/local/bin/kubectl", "publish.py": "/usr/local/bin/publish.py", "results2clustername.sh": "/usr/local/bin/results2clustername.sh", "gsutil": "/usr/local/bin/gsutil", "jp.py": "/usr/local/bin/jp.py", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py"}}
+config: {"url": "https://biocontainers.pro/tools/elastic-blast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for elastic-blast", "latest": {"1.3.1--pyhdfd78af_0": "sha256:2bc9879fc0ed3af30caa2a1877441c660bc73f0271c9272cbb30293e3e848e36"}, "tags": {"0.2.7--pyhdfd78af_0": "sha256:ea42cbd2ebc5e67f491242aca9806b69e81e59c535785d727a58e29d5f722f80", "1.0.0--pyhdfd78af_0": "sha256:6991c5d12c85052f1365d81fcca48e9f3bf0b823d38226008049f0763a87b4a3", "1.1.0--pyhdfd78af_0": "sha256:0fa9a4e3fb245c32a3aafd415c88dee00ea665b38058751444a4d97f3fdafdbc", "1.1.0--py311hdfd78af_1": "sha256:6c85f0d8fd670951be85b4ccd9b85c6633006a67586b5b55979700f3412bc8c0", "1.2.0--py39hdfd78af_0": "sha256:13b7fbf163fc665459deb4dbf29bda3890379a85ab29624781fb635133ab7a78", "1.3.1--pyhdfd78af_0": "sha256:2bc9879fc0ed3af30caa2a1877441c660bc73f0271c9272cbb30293e3e848e36"}, "docker": "quay.io/biocontainers/elastic-blast", "aliases": {"aws": "/usr/local/bin/aws", "aws-create-elastic-blast-janitor-role.sh": "/usr/local/bin/aws-create-elastic-blast-janitor-role.sh", "aws-delete-elastic-blast-janitor-role.sh": "/usr/local/bin/aws-delete-elastic-blast-janitor-role.sh", "aws-describe-elastic-blast-janitor-role.sh": "/usr/local/bin/aws-describe-elastic-blast-janitor-role.sh", "aws-get-auto-scaling-events.sh": "/usr/local/bin/aws-get-auto-scaling-events.sh", "aws-show-my-undeleted-searches.sh": "/usr/local/bin/aws-show-my-undeleted-searches.sh", "aws.cmd": "/usr/local/bin/aws.cmd", "aws_bash_completer": "/usr/local/bin/aws_bash_completer", "aws_completer": "/usr/local/bin/aws_completer", "aws_zsh_completer.sh": "/usr/local/bin/aws_zsh_completer.sh", "awslimitchecker": "/usr/local/bin/awslimitchecker", "blast-tuner.py": "/usr/local/bin/blast-tuner.py", "bq": "/usr/local/bin/bq", "cleanup-stale-gcp-resources.py": "/usr/local/bin/cleanup-stale-gcp-resources.py", "create-blastdb-metadata.py": "/usr/local/bin/create-blastdb-metadata.py", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "elastic-blast": "/usr/local/bin/elastic-blast", "elb-cost.py": "/usr/local/bin/elb-cost.py", "fasta_split.py": "/usr/local/bin/fasta_split.py", "gcloud": "/usr/local/bin/gcloud", "gcp-setup-elastic-blast-janitor.sh": "/usr/local/bin/gcp-setup-elastic-blast-janitor.sh", "gcp-show-my-undeleted-searches.sh": "/usr/local/bin/gcp-show-my-undeleted-searches.sh", "gcp_ram_size.py": "/usr/local/bin/gcp_ram_size.py", "kubectl": "/usr/local/bin/kubectl", "publish.py": "/usr/local/bin/publish.py", "results2clustername.sh": "/usr/local/bin/results2clustername.sh", "gsutil": "/usr/local/bin/gsutil", "jp.py": "/usr/local/bin/jp.py", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/elastic-blast.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/elastic-blast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/elastic-blast:1.2.0--py39hdfd78af_0
+$ shpc install quay.io/biocontainers/elastic-blast:1.3.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/elastic-blast/1.2.0--py39hdfd78af_0
-$ module help quay.io/biocontainers/elastic-blast/1.2.0--py39hdfd78af_0
+$ module load quay.io/biocontainers/elastic-blast/1.3.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/elastic-blast/1.3.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

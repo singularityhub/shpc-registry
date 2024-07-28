@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/isa-rwval"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isa-rwval/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isa-rwval/container.yaml"
-updated_at: "2024-07-27 02:36:09.946818"
-latest: "0.10.9--py_0"
+updated_at: "2024-07-28 02:40:40.444406"
+latest: "0.10.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/isa-rwval"
 aliases:
  - "f2py3.9"
@@ -21,8 +21,9 @@ aliases:
  - "transicc"
 versions:
  - "0.10.9--py_0"
+ - "0.10.10--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for isa-rwval"
-config: {"url": "https://biocontainers.pro/tools/isa-rwval", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for isa-rwval", "latest": {"0.10.9--py_0": "sha256:dfbc8e0706b1808a5801e86eb28b3a37b92c8a47954fff856e02730ecb346e9d"}, "tags": {"0.10.9--py_0": "sha256:dfbc8e0706b1808a5801e86eb28b3a37b92c8a47954fff856e02730ecb346e9d"}, "docker": "quay.io/biocontainers/isa-rwval", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/isa-rwval", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for isa-rwval", "latest": {"0.10.10--pyhdfd78af_0": "sha256:8bcee79db2a1a5ab3609dca6001a296a065d273ae47500a3f3f1287d473050eb"}, "tags": {"0.10.9--py_0": "sha256:dfbc8e0706b1808a5801e86eb28b3a37b92c8a47954fff856e02730ecb346e9d", "0.10.10--pyhdfd78af_0": "sha256:8bcee79db2a1a5ab3609dca6001a296a065d273ae47500a3f3f1287d473050eb"}, "docker": "quay.io/biocontainers/isa-rwval", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/isa-rwval.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/isa-rwval
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/isa-rwval:0.10.9--py_0
+$ shpc install quay.io/biocontainers/isa-rwval:0.10.10--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/isa-rwval/0.10.9--py_0
-$ module help quay.io/biocontainers/isa-rwval/0.10.9--py_0
+$ module load quay.io/biocontainers/isa-rwval/0.10.10--pyhdfd78af_0
+$ module help quay.io/biocontainers/isa-rwval/0.10.10--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

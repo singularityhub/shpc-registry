@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/barcode_splitter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/barcode_splitter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/barcode_splitter/container.yaml"
-updated_at: "2024-07-27 02:52:48.495657"
+updated_at: "2024-07-28 02:57:42.606361"
 latest: "0.18.6--py_0"
 container_url: "https://biocontainers.pro/tools/barcode_splitter"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.18.6--py_0"
 description: "shpc-registry automated BioContainers addition for barcode_splitter"
-config: {"url": "https://biocontainers.pro/tools/barcode_splitter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for barcode_splitter", "latest": {"0.18.6--py_0": "sha256:9793d3e815752d640feeaee8f55b7171e247bbbb8ceb8e86d8bbbbfc69a0f650"}, "tags": {"0.18.6--py_0": "sha256:9793d3e815752d640feeaee8f55b7171e247bbbb8ceb8e86d8bbbbfc69a0f650"}, "docker": "quay.io/biocontainers/barcode_splitter", "aliases": {"barcode_splitter": "/usr/local/bin/barcode_splitter", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/barcode_splitter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for barcode_splitter", "latest": {"0.18.6--py_0": "sha256:b8aa3dc99b6fb00e98ac77d9252c72438ffb824f8da0942c2777c8bebd7a0717"}, "tags": {"0.18.6--py_0": "sha256:b8aa3dc99b6fb00e98ac77d9252c72438ffb824f8da0942c2777c8bebd7a0717"}, "docker": "quay.io/biocontainers/barcode_splitter", "aliases": {"barcode_splitter": "/usr/local/bin/barcode_splitter", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/barcode_splitter.

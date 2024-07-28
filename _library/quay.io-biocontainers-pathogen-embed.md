@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pathogen-embed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathogen-embed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathogen-embed/container.yaml"
-updated_at: "2024-07-27 02:36:41.765723"
-latest: "2.0.0--pyhdfd78af_0"
+updated_at: "2024-07-28 02:41:13.134784"
+latest: "2.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pathogen-embed"
 aliases:
  - "pathogen-cluster"
@@ -38,8 +38,10 @@ aliases:
  - "tjbench"
 versions:
  - "2.0.0--pyhdfd78af_0"
+ - "2.2.1--pyhdfd78af_0"
+ - "2.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pathogen-embed"
-config: {"url": "https://biocontainers.pro/tools/pathogen-embed", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pathogen-embed", "latest": {"2.0.0--pyhdfd78af_0": "sha256:90f9f9d885a4ed8f5264831337650e0ac1ee12521adb16751ee0f77b8ff7817e"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:90f9f9d885a4ed8f5264831337650e0ac1ee12521adb16751ee0f77b8ff7817e"}, "docker": "quay.io/biocontainers/pathogen-embed", "aliases": {"pathogen-cluster": "/usr/local/bin/pathogen-cluster", "pathogen-distance": "/usr/local/bin/pathogen-distance", "pathogen-embed": "/usr/local/bin/pathogen-embed", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "numba": "/usr/local/bin/numba", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tqdm": "/usr/local/bin/tqdm", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/pathogen-embed", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pathogen-embed", "latest": {"2.2.1--pyhdfd78af_0": "sha256:b1d3fcb700bd8a253a8075103fd462795167a5179b74c68baaea0ac897425805"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:90f9f9d885a4ed8f5264831337650e0ac1ee12521adb16751ee0f77b8ff7817e", "2.2.1--pyhdfd78af_0": "sha256:b1d3fcb700bd8a253a8075103fd462795167a5179b74c68baaea0ac897425805", "2.1.0--pyhdfd78af_0": "sha256:5b8c582156857850c4db51c997f5e3b625e5f8ff0b3c7eedb41e1be410eb9806"}, "docker": "quay.io/biocontainers/pathogen-embed", "aliases": {"pathogen-cluster": "/usr/local/bin/pathogen-cluster", "pathogen-distance": "/usr/local/bin/pathogen-distance", "pathogen-embed": "/usr/local/bin/pathogen-embed", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "numba": "/usr/local/bin/numba", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tqdm": "/usr/local/bin/tqdm", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pathogen-embed.
@@ -54,7 +56,7 @@ $ shpc install quay.io/biocontainers/pathogen-embed
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pathogen-embed:2.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pathogen-embed:2.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pathogen-embed/2.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/pathogen-embed/2.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/pathogen-embed/2.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/pathogen-embed/2.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

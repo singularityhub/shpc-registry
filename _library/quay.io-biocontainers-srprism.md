@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/srprism"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/srprism/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/srprism/container.yaml"
-updated_at: "2024-07-27 02:43:01.602452"
-latest: "2.4.24--h96824bc_3"
+updated_at: "2024-07-28 02:47:42.059687"
+latest: "2.4.24--h6a68c12_5"
 container_url: "https://biocontainers.pro/tools/srprism"
 aliases:
  - "srprism"
 versions:
  - "2.4.24--h96824bc_3"
+ - "2.4.24--h6a68c12_5"
 description: "shpc-registry automated BioContainers addition for srprism"
-config: {"url": "https://biocontainers.pro/tools/srprism", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for srprism", "latest": {"2.4.24--h96824bc_3": "sha256:8606a5b78cc3c35a4e940caa1e26c96b717d4298fd15278c911fb15b43881e90"}, "tags": {"2.4.24--h96824bc_3": "sha256:8606a5b78cc3c35a4e940caa1e26c96b717d4298fd15278c911fb15b43881e90"}, "docker": "quay.io/biocontainers/srprism", "aliases": {"srprism": "/usr/local/bin/srprism"}}
+config: {"url": "https://biocontainers.pro/tools/srprism", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for srprism", "latest": {"2.4.24--h6a68c12_5": "sha256:33356e5ed80af2fd0b47a37466b6857edb6fabf07962949d3850052533e8135e"}, "tags": {"2.4.24--h96824bc_3": "sha256:8606a5b78cc3c35a4e940caa1e26c96b717d4298fd15278c911fb15b43881e90", "2.4.24--h6a68c12_5": "sha256:33356e5ed80af2fd0b47a37466b6857edb6fabf07962949d3850052533e8135e"}, "docker": "quay.io/biocontainers/srprism", "aliases": {"srprism": "/usr/local/bin/srprism"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/srprism.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/srprism
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/srprism:2.4.24--h96824bc_3
+$ shpc install quay.io/biocontainers/srprism:2.4.24--h6a68c12_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/srprism/2.4.24--h96824bc_3
-$ module help quay.io/biocontainers/srprism/2.4.24--h96824bc_3
+$ module load quay.io/biocontainers/srprism/2.4.24--h6a68c12_5
+$ module help quay.io/biocontainers/srprism/2.4.24--h6a68c12_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

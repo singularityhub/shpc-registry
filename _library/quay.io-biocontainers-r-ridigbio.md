@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ridigbio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ridigbio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ridigbio/container.yaml"
-updated_at: "2024-07-27 02:58:51.889971"
+updated_at: "2024-07-28 03:03:34.324874"
 latest: "0.3.5--r351h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-ridigbio"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.3.5--r351h6115d3f_3"
 description: "shpc-registry automated BioContainers addition for r-ridigbio"
-config: {"url": "https://biocontainers.pro/tools/r-ridigbio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ridigbio", "latest": {"0.3.5--r351h6115d3f_3": "sha256:553a06111d87a9441a18b9a14c9ec0e4bf2833c85e3a42ae9418097efd2a5855"}, "tags": {"0.3.5--r351h6115d3f_3": "sha256:553a06111d87a9441a18b9a14c9ec0e4bf2833c85e3a42ae9418097efd2a5855"}, "docker": "quay.io/biocontainers/r-ridigbio", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-ridigbio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ridigbio", "latest": {"0.3.5--r351h6115d3f_3": "sha256:a93882807dfabfc22036060c7d70b82f9e2c5829eb91d1df6ee68d87459da3c5"}, "tags": {"0.3.5--r351h6115d3f_3": "sha256:a93882807dfabfc22036060c7d70b82f9e2c5829eb91d1df6ee68d87459da3c5"}, "docker": "quay.io/biocontainers/r-ridigbio", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ridigbio.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-smvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-smvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-smvar/container.yaml"
-updated_at: "2024-07-27 02:55:15.052746"
+updated_at: "2024-07-28 03:00:01.338012"
 latest: "1.3.3--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-smvar"
 aliases:
@@ -15,7 +15,7 @@ aliases:
 versions:
  - "1.3.3--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-smvar"
-config: {"url": "https://biocontainers.pro/tools/r-smvar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-smvar", "latest": {"1.3.3--r3.4.1_0": "sha256:d725bcc6738cacb42b2575b538680f87715b42f79e3d56bdcafb9d0df62120d4"}, "tags": {"1.3.3--r3.4.1_0": "sha256:d725bcc6738cacb42b2575b538680f87715b42f79e3d56bdcafb9d0df62120d4"}, "docker": "quay.io/biocontainers/r-smvar", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-smvar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-smvar", "latest": {"1.3.3--r3.4.1_0": "sha256:0f3f7333eb850e02cfebedde769a15db4e3ffda914f594ae48eff14170e5dff0"}, "tags": {"1.3.3--r3.4.1_0": "sha256:0f3f7333eb850e02cfebedde769a15db4e3ffda914f594ae48eff14170e5dff0"}, "docker": "quay.io/biocontainers/r-smvar", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-smvar.

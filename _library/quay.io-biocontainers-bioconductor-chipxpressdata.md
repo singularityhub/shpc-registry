@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chipxpressdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipxpressdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipxpressdata/container.yaml"
-updated_at: "2024-07-27 02:56:53.600269"
+updated_at: "2024-07-28 03:01:36.161845"
 latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipxpressdata"
 
@@ -13,7 +13,7 @@ versions:
  - "1.36.0--r42hdfd78af_0"
  - "1.35.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chipxpressdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chipxpressdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipxpressdata", "latest": {"1.36.0--r42hdfd78af_0": "sha256:25b5d7a1b89137a62609715adbd0d4ce45f3608cba33eda391caf4324b9209ce"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:82d1ce53d58e1ef8a884c19d719d46302e1b22272dc6bd7222fbfed48cd49ee0", "1.36.0--r42hdfd78af_0": "sha256:25b5d7a1b89137a62609715adbd0d4ce45f3608cba33eda391caf4324b9209ce", "1.35.0--r42hdfd78af_0": "sha256:276059e2475ce92f529967d4df3bfc13caee58c7d893cfaa336bc144713ffedb"}, "docker": "quay.io/biocontainers/bioconductor-chipxpressdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chipxpressdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipxpressdata", "latest": {"1.36.0--r42hdfd78af_0": "sha256:25b5d7a1b89137a62609715adbd0d4ce45f3608cba33eda391caf4324b9209ce"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:82d1ce53d58e1ef8a884c19d719d46302e1b22272dc6bd7222fbfed48cd49ee0", "1.36.0--r42hdfd78af_0": "sha256:25b5d7a1b89137a62609715adbd0d4ce45f3608cba33eda391caf4324b9209ce", "1.35.0--r42hdfd78af_0": "sha256:083508137de2a687acdefb21ec891abd9a041c1a61508f2d269bbdd09a767996"}, "docker": "quay.io/biocontainers/bioconductor-chipxpressdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chipxpressdata.

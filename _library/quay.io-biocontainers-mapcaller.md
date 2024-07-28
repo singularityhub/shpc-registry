@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mapcaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapcaller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapcaller/container.yaml"
-updated_at: "2024-07-27 02:51:37.385687"
+updated_at: "2024-07-28 02:56:31.280456"
 latest: "0.9.9.41--hf5e1c6e_5"
 container_url: "https://biocontainers.pro/tools/mapcaller"
 aliases:
@@ -26,7 +26,7 @@ versions:
  - "0.9.9.41--hcd5855d_4"
  - "0.9.9.41--hf5e1c6e_5"
 description: "shpc-registry automated BioContainers addition for mapcaller"
-config: {"url": "https://biocontainers.pro/tools/mapcaller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapcaller", "latest": {"0.9.9.41--hf5e1c6e_5": "sha256:5ff8fd8fb397f06ff7082d0a4b2da36da03c789453fe4bc7b4f327b3a6a10e66"}, "tags": {"0.9.9.7--h9b50bf8_0": "sha256:c692fffa51b1ef8d39e6e9ca2da98dd8c8a77d47373fb663c81e5d64f944dbce", "0.9.9.41--h2ccddb4_2": "sha256:d4ccf1424a3718221fa5c165eb696a16170b004c33354fc663c03a5b95c830e3", "0.9.9.41--hcd5855d_4": "sha256:e0b10a3501aa8bdbc974a362dc10cb6fe3a84c78f22fa7d70f7acfc563252088", "0.9.9.41--hf5e1c6e_5": "sha256:5ff8fd8fb397f06ff7082d0a4b2da36da03c789453fe4bc7b4f327b3a6a10e66"}, "docker": "quay.io/biocontainers/mapcaller", "aliases": {"MapCaller": "/usr/local/bin/MapCaller", "bwt_index": "/usr/local/bin/bwt_index", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/mapcaller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapcaller", "latest": {"0.9.9.41--hf5e1c6e_5": "sha256:5ff8fd8fb397f06ff7082d0a4b2da36da03c789453fe4bc7b4f327b3a6a10e66"}, "tags": {"0.9.9.7--h9b50bf8_0": "sha256:83dd743edebd86d538b56fae4f474123441d954f99397c71f1975b3714fa5db2", "0.9.9.41--h2ccddb4_2": "sha256:d4ccf1424a3718221fa5c165eb696a16170b004c33354fc663c03a5b95c830e3", "0.9.9.41--hcd5855d_4": "sha256:e0b10a3501aa8bdbc974a362dc10cb6fe3a84c78f22fa7d70f7acfc563252088", "0.9.9.41--hf5e1c6e_5": "sha256:5ff8fd8fb397f06ff7082d0a4b2da36da03c789453fe4bc7b4f327b3a6a10e66"}, "docker": "quay.io/biocontainers/mapcaller", "aliases": {"MapCaller": "/usr/local/bin/MapCaller", "bwt_index": "/usr/local/bin/bwt_index", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mapcaller.

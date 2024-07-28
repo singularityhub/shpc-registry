@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/pybda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybda/container.yaml"
-updated_at: "2024-07-27 03:18:40.192486"
+updated_at: "2024-07-28 03:23:52.850759"
 latest: "0.1.0--pyh5ca1d4c_0"
 container_url: "https://biocontainers.pro/tools/pybda"
 
 versions:
  - "0.1.0--pyh5ca1d4c_0"
 description: "shpc-registry automated BioContainers addition for pybda"
-config: {"url": "https://biocontainers.pro/tools/pybda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybda", "latest": {"0.1.0--pyh5ca1d4c_0": "sha256:39d424cca4529437c99a5fbab56a79037a48ae91733914729eaf5f12188edcdc"}, "tags": {"0.1.0--pyh5ca1d4c_0": "sha256:39d424cca4529437c99a5fbab56a79037a48ae91733914729eaf5f12188edcdc"}, "docker": "quay.io/biocontainers/pybda"}
+config: {"url": "https://biocontainers.pro/tools/pybda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybda", "latest": {"0.1.0--pyh5ca1d4c_0": "sha256:f141a8a66e2f414af671c2797fcce1420088e175e04f022cc3c518fda9a56bd2"}, "tags": {"0.1.0--pyh5ca1d4c_0": "sha256:f141a8a66e2f414af671c2797fcce1420088e175e04f022cc3c518fda9a56bd2"}, "docker": "quay.io/biocontainers/pybda"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybda.

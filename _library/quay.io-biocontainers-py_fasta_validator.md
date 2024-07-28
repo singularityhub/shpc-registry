@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/py_fasta_validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/py_fasta_validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/py_fasta_validator/container.yaml"
-updated_at: "2024-07-27 03:18:55.715551"
+updated_at: "2024-07-28 03:24:08.953107"
 latest: "0.6--py38hd638cd3_4"
 container_url: "https://biocontainers.pro/tools/py_fasta_validator"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-drugvsdisease"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-drugvsdisease/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-drugvsdisease/container.yaml"
-updated_at: "2024-07-27 02:33:42.653949"
+updated_at: "2024-07-28 02:38:10.526460"
 latest: "2.44.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-drugvsdisease"
 
@@ -14,7 +14,7 @@ versions:
  - "2.42.0--r43hdfd78af_0"
  - "2.44.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-drugvsdisease"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-drugvsdisease", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drugvsdisease", "latest": {"2.44.0--r43hdfd78af_0": "sha256:ad0ea08a3ac8999cb43cc5487856c9b4cd8d0aeeb1dd9b4be8a3bba0fdf7538d"}, "tags": {"2.36.0--r41hdfd78af_0": "sha256:e2f2d6492d52cab14103a8d1bba4c20b8f94f43629dea04593f6e36a52fed91d", "2.40.0--r42hdfd78af_0": "sha256:873418becae84e7df68da39554c5d1ec68294731a269d93691e01d5277de1d99", "2.42.0--r43hdfd78af_0": "sha256:88e7fb3dd551358025bbdd2700b48245e3f323ef20be70b6a11efa7276c0222f", "2.44.0--r43hdfd78af_0": "sha256:ad0ea08a3ac8999cb43cc5487856c9b4cd8d0aeeb1dd9b4be8a3bba0fdf7538d"}, "docker": "quay.io/biocontainers/bioconductor-drugvsdisease"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-drugvsdisease", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drugvsdisease", "latest": {"2.44.0--r43hdfd78af_0": "sha256:ad0ea08a3ac8999cb43cc5487856c9b4cd8d0aeeb1dd9b4be8a3bba0fdf7538d"}, "tags": {"2.36.0--r41hdfd78af_0": "sha256:7598c01a8c906e583ebb572d584cd4f6703612817d0c04d031d75356466c1787", "2.40.0--r42hdfd78af_0": "sha256:873418becae84e7df68da39554c5d1ec68294731a269d93691e01d5277de1d99", "2.42.0--r43hdfd78af_0": "sha256:88e7fb3dd551358025bbdd2700b48245e3f323ef20be70b6a11efa7276c0222f", "2.44.0--r43hdfd78af_0": "sha256:ad0ea08a3ac8999cb43cc5487856c9b4cd8d0aeeb1dd9b4be8a3bba0fdf7538d"}, "docker": "quay.io/biocontainers/bioconductor-drugvsdisease"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-drugvsdisease.

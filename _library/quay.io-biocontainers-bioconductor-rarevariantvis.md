@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rarevariantvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rarevariantvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rarevariantvis/container.yaml"
-updated_at: "2024-07-27 02:53:28.243605"
+updated_at: "2024-07-28 02:58:18.125415"
 latest: "2.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rarevariantvis"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "2.28.0--r43hdfd78af_0"
  - "2.30.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rarevariantvis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rarevariantvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rarevariantvis", "latest": {"2.30.0--r43hdfd78af_0": "sha256:695b25e332f605cb58f07bc14c95481a223b41484a00dd6f4599517857e26ded"}, "tags": {"2.8.0--r351_0": "sha256:06f5b5b2a8be0eaad0a3a56b2553cbb01d8ba236eda1edb27c1dc608d8ca5ecd", "2.26.0--r42hdfd78af_0": "sha256:d9d62d8d469dcc95353ab236aebeccf4284870884b9575e6880b5227f36f1438", "2.22.0--r41hdfd78af_0": "sha256:5c55fb17d4de01d0971ab57c93e990886dc45e458c3ab1a72a2f50b807b1d9f6", "2.20.0--r41hdfd78af_0": "sha256:5ec4aa17d33e9cb5b14e053d4681484f4c0b5fb6f94de57f0d2477829f133791", "2.18.0--r40hdfd78af_1": "sha256:fa545df8692c4cfd46cb9d597a51130886661aef3995d1c62e2eff80be087af3", "2.16.0--r40_0": "sha256:76d619efa5759cf6876f3e4888a33866301c3154d321c151cf178499f3a732d0", "2.28.0--r43hdfd78af_0": "sha256:58a0b80f4b6f92681a634d62e79640e2927abe744c409def2b24f0a1b0be1183", "2.30.0--r43hdfd78af_0": "sha256:695b25e332f605cb58f07bc14c95481a223b41484a00dd6f4599517857e26ded"}, "docker": "quay.io/biocontainers/bioconductor-rarevariantvis", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rarevariantvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rarevariantvis", "latest": {"2.30.0--r43hdfd78af_0": "sha256:695b25e332f605cb58f07bc14c95481a223b41484a00dd6f4599517857e26ded"}, "tags": {"2.8.0--r351_0": "sha256:1f1eb9a7b5b313e9321ca8830a4007521511d0801052b4026c46eb119bdd9a0e", "2.26.0--r42hdfd78af_0": "sha256:d9d62d8d469dcc95353ab236aebeccf4284870884b9575e6880b5227f36f1438", "2.22.0--r41hdfd78af_0": "sha256:5c55fb17d4de01d0971ab57c93e990886dc45e458c3ab1a72a2f50b807b1d9f6", "2.20.0--r41hdfd78af_0": "sha256:5ec4aa17d33e9cb5b14e053d4681484f4c0b5fb6f94de57f0d2477829f133791", "2.18.0--r40hdfd78af_1": "sha256:fa545df8692c4cfd46cb9d597a51130886661aef3995d1c62e2eff80be087af3", "2.16.0--r40_0": "sha256:76d619efa5759cf6876f3e4888a33866301c3154d321c151cf178499f3a732d0", "2.28.0--r43hdfd78af_0": "sha256:58a0b80f4b6f92681a634d62e79640e2927abe744c409def2b24f0a1b0be1183", "2.30.0--r43hdfd78af_0": "sha256:695b25e332f605cb58f07bc14c95481a223b41484a00dd6f4599517857e26ded"}, "docker": "quay.io/biocontainers/bioconductor-rarevariantvis", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rarevariantvis.

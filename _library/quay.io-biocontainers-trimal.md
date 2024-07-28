@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/trimal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trimal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trimal/container.yaml"
-updated_at: "2024-07-27 03:19:19.360633"
-latest: "1.4.1--h4ac6f70_9"
+updated_at: "2024-07-28 03:24:33.464589"
+latest: "1.5.0--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/trimal"
 aliases:
  - "trimal"
@@ -15,8 +15,9 @@ versions:
  - "1.4.1--h9f5acd7_6"
  - "1.4.1--h4ac6f70_8"
  - "1.4.1--h4ac6f70_9"
+ - "1.5.0--h4ac6f70_0"
 description: "shpc-registry automated BioContainers addition for trimal"
-config: {"url": "https://biocontainers.pro/tools/trimal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trimal", "latest": {"1.4.1--h4ac6f70_9": "sha256:1813a50be8f0e73bcebcce987047b53a8ab2abad78dc33879cafdbd70fe20e46"}, "tags": {"1.4.1--h9f5acd7_6": "sha256:a0e5f37ed058270b0ff00d7f683df2fbc65423822267848b2bae1a9ffe197b0c", "1.4.1--h4ac6f70_8": "sha256:d9a48609a6b4e01218863c8176efb0d4c1cc325277da04907d197d3215c8a125", "1.4.1--h4ac6f70_9": "sha256:1813a50be8f0e73bcebcce987047b53a8ab2abad78dc33879cafdbd70fe20e46"}, "docker": "quay.io/biocontainers/trimal", "aliases": {"trimal": "/usr/local/bin/trimal", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal"}}
+config: {"url": "https://biocontainers.pro/tools/trimal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trimal", "latest": {"1.5.0--h4ac6f70_0": "sha256:6f3b7889d929f6cc7863b88f7b590612350bf75430bc977e139ead501e73bf31"}, "tags": {"1.4.1--h9f5acd7_6": "sha256:a0e5f37ed058270b0ff00d7f683df2fbc65423822267848b2bae1a9ffe197b0c", "1.4.1--h4ac6f70_8": "sha256:d9a48609a6b4e01218863c8176efb0d4c1cc325277da04907d197d3215c8a125", "1.4.1--h4ac6f70_9": "sha256:1813a50be8f0e73bcebcce987047b53a8ab2abad78dc33879cafdbd70fe20e46", "1.5.0--h4ac6f70_0": "sha256:6f3b7889d929f6cc7863b88f7b590612350bf75430bc977e139ead501e73bf31"}, "docker": "quay.io/biocontainers/trimal", "aliases": {"trimal": "/usr/local/bin/trimal", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trimal.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/trimal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trimal:1.4.1--h4ac6f70_9
+$ shpc install quay.io/biocontainers/trimal:1.5.0--h4ac6f70_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trimal/1.4.1--h4ac6f70_9
-$ module help quay.io/biocontainers/trimal/1.4.1--h4ac6f70_9
+$ module load quay.io/biocontainers/trimal/1.5.0--h4ac6f70_0
+$ module help quay.io/biocontainers/trimal/1.5.0--h4ac6f70_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

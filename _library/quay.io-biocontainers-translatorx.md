@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/translatorx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/translatorx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/translatorx/container.yaml"
-updated_at: "2024-07-27 02:59:23.458505"
+updated_at: "2024-07-28 03:04:06.629647"
 latest: "1.1--2"
 container_url: "https://biocontainers.pro/tools/translatorx"
 aliases:
@@ -16,7 +16,7 @@ aliases:
 versions:
  - "1.1--2"
 description: "shpc-registry automated BioContainers addition for translatorx"
-config: {"url": "https://biocontainers.pro/tools/translatorx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for translatorx", "latest": {"1.1--2": "sha256:8977d56d4a9bc0e47f9a4c35797e97f91975a8bfc0666346fc8a936a00863c19"}, "tags": {"1.1--2": "sha256:8977d56d4a9bc0e47f9a4c35797e97f91975a8bfc0666346fc8a936a00863c19"}, "docker": "quay.io/biocontainers/translatorx", "aliases": {"translatorx": "/usr/local/bin/translatorx", "translatorx_vLocal.pl": "/usr/local/bin/translatorx_vLocal.pl", "muscle": "/usr/local/bin/muscle", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/translatorx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for translatorx", "latest": {"1.1--2": "sha256:074e1a45069f35b6d492b20e091779f1873af9213e20dbef72310056674a1356"}, "tags": {"1.1--2": "sha256:074e1a45069f35b6d492b20e091779f1873af9213e20dbef72310056674a1356"}, "docker": "quay.io/biocontainers/translatorx", "aliases": {"translatorx": "/usr/local/bin/translatorx", "translatorx_vLocal.pl": "/usr/local/bin/translatorx_vLocal.pl", "muscle": "/usr/local/bin/muscle", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/translatorx.

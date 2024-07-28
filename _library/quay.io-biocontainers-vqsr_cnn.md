@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vqsr_cnn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vqsr_cnn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vqsr_cnn/container.yaml"
-updated_at: "2024-07-27 03:11:30.680669"
+updated_at: "2024-07-28 03:16:33.350350"
 latest: "0.0.194--py_0"
 container_url: "https://biocontainers.pro/tools/vqsr_cnn"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.0.194--py_0"
 description: "shpc-registry automated BioContainers addition for vqsr_cnn"
-config: {"url": "https://biocontainers.pro/tools/vqsr_cnn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vqsr_cnn", "latest": {"0.0.194--py_0": "sha256:5bbec43d403410518acdf5cf831b39417f75c1f1daf332a078bbfc1fcea18cd5"}, "tags": {"0.0.194--py_0": "sha256:5bbec43d403410518acdf5cf831b39417f75c1f1daf332a078bbfc1fcea18cd5"}, "docker": "quay.io/biocontainers/vqsr_cnn", "aliases": {"conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos"}}
+config: {"url": "https://biocontainers.pro/tools/vqsr_cnn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vqsr_cnn", "latest": {"0.0.194--py_0": "sha256:02acf53782aa40758a4a0bafa2e0f3ce9caec7437639d047f2c296bae77a928a"}, "tags": {"0.0.194--py_0": "sha256:02acf53782aa40758a4a0bafa2e0f3ce9caec7437639d047f2c296bae77a928a"}, "docker": "quay.io/biocontainers/vqsr_cnn", "aliases": {"conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vqsr_cnn.

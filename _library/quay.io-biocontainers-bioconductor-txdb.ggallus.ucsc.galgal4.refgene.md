@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal4.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal4.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal4.refgene/container.yaml"
-updated_at: "2024-07-27 02:41:41.132383"
+updated_at: "2024-07-28 02:46:17.756097"
 latest: "3.12.0--r43hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.ggallus.ucsc.galgal4.refgene"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "3.12.0--r43hdfd78af_6"
  - "3.12.0--r43hdfd78af_7"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.ggallus.ucsc.galgal4.refgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.ggallus.ucsc.galgal4.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.ggallus.ucsc.galgal4.refgene", "latest": {"3.12.0--r43hdfd78af_7": "sha256:42137a59532b332a70b706f631403896055c194fa521c0a15eb0418304b41c6a"}, "tags": {"3.4.6--r36_1": "sha256:b1f1065325b8609c1112ff514d0c5a20f0b323a5ff364ae344f6626eaa05e973", "3.12.0--r42hdfd78af_5": "sha256:74cf7c3032007d4b7d1eb38285aec6439863b795f594bee3ec57d323eaaf37d2", "3.11.0--r40_0": "sha256:06543ad6b9bcead2dd1a1d68897caccd213de764abc975e0914ea38077417518", "3.10.0--r36_0": "sha256:0a848111f2ab9f644e8fa96af2c00f42aff2f7ca48fe8a48da383e4d5d90cc64", "3.12.0--r43hdfd78af_6": "sha256:150bd6204f8462884bbbf5eb0750dda08482f66544da2f2c7dd876b3cc197d6e", "3.12.0--r43hdfd78af_7": "sha256:42137a59532b332a70b706f631403896055c194fa521c0a15eb0418304b41c6a"}, "docker": "quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal4.refgene", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.ggallus.ucsc.galgal4.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.ggallus.ucsc.galgal4.refgene", "latest": {"3.12.0--r43hdfd78af_7": "sha256:42137a59532b332a70b706f631403896055c194fa521c0a15eb0418304b41c6a"}, "tags": {"3.4.6--r36_1": "sha256:326d6f0ecde1ca5a3014d9c7664b06ee2305a59bd3f2ebc6e2a1b4c68a3b6b0e", "3.12.0--r42hdfd78af_5": "sha256:74cf7c3032007d4b7d1eb38285aec6439863b795f594bee3ec57d323eaaf37d2", "3.11.0--r40_0": "sha256:06543ad6b9bcead2dd1a1d68897caccd213de764abc975e0914ea38077417518", "3.10.0--r36_0": "sha256:cce0d09ca01073860c374cb857eddb4632dea5ff05f17b9e4d64b67c6109519b", "3.12.0--r43hdfd78af_6": "sha256:150bd6204f8462884bbbf5eb0750dda08482f66544da2f2c7dd876b3cc197d6e", "3.12.0--r43hdfd78af_7": "sha256:42137a59532b332a70b706f631403896055c194fa521c0a15eb0418304b41c6a"}, "docker": "quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal4.refgene", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal4.refgene.

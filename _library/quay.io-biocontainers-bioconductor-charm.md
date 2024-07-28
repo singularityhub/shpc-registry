@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-charm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-charm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-charm/container.yaml"
-updated_at: "2024-07-27 03:02:03.305042"
+updated_at: "2024-07-28 03:06:49.435532"
 latest: "2.28.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-charm"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "2.28.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-charm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-charm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-charm", "latest": {"2.28.0--r351_0": "sha256:1c960cefdd53be1cbb48d20563e187f01aabe0b587d2845b71270c993cbaf37c"}, "tags": {"2.28.0--r351_0": "sha256:1c960cefdd53be1cbb48d20563e187f01aabe0b587d2845b71270c993cbaf37c"}, "docker": "quay.io/biocontainers/bioconductor-charm", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-charm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-charm", "latest": {"2.28.0--r351_0": "sha256:87bea01da96aeccd3353ace1cd5d258f513cd6ab39eded8d978c37f503aeb88a"}, "tags": {"2.28.0--r351_0": "sha256:87bea01da96aeccd3353ace1cd5d258f513cd6ab39eded8d978c37f503aeb88a"}, "docker": "quay.io/biocontainers/bioconductor-charm", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-charm.
