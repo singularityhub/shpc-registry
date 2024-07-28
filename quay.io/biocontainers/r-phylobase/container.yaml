@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-phylobase
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-phylobase
 latest:
-  0.8.6--r36h0357c0b_2: sha256:77313cf21404f731c5e3b5c9f6a2178b679158a341203710cf23cae7180d7f71
+  0.8.6--r36h0357c0b_2: sha256:ae3113287b6d1d9925d62969d0daad53c22c297f4fba10334ff59e2e1000fc4c
 tags:
-  0.8.6--r36h0357c0b_2: sha256:77313cf21404f731c5e3b5c9f6a2178b679158a341203710cf23cae7180d7f71
+  0.8.6--r36h0357c0b_2: sha256:ae3113287b6d1d9925d62969d0daad53c22c297f4fba10334ff59e2e1000fc4c
 docker: quay.io/biocontainers/r-phylobase
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/iclipro
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for iclipro
 latest:
-  0.1.1--py_2: sha256:7b2d2a85f491efb79ebd10e666744b90d639d759c129e04598ea6e34eeca9304
+  0.1.1--py_2: sha256:d0df6d4bbfc223fdde3eb1b8001ff7614628a461b7b14349ed1e61a70e24edd3
 tags:
-  0.1.1--py_2: sha256:7b2d2a85f491efb79ebd10e666744b90d639d759c129e04598ea6e34eeca9304
+  0.1.1--py_2: sha256:d0df6d4bbfc223fdde3eb1b8001ff7614628a461b7b14349ed1e61a70e24edd3
 docker: quay.io/biocontainers/iclipro
 aliases:
   iCLIPro: /usr/local/bin/iCLIPro

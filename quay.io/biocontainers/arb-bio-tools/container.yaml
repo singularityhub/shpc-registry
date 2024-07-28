@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/arb-bio-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for arb-bio-tools
 latest:
-  6.0.6--haa8b8d8_8: sha256:af8a779cf8f62461557598eb1cdc3985e8c1f98c1f53fafe4d5a7f5805192546
+  6.0.6--haa8b8d8_8: sha256:d8c88902756c6b0e200cba04305efc4e46aa15610dde6556ac35adad6915a4f4
 tags:
-  6.0.6--haa8b8d8_8: sha256:af8a779cf8f62461557598eb1cdc3985e8c1f98c1f53fafe4d5a7f5805192546
+  6.0.6--haa8b8d8_8: sha256:d8c88902756c6b0e200cba04305efc4e46aa15610dde6556ac35adad6915a4f4
 docker: quay.io/biocontainers/arb-bio-tools
 aliases:
   arb_2_ascii: /usr/local/bin/arb_2_ascii

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/soapaligner
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for soapaligner
 latest:
-  2.21--0: sha256:122859073608baebdd363c7f2bdd2818615a77a6c384bf348807e70dd5e0421e
+  2.21--0: sha256:4e497e62c1074d778fe524481e7c43f5b27edf51e1487888d5c02d52ccfe8456
 tags:
-  2.21--0: sha256:122859073608baebdd363c7f2bdd2818615a77a6c384bf348807e70dd5e0421e
+  2.21--0: sha256:4e497e62c1074d778fe524481e7c43f5b27edf51e1487888d5c02d52ccfe8456
 docker: quay.io/biocontainers/soapaligner
 aliases:
   2bwt-builder: /usr/local/bin/2bwt-builder

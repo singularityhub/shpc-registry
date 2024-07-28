@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/ncbitk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ncbitk
 latest:
-  1.0a17--py_0: sha256:8d29f445dd6cee4807948cbaf553e52f19a908461d6f656f3423cbc2ba2142b7
+  1.0a17--py_0: sha256:f67df8d9e2467277776d65f442d2b4c3f3d5dff74560d2c410921b18f6afefe3
 tags:
-  1.0a17--py_0: sha256:8d29f445dd6cee4807948cbaf553e52f19a908461d6f656f3423cbc2ba2142b7
+  1.0a17--py_0: sha256:f67df8d9e2467277776d65f442d2b4c3f3d5dff74560d2c410921b18f6afefe3
 docker: quay.io/biocontainers/ncbitk
