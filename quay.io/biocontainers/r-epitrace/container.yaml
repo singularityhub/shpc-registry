@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/r-epitrace
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-epitrace
+latest:
+  0.0.1.3--r43hdfd78af_0: sha256:c44fa6efe09110543aafed226a10d69300066a5379222ec3adccaedb83e5cd78
+tags:
+  0.0.1.3--r43hdfd78af_0: sha256:c44fa6efe09110543aafed226a10d69300066a5379222ec3adccaedb83e5cd78
+docker: quay.io/biocontainers/r-epitrace
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  protoc-25.3.0: /usr/local/bin/protoc-25.3.0
+  numpy-config: /usr/local/bin/numpy-config
+  pandoc-server: /usr/local/bin/pandoc-server
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  csv-import: /usr/local/bin/csv-import
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin

@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/taseq
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for taseq
+latest:
+  1.0.0--pyh7e72e81_0: sha256:cbcf6ced5d905ab9ed62552d5bcdb83ea5a86c9d3d1cea8416af553760b309b3
+tags:
+  1.0.0--pyh7e72e81_0: sha256:cbcf6ced5d905ab9ed62552d5bcdb83ea5a86c9d3d1cea8416af553760b309b3
+docker: quay.io/biocontainers/taseq
+aliases:
+  taseq: /usr/local/bin/taseq
+  taseq_draw: /usr/local/bin/taseq_draw
+  taseq_filter: /usr/local/bin/taseq_filter
+  taseq_genotype: /usr/local/bin/taseq_genotype
+  taseq_hapcall: /usr/local/bin/taseq_hapcall
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  gatk: /usr/local/bin/gatk
+  numpy-config: /usr/local/bin/numpy-config
+  picard: /usr/local/bin/picard
+  annot-tsv: /usr/local/bin/annot-tsv
+  trimmomatic: /usr/local/bin/trimmomatic
+  jpackage: /usr/local/bin/jpackage
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  bwa: /usr/local/bin/bwa
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  hb-info: /usr/local/bin/hb-info
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl

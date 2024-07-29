@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/eskrim
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for eskrim
+latest:
+  1.0.9--pyhdfd78af_0: sha256:ce27531d095c691a704be54231a8f44267d5db04e6d314f1a1ccc5eaec37b7ca
+tags:
+  1.0.9--pyhdfd78af_0: sha256:ce27531d095c691a704be54231a8f44267d5db04e6d314f1a1ccc5eaec37b7ca
+docker: quay.io/biocontainers/eskrim
+aliases:
+  eskrim: /usr/local/bin/eskrim
+  jellyfish: /usr/local/bin/jellyfish
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
