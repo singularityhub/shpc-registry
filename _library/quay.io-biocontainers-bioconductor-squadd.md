@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-squadd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-squadd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-squadd/container.yaml"
-updated_at: "2024-07-29 03:02:20.139741"
+updated_at: "2024-07-29 17:30:04.804068"
 latest: "1.52.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-squadd"
 
