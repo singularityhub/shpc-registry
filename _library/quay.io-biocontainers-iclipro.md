@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iclipro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iclipro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iclipro/container.yaml"
-updated_at: "2024-07-28 03:20:17.548985"
+updated_at: "2024-07-29 03:19:43.146606"
 latest: "0.1.1--py_2"
 container_url: "https://biocontainers.pro/tools/iclipro"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.1.1--py_2"
 description: "shpc-registry automated BioContainers addition for iclipro"
-config: {"url": "https://biocontainers.pro/tools/iclipro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iclipro", "latest": {"0.1.1--py_2": "sha256:7b2d2a85f491efb79ebd10e666744b90d639d759c129e04598ea6e34eeca9304"}, "tags": {"0.1.1--py_2": "sha256:7b2d2a85f491efb79ebd10e666744b90d639d759c129e04598ea6e34eeca9304"}, "docker": "quay.io/biocontainers/iclipro", "aliases": {"iCLIPro": "/usr/local/bin/iCLIPro", "iCLIPro_bam_splitter": "/usr/local/bin/iCLIPro_bam_splitter", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen", "qscxmlc": "/usr/local/bin/qscxmlc", "qtattributionsscanner": "/usr/local/bin/qtattributionsscanner", "repc": "/usr/local/bin/repc"}}
+config: {"url": "https://biocontainers.pro/tools/iclipro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iclipro", "latest": {"0.1.1--py_2": "sha256:d0df6d4bbfc223fdde3eb1b8001ff7614628a461b7b14349ed1e61a70e24edd3"}, "tags": {"0.1.1--py_2": "sha256:d0df6d4bbfc223fdde3eb1b8001ff7614628a461b7b14349ed1e61a70e24edd3"}, "docker": "quay.io/biocontainers/iclipro", "aliases": {"iCLIPro": "/usr/local/bin/iCLIPro", "iCLIPro_bam_splitter": "/usr/local/bin/iCLIPro_bam_splitter", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen", "qscxmlc": "/usr/local/bin/qscxmlc", "qtattributionsscanner": "/usr/local/bin/qtattributionsscanner", "repc": "/usr/local/bin/repc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/iclipro.

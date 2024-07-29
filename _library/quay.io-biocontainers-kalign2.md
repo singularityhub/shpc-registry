@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kalign2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kalign2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kalign2/container.yaml"
-updated_at: "2024-07-28 03:05:39.941183"
-latest: "2.04--h031d066_6"
+updated_at: "2024-07-29 03:05:26.619363"
+latest: "2.04--h031d066_7"
 container_url: "https://biocontainers.pro/tools/kalign2"
 aliases:
  - "kalign"
@@ -13,8 +13,9 @@ versions:
  - "2.04--hec16e2b_3"
  - "2.04--h031d066_5"
  - "2.04--h031d066_6"
+ - "2.04--h031d066_7"
 description: "shpc-registry automated BioContainers addition for kalign2"
-config: {"url": "https://biocontainers.pro/tools/kalign2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kalign2", "latest": {"2.04--h031d066_6": "sha256:cf2ae763544fac94982651b261cc32d8d6be3d186771939d23319bc6b8463d72"}, "tags": {"2.04--hec16e2b_3": "sha256:eb4ba0de5372625a86daefae59690a7155135e25722521f4ea281f5b0af91731", "2.04--h031d066_5": "sha256:44ecc8e7bac199f417ddd61d36421f2dcaa5e6cf8eb6ba0764f02651c3f46398", "2.04--h031d066_6": "sha256:cf2ae763544fac94982651b261cc32d8d6be3d186771939d23319bc6b8463d72"}, "docker": "quay.io/biocontainers/kalign2", "aliases": {"kalign": "/usr/local/bin/kalign"}}
+config: {"url": "https://biocontainers.pro/tools/kalign2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kalign2", "latest": {"2.04--h031d066_7": "sha256:b0b0b28ce3937214c20b60741552d7df1529912048398240eca0284936950e5c"}, "tags": {"2.04--hec16e2b_3": "sha256:eb4ba0de5372625a86daefae59690a7155135e25722521f4ea281f5b0af91731", "2.04--h031d066_5": "sha256:44ecc8e7bac199f417ddd61d36421f2dcaa5e6cf8eb6ba0764f02651c3f46398", "2.04--h031d066_6": "sha256:cf2ae763544fac94982651b261cc32d8d6be3d186771939d23319bc6b8463d72", "2.04--h031d066_7": "sha256:b0b0b28ce3937214c20b60741552d7df1529912048398240eca0284936950e5c"}, "docker": "quay.io/biocontainers/kalign2", "aliases": {"kalign": "/usr/local/bin/kalign"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kalign2.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/kalign2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kalign2:2.04--h031d066_6
+$ shpc install quay.io/biocontainers/kalign2:2.04--h031d066_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kalign2/2.04--h031d066_6
-$ module help quay.io/biocontainers/kalign2/2.04--h031d066_6
+$ module load quay.io/biocontainers/kalign2/2.04--h031d066_7
+$ module help quay.io/biocontainers/kalign2/2.04--h031d066_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

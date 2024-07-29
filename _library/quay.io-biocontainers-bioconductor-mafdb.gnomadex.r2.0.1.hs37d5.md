@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.0.1.hs37d5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.0.1.hs37d5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.0.1.hs37d5/container.yaml"
-updated_at: "2024-07-28 03:18:32.867135"
+updated_at: "2024-07-29 03:18:00.897215"
 latest: "3.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafdb.gnomadex.r2.0.1.hs37d5"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "3.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mafdb.gnomadex.r2.0.1.hs37d5"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.gnomadex.r2.0.1.hs37d5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.gnomadex.r2.0.1.hs37d5", "latest": {"3.8.0--r351_0": "sha256:305b8d20d1db249f54ffb428dedef19ea199d3e9f1bf3871374607a0dfe52955"}, "tags": {"3.8.0--r351_0": "sha256:305b8d20d1db249f54ffb428dedef19ea199d3e9f1bf3871374607a0dfe52955"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.0.1.hs37d5", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.gnomadex.r2.0.1.hs37d5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.gnomadex.r2.0.1.hs37d5", "latest": {"3.8.0--r351_0": "sha256:7b525140f155cee8e4e4d9bfd3f3584b0280d0baa01a0adb58653d13fdcfeccf"}, "tags": {"3.8.0--r351_0": "sha256:7b525140f155cee8e4e4d9bfd3f3584b0280d0baa01a0adb58653d13fdcfeccf"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.0.1.hs37d5", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.0.1.hs37d5.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isoseq3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isoseq3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isoseq3/container.yaml"
-updated_at: "2024-07-28 03:04:50.691237"
+updated_at: "2024-07-29 03:04:37.717455"
 latest: "4.0.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/isoseq3"
 aliases:

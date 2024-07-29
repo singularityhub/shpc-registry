@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/ncbitk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbitk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbitk/container.yaml"
-updated_at: "2024-07-28 02:43:25.462115"
+updated_at: "2024-07-29 02:43:41.836609"
 latest: "1.0a17--py_0"
 container_url: "https://biocontainers.pro/tools/ncbitk"
 
 versions:
  - "1.0a17--py_0"
 description: "shpc-registry automated BioContainers addition for ncbitk"
-config: {"url": "https://biocontainers.pro/tools/ncbitk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbitk", "latest": {"1.0a17--py_0": "sha256:8d29f445dd6cee4807948cbaf553e52f19a908461d6f656f3423cbc2ba2142b7"}, "tags": {"1.0a17--py_0": "sha256:8d29f445dd6cee4807948cbaf553e52f19a908461d6f656f3423cbc2ba2142b7"}, "docker": "quay.io/biocontainers/ncbitk"}
+config: {"url": "https://biocontainers.pro/tools/ncbitk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbitk", "latest": {"1.0a17--py_0": "sha256:f67df8d9e2467277776d65f442d2b4c3f3d5dff74560d2c410921b18f6afefe3"}, "tags": {"1.0a17--py_0": "sha256:f67df8d9e2467277776d65f442d2b4c3f3d5dff74560d2c410921b18f6afefe3"}, "docker": "quay.io/biocontainers/ncbitk"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncbitk.

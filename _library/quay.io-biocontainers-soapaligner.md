@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/soapaligner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soapaligner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soapaligner/container.yaml"
-updated_at: "2024-07-28 02:39:14.319924"
+updated_at: "2024-07-29 02:39:35.498103"
 latest: "2.21--0"
 container_url: "https://biocontainers.pro/tools/soapaligner"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "2.21--0"
 description: "shpc-registry automated BioContainers addition for soapaligner"
-config: {"url": "https://biocontainers.pro/tools/soapaligner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soapaligner", "latest": {"2.21--0": "sha256:122859073608baebdd363c7f2bdd2818615a77a6c384bf348807e70dd5e0421e"}, "tags": {"2.21--0": "sha256:122859073608baebdd363c7f2bdd2818615a77a6c384bf348807e70dd5e0421e"}, "docker": "quay.io/biocontainers/soapaligner", "aliases": {"2bwt-builder": "/usr/local/bin/2bwt-builder", "soap": "/usr/local/bin/soap"}}
+config: {"url": "https://biocontainers.pro/tools/soapaligner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for soapaligner", "latest": {"2.21--0": "sha256:4e497e62c1074d778fe524481e7c43f5b27edf51e1487888d5c02d52ccfe8456"}, "tags": {"2.21--0": "sha256:4e497e62c1074d778fe524481e7c43f5b27edf51e1487888d5c02d52ccfe8456"}, "docker": "quay.io/biocontainers/soapaligner", "aliases": {"2bwt-builder": "/usr/local/bin/2bwt-builder", "soap": "/usr/local/bin/soap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/soapaligner.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-anvilpublish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anvilpublish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anvilpublish/container.yaml"
-updated_at: "2024-07-28 03:03:01.655263"
+updated_at: "2024-07-29 03:02:46.206074"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-anvilpublish"
 aliases:

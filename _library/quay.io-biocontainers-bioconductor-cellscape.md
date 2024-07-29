@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellscape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellscape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellscape/container.yaml"
-updated_at: "2024-07-28 03:03:23.112308"
+updated_at: "2024-07-29 03:03:07.521879"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellscape"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.12.0--r40_0"
  - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cellscape"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cellscape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellscape", "latest": {"1.24.0--r43hdfd78af_0": "sha256:da7f9e540bc102c43f38c156b6005eea0593c1478d806dfc23e8553d95a9a1df"}, "tags": {"1.8.0--r36_1": "sha256:b629ef9c8b5b054ce6d836beb78f0b28ceeabbdec66956e9d457ad540fc1bd92", "1.22.0--r42hdfd78af_0": "sha256:8213f257d2dfb0fd8de8fbf0ddfc1dab3e915312d12d1006e23a869b7b18ce47", "1.18.0--r41hdfd78af_0": "sha256:ea1aee7d8bd5d82bb37578145795b6d6da8d901d123fad38ad4799f015d715f5", "1.16.0--r41hdfd78af_0": "sha256:06a4a17b6ed1f1e89a983a70b62f8cdcda73b5aae012a988eab0eabc7ca8f29d", "1.14.0--r40hdfd78af_1": "sha256:cd91ffbf31f585b55cf7ec3aebc48feca922142f7ee572bd8609e81e1efb8122", "1.12.0--r40_0": "sha256:a4d9b8a14470c1559b5a95be9ef80bab5340c8d62c1979df56496c9cc696140e", "1.24.0--r43hdfd78af_0": "sha256:da7f9e540bc102c43f38c156b6005eea0593c1478d806dfc23e8553d95a9a1df"}, "docker": "quay.io/biocontainers/bioconductor-cellscape", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cellscape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellscape", "latest": {"1.24.0--r43hdfd78af_0": "sha256:da7f9e540bc102c43f38c156b6005eea0593c1478d806dfc23e8553d95a9a1df"}, "tags": {"1.8.0--r36_1": "sha256:88473180c8d54f76d8526e31d2901c40b5a4a1f98e57194d34f88914290bb656", "1.22.0--r42hdfd78af_0": "sha256:8213f257d2dfb0fd8de8fbf0ddfc1dab3e915312d12d1006e23a869b7b18ce47", "1.18.0--r41hdfd78af_0": "sha256:ea1aee7d8bd5d82bb37578145795b6d6da8d901d123fad38ad4799f015d715f5", "1.16.0--r41hdfd78af_0": "sha256:06a4a17b6ed1f1e89a983a70b62f8cdcda73b5aae012a988eab0eabc7ca8f29d", "1.14.0--r40hdfd78af_1": "sha256:cd91ffbf31f585b55cf7ec3aebc48feca922142f7ee572bd8609e81e1efb8122", "1.12.0--r40_0": "sha256:a4d9b8a14470c1559b5a95be9ef80bab5340c8d62c1979df56496c9cc696140e", "1.24.0--r43hdfd78af_0": "sha256:da7f9e540bc102c43f38c156b6005eea0593c1478d806dfc23e8553d95a9a1df"}, "docker": "quay.io/biocontainers/bioconductor-cellscape", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cellscape.

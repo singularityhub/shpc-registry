@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-perl4-corelibs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-perl4-corelibs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-perl4-corelibs/container.yaml"
-updated_at: "2024-07-28 02:53:50.086653"
+updated_at: "2024-07-29 02:53:45.967941"
 latest: "0.004--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-perl4-corelibs"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.004--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-perl4-corelibs"
-config: {"url": "https://biocontainers.pro/tools/perl-perl4-corelibs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-perl4-corelibs", "latest": {"0.004--pl526_1": "sha256:990455f90e5c8270c3dfb8e78c43e1291a57bdb5c3575996b5d0845a7cb53f87"}, "tags": {"0.004--pl526_1": "sha256:990455f90e5c8270c3dfb8e78c43e1291a57bdb5c3575996b5d0845a7cb53f87"}, "docker": "quay.io/biocontainers/perl-perl4-corelibs", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-perl4-corelibs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-perl4-corelibs", "latest": {"0.004--pl526_1": "sha256:429713b1eb44fd38e0d0d26f3d7a37895617b017a987aa4f58f48093d59a2e43"}, "tags": {"0.004--pl526_1": "sha256:429713b1eb44fd38e0d0d26f3d7a37895617b017a987aa4f58f48093d59a2e43"}, "docker": "quay.io/biocontainers/perl-perl4-corelibs", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-perl4-corelibs.

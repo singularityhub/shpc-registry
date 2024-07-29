@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-splicesites"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-splicesites/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-splicesites/container.yaml"
-updated_at: "2024-07-28 02:40:49.409628"
+updated_at: "2024-07-29 02:41:09.147657"
 latest: "1.31.0--r36h516909a_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-splicesites"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.31.0--r36h516909a_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-splicesites"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-splicesites", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-splicesites", "latest": {"1.31.0--r36h516909a_1": "sha256:4b3919677634802e9262da91a691a0fcbaae5171a6877e96350f2cecd7e5315c"}, "tags": {"1.31.0--r36h516909a_1": "sha256:4b3919677634802e9262da91a691a0fcbaae5171a6877e96350f2cecd7e5315c"}, "docker": "quay.io/biocontainers/bioconductor-splicesites", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-splicesites", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-splicesites", "latest": {"1.31.0--r36h516909a_1": "sha256:eed85bcd076e1ada9034c2ce6abafb63e244421eb794bb7873e29c078e468824"}, "tags": {"1.31.0--r36h516909a_1": "sha256:eed85bcd076e1ada9034c2ce6abafb63e244421eb794bb7873e29c078e468824"}, "docker": "quay.io/biocontainers/bioconductor-splicesites", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-splicesites.

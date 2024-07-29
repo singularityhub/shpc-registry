@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libis_moabs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libis_moabs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libis_moabs/container.yaml"
-updated_at: "2024-07-28 02:46:36.143842"
+updated_at: "2024-07-29 02:46:47.214138"
 latest: "0.0.7--py_0"
 container_url: "https://biocontainers.pro/tools/libis_moabs"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.0.7--py_0"
 description: "shpc-registry automated BioContainers addition for libis_moabs"
-config: {"url": "https://biocontainers.pro/tools/libis_moabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libis_moabs", "latest": {"0.0.7--py_0": "sha256:bd321b656172f0cb5b44715fe6d690876c97bd3569a2b0855c509221c5484c50"}, "tags": {"0.0.7--py_0": "sha256:bd321b656172f0cb5b44715fe6d690876c97bd3569a2b0855c509221c5484c50"}, "docker": "quay.io/biocontainers/libis_moabs", "aliases": {"LiBis": "/usr/local/bin/LiBis", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
+config: {"url": "https://biocontainers.pro/tools/libis_moabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libis_moabs", "latest": {"0.0.7--py_0": "sha256:b2f8e3936a28c654d80ba179f98cd69334217e12be7420cc3f3c5048ef97068e"}, "tags": {"0.0.7--py_0": "sha256:b2f8e3936a28c654d80ba179f98cd69334217e12be7420cc3f3c5048ef97068e"}, "docker": "quay.io/biocontainers/libis_moabs", "aliases": {"LiBis": "/usr/local/bin/LiBis", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libis_moabs.

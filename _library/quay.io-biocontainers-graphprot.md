@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graphprot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphprot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphprot/container.yaml"
-updated_at: "2024-07-28 02:48:49.762239"
+updated_at: "2024-07-29 02:48:56.078266"
 latest: "1.1.7--h3445559_4"
 container_url: "https://biocontainers.pro/tools/graphprot"
 aliases:
@@ -24,7 +24,7 @@ aliases:
 versions:
  - "1.1.7--h3445559_4"
 description: "shpc-registry automated BioContainers addition for graphprot"
-config: {"url": "https://biocontainers.pro/tools/graphprot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphprot", "latest": {"1.1.7--h3445559_4": "sha256:a8b00657d5cab0048bc35897fc666c9130240be47aab5c8c5f6cdc5b59a36668"}, "tags": {"1.1.7--h3445559_4": "sha256:a8b00657d5cab0048bc35897fc666c9130240be47aab5c8c5f6cdc5b59a36668"}, "docker": "quay.io/biocontainers/graphprot", "aliases": {"GraphProt.pl": "/usr/local/bin/GraphProt.pl", "RNAshapes": "/usr/local/bin/RNAshapes", "gawk-4.2.1": "/usr/local/bin/gawk-4.2.1", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "transformseq": "/usr/local/bin/transformseq", "weblogo": "/usr/local/bin/weblogo", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "b2sum": "/usr/local/bin/b2sum", "awk": "/usr/local/bin/awk", "base32": "/usr/local/bin/base32"}}
+config: {"url": "https://biocontainers.pro/tools/graphprot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphprot", "latest": {"1.1.7--h3445559_4": "sha256:49f8d6da17748ca95fa5717be0027aa261087b04a2106ebb60f102949d36c1b8"}, "tags": {"1.1.7--h3445559_4": "sha256:49f8d6da17748ca95fa5717be0027aa261087b04a2106ebb60f102949d36c1b8"}, "docker": "quay.io/biocontainers/graphprot", "aliases": {"GraphProt.pl": "/usr/local/bin/GraphProt.pl", "RNAshapes": "/usr/local/bin/RNAshapes", "gawk-4.2.1": "/usr/local/bin/gawk-4.2.1", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "transformseq": "/usr/local/bin/transformseq", "weblogo": "/usr/local/bin/weblogo", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "b2sum": "/usr/local/bin/b2sum", "awk": "/usr/local/bin/awk", "base32": "/usr/local/bin/base32"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/graphprot.

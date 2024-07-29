@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-phylobase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-phylobase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-phylobase/container.yaml"
-updated_at: "2024-07-28 03:20:03.228876"
+updated_at: "2024-07-29 03:19:29.364068"
 latest: "0.8.6--r36h0357c0b_2"
 container_url: "https://biocontainers.pro/tools/r-phylobase"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "0.8.6--r36h0357c0b_2"
 description: "shpc-registry automated BioContainers addition for r-phylobase"
-config: {"url": "https://biocontainers.pro/tools/r-phylobase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-phylobase", "latest": {"0.8.6--r36h0357c0b_2": "sha256:77313cf21404f731c5e3b5c9f6a2178b679158a341203710cf23cae7180d7f71"}, "tags": {"0.8.6--r36h0357c0b_2": "sha256:77313cf21404f731c5e3b5c9f6a2178b679158a341203710cf23cae7180d7f71"}, "docker": "quay.io/biocontainers/r-phylobase", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-phylobase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-phylobase", "latest": {"0.8.6--r36h0357c0b_2": "sha256:ae3113287b6d1d9925d62969d0daad53c22c297f4fba10334ff59e2e1000fc4c"}, "tags": {"0.8.6--r36h0357c0b_2": "sha256:ae3113287b6d1d9925d62969d0daad53c22c297f4fba10334ff59e2e1000fc4c"}, "docker": "quay.io/biocontainers/r-phylobase", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-phylobase.

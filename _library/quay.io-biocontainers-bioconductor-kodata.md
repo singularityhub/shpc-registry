@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-kodata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kodata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kodata/container.yaml"
-updated_at: "2024-07-28 03:10:20.781398"
+updated_at: "2024-07-29 03:10:03.948117"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kodata"
 aliases:
@@ -19,7 +19,7 @@ versions:
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-kodata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-kodata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kodata", "latest": {"1.28.0--r43hdfd78af_0": "sha256:531976f2a1b46f2b6efaa8683b13cef28a1d264d73e64d87e9986da2fa24ee33"}, "tags": {"1.8.0--r351_0": "sha256:a25b645c0a204c8583cdeca15a4897315bc29f01b20ef7b80324e675d0008278", "1.24.0--r42hdfd78af_0": "sha256:c3afd54bc1ffda9437a4c8afbebe3821f9d2dc1920d954cd94c18c6f27daec2f", "1.23.0--r42hdfd78af_0": "sha256:041f9f4c86ea01537cef9d6142903bf6c8923dd2a6e426a0e6cfcb993e44acc3", "1.20.0--r41hdfd78af_1": "sha256:c6ed1a999de43e9cca77755ac66c3e0c7745325aacfb4ca56816fb4d0304426d", "1.18.0--r41hdfd78af_0": "sha256:c436fd753ce0d347c3dd2a2dd6913b58afbb2ece4f214183014f18c7ce294495", "1.16.0--r40hdfd78af_1": "sha256:68ed1ff11eaefacf7db006f6f72a07d463a5776f99b6633d8e122345aa824c42", "1.26.0--r43hdfd78af_0": "sha256:4090dc86211ad94f863b2c5e01d6b5f210a6c9fc2de013e5644fa9c72aead9f2", "1.28.0--r43hdfd78af_0": "sha256:531976f2a1b46f2b6efaa8683b13cef28a1d264d73e64d87e9986da2fa24ee33"}, "docker": "quay.io/biocontainers/bioconductor-kodata", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-kodata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kodata", "latest": {"1.28.0--r43hdfd78af_0": "sha256:531976f2a1b46f2b6efaa8683b13cef28a1d264d73e64d87e9986da2fa24ee33"}, "tags": {"1.8.0--r351_0": "sha256:fff7b03dc2d0869e147775bfe8cb3e98ff5d59405408b7310935c0a8362b4771", "1.24.0--r42hdfd78af_0": "sha256:c3afd54bc1ffda9437a4c8afbebe3821f9d2dc1920d954cd94c18c6f27daec2f", "1.23.0--r42hdfd78af_0": "sha256:041f9f4c86ea01537cef9d6142903bf6c8923dd2a6e426a0e6cfcb993e44acc3", "1.20.0--r41hdfd78af_1": "sha256:c6ed1a999de43e9cca77755ac66c3e0c7745325aacfb4ca56816fb4d0304426d", "1.18.0--r41hdfd78af_0": "sha256:c436fd753ce0d347c3dd2a2dd6913b58afbb2ece4f214183014f18c7ce294495", "1.16.0--r40hdfd78af_1": "sha256:68ed1ff11eaefacf7db006f6f72a07d463a5776f99b6633d8e122345aa824c42", "1.26.0--r43hdfd78af_0": "sha256:4090dc86211ad94f863b2c5e01d6b5f210a6c9fc2de013e5644fa9c72aead9f2", "1.28.0--r43hdfd78af_0": "sha256:531976f2a1b46f2b6efaa8683b13cef28a1d264d73e64d87e9986da2fa24ee33"}, "docker": "quay.io/biocontainers/bioconductor-kodata", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-kodata.

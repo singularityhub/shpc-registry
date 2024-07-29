@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oncotator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oncotator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oncotator/container.yaml"
-updated_at: "2024-07-28 02:42:29.349669"
+updated_at: "2024-07-29 02:42:46.844282"
 latest: "1.9.9.0--py27h516909a_2"
 container_url: "https://biocontainers.pro/tools/oncotator"
 aliases:
@@ -27,7 +27,7 @@ aliases:
 versions:
  - "1.9.9.0--py27h516909a_2"
 description: "shpc-registry automated BioContainers addition for oncotator"
-config: {"url": "https://biocontainers.pro/tools/oncotator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oncotator", "latest": {"1.9.9.0--py27h516909a_2": "sha256:8d49c0e76928ce1b02e1d06630db6b2a24aa12169d9431a2672be53121a4b9e2"}, "tags": {"1.9.9.0--py27h516909a_2": "sha256:8d49c0e76928ce1b02e1d06630db6b2a24aa12169d9431a2672be53121a4b9e2"}, "docker": "quay.io/biocontainers/oncotator", "aliases": {"Oncotator": "/usr/local/bin/Oncotator", "addDatasourceMd5": "/usr/local/bin/addDatasourceMd5", "get_exons": "/usr/local/bin/get_exons", "initializeDatasource": "/usr/local/bin/initializeDatasource", "initializeTranscriptDatasource": "/usr/local/bin/initializeTranscriptDatasource", "oncotator": "/usr/local/bin/oncotator", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
+config: {"url": "https://biocontainers.pro/tools/oncotator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oncotator", "latest": {"1.9.9.0--py27h516909a_2": "sha256:f0545814cdb6ed9881cd5c5221c0bf8aa4375968f7002646369c5ca33e6c22a1"}, "tags": {"1.9.9.0--py27h516909a_2": "sha256:f0545814cdb6ed9881cd5c5221c0bf8aa4375968f7002646369c5ca33e6c22a1"}, "docker": "quay.io/biocontainers/oncotator", "aliases": {"Oncotator": "/usr/local/bin/Oncotator", "addDatasourceMd5": "/usr/local/bin/addDatasourceMd5", "get_exons": "/usr/local/bin/get_exons", "initializeDatasource": "/usr/local/bin/initializeDatasource", "initializeTranscriptDatasource": "/usr/local/bin/initializeTranscriptDatasource", "oncotator": "/usr/local/bin/oncotator", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oncotator.

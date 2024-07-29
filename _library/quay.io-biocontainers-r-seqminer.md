@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-seqminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-seqminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-seqminer/container.yaml"
-updated_at: "2024-07-28 03:11:11.545334"
+updated_at: "2024-07-29 03:10:53.191655"
 latest: "7.1--r351h29659fb_0"
 container_url: "https://biocontainers.pro/tools/r-seqminer"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "7.1--r351h29659fb_0"
 description: "shpc-registry automated BioContainers addition for r-seqminer"
-config: {"url": "https://biocontainers.pro/tools/r-seqminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-seqminer", "latest": {"7.1--r351h29659fb_0": "sha256:89abfed0647ff87797613928cec5be236fa2926f48ed8e9bd335948efc48c253"}, "tags": {"7.1--r351h29659fb_0": "sha256:89abfed0647ff87797613928cec5be236fa2926f48ed8e9bd335948efc48c253"}, "docker": "quay.io/biocontainers/r-seqminer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-seqminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-seqminer", "latest": {"7.1--r351h29659fb_0": "sha256:7f2efc93ba01286b8899e84e2cb4c36d97c2dbd99d4a99b011a6e6cc94fa962b"}, "tags": {"7.1--r351h29659fb_0": "sha256:7f2efc93ba01286b8899e84e2cb4c36d97c2dbd99d4a99b011a6e6cc94fa962b"}, "docker": "quay.io/biocontainers/r-seqminer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-seqminer.

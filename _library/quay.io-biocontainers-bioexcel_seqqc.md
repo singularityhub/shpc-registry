@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioexcel_seqqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioexcel_seqqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioexcel_seqqc/container.yaml"
-updated_at: "2024-07-28 02:41:28.222521"
+updated_at: "2024-07-29 02:41:46.500219"
 latest: "0.6--py_0"
 container_url: "https://biocontainers.pro/tools/bioexcel_seqqc"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.6--py_0"
 description: "shpc-registry automated BioContainers addition for bioexcel_seqqc"
-config: {"url": "https://biocontainers.pro/tools/bioexcel_seqqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioexcel_seqqc", "latest": {"0.6--py_0": "sha256:8d73cba29606e8c33db85b94e8122a0bf9d065fa0a708c5d87575b2424cbd84f"}, "tags": {"0.6--py_0": "sha256:8d73cba29606e8c33db85b94e8122a0bf9d065fa0a708c5d87575b2424cbd84f"}, "docker": "quay.io/biocontainers/bioexcel_seqqc", "aliases": {"bxcl_seqqc": "/usr/local/bin/bxcl_seqqc", "cutadapt": "/usr/local/bin/cutadapt", "fastqc": "/usr/local/bin/fastqc", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "jaotc": "/usr/local/bin/jaotc", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod"}}
+config: {"url": "https://biocontainers.pro/tools/bioexcel_seqqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioexcel_seqqc", "latest": {"0.6--py_0": "sha256:36523495e7c5304105919442435df682f5562347e8729c9fa9479c26dbd98bcc"}, "tags": {"0.6--py_0": "sha256:36523495e7c5304105919442435df682f5562347e8729c9fa9479c26dbd98bcc"}, "docker": "quay.io/biocontainers/bioexcel_seqqc", "aliases": {"bxcl_seqqc": "/usr/local/bin/bxcl_seqqc", "cutadapt": "/usr/local/bin/cutadapt", "fastqc": "/usr/local/bin/fastqc", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "jaotc": "/usr/local/bin/jaotc", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioexcel_seqqc.

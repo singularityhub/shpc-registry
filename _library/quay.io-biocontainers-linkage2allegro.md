@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/linkage2allegro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/linkage2allegro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/linkage2allegro/container.yaml"
-updated_at: "2024-07-28 03:24:40.130664"
+updated_at: "2024-07-29 03:24:00.016642"
 latest: "2017.3--py_1"
 container_url: "https://biocontainers.pro/tools/linkage2allegro"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "2017.3--py_1"
 description: "shpc-registry automated BioContainers addition for linkage2allegro"
-config: {"url": "https://biocontainers.pro/tools/linkage2allegro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for linkage2allegro", "latest": {"2017.3--py_1": "sha256:452f10dac7dda906f4aa7ee5a823723dc1305655e02d73356d7dd4850e9c6f75"}, "tags": {"2017.3--py_1": "sha256:452f10dac7dda906f4aa7ee5a823723dc1305655e02d73356d7dd4850e9c6f75"}, "docker": "quay.io/biocontainers/linkage2allegro", "aliases": {"linkage2allegro": "/usr/local/bin/linkage2allegro", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/linkage2allegro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for linkage2allegro", "latest": {"2017.3--py_1": "sha256:a1915b88ec7d6e3e0b6bcfa705a7b08a21a20f92198229602a2c65b3e1092402"}, "tags": {"2017.3--py_1": "sha256:a1915b88ec7d6e3e0b6bcfa705a7b08a21a20f92198229602a2c65b3e1092402"}, "docker": "quay.io/biocontainers/linkage2allegro", "aliases": {"linkage2allegro": "/usr/local/bin/linkage2allegro", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/linkage2allegro.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/lumpy-sv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lumpy-sv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lumpy-sv/container.yaml"
-updated_at: "2024-07-28 03:19:40.737715"
+updated_at: "2024-07-29 03:19:07.441603"
 latest: "0.3.1--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/lumpy-sv"
 
 versions:
  - "0.3.1--hdfd78af_3"
+ - "0.3.1--3"
 description: "shpc-registry automated BioContainers addition for lumpy-sv"
-config: {"url": "https://biocontainers.pro/tools/lumpy-sv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lumpy-sv", "latest": {"0.3.1--hdfd78af_3": "sha256:9f39cc174d539e86dfe51fdc6b9d7c555908a934805c057525cf383729afc3c3"}, "tags": {"0.3.1--hdfd78af_3": "sha256:9f39cc174d539e86dfe51fdc6b9d7c555908a934805c057525cf383729afc3c3"}, "docker": "quay.io/biocontainers/lumpy-sv"}
+config: {"url": "https://biocontainers.pro/tools/lumpy-sv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lumpy-sv", "latest": {"0.3.1--hdfd78af_3": "sha256:9f39cc174d539e86dfe51fdc6b9d7c555908a934805c057525cf383729afc3c3"}, "tags": {"0.3.1--hdfd78af_3": "sha256:9f39cc174d539e86dfe51fdc6b9d7c555908a934805c057525cf383729afc3c3", "0.3.1--3": "sha256:e901ceabb9cf8a2f967035cee25e4cdc798a2fe1159e5a61ae5025d1da378406"}, "docker": "quay.io/biocontainers/lumpy-sv"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lumpy-sv.

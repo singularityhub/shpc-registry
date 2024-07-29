@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fccac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fccac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fccac/container.yaml"
-updated_at: "2024-07-28 02:54:02.023648"
+updated_at: "2024-07-29 02:53:57.483549"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fccac"
 aliases:

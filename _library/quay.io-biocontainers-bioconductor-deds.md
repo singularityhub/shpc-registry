@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-deds"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-deds/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-deds/container.yaml"
-updated_at: "2024-07-28 02:56:39.844931"
+updated_at: "2024-07-29 02:56:32.623281"
 latest: "1.60.0--r36h516909a_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-deds"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.60.0--r36h516909a_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-deds"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-deds", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-deds", "latest": {"1.60.0--r36h516909a_0": "sha256:dea4d13c640c8471414bfa28b339e6431a4b617f611d504a8a1f4727f2a454b7"}, "tags": {"1.60.0--r36h516909a_0": "sha256:dea4d13c640c8471414bfa28b339e6431a4b617f611d504a8a1f4727f2a454b7"}, "docker": "quay.io/biocontainers/bioconductor-deds", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-deds", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-deds", "latest": {"1.60.0--r36h516909a_0": "sha256:9ef72a206e347fb4f3580a3e285734f0134a11db820b26a900a65ca446ebc5b3"}, "tags": {"1.60.0--r36h516909a_0": "sha256:9ef72a206e347fb4f3580a3e285734f0134a11db820b26a900a65ca446ebc5b3"}, "docker": "quay.io/biocontainers/bioconductor-deds", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-deds.

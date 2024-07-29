@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/extract_fasta_seq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extract_fasta_seq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/extract_fasta_seq/container.yaml"
-updated_at: "2024-07-28 03:22:04.303408"
+updated_at: "2024-07-29 03:21:28.028227"
 latest: "0.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/extract_fasta_seq"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.0.1--py_0"
 description: "shpc-registry automated BioContainers addition for extract_fasta_seq"
-config: {"url": "https://biocontainers.pro/tools/extract_fasta_seq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extract_fasta_seq", "latest": {"0.0.1--py_0": "sha256:24150b587992d53628c32758f6c19d1a7a472a7f5ce135d907e2112c6d633caf"}, "tags": {"0.0.1--py_0": "sha256:24150b587992d53628c32758f6c19d1a7a472a7f5ce135d907e2112c6d633caf"}, "docker": "quay.io/biocontainers/extract_fasta_seq", "aliases": {"extract_fasta_seq": "/usr/local/bin/extract_fasta_seq", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/extract_fasta_seq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extract_fasta_seq", "latest": {"0.0.1--py_0": "sha256:758b8b3c68d66bd634ce84a63f14de37c54ab5e2af8fab28ce796a20b3a6d7f3"}, "tags": {"0.0.1--py_0": "sha256:758b8b3c68d66bd634ce84a63f14de37c54ab5e2af8fab28ce796a20b3a6d7f3"}, "docker": "quay.io/biocontainers/extract_fasta_seq", "aliases": {"extract_fasta_seq": "/usr/local/bin/extract_fasta_seq", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/extract_fasta_seq.

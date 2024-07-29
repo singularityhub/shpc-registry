@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deltabs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deltabs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deltabs/container.yaml"
-updated_at: "2024-07-28 03:17:52.897817"
+updated_at: "2024-07-29 03:17:21.955903"
 latest: "0.1--2"
 container_url: "https://biocontainers.pro/tools/deltabs"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.1--2"
 description: "shpc-registry automated BioContainers addition for deltabs"
-config: {"url": "https://biocontainers.pro/tools/deltabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deltabs", "latest": {"0.1--2": "sha256:f3606eeff115232e7476e30e54ba9c5cf3d02d18c15bc2ea4ecfd14c8af14b17"}, "tags": {"0.1--2": "sha256:f3606eeff115232e7476e30e54ba9c5cf3d02d18c15bc2ea4ecfd14c8af14b17"}, "docker": "quay.io/biocontainers/deltabs", "aliases": {"buildCustomModels.pl": "/usr/local/bin/buildCustomModels.pl", "deltaBS.pl": "/usr/local/bin/deltaBS.pl", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "gdlib-config": "/usr/local/bin/gdlib-config", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee", "baseml": "/usr/local/bin/baseml"}}
+config: {"url": "https://biocontainers.pro/tools/deltabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deltabs", "latest": {"0.1--2": "sha256:57925c38558fa85b52a6a89d713b3389e19fa5190568a965269a091ecd4f9e72"}, "tags": {"0.1--2": "sha256:57925c38558fa85b52a6a89d713b3389e19fa5190568a965269a091ecd4f9e72"}, "docker": "quay.io/biocontainers/deltabs", "aliases": {"buildCustomModels.pl": "/usr/local/bin/buildCustomModels.pl", "deltaBS.pl": "/usr/local/bin/deltaBS.pl", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "gdlib-config": "/usr/local/bin/gdlib-config", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee", "baseml": "/usr/local/bin/baseml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deltabs.

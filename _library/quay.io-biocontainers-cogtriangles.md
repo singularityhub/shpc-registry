@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cogtriangles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cogtriangles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cogtriangles/container.yaml"
-updated_at: "2024-07-28 03:16:39.951088"
+updated_at: "2024-07-29 03:16:10.483246"
 latest: "2012.04--h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/cogtriangles"
 aliases:

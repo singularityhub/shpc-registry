@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/r-genabel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-genabel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-genabel/container.yaml"
-updated_at: "2024-07-28 03:02:48.396149"
+updated_at: "2024-07-29 03:02:32.927181"
 latest: "1.8_0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-genabel"
 
 versions:
  - "1.8_0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-genabel"
-config: {"url": "https://biocontainers.pro/tools/r-genabel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-genabel", "latest": {"1.8_0--r3.4.1_0": "sha256:12912427939d966ea8793e6cd60431ee6e2704dafe510000f611239e5938445e"}, "tags": {"1.8_0--r3.4.1_0": "sha256:12912427939d966ea8793e6cd60431ee6e2704dafe510000f611239e5938445e"}, "docker": "quay.io/biocontainers/r-genabel"}
+config: {"url": "https://biocontainers.pro/tools/r-genabel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-genabel", "latest": {"1.8_0--r3.4.1_0": "sha256:3e959cd528230c51824b49113d1f0b355bebe3d9bb297730b048d08298c5aa1b"}, "tags": {"1.8_0--r3.4.1_0": "sha256:3e959cd528230c51824b49113d1f0b355bebe3d9bb297730b048d08298c5aa1b"}, "docker": "quay.io/biocontainers/r-genabel"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-genabel.

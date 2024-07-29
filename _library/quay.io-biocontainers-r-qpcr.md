@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/r-qpcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-qpcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-qpcr/container.yaml"
-updated_at: "2024-07-28 02:41:25.502157"
+updated_at: "2024-07-29 02:41:43.968046"
 latest: "1.4_1--r36hcdcec82_1"
 container_url: "https://biocontainers.pro/tools/r-qpcr"
 
 versions:
  - "1.4_1--r36hcdcec82_1"
 description: "shpc-registry automated BioContainers addition for r-qpcr"
-config: {"url": "https://biocontainers.pro/tools/r-qpcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-qpcr", "latest": {"1.4_1--r36hcdcec82_1": "sha256:e8e2524d553a61b237a677f81d9a4c06127d9d895df62186cf6d537f7972811f"}, "tags": {"1.4_1--r36hcdcec82_1": "sha256:e8e2524d553a61b237a677f81d9a4c06127d9d895df62186cf6d537f7972811f"}, "docker": "quay.io/biocontainers/r-qpcr"}
+config: {"url": "https://biocontainers.pro/tools/r-qpcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-qpcr", "latest": {"1.4_1--r36hcdcec82_1": "sha256:7091898ce1c36d004766dab135d82ad0bffec782a8f63baea8fad109d0fc4d41"}, "tags": {"1.4_1--r36hcdcec82_1": "sha256:7091898ce1c36d004766dab135d82ad0bffec782a8f63baea8fad109d0fc4d41"}, "docker": "quay.io/biocontainers/r-qpcr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-qpcr.

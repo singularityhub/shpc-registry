@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gsca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsca/container.yaml"
-updated_at: "2024-07-28 02:38:20.004022"
+updated_at: "2024-07-29 02:38:42.039450"
 latest: "2.32.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsca"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "2.30.0--r43hdfd78af_0"
  - "2.32.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gsca"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gsca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gsca", "latest": {"2.32.0--r43hdfd78af_0": "sha256:3679b46102e84353a203993e4685168caec4880d3839285b0285fd25b4ad4fd6"}, "tags": {"2.8.0--r3.4.1_0": "sha256:4f7ca4caf6a403b32bcf8a432f4568071ae340d47774fc4e86fc813ef4ab3d25", "2.28.0--r42hdfd78af_0": "sha256:d7353dc02e81cb505ecb279871d55c001e41674742cdc0e1c9e5467fe1f63c99", "2.24.0--r41hdfd78af_0": "sha256:1a05e6b2457fcbe42ed0706f74dd0e83a244b8230b31136b2eaa49bf54e18a4d", "2.22.0--r41hdfd78af_0": "sha256:4502432489f53d48567c03548b3d5391644bf2256b850a7995d922d96873f172", "2.20.0--r40hdfd78af_1": "sha256:127cf77e22a06c3ebd709fc668fa5ef900b03b25b8abead93b57f04d7aee5256", "2.17.0--r40_0": "sha256:1480cd3d8cae4e018b7fc1a1bc8369cad5fe64a10ed70bbca15f86b04a1c2866", "2.30.0--r43hdfd78af_0": "sha256:269ead0a8883faecaefd17fbfc90a5ca620ba66a98d9a4bccc559b5841a6ab7b", "2.32.0--r43hdfd78af_0": "sha256:3679b46102e84353a203993e4685168caec4880d3839285b0285fd25b4ad4fd6"}, "docker": "quay.io/biocontainers/bioconductor-gsca", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gsca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gsca", "latest": {"2.32.0--r43hdfd78af_0": "sha256:3679b46102e84353a203993e4685168caec4880d3839285b0285fd25b4ad4fd6"}, "tags": {"2.8.0--r3.4.1_0": "sha256:3241633470508940f6ff12beac106131ecd5344b7e2c0c0a2d5caed8b91cffdb", "2.28.0--r42hdfd78af_0": "sha256:c896a57c2d94555c1cc1fd45102da36721f34a046e4146b05bc63e3c695c2c6e", "2.24.0--r41hdfd78af_0": "sha256:1a05e6b2457fcbe42ed0706f74dd0e83a244b8230b31136b2eaa49bf54e18a4d", "2.22.0--r41hdfd78af_0": "sha256:4502432489f53d48567c03548b3d5391644bf2256b850a7995d922d96873f172", "2.20.0--r40hdfd78af_1": "sha256:127cf77e22a06c3ebd709fc668fa5ef900b03b25b8abead93b57f04d7aee5256", "2.17.0--r40_0": "sha256:1480cd3d8cae4e018b7fc1a1bc8369cad5fe64a10ed70bbca15f86b04a1c2866", "2.30.0--r43hdfd78af_0": "sha256:269ead0a8883faecaefd17fbfc90a5ca620ba66a98d9a4bccc559b5841a6ab7b", "2.32.0--r43hdfd78af_0": "sha256:3679b46102e84353a203993e4685168caec4880d3839285b0285fd25b4ad4fd6"}, "docker": "quay.io/biocontainers/bioconductor-gsca", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gsca.
