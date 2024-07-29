@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/dapcy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dapcy
+latest:
+  0.1.1--pyhdfd78af_0: sha256:b13038c2d58535660c4a836d328c818e26c0b6a749a394dbe8cf8034e3175864
+tags:
+  0.1.1--pyhdfd78af_0: sha256:b13038c2d58535660c4a836d328c818e26c0b6a749a394dbe8cf8034e3175864
+docker: quay.io/biocontainers/dapcy
+aliases:
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  protoc-25.3.0: /usr/local/bin/protoc-25.3.0
+  dask: /usr/local/bin/dask
+  cyvcf2: /usr/local/bin/cyvcf2
+  annot-tsv: /usr/local/bin/annot-tsv
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  dask-scheduler: /usr/local/bin/dask-scheduler
+  dask-ssh: /usr/local/bin/dask-ssh
+  dask-worker: /usr/local/bin/dask-worker
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  csv-import: /usr/local/bin/csv-import
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump
+  bokeh: /usr/local/bin/bokeh
