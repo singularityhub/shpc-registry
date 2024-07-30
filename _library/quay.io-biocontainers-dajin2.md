@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dajin2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dajin2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dajin2/container.yaml"
-updated_at: "2024-07-29 17:42:51.537479"
+updated_at: "2024-07-30 03:13:41.962979"
 latest: "0.5.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dajin2"
 aliases:

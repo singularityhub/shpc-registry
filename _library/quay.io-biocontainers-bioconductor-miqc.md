@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-miqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-miqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-miqc/container.yaml"
-updated_at: "2024-07-29 17:38:04.747987"
+updated_at: "2024-07-30 03:08:58.329304"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-miqc"
 

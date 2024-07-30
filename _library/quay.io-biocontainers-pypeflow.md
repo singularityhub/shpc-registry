@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pypeflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypeflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pypeflow/container.yaml"
-updated_at: "2024-07-29 17:30:02.712358"
+updated_at: "2024-07-30 03:01:07.159374"
 latest: "2.2.0--py27_0"
 container_url: "https://biocontainers.pro/tools/pypeflow"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bmfilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bmfilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bmfilter/container.yaml"
-updated_at: "2024-07-29 17:28:23.586336"
+updated_at: "2024-07-30 02:59:30.215686"
 latest: "3.101--h4ac6f70_5"
 container_url: "https://biocontainers.pro/tools/bmfilter"
 aliases:

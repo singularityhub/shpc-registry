@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scoary"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scoary/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scoary/container.yaml"
-updated_at: "2024-07-29 17:06:53.247299"
+updated_at: "2024-07-30 02:38:31.760748"
 latest: "1.6.16--py_2"
 container_url: "https://biocontainers.pro/tools/scoary"
 aliases:

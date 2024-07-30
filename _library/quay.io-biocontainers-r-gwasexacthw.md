@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gwasexacthw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gwasexacthw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gwasexacthw/container.yaml"
-updated_at: "2024-07-29 17:51:24.842692"
+updated_at: "2024-07-30 03:21:59.547510"
 latest: "1.01--r36hcdcec82_1"
 container_url: "https://biocontainers.pro/tools/r-gwasexacthw"
 aliases:

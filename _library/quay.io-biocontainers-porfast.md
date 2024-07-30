@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/porfast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/porfast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/porfast/container.yaml"
-updated_at: "2024-07-29 17:28:15.985668"
+updated_at: "2024-07-30 02:59:22.917716"
 latest: "0.8.0--hed695b0_1"
 container_url: "https://biocontainers.pro/tools/porfast"
 aliases:
