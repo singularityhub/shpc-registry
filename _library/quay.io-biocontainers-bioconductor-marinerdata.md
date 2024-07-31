@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-marinerdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-marinerdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-marinerdata/container.yaml"
-updated_at: "2024-07-30 02:37:47.118507"
+updated_at: "2024-07-31 02:18:43.376826"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-marinerdata"
 aliases:

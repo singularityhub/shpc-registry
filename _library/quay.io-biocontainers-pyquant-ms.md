@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyquant-ms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyquant-ms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyquant-ms/container.yaml"
-updated_at: "2024-07-30 03:06:02.749509"
+updated_at: "2024-07-31 02:46:40.406914"
 latest: "0.2.4--py27h4329609_5"
 container_url: "https://biocontainers.pro/tools/pyquant-ms"
 aliases:

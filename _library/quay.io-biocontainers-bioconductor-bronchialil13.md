@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bronchialil13"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bronchialil13/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bronchialil13/container.yaml"
-updated_at: "2024-07-30 02:43:04.585260"
+updated_at: "2024-07-31 02:23:49.040555"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bronchialil13"
 

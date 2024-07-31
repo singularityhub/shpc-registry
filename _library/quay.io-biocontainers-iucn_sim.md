@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iucn_sim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iucn_sim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iucn_sim/container.yaml"
-updated_at: "2024-07-30 03:00:33.584142"
+updated_at: "2024-07-31 02:41:12.288611"
 latest: "2.2.0--pyr40_0"
 container_url: "https://biocontainers.pro/tools/iucn_sim"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/netsyn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/netsyn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/netsyn/container.yaml"
-updated_at: "2024-07-30 03:01:53.177400"
+updated_at: "2024-07-31 02:42:31.581004"
 latest: "0.1.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/netsyn"
 aliases:

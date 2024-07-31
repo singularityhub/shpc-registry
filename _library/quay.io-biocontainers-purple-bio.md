@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/purple-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/purple-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/purple-bio/container.yaml"
-updated_at: "2024-07-30 02:49:10.160176"
+updated_at: "2024-07-31 02:29:51.331689"
 latest: "0.4.2.5--py_0"
 container_url: "https://biocontainers.pro/tools/purple-bio"
 aliases:

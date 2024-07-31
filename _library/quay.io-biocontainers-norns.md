@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/norns"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/norns/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/norns/container.yaml"
-updated_at: "2024-07-30 02:54:51.609942"
+updated_at: "2024-07-31 02:35:32.464088"
 latest: "0.1.6--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/norns"
 aliases:

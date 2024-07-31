@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ctxcore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ctxcore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ctxcore/container.yaml"
-updated_at: "2024-07-30 02:37:51.407154"
+updated_at: "2024-07-31 02:18:47.447611"
 latest: "0.2.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/ctxcore"
 aliases:

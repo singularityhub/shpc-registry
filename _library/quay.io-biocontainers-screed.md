@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/screed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/screed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/screed/container.yaml"
-updated_at: "2024-07-30 02:44:45.884861"
+updated_at: "2024-07-31 02:25:27.902683"
 latest: "1.0.4--py_0"
 container_url: "https://biocontainers.pro/tools/screed"
 aliases:
