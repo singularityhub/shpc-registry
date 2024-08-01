@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genonets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genonets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genonets/container.yaml"
-updated_at: "2024-07-31 02:30:31.610106"
+updated_at: "2024-08-01 02:53:56.553269"
 latest: "2.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/genonets"
 aliases:

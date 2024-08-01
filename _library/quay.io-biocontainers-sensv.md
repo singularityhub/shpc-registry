@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sensv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sensv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sensv/container.yaml"
-updated_at: "2024-07-31 02:43:49.484785"
+updated_at: "2024-08-01 03:06:58.907462"
 latest: "1.0.4--h43eeafb_2"
 container_url: "https://biocontainers.pro/tools/sensv"
 aliases:

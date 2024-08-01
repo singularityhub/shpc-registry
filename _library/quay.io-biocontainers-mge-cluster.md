@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mge-cluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mge-cluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mge-cluster/container.yaml"
-updated_at: "2024-07-31 02:44:02.331481"
+updated_at: "2024-08-01 03:07:11.616997"
 latest: "1.1.0--pyh5ace695_0"
 container_url: "https://biocontainers.pro/tools/mge-cluster"
 aliases:
