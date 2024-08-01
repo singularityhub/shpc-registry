@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/xpclr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for xpclr
 latest:
-  1.1.2--py_0: sha256:0ba23d9d38f456697410db133663d7e20a09a5dd2aea805d8afc389611dcde99
+  1.1.2--py_0: sha256:27c823ba0b8a17c30f8ae25153add4569a6dee0631a37d68b2121aefc171327f
 tags:
-  1.1.2--py_0: sha256:0ba23d9d38f456697410db133663d7e20a09a5dd2aea805d8afc389611dcde99
+  1.1.2--py_0: sha256:27c823ba0b8a17c30f8ae25153add4569a6dee0631a37d68b2121aefc171327f
 docker: quay.io/biocontainers/xpclr
 aliases:
   xpclr: /usr/local/bin/xpclr

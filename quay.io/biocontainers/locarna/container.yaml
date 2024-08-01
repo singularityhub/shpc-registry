@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/locarna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for locarna
 latest:
-  2.0.0RC10--pl5321h9f5acd7_1: sha256:aceba0e44a9f2253cf544ca3b73d390059306a5b7985a0ae178053de862cd473
+  2.0.1--pl5321h4ac6f70_0: sha256:02dea7b5619e5287112f917417bcc92f26afc79a181f59c2b891d52452892fe0
 tags:
   2.0.0RC8--h9f5acd7_2: sha256:8268570b9afd9615850876b18e1732357bf1ee8a27db61c281d6f4aa30334920
   2.0.0RC10--pl5321h9f5acd7_1: sha256:aceba0e44a9f2253cf544ca3b73d390059306a5b7985a0ae178053de862cd473
+  2.0.1--pl5321h4ac6f70_0: sha256:02dea7b5619e5287112f917417bcc92f26afc79a181f59c2b891d52452892fe0
 docker: quay.io/biocontainers/locarna
 aliases:
   LocARNA_RNAz.pm: /usr/local/bin/LocARNA_RNAz.pm

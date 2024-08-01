@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/novasplice
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for novasplice
 latest:
-  0.0.4--py_0: sha256:80524cbb0bb1604c85a37d855fb10a5005d378f4a3323c9c25a7f78fc1824222
+  0.0.4--py_0: sha256:1cd64d438464d2f975a6b15d61251e9d8057004b08697d7cf817c8be9a0d20ae
 tags:
-  0.0.4--py_0: sha256:80524cbb0bb1604c85a37d855fb10a5005d378f4a3323c9c25a7f78fc1824222
+  0.0.4--py_0: sha256:1cd64d438464d2f975a6b15d61251e9d8057004b08697d7cf817c8be9a0d20ae
 docker: quay.io/biocontainers/novasplice
 aliases:
   novasplice: /usr/local/bin/novasplice
