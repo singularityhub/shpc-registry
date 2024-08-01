@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/subset-bam
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for subset-bam
+latest:
+  1.1.0--h4349ce8_0: sha256:c0ff4759fffa3af899c7c469631068ef501880478dd44c77797c8ca041cb9fb0
+tags:
+  1.1.0--h4349ce8_0: sha256:c0ff4759fffa3af899c7c469631068ef501880478dd44c77797c8ca041cb9fb0
+docker: quay.io/biocontainers/subset-bam
+aliases:
+  subset-bam: /usr/local/bin/subset-bam
