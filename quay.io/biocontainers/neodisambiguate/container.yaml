@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/neodisambiguate
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for neodisambiguate
+latest:
+  1.1.0--hdfd78af_0: sha256:bdd727d772e714c42cc2b5455f34fa75147211ae7b6aa2f11e3c171937904955
+tags:
+  1.1.0--hdfd78af_0: sha256:bdd727d772e714c42cc2b5455f34fa75147211ae7b6aa2f11e3c171937904955
+docker: quay.io/biocontainers/neodisambiguate
+aliases:
+  neodisambiguate: /usr/local/bin/neodisambiguate
+  jwebserver: /usr/local/bin/jwebserver
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  hb-info: /usr/local/bin/hb-info
+  jfr: /usr/local/bin/jfr
+  tjbench: /usr/local/bin/tjbench
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
