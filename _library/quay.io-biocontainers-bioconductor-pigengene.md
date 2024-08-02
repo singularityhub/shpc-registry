@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pigengene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pigengene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pigengene/container.yaml"
-updated_at: "2024-08-01 03:52:58.237914"
+updated_at: "2024-08-02 02:58:06.741225"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pigengene"
 aliases:
@@ -22,7 +22,7 @@ versions:
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pigengene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pigengene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pigengene", "latest": {"1.28.0--r43hdfd78af_0": "sha256:2153234c9d4797c318010c6c51c464a066e296b3e4a8962a7a14011ae3285e0c"}, "tags": {"1.8.0--r351_0": "sha256:80aeac87a4d78552487ee6b7db5b2b60edc6217f094ef3fdb25b1a40f45e676c", "1.20.0--r41hdfd78af_0": "sha256:2d09c4dee61e5a2969156f1e19b146ea0d67fd7dd1262be7e41f399f5f3d0651", "1.18.0--r41hdfd78af_0": "sha256:86544143656fb4492ebeb2aa11ea4c3fe9b7b7a6dfc79bc73ec8bbbd9e996a96", "1.16.0--r40hdfd78af_1": "sha256:f43fce393d32bf357942f954f3f8a710fcfa4946cf5e1bbef7b7242af333df62", "1.14.0--r40_0": "sha256:8b122d64b35e28a9def42af636a4896a54b6224a5bbda3d635014ca057e18876", "1.12.0--r36_0": "sha256:10ad21ac03dc8b8b88b8ff60a23abf3a89eeccecc5d2003ec9ae9716c50d65c6", "1.24.0--r42hdfd78af_0": "sha256:61dfa9578ad1a1b055b13e59937c0587fad5fa7bd67ac4833f85e444d5668f55", "1.26.0--r43hdfd78af_0": "sha256:bf96010d73c92420936f600249827f89cdfc16d24c338a7cb84edf8c06469d4c", "1.28.0--r43hdfd78af_0": "sha256:2153234c9d4797c318010c6c51c464a066e296b3e4a8962a7a14011ae3285e0c"}, "docker": "quay.io/biocontainers/bioconductor-pigengene", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pigengene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pigengene", "latest": {"1.28.0--r43hdfd78af_0": "sha256:2153234c9d4797c318010c6c51c464a066e296b3e4a8962a7a14011ae3285e0c"}, "tags": {"1.8.0--r351_0": "sha256:d22abb6b3c4015c0e94b8fbd04504a99accba53929d937bd61dde783bb9f897a", "1.20.0--r41hdfd78af_0": "sha256:2d09c4dee61e5a2969156f1e19b146ea0d67fd7dd1262be7e41f399f5f3d0651", "1.18.0--r41hdfd78af_0": "sha256:86544143656fb4492ebeb2aa11ea4c3fe9b7b7a6dfc79bc73ec8bbbd9e996a96", "1.16.0--r40hdfd78af_1": "sha256:f43fce393d32bf357942f954f3f8a710fcfa4946cf5e1bbef7b7242af333df62", "1.14.0--r40_0": "sha256:8b122d64b35e28a9def42af636a4896a54b6224a5bbda3d635014ca057e18876", "1.12.0--r36_0": "sha256:8398e3c21111de760330f1bdcfb2447e16b05c9287d40d56eda599cc5d61c5a2", "1.24.0--r42hdfd78af_0": "sha256:61dfa9578ad1a1b055b13e59937c0587fad5fa7bd67ac4833f85e444d5668f55", "1.26.0--r43hdfd78af_0": "sha256:bf96010d73c92420936f600249827f89cdfc16d24c338a7cb84edf8c06469d4c", "1.28.0--r43hdfd78af_0": "sha256:2153234c9d4797c318010c6c51c464a066e296b3e4a8962a7a14011ae3285e0c"}, "docker": "quay.io/biocontainers/bioconductor-pigengene", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pigengene.

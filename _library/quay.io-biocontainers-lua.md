@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lua"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lua/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lua/container.yaml"
-updated_at: "2024-08-01 04:09:18.935056"
+updated_at: "2024-08-02 03:14:41.537976"
 latest: "5.3.4"
 container_url: "https://biocontainers.pro/tools/lua"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "5.3.4"
 description: "shpc-registry automated BioContainers addition for lua"
-config: {"url": "https://biocontainers.pro/tools/lua", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lua", "latest": {"5.3.4": "sha256:f567742f48e7da8324dfa60535516347ced782edfac5312f385e9e619a553fc0"}, "tags": {"5.3.4": "sha256:f567742f48e7da8324dfa60535516347ced782edfac5312f385e9e619a553fc0"}, "docker": "quay.io/biocontainers/lua", "aliases": {"lua": "/usr/local/bin/lua", "luac": "/usr/local/bin/luac"}}
+config: {"url": "https://biocontainers.pro/tools/lua", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lua", "latest": {"5.3.4": "sha256:f739692ef00753da0d28e6150c2c9149140b9d3c62449086c4ff73a1b75939d6"}, "tags": {"5.3.4": "sha256:f739692ef00753da0d28e6150c2c9149140b9d3c62449086c4ff73a1b75939d6"}, "docker": "quay.io/biocontainers/lua", "aliases": {"lua": "/usr/local/bin/lua", "luac": "/usr/local/bin/luac"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lua.

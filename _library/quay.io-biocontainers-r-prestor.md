@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-prestor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-prestor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-prestor/container.yaml"
-updated_at: "2024-08-01 03:34:35.610795"
+updated_at: "2024-08-02 02:39:32.338572"
 latest: "0.0.5--r36_0"
 container_url: "https://biocontainers.pro/tools/r-prestor"
 aliases:
@@ -16,7 +16,7 @@ aliases:
 versions:
  - "0.0.5--r36_0"
 description: "shpc-registry automated BioContainers addition for r-prestor"
-config: {"url": "https://biocontainers.pro/tools/r-prestor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-prestor", "latest": {"0.0.5--r36_0": "sha256:7a3e81d97b81d4a1d7f808d58a73d82cd27e0809206697b1dc17182b0d59afc5"}, "tags": {"0.0.5--r36_0": "sha256:7a3e81d97b81d4a1d7f808d58a73d82cd27e0809206697b1dc17182b0d59afc5"}, "docker": "quay.io/biocontainers/r-prestor", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-prestor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-prestor", "latest": {"0.0.5--r36_0": "sha256:015dc52e2d29c83a027e312562365f51557a932938b867475bd33551bdb8ea72"}, "tags": {"0.0.5--r36_0": "sha256:015dc52e2d29c83a027e312562365f51557a932938b867475bd33551bdb8ea72"}, "docker": "quay.io/biocontainers/r-prestor", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-prestor.

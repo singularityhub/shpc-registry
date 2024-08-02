@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/purple-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/purple-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/purple-bio/container.yaml"
-updated_at: "2024-08-01 03:43:38.328913"
+updated_at: "2024-08-02 02:48:41.325789"
 latest: "0.4.2.5--py_0"
 container_url: "https://biocontainers.pro/tools/purple-bio"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.4.2.5--py_0"
 description: "shpc-registry automated BioContainers addition for purple-bio"
-config: {"url": "https://biocontainers.pro/tools/purple-bio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for purple-bio", "latest": {"0.4.2.5--py_0": "sha256:2e6181ddbdbe0e6b9bbceea7226c4fa3bc31e555918474c72a3dd95a28a1b4cf"}, "tags": {"0.4.2.5--py_0": "sha256:2e6181ddbdbe0e6b9bbceea7226c4fa3bc31e555918474c72a3dd95a28a1b4cf"}, "docker": "quay.io/biocontainers/purple-bio", "aliases": {"tqdm": "/usr/local/bin/tqdm", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/purple-bio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for purple-bio", "latest": {"0.4.2.5--py_0": "sha256:8898f2672668f7a0bc73e4ae77966bb3e60358205c9457c9acdb1b9bb9b322b7"}, "tags": {"0.4.2.5--py_0": "sha256:8898f2672668f7a0bc73e4ae77966bb3e60358205c9457c9acdb1b9bb9b322b7"}, "docker": "quay.io/biocontainers/purple-bio", "aliases": {"tqdm": "/usr/local/bin/tqdm", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/purple-bio.

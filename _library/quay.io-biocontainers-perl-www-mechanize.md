@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-www-mechanize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-www-mechanize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-www-mechanize/container.yaml"
-updated_at: "2024-08-01 03:59:15.746784"
+updated_at: "2024-08-02 03:04:30.515825"
 latest: "1.91--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-www-mechanize"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.91--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-www-mechanize"
-config: {"url": "https://biocontainers.pro/tools/perl-www-mechanize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-www-mechanize", "latest": {"1.91--pl526_1": "sha256:f5def9e813648e86260f4731c9f7976a0cfa63cb457e189bf9b5bd179bf86b12"}, "tags": {"1.91--pl526_1": "sha256:f5def9e813648e86260f4731c9f7976a0cfa63cb457e189bf9b5bd179bf86b12"}, "docker": "quay.io/biocontainers/perl-www-mechanize", "aliases": {"mech-dump": "/usr/local/bin/mech-dump", "config_data": "/usr/local/bin/config_data", "htmltree": "/usr/local/bin/htmltree", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-www-mechanize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-www-mechanize", "latest": {"1.91--pl526_1": "sha256:170366be51ff338e96cf601e12e3c5fab0737494ff86f2a8a427dc34d4c7a46b"}, "tags": {"1.91--pl526_1": "sha256:170366be51ff338e96cf601e12e3c5fab0737494ff86f2a8a427dc34d4c7a46b"}, "docker": "quay.io/biocontainers/perl-www-mechanize", "aliases": {"mech-dump": "/usr/local/bin/mech-dump", "config_data": "/usr/local/bin/config_data", "htmltree": "/usr/local/bin/htmltree", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-www-mechanize.

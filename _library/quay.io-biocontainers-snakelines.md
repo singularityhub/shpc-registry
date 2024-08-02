@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakelines"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakelines/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakelines/container.yaml"
-updated_at: "2024-08-01 04:00:33.693277"
+updated_at: "2024-08-02 03:05:50.325309"
 latest: "1.1.8--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakelines"
 aliases:

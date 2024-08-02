@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pychopper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pychopper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pychopper/container.yaml"
-updated_at: "2024-08-01 03:55:41.262366"
-latest: "2.7.9--pyhdfd78af_0"
+updated_at: "2024-08-02 03:00:51.094758"
+latest: "2.7.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pychopper"
 aliases:
  - "cdna_classifier.py"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "2.5.0--py_0"
  - "2.7.9--pyhdfd78af_0"
+ - "2.7.10--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pychopper"
-config: {"url": "https://biocontainers.pro/tools/pychopper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pychopper", "latest": {"2.7.9--pyhdfd78af_0": "sha256:51656537fbb0860ff16e8860c38b8357c8d27e623f63364c8c2d006abc5e88d2"}, "tags": {"2.5.0--py_0": "sha256:d0a9dcd71a609d2d979647af5c36ce33fe63ceb09674266029d7f1b67d994b96", "2.7.9--pyhdfd78af_0": "sha256:51656537fbb0860ff16e8860c38b8357c8d27e623f63364c8c2d006abc5e88d2"}, "docker": "quay.io/biocontainers/pychopper", "aliases": {"cdna_classifier.py": "/usr/local/bin/cdna_classifier.py", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat"}}
+config: {"url": "https://biocontainers.pro/tools/pychopper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pychopper", "latest": {"2.7.10--pyhdfd78af_0": "sha256:c311ea485aa6a88cab67542b8cae473d6670f4f33d48d1d467f9d960ee57ff32"}, "tags": {"2.5.0--py_0": "sha256:d0a9dcd71a609d2d979647af5c36ce33fe63ceb09674266029d7f1b67d994b96", "2.7.9--pyhdfd78af_0": "sha256:51656537fbb0860ff16e8860c38b8357c8d27e623f63364c8c2d006abc5e88d2", "2.7.10--pyhdfd78af_0": "sha256:c311ea485aa6a88cab67542b8cae473d6670f4f33d48d1d467f9d960ee57ff32"}, "docker": "quay.io/biocontainers/pychopper", "aliases": {"cdna_classifier.py": "/usr/local/bin/cdna_classifier.py", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pychopper.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/pychopper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pychopper:2.7.9--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pychopper:2.7.10--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pychopper/2.7.9--pyhdfd78af_0
-$ module help quay.io/biocontainers/pychopper/2.7.9--pyhdfd78af_0
+$ module load quay.io/biocontainers/pychopper/2.7.10--pyhdfd78af_0
+$ module help quay.io/biocontainers/pychopper/2.7.10--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

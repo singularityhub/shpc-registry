@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-funcisnp.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-funcisnp.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-funcisnp.data/container.yaml"
-updated_at: "2024-08-01 03:35:11.846903"
+updated_at: "2024-08-02 02:40:09.441678"
 latest: "1.22.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-funcisnp.data"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.22.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-funcisnp.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-funcisnp.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-funcisnp.data", "latest": {"1.22.0--r36_0": "sha256:da9aba17b782dcead39d4ded37ce0d3bfc21fec797592600e55039ceda7ac6a4"}, "tags": {"1.22.0--r36_0": "sha256:da9aba17b782dcead39d4ded37ce0d3bfc21fec797592600e55039ceda7ac6a4"}, "docker": "quay.io/biocontainers/bioconductor-funcisnp.data", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-funcisnp.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-funcisnp.data", "latest": {"1.22.0--r36_0": "sha256:406e09e5342007e332e26078a50cd0fcd157b64fcbae2d913522a81ba42dde5a"}, "tags": {"1.22.0--r36_0": "sha256:406e09e5342007e332e26078a50cd0fcd157b64fcbae2d913522a81ba42dde5a"}, "docker": "quay.io/biocontainers/bioconductor-funcisnp.data", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-funcisnp.data.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gwastools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gwastools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gwastools/container.yaml"
-updated_at: "2024-08-01 03:54:51.421114"
+updated_at: "2024-08-02 03:00:00.743684"
 latest: "1.48.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gwastools"
 

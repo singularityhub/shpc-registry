@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyalveo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyalveo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyalveo/container.yaml"
-updated_at: "2024-08-01 03:37:12.534090"
+updated_at: "2024-08-02 02:42:10.778716"
 latest: "1.0.3--py36_1"
 container_url: "https://biocontainers.pro/tools/pyalveo"
 aliases:

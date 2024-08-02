@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kronos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kronos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kronos/container.yaml"
-updated_at: "2024-08-01 03:39:36.829626"
+updated_at: "2024-08-02 02:44:35.544435"
 latest: "2.3.0--py_1"
 container_url: "https://biocontainers.pro/tools/kronos"
 aliases:
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "2.3.0--py_1"
 description: "shpc-registry automated BioContainers addition for kronos"
-config: {"url": "https://biocontainers.pro/tools/kronos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kronos", "latest": {"2.3.0--py_1": "sha256:32208e8937d7bcbfe3dc4e21735757a438ba007ff68e79650caedc5d76f054af"}, "tags": {"2.3.0--py_1": "sha256:32208e8937d7bcbfe3dc4e21735757a438ba007ff68e79650caedc5d76f054af"}, "docker": "quay.io/biocontainers/kronos", "aliases": {"kronos": "/usr/local/bin/kronos", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/kronos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kronos", "latest": {"2.3.0--py_1": "sha256:9e7bdfbe29439eb57451a4d53bbeab17e6098ba36d853006365d32bca083497f"}, "tags": {"2.3.0--py_1": "sha256:9e7bdfbe29439eb57451a4d53bbeab17e6098ba36d853006365d32bca083497f"}, "docker": "quay.io/biocontainers/kronos", "aliases": {"kronos": "/usr/local/bin/kronos", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kronos.

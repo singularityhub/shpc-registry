@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgat-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgat-core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-core/container.yaml"
-updated_at: "2024-08-01 03:41:39.008791"
+updated_at: "2024-08-02 02:46:38.736436"
 latest: "0.5.14--py_0"
 container_url: "https://biocontainers.pro/tools/cgat-core"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.5.14--py_0"
 description: "shpc-registry automated BioContainers addition for cgat-core"
-config: {"url": "https://biocontainers.pro/tools/cgat-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-core", "latest": {"0.5.14--py_0": "sha256:173642d1e3fa36c82e4048d699ff76aff6de07e5bf3751a080a331ffc75bc829"}, "tags": {"0.5.14--py_0": "sha256:173642d1e3fa36c82e4048d699ff76aff6de07e5bf3751a080a331ffc75bc829"}, "docker": "quay.io/biocontainers/cgat-core", "aliases": {"time": "/usr/local/bin/time", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
+config: {"url": "https://biocontainers.pro/tools/cgat-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-core", "latest": {"0.5.14--py_0": "sha256:cf98d753911de895ac4a95e74a2aef74e739e69120c1810fada38004116b2036"}, "tags": {"0.5.14--py_0": "sha256:cf98d753911de895ac4a95e74a2aef74e739e69120c1810fada38004116b2036"}, "docker": "quay.io/biocontainers/cgat-core", "aliases": {"time": "/usr/local/bin/time", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgat-core.

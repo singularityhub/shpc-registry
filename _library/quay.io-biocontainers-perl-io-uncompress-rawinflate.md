@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-io-uncompress-rawinflate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-uncompress-rawinflate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-uncompress-rawinflate/container.yaml"
-updated_at: "2024-08-01 03:50:47.694202"
+updated_at: "2024-08-02 02:55:55.113574"
 latest: "2.064--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-io-uncompress-rawinflate"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "2.064--pl526_1"
 description: "shpc-registry automated BioContainers addition for perl-io-uncompress-rawinflate"
-config: {"url": "https://biocontainers.pro/tools/perl-io-uncompress-rawinflate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-io-uncompress-rawinflate", "latest": {"2.064--pl526_1": "sha256:513cb6fb4a159f8657fe49da332c5bdcbc874d270d49e4a2b2c3884b70856f12"}, "tags": {"2.064--pl526_1": "sha256:513cb6fb4a159f8657fe49da332c5bdcbc874d270d49e4a2b2c3884b70856f12"}, "docker": "quay.io/biocontainers/perl-io-uncompress-rawinflate", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-io-uncompress-rawinflate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-io-uncompress-rawinflate", "latest": {"2.064--pl526_1": "sha256:6e90602d0df16aecd6e2b379db0a68ef40283cfc014780d5102618e7394400d2"}, "tags": {"2.064--pl526_1": "sha256:6e90602d0df16aecd6e2b379db0a68ef40283cfc014780d5102618e7394400d2"}, "docker": "quay.io/biocontainers/perl-io-uncompress-rawinflate", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-io-uncompress-rawinflate.

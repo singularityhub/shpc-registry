@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xpclr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xpclr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xpclr/container.yaml"
-updated_at: "2024-08-01 03:44:09.118911"
+updated_at: "2024-08-02 02:49:12.431689"
 latest: "1.1.2--py_0"
 container_url: "https://biocontainers.pro/tools/xpclr"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.1.2--py_0"
 description: "shpc-registry automated BioContainers addition for xpclr"
-config: {"url": "https://biocontainers.pro/tools/xpclr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xpclr", "latest": {"1.1.2--py_0": "sha256:0ba23d9d38f456697410db133663d7e20a09a5dd2aea805d8afc389611dcde99"}, "tags": {"1.1.2--py_0": "sha256:0ba23d9d38f456697410db133663d7e20a09a5dd2aea805d8afc389611dcde99"}, "docker": "quay.io/biocontainers/xpclr", "aliases": {"xpclr": "/usr/local/bin/xpclr", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "bokeh": "/usr/local/bin/bokeh", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree"}}
+config: {"url": "https://biocontainers.pro/tools/xpclr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xpclr", "latest": {"1.1.2--py_0": "sha256:27c823ba0b8a17c30f8ae25153add4569a6dee0631a37d68b2121aefc171327f"}, "tags": {"1.1.2--py_0": "sha256:27c823ba0b8a17c30f8ae25153add4569a6dee0631a37d68b2121aefc171327f"}, "docker": "quay.io/biocontainers/xpclr", "aliases": {"xpclr": "/usr/local/bin/xpclr", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "bokeh": "/usr/local/bin/bokeh", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xpclr.

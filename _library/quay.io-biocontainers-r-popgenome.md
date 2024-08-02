@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-popgenome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-popgenome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-popgenome/container.yaml"
-updated_at: "2024-08-01 04:10:59.899782"
+updated_at: "2024-08-02 03:16:23.412718"
 latest: "2.7.2--r36h0357c0b_0"
 container_url: "https://biocontainers.pro/tools/r-popgenome"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "2.7.2--r36h0357c0b_0"
 description: "shpc-registry automated BioContainers addition for r-popgenome"
-config: {"url": "https://biocontainers.pro/tools/r-popgenome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-popgenome", "latest": {"2.7.2--r36h0357c0b_0": "sha256:7e48a40134d280647f4996b566e9f52219dc8a8e01ce01f04567069b9250828a"}, "tags": {"2.7.2--r36h0357c0b_0": "sha256:7e48a40134d280647f4996b566e9f52219dc8a8e01ce01f04567069b9250828a"}, "docker": "quay.io/biocontainers/r-popgenome", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-popgenome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-popgenome", "latest": {"2.7.2--r36h0357c0b_0": "sha256:a3fa3968fce1962e776f0ab3646dc437c7f90be35a1baf22fe9d3709c142fbb7"}, "tags": {"2.7.2--r36h0357c0b_0": "sha256:a3fa3968fce1962e776f0ab3646dc437c7f90be35a1baf22fe9d3709c142fbb7"}, "docker": "quay.io/biocontainers/r-popgenome", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-popgenome.

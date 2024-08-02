@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/ymp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ymp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ymp/container.yaml"
-updated_at: "2024-08-01 03:51:14.872093"
-latest: "0.2.1--py_0"
+updated_at: "2024-08-02 02:56:22.597179"
+latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ymp"
 
 versions:
  - "0.2.1--py_0"
+ - "0.3.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ymp"
-config: {"url": "https://biocontainers.pro/tools/ymp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ymp", "latest": {"0.2.1--py_0": "sha256:4b335f3bf74c50987bd27f4f4f7e52c34960bde5681606335d1b15b8484d5245"}, "tags": {"0.2.1--py_0": "sha256:4b335f3bf74c50987bd27f4f4f7e52c34960bde5681606335d1b15b8484d5245"}, "docker": "quay.io/biocontainers/ymp"}
+config: {"url": "https://biocontainers.pro/tools/ymp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ymp", "latest": {"0.3.1--pyhdfd78af_0": "sha256:efc80c66cf918e6cd3a609997ba77255f78149c9e6ab603473795c51fa306b27"}, "tags": {"0.2.1--py_0": "sha256:4b335f3bf74c50987bd27f4f4f7e52c34960bde5681606335d1b15b8484d5245", "0.3.1--pyhdfd78af_0": "sha256:efc80c66cf918e6cd3a609997ba77255f78149c9e6ab603473795c51fa306b27"}, "docker": "quay.io/biocontainers/ymp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ymp.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/ymp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ymp:0.2.1--py_0
+$ shpc install quay.io/biocontainers/ymp:0.3.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ymp/0.2.1--py_0
-$ module help quay.io/biocontainers/ymp/0.2.1--py_0
+$ module load quay.io/biocontainers/ymp/0.3.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/ymp/0.3.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

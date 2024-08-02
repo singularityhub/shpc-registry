@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-vision"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-vision/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-vision/container.yaml"
-updated_at: "2024-08-01 04:00:20.110074"
+updated_at: "2024-08-02 03:05:36.386099"
 latest: "2.0.0--r43h4ac6f70_7"
 container_url: "https://biocontainers.pro/tools/r-vision"
 
@@ -14,7 +14,7 @@ versions:
  - "2.0.0--r42h4ac6f70_6"
  - "2.0.0--r43h4ac6f70_7"
 description: "shpc-registry automated BioContainers addition for r-vision"
-config: {"url": "https://biocontainers.pro/tools/r-vision", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-vision", "latest": {"2.0.0--r43h4ac6f70_7": "sha256:47f7ec16f899b811f29615d53363791665a65d01c77df60190c85b9c45f02c19"}, "tags": {"2.0.0--r41h9f5acd7_4": "sha256:830d705ad5f71a5a57839ab0800055f3021ea7b4966c87c56644b359df54779c", "2.0.0--r42h9f5acd7_5": "sha256:a3d26c798640261bf78ca83e075ce8c39073a11983bf0740b8c0d909616f20c8", "2.0.0--r42h4ac6f70_6": "sha256:cb0635d018c1f42af0b06373bcbce3b5eafb078ee0e85316ea9270001f3622b8", "2.0.0--r43h4ac6f70_7": "sha256:47f7ec16f899b811f29615d53363791665a65d01c77df60190c85b9c45f02c19"}, "docker": "quay.io/biocontainers/r-vision"}
+config: {"url": "https://biocontainers.pro/tools/r-vision", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-vision", "latest": {"2.0.0--r43h4ac6f70_7": "sha256:47f7ec16f899b811f29615d53363791665a65d01c77df60190c85b9c45f02c19"}, "tags": {"2.0.0--r41h9f5acd7_4": "sha256:830d705ad5f71a5a57839ab0800055f3021ea7b4966c87c56644b359df54779c", "2.0.0--r42h9f5acd7_5": "sha256:f1b0bc4aa30cb27f51d8efe2e2e337fb99ee3bc1007e43dfc9372c16a33e281c", "2.0.0--r42h4ac6f70_6": "sha256:cb0635d018c1f42af0b06373bcbce3b5eafb078ee0e85316ea9270001f3622b8", "2.0.0--r43h4ac6f70_7": "sha256:47f7ec16f899b811f29615d53363791665a65d01c77df60190c85b9c45f02c19"}, "docker": "quay.io/biocontainers/r-vision"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-vision.

@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/xtensor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xtensor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xtensor/container.yaml"
-updated_at: "2024-08-01 03:44:22.955950"
+updated_at: "2024-08-02 02:49:26.417211"
 latest: "0.19.1"
 container_url: "https://biocontainers.pro/tools/xtensor"
 
 versions:
  - "0.19.1"
 description: "shpc-registry automated BioContainers addition for xtensor"
-config: {"url": "https://biocontainers.pro/tools/xtensor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xtensor", "latest": {"0.19.1": "sha256:7627945cdba1801aa258cf4d19fda8cb600c8df93360612d469d2bffe005c6c3"}, "tags": {"0.19.1": "sha256:7627945cdba1801aa258cf4d19fda8cb600c8df93360612d469d2bffe005c6c3"}, "docker": "quay.io/biocontainers/xtensor"}
+config: {"url": "https://biocontainers.pro/tools/xtensor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xtensor", "latest": {"0.19.1": "sha256:c5bdf138f36c09bf65597eba97d59591b37e6d3ea6ea4a6d7162d069ee58520f"}, "tags": {"0.19.1": "sha256:c5bdf138f36c09bf65597eba97d59591b37e6d3ea6ea4a6d7162d069ee58520f"}, "docker": "quay.io/biocontainers/xtensor"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xtensor.

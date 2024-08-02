@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/methylextract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methylextract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methylextract/container.yaml"
-updated_at: "2024-08-01 03:47:00.687068"
+updated_at: "2024-08-02 02:52:05.988491"
 latest: "1.9.1--1"
 container_url: "https://biocontainers.pro/tools/methylextract"
 aliases:

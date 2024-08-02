@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hdf5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hdf5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hdf5/container.yaml"
-updated_at: "2024-08-01 03:48:20.861409"
+updated_at: "2024-08-02 02:53:26.915053"
 latest: "1.10.4"
 container_url: "https://biocontainers.pro/tools/hdf5"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.10.4"
 description: "shpc-registry automated BioContainers addition for hdf5"
-config: {"url": "https://biocontainers.pro/tools/hdf5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hdf5", "latest": {"1.10.4": "sha256:83dc56674b08992f4aa0637c5164ba56579976d4f83962ab95996237ae11a306"}, "tags": {"1.10.4": "sha256:83dc56674b08992f4aa0637c5164ba56579976d4f83962ab95996237ae11a306"}, "docker": "quay.io/biocontainers/hdf5", "aliases": {"h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
+config: {"url": "https://biocontainers.pro/tools/hdf5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hdf5", "latest": {"1.10.4": "sha256:b6e366bef8068538ac97c8c984d953e1356f89c85d751f0d3829b53ad3cb9086"}, "tags": {"1.10.4": "sha256:b6e366bef8068538ac97c8c984d953e1356f89c85d751f0d3829b53ad3cb9086"}, "docker": "quay.io/biocontainers/hdf5", "aliases": {"h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hdf5.

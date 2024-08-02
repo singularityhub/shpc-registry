@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cancerit-allelecount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cancerit-allelecount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cancerit-allelecount/container.yaml"
-updated_at: "2024-08-01 03:46:59.553524"
-latest: "4.3.0--h8bd2d3b_6"
+updated_at: "2024-08-02 02:52:04.845491"
+latest: "4.3.0--h8bd2d3b_7"
 container_url: "https://biocontainers.pro/tools/cancerit-allelecount"
 aliases:
  - "alleleCounter"
@@ -17,8 +17,9 @@ versions:
  - "4.3.0--heecbde5_4"
  - "4.3.0--h57116a3_5"
  - "4.3.0--h8bd2d3b_6"
+ - "4.3.0--h8bd2d3b_7"
 description: "shpc-registry automated BioContainers addition for cancerit-allelecount"
-config: {"url": "https://biocontainers.pro/tools/cancerit-allelecount", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cancerit-allelecount", "latest": {"4.3.0--h8bd2d3b_6": "sha256:fb1674b1b547bba82fb058f723c2d882acb60e9c9024677b4deb72b2bb92ca13"}, "tags": {"4.3.0--ha8fb052_3": "sha256:0be75beaf4d37798e3a7f9f075e509baa6c2d4fa928778137b41f425c5000e54", "4.3.0--heecbde5_4": "sha256:3d106cd2d93b27003c220bdec1312ac55ceb58411fb460156e049f24366adf2f", "4.3.0--h57116a3_5": "sha256:46dd3679ae62a9476ab8dfa0f98fda00b8feb69dfc3cadad0e7e275ab976cfc8", "4.3.0--h8bd2d3b_6": "sha256:fb1674b1b547bba82fb058f723c2d882acb60e9c9024677b4deb72b2bb92ca13"}, "docker": "quay.io/biocontainers/cancerit-allelecount", "aliases": {"alleleCounter": "/usr/local/bin/alleleCounter", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/cancerit-allelecount", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cancerit-allelecount", "latest": {"4.3.0--h8bd2d3b_7": "sha256:5df67e05bd332eb475c85712db67ce8a2aa196d30fa5b041eef238479d88abbe"}, "tags": {"4.3.0--ha8fb052_3": "sha256:0be75beaf4d37798e3a7f9f075e509baa6c2d4fa928778137b41f425c5000e54", "4.3.0--heecbde5_4": "sha256:3d106cd2d93b27003c220bdec1312ac55ceb58411fb460156e049f24366adf2f", "4.3.0--h57116a3_5": "sha256:46dd3679ae62a9476ab8dfa0f98fda00b8feb69dfc3cadad0e7e275ab976cfc8", "4.3.0--h8bd2d3b_6": "sha256:fb1674b1b547bba82fb058f723c2d882acb60e9c9024677b4deb72b2bb92ca13", "4.3.0--h8bd2d3b_7": "sha256:5df67e05bd332eb475c85712db67ce8a2aa196d30fa5b041eef238479d88abbe"}, "docker": "quay.io/biocontainers/cancerit-allelecount", "aliases": {"alleleCounter": "/usr/local/bin/alleleCounter", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cancerit-allelecount.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/cancerit-allelecount
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cancerit-allelecount:4.3.0--h8bd2d3b_6
+$ shpc install quay.io/biocontainers/cancerit-allelecount:4.3.0--h8bd2d3b_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cancerit-allelecount/4.3.0--h8bd2d3b_6
-$ module help quay.io/biocontainers/cancerit-allelecount/4.3.0--h8bd2d3b_6
+$ module load quay.io/biocontainers/cancerit-allelecount/4.3.0--h8bd2d3b_7
+$ module help quay.io/biocontainers/cancerit-allelecount/4.3.0--h8bd2d3b_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

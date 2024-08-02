@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/novasplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/novasplice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/novasplice/container.yaml"
-updated_at: "2024-08-01 04:03:31.921126"
+updated_at: "2024-08-02 03:08:50.499635"
 latest: "0.0.4--py_0"
 container_url: "https://biocontainers.pro/tools/novasplice"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.0.4--py_0"
 description: "shpc-registry automated BioContainers addition for novasplice"
-config: {"url": "https://biocontainers.pro/tools/novasplice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for novasplice", "latest": {"0.0.4--py_0": "sha256:80524cbb0bb1604c85a37d855fb10a5005d378f4a3323c9c25a7f78fc1824222"}, "tags": {"0.0.4--py_0": "sha256:80524cbb0bb1604c85a37d855fb10a5005d378f4a3323c9c25a7f78fc1824222"}, "docker": "quay.io/biocontainers/novasplice", "aliases": {"novasplice": "/usr/local/bin/novasplice", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython"}}
+config: {"url": "https://biocontainers.pro/tools/novasplice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for novasplice", "latest": {"0.0.4--py_0": "sha256:1cd64d438464d2f975a6b15d61251e9d8057004b08697d7cf817c8be9a0d20ae"}, "tags": {"0.0.4--py_0": "sha256:1cd64d438464d2f975a6b15d61251e9d8057004b08697d7cf817c8be9a0d20ae"}, "docker": "quay.io/biocontainers/novasplice", "aliases": {"novasplice": "/usr/local/bin/novasplice", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/novasplice.
