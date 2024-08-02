@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-tigger
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-tigger
 latest:
-  0.4.0--r40h6115d3f_2: sha256:86b0a65ddbca4fb4ad173e9ffe5360e3921fad06b29bc5bcb8ba185e065adcdd
+  0.4.0--r40h6115d3f_2: sha256:0ba9fb0fae0cd6b98fe3f5e56756f5fa62af2772cafec4169ff8998199f40b8d
 tags:
-  0.4.0--r40h6115d3f_2: sha256:86b0a65ddbca4fb4ad173e9ffe5360e3921fad06b29bc5bcb8ba185e065adcdd
+  0.4.0--r40h6115d3f_2: sha256:0ba9fb0fae0cd6b98fe3f5e56756f5fa62af2772cafec4169ff8998199f40b8d
 docker: quay.io/biocontainers/r-tigger
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

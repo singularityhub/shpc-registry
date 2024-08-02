@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/popera
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for popera
 latest:
-  1.0.3--py_0: sha256:42cf330bd7b0d97615721fa6d4aab315ca956a1cb956c7c6128e49a7f6b9d544
+  1.0.3--py_0: sha256:dbcf19fa8aec5a8a6d8eab6e465cf8b5c52a5425d046daff21bfc44ccaecb11d
 tags:
-  1.0.3--py_0: sha256:42cf330bd7b0d97615721fa6d4aab315ca956a1cb956c7c6128e49a7f6b9d544
+  1.0.3--py_0: sha256:dbcf19fa8aec5a8a6d8eab6e465cf8b5c52a5425d046daff21bfc44ccaecb11d
 docker: quay.io/biocontainers/popera
 aliases:
   popera: /usr/local/bin/popera

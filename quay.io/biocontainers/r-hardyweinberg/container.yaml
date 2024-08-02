@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-hardyweinberg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-hardyweinberg
 latest:
-  1.6.3--r36h0357c0b_1: sha256:a9029ef80930f85272c961f992a93687bcdab072e454ef9ef567fd0568eae520
+  1.6.3--r36h0357c0b_1: sha256:d771b84f832ab2e469d7eb478d562ee3c12f242849a69e990271873fdd7aea03
 tags:
-  1.6.3--r36h0357c0b_1: sha256:a9029ef80930f85272c961f992a93687bcdab072e454ef9ef567fd0568eae520
+  1.6.3--r36h0357c0b_1: sha256:d771b84f832ab2e469d7eb478d562ee3c12f242849a69e990271873fdd7aea03
 docker: quay.io/biocontainers/r-hardyweinberg
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

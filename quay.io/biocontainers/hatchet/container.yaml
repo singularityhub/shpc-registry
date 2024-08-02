@@ -11,6 +11,7 @@ tags:
   1.0.3--py37h96cfd12_0: sha256:b8c8e22d78498e3bc6966831feb87914a2bd5a8fc7c9c642a27bce7950b43f14
   0.4.14--py37h96cfd12_0: sha256:efb42c77c0e5e6f23907c1d95fe67c572c8d691d72baec7216fba0ebd696be8f
   2.0.1--py39h9e0f934_1: sha256:a7a962b8bb2464e05b00bca07da89f45c522db0d22b06c00454499f075f98238
+  1.0.3--py38h4a32c8e_0: sha256:ce39ea66a3ed03f213812658e58f484acbb4bbf014058c534f038e11da44cd30
 docker: quay.io/biocontainers/hatchet
 aliases:
   hatchet: /usr/local/bin/hatchet

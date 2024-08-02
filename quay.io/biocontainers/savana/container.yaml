@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/savana
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for savana
 latest:
-  1.0.5--pyhdfd78af_0: sha256:b39656923e43ed9d49b319d7f5115e9e97d580a3db06453e325020358e40419e
+  1.2.0--pyhdfd78af_1: sha256:1ffa7a267e6457ee39184d0999d61ea0530da0ab7b6cbd0ff0375cfbb5e8c170
 tags:
   0.2.1--pyhdfd78af_0: sha256:488e260166b212aa49c37e7b2e92c43171513711269f00a8ac17d3646cbecda1
   0.2.3--pyhdfd78af_0: sha256:754a6691bfef52454e912973d5c3863aab00a1006227a98c068d7823a60eaf88
@@ -10,6 +10,7 @@ tags:
   1.0.3--pyhdfd78af_0: sha256:820e948b680c2dbb8389e77f3cd9dfebba4fff957b5be75d7e31a2b192241ebe
   1.0.4--pyhdfd78af_0: sha256:9007214a273c8fda5953c55d2b20257b4ef82432ae4e9b01a9a0b1311daa7ed8
   1.0.5--pyhdfd78af_0: sha256:b39656923e43ed9d49b319d7f5115e9e97d580a3db06453e325020358e40419e
+  1.2.0--pyhdfd78af_1: sha256:1ffa7a267e6457ee39184d0999d61ea0530da0ab7b6cbd0ff0375cfbb5e8c170
 docker: quay.io/biocontainers/savana
 aliases:
   savana: /usr/local/bin/savana

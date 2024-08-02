@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/guessmylt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for guessmylt
 latest:
-  0.2.5--py_0: sha256:aa7fceb1b8c605680f47115d5a56785367ffe1dbafdafa599eec6b067cafe719
+  0.2.5--py_0: sha256:1bccdaa2f19612ca9da0b91fc0780f7a52efb7721357679fbdc50701883e0abd
 tags:
-  0.2.5--py_0: sha256:aa7fceb1b8c605680f47115d5a56785367ffe1dbafdafa599eec6b067cafe719
+  0.2.5--py_0: sha256:1bccdaa2f19612ca9da0b91fc0780f7a52efb7721357679fbdc50701883e0abd
 docker: quay.io/biocontainers/guessmylt
 aliases:
   GUESSmyLT: /usr/local/bin/GUESSmyLT
