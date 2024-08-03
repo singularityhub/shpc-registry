@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/foldcomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/foldcomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/foldcomp/container.yaml"
-updated_at: "2024-08-02 03:22:10.193651"
+updated_at: "2024-08-03 03:10:24.519104"
 latest: "0.0.7--h43eeafb_1"
 container_url: "https://biocontainers.pro/tools/foldcomp"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-hardyweinberg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hardyweinberg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hardyweinberg/container.yaml"
-updated_at: "2024-08-02 03:18:03.246301"
+updated_at: "2024-08-03 02:52:25.057501"
 latest: "1.6.3--r36h0357c0b_1"
 container_url: "https://biocontainers.pro/tools/r-hardyweinberg"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.6.3--r36h0357c0b_1"
 description: "shpc-registry automated BioContainers addition for r-hardyweinberg"
-config: {"url": "https://biocontainers.pro/tools/r-hardyweinberg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-hardyweinberg", "latest": {"1.6.3--r36h0357c0b_1": "sha256:a9029ef80930f85272c961f992a93687bcdab072e454ef9ef567fd0568eae520"}, "tags": {"1.6.3--r36h0357c0b_1": "sha256:a9029ef80930f85272c961f992a93687bcdab072e454ef9ef567fd0568eae520"}, "docker": "quay.io/biocontainers/r-hardyweinberg", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-hardyweinberg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-hardyweinberg", "latest": {"1.6.3--r36h0357c0b_1": "sha256:d771b84f832ab2e469d7eb478d562ee3c12f242849a69e990271873fdd7aea03"}, "tags": {"1.6.3--r36h0357c0b_1": "sha256:d771b84f832ab2e469d7eb478d562ee3c12f242849a69e990271873fdd7aea03"}, "docker": "quay.io/biocontainers/r-hardyweinberg", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-hardyweinberg.

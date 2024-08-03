@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/extract-codon-alignment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extract-codon-alignment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/extract-codon-alignment/container.yaml"
-updated_at: "2024-08-02 03:02:59.972409"
+updated_at: "2024-08-03 02:50:32.151752"
 latest: "0.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/extract-codon-alignment"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.0.1--py_0"
 description: "shpc-registry automated BioContainers addition for extract-codon-alignment"
-config: {"url": "https://biocontainers.pro/tools/extract-codon-alignment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extract-codon-alignment", "latest": {"0.0.1--py_0": "sha256:b7c2568a3db0e603987d01f0b5d1e1bb2474cbb409767d9cca51963bc5caa3cc"}, "tags": {"0.0.1--py_0": "sha256:b7c2568a3db0e603987d01f0b5d1e1bb2474cbb409767d9cca51963bc5caa3cc"}, "docker": "quay.io/biocontainers/extract-codon-alignment", "aliases": {"extract_codon_alignment": "/usr/local/bin/extract_codon_alignment", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/extract-codon-alignment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extract-codon-alignment", "latest": {"0.0.1--py_0": "sha256:51e5dbe4848ebb964744a57f17a8639d84a443899d26ce9795dcf805b883a28b"}, "tags": {"0.0.1--py_0": "sha256:51e5dbe4848ebb964744a57f17a8639d84a443899d26ce9795dcf805b883a28b"}, "docker": "quay.io/biocontainers/extract-codon-alignment", "aliases": {"extract_codon_alignment": "/usr/local/bin/extract_codon_alignment", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/extract-codon-alignment.

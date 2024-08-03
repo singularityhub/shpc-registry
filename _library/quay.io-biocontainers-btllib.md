@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/btllib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/btllib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/btllib/container.yaml"
-updated_at: "2024-08-02 03:03:30.136467"
+updated_at: "2024-08-03 03:08:05.140565"
 latest: "1.7.2--py38h2123bcc_2"
 container_url: "https://biocontainers.pro/tools/btllib"
 aliases:

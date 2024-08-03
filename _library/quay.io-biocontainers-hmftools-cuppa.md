@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-cuppa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-cuppa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-cuppa/container.yaml"
-updated_at: "2024-08-02 02:43:30.072810"
-latest: "2.1.1--hdfd78af_0"
+updated_at: "2024-08-03 02:40:17.773583"
+latest: "2.2.1--py311r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-cuppa"
 aliases:
  - "cuppa"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "1.8.1--hdfd78af_0"
  - "2.1.1--hdfd78af_0"
+ - "2.2.1--py311r42hdfd78af_0"
 description: "singularity registry hpc automated addition for hmftools-cuppa"
-config: {"url": "https://biocontainers.pro/tools/hmftools-cuppa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-cuppa", "latest": {"2.1.1--hdfd78af_0": "sha256:67232b76a57a0ae174f261e577f80966a3785bbfdafc840c221fad965269d95c"}, "tags": {"1.8.1--hdfd78af_0": "sha256:9f3fa03556c9999c6470ac71cc25b721eb069bf9445bc1c5cd8fa099058ea4ae", "2.1.1--hdfd78af_0": "sha256:67232b76a57a0ae174f261e577f80966a3785bbfdafc840c221fad965269d95c"}, "docker": "quay.io/biocontainers/hmftools-cuppa", "aliases": {"cuppa": "/usr/local/bin/cuppa", "cuppa-chart": "/usr/local/bin/cuppa-chart", "jwebserver": "/usr/local/bin/jwebserver", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "jfr": "/usr/local/bin/jfr", "brotli": "/usr/local/bin/brotli", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-cuppa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-cuppa", "latest": {"2.2.1--py311r42hdfd78af_0": "sha256:a128228dada5b4cd1bb0278b95e055cb9b0255b80b2498bed1567ea531be3ba3"}, "tags": {"1.8.1--hdfd78af_0": "sha256:9f3fa03556c9999c6470ac71cc25b721eb069bf9445bc1c5cd8fa099058ea4ae", "2.1.1--hdfd78af_0": "sha256:67232b76a57a0ae174f261e577f80966a3785bbfdafc840c221fad965269d95c", "2.2.1--py311r42hdfd78af_0": "sha256:a128228dada5b4cd1bb0278b95e055cb9b0255b80b2498bed1567ea531be3ba3"}, "docker": "quay.io/biocontainers/hmftools-cuppa", "aliases": {"cuppa": "/usr/local/bin/cuppa", "cuppa-chart": "/usr/local/bin/cuppa-chart", "jwebserver": "/usr/local/bin/jwebserver", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "jfr": "/usr/local/bin/jfr", "brotli": "/usr/local/bin/brotli", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-cuppa.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/hmftools-cuppa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-cuppa:2.1.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-cuppa:2.2.1--py311r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-cuppa/2.1.1--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-cuppa/2.1.1--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-cuppa/2.2.1--py311r42hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-cuppa/2.2.1--py311r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

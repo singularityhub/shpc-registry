@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/popera"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/popera/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/popera/container.yaml"
-updated_at: "2024-08-02 02:39:35.990643"
+updated_at: "2024-08-03 03:15:29.012487"
 latest: "1.0.3--py_0"
 container_url: "https://biocontainers.pro/tools/popera"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.0.3--py_0"
 description: "shpc-registry automated BioContainers addition for popera"
-config: {"url": "https://biocontainers.pro/tools/popera", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for popera", "latest": {"1.0.3--py_0": "sha256:42cf330bd7b0d97615721fa6d4aab315ca956a1cb956c7c6128e49a7f6b9d544"}, "tags": {"1.0.3--py_0": "sha256:42cf330bd7b0d97615721fa6d4aab315ca956a1cb956c7c6128e49a7f6b9d544"}, "docker": "quay.io/biocontainers/popera", "aliases": {"popera": "/usr/local/bin/popera", "popera_dhs_count": "/usr/local/bin/popera_dhs_count", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "ace2sam": "/usr/local/bin/ace2sam"}}
+config: {"url": "https://biocontainers.pro/tools/popera", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for popera", "latest": {"1.0.3--py_0": "sha256:dbcf19fa8aec5a8a6d8eab6e465cf8b5c52a5425d046daff21bfc44ccaecb11d"}, "tags": {"1.0.3--py_0": "sha256:dbcf19fa8aec5a8a6d8eab6e465cf8b5c52a5425d046daff21bfc44ccaecb11d"}, "docker": "quay.io/biocontainers/popera", "aliases": {"popera": "/usr/local/bin/popera", "popera_dhs_count": "/usr/local/bin/popera_dhs_count", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "ace2sam": "/usr/local/bin/ace2sam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/popera.

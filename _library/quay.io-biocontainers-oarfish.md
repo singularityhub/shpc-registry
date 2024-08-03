@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/oarfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oarfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oarfish/container.yaml"
-updated_at: "2024-08-02 02:47:58.881709"
-latest: "0.4.0--h4349ce8_0"
+updated_at: "2024-08-03 02:35:21.451828"
+latest: "0.5.0--h4349ce8_1"
 container_url: "https://biocontainers.pro/tools/oarfish"
 aliases:
  - "oarfish"
@@ -14,8 +14,9 @@ versions:
  - "0.3.0--h4349ce8_0"
  - "0.4.0--h4349ce8_0"
  - "0.3.1--h4349ce8_0"
+ - "0.5.0--h4349ce8_1"
 description: "singularity registry hpc automated addition for oarfish"
-config: {"url": "https://biocontainers.pro/tools/oarfish", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oarfish", "latest": {"0.4.0--h4349ce8_0": "sha256:6a6e229e78b74856baf6e8f41530c01a135fb07e644a624c8e16335de4e8c061"}, "tags": {"0.2.0--h4349ce8_0": "sha256:946f787788361fd60c6321a867d46742a656d1d5b2631789a511e171a7ada166", "0.3.0--h4349ce8_0": "sha256:c208006ead82df89ab7e6f6c736ebf5cf51bcb45192c5abf8753e7519c1e0401", "0.4.0--h4349ce8_0": "sha256:6a6e229e78b74856baf6e8f41530c01a135fb07e644a624c8e16335de4e8c061", "0.3.1--h4349ce8_0": "sha256:ffe25e630dcd9c1a5abeff38a3aec8ead311454ecbec9d09623a07b4617ef780"}, "docker": "quay.io/biocontainers/oarfish", "aliases": {"oarfish": "/usr/local/bin/oarfish"}}
+config: {"url": "https://biocontainers.pro/tools/oarfish", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oarfish", "latest": {"0.5.0--h4349ce8_1": "sha256:5a111e7936142a81372611b0967c3edaac69903e124b664f153cc0c8e41d2705"}, "tags": {"0.2.0--h4349ce8_0": "sha256:946f787788361fd60c6321a867d46742a656d1d5b2631789a511e171a7ada166", "0.3.0--h4349ce8_0": "sha256:c208006ead82df89ab7e6f6c736ebf5cf51bcb45192c5abf8753e7519c1e0401", "0.4.0--h4349ce8_0": "sha256:6a6e229e78b74856baf6e8f41530c01a135fb07e644a624c8e16335de4e8c061", "0.3.1--h4349ce8_0": "sha256:ffe25e630dcd9c1a5abeff38a3aec8ead311454ecbec9d09623a07b4617ef780", "0.5.0--h4349ce8_1": "sha256:5a111e7936142a81372611b0967c3edaac69903e124b664f153cc0c8e41d2705"}, "docker": "quay.io/biocontainers/oarfish", "aliases": {"oarfish": "/usr/local/bin/oarfish"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oarfish.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/oarfish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/oarfish:0.4.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/oarfish:0.5.0--h4349ce8_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/oarfish/0.4.0--h4349ce8_0
-$ module help quay.io/biocontainers/oarfish/0.4.0--h4349ce8_0
+$ module load quay.io/biocontainers/oarfish/0.5.0--h4349ce8_1
+$ module help quay.io/biocontainers/oarfish/0.5.0--h4349ce8_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

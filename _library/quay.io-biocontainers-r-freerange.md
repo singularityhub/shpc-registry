@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-freerange"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-freerange/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-freerange/container.yaml"
-updated_at: "2024-08-02 02:55:15.963735"
+updated_at: "2024-08-03 03:15:08.656379"
 latest: "0.2.8--r36_0"
 container_url: "https://biocontainers.pro/tools/r-freerange"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "0.2.8--r36_0"
 description: "shpc-registry automated BioContainers addition for r-freerange"
-config: {"url": "https://biocontainers.pro/tools/r-freerange", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-freerange", "latest": {"0.2.8--r36_0": "sha256:4ee52607f3886a4b45f60820f270aa8c21d44304bad4ff0ec94283b87f36320c"}, "tags": {"0.2.8--r36_0": "sha256:4ee52607f3886a4b45f60820f270aa8c21d44304bad4ff0ec94283b87f36320c"}, "docker": "quay.io/biocontainers/r-freerange", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-freerange", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-freerange", "latest": {"0.2.8--r36_0": "sha256:2f6d2bc9013d6ce725bd8fd466fbf9ed8b6ddedf1b1103451ea43452dc1c7d1f"}, "tags": {"0.2.8--r36_0": "sha256:2f6d2bc9013d6ce725bd8fd466fbf9ed8b6ddedf1b1103451ea43452dc1c7d1f"}, "docker": "quay.io/biocontainers/r-freerange", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-freerange.

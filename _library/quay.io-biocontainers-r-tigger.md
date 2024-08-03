@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tigger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tigger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tigger/container.yaml"
-updated_at: "2024-08-02 03:04:25.012561"
+updated_at: "2024-08-03 03:10:09.245542"
 latest: "0.4.0--r40h6115d3f_2"
 container_url: "https://biocontainers.pro/tools/r-tigger"
 aliases:
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "0.4.0--r40h6115d3f_2"
 description: "shpc-registry automated BioContainers addition for r-tigger"
-config: {"url": "https://biocontainers.pro/tools/r-tigger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tigger", "latest": {"0.4.0--r40h6115d3f_2": "sha256:86b0a65ddbca4fb4ad173e9ffe5360e3921fad06b29bc5bcb8ba185e065adcdd"}, "tags": {"0.4.0--r40h6115d3f_2": "sha256:86b0a65ddbca4fb4ad173e9ffe5360e3921fad06b29bc5bcb8ba185e065adcdd"}, "docker": "quay.io/biocontainers/r-tigger", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-tigger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tigger", "latest": {"0.4.0--r40h6115d3f_2": "sha256:0ba9fb0fae0cd6b98fe3f5e56756f5fa62af2772cafec4169ff8998199f40b8d"}, "tags": {"0.4.0--r40h6115d3f_2": "sha256:0ba9fb0fae0cd6b98fe3f5e56756f5fa62af2772cafec4169ff8998199f40b8d"}, "docker": "quay.io/biocontainers/r-tigger", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-tigger.

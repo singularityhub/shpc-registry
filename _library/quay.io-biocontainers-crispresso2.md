@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/crispresso2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crispresso2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crispresso2/container.yaml"
-updated_at: "2024-08-02 02:46:00.158049"
-latest: "2.3.1--py39h24fbfe6_1"
+updated_at: "2024-08-03 03:07:16.436822"
+latest: "2.3.1--py310h581d4b6_3"
 container_url: "https://biocontainers.pro/tools/crispresso2"
 aliases:
  - "CRISPResso"
@@ -31,8 +31,9 @@ versions:
  - "2.3.0--py39hec7c8de_1"
  - "2.3.1--py39hec7c8de_0"
  - "2.3.1--py39h24fbfe6_1"
+ - "2.3.1--py310h581d4b6_3"
 description: "shpc-registry automated BioContainers addition for crispresso2"
-config: {"url": "https://biocontainers.pro/tools/crispresso2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crispresso2", "latest": {"2.3.1--py39h24fbfe6_1": "sha256:85acc69a326cf8c1c5c6840b91b17ada3078014846f0f7a725ac99053077d0b3"}, "tags": {"2.2.8--py38h6eac312_0": "sha256:77f2952faf107bd2412e2373d37e50d7ecbf1da81d75d008233f24cf42fc1d5e", "2.2.14--py310hd6be1da_0": "sha256:482df47e1c70df9735a0e857786074e303982ddce0af01a7613b7070a3fe011f", "2.3.0--py39hec7c8de_1": "sha256:d642346a92d9a10ecd86d2bdfbe57de1aa73e4af0b30c0c6300e128abe3876fd", "2.3.1--py39hec7c8de_0": "sha256:ae0ea8c662a920109d0a6d65c0603212ac089a8c303c5e7b5571c98fd845863e", "2.3.1--py39h24fbfe6_1": "sha256:85acc69a326cf8c1c5c6840b91b17ada3078014846f0f7a725ac99053077d0b3"}, "docker": "quay.io/biocontainers/crispresso2", "aliases": {"CRISPResso": "/usr/local/bin/CRISPResso", "CRISPRessoAggregate": "/usr/local/bin/CRISPRessoAggregate", "CRISPRessoBatch": "/usr/local/bin/CRISPRessoBatch", "CRISPRessoCompare": "/usr/local/bin/CRISPRessoCompare", "CRISPRessoPooled": "/usr/local/bin/CRISPRessoPooled", "CRISPRessoPooledWGSCompare": "/usr/local/bin/CRISPRessoPooledWGSCompare", "CRISPRessoWGS": "/usr/local/bin/CRISPRessoWGS", "flash": "/usr/local/bin/flash", "trimmomatic": "/usr/local/bin/trimmomatic", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l"}}
+config: {"url": "https://biocontainers.pro/tools/crispresso2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crispresso2", "latest": {"2.3.1--py310h581d4b6_3": "sha256:a28cd42882e891873c09ac13635234fe38b6dfbd59b580ac8c695630154b9624"}, "tags": {"2.2.8--py38h6eac312_0": "sha256:77f2952faf107bd2412e2373d37e50d7ecbf1da81d75d008233f24cf42fc1d5e", "2.2.14--py310hd6be1da_0": "sha256:482df47e1c70df9735a0e857786074e303982ddce0af01a7613b7070a3fe011f", "2.3.0--py39hec7c8de_1": "sha256:d642346a92d9a10ecd86d2bdfbe57de1aa73e4af0b30c0c6300e128abe3876fd", "2.3.1--py39hec7c8de_0": "sha256:ae0ea8c662a920109d0a6d65c0603212ac089a8c303c5e7b5571c98fd845863e", "2.3.1--py39h24fbfe6_1": "sha256:85acc69a326cf8c1c5c6840b91b17ada3078014846f0f7a725ac99053077d0b3", "2.3.1--py310h581d4b6_3": "sha256:a28cd42882e891873c09ac13635234fe38b6dfbd59b580ac8c695630154b9624"}, "docker": "quay.io/biocontainers/crispresso2", "aliases": {"CRISPResso": "/usr/local/bin/CRISPResso", "CRISPRessoAggregate": "/usr/local/bin/CRISPRessoAggregate", "CRISPRessoBatch": "/usr/local/bin/CRISPRessoBatch", "CRISPRessoCompare": "/usr/local/bin/CRISPRessoCompare", "CRISPRessoPooled": "/usr/local/bin/CRISPRessoPooled", "CRISPRessoPooledWGSCompare": "/usr/local/bin/CRISPRessoPooledWGSCompare", "CRISPRessoWGS": "/usr/local/bin/CRISPRessoWGS", "flash": "/usr/local/bin/flash", "trimmomatic": "/usr/local/bin/trimmomatic", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crispresso2.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/crispresso2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crispresso2:2.3.1--py39h24fbfe6_1
+$ shpc install quay.io/biocontainers/crispresso2:2.3.1--py310h581d4b6_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crispresso2/2.3.1--py39h24fbfe6_1
-$ module help quay.io/biocontainers/crispresso2/2.3.1--py39h24fbfe6_1
+$ module load quay.io/biocontainers/crispresso2/2.3.1--py310h581d4b6_3
+$ module help quay.io/biocontainers/crispresso2/2.3.1--py310h581d4b6_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

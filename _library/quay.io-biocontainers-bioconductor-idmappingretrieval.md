@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-idmappingretrieval"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-idmappingretrieval/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-idmappingretrieval/container.yaml"
-updated_at: "2024-08-02 03:22:16.437606"
+updated_at: "2024-08-03 03:02:20.131825"
 latest: "1.34.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-idmappingretrieval"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.34.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-idmappingretrieval"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-idmappingretrieval", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-idmappingretrieval", "latest": {"1.34.0--r36_0": "sha256:7c4df2194b76d28e7fafa359f9ea9aac9294e14721b9d56e07bef7ceac691f58"}, "tags": {"1.34.0--r36_0": "sha256:7c4df2194b76d28e7fafa359f9ea9aac9294e14721b9d56e07bef7ceac691f58"}, "docker": "quay.io/biocontainers/bioconductor-idmappingretrieval", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-idmappingretrieval", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-idmappingretrieval", "latest": {"1.34.0--r36_0": "sha256:114410aca24c3e45b4875867dc6500894fb581e61c96980d02ca67c24e022db4"}, "tags": {"1.34.0--r36_0": "sha256:114410aca24c3e45b4875867dc6500894fb581e61c96980d02ca67c24e022db4"}, "docker": "quay.io/biocontainers/bioconductor-idmappingretrieval", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-idmappingretrieval.

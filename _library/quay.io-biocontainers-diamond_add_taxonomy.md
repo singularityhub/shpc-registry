@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/diamond_add_taxonomy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diamond_add_taxonomy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/diamond_add_taxonomy/container.yaml"
-updated_at: "2024-08-02 03:10:42.376477"
+updated_at: "2024-08-03 02:57:17.715889"
 latest: "0.1.2--py36_0"
 container_url: "https://biocontainers.pro/tools/diamond_add_taxonomy"
 
 versions:
  - "0.1.2--py36_0"
 description: "shpc-registry automated BioContainers addition for diamond_add_taxonomy"
-config: {"url": "https://biocontainers.pro/tools/diamond_add_taxonomy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for diamond_add_taxonomy", "latest": {"0.1.2--py36_0": "sha256:d9c9ab826eb2fd7cae507212f2540821b8ef88f5a12571d4cd2ecddae36c7b38"}, "tags": {"0.1.2--py36_0": "sha256:d9c9ab826eb2fd7cae507212f2540821b8ef88f5a12571d4cd2ecddae36c7b38"}, "docker": "quay.io/biocontainers/diamond_add_taxonomy"}
+config: {"url": "https://biocontainers.pro/tools/diamond_add_taxonomy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for diamond_add_taxonomy", "latest": {"0.1.2--py36_0": "sha256:7b0f7563ce951f96b303fd3443c803fca46bd9935ba761e3585d259713544720"}, "tags": {"0.1.2--py36_0": "sha256:7b0f7563ce951f96b303fd3443c803fca46bd9935ba761e3585d259713544720"}, "docker": "quay.io/biocontainers/diamond_add_taxonomy"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/diamond_add_taxonomy.
