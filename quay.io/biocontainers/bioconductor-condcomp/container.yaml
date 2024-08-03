@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-condcomp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-condcomp
 latest:
-  1.1.1--r36_1: sha256:0a541b1195a75e1e71984833190568aa5652a5a467111fd8a410fac941630dbf
+  1.1.1--r36_1: sha256:3cf8882e6c5dd34da56910923587b124eaf0e73ba9228c354a6283bcfb1f35fb
 tags:
-  1.1.1--r36_1: sha256:0a541b1195a75e1e71984833190568aa5652a5a467111fd8a410fac941630dbf
+  1.1.1--r36_1: sha256:3cf8882e6c5dd34da56910923587b124eaf0e73ba9228c354a6283bcfb1f35fb
 docker: quay.io/biocontainers/bioconductor-condcomp
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

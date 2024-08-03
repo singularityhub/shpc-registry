@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/sbg-cwl-runner
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sbg-cwl-runner
 latest:
-  2018.11--py_1: sha256:3f6d5bb90e4ac0e8274396484b3efb3c2eae2360fd02c05bb51939b7d7377cfa
+  2018.11--py_1: sha256:42426f0de089d62822fa76a62d5cfe31f243ee3bedb48528cf559f6c52fedc13
 tags:
-  2018.11--py_1: sha256:3f6d5bb90e4ac0e8274396484b3efb3c2eae2360fd02c05bb51939b7d7377cfa
+  2018.11--py_1: sha256:42426f0de089d62822fa76a62d5cfe31f243ee3bedb48528cf559f6c52fedc13
 docker: quay.io/biocontainers/sbg-cwl-runner
 aliases:
   sbg-cwl-runner: /usr/local/bin/sbg-cwl-runner

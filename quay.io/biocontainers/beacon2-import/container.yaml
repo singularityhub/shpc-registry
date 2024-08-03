@@ -2,11 +2,14 @@ url: https://biocontainers.pro/tools/beacon2-import
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for beacon2-import
 latest:
-  1.0.8--pyh7cba7a3_0: sha256:d3c6d43880476c24e00fc0b062563e4f6d6ae85cedecac5a5ceb07d592cc6e52
+  2.2.1--pyhdfd78af_0: sha256:321e3f31c54cea0f2882f23058356dc828b0281c2004bee655b21028edba842d
 tags:
   1.0.6--pyhdfd78af_0: sha256:5ff5d5a1d915956323cd54ae7d8899f9c7fd2fce26da7194f9f0c1a37e129595
   1.0.7--pyh7cba7a3_0: sha256:a019c442c47fdb6d566eb33dd02a33a12e639ffb3d35f59a06422a3e62504472
   1.0.8--pyh7cba7a3_0: sha256:d3c6d43880476c24e00fc0b062563e4f6d6ae85cedecac5a5ceb07d592cc6e52
+  2.2.1--pyhdfd78af_0: sha256:321e3f31c54cea0f2882f23058356dc828b0281c2004bee655b21028edba842d
+  2.1.0--pyhdfd78af_0: sha256:97209869a1e4ef981640c596485d60595b6ea833af82f4e3070ae8a8843df56d
+  2.0.0--pyhdfd78af_0: sha256:1152e87eadb6af4f3f2a97705bf30d40c2d680a344d07b7b44dcc7fbb7ff8c44
 docker: quay.io/biocontainers/beacon2-import
 aliases:
   beacon2-import: /usr/local/bin/beacon2-import

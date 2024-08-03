@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/rosella
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rosella
 latest:
-  0.5.3--h8e1a5b0_0: sha256:4f5a544b278d0ef41289c81f7d50e74c21107cf0fa0aedbd9945db8397a00cec
+  0.5.4--h8e1a5b0_0: sha256:6018222cbfab3c5b64ff9594c9b29e810fd22e7e2fbb6aa6f7e3a4012f0d6ca2
 tags:
   0.4.2--h6f8cb4c_1: sha256:fcb2fcaae42cdc1e56176dde8ee177f3ba4f0b9fe220f6e5e7ee3aacc374c6a2
   0.4.2--h8e1a5b0_2: sha256:3a4d0c0189f5cc296dde835d24491f901cbef447cafff4102fed896e77838268
   0.5.1--h8e1a5b0_0: sha256:3e3815389e45839026de67cc4c2f34e1006be044d67a8da1a3cf172ec25c39e8
   0.5.2--h8e1a5b0_0: sha256:909fe34694197733e957c6184813a0641a037e9dcdbe321bfded34fd377bf2b7
   0.5.3--h8e1a5b0_0: sha256:4f5a544b278d0ef41289c81f7d50e74c21107cf0fa0aedbd9945db8397a00cec
+  0.5.4--h8e1a5b0_0: sha256:6018222cbfab3c5b64ff9594c9b29e810fd22e7e2fbb6aa6f7e3a4012f0d6ca2
 docker: quay.io/biocontainers/rosella
 aliases:
   remove_minimap2_duplicated_headers: /usr/local/bin/remove_minimap2_duplicated_headers

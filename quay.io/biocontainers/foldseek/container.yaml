@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/foldseek
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for foldseek
 latest:
-  9.427df8a--pl5321hb365157_0: sha256:3881cfb43da2a57fb6d9d5572962723e07c35060c6e63e83cba83de814e9d54d
+  9.427df8a--pl5321hb365157_1: sha256:c46d6fb854099780597e3adfa48e93c991f4b4d542391c144b9cae4de1ed22f9
 tags:
   3.915ef7d--pl5321hf1761c0_1: sha256:ad8a423b260403e5f95640f0d0e66e11ad36f566b1360dbb99f481f45f2a67c8
   4.645b789--pl5321hf1761c0_0: sha256:623c1a171af801691fb80b37ad1f1e6c3adc68df24dc18428bf5b5247879eee9
@@ -12,6 +12,7 @@ tags:
   7.04e0ec8--pl5321hb365157_0: sha256:4aa710ded9127d0969a67acace515fe8337d1352700c3d889868433491eb72e9
   8.ef4e960--pl5321hb365157_1: sha256:f194c34439f5110fa12d5fffdd8947a8d7c6f1a0b4761bb67ecd87e13656dcaa
   9.427df8a--pl5321hb365157_0: sha256:3881cfb43da2a57fb6d9d5572962723e07c35060c6e63e83cba83de814e9d54d
+  9.427df8a--pl5321hb365157_1: sha256:c46d6fb854099780597e3adfa48e93c991f4b4d542391c144b9cae4de1ed22f9
 docker: quay.io/biocontainers/foldseek
 aliases:
   aria2c: /usr/local/bin/aria2c

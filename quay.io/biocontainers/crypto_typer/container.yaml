@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/crypto_typer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for crypto_typer
 latest:
-  1.0.0--py_0: sha256:4dd3f40653643ddfe0cd2a30c8091540628367bc19e832fd982070d297806287
+  1.0.0--py_0: sha256:f8937ab239ad3f9c81f7efc18f08e841eb7cda3a5d4ccadc4067374579a0bd69
 tags:
-  1.0.0--py_0: sha256:4dd3f40653643ddfe0cd2a30c8091540628367bc19e832fd982070d297806287
+  1.0.0--py_0: sha256:f8937ab239ad3f9c81f7efc18f08e841eb7cda3a5d4ccadc4067374579a0bd69
 docker: quay.io/biocontainers/crypto_typer
 aliases:
   crypto_typer: /usr/local/bin/crypto_typer
