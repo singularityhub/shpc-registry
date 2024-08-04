@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trycycler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trycycler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trycycler/container.yaml"
-updated_at: "2024-08-03 02:54:41.606879"
+updated_at: "2024-08-04 02:58:54.444056"
 latest: "0.5.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/trycycler"
 aliases:

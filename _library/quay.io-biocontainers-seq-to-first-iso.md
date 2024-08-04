@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seq-to-first-iso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seq-to-first-iso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seq-to-first-iso/container.yaml"
-updated_at: "2024-08-03 03:03:24.533156"
+updated_at: "2024-08-04 03:07:37.292245"
 latest: "1.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/seq-to-first-iso"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.1.0--py_0"
 description: "shpc-registry automated BioContainers addition for seq-to-first-iso"
-config: {"url": "https://biocontainers.pro/tools/seq-to-first-iso", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seq-to-first-iso", "latest": {"1.1.0--py_0": "sha256:de73757335e1e42d6408eea65c52e5f8347f0412239260552dac3337b5e13950"}, "tags": {"1.1.0--py_0": "sha256:de73757335e1e42d6408eea65c52e5f8347f0412239260552dac3337b5e13950"}, "docker": "quay.io/biocontainers/seq-to-first-iso", "aliases": {"seq-to-first-iso": "/usr/local/bin/seq-to-first-iso", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
+config: {"url": "https://biocontainers.pro/tools/seq-to-first-iso", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seq-to-first-iso", "latest": {"1.1.0--py_0": "sha256:4bb998f4f1a2551f6eb92e2888a927f6e0f6a9f9221fb36c7222d3bfd3cba453"}, "tags": {"1.1.0--py_0": "sha256:4bb998f4f1a2551f6eb92e2888a927f6e0f6a9f9221fb36c7222d3bfd3cba453"}, "docker": "quay.io/biocontainers/seq-to-first-iso", "aliases": {"seq-to-first-iso": "/usr/local/bin/seq-to-first-iso", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seq-to-first-iso.

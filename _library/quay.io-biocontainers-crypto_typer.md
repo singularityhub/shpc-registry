@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crypto_typer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crypto_typer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crypto_typer/container.yaml"
-updated_at: "2024-08-03 02:51:58.192399"
+updated_at: "2024-08-04 02:56:09.074732"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/crypto_typer"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.0.0--py_0"
 description: "shpc-registry automated BioContainers addition for crypto_typer"
-config: {"url": "https://biocontainers.pro/tools/crypto_typer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crypto_typer", "latest": {"1.0.0--py_0": "sha256:4dd3f40653643ddfe0cd2a30c8091540628367bc19e832fd982070d297806287"}, "tags": {"1.0.0--py_0": "sha256:4dd3f40653643ddfe0cd2a30c8091540628367bc19e832fd982070d297806287"}, "docker": "quay.io/biocontainers/crypto_typer", "aliases": {"crypto_typer": "/usr/local/bin/crypto_typer", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2"}}
+config: {"url": "https://biocontainers.pro/tools/crypto_typer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crypto_typer", "latest": {"1.0.0--py_0": "sha256:f8937ab239ad3f9c81f7efc18f08e841eb7cda3a5d4ccadc4067374579a0bd69"}, "tags": {"1.0.0--py_0": "sha256:f8937ab239ad3f9c81f7efc18f08e841eb7cda3a5d4ccadc4067374579a0bd69"}, "docker": "quay.io/biocontainers/crypto_typer", "aliases": {"crypto_typer": "/usr/local/bin/crypto_typer", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crypto_typer.

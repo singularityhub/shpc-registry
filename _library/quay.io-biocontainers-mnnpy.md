@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mnnpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mnnpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mnnpy/container.yaml"
-updated_at: "2024-08-03 02:58:26.378975"
+updated_at: "2024-08-04 03:02:38.639508"
 latest: "0.1.9.5--py38he5da3d1_8"
 container_url: "https://biocontainers.pro/tools/mnnpy"
 aliases:

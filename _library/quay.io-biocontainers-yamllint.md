@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yamllint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yamllint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yamllint/container.yaml"
-updated_at: "2024-08-03 03:13:46.263517"
+updated_at: "2024-08-04 03:17:59.088584"
 latest: "1.2.1--py36_0"
 container_url: "https://biocontainers.pro/tools/yamllint"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/openduck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openduck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openduck/container.yaml"
-updated_at: "2024-08-03 03:11:18.824373"
+updated_at: "2024-08-04 03:15:30.558116"
 latest: "0.1.2--py_0"
 container_url: "https://biocontainers.pro/tools/openduck"
 aliases:

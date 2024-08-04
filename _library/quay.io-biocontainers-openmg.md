@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/openmg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openmg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openmg/container.yaml"
-updated_at: "2024-08-03 02:37:35.378568"
+updated_at: "2024-08-04 02:41:40.634981"
 latest: "0.1--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/openmg"
 aliases:

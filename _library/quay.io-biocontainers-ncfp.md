@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncfp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncfp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncfp/container.yaml"
-updated_at: "2024-08-03 03:21:08.538837"
+updated_at: "2024-08-04 03:25:14.646165"
 latest: "0.2.0--py_0"
 container_url: "https://biocontainers.pro/tools/ncfp"
 aliases:

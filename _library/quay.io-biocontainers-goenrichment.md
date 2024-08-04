@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/goenrichment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/goenrichment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/goenrichment/container.yaml"
-updated_at: "2024-08-03 02:48:29.966341"
+updated_at: "2024-08-04 02:52:37.344331"
 latest: "2.0.1--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/goenrichment"
 aliases:

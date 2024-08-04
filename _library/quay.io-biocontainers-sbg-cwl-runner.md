@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sbg-cwl-runner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sbg-cwl-runner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sbg-cwl-runner/container.yaml"
-updated_at: "2024-08-03 03:09:31.906639"
+updated_at: "2024-08-04 03:13:43.079298"
 latest: "2018.11--py_1"
 container_url: "https://biocontainers.pro/tools/sbg-cwl-runner"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "2018.11--py_1"
 description: "shpc-registry automated BioContainers addition for sbg-cwl-runner"
-config: {"url": "https://biocontainers.pro/tools/sbg-cwl-runner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sbg-cwl-runner", "latest": {"2018.11--py_1": "sha256:3f6d5bb90e4ac0e8274396484b3efb3c2eae2360fd02c05bb51939b7d7377cfa"}, "tags": {"2018.11--py_1": "sha256:3f6d5bb90e4ac0e8274396484b3efb3c2eae2360fd02c05bb51939b7d7377cfa"}, "docker": "quay.io/biocontainers/sbg-cwl-runner", "aliases": {"sbg-cwl-runner": "/usr/local/bin/sbg-cwl-runner", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/sbg-cwl-runner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sbg-cwl-runner", "latest": {"2018.11--py_1": "sha256:42426f0de089d62822fa76a62d5cfe31f243ee3bedb48528cf559f6c52fedc13"}, "tags": {"2018.11--py_1": "sha256:42426f0de089d62822fa76a62d5cfe31f243ee3bedb48528cf559f6c52fedc13"}, "docker": "quay.io/biocontainers/sbg-cwl-runner", "aliases": {"sbg-cwl-runner": "/usr/local/bin/sbg-cwl-runner", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sbg-cwl-runner.

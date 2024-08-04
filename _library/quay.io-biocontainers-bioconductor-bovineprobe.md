@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bovineprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bovineprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bovineprobe/container.yaml"
-updated_at: "2024-08-03 03:21:10.003499"
+updated_at: "2024-08-04 03:25:16.075804"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-bovineprobe"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bd2k-python-lib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bd2k-python-lib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bd2k-python-lib/container.yaml"
-updated_at: "2024-08-03 03:22:07.938353"
+updated_at: "2024-08-04 03:26:13.462312"
 latest: "1.14a1.dev48--pyh864c0ab_2"
 container_url: "https://biocontainers.pro/tools/bd2k-python-lib"
 aliases:

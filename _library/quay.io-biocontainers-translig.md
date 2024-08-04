@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/translig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/translig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/translig/container.yaml"
-updated_at: "2024-08-03 02:59:37.992489"
+updated_at: "2024-08-04 03:03:50.733027"
 latest: "1.3--h56fc30b_0"
 container_url: "https://biocontainers.pro/tools/translig"
 aliases:

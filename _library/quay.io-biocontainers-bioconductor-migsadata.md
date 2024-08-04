@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-migsadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-migsadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-migsadata/container.yaml"
-updated_at: "2024-08-03 03:04:48.660000"
+updated_at: "2024-08-04 03:09:01.620712"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-migsadata"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.13.0--r40_0"
  - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-migsadata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-migsadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-migsadata", "latest": {"1.24.0--r43hdfd78af_0": "sha256:fdd350a7243f3ebe77e0751cc396d066e04da87c4c55d4d1316e3e6678495e98"}, "tags": {"1.8.0--r36_1": "sha256:906fd0ba1e7b4260fb5ae179257bd17ae02448d06a5a4667bb1409d9c2930afc", "1.21.0--r42hdfd78af_0": "sha256:c76b4303bce641e8feda7814ab463fa214e2399acf470ec3813852e85f794c41", "1.18.0--r41hdfd78af_1": "sha256:767dd9f4653ebae6d2a5182bf4f92b775266faffd0aa42ab58085684364b8de6", "1.16.0--r41hdfd78af_0": "sha256:335f02be142e0d96cefdcd3144f3472dda2b76f19285772f0b5d61262afdf05f", "1.14.0--r40hdfd78af_1": "sha256:8c81d1b5fda518981a95a90d114cf5955135efa55e757036d0a5ce8930f1c624", "1.13.0--r40_0": "sha256:1f86b2b72e5d64fec25aa7a5f4f931743ae16de90aafe931e58e3fb74f3ed556", "1.24.0--r43hdfd78af_0": "sha256:fdd350a7243f3ebe77e0751cc396d066e04da87c4c55d4d1316e3e6678495e98"}, "docker": "quay.io/biocontainers/bioconductor-migsadata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-migsadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-migsadata", "latest": {"1.24.0--r43hdfd78af_0": "sha256:fdd350a7243f3ebe77e0751cc396d066e04da87c4c55d4d1316e3e6678495e98"}, "tags": {"1.8.0--r36_1": "sha256:464afe7c8ae7ca8870948c0c55e2daf685c845eeecdd248c101b4c06a1cf9cd7", "1.21.0--r42hdfd78af_0": "sha256:c76b4303bce641e8feda7814ab463fa214e2399acf470ec3813852e85f794c41", "1.18.0--r41hdfd78af_1": "sha256:767dd9f4653ebae6d2a5182bf4f92b775266faffd0aa42ab58085684364b8de6", "1.16.0--r41hdfd78af_0": "sha256:335f02be142e0d96cefdcd3144f3472dda2b76f19285772f0b5d61262afdf05f", "1.14.0--r40hdfd78af_1": "sha256:8c81d1b5fda518981a95a90d114cf5955135efa55e757036d0a5ce8930f1c624", "1.13.0--r40_0": "sha256:1f86b2b72e5d64fec25aa7a5f4f931743ae16de90aafe931e58e3fb74f3ed556", "1.24.0--r43hdfd78af_0": "sha256:fdd350a7243f3ebe77e0751cc396d066e04da87c4c55d4d1316e3e6678495e98"}, "docker": "quay.io/biocontainers/bioconductor-migsadata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-migsadata.

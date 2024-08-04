@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/semibin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/semibin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/semibin/container.yaml"
-updated_at: "2024-08-03 03:19:15.370510"
+updated_at: "2024-08-04 03:23:24.460471"
 latest: "2.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/semibin"
 aliases:

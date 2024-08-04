@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/embassy-phylip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/embassy-phylip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/embassy-phylip/container.yaml"
-updated_at: "2024-08-03 02:57:07.128051"
+updated_at: "2024-08-04 03:01:19.602111"
 latest: "3.69.650--ha92aebf_2"
 container_url: "https://biocontainers.pro/tools/embassy-phylip"
 aliases:
