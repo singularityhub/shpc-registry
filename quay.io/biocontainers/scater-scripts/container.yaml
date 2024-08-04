@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/scater-scripts
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scater-scripts
 latest:
-  0.0.5--1: sha256:b350dc7154bb135ddc5b7405c7789774d4cb270e9f00f56fe7864af13bf382d5
+  0.0.5--1: sha256:8f6a3c30c7be4c0538dce1c6fca1f633d3dae1cc2d6e893c6a1d04f2eb477e1b
 tags:
-  0.0.5--1: sha256:b350dc7154bb135ddc5b7405c7789774d4cb270e9f00f56fe7864af13bf382d5
+  0.0.5--1: sha256:8f6a3c30c7be4c0538dce1c6fca1f633d3dae1cc2d6e893c6a1d04f2eb477e1b
 docker: quay.io/biocontainers/scater-scripts
 aliases:
   bioconductor-scater-scripts-post-install-tests.bats: /usr/local/bin/bioconductor-scater-scripts-post-install-tests.bats

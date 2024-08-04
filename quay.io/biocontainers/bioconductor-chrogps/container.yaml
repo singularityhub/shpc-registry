@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bioconductor-chrogps
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-chrogps
 latest:
-  2.4.0--r36_0: sha256:b61ea239822f5f1a3cb741e8de565600b5efb6309f724064eccbdbf5c61043d6
+  2.4.0--r36_0: sha256:c0a052dc3858b4314c5fe592a533914cf2e9e67a1b1a35caf8e37d48eee92e3e
 tags:
-  2.4.0--r36_0: sha256:b61ea239822f5f1a3cb741e8de565600b5efb6309f724064eccbdbf5c61043d6
+  2.4.0--r36_0: sha256:c0a052dc3858b4314c5fe592a533914cf2e9e67a1b1a35caf8e37d48eee92e3e
 docker: quay.io/biocontainers/bioconductor-chrogps
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

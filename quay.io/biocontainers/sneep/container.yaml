@@ -16,6 +16,7 @@ tags:
   1.0--py310hc8d811f_0: sha256:6963cfeb7621021c2f369757c9f44955e2866d5287b8375f4d9691260d170137
   1.1--py310hc8d811f_0: sha256:b026e72542b7636c79ff8b423965ba802ad016b46e0eaff2028379b36437b55b
   1.1--py38hc4ada15_1: sha256:bef0f81bf8824791c77d70d3bfe73fc1920b511434de575522a98997b7fae1ec
+  0.7--py310hc8d811f_0: sha256:d0aafb75c7af19eb26ea64def99cb1fd4b3a7c4c337e6d436ddcf92c2f8f725f
 docker: quay.io/biocontainers/sneep
 aliases:
   HandleInOutput: /usr/local/bin/HandleInOutput
