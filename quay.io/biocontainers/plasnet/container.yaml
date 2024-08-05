@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/plasnet
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for plasnet
+latest:
+  0.5.1--py312hdfd78af_0: sha256:ad489d3aab1fd4893f6589137cf7d1d8ce0cf6d446f124aea441d74d4a74e391
+tags:
+  0.5.1--py312hdfd78af_0: sha256:ad489d3aab1fd4893f6589137cf7d1d8ce0cf6d446f124aea441d74d4a74e391
+docker: quay.io/biocontainers/plasnet
+aliases:
+  plasnet: /usr/local/bin/plasnet
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

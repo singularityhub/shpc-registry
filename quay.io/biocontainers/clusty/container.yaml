@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/clusty
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for clusty
+latest:
+  1.0.0--hdbdd923_1: sha256:d68ae51f541cd5d7dfa185c25770cbf4cd6f8e96ca1601c07a6ed3bfdbfbccdc
+tags:
+  1.0.0--hdbdd923_1: sha256:d68ae51f541cd5d7dfa185c25770cbf4cd6f8e96ca1601c07a6ed3bfdbfbccdc
+docker: quay.io/biocontainers/clusty
+aliases:
+  clusty: /usr/local/bin/clusty
