@@ -1,0 +1,77 @@
+url: https://biocontainers.pro/tools/snakeatac_env
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for snakeatac_env
+latest:
+  0.1.1--pyha70a07d_0: sha256:be65149e146bbf7ea469f9ca3645408235c519f01f4b3325ad33a4debd73a77d
+tags:
+  0.1.1--pyha70a07d_0: sha256:be65149e146bbf7ea469f9ca3645408235c519f01f4b3325ad33a4debd73a77d
+docker: quay.io/biocontainers/snakeatac_env
+aliases:
+  SnpSift: /usr/local/bin/SnpSift
+  TOBIAS: /usr/local/bin/TOBIAS
+  bigwigAverage: /usr/local/bin/bigwigAverage
+  bwa-mem2: /usr/local/bin/bwa-mem2
+  bwa-mem2.avx: /usr/local/bin/bwa-mem2.avx
+  bwa-mem2.avx2: /usr/local/bin/bwa-mem2.avx2
+  bwa-mem2.avx512bw: /usr/local/bin/bwa-mem2.avx512bw
+  bwa-mem2.sse41: /usr/local/bin/bwa-mem2.sse41
+  bwa-mem2.sse42: /usr/local/bin/bwa-mem2.sse42
+  cluster_sites_by_overlap.py: /usr/local/bin/cluster_sites_by_overlap.py
+  detectionCall: /usr/local/bin/detectionCall
+  exactSNP: /usr/local/bin/exactSNP
+  featureCounts: /usr/local/bin/featureCounts
+  filter_important_factors.py: /usr/local/bin/filter_important_factors.py
+  flattenGTF: /usr/local/bin/flattenGTF
+  genRandomReads: /usr/local/bin/genRandomReads
+  macs3: /usr/local/bin/macs3
+  moods-dna.py: /usr/local/bin/moods-dna.py
+  pdfcombine: /usr/local/bin/pdfcombine
+  propmapped: /usr/local/bin/propmapped
+  qualityScores: /usr/local/bin/qualityScores
+  removeDup: /usr/local/bin/removeDup
+  repair: /usr/local/bin/repair
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  subindel: /usr/local/bin/subindel
+  subjunc: /usr/local/bin/subjunc
+  sublong: /usr/local/bin/sublong
+  subread-align: /usr/local/bin/subread-align
+  subread-buildindex: /usr/local/bin/subread-buildindex
+  subread-fullscan: /usr/local/bin/subread-fullscan
+  svist4get: /usr/local/bin/svist4get
+  svist4get_copier: /usr/local/bin/svist4get_copier
+  txUnique: /usr/local/bin/txUnique
+  validate-docstrings: /usr/local/bin/validate-docstrings
+  alignmentSieve: /usr/local/bin/alignmentSieve
+  bamCompare: /usr/local/bin/bamCompare
+  bamCoverage: /usr/local/bin/bamCoverage
+  bamPEFragmentSize: /usr/local/bin/bamPEFragmentSize
+  bigwigCompare: /usr/local/bin/bigwigCompare
+  computeGCBias: /usr/local/bin/computeGCBias
+  computeMatrix: /usr/local/bin/computeMatrix
+  computeMatrixOperations: /usr/local/bin/computeMatrixOperations
+  correctGCBias: /usr/local/bin/correctGCBias
+  deeptools: /usr/local/bin/deeptools
+  eido: /usr/local/bin/eido
+  estimateReadFiltering: /usr/local/bin/estimateReadFiltering
+  estimateScaleFactor: /usr/local/bin/estimateScaleFactor
+  multiBamSummary: /usr/local/bin/multiBamSummary
+  multiBigwigSummary: /usr/local/bin/multiBigwigSummary
+  plotCorrelation: /usr/local/bin/plotCorrelation
+  plotCoverage: /usr/local/bin/plotCoverage
+  plotEnrichment: /usr/local/bin/plotEnrichment
+  plotFingerprint: /usr/local/bin/plotFingerprint
+  plotHeatmap: /usr/local/bin/plotHeatmap
+  plotPCA: /usr/local/bin/plotPCA
+  plotProfile: /usr/local/bin/plotProfile
+  kaleido: /usr/local/bin/kaleido
+  mathjax-path: /usr/local/bin/mathjax-path
+  qconvex: /usr/local/bin/qconvex
