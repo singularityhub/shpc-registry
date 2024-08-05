@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-business-isbn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-business-isbn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-business-isbn/container.yaml"
-updated_at: "2024-08-05 02:50:19.133348"
+updated_at: "2024-08-05 04:07:52.263961"
 latest: "3.007--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-business-isbn"
 

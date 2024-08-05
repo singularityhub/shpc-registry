@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mdanalysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mdanalysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mdanalysis/container.yaml"
-updated_at: "2024-08-05 03:23:34.118330"
+updated_at: "2024-08-05 04:42:08.194251"
 latest: "1.0.0"
 container_url: "https://biocontainers.pro/tools/mdanalysis"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-runibic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-runibic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-runibic/container.yaml"
-updated_at: "2024-08-05 02:40:05.538327"
+updated_at: "2024-08-05 03:57:12.173361"
 latest: "1.24.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-runibic"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/integron_finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/integron_finder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/integron_finder/container.yaml"
-updated_at: "2024-08-05 03:06:33.672586"
+updated_at: "2024-08-05 04:24:44.169561"
 latest: "2.0rc6--py_0"
 container_url: "https://biocontainers.pro/tools/integron_finder"
 aliases:

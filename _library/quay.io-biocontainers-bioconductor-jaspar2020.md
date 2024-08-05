@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-jaspar2020"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-jaspar2020/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-jaspar2020/container.yaml"
-updated_at: "2024-08-05 02:58:25.225320"
+updated_at: "2024-08-05 04:16:16.416476"
 latest: "0.99.10--r43hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/bioconductor-jaspar2020"
 
