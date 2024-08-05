@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytables"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytables/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytables/container.yaml"
-updated_at: "2024-08-04 02:44:17.496884"
+updated_at: "2024-08-05 02:43:47.543654"
 latest: "3.4.4"
 container_url: "https://biocontainers.pro/tools/pytables"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "3.4.4"
 description: "shpc-registry automated BioContainers addition for pytables"
-config: {"url": "https://biocontainers.pro/tools/pytables", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytables", "latest": {"3.4.4": "sha256:f8c5004faeba8a605082f00ca4e79a23b417ed470c0414f01381df9c08daa235"}, "tags": {"3.4.4": "sha256:f8c5004faeba8a605082f00ca4e79a23b417ed470c0414f01381df9c08daa235"}, "docker": "quay.io/biocontainers/pytables", "aliases": {"conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
+config: {"url": "https://biocontainers.pro/tools/pytables", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytables", "latest": {"3.4.4": "sha256:b0f2f7d9700c7df02421564460076a03cf827c4d29bc749a83c1a974d1288a0b"}, "tags": {"3.4.4": "sha256:b0f2f7d9700c7df02421564460076a03cf827c4d29bc749a83c1a974d1288a0b"}, "docker": "quay.io/biocontainers/pytables", "aliases": {"conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytables.

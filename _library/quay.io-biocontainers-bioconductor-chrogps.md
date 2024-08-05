@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chrogps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chrogps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chrogps/container.yaml"
-updated_at: "2024-08-04 03:18:03.658433"
+updated_at: "2024-08-05 03:17:27.738441"
 latest: "2.4.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chrogps"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "2.4.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chrogps"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chrogps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chrogps", "latest": {"2.4.0--r36_0": "sha256:b61ea239822f5f1a3cb741e8de565600b5efb6309f724064eccbdbf5c61043d6"}, "tags": {"2.4.0--r36_0": "sha256:b61ea239822f5f1a3cb741e8de565600b5efb6309f724064eccbdbf5c61043d6"}, "docker": "quay.io/biocontainers/bioconductor-chrogps", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chrogps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chrogps", "latest": {"2.4.0--r36_0": "sha256:c0a052dc3858b4314c5fe592a533914cf2e9e67a1b1a35caf8e37d48eee92e3e"}, "tags": {"2.4.0--r36_0": "sha256:c0a052dc3858b4314c5fe592a533914cf2e9e67a1b1a35caf8e37d48eee92e3e"}, "docker": "quay.io/biocontainers/bioconductor-chrogps", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chrogps.

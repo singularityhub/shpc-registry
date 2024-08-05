@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rsffreader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rsffreader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rsffreader/container.yaml"
-updated_at: "2024-08-04 02:41:53.764231"
+updated_at: "2024-08-05 02:41:23.989800"
 latest: "0.31.0--r36h516909a_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rsffreader"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "0.31.0--r36h516909a_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rsffreader"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rsffreader", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rsffreader", "latest": {"0.31.0--r36h516909a_1": "sha256:7518267eed9c72657e7c2f1fe19c3efd3687dc8388ab588e90737a43435f0fff"}, "tags": {"0.31.0--r36h516909a_1": "sha256:7518267eed9c72657e7c2f1fe19c3efd3687dc8388ab588e90737a43435f0fff"}, "docker": "quay.io/biocontainers/bioconductor-rsffreader", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rsffreader", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rsffreader", "latest": {"0.31.0--r36h516909a_1": "sha256:04ad770d55ed378e3b0f223dabf1d34f24695047e69fed513c951c948aa6223d"}, "tags": {"0.31.0--r36h516909a_1": "sha256:04ad770d55ed378e3b0f223dabf1d34f24695047e69fed513c951c948aa6223d"}, "docker": "quay.io/biocontainers/bioconductor-rsffreader", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rsffreader.

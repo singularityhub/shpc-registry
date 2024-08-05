@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deepmei"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepmei/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepmei/container.yaml"
-updated_at: "2024-08-04 02:44:15.794706"
-latest: "1.6.24--hdfd78af_0"
+updated_at: "2024-08-05 02:43:45.847201"
+latest: "1.6.24--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/deepmei"
 aliases:
  - "bigRmskAlignBed.as"
@@ -44,8 +44,9 @@ aliases:
 versions:
  - "1.0.0--hdfd78af_0"
  - "1.6.24--hdfd78af_0"
+ - "1.6.24--hdfd78af_1"
 description: "singularity registry hpc automated addition for deepmei"
-config: {"url": "https://biocontainers.pro/tools/deepmei", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deepmei", "latest": {"1.6.24--hdfd78af_0": "sha256:0b5634471eaeb0ab3e487647d95e2d8276bbca14aa3a0e4730a69c8867fc6c9a"}, "tags": {"1.0.0--hdfd78af_0": "sha256:2cea61072003ce9db519391639e938db5674b3f4014a799293e5fd222e31a24a", "1.6.24--hdfd78af_0": "sha256:0b5634471eaeb0ab3e487647d95e2d8276bbca14aa3a0e4730a69c8867fc6c9a"}, "docker": "quay.io/biocontainers/deepmei", "aliases": {"bigRmskAlignBed.as": "/usr/local/bin/bigRmskAlignBed.as", "bigRmskBed.as": "/usr/local/bin/bigRmskBed.as", "combineRMFiles.pl": "/usr/local/bin/combineRMFiles.pl", "deepmeiv1": "/usr/local/bin/deepmeiv1", "makeclusterdb": "/usr/local/bin/makeclusterdb", "maskFile.pl": "/usr/local/bin/maskFile.pl", "renumberRMFiles.pl": "/usr/local/bin/renumberRMFiles.pl", "rmToTrackHub.pl": "/usr/local/bin/rmToTrackHub.pl", "RM2Bed.py": "/usr/local/bin/RM2Bed.py", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl", "DupMasker": "/usr/local/bin/DupMasker", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "trfMask": "/usr/local/bin/trfMask", "rmblastn": "/usr/local/bin/rmblastn", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "trf": "/usr/local/bin/trf", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter"}}
+config: {"url": "https://biocontainers.pro/tools/deepmei", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deepmei", "latest": {"1.6.24--hdfd78af_1": "sha256:a24fefb9b24255d0cd26b3e7b2a8bc7c862f9ba95027483cac0ac82926053056"}, "tags": {"1.0.0--hdfd78af_0": "sha256:2cea61072003ce9db519391639e938db5674b3f4014a799293e5fd222e31a24a", "1.6.24--hdfd78af_0": "sha256:0b5634471eaeb0ab3e487647d95e2d8276bbca14aa3a0e4730a69c8867fc6c9a", "1.6.24--hdfd78af_1": "sha256:a24fefb9b24255d0cd26b3e7b2a8bc7c862f9ba95027483cac0ac82926053056"}, "docker": "quay.io/biocontainers/deepmei", "aliases": {"bigRmskAlignBed.as": "/usr/local/bin/bigRmskAlignBed.as", "bigRmskBed.as": "/usr/local/bin/bigRmskBed.as", "combineRMFiles.pl": "/usr/local/bin/combineRMFiles.pl", "deepmeiv1": "/usr/local/bin/deepmeiv1", "makeclusterdb": "/usr/local/bin/makeclusterdb", "maskFile.pl": "/usr/local/bin/maskFile.pl", "renumberRMFiles.pl": "/usr/local/bin/renumberRMFiles.pl", "rmToTrackHub.pl": "/usr/local/bin/rmToTrackHub.pl", "RM2Bed.py": "/usr/local/bin/RM2Bed.py", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl", "DupMasker": "/usr/local/bin/DupMasker", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "trfMask": "/usr/local/bin/trfMask", "rmblastn": "/usr/local/bin/rmblastn", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "trf": "/usr/local/bin/trf", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepmei.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/deepmei
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deepmei:1.6.24--hdfd78af_0
+$ shpc install quay.io/biocontainers/deepmei:1.6.24--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deepmei/1.6.24--hdfd78af_0
-$ module help quay.io/biocontainers/deepmei/1.6.24--hdfd78af_0
+$ module load quay.io/biocontainers/deepmei/1.6.24--hdfd78af_1
+$ module help quay.io/biocontainers/deepmei/1.6.24--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

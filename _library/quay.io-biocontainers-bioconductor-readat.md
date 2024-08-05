@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-readat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-readat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-readat/container.yaml"
-updated_at: "2024-08-04 03:19:06.175218"
+updated_at: "2024-08-05 03:18:30.092581"
 latest: "1.11.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-readat"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.11.0--r36_0"
  - "1.10.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-readat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-readat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-readat", "latest": {"1.11.0--r36_0": "sha256:48dcb9ec46ac76d48227d69c210afff0cecb3a93492484250dd6a3632c02208f"}, "tags": {"1.8.0--r351_0": "sha256:f46b0c8b8529cb1aa7a047009a4826a67e52f8b34b6555524723e942a5a418e3", "1.11.0--r36_0": "sha256:48dcb9ec46ac76d48227d69c210afff0cecb3a93492484250dd6a3632c02208f", "1.10.0--r36_1": "sha256:99577581f0d7085ebf2faab8de1bfd121c1907ff843f9d2135fb9fb8e2e89cae"}, "docker": "quay.io/biocontainers/bioconductor-readat", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-readat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-readat", "latest": {"1.11.0--r36_0": "sha256:f8542a3c68e4ec39311e4307458dfb9c8ec23958383434638e8a983877f0bc4e"}, "tags": {"1.8.0--r351_0": "sha256:1d4afbb2ddc88dd010c46030aa35bd906b95d218abb436c37985999fbb500fad", "1.11.0--r36_0": "sha256:f8542a3c68e4ec39311e4307458dfb9c8ec23958383434638e8a983877f0bc4e", "1.10.0--r36_1": "sha256:fd94c8c8cca7e4581d051fde582f5c492a42fa6053bd858dc52a083d12109f17"}, "docker": "quay.io/biocontainers/bioconductor-readat", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-readat.

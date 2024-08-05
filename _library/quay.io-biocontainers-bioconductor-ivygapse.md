@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ivygapse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ivygapse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ivygapse/container.yaml"
-updated_at: "2024-08-04 02:49:20.099441"
+updated_at: "2024-08-05 02:48:49.690319"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ivygapse"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.22.1--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ivygapse"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ivygapse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ivygapse", "latest": {"1.24.0--r43hdfd78af_0": "sha256:8ac1ea4cffc09c86690a0f11297c79d06c8f53a1547c5670256188054def1aea"}, "tags": {"1.8.0--r36_0": "sha256:551aa3c66e4ff20b1c7bd0bba3631d1070fa22f4d45ebeb214a17e7e4b4090bf", "1.16.0--r41hdfd78af_0": "sha256:e7d5889f2ce4e3ea5ad48e06c86ee7f0db60b690130c976aaf242a04eebceb31", "1.14.0--r41hdfd78af_0": "sha256:08ee1dfe9b86f49925ec9a7a702526be19f62dc82c3b060382a7eb07c4807b99", "1.12.0--r40hdfd78af_1": "sha256:051161dc98cf11ef6b91064d4681692c92b386f4ca93a86630e01bb7b671fd42", "1.10.0--r40_0": "sha256:33b476bc0672c693a3e6a9bd9165668ae7875537883ad9eb100454fc94b5f1cb", "1.20.0--r42hdfd78af_0": "sha256:b0c08b0cb9e64619286d5795091c5d2b85eec23d1169db069605ee3ac553a89c", "1.22.1--r43hdfd78af_0": "sha256:cd46c88fa1b9c3942023f3cf33eb8e00cdb2fdc7576848ef1bdba1fffa131502", "1.24.0--r43hdfd78af_0": "sha256:8ac1ea4cffc09c86690a0f11297c79d06c8f53a1547c5670256188054def1aea"}, "docker": "quay.io/biocontainers/bioconductor-ivygapse", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ivygapse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ivygapse", "latest": {"1.24.0--r43hdfd78af_0": "sha256:8ac1ea4cffc09c86690a0f11297c79d06c8f53a1547c5670256188054def1aea"}, "tags": {"1.8.0--r36_0": "sha256:3ec53ea2f6aca9e49a51c54b6547ff93ae7da4a7e74bd9330410c79391dac87b", "1.16.0--r41hdfd78af_0": "sha256:e7d5889f2ce4e3ea5ad48e06c86ee7f0db60b690130c976aaf242a04eebceb31", "1.14.0--r41hdfd78af_0": "sha256:08ee1dfe9b86f49925ec9a7a702526be19f62dc82c3b060382a7eb07c4807b99", "1.12.0--r40hdfd78af_1": "sha256:051161dc98cf11ef6b91064d4681692c92b386f4ca93a86630e01bb7b671fd42", "1.10.0--r40_0": "sha256:33b476bc0672c693a3e6a9bd9165668ae7875537883ad9eb100454fc94b5f1cb", "1.20.0--r42hdfd78af_0": "sha256:b0c08b0cb9e64619286d5795091c5d2b85eec23d1169db069605ee3ac553a89c", "1.22.1--r43hdfd78af_0": "sha256:cd46c88fa1b9c3942023f3cf33eb8e00cdb2fdc7576848ef1bdba1fffa131502", "1.24.0--r43hdfd78af_0": "sha256:8ac1ea4cffc09c86690a0f11297c79d06c8f53a1547c5670256188054def1aea"}, "docker": "quay.io/biocontainers/bioconductor-ivygapse", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ivygapse.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/binning_refiner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/binning_refiner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/binning_refiner/container.yaml"
-updated_at: "2024-08-04 03:19:42.406553"
+updated_at: "2024-08-05 03:19:06.139886"
 latest: "1.4.3--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/binning_refiner"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.4.3--pyh5e36f6f_0"
  - "1.4.3"
 description: "singularity registry hpc automated addition for binning_refiner"
-config: {"url": "https://biocontainers.pro/tools/binning_refiner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for binning_refiner", "latest": {"1.4.3--pyh5e36f6f_0": "sha256:f214b51f81dcc5cb87f61171c359cbad7b16b3005bb85dc23e583d74dc2c1e9d"}, "tags": {"1.4.3--pyh5e36f6f_0": "sha256:f214b51f81dcc5cb87f61171c359cbad7b16b3005bb85dc23e583d74dc2c1e9d", "1.4.3": "sha256:9993b118e8defdf9cb636e127eb554b3926c765496fb16c231102fb8e63fd79a"}, "docker": "quay.io/biocontainers/binning_refiner", "aliases": {"Binning_refiner": "/usr/local/bin/Binning_refiner", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/binning_refiner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for binning_refiner", "latest": {"1.4.3--pyh5e36f6f_0": "sha256:f214b51f81dcc5cb87f61171c359cbad7b16b3005bb85dc23e583d74dc2c1e9d"}, "tags": {"1.4.3--pyh5e36f6f_0": "sha256:f214b51f81dcc5cb87f61171c359cbad7b16b3005bb85dc23e583d74dc2c1e9d", "1.4.3": "sha256:f919018f2397af2acba8f038a931c0456843478cad31b33903f0a8f51fd9bfd6"}, "docker": "quay.io/biocontainers/binning_refiner", "aliases": {"Binning_refiner": "/usr/local/bin/Binning_refiner", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/binning_refiner.

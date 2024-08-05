@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bamsignals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bamsignals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bamsignals/container.yaml"
-updated_at: "2024-08-04 02:49:26.036822"
+updated_at: "2024-08-05 02:48:55.661445"
 latest: "1.34.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-bamsignals"
 

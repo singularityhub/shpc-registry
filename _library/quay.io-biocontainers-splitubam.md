@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/splitubam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/splitubam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/splitubam/container.yaml"
-updated_at: "2024-08-04 02:56:31.873504"
+updated_at: "2024-08-05 02:55:59.946948"
 latest: "0.1.1--hc9368f3_0"
 container_url: "https://biocontainers.pro/tools/splitubam"
 aliases:

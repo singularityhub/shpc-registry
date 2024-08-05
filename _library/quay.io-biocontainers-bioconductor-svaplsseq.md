@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-svaplsseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-svaplsseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-svaplsseq/container.yaml"
-updated_at: "2024-08-04 03:22:31.830964"
+updated_at: "2024-08-05 03:21:55.293471"
 latest: "1.13.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-svaplsseq"
 aliases:

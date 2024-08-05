@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pylca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pylca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pylca/container.yaml"
-updated_at: "2024-08-04 03:20:51.875380"
+updated_at: "2024-08-05 03:20:15.500562"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/pylca"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "1.0.0--py_0"
 description: "shpc-registry automated BioContainers addition for pylca"
-config: {"url": "https://biocontainers.pro/tools/pylca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pylca", "latest": {"1.0.0--py_0": "sha256:7131d203694e37e690a46dbc368566c32e4ac380959a19d580bff8448604aa06"}, "tags": {"1.0.0--py_0": "sha256:7131d203694e37e690a46dbc368566c32e4ac380959a19d580bff8448604aa06"}, "docker": "quay.io/biocontainers/pylca", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pylca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pylca", "latest": {"1.0.0--py_0": "sha256:d84459a9c372c32d1164e66d4b1743bcf33a6f31ac6d1326b9ffc3bffabf27f8"}, "tags": {"1.0.0--py_0": "sha256:d84459a9c372c32d1164e66d4b1743bcf33a6f31ac6d1326b9ffc3bffabf27f8"}, "docker": "quay.io/biocontainers/pylca", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pylca.

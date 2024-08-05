@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-disco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-disco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-disco/container.yaml"
-updated_at: "2024-08-04 03:11:52.294530"
+updated_at: "2024-08-05 03:11:17.638742"
 latest: "0.6--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-disco"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.6--r351h6115d3f_0"
 description: "shpc-registry automated BioContainers addition for r-disco"
-config: {"url": "https://biocontainers.pro/tools/r-disco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-disco", "latest": {"0.6--r351h6115d3f_0": "sha256:a22daed5da7b32466161447819100aa7c0d8f43540734922bf941e8e923bf5a5"}, "tags": {"0.6--r351h6115d3f_0": "sha256:a22daed5da7b32466161447819100aa7c0d8f43540734922bf941e8e923bf5a5"}, "docker": "quay.io/biocontainers/r-disco", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-disco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-disco", "latest": {"0.6--r351h6115d3f_0": "sha256:0d841135f6b3cbf5fb0ff632a667e00d08da929bf8633df4aec5afbcce509738"}, "tags": {"0.6--r351h6115d3f_0": "sha256:0d841135f6b3cbf5fb0ff632a667e00d08da929bf8633df4aec5afbcce509738"}, "docker": "quay.io/biocontainers/r-disco", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-disco.

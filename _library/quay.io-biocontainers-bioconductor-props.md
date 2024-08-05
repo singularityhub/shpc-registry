@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-props"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-props/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-props/container.yaml"
-updated_at: "2024-08-04 03:04:04.978178"
+updated_at: "2024-08-05 03:03:31.573429"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-props"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-props"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-props", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-props", "latest": {"1.24.0--r43hdfd78af_0": "sha256:794c18d926fd1e22cc0620f6c0da9f9cbd9edc8b169943cca41620f52ed998bd"}, "tags": {"1.8.0--r36_0": "sha256:35a494ac17c5b57fe1d4cbf6962d062a1e84445f57ac6bd25cf26f385f8853e0", "1.16.0--r41hdfd78af_0": "sha256:3cd47d0b1e9edf6a520b081d25137b1a7e18158bc9ca8f6f754525cda270c399", "1.14.0--r41hdfd78af_0": "sha256:86a6bec6c354de75ad09566b831d3328d472947ddcaad5c9b60a734ca436c8fe", "1.12.0--r40hdfd78af_1": "sha256:da605837e45c7a593737f366f9c5523dcc33a422e6cce5fb4609d4367d54cc1a", "1.10.0--r40_0": "sha256:acb6c118b09a27d0f77217e1902a6bab4c34d64c3ce3c49c9825887e69948df7", "1.20.0--r42hdfd78af_0": "sha256:687aa389726fe4dcc80c17766f6c1ced93539b5d1fa25dfd035a2eaf46597dea", "1.22.0--r43hdfd78af_0": "sha256:6365066f5842b5b1136259bcf4f36b984a2409da5106d7b39d247abea35494e6", "1.24.0--r43hdfd78af_0": "sha256:794c18d926fd1e22cc0620f6c0da9f9cbd9edc8b169943cca41620f52ed998bd"}, "docker": "quay.io/biocontainers/bioconductor-props", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-props", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-props", "latest": {"1.24.0--r43hdfd78af_0": "sha256:794c18d926fd1e22cc0620f6c0da9f9cbd9edc8b169943cca41620f52ed998bd"}, "tags": {"1.8.0--r36_0": "sha256:f88c829b4e2d7fe36dd8b34105444f8decdd4c17ba922bd07a392fd10103c861", "1.16.0--r41hdfd78af_0": "sha256:3cd47d0b1e9edf6a520b081d25137b1a7e18158bc9ca8f6f754525cda270c399", "1.14.0--r41hdfd78af_0": "sha256:86a6bec6c354de75ad09566b831d3328d472947ddcaad5c9b60a734ca436c8fe", "1.12.0--r40hdfd78af_1": "sha256:da605837e45c7a593737f366f9c5523dcc33a422e6cce5fb4609d4367d54cc1a", "1.10.0--r40_0": "sha256:acb6c118b09a27d0f77217e1902a6bab4c34d64c3ce3c49c9825887e69948df7", "1.20.0--r42hdfd78af_0": "sha256:687aa389726fe4dcc80c17766f6c1ced93539b5d1fa25dfd035a2eaf46597dea", "1.22.0--r43hdfd78af_0": "sha256:6365066f5842b5b1136259bcf4f36b984a2409da5106d7b39d247abea35494e6", "1.24.0--r43hdfd78af_0": "sha256:794c18d926fd1e22cc0620f6c0da9f9cbd9edc8b169943cca41620f52ed998bd"}, "docker": "quay.io/biocontainers/bioconductor-props", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-props.

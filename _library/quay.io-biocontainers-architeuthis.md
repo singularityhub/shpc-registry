@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/architeuthis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/architeuthis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/architeuthis/container.yaml"
-updated_at: "2024-08-04 03:14:19.473741"
-latest: "0.2.1--he881be0_0"
+updated_at: "2024-08-05 03:13:44.362869"
+latest: "0.3.0--he881be0_1"
 container_url: "https://biocontainers.pro/tools/architeuthis"
 aliases:
  - "architeuthis"
  - "taxonkit"
 versions:
  - "0.2.1--he881be0_0"
+ - "0.3.0--he881be0_1"
 description: "singularity registry hpc automated addition for architeuthis"
-config: {"url": "https://biocontainers.pro/tools/architeuthis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for architeuthis", "latest": {"0.2.1--he881be0_0": "sha256:72ef08355e8d61b8b08835872e66971b7502900a204b9f52e314b3694436b1d0"}, "tags": {"0.2.1--he881be0_0": "sha256:72ef08355e8d61b8b08835872e66971b7502900a204b9f52e314b3694436b1d0"}, "docker": "quay.io/biocontainers/architeuthis", "aliases": {"architeuthis": "/usr/local/bin/architeuthis", "taxonkit": "/usr/local/bin/taxonkit"}}
+config: {"url": "https://biocontainers.pro/tools/architeuthis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for architeuthis", "latest": {"0.3.0--he881be0_1": "sha256:fa39abe7e8ee48a52ec90f127ae8f34e6cc05624ab7b103d5b978e5c84345ff0"}, "tags": {"0.2.1--he881be0_0": "sha256:72ef08355e8d61b8b08835872e66971b7502900a204b9f52e314b3694436b1d0", "0.3.0--he881be0_1": "sha256:fa39abe7e8ee48a52ec90f127ae8f34e6cc05624ab7b103d5b978e5c84345ff0"}, "docker": "quay.io/biocontainers/architeuthis", "aliases": {"architeuthis": "/usr/local/bin/architeuthis", "taxonkit": "/usr/local/bin/taxonkit"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/architeuthis.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/architeuthis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/architeuthis:0.2.1--he881be0_0
+$ shpc install quay.io/biocontainers/architeuthis:0.3.0--he881be0_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/architeuthis/0.2.1--he881be0_0
-$ module help quay.io/biocontainers/architeuthis/0.2.1--he881be0_0
+$ module load quay.io/biocontainers/architeuthis/0.3.0--he881be0_1
+$ module help quay.io/biocontainers/architeuthis/0.3.0--he881be0_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

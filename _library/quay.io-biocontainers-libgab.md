@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libgab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libgab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libgab/container.yaml"
-updated_at: "2024-08-04 02:49:47.362464"
+updated_at: "2024-08-05 02:49:16.911969"
 latest: "1.0.5--h7a259b3_14"
 container_url: "https://biocontainers.pro/tools/libgab"
 aliases:

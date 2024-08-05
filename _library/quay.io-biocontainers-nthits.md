@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nthits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nthits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nthits/container.yaml"
-updated_at: "2024-08-04 03:04:32.344120"
-latest: "1.0.3--h4ac6f70_0"
+updated_at: "2024-08-05 03:03:58.895526"
+latest: "1.0.3--h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/nthits"
 aliases:
  - "nthits"
@@ -15,8 +15,9 @@ versions:
  - "1.0.1--h4ac6f70_1"
  - "1.0.2--h4ac6f70_0"
  - "1.0.3--h4ac6f70_0"
+ - "1.0.3--h4ac6f70_1"
 description: "shpc-registry automated BioContainers addition for nthits"
-config: {"url": "https://biocontainers.pro/tools/nthits", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nthits", "latest": {"1.0.3--h4ac6f70_0": "sha256:2426ab94a824c4559ccf9f2e55c755690537c64b73bb983eae33a61b14428f3c"}, "tags": {"0.0.1--h9f5acd7_2": "sha256:9667ed7a20486f393f6ea6b78f77d70a26414769ccad4a5910b1981be0107cd2", "1.0.1--h9f5acd7_0": "sha256:f0b8562f8a3546ad91f3ab89620ace3cf85bf2197cca2164a37bd2341e886189", "1.0.1--h4ac6f70_1": "sha256:339c93321fc09996c023c74d3d0623bc2eeba8fbd85fed8c0b863cfa9b0dbe13", "1.0.2--h4ac6f70_0": "sha256:6ac444bf37cc3f06e3f121863ebabbd747e55b5452a9aed97565325b409b1839", "1.0.3--h4ac6f70_0": "sha256:2426ab94a824c4559ccf9f2e55c755690537c64b73bb983eae33a61b14428f3c"}, "docker": "quay.io/biocontainers/nthits", "aliases": {"nthits": "/usr/local/bin/nthits"}}
+config: {"url": "https://biocontainers.pro/tools/nthits", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nthits", "latest": {"1.0.3--h4ac6f70_1": "sha256:ce89c745a347f2a638dc47d9a4d5c8aa933d2779108738a8ef6ad2e9847489ac"}, "tags": {"0.0.1--h9f5acd7_2": "sha256:9667ed7a20486f393f6ea6b78f77d70a26414769ccad4a5910b1981be0107cd2", "1.0.1--h9f5acd7_0": "sha256:f0b8562f8a3546ad91f3ab89620ace3cf85bf2197cca2164a37bd2341e886189", "1.0.1--h4ac6f70_1": "sha256:339c93321fc09996c023c74d3d0623bc2eeba8fbd85fed8c0b863cfa9b0dbe13", "1.0.2--h4ac6f70_0": "sha256:6ac444bf37cc3f06e3f121863ebabbd747e55b5452a9aed97565325b409b1839", "1.0.3--h4ac6f70_0": "sha256:2426ab94a824c4559ccf9f2e55c755690537c64b73bb983eae33a61b14428f3c", "1.0.3--h4ac6f70_1": "sha256:ce89c745a347f2a638dc47d9a4d5c8aa933d2779108738a8ef6ad2e9847489ac"}, "docker": "quay.io/biocontainers/nthits", "aliases": {"nthits": "/usr/local/bin/nthits"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nthits.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/nthits
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nthits:1.0.3--h4ac6f70_0
+$ shpc install quay.io/biocontainers/nthits:1.0.3--h4ac6f70_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nthits/1.0.3--h4ac6f70_0
-$ module help quay.io/biocontainers/nthits/1.0.3--h4ac6f70_0
+$ module load quay.io/biocontainers/nthits/1.0.3--h4ac6f70_1
+$ module help quay.io/biocontainers/nthits/1.0.3--h4ac6f70_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
