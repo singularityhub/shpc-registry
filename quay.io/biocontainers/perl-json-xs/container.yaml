@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/perl-json-xs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-json-xs
 latest:
-  4.03--pl5321h4ac6f70_2: sha256:72fd88e5c509397a8576577b64be367cf75925abe290c9c5046b1a96dd737e81
+  4.03--pl5321h4ac6f70_3: sha256:adf68d1b5f052c71345b48a71b8b58f7a2a51b9757abced3200324129ebc1d82
 tags:
   4.03--pl5321h9f5acd7_1: sha256:54a3acc7cdf5176b7234038fd8fc5d988fb2810e462672f45918a6c2e28c8f6f
   4.03--pl5321h4ac6f70_2: sha256:72fd88e5c509397a8576577b64be367cf75925abe290c9c5046b1a96dd737e81
+  4.03--pl5321h4ac6f70_3: sha256:adf68d1b5f052c71345b48a71b8b58f7a2a51b9757abced3200324129ebc1d82
 docker: quay.io/biocontainers/perl-json-xs
 aliases:
   json_xs: /usr/local/bin/json_xs

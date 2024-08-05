@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/scikit-image
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scikit-image
 latest:
-  0.14.0--py36hfc679d8_1: sha256:4ac6c107508a092df57a8d72fca7a65c0b8e2ce8719b36f95f3637c781df942f
+  0.24.0: sha256:f7d94082f2e11f2aeb3de9ec71c6c17e10eaa0253475e0849df55c857b2983da
 tags:
   0.14.0--py36hfc679d8_1: sha256:4ac6c107508a092df57a8d72fca7a65c0b8e2ce8719b36f95f3637c781df942f
   0.14.0: sha256:0a467d102aa3804485629a66ba9a5535f43e2a5daa72cc78a42dcef3e4c5673d
+  0.24.0: sha256:f7d94082f2e11f2aeb3de9ec71c6c17e10eaa0253475e0849df55c857b2983da
 docker: quay.io/biocontainers/scikit-image
 aliases:
   imageio_download_bin: /usr/local/bin/imageio_download_bin

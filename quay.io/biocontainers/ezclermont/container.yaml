@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/ezclermont
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ezclermont
 latest:
-  0.7.0--pyhdfd78af_0: sha256:2daf32aec596467716711fcae9cdc667436a066e12a92599f5c1cd9a56c3cb58
+  0.7.0--pyhdfd78af_0: sha256:99fe9cf3d18af107c0d6ede2e923ad36419ea579e530451c3081921bc4c400e8
 tags:
-  0.7.0--pyhdfd78af_0: sha256:2daf32aec596467716711fcae9cdc667436a066e12a92599f5c1cd9a56c3cb58
+  0.7.0--pyhdfd78af_0: sha256:99fe9cf3d18af107c0d6ede2e923ad36419ea579e530451c3081921bc4c400e8
 docker: quay.io/biocontainers/ezclermont
 aliases:
   ezclermont: /usr/local/bin/ezclermont

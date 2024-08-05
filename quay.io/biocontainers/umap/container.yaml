@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/umap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for umap
 latest:
-  1.1.1--pyh1687a27_0: sha256:33d464374871b19aa35abb1964593708aa68c83690f6096fb98930bef956674a
+  1.1.1--pyh1687a27_0: sha256:108bd675a323184f5f94e54a58a6af82f70c83d5bbfdd4189267a035659d2ec1
 tags:
-  1.1.1--pyh1687a27_0: sha256:33d464374871b19aa35abb1964593708aa68c83690f6096fb98930bef956674a
+  1.1.1--pyh1687a27_0: sha256:108bd675a323184f5f94e54a58a6af82f70c83d5bbfdd4189267a035659d2ec1
 docker: quay.io/biocontainers/umap
 aliases:
   __init__.py: /usr/local/bin/__init__.py

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/clsify
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for clsify
 latest:
-  0.1.1--py_0: sha256:96f21cf5d8cfeb8dc7d2c7570cd9233a64caae39e31543a260ada5eebf7b0d0a
+  0.1.1--py_0: sha256:d14ecea73477adce642f2da41ffda3523c397388f26d57cee85aa43e540e7edc
 tags:
-  0.1.1--py_0: sha256:96f21cf5d8cfeb8dc7d2c7570cd9233a64caae39e31543a260ada5eebf7b0d0a
+  0.1.1--py_0: sha256:d14ecea73477adce642f2da41ffda3523c397388f26d57cee85aa43e540e7edc
 docker: quay.io/biocontainers/clsify
 aliases:
   abi-dump.2.10.0: /usr/local/bin/abi-dump.2.10.0

@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/blast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for blast
 latest:
-  2.15.0--pl5321h6f7f691_1: sha256:0a9a03dc0e7c4a68caabe5077ef5ce9bd9852604f7090a144fcbe338ffea079f
+  2.16.0--h6f7f691_0: sha256:62455daf7c1680e48e4b5c814cc9c2750c92f386f9c40331424f0a7e492a856f
 tags:
   2.10.1--pl526he19e7b1_3: sha256:f12a5a35a0e6645134fcfe8650b0d1b5ff1f486430828a4ec3c4c9bfe35a5d78
   2.11.0--pl5262h3289130_1: sha256:52e8e0ed12a0fe8854681dadb600e1d5599e04b960b01034cb53812fad944c3d
@@ -15,6 +15,7 @@ tags:
   2.14.0--pl5321h6f7f691_2: sha256:e7398357b102f3cb4462ea28c705745c05b43c2910e7ca61b23c2bdddea93a65
   2.14.1--pl5321h6f7f691_0: sha256:0fa116b90c6411d5b09cdda5ca81a857167d218c49915104e7e1588b16baedf7
   2.15.0--pl5321h6f7f691_1: sha256:0a9a03dc0e7c4a68caabe5077ef5ce9bd9852604f7090a144fcbe338ffea079f
+  2.16.0--h6f7f691_0: sha256:62455daf7c1680e48e4b5c814cc9c2750c92f386f9c40331424f0a7e492a856f
 docker: quay.io/biocontainers/blast
 aliases:
   blast_formatter: /usr/local/bin/blast_formatter
