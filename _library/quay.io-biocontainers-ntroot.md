@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ntroot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntroot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntroot/container.yaml"
-updated_at: "2024-08-05 04:09:23.752833"
-latest: "1.1.1--py312pl5321hdfd78af_0"
+updated_at: "2024-08-06 02:50:48.905778"
+latest: "1.1.3--py312pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ntroot"
 aliases:
  - "eido"
@@ -62,8 +62,9 @@ versions:
  - "1.0.0--py38h820c706_0"
  - "1.0.1--py312pl5321hdfd78af_2"
  - "1.1.1--py312pl5321hdfd78af_0"
+ - "1.1.3--py312pl5321hdfd78af_0"
 description: "singularity registry hpc automated addition for ntroot"
-config: {"url": "https://biocontainers.pro/tools/ntroot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ntroot", "latest": {"1.1.1--py312pl5321hdfd78af_0": "sha256:06589e7a7971916ddf8cfb1970aef7bafe8c7666231ac1d3fb420aefb0d3e571"}, "tags": {"1.0.0--py39h68928f9_0": "sha256:6a250462b90aeeb2b93986f1cc88806e4916bd4ec0c22d6cb14657d1df82416f", "1.0.0--py38h820c706_0": "sha256:f802bc31cf1cfa0f781842b5d62390615b51a0563b47ee5289b14fa186837ea5", "1.0.1--py312pl5321hdfd78af_2": "sha256:c9168e651bdd4f161ff2be444470a12b8da8a8774c9430021f28715dfd7d9406", "1.1.1--py312pl5321hdfd78af_0": "sha256:06589e7a7971916ddf8cfb1970aef7bafe8c7666231ac1d3fb420aefb0d3e571"}, "docker": "quay.io/biocontainers/ntroot", "aliases": {"eido": "/usr/local/bin/eido", "indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "make_genome_bf": "/usr/local/bin/make_genome_bf", "mi_bf_generate": "/usr/local/bin/mi_bf_generate", "ntRootAncestryPredictor.pl": "/usr/local/bin/ntRootAncestryPredictor.pl", "ntcard": "/usr/local/bin/ntcard", "ntedit": "/usr/local/bin/ntedit", "ntedit_run_pipeline.smk": "/usr/local/bin/ntedit_run_pipeline.smk", "nthits": "/usr/local/bin/nthits", "nthits-bfq": "/usr/local/bin/nthits-bfq", "nthll": "/usr/local/bin/nthll", "ntroot": "/usr/local/bin/ntroot", "ntroot_run_pipeline.smk": "/usr/local/bin/ntroot_run_pipeline.smk", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "randseq": "/usr/local/bin/randseq", "run-ntedit": "/usr/local/bin/run-ntedit", "zipcloak": "/usr/local/bin/zipcloak", "zipnote": "/usr/local/bin/zipnote", "zipsplit": "/usr/local/bin/zipsplit", "annot-tsv": "/usr/local/bin/annot-tsv", "zip": "/usr/local/bin/zip", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "markdown-it": "/usr/local/bin/markdown-it", "stone": "/usr/local/bin/stone", "tar": "/usr/local/bin/tar", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly"}}
+config: {"url": "https://biocontainers.pro/tools/ntroot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ntroot", "latest": {"1.1.3--py312pl5321hdfd78af_0": "sha256:f280bcc8ab6464d0f58e45cadb43db409690d2cbef763f7e0edbb62e4a0953c2"}, "tags": {"1.0.0--py39h68928f9_0": "sha256:6a250462b90aeeb2b93986f1cc88806e4916bd4ec0c22d6cb14657d1df82416f", "1.0.0--py38h820c706_0": "sha256:f802bc31cf1cfa0f781842b5d62390615b51a0563b47ee5289b14fa186837ea5", "1.0.1--py312pl5321hdfd78af_2": "sha256:c9168e651bdd4f161ff2be444470a12b8da8a8774c9430021f28715dfd7d9406", "1.1.1--py312pl5321hdfd78af_0": "sha256:06589e7a7971916ddf8cfb1970aef7bafe8c7666231ac1d3fb420aefb0d3e571", "1.1.3--py312pl5321hdfd78af_0": "sha256:f280bcc8ab6464d0f58e45cadb43db409690d2cbef763f7e0edbb62e4a0953c2"}, "docker": "quay.io/biocontainers/ntroot", "aliases": {"eido": "/usr/local/bin/eido", "indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "make_genome_bf": "/usr/local/bin/make_genome_bf", "mi_bf_generate": "/usr/local/bin/mi_bf_generate", "ntRootAncestryPredictor.pl": "/usr/local/bin/ntRootAncestryPredictor.pl", "ntcard": "/usr/local/bin/ntcard", "ntedit": "/usr/local/bin/ntedit", "ntedit_run_pipeline.smk": "/usr/local/bin/ntedit_run_pipeline.smk", "nthits": "/usr/local/bin/nthits", "nthits-bfq": "/usr/local/bin/nthits-bfq", "nthll": "/usr/local/bin/nthll", "ntroot": "/usr/local/bin/ntroot", "ntroot_run_pipeline.smk": "/usr/local/bin/ntroot_run_pipeline.smk", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "randseq": "/usr/local/bin/randseq", "run-ntedit": "/usr/local/bin/run-ntedit", "zipcloak": "/usr/local/bin/zipcloak", "zipnote": "/usr/local/bin/zipnote", "zipsplit": "/usr/local/bin/zipsplit", "annot-tsv": "/usr/local/bin/annot-tsv", "zip": "/usr/local/bin/zip", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "markdown-it": "/usr/local/bin/markdown-it", "stone": "/usr/local/bin/stone", "tar": "/usr/local/bin/tar", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ntroot.
@@ -78,7 +79,7 @@ $ shpc install quay.io/biocontainers/ntroot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ntroot:1.1.1--py312pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/ntroot:1.1.3--py312pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -90,8 +91,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ntroot/1.1.1--py312pl5321hdfd78af_0
-$ module help quay.io/biocontainers/ntroot/1.1.1--py312pl5321hdfd78af_0
+$ module load quay.io/biocontainers/ntroot/1.1.3--py312pl5321hdfd78af_0
+$ module help quay.io/biocontainers/ntroot/1.1.3--py312pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

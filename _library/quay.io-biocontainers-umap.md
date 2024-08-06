@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/umap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/umap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/umap/container.yaml"
-updated_at: "2024-08-05 04:16:09.346986"
+updated_at: "2024-08-06 02:57:18.474515"
 latest: "1.1.1--pyh1687a27_0"
 container_url: "https://biocontainers.pro/tools/umap"
 aliases:
@@ -31,7 +31,7 @@ aliases:
 versions:
  - "1.1.1--pyh1687a27_0"
 description: "shpc-registry automated BioContainers addition for umap"
-config: {"url": "https://biocontainers.pro/tools/umap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for umap", "latest": {"1.1.1--pyh1687a27_0": "sha256:33d464374871b19aa35abb1964593708aa68c83690f6096fb98930bef956674a"}, "tags": {"1.1.1--pyh1687a27_0": "sha256:33d464374871b19aa35abb1964593708aa68c83690f6096fb98930bef956674a"}, "docker": "quay.io/biocontainers/umap", "aliases": {"__init__.py": "/usr/local/bin/__init__.py", "combine_umaps.py": "/usr/local/bin/combine_umaps.py", "get_kmers.py": "/usr/local/bin/get_kmers.py", "handle_fasta.py": "/usr/local/bin/handle_fasta.py", "map_bed.py": "/usr/local/bin/map_bed.py", "run_bowtie.py": "/usr/local/bin/run_bowtie.py", "ubismap.py": "/usr/local/bin/ubismap.py", "uint8_to_bed.py": "/usr/local/bin/uint8_to_bed.py", "uint8_to_bed_parallel.py": "/usr/local/bin/uint8_to_bed_parallel.py", "unify_bowtie.py": "/usr/local/bin/unify_bowtie.py", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "f2py2": "/usr/local/bin/f2py2"}}
+config: {"url": "https://biocontainers.pro/tools/umap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for umap", "latest": {"1.1.1--pyh1687a27_0": "sha256:108bd675a323184f5f94e54a58a6af82f70c83d5bbfdd4189267a035659d2ec1"}, "tags": {"1.1.1--pyh1687a27_0": "sha256:108bd675a323184f5f94e54a58a6af82f70c83d5bbfdd4189267a035659d2ec1"}, "docker": "quay.io/biocontainers/umap", "aliases": {"__init__.py": "/usr/local/bin/__init__.py", "combine_umaps.py": "/usr/local/bin/combine_umaps.py", "get_kmers.py": "/usr/local/bin/get_kmers.py", "handle_fasta.py": "/usr/local/bin/handle_fasta.py", "map_bed.py": "/usr/local/bin/map_bed.py", "run_bowtie.py": "/usr/local/bin/run_bowtie.py", "ubismap.py": "/usr/local/bin/ubismap.py", "uint8_to_bed.py": "/usr/local/bin/uint8_to_bed.py", "uint8_to_bed_parallel.py": "/usr/local/bin/uint8_to_bed_parallel.py", "unify_bowtie.py": "/usr/local/bin/unify_bowtie.py", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "f2py2": "/usr/local/bin/f2py2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/umap.

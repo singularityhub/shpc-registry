@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bel-resources"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bel-resources/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bel-resources/container.yaml"
-updated_at: "2024-08-05 04:09:57.747348"
+updated_at: "2024-08-06 02:51:22.233766"
 latest: "0.0.3--py_0"
 container_url: "https://biocontainers.pro/tools/bel-resources"
 aliases:
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "0.0.3--py_0"
 description: "shpc-registry automated BioContainers addition for bel-resources"
-config: {"url": "https://biocontainers.pro/tools/bel-resources", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bel-resources", "latest": {"0.0.3--py_0": "sha256:8ff017d37b391093762bf0aededd80957591bb5bf70d8592ffd7131e1fa709c4"}, "tags": {"0.0.3--py_0": "sha256:8ff017d37b391093762bf0aededd80957591bb5bf70d8592ffd7131e1fa709c4"}, "docker": "quay.io/biocontainers/bel-resources", "aliases": {"bel-resources": "/usr/local/bin/bel-resources", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/bel-resources", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bel-resources", "latest": {"0.0.3--py_0": "sha256:4cfadedc8ab07309d2318e12b51266aef11fda5f38541dbe12988091c15cf932"}, "tags": {"0.0.3--py_0": "sha256:4cfadedc8ab07309d2318e12b51266aef11fda5f38541dbe12988091c15cf932"}, "docker": "quay.io/biocontainers/bel-resources", "aliases": {"bel-resources": "/usr/local/bin/bel-resources", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bel-resources.

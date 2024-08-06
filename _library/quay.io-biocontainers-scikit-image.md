@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scikit-image"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scikit-image/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scikit-image/container.yaml"
-updated_at: "2024-08-05 04:20:45.962569"
-latest: "0.14.0--py36hfc679d8_1"
+updated_at: "2024-08-06 03:01:46.504423"
+latest: "0.24.0"
 container_url: "https://biocontainers.pro/tools/scikit-image"
 aliases:
  - "imageio_download_bin"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "0.14.0--py36hfc679d8_1"
  - "0.14.0"
+ - "0.24.0"
 description: "shpc-registry automated BioContainers addition for scikit-image"
-config: {"url": "https://biocontainers.pro/tools/scikit-image", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scikit-image", "latest": {"0.14.0--py36hfc679d8_1": "sha256:4ac6c107508a092df57a8d72fca7a65c0b8e2ce8719b36f95f3637c781df942f"}, "tags": {"0.14.0--py36hfc679d8_1": "sha256:4ac6c107508a092df57a8d72fca7a65c0b8e2ce8719b36f95f3637c781df942f", "0.14.0": "sha256:0a467d102aa3804485629a66ba9a5535f43e2a5daa72cc78a42dcef3e4c5673d"}, "docker": "quay.io/biocontainers/scikit-image", "aliases": {"imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0"}}
+config: {"url": "https://biocontainers.pro/tools/scikit-image", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scikit-image", "latest": {"0.24.0": "sha256:f7d94082f2e11f2aeb3de9ec71c6c17e10eaa0253475e0849df55c857b2983da"}, "tags": {"0.14.0--py36hfc679d8_1": "sha256:4ac6c107508a092df57a8d72fca7a65c0b8e2ce8719b36f95f3637c781df942f", "0.14.0": "sha256:0a467d102aa3804485629a66ba9a5535f43e2a5daa72cc78a42dcef3e4c5673d", "0.24.0": "sha256:f7d94082f2e11f2aeb3de9ec71c6c17e10eaa0253475e0849df55c857b2983da"}, "docker": "quay.io/biocontainers/scikit-image", "aliases": {"imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scikit-image.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/scikit-image
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scikit-image:0.14.0--py36hfc679d8_1
+$ shpc install quay.io/biocontainers/scikit-image:0.24.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scikit-image/0.14.0--py36hfc679d8_1
-$ module help quay.io/biocontainers/scikit-image/0.14.0--py36hfc679d8_1
+$ module load quay.io/biocontainers/scikit-image/0.24.0
+$ module help quay.io/biocontainers/scikit-image/0.24.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vulcandata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vulcandata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vulcandata/container.yaml"
-updated_at: "2024-08-05 04:10:25.931525"
+updated_at: "2024-08-06 02:51:49.730049"
 latest: "1.24.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vulcandata"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "1.22.0--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-vulcandata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-vulcandata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vulcandata", "latest": {"1.24.0--r43hdfd78af_0": "sha256:3263745ffb6d68b2b527ecd6ec3c0446464fc15dfd210838b0a6041c8c855f20"}, "tags": {"1.8.0--r36_0": "sha256:86fda5b2e7f68ee250399689919209c425e82cc2834f187904e317fc1519563a", "1.19.0--r42hdfd78af_0": "sha256:bb3b03d201fb36ccc893189e43e64cd279eae0ccdd8632aef829a90c13bcac1a", "1.16.0--r41hdfd78af_1": "sha256:3dcc38f0efbbbee30351d5e4ecc44b822bcfb0b9d75258bb22d4948233d7f331", "1.14.0--r41hdfd78af_0": "sha256:9887042189d3c43ef0427e64cc2c525f823bea8dbc26b2db4ed2f9b99e4bd0c5", "1.12.0--r40hdfd78af_1": "sha256:753c9547e985a5fdf9c75fdd95b4414a401fd6ccdd2e784ca0a4ae654e29b3bc", "1.11.0--r40_0": "sha256:d6e6832c230be861162ec322f57bfafdee05429293b400f05f7b7e917fe9bb9b", "1.22.0--r43hdfd78af_0": "sha256:4cfc251651de5b8c42ccd7da5c306f56c1e1cec1f27bb6232fc61cebd348a7d1", "1.24.0--r43hdfd78af_0": "sha256:3263745ffb6d68b2b527ecd6ec3c0446464fc15dfd210838b0a6041c8c855f20"}, "docker": "quay.io/biocontainers/bioconductor-vulcandata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-vulcandata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vulcandata", "latest": {"1.24.0--r43hdfd78af_0": "sha256:3263745ffb6d68b2b527ecd6ec3c0446464fc15dfd210838b0a6041c8c855f20"}, "tags": {"1.8.0--r36_0": "sha256:9a19670060d7f575cddb056c31bf7f1b2a668d9edc9b0648955a35970702ef31", "1.19.0--r42hdfd78af_0": "sha256:bb3b03d201fb36ccc893189e43e64cd279eae0ccdd8632aef829a90c13bcac1a", "1.16.0--r41hdfd78af_1": "sha256:3dcc38f0efbbbee30351d5e4ecc44b822bcfb0b9d75258bb22d4948233d7f331", "1.14.0--r41hdfd78af_0": "sha256:9887042189d3c43ef0427e64cc2c525f823bea8dbc26b2db4ed2f9b99e4bd0c5", "1.12.0--r40hdfd78af_1": "sha256:753c9547e985a5fdf9c75fdd95b4414a401fd6ccdd2e784ca0a4ae654e29b3bc", "1.11.0--r40_0": "sha256:d6e6832c230be861162ec322f57bfafdee05429293b400f05f7b7e917fe9bb9b", "1.22.0--r43hdfd78af_0": "sha256:4cfc251651de5b8c42ccd7da5c306f56c1e1cec1f27bb6232fc61cebd348a7d1", "1.24.0--r43hdfd78af_0": "sha256:3263745ffb6d68b2b527ecd6ec3c0446464fc15dfd210838b0a6041c8c855f20"}, "docker": "quay.io/biocontainers/bioconductor-vulcandata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-vulcandata.

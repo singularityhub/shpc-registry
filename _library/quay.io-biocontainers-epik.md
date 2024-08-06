@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/epik"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epik/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epik/container.yaml"
-updated_at: "2024-08-05 04:06:57.792279"
-latest: "0.2.0--hdcf5f25_0"
+updated_at: "2024-08-06 02:48:27.950309"
+latest: "0.2.0--hdcf5f25_1"
 container_url: "https://biocontainers.pro/tools/epik"
 aliases:
  - "epik-aa"
@@ -18,8 +18,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "0.2.0--hdcf5f25_0"
+ - "0.2.0--hdcf5f25_1"
 description: "singularity registry hpc automated addition for epik"
-config: {"url": "https://biocontainers.pro/tools/epik", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for epik", "latest": {"0.2.0--hdcf5f25_0": "sha256:90c65d3506242405b62688c216aa7a33deb36d0d71786d20e33d13be82186148"}, "tags": {"0.2.0--hdcf5f25_0": "sha256:90c65d3506242405b62688c216aa7a33deb36d0d71786d20e33d13be82186148"}, "docker": "quay.io/biocontainers/epik", "aliases": {"epik-aa": "/usr/local/bin/epik-aa", "epik-dna": "/usr/local/bin/epik-dna", "epik.py": "/usr/local/bin/epik.py", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/epik", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for epik", "latest": {"0.2.0--hdcf5f25_1": "sha256:3d7fb72d89b0e6e884738ed8e2ab3814fd1a8eabdaf3dd531ea91c096d7d68ca"}, "tags": {"0.2.0--hdcf5f25_0": "sha256:90c65d3506242405b62688c216aa7a33deb36d0d71786d20e33d13be82186148", "0.2.0--hdcf5f25_1": "sha256:3d7fb72d89b0e6e884738ed8e2ab3814fd1a8eabdaf3dd531ea91c096d7d68ca"}, "docker": "quay.io/biocontainers/epik", "aliases": {"epik-aa": "/usr/local/bin/epik-aa", "epik-dna": "/usr/local/bin/epik-dna", "epik.py": "/usr/local/bin/epik.py", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/epik.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/epik
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/epik:0.2.0--hdcf5f25_0
+$ shpc install quay.io/biocontainers/epik:0.2.0--hdcf5f25_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/epik/0.2.0--hdcf5f25_0
-$ module help quay.io/biocontainers/epik/0.2.0--hdcf5f25_0
+$ module load quay.io/biocontainers/epik/0.2.0--hdcf5f25_1
+$ module help quay.io/biocontainers/epik/0.2.0--hdcf5f25_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

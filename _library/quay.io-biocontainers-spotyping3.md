@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spotyping3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spotyping3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spotyping3/container.yaml"
-updated_at: "2024-08-05 04:10:37.259519"
+updated_at: "2024-08-06 02:52:00.787874"
 latest: "3.0--py_0"
 container_url: "https://biocontainers.pro/tools/spotyping3"
 aliases:
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "3.0--py_0"
 description: "shpc-registry automated BioContainers addition for spotyping3"
-config: {"url": "https://biocontainers.pro/tools/spotyping3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spotyping3", "latest": {"3.0--py_0": "sha256:7180a61d05e07338b2e2726e460c5e419b8687b6db8c9871fd578fc02690ff3e"}, "tags": {"3.0--py_0": "sha256:7180a61d05e07338b2e2726e460c5e419b8687b6db8c9871fd578fc02690ff3e"}, "docker": "quay.io/biocontainers/spotyping3", "aliases": {"SpoTyping.py": "/usr/local/bin/SpoTyping.py", "SpoTyping_plot.r": "/usr/local/bin/SpoTyping_plot.r", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "run_with_lock": "/usr/local/bin/run_with_lock", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck"}}
+config: {"url": "https://biocontainers.pro/tools/spotyping3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spotyping3", "latest": {"3.0--py_0": "sha256:04f1be8e3f09c84c93c327cacbee9cb546ca41f107a9a6d01bf9ccc8b58bdc5b"}, "tags": {"3.0--py_0": "sha256:04f1be8e3f09c84c93c327cacbee9cb546ca41f107a9a6d01bf9ccc8b58bdc5b"}, "docker": "quay.io/biocontainers/spotyping3", "aliases": {"SpoTyping.py": "/usr/local/bin/SpoTyping.py", "SpoTyping_plot.r": "/usr/local/bin/SpoTyping_plot.r", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "run_with_lock": "/usr/local/bin/run_with_lock", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spotyping3.

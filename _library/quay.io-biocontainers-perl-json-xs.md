@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-json-xs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-json-xs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-json-xs/container.yaml"
-updated_at: "2024-08-05 04:02:25.928092"
-latest: "4.03--pl5321h4ac6f70_2"
+updated_at: "2024-08-06 02:44:06.351662"
+latest: "4.03--pl5321h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/perl-json-xs"
 aliases:
  - "json_xs"
@@ -14,8 +14,9 @@ aliases:
 versions:
  - "4.03--pl5321h9f5acd7_1"
  - "4.03--pl5321h4ac6f70_2"
+ - "4.03--pl5321h4ac6f70_3"
 description: "shpc-registry automated BioContainers addition for perl-json-xs"
-config: {"url": "https://biocontainers.pro/tools/perl-json-xs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-json-xs", "latest": {"4.03--pl5321h4ac6f70_2": "sha256:72fd88e5c509397a8576577b64be367cf75925abe290c9c5046b1a96dd737e81"}, "tags": {"4.03--pl5321h9f5acd7_1": "sha256:54a3acc7cdf5176b7234038fd8fc5d988fb2810e462672f45918a6c2e28c8f6f", "4.03--pl5321h4ac6f70_2": "sha256:72fd88e5c509397a8576577b64be367cf75925abe290c9c5046b1a96dd737e81"}, "docker": "quay.io/biocontainers/perl-json-xs", "aliases": {"json_xs": "/usr/local/bin/json_xs", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-json-xs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-json-xs", "latest": {"4.03--pl5321h4ac6f70_3": "sha256:adf68d1b5f052c71345b48a71b8b58f7a2a51b9757abced3200324129ebc1d82"}, "tags": {"4.03--pl5321h9f5acd7_1": "sha256:54a3acc7cdf5176b7234038fd8fc5d988fb2810e462672f45918a6c2e28c8f6f", "4.03--pl5321h4ac6f70_2": "sha256:72fd88e5c509397a8576577b64be367cf75925abe290c9c5046b1a96dd737e81", "4.03--pl5321h4ac6f70_3": "sha256:adf68d1b5f052c71345b48a71b8b58f7a2a51b9757abced3200324129ebc1d82"}, "docker": "quay.io/biocontainers/perl-json-xs", "aliases": {"json_xs": "/usr/local/bin/json_xs", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-json-xs.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-json-xs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-json-xs:4.03--pl5321h4ac6f70_2
+$ shpc install quay.io/biocontainers/perl-json-xs:4.03--pl5321h4ac6f70_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-json-xs/4.03--pl5321h4ac6f70_2
-$ module help quay.io/biocontainers/perl-json-xs/4.03--pl5321h4ac6f70_2
+$ module load quay.io/biocontainers/perl-json-xs/4.03--pl5321h4ac6f70_3
+$ module help quay.io/biocontainers/perl-json-xs/4.03--pl5321h4ac6f70_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/star"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/star/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/star/container.yaml"
-updated_at: "2024-08-05 04:05:09.015539"
+updated_at: "2024-08-06 02:46:44.390644"
 latest: "2.7.11b--h43eeafb_2"
 container_url: "https://biocontainers.pro/tools/star"
 aliases:

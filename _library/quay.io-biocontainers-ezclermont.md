@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ezclermont"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ezclermont/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ezclermont/container.yaml"
-updated_at: "2024-08-05 04:20:01.248492"
+updated_at: "2024-08-06 03:01:03.117280"
 latest: "0.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ezclermont"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.7.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ezclermont"
-config: {"url": "https://biocontainers.pro/tools/ezclermont", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ezclermont", "latest": {"0.7.0--pyhdfd78af_0": "sha256:2daf32aec596467716711fcae9cdc667436a066e12a92599f5c1cd9a56c3cb58"}, "tags": {"0.7.0--pyhdfd78af_0": "sha256:2daf32aec596467716711fcae9cdc667436a066e12a92599f5c1cd9a56c3cb58"}, "docker": "quay.io/biocontainers/ezclermont", "aliases": {"ezclermont": "/usr/local/bin/ezclermont", "coverage": "/usr/local/bin/coverage", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/ezclermont", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ezclermont", "latest": {"0.7.0--pyhdfd78af_0": "sha256:99fe9cf3d18af107c0d6ede2e923ad36419ea579e530451c3081921bc4c400e8"}, "tags": {"0.7.0--pyhdfd78af_0": "sha256:99fe9cf3d18af107c0d6ede2e923ad36419ea579e530451c3081921bc4c400e8"}, "docker": "quay.io/biocontainers/ezclermont", "aliases": {"ezclermont": "/usr/local/bin/ezclermont", "coverage": "/usr/local/bin/coverage", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ezclermont.

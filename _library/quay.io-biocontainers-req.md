@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/req"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/req/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/req/container.yaml"
-updated_at: "2024-08-05 04:26:41.220303"
+updated_at: "2024-08-06 03:07:24.201694"
 latest: "v1.3.190304ac--1"
 container_url: "https://biocontainers.pro/tools/req"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "v1.3.190304ac--1"
  - "1.3.190304ac--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for req"
-config: {"url": "https://biocontainers.pro/tools/req", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for req", "latest": {"v1.3.190304ac--1": "sha256:e136b9073e9c9c8e8800aab595805c92cafe726629cbbb40fa29336b25337edd"}, "tags": {"v1.3.190304ac--1": "sha256:e136b9073e9c9c8e8800aab595805c92cafe726629cbbb40fa29336b25337edd", "1.3.190304ac--hdfd78af_1": "sha256:45a53d227724af259e40f1e350e174009625955c46e03f9894379e3d0e752205"}, "docker": "quay.io/biocontainers/req", "aliases": {"REQ": "/usr/local/bin/REQ", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/req", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for req", "latest": {"v1.3.190304ac--1": "sha256:e7f479d64a5a7037ee234af6d133040354e919c696bb212d13af1c63bf75d159"}, "tags": {"v1.3.190304ac--1": "sha256:e7f479d64a5a7037ee234af6d133040354e919c696bb212d13af1c63bf75d159", "1.3.190304ac--hdfd78af_1": "sha256:45a53d227724af259e40f1e350e174009625955c46e03f9894379e3d0e752205"}, "docker": "quay.io/biocontainers/req", "aliases": {"REQ": "/usr/local/bin/REQ", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/req.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gothic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gothic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gothic/container.yaml"
-updated_at: "2024-08-05 04:42:25.984956"
+updated_at: "2024-08-06 03:22:49.129009"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gothic"
 
