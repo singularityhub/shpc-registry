@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/oligoarrayaux
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for oligoarrayaux
 latest:
-  3.8--hc9558a2_0: sha256:bfe5b8355562ebd8bfe4402720dc5d49fcbc897e84f068f638dbc5b7d083ed45
+  3.8--hc9558a2_0: sha256:a759a3cd0fa5b402031dfa55a23a17a1ec4bd8c739be1005de7a2df668ec889d
 tags:
-  3.8--hc9558a2_0: sha256:bfe5b8355562ebd8bfe4402720dc5d49fcbc897e84f068f638dbc5b7d083ed45
+  3.8--hc9558a2_0: sha256:a759a3cd0fa5b402031dfa55a23a17a1ec4bd8c739be1005de7a2df668ec889d
 docker: quay.io/biocontainers/oligoarrayaux
 aliases:
   ct-energy: /usr/local/bin/ct-energy

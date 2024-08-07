@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/karyopype
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for karyopype
 latest:
-  0.1.6--py_0: sha256:365d6adc3d2bdb264ea89f14e1e449076d898b70585c36a40349bf70333ee96c
+  0.1.6--py_0: sha256:442d0af122752cab77e2062f5c11a7ef02c3b735a2c806e0732decf428d8d03a
 tags:
-  0.1.6--py_0: sha256:365d6adc3d2bdb264ea89f14e1e449076d898b70585c36a40349bf70333ee96c
+  0.1.6--py_0: sha256:442d0af122752cab77e2062f5c11a7ef02c3b735a2c806e0732decf428d8d03a
 docker: quay.io/biocontainers/karyopype
 aliases:
   qhelpconverter: /usr/local/bin/qhelpconverter

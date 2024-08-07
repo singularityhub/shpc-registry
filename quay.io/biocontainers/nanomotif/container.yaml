@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/nanomotif
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nanomotif
 latest:
-  0.4.8--pyh7e72e81_0: sha256:129d1ef1bf3963d9716603ccdc35510fe7efdaf64db1d3acd732cb220fd569c3
+  0.4.11--pyh7e72e81_0: sha256:a5482720f0d2e1560e1f37223a7565783b354c084d672ec945312b5b94d58e0b
 tags:
   0.1.13--pyh7cba7a3_0: sha256:cb4477f5650058c118955846614f5d296a227e409741a8dfb70234bf5965f03b
   0.1.15--pyh7cba7a3_0: sha256:cec36c6bfce00d855b86bb77c51b2f09c84203fe3eb4138c62c68ba1a7fb0479
@@ -10,6 +10,7 @@ tags:
   0.1.20--pyh7cba7a3_0: sha256:9aad5cfee75e9254f4000a2e0de9c41d3bd4eb717ec0eab062580bbf52ce3262
   0.4.7--pyh7cba7a3_0: sha256:d3e53839bc4bf6a72be22acd5de22a7d5b33de210ae10d7155df7169ae7988f2
   0.4.8--pyh7e72e81_0: sha256:129d1ef1bf3963d9716603ccdc35510fe7efdaf64db1d3acd732cb220fd569c3
+  0.4.11--pyh7e72e81_0: sha256:a5482720f0d2e1560e1f37223a7565783b354c084d672ec945312b5b94d58e0b
 docker: quay.io/biocontainers/nanomotif
 aliases:
   nanomotif: /usr/local/bin/nanomotif

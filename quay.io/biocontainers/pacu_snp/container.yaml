@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pacu_snp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pacu_snp
 latest:
-  0.0.3--pyhdfd78af_0: sha256:39c285d7a997e861338006473c5b88fcfde449c3164e422b462c73be1c602b62
+  0.0.5--pyhdfd78af_0: sha256:6113feaa0b770a41d9134cb18c91e16850a905baa7453ec54e2f9243f8de823c
 tags:
   0.0.3--pyhdfd78af_0: sha256:39c285d7a997e861338006473c5b88fcfde449c3164e422b462c73be1c602b62
+  0.0.5--pyhdfd78af_0: sha256:6113feaa0b770a41d9134cb18c91e16850a905baa7453ec54e2f9243f8de823c
 docker: quay.io/biocontainers/pacu_snp
 aliases:
   PACU: /usr/local/bin/PACU

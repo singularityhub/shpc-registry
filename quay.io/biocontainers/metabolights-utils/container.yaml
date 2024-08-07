@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/metabolights-utils
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metabolights-utils
 latest:
-  1.1.2--pyhdfd78af_0: sha256:6917710a11466c8a328166e6c89406ec9b9bc80a90285a3f04f9dedbd8e41d88
+  1.1.5--pyhdfd78af_0: sha256:3849ce17c06a90bfc929a6249ea03c2e734a0bc2ac1ede5a1bcc4fe1da93d0a5
 tags:
   1.1.2--pyhdfd78af_0: sha256:6917710a11466c8a328166e6c89406ec9b9bc80a90285a3f04f9dedbd8e41d88
+  1.1.5--pyhdfd78af_0: sha256:3849ce17c06a90bfc929a6249ea03c2e734a0bc2ac1ede5a1bcc4fe1da93d0a5
 docker: quay.io/biocontainers/metabolights-utils
 aliases:
   dotenv: /usr/local/bin/dotenv

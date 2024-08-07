@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pgscatalog.match
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pgscatalog.match
 latest:
-  0.2.2--pyhdfd78af_0: sha256:edcc5e44678bbf9e27634f2462317712b24265d5ea57145c7f13522bd3d89b08
+  0.3.1--pyhdfd78af_0: sha256:5141053184bfa4506200bc9c734098720adf87bc6f8c61cf47398e338e3f5423
 tags:
   0.2.2--pyhdfd78af_0: sha256:edcc5e44678bbf9e27634f2462317712b24265d5ea57145c7f13522bd3d89b08
+  0.3.1--pyhdfd78af_0: sha256:5141053184bfa4506200bc9c734098720adf87bc6f8c61cf47398e338e3f5423
+  0.2.3--pyhdfd78af_0: sha256:556e2f425b22966c9d0edcc47c5fc39fee1bff8ae67762e91a4c105604cc3662
 docker: quay.io/biocontainers/pgscatalog.match
 aliases:
   pgscatalog-combine: /usr/local/bin/pgscatalog-combine

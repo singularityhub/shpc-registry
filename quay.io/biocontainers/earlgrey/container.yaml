@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/earlgrey
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for earlgrey
 latest:
-  4.3.0--h4ac6f70_0: sha256:7a4a06222aa45373f92eeb3d095171344ceae87155279734425719e9e646a1aa
+  4.4.0--h4ac6f70_0: sha256:bac498d4ef37d3a4d691161b43fb649600469a8b9a1c301cfa4d6db9f5ab20ed
 tags:
   3.1--h4ac6f70_0: sha256:de66ee118f24ce262d1a4d7f77e349cb94e5cc817d4a79225a6a63481fc547f2
   3.2--h4ac6f70_0: sha256:57d26ad53f2d8ca844603718078453b9e46d9fcc44e6bbae5adba33087c75642
@@ -17,6 +17,7 @@ tags:
   4.1.1--h4ac6f70_1: sha256:307a81ece60a205b44f101c698258219f74d298b38259701416a27c5f3ba2050
   4.2.4--h4ac6f70_1: sha256:795999fe749490b0f20d9c9b306e337aa4cea2bde4f0ae82f9a2f953e5589249
   4.3.0--h4ac6f70_0: sha256:7a4a06222aa45373f92eeb3d095171344ceae87155279734425719e9e646a1aa
+  4.4.0--h4ac6f70_0: sha256:bac498d4ef37d3a4d691161b43fb649600469a8b9a1c301cfa4d6db9f5ab20ed
 docker: quay.io/biocontainers/earlgrey
 aliases:
   BuildDatabase: /usr/local/bin/BuildDatabase
