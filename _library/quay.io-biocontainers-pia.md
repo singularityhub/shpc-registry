@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pia/container.yaml"
-updated_at: "2024-08-06 03:10:16.911148"
+updated_at: "2024-08-07 03:12:33.625232"
 latest: "1.5.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pia"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spotlight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spotlight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spotlight/container.yaml"
-updated_at: "2024-08-06 03:07:27.314603"
+updated_at: "2024-08-07 03:09:38.144791"
 latest: "1.6.3--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spotlight"
 aliases:

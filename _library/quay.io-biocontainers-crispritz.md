@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crispritz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crispritz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crispritz/container.yaml"
-updated_at: "2024-08-06 02:58:31.202838"
+updated_at: "2024-08-07 03:00:26.468930"
 latest: "2.6.6--py38h2123bcc_2"
 container_url: "https://biocontainers.pro/tools/crispritz"
 aliases:

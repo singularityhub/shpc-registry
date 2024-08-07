@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fella"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fella/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fella/container.yaml"
-updated_at: "2024-08-06 02:57:43.657932"
+updated_at: "2024-08-07 02:59:37.474017"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fella"
 aliases:

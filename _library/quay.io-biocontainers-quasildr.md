@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quasildr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quasildr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quasildr/container.yaml"
-updated_at: "2024-08-06 03:14:11.138296"
+updated_at: "2024-08-07 03:16:35.268980"
 latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/quasildr"
 aliases:
