@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gencove"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gencove/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gencove/container.yaml"
-updated_at: "2024-08-07 03:13:53.221965"
+updated_at: "2024-08-08 02:59:56.851819"
 latest: "2.18.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gencove"
 aliases:

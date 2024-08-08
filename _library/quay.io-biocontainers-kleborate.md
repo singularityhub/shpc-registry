@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kleborate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kleborate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kleborate/container.yaml"
-updated_at: "2024-08-07 03:18:16.904086"
+updated_at: "2024-08-08 03:04:53.412584"
 latest: "2.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kleborate"
 aliases:

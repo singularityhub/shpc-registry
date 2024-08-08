@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fba/container.yaml"
-updated_at: "2024-08-07 03:07:15.326105"
+updated_at: "2024-08-08 03:13:41.761883"
 latest: "0.0.13--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fba"
 aliases:

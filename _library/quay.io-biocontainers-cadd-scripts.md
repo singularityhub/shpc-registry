@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cadd-scripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cadd-scripts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cadd-scripts/container.yaml"
-updated_at: "2024-08-07 03:25:33.970758"
-latest: "1.7--hdfd78af_0"
+updated_at: "2024-08-08 03:14:43.529285"
+latest: "1.7.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cadd-scripts"
 aliases:
  - "cadd-install.sh"
@@ -24,8 +24,9 @@ versions:
  - "1.6--hdfd78af_1"
  - "1.7--hdfd78af_0"
  - "1.6.post1--hdfd78af_0"
+ - "1.7.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cadd-scripts"
-config: {"url": "https://biocontainers.pro/tools/cadd-scripts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cadd-scripts", "latest": {"1.7--hdfd78af_0": "sha256:3376f97e2cbab429b54d97cdea439b888439ae8f0778b20cda5c0990691fb38d"}, "tags": {"1.6--hdfd78af_1": "sha256:74bbc85ed86e868598b2438dfad64aa902f6a5a6d6af73a380698a3136169b74", "1.7--hdfd78af_0": "sha256:3376f97e2cbab429b54d97cdea439b888439ae8f0778b20cda5c0990691fb38d", "1.6.post1--hdfd78af_0": "sha256:062d37a73b36d545e467e497310f1ca7902efc2a7ab6232be5c486f61838f835"}, "docker": "quay.io/biocontainers/cadd-scripts", "aliases": {"cadd-install.sh": "/usr/local/bin/cadd-install.sh", "cadd.sh": "/usr/local/bin/cadd.sh", "stone": "/usr/local/bin/stone", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file"}}
+config: {"url": "https://biocontainers.pro/tools/cadd-scripts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cadd-scripts", "latest": {"1.7.1--hdfd78af_0": "sha256:24bda52c2e6e89ef0a4a69655d4523791ad6fbd8e55a261ab8b1cdacfcdd137c"}, "tags": {"1.6--hdfd78af_1": "sha256:74bbc85ed86e868598b2438dfad64aa902f6a5a6d6af73a380698a3136169b74", "1.7--hdfd78af_0": "sha256:3376f97e2cbab429b54d97cdea439b888439ae8f0778b20cda5c0990691fb38d", "1.6.post1--hdfd78af_0": "sha256:062d37a73b36d545e467e497310f1ca7902efc2a7ab6232be5c486f61838f835", "1.7.1--hdfd78af_0": "sha256:24bda52c2e6e89ef0a4a69655d4523791ad6fbd8e55a261ab8b1cdacfcdd137c"}, "docker": "quay.io/biocontainers/cadd-scripts", "aliases": {"cadd-install.sh": "/usr/local/bin/cadd-install.sh", "cadd.sh": "/usr/local/bin/cadd.sh", "stone": "/usr/local/bin/stone", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cadd-scripts.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/cadd-scripts
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cadd-scripts:1.7--hdfd78af_0
+$ shpc install quay.io/biocontainers/cadd-scripts:1.7.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cadd-scripts/1.7--hdfd78af_0
-$ module help quay.io/biocontainers/cadd-scripts/1.7--hdfd78af_0
+$ module load quay.io/biocontainers/cadd-scripts/1.7.1--hdfd78af_0
+$ module help quay.io/biocontainers/cadd-scripts/1.7.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

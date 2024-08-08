@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-crypt4gh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-crypt4gh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-crypt4gh/container.yaml"
-updated_at: "2024-08-07 02:47:06.569045"
+updated_at: "2024-08-08 03:14:16.185414"
 latest: "1.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/python-crypt4gh"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/liftoff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/liftoff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/liftoff/container.yaml"
-updated_at: "2024-08-07 03:25:19.930129"
-latest: "1.6.3--pyhdfd78af_0"
+updated_at: "2024-08-08 02:50:02.045689"
+latest: "1.6.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/liftoff"
 aliases:
  - "liftoff"
@@ -21,8 +21,9 @@ aliases:
  - "k8"
 versions:
  - "1.6.3--pyhdfd78af_0"
+ - "1.6.3--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for liftoff"
-config: {"url": "https://biocontainers.pro/tools/liftoff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for liftoff", "latest": {"1.6.3--pyhdfd78af_0": "sha256:63d9a69375519259f155e2f0b0a61b4c95287684f324c7193e2cead7e4ef5894"}, "tags": {"1.6.3--pyhdfd78af_0": "sha256:63d9a69375519259f155e2f0b0a61b4c95287684f324c7193e2cead7e4ef5894"}, "docker": "quay.io/biocontainers/liftoff", "aliases": {"liftoff": "/usr/local/bin/liftoff", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "faidx": "/usr/local/bin/faidx", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8"}}
+config: {"url": "https://biocontainers.pro/tools/liftoff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for liftoff", "latest": {"1.6.3--pyhdfd78af_1": "sha256:1bad2f95d31fcdac2d62e8537408964ab970fc36079383e9c3228114e810766b"}, "tags": {"1.6.3--pyhdfd78af_0": "sha256:63d9a69375519259f155e2f0b0a61b4c95287684f324c7193e2cead7e4ef5894", "1.6.3--pyhdfd78af_1": "sha256:1bad2f95d31fcdac2d62e8537408964ab970fc36079383e9c3228114e810766b"}, "docker": "quay.io/biocontainers/liftoff", "aliases": {"liftoff": "/usr/local/bin/liftoff", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "faidx": "/usr/local/bin/faidx", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/liftoff.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/liftoff
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/liftoff:1.6.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/liftoff:1.6.3--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/liftoff/1.6.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/liftoff/1.6.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/liftoff/1.6.3--pyhdfd78af_1
+$ module help quay.io/biocontainers/liftoff/1.6.3--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

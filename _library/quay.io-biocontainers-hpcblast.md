@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hpcblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hpcblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hpcblast/container.yaml"
-updated_at: "2024-08-07 03:08:41.059147"
+updated_at: "2024-08-08 02:51:32.451935"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hpcblast"
 aliases:

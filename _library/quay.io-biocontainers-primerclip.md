@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/primerclip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primerclip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/primerclip/container.yaml"
-updated_at: "2024-08-07 03:04:59.871889"
+updated_at: "2024-08-08 03:05:21.686088"
 latest: "0.3.8--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/primerclip"
 aliases:

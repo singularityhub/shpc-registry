@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-kaos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-kaos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-kaos/container.yaml"
-updated_at: "2024-08-07 02:47:43.562967"
+updated_at: "2024-08-08 02:39:27.979533"
 latest: "0.1.0--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-kaos"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "0.1.0--r351h6115d3f_0"
 description: "shpc-registry automated BioContainers addition for r-kaos"
-config: {"url": "https://biocontainers.pro/tools/r-kaos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-kaos", "latest": {"0.1.0--r351h6115d3f_0": "sha256:e79e20f5c446fa657e9c18981e2d360edd7ff98d709fc8e172d1ba89c978b4b8"}, "tags": {"0.1.0--r351h6115d3f_0": "sha256:e79e20f5c446fa657e9c18981e2d360edd7ff98d709fc8e172d1ba89c978b4b8"}, "docker": "quay.io/biocontainers/r-kaos", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-kaos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-kaos", "latest": {"0.1.0--r351h6115d3f_0": "sha256:da45207945040e2a11b91097b090cc886ef079418985c7879eb2075612b3328f"}, "tags": {"0.1.0--r351h6115d3f_0": "sha256:da45207945040e2a11b91097b090cc886ef079418985c7879eb2075612b3328f"}, "docker": "quay.io/biocontainers/r-kaos", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-kaos.

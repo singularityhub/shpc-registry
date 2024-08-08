@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metabolights-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabolights-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metabolights-utils/container.yaml"
-updated_at: "2024-08-07 03:02:09.321537"
-latest: "1.1.2--pyhdfd78af_0"
+updated_at: "2024-08-08 03:07:35.973926"
+latest: "1.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metabolights-utils"
 aliases:
  - "dotenv"
@@ -22,8 +22,9 @@ aliases:
  - "jsonschema"
 versions:
  - "1.1.2--pyhdfd78af_0"
+ - "1.1.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for metabolights-utils"
-config: {"url": "https://biocontainers.pro/tools/metabolights-utils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metabolights-utils", "latest": {"1.1.2--pyhdfd78af_0": "sha256:6917710a11466c8a328166e6c89406ec9b9bc80a90285a3f04f9dedbd8e41d88"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:6917710a11466c8a328166e6c89406ec9b9bc80a90285a3f04f9dedbd8e41d88"}, "docker": "quay.io/biocontainers/metabolights-utils", "aliases": {"dotenv": "/usr/local/bin/dotenv", "jsonpath.py": "/usr/local/bin/jsonpath.py", "jsonpath_ng": "/usr/local/bin/jsonpath_ng", "mtbls": "/usr/local/bin/mtbls", "unidecode": "/usr/local/bin/unidecode", "httpx": "/usr/local/bin/httpx", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "jsonschema": "/usr/local/bin/jsonschema"}}
+config: {"url": "https://biocontainers.pro/tools/metabolights-utils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metabolights-utils", "latest": {"1.1.5--pyhdfd78af_0": "sha256:3849ce17c06a90bfc929a6249ea03c2e734a0bc2ac1ede5a1bcc4fe1da93d0a5"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:6917710a11466c8a328166e6c89406ec9b9bc80a90285a3f04f9dedbd8e41d88", "1.1.5--pyhdfd78af_0": "sha256:3849ce17c06a90bfc929a6249ea03c2e734a0bc2ac1ede5a1bcc4fe1da93d0a5"}, "docker": "quay.io/biocontainers/metabolights-utils", "aliases": {"dotenv": "/usr/local/bin/dotenv", "jsonpath.py": "/usr/local/bin/jsonpath.py", "jsonpath_ng": "/usr/local/bin/jsonpath_ng", "mtbls": "/usr/local/bin/mtbls", "unidecode": "/usr/local/bin/unidecode", "httpx": "/usr/local/bin/httpx", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "jsonschema": "/usr/local/bin/jsonschema"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metabolights-utils.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/metabolights-utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metabolights-utils:1.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/metabolights-utils:1.1.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metabolights-utils/1.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/metabolights-utils/1.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/metabolights-utils/1.1.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/metabolights-utils/1.1.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

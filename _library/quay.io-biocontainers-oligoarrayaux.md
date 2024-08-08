@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oligoarrayaux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oligoarrayaux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oligoarrayaux/container.yaml"
-updated_at: "2024-08-07 03:08:25.904943"
+updated_at: "2024-08-08 03:09:12.717960"
 latest: "3.8--hc9558a2_0"
 container_url: "https://biocontainers.pro/tools/oligoarrayaux"
 aliases:
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "3.8--hc9558a2_0"
 description: "shpc-registry automated BioContainers addition for oligoarrayaux"
-config: {"url": "https://biocontainers.pro/tools/oligoarrayaux", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oligoarrayaux", "latest": {"3.8--hc9558a2_0": "sha256:bfe5b8355562ebd8bfe4402720dc5d49fcbc897e84f068f638dbc5b7d083ed45"}, "tags": {"3.8--hc9558a2_0": "sha256:bfe5b8355562ebd8bfe4402720dc5d49fcbc897e84f068f638dbc5b7d083ed45"}, "docker": "quay.io/biocontainers/oligoarrayaux", "aliases": {"ct-energy": "/usr/local/bin/ct-energy", "ct2rnaml": "/usr/local/bin/ct2rnaml", "h-num.pl": "/usr/local/bin/h-num.pl", "hybrid-min": "/usr/local/bin/hybrid-min", "hybrid-ss-min": "/usr/local/bin/hybrid-ss-min", "melt.pl": "/usr/local/bin/melt.pl", "ss-count.pl": "/usr/local/bin/ss-count.pl"}}
+config: {"url": "https://biocontainers.pro/tools/oligoarrayaux", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oligoarrayaux", "latest": {"3.8--hc9558a2_0": "sha256:a759a3cd0fa5b402031dfa55a23a17a1ec4bd8c739be1005de7a2df668ec889d"}, "tags": {"3.8--hc9558a2_0": "sha256:a759a3cd0fa5b402031dfa55a23a17a1ec4bd8c739be1005de7a2df668ec889d"}, "docker": "quay.io/biocontainers/oligoarrayaux", "aliases": {"ct-energy": "/usr/local/bin/ct-energy", "ct2rnaml": "/usr/local/bin/ct2rnaml", "h-num.pl": "/usr/local/bin/h-num.pl", "hybrid-min": "/usr/local/bin/hybrid-min", "hybrid-ss-min": "/usr/local/bin/hybrid-ss-min", "melt.pl": "/usr/local/bin/melt.pl", "ss-count.pl": "/usr/local/bin/ss-count.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oligoarrayaux.

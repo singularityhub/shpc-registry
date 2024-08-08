@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cytofpower"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytofpower/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytofpower/container.yaml"
-updated_at: "2024-08-07 03:06:41.475571"
+updated_at: "2024-08-08 02:39:03.770792"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytofpower"
 
@@ -14,7 +14,7 @@ versions:
  - "1.6.0--r43hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cytofpower"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cytofpower", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytofpower", "latest": {"1.8.0--r43hdfd78af_0": "sha256:45e3c08b56808c2dc78d29c2a81353a6464730bec6b03fb5c59005051b87f8e5"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:dbb489e7547da2881bbf25a9f46360610c89e231a68f6003134037d3fbdaebb4", "1.4.0--r42hdfd78af_0": "sha256:64267da491fb27a87e37452a0d12ddd4da01ad1ab49567ca158810963c1bb567", "1.6.0--r43hdfd78af_0": "sha256:2c754e34377208b87212c72d410ab661f07a730a7a1f7c7b0dc535677fc8ae6c", "1.8.0--r43hdfd78af_0": "sha256:45e3c08b56808c2dc78d29c2a81353a6464730bec6b03fb5c59005051b87f8e5"}, "docker": "quay.io/biocontainers/bioconductor-cytofpower"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cytofpower", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytofpower", "latest": {"1.8.0--r43hdfd78af_0": "sha256:45e3c08b56808c2dc78d29c2a81353a6464730bec6b03fb5c59005051b87f8e5"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:dbb489e7547da2881bbf25a9f46360610c89e231a68f6003134037d3fbdaebb4", "1.4.0--r42hdfd78af_0": "sha256:c77a5389dd41f43cc546e129f4943729d93509632afc4e246fbeb49440a955a7", "1.6.0--r43hdfd78af_0": "sha256:2c754e34377208b87212c72d410ab661f07a730a7a1f7c7b0dc535677fc8ae6c", "1.8.0--r43hdfd78af_0": "sha256:45e3c08b56808c2dc78d29c2a81353a6464730bec6b03fb5c59005051b87f8e5"}, "docker": "quay.io/biocontainers/bioconductor-cytofpower"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cytofpower.

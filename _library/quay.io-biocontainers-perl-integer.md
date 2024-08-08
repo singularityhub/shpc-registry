@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-integer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-integer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-integer/container.yaml"
-updated_at: "2024-08-07 03:17:26.393613"
+updated_at: "2024-08-08 03:16:52.592725"
 latest: "1.01--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-integer"
 aliases:

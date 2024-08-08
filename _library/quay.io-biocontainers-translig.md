@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/translig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/translig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/translig/container.yaml"
-updated_at: "2024-08-07 03:04:19.143602"
+updated_at: "2024-08-08 03:11:51.797901"
 latest: "1.3--h56fc30b_0"
 container_url: "https://biocontainers.pro/tools/translig"
 aliases:
@@ -16,7 +16,7 @@ aliases:
 versions:
  - "1.3--h56fc30b_0"
 description: "shpc-registry automated BioContainers addition for translig"
-config: {"url": "https://biocontainers.pro/tools/translig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for translig", "latest": {"1.3--h56fc30b_0": "sha256:f00c897547658cf2cbbc820d4aaf6a9d8636d90ffbc73fec0fac1e44783c4553"}, "tags": {"1.3--h56fc30b_0": "sha256:f00c897547658cf2cbbc820d4aaf6a9d8636d90ffbc73fec0fac1e44783c4553"}, "docker": "quay.io/biocontainers/translig", "aliases": {"Assemble": "/usr/local/bin/Assemble", "Get_output": "/usr/local/bin/Get_output", "TransLiG_iteration": "/usr/local/bin/TransLiG_iteration", "connect_graph": "/usr/local/bin/connect_graph", "refine": "/usr/local/bin/refine"}}
+config: {"url": "https://biocontainers.pro/tools/translig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for translig", "latest": {"1.3--h56fc30b_0": "sha256:f1f62b34a7a51df41e96948fe8114937da331e18405c5b1b99b23452221232a2"}, "tags": {"1.3--h56fc30b_0": "sha256:f1f62b34a7a51df41e96948fe8114937da331e18405c5b1b99b23452221232a2"}, "docker": "quay.io/biocontainers/translig", "aliases": {"Assemble": "/usr/local/bin/Assemble", "Get_output": "/usr/local/bin/Get_output", "TransLiG_iteration": "/usr/local/bin/TransLiG_iteration", "connect_graph": "/usr/local/bin/connect_graph", "refine": "/usr/local/bin/refine"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/translig.

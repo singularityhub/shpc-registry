@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clusterfunk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clusterfunk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clusterfunk/container.yaml"
-updated_at: "2024-08-07 02:55:10.596933"
+updated_at: "2024-08-08 03:23:22.723238"
 latest: "0.0.2--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/clusterfunk"
 aliases:

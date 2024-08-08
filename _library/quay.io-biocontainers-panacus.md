@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panacus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panacus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panacus/container.yaml"
-updated_at: "2024-08-07 02:45:21.562217"
+updated_at: "2024-08-08 02:44:03.263655"
 latest: "0.2.3--h031d066_0"
 container_url: "https://biocontainers.pro/tools/panacus"
 aliases:

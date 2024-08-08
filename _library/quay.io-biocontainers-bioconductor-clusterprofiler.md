@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clusterprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clusterprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clusterprofiler/container.yaml"
-updated_at: "2024-08-07 03:20:47.594149"
+updated_at: "2024-08-08 02:48:55.990863"
 latest: "4.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clusterprofiler"
 

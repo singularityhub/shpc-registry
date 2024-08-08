@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/karyopype"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/karyopype/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/karyopype/container.yaml"
-updated_at: "2024-08-07 02:46:18.144045"
+updated_at: "2024-08-08 03:25:37.695195"
 latest: "0.1.6--py_0"
 container_url: "https://biocontainers.pro/tools/karyopype"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.1.6--py_0"
 description: "shpc-registry automated BioContainers addition for karyopype"
-config: {"url": "https://biocontainers.pro/tools/karyopype", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for karyopype", "latest": {"0.1.6--py_0": "sha256:365d6adc3d2bdb264ea89f14e1e449076d898b70585c36a40349bf70333ee96c"}, "tags": {"0.1.6--py_0": "sha256:365d6adc3d2bdb264ea89f14e1e449076d898b70585c36a40349bf70333ee96c"}, "docker": "quay.io/biocontainers/karyopype", "aliases": {"qhelpconverter": "/usr/local/bin/qhelpconverter", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen", "qscxmlc": "/usr/local/bin/qscxmlc", "qtattributionsscanner": "/usr/local/bin/qtattributionsscanner", "repc": "/usr/local/bin/repc", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5"}}
+config: {"url": "https://biocontainers.pro/tools/karyopype", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for karyopype", "latest": {"0.1.6--py_0": "sha256:442d0af122752cab77e2062f5c11a7ef02c3b735a2c806e0732decf428d8d03a"}, "tags": {"0.1.6--py_0": "sha256:442d0af122752cab77e2062f5c11a7ef02c3b735a2c806e0732decf428d8d03a"}, "docker": "quay.io/biocontainers/karyopype", "aliases": {"qhelpconverter": "/usr/local/bin/qhelpconverter", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen", "qscxmlc": "/usr/local/bin/qscxmlc", "qtattributionsscanner": "/usr/local/bin/qtattributionsscanner", "repc": "/usr/local/bin/repc", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/karyopype.

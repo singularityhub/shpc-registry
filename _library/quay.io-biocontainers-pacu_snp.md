@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pacu_snp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pacu_snp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pacu_snp/container.yaml"
-updated_at: "2024-08-07 03:01:19.423541"
-latest: "0.0.3--pyhdfd78af_0"
+updated_at: "2024-08-08 03:26:08.038749"
+latest: "0.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pacu_snp"
 aliases:
  - "PACU"
@@ -62,8 +62,9 @@ aliases:
  - "trimmomatic"
 versions:
  - "0.0.3--pyhdfd78af_0"
+ - "0.0.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pacu_snp"
-config: {"url": "https://biocontainers.pro/tools/pacu_snp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pacu_snp", "latest": {"0.0.3--pyhdfd78af_0": "sha256:39c285d7a997e861338006473c5b88fcfde449c3164e422b462c73be1c602b62"}, "tags": {"0.0.3--pyhdfd78af_0": "sha256:39c285d7a997e861338006473c5b88fcfde449c3164e422b462c73be1c602b62"}, "docker": "quay.io/biocontainers/pacu_snp", "aliases": {"PACU": "/usr/local/bin/PACU", "PACU_map": "/usr/local/bin/PACU_map", "count_recombinations_per_gene.py": "/usr/local/bin/count_recombinations_per_gene.py", "extract_gubbins_clade.py": "/usr/local/bin/extract_gubbins_clade.py", "figtree": "/usr/local/bin/figtree", "generate_files_for_clade_analysis.py": "/usr/local/bin/generate_files_for_clade_analysis.py", "generate_ska_alignment.py": "/usr/local/bin/generate_ska_alignment.py", "gubbins": "/usr/local/bin/gubbins", "gubbins_alignment_checker.py": "/usr/local/bin/gubbins_alignment_checker.py", "mask_gubbins_aln.py": "/usr/local/bin/mask_gubbins_aln.py", "plot_gubbins.R": "/usr/local/bin/plot_gubbins.R", "rapidnj": "/usr/local/bin/rapidnj", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "run_gubbins.py": "/usr/local/bin/run_gubbins.py", "ska": "/usr/local/bin/ska", "snp-dists": "/usr/local/bin/snp-dists", "sumlabels": "/usr/local/bin/sumlabels", "sumtrees": "/usr/local/bin/sumtrees", "eido": "/usr/local/bin/eido", "get_gprof": "/usr/local/bin/get_gprof", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "pandoc-lua": "/usr/local/bin/pandoc-lua", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "iqtree2": "/usr/local/bin/iqtree2", "iqtree": "/usr/local/bin/iqtree", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "seqkit": "/usr/local/bin/seqkit", "annot-tsv": "/usr/local/bin/annot-tsv", "jwebserver": "/usr/local/bin/jwebserver", "pandoc-server": "/usr/local/bin/pandoc-server", "trimmomatic": "/usr/local/bin/trimmomatic"}}
+config: {"url": "https://biocontainers.pro/tools/pacu_snp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pacu_snp", "latest": {"0.0.5--pyhdfd78af_0": "sha256:6113feaa0b770a41d9134cb18c91e16850a905baa7453ec54e2f9243f8de823c"}, "tags": {"0.0.3--pyhdfd78af_0": "sha256:39c285d7a997e861338006473c5b88fcfde449c3164e422b462c73be1c602b62", "0.0.5--pyhdfd78af_0": "sha256:6113feaa0b770a41d9134cb18c91e16850a905baa7453ec54e2f9243f8de823c"}, "docker": "quay.io/biocontainers/pacu_snp", "aliases": {"PACU": "/usr/local/bin/PACU", "PACU_map": "/usr/local/bin/PACU_map", "count_recombinations_per_gene.py": "/usr/local/bin/count_recombinations_per_gene.py", "extract_gubbins_clade.py": "/usr/local/bin/extract_gubbins_clade.py", "figtree": "/usr/local/bin/figtree", "generate_files_for_clade_analysis.py": "/usr/local/bin/generate_files_for_clade_analysis.py", "generate_ska_alignment.py": "/usr/local/bin/generate_ska_alignment.py", "gubbins": "/usr/local/bin/gubbins", "gubbins_alignment_checker.py": "/usr/local/bin/gubbins_alignment_checker.py", "mask_gubbins_aln.py": "/usr/local/bin/mask_gubbins_aln.py", "plot_gubbins.R": "/usr/local/bin/plot_gubbins.R", "rapidnj": "/usr/local/bin/rapidnj", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "run_gubbins.py": "/usr/local/bin/run_gubbins.py", "ska": "/usr/local/bin/ska", "snp-dists": "/usr/local/bin/snp-dists", "sumlabels": "/usr/local/bin/sumlabels", "sumtrees": "/usr/local/bin/sumtrees", "eido": "/usr/local/bin/eido", "get_gprof": "/usr/local/bin/get_gprof", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "pandoc-lua": "/usr/local/bin/pandoc-lua", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "iqtree2": "/usr/local/bin/iqtree2", "iqtree": "/usr/local/bin/iqtree", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "seqkit": "/usr/local/bin/seqkit", "annot-tsv": "/usr/local/bin/annot-tsv", "jwebserver": "/usr/local/bin/jwebserver", "pandoc-server": "/usr/local/bin/pandoc-server", "trimmomatic": "/usr/local/bin/trimmomatic"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pacu_snp.
@@ -78,7 +79,7 @@ $ shpc install quay.io/biocontainers/pacu_snp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pacu_snp:0.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pacu_snp:0.0.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -90,8 +91,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pacu_snp/0.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/pacu_snp/0.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/pacu_snp/0.0.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/pacu_snp/0.0.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

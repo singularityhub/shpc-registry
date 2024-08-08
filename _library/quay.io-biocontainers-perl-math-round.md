@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-math-round"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-round/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-round/container.yaml"
-updated_at: "2024-08-07 02:50:47.329024"
+updated_at: "2024-08-08 02:42:30.968284"
 latest: "0.07--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-math-round"
 aliases:

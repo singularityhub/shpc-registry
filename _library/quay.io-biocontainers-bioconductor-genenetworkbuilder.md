@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genenetworkbuilder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genenetworkbuilder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genenetworkbuilder/container.yaml"
-updated_at: "2024-08-07 03:20:12.293037"
+updated_at: "2024-08-08 02:52:53.082395"
 latest: "1.44.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-genenetworkbuilder"
 
