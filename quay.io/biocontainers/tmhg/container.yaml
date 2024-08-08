@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/tmhg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tmhg
 latest:
-  1.0.2--pyhdfd78af_0: sha256:12241a8de264e8f682dce045c86c293f96f9da45c4c4c409aa075c4a6cf45750
+  1.0.3--pyhdfd78af_0: sha256:0e1b3a13e869be6e4e860045c54c769edcc9cf5ee680f33cebe1c79bed7917bc
 tags:
   1.0.1--py312hdfd78af_0: sha256:c234dbe0bb719863c2335b1af382476526c20a2aabfb7a8d23e05b1ca68f862e
   1.0.2--pyhdfd78af_0: sha256:12241a8de264e8f682dce045c86c293f96f9da45c4c4c409aa075c4a6cf45750
+  1.0.3--pyhdfd78af_0: sha256:0e1b3a13e869be6e4e860045c54c769edcc9cf5ee680f33cebe1c79bed7917bc
 docker: quay.io/biocontainers/tmhg
 aliases:
   archive-ncbinlp: /usr/local/bin/archive-ncbinlp

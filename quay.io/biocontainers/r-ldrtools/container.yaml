@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/r-ldrtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ldrtools
 latest:
-  0.2_1--r351h6115d3f_0: sha256:82fc67d0267b7f23f65422fb8d375cb7817fbfade7633330ea5744e795af7672
+  0.2_1--r351h6115d3f_0: sha256:efd608c2830940ef6b9e39063afb08facfea4f315955f6521f4e917cbd741ef6
 tags:
-  0.2_1--r351h6115d3f_0: sha256:82fc67d0267b7f23f65422fb8d375cb7817fbfade7633330ea5744e795af7672
+  0.2_1--r351h6115d3f_0: sha256:efd608c2830940ef6b9e39063afb08facfea4f315955f6521f4e917cbd741ef6
 docker: quay.io/biocontainers/r-ldrtools
 aliases:
   c89: /usr/local/bin/c89

@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/perl-const-fast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-const-fast
 latest:
-  0.014--pl5321hdfd78af_1: sha256:66e65ed705d32a4b97ccbfafa9082fe8c8168d15eff1750db78990952ef4f692
+  0.014--pl5321hdfd78af_1: sha256:1fbb77f54ef1d892f596f4a3a5a4627694a1fa79009044249cfcd38b3f8c71c8
 tags:
-  0.014--pl5321hdfd78af_1: sha256:66e65ed705d32a4b97ccbfafa9082fe8c8168d15eff1750db78990952ef4f692
+  0.014--pl5321hdfd78af_1: sha256:1fbb77f54ef1d892f596f4a3a5a4627694a1fa79009044249cfcd38b3f8c71c8
 docker: quay.io/biocontainers/perl-const-fast
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

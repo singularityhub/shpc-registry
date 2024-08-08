@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/pyasr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyasr
 latest:
-  0.6.1--py_0: sha256:2feb7cf6cea3df644af72a9a46c1b68e4847aab070262f25bef25700956c6199
+  0.6.1--py_0: sha256:c78d56e8e2c008c5e1c4705c97bf1334bd815f7db76685416fcb4667900ca291
 tags:
-  0.6.1--py_0: sha256:2feb7cf6cea3df644af72a9a46c1b68e4847aab070262f25bef25700956c6199
+  0.6.1--py_0: sha256:c78d56e8e2c008c5e1c4705c97bf1334bd815f7db76685416fcb4667900ca291
 docker: quay.io/biocontainers/pyasr
 aliases:
   sumlabels.py: /usr/local/bin/sumlabels.py

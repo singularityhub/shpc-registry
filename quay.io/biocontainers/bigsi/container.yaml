@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/bigsi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bigsi
 latest:
-  0.3.1--py_0: sha256:cb03250b3b94c8ad996c8250692df03a4ae9b60fdcfb8770df8833f1172012f5
+  0.3.1--py_0: sha256:555fa35cb6f8417e41463d86b6804abf18d4a64ab1a5400a4cc41b5a8831f017
 tags:
-  0.3.1--py_0: sha256:cb03250b3b94c8ad996c8250692df03a4ae9b60fdcfb8770df8833f1172012f5
+  0.3.1--py_0: sha256:555fa35cb6f8417e41463d86b6804abf18d4a64ab1a5400a4cc41b5a8831f017
 docker: quay.io/biocontainers/bigsi
 aliases:
   bigsi: /usr/local/bin/bigsi

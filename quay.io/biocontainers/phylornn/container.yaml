@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/phylornn
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phylornn
 latest:
-  1.0--pyhdfd78af_0: sha256:187c3d6389604d64dfd223d4cb68c024757528ab2a81861398c2693ed198fb21
+  1.1--pyhdfd78af_0: sha256:2fc22afe9a521c907225f18171a3d89af2f2fc1ce2d980663e25315ee4887267
 tags:
   1.0--pyhdfd78af_0: sha256:187c3d6389604d64dfd223d4cb68c024757528ab2a81861398c2693ed198fb21
+  1.1--pyhdfd78af_0: sha256:2fc22afe9a521c907225f18171a3d89af2f2fc1ce2d980663e25315ee4887267
 docker: quay.io/biocontainers/phylornn
 aliases:
   phyml: /usr/local/bin/phyml
