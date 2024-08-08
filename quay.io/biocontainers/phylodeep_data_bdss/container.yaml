@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/phylodeep_data_bdss
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phylodeep_data_bdss
+latest:
+  0.4--pyhdfd78af_0: sha256:dbb6c7e00b64c24f595704c0d70ebdd9cf872f8a0b1ee6c9aca1ad0459d24c0a
+tags:
+  0.4--pyhdfd78af_0: sha256:dbb6c7e00b64c24f595704c0d70ebdd9cf872f8a0b1ee6c9aca1ad0459d24c0a
+docker: quay.io/biocontainers/phylodeep_data_bdss
+aliases:
+  bdss_ci_paths: /usr/local/bin/bdss_ci_paths
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
