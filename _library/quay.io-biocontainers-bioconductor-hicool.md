@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hicool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicool/container.yaml"
-updated_at: "2024-08-08 02:42:08.469519"
+updated_at: "2024-08-08 03:42:48.975539"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicool"
 aliases:
