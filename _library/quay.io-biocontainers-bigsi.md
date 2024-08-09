@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bigsi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bigsi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bigsi/container.yaml"
-updated_at: "2024-08-08 03:40:35.228665"
+updated_at: "2024-08-09 02:41:05.939483"
 latest: "0.3.1--py_0"
 container_url: "https://biocontainers.pro/tools/bigsi"
 aliases:
@@ -25,7 +25,7 @@ aliases:
 versions:
  - "0.3.1--py_0"
 description: "shpc-registry automated BioContainers addition for bigsi"
-config: {"url": "https://biocontainers.pro/tools/bigsi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bigsi", "latest": {"0.3.1--py_0": "sha256:cb03250b3b94c8ad996c8250692df03a4ae9b60fdcfb8770df8833f1172012f5"}, "tags": {"0.3.1--py_0": "sha256:cb03250b3b94c8ad996c8250692df03a4ae9b60fdcfb8770df8833f1172012f5"}, "docker": "quay.io/biocontainers/bigsi", "aliases": {"bigsi": "/usr/local/bin/bigsi", "falcon-bench": "/usr/local/bin/falcon-bench", "falcon-print-routes": "/usr/local/bin/falcon-print-routes", "hug": "/usr/local/bin/hug", "humanfriendly": "/usr/local/bin/humanfriendly", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "db_archive": "/usr/local/bin/db_archive", "db_checkpoint": "/usr/local/bin/db_checkpoint", "db_deadlock": "/usr/local/bin/db_deadlock", "db_dump": "/usr/local/bin/db_dump", "db_hotbackup": "/usr/local/bin/db_hotbackup", "db_load": "/usr/local/bin/db_load"}}
+config: {"url": "https://biocontainers.pro/tools/bigsi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bigsi", "latest": {"0.3.1--py_0": "sha256:555fa35cb6f8417e41463d86b6804abf18d4a64ab1a5400a4cc41b5a8831f017"}, "tags": {"0.3.1--py_0": "sha256:555fa35cb6f8417e41463d86b6804abf18d4a64ab1a5400a4cc41b5a8831f017"}, "docker": "quay.io/biocontainers/bigsi", "aliases": {"bigsi": "/usr/local/bin/bigsi", "falcon-bench": "/usr/local/bin/falcon-bench", "falcon-print-routes": "/usr/local/bin/falcon-print-routes", "hug": "/usr/local/bin/hug", "humanfriendly": "/usr/local/bin/humanfriendly", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "db_archive": "/usr/local/bin/db_archive", "db_checkpoint": "/usr/local/bin/db_checkpoint", "db_deadlock": "/usr/local/bin/db_deadlock", "db_dump": "/usr/local/bin/db_dump", "db_hotbackup": "/usr/local/bin/db_hotbackup", "db_load": "/usr/local/bin/db_load"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bigsi.

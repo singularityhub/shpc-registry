@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lyner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lyner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lyner/container.yaml"
-updated_at: "2024-08-08 03:55:32.208120"
+updated_at: "2024-08-09 02:56:59.435495"
 latest: "0.4.3--py_0"
 container_url: "https://biocontainers.pro/tools/lyner"
 aliases:
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.4.3--py_0"
 description: "shpc-registry automated BioContainers addition for lyner"
-config: {"url": "https://biocontainers.pro/tools/lyner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lyner", "latest": {"0.4.3--py_0": "sha256:ceb75388a8f472a5afe7bcdf48fa8928d9809326d4c2f66ade820f3547fded32"}, "tags": {"0.4.3--py_0": "sha256:ceb75388a8f472a5afe7bcdf48fa8928d9809326d4c2f66ade820f3547fded32"}, "docker": "quay.io/biocontainers/lyner", "aliases": {"lyner": "/usr/local/bin/lyner", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "mako-render": "/usr/local/bin/mako-render", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py"}}
+config: {"url": "https://biocontainers.pro/tools/lyner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lyner", "latest": {"0.4.3--py_0": "sha256:2f59146baae8e21a62d438c02cc78188212d45663fb874779f3d9bcbe2e00ac5"}, "tags": {"0.4.3--py_0": "sha256:2f59146baae8e21a62d438c02cc78188212d45663fb874779f3d9bcbe2e00ac5"}, "docker": "quay.io/biocontainers/lyner", "aliases": {"lyner": "/usr/local/bin/lyner", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "mako-render": "/usr/local/bin/mako-render", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lyner.

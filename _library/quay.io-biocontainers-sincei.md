@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sincei"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sincei/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sincei/container.yaml"
-updated_at: "2024-08-08 03:45:44.007339"
-latest: "0.4--pyhdfd78af_0"
+updated_at: "2024-08-09 02:46:36.568355"
+latest: "0.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sincei"
 aliases:
  - "bigwigAverage"
@@ -58,8 +58,9 @@ aliases:
 versions:
  - "0.3.1--pyhdfd78af_0"
  - "0.4--pyhdfd78af_0"
+ - "0.4--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for sincei"
-config: {"url": "https://biocontainers.pro/tools/sincei", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sincei", "latest": {"0.4--pyhdfd78af_0": "sha256:d142d212df4c1d24606021fd088ad2481c06840709b38147079da4aaf487dbf9"}, "tags": {"0.3.1--pyhdfd78af_0": "sha256:2cd635a92b2878ffa5b2d706a9005120729a298f16dec623d912332ca2c6f688", "0.4--pyhdfd78af_0": "sha256:d142d212df4c1d24606021fd088ad2481c06840709b38147079da4aaf487dbf9"}, "docker": "quay.io/biocontainers/sincei", "aliases": {"bigwigAverage": "/usr/local/bin/bigwigAverage", "loompy": "/usr/local/bin/loompy", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "scBulkCoverage": "/usr/local/bin/scBulkCoverage", "scClusterCells": "/usr/local/bin/scClusterCells", "scCombineCounts": "/usr/local/bin/scCombineCounts", "scCountQC": "/usr/local/bin/scCountQC", "scCountReads": "/usr/local/bin/scCountReads", "scFilterBarcodes": "/usr/local/bin/scFilterBarcodes", "scFilterStats": "/usr/local/bin/scFilterStats", "scJSD": "/usr/local/bin/scJSD", "sincei": "/usr/local/bin/sincei", "validate-docstrings": "/usr/local/bin/validate-docstrings", "alignmentSieve": "/usr/local/bin/alignmentSieve", "bamCompare": "/usr/local/bin/bamCompare", "bamCoverage": "/usr/local/bin/bamCoverage", "bamPEFragmentSize": "/usr/local/bin/bamPEFragmentSize", "bigwigCompare": "/usr/local/bin/bigwigCompare", "computeGCBias": "/usr/local/bin/computeGCBias", "computeMatrix": "/usr/local/bin/computeMatrix", "computeMatrixOperations": "/usr/local/bin/computeMatrixOperations", "correctGCBias": "/usr/local/bin/correctGCBias", "deeptools": "/usr/local/bin/deeptools", "estimateReadFiltering": "/usr/local/bin/estimateReadFiltering", "estimateScaleFactor": "/usr/local/bin/estimateScaleFactor", "multiBamSummary": "/usr/local/bin/multiBamSummary", "multiBigwigSummary": "/usr/local/bin/multiBigwigSummary", "plotCorrelation": "/usr/local/bin/plotCorrelation", "plotCoverage": "/usr/local/bin/plotCoverage", "plotEnrichment": "/usr/local/bin/plotEnrichment", "plotFingerprint": "/usr/local/bin/plotFingerprint", "plotHeatmap": "/usr/local/bin/plotHeatmap", "plotPCA": "/usr/local/bin/plotPCA", "plotProfile": "/usr/local/bin/plotProfile", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "igraph": "/usr/local/bin/igraph", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen"}}
+config: {"url": "https://biocontainers.pro/tools/sincei", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sincei", "latest": {"0.4--pyhdfd78af_1": "sha256:acafa2ed0c2515d3201451015c501cb35ef8dcc800f6059b324ed4b0e7dd549d"}, "tags": {"0.3.1--pyhdfd78af_0": "sha256:2cd635a92b2878ffa5b2d706a9005120729a298f16dec623d912332ca2c6f688", "0.4--pyhdfd78af_0": "sha256:d142d212df4c1d24606021fd088ad2481c06840709b38147079da4aaf487dbf9", "0.4--pyhdfd78af_1": "sha256:acafa2ed0c2515d3201451015c501cb35ef8dcc800f6059b324ed4b0e7dd549d"}, "docker": "quay.io/biocontainers/sincei", "aliases": {"bigwigAverage": "/usr/local/bin/bigwigAverage", "loompy": "/usr/local/bin/loompy", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "scBulkCoverage": "/usr/local/bin/scBulkCoverage", "scClusterCells": "/usr/local/bin/scClusterCells", "scCombineCounts": "/usr/local/bin/scCombineCounts", "scCountQC": "/usr/local/bin/scCountQC", "scCountReads": "/usr/local/bin/scCountReads", "scFilterBarcodes": "/usr/local/bin/scFilterBarcodes", "scFilterStats": "/usr/local/bin/scFilterStats", "scJSD": "/usr/local/bin/scJSD", "sincei": "/usr/local/bin/sincei", "validate-docstrings": "/usr/local/bin/validate-docstrings", "alignmentSieve": "/usr/local/bin/alignmentSieve", "bamCompare": "/usr/local/bin/bamCompare", "bamCoverage": "/usr/local/bin/bamCoverage", "bamPEFragmentSize": "/usr/local/bin/bamPEFragmentSize", "bigwigCompare": "/usr/local/bin/bigwigCompare", "computeGCBias": "/usr/local/bin/computeGCBias", "computeMatrix": "/usr/local/bin/computeMatrix", "computeMatrixOperations": "/usr/local/bin/computeMatrixOperations", "correctGCBias": "/usr/local/bin/correctGCBias", "deeptools": "/usr/local/bin/deeptools", "estimateReadFiltering": "/usr/local/bin/estimateReadFiltering", "estimateScaleFactor": "/usr/local/bin/estimateScaleFactor", "multiBamSummary": "/usr/local/bin/multiBamSummary", "multiBigwigSummary": "/usr/local/bin/multiBigwigSummary", "plotCorrelation": "/usr/local/bin/plotCorrelation", "plotCoverage": "/usr/local/bin/plotCoverage", "plotEnrichment": "/usr/local/bin/plotEnrichment", "plotFingerprint": "/usr/local/bin/plotFingerprint", "plotHeatmap": "/usr/local/bin/plotHeatmap", "plotPCA": "/usr/local/bin/plotPCA", "plotProfile": "/usr/local/bin/plotProfile", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "igraph": "/usr/local/bin/igraph", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sincei.
@@ -74,7 +75,7 @@ $ shpc install quay.io/biocontainers/sincei
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sincei:0.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sincei:0.4--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -86,8 +87,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sincei/0.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/sincei/0.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/sincei/0.4--pyhdfd78af_1
+$ module help quay.io/biocontainers/sincei/0.4--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

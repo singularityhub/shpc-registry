@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmmratac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmmratac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmmratac/container.yaml"
-updated_at: "2024-08-08 04:22:53.986872"
+updated_at: "2024-08-09 03:25:24.074360"
 latest: "1.2.10--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hmmratac"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "1.2.9--0"
  - "1.2.10--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for hmmratac"
-config: {"url": "https://biocontainers.pro/tools/hmmratac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmmratac", "latest": {"1.2.10--hdfd78af_1": "sha256:4ffa2b9c47150af4878557ce012da6a5b3fddb3d6c0b1e70021d1afda548c425"}, "tags": {"1.2.9--0": "sha256:be28c28d52f565b5fbc683a21324aea81c8d342b9eb6993aeb672ac1a0f8ff13", "1.2.10--hdfd78af_1": "sha256:4ffa2b9c47150af4878557ce012da6a5b3fddb3d6c0b1e70021d1afda548c425"}, "docker": "quay.io/biocontainers/hmmratac", "aliases": {"HMMRATAC": "/usr/local/bin/HMMRATAC", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/hmmratac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmmratac", "latest": {"1.2.10--hdfd78af_1": "sha256:4ffa2b9c47150af4878557ce012da6a5b3fddb3d6c0b1e70021d1afda548c425"}, "tags": {"1.2.9--0": "sha256:7c72d394e6306a6ad0aeec0eba8b67d962bc1d3eb18738544cd34fb0161fe210", "1.2.10--hdfd78af_1": "sha256:4ffa2b9c47150af4878557ce012da6a5b3fddb3d6c0b1e70021d1afda548c425"}, "docker": "quay.io/biocontainers/hmmratac", "aliases": {"HMMRATAC": "/usr/local/bin/HMMRATAC", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmmratac.

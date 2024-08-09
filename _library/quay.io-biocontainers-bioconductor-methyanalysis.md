@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methyanalysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methyanalysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methyanalysis/container.yaml"
-updated_at: "2024-08-08 03:40:24.504170"
+updated_at: "2024-08-09 02:40:54.573652"
 latest: "1.32.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-methyanalysis"
 aliases:

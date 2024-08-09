@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phylornn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylornn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylornn/container.yaml"
-updated_at: "2024-08-08 03:43:05.874038"
-latest: "1.0--pyhdfd78af_0"
+updated_at: "2024-08-09 02:43:46.914306"
+latest: "1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phylornn"
 aliases:
  - "phyml"
@@ -39,8 +39,9 @@ aliases:
  - "tflite_convert"
 versions:
  - "1.0--pyhdfd78af_0"
+ - "1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for phylornn"
-config: {"url": "https://biocontainers.pro/tools/phylornn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phylornn", "latest": {"1.0--pyhdfd78af_0": "sha256:187c3d6389604d64dfd223d4cb68c024757528ab2a81861398c2693ed198fb21"}, "tags": {"1.0--pyhdfd78af_0": "sha256:187c3d6389604d64dfd223d4cb68c024757528ab2a81861398c2693ed198fb21"}, "docker": "quay.io/biocontainers/phylornn", "aliases": {"phyml": "/usr/local/bin/phyml", "phyml-mpi": "/usr/local/bin/phyml-mpi", "phytime": "/usr/local/bin/phytime", "seq-gen": "/usr/local/bin/seq-gen", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "h5delete": "/usr/local/bin/h5delete", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "shmemrun": "/usr/local/bin/shmemrun", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "dendropy-format": "/usr/local/bin/dendropy-format", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "sumlabels.py": "/usr/local/bin/sumlabels.py", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "aec": "/usr/local/bin/aec", "sumtrees.py": "/usr/local/bin/sumtrees.py", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "tflite_convert": "/usr/local/bin/tflite_convert"}}
+config: {"url": "https://biocontainers.pro/tools/phylornn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phylornn", "latest": {"1.1--pyhdfd78af_0": "sha256:2fc22afe9a521c907225f18171a3d89af2f2fc1ce2d980663e25315ee4887267"}, "tags": {"1.0--pyhdfd78af_0": "sha256:187c3d6389604d64dfd223d4cb68c024757528ab2a81861398c2693ed198fb21", "1.1--pyhdfd78af_0": "sha256:2fc22afe9a521c907225f18171a3d89af2f2fc1ce2d980663e25315ee4887267"}, "docker": "quay.io/biocontainers/phylornn", "aliases": {"phyml": "/usr/local/bin/phyml", "phyml-mpi": "/usr/local/bin/phyml-mpi", "phytime": "/usr/local/bin/phytime", "seq-gen": "/usr/local/bin/seq-gen", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "h5delete": "/usr/local/bin/h5delete", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "shmemrun": "/usr/local/bin/shmemrun", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "dendropy-format": "/usr/local/bin/dendropy-format", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "sumlabels.py": "/usr/local/bin/sumlabels.py", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "aec": "/usr/local/bin/aec", "sumtrees.py": "/usr/local/bin/sumtrees.py", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "tflite_convert": "/usr/local/bin/tflite_convert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylornn.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/phylornn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phylornn:1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/phylornn:1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phylornn/1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/phylornn/1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/phylornn/1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/phylornn/1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

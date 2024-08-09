@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ldrtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ldrtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ldrtools/container.yaml"
-updated_at: "2024-08-08 04:06:27.473939"
+updated_at: "2024-08-09 03:08:40.209636"
 latest: "0.2_1--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-ldrtools"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.2_1--r351h6115d3f_0"
 description: "shpc-registry automated BioContainers addition for r-ldrtools"
-config: {"url": "https://biocontainers.pro/tools/r-ldrtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ldrtools", "latest": {"0.2_1--r351h6115d3f_0": "sha256:82fc67d0267b7f23f65422fb8d375cb7817fbfade7633330ea5744e795af7672"}, "tags": {"0.2_1--r351h6115d3f_0": "sha256:82fc67d0267b7f23f65422fb8d375cb7817fbfade7633330ea5744e795af7672"}, "docker": "quay.io/biocontainers/r-ldrtools", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-ldrtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ldrtools", "latest": {"0.2_1--r351h6115d3f_0": "sha256:efd608c2830940ef6b9e39063afb08facfea4f315955f6521f4e917cbd741ef6"}, "tags": {"0.2_1--r351h6115d3f_0": "sha256:efd608c2830940ef6b9e39063afb08facfea4f315955f6521f4e917cbd741ef6"}, "docker": "quay.io/biocontainers/r-ldrtools", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ldrtools.

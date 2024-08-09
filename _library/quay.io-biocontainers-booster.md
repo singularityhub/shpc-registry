@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/booster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/booster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/booster/container.yaml"
-updated_at: "2024-08-08 04:10:21.566726"
+updated_at: "2024-08-09 03:12:40.593214"
 latest: "0.1.2--h031d066_6"
 container_url: "https://biocontainers.pro/tools/booster"
 aliases:

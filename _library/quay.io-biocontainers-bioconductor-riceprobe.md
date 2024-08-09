@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-riceprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-riceprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-riceprobe/container.yaml"
-updated_at: "2024-08-08 03:49:37.310198"
+updated_at: "2024-08-09 02:50:44.959089"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-riceprobe"
 

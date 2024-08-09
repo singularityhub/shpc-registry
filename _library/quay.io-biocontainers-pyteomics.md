@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyteomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyteomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyteomics/container.yaml"
-updated_at: "2024-08-08 03:52:05.684143"
-latest: "4.7.2--pyh7cba7a3_0"
+updated_at: "2024-08-09 02:53:21.276087"
+latest: "4.7.3--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pyteomics"
 aliases:
  - "xml2-config.bak"
@@ -27,8 +27,9 @@ versions:
  - "4.7--pyh7cba7a3_0"
  - "4.7.1--pyh7cba7a3_0"
  - "4.7.2--pyh7cba7a3_0"
+ - "4.7.3--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for pyteomics"
-config: {"url": "https://biocontainers.pro/tools/pyteomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyteomics", "latest": {"4.7.2--pyh7cba7a3_0": "sha256:d465a278f53f50892dae840c4fc7c240c3e4292535c91ef80a95f1437ea01891"}, "tags": {"4.5.5--pyh5e36f6f_0": "sha256:7e334105042562cf02d3ad1e30672a02a5f7accc49f2b98f1e122e1783a3cda3", "4.5.6--pyh7cba7a3_0": "sha256:8e5c83270b4338dde5349056bf8d9615180242c4cb051c542f644e9e2d955e9d", "4.6--pyh7cba7a3_0": "sha256:79487d4d4ad49023d686977b7de76a05f8149e21ccd4efcfc2f72c6fe0fe14c8", "4.6.2--pyh7cba7a3_0": "sha256:5b15fe9f2cce3634ee2f9f37db062df23cb6dadb479d24af9d6e2463f00f5923", "4.6.3--pyh7cba7a3_0": "sha256:ce47c470b882a3c3b4019d40cecba5355dd85d3db7c0898d52cab48253b025da", "4.7--pyh7cba7a3_0": "sha256:7e65a6cd7229a19b31b2079c430b1ba10a2e606cb37e5de505796c8ea18706f5", "4.7.1--pyh7cba7a3_0": "sha256:cac2199c47c04966558cee789100069567b07be002ea09d37cd0254475fadc90", "4.7.2--pyh7cba7a3_0": "sha256:d465a278f53f50892dae840c4fc7c240c3e4292535c91ef80a95f1437ea01891"}, "docker": "quay.io/biocontainers/pyteomics", "aliases": {"xml2-config.bak": "/usr/local/bin/xml2-config.bak", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress"}}
+config: {"url": "https://biocontainers.pro/tools/pyteomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyteomics", "latest": {"4.7.3--pyh7e72e81_0": "sha256:612881b6723dc1acd713422d63e270da7d6925f79b6440d319d8ee995e43b2b0"}, "tags": {"4.5.5--pyh5e36f6f_0": "sha256:7e334105042562cf02d3ad1e30672a02a5f7accc49f2b98f1e122e1783a3cda3", "4.5.6--pyh7cba7a3_0": "sha256:8e5c83270b4338dde5349056bf8d9615180242c4cb051c542f644e9e2d955e9d", "4.6--pyh7cba7a3_0": "sha256:79487d4d4ad49023d686977b7de76a05f8149e21ccd4efcfc2f72c6fe0fe14c8", "4.6.2--pyh7cba7a3_0": "sha256:5b15fe9f2cce3634ee2f9f37db062df23cb6dadb479d24af9d6e2463f00f5923", "4.6.3--pyh7cba7a3_0": "sha256:ce47c470b882a3c3b4019d40cecba5355dd85d3db7c0898d52cab48253b025da", "4.7--pyh7cba7a3_0": "sha256:7e65a6cd7229a19b31b2079c430b1ba10a2e606cb37e5de505796c8ea18706f5", "4.7.1--pyh7cba7a3_0": "sha256:cac2199c47c04966558cee789100069567b07be002ea09d37cd0254475fadc90", "4.7.2--pyh7cba7a3_0": "sha256:d465a278f53f50892dae840c4fc7c240c3e4292535c91ef80a95f1437ea01891", "4.7.3--pyh7e72e81_0": "sha256:612881b6723dc1acd713422d63e270da7d6925f79b6440d319d8ee995e43b2b0"}, "docker": "quay.io/biocontainers/pyteomics", "aliases": {"xml2-config.bak": "/usr/local/bin/xml2-config.bak", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyteomics.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/pyteomics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyteomics:4.7.2--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/pyteomics:4.7.3--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyteomics/4.7.2--pyh7cba7a3_0
-$ module help quay.io/biocontainers/pyteomics/4.7.2--pyh7cba7a3_0
+$ module load quay.io/biocontainers/pyteomics/4.7.3--pyh7e72e81_0
+$ module help quay.io/biocontainers/pyteomics/4.7.3--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

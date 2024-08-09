@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-const-fast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-const-fast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-const-fast/container.yaml"
-updated_at: "2024-08-08 03:53:04.692181"
+updated_at: "2024-08-09 02:54:23.245622"
 latest: "0.014--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-const-fast"
 aliases:
@@ -13,7 +13,7 @@ aliases:
 versions:
  - "0.014--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-const-fast"
-config: {"url": "https://biocontainers.pro/tools/perl-const-fast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-const-fast", "latest": {"0.014--pl5321hdfd78af_1": "sha256:66e65ed705d32a4b97ccbfafa9082fe8c8168d15eff1750db78990952ef4f692"}, "tags": {"0.014--pl5321hdfd78af_1": "sha256:66e65ed705d32a4b97ccbfafa9082fe8c8168d15eff1750db78990952ef4f692"}, "docker": "quay.io/biocontainers/perl-const-fast", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-const-fast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-const-fast", "latest": {"0.014--pl5321hdfd78af_1": "sha256:1fbb77f54ef1d892f596f4a3a5a4627694a1fa79009044249cfcd38b3f8c71c8"}, "tags": {"0.014--pl5321hdfd78af_1": "sha256:1fbb77f54ef1d892f596f4a3a5a4627694a1fa79009044249cfcd38b3f8c71c8"}, "docker": "quay.io/biocontainers/perl-const-fast", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-const-fast.

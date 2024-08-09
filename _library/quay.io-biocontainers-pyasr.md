@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyasr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyasr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyasr/container.yaml"
-updated_at: "2024-08-08 04:07:43.387433"
+updated_at: "2024-08-09 03:10:00.447907"
 latest: "0.6.1--py_0"
 container_url: "https://biocontainers.pro/tools/pyasr"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.6.1--py_0"
 description: "shpc-registry automated BioContainers addition for pyasr"
-config: {"url": "https://biocontainers.pro/tools/pyasr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyasr", "latest": {"0.6.1--py_0": "sha256:2feb7cf6cea3df644af72a9a46c1b68e4847aab070262f25bef25700956c6199"}, "tags": {"0.6.1--py_0": "sha256:2feb7cf6cea3df644af72a9a46c1b68e4847aab070262f25bef25700956c6199"}, "docker": "quay.io/biocontainers/pyasr", "aliases": {"sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/pyasr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyasr", "latest": {"0.6.1--py_0": "sha256:c78d56e8e2c008c5e1c4705c97bf1334bd815f7db76685416fcb4667900ca291"}, "tags": {"0.6.1--py_0": "sha256:c78d56e8e2c008c5e1c4705c97bf1334bd815f7db76685416fcb4667900ca291"}, "docker": "quay.io/biocontainers/pyasr", "aliases": {"sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyasr.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-netresponse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netresponse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netresponse/container.yaml"
-updated_at: "2024-08-08 04:00:19.917485"
+updated_at: "2024-08-09 03:02:06.765605"
 latest: "1.62.0--r43ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-netresponse"
 aliases:

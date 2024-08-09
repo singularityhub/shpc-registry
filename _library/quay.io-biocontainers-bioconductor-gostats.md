@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gostats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gostats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gostats/container.yaml"
-updated_at: "2024-08-08 04:04:59.458748"
+updated_at: "2024-08-09 03:07:05.494368"
 latest: "2.68.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gostats"
 
