@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/uvp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for uvp
 latest:
-  2.7.0--py_0: sha256:90c38a58b23f84fff1d5433f3de2a87a9f2246a40b3a3c5af6ee3bee0257174f
+  2.7.0--py_0: sha256:af30aa5e33b121efabff2f4e6514e667e6bd7e90749d97ce79a7989cddd20e1a
 tags:
-  2.7.0--py_0: sha256:90c38a58b23f84fff1d5433f3de2a87a9f2246a40b3a3c5af6ee3bee0257174f
+  2.7.0--py_0: sha256:af30aa5e33b121efabff2f4e6514e667e6bd7e90749d97ce79a7989cddd20e1a
 docker: quay.io/biocontainers/uvp
 aliases:
   GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK

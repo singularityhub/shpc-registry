@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/hmftools-orange
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-orange
 latest:
-  3.6.0--hdfd78af_0: sha256:8db1a8210a6083841ad4828ba6698ead24fa04c9f96dbfe51275e0da1072e4e1
+  3.7.0--hdfd78af_0: sha256:e853456e9fe33c2bbbd107f0ef97aed74278276ffd1b615bec520791d7659957
 tags:
   1.10.2--hdfd78af_0: sha256:b33037bae054a6eddce894ffa17bb14fc8a97b9db6732cfa827c419660e9e388
   2.7.1--hdfd78af_0: sha256:94432963bf62385ceffc3c51fe7dcb4cf467a8b27b8e25c41d475f4ee08251db
@@ -13,6 +13,7 @@ tags:
   3.5.0--hdfd78af_0: sha256:9968ecf32deb85a09cb5c0e17daacfeaddd016abf67370b460e7c6f3065c6cf1
   3.6.0--hdfd78af_0: sha256:8db1a8210a6083841ad4828ba6698ead24fa04c9f96dbfe51275e0da1072e4e1
   3.5.1--hdfd78af_0: sha256:5f4185a78e93da06a8090f2739cdae9b890f96fc1719f13add79ed3dc4e4cfc3
+  3.7.0--hdfd78af_0: sha256:e853456e9fe33c2bbbd107f0ef97aed74278276ffd1b615bec520791d7659957
 docker: quay.io/biocontainers/hmftools-orange
 aliases:
   orange: /usr/local/bin/orange

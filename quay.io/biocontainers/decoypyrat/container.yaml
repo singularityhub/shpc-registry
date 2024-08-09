@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/decoypyrat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for decoypyrat
 latest:
-  1.0.1--py_0: sha256:7d65f42ac27888e7bffb5715897952bf6da8a4789f24dfdafc3d33cfba1cf10b
+  1.0.1--py_0: sha256:87dfab1a6dbb84c09f788500d538fdfba39da8ea44365dffd73fd158ffa717c0
 tags:
-  1.0.1--py_0: sha256:7d65f42ac27888e7bffb5715897952bf6da8a4789f24dfdafc3d33cfba1cf10b
+  1.0.1--py_0: sha256:87dfab1a6dbb84c09f788500d538fdfba39da8ea44365dffd73fd158ffa717c0
 docker: quay.io/biocontainers/decoypyrat
 aliases:
   decoypyrat: /usr/local/bin/decoypyrat
