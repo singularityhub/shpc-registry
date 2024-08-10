@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnapi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnapi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnapi/container.yaml"
-updated_at: "2024-08-09 02:50:33.684048"
+updated_at: "2024-08-10 02:48:49.858428"
 latest: "1.1--pyh864c0ab_4"
 container_url: "https://biocontainers.pro/tools/dnapi"
 aliases:

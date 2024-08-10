@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyvolve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyvolve/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyvolve/container.yaml"
-updated_at: "2024-08-09 03:22:33.081716"
+updated_at: "2024-08-10 03:21:01.720498"
 latest: "0.9.0--py_0"
 container_url: "https://biocontainers.pro/tools/pyvolve"
 aliases:

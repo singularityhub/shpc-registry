@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/selam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/selam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/selam/container.yaml"
-updated_at: "2024-08-09 03:09:45.597272"
+updated_at: "2024-08-10 03:07:41.954171"
 latest: "0.9--h0432e7c_3"
 container_url: "https://biocontainers.pro/tools/selam"
 aliases:

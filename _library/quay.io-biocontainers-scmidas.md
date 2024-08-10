@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scmidas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scmidas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scmidas/container.yaml"
-updated_at: "2024-08-09 03:21:41.174283"
-latest: "0.0.17--pyhdfd78af_0"
+updated_at: "2024-08-10 03:20:06.048658"
+latest: "0.0.18--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scmidas"
 aliases:
  - "jlpm"
@@ -51,8 +51,9 @@ aliases:
  - "igraph"
 versions:
  - "0.0.17--pyhdfd78af_0"
+ - "0.0.18--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for scmidas"
-config: {"url": "https://biocontainers.pro/tools/scmidas", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scmidas", "latest": {"0.0.17--pyhdfd78af_0": "sha256:c9754604125e8b7ba22a0f2070712a6f71c72e7363f6c9b4399160886228cdae"}, "tags": {"0.0.17--pyhdfd78af_0": "sha256:c9754604125e8b7ba22a0f2070712a6f71c72e7363f6c9b4399160886228cdae"}, "docker": "quay.io/biocontainers/scmidas", "aliases": {"jlpm": "/usr/local/bin/jlpm", "jupyter-events": "/usr/local/bin/jupyter-events", "jupyter-lab": "/usr/local/bin/jupyter-lab", "jupyter-labextension": "/usr/local/bin/jupyter-labextension", "jupyter-labhub": "/usr/local/bin/jupyter-labhub", "jupyter-server": "/usr/local/bin/jupyter-server", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pyjson5": "/usr/local/bin/pyjson5", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qtpy": "/usr/local/bin/qtpy", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "jsonpointer": "/usr/local/bin/jsonpointer", "dunamai": "/usr/local/bin/dunamai", "jupyter-console": "/usr/local/bin/jupyter-console", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "scalar": "/usr/local/bin/scalar", "wsdump": "/usr/local/bin/wsdump", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "numpy-config": "/usr/local/bin/numpy-config", "httpx": "/usr/local/bin/httpx", "jupyter-execute": "/usr/local/bin/jupyter-execute", "send2trash": "/usr/local/bin/send2trash", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "pandoc-server": "/usr/local/bin/pandoc-server", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "igraph": "/usr/local/bin/igraph"}}
+config: {"url": "https://biocontainers.pro/tools/scmidas", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scmidas", "latest": {"0.0.18--pyhdfd78af_0": "sha256:52804ff3053d7b0591f61b3668b1590d36c2f605fe0dceb0510f7ec60acd7af6"}, "tags": {"0.0.17--pyhdfd78af_0": "sha256:c9754604125e8b7ba22a0f2070712a6f71c72e7363f6c9b4399160886228cdae", "0.0.18--pyhdfd78af_0": "sha256:52804ff3053d7b0591f61b3668b1590d36c2f605fe0dceb0510f7ec60acd7af6"}, "docker": "quay.io/biocontainers/scmidas", "aliases": {"jlpm": "/usr/local/bin/jlpm", "jupyter-events": "/usr/local/bin/jupyter-events", "jupyter-lab": "/usr/local/bin/jupyter-lab", "jupyter-labextension": "/usr/local/bin/jupyter-labextension", "jupyter-labhub": "/usr/local/bin/jupyter-labhub", "jupyter-server": "/usr/local/bin/jupyter-server", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pyjson5": "/usr/local/bin/pyjson5", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qtpy": "/usr/local/bin/qtpy", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "jsonpointer": "/usr/local/bin/jsonpointer", "dunamai": "/usr/local/bin/dunamai", "jupyter-console": "/usr/local/bin/jupyter-console", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "scalar": "/usr/local/bin/scalar", "wsdump": "/usr/local/bin/wsdump", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "numpy-config": "/usr/local/bin/numpy-config", "httpx": "/usr/local/bin/httpx", "jupyter-execute": "/usr/local/bin/jupyter-execute", "send2trash": "/usr/local/bin/send2trash", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "pandoc-server": "/usr/local/bin/pandoc-server", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "igraph": "/usr/local/bin/igraph"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scmidas.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/scmidas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scmidas:0.0.17--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scmidas:0.0.18--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scmidas/0.0.17--pyhdfd78af_0
-$ module help quay.io/biocontainers/scmidas/0.0.17--pyhdfd78af_0
+$ module load quay.io/biocontainers/scmidas/0.0.18--pyhdfd78af_0
+$ module help quay.io/biocontainers/scmidas/0.0.18--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

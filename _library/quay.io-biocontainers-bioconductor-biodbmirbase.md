@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biodbmirbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biodbmirbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biodbmirbase/container.yaml"
-updated_at: "2024-08-09 03:05:34.398108"
+updated_at: "2024-08-10 03:03:33.305987"
 latest: "1.5.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biodbmirbase"
 
@@ -13,7 +13,7 @@ versions:
  - "1.4.0--r43hdfd78af_0"
  - "1.5.0--r43hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-biodbmirbase"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biodbmirbase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-biodbmirbase", "latest": {"1.5.0--r43hdfd78af_0": "sha256:6e0913af0d61c0d0a851bc5b1a68b2f37306be889e798692171f65b0972a954c"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:20c41cabec89d218bdde6c100f6621a7b8482e6f25c49b874a8e7b74983a7121", "1.4.0--r43hdfd78af_0": "sha256:8110749069f2f82f5e146f28ddf81e1254825fd65c0b367ff2b9e4fdc02e69fe", "1.5.0--r43hdfd78af_0": "sha256:6e0913af0d61c0d0a851bc5b1a68b2f37306be889e798692171f65b0972a954c"}, "docker": "quay.io/biocontainers/bioconductor-biodbmirbase"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biodbmirbase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-biodbmirbase", "latest": {"1.5.0--r43hdfd78af_0": "sha256:1c483720ed07c5085ee5a1f1a1b1c17877e9c0cfbfeecb9ee27d22ba515111b9"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:20c41cabec89d218bdde6c100f6621a7b8482e6f25c49b874a8e7b74983a7121", "1.4.0--r43hdfd78af_0": "sha256:8110749069f2f82f5e146f28ddf81e1254825fd65c0b367ff2b9e4fdc02e69fe", "1.5.0--r43hdfd78af_0": "sha256:1c483720ed07c5085ee5a1f1a1b1c17877e9c0cfbfeecb9ee27d22ba515111b9"}, "docker": "quay.io/biocontainers/bioconductor-biodbmirbase"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biodbmirbase.

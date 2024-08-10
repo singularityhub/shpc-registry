@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aquamis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aquamis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aquamis/container.yaml"
-updated_at: "2024-08-09 03:15:07.266959"
+updated_at: "2024-08-10 03:13:14.595838"
 latest: "1.4.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aquamis"
 aliases:

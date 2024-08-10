@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-somascan.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-somascan.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-somascan.db/container.yaml"
-updated_at: "2024-08-09 03:05:08.462782"
+updated_at: "2024-08-10 03:03:07.439484"
 latest: "0.99.7--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-somascan.db"
 aliases:

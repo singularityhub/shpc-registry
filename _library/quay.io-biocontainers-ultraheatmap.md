@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ultraheatmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ultraheatmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ultraheatmap/container.yaml"
-updated_at: "2024-08-09 02:57:43.439786"
+updated_at: "2024-08-10 02:55:52.543238"
 latest: "1.3.1--py_1"
 container_url: "https://biocontainers.pro/tools/ultraheatmap"
 aliases:

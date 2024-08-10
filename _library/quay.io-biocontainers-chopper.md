@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chopper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chopper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chopper/container.yaml"
-updated_at: "2024-08-09 03:08:42.037076"
+updated_at: "2024-08-10 03:06:38.501217"
 latest: "0.8.0--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/chopper"
 aliases:

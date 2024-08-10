@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mycotools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mycotools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mycotools/container.yaml"
-updated_at: "2024-08-09 03:12:58.691367"
-latest: "0.31.36--pyhdfd78af_0"
+updated_at: "2024-08-10 03:11:02.534216"
+latest: "0.31.46--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mycotools"
 aliases:
  - "acc2fa"
@@ -75,8 +75,9 @@ aliases:
 versions:
  - "0.31.35--pyhdfd78af_0"
  - "0.31.36--pyhdfd78af_0"
+ - "0.31.46--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mycotools"
-config: {"url": "https://biocontainers.pro/tools/mycotools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mycotools", "latest": {"0.31.36--pyhdfd78af_0": "sha256:a3d947b282d34c4f9acae04142968706ac7604124b5a049ece32df8bdbdfa342"}, "tags": {"0.31.35--pyhdfd78af_0": "sha256:a90a2adf7b563a03a2b2fdfe3d872209d8d458185ff182073c2dec0edbe0adc4", "0.31.36--pyhdfd78af_0": "sha256:a3d947b282d34c4f9acae04142968706ac7604124b5a049ece32df8bdbdfa342"}, "docker": "quay.io/biocontainers/mycotools", "aliases": {"acc2fa": "/usr/local/bin/acc2fa", "acc2gbk": "/usr/local/bin/acc2gbk", "acc2gff": "/usr/local/bin/acc2gff", "acc2locus": "/usr/local/bin/acc2locus", "add2gff": "/usr/local/bin/add2gff", "annotationStats": "/usr/local/bin/annotationStats", "assemblyStats": "/usr/local/bin/assemblyStats", "bioreform": "/usr/local/bin/bioreform", "bsmp2info": "/usr/local/bin/bsmp2info", "coords2fa": "/usr/local/bin/coords2fa", "crap": "/usr/local/bin/crap", "db2files": "/usr/local/bin/db2files", "db2hgs": "/usr/local/bin/db2hgs", "db2microsyntree": "/usr/local/bin/db2microsyntree", "db2search": "/usr/local/bin/db2search", "extract_mtdb": "/usr/local/bin/extract_mtdb", "fa2clus": "/usr/local/bin/fa2clus", "fa2hmmer2fa": "/usr/local/bin/fa2hmmer2fa", "fa2mass": "/usr/local/bin/fa2mass", "fa2tree": "/usr/local/bin/fa2tree", "fna2faa": "/usr/local/bin/fna2faa", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "gff2seq": "/usr/local/bin/gff2seq", "gff2svg": "/usr/local/bin/gff2svg", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "jgiDwnld": "/usr/local/bin/jgiDwnld", "just-top-hits": "/usr/local/bin/just-top-hits", "manage_mtdb": "/usr/local/bin/manage_mtdb", "mtdb": "/usr/local/bin/mtdb", "ncbiAcc2fa": "/usr/local/bin/ncbiAcc2fa", "ncbiDwnld": "/usr/local/bin/ncbiDwnld", "ome2name": "/usr/local/bin/ome2name", "predb2mtdb": "/usr/local/bin/predb2mtdb", "s2subs": "/usr/local/bin/s2subs", "systematic-mutations": "/usr/local/bin/systematic-mutations", "update_mtdb": "/usr/local/bin/update_mtdb", "iqtree2": "/usr/local/bin/iqtree2", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "gawkbug": "/usr/local/bin/gawkbug", "aria2c": "/usr/local/bin/aria2c", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa", "gbf2ref": "/usr/local/bin/gbf2ref"}}
+config: {"url": "https://biocontainers.pro/tools/mycotools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mycotools", "latest": {"0.31.46--pyhdfd78af_0": "sha256:6c9296bd2870e043de1c3eaf209b3f3f76cc6d81b450587d0bb7e2c8c6363a36"}, "tags": {"0.31.35--pyhdfd78af_0": "sha256:a90a2adf7b563a03a2b2fdfe3d872209d8d458185ff182073c2dec0edbe0adc4", "0.31.36--pyhdfd78af_0": "sha256:a3d947b282d34c4f9acae04142968706ac7604124b5a049ece32df8bdbdfa342", "0.31.46--pyhdfd78af_0": "sha256:6c9296bd2870e043de1c3eaf209b3f3f76cc6d81b450587d0bb7e2c8c6363a36"}, "docker": "quay.io/biocontainers/mycotools", "aliases": {"acc2fa": "/usr/local/bin/acc2fa", "acc2gbk": "/usr/local/bin/acc2gbk", "acc2gff": "/usr/local/bin/acc2gff", "acc2locus": "/usr/local/bin/acc2locus", "add2gff": "/usr/local/bin/add2gff", "annotationStats": "/usr/local/bin/annotationStats", "assemblyStats": "/usr/local/bin/assemblyStats", "bioreform": "/usr/local/bin/bioreform", "bsmp2info": "/usr/local/bin/bsmp2info", "coords2fa": "/usr/local/bin/coords2fa", "crap": "/usr/local/bin/crap", "db2files": "/usr/local/bin/db2files", "db2hgs": "/usr/local/bin/db2hgs", "db2microsyntree": "/usr/local/bin/db2microsyntree", "db2search": "/usr/local/bin/db2search", "extract_mtdb": "/usr/local/bin/extract_mtdb", "fa2clus": "/usr/local/bin/fa2clus", "fa2hmmer2fa": "/usr/local/bin/fa2hmmer2fa", "fa2mass": "/usr/local/bin/fa2mass", "fa2tree": "/usr/local/bin/fa2tree", "fna2faa": "/usr/local/bin/fna2faa", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "gff2seq": "/usr/local/bin/gff2seq", "gff2svg": "/usr/local/bin/gff2svg", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "jgiDwnld": "/usr/local/bin/jgiDwnld", "just-top-hits": "/usr/local/bin/just-top-hits", "manage_mtdb": "/usr/local/bin/manage_mtdb", "mtdb": "/usr/local/bin/mtdb", "ncbiAcc2fa": "/usr/local/bin/ncbiAcc2fa", "ncbiDwnld": "/usr/local/bin/ncbiDwnld", "ome2name": "/usr/local/bin/ome2name", "predb2mtdb": "/usr/local/bin/predb2mtdb", "s2subs": "/usr/local/bin/s2subs", "systematic-mutations": "/usr/local/bin/systematic-mutations", "update_mtdb": "/usr/local/bin/update_mtdb", "iqtree2": "/usr/local/bin/iqtree2", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "gawkbug": "/usr/local/bin/gawkbug", "aria2c": "/usr/local/bin/aria2c", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa", "gbf2ref": "/usr/local/bin/gbf2ref"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mycotools.
@@ -91,7 +92,7 @@ $ shpc install quay.io/biocontainers/mycotools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mycotools:0.31.36--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mycotools:0.31.46--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -103,8 +104,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mycotools/0.31.36--pyhdfd78af_0
-$ module help quay.io/biocontainers/mycotools/0.31.36--pyhdfd78af_0
+$ module load quay.io/biocontainers/mycotools/0.31.46--pyhdfd78af_0
+$ module help quay.io/biocontainers/mycotools/0.31.46--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

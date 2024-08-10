@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cmv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cmv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cmv/container.yaml"
-updated_at: "2024-08-09 02:50:34.580193"
+updated_at: "2024-08-10 02:48:50.754994"
 latest: "1.0.8--1"
 container_url: "https://biocontainers.pro/tools/cmv"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phyphy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyphy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyphy/container.yaml"
-updated_at: "2024-08-09 03:14:55.318413"
+updated_at: "2024-08-10 03:13:02.536814"
 latest: "0.4.3--py_0"
 container_url: "https://biocontainers.pro/tools/phyphy"
 aliases:
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.4.3--py_0"
 description: "shpc-registry automated BioContainers addition for phyphy"
-config: {"url": "https://biocontainers.pro/tools/phyphy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phyphy", "latest": {"0.4.3--py_0": "sha256:e41eefe1fc8da85b610c6bcdff528adcb0c7b49e3a1ddf043332afc9d825b356"}, "tags": {"0.4.3--py_0": "sha256:e41eefe1fc8da85b610c6bcdff528adcb0c7b49e3a1ddf043332afc9d825b356"}, "docker": "quay.io/biocontainers/phyphy", "aliases": {"ete3": "/usr/local/bin/ete3", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util"}}
+config: {"url": "https://biocontainers.pro/tools/phyphy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phyphy", "latest": {"0.4.3--py_0": "sha256:49118e8ddbf5e5fb6e53eefed20bd00916536e5c6c140fca1671fa4f483885e2"}, "tags": {"0.4.3--py_0": "sha256:49118e8ddbf5e5fb6e53eefed20bd00916536e5c6c140fca1671fa4f483885e2"}, "docker": "quay.io/biocontainers/phyphy", "aliases": {"ete3": "/usr/local/bin/ete3", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phyphy.

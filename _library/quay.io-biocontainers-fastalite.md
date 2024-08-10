@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastalite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastalite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastalite/container.yaml"
-updated_at: "2024-08-09 03:20:45.600523"
+updated_at: "2024-08-10 03:19:06.215836"
 latest: "0.4.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/fastalite"
 aliases:
@@ -21,7 +21,7 @@ versions:
  - "0.3--py_0"
  - "0.4.1--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for fastalite"
-config: {"url": "https://biocontainers.pro/tools/fastalite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastalite", "latest": {"0.4.1--pyh7cba7a3_0": "sha256:4a30c923a99e0b40a00cd7689c933bb7ffb26cb07e7b48f6badde9420ba5c808"}, "tags": {"0.3--py_0": "sha256:b711c9298547ec687db7597f860a3e07318797e2a1bf78698f330eba18c7fb3b", "0.4.1--pyh7cba7a3_0": "sha256:4a30c923a99e0b40a00cd7689c933bb7ffb26cb07e7b48f6badde9420ba5c808"}, "docker": "quay.io/biocontainers/fastalite", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/fastalite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastalite", "latest": {"0.4.1--pyh7cba7a3_0": "sha256:4a30c923a99e0b40a00cd7689c933bb7ffb26cb07e7b48f6badde9420ba5c808"}, "tags": {"0.3--py_0": "sha256:b0c2635fb3f9eceee1dd8896c924c809d5737a7851c374693126da7541a7b932", "0.4.1--pyh7cba7a3_0": "sha256:4a30c923a99e0b40a00cd7689c933bb7ffb26cb07e7b48f6badde9420ba5c808"}, "docker": "quay.io/biocontainers/fastalite", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastalite.
