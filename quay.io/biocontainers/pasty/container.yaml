@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/pasty
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pasty
 latest:
-  1.0.3--hdfd78af_0: sha256:55fb1629cc3a2939fca1024033d4ae7ed430939c09ee9727f5fb475b851939cb
+  2.0.0--hdfd78af_0: sha256:d086f01fcdf0f4657e1ea001edce1a83c9e4b47e343122374909ee3fb0d21ef6
 tags:
   1.0.0--hdfd78af_0: sha256:8bfb41cd6285c342bc63462a7395af3f8426cf919dd13fa76e27bdddfd876926
   1.0.2--hdfd78af_0: sha256:ee6395b9e95f881a37c0087417af97aece538fe13b884afc5397a679f19cf827
   1.0.3--hdfd78af_0: sha256:55fb1629cc3a2939fca1024033d4ae7ed430939c09ee9727f5fb475b851939cb
+  2.0.0--hdfd78af_0: sha256:d086f01fcdf0f4657e1ea001edce1a83c9e4b47e343122374909ee3fb0d21ef6
 docker: quay.io/biocontainers/pasty
 aliases:
   executor: /usr/local/bin/executor

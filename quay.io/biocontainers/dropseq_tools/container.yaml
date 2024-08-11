@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/dropseq_tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dropseq_tools
 latest:
-  3.0.1--hdfd78af_0: sha256:d3c2105e3b8b3664245e997a3c6e71403325d38779c310fb788667157f7a2c16
+  3.0.2--hdfd78af_0: sha256:50e4411c99b59f4f7c183d9b4437642ce6d72488a555cf5affdbaf27252dcc0a
 tags:
   2.5.1--hdfd78af_0: sha256:94965785a64a13f5c2fe57d538df3dfc24ae206be35998d54676ae38941a2e89
   3.0.1--hdfd78af_0: sha256:d3c2105e3b8b3664245e997a3c6e71403325d38779c310fb788667157f7a2c16
+  3.0.2--hdfd78af_0: sha256:50e4411c99b59f4f7c183d9b4437642ce6d72488a555cf5affdbaf27252dcc0a
 docker: quay.io/biocontainers/dropseq_tools
 aliases:
   BamTagHistogram: /usr/local/bin/BamTagHistogram
