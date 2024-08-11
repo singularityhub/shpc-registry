@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tracegroomer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tracegroomer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tracegroomer/container.yaml"
-updated_at: "2024-08-10 02:51:13.763126"
+updated_at: "2024-08-11 02:55:31.994004"
 latest: "0.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tracegroomer"
 aliases:

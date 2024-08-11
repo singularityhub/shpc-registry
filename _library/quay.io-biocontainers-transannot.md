@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/transannot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transannot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transannot/container.yaml"
-updated_at: "2024-08-10 03:01:28.813228"
-latest: "1.fa9ebab--pl5321h6a68c12_0"
+updated_at: "2024-08-11 03:05:58.970330"
+latest: "3.70b2a60--pl5321h6a68c12_1"
 container_url: "https://biocontainers.pro/tools/transannot"
 aliases:
  - "transannot"
@@ -17,8 +17,11 @@ aliases:
  - "wget"
 versions:
  - "1.fa9ebab--pl5321h6a68c12_0"
+ - "3.70b2a60--pl5321h6a68c12_1"
+ - "3.7f1c8e1--pl5321h6a68c12_0"
+ - "3.0.0--h6a68c12_0"
 description: "singularity registry hpc automated addition for transannot"
-config: {"url": "https://biocontainers.pro/tools/transannot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for transannot", "latest": {"1.fa9ebab--pl5321h6a68c12_0": "sha256:4e32c47c5372096271de24bf9e49904dd63b7ca3adaeaaa908ed72f3f1e78b51"}, "tags": {"1.fa9ebab--pl5321h6a68c12_0": "sha256:4e32c47c5372096271de24bf9e49904dd63b7ca3adaeaaa908ed72f3f1e78b51"}, "docker": "quay.io/biocontainers/transannot", "aliases": {"transannot": "/usr/local/bin/transannot", "aria2c": "/usr/local/bin/aria2c", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/transannot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for transannot", "latest": {"3.70b2a60--pl5321h6a68c12_1": "sha256:28418c3d7716512fd79b9b1555584466268545b1e90eb7d765a3755598543110"}, "tags": {"1.fa9ebab--pl5321h6a68c12_0": "sha256:4e32c47c5372096271de24bf9e49904dd63b7ca3adaeaaa908ed72f3f1e78b51", "3.70b2a60--pl5321h6a68c12_1": "sha256:28418c3d7716512fd79b9b1555584466268545b1e90eb7d765a3755598543110", "3.7f1c8e1--pl5321h6a68c12_0": "sha256:0178bd67085296f626062265842df772e2c66df4b727010df7730fa439c72308", "3.0.0--h6a68c12_0": "sha256:701f2d0e401170d7849cd9586da030d53eaf69abdc1614b7f3c34d1da2beda7f"}, "docker": "quay.io/biocontainers/transannot", "aliases": {"transannot": "/usr/local/bin/transannot", "aria2c": "/usr/local/bin/aria2c", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/transannot.
@@ -33,7 +36,7 @@ $ shpc install quay.io/biocontainers/transannot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/transannot:1.fa9ebab--pl5321h6a68c12_0
+$ shpc install quay.io/biocontainers/transannot:3.70b2a60--pl5321h6a68c12_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/transannot/1.fa9ebab--pl5321h6a68c12_0
-$ module help quay.io/biocontainers/transannot/1.fa9ebab--pl5321h6a68c12_0
+$ module load quay.io/biocontainers/transannot/3.70b2a60--pl5321h6a68c12_1
+$ module help quay.io/biocontainers/transannot/3.70b2a60--pl5321h6a68c12_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

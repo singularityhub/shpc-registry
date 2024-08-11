@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lsabgc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lsabgc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lsabgc/container.yaml"
-updated_at: "2024-08-10 02:44:26.908001"
+updated_at: "2024-08-11 02:48:30.529756"
 latest: "1.0.5--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/lsabgc"
 aliases:
