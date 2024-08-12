@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mtbseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mtbseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mtbseq/container.yaml"
-updated_at: "2024-08-12 02:56:45.826189"
+updated_at: "2024-08-12 03:26:56.635270"
 latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mtbseq"
 aliases:

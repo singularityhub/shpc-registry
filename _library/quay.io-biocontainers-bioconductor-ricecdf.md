@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ricecdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ricecdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ricecdf/container.yaml"
-updated_at: "2024-08-12 02:58:00.326587"
+updated_at: "2024-08-12 03:28:14.341043"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-ricecdf"
 
