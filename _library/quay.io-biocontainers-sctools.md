@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sctools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sctools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sctools/container.yaml"
-updated_at: "2024-08-11 03:08:11.722042"
+updated_at: "2024-08-12 03:05:11.818484"
 latest: "1.0.0--hdcf5f25_4"
 container_url: "https://biocontainers.pro/tools/sctools"
 aliases:

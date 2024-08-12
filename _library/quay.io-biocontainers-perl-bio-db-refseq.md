@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-db-refseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-db-refseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-db-refseq/container.yaml"
-updated_at: "2024-08-11 02:47:50.459295"
+updated_at: "2024-08-12 02:45:55.271628"
 latest: "1.7.4--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-db-refseq"
 aliases:

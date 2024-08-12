@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bustools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bustools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bustools/container.yaml"
-updated_at: "2024-08-11 03:15:28.989993"
+updated_at: "2024-08-12 03:12:01.162253"
 latest: "0.43.2--he1fd2f9_1"
 container_url: "https://biocontainers.pro/tools/bustools"
 aliases:
