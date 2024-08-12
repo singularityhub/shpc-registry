@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/rhotermpredict
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rhotermpredict
+latest:
+  3.4--pyh7e72e81_0: sha256:7639073dc6729636c60a5a2be1b58eaaf866e229518ce92592c9762a5aa6ccf7
+tags:
+  3.4--pyh7e72e81_0: sha256:7639073dc6729636c60a5a2be1b58eaaf866e229518ce92592c9762a5aa6ccf7
+docker: quay.io/biocontainers/rhotermpredict
+aliases:
+  rhotermpredict: /usr/local/bin/rhotermpredict
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config

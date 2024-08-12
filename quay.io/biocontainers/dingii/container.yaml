@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/dingii
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dingii
+latest:
+  0.0.1--pyhdfd78af_0: sha256:4719266479b4ce18aba47600fd585ef146d30827fc5cf45f14e779130c6e4bd1
+tags:
+  0.0.1--pyhdfd78af_0: sha256:4719266479b4ce18aba47600fd585ef146d30827fc5cf45f14e779130c6e4bd1
+docker: quay.io/biocontainers/dingii
+aliases:
+  dingII: /usr/local/bin/dingII
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
