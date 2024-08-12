@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/bcgtree
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bcgtree
+latest:
+  1.2.1--pl5321hdfd78af_0: sha256:df61162ba0aedf67cff5a24ad5c2a445054e6129c31813aa8241f9c10f05faf3
+tags:
+  1.2.1--pl5321hdfd78af_0: sha256:df61162ba0aedf67cff5a24ad5c2a445054e6129c31813aa8241f9c10f05faf3
+docker: quay.io/biocontainers/bcgtree
+aliases:
+  Gblocks: /usr/local/bin/Gblocks
+  bash: /usr/local/bin/bash
+  bashbug: /usr/local/bin/bashbug
+  bcgTree.pl: /usr/local/bin/bcgTree.pl
+  concatenate_by_header.pl: /usr/local/bin/concatenate_by_header.pl
+  extract_essential_genes.sh: /usr/local/bin/extract_essential_genes.sh
+  mm-alignments.pl: /usr/local/bin/mm-alignments.pl
+  plot_matrix.py: /usr/local/bin/plot_matrix.py
+  raxmlHPC: /usr/local/bin/raxmlHPC
+  raxmlHPC-AVX2: /usr/local/bin/raxmlHPC-AVX2
+  raxmlHPC-PTHREADS: /usr/local/bin/raxmlHPC-PTHREADS
+  raxmlHPC-PTHREADS-AVX2: /usr/local/bin/raxmlHPC-PTHREADS-AVX2
+  raxmlHPC-PTHREADS-SSE3: /usr/local/bin/raxmlHPC-PTHREADS-SSE3
+  raxmlHPC-SSE3: /usr/local/bin/raxmlHPC-SSE3
+  muscle: /usr/local/bin/muscle
+  prodigal: /usr/local/bin/prodigal
+  hmmpgmd_shard: /usr/local/bin/hmmpgmd_shard
+  easel: /usr/local/bin/easel
+  esl-mixdchlet: /usr/local/bin/esl-mixdchlet
+  esl-alimanip: /usr/local/bin/esl-alimanip
+  esl-alimap: /usr/local/bin/esl-alimap
+  esl-alimask: /usr/local/bin/esl-alimask
+  esl-alimerge: /usr/local/bin/esl-alimerge
+  esl-alipid: /usr/local/bin/esl-alipid
+  esl-alirev: /usr/local/bin/esl-alirev
+  esl-alistat: /usr/local/bin/esl-alistat
+  esl-compalign: /usr/local/bin/esl-compalign
+  esl-compstruct: /usr/local/bin/esl-compstruct
+  esl-construct: /usr/local/bin/esl-construct
+  esl-histplot: /usr/local/bin/esl-histplot
+  esl-mask: /usr/local/bin/esl-mask
+  esl-selectn: /usr/local/bin/esl-selectn
+  esl-seqrange: /usr/local/bin/esl-seqrange

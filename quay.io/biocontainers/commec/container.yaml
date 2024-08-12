@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/commec
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for commec
+latest:
+  0.1.2--pyhdfd78af_0: sha256:661260de7017898c02c752e7f1eed075dc4c341cd929fd7289db332b18cf2252
+tags:
+  0.1.2--pyhdfd78af_0: sha256:661260de7017898c02c752e7f1eed075dc4c341cd929fd7289db332b18cf2252
+docker: quay.io/biocontainers/commec
+aliases:
+  commec: /usr/local/bin/commec
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits
+  systematic-mutations: /usr/local/bin/systematic-mutations
+  taxonkit: /usr/local/bin/taxonkit
+  xmlget: /usr/local/bin/xmlget
+  xmltext: /usr/local/bin/xmltext
+  aaindexextract: /usr/local/bin/aaindexextract
+  abiview: /usr/local/bin/abiview
+  acdgalaxy: /usr/local/bin/acdgalaxy
+  acdlog: /usr/local/bin/acdlog
+  acdpretty: /usr/local/bin/acdpretty
+  acdtable: /usr/local/bin/acdtable
+  acdtrace: /usr/local/bin/acdtrace
+  acdvalid: /usr/local/bin/acdvalid
+  aligncopy: /usr/local/bin/aligncopy
+  aligncopypair: /usr/local/bin/aligncopypair
+  antigenic: /usr/local/bin/antigenic
+  assemblyget: /usr/local/bin/assemblyget
+  backtranambig: /usr/local/bin/backtranambig
+  backtranseq: /usr/local/bin/backtranseq
+  banana: /usr/local/bin/banana
+  biosed: /usr/local/bin/biosed
+  btwisted: /usr/local/bin/btwisted

@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/promotercalculator
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for promotercalculator
+latest:
+  1.2.4--pyh7e72e81_0: sha256:757c7912110ac0760940c02a35d9d989aa79c59082b6888cac007d771cc424f5
+tags:
+  1.2.4--pyh7e72e81_0: sha256:757c7912110ac0760940c02a35d9d989aa79c59082b6888cac007d771cc424f5
+docker: quay.io/biocontainers/promotercalculator
+aliases:
+  promoter-calculator: /usr/local/bin/promoter-calculator
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
