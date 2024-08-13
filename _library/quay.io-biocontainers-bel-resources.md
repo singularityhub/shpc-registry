@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bel-resources"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bel-resources/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bel-resources/container.yaml"
-updated_at: "2024-08-12 03:28:56.308577"
+updated_at: "2024-08-13 02:59:24.881180"
 latest: "0.0.3--py_0"
 container_url: "https://biocontainers.pro/tools/bel-resources"
 aliases:

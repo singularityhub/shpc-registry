@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pspecterlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pspecterlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pspecterlib/container.yaml"
-updated_at: "2024-08-12 03:48:30.156097"
+updated_at: "2024-08-13 03:19:17.822694"
 latest: "1.1.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-pspecterlib"
 aliases:

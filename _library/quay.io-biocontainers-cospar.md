@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cospar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cospar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cospar/container.yaml"
-updated_at: "2024-08-12 03:19:30.573137"
-latest: "0.3.3--pyhdfd78af_0"
+updated_at: "2024-08-13 02:49:39.585883"
+latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cospar"
 aliases:
  - "bioservices"
@@ -38,8 +38,9 @@ aliases:
  - "lupdate-pro"
 versions:
  - "0.3.3--pyhdfd78af_0"
+ - "0.4.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cospar"
-config: {"url": "https://biocontainers.pro/tools/cospar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cospar", "latest": {"0.3.3--pyhdfd78af_0": "sha256:c42dacd4fc88a3c8a23cb7a025054ebd30d55e23fdaffc9bb947596587ecea99"}, "tags": {"0.3.3--pyhdfd78af_0": "sha256:c42dacd4fc88a3c8a23cb7a025054ebd30d55e23fdaffc9bb947596587ecea99"}, "docker": "quay.io/biocontainers/cospar", "aliases": {"bioservices": "/usr/local/bin/bioservices", "gseapy": "/usr/local/bin/gseapy", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "browse": "/usr/local/bin/browse", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "getfattr": "/usr/local/bin/getfattr", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro"}}
+config: {"url": "https://biocontainers.pro/tools/cospar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cospar", "latest": {"0.4.1--pyhdfd78af_0": "sha256:190409155e42b871e51d6e2f79e5df42de616d7b1fa6aa070a154503a35a3008"}, "tags": {"0.3.3--pyhdfd78af_0": "sha256:c42dacd4fc88a3c8a23cb7a025054ebd30d55e23fdaffc9bb947596587ecea99", "0.4.1--pyhdfd78af_0": "sha256:190409155e42b871e51d6e2f79e5df42de616d7b1fa6aa070a154503a35a3008"}, "docker": "quay.io/biocontainers/cospar", "aliases": {"bioservices": "/usr/local/bin/bioservices", "gseapy": "/usr/local/bin/gseapy", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "browse": "/usr/local/bin/browse", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "getfattr": "/usr/local/bin/getfattr", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cospar.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/cospar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cospar:0.3.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cospar:0.4.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cospar/0.3.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/cospar/0.3.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/cospar/0.4.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/cospar/0.4.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

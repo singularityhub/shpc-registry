@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bedgovcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bedgovcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bedgovcf/container.yaml"
-updated_at: "2024-08-12 03:11:43.392407"
+updated_at: "2024-08-13 02:41:54.164309"
 latest: "0.1.1--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/bedgovcf"
 aliases:

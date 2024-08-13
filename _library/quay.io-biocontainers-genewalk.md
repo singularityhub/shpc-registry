@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genewalk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genewalk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genewalk/container.yaml"
-updated_at: "2024-08-12 03:57:33.241487"
+updated_at: "2024-08-13 03:28:23.478001"
 latest: "1.6.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/genewalk"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-interface-report-plugins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-interface-report-plugins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-interface-report-plugins/container.yaml"
-updated_at: "2024-08-12 03:13:24.471256"
+updated_at: "2024-08-13 02:43:35.505599"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-interface-report-plugins"
 aliases:

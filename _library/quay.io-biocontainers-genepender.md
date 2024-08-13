@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genepender"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genepender/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genepender/container.yaml"
-updated_at: "2024-08-12 03:43:15.543660"
+updated_at: "2024-08-13 03:14:04.726142"
 latest: "v2.6--h470a237_1"
 container_url: "https://biocontainers.pro/tools/genepender"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomewidesnp6crlmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomewidesnp6crlmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomewidesnp6crlmm/container.yaml"
-updated_at: "2024-08-12 03:15:23.424469"
+updated_at: "2024-08-13 02:45:31.221845"
 latest: "1.0.7--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomewidesnp6crlmm"
 

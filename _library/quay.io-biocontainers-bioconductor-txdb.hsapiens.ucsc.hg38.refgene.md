@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene/container.yaml"
-updated_at: "2024-08-12 03:25:01.882511"
+updated_at: "2024-08-13 02:55:20.453190"
 latest: "3.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg38.refgene"
 

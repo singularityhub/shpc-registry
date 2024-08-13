@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyinotify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyinotify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyinotify/container.yaml"
-updated_at: "2024-08-12 03:45:29.621448"
+updated_at: "2024-08-13 03:16:17.440779"
 latest: "0.9.6--py35_0"
 container_url: "https://biocontainers.pro/tools/pyinotify"
 aliases:

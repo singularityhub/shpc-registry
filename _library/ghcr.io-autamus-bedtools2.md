@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bedtools2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bedtools2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/bedtools2/container.yaml"
-updated_at: "2024-08-12 03:09:06.914706"
+updated_at: "2024-08-13 02:39:19.797916"
 latest: "2.30.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bedtools2"
 aliases:

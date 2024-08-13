@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/catch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/catch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/catch/container.yaml"
-updated_at: "2024-08-12 03:16:14.254441"
+updated_at: "2024-08-13 02:46:21.182593"
 latest: "1.5.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/catch"
 aliases:

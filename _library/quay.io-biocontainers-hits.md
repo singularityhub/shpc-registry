@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hits/container.yaml"
-updated_at: "2024-08-12 03:26:35.526098"
-latest: "0.4.0--py38h0020b31_2"
+updated_at: "2024-08-13 02:57:00.280507"
+latest: "0.4.3--py38h0020b31_0"
 container_url: "https://biocontainers.pro/tools/hits"
 aliases:
  - "jupyter-dejavu"
@@ -26,8 +26,9 @@ versions:
  - "0.4.0--py38hbff2b2d_0"
  - "0.4.0--py38he5da3d1_1"
  - "0.4.0--py38h0020b31_2"
+ - "0.4.3--py38h0020b31_0"
 description: "shpc-registry automated BioContainers addition for hits"
-config: {"url": "https://biocontainers.pro/tools/hits", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hits", "latest": {"0.4.0--py38h0020b31_2": "sha256:fab01b63c83faab313d74ed346cfc5fa9de09e9ce5d4a5b20ec2149048b64d0d"}, "tags": {"0.3.3--py37h8902056_1": "sha256:104159d3c55a1e82a7433e76503af1b8389a68783a8754880d6a2c0f6aed2d80", "0.4.0--py38hbff2b2d_0": "sha256:9c82839a2162397d82440a9c44229f9bf96e334703d657e7612ad4b4d3bfdb99", "0.4.0--py38he5da3d1_1": "sha256:e1baf539fca4508f8555150693ad7f9c909cdd6502fd60c1bdd8f37ffcdf4919", "0.4.0--py38h0020b31_2": "sha256:fab01b63c83faab313d74ed346cfc5fa9de09e9ce5d4a5b20ec2149048b64d0d"}, "docker": "quay.io/biocontainers/hits", "aliases": {"jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "send2trash": "/usr/local/bin/send2trash", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "iptest3": "/usr/local/bin/iptest3", "bokeh": "/usr/local/bin/bokeh"}}
+config: {"url": "https://biocontainers.pro/tools/hits", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hits", "latest": {"0.4.3--py38h0020b31_0": "sha256:1bb3137ab31c1be4832def243e2d47489a0a2ffc6049fd3b7e6f169afa000d40"}, "tags": {"0.3.3--py37h8902056_1": "sha256:104159d3c55a1e82a7433e76503af1b8389a68783a8754880d6a2c0f6aed2d80", "0.4.0--py38hbff2b2d_0": "sha256:9c82839a2162397d82440a9c44229f9bf96e334703d657e7612ad4b4d3bfdb99", "0.4.0--py38he5da3d1_1": "sha256:e1baf539fca4508f8555150693ad7f9c909cdd6502fd60c1bdd8f37ffcdf4919", "0.4.0--py38h0020b31_2": "sha256:fab01b63c83faab313d74ed346cfc5fa9de09e9ce5d4a5b20ec2149048b64d0d", "0.4.3--py38h0020b31_0": "sha256:1bb3137ab31c1be4832def243e2d47489a0a2ffc6049fd3b7e6f169afa000d40"}, "docker": "quay.io/biocontainers/hits", "aliases": {"jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "send2trash": "/usr/local/bin/send2trash", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "iptest3": "/usr/local/bin/iptest3", "bokeh": "/usr/local/bin/bokeh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hits.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/hits
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hits:0.4.0--py38h0020b31_2
+$ shpc install quay.io/biocontainers/hits:0.4.3--py38h0020b31_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hits/0.4.0--py38h0020b31_2
-$ module help quay.io/biocontainers/hits/0.4.0--py38h0020b31_2
+$ module load quay.io/biocontainers/hits/0.4.3--py38h0020b31_0
+$ module help quay.io/biocontainers/hits/0.4.3--py38h0020b31_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

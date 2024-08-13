@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/galaxy-data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-data/container.yaml"
-updated_at: "2024-08-12 03:24:13.569953"
-latest: "22.1.1--pyhdfd78af_0"
+updated_at: "2024-08-13 02:54:30.495429"
+latest: "24.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galaxy-data"
 aliases:
  - "bagit.py"
@@ -46,8 +46,9 @@ aliases:
  - "bed_bigwig_profile.py"
 versions:
  - "22.1.1--pyhdfd78af_0"
+ - "24.1.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for galaxy-data"
-config: {"url": "https://biocontainers.pro/tools/galaxy-data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-data", "latest": {"22.1.1--pyhdfd78af_0": "sha256:0493f9c28131ca24f6ffdd49773249c2fd25f6427928625d10410bddcc37a3e7"}, "tags": {"22.1.1--pyhdfd78af_0": "sha256:0493f9c28131ca24f6ffdd49773249c2fd25f6427928625d10410bddcc37a3e7"}, "docker": "quay.io/biocontainers/galaxy-data", "aliases": {"bagit.py": "/usr/local/bin/bagit.py", "bagit_profile.py": "/usr/local/bin/bagit_profile.py", "bdbag": "/usr/local/bin/bdbag", "bdbag-utils": "/usr/local/bin/bdbag-utils", "cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "galaxy-build-objects": "/usr/local/bin/galaxy-build-objects", "galaxy-manage-db": "/usr/local/bin/galaxy-manage-db", "gx-fastq-combiner": "/usr/local/bin/gx-fastq-combiner", "gx-fastq-filter": "/usr/local/bin/gx-fastq-filter", "gx-fastq-groomer": "/usr/local/bin/gx-fastq-groomer", "gx-fastq-manipulation": "/usr/local/bin/gx-fastq-manipulation", "gx-fastq-masker-by-quality": "/usr/local/bin/gx-fastq-masker-by-quality", "gx-fastq-paired-end-deinterlacer": "/usr/local/bin/gx-fastq-paired-end-deinterlacer", "gx-fastq-paired-end-interlacer": "/usr/local/bin/gx-fastq-paired-end-interlacer", "gx-fastq-paired-end-joiner": "/usr/local/bin/gx-fastq-paired-end-joiner", "gx-fastq-paired-end-splitter": "/usr/local/bin/gx-fastq-paired-end-splitter", "gx-fastq-stats": "/usr/local/bin/gx-fastq-stats", "gx-fastq-to-fasta": "/usr/local/bin/gx-fastq-to-fasta", "gx-fastq-to-tabular": "/usr/local/bin/gx-fastq-to-tabular", "gx-fastq-trimmer": "/usr/local/bin/gx-fastq-trimmer", "gx-fastq-trimmer-by-quality": "/usr/local/bin/gx-fastq-trimmer-by-quality", "migrate": "/usr/local/bin/migrate", "migrate-repository": "/usr/local/bin/migrate-repository", "sqlformat": "/usr/local/bin/sqlformat", "pbr": "/usr/local/bin/pbr", "docutils": "/usr/local/bin/docutils", "pybabel": "/usr/local/bin/pybabel", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py"}}
+config: {"url": "https://biocontainers.pro/tools/galaxy-data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-data", "latest": {"24.1.1--pyhdfd78af_0": "sha256:ea347985e02f374c5febf7ef2ea2703a061511dc0c90f700a6c7614b5e5ce787"}, "tags": {"22.1.1--pyhdfd78af_0": "sha256:0493f9c28131ca24f6ffdd49773249c2fd25f6427928625d10410bddcc37a3e7", "24.1.1--pyhdfd78af_0": "sha256:ea347985e02f374c5febf7ef2ea2703a061511dc0c90f700a6c7614b5e5ce787"}, "docker": "quay.io/biocontainers/galaxy-data", "aliases": {"bagit.py": "/usr/local/bin/bagit.py", "bagit_profile.py": "/usr/local/bin/bagit_profile.py", "bdbag": "/usr/local/bin/bdbag", "bdbag-utils": "/usr/local/bin/bdbag-utils", "cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "galaxy-build-objects": "/usr/local/bin/galaxy-build-objects", "galaxy-manage-db": "/usr/local/bin/galaxy-manage-db", "gx-fastq-combiner": "/usr/local/bin/gx-fastq-combiner", "gx-fastq-filter": "/usr/local/bin/gx-fastq-filter", "gx-fastq-groomer": "/usr/local/bin/gx-fastq-groomer", "gx-fastq-manipulation": "/usr/local/bin/gx-fastq-manipulation", "gx-fastq-masker-by-quality": "/usr/local/bin/gx-fastq-masker-by-quality", "gx-fastq-paired-end-deinterlacer": "/usr/local/bin/gx-fastq-paired-end-deinterlacer", "gx-fastq-paired-end-interlacer": "/usr/local/bin/gx-fastq-paired-end-interlacer", "gx-fastq-paired-end-joiner": "/usr/local/bin/gx-fastq-paired-end-joiner", "gx-fastq-paired-end-splitter": "/usr/local/bin/gx-fastq-paired-end-splitter", "gx-fastq-stats": "/usr/local/bin/gx-fastq-stats", "gx-fastq-to-fasta": "/usr/local/bin/gx-fastq-to-fasta", "gx-fastq-to-tabular": "/usr/local/bin/gx-fastq-to-tabular", "gx-fastq-trimmer": "/usr/local/bin/gx-fastq-trimmer", "gx-fastq-trimmer-by-quality": "/usr/local/bin/gx-fastq-trimmer-by-quality", "migrate": "/usr/local/bin/migrate", "migrate-repository": "/usr/local/bin/migrate-repository", "sqlformat": "/usr/local/bin/sqlformat", "pbr": "/usr/local/bin/pbr", "docutils": "/usr/local/bin/docutils", "pybabel": "/usr/local/bin/pybabel", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy-data.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/galaxy-data
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/galaxy-data:22.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/galaxy-data:24.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/galaxy-data/22.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/galaxy-data/22.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/galaxy-data/24.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/galaxy-data/24.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gridss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gridss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gridss/container.yaml"
-updated_at: "2024-08-12 03:14:24.947762"
+updated_at: "2024-08-13 02:44:34.664980"
 latest: "2.13.2--h50ea8bc_3"
 container_url: "https://biocontainers.pro/tools/gridss"
 aliases:
