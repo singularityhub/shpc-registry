@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/centrosome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/centrosome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/centrosome/container.yaml"
-updated_at: "2024-08-13 03:15:24.085318"
+updated_at: "2024-08-14 03:15:24.217843"
 latest: "1.2.3--py311h346d907_1"
 container_url: "https://biocontainers.pro/tools/centrosome"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-anamir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anamir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anamir/container.yaml"
-updated_at: "2024-08-13 03:16:56.944796"
+updated_at: "2024-08-14 03:17:01.456735"
 latest: "1.13.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-anamir"
 aliases:
