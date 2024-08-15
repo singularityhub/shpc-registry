@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/pdbx
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pdbx
+latest:
+  1.0.0--py311hdbdd923_1: sha256:3cb7f676d15972c549fa62c72dbb8afb161c2bc80f74bd0555278b6734734ec8
+tags:
+  1.0.0--py311hdbdd923_1: sha256:3cb7f676d15972c549fa62c72dbb8afb161c2bc80f74bd0555278b6734734ec8
+docker: quay.io/biocontainers/pdbx
+aliases:
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config

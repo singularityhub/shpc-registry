@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sdust
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sdust
+latest:
+  0.1--hdcf5f25_1: sha256:09e66e581edc837b3d25d34f4dac2c5492c1ad7bf979ca414fc8e533d750c3c4
+tags:
+  0.1--hdcf5f25_1: sha256:09e66e581edc837b3d25d34f4dac2c5492c1ad7bf979ca414fc8e533d750c3c4
+docker: quay.io/biocontainers/sdust
+aliases:
+  sdust: /usr/local/bin/sdust

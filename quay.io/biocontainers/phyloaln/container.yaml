@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/phyloaln
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phyloaln
+latest:
+  1.0.0--hdfd78af_0: sha256:e3bc81bc1bd7156f1169705cb2eb651e903a66613ea490a391ae824c5ebcbbc6
+tags:
+  1.0.0--hdfd78af_0: sha256:e3bc81bc1bd7156f1169705cb2eb651e903a66613ea490a391ae824c5ebcbbc6
+docker: quay.io/biocontainers/phyloaln
+aliases:
+  PhyloAln: /usr/local/bin/PhyloAln
+  alignseq.pl: /usr/local/bin/alignseq.pl
+  connect.pl: /usr/local/bin/connect.pl
+  merge_seqs.py: /usr/local/bin/merge_seqs.py
+  revertransseq.pl: /usr/local/bin/revertransseq.pl
+  root_tree.py: /usr/local/bin/root_tree.py
+  select_seqs.py: /usr/local/bin/select_seqs.py
+  test_effect.py: /usr/local/bin/test_effect.py
+  transseq.pl: /usr/local/bin/transseq.pl
+  trim_matrix.py: /usr/local/bin/trim_matrix.py
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits
+  systematic-mutations: /usr/local/bin/systematic-mutations
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  TMalign: /usr/local/bin/TMalign
+  make_pscores.pl: /usr/local/bin/make_pscores.pl
+  poa: /usr/local/bin/poa
+  gawk-5.3.0: /usr/local/bin/gawk-5.3.0
+  RNAmultifold: /usr/local/bin/RNAmultifold
+  gawkbug: /usr/local/bin/gawkbug
+  archive-ncbinlp: /usr/local/bin/archive-ncbinlp
+  archive-nihocc: /usr/local/bin/archive-nihocc
+  archive-nmcds: /usr/local/bin/archive-nmcds
+  archive-pmc: /usr/local/bin/archive-pmc
+  archive-taxonomy: /usr/local/bin/archive-taxonomy
+  args2slice: /usr/local/bin/args2slice
+  asn2ref: /usr/local/bin/asn2ref
+  blst2gm: /usr/local/bin/blst2gm
+  cit2pmid: /usr/local/bin/cit2pmid
+  combine-uid-lists: /usr/local/bin/combine-uid-lists
+  difference-uid-lists: /usr/local/bin/difference-uid-lists
