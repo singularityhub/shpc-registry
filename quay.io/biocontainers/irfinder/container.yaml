@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/irfinder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for irfinder
 latest:
-  1.3.1--h031d066_4: sha256:3d01b4cc00e52d823e4cce280f131afba17e47b7b31a3f3ccf3df4e78b5fc703
+  1.3.1--h031d066_5: sha256:ae8260e06e8497127782b7ee63273b62fce3783cde2c24fad8f62af31fcc0d64
 tags:
   1.3.1--hec16e2b_2: sha256:75da0f3da1b5d823d5d6b882376dcebd07ac2cf81a7727c1d061e2563b9005bd
   1.3.1--hec16e2b_3: sha256:a6565268aef8daeb25065d072e7d1d68e8348a09ced7e8cbd0b777ef06ce92d8
   1.3.1--h031d066_4: sha256:3d01b4cc00e52d823e4cce280f131afba17e47b7b31a3f3ccf3df4e78b5fc703
+  1.3.1--h031d066_5: sha256:ae8260e06e8497127782b7ee63273b62fce3783cde2c24fad8f62af31fcc0d64
 docker: quay.io/biocontainers/irfinder
 aliases:
   IRFinder: /usr/local/bin/IRFinder

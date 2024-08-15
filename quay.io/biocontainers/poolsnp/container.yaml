@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/poolsnp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for poolsnp
 latest:
-  1.0.0--py312h7e72e81_0: sha256:2305bec3d10aca1e1c513ab972bf9897a622018b13b84c46937b2f5ce4c8f994
+  1.0.1--py312h7e72e81_0: sha256:59319407d85f7db6226d32b1ad6e78118138ccadc723968ebcf056762c501f7c
 tags:
   1.0.0--py312h7e72e81_0: sha256:2305bec3d10aca1e1c513ab972bf9897a622018b13b84c46937b2f5ce4c8f994
+  1.0.1--py312h7e72e81_0: sha256:59319407d85f7db6226d32b1ad6e78118138ccadc723968ebcf056762c501f7c
 docker: quay.io/biocontainers/poolsnp
 aliases:
   PoolSNP.sh: /usr/local/bin/PoolSNP.sh
