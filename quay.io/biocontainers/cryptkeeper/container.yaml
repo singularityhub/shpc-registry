@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/cryptkeeper
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cryptkeeper
+latest:
+  1.0.1--pyhdfd78af_0: sha256:7d482bbc99b95c0092aa163b32244701fda5636b67640fae09a986256d90d233
+tags:
+  1.0.1--pyhdfd78af_0: sha256:7d482bbc99b95c0092aa163b32244701fda5636b67640fae09a986256d90d233
+docker: quay.io/biocontainers/cryptkeeper
+aliases:
+  cryptkeeper: /usr/local/bin/cryptkeeper
+  ostir: /usr/local/bin/ostir
+  promoter-calculator: /usr/local/bin/promoter-calculator
+  rhotermpredict: /usr/local/bin/rhotermpredict
+  RNAmultifold: /usr/local/bin/RNAmultifold
+  numpy-config: /usr/local/bin/numpy-config
+  RNAdos: /usr/local/bin/RNAdos
+  AnalyseDists: /usr/local/bin/AnalyseDists
+  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
+  RNAlocmin: /usr/local/bin/RNAlocmin
+  RNApvmin: /usr/local/bin/RNApvmin
+  b2ct: /usr/local/bin/b2ct
+  ct2db: /usr/local/bin/ct2db
+  kinwalker: /usr/local/bin/kinwalker
+  popt: /usr/local/bin/popt
+  RNA2Dfold: /usr/local/bin/RNA2Dfold
+  RNALalifold: /usr/local/bin/RNALalifold
+  RNAPKplex: /usr/local/bin/RNAPKplex
+  RNAparconv: /usr/local/bin/RNAparconv
+  RNAplex: /usr/local/bin/RNAplex
+  RNAsnoop: /usr/local/bin/RNAsnoop
+  RNAfold: /usr/local/bin/RNAfold
+  Kinfold: /usr/local/bin/Kinfold
+  RNALfold: /usr/local/bin/RNALfold
+  RNAaliduplex: /usr/local/bin/RNAaliduplex
+  RNAalifold: /usr/local/bin/RNAalifold
+  RNAcofold: /usr/local/bin/RNAcofold
+  RNAdistance: /usr/local/bin/RNAdistance
+  RNAduplex: /usr/local/bin/RNAduplex

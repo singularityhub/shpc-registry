@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/vitap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vitap
+latest:
+  1.5--pyh7e72e81_0: sha256:507c230b06028459c242790604f846e7dff693bbb255c0c725d317088424cc25
+tags:
+  1.5--pyh7e72e81_0: sha256:507c230b06028459c242790604f846e7dff693bbb255c0c725d317088424cc25
+docker: quay.io/biocontainers/vitap
+aliases:
+  VITAP: /usr/local/bin/VITAP
+  VITAP_assignment_20240731.py: /usr/local/bin/VITAP_assignment_20240731.py
+  VITAP_upd_20240325.py: /usr/local/bin/VITAP_upd_20240325.py
+  prodigal-gv: /usr/local/bin/prodigal-gv
+  numpy-config: /usr/local/bin/numpy-config
+  seqkit: /usr/local/bin/seqkit
+  blastn_vdb: /usr/local/bin/blastn_vdb
+  tblastn_vdb: /usr/local/bin/tblastn_vdb
+  test_pcre: /usr/local/bin/test_pcre
+  diamond: /usr/local/bin/diamond
+  edirect.py: /usr/local/bin/edirect.py
+  filter-columns: /usr/local/bin/filter-columns
+  fuse-segments: /usr/local/bin/fuse-segments
+  gene2range: /usr/local/bin/gene2range
+  tbl2prod: /usr/local/bin/tbl2prod
+  uniq-table: /usr/local/bin/uniq-table
+  align-columns: /usr/local/bin/align-columns
+  blst2tkns: /usr/local/bin/blst2tkns
+  csv2xml: /usr/local/bin/csv2xml
+  disambiguate-nucleotides: /usr/local/bin/disambiguate-nucleotides
+  download-ncbi-software: /usr/local/bin/download-ncbi-software
+  ecommon.sh: /usr/local/bin/ecommon.sh
+  find-in-gene: /usr/local/bin/find-in-gene
+  fuse-ranges: /usr/local/bin/fuse-ranges
+  hgvs2spdi: /usr/local/bin/hgvs2spdi
+  json2xml: /usr/local/bin/json2xml
+  print-columns: /usr/local/bin/print-columns
+  snp2hgvs: /usr/local/bin/snp2hgvs
+  snp2tbl: /usr/local/bin/snp2tbl

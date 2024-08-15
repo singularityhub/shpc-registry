@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/acms
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for acms
+latest:
+  1.3.0--pl5321h4ac6f70_1: sha256:d03b87ff7e995e55d2489df9b2bbc6f8961f2e8e9d65efa093b785c51b8ca00e
+tags:
+  1.3.0--pl5321h4ac6f70_1: sha256:d03b87ff7e995e55d2489df9b2bbc6f8961f2e8e9d65efa093b785c51b8ca00e
+docker: quay.io/biocontainers/acms
+aliases:
+  acmbuild: /usr/local/bin/acmbuild
+  acmbuild_checkCompatibility: /usr/local/bin/acmbuild_checkCompatibility
+  acmbuild_train: /usr/local/bin/acmbuild_train
+  acmsearch: /usr/local/bin/acmsearch
+  addRNAoptions.pl: /usr/local/bin/addRNAoptions.pl
+  gapc: /usr/local/bin/gapc
+  ghc: /usr/local/bin/ghc
+  ghc-8.10.7: /usr/local/bin/ghc-8.10.7
+  ghc-pkg: /usr/local/bin/ghc-pkg
+  ghc-pkg-8.10.7: /usr/local/bin/ghc-pkg-8.10.7
+  ghci: /usr/local/bin/ghci
+  ghci-8.10.7: /usr/local/bin/ghci-8.10.7
+  hp2ps: /usr/local/bin/hp2ps
+  hpc: /usr/local/bin/hpc
+  hsc2hs: /usr/local/bin/hsc2hs
+  runghc: /usr/local/bin/runghc
+  runghc-8.10.7: /usr/local/bin/runghc-8.10.7
+  runhaskell: /usr/local/bin/runhaskell
