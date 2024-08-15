@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pasty"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pasty/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pasty/container.yaml"
-updated_at: "2024-08-15 02:37:54.932028"
+updated_at: "2024-08-15 03:30:23.227675"
 latest: "2.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pasty"
 aliases:
