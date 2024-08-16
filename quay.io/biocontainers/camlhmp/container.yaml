@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/camlhmp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for camlhmp
 latest:
-  0.1.0--pyhdfd78af_0: sha256:abee64911994c66e8a3204c273f11fee61c05f791092f01938265c146ae013af
+  1.0.0--pyhdfd78af_0: sha256:5ae2d4db8e3d8a3430e31d73a576fa7de9716ed295fcd342f815ceb0d4a17903
 tags:
   0.0.1--pyhdfd78af_0: sha256:956cf110c40231dc7da1dd70997c836e00598f64728c2c9a0e5da1a698a4e17f
   0.1.0--pyhdfd78af_0: sha256:abee64911994c66e8a3204c273f11fee61c05f791092f01938265c146ae013af
+  1.0.0--pyhdfd78af_0: sha256:5ae2d4db8e3d8a3430e31d73a576fa7de9716ed295fcd342f815ceb0d4a17903
+  0.3.1--pyhdfd78af_0: sha256:b231a0a9a7931578a2a8e883ddbebb43c3c6bb1becf102ee8a065bbb947019eb
+  0.2.2--pyhdfd78af_0: sha256:73ff757884163df33660df30b8f3b1313a2f5761b28907129c5a3d17036e25d6
 docker: quay.io/biocontainers/camlhmp
 aliases:
   archive-ncbinlp: /usr/local/bin/archive-ncbinlp
