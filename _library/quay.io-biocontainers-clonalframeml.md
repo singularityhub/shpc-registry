@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clonalframeml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clonalframeml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clonalframeml/container.yaml"
-updated_at: "2024-08-15 04:08:05.777004"
+updated_at: "2024-08-16 03:17:29.777822"
 latest: "1.13--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/clonalframeml"
 aliases:

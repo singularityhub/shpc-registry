@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/poolsnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poolsnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poolsnp/container.yaml"
-updated_at: "2024-08-15 03:41:50.064362"
-latest: "1.0.0--py312h7e72e81_0"
+updated_at: "2024-08-16 02:51:19.900902"
+latest: "1.0.1--py312h7e72e81_0"
 container_url: "https://biocontainers.pro/tools/poolsnp"
 aliases:
  - "PoolSNP.sh"
@@ -38,8 +38,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "1.0.0--py312h7e72e81_0"
+ - "1.0.1--py312h7e72e81_0"
 description: "singularity registry hpc automated addition for poolsnp"
-config: {"url": "https://biocontainers.pro/tools/poolsnp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for poolsnp", "latest": {"1.0.0--py312h7e72e81_0": "sha256:2305bec3d10aca1e1c513ab972bf9897a622018b13b84c46937b2f5ce4c8f994"}, "tags": {"1.0.0--py312h7e72e81_0": "sha256:2305bec3d10aca1e1c513ab972bf9897a622018b13b84c46937b2f5ce4c8f994"}, "docker": "quay.io/biocontainers/poolsnp", "aliases": {"PoolSNP.sh": "/usr/local/bin/PoolSNP.sh", "PoolSnp.py": "/usr/local/bin/PoolSnp.py", "bad-sites.py": "/usr/local/bin/bad-sites.py", "max-cov.py": "/usr/local/bin/max-cov.py", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh", "env_parallel.sh": "/usr/local/bin/env_parallel.sh", "env_parallel.tcsh": "/usr/local/bin/env_parallel.tcsh", "env_parallel.zsh": "/usr/local/bin/env_parallel.zsh", "niceload": "/usr/local/bin/niceload", "parcat": "/usr/local/bin/parcat", "parset": "/usr/local/bin/parset", "sem": "/usr/local/bin/sem", "sql": "/usr/local/bin/sql", "parallel": "/usr/local/bin/parallel", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/poolsnp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for poolsnp", "latest": {"1.0.1--py312h7e72e81_0": "sha256:59319407d85f7db6226d32b1ad6e78118138ccadc723968ebcf056762c501f7c"}, "tags": {"1.0.0--py312h7e72e81_0": "sha256:2305bec3d10aca1e1c513ab972bf9897a622018b13b84c46937b2f5ce4c8f994", "1.0.1--py312h7e72e81_0": "sha256:59319407d85f7db6226d32b1ad6e78118138ccadc723968ebcf056762c501f7c"}, "docker": "quay.io/biocontainers/poolsnp", "aliases": {"PoolSNP.sh": "/usr/local/bin/PoolSNP.sh", "PoolSnp.py": "/usr/local/bin/PoolSnp.py", "bad-sites.py": "/usr/local/bin/bad-sites.py", "max-cov.py": "/usr/local/bin/max-cov.py", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh", "env_parallel.sh": "/usr/local/bin/env_parallel.sh", "env_parallel.tcsh": "/usr/local/bin/env_parallel.tcsh", "env_parallel.zsh": "/usr/local/bin/env_parallel.zsh", "niceload": "/usr/local/bin/niceload", "parcat": "/usr/local/bin/parcat", "parset": "/usr/local/bin/parset", "sem": "/usr/local/bin/sem", "sql": "/usr/local/bin/sql", "parallel": "/usr/local/bin/parallel", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/poolsnp.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/poolsnp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/poolsnp:1.0.0--py312h7e72e81_0
+$ shpc install quay.io/biocontainers/poolsnp:1.0.1--py312h7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/poolsnp/1.0.0--py312h7e72e81_0
-$ module help quay.io/biocontainers/poolsnp/1.0.0--py312h7e72e81_0
+$ module load quay.io/biocontainers/poolsnp/1.0.1--py312h7e72e81_0
+$ module help quay.io/biocontainers/poolsnp/1.0.1--py312h7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

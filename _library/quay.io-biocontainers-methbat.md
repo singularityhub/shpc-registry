@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/methbat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methbat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methbat/container.yaml"
-updated_at: "2024-08-15 04:13:11.082752"
-latest: "0.13.0--h9ee0642_0"
+updated_at: "2024-08-16 03:22:40.267241"
+latest: "0.13.1--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/methbat"
 aliases:
  - "methbat"
 versions:
  - "0.13.0--h9ee0642_0"
+ - "0.13.1--h9ee0642_0"
 description: "singularity registry hpc automated addition for methbat"
-config: {"url": "https://biocontainers.pro/tools/methbat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for methbat", "latest": {"0.13.0--h9ee0642_0": "sha256:e8407f90e58ccad8deffed54d164c696e058e84233a61ef5abde3d9ff654ebbf"}, "tags": {"0.13.0--h9ee0642_0": "sha256:e8407f90e58ccad8deffed54d164c696e058e84233a61ef5abde3d9ff654ebbf"}, "docker": "quay.io/biocontainers/methbat", "aliases": {"methbat": "/usr/local/bin/methbat"}}
+config: {"url": "https://biocontainers.pro/tools/methbat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for methbat", "latest": {"0.13.1--h9ee0642_0": "sha256:09a72f141f2858fc1a933ff72bb8105c86693edffa2596c99477cf80bc874068"}, "tags": {"0.13.0--h9ee0642_0": "sha256:e8407f90e58ccad8deffed54d164c696e058e84233a61ef5abde3d9ff654ebbf", "0.13.1--h9ee0642_0": "sha256:09a72f141f2858fc1a933ff72bb8105c86693edffa2596c99477cf80bc874068"}, "docker": "quay.io/biocontainers/methbat", "aliases": {"methbat": "/usr/local/bin/methbat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/methbat.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/methbat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/methbat:0.13.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/methbat:0.13.1--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/methbat/0.13.0--h9ee0642_0
-$ module help quay.io/biocontainers/methbat/0.13.0--h9ee0642_0
+$ module load quay.io/biocontainers/methbat/0.13.1--h9ee0642_0
+$ module help quay.io/biocontainers/methbat/0.13.1--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

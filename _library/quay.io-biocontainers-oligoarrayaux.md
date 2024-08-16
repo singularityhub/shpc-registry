@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oligoarrayaux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oligoarrayaux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oligoarrayaux/container.yaml"
-updated_at: "2024-08-15 03:58:44.280199"
+updated_at: "2024-08-16 03:08:11.301620"
 latest: "3.8--hc9558a2_0"
 container_url: "https://biocontainers.pro/tools/oligoarrayaux"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastdtw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastdtw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastdtw/container.yaml"
-updated_at: "2024-08-15 04:15:58.869439"
+updated_at: "2024-08-16 03:25:27.069720"
 latest: "0.2.0--py_1"
 container_url: "https://biocontainers.pro/tools/fastdtw"
 aliases:

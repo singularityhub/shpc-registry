@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyrodigal-gv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyrodigal-gv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyrodigal-gv/container.yaml"
-updated_at: "2024-08-15 04:13:25.988534"
-latest: "0.3.1--pyh7cba7a3_0"
+updated_at: "2024-08-16 03:22:55.140061"
+latest: "0.3.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pyrodigal-gv"
 aliases:
  - "archspec"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "0.2.0--pyh7cba7a3_0"
  - "0.3.1--pyh7cba7a3_0"
+ - "0.3.2--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for pyrodigal-gv"
-config: {"url": "https://biocontainers.pro/tools/pyrodigal-gv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyrodigal-gv", "latest": {"0.3.1--pyh7cba7a3_0": "sha256:b65d99ad129426b8a98d29ba263cabec9febd77de4a56c5f4bfb8b78d246b6db"}, "tags": {"0.2.0--pyh7cba7a3_0": "sha256:a4f0e1453bc293ecd8c89c092f51e5ec540ee89fafd44148b2c358edaf615a0b", "0.3.1--pyh7cba7a3_0": "sha256:b65d99ad129426b8a98d29ba263cabec9febd77de4a56c5f4bfb8b78d246b6db"}, "docker": "quay.io/biocontainers/pyrodigal-gv", "aliases": {"archspec": "/usr/local/bin/archspec", "pyrodigal": "/usr/local/bin/pyrodigal", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyrodigal-gv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyrodigal-gv", "latest": {"0.3.2--pyh7e72e81_0": "sha256:4a70f379f3a71fce18f8d58e55694c1eb26e0e74b78777e01b642d02dbf76936"}, "tags": {"0.2.0--pyh7cba7a3_0": "sha256:a4f0e1453bc293ecd8c89c092f51e5ec540ee89fafd44148b2c358edaf615a0b", "0.3.1--pyh7cba7a3_0": "sha256:b65d99ad129426b8a98d29ba263cabec9febd77de4a56c5f4bfb8b78d246b6db", "0.3.2--pyh7e72e81_0": "sha256:4a70f379f3a71fce18f8d58e55694c1eb26e0e74b78777e01b642d02dbf76936"}, "docker": "quay.io/biocontainers/pyrodigal-gv", "aliases": {"archspec": "/usr/local/bin/archspec", "pyrodigal": "/usr/local/bin/pyrodigal", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyrodigal-gv.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/pyrodigal-gv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyrodigal-gv:0.3.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/pyrodigal-gv:0.3.2--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyrodigal-gv/0.3.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/pyrodigal-gv/0.3.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/pyrodigal-gv/0.3.2--pyh7e72e81_0
+$ module help quay.io/biocontainers/pyrodigal-gv/0.3.2--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

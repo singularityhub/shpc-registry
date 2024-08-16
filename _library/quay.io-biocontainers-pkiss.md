@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pkiss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pkiss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pkiss/container.yaml"
-updated_at: "2024-08-15 03:47:11.527185"
-latest: "2.2.14--pl5321h4ac6f70_3"
+updated_at: "2024-08-16 02:56:41.670234"
+latest: "2.3.0--pl5321h4ac6f70_2"
 container_url: "https://biocontainers.pro/tools/pkiss"
 aliases:
  - "addRNAoptions.pl"
@@ -29,8 +29,9 @@ aliases:
 versions:
  - "2.2.14--pl5321h9f5acd7_2"
  - "2.2.14--pl5321h4ac6f70_3"
+ - "2.3.0--pl5321h4ac6f70_2"
 description: "shpc-registry automated BioContainers addition for pkiss"
-config: {"url": "https://biocontainers.pro/tools/pkiss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pkiss", "latest": {"2.2.14--pl5321h4ac6f70_3": "sha256:f610013c29b1eac00f8c5c5e9d130ccd8d469ebe1001c7176af0db7246694c1f"}, "tags": {"2.2.14--pl5321h9f5acd7_2": "sha256:cde4ebedc5036c8826220b8dd19453b6579c5121e21dad7852e85f5d60c19b5d", "2.2.14--pl5321h4ac6f70_3": "sha256:f610013c29b1eac00f8c5c5e9d130ccd8d469ebe1001c7176af0db7246694c1f"}, "docker": "quay.io/biocontainers/pkiss", "aliases": {"addRNAoptions.pl": "/usr/local/bin/addRNAoptions.pl", "gapc": "/usr/local/bin/gapc", "pKiss": "/usr/local/bin/pKiss", "pKiss_enforce": "/usr/local/bin/pKiss_enforce", "pKiss_enforce_window": "/usr/local/bin/pKiss_enforce_window", "pKiss_eval": "/usr/local/bin/pKiss_eval", "pKiss_local": "/usr/local/bin/pKiss_local", "pKiss_local_window": "/usr/local/bin/pKiss_local_window", "pKiss_mfe": "/usr/local/bin/pKiss_mfe", "pKiss_mfe_window": "/usr/local/bin/pKiss_mfe_window", "pKiss_probs": "/usr/local/bin/pKiss_probs", "pKiss_probs_window": "/usr/local/bin/pKiss_probs_window", "pKiss_shapes": "/usr/local/bin/pKiss_shapes", "pKiss_shapes_window": "/usr/local/bin/pKiss_shapes_window", "pKiss_subopt": "/usr/local/bin/pKiss_subopt", "pKiss_subopt_window": "/usr/local/bin/pKiss_subopt_window", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/pkiss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pkiss", "latest": {"2.3.0--pl5321h4ac6f70_2": "sha256:1e164ea3c0f1bf256f265a494c29c45974df5ed7d45cf319e794de06123fc6d9"}, "tags": {"2.2.14--pl5321h9f5acd7_2": "sha256:cde4ebedc5036c8826220b8dd19453b6579c5121e21dad7852e85f5d60c19b5d", "2.2.14--pl5321h4ac6f70_3": "sha256:f610013c29b1eac00f8c5c5e9d130ccd8d469ebe1001c7176af0db7246694c1f", "2.3.0--pl5321h4ac6f70_2": "sha256:1e164ea3c0f1bf256f265a494c29c45974df5ed7d45cf319e794de06123fc6d9"}, "docker": "quay.io/biocontainers/pkiss", "aliases": {"addRNAoptions.pl": "/usr/local/bin/addRNAoptions.pl", "gapc": "/usr/local/bin/gapc", "pKiss": "/usr/local/bin/pKiss", "pKiss_enforce": "/usr/local/bin/pKiss_enforce", "pKiss_enforce_window": "/usr/local/bin/pKiss_enforce_window", "pKiss_eval": "/usr/local/bin/pKiss_eval", "pKiss_local": "/usr/local/bin/pKiss_local", "pKiss_local_window": "/usr/local/bin/pKiss_local_window", "pKiss_mfe": "/usr/local/bin/pKiss_mfe", "pKiss_mfe_window": "/usr/local/bin/pKiss_mfe_window", "pKiss_probs": "/usr/local/bin/pKiss_probs", "pKiss_probs_window": "/usr/local/bin/pKiss_probs_window", "pKiss_shapes": "/usr/local/bin/pKiss_shapes", "pKiss_shapes_window": "/usr/local/bin/pKiss_shapes_window", "pKiss_subopt": "/usr/local/bin/pKiss_subopt", "pKiss_subopt_window": "/usr/local/bin/pKiss_subopt_window", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pkiss.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/pkiss
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pkiss:2.2.14--pl5321h4ac6f70_3
+$ shpc install quay.io/biocontainers/pkiss:2.3.0--pl5321h4ac6f70_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pkiss/2.2.14--pl5321h4ac6f70_3
-$ module help quay.io/biocontainers/pkiss/2.2.14--pl5321h4ac6f70_3
+$ module load quay.io/biocontainers/pkiss/2.3.0--pl5321h4ac6f70_2
+$ module help quay.io/biocontainers/pkiss/2.3.0--pl5321h4ac6f70_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
