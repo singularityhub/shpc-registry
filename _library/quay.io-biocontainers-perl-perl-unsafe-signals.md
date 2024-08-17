@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-perl-unsafe-signals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-perl-unsafe-signals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-perl-unsafe-signals/container.yaml"
-updated_at: "2024-08-16 02:51:41.408368"
+updated_at: "2024-08-17 02:49:42.273201"
 latest: "0.03--pl5321h4ac6f70_7"
 container_url: "https://biocontainers.pro/tools/perl-perl-unsafe-signals"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metabinner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabinner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metabinner/container.yaml"
-updated_at: "2024-08-16 02:43:16.069841"
-latest: "1.4.4--hdfd78af_0"
+updated_at: "2024-08-17 02:41:09.082794"
+latest: "1.4.4--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/metabinner"
 aliases:
  - "FragGeneScan"
@@ -26,8 +26,9 @@ aliases:
  - "bwa"
 versions:
  - "1.4.4--hdfd78af_0"
+ - "1.4.4--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for metabinner"
-config: {"url": "https://biocontainers.pro/tools/metabinner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metabinner", "latest": {"1.4.4--hdfd78af_0": "sha256:88196b3069c92bf87c0612cf0e84eec2232b66cad0fa5cf0185579c2f9278772"}, "tags": {"1.4.4--hdfd78af_0": "sha256:88196b3069c92bf87c0612cf0e84eec2232b66cad0fa5cf0185579c2f9278772"}, "docker": "quay.io/biocontainers/metabinner", "aliases": {"FragGeneScan": "/usr/local/bin/FragGeneScan", "checkm": "/usr/local/bin/checkm", "hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "run_metabinner.sh": "/usr/local/bin/run_metabinner.sh", "rppr": "/usr/local/bin/rppr", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "dendropy-format": "/usr/local/bin/dendropy-format", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "prodigal": "/usr/local/bin/prodigal", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa"}}
+config: {"url": "https://biocontainers.pro/tools/metabinner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metabinner", "latest": {"1.4.4--hdfd78af_1": "sha256:e700129938b2f12473e00563474d56fdb6173bf8e93f401a8e75ab34a91616a2"}, "tags": {"1.4.4--hdfd78af_0": "sha256:88196b3069c92bf87c0612cf0e84eec2232b66cad0fa5cf0185579c2f9278772", "1.4.4--hdfd78af_1": "sha256:e700129938b2f12473e00563474d56fdb6173bf8e93f401a8e75ab34a91616a2"}, "docker": "quay.io/biocontainers/metabinner", "aliases": {"FragGeneScan": "/usr/local/bin/FragGeneScan", "checkm": "/usr/local/bin/checkm", "hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "run_metabinner.sh": "/usr/local/bin/run_metabinner.sh", "rppr": "/usr/local/bin/rppr", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "dendropy-format": "/usr/local/bin/dendropy-format", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "prodigal": "/usr/local/bin/prodigal", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metabinner.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/metabinner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metabinner:1.4.4--hdfd78af_0
+$ shpc install quay.io/biocontainers/metabinner:1.4.4--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metabinner/1.4.4--hdfd78af_0
-$ module help quay.io/biocontainers/metabinner/1.4.4--hdfd78af_0
+$ module load quay.io/biocontainers/metabinner/1.4.4--hdfd78af_1
+$ module help quay.io/biocontainers/metabinner/1.4.4--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

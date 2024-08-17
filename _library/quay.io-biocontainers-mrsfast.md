@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mrsfast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mrsfast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mrsfast/container.yaml"
-updated_at: "2024-08-16 02:46:46.846860"
+updated_at: "2024-08-17 02:44:44.372057"
 latest: "3.4.2--he4a0461_4"
 container_url: "https://biocontainers.pro/tools/mrsfast"
 aliases:

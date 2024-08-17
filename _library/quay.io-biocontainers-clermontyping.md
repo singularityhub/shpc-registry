@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clermontyping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clermontyping/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clermontyping/container.yaml"
-updated_at: "2024-08-16 03:16:48.260310"
-latest: "24.02--py312hdfd78af_0"
+updated_at: "2024-08-17 03:15:41.636914"
+latest: "24.02--py312hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/clermontyping"
 aliases:
  - "clermonTyping.sh"
@@ -39,8 +39,9 @@ aliases:
 versions:
  - "1.0.2--py312hdfd78af_0"
  - "24.02--py312hdfd78af_0"
+ - "24.02--py312hdfd78af_1"
 description: "singularity registry hpc automated addition for clermontyping"
-config: {"url": "https://biocontainers.pro/tools/clermontyping", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for clermontyping", "latest": {"24.02--py312hdfd78af_0": "sha256:29b471cb876ed1b56447159bd2fb874a81037433140e06cb162061cde7ea2771"}, "tags": {"1.0.2--py312hdfd78af_0": "sha256:0e2fa4621b5e49cc70162298f2e3fd96107100fe88083fa9f8b0b4189a4571c2", "24.02--py312hdfd78af_0": "sha256:29b471cb876ed1b56447159bd2fb874a81037433140e06cb162061cde7ea2771"}, "docker": "quay.io/biocontainers/clermontyping", "aliases": {"clermonTyping.sh": "/usr/local/bin/clermonTyping.sh", "numpy-config": "/usr/local/bin/numpy-config", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "seedtop": "/usr/local/bin/seedtop", "test_pcre": "/usr/local/bin/test_pcre", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "run_with_lock": "/usr/local/bin/run_with_lock", "pandoc": "/usr/local/bin/pandoc", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastn": "/usr/local/bin/blastn"}}
+config: {"url": "https://biocontainers.pro/tools/clermontyping", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for clermontyping", "latest": {"24.02--py312hdfd78af_1": "sha256:3eb15e3ca924e3b22a62409898045f159ccefa3d402acc0e75708fe22cbac4bf"}, "tags": {"1.0.2--py312hdfd78af_0": "sha256:0e2fa4621b5e49cc70162298f2e3fd96107100fe88083fa9f8b0b4189a4571c2", "24.02--py312hdfd78af_0": "sha256:29b471cb876ed1b56447159bd2fb874a81037433140e06cb162061cde7ea2771", "24.02--py312hdfd78af_1": "sha256:3eb15e3ca924e3b22a62409898045f159ccefa3d402acc0e75708fe22cbac4bf"}, "docker": "quay.io/biocontainers/clermontyping", "aliases": {"clermonTyping.sh": "/usr/local/bin/clermonTyping.sh", "numpy-config": "/usr/local/bin/numpy-config", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "seedtop": "/usr/local/bin/seedtop", "test_pcre": "/usr/local/bin/test_pcre", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "run_with_lock": "/usr/local/bin/run_with_lock", "pandoc": "/usr/local/bin/pandoc", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastn": "/usr/local/bin/blastn"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clermontyping.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/clermontyping
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clermontyping:24.02--py312hdfd78af_0
+$ shpc install quay.io/biocontainers/clermontyping:24.02--py312hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clermontyping/24.02--py312hdfd78af_0
-$ module help quay.io/biocontainers/clermontyping/24.02--py312hdfd78af_0
+$ module load quay.io/biocontainers/clermontyping/24.02--py312hdfd78af_1
+$ module help quay.io/biocontainers/clermontyping/24.02--py312hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

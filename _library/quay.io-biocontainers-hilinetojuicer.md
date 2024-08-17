@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hilinetojuicer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hilinetojuicer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hilinetojuicer/container.yaml"
-updated_at: "2024-08-16 02:38:53.206298"
+updated_at: "2024-08-17 02:36:45.815535"
 latest: "0.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hilinetojuicer"
 aliases:
