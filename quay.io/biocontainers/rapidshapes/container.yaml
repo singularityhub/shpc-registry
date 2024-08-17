@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rapidshapes
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rapidshapes
 latest:
-  2.1.0--pl5321h4ac6f70_0: sha256:f2a30ac3b6e684a9752f892af9b44427cde2ed91da6c2defa0f7bad1ab7667a2
+  2.1.0--pl5321h4ac6f70_1: sha256:315b39a5a288c4a6b83a1bebe7f132e6a9048001e00ac8a2f3e7d871bde09fb5
 tags:
   2.1.0--pl5321h4ac6f70_0: sha256:f2a30ac3b6e684a9752f892af9b44427cde2ed91da6c2defa0f7bad1ab7667a2
+  2.1.0--pl5321h4ac6f70_1: sha256:315b39a5a288c4a6b83a1bebe7f132e6a9048001e00ac8a2f3e7d871bde09fb5
 docker: quay.io/biocontainers/rapidshapes
 aliases:
   RapidShapes: /usr/local/bin/RapidShapes

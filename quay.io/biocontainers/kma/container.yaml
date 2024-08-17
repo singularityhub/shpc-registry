@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/kma
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kma
 latest:
-  1.4.14--he4a0461_1: sha256:af5d86d5d799dcbf208faf46f7dcf82861fdfe6e8f51584fef964421d90910ed
+  1.4.15--he4a0461_0: sha256:17726ad6e1b3706842f3ace170cad4202b35c0df9cb4ed6481488b6b965ddbab
 tags:
   1.4.0--h7132678_0: sha256:e92f97e163dd82fefa40e9c3794cb0ff6cd818c953d3cc78b739e3a51afcdfe1
   1.4.14--he4a0461_1: sha256:af5d86d5d799dcbf208faf46f7dcf82861fdfe6e8f51584fef964421d90910ed
+  1.4.15--he4a0461_0: sha256:17726ad6e1b3706842f3ace170cad4202b35c0df9cb4ed6481488b6b965ddbab
 docker: quay.io/biocontainers/kma
 aliases:
   kma: /usr/local/bin/kma

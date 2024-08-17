@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fraposa-pgsc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fraposa-pgsc
 latest:
-  0.1.1--pyhdfd78af_0: sha256:39481737495b15844c9257747f0f1c7dd2c58b9aeb81a7e1e540a948923d486b
+  1.0.2--pyhdfd78af_0: sha256:0db37166cd81e90e93d4ac33a8b7d64b01ef112d9c84b8ec480b24103841d011
 tags:
   0.1.1--pyhdfd78af_0: sha256:39481737495b15844c9257747f0f1c7dd2c58b9aeb81a7e1e540a948923d486b
+  1.0.2--pyhdfd78af_0: sha256:0db37166cd81e90e93d4ac33a8b7d64b01ef112d9c84b8ec480b24103841d011
 docker: quay.io/biocontainers/fraposa-pgsc
 aliases:
   fraposa: /usr/local/bin/fraposa
