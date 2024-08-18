@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/itolparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itolparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itolparser/container.yaml"
-updated_at: "2024-08-17 03:06:17.244054"
+updated_at: "2024-08-18 03:08:44.924128"
 latest: "0.2.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/itolparser"
 aliases:

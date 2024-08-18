@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-pod-usage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pod-usage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pod-usage/container.yaml"
-updated_at: "2024-08-17 02:49:55.818054"
+updated_at: "2024-08-18 02:52:53.871936"
 latest: "2.03--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-pod-usage"
 aliases:

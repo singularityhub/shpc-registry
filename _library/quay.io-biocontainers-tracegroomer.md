@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tracegroomer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tracegroomer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tracegroomer/container.yaml"
-updated_at: "2024-08-17 02:49:05.260291"
-latest: "0.1.3--pyhdfd78af_0"
+updated_at: "2024-08-18 02:52:04.188737"
+latest: "0.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tracegroomer"
 aliases:
  - "dmypy"
@@ -43,8 +43,9 @@ aliases:
 versions:
  - "0.1.2--pyhdfd78af_0"
  - "0.1.3--pyhdfd78af_0"
+ - "0.1.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for tracegroomer"
-config: {"url": "https://biocontainers.pro/tools/tracegroomer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tracegroomer", "latest": {"0.1.3--pyhdfd78af_0": "sha256:704b846ac4a1686502d9b50d7fd20a5392cb621305eb9e53a211fd346fd73d9d"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:54b02ed4929e909ad557f4b6ce5e8b39203f65a18e986d66637862dcaaa43bd5", "0.1.3--pyhdfd78af_0": "sha256:704b846ac4a1686502d9b50d7fd20a5392cb621305eb9e53a211fd346fd73d9d"}, "docker": "quay.io/biocontainers/tracegroomer", "aliases": {"dmypy": "/usr/local/bin/dmypy", "dotenv": "/usr/local/bin/dotenv", "mypy": "/usr/local/bin/mypy", "mypyc": "/usr/local/bin/mypyc", "stubgen": "/usr/local/bin/stubgen", "stubtest": "/usr/local/bin/stubtest", "tracegroomer": "/usr/local/bin/tracegroomer", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "docutils": "/usr/local/bin/docutils", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py", "rst2xml.py": "/usr/local/bin/rst2xml.py", "rstpep2html.py": "/usr/local/bin/rstpep2html.py", "pygmentize": "/usr/local/bin/pygmentize", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/tracegroomer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tracegroomer", "latest": {"0.1.4--pyhdfd78af_0": "sha256:1fba97cf6430ba8a09ee295d43b3d5a733c2667c279163480ef2b9ca2f15de37"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:54b02ed4929e909ad557f4b6ce5e8b39203f65a18e986d66637862dcaaa43bd5", "0.1.3--pyhdfd78af_0": "sha256:704b846ac4a1686502d9b50d7fd20a5392cb621305eb9e53a211fd346fd73d9d", "0.1.4--pyhdfd78af_0": "sha256:1fba97cf6430ba8a09ee295d43b3d5a733c2667c279163480ef2b9ca2f15de37"}, "docker": "quay.io/biocontainers/tracegroomer", "aliases": {"dmypy": "/usr/local/bin/dmypy", "dotenv": "/usr/local/bin/dotenv", "mypy": "/usr/local/bin/mypy", "mypyc": "/usr/local/bin/mypyc", "stubgen": "/usr/local/bin/stubgen", "stubtest": "/usr/local/bin/stubtest", "tracegroomer": "/usr/local/bin/tracegroomer", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "docutils": "/usr/local/bin/docutils", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py", "rst2xml.py": "/usr/local/bin/rst2xml.py", "rstpep2html.py": "/usr/local/bin/rstpep2html.py", "pygmentize": "/usr/local/bin/pygmentize", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tracegroomer.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/tracegroomer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tracegroomer:0.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/tracegroomer:0.1.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tracegroomer/0.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/tracegroomer/0.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/tracegroomer/0.1.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/tracegroomer/0.1.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

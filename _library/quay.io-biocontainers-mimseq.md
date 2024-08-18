@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mimseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mimseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mimseq/container.yaml"
-updated_at: "2024-08-17 02:40:33.833886"
+updated_at: "2024-08-18 02:43:40.456056"
 latest: "1.3.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mimseq"
 aliases:

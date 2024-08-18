@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fraposa-pgsc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fraposa-pgsc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fraposa-pgsc/container.yaml"
-updated_at: "2024-08-17 02:53:33.739064"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2024-08-18 02:56:27.696061"
+latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fraposa-pgsc"
 aliases:
  - "fraposa"
@@ -32,8 +32,9 @@ aliases:
  - "transicc"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for fraposa-pgsc"
-config: {"url": "https://biocontainers.pro/tools/fraposa-pgsc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fraposa-pgsc", "latest": {"0.1.1--pyhdfd78af_0": "sha256:39481737495b15844c9257747f0f1c7dd2c58b9aeb81a7e1e540a948923d486b"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:39481737495b15844c9257747f0f1c7dd2c58b9aeb81a7e1e540a948923d486b"}, "docker": "quay.io/biocontainers/fraposa-pgsc", "aliases": {"fraposa": "/usr/local/bin/fraposa", "fraposa_plot": "/usr/local/bin/fraposa_plot", "fraposa_pred": "/usr/local/bin/fraposa_pred", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/fraposa-pgsc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fraposa-pgsc", "latest": {"1.0.2--pyhdfd78af_0": "sha256:0db37166cd81e90e93d4ac33a8b7d64b01ef112d9c84b8ec480b24103841d011"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:39481737495b15844c9257747f0f1c7dd2c58b9aeb81a7e1e540a948923d486b", "1.0.2--pyhdfd78af_0": "sha256:0db37166cd81e90e93d4ac33a8b7d64b01ef112d9c84b8ec480b24103841d011"}, "docker": "quay.io/biocontainers/fraposa-pgsc", "aliases": {"fraposa": "/usr/local/bin/fraposa", "fraposa_plot": "/usr/local/bin/fraposa_plot", "fraposa_pred": "/usr/local/bin/fraposa_pred", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fraposa-pgsc.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/fraposa-pgsc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fraposa-pgsc:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/fraposa-pgsc:1.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fraposa-pgsc/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/fraposa-pgsc/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/fraposa-pgsc/1.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/fraposa-pgsc/1.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

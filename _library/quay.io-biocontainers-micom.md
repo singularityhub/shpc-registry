@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/micom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/micom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/micom/container.yaml"
-updated_at: "2024-08-17 02:49:23.414569"
-latest: "0.35.0--pyhdfd78af_0"
+updated_at: "2024-08-18 02:52:21.724979"
+latest: "0.36.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/micom"
 aliases:
  - "httpx"
@@ -30,8 +30,9 @@ versions:
  - "0.33.2--pyhdfd78af_0"
  - "0.34.1--pyhdfd78af_0"
  - "0.35.0--pyhdfd78af_0"
+ - "0.36.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for micom"
-config: {"url": "https://biocontainers.pro/tools/micom", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for micom", "latest": {"0.35.0--pyhdfd78af_0": "sha256:92a57db4027b32882993626adcd44558def0bdab406e49c91cb3f7ba9371270c"}, "tags": {"0.32.2--pyhdfd78af_0": "sha256:e88e4949c421da1c631562600ebdd2066b9e4d52b7caeb037ac64e6883d7c2d5", "0.32.5--pyhdfd78af_0": "sha256:8fb96ca2d0196ae736acc4a1110762499e8c9dd7b5461f49914224dcd3bbc0ad", "0.33.0--pyhdfd78af_0": "sha256:5f97f12bb8f4e8e5de9794118d901485dc09db5885fc0c66f39220236778c994", "0.33.1--pyhdfd78af_0": "sha256:53180a67df7aa32190449cba3e982d03ef60a2ee1f4599f484a0ad5261862b98", "0.33.2--pyhdfd78af_0": "sha256:c5e5374adf5e7deb743136c3c67a2ee0c7342a1b8fc7cad23888d884b5497f5b", "0.34.1--pyhdfd78af_0": "sha256:b78b48438b08852149910807d68cc996c84d7b19f7bf6159add7dae88a5550e1", "0.35.0--pyhdfd78af_0": "sha256:92a57db4027b32882993626adcd44558def0bdab406e49c91cb3f7ba9371270c"}, "docker": "quay.io/biocontainers/micom", "aliases": {"httpx": "/usr/local/bin/httpx", "isympy": "/usr/local/bin/isympy", "cmark": "/usr/local/bin/cmark", "glpsol": "/usr/local/bin/glpsol", "pygmentize": "/usr/local/bin/pygmentize", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/micom", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for micom", "latest": {"0.36.3--pyhdfd78af_0": "sha256:9a9d2c413d660db91342c0a637ffaef46055cb1c65944faf706afc81a8e4b4a2"}, "tags": {"0.32.2--pyhdfd78af_0": "sha256:e88e4949c421da1c631562600ebdd2066b9e4d52b7caeb037ac64e6883d7c2d5", "0.32.5--pyhdfd78af_0": "sha256:8fb96ca2d0196ae736acc4a1110762499e8c9dd7b5461f49914224dcd3bbc0ad", "0.33.0--pyhdfd78af_0": "sha256:5f97f12bb8f4e8e5de9794118d901485dc09db5885fc0c66f39220236778c994", "0.33.1--pyhdfd78af_0": "sha256:53180a67df7aa32190449cba3e982d03ef60a2ee1f4599f484a0ad5261862b98", "0.33.2--pyhdfd78af_0": "sha256:c5e5374adf5e7deb743136c3c67a2ee0c7342a1b8fc7cad23888d884b5497f5b", "0.34.1--pyhdfd78af_0": "sha256:b78b48438b08852149910807d68cc996c84d7b19f7bf6159add7dae88a5550e1", "0.35.0--pyhdfd78af_0": "sha256:92a57db4027b32882993626adcd44558def0bdab406e49c91cb3f7ba9371270c", "0.36.3--pyhdfd78af_0": "sha256:9a9d2c413d660db91342c0a637ffaef46055cb1c65944faf706afc81a8e4b4a2"}, "docker": "quay.io/biocontainers/micom", "aliases": {"httpx": "/usr/local/bin/httpx", "isympy": "/usr/local/bin/isympy", "cmark": "/usr/local/bin/cmark", "glpsol": "/usr/local/bin/glpsol", "pygmentize": "/usr/local/bin/pygmentize", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/micom.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/micom
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/micom:0.35.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/micom:0.36.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/micom/0.35.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/micom/0.35.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/micom/0.36.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/micom/0.36.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

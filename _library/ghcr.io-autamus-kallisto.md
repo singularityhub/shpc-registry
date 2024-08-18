@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/kallisto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/kallisto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/kallisto/container.yaml"
-updated_at: "2024-08-17 02:34:59.224659"
+updated_at: "2024-08-18 02:38:11.711664"
 latest: "0.48.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/kallisto"
 aliases:

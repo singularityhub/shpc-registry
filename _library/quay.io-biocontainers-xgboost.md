@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xgboost"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xgboost/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xgboost/container.yaml"
-updated_at: "2024-08-17 03:10:26.768767"
+updated_at: "2024-08-18 03:12:49.656263"
 latest: "0.6a2--py27_0"
 container_url: "https://biocontainers.pro/tools/xgboost"
 aliases:

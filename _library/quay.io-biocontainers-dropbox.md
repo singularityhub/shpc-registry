@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dropbox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dropbox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dropbox/container.yaml"
-updated_at: "2024-08-17 02:56:09.847467"
+updated_at: "2024-08-18 02:59:00.642612"
 latest: "5.2.1--py36_0"
 container_url: "https://biocontainers.pro/tools/dropbox"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-reder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reder/container.yaml"
-updated_at: "2024-08-17 03:12:32.015938"
+updated_at: "2024-08-18 03:14:53.506410"
 latest: "2.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-reder"
 

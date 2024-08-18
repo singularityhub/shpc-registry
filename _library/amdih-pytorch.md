@@ -4,7 +4,7 @@ name:  "amdih/pytorch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/amdih/pytorch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/amdih/pytorch/container.yaml"
-updated_at: "2024-08-17 02:35:50.856865"
+updated_at: "2024-08-18 02:39:02.073610"
 latest: "rocm5.0_ubuntu18.04_py3.7_pytorch_1.10.0"
 container_url: "https://www.amd.com/en/technologies/infinity-hub/pytorch"
 aliases:

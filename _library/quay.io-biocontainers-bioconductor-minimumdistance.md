@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-minimumdistance"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-minimumdistance/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-minimumdistance/container.yaml"
-updated_at: "2024-08-17 03:12:26.214814"
+updated_at: "2024-08-18 03:14:47.656819"
 latest: "1.46.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-minimumdistance"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-phipdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phipdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phipdata/container.yaml"
-updated_at: "2024-08-17 02:48:04.097318"
+updated_at: "2024-08-18 02:51:04.133047"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phipdata"
 

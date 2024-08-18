@@ -4,7 +4,7 @@ name:  "rocker/shiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/shiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/shiny/container.yaml"
-updated_at: "2024-08-17 02:35:48.841840"
+updated_at: "2024-08-18 02:39:00.046323"
 latest: "4.4.1"
 container_url: "https://hub.docker.com/r/rocker/shiny"
 aliases:

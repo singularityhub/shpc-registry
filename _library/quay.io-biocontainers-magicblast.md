@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/magicblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magicblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/magicblast/container.yaml"
-updated_at: "2024-08-17 02:45:41.987452"
+updated_at: "2024-08-18 02:48:42.960438"
 latest: "1.7.0--hf1761c0_0"
 container_url: "https://biocontainers.pro/tools/magicblast"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galaxy-schema"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-schema/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-schema/container.yaml"
-updated_at: "2024-08-17 03:11:47.849844"
+updated_at: "2024-08-18 03:14:09.996826"
 latest: "24.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galaxy-schema"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/potrace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/potrace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/potrace/container.yaml"
-updated_at: "2024-08-17 03:06:24.229387"
+updated_at: "2024-08-18 03:08:51.818206"
 latest: "1.11--he4a0461_6"
 container_url: "https://biocontainers.pro/tools/potrace"
 aliases:
