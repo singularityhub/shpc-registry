@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/nedbit-features-calculator
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nedbit-features-calculator
+latest:
+  1.2--h031d066_1: sha256:6900fc69acc32c4a8f54d7a17d39a0a00b7b5280622fabdb6599399c6c82dc25
+tags:
+  1.2--h031d066_1: sha256:6900fc69acc32c4a8f54d7a17d39a0a00b7b5280622fabdb6599399c6c82dc25
+docker: quay.io/biocontainers/nedbit-features-calculator
+aliases:
+  nedbit-features-calculator: /usr/local/bin/nedbit-features-calculator

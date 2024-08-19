@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/nanocount
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nanocount
+latest:
+  1.0.0.post6--pyhdfd78af_0: sha256:e5f32e8fc62e2b51e9175a4b25c4717eaa805443efab73f0f3d2f9c66078b4e6
+tags:
+  1.0.0.post6--pyhdfd78af_0: sha256:e5f32e8fc62e2b51e9175a4b25c4717eaa805443efab73f0f3d2f9c66078b4e6
+docker: quay.io/biocontainers/nanocount
+aliases:
+  NanoCount: /usr/local/bin/NanoCount
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm
