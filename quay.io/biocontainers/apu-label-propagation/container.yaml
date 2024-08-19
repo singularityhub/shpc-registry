@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/apu-label-propagation
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for apu-label-propagation
+latest:
+  1.2--h031d066_2: sha256:56ad53a43284dd1749dab6779d5712a37d2a17f716c1a7bd6a9cfaca6609c197
+tags:
+  1.2--h031d066_2: sha256:56ad53a43284dd1749dab6779d5712a37d2a17f716c1a7bd6a9cfaca6609c197
+docker: quay.io/biocontainers/apu-label-propagation
+aliases:
+  apu-label-propagation: /usr/local/bin/apu-label-propagation

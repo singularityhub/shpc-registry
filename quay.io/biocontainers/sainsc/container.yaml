@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/sainsc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sainsc
+latest:
+  0.1.1--py310hec43fc7_2: sha256:3e2c49122f3ad6f03c825d0e2c0ca66f8287600427866407a51f0f58efeef115
+tags:
+  0.1.1--py310hec43fc7_2: sha256:3e2c49122f3ad6f03c825d0e2c0ca66f8287600427866407a51f0f58efeef115
+docker: quay.io/biocontainers/sainsc
+aliases:
+  rav1e: /usr/local/bin/rav1e
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  dav1d: /usr/local/bin/dav1d
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  tiffcomment: /usr/local/bin/tiffcomment
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  imageio_download_bin: /usr/local/bin/imageio_download_bin
+  imageio_remove_bin: /usr/local/bin/imageio_remove_bin
+  skivi: /usr/local/bin/skivi
