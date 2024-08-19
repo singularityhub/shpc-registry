@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fftwtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fftwtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fftwtools/container.yaml"
-updated_at: "2024-08-18 03:03:53.261901"
+updated_at: "2024-08-19 03:04:36.485593"
 latest: "0.9.7--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-fftwtools"
 aliases:

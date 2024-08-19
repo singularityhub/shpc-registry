@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msbackendmassbank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msbackendmassbank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msbackendmassbank/container.yaml"
-updated_at: "2024-08-18 03:11:33.283408"
+updated_at: "2024-08-19 03:12:11.986306"
 latest: "1.10.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msbackendmassbank"
 

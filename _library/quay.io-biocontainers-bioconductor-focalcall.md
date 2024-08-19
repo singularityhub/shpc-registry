@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-focalcall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-focalcall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-focalcall/container.yaml"
-updated_at: "2024-08-18 02:49:34.330421"
+updated_at: "2024-08-19 02:50:15.270927"
 latest: "1.21.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-focalcall"
 aliases:

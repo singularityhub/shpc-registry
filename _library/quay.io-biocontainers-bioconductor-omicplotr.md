@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-omicplotr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicplotr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicplotr/container.yaml"
-updated_at: "2024-08-18 02:45:03.180137"
+updated_at: "2024-08-19 02:45:46.007555"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicplotr"
 aliases:
