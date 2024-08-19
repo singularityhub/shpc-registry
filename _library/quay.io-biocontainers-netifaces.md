@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/netifaces"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/netifaces/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/netifaces/container.yaml"
-updated_at: "2024-08-19 02:50:42.864663"
+updated_at: "2024-08-19 03:49:10.337344"
 latest: "0.10.4--py36_1"
 container_url: "https://biocontainers.pro/tools/netifaces"
 aliases:

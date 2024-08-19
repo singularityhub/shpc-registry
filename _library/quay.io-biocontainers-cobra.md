@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cobra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cobra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cobra/container.yaml"
-updated_at: "2024-08-19 02:46:01.107400"
+updated_at: "2024-08-19 03:44:13.935791"
 latest: "0.21.0--pyh5e36f6f_1"
 container_url: "https://biocontainers.pro/tools/cobra"
 aliases:

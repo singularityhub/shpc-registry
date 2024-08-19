@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pylibseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pylibseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pylibseq/container.yaml"
-updated_at: "2024-08-19 02:48:44.548493"
+updated_at: "2024-08-19 03:47:05.616093"
 latest: "0.2.3--py310hb8f9c3a_7"
 container_url: "https://biocontainers.pro/tools/pylibseq"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zga/container.yaml"
-updated_at: "2024-08-19 03:00:22.514580"
+updated_at: "2024-08-19 03:59:10.435140"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/zga"
 aliases:

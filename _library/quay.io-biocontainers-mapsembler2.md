@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mapsembler2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapsembler2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapsembler2/container.yaml"
-updated_at: "2024-08-19 02:52:43.262388"
+updated_at: "2024-08-19 03:51:16.770965"
 latest: "2.2.4--2"
 container_url: "https://biocontainers.pro/tools/mapsembler2"
 aliases:
