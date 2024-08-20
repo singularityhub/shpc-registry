@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/segalign-galaxy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for segalign-galaxy
 latest:
-  0.1.2.7--hdfd78af_0: sha256:605a9cf4d0a04f4a618c6aa82af1278dfd9b5933841cf3bc0f1547f9f943cdd7
+  0.1.2.7--hdfd78af_2: sha256:f62e8d35ad1bc087542ea6b016caeb971d3bc1a229735c8cee828a70b61ec95a
 tags:
   0.1.2.7--hdfd78af_0: sha256:605a9cf4d0a04f4a618c6aa82af1278dfd9b5933841cf3bc0f1547f9f943cdd7
+  0.1.2.7--hdfd78af_2: sha256:f62e8d35ad1bc087542ea6b016caeb971d3bc1a229735c8cee828a70b61ec95a
 docker: quay.io/biocontainers/segalign-galaxy
 aliases:
   bash: /usr/local/bin/bash
