@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/smof"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smof/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smof/container.yaml"
-updated_at: "2024-08-19 04:11:42.621525"
-latest: "2.22.2--pyhdfd78af_0"
+updated_at: "2024-08-20 03:10:58.541522"
+latest: "2.22.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/smof"
 aliases:
  - "smof"
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "2.22.2--pyhdfd78af_0"
+ - "2.22.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for smof"
-config: {"url": "https://biocontainers.pro/tools/smof", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smof", "latest": {"2.22.2--pyhdfd78af_0": "sha256:5338621ccbbe58f42226b00f94dc91a4cf274f8464e556245330a4b7651a363e"}, "tags": {"2.22.2--pyhdfd78af_0": "sha256:5338621ccbbe58f42226b00f94dc91a4cf274f8464e556245330a4b7651a363e"}, "docker": "quay.io/biocontainers/smof", "aliases": {"smof": "/usr/local/bin/smof", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/smof", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smof", "latest": {"2.22.4--pyhdfd78af_0": "sha256:a155f7e6fa61908e914c7da84e3b79b133d93bb40d12971f0012b7f6e17bd4c4"}, "tags": {"2.22.2--pyhdfd78af_0": "sha256:5338621ccbbe58f42226b00f94dc91a4cf274f8464e556245330a4b7651a363e", "2.22.4--pyhdfd78af_0": "sha256:a155f7e6fa61908e914c7da84e3b79b133d93bb40d12971f0012b7f6e17bd4c4"}, "docker": "quay.io/biocontainers/smof", "aliases": {"smof": "/usr/local/bin/smof", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smof.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/smof
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/smof:2.22.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/smof:2.22.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/smof/2.22.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/smof/2.22.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/smof/2.22.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/smof/2.22.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

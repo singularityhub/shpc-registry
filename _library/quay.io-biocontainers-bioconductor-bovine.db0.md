@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bovine.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bovine.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bovine.db0/container.yaml"
-updated_at: "2024-08-19 04:00:52.181721"
+updated_at: "2024-08-20 03:00:22.780708"
 latest: "3.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bovine.db0"
 aliases:

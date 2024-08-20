@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-screencounter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-screencounter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-screencounter/container.yaml"
-updated_at: "2024-08-19 04:12:24.867392"
+updated_at: "2024-08-20 03:11:40.423153"
 latest: "1.2.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-screencounter"
 aliases:

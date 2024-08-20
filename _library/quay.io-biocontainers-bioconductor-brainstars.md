@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-brainstars"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-brainstars/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-brainstars/container.yaml"
-updated_at: "2024-08-19 03:42:56.866140"
+updated_at: "2024-08-20 02:43:10.916647"
 latest: "1.34.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-brainstars"
 aliases:

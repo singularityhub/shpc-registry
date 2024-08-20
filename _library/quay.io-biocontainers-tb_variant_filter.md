@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tb_variant_filter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tb_variant_filter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tb_variant_filter/container.yaml"
-updated_at: "2024-08-19 04:00:44.484600"
+updated_at: "2024-08-20 03:00:15.074614"
 latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tb_variant_filter"
 aliases:

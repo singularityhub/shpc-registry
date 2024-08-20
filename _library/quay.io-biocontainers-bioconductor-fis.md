@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fis/container.yaml"
-updated_at: "2024-08-19 03:46:23.899291"
+updated_at: "2024-08-20 02:46:28.335695"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fis"
 aliases:

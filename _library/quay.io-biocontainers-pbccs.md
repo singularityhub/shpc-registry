@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbccs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbccs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbccs/container.yaml"
-updated_at: "2024-08-19 04:04:50.081998"
+updated_at: "2024-08-20 03:04:17.544194"
 latest: "6.4.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/pbccs"
 aliases:
