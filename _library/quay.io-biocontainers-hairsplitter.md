@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hairsplitter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hairsplitter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hairsplitter/container.yaml"
-updated_at: "2024-08-20 02:50:01.038472"
-latest: "1.9.5--h8b7377a_0"
+updated_at: "2024-08-21 02:50:10.654045"
+latest: "1.9.10--h8b7377a_1"
 container_url: "https://biocontainers.pro/tools/hairsplitter"
 aliases:
  - "HS_GenomeTailor"
@@ -56,8 +56,9 @@ versions:
  - "1.7.15--h8b7377a_0"
  - "1.8.0--h8b7377a_0"
  - "1.9.5--h8b7377a_0"
+ - "1.9.10--h8b7377a_1"
 description: "singularity registry hpc automated addition for hairsplitter"
-config: {"url": "https://biocontainers.pro/tools/hairsplitter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hairsplitter", "latest": {"1.9.5--h8b7377a_0": "sha256:2e1148cf748d6d37f5cca58165beefbc6198d8838d9aba38e6f921a8c2ae3f2c"}, "tags": {"1.7.13--h8b7377a_0": "sha256:87ddff83e68e0f9d16b3d5a26d7dd7699f0d96fadb03963928fb3e18227acfa1", "1.7.15--h8b7377a_0": "sha256:3ac883964064e67a8a7adc2a70c1b6acdee25f7e58fb74abfb88ef9fdb58728b", "1.8.0--h8b7377a_0": "sha256:b4eb1f2c3ae5cfa6dd149c3ad787499a04a91de5b52ba77752b3da45d9bdca76", "1.9.5--h8b7377a_0": "sha256:2e1148cf748d6d37f5cca58165beefbc6198d8838d9aba38e6f921a8c2ae3f2c"}, "docker": "quay.io/biocontainers/hairsplitter", "aliases": {"HS_GenomeTailor": "/usr/local/bin/HS_GenomeTailor", "HS_call_variants": "/usr/local/bin/HS_call_variants", "HS_create_new_contigs": "/usr/local/bin/HS_create_new_contigs", "HS_fa2gfa": "/usr/local/bin/HS_fa2gfa", "HS_gfa2fa": "/usr/local/bin/HS_gfa2fa", "HS_separate_reads": "/usr/local/bin/HS_separate_reads", "cut_gfa.py": "/usr/local/bin/cut_gfa.py", "determine_multiplicity.py": "/usr/local/bin/determine_multiplicity.py", "finish_untangling.py": "/usr/local/bin/finish_untangling.py", "graphunzip.py": "/usr/local/bin/graphunzip.py", "hairsplitter.py": "/usr/local/bin/hairsplitter.py", "input_output.py": "/usr/local/bin/input_output.py", "minigraph": "/usr/local/bin/minigraph", "raven": "/usr/local/bin/raven", "repolish.py": "/usr/local/bin/repolish.py", "segment.py": "/usr/local/bin/segment.py", "simple_unzip.py": "/usr/local/bin/simple_unzip.py", "transform_gfa.py": "/usr/local/bin/transform_gfa.py", "annot-tsv": "/usr/local/bin/annot-tsv", "rampler": "/usr/local/bin/rampler", "racon": "/usr/local/bin/racon", "racon_wrapper": "/usr/local/bin/racon_wrapper", "sdust": "/usr/local/bin/sdust", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats"}}
+config: {"url": "https://biocontainers.pro/tools/hairsplitter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hairsplitter", "latest": {"1.9.10--h8b7377a_1": "sha256:bf574a95a634808d81ab335e630cfbcff98f97b18d0718fcaf1d2c5efeb7aab0"}, "tags": {"1.7.13--h8b7377a_0": "sha256:87ddff83e68e0f9d16b3d5a26d7dd7699f0d96fadb03963928fb3e18227acfa1", "1.7.15--h8b7377a_0": "sha256:3ac883964064e67a8a7adc2a70c1b6acdee25f7e58fb74abfb88ef9fdb58728b", "1.8.0--h8b7377a_0": "sha256:b4eb1f2c3ae5cfa6dd149c3ad787499a04a91de5b52ba77752b3da45d9bdca76", "1.9.5--h8b7377a_0": "sha256:2e1148cf748d6d37f5cca58165beefbc6198d8838d9aba38e6f921a8c2ae3f2c", "1.9.10--h8b7377a_1": "sha256:bf574a95a634808d81ab335e630cfbcff98f97b18d0718fcaf1d2c5efeb7aab0"}, "docker": "quay.io/biocontainers/hairsplitter", "aliases": {"HS_GenomeTailor": "/usr/local/bin/HS_GenomeTailor", "HS_call_variants": "/usr/local/bin/HS_call_variants", "HS_create_new_contigs": "/usr/local/bin/HS_create_new_contigs", "HS_fa2gfa": "/usr/local/bin/HS_fa2gfa", "HS_gfa2fa": "/usr/local/bin/HS_gfa2fa", "HS_separate_reads": "/usr/local/bin/HS_separate_reads", "cut_gfa.py": "/usr/local/bin/cut_gfa.py", "determine_multiplicity.py": "/usr/local/bin/determine_multiplicity.py", "finish_untangling.py": "/usr/local/bin/finish_untangling.py", "graphunzip.py": "/usr/local/bin/graphunzip.py", "hairsplitter.py": "/usr/local/bin/hairsplitter.py", "input_output.py": "/usr/local/bin/input_output.py", "minigraph": "/usr/local/bin/minigraph", "raven": "/usr/local/bin/raven", "repolish.py": "/usr/local/bin/repolish.py", "segment.py": "/usr/local/bin/segment.py", "simple_unzip.py": "/usr/local/bin/simple_unzip.py", "transform_gfa.py": "/usr/local/bin/transform_gfa.py", "annot-tsv": "/usr/local/bin/annot-tsv", "rampler": "/usr/local/bin/rampler", "racon": "/usr/local/bin/racon", "racon_wrapper": "/usr/local/bin/racon_wrapper", "sdust": "/usr/local/bin/sdust", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hairsplitter.
@@ -72,7 +73,7 @@ $ shpc install quay.io/biocontainers/hairsplitter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hairsplitter:1.9.5--h8b7377a_0
+$ shpc install quay.io/biocontainers/hairsplitter:1.9.10--h8b7377a_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -84,8 +85,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hairsplitter/1.9.5--h8b7377a_0
-$ module help quay.io/biocontainers/hairsplitter/1.9.5--h8b7377a_0
+$ module load quay.io/biocontainers/hairsplitter/1.9.10--h8b7377a_1
+$ module help quay.io/biocontainers/hairsplitter/1.9.10--h8b7377a_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

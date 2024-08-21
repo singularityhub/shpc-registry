@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/segalign-galaxy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/segalign-galaxy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/segalign-galaxy/container.yaml"
-updated_at: "2024-08-20 02:51:29.399910"
-latest: "0.1.2.7--hdfd78af_0"
+updated_at: "2024-08-21 02:51:40.754323"
+latest: "0.1.2.7--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/segalign-galaxy"
 aliases:
  - "bash"
@@ -44,8 +44,9 @@ aliases:
  - "date"
 versions:
  - "0.1.2.7--hdfd78af_0"
+ - "0.1.2.7--hdfd78af_2"
 description: "singularity registry hpc automated addition for segalign-galaxy"
-config: {"url": "https://biocontainers.pro/tools/segalign-galaxy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for segalign-galaxy", "latest": {"0.1.2.7--hdfd78af_0": "sha256:605a9cf4d0a04f4a618c6aa82af1278dfd9b5933841cf3bc0f1547f9f943cdd7"}, "tags": {"0.1.2.7--hdfd78af_0": "sha256:605a9cf4d0a04f4a618c6aa82af1278dfd9b5933841cf3bc0f1547f9f943cdd7"}, "docker": "quay.io/biocontainers/segalign-galaxy", "aliases": {"bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "lastz": "/usr/local/bin/lastz", "lastz_32": "/usr/local/bin/lastz_32", "lastz_D": "/usr/local/bin/lastz_D", "run_segalign": "/usr/local/bin/run_segalign", "run_segalign_repeat_masker": "/usr/local/bin/run_segalign_repeat_masker", "segalign": "/usr/local/bin/segalign", "segalign_repeat_masker": "/usr/local/bin/segalign_repeat_masker", "time": "/usr/local/bin/time", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "gawkbug": "/usr/local/bin/gawkbug", "grep": "/usr/local/bin/grep", "faToTwoBit": "/usr/local/bin/faToTwoBit", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date"}}
+config: {"url": "https://biocontainers.pro/tools/segalign-galaxy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for segalign-galaxy", "latest": {"0.1.2.7--hdfd78af_2": "sha256:f62e8d35ad1bc087542ea6b016caeb971d3bc1a229735c8cee828a70b61ec95a"}, "tags": {"0.1.2.7--hdfd78af_0": "sha256:605a9cf4d0a04f4a618c6aa82af1278dfd9b5933841cf3bc0f1547f9f943cdd7", "0.1.2.7--hdfd78af_2": "sha256:f62e8d35ad1bc087542ea6b016caeb971d3bc1a229735c8cee828a70b61ec95a"}, "docker": "quay.io/biocontainers/segalign-galaxy", "aliases": {"bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "lastz": "/usr/local/bin/lastz", "lastz_32": "/usr/local/bin/lastz_32", "lastz_D": "/usr/local/bin/lastz_D", "run_segalign": "/usr/local/bin/run_segalign", "run_segalign_repeat_masker": "/usr/local/bin/run_segalign_repeat_masker", "segalign": "/usr/local/bin/segalign", "segalign_repeat_masker": "/usr/local/bin/segalign_repeat_masker", "time": "/usr/local/bin/time", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "gawkbug": "/usr/local/bin/gawkbug", "grep": "/usr/local/bin/grep", "faToTwoBit": "/usr/local/bin/faToTwoBit", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/segalign-galaxy.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/segalign-galaxy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/segalign-galaxy:0.1.2.7--hdfd78af_0
+$ shpc install quay.io/biocontainers/segalign-galaxy:0.1.2.7--hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/segalign-galaxy/0.1.2.7--hdfd78af_0
-$ module help quay.io/biocontainers/segalign-galaxy/0.1.2.7--hdfd78af_0
+$ module load quay.io/biocontainers/segalign-galaxy/0.1.2.7--hdfd78af_2
+$ module help quay.io/biocontainers/segalign-galaxy/0.1.2.7--hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

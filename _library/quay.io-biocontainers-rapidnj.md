@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/rapidnj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rapidnj/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rapidnj/container.yaml"
-updated_at: "2024-08-20 02:40:44.496925"
-latest: "2.3.2--h4ac6f70_4"
+updated_at: "2024-08-21 02:40:42.126663"
+latest: "2.3.2--h4ac6f70_5"
 container_url: "https://biocontainers.pro/tools/rapidnj"
 aliases:
  - "rapidnj"
 versions:
  - "v2.3.2--hc9558a2_2"
  - "2.3.2--h4ac6f70_4"
+ - "2.3.2--h4ac6f70_5"
 description: "shpc-registry automated BioContainers addition for rapidnj"
-config: {"url": "https://biocontainers.pro/tools/rapidnj", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rapidnj", "latest": {"2.3.2--h4ac6f70_4": "sha256:34592a643def95ddda29de76ad78380f3b298d7112a29556bff652d67dbd24a6"}, "tags": {"v2.3.2--hc9558a2_2": "sha256:954cf73252442f5e037d53f07b8e74b96bbd1636db1baa44b6d18d4006e8a63a", "2.3.2--h4ac6f70_4": "sha256:34592a643def95ddda29de76ad78380f3b298d7112a29556bff652d67dbd24a6"}, "docker": "quay.io/biocontainers/rapidnj", "aliases": {"rapidnj": "/usr/local/bin/rapidnj"}}
+config: {"url": "https://biocontainers.pro/tools/rapidnj", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rapidnj", "latest": {"2.3.2--h4ac6f70_5": "sha256:5664656d995550a3fffc4b57a0d2fb7dab3df1f25e43f47f70671aa9295ab6e7"}, "tags": {"v2.3.2--hc9558a2_2": "sha256:954cf73252442f5e037d53f07b8e74b96bbd1636db1baa44b6d18d4006e8a63a", "2.3.2--h4ac6f70_4": "sha256:34592a643def95ddda29de76ad78380f3b298d7112a29556bff652d67dbd24a6", "2.3.2--h4ac6f70_5": "sha256:5664656d995550a3fffc4b57a0d2fb7dab3df1f25e43f47f70671aa9295ab6e7"}, "docker": "quay.io/biocontainers/rapidnj", "aliases": {"rapidnj": "/usr/local/bin/rapidnj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rapidnj.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/rapidnj
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rapidnj:2.3.2--h4ac6f70_4
+$ shpc install quay.io/biocontainers/rapidnj:2.3.2--h4ac6f70_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rapidnj/2.3.2--h4ac6f70_4
-$ module help quay.io/biocontainers/rapidnj/2.3.2--h4ac6f70_4
+$ module load quay.io/biocontainers/rapidnj/2.3.2--h4ac6f70_5
+$ module help quay.io/biocontainers/rapidnj/2.3.2--h4ac6f70_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

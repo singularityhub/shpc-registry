@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deltamsi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deltamsi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deltamsi/container.yaml"
-updated_at: "2024-08-20 02:58:43.671502"
+updated_at: "2024-08-21 02:59:03.971872"
 latest: "1.0.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/deltamsi"
 aliases:

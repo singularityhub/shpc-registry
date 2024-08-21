@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samstats/container.yaml"
-updated_at: "2024-08-20 02:43:53.811781"
+updated_at: "2024-08-21 02:43:56.315624"
 latest: "0.2.2--py_0"
 container_url: "https://biocontainers.pro/tools/samstats"
 aliases:

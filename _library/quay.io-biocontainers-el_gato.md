@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/el_gato"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/el_gato/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/el_gato/container.yaml"
-updated_at: "2024-08-20 03:02:44.742698"
+updated_at: "2024-08-21 03:03:10.714644"
 latest: "1.18.0--py311hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/el_gato"
 aliases:
