@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/segalign-full
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for segalign-full
 latest:
-  0.1.2.7--hdfd78af_0: sha256:958e12f10362e589fb1e983791e03cafe1504d944d0cbd5b968a124e8d6b09bc
+  0.1.2.7--hdfd78af_1: sha256:6991ddff6ff67259b06194a77c6394110a517be75df9ae5c7ac4e6520e5b299a
 tags:
   0.1.2--hdfd78af_1: sha256:9dc369f7d2847366c58c1ec3460a6f31bd75216ef5c7e9201997fef44867b21d
   0.1.2.1--hdfd78af_0: sha256:9ed4c344d030c38b5f14dea0227a77ac148b8d4468d51ba91a19405ca6380c31
   0.1.2.2--hdfd78af_0: sha256:e62ac55a6f57359ae61e1394956170b7fa2f0a13d3dab7cef38ed7f02a019281
   0.1.2.7--hdfd78af_0: sha256:958e12f10362e589fb1e983791e03cafe1504d944d0cbd5b968a124e8d6b09bc
+  0.1.2.7--hdfd78af_1: sha256:6991ddff6ff67259b06194a77c6394110a517be75df9ae5c7ac4e6520e5b299a
 docker: quay.io/biocontainers/segalign-full
 aliases:
   lastz: /usr/local/bin/lastz
