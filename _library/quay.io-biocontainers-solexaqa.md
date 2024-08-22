@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/solexaqa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/solexaqa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/solexaqa/container.yaml"
-updated_at: "2024-08-21 03:08:02.845829"
+updated_at: "2024-08-22 03:08:25.120754"
 latest: "3.1.7.1--hd81c4a5_6"
 container_url: "https://biocontainers.pro/tools/solexaqa"
 aliases:

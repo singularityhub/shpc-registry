@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/velvet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/velvet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/velvet/container.yaml"
-updated_at: "2024-08-21 03:20:51.797203"
+updated_at: "2024-08-22 03:20:48.467466"
 latest: "1.2.10--he4a0461_7"
 container_url: "https://biocontainers.pro/tools/velvet"
 aliases:
