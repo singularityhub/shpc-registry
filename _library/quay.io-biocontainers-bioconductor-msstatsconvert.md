@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msstatsconvert"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msstatsconvert/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msstatsconvert/container.yaml"
-updated_at: "2024-08-22 02:50:13.300677"
+updated_at: "2024-08-22 19:39:24.054535"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msstatsconvert"
 

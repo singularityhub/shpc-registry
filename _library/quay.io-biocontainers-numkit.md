@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/numkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/numkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/numkit/container.yaml"
-updated_at: "2024-08-22 02:55:53.165409"
+updated_at: "2024-08-22 19:45:06.655234"
 latest: "1.2.2--pyh5e36f6f_1"
 container_url: "https://biocontainers.pro/tools/numkit"
 aliases:

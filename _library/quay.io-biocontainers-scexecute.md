@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scexecute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scexecute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scexecute/container.yaml"
-updated_at: "2024-08-22 03:23:50.371667"
+updated_at: "2024-08-22 20:13:38.556157"
 latest: "1.3.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scexecute"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-crcl18"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crcl18/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crcl18/container.yaml"
-updated_at: "2024-08-22 02:46:38.267516"
+updated_at: "2024-08-22 19:35:30.346137"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crcl18"
 aliases:
