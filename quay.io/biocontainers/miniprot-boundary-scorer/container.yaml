@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/miniprot-boundary-scorer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for miniprot-boundary-scorer
+latest:
+  1.0.0--h4ac6f70_0: sha256:3a469b4e70a56c81c94fad5d2666304c7ad25402fe37ee563ef88346986560eb
+tags:
+  1.0.0--h4ac6f70_0: sha256:3a469b4e70a56c81c94fad5d2666304c7ad25402fe37ee563ef88346986560eb
+docker: quay.io/biocontainers/miniprot-boundary-scorer
+aliases:
+  miniprot_boundary_scorer: /usr/local/bin/miniprot_boundary_scorer

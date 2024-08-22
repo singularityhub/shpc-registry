@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/chromsize
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for chromsize
+latest:
+  0.0.2--h919a2d8_0: sha256:b48f455bd374dd3f10932b58ddf4a3892b8c8b8ef4dea8e6d6b6aae6673aa79c
+tags:
+  0.0.2--h919a2d8_0: sha256:b48f455bd374dd3f10932b58ddf4a3892b8c8b8ef4dea8e6d6b6aae6673aa79c
+docker: quay.io/biocontainers/chromsize
+aliases:
+  chromsize: /usr/local/bin/chromsize
+  chromsize-benchmark: /usr/local/bin/chromsize-benchmark
