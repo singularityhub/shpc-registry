@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/scar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scar
 latest:
-  0.6.0--pyhdfd78af_0: sha256:3b88414d6bdfc2d7fec1766ce71ff814afb1a9b3b942395a902f09a5042a3037
+  0.7.0--pyhdfd78af_0: sha256:7d2dbda2d1119abeeecbb82d92891143a850479e338917fd8593a28d32ce24c9
 tags:
   0.4.4--pyhdfd78af_0: sha256:abd805f097d4f9316cf1aae47187af07d341771d351117d7ab2492068adff903
   0.5.0--pyhdfd78af_0: sha256:65a0a57d21da302a03bba8fce7a48c05c70e54f22b0f311967a1e1ed6a74b4c5
@@ -10,6 +10,8 @@ tags:
   0.5.2--pyhdfd78af_0: sha256:991fbd4dd83bf1482ae78bcc6740e98de7c8672b32c3a611cc86500e40a16f59
   0.6.0--pyhdfd78af_0: sha256:3b88414d6bdfc2d7fec1766ce71ff814afb1a9b3b942395a902f09a5042a3037
   0.5.5--pyhdfd78af_0: sha256:0730022d96a4c8f6a48b237108fc3bd0ea3bc115eb57495bb00a5fc416695feb
+  0.7.0--pyhdfd78af_0: sha256:7d2dbda2d1119abeeecbb82d92891143a850479e338917fd8593a28d32ce24c9
+  0.6.1--pyhdfd78af_0: sha256:6e930ad6714d7576eec8d7fb8f802d2bf6be557b461f29786f9db446accc6f3d
 docker: quay.io/biocontainers/scar
 aliases:
   scar: /usr/local/bin/scar
