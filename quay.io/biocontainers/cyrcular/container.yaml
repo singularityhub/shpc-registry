@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/cyrcular
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cyrcular
+latest:
+  0.3.0--h769f52f_0: sha256:a919d60112b607e945cc68f2bed29aa162c0c5eba0e0b8cf8332fda19d5dc61f
+tags:
+  0.3.0--h769f52f_0: sha256:a919d60112b607e945cc68f2bed29aa162c0c5eba0e0b8cf8332fda19d5dc61f
+docker: quay.io/biocontainers/cyrcular
+aliases:
+  cyrcular: /usr/local/bin/cyrcular
