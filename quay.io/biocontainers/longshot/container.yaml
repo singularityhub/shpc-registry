@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/longshot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for longshot
 latest:
-  1.0.0--hd4f2111_1: sha256:4ef1476883b376b0a91a010f9c011fb23670d29410b4974ca1421aadad30d7b9
+  1.0.0--hd4f2111_2: sha256:a4cabce7ec05a66b9f05b7643caca2d337efbf7035969ac48ca3f9faafbd192f
 tags:
   v0.3.5--h80880c6_0: sha256:21d5002f3f61ca69eb46d19f0e6bebfb85516adb2efe5381cba82a14dee3a10b
   0.4.5--hc4ca7c3_0: sha256:2875eb55c1c48050e3cc7bb218710e2dccd6f5c43b9065b9debb7d8b96490f05
@@ -10,6 +10,7 @@ tags:
   1.0.0--hd4f2111_0: sha256:52494d2eabe6c6c3f34d91331b1b96a120dd50616e9702f4c6c53ca193e1ced0
   0.3.5--h80880c6_0: sha256:1581c4f1fe8d53b5310c5d0d5a26ff10cddbf1192e17dba47ed45604c5e211d8
   1.0.0--hd4f2111_1: sha256:4ef1476883b376b0a91a010f9c011fb23670d29410b4974ca1421aadad30d7b9
+  1.0.0--hd4f2111_2: sha256:a4cabce7ec05a66b9f05b7643caca2d337efbf7035969ac48ca3f9faafbd192f
 docker: quay.io/biocontainers/longshot
 aliases:
   longshot: /usr/local/bin/longshot

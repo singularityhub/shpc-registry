@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/gofasta
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gofasta
 latest:
-  1.2.1--h9ee0642_1: sha256:ff90997a6c017c2842a445a1c069a46c92655df31898ed5ff7854b26c6d7798d
+  1.2.1--h9ee0642_2: sha256:a13e8fb4358ba28a1cf1a09d9667b17591f62292e0b50a3693d48015c4997ea8
 tags:
   1.1.0--h9ee0642_0: sha256:4806770f97a5054f5be40996e9dc13ba1b2882628869ecbd3152075252720091
   1.2.0--h9ee0642_0: sha256:8e6ea023c629b5f7b618cc381c4e2b81ed147642b2d59cfe9bdf3c535ac7cf8a
   1.2.1--h9ee0642_0: sha256:8b6fd4d2030a6cad3fe34a6154a9e0ef13073704882d6381586bb142c4d780ef
   1.2.1--h9ee0642_1: sha256:ff90997a6c017c2842a445a1c069a46c92655df31898ed5ff7854b26c6d7798d
+  1.2.1--h9ee0642_2: sha256:a13e8fb4358ba28a1cf1a09d9667b17591f62292e0b50a3693d48015c4997ea8
 docker: quay.io/biocontainers/gofasta
 aliases:
   gofasta: /usr/local/bin/gofasta
