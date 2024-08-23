@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cgpbigwig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgpbigwig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgpbigwig/container.yaml"
-updated_at: "2024-08-22 19:53:57.811857"
-latest: "1.6.0--h523f0d1_9"
+updated_at: "2024-08-23 03:04:15.690414"
+latest: "1.7.0--h523f0d1_0"
 container_url: "https://biocontainers.pro/tools/cgpbigwig"
 aliases:
  - "asn1Coding"
@@ -36,8 +36,9 @@ versions:
  - "1.6.0--h8eb9e39_7"
  - "1.6.0--h523f0d1_8"
  - "1.6.0--h523f0d1_9"
+ - "1.7.0--h523f0d1_0"
 description: "shpc-registry automated BioContainers addition for cgpbigwig"
-config: {"url": "https://biocontainers.pro/tools/cgpbigwig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgpbigwig", "latest": {"1.6.0--h523f0d1_9": "sha256:604256363d24bff22bcfa363b4c1fe603d1b31cce24a47f468c7acbc88b9eab3"}, "tags": {"1.6.0--hbb96afb_5": "sha256:b1305ed5c3ffac91f0d50f9e1bfa4ab2ca985b57af67d8df5b78161e2539e734", "1.6.0--h87c70b1_6": "sha256:e80c81302f23bcd627795dc469e47a5d36b634a447329677cabb54e02386bdff", "1.6.0--h8eb9e39_7": "sha256:8e023b0d4c1d64c7c2aa0240be4696522ae71c2238bb335d33d20ada45710cae", "1.6.0--h523f0d1_8": "sha256:428aba57dc83212f3f71aafa2cb8bb75970e3f5ddd3c7318330fc6affd77a961", "1.6.0--h523f0d1_9": "sha256:604256363d24bff22bcfa363b4c1fe603d1b31cce24a47f468c7acbc88b9eab3"}, "docker": "quay.io/biocontainers/cgpbigwig", "aliases": {"asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "bam2bw": "/usr/local/bin/bam2bw", "bam2bwbases": "/usr/local/bin/bam2bwbases", "bg2bw": "/usr/local/bin/bg2bw", "bwcat": "/usr/local/bin/bwcat", "bwjoin": "/usr/local/bin/bwjoin", "detectExtremeDepth": "/usr/local/bin/detectExtremeDepth", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "trust": "/usr/local/bin/trust", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv", "psktool": "/usr/local/bin/psktool"}}
+config: {"url": "https://biocontainers.pro/tools/cgpbigwig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgpbigwig", "latest": {"1.7.0--h523f0d1_0": "sha256:4d52df9e1ea28df42876f2897157f72497f5188d967cd917fa64e99076e08ca2"}, "tags": {"1.6.0--hbb96afb_5": "sha256:b1305ed5c3ffac91f0d50f9e1bfa4ab2ca985b57af67d8df5b78161e2539e734", "1.6.0--h87c70b1_6": "sha256:e80c81302f23bcd627795dc469e47a5d36b634a447329677cabb54e02386bdff", "1.6.0--h8eb9e39_7": "sha256:8e023b0d4c1d64c7c2aa0240be4696522ae71c2238bb335d33d20ada45710cae", "1.6.0--h523f0d1_8": "sha256:428aba57dc83212f3f71aafa2cb8bb75970e3f5ddd3c7318330fc6affd77a961", "1.6.0--h523f0d1_9": "sha256:604256363d24bff22bcfa363b4c1fe603d1b31cce24a47f468c7acbc88b9eab3", "1.7.0--h523f0d1_0": "sha256:4d52df9e1ea28df42876f2897157f72497f5188d967cd917fa64e99076e08ca2"}, "docker": "quay.io/biocontainers/cgpbigwig", "aliases": {"asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "bam2bw": "/usr/local/bin/bam2bw", "bam2bwbases": "/usr/local/bin/bam2bwbases", "bg2bw": "/usr/local/bin/bg2bw", "bwcat": "/usr/local/bin/bwcat", "bwjoin": "/usr/local/bin/bwjoin", "detectExtremeDepth": "/usr/local/bin/detectExtremeDepth", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "trust": "/usr/local/bin/trust", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv", "psktool": "/usr/local/bin/psktool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgpbigwig.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/cgpbigwig
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cgpbigwig:1.6.0--h523f0d1_9
+$ shpc install quay.io/biocontainers/cgpbigwig:1.7.0--h523f0d1_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cgpbigwig/1.6.0--h523f0d1_9
-$ module help quay.io/biocontainers/cgpbigwig/1.6.0--h523f0d1_9
+$ module load quay.io/biocontainers/cgpbigwig/1.7.0--h523f0d1_0
+$ module help quay.io/biocontainers/cgpbigwig/1.7.0--h523f0d1_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

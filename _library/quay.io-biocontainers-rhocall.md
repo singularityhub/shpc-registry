@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rhocall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rhocall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rhocall/container.yaml"
-updated_at: "2024-08-22 20:12:08.801751"
+updated_at: "2024-08-23 03:22:00.165179"
 latest: "0.5.1--py311hdad781d_3"
 container_url: "https://biocontainers.pro/tools/rhocall"
 aliases:

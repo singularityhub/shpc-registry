@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/xrootd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/xrootd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/xrootd/container.yaml"
-updated_at: "2024-08-22 19:26:13.477613"
+updated_at: "2024-08-23 02:37:55.662871"
 latest: "5.3.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/xrootd"
 aliases:

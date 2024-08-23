@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bpp-seq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bpp-seq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bpp-seq/container.yaml"
-updated_at: "2024-08-22 19:38:12.524175"
+updated_at: "2024-08-23 02:48:30.825567"
 latest: "2.4.1--h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/bpp-seq"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qiskit-xyz2pdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qiskit-xyz2pdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qiskit-xyz2pdb/container.yaml"
-updated_at: "2024-08-22 19:52:29.368027"
+updated_at: "2024-08-23 03:02:46.864632"
 latest: "0.1.2--pyhca03a8a_0"
 container_url: "https://biocontainers.pro/tools/qiskit-xyz2pdb"
 aliases:

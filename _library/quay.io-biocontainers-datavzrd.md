@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/datavzrd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/datavzrd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/datavzrd/container.yaml"
-updated_at: "2024-08-22 20:13:50.470816"
+updated_at: "2024-08-23 03:23:41.347774"
 latest: "2.23.2"
 container_url: "https://biocontainers.pro/tools/datavzrd"
 aliases:

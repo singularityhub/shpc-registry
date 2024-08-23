@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ribodetector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribodetector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribodetector/container.yaml"
-updated_at: "2024-08-22 19:50:34.451484"
+updated_at: "2024-08-23 03:00:51.422598"
 latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ribodetector"
 aliases:

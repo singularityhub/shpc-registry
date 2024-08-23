@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/skesa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skesa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skesa/container.yaml"
-updated_at: "2024-08-22 19:44:05.092184"
+updated_at: "2024-08-23 02:54:20.323611"
 latest: "2.5.1--hdcf5f25_1"
 container_url: "https://biocontainers.pro/tools/skesa"
 aliases:

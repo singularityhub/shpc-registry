@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/soda-gallery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soda-gallery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soda-gallery/container.yaml"
-updated_at: "2024-08-22 19:49:22.347763"
+updated_at: "2024-08-23 02:59:38.938387"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/soda-gallery"
 aliases:

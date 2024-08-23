@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phyloaln"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyloaln/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyloaln/container.yaml"
-updated_at: "2024-08-22 19:49:26.304985"
+updated_at: "2024-08-23 02:59:42.906673"
 latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phyloaln"
 aliases:
