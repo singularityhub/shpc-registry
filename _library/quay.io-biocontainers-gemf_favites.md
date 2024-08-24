@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gemf_favites"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gemf_favites/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gemf_favites/container.yaml"
-updated_at: "2024-08-23 03:18:23.666637"
+updated_at: "2024-08-24 03:18:20.911829"
 latest: "1.0.3--h031d066_0"
 container_url: "https://biocontainers.pro/tools/gemf_favites"
 aliases:

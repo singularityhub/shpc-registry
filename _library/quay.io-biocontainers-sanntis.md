@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sanntis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sanntis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sanntis/container.yaml"
-updated_at: "2024-08-23 02:45:32.945591"
-latest: "0.9.3.5--pyhdfd78af_0"
+updated_at: "2024-08-24 02:44:48.400809"
+latest: "0.9.3.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sanntis"
 aliases:
  - "import_pb_to_tensorboard"
@@ -41,8 +41,9 @@ versions:
  - "0.9.3.2--pyhdfd78af_0"
  - "0.9.3.4--pyhdfd78af_0"
  - "0.9.3.5--pyhdfd78af_0"
+ - "0.9.3.5--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for sanntis"
-config: {"url": "https://biocontainers.pro/tools/sanntis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sanntis", "latest": {"0.9.3.5--pyhdfd78af_0": "sha256:5335adff49cd176a753ad1759a706d2a0da68fc0b4486bb4c2c5def05e7936eb"}, "tags": {"0.9.1--pyhdfd78af_0": "sha256:f27c88b4d1cef391ab29b6c4a4c7fa8f0dce0f3aa79b98cff069d102aef229fa", "0.9.3.2--pyhdfd78af_0": "sha256:d06dc49982786e600ebffdbd248790d242f8c7067d55eaa3357fedd9140d119e", "0.9.3.4--pyhdfd78af_0": "sha256:37d8325a377b6825950fa9d62b35386532ff7946b4fe9ce3209d2133236e1ef8", "0.9.3.5--pyhdfd78af_0": "sha256:5335adff49cd176a753ad1759a706d2a0da68fc0b4486bb4c2c5def05e7936eb"}, "docker": "quay.io/biocontainers/sanntis", "aliases": {"import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "sanntis": "/usr/local/bin/sanntis", "sanntis_build_gb": "/usr/local/bin/sanntis_build_gb", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "jpackage": "/usr/local/bin/jpackage", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify"}}
+config: {"url": "https://biocontainers.pro/tools/sanntis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sanntis", "latest": {"0.9.3.5--pyhdfd78af_1": "sha256:e1c4a73873faf227651e17ed569a58cdf2927e9f14434236bb506e4310ee4048"}, "tags": {"0.9.1--pyhdfd78af_0": "sha256:f27c88b4d1cef391ab29b6c4a4c7fa8f0dce0f3aa79b98cff069d102aef229fa", "0.9.3.2--pyhdfd78af_0": "sha256:d06dc49982786e600ebffdbd248790d242f8c7067d55eaa3357fedd9140d119e", "0.9.3.4--pyhdfd78af_0": "sha256:37d8325a377b6825950fa9d62b35386532ff7946b4fe9ce3209d2133236e1ef8", "0.9.3.5--pyhdfd78af_0": "sha256:5335adff49cd176a753ad1759a706d2a0da68fc0b4486bb4c2c5def05e7936eb", "0.9.3.5--pyhdfd78af_1": "sha256:e1c4a73873faf227651e17ed569a58cdf2927e9f14434236bb506e4310ee4048"}, "docker": "quay.io/biocontainers/sanntis", "aliases": {"import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "sanntis": "/usr/local/bin/sanntis", "sanntis_build_gb": "/usr/local/bin/sanntis_build_gb", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "jpackage": "/usr/local/bin/jpackage", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sanntis.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/sanntis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sanntis:0.9.3.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sanntis:0.9.3.5--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sanntis/0.9.3.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/sanntis/0.9.3.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/sanntis/0.9.3.5--pyhdfd78af_1
+$ module help quay.io/biocontainers/sanntis/0.9.3.5--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

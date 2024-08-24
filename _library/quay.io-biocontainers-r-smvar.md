@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-smvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-smvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-smvar/container.yaml"
-updated_at: "2024-08-23 02:39:17.984636"
+updated_at: "2024-08-24 02:38:24.906823"
 latest: "1.3.3--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-smvar"
 aliases:

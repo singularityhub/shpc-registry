@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ebcoexpress"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ebcoexpress/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ebcoexpress/container.yaml"
-updated_at: "2024-08-23 02:50:17.351173"
+updated_at: "2024-08-24 02:49:38.662465"
 latest: "1.46.0--r43ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ebcoexpress"
 

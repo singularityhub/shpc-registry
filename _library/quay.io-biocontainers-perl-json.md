@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-json"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-json/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-json/container.yaml"
-updated_at: "2024-08-23 03:06:18.717384"
-latest: "4.10--pl5321hdfd78af_0"
+updated_at: "2024-08-24 03:06:01.231704"
+latest: "4.10--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-json"
 
 versions:
  - "4.10--pl5321hdfd78af_0"
+ - "4.10--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-json"
-config: {"url": "https://biocontainers.pro/tools/perl-json", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-json", "latest": {"4.10--pl5321hdfd78af_0": "sha256:51e2fe2e640859a2dd73ecdac638687927e5afca83e92dc20162a44679d98e22"}, "tags": {"4.10--pl5321hdfd78af_0": "sha256:51e2fe2e640859a2dd73ecdac638687927e5afca83e92dc20162a44679d98e22"}, "docker": "quay.io/biocontainers/perl-json"}
+config: {"url": "https://biocontainers.pro/tools/perl-json", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-json", "latest": {"4.10--pl5321hdfd78af_1": "sha256:86ed7274fb215be49b1f79a41bc9bc523e520b20b5dc6ef65efde91b20a4b6d5"}, "tags": {"4.10--pl5321hdfd78af_0": "sha256:51e2fe2e640859a2dd73ecdac638687927e5afca83e92dc20162a44679d98e22", "4.10--pl5321hdfd78af_1": "sha256:86ed7274fb215be49b1f79a41bc9bc523e520b20b5dc6ef65efde91b20a4b6d5"}, "docker": "quay.io/biocontainers/perl-json"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-json.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/perl-json
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-json:4.10--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-json:4.10--pl5321hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-json/4.10--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-json/4.10--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-json/4.10--pl5321hdfd78af_1
+$ module help quay.io/biocontainers/perl-json/4.10--pl5321hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

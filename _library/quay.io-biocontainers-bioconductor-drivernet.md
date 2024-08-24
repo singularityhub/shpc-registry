@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-drivernet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-drivernet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-drivernet/container.yaml"
-updated_at: "2024-08-23 02:47:42.135512"
+updated_at: "2024-08-24 02:46:59.977184"
 latest: "1.42.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-drivernet"
 

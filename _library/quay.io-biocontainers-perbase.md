@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perbase/container.yaml"
-updated_at: "2024-08-23 02:46:10.999723"
-latest: "0.9.0--hb527e7b_2"
+updated_at: "2024-08-24 02:45:27.303826"
+latest: "0.10.0--hb527e7b_0"
 container_url: "https://biocontainers.pro/tools/perbase"
 aliases:
  - "perbase"
@@ -14,8 +14,9 @@ versions:
  - "0.8.5--h787ab5b_3"
  - "0.9.0--h787ab5b_0"
  - "0.9.0--hb527e7b_2"
+ - "0.10.0--hb527e7b_0"
 description: "shpc-registry automated BioContainers addition for perbase"
-config: {"url": "https://biocontainers.pro/tools/perbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perbase", "latest": {"0.9.0--hb527e7b_2": "sha256:2740ce11e96d110112886faad130eb988840977042bc18c39dde91d4f4e43a05"}, "tags": {"0.8.5--h93ac3e5_1": "sha256:306bfc77a7e69036f16afb048c93abef6661c15ea5c4d21c13bb108935d90328", "0.8.5--h787ab5b_3": "sha256:aceec74cd00d995a86cbcb077ac8f177311bc751faa0f3429ebecfeed3eadc35", "0.9.0--h787ab5b_0": "sha256:0cba2dbcc507e4108fb8c2bf4e5932ac869835daa72a0b7196607748cc19bb1e", "0.9.0--hb527e7b_2": "sha256:2740ce11e96d110112886faad130eb988840977042bc18c39dde91d4f4e43a05"}, "docker": "quay.io/biocontainers/perbase", "aliases": {"perbase": "/usr/local/bin/perbase"}}
+config: {"url": "https://biocontainers.pro/tools/perbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perbase", "latest": {"0.10.0--hb527e7b_0": "sha256:be63c3a57beef37e87eff1b8db2939cf3f74de3db1d783ec63a99b86bd45e002"}, "tags": {"0.8.5--h93ac3e5_1": "sha256:306bfc77a7e69036f16afb048c93abef6661c15ea5c4d21c13bb108935d90328", "0.8.5--h787ab5b_3": "sha256:aceec74cd00d995a86cbcb077ac8f177311bc751faa0f3429ebecfeed3eadc35", "0.9.0--h787ab5b_0": "sha256:0cba2dbcc507e4108fb8c2bf4e5932ac869835daa72a0b7196607748cc19bb1e", "0.9.0--hb527e7b_2": "sha256:2740ce11e96d110112886faad130eb988840977042bc18c39dde91d4f4e43a05", "0.10.0--hb527e7b_0": "sha256:be63c3a57beef37e87eff1b8db2939cf3f74de3db1d783ec63a99b86bd45e002"}, "docker": "quay.io/biocontainers/perbase", "aliases": {"perbase": "/usr/local/bin/perbase"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perbase.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perbase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perbase:0.9.0--hb527e7b_2
+$ shpc install quay.io/biocontainers/perbase:0.10.0--hb527e7b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perbase/0.9.0--hb527e7b_2
-$ module help quay.io/biocontainers/perbase/0.9.0--hb527e7b_2
+$ module load quay.io/biocontainers/perbase/0.10.0--hb527e7b_0
+$ module help quay.io/biocontainers/perbase/0.10.0--hb527e7b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

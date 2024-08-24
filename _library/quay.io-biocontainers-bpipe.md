@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bpipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bpipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bpipe/container.yaml"
-updated_at: "2024-08-23 02:39:52.787053"
-latest: "0.9.12--hdfd78af_0"
+updated_at: "2024-08-24 02:39:00.362006"
+latest: "0.9.13--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bpipe"
 aliases:
  - "bg-bpipe"
@@ -30,8 +30,9 @@ versions:
  - "0.9.11--hdfd78af_0"
  - "0.9.11--hdfd78af_1"
  - "0.9.12--hdfd78af_0"
+ - "0.9.13--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bpipe"
-config: {"url": "https://biocontainers.pro/tools/bpipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bpipe", "latest": {"0.9.12--hdfd78af_0": "sha256:8598a4cb4e59c43753553a604aa1c08f57ce334c1f9e9f06dea198cc46b0043f"}, "tags": {"0.9.9.9--0": "sha256:0fb865041714af50badf982cfd7f27e90404d095cf5aeafe6f1c269745a4680e", "0.9.11--hdfd78af_0": "sha256:751c57c5d9fd140d9b3ad44b45be065e6b9bf6202e60bb5572d08f5808a1d660", "0.9.11--hdfd78af_1": "sha256:f0b686c4cb5c276fbb4dff1ca60c747353a0c510fbbac9a89912d17fe1eb1b1a", "0.9.12--hdfd78af_0": "sha256:8598a4cb4e59c43753553a604aa1c08f57ce334c1f9e9f06dea198cc46b0043f"}, "docker": "quay.io/biocontainers/bpipe", "aliases": {"bg-bpipe": "/usr/local/bin/bg-bpipe", "bpipe": "/usr/local/bin/bpipe", "bpipe-pbspro.sh": "/usr/local/bin/bpipe-pbspro.sh", "bpipe-slurm.sh": "/usr/local/bin/bpipe-slurm.sh", "bpipe-torque.sh": "/usr/local/bin/bpipe-torque.sh", "bpipe-utils.sh": "/usr/local/bin/bpipe-utils.sh", "groovy_script": "/usr/local/bin/groovy_script", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
+config: {"url": "https://biocontainers.pro/tools/bpipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bpipe", "latest": {"0.9.13--hdfd78af_0": "sha256:2a7338947f51c66c065e84e8b2ffeb958569fca05eb46bb4cfb69a89ab72c94d"}, "tags": {"0.9.9.9--0": "sha256:0fb865041714af50badf982cfd7f27e90404d095cf5aeafe6f1c269745a4680e", "0.9.11--hdfd78af_0": "sha256:751c57c5d9fd140d9b3ad44b45be065e6b9bf6202e60bb5572d08f5808a1d660", "0.9.11--hdfd78af_1": "sha256:f0b686c4cb5c276fbb4dff1ca60c747353a0c510fbbac9a89912d17fe1eb1b1a", "0.9.12--hdfd78af_0": "sha256:8598a4cb4e59c43753553a604aa1c08f57ce334c1f9e9f06dea198cc46b0043f", "0.9.13--hdfd78af_0": "sha256:2a7338947f51c66c065e84e8b2ffeb958569fca05eb46bb4cfb69a89ab72c94d"}, "docker": "quay.io/biocontainers/bpipe", "aliases": {"bg-bpipe": "/usr/local/bin/bg-bpipe", "bpipe": "/usr/local/bin/bpipe", "bpipe-pbspro.sh": "/usr/local/bin/bpipe-pbspro.sh", "bpipe-slurm.sh": "/usr/local/bin/bpipe-slurm.sh", "bpipe-torque.sh": "/usr/local/bin/bpipe-torque.sh", "bpipe-utils.sh": "/usr/local/bin/bpipe-utils.sh", "groovy_script": "/usr/local/bin/groovy_script", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bpipe.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/bpipe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bpipe:0.9.12--hdfd78af_0
+$ shpc install quay.io/biocontainers/bpipe:0.9.13--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bpipe/0.9.12--hdfd78af_0
-$ module help quay.io/biocontainers/bpipe/0.9.12--hdfd78af_0
+$ module load quay.io/biocontainers/bpipe/0.9.13--hdfd78af_0
+$ module help quay.io/biocontainers/bpipe/0.9.13--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
