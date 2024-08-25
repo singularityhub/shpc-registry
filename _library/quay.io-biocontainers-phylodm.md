@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylodm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylodm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylodm/container.yaml"
-updated_at: "2024-08-24 03:09:01.545571"
+updated_at: "2024-08-25 03:13:37.495403"
 latest: "3.1.0--py310hec43fc7_0"
 container_url: "https://biocontainers.pro/tools/phylodm"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genefilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genefilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genefilter/container.yaml"
-updated_at: "2024-08-24 03:10:21.589736"
+updated_at: "2024-08-25 03:14:57.896504"
 latest: "1.84.0--r43ha1e849b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-genefilter"
 

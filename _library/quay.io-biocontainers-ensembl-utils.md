@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ensembl-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ensembl-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ensembl-utils/container.yaml"
-updated_at: "2024-08-24 02:38:25.481717"
-latest: "0.4.1--pyhdfd78af_0"
+updated_at: "2024-08-25 02:42:23.245575"
+latest: "0.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ensembl-utils"
 aliases:
  - "dotenv"
@@ -20,8 +20,9 @@ versions:
  - "0.2.0--pyhdfd78af_0"
  - "0.4.1--pyhdfd78af_0"
  - "0.3.0--pyhdfd78af_0"
+ - "0.4.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ensembl-utils"
-config: {"url": "https://biocontainers.pro/tools/ensembl-utils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ensembl-utils", "latest": {"0.4.1--pyhdfd78af_0": "sha256:43df6efeb39d02cb90b496c6c46bc03fbb226a71f62bf688dbf3ea5b806e7ff8"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:8a151186d3db4185724f3105b54765ea10438d459c9b3341ce37e4bbd8183176", "0.4.1--pyhdfd78af_0": "sha256:43df6efeb39d02cb90b496c6c46bc03fbb226a71f62bf688dbf3ea5b806e7ff8", "0.3.0--pyhdfd78af_0": "sha256:4779645e17c9b0eb55bbc8dc94bd892a6fbbb6cc191ea69d8b4ac4a0542b536e"}, "docker": "quay.io/biocontainers/ensembl-utils", "aliases": {"dotenv": "/usr/local/bin/dotenv", "extract_file": "/usr/local/bin/extract_file", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/ensembl-utils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ensembl-utils", "latest": {"0.4.2--pyhdfd78af_0": "sha256:700fd5c078d5deeaf3a888a42dd0a1e800c9f39b1217994daca8e33daf8093e2"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:8a151186d3db4185724f3105b54765ea10438d459c9b3341ce37e4bbd8183176", "0.4.1--pyhdfd78af_0": "sha256:43df6efeb39d02cb90b496c6c46bc03fbb226a71f62bf688dbf3ea5b806e7ff8", "0.3.0--pyhdfd78af_0": "sha256:4779645e17c9b0eb55bbc8dc94bd892a6fbbb6cc191ea69d8b4ac4a0542b536e", "0.4.2--pyhdfd78af_0": "sha256:700fd5c078d5deeaf3a888a42dd0a1e800c9f39b1217994daca8e33daf8093e2"}, "docker": "quay.io/biocontainers/ensembl-utils", "aliases": {"dotenv": "/usr/local/bin/dotenv", "extract_file": "/usr/local/bin/extract_file", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ensembl-utils.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/ensembl-utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ensembl-utils:0.4.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ensembl-utils:0.4.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ensembl-utils/0.4.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/ensembl-utils/0.4.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/ensembl-utils/0.4.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/ensembl-utils/0.4.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

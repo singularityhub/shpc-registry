@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellmixs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellmixs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellmixs/container.yaml"
-updated_at: "2024-08-24 02:52:56.915209"
+updated_at: "2024-08-25 02:57:16.602193"
 latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellmixs"
 aliases:

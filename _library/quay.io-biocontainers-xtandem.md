@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xtandem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xtandem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xtandem/container.yaml"
-updated_at: "2024-08-24 03:12:33.674339"
+updated_at: "2024-08-25 03:17:10.692559"
 latest: "15.12.15.2--h7e02a51_9"
 container_url: "https://biocontainers.pro/tools/xtandem"
 aliases:

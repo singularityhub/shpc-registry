@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plinkio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plinkio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plinkio/container.yaml"
-updated_at: "2024-08-24 02:38:56.880042"
+updated_at: "2024-08-25 02:42:54.664487"
 latest: "0.9.8--py310h7c593f9_1"
 container_url: "https://biocontainers.pro/tools/plinkio"
 aliases:

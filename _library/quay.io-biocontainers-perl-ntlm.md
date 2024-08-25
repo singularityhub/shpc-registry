@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-ntlm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-ntlm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-ntlm/container.yaml"
-updated_at: "2024-08-24 03:08:19.653012"
+updated_at: "2024-08-25 03:12:55.109454"
 latest: "1.09--pl5321hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/perl-ntlm"
 aliases:

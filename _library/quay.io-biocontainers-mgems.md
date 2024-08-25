@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/mgems"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgems/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgems/container.yaml"
-updated_at: "2024-08-24 02:38:52.837095"
-latest: "1.3.2--hf5e1c6e_1"
+updated_at: "2024-08-25 02:42:50.630603"
+latest: "1.3.3--hf5e1c6e_0"
 container_url: "https://biocontainers.pro/tools/mgems"
 aliases:
  - "mGEMS"
 versions:
  - "1.3.1--h468198e_0"
  - "1.3.2--hf5e1c6e_1"
+ - "1.3.3--hf5e1c6e_0"
 description: "singularity registry hpc automated addition for mgems"
-config: {"url": "https://biocontainers.pro/tools/mgems", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mgems", "latest": {"1.3.2--hf5e1c6e_1": "sha256:553f1f2823e792bb50b99f1890168c501c7488b5163991597f31be49047e8202"}, "tags": {"1.3.1--h468198e_0": "sha256:eaa440b4eb637ac9f97beda227291fb6272ae36d56b75a8b1b77211889d6b296", "1.3.2--hf5e1c6e_1": "sha256:553f1f2823e792bb50b99f1890168c501c7488b5163991597f31be49047e8202"}, "docker": "quay.io/biocontainers/mgems", "aliases": {"mGEMS": "/usr/local/bin/mGEMS"}}
+config: {"url": "https://biocontainers.pro/tools/mgems", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mgems", "latest": {"1.3.3--hf5e1c6e_0": "sha256:be0991ee459cdc6c565b8cd29cdb83e43cffa0e7392bc3745ab6ee2422e0634a"}, "tags": {"1.3.1--h468198e_0": "sha256:eaa440b4eb637ac9f97beda227291fb6272ae36d56b75a8b1b77211889d6b296", "1.3.2--hf5e1c6e_1": "sha256:553f1f2823e792bb50b99f1890168c501c7488b5163991597f31be49047e8202", "1.3.3--hf5e1c6e_0": "sha256:be0991ee459cdc6c565b8cd29cdb83e43cffa0e7392bc3745ab6ee2422e0634a"}, "docker": "quay.io/biocontainers/mgems", "aliases": {"mGEMS": "/usr/local/bin/mGEMS"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mgems.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/mgems
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mgems:1.3.2--hf5e1c6e_1
+$ shpc install quay.io/biocontainers/mgems:1.3.3--hf5e1c6e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mgems/1.3.2--hf5e1c6e_1
-$ module help quay.io/biocontainers/mgems/1.3.2--hf5e1c6e_1
+$ module load quay.io/biocontainers/mgems/1.3.3--hf5e1c6e_0
+$ module help quay.io/biocontainers/mgems/1.3.3--hf5e1c6e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
