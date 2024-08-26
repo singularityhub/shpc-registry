@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/yak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yak/container.yaml"
-updated_at: "2024-08-25 03:14:36.169569"
-latest: "0.1--he4a0461_4"
+updated_at: "2024-08-26 03:11:36.118262"
+latest: "0.1--he4a0461_5"
 container_url: "https://biocontainers.pro/tools/yak"
 aliases:
  - "yak"
 versions:
  - "0.1--h7132678_2"
  - "0.1--he4a0461_4"
+ - "0.1--he4a0461_5"
 description: "shpc-registry automated BioContainers addition for yak"
-config: {"url": "https://biocontainers.pro/tools/yak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yak", "latest": {"0.1--he4a0461_4": "sha256:e0ccc68a12843e0d7f80e3951bca0ed7adbea703f4ea211691fbabde09698755"}, "tags": {"0.1--h7132678_2": "sha256:a1e9fb7c97e4e402fbd60e77758f03ef471cac46c6b7c9c7aa99fc5d4f802b3f", "0.1--he4a0461_4": "sha256:e0ccc68a12843e0d7f80e3951bca0ed7adbea703f4ea211691fbabde09698755"}, "docker": "quay.io/biocontainers/yak", "aliases": {"yak": "/usr/local/bin/yak"}}
+config: {"url": "https://biocontainers.pro/tools/yak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yak", "latest": {"0.1--he4a0461_5": "sha256:6b7f4382392bc20dceb1208e700ce8b384ae6822c6fad66c40eb31b305792c97"}, "tags": {"0.1--h7132678_2": "sha256:a1e9fb7c97e4e402fbd60e77758f03ef471cac46c6b7c9c7aa99fc5d4f802b3f", "0.1--he4a0461_4": "sha256:e0ccc68a12843e0d7f80e3951bca0ed7adbea703f4ea211691fbabde09698755", "0.1--he4a0461_5": "sha256:6b7f4382392bc20dceb1208e700ce8b384ae6822c6fad66c40eb31b305792c97"}, "docker": "quay.io/biocontainers/yak", "aliases": {"yak": "/usr/local/bin/yak"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/yak.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/yak
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/yak:0.1--he4a0461_4
+$ shpc install quay.io/biocontainers/yak:0.1--he4a0461_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/yak/0.1--he4a0461_4
-$ module help quay.io/biocontainers/yak/0.1--he4a0461_4
+$ module load quay.io/biocontainers/yak/0.1--he4a0461_5
+$ module help quay.io/biocontainers/yak/0.1--he4a0461_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

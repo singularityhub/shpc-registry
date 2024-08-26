@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-impute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-impute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-impute/container.yaml"
-updated_at: "2024-08-25 03:08:50.677602"
+updated_at: "2024-08-26 03:05:56.646724"
 latest: "1.76.0--r43h9913872_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-impute"
 
