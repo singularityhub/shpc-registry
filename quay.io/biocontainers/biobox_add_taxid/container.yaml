@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/biobox_add_taxid
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for biobox_add_taxid
+latest:
+  0.4--pyh7e72e81_0: sha256:2cec1020918fcd1649b6eb545652234c7ed77b2be4a52a1578712280abf3fe48
+tags:
+  0.4--pyh7e72e81_0: sha256:2cec1020918fcd1649b6eb545652234c7ed77b2be4a52a1578712280abf3fe48
+docker: quay.io/biocontainers/biobox_add_taxid
+aliases:
+  biobox_add_taxid.py: /usr/local/bin/biobox_add_taxid.py
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
