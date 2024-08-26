@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/ncbi-fcs-gx
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ncbi-fcs-gx
 latest:
-  0.5.4--h4ac6f70_0: sha256:04974e5f1243eb84168f9cb783fadff68b2db0b5fcc4c2ef7aa79af2cc494a1a
+  0.5.4--h4ac6f70_1: sha256:6b2f7424c543ab3d297cb96361222ca90203aba3d0af48930586d10c8f3e3cfa
 tags:
   0.4.0--h9f5acd7_1: sha256:deb8910250c74e3d808a4515fc971be8c41f43e526ae6951963ad46f14a8ae06
   0.4.0--h4ac6f70_2: sha256:2045eea3ce531e61629d83cadf019bc7bd1ef6f7952a83854a8780cd5e4b4f02
@@ -11,6 +11,7 @@ tags:
   0.4.1--h4ac6f70_1: sha256:911338cad35cf0c5ab15cec75c71f31caf954a72e8d63e3d958608f0b0e649bd
   0.5.0--h4ac6f70_3: sha256:0870e0037d49f55fe42f018561c27eb140efef3e1467f8343937c2f7613feeac
   0.5.4--h4ac6f70_0: sha256:04974e5f1243eb84168f9cb783fadff68b2db0b5fcc4c2ef7aa79af2cc494a1a
+  0.5.4--h4ac6f70_1: sha256:6b2f7424c543ab3d297cb96361222ca90203aba3d0af48930586d10c8f3e3cfa
 docker: quay.io/biocontainers/ncbi-fcs-gx
 aliases:
   action_report.py: /usr/local/bin/action_report.py
