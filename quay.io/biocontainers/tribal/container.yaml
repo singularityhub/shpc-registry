@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/tribal
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tribal
+latest:
+  0.1.1--py310hdbdd923_0: sha256:47431de0ed2fcf20f645d6580df61d1cf4a6c4bf49d47dd4613e2c6a16e2528d
+tags:
+  0.1.1--py310hdbdd923_0: sha256:47431de0ed2fcf20f645d6580df61d1cf4a6c4bf49d47dd4613e2c6a16e2528d
+docker: quay.io/biocontainers/tribal
+aliases:
+  pyomo: /usr/local/bin/pyomo
+  tribal: /usr/local/bin/tribal
+  dnapars: /usr/local/bin/dnapars
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  gawk-5.3.0: /usr/local/bin/gawk-5.3.0
+  gawkbug: /usr/local/bin/gawkbug
+  mpg123: /usr/local/bin/mpg123
+  mpg123-id3dump: /usr/local/bin/mpg123-id3dump
+  mpg123-strip: /usr/local/bin/mpg123-strip
+  out123: /usr/local/bin/out123
+  dumpsexp: /usr/local/bin/dumpsexp
+  gpg-error: /usr/local/bin/gpg-error
+  gpgrt-config: /usr/local/bin/gpgrt-config
+  hmac256: /usr/local/bin/hmac256
+  mpicalc: /usr/local/bin/mpicalc
+  yat2m: /usr/local/bin/yat2m
+  lame: /usr/local/bin/lame
+  sip-build: /usr/local/bin/sip-build
+  sip-distinfo: /usr/local/bin/sip-distinfo
+  sip-install: /usr/local/bin/sip-install
+  sip-module: /usr/local/bin/sip-module
+  sip-sdist: /usr/local/bin/sip-sdist
+  sip-wheel: /usr/local/bin/sip-wheel
+  balsam: /usr/local/bin/balsam
+  lprodump: /usr/local/bin/lprodump

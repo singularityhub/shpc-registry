@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/mquad
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mquad
+latest:
+  0.1.8b--pyhdfd78af_0: sha256:8ee83c78fb9bcbbd4c381f0dcaa3a725c8b5771baab18d1f795417c73842e0e2
+tags:
+  0.1.8b--pyhdfd78af_0: sha256:8ee83c78fb9bcbbd4c381f0dcaa3a725c8b5771baab18d1f795417c73842e0e2
+docker: quay.io/biocontainers/mquad
+aliases:
+  GTbarcode: /usr/local/bin/GTbarcode
+  mquad: /usr/local/bin/mquad
+  vireo: /usr/local/bin/vireo
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  tjbench: /usr/local/bin/tjbench
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

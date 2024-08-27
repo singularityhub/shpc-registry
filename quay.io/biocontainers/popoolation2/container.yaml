@@ -1,0 +1,66 @@
+url: https://biocontainers.pro/tools/popoolation2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for popoolation2
+latest:
+  1.201--pl5321hdfd78af_0: sha256:8534959fdab0838207502bc23c32210db3a917b3df963f569d3cff64f63d37e0
+tags:
+  1.201--pl5321hdfd78af_0: sha256:8534959fdab0838207502bc23c32210db3a917b3df963f569d3cff64f63d37e0
+docker: quay.io/biocontainers/popoolation2
+aliases:
+  cmh-test.pl: /usr/local/bin/cmh-test.pl
+  cmh2gwas.pl: /usr/local/bin/cmh2gwas.pl
+  combig-script.sh: /usr/local/bin/combig-script.sh
+  combig.pl: /usr/local/bin/combig.pl
+  count.pl: /usr/local/bin/count.pl
+  count2huge.pl: /usr/local/bin/count2huge.pl
+  create-genewise-sync.pl: /usr/local/bin/create-genewise-sync.pl
+  filter-sync-by-gtf.pl: /usr/local/bin/filter-sync-by-gtf.pl
+  find-compounds.pl: /usr/local/bin/find-compounds.pl
+  fisher-test.pl: /usr/local/bin/fisher-test.pl
+  fst-sliding.pl: /usr/local/bin/fst-sliding.pl
+  huge-count.pl: /usr/local/bin/huge-count.pl
+  huge-delete.pl: /usr/local/bin/huge-delete.pl
+  huge-merge.pl: /usr/local/bin/huge-merge.pl
+  huge-sort.pl: /usr/local/bin/huge-sort.pl
+  huge-split.pl: /usr/local/bin/huge-split.pl
+  identify-indel-regions.pl: /usr/local/bin/identify-indel-regions.pl
+  igv: /usr/local/bin/igv
+  igv_hidpi: /usr/local/bin/igv_hidpi
+  kocos-script.sh: /usr/local/bin/kocos-script.sh
+  kocos.pl: /usr/local/bin/kocos.pl
+  mpileup2sync: /usr/local/bin/mpileup2sync
+  mpileup2sync.pl: /usr/local/bin/mpileup2sync.pl
+  pwc2igv.pl: /usr/local/bin/pwc2igv.pl
+  rank-script.sh: /usr/local/bin/rank-script.sh
+  rank.pl: /usr/local/bin/rank.pl
+  snp-frequency-diff.pl: /usr/local/bin/snp-frequency-diff.pl
+  statistic.pl: /usr/local/bin/statistic.pl
+  subsample-synchronized.pl: /usr/local/bin/subsample-synchronized.pl
+  subsample_sync2GenePop.pl: /usr/local/bin/subsample_sync2GenePop.pl
+  subsample_sync2fasta.pl: /usr/local/bin/subsample_sync2fasta.pl
+  synchronize-pileup.pl: /usr/local/bin/synchronize-pileup.pl
+  jwebserver: /usr/local/bin/jwebserver
+  annot-tsv: /usr/local/bin/annot-tsv
+  jpackage: /usr/local/bin/jpackage
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  bwa: /usr/local/bin/bwa
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  hb-info: /usr/local/bin/hb-info
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  jfr: /usr/local/bin/jfr
+  tjbench: /usr/local/bin/tjbench
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
