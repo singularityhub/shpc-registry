@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ncbi-fcs-gx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-fcs-gx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-fcs-gx/container.yaml"
-updated_at: "2024-08-26 02:54:11.961521"
-latest: "0.5.4--h4ac6f70_0"
+updated_at: "2024-08-27 02:56:59.039624"
+latest: "0.5.4--h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/ncbi-fcs-gx"
 aliases:
  - "action_report.py"
@@ -29,8 +29,9 @@ versions:
  - "0.4.1--h4ac6f70_1"
  - "0.5.0--h4ac6f70_3"
  - "0.5.4--h4ac6f70_0"
+ - "0.5.4--h4ac6f70_1"
 description: "singularity registry hpc automated addition for ncbi-fcs-gx"
-config: {"url": "https://biocontainers.pro/tools/ncbi-fcs-gx", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ncbi-fcs-gx", "latest": {"0.5.4--h4ac6f70_0": "sha256:04974e5f1243eb84168f9cb783fadff68b2db0b5fcc4c2ef7aa79af2cc494a1a"}, "tags": {"0.4.0--h9f5acd7_1": "sha256:deb8910250c74e3d808a4515fc971be8c41f43e526ae6951963ad46f14a8ae06", "0.4.0--h4ac6f70_2": "sha256:2045eea3ce531e61629d83cadf019bc7bd1ef6f7952a83854a8780cd5e4b4f02", "0.4.1--h4ac6f70_0": "sha256:0bebb6346c31025341e6a8a6be50a1cbeb2c97c49dd348c037246c2a3fad74c1", "0.5.0--h4ac6f70_2": "sha256:5622030fd382e9e82707943ad5213f838da8d7f319baf248c820581f902078b8", "0.4.1--h4ac6f70_1": "sha256:911338cad35cf0c5ab15cec75c71f31caf954a72e8d63e3d958608f0b0e649bd", "0.5.0--h4ac6f70_3": "sha256:0870e0037d49f55fe42f018561c27eb140efef3e1467f8343937c2f7613feeac", "0.5.4--h4ac6f70_0": "sha256:04974e5f1243eb84168f9cb783fadff68b2db0b5fcc4c2ef7aa79af2cc494a1a"}, "docker": "quay.io/biocontainers/ncbi-fcs-gx", "aliases": {"action_report.py": "/usr/local/bin/action_report.py", "blast_names_mapping.tsv": "/usr/local/bin/blast_names_mapping.tsv", "classify_taxonomy.py": "/usr/local/bin/classify_taxonomy.py", "db_exclude.locs.tsv": "/usr/local/bin/db_exclude.locs.tsv", "gx": "/usr/local/bin/gx", "run_gx.py": "/usr/local/bin/run_gx.py", "sync_files.py": "/usr/local/bin/sync_files.py", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/ncbi-fcs-gx", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ncbi-fcs-gx", "latest": {"0.5.4--h4ac6f70_1": "sha256:6b2f7424c543ab3d297cb96361222ca90203aba3d0af48930586d10c8f3e3cfa"}, "tags": {"0.4.0--h9f5acd7_1": "sha256:deb8910250c74e3d808a4515fc971be8c41f43e526ae6951963ad46f14a8ae06", "0.4.0--h4ac6f70_2": "sha256:2045eea3ce531e61629d83cadf019bc7bd1ef6f7952a83854a8780cd5e4b4f02", "0.4.1--h4ac6f70_0": "sha256:0bebb6346c31025341e6a8a6be50a1cbeb2c97c49dd348c037246c2a3fad74c1", "0.5.0--h4ac6f70_2": "sha256:5622030fd382e9e82707943ad5213f838da8d7f319baf248c820581f902078b8", "0.4.1--h4ac6f70_1": "sha256:911338cad35cf0c5ab15cec75c71f31caf954a72e8d63e3d958608f0b0e649bd", "0.5.0--h4ac6f70_3": "sha256:0870e0037d49f55fe42f018561c27eb140efef3e1467f8343937c2f7613feeac", "0.5.4--h4ac6f70_0": "sha256:04974e5f1243eb84168f9cb783fadff68b2db0b5fcc4c2ef7aa79af2cc494a1a", "0.5.4--h4ac6f70_1": "sha256:6b2f7424c543ab3d297cb96361222ca90203aba3d0af48930586d10c8f3e3cfa"}, "docker": "quay.io/biocontainers/ncbi-fcs-gx", "aliases": {"action_report.py": "/usr/local/bin/action_report.py", "blast_names_mapping.tsv": "/usr/local/bin/blast_names_mapping.tsv", "classify_taxonomy.py": "/usr/local/bin/classify_taxonomy.py", "db_exclude.locs.tsv": "/usr/local/bin/db_exclude.locs.tsv", "gx": "/usr/local/bin/gx", "run_gx.py": "/usr/local/bin/run_gx.py", "sync_files.py": "/usr/local/bin/sync_files.py", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncbi-fcs-gx.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/ncbi-fcs-gx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ncbi-fcs-gx:0.5.4--h4ac6f70_0
+$ shpc install quay.io/biocontainers/ncbi-fcs-gx:0.5.4--h4ac6f70_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ncbi-fcs-gx/0.5.4--h4ac6f70_0
-$ module help quay.io/biocontainers/ncbi-fcs-gx/0.5.4--h4ac6f70_0
+$ module load quay.io/biocontainers/ncbi-fcs-gx/0.5.4--h4ac6f70_1
+$ module help quay.io/biocontainers/ncbi-fcs-gx/0.5.4--h4ac6f70_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

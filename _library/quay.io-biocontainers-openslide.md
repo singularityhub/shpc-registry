@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/openslide"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openslide/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openslide/container.yaml"
-updated_at: "2024-08-26 03:11:35.826799"
+updated_at: "2024-08-27 03:14:15.375022"
 latest: "3.4.1--2"
 container_url: "https://biocontainers.pro/tools/openslide"
 

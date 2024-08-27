@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowdensity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowdensity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowdensity/container.yaml"
-updated_at: "2024-08-26 02:42:40.767062"
+updated_at: "2024-08-27 02:45:29.508635"
 latest: "1.36.1--r43h92aedd1_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowdensity"
 aliases:

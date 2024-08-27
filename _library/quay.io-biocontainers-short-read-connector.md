@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/short-read-connector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/short-read-connector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/short-read-connector/container.yaml"
-updated_at: "2024-08-26 02:57:31.081186"
-latest: "1.2.0--h43eeafb_0"
+updated_at: "2024-08-27 03:00:15.917984"
+latest: "1.2.0--h43eeafb_1"
 container_url: "https://biocontainers.pro/tools/short-read-connector"
 aliases:
  - "SRC_counter"
@@ -19,8 +19,9 @@ aliases:
  - "h5cc"
 versions:
  - "1.2.0--h43eeafb_0"
+ - "1.2.0--h43eeafb_1"
 description: "singularity registry hpc automated addition for short-read-connector"
-config: {"url": "https://biocontainers.pro/tools/short-read-connector", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for short-read-connector", "latest": {"1.2.0--h43eeafb_0": "sha256:1e61c79989219c12ba9b2423086edef7ca6a9d9ba06c38080d30f9b9558465fb"}, "tags": {"1.2.0--h43eeafb_0": "sha256:1e61c79989219c12ba9b2423086edef7ca6a9d9ba06c38080d30f9b9558465fb"}, "docker": "quay.io/biocontainers/short-read-connector", "aliases": {"SRC_counter": "/usr/local/bin/SRC_counter", "SRC_linker": "/usr/local/bin/SRC_linker", "dsk": "/usr/local/bin/dsk", "dsk2ascii": "/usr/local/bin/dsk2ascii", "extract_reads_from_bv": "/usr/local/bin/extract_reads_from_bv", "generate_bv": "/usr/local/bin/generate_bv", "short_read_connector_counter.sh": "/usr/local/bin/short_read_connector_counter.sh", "short_read_connector_linker.sh": "/usr/local/bin/short_read_connector_linker.sh", "h5cc": "/usr/local/bin/h5cc"}}
+config: {"url": "https://biocontainers.pro/tools/short-read-connector", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for short-read-connector", "latest": {"1.2.0--h43eeafb_1": "sha256:fedf6471575c7b0674894ac5a8f4cbe5875405849ba3b6043c5ff5b53fe24037"}, "tags": {"1.2.0--h43eeafb_0": "sha256:1e61c79989219c12ba9b2423086edef7ca6a9d9ba06c38080d30f9b9558465fb", "1.2.0--h43eeafb_1": "sha256:fedf6471575c7b0674894ac5a8f4cbe5875405849ba3b6043c5ff5b53fe24037"}, "docker": "quay.io/biocontainers/short-read-connector", "aliases": {"SRC_counter": "/usr/local/bin/SRC_counter", "SRC_linker": "/usr/local/bin/SRC_linker", "dsk": "/usr/local/bin/dsk", "dsk2ascii": "/usr/local/bin/dsk2ascii", "extract_reads_from_bv": "/usr/local/bin/extract_reads_from_bv", "generate_bv": "/usr/local/bin/generate_bv", "short_read_connector_counter.sh": "/usr/local/bin/short_read_connector_counter.sh", "short_read_connector_linker.sh": "/usr/local/bin/short_read_connector_linker.sh", "h5cc": "/usr/local/bin/h5cc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/short-read-connector.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/short-read-connector
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/short-read-connector:1.2.0--h43eeafb_0
+$ shpc install quay.io/biocontainers/short-read-connector:1.2.0--h43eeafb_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/short-read-connector/1.2.0--h43eeafb_0
-$ module help quay.io/biocontainers/short-read-connector/1.2.0--h43eeafb_0
+$ module load quay.io/biocontainers/short-read-connector/1.2.0--h43eeafb_1
+$ module help quay.io/biocontainers/short-read-connector/1.2.0--h43eeafb_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pixelator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pixelator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pixelator/container.yaml"
-updated_at: "2024-08-26 02:58:48.107077"
+updated_at: "2024-08-27 03:01:33.594298"
 latest: "0.18.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pixelator"
 aliases:

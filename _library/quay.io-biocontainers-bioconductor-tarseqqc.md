@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tarseqqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tarseqqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tarseqqc/container.yaml"
-updated_at: "2024-08-26 03:13:56.120904"
+updated_at: "2024-08-27 03:16:34.762559"
 latest: "1.27.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tarseqqc"
 aliases:
