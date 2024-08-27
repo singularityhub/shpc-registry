@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/bbmix
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bbmix
+latest:
+  0.2.2--pyhdfd78af_0: sha256:f73f3c95afc488f3a343f87f69bdddc9effcfcc66c120f3a4f398b1d340729ef
+tags:
+  0.2.2--pyhdfd78af_0: sha256:f73f3c95afc488f3a343f87f69bdddc9effcfcc66c120f3a4f398b1d340729ef
+docker: quay.io/biocontainers/bbmix
+aliases:
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  tjbench: /usr/local/bin/tjbench
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

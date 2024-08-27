@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/bwa-aln-interactive
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bwa-aln-interactive
+latest:
+  0.7.18--he4a0461_0: sha256:eccc46aae5ae9649ef24d0f8be20cddf1875635e7d81e67e3622257a8f2f1eb7
+tags:
+  0.7.18--he4a0461_0: sha256:eccc46aae5ae9649ef24d0f8be20cddf1875635e7d81e67e3622257a8f2f1eb7
+docker: quay.io/biocontainers/bwa-aln-interactive
+aliases:
+  bwa-aln-interactive: /usr/local/bin/bwa-aln-interactive

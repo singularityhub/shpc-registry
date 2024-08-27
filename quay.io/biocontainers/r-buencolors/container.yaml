@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/r-buencolors
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-buencolors
+latest:
+  0.5.6--r43hdfd78af_0: sha256:88d7d0f064f2a11c05d6084c89521d30a24e732a610f917fcdcf67ed7e2c2196
+tags:
+  0.5.6--r43hdfd78af_0: sha256:88d7d0f064f2a11c05d6084c89521d30a24e732a610f917fcdcf67ed7e2c2196
+docker: quay.io/biocontainers/r-buencolors
+aliases:
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

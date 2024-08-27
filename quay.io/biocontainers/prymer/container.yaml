@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/prymer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for prymer
+latest:
+  2.0.0--pyhdfd78af_0: sha256:4f7d639e0369dea186635d4d4307f2fe9a87c2a02dab0787ff2ef120adedccd5
+tags:
+  2.0.0--pyhdfd78af_0: sha256:4f7d639e0369dea186635d4d4307f2fe9a87c2a02dab0787ff2ef120adedccd5
+docker: quay.io/biocontainers/prymer
+aliases:
+  amplicon3_core: /usr/local/bin/amplicon3_core
+  long_seq_tm_test: /usr/local/bin/long_seq_tm_test
+  ntdpal: /usr/local/bin/ntdpal
+  ntthal: /usr/local/bin/ntthal
+  oligotm: /usr/local/bin/oligotm
+  primer3_core: /usr/local/bin/primer3_core
+  primer3_masker: /usr/local/bin/primer3_masker
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
