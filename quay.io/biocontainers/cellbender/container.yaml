@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cellbender
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cellbender
 latest:
-  0.3.0--pyhdfd78af_0: sha256:43fe00c046598fd1556434836032bc6e2662533aa63fa494d5cda2ed0422787a
+  0.3.2--pyhdfd78af_0: sha256:5eae4a90428e48dddc419a305778eeb6a2472af664ccfb81dffc67d2f8f8ec40
 tags:
   0.3.0--pyhdfd78af_0: sha256:43fe00c046598fd1556434836032bc6e2662533aa63fa494d5cda2ed0422787a
+  0.3.2--pyhdfd78af_0: sha256:5eae4a90428e48dddc419a305778eeb6a2472af664ccfb81dffc67d2f8f8ec40
 docker: quay.io/biocontainers/cellbender
 aliases:
   cellbender: /usr/local/bin/cellbender

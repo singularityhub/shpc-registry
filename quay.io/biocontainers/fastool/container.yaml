@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/fastool
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastool
 latest:
-  0.1.4--he4a0461_8: sha256:ad5eac36261325bac10c0a8c60651f1cee42024e2808fbc5b97076ef382d91f6
+  0.1.4--he4a0461_9: sha256:5802c41a470eb0bce795ca6e6f010fb9b9a0369be03d5b11d98893b9454144db
 tags:
   0.1.4--h7132678_6: sha256:1ae1a12b41850b8be6edfe37c7445f1c525023d1bcbd189b495d490b3f9bfc27
   0.1.4--he4a0461_8: sha256:ad5eac36261325bac10c0a8c60651f1cee42024e2808fbc5b97076ef382d91f6
+  0.1.4--he4a0461_9: sha256:5802c41a470eb0bce795ca6e6f010fb9b9a0369be03d5b11d98893b9454144db
 docker: quay.io/biocontainers/fastool
 aliases:
   fastool: /usr/local/bin/fastool
