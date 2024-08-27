@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-robustbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-robustbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-robustbase/container.yaml"
-updated_at: "2024-08-27 03:08:28.235723"
+updated_at: "2024-08-27 06:23:54.086208"
 latest: "0.92_6--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-robustbase"
 aliases:

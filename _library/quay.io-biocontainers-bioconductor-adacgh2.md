@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-adacgh2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-adacgh2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-adacgh2/container.yaml"
-updated_at: "2024-08-27 02:48:51.041628"
+updated_at: "2024-08-27 06:03:20.935449"
 latest: "2.42.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-adacgh2"
 

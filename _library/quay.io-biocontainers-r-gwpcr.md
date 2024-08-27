@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gwpcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gwpcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gwpcr/container.yaml"
-updated_at: "2024-08-27 03:21:21.063764"
+updated_at: "2024-08-27 06:37:30.121512"
 latest: "1.0.4--r43h031d066_5"
 container_url: "https://biocontainers.pro/tools/r-gwpcr"
 

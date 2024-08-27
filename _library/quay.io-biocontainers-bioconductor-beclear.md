@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-beclear"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-beclear/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-beclear/container.yaml"
-updated_at: "2024-08-27 03:16:19.275026"
+updated_at: "2024-08-27 06:32:11.840542"
 latest: "2.18.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-beclear"
 aliases:
