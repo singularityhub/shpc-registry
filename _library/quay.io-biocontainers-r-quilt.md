@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-quilt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-quilt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-quilt/container.yaml"
-updated_at: "2024-08-27 06:21:16.056462"
-latest: "1.0.5--r43h06b5641_0"
+updated_at: "2024-08-28 02:53:22.803998"
+latest: "2.0.0--r43hdbdd923_2"
 container_url: "https://biocontainers.pro/tools/r-quilt"
 aliases:
  - "rsync-ssl"
@@ -24,8 +24,9 @@ versions:
  - "1.0.4--r42h06b5641_1"
  - "1.0.4--r43h06b5641_2"
  - "1.0.5--r43h06b5641_0"
+ - "2.0.0--r43hdbdd923_2"
 description: "shpc-registry automated BioContainers addition for r-quilt"
-config: {"url": "https://biocontainers.pro/tools/r-quilt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-quilt", "latest": {"1.0.5--r43h06b5641_0": "sha256:53f513cd3325c6f890bc71a60624e2f2b16e182d16cde38ff5ead7bef868657d"}, "tags": {"1.0.3--r41h37595e4_1": "sha256:4ec3832600d461ffee36114ed456f8803099dc7bd7b72f3a1e2488dca438a6d8", "1.0.3--r42h37595e4_2": "sha256:43a24b0514a9bb760b0807a47374d0e5075c0d67230de33596442b492c7b89b8", "1.0.4--r42h06b5641_1": "sha256:98dcce673878992becc18bc82902c85ad47a388077369ffe7982c06ee564541c", "1.0.4--r43h06b5641_2": "sha256:70a42844d82cd0c5bb8dd8ad1c3f537f7a6527b5cf8986a8c8d7cc12f810fc72", "1.0.5--r43h06b5641_0": "sha256:53f513cd3325c6f890bc71a60624e2f2b16e182d16cde38ff5ead7bef868657d"}, "docker": "quay.io/biocontainers/r-quilt", "aliases": {"rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/r-quilt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-quilt", "latest": {"2.0.0--r43hdbdd923_2": "sha256:43322e829dca64581ed73751aae9631315bacdf6b6aa38d11853c232041c6f0d"}, "tags": {"1.0.3--r41h37595e4_1": "sha256:4ec3832600d461ffee36114ed456f8803099dc7bd7b72f3a1e2488dca438a6d8", "1.0.3--r42h37595e4_2": "sha256:43a24b0514a9bb760b0807a47374d0e5075c0d67230de33596442b492c7b89b8", "1.0.4--r42h06b5641_1": "sha256:98dcce673878992becc18bc82902c85ad47a388077369ffe7982c06ee564541c", "1.0.4--r43h06b5641_2": "sha256:70a42844d82cd0c5bb8dd8ad1c3f537f7a6527b5cf8986a8c8d7cc12f810fc72", "1.0.5--r43h06b5641_0": "sha256:53f513cd3325c6f890bc71a60624e2f2b16e182d16cde38ff5ead7bef868657d", "2.0.0--r43hdbdd923_2": "sha256:43322e829dca64581ed73751aae9631315bacdf6b6aa38d11853c232041c6f0d"}, "docker": "quay.io/biocontainers/r-quilt", "aliases": {"rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-quilt.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/r-quilt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-quilt:1.0.5--r43h06b5641_0
+$ shpc install quay.io/biocontainers/r-quilt:2.0.0--r43hdbdd923_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-quilt/1.0.5--r43h06b5641_0
-$ module help quay.io/biocontainers/r-quilt/1.0.5--r43h06b5641_0
+$ module load quay.io/biocontainers/r-quilt/2.0.0--r43hdbdd923_2
+$ module help quay.io/biocontainers/r-quilt/2.0.0--r43hdbdd923_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

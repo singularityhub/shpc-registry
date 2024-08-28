@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastani/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastani/container.yaml"
-updated_at: "2024-08-27 06:26:11.440626"
-latest: "1.34--h4dfc31f_2"
+updated_at: "2024-08-28 02:58:28.559267"
+latest: "1.34--h4dfc31f_3"
 container_url: "https://biocontainers.pro/tools/fastani"
 aliases:
  - "fastANI"
@@ -15,8 +15,9 @@ versions:
  - "1.34--h4dfc31f_0"
  - "1.34--h4dfc31f_1"
  - "1.34--h4dfc31f_2"
+ - "1.34--h4dfc31f_3"
 description: "shpc-registry automated BioContainers addition for fastani"
-config: {"url": "https://biocontainers.pro/tools/fastani", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastani", "latest": {"1.34--h4dfc31f_2": "sha256:07a26bab4539918cce52988c39ebb3b0c56425a17c06fffe9f0e6970aff51b9d"}, "tags": {"1.33--h0fdf51a_1": "sha256:4ba79083702b537aa7478c29870a41e651c3a1c9f6ed63fabd8fca6539686efe", "1.33--h4dfc31f_3": "sha256:d7e42634baa4c5518145a30ae5f43ca0c8bea3e07241047f3aea9a531953b1ff", "1.34--h4dfc31f_0": "sha256:49d9f3ecc1aea6a48f51918dd1b2b9cdc4683011f2eeb4956b5d7dd76d3fc0d8", "1.34--h4dfc31f_1": "sha256:a5ae728542a056b176687624664facc2ff2a7dd84b9c57d27f028a0211fa0d07", "1.34--h4dfc31f_2": "sha256:07a26bab4539918cce52988c39ebb3b0c56425a17c06fffe9f0e6970aff51b9d"}, "docker": "quay.io/biocontainers/fastani", "aliases": {"fastANI": "/usr/local/bin/fastANI"}}
+config: {"url": "https://biocontainers.pro/tools/fastani", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastani", "latest": {"1.34--h4dfc31f_3": "sha256:9d3c0939e7e7cea0dc8fc6cb6a5916c80772c2db40507bee0f3792b1e0f3b683"}, "tags": {"1.33--h0fdf51a_1": "sha256:4ba79083702b537aa7478c29870a41e651c3a1c9f6ed63fabd8fca6539686efe", "1.33--h4dfc31f_3": "sha256:d7e42634baa4c5518145a30ae5f43ca0c8bea3e07241047f3aea9a531953b1ff", "1.34--h4dfc31f_0": "sha256:49d9f3ecc1aea6a48f51918dd1b2b9cdc4683011f2eeb4956b5d7dd76d3fc0d8", "1.34--h4dfc31f_1": "sha256:a5ae728542a056b176687624664facc2ff2a7dd84b9c57d27f028a0211fa0d07", "1.34--h4dfc31f_2": "sha256:07a26bab4539918cce52988c39ebb3b0c56425a17c06fffe9f0e6970aff51b9d", "1.34--h4dfc31f_3": "sha256:9d3c0939e7e7cea0dc8fc6cb6a5916c80772c2db40507bee0f3792b1e0f3b683"}, "docker": "quay.io/biocontainers/fastani", "aliases": {"fastANI": "/usr/local/bin/fastANI"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastani.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/fastani
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastani:1.34--h4dfc31f_2
+$ shpc install quay.io/biocontainers/fastani:1.34--h4dfc31f_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastani/1.34--h4dfc31f_2
-$ module help quay.io/biocontainers/fastani/1.34--h4dfc31f_2
+$ module load quay.io/biocontainers/fastani/1.34--h4dfc31f_3
+$ module help quay.io/biocontainers/fastani/1.34--h4dfc31f_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/fastool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastool/container.yaml"
-updated_at: "2024-08-27 06:38:16.048412"
-latest: "0.1.4--he4a0461_8"
+updated_at: "2024-08-28 03:10:49.296631"
+latest: "0.1.4--he4a0461_9"
 container_url: "https://biocontainers.pro/tools/fastool"
 aliases:
  - "fastool"
 versions:
  - "0.1.4--h7132678_6"
  - "0.1.4--he4a0461_8"
+ - "0.1.4--he4a0461_9"
 description: "shpc-registry automated BioContainers addition for fastool"
-config: {"url": "https://biocontainers.pro/tools/fastool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastool", "latest": {"0.1.4--he4a0461_8": "sha256:ad5eac36261325bac10c0a8c60651f1cee42024e2808fbc5b97076ef382d91f6"}, "tags": {"0.1.4--h7132678_6": "sha256:1ae1a12b41850b8be6edfe37c7445f1c525023d1bcbd189b495d490b3f9bfc27", "0.1.4--he4a0461_8": "sha256:ad5eac36261325bac10c0a8c60651f1cee42024e2808fbc5b97076ef382d91f6"}, "docker": "quay.io/biocontainers/fastool", "aliases": {"fastool": "/usr/local/bin/fastool"}}
+config: {"url": "https://biocontainers.pro/tools/fastool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastool", "latest": {"0.1.4--he4a0461_9": "sha256:5802c41a470eb0bce795ca6e6f010fb9b9a0369be03d5b11d98893b9454144db"}, "tags": {"0.1.4--h7132678_6": "sha256:1ae1a12b41850b8be6edfe37c7445f1c525023d1bcbd189b495d490b3f9bfc27", "0.1.4--he4a0461_8": "sha256:ad5eac36261325bac10c0a8c60651f1cee42024e2808fbc5b97076ef382d91f6", "0.1.4--he4a0461_9": "sha256:5802c41a470eb0bce795ca6e6f010fb9b9a0369be03d5b11d98893b9454144db"}, "docker": "quay.io/biocontainers/fastool", "aliases": {"fastool": "/usr/local/bin/fastool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastool.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/fastool
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastool:0.1.4--he4a0461_8
+$ shpc install quay.io/biocontainers/fastool:0.1.4--he4a0461_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastool/0.1.4--he4a0461_8
-$ module help quay.io/biocontainers/fastool/0.1.4--he4a0461_8
+$ module load quay.io/biocontainers/fastool/0.1.4--he4a0461_9
+$ module help quay.io/biocontainers/fastool/0.1.4--he4a0461_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

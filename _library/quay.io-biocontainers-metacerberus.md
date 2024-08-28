@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metacerberus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacerberus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacerberus/container.yaml"
-updated_at: "2024-08-27 06:30:22.660270"
-latest: "1.3.1--pyhdfd78af_0"
+updated_at: "2024-08-28 03:02:45.672654"
+latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metacerberus"
 aliases:
  - "cc"
@@ -61,8 +61,9 @@ versions:
  - "1.2.1--pyhdfd78af_1"
  - "1.3.0--pyhdfd78af_1"
  - "1.3.1--pyhdfd78af_0"
+ - "1.4.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for metacerberus"
-config: {"url": "https://biocontainers.pro/tools/metacerberus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metacerberus", "latest": {"1.3.1--pyhdfd78af_0": "sha256:edfeea9e949dc21d33483226553bbd67a09f5bfe5b3303fabde6a32131092242"}, "tags": {"1.0--pyh5e36f6f_0": "sha256:39523e906bdfb7e6a324579705389194b9f5e612b4180719b954f88f42541518", "1.0--pyhdfd78af_1": "sha256:c97795a61f5c106af5886b3cef538d8c8fd0a0c7dcc85cc7bd204cafb9190aa7", "1.1--pyhdfd78af_1": "sha256:f838b7a6b2763d8382c9fee1b07bf0fe28decd6d891cb57a1dcff1538de9d332", "1.2.1--pyhdfd78af_0": "sha256:4f0dc8a75209b6744869b1a825b63c3aa350f234964b452a4d1750c8f8435c10", "1.2.1--pyhdfd78af_1": "sha256:73643fa6d2c9aceb7a6fec0cd6ad23499dc19476b39cc601d8b298c2935c35c2", "1.3.0--pyhdfd78af_1": "sha256:1fb111bd5b767747a32fb25f0bdd960408f8c33350a531fc75f6d430770304d6", "1.3.1--pyhdfd78af_0": "sha256:edfeea9e949dc21d33483226553bbd67a09f5bfe5b3303fabde6a32131092242"}, "docker": "quay.io/biocontainers/metacerberus", "aliases": {"cc": "/usr/local/bin/cc", "countAssembly.py": "/usr/local/bin/countAssembly.py", "cpp": "/usr/local/bin/cpp", "flash2": "/usr/local/bin/flash2", "gcc": "/usr/local/bin/gcc", "gcc-ar": "/usr/local/bin/gcc-ar", "gcc-nm": "/usr/local/bin/gcc-nm", "gcc-ranlib": "/usr/local/bin/gcc-ranlib", "gcov": "/usr/local/bin/gcov", "gcov-dump": "/usr/local/bin/gcov-dump", "gcov-tool": "/usr/local/bin/gcov-tool", "gpustat": "/usr/local/bin/gpustat", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "metacerberus.py": "/usr/local/bin/metacerberus.py", "pathview-metacerberus.R": "/usr/local/bin/pathview-metacerberus.R", "porechop": "/usr/local/bin/porechop", "py-spy": "/usr/local/bin/py-spy", "ray": "/usr/local/bin/ray", "ray-slurm-metacerberus.sh": "/usr/local/bin/ray-slurm-metacerberus.sh", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "fastp": "/usr/local/bin/fastp", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh", "bbcms.sh": "/usr/local/bin/bbcms.sh"}}
+config: {"url": "https://biocontainers.pro/tools/metacerberus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metacerberus", "latest": {"1.4.0--pyhdfd78af_0": "sha256:598c4245848b81a02621c954d1b9b7effc81cf30b6e19513b252f07ca64563c1"}, "tags": {"1.0--pyh5e36f6f_0": "sha256:39523e906bdfb7e6a324579705389194b9f5e612b4180719b954f88f42541518", "1.0--pyhdfd78af_1": "sha256:c97795a61f5c106af5886b3cef538d8c8fd0a0c7dcc85cc7bd204cafb9190aa7", "1.1--pyhdfd78af_1": "sha256:f838b7a6b2763d8382c9fee1b07bf0fe28decd6d891cb57a1dcff1538de9d332", "1.2.1--pyhdfd78af_0": "sha256:4f0dc8a75209b6744869b1a825b63c3aa350f234964b452a4d1750c8f8435c10", "1.2.1--pyhdfd78af_1": "sha256:73643fa6d2c9aceb7a6fec0cd6ad23499dc19476b39cc601d8b298c2935c35c2", "1.3.0--pyhdfd78af_1": "sha256:1fb111bd5b767747a32fb25f0bdd960408f8c33350a531fc75f6d430770304d6", "1.3.1--pyhdfd78af_0": "sha256:edfeea9e949dc21d33483226553bbd67a09f5bfe5b3303fabde6a32131092242", "1.4.0--pyhdfd78af_0": "sha256:598c4245848b81a02621c954d1b9b7effc81cf30b6e19513b252f07ca64563c1"}, "docker": "quay.io/biocontainers/metacerberus", "aliases": {"cc": "/usr/local/bin/cc", "countAssembly.py": "/usr/local/bin/countAssembly.py", "cpp": "/usr/local/bin/cpp", "flash2": "/usr/local/bin/flash2", "gcc": "/usr/local/bin/gcc", "gcc-ar": "/usr/local/bin/gcc-ar", "gcc-nm": "/usr/local/bin/gcc-nm", "gcc-ranlib": "/usr/local/bin/gcc-ranlib", "gcov": "/usr/local/bin/gcov", "gcov-dump": "/usr/local/bin/gcov-dump", "gcov-tool": "/usr/local/bin/gcov-tool", "gpustat": "/usr/local/bin/gpustat", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "metacerberus.py": "/usr/local/bin/metacerberus.py", "pathview-metacerberus.R": "/usr/local/bin/pathview-metacerberus.R", "porechop": "/usr/local/bin/porechop", "py-spy": "/usr/local/bin/py-spy", "ray": "/usr/local/bin/ray", "ray-slurm-metacerberus.sh": "/usr/local/bin/ray-slurm-metacerberus.sh", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "fastp": "/usr/local/bin/fastp", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh", "bbcms.sh": "/usr/local/bin/bbcms.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metacerberus.
@@ -77,7 +78,7 @@ $ shpc install quay.io/biocontainers/metacerberus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metacerberus:1.3.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/metacerberus:1.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -89,8 +90,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metacerberus/1.3.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/metacerberus/1.3.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/metacerberus/1.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/metacerberus/1.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/idemuxcpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/idemuxcpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/idemuxcpp/container.yaml"
-updated_at: "2024-08-27 06:54:36.587478"
-latest: "0.2.0--hdcf5f25_0"
+updated_at: "2024-08-28 03:27:28.959167"
+latest: "0.3.0--hdcf5f25_1"
 container_url: "https://biocontainers.pro/tools/idemuxcpp"
 aliases:
  - "idemuxCPP"
@@ -14,8 +14,9 @@ versions:
  - "0.1.9--h1b026d1_1"
  - "0.1.9--h2d38e66_2"
  - "0.2.0--hdcf5f25_0"
+ - "0.3.0--hdcf5f25_1"
 description: "shpc-registry automated BioContainers addition for idemuxcpp"
-config: {"url": "https://biocontainers.pro/tools/idemuxcpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for idemuxcpp", "latest": {"0.2.0--hdcf5f25_0": "sha256:364565b208f9bbcbb57e107fbdd1d65dc81e15876da329c019127170e9dbc79f"}, "tags": {"0.1.9--h1b026d1_1": "sha256:6c5232a90868114fa3155d46c59dc10c0a7d7422d32d242493a94a894e29fa3d", "0.1.9--h2d38e66_2": "sha256:12cfbb4286131838df322c2d4693d3610ada259d6602df6cc81cdf2ff947c414", "0.2.0--hdcf5f25_0": "sha256:364565b208f9bbcbb57e107fbdd1d65dc81e15876da329c019127170e9dbc79f"}, "docker": "quay.io/biocontainers/idemuxcpp", "aliases": {"idemuxCPP": "/usr/local/bin/idemuxCPP", "bamtools": "/usr/local/bin/bamtools"}}
+config: {"url": "https://biocontainers.pro/tools/idemuxcpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for idemuxcpp", "latest": {"0.3.0--hdcf5f25_1": "sha256:a7163ed6f415df4b0cbc0c00aef7c18ad87bae297a29accb600949a5fc15f8b1"}, "tags": {"0.1.9--h1b026d1_1": "sha256:6c5232a90868114fa3155d46c59dc10c0a7d7422d32d242493a94a894e29fa3d", "0.1.9--h2d38e66_2": "sha256:12cfbb4286131838df322c2d4693d3610ada259d6602df6cc81cdf2ff947c414", "0.2.0--hdcf5f25_0": "sha256:364565b208f9bbcbb57e107fbdd1d65dc81e15876da329c019127170e9dbc79f", "0.3.0--hdcf5f25_1": "sha256:a7163ed6f415df4b0cbc0c00aef7c18ad87bae297a29accb600949a5fc15f8b1"}, "docker": "quay.io/biocontainers/idemuxcpp", "aliases": {"idemuxCPP": "/usr/local/bin/idemuxCPP", "bamtools": "/usr/local/bin/bamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/idemuxcpp.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/idemuxcpp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/idemuxcpp:0.2.0--hdcf5f25_0
+$ shpc install quay.io/biocontainers/idemuxcpp:0.3.0--hdcf5f25_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/idemuxcpp/0.2.0--hdcf5f25_0
-$ module help quay.io/biocontainers/idemuxcpp/0.2.0--hdcf5f25_0
+$ module load quay.io/biocontainers/idemuxcpp/0.3.0--hdcf5f25_1
+$ module help quay.io/biocontainers/idemuxcpp/0.3.0--hdcf5f25_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/strdust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strdust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strdust/container.yaml"
-updated_at: "2024-08-27 06:48:25.815879"
-latest: "0.8.0--h5c23e0d_0"
+updated_at: "2024-08-28 03:21:09.849559"
+latest: "0.8.2--h5c23e0d_0"
 container_url: "https://biocontainers.pro/tools/strdust"
 aliases:
  - "STRdust"
 versions:
  - "0.8.0--h5c23e0d_0"
+ - "0.8.2--h5c23e0d_0"
 description: "singularity registry hpc automated addition for strdust"
-config: {"url": "https://biocontainers.pro/tools/strdust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strdust", "latest": {"0.8.0--h5c23e0d_0": "sha256:7c2da9969be4bebb9baf48905367875696e507c76bc40a14214f023da63db81b"}, "tags": {"0.8.0--h5c23e0d_0": "sha256:7c2da9969be4bebb9baf48905367875696e507c76bc40a14214f023da63db81b"}, "docker": "quay.io/biocontainers/strdust", "aliases": {"STRdust": "/usr/local/bin/STRdust"}}
+config: {"url": "https://biocontainers.pro/tools/strdust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strdust", "latest": {"0.8.2--h5c23e0d_0": "sha256:6ac7f136b26e82a4edc81bd905cd69d70305faa861023c6a59cbec017dc77a70"}, "tags": {"0.8.0--h5c23e0d_0": "sha256:7c2da9969be4bebb9baf48905367875696e507c76bc40a14214f023da63db81b", "0.8.2--h5c23e0d_0": "sha256:6ac7f136b26e82a4edc81bd905cd69d70305faa861023c6a59cbec017dc77a70"}, "docker": "quay.io/biocontainers/strdust", "aliases": {"STRdust": "/usr/local/bin/STRdust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strdust.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/strdust
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strdust:0.8.0--h5c23e0d_0
+$ shpc install quay.io/biocontainers/strdust:0.8.2--h5c23e0d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strdust/0.8.0--h5c23e0d_0
-$ module help quay.io/biocontainers/strdust/0.8.0--h5c23e0d_0
+$ module load quay.io/biocontainers/strdust/0.8.2--h5c23e0d_0
+$ module help quay.io/biocontainers/strdust/0.8.2--h5c23e0d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

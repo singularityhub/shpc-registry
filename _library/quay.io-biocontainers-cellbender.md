@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cellbender"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cellbender/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cellbender/container.yaml"
-updated_at: "2024-08-27 06:50:10.313219"
-latest: "0.3.0--pyhdfd78af_0"
+updated_at: "2024-08-28 03:22:56.089152"
+latest: "0.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cellbender"
 aliases:
  - "cellbender"
@@ -47,8 +47,9 @@ aliases:
  - "pttree"
 versions:
  - "0.3.0--pyhdfd78af_0"
+ - "0.3.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cellbender"
-config: {"url": "https://biocontainers.pro/tools/cellbender", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cellbender", "latest": {"0.3.0--pyhdfd78af_0": "sha256:43fe00c046598fd1556434836032bc6e2662533aa63fa494d5cda2ed0422787a"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:43fe00c046598fd1556434836032bc6e2662533aa63fa494d5cda2ed0422787a"}, "docker": "quay.io/biocontainers/cellbender", "aliases": {"cellbender": "/usr/local/bin/cellbender", "jupyter-contrib": "/usr/local/bin/jupyter-contrib", "jupyter-contrib-nbextension": "/usr/local/bin/jupyter-contrib-nbextension", "jupyter-nbclassic": "/usr/local/bin/jupyter-nbclassic", "jupyter-nbclassic-bundlerextension": "/usr/local/bin/jupyter-nbclassic-bundlerextension", "jupyter-nbclassic-extension": "/usr/local/bin/jupyter-nbclassic-extension", "jupyter-nbclassic-serverextension": "/usr/local/bin/jupyter-nbclassic-serverextension", "jupyter-nbextensions_configurator": "/usr/local/bin/jupyter-nbextensions_configurator", "jupyter-server": "/usr/local/bin/jupyter-server", "loompy": "/usr/local/bin/loompy", "matplotlib": "/usr/local/bin/matplotlib", "qtpy": "/usr/local/bin/qtpy", "jupyter-console": "/usr/local/bin/jupyter-console", "wsdump": "/usr/local/bin/wsdump", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "jupyter-execute": "/usr/local/bin/jupyter-execute", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "send2trash": "/usr/local/bin/send2trash", "torchrun": "/usr/local/bin/torchrun", "ninja": "/usr/local/bin/ninja", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "iptest3": "/usr/local/bin/iptest3", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "iptest": "/usr/local/bin/iptest", "curve_keygen": "/usr/local/bin/curve_keygen", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree"}}
+config: {"url": "https://biocontainers.pro/tools/cellbender", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cellbender", "latest": {"0.3.2--pyhdfd78af_0": "sha256:5eae4a90428e48dddc419a305778eeb6a2472af664ccfb81dffc67d2f8f8ec40"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:43fe00c046598fd1556434836032bc6e2662533aa63fa494d5cda2ed0422787a", "0.3.2--pyhdfd78af_0": "sha256:5eae4a90428e48dddc419a305778eeb6a2472af664ccfb81dffc67d2f8f8ec40"}, "docker": "quay.io/biocontainers/cellbender", "aliases": {"cellbender": "/usr/local/bin/cellbender", "jupyter-contrib": "/usr/local/bin/jupyter-contrib", "jupyter-contrib-nbextension": "/usr/local/bin/jupyter-contrib-nbextension", "jupyter-nbclassic": "/usr/local/bin/jupyter-nbclassic", "jupyter-nbclassic-bundlerextension": "/usr/local/bin/jupyter-nbclassic-bundlerextension", "jupyter-nbclassic-extension": "/usr/local/bin/jupyter-nbclassic-extension", "jupyter-nbclassic-serverextension": "/usr/local/bin/jupyter-nbclassic-serverextension", "jupyter-nbextensions_configurator": "/usr/local/bin/jupyter-nbextensions_configurator", "jupyter-server": "/usr/local/bin/jupyter-server", "loompy": "/usr/local/bin/loompy", "matplotlib": "/usr/local/bin/matplotlib", "qtpy": "/usr/local/bin/qtpy", "jupyter-console": "/usr/local/bin/jupyter-console", "wsdump": "/usr/local/bin/wsdump", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "jupyter-execute": "/usr/local/bin/jupyter-execute", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "send2trash": "/usr/local/bin/send2trash", "torchrun": "/usr/local/bin/torchrun", "ninja": "/usr/local/bin/ninja", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "iptest3": "/usr/local/bin/iptest3", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "iptest": "/usr/local/bin/iptest", "curve_keygen": "/usr/local/bin/curve_keygen", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cellbender.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/cellbender
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cellbender:0.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cellbender:0.3.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cellbender/0.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/cellbender/0.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/cellbender/0.3.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/cellbender/0.3.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
