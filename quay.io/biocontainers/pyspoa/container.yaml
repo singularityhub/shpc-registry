@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pyspoa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyspoa
 latest:
-  0.2.1--py38hd638cd3_2: sha256:74b32aa4ef06ff18391ade03e6cfef01b457d44c1faa5fa52e3d450acbd711da
+  0.2.1--py312ha1f7cf2_3: sha256:0fe28f24a813a50c68fda355d3e6d6357935d62194185b2f37c8e0107f1e1c51
 tags:
   0.0.3--py39h67e14b5_3: sha256:1149aa0fc68f54033020f3a57f78d5f7f2843cf44da20099f8d406232eb6dc06
   0.0.3--py310h068649b_6: sha256:c7dcbeed6726e2381b61856242eb9fcf4b72e48e884585df0003861e8df11e4b
@@ -13,6 +13,7 @@ tags:
   0.2.1--py310h2b6aa90_1: sha256:bb852112f7c4a339823a9d5c80805f4226e205e68a3d15579fa51bd834501e31
   0.0.10--py310h2b6aa90_1: sha256:531d373cfa4566278e5e257da362648db91cfb5346fecd176b37c3fc77a65aac
   0.2.1--py38hd638cd3_2: sha256:74b32aa4ef06ff18391ade03e6cfef01b457d44c1faa5fa52e3d450acbd711da
+  0.2.1--py312ha1f7cf2_3: sha256:0fe28f24a813a50c68fda355d3e6d6357935d62194185b2f37c8e0107f1e1c51
 docker: quay.io/biocontainers/pyspoa
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cellpose
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cellpose
 latest:
-  3.0.8: sha256:4ab1d822dbb32848fd1bfbecf24580556938bfd8a9f37d9ef05bef7874cee92a
+  3.0.10: sha256:a74a4cb494bc733002dbab3a03d425d3e7aed650a2e4d9958671f87f0e1994c3
 tags:
   3.0.8: sha256:4ab1d822dbb32848fd1bfbecf24580556938bfd8a9f37d9ef05bef7874cee92a
+  3.0.10: sha256:a74a4cb494bc733002dbab3a03d425d3e7aed650a2e4d9958671f87f0e1994c3
 docker: quay.io/biocontainers/cellpose
 aliases:
   androiddeployqt6: /usr/local/bin/androiddeployqt6
