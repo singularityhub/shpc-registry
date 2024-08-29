@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mmlong2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmlong2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmlong2/container.yaml"
-updated_at: "2024-08-29 03:04:19.204658"
+updated_at: "2024-08-29 11:21:08.532182"
 latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mmlong2"
 aliases:
