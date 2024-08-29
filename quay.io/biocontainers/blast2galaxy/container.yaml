@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/blast2galaxy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for blast2galaxy
+latest:
+  0.1.0a1--pyhdfd78af_0: sha256:35886b2a9f40073cb723be70395bca03a396cfa9e59cc025af9f8d970a55e207
+tags:
+  0.1.0a1--pyhdfd78af_0: sha256:35886b2a9f40073cb723be70395bca03a396cfa9e59cc025af9f8d970a55e207
+docker: quay.io/biocontainers/blast2galaxy
+aliases:
+  bioblend-galaxy-tests: /usr/local/bin/bioblend-galaxy-tests
+  blast2galaxy: /usr/local/bin/blast2galaxy
+  markdown-it: /usr/local/bin/markdown-it
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  pygmentize: /usr/local/bin/pygmentize
+  normalizer: /usr/local/bin/normalizer

@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/jclusterfunk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for jclusterfunk
+latest:
+  0.0.25--hdfd78af_0: sha256:be12097c610ff9665e949117752a1f05dc08f0dccccac7b1b13f9c7e1c44660c
+tags:
+  0.0.25--hdfd78af_0: sha256:be12097c610ff9665e949117752a1f05dc08f0dccccac7b1b13f9c7e1c44660c
+docker: quay.io/biocontainers/jclusterfunk
+aliases:
+  jclusterfunk: /usr/local/bin/jclusterfunk
+  jwebserver: /usr/local/bin/jwebserver
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  hb-info: /usr/local/bin/hb-info
+  jfr: /usr/local/bin/jfr
+  tjbench: /usr/local/bin/tjbench
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
