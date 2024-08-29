@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/google-cloud-sdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/google-cloud-sdk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/google-cloud-sdk/container.yaml"
-updated_at: "2024-08-28 02:59:24.800939"
+updated_at: "2024-08-29 03:00:04.396407"
 latest: "166.0.0--py27_0"
 container_url: "https://biocontainers.pro/tools/google-cloud-sdk"
 aliases:

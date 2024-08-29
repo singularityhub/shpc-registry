@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/ropebwt3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ropebwt3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ropebwt3/container.yaml"
-updated_at: "2024-08-28 03:28:33.105206"
-latest: "3.3--he4a0461_0"
+updated_at: "2024-08-29 03:27:57.180692"
+latest: "3.4--he4a0461_0"
 container_url: "https://biocontainers.pro/tools/ropebwt3"
 aliases:
  - "ropebwt3"
 versions:
  - "3.3--he4a0461_0"
+ - "3.4--he4a0461_0"
 description: "singularity registry hpc automated addition for ropebwt3"
-config: {"url": "https://biocontainers.pro/tools/ropebwt3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ropebwt3", "latest": {"3.3--he4a0461_0": "sha256:7ba285cd082f69e33c6d43d5a7e6d369a328780dd4e3c7f36ae4c3c075f27746"}, "tags": {"3.3--he4a0461_0": "sha256:7ba285cd082f69e33c6d43d5a7e6d369a328780dd4e3c7f36ae4c3c075f27746"}, "docker": "quay.io/biocontainers/ropebwt3", "aliases": {"ropebwt3": "/usr/local/bin/ropebwt3"}}
+config: {"url": "https://biocontainers.pro/tools/ropebwt3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ropebwt3", "latest": {"3.4--he4a0461_0": "sha256:1e9568f4f8be49dd25e025a07b8f9d34d1487bdbc78149f6c635ed2a3a4c890f"}, "tags": {"3.3--he4a0461_0": "sha256:7ba285cd082f69e33c6d43d5a7e6d369a328780dd4e3c7f36ae4c3c075f27746", "3.4--he4a0461_0": "sha256:1e9568f4f8be49dd25e025a07b8f9d34d1487bdbc78149f6c635ed2a3a4c890f"}, "docker": "quay.io/biocontainers/ropebwt3", "aliases": {"ropebwt3": "/usr/local/bin/ropebwt3"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ropebwt3.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/ropebwt3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ropebwt3:3.3--he4a0461_0
+$ shpc install quay.io/biocontainers/ropebwt3:3.4--he4a0461_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ropebwt3/3.3--he4a0461_0
-$ module help quay.io/biocontainers/ropebwt3/3.3--he4a0461_0
+$ module load quay.io/biocontainers/ropebwt3/3.4--he4a0461_0
+$ module help quay.io/biocontainers/ropebwt3/3.4--he4a0461_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

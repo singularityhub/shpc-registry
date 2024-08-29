@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/macsyfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/macsyfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/macsyfinder/container.yaml"
-updated_at: "2024-08-28 03:03:53.022264"
-latest: "2.1.3--pyhdfd78af_0"
+updated_at: "2024-08-29 03:04:17.232350"
+latest: "2.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/macsyfinder"
 aliases:
  - "macsyconfig"
@@ -44,8 +44,9 @@ versions:
  - "2.1.1--pyh7cba7a3_0"
  - "2.1.2--pyh7cba7a3_0"
  - "2.1.3--pyhdfd78af_0"
+ - "2.1.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for macsyfinder"
-config: {"url": "https://biocontainers.pro/tools/macsyfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for macsyfinder", "latest": {"2.1.3--pyhdfd78af_0": "sha256:24f0af5348511f63d3098ea4e40a80e153f3802d2bda4b686b10c3931ba69607"}, "tags": {"2.1--pyh7cba7a3_0": "sha256:fd961ced95ba3a908b9bd7d69913b3897a5bf20b34586243a2a6a5a0743e79ab", "2.1.1--pyh7cba7a3_0": "sha256:7b864126df5c6f804ed0086a432f78bacf48dd37271ff5abe7b39347e8fa5aec", "2.1.2--pyh7cba7a3_0": "sha256:0bc16b014f87adca602a2642d51e49a4ec3b9985fb53a976daea4b4df26e4180", "2.1.3--pyhdfd78af_0": "sha256:24f0af5348511f63d3098ea4e40a80e153f3802d2bda4b686b10c3931ba69607"}, "docker": "quay.io/biocontainers/macsyfinder", "aliases": {"macsyconfig": "/usr/local/bin/macsyconfig", "macsydata": "/usr/local/bin/macsydata", "macsyfinder": "/usr/local/bin/macsyfinder", "macsymerge": "/usr/local/bin/macsymerge", "macsyprofile": "/usr/local/bin/macsyprofile", "macsysplit": "/usr/local/bin/macsysplit", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat", "esl-sfetch": "/usr/local/bin/esl-sfetch", "esl-shuffle": "/usr/local/bin/esl-shuffle", "esl-ssdraw": "/usr/local/bin/esl-ssdraw", "esl-translate": "/usr/local/bin/esl-translate", "esl-weight": "/usr/local/bin/esl-weight", "esl-afetch": "/usr/local/bin/esl-afetch", "esl-reformat": "/usr/local/bin/esl-reformat"}}
+config: {"url": "https://biocontainers.pro/tools/macsyfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for macsyfinder", "latest": {"2.1.4--pyhdfd78af_0": "sha256:d352b897cddc2b37369197848183d4844290722dbebbd3efc7108ba5327d6884"}, "tags": {"2.1--pyh7cba7a3_0": "sha256:fd961ced95ba3a908b9bd7d69913b3897a5bf20b34586243a2a6a5a0743e79ab", "2.1.1--pyh7cba7a3_0": "sha256:7b864126df5c6f804ed0086a432f78bacf48dd37271ff5abe7b39347e8fa5aec", "2.1.2--pyh7cba7a3_0": "sha256:0bc16b014f87adca602a2642d51e49a4ec3b9985fb53a976daea4b4df26e4180", "2.1.3--pyhdfd78af_0": "sha256:24f0af5348511f63d3098ea4e40a80e153f3802d2bda4b686b10c3931ba69607", "2.1.4--pyhdfd78af_0": "sha256:d352b897cddc2b37369197848183d4844290722dbebbd3efc7108ba5327d6884"}, "docker": "quay.io/biocontainers/macsyfinder", "aliases": {"macsyconfig": "/usr/local/bin/macsyconfig", "macsydata": "/usr/local/bin/macsydata", "macsyfinder": "/usr/local/bin/macsyfinder", "macsymerge": "/usr/local/bin/macsymerge", "macsyprofile": "/usr/local/bin/macsyprofile", "macsysplit": "/usr/local/bin/macsysplit", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat", "esl-sfetch": "/usr/local/bin/esl-sfetch", "esl-shuffle": "/usr/local/bin/esl-shuffle", "esl-ssdraw": "/usr/local/bin/esl-ssdraw", "esl-translate": "/usr/local/bin/esl-translate", "esl-weight": "/usr/local/bin/esl-weight", "esl-afetch": "/usr/local/bin/esl-afetch", "esl-reformat": "/usr/local/bin/esl-reformat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/macsyfinder.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/macsyfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/macsyfinder:2.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/macsyfinder:2.1.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/macsyfinder/2.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/macsyfinder/2.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/macsyfinder/2.1.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/macsyfinder/2.1.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

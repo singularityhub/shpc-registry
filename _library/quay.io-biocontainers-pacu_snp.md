@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pacu_snp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pacu_snp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pacu_snp/container.yaml"
-updated_at: "2024-08-28 03:29:33.274897"
+updated_at: "2024-08-29 03:28:55.750855"
 latest: "0.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pacu_snp"
 aliases:

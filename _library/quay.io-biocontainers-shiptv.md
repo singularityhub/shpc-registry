@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shiptv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shiptv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shiptv/container.yaml"
-updated_at: "2024-08-28 02:58:29.182876"
+updated_at: "2024-08-29 02:59:12.049548"
 latest: "0.4.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/shiptv"
 aliases:

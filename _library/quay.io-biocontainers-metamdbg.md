@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metamdbg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metamdbg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metamdbg/container.yaml"
-updated_at: "2024-08-28 02:55:28.135004"
-latest: "0.3--hdcf5f25_0"
+updated_at: "2024-08-29 02:56:22.291059"
+latest: "1.0--hdcf5f25_1"
 container_url: "https://biocontainers.pro/tools/metamdbg"
 aliases:
  - "metaMDBG"
@@ -37,8 +37,9 @@ aliases:
  - "htsfile"
 versions:
  - "0.3--hdcf5f25_0"
+ - "1.0--hdcf5f25_1"
 description: "singularity registry hpc automated addition for metamdbg"
-config: {"url": "https://biocontainers.pro/tools/metamdbg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metamdbg", "latest": {"0.3--hdcf5f25_0": "sha256:9cc2e5a8ca690b4509490afd78b1420a62ce187e55c6c58f2d3f9441103ef748"}, "tags": {"0.3--hdcf5f25_0": "sha256:9cc2e5a8ca690b4509490afd78b1420a62ce187e55c6c58f2d3f9441103ef748"}, "docker": "quay.io/biocontainers/metamdbg", "aliases": {"metaMDBG": "/usr/local/bin/metaMDBG", "wfmash": "/usr/local/bin/wfmash", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl", "samtools": "/usr/local/bin/samtools", "htsfile": "/usr/local/bin/htsfile"}}
+config: {"url": "https://biocontainers.pro/tools/metamdbg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metamdbg", "latest": {"1.0--hdcf5f25_1": "sha256:c9f94f7bb8506e0158cea9a90b0f2187ad5910567b47f5835c9ed1d1d33053d0"}, "tags": {"0.3--hdcf5f25_0": "sha256:9cc2e5a8ca690b4509490afd78b1420a62ce187e55c6c58f2d3f9441103ef748", "1.0--hdcf5f25_1": "sha256:c9f94f7bb8506e0158cea9a90b0f2187ad5910567b47f5835c9ed1d1d33053d0"}, "docker": "quay.io/biocontainers/metamdbg", "aliases": {"metaMDBG": "/usr/local/bin/metaMDBG", "wfmash": "/usr/local/bin/wfmash", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl", "samtools": "/usr/local/bin/samtools", "htsfile": "/usr/local/bin/htsfile"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metamdbg.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/metamdbg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metamdbg:0.3--hdcf5f25_0
+$ shpc install quay.io/biocontainers/metamdbg:1.0--hdcf5f25_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metamdbg/0.3--hdcf5f25_0
-$ module help quay.io/biocontainers/metamdbg/0.3--hdcf5f25_0
+$ module load quay.io/biocontainers/metamdbg/1.0--hdcf5f25_1
+$ module help quay.io/biocontainers/metamdbg/1.0--hdcf5f25_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

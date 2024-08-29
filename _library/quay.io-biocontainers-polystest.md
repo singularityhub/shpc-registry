@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/polystest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/polystest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/polystest/container.yaml"
-updated_at: "2024-08-28 02:48:06.506495"
+updated_at: "2024-08-29 02:49:18.866439"
 latest: "1.3.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/polystest"
 aliases:

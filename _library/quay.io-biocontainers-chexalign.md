@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chexalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chexalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chexalign/container.yaml"
-updated_at: "2024-08-28 02:43:07.970379"
+updated_at: "2024-08-29 02:44:23.655419"
 latest: "0.12--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/chexalign"
 aliases:
