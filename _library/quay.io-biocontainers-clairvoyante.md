@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clairvoyante"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clairvoyante/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clairvoyante/container.yaml"
-updated_at: "2024-08-29 11:03:42.268085"
+updated_at: "2024-08-30 02:48:31.987288"
 latest: "1.02--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/clairvoyante"
 aliases:

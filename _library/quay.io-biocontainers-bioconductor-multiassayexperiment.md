@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-multiassayexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multiassayexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multiassayexperiment/container.yaml"
-updated_at: "2024-08-29 11:02:33.163807"
+updated_at: "2024-08-30 02:47:21.892994"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-multiassayexperiment"
 aliases:

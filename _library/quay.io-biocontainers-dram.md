@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dram"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dram/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dram/container.yaml"
-updated_at: "2024-08-29 11:36:18.763203"
+updated_at: "2024-08-30 03:21:00.581160"
 latest: "1.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dram"
 aliases:

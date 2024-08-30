@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ioniser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ioniser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ioniser/container.yaml"
-updated_at: "2024-08-29 11:24:27.254078"
+updated_at: "2024-08-30 03:09:20.465275"
 latest: "2.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ioniser"
 aliases:

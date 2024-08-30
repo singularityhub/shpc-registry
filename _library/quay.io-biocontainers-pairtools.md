@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pairtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pairtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pairtools/container.yaml"
-updated_at: "2024-08-29 11:10:34.739867"
+updated_at: "2024-08-30 02:55:33.096230"
 latest: "1.1.0--py310h8dfefeb_2"
 container_url: "https://biocontainers.pro/tools/pairtools"
 aliases:

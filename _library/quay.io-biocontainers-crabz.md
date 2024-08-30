@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crabz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crabz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crabz/container.yaml"
-updated_at: "2024-08-29 11:03:53.787573"
+updated_at: "2024-08-30 02:48:43.691075"
 latest: "0.9.0"
 container_url: "https://biocontainers.pro/tools/crabz"
 aliases:

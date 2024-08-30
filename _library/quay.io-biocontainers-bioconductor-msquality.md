@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msquality"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msquality/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msquality/container.yaml"
-updated_at: "2024-08-29 11:34:54.839298"
+updated_at: "2024-08-30 03:19:38.135614"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msquality"
 aliases:

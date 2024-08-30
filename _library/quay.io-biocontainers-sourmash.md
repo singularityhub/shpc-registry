@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sourmash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sourmash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sourmash/container.yaml"
-updated_at: "2024-08-29 11:22:16.743374"
+updated_at: "2024-08-30 03:07:11.021028"
 latest: "4.8.11--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sourmash"
 aliases:

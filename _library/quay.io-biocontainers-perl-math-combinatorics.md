@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-math-combinatorics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-combinatorics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-combinatorics/container.yaml"
-updated_at: "2024-08-29 11:43:22.608739"
+updated_at: "2024-08-30 03:27:57.605006"
 latest: "0.09--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-math-combinatorics"
 aliases:

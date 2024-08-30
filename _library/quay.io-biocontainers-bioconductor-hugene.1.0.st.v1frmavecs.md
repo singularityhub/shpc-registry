@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hugene.1.0.st.v1frmavecs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hugene.1.0.st.v1frmavecs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hugene.1.0.st.v1frmavecs/container.yaml"
-updated_at: "2024-08-29 11:27:19.791976"
+updated_at: "2024-08-30 03:12:10.870316"
 latest: "1.1.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-hugene.1.0.st.v1frmavecs"
 

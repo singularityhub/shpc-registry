@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/magus-msa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magus-msa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/magus-msa/container.yaml"
-updated_at: "2024-08-29 11:35:46.135327"
+updated_at: "2024-08-30 03:20:28.592595"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/magus-msa"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seedme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seedme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seedme/container.yaml"
-updated_at: "2024-08-29 11:43:02.959421"
+updated_at: "2024-08-30 03:27:38.314964"
 latest: "1.2.4--py_2"
 container_url: "https://biocontainers.pro/tools/seedme"
 aliases:

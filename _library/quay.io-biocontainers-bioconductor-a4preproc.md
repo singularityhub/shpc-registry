@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-a4preproc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-a4preproc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-a4preproc/container.yaml"
-updated_at: "2024-08-29 11:47:31.957845"
+updated_at: "2024-08-30 03:32:02.914534"
 latest: "1.50.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-a4preproc"
 
