@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spapros"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spapros/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spapros/container.yaml"
-updated_at: "2024-08-30 02:46:26.793781"
+updated_at: "2024-08-31 02:45:10.496035"
 latest: "0.1.5"
 container_url: "https://biocontainers.pro/tools/spapros"
 aliases:

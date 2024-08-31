@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/beav"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beav/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beav/container.yaml"
-updated_at: "2024-08-30 02:59:09.755764"
+updated_at: "2024-08-31 02:57:36.740845"
 latest: "1.3.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/beav"
 aliases:

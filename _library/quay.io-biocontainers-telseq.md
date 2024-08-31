@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/telseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/telseq/container.yaml"
-updated_at: "2024-08-30 03:18:18.902041"
+updated_at: "2024-08-31 03:16:49.424955"
 latest: "0.0.2--h7a259b3_7"
 container_url: "https://biocontainers.pro/tools/telseq"
 aliases:

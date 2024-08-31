@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/csb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/csb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/csb/container.yaml"
-updated_at: "2024-08-30 03:31:57.411779"
+updated_at: "2024-08-31 03:30:26.679634"
 latest: "1.2.5--pyh24bf2e0_2"
 container_url: "https://biocontainers.pro/tools/csb"
 aliases:
