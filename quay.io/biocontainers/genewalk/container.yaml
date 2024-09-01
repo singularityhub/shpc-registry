@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/genewalk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for genewalk
 latest:
-  1.6.2--pyh7cba7a3_0: sha256:abc7d78a3fabc5e1359e0c5a78bd1dbb7f746a6cd3a0e011f11a15ac3d4be5a0
+  1.6.3--pyh7e72e81_0: sha256:7eb73a1fdafb83907e49a7c19f7a8ff9e369664ed5fd9e9dd9aea98db7b4affa
 tags:
   1.5.3--pyh5e36f6f_0: sha256:fe6cc3d5a6ba40d01ff10a54ba06fcf3ec3a689299e922ab9bfe3fcdd8183acf
   1.6.1--pyh7cba7a3_0: sha256:e67fec9e237f69e16285a553f6d81c6f212d498d692159123fbb25e844adff3d
   1.6.2--pyh7cba7a3_0: sha256:abc7d78a3fabc5e1359e0c5a78bd1dbb7f746a6cd3a0e011f11a15ac3d4be5a0
+  1.6.3--pyh7e72e81_0: sha256:7eb73a1fdafb83907e49a7c19f7a8ff9e369664ed5fd9e9dd9aea98db7b4affa
 docker: quay.io/biocontainers/genewalk
 aliases:
   compare_gos.py: /usr/local/bin/compare_gos.py
