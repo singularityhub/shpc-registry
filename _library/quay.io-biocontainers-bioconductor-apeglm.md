@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-apeglm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-apeglm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-apeglm/container.yaml"
-updated_at: "2024-08-31 03:00:22.639236"
+updated_at: "2024-09-01 03:15:26.660627"
 latest: "1.24.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-apeglm"
 aliases:
