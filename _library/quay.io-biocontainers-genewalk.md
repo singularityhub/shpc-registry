@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genewalk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genewalk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genewalk/container.yaml"
-updated_at: "2024-09-01 03:44:41.406738"
-latest: "1.6.2--pyh7cba7a3_0"
+updated_at: "2024-09-02 03:32:31.925995"
+latest: "1.6.3--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/genewalk"
 aliases:
  - "compare_gos.py"
@@ -33,8 +33,9 @@ versions:
  - "1.5.3--pyh5e36f6f_0"
  - "1.6.1--pyh7cba7a3_0"
  - "1.6.2--pyh7cba7a3_0"
+ - "1.6.3--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for genewalk"
-config: {"url": "https://biocontainers.pro/tools/genewalk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genewalk", "latest": {"1.6.2--pyh7cba7a3_0": "sha256:abc7d78a3fabc5e1359e0c5a78bd1dbb7f746a6cd3a0e011f11a15ac3d4be5a0"}, "tags": {"1.5.3--pyh5e36f6f_0": "sha256:fe6cc3d5a6ba40d01ff10a54ba06fcf3ec3a689299e922ab9bfe3fcdd8183acf", "1.6.1--pyh7cba7a3_0": "sha256:e67fec9e237f69e16285a553f6d81c6f212d498d692159123fbb25e844adff3d", "1.6.2--pyh7cba7a3_0": "sha256:abc7d78a3fabc5e1359e0c5a78bd1dbb7f746a6cd3a0e011f11a15ac3d4be5a0"}, "docker": "quay.io/biocontainers/genewalk", "aliases": {"compare_gos.py": "/usr/local/bin/compare_gos.py", "fetch_associations.py": "/usr/local/bin/fetch_associations.py", "find_enrichment.py": "/usr/local/bin/find_enrichment.py", "genewalk": "/usr/local/bin/genewalk", "go_plot.py": "/usr/local/bin/go_plot.py", "map_to_slim.py": "/usr/local/bin/map_to_slim.py", "ncbi_gene_results_to_python.py": "/usr/local/bin/ncbi_gene_results_to_python.py", "plot_go_term.py": "/usr/local/bin/plot_go_term.py", "prt_terms.py": "/usr/local/bin/prt_terms.py", "wr_hier.py": "/usr/local/bin/wr_hier.py", "wr_sections.py": "/usr/local/bin/wr_sections.py", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
+config: {"url": "https://biocontainers.pro/tools/genewalk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genewalk", "latest": {"1.6.3--pyh7e72e81_0": "sha256:7eb73a1fdafb83907e49a7c19f7a8ff9e369664ed5fd9e9dd9aea98db7b4affa"}, "tags": {"1.5.3--pyh5e36f6f_0": "sha256:fe6cc3d5a6ba40d01ff10a54ba06fcf3ec3a689299e922ab9bfe3fcdd8183acf", "1.6.1--pyh7cba7a3_0": "sha256:e67fec9e237f69e16285a553f6d81c6f212d498d692159123fbb25e844adff3d", "1.6.2--pyh7cba7a3_0": "sha256:abc7d78a3fabc5e1359e0c5a78bd1dbb7f746a6cd3a0e011f11a15ac3d4be5a0", "1.6.3--pyh7e72e81_0": "sha256:7eb73a1fdafb83907e49a7c19f7a8ff9e369664ed5fd9e9dd9aea98db7b4affa"}, "docker": "quay.io/biocontainers/genewalk", "aliases": {"compare_gos.py": "/usr/local/bin/compare_gos.py", "fetch_associations.py": "/usr/local/bin/fetch_associations.py", "find_enrichment.py": "/usr/local/bin/find_enrichment.py", "genewalk": "/usr/local/bin/genewalk", "go_plot.py": "/usr/local/bin/go_plot.py", "map_to_slim.py": "/usr/local/bin/map_to_slim.py", "ncbi_gene_results_to_python.py": "/usr/local/bin/ncbi_gene_results_to_python.py", "plot_go_term.py": "/usr/local/bin/plot_go_term.py", "prt_terms.py": "/usr/local/bin/prt_terms.py", "wr_hier.py": "/usr/local/bin/wr_hier.py", "wr_sections.py": "/usr/local/bin/wr_sections.py", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genewalk.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/genewalk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genewalk:1.6.2--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/genewalk:1.6.3--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genewalk/1.6.2--pyh7cba7a3_0
-$ module help quay.io/biocontainers/genewalk/1.6.2--pyh7cba7a3_0
+$ module load quay.io/biocontainers/genewalk/1.6.3--pyh7e72e81_0
+$ module help quay.io/biocontainers/genewalk/1.6.3--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

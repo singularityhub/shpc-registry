@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/mgikit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgikit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgikit/container.yaml"
-updated_at: "2024-09-01 03:29:31.642268"
-latest: "0.1.5--h4c94732_1"
+updated_at: "2024-09-02 03:17:20.584965"
+latest: "0.1.6--h4c94732_0"
 container_url: "https://biocontainers.pro/tools/mgikit"
 aliases:
  - "mgikit"
 versions:
  - "0.1.5--h4c94732_0"
  - "0.1.5--h4c94732_1"
+ - "0.1.6--h4c94732_0"
 description: "singularity registry hpc automated addition for mgikit"
-config: {"url": "https://biocontainers.pro/tools/mgikit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mgikit", "latest": {"0.1.5--h4c94732_1": "sha256:d38b38c49bae810c354d70b40f481c1574ebbcc96927a3091c8ed7e71c08d471"}, "tags": {"0.1.5--h4c94732_0": "sha256:499811e979978077987761492c5d9d7c3af468b2caaf4ad501035e60580a9bf2", "0.1.5--h4c94732_1": "sha256:d38b38c49bae810c354d70b40f481c1574ebbcc96927a3091c8ed7e71c08d471"}, "docker": "quay.io/biocontainers/mgikit", "aliases": {"mgikit": "/usr/local/bin/mgikit"}}
+config: {"url": "https://biocontainers.pro/tools/mgikit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mgikit", "latest": {"0.1.6--h4c94732_0": "sha256:80054ccc61bbd83aeb21fe7c41dafb896ef7ac93af84de109a36594908d993e4"}, "tags": {"0.1.5--h4c94732_0": "sha256:499811e979978077987761492c5d9d7c3af468b2caaf4ad501035e60580a9bf2", "0.1.5--h4c94732_1": "sha256:d38b38c49bae810c354d70b40f481c1574ebbcc96927a3091c8ed7e71c08d471", "0.1.6--h4c94732_0": "sha256:80054ccc61bbd83aeb21fe7c41dafb896ef7ac93af84de109a36594908d993e4"}, "docker": "quay.io/biocontainers/mgikit", "aliases": {"mgikit": "/usr/local/bin/mgikit"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mgikit.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/mgikit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mgikit:0.1.5--h4c94732_1
+$ shpc install quay.io/biocontainers/mgikit:0.1.6--h4c94732_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mgikit/0.1.5--h4c94732_1
-$ module help quay.io/biocontainers/mgikit/0.1.5--h4c94732_1
+$ module load quay.io/biocontainers/mgikit/0.1.6--h4c94732_0
+$ module help quay.io/biocontainers/mgikit/0.1.6--h4c94732_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

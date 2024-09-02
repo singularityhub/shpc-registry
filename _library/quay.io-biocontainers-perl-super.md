@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-super"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-super/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-super/container.yaml"
-updated_at: "2024-09-01 03:44:01.515437"
+updated_at: "2024-09-02 03:31:52.470385"
 latest: "1.20190531--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-super"
 aliases:

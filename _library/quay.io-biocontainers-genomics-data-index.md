@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomics-data-index"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomics-data-index/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomics-data-index/container.yaml"
-updated_at: "2024-09-01 03:12:26.815084"
+updated_at: "2024-09-02 03:01:02.231728"
 latest: "0.9.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genomics-data-index"
 aliases:
