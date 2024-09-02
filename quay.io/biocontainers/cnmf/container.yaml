@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/cnmf
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cnmf
+latest:
+  1.6.0--pyhdfd78af_0: sha256:8b4cb3c168233d4078a4800f7602118d7abbe86085b6e04f231bd84e253704ff
+tags:
+  1.6.0--pyhdfd78af_0: sha256:8b4cb3c168233d4078a4800f7602118d7abbe86085b6e04f231bd84e253704ff
+docker: quay.io/biocontainers/cnmf
+aliases:
+  cnmf: /usr/local/bin/cnmf
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  scanpy: /usr/local/bin/scanpy
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  h5delete: /usr/local/bin/h5delete
+  numba: /usr/local/bin/numba

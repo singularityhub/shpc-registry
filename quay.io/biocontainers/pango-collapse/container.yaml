@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/pango-collapse
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pango-collapse
+latest:
+  0.8.2--pyhdfd78af_0: sha256:170b7b266d397e6184d6d699e1d6e87492e2c27a0381b4dd29c8dcb5156853ce
+tags:
+  0.8.2--pyhdfd78af_0: sha256:170b7b266d397e6184d6d699e1d6e87492e2c27a0381b4dd29c8dcb5156853ce
+docker: quay.io/biocontainers/pango-collapse
+aliases:
+  pango-collapse: /usr/local/bin/pango-collapse
+  cmark: /usr/local/bin/cmark
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  pygmentize: /usr/local/bin/pygmentize
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
