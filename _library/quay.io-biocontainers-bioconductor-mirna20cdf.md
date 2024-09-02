@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mirna20cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirna20cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirna20cdf/container.yaml"
-updated_at: "2024-09-02 03:21:15.586656"
+updated_at: "2024-09-02 04:52:03.087445"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirna20cdf"
 

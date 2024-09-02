@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ngsreports"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ngsreports/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ngsreports/container.yaml"
-updated_at: "2024-09-02 03:23:05.908985"
+updated_at: "2024-09-02 04:53:51.638113"
 latest: "2.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ngsreports"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gentle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gentle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gentle/container.yaml"
-updated_at: "2024-09-02 03:30:21.691308"
+updated_at: "2024-09-02 05:01:06.654628"
 latest: "1.9.5.alpha1--h81ca284_0"
 container_url: "https://biocontainers.pro/tools/gentle"
 aliases:

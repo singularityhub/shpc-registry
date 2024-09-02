@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-template-simple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-template-simple/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-template-simple/container.yaml"
-updated_at: "2024-09-02 02:57:33.007870"
+updated_at: "2024-09-02 04:28:01.387383"
 latest: "0.91--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-text-template-simple"
 aliases:

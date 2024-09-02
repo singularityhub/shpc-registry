@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/drprg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drprg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/drprg/container.yaml"
-updated_at: "2024-09-02 02:58:55.947895"
+updated_at: "2024-09-02 04:29:23.031640"
 latest: "0.1.1--h5076881_1"
 container_url: "https://biocontainers.pro/tools/drprg"
 aliases:

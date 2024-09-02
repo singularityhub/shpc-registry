@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tinysink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tinysink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tinysink/container.yaml"
-updated_at: "2024-09-02 03:04:25.478790"
+updated_at: "2024-09-02 04:34:56.523698"
 latest: "1.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/tinysink"
 aliases:

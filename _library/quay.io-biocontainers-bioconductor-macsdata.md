@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-macsdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-macsdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-macsdata/container.yaml"
-updated_at: "2024-09-02 03:00:07.812737"
+updated_at: "2024-09-02 04:30:34.333868"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-macsdata"
 
