@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/voyager
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for voyager
 latest:
-  0.1.0--hdfd78af_0: sha256:95818ef8131dd39512ca206fe4a50e8ad459f10bb51ae77875bdcc6a918543cc
+  0.1.1--hdfd78af_0: sha256:291ff5e9c7d96a359c1a743620af77c5c1bf7f2530de3db2cb1b841598f230b5
 tags:
   0.1.0--hdfd78af_0: sha256:95818ef8131dd39512ca206fe4a50e8ad459f10bb51ae77875bdcc6a918543cc
+  0.1.1--hdfd78af_0: sha256:291ff5e9c7d96a359c1a743620af77c5c1bf7f2530de3db2cb1b841598f230b5
 docker: quay.io/biocontainers/voyager
 aliases:
   voyager-build-cli: /usr/local/bin/voyager-build-cli

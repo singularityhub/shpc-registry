@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/dfast_qc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dfast_qc
 latest:
-  1.0.2--hdfd78af_0: sha256:b4a446be71259247f9beda914476799b88da01ea30469cdd1f49b88e070e9c16
+  1.0.4--hdfd78af_0: sha256:ceff53b3c35ec0a00330fdc593c283adeaa9ed4f306a75dd2232c4074b98527a
 tags:
   0.4.2--hdfd78af_0: sha256:8d57ff93148df75e6eebf28ab35ce4e588127e7ec7921ed00b31d67cba9caf43
   0.5.1--hdfd78af_0: sha256:acc5148d4c325ff28f86e28edfb947a937d580ca6f94110f779de4b18fcdd526
   0.5.7--hdfd78af_0: sha256:ac4dc43b3ae7810e85ecbf6e074e01048a056011a44e61d2a2cf083e97de2fc0
   1.0.0--hdfd78af_0: sha256:40d46ca8d9b3162f22e786da0e9b619b4bcd27f443935bf4c5460cac7c3ce8a7
   1.0.2--hdfd78af_0: sha256:b4a446be71259247f9beda914476799b88da01ea30469cdd1f49b88e070e9c16
+  1.0.4--hdfd78af_0: sha256:ceff53b3c35ec0a00330fdc593c283adeaa9ed4f306a75dd2232c4074b98527a
 docker: quay.io/biocontainers/dfast_qc
 aliases:
   attr: /usr/local/bin/attr

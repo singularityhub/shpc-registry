@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gmwi2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gmwi2
 latest:
-  1.5--pyhdfd78af_0: sha256:e9e7dc48cab545f92e94daae72816d657924e3968380b8d5c1e614c1ccf2f4b5
+  1.6--pyhdfd78af_0: sha256:7821023814118d3d43ec3a536bcf7c039ef33b6bd30666f1b002f149185cc2b8
 tags:
   1.4--pyhdfd78af_0: sha256:e6a5e094cd33856dd5af6f7b2328abf7571df5b54eed80b77b5ec294af2d9dd5
   1.5--pyhdfd78af_0: sha256:e9e7dc48cab545f92e94daae72816d657924e3968380b8d5c1e614c1ccf2f4b5
+  1.6--pyhdfd78af_0: sha256:7821023814118d3d43ec3a536bcf7c039ef33b6bd30666f1b002f149185cc2b8
 docker: quay.io/biocontainers/gmwi2
 aliases:
   add_metadata_tree.py: /usr/local/bin/add_metadata_tree.py
