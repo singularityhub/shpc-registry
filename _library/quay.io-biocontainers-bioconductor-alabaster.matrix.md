@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-alabaster.matrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alabaster.matrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alabaster.matrix/container.yaml"
-updated_at: "2024-09-02 04:32:07.940695"
+updated_at: "2024-09-03 02:57:45.646552"
 latest: "1.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alabaster.matrix"
 aliases:

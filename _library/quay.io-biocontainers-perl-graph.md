@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-graph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-graph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-graph/container.yaml"
-updated_at: "2024-09-02 04:31:13.108642"
-latest: "0.9729--pl5321hdfd78af_0"
+updated_at: "2024-09-03 02:56:52.204691"
+latest: "0.9732--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-graph"
 
 versions:
@@ -14,8 +14,11 @@ versions:
  - "0.9727--pl5321hdfd78af_0"
  - "0.9729--pl5321hdfd78af_0"
  - "0.9728--pl5321hdfd78af_0"
+ - "0.9732--pl5321hdfd78af_0"
+ - "0.9731--pl5321hdfd78af_0"
+ - "0.9730--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-graph"
-config: {"url": "https://biocontainers.pro/tools/perl-graph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-graph", "latest": {"0.9729--pl5321hdfd78af_0": "sha256:5b0c5fbbe5d61c562948c45d927fc852edd3cd5523ff45d4fae464be98c0904c"}, "tags": {"0.9725--pl5321hdfd78af_0": "sha256:12bddd0a13f2c6e9603806d960f22e045cd82f267cf904561e33554322c9ed0e", "0.9726--pl5321hdfd78af_0": "sha256:067044194856d198119c049b6f434a9540e50443099163483d7311a6b782afd1", "0.9727--pl5321hdfd78af_0": "sha256:da57abb20bd065bb2fa7bf72dbe9d389db238920a83e9af3ed288eb39ec6ae4a", "0.9729--pl5321hdfd78af_0": "sha256:5b0c5fbbe5d61c562948c45d927fc852edd3cd5523ff45d4fae464be98c0904c", "0.9728--pl5321hdfd78af_0": "sha256:3f6158a8a412c662cfe4ab63772e9bb8d8ec95785aa3c55980ab0e3d5c6e2998"}, "docker": "quay.io/biocontainers/perl-graph"}
+config: {"url": "https://biocontainers.pro/tools/perl-graph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-graph", "latest": {"0.9732--pl5321hdfd78af_0": "sha256:52342e41caa28afa5680a97a200056826b22f59848376f64734a5214947b9b35"}, "tags": {"0.9725--pl5321hdfd78af_0": "sha256:12bddd0a13f2c6e9603806d960f22e045cd82f267cf904561e33554322c9ed0e", "0.9726--pl5321hdfd78af_0": "sha256:067044194856d198119c049b6f434a9540e50443099163483d7311a6b782afd1", "0.9727--pl5321hdfd78af_0": "sha256:da57abb20bd065bb2fa7bf72dbe9d389db238920a83e9af3ed288eb39ec6ae4a", "0.9729--pl5321hdfd78af_0": "sha256:5b0c5fbbe5d61c562948c45d927fc852edd3cd5523ff45d4fae464be98c0904c", "0.9728--pl5321hdfd78af_0": "sha256:3f6158a8a412c662cfe4ab63772e9bb8d8ec95785aa3c55980ab0e3d5c6e2998", "0.9732--pl5321hdfd78af_0": "sha256:52342e41caa28afa5680a97a200056826b22f59848376f64734a5214947b9b35", "0.9731--pl5321hdfd78af_0": "sha256:171d2f634879f2d24d2e98a93d9ac495e8a05f7d0f14a00776e2880d74a5f96e", "0.9730--pl5321hdfd78af_0": "sha256:308357e4da22c07dbc962524b849a258420ccf49a80c8bc824af162f0ebdf17b"}, "docker": "quay.io/biocontainers/perl-graph"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-graph.
@@ -30,7 +33,7 @@ $ shpc install quay.io/biocontainers/perl-graph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-graph:0.9729--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-graph:0.9732--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-graph/0.9729--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-graph/0.9729--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-graph/0.9732--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-graph/0.9732--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

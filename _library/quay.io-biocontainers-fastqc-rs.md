@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/fastqc-rs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastqc-rs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastqc-rs/container.yaml"
-updated_at: "2024-09-02 04:50:20.935931"
-latest: "0.3.2--he6968d2_2"
+updated_at: "2024-09-03 03:15:27.192511"
+latest: "0.3.4--h101ab07_0"
 container_url: "https://biocontainers.pro/tools/fastqc-rs"
 aliases:
  - "fqc"
 versions:
  - "0.3.2--he9f29cb_1"
  - "0.3.2--he6968d2_2"
+ - "0.3.4--h101ab07_0"
 description: "shpc-registry automated BioContainers addition for fastqc-rs"
-config: {"url": "https://biocontainers.pro/tools/fastqc-rs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqc-rs", "latest": {"0.3.2--he6968d2_2": "sha256:06922bf4202f66690ff57c2198c9d503d17e2c74da53226f48447f2b91a68d9a"}, "tags": {"0.3.2--he9f29cb_1": "sha256:f2055f57f051940b57504b49cfddad9e953cf188e381a85f862da23797dae948", "0.3.2--he6968d2_2": "sha256:06922bf4202f66690ff57c2198c9d503d17e2c74da53226f48447f2b91a68d9a"}, "docker": "quay.io/biocontainers/fastqc-rs", "aliases": {"fqc": "/usr/local/bin/fqc"}}
+config: {"url": "https://biocontainers.pro/tools/fastqc-rs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqc-rs", "latest": {"0.3.4--h101ab07_0": "sha256:538ef5a08a0c619673ca3a6bb6f0d15d0a69d45213300a1d292c42c11cebfbee"}, "tags": {"0.3.2--he9f29cb_1": "sha256:f2055f57f051940b57504b49cfddad9e953cf188e381a85f862da23797dae948", "0.3.2--he6968d2_2": "sha256:06922bf4202f66690ff57c2198c9d503d17e2c74da53226f48447f2b91a68d9a", "0.3.4--h101ab07_0": "sha256:538ef5a08a0c619673ca3a6bb6f0d15d0a69d45213300a1d292c42c11cebfbee"}, "docker": "quay.io/biocontainers/fastqc-rs", "aliases": {"fqc": "/usr/local/bin/fqc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastqc-rs.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/fastqc-rs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastqc-rs:0.3.2--he6968d2_2
+$ shpc install quay.io/biocontainers/fastqc-rs:0.3.4--h101ab07_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastqc-rs/0.3.2--he6968d2_2
-$ module help quay.io/biocontainers/fastqc-rs/0.3.2--he6968d2_2
+$ module load quay.io/biocontainers/fastqc-rs/0.3.4--h101ab07_0
+$ module help quay.io/biocontainers/fastqc-rs/0.3.4--h101ab07_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
