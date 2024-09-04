@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/tigmint
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tigmint
 latest:
-  1.2.10--py312ha1f7cf2_2: sha256:73212f1ef181ba28ef17f79b6c605587f3ae86af435cfb27d8e3a3b7afa24496
+  1.2.10--py38hd638cd3_3: sha256:1c7b1ed7f39cf4268aeb850debc56530f88c2c12998402f5c716f981b6f254d4
 tags:
   1.2.7--py39h6935b12_0: sha256:26b81398baad6bd7c6d14b733169a9f9f33e1c32059aed9c3e77839b452db4f2
   1.2.8--py39h6935b12_0: sha256:084ca6502997bfa864d62227529d0f6aa0fcd7b1fd30dd5ee6d3e081f0a9e8b1
@@ -11,6 +11,7 @@ tags:
   1.2.10--py310h590eda1_0: sha256:c8a1ce9909ef0eaa9f287419635ef213fbd57adf4b1f88b34975e481bea80054
   1.2.10--py38he0f268d_1: sha256:9c086f5c370749aac47b1cf2db8ce74d8baff0eac0edb8bdb61c1f7c4cad6235
   1.2.10--py312ha1f7cf2_2: sha256:73212f1ef181ba28ef17f79b6c605587f3ae86af435cfb27d8e3a3b7afa24496
+  1.2.10--py38hd638cd3_3: sha256:1c7b1ed7f39cf4268aeb850debc56530f88c2c12998402f5c716f981b6f254d4
 docker: quay.io/biocontainers/tigmint
 aliases:
   gunzip: /usr/local/bin/gunzip

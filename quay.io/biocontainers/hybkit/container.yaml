@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/hybkit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hybkit
 latest:
-  0.3.4--pyhdfd78af_0: sha256:b816e550948f1769ec56ff63699d97a5e8a954252de6d768f6a6fef81f7d8445
+  0.3.6--pyhdfd78af_0: sha256:7fdf020dda59c7935daaf116fed42727a7da4f5da589c94c8fa4a2e23936ef37
 tags:
   0.3.0--pyhdfd78af_0: sha256:daecfe20bf549a87e302ce744fb0f7f765c5fac2bcf9ea1da1a82eea1d5b3d7d
   0.3.3--pyhdfd78af_0: sha256:2dce4731caa7da0430796cbf020d4810f398debfa7c11f7c45b42ef878646590
   0.3.4--pyhdfd78af_0: sha256:b816e550948f1769ec56ff63699d97a5e8a954252de6d768f6a6fef81f7d8445
+  0.3.6--pyhdfd78af_0: sha256:7fdf020dda59c7935daaf116fed42727a7da4f5da589c94c8fa4a2e23936ef37
 docker: quay.io/biocontainers/hybkit
 aliases:
   hyb_analyze: /usr/local/bin/hyb_analyze

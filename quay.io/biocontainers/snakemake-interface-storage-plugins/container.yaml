@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/snakemake-interface-storage-plugins
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snakemake-interface-storage-plugins
 latest:
-  3.2.3--pyhdfd78af_0: sha256:1da7b051f83fdba5b8cd73049367c550a73cb92cd2dbc381448e4a1ec552cef9
+  3.3.0--pyhdfd78af_0: sha256:30dca19f80892e96bb81eb7ac90f3abb97fb153171ac4516cbee1a6075bf2ca1
 tags:
   3.0.0--pyhdfd78af_0: sha256:fff26829f5c349db37636618d67c71287ae45c140deb6f2ae6ba09cfb5f9e796
   3.1.0--pyhdfd78af_0: sha256:16bc536bea4af31cfdc405ef702848fbe15b1027b6639a3311345f78676ca91d
   3.1.1--pyhdfd78af_0: sha256:404acc66c566ca043863108888540b19111e5672a1741a08ed15aa26255f990a
   3.2.2--pyhdfd78af_0: sha256:d0b7b9dec9a5e07a2e46173f752d0f29cedecd96e296d6b77963d48fba622ffb
   3.2.3--pyhdfd78af_0: sha256:1da7b051f83fdba5b8cd73049367c550a73cb92cd2dbc381448e4a1ec552cef9
+  3.3.0--pyhdfd78af_0: sha256:30dca19f80892e96bb81eb7ac90f3abb97fb153171ac4516cbee1a6075bf2ca1
+  3.2.4--pyhdfd78af_0: sha256:9442636978a3a74369a40f6bb067c19f45a6e2596ad066a06bbe2b6f1c2478fc
 docker: quay.io/biocontainers/snakemake-interface-storage-plugins
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/cami-amber
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cami-amber
 latest:
-  2.0.4--pyhdfd78af_1: sha256:f678d4afe2f4047f9f41eba4fec0434340659835637bca6bc75b819efd1fecd3
+  2.0.6--pyhdfd78af_0: sha256:1179efbe356075864749d648913d13d48340fe77730631f6dc710d6c985f2d51
 tags:
   2.0.3--pyhdfd78af_0: sha256:6a8dd7db0c43e57440bc1c0ced91a7f74ae25605150709de0fb5b173dc36e9bf
   2.0.4--pyhdfd78af_0: sha256:2d98f9b99bd02abb4151860f9eb908062d6410f3194bd849acaf3da3b59aa462
   2.0.4--pyhdfd78af_1: sha256:f678d4afe2f4047f9f41eba4fec0434340659835637bca6bc75b819efd1fecd3
+  2.0.6--pyhdfd78af_0: sha256:1179efbe356075864749d648913d13d48340fe77730631f6dc710d6c985f2d51
 docker: quay.io/biocontainers/cami-amber
 aliases:
   amber.py: /usr/local/bin/amber.py
