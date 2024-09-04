@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lambda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lambda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lambda/container.yaml"
-updated_at: "2024-09-03 03:29:36.459829"
-latest: "3.0.0--h6dccd9a_0"
+updated_at: "2024-09-04 03:31:19.791945"
+latest: "3.1.0--h6dccd9a_0"
 container_url: "https://biocontainers.pro/tools/lambda"
 aliases:
  - "lambda2"
@@ -15,8 +15,9 @@ versions:
  - "2.0.0--h6dccd9a_6"
  - "3.0.0--h6dccd9a_0"
  - "2.0.1--h6dccd9a_0"
+ - "3.1.0--h6dccd9a_0"
 description: "shpc-registry automated BioContainers addition for lambda"
-config: {"url": "https://biocontainers.pro/tools/lambda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lambda", "latest": {"3.0.0--h6dccd9a_0": "sha256:ed860c1b32a3490c279e4a8ddebfc650472a3e69ef92c431e3364231641f93e9"}, "tags": {"2.0.0--h19e8d03_3": "sha256:90ebe144c12654b26c8147440767775928eb1c05449baa25f65f0a80a4de6a72", "2.0.0--h19e8d03_4": "sha256:936e76e99203614c60c061d94c2435120393142e79901eb8641e3b89e3909cdc", "2.0.0--h6dccd9a_6": "sha256:ae5c723e9892047df0ceb4c30688c79a36bbaafb9672cbfd5920a9a62254d78d", "3.0.0--h6dccd9a_0": "sha256:ed860c1b32a3490c279e4a8ddebfc650472a3e69ef92c431e3364231641f93e9", "2.0.1--h6dccd9a_0": "sha256:3f4f8bc516cd34239810437347f572d58c5205b92a03603747775b201038cc24"}, "docker": "quay.io/biocontainers/lambda", "aliases": {"lambda2": "/usr/local/bin/lambda2"}}
+config: {"url": "https://biocontainers.pro/tools/lambda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lambda", "latest": {"3.1.0--h6dccd9a_0": "sha256:8a4eeff0bd548f61c83c83cd718c7ff2b5d5d213ed384554c7584a856854f261"}, "tags": {"2.0.0--h19e8d03_3": "sha256:90ebe144c12654b26c8147440767775928eb1c05449baa25f65f0a80a4de6a72", "2.0.0--h19e8d03_4": "sha256:936e76e99203614c60c061d94c2435120393142e79901eb8641e3b89e3909cdc", "2.0.0--h6dccd9a_6": "sha256:ae5c723e9892047df0ceb4c30688c79a36bbaafb9672cbfd5920a9a62254d78d", "3.0.0--h6dccd9a_0": "sha256:ed860c1b32a3490c279e4a8ddebfc650472a3e69ef92c431e3364231641f93e9", "2.0.1--h6dccd9a_0": "sha256:3f4f8bc516cd34239810437347f572d58c5205b92a03603747775b201038cc24", "3.1.0--h6dccd9a_0": "sha256:8a4eeff0bd548f61c83c83cd718c7ff2b5d5d213ed384554c7584a856854f261"}, "docker": "quay.io/biocontainers/lambda", "aliases": {"lambda2": "/usr/local/bin/lambda2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lambda.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/lambda
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lambda:3.0.0--h6dccd9a_0
+$ shpc install quay.io/biocontainers/lambda:3.1.0--h6dccd9a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lambda/3.0.0--h6dccd9a_0
-$ module help quay.io/biocontainers/lambda/3.0.0--h6dccd9a_0
+$ module load quay.io/biocontainers/lambda/3.1.0--h6dccd9a_0
+$ module help quay.io/biocontainers/lambda/3.1.0--h6dccd9a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

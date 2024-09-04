@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyani/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyani/container.yaml"
-updated_at: "2024-09-03 02:47:03.103149"
-latest: "0.2.12--pyhdfd78af_0"
+updated_at: "2024-09-04 02:48:17.280592"
+latest: "0.2.13.1--pyhdc42f0e_0"
 container_url: "https://biocontainers.pro/tools/pyani"
 aliases:
  - "average_nucleotide_identity.py"
@@ -24,8 +24,9 @@ aliases:
 versions:
  - "0.2.9--pyh24bf2e0_0"
  - "0.2.12--pyhdfd78af_0"
+ - "0.2.13.1--pyhdc42f0e_0"
 description: "shpc-registry automated BioContainers addition for pyani"
-config: {"url": "https://biocontainers.pro/tools/pyani", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyani", "latest": {"0.2.12--pyhdfd78af_0": "sha256:255c207f0fec533ce143de5c106e1f1a442c466a4b0179e324cedfdbae96394e"}, "tags": {"0.2.9--pyh24bf2e0_0": "sha256:e5e6fadb1c17bb832f8d3f32e24ef14f4891fff22128defca8eebe9357a5d4eb", "0.2.12--pyhdfd78af_0": "sha256:255c207f0fec533ce143de5c106e1f1a442c466a4b0179e324cedfdbae96394e"}, "docker": "quay.io/biocontainers/pyani", "aliases": {"average_nucleotide_identity.py": "/usr/local/bin/average_nucleotide_identity.py", "delta_filter_wrapper.py": "/usr/local/bin/delta_filter_wrapper.py", "genbank_get_genomes_by_taxon.py": "/usr/local/bin/genbank_get_genomes_by_taxon.py", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
+config: {"url": "https://biocontainers.pro/tools/pyani", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyani", "latest": {"0.2.13.1--pyhdc42f0e_0": "sha256:14af7779ad0fb70224a0a182be537f0ede440ce9424cb3456cbc85012bff2884"}, "tags": {"0.2.9--pyh24bf2e0_0": "sha256:e5e6fadb1c17bb832f8d3f32e24ef14f4891fff22128defca8eebe9357a5d4eb", "0.2.12--pyhdfd78af_0": "sha256:255c207f0fec533ce143de5c106e1f1a442c466a4b0179e324cedfdbae96394e", "0.2.13.1--pyhdc42f0e_0": "sha256:14af7779ad0fb70224a0a182be537f0ede440ce9424cb3456cbc85012bff2884"}, "docker": "quay.io/biocontainers/pyani", "aliases": {"average_nucleotide_identity.py": "/usr/local/bin/average_nucleotide_identity.py", "delta_filter_wrapper.py": "/usr/local/bin/delta_filter_wrapper.py", "genbank_get_genomes_by_taxon.py": "/usr/local/bin/genbank_get_genomes_by_taxon.py", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyani.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/pyani
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyani:0.2.12--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pyani:0.2.13.1--pyhdc42f0e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyani/0.2.12--pyhdfd78af_0
-$ module help quay.io/biocontainers/pyani/0.2.12--pyhdfd78af_0
+$ module load quay.io/biocontainers/pyani/0.2.13.1--pyhdc42f0e_0
+$ module help quay.io/biocontainers/pyani/0.2.13.1--pyhdc42f0e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kb-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kb-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kb-python/container.yaml"
-updated_at: "2024-09-03 02:52:59.768801"
+updated_at: "2024-09-04 02:54:19.997535"
 latest: "0.28.2--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/kb-python"
 aliases:
