@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/pyfamsa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pyfamsa
 latest:
-  0.4.0--py312h719dbc0_1: sha256:d0a2106e44dc0313869cf2bde79564aa1e065817d2cc79660df14eab9a3034bb
+  0.5.1--py312h719dbc0_0: sha256:c81d0ee184d0cfd0c6d3b8518bb3e3e3d2e45d702562fa18bed10e280ac9761f
 tags:
   0.2.0--py39h67e14b5_0: sha256:1dc3ead7158b13c690e0a4128644047891f391742e3fa14976dbdbdf981bcef9
   0.2.0--py310h068649b_2: sha256:50ff424e6e3099c22f2de308c6f312dfffb047bee1b940d43261a794c229087d
@@ -12,6 +12,7 @@ tags:
   0.2.0--py38hcbe9525_2: sha256:2099530ad69d52c339d4ee1fbac8c9fdc32aea16a30e72204fc3c3bb7e88f66e
   0.4.0--py38hcbe9525_0: sha256:3b6af60e084cd6b257d7cdf94c286a8e0fbc8709858a4b98e48f94d9b4183a55
   0.4.0--py312h719dbc0_1: sha256:d0a2106e44dc0313869cf2bde79564aa1e065817d2cc79660df14eab9a3034bb
+  0.5.1--py312h719dbc0_0: sha256:c81d0ee184d0cfd0c6d3b8518bb3e3e3d2e45d702562fa18bed10e280ac9761f
 docker: quay.io/biocontainers/pyfamsa
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9
