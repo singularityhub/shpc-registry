@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/poplddecay
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for poplddecay
+latest:
+  3.43--hdcf5f25_1: sha256:c17344b653dfef522cc9635876c62bfcc16b2469ad0dfe9c7714aa50e9674de0
+tags:
+  3.43--hdcf5f25_1: sha256:c17344b653dfef522cc9635876c62bfcc16b2469ad0dfe9c7714aa50e9674de0
+docker: quay.io/biocontainers/poplddecay
+aliases:
+  PopLDdecay: /usr/local/bin/PopLDdecay
