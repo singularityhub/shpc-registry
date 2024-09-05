@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyrovelocity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyrovelocity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyrovelocity/container.yaml"
-updated_at: "2024-09-04 02:47:34.454670"
+updated_at: "2024-09-05 03:20:21.072949"
 latest: "0.1.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pyrovelocity"
 aliases:

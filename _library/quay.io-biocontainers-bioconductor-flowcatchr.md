@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowcatchr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowcatchr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowcatchr/container.yaml"
-updated_at: "2024-09-04 03:24:53.052484"
+updated_at: "2024-09-05 02:56:00.032201"
 latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowcatchr"
 aliases:

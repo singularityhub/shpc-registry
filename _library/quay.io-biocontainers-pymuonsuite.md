@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pymuonsuite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymuonsuite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pymuonsuite/container.yaml"
-updated_at: "2024-09-04 02:54:01.719736"
+updated_at: "2024-09-05 03:00:47.459088"
 latest: "0.3.0"
 container_url: "https://biocontainers.pro/tools/pymuonsuite"
 aliases:

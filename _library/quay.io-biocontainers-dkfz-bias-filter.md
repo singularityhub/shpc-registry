@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dkfz-bias-filter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dkfz-bias-filter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dkfz-bias-filter/container.yaml"
-updated_at: "2024-09-04 03:17:54.139907"
+updated_at: "2024-09-05 02:58:36.016152"
 latest: "1.2.3a--hdfd78af_9"
 container_url: "https://biocontainers.pro/tools/dkfz-bias-filter"
 aliases:

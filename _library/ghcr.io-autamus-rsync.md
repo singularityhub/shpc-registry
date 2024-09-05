@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/rsync"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/rsync/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/rsync/container.yaml"
-updated_at: "2024-09-04 02:42:31.402168"
+updated_at: "2024-09-05 02:43:50.960033"
 latest: "3.2.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/rsync"
 aliases:

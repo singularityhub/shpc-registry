@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mccortex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mccortex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mccortex/container.yaml"
-updated_at: "2024-09-04 03:27:49.780050"
+updated_at: "2024-09-05 03:11:15.706753"
 latest: "1.0--hd03093a_5"
 container_url: "https://biocontainers.pro/tools/mccortex"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/delly"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/delly/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/delly/container.yaml"
-updated_at: "2024-09-04 02:46:15.223297"
-latest: "1.2.6--hdcf5f25_3"
+updated_at: "2024-09-05 02:50:47.512660"
+latest: "1.2.6--hdcf5f25_4"
 container_url: "https://biocontainers.pro/tools/delly"
 aliases:
  - "delly"
@@ -22,8 +22,9 @@ versions:
  - "1.2.6--hb7e2ac5_0"
  - "1.2.6--hb7e2ac5_1"
  - "1.2.6--hdcf5f25_3"
+ - "1.2.6--hdcf5f25_4"
 description: "shpc-registry automated BioContainers addition for delly"
-config: {"url": "https://biocontainers.pro/tools/delly", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for delly", "latest": {"1.2.6--hdcf5f25_3": "sha256:d1a4d5ed0c5074a5401d7462e29a2ea70b191b0d88f824cfb30158f3e274c63a"}, "tags": {"1.1.5--ha41ced6_1": "sha256:d6bf4e579f3b588d59e744cfbac51752b9a901af8dae06a22be65f436539dcd7", "1.1.6--ha41ced6_0": "sha256:1483554d377d5b30d98d2aa040a3eb33d6710b0caffe5e1002a047f36c21f452", "1.1.6--h2af1cb8_1": "sha256:1374d649c50930088fb7a4fd867e349f18036266e4d7c6800081b57b9a6fbbfc", "1.1.6--h6b1aa3f_2": "sha256:dce012f682fcb19cf07ae2e933d52666329f74dc50ce5aaac9e59c15ed9eea66", "1.1.7--h6b1aa3f_0": "sha256:04904f5e666e3e8d5fa44e1829bd66f1d4adaa68bffa3295c3ba98a7e26ccd61", "1.1.8--hb7e2ac5_0": "sha256:441c0d09e6a4f2d8af849001573a0501ea54c8824ddd7f6b8cacf2b804876a97", "1.2.6--hb7e2ac5_0": "sha256:5c00ed597d8f5a278bc4f190711f81c47cee70ef92211c1b6140f331bee5965d", "1.2.6--hb7e2ac5_1": "sha256:928d90f18f1f9a2d27ceef0b8550562cbf4980b62ceb10673f8952c03c497668", "1.2.6--hdcf5f25_3": "sha256:d1a4d5ed0c5074a5401d7462e29a2ea70b191b0d88f824cfb30158f3e274c63a"}, "docker": "quay.io/biocontainers/delly", "aliases": {"delly": "/usr/local/bin/delly", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/delly", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for delly", "latest": {"1.2.6--hdcf5f25_4": "sha256:663c12e14adc4c44ff6b8f3b298b6cce108c87aebf8fbdf331fbfb839f96053a"}, "tags": {"1.1.5--ha41ced6_1": "sha256:d6bf4e579f3b588d59e744cfbac51752b9a901af8dae06a22be65f436539dcd7", "1.1.6--ha41ced6_0": "sha256:1483554d377d5b30d98d2aa040a3eb33d6710b0caffe5e1002a047f36c21f452", "1.1.6--h2af1cb8_1": "sha256:1374d649c50930088fb7a4fd867e349f18036266e4d7c6800081b57b9a6fbbfc", "1.1.6--h6b1aa3f_2": "sha256:dce012f682fcb19cf07ae2e933d52666329f74dc50ce5aaac9e59c15ed9eea66", "1.1.7--h6b1aa3f_0": "sha256:04904f5e666e3e8d5fa44e1829bd66f1d4adaa68bffa3295c3ba98a7e26ccd61", "1.1.8--hb7e2ac5_0": "sha256:441c0d09e6a4f2d8af849001573a0501ea54c8824ddd7f6b8cacf2b804876a97", "1.2.6--hb7e2ac5_0": "sha256:5c00ed597d8f5a278bc4f190711f81c47cee70ef92211c1b6140f331bee5965d", "1.2.6--hb7e2ac5_1": "sha256:928d90f18f1f9a2d27ceef0b8550562cbf4980b62ceb10673f8952c03c497668", "1.2.6--hdcf5f25_3": "sha256:d1a4d5ed0c5074a5401d7462e29a2ea70b191b0d88f824cfb30158f3e274c63a", "1.2.6--hdcf5f25_4": "sha256:663c12e14adc4c44ff6b8f3b298b6cce108c87aebf8fbdf331fbfb839f96053a"}, "docker": "quay.io/biocontainers/delly", "aliases": {"delly": "/usr/local/bin/delly", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/delly.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/delly
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/delly:1.2.6--hdcf5f25_3
+$ shpc install quay.io/biocontainers/delly:1.2.6--hdcf5f25_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/delly/1.2.6--hdcf5f25_3
-$ module help quay.io/biocontainers/delly/1.2.6--hdcf5f25_3
+$ module load quay.io/biocontainers/delly/1.2.6--hdcf5f25_4
+$ module help quay.io/biocontainers/delly/1.2.6--hdcf5f25_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

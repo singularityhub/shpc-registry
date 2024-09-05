@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pbptyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbptyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbptyper/container.yaml"
-updated_at: "2024-09-04 02:52:51.851854"
-latest: "1.0.4--hdfd78af_0"
+updated_at: "2024-09-05 03:27:05.887171"
+latest: "2.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pbptyper"
 aliases:
  - "executor"
@@ -23,8 +23,9 @@ aliases:
  - "uniq-table"
 versions:
  - "1.0.4--hdfd78af_0"
+ - "2.0.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pbptyper"
-config: {"url": "https://biocontainers.pro/tools/pbptyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbptyper", "latest": {"1.0.4--hdfd78af_0": "sha256:73f32f9996cfe1cba45a66668962ce479ef2e845a588b5de5444cd9ea22e3d55"}, "tags": {"1.0.4--hdfd78af_0": "sha256:73f32f9996cfe1cba45a66668962ce479ef2e845a588b5de5444cd9ea22e3d55"}, "docker": "quay.io/biocontainers/pbptyper", "aliases": {"executor": "/usr/local/bin/executor", "pbptyper": "/usr/local/bin/pbptyper", "rich-click": "/usr/local/bin/rich-click", "fastANI": "/usr/local/bin/fastANI", "cmark": "/usr/local/bin/cmark", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table"}}
+config: {"url": "https://biocontainers.pro/tools/pbptyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbptyper", "latest": {"2.0.0--hdfd78af_0": "sha256:6c1867a14528a4bbe5d7eed5bd9bca64ecd1604d4f1f3641e5c0d7ca4345ed47"}, "tags": {"1.0.4--hdfd78af_0": "sha256:73f32f9996cfe1cba45a66668962ce479ef2e845a588b5de5444cd9ea22e3d55", "2.0.0--hdfd78af_0": "sha256:6c1867a14528a4bbe5d7eed5bd9bca64ecd1604d4f1f3641e5c0d7ca4345ed47"}, "docker": "quay.io/biocontainers/pbptyper", "aliases": {"executor": "/usr/local/bin/executor", "pbptyper": "/usr/local/bin/pbptyper", "rich-click": "/usr/local/bin/rich-click", "fastANI": "/usr/local/bin/fastANI", "cmark": "/usr/local/bin/cmark", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbptyper.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/pbptyper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbptyper:1.0.4--hdfd78af_0
+$ shpc install quay.io/biocontainers/pbptyper:2.0.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbptyper/1.0.4--hdfd78af_0
-$ module help quay.io/biocontainers/pbptyper/1.0.4--hdfd78af_0
+$ module load quay.io/biocontainers/pbptyper/2.0.0--hdfd78af_0
+$ module help quay.io/biocontainers/pbptyper/2.0.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

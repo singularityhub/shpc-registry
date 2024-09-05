@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/sawfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sawfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sawfish/container.yaml"
-updated_at: "2024-09-04 02:46:57.092516"
-latest: "0.12.1--h9ee0642_0"
+updated_at: "2024-09-05 03:22:53.509497"
+latest: "0.12.3--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/sawfish"
 aliases:
  - "sawfish"
 versions:
  - "0.12.1--h9ee0642_0"
+ - "0.12.3--h9ee0642_0"
 description: "singularity registry hpc automated addition for sawfish"
-config: {"url": "https://biocontainers.pro/tools/sawfish", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sawfish", "latest": {"0.12.1--h9ee0642_0": "sha256:0de0ad7950f341793da2af2143b1f8a763eec1eb042a51e15132291ade2cde92"}, "tags": {"0.12.1--h9ee0642_0": "sha256:0de0ad7950f341793da2af2143b1f8a763eec1eb042a51e15132291ade2cde92"}, "docker": "quay.io/biocontainers/sawfish", "aliases": {"sawfish": "/usr/local/bin/sawfish"}}
+config: {"url": "https://biocontainers.pro/tools/sawfish", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sawfish", "latest": {"0.12.3--h9ee0642_0": "sha256:31da5c53dee50431726e9f9eb709661ad99433fc01fa0c942825e6529b03efc7"}, "tags": {"0.12.1--h9ee0642_0": "sha256:0de0ad7950f341793da2af2143b1f8a763eec1eb042a51e15132291ade2cde92", "0.12.3--h9ee0642_0": "sha256:31da5c53dee50431726e9f9eb709661ad99433fc01fa0c942825e6529b03efc7"}, "docker": "quay.io/biocontainers/sawfish", "aliases": {"sawfish": "/usr/local/bin/sawfish"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sawfish.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/sawfish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sawfish:0.12.1--h9ee0642_0
+$ shpc install quay.io/biocontainers/sawfish:0.12.3--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sawfish/0.12.1--h9ee0642_0
-$ module help quay.io/biocontainers/sawfish/0.12.1--h9ee0642_0
+$ module load quay.io/biocontainers/sawfish/0.12.3--h9ee0642_0
+$ module help quay.io/biocontainers/sawfish/0.12.3--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

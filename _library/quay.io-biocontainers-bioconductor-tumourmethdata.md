@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tumourmethdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tumourmethdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tumourmethdata/container.yaml"
-updated_at: "2024-09-04 03:25:18.083941"
+updated_at: "2024-09-05 03:24:06.110323"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tumourmethdata"
 aliases:

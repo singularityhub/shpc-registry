@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sigprofilermatrixgenerator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sigprofilermatrixgenerator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sigprofilermatrixgenerator/container.yaml"
-updated_at: "2024-09-04 03:05:18.509060"
+updated_at: "2024-09-05 03:11:17.463545"
 latest: "1.2.28--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sigprofilermatrixgenerator"
 aliases:

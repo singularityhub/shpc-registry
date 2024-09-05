@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/annotwg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annotwg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annotwg/container.yaml"
-updated_at: "2024-09-04 03:25:42.282306"
+updated_at: "2024-09-05 03:20:37.937468"
 latest: "1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/annotwg"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-fetch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-fetch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-fetch/container.yaml"
-updated_at: "2024-09-04 03:07:07.743536"
+updated_at: "2024-09-05 03:28:17.880527"
 latest: "1.04--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-file-fetch"
 aliases:

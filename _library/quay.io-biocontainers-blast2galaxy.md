@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/blast2galaxy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blast2galaxy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blast2galaxy/container.yaml"
-updated_at: "2024-09-04 03:25:04.965172"
-latest: "0.1.0a1--pyhdfd78af_0"
+updated_at: "2024-09-05 02:47:40.227478"
+latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/blast2galaxy"
 aliases:
  - "bioblend-galaxy-tests"
@@ -20,8 +20,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.1.0a1--pyhdfd78af_0"
+ - "1.0.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for blast2galaxy"
-config: {"url": "https://biocontainers.pro/tools/blast2galaxy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for blast2galaxy", "latest": {"0.1.0a1--pyhdfd78af_0": "sha256:35886b2a9f40073cb723be70395bca03a396cfa9e59cc025af9f8d970a55e207"}, "tags": {"0.1.0a1--pyhdfd78af_0": "sha256:35886b2a9f40073cb723be70395bca03a396cfa9e59cc025af9f8d970a55e207"}, "docker": "quay.io/biocontainers/blast2galaxy", "aliases": {"bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "blast2galaxy": "/usr/local/bin/blast2galaxy", "markdown-it": "/usr/local/bin/markdown-it", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "pygmentize": "/usr/local/bin/pygmentize", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/blast2galaxy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for blast2galaxy", "latest": {"1.0.0--pyhdfd78af_0": "sha256:6bfc4eb9d45ebe5cc69c0106d0bed96fd2c1946d8b31a39c1e39db1db50a5fc0"}, "tags": {"0.1.0a1--pyhdfd78af_0": "sha256:35886b2a9f40073cb723be70395bca03a396cfa9e59cc025af9f8d970a55e207", "1.0.0--pyhdfd78af_0": "sha256:6bfc4eb9d45ebe5cc69c0106d0bed96fd2c1946d8b31a39c1e39db1db50a5fc0"}, "docker": "quay.io/biocontainers/blast2galaxy", "aliases": {"bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "blast2galaxy": "/usr/local/bin/blast2galaxy", "markdown-it": "/usr/local/bin/markdown-it", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "pygmentize": "/usr/local/bin/pygmentize", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blast2galaxy.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/blast2galaxy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/blast2galaxy:0.1.0a1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/blast2galaxy:1.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/blast2galaxy/0.1.0a1--pyhdfd78af_0
-$ module help quay.io/biocontainers/blast2galaxy/0.1.0a1--pyhdfd78af_0
+$ module load quay.io/biocontainers/blast2galaxy/1.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/blast2galaxy/1.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

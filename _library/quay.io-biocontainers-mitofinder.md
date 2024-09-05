@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mitofinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mitofinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mitofinder/container.yaml"
-updated_at: "2024-09-04 02:51:59.575718"
+updated_at: "2024-09-05 03:11:13.091850"
 latest: "1.4.1--py27h9801fc8_1"
 container_url: "https://biocontainers.pro/tools/mitofinder"
 aliases:

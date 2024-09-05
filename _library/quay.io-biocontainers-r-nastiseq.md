@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-nastiseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nastiseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nastiseq/container.yaml"
-updated_at: "2024-09-04 03:21:45.425096"
+updated_at: "2024-09-05 03:22:31.018419"
 latest: "1.0--r40h9ee0642_4"
 container_url: "https://biocontainers.pro/tools/r-nastiseq"
 aliases:

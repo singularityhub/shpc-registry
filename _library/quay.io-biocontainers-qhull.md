@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qhull"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qhull/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qhull/container.yaml"
-updated_at: "2024-09-04 02:55:46.035644"
+updated_at: "2024-09-05 03:23:31.053760"
 latest: "2015.2--h2d50403_0"
 container_url: "https://biocontainers.pro/tools/qhull"
 aliases:

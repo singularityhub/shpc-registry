@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pydpi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydpi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydpi/container.yaml"
-updated_at: "2024-09-04 02:59:04.703748"
+updated_at: "2024-09-05 03:17:37.140100"
 latest: "1.0--py_0"
 container_url: "https://biocontainers.pro/tools/pydpi"
 aliases:

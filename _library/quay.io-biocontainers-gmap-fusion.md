@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gmap-fusion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gmap-fusion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gmap-fusion/container.yaml"
-updated_at: "2024-09-04 02:50:33.355687"
+updated_at: "2024-09-05 03:07:05.968028"
 latest: "0.4.0--2"
 container_url: "https://biocontainers.pro/tools/gmap-fusion"
 aliases:
