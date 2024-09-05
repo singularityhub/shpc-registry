@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gmtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gmtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gmtk/container.yaml"
-updated_at: "2024-09-05 02:50:10.041013"
+updated_at: "2024-09-05 04:22:19.374183"
 latest: "1.4.4--h1b96c6b_15"
 container_url: "https://biocontainers.pro/tools/gmtk"
 aliases:
