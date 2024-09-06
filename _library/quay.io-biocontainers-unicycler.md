@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/unicycler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unicycler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unicycler/container.yaml"
-updated_at: "2024-09-05 04:42:07.461365"
-latest: "0.5.1--py312hc60241a_1"
+updated_at: "2024-09-06 03:09:47.213761"
+latest: "0.5.1--py310hdf79db3_2"
 container_url: "https://biocontainers.pro/tools/unicycler"
 aliases:
  - "coronaspades.py"
@@ -31,8 +31,9 @@ versions:
  - "0.5.0--py38h5cf8b27_3"
  - "0.5.0--py39heaaa4ec_5"
  - "0.5.1--py312hc60241a_1"
+ - "0.5.1--py310hdf79db3_2"
 description: "shpc-registry automated BioContainers addition for unicycler"
-config: {"url": "https://biocontainers.pro/tools/unicycler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unicycler", "latest": {"0.5.1--py312hc60241a_1": "sha256:06574951acb41e02ffce013ee9d46ef4303e6f8ff49ac40ed8ddf4898414a7d6"}, "tags": {"0.5.0--py39h2add14b_2": "sha256:d495c3c71c7a8f1d61da9ac48d114ba6e2bcd17c62f4c5a580d29bc643ddd4da", "0.5.0--py310h6cc9453_3": "sha256:c26377b76e34aca17fb6165b46593525a38e57265f659d11635ded110358a9dc", "0.5.0--py38h5cf8b27_3": "sha256:7832bd275b3e2c1f68d55b04e354ed63ded75206ef8e69ea6437b2d7551bfd3e", "0.5.0--py39heaaa4ec_5": "sha256:71d0072e8de90d218adce2fd6908d195f6f811ba5e0ceef56b865fc497e592c6", "0.5.1--py312hc60241a_1": "sha256:06574951acb41e02ffce013ee9d46ef4303e6f8ff49ac40ed8ddf4898414a7d6"}, "docker": "quay.io/biocontainers/unicycler", "aliases": {"coronaspades.py": "/usr/local/bin/coronaspades.py", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "unicycler": "/usr/local/bin/unicycler", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "mag-improve": "/usr/local/bin/mag-improve", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter"}}
+config: {"url": "https://biocontainers.pro/tools/unicycler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unicycler", "latest": {"0.5.1--py310hdf79db3_2": "sha256:cc738c37c9f6d58825447b935282c51a7d634e249a90cd5a700aa93d5cc3b826"}, "tags": {"0.5.0--py39h2add14b_2": "sha256:d495c3c71c7a8f1d61da9ac48d114ba6e2bcd17c62f4c5a580d29bc643ddd4da", "0.5.0--py310h6cc9453_3": "sha256:c26377b76e34aca17fb6165b46593525a38e57265f659d11635ded110358a9dc", "0.5.0--py38h5cf8b27_3": "sha256:7832bd275b3e2c1f68d55b04e354ed63ded75206ef8e69ea6437b2d7551bfd3e", "0.5.0--py39heaaa4ec_5": "sha256:71d0072e8de90d218adce2fd6908d195f6f811ba5e0ceef56b865fc497e592c6", "0.5.1--py312hc60241a_1": "sha256:06574951acb41e02ffce013ee9d46ef4303e6f8ff49ac40ed8ddf4898414a7d6", "0.5.1--py310hdf79db3_2": "sha256:cc738c37c9f6d58825447b935282c51a7d634e249a90cd5a700aa93d5cc3b826"}, "docker": "quay.io/biocontainers/unicycler", "aliases": {"coronaspades.py": "/usr/local/bin/coronaspades.py", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "unicycler": "/usr/local/bin/unicycler", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "mag-improve": "/usr/local/bin/mag-improve", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unicycler.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/unicycler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/unicycler:0.5.1--py312hc60241a_1
+$ shpc install quay.io/biocontainers/unicycler:0.5.1--py310hdf79db3_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/unicycler/0.5.1--py312hc60241a_1
-$ module help quay.io/biocontainers/unicycler/0.5.1--py312hc60241a_1
+$ module load quay.io/biocontainers/unicycler/0.5.1--py310hdf79db3_2
+$ module help quay.io/biocontainers/unicycler/0.5.1--py310hdf79db3_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

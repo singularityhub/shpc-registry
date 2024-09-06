@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-minimal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-minimal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-minimal/container.yaml"
-updated_at: "2024-09-05 05:02:26.156889"
-latest: "8.16.0--pyhdfd78af_0"
+updated_at: "2024-09-06 03:30:14.068790"
+latest: "8.18.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-minimal"
 aliases:
  - "snakemake"
@@ -39,8 +39,10 @@ versions:
  - "8.14.0--pyhdfd78af_0"
  - "8.16.0--pyhdfd78af_0"
  - "8.15.2--pyhdfd78af_0"
+ - "8.18.2--pyhdfd78af_0"
+ - "8.17.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for snakemake-minimal"
-config: {"url": "https://biocontainers.pro/tools/snakemake-minimal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakemake-minimal", "latest": {"8.16.0--pyhdfd78af_0": "sha256:bbd427a40d49a63916c5b16bb936ef17a4fa55c60a7fc1234a640a35c3d69804"}, "tags": {"5.9.1--py_0": "sha256:d0c0397751c49c07d7b23e406fce211450ee937c49fc294364fddb3f070975b1", "5.18.0--py_0": "sha256:887a52ddbfd7ab338974941c1f699744773652bff7585a5b17884eb81fe8ef21", "5.17.0--py_0": "sha256:078abd9fb362f20f870e5af7e84b0fc820b89734b2baaed5d781a2a37b81b44e", "5.16.0--py_0": "sha256:a0b11db100a14b3fc369db17bb097ca78d255f6403284cd104c61f1ae70cea2f", "5.15.0--py_0": "sha256:9e1724dc99a4a8dcf77ceac11748c66778ebf747d4f8bf622bf600c0b86ada5e", "5.14.0--py_1": "sha256:767af568eb20a31325ff128c2df6a507c54a6e2700a08856ed5b593d11b78c1f", "8.10.6--pyhdfd78af_0": "sha256:bcffefd1a3604400d3005962f8d5d2c8e1fd43a104012adbc62e5b4a1fe254cb", "8.9.0--pyhdfd78af_0": "sha256:e125f966a110f920b715e3bff0a54de432f6d5c94675fa1edca9fb336924cd87", "8.8.0--pyhdfd78af_0": "sha256:8b4ce5259f1744a7ecb67de0a72a36c53f90352cc229148e87b3b3f793b94388", "8.7.0--pyhdfd78af_0": "sha256:4c0e0f59ae4b390422e726a34acc7aee0b6da7dd03651fbb351f6517fdf1d1b5", "8.6.0--pyhdfd78af_0": "sha256:a62d323d7377ecd7aa768bd206792e8c51ffb31f589693d073cf27cb0cf36156", "8.11.3--pyhdfd78af_0": "sha256:a4403774684e4f31549a41c002f8162348cea99bbca62c971e8d516717fbc9eb", "8.10.8--pyhdfd78af_1": "sha256:34d88f847bb5c0e13c1fd3d7914c94036e1a7ce88d20283b96b82508f118cdd7", "8.13.0--pyhdfd78af_0": "sha256:2f27428cd13aec2130fb20cea3b1dd446fe8695abce4e9cd2c7b4a685e574cec", "8.12.0--pyhdfd78af_0": "sha256:e1ef2f2898566857df1c39071791e5c2891b84b32335c93721ae3a0e3c25224c", "8.11.6--pyhdfd78af_0": "sha256:9d53347a33293d566153aba466ad689a9db7faca4c453394c4b1413436003c0a", "8.15.1--pyhdfd78af_0": "sha256:9bb6c77768d8b187f44be19e6ea7f6fe3986c9deb3852093377f20f58d17b1c5", "8.14.0--pyhdfd78af_0": "sha256:5155be54978fb7e4b6c6cb13c79d49e502fb18815f28aace1eda9fc1d255fb69", "8.16.0--pyhdfd78af_0": "sha256:bbd427a40d49a63916c5b16bb936ef17a4fa55c60a7fc1234a640a35c3d69804", "8.15.2--pyhdfd78af_0": "sha256:5049c6ffcea48961f1e048e1832b956565d16ebbe06b3f1bfc4c4219eb4eb354"}, "docker": "quay.io/biocontainers/snakemake-minimal", "aliases": {"snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "rst2html4.py": "/usr/local/bin/rst2html4.py", "jsonschema": "/usr/local/bin/jsonschema", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-minimal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakemake-minimal", "latest": {"8.18.2--pyhdfd78af_0": "sha256:6aa8e570ecbf4e07b447dd1487f1f2ba9c4aeb101b6b762f8c6e9ebf4dbbcf15"}, "tags": {"5.9.1--py_0": "sha256:d0c0397751c49c07d7b23e406fce211450ee937c49fc294364fddb3f070975b1", "5.18.0--py_0": "sha256:887a52ddbfd7ab338974941c1f699744773652bff7585a5b17884eb81fe8ef21", "5.17.0--py_0": "sha256:078abd9fb362f20f870e5af7e84b0fc820b89734b2baaed5d781a2a37b81b44e", "5.16.0--py_0": "sha256:a0b11db100a14b3fc369db17bb097ca78d255f6403284cd104c61f1ae70cea2f", "5.15.0--py_0": "sha256:9e1724dc99a4a8dcf77ceac11748c66778ebf747d4f8bf622bf600c0b86ada5e", "5.14.0--py_1": "sha256:767af568eb20a31325ff128c2df6a507c54a6e2700a08856ed5b593d11b78c1f", "8.10.6--pyhdfd78af_0": "sha256:bcffefd1a3604400d3005962f8d5d2c8e1fd43a104012adbc62e5b4a1fe254cb", "8.9.0--pyhdfd78af_0": "sha256:e125f966a110f920b715e3bff0a54de432f6d5c94675fa1edca9fb336924cd87", "8.8.0--pyhdfd78af_0": "sha256:8b4ce5259f1744a7ecb67de0a72a36c53f90352cc229148e87b3b3f793b94388", "8.7.0--pyhdfd78af_0": "sha256:4c0e0f59ae4b390422e726a34acc7aee0b6da7dd03651fbb351f6517fdf1d1b5", "8.6.0--pyhdfd78af_0": "sha256:a62d323d7377ecd7aa768bd206792e8c51ffb31f589693d073cf27cb0cf36156", "8.11.3--pyhdfd78af_0": "sha256:a4403774684e4f31549a41c002f8162348cea99bbca62c971e8d516717fbc9eb", "8.10.8--pyhdfd78af_1": "sha256:34d88f847bb5c0e13c1fd3d7914c94036e1a7ce88d20283b96b82508f118cdd7", "8.13.0--pyhdfd78af_0": "sha256:2f27428cd13aec2130fb20cea3b1dd446fe8695abce4e9cd2c7b4a685e574cec", "8.12.0--pyhdfd78af_0": "sha256:e1ef2f2898566857df1c39071791e5c2891b84b32335c93721ae3a0e3c25224c", "8.11.6--pyhdfd78af_0": "sha256:9d53347a33293d566153aba466ad689a9db7faca4c453394c4b1413436003c0a", "8.15.1--pyhdfd78af_0": "sha256:9bb6c77768d8b187f44be19e6ea7f6fe3986c9deb3852093377f20f58d17b1c5", "8.14.0--pyhdfd78af_0": "sha256:5155be54978fb7e4b6c6cb13c79d49e502fb18815f28aace1eda9fc1d255fb69", "8.16.0--pyhdfd78af_0": "sha256:bbd427a40d49a63916c5b16bb936ef17a4fa55c60a7fc1234a640a35c3d69804", "8.15.2--pyhdfd78af_0": "sha256:5049c6ffcea48961f1e048e1832b956565d16ebbe06b3f1bfc4c4219eb4eb354", "8.18.2--pyhdfd78af_0": "sha256:6aa8e570ecbf4e07b447dd1487f1f2ba9c4aeb101b6b762f8c6e9ebf4dbbcf15", "8.17.0--pyhdfd78af_0": "sha256:749559c066fb0770bd27597a280066db5433eecc5316a2f656932121264da881"}, "docker": "quay.io/biocontainers/snakemake-minimal", "aliases": {"snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "rst2html4.py": "/usr/local/bin/rst2html4.py", "jsonschema": "/usr/local/bin/jsonschema", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-minimal.
@@ -55,7 +57,7 @@ $ shpc install quay.io/biocontainers/snakemake-minimal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-minimal:8.16.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-minimal:8.18.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-minimal/8.16.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-minimal/8.16.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-minimal/8.18.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-minimal/8.18.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

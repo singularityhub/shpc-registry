@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-term-table"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-term-table/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-term-table/container.yaml"
-updated_at: "2024-09-05 04:58:56.360814"
-latest: "0.016--pl5321hdfd78af_0"
+updated_at: "2024-09-06 03:26:43.514423"
+latest: "0.022--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-term-table"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.016--pl5321hdfd78af_0"
+ - "0.022--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-term-table"
-config: {"url": "https://biocontainers.pro/tools/perl-term-table", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-term-table", "latest": {"0.016--pl5321hdfd78af_0": "sha256:1401ac2a3897abd57a3d26fc53b17622c129a400552092f6fa91b3dbfced7953"}, "tags": {"0.016--pl5321hdfd78af_0": "sha256:1401ac2a3897abd57a3d26fc53b17622c129a400552092f6fa91b3dbfced7953"}, "docker": "quay.io/biocontainers/perl-term-table", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-term-table", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-term-table", "latest": {"0.022--pl5321hdfd78af_0": "sha256:7717080bc84ffb5f5c73dd86270bd5b782d30d9e3e19d3a00b83a0ca93814013"}, "tags": {"0.016--pl5321hdfd78af_0": "sha256:1401ac2a3897abd57a3d26fc53b17622c129a400552092f6fa91b3dbfced7953", "0.022--pl5321hdfd78af_0": "sha256:7717080bc84ffb5f5c73dd86270bd5b782d30d9e3e19d3a00b83a0ca93814013"}, "docker": "quay.io/biocontainers/perl-term-table", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-term-table.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-term-table
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-term-table:0.016--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-term-table:0.022--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-term-table/0.016--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-term-table/0.016--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-term-table/0.022--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-term-table/0.022--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
