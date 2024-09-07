@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cloci
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cloci
 latest:
-  0.3.0--pyhdfd78af_0: sha256:617b7c82254b3ec85ecccdd20523c1090df3278d7bc7ea1696cfe3495415af8e
+  0.3.1--pyhdfd78af_1: sha256:49e8ebc6ea597742b51690d623a60e0668a455606dffbe0f20588a02c834b019
 tags:
   0.3.0--pyhdfd78af_0: sha256:617b7c82254b3ec85ecccdd20523c1090df3278d7bc7ea1696cfe3495415af8e
+  0.3.1--pyhdfd78af_1: sha256:49e8ebc6ea597742b51690d623a60e0668a455606dffbe0f20588a02c834b019
 docker: quay.io/biocontainers/cloci
 aliases:
   acc2fa: /usr/local/bin/acc2fa

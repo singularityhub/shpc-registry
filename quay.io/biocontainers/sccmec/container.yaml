@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/sccmec
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sccmec
 latest:
-  1.0.0--hdfd78af_0: sha256:97577f965c94916197289a5e62ded34b3fdc99b8083f7de72ee32da98441fa8b
+  1.2.0--hdfd78af_0: sha256:6b8f6b25bd125bbc9b5997fbea9a2a61c56659594af65c47c3790b34d4c34a76
 tags:
   1.0.0--hdfd78af_0: sha256:97577f965c94916197289a5e62ded34b3fdc99b8083f7de72ee32da98441fa8b
+  1.2.0--hdfd78af_0: sha256:6b8f6b25bd125bbc9b5997fbea9a2a61c56659594af65c47c3790b34d4c34a76
+  1.1.0--hdfd78af_0: sha256:4aebe4c75276ee3c2f52aec8f153a19528e0fe23ef5c50e3dadce77d25400b3a
 docker: quay.io/biocontainers/sccmec
 aliases:
   archive-ncbinlp: /usr/local/bin/archive-ncbinlp

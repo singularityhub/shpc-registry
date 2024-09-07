@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/solvebio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for solvebio
 latest:
-  2.28.0--pyh7e72e81_0: sha256:5922392b39993d0c7f4ee19c20d5b090ae5acd557a1795834e9bf42cfc99bbce
+  2.29.1--pyh7e72e81_0: sha256:43893959a8953d44be9f6706153029f31dcb0f8912546448417c69d5c7c5a923
 tags:
   2.9.0--py_0: sha256:f59a68d3bb236283281c5ade5c16e993d9670808b5a6d6cd34a58cce1db3d34b
   2.19.0--pyh5e36f6f_0: sha256:284eae07e559bd2b55702fea73240658fc433a3adaf8526877c301bc589e2614
@@ -18,6 +18,7 @@ tags:
   2.26.0--pyh7cba7a3_0: sha256:115143b15b9fb5be2331b5efc4c2a4265c53a911b01277a173f77374fb31d30e
   2.27.0--pyh7cba7a3_0: sha256:b0df0b45ca1df474d3063ec0599e2918dae646631277cdf0dbbf18d06321dbc7
   2.28.0--pyh7e72e81_0: sha256:5922392b39993d0c7f4ee19c20d5b090ae5acd557a1795834e9bf42cfc99bbce
+  2.29.1--pyh7e72e81_0: sha256:43893959a8953d44be9f6706153029f31dcb0f8912546448417c69d5c7c5a923
 docker: quay.io/biocontainers/solvebio
 aliases:
   solvebio: /usr/local/bin/solvebio

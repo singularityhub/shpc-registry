@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/julia
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for julia
 latest:
-  1.0.3: sha256:237b63daad4b41130409419b785e8867f5434a649bfa15bbf860aff3080bc2c4
+  '1.10': sha256:bb1d64134510081502ce8492ad0c41d6899be876eb4107a2b6be0cae939d38a3
 tags:
   1.0.3: sha256:237b63daad4b41130409419b785e8867f5434a649bfa15bbf860aff3080bc2c4
+  '1.10': sha256:bb1d64134510081502ce8492ad0c41d6899be876eb4107a2b6be0cae939d38a3
 docker: quay.io/biocontainers/julia
 aliases:
   julia: /usr/local/bin/julia
