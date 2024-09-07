@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/treebest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treebest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treebest/container.yaml"
-updated_at: "2024-09-06 02:56:55.793244"
+updated_at: "2024-09-07 02:55:05.726432"
 latest: "1.9.2_ep78--hfc679d8_2"
 container_url: "https://biocontainers.pro/tools/treebest"
 aliases:

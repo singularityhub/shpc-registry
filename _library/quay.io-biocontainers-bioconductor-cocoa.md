@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cocoa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cocoa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cocoa/container.yaml"
-updated_at: "2024-09-06 03:23:31.200692"
+updated_at: "2024-09-07 03:21:52.186238"
 latest: "2.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cocoa"
 

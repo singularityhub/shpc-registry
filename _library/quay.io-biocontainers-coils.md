@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coils/container.yaml"
-updated_at: "2024-09-06 03:09:28.355613"
+updated_at: "2024-09-07 03:07:40.518639"
 latest: "2.2.1--h031d066_4"
 container_url: "https://biocontainers.pro/tools/coils"
 aliases:

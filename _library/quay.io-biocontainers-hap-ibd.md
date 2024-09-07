@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hap-ibd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hap-ibd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hap-ibd/container.yaml"
-updated_at: "2024-09-06 03:13:21.856866"
+updated_at: "2024-09-07 03:11:36.945799"
 latest: "1.0.rev20May22.818--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hap-ibd"
 aliases:

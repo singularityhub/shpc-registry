@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scanmirapp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scanmirapp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scanmirapp/container.yaml"
-updated_at: "2024-09-06 02:49:10.867069"
+updated_at: "2024-09-07 02:47:21.333169"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scanmirapp"
 

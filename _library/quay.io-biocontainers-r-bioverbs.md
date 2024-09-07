@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bioverbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bioverbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bioverbs/container.yaml"
-updated_at: "2024-09-06 03:16:53.577886"
+updated_at: "2024-09-07 03:15:12.130190"
 latest: "0.2.13--r36_0"
 container_url: "https://biocontainers.pro/tools/r-bioverbs"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orna/container.yaml"
-updated_at: "2024-09-06 03:09:28.071518"
+updated_at: "2024-09-07 03:07:40.231613"
 latest: "2.0--h56e2c18_5"
 container_url: "https://biocontainers.pro/tools/orna"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-santa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-santa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-santa/container.yaml"
-updated_at: "2024-09-06 02:51:57.640074"
+updated_at: "2024-09-07 02:50:08.234147"
 latest: "2.38.0--r43ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-santa"
 aliases:

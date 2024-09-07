@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grenedalf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grenedalf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grenedalf/container.yaml"
-updated_at: "2024-09-06 02:48:57.190586"
+updated_at: "2024-09-07 02:47:07.617353"
 latest: "0.6.0--h27d5293_0"
 container_url: "https://biocontainers.pro/tools/grenedalf"
 aliases:

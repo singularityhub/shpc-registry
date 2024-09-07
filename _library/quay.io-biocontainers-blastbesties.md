@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blastbesties"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blastbesties/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blastbesties/container.yaml"
-updated_at: "2024-09-06 02:45:07.291492"
+updated_at: "2024-09-07 02:43:17.350398"
 latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/blastbesties"
 aliases:
