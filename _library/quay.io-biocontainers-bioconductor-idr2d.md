@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-idr2d"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-idr2d/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-idr2d/container.yaml"
-updated_at: "2024-09-07 03:18:55.607836"
+updated_at: "2024-09-08 03:25:25.962759"
 latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-idr2d"
 

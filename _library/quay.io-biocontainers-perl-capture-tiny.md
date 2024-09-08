@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-capture-tiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-capture-tiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-capture-tiny/container.yaml"
-updated_at: "2024-09-07 03:06:48.383456"
+updated_at: "2024-09-08 03:13:24.911658"
 latest: "0.48--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-capture-tiny"
 aliases:

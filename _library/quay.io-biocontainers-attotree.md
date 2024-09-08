@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/attotree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/attotree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/attotree/container.yaml"
-updated_at: "2024-09-07 03:06:41.790086"
+updated_at: "2024-09-08 03:13:18.302739"
 latest: "0.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/attotree"
 aliases:

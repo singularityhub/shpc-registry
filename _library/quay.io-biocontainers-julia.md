@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/julia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/julia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/julia/container.yaml"
-updated_at: "2024-09-07 02:50:34.323010"
-latest: "1.0.3"
+updated_at: "2024-09-08 02:57:14.072707"
+latest: "1.10"
 container_url: "https://biocontainers.pro/tools/julia"
 aliases:
  - "julia"
@@ -21,8 +21,9 @@ aliases:
  - "fftwl-wisdom"
 versions:
  - "1.0.3"
+ - "1.10"
 description: "shpc-registry automated BioContainers addition for julia"
-config: {"url": "https://biocontainers.pro/tools/julia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for julia", "latest": {"1.0.3": "sha256:237b63daad4b41130409419b785e8867f5434a649bfa15bbf860aff3080bc2c4"}, "tags": {"1.0.3": "sha256:237b63daad4b41130409419b785e8867f5434a649bfa15bbf860aff3080bc2c4"}, "docker": "quay.io/biocontainers/julia", "aliases": {"julia": "/usr/local/bin/julia", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/julia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for julia", "latest": {"1.10": "sha256:bb1d64134510081502ce8492ad0c41d6899be876eb4107a2b6be0cae939d38a3"}, "tags": {"1.0.3": "sha256:237b63daad4b41130409419b785e8867f5434a649bfa15bbf860aff3080bc2c4", "1.10": "sha256:bb1d64134510081502ce8492ad0c41d6899be876eb4107a2b6be0cae939d38a3"}, "docker": "quay.io/biocontainers/julia", "aliases": {"julia": "/usr/local/bin/julia", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/julia.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/julia
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/julia:1.0.3
+$ shpc install quay.io/biocontainers/julia:1.10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/julia/1.0.3
-$ module help quay.io/biocontainers/julia/1.0.3
+$ module load quay.io/biocontainers/julia/1.10
+$ module help quay.io/biocontainers/julia/1.10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

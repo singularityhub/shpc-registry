@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/forked-path"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/forked-path/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/forked-path/container.yaml"
-updated_at: "2024-09-07 03:05:17.370368"
+updated_at: "2024-09-08 03:11:54.114034"
 latest: "0.2.3--py27_2"
 container_url: "https://biocontainers.pro/tools/forked-path"
 aliases:

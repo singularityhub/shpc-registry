@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moosex-app"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-app/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-app/container.yaml"
-updated_at: "2024-09-07 03:18:01.195628"
+updated_at: "2024-09-08 03:24:31.820019"
 latest: "1.3701--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-moosex-app"
 

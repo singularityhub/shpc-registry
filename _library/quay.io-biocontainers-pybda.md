@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybda/container.yaml"
-updated_at: "2024-09-07 03:26:58.252540"
+updated_at: "2024-09-08 03:33:27.782411"
 latest: "0.1.0--pyh5ca1d4c_0"
 container_url: "https://biocontainers.pro/tools/pybda"
 

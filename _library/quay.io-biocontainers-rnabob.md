@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnabob"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnabob/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnabob/container.yaml"
-updated_at: "2024-09-07 02:55:54.374562"
+updated_at: "2024-09-08 03:02:34.303017"
 latest: "2.2.1--h470a237_1"
 container_url: "https://biocontainers.pro/tools/rnabob"
 aliases:

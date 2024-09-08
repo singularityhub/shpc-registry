@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pxblat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pxblat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pxblat/container.yaml"
-updated_at: "2024-09-07 03:24:21.570208"
+updated_at: "2024-09-08 03:30:51.297913"
 latest: "1.2.1--py310h0dbaff4_0"
 container_url: "https://biocontainers.pro/tools/pxblat"
 aliases:

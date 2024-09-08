@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/msweep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msweep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msweep/container.yaml"
-updated_at: "2024-09-07 02:46:07.635168"
-latest: "2.1.0--hdbdd923_0"
+updated_at: "2024-09-08 02:52:47.628940"
+latest: "2.1.2--hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/msweep"
 aliases:
  - "mSWEEP"
@@ -14,8 +14,9 @@ versions:
  - "1.6.3--hdbdd923_2"
  - "2.0.0--hdbdd923_0"
  - "2.1.0--hdbdd923_0"
+ - "2.1.2--hdbdd923_0"
 description: "singularity registry hpc automated addition for msweep"
-config: {"url": "https://biocontainers.pro/tools/msweep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for msweep", "latest": {"2.1.0--hdbdd923_0": "sha256:6f74123aec6fce549d3f90b743da42bf10b9f46be367e1f234708c96d3d8a7fc"}, "tags": {"1.6.3--h87f3376_0": "sha256:1f64851d3d1b9baba6036816e1770cdb4e61be4c0c960a0c52ba7d2b3ebc14db", "1.6.3--hdbdd923_2": "sha256:6710c75038dee8af6637700f216b0048eb9e9cb3593d1ce82fdc0f23d80eed14", "2.0.0--hdbdd923_0": "sha256:4b683fa7c4ac27c87384a87bd3d5cadad81e6947247cbd85436e964f21b3ab15", "2.1.0--hdbdd923_0": "sha256:6f74123aec6fce549d3f90b743da42bf10b9f46be367e1f234708c96d3d8a7fc"}, "docker": "quay.io/biocontainers/msweep", "aliases": {"mSWEEP": "/usr/local/bin/mSWEEP"}}
+config: {"url": "https://biocontainers.pro/tools/msweep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for msweep", "latest": {"2.1.2--hdbdd923_0": "sha256:bf10298f572b9e82495581d3052ad2e83cc84eef51c6a2e70a537510cffe0944"}, "tags": {"1.6.3--h87f3376_0": "sha256:1f64851d3d1b9baba6036816e1770cdb4e61be4c0c960a0c52ba7d2b3ebc14db", "1.6.3--hdbdd923_2": "sha256:6710c75038dee8af6637700f216b0048eb9e9cb3593d1ce82fdc0f23d80eed14", "2.0.0--hdbdd923_0": "sha256:4b683fa7c4ac27c87384a87bd3d5cadad81e6947247cbd85436e964f21b3ab15", "2.1.0--hdbdd923_0": "sha256:6f74123aec6fce549d3f90b743da42bf10b9f46be367e1f234708c96d3d8a7fc", "2.1.2--hdbdd923_0": "sha256:bf10298f572b9e82495581d3052ad2e83cc84eef51c6a2e70a537510cffe0944"}, "docker": "quay.io/biocontainers/msweep", "aliases": {"mSWEEP": "/usr/local/bin/mSWEEP"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msweep.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/msweep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/msweep:2.1.0--hdbdd923_0
+$ shpc install quay.io/biocontainers/msweep:2.1.2--hdbdd923_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/msweep/2.1.0--hdbdd923_0
-$ module help quay.io/biocontainers/msweep/2.1.0--hdbdd923_0
+$ module load quay.io/biocontainers/msweep/2.1.2--hdbdd923_0
+$ module help quay.io/biocontainers/msweep/2.1.2--hdbdd923_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

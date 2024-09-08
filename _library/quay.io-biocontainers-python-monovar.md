@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-monovar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-monovar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-monovar/container.yaml"
-updated_at: "2024-09-07 03:05:26.692847"
+updated_at: "2024-09-08 03:12:03.296020"
 latest: "0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/python-monovar"
 aliases:

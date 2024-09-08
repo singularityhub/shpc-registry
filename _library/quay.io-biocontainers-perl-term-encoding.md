@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-term-encoding"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-term-encoding/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-term-encoding/container.yaml"
-updated_at: "2024-09-07 02:43:03.332983"
+updated_at: "2024-09-08 02:49:43.133737"
 latest: "0.03--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-term-encoding"
 aliases:

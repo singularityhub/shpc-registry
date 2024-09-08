@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-http-negotiate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-http-negotiate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-http-negotiate/container.yaml"
-updated_at: "2024-09-07 03:25:46.307172"
+updated_at: "2024-09-08 03:32:16.174320"
 latest: "6.01--pl526_3"
 container_url: "https://biocontainers.pro/tools/perl-http-negotiate"
 aliases:

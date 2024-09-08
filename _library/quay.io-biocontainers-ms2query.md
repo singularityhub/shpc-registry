@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ms2query"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ms2query/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ms2query/container.yaml"
-updated_at: "2024-09-07 03:10:02.039571"
+updated_at: "2024-09-08 03:16:37.471682"
 latest: "1.5.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ms2query"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nrpys"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nrpys/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nrpys/container.yaml"
-updated_at: "2024-09-07 03:19:18.695320"
+updated_at: "2024-09-08 03:25:48.971263"
 latest: "0.1.1--pyha8f3691_3"
 container_url: "https://biocontainers.pro/tools/nrpys"
 aliases:

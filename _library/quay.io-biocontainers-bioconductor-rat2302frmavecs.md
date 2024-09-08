@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rat2302frmavecs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rat2302frmavecs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rat2302frmavecs/container.yaml"
-updated_at: "2024-09-07 03:16:48.539063"
+updated_at: "2024-09-08 03:23:19.020762"
 latest: "0.99.11--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-rat2302frmavecs"
 

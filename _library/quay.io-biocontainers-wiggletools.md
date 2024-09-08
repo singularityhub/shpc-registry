@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wiggletools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wiggletools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wiggletools/container.yaml"
-updated_at: "2024-09-07 02:44:52.759301"
+updated_at: "2024-09-08 02:51:32.767538"
 latest: "1.2.11--h02b2831_8"
 container_url: "https://biocontainers.pro/tools/wiggletools"
 aliases:
