@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-impulsede"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-impulsede/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-impulsede/container.yaml"
-updated_at: "2024-09-08 03:23:25.312060"
+updated_at: "2024-09-09 03:24:33.504892"
 latest: "1.13.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-impulsede"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rrikindp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rrikindp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rrikindp/container.yaml"
-updated_at: "2024-09-08 03:10:21.445389"
+updated_at: "2024-09-09 03:11:02.307209"
 latest: "0.0.2--py39h9e0f934_1"
 container_url: "https://biocontainers.pro/tools/rrikindp"
 aliases:
