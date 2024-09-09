@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/inspector
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for inspector
 latest:
-  1.2--hdfd78af_0: sha256:b507b137ab15dfedb22db4fbce7c828d74d09226ef1e2d29ecd547f1515de672
+  1.3.1--hdfd78af_1: sha256:3c3df88d1483336ff7abe0bc535cccb1c4ef5e3d184b506bec0287c3b3589498
 tags:
   1.2--hdfd78af_0: sha256:b507b137ab15dfedb22db4fbce7c828d74d09226ef1e2d29ecd547f1515de672
+  1.3.1--hdfd78af_1: sha256:3c3df88d1483336ff7abe0bc535cccb1c4ef5e3d184b506bec0287c3b3589498
 docker: quay.io/biocontainers/inspector
 aliases:
   debreak_detect.py: /usr/local/bin/debreak_detect.py
