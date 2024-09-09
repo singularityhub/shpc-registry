@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/maker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maker/container.yaml"
-updated_at: "2024-09-09 03:35:18.899878"
+updated_at: "2024-09-09 06:22:31.592507"
 latest: "3.01.03--pl5262h8f1cd36_2"
 container_url: "https://biocontainers.pro/tools/maker"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-www-mechanize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-www-mechanize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-www-mechanize/container.yaml"
-updated_at: "2024-09-09 03:04:56.779100"
+updated_at: "2024-09-09 05:52:59.127687"
 latest: "1.91--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-www-mechanize"
 aliases:

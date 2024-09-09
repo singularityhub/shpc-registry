@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nempi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nempi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nempi/container.yaml"
-updated_at: "2024-09-09 03:16:18.971540"
+updated_at: "2024-09-09 06:04:08.560526"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nempi"
 

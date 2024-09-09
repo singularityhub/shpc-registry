@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-frgepistasis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-frgepistasis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-frgepistasis/container.yaml"
-updated_at: "2024-09-09 03:00:03.258738"
+updated_at: "2024-09-09 05:48:15.587903"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-frgepistasis"
 
