@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/diphase
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for diphase
 latest:
-  1.0.0--h739ee2d_0: sha256:f3d3c3b64b74f0413d0bff9b44089b7e0a2081ff219f28f627f56cf9cde1aec1
+  1.0.2--h739ee2d_0: sha256:9dc9bf2b2e8770ce7e5c27a98cbc3f38be3934e99b105cb13976e08a39c48e4a
 tags:
   1.0.0--h739ee2d_0: sha256:f3d3c3b64b74f0413d0bff9b44089b7e0a2081ff219f28f627f56cf9cde1aec1
+  1.0.2--h739ee2d_0: sha256:9dc9bf2b2e8770ce7e5c27a98cbc3f38be3934e99b105cb13976e08a39c48e4a
 docker: quay.io/biocontainers/diphase
 aliases:
   eval.py: /usr/local/bin/eval.py

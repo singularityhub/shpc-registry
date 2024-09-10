@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-parallel-forkmanager
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-parallel-forkmanager
 latest:
-  2.02--pl5321hdfd78af_1: sha256:22b31e372afe1d28d15dd3ff10df015d709de5d40f09ff8f358ac1ce21578417
+  2.03--pl5321hdfd78af_0: sha256:edda87c1c4ed54b9de038913e7c1e882832102874a07c8a8388b02e7fc562cc3
 tags:
   2.02--pl5321hdfd78af_1: sha256:22b31e372afe1d28d15dd3ff10df015d709de5d40f09ff8f358ac1ce21578417
+  2.03--pl5321hdfd78af_0: sha256:edda87c1c4ed54b9de038913e7c1e882832102874a07c8a8388b02e7fc562cc3
 docker: quay.io/biocontainers/perl-parallel-forkmanager
 aliases:
   moose-outdated: /usr/local/bin/moose-outdated
