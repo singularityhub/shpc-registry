@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-shinyepico"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-shinyepico/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-shinyepico/container.yaml"
-updated_at: "2024-09-09 06:11:29.565981"
+updated_at: "2024-09-10 03:19:22.358448"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-shinyepico"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pgenlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgenlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgenlib/container.yaml"
-updated_at: "2024-09-09 06:13:19.686746"
-latest: "0.90.2--py312hf0ab922_1"
+updated_at: "2024-09-10 03:21:12.412433"
+latest: "0.91.0--py311hc849397_0"
 container_url: "https://biocontainers.pro/tools/pgenlib"
 aliases:
  - "f2py3.10"
@@ -20,8 +20,9 @@ versions:
  - "0.90.2--py38h6c5ba02_0"
  - "0.90.2--py310h551a815_0"
  - "0.90.2--py312hf0ab922_1"
+ - "0.91.0--py311hc849397_0"
 description: "singularity registry hpc automated addition for pgenlib"
-config: {"url": "https://biocontainers.pro/tools/pgenlib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pgenlib", "latest": {"0.90.2--py312hf0ab922_1": "sha256:fc2175128f86c70b3de6808e3cda315a66e1ae3c7c57c1d22915b1f76ae2adf1"}, "tags": {"0.90.1--py310h551a815_0": "sha256:60c573c7917153c77b62cc494a5ac014e62bf5ced1ed5b3a1078f7064f99daaf", "0.90.2--py38h6c5ba02_0": "sha256:283eb1252e8192c79ba70ddcb5806766f7b398652139eb42a8150072426693ee", "0.90.2--py310h551a815_0": "sha256:5acf608d0063b3b93e9100ad7160061893b7d2090f227455f974263be6083e75", "0.90.2--py312hf0ab922_1": "sha256:fc2175128f86c70b3de6808e3cda315a66e1ae3c7c57c1d22915b1f76ae2adf1"}, "docker": "quay.io/biocontainers/pgenlib", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/pgenlib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pgenlib", "latest": {"0.91.0--py311hc849397_0": "sha256:c3aef8dffe8fd97edf443646e85909f8b2e443607abd164bef29a23b7d764967"}, "tags": {"0.90.1--py310h551a815_0": "sha256:60c573c7917153c77b62cc494a5ac014e62bf5ced1ed5b3a1078f7064f99daaf", "0.90.2--py38h6c5ba02_0": "sha256:283eb1252e8192c79ba70ddcb5806766f7b398652139eb42a8150072426693ee", "0.90.2--py310h551a815_0": "sha256:5acf608d0063b3b93e9100ad7160061893b7d2090f227455f974263be6083e75", "0.90.2--py312hf0ab922_1": "sha256:fc2175128f86c70b3de6808e3cda315a66e1ae3c7c57c1d22915b1f76ae2adf1", "0.91.0--py311hc849397_0": "sha256:c3aef8dffe8fd97edf443646e85909f8b2e443607abd164bef29a23b7d764967"}, "docker": "quay.io/biocontainers/pgenlib", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pgenlib.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/pgenlib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pgenlib:0.90.2--py312hf0ab922_1
+$ shpc install quay.io/biocontainers/pgenlib:0.91.0--py311hc849397_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pgenlib/0.90.2--py312hf0ab922_1
-$ module help quay.io/biocontainers/pgenlib/0.90.2--py312hf0ab922_1
+$ module load quay.io/biocontainers/pgenlib/0.91.0--py311hc849397_0
+$ module help quay.io/biocontainers/pgenlib/0.91.0--py311hc849397_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/inspector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/inspector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/inspector/container.yaml"
-updated_at: "2024-09-09 06:02:13.963013"
-latest: "1.2--hdfd78af_0"
+updated_at: "2024-09-10 03:10:06.035961"
+latest: "1.3.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/inspector"
 aliases:
  - "debreak_detect.py"
@@ -48,8 +48,9 @@ aliases:
  - "bgzip"
 versions:
  - "1.2--hdfd78af_0"
+ - "1.3.1--hdfd78af_1"
 description: "singularity registry hpc automated addition for inspector"
-config: {"url": "https://biocontainers.pro/tools/inspector", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for inspector", "latest": {"1.2--hdfd78af_0": "sha256:b507b137ab15dfedb22db4fbce7c828d74d09226ef1e2d29ecd547f1515de672"}, "tags": {"1.2--hdfd78af_0": "sha256:b507b137ab15dfedb22db4fbce7c828d74d09226ef1e2d29ecd547f1515de672"}, "docker": "quay.io/biocontainers/inspector", "aliases": {"debreak_detect.py": "/usr/local/bin/debreak_detect.py", "debreak_merge.py": "/usr/local/bin/debreak_merge.py", "debreak_merge_clustering.py": "/usr/local/bin/debreak_merge_clustering.py", "denovo_baseerror.py": "/usr/local/bin/denovo_baseerror.py", "denovo_correct.py": "/usr/local/bin/denovo_correct.py", "denovo_plot.py": "/usr/local/bin/denovo_plot.py", "denovo_static.py": "/usr/local/bin/denovo_static.py", "flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "inspector-correct.py": "/usr/local/bin/inspector-correct.py", "inspector.py": "/usr/local/bin/inspector.py", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "f2py3.8": "/usr/local/bin/f2py3.8", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl", "samtools": "/usr/local/bin/samtools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip"}}
+config: {"url": "https://biocontainers.pro/tools/inspector", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for inspector", "latest": {"1.3.1--hdfd78af_1": "sha256:3c3df88d1483336ff7abe0bc535cccb1c4ef5e3d184b506bec0287c3b3589498"}, "tags": {"1.2--hdfd78af_0": "sha256:b507b137ab15dfedb22db4fbce7c828d74d09226ef1e2d29ecd547f1515de672", "1.3.1--hdfd78af_1": "sha256:3c3df88d1483336ff7abe0bc535cccb1c4ef5e3d184b506bec0287c3b3589498"}, "docker": "quay.io/biocontainers/inspector", "aliases": {"debreak_detect.py": "/usr/local/bin/debreak_detect.py", "debreak_merge.py": "/usr/local/bin/debreak_merge.py", "debreak_merge_clustering.py": "/usr/local/bin/debreak_merge_clustering.py", "denovo_baseerror.py": "/usr/local/bin/denovo_baseerror.py", "denovo_correct.py": "/usr/local/bin/denovo_correct.py", "denovo_plot.py": "/usr/local/bin/denovo_plot.py", "denovo_static.py": "/usr/local/bin/denovo_static.py", "flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "inspector-correct.py": "/usr/local/bin/inspector-correct.py", "inspector.py": "/usr/local/bin/inspector.py", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "f2py3.8": "/usr/local/bin/f2py3.8", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl", "samtools": "/usr/local/bin/samtools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/inspector.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/inspector
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/inspector:1.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/inspector:1.3.1--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/inspector/1.2--hdfd78af_0
-$ module help quay.io/biocontainers/inspector/1.2--hdfd78af_0
+$ module load quay.io/biocontainers/inspector/1.3.1--hdfd78af_1
+$ module help quay.io/biocontainers/inspector/1.3.1--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

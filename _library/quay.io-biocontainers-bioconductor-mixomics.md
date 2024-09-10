@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mixomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mixomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mixomics/container.yaml"
-updated_at: "2024-09-09 05:55:11.234056"
+updated_at: "2024-09-10 03:03:03.477998"
 latest: "6.26.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mixomics"
 aliases:

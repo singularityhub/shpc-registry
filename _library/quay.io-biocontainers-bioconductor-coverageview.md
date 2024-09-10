@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-coverageview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-coverageview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-coverageview/container.yaml"
-updated_at: "2024-09-09 06:22:35.888818"
+updated_at: "2024-09-10 03:30:27.054347"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-coverageview"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-topgo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-topgo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-topgo/container.yaml"
-updated_at: "2024-09-09 06:14:33.804048"
+updated_at: "2024-09-10 03:22:26.351317"
 latest: "2.54.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-topgo"
 

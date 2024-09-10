@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nextstrain-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextstrain-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nextstrain-cli/container.yaml"
-updated_at: "2024-09-09 06:19:32.361058"
-latest: "8.5.1--pyhdfd78af_0"
+updated_at: "2024-09-10 03:27:24.106688"
+latest: "8.5.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nextstrain-cli"
 aliases:
  - "nextstrain"
@@ -37,8 +37,9 @@ versions:
  - "8.0.1--pyhdfd78af_0"
  - "8.5.0--pyhdfd78af_0"
  - "8.5.1--pyhdfd78af_0"
+ - "8.5.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for nextstrain-cli"
-config: {"url": "https://biocontainers.pro/tools/nextstrain-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nextstrain-cli", "latest": {"8.5.1--pyhdfd78af_0": "sha256:419600a08aace250aa07a602d9ccf1eea880eeebdb500bfbaf3858adc1346314"}, "tags": {"4.2.0--pyhdfd78af_1": "sha256:71902449c6f452deb519f63a161f24453565bbc3caad0344b24bb7da8fa2db2f", "5.0.1--pyhdfd78af_0": "sha256:a7fd5d87d83fd364f6d045b2c704aed26bfbeecdf5eac3b6fc631bd1de67341b", "6.0.0--pyhdfd78af_0": "sha256:7e65c48e4446b4d67ff4a24070536a20434d4305ce301b3746744b277e56f3f4", "6.1.0.post1--pyhdfd78af_0": "sha256:a25271bd0490767c69d6a9bd325ba058aa3a4d36a35597b6ebe8add4ae7884f2", "6.0.3--pyhdfd78af_0": "sha256:f708fead7a1bc26638b0b668fdbb042a584884f37ddfd59f9fcf17973a3bcd83", "6.2.0--pyhdfd78af_1": "sha256:a9b8d24a653ec97abe0a2c434de0e27f26e380651a2b05b3dd9fa27f7f5e9368", "6.2.1--pyhdfd78af_0": "sha256:faa5c300c64f359cad8be7fca21f12be8c812bd40dd4dadcdf5c80b078628198", "7.0.1--pyhdfd78af_0": "sha256:49efb460293cbc1ff5bbeba496287db058a2a3684dafc1736a324edf254602ea", "7.1.0--pyhdfd78af_0": "sha256:a13ce0c093e0fd3aea3cea6e3123c034c00f0ea2f56e368efca6692eb7ad3ca6", "7.2.0--pyhdfd78af_0": "sha256:323dd7f7959ed53fddceb3d759c135099eb5d0b64ca6208543645acf26530363", "7.4.0--pyhdfd78af_0": "sha256:8cad6628e8f30fce138bf344122898b9f0d96fc29bab97020d834b7fb25e0d00", "7.3.0.post1--pyhdfd78af_0": "sha256:ce4d8f23b60d06645f9ac352d9273cd03d2f540154f2a196f8a9751828ffb4cc", "7.4.0--pyhdfd78af_1": "sha256:cb42763c3e43381211a96982f70fba9609858aaafa87b9ebfcee417f8cf1f007", "8.2.0--pyhdfd78af_0": "sha256:ea6b47802d67dd11b38476e89e94d60e2694108e10626541b4c07e046f44e887", "8.0.1--pyhdfd78af_0": "sha256:a7baaf6b7ecca9d9db8c9f0e755e921613442fa7affc6cab344534cad26f6a92", "8.5.0--pyhdfd78af_0": "sha256:858034982328742a31bc2d047eeaaf91ca2a43ad9fd44461b28abfec120e205f", "8.5.1--pyhdfd78af_0": "sha256:419600a08aace250aa07a602d9ccf1eea880eeebdb500bfbaf3858adc1346314"}, "docker": "quay.io/biocontainers/nextstrain-cli", "aliases": {"nextstrain": "/usr/local/bin/nextstrain", "docutils": "/usr/local/bin/docutils", "jp.py": "/usr/local/bin/jp.py", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py"}}
+config: {"url": "https://biocontainers.pro/tools/nextstrain-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nextstrain-cli", "latest": {"8.5.3--pyhdfd78af_0": "sha256:3a4c336cb4e74a8425217249c072fea56ed57153c9a6afb5deefc944c069938d"}, "tags": {"4.2.0--pyhdfd78af_1": "sha256:71902449c6f452deb519f63a161f24453565bbc3caad0344b24bb7da8fa2db2f", "5.0.1--pyhdfd78af_0": "sha256:a7fd5d87d83fd364f6d045b2c704aed26bfbeecdf5eac3b6fc631bd1de67341b", "6.0.0--pyhdfd78af_0": "sha256:7e65c48e4446b4d67ff4a24070536a20434d4305ce301b3746744b277e56f3f4", "6.1.0.post1--pyhdfd78af_0": "sha256:a25271bd0490767c69d6a9bd325ba058aa3a4d36a35597b6ebe8add4ae7884f2", "6.0.3--pyhdfd78af_0": "sha256:f708fead7a1bc26638b0b668fdbb042a584884f37ddfd59f9fcf17973a3bcd83", "6.2.0--pyhdfd78af_1": "sha256:a9b8d24a653ec97abe0a2c434de0e27f26e380651a2b05b3dd9fa27f7f5e9368", "6.2.1--pyhdfd78af_0": "sha256:faa5c300c64f359cad8be7fca21f12be8c812bd40dd4dadcdf5c80b078628198", "7.0.1--pyhdfd78af_0": "sha256:49efb460293cbc1ff5bbeba496287db058a2a3684dafc1736a324edf254602ea", "7.1.0--pyhdfd78af_0": "sha256:a13ce0c093e0fd3aea3cea6e3123c034c00f0ea2f56e368efca6692eb7ad3ca6", "7.2.0--pyhdfd78af_0": "sha256:323dd7f7959ed53fddceb3d759c135099eb5d0b64ca6208543645acf26530363", "7.4.0--pyhdfd78af_0": "sha256:8cad6628e8f30fce138bf344122898b9f0d96fc29bab97020d834b7fb25e0d00", "7.3.0.post1--pyhdfd78af_0": "sha256:ce4d8f23b60d06645f9ac352d9273cd03d2f540154f2a196f8a9751828ffb4cc", "7.4.0--pyhdfd78af_1": "sha256:cb42763c3e43381211a96982f70fba9609858aaafa87b9ebfcee417f8cf1f007", "8.2.0--pyhdfd78af_0": "sha256:ea6b47802d67dd11b38476e89e94d60e2694108e10626541b4c07e046f44e887", "8.0.1--pyhdfd78af_0": "sha256:a7baaf6b7ecca9d9db8c9f0e755e921613442fa7affc6cab344534cad26f6a92", "8.5.0--pyhdfd78af_0": "sha256:858034982328742a31bc2d047eeaaf91ca2a43ad9fd44461b28abfec120e205f", "8.5.1--pyhdfd78af_0": "sha256:419600a08aace250aa07a602d9ccf1eea880eeebdb500bfbaf3858adc1346314", "8.5.3--pyhdfd78af_0": "sha256:3a4c336cb4e74a8425217249c072fea56ed57153c9a6afb5deefc944c069938d"}, "docker": "quay.io/biocontainers/nextstrain-cli", "aliases": {"nextstrain": "/usr/local/bin/nextstrain", "docutils": "/usr/local/bin/docutils", "jp.py": "/usr/local/bin/jp.py", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nextstrain-cli.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/nextstrain-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nextstrain-cli:8.5.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/nextstrain-cli:8.5.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nextstrain-cli/8.5.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/nextstrain-cli/8.5.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/nextstrain-cli/8.5.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/nextstrain-cli/8.5.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
