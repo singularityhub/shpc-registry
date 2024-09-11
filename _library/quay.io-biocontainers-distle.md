@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/distle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/distle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/distle/container.yaml"
-updated_at: "2024-09-10 03:27:27.834383"
-latest: "0.1.1--h715e4b3_0"
+updated_at: "2024-09-11 03:26:14.332982"
+latest: "0.2.0--h715e4b3_0"
 container_url: "https://biocontainers.pro/tools/distle"
 aliases:
  - "distle"
 versions:
  - "0.1.1--h715e4b3_0"
+ - "0.2.0--h715e4b3_0"
 description: "singularity registry hpc automated addition for distle"
-config: {"url": "https://biocontainers.pro/tools/distle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for distle", "latest": {"0.1.1--h715e4b3_0": "sha256:fce3265ad2cf19ab763f7977fee346f00773be059a2a39ce92fab41c5e7b6609"}, "tags": {"0.1.1--h715e4b3_0": "sha256:fce3265ad2cf19ab763f7977fee346f00773be059a2a39ce92fab41c5e7b6609"}, "docker": "quay.io/biocontainers/distle", "aliases": {"distle": "/usr/local/bin/distle"}}
+config: {"url": "https://biocontainers.pro/tools/distle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for distle", "latest": {"0.2.0--h715e4b3_0": "sha256:75ca15253b5d794bda033f3a00a1763c662314bb2487d6e35acb588574bc2afc"}, "tags": {"0.1.1--h715e4b3_0": "sha256:fce3265ad2cf19ab763f7977fee346f00773be059a2a39ce92fab41c5e7b6609", "0.2.0--h715e4b3_0": "sha256:75ca15253b5d794bda033f3a00a1763c662314bb2487d6e35acb588574bc2afc"}, "docker": "quay.io/biocontainers/distle", "aliases": {"distle": "/usr/local/bin/distle"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/distle.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/distle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/distle:0.1.1--h715e4b3_0
+$ shpc install quay.io/biocontainers/distle:0.2.0--h715e4b3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/distle/0.1.1--h715e4b3_0
-$ module help quay.io/biocontainers/distle/0.1.1--h715e4b3_0
+$ module load quay.io/biocontainers/distle/0.2.0--h715e4b3_0
+$ module help quay.io/biocontainers/distle/0.2.0--h715e4b3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/pawsey/hpc-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/hpc-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/hpc-python/container.yaml"
-updated_at: "2024-09-10 02:44:57.719078"
+updated_at: "2024-09-11 02:43:26.248577"
 latest: "3.11-ubuntu23.04"
 container_url: "https://quay.io/repository/pawsey/hpc-python"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "3.11-ubuntu23.04"
  - "3.11-ubuntu23.04-hdf5mpi"
 description: "Base Python images with popular packages for HPC workflows."
-config: {"docker": "quay.io/pawsey/hpc-python", "url": "https://quay.io/repository/pawsey/hpc-python", "maintainer": "@marcodelapierre", "description": "Base Python images with popular packages for HPC workflows.", "latest": {"3.11-ubuntu23.04": "sha256:18f4ce8fd471d82b436a191e7b1d25c7086e594f5ce472857c4f7e688d64b8c8"}, "tags": {"3.11-ubuntu23.04": "sha256:18f4ce8fd471d82b436a191e7b1d25c7086e594f5ce472857c4f7e688d64b8c8", "3.11-ubuntu23.04-hdf5mpi": "sha256:b42b65b2d49bf24c595e23ac0e1b11ac2bccf36d716356493f7b32ef12e35b48"}, "aliases": {"python": "/usr/local/bin/python", "python3": "/usr/local/bin/python3"}, "env": {"PYTHONSTARTUP": "", "PYTHONUSERBASE": ""}, "features": {"home": true}}
+config: {"docker": "quay.io/pawsey/hpc-python", "url": "https://quay.io/repository/pawsey/hpc-python", "maintainer": "@marcodelapierre", "description": "Base Python images with popular packages for HPC workflows.", "latest": {"3.11-ubuntu23.04": "sha256:0b374bd5dce385a32ebd57266d1124f74206919dcc82a9b345868fd2cccb5672"}, "tags": {"3.11-ubuntu23.04": "sha256:0b374bd5dce385a32ebd57266d1124f74206919dcc82a9b345868fd2cccb5672", "3.11-ubuntu23.04-hdf5mpi": "sha256:b42b65b2d49bf24c595e23ac0e1b11ac2bccf36d716356493f7b32ef12e35b48"}, "aliases": {"python": "/usr/local/bin/python", "python3": "/usr/local/bin/python3"}, "env": {"PYTHONSTARTUP": "", "PYTHONUSERBASE": ""}, "features": {"home": true}}
 ---
 
 This module is a singularity container wrapper for quay.io/pawsey/hpc-python.

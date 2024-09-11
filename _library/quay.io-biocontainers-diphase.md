@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/diphase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diphase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/diphase/container.yaml"
-updated_at: "2024-09-10 02:46:28.776719"
-latest: "1.0.0--h739ee2d_0"
+updated_at: "2024-09-11 02:44:58.370662"
+latest: "1.0.2--h739ee2d_0"
 container_url: "https://biocontainers.pro/tools/diphase"
 aliases:
  - "eval.py"
@@ -42,8 +42,9 @@ aliases:
  - "samtools"
 versions:
  - "1.0.0--h739ee2d_0"
+ - "1.0.2--h739ee2d_0"
 description: "singularity registry hpc automated addition for diphase"
-config: {"url": "https://biocontainers.pro/tools/diphase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for diphase", "latest": {"1.0.0--h739ee2d_0": "sha256:f3d3c3b64b74f0413d0bff9b44089b7e0a2081ff219f28f627f56cf9cde1aec1"}, "tags": {"1.0.0--h739ee2d_0": "sha256:f3d3c3b64b74f0413d0bff9b44089b7e0a2081ff219f28f627f56cf9cde1aec1"}, "docker": "quay.io/biocontainers/diphase", "aliases": {"eval.py": "/usr/local/bin/eval.py", "phasing": "/usr/local/bin/phasing", "pipeline.py": "/usr/local/bin/pipeline.py", "plot.py": "/usr/local/bin/plot.py", "preprocessing.py": "/usr/local/bin/preprocessing.py", "tools.py": "/usr/local/bin/tools.py", "util.py": "/usr/local/bin/util.py", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl", "samtools": "/usr/local/bin/samtools"}}
+config: {"url": "https://biocontainers.pro/tools/diphase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for diphase", "latest": {"1.0.2--h739ee2d_0": "sha256:9dc9bf2b2e8770ce7e5c27a98cbc3f38be3934e99b105cb13976e08a39c48e4a"}, "tags": {"1.0.0--h739ee2d_0": "sha256:f3d3c3b64b74f0413d0bff9b44089b7e0a2081ff219f28f627f56cf9cde1aec1", "1.0.2--h739ee2d_0": "sha256:9dc9bf2b2e8770ce7e5c27a98cbc3f38be3934e99b105cb13976e08a39c48e4a"}, "docker": "quay.io/biocontainers/diphase", "aliases": {"eval.py": "/usr/local/bin/eval.py", "phasing": "/usr/local/bin/phasing", "pipeline.py": "/usr/local/bin/pipeline.py", "plot.py": "/usr/local/bin/plot.py", "preprocessing.py": "/usr/local/bin/preprocessing.py", "tools.py": "/usr/local/bin/tools.py", "util.py": "/usr/local/bin/util.py", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl", "samtools": "/usr/local/bin/samtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/diphase.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/diphase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/diphase:1.0.0--h739ee2d_0
+$ shpc install quay.io/biocontainers/diphase:1.0.2--h739ee2d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/diphase/1.0.0--h739ee2d_0
-$ module help quay.io/biocontainers/diphase/1.0.0--h739ee2d_0
+$ module load quay.io/biocontainers/diphase/1.0.2--h739ee2d_0
+$ module help quay.io/biocontainers/diphase/1.0.2--h739ee2d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

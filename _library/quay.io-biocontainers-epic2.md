@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/epic2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epic2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epic2/container.yaml"
-updated_at: "2024-09-10 03:03:02.005083"
+updated_at: "2024-09-11 03:01:35.937806"
 latest: "0.0.52--py311h6eedab3_8"
 container_url: "https://biocontainers.pro/tools/epic2"
 aliases:

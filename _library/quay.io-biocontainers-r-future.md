@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-future"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-future/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-future/container.yaml"
-updated_at: "2024-09-10 03:24:19.634007"
+updated_at: "2024-09-11 03:23:04.726186"
 latest: "1.2.0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-future"
 aliases:
