@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-eel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-eel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-eel/container.yaml"
-updated_at: "2024-09-11 02:46:08.249044"
+updated_at: "2024-09-12 02:47:35.174678"
 latest: "1.0--py27hd63410e_3"
 container_url: "https://biocontainers.pro/tools/python-eel"
 aliases:

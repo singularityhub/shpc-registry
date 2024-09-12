@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-linxreport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-linxreport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-linxreport/container.yaml"
-updated_at: "2024-09-11 03:15:26.971266"
+updated_at: "2024-09-12 03:16:20.762044"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-linxreport"
 aliases:

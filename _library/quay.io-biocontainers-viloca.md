@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viloca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viloca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viloca/container.yaml"
-updated_at: "2024-09-11 03:13:05.977159"
+updated_at: "2024-09-12 03:14:02.136334"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/viloca"
 aliases:

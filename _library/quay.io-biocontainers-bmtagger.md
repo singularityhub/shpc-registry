@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bmtagger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bmtagger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bmtagger/container.yaml"
-updated_at: "2024-09-11 02:47:33.171746"
+updated_at: "2024-09-12 02:48:58.157511"
 latest: "3.101--h470a237_4"
 container_url: "https://biocontainers.pro/tools/bmtagger"
 aliases:

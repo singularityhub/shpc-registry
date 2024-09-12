@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyiron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyiron/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyiron/container.yaml"
-updated_at: "2024-09-11 03:08:39.273555"
+updated_at: "2024-09-12 03:09:39.355358"
 latest: "0.2.2"
 container_url: "https://biocontainers.pro/tools/pyiron"
 aliases:

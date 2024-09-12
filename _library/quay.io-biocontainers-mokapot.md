@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mokapot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mokapot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mokapot/container.yaml"
-updated_at: "2024-09-11 03:26:59.123686"
+updated_at: "2024-09-12 03:27:39.322458"
 latest: "0.10.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mokapot"
 aliases:

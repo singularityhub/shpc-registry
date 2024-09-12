@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strainscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strainscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strainscan/container.yaml"
-updated_at: "2024-09-11 02:44:18.871615"
+updated_at: "2024-09-12 02:45:47.901879"
 latest: "1.0.14--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/strainscan"
 aliases:

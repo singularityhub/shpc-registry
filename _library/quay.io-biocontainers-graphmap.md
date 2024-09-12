@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/graphmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphmap/container.yaml"
-updated_at: "2024-09-11 02:52:14.096834"
-latest: "0.6.3--hdcf5f25_4"
+updated_at: "2024-09-12 02:53:32.595680"
+latest: "0.6.4--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/graphmap"
 aliases:
  - "graphmap2"
 versions:
  - "0.6.3--hd03093a_2"
  - "0.6.3--hdcf5f25_4"
+ - "0.6.4--hdcf5f25_0"
 description: "shpc-registry automated BioContainers addition for graphmap"
-config: {"url": "https://biocontainers.pro/tools/graphmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphmap", "latest": {"0.6.3--hdcf5f25_4": "sha256:41b45104db696870699dc91ab22630a5337bf63f202af2ae646f98621f0c5729"}, "tags": {"0.6.3--hd03093a_2": "sha256:bd4913f93a27e40bb2fca04497eb34518f68363d5e3863bce8674630dd179f0f", "0.6.3--hdcf5f25_4": "sha256:41b45104db696870699dc91ab22630a5337bf63f202af2ae646f98621f0c5729"}, "docker": "quay.io/biocontainers/graphmap", "aliases": {"graphmap2": "/usr/local/bin/graphmap2"}}
+config: {"url": "https://biocontainers.pro/tools/graphmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphmap", "latest": {"0.6.4--hdcf5f25_0": "sha256:1ea32fa23deeb571cda4d28bc8e0f0e2a77352dff4b2efed60c13857273ef0d0"}, "tags": {"0.6.3--hd03093a_2": "sha256:bd4913f93a27e40bb2fca04497eb34518f68363d5e3863bce8674630dd179f0f", "0.6.3--hdcf5f25_4": "sha256:41b45104db696870699dc91ab22630a5337bf63f202af2ae646f98621f0c5729", "0.6.4--hdcf5f25_0": "sha256:1ea32fa23deeb571cda4d28bc8e0f0e2a77352dff4b2efed60c13857273ef0d0"}, "docker": "quay.io/biocontainers/graphmap", "aliases": {"graphmap2": "/usr/local/bin/graphmap2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/graphmap.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/graphmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/graphmap:0.6.3--hdcf5f25_4
+$ shpc install quay.io/biocontainers/graphmap:0.6.4--hdcf5f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/graphmap/0.6.3--hdcf5f25_4
-$ module help quay.io/biocontainers/graphmap/0.6.3--hdcf5f25_4
+$ module load quay.io/biocontainers/graphmap/0.6.4--hdcf5f25_0
+$ module help quay.io/biocontainers/graphmap/0.6.4--hdcf5f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

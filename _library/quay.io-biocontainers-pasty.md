@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pasty"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pasty/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pasty/container.yaml"
-updated_at: "2024-09-11 03:07:32.030371"
-latest: "2.0.0--hdfd78af_0"
+updated_at: "2024-09-12 03:08:34.750154"
+latest: "2.2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pasty"
 aliases:
  - "executor"
@@ -26,8 +26,11 @@ versions:
  - "1.0.2--hdfd78af_0"
  - "1.0.3--hdfd78af_0"
  - "2.0.0--hdfd78af_0"
+ - "2.2.1--hdfd78af_0"
+ - "2.1.0--hdfd78af_0"
+ - "2.0.2--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for pasty"
-config: {"url": "https://biocontainers.pro/tools/pasty", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pasty", "latest": {"2.0.0--hdfd78af_0": "sha256:d086f01fcdf0f4657e1ea001edce1a83c9e4b47e343122374909ee3fb0d21ef6"}, "tags": {"1.0.0--hdfd78af_0": "sha256:8bfb41cd6285c342bc63462a7395af3f8426cf919dd13fa76e27bdddfd876926", "1.0.2--hdfd78af_0": "sha256:ee6395b9e95f881a37c0087417af97aece538fe13b884afc5397a679f19cf827", "1.0.3--hdfd78af_0": "sha256:55fb1629cc3a2939fca1024033d4ae7ed430939c09ee9727f5fb475b851939cb", "2.0.0--hdfd78af_0": "sha256:d086f01fcdf0f4657e1ea001edce1a83c9e4b47e343122374909ee3fb0d21ef6"}, "docker": "quay.io/biocontainers/pasty", "aliases": {"executor": "/usr/local/bin/executor", "pasty": "/usr/local/bin/pasty", "rich-click": "/usr/local/bin/rich-click", "cmark": "/usr/local/bin/cmark", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns"}}
+config: {"url": "https://biocontainers.pro/tools/pasty", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pasty", "latest": {"2.2.1--hdfd78af_0": "sha256:2176d371c9061e8ad52bbac90b3eca5f1b79888d9fc59a6f7df845ba92c1c841"}, "tags": {"1.0.0--hdfd78af_0": "sha256:8bfb41cd6285c342bc63462a7395af3f8426cf919dd13fa76e27bdddfd876926", "1.0.2--hdfd78af_0": "sha256:ee6395b9e95f881a37c0087417af97aece538fe13b884afc5397a679f19cf827", "1.0.3--hdfd78af_0": "sha256:55fb1629cc3a2939fca1024033d4ae7ed430939c09ee9727f5fb475b851939cb", "2.0.0--hdfd78af_0": "sha256:d086f01fcdf0f4657e1ea001edce1a83c9e4b47e343122374909ee3fb0d21ef6", "2.2.1--hdfd78af_0": "sha256:2176d371c9061e8ad52bbac90b3eca5f1b79888d9fc59a6f7df845ba92c1c841", "2.1.0--hdfd78af_0": "sha256:0856fd104ac9bacd9c6652049b64b821f8c7df3bc9f8909829ce2eaa57f9ecb1", "2.0.2--hdfd78af_1": "sha256:619cfdd4b251bfb93f58022901eb8c54b583b3d808be188e48146716319e7be0"}, "docker": "quay.io/biocontainers/pasty", "aliases": {"executor": "/usr/local/bin/executor", "pasty": "/usr/local/bin/pasty", "rich-click": "/usr/local/bin/rich-click", "cmark": "/usr/local/bin/cmark", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pasty.
@@ -42,7 +45,7 @@ $ shpc install quay.io/biocontainers/pasty
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pasty:2.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/pasty:2.2.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pasty/2.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/pasty/2.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/pasty/2.2.1--hdfd78af_0
+$ module help quay.io/biocontainers/pasty/2.2.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genome_updater"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genome_updater/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genome_updater/container.yaml"
-updated_at: "2024-09-11 02:52:35.385380"
+updated_at: "2024-09-12 02:53:53.482919"
 latest: "0.6.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/genome_updater"
 aliases:

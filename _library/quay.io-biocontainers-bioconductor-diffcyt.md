@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-diffcyt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diffcyt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diffcyt/container.yaml"
-updated_at: "2024-09-11 02:52:27.424134"
+updated_at: "2024-09-12 02:53:45.582066"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-diffcyt"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/omark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/omark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/omark/container.yaml"
-updated_at: "2024-09-11 02:53:05.739398"
+updated_at: "2024-09-12 02:54:23.196901"
 latest: "0.3.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/omark"
 aliases:

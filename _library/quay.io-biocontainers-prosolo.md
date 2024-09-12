@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prosolo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prosolo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prosolo/container.yaml"
-updated_at: "2024-09-11 02:53:34.850190"
+updated_at: "2024-09-12 02:54:51.480002"
 latest: "0.6.1--hc7800f0_1"
 container_url: "https://biocontainers.pro/tools/prosolo"
 aliases:
