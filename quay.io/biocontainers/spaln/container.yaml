@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/spaln
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for spaln
 latest:
-  3.0.4--pl5321hdcf5f25_0: sha256:862f09e437de86f2cc937fc3f8846e98d4e1c3ac612728ee3325657542391c5b
+  3.0.6--pl5321hdcf5f25_0: sha256:957dbb276068579a8aee4fe9d339c0d48166a60ce74bfeb8c04231903bd5d4a3
 tags:
   2.4.9--pl5321hd03093a_0: sha256:34800f4b833dbeaefb8795acfcc53083680e2bb1baa5ea01b680d52764dec858
   2.4.13--pl5321h9f5acd7_0: sha256:56acb30ea1b953c21a8e8e76d7ba6118bbcf9860f2dcd3e4a4fda66b75400927
@@ -10,6 +10,7 @@ tags:
   2.4.13--pl5321h4ac6f70_2: sha256:a70af0d5daf8c0e9d13d8d7bd6f8f5230ecbd8c7d016c0d7e636047c4e710fcf
   3.0.1--pl5321h4ac6f70_0: sha256:eac11f9a86d2e0fcaa25191122498b2d7538810b0a38e2146ae52bad4ba18d64
   3.0.4--pl5321hdcf5f25_0: sha256:862f09e437de86f2cc937fc3f8846e98d4e1c3ac612728ee3325657542391c5b
+  3.0.6--pl5321hdcf5f25_0: sha256:957dbb276068579a8aee4fe9d339c0d48166a60ce74bfeb8c04231903bd5d4a3
 docker: quay.io/biocontainers/spaln
 aliases:
   catchr.pl: /usr/local/bin/catchr.pl
