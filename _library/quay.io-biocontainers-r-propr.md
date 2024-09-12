@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-propr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-propr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-propr/container.yaml"
-updated_at: "2024-09-12 02:47:35.459875"
+updated_at: "2024-09-12 16:42:20.217723"
 latest: "5.0.4"
 container_url: "https://biocontainers.pro/tools/r-propr"
 aliases:

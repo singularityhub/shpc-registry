@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.drerio.ucsc.danrer11.refgene/container.yaml"
-updated_at: "2024-09-12 02:55:09.559041"
+updated_at: "2024-09-12 16:50:29.151180"
 latest: "3.4.6--r43hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.drerio.ucsc.danrer11.refgene"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mgs-canopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgs-canopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgs-canopy/container.yaml"
-updated_at: "2024-09-12 03:28:46.328071"
+updated_at: "2024-09-12 17:26:54.775914"
 latest: "1.0--h4ac6f70_8"
 container_url: "https://biocontainers.pro/tools/mgs-canopy"
 aliases:
