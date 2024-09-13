@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/clipandmerge
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for clipandmerge
 latest:
-  1.7.8--hdfd78af_2: sha256:8349f51cfaf718a173b102a742151cf9f476d8a1a6d177989a4ad4ca171e0704
+  1.7.9--hdfd78af_0: sha256:6f9bf773af2924f31bc335dbd6a837c0d7dfce2902247141fe2b6acf9fa16ead
 tags:
   1.7.8--hdfd78af_2: sha256:8349f51cfaf718a173b102a742151cf9f476d8a1a6d177989a4ad4ca171e0704
+  1.7.9--hdfd78af_0: sha256:6f9bf773af2924f31bc335dbd6a837c0d7dfce2902247141fe2b6acf9fa16ead
 docker: quay.io/biocontainers/clipandmerge
 aliases:
   ClipAndMerge: /usr/local/bin/ClipAndMerge

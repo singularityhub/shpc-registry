@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/geofetch
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for geofetch
 latest:
-  0.12.6--pyh7cba7a3_0: sha256:6f515af2cb87c3e4f7918b9a8dce1698ec574d355d688a2d1b0b931c427ec032
+  0.12.7--pyh7e72e81_0: sha256:c83da03a73f4fd18ef537fe6f7280a8b7402353bbb8ae39242bbf003f1798e78
 tags:
   0.12.0--pyh7cba7a3_0: sha256:9518cba6862d92fc62ebb645b7dd21d4a155606348b92857289c72c4a11139d3
   0.12.1--pyh7cba7a3_0: sha256:b279b8bbd2e86aa2d4f9ae6988967174586d6f4072723050276e8433a60c66c5
@@ -11,6 +11,7 @@ tags:
   0.12.4--pyh7cba7a3_0: sha256:d2f16142b813cbade7a2b4f0b15665cc8a20c2a21971f5a3e97a3f80124b2124
   0.12.5--pyh7cba7a3_0: sha256:85082cd9ce15713cb99f74013b3df592fa580bfd347100c47f78cfbfd305fcb8
   0.12.6--pyh7cba7a3_0: sha256:6f515af2cb87c3e4f7918b9a8dce1698ec574d355d688a2d1b0b931c427ec032
+  0.12.7--pyh7e72e81_0: sha256:c83da03a73f4fd18ef537fe6f7280a8b7402353bbb8ae39242bbf003f1798e78
 docker: quay.io/biocontainers/geofetch
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11
