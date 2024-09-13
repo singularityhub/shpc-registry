@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fairease-source"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fairease-source/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fairease-source/container.yaml"
-updated_at: "2024-09-12 17:19:05.041655"
+updated_at: "2024-09-13 03:23:36.652157"
 latest: "1.4.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fairease-source"
 aliases:

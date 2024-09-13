@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alen/container.yaml"
-updated_at: "2024-09-12 16:58:42.960587"
+updated_at: "2024-09-13 03:04:16.014941"
 latest: "0.3.1--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/alen"
 aliases:

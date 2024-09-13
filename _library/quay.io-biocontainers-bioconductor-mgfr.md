@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mgfr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mgfr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mgfr/container.yaml"
-updated_at: "2024-09-12 17:29:09.303415"
+updated_at: "2024-09-13 03:33:17.447614"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mgfr"
 aliases:

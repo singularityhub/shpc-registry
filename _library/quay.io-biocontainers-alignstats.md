@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alignstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alignstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alignstats/container.yaml"
-updated_at: "2024-09-12 17:29:48.419493"
+updated_at: "2024-09-13 03:33:55.090068"
 latest: "0.10--h031d066_2"
 container_url: "https://biocontainers.pro/tools/alignstats"
 aliases:
