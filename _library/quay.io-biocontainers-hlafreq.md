@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hlafreq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hlafreq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hlafreq/container.yaml"
-updated_at: "2024-09-13 02:47:15.384897"
-latest: "0.0.3--pyhdfd78af_0"
+updated_at: "2024-09-14 02:44:41.804649"
+latest: "0.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hlafreq"
 aliases:
  - "c++"
@@ -39,8 +39,9 @@ aliases:
 versions:
  - "0.0.2--pyhdfd78af_0"
  - "0.0.3--pyhdfd78af_0"
+ - "0.0.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for hlafreq"
-config: {"url": "https://biocontainers.pro/tools/hlafreq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hlafreq", "latest": {"0.0.3--pyhdfd78af_0": "sha256:c7c31f26b8c1fa97398c2641999ce5de883edeabe96ac976582c6f90a0c786c7"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:cf35cb24c0b74ea410334ef929ff1feb6cce95f95d7280e5875be56a2bb4bbf8", "0.0.3--pyhdfd78af_0": "sha256:c7c31f26b8c1fa97398c2641999ce5de883edeabe96ac976582c6f90a0c786c7"}, "docker": "quay.io/biocontainers/hlafreq", "aliases": {"c++": "/usr/local/bin/c++", "g++": "/usr/local/bin/g++", "pytensor-cache": "/usr/local/bin/pytensor-cache", "h5delete": "/usr/local/bin/h5delete", "aec": "/usr/local/bin/aec", "tjbench": "/usr/local/bin/tjbench", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
+config: {"url": "https://biocontainers.pro/tools/hlafreq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hlafreq", "latest": {"0.0.4--pyhdfd78af_0": "sha256:32e19b0c75a958cc0cdccfb5bcf070b3ccc5fa05d861d5e8d8ee16a7cdec780a"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:cf35cb24c0b74ea410334ef929ff1feb6cce95f95d7280e5875be56a2bb4bbf8", "0.0.3--pyhdfd78af_0": "sha256:c7c31f26b8c1fa97398c2641999ce5de883edeabe96ac976582c6f90a0c786c7", "0.0.4--pyhdfd78af_0": "sha256:32e19b0c75a958cc0cdccfb5bcf070b3ccc5fa05d861d5e8d8ee16a7cdec780a"}, "docker": "quay.io/biocontainers/hlafreq", "aliases": {"c++": "/usr/local/bin/c++", "g++": "/usr/local/bin/g++", "pytensor-cache": "/usr/local/bin/pytensor-cache", "h5delete": "/usr/local/bin/h5delete", "aec": "/usr/local/bin/aec", "tjbench": "/usr/local/bin/tjbench", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hlafreq.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/hlafreq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hlafreq:0.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/hlafreq:0.0.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hlafreq/0.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/hlafreq/0.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/hlafreq/0.0.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/hlafreq/0.0.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

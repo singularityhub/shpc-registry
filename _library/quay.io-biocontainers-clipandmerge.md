@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clipandmerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clipandmerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clipandmerge/container.yaml"
-updated_at: "2024-09-13 03:33:25.309625"
-latest: "1.7.8--hdfd78af_2"
+updated_at: "2024-09-14 03:30:30.745487"
+latest: "1.7.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/clipandmerge"
 aliases:
  - "ClipAndMerge"
@@ -21,8 +21,9 @@ aliases:
  - "jjs"
 versions:
  - "1.7.8--hdfd78af_2"
+ - "1.7.9--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for clipandmerge"
-config: {"url": "https://biocontainers.pro/tools/clipandmerge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clipandmerge", "latest": {"1.7.8--hdfd78af_2": "sha256:8349f51cfaf718a173b102a742151cf9f476d8a1a6d177989a4ad4ca171e0704"}, "tags": {"1.7.8--hdfd78af_2": "sha256:8349f51cfaf718a173b102a742151cf9f476d8a1a6d177989a4ad4ca171e0704"}, "docker": "quay.io/biocontainers/clipandmerge", "aliases": {"ClipAndMerge": "/usr/local/bin/ClipAndMerge", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/clipandmerge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clipandmerge", "latest": {"1.7.9--hdfd78af_0": "sha256:6f9bf773af2924f31bc335dbd6a837c0d7dfce2902247141fe2b6acf9fa16ead"}, "tags": {"1.7.8--hdfd78af_2": "sha256:8349f51cfaf718a173b102a742151cf9f476d8a1a6d177989a4ad4ca171e0704", "1.7.9--hdfd78af_0": "sha256:6f9bf773af2924f31bc335dbd6a837c0d7dfce2902247141fe2b6acf9fa16ead"}, "docker": "quay.io/biocontainers/clipandmerge", "aliases": {"ClipAndMerge": "/usr/local/bin/ClipAndMerge", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clipandmerge.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/clipandmerge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clipandmerge:1.7.8--hdfd78af_2
+$ shpc install quay.io/biocontainers/clipandmerge:1.7.9--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clipandmerge/1.7.8--hdfd78af_2
-$ module help quay.io/biocontainers/clipandmerge/1.7.8--hdfd78af_2
+$ module load quay.io/biocontainers/clipandmerge/1.7.9--hdfd78af_0
+$ module help quay.io/biocontainers/clipandmerge/1.7.9--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

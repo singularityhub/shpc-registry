@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncbi-amrfinderplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-amrfinderplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-amrfinderplus/container.yaml"
-updated_at: "2024-09-13 03:03:03.496153"
+updated_at: "2024-09-14 03:00:24.332490"
 latest: "3.12.8--h283d18e_0"
 container_url: "https://biocontainers.pro/tools/ncbi-amrfinderplus"
 aliases:

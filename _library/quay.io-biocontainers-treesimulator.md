@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/treesimulator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treesimulator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treesimulator/container.yaml"
-updated_at: "2024-09-13 02:48:00.328752"
-latest: "0.1.22--pyhdfd78af_0"
+updated_at: "2024-09-14 02:45:25.723952"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/treesimulator"
 aliases:
  - "generate_bd"
@@ -39,8 +39,9 @@ aliases:
  - "lupdate-pro"
 versions:
  - "0.1.22--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for treesimulator"
-config: {"url": "https://biocontainers.pro/tools/treesimulator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for treesimulator", "latest": {"0.1.22--pyhdfd78af_0": "sha256:43f049c1076003511d187cae582f0714791580276e17f026d82c22a70db85b55"}, "tags": {"0.1.22--pyhdfd78af_0": "sha256:43f049c1076003511d187cae582f0714791580276e17f026d82c22a70db85b55"}, "docker": "quay.io/biocontainers/treesimulator", "aliases": {"generate_bd": "/usr/local/bin/generate_bd", "generate_bdei": "/usr/local/bin/generate_bdei", "generate_bdss": "/usr/local/bin/generate_bdss", "generate_mtbd": "/usr/local/bin/generate_mtbd", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "numpy-config": "/usr/local/bin/numpy-config", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "balsam": "/usr/local/bin/balsam", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro"}}
+config: {"url": "https://biocontainers.pro/tools/treesimulator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for treesimulator", "latest": {"0.2.0--pyhdfd78af_0": "sha256:48114eb2a2954aef5f2d3dbb61eea4d2339e85dea86ec7129f88b21764d1d000"}, "tags": {"0.1.22--pyhdfd78af_0": "sha256:43f049c1076003511d187cae582f0714791580276e17f026d82c22a70db85b55", "0.2.0--pyhdfd78af_0": "sha256:48114eb2a2954aef5f2d3dbb61eea4d2339e85dea86ec7129f88b21764d1d000"}, "docker": "quay.io/biocontainers/treesimulator", "aliases": {"generate_bd": "/usr/local/bin/generate_bd", "generate_bdei": "/usr/local/bin/generate_bdei", "generate_bdss": "/usr/local/bin/generate_bdss", "generate_mtbd": "/usr/local/bin/generate_mtbd", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "numpy-config": "/usr/local/bin/numpy-config", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "balsam": "/usr/local/bin/balsam", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/treesimulator.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/treesimulator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/treesimulator:0.1.22--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/treesimulator:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/treesimulator/0.1.22--pyhdfd78af_0
-$ module help quay.io/biocontainers/treesimulator/0.1.22--pyhdfd78af_0
+$ module load quay.io/biocontainers/treesimulator/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/treesimulator/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

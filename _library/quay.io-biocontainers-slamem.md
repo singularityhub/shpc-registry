@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/slamem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slamem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slamem/container.yaml"
-updated_at: "2024-09-13 03:05:00.136735"
+updated_at: "2024-09-14 03:02:18.915534"
 latest: "0.8.5--h031d066_3"
 container_url: "https://biocontainers.pro/tools/slamem"
 aliases:
