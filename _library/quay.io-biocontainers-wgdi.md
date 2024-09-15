@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wgdi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wgdi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wgdi/container.yaml"
-updated_at: "2024-09-14 03:16:58.428242"
+updated_at: "2024-09-15 03:28:24.366581"
 latest: "0.6.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/wgdi"
 aliases:

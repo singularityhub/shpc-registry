@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rgraphviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgraphviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgraphviz/container.yaml"
-updated_at: "2024-09-14 02:49:07.844942"
+updated_at: "2024-09-15 02:59:29.956100"
 latest: "2.46.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgraphviz"
 

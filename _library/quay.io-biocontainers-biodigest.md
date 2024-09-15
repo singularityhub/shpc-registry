@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biodigest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biodigest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biodigest/container.yaml"
-updated_at: "2024-09-14 02:58:52.487528"
+updated_at: "2024-09-15 03:09:43.348639"
 latest: "0.2.16--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/biodigest"
 aliases:

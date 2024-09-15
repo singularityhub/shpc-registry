@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sniffles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sniffles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sniffles/container.yaml"
-updated_at: "2024-09-14 02:45:55.510218"
+updated_at: "2024-09-15 02:56:21.623113"
 latest: "2.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sniffles"
 aliases:

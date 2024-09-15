@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oncotator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oncotator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oncotator/container.yaml"
-updated_at: "2024-09-14 02:44:06.271602"
+updated_at: "2024-09-15 02:54:30.404458"
 latest: "1.9.9.0--py27h516909a_2"
 container_url: "https://biocontainers.pro/tools/oncotator"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-poma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-poma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-poma/container.yaml"
-updated_at: "2024-09-14 03:29:24.179532"
+updated_at: "2024-09-15 03:40:46.920631"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-poma"
 aliases:

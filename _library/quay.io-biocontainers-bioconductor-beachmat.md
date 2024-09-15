@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-beachmat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-beachmat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-beachmat/container.yaml"
-updated_at: "2024-09-14 02:57:00.725610"
+updated_at: "2024-09-15 03:07:44.464989"
 latest: "2.18.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-beachmat"
 aliases:

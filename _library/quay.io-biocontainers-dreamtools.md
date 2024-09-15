@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dreamtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dreamtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dreamtools/container.yaml"
-updated_at: "2024-09-14 03:17:54.382080"
+updated_at: "2024-09-15 03:29:20.206537"
 latest: "1.3.0--py36_0"
 container_url: "https://biocontainers.pro/tools/dreamtools"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-humanaffydata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-humanaffydata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-humanaffydata/container.yaml"
-updated_at: "2024-09-14 03:04:55.232973"
+updated_at: "2024-09-15 03:16:10.734841"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-humanaffydata"
 aliases:

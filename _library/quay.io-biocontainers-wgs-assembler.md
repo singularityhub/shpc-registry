@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wgs-assembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wgs-assembler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wgs-assembler/container.yaml"
-updated_at: "2024-09-14 02:53:27.262810"
+updated_at: "2024-09-15 03:04:02.399057"
 latest: "8.3--pl5.22.0_0"
 container_url: "https://biocontainers.pro/tools/wgs-assembler"
 aliases:

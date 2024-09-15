@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/krocus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krocus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/krocus/container.yaml"
-updated_at: "2024-09-14 02:56:09.842873"
+updated_at: "2024-09-15 03:06:50.773821"
 latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/krocus"
 aliases:
