@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/zga
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for zga
 latest:
-  0.1.0--pyhdfd78af_0: sha256:bdc08cdad66770b01d00b9b14256167b883f142e9030831919085ecfde5a9614
+  0.1.1--pyhdfd78af_0: sha256:9ae0b26181106d163161e5c298cfbd08c71f7e463765d057eb58685b9a8c1012
 tags:
   0.0.9.post2--pyhdfd78af_1: sha256:9934c00a59ba9ceb8ede393026a1255450d9a7a2a8ee7fe5891dd613654b00df
   0.1.0--pyhdfd78af_0: sha256:bdc08cdad66770b01d00b9b14256167b883f142e9030831919085ecfde5a9614
+  0.1.1--pyhdfd78af_0: sha256:9ae0b26181106d163161e5c298cfbd08c71f7e463765d057eb58685b9a8c1012
 docker: quay.io/biocontainers/zga
 aliases:
   checkm: /usr/local/bin/checkm
