@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/sam2pairwise
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sam2pairwise
+latest:
+  1.0.0--h4ac6f70_0: sha256:0d688c7b09c9eaf656cbaca89cfe5c8856577b87573f7fe22d9594d43175117a
+tags:
+  1.0.0--h4ac6f70_0: sha256:0d688c7b09c9eaf656cbaca89cfe5c8856577b87573f7fe22d9594d43175117a
+docker: quay.io/biocontainers/sam2pairwise
+aliases:
+  sam2pairwise: /usr/local/bin/sam2pairwise
