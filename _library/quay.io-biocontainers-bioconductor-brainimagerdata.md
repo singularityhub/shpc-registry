@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-brainimagerdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-brainimagerdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-brainimagerdata/container.yaml"
-updated_at: "2024-09-16 03:14:43.682450"
+updated_at: "2024-09-16 03:50:20.600978"
 latest: "1.12.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-brainimagerdata"
 aliases:

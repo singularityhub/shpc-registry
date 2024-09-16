@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/anansescanpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anansescanpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anansescanpy/container.yaml"
-updated_at: "2024-09-16 03:33:10.801750"
+updated_at: "2024-09-16 04:08:38.487253"
 latest: "1.0.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/anansescanpy"
 aliases:
