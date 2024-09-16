@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/mvip
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mvip
 latest:
-  1.1.2--pyhdfd78af_0: sha256:3956b98eeb62e53b8a4c94c7858810cf3387259508aa84bf525b196c8be703df
+  1.1.4--pyhdfd78af_0: sha256:cdb9e1c075db14f4b4317ee1b489a2b80168636b18a3f07ec0084b87eeff91f9
 tags:
   1.0.0--pyhdfd78af_0: sha256:99aceb866ca90d023b313370e103b241a4c34bd6291f10f9c5ccd65edaeb22c5
   1.1.1--pyhdfd78af_0: sha256:1c9108d73b9b293eb2c4336a945bd96fc82d6aff0c818da91e8a60bfe811e36c
   1.1.2--pyhdfd78af_0: sha256:3956b98eeb62e53b8a4c94c7858810cf3387259508aa84bf525b196c8be703df
+  1.1.4--pyhdfd78af_0: sha256:cdb9e1c075db14f4b4317ee1b489a2b80168636b18a3f07ec0084b87eeff91f9
 docker: quay.io/biocontainers/mvip
 aliases:
   alternative_bins_to_fasta.py: /usr/local/bin/alternative_bins_to_fasta.py
