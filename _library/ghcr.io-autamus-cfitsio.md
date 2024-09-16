@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/cfitsio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cfitsio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/cfitsio/container.yaml"
-updated_at: "2024-09-15 02:53:10.575212"
+updated_at: "2024-09-16 02:54:39.637488"
 latest: "4.0.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cfitsio"
 

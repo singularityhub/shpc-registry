@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/reveal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reveal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reveal/container.yaml"
-updated_at: "2024-09-15 03:13:21.892314"
+updated_at: "2024-09-16 03:14:31.800319"
 latest: "0.1--py27h95a95ce_7"
 container_url: "https://biocontainers.pro/tools/reveal"
 aliases:

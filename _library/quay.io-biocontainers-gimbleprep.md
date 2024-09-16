@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gimbleprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gimbleprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gimbleprep/container.yaml"
-updated_at: "2024-09-15 03:33:39.070209"
+updated_at: "2024-09-16 03:34:19.641166"
 latest: "0.0.2b6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gimbleprep"
 aliases:

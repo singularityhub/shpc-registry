@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylodeep_data_bdss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylodeep_data_bdss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylodeep_data_bdss/container.yaml"
-updated_at: "2024-09-15 03:01:18.771022"
+updated_at: "2024-09-16 03:02:47.491035"
 latest: "0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phylodeep_data_bdss"
 aliases:

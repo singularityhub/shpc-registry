@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alignment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alignment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alignment/container.yaml"
-updated_at: "2024-09-15 03:13:41.092770"
+updated_at: "2024-09-16 03:14:50.073458"
 latest: "1.0.10--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/alignment"
 aliases:

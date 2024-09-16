@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pycomo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycomo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycomo/container.yaml"
-updated_at: "2024-09-15 03:37:43.488643"
+updated_at: "2024-09-16 03:38:21.488346"
 latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pycomo"
 aliases:
