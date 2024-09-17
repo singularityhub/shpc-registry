@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/scnic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scnic
 latest:
-  0.6.3--pyhdfd78af_0: sha256:c028a9686991806c8f2bae83898bf072365686edcacffc9003b6616f3168cd0c
+  0.6.6--pyhdfd78af_0: sha256:21913756d94b4c15d328075d56ffa2c1d9138d078d3b204f711d89398ccaed47
 tags:
   0.6.2--py_0: sha256:94503fffd20fed02d570402120ad007ce339ceb533ac22eabe3d4e7ca4c6c426
   0.6.3--pyhdfd78af_0: sha256:c028a9686991806c8f2bae83898bf072365686edcacffc9003b6616f3168cd0c
+  0.6.6--pyhdfd78af_0: sha256:21913756d94b4c15d328075d56ffa2c1d9138d078d3b204f711d89398ccaed47
 docker: quay.io/biocontainers/scnic
 aliases:
   SCNIC_analysis.py: /usr/local/bin/SCNIC_analysis.py
