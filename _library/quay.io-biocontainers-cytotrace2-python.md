@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cytotrace2-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cytotrace2-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cytotrace2-python/container.yaml"
-updated_at: "2024-09-16 04:17:26.169073"
+updated_at: "2024-09-17 03:12:10.500303"
 latest: "0.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cytotrace2-python"
 aliases:

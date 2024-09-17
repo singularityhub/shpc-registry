@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gmd/container.yaml"
-updated_at: "2024-09-16 04:11:15.556083"
+updated_at: "2024-09-17 03:06:01.954606"
 latest: "0.3.3--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-gmd"
 aliases:

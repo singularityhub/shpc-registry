@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scpdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scpdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scpdata/container.yaml"
-updated_at: "2024-09-16 03:42:21.414686"
+updated_at: "2024-09-17 02:36:39.551814"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scpdata"
 aliases:

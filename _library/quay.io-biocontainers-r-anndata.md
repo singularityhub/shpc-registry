@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-anndata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-anndata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-anndata/container.yaml"
-updated_at: "2024-09-16 04:07:31.989293"
-latest: "0.7.5.4--r43hdfd78af_2"
+updated_at: "2024-09-17 03:02:16.516197"
+latest: "0.7.5.6--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-anndata"
 
 versions:
  - "0.7.5.4--r41hdfd78af_0"
  - "0.7.5.4--r42hdfd78af_1"
  - "0.7.5.4--r43hdfd78af_2"
+ - "0.7.5.6--r43hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-anndata"
-config: {"url": "https://biocontainers.pro/tools/r-anndata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-anndata", "latest": {"0.7.5.4--r43hdfd78af_2": "sha256:af719aa806bed7b410dddc3ae50c5d54dc83772cd5bf1887d4319430eb705e5f"}, "tags": {"0.7.5.4--r41hdfd78af_0": "sha256:221ffed999bdfadda221aa48191e7dacf16d1ffad3271bbe9c93c2e0d4cb3c96", "0.7.5.4--r42hdfd78af_1": "sha256:bc2ed019f8cc88733c4bc4822c32b4ae8a9d88fd16fcdbb808cf06a0ef74e6aa", "0.7.5.4--r43hdfd78af_2": "sha256:af719aa806bed7b410dddc3ae50c5d54dc83772cd5bf1887d4319430eb705e5f"}, "docker": "quay.io/biocontainers/r-anndata"}
+config: {"url": "https://biocontainers.pro/tools/r-anndata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-anndata", "latest": {"0.7.5.6--r43hdfd78af_0": "sha256:9ef685b892761923245a8ebb90bd2c3606ef23d61a020bc0b694454f7cdc2d07"}, "tags": {"0.7.5.4--r41hdfd78af_0": "sha256:221ffed999bdfadda221aa48191e7dacf16d1ffad3271bbe9c93c2e0d4cb3c96", "0.7.5.4--r42hdfd78af_1": "sha256:bc2ed019f8cc88733c4bc4822c32b4ae8a9d88fd16fcdbb808cf06a0ef74e6aa", "0.7.5.4--r43hdfd78af_2": "sha256:af719aa806bed7b410dddc3ae50c5d54dc83772cd5bf1887d4319430eb705e5f", "0.7.5.6--r43hdfd78af_0": "sha256:9ef685b892761923245a8ebb90bd2c3606ef23d61a020bc0b694454f7cdc2d07"}, "docker": "quay.io/biocontainers/r-anndata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-anndata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-anndata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-anndata:0.7.5.4--r43hdfd78af_2
+$ shpc install quay.io/biocontainers/r-anndata:0.7.5.6--r43hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-anndata/0.7.5.4--r43hdfd78af_2
-$ module help quay.io/biocontainers/r-anndata/0.7.5.4--r43hdfd78af_2
+$ module load quay.io/biocontainers/r-anndata/0.7.5.6--r43hdfd78af_0
+$ module help quay.io/biocontainers/r-anndata/0.7.5.6--r43hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

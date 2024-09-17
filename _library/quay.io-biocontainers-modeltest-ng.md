@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/modeltest-ng"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/modeltest-ng/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/modeltest-ng/container.yaml"
-updated_at: "2024-09-16 03:40:46.102740"
+updated_at: "2024-09-17 02:35:03.192872"
 latest: "0.1.7--h103dbdd_2"
 container_url: "https://biocontainers.pro/tools/modeltest-ng"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hgfocuscdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hgfocuscdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hgfocuscdf/container.yaml"
-updated_at: "2024-09-16 03:54:17.196755"
+updated_at: "2024-09-17 02:48:51.282076"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-hgfocuscdf"
 

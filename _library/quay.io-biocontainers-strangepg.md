@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/strangepg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strangepg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strangepg/container.yaml"
-updated_at: "2024-09-16 03:53:44.663009"
-latest: "0.8.0--h9a53f25_0"
+updated_at: "2024-09-17 02:48:18.023369"
+latest: "0.8.4--h9a53f25_0"
 container_url: "https://biocontainers.pro/tools/strangepg"
 aliases:
  - "strawk"
  - "strpg"
 versions:
  - "0.8.0--h9a53f25_0"
+ - "0.8.4--h9a53f25_0"
 description: "singularity registry hpc automated addition for strangepg"
-config: {"url": "https://biocontainers.pro/tools/strangepg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strangepg", "latest": {"0.8.0--h9a53f25_0": "sha256:8de054f5b9e643465ca172039c84da98bb991d5d8e09fa757dd97eaa5b46b20b"}, "tags": {"0.8.0--h9a53f25_0": "sha256:8de054f5b9e643465ca172039c84da98bb991d5d8e09fa757dd97eaa5b46b20b"}, "docker": "quay.io/biocontainers/strangepg", "aliases": {"strawk": "/usr/local/bin/strawk", "strpg": "/usr/local/bin/strpg"}}
+config: {"url": "https://biocontainers.pro/tools/strangepg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strangepg", "latest": {"0.8.4--h9a53f25_0": "sha256:571c482c5c2c3c846345eba9f48d6c3ebc31d8113f554257c28b52783f808c38"}, "tags": {"0.8.0--h9a53f25_0": "sha256:8de054f5b9e643465ca172039c84da98bb991d5d8e09fa757dd97eaa5b46b20b", "0.8.4--h9a53f25_0": "sha256:571c482c5c2c3c846345eba9f48d6c3ebc31d8113f554257c28b52783f808c38"}, "docker": "quay.io/biocontainers/strangepg", "aliases": {"strawk": "/usr/local/bin/strawk", "strpg": "/usr/local/bin/strpg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strangepg.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/strangepg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strangepg:0.8.0--h9a53f25_0
+$ shpc install quay.io/biocontainers/strangepg:0.8.4--h9a53f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strangepg/0.8.0--h9a53f25_0
-$ module help quay.io/biocontainers/strangepg/0.8.0--h9a53f25_0
+$ module load quay.io/biocontainers/strangepg/0.8.4--h9a53f25_0
+$ module help quay.io/biocontainers/strangepg/0.8.4--h9a53f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/commec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/commec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/commec/container.yaml"
-updated_at: "2024-09-16 03:59:45.573028"
+updated_at: "2024-09-17 02:54:25.096546"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/commec"
 aliases:

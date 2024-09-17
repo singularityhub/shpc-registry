@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ebfilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ebfilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ebfilter/container.yaml"
-updated_at: "2024-09-16 03:51:29.449886"
+updated_at: "2024-09-17 02:45:59.749363"
 latest: "0.2.2--pyh5ca1d4c_0"
 container_url: "https://biocontainers.pro/tools/ebfilter"
 aliases:
