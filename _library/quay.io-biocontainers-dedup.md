@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dedup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dedup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dedup/container.yaml"
-updated_at: "2024-09-17 03:06:12.123147"
-latest: "0.12.8--hdfd78af_1"
+updated_at: "2024-09-18 03:25:50.778854"
+latest: "0.12.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dedup"
 aliases:
  - "dedup"
@@ -21,8 +21,9 @@ aliases:
  - "jjs"
 versions:
  - "0.12.8--hdfd78af_1"
+ - "0.12.9--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for dedup"
-config: {"url": "https://biocontainers.pro/tools/dedup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dedup", "latest": {"0.12.8--hdfd78af_1": "sha256:f681e5168256c179431738ac720fc5b2cdec66555de8a84b918b041e19c79944"}, "tags": {"0.12.8--hdfd78af_1": "sha256:f681e5168256c179431738ac720fc5b2cdec66555de8a84b918b041e19c79944"}, "docker": "quay.io/biocontainers/dedup", "aliases": {"dedup": "/usr/local/bin/dedup", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/dedup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dedup", "latest": {"0.12.9--hdfd78af_0": "sha256:d3dc07cd0b65d2e6b175cc5d3a86eaca126a38f2217931db48136d1f70b590c4"}, "tags": {"0.12.8--hdfd78af_1": "sha256:f681e5168256c179431738ac720fc5b2cdec66555de8a84b918b041e19c79944", "0.12.9--hdfd78af_0": "sha256:d3dc07cd0b65d2e6b175cc5d3a86eaca126a38f2217931db48136d1f70b590c4"}, "docker": "quay.io/biocontainers/dedup", "aliases": {"dedup": "/usr/local/bin/dedup", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dedup.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/dedup
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dedup:0.12.8--hdfd78af_1
+$ shpc install quay.io/biocontainers/dedup:0.12.9--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dedup/0.12.8--hdfd78af_1
-$ module help quay.io/biocontainers/dedup/0.12.8--hdfd78af_1
+$ module load quay.io/biocontainers/dedup/0.12.9--hdfd78af_0
+$ module help quay.io/biocontainers/dedup/0.12.9--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

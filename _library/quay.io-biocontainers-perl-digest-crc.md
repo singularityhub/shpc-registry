@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-digest-crc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-digest-crc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-digest-crc/container.yaml"
-updated_at: "2024-09-17 03:04:42.409357"
+updated_at: "2024-09-18 03:24:19.198796"
 latest: "0.23--pl5321h031d066_4"
 container_url: "https://biocontainers.pro/tools/perl-digest-crc"
 

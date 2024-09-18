@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scnic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scnic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scnic/container.yaml"
-updated_at: "2024-09-17 02:30:27.792021"
-latest: "0.6.3--pyhdfd78af_0"
+updated_at: "2024-09-18 02:50:06.084737"
+latest: "0.6.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scnic"
 aliases:
  - "SCNIC_analysis.py"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "0.6.2--py_0"
  - "0.6.3--pyhdfd78af_0"
+ - "0.6.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for scnic"
-config: {"url": "https://biocontainers.pro/tools/scnic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scnic", "latest": {"0.6.3--pyhdfd78af_0": "sha256:c028a9686991806c8f2bae83898bf072365686edcacffc9003b6616f3168cd0c"}, "tags": {"0.6.2--py_0": "sha256:94503fffd20fed02d570402120ad007ce339ceb533ac22eabe3d4e7ca4c6c426", "0.6.3--pyhdfd78af_0": "sha256:c028a9686991806c8f2bae83898bf072365686edcacffc9003b6616f3168cd0c"}, "docker": "quay.io/biocontainers/scnic", "aliases": {"SCNIC_analysis.py": "/usr/local/bin/SCNIC_analysis.py", "fastspar": "/usr/local/bin/fastspar", "fastspar_bootstrap": "/usr/local/bin/fastspar_bootstrap", "fastspar_pvalues": "/usr/local/bin/fastspar_pvalues", "fastspar_reduce": "/usr/local/bin/fastspar_reduce", "module_enrichment.py": "/usr/local/bin/module_enrichment.py", "biom": "/usr/local/bin/biom", "doesitcache": "/usr/local/bin/doesitcache", "iptest3": "/usr/local/bin/iptest3", "iptest": "/usr/local/bin/iptest", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "py.test": "/usr/local/bin/py.test"}}
+config: {"url": "https://biocontainers.pro/tools/scnic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scnic", "latest": {"0.6.6--pyhdfd78af_0": "sha256:21913756d94b4c15d328075d56ffa2c1d9138d078d3b204f711d89398ccaed47"}, "tags": {"0.6.2--py_0": "sha256:94503fffd20fed02d570402120ad007ce339ceb533ac22eabe3d4e7ca4c6c426", "0.6.3--pyhdfd78af_0": "sha256:c028a9686991806c8f2bae83898bf072365686edcacffc9003b6616f3168cd0c", "0.6.6--pyhdfd78af_0": "sha256:21913756d94b4c15d328075d56ffa2c1d9138d078d3b204f711d89398ccaed47"}, "docker": "quay.io/biocontainers/scnic", "aliases": {"SCNIC_analysis.py": "/usr/local/bin/SCNIC_analysis.py", "fastspar": "/usr/local/bin/fastspar", "fastspar_bootstrap": "/usr/local/bin/fastspar_bootstrap", "fastspar_pvalues": "/usr/local/bin/fastspar_pvalues", "fastspar_reduce": "/usr/local/bin/fastspar_reduce", "module_enrichment.py": "/usr/local/bin/module_enrichment.py", "biom": "/usr/local/bin/biom", "doesitcache": "/usr/local/bin/doesitcache", "iptest3": "/usr/local/bin/iptest3", "iptest": "/usr/local/bin/iptest", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "py.test": "/usr/local/bin/py.test"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scnic.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/scnic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scnic:0.6.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scnic:0.6.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scnic/0.6.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/scnic/0.6.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/scnic/0.6.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/scnic/0.6.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

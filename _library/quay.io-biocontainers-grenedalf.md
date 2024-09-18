@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/grenedalf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grenedalf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grenedalf/container.yaml"
-updated_at: "2024-09-17 02:30:56.725591"
-latest: "0.6.0--h27d5293_0"
+updated_at: "2024-09-18 02:50:35.127136"
+latest: "0.6.2--h27d5293_0"
 container_url: "https://biocontainers.pro/tools/grenedalf"
 aliases:
  - "grenedalf"
 versions:
  - "0.6.0--h27d5293_0"
+ - "0.6.2--h27d5293_0"
 description: "singularity registry hpc automated addition for grenedalf"
-config: {"url": "https://biocontainers.pro/tools/grenedalf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grenedalf", "latest": {"0.6.0--h27d5293_0": "sha256:4dba68a89f6c839edac33bb5844e68ae183f41cb15188475d5ad30a17b0a9a4c"}, "tags": {"0.6.0--h27d5293_0": "sha256:4dba68a89f6c839edac33bb5844e68ae183f41cb15188475d5ad30a17b0a9a4c"}, "docker": "quay.io/biocontainers/grenedalf", "aliases": {"grenedalf": "/usr/local/bin/grenedalf"}}
+config: {"url": "https://biocontainers.pro/tools/grenedalf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grenedalf", "latest": {"0.6.2--h27d5293_0": "sha256:b22ed3e8813460e315f7edb101ff7013053dd370bc5a9c7585748543ab5dc945"}, "tags": {"0.6.0--h27d5293_0": "sha256:4dba68a89f6c839edac33bb5844e68ae183f41cb15188475d5ad30a17b0a9a4c", "0.6.2--h27d5293_0": "sha256:b22ed3e8813460e315f7edb101ff7013053dd370bc5a9c7585748543ab5dc945"}, "docker": "quay.io/biocontainers/grenedalf", "aliases": {"grenedalf": "/usr/local/bin/grenedalf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grenedalf.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/grenedalf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/grenedalf:0.6.0--h27d5293_0
+$ shpc install quay.io/biocontainers/grenedalf:0.6.2--h27d5293_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/grenedalf/0.6.0--h27d5293_0
-$ module help quay.io/biocontainers/grenedalf/0.6.0--h27d5293_0
+$ module load quay.io/biocontainers/grenedalf/0.6.2--h27d5293_0
+$ module help quay.io/biocontainers/grenedalf/0.6.2--h27d5293_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
