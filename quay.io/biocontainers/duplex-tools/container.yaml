@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/duplex-tools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for duplex-tools
 latest:
-  0.2.17--pyh7cba7a3_0: sha256:55c83d23dfc5e8f6c586ec9aeb5bb8ff233c044045ef8c6025f3493353d176c3
+  0.3.3--pyhdfd78af_0: sha256:41c905748b4e9a80b5abda6b919a2b061799115d3d43652f6a7a8500f7895c77
 tags:
   0.2.9--pyh5e36f6f_0: sha256:f409055a5e72cb25cbcceac225b925c469bc7e478ac0cd3f812a9be981f466c9
   0.2.17--pyh7cba7a3_0: sha256:55c83d23dfc5e8f6c586ec9aeb5bb8ff233c044045ef8c6025f3493353d176c3
+  0.3.3--pyhdfd78af_0: sha256:41c905748b4e9a80b5abda6b919a2b061799115d3d43652f6a7a8500f7895c77
 docker: quay.io/biocontainers/duplex-tools
 aliases:
   duplex_tools: /usr/local/bin/duplex_tools

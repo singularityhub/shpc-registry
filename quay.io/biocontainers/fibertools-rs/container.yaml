@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/fibertools-rs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fibertools-rs
 latest:
-  0.5.3--h588a25a_0: sha256:17ab39301674bdc69b80f2adc12f8c552939af0ef5c5bf7a4dd80811a5c1ac13
+  0.5.4--h588a25a_0: sha256:aaa0b22ed6a8d1f2814ca9cf5ae12b139844730949e4d92c0828485f4711fa88
 tags:
   0.1.2--h71fd010_0: sha256:a66b88ea70106270a0ab246e45aada09593ffc2c02832698cf044c0f83c2bc3b
   0.1.3--h71fd010_0: sha256:4af6107cde71afbdcbeffdb08db17e8dde249205cab0ceeec473bf93b70a5c6f
@@ -18,6 +18,7 @@ tags:
   0.4.2--h95980b9_0: sha256:23ae2ce2c153e910ad895f68db55e600dae33d5205644089baecbdb29b8c1a94
   0.4.2--h588a25a_1: sha256:c6a41dd10446dfe0e6a219f7e9895cf60614976f058e55f17d3bc3792d7663ba
   0.5.3--h588a25a_0: sha256:17ab39301674bdc69b80f2adc12f8c552939af0ef5c5bf7a4dd80811a5c1ac13
+  0.5.4--h588a25a_0: sha256:aaa0b22ed6a8d1f2814ca9cf5ae12b139844730949e4d92c0828485f4711fa88
 docker: quay.io/biocontainers/fibertools-rs
 aliases:
   ft: /usr/local/bin/ft
