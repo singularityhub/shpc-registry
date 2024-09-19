@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/thapbi-pict
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for thapbi-pict
 latest:
-  1.0.13--pyhdfd78af_0: sha256:f77491d6b9a0da7186ba41881ed8a0588db98bd9f7aa95ff769a2052c9140e17
+  1.0.16--pyhdfd78af_0: sha256:583b267c88b364086d9cc8e254d358aaebcb6ef307b156c39714839f24a2cd20
 tags:
   0.6.9--py_0: sha256:3e121a42248380dea6324a085d0058c246a3b81622463da45e63f255716a6ff3
   0.6.14--py_0: sha256:6131cfe22d21355f9a7d1ae5540e6bafdd78d4cfbea1f5537c7c22f367fe9336
@@ -12,6 +12,7 @@ tags:
   0.12.9--pyhdfd78af_0: sha256:b8a082220d1587c33fc348a890b7c5ba33f5aa911f4306b20eadffd5f9b7b173
   0.11.6--pyhdfd78af_0: sha256:e77816eba409504cda91efb3a4d3d538ef19111ec0ad3fbb1c2ef6007d584f6e
   1.0.13--pyhdfd78af_0: sha256:f77491d6b9a0da7186ba41881ed8a0588db98bd9f7aa95ff769a2052c9140e17
+  1.0.16--pyhdfd78af_0: sha256:583b267c88b364086d9cc8e254d358aaebcb6ef307b156c39714839f24a2cd20
 docker: quay.io/biocontainers/thapbi-pict
 aliases:
   amplicon_contingency_table.py: /usr/local/bin/amplicon_contingency_table.py
