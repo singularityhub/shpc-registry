@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/barcode_splitter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/barcode_splitter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/barcode_splitter/container.yaml"
-updated_at: "2024-09-18 02:48:38.783047"
+updated_at: "2024-09-19 03:15:50.890033"
 latest: "0.18.6--py_0"
 container_url: "https://biocontainers.pro/tools/barcode_splitter"
 aliases:

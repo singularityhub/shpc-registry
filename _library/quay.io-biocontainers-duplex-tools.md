@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/duplex-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/duplex-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/duplex-tools/container.yaml"
-updated_at: "2024-09-18 03:22:05.570649"
-latest: "0.2.17--pyh7cba7a3_0"
+updated_at: "2024-09-19 03:05:51.360712"
+latest: "0.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/duplex-tools"
 aliases:
  - "duplex_tools"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "0.2.9--pyh5e36f6f_0"
  - "0.2.17--pyh7cba7a3_0"
+ - "0.3.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for duplex-tools"
-config: {"url": "https://biocontainers.pro/tools/duplex-tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for duplex-tools", "latest": {"0.2.17--pyh7cba7a3_0": "sha256:55c83d23dfc5e8f6c586ec9aeb5bb8ff233c044045ef8c6025f3493353d176c3"}, "tags": {"0.2.9--pyh5e36f6f_0": "sha256:f409055a5e72cb25cbcceac225b925c469bc7e478ac0cd3f812a9be981f466c9", "0.2.17--pyh7cba7a3_0": "sha256:55c83d23dfc5e8f6c586ec9aeb5bb8ff233c044045ef8c6025f3493353d176c3"}, "docker": "quay.io/biocontainers/duplex-tools", "aliases": {"duplex_tools": "/usr/local/bin/duplex_tools", "pyfastx": "/usr/local/bin/pyfastx", "natsort": "/usr/local/bin/natsort", "tqdm": "/usr/local/bin/tqdm", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/duplex-tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for duplex-tools", "latest": {"0.3.3--pyhdfd78af_0": "sha256:41c905748b4e9a80b5abda6b919a2b061799115d3d43652f6a7a8500f7895c77"}, "tags": {"0.2.9--pyh5e36f6f_0": "sha256:f409055a5e72cb25cbcceac225b925c469bc7e478ac0cd3f812a9be981f466c9", "0.2.17--pyh7cba7a3_0": "sha256:55c83d23dfc5e8f6c586ec9aeb5bb8ff233c044045ef8c6025f3493353d176c3", "0.3.3--pyhdfd78af_0": "sha256:41c905748b4e9a80b5abda6b919a2b061799115d3d43652f6a7a8500f7895c77"}, "docker": "quay.io/biocontainers/duplex-tools", "aliases": {"duplex_tools": "/usr/local/bin/duplex_tools", "pyfastx": "/usr/local/bin/pyfastx", "natsort": "/usr/local/bin/natsort", "tqdm": "/usr/local/bin/tqdm", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/duplex-tools.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/duplex-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/duplex-tools:0.2.17--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/duplex-tools:0.3.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/duplex-tools/0.2.17--pyh7cba7a3_0
-$ module help quay.io/biocontainers/duplex-tools/0.2.17--pyh7cba7a3_0
+$ module load quay.io/biocontainers/duplex-tools/0.3.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/duplex-tools/0.3.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
