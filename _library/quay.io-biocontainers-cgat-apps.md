@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgat-apps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgat-apps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-apps/container.yaml"
-updated_at: "2024-09-20 03:16:10.855757"
+updated_at: "2024-09-20 03:38:08.957030"
 latest: "0.7.2--py310h5aa3a86_1"
 container_url: "https://biocontainers.pro/tools/cgat-apps"
 aliases:

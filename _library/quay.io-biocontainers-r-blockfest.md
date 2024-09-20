@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-blockfest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-blockfest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-blockfest/container.yaml"
-updated_at: "2024-09-20 03:27:48.808971"
+updated_at: "2024-09-20 03:49:56.761431"
 latest: "1.6--r351h96ca727_2"
 container_url: "https://biocontainers.pro/tools/r-blockfest"
 aliases:
