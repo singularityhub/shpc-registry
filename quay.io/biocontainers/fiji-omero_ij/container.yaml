@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/fiji-omero_ij
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fiji-omero_ij
 latest:
-  5.8.4--hdfd78af_0: sha256:5892dfe7bc093793fb9cd3fe75626825641c06e7f3bb25be6a1223b4900fd6ae
+  5.8.6--hdfd78af_0: sha256:207c2afc1aeb422aad096245a907d6aa9580c351184a310e2d5543b87565545e
 tags:
   5.8.0--hdfd78af_0: sha256:4c12595f99a7dd2c5541f7ed2e330b4dc9222be400d69b6495f769d4779146d0
   5.8.3--hdfd78af_0: sha256:7fcf786615b3c4cba0d5ff0af787e7085ab48bc8f1e27105dcd014ea471a5728
   5.8.4--hdfd78af_0: sha256:5892dfe7bc093793fb9cd3fe75626825641c06e7f3bb25be6a1223b4900fd6ae
+  5.8.6--hdfd78af_0: sha256:207c2afc1aeb422aad096245a907d6aa9580c351184a310e2d5543b87565545e
 docker: quay.io/biocontainers/fiji-omero_ij
 aliases:
   ImageJ: /usr/local/bin/ImageJ

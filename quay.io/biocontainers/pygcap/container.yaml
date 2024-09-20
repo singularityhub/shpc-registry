@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/pygcap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pygcap
 latest:
-  1.2.5--pyhdfd78af_0: sha256:9f4cdb594ecc7c2391e6c4751682f9ca5f1e0a4093a82531a19c68af0b77d1a6
+  1.2.6--pyhdfd78af_0: sha256:0c5cd3728af9830aab033c6a543c271e7b4f0bef7f5d4076d4dfff6b83c6aed4
 tags:
   0.0.5--pyhdfd78af_0: sha256:316873d0a638714d891f912348ecb4deff9bcde217f4fc5e7ef13ad5f0bb88cf
   1.2.5--pyhdfd78af_0: sha256:9f4cdb594ecc7c2391e6c4751682f9ca5f1e0a4093a82531a19c68af0b77d1a6
   1.1.6--pyhdfd78af_0: sha256:4bc59d584296d5d729fa11274da191c71bcfc8dae0c42891cde05a1df694fb3c
   1.0.1--pyhdfd78af_0: sha256:ebee9e2682e5a55c1321366e2cc74aa9d6319e22e798efac9b38f2147d95fd21
   0.0.7--pyhdfd78af_0: sha256:6efc67fd4253e8d1f7d0b15ab2ed13d443be3680f397467193021a743365867c
+  1.2.6--pyhdfd78af_0: sha256:0c5cd3728af9830aab033c6a543c271e7b4f0bef7f5d4076d4dfff6b83c6aed4
 docker: quay.io/biocontainers/pygcap
 aliases:
   pygcap: /usr/local/bin/pygcap
