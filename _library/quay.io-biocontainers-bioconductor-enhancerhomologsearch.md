@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-enhancerhomologsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-enhancerhomologsearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-enhancerhomologsearch/container.yaml"
-updated_at: "2024-09-19 03:26:00.366121"
+updated_at: "2024-09-20 03:25:21.454828"
 latest: "1.8.2--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-enhancerhomologsearch"
 

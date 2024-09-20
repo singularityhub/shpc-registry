@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-randrotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-randrotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-randrotation/container.yaml"
-updated_at: "2024-09-19 03:32:42.435216"
+updated_at: "2024-09-20 03:31:54.159745"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-randrotation"
 

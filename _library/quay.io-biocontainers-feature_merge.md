@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/feature_merge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/feature_merge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/feature_merge/container.yaml"
-updated_at: "2024-09-19 03:10:25.260812"
+updated_at: "2024-09-20 03:10:10.144078"
 latest: "1.3.0--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/feature_merge"
 aliases:
