@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/gbintk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gbintk
+latest:
+  0.1.0--pyhdfd78af_0: sha256:a6cd7c03a817516740edd88b301bc09eed48803a06a6aeb4a36eb97e935a7138
+tags:
+  0.1.0--pyhdfd78af_0: sha256:a6cd7c03a817516740edd88b301bc09eed48803a06a6aeb4a36eb97e935a7138
+docker: quay.io/biocontainers/gbintk
+aliases:
+  combine_cov: /usr/local/bin/combine_cov
+  gbintk: /usr/local/bin/gbintk
+  graphbin: /usr/local/bin/graphbin
+  graphbin2: /usr/local/bin/graphbin2
+  metacoag: /usr/local/bin/metacoag
+  prepResult: /usr/local/bin/prepResult
+  FragGeneScan: /usr/local/bin/FragGeneScan
+  run_FragGeneScan.pl: /usr/local/bin/run_FragGeneScan.pl
+  pbr: /usr/local/bin/pbr
+  igraph: /usr/local/bin/igraph
+  numpy-config: /usr/local/bin/numpy-config
+  x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  pkg-config: /usr/local/bin/pkg-config
+  pkg-config.bin: /usr/local/bin/pkg-config.bin
+  tabulate: /usr/local/bin/tabulate
+  numba: /usr/local/bin/numba
+  hmmpgmd_shard: /usr/local/bin/hmmpgmd_shard
+  easel: /usr/local/bin/easel
+  esl-mixdchlet: /usr/local/bin/esl-mixdchlet
+  esl-alimanip: /usr/local/bin/esl-alimanip
+  esl-alimap: /usr/local/bin/esl-alimap
+  esl-alimask: /usr/local/bin/esl-alimask
+  esl-alimerge: /usr/local/bin/esl-alimerge
+  esl-alipid: /usr/local/bin/esl-alipid
+  esl-alirev: /usr/local/bin/esl-alirev
+  esl-alistat: /usr/local/bin/esl-alistat
+  esl-compalign: /usr/local/bin/esl-compalign
+  esl-compstruct: /usr/local/bin/esl-compstruct
+  esl-construct: /usr/local/bin/esl-construct
+  esl-histplot: /usr/local/bin/esl-histplot
+  esl-mask: /usr/local/bin/esl-mask

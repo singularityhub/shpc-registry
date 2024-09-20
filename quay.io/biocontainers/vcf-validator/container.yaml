@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/vcf-validator
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vcf-validator
+latest:
+  0.9.7--h9ee0642_0: sha256:b42848a514ba7781cd894af60deb443d96487fc0cd826dd4674457a9c0ddc79e
+tags:
+  0.9.7--h9ee0642_0: sha256:b42848a514ba7781cd894af60deb443d96487fc0cd826dd4674457a9c0ddc79e
+docker: quay.io/biocontainers/vcf-validator
+aliases:
+  vcf_assembly_checker: /usr/local/bin/vcf_assembly_checker
+  vcf_validator: /usr/local/bin/vcf_validator
