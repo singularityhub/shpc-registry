@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dmtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dmtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dmtools/container.yaml"
-updated_at: "2024-09-20 03:27:40.113261"
+updated_at: "2024-09-21 03:01:49.343217"
 latest: "0.2.6--hda3def1_0"
 container_url: "https://biocontainers.pro/tools/dmtools"
 aliases:

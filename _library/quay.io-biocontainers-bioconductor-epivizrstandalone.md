@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epivizrstandalone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epivizrstandalone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epivizrstandalone/container.yaml"
-updated_at: "2024-09-20 03:34:33.727973"
+updated_at: "2024-09-21 03:08:34.503270"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epivizrstandalone"
 aliases:

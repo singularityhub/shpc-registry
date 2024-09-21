@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fiji-omero_ij"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fiji-omero_ij/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fiji-omero_ij/container.yaml"
-updated_at: "2024-09-20 03:14:26.339586"
-latest: "5.8.4--hdfd78af_0"
+updated_at: "2024-09-21 02:48:47.100309"
+latest: "5.8.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fiji-omero_ij"
 aliases:
  - "ImageJ"
@@ -40,8 +40,9 @@ versions:
  - "5.8.0--hdfd78af_0"
  - "5.8.3--hdfd78af_0"
  - "5.8.4--hdfd78af_0"
+ - "5.8.6--hdfd78af_0"
 description: "singularity registry hpc automated addition for fiji-omero_ij"
-config: {"url": "https://biocontainers.pro/tools/fiji-omero_ij", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fiji-omero_ij", "latest": {"5.8.4--hdfd78af_0": "sha256:5892dfe7bc093793fb9cd3fe75626825641c06e7f3bb25be6a1223b4900fd6ae"}, "tags": {"5.8.0--hdfd78af_0": "sha256:4c12595f99a7dd2c5541f7ed2e330b4dc9222be400d69b6495f769d4779146d0", "5.8.3--hdfd78af_0": "sha256:7fcf786615b3c4cba0d5ff0af787e7085ab48bc8f1e27105dcd014ea471a5728", "5.8.4--hdfd78af_0": "sha256:5892dfe7bc093793fb9cd3fe75626825641c06e7f3bb25be6a1223b4900fd6ae"}, "docker": "quay.io/biocontainers/fiji-omero_ij", "aliases": {"ImageJ": "/usr/local/bin/ImageJ", "ImageJ_bin": "/usr/local/bin/ImageJ_bin", "bunwarpj": "/usr/local/bin/bunwarpj", "tjbench": "/usr/local/bin/tjbench", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap"}}
+config: {"url": "https://biocontainers.pro/tools/fiji-omero_ij", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fiji-omero_ij", "latest": {"5.8.6--hdfd78af_0": "sha256:207c2afc1aeb422aad096245a907d6aa9580c351184a310e2d5543b87565545e"}, "tags": {"5.8.0--hdfd78af_0": "sha256:4c12595f99a7dd2c5541f7ed2e330b4dc9222be400d69b6495f769d4779146d0", "5.8.3--hdfd78af_0": "sha256:7fcf786615b3c4cba0d5ff0af787e7085ab48bc8f1e27105dcd014ea471a5728", "5.8.4--hdfd78af_0": "sha256:5892dfe7bc093793fb9cd3fe75626825641c06e7f3bb25be6a1223b4900fd6ae", "5.8.6--hdfd78af_0": "sha256:207c2afc1aeb422aad096245a907d6aa9580c351184a310e2d5543b87565545e"}, "docker": "quay.io/biocontainers/fiji-omero_ij", "aliases": {"ImageJ": "/usr/local/bin/ImageJ", "ImageJ_bin": "/usr/local/bin/ImageJ_bin", "bunwarpj": "/usr/local/bin/bunwarpj", "tjbench": "/usr/local/bin/tjbench", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fiji-omero_ij.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/fiji-omero_ij
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fiji-omero_ij:5.8.4--hdfd78af_0
+$ shpc install quay.io/biocontainers/fiji-omero_ij:5.8.6--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fiji-omero_ij/5.8.4--hdfd78af_0
-$ module help quay.io/biocontainers/fiji-omero_ij/5.8.4--hdfd78af_0
+$ module load quay.io/biocontainers/fiji-omero_ij/5.8.6--hdfd78af_0
+$ module help quay.io/biocontainers/fiji-omero_ij/5.8.6--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-stampp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-stampp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-stampp/container.yaml"
-updated_at: "2024-09-20 03:47:14.162015"
+updated_at: "2024-09-21 03:20:54.788465"
 latest: "1.5.1--r40h6115d3f_5"
 container_url: "https://biocontainers.pro/tools/r-stampp"
 aliases:

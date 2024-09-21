@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cryptkeeper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cryptkeeper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cryptkeeper/container.yaml"
-updated_at: "2024-09-20 03:12:28.285087"
+updated_at: "2024-09-21 02:46:50.080501"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cryptkeeper"
 aliases:

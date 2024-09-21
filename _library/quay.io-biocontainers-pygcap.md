@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pygcap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygcap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygcap/container.yaml"
-updated_at: "2024-09-20 03:22:20.400170"
-latest: "1.2.5--pyhdfd78af_0"
+updated_at: "2024-09-21 02:56:34.350221"
+latest: "1.2.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pygcap"
 aliases:
  - "pygcap"
@@ -35,8 +35,9 @@ versions:
  - "1.1.6--pyhdfd78af_0"
  - "1.0.1--pyhdfd78af_0"
  - "0.0.7--pyhdfd78af_0"
+ - "1.2.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pygcap"
-config: {"url": "https://biocontainers.pro/tools/pygcap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pygcap", "latest": {"1.2.5--pyhdfd78af_0": "sha256:9f4cdb594ecc7c2391e6c4751682f9ca5f1e0a4093a82531a19c68af0b77d1a6"}, "tags": {"0.0.5--pyhdfd78af_0": "sha256:316873d0a638714d891f912348ecb4deff9bcde217f4fc5e7ef13ad5f0bb88cf", "1.2.5--pyhdfd78af_0": "sha256:9f4cdb594ecc7c2391e6c4751682f9ca5f1e0a4093a82531a19c68af0b77d1a6", "1.1.6--pyhdfd78af_0": "sha256:4bc59d584296d5d729fa11274da191c71bcfc8dae0c42891cde05a1df694fb3c", "1.0.1--pyhdfd78af_0": "sha256:ebee9e2682e5a55c1321366e2cc74aa9d6319e22e798efac9b38f2147d95fd21", "0.0.7--pyhdfd78af_0": "sha256:6efc67fd4253e8d1f7d0b15ab2ed13d443be3680f397467193021a743365867c"}, "docker": "quay.io/biocontainers/pygcap", "aliases": {"pygcap": "/usr/local/bin/pygcap", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/pygcap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pygcap", "latest": {"1.2.6--pyhdfd78af_0": "sha256:0c5cd3728af9830aab033c6a543c271e7b4f0bef7f5d4076d4dfff6b83c6aed4"}, "tags": {"0.0.5--pyhdfd78af_0": "sha256:316873d0a638714d891f912348ecb4deff9bcde217f4fc5e7ef13ad5f0bb88cf", "1.2.5--pyhdfd78af_0": "sha256:9f4cdb594ecc7c2391e6c4751682f9ca5f1e0a4093a82531a19c68af0b77d1a6", "1.1.6--pyhdfd78af_0": "sha256:4bc59d584296d5d729fa11274da191c71bcfc8dae0c42891cde05a1df694fb3c", "1.0.1--pyhdfd78af_0": "sha256:ebee9e2682e5a55c1321366e2cc74aa9d6319e22e798efac9b38f2147d95fd21", "0.0.7--pyhdfd78af_0": "sha256:6efc67fd4253e8d1f7d0b15ab2ed13d443be3680f397467193021a743365867c", "1.2.6--pyhdfd78af_0": "sha256:0c5cd3728af9830aab033c6a543c271e7b4f0bef7f5d4076d4dfff6b83c6aed4"}, "docker": "quay.io/biocontainers/pygcap", "aliases": {"pygcap": "/usr/local/bin/pygcap", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pygcap.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/pygcap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pygcap:1.2.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pygcap:1.2.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pygcap/1.2.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/pygcap/1.2.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/pygcap/1.2.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/pygcap/1.2.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sequenoscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequenoscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequenoscope/container.yaml"
-updated_at: "2024-09-20 03:23:48.012474"
+updated_at: "2024-09-21 02:58:00.448594"
 latest: "0.0.5--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/sequenoscope"
 aliases:

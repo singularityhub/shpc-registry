@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/anglerfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anglerfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anglerfish/container.yaml"
-updated_at: "2024-09-20 03:55:54.931972"
-latest: "0.6.1--pyhdfd78af_0"
+updated_at: "2024-09-21 03:29:28.102474"
+latest: "0.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/anglerfish"
 aliases:
  - "anglerfish"
@@ -24,8 +24,9 @@ versions:
  - "0.5.0--pyhca03a8a_0"
  - "0.6.0--pyhdfd78af_0"
  - "0.6.1--pyhdfd78af_0"
+ - "0.7.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for anglerfish"
-config: {"url": "https://biocontainers.pro/tools/anglerfish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anglerfish", "latest": {"0.6.1--pyhdfd78af_0": "sha256:ad23f99160f206a81dd1f1ddb464b48e68662134582e353ddc0cac3dc899cbab"}, "tags": {"0.4.2--pyhb7b1952_1": "sha256:bde25c7ae987a0376fbf6cc60b2afb38444e43c0ed040c51c88f77345d4b95ef", "0.5.0--pyhca03a8a_0": "sha256:9465fed4d0aa2a3ce57672f32119960abe04f87929454448e2e33ce8d957253c", "0.6.0--pyhdfd78af_0": "sha256:80b648ab03609a1a31598eb9f0663bf52bd03f92c38a28c2f8bea8e7ee80a7cc", "0.6.1--pyhdfd78af_0": "sha256:ad23f99160f206a81dd1f1ddb464b48e68662134582e353ddc0cac3dc899cbab"}, "docker": "quay.io/biocontainers/anglerfish", "aliases": {"anglerfish": "/usr/local/bin/anglerfish", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/anglerfish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anglerfish", "latest": {"0.7.0--pyhdfd78af_0": "sha256:4db4b55a1a391d17f82a07a8548c9435c991d87d9f585a4b1f357392a4b43821"}, "tags": {"0.4.2--pyhb7b1952_1": "sha256:bde25c7ae987a0376fbf6cc60b2afb38444e43c0ed040c51c88f77345d4b95ef", "0.5.0--pyhca03a8a_0": "sha256:9465fed4d0aa2a3ce57672f32119960abe04f87929454448e2e33ce8d957253c", "0.6.0--pyhdfd78af_0": "sha256:80b648ab03609a1a31598eb9f0663bf52bd03f92c38a28c2f8bea8e7ee80a7cc", "0.6.1--pyhdfd78af_0": "sha256:ad23f99160f206a81dd1f1ddb464b48e68662134582e353ddc0cac3dc899cbab", "0.7.0--pyhdfd78af_0": "sha256:4db4b55a1a391d17f82a07a8548c9435c991d87d9f585a4b1f357392a4b43821"}, "docker": "quay.io/biocontainers/anglerfish", "aliases": {"anglerfish": "/usr/local/bin/anglerfish", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/anglerfish.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/anglerfish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/anglerfish:0.6.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/anglerfish:0.7.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/anglerfish/0.6.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/anglerfish/0.6.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/anglerfish/0.7.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/anglerfish/0.7.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
