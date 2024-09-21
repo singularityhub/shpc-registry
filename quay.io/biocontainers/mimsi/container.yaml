@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mimsi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mimsi
 latest:
-  0.4.4--pyhdfd78af_0: sha256:df14fd7ceb838661edc7b2d78073b55a500899c75e1d26aac659cdefec63e007
+  0.4.5--pyhdfd78af_0: sha256:02ce9916cb98c3183a823e0755a69c3ee37cee4209a042f67c3ef9f5739f4793
 tags:
   0.4.4--pyhdfd78af_0: sha256:df14fd7ceb838661edc7b2d78073b55a500899c75e1d26aac659cdefec63e007
+  0.4.5--pyhdfd78af_0: sha256:02ce9916cb98c3183a823e0755a69c3ee37cee4209a042f67c3ef9f5739f4793
 docker: quay.io/biocontainers/mimsi
 aliases:
   analyze: /usr/local/bin/analyze

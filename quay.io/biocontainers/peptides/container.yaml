@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/peptides
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for peptides
 latest:
-  0.3.1--pyh5e36f6f_0: sha256:ddfe416a0e9e22b7ec4323cecabdf21fdaa289295fd3d27f49a4cfc820611d80
+  0.3.4--pyh7e72e81_0: sha256:9ce4c268faca26ec27f2547d6c1fd8c86d03fdca448fa9f215be695e3ca14da8
 tags:
   0.3.1--pyh5e36f6f_0: sha256:ddfe416a0e9e22b7ec4323cecabdf21fdaa289295fd3d27f49a4cfc820611d80
+  0.3.4--pyh7e72e81_0: sha256:9ce4c268faca26ec27f2547d6c1fd8c86d03fdca448fa9f215be695e3ca14da8
 docker: quay.io/biocontainers/peptides
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

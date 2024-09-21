@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/derna
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for derna
 latest:
-  1.0.2--hdbdd923_1: sha256:45fb3f1d003076e2a4b67387d787ae2d539c67d0b2e3e5d7f3d94d3d76d1570e
+  1.0.3--hdbdd923_0: sha256:75278bb001953f5d2b95e2e517c659e0d1e19cae5ed43d3462d949e60b992262
 tags:
   1.0.2--hdbdd923_1: sha256:45fb3f1d003076e2a4b67387d787ae2d539c67d0b2e3e5d7f3d94d3d76d1570e
+  1.0.3--hdbdd923_0: sha256:75278bb001953f5d2b95e2e517c659e0d1e19cae5ed43d3462d949e60b992262
 docker: quay.io/biocontainers/derna
 aliases:
   derna: /usr/local/bin/derna
