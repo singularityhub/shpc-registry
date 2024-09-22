@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/peptides"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peptides/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peptides/container.yaml"
-updated_at: "2024-09-21 03:06:09.490911"
-latest: "0.3.1--pyh5e36f6f_0"
+updated_at: "2024-09-22 03:17:30.896830"
+latest: "0.3.4--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/peptides"
 aliases:
  - "2to3-3.10"
@@ -16,8 +16,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.3.1--pyh5e36f6f_0"
+ - "0.3.4--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for peptides"
-config: {"url": "https://biocontainers.pro/tools/peptides", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peptides", "latest": {"0.3.1--pyh5e36f6f_0": "sha256:ddfe416a0e9e22b7ec4323cecabdf21fdaa289295fd3d27f49a4cfc820611d80"}, "tags": {"0.3.1--pyh5e36f6f_0": "sha256:ddfe416a0e9e22b7ec4323cecabdf21fdaa289295fd3d27f49a4cfc820611d80"}, "docker": "quay.io/biocontainers/peptides", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/peptides", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peptides", "latest": {"0.3.4--pyh7e72e81_0": "sha256:9ce4c268faca26ec27f2547d6c1fd8c86d03fdca448fa9f215be695e3ca14da8"}, "tags": {"0.3.1--pyh5e36f6f_0": "sha256:ddfe416a0e9e22b7ec4323cecabdf21fdaa289295fd3d27f49a4cfc820611d80", "0.3.4--pyh7e72e81_0": "sha256:9ce4c268faca26ec27f2547d6c1fd8c86d03fdca448fa9f215be695e3ca14da8"}, "docker": "quay.io/biocontainers/peptides", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peptides.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/peptides
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/peptides:0.3.1--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/peptides:0.3.4--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/peptides/0.3.1--pyh5e36f6f_0
-$ module help quay.io/biocontainers/peptides/0.3.1--pyh5e36f6f_0
+$ module load quay.io/biocontainers/peptides/0.3.4--pyh7e72e81_0
+$ module help quay.io/biocontainers/peptides/0.3.4--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

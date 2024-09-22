@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mimosa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mimosa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mimosa/container.yaml"
-updated_at: "2024-09-21 03:15:02.071817"
+updated_at: "2024-09-22 03:26:46.384152"
 latest: "1.37.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mimosa"
 

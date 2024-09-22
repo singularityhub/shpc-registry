@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-agilp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-agilp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-agilp/container.yaml"
-updated_at: "2024-09-21 02:43:37.020034"
+updated_at: "2024-09-22 02:53:58.203346"
 latest: "3.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-agilp"
 aliases:

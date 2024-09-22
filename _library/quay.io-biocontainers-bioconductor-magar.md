@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-magar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-magar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-magar/container.yaml"
-updated_at: "2024-09-21 02:46:01.618180"
+updated_at: "2024-09-22 02:56:29.409316"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-magar"
 aliases:

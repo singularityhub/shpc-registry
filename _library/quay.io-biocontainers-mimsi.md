@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mimsi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mimsi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mimsi/container.yaml"
-updated_at: "2024-09-21 03:18:58.575227"
-latest: "0.4.4--pyhdfd78af_0"
+updated_at: "2024-09-22 03:30:53.385125"
+latest: "0.4.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mimsi"
 aliases:
  - "analyze"
@@ -25,8 +25,9 @@ aliases:
  - "2to3-3.8"
 versions:
  - "0.4.4--pyhdfd78af_0"
+ - "0.4.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mimsi"
-config: {"url": "https://biocontainers.pro/tools/mimsi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mimsi", "latest": {"0.4.4--pyhdfd78af_0": "sha256:df14fd7ceb838661edc7b2d78073b55a500899c75e1d26aac659cdefec63e007"}, "tags": {"0.4.4--pyhdfd78af_0": "sha256:df14fd7ceb838661edc7b2d78073b55a500899c75e1d26aac659cdefec63e007"}, "docker": "quay.io/biocontainers/mimsi", "aliases": {"analyze": "/usr/local/bin/analyze", "create_data": "/usr/local/bin/create_data", "evaluate_sample": "/usr/local/bin/evaluate_sample", "mi_msi_train_test": "/usr/local/bin/mi_msi_train_test", "visualize_instance": "/usr/local/bin/visualize_instance", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "nosetests": "/usr/local/bin/nosetests", "f2py3.8": "/usr/local/bin/f2py3.8", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.8": "/usr/local/bin/2to3-3.8"}}
+config: {"url": "https://biocontainers.pro/tools/mimsi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mimsi", "latest": {"0.4.5--pyhdfd78af_0": "sha256:02ce9916cb98c3183a823e0755a69c3ee37cee4209a042f67c3ef9f5739f4793"}, "tags": {"0.4.4--pyhdfd78af_0": "sha256:df14fd7ceb838661edc7b2d78073b55a500899c75e1d26aac659cdefec63e007", "0.4.5--pyhdfd78af_0": "sha256:02ce9916cb98c3183a823e0755a69c3ee37cee4209a042f67c3ef9f5739f4793"}, "docker": "quay.io/biocontainers/mimsi", "aliases": {"analyze": "/usr/local/bin/analyze", "create_data": "/usr/local/bin/create_data", "evaluate_sample": "/usr/local/bin/evaluate_sample", "mi_msi_train_test": "/usr/local/bin/mi_msi_train_test", "visualize_instance": "/usr/local/bin/visualize_instance", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "nosetests": "/usr/local/bin/nosetests", "f2py3.8": "/usr/local/bin/f2py3.8", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.8": "/usr/local/bin/2to3-3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mimsi.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/mimsi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mimsi:0.4.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mimsi:0.4.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mimsi/0.4.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/mimsi/0.4.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/mimsi/0.4.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/mimsi/0.4.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
