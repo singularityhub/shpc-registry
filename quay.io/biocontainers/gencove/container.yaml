@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/gencove
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gencove
 latest:
-  2.18.5--pyhdfd78af_0: sha256:7bb0606841b761c9d5cde2ebb84743523f7aa87d71eeb2c5ebf25c52aca921b8
+  2.21.0--pyhdfd78af_0: sha256:3f5042670dd34ab36c5a6cba498fa51eafa65ceb109044bff6ed7133f98e793d
 tags:
   2.4.5--pyhdfd78af_0: sha256:f7d346dff471cc0543fc1f90d4ab6c6af85462c762c955812973caa5e25676a3
   2.4.6--pyhdfd78af_0: sha256:592e024e7be8bb234bc695737f160012b804c7cbc4b5b841dba2c9e2d7b6fe68
@@ -17,6 +17,9 @@ tags:
   2.18.1--pyhdfd78af_0: sha256:df265eb64c4a12481d4501e611df0f3e0ba3572742a39f5eb3b53e1083627b64
   2.17.1--pyhdfd78af_0: sha256:1aac9ad40b98a945d6c907555283538f98bc61d710ea7a3e6f44cdc3caf001f5
   2.18.5--pyhdfd78af_0: sha256:7bb0606841b761c9d5cde2ebb84743523f7aa87d71eeb2c5ebf25c52aca921b8
+  2.21.0--pyhdfd78af_0: sha256:3f5042670dd34ab36c5a6cba498fa51eafa65ceb109044bff6ed7133f98e793d
+  2.20.2--pyhdfd78af_0: sha256:c5487210c33896e48a17eeb505bc16bcd164f87421c5e2db3259b63f8ee837a2
+  2.19.0--pyhdfd78af_0: sha256:72fd1a90bb64c6907a88b15fae259ba5f2f6f2fd925b1eb68de3daabfc3df021
 docker: quay.io/biocontainers/gencove
 aliases:
   gencove: /usr/local/bin/gencove

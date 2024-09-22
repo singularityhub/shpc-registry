@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/cellprofiler-core
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cellprofiler-core
 latest:
-  4.2.7--pyhdfd78af_0: sha256:af970873b81566ed1f040258a91c984605d10cf26768f3cf486595b95d08c9cf
+  4.2.8--pyhdfd78af_0: sha256:75933081f4c029b33047f52ba4e23d2a5085a8193e4eff6dfbdc82c859e25edd
 tags:
   4.2.4--pyhdfd78af_0: sha256:bbf3d7511f9786b0b48e535061f9d2a36db8893ca8c1f5b34ab5584b92ccd3d2
   4.2.5--pyhdfd78af_0: sha256:72739c5be4b83f4eff456ac1af7e44469a2adc507d49ea4bc967ee4d00f29a13
   4.2.6--pyhdfd78af_0: sha256:95f9f844932623233c35f875208d441adaa52f33b9b0175d2d0cfe603f6adda5
   4.2.7--pyhdfd78af_0: sha256:af970873b81566ed1f040258a91c984605d10cf26768f3cf486595b95d08c9cf
+  4.2.8--pyhdfd78af_0: sha256:75933081f4c029b33047f52ba4e23d2a5085a8193e4eff6dfbdc82c859e25edd
 docker: quay.io/biocontainers/cellprofiler-core
 aliases:
   aomdec: /usr/local/bin/aomdec

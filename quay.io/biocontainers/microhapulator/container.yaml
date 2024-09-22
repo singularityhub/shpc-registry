@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/microhapulator
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for microhapulator
 latest:
-  0.8--pyhdfd78af_0: sha256:4438b2011c92edeb4c6848ad082e8b61038b25b859a8239a9ea49670cd61b12e
+  0.8.4--pyhdfd78af_0: sha256:975970262dda49228070e14a708c29a387889831ea0a2d34d16e170f90c221ae
 tags:
   0.7.2--pyhdfd78af_0: sha256:c542f99626c3034d8042a28174a40f661b8318e039ebc46dbe51818f481f9973
   0.8--pyhdfd78af_0: sha256:4438b2011c92edeb4c6848ad082e8b61038b25b859a8239a9ea49670cd61b12e
+  0.8.4--pyhdfd78af_0: sha256:975970262dda49228070e14a708c29a387889831ea0a2d34d16e170f90c221ae
 docker: quay.io/biocontainers/microhapulator
 aliases:
   happer: /usr/local/bin/happer
