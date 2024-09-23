@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spotclean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spotclean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spotclean/container.yaml"
-updated_at: "2024-09-23 03:31:41.888246"
+updated_at: "2024-09-23 15:36:06.254251"
 latest: "1.4.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spotclean"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-busseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-busseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-busseq/container.yaml"
-updated_at: "2024-09-23 03:12:11.502556"
+updated_at: "2024-09-23 15:16:51.421799"
 latest: "1.8.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-busseq"
 

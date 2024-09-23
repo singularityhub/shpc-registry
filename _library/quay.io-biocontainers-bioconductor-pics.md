@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pics/container.yaml"
-updated_at: "2024-09-23 03:19:55.154636"
+updated_at: "2024-09-23 15:24:28.504507"
 latest: "2.46.0--r43hee7dd41_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pics"
 

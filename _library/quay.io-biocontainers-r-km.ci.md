@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-km.ci"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-km.ci/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-km.ci/container.yaml"
-updated_at: "2024-09-23 02:52:34.261239"
+updated_at: "2024-09-23 14:57:30.904063"
 latest: "0.5_2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-km.ci"
 aliases:
