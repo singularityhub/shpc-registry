@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/scarches
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scarches
+latest:
+  0.6.1--pyh7e72e81_0: sha256:1300e4de12bae37185c2849d9ecf711ba2aee8a2d84909d596938589ee7a6633
+tags:
+  0.6.1--pyh7e72e81_0: sha256:1300e4de12bae37185c2849d9ecf711ba2aee8a2d84909d596938589ee7a6633
+docker: quay.io/biocontainers/scarches
+aliases:
+  fabric: /usr/local/bin/fabric
+  gdown: /usr/local/bin/gdown
+  lightning: /usr/local/bin/lightning
+  rav1e: /usr/local/bin/rav1e
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  dav1d: /usr/local/bin/dav1d
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
+  protoc-25.3.0: /usr/local/bin/protoc-25.3.0
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  torchrun: /usr/local/bin/torchrun
+  isympy: /usr/local/bin/isympy
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  igraph: /usr/local/bin/igraph
+  scanpy: /usr/local/bin/scanpy
+  markdown-it: /usr/local/bin/markdown-it
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
