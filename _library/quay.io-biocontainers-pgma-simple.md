@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pgma-simple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgma-simple/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgma-simple/container.yaml"
-updated_at: "2024-09-22 03:25:43.073961"
+updated_at: "2024-09-23 03:22:39.439671"
 latest: "0.1--h4ac6f70_6"
 container_url: "https://biocontainers.pro/tools/pgma-simple"
 aliases:

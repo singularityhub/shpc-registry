@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-org.pf.plasmo.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.pf.plasmo.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.pf.plasmo.db/container.yaml"
-updated_at: "2024-09-22 03:09:28.883605"
+updated_at: "2024-09-23 03:06:29.169825"
 latest: "3.14.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.pf.plasmo.db"
 aliases:

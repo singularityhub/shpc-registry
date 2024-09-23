@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/microhapulator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/microhapulator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/microhapulator/container.yaml"
-updated_at: "2024-09-22 03:24:17.373420"
-latest: "0.8--pyhdfd78af_0"
+updated_at: "2024-09-23 03:21:14.117644"
+latest: "0.8.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/microhapulator"
 aliases:
  - "happer"
@@ -25,8 +25,9 @@ aliases:
 versions:
  - "0.7.2--pyhdfd78af_0"
  - "0.8--pyhdfd78af_0"
+ - "0.8.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for microhapulator"
-config: {"url": "https://biocontainers.pro/tools/microhapulator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for microhapulator", "latest": {"0.8--pyhdfd78af_0": "sha256:4438b2011c92edeb4c6848ad082e8b61038b25b859a8239a9ea49670cd61b12e"}, "tags": {"0.7.2--pyhdfd78af_0": "sha256:c542f99626c3034d8042a28174a40f661b8318e039ebc46dbe51818f481f9973", "0.8--pyhdfd78af_0": "sha256:4438b2011c92edeb4c6848ad082e8b61038b25b859a8239a9ea49670cd61b12e"}, "docker": "quay.io/biocontainers/microhapulator", "aliases": {"happer": "/usr/local/bin/happer", "iss": "/usr/local/bin/iss", "mhpl8r": "/usr/local/bin/mhpl8r", "termgraph": "/usr/local/bin/termgraph", "stone": "/usr/local/bin/stone", "flash": "/usr/local/bin/flash", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "jpackage": "/usr/local/bin/jpackage", "fastqc": "/usr/local/bin/fastqc", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/microhapulator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for microhapulator", "latest": {"0.8.4--pyhdfd78af_0": "sha256:975970262dda49228070e14a708c29a387889831ea0a2d34d16e170f90c221ae"}, "tags": {"0.7.2--pyhdfd78af_0": "sha256:c542f99626c3034d8042a28174a40f661b8318e039ebc46dbe51818f481f9973", "0.8--pyhdfd78af_0": "sha256:4438b2011c92edeb4c6848ad082e8b61038b25b859a8239a9ea49670cd61b12e", "0.8.4--pyhdfd78af_0": "sha256:975970262dda49228070e14a708c29a387889831ea0a2d34d16e170f90c221ae"}, "docker": "quay.io/biocontainers/microhapulator", "aliases": {"happer": "/usr/local/bin/happer", "iss": "/usr/local/bin/iss", "mhpl8r": "/usr/local/bin/mhpl8r", "termgraph": "/usr/local/bin/termgraph", "stone": "/usr/local/bin/stone", "flash": "/usr/local/bin/flash", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "jpackage": "/usr/local/bin/jpackage", "fastqc": "/usr/local/bin/fastqc", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/microhapulator.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/microhapulator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/microhapulator:0.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/microhapulator:0.8.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/microhapulator/0.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/microhapulator/0.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/microhapulator/0.8.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/microhapulator/0.8.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

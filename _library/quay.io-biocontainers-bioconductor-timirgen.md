@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-timirgen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-timirgen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-timirgen/container.yaml"
-updated_at: "2024-09-22 03:10:22.206524"
+updated_at: "2024-09-23 03:07:22.403739"
 latest: "1.11.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-timirgen"
 aliases:
