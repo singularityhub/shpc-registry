@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ruvseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ruvseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ruvseq/container.yaml"
-updated_at: "2024-09-23 15:34:19.753124"
+updated_at: "2024-09-24 03:29:17.091106"
 latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ruvseq"
 

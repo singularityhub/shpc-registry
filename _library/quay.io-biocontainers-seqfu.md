@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqfu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqfu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqfu/container.yaml"
-updated_at: "2024-09-23 15:17:22.157859"
+updated_at: "2024-09-24 03:12:11.463307"
 latest: "1.20.3--h1eb128b_2"
 container_url: "https://biocontainers.pro/tools/seqfu"
 aliases:
