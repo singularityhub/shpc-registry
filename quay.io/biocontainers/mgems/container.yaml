@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/mgems
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mgems
 latest:
-  1.3.3--hf5e1c6e_0: sha256:be0991ee459cdc6c565b8cd29cdb83e43cffa0e7392bc3745ab6ee2422e0634a
+  1.3.3--hf5e1c6e_1: sha256:16a1fe74434cb4a3a225f1d1e96772c7582e8cbebed08eb6c7979249656316af
 tags:
   1.3.1--h468198e_0: sha256:eaa440b4eb637ac9f97beda227291fb6272ae36d56b75a8b1b77211889d6b296
   1.3.2--hf5e1c6e_1: sha256:553f1f2823e792bb50b99f1890168c501c7488b5163991597f31be49047e8202
   1.3.3--hf5e1c6e_0: sha256:be0991ee459cdc6c565b8cd29cdb83e43cffa0e7392bc3745ab6ee2422e0634a
+  1.3.3--hf5e1c6e_1: sha256:16a1fe74434cb4a3a225f1d1e96772c7582e8cbebed08eb6c7979249656316af
 docker: quay.io/biocontainers/mgems
 aliases:
   mGEMS: /usr/local/bin/mGEMS
