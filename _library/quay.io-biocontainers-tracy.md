@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tracy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tracy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tracy/container.yaml"
-updated_at: "2024-09-24 03:27:23.305609"
-latest: "0.7.6--hf9970c3_2"
+updated_at: "2024-09-25 03:29:12.881220"
+latest: "0.7.8--hf9970c3_0"
 container_url: "https://biocontainers.pro/tools/tracy"
 aliases:
  - "tracy"
@@ -20,8 +20,9 @@ versions:
  - "0.7.5--hd8a7f93_2"
  - "0.7.6--h0d5efe1_0"
  - "0.7.6--hf9970c3_2"
+ - "0.7.8--hf9970c3_0"
 description: "shpc-registry automated BioContainers addition for tracy"
-config: {"url": "https://biocontainers.pro/tools/tracy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tracy", "latest": {"0.7.6--hf9970c3_2": "sha256:1df4d720b66b7f13a637df97480eb7eea76420b21327a5a9a907fbb0472f9c99"}, "tags": {"0.7.2--ha41ced6_1": "sha256:4f4dccdf37ed2df042da3430f7dbb498e297b729639677664b1edd35bf3f1397", "0.7.3--ha41ced6_0": "sha256:13a92e0cb86e47111184ff4972c0c36bee44f37107bfc2df6e49529662dd2bd7", "0.7.3--h2af1cb8_1": "sha256:da36fe6c2d69bd98ac56f90be9cefca6ed2f7c035ec865fa4cb19ea247800fc5", "0.7.5--h96c1cfd_0": "sha256:bed27c2858af936f270160da09c797f0102a7c300a11caa97fabe11abd6368d5", "0.7.5--hd8a7f93_2": "sha256:9c87038966bef37d84a3bc74218973d4e7ae7d056cab265731181bd479060a97", "0.7.6--h0d5efe1_0": "sha256:1b60328ced3e2d39852e889cdf6601f3426d0a1dc8210795ab386b7ea3b91ac4", "0.7.6--hf9970c3_2": "sha256:1df4d720b66b7f13a637df97480eb7eea76420b21327a5a9a907fbb0472f9c99"}, "docker": "quay.io/biocontainers/tracy", "aliases": {"tracy": "/usr/local/bin/tracy", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/tracy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tracy", "latest": {"0.7.8--hf9970c3_0": "sha256:8331e714520f9cae6d80f28055299aeae3bf9196a0ccd121bfe1ed5b2fb8345a"}, "tags": {"0.7.2--ha41ced6_1": "sha256:4f4dccdf37ed2df042da3430f7dbb498e297b729639677664b1edd35bf3f1397", "0.7.3--ha41ced6_0": "sha256:13a92e0cb86e47111184ff4972c0c36bee44f37107bfc2df6e49529662dd2bd7", "0.7.3--h2af1cb8_1": "sha256:da36fe6c2d69bd98ac56f90be9cefca6ed2f7c035ec865fa4cb19ea247800fc5", "0.7.5--h96c1cfd_0": "sha256:bed27c2858af936f270160da09c797f0102a7c300a11caa97fabe11abd6368d5", "0.7.5--hd8a7f93_2": "sha256:9c87038966bef37d84a3bc74218973d4e7ae7d056cab265731181bd479060a97", "0.7.6--h0d5efe1_0": "sha256:1b60328ced3e2d39852e889cdf6601f3426d0a1dc8210795ab386b7ea3b91ac4", "0.7.6--hf9970c3_2": "sha256:1df4d720b66b7f13a637df97480eb7eea76420b21327a5a9a907fbb0472f9c99", "0.7.8--hf9970c3_0": "sha256:8331e714520f9cae6d80f28055299aeae3bf9196a0ccd121bfe1ed5b2fb8345a"}, "docker": "quay.io/biocontainers/tracy", "aliases": {"tracy": "/usr/local/bin/tracy", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tracy.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/tracy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tracy:0.7.6--hf9970c3_2
+$ shpc install quay.io/biocontainers/tracy:0.7.8--hf9970c3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tracy/0.7.6--hf9970c3_2
-$ module help quay.io/biocontainers/tracy/0.7.6--hf9970c3_2
+$ module load quay.io/biocontainers/tracy/0.7.8--hf9970c3_0
+$ module help quay.io/biocontainers/tracy/0.7.8--hf9970c3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

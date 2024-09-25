@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pandora"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pandora/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pandora/container.yaml"
-updated_at: "2024-09-24 03:19:19.123601"
+updated_at: "2024-09-25 03:21:12.160679"
 latest: "0.9.2--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/pandora"
 aliases:
