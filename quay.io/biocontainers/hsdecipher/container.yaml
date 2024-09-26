@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/hsdecipher
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hsdecipher
+latest:
+  1.0.0--hdfd78af_0: sha256:dfcf0e713ba862e07e66df0aaa6ab05fd527303c3ef66ba9b69dfa4f5b92f61a
+tags:
+  1.0.0--hdfd78af_0: sha256:dfcf0e713ba862e07e66df0aaa6ab05fd527303c3ef66ba9b69dfa4f5b92f61a
+docker: quay.io/biocontainers/hsdecipher
+aliases:
+  HSD_add_on.py: /usr/local/bin/HSD_add_on.py
+  HSD_batch_run.py: /usr/local/bin/HSD_batch_run.py
+  HSD_categories.py: /usr/local/bin/HSD_categories.py
+  hsd_heatmap: /usr/local/bin/hsd_heatmap
+  ko.tsv: /usr/local/bin/ko.tsv
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  tjbench: /usr/local/bin/tjbench
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
