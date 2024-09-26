@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-nozzle.r1"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nozzle.r1/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nozzle.r1/container.yaml"
-updated_at: "2024-09-25 02:53:56.895377"
+updated_at: "2024-09-26 02:51:50.210981"
 latest: "1.1_1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-nozzle.r1"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mhap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mhap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mhap/container.yaml"
-updated_at: "2024-09-25 03:35:24.402243"
+updated_at: "2024-09-26 03:34:00.589550"
 latest: "2.1.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mhap"
 aliases:

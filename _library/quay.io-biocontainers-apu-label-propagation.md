@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/apu-label-propagation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/apu-label-propagation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/apu-label-propagation/container.yaml"
-updated_at: "2024-09-25 02:56:17.425121"
+updated_at: "2024-09-26 02:54:14.008052"
 latest: "1.2--h031d066_2"
 container_url: "https://biocontainers.pro/tools/apu-label-propagation"
 aliases:

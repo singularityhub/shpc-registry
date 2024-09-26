@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mgatk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgatk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgatk/container.yaml"
-updated_at: "2024-09-25 03:32:55.161179"
+updated_at: "2024-09-26 03:31:28.894511"
 latest: "0.7.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mgatk"
 aliases:

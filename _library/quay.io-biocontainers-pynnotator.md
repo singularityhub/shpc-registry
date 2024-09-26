@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pynnotator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pynnotator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pynnotator/container.yaml"
-updated_at: "2024-09-25 03:30:16.396252"
+updated_at: "2024-09-26 03:28:46.989268"
 latest: "2.0--py_0"
 container_url: "https://biocontainers.pro/tools/pynnotator"
 aliases:

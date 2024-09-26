@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hicdcplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicdcplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicdcplus/container.yaml"
-updated_at: "2024-09-25 02:56:29.622797"
+updated_at: "2024-09-26 02:54:26.526858"
 latest: "1.10.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicdcplus"
 aliases:
