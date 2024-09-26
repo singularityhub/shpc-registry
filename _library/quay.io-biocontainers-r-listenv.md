@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-listenv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-listenv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-listenv/container.yaml"
-updated_at: "2024-09-26 03:24:47.621302"
+updated_at: "2024-09-26 10:50:32.588048"
 latest: "0.6.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-listenv"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scatterhatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scatterhatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scatterhatch/container.yaml"
-updated_at: "2024-09-26 02:50:45.303520"
+updated_at: "2024-09-26 10:17:11.466218"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scatterhatch"
 
