@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/rbpbench
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rbpbench
 latest:
-  0.9--pyhdfd78af_0: sha256:d243daac533bb55ee140e1a5f882ce1ea3ecdd7c775ab2cb3637facc257ef49f
+  1.0--pyhdfd78af_0: sha256:09026f694f3c077f5892a82127354f66402fb825258460d7f42a476fc411f04c
 tags:
   0.1--pyh7cba7a3_0: sha256:750b3d7b57571a541f15140486947118245b189d54ec0de4bbd5319f3736c91f
   0.4--pyhdfd78af_0: sha256:1cb706847518e12962b078a01e9db257324bda76ffedeb3d1632e185ddf7dcc4
@@ -13,6 +13,7 @@ tags:
   0.6--pyhdfd78af_1: sha256:adcc4ec9f9f9ec93f748b6fe06bd1e50987be731388092967412377f8aa68df6
   0.5--pyhdfd78af_0: sha256:5b8981fd86c9d5cdf5d47ecbc476ae6d49e251f4a5fd91a04fe0e29245284231
   0.9--pyhdfd78af_0: sha256:d243daac533bb55ee140e1a5f882ce1ea3ecdd7c775ab2cb3637facc257ef49f
+  1.0--pyhdfd78af_0: sha256:09026f694f3c077f5892a82127354f66402fb825258460d7f42a476fc411f04c
 docker: quay.io/biocontainers/rbpbench
 aliases:
   bed2fasta: /usr/local/bin/bed2fasta

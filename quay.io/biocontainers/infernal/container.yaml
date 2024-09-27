@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/infernal
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for infernal
 latest:
-  1.1.5--pl5321h031d066_2: sha256:96b4eeaf9b96abbfecde16e5b0aa0d323bbd7db38b70341590f2253c7ab4c8ae
+  1.1.5--pl5321h031d066_3: sha256:d9f003d1ac7cb48f33815b607f28e9629dc41d35a099e4fc923fab8069c881a6
 tags:
   1.1.4--pl5321hec16e2b_1: sha256:6d62868ffe20a9b8902afcde1625bc2f5dcacc7f4d53fbdb152b184ab152eedb
   1.1.4--pl5321h031d066_4: sha256:6d00e938e89e6a0bed59512b56aa70671419202f1f0047499ceb916e2cb960e0
   1.1.5--pl5321h031d066_0: sha256:f274ce240e9490102ef73530ebbf956db07845da9f55b5965bb90dfdda15fa05
   1.1.5--pl5321h031d066_1: sha256:42670c8dc51f8e0e8f886eff1774b6bc4ed70410bf634df8dbcfde9a0ebe9d70
   1.1.5--pl5321h031d066_2: sha256:96b4eeaf9b96abbfecde16e5b0aa0d323bbd7db38b70341590f2253c7ab4c8ae
+  1.1.5--pl5321h031d066_3: sha256:d9f003d1ac7cb48f33815b607f28e9629dc41d35a099e4fc923fab8069c881a6
 docker: quay.io/biocontainers/infernal
 aliases:
   cmalign: /usr/local/bin/cmalign

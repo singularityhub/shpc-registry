@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/orthologer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for orthologer
 latest:
-  3.3.2--hdbdd923_0: sha256:6c844bf2348c886a4f3d67edb36b1ac293afcad320a0b15f56d2a6b394f2973e
+  3.4.1--hdbdd923_0: sha256:9cec8a5d1ffec5b143c65a6fe42c03ac73ed37eb173fb07fcd794522ec9413ae
 tags:
   3.3.2--hdbdd923_0: sha256:6c844bf2348c886a4f3d67edb36b1ac293afcad320a0b15f56d2a6b394f2973e
+  3.4.1--hdbdd923_0: sha256:9cec8a5d1ffec5b143c65a6fe42c03ac73ed37eb173fb07fcd794522ec9413ae
 docker: quay.io/biocontainers/orthologer
 aliases:
   bash: /usr/local/bin/bash
