@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/meraculous"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meraculous/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/meraculous/container.yaml"
-updated_at: "2024-09-26 11:02:27.816046"
+updated_at: "2024-09-27 03:36:05.685399"
 latest: "2.2.6--pl5321h4ac6f70_7"
 container_url: "https://biocontainers.pro/tools/meraculous"
 aliases:

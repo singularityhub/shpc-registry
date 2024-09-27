@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-math-matrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-matrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-matrix/container.yaml"
-updated_at: "2024-09-26 10:28:26.122682"
+updated_at: "2024-09-27 03:02:20.934825"
 latest: "0.94--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-math-matrix"
 aliases:

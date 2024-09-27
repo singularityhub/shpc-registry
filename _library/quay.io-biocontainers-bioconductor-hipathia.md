@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hipathia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hipathia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hipathia/container.yaml"
-updated_at: "2024-09-26 10:44:58.338589"
+updated_at: "2024-09-27 03:18:39.543661"
 latest: "3.2.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hipathia"
 aliases:

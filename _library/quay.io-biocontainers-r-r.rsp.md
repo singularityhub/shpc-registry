@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-r.rsp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-r.rsp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-r.rsp/container.yaml"
-updated_at: "2024-09-26 10:19:19.806401"
+updated_at: "2024-09-27 02:53:27.837465"
 latest: "0.30.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-r.rsp"
 aliases:

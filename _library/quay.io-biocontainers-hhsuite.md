@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hhsuite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hhsuite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hhsuite/container.yaml"
-updated_at: "2024-09-26 10:39:07.577933"
-latest: "3.3.0--py39pl5321h0dd7abe_12"
+updated_at: "2024-09-27 03:12:53.626794"
+latest: "3.3.0--py39pl5321h0dd7abe_13"
 container_url: "https://biocontainers.pro/tools/hhsuite"
 aliases:
  - "a3m_database_extract"
@@ -53,8 +53,9 @@ versions:
  - "3.2.0--py27pl526h877ad6c_2"
  - "3.3.0--py310pl5321hc31ed2c_11"
  - "3.3.0--py39pl5321h0dd7abe_12"
+ - "3.3.0--py39pl5321h0dd7abe_13"
 description: "shpc-registry automated BioContainers addition for hhsuite"
-config: {"url": "https://biocontainers.pro/tools/hhsuite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hhsuite", "latest": {"3.3.0--py39pl5321h0dd7abe_12": "sha256:c41389a78abcf6aad1f6e1541d9e6c7ccef7be6e8392498bb795eff1300d967a"}, "tags": {"v3.2.0--py36pl526hf484d3e_0": "sha256:f0f6e3bce6656f14c07bbf3e4cd1dbedde474ac0f90e6e56b3309180fc5f1615", "3.3.0--py36pl5321h4aaaa08_5": "sha256:d800473a8174edfa2cff06f8a2374182967d66802e9533da394d564f87ae5506", "3.2.0--py37pl526hfa133b6_2": "sha256:9995721485a34804ec1d8dede8a47bd5c091959ae971103a79df40d3f516c652", "3.3.0--py38pl5321hcbe9525_8": "sha256:0d8fa489622a1f63a5e522a96beea45b196a0340bbcb263666d28d2ed9ec689e", "3.3.0--py310pl5321h068649b_9": "sha256:45286ca412e9a3636db116cb9837f7a5069b98eab722fc01c5ef6b3272710911", "3.3.0--py38pl5321hcbe9525_10": "sha256:fd5624f9a7a88e9bce7879a6e93836e205cf707289abb4e5347d28abf2036a95", "3.2.0--py27pl526h877ad6c_2": "sha256:06124877aa800fa3a10c13aefb609c0d148374d629cb82ab06b6c603f0ab9cce", "3.3.0--py310pl5321hc31ed2c_11": "sha256:fa1a56e52cbd0b3b5d1352ccbd7ec4383e5b799d5861f021e442de49bd3fd677", "3.3.0--py39pl5321h0dd7abe_12": "sha256:c41389a78abcf6aad1f6e1541d9e6c7ccef7be6e8392498bb795eff1300d967a"}, "docker": "quay.io/biocontainers/hhsuite", "aliases": {"a3m_database_extract": "/usr/local/bin/a3m_database_extract", "a3m_database_filter": "/usr/local/bin/a3m_database_filter", "a3m_database_reduce": "/usr/local/bin/a3m_database_reduce", "a3m_extract": "/usr/local/bin/a3m_extract", "a3m_reduce": "/usr/local/bin/a3m_reduce", "cstranslate": "/usr/local/bin/cstranslate", "ffindex_apply": "/usr/local/bin/ffindex_apply", "ffindex_build": "/usr/local/bin/ffindex_build", "ffindex_from_fasta": "/usr/local/bin/ffindex_from_fasta", "ffindex_from_fasta_with_split": "/usr/local/bin/ffindex_from_fasta_with_split", "ffindex_get": "/usr/local/bin/ffindex_get", "ffindex_modify": "/usr/local/bin/ffindex_modify", "ffindex_order": "/usr/local/bin/ffindex_order", "ffindex_reduce": "/usr/local/bin/ffindex_reduce", "ffindex_unpack": "/usr/local/bin/ffindex_unpack", "hhalign": "/usr/local/bin/hhalign", "hhalign_omp": "/usr/local/bin/hhalign_omp", "hhblits": "/usr/local/bin/hhblits", "hhblits_ca3m": "/usr/local/bin/hhblits_ca3m", "hhblits_omp": "/usr/local/bin/hhblits_omp", "hhconsensus": "/usr/local/bin/hhconsensus", "hhfilter": "/usr/local/bin/hhfilter", "hhmake": "/usr/local/bin/hhmake", "hhsearch": "/usr/local/bin/hhsearch", "hhsearch_omp": "/usr/local/bin/hhsearch_omp", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/hhsuite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hhsuite", "latest": {"3.3.0--py39pl5321h0dd7abe_13": "sha256:46e5245460ca43b57e5773a3b31514b4c3c29f839d027779b84b21aad309b638"}, "tags": {"v3.2.0--py36pl526hf484d3e_0": "sha256:f0f6e3bce6656f14c07bbf3e4cd1dbedde474ac0f90e6e56b3309180fc5f1615", "3.3.0--py36pl5321h4aaaa08_5": "sha256:d800473a8174edfa2cff06f8a2374182967d66802e9533da394d564f87ae5506", "3.2.0--py37pl526hfa133b6_2": "sha256:9995721485a34804ec1d8dede8a47bd5c091959ae971103a79df40d3f516c652", "3.3.0--py38pl5321hcbe9525_8": "sha256:0d8fa489622a1f63a5e522a96beea45b196a0340bbcb263666d28d2ed9ec689e", "3.3.0--py310pl5321h068649b_9": "sha256:45286ca412e9a3636db116cb9837f7a5069b98eab722fc01c5ef6b3272710911", "3.3.0--py38pl5321hcbe9525_10": "sha256:fd5624f9a7a88e9bce7879a6e93836e205cf707289abb4e5347d28abf2036a95", "3.2.0--py27pl526h877ad6c_2": "sha256:06124877aa800fa3a10c13aefb609c0d148374d629cb82ab06b6c603f0ab9cce", "3.3.0--py310pl5321hc31ed2c_11": "sha256:fa1a56e52cbd0b3b5d1352ccbd7ec4383e5b799d5861f021e442de49bd3fd677", "3.3.0--py39pl5321h0dd7abe_12": "sha256:c41389a78abcf6aad1f6e1541d9e6c7ccef7be6e8392498bb795eff1300d967a", "3.3.0--py39pl5321h0dd7abe_13": "sha256:46e5245460ca43b57e5773a3b31514b4c3c29f839d027779b84b21aad309b638"}, "docker": "quay.io/biocontainers/hhsuite", "aliases": {"a3m_database_extract": "/usr/local/bin/a3m_database_extract", "a3m_database_filter": "/usr/local/bin/a3m_database_filter", "a3m_database_reduce": "/usr/local/bin/a3m_database_reduce", "a3m_extract": "/usr/local/bin/a3m_extract", "a3m_reduce": "/usr/local/bin/a3m_reduce", "cstranslate": "/usr/local/bin/cstranslate", "ffindex_apply": "/usr/local/bin/ffindex_apply", "ffindex_build": "/usr/local/bin/ffindex_build", "ffindex_from_fasta": "/usr/local/bin/ffindex_from_fasta", "ffindex_from_fasta_with_split": "/usr/local/bin/ffindex_from_fasta_with_split", "ffindex_get": "/usr/local/bin/ffindex_get", "ffindex_modify": "/usr/local/bin/ffindex_modify", "ffindex_order": "/usr/local/bin/ffindex_order", "ffindex_reduce": "/usr/local/bin/ffindex_reduce", "ffindex_unpack": "/usr/local/bin/ffindex_unpack", "hhalign": "/usr/local/bin/hhalign", "hhalign_omp": "/usr/local/bin/hhalign_omp", "hhblits": "/usr/local/bin/hhblits", "hhblits_ca3m": "/usr/local/bin/hhblits_ca3m", "hhblits_omp": "/usr/local/bin/hhblits_omp", "hhconsensus": "/usr/local/bin/hhconsensus", "hhfilter": "/usr/local/bin/hhfilter", "hhmake": "/usr/local/bin/hhmake", "hhsearch": "/usr/local/bin/hhsearch", "hhsearch_omp": "/usr/local/bin/hhsearch_omp", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hhsuite.
@@ -69,7 +70,7 @@ $ shpc install quay.io/biocontainers/hhsuite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hhsuite:3.3.0--py39pl5321h0dd7abe_12
+$ shpc install quay.io/biocontainers/hhsuite:3.3.0--py39pl5321h0dd7abe_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -81,8 +82,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hhsuite/3.3.0--py39pl5321h0dd7abe_12
-$ module help quay.io/biocontainers/hhsuite/3.3.0--py39pl5321h0dd7abe_12
+$ module load quay.io/biocontainers/hhsuite/3.3.0--py39pl5321h0dd7abe_13
+$ module help quay.io/biocontainers/hhsuite/3.3.0--py39pl5321h0dd7abe_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

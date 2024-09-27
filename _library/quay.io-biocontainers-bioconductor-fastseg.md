@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fastseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fastseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fastseg/container.yaml"
-updated_at: "2024-09-26 10:54:31.354239"
+updated_at: "2024-09-27 03:28:07.583434"
 latest: "1.48.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-fastseg"
 

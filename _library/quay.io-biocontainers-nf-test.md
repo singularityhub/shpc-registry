@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nf-test"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nf-test/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nf-test/container.yaml"
-updated_at: "2024-09-26 10:40:28.821660"
+updated_at: "2024-09-27 03:14:13.799539"
 latest: "0.9.0--h2a3209d_0"
 container_url: "https://biocontainers.pro/tools/nf-test"
 aliases:
