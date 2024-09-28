@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/strucvis
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for strucvis
 latest:
-  0.8--hdfd78af_0: sha256:56ad90309ec049a6295df0f8b659e114fd7bd793f655940f7bdd27834071eed1
+  0.9--hdfd78af_0: sha256:fd83af6f6bdeed8d7da84a8e475e4ab9cc6349931054c597d41ddb8268af5265
 tags:
   0.6--hdfd78af_0: sha256:d5124ce57ad8b829a6d5657a2a7b2a7a8dca27dcc0c00e836f5a89a8cf6ec294
   0.7--hdfd78af_0: sha256:0efb38279bd300c5974e9d627b793204d5c90831f9d47b2ca2ed2bcefc4a2e91
   0.7--hdfd78af_1: sha256:b0693712f052e5b9b5d6c8d2205ae3a29d639c65b420a98f8a7ea45a9e2624c3
   0.8--hdfd78af_0: sha256:56ad90309ec049a6295df0f8b659e114fd7bd793f655940f7bdd27834071eed1
+  0.9--hdfd78af_0: sha256:fd83af6f6bdeed8d7da84a8e475e4ab9cc6349931054c597d41ddb8268af5265
 docker: quay.io/biocontainers/strucvis
 aliases:
   RNAmultifold: /usr/local/bin/RNAmultifold
