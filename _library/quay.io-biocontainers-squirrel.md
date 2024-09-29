@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/squirrel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/squirrel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/squirrel/container.yaml"
-updated_at: "2024-09-27 03:36:15.585239"
-latest: "1.0.8--pyhdfd78af_0"
+updated_at: "2024-09-29 03:41:25.417353"
+latest: "1.0.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/squirrel"
 aliases:
  - "gofasta"
@@ -41,8 +41,9 @@ aliases:
  - "pulptest"
 versions:
  - "1.0.8--pyhdfd78af_0"
+ - "1.0.10--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for squirrel"
-config: {"url": "https://biocontainers.pro/tools/squirrel", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for squirrel", "latest": {"1.0.8--pyhdfd78af_0": "sha256:809834cfc36c79f8009e202f353989be0e78fa315ed9ede8662d1930e02825a2"}, "tags": {"1.0.8--pyhdfd78af_0": "sha256:809834cfc36c79f8009e202f353989be0e78fa315ed9ede8662d1930e02825a2"}, "docker": "quay.io/biocontainers/squirrel", "aliases": {"gofasta": "/usr/local/bin/gofasta", "jclusterfunk": "/usr/local/bin/jclusterfunk", "msa.smk": "/usr/local/bin/msa.smk", "phylo.smk": "/usr/local/bin/phylo.smk", "reconstruction.smk": "/usr/local/bin/reconstruction.smk", "squirrel": "/usr/local/bin/squirrel", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "iqtree2": "/usr/local/bin/iqtree2", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "mako-render": "/usr/local/bin/mako-render", "iqtree": "/usr/local/bin/iqtree", "numpy-config": "/usr/local/bin/numpy-config", "jwebserver": "/usr/local/bin/jwebserver", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest"}}
+config: {"url": "https://biocontainers.pro/tools/squirrel", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for squirrel", "latest": {"1.0.10--pyhdfd78af_0": "sha256:275c570bd9127be69ba34f4038451302b6e405d2299adebd14220951cef8cc19"}, "tags": {"1.0.8--pyhdfd78af_0": "sha256:809834cfc36c79f8009e202f353989be0e78fa315ed9ede8662d1930e02825a2", "1.0.10--pyhdfd78af_0": "sha256:275c570bd9127be69ba34f4038451302b6e405d2299adebd14220951cef8cc19"}, "docker": "quay.io/biocontainers/squirrel", "aliases": {"gofasta": "/usr/local/bin/gofasta", "jclusterfunk": "/usr/local/bin/jclusterfunk", "msa.smk": "/usr/local/bin/msa.smk", "phylo.smk": "/usr/local/bin/phylo.smk", "reconstruction.smk": "/usr/local/bin/reconstruction.smk", "squirrel": "/usr/local/bin/squirrel", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "iqtree2": "/usr/local/bin/iqtree2", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "mako-render": "/usr/local/bin/mako-render", "iqtree": "/usr/local/bin/iqtree", "numpy-config": "/usr/local/bin/numpy-config", "jwebserver": "/usr/local/bin/jwebserver", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/squirrel.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/squirrel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/squirrel:1.0.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/squirrel:1.0.10--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/squirrel/1.0.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/squirrel/1.0.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/squirrel/1.0.10--pyhdfd78af_0
+$ module help quay.io/biocontainers/squirrel/1.0.10--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

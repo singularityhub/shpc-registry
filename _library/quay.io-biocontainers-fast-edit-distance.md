@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fast-edit-distance"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fast-edit-distance/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fast-edit-distance/container.yaml"
-updated_at: "2024-09-27 03:06:08.198308"
-latest: "1.2.1--py310h7c593f9_2"
+updated_at: "2024-09-29 03:11:13.606648"
+latest: "1.2.2--py39hff71179_0"
 container_url: "https://biocontainers.pro/tools/fast-edit-distance"
 aliases:
  - "2to3-3.10"
@@ -17,8 +17,9 @@ versions:
  - "1.2.1--py310h7c593f9_1"
  - "1.2.1--py311hdad781d_1"
  - "1.2.1--py310h7c593f9_2"
+ - "1.2.2--py39hff71179_0"
 description: "singularity registry hpc automated addition for fast-edit-distance"
-config: {"url": "https://biocontainers.pro/tools/fast-edit-distance", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fast-edit-distance", "latest": {"1.2.1--py310h7c593f9_2": "sha256:dbac3f8a1c4cd8f5d7b733e2fe01d91f4720ef4fd470cf9423c6fe9343d56f29"}, "tags": {"1.2.1--py310h7c593f9_1": "sha256:3d02efb64342a646935859a8b9deb6b5c629e890252ad35d15dd697a4c2f19a5", "1.2.1--py311hdad781d_1": "sha256:098301cdb18da9f5c5ee05342fe17690f44d142aa31d2bb07e2aeffcbc30da0b", "1.2.1--py310h7c593f9_2": "sha256:dbac3f8a1c4cd8f5d7b733e2fe01d91f4720ef4fd470cf9423c6fe9343d56f29"}, "docker": "quay.io/biocontainers/fast-edit-distance", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/fast-edit-distance", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fast-edit-distance", "latest": {"1.2.2--py39hff71179_0": "sha256:4fb21b8e80fac6ed5be5b8c866e8b5afeb6e75ab15d21fc42601ed8cc2b74df8"}, "tags": {"1.2.1--py310h7c593f9_1": "sha256:3d02efb64342a646935859a8b9deb6b5c629e890252ad35d15dd697a4c2f19a5", "1.2.1--py311hdad781d_1": "sha256:098301cdb18da9f5c5ee05342fe17690f44d142aa31d2bb07e2aeffcbc30da0b", "1.2.1--py310h7c593f9_2": "sha256:dbac3f8a1c4cd8f5d7b733e2fe01d91f4720ef4fd470cf9423c6fe9343d56f29", "1.2.2--py39hff71179_0": "sha256:4fb21b8e80fac6ed5be5b8c866e8b5afeb6e75ab15d21fc42601ed8cc2b74df8"}, "docker": "quay.io/biocontainers/fast-edit-distance", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fast-edit-distance.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/fast-edit-distance
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fast-edit-distance:1.2.1--py310h7c593f9_2
+$ shpc install quay.io/biocontainers/fast-edit-distance:1.2.2--py39hff71179_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fast-edit-distance/1.2.1--py310h7c593f9_2
-$ module help quay.io/biocontainers/fast-edit-distance/1.2.1--py310h7c593f9_2
+$ module load quay.io/biocontainers/fast-edit-distance/1.2.2--py39hff71179_0
+$ module help quay.io/biocontainers/fast-edit-distance/1.2.2--py39hff71179_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

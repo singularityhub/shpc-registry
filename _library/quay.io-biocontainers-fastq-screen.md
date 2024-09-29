@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastq-screen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-screen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-screen/container.yaml"
-updated_at: "2024-09-27 03:35:38.413256"
-latest: "0.15.3--pl5321hdfd78af_0"
+updated_at: "2024-09-29 03:40:48.623261"
+latest: "0.16.0--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fastq-screen"
 aliases:
  - "bdf2gdfont.PLS"
@@ -28,8 +28,9 @@ versions:
  - "0.13.0--pl526_1"
  - "0.11.3--pl526_1"
  - "0.15.3--pl5321hdfd78af_0"
+ - "0.16.0--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for fastq-screen"
-config: {"url": "https://biocontainers.pro/tools/fastq-screen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-screen", "latest": {"0.15.3--pl5321hdfd78af_0": "sha256:b1c48bcdd2aa5ae15f8b9c5522c1118a5b2a20c32a7110683aa348b909480975"}, "tags": {"0.5.2--1": "sha256:bcb19ad7f43add5a4692cb10488647c884b2ca1ef1a3dd8e090ffeb0a343e2fb", "0.15.2--pl5321hdfd78af_0": "sha256:fc249e00f46e3392826fad5260344158c972dc47e9c193cbb6a12adacf5bbfe7", "0.14.0--pl5321hdfd78af_2": "sha256:1d02412b07bc9291c0bcedd763474bfaade5439a64df439e3c8306631171f6ca", "0.13.0--pl526_1": "sha256:6b47425690a57c14f9258217e206933635eb0b16988cb09fca2c809d04584649", "0.11.3--pl526_1": "sha256:af07c97c4a9ec981db54d5f847b3585e578c4b21d41e591cc7345a7c54116b71", "0.15.3--pl5321hdfd78af_0": "sha256:b1c48bcdd2aa5ae15f8b9c5522c1118a5b2a20c32a7110683aa348b909480975"}, "docker": "quay.io/biocontainers/fastq-screen", "aliases": {"bdf2gdfont.PLS": "/usr/local/bin/bdf2gdfont.PLS", "cvtbdf.pl": "/usr/local/bin/cvtbdf.pl", "fastq_screen": "/usr/local/bin/fastq_screen", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "gdlib-config": "/usr/local/bin/gdlib-config"}}
+config: {"url": "https://biocontainers.pro/tools/fastq-screen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastq-screen", "latest": {"0.16.0--pl5321hdfd78af_0": "sha256:e1a5ab44938cdc826de5ede890068ad486797948ce985375802b302971fa888d"}, "tags": {"0.5.2--1": "sha256:bcb19ad7f43add5a4692cb10488647c884b2ca1ef1a3dd8e090ffeb0a343e2fb", "0.15.2--pl5321hdfd78af_0": "sha256:fc249e00f46e3392826fad5260344158c972dc47e9c193cbb6a12adacf5bbfe7", "0.14.0--pl5321hdfd78af_2": "sha256:1d02412b07bc9291c0bcedd763474bfaade5439a64df439e3c8306631171f6ca", "0.13.0--pl526_1": "sha256:6b47425690a57c14f9258217e206933635eb0b16988cb09fca2c809d04584649", "0.11.3--pl526_1": "sha256:af07c97c4a9ec981db54d5f847b3585e578c4b21d41e591cc7345a7c54116b71", "0.15.3--pl5321hdfd78af_0": "sha256:b1c48bcdd2aa5ae15f8b9c5522c1118a5b2a20c32a7110683aa348b909480975", "0.16.0--pl5321hdfd78af_0": "sha256:e1a5ab44938cdc826de5ede890068ad486797948ce985375802b302971fa888d"}, "docker": "quay.io/biocontainers/fastq-screen", "aliases": {"bdf2gdfont.PLS": "/usr/local/bin/bdf2gdfont.PLS", "cvtbdf.pl": "/usr/local/bin/cvtbdf.pl", "fastq_screen": "/usr/local/bin/fastq_screen", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "gdlib-config": "/usr/local/bin/gdlib-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastq-screen.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/fastq-screen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastq-screen:0.15.3--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/fastq-screen:0.16.0--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastq-screen/0.15.3--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/fastq-screen/0.15.3--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/fastq-screen/0.16.0--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/fastq-screen/0.16.0--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

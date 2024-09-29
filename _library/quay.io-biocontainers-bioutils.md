@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioutils/container.yaml"
-updated_at: "2024-09-27 03:15:55.463326"
-latest: "0.5.7--pyhdfd78af_0"
+updated_at: "2024-09-29 03:21:07.243457"
+latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioutils"
 aliases:
  - "normalizer"
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.5.7--pyhdfd78af_0"
+ - "0.6.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioutils"
-config: {"url": "https://biocontainers.pro/tools/bioutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioutils", "latest": {"0.5.7--pyhdfd78af_0": "sha256:9515d901ae72c8c95ea2a55e49ebfab59e7e3bbb4e256afcbe918a98591b42dc"}, "tags": {"0.5.7--pyhdfd78af_0": "sha256:9515d901ae72c8c95ea2a55e49ebfab59e7e3bbb4e256afcbe918a98591b42dc"}, "docker": "quay.io/biocontainers/bioutils", "aliases": {"normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioutils", "latest": {"0.6.0--pyhdfd78af_0": "sha256:5ab780dcaac05bdaf791aa659c52a81c86e9f561ba126590d42f2aaac6f0af1f"}, "tags": {"0.5.7--pyhdfd78af_0": "sha256:9515d901ae72c8c95ea2a55e49ebfab59e7e3bbb4e256afcbe918a98591b42dc", "0.6.0--pyhdfd78af_0": "sha256:5ab780dcaac05bdaf791aa659c52a81c86e9f561ba126590d42f2aaac6f0af1f"}, "docker": "quay.io/biocontainers/bioutils", "aliases": {"normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioutils.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioutils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioutils:0.5.7--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bioutils:0.6.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioutils/0.5.7--pyhdfd78af_0
-$ module help quay.io/biocontainers/bioutils/0.5.7--pyhdfd78af_0
+$ module load quay.io/biocontainers/bioutils/0.6.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/bioutils/0.6.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hsdecipher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hsdecipher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hsdecipher/container.yaml"
-updated_at: "2024-09-27 03:05:54.651429"
-latest: "1.0.0--hdfd78af_0"
+updated_at: "2024-09-29 03:10:59.904483"
+latest: "1.0.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hsdecipher"
 aliases:
  - "HSD_add_on.py"
@@ -36,8 +36,9 @@ aliases:
  - "opj_dump"
 versions:
  - "1.0.0--hdfd78af_0"
+ - "1.0.0--hdfd78af_1"
 description: "singularity registry hpc automated addition for hsdecipher"
-config: {"url": "https://biocontainers.pro/tools/hsdecipher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hsdecipher", "latest": {"1.0.0--hdfd78af_0": "sha256:dfcf0e713ba862e07e66df0aaa6ab05fd527303c3ef66ba9b69dfa4f5b92f61a"}, "tags": {"1.0.0--hdfd78af_0": "sha256:dfcf0e713ba862e07e66df0aaa6ab05fd527303c3ef66ba9b69dfa4f5b92f61a"}, "docker": "quay.io/biocontainers/hsdecipher", "aliases": {"HSD_add_on.py": "/usr/local/bin/HSD_add_on.py", "HSD_batch_run.py": "/usr/local/bin/HSD_batch_run.py", "HSD_categories.py": "/usr/local/bin/HSD_categories.py", "hsd_heatmap": "/usr/local/bin/hsd_heatmap", "ko.tsv": "/usr/local/bin/ko.tsv", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tjbench": "/usr/local/bin/tjbench", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/hsdecipher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hsdecipher", "latest": {"1.0.0--hdfd78af_1": "sha256:1295383471c07aec6df66a6274bfaf541688e24ad88441b11911dedf6432d651"}, "tags": {"1.0.0--hdfd78af_0": "sha256:dfcf0e713ba862e07e66df0aaa6ab05fd527303c3ef66ba9b69dfa4f5b92f61a", "1.0.0--hdfd78af_1": "sha256:1295383471c07aec6df66a6274bfaf541688e24ad88441b11911dedf6432d651"}, "docker": "quay.io/biocontainers/hsdecipher", "aliases": {"HSD_add_on.py": "/usr/local/bin/HSD_add_on.py", "HSD_batch_run.py": "/usr/local/bin/HSD_batch_run.py", "HSD_categories.py": "/usr/local/bin/HSD_categories.py", "hsd_heatmap": "/usr/local/bin/hsd_heatmap", "ko.tsv": "/usr/local/bin/ko.tsv", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tjbench": "/usr/local/bin/tjbench", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hsdecipher.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/hsdecipher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hsdecipher:1.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/hsdecipher:1.0.0--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hsdecipher/1.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/hsdecipher/1.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/hsdecipher/1.0.0--hdfd78af_1
+$ module help quay.io/biocontainers/hsdecipher/1.0.0--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
