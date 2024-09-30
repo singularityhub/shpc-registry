@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/pgrc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pgrc
+latest:
+  2.0--h4ac6f70_0: sha256:c67075aed9bc8c15aeb8ba33025b262f82f27ab845f767321e790095a353f474
+tags:
+  2.0--h4ac6f70_0: sha256:c67075aed9bc8c15aeb8ba33025b262f82f27ab845f767321e790095a353f474
+docker: quay.io/biocontainers/pgrc
+aliases:
+  PgRC: /usr/local/bin/PgRC
