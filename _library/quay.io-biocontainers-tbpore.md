@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tbpore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tbpore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tbpore/container.yaml"
-updated_at: "2024-09-30 03:17:03.365603"
+updated_at: "2024-09-30 04:23:45.665618"
 latest: "0.7.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tbpore"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/venndata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/venndata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/venndata/container.yaml"
-updated_at: "2024-09-30 03:29:39.823360"
+updated_at: "2024-09-30 04:36:58.794479"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/venndata"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/croo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/croo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/croo/container.yaml"
-updated_at: "2024-09-30 03:41:27.930849"
+updated_at: "2024-09-30 04:49:22.470693"
 latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/croo"
 aliases:

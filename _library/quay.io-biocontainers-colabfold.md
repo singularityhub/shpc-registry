@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/colabfold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/colabfold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/colabfold/container.yaml"
-updated_at: "2024-09-30 03:03:23.797501"
+updated_at: "2024-09-30 04:09:23.263705"
 latest: "1.5.5--pyh7cba7a3_2"
 container_url: "https://biocontainers.pro/tools/colabfold"
 aliases:

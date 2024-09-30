@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gff3sort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gff3sort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gff3sort/container.yaml"
-updated_at: "2024-09-30 03:01:06.776925"
+updated_at: "2024-09-30 04:07:04.060507"
 latest: "0.1.a1a2bc9--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/gff3sort"
 aliases:

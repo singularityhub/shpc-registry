@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomad/container.yaml"
-updated_at: "2024-09-30 03:40:28.192589"
+updated_at: "2024-09-30 04:48:21.095824"
 latest: "1.8.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/genomad"
 aliases:

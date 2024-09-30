@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-mro-compat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mro-compat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mro-compat/container.yaml"
-updated_at: "2024-09-30 03:03:50.157809"
+updated_at: "2024-09-30 04:09:50.894426"
 latest: "0.15--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-mro-compat"
 aliases:

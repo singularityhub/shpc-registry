@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cdhit-reader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cdhit-reader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cdhit-reader/container.yaml"
-updated_at: "2024-09-30 02:58:09.575284"
+updated_at: "2024-09-30 04:04:06.378062"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cdhit-reader"
 aliases:

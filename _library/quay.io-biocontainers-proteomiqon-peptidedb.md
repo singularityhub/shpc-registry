@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proteomiqon-peptidedb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-peptidedb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-peptidedb/container.yaml"
-updated_at: "2024-09-30 02:58:05.662798"
+updated_at: "2024-09-30 04:04:02.467448"
 latest: "0.0.7--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/proteomiqon-peptidedb"
 aliases:

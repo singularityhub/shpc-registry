@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mmvc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmvc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmvc/container.yaml"
-updated_at: "2024-09-30 03:11:39.274380"
+updated_at: "2024-09-30 04:18:06.942686"
 latest: "1.0.2--1"
 container_url: "https://biocontainers.pro/tools/mmvc"
 aliases:

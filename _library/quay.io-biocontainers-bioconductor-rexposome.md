@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rexposome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rexposome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rexposome/container.yaml"
-updated_at: "2024-09-30 03:11:43.659186"
+updated_at: "2024-09-30 04:18:11.456261"
 latest: "1.24.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rexposome"
 aliases:
