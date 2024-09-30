@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-censcyt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-censcyt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-censcyt/container.yaml"
-updated_at: "2024-09-29 03:02:36.740359"
+updated_at: "2024-09-30 03:03:59.501972"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-censcyt"
 

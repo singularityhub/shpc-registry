@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moosex-nonmoose"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-nonmoose/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-nonmoose/container.yaml"
-updated_at: "2024-09-29 03:30:22.769762"
+updated_at: "2024-09-30 03:32:11.508543"
 latest: "0.26--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-moosex-nonmoose"
 aliases:

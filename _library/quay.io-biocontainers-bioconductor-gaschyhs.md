@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gaschyhs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gaschyhs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gaschyhs/container.yaml"
-updated_at: "2024-09-29 03:41:15.386986"
+updated_at: "2024-09-30 03:43:08.901067"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gaschyhs"
 

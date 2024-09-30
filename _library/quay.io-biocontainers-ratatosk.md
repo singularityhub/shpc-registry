@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ratatosk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ratatosk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ratatosk/container.yaml"
-updated_at: "2024-09-29 03:07:55.624450"
+updated_at: "2024-09-30 03:09:23.424623"
 latest: "0.9.0--hdcf5f25_1"
 container_url: "https://biocontainers.pro/tools/ratatosk"
 aliases:

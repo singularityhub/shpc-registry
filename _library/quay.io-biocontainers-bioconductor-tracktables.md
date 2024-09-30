@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tracktables"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tracktables/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tracktables/container.yaml"
-updated_at: "2024-09-29 03:29:43.877883"
+updated_at: "2024-09-30 03:31:32.869586"
 latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tracktables"
 

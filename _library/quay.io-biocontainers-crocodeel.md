@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crocodeel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crocodeel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crocodeel/container.yaml"
-updated_at: "2024-09-29 03:03:49.028120"
+updated_at: "2024-09-30 03:05:13.123442"
 latest: "1.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crocodeel"
 aliases:
