@@ -1,0 +1,50 @@
+url: https://biocontainers.pro/tools/moni
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for moni
+latest:
+  0.2.2--py310h3d55dab_0: sha256:c263b48d8c1b10380d7aac920c3d30e2a57b3a512615d5f20609895c4a9619c4
+tags:
+  0.2.2--py310h3d55dab_0: sha256:c263b48d8c1b10380d7aac920c3d30e2a57b3a512615d5f20609895c4a9619c4
+docker: quay.io/biocontainers/moni
+aliases:
+  SlpEncBuild: /usr/local/bin/SlpEncBuild
+  bigbwt: /usr/local/bin/bigbwt
+  bigrepair: /usr/local/bin/bigrepair
+  build_seqidx: /usr/local/bin/build_seqidx
+  bwtparse: /usr/local/bin/bwtparse
+  bwtparse64: /usr/local/bin/bwtparse64
+  compress_dictionary: /usr/local/bin/compress_dictionary
+  despair: /usr/local/bin/despair
+  extend_ksw2: /usr/local/bin/extend_ksw2
+  idespair: /usr/local/bin/idespair
+  ipostproc: /usr/local/bin/ipostproc
+  iprocdic: /usr/local/bin/iprocdic
+  irepair: /usr/local/bin/irepair
+  largeb_despair: /usr/local/bin/largeb_despair
+  largeb_idespair: /usr/local/bin/largeb_idespair
+  largeb_irepair: /usr/local/bin/largeb_irepair
+  largeb_repair: /usr/local/bin/largeb_repair
+  mems: /usr/local/bin/mems
+  moni: /usr/local/bin/moni
+  ms: /usr/local/bin/ms
+  newscan.x: /usr/local/bin/newscan.x
+  newscanNT.x: /usr/local/bin/newscanNT.x
+  pfbwt.x: /usr/local/bin/pfbwt.x
+  pfbwt64.x: /usr/local/bin/pfbwt64.x
+  pfbwtNT.x: /usr/local/bin/pfbwtNT.x
+  pfbwtNT64.x: /usr/local/bin/pfbwtNT64.x
+  pfp_thresholds: /usr/local/bin/pfp_thresholds
+  pfp_thresholds64: /usr/local/bin/pfp_thresholds64
+  postproc: /usr/local/bin/postproc
+  procdic: /usr/local/bin/procdic
+  pscan.x: /usr/local/bin/pscan.x
+  rlebwt_ms_build: /usr/local/bin/rlebwt_ms_build
+  simplebwt: /usr/local/bin/simplebwt
+  simplebwt64: /usr/local/bin/simplebwt64
+  unparse: /usr/local/bin/unparse
+  remap: /usr/local/bin/remap
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
