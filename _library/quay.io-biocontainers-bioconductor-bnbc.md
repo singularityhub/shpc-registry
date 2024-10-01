@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bnbc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bnbc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bnbc/container.yaml"
-updated_at: "2024-09-30 04:39:36.634124"
+updated_at: "2024-10-01 03:33:58.587870"
 latest: "1.23.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-bnbc"
 aliases:
