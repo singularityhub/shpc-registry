@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/ampliconsuite
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ampliconsuite
 latest:
-  1.3.3--pyhdfd78af_0: sha256:f8b6a456d0b9d3cff9e57a0d777330d60597eda2cecb10951138f7d1e233a400
+  1.3.4--pyhdfd78af_0: sha256:0acfe15754ec2527c39e2100b484b5411f0f8ac750b1af2c162c75eaa45849fd
 tags:
   0.1555.2--pyhdfd78af_0: sha256:fe28fbe4715e56a97e724baa8b0fd8aa954d35ee3611f1f7481fac1e7c76fc05
   0.1555.2--pyhdfd78af_1: sha256:9e25b8146acd9099eb270b4866ed0f98f59d9397fd428569dbeedc58f4e2534d
@@ -15,6 +15,7 @@ tags:
   1.3.1--pyhdfd78af_0: sha256:838ae8f5ca74418213a8d8173a1960e7804db7f55bd2de8f37b714d8c9c42b33
   1.3.2--pyhdfd78af_0: sha256:cf2f9c6cfd5655488dfd331d3ebaff5c9cbb65582e267fea5c6e5bca2a5c0b5e
   1.3.3--pyhdfd78af_0: sha256:f8b6a456d0b9d3cff9e57a0d777330d60597eda2cecb10951138f7d1e233a400
+  1.3.4--pyhdfd78af_0: sha256:0acfe15754ec2527c39e2100b484b5411f0f8ac750b1af2c162c75eaa45849fd
 docker: quay.io/biocontainers/ampliconsuite
 aliases:
   AmpliconSuite-pipeline.py: /usr/local/bin/AmpliconSuite-pipeline.py

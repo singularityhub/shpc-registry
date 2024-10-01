@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gempipe
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gempipe
 latest:
-  1.34.2--pyhdfd78af_0: sha256:1f1f035b5645727e4c983f792c3a61ed0bcc768d53227d2bc9af94e7caff89b3
+  1.35.3--pyhdfd78af_0: sha256:caf1dd7687e098ee35b25c8c9843b3b9b6eb0d20b6674acf612fa8d1544638ab
 tags:
   1.33.4--pyhdfd78af_0: sha256:d1095e4427fc39b5629de75d05841e1249df041c17af08c8bec8b0361c6eaa7b
   1.34.2--pyhdfd78af_0: sha256:1f1f035b5645727e4c983f792c3a61ed0bcc768d53227d2bc9af94e7caff89b3
+  1.35.3--pyhdfd78af_0: sha256:caf1dd7687e098ee35b25c8c9843b3b9b6eb0d20b6674acf612fa8d1544638ab
 docker: quay.io/biocontainers/gempipe
 aliases:
   PF00225_full.blocks.txt: /usr/local/bin/PF00225_full.blocks.txt

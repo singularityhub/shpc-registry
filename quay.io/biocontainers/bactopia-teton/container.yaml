@@ -2,12 +2,14 @@ url: https://biocontainers.pro/tools/bactopia-teton
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bactopia-teton
 latest:
-  1.0.4--hdfd78af_0: sha256:cc2dc221df2dc67dcc02b5d75a45a8546288b2d320ef9e54137fc80176feaa2f
+  1.1.0--hdfd78af_0: sha256:c62d992316bf99a5a5b087fc88586b954d4c7388ced89d4771cdb3a795d0a409
 tags:
   1.0.0--hdfd78af_0: sha256:0a05cf3119ab1814fd5b2d044958a053f13fff7645c74816a85e44d9c844f8f0
   1.0.1--hdfd78af_0: sha256:c49b1ad5dfe6dd195a6400b53c7cbf1f3d8eaa4b3a3bbc9ba5d2e034eb8a9a75
   1.0.2--hdfd78af_0: sha256:3028f3ea7362bdf41dbeb8842640eea36216db7f3b263511a92761cae2fccdbc
   1.0.4--hdfd78af_0: sha256:cc2dc221df2dc67dcc02b5d75a45a8546288b2d320ef9e54137fc80176feaa2f
+  1.1.0--hdfd78af_0: sha256:c62d992316bf99a5a5b087fc88586b954d4c7388ced89d4771cdb3a795d0a409
+  1.0.5--hdfd78af_0: sha256:399a4b1e4315c20a27743a4f873fb4411cae5b66d05a8e300393f402860f2209
 docker: quay.io/biocontainers/bactopia-teton
 aliases:
   alpha_diversity.py: /usr/local/bin/alpha_diversity.py

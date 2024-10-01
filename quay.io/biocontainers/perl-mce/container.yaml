@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/perl-mce
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-mce
 latest:
-  1.898--pl5321hdfd78af_0: sha256:cea19a7ce22b1f116ba0cdf00df407fa60e0db14e57824456b2afa6cc4d0375b
+  1.900--pl5321hdfd78af_0: sha256:7efab1a2f246e36c37e08883173c5dc3ea7f6e92423a18d7d9e1aeb829d2faec
 tags:
   1.881--pl5321hdfd78af_0: sha256:2e83ce1420d72486b317d36f4b93a19af6b2ca3f9ba3da4c74eb1b6117431b11
   1.884--pl5321hdfd78af_0: sha256:299ee7e7cfd32dee3bc6592345517af2ad1fbda882aa5dee08595d76ee662b2d
@@ -13,4 +13,6 @@ tags:
   1.894--pl5321hdfd78af_0: sha256:f4f7f361183d91ebc614ba26d1b6cfc2547b21408c0575265cd334fafc5c5470
   1.893--pl5321hdfd78af_0: sha256:02ce28423d3da77d036d387d19f41d41073ab85b76fed55bc42ca2a0621cc54e
   1.898--pl5321hdfd78af_0: sha256:cea19a7ce22b1f116ba0cdf00df407fa60e0db14e57824456b2afa6cc4d0375b
+  1.900--pl5321hdfd78af_0: sha256:7efab1a2f246e36c37e08883173c5dc3ea7f6e92423a18d7d9e1aeb829d2faec
+  1.899--pl5321hdfd78af_0: sha256:ebed023c93b93284c91dfd5c54d21e6c6388a41d8ccdb62a45cc3dcae24d9ecf
 docker: quay.io/biocontainers/perl-mce
