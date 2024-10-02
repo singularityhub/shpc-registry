@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/baltic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/baltic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/baltic/container.yaml"
-updated_at: "2024-10-01 03:22:00.713071"
-latest: "0.2.2--pyh7cba7a3_0"
+updated_at: "2024-10-02 03:13:05.017210"
+latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/baltic"
 aliases:
  - "f2py3.9"
@@ -22,8 +22,9 @@ versions:
  - "0.1.6--pyh3252c3a_0"
  - "0.1.8--pyh7cba7a3_0"
  - "0.2.2--pyh7cba7a3_0"
+ - "0.3.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for baltic"
-config: {"url": "https://biocontainers.pro/tools/baltic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for baltic", "latest": {"0.2.2--pyh7cba7a3_0": "sha256:a809445ef17623e085715ad8505eb9b78aaa439a48ddf0a4eccc91525186e28d"}, "tags": {"0.1.6--pyh3252c3a_0": "sha256:310cf822b62e3a010b785579955af7cce26c17e087fd174dec40c7034cb56b7b", "0.1.8--pyh7cba7a3_0": "sha256:e8c747bdab9a83eef8c64b93117c3ac99b23a47c6169a334f9e523b8104cc488", "0.2.2--pyh7cba7a3_0": "sha256:a809445ef17623e085715ad8505eb9b78aaa439a48ddf0a4eccc91525186e28d"}, "docker": "quay.io/biocontainers/baltic", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
+config: {"url": "https://biocontainers.pro/tools/baltic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for baltic", "latest": {"0.3.0--pyhdfd78af_0": "sha256:e7ec7e2739f9a287baeac6a5f55b113cec5ca5616fa97a30488ea67d370b86b1"}, "tags": {"0.1.6--pyh3252c3a_0": "sha256:310cf822b62e3a010b785579955af7cce26c17e087fd174dec40c7034cb56b7b", "0.1.8--pyh7cba7a3_0": "sha256:e8c747bdab9a83eef8c64b93117c3ac99b23a47c6169a334f9e523b8104cc488", "0.2.2--pyh7cba7a3_0": "sha256:a809445ef17623e085715ad8505eb9b78aaa439a48ddf0a4eccc91525186e28d", "0.3.0--pyhdfd78af_0": "sha256:e7ec7e2739f9a287baeac6a5f55b113cec5ca5616fa97a30488ea67d370b86b1"}, "docker": "quay.io/biocontainers/baltic", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/baltic.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/baltic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/baltic:0.2.2--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/baltic:0.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/baltic/0.2.2--pyh7cba7a3_0
-$ module help quay.io/biocontainers/baltic/0.2.2--pyh7cba7a3_0
+$ module load quay.io/biocontainers/baltic/0.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/baltic/0.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

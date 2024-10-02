@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biopet-vcffilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopet-vcffilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biopet-vcffilter/container.yaml"
-updated_at: "2024-10-01 03:05:28.217347"
+updated_at: "2024-10-02 02:56:24.926935"
 latest: "0.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/biopet-vcffilter"
 aliases:

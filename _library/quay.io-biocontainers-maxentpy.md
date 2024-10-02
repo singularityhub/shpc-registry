@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/maxentpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maxentpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maxentpy/container.yaml"
-updated_at: "2024-10-01 03:05:17.054045"
+updated_at: "2024-10-02 02:56:13.781441"
 latest: "0.02--py39hbf8eff0_1"
 container_url: "https://biocontainers.pro/tools/maxentpy"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gmapr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gmapr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gmapr/container.yaml"
-updated_at: "2024-10-01 03:29:04.284208"
+updated_at: "2024-10-02 03:20:09.113058"
 latest: "1.44.0--r43ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-gmapr"
 

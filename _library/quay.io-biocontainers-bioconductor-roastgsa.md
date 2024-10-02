@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-roastgsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-roastgsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-roastgsa/container.yaml"
-updated_at: "2024-10-01 03:08:20.923427"
+updated_at: "2024-10-02 02:59:14.892347"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-roastgsa"
 aliases:

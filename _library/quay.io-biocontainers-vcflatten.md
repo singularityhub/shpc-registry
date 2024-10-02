@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcflatten"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcflatten/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcflatten/container.yaml"
-updated_at: "2024-10-01 03:24:06.202024"
+updated_at: "2024-10-02 03:15:12.666159"
 latest: "0.5.2--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/vcflatten"
 aliases:

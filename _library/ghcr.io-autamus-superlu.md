@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/superlu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/superlu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/superlu/container.yaml"
-updated_at: "2024-10-01 03:47:16.738666"
+updated_at: "2024-10-02 03:37:54.266251"
 latest: "5.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/superlu"
 

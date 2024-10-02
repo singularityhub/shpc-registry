@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alignlib-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alignlib-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alignlib-lite/container.yaml"
-updated_at: "2024-10-01 03:05:22.934549"
+updated_at: "2024-10-02 02:56:19.612026"
 latest: "0.3--py39h0dd7abe_8"
 container_url: "https://biocontainers.pro/tools/alignlib-lite"
 aliases:

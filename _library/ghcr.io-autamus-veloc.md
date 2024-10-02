@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/veloc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/veloc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/veloc/container.yaml"
-updated_at: "2024-10-01 03:47:54.195654"
+updated_at: "2024-10-02 03:38:29.661903"
 latest: "1.5"
 container_url: "https://github.com/orgs/autamus/packages/container/package/veloc"
 aliases:
