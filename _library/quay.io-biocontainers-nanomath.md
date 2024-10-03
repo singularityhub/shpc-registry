@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanomath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanomath/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanomath/container.yaml"
-updated_at: "2024-10-03 03:33:50.571573"
+updated_at: "2024-10-03 03:42:21.996618"
 latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanomath"
 aliases:

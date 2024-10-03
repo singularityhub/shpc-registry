@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmnqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmnqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmnqc/container.yaml"
-updated_at: "2024-10-03 03:14:11.615067"
+updated_at: "2024-10-03 03:23:28.483192"
 latest: "0.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmnqc"
 aliases:

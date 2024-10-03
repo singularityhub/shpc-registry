@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytrimal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytrimal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytrimal/container.yaml"
-updated_at: "2024-10-03 03:35:33.362274"
+updated_at: "2024-10-03 03:44:00.612974"
 latest: "0.8.0--py310hc31ed2c_1"
 container_url: "https://biocontainers.pro/tools/pytrimal"
 aliases:

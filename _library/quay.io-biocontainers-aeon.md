@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aeon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aeon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aeon/container.yaml"
-updated_at: "2024-10-03 03:05:55.537327"
+updated_at: "2024-10-03 03:15:36.864878"
 latest: "0.1.1--py310h4b6de7c_2"
 container_url: "https://biocontainers.pro/tools/aeon"
 aliases:

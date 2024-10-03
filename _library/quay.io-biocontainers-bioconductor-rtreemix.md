@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rtreemix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtreemix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtreemix/container.yaml"
-updated_at: "2024-10-03 02:51:31.227209"
+updated_at: "2024-10-03 03:01:51.728019"
 latest: "1.64.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtreemix"
 

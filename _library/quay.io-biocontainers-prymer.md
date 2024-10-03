@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prymer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prymer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prymer/container.yaml"
-updated_at: "2024-10-03 03:00:11.346683"
+updated_at: "2024-10-03 03:10:06.947411"
 latest: "2.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/prymer"
 aliases:

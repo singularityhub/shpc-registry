@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastqc-rs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastqc-rs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastqc-rs/container.yaml"
-updated_at: "2024-10-03 03:28:01.785982"
+updated_at: "2024-10-03 03:36:49.165902"
 latest: "0.3.4--h101ab07_0"
 container_url: "https://biocontainers.pro/tools/fastqc-rs"
 aliases:
