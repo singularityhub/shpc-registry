@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pangwes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pangwes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pangwes/container.yaml"
-updated_at: "2024-10-02 03:11:14.297584"
+updated_at: "2024-10-03 03:11:52.770718"
 latest: "0.3.0_alpha--h4ac6f70_0"
 container_url: "https://biocontainers.pro/tools/pangwes"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fast-edit-distance"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fast-edit-distance/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fast-edit-distance/container.yaml"
-updated_at: "2024-10-02 03:05:48.017584"
+updated_at: "2024-10-03 03:06:18.319407"
 latest: "1.2.2--py39hff71179_0"
 container_url: "https://biocontainers.pro/tools/fast-edit-distance"
 aliases:

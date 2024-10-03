@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-omiccircos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omiccircos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omiccircos/container.yaml"
-updated_at: "2024-10-02 03:07:58.022562"
+updated_at: "2024-10-03 03:08:30.450166"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omiccircos"
 
