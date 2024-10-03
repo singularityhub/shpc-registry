@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/minimizers
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for minimizers
+latest:
+  0.1.2--pyhdfd78af_0: sha256:658ed9976ba39f89bab578efc91f862b4222af0aae9c33f6a5ef561408aae0e5
+tags:
+  0.1.2--pyhdfd78af_0: sha256:658ed9976ba39f89bab578efc91f862b4222af0aae9c33f6a5ef561408aae0e5
+docker: quay.io/biocontainers/minimizers
+aliases:
+  bio: /usr/local/bin/bio
+  fasta_filter.py: /usr/local/bin/fasta_filter.py
+  minimizers: /usr/local/bin/minimizers
+  numpy-config: /usr/local/bin/numpy-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer

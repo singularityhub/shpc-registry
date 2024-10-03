@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/sizemeup
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sizemeup
+latest:
+  1.2.3--pyhdfd78af_0: sha256:968f9dfb27aeb91ed2c12e83961c2efe9c3ebf52274ed2e3f51fb7138f064caf
+tags:
+  1.2.3--pyhdfd78af_0: sha256:968f9dfb27aeb91ed2c12e83961c2efe9c3ebf52274ed2e3f51fb7138f064caf
+docker: quay.io/biocontainers/sizemeup
+aliases:
+  sizemeup: /usr/local/bin/sizemeup
+  sizemeup-build: /usr/local/bin/sizemeup-build
+  sizemeup-main: /usr/local/bin/sizemeup-main
+  rich-click: /usr/local/bin/rich-click
+  markdown-it: /usr/local/bin/markdown-it
+  pygmentize: /usr/local/bin/pygmentize
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  normalizer: /usr/local/bin/normalizer
