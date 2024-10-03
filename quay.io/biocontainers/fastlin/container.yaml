@@ -2,12 +2,14 @@ url: https://biocontainers.pro/tools/fastlin
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fastlin
 latest:
-  0.2.3--h4349ce8_0: sha256:02b64254f7a4c187b2c268fb4dfe88d38e66c241b86f0a9e131bbaa397d133c5
+  0.4.1--h4349ce8_0: sha256:adf2c4dfd96c114ff2f544290520f1e76f5e6d88b7b702a211f6acacc3d552cb
 tags:
   0.1.0--h4349ce8_0: sha256:93de3f55be37f5e365a5ab5436cbfa2cfe7ee48c79fb64e2cb86cfddfedafb9f
   0.2.1--h4349ce8_0: sha256:b565e47d99a9caa196133d230a98fae92a30e3ad0d40721782efa0be12f33f99
   0.2.2.1--h4349ce8_0: sha256:e63c487d1435dc1b1d420db34e6f4251492cd59a471cdac4813fae15b53c428c
   0.2.3--h4349ce8_0: sha256:02b64254f7a4c187b2c268fb4dfe88d38e66c241b86f0a9e131bbaa397d133c5
+  0.4.1--h4349ce8_0: sha256:adf2c4dfd96c114ff2f544290520f1e76f5e6d88b7b702a211f6acacc3d552cb
+  0.3.0--h4349ce8_1: sha256:1308699a30d62dab5e6d0851f550618d3e627babe95316e7869f22ee98a57bed
 docker: quay.io/biocontainers/fastlin
 aliases:
   fastlin: /usr/local/bin/fastlin

@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/macrel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for macrel
 latest:
-  1.4.0--pyh7e72e81_0: sha256:7c3b14a71d0c1d1a137a6b54590bf280f34238cdb8bd6c9a794f122fcf418767
+  1.5.0--pyh7e72e81_0: sha256:d80a8e86c5ab00d08414d2c64e3f872429b73754fb1dc8b1c8da2fbda62764d1
 tags:
   1.2.0--pyh5e36f6f_0: sha256:13ccbe1e380e2536687663f55046fdd14f9bc663f9b19dfea70155f9ea59cf99
   1.2.0--pyhdfd78af_1: sha256:5fc52ca4e7509e82e984346d4f1331c0caa95ca8549ebd13d37aee462b638079
   1.3.0--pyh7cba7a3_0: sha256:92fd920873e4019499d24d79171eb8aed9c87ab8818511690b877e8225dedd3c
   1.4.0--pyh7e72e81_0: sha256:7c3b14a71d0c1d1a137a6b54590bf280f34238cdb8bd6c9a794f122fcf418767
+  1.5.0--pyh7e72e81_0: sha256:d80a8e86c5ab00d08414d2c64e3f872429b73754fb1dc8b1c8da2fbda62764d1
 docker: quay.io/biocontainers/macrel
 aliases:
   macrel: /usr/local/bin/macrel

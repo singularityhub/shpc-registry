@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/methylmap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for methylmap
 latest:
-  0.4.6--pyhdfd78af_0: sha256:67432301d9bc04d6167c51dafc8195f785f64515b15393bdd35db0f163e7bdfe
+  0.5.4--pyhdfd78af_0: sha256:d2d61ff12f25ca1b6e6f080f941f05813b1427c36c82a2d7182038d39610999a
 tags:
   0.3.4--pyhdfd78af_0: sha256:0af2ce7c5a46d068487e9db95fb293191b94bffc4b93a9fe79d6349e3064184e
   0.3.5--pyhdfd78af_0: sha256:a44e134e8f0f65043e12d25d838ee171a88ccbafaf869ed6c80a947b808bb586
   0.4.6--pyhdfd78af_0: sha256:67432301d9bc04d6167c51dafc8195f785f64515b15393bdd35db0f163e7bdfe
+  0.5.4--pyhdfd78af_0: sha256:d2d61ff12f25ca1b6e6f080f941f05813b1427c36c82a2d7182038d39610999a
 docker: quay.io/biocontainers/methylmap
 aliases:
   methylmap: /usr/local/bin/methylmap
