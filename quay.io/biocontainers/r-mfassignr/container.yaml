@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-mfassignr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-mfassignr
 latest:
-  1.0.3: sha256:6cac6c86071e7bbf1a56fd014e58e2d8400213fadc252a95caf6f88971c736fc
+  1.1.1--r44hdfd78af_0: sha256:5b7d09513c3b8a2a3010c67931f48a3a0e7a06441a14648c3db28b71334a3ea9
 tags:
   1.0.3: sha256:6cac6c86071e7bbf1a56fd014e58e2d8400213fadc252a95caf6f88971c736fc
+  1.1.1--r44hdfd78af_0: sha256:5b7d09513c3b8a2a3010c67931f48a3a0e7a06441a14648c3db28b71334a3ea9
 docker: quay.io/biocontainers/r-mfassignr
 aliases:
   hb-info: /usr/local/bin/hb-info
