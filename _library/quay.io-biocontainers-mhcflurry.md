@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mhcflurry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mhcflurry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mhcflurry/container.yaml"
-updated_at: "2024-10-03 03:40:41.949803"
-latest: "2.1.2--pyh7e72e81_0"
+updated_at: "2024-10-04 03:32:41.161035"
+latest: "2.1.4--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/mhcflurry"
 aliases:
  - "_mhcflurry-cluster-worker-entry-point"
@@ -37,8 +37,9 @@ versions:
  - "2.1.0--pyh7cba7a3_0"
  - "2.1.1--pyh7cba7a3_0"
  - "2.1.2--pyh7e72e81_0"
+ - "2.1.4--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for mhcflurry"
-config: {"url": "https://biocontainers.pro/tools/mhcflurry", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mhcflurry", "latest": {"2.1.2--pyh7e72e81_0": "sha256:8d15f71f01b884fc001a103b62e2a2600b5e856206d3a682d1183179cc345894"}, "tags": {"2.0.1--pyh864c0ab_0": "sha256:00f87fd3ce4d2c069d14c44822d6ef024dd55165a181cde57bbc96119ce4ee53", "2.0.6--pyh7cba7a3_0": "sha256:485d9e6f847228f65721ca6d5e59a0d7f3f6237c4eb5c34c4ee551e13ef0e28c", "2.1.0--pyh7cba7a3_0": "sha256:101c694c3d60c33a5d5fd9058df7091d22ae7b760e0fbfff4e21228c208aea22", "2.1.1--pyh7cba7a3_0": "sha256:760a5fecc9b65a0cd1ccca93b4e412df0816329d0d335e265665d4322cf618db", "2.1.2--pyh7e72e81_0": "sha256:8d15f71f01b884fc001a103b62e2a2600b5e856206d3a682d1183179cc345894"}, "docker": "quay.io/biocontainers/mhcflurry", "aliases": {"_mhcflurry-cluster-worker-entry-point": "/usr/local/bin/_mhcflurry-cluster-worker-entry-point", "mhcflurry-calibrate-percentile-ranks": "/usr/local/bin/mhcflurry-calibrate-percentile-ranks", "mhcflurry-class1-select-allele-specific-models": "/usr/local/bin/mhcflurry-class1-select-allele-specific-models", "mhcflurry-class1-select-pan-allele-models": "/usr/local/bin/mhcflurry-class1-select-pan-allele-models", "mhcflurry-class1-select-processing-models": "/usr/local/bin/mhcflurry-class1-select-processing-models", "mhcflurry-class1-train-allele-specific-models": "/usr/local/bin/mhcflurry-class1-train-allele-specific-models", "mhcflurry-class1-train-pan-allele-models": "/usr/local/bin/mhcflurry-class1-train-pan-allele-models", "mhcflurry-class1-train-presentation-models": "/usr/local/bin/mhcflurry-class1-train-presentation-models", "mhcflurry-class1-train-processing-models": "/usr/local/bin/mhcflurry-class1-train-processing-models", "mhcflurry-downloads": "/usr/local/bin/mhcflurry-downloads", "mhcflurry-predict": "/usr/local/bin/mhcflurry-predict", "mhcflurry-predict-scan": "/usr/local/bin/mhcflurry-predict-scan", "pyjwt": "/usr/local/bin/pyjwt", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt"}}
+config: {"url": "https://biocontainers.pro/tools/mhcflurry", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mhcflurry", "latest": {"2.1.4--pyh7e72e81_0": "sha256:594985564aeb0978fd041dc9a8b76a67218afb8b9d9f93267ecd369c819346e2"}, "tags": {"2.0.1--pyh864c0ab_0": "sha256:00f87fd3ce4d2c069d14c44822d6ef024dd55165a181cde57bbc96119ce4ee53", "2.0.6--pyh7cba7a3_0": "sha256:485d9e6f847228f65721ca6d5e59a0d7f3f6237c4eb5c34c4ee551e13ef0e28c", "2.1.0--pyh7cba7a3_0": "sha256:101c694c3d60c33a5d5fd9058df7091d22ae7b760e0fbfff4e21228c208aea22", "2.1.1--pyh7cba7a3_0": "sha256:760a5fecc9b65a0cd1ccca93b4e412df0816329d0d335e265665d4322cf618db", "2.1.2--pyh7e72e81_0": "sha256:8d15f71f01b884fc001a103b62e2a2600b5e856206d3a682d1183179cc345894", "2.1.4--pyh7e72e81_0": "sha256:594985564aeb0978fd041dc9a8b76a67218afb8b9d9f93267ecd369c819346e2"}, "docker": "quay.io/biocontainers/mhcflurry", "aliases": {"_mhcflurry-cluster-worker-entry-point": "/usr/local/bin/_mhcflurry-cluster-worker-entry-point", "mhcflurry-calibrate-percentile-ranks": "/usr/local/bin/mhcflurry-calibrate-percentile-ranks", "mhcflurry-class1-select-allele-specific-models": "/usr/local/bin/mhcflurry-class1-select-allele-specific-models", "mhcflurry-class1-select-pan-allele-models": "/usr/local/bin/mhcflurry-class1-select-pan-allele-models", "mhcflurry-class1-select-processing-models": "/usr/local/bin/mhcflurry-class1-select-processing-models", "mhcflurry-class1-train-allele-specific-models": "/usr/local/bin/mhcflurry-class1-train-allele-specific-models", "mhcflurry-class1-train-pan-allele-models": "/usr/local/bin/mhcflurry-class1-train-pan-allele-models", "mhcflurry-class1-train-presentation-models": "/usr/local/bin/mhcflurry-class1-train-presentation-models", "mhcflurry-class1-train-processing-models": "/usr/local/bin/mhcflurry-class1-train-processing-models", "mhcflurry-downloads": "/usr/local/bin/mhcflurry-downloads", "mhcflurry-predict": "/usr/local/bin/mhcflurry-predict", "mhcflurry-predict-scan": "/usr/local/bin/mhcflurry-predict-scan", "pyjwt": "/usr/local/bin/pyjwt", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mhcflurry.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/mhcflurry
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mhcflurry:2.1.2--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/mhcflurry:2.1.4--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mhcflurry/2.1.2--pyh7e72e81_0
-$ module help quay.io/biocontainers/mhcflurry/2.1.2--pyh7e72e81_0
+$ module load quay.io/biocontainers/mhcflurry/2.1.4--pyh7e72e81_0
+$ module help quay.io/biocontainers/mhcflurry/2.1.4--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

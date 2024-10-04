@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-generecommender"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-generecommender/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-generecommender/container.yaml"
-updated_at: "2024-10-03 03:02:31.166573"
+updated_at: "2024-10-04 02:52:48.186738"
 latest: "1.74.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-generecommender"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/diphase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diphase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/diphase/container.yaml"
-updated_at: "2024-10-03 03:26:21.237838"
+updated_at: "2024-10-04 03:17:44.726112"
 latest: "1.0.2--h739ee2d_0"
 container_url: "https://biocontainers.pro/tools/diphase"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lexicmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lexicmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lexicmap/container.yaml"
-updated_at: "2024-10-03 03:16:46.460511"
+updated_at: "2024-10-04 03:07:39.035640"
 latest: "0.4.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/lexicmap"
 aliases:

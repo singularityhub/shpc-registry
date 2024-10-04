@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-executor-plugin-drmaa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-executor-plugin-drmaa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-executor-plugin-drmaa/container.yaml"
-updated_at: "2024-10-03 03:28:49.594474"
-latest: "0.1.4--pyhdfd78af_0"
+updated_at: "2024-10-04 03:20:18.647911"
+latest: "0.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-executor-plugin-drmaa"
 aliases:
  - "2to3-3.12"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.1.3--pyhdfd78af_0"
  - "0.1.4--pyhdfd78af_0"
+ - "0.1.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-executor-plugin-drmaa"
-config: {"url": "https://biocontainers.pro/tools/snakemake-executor-plugin-drmaa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-executor-plugin-drmaa", "latest": {"0.1.4--pyhdfd78af_0": "sha256:b76707a4a34a8576c02c079dd42c1044a6c54df64dcfd57ea16fbd3ab6b06e6c"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:081df72898ae48f956569da1b43ffdbb6fba4cd4ba8738016a736b0ffbeb55c9", "0.1.4--pyhdfd78af_0": "sha256:b76707a4a34a8576c02c079dd42c1044a6c54df64dcfd57ea16fbd3ab6b06e6c"}, "docker": "quay.io/biocontainers/snakemake-executor-plugin-drmaa", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-executor-plugin-drmaa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-executor-plugin-drmaa", "latest": {"0.1.5--pyhdfd78af_0": "sha256:28886179596f2e9b8a8c76a13006415bb1daa437b9e8f3b3674c188d1244abb4"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:081df72898ae48f956569da1b43ffdbb6fba4cd4ba8738016a736b0ffbeb55c9", "0.1.4--pyhdfd78af_0": "sha256:b76707a4a34a8576c02c079dd42c1044a6c54df64dcfd57ea16fbd3ab6b06e6c", "0.1.5--pyhdfd78af_0": "sha256:28886179596f2e9b8a8c76a13006415bb1daa437b9e8f3b3674c188d1244abb4"}, "docker": "quay.io/biocontainers/snakemake-executor-plugin-drmaa", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-executor-plugin-drmaa.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/snakemake-executor-plugin-drmaa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-executor-plugin-drmaa:0.1.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-executor-plugin-drmaa:0.1.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-executor-plugin-drmaa/0.1.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-executor-plugin-drmaa/0.1.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-executor-plugin-drmaa/0.1.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-executor-plugin-drmaa/0.1.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

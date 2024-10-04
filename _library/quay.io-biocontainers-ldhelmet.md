@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ldhelmet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ldhelmet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ldhelmet/container.yaml"
-updated_at: "2024-10-03 03:36:32.170995"
+updated_at: "2024-10-04 03:28:21.120645"
 latest: "1.10--heacdb12_7"
 container_url: "https://biocontainers.pro/tools/ldhelmet"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastlin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastlin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastlin/container.yaml"
-updated_at: "2024-10-03 03:20:15.280220"
-latest: "0.2.3--h4349ce8_0"
+updated_at: "2024-10-04 03:11:24.280197"
+latest: "0.4.1--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/fastlin"
 aliases:
  - "fastlin"
@@ -14,8 +14,10 @@ versions:
  - "0.2.1--h4349ce8_0"
  - "0.2.2.1--h4349ce8_0"
  - "0.2.3--h4349ce8_0"
+ - "0.4.1--h4349ce8_0"
+ - "0.3.0--h4349ce8_1"
 description: "singularity registry hpc automated addition for fastlin"
-config: {"url": "https://biocontainers.pro/tools/fastlin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastlin", "latest": {"0.2.3--h4349ce8_0": "sha256:02b64254f7a4c187b2c268fb4dfe88d38e66c241b86f0a9e131bbaa397d133c5"}, "tags": {"0.1.0--h4349ce8_0": "sha256:93de3f55be37f5e365a5ab5436cbfa2cfe7ee48c79fb64e2cb86cfddfedafb9f", "0.2.1--h4349ce8_0": "sha256:b565e47d99a9caa196133d230a98fae92a30e3ad0d40721782efa0be12f33f99", "0.2.2.1--h4349ce8_0": "sha256:e63c487d1435dc1b1d420db34e6f4251492cd59a471cdac4813fae15b53c428c", "0.2.3--h4349ce8_0": "sha256:02b64254f7a4c187b2c268fb4dfe88d38e66c241b86f0a9e131bbaa397d133c5"}, "docker": "quay.io/biocontainers/fastlin", "aliases": {"fastlin": "/usr/local/bin/fastlin"}}
+config: {"url": "https://biocontainers.pro/tools/fastlin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastlin", "latest": {"0.4.1--h4349ce8_0": "sha256:adf2c4dfd96c114ff2f544290520f1e76f5e6d88b7b702a211f6acacc3d552cb"}, "tags": {"0.1.0--h4349ce8_0": "sha256:93de3f55be37f5e365a5ab5436cbfa2cfe7ee48c79fb64e2cb86cfddfedafb9f", "0.2.1--h4349ce8_0": "sha256:b565e47d99a9caa196133d230a98fae92a30e3ad0d40721782efa0be12f33f99", "0.2.2.1--h4349ce8_0": "sha256:e63c487d1435dc1b1d420db34e6f4251492cd59a471cdac4813fae15b53c428c", "0.2.3--h4349ce8_0": "sha256:02b64254f7a4c187b2c268fb4dfe88d38e66c241b86f0a9e131bbaa397d133c5", "0.4.1--h4349ce8_0": "sha256:adf2c4dfd96c114ff2f544290520f1e76f5e6d88b7b702a211f6acacc3d552cb", "0.3.0--h4349ce8_1": "sha256:1308699a30d62dab5e6d0851f550618d3e627babe95316e7869f22ee98a57bed"}, "docker": "quay.io/biocontainers/fastlin", "aliases": {"fastlin": "/usr/local/bin/fastlin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastlin.
@@ -30,7 +32,7 @@ $ shpc install quay.io/biocontainers/fastlin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastlin:0.2.3--h4349ce8_0
+$ shpc install quay.io/biocontainers/fastlin:0.4.1--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastlin/0.2.3--h4349ce8_0
-$ module help quay.io/biocontainers/fastlin/0.2.3--h4349ce8_0
+$ module load quay.io/biocontainers/fastlin/0.4.1--h4349ce8_0
+$ module help quay.io/biocontainers/fastlin/0.4.1--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
