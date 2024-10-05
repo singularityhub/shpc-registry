@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clinker-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clinker-py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clinker-py/container.yaml"
-updated_at: "2024-10-04 03:33:07.720612"
-latest: "0.0.29--pyhdfd78af_0"
+updated_at: "2024-10-05 03:29:07.759552"
+latest: "0.0.30--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/clinker-py"
 aliases:
  - "clinker"
@@ -25,8 +25,9 @@ versions:
  - "0.0.27--pyh7cba7a3_0"
  - "0.0.28--pyh7cba7a3_0"
  - "0.0.29--pyhdfd78af_0"
+ - "0.0.30--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for clinker-py"
-config: {"url": "https://biocontainers.pro/tools/clinker-py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clinker-py", "latest": {"0.0.29--pyhdfd78af_0": "sha256:a0a696571cde98203b4a700b6c869a0744321392deb4f86f8bb008613556a394"}, "tags": {"0.0.25--pyh5e36f6f_0": "sha256:a732c3d6103353b4e41d32fd02f4b6d108c29a8b40e411b0c1b62fe1c4d1c08f", "0.0.26--pyh7cba7a3_0": "sha256:06c256766628df5aa530dba8e2bdf2253819a28bf01d7d099e927bde1a65860a", "0.0.27--pyh7cba7a3_0": "sha256:8f479d56f6a32241d6156f1951ef50f3d56b42ab91b8474c1abe2cb9c982da7a", "0.0.28--pyh7cba7a3_0": "sha256:3c315d75dcf5a4bafa20624efd47fc09ea0ddac2ea83ea9748b01a7d915dadd9", "0.0.29--pyhdfd78af_0": "sha256:a0a696571cde98203b4a700b6c869a0744321392deb4f86f8bb008613556a394"}, "docker": "quay.io/biocontainers/clinker-py", "aliases": {"clinker": "/usr/local/bin/clinker", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "faidx": "/usr/local/bin/faidx", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
+config: {"url": "https://biocontainers.pro/tools/clinker-py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clinker-py", "latest": {"0.0.30--pyhdfd78af_0": "sha256:86612195916a114dd2bf95b36ba68788e28ce8483e727a3701f5e15ff8b8bf3d"}, "tags": {"0.0.25--pyh5e36f6f_0": "sha256:a732c3d6103353b4e41d32fd02f4b6d108c29a8b40e411b0c1b62fe1c4d1c08f", "0.0.26--pyh7cba7a3_0": "sha256:06c256766628df5aa530dba8e2bdf2253819a28bf01d7d099e927bde1a65860a", "0.0.27--pyh7cba7a3_0": "sha256:8f479d56f6a32241d6156f1951ef50f3d56b42ab91b8474c1abe2cb9c982da7a", "0.0.28--pyh7cba7a3_0": "sha256:3c315d75dcf5a4bafa20624efd47fc09ea0ddac2ea83ea9748b01a7d915dadd9", "0.0.29--pyhdfd78af_0": "sha256:a0a696571cde98203b4a700b6c869a0744321392deb4f86f8bb008613556a394", "0.0.30--pyhdfd78af_0": "sha256:86612195916a114dd2bf95b36ba68788e28ce8483e727a3701f5e15ff8b8bf3d"}, "docker": "quay.io/biocontainers/clinker-py", "aliases": {"clinker": "/usr/local/bin/clinker", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "faidx": "/usr/local/bin/faidx", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clinker-py.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/clinker-py
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clinker-py:0.0.29--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/clinker-py:0.0.30--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clinker-py/0.0.29--pyhdfd78af_0
-$ module help quay.io/biocontainers/clinker-py/0.0.29--pyhdfd78af_0
+$ module load quay.io/biocontainers/clinker-py/0.0.30--pyhdfd78af_0
+$ module help quay.io/biocontainers/clinker-py/0.0.30--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

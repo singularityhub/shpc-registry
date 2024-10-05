@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bactopia-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bactopia-py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bactopia-py/container.yaml"
-updated_at: "2024-10-04 03:10:38.352032"
-latest: "1.1.1--pyhdfd78af_0"
+updated_at: "2024-10-05 03:07:06.490181"
+latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bactopia-py"
 aliases:
  - "bactopia-citations"
@@ -40,8 +40,9 @@ versions:
  - "1.0.8--pyhdfd78af_0"
  - "1.0.9--pyhdfd78af_0"
  - "1.1.1--pyhdfd78af_0"
+ - "1.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for bactopia-py"
-config: {"url": "https://biocontainers.pro/tools/bactopia-py", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bactopia-py", "latest": {"1.1.1--pyhdfd78af_0": "sha256:87344c8c7d9966da3930309d05ad876a0ef8e81754a99290b1befb5e18f4a13f"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:9c862327762822dbb3fc8384da027bc919cf91695812e5917c62b0d95515b261", "1.0.2--pyhdfd78af_0": "sha256:8dc29581e9ac9b3e0bdc9f9c338d6f712c25d075a6626c952f183e42fe97827b", "1.0.3--pyhdfd78af_0": "sha256:ce6e11cfaa669bba5b68d4977263cab3f3f7092bd129156fd58a9b743dffddf4", "1.0.4--pyhdfd78af_0": "sha256:eb29a96ee5cfb9317ded260c8c4bafa8808d51d87a100ede4a5b3eb01fa717b8", "1.0.7--pyhdfd78af_0": "sha256:de267cbc215bd95838ea08345db3e674913ab1209dbaf0147b8a26629801ed9e", "1.0.8--pyhdfd78af_0": "sha256:a7e0d8715fbf736cf71fbebdd3bfa9acdc99bc085230e8a1bf9d0d06fd5bd3a3", "1.0.9--pyhdfd78af_0": "sha256:a2fc3a777b9f253af9a3976b76f568d68d747e3693b63fb20fd8d44312951d12", "1.1.1--pyhdfd78af_0": "sha256:87344c8c7d9966da3930309d05ad876a0ef8e81754a99290b1befb5e18f4a13f"}, "docker": "quay.io/biocontainers/bactopia-py", "aliases": {"bactopia-citations": "/usr/local/bin/bactopia-citations", "bactopia-download": "/usr/local/bin/bactopia-download", "bactopia-prepare": "/usr/local/bin/bactopia-prepare", "bactopia-search": "/usr/local/bin/bactopia-search", "bactopia-summary": "/usr/local/bin/bactopia-summary", "executor": "/usr/local/bin/executor", "markdown-it": "/usr/local/bin/markdown-it", "pysradb": "/usr/local/bin/pysradb", "rich-click": "/usr/local/bin/rich-click", "f2py3.11": "/usr/local/bin/f2py3.11", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "pygmentize": "/usr/local/bin/pygmentize", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bactopia-py", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bactopia-py", "latest": {"1.2.0--pyhdfd78af_0": "sha256:339bb240b8ad0df1ac99e281bf2b8c5fa00ddd7fc2a33fa4fbcdca426d081410"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:9c862327762822dbb3fc8384da027bc919cf91695812e5917c62b0d95515b261", "1.0.2--pyhdfd78af_0": "sha256:8dc29581e9ac9b3e0bdc9f9c338d6f712c25d075a6626c952f183e42fe97827b", "1.0.3--pyhdfd78af_0": "sha256:ce6e11cfaa669bba5b68d4977263cab3f3f7092bd129156fd58a9b743dffddf4", "1.0.4--pyhdfd78af_0": "sha256:eb29a96ee5cfb9317ded260c8c4bafa8808d51d87a100ede4a5b3eb01fa717b8", "1.0.7--pyhdfd78af_0": "sha256:de267cbc215bd95838ea08345db3e674913ab1209dbaf0147b8a26629801ed9e", "1.0.8--pyhdfd78af_0": "sha256:a7e0d8715fbf736cf71fbebdd3bfa9acdc99bc085230e8a1bf9d0d06fd5bd3a3", "1.0.9--pyhdfd78af_0": "sha256:a2fc3a777b9f253af9a3976b76f568d68d747e3693b63fb20fd8d44312951d12", "1.1.1--pyhdfd78af_0": "sha256:87344c8c7d9966da3930309d05ad876a0ef8e81754a99290b1befb5e18f4a13f", "1.2.0--pyhdfd78af_0": "sha256:339bb240b8ad0df1ac99e281bf2b8c5fa00ddd7fc2a33fa4fbcdca426d081410"}, "docker": "quay.io/biocontainers/bactopia-py", "aliases": {"bactopia-citations": "/usr/local/bin/bactopia-citations", "bactopia-download": "/usr/local/bin/bactopia-download", "bactopia-prepare": "/usr/local/bin/bactopia-prepare", "bactopia-search": "/usr/local/bin/bactopia-search", "bactopia-summary": "/usr/local/bin/bactopia-summary", "executor": "/usr/local/bin/executor", "markdown-it": "/usr/local/bin/markdown-it", "pysradb": "/usr/local/bin/pysradb", "rich-click": "/usr/local/bin/rich-click", "f2py3.11": "/usr/local/bin/f2py3.11", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "pygmentize": "/usr/local/bin/pygmentize", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bactopia-py.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/bactopia-py
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bactopia-py:1.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bactopia-py:1.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bactopia-py/1.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/bactopia-py/1.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/bactopia-py/1.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/bactopia-py/1.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

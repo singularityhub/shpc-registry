@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mummer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mummer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mummer/container.yaml"
-updated_at: "2024-10-04 03:12:38.073771"
-latest: "3.23--pl5321hdbdd923_19"
+updated_at: "2024-10-05 03:09:02.623083"
+latest: "3.23--pl5321hdbdd923_20"
 container_url: "https://biocontainers.pro/tools/mummer"
 aliases:
  - "mummer"
@@ -16,8 +16,9 @@ versions:
  - "3.23--pl5321h7021222_17"
  - "3.23--pl5321hdbdd923_18"
  - "3.23--pl5321hdbdd923_19"
+ - "3.23--pl5321hdbdd923_20"
 description: "shpc-registry automated BioContainers addition for mummer"
-config: {"url": "https://biocontainers.pro/tools/mummer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mummer", "latest": {"3.23--pl5321hdbdd923_19": "sha256:18ef49dd6883f3a12729e6470f540b50877340aa666c3835aadfbb9f6d8d3ab2"}, "tags": {"3.23--pl5321h87f3376_14": "sha256:7e8794c0f90afcca59db2b8d4be8c769b463ef7f3dc6d3f70970eae5c36ccf3f", "3.23--pl5321hdbdd923_16": "sha256:6cc30f4cd6e23263532cd62400b12e4a740b1386d76ac4d6a39a40dcd54211b6", "3.23--pl5321hdbdd923_17": "sha256:4c143caa2358ece952dc2e5c0f5151e6bf95554007d68654890317e14bc5e213", "3.23--pl5321h7021222_17": "sha256:669733941f56fc76229d82d6aa8a9d6b74c1e2f4dc9467e5e8b84b506da27330", "3.23--pl5321hdbdd923_18": "sha256:7fa8a44740a5818cbd89aa6e04f58387fb85c50fa5b23d87f6f91304d5eded47", "3.23--pl5321hdbdd923_19": "sha256:18ef49dd6883f3a12729e6470f540b50877340aa666c3835aadfbb9f6d8d3ab2"}, "docker": "quay.io/biocontainers/mummer", "aliases": {"mummer": "/usr/local/bin/mummer"}}
+config: {"url": "https://biocontainers.pro/tools/mummer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mummer", "latest": {"3.23--pl5321hdbdd923_20": "sha256:67c09a1869f18e49fe9b3ff999b32881c1d93cab23d08e713f2446f0b43ec167"}, "tags": {"3.23--pl5321h87f3376_14": "sha256:7e8794c0f90afcca59db2b8d4be8c769b463ef7f3dc6d3f70970eae5c36ccf3f", "3.23--pl5321hdbdd923_16": "sha256:6cc30f4cd6e23263532cd62400b12e4a740b1386d76ac4d6a39a40dcd54211b6", "3.23--pl5321hdbdd923_17": "sha256:4c143caa2358ece952dc2e5c0f5151e6bf95554007d68654890317e14bc5e213", "3.23--pl5321h7021222_17": "sha256:669733941f56fc76229d82d6aa8a9d6b74c1e2f4dc9467e5e8b84b506da27330", "3.23--pl5321hdbdd923_18": "sha256:7fa8a44740a5818cbd89aa6e04f58387fb85c50fa5b23d87f6f91304d5eded47", "3.23--pl5321hdbdd923_19": "sha256:9d0f088b8374f2d557dc43939d337d4c7c48f9b9aab70d397ee059a716a7e873", "3.23--pl5321hdbdd923_20": "sha256:67c09a1869f18e49fe9b3ff999b32881c1d93cab23d08e713f2446f0b43ec167"}, "docker": "quay.io/biocontainers/mummer", "aliases": {"mummer": "/usr/local/bin/mummer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mummer.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/mummer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mummer:3.23--pl5321hdbdd923_19
+$ shpc install quay.io/biocontainers/mummer:3.23--pl5321hdbdd923_20
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mummer/3.23--pl5321hdbdd923_19
-$ module help quay.io/biocontainers/mummer/3.23--pl5321hdbdd923_19
+$ module load quay.io/biocontainers/mummer/3.23--pl5321hdbdd923_20
+$ module help quay.io/biocontainers/mummer/3.23--pl5321hdbdd923_20
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

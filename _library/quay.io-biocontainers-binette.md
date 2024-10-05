@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/binette"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/binette/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/binette/container.yaml"
-updated_at: "2024-10-04 03:19:59.790327"
-latest: "1.0.1--pyh7e72e81_0"
+updated_at: "2024-10-05 03:16:15.942407"
+latest: "1.0.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/binette"
 aliases:
  - "binette"
@@ -42,8 +42,9 @@ versions:
  - "1.0.0--pyh7cba7a3_0"
  - "0.1.7--pyh7cba7a3_0"
  - "1.0.1--pyh7e72e81_0"
+ - "1.0.2--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for binette"
-config: {"url": "https://biocontainers.pro/tools/binette", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for binette", "latest": {"1.0.1--pyh7e72e81_0": "sha256:f70bcdf99af206497c3f1bd42708bac88e44eeb4a35535825eba18803d4e14e0"}, "tags": {"0.1.6--pyh7cba7a3_0": "sha256:ba990894d2cc6179191e635c459a3cf5c01b178bdbe2f7acd184c8211791073b", "1.0.0--pyh7cba7a3_0": "sha256:58d240522cd791b20acb0d61491eda65bf3f33a6461cdb61741fc074a7f43619", "0.1.7--pyh7cba7a3_0": "sha256:c24a73e65f2b8d1d37fa4146f496af53e3945ea4476d7f9b6df2581e08e3aa9a", "1.0.1--pyh7e72e81_0": "sha256:f70bcdf99af206497c3f1bd42708bac88e44eeb4a35535825eba18803d4e14e0"}, "docker": "quay.io/biocontainers/binette", "aliases": {"binette": "/usr/local/bin/binette", "checkm2": "/usr/local/bin/checkm2", "protoc-23.3.0": "/usr/local/bin/protoc-23.3.0", "pyrodigal": "/usr/local/bin/pyrodigal", "pyfastx": "/usr/local/bin/pyfastx", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "diamond": "/usr/local/bin/diamond", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "markdown_py": "/usr/local/bin/markdown_py", "prodigal": "/usr/local/bin/prodigal", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign"}}
+config: {"url": "https://biocontainers.pro/tools/binette", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for binette", "latest": {"1.0.2--pyh7e72e81_0": "sha256:93ca3700df542c3a922db5cefea29b01120e9923964bd6570354fd0feb589467"}, "tags": {"0.1.6--pyh7cba7a3_0": "sha256:ba990894d2cc6179191e635c459a3cf5c01b178bdbe2f7acd184c8211791073b", "1.0.0--pyh7cba7a3_0": "sha256:58d240522cd791b20acb0d61491eda65bf3f33a6461cdb61741fc074a7f43619", "0.1.7--pyh7cba7a3_0": "sha256:c24a73e65f2b8d1d37fa4146f496af53e3945ea4476d7f9b6df2581e08e3aa9a", "1.0.1--pyh7e72e81_0": "sha256:f70bcdf99af206497c3f1bd42708bac88e44eeb4a35535825eba18803d4e14e0", "1.0.2--pyh7e72e81_0": "sha256:93ca3700df542c3a922db5cefea29b01120e9923964bd6570354fd0feb589467"}, "docker": "quay.io/biocontainers/binette", "aliases": {"binette": "/usr/local/bin/binette", "checkm2": "/usr/local/bin/checkm2", "protoc-23.3.0": "/usr/local/bin/protoc-23.3.0", "pyrodigal": "/usr/local/bin/pyrodigal", "pyfastx": "/usr/local/bin/pyfastx", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "diamond": "/usr/local/bin/diamond", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "markdown_py": "/usr/local/bin/markdown_py", "prodigal": "/usr/local/bin/prodigal", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/binette.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/binette
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/binette:1.0.1--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/binette:1.0.2--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/binette/1.0.1--pyh7e72e81_0
-$ module help quay.io/biocontainers/binette/1.0.1--pyh7e72e81_0
+$ module load quay.io/biocontainers/binette/1.0.2--pyh7e72e81_0
+$ module help quay.io/biocontainers/binette/1.0.2--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
