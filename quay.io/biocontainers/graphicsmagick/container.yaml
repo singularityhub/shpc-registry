@@ -2,12 +2,13 @@ url: https://biocontainers.pro/tools/graphicsmagick
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for graphicsmagick
 latest:
-  1.3.44: sha256:96befa22774a532ef2ddb6a6fd902c5c10d16aada7887103791976c6b9fabc47
+  1.3.45: sha256:650a5cc5cc320628bf9f7c03eaebd3ade303efc0633ebeeadffc9e7106e6a4d6
 tags:
   1.3.31: sha256:35d1a1cf270b5968e7adc8dd2c42324917729004784f740a39139b74543cf124
   1.3.42: sha256:45989dbbf99e793a5a8702543a8a9c7f0a58693f01884ff302e84c0ea83d2a45
   1.3.43: sha256:f052a92264afa84157f28832cbac6216d51c3dcd7477104af99f041396d68dc7
   1.3.44: sha256:96befa22774a532ef2ddb6a6fd902c5c10d16aada7887103791976c6b9fabc47
+  1.3.45: sha256:650a5cc5cc320628bf9f7c03eaebd3ade303efc0633ebeeadffc9e7106e6a4d6
 docker: quay.io/biocontainers/graphicsmagick
 aliases:
   GraphicsMagick++-config: /usr/local/bin/GraphicsMagick++-config

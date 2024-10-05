@@ -3,7 +3,7 @@ url: https://hub.docker.com/r/rocker/ml
 maintainer: '@vsoch'
 description: Docker images with R + machine learning libraries (CPU versions).
 latest:
-  4.4.1: sha256:9a7ae69d0d4213a4ccabe93ccfcb6b611db5177e34590cf830b4ca8eae9c2f8c
+  4.4.1: sha256:327295f35a097a7ee2fec46804e0a285057c9918df1e4e12470e915e29e7de40
 tags:
   4.2.2: sha256:9c4ed7755fa4d692a7cc90a0266772f00b8e9fba50a819cfbf49a57de09207f6
   4.2.3: sha256:92dc1cc1a917a76adbb7622e6573d633ad8aefbbb14fedfd1ac0b3ad8b8149c7
@@ -11,7 +11,7 @@ tags:
   4.3.1: sha256:931ff49b8aba52ebfca958337eee1f692dc6c8a8649dc68fb1c50b87510561f1
   4.3.2: sha256:ada39a6d980edf54fc0756a36b99a09ef3c4a5ec7fd468890c42412311db21a4
   4.4.0: sha256:b9c59ded7a16c589edc0ebcc5838fe92779a1d082ad5345762bce9f400433869
-  4.4.1: sha256:9a7ae69d0d4213a4ccabe93ccfcb6b611db5177e34590cf830b4ca8eae9c2f8c
+  4.4.1: sha256:327295f35a097a7ee2fec46804e0a285057c9918df1e4e12470e915e29e7de40
 filter:
 - ^[0-9]+[.][0-9]+[.][0-9]+$
 aliases:
