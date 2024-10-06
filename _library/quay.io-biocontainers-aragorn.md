@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aragorn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aragorn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aragorn/container.yaml"
-updated_at: "2024-10-05 03:33:25.235853"
+updated_at: "2024-10-06 03:40:46.297064"
 latest: "1.2.41--h031d066_3"
 container_url: "https://biocontainers.pro/tools/aragorn"
 aliases:

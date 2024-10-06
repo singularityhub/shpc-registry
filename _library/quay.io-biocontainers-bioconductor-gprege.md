@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gprege"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gprege/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gprege/container.yaml"
-updated_at: "2024-10-05 03:29:08.318015"
+updated_at: "2024-10-06 03:36:29.336719"
 latest: "1.38.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gprege"
 

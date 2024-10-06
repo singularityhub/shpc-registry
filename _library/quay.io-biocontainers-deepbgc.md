@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepbgc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepbgc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepbgc/container.yaml"
-updated_at: "2024-10-05 03:01:12.461329"
+updated_at: "2024-10-06 03:08:25.828023"
 latest: "0.1.31--pyhca03a8a_0"
 container_url: "https://biocontainers.pro/tools/deepbgc"
 aliases:

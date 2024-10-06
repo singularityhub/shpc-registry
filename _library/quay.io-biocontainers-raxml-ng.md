@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/raxml-ng"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raxml-ng/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/raxml-ng/container.yaml"
-updated_at: "2024-10-05 03:02:17.716941"
+updated_at: "2024-10-06 03:09:31.600312"
 latest: "1.2.2--h6d1f11b_0"
 container_url: "https://biocontainers.pro/tools/raxml-ng"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomescope2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomescope2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomescope2/container.yaml"
-updated_at: "2024-10-05 02:48:32.277188"
+updated_at: "2024-10-06 02:55:45.956996"
 latest: "2.0--py312r43hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/genomescope2"
 aliases:

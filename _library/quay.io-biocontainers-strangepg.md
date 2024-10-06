@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strangepg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strangepg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strangepg/container.yaml"
-updated_at: "2024-10-05 03:15:01.178640"
+updated_at: "2024-10-06 03:22:16.176196"
 latest: "0.8.4--h9a53f25_0"
 container_url: "https://biocontainers.pro/tools/strangepg"
 aliases:
