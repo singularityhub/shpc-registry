@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ropebwt3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ropebwt3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ropebwt3/container.yaml"
-updated_at: "2024-10-07 03:02:00.765445"
+updated_at: "2024-10-07 16:12:43.213144"
 latest: "3.7--he4a0461_0"
 container_url: "https://biocontainers.pro/tools/ropebwt3"
 aliases:

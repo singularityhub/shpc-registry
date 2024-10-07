@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcf-validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf-validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf-validator/container.yaml"
-updated_at: "2024-10-07 03:34:00.554938"
+updated_at: "2024-10-07 16:46:09.217691"
 latest: "0.9.7--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/vcf-validator"
 aliases:
