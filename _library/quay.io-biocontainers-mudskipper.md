@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mudskipper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mudskipper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mudskipper/container.yaml"
-updated_at: "2024-10-06 03:10:53.719608"
+updated_at: "2024-10-07 03:09:39.286543"
 latest: "0.1.0--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/mudskipper"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-edirquery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-edirquery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-edirquery/container.yaml"
-updated_at: "2024-10-06 03:12:56.282111"
+updated_at: "2024-10-07 03:11:43.418868"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-edirquery"
 aliases:
