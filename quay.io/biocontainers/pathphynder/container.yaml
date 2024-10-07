@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/pathphynder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pathphynder
 latest:
-  1.2.1--py312hdfd78af_3: sha256:9ae460b9aa2bacdbf9dc2551ac9dc3990ad2854208e03b2ebc36a67210dd3464
+  1.2.3--py312hdfd78af_0: sha256:05b124fb4cbcfddb3999f92c4799716c70a605d0195278bc806d34e85e353dd2
 tags:
   1.2.1--py312hdfd78af_0: sha256:d459e1c88803dc3faa0d92cef3e1f85b9aceaa7920f0bbc0639dee016ce19c7a
   1.2.1--py312hdfd78af_1: sha256:e42b188d0cded3db9e531cf3bc4b7a22844fdae79bfc0442a76491bbd24ac2a4
   1.2.1--py312hdfd78af_3: sha256:9ae460b9aa2bacdbf9dc2551ac9dc3990ad2854208e03b2ebc36a67210dd3464
+  1.2.3--py312hdfd78af_0: sha256:05b124fb4cbcfddb3999f92c4799716c70a605d0195278bc806d34e85e353dd2
 docker: quay.io/biocontainers/pathphynder
 aliases:
   pathPhynder: /usr/local/bin/pathPhynder
