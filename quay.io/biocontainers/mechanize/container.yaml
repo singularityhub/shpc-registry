@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/mechanize
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mechanize
+latest:
+  0.2.5: sha256:1d4e8a85f71a45865190b34702177390e13dfc33936c3ecc1cfa89df7e7fcd15
+tags:
+  0.2.5: sha256:1d4e8a85f71a45865190b34702177390e13dfc33936c3ecc1cfa89df7e7fcd15
+docker: quay.io/biocontainers/mechanize
+aliases:
+  python2-config: /usr/local/bin/python2-config
+  python2.7-config: /usr/local/bin/python2.7-config
+  python2: /usr/local/bin/python2
+  python2.7: /usr/local/bin/python2.7
+  idle: /usr/local/bin/idle
+  python-config: /usr/local/bin/python-config
+  smtpd.py: /usr/local/bin/smtpd.py

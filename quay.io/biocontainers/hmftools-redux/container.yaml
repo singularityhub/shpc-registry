@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/hmftools-redux
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hmftools-redux
+latest:
+  1.0_beta--hdfd78af_0: sha256:cd8b9582cdc782c83332b0d4b4c532f617c41d19d0725426413de301cd5da6ed
+tags:
+  1.0_beta--hdfd78af_0: sha256:cd8b9582cdc782c83332b0d4b4c532f617c41d19d0725426413de301cd5da6ed
+docker: quay.io/biocontainers/hmftools-redux
+aliases:
+  redux: /usr/local/bin/redux
+  sambamba: /usr/local/bin/sambamba
+  jwebserver: /usr/local/bin/jwebserver
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  hb-info: /usr/local/bin/hb-info
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  tjbench: /usr/local/bin/tjbench
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
