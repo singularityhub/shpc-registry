@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/rukki
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rukki
+latest:
+  0.3.0--h919a2d8_0: sha256:0127ff5d6f5c3cdefe567911405162dff5d243a03f13152e7e89daf400a7879f
+tags:
+  0.3.0--h919a2d8_0: sha256:0127ff5d6f5c3cdefe567911405162dff5d243a03f13152e7e89daf400a7879f
+docker: quay.io/biocontainers/rukki
+aliases:
+  rukki: /usr/local/bin/rukki
