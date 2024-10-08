@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/orthanq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for orthanq
 latest:
-  1.7.8--h7fa7510_0: sha256:9c44f6d25d6ed039a40c17898868a8af7eadc32af2b75d3202c7cfbcf9882662
+  1.7.9--h7fa7510_0: sha256:366b8879d2dbc1c091aeee9dea13e619fe9c8f610139b2c3719441a7369b5cf1
 tags:
   1.1.0--h7fa7510_0: sha256:d177677b673109f318657c076ddc8c3128d4420947da6b7ebd3288ba0626e9e4
   1.2.0--h7fa7510_0: sha256:857689c5fcbf5fef3323e65976f2ee677270e5b5dc330334009a9b7d71ac3854
@@ -13,6 +13,7 @@ tags:
   1.4.0--h7fa7510_1: sha256:87848d39f3d502ed3c5ece5f6db31e8ba632c3982b8e0cd413743bffca0c2a31
   1.7.1--h7fa7510_0: sha256:3fed2d62acba51541b55238544716fde91ff98134ba14997b23757f8dcced1b1
   1.7.8--h7fa7510_0: sha256:9c44f6d25d6ed039a40c17898868a8af7eadc32af2b75d3202c7cfbcf9882662
+  1.7.9--h7fa7510_0: sha256:366b8879d2dbc1c091aeee9dea13e619fe9c8f610139b2c3719441a7369b5cf1
 docker: quay.io/biocontainers/orthanq
 aliases:
   amdgpu-arch: /usr/local/bin/amdgpu-arch
