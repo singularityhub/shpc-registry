@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/falco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/falco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/falco/container.yaml"
-updated_at: "2024-10-07 16:06:19.892832"
-latest: "1.2.3--hdcf5f25_1"
+updated_at: "2024-10-08 02:55:22.670136"
+latest: "1.2.4--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/falco"
 aliases:
  - "falco"
@@ -18,8 +18,9 @@ versions:
  - "1.2.1--h146fbdb_5"
  - "1.2.2--hdcf5f25_0"
  - "1.2.3--hdcf5f25_1"
+ - "1.2.4--hdcf5f25_0"
 description: "shpc-registry automated BioContainers addition for falco"
-config: {"url": "https://biocontainers.pro/tools/falco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for falco", "latest": {"1.2.3--hdcf5f25_1": "sha256:3e006a3ed4b2183a8931b60504e1bbbca3da281e5ac1ebc11e172aa22cedd54d"}, "tags": {"1.2.1--h867801b_3": "sha256:6e83a10b0f59f7c8c9ef377006583374635f48a2cecf553f7123f25090917da2", "1.2.1--hd36ca80_4": "sha256:237d6382e9353759cba9fdd521a8ff4afb6b0d50c9148824b04d367abb500d96", "1.2.1--h146fbdb_5": "sha256:025f86e5c01d1bf6e1a90791926a0046852860592d2b2b2b9d2366b0532d57f0", "1.2.2--hdcf5f25_0": "sha256:9c75c8cc75a3f2ce46b2e5dfe61944697cf18d7e8435b3fef01cfb1e302c1ec5", "1.2.3--hdcf5f25_1": "sha256:3e006a3ed4b2183a8931b60504e1bbbca3da281e5ac1ebc11e172aa22cedd54d"}, "docker": "quay.io/biocontainers/falco", "aliases": {"falco": "/usr/local/bin/falco", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/falco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for falco", "latest": {"1.2.4--hdcf5f25_0": "sha256:beea7d4c76a7507642c110048dbbf0cbd0663db2300a1f043450a766c49db756"}, "tags": {"1.2.1--h867801b_3": "sha256:6e83a10b0f59f7c8c9ef377006583374635f48a2cecf553f7123f25090917da2", "1.2.1--hd36ca80_4": "sha256:237d6382e9353759cba9fdd521a8ff4afb6b0d50c9148824b04d367abb500d96", "1.2.1--h146fbdb_5": "sha256:025f86e5c01d1bf6e1a90791926a0046852860592d2b2b2b9d2366b0532d57f0", "1.2.2--hdcf5f25_0": "sha256:9c75c8cc75a3f2ce46b2e5dfe61944697cf18d7e8435b3fef01cfb1e302c1ec5", "1.2.3--hdcf5f25_1": "sha256:3e006a3ed4b2183a8931b60504e1bbbca3da281e5ac1ebc11e172aa22cedd54d", "1.2.4--hdcf5f25_0": "sha256:beea7d4c76a7507642c110048dbbf0cbd0663db2300a1f043450a766c49db756"}, "docker": "quay.io/biocontainers/falco", "aliases": {"falco": "/usr/local/bin/falco", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/falco.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/falco
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/falco:1.2.3--hdcf5f25_1
+$ shpc install quay.io/biocontainers/falco:1.2.4--hdcf5f25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/falco/1.2.3--hdcf5f25_1
-$ module help quay.io/biocontainers/falco/1.2.3--hdcf5f25_1
+$ module load quay.io/biocontainers/falco/1.2.4--hdcf5f25_0
+$ module help quay.io/biocontainers/falco/1.2.4--hdcf5f25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-easyrnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-easyrnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-easyrnaseq/container.yaml"
-updated_at: "2024-10-07 16:37:59.757224"
+updated_at: "2024-10-08 03:26:12.650661"
 latest: "2.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-easyrnaseq"
 

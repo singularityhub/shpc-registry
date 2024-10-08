@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gtotree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gtotree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gtotree/container.yaml"
-updated_at: "2024-10-07 16:17:46.263735"
+updated_at: "2024-10-08 03:06:34.593232"
 latest: "1.8.6--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/gtotree"
 aliases:
