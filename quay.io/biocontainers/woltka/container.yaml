@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/woltka
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for woltka
 latest:
-  0.1.6--pyh7cba7a3_0: sha256:6f349d288bd565b9b32c278bf79840204269e23afd97ad488d4f5d41d578a51a
+  0.1.7--pyhdfd78af_0: sha256:a2ffb42bc5a5edb96d2c60a12b7e461d98c01eaa3204866e9f702b10e483c893
 tags:
   0.1.5--pyh7cba7a3_0: sha256:79e38787aec12cfd67a107d3ab7f9535c556751852408ac4f2b41e370199f3b5
   0.1.6--pyh7cba7a3_0: sha256:6f349d288bd565b9b32c278bf79840204269e23afd97ad488d4f5d41d578a51a
+  0.1.7--pyhdfd78af_0: sha256:a2ffb42bc5a5edb96d2c60a12b7e461d98c01eaa3204866e9f702b10e483c893
 docker: quay.io/biocontainers/woltka
 aliases:
   f2py3.11: /usr/local/bin/f2py3.11
