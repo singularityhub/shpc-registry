@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/verkko
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for verkko
 latest:
-  2.2--h45dadce_0: sha256:65f05cd1552ee11a4dc4d7805fc7108f962f27595934fa4848566be41e0bc6bc
+  2.2.1--h45dadce_0: sha256:1d17089c1a4faeb415944ffefaca7d2d780e2732f1a60a337b20a026b9168a6f
 tags:
   1.1--h64afbab_0: sha256:7f5e46ea6b03f3d1873c4a06b681f24a9db1bda10a03d4b0e59f0a4d881d6d4a
   1.2--h64afbab_0: sha256:d4f8db736d1df768b5afc2b5d8e4f29634356f6f51f0a6eb8c411a4835fbfb4f
@@ -13,4 +13,5 @@ tags:
   2.1--h45dadce_0: sha256:456ac5d6b08916d2f347783617d699b6418ae1c026e44873f8b54eda0ca4f141
   2.0--h45dadce_0: sha256:433f9ae6888c4ffa0eeab8697a01adb156e4f97326c9e331f06e4eb5837655a6
   2.2--h45dadce_0: sha256:65f05cd1552ee11a4dc4d7805fc7108f962f27595934fa4848566be41e0bc6bc
+  2.2.1--h45dadce_0: sha256:1d17089c1a4faeb415944ffefaca7d2d780e2732f1a60a337b20a026b9168a6f
 docker: quay.io/biocontainers/verkko

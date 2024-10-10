@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/seurat-scripts
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seurat-scripts
 latest:
-  4.0.0--hdfd78af_0: sha256:455f2f0024096890c38d29b2f36b73400806c943a0f9c4e091cb7b07fae9afa0
+  4.4.0--hdfd78af_0: sha256:6bfc038d3f2d2a0362dd3d98de1d53bc3326b255f4175ef11f5fff0ff8fe0e1f
 tags:
   4.0.0--hdfd78af_0: sha256:455f2f0024096890c38d29b2f36b73400806c943a0f9c4e091cb7b07fae9afa0
+  4.4.0--hdfd78af_0: sha256:6bfc038d3f2d2a0362dd3d98de1d53bc3326b255f4175ef11f5fff0ff8fe0e1f
 docker: quay.io/biocontainers/seurat-scripts
 aliases:
   r-seurat-scripts-post-install-tests.bats: /usr/local/bin/r-seurat-scripts-post-install-tests.bats
