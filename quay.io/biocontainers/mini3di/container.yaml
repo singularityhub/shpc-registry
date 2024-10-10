@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/mini3di
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mini3di
+latest:
+  0.2.1--pyh7e72e81_0: sha256:5cf59d7c1d62b2ca149621eb1179c843d506dc7c4fed9d2c4a67fd2d5017629a
+tags:
+  0.2.1--pyh7e72e81_0: sha256:5cf59d7c1d62b2ca149621eb1179c843d506dc7c4fed9d2c4a67fd2d5017629a
+docker: quay.io/biocontainers/mini3di
+aliases:
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
