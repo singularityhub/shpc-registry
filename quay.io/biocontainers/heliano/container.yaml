@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/heliano
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for heliano
+latest:
+  1.2.1--hdfd78af_0: sha256:1e0bbace606384159ddd8f6968f0558722bed4783f2e504c2aa8203c0467ab4d
+tags:
+  1.2.1--hdfd78af_0: sha256:1e0bbace606384159ddd8f6968f0558722bed4783f2e504c2aa8203c0467ab4d
+docker: quay.io/biocontainers/heliano
+aliases:
+  dialign2-2: /usr/local/bin/dialign2-2
+  gawk-5.3.1: /usr/local/bin/gawk-5.3.1
+  heliano: /usr/local/bin/heliano
+  heliano_cons: /usr/local/bin/heliano_cons
+  rnabob: /usr/local/bin/rnabob
+  genometools-config: /usr/local/bin/genometools-config
+  gt: /usr/local/bin/gt
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits
+  systematic-mutations: /usr/local/bin/systematic-mutations
+  xmlget: /usr/local/bin/xmlget
+  xmltext: /usr/local/bin/xmltext
+  aaindexextract: /usr/local/bin/aaindexextract
+  abiview: /usr/local/bin/abiview
+  acdgalaxy: /usr/local/bin/acdgalaxy
+  acdlog: /usr/local/bin/acdlog
+  acdpretty: /usr/local/bin/acdpretty
+  acdtable: /usr/local/bin/acdtable
+  acdtrace: /usr/local/bin/acdtrace
+  acdvalid: /usr/local/bin/acdvalid
+  aligncopy: /usr/local/bin/aligncopy
+  aligncopypair: /usr/local/bin/aligncopypair
+  antigenic: /usr/local/bin/antigenic
+  assemblyget: /usr/local/bin/assemblyget
+  backtranambig: /usr/local/bin/backtranambig
+  backtranseq: /usr/local/bin/backtranseq
+  banana: /usr/local/bin/banana
+  biosed: /usr/local/bin/biosed

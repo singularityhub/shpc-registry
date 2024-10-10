@@ -1,0 +1,67 @@
+url: https://biocontainers.pro/tools/tefinder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tefinder
+latest:
+  2.32--h4ac6f70_0: sha256:74475e58667b54fc3b40b8cf2905225710760485c9e46bc206a184d237f93737
+tags:
+  2.32--h4ac6f70_0: sha256:74475e58667b54fc3b40b8cf2905225710760485c9e46bc206a184d237f93737
+docker: quay.io/biocontainers/tefinder
+aliases:
+  NWalign: /usr/local/bin/NWalign
+  SWalign: /usr/local/bin/SWalign
+  TRsearch: /usr/local/bin/TRsearch
+  TSDsearch: /usr/local/bin/TSDsearch
+  align2bed: /usr/local/bin/align2bed
+  align2piler: /usr/local/bin/align2piler
+  align2recon: /usr/local/bin/align2recon
+  blaster2.32: /usr/local/bin/blaster2.32
+  cutterDB: /usr/local/bin/cutterDB
+  fastlalign: /usr/local/bin/fastlalign
+  filterAlign: /usr/local/bin/filterAlign
+  grouperThreads2.32: /usr/local/bin/grouperThreads2.32
+  halign: /usr/local/bin/halign
+  hrepeat: /usr/local/bin/hrepeat
+  hsearch: /usr/local/bin/hsearch
+  itrsearch: /usr/local/bin/itrsearch
+  ltrsearch: /usr/local/bin/ltrsearch
+  map2db: /usr/local/bin/map2db
+  map2flank3: /usr/local/bin/map2flank3
+  map2flank5: /usr/local/bin/map2flank5
+  map2flank53: /usr/local/bin/map2flank53
+  mapOp: /usr/local/bin/mapOp
+  mapdist: /usr/local/bin/mapdist
+  mapsize: /usr/local/bin/mapsize
+  matcherThreads2.32: /usr/local/bin/matcherThreads2.32
+  orienter: /usr/local/bin/orienter
+  pathnum2id: /usr/local/bin/pathnum2id
+  polyAtail: /usr/local/bin/polyAtail
+  refalign: /usr/local/bin/refalign
+  rpt_map: /usr/local/bin/rpt_map
+  setnum2id: /usr/local/bin/setnum2id
+  statalign: /usr/local/bin/statalign
+  tabnum2id: /usr/local/bin/tabnum2id
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits
+  systematic-mutations: /usr/local/bin/systematic-mutations
+  archive-ncbinlp: /usr/local/bin/archive-ncbinlp
+  archive-nihocc: /usr/local/bin/archive-nihocc
+  archive-nmcds: /usr/local/bin/archive-nmcds
+  archive-pmc: /usr/local/bin/archive-pmc
+  archive-taxonomy: /usr/local/bin/archive-taxonomy
+  args2slice: /usr/local/bin/args2slice
+  asn2ref: /usr/local/bin/asn2ref
+  bl2seq: /usr/local/bin/bl2seq
+  blastall: /usr/local/bin/blastall
+  blastclust: /usr/local/bin/blastclust
+  blastpgp: /usr/local/bin/blastpgp
+  blst2gm: /usr/local/bin/blst2gm
+  cit2pmid: /usr/local/bin/cit2pmid
+  combine-uid-lists: /usr/local/bin/combine-uid-lists
+  copymat: /usr/local/bin/copymat
+  difference-uid-lists: /usr/local/bin/difference-uid-lists
+  download-pmc: /usr/local/bin/download-pmc
+  ds2pme: /usr/local/bin/ds2pme
+  fastacmd: /usr/local/bin/fastacmd
+  fetch-local: /usr/local/bin/fetch-local
