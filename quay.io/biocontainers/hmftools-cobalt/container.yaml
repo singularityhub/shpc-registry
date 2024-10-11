@@ -2,13 +2,14 @@ url: https://biocontainers.pro/tools/hmftools-cobalt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hmftools-cobalt
 latest:
-  1.16--hdfd78af_0: sha256:5bde1a9253144b8c5e8ae59a0fe340ae4542ed9a03c60d03a6a5c8812e1ea954
+  2.0_beta--hdfd78af_0: sha256:f4d236e28b8236c1155605b4c2414e36fe4aa76a716a33f9c7c1fc42e34f2b7c
 tags:
   1.9--0: sha256:ae5a215a7bccd112701b9cbaf60fb747eb7eb528f2458e73b9927b8540ca8f00
   1.13--hdfd78af_1: sha256:e67c6fa7b201e25bfc16234553c29e632bffb451013cc7d98036a75aca446661
   1.11--hdfd78af_1: sha256:d3f5ba72c90284694d9948878530f3cb83a504e25e431032a8a6110eb2ecca2c
   1.10--0: sha256:3e61a06bd2c796e804e0ace76b379b397d98122ead2bd297e2ae1340fcbc5e48
   1.16--hdfd78af_0: sha256:5bde1a9253144b8c5e8ae59a0fe340ae4542ed9a03c60d03a6a5c8812e1ea954
+  2.0_beta--hdfd78af_0: sha256:f4d236e28b8236c1155605b4c2414e36fe4aa76a716a33f9c7c1fc42e34f2b7c
 docker: quay.io/biocontainers/hmftools-cobalt
 aliases:
   COBALT: /usr/local/bin/COBALT

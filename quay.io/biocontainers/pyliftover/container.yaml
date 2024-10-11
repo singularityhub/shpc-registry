@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pyliftover
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyliftover
 latest:
-  0.4--py_0: sha256:90ff168bb740462e99f707427365f17f892a89676df2739bea2002feb7194a0e
+  0.4.1--pyh7e72e81_0: sha256:228da4818172cf7bc8ef9b082b4cd221fdf2971866d2b1f2c489e8d986cc327a
 tags:
   0.4--py_0: sha256:90ff168bb740462e99f707427365f17f892a89676df2739bea2002feb7194a0e
+  0.4.1--pyh7e72e81_0: sha256:228da4818172cf7bc8ef9b082b4cd221fdf2971866d2b1f2c489e8d986cc327a
 docker: quay.io/biocontainers/pyliftover
 aliases:
   2to3-3.7: /usr/local/bin/2to3-3.7
