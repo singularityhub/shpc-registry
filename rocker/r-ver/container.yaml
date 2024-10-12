@@ -3,7 +3,7 @@ url: https://hub.docker.com/r/rocker/r-ver
 maintainer: '@marcodelapierre'
 description: Version-stable build of R
 latest:
-  4.4.1: sha256:397c7c2f95c3fc6fabe8abdb7b43910e6825836b834e8dd09ed3ea810a63326f
+  4.4.1: sha256:931f28e953ac2c22002644306c7e5ebf962100a59e5a966ddc5ccfb5cf622fa2
 tags:
   4.2.2: sha256:e868e617f2adb9740983d5fed65032afa9632308ab94bde02da09182e46f9389
   3.6.3: sha256:9414f76c5f91f24617b5275b8fe4f4ff1313b3b10698a525cac0063c01f2ca6d
@@ -15,7 +15,7 @@ tags:
   4.3.2: sha256:4e32addfc4da3e660f6e0d05ce5e43d3eceb9db58a60b9a142e0dde9a654ead1
   4.3.3: sha256:82a59feca3f9a639ca094d1f7f986959f0f279b8aa87b6bfed589478a52fc58b
   4.4.0: sha256:73adabf378930f8744f56bac1fe5e99870532eb4ced1a15075991bac909d21f3
-  4.4.1: sha256:397c7c2f95c3fc6fabe8abdb7b43910e6825836b834e8dd09ed3ea810a63326f
+  4.4.1: sha256:931f28e953ac2c22002644306c7e5ebf962100a59e5a966ddc5ccfb5cf622fa2
 filter:
 - ^[0-9]+[.][0-9]+[.][0-9]+$
 aliases:

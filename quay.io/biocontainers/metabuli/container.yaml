@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/metabuli
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metabuli
 latest:
-  1.0.5--pl5321h6a68c12_2: sha256:7b6f24892ca1173a57daad4782611047a684c6670bab7d0b3b0c6e114c95a3c6
+  1.0.8--pl5321h6a68c12_0: sha256:7b4e4dcb6f8fe5f410fa05f7de65b5ad8507c5ba2fbf907ebab03ab501689d2d
 tags:
   1.0.0--pl5321hf1761c0_0: sha256:491537c04d1f361894bd4746e3f84d606ea8ce8ef8587cb38c838dad52d50be6
   1.0.1--pl5321h6a68c12_0: sha256:b23c455f958185c6ae79ca4676789b11c8045477f3063d06d90829de9f337563
@@ -12,6 +12,7 @@ tags:
   1.0.5--pl5321h6a68c12_0: sha256:5ee939388fd6ae0dde57b3fde7d0252ba5436dc3dcc49b39d3a743e5bf2bdc47
   1.0.5--pl5321h6a68c12_1: sha256:36aacbefe2cbb29f3e9a077691a5f231d40c0ba43a4bd8531d4dd60c994e8222
   1.0.5--pl5321h6a68c12_2: sha256:7b6f24892ca1173a57daad4782611047a684c6670bab7d0b3b0c6e114c95a3c6
+  1.0.8--pl5321h6a68c12_0: sha256:7b4e4dcb6f8fe5f410fa05f7de65b5ad8507c5ba2fbf907ebab03ab501689d2d
 docker: quay.io/biocontainers/metabuli
 aliases:
   aria2c: /usr/local/bin/aria2c

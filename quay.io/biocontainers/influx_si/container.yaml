@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/influx_si
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for influx_si
 latest:
-  7.0.4--pyhdfd78af_0: sha256:0cf5b82451de6676d025d7a1afe315a2ef90de87552f84b77405c97ed2744346
+  7.1.0--pyhdfd78af_0: sha256:49a7149756af821f19be019eb7fbf80b84590dbf9e1c51d76c9495adf761a3e7
 tags:
   6.1--pyhdfd78af_0: sha256:ac0352104547261057cc19c24e0b82ff2385f894563b08cb339ff40ee9bb53e5
   7.0--pyhdfd78af_0: sha256:4980fbec71a4aa6708fad9a0c58d7d3cb9c523be75a9b085d926d829d285e961
@@ -10,6 +10,7 @@ tags:
   7.0.2--pyhdfd78af_0: sha256:e16fdf3ab854ec1bd7c4597f1589b411d1ad6a256c583b049ba02bb5602b6ec0
   7.0.3--pyhdfd78af_0: sha256:ac566930cd79720c82634e830e9ba96878fa100975cd0b2b07c6b650ecb1f615
   7.0.4--pyhdfd78af_0: sha256:0cf5b82451de6676d025d7a1afe315a2ef90de87552f84b77405c97ed2744346
+  7.1.0--pyhdfd78af_0: sha256:49a7149756af821f19be019eb7fbf80b84590dbf9e1c51d76c9495adf761a3e7
 docker: quay.io/biocontainers/influx_si
 aliases:
   ff2ftbl: /usr/local/bin/ff2ftbl
