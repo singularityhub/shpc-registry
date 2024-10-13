@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-desousa2013"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-desousa2013/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-desousa2013/container.yaml"
-updated_at: "2024-10-13 10:36:20.260782"
+updated_at: "2024-10-13 10:42:41.243162"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-desousa2013"
 
