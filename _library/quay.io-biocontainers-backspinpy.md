@@ -1,0 +1,234 @@
+---
+layout: container
+name:  "quay.io/biocontainers/backspinpy"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/backspinpy/container.yaml"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/backspinpy/container.yaml"
+updated_at: "2024-10-13 11:04:35.403787"
+latest: "0.2.1--pyh24bf2e0_1"
+container_url: "https://biocontainers.pro/tools/backspinpy"
+aliases:
+ - "backspin"
+ - "futurize"
+ - "pasteurize"
+ - "2to3-3.6"
+ - "idle3.6"
+ - "pydoc3.6"
+ - "python3.6"
+ - "python3.6-config"
+ - "python3.6m"
+ - "python3.6m-config"
+ - "pyvenv-3.6"
+versions:
+ - "0.2.1--pyh24bf2e0_1"
+description: "shpc-registry automated BioContainers addition for backspinpy"
+config: {"url": "https://biocontainers.pro/tools/backspinpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for backspinpy", "latest": {"0.2.1--pyh24bf2e0_1": "sha256:7f7b2b55b86da3b98274fe31bcbe847ac52a91a9013b5c6fd152aeb1dfceb934"}, "tags": {"0.2.1--pyh24bf2e0_1": "sha256:7f7b2b55b86da3b98274fe31bcbe847ac52a91a9013b5c6fd152aeb1dfceb934"}, "docker": "quay.io/biocontainers/backspinpy", "aliases": {"backspin": "/usr/local/bin/backspin", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/backspinpy.
+shpc-registry automated BioContainers addition for backspinpy
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/backspinpy
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/backspinpy:0.2.1--pyh24bf2e0_1
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/backspinpy/0.2.1--pyh24bf2e0_1
+$ module help quay.io/biocontainers/backspinpy/0.2.1--pyh24bf2e0_1
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### backspinpy-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### backspinpy-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### backspinpy-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### backspinpy-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### backspinpy-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### backspinpy-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### backspin
+
+```bash
+$ singularity exec <container> /usr/local/bin/backspin
+$ podman run --it --rm --entrypoint /usr/local/bin/backspin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/backspin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### futurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pasteurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/pasteurize
+$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

@@ -1,0 +1,414 @@
+---
+layout: container
+name:  "quay.io/biocontainers/cmsip"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cmsip/container.yaml"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cmsip/container.yaml"
+updated_at: "2024-10-13 10:43:12.305461"
+latest: "0.0.3.0--py_0"
+container_url: "https://biocontainers.pro/tools/cmsip"
+aliases:
+ - "LiBis"
+ - "bamsort.sh"
+ - "bbf"
+ - "bseqc2"
+ - "bseqc2mbiasplot.R"
+ - "bsmap"
+ - "cmsip"
+ - "fetchChromSizes"
+ - "mcall"
+ - "mcomp"
+ - "moabs"
+ - "numCI"
+ - "pefilter"
+ - "preprocess_novoalign.sh"
+ - "redepth.pl"
+ - "routines.pm"
+ - "template_for_cfg"
+ - "template_for_qsub"
+ - "trim_galore"
+ - "cutadapt"
+ - "fastqc"
+ - "gawk-5.1.0"
+ - "awk"
+ - "gawk"
+ - "pigz"
+ - "unpigz"
+ - "my_print_defaults"
+ - "mysql_config"
+ - "perror"
+versions:
+ - "0.0.3.0--py_0"
+description: "shpc-registry automated BioContainers addition for cmsip"
+config: {"url": "https://biocontainers.pro/tools/cmsip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cmsip", "latest": {"0.0.3.0--py_0": "sha256:5134df79cc98601e528dd3db93535769d0234c569a4c66081a3f52c2622c7a14"}, "tags": {"0.0.3.0--py_0": "sha256:5134df79cc98601e528dd3db93535769d0234c569a4c66081a3f52c2622c7a14"}, "docker": "quay.io/biocontainers/cmsip", "aliases": {"LiBis": "/usr/local/bin/LiBis", "bamsort.sh": "/usr/local/bin/bamsort.sh", "bbf": "/usr/local/bin/bbf", "bseqc2": "/usr/local/bin/bseqc2", "bseqc2mbiasplot.R": "/usr/local/bin/bseqc2mbiasplot.R", "bsmap": "/usr/local/bin/bsmap", "cmsip": "/usr/local/bin/cmsip", "fetchChromSizes": "/usr/local/bin/fetchChromSizes", "mcall": "/usr/local/bin/mcall", "mcomp": "/usr/local/bin/mcomp", "moabs": "/usr/local/bin/moabs", "numCI": "/usr/local/bin/numCI", "pefilter": "/usr/local/bin/pefilter", "preprocess_novoalign.sh": "/usr/local/bin/preprocess_novoalign.sh", "redepth.pl": "/usr/local/bin/redepth.pl", "routines.pm": "/usr/local/bin/routines.pm", "template_for_cfg": "/usr/local/bin/template_for_cfg", "template_for_qsub": "/usr/local/bin/template_for_qsub", "trim_galore": "/usr/local/bin/trim_galore", "cutadapt": "/usr/local/bin/cutadapt", "fastqc": "/usr/local/bin/fastqc", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/cmsip.
+shpc-registry automated BioContainers addition for cmsip
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/cmsip
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/cmsip:0.0.3.0--py_0
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/cmsip/0.0.3.0--py_0
+$ module help quay.io/biocontainers/cmsip/0.0.3.0--py_0
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### cmsip-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### cmsip-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### cmsip-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### cmsip-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### cmsip-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### cmsip-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### LiBis
+
+```bash
+$ singularity exec <container> /usr/local/bin/LiBis
+$ podman run --it --rm --entrypoint /usr/local/bin/LiBis   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/LiBis   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamsort.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamsort.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/bamsort.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamsort.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bbf
+
+```bash
+$ singularity exec <container> /usr/local/bin/bbf
+$ podman run --it --rm --entrypoint /usr/local/bin/bbf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bbf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bseqc2
+
+```bash
+$ singularity exec <container> /usr/local/bin/bseqc2
+$ podman run --it --rm --entrypoint /usr/local/bin/bseqc2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bseqc2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bseqc2mbiasplot.R
+
+```bash
+$ singularity exec <container> /usr/local/bin/bseqc2mbiasplot.R
+$ podman run --it --rm --entrypoint /usr/local/bin/bseqc2mbiasplot.R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bseqc2mbiasplot.R   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bsmap
+
+```bash
+$ singularity exec <container> /usr/local/bin/bsmap
+$ podman run --it --rm --entrypoint /usr/local/bin/bsmap   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bsmap   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmsip
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmsip
+$ podman run --it --rm --entrypoint /usr/local/bin/cmsip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmsip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fetchChromSizes
+
+```bash
+$ singularity exec <container> /usr/local/bin/fetchChromSizes
+$ podman run --it --rm --entrypoint /usr/local/bin/fetchChromSizes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fetchChromSizes   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mcall
+
+```bash
+$ singularity exec <container> /usr/local/bin/mcall
+$ podman run --it --rm --entrypoint /usr/local/bin/mcall   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mcall   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mcomp
+
+```bash
+$ singularity exec <container> /usr/local/bin/mcomp
+$ podman run --it --rm --entrypoint /usr/local/bin/mcomp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mcomp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### moabs
+
+```bash
+$ singularity exec <container> /usr/local/bin/moabs
+$ podman run --it --rm --entrypoint /usr/local/bin/moabs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/moabs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### numCI
+
+```bash
+$ singularity exec <container> /usr/local/bin/numCI
+$ podman run --it --rm --entrypoint /usr/local/bin/numCI   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/numCI   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pefilter
+
+```bash
+$ singularity exec <container> /usr/local/bin/pefilter
+$ podman run --it --rm --entrypoint /usr/local/bin/pefilter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pefilter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### preprocess_novoalign.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/preprocess_novoalign.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/preprocess_novoalign.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/preprocess_novoalign.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### redepth.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/redepth.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/redepth.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/redepth.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### routines.pm
+
+```bash
+$ singularity exec <container> /usr/local/bin/routines.pm
+$ podman run --it --rm --entrypoint /usr/local/bin/routines.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/routines.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### template_for_cfg
+
+```bash
+$ singularity exec <container> /usr/local/bin/template_for_cfg
+$ podman run --it --rm --entrypoint /usr/local/bin/template_for_cfg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/template_for_cfg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### template_for_qsub
+
+```bash
+$ singularity exec <container> /usr/local/bin/template_for_qsub
+$ podman run --it --rm --entrypoint /usr/local/bin/template_for_qsub   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/template_for_qsub   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### trim_galore
+
+```bash
+$ singularity exec <container> /usr/local/bin/trim_galore
+$ podman run --it --rm --entrypoint /usr/local/bin/trim_galore   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/trim_galore   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cutadapt
+
+```bash
+$ singularity exec <container> /usr/local/bin/cutadapt
+$ podman run --it --rm --entrypoint /usr/local/bin/cutadapt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cutadapt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastqc
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastqc
+$ podman run --it --rm --entrypoint /usr/local/bin/fastqc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastqc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gawk-5.1.0
+
+```bash
+$ singularity exec <container> /usr/local/bin/gawk-5.1.0
+$ podman run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### awk
+
+```bash
+$ singularity exec <container> /usr/local/bin/awk
+$ podman run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gawk
+
+```bash
+$ singularity exec <container> /usr/local/bin/gawk
+$ podman run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pigz
+
+```bash
+$ singularity exec <container> /usr/local/bin/pigz
+$ podman run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### unpigz
+
+```bash
+$ singularity exec <container> /usr/local/bin/unpigz
+$ podman run --it --rm --entrypoint /usr/local/bin/unpigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unpigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### my_print_defaults
+
+```bash
+$ singularity exec <container> /usr/local/bin/my_print_defaults
+$ podman run --it --rm --entrypoint /usr/local/bin/my_print_defaults   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/my_print_defaults   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysql_config
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysql_config
+$ podman run --it --rm --entrypoint /usr/local/bin/mysql_config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysql_config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perror
+
+```bash
+$ singularity exec <container> /usr/local/bin/perror
+$ podman run --it --rm --entrypoint /usr/local/bin/perror   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perror   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

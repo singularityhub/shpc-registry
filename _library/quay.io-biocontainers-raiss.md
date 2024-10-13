@@ -1,0 +1,196 @@
+---
+layout: container
+name:  "quay.io/biocontainers/raiss"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raiss/container.yaml"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/raiss/container.yaml"
+updated_at: "2024-10-13 10:35:10.866329"
+latest: "4.0.1--pyhdfd78af_0"
+container_url: "https://biocontainers.pro/tools/raiss"
+aliases:
+ - "raiss"
+ - "f2py3.9"
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
+versions:
+ - "3.1--pyhdfd78af_0"
+ - "4.0--pyhdfd78af_0"
+ - "4.0.1--pyhdfd78af_0"
+description: "shpc-registry automated BioContainers addition for raiss"
+config: {"url": "https://biocontainers.pro/tools/raiss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for raiss", "latest": {"4.0.1--pyhdfd78af_0": "sha256:30f1e618e6d62735c7dbf0f7313d0befca3d64755d2d105c62c43f86be32642b"}, "tags": {"3.1--pyhdfd78af_0": "sha256:6e7e7a148d3a6ef925059fa26f00a70bb65c104e31523b07e5b70a0f453b2f3a", "4.0--pyhdfd78af_0": "sha256:cb571ff93ace4ddbe91a827e643a923db6993f3ad6c9adb8a4a7f7eb71c6044f", "4.0.1--pyhdfd78af_0": "sha256:30f1e618e6d62735c7dbf0f7313d0befca3d64755d2d105c62c43f86be32642b"}, "docker": "quay.io/biocontainers/raiss", "aliases": {"raiss": "/usr/local/bin/raiss", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/raiss.
+shpc-registry automated BioContainers addition for raiss
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/raiss
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/raiss:4.0.1--pyhdfd78af_0
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/raiss/4.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/raiss/4.0.1--pyhdfd78af_0
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### raiss-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### raiss-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### raiss-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### raiss-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### raiss-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### raiss-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### raiss
+
+```bash
+$ singularity exec <container> /usr/local/bin/raiss
+$ podman run --it --rm --entrypoint /usr/local/bin/raiss   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raiss   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

@@ -1,0 +1,136 @@
+---
+layout: container
+name:  "quay.io/biocontainers/annembed"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annembed/container.yaml"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annembed/container.yaml"
+updated_at: "2024-10-13 10:38:59.958011"
+latest: "0.1.4--hdbdd923_0"
+container_url: "https://biocontainers.pro/tools/annembed"
+aliases:
+ - "annembed"
+versions:
+ - "0.1.1--hdbdd923_0"
+ - "0.1.2--hdbdd923_0"
+ - "0.1.4--hdbdd923_0"
+description: "singularity registry hpc automated addition for annembed"
+config: {"url": "https://biocontainers.pro/tools/annembed", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for annembed", "latest": {"0.1.4--hdbdd923_0": "sha256:d7caaaa5da81d9b5914d63030316d396d7260bd85969009c2ef6607c386479cf"}, "tags": {"0.1.1--hdbdd923_0": "sha256:076f6e8d4dee428ac1a14e199fa64031735fca3b82e3366a5ea1bdcd4f7b929f", "0.1.2--hdbdd923_0": "sha256:35c900ef8a6e810d727a52c12ec21edda84c8e89c17633517990c9ac620cad2b", "0.1.4--hdbdd923_0": "sha256:d7caaaa5da81d9b5914d63030316d396d7260bd85969009c2ef6607c386479cf"}, "docker": "quay.io/biocontainers/annembed", "aliases": {"annembed": "/usr/local/bin/annembed"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/annembed.
+singularity registry hpc automated addition for annembed
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/annembed
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/annembed:0.1.4--hdbdd923_0
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/annembed/0.1.4--hdbdd923_0
+$ module help quay.io/biocontainers/annembed/0.1.4--hdbdd923_0
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### annembed-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### annembed-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### annembed-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### annembed-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### annembed-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### annembed-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### annembed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annembed
+$ podman run --it --rm --entrypoint /usr/local/bin/annembed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annembed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)
