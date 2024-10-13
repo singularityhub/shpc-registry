@@ -31,6 +31,7 @@ jobs:
           export PATH="/usr/share/miniconda/bin:$PATH"
           source activate shpc
           pip install git+https://github.com/singularityhub/singularity-hpc@main
+          pip install setuptools
 
       - name: Generate docs
         run: |
