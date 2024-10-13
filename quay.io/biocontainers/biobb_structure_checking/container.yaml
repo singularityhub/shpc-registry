@@ -2,7 +2,7 @@ url: https://biocontainers.pro/tools/biobb_structure_checking
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biobb_structure_checking
 latest:
-  3.13.4--pyhca03a8a_0: sha256:191062dfae859a0beb89bb032f8427278891e94c9d888a319ed21cf1ea17391a
+  3.13.5--pyhdc42f0e_0: sha256:a87f60fd5046115cac870ca6e6101a30c2f715c6c0c2eb00a837907733d66bc8
 tags:
   3.9.9--pyhb7b1952_0: sha256:847ce89ff50a2bbde106cc836f150ce6c65f4e7beacd874132418f8d3c6874ac
   3.10.1--pyhb7b1952_0: sha256:38ae250f320a4c6c14a7d3601a949c50fc6bcfe1370576cb6442255e136194da
@@ -11,6 +11,7 @@ tags:
   3.13.0--pyhca03a8a_0: sha256:24e7ed4b672fd388503586be66dd3ff9e4853430a33b435a2cec1b258a4a5cc7
   3.13.3--pyhca03a8a_0: sha256:4a5b42c909b6c504210830dfcdb43706ddc8ae6054f8bd5669f24db974c136ab
   3.13.4--pyhca03a8a_0: sha256:191062dfae859a0beb89bb032f8427278891e94c9d888a319ed21cf1ea17391a
+  3.13.5--pyhdc42f0e_0: sha256:a87f60fd5046115cac870ca6e6101a30c2f715c6c0c2eb00a837907733d66bc8
 docker: quay.io/biocontainers/biobb_structure_checking
 aliases:
   check_structure: /usr/local/bin/check_structure
