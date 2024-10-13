@@ -37,6 +37,7 @@ jobs:
         run: |
           export PATH="/usr/share/miniconda/bin:$PATH"
           source activate shpc
+          mkdir -p _library
           /bin/bash generate.sh ./tmp-registry
           rm -r tmp-registry
 
