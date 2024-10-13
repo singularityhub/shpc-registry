@@ -39,6 +39,7 @@ jobs:
           source activate shpc
           mkdir -p _library
           /bin/bash generate.sh ./tmp-registry
+          git add _library/*
           rm -r tmp-registry
 
       - name: Deploy 🚀
