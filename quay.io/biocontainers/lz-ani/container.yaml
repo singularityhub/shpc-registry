@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/lz-ani
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for lz-ani
+latest:
+  1.2.0--h9ee0642_0: sha256:e771c92ff432f9e4255cfb4d6c1c926f8918a2b66d278cc606779e15022bff13
+tags:
+  1.2.0--h9ee0642_0: sha256:e771c92ff432f9e4255cfb4d6c1c926f8918a2b66d278cc606779e15022bff13
+docker: quay.io/biocontainers/lz-ani
+aliases:
+  lz-ani: /usr/local/bin/lz-ani
