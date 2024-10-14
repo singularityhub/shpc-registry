@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/sfold
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sfold
+latest:
+  2.2--pl5321r43h031d066_0: sha256:f6e4823ce12a6035cdb3aaf7553d0086ca94eb9ba67762c298f2773705bfad66
+tags:
+  2.2--pl5321r43h031d066_0: sha256:f6e4823ce12a6035cdb3aaf7553d0086ca94eb9ba67762c298f2773705bfad66
+docker: quay.io/biocontainers/sfold
+aliases:
+  bp_count.pl: /usr/local/bin/bp_count.pl
+  bprob.X86_64.LINUX: /usr/local/bin/bprob.X86_64.LINUX
+  find.dist.X86_64.LINUX: /usr/local/bin/find.dist.X86_64.LINUX
+  findfe: /usr/local/bin/findfe
+  findfe.X86_64.LINUX: /usr/local/bin/findfe.X86_64.LINUX
+  gawk-5.3.1: /usr/local/bin/gawk-5.3.1
+  gcg2bp.pl: /usr/local/bin/gcg2bp.pl
+  getu0.X86_64.LINUX: /usr/local/bin/getu0.X86_64.LINUX
+  getu0.X86_64.SUNOS: /usr/local/bin/getu0.X86_64.SUNOS
+  hybrid_en.pl: /usr/local/bin/hybrid_en.pl
+  sclass.X86_64.LINUX: /usr/local/bin/sclass.X86_64.LINUX
+  sfold: /usr/local/bin/sfold
+  sfold.X86_64.LINUX: /usr/local/bin/sfold.X86_64.LINUX
+  sfold.pl: /usr/local/bin/sfold.pl
+  sfold.pl~: /usr/local/bin/sfold.pl~
+  showsysinfo.sh: /usr/local/bin/showsysinfo.sh
+  egrep: /usr/local/bin/egrep
+  fgrep: /usr/local/bin/fgrep
+  grep: /usr/local/bin/grep
+  gawkbug: /usr/local/bin/gawkbug
+  awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

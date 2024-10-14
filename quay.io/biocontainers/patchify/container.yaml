@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/patchify
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for patchify
+latest:
+  0.2.3--pyhdfd78af_0: sha256:217fd9c70afe43cc3ffd07e1a18084364d8c6473126e920adfa73848fd01a6bd
+tags:
+  0.2.3--pyhdfd78af_0: sha256:217fd9c70afe43cc3ffd07e1a18084364d8c6473126e920adfa73848fd01a6bd
+docker: quay.io/biocontainers/patchify
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
